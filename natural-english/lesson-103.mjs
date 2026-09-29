@@ -21,7 +21,7 @@ const questions=[
     '到達後再問具體會合位置；I made it 表達已到，不再說自己只是在路上。')
 ];
 const steps=[
-  {id:'native-103-v2-audio',style:'audio',label:'聽出進度',title:'終於到了',intro:'先只聽一句話。',model:'I made it!',zh:'我到了！',audioOnly:true,questions:['native-103-v2-audio']},
+  {id:'native-103-v2-audio',style:'audio',label:'聽出進度',title:'終於到了',intro:'判斷說話者是否已抵達。',model:'I made it!',zh:'我到了！',audioOnly:true,questions:['native-103-v2-audio']},
   {id:'native-103-v2-scene',style:'scene',label:'門口報位',title:'已到餐廳外',intro:'把訊息與真實位置對上。',questions:['native-103-v2-scene']},
   {id:'native-103-v2-detail',style:'detail',label:'補齊細節',title:'到哪裡？準時嗎？',intro:'看完整句新增了甚麼資訊。',questions:['native-103-v2-detail']},
   {id:'native-103-v2-continue',style:'continue',label:'接著會合',title:'朋友在裡面',intro:'找出下一個需要確認的細節。',questions:['native-103-v2-continue']},

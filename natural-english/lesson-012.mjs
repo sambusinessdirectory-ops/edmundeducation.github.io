@@ -3,7 +3,7 @@ const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,p
 
 const questions=[
   mc('native-012-v2-audio','audio',
-    '先只聽一句話。說話者是在問手機的甚麼事？',
+    '聽這句尋找手機的話。說話者想知道甚麼？',
     ['剛才把手機放在哪裡。','手機能不能充電。','手機是誰買的。','手機是否真的被偷。'],
     '剛才把手機放在哪裡。',
     'Where did I put my phone? 是回想自己剛才放手機的位置，不等於確定被偷。'),

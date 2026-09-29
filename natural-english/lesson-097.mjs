@@ -9,7 +9,7 @@ const questions=[
     '讓人有時間讓開，必要時再說明湯很熱。','提醒應在經過前說，讓人能反應；熱湯也值得另外說明。'),
   mc('native-097-v2-branch','branch','你說 Excuse me, coming through。前面的人轉身並讓開，下一句最自然是甚麼？',
     ['Thanks.','You should have moved sooner.','I never needed to pass.','Please block me again.'],
-    'Thanks.','對方已讓路，簡短道謝即可自然結束這一回合。'),
+    'Thanks.','前面的人已聽到提醒並讓出通道，這時簡短道謝便可自然結束這一回合，不必再重複要求讓路。'),
   mc('native-097-v2-scene','scene','比較 Coming through 與 Can I get by? 哪個用法更貼近你正在穿過一群人、需要提醒沿途的人？',
     ['Coming through.','Can I get by?','Have you arrived?','Where is the exit?'],
     'Coming through.','Coming through 像向周圍人發出的通行提醒；Can I get by? 更像向眼前阻路的人提出請求。'),

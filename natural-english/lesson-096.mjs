@@ -15,7 +15,7 @@ const questions=[
     '先用 Excuse me 或 Sorry to bother you；再把需要經過說清楚，給對方移動的機會。')
 ];
 const steps=[
-  {id:'native-096-v2-audio',style:'audio',label:'聽懂請求',title:'想從旁邊經過',intro:'先只聽一句話。',model:'Can I get by?',zh:'可以讓我過去嗎？',audioOnly:true,questions:['native-096-v2-audio']},
+  {id:'native-096-v2-audio',style:'audio',label:'聽懂請求',title:'想從旁邊經過',intro:'聽出說話者想移動的位置。',model:'Can I get by?',zh:'可以讓我過去嗎？',audioOnly:true,questions:['native-096-v2-audio']},
   {id:'native-096-v2-tone',style:'tone',label:'影院座位',title:'先讓人知道你要過去',intro:'比較有禮與突兀的開口。',questions:['native-096-v2-tone']},
   {id:'native-096-v2-rewrite',style:'rewrite',label:'改自然一點',title:'不必逐字說「你的身體」',intro:'用日常請求替換生硬翻譯。',questions:['native-096-v2-rewrite']},
   {id:'native-096-v2-speak',style:'speak',label:'即時開口',title:'飛機走道',intro:'先自己說；錄音或跳過後才聽示範。',model:'Excuse me, can I get by?',zh:'不好意思，可以讓我過去嗎？',speakingPrompt:'你想從坐在外側的乘客旁邊經過。',recording:'phrase',questions:[]},

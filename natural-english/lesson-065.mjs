@@ -10,7 +10,7 @@ const questions=[
     '瓶子是 cork-sealed，需要拔塞工具。','需要甚麼開瓶工具由封口方式決定；標籤和高度不決定是否要 corkscrew。'),
   mc('native-065-v2-explain','explain','為甚麼對旋蓋酒瓶問 Do we have a corkscrew? 可能多此一舉？',
     ['旋蓋通常直接扭開，不需要拔軟木塞。','旋蓋瓶裏一定沒有酒。','corkscrew 只能用於啤酒。','所有瓶子都要先鑽洞。'],
-    '旋蓋通常直接扭開，不需要拔軟木塞。','先看瓶口；有軟木塞才需要對應的工具。'),
+    '旋蓋通常直接扭開，不需要拔軟木塞。','先看瓶口的封口方式：旋蓋可以直接扭開，只有軟木塞瓶才需要 corkscrew 來拔塞。'),
   mc('native-065-v2-reverse','reverse','朋友問 What do we need to open this corked bottle? 你應答哪個工具？',
     ['A corkscrew.','A hair tie.','Nail clippers.','A cotton swab.'],
     'A corkscrew.','問題已說明瓶口有 cork；corkscrew 正是用來拔它。'),

@@ -21,7 +21,7 @@ const questions=[
     '交代「剛叫到」和「可入座」兩件事；別把叫名字誤說成打電話。')
 ];
 const steps=[
-  {id:'native-322-v2-audio',style:'audio',label:'聽出進度',title:'候位終於輪到你',intro:'先只聽一句話。',model:'Our table is ready.',zh:'我們的桌位準備好了。',audioOnly:true,questions:['native-322-v2-audio']},
+  {id:'native-322-v2-audio',style:'audio',label:'聽出進度',title:'候位終於輪到你',intro:'留意候位是否已結束。',model:'Our table is ready.',zh:'我們的桌位準備好了。',audioOnly:true,questions:['native-322-v2-audio']},
   {id:'native-322-v2-detail',style:'detail',label:'抓住前一句',title:'店員剛叫到我們',intro:'看看完整消息比短句多了甚麼。',questions:['native-322-v2-detail']},
   {id:'native-322-v2-branch',style:'branch',label:'回應職員',title:'叫的是你的名字',intro:'自然確認並道謝。',questions:['native-322-v2-branch']},
   {id:'native-322-v2-explain',style:'explain',label:'餐廳用語',title:'table 不只是家具',intro:'按候位場景理解 table。',questions:['native-322-v2-explain']},

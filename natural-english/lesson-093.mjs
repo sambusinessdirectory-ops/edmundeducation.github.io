@@ -18,7 +18,7 @@ const questions=[
     'running five minutes late 是相對約定時間的延誤；說出約六點零五分，讓對方直接知道何時等到你。')
 ];
 const steps=[
-  {id:'native-093-v2-audio',style:'audio',label:'聽懂延誤',title:'比約定時間晚',intro:'先只聽一句話。',model:'I’m running five minutes late.',zh:'我會晚五分鐘。',audioOnly:true,questions:['native-093-v2-audio']},
+  {id:'native-093-v2-audio',style:'audio',label:'聽懂延誤',title:'比約定時間晚',intro:'留意遲到多久，而不是還要走多久。',model:'I’m running five minutes late.',zh:'我會晚五分鐘。',audioOnly:true,questions:['native-093-v2-audio']},
   {id:'native-093-v2-tone',style:'tone',label:'通知等候者',title:'先說對方需要知道的',intro:'比較幾種通知遲到的語氣。',questions:['native-093-v2-tone']},
   {id:'native-093-v2-rewrite',style:'rewrite',label:'自然語序',title:'不是逐字翻譯',intro:'把延誤時間說得自然。',questions:['native-093-v2-rewrite']},
   {id:'native-093-v2-speak',style:'speak',label:'即時口說',title:'遲到約十分鐘',intro:'先自己說；錄音或跳過後才聽示範。',model:'I’m running about ten minutes late.',zh:'我大約會晚十分鐘。',speakingPrompt:'交通慢了，你預計比約定時間晚十分鐘。怎樣向朋友說？',recording:'phrase',questions:[]},

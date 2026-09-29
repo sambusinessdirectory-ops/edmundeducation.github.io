@@ -1,5 +1,5 @@
-import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc} from './catalogue.mjs?v=20260929-lesson102v4';
-import {audioManifest} from './audio/manifest.mjs?v=20260929-lesson102v4';
+import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc} from './catalogue.mjs?v=20260929-full-redesign-v1';
+import {audioManifest} from './audio/manifest.mjs?v=20260929-full-redesign-v1';
 import {mountRecorder,listRecordings,storeRecording} from './recording.mjs?v=20260929-lesson102v4';
 const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null;const voiceUrls=new Map();
 const $=s=>document.querySelector(s);let client,user=null,events=[],outbox=[],timeDays=[],inputs={},run=null,index=0,generation=0,syncing=null,ready=false,cleanup=()=>{},feedback={},seconds=0,lastTick=Date.now(),lastAction=Date.now(),storageFailed=false,current=null;

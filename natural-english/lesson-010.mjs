@@ -25,9 +25,9 @@ const questions=[
 ];
 
 const steps=[
+  {id:'native-010-v2-audio',style:'audio',label:'只聽聲音',title:'這個請求指向甚麼？',intro:'答完才看逐字稿；先從聲音判斷。',model:'Can you make it a little cooler?',zh:'可以涼一點嗎？',audioOnly:true,questions:['native-010-v2-audio']},
   {id:'native-010-v2-reverse',style:'reverse',label:'反向理解',title:'從英文還原真正的請求',intro:'先理解整句意思，不急着照抄。',questions:['native-010-v2-reverse']},
   {id:'native-010-v2-explain',style:'explain',label:'說明分寸',title:'要涼一點，不是命令開到最冷',intro:'看看禮貌和程度如何改變句子的效果。',questions:['native-010-v2-explain']},
-  {id:'native-010-v2-audio',style:'audio',label:'只聽聲音',title:'這個請求指向甚麼？',intro:'答完才看逐字稿；先從聲音判斷。',model:'Can you make it a little cooler?',zh:'可以涼一點嗎？',audioOnly:true,questions:['native-010-v2-audio']},
   {id:'native-010-v2-speak',style:'speak',label:'即時請求',title:'酒店房間太熱，輪到你說',intro:'先自己向職員提出請求，錄音或跳過後才有示範。',model:'Can you make it a little cooler?',zh:'可以涼一點嗎？',speakingPrompt:'酒店職員：Is the room comfortable? 房間有點熱，你只想它稍微涼一點。',recording:'phrase',questions:[]},
   {id:'native-010-v2-final',style:'final',label:'車內挑戰',title:'轉到車內，也能自然提出請求',intro:'不給選項；自己選擇合適的禮貌問句。',questions:['native-010-v2-final']}
 ];

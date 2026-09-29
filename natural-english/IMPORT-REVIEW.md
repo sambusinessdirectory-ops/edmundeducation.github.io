@@ -21,3 +21,5 @@
 | 338 | `338_書頁折角做記號_Native English.pdf` | PDF 內容是「紙張邊角被折到」，缺少書頁折角作記號的教學。 |
 | 474 | `474_滑鼠按一下卻常常自己變成兩下_Native English.pdf` | PDF 內容仍是第 473 課「下載卡在 99%」，與滑鼠雙擊檔名不符。 |
 | 475 | `475_驗證碼一直沒收到_Native English.pdf` | PDF 內容仍是第 472 課「App 卡在載入」，與驗證碼檔名不符。 |
+
+第 452、453 課另有一組已核對的互換檔名：`452_珍珠／果粒把飲筒堵住_Native English.pdf` 的內文和錄音教 *The paper straw has gone soggy*；`453_紙飲筒泡太久變軟_Native English.pdf` 的內文和錄音教 *The straw is clogged*。新版課程依課名重新配對兩組英文與錄音，這兩課不在上述暫緩清單內。原始 PDF 檔名仍待更正，以免日後再次匯入時錯配。

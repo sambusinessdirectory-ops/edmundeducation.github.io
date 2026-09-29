@@ -7,7 +7,7 @@ const questions=[
     '自己取用眼前提供的食物。','Help yourself. 在食物已供客人取用時，是「請自己拿／不用客氣」。'),
   mc('native-069-v2-scene','scene','朋友到你家，桌上有零食。他問 Can I have some chips? 你樂意讓他自己拿。哪句自然？',
     ['Of course. Help yourself.','No. Help me eat all of it.','Please prepare dinner for me.','I have no idea where the chips are.'],
-    'Of course. Help yourself.','先允許，再表示對方可以自己從桌上取用。'),
+    'Of course. Help yourself.','朋友問的是桌上的薯片；先答應，再用 Help yourself 表示他可以自己拿，不用等你逐份遞給他。'),
   mc('native-069-v2-transfer','transfer','兩位客人同時來，你想對兩人說「桌上點心請自己拿」。哪種形式配合兩位聽眾？',
     ['Help yourselves to the snacks.','Help yourself to the snacks.','Help myself to the snacks.','Help him to the snacks.'],
     'Help yourselves to the snacks.','對多位客人說話時，反身代名詞要用 yourselves。'),

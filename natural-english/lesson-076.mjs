@@ -10,7 +10,7 @@ const questions=[
     "Hey, just checking in. How have you been?",'簡短表明你在關心，提出開放問題；不要求對方立即交代。'),
   mc('native-076-v2-branch','branch','朋友回 I’m hanging in there.。你想提供支持，又不想把對方逼着細說。哪句較好？',
     ["I'm here if you want to talk.","Tell me every detail right now.","Everything must be fine, then.","You are not allowed to be stressed."],
-    "I'm here if you want to talk.",'提供可選擇的支持，尊重對方是否想談。'),
+    "I'm here if you want to talk.",'這句表明你願意聆聽，同時把是否細說的決定留給朋友；對方說還在撐，並不等於想立刻解釋一切。'),
   open('native-076-v2-continue','continue','朋友回 Thanks for checking in. I’m doing a bit better. 你要用一句簡短英文接住好消息。',
     ["I'm glad to hear you're doing a bit better.","That's good to hear. Let me know if you need anything.","I'm glad to hear it. Take care."],
     '回應對方透露的「好一點了」即可，不必把關心變成連串追問。'),

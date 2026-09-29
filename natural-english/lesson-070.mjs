@@ -12,7 +12,7 @@ const questions=[
     ["I'm good to go.","I'm ready to go.","I'm all set. Let's go."],
     'good to go 和 ready to go 都自然；這裏重點是已準備好，不需要對方再等。'),
   open('native-070-v2-final','final','最後挑戰：朋友在樓下等，你剛拿好鎖匙和外套，現在可以下樓出發。傳兩句簡短英文訊息：先說你已準備好，再說你現在下來。',
-    ["I'm good to go. I'm coming down now.","I'm ready to go. I'm coming down now.","I'm all set. I'll come down now."],
+    ["I'm good to go now. I'm coming downstairs to meet you.","I'm ready to go. I'll come down to meet you now.","I'm all set and ready to leave. I'm coming down now."],
     '把「準備好了」和「正在下樓」分開交代，朋友便知道不用再等你收拾。')
 ];
 

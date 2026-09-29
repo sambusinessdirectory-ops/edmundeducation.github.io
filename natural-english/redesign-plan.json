@@ -21,15 +21,15 @@
     "audio": 459,
     "branch": 125,
     "reverse": 116,
-    "repair": 125,
+    "repair": 124,
     "contrast": 123,
     "detail": 125,
     "rewrite": 123,
     "continue": 125,
-    "speak": 354,
+    "speak": 357,
     "transfer": 125,
     "explain": 125,
-    "final": 358
+    "final": 361
   },
   "rows": [
     {
@@ -84,9 +84,9 @@
       "title": "可以涼一點嗎？",
       "family": "request",
       "styles": [
+        "audio",
         "reverse",
         "explain",
-        "audio",
         "speak",
         "final"
       ],
@@ -318,11 +318,12 @@
       "title": "可以試穿嗎？",
       "family": "request",
       "styles": [
+        "audio",
         "reverse",
         "tone",
-        "audio",
         "branch",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "a1d85dcfeb35f14f8bab1a5ee996547338ed3693d9e28245b25efe9cd42d6070",
       "status": "draft-needs-editorial-review"
@@ -1529,14 +1530,14 @@
       "title": "不小心睡著",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
         "transfer",
-        "final",
         "continue",
-        "audio"
+        "final"
       ],
       "sourceSha256": "c4af68a0bfc226c486059a0e2c140d67855436b660c580da2882027e71465008",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 115,
@@ -1544,15 +1545,15 @@
       "title": "蘋果、水果撞傷一塊",
       "family": "action",
       "styles": [
-        "scene",
-        "explain",
-        "repair",
         "audio",
+        "scene",
         "detail",
-        "speak"
+        "repair",
+        "speak",
+        "explain"
       ],
       "sourceSha256": "c77fbeeaf28760ba5b5ffe67cca13e1282264405ca759de3c57f9b48e660e5d8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 116,
@@ -1560,14 +1561,14 @@
       "title": "水槽水下得很慢",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "speak",
-        "final",
-        "audio",
-        "transfer"
+        "transfer",
+        "final"
       ],
       "sourceSha256": "a46fd51b77f1f0cf9860dedab45b4f004135aa946c98a4cf787a23a6ecc61376",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 117,
@@ -1575,15 +1576,15 @@
       "title": "門可以關上，但扣不上",
       "family": "action",
       "styles": [
+        "audio",
+        "detail",
         "repair",
         "explain",
-        "detail",
         "continue",
-        "audio",
         "branch"
       ],
       "sourceSha256": "fdc141d883d2d5e329bc0ac6ac182416a584d13804314b7aaad2130c843b6a4f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 118,
@@ -1591,15 +1592,15 @@
       "title": "想叫人窗戶只開一點點",
       "family": "action",
       "styles": [
-        "detail",
         "audio",
+        "detail",
         "repair",
         "continue",
-        "final",
-        "branch"
+        "branch",
+        "final"
       ],
       "sourceSha256": "48d642fc76495555524df1cc6aa17e9e52c15904018ec0e4bb5be2ee1d376446",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 119,
@@ -1607,14 +1608,14 @@
       "title": "醫生／美髮店同一時間排了兩個客人",
       "family": "action",
       "styles": [
-        "final",
-        "speak",
+        "audio",
         "scene",
+        "speak",
         "transfer",
-        "audio"
+        "final"
       ],
       "sourceSha256": "c8b92dee489d59d03be1e6ff2845769430e769ef9075a8ac65961414daf15102",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 120,
@@ -1622,15 +1623,15 @@
       "title": "有人取消，所以突然空出一個預約時間",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
-        "continue",
         "detail",
         "tone",
         "branch",
-        "audio"
+        "continue"
       ],
       "sourceSha256": "93b224bb3daf66ed5b0d4fb68ad2ece860051c99b8cc495cab0e08b487786bed",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 121,
@@ -1638,14 +1639,14 @@
       "title": "外送少了一樣東西",
       "family": "action",
       "styles": [
+        "audio",
         "repair",
         "explain",
-        "audio",
         "speak",
         "final"
       ],
       "sourceSha256": "8c201f948392795f0f321dbfaef26dd65a286540160a0480fcf910cb60dcc900",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 122,
@@ -1653,14 +1654,14 @@
       "title": "餐點做錯，退回廚房",
       "family": "object",
       "styles": [
+        "audio",
         "reverse",
         "contrast",
         "speak",
-        "final",
-        "audio"
+        "final"
       ],
       "sourceSha256": "a66563ef7515ef1f0b8ccb6ea58e66294c0d9c2fa02a9bae3f164d0bd34f7541",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 123,
@@ -1670,12 +1671,12 @@
       "styles": [
         "audio",
         "continue",
+        "speak",
         "transfer",
-        "final",
-        "speak"
+        "final"
       ],
       "sourceSha256": "1cd5aa2711c0b3dfc632ae76131588b06cdb1be5e432ad121f1fe90a072c33c9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 124,
@@ -1684,13 +1685,13 @@
       "family": "action",
       "styles": [
         "audio",
+        "detail",
         "tone",
         "speak",
-        "detail",
         "final"
       ],
       "sourceSha256": "d8eac3c8746a50db06956a374be1fec5e7310605ef2c9bfd5a89a788a9790f3d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 125,
@@ -1698,14 +1699,14 @@
       "title": "餐廳把兩桌的餐點弄反",
       "family": "action",
       "styles": [
+        "audio",
         "repair",
         "speak",
-        "audio",
-        "final",
-        "branch"
+        "branch",
+        "final"
       ],
       "sourceSha256": "aa66c5488b40713f9efc431bbb6b67169ab32b1018a857e2b78d4b1bc0e5a8e8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 126,
@@ -1713,14 +1714,14 @@
       "title": "訊息顯示對方已讀",
       "family": "object",
       "styles": [
-        "contrast",
-        "reverse",
         "audio",
-        "final",
-        "speak"
+        "reverse",
+        "contrast",
+        "speak",
+        "final"
       ],
       "sourceSha256": "502e9c0b0a115bc37d1e6484ddb1aa017d539f7fed75bf64f1ab1f3e4f645ecf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 127,
@@ -1728,14 +1729,14 @@
       "title": "對方已讀但一直沒回",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "speak",
-        "audio",
         "transfer",
         "final"
       ],
       "sourceSha256": "2af05f74ad8006827663e53b228441a7082aa8c0e83e9fad6b10cb1b3d92dbd1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 128,
@@ -1744,13 +1745,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "speak",
-        "final",
+        "scene",
         "tone",
-        "scene"
+        "speak",
+        "final"
       ],
       "sourceSha256": "ccb961e251d7be467dffa8781384c9723c77365453a429bcb8f1fb69ade7aff3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 129,
@@ -1758,14 +1759,14 @@
       "title": "同一筆被刷了兩次",
       "family": "action",
       "styles": [
-        "scene",
-        "final",
         "audio",
+        "scene",
+        "speak",
         "transfer",
-        "speak"
+        "final"
       ],
       "sourceSha256": "278c52c2ad4f6888b82da4e2d3a3e71eab111019204acda67b97ae3c0659053a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 130,
@@ -1773,15 +1774,15 @@
       "title": "店員多收你錢",
       "family": "action",
       "styles": [
-        "final",
         "audio",
+        "detail",
         "rewrite",
         "speak",
         "continue",
-        "detail"
+        "final"
       ],
       "sourceSha256": "530c52d3eb80adc4f5a2b9f4e05065b5208c854a5ee9046a625d28027327f93d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 131,
@@ -1789,14 +1790,14 @@
       "title": "這東西標籤上寫 $10",
       "family": "action",
       "styles": [
-        "speak",
+        "audio",
         "explain",
         "repair",
-        "final",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "e903b97158884bf46662f6b0acbdf24247bbaabaaf87e0cdbe7093fe695f20b7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 132,
@@ -1804,14 +1805,14 @@
       "title": "商品掃描出來的價格跟標價不同",
       "family": "action",
       "styles": [
-        "final",
-        "speak",
         "audio",
+        "tone",
         "branch",
-        "tone"
+        "speak",
+        "final"
       ],
       "sourceSha256": "4e2b4a168d1ab36ebe6f3460cd3d476cf9a47780f6791f6104e1c284a24ac7dc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 133,
@@ -1819,14 +1820,14 @@
       "title": "毛巾放濕太久有潮霉味",
       "family": "condition",
       "styles": [
-        "transfer",
-        "contrast",
-        "repair",
         "audio",
+        "contrast",
+        "transfer",
+        "repair",
         "rewrite"
       ],
       "sourceSha256": "98062b20ab742185c0a19c64f8d0b0e0c4bd87afce090bbbe971ad5fff322b34",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 134,
@@ -1834,15 +1835,15 @@
       "title": "有油饐味",
       "family": "condition",
       "styles": [
-        "contrast",
         "audio",
-        "final",
+        "scene",
+        "contrast",
         "rewrite",
         "speak",
-        "scene"
+        "final"
       ],
       "sourceSha256": "64d1c468bc36899a7f67de384d4a9d925dcc83725f06cde389197e15b2a6b30d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 135,
@@ -1850,14 +1851,14 @@
       "title": "生菜放久變軟、垂下來",
       "family": "condition",
       "styles": [
-        "rewrite",
-        "detail",
-        "final",
         "audio",
-        "contrast"
+        "detail",
+        "contrast",
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "6ba1798b372acac3780e2b39287392bcd4db42915640dbc3ccd741e17229adc0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 136,
@@ -1865,14 +1866,14 @@
       "title": "手機螢幕全是指紋油印",
       "family": "action",
       "styles": [
-        "continue",
-        "final",
         "audio",
         "explain",
-        "speak"
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "ea270ba79fa0234ef1c93065f27cb0973a89e688fb30efe97ca33a9a1a99d377",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 137,
@@ -1882,12 +1883,12 @@
       "styles": [
         "audio",
         "detail",
+        "branch",
         "speak",
-        "final",
-        "branch"
+        "final"
       ],
       "sourceSha256": "1b4c68099442fe65849127f4d05ff982e56edc269046a5585e1be1d675099736",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 138,
@@ -1895,15 +1896,15 @@
       "title": "餐廳那種有靠背的卡座",
       "family": "object",
       "styles": [
-        "speak",
         "audio",
         "reverse",
         "contrast",
         "repair",
+        "speak",
         "final"
       ],
       "sourceSha256": "2fb10284b4aee6669166ec449d65ba95d38f4a6870c24c3ff12683c1e5c081b2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 139,
@@ -1911,15 +1912,15 @@
       "title": "給小孩坐的高腳椅",
       "family": "object",
       "styles": [
-        "contrast",
         "audio",
-        "tone",
+        "contrast",
         "reverse",
+        "tone",
         "speak",
         "final"
       ],
       "sourceSha256": "0f27d52c378d91964dc24d8ba534e18e7185633c31135cd53dc52c692b7cd382",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 140,
@@ -1928,13 +1929,13 @@
       "family": "object",
       "styles": [
         "audio",
-        "speak",
-        "final",
+        "contrast",
         "reverse",
-        "contrast"
+        "speak",
+        "final"
       ],
       "sourceSha256": "05f6fc98b2d236f2be252252c7df317601b463e4c54e09170d3769a583f41f3a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 141,
@@ -1942,15 +1943,15 @@
       "title": "Pizza 上加的配料",
       "family": "object",
       "styles": [
-        "final",
         "audio",
+        "reverse",
+        "contrast",
         "explain",
         "speak",
-        "reverse",
-        "contrast"
+        "final"
       ],
       "sourceSha256": "e6a6a8208a5587d54c125bb97f30519401a1911b59816df53cf155a45b202a0b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 142,
@@ -1958,14 +1959,14 @@
       "title": "把冷凍食物解凍",
       "family": "condition",
       "styles": [
-        "contrast",
-        "speak",
         "audio",
-        "final",
-        "rewrite"
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "414f44c10536c4b4b79ace96cea403b51b281ae2c049d84368dd0fd2177ae5ba",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 143,
@@ -1973,14 +1974,14 @@
       "title": "食物／飲料溫溫的，不冷不熱",
       "family": "object",
       "styles": [
-        "final",
-        "speak",
-        "reverse",
         "audio",
-        "contrast"
+        "reverse",
+        "contrast",
+        "speak",
+        "final"
       ],
       "sourceSha256": "3db2338e7e4f479defc169c0853ac83e74d44ea99a299f0c415ab13c3a2dddea",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 144,
@@ -1989,13 +1990,13 @@
       "family": "object",
       "styles": [
         "audio",
-        "final",
         "reverse",
         "scene",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "955ae34d270e870441761d0eec9ba0fc11356a56d48989824165d9de6ce388c7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 145,
@@ -2003,14 +2004,14 @@
       "title": "不要勉強",
       "family": "action",
       "styles": [
-        "final",
-        "branch",
         "audio",
+        "branch",
+        "transfer",
         "speak",
-        "transfer"
+        "final"
       ],
       "sourceSha256": "de1a7c7d56e733ff6d902a605cedd422d4316995d3e39a1b733c5c20247bf0c1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 146,
@@ -2018,14 +2019,14 @@
       "title": "量力而為",
       "family": "action",
       "styles": [
+        "audio",
+        "detail",
         "continue",
         "speak",
-        "detail",
-        "audio",
         "final"
       ],
       "sourceSha256": "821579b1a5c7e2106b65e82f76fdadd8f70f6bdddfdfa2586b518bb5d8704b65",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 147,
@@ -2033,14 +2034,14 @@
       "title": "算了吧",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
-        "final",
         "branch",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "b4bfd6dcfbe5d1dbf664ed270314b4e828cf87cecdd4c6d4a37396674ccb33ba",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 149,
@@ -2048,14 +2049,14 @@
       "title": "順其自然",
       "family": "action",
       "styles": [
-        "tone",
-        "speak",
+        "audio",
         "scene",
+        "tone",
         "repair",
-        "audio"
+        "speak"
       ],
       "sourceSha256": "d7a431e326da2319bb6e8d34af8aa57a2b4b67cf3675ced15b817c49dca46daf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 150,
@@ -2063,15 +2064,15 @@
       "title": "水龍頭沒關緊",
       "family": "action",
       "styles": [
-        "final",
-        "continue",
-        "speak",
-        "branch",
         "audio",
-        "transfer"
+        "branch",
+        "continue",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "f35cde2fba30ee096e88cfb80fad6463e635e9fd6911f25eccefd56777d446db",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 151,
@@ -2079,15 +2080,15 @@
       "title": "水一直流著",
       "family": "action",
       "styles": [
-        "speak",
+        "audio",
         "detail",
         "tone",
-        "audio",
-        "final",
-        "explain"
+        "explain",
+        "speak",
+        "final"
       ],
       "sourceSha256": "970eb0520b13510d1ce892d6cdbfb8b8a05d3375538c70c7c4348d47d0715f20",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 152,
@@ -2096,13 +2097,13 @@
       "family": "condition",
       "styles": [
         "audio",
-        "speak",
         "transfer",
-        "rewrite",
-        "contrast"
+        "contrast",
+        "speak",
+        "rewrite"
       ],
       "sourceSha256": "7298942136d595f8053a055ada8911a85f26892d31f315e6d532bbc1b53c6dd0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 153,
@@ -2110,14 +2111,14 @@
       "title": "房間很悶",
       "family": "action",
       "styles": [
-        "repair",
         "audio",
+        "repair",
         "continue",
         "speak",
         "final"
       ],
       "sourceSha256": "b4161ef9dd92da89238a238d7cd0107eac604096856c53f24b053cf5d8a56e00",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 154,
@@ -2125,14 +2126,14 @@
       "title": "房間空氣很好",
       "family": "action",
       "styles": [
-        "scene",
-        "branch",
         "audio",
+        "scene",
+        "explain",
         "speak",
-        "explain"
+        "branch"
       ],
       "sourceSha256": "6bd1717e52fd00256ab970bca631e8be2280ad69c561025ed6c7a3034a7540d4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 155,
@@ -2140,15 +2141,15 @@
       "title": "這房間很亂",
       "family": "action",
       "styles": [
-        "speak",
-        "detail",
-        "continue",
-        "scene",
         "audio",
+        "detail",
+        "scene",
+        "continue",
+        "speak",
         "final"
       ],
       "sourceSha256": "e43e5d732ef6bb073b3dca665ea6ecf9acab3ae699300692ec16fff4e12ad13d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 156,
@@ -2156,15 +2157,15 @@
       "title": "昨晚睡得不好",
       "family": "action",
       "styles": [
+        "audio",
+        "repair",
         "transfer",
         "tone",
         "speak",
-        "audio",
-        "repair",
         "final"
       ],
       "sourceSha256": "7d00688d3a58fdc176c87a465b05011ef746208822b07443206c41ec185310b0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 157,
@@ -2172,14 +2173,14 @@
       "title": "你該睡了",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
         "rewrite",
-        "final",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "8334a634a8723552c7ba5dd962cb90ae84ba067c8f7b03b71140826e3b5a1f45",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 158,
@@ -2188,14 +2189,14 @@
       "family": "action",
       "styles": [
         "audio",
+        "detail",
+        "explain",
         "continue",
         "branch",
-        "explain",
-        "detail",
         "transfer"
       ],
       "sourceSha256": "481a93e77bee88fe43ab046a8439fd17551e7f96912a3a564c8804edb6c9a7eb",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 159,
@@ -2203,15 +2204,15 @@
       "title": "訊息一直沒送出去",
       "family": "action",
       "styles": [
-        "rewrite",
-        "repair",
-        "final",
         "audio",
+        "explain",
+        "repair",
         "tone",
-        "explain"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "5a68b5b9cdd8da880a4de8839bdcad9991a798bd9881e6f6f9798a8cbe2f154b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 160,
@@ -2219,15 +2220,15 @@
       "title": "你手機響了",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
+        "continue",
         "branch",
         "speak",
-        "final",
-        "audio",
-        "continue"
+        "final"
       ],
       "sourceSha256": "8850d195431764050dc1890b0cb65a1ac4b1d4dd9dabc75256314a5dd303ac43",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 161,
@@ -2236,13 +2237,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "speak",
-        "final",
+        "repair",
         "tone",
-        "repair"
+        "speak",
+        "final"
       ],
       "sourceSha256": "80504647cb976459a40395ac6b3a7f6b3cc57a283712b8c2612eda401c3a80b4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 163,
@@ -2250,14 +2251,14 @@
       "title": "你有收到嗎？",
       "family": "request",
       "styles": [
-        "speak",
-        "tone",
-        "final",
         "audio",
-        "rewrite"
+        "tone",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "2072f58dec1e2a590b586089674dacc0c5a6d918d40061fde4048f519684b510",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 164,
@@ -2265,14 +2266,14 @@
       "title": "我要回家了",
       "family": "social",
       "styles": [
-        "audio",
-        "tone",
         "final",
         "speak",
-        "rewrite"
+        "rewrite",
+        "tone",
+        "audio"
       ],
       "sourceSha256": "8e51b2abc63774b3cc0301c44b9c6b9d7c9d5c27f473653d51d679ec1ecb9c5b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 165,
@@ -2281,13 +2282,13 @@
       "family": "request",
       "styles": [
         "audio",
-        "rewrite",
-        "tone",
         "reverse",
+        "tone",
+        "rewrite",
         "final"
       ],
       "sourceSha256": "f210ba83d0474296be4e41da82668147045b04d6360ef63a6e06be18085e1f5a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 166,
@@ -2295,14 +2296,14 @@
       "title": "你什麼時候方便？",
       "family": "request",
       "styles": [
-        "tone",
         "audio",
-        "final",
         "reverse",
-        "speak"
+        "tone",
+        "speak",
+        "final"
       ],
       "sourceSha256": "76492c3b78dff94b33aa843ecc7b105997c265b14421093c042ec0eed3c4ff60",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 167,
@@ -2311,14 +2312,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "transfer",
         "branch",
         "detail",
+        "transfer",
         "speak",
         "final"
       ],
       "sourceSha256": "e3c7fe7bceb509d8b20716c4b8e93019561737234bf650e1704268d1e092a9af",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 168,
@@ -2326,15 +2327,15 @@
       "title": "我們改天再約",
       "family": "action",
       "styles": [
-        "explain",
-        "final",
-        "scene",
         "audio",
+        "scene",
         "repair",
-        "speak"
+        "explain",
+        "speak",
+        "final"
       ],
       "sourceSha256": "373a54030a5c03811018158e667c5c770d77dcdd679cac126a3ded2dcb170fd9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 169,
@@ -2343,14 +2344,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
         "detail",
         "continue",
         "transfer",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "03b3e57dc0eca3ce01271a17632201e0baa2033226cecae861004e06362677f5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 170,
@@ -2358,15 +2359,15 @@
       "title": "我今天不能來",
       "family": "action",
       "styles": [
-        "continue",
         "audio",
-        "branch",
-        "speak",
         "detail",
+        "branch",
+        "continue",
+        "speak",
         "final"
       ],
       "sourceSha256": "69a7ae45538e89e249b4088f592a201cefae6113048a323cb4734259a5149fdc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 172,
@@ -2376,13 +2377,13 @@
       "styles": [
         "audio",
         "scene",
-        "repair",
-        "speak",
         "contrast",
-        "reverse"
+        "repair",
+        "reverse",
+        "speak"
       ],
       "sourceSha256": "f3cba00470265145021deedf981206ed42f3d0dbdc2112f86b873a880a9be68c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 173,
@@ -2390,14 +2391,14 @@
       "title": "我們的理解一致",
       "family": "social",
       "styles": [
-        "rewrite",
-        "explain",
         "audio",
+        "explain",
         "tone",
+        "rewrite",
         "speak"
       ],
       "sourceSha256": "4bab5072596e4f6e3b52dc7e38487026ff507c1b792f7d8ee1ea32446e1e516a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 174,
@@ -2405,14 +2406,14 @@
       "title": "補完積欠的 email",
       "family": "action",
       "styles": [
-        "transfer",
-        "continue",
+        "audio",
         "scene",
-        "final",
-        "audio"
+        "continue",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "8edbeaabab8dbc19a67470643c8d614102c565f5a2008c3b7ccf09b91d1143eb",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 175,
@@ -2420,15 +2421,15 @@
       "title": "工作落後進度",
       "family": "action",
       "styles": [
+        "audio",
+        "detail",
         "explain",
         "branch",
-        "audio",
         "transfer",
-        "detail",
         "repair"
       ],
       "sourceSha256": "36586d2187b4b20ba3ec8731be7c6742b80c4ad93362b1d85cbf80366aaf1f94",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 178,
@@ -2436,14 +2437,14 @@
       "title": "昏昏欲睡",
       "family": "object",
       "styles": [
-        "contrast",
-        "final",
-        "speak",
         "audio",
-        "reverse"
+        "reverse",
+        "contrast",
+        "speak",
+        "final"
       ],
       "sourceSha256": "decc6cb9ea018f05a9146ecf753abfb742b1a8ce3059c8ced21590e3f89a594e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 179,
@@ -2453,12 +2454,12 @@
       "styles": [
         "audio",
         "detail",
-        "final",
+        "explain",
         "speak",
-        "explain"
+        "final"
       ],
       "sourceSha256": "448938e1f0a7609bb5579133a25346c5241f1f48d8c4b200743a8116e1cc1dc0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 181,
@@ -2468,12 +2469,12 @@
       "styles": [
         "audio",
         "contrast",
-        "final",
         "speak",
-        "reverse"
+        "reverse",
+        "final"
       ],
       "sourceSha256": "2aa6086a5fee77e2f74d12909575b7a4cadd3316e575005e00c060a9f7311f8f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 182,
@@ -2481,15 +2482,15 @@
       "title": "把會議提前",
       "family": "object",
       "styles": [
-        "contrast",
         "audio",
+        "contrast",
         "reverse",
-        "final",
         "scene",
-        "repair"
+        "repair",
+        "final"
       ],
       "sourceSha256": "542565973c5a6bcf2b3018fc1d11c80e2946beee86e1518e7b194dbf8674a13e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 183,
@@ -2497,14 +2498,14 @@
       "title": "取消活動",
       "family": "object",
       "styles": [
+        "audio",
         "contrast",
-        "final",
         "reverse",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "3c7692aaf8e001490b7d4ced35ef50645c9e94f626737a793dd61c47944d51f8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 184,
@@ -2512,14 +2513,14 @@
       "title": "讓我知道最新狀況",
       "family": "action",
       "styles": [
-        "transfer",
         "audio",
+        "transfer",
         "continue",
         "speak",
         "final"
       ],
       "sourceSha256": "1fea066d1308ad7b99d9a5d43364ce1fabe287cef5cfea0990cbcec7ecffae4d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 185,
@@ -2527,15 +2528,15 @@
       "title": "我完全不知道大家最近在做甚麼",
       "family": "social",
       "styles": [
+        "audio",
         "rewrite",
         "continue",
-        "audio",
         "branch",
-        "final",
-        "tone"
+        "tone",
+        "final"
       ],
       "sourceSha256": "1882002bf7f1cc62a9bfb40edd729e1f48eb40bcd4302b4dc06088c8ac0a4cd9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 186,
@@ -2543,14 +2544,14 @@
       "title": "桌上醬料",
       "family": "object",
       "styles": [
-        "speak",
         "audio",
+        "speak",
         "explain",
         "reverse",
         "contrast"
       ],
       "sourceSha256": "dd8f3ddb90e0ec0abc8ec1c0cb6f1b4b3db112010f6a077187b87f9302f19241",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 187,
@@ -2559,13 +2560,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
         "transfer",
         "speak",
-        "repair"
+        "repair",
+        "final"
       ],
       "sourceSha256": "cbae388b6800b0cfc91e9e638cf0592cc447122b458b2bc7981a4c8bdbd07eb8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 188,
@@ -2573,14 +2574,14 @@
       "title": "小型移動式暖爐",
       "family": "object",
       "styles": [
+        "audio",
         "reverse",
         "speak",
-        "audio",
         "contrast",
         "detail"
       ],
       "sourceSha256": "64c7deb724548f87a865ceca82db14e1c6110c10313479b460e103a7c8e8c94e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 189,
@@ -2588,14 +2589,14 @@
       "title": "褲腳太長，需要改短",
       "family": "object",
       "styles": [
-        "speak",
         "audio",
+        "speak",
         "contrast",
         "reverse",
         "scene"
       ],
       "sourceSha256": "7a577ac323511dc2c11bdc80893408925f89d720c3134b15622f07e979e08be6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 190,
@@ -2603,14 +2604,14 @@
       "title": "鞋底磨到快穿了",
       "family": "action",
       "styles": [
+        "audio",
         "branch",
         "detail",
         "explain",
-        "final",
-        "audio"
+        "final"
       ],
       "sourceSha256": "1c35e76ca37cd9bc069812a8dced00f38f1e6463481c8d051528681a46ae7acf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 191,
@@ -2618,15 +2619,15 @@
       "title": "胃灼熱／火燒心",
       "family": "object",
       "styles": [
-        "transfer",
         "audio",
+        "transfer",
         "reverse",
         "contrast",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "5770bfd28d1bd3061249e270567ecabac40726a44c3cecc4a0301b2a65ebdc09",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 192,
@@ -2634,15 +2635,15 @@
       "title": "問陌生人旁邊的座位有沒有人",
       "family": "request",
       "styles": [
-        "rewrite",
-        "final",
-        "speak",
         "audio",
+        "rewrite",
+        "speak",
         "tone",
-        "reverse"
+        "reverse",
+        "final"
       ],
       "sourceSha256": "ece03394910e6f1842aaf44ab91ce507d1a75b0f0ecf729a36dd2612602d29f7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 193,
@@ -2650,14 +2651,14 @@
       "title": "大家坐太擠，要騰出一點位置",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "continue",
-        "audio",
         "scene",
         "final"
       ],
       "sourceSha256": "1522fb18932ab7e6446523705c3b8208665932b293e40f4cbb6649637b0b479e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 194,
@@ -2673,7 +2674,7 @@
         "final"
       ],
       "sourceSha256": "dea73729c44f000fe6f8aaf20e747f16bf47e2ddff8c34640a8c06bcef980107",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 195,
@@ -2681,15 +2682,15 @@
       "title": "餐桌上請人把鹽遞給您",
       "family": "request",
       "styles": [
+        "audio",
         "speak",
         "rewrite",
-        "final",
-        "audio",
         "reverse",
-        "tone"
+        "tone",
+        "final"
       ],
       "sourceSha256": "ea089de7c2ee2d070a92fe857321402c11022217bb3e760945ea60dd9cee0df3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 196,
@@ -2697,14 +2698,14 @@
       "title": "為了叫您注意，輕拍您的肩膀",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
-        "final",
         "repair",
         "branch",
-        "audio"
+        "final"
       ],
       "sourceSha256": "6d35980452739e90abbef446924c8d7a45e07cff0cf7e1bc84f69677dcf52a73",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 197,
@@ -2712,15 +2713,15 @@
       "title": "暫停健身會籍幾個月",
       "family": "object",
       "styles": [
-        "contrast",
-        "final",
         "audio",
+        "contrast",
         "transfer",
         "speak",
-        "reverse"
+        "reverse",
+        "final"
       ],
       "sourceSha256": "05c0e46a2699724eea94ddf77b70f0ebcfae01ec48893dfb6030d900dae3bd73",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 198,
@@ -2728,14 +2729,14 @@
       "title": "毛衣摸起來刺刺、不舒服",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "detail",
         "speak",
-        "audio",
-        "scene"
+        "scene",
+        "final"
       ],
       "sourceSha256": "c3c05970acdbdc5aa2083f4d3efedeba2281a7056a8e99dab819075b47223c9c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 199,
@@ -2743,15 +2744,15 @@
       "title": "衣服有靜電，一直黏身體",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "speak",
-        "audio",
         "repair",
-        "final",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "670f31e8ca737e1bfb65494bf5c1dcc4dc5841655e6c3891232eb86aa0266c4a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 200,
@@ -2767,7 +2768,7 @@
         "final"
       ],
       "sourceSha256": "8e0c2cf8c19c82536ad98d9b367d3d22765a8633cf490b9f637b631b2e784d09",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 201,
@@ -2778,12 +2779,12 @@
         "audio",
         "speak",
         "branch",
-        "final",
         "scene",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "5d525cbcc23996c1335ec3a76da0d99274fa5e3ea974b69294bbef659d9ce661",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 202,
@@ -2791,15 +2792,15 @@
       "title": "蘋果吃起來粉粉沙沙",
       "family": "action",
       "styles": [
+        "audio",
         "rewrite",
         "explain",
         "branch",
         "speak",
-        "transfer",
-        "audio"
+        "transfer"
       ],
       "sourceSha256": "e4f6deba166c4790d64d9454192c465ed732a6ed69aad92dee9220d592afa85e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 203,
@@ -2814,7 +2815,7 @@
         "final"
       ],
       "sourceSha256": "5de557992e1a208ed9ae4eb18530a3320f848767ad62ffa53a7bd008bd0131fa",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 204,
@@ -2822,15 +2823,15 @@
       "title": "飲料被冰融化後沖淡了",
       "family": "action",
       "styles": [
+        "audio",
         "continue",
         "explain",
-        "scene",
         "detail",
-        "audio",
-        "speak"
+        "speak",
+        "scene"
       ],
       "sourceSha256": "6bf142aca597a1faa2465c83fd43f11046894a8fe47f391ad1fa50928b95ddc9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 205,
@@ -2839,14 +2840,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
         "detail",
         "speak",
         "branch",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "ad6b786b1be6d7175ea17736c5a3ce141f8f60ff80f86704d17f15716a133ea5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 206,
@@ -2854,15 +2855,15 @@
       "title": "布丁／果凍還沒凝固",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
-        "final",
         "repair",
         "rewrite",
-        "audio",
-        "tone"
+        "tone",
+        "final"
       ],
       "sourceSha256": "718f4912750250b2c7aa75a1cb8d69f7809dfb47f208c5f90770bd1227fafd66",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 207,
@@ -2877,7 +2878,7 @@
         "contrast"
       ],
       "sourceSha256": "826d9e5c2aae4e53803089bb56819395d4fb3b518da5a023ced7fa29078af344",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 208,
@@ -2885,15 +2886,15 @@
       "title": "衣服有一根線頭跑出來",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "transfer",
         "explain",
         "scene",
-        "audio",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "0f3a0dc409d4362846a67eef816f3cebc4611c860fa4d46b95963e32eb7c50a4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 209,
@@ -2901,15 +2902,15 @@
       "title": "門一開關就吱吱叫",
       "family": "action",
       "styles": [
+        "audio",
         "continue",
         "tone",
         "speak",
         "repair",
-        "audio",
         "detail"
       ],
       "sourceSha256": "bd26efc77ddd41a264e21bf663220530d037a81912cd661c24c7720c5679e703",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 210,
@@ -2917,14 +2918,14 @@
       "title": "鍵盤某顆鍵按下去常卡住",
       "family": "condition",
       "styles": [
-        "final",
         "audio",
         "contrast",
         "rewrite",
-        "scene"
+        "scene",
+        "final"
       ],
       "sourceSha256": "2c28af2b0b0a0b5256c2ac0c72d945eb2145a1aa542976696793764483bac5da",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 211,
@@ -2932,14 +2933,14 @@
       "title": "抽屜很難拉開，會卡",
       "family": "condition",
       "styles": [
-        "final",
+        "audio",
         "speak",
         "rewrite",
         "contrast",
-        "audio"
+        "final"
       ],
       "sourceSha256": "4d3fec157dedfd26386a0fe7e541feec28e2d0addd2c8b02286b1fcdae7bc793",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 212,
@@ -2947,14 +2948,14 @@
       "title": "窗戶怎麼推都很難動",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "speak",
-        "audio",
         "scene",
         "branch"
       ],
       "sourceSha256": "fbec033c4582e5b8aa84e50b4dd08c34762ec1db7969ffcb541392ffe78ece3c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 213,
@@ -2962,15 +2963,15 @@
       "title": "鎖匙轉不動",
       "family": "action",
       "styles": [
+        "audio",
         "branch",
         "detail",
-        "audio",
         "explain",
         "speak",
         "repair"
       ],
       "sourceSha256": "1670a50e75bc7075ce4be1553b7dc4658828a4560b1ca9841083487cb42f5cc2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 214,
@@ -2978,14 +2979,14 @@
       "title": "插座沒電",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "transfer",
-        "audio",
-        "final",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "bee370db437968c36ab6ce98374931bb124647a335e64d655d507dec1d92da06",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 215,
@@ -2993,15 +2994,15 @@
       "title": "牆壁油漆鼓起一個泡",
       "family": "action",
       "styles": [
+        "audio",
         "tone",
         "explain",
-        "final",
-        "audio",
         "speak",
-        "branch"
+        "branch",
+        "final"
       ],
       "sourceSha256": "c4cd9bd12d266d5ceb037eb2c8384ebda5265e626736cb3298d868e3c9389f86",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 216,
@@ -3010,14 +3011,14 @@
       "family": "condition",
       "styles": [
         "audio",
-        "final",
         "speak",
         "rewrite",
         "scene",
-        "contrast"
+        "contrast",
+        "final"
       ],
       "sourceSha256": "9dd15e4e8c70f74500a53f8491aedbd72b1cf9c0b71e10cc1174204d09337d3b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 218,
@@ -3025,14 +3026,14 @@
       "title": "網頁一直轉，開不出來",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "detail",
-        "audio",
-        "final",
-        "tone"
+        "tone",
+        "final"
       ],
       "sourceSha256": "0d2dad9c1f088205584971a89d541f0b97631dce4df94737493b9cb92f2a8dbf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 219,
@@ -3040,14 +3041,14 @@
       "title": "手機觸控沒反應",
       "family": "action",
       "styles": [
+        "audio",
         "transfer",
         "repair",
         "speak",
-        "audio",
         "final"
       ],
       "sourceSha256": "2adfd2af404554a24d6a345aab82f636f035679a8f40eb1d2648252356f4b939",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 220,
@@ -3055,14 +3056,14 @@
       "title": "電池掉得很快",
       "family": "condition",
       "styles": [
+        "audio",
         "rewrite",
         "contrast",
         "explain",
-        "transfer",
-        "audio"
+        "transfer"
       ],
       "sourceSha256": "75085ad08a92a67d4e5ebcadb6e369ce95555fa3b5f0d55560b08047502075a0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 221,
@@ -3070,14 +3071,14 @@
       "title": "某個地方手機完全沒訊號",
       "family": "action",
       "styles": [
+        "audio",
         "detail",
         "branch",
-        "audio",
-        "final",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "3e5ad7037a14e45eb3ca6d227cc2a9f5d217de9ab7bc76a1f6588737e0de3823",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 222,
@@ -3085,15 +3086,15 @@
       "title": "電話裡背景很吵",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "scene",
-        "final",
         "repair",
-        "audio",
-        "tone"
+        "tone",
+        "final"
       ],
       "sourceSha256": "5b672c0f9b08eb4999c91f91c2eec403af4dde137b8dd063c4fe1cc1121b30ce",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 223,
@@ -3101,15 +3102,15 @@
       "title": "不小心踩到別人的腳",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "explain",
         "speak",
         "tone",
-        "audio",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "766e6b9c7d8495bd3c538f0cb17ed7799ec2d516f29182c16e5e9bd3b810e2b8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 224,
@@ -3117,15 +3118,15 @@
       "title": "走路時肩膀輕輕撞到別人",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
         "continue",
-        "audio",
         "detail",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "3002e09ccbc4505f68f36870daa8a4b247d991ff918df1b9cce845e8ac59c278",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 225,
@@ -3133,15 +3134,15 @@
       "title": "從別人後面經過提醒他",
       "family": "action",
       "styles": [
+        "audio",
         "repair",
         "speak",
-        "final",
         "branch",
-        "audio",
-        "transfer"
+        "transfer",
+        "final"
       ],
       "sourceSha256": "d1cf84826a404eb23ed8b1bfc6c54f46c4f6fa6cbe57397fd54321dbe036eede",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 226,
@@ -3149,15 +3150,15 @@
       "title": "我還在吃，先別收",
       "family": "social",
       "styles": [
-        "rewrite",
         "audio",
+        "rewrite",
         "tone",
         "scene",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "a034a23ad420beebc40e53d0d7a3731b2754afa6221f07e3f7f776ddaf168c11",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 227,
@@ -3167,13 +3168,13 @@
       "styles": [
         "audio",
         "continue",
-        "final",
         "detail",
         "speak",
-        "repair"
+        "repair",
+        "final"
       ],
       "sourceSha256": "d3667c058b48e3adb09ab7b0c588f3fb0e83a3c9b4293a94996f1de1da1fa86c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 228,
@@ -3181,15 +3182,15 @@
       "title": "某人答應來，最後沒出現",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "branch",
-        "audio",
         "explain",
         "transfer",
         "final"
       ],
       "sourceSha256": "de5e32c9bd7044d3267440aecc6a21f05695845a5b73d491f16c3a38feaf8e47",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 229,
@@ -3197,14 +3198,14 @@
       "title": "開到一半引擎突然熄火",
       "family": "action",
       "styles": [
+        "audio",
         "detail",
         "explain",
         "scene",
-        "final",
-        "audio"
+        "final"
       ],
       "sourceSha256": "2945bd291307a9aca2b36a5718f0640f4066952dd7c8ff043385f21444fe0606",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 230,
@@ -3212,15 +3213,15 @@
       "title": "毛毛細雨",
       "family": "action",
       "styles": [
+        "audio",
         "transfer",
         "reverse",
-        "final",
-        "audio",
         "continue",
-        "branch"
+        "branch",
+        "final"
       ],
       "sourceSha256": "ead13df1b65a1eaaea0beb49717d64bff84c87cc4831f3535dbaf58e9448470e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 232,
@@ -3228,14 +3229,14 @@
       "title": "整片天空陰陰的",
       "family": "action",
       "styles": [
+        "audio",
         "repair",
         "tone",
-        "final",
-        "audio",
-        "rewrite"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "5586ed32cd674c5eb44e5d775038349dbdbabb80bfcf5166711631d17f58fb16",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 233,
@@ -3243,15 +3244,15 @@
       "title": "雨後地上的一灘水",
       "family": "object",
       "styles": [
+        "audio",
         "speak",
         "contrast",
         "reverse",
-        "final",
-        "audio",
-        "detail"
+        "detail",
+        "final"
       ],
       "sourceSha256": "e29a2016c657f1d9767893118570eb984b891cbc0404a63a4a1c5242fdd04a54",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 234,
@@ -3259,14 +3260,14 @@
       "title": "又熱又濕、黏黏悶悶",
       "family": "condition",
       "styles": [
+        "audio",
         "contrast",
         "speak",
-        "audio",
         "rewrite",
         "final"
       ],
       "sourceSha256": "b3a3e6030618f25ba1b8ca759e46b147407481aa4b1306d67fa3141ec6a405f8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 235,
@@ -3274,15 +3275,15 @@
       "title": "T-shirt 一抬手就一直往上縮",
       "family": "action",
       "styles": [
+        "audio",
         "tone",
         "continue",
         "branch",
-        "scene",
         "speak",
-        "audio"
+        "scene"
       ],
       "sourceSha256": "a337998065366fbb4fb753dcc65cb9f1420257c586d60b7df9c1e50882a0f88d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 236,
@@ -3290,15 +3291,15 @@
       "title": "襪子在鞋裡皺成一團",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "repair",
         "transfer",
         "explain",
-        "audio",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "cb2478537664e76ac3a3d44be702ea7e1bd505521213161bd27981e325447656",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 237,
@@ -3307,13 +3308,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
         "repair",
+        "tone",
         "speak",
-        "tone"
+        "final"
       ],
       "sourceSha256": "6dedec4ad0451735676e95e7fd960488efc4411801f80b180d2c4945b124cad8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 238,
@@ -3321,14 +3322,14 @@
       "title": "扣子快掉了、晃晃的",
       "family": "condition",
       "styles": [
-        "rewrite",
         "audio",
-        "final",
+        "rewrite",
         "speak",
-        "contrast"
+        "contrast",
+        "final"
       ],
       "sourceSha256": "62e2f2561addfe522485d94cf1052d66c01c3c38a00d71ce0e9878ab79e729ac",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 240,
@@ -3336,15 +3337,15 @@
       "title": "拉鍊完全拉不動",
       "family": "action",
       "styles": [
-        "transfer",
-        "final",
-        "continue",
         "audio",
+        "transfer",
+        "continue",
         "branch",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "e6f4aba2ff9e107b83527c6812e59b45fe92d1999933ad7c74a4dbac12f8ce26",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 241,
@@ -3352,14 +3353,14 @@
       "title": "鞋後跟一直滑出來",
       "family": "action",
       "styles": [
+        "audio",
         "reverse",
-        "final",
         "scene",
         "explain",
-        "audio"
+        "final"
       ],
       "sourceSha256": "32a4fe15bc948e23ffa086e12e29d0aed655106bfee162f028fce3865d5b9190",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 243,
@@ -3367,14 +3368,14 @@
       "title": "墨水還沒乾，被手擦開",
       "family": "condition",
       "styles": [
+        "audio",
         "contrast",
         "speak",
-        "final",
         "rewrite",
-        "audio"
+        "final"
       ],
       "sourceSha256": "6e9841c1a0c598bfb9cf8717db452fdfec49bad08b1140bb1770aa368a62718f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 245,
@@ -3382,15 +3383,15 @@
       "title": "撕掉貼紙後還有一層黏黏的東西",
       "family": "condition",
       "styles": [
-        "detail",
         "audio",
+        "detail",
         "rewrite",
-        "final",
         "contrast",
-        "transfer"
+        "transfer",
+        "final"
       ],
       "sourceSha256": "bfb1efe9ed17ae47376934442bf1e18771e6c069914edce5e4d12e7af6136ded",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 246,
@@ -3401,12 +3402,12 @@
         "audio",
         "rewrite",
         "tone",
-        "final",
         "reverse",
-        "contrast"
+        "contrast",
+        "final"
       ],
       "sourceSha256": "02623720a61036e4f19dd63ee20e78a91ffe16a376f2eb1937c233e76b06582e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 247,
@@ -3414,14 +3415,14 @@
       "title": "牛奶聞起來酸掉了",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
         "audio",
+        "rewrite",
         "contrast",
-        "explain"
+        "explain",
+        "final"
       ],
       "sourceSha256": "a5de9b0813af73f612e625024c00cddebfbcce06c0f5a885393b75053e48a1cc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 248,
@@ -3429,15 +3430,15 @@
       "title": "罐子蓋太緊，完全轉不動",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
         "speak",
-        "audio",
         "branch",
-        "final",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "67ba7938ca5e9efea7780767147348819116a7d752544f1b81c54e8c32841827",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 249,
@@ -3445,15 +3446,15 @@
       "title": "手機相機怎樣都對不到焦",
       "family": "action",
       "styles": [
-        "transfer",
         "audio",
+        "transfer",
         "repair",
         "speak",
         "detail",
         "final"
       ],
       "sourceSha256": "4a626dcb1516c97d3a139680360a62a83b7aaf83644bed392bcfb2847fb6035b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 250,
@@ -3461,14 +3462,14 @@
       "title": "原子筆漏墨",
       "family": "condition",
       "styles": [
+        "audio",
         "rewrite",
         "explain",
-        "audio",
-        "contrast",
-        "speak"
+        "speak",
+        "contrast"
       ],
       "sourceSha256": "0349aefccd21a033f8eeef625554a750ed7026c3404cc80a9b297d63c1d593a6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 251,
@@ -3476,14 +3477,14 @@
       "title": "床墊睡久中間凹下去",
       "family": "action",
       "styles": [
+        "audio",
         "continue",
-        "speak",
-        "final",
         "repair",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "a385b0758fad38f13ec9a76a91557cbb77d240d3e9a69216f6f947c2efcafde4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 252,
@@ -3491,15 +3492,15 @@
       "title": "螺絲起子已經咬不住螺絲頭",
       "family": "action",
       "styles": [
-        "reverse",
-        "speak",
-        "detail",
         "audio",
+        "detail",
+        "reverse",
         "branch",
+        "speak",
         "final"
       ],
       "sourceSha256": "0acf04d978980bd171f79a722ccaf5e21a94843f40f9fa56a801f78fcb3e5ebf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 253,
@@ -3507,14 +3508,14 @@
       "title": "肉裡很多咬不動的筋",
       "family": "action",
       "styles": [
+        "audio",
+        "scene",
         "reverse",
         "tone",
-        "audio",
-        "speak",
-        "scene"
+        "speak"
       ],
       "sourceSha256": "d57ac29362e8fa5f199b39fa6a36a083d5f1514b1407eb9f09c8a050b780dbef",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 254,
@@ -3522,14 +3523,14 @@
       "title": "醬汁油水分離",
       "family": "action",
       "styles": [
-        "detail",
-        "final",
-        "branch",
         "audio",
-        "speak"
+        "detail",
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "566f4f376cf0318324ac488870c812b635dd90937073f7175ba579785b81c177",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 255,
@@ -3537,14 +3538,14 @@
       "title": "Wi-Fi 有時好有時斷",
       "family": "action",
       "styles": [
-        "continue",
-        "speak",
         "audio",
+        "continue",
         "tone",
-        "explain"
+        "explain",
+        "speak"
       ],
       "sourceSha256": "026770dec96af369e9d349b18024a11fb8a6bba4e7b0fec7edbbc40ffaa20ce4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 256,
@@ -3552,14 +3553,14 @@
       "title": "電話聲音一格一格、不連續",
       "family": "condition",
       "styles": [
-        "speak",
-        "contrast",
         "audio",
-        "final",
-        "rewrite"
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "20fe60a528ab55f59036cd5a4408a79803a3a0bf8ddd1809f33f171d7f32d4fc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 257,
@@ -3567,15 +3568,15 @@
       "title": "影片一直頓、播放不順",
       "family": "action",
       "styles": [
-        "transfer",
-        "repair",
         "audio",
         "scene",
+        "repair",
+        "transfer",
         "speak",
         "final"
       ],
       "sourceSha256": "ef6803bef6690eae3d08353a0dfc8ec5c83c574e88cc3970cd4678b81e82b630",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 258,
@@ -3583,14 +3584,14 @@
       "title": "地板踩下去吱嘎響",
       "family": "action",
       "styles": [
-        "final",
         "audio",
+        "scene",
         "branch",
         "transfer",
-        "scene"
+        "final"
       ],
       "sourceSha256": "a3e3b7c108f915aef05da9826d3cd2dae968b5a38f03c7b1f0ea42012c9a9279",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 259,
@@ -3599,14 +3600,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
+        "detail",
+        "reverse",
         "tone",
         "speak",
-        "detail",
-        "reverse"
+        "final"
       ],
       "sourceSha256": "7e04a646eca54e27658143102b86467064dde5223362fedf2bc0133496878657",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 260,
@@ -3618,11 +3619,11 @@
         "scene",
         "repair",
         "explain",
-        "speak",
-        "continue"
+        "continue",
+        "speak"
       ],
       "sourceSha256": "b58ce7991a67f05900d6c0845159881194aa0904d036afc827d71c76bf27f26c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 261,
@@ -3630,14 +3631,14 @@
       "title": "Wi-Fi 連線一直掉",
       "family": "condition",
       "styles": [
+        "audio",
         "contrast",
-        "speak",
         "rewrite",
-        "final",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "960e2ed1b13c02a9268e9e485e59cb6afe145a41e700d2bc6f8c7e8debdc5b12",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 262,
@@ -3645,14 +3646,14 @@
       "title": "問有沒有 $20 的零錢",
       "family": "request",
       "styles": [
+        "audio",
         "reverse",
         "tone",
-        "audio",
         "continue",
         "rewrite"
       ],
       "sourceSha256": "0971c9bfe7f4a0bcd3ebcbbc7626a1537d501fc9014a16d32acd4b6fd1e919ad",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 263,
@@ -3660,15 +3661,15 @@
       "title": "想把一張 $20 換成小鈔",
       "family": "request",
       "styles": [
+        "audio",
+        "reverse",
         "rewrite",
         "explain",
-        "reverse",
         "tone",
-        "speak",
-        "audio"
+        "speak"
       ],
       "sourceSha256": "568cc989d44ded900c04b46b46afc5951ea0242e6539b03099676147025a0415",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 264,
@@ -3676,15 +3677,15 @@
       "title": "你在餐廳等最後一個朋友到",
       "family": "social",
       "styles": [
+        "audio",
         "scene",
         "tone",
         "transfer",
-        "audio",
         "rewrite",
         "branch"
       ],
       "sourceSha256": "46731b84553ff17333077594c616999e00e5457a516c9e547effda642e02109a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 265,
@@ -3692,15 +3693,15 @@
       "title": "坐飛機／戲院發現別人坐了您的位置",
       "family": "action",
       "styles": [
-        "repair",
         "audio",
         "detail",
-        "final",
+        "repair",
         "explain",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "481227b73440e61d309d9472ddc8ad79e677481775bf7d005bc6d3a285bfa54c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 266,
@@ -3708,15 +3709,15 @@
       "title": "對方衣服後面的標籤翻出來了",
       "family": "action",
       "styles": [
-        "branch",
-        "repair",
-        "speak",
-        "transfer",
         "audio",
+        "repair",
+        "branch",
+        "transfer",
+        "speak",
         "final"
       ],
       "sourceSha256": "36d4ade590664f984b7c5e3066b2dde889c8eee317bd9bc977836fc8291960ed",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 267,
@@ -3726,12 +3727,12 @@
       "styles": [
         "audio",
         "detail",
-        "explain",
         "reverse",
+        "explain",
         "speak"
       ],
       "sourceSha256": "f1d52507c48a5166328022b707cf73bac9e49660befc4d4944fcd5a04bc29b8f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 269,
@@ -3739,15 +3740,15 @@
       "title": "問陌生人是不是正在排隊",
       "family": "request",
       "styles": [
-        "rewrite",
-        "tone",
         "audio",
+        "reverse",
+        "tone",
+        "rewrite",
         "speak",
-        "final",
-        "reverse"
+        "final"
       ],
       "sourceSha256": "b1b1cf03a52ff01a240dc6546350591013015137fd085f3158355be935567ff0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 270,
@@ -3755,15 +3756,15 @@
       "title": "對方背包拉鍊沒拉",
       "family": "action",
       "styles": [
-        "scene",
         "audio",
-        "final",
+        "scene",
+        "detail",
         "transfer",
         "speak",
-        "detail"
+        "final"
       ],
       "sourceSha256": "10ccf5011a10f79fae7c16adefcd640b3663bbec205b283e308689880c36e815",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 271,
@@ -3773,13 +3774,13 @@
       "styles": [
         "audio",
         "repair",
-        "speak",
         "continue",
-        "final",
-        "branch"
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "08dfe90b5b350092bfaa429d1b093726e8f9004715d739d8be6be093e216e9dc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 272,
@@ -3787,14 +3788,14 @@
       "title": "店員少收了您錢",
       "family": "action",
       "styles": [
-        "speak",
-        "explain",
-        "scene",
         "audio",
-        "continue"
+        "scene",
+        "explain",
+        "continue",
+        "speak"
       ],
       "sourceSha256": "8551575d9602e308092d35cec61b7891a24a4d8e09a3f17aba60d4ea0713f144",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 273,
@@ -3802,14 +3803,14 @@
       "title": "信用卡上出現一筆您不認得的消費",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
-        "contrast",
         "audio",
-        "speak"
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "ea62b63b4c860defa0560d54ef43ebbc61014cc582df9c24688bf88e0a8d2895",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 274,
@@ -3817,15 +3818,15 @@
       "title": "排隊的人很多，入口那邊整個堵住",
       "family": "action",
       "styles": [
-        "transfer",
-        "branch",
         "audio",
-        "final",
+        "repair",
+        "branch",
+        "transfer",
         "speak",
-        "repair"
+        "final"
       ],
       "sourceSha256": "2e644b31715b4fb4eb3d42cecf478d490ce098ca862a3da85c4b06a03aa54251",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 275,
@@ -3833,14 +3834,14 @@
       "title": "服務櫃台叫號叫到您",
       "family": "action",
       "styles": [
+        "audio",
         "detail",
         "scene",
-        "audio",
         "continue",
         "transfer"
       ],
       "sourceSha256": "7a63d768088fcb03cfd8d2070cb765f628253119f51c5e14b4df9a9c9b91420a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 276,
@@ -3848,15 +3849,15 @@
       "title": "茶包泡在熱水裏",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
+        "audio",
         "contrast",
-        "speak",
+        "rewrite",
         "explain",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "d57a8402cf1f080e08671377ce82e205053cb22d6c6bce341d99ed062fedcaa6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 277,
@@ -3864,14 +3865,14 @@
       "title": "麵包表面真的長黴",
       "family": "action",
       "styles": [
-        "detail",
         "audio",
+        "detail",
+        "repair",
         "speak",
-        "final",
-        "repair"
+        "final"
       ],
       "sourceSha256": "56e8e7082842e57d68142c541df0ab82088cbe41f7a4c4d9641e63ee85843a7e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 278,
@@ -3879,15 +3880,15 @@
       "title": "木頭表面開始起木刺",
       "family": "action",
       "styles": [
-        "speak",
         "audio",
+        "reverse",
         "tone",
         "transfer",
         "branch",
-        "reverse"
+        "speak"
       ],
       "sourceSha256": "99fb2c9862e29af1181f4d8db8df97b805c74ecf3ffa4c2754ca831f284bd833",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 279,
@@ -3895,15 +3896,15 @@
       "title": "水管突然爆裂",
       "family": "action",
       "styles": [
-        "repair",
-        "branch",
-        "speak",
         "audio",
         "reverse",
-        "tone"
+        "repair",
+        "branch",
+        "tone",
+        "speak"
       ],
       "sourceSha256": "59e0b0b6aa4041bb88e74b869b91e53d5e14acd1e72b04ee24f8dd61c5ca3b0c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 280,
@@ -3911,15 +3912,15 @@
       "title": "磁磚縫已經黑黑髒髒",
       "family": "condition",
       "styles": [
+        "audio",
+        "detail",
         "contrast",
         "explain",
-        "audio",
         "rewrite",
-        "final",
-        "detail"
+        "final"
       ],
       "sourceSha256": "9f615307b034340934712fe165f04067ed654ae949958f7236c9054115b7f566",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 281,
@@ -3927,15 +3928,15 @@
       "title": "牆紙邊緣開始翹起",
       "family": "action",
       "styles": [
-        "scene",
-        "transfer",
-        "final",
-        "continue",
         "audio",
-        "repair"
+        "scene",
+        "repair",
+        "continue",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "61b530f95db5095ca49bbdb6e2b1441300961ab5d49b736028e04b1e65fe159c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 282,
@@ -3945,12 +3946,12 @@
       "styles": [
         "audio",
         "contrast",
-        "final",
+        "rewrite",
         "speak",
-        "rewrite"
+        "final"
       ],
       "sourceSha256": "3dc395e7265edc653eaa915e71a31a30032268f13b78d936c9a73d3b955e1a36",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 283,
@@ -3959,13 +3960,13 @@
       "family": "condition",
       "styles": [
         "audio",
+        "scene",
         "contrast",
-        "final",
         "rewrite",
-        "scene"
+        "final"
       ],
       "sourceSha256": "5bca5837d41ea0d9bf58a30d857ba8c7dae545811c4bf40b3a6f215071e65897",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 284,
@@ -3973,15 +3974,15 @@
       "title": "鍋底牛奶／醬汁有一點燒焦味",
       "family": "condition",
       "styles": [
-        "contrast",
-        "speak",
-        "tone",
         "audio",
         "detail",
-        "rewrite"
+        "contrast",
+        "tone",
+        "rewrite",
+        "speak"
       ],
       "sourceSha256": "351a499765ca6aa0c22f8bca24b39120176977cc2b03da168cbab3fe434c82b3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 285,
@@ -3989,14 +3990,14 @@
       "title": "炸東西時油一直噴",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "reverse",
         "branch",
-        "audio",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "9fa6abc08298dfedea6a2671b4903901a945844b6e8446e0cf7579c7897a6ee1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 286,
@@ -4004,15 +4005,15 @@
       "title": "義大利麵全部黏成一坨",
       "family": "action",
       "styles": [
-        "final",
         "audio",
-        "continue",
+        "detail",
         "repair",
         "explain",
-        "detail"
+        "continue",
+        "final"
       ],
       "sourceSha256": "085c07f42f74c724e0a5d17ac4d85b3c8411fe97fb3505aa31d9fc5c1a6e90e9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 287,
@@ -4020,14 +4021,14 @@
       "title": "有人取消預約，空出一個時段",
       "family": "action",
       "styles": [
-        "final",
-        "speak",
-        "reverse",
         "audio",
-        "tone"
+        "reverse",
+        "tone",
+        "speak",
+        "final"
       ],
       "sourceSha256": "4ee6fa8c08b5f1220de258ffbf49258aa22d174ab4695b404373f5002e802908",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 288,
@@ -4035,15 +4036,15 @@
       "title": "店員正在幫您結帳",
       "family": "action",
       "styles": [
-        "continue",
-        "branch",
         "audio",
+        "scene",
         "explain",
-        "speak",
-        "scene"
+        "branch",
+        "continue",
+        "speak"
       ],
       "sourceSha256": "a51659ff75090f8f6a8db75ed75b1619227ddd2608e2ecbddcabe98d5e216fe6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 289,
@@ -4059,7 +4060,7 @@
         "final"
       ],
       "sourceSha256": "86112d8155fcb9db798d5d5fc6342497f73ec2b3cecdae45ef7f4fd1ef681571",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 290,
@@ -4068,13 +4069,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "explain",
         "repair",
+        "explain",
         "speak",
         "final"
       ],
       "sourceSha256": "87a65818d32e25ae00efd01906aafcf8bb1372571f9ceef627d03c3460383ac3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 291,
@@ -4082,15 +4083,15 @@
       "title": "信用卡上同一筆消費重複出現",
       "family": "condition",
       "styles": [
-        "speak",
         "audio",
+        "contrast",
         "transfer",
         "tone",
-        "contrast",
-        "rewrite"
+        "rewrite",
+        "speak"
       ],
       "sourceSha256": "cede5bcbeb0b8698d49f97e75a9dcaf017d989c7fb2957dc21600e6d6005d11c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 292,
@@ -4100,13 +4101,13 @@
       "styles": [
         "audio",
         "scene",
-        "continue",
         "reverse",
-        "final",
-        "speak"
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "0acf8f6c51d5129301affaafb3bb77b416bc261542da9c2860fdcc86a788c351",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 293,
@@ -4114,15 +4115,15 @@
       "title": "完全發不出聲音",
       "family": "condition",
       "styles": [
-        "speak",
-        "rewrite",
-        "contrast",
-        "final",
         "audio",
-        "scene"
+        "contrast",
+        "scene",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "23f594cf1d05079cd1ea7ed18eed22a6caf4c33940f4d94e9afbcabc563734d7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 294,
@@ -4130,14 +4131,14 @@
       "title": "感冒後聲音很沙啞",
       "family": "condition",
       "styles": [
-        "final",
+        "audio",
+        "contrast",
         "repair",
         "rewrite",
-        "audio",
-        "contrast"
+        "final"
       ],
       "sourceSha256": "7188f68d9c86e5aad10ee367d0ddffb846876b38217a5594e02d0ece6d472883",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 295,
@@ -4145,15 +4146,15 @@
       "title": "眼睛紅到很多血絲",
       "family": "action",
       "styles": [
-        "final",
-        "continue",
-        "tone",
-        "detail",
         "audio",
-        "speak"
+        "detail",
+        "tone",
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "6599a866b017a848b88b0738944da4b497a5a60bcb28d55b1e468785a0c4b140",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 296,
@@ -4161,14 +4162,14 @@
       "title": "眼皮一直不由自主跳",
       "family": "action",
       "styles": [
-        "explain",
-        "reverse",
         "audio",
+        "reverse",
+        "explain",
         "branch",
         "final"
       ],
       "sourceSha256": "63314c0cf63af87545b682bd83ccd56220f05b12fc18ba84a2515af654fe09d5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 297,
@@ -4176,14 +4177,14 @@
       "title": "手在水裏泡太久皺皺的",
       "family": "action",
       "styles": [
-        "explain",
-        "final",
         "audio",
+        "transfer",
+        "explain",
         "speak",
-        "transfer"
+        "final"
       ],
       "sourceSha256": "b8aa277482e076ff47d14932c152a921820bd7d9407082d70149d2b978e4bcbc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 298,
@@ -4191,14 +4192,14 @@
       "title": "耳朵坐飛機後像塞住",
       "family": "condition",
       "styles": [
-        "speak",
-        "final",
         "audio",
         "contrast",
-        "rewrite"
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "8d77c2133a9c3f16d53f5ee0e8726f3c547d8913620c91a1b7efcafba5bd5f43",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 299,
@@ -4208,13 +4209,13 @@
       "styles": [
         "audio",
         "detail",
-        "final",
         "branch",
+        "tone",
         "speak",
-        "tone"
+        "final"
       ],
       "sourceSha256": "6be01e325aca05d7f5a4d9abd2f1b5f4af52763c6ac238335ebaac62c21f94b3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 300,
@@ -4222,15 +4223,15 @@
       "title": "怎麼吞口水耳朵還是通不了",
       "family": "action",
       "styles": [
-        "reverse",
-        "speak",
-        "transfer",
+        "audio",
         "scene",
-        "final",
-        "audio"
+        "reverse",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "04f4f77b4c621e698b5917cca2a5d27c02eab1a950cbfbb947bf8477890aebb8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 301,
@@ -4239,14 +4240,14 @@
       "family": "condition",
       "styles": [
         "audio",
-        "rewrite",
-        "final",
         "contrast",
         "repair",
-        "speak"
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "432bcd6b7ce541484398da9980614a7ce9f178da2a6740f29a6cc72668c5b9ad",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 303,
@@ -4254,14 +4255,14 @@
       "title": "鍵盤其中一顆鍵帽掉了",
       "family": "condition",
       "styles": [
-        "rewrite",
-        "tone",
-        "scene",
         "audio",
-        "contrast"
+        "scene",
+        "contrast",
+        "tone",
+        "rewrite"
       ],
       "sourceSha256": "af3fa2732310a9e8687e03031a2cd57e076121d8273591cf03c7ca901c937638",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 304,
@@ -4269,15 +4270,15 @@
       "title": "網站整個所有人都打不開",
       "family": "action",
       "styles": [
-        "transfer",
-        "explain",
-        "repair",
         "audio",
         "detail",
+        "repair",
+        "explain",
+        "transfer",
         "continue"
       ],
       "sourceSha256": "45e13cda2e7d5172cb83553e53b832c7fcfe0202054964be7ae726852e786407",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 305,
@@ -4285,15 +4286,15 @@
       "title": "網站恢復正常",
       "family": "action",
       "styles": [
-        "reverse",
-        "speak",
-        "detail",
         "audio",
+        "detail",
+        "reverse",
         "continue",
-        "branch"
+        "branch",
+        "speak"
       ],
       "sourceSha256": "6c946dbe95fe191b8348bd2d5c876cd205db2b3203c297530253730a3819ced4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 306,
@@ -4301,15 +4302,15 @@
       "title": "電腦滑鼠游標反應慢半拍",
       "family": "action",
       "styles": [
-        "final",
-        "transfer",
-        "speak",
         "audio",
         "continue",
-        "branch"
+        "branch",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "dbfbd0d87d3eb2dff4aba15838f14ed2c525c8b628f417edfc3dd31369ca7053",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 307,
@@ -4317,15 +4318,15 @@
       "title": "喇叭聲音變形、不像原本聲音",
       "family": "condition",
       "styles": [
-        "reverse",
         "audio",
+        "contrast",
         "explain",
+        "reverse",
         "rewrite",
-        "speak",
-        "contrast"
+        "speak"
       ],
       "sourceSha256": "d95431998f3385fb69d8112b515e488b7a8503bcbe3f81e46e34fb39ca790fae",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 308,
@@ -4333,14 +4334,14 @@
       "title": "餅乾咬下去很硬、難咬",
       "family": "condition",
       "styles": [
-        "final",
-        "repair",
+        "audio",
         "contrast",
+        "repair",
         "rewrite",
-        "audio"
+        "final"
       ],
       "sourceSha256": "3071c2f9dde250495e462bdf6c39b3dc6d67e529a783e626f00eda82053cb378",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 309,
@@ -4348,14 +4349,14 @@
       "title": "薯片開封後軟掉",
       "family": "condition",
       "styles": [
+        "audio",
+        "scene",
         "rewrite",
         "speak",
-        "audio",
-        "final",
-        "scene"
+        "final"
       ],
       "sourceSha256": "c86cdcc2c243f222c976cd53b3bf17fe0a009b718e19ceed3884992b2876e890",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 310,
@@ -4363,14 +4364,14 @@
       "title": "奶油從冰箱拿出來太硬，抹不開",
       "family": "condition",
       "styles": [
-        "tone",
-        "final",
+        "audio",
         "contrast",
+        "tone",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "25222ec1b3723600d3e1a7a4ee981e176e0db579f80f5a8fc162a68b1c592185",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 312,
@@ -4378,14 +4379,14 @@
       "title": "毛衣袖口穿久變鬆",
       "family": "condition",
       "styles": [
-        "final",
-        "detail",
-        "speak",
         "audio",
-        "reverse"
+        "detail",
+        "reverse",
+        "speak",
+        "final"
       ],
       "sourceSha256": "1071afb82a0d8537ba2dbf459131d8d7c49356b9e084d00adf55c921d40955e7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 313,
@@ -4393,15 +4394,15 @@
       "title": "鞋舌一直歪到旁邊",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
         "tone",
-        "audio",
         "continue",
         "speak",
         "final"
       ],
       "sourceSha256": "8694622369f15ba1f8da289d9563ee001140f46da3b1cb845855c426d2002a10",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 314,
@@ -4409,15 +4410,15 @@
       "title": "門關起來會自己慢慢打開",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
+        "repair",
         "transfer",
         "branch",
         "speak",
-        "audio",
-        "repair"
+        "final"
       ],
       "sourceSha256": "6f55c9bd5d5b08084e11dc273a076c8098894bed42aa7c00fc2fe3eddcd34cfa",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 315,
@@ -4425,14 +4426,14 @@
       "title": "冷氣滴水",
       "family": "condition",
       "styles": [
-        "speak",
-        "contrast",
         "audio",
-        "final",
-        "explain"
+        "contrast",
+        "explain",
+        "speak",
+        "final"
       ],
       "sourceSha256": "db29ba9a6a4ece3bb27c07961d6b5771768c04c28f01852b885a31ba433e8268",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 316,
@@ -4440,14 +4441,14 @@
       "title": "皮膚某處突然很癢",
       "family": "condition",
       "styles": [
-        "contrast",
         "audio",
+        "detail",
+        "contrast",
         "tone",
-        "rewrite",
-        "detail"
+        "rewrite"
       ],
       "sourceSha256": "133e62892ecb76132c640c1dcbf1bae5c641a3e01c1ebf9f3167661a6bb5aeb1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 317,
@@ -4456,14 +4457,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "transfer",
-        "explain",
         "scene",
-        "final",
-        "speak"
+        "explain",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "995a174a822a5c5421efb449d38df5dcef55591ad50c1bacf702873491b41026",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 318,
@@ -4471,15 +4472,15 @@
       "title": "麥克風聲音太小",
       "family": "condition",
       "styles": [
+        "audio",
         "reverse",
-        "final",
+        "repair",
         "tone",
         "rewrite",
-        "repair",
-        "audio"
+        "final"
       ],
       "sourceSha256": "db26088dc3c43ef38c7a8e17b9089aaa91da1fa46f097360302b8514ba0dd5ac",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 319,
@@ -4487,15 +4488,15 @@
       "title": "耳機只有一邊有聲音",
       "family": "condition",
       "styles": [
-        "transfer",
-        "speak",
         "audio",
         "contrast",
-        "final",
-        "repair"
+        "repair",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "4ed5bea3fa64c0461e9c2342853aa6f730e8360ff77261fd7a483dfbd4f779e0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 320,
@@ -4504,13 +4505,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "branch",
         "detail",
+        "branch",
         "continue",
         "final"
       ],
       "sourceSha256": "f1895c14df13e48cbf17b1bae437a4e91c5ae9b6cbc4c43b94035536efdbfeeb",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 321,
@@ -4518,14 +4519,14 @@
       "title": "飯店房間還沒整理好",
       "family": "action",
       "styles": [
-        "scene",
-        "explain",
-        "final",
         "audio",
-        "reverse"
+        "reverse",
+        "explain",
+        "scene",
+        "final"
       ],
       "sourceSha256": "f0f83109fc2332d7244e6e21118da7c0e500115a62a4124946b1a9cdb07678d0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 322,
@@ -4533,15 +4534,15 @@
       "title": "餐廳把您的名字從候位名單叫到了",
       "family": "action",
       "styles": [
-        "detail",
-        "continue",
-        "final",
         "audio",
+        "detail",
         "branch",
-        "explain"
+        "explain",
+        "continue",
+        "final"
       ],
       "sourceSha256": "febb0624482a3e220b146b97a9ca64b4d1fc822e979e7b458625960873d41829",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 323,
@@ -4549,15 +4550,15 @@
       "title": "店員把商品放一邊保留給您",
       "family": "action",
       "styles": [
-        "final",
-        "branch",
-        "speak",
-        "repair",
         "audio",
-        "scene"
+        "scene",
+        "branch",
+        "repair",
+        "speak",
+        "final"
       ],
       "sourceSha256": "5098d4d197e419d1163b0a3059648beae07e4295911aa129b8e45d232a0932b0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 324,
@@ -4565,14 +4566,14 @@
       "title": "店員說最多只能幫您保留到今晚",
       "family": "action",
       "styles": [
-        "reverse",
-        "final",
         "audio",
+        "reverse",
         "tone",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "847bfcaab94e6da2073bbd5e07c33c2b597eb7cf0302dc8f76cc85ea0f87893b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 325,
@@ -4580,15 +4581,15 @@
       "title": "店內沒貨，要從別家分店調貨",
       "family": "action",
       "styles": [
-        "final",
-        "continue",
+        "audio",
         "repair",
+        "continue",
         "speak",
         "transfer",
-        "audio"
+        "final"
       ],
       "sourceSha256": "673b9765ae0e57dc86a12832fc2338c3c2275ccc637e32f5ecc34d87eba4425c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 326,
@@ -4596,14 +4597,14 @@
       "title": "商品要補貨了",
       "family": "action",
       "styles": [
-        "final",
-        "speak",
         "audio",
         "scene",
-        "tone"
+        "tone",
+        "speak",
+        "final"
       ],
       "sourceSha256": "9c53dc0a100ede31d26141cda6c3f92b77ecf538cc0c347f39e8a1c38b5e87ac",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 327,
@@ -4611,15 +4612,15 @@
       "title": "退款還在銀行處理中",
       "family": "action",
       "styles": [
-        "detail",
         "audio",
-        "final",
+        "detail",
         "reverse",
         "transfer",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "dcdaf2ea62e66bc00081b469c66e1fc726f5db4ba890e2b49b6f680badf40ce6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 328,
@@ -4628,13 +4629,13 @@
       "family": "condition",
       "styles": [
         "audio",
-        "speak",
-        "final",
+        "contrast",
         "rewrite",
-        "contrast"
+        "speak",
+        "final"
       ],
       "sourceSha256": "f040b16f68ff7ad5176d6d9e3961583e754557273b79585240f96589729b1bcd",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 329,
@@ -4642,14 +4643,14 @@
       "title": "銀行因可疑交易把卡暫停",
       "family": "condition",
       "styles": [
-        "explain",
+        "audio",
         "contrast",
-        "rewrite",
+        "explain",
         "speak",
-        "audio"
+        "rewrite"
       ],
       "sourceSha256": "6f163f95d6ae807881140e8bb869f4d4b014dc1b238b392078be7f17730eadaa",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 330,
@@ -4657,15 +4658,15 @@
       "title": "重新開通信用卡",
       "family": "condition",
       "styles": [
-        "repair",
+        "audio",
         "reverse",
+        "repair",
         "rewrite",
         "speak",
-        "final",
-        "audio"
+        "final"
       ],
       "sourceSha256": "d7160838a520881c6095237960f9b258b17e1ae29df7e016bc575ba63963721b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 331,
@@ -4673,14 +4674,15 @@
       "title": "餐廳說某道菜今天賣完了",
       "family": "action",
       "styles": [
-        "final",
-        "speak",
-        "continue",
         "audio",
-        "branch"
+        "contrast",
+        "branch",
+        "detail",
+        "speak",
+        "final"
       ],
       "sourceSha256": "ca41d10312eb69768c7c02dbb90bf81f56910f4be8a7ece3a9edfd050a8667a0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 332,
@@ -4688,14 +4690,15 @@
       "title": "菜單上某道菜暫時不供應",
       "family": "action",
       "styles": [
-        "branch",
+        "audio",
+        "scene",
+        "repair",
+        "continue",
         "speak",
-        "final",
-        "tone",
-        "audio"
+        "final"
       ],
       "sourceSha256": "556e3997c3d0834ebba59c4e00e957e9a138779a7866ecafd2d38985250c4e52",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 333,
@@ -4703,14 +4706,15 @@
       "title": "行李箱輪子壞了",
       "family": "condition",
       "styles": [
-        "speak",
-        "explain",
-        "final",
+        "audio",
+        "detail",
         "contrast",
-        "audio"
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "45466acb26f7fa841292d5f53569b4e4627062c648e0c342cf5c6316a22eed95",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 334,
@@ -4718,15 +4722,15 @@
       "title": "行李箱拉桿拉不出來",
       "family": "action",
       "styles": [
-        "scene",
-        "continue",
         "audio",
-        "detail",
-        "final",
-        "transfer"
+        "scene",
+        "repair",
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "0432607fe7a5a91a316628018abdbd0d5a15415a3aa78e6c0ca69efd7ee75e5b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 335,
@@ -4734,15 +4738,15 @@
       "title": "行李箱拉桿卡在半路",
       "family": "condition",
       "styles": [
-        "rewrite",
+        "audio",
         "detail",
-        "final",
+        "contrast",
         "explain",
-        "transfer",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "2a70aca495d73d1902475b76812bd89e5b6c09f4a090c8729a7eb930f6cdf612",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 336,
@@ -4750,15 +4754,15 @@
       "title": "行李箱太鼓、拉鍊快爆開",
       "family": "action",
       "styles": [
+        "audio",
+        "scene",
+        "contrast",
+        "continue",
         "speak",
-        "reverse",
-        "branch",
-        "tone",
-        "repair",
-        "audio"
+        "final"
       ],
       "sourceSha256": "d44f0f46e38b5266cc3e96061154c228bf2bd35afb2a29c74f9e8b625c8ba667",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 337,
@@ -4766,14 +4770,15 @@
       "title": "行李箱被航空公司摔凹了",
       "family": "action",
       "styles": [
-        "speak",
-        "final",
-        "scene",
         "audio",
-        "continue"
+        "detail",
+        "branch",
+        "repair",
+        "speak",
+        "final"
       ],
       "sourceSha256": "75efa274574a12cbe4c760e6eceadb14b49b45807c33ea4609517f9116321614",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 339,
@@ -4781,15 +4786,15 @@
       "title": "魔術貼黏不牢了",
       "family": "action",
       "styles": [
-        "detail",
+        "audio",
         "scene",
-        "transfer",
-        "final",
+        "repair",
+        "contrast",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "e822493c0e2d17aa7b3562484bfcb8383a8d56a32187257273cf5db900f55fd4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 340,
@@ -4797,15 +4802,15 @@
       "title": "塑膠盒蓋扣不上",
       "family": "action",
       "styles": [
-        "explain",
         "audio",
-        "continue",
+        "detail",
+        "contrast",
         "branch",
-        "repair",
-        "tone"
+        "speak",
+        "final"
       ],
       "sourceSha256": "9607489d3bf403a43afbc3cf675f451e1e0cf1a3b67f807ed87d5bc7774e49b7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 341,
@@ -4813,15 +4818,15 @@
       "title": "紙袋底部破掉",
       "family": "condition",
       "styles": [
+        "audio",
         "rewrite",
-        "final",
+        "tone",
+        "transfer",
         "speak",
-        "contrast",
-        "reverse",
-        "audio"
+        "final"
       ],
       "sourceSha256": "69c1e7a1677d15d5a4b265e44f5ff19b79e2ee9a7defd5c5079211565a03397a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 342,
@@ -4829,14 +4834,14 @@
       "title": "紙張邊角被折到",
       "family": "action",
       "styles": [
-        "final",
-        "continue",
-        "scene",
         "audio",
-        "speak"
+        "reverse",
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "95cefd29efb1c1f5edb0c15f779fa58ffa0c5fec102f444fb3490a8f77ef8bbe",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 343,
@@ -4844,14 +4849,14 @@
       "title": "湯匙掉到碗裏整個沉下去",
       "family": "condition",
       "styles": [
-        "rewrite",
         "audio",
-        "final",
+        "rewrite",
         "tone",
-        "contrast"
+        "explain",
+        "final"
       ],
       "sourceSha256": "20c74c39d4a14f0352fbd2666896b9e17e47dd69aa15ae76729381a51fee08ee",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 344,
@@ -4859,15 +4864,15 @@
       "title": "塑膠袋破了一個小洞",
       "family": "action",
       "styles": [
+        "audio",
         "reverse",
-        "final",
-        "repair",
         "explain",
+        "transfer",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "66c0b14d4beb16443f346a8e8c2f8f6a938fbbd10489d10b68662611e435f0ff",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 345,
@@ -4875,15 +4880,15 @@
       "title": "房間隔音很差",
       "family": "action",
       "styles": [
-        "speak",
-        "branch",
-        "final",
-        "detail",
         "audio",
-        "transfer"
+        "continue",
+        "tone",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "3b33c06292fd7775a2a36bf1ac98e61a6714c8c2dc92677ba098ae4b33874762",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 346,
@@ -4891,14 +4896,14 @@
       "title": "撞到桌角後那一塊很痛",
       "family": "condition",
       "styles": [
-        "contrast",
-        "final",
-        "speak",
+        "audio",
+        "explain",
         "rewrite",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "26825f22f22b77651dfe7cf6ee045ac2f296eb76329186a2d05c73ea16e5b7b6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 347,
@@ -4906,15 +4911,15 @@
       "title": "書的書脊裂開",
       "family": "action",
       "styles": [
-        "tone",
-        "scene",
         "audio",
+        "reverse",
+        "tone",
+        "transfer",
         "speak",
-        "final",
-        "branch"
+        "final"
       ],
       "sourceSha256": "54b731050a2f1f26452b98483b87e6a6690f2387b30e7ed94e1074e4473fb506",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 348,
@@ -4922,14 +4927,14 @@
       "title": "鞋帶走一走一直自己鬆開",
       "family": "condition",
       "styles": [
-        "rewrite",
-        "final",
         "audio",
-        "contrast",
-        "transfer"
+        "reverse",
+        "rewrite",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "523c6bb2c87ad4a7a5316fc575bb19ba862aebabc1e93af4bc048d6dfc3bf0dc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 349,
@@ -4937,14 +4942,14 @@
       "title": "外套的羽絨全部擠到一邊",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
+        "scene",
         "continue",
         "speak",
-        "repair",
-        "audio"
+        "final"
       ],
       "sourceSha256": "35bf1fe10bbf2dfb1c04be2fe5e9b8ae8ed82affc8c4e378d53e69190a775c90",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 350,
@@ -4952,14 +4957,14 @@
       "title": "湯煮到滿出鍋子",
       "family": "action",
       "styles": [
-        "explain",
-        "detail",
         "audio",
-        "final",
-        "reverse"
+        "branch",
+        "continue",
+        "tone",
+        "final"
       ],
       "sourceSha256": "a9351090b2c9f2aca59e5b9d32c196a3a267dbcb26199ce32521a14211c690d9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 351,
@@ -4967,14 +4972,14 @@
       "title": "鍋裏的水燒乾了",
       "family": "condition",
       "styles": [
+        "audio",
+        "explain",
         "transfer",
-        "speak",
-        "tone",
-        "detail",
-        "audio"
+        "rewrite",
+        "speak"
       ],
       "sourceSha256": "ef691c31e58f4aefe4c06c0ba01b008d8a88ac029c508f8feb0298f38621b57c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 352,
@@ -4982,15 +4987,15 @@
       "title": "水果放太久乾縮皺掉",
       "family": "condition",
       "styles": [
-        "scene",
-        "speak",
-        "final",
         "audio",
+        "scene",
+        "explain",
         "rewrite",
-        "explain"
+        "speak",
+        "final"
       ],
       "sourceSha256": "22b2d0c98872516e6c331733c8de4a4987b763d5bd18487c62dffa94d6b29b41",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 353,
@@ -4998,14 +5003,14 @@
       "title": "不沾鍋塗層開始一小片一小片掉",
       "family": "condition",
       "styles": [
-        "repair",
         "audio",
-        "final",
-        "contrast",
-        "speak"
+        "detail",
+        "tone",
+        "speak",
+        "final"
       ],
       "sourceSha256": "94fb7a039c3d25bf23591a67df872a7064f6fc9339ab25409d04f32b3e713e55",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 354,
@@ -5013,15 +5018,15 @@
       "title": "烤盤上食物殘渣乾硬黏住",
       "family": "condition",
       "styles": [
-        "reverse",
         "audio",
-        "final",
+        "detail",
+        "reverse",
+        "repair",
         "speak",
-        "rewrite",
-        "detail"
+        "final"
       ],
       "sourceSha256": "e0aaf080468e926f246e30b9c1a5280a985b03c3f22c126764b00042c84ac184",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 355,
@@ -5037,7 +5042,7 @@
         "transfer"
       ],
       "sourceSha256": "f0de9698fa303cd815c2f60ad7576602625e6dc0aa8491abfd59093f858f656e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 356,
@@ -5045,15 +5050,15 @@
       "title": "牛排／漢堡肉裏面還有一部分生的",
       "family": "action",
       "styles": [
-        "continue",
         "audio",
-        "speak",
         "explain",
         "repair",
+        "continue",
+        "speak",
         "branch"
       ],
       "sourceSha256": "75066657717a21852b0d641afda48c39db9e29fb882c7b77935aa200acd1b729",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 357,
@@ -5061,14 +5066,14 @@
       "title": "食物本來脆，裝在盒裏被蒸氣弄軟",
       "family": "condition",
       "styles": [
-        "reverse",
-        "final",
-        "contrast",
         "audio",
-        "speak"
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "a4ef42d65c4db892f9c2d2a8871e4c5881a008aee58232cab0a75b3c3dfc0298",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 358,
@@ -5077,14 +5082,14 @@
       "family": "condition",
       "styles": [
         "audio",
-        "final",
-        "speak",
+        "reverse",
         "explain",
         "tone",
-        "detail"
+        "speak",
+        "final"
       ],
       "sourceSha256": "3384fda45b480e96582482e2ee0be60df2f8058404e1425138b7a6ef6a6416e8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 359,
@@ -5092,14 +5097,14 @@
       "title": "某一小口食物燙得不得了",
       "family": "action",
       "styles": [
-        "transfer",
         "audio",
         "scene",
+        "reverse",
         "continue",
-        "reverse"
+        "transfer"
       ],
       "sourceSha256": "f7c0b295ebd628c69647e2e1617bf2011be4e13a2571b98563be8d52ce7c25a0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 360,
@@ -5107,15 +5112,15 @@
       "title": "微波食物有些地方很熱、有些還冷",
       "family": "condition",
       "styles": [
-        "rewrite",
-        "final",
-        "speak",
         "audio",
-        "repair",
-        "contrast"
+        "detail",
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "d909cd33da97715d3817ec3dceee4dc86069ac525d0f3aa2b873d1ef2c866972",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 361,
@@ -5123,15 +5128,15 @@
       "title": "汽水一開突然泡沫一直湧出來",
       "family": "action",
       "styles": [
-        "continue",
-        "tone",
-        "final",
         "audio",
+        "repair",
+        "continue",
+        "branch",
         "speak",
-        "branch"
+        "final"
       ],
       "sourceSha256": "79884d0fce2ced1d52138e7b7c30bcc81e2f07050c043a41315ceb6497b28b49",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 362,
@@ -5139,15 +5144,15 @@
       "title": "App 一直把您登出",
       "family": "action",
       "styles": [
-        "reverse",
-        "repair",
-        "speak",
         "audio",
         "scene",
+        "reverse",
+        "tone",
+        "speak",
         "final"
       ],
       "sourceSha256": "69d5d6664935f6f12d7551f589c976939f2dcae9ac93b1861a5cbb001231d0b7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 363,
@@ -5155,15 +5160,15 @@
       "title": "網站因太久沒操作把您踢出去",
       "family": "action",
       "styles": [
+        "audio",
+        "detail",
+        "repair",
         "explain",
         "transfer",
-        "branch",
-        "detail",
-        "audio",
-        "continue"
+        "branch"
       ],
       "sourceSha256": "ff71e1faeb1a8b6feece30f8944c4cfe481edae28426eea633e505eeefd409a0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 364,
@@ -5171,14 +5176,14 @@
       "title": "Email 寄不出去又退回來",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "tone",
-        "audio",
         "speak",
         "final"
       ],
       "sourceSha256": "79ead8e744dcc2bc21b014745f56c684f1872d58035ad30f034dab9bfbe0b1a8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 365,
@@ -5189,12 +5194,12 @@
         "audio",
         "contrast",
         "rewrite",
-        "transfer",
+        "scene",
         "speak",
-        "scene"
+        "transfer"
       ],
       "sourceSha256": "8d0022c71fd48e02cd3cea07efe261e7628a5befa3c72321d7ae37afbe21a8b5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 366,
@@ -5202,15 +5207,15 @@
       "title": "雲端檔案沒有更新到另一台裝置",
       "family": "action",
       "styles": [
-        "detail",
-        "reverse",
         "audio",
+        "reverse",
         "repair",
-        "branch",
-        "speak"
+        "continue",
+        "speak",
+        "branch"
       ],
       "sourceSha256": "116c21eb96f07e699c964d09fa413e2c61ed62d42e3a455b4f97ca4fd587352f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 367,
@@ -5218,15 +5223,15 @@
       "title": "包裹送錯地址",
       "family": "action",
       "styles": [
-        "speak",
-        "final",
-        "branch",
-        "transfer",
+        "audio",
+        "detail",
         "explain",
-        "audio"
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "09c2193c20637978947196e06c92d22b1dd932061952329cc93fe7e80d5109f5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 368,
@@ -5234,14 +5239,14 @@
       "title": "包裹運送途中受損",
       "family": "action",
       "styles": [
-        "tone",
-        "continue",
         "audio",
         "scene",
+        "tone",
+        "continue",
         "final"
       ],
       "sourceSha256": "154bc0a48781bf453aeb1b90cf7e9c0d725a29a9e044c2914e3cc2930eb39dda",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 369,
@@ -5250,13 +5255,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "reverse",
         "detail",
-        "speak",
-        "repair"
+        "reverse",
+        "transfer",
+        "speak"
       ],
       "sourceSha256": "ad6e746086fcb7c74e22a569917cf78221e264442f53391ae1e85acdd8d28d94",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 370,
@@ -5266,12 +5271,12 @@
       "styles": [
         "audio",
         "detail",
-        "final",
-        "tone",
-        "speak"
+        "repair",
+        "speak",
+        "final"
       ],
       "sourceSha256": "9f1f2fe94383a27241fdf22a17199ce77a98fdb692868de55aa06509d672575c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 371,
@@ -5279,14 +5284,14 @@
       "title": "腫脹慢慢消了",
       "family": "condition",
       "styles": [
-        "reverse",
         "audio",
-        "rewrite",
+        "reverse",
         "contrast",
-        "repair"
+        "tone",
+        "rewrite"
       ],
       "sourceSha256": "34eb281bc55c187ed4afcd78fe0082f6703a1eece11e3e6878c5f42034951268",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 372,
@@ -5294,14 +5299,14 @@
       "title": "已經超過可退貨的期限",
       "family": "action",
       "styles": [
-        "speak",
-        "explain",
         "audio",
-        "final",
-        "transfer"
+        "repair",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "81c9e9d6abaa7a7981fca333c7e49631010b482f25972c7b745cccc6557d1d81",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 373,
@@ -5309,14 +5314,14 @@
       "title": "商品只有外觀小刮痕，功能正常",
       "family": "action",
       "styles": [
-        "final",
-        "branch",
         "audio",
+        "branch",
+        "continue",
         "speak",
-        "continue"
+        "final"
       ],
       "sourceSha256": "565ecf747fa1d2ef6ceaf72767971b09343714c98f03dd16ab8c4c1f5ecf45b0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 374,
@@ -5324,15 +5329,15 @@
       "title": "商品沒有價格標籤",
       "family": "action",
       "styles": [
-        "scene",
-        "tone",
-        "final",
-        "reverse",
         "audio",
-        "detail"
+        "scene",
+        "reverse",
+        "detail",
+        "explain",
+        "final"
       ],
       "sourceSha256": "a3dbc013d13842ad53c6d10dc7cd33179abe508b51cda7e5b4e0861b7a66a1dd",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 375,
@@ -5341,14 +5346,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "explain",
         "scene",
-        "final",
+        "explain",
         "transfer",
-        "branch"
+        "branch",
+        "final"
       ],
       "sourceSha256": "af40d713ac5a238254561fbc7fdce6d88f8d7a549af9dc25cd14f8b529896b93",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 376,
@@ -5356,14 +5361,14 @@
       "title": "快遞一直嘗試送但沒成功",
       "family": "action",
       "styles": [
-        "final",
-        "repair",
         "audio",
+        "repair",
+        "continue",
         "speak",
-        "continue"
+        "final"
       ],
       "sourceSha256": "05176d521c9e836b14bd9a5aceeb7a375427fa5fec735aed87497bb75eec6a26",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 377,
@@ -5371,14 +5376,14 @@
       "title": "皮膚太乾，一片片脫屑",
       "family": "condition",
       "styles": [
-        "rewrite",
-        "final",
-        "speak",
         "audio",
-        "contrast"
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "cdaac5de95842ea160c5362927f6650efed77245776fbf24654ce0fbef4b4c2e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 378,
@@ -5386,15 +5391,15 @@
       "title": "喉嚨開始有一點乾癢刺刺的",
       "family": "condition",
       "styles": [
-        "contrast",
         "audio",
+        "contrast",
         "reverse",
         "rewrite",
         "tone",
         "transfer"
       ],
       "sourceSha256": "b63bd9754157cfab3cf35b954d07f95f62e228a91090f498345a5df102c46f0e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 379,
@@ -5402,14 +5407,14 @@
       "title": "傷口開始結痂",
       "family": "action",
       "styles": [
+        "audio",
         "detail",
         "branch",
         "continue",
-        "audio",
         "final"
       ],
       "sourceSha256": "6f9ce280c72a1d5ac861b15651c473dfd0e05a29d3abc01403b655f690ce6cde",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 380,
@@ -5417,14 +5422,14 @@
       "title": "傷口原本快好了又裂開",
       "family": "action",
       "styles": [
-        "scene",
-        "explain",
-        "repair",
         "audio",
+        "explain",
+        "tone",
+        "scene",
         "speak"
       ],
       "sourceSha256": "9dc95cd36c5b9a9efe04e254a88435fa3f46f6f15fd02a8406c8f1571d3833a4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 381,
@@ -5432,15 +5437,15 @@
       "title": "傷口慢慢滲出液體",
       "family": "action",
       "styles": [
-        "transfer",
         "audio",
         "tone",
-        "final",
+        "repair",
+        "transfer",
         "speak",
-        "detail"
+        "final"
       ],
       "sourceSha256": "525e4636331719731b8f7d9373feab259af190ecd3943bcda74750922b6a52d2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 382,
@@ -5448,14 +5453,14 @@
       "title": "耳朵游泳後一直像有水卡着",
       "family": "condition",
       "styles": [
+        "audio",
         "explain",
         "reverse",
-        "rewrite",
         "contrast",
-        "audio"
+        "rewrite"
       ],
       "sourceSha256": "121a0c1e9bad7ba6d727310b491fa82b0418f4a2788cce75af0c65e97d89d8bb",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 383,
@@ -5463,14 +5468,14 @@
       "title": "車鑰匙遙控器沒電",
       "family": "action",
       "styles": [
-        "continue",
-        "scene",
-        "final",
         "audio",
-        "speak"
+        "detail",
+        "scene",
+        "speak",
+        "final"
       ],
       "sourceSha256": "d6ef8bfb6e010c8e0813ac64aace977dd82036d7cbeb0ade3dbf580293f9653b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 384,
@@ -5478,15 +5483,15 @@
       "title": "馬桶座坐上去會左右移動",
       "family": "action",
       "styles": [
-        "branch",
         "audio",
+        "branch",
         "continue",
         "repair",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "bf128aa567cc8d0dd932b4a91d4e40e1852c7fa7ceeafb108f6e1b50aa783a4a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 385,
@@ -5494,14 +5499,14 @@
       "title": "木製家具表面漆被水杯留下白圈",
       "family": "action",
       "styles": [
-        "transfer",
-        "final",
-        "branch",
+        "audio",
         "explain",
-        "audio"
+        "branch",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "42df3f1aee24c74f1439004a6ef4f4d3e04649dbd7ee68fddd85bb10e7b33559",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 386,
@@ -5509,15 +5514,15 @@
       "title": "USB 線插進去鬆鬆的、稍微碰一下就斷",
       "family": "condition",
       "styles": [
-        "scene",
-        "rewrite",
         "audio",
         "contrast",
-        "final",
-        "speak"
+        "rewrite",
+        "scene",
+        "speak",
+        "final"
       ],
       "sourceSha256": "788881724dea72be259d0d9735103511f12233c58609abe424a243ec28c3fd97",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 387,
@@ -5525,14 +5530,14 @@
       "title": "新鞋把腳後跟磨破",
       "family": "action",
       "styles": [
-        "tone",
-        "final",
         "audio",
         "repair",
-        "speak"
+        "tone",
+        "speak",
+        "final"
       ],
       "sourceSha256": "5ae023d617f5b62cb8a5ee907326de7b606e8fdf26dbc494cef61607eee49f4b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 388,
@@ -5540,15 +5545,15 @@
       "title": "走太久大腿內側磨到紅痛",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
-        "contrast",
         "audio",
+        "contrast",
         "reverse",
-        "speak"
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "93d9b1e518de6902b52779c0a1568d50906fe6857ed81a9f2d91b95844427d02",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 389,
@@ -5556,15 +5561,15 @@
       "title": "喝水不小心嗆到、喝進「錯的管」",
       "family": "action",
       "styles": [
-        "scene",
-        "transfer",
-        "repair",
-        "detail",
         "audio",
-        "tone"
+        "detail",
+        "repair",
+        "tone",
+        "continue",
+        "transfer"
       ],
       "sourceSha256": "b3ddcf3a957e574bc08e986ba77ee91059849495c84ec27014dcca5c43582c87",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 390,
@@ -5574,12 +5579,12 @@
       "styles": [
         "audio",
         "contrast",
-        "final",
         "detail",
-        "rewrite"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "c121d21b2c937e64fc0a2d3a622ce439ec0e287a8ee97c8d4eff4822211d6262",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 391,
@@ -5588,14 +5593,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "reverse",
-        "transfer",
+        "explain",
+        "scene",
         "continue",
-        "branch",
-        "explain"
+        "reverse",
+        "transfer"
       ],
       "sourceSha256": "c0ce6a47342f8ca3ba874d5474ba3c25b44df40231daf72a98e066224673ef3d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 392,
@@ -5603,14 +5608,14 @@
       "title": "衣服肩膀被衣架撐出兩個凸角",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "continue",
         "speak",
-        "audio",
         "final"
       ],
       "sourceSha256": "e309764d20b72a3a7ad4a39aecf0bd23a4a49174e89be425aafecc1049a5e1e4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 393,
@@ -5618,15 +5623,15 @@
       "title": "衣服曬太久被太陽曬褪色",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "branch",
         "tone",
-        "audio",
         "reverse",
         "repair"
       ],
       "sourceSha256": "8f09262a7212d1e74e90090c6f32bafca13dc4e4e7bd241cb80871e873cced8c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 394,
@@ -5634,15 +5639,15 @@
       "title": "冰箱不夠冷",
       "family": "condition",
       "styles": [
-        "scene",
-        "final",
+        "audio",
+        "detail",
         "rewrite",
         "contrast",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "1122b049082bc78a801aa5d2f6160d63aa8cf8d31bf403e2843d5f91e745af71",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 395,
@@ -5650,15 +5655,15 @@
       "title": "螺絲孔已經滑牙，螺絲鎖不住",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "detail",
         "continue",
-        "final",
-        "audio",
-        "explain"
+        "explain",
+        "final"
       ],
       "sourceSha256": "1b93bc59fe6dc53e36605de67f5ee28af2f85c1d78dcc1ee1f06e05d4a680dcc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 396,
@@ -5673,7 +5678,7 @@
         "final"
       ],
       "sourceSha256": "2d5f043379f96cdce18b1bddf0d923c4f1d0eed6a355bed694d3e1259972543c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 397,
@@ -5681,14 +5686,14 @@
       "title": "嘴唇裂開流一點血",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "scene",
-        "audio",
         "reverse",
         "final"
       ],
       "sourceSha256": "0f9f9729cf6656e2b75340d1f8656a65b41840d8e67889baeee645bce82a67af",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 398,
@@ -5696,14 +5701,14 @@
       "title": "手掌因摩擦長厚皮",
       "family": "action",
       "styles": [
-        "tone",
         "audio",
-        "final",
+        "tone",
         "transfer",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "60aebe0de799f39ba896d225132355691c2cd780e4090e2bf173799cca176bc5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 399,
@@ -5711,15 +5716,15 @@
       "title": "腳趾／手指磨出水泡但還沒破",
       "family": "action",
       "styles": [
+        "audio",
         "explain",
         "speak",
-        "audio",
         "branch",
-        "detail",
+        "scene",
         "repair"
       ],
       "sourceSha256": "aa725fccf81904e17b99bf9cb71c2e864b98e0022d0dd3591646d72241931e0a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 400,
@@ -5727,14 +5732,14 @@
       "title": "飯店房間隔壁非常吵",
       "family": "action",
       "styles": [
-        "final",
-        "detail",
         "audio",
+        "detail",
         "repair",
-        "reverse"
+        "reverse",
+        "final"
       ],
       "sourceSha256": "1b02dc3f9b4a4a765212de9348b6253f3ad5104f9d473715af9c08b091d0afa4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 401,
@@ -5742,14 +5747,14 @@
       "title": "ATM 把卡吃掉了",
       "family": "condition",
       "styles": [
+        "audio",
         "contrast",
-        "final",
         "speak",
         "rewrite",
-        "audio"
+        "final"
       ],
       "sourceSha256": "cbcbfe970267609ec4efbb316059b9a2fe91d18df5a3aa2be9d506e4eed3da38",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 402,
@@ -5757,15 +5762,15 @@
       "title": "店員忘了把折扣算進去",
       "family": "action",
       "styles": [
-        "branch",
         "audio",
-        "final",
+        "branch",
         "continue",
         "speak",
-        "tone"
+        "tone",
+        "final"
       ],
       "sourceSha256": "dae1ce98446f5569096405b5658797fe827ea8918d3054f7b54d72e1c3517c79",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 403,
@@ -5773,14 +5778,14 @@
       "title": "鼻子一直癢，感覺快打噴嚏",
       "family": "condition",
       "styles": [
-        "final",
+        "audio",
         "transfer",
         "rewrite",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "69fdf2e17c046e7d0e61ced73e727cec903b2d59ff09114cd42b7635ebaf4129",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 404,
@@ -5790,12 +5795,12 @@
       "styles": [
         "audio",
         "detail",
-        "scene",
         "speak",
-        "continue"
+        "continue",
+        "repair"
       ],
       "sourceSha256": "4ee036cbeca3fac7506ec00cd9c5053e60d87eebaf91efa1bf1980466930e4d4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 405,
@@ -5806,11 +5811,11 @@
         "audio",
         "speak",
         "explain",
-        "final",
-        "contrast"
+        "contrast",
+        "final"
       ],
       "sourceSha256": "6e4a65ae278db26925b2a2b493d2a8927399917b9a9a90f522f58129661809ae",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 406,
@@ -5820,13 +5825,13 @@
       "styles": [
         "audio",
         "scene",
-        "repair",
+        "reverse",
         "branch",
         "speak",
         "final"
       ],
       "sourceSha256": "ff825b9684c7635f1651a6c4a25d8c188e908bc3285efcb1502099f7d7bdeb21",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 407,
@@ -5834,14 +5839,14 @@
       "title": "褲襪被勾出一條長長的線",
       "family": "action",
       "styles": [
-        "transfer",
-        "final",
         "audio",
+        "transfer",
+        "branch",
         "tone",
-        "reverse"
+        "final"
       ],
       "sourceSha256": "4f2097a0b4551c5bc16d1b0888035e848f8263f32beb9b9823d7fadb54e28067",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 408,
@@ -5849,15 +5854,15 @@
       "title": "衣服洗完染到別件衣服的顏色",
       "family": "action",
       "styles": [
+        "audio",
         "speak",
         "explain",
-        "audio",
-        "final",
-        "branch",
-        "repair"
+        "detail",
+        "repair",
+        "final"
       ],
       "sourceSha256": "94eda6eea55a5f21babb094d297542e83d48c6523872401c08dce2aad66ae1a7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 409,
@@ -5865,15 +5870,15 @@
       "title": "一顆螺旋蓋旋到太緊",
       "family": "action",
       "styles": [
-        "final",
-        "speak",
         "audio",
+        "reverse",
+        "speak",
         "transfer",
-        "detail",
-        "scene"
+        "scene",
+        "final"
       ],
       "sourceSha256": "9740a9414d3b3c6120bee90c444746bffecf13176c8bfbd04d1744a02fefbf18",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 410,
@@ -5881,15 +5886,15 @@
       "title": "食物黏在上顎",
       "family": "action",
       "styles": [
-        "reverse",
-        "final",
+        "audio",
         "speak",
         "continue",
+        "branch",
         "tone",
-        "audio"
+        "final"
       ],
       "sourceSha256": "06b6ed345f9934d1151a5ecfdaea2f461e4a429ec70f570d597494e35a12556d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 411,
@@ -5897,14 +5902,14 @@
       "title": "罐頭打開時液體／泡沫噴出",
       "family": "action",
       "styles": [
-        "branch",
+        "audio",
         "speak",
         "continue",
-        "final",
-        "audio"
+        "reverse",
+        "final"
       ],
       "sourceSha256": "671c5b046c1cc34653de82ba40dbb405268dad8da3c88da91f19e64874b9d71a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 412,
@@ -5912,14 +5917,14 @@
       "title": "瓶蓋怎樣都旋歪、鎖不上",
       "family": "action",
       "styles": [
-        "reverse",
+        "audio",
+        "scene",
         "transfer",
-        "final",
         "tone",
-        "audio"
+        "final"
       ],
       "sourceSha256": "60e7795d24af2cba5a83ed86f531e1fb45f442b5a3c75666336a672a59813653",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 413,
@@ -5927,15 +5932,15 @@
       "title": "吃完某東西嘴裏一直留下怪味",
       "family": "condition",
       "styles": [
-        "contrast",
-        "scene",
-        "rewrite",
-        "final",
         "audio",
-        "explain"
+        "contrast",
+        "rewrite",
+        "repair",
+        "explain",
+        "final"
       ],
       "sourceSha256": "0f2e24a2ea78a45ff7f68bf9655caf22775155aa8800c5fa9871dd5f76f587f3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 414,
@@ -5943,15 +5948,15 @@
       "title": "帽T抽繩一邊被拉進去，只剩另一邊",
       "family": "action",
       "styles": [
-        "continue",
-        "final",
-        "speak",
-        "repair",
+        "audio",
         "detail",
-        "audio"
+        "continue",
+        "speak",
+        "reverse",
+        "final"
       ],
       "sourceSha256": "db763e7fca90184dd0955df5148e16fcf08067b424cbfaeca7b2fa634aaa3dab",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 415,
@@ -5959,15 +5964,15 @@
       "title": "洗衣機因衣服全偏到一邊狂震",
       "family": "action",
       "styles": [
-        "final",
-        "repair",
         "audio",
+        "repair",
         "speak",
         "detail",
-        "transfer"
+        "transfer",
+        "final"
       ],
       "sourceSha256": "800c8ee30564fc185b53670e744d08f0c0d2ad2eaf703532d461bde3a0a52fe6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 416,
@@ -5975,15 +5980,15 @@
       "title": "防盜門因商品防盜扣沒拆而響",
       "family": "action",
       "styles": [
-        "final",
-        "branch",
         "audio",
         "explain",
+        "branch",
         "tone",
-        "scene"
+        "scene",
+        "final"
       ],
       "sourceSha256": "4bf6bba69de4f40cdeb6f17bbf66e94c65c1f72f4439ca47132caadb86918d7f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 417,
@@ -5992,13 +5997,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "reverse",
+        "scene",
         "tone",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "ab71ebc5ea1c0b4ef2c494a49d1455c4bd92d263d6298d032a9ee44e0eb6f808",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 418,
@@ -6006,14 +6011,14 @@
       "title": "有人把購物車放在走道中間擋路",
       "family": "action",
       "styles": [
-        "scene",
+        "audio",
         "continue",
         "branch",
-        "audio",
+        "reverse",
         "transfer"
       ],
       "sourceSha256": "7da931284f304abdf408f14455fd73e5ca6fc7e1efb09d3a999fa0a84d99e4bc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 419,
@@ -6021,15 +6026,15 @@
       "title": "這個優惠只能每人用一次",
       "family": "action",
       "styles": [
+        "audio",
         "repair",
-        "final",
+        "detail",
         "explain",
         "speak",
-        "reverse",
-        "audio"
+        "final"
       ],
       "sourceSha256": "cb80c03055d71e708565e276cde97bb3ebd4bdd38265017276cbe19762734a87",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 420,
@@ -6038,14 +6043,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "detail",
+        "repair",
         "transfer",
         "explain",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "24636e66b89502ed670f427fcdf23def908eb73ad494da3f16d59d0aef3a56bf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 421,
@@ -6053,14 +6058,14 @@
       "title": "優惠券不能用在這個商品",
       "family": "action",
       "styles": [
-        "repair",
-        "continue",
         "audio",
-        "final",
-        "speak"
+        "scene",
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "a84ba0d6704cd3925c16bbbf8e0810cf0d888bd0be4409aadbadb426cb626d3c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 422,
@@ -6069,14 +6074,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
-        "speak",
         "reverse",
+        "continue",
         "tone",
-        "detail"
+        "speak",
+        "final"
       ],
       "sourceSha256": "86d44b64fa5911d7ff014331f7d2c5f3a2066d875a8bd50c82e8829e8f3de53c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 423,
@@ -6084,14 +6089,14 @@
       "title": "百葉窗其中一片折彎了",
       "family": "action",
       "styles": [
+        "audio",
+        "scene",
         "branch",
         "speak",
-        "final",
-        "scene",
-        "audio"
+        "final"
       ],
       "sourceSha256": "fb68697e2644306087c717aec2b5c1dd04509ca8164a56bc8bf70cb303f74335",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 424,
@@ -6099,14 +6104,14 @@
       "title": "窗戶紗網破了一個洞",
       "family": "action",
       "styles": [
-        "final",
-        "scene",
         "audio",
+        "detail",
+        "scene",
         "speak",
-        "detail"
+        "final"
       ],
       "sourceSha256": "d4fa6d25437c25eda5b822e53c31dd7653d29445485c41b9f997afd8ecc81383",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 425,
@@ -6114,15 +6119,15 @@
       "title": "污漬放太久，已經很難洗掉",
       "family": "condition",
       "styles": [
-        "speak",
         "audio",
-        "rewrite",
-        "transfer",
         "contrast",
-        "explain"
+        "explain",
+        "rewrite",
+        "speak",
+        "transfer"
       ],
       "sourceSha256": "240ce84cdc06464cef658a30b7b9539f8da48095c6aa3706c79e62efb3ad4681",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 426,
@@ -6130,14 +6135,14 @@
       "title": "大風把雨傘整個吹反了",
       "family": "action",
       "styles": [
-        "speak",
-        "branch",
-        "tone",
         "audio",
-        "reverse"
+        "detail",
+        "reverse",
+        "speak",
+        "branch"
       ],
       "sourceSha256": "47842d909fb426bd81006b5a9a36c1b48a6aead15ebf005e515814881dd0726a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 427,
@@ -6148,11 +6153,11 @@
         "audio",
         "repair",
         "continue",
-        "final",
-        "scene"
+        "tone",
+        "final"
       ],
       "sourceSha256": "0c03f72c797b2f8b8f30368bb07000f14b09b84239af8ab9769cd2519e9d9231",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 428,
@@ -6161,13 +6166,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
-        "speak",
         "branch",
-        "transfer"
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "fd36d260d64a20559f72cf45c97b2ab62968fe240cc6c8ac351767fe839b5160",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 429,
@@ -6175,14 +6180,14 @@
       "title": "蛋糕內部很厚重、不鬆軟",
       "family": "condition",
       "styles": [
-        "speak",
         "audio",
         "contrast",
         "explain",
+        "speak",
         "rewrite"
       ],
       "sourceSha256": "b0b65896910e223b54f60c479679412cf0e39e5dde624a8834512214a95555ed",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 430,
@@ -6190,15 +6195,15 @@
       "title": "蛋糕非常輕、鬆軟",
       "family": "condition",
       "styles": [
-        "speak",
-        "final",
-        "repair",
         "audio",
         "contrast",
-        "rewrite"
+        "repair",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "0e294c4502f9013b509b7297de59fa227e594aaaf28d9f0f5ce6cb8f2629522c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 431,
@@ -6206,15 +6211,15 @@
       "title": "布朗尼裡面濕潤黏黏的",
       "family": "condition",
       "styles": [
-        "final",
+        "audio",
         "contrast",
         "tone",
-        "speak",
         "rewrite",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "513ee039e1d62e36e89e5dbb0afd1de56f4cd0358e83c90264b607c641beeaaf",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 432,
@@ -6222,14 +6227,14 @@
       "title": "餅乾太乾，一拿就碎",
       "family": "condition",
       "styles": [
-        "rewrite",
-        "speak",
-        "reverse",
         "audio",
-        "contrast"
+        "scene",
+        "contrast",
+        "speak",
+        "rewrite"
       ],
       "sourceSha256": "41e723564113e7e1a84c35066a2e4a2eeacf28f3d8c7dff33ec250333b3753dc",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 433,
@@ -6237,15 +6242,15 @@
       "title": "手錶帶開始裂",
       "family": "action",
       "styles": [
-        "final",
-        "continue",
-        "detail",
-        "transfer",
         "audio",
-        "speak"
+        "detail",
+        "reverse",
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "ebeb2c1ff7df86390ae7eaa0ef0b2498b88abc2322ea859571141f10dcdf8c16",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 434,
@@ -6254,13 +6259,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
         "detail",
-        "explain",
-        "speak"
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "f411c445ec50d172afb867e2d8ac0c339bbe59c9151592f810ccb5a8ff0ed787",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 435,
@@ -6269,14 +6274,14 @@
       "family": "action",
       "styles": [
         "audio",
+        "explain",
         "tone",
-        "speak",
-        "final",
         "repair",
-        "continue"
+        "speak",
+        "final"
       ],
       "sourceSha256": "3128deb96e8ff28eea833a8e80720d15e77ca57a51670cfaceb0a4e88ddf6a5f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 436,
@@ -6284,14 +6289,14 @@
       "title": "肚子很多氣，一直想打嗝／放屁",
       "family": "action",
       "styles": [
-        "speak",
-        "scene",
-        "branch",
+        "audio",
         "reverse",
-        "audio"
+        "continue",
+        "speak",
+        "branch"
       ],
       "sourceSha256": "d374179576c246bfd5b5af22d30f65f81dc2ebe1b85863eb9bb8bc0a1905c327",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 437,
@@ -6299,14 +6304,14 @@
       "title": "QR code 怎樣都掃不到",
       "family": "action",
       "styles": [
-        "reverse",
         "audio",
-        "final",
+        "scene",
         "tone",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "d8345c40a8bcff7ecfa4d41bfab887f0afc0717d652a08e24beab73734038084",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 438,
@@ -6315,14 +6320,14 @@
       "family": "condition",
       "styles": [
         "audio",
-        "speak",
         "contrast",
-        "detail",
+        "reverse",
         "rewrite",
+        "speak",
         "final"
       ],
       "sourceSha256": "9ed6523581901c4bea8af091659dacb39e92119a6214ac3ccc4483888527d860",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 439,
@@ -6330,15 +6335,15 @@
       "title": "公寓門口按鈴讓住戶開門",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
+        "detail",
         "scene",
         "continue",
-        "repair",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "b58bc9cbc4b4cb7c1ff06e95d46e323e56ecf25501a755a9af90e570eaf512b7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 440,
@@ -6346,14 +6351,14 @@
       "title": "安全帶拉出來後不會自己縮回去",
       "family": "action",
       "styles": [
-        "explain",
-        "final",
         "audio",
+        "explain",
+        "transfer",
         "speak",
-        "transfer"
+        "final"
       ],
       "sourceSha256": "70e710bd8c8d2bd7f350f2fcf5505f0d855e5210ab9bd854c2da0e12ce070a95",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 441,
@@ -6361,15 +6366,15 @@
       "title": "安全帶整條扭了一圈",
       "family": "action",
       "styles": [
-        "branch",
-        "repair",
         "audio",
         "detail",
+        "repair",
+        "branch",
         "speak",
         "final"
       ],
       "sourceSha256": "efbaa3c6bbd8d0d33f282659d52a6031d5d1fc5ceb2e9ee37824ce88a070f455",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 442,
@@ -6378,14 +6383,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
-        "continue",
         "reverse",
+        "continue",
         "branch",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "9c7e4353dbdb913618b2a67ff5a7f743dec3f831585e6393a5ea997093f1c625",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 443,
@@ -6393,15 +6398,15 @@
       "title": "感應水龍頭怎樣都沒反應",
       "family": "action",
       "styles": [
-        "explain",
-        "final",
-        "tone",
         "audio",
+        "scene",
+        "explain",
         "transfer",
-        "scene"
+        "tone",
+        "final"
       ],
       "sourceSha256": "21892040c8485190417c6cef0b9719c7bb870d991407f66c25047152d844624e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 444,
@@ -6409,14 +6414,14 @@
       "title": "停車票／取車票沒有從機器吐出來",
       "family": "action",
       "styles": [
+        "audio",
         "reverse",
         "branch",
         "speak",
-        "final",
-        "audio"
+        "final"
       ],
       "sourceSha256": "d39ce1144a9edaf6e3808973de2e73f0000f24ff1e9a94991bebd8b215cfb2c0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 445,
@@ -6424,15 +6429,15 @@
       "title": "停車計時器已經過時間",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "scene",
         "detail",
-        "speak",
         "transfer",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "42c9aca9308896998bf8bd3f90085b22066ce3a03c4b16b4b280f571cbe4009e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 446,
@@ -6440,14 +6445,14 @@
       "title": "電梯壞了不能用",
       "family": "condition",
       "styles": [
-        "contrast",
         "audio",
+        "contrast",
         "explain",
-        "final",
-        "rewrite"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "dff697698a3d10c00d6c1424960cc5e2d4358b6beccb4d45c54931d7733f8970",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 447,
@@ -6455,15 +6460,15 @@
       "title": "販賣機收了錢卻沒掉商品",
       "family": "condition",
       "styles": [
-        "speak",
-        "contrast",
-        "final",
         "audio",
+        "contrast",
+        "repair",
         "rewrite",
-        "repair"
+        "speak",
+        "final"
       ],
       "sourceSha256": "b6dbec4ce8b26d84f1f481f0e7e9edd55de70171006034f818fa87e3c9042eb4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 448,
@@ -6471,15 +6476,15 @@
       "title": "鍵盤按一次卻打出兩個字母",
       "family": "action",
       "styles": [
-        "continue",
         "audio",
+        "scene",
         "tone",
-        "final",
+        "continue",
         "speak",
-        "scene"
+        "final"
       ],
       "sourceSha256": "0d9581b5f2c6138d08016f10b4e354cd73698bc620cae565a4121aedc04d9b82",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 449,
@@ -6487,14 +6492,14 @@
       "title": "冰塊全部凍成一大塊黏在一起",
       "family": "action",
       "styles": [
-        "transfer",
-        "branch",
-        "reverse",
         "audio",
+        "reverse",
+        "branch",
+        "transfer",
         "final"
       ],
       "sourceSha256": "01053a8b026cec7e6bf0d0ceef19b48c6629f6ef7097315850b4f48182e28d1f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 450,
@@ -6502,15 +6507,15 @@
       "title": "食物味道在房間裡久久散不掉",
       "family": "condition",
       "styles": [
-        "contrast",
         "audio",
+        "contrast",
+        "explain",
         "rewrite",
-        "final",
         "speak",
-        "explain"
+        "final"
       ],
       "sourceSha256": "1e31121e2510f667cab5f3f5e6b3d0fb1bbe1d1d0ec9e3895677a89dcff879af",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 451,
@@ -6518,15 +6523,15 @@
       "title": "湯不小心加太多鹽",
       "family": "action",
       "styles": [
-        "repair",
         "audio",
-        "final",
-        "continue",
         "detail",
-        "tone"
+        "repair",
+        "tone",
+        "continue",
+        "final"
       ],
       "sourceSha256": "141bd3b1423327d066f01a0736be6416f61c56e3ef859efb5f8bd81742a0dbfd",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 452,
@@ -6534,14 +6539,14 @@
       "title": "珍珠／果粒把飲筒堵住",
       "family": "action",
       "styles": [
-        "repair",
-        "final",
         "audio",
+        "repair",
+        "branch",
         "speak",
-        "branch"
+        "final"
       ],
       "sourceSha256": "af5515fabae20eaa39d4c013ab9d8425d86c50d90c689d3ec54c3e90462655b0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 453,
@@ -6549,14 +6554,14 @@
       "title": "紙飲筒泡太久變軟",
       "family": "condition",
       "styles": [
-        "final",
+        "audio",
         "scene",
-        "rewrite",
         "contrast",
-        "audio"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "6eca974506452f29eb2e0ee3f4e45070c87f0beb65e2a9f8d3ee7a080d7975ea",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 454,
@@ -6564,15 +6569,15 @@
       "title": "杯子外面那些水珠",
       "family": "action",
       "styles": [
-        "final",
-        "explain",
-        "reverse",
-        "transfer",
+        "audio",
         "detail",
-        "audio"
+        "reverse",
+        "explain",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "37cd1c9904e50ef29b9a70cfe6452cb5e516b83eb7e5528001305cf2ac168190",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 455,
@@ -6580,15 +6585,15 @@
       "title": "冰飲杯外面一直冒水珠",
       "family": "action",
       "styles": [
-        "continue",
-        "final",
         "audio",
         "transfer",
+        "tone",
+        "continue",
         "speak",
-        "tone"
+        "final"
       ],
       "sourceSha256": "a5ac349876c87facc9391d4dc0d50989d81b8f0bb50e1777972c3f7390c73361",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 456,
@@ -6596,15 +6601,15 @@
       "title": "麥克筆墨水透到紙的背面",
       "family": "action",
       "styles": [
-        "speak",
-        "repair",
-        "detail",
-        "branch",
         "audio",
+        "detail",
+        "repair",
+        "branch",
+        "speak",
         "explain"
       ],
       "sourceSha256": "e8ca6e4d63423a2bc83b28818b29d472f9754238393671697d3c91c6875b9522",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 457,
@@ -6612,15 +6617,15 @@
       "title": "原子筆寫到一半一直斷墨",
       "family": "action",
       "styles": [
+        "audio",
+        "scene",
+        "reverse",
         "tone",
         "speak",
-        "reverse",
-        "final",
-        "scene",
-        "audio"
+        "final"
       ],
       "sourceSha256": "2f018785b330ae578de1d98954472ec9ba53908fec81e46fff9cb2ab37310691",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 458,
@@ -6628,15 +6633,15 @@
       "title": "膠帶／貼紙放久已經不黏",
       "family": "action",
       "styles": [
-        "final",
-        "explain",
+        "audio",
         "detail",
         "repair",
+        "explain",
         "continue",
-        "audio"
+        "final"
       ],
       "sourceSha256": "a9a6478be375a518fecf0a40de934cc76fd17e75a162ed6936d7e47dbb96f585",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 459,
@@ -6644,14 +6649,14 @@
       "title": "保護貼四角開始翹起",
       "family": "action",
       "styles": [
-        "speak",
-        "tone",
+        "audio",
         "branch",
-        "final",
-        "audio"
+        "tone",
+        "speak",
+        "final"
       ],
       "sourceSha256": "9855f809776069e9d8247a4bc86c1a29c36ccb95c43fe7d29de646ee4d17019f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 460,
@@ -6660,13 +6665,13 @@
       "family": "action",
       "styles": [
         "audio",
-        "final",
-        "speak",
         "transfer",
-        "continue"
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "0dc35ad45cdac58defb446f1ea29b22b83bc0297645049c6b0ee192ce52e8186",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 461,
@@ -6674,14 +6679,14 @@
       "title": "眼鏡戴久了兩邊鬆鬆的",
       "family": "condition",
       "styles": [
+        "audio",
+        "contrast",
         "rewrite",
         "speak",
-        "audio",
-        "final",
-        "contrast"
+        "final"
       ],
       "sourceSha256": "76d8cd21891d443f84192715e93b217ae10a286ec3cac6f5adbfa55bf6053b34",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 462,
@@ -6689,15 +6694,15 @@
       "title": "眼鏡鼻托掉了一個",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
         "audio",
         "scene",
+        "reverse",
         "contrast",
-        "reverse"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "545dea18ab18fed80e8c4ba8be29e64b02a0f4a3344e91dfe6e0bc316f04ff18",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 463,
@@ -6705,15 +6710,15 @@
       "title": "耳環後面的固定塞不見了",
       "family": "condition",
       "styles": [
-        "tone",
-        "final",
-        "rewrite",
-        "repair",
+        "audio",
         "contrast",
-        "audio"
+        "repair",
+        "tone",
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "56531c2ce3cabacf0e80c1e6362c022ca344fcf77a1553023ed5ee95f32bf593",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 464,
@@ -6721,15 +6726,15 @@
       "title": "吃東西不小心咬到舌頭",
       "family": "action",
       "styles": [
-        "explain",
-        "final",
+        "audio",
         "detail",
+        "explain",
         "branch",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "65b0ccbde59f29a3a9470c4e61432a72e4db65ab32ea2b141d4e32f80694433d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 465,
@@ -6737,15 +6742,15 @@
       "title": "吃東西不小心咬到口腔內側",
       "family": "action",
       "styles": [
-        "speak",
-        "transfer",
-        "scene",
-        "continue",
         "audio",
+        "scene",
+        "transfer",
+        "continue",
+        "speak",
         "final"
       ],
       "sourceSha256": "f5bb0a1af8736c733a2c2c39ee087a1c2945219ac6897df0dc9c148529713c2c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 466,
@@ -6753,15 +6758,15 @@
       "title": "牙醫麻醉後半邊嘴還沒感覺",
       "family": "action",
       "styles": [
-        "speak",
-        "branch",
-        "reverse",
-        "final",
         "audio",
-        "scene"
+        "scene",
+        "reverse",
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "cc2ad5696d291cb9cf306e221580fd6d1dc85a6495d78cb9d8acb6ff05d620d2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 467,
@@ -6769,14 +6774,14 @@
       "title": "手心因緊張一直出汗",
       "family": "action",
       "styles": [
+        "audio",
+        "repair",
         "tone",
         "speak",
-        "audio",
-        "final",
-        "repair"
+        "final"
       ],
       "sourceSha256": "104ab82ee0ea15c59984562eaa30bc9416d4dbb0361de601392d90af0f12f2d9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 468,
@@ -6784,14 +6789,14 @@
       "title": "皮膚又冷又濕黏",
       "family": "condition",
       "styles": [
-        "final",
         "audio",
-        "speak",
+        "contrast",
         "rewrite",
-        "contrast"
+        "speak",
+        "final"
       ],
       "sourceSha256": "ea03447bc997f875f33ca0bd7912366e5558d3763ee9f7f83d3bbaf200fc19d1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 469,
@@ -6799,14 +6804,14 @@
       "title": "麻醉藥效果開始退了",
       "family": "action",
       "styles": [
-        "final",
         "audio",
-        "explain",
         "detail",
-        "speak"
+        "explain",
+        "speak",
+        "final"
       ],
       "sourceSha256": "c853e91941626b720731a8815a6ab38da0d6db5bed80dc2c6eb6632e623d9703",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 470,
@@ -6814,15 +6819,15 @@
       "title": "咳嗽突然一陣完全停不下來",
       "family": "action",
       "styles": [
-        "speak",
-        "transfer",
-        "final",
-        "continue",
+        "audio",
         "reverse",
-        "audio"
+        "continue",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "3e09675319d8d557f5d6aa72a95aeb47e605a537d20a6154e18632fe3f5b78b6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 471,
@@ -6830,15 +6835,15 @@
       "title": "相機鏡頭從冷的地方拿到室內後起霧",
       "family": "condition",
       "styles": [
-        "scene",
-        "rewrite",
-        "contrast",
         "audio",
+        "scene",
+        "contrast",
+        "rewrite",
         "reverse",
         "final"
       ],
       "sourceSha256": "4c82591770652564f9f3e038f99c031a1a915ed4f3fe5727a77c71d40d44a59c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 472,
@@ -6847,14 +6852,14 @@
       "family": "condition",
       "styles": [
         "audio",
-        "final",
         "contrast",
-        "speak",
         "transfer",
-        "rewrite"
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "141ec7867cc75984f769449edfb60cc485d962c4d1007e175ae9a71ce75527e2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 473,
@@ -6862,14 +6867,14 @@
       "title": "檔案下載到 99_ 就不動了",
       "family": "action",
       "styles": [
-        "continue",
-        "repair",
-        "final",
+        "audio",
         "explain",
-        "audio"
+        "repair",
+        "continue",
+        "final"
       ],
       "sourceSha256": "f7000df46023c897f3e6dd7ea6d99905bb0e505e390ed9d082f1a8dd0187c544",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 476,
@@ -6877,14 +6882,14 @@
       "title": "飯店窗簾怎樣都關不密",
       "family": "action",
       "styles": [
-        "final",
         "audio",
         "detail",
+        "branch",
         "speak",
-        "branch"
+        "final"
       ],
       "sourceSha256": "ab6305a5ecc658d6c30341b07471fbfa65ff0fb7883ba0679c5b9d9f6c38db86",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 477,
@@ -6892,14 +6897,14 @@
       "title": "層架中間因放太重開始彎下去",
       "family": "action",
       "styles": [
+        "audio",
+        "repair",
         "tone",
         "speak",
-        "final",
-        "repair",
-        "audio"
+        "final"
       ],
       "sourceSha256": "f2fac719f5319a4f521881019dd42d3f89cf8cd6a7695c4edc60a741ae660062",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 478,
@@ -6907,15 +6912,15 @@
       "title": "地毯角一直往上翹，走路會踢到",
       "family": "action",
       "styles": [
+        "audio",
         "reverse",
+        "scene",
         "tone",
         "branch",
-        "audio",
-        "scene",
         "transfer"
       ],
       "sourceSha256": "460d714ab50276581006f341b8a3eb5a7f6f36a19737481559d559a3ec57f7bd",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 479,
@@ -6923,14 +6928,14 @@
       "title": "木桌因熱杯留下白白一圈",
       "family": "condition",
       "styles": [
-        "rewrite",
         "audio",
         "contrast",
-        "final",
-        "speak"
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "7cc04653363750740468a9432110195b9468080ea46645cc4454f61836510dc3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 480,
@@ -6938,15 +6943,15 @@
       "title": "不鏽鋼冰箱上全是手指印",
       "family": "action",
       "styles": [
-        "continue",
-        "explain",
-        "final",
         "audio",
+        "detail",
+        "explain",
+        "continue",
         "speak",
-        "detail"
+        "final"
       ],
       "sourceSha256": "16f16ae6b0631ae78c40b4deba2cfc830117b3e0f01c15264aef78d16ca556d2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 481,
@@ -6954,14 +6959,14 @@
       "title": "鏡子洗澡後整片起霧",
       "family": "action",
       "styles": [
-        "tone",
-        "detail",
-        "transfer",
         "audio",
+        "detail",
+        "tone",
+        "transfer",
         "final"
       ],
       "sourceSha256": "a121d7bd0f09976605315e3a381ac054426abd543bc214abfc60f4f4b39d48c4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 482,
@@ -6969,14 +6974,14 @@
       "title": "一坨很難形容的黏髒東西卡在縫裏",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
         "audio",
+        "contrast",
+        "rewrite",
         "speak",
-        "contrast"
+        "final"
       ],
       "sourceSha256": "e9f498eea739c92cd16759ec45cbdce30b62c0480ce3be3b33e2ed63914ee2a7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 483,
@@ -6984,14 +6989,14 @@
       "title": "廚房表面積了一層油膩髒污",
       "family": "condition",
       "styles": [
-        "speak",
         "final",
+        "speak",
         "rewrite",
         "contrast",
         "audio"
       ],
       "sourceSha256": "0db219253f974c2437e05234cd2dc06a1f70593593daa1b3936f531b87db7384",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 484,
@@ -6999,14 +7004,14 @@
       "title": "地板上有鞋底磨出的黑痕",
       "family": "action",
       "styles": [
-        "reverse",
-        "speak",
-        "final",
         "audio",
-        "repair"
+        "reverse",
+        "repair",
+        "speak",
+        "final"
       ],
       "sourceSha256": "cac62a5eb5883dbc054591602524ce5f89f5ecbc8d8bcfeaa44538d8e96d40ad",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 485,
@@ -7014,15 +7019,15 @@
       "title": "床底下滾成一團的灰塵毛球",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
         "continue",
-        "final",
-        "audio",
         "branch",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "7a9b8900ce02a4a25505af9ef806906cd818badca09965eef37b98254b079f8d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 486,
@@ -7030,14 +7035,14 @@
       "title": "紙袋提把突然被扯斷",
       "family": "action",
       "styles": [
-        "explain",
-        "continue",
-        "branch",
         "audio",
-        "tone"
+        "explain",
+        "tone",
+        "continue",
+        "branch"
       ],
       "sourceSha256": "1005e43abda0e2cbc62114fc2e2086db4e8e1bedd7025b68c4d2716215e8ffc8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 487,
@@ -7045,14 +7050,14 @@
       "title": "紙箱的一角被運送時壓扁",
       "family": "action",
       "styles": [
-        "explain",
         "audio",
-        "final",
+        "explain",
         "repair",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "3a269661bd7296def03ac7661522fb1704dff6445b653ad6a5c8019c73f5b76a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 543,
@@ -7060,15 +7065,15 @@
       "title": "膠帶找不到開頭在哪",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
+        "detail",
+        "reverse",
         "transfer",
         "speak",
-        "reverse",
-        "detail",
-        "audio"
+        "final"
       ],
       "sourceSha256": "96c04690f09446f8277c00f1ea5ef47cc487fcf07532b79c8cdcf0725d04a811",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 545,
@@ -7076,14 +7081,14 @@
       "title": "保鮮膜一直黏在自己身上，拉不開",
       "family": "action",
       "styles": [
+        "audio",
         "scene",
-        "final",
-        "transfer",
+        "tone",
         "speak",
-        "audio"
+        "final"
       ],
       "sourceSha256": "0e7a2b9d412b0aea633426450585dcffad063516d23c0550d085ff66fddd3642",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 546,
@@ -7091,15 +7096,15 @@
       "title": "夾鏈袋怎樣壓都封不起來",
       "family": "action",
       "styles": [
-        "repair",
-        "final",
-        "reverse",
-        "speak",
         "audio",
-        "branch"
+        "reverse",
+        "repair",
+        "transfer",
+        "speak",
+        "final"
       ],
       "sourceSha256": "a5699b5604ceb1edd613ce1226541a083e5241822c19e36f64aeef789888c8f2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 547,
@@ -7107,14 +7112,14 @@
       "title": "噴霧瓶按了但噴不出來",
       "family": "action",
       "styles": [
-        "detail",
-        "final",
-        "speak",
         "audio",
-        "explain"
+        "detail",
+        "branch",
+        "speak",
+        "final"
       ],
       "sourceSha256": "878c5e0d0e75e4d149b67db6ceb48a0c7f1c9531a471ba36c80ebe0929669c20",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 548,
@@ -7122,14 +7127,14 @@
       "title": "洗髮精／乳液壓頭壓不出東西",
       "family": "action",
       "styles": [
-        "tone",
-        "speak",
         "audio",
+        "explain",
         "scene",
+        "speak",
         "continue"
       ],
       "sourceSha256": "9670c806981a10a949bcb93e9af655336e0b3f091634d6dfd4cdd2dab79cc174",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 549,
@@ -7138,13 +7143,13 @@
       "family": "condition",
       "styles": [
         "audio",
-        "speak",
+        "contrast",
         "rewrite",
-        "final",
-        "contrast"
+        "speak",
+        "final"
       ],
       "sourceSha256": "37f69545fa5011d2a9577341cfb341e94a402ac81e459a98d11bdd3749c2fe3b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     }
   ]
 }

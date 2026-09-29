@@ -21,7 +21,7 @@ const questions=[
     'about five minutes away 給出大約到達時間；第二句自然回應正在等候的人。')
 ];
 const steps=[
-  {id:'native-104-v2-audio',style:'audio',label:'聽出距離',title:'再走五分鐘',intro:'先只聽一句話。',model:'I’m five minutes away.',zh:'我離你那邊還有五分鐘。',audioOnly:true,questions:['native-104-v2-audio']},
+  {id:'native-104-v2-audio',style:'audio',label:'聽出距離',title:'再走五分鐘',intro:'留意五分鐘是剩餘路程，不是遲到時間。',model:'I’m five minutes away.',zh:'我離你那邊還有五分鐘。',audioOnly:true,questions:['native-104-v2-audio']},
   {id:'native-104-v2-explain',style:'explain',label:'兩種五分鐘',title:'距離與遲到',intro:'與上一課的遲到訊息作比較。',questions:['native-104-v2-explain']},
   {id:'native-104-v2-tone',style:'tone',label:'留點估計空間',title:'about 讓訊息更誠實',intro:'不把估計說成保證。',questions:['native-104-v2-tone']},
   {id:'native-104-v2-rewrite',style:'rewrite',label:'改準訊息',title:'你其實沒有遲到',intro:'按真實進度選句。',questions:['native-104-v2-rewrite']},

@@ -10,7 +10,7 @@ const questions=[
     'The lights and outlets in my room have no power.','補上房間和受影響的設備，讓前台分清是否只是一盞燈壞了。'),
   mc('native-066-v2-continue','continue','前台說 We’ll check it right away. 你已報告房間停電。最自然的下一句是甚麼？',
     ['Thank you. Please let me know what you find.','No, I have never stayed here.','The power cannot ever return.','Please ignore the room.'],
-    'Thank you. Please let me know what you find.','接受對方要立即檢查的安排，再請他更新結果。'),
+    'Thank you. Please let me know what you find.','職員已答應立刻檢查；先道謝，再請對方告知檢查結果，才能知道房間何時可能恢復供電。'),
   mc('native-066-v2-tone','tone','你只知道自己房間沒電，還不知道整棟樓是否受影響。哪句報告避免過度斷言？',
     ['The power is out in my room.','The entire city has no electricity.','Every building in the area has gone dark.','The electrical grid is permanently broken.'],
     'The power is out in my room.','把範圍限制在自己確認過的房間；不要憑一間房的情況推論整座城市。'),

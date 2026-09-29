@@ -13,7 +13,7 @@ const questions=[
     '前句側重杯子被碰倒；後句側重飲料灑出。','兩件事常一起發生，但 knock over 指容器翻倒，spill 指液體流出。'),
   mc('native-049-v2-branch','branch','店員看見桌上飲料灑出來，問 Are you okay? 你人沒事，想要紙巾。哪句最有幫助？',
     ["I'm okay, thanks. Could I have some napkins?","No, please ignore the spill.","I haven't ordered yet.","Could you bring me a fork?"],
-    "I'm okay, thanks. Could I have some napkins?",'先回應關心，再提出清理飲料真正需要的東西。'),
+    "I'm okay, thanks. Could I have some napkins?",'先說自己沒受傷，讓店員不用擔心；再清楚提出清理桌上飲料所需的紙巾。'),
   blank('native-049-v2-transfer','transfer','把碰倒飲料換成碰倒花瓶：你不小心用手臂碰倒了桌上的花瓶。用 knock over 寫一句英文。',
     ['I knocked the vase over.','I accidentally knocked the vase over.','I knocked over the vase.','I accidentally knocked over the vase.'],
     '保留碰倒的動作，換掉受影響的物件。','knock over 可用於杯子以外的物件；加入 accidentally 能更明確表示意外。')

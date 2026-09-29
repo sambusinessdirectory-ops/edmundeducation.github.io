@@ -18,7 +18,7 @@ const questions=[
     '這個情境是為準備考試主動整夜不睡；用 all-nighter 說準經過，再接今天疲倦的後果。')
 ];
 const steps=[
-  {id:'native-110-v2-audio',style:'audio',label:'聽出夜晚',title:'一夜沒睡',intro:'先只聽一句話。',model:'I pulled an all-nighter.',zh:'我熬了一整晚沒睡。',audioOnly:true,questions:['native-110-v2-audio']},
+  {id:'native-110-v2-audio',style:'audio',label:'聽出夜晚',title:'一夜沒睡',intro:'聽出說話者昨晚究竟有沒有睡。',model:'I pulled an all-nighter.',zh:'我熬了一整晚沒睡。',audioOnly:true,questions:['native-110-v2-audio']},
   {id:'native-110-v2-scene',style:'scene',label:'趕交報告',title:'通宵工作的夜晚',intro:'把說法配到具體原因。',questions:['native-110-v2-scene']},
   {id:'native-110-v2-repair',style:'repair',label:'修正混淆',title:'只是睡不著時',intro:'對照上一課的翻來覆去。',questions:['native-110-v2-repair']},
   {id:'native-110-v2-speak',style:'speak',label:'即時口說',title:'同事問你昨晚怎樣',intro:'先自己說；錄音或跳過後才聽示範。',model:'I pulled an all-nighter.',zh:'我整晚沒睡。',speakingPrompt:'你為了做報告整晚沒睡。同事問你昨晚怎樣，先自己回答。',recording:'phrase',questions:[]},

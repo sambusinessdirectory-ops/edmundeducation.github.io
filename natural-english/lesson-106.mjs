@@ -21,7 +21,7 @@ const questions=[
     'lost track of time 解釋發生了甚麼，卻不取代道歉；再用具體通話時間作補救。')
 ];
 const steps=[
-  {id:'native-106-v2-audio',style:'audio',label:'聽出原因',title:'一抬頭已經很晚',intro:'先只聽一句話。',model:'I lost track of time.',zh:'我忙得忘記時間了。',audioOnly:true,questions:['native-106-v2-audio']},
+  {id:'native-106-v2-audio',style:'audio',label:'聽出原因',title:'一抬頭已經很晚',intro:'聽完判斷對方是忘了時間，還是忘了約會。',model:'I lost track of time.',zh:'我忙得忘記時間了。',audioOnly:true,questions:['native-106-v2-audio']},
   {id:'native-106-v2-detail',style:'detail',label:'觀察時間差',title:'以為只過了半小時',intro:'找出真正「沒留意時間」的跡象。',questions:['native-106-v2-detail']},
   {id:'native-106-v2-repair',style:'repair',label:'改掉直譯',title:'不是遺失了時鐘',intro:'把意思說準。',questions:['native-106-v2-repair']},
   {id:'native-106-v2-transfer',style:'transfer',label:'換成數量',title:'看到第幾集？',intro:'把 lost track of 用於另一種進度。',questions:['native-106-v2-transfer']},

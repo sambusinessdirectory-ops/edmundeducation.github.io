@@ -18,7 +18,7 @@ const questions=[
     '先說明卡被暫停，再清楚提出 unfreeze 或 reactivate；別把卡與信用報告的凍結混淆。')
 ];
 const steps=[
-  {id:'native-330-v2-audio',style:'audio',label:'聽出請求',title:'想把卡重新開通',intro:'先只聽一句話。',model:'I need to unfreeze my card.',zh:'我需要重新開通我的卡。',audioOnly:true,questions:['native-330-v2-audio']},
+  {id:'native-330-v2-audio',style:'audio',label:'聽出請求',title:'想把卡重新開通',intro:'聽清楚要解除暫停的是卡，還是信用報告。',model:'I need to unfreeze my card.',zh:'我需要重新開通我的卡。',audioOnly:true,questions:['native-330-v2-audio']},
   {id:'native-330-v2-reverse',style:'reverse',label:'反向理解',title:'unfreeze 的對象是卡',intro:'辨認這句不是在說信用報告。',questions:['native-330-v2-reverse']},
   {id:'native-330-v2-repair',style:'repair',label:'改準對象',title:'卡與信用報告別混淆',intro:'修正銀行通話裡的說法。',questions:['native-330-v2-repair']},
   {id:'native-330-v2-rewrite',style:'rewrite',label:'換個動詞',title:'reactivate 也可清楚表意',intro:'按銀行已核實的事實提出需要。',questions:['native-330-v2-rewrite']},

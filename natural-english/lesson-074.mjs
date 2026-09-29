@@ -10,7 +10,7 @@ const questions=[
     '自己忍不住笑。','在這段對話裏，it 回指 laughing；離開語境，單聽 I can’t help it. 不一定知道忍不住甚麼。'),
   mc('native-074-v2-continue','continue','朋友說 I know, but I can’t help worrying about the exam. 你想表示理解，而非命令他「別擔心」。哪句較合適？',
     ["I get it. Do you want to talk through what's worrying you?","Just stop worrying right now.","You should never take exams again.","I can't hear what you said."],
-    "I get it. Do you want to talk through what's worrying you?",'先承認擔憂不是說停就停，再提出具體支持。'),
+    "I get it. Do you want to talk through what's worrying you?",'先承認對方的考試擔憂有其原因，再讓對方選擇是否談談細節；沒有命令他立刻停止擔心。'),
   mc('native-074-v2-detail','explain','你不小心打破朋友的杯子，只說 I can’t help it. 有甚麼問題？',
     ['聽起來像推卸責任；應先道歉並提出補救。','這句表示你已經修好杯子。','這句會讓杯子自動恢復。','這句只可用於考試。'],
     '聽起來像推卸責任；應先道歉並提出補救。','不能控制的笑或擔憂和自己造成的損失不同；後者需要承擔責任。'),
