@@ -1,5 +1,5 @@
 import {mc} from './editorial-question.mjs';
-const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'blank',style,prompt,before:'',after:'',answers,hint,explanation});
+const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,prompt,before:'',after:'',answers,hint,explanation});
 
 const questions=[
   mc('native-037-v2-scene','scene','你正在開會，朋友打來。你不能現在談，但十分鐘後可以。哪句清楚交代下一步？',

@@ -1,5 +1,5 @@
 import {mc} from './editorial-question.mjs';
-const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'blank',style,prompt,before:'',after:'',answers,hint,explanation});
+const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,prompt,before:'',after:'',answers,hint,explanation});
 
 const questions=[
   mc('native-059-v2-audio','audio','只聽店員的一句話。他需要顧客決定甚麼？',

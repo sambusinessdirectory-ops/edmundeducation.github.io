@@ -1,5 +1,5 @@
 const mc=(id,style,prompt,options,answer,explanation)=>({id,type:'mc',style,prompt,before:'',after:'',options,answers:[answer],explanation});
-const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'blank',style,prompt,before:'',after:'',answers,hint,explanation});
+const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,prompt,before:'',after:'',answers,hint,explanation});
 
 const questions=[
   mc('native-028-v2-detail','detail',

@@ -1,5 +1,5 @@
 import {mc} from './editorial-question.mjs';
-const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'blank',style,prompt,before:'',after:'',answers,hint,explanation});
+const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,prompt,before:'',after:'',answers,hint,explanation});
 
 const questions=[
   mc('native-056-v2-audio','audio','只聽咖啡店職員的問題。他要你在甚麼之間選擇？',

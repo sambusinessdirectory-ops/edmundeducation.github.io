@@ -124,7 +124,7 @@ export const modules=[
 export const moduleMap=new Map(modules.map(m=>[m.id,m]));
 export const allQuestionMap=new Map(modules.flatMap(m=>m.questions.map(q=>[q.id,q])));
 export const normalise=s=>String(s??'').trim().toLowerCase().replace(/[’]/g,"'").replace(/[.!?]+$/,'').trim().replace(/\s+/g,' ');
-export const correct=(q,value)=>q.answers.some(a=>normalise(a)===normalise(value));
+export const correct=(q,value)=>q.type==='open'?String(value??'').trim().length>=3:q.answers.some(a=>normalise(a)===normalise(value));
 export const hkDate=at=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function moduleEvents(events,moduleId){return events.filter(e=>e.module===moduleId||moduleId==='scoop'&&!e.module);}

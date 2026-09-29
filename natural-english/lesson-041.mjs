@@ -1,5 +1,5 @@
 import {mc} from './editorial-question.mjs';
-const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'blank',style,prompt,before:'',after:'',answers,hint,explanation});
+const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,prompt,before:'',after:'',answers,hint,explanation});
 
 const questions=[
   mc('native-041-v2-scene','scene','朋友說剛才打了兩次電話，你完全沒聽見，因為手機設成靜音。怎樣解釋最貼切？',

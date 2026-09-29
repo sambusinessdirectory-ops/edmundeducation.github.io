@@ -1,5 +1,5 @@
 import {mc} from './editorial-question.mjs';
-const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'blank',style,prompt,before:'',after:'',answers,hint,explanation});
+const blank=(id,style,prompt,answers,hint,explanation)=>({id,type:'open',style,prompt,before:'',after:'',answers,hint,explanation});
 
 const questions=[
   mc('native-052-v2-audio','audio','只聽聚會上一句話。說話者現在打算做甚麼？',

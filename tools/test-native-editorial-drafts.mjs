@@ -23,6 +23,7 @@ for(const allocation of allocations){
   assert.ok(draft.steps.some(step=>step.style==='audio'&&step.audioOnly&&step.model),lessonId+' needs concealed listening');
   if(draft.steps.some(step=>step.style==='speak'))assert.ok(draft.steps.some(step=>step.speakingPrompt&&step.recording),lessonId);
   if(draft.steps.some(step=>step.style==='final'))assert.ok(draft.steps.some(step=>step.style==='final'&&step.questions.length),lessonId);
+  assert.ok(draft.questions.filter(question=>question.style==='final').every(question=>question.type==='open'),lessonId+' final writing needs review, not exact-match grading');
   for(const question of draft.questions){
     assert.match(question.id,new RegExp('^'+lessonId+'-v2-'));
     assert.ok(allocation.styles.includes(question.style),question.id);
@@ -33,7 +34,7 @@ for(const allocation of allocations){
       assert.ok(question.options.includes(question.answers[0]),question.id);
       assert.equal(new Set(question.options).size,question.options.length,question.id);
       if(question.options.length===4)answerPositions[question.options.indexOf(question.answers[0])]++;
-    }else assert.equal(question.type,'blank',question.id);
+    }else assert.equal(question.type,'open',question.id+' free writing must use learner review');
   }
   for(const model of new Set([...draft.steps.map(step=>step.model).filter(Boolean),...draft.takeaways])){
     const path=audioManifest[lessonId]?.[model];
