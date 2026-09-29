@@ -224,15 +224,15 @@
       "title": "這不是我點的",
       "family": "action",
       "styles": [
-        "explain",
-        "audio",
         "scene",
-        "final",
+        "audio",
+        "explain",
+        "detail",
         "speak",
-        "detail"
+        "final"
       ],
       "sourceSha256": "06780add62d218d4382c80618d01dcaa164f15a7568d41e1677bc79d14db08e7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 22,
@@ -243,11 +243,11 @@
         "audio",
         "branch",
         "transfer",
-        "final",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "4e212b081a0e46389b2d2e4c449f05e2fce89356682d07b71b0031876e2afa9e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 24,
@@ -257,13 +257,13 @@
       "styles": [
         "reverse",
         "audio",
-        "speak",
         "contrast",
         "detail",
+        "speak",
         "final"
       ],
       "sourceSha256": "eeaaa45b90bd276dbd99624597f577a3253b801f3e77dd2aa271a36fa33ae8e9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 26,
@@ -271,14 +271,14 @@
       "title": "肚子怪怪的",
       "family": "action",
       "styles": [
-        "continue",
-        "speak",
         "scene",
         "audio",
+        "continue",
+        "speak",
         "transfer"
       ],
       "sourceSha256": "792a6928a185359c068ec39fcc41cd55a22fbd2580f58e3755a5108b400d2d64",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 27,
@@ -287,14 +287,14 @@
       "family": "condition",
       "styles": [
         "contrast",
-        "rewrite",
-        "transfer",
+        "audio",
         "explain",
         "repair",
-        "audio"
+        "rewrite",
+        "transfer"
       ],
       "sourceSha256": "4458a7ee484565d5cc9854f366798fd4b2bfa56b083e42029ef21fda9c2143cb",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 28,
