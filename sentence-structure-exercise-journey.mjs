@@ -1,4 +1,3 @@
-const PLATFORM_ART = "assets/sentence-structure/exercise-eddy/coast-platform.webp";
 let activeQuestionId = "";
 let motionTimer = 0;
 let reactionTimer = 0;
@@ -12,7 +11,6 @@ export function sentenceJourneyEnabled(lesson) {
 
 export function sentenceJourneyPlatformHtml(number, status = "pending") {
   return `<div class="sentence-journey-platform is-${status}" aria-hidden="true">
-    <img src="${PLATFORM_ART}" width="252" height="174" loading="lazy" decoding="async" alt="">
     <strong>${String(number).padStart(2, "0")}</strong>
   </div>`;
 }

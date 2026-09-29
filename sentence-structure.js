@@ -4,7 +4,7 @@ import { createExpressionMap } from "./common-expression-map.mjs?v=20260928-shar
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
-import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path6";
+import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path7";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -141,6 +141,13 @@ let lessonSearchIndexCache = null;
 let sentenceMap = null;
 let sentenceTrophies = [], earnedSentenceTrophies = new Set();
 let exerciseClockWasRunningBeforeIdleBreak = false;
+const exerciseKeyboardViewport = {
+  baselineHeight: window.visualViewport?.height || window.innerHeight,
+  baselineWidth: window.visualViewport?.width || window.innerWidth,
+  anchor: null,
+  opened: false,
+  restoreTimer: 0
+};
 
 function idleBreakIsPaused() {
   return window.EdmundIdleBreak?.isPaused?.() === true;
@@ -2420,6 +2427,61 @@ function restoreSectionBookmarkFocus(lessonId) {
   });
 }
 
+function rememberExerciseKeyboardAnchor(input) {
+  const viewport = window.visualViewport;
+  const card = input?.closest?.("[data-eddy-stop]");
+  if (!viewport || !card) return;
+  const keyboardGap = exerciseKeyboardViewport.baselineHeight - viewport.height;
+  if (keyboardGap > 80 && exerciseKeyboardViewport.anchor) return;
+  exerciseKeyboardViewport.baselineHeight = Math.max(exerciseKeyboardViewport.baselineHeight, viewport.height);
+  exerciseKeyboardViewport.baselineWidth = viewport.width;
+  exerciseKeyboardViewport.anchor = {
+    questionId: card.dataset.eddyStop || input.dataset.answerInput || "",
+    viewportTop: card.getBoundingClientRect().top - viewport.offsetTop
+  };
+  exerciseKeyboardViewport.opened = false;
+}
+
+function restoreExerciseKeyboardAnchor() {
+  const viewport = window.visualViewport;
+  const anchor = exerciseKeyboardViewport.anchor;
+  if (!viewport || !anchor) return;
+  const restore = () => {
+    const card = elements.lessonContent.querySelector?.(`[data-eddy-stop="${CSS.escape(anchor.questionId)}"]`);
+    if (!card) return;
+    const currentTop = card.getBoundingClientRect().top - viewport.offsetTop;
+    window.scrollTo({ top: Math.max(0, window.scrollY + currentTop - anchor.viewportTop), behavior: "auto" });
+  };
+  window.clearTimeout(exerciseKeyboardViewport.restoreTimer);
+  requestAnimationFrame(() => requestAnimationFrame(restore));
+  exerciseKeyboardViewport.restoreTimer = window.setTimeout(() => {
+    restore();
+    exerciseKeyboardViewport.restoreTimer = window.setTimeout(restore, 240);
+  }, 120);
+  exerciseKeyboardViewport.anchor = null;
+  exerciseKeyboardViewport.opened = false;
+  exerciseKeyboardViewport.baselineHeight = viewport.height;
+}
+
+function handleExerciseKeyboardViewportResize() {
+  const viewport = window.visualViewport;
+  if (!viewport) return;
+  if (Math.abs(viewport.width - exerciseKeyboardViewport.baselineWidth) > 80) {
+    exerciseKeyboardViewport.baselineWidth = viewport.width;
+    exerciseKeyboardViewport.baselineHeight = viewport.height;
+    exerciseKeyboardViewport.anchor = null;
+    exerciseKeyboardViewport.opened = false;
+    return;
+  }
+  const keyboardGap = exerciseKeyboardViewport.baselineHeight - viewport.height;
+  if (keyboardGap > 120 && exerciseKeyboardViewport.anchor) {
+    exerciseKeyboardViewport.opened = true;
+    return;
+  }
+  if (exerciseKeyboardViewport.opened && keyboardGap < 60) restoreExerciseKeyboardAnchor();
+  else if (!exerciseKeyboardViewport.opened) exerciseKeyboardViewport.baselineHeight = Math.max(exerciseKeyboardViewport.baselineHeight, viewport.height);
+}
+
 function upgradeBookmarkAnswer(lessonId, questionId) {
   const bookmark = state.bookmarks.find((item) => item.lessonId === lessonId && item.questionId === questionId);
   if (!bookmark || bookmark.includeAnswer) return false;
@@ -2717,9 +2779,11 @@ function bindEvents() {
   document.addEventListener("focusin", (event) => {
     const input = event.target.closest?.("[data-answer-input]");
     if (input && state.lessonPage === 4 && sentenceJourneyEnabled(getLesson())) {
+      rememberExerciseKeyboardAnchor(input);
       moveSentenceJourney(elements.lessonContent, input.dataset.answerInput);
     }
   });
+  window.visualViewport?.addEventListener?.("resize", handleExerciseKeyboardViewportResize);
   elements.lessonSearchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     renderLessonSearch();
