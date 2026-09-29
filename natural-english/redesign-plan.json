@@ -349,14 +349,14 @@
       "family": "social",
       "styles": [
         "tone",
-        "continue",
-        "speak",
+        "audio",
         "rewrite",
         "branch",
-        "audio"
+        "continue",
+        "speak"
       ],
       "sourceSha256": "eed7e8cf355e98cc8cfb572327f2a348acd540fab48f08520e81a69f0569974f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 32,
@@ -364,14 +364,14 @@
       "title": "水管、馬桶堵住",
       "family": "action",
       "styles": [
-        "speak",
-        "final",
         "audio",
         "repair",
-        "continue"
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "5d8bd84f100eb574cfc883b47687a14fd2b179c060ec30bbf71da303e8beaac5",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 33,
@@ -379,14 +379,14 @@
       "title": "桌椅搖搖晃晃",
       "family": "action",
       "styles": [
-        "repair",
+        "scene",
         "audio",
         "detail",
-        "branch",
-        "scene"
+        "repair",
+        "branch"
       ],
       "sourceSha256": "1a3c13db55c42f9935a99828c9152627321e9638e41b03223a12c51e2c8f15a1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 34,
@@ -394,14 +394,14 @@
       "title": "刀鈍了",
       "family": "action",
       "styles": [
-        "explain",
-        "final",
         "audio",
+        "explain",
+        "repair",
         "transfer",
-        "repair"
+        "final"
       ],
       "sourceSha256": "8008334b898e8d9a7b3c2f5247d52752c6ab13c9a7f0f9cec9c6873e13b02f05",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 35,
@@ -409,15 +409,15 @@
       "title": "車子拋錨",
       "family": "action",
       "styles": [
-        "transfer",
-        "final",
         "audio",
         "explain",
         "continue",
-        "speak"
+        "speak",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "d3ba18225cd4e5b3f5217068b765aad6d9c77cedceb8aa18e10920ced8d0abca",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 36,
