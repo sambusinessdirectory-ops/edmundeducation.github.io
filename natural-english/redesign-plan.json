@@ -17,7 +17,7 @@
   },
   "uses": {
     "scene": 125,
-    "tone": 115,
+    "tone": 116,
     "audio": 459,
     "branch": 125,
     "reverse": 116,
@@ -864,14 +864,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "speak",
         "branch",
-        "final",
+        "tone",
+        "speak",
         "continue",
-        "tone"
+        "final"
       ],
       "sourceSha256": "1fa6aeaffd29f09774f85362788ef769f9fdf825478416888a7c761f04dd79a9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 67,
@@ -879,14 +879,15 @@
       "title": "跳電了",
       "family": "action",
       "styles": [
-        "branch",
-        "continue",
         "audio",
         "detail",
-        "speak"
+        "branch",
+        "speak",
+        "continue",
+        "repair"
       ],
       "sourceSha256": "8dc18e54628f49557459acb00f4f7ed4dbed85c18401ed4c944413d977ce1840",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 68,
@@ -894,14 +895,14 @@
       "title": "電來了",
       "family": "action",
       "styles": [
+        "audio",
         "branch",
         "speak",
-        "audio",
-        "final",
-        "continue"
+        "continue",
+        "final"
       ],
       "sourceSha256": "4905fac25307bc7c43f4f39113ca11e1ea9197c55da528be1994419f4e98b530",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 69,
@@ -909,15 +910,15 @@
       "title": "家裡有食物，叫客人自己拿",
       "family": "action",
       "styles": [
-        "transfer",
         "audio",
-        "branch",
         "scene",
+        "transfer",
         "speak",
+        "branch",
         "continue"
       ],
       "sourceSha256": "0eadd1c4c94f691b4a419ca00435ce2d0f412579510652ad9e5c9636cc0a3833",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 70,
@@ -926,13 +927,13 @@
       "family": "social",
       "styles": [
         "audio",
+        "tone",
         "speak",
         "rewrite",
-        "final",
-        "tone"
+        "final"
       ],
       "sourceSha256": "de7cf51a8004aa2e9d69e98d8601e9e1edadef5474d87120d8ac1adc0f16f8d9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 71,
@@ -1001,10 +1002,10 @@
       "title": "日子有點難，但還撐得住",
       "family": "action",
       "styles": [
+        "transfer",
         "branch",
         "speak",
         "audio",
-        "repair",
         "detail"
       ],
       "sourceSha256": "3cc350a449038209cba87d024ac3b3141a2ae76a6d7a83984efc9c364ee0f8b7",
@@ -1018,9 +1019,9 @@
       "styles": [
         "audio",
         "speak",
+        "scene",
         "continue",
         "final",
-        "transfer",
         "branch"
       ],
       "sourceSha256": "a78113eaab96d196974a3c0aae107f4091dcbfa2a67568e017253c58c74c2e9a",
@@ -1093,11 +1094,11 @@
       "title": "跑完很喘",
       "family": "action",
       "styles": [
+        "transfer",
         "audio",
         "explain",
         "continue",
-        "final",
-        "scene"
+        "final"
       ],
       "sourceSha256": "d43d17ba81650ef8a04220581df3397afb34c73059a720f71674a789a7382347",
       "status": "needs-content-authoring"
@@ -1108,9 +1109,9 @@
       "title": "麻麻刺刺的感覺",
       "family": "object",
       "styles": [
-        "transfer",
         "final",
         "audio",
+        "scene",
         "repair",
         "reverse"
       ],
@@ -1139,9 +1140,9 @@
       "family": "action",
       "styles": [
         "explain",
-        "scene",
         "final",
         "branch",
+        "detail",
         "speak",
         "audio"
       ],
@@ -1155,8 +1156,8 @@
       "family": "object",
       "styles": [
         "final",
+        "scene",
         "audio",
-        "detail",
         "contrast",
         "reverse",
         "explain"
@@ -1187,10 +1188,10 @@
       "styles": [
         "speak",
         "reverse",
-        "scene",
         "final",
         "tone",
-        "audio"
+        "audio",
+        "repair"
       ],
       "sourceSha256": "f962fd2a3e47d678350aa9f1785d34c7f290d07a2e5e7287414800e94898dfb3",
       "status": "needs-content-authoring"
@@ -1339,7 +1340,7 @@
       "family": "action",
       "styles": [
         "detail",
-        "repair",
+        "transfer",
         "branch",
         "audio",
         "scene",
@@ -1358,7 +1359,7 @@
         "explain",
         "repair",
         "speak",
-        "transfer",
+        "continue",
         "audio"
       ],
       "sourceSha256": "303b0ebfc2f76ec63bbc84c70344ee7e17a7a05e1dc3bb90ebe65d918b2a531d",
@@ -1401,12 +1402,12 @@
       "title": "鼓勵對方撐住",
       "family": "social",
       "styles": [
+        "branch",
         "rewrite",
         "explain",
         "audio",
         "tone",
-        "speak",
-        "continue"
+        "speak"
       ],
       "sourceSha256": "8e651656713e7dd7bf60653ff556f57255ebeeb6c10f9fc6e0698e68872bca52",
       "status": "needs-content-authoring"
@@ -1432,11 +1433,11 @@
       "title": "我離你那邊還有五分鐘",
       "family": "social",
       "styles": [
+        "continue",
         "audio",
         "final",
         "explain",
         "tone",
-        "branch",
         "rewrite"
       ],
       "sourceSha256": "5795f187b3af12c7dd526346925f0309aa513dc364595e44bf73c40487429215",
@@ -1464,10 +1465,10 @@
       "title": "雖然遲了，但總比沒來好",
       "family": "action",
       "styles": [
+        "transfer",
         "audio",
         "branch",
         "repair",
-        "continue",
         "detail",
         "explain"
       ],
@@ -1481,9 +1482,9 @@
       "family": "object",
       "styles": [
         "reverse",
-        "transfer",
         "contrast",
         "audio",
+        "detail",
         "final",
         "speak"
       ],
@@ -1512,11 +1513,11 @@
       "title": "熬一整晚沒睡",
       "family": "action",
       "styles": [
-        "detail",
         "final",
         "scene",
         "repair",
         "audio",
+        "branch",
         "speak"
       ],
       "sourceSha256": "bb5e8874cabc0c80640b27d7433a6f54372eb8474042b376126b2a04df961e32",
@@ -1529,7 +1530,7 @@
       "family": "action",
       "styles": [
         "scene",
-        "branch",
+        "transfer",
         "final",
         "continue",
         "audio"
@@ -1543,8 +1544,8 @@
       "title": "蘋果、水果撞傷一塊",
       "family": "action",
       "styles": [
+        "scene",
         "explain",
-        "transfer",
         "repair",
         "audio",
         "detail",
@@ -1559,11 +1560,11 @@
       "title": "水槽水下得很慢",
       "family": "action",
       "styles": [
+        "explain",
         "speak",
         "final",
         "audio",
-        "transfer",
-        "scene"
+        "transfer"
       ],
       "sourceSha256": "a46fd51b77f1f0cf9860dedab45b4f004135aa946c98a4cf787a23a6ecc61376",
       "status": "needs-content-authoring"
@@ -1592,7 +1593,7 @@
       "styles": [
         "detail",
         "audio",
-        "explain",
+        "repair",
         "continue",
         "final",
         "branch"
@@ -1608,8 +1609,8 @@
       "styles": [
         "final",
         "speak",
+        "scene",
         "transfer",
-        "repair",
         "audio"
       ],
       "sourceSha256": "c8b92dee489d59d03be1e6ff2845769430e769ef9075a8ac65961414daf15102",
@@ -1638,9 +1639,9 @@
       "family": "action",
       "styles": [
         "repair",
+        "explain",
         "audio",
         "speak",
-        "scene",
         "final"
       ],
       "sourceSha256": "8c201f948392795f0f321dbfaef26dd65a286540160a0480fcf910cb60dcc900",
@@ -1668,8 +1669,8 @@
       "family": "action",
       "styles": [
         "audio",
+        "continue",
         "transfer",
-        "explain",
         "final",
         "speak"
       ],
@@ -1683,7 +1684,7 @@
       "family": "action",
       "styles": [
         "audio",
-        "continue",
+        "tone",
         "speak",
         "detail",
         "final"
@@ -1727,7 +1728,7 @@
       "title": "對方已讀但一直沒回",
       "family": "action",
       "styles": [
-        "tone",
+        "explain",
         "speak",
         "audio",
         "transfer",
@@ -1745,8 +1746,8 @@
         "audio",
         "speak",
         "final",
-        "scene",
-        "explain"
+        "tone",
+        "scene"
       ],
       "sourceSha256": "ccb961e251d7be467dffa8781384c9723c77365453a429bcb8f1fb69ade7aff3",
       "status": "needs-content-authoring"
@@ -1758,9 +1759,9 @@
       "family": "action",
       "styles": [
         "scene",
-        "tone",
         "final",
         "audio",
+        "transfer",
         "speak"
       ],
       "sourceSha256": "278c52c2ad4f6888b82da4e2d3a3e71eab111019204acda67b97ae3c0659053a",
@@ -1804,10 +1805,10 @@
       "family": "action",
       "styles": [
         "final",
-        "transfer",
         "speak",
         "audio",
-        "branch"
+        "branch",
+        "tone"
       ],
       "sourceSha256": "4e2b4a168d1ab36ebe6f3460cd3d476cf9a47780f6791f6104e1c284a24ac7dc",
       "status": "needs-content-authoring"
@@ -1836,9 +1837,9 @@
         "contrast",
         "audio",
         "final",
-        "tone",
         "rewrite",
-        "speak"
+        "speak",
+        "scene"
       ],
       "sourceSha256": "64d1c468bc36899a7f67de384d4a9d925dcc83725f06cde389197e15b2a6b30d",
       "status": "needs-content-authoring"
@@ -1850,7 +1851,7 @@
       "family": "condition",
       "styles": [
         "rewrite",
-        "scene",
+        "detail",
         "final",
         "audio",
         "contrast"
@@ -1943,7 +1944,7 @@
       "styles": [
         "final",
         "audio",
-        "detail",
+        "explain",
         "speak",
         "reverse",
         "contrast"
@@ -1976,7 +1977,7 @@
         "speak",
         "reverse",
         "audio",
-        "explain"
+        "contrast"
       ],
       "sourceSha256": "3db2338e7e4f479defc169c0853ac83e74d44ea99a299f0c415ab13c3a2dddea",
       "status": "needs-content-authoring"
@@ -4347,11 +4348,11 @@
       "title": "薯片開封後軟掉",
       "family": "condition",
       "styles": [
-        "contrast",
         "rewrite",
         "speak",
         "audio",
-        "final"
+        "final",
+        "scene"
       ],
       "sourceSha256": "c86cdcc2c243f222c976cd53b3bf17fe0a009b718e19ceed3884992b2876e890",
       "status": "needs-content-authoring"
@@ -4362,7 +4363,7 @@
       "title": "奶油從冰箱拿出來太硬，抹不開",
       "family": "condition",
       "styles": [
-        "scene",
+        "tone",
         "final",
         "contrast",
         "speak",
@@ -4378,10 +4379,10 @@
       "family": "condition",
       "styles": [
         "final",
-        "tone",
         "detail",
         "speak",
-        "audio"
+        "audio",
+        "reverse"
       ],
       "sourceSha256": "1071afb82a0d8537ba2dbf459131d8d7c49356b9e084d00adf55c921d40955e7",
       "status": "needs-content-authoring"
@@ -4409,9 +4410,9 @@
       "family": "action",
       "styles": [
         "final",
+        "transfer",
         "branch",
         "speak",
-        "reverse",
         "audio",
         "repair"
       ],
@@ -4441,8 +4442,8 @@
       "styles": [
         "contrast",
         "audio",
+        "tone",
         "rewrite",
-        "transfer",
         "detail"
       ],
       "sourceSha256": "133e62892ecb76132c640c1dcbf1bae5c641a3e01c1ebf9f3167661a6bb5aeb1",
@@ -4486,8 +4487,8 @@
       "title": "耳機只有一邊有聲音",
       "family": "condition",
       "styles": [
+        "transfer",
         "speak",
-        "tone",
         "audio",
         "contrast",
         "final",
@@ -4517,8 +4518,8 @@
       "title": "飯店房間還沒整理好",
       "family": "action",
       "styles": [
+        "scene",
         "explain",
-        "transfer",
         "final",
         "audio",
         "reverse"
@@ -4536,8 +4537,8 @@
         "continue",
         "final",
         "audio",
-        "scene",
-        "branch"
+        "branch",
+        "explain"
       ],
       "sourceSha256": "febb0624482a3e220b146b97a9ca64b4d1fc822e979e7b458625960873d41829",
       "status": "needs-content-authoring"
@@ -4549,10 +4550,10 @@
       "family": "action",
       "styles": [
         "final",
+        "branch",
         "speak",
         "repair",
         "audio",
-        "explain",
         "scene"
       ],
       "sourceSha256": "5098d4d197e419d1163b0a3059648beae07e4295911aa129b8e45d232a0932b0",
@@ -4581,10 +4582,10 @@
       "styles": [
         "final",
         "continue",
+        "repair",
         "speak",
         "transfer",
-        "audio",
-        "branch"
+        "audio"
       ],
       "sourceSha256": "673b9765ae0e57dc86a12832fc2338c3c2275ccc637e32f5ecc34d87eba4425c",
       "status": "needs-content-authoring"
@@ -4598,8 +4599,8 @@
         "final",
         "speak",
         "audio",
-        "tone",
-        "repair"
+        "scene",
+        "tone"
       ],
       "sourceSha256": "9c53dc0a100ede31d26141cda6c3f92b77ecf538cc0c347f39e8a1c38b5e87ac",
       "status": "needs-content-authoring"
@@ -4611,9 +4612,9 @@
       "family": "action",
       "styles": [
         "detail",
-        "scene",
         "audio",
         "final",
+        "reverse",
         "transfer",
         "speak"
       ],
@@ -4717,7 +4718,7 @@
       "title": "行李箱拉桿拉不出來",
       "family": "action",
       "styles": [
-        "reverse",
+        "scene",
         "continue",
         "audio",
         "detail",
@@ -4736,7 +4737,7 @@
         "rewrite",
         "detail",
         "final",
-        "scene",
+        "explain",
         "transfer",
         "audio"
       ],
@@ -4769,7 +4770,7 @@
         "final",
         "scene",
         "audio",
-        "explain"
+        "continue"
       ],
       "sourceSha256": "75efa274574a12cbe4c760e6eceadb14b49b45807c33ea4609517f9116321614",
       "status": "needs-content-authoring"
@@ -4782,9 +4783,9 @@
       "styles": [
         "detail",
         "scene",
+        "transfer",
         "final",
         "speak",
-        "continue",
         "audio"
       ],
       "sourceSha256": "e822493c0e2d17aa7b3562484bfcb8383a8d56a32187257273cf5db900f55fd4",
@@ -4814,9 +4815,9 @@
       "styles": [
         "rewrite",
         "final",
-        "transfer",
         "speak",
         "contrast",
+        "reverse",
         "audio"
       ],
       "sourceSha256": "69c1e7a1677d15d5a4b265e44f5ff19b79e2ee9a7defd5c5079211565a03397a",
@@ -4830,7 +4831,7 @@
       "styles": [
         "final",
         "continue",
-        "reverse",
+        "scene",
         "audio",
         "speak"
       ],
@@ -4846,8 +4847,8 @@
         "rewrite",
         "audio",
         "final",
-        "contrast",
-        "scene"
+        "tone",
+        "contrast"
       ],
       "sourceSha256": "20c74c39d4a14f0352fbd2666896b9e17e47dd69aa15ae76729381a51fee08ee",
       "status": "needs-content-authoring"
@@ -4860,10 +4861,10 @@
       "styles": [
         "reverse",
         "final",
+        "repair",
         "explain",
         "speak",
-        "audio",
-        "tone"
+        "audio"
       ],
       "sourceSha256": "66c0b14d4beb16443f346a8e8c2f8f6a938fbbd10489d10b68662611e435f0ff",
       "status": "needs-content-authoring"
@@ -4877,8 +4878,8 @@
         "speak",
         "branch",
         "final",
+        "detail",
         "audio",
-        "repair",
         "transfer"
       ],
       "sourceSha256": "3b33c06292fd7775a2a36bf1ac98e61a6714c8c2dc92677ba098ae4b33874762",
@@ -4890,10 +4891,10 @@
       "title": "撞到桌角後那一塊很痛",
       "family": "condition",
       "styles": [
-        "detail",
         "contrast",
         "final",
         "speak",
+        "rewrite",
         "audio"
       ],
       "sourceSha256": "26825f22f22b77651dfe7cf6ee045ac2f296eb76329186a2d05c73ea16e5b7b6",
@@ -4968,7 +4969,7 @@
       "styles": [
         "transfer",
         "speak",
-        "rewrite",
+        "tone",
         "detail",
         "audio"
       ],
@@ -4997,8 +4998,8 @@
       "title": "不沾鍋塗層開始一小片一小片掉",
       "family": "condition",
       "styles": [
+        "repair",
         "audio",
-        "tone",
         "final",
         "contrast",
         "speak"
@@ -5012,11 +5013,11 @@
       "title": "烤盤上食物殘渣乾硬黏住",
       "family": "condition",
       "styles": [
-        "repair",
         "reverse",
         "audio",
         "final",
         "speak",
+        "rewrite",
         "detail"
       ],
       "sourceSha256": "e0aaf080468e926f246e30b9c1a5280a985b03c3f22c126764b00042c84ac184",
@@ -5060,9 +5061,9 @@
       "title": "食物本來脆，裝在盒裏被蒸氣弄軟",
       "family": "condition",
       "styles": [
+        "reverse",
         "final",
         "contrast",
-        "rewrite",
         "audio",
         "speak"
       ],
@@ -5077,10 +5078,10 @@
       "styles": [
         "audio",
         "final",
-        "reverse",
         "speak",
         "explain",
-        "tone"
+        "tone",
+        "detail"
       ],
       "sourceSha256": "3384fda45b480e96582482e2ee0be60df2f8058404e1425138b7a6ef6a6416e8",
       "status": "needs-content-authoring"
@@ -5107,10 +5108,10 @@
       "family": "condition",
       "styles": [
         "rewrite",
-        "detail",
         "final",
         "speak",
         "audio",
+        "repair",
         "contrast"
       ],
       "sourceSha256": "d909cd33da97715d3817ec3dceee4dc86069ac525d0f3aa2b873d1ef2c866972",
@@ -5122,8 +5123,8 @@
       "title": "汽水一開突然泡沫一直湧出來",
       "family": "action",
       "styles": [
-        "repair",
         "continue",
+        "tone",
         "final",
         "audio",
         "speak",
@@ -5139,9 +5140,9 @@
       "family": "action",
       "styles": [
         "reverse",
+        "repair",
         "speak",
         "audio",
-        "tone",
         "scene",
         "final"
       ],
@@ -5154,12 +5155,12 @@
       "title": "網站因太久沒操作把您踢出去",
       "family": "action",
       "styles": [
-        "repair",
         "explain",
         "transfer",
         "branch",
         "detail",
-        "audio"
+        "audio",
+        "continue"
       ],
       "sourceSha256": "ff71e1faeb1a8b6feece30f8944c4cfe481edae28426eea633e505eeefd409a0",
       "status": "needs-content-authoring"
@@ -5201,11 +5202,11 @@
       "title": "雲端檔案沒有更新到另一台裝置",
       "family": "action",
       "styles": [
+        "detail",
         "reverse",
         "audio",
         "repair",
         "branch",
-        "continue",
         "speak"
       ],
       "sourceSha256": "116c21eb96f07e699c964d09fa413e2c61ed62d42e3a455b4f97ca4fd587352f",
@@ -5219,8 +5220,8 @@
       "styles": [
         "speak",
         "final",
-        "detail",
         "branch",
+        "transfer",
         "explain",
         "audio"
       ],
@@ -5249,10 +5250,10 @@
       "family": "action",
       "styles": [
         "audio",
-        "transfer",
         "reverse",
         "detail",
-        "speak"
+        "speak",
+        "repair"
       ],
       "sourceSha256": "ad6e746086fcb7c74e22a569917cf78221e264442f53391ae1e85acdd8d28d94",
       "status": "needs-content-authoring"
@@ -5266,7 +5267,7 @@
         "audio",
         "detail",
         "final",
-        "repair",
+        "tone",
         "speak"
       ],
       "sourceSha256": "9f1f2fe94383a27241fdf22a17199ce77a98fdb692868de55aa06509d672575c",
@@ -5280,9 +5281,9 @@
       "styles": [
         "reverse",
         "audio",
-        "tone",
         "rewrite",
-        "contrast"
+        "contrast",
+        "repair"
       ],
       "sourceSha256": "34eb281bc55c187ed4afcd78fe0082f6703a1eece11e3e6878c5f42034951268",
       "status": "needs-content-authoring"
@@ -5294,7 +5295,7 @@
       "family": "action",
       "styles": [
         "speak",
-        "repair",
+        "explain",
         "audio",
         "final",
         "transfer"
@@ -5323,8 +5324,8 @@
       "title": "商品沒有價格標籤",
       "family": "action",
       "styles": [
-        "explain",
         "scene",
+        "tone",
         "final",
         "reverse",
         "audio",
@@ -5418,7 +5419,7 @@
       "styles": [
         "scene",
         "explain",
-        "tone",
+        "repair",
         "audio",
         "speak"
       ],
@@ -5434,9 +5435,9 @@
         "transfer",
         "audio",
         "tone",
-        "repair",
         "final",
-        "speak"
+        "speak",
+        "detail"
       ],
       "sourceSha256": "525e4636331719731b8f7d9373feab259af190ecd3943bcda74750922b6a52d2",
       "status": "needs-content-authoring"
@@ -5462,9 +5463,9 @@
       "title": "車鑰匙遙控器沒電",
       "family": "action",
       "styles": [
+        "continue",
         "scene",
         "final",
-        "detail",
         "audio",
         "speak"
       ],
@@ -5555,7 +5556,7 @@
       "title": "喝水不小心嗆到、喝進「錯的管」",
       "family": "action",
       "styles": [
-        "continue",
+        "scene",
         "transfer",
         "repair",
         "detail",
@@ -5588,7 +5589,7 @@
       "styles": [
         "audio",
         "reverse",
-        "scene",
+        "transfer",
         "continue",
         "branch",
         "explain"
@@ -5633,9 +5634,9 @@
       "title": "冰箱不夠冷",
       "family": "condition",
       "styles": [
+        "scene",
         "final",
         "rewrite",
-        "transfer",
         "contrast",
         "speak",
         "audio"
@@ -5649,12 +5650,12 @@
       "title": "螺絲孔已經滑牙，螺絲鎖不住",
       "family": "action",
       "styles": [
-        "scene",
         "speak",
         "detail",
         "continue",
         "final",
-        "audio"
+        "audio",
+        "explain"
       ],
       "sourceSha256": "1b93bc59fe6dc53e36605de67f5ee28af2f85c1d78dcc1ee1f06e05d4a680dcc",
       "status": "needs-content-authoring"
@@ -5697,8 +5698,8 @@
       "styles": [
         "tone",
         "audio",
-        "explain",
         "final",
+        "transfer",
         "speak"
       ],
       "sourceSha256": "60aebe0de799f39ba896d225132355691c2cd780e4090e2bf173799cca176bc5",
@@ -5710,10 +5711,10 @@
       "title": "腳趾／手指磨出水泡但還沒破",
       "family": "action",
       "styles": [
+        "explain",
         "speak",
         "audio",
         "branch",
-        "transfer",
         "detail",
         "repair"
       ],
@@ -5756,10 +5757,10 @@
       "title": "店員忘了把折扣算進去",
       "family": "action",
       "styles": [
-        "explain",
         "branch",
         "audio",
         "final",
+        "continue",
         "speak",
         "tone"
       ],
@@ -5818,11 +5819,11 @@
       "family": "action",
       "styles": [
         "audio",
+        "scene",
         "repair",
         "branch",
         "speak",
-        "final",
-        "continue"
+        "final"
       ],
       "sourceSha256": "ff825b9684c7635f1651a6c4a25d8c188e908bc3285efcb1502099f7d7bdeb21",
       "status": "needs-content-authoring"
@@ -5836,8 +5837,8 @@
         "transfer",
         "final",
         "audio",
-        "reverse",
-        "scene"
+        "tone",
+        "reverse"
       ],
       "sourceSha256": "4f2097a0b4551c5bc16d1b0888035e848f8263f32beb9b9823d7fadb54e28067",
       "status": "needs-content-authoring"
@@ -5849,11 +5850,11 @@
       "family": "action",
       "styles": [
         "speak",
+        "explain",
         "audio",
         "final",
         "branch",
-        "repair",
-        "tone"
+        "repair"
       ],
       "sourceSha256": "94eda6eea55a5f21babb094d297542e83d48c6523872401c08dce2aad66ae1a7",
       "status": "needs-content-authoring"
@@ -5896,8 +5897,8 @@
       "title": "罐頭打開時液體／泡沫噴出",
       "family": "action",
       "styles": [
+        "branch",
         "speak",
-        "explain",
         "continue",
         "final",
         "audio"
@@ -5912,9 +5913,9 @@
       "family": "action",
       "styles": [
         "reverse",
-        "branch",
         "transfer",
         "final",
+        "tone",
         "audio"
       ],
       "sourceSha256": "60e7795d24af2cba5a83ed86f531e1fb45f442b5a3c75666336a672a59813653",
@@ -5942,12 +5943,12 @@
       "title": "帽T抽繩一邊被拉進去，只剩另一邊",
       "family": "action",
       "styles": [
+        "continue",
         "final",
         "speak",
         "repair",
         "detail",
-        "audio",
-        "tone"
+        "audio"
       ],
       "sourceSha256": "db763e7fca90184dd0955df5148e16fcf08067b424cbfaeca7b2fa634aaa3dab",
       "status": "needs-content-authoring"
@@ -5976,9 +5977,9 @@
       "styles": [
         "final",
         "branch",
-        "continue",
         "audio",
         "explain",
+        "tone",
         "scene"
       ],
       "sourceSha256": "4bf6bba69de4f40cdeb6f17bbf66e94c65c1f72f4439ca47132caadb86918d7f",
@@ -6038,9 +6039,9 @@
       "styles": [
         "audio",
         "detail",
+        "transfer",
         "explain",
         "final",
-        "tone",
         "speak"
       ],
       "sourceSha256": "24636e66b89502ed670f427fcdf23def908eb73ad494da3f16d59d0aef3a56bf",
@@ -6102,7 +6103,7 @@
         "scene",
         "audio",
         "speak",
-        "transfer"
+        "detail"
       ],
       "sourceSha256": "d4fa6d25437c25eda5b822e53c31dd7653d29445485c41b9f997afd8ecc81383",
       "status": "needs-content-authoring"
@@ -6131,9 +6132,9 @@
       "styles": [
         "speak",
         "branch",
+        "tone",
         "audio",
-        "reverse",
-        "detail"
+        "reverse"
       ],
       "sourceSha256": "47842d909fb426bd81006b5a9a36c1b48a6aead15ebf005e515814881dd0726a",
       "status": "needs-content-authoring"
@@ -6148,7 +6149,7 @@
         "repair",
         "continue",
         "final",
-        "tone"
+        "scene"
       ],
       "sourceSha256": "0c03f72c797b2f8b8f30368bb07000f14b09b84239af8ab9769cd2519e9d9231",
       "status": "needs-content-authoring"
@@ -6223,8 +6224,8 @@
       "styles": [
         "rewrite",
         "speak",
+        "reverse",
         "audio",
-        "scene",
         "contrast"
       ],
       "sourceSha256": "41e723564113e7e1a84c35066a2e4a2eeacf28f3d8c7dff33ec250333b3753dc",
@@ -6236,10 +6237,10 @@
       "title": "手錶帶開始裂",
       "family": "action",
       "styles": [
-        "reverse",
         "final",
         "continue",
         "detail",
+        "transfer",
         "audio",
         "speak"
       ],
@@ -6255,7 +6256,7 @@
         "audio",
         "final",
         "detail",
-        "transfer",
+        "explain",
         "speak"
       ],
       "sourceSha256": "f411c445ec50d172afb867e2d8ac0c339bbe59c9151592f810ccb5a8ff0ed787",
@@ -6267,12 +6268,12 @@
       "title": "吃太飽肚子脹得很不舒服",
       "family": "action",
       "styles": [
-        "explain",
         "audio",
         "tone",
         "speak",
         "final",
-        "repair"
+        "repair",
+        "continue"
       ],
       "sourceSha256": "3128deb96e8ff28eea833a8e80720d15e77ca57a51670cfaceb0a4e88ddf6a5f",
       "status": "needs-content-authoring"
@@ -6284,7 +6285,7 @@
       "family": "action",
       "styles": [
         "speak",
-        "continue",
+        "scene",
         "branch",
         "reverse",
         "audio"
@@ -6298,10 +6299,10 @@
       "title": "QR code 怎樣都掃不到",
       "family": "action",
       "styles": [
+        "reverse",
         "audio",
         "final",
         "tone",
-        "scene",
         "speak"
       ],
       "sourceSha256": "d8345c40a8bcff7ecfa4d41bfab887f0afc0717d652a08e24beab73734038084",
@@ -6316,7 +6317,7 @@
         "audio",
         "speak",
         "contrast",
-        "reverse",
+        "detail",
         "rewrite",
         "final"
       ],
@@ -6332,9 +6333,9 @@
         "final",
         "scene",
         "continue",
+        "repair",
         "speak",
-        "audio",
-        "detail"
+        "audio"
       ],
       "sourceSha256": "b58bc9cbc4b4cb7c1ff06e95d46e323e56ecf25501a755a9af90e570eaf512b7",
       "status": "needs-content-authoring"
@@ -6396,7 +6397,7 @@
         "final",
         "tone",
         "audio",
-        "repair",
+        "transfer",
         "scene"
       ],
       "sourceSha256": "21892040c8485190417c6cef0b9719c7bb870d991407f66c25047152d844624e",
@@ -6408,7 +6409,7 @@
       "title": "停車票／取車票沒有從機器吐出來",
       "family": "action",
       "styles": [
-        "transfer",
+        "reverse",
         "branch",
         "speak",
         "final",
@@ -6472,10 +6473,10 @@
       "styles": [
         "continue",
         "audio",
-        "reverse",
         "tone",
         "final",
-        "speak"
+        "speak",
+        "scene"
       ],
       "sourceSha256": "0d9581b5f2c6138d08016f10b4e354cd73698bc620cae565a4121aedc04d9b82",
       "status": "needs-content-authoring"
@@ -6488,7 +6489,7 @@
       "styles": [
         "transfer",
         "branch",
-        "scene",
+        "reverse",
         "audio",
         "final"
       ],
@@ -6517,10 +6518,10 @@
       "title": "湯不小心加太多鹽",
       "family": "action",
       "styles": [
+        "repair",
         "audio",
         "final",
         "continue",
-        "reverse",
         "detail",
         "tone"
       ],
@@ -6549,10 +6550,10 @@
       "family": "condition",
       "styles": [
         "final",
+        "scene",
         "rewrite",
         "contrast",
-        "audio",
-        "repair"
+        "audio"
       ],
       "sourceSha256": "6eca974506452f29eb2e0ee3f4e45070c87f0beb65e2a9f8d3ee7a080d7975ea",
       "status": "needs-content-authoring"
@@ -6564,11 +6565,11 @@
       "family": "action",
       "styles": [
         "final",
+        "explain",
         "reverse",
         "transfer",
         "detail",
-        "audio",
-        "scene"
+        "audio"
       ],
       "sourceSha256": "37cd1c9904e50ef29b9a70cfe6452cb5e516b83eb7e5528001305cf2ac168190",
       "status": "needs-content-authoring"
@@ -6579,10 +6580,10 @@
       "title": "冰飲杯外面一直冒水珠",
       "family": "action",
       "styles": [
-        "explain",
         "continue",
         "final",
         "audio",
+        "transfer",
         "speak",
         "tone"
       ],
@@ -6595,10 +6596,10 @@
       "title": "麥克筆墨水透到紙的背面",
       "family": "action",
       "styles": [
-        "transfer",
         "speak",
         "repair",
         "detail",
+        "branch",
         "audio",
         "explain"
       ],
@@ -6630,9 +6631,9 @@
         "final",
         "explain",
         "detail",
+        "repair",
         "continue",
-        "audio",
-        "branch"
+        "audio"
       ],
       "sourceSha256": "a9a6478be375a518fecf0a40de934cc76fd17e75a162ed6936d7e47dbb96f585",
       "status": "needs-content-authoring"
@@ -6688,10 +6689,10 @@
       "title": "眼鏡鼻托掉了一個",
       "family": "condition",
       "styles": [
-        "repair",
         "final",
         "rewrite",
         "audio",
+        "scene",
         "contrast",
         "reverse"
       ],
@@ -6706,8 +6707,8 @@
       "styles": [
         "tone",
         "final",
-        "scene",
         "rewrite",
+        "repair",
         "contrast",
         "audio"
       ],
@@ -6752,12 +6753,12 @@
       "title": "牙醫麻醉後半邊嘴還沒感覺",
       "family": "action",
       "styles": [
-        "repair",
         "speak",
         "branch",
         "reverse",
         "final",
-        "audio"
+        "audio",
+        "scene"
       ],
       "sourceSha256": "cc2ad5696d291cb9cf306e221580fd6d1dc85a6495d78cb9d8acb6ff05d620d2",
       "status": "needs-content-authoring"
@@ -6768,11 +6769,11 @@
       "title": "手心因緊張一直出汗",
       "family": "action",
       "styles": [
+        "tone",
         "speak",
         "audio",
         "final",
-        "repair",
-        "scene"
+        "repair"
       ],
       "sourceSha256": "104ab82ee0ea15c59984562eaa30bc9416d4dbb0361de601392d90af0f12f2d9",
       "status": "needs-content-authoring"
@@ -6817,8 +6818,8 @@
         "transfer",
         "final",
         "continue",
-        "audio",
-        "tone"
+        "reverse",
+        "audio"
       ],
       "sourceSha256": "3e09675319d8d557f5d6aa72a95aeb47e605a537d20a6154e18632fe3f5b78b6",
       "status": "needs-content-authoring"
@@ -6862,9 +6863,9 @@
       "family": "action",
       "styles": [
         "continue",
-        "reverse",
         "repair",
         "final",
+        "explain",
         "audio"
       ],
       "sourceSha256": "f7000df46023c897f3e6dd7ea6d99905bb0e505e390ed9d082f1a8dd0187c544",
@@ -6878,7 +6879,7 @@
       "styles": [
         "final",
         "audio",
-        "explain",
+        "detail",
         "speak",
         "branch"
       ],
@@ -6891,10 +6892,10 @@
       "title": "層架中間因放太重開始彎下去",
       "family": "action",
       "styles": [
-        "detail",
         "tone",
         "speak",
         "final",
+        "repair",
         "audio"
       ],
       "sourceSha256": "f2fac719f5319a4f521881019dd42d3f89cf8cd6a7695c4edc60a741ae660062",
@@ -6907,9 +6908,9 @@
       "family": "action",
       "styles": [
         "reverse",
+        "tone",
         "branch",
         "audio",
-        "repair",
         "scene",
         "transfer"
       ],
@@ -6937,10 +6938,10 @@
       "title": "不鏽鋼冰箱上全是手指印",
       "family": "action",
       "styles": [
+        "continue",
         "explain",
         "final",
         "audio",
-        "tone",
         "speak",
         "detail"
       ],
@@ -6953,8 +6954,8 @@
       "title": "鏡子洗澡後整片起霧",
       "family": "action",
       "styles": [
+        "tone",
         "detail",
-        "continue",
         "transfer",
         "audio",
         "final"
@@ -7076,8 +7077,8 @@
       "family": "action",
       "styles": [
         "scene",
-        "tone",
         "final",
+        "transfer",
         "speak",
         "audio"
       ],
@@ -7094,8 +7095,8 @@
         "final",
         "reverse",
         "speak",
-        "transfer",
-        "audio"
+        "audio",
+        "branch"
       ],
       "sourceSha256": "a5699b5604ceb1edd613ce1226541a083e5241822c19e36f64aeef789888c8f2",
       "status": "needs-content-authoring"
@@ -7107,10 +7108,10 @@
       "family": "action",
       "styles": [
         "detail",
-        "branch",
         "final",
         "speak",
-        "audio"
+        "audio",
+        "explain"
       ],
       "sourceSha256": "878c5e0d0e75e4d149b67db6ceb48a0c7f1c9531a471ba36c80ebe0929669c20",
       "status": "needs-content-authoring"
@@ -7121,8 +7122,8 @@
       "title": "洗髮精／乳液壓頭壓不出東西",
       "family": "action",
       "styles": [
+        "tone",
         "speak",
-        "explain",
         "audio",
         "scene",
         "continue"
