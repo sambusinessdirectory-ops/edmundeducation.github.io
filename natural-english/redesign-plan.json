@@ -941,15 +941,15 @@
       "title": "我突然很想吃拉麵",
       "family": "social",
       "styles": [
-        "rewrite",
-        "continue",
-        "tone",
         "audio",
+        "tone",
+        "scene",
         "branch",
-        "scene"
+        "rewrite",
+        "continue"
       ],
       "sourceSha256": "627bc9d323bf4dba6366c6bf30023a9008d0c556789127dc9b10eb3bef4c2f42",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 72,
@@ -957,14 +957,14 @@
       "title": "我今天不想出去",
       "family": "action",
       "styles": [
-        "branch",
         "audio",
-        "final",
+        "branch",
+        "speak",
         "continue",
-        "speak"
+        "final"
       ],
       "sourceSha256": "32c225ad421d9417cc39b195770e60ce2e33dc1253c44e654476fe1be36c3869",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 73,
@@ -972,14 +972,14 @@
       "title": "我今天沒心情",
       "family": "social",
       "styles": [
-        "rewrite",
-        "final",
+        "audio",
         "tone",
         "speak",
-        "audio"
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "c97839620307e58500d2c7aec7f993f385f06784666117c2f15a75d96a7ace7d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 74,
@@ -989,12 +989,12 @@
       "styles": [
         "audio",
         "explain",
-        "continue",
         "speak",
+        "continue",
         "final"
       ],
       "sourceSha256": "7573e4f265e8b4ffdfe121a5c64dd30556682279f3ebe8b68b63a523549bef1c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 75,
@@ -1002,14 +1002,14 @@
       "title": "日子有點難，但還撐得住",
       "family": "action",
       "styles": [
-        "transfer",
+        "audio",
+        "detail",
         "branch",
         "speak",
-        "audio",
-        "detail"
+        "transfer"
       ],
       "sourceSha256": "3cc350a449038209cba87d024ac3b3141a2ae76a6d7a83984efc9c364ee0f8b7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 76,
@@ -1018,14 +1018,14 @@
       "family": "action",
       "styles": [
         "audio",
-        "speak",
         "scene",
+        "speak",
+        "branch",
         "continue",
-        "final",
-        "branch"
+        "final"
       ],
       "sourceSha256": "a78113eaab96d196974a3c0aae107f4091dcbfa2a67568e017253c58c74c2e9a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 77,
