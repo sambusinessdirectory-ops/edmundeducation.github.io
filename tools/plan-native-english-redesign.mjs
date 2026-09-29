@@ -29,20 +29,14 @@ const families={
   condition:['contrast','detail','scene','transfer','explain','repair','rewrite'],
   action:['scene','detail','repair','transfer','branch','continue','explain'],
 };
-const authored={
-  7:['tone','audio','branch','transfer','speak','final'],
-  8:['scene','audio','rewrite','speak','final'],
-  9:['audio','detail','contrast','speak','final'],
-  10:['reverse','explain','audio','speak','final'],
-  11:['audio','repair','explain','continue','speak','final'],
-  12:['audio','tone','repair','branch','transfer','final'],
-  14:['scene','audio','detail','speak','final'],
-  16:['audio','explain','rewrite','continue','speak','final'],
-  17:['scene','audio','rewrite','continue','speak','transfer'],
-  18:['reverse','audio','contrast','repair','speak'],
-  19:['audio','detail','branch','repair','continue','speak'],
-  20:['reverse','audio','contrast','speak','final'],
-};
+const draftFiles=fs.readdirSync(new URL('../natural-english/',import.meta.url))
+  .filter(name=>/^lesson-\d{3}\.mjs$/.test(name)&&name!=='lesson-102.mjs');
+export const authored=new Map(await Promise.all(draftFiles.map(async name=>{
+  const number=Number(name.slice(7,10));
+  const draft=(await import(new URL('../natural-english/'+name,import.meta.url))).default;
+  if(draft?.revision!==2)throw new Error(`${name}: expected editorial revision 2`);
+  return [number,draft.steps.map(step=>step.style)];
+})));
 
 const hash=(...parts)=>Number.parseInt(createHash('sha256').update(parts.join(':')).digest('hex').slice(0,8),16);
 function familyOf(lesson){
@@ -57,9 +51,9 @@ function familyOf(lesson){
 
 function chooseStyles(lesson,previous,uses){
   const family=familyOf(lesson),pool=families[family];
-  const count=authored[lesson.number]?.length??5+hash(lesson.id,'count')%2;
-  const chosen=authored[lesson.number]?[...authored[lesson.number]]:['audio'];
-  if(!authored[lesson.number]){
+  const count=authored.get(lesson.number)?.length??5+hash(lesson.id,'count')%2;
+  const chosen=authored.has(lesson.number)?[...authored.get(lesson.number)]:['audio'];
+  if(!authored.has(lesson.number)){
     if(hash(lesson.id,'speak')%4!==0)chosen.push('speak');
     if(hash(lesson.id,'final')%4!==0)chosen.push('final');
     const rest=Object.keys(styles).filter(style=>!chosen.includes(style));
@@ -80,7 +74,7 @@ export function plan(){
   for(const lesson of lessons){
     if(lesson.number===102)continue; // Lesson 102 already has an editorial revision.
     const selected=chooseStyles(lesson,previous,uses);
-    rows.push({number:lesson.number,id:lesson.id,title:lesson.titleZh,...selected,sourceSha256:lesson.sourceSha256,status:authored[lesson.number]?'draft-needs-editorial-review':'needs-content-authoring'});
+    rows.push({number:lesson.number,id:lesson.id,title:lesson.titleZh,...selected,sourceSha256:lesson.sourceSha256,status:authored.has(lesson.number)?'draft-needs-editorial-review':'needs-content-authoring'});
     previous=selected.styles;
   }
   return {styles,uses,rows};
