@@ -566,14 +566,14 @@
       "title": "可以晚點退房嗎？",
       "family": "request",
       "styles": [
-        "tone",
         "audio",
-        "final",
+        "tone",
         "reverse",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "de62436ef6576655d3a15e77e91e226a111dc8a5cdfefa1c8a4466ba8e994ec1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 48,
@@ -581,14 +581,14 @@
       "title": "廁所有人",
       "family": "action",
       "styles": [
-        "final",
         "audio",
+        "explain",
         "speak",
         "continue",
-        "explain"
+        "final"
       ],
       "sourceSha256": "e4d696989dec94433a95813cd3df8ac83cd9d62e38117d1da0ff2ca1f0c0db78",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 49,
@@ -596,15 +596,15 @@
       "title": "不小心撞倒飲料",
       "family": "action",
       "styles": [
-        "speak",
         "audio",
-        "branch",
         "scene",
         "detail",
+        "speak",
+        "branch",
         "transfer"
       ],
       "sourceSha256": "5f836ef9cda905818915c90887ee63458719f253b5dfff190c89c9e61b4c8933",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 50,
@@ -612,15 +612,15 @@
       "title": "洗碗",
       "family": "object",
       "styles": [
-        "contrast",
+        "audio",
         "scene",
+        "contrast",
         "repair",
         "speak",
-        "audio",
         "reverse"
       ],
       "sourceSha256": "83a51a14a7702630b5e9a77e296e1330f1bfc0b92c7cc1b9af4cfd7900203948",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 51,
