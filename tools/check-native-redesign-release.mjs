@@ -2,6 +2,7 @@
 // Deliberately stricter than the draft tests. Do not deploy a partial course.
 import fs from 'node:fs';
 import {plan} from './plan-native-english-redesign.mjs';
+import {editorialIssues} from './test-native-editorial-quality.mjs';
 import {moduleMap} from '../natural-english/catalogue.mjs';
 
 const rows=plan().rows;
@@ -17,7 +18,7 @@ const serverReady=migrations.some(name=>{
   return sql.includes("q->>'type'='open'")&&sql.includes('natural_english_private.sync_modules');
 });
 
-if(missing.length||unlinked.length||!serverReady){
-  console.error(`BLOCKED Native English release: ${missing.length} approved lessons still need authored drafts; ${unlinked.length} are not linked to v2 content; ${serverReady?'open writing server support ready':'open writing server support missing'}.`);
+if(missing.length||unlinked.length||!serverReady||editorialIssues.length){
+  console.error(`BLOCKED Native English release: ${missing.length} approved lessons still need authored drafts; ${unlinked.length} are not linked to v2 content; ${editorialIssues.length} editorial quality findings; ${serverReady?'open writing server support ready':'open writing server support missing'}.`);
   process.exitCode=1;
 }else console.log(`PASS Native English release gate: ${rows.length} approved redesigned lessons linked with open-writing server support.`);
