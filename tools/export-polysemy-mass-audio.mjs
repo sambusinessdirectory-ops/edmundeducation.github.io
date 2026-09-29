@@ -36,5 +36,7 @@ for(const module of modules.filter(module=>!module.mass)){
   olderPending.push({id:question.id,en:question.en,index,voice:'american-male',module:module.id});
  }
 }
-save('cloud-pending.json',[...olderPending,...cloud]);
-console.log(JSON.stringify({questions:all.length,local:local.map(rows=>rows.length),cloud:cloud.length,olderCloudPending:olderPending.length,output}));
+const massAudio=JSON.parse(fs.readFileSync(path.join(root,'polysemy-lab','audio-mass.json')));
+const massCloudPending=cloud.filter(row=>!massAudio[row.id]);
+save('cloud-pending.json',[...olderPending,...massCloudPending]);
+console.log(JSON.stringify({questions:all.length,local:local.map(rows=>rows.length),cloud:cloud.length,olderCloudPending:olderPending.length,massCloudPending:massCloudPending.length,output}));
