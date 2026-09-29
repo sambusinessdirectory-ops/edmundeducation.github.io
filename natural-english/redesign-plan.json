@@ -489,13 +489,13 @@
       "family": "action",
       "styles": [
         "scene",
-        "branch",
+        "audio",
         "detail",
-        "continue",
-        "audio"
+        "branch",
+        "continue"
       ],
       "sourceSha256": "498d0280fd381ad1c41fe5c199bd95549bff5ab188bc1c286ee20f2ac50208c6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 42,
@@ -503,15 +503,15 @@
       "title": "塞在車陣中",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
-        "speak",
         "audio",
         "contrast",
-        "repair"
+        "repair",
+        "speak",
+        "rewrite",
+        "final"
       ],
       "sourceSha256": "5de5f692cdf5b93a7adebf16329358541ea13cf408cac0d2fc2ef5a18a3aff2d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 43,
@@ -519,14 +519,14 @@
       "title": "找停車位",
       "family": "action",
       "styles": [
-        "speak",
-        "final",
+        "audio",
         "branch",
         "explain",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "f3c94b3e0c0b16cb24e4253d061310b5c36bb85ab5cafd949b512c77cb10c675",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 44,
@@ -535,14 +535,14 @@
       "family": "social",
       "styles": [
         "audio",
-        "transfer",
         "tone",
+        "transfer",
         "speak",
         "continue",
         "final"
       ],
       "sourceSha256": "0bd8b24b17ab63bb4f4616ad1a47252bbda87d190b30957d85d4f590921daba3",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 45,
@@ -550,15 +550,15 @@
       "title": "讓我在這裡下車",
       "family": "action",
       "styles": [
-        "speak",
+        "audio",
         "detail",
         "branch",
+        "speak",
         "repair",
-        "audio",
         "final"
       ],
       "sourceSha256": "9fdfcb02babd87b3fef3038b1d1446de209596f529a2c6495bb028f4cca7e065",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 47,
