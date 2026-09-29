@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260910-float2">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260929-full-exam1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20260904-admin-source1">
 </head>
@@ -108,6 +108,18 @@
         </div>
       </section>
       <p class="dse-catalogue-status" data-dse-catalogue-status role="status"></p>
+      <section class="mock-exam-panel panel full-exam-launch" aria-labelledby="dse-full-exam-title">
+        <div><p class="eyebrow">DSE PAPER 1 · 90-MINUTE FULL PAPER</p><h2 id="dse-full-exam-title">完整試卷模擬試 <span>Part A + Part B</span></h2><p>選擇 B1 或 B2。可使用同一年度的 A + B，或隨機配對不同年度的 A + B。全卷共用 90 分鐘，交卷後才結束。</p></div>
+        <div class="mock-exam-actions full-exam-options">
+          <label>模式<select data-dse-exam-mode><option value="same-year">同一年份 A + B</option><option value="mixed-year">隨機不同年份 A + B</option></select></label>
+          <label data-dse-exam-year-label>年份<select data-dse-exam-year></select></label>
+          <label>選卷<select data-dse-exam-path><option value="B1">Part B1</option><option value="B2">Part B2</option></select></label>
+          <button class="primary-button" type="button" data-start-dse-full-exam>開始完整試卷</button>
+          <button class="secondary-button" type="button" data-resume-dse-full-exam hidden>繼續未完成試卷</button>
+          <button class="secondary-button" type="button" data-toggle-dse-full-exam-log aria-expanded="false">查看模擬試記錄</button>
+        </div>
+        <div class="mock-exam-log" data-dse-full-exam-log hidden></div>
+      </section>
       <div class="dse-year-grid" data-dse-year-grid></div>
     </section>
 
@@ -127,7 +139,7 @@
         <div class="mock-exam-intro">
           <p class="eyebrow">IELTS READING · 60-MINUTE MOCK EXAM</p>
           <h2 id="mock-exam-title">模擬考試模式 <span>Mock Exam Mode</span></h2>
-          <p>系統會從 Passage 1、2、3 各隨機抽選一篇。三篇共用 60 分鐘倒數，完成後會記錄總分、正確率及每篇成績。</p>
+          <p>系統會從 Passage 1、2、3 各隨機抽選一篇，合共 40 題。三篇共用 60 分鐘倒數；可自由切換，交卷前不顯示分數。</p>
         </div>
         <div class="mock-exam-actions">
           <button class="primary-button" type="button" data-start-mock-exam>開始隨機模擬試 · Start</button>
@@ -228,6 +240,12 @@
           <label class="force-submit" data-force-label hidden><input data-force-submit type="checkbox"> 到時自動交卷</label>
         </div>
       </section>
+      <section class="full-exam-navigation panel" data-full-exam-navigation hidden aria-label="完整試卷導覽">
+        <div><strong data-full-exam-heading>完整試卷</strong><span data-full-exam-save-status role="status">答案自動儲存</span></div>
+        <nav data-full-exam-sections aria-label="切換試卷部分"></nav>
+        <button class="primary-button" type="button" data-full-exam-finish>提交完整試卷</button>
+      </section>
+      <section class="full-exam-result panel" data-full-exam-result hidden aria-live="polite"></section>
 
       <section class="study-toolbar panel" aria-label="文章學習工具">
         <button class="secondary-button" type="button" data-teaching-highlight aria-pressed="false">🖍 暫時螢光筆</button>
@@ -305,7 +323,7 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260910-float3"></script>
+  <script type="module" src="reading-comprehension.js?v=20260929-full-exam1"></script>
 <script type="module" src="reading-teaching-tools.mjs?v=20260906"></script>
 <script type="module" src="study-support.mjs?v=20260907-study4"></script></body>
 </html>

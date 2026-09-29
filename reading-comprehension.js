@@ -22,7 +22,7 @@ const state = {
   answerTimings: {}, scanAssignments: {}, wordIndex: 0, toastHandle: 0, dashboard: null,
   audioItem: null, audioSetup: false, audioStopAt: null, passageTab: 1, exerciseReady: false,
   catalogue: [], cataloguePage: 0, cataloguePromise: null, opening: false, savePromise: null,
-  questionType: "", questionTypeQuery: "", mockExam: null, lastResultPayload: null
+  questionType: "", questionTypeQuery: "", mockExam: null, fullExam: null, fullExamSavePromise: null, fullExamSaveTimer: 0, fullExamFinishing: false, lastResultPayload: null
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -134,7 +134,7 @@ async function ensureSession() {
 }
 async function rpc(name, args) { const client = await ensureSession(); const { data, error } = await client.rpc(name, args); if (error) throw error; return data; }
 function saveSession() { try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...state.user, token: state.token, role: "student" })); } catch {} }
-function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
+function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
 function readSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null"); } catch { return null; } }
 async function validateToken(token) {
   const rows = await rpc("flashcard_student_session_profile", { p_token: token }); const row = Array.isArray(rows) ? rows[0] : null;
@@ -256,7 +256,15 @@ async function logout() { pauseTimer(); el.audio.pause(); await saveAttempt(fals
 function formatDuration(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${Math.floor(seconds / 60)} 分 ${String(seconds % 60).padStart(2, "0")} 秒`; }
 function formatClock(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`; }
 function currentDuration() { return state.durationMs + (state.timerRunning ? Date.now() - state.timerStartedAt : 0); }
+function isFullExamOpen() { return state.fullExam?.status === 'active' && state.view === 'exercise' && $('[data-view="exercise"]').classList.contains('full-exam-active'); }
 function updateTimer() {
+  if (isFullExamOpen()) {
+    const remaining = Math.max(0, Date.parse(state.fullExam.endsAt) - Date.now());
+    el.timer.textContent = formatClock(remaining);
+    el.timerModeLabel.textContent = `${state.fullExam.examType === 'ielts' ? 'IELTS' : 'DSE'} 完整試卷倒數`;
+    if (!remaining && !state.fullExamFinishing) void finishFullExam(true);
+    return;
+  }
   const expectedMockArticle = state.mockExam?.articles?.[state.mockExam.index]?.id;
   if (['active', 'time-up'].includes(state.mockExam?.status) && expectedMockArticle === ARTICLE_ID) {
     const remaining = Math.max(0, Number(state.mockExam.endsAt) - Date.now());
@@ -325,6 +333,189 @@ function recordMockExamResult(payload) {
   persistActiveMockExam(); const step = $('[data-mock-exam-step]'); step.hidden = false; $('[data-mock-exam-step-title]').textContent = `Passage ${entry.passage} 完成`; $('[data-mock-exam-step-score]').textContent = `${Number(payload.correct_count || 0)} / ${Number(payload.answered_count || entry.questionCount || 0)} 題正確 · 倒數繼續`; $('[data-mock-exam-next]').textContent = `前往 Passage ${exam.articles[exam.index + 1].passage}`; $('[data-mock-exam-next]').dataset.action = 'next';
 }
 async function advanceMockExam() { if (!state.mockExam) return openDashboard(); state.mockExam.index += 1; persistActiveMockExam(); await openExercise(state.mockExam.articles[state.mockExam.index].id); activateMockExamTimer(); }
+async function fullExamRpc(action, args = {}) { return rpc('reading_full_exam', { p_token: state.token, p_action: action, p_args: args }); }
+function randomFrom(items) { return items[Math.floor(Math.random() * items.length)]; }
+function chooseIeltsFullPaper() {
+  const pools = [1, 2, 3].map((passage) => state.catalogue.filter((entry) => entry.passage === passage && Number(entry.questionCount) > 0));
+  const combinations = [];
+  for (const count1 of new Set(pools[0].map((item) => item.questionCount)))
+    for (const count2 of new Set(pools[1].map((item) => item.questionCount))) {
+      const count3 = 40 - Number(count1) - Number(count2);
+      if (pools[2].some((item) => Number(item.questionCount) === count3)) combinations.push([Number(count1), Number(count2), count3]);
+    }
+  const counts = randomFrom(combinations);
+  if (!counts) throw new Error('暫時未能組成 40 題試卷。');
+  return pools.map((pool, index) => { const entry = randomFrom(pool.filter((item) => Number(item.questionCount) === counts[index])); return { id: entry.id, section: `Passage ${index + 1}`, title: entry.title, questionCount: entry.questionCount }; });
+}
+function availableDseExamYears(path = $('[data-dse-exam-path]').value) {
+  return state.dseCatalogue.filter((year) => year.sections?.A && year.sections?.[path]);
+}
+function renderDseExamYears() {
+  const select = $('[data-dse-exam-year]'); const selected = select.value;
+  select.innerHTML = [...availableDseExamYears()].reverse().map((year) => `<option value="${year.year}">${year.year}</option>`).join('');
+  if ([...select.options].some((option) => option.value === selected)) select.value = selected;
+  $('[data-dse-exam-year-label]').hidden = $('[data-dse-exam-mode]').value === 'mixed-year';
+}
+function chooseDseFullPaper() {
+  const path = $('[data-dse-exam-path]').value;
+  const mode = $('[data-dse-exam-mode]').value;
+  const years = availableDseExamYears(path);
+  const aYear = mode === 'same-year' ? years.find((year) => String(year.year) === $('[data-dse-exam-year]').value) : randomFrom(years);
+  const bYear = mode === 'same-year' ? aYear : randomFrom(state.dseCatalogue.filter((year) => year.year !== aYear?.year && year.sections?.[path]));
+  if (!aYear?.sections?.A || !bYear?.sections?.[path]) throw new Error('暫時未能組成這份 DSE 試卷。');
+  return { mode, path, articles: [
+    { id: aYear.sections.A.id, section: 'A', year: aYear.year, title: aYear.sections.A.title, questionCount: aYear.sections.A.questionCount },
+    { id: bYear.sections[path].id, section: path, year: bYear.year, title: bYear.sections[path].title, questionCount: bYear.sections[path].questionCount }
+  ] };
+}
+function renderFullExamLaunch(active) {
+  const ielts = $('[data-start-mock-exam]'); const dse = $('[data-start-dse-full-exam]'); const resume = $('[data-resume-dse-full-exam]');
+  ielts.textContent = active?.examType === 'ielts' ? '繼續完整模擬試' : '開始 40 題完整模擬試';
+  ielts.disabled = Boolean(active && active.examType !== 'ielts');
+  dse.disabled = Boolean(active);
+  resume.hidden = active?.examType !== 'dse';
+  if (active?.examType === 'dse') resume.textContent = `繼續 ${active.articles?.[0]?.year} A + ${active.articles?.[1]?.year} ${active.path}`;
+}
+async function refreshFullExamLaunch() {
+  if (!state.token) return;
+  try {
+    const active = await fullExamRpc('active');
+    if (active?.status === 'active' && Date.parse(active.endsAt) <= Date.now()) {
+      await fullExamRpc('finish', { id: active.id });
+      state.fullExam = null;
+    } else if (active?.status === 'active') state.fullExam = active;
+    else state.fullExam = null;
+    renderFullExamLaunch(state.fullExam?.status === 'active' ? state.fullExam : null);
+  } catch (error) { console.warn('Exam availability could not be loaded', error); }
+}
+async function renderFullExamHistory(type) {
+  const root = type === 'ielts' ? $('[data-mock-exam-log]') : $('[data-dse-full-exam-log]');
+  try {
+    const entries = (await fullExamRpc('history')).filter((entry) => entry.examType === type);
+    if (type === 'ielts') for (const old of (readMockExamStore().attempts || [])) {
+      entries.push({ id: old.id, examType: 'ielts', articles: (old.passages || []).map((part) => ({ section: `Passage ${part.passage}` })), result: { correct: old.correct, total: old.total }, completedAt: old.completedAt });
+    }
+    entries.sort((a,b) => Date.parse(b.completedAt) - Date.parse(a.completedAt));
+    root.innerHTML = entries.length ? entries.map((entry) => {
+      const score = type === 'ielts' ? `${Number(entry.result?.correct || 0)} / ${Number(entry.result?.total || 40)}` : '已交卷 · 答案已保存';
+      const parts = (entry.articles || []).map((part) => `${escapeHtml(part.section)}${part.year ? ` · ${part.year}` : ''}`).join(' + ');
+      return `<article class="mock-attempt"><header><div><strong>${score}</strong><small>${parts}</small></div><time>${escapeHtml(new Date(entry.completedAt).toLocaleString('zh-HK'))}</time></header></article>`;
+    }).join('') : '<p class="empty-state">尚未有完整模擬試記錄。</p>';
+  } catch (error) { root.textContent = '暫時未能載入模擬試記錄。'; console.warn(error); }
+}
+async function startFullExam(type) {
+  if (state.opening || state.fullExamFinishing) return;
+  try {
+    if (type === 'ielts') await loadCatalogue(); else await loadDseCatalogue();
+    const active = await fullExamRpc('active');
+    if (active?.status === 'active' && Date.parse(active.endsAt) > Date.now()) {
+      state.fullExam = active;
+      if (active.examType !== type) return showToast('你已有另一份完整試卷進行中，請先完成該試卷。');
+    } else {
+      const paper = type === 'ielts' ? { mode: 'random', articles: chooseIeltsFullPaper() } : chooseDseFullPaper();
+      state.fullExam = await fullExamRpc('start', { examType: type, ...paper });
+    }
+    await openFullExamSection(0, false);
+  } catch (error) { console.warn('Full exam could not start', error); showToast(error.message || '暫時未能開始模擬試。'); }
+}
+function renderFullExamNavigation() {
+  const exam = state.fullExam; if (!exam) return;
+  const nav = $('[data-full-exam-navigation]'); nav.hidden = false;
+  $('[data-full-exam-heading]').textContent = `${exam.examType === 'ielts' ? 'IELTS · 40 題' : 'DSE · Part A + ' + exam.path} · ${exam.examType === 'ielts' ? '60' : '90'} 分鐘`;
+  $('[data-full-exam-sections]').innerHTML = exam.articles.map((entry, index) => {
+    const saved = Object.keys(exam.answers?.[entry.id] || {}).length;
+    return `<button type="button" data-full-exam-section="${index}" aria-current="${index === exam.index ? 'page' : 'false'}">${escapeHtml(entry.section)}${entry.year ? ` · ${entry.year}` : ''}<small> ${saved} 已答</small></button>`;
+  }).join('');
+}
+async function saveFullExam() {
+  const exam = state.fullExam;
+  if (!exam || exam.status !== 'active') return true;
+  if (isFullExamOpen() && state.data?.id === exam.articles[exam.index]?.id) {
+    collectAnswers(); exam.answers = { ...(exam.answers || {}), [ARTICLE_ID]: { ...state.answers } };
+  }
+  const snapshot = structuredClone(exam.answers || {});
+  const previous = state.fullExamSavePromise;
+  const task = (async () => {
+    if (previous) await previous.catch(() => {});
+    return fullExamRpc('save', { id: exam.id, answers: snapshot });
+  })();
+  state.fullExamSavePromise = task;
+  $('[data-full-exam-save-status]').textContent = '正在儲存…';
+  try {
+    const saved = await task;
+    if (saved?.status !== 'active') { state.fullExam = { ...exam, ...saved }; return true; }
+    $('[data-full-exam-save-status]').textContent = '答案已安全儲存';
+    if (isFullExamOpen()) renderFullExamNavigation();
+    return true;
+  } catch (error) {
+    console.warn('Full exam save failed', error);
+    $('[data-full-exam-save-status]').textContent = '未能儲存，請檢查連線';
+    return false;
+  } finally { if (state.fullExamSavePromise === task) state.fullExamSavePromise = null; }
+}
+function scheduleFullExamSave() {
+  clearTimeout(state.fullExamSaveTimer);
+  state.fullExamSaveTimer = setTimeout(() => { void saveFullExam(); }, 900);
+}
+async function openFullExamSection(index, saveCurrent = true) {
+  const exam = state.fullExam;
+  if (!exam || exam.status !== 'active' || !exam.articles[index] || state.opening) return;
+  if (saveCurrent) { clearTimeout(state.fullExamSaveTimer); if (!await saveFullExam()) return showToast('答案未能儲存；請檢查連線後再切換。'); }
+  state.opening = true;
+  try {
+    const entry = exam.articles[index];
+    setExerciseSystem(exam.examType);
+    if (exam.examType === 'ielts') await loadArticleData(entry.id);
+    else await loadDseArticleData(entry.id);
+    resetAttemptState();
+    exam.index = index;
+    state.answers = { ...(exam.answers?.[entry.id] || {}) };
+    renderPassage(); renderQuestions(); setupAudio(); lockQuestionForm(false);
+    $$('[data-answer-part]', el.questionForm).forEach((control) => {
+      const value = state.answers[control.name] || '';
+      if (control.type === 'radio') control.checked = control.value === value;
+      else if (control.type === 'checkbox') control.checked = value.split(',').map((part) => part.trim()).includes(control.value);
+      else control.value = value;
+    });
+    $('[data-exercise-title]').textContent = entry.title;
+    $('#passage-title').textContent = entry.title;
+    $('[data-exercise-kicker]').textContent = exam.examType === 'ielts' ? `IELTS FULL PAPER · ${entry.section.toUpperCase()}` : `DSE FULL PAPER · ${entry.year} PART ${entry.section}`;
+    $('.questions-panel .pane-heading > .eyebrow').textContent = exam.examType === 'ielts' ? `${entry.questionCount} QUESTIONS` : `PART ${entry.section} · ${entry.year}`;
+    $('[data-view="exercise"]').classList.add('full-exam-active');
+    $('[data-full-exam-result]').hidden = true;
+    el.timerToggle.disabled = true;
+    const url = clearReadingRoute(new URL(location.href)); url.searchParams.set('view','full-exam'); url.searchParams.set('article',entry.id);
+    history.replaceState({},'',url); document.title = `${entry.section}｜完整閱讀模擬試`;
+    showView('exercise'); renderFullExamNavigation(); updateAnswerProgress();
+    state.timerHandle = setInterval(updateTimer,250); updateTimer();
+  } catch (error) { console.warn('Could not open exam section',error); showToast(error.message || '未能載入試卷部分。'); }
+  finally { state.opening = false; }
+}
+function renderFullExamResult(exam) {
+  const root = $('[data-full-exam-result]'); root.hidden = false;
+  if (exam.examType === 'ielts') {
+    const result = exam.result || {};
+    root.innerHTML = `<h2>完整試卷已交卷 · ${Number(result.correct || 0)} / ${Number(result.total || 40)}</h2><p>${exam.status === 'time_up' ? '時間已到，自動交卷。' : '已提交全部三篇閱讀文章。'}成績已存入模擬試記錄。</p><ul>${(result.sections || []).map((part) => `<li>${escapeHtml(part.section)}：${Number(part.correct || 0)} / ${Number(part.total || 0)}</li>`).join('')}</ul>`;
+  } else root.innerHTML = `<h2>DSE 完整試卷已交卷</h2><p>${exam.status === 'time_up' ? '時間已到，自動交卷。' : 'Part A 及 Part ' + escapeHtml(exam.path) + ' 的答案已保存。'}目前尚未有完整核實的 DSE 答案鍵，暫不提供分數。</p>`;
+  $('[data-full-exam-navigation]').hidden = true;
+  $('[data-view="exercise"]').classList.remove('full-exam-active');
+  state.exerciseReady = false;
+  lockQuestionForm(true); clearInterval(state.timerHandle);
+  root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+async function finishFullExam(expired = false) {
+  const exam = state.fullExam;
+  if (!exam || exam.status !== 'active' || state.fullExamFinishing) return;
+  state.fullExamFinishing = true; clearTimeout(state.fullExamSaveTimer);
+  const button = $('[data-full-exam-finish]'); button.disabled = true;
+  try {
+    if (!expired && !await saveFullExam()) throw new Error('答案尚未儲存，請檢查連線後再試。');
+    const completed = await fullExamRpc('finish', { id: exam.id });
+    state.fullExam = { ...exam, ...completed };
+    renderFullExamResult(state.fullExam);
+  } catch (error) { console.warn('Full exam submission failed',error); showToast(error.message || '未能交卷，請重試。'); }
+  finally { state.fullExamFinishing = false; button.disabled = false; }
+}
 function recordAnswerTime(number, value) {
   if (!state.timerRunning || state.answerTimings[number] || !String(value || "").trim()) return;
   const timestamp = Math.round(currentDuration()); const previous = state.answerTimings[number - 1]?.timestamp || 0;
@@ -346,7 +537,6 @@ async function loadDashboard() {
   el.timeTotal.textContent = formatDuration(snapshot.totals?.duration_ms || time.reduce((sum, row) => sum + Number(row.duration_ms || 0), 0));
   const attempts = Array.isArray(snapshot.attempts) ? snapshot.attempts : [];
   el.history.innerHTML = attempts.length ? attempts.map((row) => `<article class="history-row"><span><strong>${escapeHtml(row.title || "Albert Einstein")}</strong><br><small>${escapeHtml(new Date(row.started_at).toLocaleString("zh-HK"))}</small></span><span>${Number(row.correct_count || 0)} / ${Number(row.answered_count || 0)} 題正確<br><small>${escapeHtml(formatDuration(row.duration_ms))} · ${row.status === "in_progress" ? "進行中" : "已提交"}</small></span></article>`).join("") : '<p class="empty-state">尚未有練習記錄。</p>';
-  renderMockExamLog();
 }
 function selectPassageTab(number, updateUrl = true) {
   if (state.passageTab !== number) state.cataloguePage = 0;
@@ -403,6 +593,14 @@ function renderQuestionTypeView() {
 function openQuestionTypeDirectory(type = '', query = '', push = false) { state.questionType = questionTypesByKey.has(type) ? type : ''; state.questionTypeQuery = state.questionType ? '' : String(query || ''); renderQuestionTypeView(); showView('question-types'); document.title = 'By Question Type｜閱讀理解學習系統'; history[push ? 'pushState' : 'replaceState']({}, '', questionTypeUrl()); }
 async function prepareForReadingNavigation() {
   pauseTimer(); el.audio.pause();
+  if (isFullExamOpen()) {
+    clearTimeout(state.fullExamSaveTimer);
+    if (!await saveFullExam()) { showToast('答案未能儲存，請檢查連線後再離開。'); return false; }
+    $('[data-view="exercise"]').classList.remove('full-exam-active');
+    $('[data-full-exam-navigation]').hidden = true;
+    state.exerciseReady = false;
+    return true;
+  }
   if (state.system === 'dse' && state.view === 'exercise') saveDseDraft();
   if (state.system === 'ielts' && state.view === 'exercise' && state.exerciseReady && !state.results.finalized) {
     collectAnswers();
@@ -451,8 +649,10 @@ async function openDseDashboard() {
   url.searchParams.set('view', 'dse');
   history.replaceState({}, '', url);
   renderDseCatalogue();
+  renderDseExamYears();
   document.title = 'DSE 閱讀理解｜EdmundEducation';
   showView('dse-dashboard');
+  void refreshFullExamLaunch();
 }
 async function enterIeltsReading() {
   state.system = 'ielts';
@@ -470,6 +670,7 @@ async function openDashboard() {
   const url = new URL(location.href); ['article', 'view', 'type', 'q', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key)); url.hash = ''; history.replaceState({}, '', url);
   document.title = 'IELTS 閱讀理解｜EdmundEducation';
   await Promise.all([loadDashboard(), loadBookmarks()]); updateBookmarkControls();
+  void refreshFullExamLaunch();
 }
 
 function setExerciseSystem(system) {
@@ -665,6 +866,7 @@ function applyResults(payload) {
 }
 function beginAnswerCorrection() { if (!state.results.finalized) return; state.results.finalized = false; state.attemptId = null; lockQuestionForm(false); $('[data-correct-answers]').hidden = true; el.submissionStatus.textContent = '訂正模式：請修改誤選答案，再提交一次。修正後的新成績會另存為一次練習記錄。'; showToast('已解鎖答案，現在可以修正誤選。'); }
 async function saveAttempt(submit = false, force = false, silent = false, retry = true) {
+  if (isFullExamOpen()) { await saveFullExam(); return null; }
   if (state.system !== 'ielts') { saveDseDraft(); return null; }
   if (state.savePromise) { try { await state.savePromise; } catch { return null; } return saveAttempt(submit, force, silent, retry); }
   if (!state.token || !state.data || state.submitting || state.results.finalized) return null; collectAnswers(); if (!submit && !state.attemptId && !Object.keys(state.answers).length && currentDuration() === 0) return null; state.submitting = true;
@@ -1147,7 +1349,12 @@ async function openExercise(id = ARTICLE_ID) {
 }
 async function openInitialView({ afterLogin = false } = {}) {
   const params = new URLSearchParams(location.search); const id = params.get('article');
-  if (id?.startsWith('dse-')) await openDseExercise(id);
+  if (params.get('view') === 'full-exam') {
+    const active = await fullExamRpc('active');
+    if (active?.status === 'active') { state.fullExam = active; await openFullExamSection(Math.max(0,active.articles.findIndex((part) => part.id === id)),false); }
+    else await openReadingHome();
+  }
+  else if (id?.startsWith('dse-')) await openDseExercise(id);
   else if (state.catalogue.some((item) => item.id === id)) await openExercise(id);
   else if (params.get('view') === 'question-types') { if (await prepareForReadingNavigation()) openQuestionTypeDirectory(params.get('type') || '', params.get('q') || '', false); }
   else if (params.get('view') === 'dse') await openDseDashboard();
@@ -1163,8 +1370,15 @@ $$('[data-dse-sort]').forEach((button) => button.addEventListener('click', () =>
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
 $('[data-open-question-types]').addEventListener('click', () => openQuestionTypeDirectory('', '', true));
-$('[data-start-mock-exam]').addEventListener('click', startOrResumeMockExam);
-$('[data-toggle-mock-log]').addEventListener('click', (event) => { const root = $('[data-mock-exam-log]'); root.hidden = !root.hidden; event.currentTarget.setAttribute('aria-expanded', String(!root.hidden)); event.currentTarget.textContent = root.hidden ? '查看模擬試記錄' : '收起模擬試記錄'; if (!root.hidden) renderMockExamLog(); });
+$('[data-start-mock-exam]').addEventListener('click', () => startFullExam('ielts'));
+$('[data-start-dse-full-exam]').addEventListener('click', () => startFullExam('dse'));
+$('[data-resume-dse-full-exam]').addEventListener('click', () => startFullExam('dse'));
+$('[data-dse-exam-mode]').addEventListener('change', renderDseExamYears);
+$('[data-dse-exam-path]').addEventListener('change', renderDseExamYears);
+$('[data-toggle-mock-log]').addEventListener('click', (event) => { const root = $('[data-mock-exam-log]'); root.hidden = !root.hidden; event.currentTarget.setAttribute('aria-expanded', String(!root.hidden)); event.currentTarget.textContent = root.hidden ? '查看模擬試記錄' : '收起模擬試記錄'; if (!root.hidden) void renderFullExamHistory('ielts'); });
+$('[data-toggle-dse-full-exam-log]').addEventListener('click', (event) => { const root = $('[data-dse-full-exam-log]'); root.hidden = !root.hidden; event.currentTarget.setAttribute('aria-expanded', String(!root.hidden)); event.currentTarget.textContent = root.hidden ? '查看模擬試記錄' : '收起模擬試記錄'; if (!root.hidden) void renderFullExamHistory('dse'); });
+$('[data-full-exam-sections]').addEventListener('click', (event) => { const button = event.target.closest('[data-full-exam-section]'); if (button) void openFullExamSection(Number(button.dataset.fullExamSection)); });
+$('[data-full-exam-finish]').addEventListener('click', () => void finishFullExam(false));
 $('[data-mock-exam-next]').addEventListener('click', (event) => event.currentTarget.dataset.action === 'next' ? advanceMockExam() : openDashboard());
 $('[data-correct-answers]').addEventListener('click', beginAnswerCorrection);
 $('[data-question-types-back]').addEventListener('click', openDashboard);
@@ -1216,12 +1430,13 @@ function handleAnswerInput(event) {
     }
   }
   if (match) recordAnswerTime(Number(match[1]), event.target.value);
-  if (state.system === 'dse') saveDseDraft();
+  if (isFullExamOpen()) scheduleFullExamSave();
+  else if (state.system === 'dse') saveDseDraft();
   updateAnswerProgress();
 }
 el.questionForm.addEventListener("input", handleAnswerInput);
 el.questionForm.addEventListener("change", handleAnswerInput);
-el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); if (state.system === 'dse') { saveDseDraft(); showToast('作答內容已暫存在這部裝置。'); return; } submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
+el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); if (isFullExamOpen()) { void finishFullExam(false); return; } if (state.system === 'dse') { saveDseDraft(); showToast('作答內容已暫存在這部裝置。'); return; } submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
 el.timerToggle.addEventListener("click", () => state.timerRunning ? pauseTimer() : startTimer());
 el.timerMode.addEventListener("change", () => { state.timerMode = el.timerMode.value; const countdown = state.timerMode === "countdown"; el.countdownLabel.hidden = !countdown; el.forceLabel.hidden = !countdown || state.system === 'dse'; el.timerModeLabel.textContent = countdown ? "倒數計時（選用）" : "計時（選用）"; updateTimer(); });
 el.countdownMinutes.addEventListener("change", () => { state.countdownMinutes = Math.max(1, Math.min(180, Number(el.countdownMinutes.value) || 20)); el.countdownMinutes.value = String(state.countdownMinutes); updateTimer(); }); el.forceSubmit.addEventListener("change", () => { state.forceSubmit = el.forceSubmit.checked; });
@@ -1229,7 +1444,7 @@ el.audioToggle.addEventListener("click", () => { state.audioStopAt = null; if (e
 $$('[data-close-popover]').forEach((button) => button.addEventListener("click", () => closePopover(button.closest('[role="dialog"]'))));
 document.addEventListener("pointerdown", (event) => { [el.skimmingDialog, el.analysisDialog].forEach((popover) => { if (!popover.hidden && !popover.contains(event.target) && !event.target.closest('[data-skimming],[data-reveal],[data-scanning-tip]')) closePopover(popover); }); });
 document.addEventListener("keydown", (event) => { if (event.key === "Escape") closePopovers(); });
-document.addEventListener("visibilitychange", () => { if (document.hidden) { pauseTimer(); saveAttempt(false, false, true); } }); window.addEventListener("pagehide", () => { pauseTimer(); saveAttempt(false, false, true); });
+document.addEventListener("visibilitychange", () => { if (document.hidden) { if (isFullExamOpen()) void saveFullExam(); else { pauseTimer(); saveAttempt(false, false, true); } } }); window.addEventListener("pagehide", () => { if (isFullExamOpen()) void saveFullExam(); else { pauseTimer(); saveAttempt(false, false, true); } });
 window.addEventListener('popstate', () => { if (state.user && state.token) void openInitialView(); });
 
 (async function init() {
