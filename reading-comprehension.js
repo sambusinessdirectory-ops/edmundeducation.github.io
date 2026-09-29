@@ -10,10 +10,13 @@ let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
 const DSE_CATALOGUE_VERSION = '20260905-dse-2024-b1';
 const DSE_PAPER_SCANS_VERSION = '20260930-native-paper1';
+const DSE_PAGE_LAYOUT_VERSION = '20260930-source-pages2';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
 let dsePaperScansPromise;
+let dsePageLayoutsPromise;
+let reconstructedPaperNodes = null;
 
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
@@ -677,10 +680,12 @@ async function openDashboard() {
 }
 
 function setExerciseSystem(system) {
+  if (system !== 'dse') restoreDsePaperReader();
   const dse = system === 'dse'; state.system = system;
   const exercise = $('[data-view="exercise"]');
   exercise.classList.toggle('dse-exercise', dse);
   if (!dse) {
+    document.body.classList.remove('dse-paper-mode');
     exercise.classList.remove('dse-paper-view', 'dse-scan-view');
     $('[data-dse-paper-view-switch]').hidden = true;
     $('[data-dse-paper-view-note]').hidden = true;
@@ -699,11 +704,122 @@ async function loadDsePaperScans() {
   return dsePaperScansPromise;
 }
 
+async function loadDsePageLayouts() {
+  if (!dsePageLayoutsPromise) dsePageLayoutsPromise = fetch(`dse-reading-page-layout.json?v=${DSE_PAGE_LAYOUT_VERSION}`)
+    .then((response) => { if (!response.ok) throw new Error('Source page layout unavailable'); return response.json(); })
+    .catch((error) => { console.warn(error); dsePageLayoutsPromise = null; return {}; });
+  return dsePageLayoutsPromise;
+}
+
+function restoreDsePaperReader() {
+  if (!reconstructedPaperNodes) return;
+  reconstructedPaperNodes.passage.forEach((node) => {
+    if (node.nodeType !== Node.ELEMENT_NODE || !node.dataset.originalPaperLabel) return;
+    const label = node.querySelector('.paragraph-label');
+    if (label?.firstChild?.nodeType === Node.TEXT_NODE) label.firstChild.textContent = node.dataset.originalPaperLabel;
+    delete node.dataset.originalPaperLabel;
+  });
+  el.passage.replaceChildren(...reconstructedPaperNodes.passage);
+  el.questions.replaceChildren(...reconstructedPaperNodes.questions);
+  reconstructedPaperNodes = null;
+}
+
+function buildDsePaperReader() {
+  const layout = state.dsePaperLayout;
+  if (!layout || reconstructedPaperNodes) return;
+  const passage = [...el.passage.childNodes];
+  const questions = [...el.questions.childNodes];
+  const passagePageByNumber = new Map(layout.passagePages.flatMap((page, index) => page.paragraphs.map((number) => [Number(number), index])));
+  const questionPageByNumber = new Map(layout.questionPages.flatMap((page, index) => page.questions.map((number) => [Number(number), index])));
+  if (passagePageByNumber.size !== state.data.paragraphs.length || questionPageByNumber.size !== state.data.questions.length) return;
+  reconstructedPaperNodes = { passage, questions };
+  const year = escapeHtml(state.data.year);
+  const section = escapeHtml(state.data.section);
+  const createPage = (kind, page, index, count) => {
+    const sheet = createNode('section', 'dse-source-page');
+    if (page.layout === 'two-column' || page.layout === 'slide-grid') sheet.classList.add(`is-${page.layout}`);
+    sheet.dataset.paperPage = `${kind}-${index + 1}`;
+    sheet.setAttribute('aria-label', `${kind === 'passage' ? '閱讀篇章' : '題目'}第 ${index + 1} 頁`);
+    sheet.innerHTML = `<header class="dse-source-page-header"><span>HONG KONG DIPLOMA OF SECONDARY EDUCATION EXAMINATION ${year}</span><strong>ENGLISH LANGUAGE · PAPER 1 · PART ${section}</strong><span>${kind === 'passage' ? 'READING PASSAGES' : 'QUESTION-ANSWER BOOK'} · ${index + 1} / ${count}</span></header><div class="dse-source-page-body"></div><footer class="dse-source-page-footer"><span>HKDSE ${year} · PART ${section}</span><span>數碼重繪 · ${index + 1} / ${count}</span></footer>`;
+    if (page.cover) {
+      const cover = page.cover;
+      const instructions = (items) => items.map((item, instructionIndex) => `<li><span>(${instructionIndex + 1})</span><span>${escapeHtml(item)}</span></li>`).join('');
+      sheet.classList.add('dse-source-cover');
+      sheet.querySelector('.dse-source-page-body').innerHTML = `<div class="dse-cover-emblem">HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY</div><div class="dse-cover-part">PART ${escapeHtml(cover.part)} <span>${escapeHtml(cover.sectionLabel)}</span></div><h2>ENGLISH LANGUAGE PAPER 1<br>PART ${escapeHtml(cover.part)}</h2><p class="dse-cover-booklet">Reading Passages</p><p class="dse-cover-time">${escapeHtml(cover.time)}</p><h3>GENERAL INSTRUCTIONS</h3><ol class="dse-cover-instructions">${instructions(cover.generalInstructions || [])}</ol><h3>INSTRUCTIONS FOR PART ${escapeHtml(cover.part)}</h3><ol class="dse-cover-instructions">${instructions(cover.partInstructions || [])}</ol><p class="dse-cover-custody">Not to be taken away before the end of the examination session</p>`;
+    }
+    return sheet;
+  };
+  const passagePages = layout.passagePages.map((page, index) => createPage('passage', page, index, layout.passagePages.length));
+  const questionPages = layout.questionPages.map((page, index) => createPage('questions', page, index, layout.questionPages.length));
+  const pageBody = (pages, index) => pages[index]?.querySelector('.dse-source-page-body');
+  const firstTextPage = layout.passagePages.findIndex((page) => page.paragraphs.length);
+  const lastTextPage = Math.max(0, layout.passagePages.length - 1);
+  let previousTextNumber = null;
+  passage.forEach((node) => {
+    if (node.nodeType !== Node.ELEMENT_NODE) return pageBody(passagePages, Math.max(0, firstTextPage))?.append(node);
+    if (node.classList.contains('passage-paragraph')) {
+      const number = Number(node.id.replace('paragraph-', ''));
+      const body = pageBody(passagePages, passagePageByNumber.get(number) ?? lastTextPage);
+      const paragraph = state.data.paragraphs.find((item) => Number(item.number) === number);
+      const label = String(paragraph?.label || '');
+      const textNumber = label.match(/^Text\s+(\d+)\b/i);
+      if (textNumber && previousTextNumber && textNumber[1] !== previousTextNumber) {
+        const title = label.match(/^Text\s+\d+\s*[-–·•]\s*(.*?)(?:\s*[-–·•]\s*Paragraph\s+\d+|\s*[-–·•]\s*Lines?\s+\d+|$)/i)?.[1]?.trim();
+        body?.append(createNode('h2', 'dse-source-text-divider', `Text ${textNumber[1]}${title && !/^\d+$/.test(title) ? ` · ${title}` : ''}`));
+      }
+      if (textNumber) previousTextNumber = textNumber[1];
+      const match = label.match(/^(.*?)\s*[-–]\s*Paragraph\s+\d+\s*(?:[·•]\s*(.*))?$/i);
+      const heading = match ? (match[2] || (match[1].startsWith('Text ') ? '' : match[1])).trim()
+        : /^(?:Comments?\s*[-–]|Text\s+\d+\s*[-–]\s*(?:JOB\s+|Witness Statement))/i.test(label) ? label.replace(/^Text\s+\d+\s*[-–]\s*/i, '') : '';
+      if (heading) body?.append(createNode('h3', 'dse-source-subheading', heading));
+      const sourceParagraph = label.match(/\bParagraph\s+(\d+)\b/i);
+      const slide = label.match(/\bSlide\s+(\d+)\b/i);
+      const numberedTextItem = label.match(/^Text\s+\d+\s*[·•]\s*(\d+)\s*$/i);
+      const marker = sourceParagraph ? `[${sourceParagraph[1]}]` : state.data.id === 'dse-2012-a' || /^Section\s+[A-Z]\b/i.test(label) || /^\d+$/.test(label) ? `[${number}]` : slide ? `Slide ${slide[1]}` : numberedTextItem ? `[${numberedTextItem[1]}]` : '';
+      const labelNode = node.querySelector('.paragraph-label');
+      if (labelNode?.firstChild?.nodeType === Node.TEXT_NODE) {
+        node.dataset.originalPaperLabel = labelNode.firstChild.textContent;
+        labelNode.firstChild.textContent = marker;
+      }
+      body?.append(node);
+    } else if (node.classList.contains('dse-source-note')) {
+      pageBody(passagePages, lastTextPage)?.append(node);
+    } else {
+      pageBody(passagePages, Math.max(0, firstTextPage))?.append(node);
+    }
+  });
+  let pending = [];
+  questions.forEach((node) => {
+    if (node.nodeType === Node.ELEMENT_NODE && node.classList.contains('question-card')) {
+      const number = Number(node.dataset.question);
+      const body = pageBody(questionPages, questionPageByNumber.get(number) ?? 0);
+      body?.append(...pending, node);
+      pending = [];
+      const options = [...node.querySelectorAll('.choice-list label')];
+      node.classList.toggle('dse-compact-choices', options.length > 1 && options.every((option) => option.textContent.trim().length < 74));
+      node.classList.toggle('dse-choice-parts', Boolean(node.querySelector('.question-parts .choice-list')));
+    } else pending.push(node);
+  });
+  if (pending.length) pageBody(questionPages, questionPages.length - 1)?.append(...pending);
+  const nav = createNode('nav', 'dse-source-page-nav');
+  nav.setAttribute('aria-label', '試卷頁面導覽');
+  [...passagePages, ...questionPages].forEach((page, index) => {
+    page.id = `dse-source-page-${index + 1}`;
+    const link = createNode('a', '', `${index < passagePages.length ? '文章' : '題目'} ${index < passagePages.length ? index + 1 : index - passagePages.length + 1}`);
+    link.href = `#${page.id}`;
+    nav.append(link);
+  });
+  el.questions.replaceChildren(nav, ...passagePages, ...questionPages);
+}
+
 function setDsePaperMode(mode, remember = false) {
   if (state.system !== 'dse') return;
   const scanAvailable = !$('[data-dse-display-mode="scan"]').hidden;
-  const next = ['practice', 'paper', 'scan'].includes(mode) && (mode !== 'scan' || scanAvailable) ? mode : 'practice';
+  const next = ['practice', 'paper', 'scan'].includes(mode) && (mode !== 'scan' || scanAvailable) && (mode !== 'paper' || state.dsePaperLayout) ? mode : 'practice';
+  if (next === 'paper') buildDsePaperReader();
+  else restoreDsePaperReader();
   state.dsePaperMode = next;
+  document.body.classList.toggle('dse-paper-mode', next === 'paper');
   const exercise = $('[data-view="exercise"]');
   exercise.classList.toggle('dse-paper-view', next === 'paper');
   exercise.classList.toggle('dse-scan-view', next === 'scan');
@@ -717,7 +833,8 @@ function setDsePaperMode(mode, remember = false) {
 }
 
 async function configureDsePaperViews() {
-  const manifest = await loadDsePaperScans();
+  const [manifest, layouts] = await Promise.all([loadDsePaperScans(), loadDsePageLayouts()]);
+  state.dsePaperLayout = layouts[ARTICLE_ID] || null;
   const pages = Array.isArray(manifest[ARTICLE_ID]) ? manifest[ARTICLE_ID].filter((page) =>
     /^(?:passage|questions)$/.test(page.kind) && Number.isInteger(page.number) &&
     /^assets\/reading-comprehension\/dse\/papers\/\d{4}\/(?:a|b1|b2)\/(?:passage|questions)-\d+\.webp$/.test(page.src)
@@ -725,6 +842,7 @@ async function configureDsePaperViews() {
   const gallery = $('[data-dse-scan-pages]');
   gallery.innerHTML = pages.map((page) => `<figure class="dse-scan-page"><figcaption>${page.kind === 'passage' ? '文章' : '題目'} · 原卷第 ${page.number} 頁</figcaption><a href="${escapeHtml(page.src)}" target="_blank" rel="noopener"><img src="${escapeHtml(page.src)}" alt="${escapeHtml(state.data.year)} Part ${escapeHtml(state.data.section)} ${page.kind === 'passage' ? '文章' : '題目'}原卷第 ${page.number} 頁" loading="lazy"></a></figure>`).join('');
   $('[data-dse-display-mode="scan"]').hidden = !pages.length;
+  $('[data-dse-display-mode="paper"]').hidden = !state.dsePaperLayout;
   $('[data-dse-paper-view-note]').textContent = pages.length
     ? '這個版本使用已數碼化的原卷文字與題目；如需核對原卷的頁碼、行距及圖像細節，請切換至原卷影像。'
     : '這個版本使用已數碼化的原卷文字與題目；這份試卷的原卷影像暫未在網站提供。';
@@ -733,7 +851,7 @@ async function configureDsePaperViews() {
   if (preferred === 'practice') {
     try { preferred = localStorage.getItem('edmund-dse-reading-view-v1') || preferred; } catch {}
   }
-  setDsePaperMode(preferred);
+  setDsePaperMode(preferred === 'paper' && !state.dsePaperLayout ? 'practice' : preferred);
 }
 
 function updateAnswerProgress() {
@@ -787,6 +905,7 @@ function renderContentFigures(figures, className, scope = 'question', paragraphN
   return (figures || []).map((figure) => `<figure class="${className}${figure.wide ? ' is-wide' : ''}${figure.small ? ' is-small' : ''}"><img src="${escapeHtml(figure.src)}" alt="${escapeHtml(figure.alt || '')}" loading="lazy">${figure.caption ? `<figcaption>${escapeHtml(figure.caption)}${dseTranslationCopy(figure, 'caption', scope, paragraphNumber)}</figcaption>` : ''}${figure.alt !== figure.caption ? dseTranslationCopy(figure, 'alt', scope, paragraphNumber) : ''}</figure>`).join('');
 }
 function renderPassage() {
+  restoreDsePaperReader();
   const dse = state.system === 'dse';
   const sourceImage = state.data.sourceImage ? `<figure class="dse-passage-figure"><img src="${escapeHtml(state.data.sourceImage.src)}" alt="${escapeHtml(state.data.sourceImage.alt || '')}" loading="eager">${dseTranslationCopy(state.data.sourceImage, 'alt', 'passage')}</figure>` : '';
   const sourceHeader = `${state.data.sourceLabel ? `<p class="eyebrow">${escapeHtml(state.data.sourceLabel)}</p>` : ''}${state.data.sourceHeading ? `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}` : ''}${sourceImage}${state.data.titleTranslation && !state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>` : ''}${state.data.sourceNote ? `<p class="dse-source-note">${escapeHtml(state.data.sourceNote)}</p>` : ''}`;
@@ -1471,6 +1590,7 @@ $('[data-hide-translations]').addEventListener("click", () => { el.translationAl
 $('[data-question-translations]').addEventListener('change', updateQuestionTranslations);
 el.passage.addEventListener("click", (event) => { const paragraphAudio = event.target.closest('[data-play-paragraph]'); if (paragraphAudio) return playParagraph(Number(paragraphAudio.dataset.playParagraph)); const button = event.target.closest('[data-skimming]'); if (button) return openSkimming(Number(button.dataset.skimming)); const word = event.target.closest('[data-word-key]'); if (word) toggleWordBookmark(word); });
 el.questions.addEventListener("click", (event) => {
+  const paragraphAudio = event.target.closest('[data-play-paragraph]'); if (paragraphAudio) return playParagraph(Number(paragraphAudio.dataset.playParagraph));
   const word = event.target.closest('[data-word-key]'); if (word) return toggleWordBookmark(word);
   const choice = event.target.closest('[data-scan-choice]'); if (choice) { const [q, p] = choice.dataset.scanChoice.split(":").map(Number); assignScan(q, p); return; }
   const scan = event.target.closest('[data-scan-question]'); if (scan) { const chooser = $(`[data-scan-chooser="${scan.dataset.scanQuestion}"]`); chooser.hidden = !chooser.hidden; return; }
