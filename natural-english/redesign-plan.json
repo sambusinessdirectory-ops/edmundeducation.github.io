@@ -99,15 +99,15 @@
       "title": "找不到鑰匙",
       "family": "action",
       "styles": [
-        "speak",
+        "audio",
         "repair",
         "explain",
-        "final",
-        "audio",
-        "continue"
+        "continue",
+        "speak",
+        "final"
       ],
       "sourceSha256": "fafca90d6ca6f16da0540018debefb3d511dc517c919e512e07a3fc6fefba399",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 12,
@@ -115,15 +115,15 @@
       "title": "我手機放哪去了？",
       "family": "request",
       "styles": [
-        "transfer",
+        "audio",
         "tone",
         "repair",
-        "final",
         "branch",
-        "audio"
+        "transfer",
+        "final"
       ],
       "sourceSha256": "40020e85b3224c8ef5004484b3c356df84859f4655ac17e39d6e472ea6cda5a4",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 14,
@@ -131,14 +131,14 @@
       "title": "您先請",
       "family": "action",
       "styles": [
-        "detail",
-        "final",
-        "speak",
+        "scene",
         "audio",
-        "scene"
+        "detail",
+        "speak",
+        "final"
       ],
       "sourceSha256": "75928734be054318213789d5dc7ac9d9c1bd214f807af28bae920958077dee46",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 16,
@@ -146,15 +146,15 @@
       "title": "婉拒邀請或提議",
       "family": "social",
       "styles": [
-        "rewrite",
-        "final",
         "audio",
+        "explain",
+        "rewrite",
         "continue",
         "speak",
-        "explain"
+        "final"
       ],
       "sourceSha256": "5cc492a179b7e08c36c1f1f5ca2a923ed095d52515fbe01480e99334a76f6793",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 17,
@@ -162,15 +162,15 @@
       "title": "我什麼都可以",
       "family": "social",
       "styles": [
+        "scene",
+        "audio",
         "rewrite",
         "continue",
-        "audio",
-        "scene",
         "speak",
         "transfer"
       ],
       "sourceSha256": "69fff983f5a26f4f20ad35888e81efc1f68bd6a61e1678f883fb45cd7319b94e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 18,
@@ -178,14 +178,14 @@
       "title": "醬另外放",
       "family": "object",
       "styles": [
-        "speak",
+        "reverse",
+        "audio",
         "contrast",
         "repair",
-        "audio",
-        "reverse"
+        "speak"
       ],
       "sourceSha256": "50a5a522f5c14c04dded871648a387309ca24f2889eafee0f197c968830db8a1",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 19,

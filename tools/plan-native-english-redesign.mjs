@@ -34,6 +34,12 @@ const authored={
   8:['scene','audio','rewrite','speak','final'],
   9:['audio','detail','contrast','speak','final'],
   10:['reverse','explain','audio','speak','final'],
+  11:['audio','repair','explain','continue','speak','final'],
+  12:['audio','tone','repair','branch','transfer','final'],
+  14:['scene','audio','detail','speak','final'],
+  16:['audio','explain','rewrite','continue','speak','final'],
+  17:['scene','audio','rewrite','continue','speak','transfer'],
+  18:['reverse','audio','contrast','repair','speak'],
 };
 
 const hash=(...parts)=>Number.parseInt(createHash('sha256').update(parts.join(':')).digest('hex').slice(0,8),16);
