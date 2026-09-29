@@ -3,6 +3,33 @@ let motionTimer = 0;
 let reactionTimer = 0;
 let positionFrame = 0;
 let positionObserver = null;
+let reactionSequence = 0;
+const reactionAssets = new Map();
+const REACTION_ASSET_URLS = {
+  jump: new URL("assets/sentence-structure/exercise-eddy/eddy-jump-v3.webp", import.meta.url).href,
+  encourage: new URL("assets/sentence-structure/exercise-eddy/eddy-encourage-v2.webp", import.meta.url).href
+};
+
+function preloadReactionAsset(kind) {
+  if (reactionAssets.has(kind)) return reactionAssets.get(kind);
+  const promise = new Promise((resolve) => {
+    if (typeof globalThis.Image !== "function") return resolve(true);
+    const image = new Image();
+    image.onload = async () => {
+      try { await image.decode?.(); } catch { /* A completed load is still paintable. */ }
+      resolve(true);
+    };
+    image.onerror = () => resolve(false);
+    image.src = REACTION_ASSET_URLS[kind];
+  });
+  reactionAssets.set(kind, promise);
+  return promise;
+}
+
+function preloadReactionAssets() {
+  preloadReactionAsset("jump");
+  preloadReactionAsset("encourage");
+}
 
 export function sentenceJourneyEnabled(lesson) {
   const order = Number(lesson?.order || 0);
@@ -17,7 +44,7 @@ export function sentenceJourneyPlatformHtml(number, status = "pending") {
 
 export function sentenceJourneyActorHtml() {
   return `<div class="sentence-journey-eddy" data-sentence-journey-eddy data-motion="idle" aria-hidden="true">
-    <i class="sentence-journey-eddy-shadow"></i><i class="sentence-journey-eddy-sprite"></i><i class="sentence-journey-eddy-blink"></i>
+    <i class="sentence-journey-eddy-shadow"></i><i class="sentence-journey-eddy-sprite"></i><i class="sentence-journey-eddy-action sentence-journey-eddy-jump"></i><i class="sentence-journey-eddy-action sentence-journey-eddy-encourage"></i><i class="sentence-journey-eddy-blink"></i>
   </div><p class="sentence-journey-status" data-sentence-journey-status role="status" aria-live="polite"></p>`;
 }
 
@@ -65,6 +92,7 @@ function scheduleStablePosition(list, actor) {
 export function mountSentenceJourney(root) {
   const { list, actor } = journeyElements(root);
   if (!list || !actor) return;
+  preloadReactionAssets();
   let stop = stopFor(list, activeQuestionId);
   if (!stop) stop = list.querySelector("[data-eddy-stop]:not([data-stop-status='correct'])") || list.querySelector("[data-eddy-stop]");
   if (!stop) return;
@@ -110,15 +138,19 @@ export function reactSentenceJourney(root, { questionId, correct }) {
   const alreadyOnPlatform = actor.dataset.positioned === "true" && activeQuestionId === String(questionId);
   const travel = alreadyOnPlatform ? 0 : moveSentenceJourney(root, questionId, { announce: false });
   clearTimeout(reactionTimer);
+  const sequence = ++reactionSequence;
+  const motion = correct ? "jump" : "encourage";
   reactionTimer = setTimeout(() => {
-    if (!actor.isConnected) return;
-    actor.dataset.motion = correct ? "jump" : "encourage";
-    if (status) status.textContent = correct
-      ? "答對了！Eddy 開心地跳起來。"
-      : "再試一次！Eddy 為你做出加油手勢。";
-    const reactionDuration = reducedMotion() ? 520 : correct ? 980 : 1120;
-    reactionTimer = setTimeout(() => {
-      if (actor.isConnected) actor.dataset.motion = "idle";
-    }, reactionDuration);
+    void preloadReactionAsset(motion).then((ready) => {
+      if (!ready || !actor.isConnected || sequence !== reactionSequence) return;
+      actor.dataset.motion = motion;
+      if (status) status.textContent = correct
+        ? "答對了！Eddy 開心地跳起來。"
+        : "再試一次！Eddy 為你做出加油手勢。";
+      const reactionDuration = reducedMotion() ? 520 : correct ? 980 : 1120;
+      reactionTimer = setTimeout(() => {
+        if (actor.isConnected && sequence === reactionSequence) actor.dataset.motion = "idle";
+      }, reactionDuration);
+    });
   }, travel + 70);
 }

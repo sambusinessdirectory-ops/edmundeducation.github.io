@@ -101,14 +101,17 @@ window.journeyTest = {
     journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: document.querySelectorAll('[data-answer-input]')[2].dataset.answerInput, correct: true });
   });
   await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'jump');
-  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-jump-v3\.webp/);
+  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-standing\.png/, 'the standing layer remains painted beneath every reaction');
+  assert.match(await actor.locator('.sentence-journey-eddy-jump').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-jump-v3\.webp/);
+  assert.equal(await actor.locator('.sentence-journey-eddy-jump').evaluate((node) => getComputedStyle(node).opacity), '1');
   await page.evaluate(async () => {
     const journey = await import('/sentence-structure-exercise-journey.mjs');
     const input = document.querySelectorAll('[data-answer-input]')[2];
     journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: input.dataset.answerInput, correct: false });
   });
   await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'encourage');
-  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-encourage-v2\.webp/);
+  assert.match(await actor.locator('.sentence-journey-eddy-encourage').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-encourage-v2\.webp/);
+  assert.equal(await actor.locator('.sentence-journey-eddy-encourage').evaluate((node) => getComputedStyle(node).opacity), '1');
 
   await page.waitForTimeout(650);
   const twelfthStop = page.locator('[data-eddy-stop][data-question-number="12"]');
@@ -146,6 +149,8 @@ window.journeyTest = {
           platformTop: platformBox.top - listBox.top,
           feetGap: Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48)),
           visibility: getComputedStyle(currentActor).visibility,
+          standingLayerPainted: getComputedStyle(currentActor.querySelector('.sentence-journey-eddy-sprite')).backgroundImage.includes('eddy-standing.png'),
+          reactionLayerCount: currentActor.querySelectorAll('.sentence-journey-eddy-action').length,
           platformCount: document.querySelectorAll('.sentence-journey-platform').length,
           paintedPlatforms: [...document.querySelectorAll('.sentence-journey-platform')].filter((node) => getComputedStyle(node).backgroundImage.includes('coast-platform.webp')).length
         });
@@ -161,6 +166,7 @@ window.journeyTest = {
   assert.ok(gradingFrames.every((frame) => Math.abs(frame.platformTop - beforeGradeGeometry.platformTop) < 1), 'Card expansion never changes the active platform coordinate');
   assert.ok(gradingFrames.every((frame) => frame.feetGap < 4), `Eddy remains planted on the active platform throughout the grading rerender: ${JSON.stringify(gradingFrames)}`);
   assert.ok(gradingFrames.every((frame) => frame.visibility === 'visible'), 'Eddy is visible only after a final platform position is applied');
+  assert.ok(gradingFrames.every((frame) => frame.standingLayerPainted && frame.reactionLayerCount === 2), 'A painted standing Eddy remains underneath both permanently loaded reaction layers');
   assert.ok(gradingFrames.every((frame) => frame.platformCount === 50 && frame.paintedPlatforms === 50), 'All fifty CSS-painted platforms remain visible throughout grading');
   await page.waitForFunction(() => document.querySelector('[data-eddy-stop][data-question-number="12"] .question-card')?.classList.contains('is-correct'));
   await page.waitForTimeout(240);

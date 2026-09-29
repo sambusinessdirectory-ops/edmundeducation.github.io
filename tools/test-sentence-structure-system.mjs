@@ -309,7 +309,7 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   medianDuration, timedSentenceAttempts, buildSentenceTimeSeries, sentenceTimeProgressChartSvg,
   renderSentenceTimeDashboard, renderSentenceTimeDayPanel, formatDuration,
   renderAttemptHistory,
-  serializeExerciseResult, persistExercise, clearSession
+  serializeExerciseResult, persistExercise, retryPendingAttemptWrites, readPendingAttemptWrites, clearSession
 };
 `);
   vm.runInContext(instrumented, context, { filename: "sentence-structure.js" });
@@ -1372,7 +1372,7 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50, "completed cards remain available for reference in later rounds");
 });
 
-test("a failed attempt sync resumes the active exercise stopwatch", async () => {
+test("a transient failed attempt sync is retained and retries safely", async () => {
   const harness = createFrontendHarness();
   const { sut } = harness;
   const lesson = sut.getLesson("ss1");
@@ -1395,11 +1395,18 @@ test("a failed attempt sync resumes the active exercise stopwatch", async () => 
     503
   ));
 
-  await assert.rejects(() => sut.persistExercise(), /Temporary upstream failure/);
+  const deferred = await sut.persistExercise();
+  assert.equal(deferred.pending, true);
+  assert.equal(sut.readPendingAttemptWrites().length, 1, "the newest attempt snapshot must remain durably queued");
   assert.ok(
     sut.state.exerciseClockStartedAt > 0,
-    "the stopwatch must restart even when persistence rejects"
+    "the stopwatch must restart while persistence waits for retry"
   );
+  harness.setApiHandler(async (url, options = {}) => jsonResponse({
+    attempt: { id: decodeURIComponent(new URL(url).pathname.split("/").at(-1)), ...JSON.parse(options.body) }
+  }));
+  await sut.retryPendingAttemptWrites();
+  assert.equal(sut.readPendingAttemptWrites().length, 0, "a successful retry must acknowledge and remove the queued snapshot");
 });
 
 test("attempt snapshots are serialized so older progress cannot overwrite a newer answer", async () => {

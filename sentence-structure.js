@@ -4,7 +4,7 @@ import { createExpressionMap } from "./common-expression-map.mjs?v=20260928-shar
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
-import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path8";
+import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path9";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -20,6 +20,8 @@ const SECTION_BOOKMARK_ID = "__section__";
 const MAX_BOOKMARKS = 20000;
 const LESSON_PAGES = 4;
 const ATTEMPT_PAGE_SIZE = 100;
+const PENDING_ATTEMPT_WRITES_KEY = "edmund-sentence-structure-pending-attempt-writes-v1";
+const ATTEMPT_RETRY_DELAY_MS = 4000;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SPELLING_EQUIVALENTS = Object.freeze({
   analyse: "analyze", analysed: "analyzed", analysing: "analyzing",
@@ -129,6 +131,8 @@ const state = {
   bookmarkSaveQueue: Promise.resolve(),
   bookmarkWriteRevision: 0,
   attemptSaveQueue: Promise.resolve(),
+  attemptPendingRevision: 0,
+  attemptRetryTimer: null,
   saveInFlight: false,
   exercisePersistTimer: null,
   toastTimer: null,
@@ -476,6 +480,8 @@ function clearSession() {
   // must not discard an answer the student already submitted; each queued
   // request carries the token and payload from the moment it was requested.
   state.attemptSaveQueue = state.attemptSaveQueue.catch(() => undefined);
+  window.clearTimeout(state.attemptRetryTimer);
+  state.attemptRetryTimer = null;
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
@@ -712,6 +718,7 @@ async function openDashboard({ force = false } = {}) {
     renderLessonChoices();
     renderProgressDashboard();
     renderAttemptHistory();
+    schedulePendingAttemptRetry(0);
     if (state.currentView === "dashboard") openRequestedHomeworkLesson();
   } catch (error) {
     if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
@@ -2082,6 +2089,92 @@ function serializeExerciseResult() {
   };
 }
 
+function readPendingAttemptWrites() {
+  try {
+    const rows = JSON.parse(localStorage.getItem(PENDING_ATTEMPT_WRITES_KEY) || "[]");
+    return Array.isArray(rows) ? rows.filter((row) => row && UUID_RE.test(String(row.attemptId || "")) && isPlainObject(row.payload)) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writePendingAttemptWrites(rows) {
+  try {
+    if (rows.length) localStorage.setItem(PENDING_ATTEMPT_WRITES_KEY, JSON.stringify(rows.slice(-100)));
+    else localStorage.removeItem(PENDING_ATTEMPT_WRITES_KEY);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function stagePendingAttemptWrite(attemptId, userId, payload) {
+  const rows = readPendingAttemptWrites();
+  const revision = state.attemptPendingRevision = Math.max(Date.now(), state.attemptPendingRevision + 1);
+  const record = { attemptId, userId, payload, revision };
+  const retained = rows.filter((row) => !(row.attemptId === attemptId && row.userId === userId));
+  writePendingAttemptWrites([...retained, record]);
+  return record;
+}
+
+function clearPendingAttemptWrite(record) {
+  const rows = readPendingAttemptWrites();
+  writePendingAttemptWrites(rows.filter((row) => !(
+    row.attemptId === record.attemptId
+    && row.userId === record.userId
+    && Number(row.revision) === Number(record.revision)
+  )));
+}
+
+function retryableAttemptSaveError(error) {
+  const status = Number(error?.status || 0);
+  return status === 0 || [408, 425, 429, 500, 502, 503, 504].includes(status);
+}
+
+function applySavedAttempt(record, response) {
+  if (String(state.user?.id || "") !== record.userId) return;
+  const saved = normalizeAttempt(response?.attempt || { id: record.attemptId, ...record.payload });
+  const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
+  if (index >= 0) state.attempts[index] = saved;
+  else state.attempts.unshift(saved);
+  state.dashboardLoaded = true;
+}
+
+function schedulePendingAttemptRetry(delay = ATTEMPT_RETRY_DELAY_MS) {
+  if (state.attemptRetryTimer || state.user?.role !== "student") return;
+  state.attemptRetryTimer = window.setTimeout(() => {
+    state.attemptRetryTimer = null;
+    void retryPendingAttemptWrites();
+  }, Math.max(0, Number(delay || 0)));
+}
+
+function retryPendingAttemptWrites() {
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
+  if (!userId || !authToken || state.user?.role !== "student") return Promise.resolve({ pending: 0 });
+  const run = async () => {
+    const records = readPendingAttemptWrites().filter((record) => record.userId === userId);
+    for (const record of records) {
+      try {
+        const response = await apiJson(`/v1/attempts/${encodeURIComponent(record.attemptId)}`, {
+          method: "PUT",
+          body: JSON.stringify(record.payload)
+        }, true, authToken);
+        clearPendingAttemptWrite(record);
+        applySavedAttempt(record, response);
+      } catch (error) {
+        if (retryableAttemptSaveError(error)) schedulePendingAttemptRetry();
+        else console.warn("Sentence Structure pending attempt needs attention", error);
+        break;
+      }
+    }
+    return { pending: readPendingAttemptWrites().filter((record) => record.userId === userId).length };
+  };
+  const pending = state.attemptSaveQueue.then(run, run);
+  state.attemptSaveQueue = pending.catch(() => undefined);
+  return pending;
+}
+
 function persistExercise() {
   if (!state.exercise || state.user?.role !== "student") return;
   saveExerciseDraft();
@@ -2104,20 +2197,27 @@ function persistExercise() {
     completedAt: state.exercise.completedAt || null,
     result: serializeExerciseResult()
   };
+  const record = stagePendingAttemptWrite(attemptId, userId, payload);
   const write = async () => {
-    const response = await apiJson(`/v1/attempts/${encodeURIComponent(attemptId)}`, {
-      method: "PUT",
-      body: JSON.stringify(payload)
-    }, true, authToken);
+    let response;
+    try {
+      response = await apiJson(`/v1/attempts/${encodeURIComponent(attemptId)}`, {
+        method: "PUT",
+        body: JSON.stringify(payload)
+      }, true, authToken);
+    } catch (error) {
+      if (retryableAttemptSaveError(error)) {
+        schedulePendingAttemptRetry();
+        return { pending: true, error };
+      }
+      throw error;
+    }
+    clearPendingAttemptWrite(record);
     if (
       String(state.user?.id || "") !== userId
       || String(state.authToken || "") !== authToken
     ) return response;
-    const saved = normalizeAttempt(response?.attempt || { id: attemptId, ...payload });
-    const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
-    if (index >= 0) state.attempts[index] = saved;
-    else state.attempts.unshift(saved);
-    state.dashboardLoaded = true;
+    applySavedAttempt(record, response);
     return response;
   };
   // Initial creation, answer submission, correction controls and card-display
@@ -2226,11 +2326,17 @@ async function submitExercise(kind) {
         correct: correctThisTime.includes(journeyQuestion.id)
       });
     }
-    await Promise.all([
-      persistExercise(),
-      ...(bookmarkChanged ? [saveBookmarks()] : [])
-    ]);
-    showToast(remaining ? `已檢查 ${targets.length} 題。` : "全部題目完成，記錄已儲存！");
+    const attemptSave = await persistExercise();
+    if (bookmarkChanged) {
+      try {
+        await saveBookmarks();
+      } catch (bookmarkError) {
+        console.warn("Sentence Structure bookmark answer sync failed", bookmarkError);
+      }
+    }
+    showToast(attemptSave?.pending
+      ? `已檢查 ${targets.length} 題；記錄已安全保留，系統會自動同步。`
+      : remaining ? `已檢查 ${targets.length} 題。` : "全部題目完成，記錄已儲存！");
   } catch (error) {
     console.warn("Sentence Structure attempt save failed", error);
     showToast("未能同步練習記錄；答案已保留在此裝置，請稍後再試。", "error");
@@ -2784,6 +2890,10 @@ function bindEvents() {
     }
   });
   window.visualViewport?.addEventListener?.("resize", handleExerciseKeyboardViewportResize);
+  window.addEventListener("online", () => schedulePendingAttemptRetry(0));
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") schedulePendingAttemptRetry(0);
+  });
   elements.lessonSearchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     renderLessonSearch();

@@ -8,16 +8,20 @@
 .sentence-journey-stop[data-eddy-active=true] .sentence-journey-platform{filter:brightness(1.035) drop-shadow(0 3px 5px #28586724)}
 .sentence-journey-eddy{position:absolute;z-index:5;right:17px;top:0;width:98px;height:98px;pointer-events:none;transition:top var(--eddy-walk-duration,700ms) cubic-bezier(.22,.7,.22,1);will-change:top}
 .sentence-journey-eddy:not([data-positioned=true]){visibility:hidden}
-.sentence-journey-eddy-sprite,.sentence-journey-eddy-blink{position:absolute;inset:0;display:block;background:url("assets/speaking-system/mascots/v4/eddy-standing.png") 33.333% 0/400% 400% no-repeat;filter:drop-shadow(0 4px 3px #173c3e3d)}
+.sentence-journey-eddy-sprite,.sentence-journey-eddy-action,.sentence-journey-eddy-blink{position:absolute;inset:0;display:block;background:url("assets/speaking-system/mascots/v4/eddy-standing.png") 33.333% 0/400% 400% no-repeat;filter:drop-shadow(0 4px 3px #173c3e3d)}
 .sentence-journey-eddy-blink{background-image:url("assets/speaking-system/mascots/v4/eddy-blink.png");opacity:0;filter:none;animation:sentence-eddy-blink 6.8s linear infinite}
+.sentence-journey-eddy-action{z-index:2;opacity:0;pointer-events:none}
+.sentence-journey-eddy-jump{background-image:url("assets/sentence-structure/exercise-eddy/eddy-jump-v3.webp");background-position:0 0;background-size:800% 100%}
+.sentence-journey-eddy-encourage{background-image:url("assets/sentence-structure/exercise-eddy/eddy-encourage-v2.webp");background-position:0 0;background-size:800% 100%}
 .sentence-journey-eddy-shadow{position:absolute;z-index:-1;left:24%;right:24%;bottom:7%;height:10%;border-radius:50%;background:#264d4930;filter:blur(2px);transition:transform .25s ease,opacity .25s ease}
 .sentence-journey-eddy[data-motion=walk] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp");background-position:0 0;background-size:800% 100%;animation:sentence-eddy-walk 1.46s steps(7) infinite}
 .sentence-journey-eddy:not([data-motion=idle]) .sentence-journey-eddy-blink{display:none}
 .sentence-journey-eddy[data-motion=walk][data-direction=up]{transform:rotate(-1.5deg)}
 .sentence-journey-eddy[data-motion=walk][data-direction=down]{transform:rotate(1.5deg)}
-.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-jump-v3.webp");background-position:0 0;background-size:800% 100%;animation:sentence-eddy-once .92s steps(7) both}
+.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-jump{opacity:1;animation:sentence-eddy-once .92s steps(7) both}
+.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-sprite,.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-sprite{opacity:0}
 .sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-shadow{animation:sentence-eddy-jump-shadow .92s ease both}
-.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-encourage-v2.webp");background-position:0 0;background-size:800% 100%;animation:sentence-eddy-once 1.08s steps(7) both}
+.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-encourage{opacity:1;animation:sentence-eddy-once 1.08s steps(7) both}
 .sentence-journey-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 @keyframes sentence-eddy-walk{from{background-position-x:0}to{background-position-x:100%}}
 @keyframes sentence-eddy-once{from{background-position-x:0}to{background-position-x:100%}}
@@ -25,4 +29,4 @@
 @keyframes sentence-eddy-blink{0%,83%,86.5%,89.5%,100%{opacity:0}84%,85.5%,87.5%,88.8%{opacity:1}}
 @media(max-width:700px){.sentence-journey-stop{grid-template-columns:minmax(0,1fr) 84px;gap:7px}.sentence-seaside-lesson .question-list.has-sentence-journey::before{right:4px;width:76px;background-size:76px 427px}.sentence-journey-platform{width:82px;height:61px}.sentence-journey-platform strong{top:10px;font-size:17px}.sentence-journey-eddy{right:6px;width:72px;height:72px}}
 @media(max-width:430px){.sentence-journey-stop{grid-template-columns:minmax(0,1fr) 66px}.sentence-seaside-lesson .question-list.has-sentence-journey::before{right:-2px;width:70px;background-size:70px 393px}.sentence-journey-platform{width:70px;height:53px}.sentence-journey-eddy{right:2px;width:62px;height:62px}}
-@media(prefers-reduced-motion:reduce){.sentence-journey-eddy,.sentence-journey-platform{transition:none!important}.sentence-journey-eddy-sprite,.sentence-journey-eddy-blink,.sentence-journey-eddy-shadow{animation:none!important}.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-sprite{background-position-x:57.142857%}.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-sprite{background-position-x:57.142857%}}
+@media(prefers-reduced-motion:reduce){.sentence-journey-eddy,.sentence-journey-platform{transition:none!important}.sentence-journey-eddy-sprite,.sentence-journey-eddy-action,.sentence-journey-eddy-blink,.sentence-journey-eddy-shadow{animation:none!important}.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-jump{background-position-x:57.142857%}.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-encourage{background-position-x:57.142857%}}
