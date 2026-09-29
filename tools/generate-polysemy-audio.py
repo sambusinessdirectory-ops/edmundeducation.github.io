@@ -41,7 +41,8 @@ for index,row in enumerate(rows):
     raw=Path(temp)/'raw.mp3';raw.write_bytes(request('@cf/deepgram/aura-2-en',{'text':'Hello. '+row['en'].replace('8 p.m.', 'eight P M'),'speaker':'aries','encoding':'mp3'}))
     result=json.loads(request('@cf/openai/whisper-large-v3-turbo',{'audio':base64.b64encode(raw.read_bytes()).decode(),'language':'en'}))['result']
     words=[w for s in result.get('segments',[]) for w in s.get('words',[])]
-    source_tokens=re.findall(r'[a-z0-9]+',row['en'].replace('8 p.m.','eight P M').lower())
+    # Whisper may transcribe an identical spoken word with American spelling.
+    source_tokens=re.findall(r'[a-z0-9]+',row['en'].replace('8 p.m.','eight P M').lower().replace('humour','humor'))
     recognized_prefix=re.findall(r'[a-z0-9]+',words[0]['word'].lower()) if words else []
     recognized_remainder=re.findall(r'[a-z0-9]+',' '.join(w['word'] for w in words[1:]).lower()) if len(words)>1 else []
     # Whisper occasionally hears Aura2's known “Hello.” padding as “Gallo.”

@@ -4253,6 +4253,15 @@
     "duration": 2.736,
     "sourceSha256": "543a4f6a7191bb079b3b2f530c763aca138bd5b4ccfe033bc500a892f34c71b4"
   },
+  "home-29-0": {
+    "path": "audio/040db4b5ed56f84bc860afe0.mp3",
+    "voice": "american-male",
+    "index": 57,
+    "text": "He struggled with homesickness.",
+    "duration": 2.496,
+    "speed": 1,
+    "sourceSha256": "4b46e57bdb1c14a987857ff5a818bc3edc22b3d6eb75e4b8c22aa7a091c9ba70"
+  },
   "home-29-1": {
     "path": "audio/523ad9ca48a502c7f91f2d95.mp3",
     "voice": "british-male",
@@ -4277,6 +4286,15 @@
     "duration": 3.048,
     "sourceSha256": "8f40c64ea4e2b445b1f4be44098b37593e32c7cbdeddab4e4dab2a03e54555a8"
   },
+  "home-31-0": {
+    "path": "audio/eca058d06d3da901c02c28cd.mp3",
+    "voice": "american-male",
+    "index": 61,
+    "text": "They began their homeward journey.",
+    "duration": 2.52,
+    "speed": 1,
+    "sourceSha256": "cd7b932b48147c66164b846256219a2238a95af4fdaea06e62a98670df99aabf"
+  },
   "home-31-1": {
     "path": "audio/10bb3eafde6e262e6d6046d4.mp3",
     "voice": "british-male",
@@ -4292,6 +4310,15 @@
     "text": "The medicine provided immediate relief.",
     "duration": 2.832,
     "sourceSha256": "3fb1cf5a75a2b4dfab6046629592d0177ed41a0784e628bf010ae8171a7c65c1"
+  },
+  "immediate-01-1": {
+    "path": "audio/a9d7b6a6aaa438e8178d7caf.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The problem requires immediate action.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "ef30c0ef6859ee7db8a5d538a7697b965cb3148ba4df42a44a5b63f713f2d4ce"
   },
   "immediate-02-0": {
     "path": "audio/33acb1491be1eb1ef6593a04.mp3",
@@ -4317,6 +4344,15 @@
     "duration": 2.16,
     "sourceSha256": "9050e37cc774350868f189f532ccb8dac39d231d5d48f1c966c3e4d76f648c0f"
   },
+  "immediate-03-0": {
+    "path": "audio/c6cc951f05802c1570de33ed.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "The immediate future is uncertain.",
+    "duration": 2.616,
+    "speed": 1,
+    "sourceSha256": "932d098542301d14a62f9b28848d33d18aeef329cebc73f0d19f02d6b4f54533"
+  },
   "immediate-03-1": {
     "path": "audio/40bf87219ac6998c7f2e4bc8.mp3",
     "voice": "british-male",
@@ -4340,6 +4376,15 @@
     "text": "The announcement came immediately before the launch.",
     "duration": 3.24,
     "sourceSha256": "8298568885e42dd1018098bff36aba524891d122da1c932f8d1e95e4ce0c7d9e"
+  },
+  "immediate-05-0": {
+    "path": "audio/e3e09ff81ed36e21178ae3cd.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "There were no shops in the immediate area.",
+    "duration": 2.256,
+    "speed": 1,
+    "sourceSha256": "8a64d399b204f4e498e6e1a134961ddcd327708255dd0983bafc8bdd5d813db4"
   },
   "immediate-05-1": {
     "path": "audio/3a5be827cb104eccf7296c44.mp3",
@@ -4365,6 +4410,15 @@
     "duration": 2.856,
     "sourceSha256": "fa452d5f5221007ddefb74e856d5f4d5c1a1cc1b3b0e8c7df5d381ef8cd55562"
   },
+  "immediate-07-0": {
+    "path": "audio/527bbd4d0710a5c7da65795c.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "Only immediate family members were invited.",
+    "duration": 3.024,
+    "speed": 1,
+    "sourceSha256": "49cbdfd09c4798bbf3d36b667cb130e109946249510fdb9886295ed036e20ec2"
+  },
   "immediate-07-1": {
     "path": "audio/c700238c3e4cce94865b702f.mp3",
     "voice": "british-male",
@@ -4388,6 +4442,15 @@
     "text": "Her immediate manager approved the request.",
     "duration": 3.072,
     "sourceSha256": "0f74a5ca6a124f8f02994f993363c0ea4661a6b05519e65d84e3b154ff228fa1"
+  },
+  "immediate-09-0": {
+    "path": "audio/9f9f6081b7f311e2afea03dc.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The decision had an immediate impact on employees.",
+    "duration": 3.36,
+    "speed": 1,
+    "sourceSha256": "d23cb9e082c7d9b9dec34d767036a99c7bdd5aa99d6db79fe7df74c3c9f9f4f0"
   },
   "immediate-09-1": {
     "path": "audio/e384c14249af56e25cc960e3.mp3",
@@ -4413,6 +4476,15 @@
     "duration": 4.656,
     "sourceSha256": "c716a321326f418a9595ade3c7ecc7a08eb1181647eb874b5974c1f992c5f42a"
   },
+  "immediate-11-0": {
+    "path": "audio/f4c9cc2b3109677656c4518d.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "The new rule had an immediate effect.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "3b252a60162006cc47b4aae01c99220b5493959b9d3cfad635dc370bba51c3e0"
+  },
   "immediate-11-1": {
     "path": "audio/9f953e8040da6b4e217851a5.mp3",
     "voice": "british-male",
@@ -4436,6 +4508,15 @@
     "text": "The immediate priority is to restore power.",
     "duration": 3.168,
     "sourceSha256": "bf92b18db678d616d8dd7651ff3b1ffdb179b09c9c7d54d9255f48254d589ccf"
+  },
+  "immediate-13-0": {
+    "path": "audio/1c8f3f4ff26806e01eb5283e.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "There is no immediate danger.",
+    "duration": 2.448,
+    "speed": 1,
+    "sourceSha256": "b297dd7db8ac7ed10349f3aeb044901caa511eec63feb7b3ef69cfc557af5c9c"
   },
   "immediate-13-1": {
     "path": "audio/6329e941502bc79c2e033bab.mp3",
@@ -4462,6 +4543,15 @@
     "duration": 4.608,
     "sourceSha256": "dfdab35a38a7d299f6c0c9af649fca66abcd6c70d1a55de0486d487308f5d527"
   },
+  "immediate-15-0": {
+    "path": "audio/64627404fdb4a21e4848d6a8.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Immediately he arrived, the meeting began.",
+    "duration": 3.216,
+    "speed": 1,
+    "sourceSha256": "800b0ecf4495743aa1e722338d877c0033d61b60f2eb781352265aa3bf03cafc"
+  },
   "immediate-15-1": {
     "path": "audio/a0954e4f47241d0a275558e5.mp3",
     "voice": "british-male",
@@ -4486,6 +4576,15 @@
     "duration": 3.336,
     "sourceSha256": "713655dc5c2e8c3999bf122c487af40ae6d274e167cd3f0cce7822f74970a89d"
   },
+  "immediate-17-0": {
+    "path": "audio/8fe1919df7a3b4dda822ecd4.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "The immediacy of the problem required a quick response.",
+    "duration": 3.456,
+    "speed": 1,
+    "sourceSha256": "533c82de71c25f75dacafddacce18962f1f884001f1d2b0edb35f32b2b488013"
+  },
   "immediate-17-1": {
     "path": "audio/2085faf2c4bf646698f9aef9.mp3",
     "voice": "british-male",
@@ -4501,6 +4600,15 @@
     "text": "It was not flashy, aggressive, or full of empty promises.",
     "duration": 4.392,
     "sourceSha256": "b41f5512b9eccc1eaffdfb526c19b38cc4fd62a5eaa78b0243e01c37a8d3a81f"
+  },
+  "full-01-1": {
+    "path": "audio/0c767bc0fb295300fd9bd5e1.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The room was full of people.",
+    "duration": 2.016,
+    "speed": 1,
+    "sourceSha256": "ef831c98da4f7e8d826b3c0e263898f358a798e7c6b45774c927b738de6f13ae"
   },
   "full-01-2": {
     "path": "audio/e2bf026c9b9bb5042864e6e3.mp3",
@@ -4526,6 +4634,15 @@
     "duration": 3.552,
     "sourceSha256": "7b84179a1d6a1eee3ce10248986ef562fdb944f3b88e8c472178effa53c53a46"
   },
+  "full-03-0": {
+    "path": "audio/a431bf913f61d2679a865d72.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "I’m full. I can’t eat any more.",
+    "duration": 2.688,
+    "speed": 1,
+    "sourceSha256": "da2e8abfbc095839a8a684e82ea22344fa95491ac56f74b55af206d898ad42f9"
+  },
   "full-03-1": {
     "path": "audio/122dc53debebed74daf9147b.mp3",
     "voice": "british-male",
@@ -4549,6 +4666,15 @@
     "text": "The doctor is full for the rest of the day.",
     "duration": 2.712,
     "sourceSha256": "b11e3abdd87279f4c7fa983f244ed3fdaa85c91a81273f6d61dc9e14503facb4"
+  },
+  "full-05-0": {
+    "path": "audio/b7986010980df8a7426aa504.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "Please give me the full details.",
+    "duration": 2.232,
+    "speed": 1,
+    "sourceSha256": "1544519b8837b87b3e4aff02967606441921221b52e10a15b72489980ae850af"
   },
   "full-05-1": {
     "path": "audio/d03079eff1f228471b20470d.mp3",
@@ -4574,6 +4700,15 @@
     "duration": 2.808,
     "sourceSha256": "a6e8318f4e25f24d8fcdb10d284588a9410b090640e30e3316c2bc8b3c0fbb46"
   },
+  "full-07-0": {
+    "path": "audio/fec59e368c7c6f247b2de929.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "The issue requires our full attention.",
+    "duration": 2.592,
+    "speed": 1,
+    "sourceSha256": "1ac055b138c94c95794fd6e76116ab67cf9d7b16942d2e4c5aaf85d46de2b959"
+  },
   "full-07-1": {
     "path": "audio/88250003b2cf2f9bebe2d183.mp3",
     "voice": "british-male",
@@ -4597,6 +4732,15 @@
     "text": "The speakers produce a full sound.",
     "duration": 2.424,
     "sourceSha256": "8961b738ddca02d0e5e4b72ba1fb7b434962ff87a203f296cf24c4423aa8bff5"
+  },
+  "full-09-0": {
+    "path": "audio/35f802b333b571fa9e1b88fd.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "She has full lips.",
+    "duration": 2.064,
+    "speed": 1,
+    "sourceSha256": "b86e16aa991d5e0af01feafce4940c6d0e4dd1ac435d2d15533b6ffa1b51d8cc"
   },
   "full-09-1": {
     "path": "audio/942b53d870bf0b847d891074.mp3",
@@ -4622,6 +4766,15 @@
     "duration": 2.88,
     "sourceSha256": "60841ebb0579eba404899768f8393659c19488ac8e7d11c330ab531a5f26c752"
   },
+  "full-11-0": {
+    "path": "audio/1e5c509e33c3ead9d9f8a956.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "She became a full member of the association.",
+    "duration": 3.048,
+    "speed": 1,
+    "sourceSha256": "26ec9f0ba4ea973f5ac8b347209eb6cec66bc62eb402c46756496922404fb10e"
+  },
   "full-11-1": {
     "path": "audio/337faeffead3ac7b7b7d2083.mp3",
     "voice": "british-male",
@@ -4645,6 +4798,15 @@
     "text": "He is a full-time student.",
     "duration": 2.136,
     "sourceSha256": "e6be9331989e10f3bf00bcfd0151b2883b88aac2737ec25553c6e14062234ba9"
+  },
+  "full-13-0": {
+    "path": "audio/9c27cfdda83da5ba58d768c4.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "The system is now fully operational.",
+    "duration": 2.856,
+    "speed": 1,
+    "sourceSha256": "6167cd185a314d89ef69409d26e2625903e6829a7ff48e7f39b9ad5ba44a1373"
   },
   "full-13-1": {
     "path": "audio/2caa1f9b3c15a354257af5c5.mp3",
@@ -4670,6 +4832,15 @@
     "duration": 3,
     "sourceSha256": "97b3d0fec11f8caa70acf27493bb09dcb92384eab90fa88d5192611e7cb26927"
   },
+  "full-15-0": {
+    "path": "audio/53eae8dadc2f8f600ee21dcd.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "The hairstyle adds fullness to her hair.",
+    "duration": 2.832,
+    "speed": 1,
+    "sourceSha256": "0413989e76d83be27c85bcf51a283a49af3227579b1e0424a27484a22c88d5f6"
+  },
   "full-15-1": {
     "path": "audio/9a3bf4b6ce6a7aabfe8cb862.mp3",
     "voice": "british-male",
@@ -4685,6 +4856,15 @@
     "text": "The bottle is empty.",
     "duration": 1.968,
     "sourceSha256": "9b768ebfa8bd217fab61460edb4d09618ca76cc1104a009b4db4aad18d976622"
+  },
+  "empty-01-1": {
+    "path": "audio/ae91466acd85908aeccf7dd6.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I opened the box, but it was empty.",
+    "duration": 3.096,
+    "speed": 1,
+    "sourceSha256": "1c9a3707e0268a6b728b379afc7ee3bdc199d07b19dd4ef40ba343d929af221d"
   },
   "empty-02-0": {
     "path": "audio/e3db74b7f5f69a8ff4666286.mp3",
@@ -4710,6 +4890,15 @@
     "duration": 1.872,
     "sourceSha256": "7251f14908a836cd2159609c606c8156c7d792bd47dd91e5631ac482bb99b2b3"
   },
+  "empty-03-1": {
+    "path": "audio/d193c3a09e199adc13d53bb2.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "There was one empty parking space near the entrance.",
+    "duration": 2.832,
+    "speed": 1,
+    "sourceSha256": "7005441649b3afaf087703f0d7fd18a879e2d43d1e72619ce357681f60b3099f"
+  },
   "empty-04-0": {
     "path": "audio/ee22a8f31f3532fe4e9ca61e.mp3",
     "voice": "british-male",
@@ -4733,6 +4922,15 @@
     "text": "His apology sounded empty.",
     "duration": 2.52,
     "sourceSha256": "200af12d8ab4f5e3cbabd7f8e03265abc40ec4f9b45b3f85874b53677391d19d"
+  },
+  "empty-05-0": {
+    "path": "audio/d066da81e75afcd06c96c519.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "After the project ended, she felt strangely empty.",
+    "duration": 3.648,
+    "speed": 1,
+    "sourceSha256": "e394b5f935b7db2f10a88342476384fdfd7713152e9d450de1a2296a2b27d4dd"
   },
   "empty-05-1": {
     "path": "audio/621a51072141074c82be19fa.mp3",
@@ -4758,6 +4956,15 @@
     "duration": 3.312,
     "sourceSha256": "ae8edb4fdd8d99fec462fef8256f50f6a11814563d7e4c648de2faea758af91f"
   },
+  "empty-07-0": {
+    "path": "audio/fcb33f7086a0dfa17f24162c.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "He stared at me with an empty expression.",
+    "duration": 3.072,
+    "speed": 1,
+    "sourceSha256": "5976d2501d0f7759235187945a9014f962e9cf09e9372daae01db0bd8ee65ed8"
+  },
   "empty-07-1": {
     "path": "audio/e9ff32739b96088f27ac9956.mp3",
     "voice": "british-male",
@@ -4782,6 +4989,15 @@
     "duration": 3.024,
     "sourceSha256": "ff9ee57e604172d835f1920be580d3633369a3bd24103688544bbadd1137cf41"
   },
+  "empty-09-0": {
+    "path": "audio/a1f3385ccaccea0b3e314237.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "Please empty the rubbish bin.",
+    "duration": 2.088,
+    "speed": 1,
+    "sourceSha256": "7a553cf61dec7d6ba7ac930a6bc7b4e4f9e18d5ac14823da07d7a3cb8f2fbea4"
+  },
   "empty-09-1": {
     "path": "audio/f1a1fd4ce895a25b3f521eb5.mp3",
     "voice": "british-male",
@@ -4805,6 +5021,15 @@
     "text": "The bottle emptied slowly as the water leaked out.",
     "duration": 3.408,
     "sourceSha256": "0e311bc172de20d06dcb39a808dc67c942237feffb62d9389215ab1b8e8f791f"
+  },
+  "empty-11-0": {
+    "path": "audio/913af8ef172a195c9df9e69d.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "The emptiness of the building felt unusual.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "ffafaff50d3d981dc32f4ec03ef8c47d878ff08cf3c5f0ea41e459dd38080b55"
   },
   "empty-11-1": {
     "path": "audio/38f2c465fb1331e9efb91e84.mp3",
@@ -10005,6 +10230,15 @@
     "speed": 0.96,
     "sourceSha256": "04e38385bccf36e85ad22727c98b399ec0f375193901bfaa5a446dace587c35c"
   },
+  "final-01-1": {
+    "path": "audio/66fb95fed69c1c0f93d63aee.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The final chapter explains what happened afterwards.",
+    "duration": 3.552,
+    "speed": 1,
+    "sourceSha256": "60c2643eacea52e3fa916846a31790b414adf609560927ebfc0040d7be1ac1b4"
+  },
   "final-01-2": {
     "path": "audio/155226b11f3092dbb3b4d998.mp3",
     "voice": "british-male",
@@ -10022,6 +10256,15 @@
     "duration": 3.384,
     "speed": 0.96,
     "sourceSha256": "695f1584f5504ae77592cff505719261a06622234e9d7510413a7509825321a0"
+  },
+  "final-02-1": {
+    "path": "audio/2e2dc3657aab574338e3558b.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The designer made a few changes before approving the final design.",
+    "duration": 3.552,
+    "speed": 1,
+    "sourceSha256": "d32aa50d6b8088165cce227bd3b956ec43535b85339901fbff892e3295a51f93"
   },
   "final-02-2": {
     "path": "audio/44dd8c0dc89b511dac537d50.mp3",
@@ -10050,6 +10293,15 @@
     "speed": 0.96,
     "sourceSha256": "e4141b2f7079ce786ee3290b65427176dc7ca86beffd3d9e203a71a2e45109e7"
   },
+  "final-03-1": {
+    "path": "audio/508509de9d3183b6e3e21090.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The passengers received a final warning before boarding closed.",
+    "duration": 3.6,
+    "speed": 1,
+    "sourceSha256": "26173f082b423a94085453564697b6b3c4189d28d48885864863163a84810993"
+  },
   "final-04-0": {
     "path": "audio/481ed1e5fab887fbb03fa901.mp3",
     "voice": "american-female",
@@ -10058,6 +10310,15 @@
     "duration": 2.808,
     "speed": 0.96,
     "sourceSha256": "425511931bb38d029a63d011e62800b1d73354b793377a3346740a167e66fb1b"
+  },
+  "final-04-1": {
+    "path": "audio/0da3bee024753d244dad9236.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Those were her final words.",
+    "duration": 2.232,
+    "speed": 1,
+    "sourceSha256": "53c7f297b961969fe304de544b0b3fe03e48c501efdfbc121c06a52d3b1e727a"
   },
   "final-05-0": {
     "path": "audio/1d56cfc19581475af8c8c93c.mp3",
@@ -10068,6 +10329,15 @@
     "speed": 0.96,
     "sourceSha256": "3abecc0b75995df4119b4fb2c85550d58a75a647996cc6151e1f407278af0fe8"
   },
+  "final-05-1": {
+    "path": "audio/89222c191750eb209775f2d1.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She reached the final round of the competition.",
+    "duration": 2.64,
+    "speed": 1,
+    "sourceSha256": "8aac592170fb4ebe8b9604a742c22c36fb7056d675ef692778b65541db5cff66"
+  },
   "final-06-0": {
     "path": "audio/1fa6eac9e32d00bae45e94de.mp3",
     "voice": "american-female",
@@ -10076,6 +10346,15 @@
     "duration": 2.568,
     "speed": 0.96,
     "sourceSha256": "9b002bdf5d3424877fd5844129be4b077046e9c5bfdde10a486bca82f4437332"
+  },
+  "final-06-1": {
+    "path": "audio/3e86568f6f26bdefdf7091e6.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The final will be played on Sunday.",
+    "duration": 2.328,
+    "speed": 1,
+    "sourceSha256": "16f0d70c914e4eb3d15441960e800a6159b75eae72b4c33a255146f43a6b2910"
   },
   "final-07-0": {
     "path": "audio/290cc46aebea7c07152aa734.mp3",
@@ -10086,6 +10365,15 @@
     "speed": 0.96,
     "sourceSha256": "17f6a28674455f7f86b2a3d8519d86b9c6a68c3812bb3d058e6067007f09785c"
   },
+  "final-07-1": {
+    "path": "audio/42e85688405347f9b1fa5a21.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She is studying for her finals.",
+    "duration": 2.592,
+    "speed": 1,
+    "sourceSha256": "7252d086e1367032a4e4188d7a9af9036736d89d5833ac07c548b0ff7f61e957"
+  },
   "final-08-0": {
     "path": "audio/9ad5b6bf4743bc868afb15dd.mp3",
     "voice": "american-female",
@@ -10094,6 +10382,15 @@
     "duration": 3.24,
     "speed": 0.96,
     "sourceSha256": "bba38b5a8f5862e03e09d4e81161c7c11be18764919b4cb3e837a2595ed2e2de"
+  },
+  "final-08-1": {
+    "path": "audio/b0946fda0bec9bcd1c147197.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Parents should have the final word on the matter.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "47792d843c91e8361fa2f2588c75588f96808e83fd294ae6fba153d47ffb0c83"
   },
   "final-09-0": {
     "path": "audio/e965ae4291d60ae328b6fbbc.mp3",
@@ -10104,6 +10401,15 @@
     "speed": 0.96,
     "sourceSha256": "69b1f46e394234759b2dd8a635f236f3870eab776cdd35ab544700c133bb1d34"
   },
+  "final-09-1": {
+    "path": "audio/017a80a267f068c75bcc061f.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "After several attempts, we finally solved the problem.",
+    "duration": 3.24,
+    "speed": 1,
+    "sourceSha256": "8eeecec43b1c999b69df26db45f27adaac51f14fa49736469763857e47abcd9e"
+  },
   "final-10-0": {
     "path": "audio/07db8a346c822e296a62b81e.mp3",
     "voice": "american-female",
@@ -10112,6 +10418,15 @@
     "duration": 3.024,
     "speed": 0.96,
     "sourceSha256": "dbf893add137ab0e02f129dd43c6104e25c6b4b5ee8d87efee51f5134c0e02bf"
+  },
+  "final-10-1": {
+    "path": "audio/98cb0e01904058abbfa4abda.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "First, check the battery; then restart the device; finally, test the connection.",
+    "duration": 5.568,
+    "speed": 1,
+    "sourceSha256": "9484d1f5776e96375c3e01b71889b4303202a96fb2040614450108a8ac86cc04"
   },
   "final-11-0": {
     "path": "audio/6c0149b64851f10d8ae9efe1.mp3",
@@ -10122,6 +10437,15 @@
     "speed": 0.96,
     "sourceSha256": "80a2343ef32fb402d3f4dc4f1b73e5319ae940d2100833fbb8b56532dac1f613"
   },
+  "final-11-1": {
+    "path": "audio/2b6f48dec9b8373d2c412f7e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The two sides finalised the agreement last week.",
+    "duration": 3.24,
+    "speed": 1,
+    "sourceSha256": "837d60ea2203fcb18fe886b89059cf58a43e354db4b230d7794847f96899f6f4"
+  },
   "final-12-0": {
     "path": "audio/4fff1f64146671a481b7caa4.mp3",
     "voice": "american-female",
@@ -10130,6 +10454,15 @@
     "duration": 2.352,
     "speed": 0.96,
     "sourceSha256": "9f505348ca5ee806ae025fe7f204acaeaa168cf545e3e290c4708fda091376fe"
+  },
+  "final-12-1": {
+    "path": "audio/af217cdab90634878230c3d8.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The two finalists will compete tomorrow.",
+    "duration": 2.592,
+    "speed": 1,
+    "sourceSha256": "843e9e1e23cb3bcafec5034eb42b4530e902969e6898cae6289f663f6559b8da"
   },
   "final-13-0": {
     "path": "audio/e668ffbe61a81886bf95f8f9.mp3",
@@ -10140,6 +10473,15 @@
     "speed": 0.96,
     "sourceSha256": "ca5b25a837e70423e618053d707cad1688685ac57a26aa330b4a645bc01e5f48"
   },
+  "final-13-1": {
+    "path": "audio/f833936f45adc2e2c8483074.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Closing the door gave the moment a strange finality.",
+    "duration": 3.024,
+    "speed": 1,
+    "sourceSha256": "0b024e38c1412566b1640f1d2772e182374109da467ce4291cd912dbcac1b96a"
+  },
   "problem-01-0": {
     "path": "audio/db222573bde81828189fde3b.mp3",
     "voice": "american-female",
@@ -10148,6 +10490,15 @@
     "duration": 2.256,
     "speed": 0.96,
     "sourceSha256": "0e5a3a053d03ccaab4772c6b01bd4092f457858091e49618dd7e1b0b562f14f4"
+  },
+  "problem-01-1": {
+    "path": "audio/098048ac7dbd00207bdf80f6.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Noise is a serious problem in open-plan offices.",
+    "duration": 3.624,
+    "speed": 1,
+    "sourceSha256": "7f12a6e657343ba3617731a5c3d4166c70a3aec5f704b28a3bda6907dc274ce0"
   },
   "problem-01-2": {
     "path": "audio/ec53c172806fa608c76fc173.mp3",
@@ -10167,6 +10518,15 @@
     "speed": 0.96,
     "sourceSha256": "84fd07b20ccc8f9c1f51a28568959695abd4e2da47ce71f50c888bec7b89157f"
   },
+  "problem-02-1": {
+    "path": "audio/afc4d862f59225549975daf5.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "This logic problem is harder than it looks.",
+    "duration": 2.952,
+    "speed": 1,
+    "sourceSha256": "9328211ea0b008682efbe6d18388abbe7ecf433fc712b895d1e7b657ee847bb4"
+  },
   "problem-03-0": {
     "path": "audio/220d32ec8d4f570766458de0.mp3",
     "voice": "american-female",
@@ -10175,6 +10535,15 @@
     "duration": 2.328,
     "speed": 0.96,
     "sourceSha256": "45d19a71020e4c93b95d8d137c13934421d701b79b7262a564e826c4705c608b"
+  },
+  "problem-03-1": {
+    "path": "audio/7ca1f34697488fd72390ba6b.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The technician found the problem.",
+    "duration": 2.328,
+    "speed": 1,
+    "sourceSha256": "5e0eee98f5be7ec5cc84d605724708926259e3294fb9ab2df6c5f6ca2ab01725"
   },
   "problem-04-0": {
     "path": "audio/98941a64aecd532dfbd718c6.mp3",
@@ -10185,6 +10554,15 @@
     "speed": 0.96,
     "sourceSha256": "68b75a03235fced93b6ead2993c2cef0d2f278f9f1b320af1d4913337de1a914"
   },
+  "problem-04-1": {
+    "path": "audio/4e62b6627b18eb8b69e49059.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Do you have a problem with this arrangement?",
+    "duration": 2.592,
+    "speed": 1,
+    "sourceSha256": "03c631257f146334648dabc856649ae5651c073727bbec50f3991ae9260f75b7"
+  },
   "problem-05-0": {
     "path": "audio/6af91d671bf1a42a2b3df1c3.mp3",
     "voice": "american-female",
@@ -10193,6 +10571,15 @@
     "duration": 3.6,
     "speed": 0.96,
     "sourceSha256": "6131014da1552325edb8ca114b1ed2884aef485c6b06f98bbb49ae5a161e7bce"
+  },
+  "problem-05-1": {
+    "path": "audio/5d070049dc42aa64d6de5af5.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She had no problem finding the hotel.",
+    "duration": 2.664,
+    "speed": 1,
+    "sourceSha256": "385c6659bb2e7b6119b48f6bb65d3e5a49fd3af4752ba478e6ae136cd7648de6"
   },
   "problem-08-0": {
     "path": "audio/4dbaae11e323f26ac1b984ef.mp3",
@@ -10203,6 +10590,15 @@
     "speed": 0.96,
     "sourceSha256": "7a240daf2af3025b3377cbfd827f2bde33476bbc347c1698fdc7a78402f36109"
   },
+  "problem-08-1": {
+    "path": "audio/e7e4886644a96e03e5d5381d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Poor communication is the main problem.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "22470b64f84fef61b1455ca39d69afdc0be3b8ad6b9ccbf915089661447314a0"
+  },
   "problem-09-0": {
     "path": "audio/37c8fce8469445fcc10fe88d.mp3",
     "voice": "american-female",
@@ -10211,6 +10607,15 @@
     "duration": 3.768,
     "speed": 0.96,
     "sourceSha256": "2c819bf9a6f0ba7238e4c2a01194b0e581f100d73b1a5a88592bc7627c6a7f97"
+  },
+  "problem-09-1": {
+    "path": "audio/b0a675c514875b7dfc7a81fc.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Pollution remains a serious environmental problem.",
+    "duration": 3.072,
+    "speed": 1,
+    "sourceSha256": "542e750aa55d294b4624285fa6755a5e6d73e04217c6a794f9a86b86a1b51c33"
   },
   "problem-10-0": {
     "path": "audio/04511d0292fee4214b1c3dba.mp3",
@@ -10221,6 +10626,15 @@
     "speed": 0.96,
     "sourceSha256": "ee01e5c917dff69f6a1b822bdc53b5b521729669908a6eaaa805156d43137de0"
   },
+  "problem-10-1": {
+    "path": "audio/491ddb83ae9e648142fc055b.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Sleep problems can affect concentration.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "fb0595ef0d3e922a447472753649c8fc9f054b3e1ea4d06fbaf5e0bfdde83ff2"
+  },
   "problem-11-0": {
     "path": "audio/4224981b7a89765a39d82577.mp3",
     "voice": "american-female",
@@ -10229,6 +10643,15 @@
     "duration": 3.648,
     "speed": 0.96,
     "sourceSha256": "e9fea949356f430413926bb073aa10ce7868873c616b7e12319ecf792f88ce55"
+  },
+  "problem-11-1": {
+    "path": "audio/98e8dcdca3fced469e064476.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The mind-body problem has been discussed for centuries.",
+    "duration": 3.552,
+    "speed": 1,
+    "sourceSha256": "6448da0d19bd0171c61a0bc8abd02db3c4bd9a0bbe9941e19f215e33111fd91d"
   },
   "problem-12-0": {
     "path": "audio/7f30faaa46c9ffa57e335f1f.mp3",
@@ -10239,6 +10662,15 @@
     "speed": 0.96,
     "sourceSha256": "a34f9aebb71b8b89d2cf13c171b4d533ab13764a5304d10b57e71af9c21b49b5"
   },
+  "problem-12-1": {
+    "path": "audio/43d73b1d2915fa7cc323e931.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "That assumption is problematic.",
+    "duration": 2.544,
+    "speed": 1,
+    "sourceSha256": "f8d611c6286cd114559aaf1f2bfae493020dd136f69ecec73a3ae9c08eda53c4"
+  },
   "problem-13-0": {
     "path": "audio/903bab6c810cebd5ea294369.mp3",
     "voice": "american-female",
@@ -10247,6 +10679,15 @@
     "duration": 2.568,
     "speed": 0.96,
     "sourceSha256": "c437909cd8ad3f46b30012b76a3657efa168aee679591aace148a8d0e229ad3a"
+  },
+  "problem-13-1": {
+    "path": "audio/54578a1a2bbbe19be8cb2cde.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The data were problematically incomplete.",
+    "duration": 2.808,
+    "speed": 1,
+    "sourceSha256": "a108d90d05c551675e459002244ac727f7da9df5b0409385afc1c98bce8ea146"
   },
   "problem-14-0": {
     "path": "audio/1088e5b7c34e48a09fbabc83.mp3",
@@ -10257,6 +10698,15 @@
     "speed": 0.96,
     "sourceSha256": "5ea2acd6459aa8f3d637a1ef59d82aecf75edfd02a2d3822a9310e492b2a5dd1"
   },
+  "problem-14-1": {
+    "path": "audio/641407b6c2532a54b64ed165.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The course focuses on creative problem-solving.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "b6289759905469700233d938fcb19dab904c97cc979b560e0cef656df4168e24"
+  },
   "problem-15-0": {
     "path": "audio/e201ed2e28daff7ead9d4a81.mp3",
     "voice": "american-female",
@@ -10265,6 +10715,15 @@
     "duration": 2.616,
     "speed": 0.96,
     "sourceSha256": "184ddad429a44de47d79fb6bbc17cca3d387bf315a7139f4a6007097da62a6d0"
+  },
+  "problem-15-1": {
+    "path": "audio/1911e9183a398873ffbe3546.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The company wants employees who are independent problem-solvers.",
+    "duration": 3.984,
+    "speed": 1,
+    "sourceSha256": "bc51562b7384064f2062dbc705e86cd360530a595f6275da05998e4d51987c1e"
   },
   "problem-16-0": {
     "path": "audio/9f38853551e88bafd5f25cc4.mp3",
@@ -10275,6 +10734,15 @@
     "speed": 0.96,
     "sourceSha256": "70d7b83122cd0b5536e8da9bf43bbd3d26a8a6fc469633eb6429f127193630d2"
   },
+  "problem-16-1": {
+    "path": "audio/b5a73b31ff8812c8f558fc80.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "We had a problem-free journey.",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "94e44b52bd8ccd20dca18f1df7709af2debdb2f2fe6a76ead20a9fef248fbbb9"
+  },
   "place-01-0": {
     "path": "audio/0bee6af874daaf292bd55a75.mp3",
     "voice": "american-female",
@@ -10283,6 +10751,15 @@
     "duration": 3.768,
     "speed": 0.96,
     "sourceSha256": "162263f5c3b945e57b816cb62f613b8b9a125101b9646b7efff1ecc745f6f25d"
+  },
+  "place-01-1": {
+    "path": "audio/3010f2c96d4b22929e816ab6.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "This is a quiet place to work.",
+    "duration": 2.112,
+    "speed": 1,
+    "sourceSha256": "440df57c42c5305710e8986f72f18ea5ccb15b14545e8b59d7533610e51e87cf"
   },
   "place-01-2": {
     "path": "audio/b002e329e0f382c96fb76d01.mp3",
@@ -10302,6 +10779,15 @@
     "speed": 0.96,
     "sourceSha256": "034bfc19ecf15d6ef06827b5ff5323775b74573396c26238c65a59a1608550fd"
   },
+  "place-02-1": {
+    "path": "audio/95e29294ff2996c5a79e5cd1.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Everything has its own place in the kitchen.",
+    "duration": 2.424,
+    "speed": 1,
+    "sourceSha256": "b691a7702f431af80b5209174a57f7074ddb3454151ee314c2886e06da42a20b"
+  },
   "place-03-0": {
     "path": "audio/f6c5f1c069b3297aed37c24c.mp3",
     "voice": "american-female",
@@ -10310,6 +10796,15 @@
     "duration": 2.352,
     "speed": 0.96,
     "sourceSha256": "1f7f7b4aca5cf340cf1670b03786a278e0d95eb9dc834a114a8b626a17abe065"
+  },
+  "place-03-1": {
+    "path": "audio/9a1b50d931233aa829fdea19.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "There wasn’t enough place for all the equipment.",
+    "duration": 2.952,
+    "speed": 1,
+    "sourceSha256": "d453cd586da8b1df7fc56fc0ae0c2578ef4a680de0f380a1d47b1a77cb54d07a"
   },
   "place-04-0": {
     "path": "audio/c1797dd1ef611a2ef92bc0ee.mp3",
@@ -10320,6 +10815,15 @@
     "speed": 0.96,
     "sourceSha256": "bb09eb080240ee98c9bcbc6f5104e552602d9f7e8e09a4ec37cfe8b7dbc4de4a"
   },
+  "place-04-1": {
+    "path": "audio/4072c118b86b791358d5958e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Her place is only five minutes from the station.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "6f3b7fb90e759ec4a698a34a960a56f1e9981283a4a8ee1ba50229a91563df84"
+  },
   "place-05-0": {
     "path": "audio/f54a9bebbbbe4344fcfdbf0b.mp3",
     "voice": "american-female",
@@ -10328,6 +10832,15 @@
     "duration": 2.976,
     "speed": 0.96,
     "sourceSha256": "b2ac81899d9cee2993a25a7e22d18d595b55d8256818251cbd8a8aa6b87f642e"
+  },
+  "place-05-1": {
+    "path": "audio/51d311f5b18fdce62187426c.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The invention has an important place in modern history.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "936c001315ccd5ae6ae87ac85eee4f2f66647ab88da3bae1e8c3bb5dae785078"
   },
   "place-06-0": {
     "path": "audio/91ac36e1248d1a1712e713a9.mp3",

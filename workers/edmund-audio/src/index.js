@@ -13,6 +13,7 @@ const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part3/",
   "assets/speaking-system/audio/edmund-neural/exam/",
   "assets/reading-comprehension/audio/edmund-neural/",
+  "assets/polysemy-lab/audio/v2-aries-20260930-1/",
   "IELTS Listening - Recordings/",
   "DSE Listening - Recordings/"
 ];
