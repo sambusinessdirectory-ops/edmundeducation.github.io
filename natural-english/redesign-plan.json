@@ -1402,15 +1402,15 @@
       "title": "鼓勵對方撐住",
       "family": "social",
       "styles": [
-        "branch",
-        "rewrite",
-        "explain",
         "audio",
+        "explain",
         "tone",
-        "speak"
+        "branch",
+        "speak",
+        "rewrite"
       ],
       "sourceSha256": "8e651656713e7dd7bf60653ff556f57255ebeeb6c10f9fc6e0698e68872bca52",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 103,
@@ -1418,14 +1418,14 @@
       "title": "「我到了！」",
       "family": "action",
       "styles": [
-        "continue",
+        "audio",
         "scene",
         "detail",
-        "audio",
+        "continue",
         "transfer"
       ],
       "sourceSha256": "120f13e7bca99953be6f243a094e92f63b449a9658d6084c9bc3e0131a6f964d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 104,
@@ -1433,15 +1433,15 @@
       "title": "我離你那邊還有五分鐘",
       "family": "social",
       "styles": [
-        "continue",
         "audio",
-        "final",
         "explain",
         "tone",
-        "rewrite"
+        "rewrite",
+        "continue",
+        "final"
       ],
       "sourceSha256": "5795f187b3af12c7dd526346925f0309aa513dc364595e44bf73c40487429215",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 106,
@@ -1449,15 +1449,15 @@
       "title": "忙一忙忘記時間了",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
+        "detail",
+        "repair",
         "transfer",
         "scene",
-        "detail",
-        "audio",
-        "repair"
+        "final"
       ],
       "sourceSha256": "207ac1cc825644febdfd22af98e21edd536bdd64b8873a37fbc0b2c9d84eefa8",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 107,
@@ -1465,15 +1465,15 @@
       "title": "雖然遲了，但總比沒來好",
       "family": "action",
       "styles": [
-        "transfer",
         "audio",
+        "detail",
         "branch",
         "repair",
-        "detail",
-        "explain"
+        "explain",
+        "transfer"
       ],
       "sourceSha256": "2c871f69c75efe46991f95c02a08156f64207d7116e456f1e5ad4d1fe197f72a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 108,
@@ -1481,15 +1481,15 @@
       "title": "被紙割傷",
       "family": "object",
       "styles": [
-        "reverse",
-        "contrast",
         "audio",
+        "contrast",
+        "reverse",
+        "speak",
         "detail",
-        "final",
-        "speak"
+        "final"
       ],
       "sourceSha256": "c8b6e9d0316b7f4522d0fd25797d180970f0856a1fdd47c865b4d737e4a1a33c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 109,
@@ -1497,15 +1497,15 @@
       "title": "整晚翻來覆去",
       "family": "action",
       "styles": [
-        "speak",
+        "audio",
         "explain",
-        "final",
         "branch",
+        "speak",
         "continue",
-        "audio"
+        "final"
       ],
       "sourceSha256": "66bd1fd101245ecae80260e5fa69b4478a65f2408dcec26734010f4f412228ac",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 110,
@@ -1513,15 +1513,15 @@
       "title": "熬一整晚沒睡",
       "family": "action",
       "styles": [
-        "final",
+        "audio",
         "scene",
         "repair",
-        "audio",
+        "speak",
         "branch",
-        "speak"
+        "final"
       ],
       "sourceSha256": "bb5e8874cabc0c80640b27d7433a6f54372eb8474042b376126b2a04df961e32",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 111,
