@@ -59,3 +59,9 @@ The detailed treatment uses a rabbit in the header, an illustrated maple leaf be
 The four stages have distinct content layouts inside the same shell: formula and examples use large framed blocks; benefits use numbered horizontal rows; important rules use numbered parchment strips with five illustrated tags; and exercises use clean parchment question cards in a timber frame. Never reintroduce decorative scene cards, checkpoint banners, or a second lesson trail within these pages.
 
 At 820px and 390px widths, collapse the stepper and content rows without horizontal scrolling. Respect reduced motion. Validate representative levels 31, 45 and 60, all four pages, all 50 exercise cards, the 180-level map, and the existing Eddy journey before release.
+
+## Exercise journey for levels 31–60
+
+Page 4 now uses the same question-bound journey module as levels 1–30. Each of the 50 question wrappers owns one platform, while one preserved Eddy actor moves vertically between them and reacts to the active answer. The autumn platform CSS reuses the exact `stone.webp` log from the realm map; `exercise-log-trail.svg` repeats a curved, textured earth trail behind the log column. The road and logs are CSS backgrounds so grading cannot remove them through image-element replacement. Numbers and answers remain live DOM text.
+
+Keep the route geometry, actor contact line, slow walk timing, preserved actor on rerender, stable top-anchored platforms, scroll restoration, keyboard handling and pending-write safety in `sentence-structure-exercise-journey.mjs` and `sentence-structure.js`. Only the themed path and platform backgrounds change. Run both `tools/test-sentence-structure-eddy-journey.cjs` and `tools/test-sentence-structure-autumn-journey.cjs` when extending the journey or its layout.

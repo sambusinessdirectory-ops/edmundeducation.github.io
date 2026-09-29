@@ -33,7 +33,7 @@ function preloadReactionAssets() {
 
 export function sentenceJourneyEnabled(lesson) {
   const order = Number(lesson?.order || 0);
-  return order >= 1 && order <= 30 && lesson?.questions?.length === 50;
+  return order >= 1 && order <= 60 && lesson?.questions?.length === 50;
 }
 
 export function sentenceJourneyPlatformHtml(number, status = "pending") {
