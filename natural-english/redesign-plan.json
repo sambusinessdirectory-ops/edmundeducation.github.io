@@ -783,15 +783,15 @@
       "title": "綁頭髮的髮圈",
       "family": "object",
       "styles": [
-        "explain",
         "audio",
         "scene",
         "contrast",
+        "explain",
         "speak",
         "final"
       ],
       "sourceSha256": "b2c39fe006e7ca2afc3041a43736468f92d3796c1e6322390f8002fdaa90be2c",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 62,
@@ -799,15 +799,15 @@
       "title": "棉花棒",
       "family": "object",
       "styles": [
+        "audio",
+        "detail",
+        "contrast",
         "speak",
         "repair",
-        "detail",
-        "audio",
-        "contrast",
         "transfer"
       ],
       "sourceSha256": "528872183cfc0c4912112c757f4479ff05e3b901fd44b59314f6dfce7d172ba0",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 63,
@@ -815,15 +815,15 @@
       "title": "指甲剪",
       "family": "object",
       "styles": [
-        "reverse",
-        "explain",
-        "repair",
-        "contrast",
         "audio",
+        "explain",
+        "contrast",
+        "reverse",
+        "repair",
         "final"
       ],
       "sourceSha256": "afffaa6502f21a515e9448cf63e4b81be4bb51220d1206483663f3757c2980c9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 64,
@@ -831,15 +831,15 @@
       "title": "瓦斯爐其中一個爐頭",
       "family": "object",
       "styles": [
-        "tone",
         "audio",
-        "transfer",
-        "final",
         "scene",
-        "speak"
+        "tone",
+        "speak",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "dbf470b3fea62d1a39adf7afc4cc432b343343bb0753e039ad08d7393d9c6c04",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 65,
@@ -847,15 +847,15 @@
       "title": "紅酒開瓶器",
       "family": "object",
       "styles": [
-        "speak",
-        "repair",
-        "explain",
-        "detail",
         "audio",
-        "reverse"
+        "detail",
+        "explain",
+        "reverse",
+        "speak",
+        "repair"
       ],
       "sourceSha256": "5c4251d66f9ce0b0d0b89bec6aebe24e03038fc0291f7c2765c0db1933421461",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 66,
