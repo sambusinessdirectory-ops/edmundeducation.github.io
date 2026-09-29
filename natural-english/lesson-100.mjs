@@ -14,8 +14,8 @@ const questions=[
     ['把新回覆告訴你。','故意只重複幾天前的猜測。','把訊息刪掉並說沒有消息。','等你猜出結果才確認。'],
     '把新回覆告訴你。','Will do 回應了 Keep me posted；真正有新進展時便應把消息告訴對方。'),
   mc('native-100-v2-transfer','transfer','你正等快遞公司的調查結果，想請客服有進展時更新你。哪句清楚、也較適合這個場合？',
-    ['Please let me know when you have an update.','Forget this case forever.','Tell me the same status every minute.','Please do not contact me again.'],
-    'Please let me know when you have an update.','正式一點的場合，可直接說 let me know when you have an update；意思仍是有新消息時告訴你。'),
+    ['Please let me know when you have an update.','Could you send me the current case number?','When did you last contact the courier?','Can you close the case for me today?'],
+    'Please let me know when you have an update.','四句都可能出現在客服對話，但只有這句請對方在出現新進展時通知你。'),
   open('native-100-v2-writing','scene','最後情境：朋友正在替你問一間店有沒有補貨；他說明天下午才會收到答覆。用兩句英文回應：先謝謝他，再請他一有消息就告訴你。',
     ["Thanks for checking. Keep me posted when you hear back.","Thanks for asking them. Let me know as soon as they reply.","I appreciate it. Please keep me posted about the restock."],
     '先承接朋友願意幫忙，再要求有更新時通知；不把「明天下午才有答覆」改成催他現在回覆。')
