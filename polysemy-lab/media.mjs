@@ -50,10 +50,47 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
  function stop(){epoch++;voice?.pause();voice=null;dispose();dispose=()=>{};document.querySelectorAll('[data-library] audio').forEach(a=>a.pause());urls.forEach(u=>URL.revokeObjectURL(u));urls=[];}
  async function upload(item){const user=getUser();if(user?.id!==item.owner)throw Error('請重新登入。');const token=user.token;const audio=await new Promise((resolve,reject)=>{const f=new FileReader();f.onload=()=>resolve(f.result.split(',')[1]);f.onerror=reject;f.readAsDataURL(item.blob);});await rpc('polysemy_lab_modules_recording',{p_token:token,p_action:'save',p_payload:{id:item.id,module:item.module||'show',question:item.question,mime:item.blob.type.split(';')[0],audio}});item.synced=true;try{await storeRecording(item);}catch{}}
  async function save(blob,question,owner,module){if(blob.size>2097152)throw Error('錄音超過 2 MB，請縮短後再試。');const item={id:crypto.randomUUID(),owner,module,question,blob,at:new Date().toISOString(),synced:false};rememberRecording(item);let cached=false;try{await storeRecording(item);cached=true;}catch{}try{await upload(item);return true;}catch{if(cached)return false;throw Error('未能儲存至帳戶或此裝置，請保持本頁並重試。');}}
- function controls(host,q){const module=getModule().id;const owner=getUser()?.id;if(!owner)return;host.innerHTML='<div class="media-actions"><button data-listen>聽示範</button><button data-open-recorder>錄音朗讀</button></div><p data-audio-status role="status"></p><section class="recorder" hidden></section>';const message=host.querySelector('[data-audio-status]');let playing=false;
- const listen=host.querySelector('[data-listen]'),isMass=!!getModule().mass;manifest(isMass).then(rows=>{if(host.isConnected&&!rows[q.id]){listen.disabled=true;listen.textContent='示範音訊準備中';message.textContent='此句的預錄示範音訊稍後提供。';}}).catch(()=>{if(host.isConnected)message.textContent='暫時未能取得示範音訊。';});
- host.querySelector('[data-listen]').onclick=async e=>{if(playing){voice?.pause();playing=false;e.currentTarget.textContent='聽示範';return;}const button=e.currentTarget,gen=epoch;let unavailable=false;button.disabled=true;message.textContent='正在載入…';try{const row=(await manifest(isMass))[q.id];if(gen!==epoch||getUser()?.id!==owner||!host.isConnected||document.hidden){message.textContent='';return;}if(!row){unavailable=true;button.textContent='示範音訊準備中';message.textContent='此句的預錄示範音訊稍後提供。';return;}voice?.pause();voice=new Audio(new URL(row.path,import.meta.url));const clip=voice;clip.onended=()=>{playing=false;button.textContent='聽示範';};clip.onerror=()=>{playing=false;button.textContent='聽示範';message.textContent='音訊未能載入，請再試。';};await clip.play();if(gen!==epoch){clip.pause();return;}playing=true;button.textContent='暫停示範';message.textContent='';}catch{message.textContent='音訊未能載入，請再試。';}finally{button.disabled=unavailable;}};
- host.querySelector('[data-open-recorder]').onclick=e=>{voice?.pause();playing=false;if(!host.querySelector('[data-listen]').disabled)host.querySelector('[data-listen]').textContent='聽示範';const panel=host.querySelector('.recorder');panel.hidden=false;e.currentTarget.hidden=true;dispose=mountRecorder(panel,{key:questionKey(owner,module,q.id),companion:getCompanion(),loadRecording:()=>restoreRecording(owner,module,q.id),onRecorded:blob=>save(blob,q.id,owner,module),onSkip:()=>{dispose();dispose=()=>{};panel.hidden=true;host.querySelector('[data-open-recorder]').hidden=false;}});};
+ function controls(host,q){
+  const module=getModule().id,owner=getUser()?.id,isMass=!!getModule().mass;
+  if(!owner)return;
+  host.innerHTML='<div class="media-actions"><button data-listen disabled>正在準備示範音訊</button><button data-open-recorder>錄音朗讀</button></div><p data-audio-status role="status"></p><section class="recorder" hidden></section>';
+  const listen=host.querySelector('[data-listen]'),message=host.querySelector('[data-audio-status]');
+  let readyPath='',playing=false,loading=false;
+  function loadAudio(){
+   if(loading)return;
+   loading=true;listen.disabled=true;listen.textContent='正在準備示範音訊';message.textContent='';
+   manifest(isMass).then(rows=>{
+    if(!host.isConnected||getUser()?.id!==owner)return;
+    const row=rows[q.id];
+    if(!row){listen.textContent='示範音訊準備中';message.textContent='此句的預錄示範音訊稍後提供。';return;}
+    readyPath=new URL(row.path,import.meta.url).href;
+    listen.disabled=false;listen.textContent='聽示範';
+   }).catch(()=>{
+    if(!host.isConnected)return;
+    listen.disabled=false;listen.textContent='重試載入示範音訊';
+    message.textContent='暫時未能取得示範音訊，請重試。';
+   }).finally(()=>{loading=false;});
+  }
+  loadAudio();
+  listen.onclick=()=>{
+   if(!readyPath){loadAudio();return;}
+   if(playing){voice?.pause();playing=false;listen.textContent='聽示範';return;}
+   voice?.pause();
+   const gen=epoch,clip=new Audio(readyPath);
+   voice=clip;
+   clip.onended=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent='聽示範';};
+   clip.onerror=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent='聽示範';message.textContent='音訊未能載入，請再試。';};
+   // Keep play() inside the tap handler: Safari can drop audio permission after an await.
+   let started;
+   try{started=clip.play();}catch(error){message.textContent=error?.name==='NotAllowedError'?'請再次點按「聽示範」播放。':'音訊未能載入，請再試。';return;}
+   playing=true;listen.textContent='暫停示範';message.textContent='';
+   Promise.resolve(started).catch(error=>{
+    if(gen!==epoch||clip!==voice||!host.isConnected)return;
+    playing=false;listen.textContent='聽示範';
+    message.textContent=error?.name==='NotAllowedError'?'請再次點按「聽示範」播放。':'音訊未能載入，請再試。';
+   });
+  };
+  host.querySelector('[data-open-recorder]').onclick=e=>{voice?.pause();playing=false;if(!listen.disabled)listen.textContent='聽示範';const panel=host.querySelector('.recorder');panel.hidden=false;e.currentTarget.hidden=true;dispose=mountRecorder(panel,{key:questionKey(owner,module,q.id),companion:getCompanion(),loadRecording:()=>restoreRecording(owner,module,q.id),onRecorded:blob=>save(blob,q.id,owner,module),onSkip:()=>{dispose();dispose=()=>{};panel.hidden=true;host.querySelector('[data-open-recorder]').hidden=false;}});};
  }
  async function library(host){
   stop();
