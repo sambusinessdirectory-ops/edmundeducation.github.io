@@ -1,3 +1,5 @@
+import { cosmeticAtlas, cosmeticsState, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260928-independent-avatars1';
+
 let activeQuestionId = "";
 let motionTimer = 0;
 let reactionTimer = 0;
@@ -5,13 +7,71 @@ let positionFrame = 0;
 let positionObserver = null;
 let reactionSequence = 0;
 const reactionAssets = new Map();
+const journeyTops = new Set(['cream-cable-knit', 'charcoal-turtleneck', 'blue-swordsman-jacket', 'brown-leather-bomber', 'sunburst-hoodie', 'black-blazer-hoodie', 'olive-plain-tee']);
+let cosmeticsBound = false;
+let standingBase = null;
+let blinkingBase = null;
 const REACTION_ASSET_URLS = {
   jump: new URL("assets/sentence-structure/exercise-eddy/eddy-jump-v3.webp", import.meta.url).href,
   encourage: new URL("assets/sentence-structure/exercise-eddy/eddy-encourage-v2.webp", import.meta.url).href
 };
 
+function outfitKey() {
+  const saved = cosmeticsState().savedEquipment;
+  const top = journeyTops.has(saved.eddyTop) ? saved.eddyTop : '';
+  const hat = saved.eddyHeadwear === 'white-fedora';
+  return top && hat ? `${top}-white-fedora` : top || (hat ? 'white-fedora' : '');
+}
+
+function journeyAsset(kind, outfit = outfitKey()) {
+  return outfit
+    ? new URL(`assets/sentence-structure/exercise-eddy/eddy-${outfit}-${kind}-v1.webp`, import.meta.url).href
+    : kind === 'walk'
+      ? new URL('assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp', import.meta.url).href
+      : REACTION_ASSET_URLS[kind];
+}
+
+function ensureStandingBase() {
+  if (standingBase || typeof Image !== 'function') return;
+  standingBase = new Image();
+  blinkingBase = new Image();
+  standingBase.onload = syncJourneyOutfit;
+  blinkingBase.onload = syncJourneyOutfit;
+  standingBase.src = new URL('assets/speaking-system/mascots/v4/eddy-standing.png', import.meta.url).href;
+  blinkingBase.src = new URL('assets/speaking-system/mascots/v4/eddy-blink.png', import.meta.url).href;
+}
+
+function syncJourneyOutfit() {
+  if (typeof document === 'undefined') return;
+  const outfit = outfitKey();
+  for (const actor of document.querySelectorAll('[data-sentence-journey-eddy]')) {
+    for (const kind of ['walk', 'jump', 'encourage']) {
+      const property = `--eddy-${kind}-image`;
+      if (outfit) actor.style.setProperty(property, `url("${journeyAsset(kind, outfit)}")`);
+      else actor.style.removeProperty(property);
+    }
+    for (const [kind, base] of [['standing', standingBase], ['blink', blinkingBase]]) {
+      const property = `--eddy-${kind}-image`;
+      if (!outfit || !base?.complete || !base.naturalWidth) { actor.style.removeProperty(property); continue; }
+      const fitted = cosmeticAtlas('eddy', base);
+      if (fitted === base) { actor.style.removeProperty(property); continue; }
+      actor.style.setProperty(property, `url("${fitted.toDataURL('image/png')}")`);
+    }
+    actor.dataset.outfit = outfit;
+  }
+  preloadReactionAssets();
+}
+
+function bindCosmetics() {
+  if (cosmeticsBound) return;
+  cosmeticsBound = true;
+  ensureStandingBase();
+  subscribeCosmetics(syncJourneyOutfit);
+}
+
 function preloadReactionAsset(kind) {
-  if (reactionAssets.has(kind)) return reactionAssets.get(kind);
+  const url = journeyAsset(kind);
+  if (reactionAssets.has(url)) return reactionAssets.get(url);
   const promise = new Promise((resolve) => {
     if (typeof globalThis.Image !== "function") return resolve(true);
     const image = new Image();
@@ -20,9 +80,9 @@ function preloadReactionAsset(kind) {
       resolve(true);
     };
     image.onerror = () => resolve(false);
-    image.src = REACTION_ASSET_URLS[kind];
+    image.src = url;
   });
-  reactionAssets.set(kind, promise);
+  reactionAssets.set(url, promise);
   return promise;
 }
 
@@ -89,9 +149,12 @@ function scheduleStablePosition(list, actor) {
   });
 }
 
-export function mountSentenceJourney(root) {
+export function mountSentenceJourney(root, ownerId) {
   const { list, actor } = journeyElements(root);
   if (!list || !actor) return;
+  bindCosmetics();
+  void restoreCosmetics(ownerId);
+  syncJourneyOutfit();
   preloadReactionAssets();
   let stop = stopFor(list, activeQuestionId);
   if (!stop) stop = list.querySelector("[data-eddy-stop]:not([data-stop-status='correct'])") || list.querySelector("[data-eddy-stop]");

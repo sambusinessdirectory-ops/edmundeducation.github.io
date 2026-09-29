@@ -149,7 +149,7 @@ window.journeyTest = {
           platformTop: platformBox.top - listBox.top,
           feetGap: Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48)),
           visibility: getComputedStyle(currentActor).visibility,
-          standingLayerPainted: getComputedStyle(currentActor.querySelector('.sentence-journey-eddy-sprite')).backgroundImage.includes('eddy-standing.png'),
+          standingLayerPainted: getComputedStyle(currentActor.querySelector('.sentence-journey-eddy-sprite')).backgroundImage !== 'none',
           reactionLayerCount: currentActor.querySelectorAll('.sentence-journey-eddy-action').length,
           platformCount: document.querySelectorAll('.sentence-journey-platform').length,
           paintedPlatforms: [...document.querySelectorAll('.sentence-journey-platform')].filter((node) => getComputedStyle(node).backgroundImage.includes('coast-platform.webp')).length
@@ -166,7 +166,7 @@ window.journeyTest = {
   assert.ok(gradingFrames.every((frame) => Math.abs(frame.platformTop - beforeGradeGeometry.platformTop) < 1), 'Card expansion never changes the active platform coordinate');
   assert.ok(gradingFrames.every((frame) => frame.feetGap < 4), `Eddy remains planted on the active platform throughout the grading rerender: ${JSON.stringify(gradingFrames)}`);
   assert.ok(gradingFrames.every((frame) => frame.visibility === 'visible'), 'Eddy is visible only after a final platform position is applied');
-  assert.ok(gradingFrames.every((frame) => frame.standingLayerPainted && frame.reactionLayerCount === 2), `A painted standing Eddy remains underneath both permanently loaded reaction layers: ${JSON.stringify(gradingFrames)}`);
+  assert.ok(gradingFrames.every((frame) => frame.standingLayerPainted && frame.reactionLayerCount === 2), `A painted Eddy sprite remains underneath both permanently loaded reaction layers: ${JSON.stringify(gradingFrames)}`);
   assert.ok(gradingFrames.every((frame) => frame.platformCount === 50 && frame.paintedPlatforms === 50), 'All fifty CSS-painted platforms remain visible throughout grading');
   await page.waitForFunction(() => document.querySelector('[data-eddy-stop][data-question-number="12"] .question-card')?.classList.contains('is-correct'));
   await page.waitForTimeout(240);
@@ -215,8 +215,20 @@ window.journeyTest = {
   await page.evaluate(() => journeyTest.openLesson('ss61', { page: 4 }));
   await page.waitForFunction(() => journeyTest.state.lessonId === 'ss61' && journeyTest.state.lessonPage === 4);
   assert.equal(await page.locator('.sentence-journey-stop').count(), 0, 'Journey remains scoped to modules 1–60');
+  await page.evaluate(() => localStorage.setItem('edmund-eddy-wardrobe-v1:eddy-fixture', JSON.stringify({ equipped: { eddyTop: 'olive-plain-tee', eddyHeadwear: 'white-fedora' }, outfits: [] })));
+  await page.reload();
+  await page.waitForFunction(() => window.journeyTest);
+  await page.evaluate(async () => { await journeyTest.login(); await journeyTest.openLesson('ss1', { page: 4 }); });
+  const dressed = page.locator('[data-sentence-journey-eddy]');
+  await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]')?.dataset.outfit === 'olive-plain-tee-white-fedora');
+  assert.match(await dressed.locator('.sentence-journey-eddy-jump').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-olive-plain-tee-white-fedora-jump-v1\.webp/);
+  assert.match(await dressed.locator('.sentence-journey-eddy-encourage').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-olive-plain-tee-white-fedora-encourage-v1\.webp/);
+  await dressed.screenshot({ path: path.join(out, 'eddy-journey-dressed-idle.png') });
+  const dressedInputs = page.locator('[data-answer-input]');
+  await dressedInputs.nth(2).focus();
+  assert.match(await dressed.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-olive-plain-tee-white-fedora-walk-v1\.webp/);
   assert.deepEqual(errors, []);
-  console.log(`PASS: 50-platform Eddy journey rendered in ${Math.round(exerciseLoadMs)}ms; movement, reactions, module scope and responsive layout passed`);
+  console.log(`PASS: 50-platform Eddy journey rendered in ${Math.round(exerciseLoadMs)}ms; movement, reactions, saved clothing, module scope and responsive layout passed`);
 })().catch((error) => {
   console.error(error);
   process.exitCode = 1;
