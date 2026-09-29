@@ -1508,7 +1508,7 @@ function renderFormulaPage(lesson) {
     .filter((line) => String(line || "").trim());
   elements.lessonContent.innerHTML = `<article class="info-page seaside-formula-page">
     ${infoPageHeader(1, "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
-    <section class="formula-card">
+    <section class="formula-card${examples.filter((example) => example?.english || example?.en || example?.answer).length === 1 ? " single-example" : ""}">
       <span class="formula-label">FORMULA · 句型公式</span>
       <div class="formula-display">${formulaRows.filter((row) => row?.formula || typeof row === "string").map((row) => {
         const formula = typeof row === "string" ? row : row.formula;

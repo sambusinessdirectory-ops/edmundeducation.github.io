@@ -20,6 +20,14 @@ Use case: isolated transparent storybook cutouts. Production assets: `maple-leaf
 
 All ornaments are painted watercolor/gouache illustrations with real alpha transparency. CSS positions them as decoration; all lesson text and numbers remain DOM content.
 
+## Lesson memo tags, step medallion, and sign
+
+Use case: isolated transparent storybook cutouts for the level 31–60 lesson UI. Production assets are `rule-memo-maple.webp`, `rule-memo-pinecone.webp`, `rule-memo-berries.webp`, `rule-memo-ginkgo.webp`, `rule-memo-oak.webp`, `step-medallion.webp`, and `wooden-sign.webp`.
+
+The five rule tags use the same aged blank parchment memo shape and a different seasonal plant at the upper-left edge: copper maple with acorn; olive oak with pinecone; red berries with rust leaf; gold ginkgo with twigs; and russet oak with acorn. Each has a pin/twig attachment, worn irregular edges, and clear center for a live two-digit HTML number. The transparent margin around each composition remains part of the asset so the foliage is never clipped.
+
+The step marker is a circular carved wood slice with bark rim, fine gold trim, autumn forest scenery, a quiet blank center for the live 1–4 or completion check, and a tiny copper leaf on the rim. The exercise sign is a wide blank honey-oak board with a dark carved edge, natural grain, and two antique brass corner studs; its title, instructions and progress are live HTML. All these assets were created with ImageGen without embedded text or numbers. Keep the transparent backgrounds, and position text inside the clear areas at desktop and mobile widths.
+
 ## Background generation
 
 Use case: illustration-story. Asset type: production game environment background, no UI.
