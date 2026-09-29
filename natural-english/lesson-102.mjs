@@ -48,7 +48,7 @@ const steps=[
   ],audioOnly:true,questions:['native-102-v2-listen']},
   {id:'native-102-v2-contrast',label:'比較分寸',title:'還不錯、勉強撐住、好得不得了',intro:'三種心情都可能出現在近況問候，但英文回應不能混用。',questions:['native-102-v2-contrast-hard','native-102-v2-contrast-great']},
   {id:'native-102-v2-build',label:'自己組句',title:'先回答，再交代原因',intro:'換到新工作的情境。先從記憶說出表達，再補上一句具體細節。',questions:['native-102-v2-build','native-102-v2-detail']},
-  {id:'native-102-v2-speak',label:'開口回應',title:'聽完，換你即時回答',intro:'想像同事問 How’s the new job? 聽完示範後，不看文字，錄下自己的回應，最好加一句原因。錄音可選擇跳過。',model:'Can’t complain.',zh:'還不錯。',audioOnly:true,speakingPrompt:'想像同事問 How’s the new job? 用自己的聲音回答，再加一句原因。錄音是自我練習，不會被自動評為發音正確。',recording:'dialogue',questions:[]},
+  {id:'native-102-v2-speak',label:'開口回應',title:'換你即時回答',intro:'想像同事問 How’s the new job? 先不看示範，用自己的聲音回答，最好加一句原因。錄音可選擇跳過。',model:'Can’t complain.',zh:'還不錯。',audioOnly:true,speakingPrompt:'想像同事問 How’s the new job? 用自己的聲音回答，再加一句原因。錄音是自我練習，不會被自動評為發音正確。',recording:'dialogue',questions:[]},
   {id:'native-102-v2-neutral',label:'第二種答法',title:'I’m okay 和 Can’t complain 差在哪？',intro:'只聽另一個自然回應，判斷它與本課主句的語氣差別。',model:'I’m okay.',zh:'我還可以。',audioOnly:true,questions:['native-102-v2-neutral']},
   {id:'native-102-v2-dialogue',label:'接住對話',title:'問回對方，也要聽懂對方',intro:'先聽一段較長的閒聊，再選擇合適的接話方式。',model:'Hey! How have you been? Can’t complain. How about you? Pretty good. Just busy with work.',zh:'嘿！最近怎樣？還不錯。你呢？挺好的，只是工作有點忙。',dialogue:[
     {speaker:'A',en:'Hey! How have you been?',zh:'嘿！最近怎樣？'},
