@@ -1,0 +1,12 @@
+import {session} from './learning-state.mjs?v=20260916-ui-polish1';
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let mounted=false;
+async function initialise(){
+ if(mounted||!document.querySelector('#root .course-section')||!session()?.user?.id)return;
+ mounted=true;const owner=session().user.id;const page=document.createElement('main');page.className='pro-practice-page situation-page';document.body.classList.add('pro-dialogue-open','syn-page-open');document.body.append(page);
+ try{const response=await fetch('./content/situation-cards.json?v=20260930-lesson5');if(!response.ok)throw Error();const data=await response.json();let active=Math.max(1,Math.min(5,Number(new URLSearchParams(location.search).get('lesson'))||1));
+ const render=()=>{if(session()?.user?.id!==owner)return;const lesson=data.lessons.find(l=>l.lesson===active);page.innerHTML=`<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a><a href="./synonyms.html">同義詞練習</a></header><section class="syn-intro"><small>PROFESSIONAL ENGLISH · SITUATION CARDS</small><h1>處境卡 (Situation Card) 答案</h1><p>選擇課堂，打開處境卡閱讀完整對話。</p></section><nav class="situation-tabs" aria-label="選擇課堂">${data.lessons.map(l=>`<a href="?lesson=${l.lesson}" data-lesson="${l.lesson}" class="${l.lesson===active?'active':''}">第 ${l.lesson} 課</a>`).join('')}</nav><section class="syn-section"><h2>第 ${lesson.lesson} 課 · ${esc(lesson.title)}</h2><p>${lesson.cards.length} 張處境卡</p>${lesson.cards.map(card=>`<details class="situation-card"><summary>處境卡 ${card.number} · ${esc(card.title)}</summary><div class="situation-chat">${card.turns.map((turn,i)=>`<article class="situation-turn ${/Security/.test(turn.role)?'security':''}"><strong>${i+1}. ${esc(turn.role)}</strong><p lang="en">${esc(turn.en)}</p></article>`).join('')}</div></details>`).join('')}</section>`;};
+ page.addEventListener('click',event=>{const link=event.target.closest('[data-lesson]');if(!link||session()?.user?.id!==owner)return;event.preventDefault();active=Number(link.dataset.lesson);history.pushState(null,'',`?lesson=${active}`);render();window.scrollTo({top:0,behavior:'smooth'});});window.addEventListener('popstate',()=>{active=Math.max(1,Math.min(5,Number(new URLSearchParams(location.search).get('lesson'))||1));render();});render();
+ }catch{page.innerHTML='<p role="alert">處境卡暫時未能載入。請重新整理頁面。</p>';}
+}
+new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

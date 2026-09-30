@@ -215,7 +215,7 @@ if (typeof document !== 'undefined' && document.body.dataset.professionalDialogu
   async function initialise(){
     // The existing course app authenticates the student before rendering this node.
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
-    try{const response=await fetch('./dialogue-audio.json?v=20260922-whatsapp1');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json(),teachingHighlights:await fetch('./content/dialogue-highlights.json?v=20260916-ui-polish1').then(r=>r.json()).catch(()=>({}))});}
+    try{const response=await fetch('./dialogue-audio.json?v=20260930-lesson5');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json(),teachingHighlights:await fetch('./content/dialogue-highlights.json?v=20260916-ui-polish1').then(r=>r.json()).catch(()=>({}))});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='對話未能載入。';const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

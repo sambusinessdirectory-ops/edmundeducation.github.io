@@ -54,6 +54,10 @@ jobs:
           node --check professional-english/reader.mjs
           node --check professional-english/library.mjs
           node tools/test-professional-lesson5.mjs
+          node tools/test-professional-lesson5-exercises.mjs
+          node --check professional-english/dialogue-practice.mjs
+          node --check professional-english/synonyms-practice.mjs
+          node --check professional-english/situation-cards.mjs
 
       - name: Validate focused Italian lesson release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[italian-release]') }}

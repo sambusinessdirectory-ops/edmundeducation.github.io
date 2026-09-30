@@ -83,7 +83,7 @@
   }
   function lessonMarkup() {
     return `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · DIALOGUE PRACTICE</span><h3>情境英語填充練習</h3><p>先聆聽完整對話及查看中文翻譯，再選擇練習模式。每行為同一情境，左邊是初階版本，右邊是專業版本。</p></div><strong>${dialogs.length} dialogues</strong></div>
-      <div class="pro-lesson-grid">${[1,2,3,4].map(lesson=>`<section class="pro-lesson-card" data-dialogue-lesson="${lesson}"><span>0${lesson}</span><h4>${({1:'第一課：基本互動',2:'第二課：進階互動',3:'第三課：投訴處理與冷靜回應',4:'第四課：電話英語、訊息記錄及確認聯絡'})[lesson]}</h4><p>${({1:'Class 1 · Basic Interaction',2:'Class 2 · Advanced Interactions',3:'Class 3 · Complaint Handling and Calm Response',4:'Class 4 · Telephone English, Message Taking and Confirmation Calls'})[lesson]}</p>${lessonDialogues(lesson)}${lesson===4?`<a class="pro-dialogue-link pro-material-link" href="./library.html?view=materials&lesson=4"><b>第四課教材 · Lesson 4 materials</b><span>查看 PDF 及課文</span><small>Flash cards · WhatsApp · PDF · Polysemy</small></a>`:""}</section>`).join('')}</div>`;
+      <div class="pro-lesson-grid">${[1,2,3,4,5].map(lesson=>`<section class="pro-lesson-card" data-dialogue-lesson="${lesson}"><span>0${lesson}</span><h4>${({1:'第一課：基本互動',2:'第二課：進階互動',3:'第三課：投訴處理與冷靜回應',4:'第四課：電話英語、訊息記錄及確認聯絡',5:'第五課：緊急及突發事件應對'})[lesson]}</h4><p>${({1:'Class 1 · Basic Interaction',2:'Class 2 · Advanced Interactions',3:'Class 3 · Complaint Handling and Calm Response',4:'Class 4 · Telephone English, Message Taking and Confirmation Calls',5:'Class 5 · Emergency and Unexpected Incidents Response'})[lesson]}</p>${lessonDialogues(lesson)}${lesson===5?`<a class="pro-dialogue-link pro-material-link" href="./library.html?view=materials&lesson=5"><b>第五課教材 · Lesson 5 materials</b><span>查看 PDF 及課文</span><small>Flash cards · PDF · Dialogues</small></a>`:''}${lesson===4?`<a class="pro-dialogue-link pro-material-link" href="./library.html?view=materials&lesson=4"><b>第四課教材 · Lesson 4 materials</b><span>查看 PDF 及課文</span><small>Flash cards · WhatsApp · PDF · Polysemy</small></a>`:""}</section>`).join('')}</div>`;
   }
 
   function enhanceCourse(course) {
@@ -105,9 +105,23 @@
       polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><div class="poly-lesson-grid">${[1,2,3,4].map(lesson=>`<a class="poly-landing-card" href="./polysemy.html${lesson===1?'':`?lesson=${lesson}`}" data-poly-lesson="${lesson}"><strong>第${['','一','二','三','四'][lesson]}課 · Lesson ${lesson}</strong><span data-poly-count="${lesson}">${({1:'16 個詞語 · 92 題練習',2:'13 個詞語 · 82 題練習',3:'32 個詞語 · 197 題練習',4:'36 個詞語 · 720 題練習'})[lesson]}</span><span>每個詞語最後一題為課文原句 · 開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>`).join('')}</div>`;
       practice.after(polysemy);
     }
+    let synonym = course.querySelector(":scope > .learning-panel--synonym");
+    if (!synonym && practice) {
+      synonym = document.createElement("section");
+      synonym.className = "learning-panel learning-panel--synonym learning-panel--practice-glow";
+      synonym.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · LESSON 5</span><h3>同義詞 (Synonym) - 一義多詞練習</h3></div></div><div class="poly-lesson-grid"><a class="poly-landing-card" href="./synonyms.html"><strong>第五課 · 8 組同義詞</strong><span>Danger · Situation · Avoid · Calm · Building · Assistance · Immediately · Nervous</span><span>224 題六選一練習 →</span></a></div>`;
+      practice.after(synonym);
+    }
+    let situation = course.querySelector(":scope > .learning-panel--situation");
+    if (!situation && synonym) {
+      situation = document.createElement("section");
+      situation.className = "learning-panel learning-panel--situation learning-panel--practice-glow";
+      situation.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · LESSONS 1–5</span><h3>處境卡 (Situation Card) 答案</h3></div></div><div class="poly-lesson-grid"><a class="poly-landing-card" href="./situation-cards.html"><strong>查看處境卡答案</strong><span>5 課 · 24 段完整對話</span><span>進入 →</span></a></div>`;
+      synonym.after(situation);
+    }
     let quick=course.querySelector(":scope > .quick-response-panel");
     if(!quick&&polysemy){quick=document.createElement('section');quick.className='learning-panel quick-response-panel';quick.innerHTML='<h3>Quick Response 快問快答</h3><p>選擇版本，準備練習即時回應。</p><a class="quick-response-link" href="./library.html?view=quick">進入快問快答 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>';polysemy.after(quick);}
-    const desired = [flash, high, practice, polysemy, quick, team, dashboards].filter(Boolean);
+    const desired = [flash, high, practice, synonym, situation, polysemy, quick, team, dashboards].filter(Boolean);
     const positions = desired.map(node => [...course.children].indexOf(node));
     if (positions.some((position, index) => index > 0 && position < positions[index - 1])) {
       desired.forEach(node => course.append(node));

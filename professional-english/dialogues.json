@@ -1728,6 +1728,566 @@
       ],
       "variant": "professional",
       "translationSource": "Lesson 4 source PDF"
+    },
+    {
+      "lesson": 5,
+      "id": "l5d1-beginner",
+      "title": "Fire Alarm — Evacuate Clearly, Do Not Use the Lift",
+      "titleZh": "火警疏散",
+      "variant": "beginner",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Visitor",
+          "en": "What is that alarm? Is there a fire?",
+          "zh": "那是甚麼警報？是不是發生火警？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "The fire alarm is sounding. Please stay calm and follow my instructions.",
+          "zh": "火警鐘正在響。請保持冷靜，跟從我的指示。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Can I take the lift down? I am on a high floor.",
+          "zh": "我可以乘升降機下去嗎？我在高層。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "No. Please do not use the lift. Use the nearest safe staircase instead.",
+          "zh": "不可以。請不要使用升降機，改用最近的安全樓梯。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Which way should I go?",
+          "zh": "我應該往哪邊走？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please follow the evacuation signs and go to the nearest safe staircase. Keep moving and do not run.",
+          "zh": "請依照疏散標誌前往最近的安全樓梯。繼續向前，切勿奔跑。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Can I go back to the office to get my laptop?",
+          "zh": "我可以返回辦公室拿手提電腦嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please do not go back. Continue evacuating and follow staff instructions.",
+          "zh": "請不要折返。繼續疏散，並跟從職員指示。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Where should I wait outside?",
+          "zh": "我到了室外應在哪裏等候？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please follow the building evacuation signs and staff directions to the designated assembly area. I cannot confirm re-entry until the building gives the all-clear.",
+          "zh": "請依照大廈疏散標誌及職員指示，前往指定集合地點。在大廈發出安全解除通知前，我不能確認何時可以重新進入。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d1-professional",
+      "title": "Fire Alarm — Evacuate Clearly, Do Not Use the Lift",
+      "titleZh": "火警疏散",
+      "variant": "professional",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Visitor",
+          "en": "Excuse me, the alarm has started. Is this an evacuation?",
+          "zh": "不好意思，警報響了。現在要疏散嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Yes. The fire alarm is sounding. Please remain calm and follow the evacuation instructions.",
+          "zh": "是的，火警鐘正在響。請保持冷靜，跟從疏散指示。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Can I use the lift to leave the building?",
+          "zh": "我可以乘升降機離開大廈嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I’m afraid not. For safety, please do not use the lift. Proceed by the nearest safe staircase.",
+          "zh": "抱歉，基於安全理由，請勿使用升降機。請經最近的安全樓梯離開。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Can you tell me which route to take?",
+          "zh": "可以告訴我應走哪條路線嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Certainly. Please follow the evacuation signage and staff directions to the nearest safe staircase. Walk quickly, but do not run.",
+          "zh": "當然可以。請依照疏散標誌及職員指示，前往最近的安全樓梯。快步行走，但不要奔跑。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "I left my laptop upstairs. Can I go back for it?",
+          "zh": "我的手提電腦留在樓上。我可以回去拿嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please do not return to the affected floor. Continue evacuating and keep the access route clear.",
+          "zh": "請勿返回受影響樓層。繼續疏散，並保持通道暢通。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Visitor",
+          "en": "Where do we go once we are outside?",
+          "zh": "我們到了室外應去哪裏？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please proceed to the designated assembly area as directed by staff. Re-entry can only be confirmed after the authorised team gives the all-clear.",
+          "zh": "請依照職員指示前往指定集合地點。只有獲授權團隊發出安全解除通知後，才能確認可以重新進入。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d2-beginner",
+      "title": "Medical Emergency — Get the Exact Location and Call for Help",
+      "titleZh": "醫療緊急情況",
+      "variant": "beginner",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Tenant",
+          "en": "Help, please. My colleague has collapsed near the lift lobby.",
+          "zh": "請幫忙。我的同事在升降機大堂附近倒下了。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I’m sorry to hear that. Which floor and which lift lobby are you at?",
+          "zh": "聽到這個消息我很難過。請問您在幾樓、哪個升降機大堂？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "22/F, Lift Lobby C, outside Suite 2205.",
+          "zh": "22 樓，C 座升降機大堂，2205 室外面。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Is the person awake and breathing?",
+          "zh": "謝謝。那人清醒嗎？有呼吸嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "He is breathing, but he is not responding to us.",
+          "zh": "他有呼吸，但對我們沒有反應。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. I’ll call for emergency assistance now. Please keep the area clear.",
+          "zh": "明白。我現在會要求緊急救援。請保持現場通道暢通。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Should we move him to a chair?",
+          "zh": "我們應該把他移到椅子上嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please do not move him unless there is immediate danger. Help is being arranged.",
+          "zh": "除非有即時危險，否則請不要移動他。正在安排支援。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "What should I do now?",
+          "zh": "我現在應該怎樣做？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Stay with him if it is safe, keep the access route clear, and tell me immediately if his condition changes.",
+          "zh": "如果安全，請留在他身旁，保持救援通道暢通；若他的情況有變，請立即告訴我。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d2-professional",
+      "title": "Medical Emergency — Get the Exact Location and Call for Help",
+      "titleZh": "醫療緊急情況",
+      "variant": "professional",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Tenant",
+          "en": "We need urgent help. One of my colleagues has collapsed near the lift lobby.",
+          "zh": "我們需要緊急協助。我的一位同事在升降機大堂附近倒下了。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I understand. May I confirm the exact floor, lift lobby and nearest suite number?",
+          "zh": "明白。請確認確切樓層、升降機大堂，以及最近的單位號碼。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "22/F, Lift Lobby C, outside Suite 2205.",
+          "zh": "22 樓，C 座升降機大堂，2205 室外面。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Is the person conscious, and are they breathing normally? Please tell me only what you can observe.",
+          "zh": "謝謝。那人是否清醒？呼吸是否正常？請只告訴我您親眼觀察到的情況。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "He is breathing, but he is unresponsive.",
+          "zh": "他有呼吸，但沒有反應。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. I’m requesting emergency assistance now and will give them your exact location. Please keep the access route clear.",
+          "zh": "明白。我現在要求緊急救援，並會提供您的確切位置。請保持救援通道暢通。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Should we move him away from the lift lobby?",
+          "zh": "我們應該把他移離升降機大堂嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please avoid moving him unless there is an immediate danger. The responding team will assess the situation on arrival.",
+          "zh": "除非有即時危險，否則請避免移動他。到場處理團隊會在抵達後評估情況。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Is there anything else you need from us?",
+          "zh": "您還需要我們提供甚麼資料嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please stay with him if it is safe to do so, keep the route clear, and update me immediately if there is any change in his condition.",
+          "zh": "如果安全，請留在他身旁，保持通道暢通；若他的情況有任何變化，請立即通知我。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d3-beginner",
+      "title": "Lift Entrapment — Reassure, Locate, Report, Stay in Contact",
+      "titleZh": "升降機困人",
+      "variant": "beginner",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Passenger",
+          "en": "Hello? The lift has stopped and the doors will not open.",
+          "zh": "喂？升降機停了，門打不開。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please stay calm. Which lift are you in? Can you see the lift number?",
+          "zh": "請保持冷靜。您在哪部升降機？看得到升降機編號嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "Lift H. It stopped between 17/F and 18/F.",
+          "zh": "H 號升降機。停在 17 樓和 18 樓之間。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. How many people are inside? Is anyone hurt or feeling unwell?",
+          "zh": "謝謝。裏面有多少人？有人受傷或感到不適嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "Three people. No one is hurt, but one person is very nervous.",
+          "zh": "三個人。沒有人受傷，但有一人非常緊張。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. Please do not force the doors open. Stay inside the lift.",
+          "zh": "明白。請不要強行打開門，留在升降機內。我現在會匯報困人事件，要求緊急協助。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "How long will it take to get us out?",
+          "zh": "我們要等多久才能出去？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I can’t confirm the time yet. I’ve reported the lift entrapment and asked for urgent assistance.",
+          "zh": "我暫時無法確認時間。我已匯報升降機困人，並要求緊急協助。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "Please don’t hang up.",
+          "zh": "請不要掛線。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I’ll stay in contact with you. Tell me immediately if anyone feels unwell or if anything changes.",
+          "zh": "我會與您保持聯絡。若有人感到不適或情況有變，請立即告訴我。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d3-professional",
+      "title": "Lift Entrapment — Reassure, Locate, Report, Stay in Contact",
+      "titleZh": "升降機困人",
+      "variant": "professional",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Passenger",
+          "en": "This is Lift H. The car has stopped between floors and the doors are not opening.",
+          "zh": "這裏是 H 號升降機。升降機停在樓層之間，門打不開。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. Please remain calm. May I confirm that you are in Lift H and it appears to have stopped between 17/F and 18/F?",
+          "zh": "明白。請保持冷靜。我想確認：您在 H 號升降機，而升降機似乎停在 17 樓和 18 樓之間，對嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "Yes, that is correct.",
+          "zh": "對，沒錯。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. How many passengers are inside, and is anyone injured or feeling unwell?",
+          "zh": "謝謝。裏面有多少名乘客？有人受傷或感到不適嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "There are three of us. No injuries, but one passenger is very anxious.",
+          "zh": "我們有三個人。沒有人受傷，但一名乘客非常焦慮。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for confirming. Please remain inside and do not attempt to force the doors open. I’m reporting the entrapment for urgent assistance now.",
+          "zh": "謝謝您確認。請留在升降機內，切勿嘗試強行打開門。我現在匯報困人事件，要求緊急協助。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "Can you tell us when the lift will be released?",
+          "zh": "可以告訴我們升降機何時會恢復、讓我們離開嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I’m unable to confirm a release time until the responsible team assesses the lift. I’ll update you as soon as I receive verified information.",
+          "zh": "在負責團隊評估升降機前，我無法確認解救時間。收到已核實的資料後，我會立即通知您。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Passenger",
+          "en": "Can you stay on the intercom with us?",
+          "zh": "您可以透過對講機與我們保持通話嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Yes. I’ll maintain contact. Please tell me immediately if anyone becomes unwell or if the situation changes.",
+          "zh": "可以，我會保持聯絡。若有人感到不適或情況有變，請立即通知我。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d4-beginner",
+      "title": "Suspicious Person in a Restricted Area",
+      "titleZh": "限制區域可疑人士",
+      "variant": "beginner",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Tenant",
+          "en": "Excuse me. There is someone I don’t recognise near the corridor. He keeps trying different doors.",
+          "zh": "不好意思，走廊附近有一個我不認識的人。他不停嘗試打開不同的門。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "I understand. Which floor and where exactly is the person?",
+          "zh": "明白。請問他在幾樓？確切位置在哪裏？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "18/F, near the rear service corridor beside the pantry.",
+          "zh": "18 樓，茶水間旁的後方服務走廊附近。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. What is the person doing now, and what do they look like?",
+          "zh": "謝謝。他現在在做甚麼？外貌和衣着如何？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "He is wearing a dark jacket and carrying a backpack. He is still trying door handles.",
+          "zh": "他穿深色外套，背着背囊，仍在嘗試轉動門把。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. Please keep a safe distance and do not approach him.",
+          "zh": "明白。請保持安全距離，不要走近他。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Should I ask him what he is doing?",
+          "zh": "我應該問他在做甚麼嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "No. Please don’t confront him. I’ll contact security / management now.",
+          "zh": "不要，請勿與他對質。我現在聯絡保安／管理團隊。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "All right. He is walking towards the service lift now.",
+          "zh": "好。他現在正走向服務升降機。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Please keep your distance and tell us if his location changes.",
+          "zh": "謝謝。請保持距離；如果他的位置有變，請通知我們。",
+          "voice": "american-female"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "id": "l5d4-professional",
+      "title": "Suspicious Person in a Restricted Area",
+      "titleZh": "限制區域可疑人士",
+      "variant": "professional",
+      "contentVersion": 1,
+      "lines": [
+        {
+          "role": "Tenant",
+          "en": "Excuse me. I’d like to report an unfamiliar person near a corridor. He appears to be trying several office doors.",
+          "zh": "不好意思，我想報告走廊附近有一名陌生人。他似乎正在嘗試打開幾道辦公室門。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for letting us know. May I confirm the exact floor and corridor location first?",
+          "zh": "謝謝您通知我們。請先確認確切樓層和走廊位置。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "18/F, at the rear service corridor beside the pantry, near the staff-only access door.",
+          "zh": "18 樓，在茶水間旁的後方服務走廊，靠近只准職員進入的門。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Could you describe only what you can observe — what the person is doing, their clothing, and where they are standing?",
+          "zh": "謝謝。請只描述您可觀察到的事：他在做甚麼、穿甚麼衣服，以及站在哪裏？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "He is wearing a dark jacket, carrying a black backpack, and is checking several door handles. He is still in the corridor.",
+          "zh": "他穿深色外套，背着黑色背囊，正在檢查幾道門的門把，現在仍在走廊。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. Please keep a safe distance and do not approach or confront the person. Stay in a secure area if possible.",
+          "zh": "明白。請保持安全距離，不要接近或與他對質；如有可能，請留在安全區域。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Should I speak to him or ask him to leave?",
+          "zh": "我應該與他交談，或請他離開嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please do not engage with him. I’ll report the exact location and description to the security / management team immediately.",
+          "zh": "請勿與他接觸。我會立即把確切位置和描述匯報給保安／管理團隊。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Understood. He has just started walking towards the service lift.",
+          "zh": "明白。他剛開始走向服務升降機。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for the update. Please continue to observe from a safe distance and let us know immediately if his location or behaviour changes. The responding team has been informed.",
+          "zh": "謝謝您更新情況。請在安全距離外繼續觀察；若他的位置或行為有變，請立即通知我們。已通知到場處理團隊。",
+          "voice": "american-female"
+        }
+      ]
     }
   ]
 }

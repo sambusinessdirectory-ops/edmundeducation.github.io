@@ -1692,5 +1692,565 @@
     "sourceSha256": "cdabbb62e6eee697c6c43dfccff7726c12e9a9db63914d2e83e19be3afab546d",
     "recipeSha256": "553e71e21c829f86a1ebccf33550b96f615c84af5fa7dad00739aaf28083f626",
     "duration": 10.32
+  },
+  "l5d1-beginner:0": {
+    "path": "audio/dialogues-v1/873dc76f1e04537e860a0a7c.mp3",
+    "voice": "british-male",
+    "sourceSha256": "b6ab763b2ed31eb38f46b118bfeb30a35e09c8b346064088de29ffc9db377c8d",
+    "recipeSha256": "873dc76f1e04537e860a0a7c475680874be1b4efee9785f0f8c769542530d8f7",
+    "duration": 2.952
+  },
+  "l5d1-beginner:1": {
+    "path": "audio/dialogues-v1/0e3a79b2865942e972288923.mp3",
+    "voice": "american-female",
+    "sourceSha256": "19138ffa72baa5aeb6269dca757b8b5dee5076d3a90f6f29d92e1c9997ec3ccb",
+    "recipeSha256": "0e3a79b2865942e9722889239e6c240f7587d41e0694aaf459f664b96f2cc156",
+    "duration": 4.536
+  },
+  "l5d1-beginner:2": {
+    "path": "audio/dialogues-v1/736d757d75c5a1e74ffe4a18.mp3",
+    "voice": "british-male",
+    "sourceSha256": "12b4c3c0460d46827241121717fabcb51bbd3f09ba9036b07ed6c4215f871da9",
+    "recipeSha256": "736d757d75c5a1e74ffe4a183c942eb4d38bdc1fc131021305405511b681fc1d",
+    "duration": 3.504
+  },
+  "l5d1-beginner:3": {
+    "path": "audio/dialogues-v1/63102625b9e6e3a41847722d.mp3",
+    "voice": "american-female",
+    "sourceSha256": "14436fc5849c5cc346fdf2cf6b6242ae97dbd10b01216f942e0beb94be467d56",
+    "recipeSha256": "63102625b9e6e3a41847722d3b15b3c03eda5ba1bfcda383fab47641be6b5ed5",
+    "duration": 4.392
+  },
+  "l5d1-beginner:4": {
+    "path": "audio/dialogues-v1/27e2cdbadd91fed3d34816d5.mp3",
+    "voice": "british-male",
+    "sourceSha256": "430978dd1b11452d4dc7998cd6ac9ec70c34c7f06d30539105acdb46896804b9",
+    "recipeSha256": "27e2cdbadd91fed3d34816d535aacda1e2df17c67d423319d1a4ef4e7e0a380c",
+    "duration": 1.896
+  },
+  "l5d1-beginner:5": {
+    "path": "audio/dialogues-v1/eb2ead9743aff3872931dbc3.mp3",
+    "voice": "american-female",
+    "sourceSha256": "ca97fd17902bd85bdc142d875dcaf7659e6b0928d790872b056555ed0b7f081f",
+    "recipeSha256": "eb2ead9743aff3872931dbc31627faf8169035856611b48e23a06a70592b5e60",
+    "duration": 6.552
+  },
+  "l5d1-beginner:6": {
+    "path": "audio/dialogues-v1/2a04896878eb934d79dd5f31.mp3",
+    "voice": "british-male",
+    "sourceSha256": "83543b59cc060f598211999c321f3b74e0f61bb277c94cd0c952691cbbbb8cec",
+    "recipeSha256": "2a04896878eb934d79dd5f31af8f439939df7cb374e31cf8ae5eb8eda7b474b2",
+    "duration": 3.216
+  },
+  "l5d1-beginner:7": {
+    "path": "audio/dialogues-v1/bec3f5880b87ddf8a1cf558c.mp3",
+    "voice": "american-female",
+    "sourceSha256": "6b066a6e77de8df84d51e9726b658322e13974afc3b5efc608871ff77ad73448",
+    "recipeSha256": "bec3f5880b87ddf8a1cf558c78665a63306d7b14212af7838b3e9e15cc7f0c16",
+    "duration": 4.512
+  },
+  "l5d1-beginner:8": {
+    "path": "audio/dialogues-v1/8520f80ca96f312e53fb7110.mp3",
+    "voice": "british-male",
+    "sourceSha256": "c71b413e679be11441a81790311c5c516806f38153c988b516f22e4ede2da950",
+    "recipeSha256": "8520f80ca96f312e53fb7110c1b533eeff936962ac2fd7efec88acc82f5fad8e",
+    "duration": 2.136
+  },
+  "l5d1-beginner:9": {
+    "path": "audio/dialogues-v1/0d6e206851da97835db5b1d6.mp3",
+    "voice": "american-female",
+    "sourceSha256": "33aec04ade07e813dc619f90d164c494cd939a632c7793c760404f57e3e16673",
+    "recipeSha256": "0d6e206851da97835db5b1d61d580beaa560a27798ed3e83cd297b80703b6388",
+    "duration": 10.608
+  },
+  "l5d1-professional:0": {
+    "path": "audio/dialogues-v1/84a8a98413252fde0dcdd5d8.mp3",
+    "voice": "british-male",
+    "sourceSha256": "2fb1a38f0f9161b6135710a2724b34edd8adc109b51a376e6698dbced413ed40",
+    "recipeSha256": "84a8a98413252fde0dcdd5d8a2cbbc7e5615ead597dc6add9a8d2fabb6b8df59",
+    "duration": 4.224
+  },
+  "l5d1-professional:1": {
+    "path": "audio/dialogues-v1/7c6828c36033808a909bbdaa.mp3",
+    "voice": "american-female",
+    "sourceSha256": "ba5002a5a9e2a839af7b09169aee5be20075511121ac371d649fba83a99ec937",
+    "recipeSha256": "7c6828c36033808a909bbdaae841ebb3e489d6927ee9cbf372165794a6df106a",
+    "duration": 6.024
+  },
+  "l5d1-professional:2": {
+    "path": "audio/dialogues-v1/0f9dd9db576f04181c70f8b9.mp3",
+    "voice": "british-male",
+    "sourceSha256": "82ebefec9104491f1999d6efd7229bc99c02ac5557e65f337a8067cd00a4b12d",
+    "recipeSha256": "0f9dd9db576f04181c70f8b9f941b827465a391b005287471888b1824b2ac5ef",
+    "duration": 2.88
+  },
+  "l5d1-professional:3": {
+    "path": "audio/dialogues-v1/956bb665711abeff5f7d1e47.mp3",
+    "voice": "american-female",
+    "sourceSha256": "93c36788800922ca02fd91d233ebac3a8f1e66e4ffceef92caa114400d65e2f0",
+    "recipeSha256": "956bb665711abeff5f7d1e47aa897afe8ac26e79d3c3bde8ba8806c676a842b4",
+    "duration": 6.048
+  },
+  "l5d1-professional:4": {
+    "path": "audio/dialogues-v1/8d5a08cb761849d94eee5080.mp3",
+    "voice": "british-male",
+    "sourceSha256": "4bfab06e76ef83b7880223ab48fc650f40a8f44f4bb3b87ced4970e2504538ba",
+    "recipeSha256": "8d5a08cb761849d94eee50801ff07202a55917c38476a40ea65727a5d1088a25",
+    "duration": 2.544
+  },
+  "l5d1-professional:5": {
+    "path": "audio/dialogues-v1/b675978a18f2c14c35777601.mp3",
+    "voice": "american-female",
+    "sourceSha256": "8339724efec5b1c7a3596dd77ceb85a201628272d85efe239f89eff84405c80e",
+    "recipeSha256": "b675978a18f2c14c357776019012a43498f2271ea16d051557d1da5898a8a709",
+    "duration": 8.232
+  },
+  "l5d1-professional:6": {
+    "path": "audio/dialogues-v1/3568004a51e7cce2fea60c4c.mp3",
+    "voice": "british-male",
+    "sourceSha256": "276877c3f36aa690de7418b4081132849b43c2437d08d0fc761262be097c33b0",
+    "recipeSha256": "3568004a51e7cce2fea60c4cc2a062e9bac1f228ebe73f5d619e48f67c0c87b5",
+    "duration": 3.672
+  },
+  "l5d1-professional:7": {
+    "path": "audio/dialogues-v1/20fe91b49be57c1ee6b31610.mp3",
+    "voice": "american-female",
+    "sourceSha256": "f89b6aedd587937475970494da5e76de241535236145c79a4df9c9ba2228fc1d",
+    "recipeSha256": "20fe91b49be57c1ee6b31610366105adc0c0e38f5f4d787c57a79ff7980a5475",
+    "duration": 6.0
+  },
+  "l5d1-professional:8": {
+    "path": "audio/dialogues-v1/da525b0aceaba005d1c756ac.mp3",
+    "voice": "british-male",
+    "sourceSha256": "02e060d6f2035d1fb12756408d0c6545c420eb486e910a27d96993aceffeb6b3",
+    "recipeSha256": "da525b0aceaba005d1c756acd0b9fc7ba7258575148b7615bd76c34961537058",
+    "duration": 2.544
+  },
+  "l5d1-professional:9": {
+    "path": "audio/dialogues-v1/d7f9f10cd272e0c550621d5d.mp3",
+    "voice": "american-female",
+    "sourceSha256": "a60590803b28ef3c3715b8509c24b0d34d108a0d28143c79c4e1932d11f812da",
+    "recipeSha256": "d7f9f10cd272e0c550621d5d0e786fd3f62dceed389d347188844070909bea91",
+    "duration": 9.96
+  },
+  "l5d2-beginner:0": {
+    "path": "audio/dialogues-v1/01c8282affe70a5819c668f7.mp3",
+    "voice": "british-male",
+    "sourceSha256": "7300b9a32d5e0c7d4fbe3f3b60b48159cfe2f4674a78096d12575aaed25d8cbe",
+    "recipeSha256": "01c8282affe70a5819c668f7ac4d2de8df88ea1b0bb2c9c21a2d4ae2ac39adf4",
+    "duration": 3.888
+  },
+  "l5d2-beginner:1": {
+    "path": "audio/dialogues-v1/1565dd023516399ffc4b433d.mp3",
+    "voice": "american-female",
+    "sourceSha256": "9cc1fd8e854fed1dcdc9c2035044b16ce152c80af9615d66737f1f1c2ac70211",
+    "recipeSha256": "1565dd023516399ffc4b433d7237c05f1e9a12ec480d9b7a2faa4b90726269d0",
+    "duration": 3.792
+  },
+  "l5d2-beginner:2": {
+    "path": "audio/dialogues-v1/41a986d1e324c696295308ca.mp3",
+    "voice": "british-male",
+    "sourceSha256": "774a6b39850b0ffd4a9d90020160b71d673308204cb6df5aef9a00ec2468df4f",
+    "recipeSha256": "41a986d1e324c696295308cac2326818f3985747d7a25ebda13200b81f36549a",
+    "duration": 5.64
+  },
+  "l5d2-beginner:3": {
+    "path": "audio/dialogues-v1/72f03adb3c6ee1624f1efcb8.mp3",
+    "voice": "american-female",
+    "sourceSha256": "445171bc6a6a5e47d5b9d0ce0ee9f4a45e9cf8666cd6f661a3c7d2f87f14b9ef",
+    "recipeSha256": "72f03adb3c6ee1624f1efcb8b91bf654d77d698fd86382b338382e4f489e7a93",
+    "duration": 2.52
+  },
+  "l5d2-beginner:4": {
+    "path": "audio/dialogues-v1/457ed1ae2bffd80b6c6d536d.mp3",
+    "voice": "british-male",
+    "sourceSha256": "9ddb0a8808a47d37c4422e22ac3e3fc691e083013a406f67a9b3e24fde358fd7",
+    "recipeSha256": "457ed1ae2bffd80b6c6d536de3e9a42d9dc662278e21117cfea1aa32698a8033",
+    "duration": 3.24
+  },
+  "l5d2-beginner:5": {
+    "path": "audio/dialogues-v1/9621a12b246d9ccf3d19931b.mp3",
+    "voice": "american-female",
+    "sourceSha256": "78212d4b6087ad65391a9c2b8a6291c1f82a774c3e998d6f9c0245993a2c228e",
+    "recipeSha256": "9621a12b246d9ccf3d19931b92585c6c0c7bca4840cd0642b7207cf502467840",
+    "duration": 4.92
+  },
+  "l5d2-beginner:6": {
+    "path": "audio/dialogues-v1/6853975588d6d017bdda069c.mp3",
+    "voice": "british-male",
+    "sourceSha256": "bf80c41df19c45feb7b13a66ff5644560f52f26a5b597a9a01e09be581aa1145",
+    "recipeSha256": "6853975588d6d017bdda069c5d1978e409c442062f9e04e3194eeae568d1e377",
+    "duration": 2.208
+  },
+  "l5d2-beginner:7": {
+    "path": "audio/dialogues-v1/3e846c1ceabd5ed40b51b1ab.mp3",
+    "voice": "american-female",
+    "sourceSha256": "32930aa6a7a67a110eb980dd8529654f594d885aafae6d26535d8ba1ad9fa8be",
+    "recipeSha256": "3e846c1ceabd5ed40b51b1abc023c7534b000a3986b0ce971b1141e3aa7066a1",
+    "duration": 4.8
+  },
+  "l5d2-beginner:8": {
+    "path": "audio/dialogues-v1/8410774412b8ec4aea6eb641.mp3",
+    "voice": "british-male",
+    "sourceSha256": "fbf3e67f0cbaa6fa73cd03ef641a7c89f31f095ff74610659effe02eb6adf342",
+    "recipeSha256": "8410774412b8ec4aea6eb64167908e5725dc54ad6e523252b032ade70e6135eb",
+    "duration": 1.728
+  },
+  "l5d2-beginner:9": {
+    "path": "audio/dialogues-v1/d280cac06a271b3f23a840ce.mp3",
+    "voice": "american-female",
+    "sourceSha256": "e24ee58e8d4a39a26318355b1e3c8947ac0f47ff5473ef2a0780452ad73e22ca",
+    "recipeSha256": "d280cac06a271b3f23a840cea04a33a067a69a2bfadfe79d7ac54705b44c76ac",
+    "duration": 6.504
+  },
+  "l5d2-professional:0": {
+    "path": "audio/dialogues-v1/a42a6ad2aeb249f22d2de090.mp3",
+    "voice": "british-male",
+    "sourceSha256": "52fb8a7d2b93b423cacb37268b88f4e2a7047cfa9209886a30f8cd1bfae70fee",
+    "recipeSha256": "a42a6ad2aeb249f22d2de09089d96df19f57e82296dab978517ab8b60d60a971",
+    "duration": 4.68
+  },
+  "l5d2-professional:1": {
+    "path": "audio/dialogues-v1/dab5083357570262da184327.mp3",
+    "voice": "american-female",
+    "sourceSha256": "2222cf237926748e5f1dd2098ebd1c01755c2884fd2ff32fe3ca6b3a58ef6142",
+    "recipeSha256": "dab5083357570262da18432790b617e5ff16c7379b0168193a9b7b77b7cfd81f",
+    "duration": 4.944
+  },
+  "l5d2-professional:2": {
+    "path": "audio/dialogues-v1/41a986d1e324c696295308ca.mp3",
+    "voice": "british-male",
+    "sourceSha256": "774a6b39850b0ffd4a9d90020160b71d673308204cb6df5aef9a00ec2468df4f",
+    "recipeSha256": "41a986d1e324c696295308cac2326818f3985747d7a25ebda13200b81f36549a",
+    "duration": 5.64
+  },
+  "l5d2-professional:3": {
+    "path": "audio/dialogues-v1/b96c9f9d2e92e7f59663f93a.mp3",
+    "voice": "american-female",
+    "sourceSha256": "0681c72f3a6e842b36d37bbb1a252df8181c9eaf2324c26c844bebff6464eaa4",
+    "recipeSha256": "b96c9f9d2e92e7f59663f93ad5422160875b892b8390031ec72fe666a30dce16",
+    "duration": 6.336
+  },
+  "l5d2-professional:4": {
+    "path": "audio/dialogues-v1/027f1ae3b9efd05d075d1e43.mp3",
+    "voice": "british-male",
+    "sourceSha256": "317cd1abdaee5366b1ad686dddd57ffbe47ab7f80fb6d04e344a6be500db900c",
+    "recipeSha256": "027f1ae3b9efd05d075d1e43f54d82005d91817436b280e63ebf70c6655ef193",
+    "duration": 3.072
+  },
+  "l5d2-professional:5": {
+    "path": "audio/dialogues-v1/56a72f72cdc6471cdfc88bec.mp3",
+    "voice": "american-female",
+    "sourceSha256": "5263a503b81afc3fea99368966694734d75842e45d608d6b8aaa5d10506f168b",
+    "recipeSha256": "56a72f72cdc6471cdfc88bec84861a2dcd14f327a6ca7ffc82c7a0626cf50b96",
+    "duration": 8.304
+  },
+  "l5d2-professional:6": {
+    "path": "audio/dialogues-v1/6bdb1455df4815f3ba7cd64b.mp3",
+    "voice": "british-male",
+    "sourceSha256": "6fddbb2e851a181ab8a66a0e8eb22c828457f56025cb356ed7b3dc925a061bb4",
+    "recipeSha256": "6bdb1455df4815f3ba7cd64b6795e30f0aa42d2768fd8f91a82f0d655e84bbb1",
+    "duration": 2.736
+  },
+  "l5d2-professional:7": {
+    "path": "audio/dialogues-v1/9309ef2435c45a1fd929e194.mp3",
+    "voice": "american-female",
+    "sourceSha256": "182388f6e98ffd6ce1e05b33412ad05e0181c96603fedbf81ae757038c5b5d7a",
+    "recipeSha256": "9309ef2435c45a1fd929e19421ef9ed47ae04a6b74bfbdec17ec230924b8a0f4",
+    "duration": 7.536
+  },
+  "l5d2-professional:8": {
+    "path": "audio/dialogues-v1/d8f9490032012ed73442080f.mp3",
+    "voice": "british-male",
+    "sourceSha256": "0abf86b8cee39c0ffb7fd7553ab0b5152cbb33272367358595a2a52a512b9631",
+    "recipeSha256": "d8f9490032012ed73442080fe5f0f1623601eae0742b2605b2935d406dd3d654",
+    "duration": 2.64
+  },
+  "l5d2-professional:9": {
+    "path": "audio/dialogues-v1/9e4c75f395a93f5bcca212db.mp3",
+    "voice": "american-female",
+    "sourceSha256": "8ac16ae6604e5b6ea63ba37a1cbd68bdc4366f96fbd78f882eab541b87cf2e1b",
+    "recipeSha256": "9e4c75f395a93f5bcca212dbf7fd0e782eb03cc3958f4c92c0399ec79c899655",
+    "duration": 7.728
+  },
+  "l5d3-beginner:0": {
+    "path": "audio/dialogues-v1/c8f86a0aa2ce574ba812cf57.mp3",
+    "voice": "british-male",
+    "sourceSha256": "3a4ddbddb5923204de66370ade66fbd94961fb9e858142da09249399c9506aea",
+    "recipeSha256": "c8f86a0aa2ce574ba812cf57e21febd6ecdfe5613c53580e645e8b70a8574da0",
+    "duration": 3.72
+  },
+  "l5d3-beginner:1": {
+    "path": "audio/dialogues-v1/e2ba1a593abc75ae41002419.mp3",
+    "voice": "american-female",
+    "sourceSha256": "2bf6ac804590e63932147af31ef13729319b7c5739f07fad709a33b0795df588",
+    "recipeSha256": "e2ba1a593abc75ae41002419800e66a04ec712429c6cda48fab396fa20943dfc",
+    "duration": 3.72
+  },
+  "l5d3-beginner:2": {
+    "path": "audio/dialogues-v1/4bd046913bf519e5eb269e02.mp3",
+    "voice": "british-male",
+    "sourceSha256": "8d964fff4b0d3ea7b290cba80bba8eed4dafb15b6782ecddbf8eab43815faacc",
+    "recipeSha256": "4bd046913bf519e5eb269e0298d2204720a1cdaab825e616021794d4a3832913",
+    "duration": 4.704
+  },
+  "l5d3-beginner:3": {
+    "path": "audio/dialogues-v1/0367cd9084f7aabe6a3c56ca.mp3",
+    "voice": "american-female",
+    "sourceSha256": "36ce9a5096a8757f75e2489bbe1d7f7172291ef31e99e1b9a29edf8a854839fc",
+    "recipeSha256": "0367cd9084f7aabe6a3c56ca6c353fc808580645b2ca02e68c30f735951e5cb1",
+    "duration": 4.416
+  },
+  "l5d3-beginner:4": {
+    "path": "audio/dialogues-v1/ef1e0562d841f3947efa5949.mp3",
+    "voice": "british-male",
+    "sourceSha256": "b7b50c9aa0fb7cdf2a0213899ccfdfe8bedb84a82263bc421a6e69367a2ff897",
+    "recipeSha256": "ef1e0562d841f3947efa59499701bba8ae79821ae22f8aa111dd0dbb541efdda",
+    "duration": 4.344
+  },
+  "l5d3-beginner:5": {
+    "path": "audio/dialogues-v1/017eac0b5630fde3d44f7256.mp3",
+    "voice": "american-female",
+    "sourceSha256": "330fb789ccdda4c2ec9112183ea0beee83d87be56a84d3c17fde6c8709314fb6",
+    "recipeSha256": "017eac0b5630fde3d44f72562a2b15e7f64e88275f4bbd20c4e0aa7c6e107dcf",
+    "duration": 4.272
+  },
+  "l5d3-beginner:6": {
+    "path": "audio/dialogues-v1/00931921c917d35924acaecc.mp3",
+    "voice": "british-male",
+    "sourceSha256": "4926deb03c00477dc7538f7ebf2a03c7ab0878224054dccbed18754369fd90cf",
+    "recipeSha256": "00931921c917d35924acaecc3704e6386fb8e9e833ae9d94cf1caaf18cd0289e",
+    "duration": 2.712
+  },
+  "l5d3-beginner:7": {
+    "path": "audio/dialogues-v1/7bcc6f36532a8c09baa59a36.mp3",
+    "voice": "american-female",
+    "sourceSha256": "7ed6076270a0d2cf50a5fb6beaf511ac53a8a8488c7780d2d2816bf2e4ebeea4",
+    "recipeSha256": "7bcc6f36532a8c09baa59a3622fa9ebbf64b909814a746662b369b550e6fca18",
+    "duration": 5.832
+  },
+  "l5d3-beginner:8": {
+    "path": "audio/dialogues-v1/48906a1dd7ff72e07a5b5031.mp3",
+    "voice": "british-male",
+    "sourceSha256": "3b1852dd7c1254a1c58c7b8fe8f8ca392b9a783be6279c883367b1bb6ea88f98",
+    "recipeSha256": "48906a1dd7ff72e07a5b5031a7e02886b6df17ac24f55de059acc1fb38449289",
+    "duration": 1.632
+  },
+  "l5d3-beginner:9": {
+    "path": "audio/dialogues-v1/a35ff78ab4d58356d6b68be4.mp3",
+    "voice": "american-female",
+    "sourceSha256": "7b18fc8ad271143fb590d0fb691155f7becffa91caf2813e986fe7ee1a579be1",
+    "recipeSha256": "a35ff78ab4d58356d6b68be4ef18fa71f8f7dab8b7e6e19a2c2df6c33dec1cc2",
+    "duration": 6.0
+  },
+  "l5d3-professional:0": {
+    "path": "audio/dialogues-v1/cff7ed574a4a9343842e03e9.mp3",
+    "voice": "british-male",
+    "sourceSha256": "7d68107016830b48b4e75b2b01dcac28921f684448798a34d5819d5d70b89e54",
+    "recipeSha256": "cff7ed574a4a9343842e03e9f69a91f510b17a449a6cbb572b21e4513793c98b",
+    "duration": 5.232
+  },
+  "l5d3-professional:1": {
+    "path": "audio/dialogues-v1/a4a609c7d73579e95786ce33.mp3",
+    "voice": "american-female",
+    "sourceSha256": "f418652ed5a61932f0162003eef5504362be2b034d2c7c4475efa0eb6b79b5df",
+    "recipeSha256": "a4a609c7d73579e95786ce33ed0d908926310931add06ab64f388b6ff78f1967",
+    "duration": 9.6
+  },
+  "l5d3-professional:2": {
+    "path": "audio/dialogues-v1/6e36d6971ef4addf9f8f3a1e.mp3",
+    "voice": "british-male",
+    "sourceSha256": "9f5eb1cd3890ebc3c2c6283f8f4f2d4acbeaec7166ae1a124920f6dcf0835eae",
+    "recipeSha256": "6e36d6971ef4addf9f8f3a1e2e1edbdd6e437523e6fce1d9c369fad80a90c9f6",
+    "duration": 2.088
+  },
+  "l5d3-professional:3": {
+    "path": "audio/dialogues-v1/09f6118c226e2e2cb4836126.mp3",
+    "voice": "american-female",
+    "sourceSha256": "21a8e715e28d3ee058502a63151ab26e0f28597c2a3091c27d9c06419ee6acfa",
+    "recipeSha256": "09f6118c226e2e2cb4836126e679e8286435f5a698db99482b717d4a4b4ecf99",
+    "duration": 5.064
+  },
+  "l5d3-professional:4": {
+    "path": "audio/dialogues-v1/ce8e81743c8f4458bac0fd72.mp3",
+    "voice": "british-male",
+    "sourceSha256": "b8048cf33409a603e0634d261c7ff0015597ab7be9e23a611df20a6f4b6cfcb1",
+    "recipeSha256": "ce8e81743c8f4458bac0fd7290eca52a15db8896b04ea97bcb16ea9ca320983b",
+    "duration": 4.728
+  },
+  "l5d3-professional:5": {
+    "path": "audio/dialogues-v1/ac5c031ee2bb9669a8de93ff.mp3",
+    "voice": "american-female",
+    "sourceSha256": "3fbb1e138d9c68a74f2534ebec1b557cfbddc1ecd4d7549494e76d013ee7c498",
+    "recipeSha256": "ac5c031ee2bb9669a8de93ff898b07fd00e7e06308240b4afc76665954216d9e",
+    "duration": 9.12
+  },
+  "l5d3-professional:6": {
+    "path": "audio/dialogues-v1/9e2dc738499b2a52d9e7bcdc.mp3",
+    "voice": "british-male",
+    "sourceSha256": "e608bf0878239f1dab91959bcf2b764c7fb52b057c962bc99bf8a89739b732ef",
+    "recipeSha256": "9e2dc738499b2a52d9e7bcdc0ed3ad123bfdf220585452830ebc730501ee7b4b",
+    "duration": 2.784
+  },
+  "l5d3-professional:7": {
+    "path": "audio/dialogues-v1/732dcef572f96f7d1a912c9b.mp3",
+    "voice": "american-female",
+    "sourceSha256": "313311e1119f3ab1de58a3289343d95bc4886b504d69518c29d2c0fb8715fe9a",
+    "recipeSha256": "732dcef572f96f7d1a912c9b9a7e689fb3f427d224058f03aef455813cc6cb2a",
+    "duration": 9.216
+  },
+  "l5d3-professional:8": {
+    "path": "audio/dialogues-v1/f1a39127d4775eee135be9cc.mp3",
+    "voice": "british-male",
+    "sourceSha256": "cba60dd2d6a9a36156b6ac9932a03f8bfc4e11cdbc1eb5cbd28693d42a5653df",
+    "recipeSha256": "f1a39127d4775eee135be9cc5b8af36f2e0a9333a860de6195ac0a092da7fc7e",
+    "duration": 2.616
+  },
+  "l5d3-professional:9": {
+    "path": "audio/dialogues-v1/a9b12e486a01862b0198d6ee.mp3",
+    "voice": "american-female",
+    "sourceSha256": "266eab6a109f81a2c05bc11b5011c31dfc623e1fdd6de60c437a7b8cc38365bc",
+    "recipeSha256": "a9b12e486a01862b0198d6eeb9e1630138719f651598d38f8ca237ef03551e33",
+    "duration": 7.416
+  },
+  "l5d4-professional:0": {
+    "path": "audio/dialogues-v1/244fe40fe2770724bcb502d7.mp3",
+    "voice": "british-male",
+    "sourceSha256": "4b48b35bd914baf5320904c0b5f506320f9d3380e38c083d9fda63f038699c8c",
+    "recipeSha256": "244fe40fe2770724bcb502d71696ddb7985c25052fe4ce42434532fdea648016",
+    "duration": 6.768
+  },
+  "l5d4-professional:1": {
+    "path": "audio/dialogues-v1/43cefd68aa0375983f776290.mp3",
+    "voice": "american-female",
+    "sourceSha256": "9e9e444e251ca61dc03b1df0eaa2a33f1e111dab2861c4d42277c84107fae22e",
+    "recipeSha256": "43cefd68aa0375983f77629036d67e35993dbb4f9a6fc16f55ba0d69f101f1d4",
+    "duration": 5.352
+  },
+  "l5d4-professional:2": {
+    "path": "audio/dialogues-v1/d786e0f865f55a6d5a184fb8.mp3",
+    "voice": "british-male",
+    "sourceSha256": "b2b360d3c0bbe8b317c73dd164c74c16d36da62ca1bcb9d4e13fa84770ac95f6",
+    "recipeSha256": "d786e0f865f55a6d5a184fb8d1457f2576862f3147421280e1292a53e5d4fac6",
+    "duration": 6.24
+  },
+  "l5d4-professional:3": {
+    "path": "audio/dialogues-v1/12082f8395108a8636524485.mp3",
+    "voice": "american-female",
+    "sourceSha256": "8b0d48add258391f5c3738c6ea0f9c0aeda57a45d1023d13248b240f6cb4c0bc",
+    "recipeSha256": "12082f8395108a8636524485caab67ac6b55941c1364a945de285dc751dd9eae",
+    "duration": 6.792
+  },
+  "l5d4-professional:4": {
+    "path": "audio/dialogues-v1/0497cb3836b2a71726a881c3.mp3",
+    "voice": "british-male",
+    "sourceSha256": "eca560db419971b3db934b29088e0ce90c68d9ce971f4e014b1185701aa8d7be",
+    "recipeSha256": "0497cb3836b2a71726a881c396af85319e07b53bf86beca0a3f141ddfa27c12b",
+    "duration": 7.104
+  },
+  "l5d4-professional:5": {
+    "path": "audio/dialogues-v1/fc6af3464ab4bb4baec15baf.mp3",
+    "voice": "american-female",
+    "sourceSha256": "5b7e7943c66a197f488ff870cf8ff98ed6deb7bc52d0dd2b0b020aac5c418ccf",
+    "recipeSha256": "fc6af3464ab4bb4baec15bafa7270c1edf9a4fbdecbcceae4133a43cf2f24276",
+    "duration": 7.584
+  },
+  "l5d4-professional:6": {
+    "path": "audio/dialogues-v1/a444b7230b192131d79ec835.mp3",
+    "voice": "british-male",
+    "sourceSha256": "a97ee1b49f9f2450c5d40ec2aa30c2e253e0cb823b172e7168bc0aa0fdb6283d",
+    "recipeSha256": "a444b7230b192131d79ec83511e4b14673dca1c60ae8e309ab09c2feb2df4043",
+    "duration": 3.024
+  },
+  "l5d4-professional:7": {
+    "path": "audio/dialogues-v1/59fb70b4f0a17d7ba6c19ede.mp3",
+    "voice": "american-female",
+    "sourceSha256": "44c5670053c82a58759a3642c912e61c02d9a0bb0bea998fd4765390c0b2a2aa",
+    "recipeSha256": "59fb70b4f0a17d7ba6c19ede8474060d0efc5ba54fb4a83d508617c7bb5fffc6",
+    "duration": 7.944
+  },
+  "l5d4-professional:8": {
+    "path": "audio/dialogues-v1/4683a69e23bb8b6a51f16256.mp3",
+    "voice": "british-male",
+    "sourceSha256": "945dd0de54932a710daa3b21dae42d5ac12f01f5379ac51033a97f21fe78806b",
+    "recipeSha256": "4683a69e23bb8b6a51f16256d953eed35f660bc07a244ac9e5127af367b187c7",
+    "duration": 4.08
+  },
+  "l5d4-professional:9": {
+    "path": "audio/dialogues-v1/27d654c6911635cc819f67b6.mp3",
+    "voice": "american-female",
+    "sourceSha256": "f74ba808b83ea0c7bfe93461920020679c814c4308d29001d581926402a66cc1",
+    "recipeSha256": "27d654c6911635cc819f67b6cdd0c893540bf910b8521f9a7c89a096593dbf48",
+    "duration": 11.496
+  },
+  "l5d4-beginner:0": {
+    "path": "audio/dialogues-v1/6e4e4524c82dca37dd4d1b80.mp3",
+    "voice": "british-male",
+    "sourceSha256": "966f6c25253deb1aa9ce3cbf4e70fa8f219e23a6663ded98dff5645424de1b54",
+    "recipeSha256": "6e4e4524c82dca37dd4d1b808029ff45670adc5b772438d48b405ef52df927f5",
+    "duration": 5.568
+  },
+  "l5d4-beginner:1": {
+    "path": "audio/dialogues-v1/02eb742a55965ac671036973.mp3",
+    "voice": "american-female",
+    "sourceSha256": "1232c77ace7118e1acb00945150771142db2ebec739ed70665996c818f8f5a89",
+    "recipeSha256": "02eb742a55965ac6710369732734d2694652685205f293fa75d9e4d6062f1848",
+    "duration": 3.696
+  },
+  "l5d4-beginner:2": {
+    "path": "audio/dialogues-v1/55c24b0c551257ef24a9a727.mp3",
+    "voice": "british-male",
+    "sourceSha256": "0ee3adf28896ef12f2accf1949eb7b947c02b4561b6966d4bb2949bbfa2b1eb3",
+    "recipeSha256": "55c24b0c551257ef24a9a727674212791f00970319367bd3c9ee002cd94d7941",
+    "duration": 4.704
+  },
+  "l5d4-beginner:3": {
+    "path": "audio/dialogues-v1/4e41f93e45099ec39986367a.mp3",
+    "voice": "american-female",
+    "sourceSha256": "76b3bd033165a362efad4fed30dd71033d9c78171da86b3acf5dd06e88ddb501",
+    "recipeSha256": "4e41f93e45099ec39986367a9993a2d04bfd37e81dca0d3c5b4b1e5e4d71e3dd",
+    "duration": 3.624
+  },
+  "l5d4-beginner:4": {
+    "path": "audio/dialogues-v1/5bfed01a8602956ed9fdca3b.mp3",
+    "voice": "british-male",
+    "sourceSha256": "e23a84cfdf0342f2e2919bef87cb9284582d017b6c741db580da02086b697c66",
+    "recipeSha256": "5bfed01a8602956ed9fdca3b5ea0e1025155e1ff9709d2797e1ec01dff29f19b",
+    "duration": 5.352
+  },
+  "l5d4-beginner:5": {
+    "path": "audio/dialogues-v1/75b2edf156d71033591bb7e6.mp3",
+    "voice": "american-female",
+    "sourceSha256": "1fd169c2db31f49e0ddde435fcd192843a408efa125a8b522d19f34ec1789747",
+    "recipeSha256": "75b2edf156d71033591bb7e62f888af475dbefa42e62d3dfc31bb864473e80da",
+    "duration": 3.696
+  },
+  "l5d4-beginner:6": {
+    "path": "audio/dialogues-v1/941d3cad20a57effacf999af.mp3",
+    "voice": "british-male",
+    "sourceSha256": "b4163aca5dcfff06b746ccb53d88c414c8c7f2e03b39e14bd21d87f8e637b264",
+    "recipeSha256": "941d3cad20a57effacf999afa421bd771fef7a228129cc5b92272fc946412d3a",
+    "duration": 2.544
+  },
+  "l5d4-beginner:7": {
+    "path": "audio/dialogues-v1/88d87a4c9e5419acc913e716.mp3",
+    "voice": "american-female",
+    "sourceSha256": "32180b7a243394231024f1198ee827ede525c473b0741766078f3f0764f82e15",
+    "recipeSha256": "88d87a4c9e5419acc913e716f8589d331a794ad675c959c1e108671497807ef1",
+    "duration": 4.656
+  },
+  "l5d4-beginner:8": {
+    "path": "audio/dialogues-v1/7295a5cfb477c072348f3e4f.mp3",
+    "voice": "british-male",
+    "sourceSha256": "c52d3b919ff675c343d7dbf8b438681cadc5629afea2280992ecb30270004a8f",
+    "recipeSha256": "7295a5cfb477c072348f3e4f1d338a0825acefd6f5f6cdf6def68f1fe405fd78",
+    "duration": 3.648
+  },
+  "l5d4-beginner:9": {
+    "path": "audio/dialogues-v1/472aadd1a7fb66d1960bbf44.mp3",
+    "voice": "american-female",
+    "sourceSha256": "2da5886a6c2bad6df7ffa82b1fd25b6616c91668541e3b9d974aff7601818f3a",
+    "recipeSha256": "472aadd1a7fb66d1960bbf44ec7f0afac48657e2a80d63c1d5595e83193633d2",
+    "duration": 4.488
   }
 }
