@@ -1,5 +1,5 @@
 import {escapeHtml as esc,sourceLabel} from './library-core.mjs?v=20260916-ui-polish1';
-import {highlightQuery,searchData} from './search.mjs?v=20260930-lesson5';
+import {highlightQuery,searchData} from './search.mjs?v=20260930-polysemy5a';
 export async function materialsPage(page){
  const params=new URLSearchParams(location.search),[{materials},support,audio]=await Promise.all([searchData(),fetch('./content/reader-support.json?v=20260930-lesson5').then(r=>r.json()),fetch('./dialogue-audio.json?v=20260916-ui-polish1').then(r=>r.json())]);
  const lesson=materials.find(l=>l.lesson===Number(params.get('lesson')))||materials[0],initial=Math.max(1,Math.min(lesson.pages.length,Number(params.get('page'))||1)),q=params.get('q')||'';let shown=initial,player=null;

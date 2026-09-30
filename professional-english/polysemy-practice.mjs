@@ -1,8 +1,8 @@
-import {sourceLink,sourceLabel} from './library-core.mjs?v=20260916-ui-polish1';
+import {sourceLink,sourceLabel} from './library-core.mjs?v=20260930-polysemy5a';
 import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-ui-polish1';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const lessonNumber=value=>[1,2,3,4].includes(Number(value))?Number(value):1;
-const lessonName=lesson=>`第${['','一','二','三','四'][lesson]}課`;
+const lessonNumber=value=>[1,2,3,4,5].includes(Number(value))?Number(value):1;
+const lessonName=lesson=>`第${['','一','二','三','四','五'][lesson]}課`;
 const correctChoice=(question,choice)=>(question.acceptedAnswers||[question.answer]).includes(choice);
 const ownObject=value=>value&&typeof value==='object'&&!Array.isArray(value);
 const uuid=value=>typeof value==='string'&&/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
@@ -124,7 +124,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     const done=data.words.filter(w=>progress[w.id]).length;
     page.innerHTML=header()+`<section class="poly-intro"><h2 tabindex="-1">${lessonName(lesson)} · 選擇一個詞語</h2><p>每個詞語先練習不同意思，最後回到課文原句。中文翻譯會隱去答案；答錯的題目將在下一輪再出現，直至全部答對。</p><p class="poly-progress">${done} / ${data.words.length} 個詞語已完成</p><progress class="poly-lesson-progress" max="${data.words.length}" value="${done}" aria-label="本課已完成詞語"></progress></section><div class="poly-word-grid">${data.words.map(w=>{
       const draft=getCached(draftKey(w)),resume=draft?.quiz&&!draft.quiz.complete;
-      return `<button type="button" data-poly-word="${esc(w.id)}" class="${progress[w.id]?'is-complete':''}"><strong lang="en">${esc(w.word)}</strong><span class="poly-source-label">課文首次出現：${esc(sourceLabel(w.source))}</span><span>${w.senses.length} 種意思 · ${w.questions.length} 題</span><small>${progress[w.id]?'<span class="poly-tile-check" aria-hidden="true">✓</span> 已完成 · 查看結果':resume?'繼續上次進度 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>':'開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>'}</small></button>`;
+      return `<button type="button" data-poly-word="${esc(w.id)}" class="${progress[w.id]?'is-complete':''}"><strong lang="en">${esc(w.word)}</strong><span class="poly-source-label">${w.source?.directPdf?'詞義來源：':'課文首次出現：'}${esc(sourceLabel(w.source))}</span><span>${w.senses.length} 種意思 · ${w.questions.length} 題</span><small>${progress[w.id]?'<span class="poly-tile-check" aria-hidden="true">✓</span> 已完成 · 查看結果':resume?'繼續上次進度 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>':'開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>'}</small></button>`;
     }).join('')}</div>`;
     document.title=`一詞多義練習 · ${lessonName(lesson)} | Professional English`;
   }
@@ -237,7 +237,7 @@ if(typeof document!=='undefined'&&document.body.dataset.professionalPolysemyPage
   async function initialise(){
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
     const lesson=lessonNumber(new URLSearchParams(location.search).get('lesson'));
-    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260922-lesson4`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
+    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260930-polysemy5a`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='練習暫時未能載入。';const retry=document.createElement('button');retry.type='button';retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

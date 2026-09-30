@@ -1,6 +1,6 @@
 import {rankBadges} from './momentum-core.mjs?v=20260916-ui-polish1';
 import {badgeHtml,totalHtml,updatedHtml,celebrateBadge} from './team-momentum.mjs?v=20260916-ui-polish1';
-import './progress-previews.mjs?v=20260916-ui-polish1';
+import './progress-previews.mjs?v=20260930-polysemy5a';
 import {API,PUBLIC_KEY,session,rpc,subscribe,saveState,getCached} from './learning-state.mjs?v=20260916-ui-polish1';
 import {escapeHtml as esc} from './library-core.mjs?v=20260916-ui-polish1';
 import {ASSESSMENT_QUESTIONS,teamSeries,memberBreakdown,cardRows} from './community-core.mjs?v=20260916-ui-polish1';

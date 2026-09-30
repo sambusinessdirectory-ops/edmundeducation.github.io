@@ -1,4 +1,4 @@
-import {bindLiveSearch} from './search.mjs?v=20260930-lesson5';
+import {bindLiveSearch} from './search.mjs?v=20260930-polysemy5a';
 import {rpc,session} from './learning-state.mjs?v=20260916-ui-polish1';
 import {escapeHtml as esc} from './library-core.mjs?v=20260916-ui-polish1';
 export function mountLibraryHome(host,owner){
