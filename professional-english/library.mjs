@@ -1,11 +1,11 @@
-import {bindLiveSearch} from './search.mjs?v=20260916-ui-polish1';
-import {materialsPage} from './reader.mjs?v=20260917-controls1';
+import {bindLiveSearch} from './search.mjs?v=20260930-lesson5';
+import {materialsPage} from './reader.mjs?v=20260930-lesson5';
 import {feedbackPage,recordsPage} from './community.mjs?v=20260917-poly-question1';
 import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-ui-polish1';
 import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-ui-polish1';
 const json=async path=>{const r=await fetch(path);if(!r.ok)throw Error('資料暫時未能載入，請重試。');return r.json();};
 const params=()=>new URLSearchParams(location.search);
-const materialPromise=()=>json('./content/lesson-materials.json?v=20260916-ui-polish1');
+const materialPromise=()=>json('./content/lesson-materials.json?v=20260930-lesson5');
 const link=(view,values={})=>'./library.html?'+new URLSearchParams({view,...values});
 const date=value=>new Date(value).toLocaleString('zh-HK',{dateStyle:'medium',timeStyle:'short'});
 let activePage=null,player=null,audioGeneration=0;
@@ -25,7 +25,7 @@ function notice(text){const node=activePage?.querySelector('[data-library-status
 function pageHeader(view){return `<header class="library-heading"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · 學習資料庫</p><h1>${({search:'搜尋詞語與句子',materials:'課文與下載',bookmarks:'我的書籤',messages:'課程訊息',feedback:'匿名課程回饋',records:'字卡練習紀錄',quick:'Quick Response 快問快答'})[view]}</h1><nav aria-label="學習資料庫">${[['search','搜尋'],['materials','課文與下載'],['bookmarks','我的書籤'],['messages','課程訊息']].map(([id,title])=>`<a href="${link(id)}" ${id===view?'aria-current="page"':''}>${title}</a>`).join('')}<a href="./">返回課程</a></nav></header><p data-library-status role="status" aria-live="polite"></p>`;}
 async function searchPage(page){
  const query=(params().get('q')||'').slice(0,200),lesson=params().get('lesson')||'',type=params().get('type')||'';
- page.insertAdjacentHTML('beforeend',`<form class="library-search" action="./library.html"><input type="hidden" name="view" value="search"><label>搜尋英文或中文<input name="q" type="search" value="${esc(query)}" maxlength="200" placeholder="例如：receipt、follow up、投訴" required></label><label>課堂<select name="lesson"><option value="">全部課堂</option>${[1,2,3].map(n=>`<option value="${n}" ${lesson===String(n)?'selected':''}>第 ${n} 課</option>`).join('')}</select></label><label>內容<select name="type"><option value="">全部內容</option>${['課文','對話','一詞多義','字卡'].map(t=>`<option ${type===t?'selected':''}>${t}</option>`).join('')}</select></label><button type="submit" class="pro-primary">搜尋</button></form><section class="library-results" aria-live="polite"></section>`);
+ page.insertAdjacentHTML('beforeend',`<form class="library-search" action="./library.html"><input type="hidden" name="view" value="search"><label>搜尋英文或中文<input name="q" type="search" value="${esc(query)}" maxlength="200" placeholder="例如：receipt、follow up、投訴" required></label><label>課堂<select name="lesson"><option value="">全部課堂</option>${[1,2,3,4,5].map(n=>`<option value="${n}" ${lesson===String(n)?'selected':''}>第 ${n} 課</option>`).join('')}</select></label><label>內容<select name="type"><option value="">全部內容</option>${['課文','對話','一詞多義','字卡'].map(t=>`<option ${type===t?'selected':''}>${t}</option>`).join('')}</select></label><button type="submit" class="pro-primary">搜尋</button></form><section class="library-results" aria-live="polite"></section>`);
  bindLiveSearch(page.querySelector('.library-search'),page.querySelector('.library-results'),page.querySelector('[data-library-status]'),{url:true});
 }
 function bookmarkCard(item,playlist){

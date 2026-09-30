@@ -18,4 +18,17 @@ const upgrades=[
  [3,6,[...same('l3d2-professional',[3,5,7,9,9]),...same('l3d3-professional',[1,3,7,9,9]),...same('l3d4-professional',[1,3,5,5,7,7]),['l3d3-professional',9],['l3d4-professional',9]]]
 ];
 for(const[lesson,page,answers]of upgrades){const doc=new JSDOM(materials[lesson-1].pages[page-1].html).window.document;const prompts=lesson===1?[...doc.querySelectorAll('p')].map((p,index)=>({selector:`p`,index,prompt:text(p)})).filter(p=>/^Rewrite/.test(p.prompt)):[...doc.querySelectorAll('tr')].map((r,index)=>({selector:'tr',index,prompt:r.cells[0]?text(r.cells[0]):'',answer:r.cells[1]?text(r.cells[1]):''})).filter(r=>/_{5}/.test(r.answer));if(prompts.length!==answers.length)throw Error(`Prompt mismatch ${lesson}:${page}: ${prompts.length}/${answers.length}`);prompts.forEach((p,index)=>{const source=turns.get(answers[index].join(':'));if(!source)throw Error('Missing source '+answers[index]);support.upgrades.push({lesson,page,selector:p.selector,index:p.index,prompt:p.prompt.replace(/_{5,}/g,'').trim(),answer:source.en,translation:source.zh,source:{lesson:source.lesson,page:source.page,dialogue:source.dialogue,line:source.line},note:lesson===3&&page===6&&index===16?'維修時間的表達參考對話 3；對話 4 的結尾沒有承諾維修時間。':''});});}
+const lesson5=JSON.parse(fs.readFileSync('professional-english/content/lesson-5-reader-translations.json'));
+support.pageNotes=Object.fromEntries(Object.entries(lesson5.pageNotes).map(([page,notes])=>[`5:${page}`,notes]));
+for(const[page,variants]of Object.entries(lesson5.dialogues)){
+ const doc=new JSDOM(materials[4].pages[Number(page)-1].html).window.document;
+ const tableIndex=Number(page)<5?1:0,rows=[...doc.querySelectorAll('table')[tableIndex].rows],first=Number(page)===5?1:0;
+ if(rows.length-first!==10)throw Error(`Lesson 5 row count ${page}`);
+ support.pages[`5:${page}`]=[];
+ for(let row=first;row<rows.length;row++)for(const[variant,cell]of [['beginner',1],['professional',3]]){
+  const en=text(rows[row].cells[cell]),zh=variants[variant][row-first];
+  if(!en||!zh)throw Error(`Lesson 5 translation missing ${page}:${row}:${variant}`);
+  support.pages[`5:${page}`].push({table:tableIndex,row,cell,dialogue:`l5p${page}-${variant}`,line:row-first,en,zh,audio:false,lesson:5,page:Number(page)});
+ }
+}
 fs.writeFileSync('professional-english/content/reader-support.json',JSON.stringify(support,null,2)+'\n');console.log(`${Object.values(support.pages).flat().length} translated turns; ${support.upgrades.length} answers sourced from original dialogues.`);
