@@ -97,6 +97,7 @@
       practice.dataset.enhanced = "true";
       practice.classList.add("learning-panel--practice-glow");
       practice.innerHTML = lessonMarkup();
+      practice.querySelector('.pro-lesson-grid')?.insertAdjacentHTML('beforeend',`<section class="pro-lesson-card"><span>06</span><h4>第六課：補充教材</h4><p>Lesson 6 · Extras</p><a class="pro-dialogue-link pro-material-link" href="./materials/lesson-6-extras.pdf" download="Professional-English-Lesson-6-Extras.pdf"><b>下載第六課 PDF</b><span>Lesson 6 · Extras</span><small>4 頁補充教材</small></a></section>`);
     }
     let polysemy = course.querySelector(":scope > .learning-panel--polysemy");
     if (!polysemy && practice) {

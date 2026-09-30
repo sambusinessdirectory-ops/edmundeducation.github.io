@@ -1,5 +1,5 @@
 import {bindLiveSearch} from './search.mjs?v=20260930-polysemy5a';
-import {materialsPage} from './reader.mjs?v=20260930-polysemy5a';
+import {materialsPage} from './reader.mjs?v=20260930-situation-voices1';
 import {feedbackPage,recordsPage} from './community.mjs?v=20260930-polysemy5a';
 import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-ui-polish1';
 import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-ui-polish1';

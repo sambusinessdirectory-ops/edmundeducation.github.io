@@ -1,0 +1,11 @@
+.situation-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:#f7fbf8;border-top:1px solid #e0ebe4;border-bottom:1px solid #d9e7de}
+.situation-controls button,.situation-turn [data-situation-play-line]{border:1px solid #bdd8cc;border-radius:10px;background:#fff;color:#185d55;font:inherit;font-size:.9rem;font-weight:700;cursor:pointer;padding:9px 12px}
+.situation-controls button:hover:not(:disabled),.situation-turn [data-situation-play-line]:hover:not(:disabled){background:#e8f6ef;border-color:#76b29a}
+.situation-controls button:focus-visible,.situation-turn [data-situation-play-line]:focus-visible{outline:3px solid #247968;outline-offset:2px}
+.situation-controls button[aria-pressed="true"]{background:#d8efe3;border-color:#479779}
+.situation-controls button:disabled,.situation-turn button:disabled{opacity:.5;cursor:not-allowed}
+.situation-controls [role="status"]{color:#4c6c60;font-size:.86rem;min-height:1.3em}
+.situation-turn.is-speaking{outline:3px solid #297d67;outline-offset:2px}
+.situation-turn .situation-translation:not([hidden]){border-top:1px solid #c8ddd2;margin-top:9px;padding-top:9px;color:#48675a}
+.situation-turn [data-situation-play-line]{display:inline-flex;margin-top:10px;padding:5px 9px;font-size:.78rem}
+@media(max-width:700px){.situation-controls{align-items:stretch}.situation-controls button{flex:1 1 auto}.situation-controls [role="status"]{flex-basis:100%}}
