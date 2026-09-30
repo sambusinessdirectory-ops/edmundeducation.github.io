@@ -21,6 +21,7 @@ let reconstructedPaperNodes = null;
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
   system: 'ielts', dseCatalogue: [], dseCataloguePromise: null, dseSort: 'desc', dsePaperMode: 'practice',
+  dseAttemptId: null, dseSubmitted: false, dseRemoteReady: false, dseSavePromise: null, dseSaveTimer: 0,
   attemptId: null, answers: {}, results: {}, bookmarks: new Set(), bookmarkItems: new Map(), pendingBookmarks: new Set(), bookmarkError: false, activeAnalysis: 0, activeSkimming: 0, analysisMode: 'analysis',
   timerRunning: false, durationMs: 0, timerStartedAt: 0, timerHandle: 0, autosaveHandle: 0,
   timerMode: "stopwatch", countdownMinutes: 20, forceSubmit: false, submitting: false,
@@ -139,7 +140,7 @@ async function ensureSession() {
 }
 async function rpc(name, args) { const client = await ensureSession(); const { data, error } = await client.rpc(name, args); if (error) throw error; return data; }
 function saveSession() { try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...state.user, token: state.token, role: "student" })); } catch {} }
-function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
+function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.fullExam = null; state.dseRemoteReady = false; clearTimeout(state.dseSaveTimer); state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
 function readSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null"); } catch { return null; } }
 async function validateToken(token) {
   const rows = await rpc("flashcard_student_session_profile", { p_token: token }); const row = Array.isArray(rows) ? rows[0] : null;
@@ -607,7 +608,14 @@ async function prepareForReadingNavigation() {
     state.exerciseReady = false;
     return true;
   }
-  if (state.system === 'dse' && state.view === 'exercise') saveDseDraft();
+  if (state.system === 'dse' && state.view === 'exercise') {
+    saveDseDraft();
+    clearTimeout(state.dseSaveTimer);
+    if (!state.dseSubmitted && !await saveDseAttempt('save', true)) {
+      showToast('答案未能同步到帳戶，請檢查連線後再切換。');
+      return false;
+    }
+  }
   if (state.system === 'ielts' && state.view === 'exercise' && state.exerciseReady && !state.results.finalized) {
     collectAnswers();
     const needsSave = state.attemptId || Object.keys(state.answers).length || currentDuration();
@@ -688,12 +696,12 @@ function setExerciseSystem(system) {
     document.body.classList.remove('dse-paper-mode');
     exercise.classList.remove('dse-paper-view', 'dse-scan-view');
     $('[data-dse-paper-view-switch]').hidden = true;
-    $('[data-dse-paper-view-note]').hidden = true;
     $('[data-dse-scan-gallery]').hidden = true;
   }
   $$('[data-ielts-only]').forEach((node) => { node.hidden = dse; });
   $('[data-dse-tools-notice]').hidden = !dse;
   $('[data-dse-draft-note]').hidden = !dse;
+  $('[data-dse-submit-bar]').hidden = !dse;
   if (dse) { el.forceSubmit.checked = false; state.forceSubmit = false; el.forceLabel.hidden = true; }
 }
 
@@ -824,7 +832,6 @@ function setDsePaperMode(mode, remember = false) {
   exercise.classList.toggle('dse-paper-view', next === 'paper');
   exercise.classList.toggle('dse-scan-view', next === 'scan');
   $('[data-dse-scan-gallery]').hidden = next !== 'scan';
-  $('[data-dse-paper-view-note]').hidden = next !== 'paper';
   $$('[data-dse-display-mode]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.dseDisplayMode === next)));
   if (remember && next !== 'scan') {
     try { localStorage.setItem('edmund-dse-reading-view-v1', next); } catch {}
@@ -843,9 +850,6 @@ async function configureDsePaperViews() {
   gallery.innerHTML = pages.map((page) => `<figure class="dse-scan-page"><figcaption>${page.kind === 'passage' ? '文章' : '題目'} · 原卷第 ${page.number} 頁</figcaption><a href="${escapeHtml(page.src)}" target="_blank" rel="noopener"><img src="${escapeHtml(page.src)}" alt="${escapeHtml(state.data.year)} Part ${escapeHtml(state.data.section)} ${page.kind === 'passage' ? '文章' : '題目'}原卷第 ${page.number} 頁" loading="lazy"></a></figure>`).join('');
   $('[data-dse-display-mode="scan"]').hidden = !pages.length;
   $('[data-dse-display-mode="paper"]').hidden = !state.dsePaperLayout;
-  $('[data-dse-paper-view-note]').textContent = pages.length
-    ? '這個版本使用已數碼化的原卷文字與題目；如需核對原卷的頁碼、行距及圖像細節，請切換至原卷影像。'
-    : '這個版本使用已數碼化的原卷文字與題目；這份試卷的原卷影像暫未在網站提供。';
   $('[data-dse-paper-view-switch]').hidden = false;
   let preferred = state.dsePaperMode;
   if (preferred === 'practice') {
@@ -990,7 +994,124 @@ function dseDraftKey() {
   const base = `edmund-dse-reading-draft-v1:${state.user?.id || 'student'}:${ARTICLE_ID}`;
   return state.data?.questionRevision ? `${base}:${state.data.questionRevision}` : base;
 }
-function saveDseDraft() { if (state.system !== 'dse') return; collectAnswers(); try { localStorage.setItem(dseDraftKey(), JSON.stringify(state.answers)); } catch {} }
+function saveDseDraft() {
+  if (state.system !== 'dse' || state.dseSubmitted) return;
+  collectAnswers();
+  try {
+    localStorage.setItem(dseDraftKey(), JSON.stringify(state.answers));
+    localStorage.setItem(dseDraftKey() + ':updated', new Date().toISOString());
+  } catch {}
+  if (state.dseRemoteReady) {
+    clearTimeout(state.dseSaveTimer);
+    state.dseSaveTimer = setTimeout(() => { void saveDseAttempt('save', true); }, 900);
+  }
+}
+function showDseAttemptState() {
+  const submitted = state.dseSubmitted;
+  lockQuestionForm(submitted);
+  $('[data-dse-submit]').hidden = submitted;
+  $('[data-dse-submit]').disabled = !state.dseRemoteReady;
+  $('[data-dse-new-attempt]').hidden = !submitted;
+  $('[data-dse-draft-note]').textContent = submitted
+    ? '這份試卷已提交並儲存到帳戶。已提供的參考答案可從題目解析開啟。'
+    : '作答會自動儲存到帳戶。提交後可在此查看紀錄；已提供的參考答案可從題目解析開啟。';
+}
+async function saveDseAttempt(action = 'save', silent = false) {
+  if (state.system !== 'dse') return true;
+  if (!state.dseRemoteReady) return false;
+  if (state.dseSubmitted) return true;
+  if (state.dseSavePromise) { await state.dseSavePromise; return saveDseAttempt(action, silent); }
+  collectAnswers();
+  if (action === 'save' && !state.dseAttemptId && !Object.keys(state.answers).length) return true;
+  const paperId = ARTICLE_ID;
+  const revision = state.data.questionRevision || 'v1';
+  const answers = { ...state.answers };
+  const task = rpc('dse_reading_attempt', {
+    p_token: state.token, p_paper_id: paperId, p_revision: revision,
+    p_action: action, p_attempt_id: state.dseAttemptId, p_answers: answers
+  });
+  state.dseSavePromise = task;
+  try {
+    const result = await task;
+    if (state.system !== 'dse' || ARTICLE_ID !== paperId) return true;
+    state.dseAttemptId = result.attempt_id;
+    if (action === 'submit') {
+      state.dseSubmitted = true;
+      showDseAttemptState();
+      el.submissionStatus.textContent = '試卷已正式提交並儲存到帳戶。此卷暫未提供自動評分；可在已有解析的題目查看參考答案。';
+      showToast('試卷已提交。');
+    } else if (!silent) showToast('答案已儲存到帳戶。');
+    return true;
+  } catch (error) {
+    console.warn('DSE attempt save failed', error);
+    if (!silent) showToast('未能儲存到帳戶，請檢查連線後再試。');
+    el.submissionStatus.textContent = '帳戶儲存暫時失敗；本機草稿仍保留。請檢查連線後重試。';
+    return false;
+  } finally {
+    if (state.dseSavePromise === task) state.dseSavePromise = null;
+  }
+}
+async function loadDseAttempt() {
+  const paperId = ARTICLE_ID;
+  const revision = state.data.questionRevision || 'v1';
+  const localAnswers = { ...state.answers };
+  let localUpdated = 0;
+  try { localUpdated = Date.parse(localStorage.getItem(dseDraftKey() + ':updated') || '') || 0; } catch {}
+  try {
+    const result = await rpc('dse_reading_attempt', {
+      p_token: state.token, p_paper_id: paperId, p_revision: revision, p_action: 'get'
+    });
+    if (ARTICLE_ID !== paperId || state.system !== 'dse') return;
+    state.dseAttemptId = result?.attempt_id || null;
+    state.dseSubmitted = result?.status === 'submitted';
+    if (result && (state.dseSubmitted || Date.parse(result.updated_at || '') >= localUpdated)) {
+      state.answers = result.answers || {};
+      $$('[data-answer-part]', el.questionForm).forEach((control) => {
+        const value = state.answers[control.name] || '';
+        if (control.type === 'radio' || control.type === 'checkbox') control.checked = value.split(',').map((entry) => entry.trim()).includes(control.value);
+        else control.value = value;
+      });
+    } else state.answers = localAnswers;
+    state.dseRemoteReady = true;
+    showDseAttemptState();
+    updateAnswerProgress();
+    el.submissionStatus.textContent = state.dseSubmitted
+      ? '已提交的試卷已從帳戶載入。這份試卷暫未提供自動評分。'
+      : '作答已連接帳戶，會自動儲存。';
+    if (!state.dseSubmitted && Object.keys(state.answers).length && (!result || localUpdated > Date.parse(result.updated_at || ''))) {
+      void saveDseAttempt('save', true);
+    }
+  } catch (error) {
+    console.warn('Could not load DSE attempt', error);
+    state.dseRemoteReady = false;
+    el.submissionStatus.textContent = '暫時無法連接帳戶；本機草稿仍保留。請重新整理後再提交。';
+    $('[data-dse-draft-note]').textContent = '帳戶同步暫時無法使用；本機草稿仍保留，請重新整理後再試。';
+    $('[data-dse-submit]').disabled = true;
+  }
+}
+async function startNewDseAttempt() {
+  if (!state.dseSubmitted) return;
+  try {
+    const result = await rpc('dse_reading_attempt', {
+      p_token: state.token, p_paper_id: ARTICLE_ID,
+      p_revision: state.data.questionRevision || 'v1', p_action: 'new'
+    });
+    state.dseAttemptId = result.attempt_id;
+    state.dseSubmitted = false;
+    state.answers = {};
+    $$('[data-answer-part]', el.questionForm).forEach((control) => {
+      if (control.type === 'radio' || control.type === 'checkbox') control.checked = false;
+      else control.value = '';
+    });
+    try { localStorage.removeItem(dseDraftKey()); localStorage.removeItem(dseDraftKey() + ':updated'); } catch {}
+    showDseAttemptState();
+    updateAnswerProgress();
+    el.submissionStatus.textContent = '已開始新的作答；答案會自動儲存到帳戶。';
+  } catch (error) {
+    console.warn('Could not start DSE attempt', error);
+    showToast('暫時無法開始新的作答，請稍後再試。');
+  }
+}
 async function verifyDeepAnalysisSourceAdmin() {
   // A local role flag alone is not proof of administrator identity.
   // Revalidate the existing Flashcard admin credentials; never store new ones.
@@ -1445,21 +1566,32 @@ function setupInteractiveFlashcardsPanel() {
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
   try {
-    if (state.system === 'dse' && state.view === 'exercise') saveDseDraft();
+    if (state.system === 'dse' && state.view === 'exercise') {
+      saveDseDraft();
+      clearTimeout(state.dseSaveTimer);
+      if (!state.dseSubmitted && !await saveDseAttempt('save', true)) throw new Error('目前試卷未能儲存到帳戶，請檢查連線後再切換。');
+    }
     setExerciseSystem('dse');
     const entry = await loadDseArticleData(id);
     $('[data-dse-tools-notice]').textContent = DEEP_ANALYSIS_ARTICLES.has(id)
       ? '完成每題後，可查看參考答案及完整深度解析。'
       : '答案及分析會稍後加入。';
     updateReadingFlashcardLink(`dse/reading/part-${state.data.section.toLowerCase()}/${state.data.year}`);
-    resetAttemptState(); renderPassage(); renderQuestions(); setupAudio(); restoreDseDraft(); updateAnswerProgress();
+    resetAttemptState();
+    state.dseAttemptId = null; state.dseSubmitted = false; state.dseRemoteReady = false;
+    clearTimeout(state.dseSaveTimer);
+    renderPassage(); renderQuestions(); setupAudio(); restoreDseDraft(); updateAnswerProgress();
+    await loadDseAttempt();
     await configureDsePaperViews();
     state.exerciseReady = true;
     state.timerHandle = setInterval(updateTimer, 250);
+    state.autosaveHandle = setInterval(() => {
+      if (state.view === 'exercise' && state.system === 'dse' && state.dseRemoteReady && !state.dseSubmitted)
+        void saveDseAttempt('save', true);
+    }, 15000);
     $('[data-exercise-title]').textContent = entry.title; $('#passage-title').textContent = entry.title;
     $('[data-exercise-kicker]').textContent = `${state.data.year} DSE · PAPER 1 · PART ${state.data.section}`;
     $('.questions-panel .pane-heading > .eyebrow').textContent = `QUESTIONS ${entry.questionStart}–${entry.questionEnd}`;
-    el.submissionStatus.textContent = '';
     const url = clearReadingRoute(new URL(location.href));
     url.searchParams.set('view', 'dse'); url.searchParams.set('year', String(state.data.year)); url.searchParams.set('section', state.data.section); url.searchParams.set('article', id);
     history.replaceState({}, '', url); document.title = `${entry.title}｜DSE 閱讀理解`;
@@ -1617,7 +1749,7 @@ function handleAnswerInput(event) {
 }
 el.questionForm.addEventListener("input", handleAnswerInput);
 el.questionForm.addEventListener("change", handleAnswerInput);
-el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); if (isFullExamOpen()) { void finishFullExam(false); return; } if (state.system === 'dse') { saveDseDraft(); showToast('作答內容已暫存在這部裝置。'); return; } submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
+el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); if (isFullExamOpen()) { void finishFullExam(false); return; } if (state.system === 'dse') { saveDseDraft(); void saveDseAttempt('submit'); return; } submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-dse-submit]').addEventListener('click', () => { saveDseDraft(); clearTimeout(state.dseSaveTimer); if (!Object.keys(state.answers).length) return showToast('請先作答至少一題。'); void saveDseAttempt('submit'); }); $('[data-dse-new-attempt]').addEventListener('click', () => void startNewDseAttempt()); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
 el.timerToggle.addEventListener("click", () => state.timerRunning ? pauseTimer() : startTimer());
 el.timerMode.addEventListener("change", () => { state.timerMode = el.timerMode.value; const countdown = state.timerMode === "countdown"; el.countdownLabel.hidden = !countdown; el.forceLabel.hidden = !countdown || state.system === 'dse'; el.timerModeLabel.textContent = countdown ? "倒數計時（選用）" : "計時（選用）"; updateTimer(); });
 el.countdownMinutes.addEventListener("change", () => { state.countdownMinutes = Math.max(1, Math.min(180, Number(el.countdownMinutes.value) || 20)); el.countdownMinutes.value = String(state.countdownMinutes); updateTimer(); }); el.forceSubmit.addEventListener("change", () => { state.forceSubmit = el.forceSubmit.checked; });

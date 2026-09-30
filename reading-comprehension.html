@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260930-source-pages2">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260930-dse-submit1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20260904-admin-source1">
 </head>
@@ -255,7 +255,6 @@
           <button type="button" data-dse-display-mode="scan" aria-pressed="false" hidden>原卷影像</button>
         </div>
       </section>
-      <p class="dse-paper-view-note" data-dse-paper-view-note hidden>這個版本使用已數碼化的原卷文字與題目；如需核對原卷的頁碼、行距及圖像細節，請切換至原卷影像。</p>
       <section class="dse-scan-gallery panel" data-dse-scan-gallery hidden aria-label="原卷影像參考">
         <div class="dse-scan-gallery-header"><div><p class="eyebrow">ORIGINAL PAPER REFERENCE</p><h2>原卷影像</h2></div><p>這些頁面供核對原卷編排；返回互動重繪版即可在文字上作答。</p></div>
         <div data-dse-scan-pages></div>
@@ -295,7 +294,8 @@
           <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions" data-ielts-only>☆ 收藏整組題目</button></div><label class="question-translation-toggle"><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label><p class="question-translation-availability" data-question-translation-availability hidden></p></div>
           <form data-question-form><div data-questions></div>
             <div class="submit-bar" data-ielts-only><button class="secondary-button" type="button" data-correct-answers hidden>訂正錯誤答案</button><button class="secondary-button" type="button" data-submit-partial>提交已作答題目</button><button class="primary-button" type="submit">提交全部答案</button></div>
-            <p class="dse-draft-note" data-dse-draft-note hidden>作答內容只會暫存在這部裝置；答案及正式提交功能會稍後加入。</p>
+            <div class="submit-bar dse-submit-bar" data-dse-submit-bar hidden><button class="primary-button" type="button" data-dse-submit>提交試卷</button><button class="secondary-button" type="button" data-dse-new-attempt hidden>重新作答</button></div>
+            <p class="dse-draft-note" data-dse-draft-note hidden>作答會自動儲存到帳戶。提交後可在此查看紀錄；已提供的參考答案可從題目解析開啟。</p>
             <p class="submission-status" data-submission-status role="status" aria-live="polite"></p>
           </form>
         </aside>
@@ -337,7 +337,7 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260930-source-pages2"></script>
+  <script type="module" src="reading-comprehension.js?v=20260930-dse-submit1"></script>
 <script type="module" src="reading-teaching-tools.mjs?v=20260906"></script>
 <script type="module" src="study-support.mjs?v=20260907-study4"></script></body>
 </html>
