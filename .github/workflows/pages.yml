@@ -72,6 +72,8 @@ jobs:
         run: |
           node --check synonyms/app.mjs
           node --check synonyms/important-data.mjs
+          node --check synonyms/lessons-data.mjs
+          node tools/test-synonym-lessons-import.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}

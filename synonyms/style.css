@@ -124,6 +124,17 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-home h3,.syn-guide h3,.syn-false h3 { margin:0 0 8px; font-family:Georgia,"Noto Serif TC Local",serif; font-size:clamp(26px,3.4vw,38px); }
 .syn-home>p:not(.syn-kicker),.syn-guide>p:not(.syn-kicker),.syn-false>p:not(.syn-kicker) { color:#5d7a7a; line-height:1.65; }
 .syn-module-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:26px; }
+.syn-module-grid>[hidden] { display:none; }
+.syn-search-label { display:block; max-width:380px; margin-top:20px; font-weight:800; color:#315f60; }
+.syn-search-label input { display:block; width:100%; margin-top:8px; padding:12px 15px; border:1px solid #8acbc2; border-radius:12px; background:#fff; color:#163f40; font:inherit; }
+.syn-search-label input:focus-visible { outline:3px solid #1b8a82; outline-offset:2px; }
+.syn-audit { margin-top:22px; padding:18px 22px; border:1px solid #bbded5; border-radius:16px; background:#f9fffb; line-height:1.65; }
+.syn-audit summary { cursor:pointer; font-weight:850; color:#155a5d; }
+.syn-audit-table { overflow-x:auto; margin-top:14px; }
+.syn-audit table { width:100%; border-collapse:collapse; }
+.syn-audit th,.syn-audit td { padding:10px 12px; border:1px solid #d0e8e1; text-align:left; vertical-align:top; }
+.syn-audit th { background:#eaf8f3; }
+.syn-audit p { margin-bottom:0; white-space:pre-line; }
 .syn-module-card { position:relative; display:flex; align-items:flex-start; flex-direction:column; gap:13px; min-height:248px; padding:26px; overflow:hidden; border:1px solid #8acbc2; border-radius:25px; color:#f8fffb; background:linear-gradient(125deg,#0e6668,#1b8a82 62%,#2d9ca0); text-align:left; box-shadow:0 8px 0 #c2e3da,0 18px 35px #1f80702a; transition:transform .23s ease,box-shadow .23s ease; }
 .syn-module-card::after { content:""; position:absolute; top:-12px; right:13px; width:175px; height:175px; background:url('/synonyms/icons/spark.svg') center/contain no-repeat; opacity:.16; transform:rotate(-12deg); pointer-events:none; }
 .syn-module-card:hover { transform:translateY(-5px); box-shadow:0 13px 0 #c2e3da,0 23px 40px #1f807038; }

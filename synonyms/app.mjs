@@ -1,15 +1,16 @@
 import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
+import { lessons } from './lessons-data.mjs?v=20260930-lessons1';
 import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
 import { synonymAudio } from './audio-manifest.mjs?v=20260928-four-voices1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
 import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20260928-recordings1';
 
-const modules = {important:importantModule,'social-media':socialMediaModule};
+const modules = {important:importantModule,'social-media':socialMediaModule,...Object.fromEntries(lessons.map(item=>[item.id,item]))};
 const voices = ['american-female', 'american-male', 'british-male', 'british-female'];
 let moduleId = 'important', moduleData = importantModule, words = moduleData.words;
-const makeQuestions = (id,items) => items.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${id === 'important' ? '' : 'social-'}${wi + 1}-${ei + 1}`, wi, ei, word, exercise, voice: voices[(wi * 2 + ei) % 4]})));
+const makeQuestions = (id,items) => items.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${id === 'important' ? '' : id === 'social-media' ? 'social-' : id + '-'}${wi + 1}-${ei + 1}`, wi, ei, word, exercise, voice: voices[(wi * 2 + ei) % 4]})));
 let questions = makeQuestions(moduleId,words), byId = new Map(questions.map(question => [question.id, question])), total = questions.length;
 const dashboard = document.querySelector('[data-view="dashboard"]');
 dashboard?.querySelector('.learning-portal-empty')?.remove();
@@ -40,7 +41,7 @@ let recorderDispose = null, recordingsEpoch = 0;
 const recordingUrls = [];
 const recordingItems = new Map();
 let pending = new Map();
-const progressKey = (id=moduleId) => `edmund-synonyms-${id === 'important' ? 'important' : 'social-media'}-v1:${owner}`;
+const progressKey = (id=moduleId) => `edmund-synonyms-${id}-v1:${owner}`;
 const blankProgress = () => ({answers:{},order:[],cursor:0});
 function selectModule(id) {
   if (!modules[id] || id === moduleId) return;
@@ -149,8 +150,7 @@ function shuffle(items) {
 }
 function newOrder() {
   for (let attempt=0;attempt<300;attempt++) {
-    const buckets = voices.map((_,voiceIndex) => shuffle(questions.filter(q => voices.indexOf(q.voice)===voiceIndex)));
-    const sequence = Array.from({length:7},(_,i) => buckets.map(bucket => bucket[i])).flat();
+    const sequence=shuffle(questions);
     if (sequence.every((q,i) => !i || q.wi !== sequence[i-1].wi)) return sequence.map(q=>q.id);
   }
   return questions.map(q=>q.id);
@@ -162,7 +162,7 @@ function go(next) {
   recordingItems.clear();
   view = next;
   if (next !== 'question') { choice = null; stopVoice(); }
-  const hash = moduleId === 'important' ? (next === 'false' ? 'false-synonyms' : next) : `social-media:${next}`;
+  const hash = moduleId === 'important' ? (next === 'false' ? 'false-synonyms' : next) : `${moduleId}:${next}`;
   history.pushState({synonymsView:next},'',`#${hash}`);
   render();
   host.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
@@ -231,13 +231,15 @@ async function playClip(item,cacheKey,status) {
 }
 function playVoice() {
   const q=current();if(!q)return;
-  return playClip(moduleId==='important'?synonymAudio[q.id]:socialMediaAudio.exercises[q.id],q.id,host.querySelector('[data-audio-status]'));
+  const clip=moduleId==='important'?synonymAudio[q.id]:moduleId==='social-media'?socialMediaAudio.exercises[q.id]:{text:q.exercise.original};
+  return playClip(clip,q.id,host.querySelector('[data-audio-status]'));
 }
 function playGuideAudio(kind,index,button) {
   const status=button.parentElement.querySelector('[data-guide-audio-status]');
-  const path=(moduleId==='important'?guideAudio:socialMediaAudio.guide)[String(index)]?.[kind];
-  if(!path){if(status)status.textContent='音訊暫不可用。';return;}
-  return playClip({path},'guide:'+index+':'+kind,status);
+  const path=(moduleId==='important'?guideAudio:moduleId==='social-media'?socialMediaAudio.guide:{})[String(index)]?.[kind];
+  const word=words[Number(index)-1];
+  const clip=path?{path}:{text:kind==='word'?word?.word:word?.example||word?.exercises[0]?.upgrade};
+  return playClip(clip,moduleId+':guide:'+index+':'+kind,status);
 }
 function stats() {
   return '<div class="syn-stats" aria-label="練習進度"><span><strong>'+attempted()+'</strong><small>/ '+total+' 已作答</small></span><span><strong>'+mastered()+'</strong><small>已掌握</small></span><span><strong>'+streak+'</strong><small>連續答對</small></span></div>';
@@ -253,18 +255,25 @@ function shell(content) {
 }
 function renderHome() {
   const cards=Object.entries(modules).map(([id,data],index)=>{
-    const saved=moduleProgress(id), count=Object.keys(saved.answers||{}).filter(key=>key.startsWith(id==='important'?'':'social-') && (saved.answers[key]?.attempts||0)>0).length;
-    return '<button class="syn-module-card" type="button" data-module="'+id+'"><span class="syn-module-index">'+String(index+1).padStart(2,'0')+' / SYNONYM EXPANSION</span><strong>'+esc(data.title)+'</strong><small>'+data.words.length+' 個更精準的詞組 · '+data.words.reduce((n,w)=>n+w.exercises.length,0)+' 道選擇題</small><span class="syn-module-progress">已作答 '+count+' / '+data.words.reduce((n,w)=>n+w.exercises.length,0)+' 題</span></button>';
+    const saved=moduleProgress(id), prefix=id==='important'?'':id==='social-media'?'social-':id+'-';
+    const count=Object.keys(saved.answers||{}).filter(key=>key.startsWith(prefix) && (saved.answers[key]?.attempts||0)>0).length;
+    return '<button class="syn-module-card" type="button" data-module="'+id+'" data-search="'+esc((data.title+' '+(data.headword||'')).toLowerCase())+'"><span class="syn-module-index">'+String(index+1).padStart(2,'0')+' / SYNONYM EXPANSION</span><strong>'+esc(data.title)+'</strong><small>'+data.words.length+' 個更精準的詞組 · '+data.words.reduce((n,w)=>n+w.exercises.length,0)+' 道選擇題</small><span class="syn-module-progress">已作答 '+count+' / '+data.words.reduce((n,w)=>n+w.exercises.length,0)+' 題</span></button>';
   }).join('');
-  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>每個模組先認識詞義，再以語境練習運用。</p><div class="syn-module-grid">'+cards+'</div></section>');
+  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>按常用程度排列。每個模組先認識詞義，再以語境練習運用。</p><label class="syn-search-label">搜尋詞語 <input type="search" data-module-search placeholder="例如 agree、ability、age"></label><div class="syn-module-grid">'+cards+'</div></section>');
+}
+function renderAudit(data) {
+  if(!data)return '';
+  const table=data.headers?.length?'<div class="syn-audit-table"><table><thead><tr>'+data.headers.map(cell=>'<th>'+esc(cell)+'</th>').join('')+'</tr></thead><tbody>'+data.rows.map(row=>'<tr>'+row.map(cell=>'<td>'+esc(cell)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>':'';
+  return table+(data.note?'<p>'+esc(data.note)+'</p>':'');
 }
 function renderModule() {
-  shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE '+(moduleId==='important'?'01 · IMPORTANT':'02 · SOCIAL MEDIA')+'</p><h3>'+esc(moduleData.subtitle||'重要，究竟有多重要？')+'</h3><p>'+esc(moduleData.description||'重大、關鍵、不可或缺、影響深遠——英文會按語境選用不同的字。')+'</p><div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 '+words.length+' 個詞組 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button></div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>題已掌握</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>');
+  const number=moduleData.moduleNumber|| (moduleId==='important'?1:2);
+  shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE '+String(number).padStart(2,'0')+' · '+esc(moduleData.title.toUpperCase())+'</p><h3>'+esc(moduleData.subtitle||moduleData.title)+'</h3><p>'+esc(moduleData.description||'先看同義詞指南，再練習選出語境最貼切的表達。')+'</p><div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 '+words.length+' 個詞組 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button></div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>題已掌握</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>'+(moduleData.sourceMap?'<details class="syn-audit"><summary>查看原始候選詞核對</summary>'+renderAudit(moduleData.sourceMap)+'</details>':''));
 }
 function renderGuide() {
-  const cards=words.map(word=>{const example=word.exercises[0].upgrade.replace('______',word.word);const note=word.note||word.exercises[0].options.find(o=>o.text===word.word)?.explanation||word.meaning;
-    return '<article class="syn-word-card"><span>'+String(word.order).padStart(2,'0')+'</span><div><h4>'+esc(word.word[0].toUpperCase()+word.word.slice(1))+'</h4><div class="syn-word-audio-controls"><button type="button" data-guide-audio="word:'+word.order+'" aria-label="播放 '+esc(word.word)+' 的讀音">'+icon('audio')+'聽讀音</button><span data-guide-audio-status role="status"></span></div><strong>'+esc(word.meaning)+'</strong><p>'+esc(note)+'</p><div class="syn-guide-example"><small lang="en">'+esc(example)+'</small><p class="syn-guide-translation">'+esc(word.exercises[0].zh)+'</p><button type="button" data-guide-audio="sentence:'+word.order+'" aria-label="播放例句">'+icon('audio')+'聽例句</button><span data-guide-audio-status role="status"></span></div></div></article>';}).join('');
-  shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>'+esc(moduleData.title)+' 的 '+words.length+' 種更精準說法</h3><p>看看每個詞組的重點和例句。準備好後，進入隨機排列的 '+total+' 題練習。</p><div class="syn-word-grid">'+cards+'</div><div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button><button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 '+total+' 題練習')+' →</button></div></section>');
+  const cards=words.map(word=>{const example=word.example||word.exercises[0].upgrade.replace('______',word.word);const note=word.note||word.exercises[0].options.find(o=>o.text===word.word)?.explanation||word.meaning;
+    return '<article class="syn-word-card"><span>'+String(word.order).padStart(2,'0')+'</span><div><h4>'+esc(word.word[0].toUpperCase()+word.word.slice(1))+'</h4><div class="syn-word-audio-controls"><button type="button" data-guide-audio="word:'+word.order+'" aria-label="播放 '+esc(word.word)+' 的讀音">'+icon('audio')+'聽讀音</button><span data-guide-audio-status role="status"></span></div><strong>'+esc(word.meaning)+'</strong><p>'+esc(note)+'</p>'+(word.collocations?'<p><b>常見搭配：</b>'+esc(word.collocations)+'</p>':'')+(word.contrast?'<p><b>辨析：</b>'+esc(word.contrast)+'</p>':'')+'<div class="syn-guide-example"><small lang="en">'+esc(example)+'</small><p class="syn-guide-translation">'+esc(word.exampleZh||word.exercises[0].zh)+'</p><button type="button" data-guide-audio="sentence:'+word.order+'" aria-label="播放例句">'+icon('audio')+'聽例句</button><span data-guide-audio-status role="status"></span></div></div></article>';}).join('');
+  shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>'+esc(moduleData.title)+' 的 '+words.length+' 種更精準說法</h3><p>看看每個詞組的重點和例句。準備好後，進入隨機排列的 '+total+' 題練習。</p><div class="syn-word-grid">'+cards+'</div>'+(moduleData.quickChoice?'<details class="syn-audit"><summary>快速選詞規則</summary>'+renderAudit(moduleData.quickChoice)+'</details>':'')+'<div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button><button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 '+total+' 題練習')+' →</button></div></section>');
 }
 function renderFalse() {
   const cards=falseSynonyms.map((item,i)=>'<article class="syn-false-card"><span>'+String(i+1).padStart(2,'0')+'</span><div><h4>'+esc(item.word)+'</h4><p class="syn-false-description">'+esc(item.zh)+'</p><p lang="en">'+esc(item.point)+'</p></div></article>').join('');
@@ -273,10 +282,13 @@ function renderFalse() {
 function renderQuestion() {
   const q=current();if (!q) {go('guide');return;}
   const selected=q.exercise.options.find(o=>o.letter===choice),correct=selected?.text===q.exercise.answer;
-  const original=esc(q.exercise.original).replace(moduleId==='important'?/\bimportant\b/gi:/\bsocial media\b/gi,'<mark>$&</mark>');
+  const headword=moduleData.headword|| (moduleId==='important'?'important':'social media');
+  const escapedHeadword=esc(headword);
+  const regex=new RegExp(escapedHeadword.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');
+  const original=esc(q.exercise.original).replace(regex,'<mark>$&</mark>');
   const options=q.exercise.options.map(o=>{const state=choice?(o.text===q.exercise.answer?'is-correct':o.letter===choice?'is-wrong':'is-muted'):'';
     return '<button class="syn-option '+state+'" type="button" data-answer="'+o.letter+'" '+(choice?'disabled':'')+'><span class="syn-option-letter">'+o.letter+'</span><span>'+esc(o.text)+'</span><span class="syn-option-icon" aria-hidden="true">'+(choice&&o.text===q.exercise.answer?icon('check'):'')+'</span></button>';}).join('');
-  const feedback=choice?'<section class="syn-feedback '+(correct?'is-right':'is-try-again')+'" tabindex="-1" aria-live="polite"><div class="syn-feedback-top"><span class="syn-feedback-symbol" aria-hidden="true">'+icon(correct?'check':'retry')+'</span><div><p class="syn-kicker">'+(correct?'NICE CHOICE':'LEARN THE DIFFERENCE')+'</p><h4>'+(correct?'選得準確！':'再看一次語境；這題稍後會再出現')+'</h4></div></div><p class="syn-reveal"><strong>'+esc(q.exercise.answer)+'</strong> · '+esc(q.word.meaning)+'</p><div class="syn-explanations"><h5>六個選項的解釋</h5>'+q.exercise.options.map(o=>'<div class="'+(o.text===q.exercise.answer?'is-answer':'')+'"><strong>'+o.letter+'. '+esc(o.text)+'</strong><span>'+esc(detailedFeedback[q.id]?.[o.letter]||o.explanation)+'</span></div>').join('')+'</div><button class="syn-primary" type="button" data-next>'+(progress.cursor===progress.order.length-1?'查看結果':'下一題')+' →</button></section>':'';
+  const feedback=choice?'<section class="syn-feedback '+(correct?'is-right':'is-try-again')+'" tabindex="-1" aria-live="polite"><div class="syn-feedback-top"><span class="syn-feedback-symbol" aria-hidden="true">'+icon(correct?'check':'retry')+'</span><div><p class="syn-kicker">'+(correct?'NICE CHOICE':'LEARN THE DIFFERENCE')+'</p><h4>'+(correct?'選得準確！':'再看一次語境；這題稍後會再出現')+'</h4></div></div><p class="syn-reveal"><strong>'+esc(q.exercise.answer)+'</strong> · '+esc(q.word.meaning)+'</p>'+(q.exercise.upgrade?'<p class="syn-correct-rewrite"><b>正確改寫：</b> '+esc(q.exercise.upgrade)+'</p>':'')+'<div class="syn-explanations"><h5>六個選項的解釋</h5>'+q.exercise.options.map(o=>'<div class="'+(o.text===q.exercise.answer?'is-answer':'')+'"><strong>'+o.letter+'. '+esc(o.text)+'</strong><span>'+esc(detailedFeedback[q.id]?.[o.letter]||o.explanation)+'</span></div>').join('')+'</div><button class="syn-primary" type="button" data-next>'+(progress.cursor===progress.order.length-1?'查看結果':'下一題')+' →</button></section>':'';
   shell('<div class="syn-play syn-enter"><nav class="syn-play-nav" aria-label="練習導覽"><button type="button" data-go="guide">返回同義詞指南</button><span>QUESTION '+String(progress.cursor+1).padStart(2,'0')+' / '+progress.order.length+'</span></nav><div class="syn-track" aria-hidden="true"><span style="width:'+((progress.cursor+1)/progress.order.length*100)+'%"></span></div><section class="syn-question-card"><div class="syn-question-label"><span class="syn-orbit" aria-hidden="true">'+icon('spark')+'</span><span>選出最適合這句話的同義詞</span></div><div class="syn-original"><span>READ THE CONTEXT · 閱讀語境</span><p lang="en">'+original+'</p></div><p class="syn-question-translation"><strong>中文翻譯</strong> '+esc(q.exercise.zh)+'</p><div class="syn-helpers"><button type="button" data-speak aria-label="播放原句示範音訊">'+icon('audio')+'聽示範</button><button type="button" data-open-recorder>'+icon('microphone')+'錄音朗讀</button><span data-audio-status role="status" aria-live="polite"></span></div><section class="syn-recorder" data-recorder hidden></section><div class="syn-options" role="group" aria-label="選擇最貼切的同義詞">'+options+'</div>'+(!choice?'<p class="syn-keyboard">點選答案，或按鍵盤 1–6。</p>':'')+feedback+'</section></div>');
 }
 function renderFinish() {
@@ -317,7 +329,8 @@ function syncSession() {
 window.addEventListener('edmund:learning-portal-session',syncSession);
 window.addEventListener('storage',event=>{if(owner&&event.key===progressKey()){readLocal();render();}});
 window.addEventListener('online',()=>{if(owner){if(pending.size)void syncPending();else void loadAccount();}});
-window.addEventListener('popstate',()=>{if(!owner)return;const hash=location.hash.slice(1);const social=hash.startsWith('social-media:');selectModule(social?'social-media':'important');const part=social?hash.slice(13):hash;view=part==='false-synonyms'?'false':['home','module','guide','question','finish','recordings','false'].includes(part)?part:'home';if(view==='question'&&!current())view='guide';render();});
+window.addEventListener('popstate',()=>{if(!owner)return;const hash=location.hash.slice(1);const separator=hash.indexOf(':');const target=separator>0?hash.slice(0,separator):'important';selectModule(modules[target]?target:'important');const part=separator>0?hash.slice(separator+1):hash;view=part==='false-synonyms'?'false':['home','module','guide','question','finish','recordings','false'].includes(part)?part:'home';if(view==='question'&&!current())view='guide';render();});
+host.addEventListener('input',event=>{if(!event.target.matches('[data-module-search]'))return;const query=event.target.value.trim().toLowerCase();host.querySelectorAll('[data-module]').forEach(card=>{card.hidden=!card.dataset.search.includes(query);});});
 async function playRecording(button) {
   const item=recordingItems.get(button.dataset.playRecording),card=button.closest('.syn-recording-card'),status=card?.querySelector('[role="status"]'),player=card?.querySelector('audio');
   if(!item||!player)return;
