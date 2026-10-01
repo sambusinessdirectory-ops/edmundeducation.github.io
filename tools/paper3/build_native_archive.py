@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild scanned DSE Paper 3 leaves as selectable SVG text over artwork.
-
-The source image is kept only for lines, boxes, photographs and illustrations;
-recognised English glyphs are removed and redrawn as native SVG text.  Pages
-with poor OCR coverage are reported for editorial review rather than released.
-"""
+"""Build side-by-side scanned pages with selectable OCR and translation drafts."""
 from __future__ import annotations
 
 import argparse
@@ -26,6 +21,7 @@ from pathlib import Path
 from PIL import Image
 
 PDFTOPPM = os.environ.get("PDFTOPPM", "/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm")
+MANUAL_OVERRIDES = json.loads(Path(__file__).with_name("manual-overrides.json").read_text(encoding="utf-8"))
 YEAR_FILES = {
     2012: "DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Data File.pdf",
     2014: "2014 Paper 3.pdf",
@@ -60,14 +56,17 @@ def ocr_lines(image_path: Path):
     result = subprocess.run(["tesseract", str(image_path), "stdout", "--psm", "3", "tsv"], capture_output=True, text=True, check=True)
     groups = {}
     for row in csv.DictReader(io.StringIO(result.stdout), delimiter="\t"):
-        if row["level"] != "5" or not row["text"].strip():
+        raw_word = row["text"].strip()
+        # A malformed TSV row once swallowed the remainder of a page into one
+        # "word". Do not present raw OCR records as selectable source text.
+        if row["level"] != "5" or not raw_word or len(raw_word) > 160 or "\t" in raw_word or "\n" in raw_word:
             continue
         try:
             conf = float(row["conf"])
         except ValueError:
             continue
         key = (row["block_num"], row["par_num"], row["line_num"])
-        groups.setdefault(key, []).append({"x": int(row["left"]), "y": int(row["top"]), "w": int(row["width"]), "h": int(row["height"]), "conf": conf, "text": row["text"].strip()})
+        groups.setdefault(key, []).append({"x": int(row["left"]), "y": int(row["top"]), "w": int(row["width"]), "h": int(row["height"]), "conf": conf, "text": raw_word})
     lines = []
     for words in groups.values():
         words.sort(key=lambda item: item["x"])
@@ -186,7 +185,17 @@ def render_page(source: Path, source_page: int, output_dir: Path, leaf: int, kin
         lines_exact = exact_endings[(source.name, source_page)]
         native_html = "".join(f"<p>{html.escape(item)}</p>" for item in lines_exact)
         source_text = "\n".join(lines_exact)
-    translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt") if translate else ""
+    override = MANUAL_OVERRIDES.get(output_dir.name, {}).get(str(leaf))
+    if override:
+        native_html = "".join(f"<{tag}>{html.escape(text)}</{tag}>" for tag, text in override["english"] if tag in {"h3", "p"})
+        source_text = "\n".join(text for _, text in override["english"])
+        translation = "\n".join(override["chinese"]) if translate else ""
+        if translate:
+            cache = asset_dir / f"{stem}.zh.txt"
+            cache.write_text(translation, encoding="utf-8")
+            cache.with_suffix(".source-sha256").write_text(hashlib.sha256(source_text.encode("utf-8")).hexdigest(), encoding="utf-8")
+    else:
+        translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt") if translate else ""
     high_conf_words = sum(len(line["words"]) for line in lines if line["conf"] >= 64)
     return {"leaf": leaf, "kind": kind, "source_page": source_page, "source": source.name, "image": f"assets/{stem}.webp", "native": native_html, "translation": translation, "coverage": high_conf_words / all_words if all_words else 0, "words": all_words, "native_words": native_words, "text": source_text, "missing": kind == "data" and not source_text and all_words < 8}
 

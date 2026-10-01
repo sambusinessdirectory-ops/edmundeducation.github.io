@@ -39,3 +39,7 @@ python3 tools/paper3/audit_native_archive.py paper3 > tools/paper3/reconstructio
 ```
 
 The structural audit checks assets and counts; **a clean structural result is not editorial approval**.
+
+## Corrections after live review
+
+- 2021 B2 Data File source page 19 (reader leaf 2): malformed Tesseract TSV had leaked into the selectable English and its machine translation. The English was transcribed against the source image, the Chinese was rewritten, and a manual override now preserves both on rebuild. The audit now flags raw TSV records and extreme digit noise; its new rule rejects the previous page text and accepts the correction.

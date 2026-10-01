@@ -34,6 +34,8 @@ def audit_reader(folder: Path) -> dict:
             issues.append(f"page {n}: minimal selectable English")
         if re.search(r"[sScCeEnN]{14,}|\.{10,}", page["text"]):
             issues.append(f"page {n}: OCR leader/noise")
+        if re.search(r"(?:^|\n)[1-5]\t\d+\t\d+\t", page["text"]) or (len(page["text"]) > 200 and sum(c.isdigit() for c in page["text"]) / max(1, sum(c.isalnum() for c in page["text"])) > .25):
+            issues.append(f"page {n}: raw OCR records or digit noise")
     return {"reader": folder.name, "pages": report["pages"], "data_pages": report["data_pages"], "qab_pages": report["qab_pages"], "missing_source_pages": report.get("missing_source_pages", []), "low_confidence": report["low_coverage"], "issues": issues}
 
 
