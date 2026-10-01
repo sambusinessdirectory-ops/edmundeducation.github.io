@@ -1,5 +1,5 @@
 {
-  "version": "20260905-dse-2024-b1",
+  "version": "20261001-dse-2024-a-native-v1",
   "years": [
     {
       "year": 2012,
@@ -388,7 +388,15 @@
     {
       "year": 2024,
       "sections": {
-        "A": null,
+        "A": {
+          "id": "dse-2024-a",
+          "title": "Hong Kong’s Banyan Trees",
+          "questionStart": 1,
+          "questionEnd": 23,
+          "questionCount": 23,
+          "version": "20261001-dse-2024-a-native-v1",
+          "audio": true
+        },
         "B1": {
           "id": "dse-2024-b1",
           "title": "Some Old Hawkers are Still Here",

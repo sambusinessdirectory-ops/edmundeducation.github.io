@@ -29,5 +29,5 @@ const row=prepareTranslation(data,await read('tools/dse-reading-translations/dse
 assert.equal(row.content.entries.filter(e=>/^paragraphs\/\d+\/text$/.test(e.path)).length,14);
 assert.ok(data.questions.every(q=>!('answer' in q)));
 const year=(await read('dse-reading-catalogue.json')).years.find(y=>y.year===2024);
-assert.equal(year.sections.B1.id,data.id);assert.equal(year.sections.B2.id,'dse-2024-b2');assert.equal(year.sections.A,null);
+assert.equal(year.sections.B1.id,data.id);assert.equal(year.sections.B2.id,'dse-2024-b2');assert.equal(year.sections.A.id,'dse-2024-a');
 console.log('DSE 2024 B1: both texts, 19 questions, 42 answer fields, original photographs, flow sequence, matching examples and complete translations verified.');

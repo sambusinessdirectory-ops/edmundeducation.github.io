@@ -4,10 +4,10 @@ import { articles, inventory, prepareTranslation, sources, sourceHash } from './
 
 const root = new URL('../', import.meta.url);
 const data = await articles();
-assert.equal(data.length, 44);
-assert.deepEqual(data.filter(item => item.year === 2024).map(item => item.id), ['dse-2024-b1', 'dse-2024-b2']);
-assert.equal(data.reduce((n, item) => n + item.paragraphs.length, 0), 685);
-assert.equal(data.reduce((n, item) => n + item.questions.length, 0), 1004);
+assert.equal(data.length, 45);
+assert.deepEqual(data.filter(item => item.year === 2024).map(item => item.id), ['dse-2024-a', 'dse-2024-b1', 'dse-2024-b2']);
+assert.equal(data.reduce((n, item) => n + item.paragraphs.length, 0), 703);
+assert.equal(data.reduce((n, item) => n + item.questions.length, 0), 1027);
 for (const article of data) {
   const fields = sources(article);
   assert.equal(new Set(fields.map(item => item.path)).size, fields.length);
@@ -37,7 +37,7 @@ for (const row of rows) {
     payload => payload.entries.reverse(),
     payload => { payload.entries[0].source += ' changed'; },
     payload => { payload.entries[0].translation = 'TODO'; },
-    payload => { payload.articleId = 'dse-2024-a'; },
+    payload => { payload.articleId = 'dse-2099-a'; },
     payload => { payload.entries.find(entry => entry.path.startsWith('questions/')).source += ' changed'; }
   ]) {
     const broken = structuredClone(row.content), untouched = structuredClone(original);

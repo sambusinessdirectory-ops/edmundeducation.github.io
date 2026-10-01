@@ -20,8 +20,8 @@
     2026
   ],
   "unpopulatedYears": [],
-  "sectionsReviewed": 44,
-  "questionsReviewed": 1004,
+  "sectionsReviewed": 45,
+  "questionsReviewed": 1027,
   "questionsCorrected": 321,
   "papers": {
     "dse-2012-a": {
@@ -652,9 +652,15 @@
       "status": "source-reviewed",
       "source": "DSE 2024 Reading B1 Q and A.pdf",
       "revision": "20260905-b1-source-verified"
+    },
+    "dse-2024-a": {
+      "questionsReviewed": 23,
+      "answerGroups": 42,
+      "correctedQuestions": [],
+      "status": "source-reviewed",
+      "source": "2024 Reading Part A.pdf (passages); Edmund Sir - 2024 Reading A - Question Analysis.pdf; 2024 EN I-QA (question-booklet cross-check)",
+      "revision": "20261001-a-source-verified"
     }
   },
-  "unpopulatedSections": [
-    "dse-2024-a"
-  ]
+  "unpopulatedSections": []
 }

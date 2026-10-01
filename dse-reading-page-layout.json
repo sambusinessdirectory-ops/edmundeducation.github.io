@@ -3575,5 +3575,110 @@
         ]
       }
     ]
+  },
+  "dse-2024-a": {
+    "year": 2024,
+    "section": "A",
+    "sourceHeading": "Government defends axing century-old banyans on safety grounds & A Tree Worthy of Worship: Hong Kong’s Banyans",
+    "passagePages": [
+      {
+        "sourcePage": 1,
+        "paragraphs": [],
+        "cover": {
+          "part": "A",
+          "sectionLabel": "COMPULSORY",
+          "time": "8:30 am – 10:00 am (1½ hours) (for both Parts A and B)",
+          "generalInstructions": [
+            "There are two parts (A and B) in this paper. All candidates should attempt Part A. In Part B, you should attempt either Part B1 (easier section) OR Part B2 (more difficult section). Candidates attempting Parts A and B2 will be able to attain the full range of levels, while Level 4 will be the highest level attainable for candidates attempting Parts A and B1.",
+            "After the announcement of the start of the examination, you should first write your Candidate Number and stick barcode labels in the spaces provided on the appropriate pages of the Part A Question-Answer Book and the Part B Question-Answer Book which you are going to attempt.",
+            "Write your answers in the spaces provided in the Question-Answer Books. Answers written in the margins will not be marked.",
+            "For multiple-choice questions, you are advised to blacken the appropriate circle with a pencil so that wrong marks can be completely erased with a clean rubber. Mark only ONE answer to each question. Two or more answers will score NO MARKS.",
+            "Supplementary answer sheets will be supplied on request. Use separate supplementary answer sheets for Part A and Part B. Write your Candidate Number, mark the question number box and stick a barcode label on each sheet, and fasten them with string INSIDE the relevant Question-Answer Book.",
+            "No extra time will be given to candidates for sticking on barcode labels or filling in the question number boxes after the “Time is up” announcement.",
+            "The two Question-Answer Books you have attempted (one for Part A and one for Part B) will be collected together at the end of the examination. Fasten the two Question-Answer Books together with the green tag provided.",
+            "The unused Question-Answer Book for Part B will be collected separately at the end of the examination. This will not be marked. Do not write any answers in it."
+          ],
+          "partInstructions": [
+            "The Question-Answer Book for Part A is inserted in this Reading Passages booklet.",
+            "Attempt ALL questions in Part A. Each question carries ONE mark unless otherwise stated."
+          ]
+        }
+      },
+      {
+        "sourcePage": 2,
+        "paragraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "layout": "two-column"
+      },
+      {
+        "sourcePage": 3,
+        "paragraphs": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "layout": "two-column"
+      }
+    ],
+    "questionPages": [
+      {
+        "sourcePage": 1,
+        "questions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "sourcePage": 2,
+        "questions": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "sourcePage": 3,
+        "questions": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "sourcePage": 4,
+        "questions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    ]
   }
 }
