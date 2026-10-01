@@ -62,8 +62,8 @@ paragraph playback, seeking, and lazy word highlighting before release.
 ## DSE Reading
 
 Pass `--system dse` to both the generator and publisher, with a separate build
-directory. This selects the 42 available A/B1/B2 sections from 2012-2023 and
-2025-2026; 2024 is excluded. It never replaces the IELTS manifest or recordings.
+directory. This selects all 45 available A/B1/B2 sections from 2012-2026.
+It never replaces the IELTS manifest or recordings.
 The voice, timing and immutable audio storage rules are unchanged.
 
 The DSE source includes English passage paragraphs and native passage-table

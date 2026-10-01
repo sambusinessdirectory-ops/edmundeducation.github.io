@@ -44,9 +44,9 @@ begin
       raise exception 'DSE translation RPC round trip failed for %', v_id;
     end if;
   end loop;
-  if public.dse_reading_article_translation(v_token,'dse-2024-a') is not null
+  if public.dse_reading_article_translation(v_token,'dse-2024-a') is null
     or public.dse_reading_article_translation(v_token,'p1-008') is not null then
-    raise exception 'Unavailable or unrelated article returned';
+    raise exception 'Published DSE 2024 A translation missing or unrelated article returned';
   end if;
 end;
 $$;
