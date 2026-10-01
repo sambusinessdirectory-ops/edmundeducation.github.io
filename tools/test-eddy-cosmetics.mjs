@@ -103,6 +103,20 @@ test('full-body clothing replaces tops and lower-body clothing but preserves sho
  clearCosmetics('elsie');equipCosmetic('camel-coat-dress','elsie');
  assert.equal(cosmeticsState().equipped.elsieFullBody,'camel-coat-dress');
 });
+test('the included camel coat never calls the unavailable purchase catalog and saves locally',async()=>{
+ clearCosmetics('elsie');let savedArgs;
+ rpcHandler=async(method,args)=>{
+  if(method==='eddie_farm_owned_cosmetics')return {data:['cream-sherpa-jacket','pink-rain-jacket']};
+  if(method==='character_closet_sync'){savedArgs=args;return {data:{equipped:{},outfits:[]}};}
+  return {data:{equipped:{},outfits:[]}};
+ };
+ await restoreCosmetics(undefined,{force:true});
+ assert.ok(cosmeticsState().owned.includes('camel-coat-dress'));
+ equipCosmetic('camel-coat-dress','elsie');await saveAvatar(undefined,'elsie');
+ assert.deepEqual(savedArgs.p_equipped,{});assert.deepEqual(savedArgs.p_outfits,[]);
+ assert.equal(cosmeticsState().savedEquipment.elsieFullBody,'camel-coat-dress');
+ assert.equal(cosmeticsState().equipped.elsieFullBody,'camel-coat-dress');
+});
 test('legacy looks and sets migrate into independent character copies',()=>{
  const value=cleanWardrobe({equipped:{girlsTop:'cream-sherpa-jacket'},outfits:[{name:'Winter',group:'girls',equipped:{girlsTop:'cream-sherpa-jacket'},favorite:true}]});
  assert.deepEqual(value.equipped,{celesteTop:'cream-sherpa-jacket',phoebeTop:'cream-sherpa-jacket',elsieTop:'cream-sherpa-jacket'});

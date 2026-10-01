@@ -13,6 +13,7 @@ export const COSMETICS=Object.freeze([
  {id:'camel-coat-dress',slot:'fullBody',coverage:['top','lower'],group:'girls',price:45,name:'Camel tailored coat dress',description:'駝色修身翻領大衣連身裙 · 全身服裝',display:'girls/camel-coat-dress-display.png'}
 ]);
 const GIRLS=Object.freeze(['celeste','phoebe','elsie']);
+const INCLUDED_COSMETICS=Object.freeze(['camel-coat-dress']);
 const slotKind=item=>item.slot==='girlsTop'?'top':item.slot;
 const SLOT_SUFFIX=Object.freeze({headwear:'Headwear',top:'Top',lower:'Lower',fullBody:'FullBody',feet:'Feet',accessory:'Accessory'});
 const equipmentSlot=(item,character)=>character+SLOT_SUFFIX[slotKind(item)];
@@ -58,8 +59,8 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261001-camel-coat1',import.meta.url).href;
-let owner='',token='',wardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261001-camel-coat2',import.meta.url).href;
+let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
 function closeInterlegWhiteMarks(character,base){
@@ -107,6 +108,12 @@ function closeInterlegWhiteMarks(character,base){
 }
 const session=()=>globalThis.window?.EdmundSystemNav?.getStudentSession?.();
 const key=id=>'edmund-eddy-wardrobe-v1:'+id;
+const includedKey=id=>'edmund-included-wardrobe-v1:'+id;
+const hasIncluded=item=>Object.values(item?.equipped||{}).some(id=>INCLUDED_COSMETICS.includes(id));
+function includedPart(value){const cleaned=cleanWardrobe(value);return cleanWardrobe({equipped:Object.fromEntries(Object.entries(cleaned.equipped).filter(([,id])=>INCLUDED_COSMETICS.includes(id))),outfits:cleaned.outfits.filter(hasIncluded)});}
+function mergeIncluded(value){const base=cleanWardrobe(value),local=cleanWardrobe(includedWardrobe);return cleanWardrobe({equipped:{...base.equipped,...local.equipped},outfits:[...base.outfits.filter(x=>!local.outfits.some(y=>x.character===y.character&&x.name===y.name)),...local.outfits]});}
+function updateIncludedCharacter(value,character){const selected=includedPart(value),keptEquipment={...includedWardrobe.equipped};for(const item of cosmeticsForCharacter(character))delete keptEquipment[equipmentSlot(item,character)];includedWardrobe=cleanWardrobe({equipped:{...keptEquipment,...selected.equipped},outfits:[...includedWardrobe.outfits.filter(x=>!sameGroup(x,character)),...outfitsForCharacter(selected.outfits,character)]});}
+const persistIncluded=()=>{try{if(owner)localStorage.setItem(includedKey(owner),JSON.stringify(includedWardrobe));}catch{}};
 const notify=()=>{revision++;atlases.clear();for(const fn of listeners)fn();};
 export function subscribeCosmetics(fn){listeners.add(fn);return()=>listeners.delete(fn);}
 export function cosmeticsState(){return {owner,equipped:{...equipped},savedEquipment:{...wardrobe.equipped},owned:[...ownedCosmetics],previewActive,dirty:hasUnsavedCosmetics(),saving:saving>0,outfits:wardrobe.outfits.map(x=>({...x,equipped:{...x.equipped}})),revision};}
@@ -140,8 +147,10 @@ export function restoreCosmetics(fallbackOwner,{force=false}={}){
  const next=normalize(shared?.id)||normalize(fallbackOwner??owner);
  const nextToken=normalize(shared?.id)===next?String(shared?.token||''):'';
  const changed=owner!==next||token!==nextToken;
- if(changed){owner=next;token=nextToken;pendingRestore=null;lastSync=0;saveEpoch++;wardrobe=cleanWardrobe();previewActive=false;
+ if(changed){owner=next;token=nextToken;pendingRestore=null;lastSync=0;saveEpoch++;wardrobe=cleanWardrobe();includedWardrobe=cleanWardrobe();previewActive=false;
   try{if(owner)wardrobe=cleanWardrobe(JSON.parse(localStorage.getItem(key(owner))||'null'));}catch{}
+  try{if(owner)includedWardrobe=includedPart(JSON.parse(localStorage.getItem(includedKey(owner))||'null'));}catch{}
+  wardrobe=mergeIncluded(wardrobe);
   equipped={...wardrobe.equipped};notify();
  }
  if(!owner||!token||saving)return Promise.resolve();
@@ -150,7 +159,7 @@ export function restoreCosmetics(fallbackOwner,{force=false}={}){
  const requestOwner=owner,requestToken=token,epoch=saveEpoch;
  const request=rpc({p_token:requestToken}).then(async result=>{
   if(owner!==requestOwner||token!==requestToken||epoch!==saveEpoch)return;
-  const keepDraft=hasUnsavedCosmetics();wardrobe=result;if(!keepDraft)equipped={...result.equipped};let owned=await rpcRaw({p_token:requestToken},'eddie_farm_owned_cosmetics').catch(()=>[]);try{const adminToken=sessionStorage.getItem('eddie-farm-admin-session-v1');if(adminToken){const preview=await rpcRaw({p_token:adminToken},'eddie_farm_admin_preview_cosmetics').catch(()=>[]);owned=[...new Set([...owned,...preview])];}}catch{}ownedCosmetics=new Set(owned);lastSync=Date.now();
+  const keepDraft=hasUnsavedCosmetics();wardrobe=mergeIncluded(result);if(!keepDraft)equipped={...wardrobe.equipped};let owned=await rpcRaw({p_token:requestToken},'eddie_farm_owned_cosmetics').catch(()=>[]);try{const adminToken=sessionStorage.getItem('eddie-farm-admin-session-v1');if(adminToken){const preview=await rpcRaw({p_token:adminToken},'eddie_farm_admin_preview_cosmetics').catch(()=>[]);owned=[...new Set([...owned,...preview])];}}catch{}ownedCosmetics=new Set([...owned,...INCLUDED_COSMETICS]);lastSync=Date.now();
   try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}notify();
  }).catch(()=>{/* Keep saved cache; a later focus/restore retries. Explicit Save reports errors. */})
  .finally(()=>{if(pendingRestore===request)pendingRestore=null;});
@@ -165,20 +174,23 @@ export async function saveAvatar(name,character='eddy'){
  const requestRevision=revision;saveEpoch++;
  const outfits=wardrobe.outfits.map(x=>({...x}));
  if(name!==undefined){name=String(name).trim();if(!name||name.length>60)throw Error('Use an outfit name from 1 to 60 characters.');const i=outfits.findIndex(x=>x.name===name&&sameGroup(x,character));const item={name,equipped:groupEquipment(equipped,character),group:wardrobeGroup(character),character,...(i>=0&&outfits[i].favorite?{favorite:true}:{})};if(i>=0)outfits[i]=item;else {if(outfitsForCharacter(outfits,character).length>=50)throw Error('You can save up to 50 outfits for this character.');outfits.push(item);}}
- const result=await rpc({p_token:requestToken,p_character:character,p_equipped:groupEquipment(equipped,character),p_outfits:outfitsForCharacter(outfits,character)},'character_closet_sync');
+ const intended=cleanWardrobe({equipped:groupEquipment(equipped,character),outfits:outfitsForCharacter(outfits,character)});updateIncludedCharacter(intended,character);persistIncluded();
+ const remoteEquipment=Object.fromEntries(Object.entries(groupEquipment(equipped,character)).filter(([,id])=>!INCLUDED_COSMETICS.includes(id)));
+ const remoteOutfits=outfitsForCharacter(outfits,character).filter(x=>!hasIncluded(x));
+ const result=await rpc({p_token:requestToken,p_character:character,p_equipped:remoteEquipment,p_outfits:remoteOutfits},'character_closet_sync');
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
- wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}
- if(revision===requestRevision)equipped={...result.equipped};notify();return result;
+ wardrobe=mergeIncluded(result);try{localStorage.setItem(key(owner),JSON.stringify(wardrobe));}catch{}
+ if(revision===requestRevision)equipped={...wardrobe.equipped};notify();return wardrobe;
  }finally{saving--;}
 }
 export async function toggleOutfitFavorite(name,character='eddy'){
  if(!owner||!token)throw Error('Please sign in to save favorites.');
  const requestOwner=owner,requestToken=token;saveEpoch++;saving++;
  try {
- const outfits=wardrobe.outfits.map(x=>x.name===name&&sameGroup(x,character)?{...x,favorite:!x.favorite}:{...x});
- const result=await rpc({p_token:requestToken,p_character:character,p_outfits:outfitsForCharacter(outfits,character)},'character_closet_sync');
+ const outfits=wardrobe.outfits.map(x=>x.name===name&&sameGroup(x,character)?{...x,favorite:!x.favorite}:{...x});includedWardrobe=includedPart({equipped:wardrobe.equipped,outfits});persistIncluded();
+ const result=await rpc({p_token:requestToken,p_character:character,p_outfits:outfitsForCharacter(outfits,character).filter(x=>!hasIncluded(x))},'character_closet_sync');
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
- wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}notify();return result;
+ wardrobe=mergeIncluded(result);try{localStorage.setItem(key(owner),JSON.stringify(wardrobe));}catch{}notify();return wardrobe;
  }finally{saving--;}
 }
 function load(id,character='eddy'){const key=character+':'+id;if(images.has(key))return images.get(key);const img=new Image();images.set(key,img);img.onload=()=>{atlases.clear();for(const fn of listeners)fn();};img.src=cosmeticAsset(id,character);return img;}
@@ -204,7 +216,7 @@ export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=n
  atlases.set(cacheKey,canvas);return canvas;
 }
 if(typeof window!=='undefined'){
- window.addEventListener('storage',e=>{if(owner&&e.key===key(owner)){try{const keepDraft=previewActive&&hasUnsavedCosmetics();wardrobe=cleanWardrobe(JSON.parse(e.newValue));if(!keepDraft)equipped={...wardrobe.equipped};saveEpoch++;notify();}catch{}}});
+ window.addEventListener('storage',e=>{if(owner&&(e.key===key(owner)||e.key===includedKey(owner))){try{if(e.key===includedKey(owner))includedWardrobe=includedPart(JSON.parse(e.newValue));const keepDraft=previewActive&&hasUnsavedCosmetics();wardrobe=mergeIncluded(e.key===key(owner)?JSON.parse(e.newValue):wardrobe);if(!keepDraft)equipped={...wardrobe.equipped};saveEpoch++;notify();}catch{}}});
  window.addEventListener('edmund-student-session-change',()=>{if(!session()?.id){owner='';token='';wardrobe=cleanWardrobe();equipped={};previewActive=false;saveEpoch++;notify();}void restoreCosmetics();});
  window.addEventListener('focus',()=>{void restoreCosmetics(undefined,{force:true});});
  window.addEventListener('pageshow',()=>{void restoreCosmetics(undefined,{force:true});});
