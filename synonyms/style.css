@@ -136,6 +136,9 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-module-hero h3 { max-width:650px; margin:0 0 18px; font-family:Georgia,"Noto Serif TC Local",serif; font-size:clamp(29px,4vw,43px); line-height:1.2; }
 .syn-module-hero>p:not(.syn-kicker) { max-width:580px; color:#587879; line-height:1.7; }
 .syn-module-actions,.syn-guide-actions { display:flex; flex-wrap:wrap; gap:13px; align-items:center; margin-top:27px; }
+.syn-source-link { display:inline-flex; align-items:center; min-height:42px; padding:9px 16px; border:1px solid #8acbc2; border-radius:13px; color:#126660; background:#fff; font-weight:800; text-decoration:none; }
+.syn-source-link:hover,.syn-source-link:focus-visible { background:#e8f7f1; }
+.syn-module-hero>.syn-source-note { margin-top:15px; padding:12px 15px; border-left:4px solid #bd8a42; border-radius:8px; background:#fff7e8; color:#684b20; }
 .syn-module-aside { display:flex; align-items:center; justify-content:center; flex-direction:column; gap:5px; padding:25px; border:1px solid #eed6a4; border-radius:27px; background:linear-gradient(160deg,#fffaf0,#fff1cb); text-align:center; }
 .syn-module-aside strong { color:#a66f27; font-family:Georgia,serif; font-size:43px; }
 .syn-module-aside span { font-weight:850; }
