@@ -390,13 +390,14 @@ function b2FullLink() { return '<a class="selection-card is-available" href="/pa
     </header>
     ${hasFullReader ? fullReaderLink() : ""}
     <div class="selection-grid material-grid">${DATA.materialTypes.map((material) => {
-      const available = hasMaterial(resource, material.id);
+      const reader = material.id === "data-file-analysis" ? fullReaderFor() : null;
+      const available = hasMaterial(resource, material.id) || Boolean(reader);
       const count = material.id === "model-essay" ? resource?.modelEssays?.length : resource?.analysisSections?.length;
       return selectionCard({
         kicker: material.titleEn,
         title: material.titleZh,
-        subtitle: available ? `${count} 個可展開部分` : "此組合暫未有已整理內容",
-        status: available ? "開啟教材" : "內容尚未加入",
+        subtitle: hasMaterial(resource, material.id) ? `${count} 個可展開部分` : reader ? reader[1] : "此組合暫未有已整理內容",
+        status: reader && !hasMaterial(resource, material.id) ? "開啟原文閱讀" : available ? "開啟教材" : "內容尚未加入",
         available,
         attributes: `data-select-material="${escapeHtml(material.id)}" aria-label="開啟 ${escapeHtml(material.titleZh)}"`
       });
@@ -614,6 +615,11 @@ function handleScreenClick(event) {
   const material = event.target.closest("[data-select-material]");
   if (material) {
     state.material = String(material.dataset.selectMaterial);
+    const reader = state.material === "data-file-analysis" && !hasMaterial(resourceFor(), state.material) ? fullReaderFor() : null;
+    if (reader) {
+      window.location.assign(reader[0]);
+      return;
+    }
     state.screen = "resource";
     renderLibrary();
     return;
