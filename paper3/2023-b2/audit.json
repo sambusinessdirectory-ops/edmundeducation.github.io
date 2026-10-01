@@ -1,0 +1,16 @@
+{
+  "year": 2023,
+  "level": "b2",
+  "pages": 18,
+  "data_pages": 10,
+  "qab_pages": 8,
+  "missing_source_pages": [],
+  "nontext_qab_pages": [
+    12,
+    17
+  ],
+  "low_coverage": [],
+  "sources": [
+    "2023 Paper 3 Question.pdf"
+  ]
+}

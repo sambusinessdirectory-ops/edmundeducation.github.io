@@ -1,0 +1,15 @@
+{
+  "year": 2022,
+  "level": "b1",
+  "pages": 15,
+  "data_pages": 11,
+  "qab_pages": 4,
+  "missing_source_pages": [
+    3
+  ],
+  "nontext_qab_pages": [],
+  "low_coverage": [],
+  "sources": [
+    "2022 Paper 3.pdf"
+  ]
+}

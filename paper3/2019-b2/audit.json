@@ -1,0 +1,16 @@
+{
+  "year": 2019,
+  "level": "b2",
+  "pages": 19,
+  "data_pages": 11,
+  "qab_pages": 8,
+  "missing_source_pages": [],
+  "nontext_qab_pages": [
+    13,
+    18
+  ],
+  "low_coverage": [],
+  "sources": [
+    "2019 Paper 3.pdf"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "readers": [
+    {
+      "reader": "2012-b1",
+      "pages": 13,
+      "data_pages": 9,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2014-b1",
+      "pages": 14,
+      "data_pages": 10,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2014-b2",
+      "pages": 17,
+      "data_pages": 11,
+      "qab_pages": 6,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2015-b1",
+      "pages": 13,
+      "data_pages": 9,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2016-b1",
+      "pages": 13,
+      "data_pages": 9,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2018-b1",
+      "pages": 13,
+      "data_pages": 9,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2019-b1",
+      "pages": 14,
+      "data_pages": 10,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2019-b2",
+      "pages": 19,
+      "data_pages": 11,
+      "qab_pages": 8,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2020-b1",
+      "pages": 14,
+      "data_pages": 10,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2021-b1",
+      "pages": 14,
+      "data_pages": 10,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2021-b2",
+      "pages": 17,
+      "data_pages": 10,
+      "qab_pages": 7,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2022-b1",
+      "pages": 15,
+      "data_pages": 11,
+      "qab_pages": 4,
+      "missing_source_pages": [
+        3
+      ],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2023-b1",
+      "pages": 14,
+      "data_pages": 10,
+      "qab_pages": 4,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    },
+    {
+      "reader": "2023-b2",
+      "pages": 18,
+      "data_pages": 10,
+      "qab_pages": 8,
+      "missing_source_pages": [],
+      "low_confidence": [],
+      "issues": []
+    }
+  ],
+  "totals": {
+    "readers": 14,
+    "pages": 208,
+    "missing_source_pages": 1,
+    "structural_issues": 0,
+    "low_confidence_pages": 0
+  }
+}
