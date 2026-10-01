@@ -55,7 +55,7 @@ assert.match(script, /updateFloatingAudio/);
 assert.match(catalogue, /const practiceNumbers = \[/);
 assert.match(catalogue, /Array\.from\(\{ length: 4 \}/);
 assert.match(catalogue, /Array\.from\(\{ length: 15 \}/);
-assert.match(catalogue, /\[2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024\]\.includes\(year\)/);
+assert.match(catalogue, /\[2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026\]\.includes\(year\)/);
 assert.match(catalogue, /listening-system\.html\?section=ielts&practice=/);
 assert.match(worker, /\/v1\/listening\/catalog/);
 assert.match(worker, /IELTS Listening - Recordings\//);

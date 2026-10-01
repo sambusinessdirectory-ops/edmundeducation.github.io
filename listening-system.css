@@ -339,6 +339,7 @@ audio { width: 100%; min-height: 54px; }
 .dse-native-table tbody th { width:24%; font-weight:650; background:#edf4f2; }
 .dse-native-table thead th { color:white; background:var(--navy); }
 .dse-native-table .dse-answer-gap { min-width:210px; width:calc(100% - 12px); }
+.dse-reconstructed-diagram { display:block; width:100%; max-width:900px; height:auto; margin:16px auto 22px; border:1px solid #c5d3d1; background:#fff; }
 .dse-paper-sheet select { max-width:100%; min-width:0; min-height:44px; padding:10px; border:1px solid #b8ccc9; border-radius:10px; background:white; color:var(--ink); font:inherit; }
 .dse-paper-sheet :is(input,select,button):focus-visible { outline:3px solid #dfaa36; outline-offset:2px; }
 .dse-inline-figure { display:block; width:auto; max-width:190px; max-height:170px; object-fit:contain; margin:8px auto; }

@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[professional-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -102,6 +102,18 @@ jobs:
           node tools/test-dse-native-paper-view.mjs
           node tools/test-dse-reading-question-audit.mjs
           node tools/test-dse-reading-translations.mjs
+
+      - name: Validate focused DSE Listening release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[listening-release]') }}
+        run: |
+          node --check listening-system.js
+          node --check dse-listening-2025-data.js
+          node --check dse-listening-2025-transcript.js
+          node --check dse-listening-2026-data.js
+          node --check dse-listening-2026-transcript.js
+          node tools/test-dse-listening-2025-2026.mjs
+          node tools/test-listening-system.mjs
+          node tools/test-dse-listening-2022-2024.mjs
 
       - name: Validate focused Speaking release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+  <title id="title">Tiny Libraries location map</title>
+  <desc id="desc">Oak Tree Lane runs across the north, Magnolia Drive across the south, and Maple Avenue curves between blocks. Locations A to G sit beside the Post Office, Bakery, Café, Restaurant, Fire Station and School.</desc>
+  <style>text{font:18px Arial,sans-serif;fill:#202728}.place{font-weight:700;font-size:25px}.road{font-weight:700;font-size:21px}.building{fill:#e8edf0;stroke:#748189;stroke-width:2}.street{fill:none;stroke:#809196;stroke-width:3}</style>
+  <rect x="2" y="2" width="996" height="496" fill="#fff" stroke="#344347" stroke-width="4"/>
+  <path class="street" d="M2 67H735M846 67H998M2 328H602M770 328H998M2 380H998M735 67C725 165 650 225 602 328M846 67C840 165 795 230 770 328"/>
+  <text class="road" x="420" y="48">Oak Tree Lane</text><text class="road" x="315" y="367">Magnolia Drive</text><text class="road" x="815" y="367">Magnolia Drive</text>
+  <text class="road" transform="translate(710 286) rotate(-52)">Maple Avenue</text>
+  <rect class="building" x="28" y="100" width="90" height="75"/><rect class="building" x="135" y="100" width="82" height="75"/><rect class="building" x="242" y="100" width="82" height="75"/><rect class="building" x="340" y="100" width="82" height="75"/><rect class="building" x="447" y="100" width="94" height="75"/><rect class="building" x="560" y="100" width="78" height="75" transform="rotate(33 599 138)"/>
+  <rect class="building" x="28" y="230" width="92" height="70"/><rect class="building" x="140" y="230" width="80" height="70"/><rect class="building" x="242" y="230" width="82" height="70"/><rect class="building" x="340" y="230" width="82" height="70"/><rect class="building" x="520" y="220" width="95" height="68" transform="rotate(-55 568 254)"/>
+  <rect class="building" x="795" y="225" width="92" height="72"/><rect class="building" x="902" y="225" width="80" height="72"/>
+  <rect class="building" x="28" y="400" width="126" height="76"/><rect class="building" x="187" y="400" width="85" height="76"/><rect class="building" x="297" y="400" width="128" height="76"/><rect class="building" x="454" y="400" width="82" height="76"/><rect class="building" x="555" y="400" width="82" height="76"/><rect class="building" x="665" y="400" width="168" height="76"/>
+  <text x="73" y="130" text-anchor="middle">Post</text><text x="73" y="155" text-anchor="middle">Office</text><text x="494" y="142" text-anchor="middle">Bakery</text><text transform="translate(558 264) rotate(-55)" text-anchor="middle">Hair Salon</text><text x="840" y="266" text-anchor="middle">Café</text>
+  <text x="91" y="445" text-anchor="middle">Restaurant</text><text x="361" y="445" text-anchor="middle">Fire Station</text><text x="749" y="445" text-anchor="middle">School</text>
+  <text class="place" x="39" y="92">A</text><text class="place" x="257" y="92">B</text><text class="place" x="557" y="92">C</text><text class="place" x="780" y="202">D</text><text class="place" x="886" y="298">E</text><text class="place" x="158" y="440">F</text><text class="place" x="431" y="440">G</text>
+  <text x="905" y="120" text-anchor="middle">Car</text><text x="905" y="145" text-anchor="middle">Park</text>
+</svg>

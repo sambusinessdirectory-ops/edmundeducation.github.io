@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">Inside Iain's mobile library van</title>
+  <desc id="desc">Plan view of van. Behind the driver's seat is answer 12. Shelf on the top right is answer 13 books; lower middle shelf is answer 14 books; lower right shelf is answer 15 books. Other shelves hold children's, fantasy and crime books.</desc>
+  <style>text{font:18px Arial,sans-serif;fill:#1c2f36}.small{font-size:15px}.answer{font-weight:700;font-size:26px;fill:#0b5e70}.shelf{fill:#edf3f2;stroke:#526b71;stroke-width:2}</style>
+  <rect x="2" y="2" width="996" height="416" fill="#fff" stroke="#526b71" stroke-width="3"/>
+  <path d="M80 95 Q22 210 80 325 H872 Q925 315 929 272 V149 Q920 102 872 95 Z" fill="#f7faf9" stroke="#526b71" stroke-width="7"/>
+  <path d="M78 125 Q40 210 78 295" fill="none" stroke="#9bb0ae" stroke-width="4"/>
+  <rect class="shelf" x="205" y="145" width="78" height="145"/><text x="246" y="217" text-anchor="middle" transform="rotate(-90 246 217)">Driver’s seat</text>
+  <circle cx="322" cy="155" r="26" fill="#fff" stroke="#526b71" stroke-width="3"/><text class="answer" x="309" y="164">12</text>
+  <rect class="shelf" x="360" y="140" width="160" height="42"/><text x="440" y="167" text-anchor="middle">Children’s books</text>
+  <rect class="shelf" x="535" y="140" width="155" height="42"/><text class="answer" x="604" y="169" text-anchor="middle">13</text>
+  <rect class="shelf" x="420" y="198" width="160" height="42"/><text x="500" y="225" text-anchor="middle">Fantasy books</text>
+  <rect class="shelf" x="352" y="255" width="160" height="42"/><text class="answer" x="432" y="284" text-anchor="middle">14</text>
+  <rect class="shelf" x="530" y="255" width="160" height="42"/><text x="610" y="282" text-anchor="middle">Crime books</text>
+  <rect class="shelf" x="732" y="206" width="44" height="91"/><text class="answer" x="755" y="259" text-anchor="middle">15</text>
+  <circle cx="811" cy="151" r="27" fill="#fff" stroke="#526b71" stroke-width="3"/><text x="811" y="98" text-anchor="middle">Chair</text>
+  <rect class="shelf" x="315" y="261" width="30" height="30"/><text class="small" x="310" y="336" text-anchor="middle">Kettle</text>
+  <path d="M924 140 L947 152 V287 L924 299" fill="none" stroke="#526b71" stroke-width="16"/><text x="948" y="100" text-anchor="middle">Door</text>
+  <text class="small" x="500" y="380" text-anchor="middle">The four numbered positions correspond to questions 12–15.</text>
+</svg>

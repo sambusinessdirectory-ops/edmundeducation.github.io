@@ -32,7 +32,9 @@ const DSE_CONTENT = new Map([
   [2021, window.EDMUND_DSE_LISTENING_2021 || null],
   [2022, window.EDMUND_DSE_LISTENING_2022 || null],
   [2023, window.EDMUND_DSE_LISTENING_2023 || null],
-  [2024, window.EDMUND_DSE_LISTENING_2024 || null]
+  [2024, window.EDMUND_DSE_LISTENING_2024 || null],
+  [2025, window.EDMUND_DSE_LISTENING_2025 || null],
+  [2026, window.EDMUND_DSE_LISTENING_2026 || null]
 ].filter(([, content]) => Boolean(content)));
 
 const state = {
@@ -567,7 +569,8 @@ const DSE_TASK_SOURCE_PAGES = Object.freeze({
   2017:{1:[3,4],2:[5],3:[6,7],4:[8,9]}, 2018:{1:[3,4],2:[5],3:[6,7],4:[8,9]},
   2019:{1:[3,4],2:[5,6],3:[7,8],4:[9,10,11]}, 2020:{1:[3,4],2:[5,6],3:[7,8],4:[9,10,11]},
   2021:{1:[3,4],2:[5],3:[6],4:[7]}, 2022:{1:[4,5],2:[6,7],3:[8,9],4:[10,11]},
-  2023:{1:[3,4],2:[5,6],3:[7,8],4:[9,10,11]}, 2024:{1:[4,5],2:[6,7],3:[8,9],4:[10,11]}
+  2023:{1:[3,4],2:[5,6],3:[7,8],4:[9,10,11]}, 2024:{1:[4,5],2:[6,7],3:[8,9],4:[10,11]},
+  2025:{1:[4,5],2:[6,7],3:[8,9],4:[10,11]}, 2026:{1:[4,5],2:[6,7],3:[8,9],4:[10,11]}
 });
 
 function renderArchivePaperWorkspace(task) {
@@ -576,7 +579,7 @@ function renderArchivePaperWorkspace(task) {
   const guidePages = [...new Set(Object.values(guide?.analysis || {}).filter(row => row.task === task.number).flatMap(row => row.questionSourcePages || []))].sort((a,b) => a-b);
   const sourcePages = guidePages.length ? guidePages : DSE_TASK_SOURCE_PAGES[state.dseYear]?.[task.number] || [];
   const pageLabel = sourcePages.length ? `原卷頁 ${sourcePages.join('、')}` : `Task ${task.number}`;
-  const blocks = task.blocks.map((block, index) => `<section class="archive-paper-block" data-dse-source-block="${index}">${renderDseBlock(block)}${translations?.blocks?.[index] ? `<div class="digital-paper-translation archive-paper-translation" lang="zh-Hant">${escapeHtml(translations.blocks[index])}</div>` : ''}</section>`).join('');
+  const blocks = task.blocks.map((block, index) => { const zh = translations?.blocks?.[index] || block.translation; return `<section class="archive-paper-block" data-dse-source-block="${index}">${renderDseBlock(block)}${zh ? `<div class="digital-paper-translation archive-paper-translation" lang="zh-Hant">${escapeHtml(zh)}</div>` : ''}</section>`; }).join('');
   return `<section class="dse-digital-paper-frame" aria-label="${state.dseYear} DSE 數碼原卷作答">
     <header class="dse-digital-paper-toolbar">
       <div><strong>${state.dseYear} DSE · Task ${task.number} · 數碼原卷作答</strong><small>${pageLabel} · 每個 Task 獨立顯示</small></div>
@@ -589,7 +592,7 @@ function renderArchivePaperWorkspace(task) {
     <output class="dse-digital-paper-score" data-dse-paper-score hidden></output>
     <div class="dse-digital-paper-scroll"><div class="original-paper-pages dse-paper-sheet dse-digital-paper-pages archive-digital-paper-pages" data-show-translation="${state.dseTranslations}" style="--paper-zoom:${state.dseZoom}">
       <section class="original-paper-page digital-paper-page archive-digital-paper-page" id="original-paper-${state.dseYear}-${task.number}" aria-label="${state.dseYear} Task ${task.number} 重建原卷">
-        <div class="digital-paper-sheet"><header class="digital-paper-task-header"><h2>Task ${task.number} <em>(${task.marks} marks)</em></h2>${translations?.title ? `<span class="digital-paper-translation" lang="zh-Hant">${escapeHtml(translations.title)}（${task.marks} 分）</span>` : ''}<p>${escapeHtml(task.instruction)}</p>${translations?.instruction ? `<span class="digital-paper-translation" lang="zh-Hant">${escapeHtml(translations.instruction)}</span>` : ''}</header><div class="digital-paper-box archive-paper-content">${blocks}</div><p class="digital-paper-task-end">END OF TASK ${task.number}</p></div>
+        <div class="digital-paper-sheet"><header class="digital-paper-task-header"><h2>Task ${task.number} <em>(${task.marks} marks)</em></h2>${translations?.title || task.titleZh ? `<span class="digital-paper-translation" lang="zh-Hant">${escapeHtml(translations?.title || task.titleZh)}（${task.marks} 分）</span>` : ''}<p>${escapeHtml(task.instruction)}</p>${translations?.instruction || task.instructionZh ? `<span class="digital-paper-translation" lang="zh-Hant">${escapeHtml(translations?.instruction || task.instructionZh)}</span>` : ''}</header><div class="digital-paper-box archive-paper-content">${blocks}</div><p class="digital-paper-task-end">END OF TASK ${task.number}</p></div>
         <footer><span>${state.dseYear}-DSE-ENG LANG 3-A · ${pageLabel}</span><strong>${task.number}</strong></footer>
       </section>
     </div></div>
@@ -692,7 +695,8 @@ function checkDseTaskAnswers() {
 function renderDseTranscript(taskNumber) {
   if (getDseGuide(state.dseYear)) return dseStudy.renderTranscript(state.dseYear, taskNumber);
   const rows = DSE_CONTENT.get(state.dseYear)?.transcript?.partA?.[taskNumber] || [];
-  return `<section class="listening-transcript dse-transcript" aria-labelledby="dse-transcript-title"><div class="listening-transcript__head"><div><p class="eyebrow">TIMESTAMPED TRANSCRIPT</p><div class="transcript-title-row"><h3 id="dse-transcript-title">Task ${taskNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>錄音稿已標示角色姓名；按一下任何一行可跳到該句。</p></div><div class="transcript-lines" data-dse-transcript>${rows.map((row, index) => `<div class="transcript-line" role="button" tabindex="0" data-dse-transcript-line="${index}" data-start="${row.start}"><strong class="dse-speaker">${escapeHtml(row.speaker)}</strong><span>${escapeHtml(row.text)}</span></div>`).join("")}</div></section>`;
+  if (!rows.length) return '';
+  return `<section class="listening-transcript dse-transcript" aria-labelledby="dse-transcript-title"><div class="listening-transcript__head"><div><p class="eyebrow">TIMESTAMPED TRANSCRIPT</p><div class="transcript-title-row"><h3 id="dse-transcript-title">Task ${taskNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>按一下任何一行可跳到該句；題目中文翻譯可在數碼原卷切換。</p></div><div class="transcript-lines" data-dse-transcript>${rows.map((row, index) => `<div class="transcript-line" role="button" tabindex="0" data-dse-transcript-line="${index}" data-start="${row.start}"><strong class="dse-speaker">${escapeHtml(row.speaker)}</strong><span>${escapeHtml(row.text)}</span></div>`).join("")}</div></section>`;
 }
 
 function bindDseTranscriptSync(taskNumber) {
