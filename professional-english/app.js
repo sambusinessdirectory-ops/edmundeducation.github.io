@@ -1,6 +1,6 @@
 import {mountCoursePhoto} from './course-photo.mjs?v=20260917-photos3';
 import {mountLearningHistory} from './learning-history.mjs?v=20260917-poly-question1';
-import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20261001-team-export1';
+import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20261001-team-export2';
 import {lessonSort} from './community-core.mjs?v=20260916-ui-polish1';
 import {exportCardsPDF} from './card-export.mjs?v=20260916-ui-polish1';
 import {mountLibraryHome} from './library-home.mjs?v=20260930-polysemy5a';

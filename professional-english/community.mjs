@@ -5,7 +5,7 @@ import {API,PUBLIC_KEY,session,rpc,subscribe,saveState,getCached} from './learni
 import {escapeHtml as esc} from './library-core.mjs?v=20260916-ui-polish1';
 import {ASSESSMENT_QUESTIONS,teamSeries,memberBreakdown,cardRows} from './community-core.mjs?v=20260916-ui-polish1';
 import {exportCardsPDF} from './card-export.mjs?v=20260916-ui-polish1';
-import {downloadTeamExport} from './team-export.mjs?v=20261001-team-export1';
+import {downloadTeamExport} from './team-export.mjs?v=20261001-team-export2';
 const ownerIs=owner=>session()?.token===owner?.token&&session()?.user?.id===owner?.user?.id;
 const dateLabel=d=>new Date(d).toLocaleString('zh-HK',{timeZone:'Asia/Hong_Kong'});
 const localRead=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
