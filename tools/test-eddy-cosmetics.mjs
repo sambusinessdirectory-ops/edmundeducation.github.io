@@ -1,6 +1,6 @@
 import test,{beforeEach} from 'node:test';
 import assert from 'node:assert/strict';
-import {cleanEquipment,cleanWardrobe,equipCosmetic,equipOutfit,clearCosmetics,cosmeticsState,restoreCosmetics,saveAvatar} from '../eddy-cosmetics.mjs';
+import {cleanEquipment,cleanWardrobe,equipCosmetic,equipOutfit,clearCosmetics,cosmeticsState,restoreCosmetics,saveAvatar,applyCosmeticSelection} from '../eddy-cosmetics.mjs';
 import {COSMETICS} from '../eddy-cosmetics.mjs';
 let rpcHandler,fixtureAccount;
 const ownedIds=COSMETICS.map(item=>item.id);
@@ -86,11 +86,22 @@ test('girls share availability but have independent equipped slots',async()=>{
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
  equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('pink-rain-jacket','elsie');
  assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',elsieTop:'pink-rain-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket','pink-rain-jacket']);
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket','pink-rain-jacket','camel-coat-dress']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
  for(const c of ['eddy','celeste','phoebe','elsie'])clearCosmetics(c);
+});
+test('full-body clothing replaces tops and lower-body clothing but preserves shoes and headwear',async()=>{
+ const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
+ const dress=cosmeticsForCharacter('elsie').find(x=>x.id==='camel-coat-dress');
+ const top=cosmeticsForCharacter('elsie').find(x=>x.id==='cream-sherpa-jacket');
+ const dressed=applyCosmeticSelection({elsieTop:'cream-sherpa-jacket',elsieLower:'future-trousers',elsieFeet:'future-shoes',elsieHeadwear:'future-hat'},dress,'elsie');
+ assert.deepEqual(dressed,{elsieFeet:'future-shoes',elsieHeadwear:'future-hat',elsieFullBody:'camel-coat-dress'});
+ assert.deepEqual(applyCosmeticSelection(dressed,top,'elsie'),{elsieFeet:'future-shoes',elsieHeadwear:'future-hat',elsieTop:'cream-sherpa-jacket'});
+ assert.deepEqual(cleanEquipment({elsieTop:'pink-rain-jacket',elsieFullBody:'camel-coat-dress'}),{elsieFullBody:'camel-coat-dress'});
+ clearCosmetics('elsie');equipCosmetic('camel-coat-dress','elsie');
+ assert.equal(cosmeticsState().equipped.elsieFullBody,'camel-coat-dress');
 });
 test('legacy looks and sets migrate into independent character copies',()=>{
  const value=cleanWardrobe({equipped:{girlsTop:'cream-sherpa-jacket'},outfits:[{name:'Winter',group:'girls',equipped:{girlsTop:'cream-sherpa-jacket'},favorite:true}]});
@@ -121,4 +132,17 @@ test('the pink rain jacket has three independent transparent 16-view overlays',a
  assert.equal(thumb.toString('ascii',12,16),'IHDR');
  assert.equal(thumb.readUInt32BE(16),1254);assert.equal(thumb.readUInt32BE(20),1254);
  assert.ok([4,6].includes(thumb[25]),'inventory thumbnail format supports alpha transparency');
+});
+test('the camel coat dress has three independent transparent 16-view overlays and a shop image',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const hashes=[];
+ for(const character of ['celeste','phoebe','elsie']){
+  const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/camel-coat-dress.webp',import.meta.url));
+  assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+  const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+  assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>100000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+ }
+ assert.equal(new Set(hashes).size,3);
+ const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/girls/camel-coat-dress-display.png',import.meta.url));
+ assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),1254);assert.equal(thumb.readUInt32BE(20),1254);
 });

@@ -9,19 +9,30 @@ export const COSMETICS=Object.freeze([
  {id:'black-blazer-hoodie',slot:'top',price:35,name:'Black blazer over hoodie',description:'黑色雙排扣西裝外套 · 連帽衫內搭'},
  {id:'olive-plain-tee',slot:'top',price:20,name:'Olive plain crew-neck T-shirt',description:'橄欖綠純色圓領短袖T恤',display:'eddy/olive-plain-tee-display.png'},
  {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',price:35,name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'},
- {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',price:35,name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'}
+ {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',price:35,name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'},
+ {id:'camel-coat-dress',slot:'fullBody',coverage:['top','lower'],group:'girls',price:45,name:'Camel tailored coat dress',description:'駝色修身翻領大衣連身裙 · 全身服裝',display:'girls/camel-coat-dress-display.png'}
 ]);
 const GIRLS=Object.freeze(['celeste','phoebe','elsie']);
-const equipmentSlot=(item,character)=>item.group==='girls'?character+'Top':character+(item.slot==='headwear'?'Headwear':'Top');
+const slotKind=item=>item.slot==='girlsTop'?'top':item.slot;
+const SLOT_SUFFIX=Object.freeze({headwear:'Headwear',top:'Top',lower:'Lower',fullBody:'FullBody',feet:'Feet',accessory:'Accessory'});
+const equipmentSlot=(item,character)=>character+SLOT_SUFFIX[slotKind(item)];
 const OUTFIT_CHARACTERS=['eddy','noir',...GIRLS];
+const characterSlots=character=>[...new Set(cosmeticsForCharacter(character).map(item=>equipmentSlot(item,character)))];
+function normalizeCharacterEquipment(value,character){
+ const result={...value};
+ if(result[character+'FullBody']){delete result[character+'Top'];delete result[character+'Lower'];}
+ return result;
+}
 export function cleanEquipment(value){
- const result={};
+ let result={};
  for(const character of OUTFIT_CHARACTERS){
   for(const item of COSMETICS.filter(item=>(item.group==='girls')===GIRLS.includes(character))){
    const slot=equipmentSlot(item,character);
-   const id=value?.[slot]??(character==='eddy'?value?.[item.slot]:GIRLS.includes(character)?value?.girlsTop:undefined);
+   const legacy=character==='eddy'?value?.[item.slot]:slotKind(item)==='top'&&GIRLS.includes(character)?value?.girlsTop:undefined;
+   const id=value?.[slot]??legacy;
    if(id===item.id)result[slot]=id;
   }
+  result=normalizeCharacterEquipment(result,character);
  }
  return result;
 }
@@ -33,7 +44,7 @@ export function cleanWardrobe(value){
   for(const character of characters){
    const count=counts.get(character)||0;if(count>=50)continue;counts.set(character,count+1);
    const cleaned=cleanEquipment(x.equipped);
-   const selected=Object.fromEntries(Object.entries(cleaned).filter(([slot])=>slot===character+'Top'||slot===character+'Headwear'));
+   const selected=Object.fromEntries(Object.entries(cleaned).filter(([slot])=>characterSlots(character).includes(slot)));
    outfits.push({name:x.name.trim().slice(0,60),equipped:selected,...(x.favorite===true?{favorite:true}:{}),group:GIRLS.includes(character)?'girls':'boys',character});
   }
  }
@@ -47,7 +58,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260923-coin-cosmetics1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261001-camel-coat1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
@@ -99,12 +110,19 @@ const key=id=>'edmund-eddy-wardrobe-v1:'+id;
 const notify=()=>{revision++;atlases.clear();for(const fn of listeners)fn();};
 export function subscribeCosmetics(fn){listeners.add(fn);return()=>listeners.delete(fn);}
 export function cosmeticsState(){return {owner,equipped:{...equipped},savedEquipment:{...wardrobe.equipped},owned:[...ownedCosmetics],previewActive,dirty:hasUnsavedCosmetics(),saving:saving>0,outfits:wardrobe.outfits.map(x=>({...x,equipped:{...x.equipped}})),revision};}
-export function hasUnsavedCosmetics(){return ['eddyHeadwear','eddyTop','noirHeadwear','noirTop',...GIRLS.map(c=>c+'Top')].some(slot=>equipped[slot]!==wardrobe.equipped[slot]);}
+export function hasUnsavedCosmetics(){return OUTFIT_CHARACTERS.flatMap(character=>characterSlots(character)).some(slot=>equipped[slot]!==wardrobe.equipped[slot]);}
 export function beginCosmeticsPreview(){equipped={...wardrobe.equipped};previewActive=true;notify();}
 export function discardCosmeticsPreview(){equipped={...wardrobe.equipped};previewActive=false;notify();}
 export const UNSAVED_OUTFIT_MESSAGE='You have unsaved outfit changes. Leave without saving? These changes will be discarded, and your previously saved avatar will remain unchanged across all systems. Choose Cancel to stay and save.\n\n造型尚未儲存。確定離開？未儲存的更改將會放棄，所有系統仍使用原先儲存的造型。選擇「取消」可返回儲存。';
 export function confirmDiscardCosmetics(){if(saving)return false;if(previewActive&&hasUnsavedCosmetics()&&!window.confirm(UNSAVED_OUTFIT_MESSAGE))return false;discardCosmeticsPreview();return true;}
-export function equipCosmetic(id,character='eddy'){const item=cosmeticsForCharacter(character).find(x=>x.id===id);if(!item||!ownedCosmetics.has(id))return;const slot=equipmentSlot(item,character);equipped={...equipped};if(equipped[slot]===id)delete equipped[slot];else equipped[slot]=id;notify();}
+export function applyCosmeticSelection(value,item,character){
+ const next={...value},slot=equipmentSlot(item,character),kind=slotKind(item);
+ if(next[slot]===item.id){delete next[slot];return next;}
+ if(kind==='fullBody'){delete next[character+'Top'];delete next[character+'Lower'];}
+ else if((item.coverage||[kind]).some(area=>area==='top'||area==='lower'))delete next[character+'FullBody'];
+ next[slot]=item.id;return next;
+}
+export function equipCosmetic(id,character='eddy'){const item=cosmeticsForCharacter(character).find(x=>x.id===id);if(!item||!ownedCosmetics.has(id))return;equipped=applyCosmeticSelection(equipped,item,character);notify();}
 export function clearCosmetics(character='eddy'){equipped={...equipped};for(const item of cosmeticsForCharacter(character))delete equipped[equipmentSlot(item,character)];notify();}
 export function equipOutfit(name,character='eddy'){const outfit=wardrobe.outfits.find(x=>x.name===name&&sameGroup(x,character));if(outfit){equipped={...equipped};for(const item of cosmeticsForCharacter(character))delete equipped[equipmentSlot(item,character)];Object.assign(equipped,groupEquipment(outfit.equipped,character));notify();}}
 async function rpcRaw(args,method='eddy_closet_sync'){
@@ -167,17 +185,20 @@ function load(id,character='eddy'){const key=character+':'+id;if(images.has(key)
 // One composite per equipment/base combination, never one per animation frame.
 export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=null}={}){
  const selected=groupEquipment(wardrobeOverride|| (preview?equipped:wardrobe.equipped),id);
- const rendered={...(selected[id+'Top']?{top:selected[id+'Top']}:{}) ,...(selected[id+'Headwear']?{headwear:selected[id+'Headwear']}:{})};
+ const rendered={...(selected[id+'Top']?{top:selected[id+'Top']}:{}) ,...(selected[id+'Lower']?{lower:selected[id+'Lower']}:{}) ,...(selected[id+'FullBody']?{fullBody:selected[id+'FullBody']}:{}) ,...(selected[id+'Feet']?{feet:selected[id+'Feet']}:{}) ,...(selected[id+'Headwear']?{headwear:selected[id+'Headwear']}:{})};
  if(!supportsCosmetics(id)||!base?.naturalWidth)return base;
  const cacheKey=id+'|'+base.src+'|'+JSON.stringify(rendered);if(atlases.has(cacheKey))return atlases.get(cacheKey);
  const corrected=closeInterlegWhiteMarks(id,base);
- const ids=[rendered.top,rendered.headwear,rendered.headwear&&'hat-hide'].filter(Boolean);
+ const ids=[rendered.top,rendered.lower,rendered.fullBody,rendered.feet,rendered.headwear,rendered.headwear&&'hat-hide'].filter(Boolean);
  if(ids.map(item=>load(item,id)).some(img=>!img.complete||!img.naturalWidth))return corrected;
  if(!ids.length){atlases.set(cacheKey,corrected);return corrected;}
  const canvas=document.createElement('canvas');canvas.width=base.naturalWidth;canvas.height=base.naturalHeight;
  const ctx=canvas.getContext('2d');ctx.drawImage(corrected,0,0);
  // Tailored overlays already follow the neck, cuffs and tail cutouts.
  if(rendered.top)ctx.drawImage(load(rendered.top,id),0,0,canvas.width,canvas.height);
+ if(rendered.lower)ctx.drawImage(load(rendered.lower,id),0,0,canvas.width,canvas.height);
+ if(rendered.fullBody)ctx.drawImage(load(rendered.fullBody,id),0,0,canvas.width,canvas.height);
+ if(rendered.feet)ctx.drawImage(load(rendered.feet,id),0,0,canvas.width,canvas.height);
  if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load('hat-hide',id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear,id),0,0,canvas.width,canvas.height);}
  canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
  atlases.set(cacheKey,canvas);return canvas;

@@ -108,7 +108,8 @@
       "black-blazer-hoodie": "eddy/black-blazer-hoodie-display.png",
       "olive-plain-tee": "eddy/olive-plain-tee-display.png",
       "cream-sherpa-jacket": "girls/cream-sherpa-display.png",
-      "pink-rain-jacket": "girls/pink-rain-jacket-display.png"
+      "pink-rain-jacket": "girls/pink-rain-jacket-display.png",
+      "camel-coat-dress": "girls/camel-coat-dress-display.png"
     };
     for (const item of result.items || []) {
       const row = document.createElement("form"); row.className = "farm-cosmetic-row";
