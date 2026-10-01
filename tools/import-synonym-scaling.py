@@ -13,11 +13,12 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = Path('/Users/sammak/Desktop/Synonym Exercise Scaling')
 SOURCE_OUT = ROOT / 'synonyms/source'
+SOURCE = SOURCE_OUT if SOURCE_OUT.is_dir() else Path('/Users/sammak/Desktop/Synonym Exercise Scaling')
 DATA_OUT = ROOT / 'synonyms/lessons-data.mjs'
 ORDER_OUT = ROOT / 'synonyms/module-order-03-62.csv'
 ISSUES_OUT = ROOT / 'synonyms/import-issues-03-62.csv'
+COVERAGE_OUT = ROOT / 'synonyms/content-coverage-03-62.csv'
 ISSUES = []
 
 # Approximate frequency of the headword or phrase in everyday English. Common
@@ -41,7 +42,7 @@ WORD_HEAD = re.compile(r'^#{2,3}\s+(\d{2})[.\s]+(.+?)\s*$', re.M)
 SECTION_HEAD = re.compile(r'^#{1,2}\s+.*(?:False synonyms|False friends|Not close enough|練習與解釋|Practice|Exercises)', re.M | re.I)
 OPTION_LINE = re.compile(r'^\s*-?\s*([A-F])\.\s+(.+?)\s*$', re.M)
 TABLE_OPTION = re.compile(r'^\|\s*([A-F])\s*\|\s*(.*?)\s*\|\s*$', re.M)
-LETTER_FEEDBACK = re.compile(r'^\s*-?\s*\*\*([A-F])\.\s*(.+?)\*\*\s*(.*)$', re.M)
+LETTER_FEEDBACK = re.compile(r'^[ \t]*-?[ \t]*\*\*([A-F])\.[ \t]*(.+?)\*\*[ \t]*(.*)$', re.M)
 
 
 def clean(value):
@@ -121,12 +122,14 @@ def extract_guide(source, limit):
 
 
 def extract_false(source, start):
-    match = re.search(r'^#{1,2}\s+[^\n]*(?:False synonyms|False friends|Not close enough)[^\n]*$', source[start:], re.M | re.I)
+    match = re.search(r'^#{1,2}\s+[^\n]*(?:False synonyms|False friends|False / weaker|Not close enough)[^\n]*$', source[start:], re.M | re.I)
     if not match: return []
     start += match.end()
-    end_match = re.search(r'^#{1,2}\s+[^\n]*(?:練習與解釋|Practice|Exercises|核心辨析|Contrast Sets|Collocation Bank)[^\n]*$', source[start:], re.M | re.I)
+    end_match = re.search(r'^#{1,2}\s+\d{2}\s+(?:練習與解釋|Practice|Exercises|核心辨析|Contrast Sets|Collocation Bank)[^\n]*$', source[start:], re.M | re.I)
     body = source[start:start + end_match.start()] if end_match else source[start:]
     heads = list(WORD_HEAD.finditer(body))
+    if not heads:
+        heads = list(re.finditer(r'^###\s+([A-Za-z][^\n]+)$', body, re.M))
     items = []
     for i, head in enumerate(heads):
         item_body = body[head.end():heads[i + 1].start() if i + 1 < len(heads) else len(body)]
@@ -134,7 +137,7 @@ def extract_false(source, start):
         if lines:
             zh = ' '.join(x for x in lines if re.search('[\u3400-\u9fff]', x))
             en = ' '.join(x for x in lines if not re.search('[\u3400-\u9fff]', x))
-            items.append({'word': clean(head.group(2)), 'zh': zh or ' '.join(lines), 'point': en})
+            items.append({'word': clean(head.group(2) if head.lastindex == 2 else head.group(1)), 'zh': zh or ' '.join(lines), 'point': en})
     return items
 
 
@@ -152,11 +155,19 @@ def extract_feedback(block):
     for i, hit in enumerate(hits):
         letter, label, inline = hit.groups()
         if '✓' in label or '✓' in inline: marked.append(letter)
-        label = clean(label.replace('✓', '').split(' = ', 1)[0])
+        if ' = ' in label:
+            label, note = label.split(' = ', 1)
+            inline = note + ' ' + inline
+        label = clean(label.replace('✓', ''))
         tail = block[hit.end():hits[i + 1].start() if i + 1 < len(hits) else len(block)]
-        tail = re.split(r'^#{1,3}\s+', tail, maxsplit=1, flags=re.M)[0]
-        explanation = clean(inline + ' ' + tail)
+        tail = re.split(r'^#{1,3}\s+|^\*\*[A-F][–-][A-F]\.\*\*', tail, maxsplit=1, flags=re.M)[0]
+        explanation = clean(inline + ' ' + tail).removesuffix(' ---').strip()
         feedback[letter] = {'label': label, 'explanation': explanation}
+    for group in re.finditer(r'^\*\*([A-F])[–-]([A-F])\.\*\*[ \t]*\n([^\n]+)', block, re.M):
+        start, end, explanation = group.groups()
+        for code in range(ord(start), ord(end) + 1):
+            letter = chr(code)
+            feedback.setdefault(letter, {'label': letter, 'explanation': clean(explanation)})
     return feedback, marked
 
 
@@ -239,7 +250,7 @@ def parse(path):
     first_ex = EX_HEAD.search(source)
     guide_heads = list(re.finditer(r'^#{1,2}\s+01\s+[^\n]*(?:同義詞指南|Close synonyms|Synonym Guide|Useful Synonyms)[^\n]*$', source, re.M | re.I))
     guide_start = guide_heads[-1].start() if guide_heads else 0
-    false_candidates = list(re.finditer(r'^#{1,2}\s+[^\n]*(?:False synonyms|False friends|Not close enough)[^\n]*$', source, re.M | re.I))
+    false_candidates = list(re.finditer(r'^#{1,2}\s+[^\n]*(?:False synonyms|False friends|False / weaker|Not close enough)[^\n]*$', source, re.M | re.I))
     first_false = next((m for m in false_candidates if m.start() > guide_start), None)
     guide_end = min([m.start() for m in (first_ex, first_false) if m and m.start() > guide_start], default=len(source))
     words = extract_guide(source[guide_start:guide_end], guide_end - guide_start)
@@ -307,7 +318,9 @@ def main():
         lesson['moduleNumber'] = number
         lesson['omittedExercises'] = sum(issue[0] == path.name for issue in ISSUES)
         ordered.append(lesson)
-        shutil.copyfile(path, SOURCE_OUT / path.name)
+        destination = SOURCE_OUT / path.name
+        if path.resolve() != destination.resolve():
+            shutil.copyfile(path, destination)
     DATA_OUT.write_text('// Generated by tools/import-synonym-scaling.py from the supplied Markdown files.\n'
                         + 'export const lessons = ' + json.dumps(ordered, ensure_ascii=False, separators=(',', ':')) + ';\n', encoding='utf-8')
     with ORDER_OUT.open('w', encoding='utf-8', newline='') as handle:
@@ -320,6 +333,21 @@ def main():
         writer = csv.writer(handle)
         writer.writerow(['source_file', 'exercise', 'issue'])
         writer.writerows(ISSUES)
+    with COVERAGE_OUT.open('w', encoding='utf-8', newline='') as handle:
+        writer = csv.writer(handle)
+        writer.writerow(['module_number', 'headword', 'source_file', 'questions',
+                         'omitted_exercises', 'questions_without_chinese_translation',
+                         'options_without_individual_feedback', 'false_synonym_cards'])
+        for item in ordered:
+            exercises = [exercise for word in item['words'] for exercise in word['exercises']]
+            missing_zh = sum(not exercise['zh'] for exercise in exercises)
+            missing_feedback = sum(option['explanation'].startswith(('本題教材沒有為此選項提供個別解釋。',
+                                                                       '原始教材未提供此選項的個別解釋。'))
+                                   for exercise in exercises for option in exercise['options'])
+            if item['omittedExercises'] or not exercises or missing_zh or missing_feedback or not item['falseSynonyms']:
+                writer.writerow([item['moduleNumber'], item['headword'], Path(item['sourceFile']).name,
+                                 len(exercises), item['omittedExercises'], missing_zh,
+                                 missing_feedback, len(item['falseSynonyms'])])
     print(f"Imported {len(ordered)} lessons, {sum(len(x['words']) for x in ordered)} guide entries, "
           f"{sum(len(w['exercises']) for x in ordered for w in x['words'])} exercises; {len(ISSUES)} source issues")
 
