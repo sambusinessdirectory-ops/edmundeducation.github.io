@@ -8889,6 +8889,846 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "model-essay-downloads.html?catalog=task2&item=d4a1d9e6b3df1648"
   },
   {
+    "id": "dse-listening:dse-listening-2012-task-1",
+    "type": "dse-listening",
+    "ordinal": 2012,
+    "label": "DSE Listening 2012 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2012 · Task 1",
+    "url": "listening-system.html?section=dse&year=2012&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2012-task-2",
+    "type": "dse-listening",
+    "ordinal": 2012,
+    "label": "DSE Listening 2012 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2012 · Task 2",
+    "url": "listening-system.html?section=dse&year=2012&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2012-task-3",
+    "type": "dse-listening",
+    "ordinal": 2012,
+    "label": "DSE Listening 2012 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2012 · Task 3",
+    "url": "listening-system.html?section=dse&year=2012&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2012-task-4",
+    "type": "dse-listening",
+    "ordinal": 2012,
+    "label": "DSE Listening 2012 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2012 · Task 4",
+    "url": "listening-system.html?section=dse&year=2012&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2013-task-1",
+    "type": "dse-listening",
+    "ordinal": 2013,
+    "label": "DSE Listening 2013 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2013 · Task 1",
+    "url": "listening-system.html?section=dse&year=2013&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2013-task-2",
+    "type": "dse-listening",
+    "ordinal": 2013,
+    "label": "DSE Listening 2013 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2013 · Task 2",
+    "url": "listening-system.html?section=dse&year=2013&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2013-task-3",
+    "type": "dse-listening",
+    "ordinal": 2013,
+    "label": "DSE Listening 2013 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2013 · Task 3",
+    "url": "listening-system.html?section=dse&year=2013&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2013-task-4",
+    "type": "dse-listening",
+    "ordinal": 2013,
+    "label": "DSE Listening 2013 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2013 · Task 4",
+    "url": "listening-system.html?section=dse&year=2013&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2014-task-1",
+    "type": "dse-listening",
+    "ordinal": 2014,
+    "label": "DSE Listening 2014 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2014 · Task 1",
+    "url": "listening-system.html?section=dse&year=2014&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2014-task-2",
+    "type": "dse-listening",
+    "ordinal": 2014,
+    "label": "DSE Listening 2014 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2014 · Task 2",
+    "url": "listening-system.html?section=dse&year=2014&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2014-task-3",
+    "type": "dse-listening",
+    "ordinal": 2014,
+    "label": "DSE Listening 2014 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2014 · Task 3",
+    "url": "listening-system.html?section=dse&year=2014&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2014-task-4",
+    "type": "dse-listening",
+    "ordinal": 2014,
+    "label": "DSE Listening 2014 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2014 · Task 4",
+    "url": "listening-system.html?section=dse&year=2014&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2015-task-1",
+    "type": "dse-listening",
+    "ordinal": 2015,
+    "label": "DSE Listening 2015 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2015 · Task 1",
+    "url": "listening-system.html?section=dse&year=2015&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2015-task-2",
+    "type": "dse-listening",
+    "ordinal": 2015,
+    "label": "DSE Listening 2015 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2015 · Task 2",
+    "url": "listening-system.html?section=dse&year=2015&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2015-task-3",
+    "type": "dse-listening",
+    "ordinal": 2015,
+    "label": "DSE Listening 2015 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2015 · Task 3",
+    "url": "listening-system.html?section=dse&year=2015&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2015-task-4",
+    "type": "dse-listening",
+    "ordinal": 2015,
+    "label": "DSE Listening 2015 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2015 · Task 4",
+    "url": "listening-system.html?section=dse&year=2015&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2016-task-1",
+    "type": "dse-listening",
+    "ordinal": 2016,
+    "label": "DSE Listening 2016 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2016 · Task 1",
+    "url": "listening-system.html?section=dse&year=2016&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2016-task-2",
+    "type": "dse-listening",
+    "ordinal": 2016,
+    "label": "DSE Listening 2016 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2016 · Task 2",
+    "url": "listening-system.html?section=dse&year=2016&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2016-task-3",
+    "type": "dse-listening",
+    "ordinal": 2016,
+    "label": "DSE Listening 2016 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2016 · Task 3",
+    "url": "listening-system.html?section=dse&year=2016&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2016-task-4",
+    "type": "dse-listening",
+    "ordinal": 2016,
+    "label": "DSE Listening 2016 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2016 · Task 4",
+    "url": "listening-system.html?section=dse&year=2016&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2017-task-1",
+    "type": "dse-listening",
+    "ordinal": 2017,
+    "label": "DSE Listening 2017 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2017 · Task 1",
+    "url": "listening-system.html?section=dse&year=2017&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2017-task-2",
+    "type": "dse-listening",
+    "ordinal": 2017,
+    "label": "DSE Listening 2017 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2017 · Task 2",
+    "url": "listening-system.html?section=dse&year=2017&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2017-task-3",
+    "type": "dse-listening",
+    "ordinal": 2017,
+    "label": "DSE Listening 2017 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2017 · Task 3",
+    "url": "listening-system.html?section=dse&year=2017&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2017-task-4",
+    "type": "dse-listening",
+    "ordinal": 2017,
+    "label": "DSE Listening 2017 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2017 · Task 4",
+    "url": "listening-system.html?section=dse&year=2017&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2018-task-1",
+    "type": "dse-listening",
+    "ordinal": 2018,
+    "label": "DSE Listening 2018 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2018 · Task 1",
+    "url": "listening-system.html?section=dse&year=2018&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2018-task-2",
+    "type": "dse-listening",
+    "ordinal": 2018,
+    "label": "DSE Listening 2018 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2018 · Task 2",
+    "url": "listening-system.html?section=dse&year=2018&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2018-task-3",
+    "type": "dse-listening",
+    "ordinal": 2018,
+    "label": "DSE Listening 2018 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2018 · Task 3",
+    "url": "listening-system.html?section=dse&year=2018&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2018-task-4",
+    "type": "dse-listening",
+    "ordinal": 2018,
+    "label": "DSE Listening 2018 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2018 · Task 4",
+    "url": "listening-system.html?section=dse&year=2018&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2019-task-1",
+    "type": "dse-listening",
+    "ordinal": 2019,
+    "label": "DSE Listening 2019 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2019 · Task 1",
+    "url": "listening-system.html?section=dse&year=2019&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2019-task-2",
+    "type": "dse-listening",
+    "ordinal": 2019,
+    "label": "DSE Listening 2019 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2019 · Task 2",
+    "url": "listening-system.html?section=dse&year=2019&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2019-task-3",
+    "type": "dse-listening",
+    "ordinal": 2019,
+    "label": "DSE Listening 2019 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2019 · Task 3",
+    "url": "listening-system.html?section=dse&year=2019&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2019-task-4",
+    "type": "dse-listening",
+    "ordinal": 2019,
+    "label": "DSE Listening 2019 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2019 · Task 4",
+    "url": "listening-system.html?section=dse&year=2019&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2020-task-1",
+    "type": "dse-listening",
+    "ordinal": 2020,
+    "label": "DSE Listening 2020 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2020 · Task 1",
+    "url": "listening-system.html?section=dse&year=2020&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2020-task-2",
+    "type": "dse-listening",
+    "ordinal": 2020,
+    "label": "DSE Listening 2020 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2020 · Task 2",
+    "url": "listening-system.html?section=dse&year=2020&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2020-task-3",
+    "type": "dse-listening",
+    "ordinal": 2020,
+    "label": "DSE Listening 2020 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2020 · Task 3",
+    "url": "listening-system.html?section=dse&year=2020&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2020-task-4",
+    "type": "dse-listening",
+    "ordinal": 2020,
+    "label": "DSE Listening 2020 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2020 · Task 4",
+    "url": "listening-system.html?section=dse&year=2020&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2021-task-1",
+    "type": "dse-listening",
+    "ordinal": 2021,
+    "label": "DSE Listening 2021 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2021 · Task 1",
+    "url": "listening-system.html?section=dse&year=2021&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2021-task-2",
+    "type": "dse-listening",
+    "ordinal": 2021,
+    "label": "DSE Listening 2021 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2021 · Task 2",
+    "url": "listening-system.html?section=dse&year=2021&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2021-task-3",
+    "type": "dse-listening",
+    "ordinal": 2021,
+    "label": "DSE Listening 2021 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2021 · Task 3",
+    "url": "listening-system.html?section=dse&year=2021&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2021-task-4",
+    "type": "dse-listening",
+    "ordinal": 2021,
+    "label": "DSE Listening 2021 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2021 · Task 4",
+    "url": "listening-system.html?section=dse&year=2021&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2022-task-1",
+    "type": "dse-listening",
+    "ordinal": 2022,
+    "label": "DSE Listening 2022 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2022 · Task 1",
+    "url": "listening-system.html?section=dse&year=2022&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2022-task-2",
+    "type": "dse-listening",
+    "ordinal": 2022,
+    "label": "DSE Listening 2022 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2022 · Task 2",
+    "url": "listening-system.html?section=dse&year=2022&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2022-task-3",
+    "type": "dse-listening",
+    "ordinal": 2022,
+    "label": "DSE Listening 2022 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2022 · Task 3",
+    "url": "listening-system.html?section=dse&year=2022&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2022-task-4",
+    "type": "dse-listening",
+    "ordinal": 2022,
+    "label": "DSE Listening 2022 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2022 · Task 4",
+    "url": "listening-system.html?section=dse&year=2022&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2023-task-1",
+    "type": "dse-listening",
+    "ordinal": 2023,
+    "label": "DSE Listening 2023 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2023 · Task 1",
+    "url": "listening-system.html?section=dse&year=2023&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2023-task-2",
+    "type": "dse-listening",
+    "ordinal": 2023,
+    "label": "DSE Listening 2023 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2023 · Task 2",
+    "url": "listening-system.html?section=dse&year=2023&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2023-task-3",
+    "type": "dse-listening",
+    "ordinal": 2023,
+    "label": "DSE Listening 2023 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2023 · Task 3",
+    "url": "listening-system.html?section=dse&year=2023&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2023-task-4",
+    "type": "dse-listening",
+    "ordinal": 2023,
+    "label": "DSE Listening 2023 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2023 · Task 4",
+    "url": "listening-system.html?section=dse&year=2023&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2024-task-1",
+    "type": "dse-listening",
+    "ordinal": 2024,
+    "label": "DSE Listening 2024 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2024 · Task 1",
+    "url": "listening-system.html?section=dse&year=2024&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2024-task-2",
+    "type": "dse-listening",
+    "ordinal": 2024,
+    "label": "DSE Listening 2024 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2024 · Task 2",
+    "url": "listening-system.html?section=dse&year=2024&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2024-task-3",
+    "type": "dse-listening",
+    "ordinal": 2024,
+    "label": "DSE Listening 2024 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2024 · Task 3",
+    "url": "listening-system.html?section=dse&year=2024&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2024-task-4",
+    "type": "dse-listening",
+    "ordinal": 2024,
+    "label": "DSE Listening 2024 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2024 · Task 4",
+    "url": "listening-system.html?section=dse&year=2024&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2025-task-1",
+    "type": "dse-listening",
+    "ordinal": 2025,
+    "label": "DSE Listening 2025 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2025 · Task 1",
+    "url": "listening-system.html?section=dse&year=2025&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2025-task-2",
+    "type": "dse-listening",
+    "ordinal": 2025,
+    "label": "DSE Listening 2025 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2025 · Task 2",
+    "url": "listening-system.html?section=dse&year=2025&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2025-task-3",
+    "type": "dse-listening",
+    "ordinal": 2025,
+    "label": "DSE Listening 2025 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2025 · Task 3",
+    "url": "listening-system.html?section=dse&year=2025&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2025-task-4",
+    "type": "dse-listening",
+    "ordinal": 2025,
+    "label": "DSE Listening 2025 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2025 · Task 4",
+    "url": "listening-system.html?section=dse&year=2025&task=4"
+  },
+  {
+    "id": "dse-listening:dse-listening-2026-task-1",
+    "type": "dse-listening",
+    "ordinal": 2026,
+    "label": "DSE Listening 2026 · Task 1",
+    "detail": "DSE Paper 3 Part A · 2026 · Task 1",
+    "url": "listening-system.html?section=dse&year=2026&task=1"
+  },
+  {
+    "id": "dse-listening:dse-listening-2026-task-2",
+    "type": "dse-listening",
+    "ordinal": 2026,
+    "label": "DSE Listening 2026 · Task 2",
+    "detail": "DSE Paper 3 Part A · 2026 · Task 2",
+    "url": "listening-system.html?section=dse&year=2026&task=2"
+  },
+  {
+    "id": "dse-listening:dse-listening-2026-task-3",
+    "type": "dse-listening",
+    "ordinal": 2026,
+    "label": "DSE Listening 2026 · Task 3",
+    "detail": "DSE Paper 3 Part A · 2026 · Task 3",
+    "url": "listening-system.html?section=dse&year=2026&task=3"
+  },
+  {
+    "id": "dse-listening:dse-listening-2026-task-4",
+    "type": "dse-listening",
+    "ordinal": 2026,
+    "label": "DSE Listening 2026 · Task 4",
+    "detail": "DSE Paper 3 Part A · 2026 · Task 4",
+    "url": "listening-system.html?section=dse&year=2026&task=4"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2012-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2012,
+    "label": "DSE 2012 · Part A · Game Boys Get Unplugged",
+    "detail": "DSE Reading Comprehension · 2012 · Part A",
+    "url": "reading-comprehension.html?article=dse-2012-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2012-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2012,
+    "label": "DSE 2012 · Part B1 · Saving the World, one Patch at a Time",
+    "detail": "DSE Reading Comprehension · 2012 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2012-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2012-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2012,
+    "label": "DSE 2012 · Part B2 · Book Publishers Weekly & The ‘Chinese Mom’ Backlash",
+    "detail": "DSE Reading Comprehension · 2012 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2012-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2013-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2013,
+    "label": "DSE 2013 · Part A · Terra-Cotta Warriors in Color",
+    "detail": "DSE Reading Comprehension · 2013 · Part A",
+    "url": "reading-comprehension.html?article=dse-2013-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2013-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2013,
+    "label": "DSE 2013 · Part B1 · Master Teaches a Much-Loved Instrument & What Your Updates Say About You",
+    "detail": "DSE Reading Comprehension · 2013 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2013-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2013-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2013,
+    "label": "DSE 2013 · Part B2 · The Triumph of Dystopian Literature",
+    "detail": "DSE Reading Comprehension · 2013 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2013-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2014-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2014,
+    "label": "DSE 2014 · Part A · Apologies all around",
+    "detail": "DSE Reading Comprehension · 2014 · Part A",
+    "url": "reading-comprehension.html?article=dse-2014-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2014-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2014,
+    "label": "DSE 2014 · Part B1 · The World Needs More Love Letters",
+    "detail": "DSE Reading Comprehension · 2014 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2014-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2014-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2014,
+    "label": "DSE 2014 · Part B2 · Celebrity",
+    "detail": "DSE Reading Comprehension · 2014 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2014-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2015-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2015,
+    "label": "DSE 2015 · Part A · In from the Cold among Warm-Hearted Koreans",
+    "detail": "DSE Reading Comprehension · 2015 · Part A",
+    "url": "reading-comprehension.html?article=dse-2015-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2015-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2015,
+    "label": "DSE 2015 · Part B1 · Witness Statement & Will Cars with No Drivers Catch On?",
+    "detail": "DSE Reading Comprehension · 2015 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2015-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2015-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2015,
+    "label": "DSE 2015 · Part B2 · Young Minds in Critical Condition",
+    "detail": "DSE Reading Comprehension · 2015 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2015-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2016-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2016,
+    "label": "DSE 2016 · Part A · 10 Common Superstitions & Discoveries about Luck",
+    "detail": "DSE Reading Comprehension · 2016 · Part A",
+    "url": "reading-comprehension.html?article=dse-2016-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2016-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2016,
+    "label": "DSE 2016 · Part B1 · Food Trucks in Hong Kong",
+    "detail": "DSE Reading Comprehension · 2016 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2016-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2016-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2016,
+    "label": "DSE 2016 · Part B2 · Mexicue Moves Beyond the Food Truck",
+    "detail": "DSE Reading Comprehension · 2016 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2016-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2017-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2017,
+    "label": "DSE 2017 · Part A · The Myth of Recycling",
+    "detail": "DSE Reading Comprehension · 2017 · Part A",
+    "url": "reading-comprehension.html?article=dse-2017-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2017-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2017,
+    "label": "DSE 2017 · Part B1 · Millennials: Coming of Age",
+    "detail": "DSE Reading Comprehension · 2017 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2017-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2017-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2017,
+    "label": "DSE 2017 · Part B2 · Millennials: Themes in the Literature",
+    "detail": "DSE Reading Comprehension · 2017 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2017-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2018-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2018,
+    "label": "DSE 2018 · Part A · Music Teachers & Listening to Music While Working",
+    "detail": "DSE Reading Comprehension · 2018 · Part A",
+    "url": "reading-comprehension.html?article=dse-2018-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2018-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2018,
+    "label": "DSE 2018 · Part B1 · A Guide to Bee Stings & Hong Kong's First Urban Beekeeper",
+    "detail": "DSE Reading Comprehension · 2018 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2018-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2018-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2018,
+    "label": "DSE 2018 · Part B2 · Farmers Resort to Hand Pollination & Sweetness and Light",
+    "detail": "DSE Reading Comprehension · 2018 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2018-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2019-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2019,
+    "label": "DSE 2019 · Part A · Tim Harford: A New Look at Messiness",
+    "detail": "DSE Reading Comprehension · 2019 · Part A",
+    "url": "reading-comprehension.html?article=dse-2019-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2019-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2019,
+    "label": "DSE 2019 · Part B1 · Hong Kong Public Libraries & Promoting a Reading Culture",
+    "detail": "DSE Reading Comprehension · 2019 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2019-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2019-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2019,
+    "label": "DSE 2019 · Part B2 · An Autobiographical Extract by Clive James",
+    "detail": "DSE Reading Comprehension · 2019 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2019-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2020-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2020,
+    "label": "DSE 2020 · Part A · Tai Kwun: The Big House Is Finally Open",
+    "detail": "DSE Reading Comprehension · 2020 · Part A",
+    "url": "reading-comprehension.html?article=dse-2020-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2020-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2020,
+    "label": "DSE 2020 · Part B1 · How to Fly a Kite & The Grounding of Hong Kong's Kites",
+    "detail": "DSE Reading Comprehension · 2020 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2020-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2020-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2020,
+    "label": "DSE 2020 · Part B2 · Graham Norton: The Letters I Can Never Forget",
+    "detail": "DSE Reading Comprehension · 2020 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2020-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2021-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2021,
+    "label": "DSE 2021 · Part A · Parking Up at the Food Garage & The War on Big Food",
+    "detail": "DSE Reading Comprehension · 2021 · Part A",
+    "url": "reading-comprehension.html?article=dse-2021-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2021-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2021,
+    "label": "DSE 2021 · Part B1 · Improving Our Housing Estate",
+    "detail": "DSE Reading Comprehension · 2021 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2021-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2021-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2021,
+    "label": "DSE 2021 · Part B2 · Space Exploration and Terraforming Mars",
+    "detail": "DSE Reading Comprehension · 2021 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2021-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2022-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2022,
+    "label": "DSE 2022 · Part A · Hong Kong's Comic Industry",
+    "detail": "DSE Reading Comprehension · 2022 · Part A",
+    "url": "reading-comprehension.html?article=dse-2022-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2022-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2022,
+    "label": "DSE 2022 · Part B1 · Job Advertisements & Graduate Job Seeking",
+    "detail": "DSE Reading Comprehension · 2022 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2022-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2022-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2022,
+    "label": "DSE 2022 · Part B2 · Ethical Concerns Mount as AI Takes a Bigger Role",
+    "detail": "DSE Reading Comprehension · 2022 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2022-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2023-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2023,
+    "label": "DSE 2023 · Part A · Flash Fiction: Writing a Story in 1,000 Words or Less",
+    "detail": "DSE Reading Comprehension · 2023 · Part A",
+    "url": "reading-comprehension.html?article=dse-2023-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2023-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2023,
+    "label": "DSE 2023 · Part B1 · International Guide Dog Day & Hong Kong's Guide Dogs",
+    "detail": "DSE Reading Comprehension · 2023 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2023-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2023-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2023,
+    "label": "DSE 2023 · Part B2 · Michelle Obama",
+    "detail": "DSE Reading Comprehension · 2023 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2023-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2024-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2024,
+    "label": "DSE 2024 · Part A · Hong Kong’s Banyan Trees",
+    "detail": "DSE Reading Comprehension · 2024 · Part A",
+    "url": "reading-comprehension.html?article=dse-2024-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2024-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2024,
+    "label": "DSE 2024 · Part B1 · Some Old Hawkers are Still Here",
+    "detail": "DSE Reading Comprehension · 2024 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2024-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2024-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2024,
+    "label": "DSE 2024 · Part B2 · Bad Science",
+    "detail": "DSE Reading Comprehension · 2024 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2024-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2025-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2025,
+    "label": "DSE 2025 · Part A · Celebrity Gossip",
+    "detail": "DSE Reading Comprehension · 2025 · Part A",
+    "url": "reading-comprehension.html?article=dse-2025-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2025-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2025,
+    "label": "DSE 2025 · Part B1 · Foraging in Hong Kong for Beginners",
+    "detail": "DSE Reading Comprehension · 2025 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2025-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2025-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2025,
+    "label": "DSE 2025 · Part B2 · Quiet Quitting",
+    "detail": "DSE Reading Comprehension · 2025 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2025-b2"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2026-a",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2026,
+    "label": "DSE 2026 · Part A · America is a coffee country: Does bubble tea stand a chance?",
+    "detail": "DSE Reading Comprehension · 2026 · Part A",
+    "url": "reading-comprehension.html?article=dse-2026-a"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2026-b1",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2026,
+    "label": "DSE 2026 · Part B1 · Grow Your YouTube Channel & YagmanX",
+    "detail": "DSE Reading Comprehension · 2026 · Part B1",
+    "url": "reading-comprehension.html?article=dse-2026-b1"
+  },
+  {
+    "id": "dse-reading-comprehension:dse-2026-b2",
+    "type": "dse-reading-comprehension",
+    "ordinal": 2026,
+    "label": "DSE 2026 · Part B2 · Vacation, Why We Travel & Travel",
+    "detail": "DSE Reading Comprehension · 2026 · Part B2",
+    "url": "reading-comprehension.html?article=dse-2026-b2"
+  },
+  {
     "id": "fill:dse-writing-2025-part-a",
     "type": "fill-blanks",
     "ordinal": 2025,
@@ -28848,6 +29688,3686 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "natural-english.html?module=dressing"
   },
   {
+    "id": "native-english:native-007",
+    "type": "native-english",
+    "ordinal": 7,
+    "label": "#7 · 這件有 M 號嗎？",
+    "detail": "Native English #7 · Do you have this in a medium?",
+    "url": "natural-english.html?module=native-007"
+  },
+  {
+    "id": "native-english:native-008",
+    "type": "native-english",
+    "ordinal": 8,
+    "label": "#8 · 這個有黑色嗎？",
+    "detail": "Native English #8 · Do you have this in black?",
+    "url": "natural-english.html?module=native-008"
+  },
+  {
+    "id": "native-english:native-009",
+    "type": "native-english",
+    "ordinal": 9,
+    "label": "#9 · 冷氣",
+    "detail": "Native English #9 · AC",
+    "url": "natural-english.html?module=native-009"
+  },
+  {
+    "id": "native-english:native-010",
+    "type": "native-english",
+    "ordinal": 10,
+    "label": "#10 · 可以涼一點嗎？",
+    "detail": "Native English #10 · Can you make it a little cooler?",
+    "url": "natural-english.html?module=native-010"
+  },
+  {
+    "id": "native-english:native-011",
+    "type": "native-english",
+    "ordinal": 11,
+    "label": "#11 · 找不到鑰匙",
+    "detail": "Native English #11 · I can't find my keys.",
+    "url": "natural-english.html?module=native-011"
+  },
+  {
+    "id": "native-english:native-012",
+    "type": "native-english",
+    "ordinal": 12,
+    "label": "#12 · 我手機放哪去了？",
+    "detail": "Native English #12 · Where did I put my phone?",
+    "url": "natural-english.html?module=native-012"
+  },
+  {
+    "id": "native-english:native-014",
+    "type": "native-english",
+    "ordinal": 14,
+    "label": "#14 · 您先請",
+    "detail": "Native English #14 · After you.",
+    "url": "natural-english.html?module=native-014"
+  },
+  {
+    "id": "native-english:native-016",
+    "type": "native-english",
+    "ordinal": 16,
+    "label": "#16 · 婉拒邀請或提議",
+    "detail": "Native English #16 · I'll pass.",
+    "url": "natural-english.html?module=native-016"
+  },
+  {
+    "id": "native-english:native-017",
+    "type": "native-english",
+    "ordinal": 17,
+    "label": "#17 · 我什麼都可以",
+    "detail": "Native English #17 · I'm up for anything.",
+    "url": "natural-english.html?module=native-017"
+  },
+  {
+    "id": "native-english:native-018",
+    "type": "native-english",
+    "ordinal": 18,
+    "label": "#18 · 醬另外放",
+    "detail": "Native English #18 · sauce on the side",
+    "url": "natural-english.html?module=native-018"
+  },
+  {
+    "id": "native-english:native-019",
+    "type": "native-english",
+    "ordinal": 19,
+    "label": "#19 · 走洋蔥",
+    "detail": "Native English #19 · No onions, please.",
+    "url": "natural-english.html?module=native-019"
+  },
+  {
+    "id": "native-english:native-020",
+    "type": "native-english",
+    "ordinal": 20,
+    "label": "#20 · 多一點醬",
+    "detail": "Native English #20 · extra sauce",
+    "url": "natural-english.html?module=native-020"
+  },
+  {
+    "id": "native-english:native-021",
+    "type": "native-english",
+    "ordinal": 21,
+    "label": "#21 · 這不是我點的",
+    "detail": "Native English #21 · I didn’t order this.",
+    "url": "natural-english.html?module=native-021"
+  },
+  {
+    "id": "native-english:native-022",
+    "type": "native-english",
+    "ordinal": 22,
+    "label": "#22 · 被食物噎到",
+    "detail": "Native English #22 · I choked on it.",
+    "url": "natural-english.html?module=native-022"
+  },
+  {
+    "id": "native-english:native-024",
+    "type": "native-english",
+    "ordinal": 24,
+    "label": "#24 · 食物軟爛糊糊",
+    "detail": "Native English #24 · mushy",
+    "url": "natural-english.html?module=native-024"
+  },
+  {
+    "id": "native-english:native-026",
+    "type": "native-english",
+    "ordinal": 26,
+    "label": "#26 · 肚子怪怪的",
+    "detail": "Native English #26 · My stomach feels weird.",
+    "url": "natural-english.html?module=native-026"
+  },
+  {
+    "id": "native-english:native-027",
+    "type": "native-english",
+    "ordinal": 27,
+    "label": "#27 · 頭暈",
+    "detail": "Native English #27 · I feel dizzy.",
+    "url": "natural-english.html?module=native-027"
+  },
+  {
+    "id": "native-english:native-028",
+    "type": "native-english",
+    "ordinal": 28,
+    "label": "#28 · 鼻塞",
+    "detail": "Native English #28 · My nose is stuffed up.",
+    "url": "natural-english.html?module=native-028"
+  },
+  {
+    "id": "native-english:native-029",
+    "type": "native-english",
+    "ordinal": 29,
+    "label": "#29 · 可以試穿嗎？",
+    "detail": "Native English #29 · Can I try this on?",
+    "url": "natural-english.html?module=native-029"
+  },
+  {
+    "id": "native-english:native-030",
+    "type": "native-english",
+    "ordinal": 30,
+    "label": "#30 · 有點緊",
+    "detail": "Native English #30 · It’s a little tight.",
+    "url": "natural-english.html?module=native-030"
+  },
+  {
+    "id": "native-english:native-031",
+    "type": "native-english",
+    "ordinal": 31,
+    "label": "#31 · 我只是看看",
+    "detail": "Native English #31 · I’m just looking, thanks.",
+    "url": "natural-english.html?module=native-031"
+  },
+  {
+    "id": "native-english:native-032",
+    "type": "native-english",
+    "ordinal": 32,
+    "label": "#32 · 水管、馬桶堵住",
+    "detail": "Native English #32 · It’s clogged.",
+    "url": "natural-english.html?module=native-032"
+  },
+  {
+    "id": "native-english:native-033",
+    "type": "native-english",
+    "ordinal": 33,
+    "label": "#33 · 桌椅搖搖晃晃",
+    "detail": "Native English #33 · It’s wobbly.",
+    "url": "natural-english.html?module=native-033"
+  },
+  {
+    "id": "native-english:native-034",
+    "type": "native-english",
+    "ordinal": 34,
+    "label": "#34 · 刀鈍了",
+    "detail": "Native English #34 · It’s dull.",
+    "url": "natural-english.html?module=native-034"
+  },
+  {
+    "id": "native-english:native-035",
+    "type": "native-english",
+    "ordinal": 35,
+    "label": "#35 · 車子拋錨",
+    "detail": "Native English #35 · My car broke down.",
+    "url": "natural-english.html?module=native-035"
+  },
+  {
+    "id": "native-english:native-036",
+    "type": "native-english",
+    "ordinal": 36,
+    "label": "#36 · 持續低沉嗡聲",
+    "detail": "Native English #36 · It’s humming.",
+    "url": "natural-english.html?module=native-036"
+  },
+  {
+    "id": "native-english:native-037",
+    "type": "native-english",
+    "ordinal": 37,
+    "label": "#37 · 回電",
+    "detail": "Native English #37 · call back",
+    "url": "natural-english.html?module=native-037"
+  },
+  {
+    "id": "native-english:native-039",
+    "type": "native-english",
+    "ordinal": 39,
+    "label": "#39 · 視訊畫面卡住",
+    "detail": "Native English #39 · You’re frozen.",
+    "url": "natural-english.html?module=native-039"
+  },
+  {
+    "id": "native-english:native-040",
+    "type": "native-english",
+    "ordinal": 40,
+    "label": "#40 · 通話突然斷掉",
+    "detail": "Native English #40 · The call dropped.",
+    "url": "natural-english.html?module=native-040"
+  },
+  {
+    "id": "native-english:native-041",
+    "type": "native-english",
+    "ordinal": 41,
+    "label": "#41 · 手機靜音",
+    "detail": "Native English #41 · My phone was on silent.",
+    "url": "natural-english.html?module=native-041"
+  },
+  {
+    "id": "native-english:native-042",
+    "type": "native-english",
+    "ordinal": 42,
+    "label": "#42 · 塞在車陣中",
+    "detail": "Native English #42 · I’m stuck in traffic.",
+    "url": "natural-english.html?module=native-042"
+  },
+  {
+    "id": "native-english:native-043",
+    "type": "native-english",
+    "ordinal": 43,
+    "label": "#43 · 找停車位",
+    "detail": "Native English #43 · look for parking / a parking spot",
+    "url": "natural-english.html?module=native-043"
+  },
+  {
+    "id": "native-english:native-044",
+    "type": "native-english",
+    "ordinal": 44,
+    "label": "#44 · 計程車「我在這裡下」",
+    "detail": "Native English #44 · I’ll get out here.",
+    "url": "natural-english.html?module=native-044"
+  },
+  {
+    "id": "native-english:native-045",
+    "type": "native-english",
+    "ordinal": 45,
+    "label": "#45 · 讓我在這裡下車",
+    "detail": "Native English #45 · You can drop me off here.",
+    "url": "natural-english.html?module=native-045"
+  },
+  {
+    "id": "native-english:native-047",
+    "type": "native-english",
+    "ordinal": 47,
+    "label": "#47 · 可以晚點退房嗎？",
+    "detail": "Native English #47 · Can I get a late checkout?",
+    "url": "natural-english.html?module=native-047"
+  },
+  {
+    "id": "native-english:native-048",
+    "type": "native-english",
+    "ordinal": 48,
+    "label": "#48 · 廁所有人",
+    "detail": "Native English #48 · Occupied! / Someone’s in here!",
+    "url": "natural-english.html?module=native-048"
+  },
+  {
+    "id": "native-english:native-049",
+    "type": "native-english",
+    "ordinal": 49,
+    "label": "#49 · 不小心撞倒飲料",
+    "detail": "Native English #49 · I knocked my drink over.",
+    "url": "natural-english.html?module=native-049"
+  },
+  {
+    "id": "native-english:native-050",
+    "type": "native-english",
+    "ordinal": 50,
+    "label": "#50 · 洗碗",
+    "detail": "Native English #50 · do the dishes",
+    "url": "natural-english.html?module=native-050"
+  },
+  {
+    "id": "native-english:native-051",
+    "type": "native-english",
+    "ordinal": 51,
+    "label": "#51 · 擦乾身體",
+    "detail": "Native English #51 · dry yourself off",
+    "url": "natural-english.html?module=native-051"
+  },
+  {
+    "id": "native-english:native-052",
+    "type": "native-english",
+    "ordinal": 52,
+    "label": "#52 · 「我先走了」",
+    "detail": "Native English #52 · I’m gonna head out.",
+    "url": "natural-english.html?module=native-052"
+  },
+  {
+    "id": "native-english:native-053",
+    "type": "native-english",
+    "ordinal": 53,
+    "label": "#53 · 我要走了",
+    "detail": "Native English #53 · I should get going.",
+    "url": "natural-english.html?module=native-053"
+  },
+  {
+    "id": "native-english:native-054",
+    "type": "native-english",
+    "ordinal": 54,
+    "label": "#54 · 過來我家",
+    "detail": "Native English #54 · come over",
+    "url": "natural-english.html?module=native-054"
+  },
+  {
+    "id": "native-english:native-055",
+    "type": "native-english",
+    "ordinal": 55,
+    "label": "#55 · 不要氣泡水，要普通水",
+    "detail": "Native English #55 · still water",
+    "url": "natural-english.html?module=native-055"
+  },
+  {
+    "id": "native-english:native-056",
+    "type": "native-english",
+    "ordinal": 56,
+    "label": "#56 · 普通咖啡，不要低咖啡因",
+    "detail": "Native English #56 · regular coffee",
+    "url": "natural-english.html?module=native-056"
+  },
+  {
+    "id": "native-english:native-057",
+    "type": "native-english",
+    "ordinal": 57,
+    "label": "#57 · 薯條當配菜",
+    "detail": "Native English #57 · fries on the side",
+    "url": "natural-english.html?module=native-057"
+  },
+  {
+    "id": "native-english:native-058",
+    "type": "native-english",
+    "ordinal": 58,
+    "label": "#58 · 昨晚剩下的菜",
+    "detail": "Native English #58 · last night’s leftovers",
+    "url": "natural-english.html?module=native-058"
+  },
+  {
+    "id": "native-english:native-059",
+    "type": "native-english",
+    "ordinal": 59,
+    "label": "#59 · 普通尺寸",
+    "detail": "Native English #59 · regular size",
+    "url": "natural-english.html?module=native-059"
+  },
+  {
+    "id": "native-english:native-060",
+    "type": "native-english",
+    "ordinal": 60,
+    "label": "#60 · 套餐（美式快餐）",
+    "detail": "Native English #60 · combo / combo meal",
+    "url": "natural-english.html?module=native-060"
+  },
+  {
+    "id": "native-english:native-061",
+    "type": "native-english",
+    "ordinal": 61,
+    "label": "#61 · 綁頭髮的髮圈",
+    "detail": "Native English #61 · hair tie",
+    "url": "natural-english.html?module=native-061"
+  },
+  {
+    "id": "native-english:native-062",
+    "type": "native-english",
+    "ordinal": 62,
+    "label": "#62 · 棉花棒",
+    "detail": "Native English #62 · cotton swab / Q-tip",
+    "url": "natural-english.html?module=native-062"
+  },
+  {
+    "id": "native-english:native-063",
+    "type": "native-english",
+    "ordinal": 63,
+    "label": "#63 · 指甲剪",
+    "detail": "Native English #63 · nail clippers",
+    "url": "natural-english.html?module=native-063"
+  },
+  {
+    "id": "native-english:native-064",
+    "type": "native-english",
+    "ordinal": 64,
+    "label": "#64 · 瓦斯爐其中一個爐頭",
+    "detail": "Native English #64 · burner",
+    "url": "natural-english.html?module=native-064"
+  },
+  {
+    "id": "native-english:native-065",
+    "type": "native-english",
+    "ordinal": 65,
+    "label": "#65 · 紅酒開瓶器",
+    "detail": "Native English #65 · corkscrew",
+    "url": "natural-english.html?module=native-065"
+  },
+  {
+    "id": "native-english:native-066",
+    "type": "native-english",
+    "ordinal": 66,
+    "label": "#66 · 停電了",
+    "detail": "Native English #66 · The power is out.",
+    "url": "natural-english.html?module=native-066"
+  },
+  {
+    "id": "native-english:native-067",
+    "type": "native-english",
+    "ordinal": 67,
+    "label": "#67 · 跳電了",
+    "detail": "Native English #67 · The breaker tripped.",
+    "url": "natural-english.html?module=native-067"
+  },
+  {
+    "id": "native-english:native-068",
+    "type": "native-english",
+    "ordinal": 68,
+    "label": "#68 · 電來了",
+    "detail": "Native English #68 · The power is back on.",
+    "url": "natural-english.html?module=native-068"
+  },
+  {
+    "id": "native-english:native-069",
+    "type": "native-english",
+    "ordinal": 69,
+    "label": "#69 · 家裡有食物，叫客人自己拿",
+    "detail": "Native English #69 · Help yourself.",
+    "url": "natural-english.html?module=native-069"
+  },
+  {
+    "id": "native-english:native-070",
+    "type": "native-english",
+    "ordinal": 70,
+    "label": "#70 · 我準備好了，可以走了",
+    "detail": "Native English #70 · I’m good to go.",
+    "url": "natural-english.html?module=native-070"
+  },
+  {
+    "id": "native-english:native-071",
+    "type": "native-english",
+    "ordinal": 71,
+    "label": "#71 · 我突然很想吃拉麵",
+    "detail": "Native English #71 · I’m craving ramen.",
+    "url": "natural-english.html?module=native-071"
+  },
+  {
+    "id": "native-english:native-072",
+    "type": "native-english",
+    "ordinal": 72,
+    "label": "#72 · 我今天不想出去",
+    "detail": "Native English #72 · I don’t feel like going out.",
+    "url": "natural-english.html?module=native-072"
+  },
+  {
+    "id": "native-english:native-073",
+    "type": "native-english",
+    "ordinal": 73,
+    "label": "#73 · 我今天沒心情",
+    "detail": "Native English #73 · I’m not in the mood.",
+    "url": "natural-english.html?module=native-073"
+  },
+  {
+    "id": "native-english:native-074",
+    "type": "native-english",
+    "ordinal": 74,
+    "label": "#74 · 我忍不住",
+    "detail": "Native English #74 · I can’t help it.",
+    "url": "natural-english.html?module=native-074"
+  },
+  {
+    "id": "native-english:native-075",
+    "type": "native-english",
+    "ordinal": 75,
+    "label": "#75 · 日子有點難，但還撐得住",
+    "detail": "Native English #75 · I’m hanging in there.",
+    "url": "natural-english.html?module=native-075"
+  },
+  {
+    "id": "native-english:native-076",
+    "type": "native-english",
+    "ordinal": 76,
+    "label": "#76 · 關心某人最近狀況",
+    "detail": "Native English #76 · Just checking in.",
+    "url": "natural-english.html?module=native-076"
+  },
+  {
+    "id": "native-english:native-077",
+    "type": "native-english",
+    "ordinal": 77,
+    "label": "#77 · 清倉商品",
+    "detail": "Native English #77 · clearance",
+    "url": "natural-english.html?module=native-077"
+  },
+  {
+    "id": "native-english:native-078",
+    "type": "native-english",
+    "ordinal": 78,
+    "label": "#78 · 卡被拒絕",
+    "detail": "Native English #78 · My card was declined.",
+    "url": "natural-english.html?module=native-078"
+  },
+  {
+    "id": "native-english:native-079",
+    "type": "native-english",
+    "ordinal": 79,
+    "label": "#79 · 蚊子咬的包",
+    "detail": "Native English #79 · mosquito bite",
+    "url": "natural-english.html?module=native-079"
+  },
+  {
+    "id": "native-english:native-080",
+    "type": "native-english",
+    "ordinal": 80,
+    "label": "#80 · 嘴唇乾裂",
+    "detail": "Native English #80 · chapped lips",
+    "url": "natural-english.html?module=native-080"
+  },
+  {
+    "id": "native-english:native-081",
+    "type": "native-english",
+    "ordinal": 81,
+    "label": "#81 · 跑完很喘",
+    "detail": "Native English #81 · I’m out of breath.",
+    "url": "natural-english.html?module=native-081"
+  },
+  {
+    "id": "native-english:native-082",
+    "type": "native-english",
+    "ordinal": 82,
+    "label": "#82 · 麻麻刺刺的感覺",
+    "detail": "Native English #82 · pins and needles",
+    "url": "natural-english.html?module=native-082"
+  },
+  {
+    "id": "native-english:native-083",
+    "type": "native-english",
+    "ordinal": 83,
+    "label": "#83 · 腿坐到麻掉",
+    "detail": "Native English #83 · My leg fell asleep.",
+    "url": "natural-english.html?module=native-083"
+  },
+  {
+    "id": "native-english:native-084",
+    "type": "native-english",
+    "ordinal": 84,
+    "label": "#84 · 睡醒脖子很僵",
+    "detail": "Native English #84 · I have a stiff neck.",
+    "url": "natural-english.html?module=native-084"
+  },
+  {
+    "id": "native-english:native-085",
+    "type": "native-english",
+    "ordinal": 85,
+    "label": "#85 · 剛睡醒眼睛浮腫",
+    "detail": "Native English #85 · puffy eyes",
+    "url": "natural-english.html?module=native-085"
+  },
+  {
+    "id": "native-english:native-086",
+    "type": "native-english",
+    "ordinal": 86,
+    "label": "#86 · 快速補眠",
+    "detail": "Native English #86 · power nap",
+    "url": "natural-english.html?module=native-086"
+  },
+  {
+    "id": "native-english:native-087",
+    "type": "native-english",
+    "ordinal": 87,
+    "label": "#87 · 「無加糖」",
+    "detail": "Native English #87 · no added sugar",
+    "url": "natural-english.html?module=native-087"
+  },
+  {
+    "id": "native-english:native-088",
+    "type": "native-english",
+    "ordinal": 88,
+    "label": "#88 · 百葉窗",
+    "detail": "Native English #88 · blinds",
+    "url": "natural-english.html?module=native-088"
+  },
+  {
+    "id": "native-english:native-089",
+    "type": "native-english",
+    "ordinal": 89,
+    "label": "#89 · 幫我拿著一下",
+    "detail": "Native English #89 · Can you hold this for a second?",
+    "url": "natural-english.html?module=native-089"
+  },
+  {
+    "id": "native-english:native-090",
+    "type": "native-english",
+    "ordinal": 90,
+    "label": "#90 · 幫我拿一下那個",
+    "detail": "Native English #90 · Can you grab that for me?",
+    "url": "natural-english.html?module=native-090"
+  },
+  {
+    "id": "native-english:native-091",
+    "type": "native-english",
+    "ordinal": 91,
+    "label": "#91 · 我在路上了",
+    "detail": "Native English #91 · I’m on my way.",
+    "url": "natural-english.html?module=native-091"
+  },
+  {
+    "id": "native-english:native-092",
+    "type": "native-english",
+    "ordinal": 92,
+    "label": "#92 · 我剛出門",
+    "detail": "Native English #92 · I just left. / I just headed out.",
+    "url": "natural-english.html?module=native-092"
+  },
+  {
+    "id": "native-english:native-093",
+    "type": "native-english",
+    "ordinal": 93,
+    "label": "#93 · 我會晚五分鐘",
+    "detail": "Native English #93 · I’m running five minutes late.",
+    "url": "natural-english.html?module=native-093"
+  },
+  {
+    "id": "native-english:native-094",
+    "type": "native-english",
+    "ordinal": 94,
+    "label": "#94 · 零件脫落",
+    "detail": "Native English #94 · come off",
+    "url": "natural-english.html?module=native-094"
+  },
+  {
+    "id": "native-english:native-095",
+    "type": "native-english",
+    "ordinal": 95,
+    "label": "#95 · 別人不小心撞你",
+    "detail": "Native English #95 · You’re fine. / No worries.",
+    "url": "natural-english.html?module=native-095"
+  },
+  {
+    "id": "native-english:native-096",
+    "type": "native-english",
+    "ordinal": 96,
+    "label": "#96 · 可以讓我過去嗎？",
+    "detail": "Native English #96 · Can I get by?",
+    "url": "natural-english.html?module=native-096"
+  },
+  {
+    "id": "native-english:native-097",
+    "type": "native-english",
+    "ordinal": 97,
+    "label": "#97 · 「借過，我要過去」",
+    "detail": "Native English #97 · Coming through.",
+    "url": "natural-english.html?module=native-097"
+  },
+  {
+    "id": "native-english:native-098",
+    "type": "native-english",
+    "ordinal": 98,
+    "label": "#98 · 小心撞頭",
+    "detail": "Native English #98 · Watch your head.",
+    "url": "natural-english.html?module=native-098"
+  },
+  {
+    "id": "native-english:native-099",
+    "type": "native-english",
+    "ordinal": 99,
+    "label": "#99 · 把東西帶走",
+    "detail": "Native English #99 · take it with you",
+    "url": "natural-english.html?module=native-099"
+  },
+  {
+    "id": "native-english:native-100",
+    "type": "native-english",
+    "ordinal": 100,
+    "label": "#100 · 有消息記得告訴我",
+    "detail": "Native English #100 · Keep me posted.",
+    "url": "natural-english.html?module=native-100"
+  },
+  {
+    "id": "native-english:native-101",
+    "type": "native-english",
+    "ordinal": 101,
+    "label": "#101 · 鼓勵對方撐住",
+    "detail": "Native English #101 · Hang in there.",
+    "url": "natural-english.html?module=native-101"
+  },
+  {
+    "id": "native-english:native-102",
+    "type": "native-english",
+    "ordinal": 102,
+    "label": "#102 · 「最近怎樣？」—「還行啦」",
+    "detail": "Native English #102 · Can’t complain.",
+    "url": "natural-english.html?module=native-102"
+  },
+  {
+    "id": "native-english:native-103",
+    "type": "native-english",
+    "ordinal": 103,
+    "label": "#103 · 「我到了！」",
+    "detail": "Native English #103 · I made it!",
+    "url": "natural-english.html?module=native-103"
+  },
+  {
+    "id": "native-english:native-104",
+    "type": "native-english",
+    "ordinal": 104,
+    "label": "#104 · 我離你那邊還有五分鐘",
+    "detail": "Native English #104 · I’m five minutes away.",
+    "url": "natural-english.html?module=native-104"
+  },
+  {
+    "id": "native-english:native-106",
+    "type": "native-english",
+    "ordinal": 106,
+    "label": "#106 · 忙一忙忘記時間了",
+    "detail": "Native English #106 · I lost track of time.",
+    "url": "natural-english.html?module=native-106"
+  },
+  {
+    "id": "native-english:native-107",
+    "type": "native-english",
+    "ordinal": 107,
+    "label": "#107 · 雖然遲了，但總比沒來好",
+    "detail": "Native English #107 · Better late than never.",
+    "url": "natural-english.html?module=native-107"
+  },
+  {
+    "id": "native-english:native-108",
+    "type": "native-english",
+    "ordinal": 108,
+    "label": "#108 · 被紙割傷",
+    "detail": "Native English #108 · paper cut",
+    "url": "natural-english.html?module=native-108"
+  },
+  {
+    "id": "native-english:native-109",
+    "type": "native-english",
+    "ordinal": 109,
+    "label": "#109 · 整晚翻來覆去",
+    "detail": "Native English #109 · I tossed and turned all night.",
+    "url": "natural-english.html?module=native-109"
+  },
+  {
+    "id": "native-english:native-110",
+    "type": "native-english",
+    "ordinal": 110,
+    "label": "#110 · 熬一整晚沒睡",
+    "detail": "Native English #110 · I pulled an all-nighter.",
+    "url": "natural-english.html?module=native-110"
+  },
+  {
+    "id": "native-english:native-111",
+    "type": "native-english",
+    "ordinal": 111,
+    "label": "#111 · 不小心睡著",
+    "detail": "Native English #111 · I dozed off.",
+    "url": "natural-english.html?module=native-111"
+  },
+  {
+    "id": "native-english:native-115",
+    "type": "native-english",
+    "ordinal": 115,
+    "label": "#115 · 蘋果、水果撞傷一塊",
+    "detail": "Native English #115 · The fruit is bruised.",
+    "url": "natural-english.html?module=native-115"
+  },
+  {
+    "id": "native-english:native-116",
+    "type": "native-english",
+    "ordinal": 116,
+    "label": "#116 · 水槽水下得很慢",
+    "detail": "Native English #116 · The sink is draining slowly.",
+    "url": "natural-english.html?module=native-116"
+  },
+  {
+    "id": "native-english:native-117",
+    "type": "native-english",
+    "ordinal": 117,
+    "label": "#117 · 門可以關上，但扣不上",
+    "detail": "Native English #117 · The door won’t latch.",
+    "url": "natural-english.html?module=native-117"
+  },
+  {
+    "id": "native-english:native-118",
+    "type": "native-english",
+    "ordinal": 118,
+    "label": "#118 · 想叫人窗戶只開一點點",
+    "detail": "Native English #118 · Leave the window cracked.",
+    "url": "natural-english.html?module=native-118"
+  },
+  {
+    "id": "native-english:native-119",
+    "type": "native-english",
+    "ordinal": 119,
+    "label": "#119 · 醫生／美髮店同一時間排了兩個客人",
+    "detail": "Native English #119 · They double-booked the slot.",
+    "url": "natural-english.html?module=native-119"
+  },
+  {
+    "id": "native-english:native-120",
+    "type": "native-english",
+    "ordinal": 120,
+    "label": "#120 · 有人取消，所以突然空出一個預約時間",
+    "detail": "Native English #120 · An opening came up.",
+    "url": "natural-english.html?module=native-120"
+  },
+  {
+    "id": "native-english:native-121",
+    "type": "native-english",
+    "ordinal": 121,
+    "label": "#121 · 外送少了一樣東西",
+    "detail": "Native English #121 · An item is missing from my order.",
+    "url": "natural-english.html?module=native-121"
+  },
+  {
+    "id": "native-english:native-122",
+    "type": "native-english",
+    "ordinal": 122,
+    "label": "#122 · 餐點做錯，退回廚房",
+    "detail": "Native English #122 · send it back",
+    "url": "natural-english.html?module=native-122"
+  },
+  {
+    "id": "native-english:native-123",
+    "type": "native-english",
+    "ordinal": 123,
+    "label": "#123 · 餐廳因出錯送你免費飲料",
+    "detail": "Native English #123 · They comped our drinks.",
+    "url": "natural-english.html?module=native-123"
+  },
+  {
+    "id": "native-english:native-124",
+    "type": "native-english",
+    "ordinal": 124,
+    "label": "#124 · 「這杯算店家的」",
+    "detail": "Native English #124 · It’s on the house.",
+    "url": "natural-english.html?module=native-124"
+  },
+  {
+    "id": "native-english:native-125",
+    "type": "native-english",
+    "ordinal": 125,
+    "label": "#125 · 餐廳把兩桌的餐點弄反",
+    "detail": "Native English #125 · They mixed up our orders.",
+    "url": "natural-english.html?module=native-125"
+  },
+  {
+    "id": "native-english:native-126",
+    "type": "native-english",
+    "ordinal": 126,
+    "label": "#126 · 訊息顯示對方已讀",
+    "detail": "Native English #126 · read receipt",
+    "url": "natural-english.html?module=native-126"
+  },
+  {
+    "id": "native-english:native-127",
+    "type": "native-english",
+    "ordinal": 127,
+    "label": "#127 · 對方已讀但一直沒回",
+    "detail": "Native English #127 · He left me on read.",
+    "url": "natural-english.html?module=native-127"
+  },
+  {
+    "id": "native-english:native-128",
+    "type": "native-english",
+    "ordinal": 128,
+    "label": "#128 · 收銀員少找錢給你",
+    "detail": "Native English #128 · I was short-changed.",
+    "url": "natural-english.html?module=native-128"
+  },
+  {
+    "id": "native-english:native-129",
+    "type": "native-english",
+    "ordinal": 129,
+    "label": "#129 · 同一筆被刷了兩次",
+    "detail": "Native English #129 · I was charged twice. / I was double-charged.",
+    "url": "natural-english.html?module=native-129"
+  },
+  {
+    "id": "native-english:native-130",
+    "type": "native-english",
+    "ordinal": 130,
+    "label": "#130 · 店員多收你錢",
+    "detail": "Native English #130 · I was overcharged.",
+    "url": "natural-english.html?module=native-130"
+  },
+  {
+    "id": "native-english:native-131",
+    "type": "native-english",
+    "ordinal": 131,
+    "label": "#131 · 這東西標籤上寫 $10",
+    "detail": "Native English #131 · It’s marked at $10.",
+    "url": "natural-english.html?module=native-131"
+  },
+  {
+    "id": "native-english:native-132",
+    "type": "native-english",
+    "ordinal": 132,
+    "label": "#132 · 商品掃描出來的價格跟標價不同",
+    "detail": "Native English #132 · It rang up at the wrong price.",
+    "url": "natural-english.html?module=native-132"
+  },
+  {
+    "id": "native-english:native-133",
+    "type": "native-english",
+    "ordinal": 133,
+    "label": "#133 · 毛巾放濕太久有潮霉味",
+    "detail": "Native English #133 · The towel smells musty.",
+    "url": "natural-english.html?module=native-133"
+  },
+  {
+    "id": "native-english:native-134",
+    "type": "native-english",
+    "ordinal": 134,
+    "label": "#134 · 有油饐味",
+    "detail": "Native English #134 · It’s rancid.",
+    "url": "natural-english.html?module=native-134"
+  },
+  {
+    "id": "native-english:native-135",
+    "type": "native-english",
+    "ordinal": 135,
+    "label": "#135 · 生菜放久變軟、垂下來",
+    "detail": "Native English #135 · The lettuce is wilted.",
+    "url": "natural-english.html?module=native-135"
+  },
+  {
+    "id": "native-english:native-136",
+    "type": "native-english",
+    "ordinal": 136,
+    "label": "#136 · 手機螢幕全是指紋油印",
+    "detail": "Native English #136 · The screen is smudged.",
+    "url": "natural-english.html?module=native-136"
+  },
+  {
+    "id": "native-english:native-137",
+    "type": "native-english",
+    "ordinal": 137,
+    "label": "#137 · 拉鍊自己慢慢滑開",
+    "detail": "Native English #137 · The zipper keeps coming undone.",
+    "url": "natural-english.html?module=native-137"
+  },
+  {
+    "id": "native-english:native-138",
+    "type": "native-english",
+    "ordinal": 138,
+    "label": "#138 · 餐廳那種有靠背的卡座",
+    "detail": "Native English #138 · booth",
+    "url": "natural-english.html?module=native-138"
+  },
+  {
+    "id": "native-english:native-139",
+    "type": "native-english",
+    "ordinal": 139,
+    "label": "#139 · 給小孩坐的高腳椅",
+    "detail": "Native English #139 · high chair",
+    "url": "natural-english.html?module=native-139"
+  },
+  {
+    "id": "native-english:native-140",
+    "type": "native-english",
+    "ordinal": 140,
+    "label": "#140 · 給稍大一點小孩墊高的座椅",
+    "detail": "Native English #140 · booster seat",
+    "url": "natural-english.html?module=native-140"
+  },
+  {
+    "id": "native-english:native-141",
+    "type": "native-english",
+    "ordinal": 141,
+    "label": "#141 · Pizza 上加的配料",
+    "detail": "Native English #141 · toppings",
+    "url": "natural-english.html?module=native-141"
+  },
+  {
+    "id": "native-english:native-142",
+    "type": "native-english",
+    "ordinal": 142,
+    "label": "#142 · 把冷凍食物解凍",
+    "detail": "Native English #142 · thaw it / defrost it",
+    "url": "natural-english.html?module=native-142"
+  },
+  {
+    "id": "native-english:native-143",
+    "type": "native-english",
+    "ordinal": 143,
+    "label": "#143 · 食物／飲料溫溫的，不冷不熱",
+    "detail": "Native English #143 · lukewarm",
+    "url": "natural-english.html?module=native-143"
+  },
+  {
+    "id": "native-english:native-144",
+    "type": "native-english",
+    "ordinal": 144,
+    "label": "#144 · 冷凍食品放太久，表面乾白、品質變差",
+    "detail": "Native English #144 · freezer burn",
+    "url": "natural-english.html?module=native-144"
+  },
+  {
+    "id": "native-english:native-145",
+    "type": "native-english",
+    "ordinal": 145,
+    "label": "#145 · 不要勉強",
+    "detail": "Native English #145 · Don’t push yourself.",
+    "url": "natural-english.html?module=native-145"
+  },
+  {
+    "id": "native-english:native-146",
+    "type": "native-english",
+    "ordinal": 146,
+    "label": "#146 · 量力而為",
+    "detail": "Native English #146 · Don’t overdo it.",
+    "url": "natural-english.html?module=native-146"
+  },
+  {
+    "id": "native-english:native-147",
+    "type": "native-english",
+    "ordinal": 147,
+    "label": "#147 · 算了吧",
+    "detail": "Native English #147 · Let it go.",
+    "url": "natural-english.html?module=native-147"
+  },
+  {
+    "id": "native-english:native-149",
+    "type": "native-english",
+    "ordinal": 149,
+    "label": "#149 · 順其自然",
+    "detail": "Native English #149 · Let’s see what happens.",
+    "url": "natural-english.html?module=native-149"
+  },
+  {
+    "id": "native-english:native-150",
+    "type": "native-english",
+    "ordinal": 150,
+    "label": "#150 · 水龍頭沒關緊",
+    "detail": "Native English #150 · The faucet is still running.",
+    "url": "natural-english.html?module=native-150"
+  },
+  {
+    "id": "native-english:native-151",
+    "type": "native-english",
+    "ordinal": 151,
+    "label": "#151 · 水一直流著",
+    "detail": "Native English #151 · The water’s still running.",
+    "url": "natural-english.html?module=native-151"
+  },
+  {
+    "id": "native-english:native-152",
+    "type": "native-english",
+    "ordinal": 152,
+    "label": "#152 · 冰箱裡有怪味",
+    "detail": "Native English #152 · The fridge smells weird.",
+    "url": "natural-english.html?module=native-152"
+  },
+  {
+    "id": "native-english:native-153",
+    "type": "native-english",
+    "ordinal": 153,
+    "label": "#153 · 房間很悶",
+    "detail": "Native English #153 · It’s stuffy in here.",
+    "url": "natural-english.html?module=native-153"
+  },
+  {
+    "id": "native-english:native-154",
+    "type": "native-english",
+    "ordinal": 154,
+    "label": "#154 · 房間空氣很好",
+    "detail": "Native English #154 · It’s nice and airy.",
+    "url": "natural-english.html?module=native-154"
+  },
+  {
+    "id": "native-english:native-155",
+    "type": "native-english",
+    "ordinal": 155,
+    "label": "#155 · 這房間很亂",
+    "detail": "Native English #155 · This place is a mess.",
+    "url": "natural-english.html?module=native-155"
+  },
+  {
+    "id": "native-english:native-156",
+    "type": "native-english",
+    "ordinal": 156,
+    "label": "#156 · 昨晚睡得不好",
+    "detail": "Native English #156 · I didn’t sleep well.",
+    "url": "natural-english.html?module=native-156"
+  },
+  {
+    "id": "native-english:native-157",
+    "type": "native-english",
+    "ordinal": 157,
+    "label": "#157 · 你該睡了",
+    "detail": "Native English #157 · You should get some sleep.",
+    "url": "natural-english.html?module=native-157"
+  },
+  {
+    "id": "native-english:native-158",
+    "type": "native-english",
+    "ordinal": 158,
+    "label": "#158 · 我一碰到床就睡著了",
+    "detail": "Native English #158 · I fell asleep as soon as I hit the bed.",
+    "url": "natural-english.html?module=native-158"
+  },
+  {
+    "id": "native-english:native-159",
+    "type": "native-english",
+    "ordinal": 159,
+    "label": "#159 · 訊息一直沒送出去",
+    "detail": "Native English #159 · The message won’t go through.",
+    "url": "natural-english.html?module=native-159"
+  },
+  {
+    "id": "native-english:native-160",
+    "type": "native-english",
+    "ordinal": 160,
+    "label": "#160 · 你手機響了",
+    "detail": "Native English #160 · Your phone’s ringing.",
+    "url": "natural-english.html?module=native-160"
+  },
+  {
+    "id": "native-english:native-161",
+    "type": "native-english",
+    "ordinal": 161,
+    "label": "#161 · 你的手機一直震",
+    "detail": "Native English #161 · Your phone’s vibrating.",
+    "url": "natural-english.html?module=native-161"
+  },
+  {
+    "id": "native-english:native-163",
+    "type": "native-english",
+    "ordinal": 163,
+    "label": "#163 · 你有收到嗎？",
+    "detail": "Native English #163 · Did you get it?",
+    "url": "natural-english.html?module=native-163"
+  },
+  {
+    "id": "native-english:native-164",
+    "type": "native-english",
+    "ordinal": 164,
+    "label": "#164 · 我要回家了",
+    "detail": "Native English #164 · I’m going home.",
+    "url": "natural-english.html?module=native-164"
+  },
+  {
+    "id": "native-english:native-165",
+    "type": "native-english",
+    "ordinal": 165,
+    "label": "#165 · 星期五方便嗎？",
+    "detail": "Native English #165 · Does Friday work for you?",
+    "url": "natural-english.html?module=native-165"
+  },
+  {
+    "id": "native-english:native-166",
+    "type": "native-english",
+    "ordinal": 166,
+    "label": "#166 · 你什麼時候方便？",
+    "detail": "Native English #166 · When works for you?",
+    "url": "natural-english.html?module=native-166"
+  },
+  {
+    "id": "native-english:native-167",
+    "type": "native-english",
+    "ordinal": 167,
+    "label": "#167 · 我們約在 7 點",
+    "detail": "Native English #167 · Let’s meet up at 7.",
+    "url": "natural-english.html?module=native-167"
+  },
+  {
+    "id": "native-english:native-168",
+    "type": "native-english",
+    "ordinal": 168,
+    "label": "#168 · 我們改天再約",
+    "detail": "Native English #168 · Let’s do this another time.",
+    "url": "natural-english.html?module=native-168"
+  },
+  {
+    "id": "native-english:native-169",
+    "type": "native-english",
+    "ordinal": 169,
+    "label": "#169 · 要不要找時間碰面？",
+    "detail": "Native English #169 · We should get together sometime.",
+    "url": "natural-english.html?module=native-169"
+  },
+  {
+    "id": "native-english:native-170",
+    "type": "native-english",
+    "ordinal": 170,
+    "label": "#170 · 我今天不能來",
+    "detail": "Native English #170 · I can’t make it today.",
+    "url": "natural-english.html?module=native-170"
+  },
+  {
+    "id": "native-english:native-172",
+    "type": "native-english",
+    "ordinal": 172,
+    "label": "#172 · 提前做一些工作",
+    "detail": "Native English #172 · get ahead",
+    "url": "natural-english.html?module=native-172"
+  },
+  {
+    "id": "native-english:native-173",
+    "type": "native-english",
+    "ordinal": 173,
+    "label": "#173 · 我們的理解一致",
+    "detail": "Native English #173 · We’re on the same page.",
+    "url": "natural-english.html?module=native-173"
+  },
+  {
+    "id": "native-english:native-174",
+    "type": "native-english",
+    "ordinal": 174,
+    "label": "#174 · 補完積欠的 email",
+    "detail": "Native English #174 · catch up on my emails",
+    "url": "natural-english.html?module=native-174"
+  },
+  {
+    "id": "native-english:native-175",
+    "type": "native-english",
+    "ordinal": 175,
+    "label": "#175 · 工作落後進度",
+    "detail": "Native English #175 · I’m falling behind.",
+    "url": "natural-english.html?module=native-175"
+  },
+  {
+    "id": "native-english:native-178",
+    "type": "native-english",
+    "ordinal": 178,
+    "label": "#178 · 昏昏欲睡",
+    "detail": "Native English #178 · drowsy",
+    "url": "natural-english.html?module=native-178"
+  },
+  {
+    "id": "native-english:native-179",
+    "type": "native-english",
+    "ordinal": 179,
+    "label": "#179 · 感覺好像快感冒了",
+    "detail": "Native English #179 · I think I’m coming down with something.",
+    "url": "natural-english.html?module=native-179"
+  },
+  {
+    "id": "native-english:native-181",
+    "type": "native-english",
+    "ordinal": 181,
+    "label": "#181 · 把會議延後",
+    "detail": "Native English #181 · push the meeting back",
+    "url": "natural-english.html?module=native-181"
+  },
+  {
+    "id": "native-english:native-182",
+    "type": "native-english",
+    "ordinal": 182,
+    "label": "#182 · 把會議提前",
+    "detail": "Native English #182 · move the meeting up",
+    "url": "natural-english.html?module=native-182"
+  },
+  {
+    "id": "native-english:native-183",
+    "type": "native-english",
+    "ordinal": 183,
+    "label": "#183 · 取消活動",
+    "detail": "Native English #183 · call it off",
+    "url": "natural-english.html?module=native-183"
+  },
+  {
+    "id": "native-english:native-184",
+    "type": "native-english",
+    "ordinal": 184,
+    "label": "#184 · 讓我知道最新狀況",
+    "detail": "Native English #184 · Keep me in the loop.",
+    "url": "natural-english.html?module=native-184"
+  },
+  {
+    "id": "native-english:native-185",
+    "type": "native-english",
+    "ordinal": 185,
+    "label": "#185 · 我完全不知道大家最近在做甚麼",
+    "detail": "Native English #185 · I’m out of the loop.",
+    "url": "natural-english.html?module=native-185"
+  },
+  {
+    "id": "native-english:native-186",
+    "type": "native-english",
+    "ordinal": 186,
+    "label": "#186 · 桌上醬料",
+    "detail": "Native English #186 · condiment",
+    "url": "natural-english.html?module=native-186"
+  },
+  {
+    "id": "native-english:native-187",
+    "type": "native-english",
+    "ordinal": 187,
+    "label": "#187 · 帳單已經自動加服務費",
+    "detail": "Native English #187 · Gratuity is included.",
+    "url": "natural-english.html?module=native-187"
+  },
+  {
+    "id": "native-english:native-188",
+    "type": "native-english",
+    "ordinal": 188,
+    "label": "#188 · 小型移動式暖爐",
+    "detail": "Native English #188 · space heater",
+    "url": "natural-english.html?module=native-188"
+  },
+  {
+    "id": "native-english:native-189",
+    "type": "native-english",
+    "ordinal": 189,
+    "label": "#189 · 褲腳太長，需要改短",
+    "detail": "Native English #189 · hem the pants",
+    "url": "natural-english.html?module=native-189"
+  },
+  {
+    "id": "native-english:native-190",
+    "type": "native-english",
+    "ordinal": 190,
+    "label": "#190 · 鞋底磨到快穿了",
+    "detail": "Native English #190 · The sole is worn out.",
+    "url": "natural-english.html?module=native-190"
+  },
+  {
+    "id": "native-english:native-191",
+    "type": "native-english",
+    "ordinal": 191,
+    "label": "#191 · 胃灼熱／火燒心",
+    "detail": "Native English #191 · heartburn",
+    "url": "natural-english.html?module=native-191"
+  },
+  {
+    "id": "native-english:native-192",
+    "type": "native-english",
+    "ordinal": 192,
+    "label": "#192 · 問陌生人旁邊的座位有沒有人",
+    "detail": "Native English #192 · Is this seat taken?",
+    "url": "natural-english.html?module=native-192"
+  },
+  {
+    "id": "native-english:native-193",
+    "type": "native-english",
+    "ordinal": 193,
+    "label": "#193 · 大家坐太擠，要騰出一點位置",
+    "detail": "Native English #193 · Make some room.",
+    "url": "natural-english.html?module=native-193"
+  },
+  {
+    "id": "native-english:native-194",
+    "type": "native-english",
+    "ordinal": 194,
+    "label": "#194 · 請別人幫您按電梯 5 樓",
+    "detail": "Native English #194 · Could you press five?",
+    "url": "natural-english.html?module=native-194"
+  },
+  {
+    "id": "native-english:native-195",
+    "type": "native-english",
+    "ordinal": 195,
+    "label": "#195 · 餐桌上請人把鹽遞給您",
+    "detail": "Native English #195 · Could you pass me the salt?",
+    "url": "natural-english.html?module=native-195"
+  },
+  {
+    "id": "native-english:native-196",
+    "type": "native-english",
+    "ordinal": 196,
+    "label": "#196 · 為了叫您注意，輕拍您的肩膀",
+    "detail": "Native English #196 · tapped me on the shoulder",
+    "url": "natural-english.html?module=native-196"
+  },
+  {
+    "id": "native-english:native-197",
+    "type": "native-english",
+    "ordinal": 197,
+    "label": "#197 · 暫停健身會籍幾個月",
+    "detail": "Native English #197 · freeze my membership",
+    "url": "natural-english.html?module=native-197"
+  },
+  {
+    "id": "native-english:native-198",
+    "type": "native-english",
+    "ordinal": 198,
+    "label": "#198 · 毛衣摸起來刺刺、不舒服",
+    "detail": "Native English #198 · It’s scratchy.",
+    "url": "natural-english.html?module=native-198"
+  },
+  {
+    "id": "native-english:native-199",
+    "type": "native-english",
+    "ordinal": 199,
+    "label": "#199 · 衣服有靜電，一直黏身體",
+    "detail": "Native English #199 · There’s static cling.",
+    "url": "natural-english.html?module=native-199"
+  },
+  {
+    "id": "native-english:native-200",
+    "type": "native-english",
+    "ordinal": 200,
+    "label": "#200 · 新鞋前面夾腳趾",
+    "detail": "Native English #200 · The shoes pinch my toes.",
+    "url": "natural-english.html?module=native-200"
+  },
+  {
+    "id": "native-english:native-201",
+    "type": "native-english",
+    "ordinal": 201,
+    "label": "#201 · 鞋走路一直吱吱叫",
+    "detail": "Native English #201 · My shoes squeak.",
+    "url": "natural-english.html?module=native-201"
+  },
+  {
+    "id": "native-english:native-202",
+    "type": "native-english",
+    "ordinal": 202,
+    "label": "#202 · 蘋果吃起來粉粉沙沙",
+    "detail": "Native English #202 · The apple is mealy.",
+    "url": "natural-english.html?module=native-202"
+  },
+  {
+    "id": "native-english:native-203",
+    "type": "native-english",
+    "ordinal": 203,
+    "label": "#203 · 醬汁太稀、像加太多水",
+    "detail": "Native English #203 · It’s watery.",
+    "url": "natural-english.html?module=native-203"
+  },
+  {
+    "id": "native-english:native-204",
+    "type": "native-english",
+    "ordinal": 204,
+    "label": "#204 · 飲料被冰融化後沖淡了",
+    "detail": "Native English #204 · It’s watered down.",
+    "url": "natural-english.html?module=native-204"
+  },
+  {
+    "id": "native-english:native-205",
+    "type": "native-english",
+    "ordinal": 205,
+    "label": "#205 · 蛋黃還會流",
+    "detail": "Native English #205 · The yolk is runny.",
+    "url": "natural-english.html?module=native-205"
+  },
+  {
+    "id": "native-english:native-206",
+    "type": "native-english",
+    "ordinal": 206,
+    "label": "#206 · 布丁／果凍還沒凝固",
+    "detail": "Native English #206 · It hasn’t set yet.",
+    "url": "natural-english.html?module=native-206"
+  },
+  {
+    "id": "native-english:native-207",
+    "type": "native-english",
+    "ordinal": 207,
+    "label": "#207 · 餅乾受潮，不再酥脆",
+    "detail": "Native English #207 · They’ve gone stale.",
+    "url": "natural-english.html?module=native-207"
+  },
+  {
+    "id": "native-english:native-208",
+    "type": "native-english",
+    "ordinal": 208,
+    "label": "#208 · 衣服有一根線頭跑出來",
+    "detail": "Native English #208 · There’s a loose thread.",
+    "url": "natural-english.html?module=native-208"
+  },
+  {
+    "id": "native-english:native-209",
+    "type": "native-english",
+    "ordinal": 209,
+    "label": "#209 · 門一開關就吱吱叫",
+    "detail": "Native English #209 · The door is squeaky.",
+    "url": "natural-english.html?module=native-209"
+  },
+  {
+    "id": "native-english:native-210",
+    "type": "native-english",
+    "ordinal": 210,
+    "label": "#210 · 鍵盤某顆鍵按下去常卡住",
+    "detail": "Native English #210 · The key is sticking.",
+    "url": "natural-english.html?module=native-210"
+  },
+  {
+    "id": "native-english:native-211",
+    "type": "native-english",
+    "ordinal": 211,
+    "label": "#211 · 抽屜很難拉開，會卡",
+    "detail": "Native English #211 · The drawer is sticking.",
+    "url": "natural-english.html?module=native-211"
+  },
+  {
+    "id": "native-english:native-212",
+    "type": "native-english",
+    "ordinal": 212,
+    "label": "#212 · 窗戶怎麼推都很難動",
+    "detail": "Native English #212 · The window is sticking.",
+    "url": "natural-english.html?module=native-212"
+  },
+  {
+    "id": "native-english:native-213",
+    "type": "native-english",
+    "ordinal": 213,
+    "label": "#213 · 鎖匙轉不動",
+    "detail": "Native English #213 · The lock is jammed.",
+    "url": "natural-english.html?module=native-213"
+  },
+  {
+    "id": "native-english:native-214",
+    "type": "native-english",
+    "ordinal": 214,
+    "label": "#214 · 插座沒電",
+    "detail": "Native English #214 · The outlet is dead.",
+    "url": "natural-english.html?module=native-214"
+  },
+  {
+    "id": "native-english:native-215",
+    "type": "native-english",
+    "ordinal": 215,
+    "label": "#215 · 牆壁油漆鼓起一個泡",
+    "detail": "Native English #215 · The paint is bubbling.",
+    "url": "natural-english.html?module=native-215"
+  },
+  {
+    "id": "native-english:native-216",
+    "type": "native-english",
+    "ordinal": 216,
+    "label": "#216 · 衣服洗完一直掉毛",
+    "detail": "Native English #216 · The fabric is shedding.",
+    "url": "natural-english.html?module=native-216"
+  },
+  {
+    "id": "native-english:native-218",
+    "type": "native-english",
+    "ordinal": 218,
+    "label": "#218 · 網頁一直轉，開不出來",
+    "detail": "Native English #218 · The page won’t load.",
+    "url": "natural-english.html?module=native-218"
+  },
+  {
+    "id": "native-english:native-219",
+    "type": "native-english",
+    "ordinal": 219,
+    "label": "#219 · 手機觸控沒反應",
+    "detail": "Native English #219 · The screen is unresponsive.",
+    "url": "natural-english.html?module=native-219"
+  },
+  {
+    "id": "native-english:native-220",
+    "type": "native-english",
+    "ordinal": 220,
+    "label": "#220 · 電池掉得很快",
+    "detail": "Native English #220 · The battery drains really fast.",
+    "url": "natural-english.html?module=native-220"
+  },
+  {
+    "id": "native-english:native-221",
+    "type": "native-english",
+    "ordinal": 221,
+    "label": "#221 · 某個地方手機完全沒訊號",
+    "detail": "Native English #221 · It’s a dead zone.",
+    "url": "natural-english.html?module=native-221"
+  },
+  {
+    "id": "native-english:native-222",
+    "type": "native-english",
+    "ordinal": 222,
+    "label": "#222 · 電話裡背景很吵",
+    "detail": "Native English #222 · There’s a lot of background noise.",
+    "url": "natural-english.html?module=native-222"
+  },
+  {
+    "id": "native-english:native-223",
+    "type": "native-english",
+    "ordinal": 223,
+    "label": "#223 · 不小心踩到別人的腳",
+    "detail": "Native English #223 · I stepped on his foot.",
+    "url": "natural-english.html?module=native-223"
+  },
+  {
+    "id": "native-english:native-224",
+    "type": "native-english",
+    "ordinal": 224,
+    "label": "#224 · 走路時肩膀輕輕撞到別人",
+    "detail": "Native English #224 · I bumped into him.",
+    "url": "natural-english.html?module=native-224"
+  },
+  {
+    "id": "native-english:native-225",
+    "type": "native-english",
+    "ordinal": 225,
+    "label": "#225 · 從別人後面經過提醒他",
+    "detail": "Native English #225 · Behind you.",
+    "url": "natural-english.html?module=native-225"
+  },
+  {
+    "id": "native-english:native-226",
+    "type": "native-english",
+    "ordinal": 226,
+    "label": "#226 · 我還在吃，先別收",
+    "detail": "Native English #226 · I’m still working on it.",
+    "url": "natural-english.html?module=native-226"
+  },
+  {
+    "id": "native-english:native-227",
+    "type": "native-english",
+    "ordinal": 227,
+    "label": "#227 · 對方沒有赴約，也沒通知",
+    "detail": "Native English #227 · He stood me up.",
+    "url": "natural-english.html?module=native-227"
+  },
+  {
+    "id": "native-english:native-228",
+    "type": "native-english",
+    "ordinal": 228,
+    "label": "#228 · 某人答應來，最後沒出現",
+    "detail": "Native English #228 · He didn’t show up.",
+    "url": "natural-english.html?module=native-228"
+  },
+  {
+    "id": "native-english:native-229",
+    "type": "native-english",
+    "ordinal": 229,
+    "label": "#229 · 開到一半引擎突然熄火",
+    "detail": "Native English #229 · The engine stalled.",
+    "url": "natural-english.html?module=native-229"
+  },
+  {
+    "id": "native-english:native-230",
+    "type": "native-english",
+    "ordinal": 230,
+    "label": "#230 · 毛毛細雨",
+    "detail": "Native English #230 · It’s drizzling.",
+    "url": "natural-english.html?module=native-230"
+  },
+  {
+    "id": "native-english:native-232",
+    "type": "native-english",
+    "ordinal": 232,
+    "label": "#232 · 整片天空陰陰的",
+    "detail": "Native English #232 · It’s overcast.",
+    "url": "natural-english.html?module=native-232"
+  },
+  {
+    "id": "native-english:native-233",
+    "type": "native-english",
+    "ordinal": 233,
+    "label": "#233 · 雨後地上的一灘水",
+    "detail": "Native English #233 · puddle",
+    "url": "natural-english.html?module=native-233"
+  },
+  {
+    "id": "native-english:native-234",
+    "type": "native-english",
+    "ordinal": 234,
+    "label": "#234 · 又熱又濕、黏黏悶悶",
+    "detail": "Native English #234 · It’s muggy.",
+    "url": "natural-english.html?module=native-234"
+  },
+  {
+    "id": "native-english:native-235",
+    "type": "native-english",
+    "ordinal": 235,
+    "label": "#235 · T-shirt 一抬手就一直往上縮",
+    "detail": "Native English #235 · My shirt keeps riding up.",
+    "url": "natural-english.html?module=native-235"
+  },
+  {
+    "id": "native-english:native-236",
+    "type": "native-english",
+    "ordinal": 236,
+    "label": "#236 · 襪子在鞋裡皺成一團",
+    "detail": "Native English #236 · My socks are bunching up.",
+    "url": "natural-english.html?module=native-236"
+  },
+  {
+    "id": "native-english:native-237",
+    "type": "native-english",
+    "ordinal": 237,
+    "label": "#237 · 浴缸邊緣的防水膠開始裂",
+    "detail": "Native English #237 · The caulk is cracking.",
+    "url": "natural-english.html?module=native-237"
+  },
+  {
+    "id": "native-english:native-238",
+    "type": "native-english",
+    "ordinal": 238,
+    "label": "#238 · 扣子快掉了、晃晃的",
+    "detail": "Native English #238 · The button is loose.",
+    "url": "natural-english.html?module=native-238"
+  },
+  {
+    "id": "native-english:native-240",
+    "type": "native-english",
+    "ordinal": 240,
+    "label": "#240 · 拉鍊完全拉不動",
+    "detail": "Native English #240 · The zipper is stuck.",
+    "url": "natural-english.html?module=native-240"
+  },
+  {
+    "id": "native-english:native-241",
+    "type": "native-english",
+    "ordinal": 241,
+    "label": "#241 · 鞋後跟一直滑出來",
+    "detail": "Native English #241 · My heels keep slipping out.",
+    "url": "natural-english.html?module=native-241"
+  },
+  {
+    "id": "native-english:native-243",
+    "type": "native-english",
+    "ordinal": 243,
+    "label": "#243 · 墨水還沒乾，被手擦開",
+    "detail": "Native English #243 · The ink smeared.",
+    "url": "natural-english.html?module=native-243"
+  },
+  {
+    "id": "native-english:native-245",
+    "type": "native-english",
+    "ordinal": 245,
+    "label": "#245 · 撕掉貼紙後還有一層黏黏的東西",
+    "detail": "Native English #245 · It left a sticky residue.",
+    "url": "natural-english.html?module=native-245"
+  },
+  {
+    "id": "native-english:native-246",
+    "type": "native-english",
+    "ordinal": 246,
+    "label": "#246 · 扣子整顆掉下來",
+    "detail": "Native English #246 · The button popped off.",
+    "url": "natural-english.html?module=native-246"
+  },
+  {
+    "id": "native-english:native-247",
+    "type": "native-english",
+    "ordinal": 247,
+    "label": "#247 · 牛奶聞起來酸掉了",
+    "detail": "Native English #247 · The milk smells sour.",
+    "url": "natural-english.html?module=native-247"
+  },
+  {
+    "id": "native-english:native-248",
+    "type": "native-english",
+    "ordinal": 248,
+    "label": "#248 · 罐子蓋太緊，完全轉不動",
+    "detail": "Native English #248 · The lid won’t budge.",
+    "url": "natural-english.html?module=native-248"
+  },
+  {
+    "id": "native-english:native-249",
+    "type": "native-english",
+    "ordinal": 249,
+    "label": "#249 · 手機相機怎樣都對不到焦",
+    "detail": "Native English #249 · The camera won’t focus.",
+    "url": "natural-english.html?module=native-249"
+  },
+  {
+    "id": "native-english:native-250",
+    "type": "native-english",
+    "ordinal": 250,
+    "label": "#250 · 原子筆漏墨",
+    "detail": "Native English #250 · The pen is leaking.",
+    "url": "natural-english.html?module=native-250"
+  },
+  {
+    "id": "native-english:native-251",
+    "type": "native-english",
+    "ordinal": 251,
+    "label": "#251 · 床墊睡久中間凹下去",
+    "detail": "Native English #251 · The mattress is sagging.",
+    "url": "natural-english.html?module=native-251"
+  },
+  {
+    "id": "native-english:native-252",
+    "type": "native-english",
+    "ordinal": 252,
+    "label": "#252 · 螺絲起子已經咬不住螺絲頭",
+    "detail": "Native English #252 · The screw is stripped.",
+    "url": "natural-english.html?module=native-252"
+  },
+  {
+    "id": "native-english:native-253",
+    "type": "native-english",
+    "ordinal": 253,
+    "label": "#253 · 肉裡很多咬不動的筋",
+    "detail": "Native English #253 · The meat is gristly.",
+    "url": "natural-english.html?module=native-253"
+  },
+  {
+    "id": "native-english:native-254",
+    "type": "native-english",
+    "ordinal": 254,
+    "label": "#254 · 醬汁油水分離",
+    "detail": "Native English #254 · The sauce has separated.",
+    "url": "natural-english.html?module=native-254"
+  },
+  {
+    "id": "native-english:native-255",
+    "type": "native-english",
+    "ordinal": 255,
+    "label": "#255 · Wi-Fi 有時好有時斷",
+    "detail": "Native English #255 · The Wi-Fi is spotty.",
+    "url": "natural-english.html?module=native-255"
+  },
+  {
+    "id": "native-english:native-256",
+    "type": "native-english",
+    "ordinal": 256,
+    "label": "#256 · 電話聲音一格一格、不連續",
+    "detail": "Native English #256 · The audio is choppy.",
+    "url": "natural-english.html?module=native-256"
+  },
+  {
+    "id": "native-english:native-257",
+    "type": "native-english",
+    "ordinal": 257,
+    "label": "#257 · 影片一直頓、播放不順",
+    "detail": "Native English #257 · The video is stuttering.",
+    "url": "natural-english.html?module=native-257"
+  },
+  {
+    "id": "native-english:native-258",
+    "type": "native-english",
+    "ordinal": 258,
+    "label": "#258 · 地板踩下去吱嘎響",
+    "detail": "Native English #258 · The floorboards are creaky.",
+    "url": "natural-english.html?module=native-258"
+  },
+  {
+    "id": "native-english:native-259",
+    "type": "native-english",
+    "ordinal": 259,
+    "label": "#259 · 馬克筆放久寫不出來",
+    "detail": "Native English #259 · The marker dried out.",
+    "url": "natural-english.html?module=native-259"
+  },
+  {
+    "id": "native-english:native-260",
+    "type": "native-english",
+    "ordinal": 260,
+    "label": "#260 · 照片焦點沒對準",
+    "detail": "Native English #260 · It’s out of focus.",
+    "url": "natural-english.html?module=native-260"
+  },
+  {
+    "id": "native-english:native-261",
+    "type": "native-english",
+    "ordinal": 261,
+    "label": "#261 · Wi-Fi 連線一直掉",
+    "detail": "Native English #261 · The connection keeps dropping.",
+    "url": "natural-english.html?module=native-261"
+  },
+  {
+    "id": "native-english:native-262",
+    "type": "native-english",
+    "ordinal": 262,
+    "label": "#262 · 問有沒有 $20 的零錢",
+    "detail": "Native English #262 · Do you have change for a twenty?",
+    "url": "natural-english.html?module=native-262"
+  },
+  {
+    "id": "native-english:native-263",
+    "type": "native-english",
+    "ordinal": 263,
+    "label": "#263 · 想把一張 $20 換成小鈔",
+    "detail": "Native English #263 · Can you break a twenty?",
+    "url": "natural-english.html?module=native-263"
+  },
+  {
+    "id": "native-english:native-264",
+    "type": "native-english",
+    "ordinal": 264,
+    "label": "#264 · 你在餐廳等最後一個朋友到",
+    "detail": "Native English #264 · We’re still waiting for one more person.",
+    "url": "natural-english.html?module=native-264"
+  },
+  {
+    "id": "native-english:native-265",
+    "type": "native-english",
+    "ordinal": 265,
+    "label": "#265 · 坐飛機／戲院發現別人坐了您的位置",
+    "detail": "Native English #265 · I think you’re in my seat.",
+    "url": "natural-english.html?module=native-265"
+  },
+  {
+    "id": "native-english:native-266",
+    "type": "native-english",
+    "ordinal": 266,
+    "label": "#266 · 對方衣服後面的標籤翻出來了",
+    "detail": "Native English #266 · Your tag is sticking out.",
+    "url": "natural-english.html?module=native-266"
+  },
+  {
+    "id": "native-english:native-267",
+    "type": "native-english",
+    "ordinal": 267,
+    "label": "#267 · 對方把東西忘在座位／桌上",
+    "detail": "Native English #267 · You left this behind.",
+    "url": "natural-english.html?module=native-267"
+  },
+  {
+    "id": "native-english:native-269",
+    "type": "native-english",
+    "ordinal": 269,
+    "label": "#269 · 問陌生人是不是正在排隊",
+    "detail": "Native English #269 · Are you in line?",
+    "url": "natural-english.html?module=native-269"
+  },
+  {
+    "id": "native-english:native-270",
+    "type": "native-english",
+    "ordinal": 270,
+    "label": "#270 · 對方背包拉鍊沒拉",
+    "detail": "Native English #270 · Your backpack is unzipped.",
+    "url": "natural-english.html?module=native-270"
+  },
+  {
+    "id": "native-english:native-271",
+    "type": "native-english",
+    "ordinal": 271,
+    "label": "#271 · 告訴某人輪到他了",
+    "detail": "Native English #271 · You’re next. / It’s your turn.",
+    "url": "natural-english.html?module=native-271"
+  },
+  {
+    "id": "native-english:native-272",
+    "type": "native-english",
+    "ordinal": 272,
+    "label": "#272 · 店員少收了您錢",
+    "detail": "Native English #272 · I was undercharged.",
+    "url": "natural-english.html?module=native-272"
+  },
+  {
+    "id": "native-english:native-273",
+    "type": "native-english",
+    "ordinal": 273,
+    "label": "#273 · 信用卡上出現一筆您不認得的消費",
+    "detail": "Native English #273 · I don’t recognize this charge.",
+    "url": "natural-english.html?module=native-273"
+  },
+  {
+    "id": "native-english:native-274",
+    "type": "native-english",
+    "ordinal": 274,
+    "label": "#274 · 排隊的人很多，入口那邊整個堵住",
+    "detail": "Native English #274 · It’s backed up.",
+    "url": "natural-english.html?module=native-274"
+  },
+  {
+    "id": "native-english:native-275",
+    "type": "native-english",
+    "ordinal": 275,
+    "label": "#275 · 服務櫃台叫號叫到您",
+    "detail": "Native English #275 · My number was called.",
+    "url": "natural-english.html?module=native-275"
+  },
+  {
+    "id": "native-english:native-276",
+    "type": "native-english",
+    "ordinal": 276,
+    "label": "#276 · 茶包泡在熱水裏",
+    "detail": "Native English #276 · Let the tea steep.",
+    "url": "natural-english.html?module=native-276"
+  },
+  {
+    "id": "native-english:native-277",
+    "type": "native-english",
+    "ordinal": 277,
+    "label": "#277 · 麵包表面真的長黴",
+    "detail": "Native English #277 · The bread is moldy.",
+    "url": "natural-english.html?module=native-277"
+  },
+  {
+    "id": "native-english:native-278",
+    "type": "native-english",
+    "ordinal": 278,
+    "label": "#278 · 木頭表面開始起木刺",
+    "detail": "Native English #278 · The wood is splintering.",
+    "url": "natural-english.html?module=native-278"
+  },
+  {
+    "id": "native-english:native-279",
+    "type": "native-english",
+    "ordinal": 279,
+    "label": "#279 · 水管突然爆裂",
+    "detail": "Native English #279 · A pipe burst.",
+    "url": "natural-english.html?module=native-279"
+  },
+  {
+    "id": "native-english:native-280",
+    "type": "native-english",
+    "ordinal": 280,
+    "label": "#280 · 磁磚縫已經黑黑髒髒",
+    "detail": "Native English #280 · The grout is discolored.",
+    "url": "natural-english.html?module=native-280"
+  },
+  {
+    "id": "native-english:native-281",
+    "type": "native-english",
+    "ordinal": 281,
+    "label": "#281 · 牆紙邊緣開始翹起",
+    "detail": "Native English #281 · The wallpaper is peeling.",
+    "url": "natural-english.html?module=native-281"
+  },
+  {
+    "id": "native-english:native-282",
+    "type": "native-english",
+    "ordinal": 282,
+    "label": "#282 · 飛機椅背卡住，不能往後倒",
+    "detail": "Native English #282 · The seat won’t recline.",
+    "url": "natural-english.html?module=native-282"
+  },
+  {
+    "id": "native-english:native-283",
+    "type": "native-english",
+    "ordinal": 283,
+    "label": "#283 · 食物表面乾掉結了一層皮",
+    "detail": "Native English #283 · A skin formed on top.",
+    "url": "natural-english.html?module=native-283"
+  },
+  {
+    "id": "native-english:native-284",
+    "type": "native-english",
+    "ordinal": 284,
+    "label": "#284 · 鍋底牛奶／醬汁有一點燒焦味",
+    "detail": "Native English #284 · It scorched.",
+    "url": "natural-english.html?module=native-284"
+  },
+  {
+    "id": "native-english:native-285",
+    "type": "native-english",
+    "ordinal": 285,
+    "label": "#285 · 炸東西時油一直噴",
+    "detail": "Native English #285 · The oil is splattering.",
+    "url": "natural-english.html?module=native-285"
+  },
+  {
+    "id": "native-english:native-286",
+    "type": "native-english",
+    "ordinal": 286,
+    "label": "#286 · 義大利麵全部黏成一坨",
+    "detail": "Native English #286 · The pasta has clumped together.",
+    "url": "natural-english.html?module=native-286"
+  },
+  {
+    "id": "native-english:native-287",
+    "type": "native-english",
+    "ordinal": 287,
+    "label": "#287 · 有人取消預約，空出一個時段",
+    "detail": "Native English #287 · A cancellation opened up.",
+    "url": "natural-english.html?module=native-287"
+  },
+  {
+    "id": "native-english:native-288",
+    "type": "native-english",
+    "ordinal": 288,
+    "label": "#288 · 店員正在幫您結帳",
+    "detail": "Native English #288 · She’s ringing me up.",
+    "url": "natural-english.html?module=native-288"
+  },
+  {
+    "id": "native-english:native-289",
+    "type": "native-english",
+    "ordinal": 289,
+    "label": "#289 · 藥房正在配您的處方藥",
+    "detail": "Native English #289 · They’re filling my prescription.",
+    "url": "natural-english.html?module=native-289"
+  },
+  {
+    "id": "native-english:native-290",
+    "type": "native-english",
+    "ordinal": 290,
+    "label": "#290 · 處方藥已經配好，可以去拿",
+    "detail": "Native English #290 · My prescription is ready for pickup.",
+    "url": "natural-english.html?module=native-290"
+  },
+  {
+    "id": "native-english:native-291",
+    "type": "native-english",
+    "ordinal": 291,
+    "label": "#291 · 信用卡上同一筆消費重複出現",
+    "detail": "Native English #291 · There’s a duplicate charge.",
+    "url": "natural-english.html?module=native-291"
+  },
+  {
+    "id": "native-english:native-292",
+    "type": "native-english",
+    "ordinal": 292,
+    "label": "#292 · 衣服上的圖案洗久開始龜裂",
+    "detail": "Native English #292 · The print is cracking.",
+    "url": "natural-english.html?module=native-292"
+  },
+  {
+    "id": "native-english:native-293",
+    "type": "native-english",
+    "ordinal": 293,
+    "label": "#293 · 完全發不出聲音",
+    "detail": "Native English #293 · I’ve lost my voice.",
+    "url": "natural-english.html?module=native-293"
+  },
+  {
+    "id": "native-english:native-294",
+    "type": "native-english",
+    "ordinal": 294,
+    "label": "#294 · 感冒後聲音很沙啞",
+    "detail": "Native English #294 · My voice is hoarse.",
+    "url": "natural-english.html?module=native-294"
+  },
+  {
+    "id": "native-english:native-295",
+    "type": "native-english",
+    "ordinal": 295,
+    "label": "#295 · 眼睛紅到很多血絲",
+    "detail": "Native English #295 · My eyes are bloodshot.",
+    "url": "natural-english.html?module=native-295"
+  },
+  {
+    "id": "native-english:native-296",
+    "type": "native-english",
+    "ordinal": 296,
+    "label": "#296 · 眼皮一直不由自主跳",
+    "detail": "Native English #296 · My eyelid keeps twitching.",
+    "url": "natural-english.html?module=native-296"
+  },
+  {
+    "id": "native-english:native-297",
+    "type": "native-english",
+    "ordinal": 297,
+    "label": "#297 · 手在水裏泡太久皺皺的",
+    "detail": "Native English #297 · My fingers are pruney.",
+    "url": "natural-english.html?module=native-297"
+  },
+  {
+    "id": "native-english:native-298",
+    "type": "native-english",
+    "ordinal": 298,
+    "label": "#298 · 耳朵坐飛機後像塞住",
+    "detail": "Native English #298 · My ears feel plugged.",
+    "url": "natural-english.html?module=native-298"
+  },
+  {
+    "id": "native-english:native-299",
+    "type": "native-english",
+    "ordinal": 299,
+    "label": "#299 · 飛機升降時耳朵「啵」一下通了",
+    "detail": "Native English #299 · My ears popped.",
+    "url": "natural-english.html?module=native-299"
+  },
+  {
+    "id": "native-english:native-300",
+    "type": "native-english",
+    "ordinal": 300,
+    "label": "#300 · 怎麼吞口水耳朵還是通不了",
+    "detail": "Native English #300 · My ears won’t pop.",
+    "url": "natural-english.html?module=native-300"
+  },
+  {
+    "id": "native-english:native-301",
+    "type": "native-english",
+    "ordinal": 301,
+    "label": "#301 · 耳朵裏一直有嗡／鈴聲",
+    "detail": "Native English #301 · My ears are ringing.",
+    "url": "natural-english.html?module=native-301"
+  },
+  {
+    "id": "native-english:native-303",
+    "type": "native-english",
+    "ordinal": 303,
+    "label": "#303 · 鍵盤其中一顆鍵帽掉了",
+    "detail": "Native English #303 · The keycap popped off.",
+    "url": "natural-english.html?module=native-303"
+  },
+  {
+    "id": "native-english:native-304",
+    "type": "native-english",
+    "ordinal": 304,
+    "label": "#304 · 網站整個所有人都打不開",
+    "detail": "Native English #304 · The site is down.",
+    "url": "natural-english.html?module=native-304"
+  },
+  {
+    "id": "native-english:native-305",
+    "type": "native-english",
+    "ordinal": 305,
+    "label": "#305 · 網站恢復正常",
+    "detail": "Native English #305 · The site is back up.",
+    "url": "natural-english.html?module=native-305"
+  },
+  {
+    "id": "native-english:native-306",
+    "type": "native-english",
+    "ordinal": 306,
+    "label": "#306 · 電腦滑鼠游標反應慢半拍",
+    "detail": "Native English #306 · There’s input lag.",
+    "url": "natural-english.html?module=native-306"
+  },
+  {
+    "id": "native-english:native-307",
+    "type": "native-english",
+    "ordinal": 307,
+    "label": "#307 · 喇叭聲音變形、不像原本聲音",
+    "detail": "Native English #307 · The audio is distorted.",
+    "url": "natural-english.html?module=native-307"
+  },
+  {
+    "id": "native-english:native-308",
+    "type": "native-english",
+    "ordinal": 308,
+    "label": "#308 · 餅乾咬下去很硬、難咬",
+    "detail": "Native English #308 · The cookie is rock-hard.",
+    "url": "natural-english.html?module=native-308"
+  },
+  {
+    "id": "native-english:native-309",
+    "type": "native-english",
+    "ordinal": 309,
+    "label": "#309 · 薯片開封後軟掉",
+    "detail": "Native English #309 · The chips are stale.",
+    "url": "natural-english.html?module=native-309"
+  },
+  {
+    "id": "native-english:native-310",
+    "type": "native-english",
+    "ordinal": 310,
+    "label": "#310 · 奶油從冰箱拿出來太硬，抹不開",
+    "detail": "Native English #310 · The butter isn’t spreadable yet.",
+    "url": "natural-english.html?module=native-310"
+  },
+  {
+    "id": "native-english:native-312",
+    "type": "native-english",
+    "ordinal": 312,
+    "label": "#312 · 毛衣袖口穿久變鬆",
+    "detail": "Native English #312 · The cuffs have stretched out.",
+    "url": "natural-english.html?module=native-312"
+  },
+  {
+    "id": "native-english:native-313",
+    "type": "native-english",
+    "ordinal": 313,
+    "label": "#313 · 鞋舌一直歪到旁邊",
+    "detail": "Native English #313 · The tongue keeps sliding to the side.",
+    "url": "natural-english.html?module=native-313"
+  },
+  {
+    "id": "native-english:native-314",
+    "type": "native-english",
+    "ordinal": 314,
+    "label": "#314 · 門關起來會自己慢慢打開",
+    "detail": "Native English #314 · The door won’t stay shut.",
+    "url": "natural-english.html?module=native-314"
+  },
+  {
+    "id": "native-english:native-315",
+    "type": "native-english",
+    "ordinal": 315,
+    "label": "#315 · 冷氣滴水",
+    "detail": "Native English #315 · The AC is dripping.",
+    "url": "natural-english.html?module=native-315"
+  },
+  {
+    "id": "native-english:native-316",
+    "type": "native-english",
+    "ordinal": 316,
+    "label": "#316 · 皮膚某處突然很癢",
+    "detail": "Native English #316 · I’ve got an itch here.",
+    "url": "natural-english.html?module=native-316"
+  },
+  {
+    "id": "native-english:native-317",
+    "type": "native-english",
+    "ordinal": 317,
+    "label": "#317 · 肌肉突然抽一下",
+    "detail": "Native English #317 · My muscle twitched.",
+    "url": "natural-english.html?module=native-317"
+  },
+  {
+    "id": "native-english:native-318",
+    "type": "native-english",
+    "ordinal": 318,
+    "label": "#318 · 麥克風聲音太小",
+    "detail": "Native English #318 · My mic level is too low.",
+    "url": "natural-english.html?module=native-318"
+  },
+  {
+    "id": "native-english:native-319",
+    "type": "native-english",
+    "ordinal": 319,
+    "label": "#319 · 耳機只有一邊有聲音",
+    "detail": "Native English #319 · One earbud is cutting out.",
+    "url": "natural-english.html?module=native-319"
+  },
+  {
+    "id": "native-english:native-320",
+    "type": "native-english",
+    "ordinal": 320,
+    "label": "#320 · USB 插進去但電腦讀不到",
+    "detail": "Native English #320 · The drive isn’t being recognized.",
+    "url": "natural-english.html?module=native-320"
+  },
+  {
+    "id": "native-english:native-321",
+    "type": "native-english",
+    "ordinal": 321,
+    "label": "#321 · 飯店房間還沒整理好",
+    "detail": "Native English #321 · The room isn’t ready yet.",
+    "url": "natural-english.html?module=native-321"
+  },
+  {
+    "id": "native-english:native-322",
+    "type": "native-english",
+    "ordinal": 322,
+    "label": "#322 · 餐廳把您的名字從候位名單叫到了",
+    "detail": "Native English #322 · Our table is ready.",
+    "url": "natural-english.html?module=native-322"
+  },
+  {
+    "id": "native-english:native-323",
+    "type": "native-english",
+    "ordinal": 323,
+    "label": "#323 · 店員把商品放一邊保留給您",
+    "detail": "Native English #323 · Put it on hold for me.",
+    "url": "natural-english.html?module=native-323"
+  },
+  {
+    "id": "native-english:native-324",
+    "type": "native-english",
+    "ordinal": 324,
+    "label": "#324 · 店員說最多只能幫您保留到今晚",
+    "detail": "Native English #324 · We can hold it until tonight.",
+    "url": "natural-english.html?module=native-324"
+  },
+  {
+    "id": "native-english:native-325",
+    "type": "native-english",
+    "ordinal": 325,
+    "label": "#325 · 店內沒貨，要從別家分店調貨",
+    "detail": "Native English #325 · They’ll transfer it from another location.",
+    "url": "natural-english.html?module=native-325"
+  },
+  {
+    "id": "native-english:native-326",
+    "type": "native-english",
+    "ordinal": 326,
+    "label": "#326 · 商品要補貨了",
+    "detail": "Native English #326 · It’s being restocked.",
+    "url": "natural-english.html?module=native-326"
+  },
+  {
+    "id": "native-english:native-327",
+    "type": "native-english",
+    "ordinal": 327,
+    "label": "#327 · 退款還在銀行處理中",
+    "detail": "Native English #327 · The refund is pending.",
+    "url": "natural-english.html?module=native-327"
+  },
+  {
+    "id": "native-english:native-328",
+    "type": "native-english",
+    "ordinal": 328,
+    "label": "#328 · 信用卡扣款被撤銷",
+    "detail": "Native English #328 · The charge was reversed.",
+    "url": "natural-english.html?module=native-328"
+  },
+  {
+    "id": "native-english:native-329",
+    "type": "native-english",
+    "ordinal": 329,
+    "label": "#329 · 銀行因可疑交易把卡暫停",
+    "detail": "Native English #329 · My card was frozen.",
+    "url": "natural-english.html?module=native-329"
+  },
+  {
+    "id": "native-english:native-330",
+    "type": "native-english",
+    "ordinal": 330,
+    "label": "#330 · 重新開通信用卡",
+    "detail": "Native English #330 · Unfreeze / reactivate the card.",
+    "url": "natural-english.html?module=native-330"
+  },
+  {
+    "id": "native-english:native-331",
+    "type": "native-english",
+    "ordinal": 331,
+    "label": "#331 · 餐廳說某道菜今天賣完了",
+    "detail": "Native English #331 · We’re sold out of it.",
+    "url": "natural-english.html?module=native-331"
+  },
+  {
+    "id": "native-english:native-332",
+    "type": "native-english",
+    "ordinal": 332,
+    "label": "#332 · 菜單上某道菜暫時不供應",
+    "detail": "Native English #332 · It’s unavailable today.",
+    "url": "natural-english.html?module=native-332"
+  },
+  {
+    "id": "native-english:native-333",
+    "type": "native-english",
+    "ordinal": 333,
+    "label": "#333 · 行李箱輪子壞了",
+    "detail": "Native English #333 · The wheel snapped off.",
+    "url": "natural-english.html?module=native-333"
+  },
+  {
+    "id": "native-english:native-334",
+    "type": "native-english",
+    "ordinal": 334,
+    "label": "#334 · 行李箱拉桿拉不出來",
+    "detail": "Native English #334 · The handle is stuck.",
+    "url": "natural-english.html?module=native-334"
+  },
+  {
+    "id": "native-english:native-335",
+    "type": "native-english",
+    "ordinal": 335,
+    "label": "#335 · 行李箱拉桿卡在半路",
+    "detail": "Native English #335 · The handle jams halfway.",
+    "url": "natural-english.html?module=native-335"
+  },
+  {
+    "id": "native-english:native-336",
+    "type": "native-english",
+    "ordinal": 336,
+    "label": "#336 · 行李箱太鼓、拉鍊快爆開",
+    "detail": "Native English #336 · My suitcase is overstuffed.",
+    "url": "natural-english.html?module=native-336"
+  },
+  {
+    "id": "native-english:native-337",
+    "type": "native-english",
+    "ordinal": 337,
+    "label": "#337 · 行李箱被航空公司摔凹了",
+    "detail": "Native English #337 · My suitcase got dented.",
+    "url": "natural-english.html?module=native-337"
+  },
+  {
+    "id": "native-english:native-339",
+    "type": "native-english",
+    "ordinal": 339,
+    "label": "#339 · 魔術貼黏不牢了",
+    "detail": "Native English #339 · The Velcro has worn out.",
+    "url": "natural-english.html?module=native-339"
+  },
+  {
+    "id": "native-english:native-340",
+    "type": "native-english",
+    "ordinal": 340,
+    "label": "#340 · 塑膠盒蓋扣不上",
+    "detail": "Native English #340 · The lid won’t snap shut.",
+    "url": "natural-english.html?module=native-340"
+  },
+  {
+    "id": "native-english:native-341",
+    "type": "native-english",
+    "ordinal": 341,
+    "label": "#341 · 紙袋底部破掉",
+    "detail": "Native English #341 · The bottom gave out.",
+    "url": "natural-english.html?module=native-341"
+  },
+  {
+    "id": "native-english:native-342",
+    "type": "native-english",
+    "ordinal": 342,
+    "label": "#342 · 紙張邊角被折到",
+    "detail": "Native English #342 · The corner is bent.",
+    "url": "natural-english.html?module=native-342"
+  },
+  {
+    "id": "native-english:native-343",
+    "type": "native-english",
+    "ordinal": 343,
+    "label": "#343 · 湯匙掉到碗裏整個沉下去",
+    "detail": "Native English #343 · The spoon slipped into the bowl.",
+    "url": "natural-english.html?module=native-343"
+  },
+  {
+    "id": "native-english:native-344",
+    "type": "native-english",
+    "ordinal": 344,
+    "label": "#344 · 塑膠袋破了一個小洞",
+    "detail": "Native English #344 · There’s a tear in the bag.",
+    "url": "natural-english.html?module=native-344"
+  },
+  {
+    "id": "native-english:native-345",
+    "type": "native-english",
+    "ordinal": 345,
+    "label": "#345 · 房間隔音很差",
+    "detail": "Native English #345 · The walls are thin.",
+    "url": "natural-english.html?module=native-345"
+  },
+  {
+    "id": "native-english:native-346",
+    "type": "native-english",
+    "ordinal": 346,
+    "label": "#346 · 撞到桌角後那一塊很痛",
+    "detail": "Native English #346 · It’s tender to the touch.",
+    "url": "natural-english.html?module=native-346"
+  },
+  {
+    "id": "native-english:native-347",
+    "type": "native-english",
+    "ordinal": 347,
+    "label": "#347 · 書的書脊裂開",
+    "detail": "Native English #347 · The spine is cracked.",
+    "url": "natural-english.html?module=native-347"
+  },
+  {
+    "id": "native-english:native-348",
+    "type": "native-english",
+    "ordinal": 348,
+    "label": "#348 · 鞋帶走一走一直自己鬆開",
+    "detail": "Native English #348 · My shoelaces keep coming undone.",
+    "url": "natural-english.html?module=native-348"
+  },
+  {
+    "id": "native-english:native-349",
+    "type": "native-english",
+    "ordinal": 349,
+    "label": "#349 · 外套的羽絨全部擠到一邊",
+    "detail": "Native English #349 · The filling has shifted.",
+    "url": "natural-english.html?module=native-349"
+  },
+  {
+    "id": "native-english:native-350",
+    "type": "native-english",
+    "ordinal": 350,
+    "label": "#350 · 湯煮到滿出鍋子",
+    "detail": "Native English #350 · The soup boiled over.",
+    "url": "natural-english.html?module=native-350"
+  },
+  {
+    "id": "native-english:native-351",
+    "type": "native-english",
+    "ordinal": 351,
+    "label": "#351 · 鍋裏的水燒乾了",
+    "detail": "Native English #351 · The pot boiled dry.",
+    "url": "natural-english.html?module=native-351"
+  },
+  {
+    "id": "native-english:native-352",
+    "type": "native-english",
+    "ordinal": 352,
+    "label": "#352 · 水果放太久乾縮皺掉",
+    "detail": "Native English #352 · The fruit is shriveled.",
+    "url": "natural-english.html?module=native-352"
+  },
+  {
+    "id": "native-english:native-353",
+    "type": "native-english",
+    "ordinal": 353,
+    "label": "#353 · 不沾鍋塗層開始一小片一小片掉",
+    "detail": "Native English #353 · The coating is flaking off.",
+    "url": "natural-english.html?module=native-353"
+  },
+  {
+    "id": "native-english:native-354",
+    "type": "native-english",
+    "ordinal": 354,
+    "label": "#354 · 烤盤上食物殘渣乾硬黏住",
+    "detail": "Native English #354 · It’s caked on.",
+    "url": "natural-english.html?module=native-354"
+  },
+  {
+    "id": "native-english:native-355",
+    "type": "native-english",
+    "ordinal": 355,
+    "label": "#355 · 鍋底黏著一層燒焦食物",
+    "detail": "Native English #355 · There’s burnt-on food on the pan.",
+    "url": "natural-english.html?module=native-355"
+  },
+  {
+    "id": "native-english:native-356",
+    "type": "native-english",
+    "ordinal": 356,
+    "label": "#356 · 牛排／漢堡肉裏面還有一部分生的",
+    "detail": "Native English #356 · It’s undercooked in the middle.",
+    "url": "natural-english.html?module=native-356"
+  },
+  {
+    "id": "native-english:native-357",
+    "type": "native-english",
+    "ordinal": 357,
+    "label": "#357 · 食物本來脆，裝在盒裏被蒸氣弄軟",
+    "detail": "Native English #357 · It got soggy from the steam.",
+    "url": "natural-english.html?module=native-357"
+  },
+  {
+    "id": "native-english:native-358",
+    "type": "native-english",
+    "ordinal": 358,
+    "label": "#358 · 食物放冰箱後吸了其他東西的味道",
+    "detail": "Native English #358 · It picked up fridge odors.",
+    "url": "natural-english.html?module=native-358"
+  },
+  {
+    "id": "native-english:native-359",
+    "type": "native-english",
+    "ordinal": 359,
+    "label": "#359 · 某一小口食物燙得不得了",
+    "detail": "Native English #359 · There’s a hot spot.",
+    "url": "natural-english.html?module=native-359"
+  },
+  {
+    "id": "native-english:native-360",
+    "type": "native-english",
+    "ordinal": 360,
+    "label": "#360 · 微波食物有些地方很熱、有些還冷",
+    "detail": "Native English #360 · There are hot and cold spots.",
+    "url": "natural-english.html?module=native-360"
+  },
+  {
+    "id": "native-english:native-361",
+    "type": "native-english",
+    "ordinal": 361,
+    "label": "#361 · 汽水一開突然泡沫一直湧出來",
+    "detail": "Native English #361 · The soda is foaming over.",
+    "url": "natural-english.html?module=native-361"
+  },
+  {
+    "id": "native-english:native-362",
+    "type": "native-english",
+    "ordinal": 362,
+    "label": "#362 · App 一直把您登出",
+    "detail": "Native English #362 · The app keeps signing me out.",
+    "url": "natural-english.html?module=native-362"
+  },
+  {
+    "id": "native-english:native-363",
+    "type": "native-english",
+    "ordinal": 363,
+    "label": "#363 · 網站因太久沒操作把您踢出去",
+    "detail": "Native English #363 · My session timed out.",
+    "url": "natural-english.html?module=native-363"
+  },
+  {
+    "id": "native-english:native-364",
+    "type": "native-english",
+    "ordinal": 364,
+    "label": "#364 · Email 寄不出去又退回來",
+    "detail": "Native English #364 · The email bounced.",
+    "url": "natural-english.html?module=native-364"
+  },
+  {
+    "id": "native-english:native-365",
+    "type": "native-english",
+    "ordinal": 365,
+    "label": "#365 · 檔案壞掉、打不開",
+    "detail": "Native English #365 · The file is corrupted.",
+    "url": "natural-english.html?module=native-365"
+  },
+  {
+    "id": "native-english:native-366",
+    "type": "native-english",
+    "ordinal": 366,
+    "label": "#366 · 雲端檔案沒有更新到另一台裝置",
+    "detail": "Native English #366 · It’s not syncing.",
+    "url": "natural-english.html?module=native-366"
+  },
+  {
+    "id": "native-english:native-367",
+    "type": "native-english",
+    "ordinal": 367,
+    "label": "#367 · 包裹送錯地址",
+    "detail": "Native English #367 · The package was misdelivered.",
+    "url": "natural-english.html?module=native-367"
+  },
+  {
+    "id": "native-english:native-368",
+    "type": "native-english",
+    "ordinal": 368,
+    "label": "#368 · 包裹運送途中受損",
+    "detail": "Native English #368 · It was damaged in transit.",
+    "url": "natural-english.html?module=native-368"
+  },
+  {
+    "id": "native-english:native-369",
+    "type": "native-english",
+    "ordinal": 369,
+    "label": "#369 · 空氣因煙霧／污染看起來灰濛濛",
+    "detail": "Native English #369 · It’s hazy.",
+    "url": "natural-english.html?module=native-369"
+  },
+  {
+    "id": "native-english:native-370",
+    "type": "native-english",
+    "ordinal": 370,
+    "label": "#370 · 車突然完全熄火後重新打不着",
+    "detail": "Native English #370 · The car stalled and won’t restart.",
+    "url": "natural-english.html?module=native-370"
+  },
+  {
+    "id": "native-english:native-371",
+    "type": "native-english",
+    "ordinal": 371,
+    "label": "#371 · 腫脹慢慢消了",
+    "detail": "Native English #371 · The swelling has gone down.",
+    "url": "natural-english.html?module=native-371"
+  },
+  {
+    "id": "native-english:native-372",
+    "type": "native-english",
+    "ordinal": 372,
+    "label": "#372 · 已經超過可退貨的期限",
+    "detail": "Native English #372 · The return window has closed.",
+    "url": "natural-english.html?module=native-372"
+  },
+  {
+    "id": "native-english:native-373",
+    "type": "native-english",
+    "ordinal": 373,
+    "label": "#373 · 商品只有外觀小刮痕，功能正常",
+    "detail": "Native English #373 · It has cosmetic damage.",
+    "url": "natural-english.html?module=native-373"
+  },
+  {
+    "id": "native-english:native-374",
+    "type": "native-english",
+    "ordinal": 374,
+    "label": "#374 · 商品沒有價格標籤",
+    "detail": "Native English #374 · It’s missing a price tag.",
+    "url": "natural-english.html?module=native-374"
+  },
+  {
+    "id": "native-english:native-375",
+    "type": "native-english",
+    "ordinal": 375,
+    "label": "#375 · 網購訂單被分成兩個包裹寄",
+    "detail": "Native English #375 · My order was split into two shipments.",
+    "url": "natural-english.html?module=native-375"
+  },
+  {
+    "id": "native-english:native-376",
+    "type": "native-english",
+    "ordinal": 376,
+    "label": "#376 · 快遞一直嘗試送但沒成功",
+    "detail": "Native English #376 · They made another delivery attempt.",
+    "url": "natural-english.html?module=native-376"
+  },
+  {
+    "id": "native-english:native-377",
+    "type": "native-english",
+    "ordinal": 377,
+    "label": "#377 · 皮膚太乾，一片片脫屑",
+    "detail": "Native English #377 · My skin is flaky.",
+    "url": "natural-english.html?module=native-377"
+  },
+  {
+    "id": "native-english:native-378",
+    "type": "native-english",
+    "ordinal": 378,
+    "label": "#378 · 喉嚨開始有一點乾癢刺刺的",
+    "detail": "Native English #378 · I have a scratchy throat.",
+    "url": "natural-english.html?module=native-378"
+  },
+  {
+    "id": "native-english:native-379",
+    "type": "native-english",
+    "ordinal": 379,
+    "label": "#379 · 傷口開始結痂",
+    "detail": "Native English #379 · A scab has formed.",
+    "url": "natural-english.html?module=native-379"
+  },
+  {
+    "id": "native-english:native-380",
+    "type": "native-english",
+    "ordinal": 380,
+    "label": "#380 · 傷口原本快好了又裂開",
+    "detail": "Native English #380 · The wound reopened.",
+    "url": "natural-english.html?module=native-380"
+  },
+  {
+    "id": "native-english:native-381",
+    "type": "native-english",
+    "ordinal": 381,
+    "label": "#381 · 傷口慢慢滲出液體",
+    "detail": "Native English #381 · The wound is oozing.",
+    "url": "natural-english.html?module=native-381"
+  },
+  {
+    "id": "native-english:native-382",
+    "type": "native-english",
+    "ordinal": 382,
+    "label": "#382 · 耳朵游泳後一直像有水卡着",
+    "detail": "Native English #382 · I have water trapped in my ear.",
+    "url": "natural-english.html?module=native-382"
+  },
+  {
+    "id": "native-english:native-383",
+    "type": "native-english",
+    "ordinal": 383,
+    "label": "#383 · 車鑰匙遙控器沒電",
+    "detail": "Native English #383 · My key fob battery is dead.",
+    "url": "natural-english.html?module=native-383"
+  },
+  {
+    "id": "native-english:native-384",
+    "type": "native-english",
+    "ordinal": 384,
+    "label": "#384 · 馬桶座坐上去會左右移動",
+    "detail": "Native English #384 · The toilet seat is loose.",
+    "url": "natural-english.html?module=native-384"
+  },
+  {
+    "id": "native-english:native-385",
+    "type": "native-english",
+    "ordinal": 385,
+    "label": "#385 · 木製家具表面漆被水杯留下白圈",
+    "detail": "Native English #385 · There’s a water ring on the table.",
+    "url": "natural-english.html?module=native-385"
+  },
+  {
+    "id": "native-english:native-386",
+    "type": "native-english",
+    "ordinal": 386,
+    "label": "#386 · USB 線插進去鬆鬆的、稍微碰一下就斷",
+    "detail": "Native English #386 · The connection is flaky.",
+    "url": "natural-english.html?module=native-386"
+  },
+  {
+    "id": "native-english:native-387",
+    "type": "native-english",
+    "ordinal": 387,
+    "label": "#387 · 新鞋把腳後跟磨破",
+    "detail": "Native English #387 · My heel is chafed.",
+    "url": "natural-english.html?module=native-387"
+  },
+  {
+    "id": "native-english:native-388",
+    "type": "native-english",
+    "ordinal": 388,
+    "label": "#388 · 走太久大腿內側磨到紅痛",
+    "detail": "Native English #388 · My thighs are chafed.",
+    "url": "natural-english.html?module=native-388"
+  },
+  {
+    "id": "native-english:native-389",
+    "type": "native-english",
+    "ordinal": 389,
+    "label": "#389 · 喝水不小心嗆到、喝進「錯的管」",
+    "detail": "Native English #389 · It went down the wrong pipe.",
+    "url": "natural-english.html?module=native-389"
+  },
+  {
+    "id": "native-english:native-390",
+    "type": "native-english",
+    "ordinal": 390,
+    "label": "#390 · 辣椒辣到嘴巴一直灼熱",
+    "detail": "Native English #390 · My mouth is burning.",
+    "url": "natural-english.html?module=native-390"
+  },
+  {
+    "id": "native-english:native-391",
+    "type": "native-english",
+    "ordinal": 391,
+    "label": "#391 · 洋蔥切到眼睛一直流淚",
+    "detail": "Native English #391 · My eyes are watering.",
+    "url": "natural-english.html?module=native-391"
+  },
+  {
+    "id": "native-english:native-392",
+    "type": "native-english",
+    "ordinal": 392,
+    "label": "#392 · 衣服肩膀被衣架撐出兩個凸角",
+    "detail": "Native English #392 · It has hanger bumps.",
+    "url": "natural-english.html?module=native-392"
+  },
+  {
+    "id": "native-english:native-393",
+    "type": "native-english",
+    "ordinal": 393,
+    "label": "#393 · 衣服曬太久被太陽曬褪色",
+    "detail": "Native English #393 · It’s sun-faded.",
+    "url": "natural-english.html?module=native-393"
+  },
+  {
+    "id": "native-english:native-394",
+    "type": "native-english",
+    "ordinal": 394,
+    "label": "#394 · 冰箱不夠冷",
+    "detail": "Native English #394 · The fridge isn’t cooling properly.",
+    "url": "natural-english.html?module=native-394"
+  },
+  {
+    "id": "native-english:native-395",
+    "type": "native-english",
+    "ordinal": 395,
+    "label": "#395 · 螺絲孔已經滑牙，螺絲鎖不住",
+    "detail": "Native English #395 · The threads are stripped.",
+    "url": "natural-english.html?module=native-395"
+  },
+  {
+    "id": "native-english:native-396",
+    "type": "native-english",
+    "ordinal": 396,
+    "label": "#396 · 跑步時肋骨旁邊突然刺痛",
+    "detail": "Native English #396 · I have a stitch in my side.",
+    "url": "natural-english.html?module=native-396"
+  },
+  {
+    "id": "native-english:native-397",
+    "type": "native-english",
+    "ordinal": 397,
+    "label": "#397 · 嘴唇裂開流一點血",
+    "detail": "Native English #397 · I split my lip.",
+    "url": "natural-english.html?module=native-397"
+  },
+  {
+    "id": "native-english:native-398",
+    "type": "native-english",
+    "ordinal": 398,
+    "label": "#398 · 手掌因摩擦長厚皮",
+    "detail": "Native English #398 · I have a callus.",
+    "url": "natural-english.html?module=native-398"
+  },
+  {
+    "id": "native-english:native-399",
+    "type": "native-english",
+    "ordinal": 399,
+    "label": "#399 · 腳趾／手指磨出水泡但還沒破",
+    "detail": "Native English #399 · I have a blister.",
+    "url": "natural-english.html?module=native-399"
+  },
+  {
+    "id": "native-english:native-400",
+    "type": "native-english",
+    "ordinal": 400,
+    "label": "#400 · 飯店房間隔壁非常吵",
+    "detail": "Native English #400 · The guests next door are being loud.",
+    "url": "natural-english.html?module=native-400"
+  },
+  {
+    "id": "native-english:native-401",
+    "type": "native-english",
+    "ordinal": 401,
+    "label": "#401 · ATM 把卡吃掉了",
+    "detail": "Native English #401 · The ATM kept my card.",
+    "url": "natural-english.html?module=native-401"
+  },
+  {
+    "id": "native-english:native-402",
+    "type": "native-english",
+    "ordinal": 402,
+    "label": "#402 · 店員忘了把折扣算進去",
+    "detail": "Native English #402 · The discount didn’t come off.",
+    "url": "natural-english.html?module=native-402"
+  },
+  {
+    "id": "native-english:native-403",
+    "type": "native-english",
+    "ordinal": 403,
+    "label": "#403 · 鼻子一直癢，感覺快打噴嚏",
+    "detail": "Native English #403 · My nose is tickling.",
+    "url": "natural-english.html?module=native-403"
+  },
+  {
+    "id": "native-english:native-404",
+    "type": "native-english",
+    "ordinal": 404,
+    "label": "#404 · 早上起來眼睛黏黏、有分泌物",
+    "detail": "Native English #404 · My eyes are crusty.",
+    "url": "natural-english.html?module=native-404"
+  },
+  {
+    "id": "native-english:native-405",
+    "type": "native-english",
+    "ordinal": 405,
+    "label": "#405 · 眼睛乾到有沙沙異物感",
+    "detail": "Native English #405 · My eyes feel gritty.",
+    "url": "natural-english.html?module=native-405"
+  },
+  {
+    "id": "native-english:native-406",
+    "type": "native-english",
+    "ordinal": 406,
+    "label": "#406 · 新牛仔褲把白鞋／沙發染藍",
+    "detail": "Native English #406 · The dye transferred.",
+    "url": "natural-english.html?module=native-406"
+  },
+  {
+    "id": "native-english:native-407",
+    "type": "native-english",
+    "ordinal": 407,
+    "label": "#407 · 褲襪被勾出一條長長的線",
+    "detail": "Native English #407 · There’s a run in my tights.",
+    "url": "natural-english.html?module=native-407"
+  },
+  {
+    "id": "native-english:native-408",
+    "type": "native-english",
+    "ordinal": 408,
+    "label": "#408 · 衣服洗完染到別件衣服的顏色",
+    "detail": "Native English #408 · There’s color transfer.",
+    "url": "natural-english.html?module=native-408"
+  },
+  {
+    "id": "native-english:native-409",
+    "type": "native-english",
+    "ordinal": 409,
+    "label": "#409 · 一顆螺旋蓋旋到太緊",
+    "detail": "Native English #409 · The cap is overtightened.",
+    "url": "natural-english.html?module=native-409"
+  },
+  {
+    "id": "native-english:native-410",
+    "type": "native-english",
+    "ordinal": 410,
+    "label": "#410 · 食物黏在上顎",
+    "detail": "Native English #410 · It’s stuck to the roof of my mouth.",
+    "url": "natural-english.html?module=native-410"
+  },
+  {
+    "id": "native-english:native-411",
+    "type": "native-english",
+    "ordinal": 411,
+    "label": "#411 · 罐頭打開時液體／泡沫噴出",
+    "detail": "Native English #411 · It spurted out when I opened it.",
+    "url": "natural-english.html?module=native-411"
+  },
+  {
+    "id": "native-english:native-412",
+    "type": "native-english",
+    "ordinal": 412,
+    "label": "#412 · 瓶蓋怎樣都旋歪、鎖不上",
+    "detail": "Native English #412 · The cap is cross-threaded.",
+    "url": "natural-english.html?module=native-412"
+  },
+  {
+    "id": "native-english:native-413",
+    "type": "native-english",
+    "ordinal": 413,
+    "label": "#413 · 吃完某東西嘴裏一直留下怪味",
+    "detail": "Native English #413 · It left a weird aftertaste.",
+    "url": "natural-english.html?module=native-413"
+  },
+  {
+    "id": "native-english:native-414",
+    "type": "native-english",
+    "ordinal": 414,
+    "label": "#414 · 帽T抽繩一邊被拉進去，只剩另一邊",
+    "detail": "Native English #414 · The drawstring got pulled through.",
+    "url": "natural-english.html?module=native-414"
+  },
+  {
+    "id": "native-english:native-415",
+    "type": "native-english",
+    "ordinal": 415,
+    "label": "#415 · 洗衣機因衣服全偏到一邊狂震",
+    "detail": "Native English #415 · The load is unbalanced.",
+    "url": "natural-english.html?module=native-415"
+  },
+  {
+    "id": "native-english:native-416",
+    "type": "native-english",
+    "ordinal": 416,
+    "label": "#416 · 防盜門因商品防盜扣沒拆而響",
+    "detail": "Native English #416 · I set off the security alarm.",
+    "url": "natural-english.html?module=native-416"
+  },
+  {
+    "id": "native-english:native-417",
+    "type": "native-english",
+    "ordinal": 417,
+    "label": "#417 · 伸手越過別人拿桌上的東西",
+    "detail": "Native English #417 · Sorry, let me reach past you.",
+    "url": "natural-english.html?module=native-417"
+  },
+  {
+    "id": "native-english:native-418",
+    "type": "native-english",
+    "ordinal": 418,
+    "label": "#418 · 有人把購物車放在走道中間擋路",
+    "detail": "Native English #418 · Your cart is blocking the aisle.",
+    "url": "natural-english.html?module=native-418"
+  },
+  {
+    "id": "native-english:native-419",
+    "type": "native-english",
+    "ordinal": 419,
+    "label": "#419 · 這個優惠只能每人用一次",
+    "detail": "Native English #419 · It’s limited to one per customer.",
+    "url": "natural-english.html?module=native-419"
+  },
+  {
+    "id": "native-english:native-420",
+    "type": "native-english",
+    "ordinal": 420,
+    "label": "#420 · 優惠不能跟另一個優惠一起用",
+    "detail": "Native English #420 · The offers can’t be combined.",
+    "url": "natural-english.html?module=native-420"
+  },
+  {
+    "id": "native-english:native-421",
+    "type": "native-english",
+    "ordinal": 421,
+    "label": "#421 · 優惠券不能用在這個商品",
+    "detail": "Native English #421 · The coupon doesn’t apply to this item.",
+    "url": "natural-english.html?module=native-421"
+  },
+  {
+    "id": "native-english:native-422",
+    "type": "native-english",
+    "ordinal": 422,
+    "label": "#422 · 優惠券已經過期",
+    "detail": "Native English #422 · The coupon has expired.",
+    "url": "natural-english.html?module=native-422"
+  },
+  {
+    "id": "native-english:native-423",
+    "type": "native-english",
+    "ordinal": 423,
+    "label": "#423 · 百葉窗其中一片折彎了",
+    "detail": "Native English #423 · One of the slats is bent.",
+    "url": "natural-english.html?module=native-423"
+  },
+  {
+    "id": "native-english:native-424",
+    "type": "native-english",
+    "ordinal": 424,
+    "label": "#424 · 窗戶紗網破了一個洞",
+    "detail": "Native English #424 · There’s a tear in the screen.",
+    "url": "natural-english.html?module=native-424"
+  },
+  {
+    "id": "native-english:native-425",
+    "type": "native-english",
+    "ordinal": 425,
+    "label": "#425 · 污漬放太久，已經很難洗掉",
+    "detail": "Native English #425 · The stain has set.",
+    "url": "natural-english.html?module=native-425"
+  },
+  {
+    "id": "native-english:native-426",
+    "type": "native-english",
+    "ordinal": 426,
+    "label": "#426 · 大風把雨傘整個吹反了",
+    "detail": "Native English #426 · My umbrella turned inside out.",
+    "url": "natural-english.html?module=native-426"
+  },
+  {
+    "id": "native-english:native-427",
+    "type": "native-english",
+    "ordinal": 427,
+    "label": "#427 · 雨傘打開後一直自己收回去",
+    "detail": "Native English #427 · The umbrella won’t lock open.",
+    "url": "natural-english.html?module=native-427"
+  },
+  {
+    "id": "native-english:native-428",
+    "type": "native-english",
+    "ordinal": 428,
+    "label": "#428 · 項鍊整條纏成一團",
+    "detail": "Native English #428 · My necklace is tangled.",
+    "url": "natural-english.html?module=native-428"
+  },
+  {
+    "id": "native-english:native-429",
+    "type": "native-english",
+    "ordinal": 429,
+    "label": "#429 · 蛋糕內部很厚重、不鬆軟",
+    "detail": "Native English #429 · The cake is dense.",
+    "url": "natural-english.html?module=native-429"
+  },
+  {
+    "id": "native-english:native-430",
+    "type": "native-english",
+    "ordinal": 430,
+    "label": "#430 · 蛋糕非常輕、鬆軟",
+    "detail": "Native English #430 · The cake is fluffy.",
+    "url": "natural-english.html?module=native-430"
+  },
+  {
+    "id": "native-english:native-431",
+    "type": "native-english",
+    "ordinal": 431,
+    "label": "#431 · 布朗尼裡面濕潤黏黏的",
+    "detail": "Native English #431 · It's gooey.",
+    "url": "natural-english.html?module=native-431"
+  },
+  {
+    "id": "native-english:native-432",
+    "type": "native-english",
+    "ordinal": 432,
+    "label": "#432 · 餅乾太乾，一拿就碎",
+    "detail": "Native English #432 · It’s crumbly.",
+    "url": "natural-english.html?module=native-432"
+  },
+  {
+    "id": "native-english:native-433",
+    "type": "native-english",
+    "ordinal": 433,
+    "label": "#433 · 手錶帶開始裂",
+    "detail": "Native English #433 · The watch band is cracking.",
+    "url": "natural-english.html?module=native-433"
+  },
+  {
+    "id": "native-english:native-434",
+    "type": "native-english",
+    "ordinal": 434,
+    "label": "#434 · 手機透明殼用久變黃",
+    "detail": "Native English #434 · My phone case has yellowed.",
+    "url": "natural-english.html?module=native-434"
+  },
+  {
+    "id": "native-english:native-435",
+    "type": "native-english",
+    "ordinal": 435,
+    "label": "#435 · 吃太飽肚子脹得很不舒服",
+    "detail": "Native English #435 · I'm bloated.",
+    "url": "natural-english.html?module=native-435"
+  },
+  {
+    "id": "native-english:native-436",
+    "type": "native-english",
+    "ordinal": 436,
+    "label": "#436 · 肚子很多氣，一直想打嗝／放屁",
+    "detail": "Native English #436 · I’m gassy.",
+    "url": "natural-english.html?module=native-436"
+  },
+  {
+    "id": "native-english:native-437",
+    "type": "native-english",
+    "ordinal": 437,
+    "label": "#437 · QR code 怎樣都掃不到",
+    "detail": "Native English #437 · The QR code won’t scan.",
+    "url": "natural-english.html?module=native-437"
+  },
+  {
+    "id": "native-english:native-438",
+    "type": "native-english",
+    "ordinal": 438,
+    "label": "#438 · 聲音跟影片嘴型對不上",
+    "detail": "Native English #438 · The audio is out of sync.",
+    "url": "natural-english.html?module=native-438"
+  },
+  {
+    "id": "native-english:native-439",
+    "type": "native-english",
+    "ordinal": 439,
+    "label": "#439 · 公寓門口按鈴讓住戶開門",
+    "detail": "Native English #439 · Buzz me when you get here.",
+    "url": "natural-english.html?module=native-439"
+  },
+  {
+    "id": "native-english:native-440",
+    "type": "native-english",
+    "ordinal": 440,
+    "label": "#440 · 安全帶拉出來後不會自己縮回去",
+    "detail": "Native English #440 · The seat belt won't retract.",
+    "url": "natural-english.html?module=native-440"
+  },
+  {
+    "id": "native-english:native-441",
+    "type": "native-english",
+    "ordinal": 441,
+    "label": "#441 · 安全帶整條扭了一圈",
+    "detail": "Native English #441 · The seat belt is twisted.",
+    "url": "natural-english.html?module=native-441"
+  },
+  {
+    "id": "native-english:native-442",
+    "type": "native-english",
+    "ordinal": 442,
+    "label": "#442 · 自動門站半天都不開",
+    "detail": "Native English #442 · The sensor isn’t detecting me.",
+    "url": "natural-english.html?module=native-442"
+  },
+  {
+    "id": "native-english:native-443",
+    "type": "native-english",
+    "ordinal": 443,
+    "label": "#443 · 感應水龍頭怎樣都沒反應",
+    "detail": "Native English #443 · The sensor isn’t picking up my hands.",
+    "url": "natural-english.html?module=native-443"
+  },
+  {
+    "id": "native-english:native-444",
+    "type": "native-english",
+    "ordinal": 444,
+    "label": "#444 · 停車票／取車票沒有從機器吐出來",
+    "detail": "Native English #444 · The ticket dispenser is jammed.",
+    "url": "natural-english.html?module=native-444"
+  },
+  {
+    "id": "native-english:native-445",
+    "type": "native-english",
+    "ordinal": 445,
+    "label": "#445 · 停車計時器已經過時間",
+    "detail": "Native English #445 · The meter expired.",
+    "url": "natural-english.html?module=native-445"
+  },
+  {
+    "id": "native-english:native-446",
+    "type": "native-english",
+    "ordinal": 446,
+    "label": "#446 · 電梯壞了不能用",
+    "detail": "Native English #446 · The elevator is out of service.",
+    "url": "natural-english.html?module=native-446"
+  },
+  {
+    "id": "native-english:native-447",
+    "type": "native-english",
+    "ordinal": 447,
+    "label": "#447 · 販賣機收了錢卻沒掉商品",
+    "detail": "Native English #447 · The vending machine ate my money.",
+    "url": "natural-english.html?module=native-447"
+  },
+  {
+    "id": "native-english:native-448",
+    "type": "native-english",
+    "ordinal": 448,
+    "label": "#448 · 鍵盤按一次卻打出兩個字母",
+    "detail": "Native English #448 · The key is double-typing.",
+    "url": "natural-english.html?module=native-448"
+  },
+  {
+    "id": "native-english:native-449",
+    "type": "native-english",
+    "ordinal": 449,
+    "label": "#449 · 冰塊全部凍成一大塊黏在一起",
+    "detail": "Native English #449 · The ice cubes have frozen together.",
+    "url": "natural-english.html?module=native-449"
+  },
+  {
+    "id": "native-english:native-450",
+    "type": "native-english",
+    "ordinal": 450,
+    "label": "#450 · 食物味道在房間裡久久散不掉",
+    "detail": "Native English #450 · The smell is lingering.",
+    "url": "natural-english.html?module=native-450"
+  },
+  {
+    "id": "native-english:native-451",
+    "type": "native-english",
+    "ordinal": 451,
+    "label": "#451 · 湯不小心加太多鹽",
+    "detail": "Native English #451 · The soup is oversalted.",
+    "url": "natural-english.html?module=native-451"
+  },
+  {
+    "id": "native-english:native-452",
+    "type": "native-english",
+    "ordinal": 452,
+    "label": "#452 · 珍珠／果粒把飲筒堵住",
+    "detail": "Native English #452 · The straw is clogged.",
+    "url": "natural-english.html?module=native-452"
+  },
+  {
+    "id": "native-english:native-453",
+    "type": "native-english",
+    "ordinal": 453,
+    "label": "#453 · 紙飲筒泡太久變軟",
+    "detail": "Native English #453 · The paper straw has gone soggy.",
+    "url": "natural-english.html?module=native-453"
+  },
+  {
+    "id": "native-english:native-454",
+    "type": "native-english",
+    "ordinal": 454,
+    "label": "#454 · 杯子外面那些水珠",
+    "detail": "Native English #454 · There’s condensation on the cup.",
+    "url": "natural-english.html?module=native-454"
+  },
+  {
+    "id": "native-english:native-455",
+    "type": "native-english",
+    "ordinal": 455,
+    "label": "#455 · 冰飲杯外面一直冒水珠",
+    "detail": "Native English #455 · The cup is sweating.",
+    "url": "natural-english.html?module=native-455"
+  },
+  {
+    "id": "native-english:native-456",
+    "type": "native-english",
+    "ordinal": 456,
+    "label": "#456 · 麥克筆墨水透到紙的背面",
+    "detail": "Native English #456 · The marker bled through the paper.",
+    "url": "natural-english.html?module=native-456"
+  },
+  {
+    "id": "native-english:native-457",
+    "type": "native-english",
+    "ordinal": 457,
+    "label": "#457 · 原子筆寫到一半一直斷墨",
+    "detail": "Native English #457 · The pen keeps skipping.",
+    "url": "natural-english.html?module=native-457"
+  },
+  {
+    "id": "native-english:native-458",
+    "type": "native-english",
+    "ordinal": 458,
+    "label": "#458 · 膠帶／貼紙放久已經不黏",
+    "detail": "Native English #458 · It’s lost its stickiness.",
+    "url": "natural-english.html?module=native-458"
+  },
+  {
+    "id": "native-english:native-459",
+    "type": "native-english",
+    "ordinal": 459,
+    "label": "#459 · 保護貼四角開始翹起",
+    "detail": "Native English #459 · The edges are lifting.",
+    "url": "natural-english.html?module=native-459"
+  },
+  {
+    "id": "native-english:native-460",
+    "type": "native-english",
+    "ordinal": 460,
+    "label": "#460 · 手機保護貼下面有氣泡",
+    "detail": "Native English #460 · There are bubbles under the screen protector.",
+    "url": "natural-english.html?module=native-460"
+  },
+  {
+    "id": "native-english:native-461",
+    "type": "native-english",
+    "ordinal": 461,
+    "label": "#461 · 眼鏡戴久了兩邊鬆鬆的",
+    "detail": "Native English #461 · The arms on my glasses are loose.",
+    "url": "natural-english.html?module=native-461"
+  },
+  {
+    "id": "native-english:native-462",
+    "type": "native-english",
+    "ordinal": 462,
+    "label": "#462 · 眼鏡鼻托掉了一個",
+    "detail": "Native English #462 · One of the nose pads fell off.",
+    "url": "natural-english.html?module=native-462"
+  },
+  {
+    "id": "native-english:native-463",
+    "type": "native-english",
+    "ordinal": 463,
+    "label": "#463 · 耳環後面的固定塞不見了",
+    "detail": "Native English #463 · I lost an earring back.",
+    "url": "natural-english.html?module=native-463"
+  },
+  {
+    "id": "native-english:native-464",
+    "type": "native-english",
+    "ordinal": 464,
+    "label": "#464 · 吃東西不小心咬到舌頭",
+    "detail": "Native English #464 · I bit my tongue.",
+    "url": "natural-english.html?module=native-464"
+  },
+  {
+    "id": "native-english:native-465",
+    "type": "native-english",
+    "ordinal": 465,
+    "label": "#465 · 吃東西不小心咬到口腔內側",
+    "detail": "Native English #465 · I bit the inside of my cheek.",
+    "url": "natural-english.html?module=native-465"
+  },
+  {
+    "id": "native-english:native-466",
+    "type": "native-english",
+    "ordinal": 466,
+    "label": "#466 · 牙醫麻醉後半邊嘴還沒感覺",
+    "detail": "Native English #466 · Half my mouth is still numb.",
+    "url": "natural-english.html?module=native-466"
+  },
+  {
+    "id": "native-english:native-467",
+    "type": "native-english",
+    "ordinal": 467,
+    "label": "#467 · 手心因緊張一直出汗",
+    "detail": "Native English #467 · My palms are sweaty.",
+    "url": "natural-english.html?module=native-467"
+  },
+  {
+    "id": "native-english:native-468",
+    "type": "native-english",
+    "ordinal": 468,
+    "label": "#468 · 皮膚又冷又濕黏",
+    "detail": "Native English #468 · My skin feels clammy.",
+    "url": "natural-english.html?module=native-468"
+  },
+  {
+    "id": "native-english:native-469",
+    "type": "native-english",
+    "ordinal": 469,
+    "label": "#469 · 麻醉藥效果開始退了",
+    "detail": "Native English #469 · The numbness is wearing off.",
+    "url": "natural-english.html?module=native-469"
+  },
+  {
+    "id": "native-english:native-470",
+    "type": "native-english",
+    "ordinal": 470,
+    "label": "#470 · 咳嗽突然一陣完全停不下來",
+    "detail": "Native English #470 · I’m having a coughing fit.",
+    "url": "natural-english.html?module=native-470"
+  },
+  {
+    "id": "native-english:native-471",
+    "type": "native-english",
+    "ordinal": 471,
+    "label": "#471 · 相機鏡頭從冷的地方拿到室內後起霧",
+    "detail": "Native English #471 · The lens fogged up.",
+    "url": "natural-english.html?module=native-471"
+  },
+  {
+    "id": "native-english:native-472",
+    "type": "native-english",
+    "ordinal": 472,
+    "label": "#472 · App 一直卡在「載入中」畫面",
+    "detail": "Native English #472 · The app is stuck on the loading screen.",
+    "url": "natural-english.html?module=native-472"
+  },
+  {
+    "id": "native-english:native-473",
+    "type": "native-english",
+    "ordinal": 473,
+    "label": "#473 · 檔案下載到 99_ 就不動了",
+    "detail": "Native English #473 · The download stalled at 99%.",
+    "url": "natural-english.html?module=native-473"
+  },
+  {
+    "id": "native-english:native-476",
+    "type": "native-english",
+    "ordinal": 476,
+    "label": "#476 · 飯店窗簾怎樣都關不密",
+    "detail": "Native English #476 · The curtains won’t close all the way.",
+    "url": "natural-english.html?module=native-476"
+  },
+  {
+    "id": "native-english:native-477",
+    "type": "native-english",
+    "ordinal": 477,
+    "label": "#477 · 層架中間因放太重開始彎下去",
+    "detail": "Native English #477 · The shelf is sagging.",
+    "url": "natural-english.html?module=native-477"
+  },
+  {
+    "id": "native-english:native-478",
+    "type": "native-english",
+    "ordinal": 478,
+    "label": "#478 · 地毯角一直往上翹，走路會踢到",
+    "detail": "Native English #478 · The corner of the rug is curling up.",
+    "url": "natural-english.html?module=native-478"
+  },
+  {
+    "id": "native-english:native-479",
+    "type": "native-english",
+    "ordinal": 479,
+    "label": "#479 · 木桌因熱杯留下白白一圈",
+    "detail": "Native English #479 · It left a heat mark.",
+    "url": "natural-english.html?module=native-479"
+  },
+  {
+    "id": "native-english:native-480",
+    "type": "native-english",
+    "ordinal": 480,
+    "label": "#480 · 不鏽鋼冰箱上全是手指印",
+    "detail": "Native English #480 · The fridge is covered in smudges.",
+    "url": "natural-english.html?module=native-480"
+  },
+  {
+    "id": "native-english:native-481",
+    "type": "native-english",
+    "ordinal": 481,
+    "label": "#481 · 鏡子洗澡後整片起霧",
+    "detail": "Native English #481 · The mirror is fogged up.",
+    "url": "natural-english.html?module=native-481"
+  },
+  {
+    "id": "native-english:native-482",
+    "type": "native-english",
+    "ordinal": 482,
+    "label": "#482 · 一坨很難形容的黏髒東西卡在縫裏",
+    "detail": "Native English #482 · There’s some gunk in there.",
+    "url": "natural-english.html?module=native-482"
+  },
+  {
+    "id": "native-english:native-483",
+    "type": "native-english",
+    "ordinal": 483,
+    "label": "#483 · 廚房表面積了一層油膩髒污",
+    "detail": "Native English #483 · There’s grease buildup.",
+    "url": "natural-english.html?module=native-483"
+  },
+  {
+    "id": "native-english:native-484",
+    "type": "native-english",
+    "ordinal": 484,
+    "label": "#484 · 地板上有鞋底磨出的黑痕",
+    "detail": "Native English #484 · There are scuff marks on the floor.",
+    "url": "natural-english.html?module=native-484"
+  },
+  {
+    "id": "native-english:native-485",
+    "type": "native-english",
+    "ordinal": 485,
+    "label": "#485 · 床底下滾成一團的灰塵毛球",
+    "detail": "Native English #485 · There’s a dust bunny under the bed.",
+    "url": "natural-english.html?module=native-485"
+  },
+  {
+    "id": "native-english:native-486",
+    "type": "native-english",
+    "ordinal": 486,
+    "label": "#486 · 紙袋提把突然被扯斷",
+    "detail": "Native English #486 · The handle tore off.",
+    "url": "natural-english.html?module=native-486"
+  },
+  {
+    "id": "native-english:native-487",
+    "type": "native-english",
+    "ordinal": 487,
+    "label": "#487 · 紙箱的一角被運送時壓扁",
+    "detail": "Native English #487 · The corner got crushed.",
+    "url": "natural-english.html?module=native-487"
+  },
+  {
+    "id": "native-english:native-543",
+    "type": "native-english",
+    "ordinal": 543,
+    "label": "#543 · 膠帶找不到開頭在哪",
+    "detail": "Native English #543 · I can't find the end of the tape.",
+    "url": "natural-english.html?module=native-543"
+  },
+  {
+    "id": "native-english:native-545",
+    "type": "native-english",
+    "ordinal": 545,
+    "label": "#545 · 保鮮膜一直黏在自己身上，拉不開",
+    "detail": "Native English #545 · The plastic wrap keeps clinging to itself.",
+    "url": "natural-english.html?module=native-545"
+  },
+  {
+    "id": "native-english:native-546",
+    "type": "native-english",
+    "ordinal": 546,
+    "label": "#546 · 夾鏈袋怎樣壓都封不起來",
+    "detail": "Native English #546 · The seal won’t close properly.",
+    "url": "natural-english.html?module=native-546"
+  },
+  {
+    "id": "native-english:native-547",
+    "type": "native-english",
+    "ordinal": 547,
+    "label": "#547 · 噴霧瓶按了但噴不出來",
+    "detail": "Native English #547 · The nozzle is clogged.",
+    "url": "natural-english.html?module=native-547"
+  },
+  {
+    "id": "native-english:native-548",
+    "type": "native-english",
+    "ordinal": 548,
+    "label": "#548 · 洗髮精／乳液壓頭壓不出東西",
+    "detail": "Native English #548 · The pump is clogged.",
+    "url": "natural-english.html?module=native-548"
+  },
+  {
+    "id": "native-english:native-549",
+    "type": "native-english",
+    "ordinal": 549,
+    "label": "#549 · 易開罐拉環一拉就斷掉",
+    "detail": "Native English #549 · The pull tab snapped off.",
+    "url": "natural-english.html?module=native-549"
+  },
+  {
     "id": "phrasal-verb:phrasal-verb-01",
     "type": "phrasal-verb",
     "ordinal": 1,
@@ -31540,7 +36060,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 8,
     "label": "#8 · cancel",
-    "detail": "Polysemy #8 · 20 meanings · 40 questions",
+    "detail": "Polysemy #8 · 18 meanings · 40 questions",
     "url": "polysemy-lab.html?module=cancel"
   },
   {
@@ -31548,7 +36068,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 9,
     "label": "#9 · see",
-    "detail": "Polysemy #9 · 24 meanings · 49 questions",
+    "detail": "Polysemy #9 · 26 meanings · 49 questions",
     "url": "polysemy-lab.html?module=see"
   },
   {
@@ -31556,7 +36076,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 10,
     "label": "#10 · late",
-    "detail": "Polysemy #10 · 25 meanings · 51 questions",
+    "detail": "Polysemy #10 · 26 meanings · 51 questions",
     "url": "polysemy-lab.html?module=late"
   },
   {
@@ -31564,7 +36084,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 11,
     "label": "#11 · work",
-    "detail": "Polysemy #11 · 41 meanings · 83 questions",
+    "detail": "Polysemy #11 · 40 meanings · 83 questions",
     "url": "polysemy-lab.html?module=work"
   },
   {
@@ -31572,7 +36092,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 12,
     "label": "#12 · home",
-    "detail": "Polysemy #12 · 31 meanings · 63 questions",
+    "detail": "Polysemy #12 · 34 meanings · 63 questions",
     "url": "polysemy-lab.html?module=home"
   },
   {
@@ -31580,7 +36100,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 13,
     "label": "#13 · immediate",
-    "detail": "Polysemy #13 · 17 meanings · 35 questions",
+    "detail": "Polysemy #13 · 15 meanings · 35 questions",
     "url": "polysemy-lab.html?module=immediate"
   },
   {
@@ -31612,7 +36132,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 17,
     "label": "#17 · people",
-    "detail": "Polysemy #17 · 18 meanings · 37 questions",
+    "detail": "Polysemy #17 · 19 meanings · 37 questions",
     "url": "polysemy-lab.html?module=people"
   },
   {
@@ -31644,7 +36164,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 21,
     "label": "#21 · background",
-    "detail": "Polysemy #21 · 18 meanings · 37 questions",
+    "detail": "Polysemy #21 · 17 meanings · 37 questions",
     "url": "polysemy-lab.html?module=background"
   },
   {
@@ -31660,7 +36180,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 23,
     "label": "#23 · image",
-    "detail": "Polysemy #23 · 15 meanings · 31 questions",
+    "detail": "Polysemy #23 · 19 meanings · 31 questions",
     "url": "polysemy-lab.html?module=image"
   },
   {
@@ -31668,7 +36188,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 24,
     "label": "#24 · time",
-    "detail": "Polysemy #24 · 20 meanings · 41 questions",
+    "detail": "Polysemy #24 · 24 meanings · 41 questions",
     "url": "polysemy-lab.html?module=time"
   },
   {
@@ -31708,7 +36228,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 29,
     "label": "#29 · everyday",
-    "detail": "Polysemy #29 · 6 meanings · 9 questions",
+    "detail": "Polysemy #29 · 5 meanings · 9 questions",
     "url": "polysemy-lab.html?module=everyday"
   },
   {
@@ -31724,7 +36244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 31,
     "label": "#31 · comfort",
-    "detail": "Polysemy #31 · 20 meanings · 41 questions",
+    "detail": "Polysemy #31 · 21 meanings · 41 questions",
     "url": "polysemy-lab.html?module=comfort"
   },
   {
@@ -31740,7 +36260,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 33,
     "label": "#33 · final",
-    "detail": "Polysemy #33 · 13 meanings · 29 questions",
+    "detail": "Polysemy #33 · 14 meanings · 29 questions",
     "url": "polysemy-lab.html?module=final"
   },
   {
@@ -31756,7 +36276,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 35,
     "label": "#35 · place",
-    "detail": "Polysemy #35 · 36 meanings · 73 questions",
+    "detail": "Polysemy #35 · 30 meanings · 73 questions",
     "url": "polysemy-lab.html?module=place"
   },
   {
@@ -31788,7 +36308,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 39,
     "label": "#39 · focus",
-    "detail": "Polysemy #39 · 23 meanings · 47 questions",
+    "detail": "Polysemy #39 · 22 meanings · 47 questions",
     "url": "polysemy-lab.html?module=focus"
   },
   {
@@ -31804,7 +36324,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 41,
     "label": "#41 · company",
-    "detail": "Polysemy #41 · 29 meanings · 61 questions",
+    "detail": "Polysemy #41 · 27 meanings · 61 questions",
     "url": "polysemy-lab.html?module=company"
   },
   {
@@ -31812,7 +36332,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 42,
     "label": "#42 · spend",
-    "detail": "Polysemy #42 · 28 meanings · 57 questions",
+    "detail": "Polysemy #42 · 26 meanings · 57 questions",
     "url": "polysemy-lab.html?module=spend"
   },
   {
@@ -31828,7 +36348,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 44,
     "label": "#44 · attract",
-    "detail": "Polysemy #44 · 21 meanings · 43 questions",
+    "detail": "Polysemy #44 · 19 meanings · 43 questions",
     "url": "polysemy-lab.html?module=attract"
   },
   {
@@ -31836,7 +36356,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 45,
     "label": "#45 · reason",
-    "detail": "Polysemy #45 · 25 meanings · 51 questions",
+    "detail": "Polysemy #45 · 22 meanings · 51 questions",
     "url": "polysemy-lab.html?module=reason"
   },
   {
@@ -31860,7 +36380,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 48,
     "label": "#48 · effective",
-    "detail": "Polysemy #48 · 3 meanings · 6 questions",
+    "detail": "Polysemy #48 · 7 meanings · 6 questions",
     "url": "polysemy-lab.html?module=effective"
   },
   {
@@ -31892,7 +36412,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 52,
     "label": "#52 · noise",
-    "detail": "Polysemy #52 · 13 meanings · 31 questions",
+    "detail": "Polysemy #52 · 15 meanings · 31 questions",
     "url": "polysemy-lab.html?module=noise"
   },
   {
@@ -31908,7 +36428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 54,
     "label": "#54 · seem",
-    "detail": "Polysemy #54 · 13 meanings · 25 questions",
+    "detail": "Polysemy #54 · 11 meanings · 25 questions",
     "url": "polysemy-lab.html?module=seem"
   },
   {
@@ -31916,7 +36436,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 55,
     "label": "#55 · stay",
-    "detail": "Polysemy #55 · 17 meanings · 35 questions",
+    "detail": "Polysemy #55 · 18 meanings · 35 questions",
     "url": "polysemy-lab.html?module=stay"
   },
   {
@@ -31940,7 +36460,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 58,
     "label": "#58 · sound",
-    "detail": "Polysemy #58 · 16 meanings · 37 questions",
+    "detail": "Polysemy #58 · 17 meanings · 37 questions",
     "url": "polysemy-lab.html?module=sound"
   },
   {
@@ -31964,7 +36484,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 61,
     "label": "#61 · now",
-    "detail": "Polysemy #61 · 12 meanings · 27 questions",
+    "detail": "Polysemy #61 · 13 meanings · 27 questions",
     "url": "polysemy-lab.html?module=now"
   },
   {
@@ -31988,7 +36508,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 64,
     "label": "#64 · product",
-    "detail": "Polysemy #64 · 21 meanings · 43 questions",
+    "detail": "Polysemy #64 · 18 meanings · 43 questions",
     "url": "polysemy-lab.html?module=product"
   },
   {
@@ -32004,7 +36524,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 66,
     "label": "#66 · live",
-    "detail": "Polysemy #66 · 28 meanings · 57 questions",
+    "detail": "Polysemy #66 · 26 meanings · 57 questions",
     "url": "polysemy-lab.html?module=live"
   },
   {
@@ -32012,7 +36532,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 67,
     "label": "#67 · stress",
-    "detail": "Polysemy #67 · 19 meanings · 39 questions",
+    "detail": "Polysemy #67 · 17 meanings · 39 questions",
     "url": "polysemy-lab.html?module=stress"
   },
   {
@@ -32020,7 +36540,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 68,
     "label": "#68 · press",
-    "detail": "Polysemy #68 · 21 meanings · 43 questions",
+    "detail": "Polysemy #68 · 20 meanings · 43 questions",
     "url": "polysemy-lab.html?module=press"
   },
   {
@@ -32036,7 +36556,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 70,
     "label": "#70 · mention",
-    "detail": "Polysemy #70 · 15 meanings · 31 questions",
+    "detail": "Polysemy #70 · 14 meanings · 31 questions",
     "url": "polysemy-lab.html?module=mention"
   },
   {
@@ -32044,7 +36564,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 71,
     "label": "#71 · believe",
-    "detail": "Polysemy #71 · 24 meanings · 49 questions",
+    "detail": "Polysemy #71 · 23 meanings · 49 questions",
     "url": "polysemy-lab.html?module=believe"
   },
   {
@@ -32052,7 +36572,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 72,
     "label": "#72 · commercial",
-    "detail": "Polysemy #72 · 17 meanings · 35 questions",
+    "detail": "Polysemy #72 · 16 meanings · 35 questions",
     "url": "polysemy-lab.html?module=commercial"
   },
   {
@@ -32060,7 +36580,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 73,
     "label": "#73 · try",
-    "detail": "Polysemy #73 · 15 meanings · 29 questions",
+    "detail": "Polysemy #73 · 17 meanings · 29 questions",
     "url": "polysemy-lab.html?module=try"
   },
   {
@@ -32076,7 +36596,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 75,
     "label": "#75 · attention",
-    "detail": "Polysemy #75 · 21 meanings · 43 questions",
+    "detail": "Polysemy #75 · 20 meanings · 43 questions",
     "url": "polysemy-lab.html?module=attention"
   },
   {
@@ -32084,7 +36604,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 76,
     "label": "#76 · speak",
-    "detail": "Polysemy #76 · 40 meanings · 77 questions",
+    "detail": "Polysemy #76 · 39 meanings · 77 questions",
     "url": "polysemy-lab.html?module=speak"
   },
   {
@@ -32092,7 +36612,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 77,
     "label": "#77 · represent",
-    "detail": "Polysemy #77 · 31 meanings · 63 questions",
+    "detail": "Polysemy #77 · 27 meanings · 63 questions",
     "url": "polysemy-lab.html?module=represent"
   },
   {
@@ -32108,7 +36628,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 79,
     "label": "#79 · crowd",
-    "detail": "Polysemy #79 · 10 meanings · 38 questions",
+    "detail": "Polysemy #79 · 22 meanings · 38 questions",
     "url": "polysemy-lab.html?module=crowd"
   },
   {
@@ -32116,7 +36636,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 80,
     "label": "#80 · exhaust",
-    "detail": "Polysemy #80 · 22 meanings · 45 questions",
+    "detail": "Polysemy #80 · 21 meanings · 45 questions",
     "url": "polysemy-lab.html?module=exhaust"
   },
   {
@@ -32124,15 +36644,47 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 82,
     "label": "#82 · say",
-    "detail": "Polysemy #82 · 39 meanings · 79 questions",
+    "detail": "Polysemy #82 · 33 meanings · 79 questions",
     "url": "polysemy-lab.html?module=say"
+  },
+  {
+    "id": "polysemy:tree",
+    "type": "polysemy",
+    "ordinal": 85,
+    "label": "#85 · tree",
+    "detail": "Polysemy #85 · 14 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=tree"
+  },
+  {
+    "id": "polysemy:mistake",
+    "type": "polysemy",
+    "ordinal": 86,
+    "label": "#86 · mistake",
+    "detail": "Polysemy #86 · 27 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=mistake"
+  },
+  {
+    "id": "polysemy:tea",
+    "type": "polysemy",
+    "ordinal": 87,
+    "label": "#87 · tea",
+    "detail": "Polysemy #87 · 23 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=tea"
+  },
+  {
+    "id": "polysemy:warm",
+    "type": "polysemy",
+    "ordinal": 88,
+    "label": "#88 · warm",
+    "detail": "Polysemy #88 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=warm"
   },
   {
     "id": "polysemy:well",
     "type": "polysemy",
     "ordinal": 89,
     "label": "#89 · well",
-    "detail": "Polysemy #89 · 25 meanings · 49 questions",
+    "detail": "Polysemy #89 · 24 meanings · 49 questions",
     "url": "polysemy-lab.html?module=well"
   },
   {
@@ -32140,7 +36692,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 90,
     "label": "#90 · mind",
-    "detail": "Polysemy #90 · 45 meanings · 89 questions",
+    "detail": "Polysemy #90 · 40 meanings · 89 questions",
     "url": "polysemy-lab.html?module=mind"
   },
   {
@@ -32148,8 +36700,48 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 91,
     "label": "#91 · kind",
-    "detail": "Polysemy #91 · 27 meanings · 54 questions",
+    "detail": "Polysemy #91 · 25 meanings · 54 questions",
     "url": "polysemy-lab.html?module=kind"
+  },
+  {
+    "id": "polysemy:like",
+    "type": "polysemy",
+    "ordinal": 98,
+    "label": "#98 · like",
+    "detail": "Polysemy #98 · 31 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=like"
+  },
+  {
+    "id": "polysemy:move",
+    "type": "polysemy",
+    "ordinal": 99,
+    "label": "#99 · move",
+    "detail": "Polysemy #99 · 45 meanings · 90 questions",
+    "url": "polysemy-lab.html?module=move"
+  },
+  {
+    "id": "polysemy:main",
+    "type": "polysemy",
+    "ordinal": 100,
+    "label": "#100 · main",
+    "detail": "Polysemy #100 · 23 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=main"
+  },
+  {
+    "id": "polysemy:first",
+    "type": "polysemy",
+    "ordinal": 101,
+    "label": "#101 · first",
+    "detail": "Polysemy #101 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=first"
+  },
+  {
+    "id": "polysemy:bitter",
+    "type": "polysemy",
+    "ordinal": 102,
+    "label": "#102 · bitter",
+    "detail": "Polysemy #102 · 20 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=bitter"
   },
   {
     "id": "polysemy:old",
@@ -32164,7 +36756,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 106,
     "label": "#106 · start",
-    "detail": "Polysemy #106 · 38 meanings · 73 questions",
+    "detail": "Polysemy #106 · 37 meanings · 73 questions",
     "url": "polysemy-lab.html?module=start"
   },
   {
@@ -32172,8 +36764,88 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 107,
     "label": "#107 · heart",
-    "detail": "Polysemy #107 · 40 meanings · 79 questions",
+    "detail": "Polysemy #107 · 37 meanings · 79 questions",
     "url": "polysemy-lab.html?module=heart"
+  },
+  {
+    "id": "polysemy:habit",
+    "type": "polysemy",
+    "ordinal": 114,
+    "label": "#114 · habit",
+    "detail": "Polysemy #114 · 20 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=habit"
+  },
+  {
+    "id": "polysemy:point",
+    "type": "polysemy",
+    "ordinal": 115,
+    "label": "#115 · point",
+    "detail": "Polysemy #115 · 66 meanings · 133 questions",
+    "url": "polysemy-lab.html?module=point"
+  },
+  {
+    "id": "polysemy:appear",
+    "type": "polysemy",
+    "ordinal": 116,
+    "label": "#116 · appear",
+    "detail": "Polysemy #116 · 32 meanings · 80 questions",
+    "url": "polysemy-lab.html?module=appear"
+  },
+  {
+    "id": "polysemy:grow",
+    "type": "polysemy",
+    "ordinal": 117,
+    "label": "#117 · grow",
+    "detail": "Polysemy #117 · 41 meanings · 101 questions",
+    "url": "polysemy-lab.html?module=grow"
+  },
+  {
+    "id": "polysemy:family",
+    "type": "polysemy",
+    "ordinal": 118,
+    "label": "#118 · family",
+    "detail": "Polysemy #118 · 27 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=family"
+  },
+  {
+    "id": "polysemy:respect",
+    "type": "polysemy",
+    "ordinal": 119,
+    "label": "#119 · respect",
+    "detail": "Polysemy #119 · 23 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=respect"
+  },
+  {
+    "id": "polysemy:quiet",
+    "type": "polysemy",
+    "ordinal": 120,
+    "label": "#120 · quiet",
+    "detail": "Polysemy #120 · 30 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=quiet"
+  },
+  {
+    "id": "polysemy:tell",
+    "type": "polysemy",
+    "ordinal": 121,
+    "label": "#121 · tell",
+    "detail": "Polysemy #121 · 31 meanings · 79 questions",
+    "url": "polysemy-lab.html?module=tell"
+  },
+  {
+    "id": "polysemy:simple",
+    "type": "polysemy",
+    "ordinal": 122,
+    "label": "#122 · simple",
+    "detail": "Polysemy #122 · 34 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=simple"
+  },
+  {
+    "id": "polysemy:deep",
+    "type": "polysemy",
+    "ordinal": 123,
+    "label": "#123 · deep",
+    "detail": "Polysemy #123 · 28 meanings · 85 questions",
+    "url": "polysemy-lab.html?module=deep"
   },
   {
     "id": "polysemy:event",
@@ -32188,7 +36860,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 125,
     "label": "#125 · last",
-    "detail": "Polysemy #125 · 34 meanings · 67 questions",
+    "detail": "Polysemy #125 · 33 meanings · 67 questions",
     "url": "polysemy-lab.html?module=last"
   },
   {
@@ -32196,7 +36868,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 126,
     "label": "#126 · senior",
-    "detail": "Polysemy #126 · 22 meanings · 45 questions",
+    "detail": "Polysemy #126 · 21 meanings · 45 questions",
     "url": "polysemy-lab.html?module=senior"
   },
   {
@@ -32204,8 +36876,3432 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 127,
     "label": "#127 · front",
-    "detail": "Polysemy #127 · 32 meanings · 63 questions",
+    "detail": "Polysemy #127 · 33 meanings · 63 questions",
     "url": "polysemy-lab.html?module=front"
+  },
+  {
+    "id": "polysemy:baby",
+    "type": "polysemy",
+    "ordinal": 128,
+    "label": "#128 · baby",
+    "detail": "Polysemy #128 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=baby"
+  },
+  {
+    "id": "polysemy:learn",
+    "type": "polysemy",
+    "ordinal": 129,
+    "label": "#129 · learn",
+    "detail": "Polysemy #129 · 27 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=learn"
+  },
+  {
+    "id": "polysemy:memory",
+    "type": "polysemy",
+    "ordinal": 130,
+    "label": "#130 · memory",
+    "detail": "Polysemy #130 · 25 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=memory"
+  },
+  {
+    "id": "polysemy:grant",
+    "type": "polysemy",
+    "ordinal": 131,
+    "label": "#131 · grant",
+    "detail": "Polysemy #131 · 18 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=grant"
+  },
+  {
+    "id": "polysemy:power",
+    "type": "polysemy",
+    "ordinal": 132,
+    "label": "#132 · power",
+    "detail": "Polysemy #132 · 32 meanings · 76 questions",
+    "url": "polysemy-lab.html?module=power"
+  },
+  {
+    "id": "polysemy:around",
+    "type": "polysemy",
+    "ordinal": 133,
+    "label": "#133 · around",
+    "detail": "Polysemy #133 · 25 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=around"
+  },
+  {
+    "id": "polysemy:long",
+    "type": "polysemy",
+    "ordinal": 134,
+    "label": "#134 · long",
+    "detail": "Polysemy #134 · 55 meanings · 151 questions",
+    "url": "polysemy-lab.html?module=long"
+  },
+  {
+    "id": "polysemy:think",
+    "type": "polysemy",
+    "ordinal": 135,
+    "label": "#135 · think",
+    "detail": "Polysemy #135 · 33 meanings · 73 questions",
+    "url": "polysemy-lab.html?module=think"
+  },
+  {
+    "id": "polysemy:back",
+    "type": "polysemy",
+    "ordinal": 136,
+    "label": "#136 · back",
+    "detail": "Polysemy #136 · 52 meanings · 125 questions",
+    "url": "polysemy-lab.html?module=back"
+  },
+  {
+    "id": "polysemy:love",
+    "type": "polysemy",
+    "ordinal": 142,
+    "label": "#142 · love",
+    "detail": "Polysemy #142 · 25 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=love"
+  },
+  {
+    "id": "polysemy:action",
+    "type": "polysemy",
+    "ordinal": 143,
+    "label": "#143 · action",
+    "detail": "Polysemy #143 · 27 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=action"
+  },
+  {
+    "id": "polysemy:patient",
+    "type": "polysemy",
+    "ordinal": 144,
+    "label": "#144 · patient",
+    "detail": "Polysemy #144 · 23 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=patient"
+  },
+  {
+    "id": "polysemy:insist",
+    "type": "polysemy",
+    "ordinal": 145,
+    "label": "#145 · insist",
+    "detail": "Polysemy #145 · 17 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=insist"
+  },
+  {
+    "id": "polysemy:once",
+    "type": "polysemy",
+    "ordinal": 146,
+    "label": "#146 · once",
+    "detail": "Polysemy #146 · 27 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=once"
+  },
+  {
+    "id": "polysemy:listen",
+    "type": "polysemy",
+    "ordinal": 147,
+    "label": "#147 · listen",
+    "detail": "Polysemy #147 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=listen"
+  },
+  {
+    "id": "polysemy:big",
+    "type": "polysemy",
+    "ordinal": 148,
+    "label": "#148 · big",
+    "detail": "Polysemy #148 · 33 meanings · 81 questions",
+    "url": "polysemy-lab.html?module=big"
+  },
+  {
+    "id": "polysemy:bit",
+    "type": "polysemy",
+    "ordinal": 149,
+    "label": "#149 · bit",
+    "detail": "Polysemy #149 · 24 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=bit"
+  },
+  {
+    "id": "polysemy:powerful",
+    "type": "polysemy",
+    "ordinal": 150,
+    "label": "#150 · powerful",
+    "detail": "Polysemy #150 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=powerful"
+  },
+  {
+    "id": "polysemy:just",
+    "type": "polysemy",
+    "ordinal": 151,
+    "label": "#151 · just",
+    "detail": "Polysemy #151 · 26 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=just"
+  },
+  {
+    "id": "polysemy:build",
+    "type": "polysemy",
+    "ordinal": 152,
+    "label": "#152 · build",
+    "detail": "Polysemy #152 · 34 meanings · 69 questions",
+    "url": "polysemy-lab.html?module=build"
+  },
+  {
+    "id": "polysemy:normal",
+    "type": "polysemy",
+    "ordinal": 153,
+    "label": "#153 · normal",
+    "detail": "Polysemy #153 · 29 meanings · 80 questions",
+    "url": "polysemy-lab.html?module=normal"
+  },
+  {
+    "id": "polysemy:soft",
+    "type": "polysemy",
+    "ordinal": 154,
+    "label": "#154 · soft",
+    "detail": "Polysemy #154 · 37 meanings · 94 questions",
+    "url": "polysemy-lab.html?module=soft"
+  },
+  {
+    "id": "polysemy:funny",
+    "type": "polysemy",
+    "ordinal": 155,
+    "label": "#155 · funny",
+    "detail": "Polysemy #155 · 19 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=funny"
+  },
+  {
+    "id": "polysemy:mother",
+    "type": "polysemy",
+    "ordinal": 156,
+    "label": "#156 · mother",
+    "detail": "Polysemy #156 · 22 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=mother"
+  },
+  {
+    "id": "polysemy:energy",
+    "type": "polysemy",
+    "ordinal": 157,
+    "label": "#157 · energy",
+    "detail": "Polysemy #157 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=energy"
+  },
+  {
+    "id": "polysemy:win",
+    "type": "polysemy",
+    "ordinal": 158,
+    "label": "#158 · win",
+    "detail": "Polysemy #158 · 31 meanings · 88 questions",
+    "url": "polysemy-lab.html?module=win"
+  },
+  {
+    "id": "polysemy:spot",
+    "type": "polysemy",
+    "ordinal": 159,
+    "label": "#159 · spot",
+    "detail": "Polysemy #159 · 27 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=spot"
+  },
+  {
+    "id": "polysemy:break",
+    "type": "polysemy",
+    "ordinal": 160,
+    "label": "#160 · break",
+    "detail": "Polysemy #160 · 42 meanings · 93 questions",
+    "url": "polysemy-lab.html?module=break"
+  },
+  {
+    "id": "polysemy:trust",
+    "type": "polysemy",
+    "ordinal": 161,
+    "label": "#161 · trust",
+    "detail": "Polysemy #161 · 29 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=trust"
+  },
+  {
+    "id": "polysemy:change",
+    "type": "polysemy",
+    "ordinal": 162,
+    "label": "#162 · change",
+    "detail": "Polysemy #162 · 50 meanings · 100 questions",
+    "url": "polysemy-lab.html?module=change"
+  },
+  {
+    "id": "polysemy:top",
+    "type": "polysemy",
+    "ordinal": 163,
+    "label": "#163 · top",
+    "detail": "Polysemy #163 · 30 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=top"
+  },
+  {
+    "id": "polysemy:remember",
+    "type": "polysemy",
+    "ordinal": 164,
+    "label": "#164 · remember",
+    "detail": "Polysemy #164 · 24 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=remember"
+  },
+  {
+    "id": "polysemy:sentence",
+    "type": "polysemy",
+    "ordinal": 165,
+    "label": "#165 · sentence",
+    "detail": "Polysemy #165 · 27 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=sentence"
+  },
+  {
+    "id": "polysemy:radio",
+    "type": "polysemy",
+    "ordinal": 166,
+    "label": "#166 · radio",
+    "detail": "Polysemy #166 · 5 meanings · 11 questions",
+    "url": "polysemy-lab.html?module=radio"
+  },
+  {
+    "id": "polysemy:switch",
+    "type": "polysemy",
+    "ordinal": 167,
+    "label": "#167 · switch",
+    "detail": "Polysemy #167 · 30 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=switch"
+  },
+  {
+    "id": "polysemy:exchange",
+    "type": "polysemy",
+    "ordinal": 168,
+    "label": "#168 · exchange",
+    "detail": "Polysemy #168 · 10 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=exchange"
+  },
+  {
+    "id": "polysemy:right",
+    "type": "polysemy",
+    "ordinal": 169,
+    "label": "#169 · right",
+    "detail": "Polysemy #169 · 46 meanings · 92 questions",
+    "url": "polysemy-lab.html?module=right"
+  },
+  {
+    "id": "polysemy:forget",
+    "type": "polysemy",
+    "ordinal": 170,
+    "label": "#170 · forget",
+    "detail": "Polysemy #170 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=forget"
+  },
+  {
+    "id": "polysemy:stop",
+    "type": "polysemy",
+    "ordinal": 171,
+    "label": "#171 · stop",
+    "detail": "Polysemy #171 · 36 meanings · 72 questions",
+    "url": "polysemy-lab.html?module=stop"
+  },
+  {
+    "id": "polysemy:tear",
+    "type": "polysemy",
+    "ordinal": 172,
+    "label": "#172 · tear",
+    "detail": "Polysemy #172 · 35 meanings · 70 questions",
+    "url": "polysemy-lab.html?module=tear"
+  },
+  {
+    "id": "polysemy:book",
+    "type": "polysemy",
+    "ordinal": 173,
+    "label": "#173 · book",
+    "detail": "Polysemy #173 · 12 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=book"
+  },
+  {
+    "id": "polysemy:seed",
+    "type": "polysemy",
+    "ordinal": 174,
+    "label": "#174 · seed",
+    "detail": "Polysemy #174 · 28 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=seed"
+  },
+  {
+    "id": "polysemy:film",
+    "type": "polysemy",
+    "ordinal": 175,
+    "label": "#175 · film",
+    "detail": "Polysemy #175 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=film"
+  },
+  {
+    "id": "polysemy:hear",
+    "type": "polysemy",
+    "ordinal": 176,
+    "label": "#176 · hear",
+    "detail": "Polysemy #176 · 34 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=hear"
+  },
+  {
+    "id": "polysemy:moment",
+    "type": "polysemy",
+    "ordinal": 177,
+    "label": "#177 · moment",
+    "detail": "Polysemy #177 · 28 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=moment"
+  },
+  {
+    "id": "polysemy:past",
+    "type": "polysemy",
+    "ordinal": 178,
+    "label": "#178 · past",
+    "detail": "Polysemy #178 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=past"
+  },
+  {
+    "id": "polysemy:volume",
+    "type": "polysemy",
+    "ordinal": 179,
+    "label": "#179 · volume",
+    "detail": "Polysemy #179 · 19 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=volume"
+  },
+  {
+    "id": "polysemy:doubt",
+    "type": "polysemy",
+    "ordinal": 180,
+    "label": "#180 · doubt",
+    "detail": "Polysemy #180 · 27 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=doubt"
+  },
+  {
+    "id": "polysemy:texture",
+    "type": "polysemy",
+    "ordinal": 181,
+    "label": "#181 · texture",
+    "detail": "Polysemy #181 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=texture"
+  },
+  {
+    "id": "polysemy:trap",
+    "type": "polysemy",
+    "ordinal": 182,
+    "label": "#182 · trap",
+    "detail": "Polysemy #182 · 26 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=trap"
+  },
+  {
+    "id": "polysemy:future",
+    "type": "polysemy",
+    "ordinal": 183,
+    "label": "#183 · future",
+    "detail": "Polysemy #183 · 32 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=future"
+  },
+  {
+    "id": "polysemy:scene",
+    "type": "polysemy",
+    "ordinal": 184,
+    "label": "#184 · scene",
+    "detail": "Polysemy #184 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=scene"
+  },
+  {
+    "id": "polysemy:meaning",
+    "type": "polysemy",
+    "ordinal": 185,
+    "label": "#185 · meaning",
+    "detail": "Polysemy #185 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=meaning"
+  },
+  {
+    "id": "polysemy:little",
+    "type": "polysemy",
+    "ordinal": 186,
+    "label": "#186 · little",
+    "detail": "Polysemy #186 · 26 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=little"
+  },
+  {
+    "id": "polysemy:random",
+    "type": "polysemy",
+    "ordinal": 187,
+    "label": "#187 · random",
+    "detail": "Polysemy #187 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=random"
+  },
+  {
+    "id": "polysemy:window",
+    "type": "polysemy",
+    "ordinal": 188,
+    "label": "#188 · window",
+    "detail": "Polysemy #188 · 21 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=window"
+  },
+  {
+    "id": "polysemy:copy",
+    "type": "polysemy",
+    "ordinal": 189,
+    "label": "#189 · copy",
+    "detail": "Polysemy #189 · 29 meanings · 76 questions",
+    "url": "polysemy-lab.html?module=copy"
+  },
+  {
+    "id": "polysemy:adventure",
+    "type": "polysemy",
+    "ordinal": 190,
+    "label": "#190 · adventure",
+    "detail": "Polysemy #190 · 17 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=adventure"
+  },
+  {
+    "id": "polysemy:come",
+    "type": "polysemy",
+    "ordinal": 191,
+    "label": "#191 · come",
+    "detail": "Polysemy #191 · 12 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=come"
+  },
+  {
+    "id": "polysemy:find",
+    "type": "polysemy",
+    "ordinal": 192,
+    "label": "#192 · find",
+    "detail": "Polysemy #192 · 28 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=find"
+  },
+  {
+    "id": "polysemy:direction",
+    "type": "polysemy",
+    "ordinal": 193,
+    "label": "#193 · direction",
+    "detail": "Polysemy #193 · 32 meanings · 74 questions",
+    "url": "polysemy-lab.html?module=direction"
+  },
+  {
+    "id": "polysemy:thing",
+    "type": "polysemy",
+    "ordinal": 194,
+    "label": "#194 · thing",
+    "detail": "Polysemy #194 · 12 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=thing"
+  },
+  {
+    "id": "polysemy:air",
+    "type": "polysemy",
+    "ordinal": 195,
+    "label": "#195 · air",
+    "detail": "Polysemy #195 · 30 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=air"
+  },
+  {
+    "id": "polysemy:better",
+    "type": "polysemy",
+    "ordinal": 196,
+    "label": "#196 · better",
+    "detail": "Polysemy #196 · 31 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=better"
+  },
+  {
+    "id": "polysemy:detail",
+    "type": "polysemy",
+    "ordinal": 197,
+    "label": "#197 · detail",
+    "detail": "Polysemy #197 · 8 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=detail"
+  },
+  {
+    "id": "polysemy:zone",
+    "type": "polysemy",
+    "ordinal": 198,
+    "label": "#198 · zone",
+    "detail": "Polysemy #198 · 28 meanings · 56 questions",
+    "url": "polysemy-lab.html?module=zone"
+  },
+  {
+    "id": "polysemy:straight",
+    "type": "polysemy",
+    "ordinal": 199,
+    "label": "#199 · straight",
+    "detail": "Polysemy #199 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=straight"
+  },
+  {
+    "id": "polysemy:step",
+    "type": "polysemy",
+    "ordinal": 200,
+    "label": "#200 · step",
+    "detail": "Polysemy #200 · 33 meanings · 66 questions",
+    "url": "polysemy-lab.html?module=step"
+  },
+  {
+    "id": "polysemy:okay",
+    "type": "polysemy",
+    "ordinal": 201,
+    "label": "#201 · okay",
+    "detail": "Polysemy #201 · 25 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=okay"
+  },
+  {
+    "id": "polysemy:plant",
+    "type": "polysemy",
+    "ordinal": 202,
+    "label": "#202 · plant",
+    "detail": "Polysemy #202 · 29 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=plant"
+  },
+  {
+    "id": "polysemy:stand",
+    "type": "polysemy",
+    "ordinal": 203,
+    "label": "#203 · stand",
+    "detail": "Polysemy #203 · 19 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=stand"
+  },
+  {
+    "id": "polysemy:retire",
+    "type": "polysemy",
+    "ordinal": 204,
+    "label": "#204 · retire",
+    "detail": "Polysemy #204 · 13 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=retire"
+  },
+  {
+    "id": "polysemy:former",
+    "type": "polysemy",
+    "ordinal": 205,
+    "label": "#205 · former",
+    "detail": "Polysemy #205 · 3 meanings · 7 questions",
+    "url": "polysemy-lab.html?module=former"
+  },
+  {
+    "id": "polysemy:silent",
+    "type": "polysemy",
+    "ordinal": 206,
+    "label": "#206 · silent",
+    "detail": "Polysemy #206 · 31 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=silent"
+  },
+  {
+    "id": "polysemy:wrong",
+    "type": "polysemy",
+    "ordinal": 207,
+    "label": "#207 · wrong",
+    "detail": "Polysemy #207 · 32 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=wrong"
+  },
+  {
+    "id": "polysemy:light",
+    "type": "polysemy",
+    "ordinal": 208,
+    "label": "#208 · light",
+    "detail": "Polysemy #208 · 46 meanings · 89 questions",
+    "url": "polysemy-lab.html?module=light"
+  },
+  {
+    "id": "polysemy:head",
+    "type": "polysemy",
+    "ordinal": 209,
+    "label": "#209 · head",
+    "detail": "Polysemy #209 · 49 meanings · 98 questions",
+    "url": "polysemy-lab.html?module=head"
+  },
+  {
+    "id": "polysemy:wear",
+    "type": "polysemy",
+    "ordinal": 210,
+    "label": "#210 · wear",
+    "detail": "Polysemy #210 · 36 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=wear"
+  },
+  {
+    "id": "polysemy:tend",
+    "type": "polysemy",
+    "ordinal": 211,
+    "label": "#211 · tend",
+    "detail": "Polysemy #211 · 21 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=tend"
+  },
+  {
+    "id": "polysemy:active",
+    "type": "polysemy",
+    "ordinal": 212,
+    "label": "#212 · active",
+    "detail": "Polysemy #212 · 28 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=active"
+  },
+  {
+    "id": "polysemy:potential",
+    "type": "polysemy",
+    "ordinal": 213,
+    "label": "#213 · potential",
+    "detail": "Polysemy #213 · 29 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=potential"
+  },
+  {
+    "id": "polysemy:speed",
+    "type": "polysemy",
+    "ordinal": 214,
+    "label": "#214 · speed",
+    "detail": "Polysemy #214 · 25 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=speed"
+  },
+  {
+    "id": "polysemy:eye",
+    "type": "polysemy",
+    "ordinal": 215,
+    "label": "#215 · eye",
+    "detail": "Polysemy #215 · 39 meanings · 78 questions",
+    "url": "polysemy-lab.html?module=eye"
+  },
+  {
+    "id": "polysemy:lightning",
+    "type": "polysemy",
+    "ordinal": 216,
+    "label": "#216 · lightning",
+    "detail": "Polysemy #216 · 17 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=lightning"
+  },
+  {
+    "id": "polysemy:sharp",
+    "type": "polysemy",
+    "ordinal": 217,
+    "label": "#217 · sharp",
+    "detail": "Polysemy #217 · 38 meanings · 76 questions",
+    "url": "polysemy-lab.html?module=sharp"
+  },
+  {
+    "id": "polysemy:talk",
+    "type": "polysemy",
+    "ordinal": 218,
+    "label": "#218 · talk",
+    "detail": "Polysemy #218 · 41 meanings · 73 questions",
+    "url": "polysemy-lab.html?module=talk"
+  },
+  {
+    "id": "polysemy:contagious",
+    "type": "polysemy",
+    "ordinal": 219,
+    "label": "#219 · contagious",
+    "detail": "Polysemy #219 · 15 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=contagious"
+  },
+  {
+    "id": "polysemy:reach",
+    "type": "polysemy",
+    "ordinal": 220,
+    "label": "#220 · reach",
+    "detail": "Polysemy #220 · 25 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=reach"
+  },
+  {
+    "id": "polysemy:ask",
+    "type": "polysemy",
+    "ordinal": 221,
+    "label": "#221 · ask",
+    "detail": "Polysemy #221 · 24 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=ask"
+  },
+  {
+    "id": "polysemy:centre",
+    "type": "polysemy",
+    "ordinal": 222,
+    "label": "#222 · centre",
+    "detail": "Polysemy #222 · 24 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=centre"
+  },
+  {
+    "id": "polysemy:standard",
+    "type": "polysemy",
+    "ordinal": 223,
+    "label": "#223 · standard",
+    "detail": "Polysemy #223 · 17 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=standard"
+  },
+  {
+    "id": "polysemy:high",
+    "type": "polysemy",
+    "ordinal": 224,
+    "label": "#224 · high",
+    "detail": "Polysemy #224 · 25 meanings · 91 questions",
+    "url": "polysemy-lab.html?module=high"
+  },
+  {
+    "id": "polysemy:rescue",
+    "type": "polysemy",
+    "ordinal": 225,
+    "label": "#225 · rescue",
+    "detail": "Polysemy #225 · 15 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=rescue"
+  },
+  {
+    "id": "polysemy:confidence",
+    "type": "polysemy",
+    "ordinal": 226,
+    "label": "#226 · confidence",
+    "detail": "Polysemy #226 · 22 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=confidence"
+  },
+  {
+    "id": "polysemy:jungle",
+    "type": "polysemy",
+    "ordinal": 227,
+    "label": "#227 · jungle",
+    "detail": "Polysemy #227 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=jungle"
+  },
+  {
+    "id": "polysemy:genuine",
+    "type": "polysemy",
+    "ordinal": 228,
+    "label": "#228 · genuine",
+    "detail": "Polysemy #228 · 22 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=genuine"
+  },
+  {
+    "id": "polysemy:gather",
+    "type": "polysemy",
+    "ordinal": 229,
+    "label": "#229 · gather",
+    "detail": "Polysemy #229 · 26 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=gather"
+  },
+  {
+    "id": "polysemy:turn",
+    "type": "polysemy",
+    "ordinal": 230,
+    "label": "#230 · turn",
+    "detail": "Polysemy #230 · 35 meanings · 75 questions",
+    "url": "polysemy-lab.html?module=turn"
+  },
+  {
+    "id": "polysemy:pass",
+    "type": "polysemy",
+    "ordinal": 231,
+    "label": "#231 · pass",
+    "detail": "Polysemy #231 · 39 meanings · 91 questions",
+    "url": "polysemy-lab.html?module=pass"
+  },
+  {
+    "id": "polysemy:class",
+    "type": "polysemy",
+    "ordinal": 233,
+    "label": "#233 · class",
+    "detail": "Polysemy #233 · 24 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=class"
+  },
+  {
+    "id": "polysemy:end",
+    "type": "polysemy",
+    "ordinal": 234,
+    "label": "#234 · end",
+    "detail": "Polysemy #234 · 31 meanings · 83 questions",
+    "url": "polysemy-lab.html?module=end"
+  },
+  {
+    "id": "polysemy:echo",
+    "type": "polysemy",
+    "ordinal": 235,
+    "label": "#235 · echo",
+    "detail": "Polysemy #235 · 14 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=echo"
+  },
+  {
+    "id": "polysemy:space",
+    "type": "polysemy",
+    "ordinal": 236,
+    "label": "#236 · space",
+    "detail": "Polysemy #236 · 25 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=space"
+  },
+  {
+    "id": "polysemy:station",
+    "type": "polysemy",
+    "ordinal": 237,
+    "label": "#237 · station",
+    "detail": "Polysemy #237 · 20 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=station"
+  },
+  {
+    "id": "polysemy:meet",
+    "type": "polysemy",
+    "ordinal": 238,
+    "label": "#238 · meet",
+    "detail": "Polysemy #238 · 30 meanings · 69 questions",
+    "url": "polysemy-lab.html?module=meet"
+  },
+  {
+    "id": "polysemy:room",
+    "type": "polysemy",
+    "ordinal": 239,
+    "label": "#239 · room",
+    "detail": "Polysemy #239 · 19 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=room"
+  },
+  {
+    "id": "polysemy:school",
+    "type": "polysemy",
+    "ordinal": 240,
+    "label": "#240 · school",
+    "detail": "Polysemy #240 · 23 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=school"
+  },
+  {
+    "id": "polysemy:minute",
+    "type": "polysemy",
+    "ordinal": 241,
+    "label": "#241 · minute",
+    "detail": "Polysemy #241 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=minute"
+  },
+  {
+    "id": "polysemy:second",
+    "type": "polysemy",
+    "ordinal": 242,
+    "label": "#242 · second",
+    "detail": "Polysemy #242 · 28 meanings · 72 questions",
+    "url": "polysemy-lab.html?module=second"
+  },
+  {
+    "id": "polysemy:influence",
+    "type": "polysemy",
+    "ordinal": 243,
+    "label": "#243 · influence",
+    "detail": "Polysemy #243 · 29 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=influence"
+  },
+  {
+    "id": "polysemy:whole",
+    "type": "polysemy",
+    "ordinal": 244,
+    "label": "#244 · whole",
+    "detail": "Polysemy #244 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=whole"
+  },
+  {
+    "id": "polysemy:rocket",
+    "type": "polysemy",
+    "ordinal": 245,
+    "label": "#245 · rocket",
+    "detail": "Polysemy #245 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=rocket"
+  },
+  {
+    "id": "polysemy:notebook",
+    "type": "polysemy",
+    "ordinal": 246,
+    "label": "#246 · notebook",
+    "detail": "Polysemy #246 · 8 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=notebook"
+  },
+  {
+    "id": "polysemy:want",
+    "type": "polysemy",
+    "ordinal": 247,
+    "label": "#247 · want",
+    "detail": "Polysemy #247 · 19 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=want"
+  },
+  {
+    "id": "polysemy:paper",
+    "type": "polysemy",
+    "ordinal": 248,
+    "label": "#248 · paper",
+    "detail": "Polysemy #248 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=paper"
+  },
+  {
+    "id": "polysemy:become",
+    "type": "polysemy",
+    "ordinal": 249,
+    "label": "#249 · become",
+    "detail": "Polysemy #249 · 13 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=become"
+  },
+  {
+    "id": "polysemy:fold",
+    "type": "polysemy",
+    "ordinal": 250,
+    "label": "#250 · fold",
+    "detail": "Polysemy #250 · 26 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=fold"
+  },
+  {
+    "id": "polysemy:quick",
+    "type": "polysemy",
+    "ordinal": 251,
+    "label": "#251 · quick",
+    "detail": "Polysemy #251 · 22 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=quick"
+  },
+  {
+    "id": "polysemy:draw",
+    "type": "polysemy",
+    "ordinal": 252,
+    "label": "#252 · draw",
+    "detail": "Polysemy #252 · 28 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=draw"
+  },
+  {
+    "id": "polysemy:play",
+    "type": "polysemy",
+    "ordinal": 253,
+    "label": "#253 · play",
+    "detail": "Polysemy #253 · 39 meanings · 81 questions",
+    "url": "polysemy-lab.html?module=play"
+  },
+  {
+    "id": "polysemy:help",
+    "type": "polysemy",
+    "ordinal": 254,
+    "label": "#254 · help",
+    "detail": "Polysemy #254 · 27 meanings · 73 questions",
+    "url": "polysemy-lab.html?module=help"
+  },
+  {
+    "id": "polysemy:will",
+    "type": "polysemy",
+    "ordinal": 255,
+    "label": "#255 · will",
+    "detail": "Polysemy #255 · 31 meanings · 71 questions",
+    "url": "polysemy-lab.html?module=will"
+  },
+  {
+    "id": "polysemy:can",
+    "type": "polysemy",
+    "ordinal": 256,
+    "label": "#256 · can",
+    "detail": "Polysemy #256 · 36 meanings · 87 questions",
+    "url": "polysemy-lab.html?module=can"
+  },
+  {
+    "id": "polysemy:while",
+    "type": "polysemy",
+    "ordinal": 257,
+    "label": "#257 · while",
+    "detail": "Polysemy #257 · 18 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=while"
+  },
+  {
+    "id": "polysemy:hit",
+    "type": "polysemy",
+    "ordinal": 258,
+    "label": "#258 · hit",
+    "detail": "Polysemy #258 · 39 meanings · 77 questions",
+    "url": "polysemy-lab.html?module=hit"
+  },
+  {
+    "id": "polysemy:lift",
+    "type": "polysemy",
+    "ordinal": 259,
+    "label": "#259 · lift",
+    "detail": "Polysemy #259 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=lift"
+  },
+  {
+    "id": "polysemy:enjoy",
+    "type": "polysemy",
+    "ordinal": 260,
+    "label": "#260 · enjoy",
+    "detail": "Polysemy #260 · 18 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=enjoy"
+  },
+  {
+    "id": "polysemy:character",
+    "type": "polysemy",
+    "ordinal": 261,
+    "label": "#261 · character",
+    "detail": "Polysemy #261 · 38 meanings · 76 questions",
+    "url": "polysemy-lab.html?module=character"
+  },
+  {
+    "id": "polysemy:open",
+    "type": "polysemy",
+    "ordinal": 262,
+    "label": "#262 · open",
+    "detail": "Polysemy #262 · 37 meanings · 81 questions",
+    "url": "polysemy-lab.html?module=open"
+  },
+  {
+    "id": "polysemy:alive",
+    "type": "polysemy",
+    "ordinal": 263,
+    "label": "#263 · alive",
+    "detail": "Polysemy #263 · 8 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=alive"
+  },
+  {
+    "id": "polysemy:hope",
+    "type": "polysemy",
+    "ordinal": 264,
+    "label": "#264 · hope",
+    "detail": "Polysemy #264 · 17 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=hope"
+  },
+  {
+    "id": "polysemy:run",
+    "type": "polysemy",
+    "ordinal": 265,
+    "label": "#265 · run",
+    "detail": "Polysemy #265 · 14 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=run"
+  },
+  {
+    "id": "polysemy:chase",
+    "type": "polysemy",
+    "ordinal": 266,
+    "label": "#266 · chase",
+    "detail": "Polysemy #266 · 22 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=chase"
+  },
+  {
+    "id": "polysemy:charm",
+    "type": "polysemy",
+    "ordinal": 267,
+    "label": "#267 · charm",
+    "detail": "Polysemy #267 · 21 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=charm"
+  },
+  {
+    "id": "polysemy:pay",
+    "type": "polysemy",
+    "ordinal": 268,
+    "label": "#268 · pay",
+    "detail": "Polysemy #268 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=pay"
+  },
+  {
+    "id": "polysemy:leave",
+    "type": "polysemy",
+    "ordinal": 269,
+    "label": "#269 · leave",
+    "detail": "Polysemy #269 · 33 meanings · 69 questions",
+    "url": "polysemy-lab.html?module=leave"
+  },
+  {
+    "id": "polysemy:story",
+    "type": "polysemy",
+    "ordinal": 270,
+    "label": "#270 · story",
+    "detail": "Polysemy #270 · 14 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=story"
+  },
+  {
+    "id": "polysemy:walk",
+    "type": "polysemy",
+    "ordinal": 271,
+    "label": "#271 · walk",
+    "detail": "Polysemy #271 · 11 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=walk"
+  },
+  {
+    "id": "polysemy:lesson",
+    "type": "polysemy",
+    "ordinal": 272,
+    "label": "#272 · lesson",
+    "detail": "Polysemy #272 · 20 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=lesson"
+  },
+  {
+    "id": "polysemy:away",
+    "type": "polysemy",
+    "ordinal": 273,
+    "label": "#273 · away",
+    "detail": "Polysemy #273 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=away"
+  },
+  {
+    "id": "polysemy:new",
+    "type": "polysemy",
+    "ordinal": 274,
+    "label": "#274 · new",
+    "detail": "Polysemy #274 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=new"
+  },
+  {
+    "id": "polysemy:ability",
+    "type": "polysemy",
+    "ordinal": 275,
+    "label": "#275 · ability",
+    "detail": "Polysemy #275 · 22 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=ability"
+  },
+  {
+    "id": "polysemy:difficult",
+    "type": "polysemy",
+    "ordinal": 276,
+    "label": "#276 · difficult",
+    "detail": "Polysemy #276 · 24 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=difficult"
+  },
+  {
+    "id": "polysemy:tall",
+    "type": "polysemy",
+    "ordinal": 277,
+    "label": "#277 · tall",
+    "detail": "Polysemy #277 · 10 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=tall"
+  },
+  {
+    "id": "polysemy:thin",
+    "type": "polysemy",
+    "ordinal": 278,
+    "label": "#278 · thin",
+    "detail": "Polysemy #278 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=thin"
+  },
+  {
+    "id": "polysemy:organise",
+    "type": "polysemy",
+    "ordinal": 279,
+    "label": "#279 · organise",
+    "detail": "Polysemy #279 · 20 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=organise"
+  },
+  {
+    "id": "polysemy:treat",
+    "type": "polysemy",
+    "ordinal": 280,
+    "label": "#280 · treat",
+    "detail": "Polysemy #280 · 22 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=treat"
+  },
+  {
+    "id": "polysemy:club",
+    "type": "polysemy",
+    "ordinal": 281,
+    "label": "#281 · club",
+    "detail": "Polysemy #281 · 21 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=club"
+  },
+  {
+    "id": "polysemy:good",
+    "type": "polysemy",
+    "ordinal": 282,
+    "label": "#282 · good",
+    "detail": "Polysemy #282 · 26 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=good"
+  },
+  {
+    "id": "polysemy:free",
+    "type": "polysemy",
+    "ordinal": 283,
+    "label": "#283 · free",
+    "detail": "Polysemy #283 · 15 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=free"
+  },
+  {
+    "id": "polysemy:fact",
+    "type": "polysemy",
+    "ordinal": 284,
+    "label": "#284 · fact",
+    "detail": "Polysemy #284 · 26 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=fact"
+  },
+  {
+    "id": "polysemy:age",
+    "type": "polysemy",
+    "ordinal": 285,
+    "label": "#285 · age",
+    "detail": "Polysemy #285 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=age"
+  },
+  {
+    "id": "polysemy:trade",
+    "type": "polysemy",
+    "ordinal": 286,
+    "label": "#286 · trade",
+    "detail": "Polysemy #286 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=trade"
+  },
+  {
+    "id": "polysemy:dry",
+    "type": "polysemy",
+    "ordinal": 287,
+    "label": "#287 · dry",
+    "detail": "Polysemy #287 · 27 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=dry"
+  },
+  {
+    "id": "polysemy:expect",
+    "type": "polysemy",
+    "ordinal": 288,
+    "label": "#288 · expect",
+    "detail": "Polysemy #288 · 23 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=expect"
+  },
+  {
+    "id": "polysemy:name",
+    "type": "polysemy",
+    "ordinal": 289,
+    "label": "#289 · name",
+    "detail": "Polysemy #289 · 31 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=name"
+  },
+  {
+    "id": "polysemy:date",
+    "type": "polysemy",
+    "ordinal": 290,
+    "label": "#290 · date",
+    "detail": "Polysemy #290 · 44 meanings · 85 questions",
+    "url": "polysemy-lab.html?module=date"
+  },
+  {
+    "id": "polysemy:glass",
+    "type": "polysemy",
+    "ordinal": 291,
+    "label": "#291 · glass",
+    "detail": "Polysemy #291 · 22 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=glass"
+  },
+  {
+    "id": "polysemy:dark",
+    "type": "polysemy",
+    "ordinal": 292,
+    "label": "#292 · dark",
+    "detail": "Polysemy #292 · 24 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=dark"
+  },
+  {
+    "id": "polysemy:exam",
+    "type": "polysemy",
+    "ordinal": 293,
+    "label": "#293 · exam",
+    "detail": "Polysemy #293 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=exam"
+  },
+  {
+    "id": "polysemy:agent",
+    "type": "polysemy",
+    "ordinal": 294,
+    "label": "#294 · agent",
+    "detail": "Polysemy #294 · 11 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=agent"
+  },
+  {
+    "id": "polysemy:quite",
+    "type": "polysemy",
+    "ordinal": 295,
+    "label": "#295 · quite",
+    "detail": "Polysemy #295 · 13 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=quite"
+  },
+  {
+    "id": "polysemy:plan",
+    "type": "polysemy",
+    "ordinal": 296,
+    "label": "#296 · plan",
+    "detail": "Polysemy #296 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=plan"
+  },
+  {
+    "id": "polysemy:sense",
+    "type": "polysemy",
+    "ordinal": 297,
+    "label": "#297 · sense",
+    "detail": "Polysemy #297 · 14 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=sense"
+  },
+  {
+    "id": "polysemy:mean",
+    "type": "polysemy",
+    "ordinal": 298,
+    "label": "#298 · mean",
+    "detail": "Polysemy #298 · 44 meanings · 77 questions",
+    "url": "polysemy-lab.html?module=mean"
+  },
+  {
+    "id": "polysemy:read",
+    "type": "polysemy",
+    "ordinal": 299,
+    "label": "#299 · read",
+    "detail": "Polysemy #299 · 23 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=read"
+  },
+  {
+    "id": "polysemy:cup",
+    "type": "polysemy",
+    "ordinal": 300,
+    "label": "#300 · cup",
+    "detail": "Polysemy #300 · 19 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=cup"
+  },
+  {
+    "id": "polysemy:green",
+    "type": "polysemy",
+    "ordinal": 301,
+    "label": "#301 · green",
+    "detail": "Polysemy #301 · 26 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=green"
+  },
+  {
+    "id": "polysemy:angle",
+    "type": "polysemy",
+    "ordinal": 302,
+    "label": "#302 · angle",
+    "detail": "Polysemy #302 · 23 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=angle"
+  },
+  {
+    "id": "polysemy:torch",
+    "type": "polysemy",
+    "ordinal": 303,
+    "label": "#303 · torch",
+    "detail": "Polysemy #303 · 33 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=torch"
+  },
+  {
+    "id": "polysemy:weak",
+    "type": "polysemy",
+    "ordinal": 304,
+    "label": "#304 · weak",
+    "detail": "Polysemy #304 · 24 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=weak"
+  },
+  {
+    "id": "polysemy:firm",
+    "type": "polysemy",
+    "ordinal": 305,
+    "label": "#305 · firm",
+    "detail": "Polysemy #305 · 23 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=firm"
+  },
+  {
+    "id": "polysemy:join",
+    "type": "polysemy",
+    "ordinal": 306,
+    "label": "#306 · join",
+    "detail": "Polysemy #306 · 7 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=join"
+  },
+  {
+    "id": "polysemy:park",
+    "type": "polysemy",
+    "ordinal": 307,
+    "label": "#307 · park",
+    "detail": "Polysemy #307 · 8 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=park"
+  },
+  {
+    "id": "polysemy:much",
+    "type": "polysemy",
+    "ordinal": 308,
+    "label": "#308 · much",
+    "detail": "Polysemy #308 · 20 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=much"
+  },
+  {
+    "id": "polysemy:ride",
+    "type": "polysemy",
+    "ordinal": 309,
+    "label": "#309 · ride",
+    "detail": "Polysemy #309 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=ride"
+  },
+  {
+    "id": "polysemy:that",
+    "type": "polysemy",
+    "ordinal": 310,
+    "label": "#310 · that",
+    "detail": "Polysemy #310 · 17 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=that"
+  },
+  {
+    "id": "polysemy:attend",
+    "type": "polysemy",
+    "ordinal": 311,
+    "label": "#311 · attend",
+    "detail": "Polysemy #311 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=attend"
+  },
+  {
+    "id": "polysemy:chat",
+    "type": "polysemy",
+    "ordinal": 312,
+    "label": "#312 · chat",
+    "detail": "Polysemy #312 · 7 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=chat"
+  },
+  {
+    "id": "polysemy:easy",
+    "type": "polysemy",
+    "ordinal": 313,
+    "label": "#313 · easy",
+    "detail": "Polysemy #313 · 14 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=easy"
+  },
+  {
+    "id": "polysemy:flat",
+    "type": "polysemy",
+    "ordinal": 314,
+    "label": "#314 · flat",
+    "detail": "Polysemy #314 · 11 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=flat"
+  },
+  {
+    "id": "polysemy:honest",
+    "type": "polysemy",
+    "ordinal": 315,
+    "label": "#315 · honest",
+    "detail": "Polysemy #315 · 21 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=honest"
+  },
+  {
+    "id": "polysemy:rush",
+    "type": "polysemy",
+    "ordinal": 316,
+    "label": "#316 · rush",
+    "detail": "Polysemy #316 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=rush"
+  },
+  {
+    "id": "polysemy:door",
+    "type": "polysemy",
+    "ordinal": 317,
+    "label": "#317 · door",
+    "detail": "Polysemy #317 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=door"
+  },
+  {
+    "id": "polysemy:question",
+    "type": "polysemy",
+    "ordinal": 318,
+    "label": "#318 · question",
+    "detail": "Polysemy #318 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=question"
+  },
+  {
+    "id": "polysemy:serious",
+    "type": "polysemy",
+    "ordinal": 319,
+    "label": "#319 · serious",
+    "detail": "Polysemy #319 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=serious"
+  },
+  {
+    "id": "polysemy:fresh",
+    "type": "polysemy",
+    "ordinal": 320,
+    "label": "#320 · fresh",
+    "detail": "Polysemy #320 · 33 meanings · 67 questions",
+    "url": "polysemy-lab.html?module=fresh"
+  },
+  {
+    "id": "polysemy:mute",
+    "type": "polysemy",
+    "ordinal": 321,
+    "label": "#321 · mute",
+    "detail": "Polysemy #321 · 12 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=mute"
+  },
+  {
+    "id": "polysemy:use",
+    "type": "polysemy",
+    "ordinal": 322,
+    "label": "#322 · use",
+    "detail": "Polysemy #322 · 26 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=use"
+  },
+  {
+    "id": "polysemy:when",
+    "type": "polysemy",
+    "ordinal": 323,
+    "label": "#323 · when",
+    "detail": "Polysemy #323 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=when"
+  },
+  {
+    "id": "polysemy:few",
+    "type": "polysemy",
+    "ordinal": 324,
+    "label": "#324 · few",
+    "detail": "Polysemy #324 · 15 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=few"
+  },
+  {
+    "id": "polysemy:day",
+    "type": "polysemy",
+    "ordinal": 325,
+    "label": "#325 · day",
+    "detail": "Polysemy #325 · 18 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=day"
+  },
+  {
+    "id": "polysemy:get",
+    "type": "polysemy",
+    "ordinal": 326,
+    "label": "#326 · get",
+    "detail": "Polysemy #326 · 33 meanings · 71 questions",
+    "url": "polysemy-lab.html?module=get"
+  },
+  {
+    "id": "polysemy:then",
+    "type": "polysemy",
+    "ordinal": 327,
+    "label": "#327 · then",
+    "detail": "Polysemy #327 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=then"
+  },
+  {
+    "id": "polysemy:so",
+    "type": "polysemy",
+    "ordinal": 328,
+    "label": "#328 · so",
+    "detail": "Polysemy #328 · 22 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=so"
+  },
+  {
+    "id": "polysemy:too",
+    "type": "polysemy",
+    "ordinal": 329,
+    "label": "#329 · too",
+    "detail": "Polysemy #329 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=too"
+  },
+  {
+    "id": "polysemy:do",
+    "type": "polysemy",
+    "ordinal": 330,
+    "label": "#330 · do",
+    "detail": "Polysemy #330 · 38 meanings · 83 questions",
+    "url": "polysemy-lab.html?module=do"
+  },
+  {
+    "id": "polysemy:give",
+    "type": "polysemy",
+    "ordinal": 331,
+    "label": "#331 · give",
+    "detail": "Polysemy #331 · 44 meanings · 81 questions",
+    "url": "polysemy-lab.html?module=give"
+  },
+  {
+    "id": "polysemy:formal",
+    "type": "polysemy",
+    "ordinal": 332,
+    "label": "#332 · formal",
+    "detail": "Polysemy #332 · 32 meanings · 67 questions",
+    "url": "polysemy-lab.html?module=formal"
+  },
+  {
+    "id": "polysemy:public",
+    "type": "polysemy",
+    "ordinal": 333,
+    "label": "#333 · public",
+    "detail": "Polysemy #333 · 38 meanings · 75 questions",
+    "url": "polysemy-lab.html?module=public"
+  },
+  {
+    "id": "polysemy:race",
+    "type": "polysemy",
+    "ordinal": 334,
+    "label": "#334 · race",
+    "detail": "Polysemy #334 · 24 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=race"
+  },
+  {
+    "id": "polysemy:blank",
+    "type": "polysemy",
+    "ordinal": 335,
+    "label": "#335 · blank",
+    "detail": "Polysemy #335 · 28 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=blank"
+  },
+  {
+    "id": "polysemy:keep",
+    "type": "polysemy",
+    "ordinal": 336,
+    "label": "#336 · keep",
+    "detail": "Polysemy #336 · 46 meanings · 107 questions",
+    "url": "polysemy-lab.html?module=keep"
+  },
+  {
+    "id": "polysemy:handle",
+    "type": "polysemy",
+    "ordinal": 337,
+    "label": "#337 · handle",
+    "detail": "Polysemy #337 · 34 meanings · 79 questions",
+    "url": "polysemy-lab.html?module=handle"
+  },
+  {
+    "id": "polysemy:script",
+    "type": "polysemy",
+    "ordinal": 338,
+    "label": "#338 · script",
+    "detail": "Polysemy #338 · 23 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=script"
+  },
+  {
+    "id": "polysemy:side",
+    "type": "polysemy",
+    "ordinal": 339,
+    "label": "#339 · side",
+    "detail": "Polysemy #339 · 26 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=side"
+  },
+  {
+    "id": "polysemy:spirit",
+    "type": "polysemy",
+    "ordinal": 340,
+    "label": "#340 · spirit",
+    "detail": "Polysemy #340 · 24 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=spirit"
+  },
+  {
+    "id": "polysemy:sort",
+    "type": "polysemy",
+    "ordinal": 341,
+    "label": "#341 · sort",
+    "detail": "Polysemy #341 · 24 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=sort"
+  },
+  {
+    "id": "polysemy:physical",
+    "type": "polysemy",
+    "ordinal": 342,
+    "label": "#342 · physical",
+    "detail": "Polysemy #342 · 28 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=physical"
+  },
+  {
+    "id": "polysemy:dominate",
+    "type": "polysemy",
+    "ordinal": 343,
+    "label": "#343 · dominate",
+    "detail": "Polysemy #343 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=dominate"
+  },
+  {
+    "id": "polysemy:conversation",
+    "type": "polysemy",
+    "ordinal": 344,
+    "label": "#344 · conversation",
+    "detail": "Polysemy #344 · 17 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=conversation"
+  },
+  {
+    "id": "polysemy:wide",
+    "type": "polysemy",
+    "ordinal": 346,
+    "label": "#346 · wide",
+    "detail": "Polysemy #346 · 28 meanings · 71 questions",
+    "url": "polysemy-lab.html?module=wide"
+  },
+  {
+    "id": "polysemy:shade",
+    "type": "polysemy",
+    "ordinal": 347,
+    "label": "#347 · shade",
+    "detail": "Polysemy #347 · 20 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=shade"
+  },
+  {
+    "id": "polysemy:steady",
+    "type": "polysemy",
+    "ordinal": 348,
+    "label": "#348 · steady",
+    "detail": "Polysemy #348 · 23 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=steady"
+  },
+  {
+    "id": "polysemy:admire",
+    "type": "polysemy",
+    "ordinal": 349,
+    "label": "#349 · admire",
+    "detail": "Polysemy #349 · 15 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=admire"
+  },
+  {
+    "id": "polysemy:take",
+    "type": "polysemy",
+    "ordinal": 350,
+    "label": "#350 · take",
+    "detail": "Polysemy #350 · 39 meanings · 81 questions",
+    "url": "polysemy-lab.html?module=take"
+  },
+  {
+    "id": "polysemy:tire",
+    "type": "polysemy",
+    "ordinal": 351,
+    "label": "#351 · tire",
+    "detail": "Polysemy #351 · 18 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=tire"
+  },
+  {
+    "id": "polysemy:incredible",
+    "type": "polysemy",
+    "ordinal": 353,
+    "label": "#353 · incredible",
+    "detail": "Polysemy #353 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=incredible"
+  },
+  {
+    "id": "polysemy:bridge",
+    "type": "polysemy",
+    "ordinal": 354,
+    "label": "#354 · bridge",
+    "detail": "Polysemy #354 · 27 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=bridge"
+  },
+  {
+    "id": "polysemy:realise",
+    "type": "polysemy",
+    "ordinal": 355,
+    "label": "#355 · realise",
+    "detail": "Polysemy #355 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=realise"
+  },
+  {
+    "id": "polysemy:burst",
+    "type": "polysemy",
+    "ordinal": 356,
+    "label": "#356 · burst",
+    "detail": "Polysemy #356 · 27 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=burst"
+  },
+  {
+    "id": "polysemy:dim",
+    "type": "polysemy",
+    "ordinal": 357,
+    "label": "#357 · dim",
+    "detail": "Polysemy #357 · 26 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=dim"
+  },
+  {
+    "id": "polysemy:communication",
+    "type": "polysemy",
+    "ordinal": 358,
+    "label": "#358 · communication",
+    "detail": "Polysemy #358 · 36 meanings · 72 questions",
+    "url": "polysemy-lab.html?module=communication"
+  },
+  {
+    "id": "polysemy:route",
+    "type": "polysemy",
+    "ordinal": 359,
+    "label": "#359 · route",
+    "detail": "Polysemy #359 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=route"
+  },
+  {
+    "id": "polysemy:creep",
+    "type": "polysemy",
+    "ordinal": 360,
+    "label": "#360 · creep",
+    "detail": "Polysemy #360 · 27 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=creep"
+  },
+  {
+    "id": "polysemy:generous",
+    "type": "polysemy",
+    "ordinal": 361,
+    "label": "#361 · generous",
+    "detail": "Polysemy #361 · 21 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=generous"
+  },
+  {
+    "id": "polysemy:history",
+    "type": "polysemy",
+    "ordinal": 362,
+    "label": "#362 · history",
+    "detail": "Polysemy #362 · 12 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=history"
+  },
+  {
+    "id": "polysemy:shape",
+    "type": "polysemy",
+    "ordinal": 363,
+    "label": "#363 · shape",
+    "detail": "Polysemy #363 · 34 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=shape"
+  },
+  {
+    "id": "polysemy:textbook",
+    "type": "polysemy",
+    "ordinal": 364,
+    "label": "#364 · textbook",
+    "detail": "Polysemy #364 · 4 meanings · 9 questions",
+    "url": "polysemy-lab.html?module=textbook"
+  },
+  {
+    "id": "polysemy:adult",
+    "type": "polysemy",
+    "ordinal": 365,
+    "label": "#365 · adult",
+    "detail": "Polysemy #365 · 18 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=adult"
+  },
+  {
+    "id": "polysemy:study",
+    "type": "polysemy",
+    "ordinal": 366,
+    "label": "#366 · study",
+    "detail": "Polysemy #366 · 26 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=study"
+  },
+  {
+    "id": "polysemy:teach",
+    "type": "polysemy",
+    "ordinal": 367,
+    "label": "#367 · teach",
+    "detail": "Polysemy #367 · 25 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=teach"
+  },
+  {
+    "id": "polysemy:curious",
+    "type": "polysemy",
+    "ordinal": 368,
+    "label": "#368 · curious",
+    "detail": "Polysemy #368 · 22 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=curious"
+  },
+  {
+    "id": "polysemy:idea",
+    "type": "polysemy",
+    "ordinal": 369,
+    "label": "#369 · idea",
+    "detail": "Polysemy #369 · 29 meanings · 66 questions",
+    "url": "polysemy-lab.html?module=idea"
+  },
+  {
+    "id": "polysemy:shy",
+    "type": "polysemy",
+    "ordinal": 370,
+    "label": "#370 · shy",
+    "detail": "Polysemy #370 · 17 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=shy"
+  },
+  {
+    "id": "polysemy:english",
+    "type": "polysemy",
+    "ordinal": 371,
+    "label": "#371 · english",
+    "detail": "Polysemy #371 · 27 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=english"
+  },
+  {
+    "id": "polysemy:secondary",
+    "type": "polysemy",
+    "ordinal": 372,
+    "label": "#372 · secondary",
+    "detail": "Polysemy #372 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=secondary"
+  },
+  {
+    "id": "polysemy:form",
+    "type": "polysemy",
+    "ordinal": 373,
+    "label": "#373 · form",
+    "detail": "Polysemy #373 · 24 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=form"
+  },
+  {
+    "id": "polysemy:subject",
+    "type": "polysemy",
+    "ordinal": 374,
+    "label": "#374 · subject",
+    "detail": "Polysemy #374 · 22 meanings · 56 questions",
+    "url": "polysemy-lab.html?module=subject"
+  },
+  {
+    "id": "polysemy:junior",
+    "type": "polysemy",
+    "ordinal": 375,
+    "label": "#375 · junior",
+    "detail": "Polysemy #375 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=junior"
+  },
+  {
+    "id": "polysemy:rare",
+    "type": "polysemy",
+    "ordinal": 376,
+    "label": "#376 · rare",
+    "detail": "Polysemy #376 · 18 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=rare"
+  },
+  {
+    "id": "polysemy:atmosphere",
+    "type": "polysemy",
+    "ordinal": 377,
+    "label": "#377 · atmosphere",
+    "detail": "Polysemy #377 · 18 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=atmosphere"
+  },
+  {
+    "id": "polysemy:such",
+    "type": "polysemy",
+    "ordinal": 378,
+    "label": "#378 · such",
+    "detail": "Polysemy #378 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=such"
+  },
+  {
+    "id": "polysemy:even",
+    "type": "polysemy",
+    "ordinal": 379,
+    "label": "#379 · even",
+    "detail": "Polysemy #379 · 20 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=even"
+  },
+  {
+    "id": "polysemy:frighten",
+    "type": "polysemy",
+    "ordinal": 380,
+    "label": "#380 · frighten",
+    "detail": "Polysemy #380 · 17 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=frighten"
+  },
+  {
+    "id": "polysemy:pot",
+    "type": "polysemy",
+    "ordinal": 381,
+    "label": "#381 · pot",
+    "detail": "Polysemy #381 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=pot"
+  },
+  {
+    "id": "polysemy:answer",
+    "type": "polysemy",
+    "ordinal": 382,
+    "label": "#382 · answer",
+    "detail": "Polysemy #382 · 21 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=answer"
+  },
+  {
+    "id": "polysemy:note",
+    "type": "polysemy",
+    "ordinal": 383,
+    "label": "#383 · note",
+    "detail": "Polysemy #383 · 15 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=note"
+  },
+  {
+    "id": "polysemy:recess",
+    "type": "polysemy",
+    "ordinal": 384,
+    "label": "#384 · recess",
+    "detail": "Polysemy #384 · 10 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=recess"
+  },
+  {
+    "id": "polysemy:trouble",
+    "type": "polysemy",
+    "ordinal": 385,
+    "label": "#385 · trouble",
+    "detail": "Polysemy #385 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=trouble"
+  },
+  {
+    "id": "polysemy:thumb",
+    "type": "polysemy",
+    "ordinal": 386,
+    "label": "#386 · thumb",
+    "detail": "Polysemy #386 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=thumb"
+  },
+  {
+    "id": "polysemy:approach",
+    "type": "polysemy",
+    "ordinal": 387,
+    "label": "#387 · approach",
+    "detail": "Polysemy #387 · 22 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=approach"
+  },
+  {
+    "id": "polysemy:count",
+    "type": "polysemy",
+    "ordinal": 388,
+    "label": "#388 · count",
+    "detail": "Polysemy #388 · 23 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=count"
+  },
+  {
+    "id": "polysemy:command",
+    "type": "polysemy",
+    "ordinal": 389,
+    "label": "#389 · command",
+    "detail": "Polysemy #389 · 22 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=command"
+  },
+  {
+    "id": "polysemy:before",
+    "type": "polysemy",
+    "ordinal": 390,
+    "label": "#390 · before",
+    "detail": "Polysemy #390 · 17 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=before"
+  },
+  {
+    "id": "polysemy:however",
+    "type": "polysemy",
+    "ordinal": 391,
+    "label": "#391 · however",
+    "detail": "Polysemy #391 · 10 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=however"
+  },
+  {
+    "id": "polysemy:rose",
+    "type": "polysemy",
+    "ordinal": 392,
+    "label": "#392 · rose",
+    "detail": "Polysemy #392 · 16 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=rose"
+  },
+  {
+    "id": "polysemy:gift",
+    "type": "polysemy",
+    "ordinal": 393,
+    "label": "#393 · gift",
+    "detail": "Polysemy #393 · 24 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=gift"
+  },
+  {
+    "id": "polysemy:spring",
+    "type": "polysemy",
+    "ordinal": 394,
+    "label": "#394 · spring",
+    "detail": "Polysemy #394 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=spring"
+  },
+  {
+    "id": "polysemy:miss",
+    "type": "polysemy",
+    "ordinal": 395,
+    "label": "#395 · miss",
+    "detail": "Polysemy #395 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=miss"
+  },
+  {
+    "id": "polysemy:fair",
+    "type": "polysemy",
+    "ordinal": 396,
+    "label": "#396 · fair",
+    "detail": "Polysemy #396 · 42 meanings · 85 questions",
+    "url": "polysemy-lab.html?module=fair"
+  },
+  {
+    "id": "polysemy:wall",
+    "type": "polysemy",
+    "ordinal": 397,
+    "label": "#397 · wall",
+    "detail": "Polysemy #397 · 28 meanings · 56 questions",
+    "url": "polysemy-lab.html?module=wall"
+  },
+  {
+    "id": "polysemy:share",
+    "type": "polysemy",
+    "ordinal": 398,
+    "label": "#398 · share",
+    "detail": "Polysemy #398 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=share"
+  },
+  {
+    "id": "polysemy:chance",
+    "type": "polysemy",
+    "ordinal": 399,
+    "label": "#399 · chance",
+    "detail": "Polysemy #399 · 12 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=chance"
+  },
+  {
+    "id": "polysemy:house",
+    "type": "polysemy",
+    "ordinal": 400,
+    "label": "#400 · house",
+    "detail": "Polysemy #400 · 29 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=house"
+  },
+  {
+    "id": "polysemy:item",
+    "type": "polysemy",
+    "ordinal": 401,
+    "label": "#401 · item",
+    "detail": "Polysemy #401 · 18 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=item"
+  },
+  {
+    "id": "polysemy:job",
+    "type": "polysemy",
+    "ordinal": 402,
+    "label": "#402 · job",
+    "detail": "Polysemy #402 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=job"
+  },
+  {
+    "id": "polysemy:deal",
+    "type": "polysemy",
+    "ordinal": 403,
+    "label": "#403 · deal",
+    "detail": "Polysemy #403 · 11 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=deal"
+  },
+  {
+    "id": "polysemy:slow",
+    "type": "polysemy",
+    "ordinal": 404,
+    "label": "#404 · slow",
+    "detail": "Polysemy #404 · 23 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=slow"
+  },
+  {
+    "id": "polysemy:pen",
+    "type": "polysemy",
+    "ordinal": 405,
+    "label": "#405 · pen",
+    "detail": "Polysemy #405 · 24 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=pen"
+  },
+  {
+    "id": "polysemy:proper",
+    "type": "polysemy",
+    "ordinal": 406,
+    "label": "#406 · proper",
+    "detail": "Polysemy #406 · 12 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=proper"
+  },
+  {
+    "id": "polysemy:fill",
+    "type": "polysemy",
+    "ordinal": 407,
+    "label": "#407 · fill",
+    "detail": "Polysemy #407 · 28 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=fill"
+  },
+  {
+    "id": "polysemy:year",
+    "type": "polysemy",
+    "ordinal": 408,
+    "label": "#408 · year",
+    "detail": "Polysemy #408 · 31 meanings · 74 questions",
+    "url": "polysemy-lab.html?module=year"
+  },
+  {
+    "id": "polysemy:finish",
+    "type": "polysemy",
+    "ordinal": 409,
+    "label": "#409 · finish",
+    "detail": "Polysemy #409 · 24 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=finish"
+  },
+  {
+    "id": "polysemy:earth",
+    "type": "polysemy",
+    "ordinal": 410,
+    "label": "#410 · earth",
+    "detail": "Polysemy #410 · 19 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=earth"
+  },
+  {
+    "id": "polysemy:set",
+    "type": "polysemy",
+    "ordinal": 411,
+    "label": "#411 · set",
+    "detail": "Polysemy #411 · 63 meanings · 118 questions",
+    "url": "polysemy-lab.html?module=set"
+  },
+  {
+    "id": "polysemy:ticket",
+    "type": "polysemy",
+    "ordinal": 412,
+    "label": "#412 · ticket",
+    "detail": "Polysemy #412 · 22 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=ticket"
+  },
+  {
+    "id": "polysemy:chain",
+    "type": "polysemy",
+    "ordinal": 413,
+    "label": "#413 · chain",
+    "detail": "Polysemy #413 · 11 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=chain"
+  },
+  {
+    "id": "polysemy:ready",
+    "type": "polysemy",
+    "ordinal": 414,
+    "label": "#414 · ready",
+    "detail": "Polysemy #414 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=ready"
+  },
+  {
+    "id": "polysemy:clean",
+    "type": "polysemy",
+    "ordinal": 415,
+    "label": "#415 · clean",
+    "detail": "Polysemy #415 · 28 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=clean"
+  },
+  {
+    "id": "polysemy:care",
+    "type": "polysemy",
+    "ordinal": 416,
+    "label": "#416 · care",
+    "detail": "Polysemy #416 · 23 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=care"
+  },
+  {
+    "id": "polysemy:surface",
+    "type": "polysemy",
+    "ordinal": 417,
+    "label": "#417 · surface",
+    "detail": "Polysemy #417 · 23 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=surface"
+  },
+  {
+    "id": "polysemy:gear",
+    "type": "polysemy",
+    "ordinal": 418,
+    "label": "#418 · gear",
+    "detail": "Polysemy #418 · 12 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=gear"
+  },
+  {
+    "id": "polysemy:happy",
+    "type": "polysemy",
+    "ordinal": 419,
+    "label": "#419 · happy",
+    "detail": "Polysemy #419 · 18 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=happy"
+  },
+  {
+    "id": "polysemy:excite",
+    "type": "polysemy",
+    "ordinal": 420,
+    "label": "#420 · excite",
+    "detail": "Polysemy #420 · 21 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=excite"
+  },
+  {
+    "id": "polysemy:type",
+    "type": "polysemy",
+    "ordinal": 421,
+    "label": "#421 · type",
+    "detail": "Polysemy #421 · 31 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=type"
+  },
+  {
+    "id": "polysemy:decide",
+    "type": "polysemy",
+    "ordinal": 422,
+    "label": "#422 · decide",
+    "detail": "Polysemy #422 · 28 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=decide"
+  },
+  {
+    "id": "polysemy:hand",
+    "type": "polysemy",
+    "ordinal": 423,
+    "label": "#423 · hand",
+    "detail": "Polysemy #423 · 70 meanings · 126 questions",
+    "url": "polysemy-lab.html?module=hand"
+  },
+  {
+    "id": "polysemy:sink",
+    "type": "polysemy",
+    "ordinal": 424,
+    "label": "#424 · sink",
+    "detail": "Polysemy #424 · 8 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=sink"
+  },
+  {
+    "id": "polysemy:box",
+    "type": "polysemy",
+    "ordinal": 425,
+    "label": "#425 · box",
+    "detail": "Polysemy #425 · 33 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=box"
+  },
+  {
+    "id": "polysemy:add",
+    "type": "polysemy",
+    "ordinal": 426,
+    "label": "#426 · add",
+    "detail": "Polysemy #426 · 22 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=add"
+  },
+  {
+    "id": "polysemy:weight",
+    "type": "polysemy",
+    "ordinal": 427,
+    "label": "#427 · weight",
+    "detail": "Polysemy #427 · 30 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=weight"
+  },
+  {
+    "id": "polysemy:colour",
+    "type": "polysemy",
+    "ordinal": 428,
+    "label": "#428 · colour",
+    "detail": "Polysemy #428 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=colour"
+  },
+  {
+    "id": "polysemy:solid",
+    "type": "polysemy",
+    "ordinal": 429,
+    "label": "#429 · solid",
+    "detail": "Polysemy #429 · 25 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=solid"
+  },
+  {
+    "id": "polysemy:ground",
+    "type": "polysemy",
+    "ordinal": 430,
+    "label": "#430 · ground",
+    "detail": "Polysemy #430 · 16 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=ground"
+  },
+  {
+    "id": "polysemy:page",
+    "type": "polysemy",
+    "ordinal": 431,
+    "label": "#431 · page",
+    "detail": "Polysemy #431 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=page"
+  },
+  {
+    "id": "polysemy:initial",
+    "type": "polysemy",
+    "ordinal": 432,
+    "label": "#432 · initial",
+    "detail": "Polysemy #432 · 15 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=initial"
+  },
+  {
+    "id": "polysemy:react",
+    "type": "polysemy",
+    "ordinal": 433,
+    "label": "#433 · react",
+    "detail": "Polysemy #433 · 7 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=react"
+  },
+  {
+    "id": "polysemy:save",
+    "type": "polysemy",
+    "ordinal": 434,
+    "label": "#434 · save",
+    "detail": "Polysemy #434 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=save"
+  },
+  {
+    "id": "polysemy:therapy",
+    "type": "polysemy",
+    "ordinal": 435,
+    "label": "#435 · therapy",
+    "detail": "Polysemy #435 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=therapy"
+  },
+  {
+    "id": "polysemy:chapter",
+    "type": "polysemy",
+    "ordinal": 436,
+    "label": "#436 · chapter",
+    "detail": "Polysemy #436 · 16 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=chapter"
+  },
+  {
+    "id": "polysemy:instant",
+    "type": "polysemy",
+    "ordinal": 437,
+    "label": "#437 · instant",
+    "detail": "Polysemy #437 · 10 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=instant"
+  },
+  {
+    "id": "polysemy:breathe",
+    "type": "polysemy",
+    "ordinal": 438,
+    "label": "#438 · breathe",
+    "detail": "Polysemy #438 · 16 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=breathe"
+  },
+  {
+    "id": "polysemy:mark",
+    "type": "polysemy",
+    "ordinal": 439,
+    "label": "#439 · mark",
+    "detail": "Polysemy #439 · 29 meanings · 71 questions",
+    "url": "polysemy-lab.html?module=mark"
+  },
+  {
+    "id": "polysemy:blue",
+    "type": "polysemy",
+    "ordinal": 440,
+    "label": "#440 · blue",
+    "detail": "Polysemy #440 · 14 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=blue"
+  },
+  {
+    "id": "polysemy:collection",
+    "type": "polysemy",
+    "ordinal": 441,
+    "label": "#441 · collection",
+    "detail": "Polysemy #441 · 23 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=collection"
+  },
+  {
+    "id": "polysemy:desk",
+    "type": "polysemy",
+    "ordinal": 442,
+    "label": "#442 · desk",
+    "detail": "Polysemy #442 · 18 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=desk"
+  },
+  {
+    "id": "polysemy:every",
+    "type": "polysemy",
+    "ordinal": 443,
+    "label": "#443 · every",
+    "detail": "Polysemy #443 · 17 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=every"
+  },
+  {
+    "id": "polysemy:opposite",
+    "type": "polysemy",
+    "ordinal": 444,
+    "label": "#444 · opposite",
+    "detail": "Polysemy #444 · 20 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=opposite"
+  },
+  {
+    "id": "polysemy:neck",
+    "type": "polysemy",
+    "ordinal": 445,
+    "label": "#445 · neck",
+    "detail": "Polysemy #445 · 23 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=neck"
+  },
+  {
+    "id": "polysemy:drain",
+    "type": "polysemy",
+    "ordinal": 446,
+    "label": "#446 · drain",
+    "detail": "Polysemy #446 · 26 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=drain"
+  },
+  {
+    "id": "polysemy:reflection",
+    "type": "polysemy",
+    "ordinal": 447,
+    "label": "#447 · reflection",
+    "detail": "Polysemy #447 · 16 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=reflection"
+  },
+  {
+    "id": "polysemy:pick",
+    "type": "polysemy",
+    "ordinal": 448,
+    "label": "#448 · pick",
+    "detail": "Polysemy #448 · 37 meanings · 76 questions",
+    "url": "polysemy-lab.html?module=pick"
+  },
+  {
+    "id": "polysemy:less",
+    "type": "polysemy",
+    "ordinal": 449,
+    "label": "#449 · less",
+    "detail": "Polysemy #449 · 23 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=less"
+  },
+  {
+    "id": "polysemy:bed",
+    "type": "polysemy",
+    "ordinal": 450,
+    "label": "#450 · bed",
+    "detail": "Polysemy #450 · 34 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=bed"
+  },
+  {
+    "id": "polysemy:nature",
+    "type": "polysemy",
+    "ordinal": 451,
+    "label": "#451 · nature",
+    "detail": "Polysemy #451 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=nature"
+  },
+  {
+    "id": "polysemy:picture",
+    "type": "polysemy",
+    "ordinal": 452,
+    "label": "#452 · picture",
+    "detail": "Polysemy #452 · 17 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=picture"
+  },
+  {
+    "id": "polysemy:mix",
+    "type": "polysemy",
+    "ordinal": 453,
+    "label": "#453 · mix",
+    "detail": "Polysemy #453 · 27 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=mix"
+  },
+  {
+    "id": "polysemy:survive",
+    "type": "polysemy",
+    "ordinal": 454,
+    "label": "#454 · survive",
+    "detail": "Polysemy #454 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=survive"
+  },
+  {
+    "id": "polysemy:tense",
+    "type": "polysemy",
+    "ordinal": 455,
+    "label": "#455 · tense",
+    "detail": "Polysemy #455 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=tense"
+  },
+  {
+    "id": "polysemy:labour",
+    "type": "polysemy",
+    "ordinal": 456,
+    "label": "#456 · labour",
+    "detail": "Polysemy #456 · 25 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=labour"
+  },
+  {
+    "id": "polysemy:condition",
+    "type": "polysemy",
+    "ordinal": 457,
+    "label": "#457 · condition",
+    "detail": "Polysemy #457 · 9 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=condition"
+  },
+  {
+    "id": "polysemy:edit",
+    "type": "polysemy",
+    "ordinal": 458,
+    "label": "#458 · edit",
+    "detail": "Polysemy #458 · 29 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=edit"
+  },
+  {
+    "id": "polysemy:slide",
+    "type": "polysemy",
+    "ordinal": 459,
+    "label": "#459 · slide",
+    "detail": "Polysemy #459 · 17 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=slide"
+  },
+  {
+    "id": "polysemy:order",
+    "type": "polysemy",
+    "ordinal": 460,
+    "label": "#460 · order",
+    "detail": "Polysemy #460 · 41 meanings · 89 questions",
+    "url": "polysemy-lab.html?module=order"
+  },
+  {
+    "id": "polysemy:wild",
+    "type": "polysemy",
+    "ordinal": 461,
+    "label": "#461 · wild",
+    "detail": "Polysemy #461 · 12 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=wild"
+  },
+  {
+    "id": "polysemy:cost",
+    "type": "polysemy",
+    "ordinal": 462,
+    "label": "#462 · cost",
+    "detail": "Polysemy #462 · 18 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=cost"
+  },
+  {
+    "id": "polysemy:fiction",
+    "type": "polysemy",
+    "ordinal": 463,
+    "label": "#463 · fiction",
+    "detail": "Polysemy #463 · 14 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=fiction"
+  },
+  {
+    "id": "polysemy:fantasy",
+    "type": "polysemy",
+    "ordinal": 464,
+    "label": "#464 · fantasy",
+    "detail": "Polysemy #464 · 18 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=fantasy"
+  },
+  {
+    "id": "polysemy:speaker",
+    "type": "polysemy",
+    "ordinal": 465,
+    "label": "#465 · speaker",
+    "detail": "Polysemy #465 · 21 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=speaker"
+  },
+  {
+    "id": "polysemy:classic",
+    "type": "polysemy",
+    "ordinal": 466,
+    "label": "#466 · classic",
+    "detail": "Polysemy #466 · 13 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=classic"
+  },
+  {
+    "id": "polysemy:original",
+    "type": "polysemy",
+    "ordinal": 467,
+    "label": "#467 · original",
+    "detail": "Polysemy #467 · 15 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=original"
+  },
+  {
+    "id": "polysemy:drama",
+    "type": "polysemy",
+    "ordinal": 468,
+    "label": "#468 · drama",
+    "detail": "Polysemy #468 · 27 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=drama"
+  },
+  {
+    "id": "polysemy:control",
+    "type": "polysemy",
+    "ordinal": 469,
+    "label": "#469 · control",
+    "detail": "Polysemy #469 · 34 meanings · 73 questions",
+    "url": "polysemy-lab.html?module=control"
+  },
+  {
+    "id": "polysemy:fortune",
+    "type": "polysemy",
+    "ordinal": 470,
+    "label": "#470 · fortune",
+    "detail": "Polysemy #470 · 17 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=fortune"
+  },
+  {
+    "id": "polysemy:version",
+    "type": "polysemy",
+    "ordinal": 471,
+    "label": "#471 · version",
+    "detail": "Polysemy #471 · 21 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=version"
+  },
+  {
+    "id": "polysemy:frustrate",
+    "type": "polysemy",
+    "ordinal": 472,
+    "label": "#472 · frustrate",
+    "detail": "Polysemy #472 · 22 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=frustrate"
+  },
+  {
+    "id": "polysemy:regular",
+    "type": "polysemy",
+    "ordinal": 473,
+    "label": "#473 · regular",
+    "detail": "Polysemy #473 · 10 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=regular"
+  },
+  {
+    "id": "polysemy:anything",
+    "type": "polysemy",
+    "ordinal": 474,
+    "label": "#474 · anything",
+    "detail": "Polysemy #474 · 16 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=anything"
+  },
+  {
+    "id": "polysemy:distant",
+    "type": "polysemy",
+    "ordinal": 475,
+    "label": "#475 · distant",
+    "detail": "Polysemy #475 · 21 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=distant"
+  },
+  {
+    "id": "polysemy:upload",
+    "type": "polysemy",
+    "ordinal": 476,
+    "label": "#476 · upload",
+    "detail": "Polysemy #476 · 22 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=upload"
+  },
+  {
+    "id": "polysemy:alone",
+    "type": "polysemy",
+    "ordinal": 477,
+    "label": "#477 · alone",
+    "detail": "Polysemy #477 · 8 meanings · 18 questions",
+    "url": "polysemy-lab.html?module=alone"
+  },
+  {
+    "id": "polysemy:afford",
+    "type": "polysemy",
+    "ordinal": 478,
+    "label": "#478 · afford",
+    "detail": "Polysemy #478 · 10 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=afford"
+  },
+  {
+    "id": "polysemy:unfold",
+    "type": "polysemy",
+    "ordinal": 479,
+    "label": "#479 · unfold",
+    "detail": "Polysemy #479 · 14 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=unfold"
+  },
+  {
+    "id": "polysemy:hold",
+    "type": "polysemy",
+    "ordinal": 480,
+    "label": "#480 · hold",
+    "detail": "Polysemy #480 · 34 meanings · 112 questions",
+    "url": "polysemy-lab.html?module=hold"
+  },
+  {
+    "id": "polysemy:country",
+    "type": "polysemy",
+    "ordinal": 481,
+    "label": "#481 · country",
+    "detail": "Polysemy #481 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=country"
+  },
+  {
+    "id": "polysemy:frame",
+    "type": "polysemy",
+    "ordinal": 482,
+    "label": "#482 · frame",
+    "detail": "Polysemy #482 · 20 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=frame"
+  },
+  {
+    "id": "polysemy:section",
+    "type": "polysemy",
+    "ordinal": 484,
+    "label": "#484 · section",
+    "detail": "Polysemy #484 · 25 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=section"
+  },
+  {
+    "id": "polysemy:develop",
+    "type": "polysemy",
+    "ordinal": 485,
+    "label": "#485 · develop",
+    "detail": "Polysemy #485 · 13 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=develop"
+  },
+  {
+    "id": "polysemy:cheap",
+    "type": "polysemy",
+    "ordinal": 486,
+    "label": "#486 · cheap",
+    "detail": "Polysemy #486 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=cheap"
+  },
+  {
+    "id": "polysemy:fail",
+    "type": "polysemy",
+    "ordinal": 487,
+    "label": "#487 · fail",
+    "detail": "Polysemy #487 · 30 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=fail"
+  },
+  {
+    "id": "polysemy:sting",
+    "type": "polysemy",
+    "ordinal": 488,
+    "label": "#488 · sting",
+    "detail": "Polysemy #488 · 25 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=sting"
+  },
+  {
+    "id": "polysemy:society",
+    "type": "polysemy",
+    "ordinal": 489,
+    "label": "#489 · society",
+    "detail": "Polysemy #489 · 10 meanings · 18 questions",
+    "url": "polysemy-lab.html?module=society"
+  },
+  {
+    "id": "polysemy:piece",
+    "type": "polysemy",
+    "ordinal": 490,
+    "label": "#490 · piece",
+    "detail": "Polysemy #490 · 17 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=piece"
+  },
+  {
+    "id": "polysemy:style",
+    "type": "polysemy",
+    "ordinal": 491,
+    "label": "#491 · style",
+    "detail": "Polysemy #491 · 28 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=style"
+  },
+  {
+    "id": "polysemy:publicly",
+    "type": "polysemy",
+    "ordinal": 492,
+    "label": "#492 · publicly",
+    "detail": "Polysemy #492 · 25 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=publicly"
+  },
+  {
+    "id": "polysemy:appeal",
+    "type": "polysemy",
+    "ordinal": 493,
+    "label": "#493 · appeal",
+    "detail": "Polysemy #493 · 11 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=appeal"
+  },
+  {
+    "id": "polysemy:worth",
+    "type": "polysemy",
+    "ordinal": 494,
+    "label": "#494 · worth",
+    "detail": "Polysemy #494 · 16 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=worth"
+  },
+  {
+    "id": "polysemy:novel",
+    "type": "polysemy",
+    "ordinal": 495,
+    "label": "#495 · novel",
+    "detail": "Polysemy #495 · 16 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=novel"
+  },
+  {
+    "id": "polysemy:knot",
+    "type": "polysemy",
+    "ordinal": 496,
+    "label": "#496 · knot",
+    "detail": "Polysemy #496 · 19 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=knot"
+  },
+  {
+    "id": "polysemy:progress",
+    "type": "polysemy",
+    "ordinal": 497,
+    "label": "#497 · progress",
+    "detail": "Polysemy #497 · 9 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=progress"
+  },
+  {
+    "id": "polysemy:function",
+    "type": "polysemy",
+    "ordinal": 498,
+    "label": "#498 · function",
+    "detail": "Polysemy #498 · 14 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=function"
+  },
+  {
+    "id": "polysemy:engage",
+    "type": "polysemy",
+    "ordinal": 499,
+    "label": "#499 · engage",
+    "detail": "Polysemy #499 · 28 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=engage"
+  },
+  {
+    "id": "polysemy:stomach",
+    "type": "polysemy",
+    "ordinal": 500,
+    "label": "#500 · stomach",
+    "detail": "Polysemy #500 · 19 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=stomach"
+  },
+  {
+    "id": "polysemy:belief",
+    "type": "polysemy",
+    "ordinal": 501,
+    "label": "#501 · belief",
+    "detail": "Polysemy #501 · 9 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=belief"
+  },
+  {
+    "id": "polysemy:magic",
+    "type": "polysemy",
+    "ordinal": 502,
+    "label": "#502 · magic",
+    "detail": "Polysemy #502 · 13 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=magic"
+  },
+  {
+    "id": "polysemy:heavy",
+    "type": "polysemy",
+    "ordinal": 503,
+    "label": "#503 · heavy",
+    "detail": "Polysemy #503 · 37 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=heavy"
+  },
+  {
+    "id": "polysemy:folder",
+    "type": "polysemy",
+    "ordinal": 504,
+    "label": "#504 · folder",
+    "detail": "Polysemy #504 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=folder"
+  },
+  {
+    "id": "polysemy:dive",
+    "type": "polysemy",
+    "ordinal": 505,
+    "label": "#505 · dive",
+    "detail": "Polysemy #505 · 10 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=dive"
+  },
+  {
+    "id": "polysemy:hang",
+    "type": "polysemy",
+    "ordinal": 506,
+    "label": "#506 · hang",
+    "detail": "Polysemy #506 · 13 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=hang"
+  },
+  {
+    "id": "polysemy:alley",
+    "type": "polysemy",
+    "ordinal": 507,
+    "label": "#507 · alley",
+    "detail": "Polysemy #507 · 12 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=alley"
+  },
+  {
+    "id": "polysemy:file",
+    "type": "polysemy",
+    "ordinal": 508,
+    "label": "#508 · file",
+    "detail": "Polysemy #508 · 38 meanings · 79 questions",
+    "url": "polysemy-lab.html?module=file"
+  },
+  {
+    "id": "polysemy:essay",
+    "type": "polysemy",
+    "ordinal": 509,
+    "label": "#509 · essay",
+    "detail": "Polysemy #509 · 9 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=essay"
+  },
+  {
+    "id": "polysemy:spark",
+    "type": "polysemy",
+    "ordinal": 510,
+    "label": "#510 · spark",
+    "detail": "Polysemy #510 · 15 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=spark"
+  },
+  {
+    "id": "polysemy:entertain",
+    "type": "polysemy",
+    "ordinal": 511,
+    "label": "#511 · entertain",
+    "detail": "Polysemy #511 · 19 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=entertain"
+  },
+  {
+    "id": "polysemy:sugar-coat",
+    "type": "polysemy",
+    "ordinal": 512,
+    "label": "#512 · sugar-coat",
+    "detail": "Polysemy #512 · 19 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=sugar-coat"
+  },
+  {
+    "id": "polysemy:dense",
+    "type": "polysemy",
+    "ordinal": 513,
+    "label": "#513 · dense",
+    "detail": "Polysemy #513 · 8 meanings · 18 questions",
+    "url": "polysemy-lab.html?module=dense"
+  },
+  {
+    "id": "polysemy:gentle",
+    "type": "polysemy",
+    "ordinal": 514,
+    "label": "#514 · gentle",
+    "detail": "Polysemy #514 · 11 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=gentle"
+  },
+  {
+    "id": "polysemy:explore",
+    "type": "polysemy",
+    "ordinal": 515,
+    "label": "#515 · explore",
+    "detail": "Polysemy #515 · 23 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=explore"
+  },
+  {
+    "id": "polysemy:excuse",
+    "type": "polysemy",
+    "ordinal": 516,
+    "label": "#516 · excuse",
+    "detail": "Polysemy #516 · 24 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=excuse"
+  },
+  {
+    "id": "polysemy:stimulate",
+    "type": "polysemy",
+    "ordinal": 517,
+    "label": "#517 · stimulate",
+    "detail": "Polysemy #517 · 8 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=stimulate"
+  },
+  {
+    "id": "polysemy:library",
+    "type": "polysemy",
+    "ordinal": 518,
+    "label": "#518 · library",
+    "detail": "Polysemy #518 · 13 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=library"
+  },
+  {
+    "id": "polysemy:admit",
+    "type": "polysemy",
+    "ordinal": 519,
+    "label": "#519 · admit",
+    "detail": "Polysemy #519 · 23 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=admit"
+  },
+  {
+    "id": "polysemy:suspect",
+    "type": "polysemy",
+    "ordinal": 520,
+    "label": "#520 · suspect",
+    "detail": "Polysemy #520 · 9 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=suspect"
+  },
+  {
+    "id": "polysemy:documentary",
+    "type": "polysemy",
+    "ordinal": 521,
+    "label": "#521 · documentary",
+    "detail": "Polysemy #521 · 17 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=documentary"
+  },
+  {
+    "id": "polysemy:insight",
+    "type": "polysemy",
+    "ordinal": 522,
+    "label": "#522 · insight",
+    "detail": "Polysemy #522 · 8 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=insight"
+  },
+  {
+    "id": "polysemy:online",
+    "type": "polysemy",
+    "ordinal": 523,
+    "label": "#523 · online",
+    "detail": "Polysemy #523 · 13 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=online"
+  },
+  {
+    "id": "polysemy:philosophy",
+    "type": "polysemy",
+    "ordinal": 524,
+    "label": "#524 · philosophy",
+    "detail": "Polysemy #524 · 17 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=philosophy"
+  },
+  {
+    "id": "polysemy:jump",
+    "type": "polysemy",
+    "ordinal": 525,
+    "label": "#525 · jump",
+    "detail": "Polysemy #525 · 36 meanings · 82 questions",
+    "url": "polysemy-lab.html?module=jump"
+  },
+  {
+    "id": "polysemy:reputation",
+    "type": "polysemy",
+    "ordinal": 526,
+    "label": "#526 · reputation",
+    "detail": "Polysemy #526 · 9 meanings · 18 questions",
+    "url": "polysemy-lab.html?module=reputation"
+  },
+  {
+    "id": "polysemy:purple",
+    "type": "polysemy",
+    "ordinal": 527,
+    "label": "#527 · purple",
+    "detail": "Polysemy #527 · 9 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=purple"
+  },
+  {
+    "id": "polysemy:base",
+    "type": "polysemy",
+    "ordinal": 528,
+    "label": "#528 · base",
+    "detail": "Polysemy #528 · 36 meanings · 72 questions",
+    "url": "polysemy-lab.html?module=base"
+  },
+  {
+    "id": "polysemy:conclusion",
+    "type": "polysemy",
+    "ordinal": 529,
+    "label": "#529 · conclusion",
+    "detail": "Polysemy #529 · 28 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=conclusion"
+  },
+  {
+    "id": "polysemy:recommend",
+    "type": "polysemy",
+    "ordinal": 530,
+    "label": "#530 · recommend",
+    "detail": "Polysemy #530 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=recommend"
+  },
+  {
+    "id": "polysemy:subtle",
+    "type": "polysemy",
+    "ordinal": 531,
+    "label": "#531 · subtle",
+    "detail": "Polysemy #531 · 11 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=subtle"
+  },
+  {
+    "id": "polysemy:death",
+    "type": "polysemy",
+    "ordinal": 532,
+    "label": "#532 · death",
+    "detail": "Polysemy #532 · 60 meanings · 116 questions",
+    "url": "polysemy-lab.html?module=death"
+  },
+  {
+    "id": "polysemy:embarrass",
+    "type": "polysemy",
+    "ordinal": 533,
+    "label": "#533 · embarrass",
+    "detail": "Polysemy #533 · 21 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=embarrass"
+  },
+  {
+    "id": "polysemy:fall",
+    "type": "polysemy",
+    "ordinal": 534,
+    "label": "#534 · fall",
+    "detail": "Polysemy #534 · 11 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=fall"
+  },
+  {
+    "id": "polysemy:beauty",
+    "type": "polysemy",
+    "ordinal": 535,
+    "label": "#535 · beauty",
+    "detail": "Polysemy #535 · 15 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=beauty"
+  },
+  {
+    "id": "polysemy:regret",
+    "type": "polysemy",
+    "ordinal": 536,
+    "label": "#536 · regret",
+    "detail": "Polysemy #536 · 18 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=regret"
+  },
+  {
+    "id": "polysemy:matter",
+    "type": "polysemy",
+    "ordinal": 537,
+    "label": "#537 · matter",
+    "detail": "Polysemy #537 · 30 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=matter"
+  },
+  {
+    "id": "polysemy:remind",
+    "type": "polysemy",
+    "ordinal": 538,
+    "label": "#538 · remind",
+    "detail": "Polysemy #538 · 20 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=remind"
+  },
+  {
+    "id": "polysemy:upset",
+    "type": "polysemy",
+    "ordinal": 539,
+    "label": "#539 · upset",
+    "detail": "Polysemy #539 · 20 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=upset"
+  },
+  {
+    "id": "polysemy:term",
+    "type": "polysemy",
+    "ordinal": 540,
+    "label": "#540 · term",
+    "detail": "Polysemy #540 · 11 meanings · 20 questions",
+    "url": "polysemy-lab.html?module=term"
+  },
+  {
+    "id": "polysemy:plot",
+    "type": "polysemy",
+    "ordinal": 541,
+    "label": "#541 · plot",
+    "detail": "Polysemy #541 · 28 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=plot"
+  },
+  {
+    "id": "polysemy:choose",
+    "type": "polysemy",
+    "ordinal": 542,
+    "label": "#542 · choose",
+    "detail": "Polysemy #542 · 16 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=choose"
+  },
+  {
+    "id": "polysemy:humane",
+    "type": "polysemy",
+    "ordinal": 543,
+    "label": "#543 · humane",
+    "detail": "Polysemy #543 · 25 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=humane"
+  },
+  {
+    "id": "polysemy:sincerity",
+    "type": "polysemy",
+    "ordinal": 544,
+    "label": "#544 · sincerity",
+    "detail": "Polysemy #544 · 23 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=sincerity"
+  },
+  {
+    "id": "polysemy:refuge",
+    "type": "polysemy",
+    "ordinal": 545,
+    "label": "#545 · refuge",
+    "detail": "Polysemy #545 · 5 meanings · 11 questions",
+    "url": "polysemy-lab.html?module=refuge"
+  },
+  {
+    "id": "polysemy:behind",
+    "type": "polysemy",
+    "ordinal": 546,
+    "label": "#546 · behind",
+    "detail": "Polysemy #546 · 32 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=behind"
+  },
+  {
+    "id": "polysemy:exterior",
+    "type": "polysemy",
+    "ordinal": 547,
+    "label": "#547 · exterior",
+    "detail": "Polysemy #547 · 5 meanings · 11 questions",
+    "url": "polysemy-lab.html?module=exterior"
+  },
+  {
+    "id": "polysemy:twist",
+    "type": "polysemy",
+    "ordinal": 548,
+    "label": "#548 · twist",
+    "detail": "Polysemy #548 · 28 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=twist"
+  },
+  {
+    "id": "polysemy:experience",
+    "type": "polysemy",
+    "ordinal": 549,
+    "label": "#549 · experience",
+    "detail": "Polysemy #549 · 30 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=experience"
+  },
+  {
+    "id": "polysemy:ceiling",
+    "type": "polysemy",
+    "ordinal": 550,
+    "label": "#550 · ceiling",
+    "detail": "Polysemy #550 · 5 meanings · 10 questions",
+    "url": "polysemy-lab.html?module=ceiling"
+  },
+  {
+    "id": "polysemy:lay",
+    "type": "polysemy",
+    "ordinal": 551,
+    "label": "#551 · lay",
+    "detail": "Polysemy #551 · 11 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=lay"
+  },
+  {
+    "id": "polysemy:nerve",
+    "type": "polysemy",
+    "ordinal": 552,
+    "label": "#552 · nerve",
+    "detail": "Polysemy #552 · 25 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=nerve"
+  },
+  {
+    "id": "polysemy:business",
+    "type": "polysemy",
+    "ordinal": 553,
+    "label": "#553 · business",
+    "detail": "Polysemy #553 · 21 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=business"
+  },
+  {
+    "id": "polysemy:wonder",
+    "type": "polysemy",
+    "ordinal": 554,
+    "label": "#554 · wonder",
+    "detail": "Polysemy #554 · 19 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=wonder"
+  },
+  {
+    "id": "polysemy:misunderstanding",
+    "type": "polysemy",
+    "ordinal": 555,
+    "label": "#555 · misunderstanding",
+    "detail": "Polysemy #555 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=misunderstanding"
+  },
+  {
+    "id": "polysemy:lifeless",
+    "type": "polysemy",
+    "ordinal": 556,
+    "label": "#556 · lifeless",
+    "detail": "Polysemy #556 · 7 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=lifeless"
+  },
+  {
+    "id": "polysemy:own",
+    "type": "polysemy",
+    "ordinal": 557,
+    "label": "#557 · own",
+    "detail": "Polysemy #557 · 26 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=own"
+  },
+  {
+    "id": "polysemy:smell",
+    "type": "polysemy",
+    "ordinal": 558,
+    "label": "#558 · smell",
+    "detail": "Polysemy #558 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=smell"
+  },
+  {
+    "id": "polysemy:drown",
+    "type": "polysemy",
+    "ordinal": 559,
+    "label": "#559 · drown",
+    "detail": "Polysemy #559 · 18 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=drown"
+  },
+  {
+    "id": "polysemy:pretend",
+    "type": "polysemy",
+    "ordinal": 560,
+    "label": "#560 · pretend",
+    "detail": "Polysemy #560 · 19 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=pretend"
+  },
+  {
+    "id": "polysemy:facility",
+    "type": "polysemy",
+    "ordinal": 561,
+    "label": "#561 · facility",
+    "detail": "Polysemy #561 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=facility"
+  },
+  {
+    "id": "polysemy:bread",
+    "type": "polysemy",
+    "ordinal": 562,
+    "label": "#562 · bread",
+    "detail": "Polysemy #562 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=bread"
+  },
+  {
+    "id": "polysemy:offer",
+    "type": "polysemy",
+    "ordinal": 563,
+    "label": "#563 · offer",
+    "detail": "Polysemy #563 · 20 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=offer"
+  },
+  {
+    "id": "polysemy:blame",
+    "type": "polysemy",
+    "ordinal": 564,
+    "label": "#564 · blame",
+    "detail": "Polysemy #564 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=blame"
   },
   {
     "id": "proverb:proverb-01",

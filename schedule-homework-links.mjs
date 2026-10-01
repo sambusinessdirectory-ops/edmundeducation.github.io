@@ -72,6 +72,22 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "common-expression", trigger: "Common Expression", label: "Common Expression", color: "#7b65c8" }),
   Object.freeze({ type: "listening", trigger: "IELTS Listening", label: "IELTS Listening", color: "#218e9b" }),
   Object.freeze({
+    type: "dse-reading-comprehension",
+    trigger: "DSE Reading Comprehension",
+    label: "DSE Reading Comprehension",
+    pickerTitle: "選擇 DSE Reading 閱讀理解練習",
+    pickerNoun: "DSE 閱讀理解練習",
+    color: "#176f67"
+  }),
+  Object.freeze({
+    type: "dse-listening",
+    trigger: "DSE Listening",
+    label: "DSE Listening",
+    pickerTitle: "選擇 DSE Listening 年份及 Task",
+    pickerNoun: "DSE 聆聽 Task",
+    color: "#218e9b"
+  }),
+  Object.freeze({
     type: "polysemy",
     trigger: "Polysemy",
     label: "Polysemy",
@@ -102,6 +118,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   speaking: Object.freeze(["/speaking-system.html"]),
   "sentence-structure": Object.freeze(["/sentence-structure.html"]),
   "reading-comprehension": Object.freeze(["/reading-comprehension.html"]),
+  "dse-reading-comprehension": Object.freeze(["/reading-comprehension.html"]),
   "reading-analysis": Object.freeze(["/ielts-reading-analysis.html"]),
   "video-class-series": Object.freeze(["/video-class.html"]),
   "video-class-video": Object.freeze(["/video-class.html"]),
@@ -116,6 +133,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
     "/common-expression-business-speaking.html"
   ]),
   listening: Object.freeze(["/listening-system.html"]),
+  "dse-listening": Object.freeze(["/listening-system.html"]),
   polysemy: Object.freeze(["/polysemy-lab.html"]),
   "native-english": Object.freeze(["/natural-english.html"]),
   "learning-portal": Object.freeze([
@@ -247,6 +265,15 @@ export function normalizeHomeworkResource(value) {
     type === "model-essay-download"
     && parsed.searchParams.get("catalog") !== "dse-writing-part-a"
   ) return null;
+  const article = parsed.searchParams.get("article") || "";
+  const section = parsed.searchParams.get("section") || "";
+  if (type === "reading-comprehension" && article.startsWith("dse-")) return null;
+  if (type === "dse-reading-comprehension" && (!article.startsWith("dse-") || id !== `${type}:${article}`)) return null;
+  if (type === "listening" && section !== "ielts") return null;
+  if (type === "dse-listening" && (
+    section !== "dse"
+    || id !== `${type}:dse-listening-${parsed.searchParams.get("year")}-task-${parsed.searchParams.get("task")}`
+  )) return null;
   return Object.freeze({ id, type, label, url });
 }
 
@@ -299,6 +326,19 @@ export function normalizeHomeworkHref(value) {
     if (!allowedModes?.has(mode)) return null;
     return `speaking-system.html?${parsed.searchParams.toString()}`;
   }
+  if (parsed.pathname === "/listening-system.html") {
+    const section = parsed.searchParams.get("section");
+    const expected = section === "ielts" ? ["section", "practice", "part"]
+      : section === "dse" ? ["section", "year", "task"] : [];
+    if (actualParameters.length !== 3 || expected.some((key) => !parsed.searchParams.get(key))
+      || actualParameters.some((key) => !expected.includes(key))) return null;
+    const first = Number(parsed.searchParams.get(section === "ielts" ? "practice" : "year"));
+    const second = Number(parsed.searchParams.get(section === "ielts" ? "part" : "task"));
+    if (!Number.isSafeInteger(first) || !Number.isSafeInteger(second) || second < 1 || second > 4) return null;
+    if (section === "ielts" && (first < 1 || first > 20)) return null;
+    if (section === "dse" && (first < 2012 || first > 2026)) return null;
+    return `listening-system.html?${parsed.searchParams.toString()}`;
+  }
   if (actualParameters.length !== expectedParameters.length) return null;
   if (expectedParameters.some((key) => !parsed.searchParams.get(key))) return null;
   if (actualParameters.some((key) => !expectedParameters.includes(key))) return null;
@@ -310,14 +350,7 @@ export function normalizeHomeworkHref(value) {
     if (!/^common-expression-\d+$/i.test(parsed.searchParams.get("lesson") || "")) return null;
   }
   if (parsed.pathname === "/reading-comprehension.html") {
-    if (!/^p[123]-\d{3}(?:-[a-z0-9]+)*$/i.test(parsed.searchParams.get("article") || "")) return null;
-  }
-  if (parsed.pathname === "/listening-system.html") {
-    const practice = Number(parsed.searchParams.get("practice"));
-    const part = Number(parsed.searchParams.get("part"));
-    if (parsed.searchParams.get("section") !== "ielts") return null;
-    if (!Number.isSafeInteger(practice) || practice < 1 || practice > 20) return null;
-    if (!Number.isSafeInteger(part) || part < 1 || part > 4) return null;
+    if (!/^(?:p[123]-\d{3}(?:-[a-z0-9]+)*|dse-20(?:1[2-9]|2[0-6])-(?:a|b1|b2))$/i.test(parsed.searchParams.get("article") || "")) return null;
   }
   if (["/polysemy-lab.html", "/natural-english.html"].includes(parsed.pathname)) {
     if (!/^[a-z0-9][a-z0-9-]{0,79}$/i.test(parsed.searchParams.get("module") || "")) return null;

@@ -4,7 +4,7 @@ The Schedule/Homework picker is generated from each learning system's authoritat
 
 ## Existing automatic sources
 
-`tools/generate-homework-resource-catalog.mjs` reads the Flashcard, Writing Practice, Writing Submission, IELTS Reading Analysis, Speaking, Sentence Structure, Idiom, Proverb, Phrasal Verb, all six Common Expression, IELTS Listening, Polysemy, and Native English catalogues. It also reads every downloadable-material catalogue used by the download portal: DSE Writing Part A and IELTS Writing Task 1, Writing Task 2, Speaking, Reading Passages 1–3, and Listening. Adding a valid entry to one of those source catalogues automatically adds its exact deep link the next time the site is built.
+`tools/generate-homework-resource-catalog.mjs` reads the Flashcard, Writing Practice, Writing Submission, IELTS Reading Analysis, IELTS and DSE Reading Comprehension, Speaking, Sentence Structure, Idiom, Proverb, Phrasal Verb, all six Common Expression, IELTS and DSE Listening, Polysemy, and Native English catalogues. DSE Listening links are generated for published years and Tasks 1–4. It also reads every downloadable-material catalogue used by the download portal: DSE Writing Part A and IELTS Writing Task 1, Writing Task 2, Speaking, Reading Passages 1–3, and Listening. Adding a valid entry to one of those source catalogues automatically adds its exact deep link the next time the site is built.
 
 For the full procedure for a new lesson portal, including post-login routing, URL allowlisting, regression tests, deployment, and production verification, follow `tools/HOMEWORK_LESSON_HYPERLINK_GOLDEN_MANUAL_ADDENDUM.md`.
 

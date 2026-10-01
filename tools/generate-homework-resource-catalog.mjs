@@ -529,6 +529,32 @@ async function readingComprehensionResources() {
   });
 }
 
+async function dseReadingResources() {
+  const catalogue = JSON.parse(await readFile(path.join(root, "dse-reading-catalogue.json"), "utf8"));
+  const years = Array.isArray(catalogue?.years) ? catalogue.years : [];
+  if (years.length !== 15) throw new Error(`DSE Reading catalogue should contain 15 years, found ${years.length}`);
+  return years.flatMap((yearRecord) => {
+    const year = Number(yearRecord?.year);
+    if (!Number.isSafeInteger(year) || year < 2012 || year > 2026) {
+      throw new Error(`Invalid DSE Reading year: ${yearRecord?.year}`);
+    }
+    return Object.entries(yearRecord.sections || {}).filter(([, section]) => section).map(([part, section]) => {
+      const articleId = String(section.id || "");
+      if (!["A", "B1", "B2"].includes(part) || articleId !== `dse-${year}-${part.toLowerCase()}` || !section.title) {
+        throw new Error(`Invalid DSE Reading section: ${year} ${part}`);
+      }
+      return {
+        id: `dse-reading-comprehension:${articleId}`,
+        type: "dse-reading-comprehension",
+        ordinal: year,
+        label: `DSE ${year} · Part ${part} · ${compactText(section.title, 130)}`,
+        detail: `DSE Reading Comprehension · ${year} · Part ${part}`,
+        url: `reading-comprehension.html?article=${articleId}`
+      };
+    });
+  });
+}
+
 async function speakingResources() {
   const files = await portalDataFiles("speaking-system.html", /^speaking-system(?:-.*)?-data\.js$/);
   const globals = await evaluateFiles(files);
@@ -644,7 +670,7 @@ async function listeningResources() {
     : [];
   if (practices.length !== 20) throw new Error(`IELTS Listening catalogue should contain 20 practices, found ${practices.length}`);
 
-  return practices.flatMap((practice, practiceIndex) => {
+  const ielts = practices.flatMap((practice, practiceIndex) => {
     const practiceNumber = practiceIndex + 1;
     if (Number(practice?.practice) !== practiceNumber || !Array.isArray(practice?.parts) || practice.parts.length !== 4) {
       throw new Error(`Invalid IELTS Listening Practice ${practiceNumber} catalogue record`);
@@ -664,6 +690,24 @@ async function listeningResources() {
       };
     });
   });
+  const dseYears = Array.isArray(globals.EDMUND_LISTENING_CATALOG?.dseYears)
+    ? globals.EDMUND_LISTENING_CATALOG.dseYears : [];
+  if (dseYears.length !== 15) throw new Error(`DSE Listening catalogue should contain 15 years, found ${dseYears.length}`);
+  const dse = dseYears.filter((yearRecord) => yearRecord.available).flatMap((yearRecord) => {
+    const year = Number(yearRecord.year);
+    if (!Number.isSafeInteger(year) || year < 2012 || year > 2026) {
+      throw new Error(`Invalid DSE Listening year: ${yearRecord.year}`);
+    }
+    return [1, 2, 3, 4].map((task) => ({
+      id: `dse-listening:dse-listening-${year}-task-${task}`,
+      type: "dse-listening",
+      ordinal: year,
+      label: `DSE Listening ${year} · Task ${task}`,
+      detail: `DSE Paper 3 Part A · ${year} · Task ${task}`,
+      url: `listening-system.html?section=dse&year=${year}&task=${task}`
+    }));
+  });
+  return [...ielts, ...dse];
 }
 
 async function learningPortalResources() {
@@ -754,6 +798,7 @@ const resources = [
   ...await dseWritingPartADownloadResources(),
   ...await downloadMaterialResources(),
   ...await readingComprehensionResources(),
+  ...await dseReadingResources(),
   ...await readingAnalysisResources(),
   ...await speakingResources(),
   ...await sentenceResources(),
@@ -774,6 +819,7 @@ const resources = [
     type: "native-english",
     systemLabel: "Native English",
     page: "natural-english.html",
+    allowNumberGaps: true,
     titleFor: (lesson) => lesson.titleZh || lesson.titleEn || lesson.id,
     detailFor: (lesson) => `Native English #${lesson.number} · ${lesson.titleEn || lesson.id}`
   }),
