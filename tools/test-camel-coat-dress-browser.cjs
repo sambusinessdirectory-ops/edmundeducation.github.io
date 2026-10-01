@@ -17,19 +17,20 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   window.EddieFarmAPI={student:()=>({token:'fixture-token'}),snapshot:async()=>({balance:100,cosmetics:['cream-sherpa-jacket','pink-rain-jacket'].map(id=>({id,price:35,owned:true}))})};
  });
  await page.goto(origin+'/__camel');
- await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261001-camel-coat2');await cosmetics.restoreCosmetics(undefined,{force:true});});
+ await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261001-ivory-dress1');await cosmetics.restoreCosmetics(undefined,{force:true});});
  const savedCoats=[];
  for(const character of ['celeste','phoebe','elsie']){
-  await page.evaluate(async character=>{window.controller?.abort();window.controller=new AbortController();document.querySelector('#inventory').replaceChildren();cosmetics.beginCosmeticsPreview();const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261001-camel-coat2');mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});},character);
-  await page.waitForSelector('[data-cosmetic=camel-coat-dress]');assert.equal(await page.locator('[data-cosmetic]').count(),3);
-  await page.locator('[data-cosmetic=camel-coat-dress]').click();
+  await page.evaluate(async character=>{window.controller?.abort();window.controller=new AbortController();document.querySelector('#inventory').replaceChildren();cosmetics.beginCosmeticsPreview();const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261001-ivory-dress1');mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});},character);
+  await page.waitForSelector('[data-cosmetic=ivory-tiered-dress]');assert.equal(await page.locator('[data-cosmetic]').count(),4);
+  await page.locator('[data-cosmetic=ivory-tiered-dress]').click();
   const state=await page.evaluate(character=>cosmetics.cosmeticsState().equipped,character);
-  assert.equal(state[character+'FullBody'],'camel-coat-dress');assert.equal(state[character+'Top'],undefined);
+  assert.equal(state[character+'FullBody'],'ivory-tiered-dress');assert.equal(state[character+'Top'],undefined);
   await page.evaluate(async character=>{const base=new Image();base.src='/assets/speaking-system/mascots/v4/'+character+'-standing.png';await base.decode();window.base=base;window.character=character;cosmetics.cosmeticAtlas(character,base,{preview:true});},character);
   await page.waitForFunction(()=>cosmetics.cosmeticAtlas(character,base,{preview:true})!==base);
   const painted=await page.evaluate(()=>{const atlas=cosmetics.cosmeticAtlas(character,base,{preview:true}),ctx=document.querySelector('#qa').getContext('2d');ctx.clearRect(0,0,1024,1024);ctx.drawImage(atlas,0,0);return ctx.getImageData(0,0,1024,1024).data.some((x,i)=>i%4===3&&x>0);});assert.equal(painted,true);
-  await page.locator('[data-save-avatar]').click();await page.getByText(/Saved to your account/).waitFor();assert.equal(saved.equipped[character+'FullBody'],undefined);assert.equal(saved.equipped[character+'Top'],undefined);savedCoats.push(character);const persisted=await page.evaluate(()=>cosmetics.cosmeticsState().savedEquipment);for(const savedCharacter of savedCoats)assert.equal(persisted[savedCharacter+'FullBody'],'camel-coat-dress');
+  await page.locator('[data-save-avatar]').click();await page.getByText(/Saved to your account/).waitFor();assert.equal(saved.equipped[character+'FullBody'],undefined);assert.equal(saved.equipped[character+'Top'],undefined);savedCoats.push(character);const persisted=await page.evaluate(()=>cosmetics.cosmeticsState().savedEquipment);for(const savedCharacter of savedCoats)assert.equal(persisted[savedCharacter+'FullBody'],'ivory-tiered-dress');
+  await page.locator('[data-cosmetic=camel-coat-dress]').click();const switched=await page.evaluate(character=>cosmetics.cosmeticsState().equipped,character);assert.equal(switched[character+'FullBody'],'camel-coat-dress');
   await page.locator('[data-cosmetic=cream-sherpa-jacket]').click();const changed=await page.evaluate(character=>cosmetics.cosmeticsState().equipped,character);assert.equal(changed[character+'FullBody'],undefined);assert.equal(changed[character+'Top'],'cream-sherpa-jacket');
  }
- assert.deepEqual(errors,[]);console.log('PASS camel coat dress inventory, exclusivity, persistence and renderer for all three characters');
+ assert.deepEqual(errors,[]);console.log('PASS included full-body dresses: inventory, exclusivity, persistence and renderer for all three characters');
 }finally{await browser.close();server.close();}})().catch(error=>{console.error(error);process.exitCode=1;server.close();});

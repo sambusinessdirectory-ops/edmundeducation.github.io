@@ -10,10 +10,11 @@ export const COSMETICS=Object.freeze([
  {id:'olive-plain-tee',slot:'top',price:20,name:'Olive plain crew-neck T-shirt',description:'橄欖綠純色圓領短袖T恤',display:'eddy/olive-plain-tee-display.png'},
  {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',price:35,name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'},
  {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',price:35,name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'},
- {id:'camel-coat-dress',slot:'fullBody',coverage:['top','lower'],group:'girls',price:45,name:'Camel tailored coat dress',description:'駝色修身翻領大衣連身裙 · 全身服裝',display:'girls/camel-coat-dress-display.png'}
+ {id:'camel-coat-dress',slot:'fullBody',coverage:['top','lower'],group:'girls',price:45,name:'Camel tailored coat dress',description:'駝色修身翻領大衣連身裙 · 全身服裝',display:'girls/camel-coat-dress-display.png'},
+ {id:'ivory-tiered-dress',slot:'fullBody',coverage:['top','lower'],group:'girls',price:45,name:'Ivory tiered flutter-sleeve dress',description:'象牙白荷葉袖層疊雪紡連身裙 · 全身服裝',display:'girls/ivory-tiered-dress-display.png'}
 ]);
 const GIRLS=Object.freeze(['celeste','phoebe','elsie']);
-const INCLUDED_COSMETICS=Object.freeze(['camel-coat-dress']);
+const INCLUDED_COSMETICS=Object.freeze(['camel-coat-dress','ivory-tiered-dress']);
 const slotKind=item=>item.slot==='girlsTop'?'top':item.slot;
 const SLOT_SUFFIX=Object.freeze({headwear:'Headwear',top:'Top',lower:'Lower',fullBody:'FullBody',feet:'Feet',accessory:'Accessory'});
 const equipmentSlot=(item,character)=>character+SLOT_SUFFIX[slotKind(item)];
@@ -59,7 +60,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261001-camel-coat2',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261001-ivory-dress1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
