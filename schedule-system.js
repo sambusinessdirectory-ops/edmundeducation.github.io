@@ -52,7 +52,7 @@ import {
   parseScheduleMessage,
   serializeScheduleMessage
 } from "./schedule-homework-links.mjs?v=20261001-homework-dse-links1";
-import { formatHomeworkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20260929-1";
+import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261001-homework-link-export1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -256,6 +256,9 @@ const elements = {
   homeworkExportStatus: document.querySelector("[data-homework-export-status]"),
   homeworkExportPrepare: document.querySelector("[data-homework-export-prepare]"),
   homeworkExportDownload: document.querySelector("[data-homework-export-download]"),
+  homeworkLinkExportButton: document.querySelector("[data-export-homework-links]"),
+  homeworkLinkExportSystem: document.querySelector("[data-homework-link-export-system]"),
+  homeworkLinkExportStatus: document.querySelector("[data-export-homework-links-status]"),
   studentProfileDialog: document.querySelector("[data-student-profile-dialog]"),
   studentProfileTitle: document.querySelector("[data-student-profile-title]"),
   studentProfileStatus: document.querySelector("[data-student-profile-status]"),
@@ -602,6 +605,22 @@ function ensureHomeworkCatalog({ retryVideoClass = false, refreshManualWriting =
       });
   }
   return homeworkCatalogPromise;
+}
+
+async function loadCurrentHomeworkExportCatalog(system = "all") {
+  const freshUrl = new URL(HOMEWORK_CATALOG_URL, window.location.href);
+  freshUrl.searchParams.set("export_check", String(Date.now()));
+  const needsVideo = system === "all" || system === "video-class";
+  const needsManualWriting = system === "all" || system === "writing-submission";
+  const [module, videoClassResources, manualWritingResources] = await Promise.all([
+    import(freshUrl.href),
+    needsVideo ? loadVideoClassHomeworkResources() : Promise.resolve(null),
+    needsManualWriting ? loadManualWritingHomeworkResources() : Promise.resolve(null)
+  ]);
+  if (needsVideo && videoClassHomeworkCatalogError) throw new Error("未能核對最新 Video Class 連結，請稍後重試。");
+  return mergeHomeworkCatalog(module.HOMEWORK_RESOURCE_CATALOG, {
+    videoClassResources, manualWritingResources
+  });
 }
 
 function emptyWeekPayload() {
@@ -4194,6 +4213,41 @@ function downloadHomeworkExport() {
   window.setTimeout(() => URL.revokeObjectURL(url), 60_000);
 }
 
+async function downloadHomeworkLinks() {
+  if (state.currentUser?.role !== "admin" || elements.homeworkLinkExportButton.disabled) return;
+  const adminToken = state.currentUser.adminToken;
+  const selectedSystem = elements.homeworkLinkExportSystem.value;
+  elements.homeworkLinkExportButton.disabled = true;
+  elements.homeworkLinkExportSystem.disabled = true;
+  setStatus(elements.homeworkLinkExportStatus, "正在核對最新功課連結…");
+  try {
+    const resources = await loadCurrentHomeworkExportCatalog(selectedSystem);
+    if (state.currentUser?.role !== "admin" || state.currentUser.adminToken !== adminToken) {
+      throw new Error("帳戶已變更，請重新登入後再匯出。");
+    }
+    const selectedResources = filterHomeworkLinkExportResources(resources, selectedSystem);
+    if (!selectedResources.length) throw new Error("這個系統暫時沒有可匯出的功課連結。");
+    const contents = formatHomeworkLinkExport({ resources: selectedResources, exportedAt: new Date().toISOString() });
+    const blob = new Blob([contents], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `homework-hyperlinks-${selectedSystem}-${new Date().toISOString().slice(0, 10)}.txt`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 60_000);
+    const systemLabel = selectedSystem === "all" ? "所有系統" : HOMEWORK_LINK_EXPORT_SYSTEMS.find((item) => item.id === selectedSystem)?.label;
+    setStatus(elements.homeworkLinkExportStatus, `已核對並匯出${systemLabel}的 ${selectedResources.length.toLocaleString()} 個最新功課連結。`);
+  } catch (error) {
+    setStatus(elements.homeworkLinkExportStatus, error.message || "未能匯出功課連結，請重試。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    elements.homeworkLinkExportButton.disabled = false;
+    elements.homeworkLinkExportSystem.disabled = false;
+  }
+}
+
 function linkedHomeworkStudentIds() {
   return new Set(state.adminHomeworkLinks.flatMap((group) => (
     Array.isArray(group?.members) ? group.members.map((member) => String(member.studentId || "")) : []
@@ -7320,6 +7374,13 @@ elements.homeworkExportWeekList?.addEventListener("click", (event) => {
 });
 elements.homeworkExportPrepare?.addEventListener("click", prepareHomeworkExport);
 elements.homeworkExportDownload?.addEventListener("click", downloadHomeworkExport);
+for (const system of HOMEWORK_LINK_EXPORT_SYSTEMS) {
+  const option = document.createElement("option");
+  option.value = system.id;
+  option.textContent = system.label;
+  elements.homeworkLinkExportSystem?.append(option);
+}
+elements.homeworkLinkExportButton?.addEventListener("click", downloadHomeworkLinks);
 elements.homeworkLinkForm?.addEventListener("submit", linkHomeworkAccounts);
 elements.homeworkLinkStudentA?.addEventListener("change", renderHomeworkLinks);
 elements.homeworkLinkStudentB?.addEventListener("change", renderHomeworkLinks);

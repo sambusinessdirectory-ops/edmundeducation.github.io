@@ -1,4 +1,4 @@
-import { parseScheduleMessage } from "./schedule-homework-links.mjs";
+import { HOMEWORK_RESOURCE_TYPES, normalizeHomeworkResource, parseScheduleMessage } from "./schedule-homework-links.mjs";
 
 const STATUS = Object.freeze({
   completed: "completed",
@@ -24,6 +24,48 @@ export function validExportWeek(value) {
 
 function field(value) {
   return String(value ?? "").replace(/\\/g, "\\\\").replace(/\t/g, "\\t").replace(/\r/g, "\\r").replace(/\n/g, "\\n");
+}
+
+export const homeworkLinkExportSystem = (type) =>
+  String(type || "").startsWith("video-class-") ? "video-class" : String(type || "");
+
+export const HOMEWORK_LINK_EXPORT_SYSTEMS = Object.freeze([...new Map(
+  HOMEWORK_RESOURCE_TYPES.map((type) => [
+    homeworkLinkExportSystem(type.type),
+    Object.freeze({ id: homeworkLinkExportSystem(type.type), label: type.type.startsWith("video-class-") ? "Video Class" : type.label })
+  ])
+).values()]);
+
+export function filterHomeworkLinkExportResources(resources, system = "all") {
+  if (system !== "all" && !HOMEWORK_LINK_EXPORT_SYSTEMS.some((item) => item.id === system)) {
+    throw new Error("請選擇有效的功課系統。");
+  }
+  return system === "all" ? resources : resources.filter((resource) => homeworkLinkExportSystem(resource.type) === system);
+}
+
+export function formatHomeworkLinkExport({ resources, exportedAt }) {
+  const typeNames = new Map(HOMEWORK_LINK_EXPORT_SYSTEMS.map((type) => [type.id, type.label]));
+  const seen = new Set();
+  const rows = [];
+  for (const raw of resources) {
+    const resource = normalizeHomeworkResource(raw);
+    if (!resource) throw new Error(`Invalid homework hyperlink: ${String(raw?.id || "unknown")}`);
+    if (seen.has(resource.id)) continue;
+    seen.add(resource.id);
+    const detail = String(raw.detail || "").replace(/\s+/g, " ").trim();
+    rows.push({
+      system: typeNames.get(homeworkLinkExportSystem(resource.type)),
+      description: detail && detail !== resource.label ? `${resource.label} — ${detail}` : resource.label,
+      url: new URL(resource.url, "https://edmundeducation.com/").href
+    });
+  }
+  const lines = [
+    "# EdmundEducation homework hyperlinks (UTF-8; tab-separated; \\t and \\n escaped)",
+    `# exported_at=${field(exportedAt)} links=${rows.length}`,
+    "系統\t內容\t連結",
+    ...rows.map((row) => [row.system, row.description, row.url].map(field).join("\t"))
+  ];
+  return `${lines.join("\n")}\n`;
 }
 
 export function formatHomeworkExport({ students, entries, scope, exportedAt }) {

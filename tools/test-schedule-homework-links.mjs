@@ -989,7 +989,7 @@ assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{inde
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261001-homework-dse-links1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261001-homework-dse-links1/, "Homework link helper cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261001-homework-dse-links1/, "Schedule application cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261001-homework-link-export1/, "Schedule application cache key is stale");
 assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261001-homework-dse-links1/, "Homework Hot Keys application cache key is stale");
 assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261001-homework-dse-links1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");

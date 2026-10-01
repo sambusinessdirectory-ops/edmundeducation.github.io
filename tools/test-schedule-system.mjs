@@ -248,7 +248,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 67, "homepage must contain all 67 linked category cards, including Recall and Natural English");
+assert.equal(homepageCards.length, 68, "homepage must contain all 68 linked category cards, including Recall and Natural English");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[58], "eddie-farm.html", "Eddie Farm must be numbered card 59");
 assert.equal(homepageCardHrefs[59], "membership.html", "Membership remains available after Eddie Farm");
@@ -419,7 +419,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260923-learning-books1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261001-homework-link-export1/);
 assert.match(scheduleHtml, /data-celebration-dialog/);
 assert.match(scheduleHtml, /恭喜您，距離成功又更近了!/);
 assert.match(scheduleHtml, /一步一步，<strong data-celebration-name>同學<\/strong> 便會走到目標~/);
@@ -588,12 +588,12 @@ assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
 assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260901-unfinished-copy1/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260919-polysemy-native1"/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261001-homework-dse-links1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = Promise\.all\(\[\s*import\(HOMEWORK_CATALOG_URL\),\s*loadVideoClassHomeworkResources\(\)/);
 assert.match(scheduleJs, /function mergeHomeworkCatalog\([\s\S]*?startsWith\("video-class-"\)[\s\S]*?\(videoClassResources \|\| \[\]\)\.forEach/);
 assert.match(scheduleJs, /if \(retryVideoClass \|\| refreshManualWriting\) \{[\s\S]*?retryVideoClass \? loadVideoClassHomeworkResources\(\)[\s\S]*?mergeHomeworkCatalog/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260919-polysemy-native1/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261001-homework-dse-links1/);
 assert.match(scheduleJs, /schedule-mass-edit\.mjs\?v=20260803-1/);
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
 assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);

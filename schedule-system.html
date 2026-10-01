@@ -474,7 +474,9 @@
     .student-card-action:disabled { cursor: not-allowed; opacity: .5; }
     .student-card-action.danger { color: #922f2b; border-color: rgba(175,67,62,.28); background: #fff1f0; }
     .student-admin-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
-    .homework-export-tools { display: flex; justify-content: flex-end; margin: 0 0 12px; }
+    .homework-export-tools { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+    .homework-export-tools label { font-weight: 750; }
+    .homework-export-tools select { min-height: 40px; max-width: 220px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 9px; background: #fff; color: var(--ink); font: inherit; }
     dialog[data-homework-export-dialog] { width: min(720px, calc(100vw - 28px)); max-height: calc(100dvh - 28px); overflow: auto; }
     .homework-export-card { display: grid; gap: 14px; }
     .homework-export-card h3 { margin: 0; font-size: 16px; }
@@ -2284,7 +2286,8 @@
             <span class="inactive-student-toggle">自訂排序可拖放，或使用上移／下移按鈕。</span>
           </div>
         </div>
-        <div class="homework-export-tools"><button class="secondary-button" type="button" data-open-homework-export>匯出功課資料（TXT）</button></div>
+        <div class="homework-export-tools"><button class="secondary-button" type="button" data-open-homework-export>匯出功課資料（TXT）</button><label for="homework-link-export-system">功課連結系統</label><select id="homework-link-export-system" data-homework-link-export-system aria-label="選擇匯出功課連結的系統"><option value="all">所有系統</option></select><button class="secondary-button" type="button" data-export-homework-links>匯出功課連結（TXT）</button></div>
+        <p class="calendar-status" data-export-homework-links-status role="status" aria-live="polite"></p>
         <div class="student-grid" data-student-list>
           <p class="empty-state">正在載入學生帳戶…</p>
         </div>
@@ -2766,7 +2769,7 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="schedule-system.js?v=20261001-homework-dse-links1"></script>
+  <script type="module" src="schedule-system.js?v=20261001-homework-link-export1"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
 </body>
 </html>

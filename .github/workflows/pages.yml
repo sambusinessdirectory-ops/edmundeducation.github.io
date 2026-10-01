@@ -93,6 +93,8 @@ jobs:
           node --check schedule-system.js
           node --check schedule-homework-export.mjs
           node tools/test-schedule-homework-export.mjs
+          node tools/test-schedule-homework-links.mjs
+          node tools/test-schedule-system.mjs
           node tools/test-schedule-clipboard.mjs
 
       - name: Validate focused DSE Reading release
