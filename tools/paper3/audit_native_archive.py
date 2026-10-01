@@ -17,7 +17,12 @@ def audit_reader(folder: Path) -> dict:
         issues.append(f"source pages {len(source)} != {report['pages']}")
     if markup.count('class="paper-page"') != report["pages"]:
         issues.append("HTML page count mismatch")
-    exempt = set(report.get("missing_source_pages", [])) | set(report.get("nontext_qab_pages", []))
+    # A missing scan can still have a clearly labeled partial reconstruction.
+    # Those pages have selectable text and a Chinese layer, so audit both.
+    missing_without_text = set(report.get("missing_source_pages", [])) - {
+        page["leaf"] for page in source if page.get("text", "").strip()
+    }
+    exempt = missing_without_text | set(report.get("nontext_qab_pages", []))
     expected_translation_count = report["pages"] - len(exempt)
     if markup.count('class="page-translation"') != expected_translation_count:
         issues.append("Chinese page count mismatch")

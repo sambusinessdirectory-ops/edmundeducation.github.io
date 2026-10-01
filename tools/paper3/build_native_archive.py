@@ -16,12 +16,34 @@ import tempfile
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from html.parser import HTMLParser
 from pathlib import Path
 
 from PIL import Image
 
 PDFTOPPM = os.environ.get("PDFTOPPM", "/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm")
 MANUAL_OVERRIDES = json.loads(Path(__file__).with_name("manual-overrides.json").read_text(encoding="utf-8"))
+LAYOUT_DIR = Path(__file__).with_name("layouts")
+
+
+class LayoutText(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {"br", "hr"}:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag):
+        if tag in {"h2", "h3", "h4", "p", "li", "th", "td", "tr", "caption", "figcaption", "div", "header", "main", "aside", "blockquote", "section"}:
+            self.parts.append("\n")
+
+    def text(self):
+        return "\n".join(line.strip() for line in "".join(self.parts).splitlines() if line.strip())
 YEAR_FILES = {
     2012: "DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Data File.pdf",
     2014: "2014 Paper 3.pdf",
@@ -174,6 +196,7 @@ def render_page(source: Path, source_page: int, output_dir: Path, leaf: int, kin
         image.save(art, format="WEBP", quality=82, method=6)
     native_html = native_blocks(lines, kind)
     source_text = html.unescape(re.sub(r"<[^>]+>", "", native_html.replace("</p>", "\n").replace("</h3>", "\n"))).strip()
+    scan_missing = kind == "data" and not source_text and all_words < 8
     exact_endings = {
         ("2020 DSE Paper 3 - Question.pdf", 14): ("END OF TASK 6",),
         ("2021 Paper 3 Questions.pdf", 31): ("END OF TASK 7", "END OF PART B1"),
@@ -196,8 +219,21 @@ def render_page(source: Path, source_page: int, output_dir: Path, leaf: int, kin
             cache.with_suffix(".source-sha256").write_text(hashlib.sha256(source_text.encode("utf-8")).hexdigest(), encoding="utf-8")
     else:
         translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt") if translate else ""
+    layout_file = LAYOUT_DIR / f"{output_dir.name}-page-{leaf:02d}.html"
+    if layout_file.exists():
+        native_html = layout_file.read_text(encoding="utf-8")
+        parser = LayoutText()
+        parser.feed(native_html)
+        source_text = parser.text()
+        if override and translate:
+            translation = "\n".join(override["chinese"])
+            cache = asset_dir / f"{stem}.zh.txt"
+            cache.write_text(translation, encoding="utf-8")
+            cache.with_suffix(".source-sha256").write_text(hashlib.sha256(source_text.encode("utf-8")).hexdigest(), encoding="utf-8")
+        elif translate:
+            translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt")
     high_conf_words = sum(len(line["words"]) for line in lines if line["conf"] >= 64)
-    return {"leaf": leaf, "kind": kind, "source_page": source_page, "source": source.name, "image": f"assets/{stem}.webp", "native": native_html, "translation": translation, "coverage": high_conf_words / all_words if all_words else 0, "words": all_words, "native_words": native_words, "text": source_text, "missing": kind == "data" and not source_text and all_words < 8}
+    return {"leaf": leaf, "kind": kind, "source_page": source_page, "source": source.name, "image": f"assets/{stem}.webp", "native": native_html, "translation": translation, "coverage": high_conf_words / all_words if all_words else 0, "words": all_words, "native_words": native_words, "text": source_text, "missing": scan_missing}
 
 
 def build_reader(year: int, level: str, sections, source_root: Path, site_root: Path, translate: bool, workers: int):
@@ -223,8 +259,9 @@ def build_reader(year: int, level: str, sections, source_root: Path, site_root: 
         zh = f'<div class="page-translation" lang="zh-Hant"><strong>中文對照</strong><p>{html.escape(p["translation"]).replace(chr(10), "<br>")}</p></div>' if p["translation"] else ''
         extra = f'<label class="practice-label">補充練習筆記（非原卷答題欄）<textarea data-note="{i}" rows="5" placeholder="在此整理答案或筆記；只儲存在此裝置。"></textarea></label>' if p["kind"] == "qab" else ''
         empty = '<p class="source-gap">現有原卷來源缺少本頁內容，需取得完整原卷後補上。</p>' if p["missing"] else '<p>本頁以圖像或留白為主，請核對右側原卷。</p>'
-        cards.append(f'<article class="paper-page" id="page-{i}" data-kind="{p["kind"]}"><header><span>{label} · 原卷第 {p["source_page"]} 頁</span><label><input type="checkbox" data-read="{i}"> 已讀</label></header><div class="source-layout"><div class="native-document" lang="en"><div class="native-label">可選取的英文文字</div>{p["native"] or empty}</div><figure class="facsimile"><img src="{p["image"]}" alt="{label} original page {p["source_page"]}" loading="lazy"><figcaption>原卷版面 · 圖表、照片及留白依原頁保留</figcaption></figure></div>{zh}{extra}</article>')
-    shell = f'''<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{year} {level.upper()} · DSE Paper 3 Part B | EdmundEducation</title><link rel="stylesheet" href="/paper3/native-facsimile.css?v=20261001"><script defer src="/paper3/native-facsimile.js?v=20261001"></script></head><body data-reader="{year}-{level}"><a class="skip" href="#reader">跳至原卷</a><header class="top"><a href="/dse-paper3-analysis.html">← 返回綜合能力分析</a><a href="/paper3/">全部試卷</a></header><main><div class="hero"><p>DSE PAPER 3 · PART {level.upper()} · {year}</p><h1>{year} {level.upper()} Data File + Question-Answer Book</h1><p>逐頁閱讀：左側是可選取的英文文字；右側保留原卷圖表、照片及版面供核對。中文在下方獨立顯示，答題筆記為額外練習。</p><div class="toolbar"><button type="button" data-filter="all" aria-pressed="true">全部 {len(leaves)} 頁</button><button type="button" data-filter="data" aria-pressed="false">Data File</button><button type="button" data-filter="qab" aria-pressed="false">Question-Answer Book</button><label><input type="checkbox" id="toggle-zh" checked> 中文對照</label><button type="button" id="print-reader">列印</button></div></div><div class="layout"><aside><strong>閱讀進度</strong><output id="progress">0 / {len(leaves)}</output><nav>{''.join(nav)}</nav><small>原卷圖文與補充筆記分開；筆記只儲存在此瀏覽器。</small></aside><div id="reader">{''.join(cards)}</div></div></main><footer>來源：{html.escape(', '.join(report['sources']))}。英文由掃描原卷辨識，請以右側原卷核對；中文為輔助初譯，請以英文原卷為準。</footer></body></html>'''
+        warning = '<p class="source-gap">所持掃描檔此頁空白；左側筆記欄標題依另一份 2022 B1 Data File 文字版重建，仍待完整原卷掃描核對。</p>' if p["missing"] and p["native"] else ''
+        cards.append(f'<article class="paper-page" id="page-{i}" data-kind="{p["kind"]}"><header><span>{label} · 原卷第 {p["source_page"]} 頁</span><label><input type="checkbox" data-read="{i}"> 已讀</label></header><div class="source-layout"><div class="native-document" lang="en"><div class="native-label">可選取的英文文字</div>{warning}{p["native"] or empty}</div><figure class="facsimile"><img src="{p["image"]}" alt="{label} original page {p["source_page"]}" loading="lazy"><figcaption>原卷版面 · 圖表、照片及留白依原頁保留</figcaption></figure></div>{zh}{extra}</article>')
+    shell = f'''<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{year} {level.upper()} · DSE Paper 3 Part B | EdmundEducation</title><link rel="stylesheet" href="/paper3/native-facsimile.css?v=20261002"><script defer src="/paper3/native-facsimile.js?v=20261001"></script></head><body data-reader="{year}-{level}"><a class="skip" href="#reader">跳至原卷</a><header class="top"><a href="/dse-paper3-analysis.html">← 返回綜合能力分析</a><a href="/paper3/">全部試卷</a></header><main><div class="hero"><p>DSE PAPER 3 · PART {level.upper()} · {year}</p><h1>{year} {level.upper()} Data File + Question-Answer Book</h1><p>逐頁閱讀：左側是可選取的英文文字；右側保留原卷圖表、照片及版面供核對。中文在下方獨立顯示，答題筆記為額外練習。</p><div class="toolbar"><button type="button" data-filter="all" aria-pressed="true">全部 {len(leaves)} 頁</button><button type="button" data-filter="data" aria-pressed="false">Data File</button><button type="button" data-filter="qab" aria-pressed="false">Question-Answer Book</button><label><input type="checkbox" id="toggle-zh" checked> 中文對照</label><button type="button" id="print-reader">列印</button></div></div><div class="layout"><aside><strong>閱讀進度</strong><output id="progress">0 / {len(leaves)}</output><nav>{''.join(nav)}</nav><small>原卷圖文與補充筆記分開；筆記只儲存在此瀏覽器。</small></aside><div id="reader">{''.join(cards)}</div></div></main><footer>來源：{html.escape(', '.join(report['sources']))}。英文由掃描原卷辨識，請以右側原卷核對；中文為輔助初譯，請以英文原卷為準。</footer></body></html>'''
     (output / "index.html").write_text(shell, encoding="utf-8")
     return report
 
