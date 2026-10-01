@@ -1,4 +1,5 @@
-// Extract the ivory tiered dress from three independently fitted 4x4 atlases.
+// Extract the ivory asymmetric chiffon gown from three independently fitted
+// and chroma-isolated 4x4 atlases.
 // Runtime characters continue to come from the canonical mascot atlases.
 const fs=require('fs'),path=require('path');
 const sharp=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
@@ -22,10 +23,9 @@ const ivory=(r,g,b,a)=>a>=72&&r>=128&&g>=118&&b>=100&&r+14>=g&&g+16>=b&&r-b<=88;
 (async()=>{
  for(const character of ['celeste','phoebe','elsie']){
   const base=await sharp(path.join(root,'assets/speaking-system/mascots/v4',character+'-standing.png')).ensureAlpha().raw().toBuffer();
-  // Celeste's pale coat and mane are too close to the dress colour for a
-  // reliable full-character colour extraction. Use the already isolated
-  // garment source and enforce the canonical head as an occlusion mask.
-  const sourceName=character==='celeste'?character+'-overlay-source-v2.png':character+'-fit.png',isFittedSource=sourceName.includes('-fit');
+  const blinkName={celeste:'celeste-blink-v1.png',phoebe:'phoebe-blink.png',elsie:'elsie-blink-registered.png'}[character];
+  const blink=await sharp(path.join(root,'assets/speaking-system/mascots/v4',blinkName)).ensureAlpha().raw().toBuffer();
+  const sourceName=character+'-chroma-v3-long.png',isFittedSource=false;
   const source=await sharp(path.join(src,sourceName)).resize(1024,1024,{fit:'fill'}).ensureAlpha().raw().toBuffer();
   const rgba=Buffer.alloc(1024*1024*4);let pixels=0;
   for(let cell=0;cell<16;cell++){
@@ -42,7 +42,7 @@ const ivory=(r,g,b,a)=>a>=72&&r>=128&&g>=118&&b>=100&&r+14>=g&&g+16>=b&&r-b<=88;
     const difference=Math.abs(source[i]-r)+Math.abs(source[i+1]-g)+Math.abs(source[i+2]-b)+Math.abs(source[i+3]-a)/2;
     if(character==='elsie'&&paleHair)continue;
     if(character==='phoebe'&&goldenHair)continue;
-    if(character==='celeste'&&isFittedSource&&difference<28)continue;
+    if(character==='celeste'&&isFittedSource&&difference<58)continue;
     mask[y*256+x]=255;
    }
    const closed=await sharp(mask,{raw:{width:256,height:256,channels:1}}).dilate(2).erode(2).greyscale().raw().toBuffer();
@@ -58,6 +58,8 @@ const ivory=(r,g,b,a)=>a>=72&&r>=128&&g>=118&&b>=100&&r+14>=g&&g+16>=b&&r-b<=88;
    if(garment.length<650)throw Error(character+' cell '+cell+' has no complete dress component');
    for(const q of garment){
     const x=q%256,y=Math.floor(q/256),i=((oy+y)*1024+ox+x)*4;
+    const chromaGreen=source[i+1]>150&&source[i+1]>source[i]*1.35&&source[i+1]>source[i+2]*1.35;
+    if(chromaGreen)continue;
     // Morphological closing can grow the mask back into excluded pixels, so
     // apply the face-safe occlusion rule again at the final copy boundary.
     if(character==='celeste'&&((y<120&&base[i+3]>72)||(y<145&&base[i+3]>72&&base[i]<148&&base[i+1]<140&&base[i+2]<150)))continue;
@@ -67,7 +69,10 @@ const ivory=(r,g,b,a)=>a>=72&&r>=128&&g>=118&&b>=100&&r+14>=g&&g+16>=b&&r-b<=88;
   if(pixels<30000)throw Error(character+' tiered-dress extraction is unexpectedly sparse: '+pixels);
   const dir=path.join(root,'assets/speaking-system/cosmetics',character);fs.mkdirSync(dir,{recursive:true});
   await sharp(rgba,{raw:{width:1024,height:1024,channels:4}}).webp({lossless:true}).toFile(path.join(dir,'ivory-tiered-dress.webp'));
-  await sharp(base,{raw:{width:1024,height:1024,channels:4}}).composite([{input:rgba,raw:{width:1024,height:1024,channels:4}}]).flatten({background:'#2a2928'}).jpeg({quality:94}).toFile(path.join(src,'qa-'+character+'-composite.jpg'));
+  const openComposite=sharp(base,{raw:{width:1024,height:1024,channels:4}}).composite([{input:rgba,raw:{width:1024,height:1024,channels:4}}]);
+  await openComposite.clone().flatten({background:'#2a2928'}).jpeg({quality:94}).toFile(path.join(src,'qa-'+character+'-composite.jpg'));
+  await openComposite.clone().flatten({background:'#f2ede6'}).jpeg({quality:94}).toFile(path.join(src,'qa-'+character+'-light.jpg'));
+  await sharp(blink,{raw:{width:1024,height:1024,channels:4}}).composite([{input:rgba,raw:{width:1024,height:1024,channels:4}}]).flatten({background:'#77716c'}).jpeg({quality:94}).toFile(path.join(src,'qa-'+character+'-blink.jpg'));
   console.log(character,'tiered-dress pixels',pixels);
  }
  const out=path.join(root,'assets/speaking-system/cosmetics/girls/ivory-tiered-dress-display.png');

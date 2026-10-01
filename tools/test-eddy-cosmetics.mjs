@@ -161,7 +161,7 @@ test('the camel coat dress has three independent transparent 16-view overlays an
  const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/girls/camel-coat-dress-display.png',import.meta.url));
  assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),1254);assert.equal(thumb.readUInt32BE(20),1254);
 });
-test('the ivory tiered dress has three independent transparent 16-view overlays and a shop image',async()=>{
+test('the ivory asymmetric gown has three independent transparent 16-view overlays and a shop image',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
  const hashes=[];
  for(const character of ['celeste','phoebe','elsie']){

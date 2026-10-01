@@ -1,11 +1,11 @@
 {
   "tool": "built-in ImageGen",
   "useCase": "identity-preserve and background-extraction",
-  "shared": "Dress each canonical transparent 4x4 atlas in the supplied ivory layered flutter-sleeve dress. Preserve identity, anatomy, pose, direction, scale, cell registration, view order and transparency. Keep the hooves exposed for shoes. Then isolate precisely the sixteen registered garment overlays while preserving natural hair, hand and tail occlusion holes.",
+  "shared": "Dress each canonical transparent 4x4 atlas in the supplied ivory floor-length chiffon gown: crossed ruched sweetheart bodice, draped flutter sleeves, empire waist and ankle-length asymmetric cascading panels. Never shorten it into a mini dress, peplum or tutu. Preserve identity, anatomy, pose, direction, scale, cell registration, view order and transparency. Keep the hooves exposed for shoes. Then isolate precisely the sixteen registered garment overlays while preserving natural hair, hand and tail occlusion holes.",
   "characters": {
     "elsie": "Preserve orange coat, white mane and tail, and blue bow.",
     "phoebe": "Preserve brown coat, blonde mane and tail, and bridle.",
-    "celeste": "Preserve cool white coat and mane, purple eyes and muzzle. The corrected v2 fitting keeps the neckline and flutter sleeves below the face in every cell, especially the bottom-row front and three-quarter views."
+    "celeste": "Preserve cool white coat and mane, purple eyes and muzzle. Use a chroma-isolated source because her coat and mane are too close to the ivory fabric for colour-only extraction."
   },
   "display": "Extract and faithfully reconstruct only the complete ivory chiffon dress on genuine transparent RGBA, centered with even padding and no mannequin, hanger, text, watermark or shadow."
 }
