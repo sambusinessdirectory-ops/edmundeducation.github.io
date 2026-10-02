@@ -43,3 +43,65 @@ body[data-logic-view="lesson"] .learning-portal-shell,body[data-logic-view="exer
 .logic-order-switch button:focus-visible{outline:3px solid #df8f37;outline-offset:2px}
 .logic-answer-status:empty{display:none}
 @media(max-width:680px){.logic-question-statement .logic-question-zh{font-size:21px}.logic-option-front strong{font-size:26px}.logic-option-front small{font-size:21px}.logic-option-back strong{font-size:22px}.logic-option-back small{font-size:20px}}
+.logic-home-intro{padding:clamp(30px,4vw,58px);border:1px solid #c9dfd8;border-radius:27px;background:linear-gradient(120deg,#fffaf0,#e3f4f0);box-shadow:0 16px 36px #245b5815}
+.logic-home-intro h1{margin:0;font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(36px,4vw,58px)}
+.logic-home-intro>p:last-child{margin:16px 0 0;color:#577371;font-size:18px}
+.logic-module-card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:24px;margin-top:22px;padding:clamp(25px,3vw,42px);border:1px solid #c8ddd5;border-radius:27px;background:#fffdf7;color:var(--logic-ink);text-decoration:none;box-shadow:0 16px 36px #245b5815;transition:transform .2s ease,box-shadow .2s ease}
+.logic-module-card:hover{transform:translateY(-4px);box-shadow:0 22px 42px #245b5824}
+.logic-module-card small,.logic-module-card strong,.logic-module-card em{display:block}
+.logic-module-card small{color:#5b817d;font-size:13px;font-weight:850;letter-spacing:.08em}
+.logic-module-card strong{margin:7px 0;font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(26px,3vw,42px);line-height:1.25}
+.logic-module-card strong span{font-size:.68em;color:#356968;white-space:nowrap}
+.logic-module-card em{margin:8px 0 18px;font-size:clamp(19px,2vw,27px);font-style:normal;color:#b47742;font-weight:800}
+.logic-module-card>b{font-size:32px}
+.logic-module-heading{margin-bottom:20px;padding:clamp(25px,3vw,40px);border:1px solid #c9dfd8;border-radius:26px;background:linear-gradient(120deg,#fffaf0,#e5f4f1)}
+.logic-module-heading h1{margin:0;font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(32px,3.4vw,48px);line-height:1.24}
+.logic-module-heading h1 span{font-size:.57em;color:#356968;white-space:nowrap}
+.logic-module-heading>p:not(.logic-kicker){margin:10px 0 22px;font-size:clamp(19px,2vw,26px);font-weight:800;color:#ae7440}
+.logic-module-heading nav{display:flex;flex-wrap:wrap;gap:10px}
+.logic-module-heading nav a{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:10px 18px;border:1px solid #a6c8c6;border-radius:13px;background:#fff;color:#245457;text-decoration:none;font-weight:850}
+.logic-module-heading nav a[aria-current="page"]{background:#176869;color:#fff;border-color:#176869}
+.logic-lesson-rail h2{font-family:Georgia,"Noto Serif TC",serif;font-size:32px;margin:0}
+.logic-lesson-rail h2 span{color:#d98659}
+.logic-lesson-stream{display:grid;gap:24px;min-width:0}
+.logic-scroll-stage{--theme:#edbd55;scroll-margin-top:22px;padding:clamp(25px,3vw,45px);border:2px solid #d5e4da;border-radius:28px;background:radial-gradient(circle at 96% 8%,color-mix(in srgb,var(--theme) 28%,transparent),transparent 19rem),#fffefa;box-shadow:0 18px 40px #235d5a16}
+.logic-scroll-stage.logic-theme--blue{--theme:#69b9df}.logic-scroll-stage.logic-theme--green{--theme:#9ccc75}.logic-scroll-stage.logic-theme--coral{--theme:#e99c7a}
+.logic-scroll-stage .logic-piece{background:var(--theme)}
+.logic-scroll-ideas{display:grid;gap:18px;padding-top:25px}
+.logic-scroll-idea{display:flex;gap:20px;align-items:flex-start;max-width:930px;padding:clamp(20px,2.4vw,32px);border:1px solid #dcebe3;border-radius:20px;background:#fff;box-shadow:0 6px 0 color-mix(in srgb,var(--theme) 36%,#e9eee7)}
+.logic-scroll-idea:nth-child(2){margin-left:clamp(0px,3vw,38px)}
+.logic-scroll-idea:nth-child(3){margin-left:clamp(0px,6vw,76px)}
+.logic-scroll-idea.is-visible{animation:logic-scroll-reveal .48s cubic-bezier(.2,.7,.2,1) both}
+@keyframes logic-scroll-reveal{from{opacity:.65;transform:translateY(12px)}to{opacity:1;transform:none}}
+.logic-scroll-idea p{margin:0;font-size:clamp(20px,1.8vw,27px);line-height:1.6}
+.logic-scroll-idea strong{color:#185f62}
+.logic-scroll-stage .logic-fruit-box,.logic-scroll-stage .logic-mini{margin-top:26px}
+.logic-lesson-finish{padding:34px;border:1px solid #cbded8;border-radius:24px;background:#eaf6f2;text-align:center}
+.logic-lesson-finish h2{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(27px,3vw,40px)}
+.logic-sentence-line,.logic-verdict,.logic-option-sentence,.logic-feedback-line{display:block}
+.logic-sentence-line+.logic-sentence-line{margin-top:8px}
+.logic-option-sentence{margin-top:6px}
+.logic-feedback-line+.logic-feedback-line{margin-top:7px}
+.logic-streak{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:112px;margin:0 0 20px;padding:12px 24px;border:1px solid #cbded8;border-radius:20px;background:#fffefa;overflow:hidden}
+.logic-streak-copy{display:flex;align-items:center;gap:18px}
+.logic-streak-copy img{width:35px;height:35px;object-fit:contain}
+.logic-streak-copy strong,.logic-streak-copy small{display:block}
+.logic-streak-copy strong{font-size:18px}.logic-streak-copy small{margin-top:5px;color:#607a76;font-size:13px}
+.logic-streak-companion{display:flex;align-items:center;gap:14px}
+.logic-streak-sprite{--pose-x:0%;display:block;width:94px;height:94px;flex:none;background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v5.webp');background-size:600% 200%;background-position:var(--pose-x) 0%;background-repeat:no-repeat}
+.logic-streak[data-streak-stage="1"]{--pose-x:20%}.logic-streak[data-streak-stage="2"]{--pose-x:40%}.logic-streak[data-streak-stage="3"]{--pose-x:60%}.logic-streak[data-streak-stage="4"]{--pose-x:80%}.logic-streak[data-streak-stage="5"]{--pose-x:100%}
+.logic-streak[data-companion="phoebe"] .logic-streak-sprite{background-image:url('/assets/polysemy-lab/phoebe-cartoon-streak-six-stages-v4.png')}
+.logic-streak[data-companion="elsie"] .logic-streak-sprite{background-image:url('/assets/polysemy-lab/elsie-polysemy-eight-poses-v1.png')}
+.logic-streak[data-companion="noir"] .logic-streak-sprite{background-image:url('/assets/polysemy-lab/noir-polysemy-eight-poses-v1.png')}
+.logic-streak[data-companion="celeste"] .logic-streak-sprite{background-image:url('/assets/polysemy-lab/celeste-polysemy-eight-poses-v1.png')}
+.logic-streak[data-companion="elsie"],.logic-streak[data-companion="noir"],.logic-streak[data-companion="celeste"]{--pose-x:0%}
+.logic-streak:is([data-companion="elsie"],[data-companion="noir"],[data-companion="celeste"]) .logic-streak-sprite{background-size:400% 200%;background-position:var(--pose-x) var(--pose-y,0%)}
+.logic-streak:is([data-companion="elsie"],[data-companion="noir"],[data-companion="celeste"])[data-streak-stage="1"]{--pose-x:33.333%}
+.logic-streak:is([data-companion="elsie"],[data-companion="noir"],[data-companion="celeste"])[data-streak-stage="2"]{--pose-x:66.667%}
+.logic-streak:is([data-companion="elsie"],[data-companion="noir"],[data-companion="celeste"])[data-streak-stage="3"]{--pose-x:100%}
+.logic-streak:is([data-companion="elsie"],[data-companion="noir"],[data-companion="celeste"])[data-streak-stage="4"]{--pose-x:0%;--pose-y:100%}
+.logic-streak:is([data-companion="elsie"],[data-companion="noir"],[data-companion="celeste"])[data-streak-stage="5"]{--pose-x:33.333%;--pose-y:100%}
+.logic-streak-cheer{padding:7px 12px;border-radius:13px;background:#fff0bd;color:#6b4d19;font-size:14px;font-weight:800;white-space:nowrap}
+@media(max-width:980px){.logic-lesson-stream{order:1}.logic-lesson-rail{order:2}}
+@media(max-width:680px){.logic-home-intro h1{font-size:30px}.logic-module-card{grid-template-columns:auto minmax(0,1fr);gap:16px}.logic-module-card>b{display:none}.logic-module-card strong span,.logic-module-heading h1 span{display:block;margin-top:4px;white-space:normal}.logic-scroll-idea:nth-child(n){margin-left:0}.logic-scroll-idea{gap:12px}.logic-scroll-idea p{font-size:20px}.logic-streak{padding:10px 12px;gap:6px}.logic-streak-copy{gap:6px}.logic-streak-copy img{width:25px;height:25px}.logic-streak-copy strong{font-size:14px}.logic-streak-copy small{font-size:11px}.logic-streak-companion{gap:3px}.logic-streak-sprite{width:64px;height:64px}.logic-streak-cheer{font-size:11px;padding:5px 7px;white-space:normal;max-width:78px}}
+@media(prefers-reduced-motion:reduce){.logic-scroll-idea.is-visible{animation:none}.logic-module-card{transition:none}}

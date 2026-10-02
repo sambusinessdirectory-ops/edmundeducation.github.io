@@ -22,7 +22,11 @@
     [exerciseUrl]: { mode: 'exercise', title: '全稱實例化｜40 題練習｜EdmundEducation' }
   };
   const phases = ['基礎建立', '範圍、分類與方向', '多重條件與隱藏陷阱', '綜合與高階判斷'];
-  const state = { userId: '', stage: 0, beat: 0, question: 0, reverse: false, solved: new Set() };
+  const state = { userId: '', stage: 0, question: 0, reverse: false, solved: new Set(), streak: 0, bestStreak: 0 };
+  const companionNames = { eddy: 'Eddie', phoebe: 'Phoebe', elsie: 'Elsie', noir: 'Noir', celeste: 'Celeste' };
+  let companionApi;
+  let lessonObserver;
+  let lessonScrollFrame = 0;
   const stages = [
     {name:'全體 → 個體', accent:'gold', steps:[
       '<strong>原句說「全部」</strong>，就涵蓋群體裡的每一個成員。',
@@ -103,37 +107,86 @@
       const saved = JSON.parse(localStorage.getItem(storageKey()) || '{}');
       state.stage = Math.max(0, Math.min(stages.length - 1, Number(saved.stage) || 0));
       state.solved = new Set((saved.solved || []).filter((n) => Number.isInteger(n) && n >= 1 && n <= 40));
-    } catch { state.stage = 0; state.solved = new Set(); }
+      state.streak = Math.max(0, Number(saved.streak) || 0);
+      state.bestStreak = Math.max(state.streak, Number(saved.bestStreak) || 0);
+    } catch { state.stage = 0; state.solved = new Set(); state.streak = 0; state.bestStreak = 0; }
   }
   function saveProgress() {
-    try { localStorage.setItem(storageKey(), JSON.stringify({stage:state.stage,solved:[...state.solved]})); }
+    try { localStorage.setItem(storageKey(), JSON.stringify({stage:state.stage,solved:[...state.solved],streak:state.streak,bestStreak:state.bestStreak})); }
     catch { /* The lesson remains usable if browser storage is disabled. */ }
   }
+  function companionForStudent() { return companionApi?.selectedCompanion(state.userId) || 'eddy'; }
+  function cheerText() {
+    return state.streak >= 15 ? `連中 ${state.streak} 題！太厲害了！` :
+      state.streak >= 5 ? `連中 ${state.streak} 題！做得好！` :
+      state.streak >= 2 ? `連中 ${state.streak} 題，繼續！` : '你做得到！';
+  }
+  function updateStreakDisplay() {
+    const streak = dashboard.querySelector('.logic-streak');
+    if (!streak) return;
+    const companion = companionForStudent();
+    streak.dataset.companion = companion;
+    streak.dataset.streakStage = String(Math.min(5, Math.floor(state.streak / 5)));
+    streak.querySelector('[data-streak-current]').textContent = `連續答對 ${state.streak} 題`;
+    streak.querySelector('[data-streak-best]').textContent = `最高連勝 ${state.bestStreak} 題`;
+    streak.querySelector('[data-streak-cheer]').textContent = cheerText();
+    streak.querySelector('.logic-streak-sprite').setAttribute('aria-label', `${companionNames[companion]} 為你的連勝打氣`);
+  }
+  import('../shared-companion.mjs?v=20260928-sync1').then((api) => { companionApi = api; updateStreakDisplay(); }).catch(() => { /* Eddie remains available. */ });
   function shell(inner, wide=false) {
     dashboard.innerHTML = `<div class="logic-app ${wide?'logic-app--wide':''}">
       <div class="logic-topline"><a href="${homeUrl}">閱讀理解 · 題型邏輯</a><span>MODULE 01 / 全稱實例化</span></div>${inner}</div>`;
   }
+  function moduleNav(active) {
+    return `<div class="logic-module-heading"><p class="logic-kicker">MODULE 01</p><h1>全稱實例化 <span lang="en">Universal Instantiation</span></h1><p>全體 → 個體</p><nav aria-label="第一單元內容"><a href="${lessonUrl}" ${active==='lesson'?'aria-current="page"':''}>互動教材</a><a href="${exerciseUrl}" ${active==='exercise'?'aria-current="page"':''}>40 題練習</a></nav></div>`;
+  }
   function renderHome() {
-    shell(`<section class="logic-hero">
-      <div class="logic-hero__copy"><p class="logic-kicker">READING LOGIC · 01</p><h1>全稱實例化</h1><p class="logic-hero__en">Universal Instantiation</p><p>原文說「全部」，答案問「其中一個」。沿着拼圖，一步步學懂怎樣判斷。</p>
-      <div class="logic-hero__actions"><a class="logic-primary" href="${lessonUrl}">開始互動教材 <span aria-hidden="true">→</span></a><a class="logic-secondary" href="${exerciseUrl}">進入 40 題練習</a></div></div>
-      <div class="logic-hero__art" aria-hidden="true"><div class="logic-piece logic-piece--hero logic-piece--gold">ALL</div><div class="logic-art-arrow">→</div><div class="logic-piece logic-piece--hero logic-piece--blue">ONE</div></div>
-    </section>
-    <section class="logic-home-grid"><a class="logic-home-card" href="${lessonUrl}"><span class="logic-number">01</span><span><small>CURATION · 14 個互動關卡</small><strong>全體 → 個體</strong><em>每次只看一小步，動手辨認集合、成員和推理方向。</em></span><b aria-hidden="true">↗</b></a>
-    <a class="logic-home-card logic-home-card--practice" href="${exerciseUrl}"><span class="logic-number">02</span><span><small>EXERCISE · 40 題</small><strong>練習時間！</strong></span><b aria-hidden="true">↗</b></a></section>
+    shell(`<section class="logic-home-intro"><p class="logic-kicker">READING LOGIC</p><h1>閱讀理解 · 題型邏輯</h1><p>一步步看懂原文，再找出一定成立的答案。</p></section>
+    <a class="logic-module-card" href="${lessonUrl}"><span class="logic-number">01</span><span><small>MODULE 01</small><strong>全稱實例化 <span lang="en">Universal Instantiation</span></strong><em>全體 → 個體</em><small>互動教材 · 40 題練習</small></span><b aria-hidden="true">↗</b></a>
     <p class="logic-save-note">此裝置會按學生帳戶記住教材位置和已完成的練習。已完成 ${state.solved.size} / 40 題。</p>`);
   }
   function renderLesson() {
-    const stage = stages[state.stage];
-    const isLastBeat = state.beat >= stage.steps.length - 1;
-    const isLastStage = state.stage === stages.length - 1;
-    const beatCards = stage.steps.slice(0, state.beat + 1).map((step, index) => `<div class="logic-beat" style="--beat-index:${index}"><span class="logic-beat__number">${String(index+1).padStart(2,'0')}</span><p>${step}</p></div>`).join('');
-    let special = '';
-    if (stage.special === 'fruit' && state.beat >= 1) special = `<div class="logic-fruit-box"><p>FRUIT BOX · 點一下成員</p><div><button data-fruit="apple">apple</button><button data-fruit="banana">banana</button><button data-fruit="mango">mango</button></div><strong data-fruit-result aria-live="polite">哪個水果屬於 all the fruit？</strong></div>`;
-    if (stage.special === 'direction' && isLastBeat) special = `<div class="logic-mini"><p>選一個有根據的方向</p><button data-direction="yes">all animals → dogs</button><button data-direction="no">dogs → all animals</button><strong data-direction-result aria-live="polite"></strong></div>`;
-    const nextLabel = !isLastBeat ? '揭開下一步' : isLastStage ? '開始 40 題練習' : '下一個拼圖';
-    shell(`<div class="logic-lesson-layout"><aside class="logic-lesson-rail"><p class="logic-kicker">CURATION · 互動教材</p><h1>全體 <span>→</span> 個體</h1><p>逐步揭開規則，再到練習頁驗證自己的判斷。</p><div class="logic-rail-progress"><span>第 ${state.stage+1} / ${stages.length} 關</span><span>${Math.round(((state.stage + (state.beat+1)/stage.steps.length) / stages.length)*100)}%</span></div><div class="logic-progress-track"><i style="width:${((state.stage + (state.beat+1)/stage.steps.length) / stages.length)*100}%"></i></div><nav aria-label="教材關卡">${stages.map((s,i)=>`<button class="logic-rail-node ${i===state.stage?'is-current':''} ${i<state.stage?'is-done':''}" data-stage="${i}" aria-current="${i===state.stage?'step':'false'}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.name)}</button>`).join('')}</nav></aside>
-    <section class="logic-lesson-card logic-theme--${stage.accent}" aria-labelledby="logic-stage-title"><div class="logic-stage-header"><span class="logic-piece logic-piece--small">${String(state.stage+1).padStart(2,'0')}</span><div><p class="logic-kicker">PUZZLE ${String(state.stage+1).padStart(2,'0')} / ${String(stages.length).padStart(2,'0')}</p><h2 id="logic-stage-title">${esc(stage.name)}</h2></div></div><div class="logic-beats" aria-live="polite">${beatCards}</div>${special}<div class="logic-lesson-actions"><button class="logic-secondary" data-lesson-back ${state.stage===0&&state.beat===0?'disabled':''}>上一步</button><button class="logic-primary" data-lesson-next>${nextLabel} <span aria-hidden="true">→</span></button></div></section></div>`);
+    const resumeStage = state.stage;
+    const sections = stages.map((stage, index) => {
+      const ideas = stage.steps.map((step, idea) => `<article class="logic-scroll-idea"><span class="logic-beat__number">${String(idea+1).padStart(2,'0')}</span><p>${step}</p></article>`).join('');
+      const special = stage.special === 'fruit' ? `<div class="logic-fruit-box"><p>FRUIT BOX · 點一下成員</p><div><button data-fruit="apple">apple</button><button data-fruit="banana">banana</button><button data-fruit="mango">mango</button></div><strong data-fruit-result aria-live="polite">哪個水果屬於 all the fruit？</strong></div>` : stage.special === 'direction' ? `<div class="logic-mini"><p>選一個有根據的方向</p><button data-direction="yes">all animals → dogs</button><button data-direction="no">dogs → all animals</button><strong data-direction-result aria-live="polite"></strong></div>` : '';
+      return `<section class="logic-scroll-stage logic-theme--${stage.accent}" data-stage-section="${index}" id="logic-stage-${index+1}" aria-labelledby="logic-stage-title-${index+1}"><div class="logic-stage-header"><span class="logic-piece logic-piece--small">${String(index+1).padStart(2,'0')}</span><div><p class="logic-kicker">IDEA ${String(index+1).padStart(2,'0')} / ${stages.length}</p><h2 id="logic-stage-title-${index+1}">${esc(stage.name)}</h2></div></div><div class="logic-scroll-ideas">${ideas}</div>${special}</section>`;
+    }).join('');
+    shell(`${moduleNav('lesson')}<div class="logic-lesson-layout"><aside class="logic-lesson-rail"><p class="logic-kicker">CURATION · 互動教材</p><h2>全體 <span>→</span> 個體</h2><div class="logic-rail-progress"><span data-lesson-position>第 ${state.stage+1} / ${stages.length} 節</span><span data-lesson-percent>${Math.round((state.stage+1)/stages.length*100)}%</span></div><div class="logic-progress-track"><i data-lesson-progress style="width:${(state.stage+1)/stages.length*100}%"></i></div><nav aria-label="教材章節">${stages.map((s,i)=>`<button class="logic-rail-node ${i===state.stage?'is-current':''}" data-stage="${i}" aria-current="${i===state.stage?'step':'false'}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.name)}</button>`).join('')}</nav></aside><div class="logic-lesson-stream">${sections}<div class="logic-lesson-finish"><h2>準備好練習了嗎？</h2><a class="logic-primary" href="${exerciseUrl}">開始 40 題練習 <span aria-hidden="true">→</span></a></div></div></div>`, true);
+    observeLessonIdeas();
+    requestAnimationFrame(() => {
+      if (mode !== 'lesson') return;
+      if (resumeStage > 0) dashboard.querySelector(`[data-stage-section="${resumeStage}"]`)?.scrollIntoView({behavior:'auto',block:'start'});
+      updateLessonProgress();
+    });
+  }
+  function observeLessonIdeas() {
+    lessonObserver?.disconnect();
+    if (!('IntersectionObserver' in window)) return;
+    lessonObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        lessonObserver.unobserve(entry.target);
+      });
+    }, {threshold:0.12});
+    dashboard.querySelectorAll('.logic-scroll-idea').forEach((idea) => lessonObserver.observe(idea));
+  }
+  function updateLessonProgress() {
+    if (mode !== 'lesson' || !state.userId) return;
+    const sections = [...dashboard.querySelectorAll('[data-stage-section]')];
+    if (!sections.length) return;
+    const pivot = Math.min(innerHeight * 0.4, 260);
+    let active = 0;
+    sections.forEach((section, index) => { if (section.getBoundingClientRect().top <= pivot) active = index; });
+    if (active !== state.stage) { state.stage = active; saveProgress(); }
+    dashboard.querySelector('[data-lesson-position]').textContent = `第 ${active+1} / ${stages.length} 節`;
+    dashboard.querySelector('[data-lesson-percent]').textContent = `${Math.round((active+1)/stages.length*100)}%`;
+    dashboard.querySelector('[data-lesson-progress]').style.width = `${(active+1)/stages.length*100}%`;
+    dashboard.querySelectorAll('.logic-rail-node').forEach((node, index) => {
+      node.classList.toggle('is-current', index === active);
+      node.setAttribute('aria-current', index === active ? 'step' : 'false');
+    });
   }
   function fitOptionCards() {
     const cards=[...dashboard.querySelectorAll('.logic-option')];
@@ -151,6 +204,20 @@
   function translationOnly(text) {
     return text.replace(/。[^。]*？\s*）$/, '。）');
   }
+  function sentenceLines(text) {
+    const parts = typeof Intl.Segmenter === 'function'
+      ? [...new Intl.Segmenter('en', {granularity:'sentence'}).segment(text)].map((part) => part.segment.trim()).filter(Boolean)
+      : text.split(/(?<=[.!?])\s+(?=[A-Z])/u);
+    return parts.map((part) => `<span class="logic-sentence-line">${esc(part)}</span>`).join('');
+  }
+  function feedbackLines(text) {
+    return String(text).split(/(?<=[。；！？])\s*/u).map((part) => part.trim()).filter(Boolean)
+      .map((part) => `<span class="logic-feedback-line">${esc(part)}</span>`).join('');
+  }
+  function streakMarkup() {
+    const companion = companionForStudent();
+    return `<section class="logic-streak" data-companion="${companion}" data-streak-stage="${Math.min(5,Math.floor(state.streak/5))}" aria-live="polite"><div class="logic-streak-copy"><img src="/assets/schedule/day-streak-fire.gif" alt="" aria-hidden="true"><div><strong data-streak-current>連續答對 ${state.streak} 題</strong><small data-streak-best>最高連勝 ${state.bestStreak} 題</small></div></div><div class="logic-streak-companion"><span class="logic-streak-sprite" role="img" aria-label="${companionNames[companion]} 為你的連勝打氣"></span><span class="logic-streak-cheer" data-streak-cheer>${cheerText()}</span></div></section>`;
+  }
   function renderExercise() {
     const q = questions[state.question];
     const solved = state.solved.has(q.number);
@@ -164,14 +231,14 @@
       const correct = option.key === q.answer;
       const verdict = correct ? '推理成立' : solved ? '不成立' : '再想一想';
       const footer = solved ? '' : '<em>點此翻回選項，或試另一張卡片</em>';
-      return `<button class="logic-option ${solved&&correct?'is-correct':''} ${solved?'is-flipped':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong>${verdict} · ${esc(option.en)}</strong><small>${esc(option.feedback)}</small>${footer}</span></span></span></button>`;
+      return `<button class="logic-option ${solved&&correct?'is-correct':''} ${solved?'is-flipped':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong><span class="logic-verdict">${verdict} ·</span><span class="logic-option-sentence">${esc(option.en)}</span></strong><small>${feedbackLines(option.feedback)}</small>${footer}</span></span></span></button>`;
     }).join('');
-    shell(`<div class="logic-exercise-head"><h1>練習時間！</h1><a class="logic-secondary" href="${lessonUrl}">返回互動教材</a></div>
+    shell(`${moduleNav('exercise')}<div class="logic-exercise-head"><h1>練習時間！</h1><a class="logic-secondary" href="${lessonUrl}">返回互動教材</a></div>${streakMarkup()}
     <div class="logic-exercise-layout"><aside class="logic-map"><div class="logic-map-top"><strong>已完成 ${state.solved.size} / 40</strong><div class="logic-progress-track"><i style="width:${state.solved.size*2.5}%"></i></div><div class="logic-order-switch" role="group" aria-label="題目順序"><button type="button" data-order="forward" aria-pressed="${!state.reverse}">1 → 40</button><button type="button" data-order="reverse" aria-pressed="${state.reverse}">40 → 1</button></div></div>${nodeGroups}</aside>
-    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><div class="logic-question-heading-row"><h2 id="logic-question-heading">Which statement must be true?</h2><span lang="zh-Hant">以下哪一句一定是真的？</span></div><div class="logic-question-statement"><p class="logic-question-en">${esc(statementOnly(q.promptEn))}</p><p class="logic-question-zh">${esc(translationOnly(q.promptZh))}</p></div><div class="logic-option-grid">${optionCards}</div><p class="logic-answer-status" role="status" aria-live="polite"></p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${(state.reverse?state.question===39:state.question===0)?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${(state.reverse?state.question===0:state.question===39)?`返回第 ${state.reverse?'40':'1'} 題`:'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
+    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><div class="logic-question-heading-row"><h2 id="logic-question-heading">Which statement must be true?</h2><span lang="zh-Hant">以下哪一句一定是真的？</span></div><div class="logic-question-statement"><p class="logic-question-en">${sentenceLines(statementOnly(q.promptEn))}</p><p class="logic-question-zh">${esc(translationOnly(q.promptZh))}</p></div><div class="logic-option-grid">${optionCards}</div><p class="logic-answer-status" role="status" aria-live="polite"></p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${(state.reverse?state.question===39:state.question===0)?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${(state.reverse?state.question===0:state.question===39)?`返回第 ${state.reverse?'40':'1'} 題`:'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
     fitOptionCards();
   }
-  function render() { if(mode==='home')renderHome(); else if(mode==='lesson')renderLesson(); else renderExercise(); }
+  function render() { if(mode!=='lesson')lessonObserver?.disconnect(); if(mode==='home')renderHome(); else if(mode==='lesson')renderLesson(); else renderExercise(); }
   function routeTo(file, replace = false) {
     const route = routes[file];
     if (!route) return false;
@@ -198,9 +265,7 @@
   });
   dashboard.addEventListener('click',(event)=>{
     const stageButton=event.target.closest('[data-stage]');
-    if(stageButton){state.stage=Number(stageButton.dataset.stage);state.beat=0;saveProgress();renderLesson();return;}
-    if(event.target.closest('[data-lesson-back]')){if(state.beat>0)state.beat--;else if(state.stage>0){state.stage--;state.beat=stages[state.stage].steps.length-1;}saveProgress();renderLesson();return;}
-    if(event.target.closest('[data-lesson-next]')){if(state.beat<stages[state.stage].steps.length-1)state.beat++;else if(state.stage<stages.length-1){state.stage++;state.beat=0;}else{routeTo(exerciseUrl);return;}saveProgress();renderLesson();return;}
+    if(stageButton){state.stage=Number(stageButton.dataset.stage);saveProgress();dashboard.querySelector(`[data-stage-section="${state.stage}"]`)?.scrollIntoView({behavior:'smooth',block:'start'});return;}
     const fruit=event.target.closest('[data-fruit]');
     if(fruit){dashboard.querySelector('[data-fruit-result]').textContent=`I like the ${fruit.dataset.fruit}. 因為 ${fruit.dataset.fruit} 在盒子裡，也屬於 all the fruit。`;fruit.classList.add('is-picked');return;}
     const direction=event.target.closest('[data-direction]');
@@ -215,7 +280,10 @@
     if (state.solved.has(q.number)) return;
     if (key===q.answer) {
       state.solved.add(q.number);
+      state.streak++;
+      state.bestStreak=Math.max(state.bestStreak,state.streak);
       saveProgress();
+      updateStreakDisplay();
       dashboard.querySelector('.logic-map-top strong').textContent=`已完成 ${state.solved.size} / 40`;
       dashboard.querySelector('.logic-map-top .logic-progress-track i').style.width=`${state.solved.size*2.5}%`;
       dashboard.querySelector(`.logic-map-node[data-question="${state.question}"]`)?.classList.add('is-solved');
@@ -223,7 +291,7 @@
         const isCorrect=card.dataset.answer===q.answer;
         card.classList.add('is-flipped');
         if (isCorrect) card.classList.add('is-correct');
-        else card.querySelector('.logic-option-back strong').textContent=`不成立 · ${q.options.find((choice)=>choice.key===card.dataset.answer).en}`;
+        else card.querySelector('.logic-verdict').textContent='不成立 ·';
         card.querySelector('.logic-option-back em')?.remove();
       });
       dashboard.querySelector('.logic-answer-status').textContent='';
@@ -231,8 +299,19 @@
     } else {
       const showing=option.classList.toggle('is-flipped');
       dashboard.querySelector('.logic-answer-status').textContent='這張卡片背面有提示。想一想，再選一次。';
-      if(showing) document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:false}}));
+      if(showing){state.streak=0;saveProgress();updateStreakDisplay();document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:false}}));}
     }
+  });
+  window.addEventListener('scroll',()=>{
+    if(mode!=='lesson'||lessonScrollFrame)return;
+    lessonScrollFrame=requestAnimationFrame(()=>{lessonScrollFrame=0;updateLessonProgress();});
+  },{passive:true});
+  window.addEventListener('storage',(event)=>{
+    if(!state.userId||!event.key)return;
+    if(event.key===storageKey()){
+      loadProgress();render();return;
+    }
+    if(event.key===companionApi?.companionKey(state.userId)||event.key.startsWith('edmund-lesson-map-v1:')||event.key.startsWith('edmund-expression-meadow-v2:')||event.key.startsWith('writing-chess-map-v1:')) updateStreakDisplay();
   });
   window.addEventListener('resize',()=>{if(mode==='exercise'&&state.userId)fitOptionCards();});
   window.addEventListener('popstate',()=>{
