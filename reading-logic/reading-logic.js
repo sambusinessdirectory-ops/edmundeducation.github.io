@@ -22,7 +22,7 @@
     [exerciseUrl]: { mode: 'exercise', title: '全稱實例化｜40 題練習｜EdmundEducation' }
   };
   const phases = ['基礎建立', '範圍、分類與方向', '多重條件與隱藏陷阱', '綜合與高階判斷'];
-  const state = { userId: '', stage: 0, beat: 0, question: 0, solved: new Set() };
+  const state = { userId: '', stage: 0, beat: 0, question: 0, reverse: false, solved: new Set() };
   const stages = [
     {name:'全體 → 個體', accent:'gold', steps:[
       '<strong>原句說「全部」</strong>，就涵蓋群體裡的每一個成員。',
@@ -120,7 +120,7 @@
       <div class="logic-hero__art" aria-hidden="true"><div class="logic-piece logic-piece--hero logic-piece--gold">ALL</div><div class="logic-art-arrow">→</div><div class="logic-piece logic-piece--hero logic-piece--blue">ONE</div></div>
     </section>
     <section class="logic-home-grid"><a class="logic-home-card" href="${lessonUrl}"><span class="logic-number">01</span><span><small>CURATION · 14 個互動關卡</small><strong>全體 → 個體</strong><em>每次只看一小步，動手辨認集合、成員和推理方向。</em></span><b aria-hidden="true">↗</b></a>
-    <a class="logic-home-card logic-home-card--practice" href="${exerciseUrl}"><span class="logic-number">02</span><span><small>EXERCISE · 40 題</small><strong>拼圖練習路線</strong><em>四個難度階段；錯答只翻開所選卡片的提示。</em></span><b aria-hidden="true">↗</b></a></section>
+    <a class="logic-home-card logic-home-card--practice" href="${exerciseUrl}"><span class="logic-number">02</span><span><small>EXERCISE · 40 題</small><strong>練習時間！</strong></span><b aria-hidden="true">↗</b></a></section>
     <p class="logic-save-note">此裝置會按學生帳戶記住教材位置和已完成的練習。已完成 ${state.solved.size} / 40 題。</p>`);
   }
   function renderLesson() {
@@ -148,19 +148,27 @@
   function statementOnly(text) {
     return text.replace(/\s+(?:Which statement|What can we conclude)[^?]*\?$/i, '').trim();
   }
+  function translationOnly(text) {
+    return text.replace(/。[^。]*？\s*）$/, '。）');
+  }
   function renderExercise() {
     const q = questions[state.question];
     const solved = state.solved.has(q.number);
-    const nodeGroups = phases.map((phase, group) => `<section class="logic-map-group"><h2>${String(group+1).padStart(2,'0')} · ${phase}</h2><div class="logic-map-nodes">${questions.slice(group*10, group*10+10).map((item,index)=>`<button class="logic-map-node logic-color-${(index+group)%4} ${item.number===q.number?'is-current':''} ${state.solved.has(item.number)?'is-solved':''}" data-question="${item.number-1}" aria-label="第 ${item.number} 題${state.solved.has(item.number)?'，已完成':''}" aria-current="${item.number===q.number?'true':'false'}"><span>${String(item.number).padStart(2,'0')}</span></button>`).join('')}</div></section>`).join('');
+    const groupOrder = state.reverse ? [3, 2, 1, 0] : [0, 1, 2, 3];
+    const nodeGroups = groupOrder.map((group) => {
+      const items = questions.slice(group*10, group*10+10);
+      if (state.reverse) items.reverse();
+      return `<section class="logic-map-group"><h2>${String(group+1).padStart(2,'0')} · ${phases[group]}</h2><div class="logic-map-nodes">${items.map((item,index)=>`<button class="logic-map-node logic-color-${(index+group)%4} ${item.number===q.number?'is-current':''} ${state.solved.has(item.number)?'is-solved':''}" data-question="${item.number-1}" aria-label="第 ${item.number} 題${state.solved.has(item.number)?'，已完成':''}" aria-current="${item.number===q.number?'true':'false'}"><span>${String(item.number).padStart(2,'0')}</span></button>`).join('')}</div></section>`;
+    }).join('');
     const optionCards = q.options.map((option) => {
       const correct = option.key === q.answer;
       const verdict = correct ? '推理成立' : solved ? '不成立' : '再想一想';
-      const footer = solved ? '這題已完成，全部選項已揭曉' : '點此翻回選項，或試另一張卡片';
-      return `<button class="logic-option ${solved&&correct?'is-correct':''} ${solved?'is-flipped':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong>${verdict} · ${esc(option.en)}</strong><small>${esc(option.feedback)}</small><em>${footer}</em></span></span></span></button>`;
+      const footer = solved ? '' : '<em>點此翻回選項，或試另一張卡片</em>';
+      return `<button class="logic-option ${solved&&correct?'is-correct':''} ${solved?'is-flipped':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong>${verdict} · ${esc(option.en)}</strong><small>${esc(option.feedback)}</small>${footer}</span></span></span></button>`;
     }).join('');
-    shell(`<div class="logic-exercise-head"><div><p class="logic-kicker">EXERCISE · 40-PIECE PUZZLE</p><h1>拼圖練習路線</h1><p>選錯時，只翻開那張卡片的解說；答案仍由你找出。</p></div><a class="logic-secondary" href="${lessonUrl}">返回互動教材</a></div>
-    <div class="logic-exercise-layout"><aside class="logic-map"><div class="logic-map-top"><strong>已完成 ${state.solved.size} / 40</strong><div class="logic-progress-track"><i style="width:${state.solved.size*2.5}%"></i></div></div>${nodeGroups}</aside>
-    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><h2 id="logic-question-heading">Which statement must be true?</h2><div class="logic-question-statement"><p class="logic-question-en">${esc(statementOnly(q.promptEn))}</p><p class="logic-question-zh">${esc(q.promptZh)}</p></div><div class="logic-option-grid">${optionCards}</div><p class="logic-answer-status" role="status" aria-live="polite">${solved?'這題已完成；四張卡片的解說都已揭曉。':'找出原文必然支持的一句；錯答會顯示提示，但不會揭開正解。'}</p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${state.question===0?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${state.question===39?'返回第一題':'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
+    shell(`<div class="logic-exercise-head"><h1>練習時間！</h1><a class="logic-secondary" href="${lessonUrl}">返回互動教材</a></div>
+    <div class="logic-exercise-layout"><aside class="logic-map"><div class="logic-map-top"><strong>已完成 ${state.solved.size} / 40</strong><div class="logic-progress-track"><i style="width:${state.solved.size*2.5}%"></i></div><div class="logic-order-switch" role="group" aria-label="題目順序"><button type="button" data-order="forward" aria-pressed="${!state.reverse}">1 → 40</button><button type="button" data-order="reverse" aria-pressed="${state.reverse}">40 → 1</button></div></div>${nodeGroups}</aside>
+    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><div class="logic-question-heading-row"><h2 id="logic-question-heading">Which statement must be true?</h2><span lang="zh-Hant">以下哪一句一定是真的？</span></div><div class="logic-question-statement"><p class="logic-question-en">${esc(statementOnly(q.promptEn))}</p><p class="logic-question-zh">${esc(translationOnly(q.promptZh))}</p></div><div class="logic-option-grid">${optionCards}</div><p class="logic-answer-status" role="status" aria-live="polite"></p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${(state.reverse?state.question===39:state.question===0)?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${(state.reverse?state.question===0:state.question===39)?`返回第 ${state.reverse?'40':'1'} 題`:'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
     fitOptionCards();
   }
   function render() { if(mode==='home')renderHome(); else if(mode==='lesson')renderLesson(); else renderExercise(); }
@@ -197,9 +205,11 @@
     if(fruit){dashboard.querySelector('[data-fruit-result]').textContent=`I like the ${fruit.dataset.fruit}. 因為 ${fruit.dataset.fruit} 在盒子裡，也屬於 all the fruit。`;fruit.classList.add('is-picked');return;}
     const direction=event.target.closest('[data-direction]');
     if(direction){dashboard.querySelector('[data-direction-result]').textContent=direction.dataset.direction==='yes'?'對！all animals 的範圍包括 dogs。':'再想一想：只知道 dogs，不能推出 all animals。';return;}
+    const orderButton=event.target.closest('[data-order]');
+    if(orderButton){const reverse=orderButton.dataset.order==='reverse';if(state.reverse!==reverse){state.reverse=reverse;state.question=reverse?39:0;renderExercise();}return;}
     const node=event.target.closest('[data-question]');if(node){setQuestion(Number(node.dataset.question));return;}
-    if(event.target.closest('[data-question-prev]')){setQuestion(Math.max(0,state.question-1));return;}
-    if(event.target.closest('[data-question-next]')){setQuestion(state.question+1);return;}
+    if(event.target.closest('[data-question-prev]')){setQuestion(state.question+(state.reverse?1:-1));return;}
+    if(event.target.closest('[data-question-next]')){setQuestion(state.question+(state.reverse?-1:1));return;}
     const option=event.target.closest('[data-answer]');if(!option||mode!=='exercise')return;
     const q=questions[state.question];const key=option.dataset.answer;
     if (state.solved.has(q.number)) return;
@@ -214,9 +224,9 @@
         card.classList.add('is-flipped');
         if (isCorrect) card.classList.add('is-correct');
         else card.querySelector('.logic-option-back strong').textContent=`不成立 · ${q.options.find((choice)=>choice.key===card.dataset.answer).en}`;
-        card.querySelector('.logic-option-back em').textContent='這題已完成，全部選項已揭曉';
+        card.querySelector('.logic-option-back em')?.remove();
       });
-      dashboard.querySelector('.logic-answer-status').textContent='推理成立！四張卡片的解說都已揭曉。';
+      dashboard.querySelector('.logic-answer-status').textContent='';
       document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:true}}));
     } else {
       const showing=option.classList.toggle('is-flipped');
