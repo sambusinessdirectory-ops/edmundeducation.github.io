@@ -202,7 +202,7 @@ function lessonTitle(lesson) {
 
 function lessonHeadingTitle(lesson) {
   const title = lessonTitle(lesson);
-  return Number(lesson?.order) >= 1 && Number(lesson?.order) <= 60
+  return Number(lesson?.order) >= 1 && Number(lesson?.order) <= 90
     ? title.replace(/-(?=[A-Za-z])/g, "-\u2060")
     : title;
 }
@@ -317,7 +317,7 @@ function currentExerciseDuration() {
 function showView(name, { preserveScroll = false } = {}) {
   if (state.currentView === "lesson" && (name !== "lesson" || state.lessonPage !== 4)) pauseExerciseClock();
   if (name !== "lesson") removeFloatingExerciseActions();
-  if (name !== "lesson") document.body?.classList?.remove("has-sentence-autumn-lesson");
+  if (name !== "lesson") document.body?.classList?.remove("has-sentence-autumn-lesson", "has-sentence-zen-lesson");
   if (name !== "lesson") { lessonNavigation += 1; elements.lessonStepper.inert = false; }
   state.currentView = name;
   sentenceMap?.setActive(name === "dashboard");
@@ -1359,7 +1359,7 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   if (lesson && !lessonIsLoaded(lessonId)) {
     pauseExerciseClock();
     state.lessonId = lessonId;
-    updateSeasideLesson(lesson);
+    updateLessonTheme(lesson);
     state.exercise = null;
     elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
     elements.lessonTitle.textContent = lessonHeadingTitle(lesson);
@@ -1380,7 +1380,7 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   if (!lesson) return;
   pauseExerciseClock();
   state.lessonId = lesson.id;
-  updateSeasideLesson(lesson);
+  updateLessonTheme(lesson);
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
   saveExerciseDraft();
   state.exercise = attempt ? (restoreExerciseDraft(lesson, attempt) || exerciseFromAttempt(attempt)) : null;
@@ -1392,17 +1392,21 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   if (targetQuestionId) focusExerciseQuestion(targetQuestionId);
 }
 
-function updateSeasideLesson(lesson) {
+function updateLessonTheme(lesson) {
   const level = Number(lesson?.order || lessonList().findIndex((item) => item.id === lesson?.id) + 1);
   const isSeaside = level >= 1 && level <= 30;
   const isAutumn = level >= 31 && level <= 60;
+  const isZen = level >= 61 && level <= 90;
   elements.lessonShell?.classList.toggle("sentence-seaside-lesson", isSeaside);
   elements.lessonShell?.classList.toggle("sentence-autumn-lesson", isAutumn);
+  elements.lessonShell?.classList.toggle("sentence-zen-lesson", isZen);
   document.body?.classList?.toggle("has-sentence-autumn-lesson", isAutumn);
+  document.body?.classList?.toggle("has-sentence-zen-lesson", isZen);
   if (elements.seasideLevel) {
-    elements.seasideLevel.hidden = !isSeaside && !isAutumn;
+    elements.seasideLevel.hidden = !isSeaside && !isAutumn && !isZen;
     if (isSeaside) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · CAPTAIN'S LOG`;
     if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · 森林漫步`;
+    if (isZen) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · 庭園慢行`;
   }
   const autumnStages = [
     ["發現 · Discover", "Formula + Example"],
@@ -1478,7 +1482,10 @@ function updateLessonStepper() {
 function infoPageHeader(number, title, english, description = "") {
   const seasideLabels = ["CAPTAIN'S LOG", "LOOKOUT POINT", "IMPORTANT RULES"];
   const autumnLabels = ["FORMULA + EXAMPLE", "FOREST INSIGHTS", "IMPORTANT RULES"];
-  const pageEnglish = elements.lessonShell?.classList.contains("sentence-autumn-lesson")
+  const zenLabels = ["FORMULA + EXAMPLE", "BENEFITS", "IMPORTANT RULES"];
+  const pageEnglish = elements.lessonShell?.classList.contains("sentence-zen-lesson")
+    ? zenLabels[Number(number) - 1] || english
+    : elements.lessonShell?.classList.contains("sentence-autumn-lesson")
     ? autumnLabels[Number(number) - 1] || english
     : elements.lessonShell?.classList.contains("sentence-seaside-lesson")
       ? seasideLabels[Number(number) - 1] || english : english;
@@ -1542,8 +1549,9 @@ function bilingualItem(item) {
 function renderBenefitsPage(lesson) {
   const benefits = Array.isArray(lesson.benefits) ? lesson.benefits : [];
   const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
+  const isZen = elements.lessonShell?.classList.contains("sentence-zen-lesson");
   elements.lessonContent.innerHTML = `<article class="info-page seaside-benefits-page">
-    ${infoPageHeader(2, isAutumn ? "學習好處｜Benefits" : "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
+    ${infoPageHeader(2, isAutumn || isZen ? "學習好處｜Benefits" : "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
@@ -1557,8 +1565,9 @@ function renderBenefitsPage(lesson) {
 function renderRulesPage(lesson) {
   const rules = Array.isArray(lesson.rules) ? lesson.rules : [];
   const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
+  const isZen = elements.lessonShell?.classList.contains("sentence-zen-lesson");
   elements.lessonContent.innerHTML = `<article class="info-page seaside-rules-page">
-    ${infoPageHeader(3, isAutumn ? "重要規則" : "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
+    ${infoPageHeader(3, isAutumn || isZen ? "重要規則" : "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
