@@ -1,13 +1,26 @@
 (function () {
   'use strict';
-  const mode = document.body.dataset.logicView;
-  const questions = window.READING_LOGIC_MODULE_1_QUESTIONS || [];
+  let mode = document.body.dataset.logicView;
+  const exactMiaToMary = (value) => String(value ?? '').replace(/\bMia\b/g, 'Mary');
+  const questions = (window.READING_LOGIC_MODULE_1_QUESTIONS || []).map((question) => ({
+    ...question,
+    promptEn: exactMiaToMary(question.promptEn),
+    promptZh: exactMiaToMary(question.promptZh),
+    options: question.options.map((option) => ({
+      ...option, en: exactMiaToMary(option.en), zh: exactMiaToMary(option.zh), feedback: exactMiaToMary(option.feedback)
+    }))
+  }));
   const dashboard = document.querySelector('[data-view="dashboard"]');
   if (!dashboard || !['home', 'lesson', 'exercise'].includes(mode)) return;
   const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const lessonUrl = 'reading-logic-module-1.html';
   const exerciseUrl = 'reading-logic-exercise-1.html';
   const homeUrl = 'reading-logic-system.html';
+  const routes = {
+    [homeUrl]: { mode: 'home', title: 'Reading Logic｜閱讀理解｜題型邏輯｜EdmundEducation' },
+    [lessonUrl]: { mode: 'lesson', title: '全稱實例化｜互動教材｜EdmundEducation' },
+    [exerciseUrl]: { mode: 'exercise', title: '全稱實例化｜40 題練習｜EdmundEducation' }
+  };
   const phases = ['基礎建立', '範圍、分類與方向', '多重條件與隱藏陷阱', '綜合與高階判斷'];
   const state = { userId: '', stage: 0, beat: 0, question: 0, solved: new Set() };
   const stages = [
@@ -122,22 +135,64 @@
     shell(`<div class="logic-lesson-layout"><aside class="logic-lesson-rail"><p class="logic-kicker">CURATION · 互動教材</p><h1>全體 <span>→</span> 個體</h1><p>逐步揭開規則，再到練習頁驗證自己的判斷。</p><div class="logic-rail-progress"><span>第 ${state.stage+1} / ${stages.length} 關</span><span>${Math.round(((state.stage + (state.beat+1)/stage.steps.length) / stages.length)*100)}%</span></div><div class="logic-progress-track"><i style="width:${((state.stage + (state.beat+1)/stage.steps.length) / stages.length)*100}%"></i></div><nav aria-label="教材關卡">${stages.map((s,i)=>`<button class="logic-rail-node ${i===state.stage?'is-current':''} ${i<state.stage?'is-done':''}" data-stage="${i}" aria-current="${i===state.stage?'step':'false'}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.name)}</button>`).join('')}</nav></aside>
     <section class="logic-lesson-card logic-theme--${stage.accent}" aria-labelledby="logic-stage-title"><div class="logic-stage-header"><span class="logic-piece logic-piece--small">${String(state.stage+1).padStart(2,'0')}</span><div><p class="logic-kicker">PUZZLE ${String(state.stage+1).padStart(2,'0')} / ${String(stages.length).padStart(2,'0')}</p><h2 id="logic-stage-title">${esc(stage.name)}</h2></div></div><div class="logic-beats" aria-live="polite">${beatCards}</div>${special}<div class="logic-lesson-actions"><button class="logic-secondary" data-lesson-back ${state.stage===0&&state.beat===0?'disabled':''}>上一步</button><button class="logic-primary" data-lesson-next>${nextLabel} <span aria-hidden="true">→</span></button></div></section></div>`);
   }
+  function fitOptionCards() {
+    const cards=[...dashboard.querySelectorAll('.logic-option')];
+    const columns=matchMedia('(max-width:680px)').matches ? 1 : 2;
+    cards.forEach((card)=>{card.style.height='';card.querySelector('.logic-option-inner').style.height='';});
+    for(let start=0;start<cards.length;start+=columns){
+      const row=cards.slice(start,start+columns);
+      const height=Math.max(170,...row.flatMap((card)=>[card.querySelector('.logic-option-front').scrollHeight,card.querySelector('.logic-option-back').scrollHeight]))+2;
+      row.forEach((card)=>{card.style.height=`${height}px`;card.querySelector('.logic-option-inner').style.height=`${height}px`;});
+    }
+  }
+  function statementOnly(text) {
+    return text.replace(/\s+(?:Which statement|What can we conclude)[^?]*\?$/i, '').trim();
+  }
   function renderExercise() {
     const q = questions[state.question];
     const solved = state.solved.has(q.number);
     const nodeGroups = phases.map((phase, group) => `<section class="logic-map-group"><h2>${String(group+1).padStart(2,'0')} · ${phase}</h2><div class="logic-map-nodes">${questions.slice(group*10, group*10+10).map((item,index)=>`<button class="logic-map-node logic-color-${(index+group)%4} ${item.number===q.number?'is-current':''} ${state.solved.has(item.number)?'is-solved':''}" data-question="${item.number-1}" aria-label="第 ${item.number} 題${state.solved.has(item.number)?'，已完成':''}" aria-current="${item.number===q.number?'true':'false'}"><span>${String(item.number).padStart(2,'0')}</span></button>`).join('')}</div></section>`).join('');
+    const optionCards = q.options.map((option) => {
+      const correct = option.key === q.answer;
+      const verdict = correct ? '推理成立' : solved ? '不成立' : '再想一想';
+      const footer = solved ? '這題已完成，全部選項已揭曉' : '點此翻回選項，或試另一張卡片';
+      return `<button class="logic-option ${solved&&correct?'is-correct':''} ${solved?'is-flipped':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong>${verdict} · ${esc(option.en)}</strong><small>${esc(option.feedback)}</small><em>${footer}</em></span></span></span></button>`;
+    }).join('');
     shell(`<div class="logic-exercise-head"><div><p class="logic-kicker">EXERCISE · 40-PIECE PUZZLE</p><h1>拼圖練習路線</h1><p>選錯時，只翻開那張卡片的解說；答案仍由你找出。</p></div><a class="logic-secondary" href="${lessonUrl}">返回互動教材</a></div>
     <div class="logic-exercise-layout"><aside class="logic-map"><div class="logic-map-top"><strong>已完成 ${state.solved.size} / 40</strong><div class="logic-progress-track"><i style="width:${state.solved.size*2.5}%"></i></div></div>${nodeGroups}</aside>
-    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><h2 id="logic-question-heading">Which statement can you prove?</h2><p class="logic-question-en">${esc(q.promptEn)}</p><p class="logic-question-zh">${esc(q.promptZh)}</p><div class="logic-option-grid">${q.options.map((option)=>`<button class="logic-option ${solved&&option.key===q.answer?'is-correct':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong>${solved&&option.key===q.answer?'推理成立':'再想一想'}</strong><small>${esc(option.feedback)}</small><em>${solved&&option.key===q.answer?'已完成這塊拼圖':'點此翻回選項，或試另一張卡片'}</em></span></span></span></button>`).join('')}</div><p class="logic-answer-status" role="status" aria-live="polite">${solved?'這題已完成。可以選另一塊拼圖，或再看看解說。':'找出原文必然支持的一句；錯答會顯示提示，但不會揭開正解。'}</p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${state.question===0?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${state.question===39?'返回第一題':'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
-    if (solved) dashboard.querySelector(`.logic-option[data-answer="${q.answer}"]`)?.classList.add('is-flipped');
+    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><h2 id="logic-question-heading">Which statement must be true?</h2><div class="logic-question-statement"><p class="logic-question-en">${esc(statementOnly(q.promptEn))}</p><p class="logic-question-zh">${esc(q.promptZh)}</p></div><div class="logic-option-grid">${optionCards}</div><p class="logic-answer-status" role="status" aria-live="polite">${solved?'這題已完成；四張卡片的解說都已揭曉。':'找出原文必然支持的一句；錯答會顯示提示，但不會揭開正解。'}</p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${state.question===0?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${state.question===39?'返回第一題':'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
+    fitOptionCards();
   }
   function render() { if(mode==='home')renderHome(); else if(mode==='lesson')renderLesson(); else renderExercise(); }
+  function routeTo(file, replace = false) {
+    const route = routes[file];
+    if (!route) return false;
+    if (replace) history.replaceState({ readingLogic: route.mode }, '', file);
+    else if (location.pathname.split('/').pop() !== file) history.pushState({ readingLogic: route.mode }, '', file);
+    mode = route.mode;
+    document.body.dataset.logicView = mode;
+    document.title = route.title;
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', `https://edmundeducation.com/${file}`);
+    render();
+    window.scrollTo({ top: 0, behavior: 'auto' });
+    return true;
+  }
   function setQuestion(index) { state.question=(index+questions.length)%questions.length; renderExercise(); document.querySelector('.logic-question-wrap')?.scrollIntoView({behavior:'smooth',block:'start'}); }
+  document.addEventListener('click',(event)=>{
+    if (!state.userId) return;
+    const internalLink=event.target.closest('a[href]');
+    if (internalLink && !event.defaultPrevented && event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey && !internalLink.target) {
+      const destination=new URL(internalLink.href,location.href);
+      if (destination.origin===location.origin && routes[destination.pathname.split('/').pop()]) {
+        event.preventDefault();routeTo(destination.pathname.split('/').pop());return;
+      }
+    }
+  });
   dashboard.addEventListener('click',(event)=>{
     const stageButton=event.target.closest('[data-stage]');
     if(stageButton){state.stage=Number(stageButton.dataset.stage);state.beat=0;saveProgress();renderLesson();return;}
     if(event.target.closest('[data-lesson-back]')){if(state.beat>0)state.beat--;else if(state.stage>0){state.stage--;state.beat=stages[state.stage].steps.length-1;}saveProgress();renderLesson();return;}
-    if(event.target.closest('[data-lesson-next]')){if(state.beat<stages[state.stage].steps.length-1)state.beat++;else if(state.stage<stages.length-1){state.stage++;state.beat=0;}else{location.href=exerciseUrl;return;}saveProgress();renderLesson();return;}
+    if(event.target.closest('[data-lesson-next]')){if(state.beat<stages[state.stage].steps.length-1)state.beat++;else if(state.stage<stages.length-1){state.stage++;state.beat=0;}else{routeTo(exerciseUrl);return;}saveProgress();renderLesson();return;}
     const fruit=event.target.closest('[data-fruit]');
     if(fruit){dashboard.querySelector('[data-fruit-result]').textContent=`I like the ${fruit.dataset.fruit}. 因為 ${fruit.dataset.fruit} 在盒子裡，也屬於 all the fruit。`;fruit.classList.add('is-picked');return;}
     const direction=event.target.closest('[data-direction]');
@@ -147,8 +202,32 @@
     if(event.target.closest('[data-question-next]')){setQuestion(state.question+1);return;}
     const option=event.target.closest('[data-answer]');if(!option||mode!=='exercise')return;
     const q=questions[state.question];const key=option.dataset.answer;
-    if(key===q.answer){if(!state.solved.has(q.number)){state.solved.add(q.number);saveProgress();dashboard.querySelector('.logic-map-top strong').textContent=`已完成 ${state.solved.size} / 40`;dashboard.querySelector('.logic-map-top .logic-progress-track i').style.width=`${state.solved.size*2.5}%`;dashboard.querySelector(`.logic-map-node[data-question="${state.question}"]`)?.classList.add('is-solved');}option.classList.add('is-correct','is-flipped');dashboard.querySelector('.logic-answer-status').textContent='推理成立！這塊拼圖已完成。';}
-    else{option.classList.toggle('is-flipped');dashboard.querySelector('.logic-answer-status').textContent='這張卡片背面有提示。想一想，再選一次。';}
+    if (state.solved.has(q.number)) return;
+    if (key===q.answer) {
+      state.solved.add(q.number);
+      saveProgress();
+      dashboard.querySelector('.logic-map-top strong').textContent=`已完成 ${state.solved.size} / 40`;
+      dashboard.querySelector('.logic-map-top .logic-progress-track i').style.width=`${state.solved.size*2.5}%`;
+      dashboard.querySelector(`.logic-map-node[data-question="${state.question}"]`)?.classList.add('is-solved');
+      dashboard.querySelectorAll('.logic-option').forEach((card) => {
+        const isCorrect=card.dataset.answer===q.answer;
+        card.classList.add('is-flipped');
+        if (isCorrect) card.classList.add('is-correct');
+        else card.querySelector('.logic-option-back strong').textContent=`不成立 · ${q.options.find((choice)=>choice.key===card.dataset.answer).en}`;
+        card.querySelector('.logic-option-back em').textContent='這題已完成，全部選項已揭曉';
+      });
+      dashboard.querySelector('.logic-answer-status').textContent='推理成立！四張卡片的解說都已揭曉。';
+      document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:true}}));
+    } else {
+      const showing=option.classList.toggle('is-flipped');
+      dashboard.querySelector('.logic-answer-status').textContent='這張卡片背面有提示。想一想，再選一次。';
+      if(showing) document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:false}}));
+    }
+  });
+  window.addEventListener('resize',()=>{if(mode==='exercise'&&state.userId)fitOptionCards();});
+  window.addEventListener('popstate',()=>{
+    const file=location.pathname.split('/').pop();
+    if(routes[file] && state.userId) routeTo(file, true);
   });
   window.addEventListener('edmund:learning-portal-session',(event)=>{
     if(event.detail?.portalId!=='reading-logic')return;
