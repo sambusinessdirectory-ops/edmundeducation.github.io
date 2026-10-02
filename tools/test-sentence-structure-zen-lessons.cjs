@@ -47,6 +47,15 @@ async function main() {
       assert.equal(await page.locator(".sentence-zen-lesson .lesson-stepper button").count(),4);
       assert.match(await page.locator("[data-seaside-level]").innerText(),/^LEVEL (61|75|90) · 庭園慢行$/);
       assert.match(await page.locator(".sentence-zen-lesson").evaluate(el => getComputedStyle(el,"::before").backgroundImage),/lesson-garden-v1\.webp/);
+      if (id === "ss61") {
+        assert.match(await page.locator(".lesson-content").evaluate(el => getComputedStyle(el).backgroundImage),/garden-side-v2\.webp/);
+        assert.deepEqual(await page.evaluate(async () => {
+          const image = new Image();
+          image.src = 'assets/sentence-structure/zen/garden-side-v2.webp';
+          await image.decode();
+          return [image.naturalWidth,image.naturalHeight];
+        }),[1024,1536]);
+      }
       assert.ok(await page.locator(".formula-display p").count() >= 1,`${id}: formula rows`);
       assert.ok(await page.locator(".example-block").count() >= 1,`${id}: examples`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-formula-desktop.png")});
@@ -74,7 +83,10 @@ async function main() {
         await page.waitForSelector(stage === 4 ? ".question-card" : ".info-page");
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
         assert.ok(overflow <= 1,`${width}px stage ${stage}: horizontal overflow ${overflow}px`);
-        if (width === 390) await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,`90-page-${stage}-phone.png`)});
+        if (width === 390) {
+          await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,`90-page-${stage}-phone.png`)});
+          if (stage === 4) await page.screenshot({path:path.join(output,"90-page-4-phone-top.png"),clip:{x:0,y:0,width:390,height:1600}});
+        }
       }
     }
     await page.evaluate(() => window.zenLessonTest.dashboard());
