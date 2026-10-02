@@ -1,6 +1,8 @@
 # Polysemy Lab — homepage card 65
 
-Entry: `/polysemy-lab.html`. Initial module: SHOW, 16 directory entries and 33 questions, exactly six curated options each. Practice order is seeded by each new run UUID, with adjacent identical senses avoided. The reference directory remains in teaching order. Related/overlapping meanings remain in the reference but are not opposing choices in ambiguous contexts.
+Entry: `/polysemy-lab.html`. Module 1 is SHOW, with 16 directory entries and 33 questions, exactly six curated options each. Practice order is seeded by each new run UUID, with adjacent identical senses avoided. The reference directory remains in teaching order. Related/overlapping meanings remain in the reference but are not opposing choices in ambiguous contexts.
+
+The entry URL opens the module catalogue only. Selecting a card opens a focused module view at `/polysemy-lab.html?module=<id>` with its meanings, practice button and optional source PDF; the full catalogue is hidden. The back button returns to the catalogue, and browser Back/Forward and direct module links restore the corresponding view without another login. Progress remains scoped to the student and module.
 
 ## Accounts and progress
 
@@ -17,6 +19,7 @@ The two collapsible dashboards show completed questions and active study time by
 - `node tools/test-polysemy-lab.mjs` — catalogue, spaced retry, legacy resume, metrics and private recordings, PGlite account isolation/expiry, atomic validation, idempotency, permissions.
 - `node tools/test-shared-system-nav.mjs` — shared navigation regression.
 - `PROFESSIONAL_QA_PLAYWRIGHT=/path/to/playwright/index.mjs node tools/test-polysemy-lab-browser.mjs [WebKit]` — local preview on port 8633, synthetic accounts and intercepted RPCs, full practice/resume, offline saving, idle clock and responsive layouts. `POLYSEMY_QA_BASE` can select a deployed origin. The SDK stub requires stripping SRI only in the intercepted test HTML; the shipped HTML retains SRI.
+- `PROFESSIONAL_QA_PLAYWRIGHT=/path/to/playwright/index.mjs node tools/test-polysemy-module-pages.mjs` — catalogue, focused module views, direct links, browser history and narrow-screen navigation.
 
 Live migration: `20260917015203_polysemy_lab_show.sql`. Existing login functions and Professional English tables are not modified.
 
