@@ -84,13 +84,28 @@ test('every shared item ships independent Eddy and Noir fits',async()=>{
 test('girls share availability but have independent equipped slots',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
- equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('pink-rain-jacket','elsie');
- assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',elsieTop:'pink-rain-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket','pink-rain-jacket','camel-coat-dress','ivory-tiered-dress']);
+ equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('ivory-botanical-cap','celeste');equipCosmetic('pink-rain-jacket','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',celesteHeadwear:'ivory-botanical-cap',elsieTop:'pink-rain-jacket'});
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','cream-sherpa-jacket','pink-rain-jacket','camel-coat-dress','ivory-tiered-dress']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
  for(const c of ['eddy','celeste','phoebe','elsie'])clearCosmetics(c);
+});
+test('the botanical cap is independently fitted and equippable for all five characters',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');const hashes=[];
+ for(const character of ['eddy','noir','celeste','phoebe','elsie']){
+  clearCosmetics(character);equipCosmetic('ivory-botanical-cap',character);
+  assert.equal(cosmeticsState().equipped[character+'Headwear'],'ivory-botanical-cap');
+  for(const file of ['ivory-botanical-cap.webp','ivory-botanical-cap-hide.webp']){
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+file,import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');assert.ok(bytes.length>10000);
+   if(file==='ivory-botanical-cap.webp')hashes.push(createHash('sha256').update(bytes).digest('hex'));
+  }
+ }
+ assert.equal(new Set(hashes).size,5);
+ const display=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/ivory-botanical-cap-display.png',import.meta.url));
+ assert.deepEqual([...display.subarray(0,8)],[137,80,78,71,13,10,26,10]);
 });
 test('full-body clothing replaces tops and lower-body clothing but preserves shoes and headwear',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');

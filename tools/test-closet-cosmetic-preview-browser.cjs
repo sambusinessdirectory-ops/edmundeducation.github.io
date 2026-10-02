@@ -1,18 +1,18 @@
 const fs=require('fs'),path=require('path'),http=require('http'),assert=require('assert/strict');
 const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const sharp=require('./email-qa/node_modules/sharp');
+const sharp=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
 const root=path.resolve(__dirname,'..'),mime={'.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.webp':'image/webp'};
 const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL(req.url,'http://local').pathname);if(!p.startsWith(root+'/'))return res.writeHead(403).end();fs.readFile(p,(e,b)=>{res.writeHead(e?404:200,{'Content-Type':mime[path.extname(p)]||'application/octet-stream'});res.end(e?'':b);});});
 (async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({headless:true});try{
  const results=[];
- for(const [character,items] of Object.entries({eddy:['white-fedora','cream-cable-knit','blue-swordsman-jacket'],noir:['white-fedora','cream-cable-knit','blue-swordsman-jacket'],celeste:['pink-rain-jacket','cream-sherpa-jacket'],phoebe:['pink-rain-jacket','cream-sherpa-jacket'],elsie:['pink-rain-jacket','cream-sherpa-jacket']})){
+ for(const [character,items] of Object.entries({eddy:['ivory-botanical-cap','cream-cable-knit','blue-swordsman-jacket'],noir:['ivory-botanical-cap','cream-cable-knit','blue-swordsman-jacket'],celeste:['ivory-botanical-cap','pink-rain-jacket','cream-sherpa-jacket'],phoebe:['ivory-botanical-cap','pink-rain-jacket','cream-sherpa-jacket'],elsie:['ivory-botanical-cap','pink-rain-jacket','cream-sherpa-jacket']})){
   const page=await browser.newPage({viewport:{width:1400,height:950},reducedMotion:'reduce'}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));await page.route('https://**/*',r=>r.abort());
   await page.route('**/__closet_preview',r=>r.fulfill({contentType:'text/html',body:'<!doctype html><link rel="stylesheet" href="/common-expression-map.css"><body></body>'}));
   await page.addInitScript(()=>{
    window.EdmundSystemNav={getStudentSession:()=>({id:'closet-preview-fixture',token:'fixture-token'})};
    window.EDMUND_SUPABASE={url:'https://fixture.invalid',anonKey:'fixture'};
-   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'fixture'}}}})},rpc:async(method)=>({data:method==='eddie_farm_owned_cosmetics'?['white-fedora','cream-cable-knit','charcoal-turtleneck','blue-swordsman-jacket','cream-sherpa-jacket','pink-rain-jacket']:(window.__fixtureWardrobe||{equipped:{},outfits:[]})})})};
+   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'fixture'}}}})},rpc:async(method)=>({data:method==='eddie_farm_owned_cosmetics'?['white-fedora','ivory-botanical-cap','cream-cable-knit','charcoal-turtleneck','blue-swordsman-jacket','cream-sherpa-jacket','pink-rain-jacket']:(window.__fixtureWardrobe||{equipped:{},outfits:[]})})})};
   });
   await page.goto('http://127.0.0.1:'+server.address().port+'/__closet_preview');
   await page.evaluate(async character=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-admin-cosmetic-preview1');const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs?v=20260924-closet-outfit1');window.closet=openCompanionCloset({character});},character);

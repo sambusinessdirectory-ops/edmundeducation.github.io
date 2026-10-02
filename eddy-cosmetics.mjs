@@ -1,6 +1,7 @@
 // Account-owned clothes with independent saved equipment and outfits per character.
 export const COSMETICS=Object.freeze([
- {id:'white-fedora',slot:'headwear',price:15,name:'White fedora',description:'白色 Fedora 帽'},
+ {id:'white-fedora',slot:'headwear',price:15,name:'White fedora',description:'白色 Fedora 帽',hide:'hat-hide'},
+ {id:'ivory-botanical-cap',slot:'headwear',group:'all',price:15,name:'Ivory botanical baseball cap',description:'象牙白棉質棒球帽 · 橄欖綠植物刺繡',display:'shared/ivory-botanical-cap-display.png',hide:'ivory-botanical-cap-hide'},
  {id:'cream-cable-knit',slot:'top',price:25,name:'Cream cable-knit crewneck',description:'奶油色麻花針織毛衣'},
  {id:'charcoal-turtleneck',slot:'top',price:25,name:'Charcoal gray turtleneck',description:'炭灰色高領毛衣'},
  {id:'blue-swordsman-jacket',slot:'top',price:35,name:'Blue swordsman jacket',description:'藍色劍士外套 · 銀色飾邊'},
@@ -19,6 +20,7 @@ const slotKind=item=>item.slot==='girlsTop'?'top':item.slot;
 const SLOT_SUFFIX=Object.freeze({headwear:'Headwear',top:'Top',lower:'Lower',fullBody:'FullBody',feet:'Feet',accessory:'Accessory'});
 const equipmentSlot=(item,character)=>character+SLOT_SUFFIX[slotKind(item)];
 const OUTFIT_CHARACTERS=['eddy','noir',...GIRLS];
+const itemForCharacter=(item,character)=>item.group==='all'||(item.group||'boys')===(GIRLS.includes(character)?'girls':'boys');
 const characterSlots=character=>[...new Set(cosmeticsForCharacter(character).map(item=>equipmentSlot(item,character)))];
 function normalizeCharacterEquipment(value,character){
  const result={...value};
@@ -28,7 +30,7 @@ function normalizeCharacterEquipment(value,character){
 export function cleanEquipment(value){
  let result={};
  for(const character of OUTFIT_CHARACTERS){
-  for(const item of COSMETICS.filter(item=>(item.group==='girls')===GIRLS.includes(character))){
+  for(const item of COSMETICS.filter(item=>itemForCharacter(item,character))){
    const slot=equipmentSlot(item,character);
    const legacy=character==='eddy'?value?.[item.slot]:slotKind(item)==='top'&&GIRLS.includes(character)?value?.girlsTop:undefined;
    const id=value?.[slot]??legacy;
@@ -55,12 +57,12 @@ export function cleanWardrobe(value){
 export const COSMETIC_CHARACTERS=Object.freeze(['eddy','noir','celeste','phoebe','elsie']);
 export const supportsCosmetics=id=>COSMETIC_CHARACTERS.includes(id);
 export const wardrobeGroup=id=>GIRLS.includes(id)?'girls':'boys';
-export const cosmeticsForCharacter=id=>supportsCosmetics(id)?COSMETICS.filter(item=>(item.group||'boys')===wardrobeGroup(id)):[];
+export const cosmeticsForCharacter=id=>supportsCosmetics(id)?COSMETICS.filter(item=>itemForCharacter(item,id)):[];
 const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter(character).filter(item=>value[equipmentSlot(item,character)]===item.id).map(item=>[equipmentSlot(item,character),item.id]));
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-ivory-gown2',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-botanical-cap1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
@@ -202,7 +204,8 @@ export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=n
  if(!supportsCosmetics(id)||!base?.naturalWidth)return base;
  const cacheKey=id+'|'+base.src+'|'+JSON.stringify(rendered);if(atlases.has(cacheKey))return atlases.get(cacheKey);
  const corrected=closeInterlegWhiteMarks(id,base);
- const ids=[rendered.top,rendered.lower,rendered.fullBody,rendered.feet,rendered.headwear,rendered.headwear&&'hat-hide'].filter(Boolean);
+ const headwearHide=rendered.headwear?(COSMETICS.find(item=>item.id===rendered.headwear)?.hide||'hat-hide'):null;
+ const ids=[rendered.top,rendered.lower,rendered.fullBody,rendered.feet,rendered.headwear,headwearHide].filter(Boolean);
  if(ids.map(item=>load(item,id)).some(img=>!img.complete||!img.naturalWidth))return corrected;
  if(!ids.length){atlases.set(cacheKey,corrected);return corrected;}
  const canvas=document.createElement('canvas');canvas.width=base.naturalWidth;canvas.height=base.naturalHeight;
@@ -212,7 +215,7 @@ export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=n
  if(rendered.lower)ctx.drawImage(load(rendered.lower,id),0,0,canvas.width,canvas.height);
  if(rendered.fullBody)ctx.drawImage(load(rendered.fullBody,id),0,0,canvas.width,canvas.height);
  if(rendered.feet)ctx.drawImage(load(rendered.feet,id),0,0,canvas.width,canvas.height);
- if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load('hat-hide',id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear,id),0,0,canvas.width,canvas.height);}
+ if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load(headwearHide,id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear,id),0,0,canvas.width,canvas.height);}
  canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
  atlases.set(cacheKey,canvas);return canvas;
 }

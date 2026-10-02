@@ -1,0 +1,7 @@
+{
+  "tool": "Built-in ImageGen",
+  "mode": "transparent item-only atlas generation",
+  "useCase": "stylized-concept",
+  "prompt": "Create only the ivory cotton baseball cap from the supplied product reference, fitted to the canonical character's head independently in every one of the sixteen corresponding cells. Preserve the exact 1024x1024 4x4 canvas, cell positions and facing directions. The brim follows the muzzle direction; transparent ear openings preserve both horse ears. Match the polished soft 3D cartoon style. Include warm ivory cotton, six-panel seams, top button, eyelets, curved brim and the centered dark-olive botanical sprig where the front panel is visible. Output item-only RGBA with true transparency and no character, background, checkerboard, grid, floor, labels or external shadow. Exactly sixteen caps; no missing, duplicate, rearranged or mirrored cells.",
+  "sourceOutput": "cap-directions-source.png"
+}
