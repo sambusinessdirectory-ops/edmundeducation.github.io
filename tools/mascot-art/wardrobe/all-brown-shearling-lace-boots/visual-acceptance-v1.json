@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "itemId": "brown-shearling-lace-boots",
+  "catalogGroup": "all",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T12:43:34Z",
+  "characters": [
+    "eddy",
+    "noir",
+    "celeste",
+    "phoebe",
+    "elsie"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy, Noir, Celeste, Phoebe and Elsie in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "character-specific boot fit with no stretched shared overlay",
+    "identical canonical sole ground contact with no leg-length change or floating",
+    "correct toe, profile, heel and diagonal direction without reversed views",
+    "boys blue-jacket and girls long ivory-gown compatibility",
+    "no doubled hoof, tail contamination, torso patch, clipping or stray generation-edge pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/brown-shearling-lace-boots.webp": "23e177fd5db22cf515fdc1f9f38e6c768014a7402e371c113221cfefc6875504",
+    "assets/speaking-system/cosmetics/noir/brown-shearling-lace-boots.webp": "dd2c49b2c38cfd726622c25404f036e53199895b5e468aa0deb6034269db3778",
+    "assets/speaking-system/cosmetics/celeste/brown-shearling-lace-boots.webp": "53c90049ebcb82cf8c1d4ba9ae54b741626e4062bd406019d26339965801fa0c",
+    "assets/speaking-system/cosmetics/phoebe/brown-shearling-lace-boots.webp": "8a06c504d626f9a55e29727e09056498937ab594fca78213dcfd84a974ebea31",
+    "assets/speaking-system/cosmetics/elsie/brown-shearling-lace-boots.webp": "361e0c38178d19286a8e7f5941eff3bf217f7d2b854c0ac361403c2d735a2639",
+    "assets/speaking-system/cosmetics/shared/brown-shearling-lace-boots-display.png": "cb5da29ba8e8a3048f9a550d0770e22453ddf1ba184cf29ebb0aed38b086b227"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-eddy-3d-dark-open.jpg": "04db9421fc1bab256a0ca958e9d36f44404b35d39777a5fd8634889d7cce9e1c",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-eddy-3d-blink.jpg": "88f5dfee0331417ee5510eef0455b92050bf1c2387556e9eefc7f443964b4d9c",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-eddy-3d-light-open.jpg": "ff09698eeb3311e415bf00cedf714d149df57dc804206ad869d93de5a8318f37",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-eddy-combination-3d-open.jpg": "70cb8c86526cd5b199909069e0ee434e3895cc13271599b86183cdb614260bb1",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-eddy-combination-3d-blink.jpg": "0954ae10fb26b07e731728cf2eb7de6a1c6dce28e14127cd5e6d6dd769e100b1",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-noir-3d-dark-open.jpg": "d65dedf02d3d7bf8598b907f8dc6e0c41a0f35196c80bd23e76a19eda3c22e42",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-noir-3d-blink.jpg": "d58f5bb3deb3d4e5303a6d218dfaa8ccf8f38c6717cbf64b83dcf5caa8b7448e",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-noir-3d-light-open.jpg": "f91c1bc64caa2b31361fb7775593b32cd0041e5f2d0b6f421e831597699c2c2f",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-noir-combination-3d-open.jpg": "2a299d62a52749b26aa4771e8d6c6427784b1871c563b7c9a5b82e0c5c49d947",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-noir-combination-3d-blink.jpg": "d8ea5f3ab3456b73f7f77dd597c5e612a3e37b3c86d22f360d4cb4524216f112",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-celeste-3d-dark-open.jpg": "b0290bb4dc32a37e9d1db96dd98ac4dbf4428c5d82b53c6f94964173679d9144",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-celeste-3d-blink.jpg": "68886cff31fd444a50512a1345891e8be63162908c86615ea1c4103e33e2a789",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-celeste-3d-light-open.jpg": "ed512f49840d2908caa7c1ed0662e0360e618fc59d1701a6c0cd5785bfa0f705",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-celeste-combination-3d-open.jpg": "34167b9ed3586ff4b2878f1913c8ced5f1dc1702ba17a2ec87e883eb6bf3f0da",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-celeste-combination-3d-blink.jpg": "1e90b4bb5836539c4af55638d44908f906491805a4188e2f43860b58048d2d3e",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-phoebe-3d-dark-open.jpg": "32e5fd382eba88ec4bde5c0c469c2676b00b1884d49ca64968f5d7afec583b16",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-phoebe-3d-blink.jpg": "3d6d705850861da98cfc3f06e2f5b401912eab3313589706ffe7a4f72f610c33",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-phoebe-3d-light-open.jpg": "a74d94b8ad14f83bdc8ff824c1cc916b1d15e2bb54b45e9027ffa831fcecb716",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-phoebe-combination-3d-open.jpg": "b1b3ec40dae060017a293a8d8b22de86a76d55eaf92e763b7a75d9c9b4979222",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-phoebe-combination-3d-blink.jpg": "b36e45defff1f3c83d28fd8b8ae46938965ebc1fc934404565b3bbbc40139528",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-elsie-3d-dark-open.jpg": "f267b0e6864691a630c2c92a4e35e5ded3163c694dea195b6565aaf0c865395c",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-elsie-3d-blink.jpg": "5462408258ac7c253a90f43105fea66b66cb16904dac082dc031de28a88d9ffb",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-elsie-3d-light-open.jpg": "b9774a536022ec492043236cb457c4acae4ad8d95e7febe9219eea256ce8e17c",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-elsie-combination-3d-open.jpg": "5ca1734c5a4704eff1a8fbc9f1580940e53b82ec4cf1c368b17b4a0b93d6a1f2",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-elsie-combination-3d-blink.jpg": "79539d81d00fe6a67f7c4964fbcee998cc7b0eeb3c6168495183049a5d1946bb",
+    "tools/mascot-art/wardrobe/all-brown-shearling-lace-boots/qa-approval-v1.jpg": "e30d7b84737358012ab8ab3e65892904c3cbbd5ded56be7db17ed73e517ede71"
+  }
+}

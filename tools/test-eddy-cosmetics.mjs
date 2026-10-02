@@ -86,7 +86,7 @@ test('girls share availability but have independent equipped slots',async()=>{
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
  equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('ivory-botanical-cap','celeste');equipCosmetic('pink-rain-jacket','elsie');
  assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',celesteHeadwear:'ivory-botanical-cap',elsieTop:'pink-rain-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress']);
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress','brown-shearling-lace-boots']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
@@ -106,6 +106,32 @@ test('the botanical cap is independently fitted and equippable for all five char
  assert.equal(new Set(hashes).size,5);
  const display=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/ivory-botanical-cap-display.png',import.meta.url));
  assert.deepEqual([...display.subarray(0,8)],[137,80,78,71,13,10,26,10]);
+});
+test('the shearling lace boots have five independent feet-slot atlases and remain compatible with full-body clothing',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');const hashes=[];
+ for(const character of ['eddy','noir','celeste','phoebe','elsie']){
+  clearCosmetics(character);equipCosmetic('brown-shearling-lace-boots',character);
+  assert.equal(cosmeticsState().equipped[character+'Feet'],'brown-shearling-lace-boots');
+  const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/brown-shearling-lace-boots.webp',import.meta.url));
+  assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+  const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+  assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>40000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+ }
+ assert.equal(new Set(hashes).size,5);
+ for(const character of ['eddy','noir','celeste','phoebe','elsie'])clearCosmetics(character);
+ equipCosmetic('ivory-tiered-dress','elsie');equipCosmetic('brown-shearling-lace-boots','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{elsieFullBody:'ivory-tiered-dress',elsieFeet:'brown-shearling-lace-boots'});
+ const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/brown-shearling-lace-boots-display.png',import.meta.url));
+ assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),512);assert.equal(thumb.readUInt32BE(20),512);assert.ok([4,6].includes(thumb[25]));
+});
+test('the boots migration registers all five independent feet slots',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261002124607_brown_shearling_lace_boots_all_characters.sql',import.meta.url),'utf8');
+ assert.match(sql,/values \('brown-shearling-lace-boots','Brown shearling lace-up boots',35,true\)/);
+ for(const character of ['eddy','noir','celeste','phoebe','elsie']){
+  assert.match(sql,new RegExp("not\\(value\\?'"+character+"Feet'\\) or value->>'"+character+"Feet'='brown-shearling-lace-boots'"));
+  assert.match(sql,new RegExp("p_character\\|\\|'Feet'"));
+ }
 });
 test('full-body clothing replaces tops and lower-body clothing but preserves shoes and headwear',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');

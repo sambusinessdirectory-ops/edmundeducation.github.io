@@ -1,0 +1,6 @@
+{
+  "mode": "built-in imagegen",
+  "reference": "Screenshot 2026-10-02 at 7.34.24 PM.png",
+  "fittingPromptTemplate": "Family-friendly chibi pony mascot game asset. Edit only the canonical character atlas, using the product screenshot only to understand the footwear. Retain the complete canonical sixteen-view 4x4 transparent sprite sheet and add fitted dark-brown leather ankle boots to the two hoof positions in every view, with cream shearling cuffs, small brass lace hardware, dark laces, stitched toe caps, and thick dark soles. Preserve identity, pose, scale, atlas registration, leg length, and floor line. No extra limbs, floating, doubled footwear, scene, shadow, labels, or background.",
+  "inventoryPrompt": "Create a clean transparent game-inventory product cutout preserving the referenced pair of dark chocolate-brown leather lace-up ankle boots, cream shearling cuffs, antique-brass hardware, stitched cap toes, and rugged lug soles. Remove only the screenshot background and interface fragments. No floor, cast shadow, text, logo, border, or extra object."
+}
