@@ -4,7 +4,7 @@ Three boys-only garments from the user's three-outfit reference: crimson gilded 
 
 ## Release state
 
-**Pending human visual review.** The three `visual-acceptance-*-v1.json` files hash-lock the runtime assets and actual-renderer proof. The v4 wardrobe manual requires explicit approval of these exact pixels before deployment. The SQL migration is prepared but has not been applied to the live database.
+**Visual review accepted.** The user explicitly approved all three exact actual-renderer proof boards in Codex chat on 2026-10-02T17:59:08Z. The three `visual-acceptance-*-v1.json` files hash-lock the runtime assets and proof. The live Supabase migration was applied as `20261002180418_boys_fantasy_fullbody_trio`; site publication follows separately. The migration preserves the newer smart-casual top allowlist and adds boys full-body slots to character saves.
 
 ## Sources and method
 

@@ -1,16 +1,16 @@
--- Three independently fitted fantasy full-body outfits for Eddy and Noir.
--- They replace boys tops and lower-body clothing while preserving headwear and footwear.
+-- Three independently fitted smart-casual tops for Eddy and Noir.
+-- They remain compatible with headwear and footwear and are unavailable to girls.
 insert into eddie_farm.cosmetic_catalog(id,name,price,enabled)
 values
- ('crimson-gilded-court-coat','Crimson gilded court coat',45,true),
- ('shadow-thorn-robe','Shadow thorn robe',45,true),
- ('ivory-wayfarer-robe','Ivory wayfarer robe',45,true)
+ ('white-shirt-black-tie','White shirt with black tie',30,true),
+ ('black-v-neck-collar-sweater','Black V-neck collared sweater',35,true),
+ ('navy-blazer-cream-sweatshirt','Navy blazer cream sweatshirt',40,true)
 on conflict (id) do update set name=excluded.name,price=excluded.price,enabled=true;
 
 create or replace function avatar_closet.valid_equipment(value jsonb)
 returns boolean language sql immutable set search_path='' as $$
  select jsonb_typeof(value)='object'
- and (value-'headwear'-'top'-'girlsTop'-'eddyHeadwear'-'eddyTop'-'eddyFullBody'-'eddyFeet'-'noirHeadwear'-'noirTop'-'noirFullBody'-'noirFeet'-'celesteHeadwear'-'celesteTop'-'celesteFullBody'-'celesteFeet'-'phoebeHeadwear'-'phoebeTop'-'phoebeFullBody'-'phoebeFeet'-'elsieHeadwear'-'elsieTop'-'elsieFullBody'-'elsieFeet')='{}'::jsonb
+ and (value-'headwear'-'top'-'girlsTop'-'eddyHeadwear'-'eddyTop'-'eddyFeet'-'noirHeadwear'-'noirTop'-'noirFeet'-'celesteHeadwear'-'celesteTop'-'celesteFullBody'-'celesteFeet'-'phoebeHeadwear'-'phoebeTop'-'phoebeFullBody'-'phoebeFeet'-'elsieHeadwear'-'elsieTop'-'elsieFullBody'-'elsieFeet')='{}'::jsonb
  and (not(value?'headwear') or value->>'headwear' in ('white-fedora','ivory-botanical-cap'))
  and (not(value?'eddyHeadwear') or value->>'eddyHeadwear' in ('white-fedora','ivory-botanical-cap'))
  and (not(value?'noirHeadwear') or value->>'noirHeadwear' in ('white-fedora','ivory-botanical-cap'))
@@ -20,8 +20,6 @@ returns boolean language sql immutable set search_path='' as $$
  and (not(value?'top') or value->>'top' in ('cream-cable-knit','charcoal-turtleneck','blue-swordsman-jacket','brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie','olive-plain-tee','white-oversized-tee','black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt','beige-utility-shirt','white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt'))
  and (not(value?'eddyTop') or value->>'eddyTop' in ('cream-cable-knit','charcoal-turtleneck','blue-swordsman-jacket','brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie','olive-plain-tee','white-oversized-tee','black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt','beige-utility-shirt','white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt'))
  and (not(value?'noirTop') or value->>'noirTop' in ('cream-cable-knit','charcoal-turtleneck','blue-swordsman-jacket','brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie','olive-plain-tee','white-oversized-tee','black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt','beige-utility-shirt','white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt'))
- and (not(value?'eddyFullBody') or value->>'eddyFullBody' in ('crimson-gilded-court-coat','shadow-thorn-robe','ivory-wayfarer-robe'))
- and (not(value?'noirFullBody') or value->>'noirFullBody' in ('crimson-gilded-court-coat','shadow-thorn-robe','ivory-wayfarer-robe'))
  and (not(value?'girlsTop') or value->>'girlsTop' in ('cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','white-oversized-tee'))
  and (not(value?'celesteTop') or value->>'celesteTop' in ('cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','white-oversized-tee'))
  and (not(value?'phoebeTop') or value->>'phoebeTop' in ('cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','white-oversized-tee'))
@@ -34,8 +32,6 @@ returns boolean language sql immutable set search_path='' as $$
  and (not(value?'celesteFeet') or value->>'celesteFeet'='brown-shearling-lace-boots')
  and (not(value?'phoebeFeet') or value->>'phoebeFeet'='brown-shearling-lace-boots')
  and (not(value?'elsieFeet') or value->>'elsieFeet'='brown-shearling-lace-boots')
- and not(value?'eddyFullBody' and (value?'eddyTop' or value?'top'))
- and not(value?'noirFullBody' and value?'noirTop')
  and not(value?'celesteFullBody' and value?'celesteTop')
  and not(value?'phoebeFullBody' and value?'phoebeTop')
  and not(value?'elsieFullBody' and value?'elsieTop');
@@ -46,7 +42,7 @@ returns jsonb language plpgsql immutable set search_path='' as $$
 declare result jsonb; equipment jsonb; outfits jsonb; item jsonb; slots text[];
 begin
  if p_character is null or p_character not in ('eddy','noir','celeste','phoebe','elsie') then raise exception 'Refresh the wardrobe before saving this character'; end if;
- slots:=array[p_character||'Headwear',p_character||'Top',p_character||'FullBody',p_character||'Feet'];
+ slots:=case when p_character in ('eddy','noir') then array[p_character||'Headwear',p_character||'Top',p_character||'Feet'] else array[p_character||'Headwear',p_character||'Top',p_character||'FullBody',p_character||'Feet'] end;
  result:=avatar_closet.independent_wardrobe(current_value->'equipped',current_value->'outfits');
  equipment:=result->'equipped'; outfits:=result->'outfits';
  if p_equipped is not null then

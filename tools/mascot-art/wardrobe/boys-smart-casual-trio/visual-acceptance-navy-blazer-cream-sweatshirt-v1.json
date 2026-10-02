@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "navy-blazer-cream-sweatshirt",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T16:50:51Z",
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "tie, tie bar, collar, cuffs, V-neck, lapels, brass buttons and pocket square preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "botanical-cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/navy-blazer-cream-sweatshirt.webp": "5fdc4159d07b6c343396f865dfccc1217ed880746c60cd3989e4b806e5670a5d",
+    "assets/speaking-system/cosmetics/noir/navy-blazer-cream-sweatshirt.webp": "2b8adda3cd59946b096e783c6594633927fbaed9804b00b0b7c6ea460673fc75",
+    "assets/speaking-system/cosmetics/shared/navy-blazer-cream-sweatshirt-display.png": "8556cbd0c60e78a721a64f5934b2a380b2c8f2abcb14f4ce4450209ca5ec4062"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-navy-blazer-cream-sweatshirt-3d-dark-open.jpg": "69347a18efa744b4232d45eb2ac14de9795e6caacf7fad4bfdd36ed76424b09f",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-navy-blazer-cream-sweatshirt-3d-blink.jpg": "3029aec0890b0f5fdb54c4b354ac9e43820402c7a68547f82e351bc5bfd75a41",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-navy-blazer-cream-sweatshirt-3d-light-open.jpg": "c30c9598f8a0ef194328aa757ca95f2eb0ecc51fcc6dc104a879c13e32666060",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-navy-blazer-cream-sweatshirt-combination-3d-open.jpg": "1d44a03cbb42717e29b5d010dfd667d759fb8783e850a139a28bac51545182cc",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-navy-blazer-cream-sweatshirt-combination-3d-blink.jpg": "2307cc1cfc0c70e17ec3c960b2ba2d057a550378e2458047ef0065c140447944",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-navy-blazer-cream-sweatshirt-3d-dark-open.jpg": "7b49d1a4d988dfd8be1a74cc29bfc3a9e7235df8360a55f33f7639e8fab4e415",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-navy-blazer-cream-sweatshirt-3d-blink.jpg": "ed736dcaefdd05a0176e95786b8eb92f6f8db8645091b505df3957a97474d62e",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-navy-blazer-cream-sweatshirt-3d-light-open.jpg": "112fcc1bb212007f18ee430934b23737295a76e4446e3b38efe48b356078fe63",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-navy-blazer-cream-sweatshirt-combination-3d-open.jpg": "52c4024b93b921facf6216b4a6d89334f54cb81903ef1fb32bd1001736ed780c",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-navy-blazer-cream-sweatshirt-combination-3d-blink.jpg": "2bfffd5591856525919c96440786bf5d83ec16ba0c7a74f885de7dde97c04958",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-approval-v1.jpg": "a646e45c3b6652932dc572df1cf40a4dce2ccb5a663cb04ca7fa2521fcaa195b"
+  }
+}
