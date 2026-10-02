@@ -15,7 +15,7 @@ def audit_reader(folder: Path) -> dict:
     issues = []
     if len(source) != report["pages"]:
         issues.append(f"source pages {len(source)} != {report['pages']}")
-    if markup.count('class="paper-page"') != report["pages"]:
+    if len(re.findall(r'class="paper-page(?:\s[^"]*)?"', markup)) != report["pages"]:
         issues.append("HTML page count mismatch")
     # A missing scan can still have a clearly labeled partial reconstruction.
     # Those pages have selectable text and a Chinese layer, so audit both.
@@ -23,9 +23,12 @@ def audit_reader(folder: Path) -> dict:
         page["leaf"] for page in source if page.get("text", "").strip()
     }
     exempt = missing_without_text | set(report.get("nontext_qab_pages", []))
-    expected_translation_count = report["pages"] - len(exempt)
+    inline_translation_pages = markup.count('class="paper-page verified-reconstruction"')
+    expected_translation_count = report["pages"] - len(exempt) - inline_translation_pages
     if markup.count('class="page-translation"') != expected_translation_count:
         issues.append("Chinese page count mismatch")
+    if markup.count('class="translation" lang="zh-Hant"') < inline_translation_pages:
+        issues.append("Inline Chinese translation missing")
     for page in source:
         n = page["leaf"]
         image = folder / "assets" / f"page-{n:02d}.webp"
@@ -33,7 +36,8 @@ def audit_reader(folder: Path) -> dict:
         if not image.exists() or image.stat().st_size < 1000:
             issues.append(f"page {n}: image missing or small")
         min_zh = 1 if page["kind"] == "qab" and len(page["text"]) < 100 else 10
-        if n not in exempt and (not zh.exists() or len(zh.read_text(encoding="utf-8").strip()) < min_zh):
+        has_inline_translation = bool(re.search(rf'<article class="paper-page verified-reconstruction" id="page-{n}"', markup))
+        if n not in exempt and not has_inline_translation and (not zh.exists() or len(zh.read_text(encoding="utf-8").strip()) < min_zh):
             issues.append(f"page {n}: Chinese missing or small")
         if page["kind"] == "data" and n not in exempt and len(page["text"].strip()) < 25:
             issues.append(f"page {n}: minimal selectable English")

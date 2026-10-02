@@ -5,10 +5,7 @@
   "data_pages": 11,
   "qab_pages": 8,
   "missing_source_pages": [],
-  "nontext_qab_pages": [
-    13,
-    18
-  ],
+  "nontext_qab_pages": [],
   "low_coverage": [],
   "sources": [
     "2019 Paper 3.pdf"

@@ -30,15 +30,26 @@ class LayoutText(HTMLParser):
     def __init__(self):
         super().__init__()
         self.parts = []
+        self.translation_depth = 0
 
     def handle_data(self, data):
-        self.parts.append(data)
+        if not self.translation_depth:
+            self.parts.append(data)
 
     def handle_starttag(self, tag, attrs):
+        if self.translation_depth:
+            self.translation_depth += 1
+            return
+        if dict(attrs).get("lang") == "zh-Hant":
+            self.translation_depth = 1
+            return
         if tag in {"br", "hr"}:
             self.parts.append("\n")
 
     def handle_endtag(self, tag):
+        if self.translation_depth:
+            self.translation_depth -= 1
+            return
         if tag in {"h2", "h3", "h4", "p", "li", "th", "td", "tr", "caption", "figcaption", "div", "header", "main", "aside", "blockquote", "section"}:
             self.parts.append("\n")
 
@@ -225,7 +236,10 @@ def render_page(source: Path, source_page: int, output_dir: Path, leaf: int, kin
         parser = LayoutText()
         parser.feed(native_html)
         source_text = parser.text()
-        if override and translate:
+        inline_translation = 'class="translation"' in native_html
+        if inline_translation:
+            translation = ""
+        elif override and translate:
             translation = "\n".join(override["chinese"])
             cache = asset_dir / f"{stem}.zh.txt"
             cache.write_text(translation, encoding="utf-8")
@@ -233,7 +247,7 @@ def render_page(source: Path, source_page: int, output_dir: Path, leaf: int, kin
         elif translate:
             translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt")
     high_conf_words = sum(len(line["words"]) for line in lines if line["conf"] >= 64)
-    return {"leaf": leaf, "kind": kind, "source_page": source_page, "source": source.name, "image": f"assets/{stem}.webp", "native": native_html, "translation": translation, "coverage": high_conf_words / all_words if all_words else 0, "words": all_words, "native_words": native_words, "text": source_text, "missing": scan_missing}
+    return {"leaf": leaf, "kind": kind, "source_page": source_page, "source": source.name, "image": f"assets/{stem}.webp", "native": native_html, "translation": translation, "inline_translation": bool(layout_file.exists() and 'class="translation"' in native_html), "coverage": high_conf_words / all_words if all_words else 0, "words": all_words, "native_words": native_words, "text": source_text, "missing": scan_missing}
 
 
 def build_reader(year: int, level: str, sections, source_root: Path, site_root: Path, translate: bool, workers: int):
@@ -257,11 +271,19 @@ def build_reader(year: int, level: str, sections, source_root: Path, site_root: 
         i = p["leaf"]
         nav.append(f'<a href="#page-{i}">{i:02d} · {label}</a>')
         zh = f'<div class="page-translation" lang="zh-Hant"><strong>中文對照</strong><p>{html.escape(p["translation"]).replace(chr(10), "<br>")}</p></div>' if p["translation"] else ''
-        extra = f'<label class="practice-label">補充練習筆記（非原卷答題欄）<textarea data-note="{i}" rows="5" placeholder="在此整理答案或筆記；只儲存在此裝置。"></textarea></label>' if p["kind"] == "qab" else ''
+        extra = f'<label class="practice-label">補充練習筆記（非原卷答題欄）<textarea data-note="{i}" rows="5" placeholder="在此整理答案或筆記；只儲存在此裝置。"></textarea></label>' if p["kind"] == "qab" and not p["inline_translation"] else ''
         empty = '<p class="source-gap">現有原卷來源缺少本頁內容，需取得完整原卷後補上。</p>' if p["missing"] else '<p>本頁以圖像或留白為主，請核對右側原卷。</p>'
         warning = '<p class="source-gap">所持掃描檔此頁空白；左側筆記欄標題依另一份 2022 B1 Data File 文字版重建，仍待完整原卷掃描核對。</p>' if p["missing"] and p["native"] else ''
-        cards.append(f'<article class="paper-page" id="page-{i}" data-kind="{p["kind"]}"><header><span>{label} · 原卷第 {p["source_page"]} 頁</span><label><input type="checkbox" data-read="{i}"> 已讀</label></header><div class="source-layout"><div class="native-document" lang="en"><div class="native-label">可選取的英文文字</div>{warning}{p["native"] or empty}</div><figure class="facsimile"><img src="{p["image"]}" alt="{label} original page {p["source_page"]}" loading="lazy"><figcaption>原卷版面 · 圖表、照片及留白依原頁保留</figcaption></figure></div>{zh}{extra}</article>')
-    shell = f'''<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{year} {level.upper()} · DSE Paper 3 Part B | EdmundEducation</title><link rel="stylesheet" href="/paper3/native-facsimile.css?v=20261002"><script defer src="/paper3/native-facsimile.js?v=20261001"></script></head><body data-reader="{year}-{level}"><a class="skip" href="#reader">跳至原卷</a><header class="top"><a href="/dse-paper3-analysis.html">← 返回綜合能力分析</a><a href="/paper3/">全部試卷</a></header><main><div class="hero"><p>DSE PAPER 3 · PART {level.upper()} · {year}</p><h1>{year} {level.upper()} Data File + Question-Answer Book</h1><p>逐頁閱讀：左側是可選取的英文文字；右側保留原卷圖表、照片及版面供核對。中文在下方獨立顯示，答題筆記為額外練習。</p><div class="toolbar"><button type="button" data-filter="all" aria-pressed="true">全部 {len(leaves)} 頁</button><button type="button" data-filter="data" aria-pressed="false">Data File</button><button type="button" data-filter="qab" aria-pressed="false">Question-Answer Book</button><label><input type="checkbox" id="toggle-zh" checked> 中文對照</label><button type="button" id="print-reader">列印</button></div></div><div class="layout"><aside><strong>閱讀進度</strong><output id="progress">0 / {len(leaves)}</output><nav>{''.join(nav)}</nav><small>原卷圖文與補充筆記分開；筆記只儲存在此瀏覽器。</small></aside><div id="reader">{''.join(cards)}</div></div></main><footer>來源：{html.escape(', '.join(report['sources']))}。英文由掃描原卷辨識，請以右側原卷核對；中文為輔助初譯，請以英文原卷為準。</footer></body></html>'''
+        source_figure = f'<figure class="facsimile"><img src="{p["image"]}" alt="{label} original page {p["source_page"]}" loading="lazy"><figcaption>原卷影像供核對文字和版面</figcaption></figure>'
+        if p["inline_translation"]:
+            body = f'<div class="native-document" lang="en"><div class="native-label">原生文字重建</div>{p["native"]}</div><details class="reference-scan"><summary>核對原卷影像</summary>{source_figure}</details>'
+            layout_class = ' verified-reconstruction'
+        else:
+            body = f'<div class="source-layout"><div class="native-document" lang="en"><div class="native-label">可選取的英文文字</div>{warning}{p["native"] or empty}</div>{source_figure}</div>{zh}'
+            layout_class = ''
+        cards.append(f'<article class="paper-page{layout_class}" id="page-{i}" data-kind="{p["kind"]}"><header><span>{label} · 原卷第 {p["source_page"]} 頁</span><label><input type="checkbox" data-read="{i}"> 已讀</label></header>{body}{extra}</article>')
+    reconstruction_note = "已核對頁面以原生 HTML 重建文件版面、文字與可作答欄位；可展開原卷影像核對。其餘頁面仍保留文字與掃描對照，待逐頁完成重建。" if any(p["inline_translation"] for p in leaves) else "目前以可選取的英文文字與原卷掃描對照；各頁仍在逐頁重建。"
+    shell = f'''<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{year} {level.upper()} · DSE Paper 3 Part B | EdmundEducation</title><link rel="stylesheet" href="/paper3/native-facsimile.css?v=20261002"><script defer src="/paper3/native-facsimile.js?v=20261001"></script></head><body data-reader="{year}-{level}"><a class="skip" href="#reader">跳至原卷</a><header class="top"><a href="/dse-paper3-analysis.html">← 返回綜合能力分析</a><a href="/paper3/">全部試卷</a></header><main><div class="hero"><p>DSE PAPER 3 · PART {level.upper()} · {year}</p><h1>{year} {level.upper()} Data File + Question-Answer Book</h1><p>{reconstruction_note}</p><div class="toolbar"><button type="button" data-filter="all" aria-pressed="true">全部 {len(leaves)} 頁</button><button type="button" data-filter="data" aria-pressed="false">Data File</button><button type="button" data-filter="qab" aria-pressed="false">Question-Answer Book</button><label><input type="checkbox" id="toggle-zh" checked> 中文對照</label><button type="button" id="print-reader">列印</button></div></div><div class="layout"><aside><strong>閱讀進度</strong><output id="progress">0 / {len(leaves)}</output><nav>{''.join(nav)}</nav><small>原卷圖文與補充筆記分開；筆記只儲存在此瀏覽器。</small></aside><div id="reader">{''.join(cards)}</div></div></main><footer>來源：{html.escape(', '.join(report['sources']))}。已重建頁面依原卷核對；其餘頁面仍在逐頁校對。中文為學習輔助，請以英文原卷為準。</footer></body></html>'''
     (output / "index.html").write_text(shell, encoding="utf-8")
     return report
 
