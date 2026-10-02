@@ -69,6 +69,7 @@ YEAR_FILES = {
 }
 MANIFEST = [
     (2012, "b1", [("DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Data File.pdf", list(range(1, 10)), "data"), ("DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Question-Answer Book.pdf", list(range(1, 5)), "qab")]),
+    (2012, "b2", [("DSE/2012/2012 DSE English Language Paper 3B2.pdf", list(range(7, 16)), "data"), ("DSE/2012/2012 DSE English Language Paper 3B2.pdf", list(range(1, 7)), "qab")]),
     (2014, "b1", [(YEAR_FILES[2014], list(range(1, 11)), "data"), (YEAR_FILES[2014], list(range(30, 34)), "qab")]),
     (2014, "b2", [(YEAR_FILES[2014], list(range(11, 22)), "data"), (YEAR_FILES[2014], list(range(34, 40)), "qab")]),
     (2015, "b1", [(YEAR_FILES[2015], list(range(13, 22)), "data"), (YEAR_FILES[2015], list(range(25, 29)), "qab")]),
@@ -262,7 +263,9 @@ def build_reader(year: int, level: str, sections, source_root: Path, site_root: 
         match = re.match(r"page-(\d+)\.", asset.name)
         if match and int(match.group(1)) > len(leaves):
             asset.unlink()
-    low = [leaf for leaf in leaves if leaf["words"] >= 15 and leaf["coverage"] < 0.72 and (leaf["kind"] == "data" or len(leaf["text"]) >= 100)]
+    # OCR confidence is relevant only to pages that still display OCR text.
+    # A source-checked, hand-authored layout replaces that extraction entirely.
+    low = [leaf for leaf in leaves if not leaf["verified_layout"] and leaf["words"] >= 15 and leaf["coverage"] < 0.72 and (leaf["kind"] == "data" or len(leaf["text"]) >= 100)]
     report = {"year": year, "level": level, "pages": len(leaves), "data_pages": sum(leaf["kind"] == "data" for leaf in leaves), "qab_pages": sum(leaf["kind"] == "qab" for leaf in leaves), "missing_source_pages": [p["leaf"] for p in leaves if p["missing"]], "nontext_qab_pages": [p["leaf"] for p in leaves if p["kind"] == "qab" and not p["text"]], "low_coverage": [{"leaf": p["leaf"], "coverage": round(p["coverage"], 2)} for p in low], "sources": sorted({p["source"] for p in leaves})}
     (output / "audit.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "source-text.json").write_text(json.dumps([{k: p[k] for k in ("leaf", "kind", "source_page", "source", "text")} for p in leaves], ensure_ascii=False), encoding="utf-8")
