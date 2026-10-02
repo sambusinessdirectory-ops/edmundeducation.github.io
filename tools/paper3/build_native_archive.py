@@ -89,6 +89,7 @@ MANIFEST = [
     # The supplied 2022 PDF is physically shuffled and contains a blank sheet
     # at source page 15. Map the printed DF-1 through DF-10 page numbers.
     (2022, "b1", [(YEAR_FILES[2022], [13, 14, 17, 18, 21, 22, 23, 20, 19, 16], "data"), (YEAR_FILES[2022], list(range(24, 28)), "qab")]),
+    (2022, "b2", [(YEAR_FILES[2022], [28, 29, 32, 33, 36, 37, 38, 35, 34, 31, 30], "data"), (YEAR_FILES[2022], list(range(39, 47)), "qab")]),
     (2023, "b1", [(YEAR_FILES[2023], list(range(16, 26)), "data"), (YEAR_FILES[2023], list(range(12, 16)), "qab")]),
     (2023, "b2", [(YEAR_FILES[2023], list(range(34, 44)), "data"), (YEAR_FILES[2023], list(range(26, 34)), "qab")]),
 ]
