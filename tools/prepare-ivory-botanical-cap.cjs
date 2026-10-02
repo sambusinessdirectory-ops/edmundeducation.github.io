@@ -7,11 +7,11 @@ const sourceDir=path.join(root,'tools/mascot-art/wardrobe/ivory-botanical-cap');
 const mascotDir=path.join(root,'assets/speaking-system/mascots/v4');
 const sourcePath=path.join(sourceDir,'cap-directions-source.png');
 const characters={
-  eddy:{base:'eddy-standing.png',blink:'eddy-blink.png',minWidth:92,maxWidth:106,widthFactor:.79,heightFactor:.54,topOffset:3,restoreDepth:48},
-  noir:{base:'noir-standing.png',blink:'noir-blink-v1.png',minWidth:96,maxWidth:112,widthFactor:.76,heightFactor:.54,topOffset:3,restoreDepth:50},
-  celeste:{base:'celeste-standing.png',blink:'celeste-blink-v1.png',minWidth:102,maxWidth:118,widthFactor:.70,heightFactor:.52,topOffset:4,restoreDepth:52},
-  phoebe:{base:'phoebe-standing.png',blink:'phoebe-blink.png',minWidth:98,maxWidth:114,widthFactor:.72,heightFactor:.52,topOffset:4,restoreDepth:52},
-  elsie:{base:'elsie-standing.png',blink:'elsie-blink-registered.png',minWidth:100,maxWidth:116,widthFactor:.70,heightFactor:.52,topOffset:4,restoreDepth:52}
+  eddy:{base:'eddy-standing.png',blink:'eddy-blink.png',fitting:'eddy-fitting-v2.png',maxWidth:94,maxHeight:51,restoreDepth:56},
+  noir:{base:'noir-standing.png',blink:'noir-blink-v1.png',fitting:'noir-fitting-v2.png',maxWidth:104,maxHeight:58,restoreDepth:58},
+  celeste:{base:'celeste-standing.png',blink:'celeste-blink-v1.png',fitting:'celeste-fitting-v2.png',maxWidth:104,maxHeight:62,restoreDepth:60},
+  phoebe:{base:'phoebe-standing.png',blink:'phoebe-blink.png',fitting:'phoebe-fitting-v2.png',maxWidth:94,maxHeight:54,restoreDepth:58},
+  elsie:{base:'elsie-standing.png',blink:'elsie-blink-registered.png',fitting:'elsie-fitting-v2.png',maxWidth:102,maxHeight:60,restoreDepth:60}
 };
 
 function components(mask,w,h){
@@ -38,6 +38,36 @@ function alphaBounds(data,ox,oy,yLimit=256){
     minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);
   }
   return maxX<0?null:{minX,minY,maxX,maxY,width:maxX-minX+1,height:maxY-minY+1};
+}
+
+// Find the cap silhouette in a character-specific worn fitting reference.  The
+// reference is deliberately not shipped as a replacement character; it is a
+// landmark source for the hat's per-view position and scale.  Warm ivory cap
+// pixels are separated from orange ears, blonde hair and pale white manes, then
+// only sizeable components in the upper head band are allowed to contribute.
+function fittingBounds(fitting,cell,baseBounds){
+  const ox=cell%4*256,oy=Math.floor(cell/4)*256,mask=new Uint8Array(256*256);
+  const yEnd=Math.min(132,baseBounds.minY+88);
+  for(let y=Math.max(0,baseBounds.minY-5);y<yEnd;y++)for(let x=0;x<256;x++){
+    const i=((oy+y)*1024+ox+x)*4,r=fitting[i],g=fitting[i+1],b=fitting[i+2],a=fitting[i+3];
+    const cap=a>=96&&r>=148&&g>=142&&b>=118&&r-g<=42&&g-b<=54&&r-b>=6&&b<=222;
+    if(cap)mask[y*256+x]=1;
+  }
+  const parts=components(mask,256,256).filter(part=>part.length>=24).map(part=>{
+    let minX=256,minY=256,maxX=-1,maxY=-1;
+    for(const p of part){const x=p%256,y=Math.floor(p/256);minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);}
+    return {part,minX,minY,maxX,maxY,width:maxX-minX+1,height:maxY-minY+1};
+  }).filter(part=>part.width>=7&&part.height>=4);
+  if(!parts.length)throw Error(`fitting reference cap not found in cell ${cell}`);
+  parts.sort((a,b)=>b.part.length-a.part.length);
+  const main=parts[0],selected=parts.filter(part=>
+    part.minY<=main.maxY+10&&part.maxY>=main.minY-10&&
+    part.minX<=main.maxX+18&&part.maxX>=main.minX-18
+  );
+  let minX=256,minY=256,maxX=-1,maxY=-1,pixels=0;
+  for(const part of selected){minX=Math.min(minX,part.minX);minY=Math.min(minY,part.minY);maxX=Math.max(maxX,part.maxX);maxY=Math.max(maxY,part.maxY);pixels+=part.part.length;}
+  if(pixels<180||maxX-minX<45||maxY-minY<22)throw Error(`fitting reference cap is incomplete in cell ${cell}: ${pixels}px ${maxX-minX+1}x${maxY-minY+1}`);
+  return {minX,minY,maxX,maxY,width:maxX-minX+1,height:maxY-minY+1,pixels};
 }
 
 function cleanCell(source,cell){
@@ -147,46 +177,56 @@ function dilateIdentity(seed,base,ox,oy,passes=0){
   return current;
 }
 
+function cleanCapOverlayCell(source,cell){
+  const ox=cell%4*256,oy=Math.floor(cell/4)*256,mask=new Uint8Array(256*256);
+  for(let y=0;y<256;y++)for(let x=0;x<256;x++){
+    const i=((oy+y)*1024+ox+x)*4;
+    if(source[i+3]>=56)mask[y*256+x]=1;
+  }
+  const keep=largestComponent(mask,256,256);
+  if(keep.length<900)throw Error(`cap-only source cell ${cell} is incomplete: ${keep.length}px`);
+  const out=Buffer.alloc(256*256*4);let minX=256,minY=256,maxX=-1,maxY=-1,pixels=0;
+  for(const p of keep){
+    const x=p%256,y=Math.floor(p/256),src=((oy+y)*1024+ox+x)*4,r=source[src],g=source[src+1],b=source[src+2],a=source[src+3];
+    // Image generation can leave saturated red/yellow diagnostic flecks on
+    // transparent edges. They are not part of the ivory/olive product.
+    const coloredNoise=(r>155&&r>g*1.34&&r>b*1.34)||(r>190&&g>145&&b<105);
+    if(coloredNoise||a<56)continue;
+    const dst=p*4;out[dst]=r;out[dst+1]=g;out[dst+2]=b;out[dst+3]=a;
+    minX=Math.min(minX,x);minY=Math.min(minY,y);maxX=Math.max(maxX,x);maxY=Math.max(maxY,y);pixels++;
+  }
+  if(pixels<850||maxX-minX<45||maxY-minY<24)throw Error(`clean cap-only source cell ${cell} is incomplete: ${pixels}px`);
+  return {out,minX,minY,maxX,maxY,width:maxX-minX+1,height:maxY-minY+1,pixels};
+}
+
 (async()=>{
-  const source=await sharp(sourcePath).resize(1024,1024,{fit:'fill'}).ensureAlpha().raw().toBuffer();
   let display;
   for(const [character,config] of Object.entries(characters)){
     const base=await sharp(path.join(mascotDir,config.base)).resize(1024,1024,{fit:'fill'}).ensureAlpha().raw().toBuffer();
     const blink=await sharp(path.join(mascotDir,config.blink)).resize(1024,1024,{fit:'fill'}).ensureAlpha().raw().toBuffer();
+    const fitting=await sharp(path.join(sourceDir,config.fitting)).resize(1024,1024,{fit:'fill'}).ensureAlpha().raw().toBuffer();
+    const source=await sharp(path.join(sourceDir,`${character}-cap-overlay-v2-source.png`)).resize(1024,1024,{fit:'fill'}).ensureAlpha().raw().toBuffer();
     const overlay=Buffer.alloc(1024*1024*4),hide=Buffer.alloc(1024*1024*4);let opaque=0;
     for(let cell=0;cell<16;cell++){
-      const ox=cell%4*256,oy=Math.floor(cell/4)*256,baseBounds=alphaBounds(base,ox,oy);
+      const ox=cell%4*256,oy=Math.floor(cell/4)*256,baseBounds=alphaBounds(base,ox,oy),clean=cleanCapOverlayCell(source,cell);
       if(!baseBounds)throw Error(`${character} cell ${cell} has no canonical character`);
-      const upperBottom=Math.min(256,baseBounds.minY+64),upper=alphaBounds(base,ox,oy,upperBottom);
-      const headCenter=Math.round(((upper||baseBounds).minX+(upper||baseBounds).maxX)/2);
-      const measured=(upper||baseBounds).width,capWidth=Math.round(Math.max(config.minWidth,Math.min(config.maxWidth,measured*config.widthFactor)));
-      const capHeight=Math.round(capWidth*config.heightFactor);
-      const resized=await resizedCell(source,cell,capWidth,capHeight),w=resized.info.width,h=resized.info.height;
-      const left=Math.round(headCenter-w/2),top=baseBounds.minY+config.topOffset;
+      const target=fittingBounds(fitting,cell,baseBounds);
+      const w=Math.max(54,Math.min(config.maxWidth,target.width-2));
+      const h=Math.max(24,Math.min(config.maxHeight,target.height-1));
+      const left=Math.round((target.minX+target.maxX+1-w)/2),top=target.minY;
+      const resized=await sharp(clean.out,{raw:{width:256,height:256,channels:4}})
+        .extract({left:clean.minX,top:clean.minY,width:clean.width,height:clean.height})
+        .resize({width:w,height:h,fit:'fill',kernel:'lanczos3'}).ensureAlpha().raw().toBuffer();
       const cellOverlay=Buffer.alloc(256*256*4),cellMask=new Uint8Array(256*256);
-      place(cellOverlay,cellMask,resized.data,w,h,left,top);
-      botanicalMark(cellOverlay,cell,left,top,w,h);
-      // Keep the character's own ears (and Elsie's bow) in front of the cap.
-      // Warm/pink inner-ear pixels seed a small base-alpha-clamped expansion,
-      // so dark or pale outer ear edges survive without restoring the mane.
-      const restoreBottom=Math.min(256,baseBounds.minY+config.restoreDepth);
-      const seed=new Uint8Array(256*256);
-      for(let y=baseBounds.minY;y<restoreBottom;y++)for(let x=0;x<256;x++){
-        const src=((oy+y)*1024+ox+x)*4;
-        if(identitySeed(character,base[src],base[src+1],base[src+2],base[src+3],x,headCenter,capWidth))seed[y*256+x]=1;
-      }
-      const identity=dilateIdentity(seed,base,ox,oy);
-      for(let y=baseBounds.minY;y<restoreBottom;y++)for(let x=0;x<256;x++){
-        const local=y*256+x;if(cellMask[local]<24||!identity[local])continue;
-        const src=((oy+y)*1024+ox+x)*4,dst=local*4;base.copy(cellOverlay,dst,src,src+4);
-      }
+      place(cellOverlay,cellMask,resized,w,h,left,top);
+      console.log(character,'cell',cell,'fit',left,top,w,h,'source pixels',clean.pixels);
       for(let y=0;y<256;y++)for(let x=0;x<256;x++){
-        const s=(y*256+x)*4,d=((oy+y)*1024+ox+x)*4,a=cellMask[y*256+x];
-        if(cellOverlay[s+3])cellOverlay.copy(overlay,d,s,s+4);
+        const s=(y*256+x)*4,d=((oy+y)*1024+ox+x)*4,a=cellOverlay[s+3];
+        if(a)cellOverlay.copy(overlay,d,s,s+4);
         if(a){hide[d]=hide[d+1]=hide[d+2]=255;hide[d+3]=a;opaque++;}
       }
     }
-    if(opaque<45000)throw Error(`${character} cap extraction is unexpectedly sparse: ${opaque}`);
+    if(opaque<30000)throw Error(`${character} cap extraction is unexpectedly sparse: ${opaque}`);
     const outDir=path.join(root,'assets/speaking-system/cosmetics',character);fs.mkdirSync(outDir,{recursive:true});
     await sharp(overlay,{raw:{width:1024,height:1024,channels:4}}).webp({lossless:true}).toFile(path.join(outDir,'ivory-botanical-cap.webp'));
     await sharp(hide,{raw:{width:1024,height:1024,channels:4}}).webp({lossless:true}).toFile(path.join(outDir,'ivory-botanical-cap-hide.webp'));
@@ -202,7 +242,10 @@ function dilateIdentity(seed,base,ox,oy,passes=0){
       {input:overlay,raw:{width:1024,height:1024,channels:4}}
     ]).png().toFile(path.join(sourceDir,`${character}-fit-reference.png`));
     console.log(character,'cap mask pixels',opaque);
-    if(character==='eddy')display=await resizedCell(source,0,460);
+    if(character==='eddy'){
+      const front=cleanCapOverlayCell(source,0);
+      display=await sharp(front.out,{raw:{width:256,height:256,channels:4}}).extract({left:front.minX,top:front.minY,width:front.width,height:front.height}).resize({width:460}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+    }
   }
   const shared=path.join(root,'assets/speaking-system/cosmetics/shared');fs.mkdirSync(shared,{recursive:true});
   await sharp(display.data,{raw:{width:display.info.width,height:display.info.height,channels:4}}).png().toFile(path.join(shared,'ivory-botanical-cap-display.png'));
