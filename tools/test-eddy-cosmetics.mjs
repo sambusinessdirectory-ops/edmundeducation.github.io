@@ -192,6 +192,23 @@ test('the retro shirt migration registers all three catalog items in both boys t
  for(const slot of ['top','eddyTop','noirTop'])for(const id of ['black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
  for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'black-ivory-retro-bowling-shirt'"));
 });
+test('the beige utility shirt is boys-only and the migration allows both boys slots',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
+ const item=cosmeticsForCharacter('eddy').find(x=>x.id==='beige-utility-shirt');
+ assert.equal(item?.slot,'top');
+ assert.equal(item?.display,'shared/beige-utility-shirt-display.png');
+ assert.equal(cosmeticsForCharacter('noir').some(x=>x.id===item.id),true);
+ for(const character of ['celeste','phoebe','elsie'])
+  assert.equal(cosmeticsForCharacter(character).some(x=>x.id===item.id),false);
+ const sql=readFileSync(new URL('../supabase/migrations/20261003004632_beige_utility_shirt_eddy_noir.sql',import.meta.url),'utf8');
+ assert.match(sql,/values \('beige-utility-shirt','Beige rolled-sleeve utility shirt',30,true\)/);
+ for(const slot of ['top','eddyTop','noirTop'])
+  assert.match(sql,new RegExp("value->>'"+slot+"'.*'beige-utility-shirt'"));
+ for(const slot of ['celesteTop','phoebeTop','elsieTop'])
+  assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'beige-utility-shirt'"));
+});
+
 test('full-body clothing replaces tops and lower-body clothing but preserves shoes and headwear',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
  const dress=cosmeticsForCharacter('elsie').find(x=>x.id==='camel-coat-dress');

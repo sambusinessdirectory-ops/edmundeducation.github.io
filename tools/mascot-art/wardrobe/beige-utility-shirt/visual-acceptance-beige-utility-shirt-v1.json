@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "beige-utility-shirt",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "pending-review",
+  "humanVisualAcceptance": false,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "same-angle bare and shirt comparison for Eddy and Noir in the actual standing 3D renderer",
+    "all 16 directions for both characters, including fronts, profiles, rear and diagonals",
+    "open-eye and blink states with exact runtime atlases",
+    "dark, midtone and light renderer backgrounds",
+    "independent shirt fit with pointed collar, twin flap pockets, rolled sleeves and curved hem",
+    "face, eyes, ears, bridle, mane, wrist hooves, legs and tail retain canonical identity and occlusion",
+    "botanical-cap plus shirt plus shearling-boots compatibility",
+    "no clipping, background matte, white halo, missing cells or copied character overlay"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/beige-utility-shirt.webp": "6954e1aab1c7885a8fe8a50861dec46ed148823f29e43a0289b411c6b4947e24",
+    "assets/speaking-system/cosmetics/noir/beige-utility-shirt.webp": "22315a6c83be739844f87d04699f208a57f743749fbf9022c9ad91ba398fcf84",
+    "assets/speaking-system/cosmetics/shared/beige-utility-shirt-display.png": "521bdb8d9ecc23986954bd7a365e5ea7492052857f098219611c14e25765e0ae"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-eddy-bare-3d-dark-open.jpg": "dc15a4b46e8a33ed94778b2e311cae9a474e7b7e6764a8113d9728a423e6ec00",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-eddy-beige-utility-shirt-3d-dark-open.jpg": "ee4c4a9fd0dcde614ddaf82cdbdc19cea424d4b82d2e338c29d87a824d8eae19",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-eddy-beige-utility-shirt-3d-blink.jpg": "a7e2362187ab4ed8b796643bee7c1195b6c27d5e3c2b521ae855659456cfa45c",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-eddy-beige-utility-shirt-3d-light-open.jpg": "fb19a6e88ed6c074f4723da928adcadf96f610f5c3dd94d36e2f0f0641389c42",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-eddy-beige-utility-shirt-combination-3d-open.jpg": "810a1e76f9e97eb1baf3b7b51bb431d2d39a797b92daae3b92df056a634b84e6",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-eddy-beige-utility-shirt-combination-3d-blink.jpg": "f65d3626ba5457560f20febdae1563c260ec66e42397cb86fa6ab981d1b2da50",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-noir-bare-3d-dark-open.jpg": "7dc80e40ed64abe3f523ef74a402daa30dc6312e96bd710409418fb763757068",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-noir-beige-utility-shirt-3d-dark-open.jpg": "01f169ca88fc8b43ce7cb0d7ae5b689c03e903cbfb83b0b0f4047e2378479db4",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-noir-beige-utility-shirt-3d-blink.jpg": "5919a94adf23ac55d7a1f983a7b94b13757589880aae9073e60c64a6afd9c53d",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-noir-beige-utility-shirt-3d-light-open.jpg": "f12b6af249a5f6ca420ac567262d9fd943dea25dcab6729b2bb6cbb128087f2e",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-noir-beige-utility-shirt-combination-3d-open.jpg": "4d608f1267b2dba6b00b6038ec9e0a3f5d3ad036a6b67bbbcf471562d6e77dce",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-noir-beige-utility-shirt-combination-3d-blink.jpg": "afadedabad938e0b313c2e215c95131d0adb8adf71c96b2cc023e8a87898f112",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-approval-v1.jpg": "136ef0ba18875c4aa62c6671f29ae3abe3de18f25da1cf72a94e5ca612a5ad9f",
+    "tools/mascot-art/wardrobe/beige-utility-shirt/qa-detail-v1.jpg": "38a6e33fd83f5421abdc834fc677e78f8594752441a210eacf9d847f76d492fa"
+  }
+}

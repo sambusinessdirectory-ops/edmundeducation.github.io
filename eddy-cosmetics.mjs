@@ -13,6 +13,7 @@ export const COSMETICS=Object.freeze([
  {id:'black-ivory-retro-bowling-shirt',slot:'top',price:30,name:'Black ivory retro bowling shirt',description:'黑色復古保齡球襯衫 · 象牙白拼接與紅色滾邊',display:'shared/black-ivory-retro-bowling-shirt-display.png'},
  {id:'burgundy-hot-rod-bowling-shirt',slot:'top',price:35,name:'Burgundy hot-rod bowling shirt',description:'酒紅色復古保齡球襯衫 · 背面老爺車圖案',display:'shared/burgundy-hot-rod-bowling-shirt-display.png'},
  {id:'ivory-black-flame-shirt',slot:'top',price:30,name:'Ivory black-flame camp shirt',description:'象牙白古巴領襯衫 · 黑色火焰下擺',display:'shared/ivory-black-flame-shirt-display.png'},
+ {id:'beige-utility-shirt',slot:'top',price:30,name:'Beige rolled-sleeve utility shirt',description:'米色雙口袋捲袖襯衫',display:'shared/beige-utility-shirt-display.png'},
  {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',price:35,name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'},
  {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',price:35,name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'},
  {id:'navy-cream-knit-vest',slot:'girlsTop',group:'girls',price:30,name:'Navy cream-trim knit vest',description:'海軍藍無袖針織背心 · 奶油白淺V領',display:'girls/navy-cream-knit-vest-display.png'},
@@ -68,7 +69,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-camel-colour1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261003-beige-utility1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
