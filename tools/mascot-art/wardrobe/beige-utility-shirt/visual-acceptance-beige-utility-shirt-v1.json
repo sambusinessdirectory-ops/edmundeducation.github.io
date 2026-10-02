@@ -3,8 +3,10 @@
   "itemId": "beige-utility-shirt",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending-review",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T16:59:35Z",
   "characters": [
     "eddy",
     "noir"

@@ -6,7 +6,7 @@
 - Price: 30, matching existing utility/camp shirts
 - Pose family: standing; 16 directional views per character, open and blink
 - Design: warm sand-beige button-up with a pointed open collar, two flap chest pockets, small tan buttons, rolled tab sleeves, and a curved hem
-- Release state: **pending human visual acceptance** under the v4 Golden Manual; the migration and site changes are local only
+- Release state: **visually accepted** by the user in Codex chat on 2026-10-02T16:59:35Z; deployment in progress
 
 ## Source and runtime files
 
