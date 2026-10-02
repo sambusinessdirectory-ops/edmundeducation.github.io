@@ -1,0 +1,7 @@
+# Image-generation briefs and input roles
+
+The reference input was the user's screenshot with three headless fantasy costumes, left to right: crimson and gold court coat with puffed sleeves and long split tails; dark charcoal/black embroidered robe with red waist sash and ragged hem; ivory hooded robe with gold embroidery, dark rope belt, and split layered skirt. The canonical Eddy and Noir standing atlases were character and pose references. Each requested output was a 4 × 4 transparent atlas with identical orientation and scale to the corresponding mascot sheet.
+
+For each outfit and each character, the fit brief requested the reference costume tailored to that character's body across all 16 views, preserving the mascot's proportions and recognizable head, mane, tail, and hooves. The garment-only brief requested the same 16-view costume without mascot anatomy, as a silhouette guide for extraction. Each catalog-cutout brief requested one front-facing, headless, transparent product image matching the relevant reference outfit. The generated characters were never used as full replacements; only pixels within the garment-only guides were extracted from fit images.
+
+Outputs were inspected on both dark and light backgrounds. The runtime was then checked in the actual 3D standing renderer for all directions and representative cap/boots combinations. Image generation can introduce inconsistent embroidery, seams, or small asymmetry between views; the review boards are the source of truth for acceptance.

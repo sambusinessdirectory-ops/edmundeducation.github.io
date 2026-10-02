@@ -47,20 +47,37 @@ async function main() {
       assert.equal(await page.locator(".sentence-zen-lesson .lesson-stepper button").count(),4);
       assert.match(await page.locator("[data-seaside-level]").innerText(),/^LEVEL (61|75|90) · 庭園慢行$/);
       assert.match(await page.locator(".sentence-zen-lesson").evaluate(el => getComputedStyle(el,"::before").backgroundImage),/lesson-garden-v1\.webp/);
+      if (id === "ss61") {
+        assert.match(await page.locator(".lesson-content").evaluate(el => getComputedStyle(el).backgroundImage),/garden-side-v2\.webp/);
+        assert.deepEqual(await page.evaluate(async () => {
+          const image = new Image();
+          image.src = 'assets/sentence-structure/zen/garden-side-v2.webp';
+          await image.decode();
+          return [image.naturalWidth,image.naturalHeight];
+        }),[1024,1536]);
+      }
       assert.ok(await page.locator(".formula-display p").count() >= 1,`${id}: formula rows`);
       assert.ok(await page.locator(".example-block").count() >= 1,`${id}: examples`);
+      assert.equal(await page.locator(".lesson-navigation").evaluate(el => getComputedStyle(el).backgroundImage),"none",`${id}: navigation shares the lesson parchment`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-formula-desktop.png")});
       await page.evaluate(() => window.zenLessonTest.page(2));
       assert.ok(await page.locator(".benefit-card").count() >= 4,`${id}: benefits`);
+      assert.equal(await page.locator(".benefit-card > span b").first().innerText(),"1",`${id}: live stone numeral`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-benefits-desktop.png")});
       await page.evaluate(() => window.zenLessonTest.page(3));
       assert.ok(await page.locator(".rule-card").count() >= 4,`${id}: rules`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-rules-desktop.png")});
       await page.evaluate(() => window.zenLessonTest.page(4));
       assert.equal(await page.locator(".question-card").count(),50,`${id}: exercises`);
+      assert.equal(await page.locator(".question-number b").first().innerText(),"1",`${id}: live hanging-scroll numeral`);
+      assert.match(await page.locator(".question-number").first().evaluate(el => getComputedStyle(el).backgroundImage),/hanging-scroll-v1\.webp/);
       assert.equal(await page.locator(".question-card[data-edmund-prompt-text]").count(),50,`${id}: audio and recording hook`);
       await page.waitForFunction(() => document.querySelectorAll(".question-card .edmund-speaking-practice").length === 50);
-      if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-exercise-desktop.png")});
+      if (id === "ss61") {
+        await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-exercise-desktop.png")});
+        await page.locator(".question-card").first().screenshot({path:path.join(output,"61-first-question-desktop.png")});
+        await page.screenshot({path:path.join(output,"61-first-question-viewport.png")});
+      }
     }
     for (const id of ["ss60", "ss91"]) {
       await page.evaluate(id => window.zenLessonTest.open(id), id);
@@ -74,7 +91,10 @@ async function main() {
         await page.waitForSelector(stage === 4 ? ".question-card" : ".info-page");
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
         assert.ok(overflow <= 1,`${width}px stage ${stage}: horizontal overflow ${overflow}px`);
-        if (width === 390) await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,`90-page-${stage}-phone.png`)});
+        if (width === 390) {
+          await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,`90-page-${stage}-phone.png`)});
+          if (stage === 4) await page.screenshot({path:path.join(output,"90-page-4-phone-top.png"),clip:{x:0,y:0,width:390,height:1600}});
+        }
       }
     }
     await page.evaluate(() => window.zenLessonTest.dashboard());

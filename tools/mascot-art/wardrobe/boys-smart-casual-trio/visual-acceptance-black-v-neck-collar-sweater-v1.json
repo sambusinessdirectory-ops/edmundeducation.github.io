@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "black-v-neck-collar-sweater",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T16:50:51Z",
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "tie, tie bar, collar, cuffs, V-neck, lapels, brass buttons and pocket square preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "botanical-cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/black-v-neck-collar-sweater.webp": "e9042a810b6865639457e9a2ebb01938f779e9a3478053c1a109592f722de48e",
+    "assets/speaking-system/cosmetics/noir/black-v-neck-collar-sweater.webp": "8ec80c040f435a416e4a1c08876af8d278ffc99e6ef23a1ed94471af033d0e45",
+    "assets/speaking-system/cosmetics/shared/black-v-neck-collar-sweater-display.png": "d1b89b99eb46a4e6fd4d747bea8e6e6871f384426a2908ba4a3d21b3e899dde7"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-black-v-neck-collar-sweater-3d-dark-open.jpg": "0b697144e4e16d564a5f6596c775ce7c770531e144ef125526ce9733aac4a135",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-black-v-neck-collar-sweater-3d-blink.jpg": "3f0c958d04bf2a305e04128c5a20c2a0b494a24d467e032955f9bc13c7d2ca15",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-black-v-neck-collar-sweater-3d-light-open.jpg": "6ef0ff1546052c584b330390e14ca8219bbad61559237fa6dcf84200535473d8",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-black-v-neck-collar-sweater-combination-3d-open.jpg": "3a8947bc669eb4da90bf6606e6d17e0291b601760d239ea6779a6bd436f1cf42",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-black-v-neck-collar-sweater-combination-3d-blink.jpg": "bf1672f0d9a6fb18e09e662f78c4afa6cd94c1cc6f05f878ffa41f6438c54dc7",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-black-v-neck-collar-sweater-3d-dark-open.jpg": "d64896c29e794f18fa0d9e4699d00e0478c35e5b965775c92c676bea275d6909",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-black-v-neck-collar-sweater-3d-blink.jpg": "8cce84acb7d6a35d4d0f0a78337b2334c7bbd5a1b74934f549d0f01229b6234a",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-black-v-neck-collar-sweater-3d-light-open.jpg": "fa4f7b70ac2bdb4936ccd3477e6d1adade813a512a69a3f848e181428575c4cc",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-black-v-neck-collar-sweater-combination-3d-open.jpg": "d6994f190a85d08e42591019fd567dffe7e312eea489f50d02410e487073f708",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-black-v-neck-collar-sweater-combination-3d-blink.jpg": "2d278fb1ad9329f7f2bdaa6d3450d3a0141d7ece6d75a8d51fb18f3e38aa89e2",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-approval-v1.jpg": "a646e45c3b6652932dc572df1cf40a4dce2ccb5a663cb04ca7fa2521fcaa195b"
+  }
+}

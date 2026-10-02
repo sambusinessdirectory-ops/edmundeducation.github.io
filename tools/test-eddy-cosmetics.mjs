@@ -192,6 +192,88 @@ test('the retro shirt migration registers all three catalog items in both boys t
  for(const slot of ['top','eddyTop','noirTop'])for(const id of ['black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
  for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'black-ivory-retro-bowling-shirt'"));
 });
+test('the beige utility shirt is boys-only and the migration allows both boys slots',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
+ const item=cosmeticsForCharacter('eddy').find(x=>x.id==='beige-utility-shirt');
+ assert.equal(item?.slot,'top');
+ assert.equal(item?.display,'shared/beige-utility-shirt-display.png');
+ assert.equal(cosmeticsForCharacter('noir').some(x=>x.id===item.id),true);
+ for(const character of ['celeste','phoebe','elsie'])
+  assert.equal(cosmeticsForCharacter(character).some(x=>x.id===item.id),false);
+ const sql=readFileSync(new URL('../supabase/migrations/20261002170119_beige_utility_shirt_eddy_noir.sql',import.meta.url),'utf8');
+ assert.match(sql,/values \('beige-utility-shirt','Beige rolled-sleeve utility shirt',30,true\)/);
+ for(const slot of ['top','eddyTop','noirTop'])
+  assert.match(sql,new RegExp("value->>'"+slot+"'.*'beige-utility-shirt'"));
+ for(const slot of ['celesteTop','phoebeTop','elsieTop'])
+  assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'beige-utility-shirt'"));
+});
+
+test('the smart-casual trio is boys-only with independent Eddy and Noir atlases',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const ids=['white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt'];
+ for(const id of ids){
+  const hashes=[];
+  for(const character of ['eddy','noir']){
+   clearCosmetics(character);equipCosmetic(id,character);assert.equal(cosmeticsState().equipped[character+'Top'],id);
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+id+'.webp',import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+   const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+   assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>30000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+  }
+  assert.notEqual(hashes[0],hashes[1]);
+  const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/'+id+'-display.png',import.meta.url));
+  assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),512);assert.equal(thumb.readUInt32BE(20),512);assert.ok([4,6].includes(thumb[25]));
+  for(const character of ['celeste','phoebe','elsie'])assert.equal((await import('../eddy-cosmetics.mjs')).cosmeticsForCharacter(character).some(item=>item.id===id),false);
+ }
+ for(const character of ['eddy','noir'])clearCosmetics(character);
+});
+test('the smart-casual migration registers all three catalog items and preserves the current boys allowlist',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261003002500_boys_smart_casual_trio.sql',import.meta.url),'utf8');
+ for(const [id,name,price] of [
+  ['white-shirt-black-tie','White shirt with black tie',30],
+  ['black-v-neck-collar-sweater','Black V-neck collared sweater',35],
+  ['navy-blazer-cream-sweatshirt','Navy blazer cream sweatshirt',40]
+ ])assert.match(sql,new RegExp("\\('"+id+"','"+name+"',"+price+",true\\)"));
+ for(const slot of ['top','eddyTop','noirTop'])for(const id of ['beige-utility-shirt','white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'white-shirt-black-tie'"));
+});
+
+test('three fantasy full-body outfits are boys-only, independently fitted, and clear tops and pants',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const {createHash}=await import('node:crypto');
+ const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
+ const ids=['crimson-gilded-court-coat','shadow-thorn-robe','ivory-wayfarer-robe'];
+ const sql=readFileSync(new URL('../supabase/migrations/20261003014052_boys_fantasy_fullbody_trio.sql',import.meta.url),'utf8');
+ for(const id of ids){
+  const item=cosmeticsForCharacter('eddy').find(x=>x.id===id);
+  assert.equal(item?.slot,'fullBody');assert.deepEqual(item.coverage,['top','lower']);
+  assert.equal(item.group,'boys');assert.equal(item.price,45);
+  assert.equal(cosmeticsForCharacter('noir').some(x=>x.id===id),true);
+  for(const character of ['celeste','phoebe','elsie'])assert.equal(cosmeticsForCharacter(character).some(x=>x.id===id),false);
+  const hashes=[];
+  for(const character of ['eddy','noir']){
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+id+'.webp',import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',12,16),'VP8L');assert.ok(bytes.length>60000);
+   const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+   assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+   const selected=applyCosmeticSelection({[character+'Top']:'beige-utility-shirt',[character+'Lower']:'future-pants',[character+'Feet']:'brown-shearling-lace-boots',[character+'Headwear']:'ivory-botanical-cap'},item,character);
+   assert.deepEqual(selected,{[character+'Feet']:'brown-shearling-lace-boots',[character+'Headwear']:'ivory-botanical-cap',[character+'FullBody']:id});
+   assert.deepEqual(cleanEquipment({[character+'Top']:'beige-utility-shirt',[character+'FullBody']:id}),{[character+'FullBody']:id});
+   const top=cosmeticsForCharacter(character).find(x=>x.id==='beige-utility-shirt');
+   assert.equal(applyCosmeticSelection(selected,top,character)[character+'FullBody'],undefined);
+  }
+  assert.notEqual(hashes[0],hashes[1]);
+  assert.match(sql,new RegExp("'"+id+"'"));
+ }
+ for(const slot of ['eddyFullBody','noirFullBody'])for(const id of ids)assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const slot of ['top','eddyTop','noirTop'])for(const id of ['white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const slot of ['celesteFullBody','phoebeFullBody','elsieFullBody'])for(const id of ids)assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const character of ['eddy','noir'])assert.match(sql,new RegExp("not\\(value\\?'"+character+"FullBody' and"));
+ assert.match(sql,/slots:=array\[p_character\|\|'Headwear',p_character\|\|'Top',p_character\|\|'FullBody',p_character\|\|'Feet'\]/);
+});
+
 test('full-body clothing replaces tops and lower-body clothing but preserves shoes and headwear',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
  const dress=cosmeticsForCharacter('elsie').find(x=>x.id==='camel-coat-dress');

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemId": "ivory-wayfarer-robe",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "same-angle bare and full-body outfit comparison for Eddy and Noir in the actual standing 3D renderer",
+    "all 16 directions for both characters, including fronts, profiles, rear and diagonals",
+    "open-eye and blink states with exact runtime atlases",
+    "dark, midtone and light renderer backgrounds",
+    "independent fitted ivory wayfarer robe with front, side and back garment details matching the reference",
+    "the full-body slot clears tops and lower-body clothing, including pants, and preserves compatible headwear and footwear",
+    "canonical face, eyes, ears, bridle, mane, tail, hoof hands and hoof feet remain visible and correctly occluded",
+    "botanical-cap plus outfit plus shearling-boots compatibility",
+    "no clipping, colored fringe, background matte, white halo, missing cells or copied character overlay"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/ivory-wayfarer-robe.webp": "fdffc5e04590420403a0ef9fbac4b5e8be73b643706a7b82bb616e180e298c07",
+    "assets/speaking-system/cosmetics/noir/ivory-wayfarer-robe.webp": "cbd0b7dc3bbe2e3fa20aaf21955e47d9bfdb919dbf8e63a56884c9db5a817270",
+    "assets/speaking-system/cosmetics/shared/ivory-wayfarer-robe-display.png": "56b09e6bf01379320f572b6dbb7e297f25660fce7191afa1fbb0928048efcc1a"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-bare-3d-dark-open.jpg": "dc15a4b46e8a33ed94778b2e311cae9a474e7b7e6764a8113d9728a423e6ec00",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-ivory-wayfarer-robe-3d-dark-open.jpg": "51106ac3712b6dd0c2b9a5b6fb826fe479377a901446d00408781ffc4e71982c",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-ivory-wayfarer-robe-3d-blink.jpg": "f7ceb013e19473951350809bfe45b99e1f5ad1aaa1dd4fe79b7c96a531520127",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-ivory-wayfarer-robe-3d-light-open.jpg": "f79f1fbc6daa5c3ad7b903cf4875caf8db74f2d136b7928164a82d307cb5cfaa",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-ivory-wayfarer-robe-combination-3d-open.jpg": "21e86c0e0a78383ca6142c0000f322ab7aa4a99a1e7b97123a2a00df00d3e2f0",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-ivory-wayfarer-robe-combination-3d-blink.jpg": "04208c71db47de94be52a96794dfabb2d6d8ea401d656ad9aef122688f6150b7",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-bare-3d-dark-open.jpg": "7dc80e40ed64abe3f523ef74a402daa30dc6312e96bd710409418fb763757068",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-ivory-wayfarer-robe-3d-dark-open.jpg": "e67eabbefe9b62a550412237f0be1f38918f57833825b35dcf2850451eef11b5",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-ivory-wayfarer-robe-3d-blink.jpg": "6b5131e0d152324673ea13e62b338e0ad755365985f80c7d288ec27d2717ca17",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-ivory-wayfarer-robe-3d-light-open.jpg": "bc712086fa66402cf95e5b2de96596d06d903d8c64d450714b291c0b14a756ad",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-ivory-wayfarer-robe-combination-3d-open.jpg": "3d3505aa4d998d543f492409717bb85d8a33ad4dd4edf6870f25a384f6aca228",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-ivory-wayfarer-robe-combination-3d-blink.jpg": "d3bbcc664011b95ab6815750e09d7db3df08db68d5781b2163a903f063ca12b1",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-approval-ivory-wayfarer-robe-v1.jpg": "acf644325db2a4ee52eed65b6d91424e49354fba3bbac58a1da72f3efef1bb7a",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-detail-ivory-wayfarer-robe-v1.jpg": "457e68bc98973334be59480b8a1b3d5675036c3d111a1da6aa43ae119166cd86",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-overview-v1.jpg": "6496b7eb0c362b457551e3cb9c6053e807975e6893e42ebbdb84ff1fea264cc2"
+  },
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T17:59:08Z"
+}

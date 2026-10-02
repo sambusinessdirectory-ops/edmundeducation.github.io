@@ -1,4 +1,4 @@
-import {createExpressionMap} from './common-expression-map.mjs?v=20261002-camel-colour1';
+import {createExpressionMap} from './common-expression-map.mjs?v=20261003-fantasy-fullbody1';
 import {IDIOM_PAPER_THEME} from './idiom-paper-theme.mjs?v=20260913-paper4';
 export const IDIOM_MAP_LIMIT=30;
 export function idiomMapLessons(lessons) {

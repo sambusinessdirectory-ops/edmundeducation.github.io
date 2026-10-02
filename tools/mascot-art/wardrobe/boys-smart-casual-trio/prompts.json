@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image generation",
+  "mode": "precise-object-edit",
+  "reference": "design-reference.png",
+  "characters": ["eddy", "noir"],
+  "garments": {
+    "white-shirt-black-tie": "LEFT garment only: crisp white short-sleeve collared shirt, long matte-black necktie and small silver tie bar",
+    "black-v-neck-collar-sweater": "CENTER garment only: black long-sleeve V-neck knit sweater over a white pointed-collar button shirt, with white cuffs visible at both wrists",
+    "navy-blazer-cream-sweatshirt": "RIGHT garment only: navy-blue tailored blazer over a cream crew-neck sweatshirt, two warm brass buttons, slim welt pockets and a small white pocket square"
+  },
+  "sharedPrompt": "Dress the named character in the selected garment in every one of the 16 existing views. Preserve the exact 4 columns by 4 rows, cell positions, character scale, ground contact, pose, direction, head, face, eyes, ears, mane, muzzle, bridle, tail, arms, hoof-hands, legs, feet, proportions and identity. Change clothing only. Fit neckline below the muzzle, sleeves to the original arms, cuffs at the wrist hooves and hem at the hips. Rotate front details correctly in profile and rear views. Preserve purposeful mane and tail occlusion. Output one full RGBA atlas with genuine transparency. No background, checkerboard, labels, grid, floor, shadows, hats, shoes, trousers, facial changes, body recolouring, added anatomy, missing or rearranged views, halos, fragments or cell spill."
+}

@@ -15,6 +15,20 @@
 @media(max-width:800px){.module-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.module-library-heading{display:block}.module-library-heading a{display:inline-block;margin-top:.6rem}.module-card-grid{grid-template-columns:1fr;gap:11px}.module-card{min-height:142px;padding:17px 19px}.module-card-word{font-size:1.8rem;margin-bottom:14px}.module-card-number{font-size:5.7rem}.module-card-progress{font-size:.75rem}}
 
+.module-search{margin:0 0 28px;padding:17px 20px 15px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 5px 18px #24473b08}
+.module-search>label{display:flex;align-items:baseline;gap:10px;font-weight:750;color:var(--ink)}
+.module-search>label small{font-weight:500}
+.module-search-control{display:flex;align-items:center;gap:10px;margin-top:10px;padding:0 13px;border:1px solid #a9c6bf;border-radius:12px;background:#f8fbf9}
+.module-search-control:focus-within{outline:3px solid #c19020;outline-offset:3px;border-color:var(--teal)}
+.module-search-control>span{font-size:1.55rem;line-height:1;color:var(--teal)}
+.module-search-control input{flex:1;min-width:0;width:100%;margin:0;padding:13px 0;border:0;outline:0;background:transparent;box-shadow:none}
+.module-search-control input:focus-visible{outline:0}
+.module-search-control input::-webkit-search-cancel-button{display:none}
+.module-search-control button{flex:0 0 auto;padding:6px 10px;border-radius:8px;box-shadow:none;font-size:.78rem}
+.module-search [data-module-search-results]{margin:9px 0 0;color:var(--muted);font-size:.8rem}
+.module-search-empty{grid-column:1/-1;margin:0;padding:24px;border:1px dashed #b7ccc4;border-radius:14px;background:#fff;color:var(--muted);text-align:center}
+@media(max-width:560px){.module-search{padding:15px}.module-search>label{display:block}.module-search>label small{margin-top:2px}}
+
 .module-page-nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:22px 0 24px}
 .module-page-nav button{border-color:#a9ccc2;background:#edf7f2;color:#195e59;font-weight:800}
 .module-page-nav a{color:var(--teal);font-weight:750;text-underline-offset:.25em}
@@ -166,6 +180,12 @@
 .polysemy-streak[data-streak-stage="4"]{--eddy-eye-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22soft%22%3E%3CfeGaussianBlur%20stdDeviation%3D%220.35%22/%3E%3C/filter%3E%3C/defs%3E%3Cg%20fill%3D%22white%22%20filter%3D%22url%28%23soft%29%22%3E%3Cellipse%20cx%3D%2229.3%22%20cy%3D%2256.7%22%20rx%3D%228.4%22%20ry%3D%229.9%22/%3E%3Cellipse%20cx%3D%2264.3%22%20cy%3D%2256.7%22%20rx%3D%228.4%22%20ry%3D%229.9%22/%3E%3C/g%3E%3C/svg%3E")}
 .polysemy-streak[data-streak-stage="5"]{--eddy-eye-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22soft%22%3E%3CfeGaussianBlur%20stdDeviation%3D%220.35%22/%3E%3C/filter%3E%3C/defs%3E%3Cg%20fill%3D%22white%22%20filter%3D%22url%28%23soft%29%22%3E%3Cellipse%20cx%3D%2229.7%22%20cy%3D%2257.3%22%20rx%3D%228.4%22%20ry%3D%229.9%22/%3E%3Cellipse%20cx%3D%2264.7%22%20cy%3D%2257.3%22%20rx%3D%228.4%22%20ry%3D%229.9%22/%3E%3C/g%3E%3C/svg%3E")}
 .eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{animation:none;background-position:var(--eddy-stage-x) 0%}
+/* The final pose's coloured glow reaches the atlas cell boundary. Feather the
+   sprite viewport so its rectangular crop cannot show on the streak card. */
+body[data-polysemy-companion="eddy"] .polysemy-streak[data-streak-stage="5"] .eddy-streak-sprite{
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);
+}
 .eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{display:block;content:"";position:absolute;inset:0;background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v5.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) var(--eddy-closed-y);-webkit-mask-image:var(--eddy-eye-mask);mask-image:var(--eddy-eye-mask);-webkit-mask-size:100% 100%;mask-size:100% 100%;opacity:0;animation:eddy-eyes-only-blink 5.8s steps(1,end) infinite;pointer-events:none}
 @keyframes eddy-eyes-only-blink{0%,88%,91%,100%{opacity:0}89%,90%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{animation:none;opacity:0}}
