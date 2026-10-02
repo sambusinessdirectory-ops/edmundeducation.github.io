@@ -1,4 +1,4 @@
-import { createExpressionMap } from './common-expression-map.mjs?v=20261002-botanical-cap2';
+import { createExpressionMap } from './common-expression-map.mjs?v=20261002-navy-vest1';
 
 const MAP_SIZE = .8;
 const ART = new URL('./assets/flashcards/range-worlds/', import.meta.url).href;

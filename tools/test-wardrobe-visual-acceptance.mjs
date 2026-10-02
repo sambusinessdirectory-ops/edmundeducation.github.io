@@ -6,7 +6,11 @@ import {fileURLToPath} from 'node:url';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const wardrobe=join(root,'tools/mascot-art/wardrobe');
 const allowPending=process.argv.includes('--allow-pending');
-const expectedCharacters=['eddy','noir','celeste','phoebe','elsie'];
+const expectedCharacters={
+ all:['eddy','noir','celeste','phoebe','elsie'],
+ boys:['eddy','noir'],
+ girls:['celeste','phoebe','elsie']
+};
 const manifests=[];
 
 for(const entry of readdirSync(wardrobe,{withFileTypes:true})){
@@ -22,7 +26,9 @@ for(const file of manifests){
  const label=relative(root,file),manifest=JSON.parse(readFileSync(file,'utf8'));
  if(manifest.schemaVersion!==1)throw Error(`${label}: unsupported schemaVersion`);
  if(!manifest.itemId||!manifest.revision)throw Error(`${label}: itemId and revision are required`);
- if(JSON.stringify(manifest.characters)!==JSON.stringify(expectedCharacters))throw Error(`${label}: all five characters must be listed in canonical order`);
+ const catalogGroup=manifest.catalogGroup||'all',requiredCharacters=expectedCharacters[catalogGroup];
+ if(!requiredCharacters)throw Error(`${label}: unsupported catalogGroup ${catalogGroup}`);
+ if(JSON.stringify(manifest.characters)!==JSON.stringify(requiredCharacters))throw Error(`${label}: ${catalogGroup} characters must be listed in canonical order`);
  if(!Array.isArray(manifest.reviewRequirements)||manifest.reviewRequirements.length<6)throw Error(`${label}: visual review requirements are incomplete`);
  for(const group of ['assets','evidence']){
   const entries=Object.entries(manifest[group]||{});
@@ -35,7 +41,7 @@ for(const file of manifests){
    if(actual!==expected)throw Error(`${label}: ${name} changed after its review evidence was recorded`);
   }
  }
- if(!Object.keys(manifest.evidence).some(name=>name.endsWith('/qa-approval-v2.jpg')))throw Error(`${label}: a consolidated visual approval board is required`);
+ if(!Object.keys(manifest.evidence).some(name=>/\/qa-approval(?:-[\w-]+)?\.jpg$/.test(name)))throw Error(`${label}: a consolidated visual approval board is required`);
  if(manifest.status!=='accepted'||manifest.humanVisualAcceptance!==true||typeof manifest.approvedBy!=='string'||!manifest.approvedBy.trim()||!Number.isFinite(Date.parse(manifest.approvedAt))){
   const message=`${label}: visual approval is pending. Review the locked evidence and record explicit human acceptance before release.`;
   if(!allowPending)throw Error(message);

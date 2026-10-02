@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemId": "navy-cream-knit-vest",
+  "catalogGroup": "girls",
+  "revision": "v1",
+  "status": "accepted",
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T10:58:07Z",
+  "humanVisualAcceptance": true,
+  "characters": ["celeste", "phoebe", "elsie"],
+  "reviewRequirements": [
+    "all 16 directions for Celeste, Phoebe and Elsie in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "strictly sleeveless armholes with canonical bare arms and wrist hooves preserved",
+    "shallow cream-trimmed V ending on the upper chest",
+    "natural hair, bow and halter occlusion around the garment",
+    "representative ivory botanical cap compatibility",
+    "no clipping, reversed view, floating garment, identity drift or stray edge pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/celeste/navy-cream-knit-vest.webp": "b7559688663ccbcdfea83b62920976f010eb369cb9eb70648893152f359ba478",
+    "assets/speaking-system/cosmetics/phoebe/navy-cream-knit-vest.webp": "c5704ba6e061175078c0e78d25e6c8860856fba1be0bc7353b53a8cda8cbdb8e",
+    "assets/speaking-system/cosmetics/elsie/navy-cream-knit-vest.webp": "52af93eb837ec7069c936886c3d99d1ba6e355cf524fd90b942012df2b055b9e",
+    "assets/speaking-system/cosmetics/girls/navy-cream-knit-vest-display.png": "e70ab36e46b5f7563dcace0fdd6a81f55b51add1e7e66a5dbf71051c7b54d955"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-celeste-3d-dark-open.jpg": "65ff0b658a1f2cd8277bd12b3a0ccee1cf544b67dd20fb05a52404785eaab0e0",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-celeste-3d-blink.jpg": "a7789ac4991e21a063c79e97da176098a59b92a9588c133a20d77a2428186e6b",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-celeste-3d-light-open.jpg": "7b617f980b2a6882b815545611fef632802418f430fc57edafdb7cb1553323f4",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-celeste-combination-3d-open.jpg": "6eefe1b047d34b8bcd9880b6a719bafb56dd6bee6c9252343b51a6880778030c",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-celeste-combination-3d-blink.jpg": "5a74a91243198935ee639fef2fdb774f94041c40f0e488b94cc4258f358bf20e",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-phoebe-3d-dark-open.jpg": "611a3f93e74718b3125efb52b4b29d0abd49fa24a1ac16c08874a4e055c8c3bb",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-phoebe-3d-blink.jpg": "3acc773a171ef844e9a1ceaa1ec9d5eccea57d627ece7eb92fa050f1f4cb9bb2",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-phoebe-3d-light-open.jpg": "bb4ff3de728ade4e132b24d5628adbafa7508e511647c1ccdcad0ea11c452719",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-phoebe-combination-3d-open.jpg": "24e47bee0cbfffe39200d6f49e51ae0d270f53e0b47b7167d4e0288d1462633f",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-phoebe-combination-3d-blink.jpg": "db1cc81e22bcf5e3260bde847142c57756d1a38ed6e1b016aad8cf90029babd6",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-elsie-3d-dark-open.jpg": "6e0c9e7e806fd383d4910fe0e176e4a9f4b00714ce498874745779ca5ba95b8e",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-elsie-3d-blink.jpg": "41668b07fa7a6895c906e102d3726df7f82701bf11038aa2cc28ac749549ab5a",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-elsie-3d-light-open.jpg": "cf94eaaccfe1780130e672311874afcb05bd2983bed190dc6237a200981bdfc9",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-elsie-combination-3d-open.jpg": "49a0678535980607037d5874326a18c3aabddc6d7b8398134bab0165cf0dc858",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-elsie-combination-3d-blink.jpg": "bf049fd8314ba0d7f2ac0bfdbfd36a092c9feff8168ed32e6c984e0e56cc6e1a",
+    "tools/mascot-art/wardrobe/girls-navy-cream-knit-vest/qa-approval-v1.jpg": "1a10d75bf731fe52c5439c4313149013f5996fe9df70e31401fcee8276745070"
+  }
+}

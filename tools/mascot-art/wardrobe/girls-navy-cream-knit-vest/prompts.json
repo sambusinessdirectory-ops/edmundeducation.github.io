@@ -1,0 +1,8 @@
+{
+  "mode": "built-in ImageGen",
+  "fittingPromptSummary": "Identity-preserving edit of each canonical 4x4 atlas. Add only a navy sleeveless knit sweater vest with a shallow cream ribbed V-neck and navy ribbed hem. Preserve all 16 poses, identity, hair, accessories, arms, wrist hooves, legs, feet and tails; no sleeves or undershirt.",
+  "itemExtractionPromptSummary": "From each worn fitting atlas, retain only the registered vest pixels on transparency. Preserve perspective, armholes and occlusion; remove the character and background debris.",
+  "inventoryPromptSummary": "Create a clean transparent front-view product cutout of the referenced vest, retaining navy knit and cream trim while raising the V point to the upper third of the chest.",
+  "characters": ["celeste", "phoebe", "elsie"],
+  "runtimeSourceDecision": "The generated garment-only studies were rejected as runtime sources because they enlarged the garment and reconstructed occluded regions. Runtime sources are deterministic character-fitted extractions from the worn references."
+}

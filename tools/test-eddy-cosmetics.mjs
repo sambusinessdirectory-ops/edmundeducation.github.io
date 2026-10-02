@@ -86,7 +86,7 @@ test('girls share availability but have independent equipped slots',async()=>{
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
  equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('ivory-botanical-cap','celeste');equipCosmetic('pink-rain-jacket','elsie');
  assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',celesteHeadwear:'ivory-botanical-cap',elsieTop:'pink-rain-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','cream-sherpa-jacket','pink-rain-jacket','camel-coat-dress','ivory-tiered-dress']);
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
@@ -162,6 +162,26 @@ test('the pink rain jacket has three independent transparent 16-view overlays',a
  assert.equal(thumb.toString('ascii',12,16),'IHDR');
  assert.equal(thumb.readUInt32BE(16),1254);assert.equal(thumb.readUInt32BE(20),1254);
  assert.ok([4,6].includes(thumb[25]),'inventory thumbnail format supports alpha transparency');
+});
+test('the sleeveless navy knit vest has three independent transparent 16-view overlays and a shallow-V shop image',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const hashes=[];
+ for(const character of ['celeste','phoebe','elsie']){
+  const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/navy-cream-knit-vest.webp',import.meta.url));
+  assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+  const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+  assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>40000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+ }
+ assert.equal(new Set(hashes).size,3);
+ const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/girls/navy-cream-knit-vest-display.png',import.meta.url));
+ assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.ok(thumb.readUInt32BE(16)>=1000);assert.ok(thumb.readUInt32BE(20)>=1000);assert.ok([4,6].includes(thumb[25]));
+});
+test('the vest release migration registers the item and all three independent top slots',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261002170000_girls_navy_cream_knit_vest.sql',import.meta.url),'utf8');
+ assert.match(sql,/values \('navy-cream-knit-vest','Navy cream-trim knit vest',30,true\)/);
+ for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.match(sql,new RegExp(slot+"'\\) or value->>'"+slot+"' in \\('cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest'\\)"));
+ for(const character of ['celeste','phoebe','elsie'])assert.match(sql,new RegExp("not\\(value\\?'"+character+"FullBody' and value\\?'"+character+"Top'\\)"));
 });
 test('the camel coat dress has three independent transparent 16-view overlays and a shop image',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
