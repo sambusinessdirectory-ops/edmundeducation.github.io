@@ -99,9 +99,10 @@ assert.match(script, /async function enterIeltsReading\(\)/);
 assert.match(script, /openInitialView\(\{ afterLogin: true \}\)/);
 assert.match(script, /await Promise\.all\(\[loadCatalogue\(\), loadBookmarks\(\)\]\)/);
 assert.doesNotMatch(script, /Promise\.all\(\[loadArticleData\(\), loadBookmarks\(\)\]\)/, "login must not preload a default IELTS article before the system selector");
+const initialViewSource = script.slice(script.indexOf("async function openInitialView"), script.indexOf("el.loginForm.addEventListener"));
 assert.ok(
-  script.indexOf("state.catalogue.some((item) => item.id === id)") < script.indexOf("params.get('view') === 'question-types'")
-    && script.indexOf("params.get('view') === 'question-types'") < script.indexOf("await openReadingHome()"),
+  initialViewSource.indexOf("state.catalogue.some((item) => item.id === id)") < initialViewSource.indexOf("params.get('view') === 'question-types'")
+    && initialViewSource.indexOf("params.get('view') === 'question-types'") < initialViewSource.lastIndexOf("await openReadingHome()"),
   "valid exercise and finder deep links must take precedence over the generic post-login selector",
 );
 assert.match(script, /el\.home\.addEventListener\("click", openReadingHome\)/);
