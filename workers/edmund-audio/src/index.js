@@ -5,6 +5,7 @@ import flashcardPassage2PackIndex from "./flashcard-pack-index-passage2.json" wi
 import flashcardReadingExpansionPackIndex from "./flashcard-pack-index-reading-expansion.json" with { type: "json" };
 import flashcardExpansionPackIndex from "./flashcard-pack-index-flashcard-expansion.json" with { type: "json" };
 import polysemyPackIndex from "./polysemy-pack-index.json" with { type: "json" };
+import polysemyPackIndex2 from "./polysemy-pack-index-2.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
   "assets/writing-practice/audio/edmund-neural/dse-part-b-kokoro-20260911/",
@@ -233,21 +234,24 @@ function flashcardPackEntry(url) {
 }
 
 function polysemyPackEntry(url) {
-  if (polysemyPackIndex.meta?.r2UploadComplete !== true) return null;
   const key = decodedObjectKey(url);
-  const prefix = polysemyPackIndex.audioPathPrefix;
-  if (typeof prefix !== "string" || !key.startsWith(prefix)) return null;
-  const match = /^([0-9a-f])\/([0-9a-f]{24})\.mp3$/.exec(key.slice(prefix.length));
-  if (!match || !match[2].startsWith(match[1])) return null;
-  const shard = match[1];
-  const entry = polysemyPackIndex.entries[shard]?.[match[2].slice(1)];
-  const pack = polysemyPackIndex.packs[shard];
-  if (
-    !Array.isArray(entry) || entry.length !== 2
-    || !Number.isSafeInteger(entry[0]) || !Number.isSafeInteger(entry[1])
-    || entry[0] < 0 || entry[1] <= 1000 || !pack?.key
-  ) return null;
-  return { digest: match[2], key, offset: entry[0], length: entry[1], packKey: pack.key };
+  for (const index of [polysemyPackIndex, polysemyPackIndex2]) {
+    if (index.meta?.r2UploadComplete !== true) continue;
+    const prefix = index.audioPathPrefix;
+    if (typeof prefix !== "string" || !key.startsWith(prefix)) continue;
+    const match = /^([0-9a-f])\/([0-9a-f]{24})\.mp3$/.exec(key.slice(prefix.length));
+    if (!match || !match[2].startsWith(match[1])) return null;
+    const shard = match[1];
+    const entry = index.entries[shard]?.[match[2].slice(1)];
+    const pack = index.packs[shard];
+    if (
+      !Array.isArray(entry) || entry.length !== 2
+      || !Number.isSafeInteger(entry[0]) || !Number.isSafeInteger(entry[1])
+      || entry[0] < 0 || entry[1] <= 1000 || !pack?.key
+    ) return null;
+    return { digest: match[2], key, offset: entry[0], length: entry[1], packKey: pack.key };
+  }
+  return null;
 }
 
 function requestedByteRange(header, totalLength) {

@@ -25,3 +25,13 @@ The existing `tools/generate-polysemy-audio.py --kind cloud` uses the same
 Aries recipe and resumes existing clips after the daily allowance resets.
 The 2026-10-02 free-tier batch added 99 verified Aries clips to the older modules.
 Publish each further batch only after its MP3s are available; keep each day's completed clips.
+
+## Second mass import
+
+The 551 modules imported from PDF numbers 565–1118 contain 23,329 exercise
+sentences. Their source-order voices cycle through Kokoro American female
+(`af_heart`), British female (`bf_isabella`), and British male (`bm_fable`).
+The immutable `v2-mass-kokoro-20261003-1` release contains 23,310 unique MP3s;
+19 identical sentence-and-voice combinations reuse one recording. The new
+question mapping is in `audio-mass-2.json`, and the original mass-audio mapping
+remains intact.

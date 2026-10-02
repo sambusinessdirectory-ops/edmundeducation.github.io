@@ -12,6 +12,9 @@ immutable hash-prefix packs through these generated indexes:
 - `src/flashcard-pack-index-flashcard-expansion.json` — the reserved 142-deck
   IELTS Listening/DSE expansion; the Worker ignores it until its verified R2
   upload sets `r2UploadComplete: true`
+- `src/polysemy-pack-index.json` and `src/polysemy-pack-index-2.json` — the
+  established and second Polysemy releases, each with a distinct immutable URL
+  prefix
 
 All packed releases support browser byte-range requests and immutable one-year caching
 metadata. Every packed release uses a distinct public URL prefix; bytes must

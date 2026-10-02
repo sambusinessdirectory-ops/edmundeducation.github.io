@@ -1,9 +1,10 @@
 """Generate each module’s examples with the established four voices, in manual order.
 Credentials stay in memory. Cache immutable source hashes; pad starts for mobile playback.
 """
-import argparse,json,hashlib,re,subprocess,tempfile,urllib.request,urllib.error,time
+import argparse,json,hashlib,os,re,subprocess,tempfile,urllib.request,urllib.error,time
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);p.add_argument('--audio-dir');p.add_argument('--manifest-file');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);p.add_argument('--audio-dir');p.add_argument('--manifest-file');p.add_argument('--threads',type=int,default=2);p.add_argument('--checkpoint-every',type=int,default=1);a=p.parse_args()
+if a.threads<1 or a.checkpoint_every<1: raise SystemExit('threads and checkpoint-every must be positive')
 root=Path(__file__).resolve().parent.parent;out=Path(a.audio_dir) if a.audio_dir else root/'polysemy-lab/audio';out.mkdir(parents=True,exist_ok=True)
 recipes=json.loads((root/'professional-english/dialogues.json').read_text())['voiceRecipes'];cycle=['american-female','american-male','british-male','british-female'];rows=json.loads(Path(a.sentences).read_text());manifest={}
 if a.kind=='local':
@@ -11,7 +12,7 @@ if a.kind=='local':
  from kokoro_onnx import Kokoro
  for path,expected in [(a.model,'7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5'),(a.voices,'bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d')]:
   assert hashlib.sha256(Path(path).read_bytes()).hexdigest()==expected
- opt=ort.SessionOptions();opt.intra_op_num_threads=2;opt.inter_op_num_threads=1
+ opt=ort.SessionOptions();opt.intra_op_num_threads=a.threads;opt.inter_op_num_threads=1
  kokoro=Kokoro.from_session(ort.InferenceSession(a.model,sess_options=opt,providers=['CPUExecutionProvider']),a.voices)
 else:
  token=json.loads(subprocess.check_output(['node',str(root/'workers/speaking-system/node_modules/wrangler/bin/wrangler.js'),'auth','token','--json'],text=True))['token']
@@ -25,8 +26,8 @@ else:
     if 'daily free allocation' in body: raise RuntimeError('Cloudflare daily audio allowance exhausted; resume after reset') from error
     if error.code not in (429,500,502,503,504) or attempt==9: raise
     delay=min(300,30*(2**attempt));print('Service busy; retry in',delay,'seconds',flush=True);time.sleep(delay)
-for index,row in enumerate(rows):
- index=row.get('index',index);voice=row.get('voice',cycle[index%4]);recipe=dict(recipes[voice])
+for position,row in enumerate(rows):
+ index=row.get('index',position);voice=row.get('voice',cycle[index%4]);recipe=dict(recipes[voice])
  # Sentence-specific pacing correction: bm_fable at 0.98 blurred 'need' into 'night'.
  if row['id']=='immediate-13-1':recipe['speed']=1.02
  if (voice=='american-male')!=(a.kind=='cloud'):continue
@@ -56,7 +57,11 @@ for index,row in enumerate(rows):
      trim=max(0,words[0]['start']-0.1)
     else:
      debug=Path(tempfile.gettempdir())/('polysemy-prefix-'+row['id']);debug.with_suffix('.mp3').write_bytes(raw.read_bytes());debug.with_suffix('.json').write_text(json.dumps(result));raise RuntimeError('Cannot safely remove generation prefix '+row['id'])
-   subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(raw),'-af',f'atrim=start={trim},adelay=300:all=1,apad=pad_dur=0.2,asetpts=N/SR/TB','-codec:a','libmp3lame','-b:a','96k','-y',str(dest)],check=True)
+   encoded=Path(temp)/'encoded.mp3'
+   subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(raw),'-af',f'atrim=start={trim},adelay=300:all=1,apad=pad_dur=0.2,asetpts=N/SR/TB','-codec:a','libmp3lame','-b:a','96k','-y',str(encoded)],check=True)
+   if encoded.stat().st_size<=1000:raise RuntimeError('Generated empty clip '+row['id'])
+   os.replace(encoded,dest)
  duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(dest)],text=True))
  manifest[row['id']]={'path':'audio/'+dest.name,'voice':voice,'index':index,'text':row['en'],'duration':round(duration,3),'speed':recipe['speed'],'sourceSha256':hashlib.sha256(row['en'].encode()).hexdigest()};print(row['id'],voice,round(duration,2),flush=True)
- (Path(a.manifest_file) if a.manifest_file else root/f'polysemy-lab/{a.output_prefix}-{a.kind}.json').write_text(json.dumps(manifest,indent=2)+'\n')
+ if (len(manifest)%a.checkpoint_every==0 or position==len(rows)-1):
+  (Path(a.manifest_file) if a.manifest_file else root/f'polysemy-lab/{a.output_prefix}-{a.kind}.json').write_text(json.dumps(manifest,indent=2)+'\n')

@@ -1,9 +1,9 @@
 import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260928-five-companions1';
 import {allQuestionMap,esc} from './core.mjs?v=20261003-polysemy-mass-2';
 let earlyManifestPromise,massManifestPromise;
-const readManifest=file=>fetch(new URL('./'+file+'?v=20261002-polysemy-aries2',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
+const readManifest=file=>fetch(new URL('./'+file+'?v=20261003-polysemy-voices3',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
 const manifest=mass=>mass
- ? massManifestPromise||=(readManifest('audio-mass.json').catch(e=>{massManifestPromise=null;throw e;}))
+ ? massManifestPromise||=(Promise.all(['audio-mass.json','audio-mass-2.json'].map(readManifest)).then(rows=>Object.assign({},...rows)).catch(e=>{massManifestPromise=null;throw e;}))
  : earlyManifestPromise||=(Promise.all(['audio.json','audio-new.json'].map(readManifest)).then(rows=>Object.assign({},...rows)).catch(e=>{earlyManifestPromise=null;throw e;}));
 const clock=seconds=>{const value=Number.isFinite(seconds)?Math.max(0,seconds):0;return `${Math.floor(value/60)}:${String(Math.floor(value%60)).padStart(2,'0')}`;};
 function waveform(seed,count=46){
