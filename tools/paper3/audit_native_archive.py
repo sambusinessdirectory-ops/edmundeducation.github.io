@@ -23,8 +23,9 @@ def audit_reader(folder: Path) -> dict:
         page["leaf"] for page in source if page.get("text", "").strip()
     }
     exempt = missing_without_text | set(report.get("nontext_qab_pages", []))
-    inline_translation_pages = markup.count('class="paper-page verified-reconstruction"')
-    expected_translation_count = report["pages"] - len(exempt) - inline_translation_pages
+    verified_pages = {int(n) for n in re.findall(r'<article class="paper-page verified-reconstruction" id="page-(\d+)"', markup)}
+    inline_translation_pages = len(verified_pages)
+    expected_translation_count = sum(page["leaf"] not in exempt and page["leaf"] not in verified_pages for page in source)
     if markup.count('class="page-translation"') != expected_translation_count:
         issues.append("Chinese page count mismatch")
     if markup.count('class="translation" lang="zh-Hant"') < inline_translation_pages:
