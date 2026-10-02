@@ -219,18 +219,18 @@ def render_page(source: Path, source_page: int, output_dir: Path, leaf: int, kin
         lines_exact = exact_endings[(source.name, source_page)]
         native_html = "".join(f"<p>{html.escape(item)}</p>" for item in lines_exact)
         source_text = "\n".join(lines_exact)
+    layout_file = LAYOUT_DIR / f"{output_dir.name}-page-{leaf:02d}.html"
     override = MANUAL_OVERRIDES.get(output_dir.name, {}).get(str(leaf))
     if override:
         native_html = "".join(f"<{tag}>{html.escape(text)}</{tag}>" for tag, text in override["english"] if tag in {"h3", "p"})
         source_text = "\n".join(text for _, text in override["english"])
         translation = "\n".join(override["chinese"]) if translate else ""
-        if translate:
+        if translate and not layout_file.exists():
             cache = asset_dir / f"{stem}.zh.txt"
             cache.write_text(translation, encoding="utf-8")
             cache.with_suffix(".source-sha256").write_text(hashlib.sha256(source_text.encode("utf-8")).hexdigest(), encoding="utf-8")
     else:
-        translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt") if translate else ""
-    layout_file = LAYOUT_DIR / f"{output_dir.name}-page-{leaf:02d}.html"
+        translation = translate_page(source_text, asset_dir / f"{stem}.zh.txt") if translate and not layout_file.exists() else ""
     if layout_file.exists():
         native_html = layout_file.read_text(encoding="utf-8")
         parser = LayoutText()
