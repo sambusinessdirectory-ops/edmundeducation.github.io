@@ -1,8 +1,8 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20261002-retro-shirts1';
+import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20261002-camel-colour1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
-import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
+import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20261002-camel-colour1';
 
 export class MascotCharacters {
   constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis),{preview=false,cosmeticsEnabled=false}={}) {
@@ -80,6 +80,8 @@ export class MascotCharacters {
       const texture=(image,original)=>{if(image===original.image)return original;const t=new THREE.CanvasTexture(image);t.colorSpace=THREE.SRGBColorSpace;t.generateMipmaps=false;t.minFilter=THREE.LinearFilter;actor.cosmeticTextures.push(t);return t;};
       const a=texture(open,r.atlas),b=texture(blink,r.blink||r.atlas);
       u.atlas.value=u.headAtlas.value=a;u.headBlinkAtlas.value=b;
+      if(open.cosmeticMask){const mask=new THREE.CanvasTexture(open.cosmeticMask);mask.generateMipmaps=false;mask.minFilter=THREE.LinearFilter;actor.cosmeticTextures.push(mask);u.wardrobeMask.value=mask;u.hasWardrobeMask.value=1;}
+      else{u.wardrobeMask.value=a;u.hasWardrobeMask.value=0;}
       const wardrobe=actor.cosmeticWardrobe?.equipped||cosmeticsState().equipped;
       u.flowStrength.value=cosmeticsForCharacter(actor.name).some(item=>isCosmeticEquipped(wardrobe,item,actor.name))?0:1;
       actor.cosmeticOpen=open;actor.cosmeticBlink=blink;

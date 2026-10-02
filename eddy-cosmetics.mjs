@@ -68,7 +68,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-retro-shirts1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-camel-colour1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
@@ -235,13 +235,18 @@ export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=n
  if(!ids.length){atlases.set(cacheKey,corrected);return corrected;}
  const canvas=document.createElement('canvas');canvas.width=base.naturalWidth;canvas.height=base.naturalHeight;
  const ctx=canvas.getContext('2d');ctx.drawImage(corrected,0,0);
+ const mask=document.createElement('canvas');mask.width=canvas.width;mask.height=canvas.height;
+ const maskContext=mask.getContext('2d');
  // Tailored overlays already follow the neck, cuffs and tail cutouts.
- if(rendered.top)ctx.drawImage(load(rendered.top,id),0,0,canvas.width,canvas.height);
- if(rendered.lower)ctx.drawImage(load(rendered.lower,id),0,0,canvas.width,canvas.height);
- if(rendered.fullBody)ctx.drawImage(load(rendered.fullBody,id),0,0,canvas.width,canvas.height);
- if(rendered.feet)ctx.drawImage(load(rendered.feet,id),0,0,canvas.width,canvas.height);
- if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load(headwearHide,id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear,id),0,0,canvas.width,canvas.height);}
+ for(const item of [rendered.top,rendered.lower,rendered.fullBody,rendered.feet].filter(Boolean)){
+  const layer=load(item,id);ctx.drawImage(layer,0,0,canvas.width,canvas.height);maskContext.drawImage(layer,0,0,canvas.width,canvas.height);
+ }
+ if(rendered.headwear){const layer=load(rendered.headwear,id);ctx.globalCompositeOperation='destination-out';ctx.drawImage(load(headwearHide,id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(layer,0,0,canvas.width,canvas.height);maskContext.drawImage(layer,0,0,canvas.width,canvas.height);}
  canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
+ // The 3D renderer uses this alpha-only atlas to distinguish authored garment
+ // pixels from the mascot's natural coat. Without it, camel fabric satisfies
+ // Elsie's orange-coat heuristic and is shifted to mauve by coatGain.
+ canvas.cosmeticMask=mask;
  atlases.set(cacheKey,canvas);return canvas;
 }
 if(typeof window!=='undefined'){
