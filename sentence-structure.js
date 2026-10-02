@@ -1555,7 +1555,7 @@ function renderBenefitsPage(lesson) {
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="benefit-card"><span>${isZen ? index + 1 : String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
+        return `<li class="benefit-card"><span>${isZen ? `<b>${index + 1}</b>` : String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(2)}
@@ -1571,7 +1571,7 @@ function renderRulesPage(lesson) {
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${isZen ? index + 1 : String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
+        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${isZen ? `<b>${index + 1}</b>` : String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(3)}
@@ -1808,7 +1808,7 @@ function questionHtml(question) {
   const voiceAnswer = answerParts.length ? answerParts.map((part) => part.answer).join(" ") : String(question.answer || "");
   const card = `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-question-number="${escapeHtml(question.number || "")}" data-edmund-prompt-text="${escapeHtml(question.prompt || question.english || "")}"${revealAnswer ? ` data-edmund-answer-text="${escapeHtml(voiceAnswer)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`句子結構 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top">
-      <span class="question-number"${isZenLesson ? ` aria-label="第 ${escapeHtml(question.number || "")} 題"` : ""}>${isZenLesson ? escapeHtml(question.number || "") : `QUESTION ${escapeHtml(question.number || "")}`}</span>
+      <span class="question-number"${isZenLesson ? ` aria-label="第 ${escapeHtml(question.number || "")} 題"` : ""}>${isZenLesson ? `<b>${escapeHtml(question.number || "")}</b>` : `QUESTION ${escapeHtml(question.number || "")}`}</span>
       <div class="question-card-actions">
         ${correct ? `<button class="question-visibility-button" type="button" data-toggle-correct-card="${escapeHtml(question.id)}" aria-expanded="${!collapsed}">${collapsed ? "顯示已完成題目" : "隱藏已完成題目"}</button>` : ""}
         <button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>

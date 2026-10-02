@@ -620,7 +620,7 @@ body.has-sentence-zen-lesson>.exercise-actions .exercise-action-copy {color:#536
   border:1px solid #a78355;
   border-radius:13px;
   padding:95px clamp(18px,3vw,36px) 23px;
-  background:url("assets/sentence-structure/zen/garden-footer-v2.webp") center 57%/cover no-repeat;
+  background:#fff9ea;
   box-shadow:0 6px 0 #5d3a22,0 15px 25px #35221746;
 }
 .sentence-zen-lesson .lesson-navigation::before {
@@ -642,7 +642,7 @@ body.has-sentence-zen-lesson>.exercise-actions .exercise-action-copy {color:#536
 .sentence-zen-lesson .exercise-actions,
 body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {
   border:1px solid #b99b71;
-  background:linear-gradient(90deg,#fff9eae8,#fff9eaf4 31% 69%,#fff9eae8),url("assets/sentence-structure/zen/garden-footer-v2.webp") center 57%/cover;
+  background:#fff9eaf2;
 }
 
 @media(max-width:960px) {
@@ -665,4 +665,144 @@ body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {
   .sentence-zen-lesson .lesson-navigation {min-height:215px;padding:82px 13px 14px}
   .sentence-zen-lesson .lesson-navigation .primary-button,
   .sentence-zen-lesson .lesson-navigation .secondary-button {width:100%;min-height:46px}
+}
+
+/* Revision 3: one continuous lesson sheet, with the garden objects as accents. */
+.sentence-zen-lesson .info-page,
+.sentence-zen-lesson .exercise-page {
+  border:2px solid #a77d50;
+  border-radius:11px;
+  box-shadow:0 0 0 4px #dbc29a,0 14px 30px #24190d55,inset 0 0 0 3px #f5e7c8;
+}
+.sentence-zen-lesson .formula-card {gap:0;margin-top:25px}
+.sentence-zen-lesson .formula-display {
+  margin-top:13px;
+  border:0;
+  border-radius:0;
+  padding:8px 4px 19px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .formula-display p+p {margin-top:12px;border-top:1px solid #d2c2a5;padding-top:12px}
+.sentence-zen-lesson .example-block {
+  margin-top:15px;
+  border:0;
+  border-left:3px solid #b28751;
+  border-radius:0;
+  padding:4px 23px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .example-block::after {opacity:.16}
+.sentence-zen-lesson .meaning-block {
+  margin-top:22px;
+  border:0;
+  border-top:1px solid #cdbb98;
+  border-radius:0;
+  padding:20px 4px 0;
+  background:none;
+}
+.sentence-zen-lesson .benefit-list,
+.sentence-zen-lesson .rule-list {gap:0}
+.sentence-zen-lesson .benefit-card,
+.sentence-zen-lesson .rule-card {
+  min-height:116px;
+  border:0;
+  border-bottom:1px solid #cfbe9c;
+  border-radius:0;
+  padding:20px 8px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .benefit-card:nth-child(even) {background:#e9ecd624}
+.sentence-zen-lesson .benefit-card:last-child,
+.sentence-zen-lesson .rule-card:last-child {border-bottom:0}
+.sentence-zen-lesson .benefit-card>span,
+.sentence-zen-lesson .rule-card>span {display:grid;place-items:center;padding:0}
+.sentence-zen-lesson .benefit-card>span b,
+.sentence-zen-lesson .rule-card>span b {
+  display:block;
+  transform:translate(5px,0);
+  font:700 29px/1 Georgia,serif;
+}
+.sentence-zen-lesson .rule-card .examples {
+  border:0;
+  border-left:3px solid #6d8b62;
+  border-radius:0;
+  background:#edf0d96b;
+  box-shadow:none;
+}
+.sentence-zen-lesson .question-list {padding-left:95px}
+.sentence-zen-lesson .question-list::before {display:none}
+.sentence-zen-lesson .question-card {border-radius:7px;padding-left:30px}
+.sentence-zen-lesson .question-card::before {left:11px}
+.sentence-zen-lesson .question-number {
+  top:-21px;
+  left:-115px;
+  width:86px;
+  height:119px;
+  padding:0;
+  background:url("assets/sentence-structure/zen/hanging-scroll-v1.webp") center/contain no-repeat;
+  font-size:30px;
+}
+.sentence-zen-lesson .question-number b {
+  display:block;
+  transform:translateY(8px);
+  font:700 30px/1 Georgia,serif;
+}
+.sentence-zen-lesson .lesson-navigation {
+  min-height:92px;
+  margin-top:28px;
+  border:0;
+  border-top:1px solid #cbb58d;
+  border-radius:0;
+  padding:22px 0 0 91px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .lesson-navigation::before {
+  z-index:auto;
+  inset:5px auto auto 0;
+  width:81px;
+  height:80px;
+  border:0;
+  background:url("assets/sentence-structure/zen/stone-lantern-v1.webp") center/contain no-repeat;
+}
+body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {
+  border:1px solid #b89b72;
+  border-radius:8px;
+  padding:13px 17px 13px 96px;
+  background:#fff9eaf5;
+  box-shadow:0 7px 0 #8a603aa3,0 14px 25px #261a1245;
+}
+body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions]::before {
+  content:"";
+  position:absolute;
+  left:10px;
+  top:50%;
+  width:78px;
+  height:78px;
+  transform:translateY(-50%);
+  background:url("assets/sentence-structure/zen/stone-lantern-v1.webp") center/contain no-repeat;
+  pointer-events:none;
+}
+@media(max-width:960px) {
+  .sentence-zen-lesson .question-list {padding-left:60px}
+  .sentence-zen-lesson .question-number {left:-78px;width:63px;height:88px;top:-16px}
+  .sentence-zen-lesson .question-number b {font-size:23px;transform:translateY(6px)}
+}
+@media(max-width:640px) {
+  .sentence-zen-lesson .benefit-card,
+  .sentence-zen-lesson .rule-card {padding:16px 4px;min-height:90px}
+  .sentence-zen-lesson .benefit-card>span b,
+  .sentence-zen-lesson .rule-card>span b {font-size:20px;transform:translate(3px,0)}
+  .sentence-zen-lesson .question-list {padding-left:42px}
+  .sentence-zen-lesson .question-card {padding:18px 13px 19px 21px}
+  .sentence-zen-lesson .question-number {left:-57px;width:49px;height:69px;top:-10px}
+  .sentence-zen-lesson .question-number b {font-size:18px;transform:translateY(4px)}
+  .sentence-zen-lesson .lesson-navigation {min-height:148px;padding:67px 0 0}
+  .sentence-zen-lesson .lesson-navigation::before {top:0;width:65px;height:65px}
+  body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {padding:10px 12px 10px 55px}
+  body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions]::before {left:0;width:55px;height:59px}
+  body.has-sentence-zen-lesson>.exercise-actions .exercise-action-copy {display:block;font-size:11px;line-height:1.35}
 }

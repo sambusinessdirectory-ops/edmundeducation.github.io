@@ -58,18 +58,26 @@ async function main() {
       }
       assert.ok(await page.locator(".formula-display p").count() >= 1,`${id}: formula rows`);
       assert.ok(await page.locator(".example-block").count() >= 1,`${id}: examples`);
+      assert.equal(await page.locator(".lesson-navigation").evaluate(el => getComputedStyle(el).backgroundImage),"none",`${id}: navigation shares the lesson parchment`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-formula-desktop.png")});
       await page.evaluate(() => window.zenLessonTest.page(2));
       assert.ok(await page.locator(".benefit-card").count() >= 4,`${id}: benefits`);
+      assert.equal(await page.locator(".benefit-card > span b").first().innerText(),"1",`${id}: live stone numeral`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-benefits-desktop.png")});
       await page.evaluate(() => window.zenLessonTest.page(3));
       assert.ok(await page.locator(".rule-card").count() >= 4,`${id}: rules`);
       if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-rules-desktop.png")});
       await page.evaluate(() => window.zenLessonTest.page(4));
       assert.equal(await page.locator(".question-card").count(),50,`${id}: exercises`);
+      assert.equal(await page.locator(".question-number b").first().innerText(),"1",`${id}: live hanging-scroll numeral`);
+      assert.match(await page.locator(".question-number").first().evaluate(el => getComputedStyle(el).backgroundImage),/hanging-scroll-v1\.webp/);
       assert.equal(await page.locator(".question-card[data-edmund-prompt-text]").count(),50,`${id}: audio and recording hook`);
       await page.waitForFunction(() => document.querySelectorAll(".question-card .edmund-speaking-practice").length === 50);
-      if (id === "ss61") await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-exercise-desktop.png")});
+      if (id === "ss61") {
+        await page.locator(".sentence-zen-lesson").screenshot({path:path.join(output,"61-exercise-desktop.png")});
+        await page.locator(".question-card").first().screenshot({path:path.join(output,"61-first-question-desktop.png")});
+        await page.screenshot({path:path.join(output,"61-first-question-viewport.png")});
+      }
     }
     for (const id of ["ss60", "ss91"]) {
       await page.evaluate(id => window.zenLessonTest.open(id), id);
