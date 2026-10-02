@@ -3,8 +3,8 @@
   "itemId": "shadow-thorn-robe",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending-review",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
   "characters": [
     "eddy",
     "noir"
@@ -41,5 +41,7 @@
     "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-approval-shadow-thorn-robe-v1.jpg": "891d61a48b98940e619569a3a78bff69db2a826bff43418f7e267ffd2aa20712",
     "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-detail-shadow-thorn-robe-v1.jpg": "0e1d8f6909031de2c40e3a10defeeca3a144361f146ea1fa603257e49b6d7816",
     "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-overview-v1.jpg": "6496b7eb0c362b457551e3cb9c6053e807975e6893e42ebbdb84ff1fea264cc2"
-  }
+  },
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T17:59:08Z"
 }

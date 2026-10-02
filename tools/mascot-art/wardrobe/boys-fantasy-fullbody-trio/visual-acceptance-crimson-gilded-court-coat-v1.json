@@ -3,8 +3,8 @@
   "itemId": "crimson-gilded-court-coat",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending-review",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
   "characters": [
     "eddy",
     "noir"
@@ -41,5 +41,7 @@
     "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-approval-crimson-gilded-court-coat-v1.jpg": "49c471492f1044495f1bf41a847dba3adb63cf096ce58801a5860af77db39af6",
     "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-detail-crimson-gilded-court-coat-v1.jpg": "5408a51bd2caa54eef2efb933006c3e5cd9ab0652bacbf16c373dc5260e77c6d",
     "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-overview-v1.jpg": "6496b7eb0c362b457551e3cb9c6053e807975e6893e42ebbdb84ff1fea264cc2"
-  }
+  },
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T17:59:08Z"
 }
