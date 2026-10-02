@@ -1,5 +1,5 @@
 import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260928-five-companions1';
-import {allQuestionMap,esc} from './core.mjs?v=20260929-polysemy-mcq2';
+import {allQuestionMap,esc} from './core.mjs?v=20261003-polysemy-mass-2';
 let earlyManifestPromise,massManifestPromise;
 const readManifest=file=>fetch(new URL('./'+file+'?v=20260930-polysemy-aries1',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
 const manifest=mass=>mass
