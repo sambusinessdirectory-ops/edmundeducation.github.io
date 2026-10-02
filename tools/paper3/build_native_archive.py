@@ -81,6 +81,7 @@ MANIFEST = [
     (2016, "b1", [(YEAR_FILES[2016], list(range(9, 18)), "data"), (YEAR_FILES[2016], list(range(28, 32)), "qab")]),
     (2017, "b2", [(YEAR_FILES[2017], list(range(23, 34)), "data"), (YEAR_FILES[2017], list(range(34, 40)), "qab")]),
     (2018, "b1", [(YEAR_FILES[2018], list(range(15, 24)), "data"), (YEAR_FILES[2018], list(range(11, 15)), "qab")]),
+    (2018, "b2", [(YEAR_FILES[2018], list(range(31, 42)), "data"), (YEAR_FILES[2018], list(range(25, 31)), "qab")]),
     (2019, "b1", [(YEAR_FILES[2019], list(range(25, 35)), "data"), (YEAR_FILES[2019], list(range(13, 17)), "qab")]),
     (2019, "b2", [(YEAR_FILES[2019], list(range(37, 48)), "data"), (YEAR_FILES[2019], list(range(17, 25)), "qab")]),
     (2020, "b1", [(YEAR_FILES[2020], list(range(18, 28)), "data"), (YEAR_FILES[2020], list(range(12, 16)), "qab")]),
