@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "white-shirt-black-tie",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T16:50:51Z",
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "tie, tie bar, collar, cuffs, V-neck, lapels, brass buttons and pocket square preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "botanical-cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/white-shirt-black-tie.webp": "356ece5a6ca29a4805ca66c744b983aa67612f60a94cdbac72aca31574b623f9",
+    "assets/speaking-system/cosmetics/noir/white-shirt-black-tie.webp": "d768f05473fb508bf6add8a4da68161450ad57d1c6ab9480e0ad9bb66f9da242",
+    "assets/speaking-system/cosmetics/shared/white-shirt-black-tie-display.png": "263048c039151e7e408a3cb34850d2b56725f87855c6097dc96f160f0107a1c3"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-white-shirt-black-tie-3d-dark-open.jpg": "2902c09170e51255411e1e797c6d99e1270956dabd011fce41ea62177862be6d",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-white-shirt-black-tie-3d-blink.jpg": "bfdceba998a66828c8e0db163827729ee07141dc851ef8fe81f8891ffd3421a5",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-white-shirt-black-tie-3d-light-open.jpg": "e83c6860434e1d8ac68463253e09b0758a31722577b6f8998c264e203f094f2d",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-white-shirt-black-tie-combination-3d-open.jpg": "72bebfe15544e5a35c2a366f70e0e2c3dd086578c0ab691bf271c8669fc207a9",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-eddy-white-shirt-black-tie-combination-3d-blink.jpg": "2ac4e22b000c3d33789a28a94ac29638c7720d55f925e06b770ec34e7a450987",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-white-shirt-black-tie-3d-dark-open.jpg": "41cd7d2c5346cf5127c0b99ed95e7df8f8d4778de1cfeb268569cbff68df0c1b",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-white-shirt-black-tie-3d-blink.jpg": "f74aca86519b50dbfb20910a268b37d648920a4ab934da241c2d5ef9a585a66b",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-white-shirt-black-tie-3d-light-open.jpg": "e6d6db2466358a55355836b4f0cf8dfc4bf1ef11a474f9be859e1d7079b09acc",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-white-shirt-black-tie-combination-3d-open.jpg": "7fdbeeabb022da2c2c455bca882e0f3394cfffc961b86d558bfbafff831d76b8",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-noir-white-shirt-black-tie-combination-3d-blink.jpg": "38b9b8965236595d94a12e16abd89c4b5368ddc2c46cb9a934bdf65bd3cb74c6",
+    "tools/mascot-art/wardrobe/boys-smart-casual-trio/qa-approval-v1.jpg": "a646e45c3b6652932dc572df1cf40a4dce2ccb5a663cb04ca7fa2521fcaa195b"
+  }
+}
