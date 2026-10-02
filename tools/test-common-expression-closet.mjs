@@ -201,8 +201,8 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'listening-system.html',
     'common-expression-written.html'
   ];
-  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=(?:20260915-noirceleste1|20260924-closet-coins1)|mjs\?v=(?:20260924-closet-all2|20260924-closet-coins1|20260928-shared-companion1|20261002-botanical-cap2|20261002-navy-vest1|20261002-shearling-boots1))/, file);
-  assert.match(read('ielts-puzzle-map.mjs'), /common-expression-map\.mjs\?v=(?:20260924-closet-all2|20260928-shared-companion1|20261002-botanical-cap2|20261002-navy-vest1|20261002-shearling-boots1)/);
+  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=(?:20260915-noirceleste1|20260924-closet-coins1)|mjs\?v=(?:20260924-closet-all2|20260924-closet-coins1|20260928-shared-companion1|20261002-botanical-cap2|20261002-navy-vest1|20261002-white-tee1))/, file);
+  assert.match(read('ielts-puzzle-map.mjs'), /common-expression-map\.mjs\?v=(?:20260924-closet-all2|20260928-shared-companion1|20261002-botanical-cap2|20261002-navy-vest1|20261002-white-tee1)/);
   for (const file of [
     'common-expression-rhetorical-speaking.html', 'common-expression-rhetorical-writing.html',
     'common-expression-speaking.html', 'common-expression-written.html',

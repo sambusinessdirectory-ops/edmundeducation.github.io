@@ -1,0 +1,14 @@
+{
+  "mode": "built-in imagegen",
+  "reference": "Screenshot 2026-10-02 at 9.14.20 PM.png",
+  "useCase": "precise-object-edit",
+  "fittingPromptTemplate": "Family-friendly chibi pony mascot game asset. Edit only the supplied canonical 1024x1024 sixteen-view 4x4 transparent character atlas. Add the exact plain white oversized cotton crew-neck T-shirt from the product reference to all sixteen cells: ribbed round neckline, dropped shoulders, loose boxy torso, short sleeves that leave both hoof-hands visible, and a straight upper-hip hem. Preserve the original character identity, face, eyes, muzzle, ears, mane or hair, bow or bridle, body, arms, hands, legs, hooves, tail, pose, scale, proportions, cell registration, transparency, and ground contact. Keep the shirt behind the mane and tail where anatomically required. No logo, text, pocket, extra garment, new body pixels, shadow, floor, labels, or background.",
+  "characterNotes": {
+    "eddy": "Preserve the black mane and tail exactly.",
+    "noir": "Preserve Noir's distinct canonical coat, mane, tail, and facial identity exactly.",
+    "celeste": "Preserve the white mane and tail and purple-eyed face exactly; exclude all warm ivory hair pixels from the shirt mask.",
+    "phoebe": "Preserve the golden mane, tail, and brown-and-gold bridle exactly.",
+    "elsie": "Preserve the cream mane, tail, and blue bow exactly; exclude all warm ivory hair pixels from the shirt mask."
+  },
+  "inventoryPrompt": "Isolate the exact central plain white oversized cotton crew-neck T-shirt from the product reference as a clean transparent game-inventory cutout. Preserve its ribbed round neckline, dropped shoulders, loose boxy cut, short sleeves, straight hem, white cotton texture, and subtle natural folds. Remove the dark background and the partial black garment at the left edge. Center the shirt in a square transparent canvas. No mannequin, body, text, logo, pocket, border, floor, cast shadow, or extra object."
+}

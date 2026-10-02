@@ -30,7 +30,7 @@ const server=http.createServer((req,res)=>{
   });
   await page.goto('http://127.0.0.1:'+server.address().port+'/__vest');
   await page.evaluate(async()=>{
-   window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261002-shearling-boots1');
+   window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261002-white-tee1');
    await cosmetics.restoreCosmetics(undefined,{force:true});
   });
 
@@ -39,7 +39,7 @@ const server=http.createServer((req,res)=>{
     window.controller?.abort();window.controller=new AbortController();
     document.querySelector('#inventory').replaceChildren();
     cosmetics.clearCosmetics(character);cosmetics.beginCosmeticsPreview();
-    const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261002-shearling-boots1');
+    const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261002-white-tee1');
     mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
    },character);
    await page.waitForSelector('[data-cosmetic=navy-cream-knit-vest]');
@@ -57,7 +57,7 @@ const server=http.createServer((req,res)=>{
 
    await page.evaluate(async character=>{
     const THREE=await import('/vendor/three/three.module.js');
-    const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261002-shearling-boots1');
+    const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261002-white-tee1');
     const system=new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true});
     const actor=await system.create(character,'standing');
     for(let n=0;n<180&&(actor.cosmeticOpen===actor.resource.atlas.image||actor.cosmeticBlink===(actor.resource.blink||actor.resource.atlas).image);n++){

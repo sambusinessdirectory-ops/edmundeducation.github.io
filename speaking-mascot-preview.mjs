@@ -1,5 +1,5 @@
-import {mountClassroom} from './speaking-classroom-3d.mjs?v=20261002-shearling-boots1';
-import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20261002-shearling-boots1';
+import {mountClassroom} from './speaking-classroom-3d.mjs?v=20261002-white-tee1';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20261002-white-tee1';
 import * as THREE from './vendor/three/three.module.js';
 
 const names = ['Eddy', 'Elsie', 'Phoebe', 'Eddy'];
