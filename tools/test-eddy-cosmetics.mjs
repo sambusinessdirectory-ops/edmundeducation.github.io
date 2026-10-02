@@ -201,7 +201,7 @@ test('the beige utility shirt is boys-only and the migration allows both boys sl
  assert.equal(cosmeticsForCharacter('noir').some(x=>x.id===item.id),true);
  for(const character of ['celeste','phoebe','elsie'])
   assert.equal(cosmeticsForCharacter(character).some(x=>x.id===item.id),false);
- const sql=readFileSync(new URL('../supabase/migrations/20261003004632_beige_utility_shirt_eddy_noir.sql',import.meta.url),'utf8');
+ const sql=readFileSync(new URL('../supabase/migrations/20261002170119_beige_utility_shirt_eddy_noir.sql',import.meta.url),'utf8');
  assert.match(sql,/values \('beige-utility-shirt','Beige rolled-sleeve utility shirt',30,true\)/);
  for(const slot of ['top','eddyTop','noirTop'])
   assert.match(sql,new RegExp("value->>'"+slot+"'.*'beige-utility-shirt'"));
