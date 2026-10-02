@@ -586,7 +586,12 @@ jobs:
       - name: Publish bilingual Paper 3 source readers
         run: |
           unzip -oq paper3/reader-batch.zip 'paper3/*' -d _site
+          # The legacy archive supplies shared assets, but its HTML is older than
+          # the maintained native readers. Keep the checked-in pages authoritative.
+          rsync -a --exclude='reader-batch.zip' paper3/ _site/paper3/
           rm -f _site/paper3/reader-batch.zip
+          cmp paper3/index.html _site/paper3/index.html
+          cmp paper3/2013-b1/index.html _site/paper3/2013-b1/index.html
           python3 tools/add-paper3-study-support.py _site/paper3
 
       - name: Verify protected Song Appreciation data is absent from Pages artifact
