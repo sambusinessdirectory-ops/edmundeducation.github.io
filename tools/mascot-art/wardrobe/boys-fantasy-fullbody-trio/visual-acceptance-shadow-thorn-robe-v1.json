@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemId": "shadow-thorn-robe",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "pending-review",
+  "humanVisualAcceptance": false,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "same-angle bare and full-body outfit comparison for Eddy and Noir in the actual standing 3D renderer",
+    "all 16 directions for both characters, including fronts, profiles, rear and diagonals",
+    "open-eye and blink states with exact runtime atlases",
+    "dark, midtone and light renderer backgrounds",
+    "independent fitted shadow thorn robe with front, side and back garment details matching the reference",
+    "the full-body slot clears tops and lower-body clothing, including pants, and preserves compatible headwear and footwear",
+    "canonical face, eyes, ears, bridle, mane, tail, hoof hands and hoof feet remain visible and correctly occluded",
+    "botanical-cap plus outfit plus shearling-boots compatibility",
+    "no clipping, colored fringe, background matte, white halo, missing cells or copied character overlay"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/shadow-thorn-robe.webp": "2060c57097823ad1341f73865c5884ca1d537eeb765264c66acdf2c70d2a7c44",
+    "assets/speaking-system/cosmetics/noir/shadow-thorn-robe.webp": "4c80f2368f104dbbe7a9b7090a1527a1bb01aa3bde7dc705cc8a8ce1db60b5e7",
+    "assets/speaking-system/cosmetics/shared/shadow-thorn-robe-display.png": "773ac4c0cf30a92faccd6e3e32b9a8748653e7a2515920fcc24c4289187a8e07"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-bare-3d-dark-open.jpg": "dc15a4b46e8a33ed94778b2e311cae9a474e7b7e6764a8113d9728a423e6ec00",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-shadow-thorn-robe-3d-dark-open.jpg": "efc2221ad0b39a8e7fe3651d5698c70f9af822b3e495abcf00f4e46dae291a1b",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-shadow-thorn-robe-3d-blink.jpg": "a377de6ccea8c1e81766308b5e80cfbe8a19016bb091d98ba077e0b3fdc2a81f",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-shadow-thorn-robe-3d-light-open.jpg": "0609dc1be9eb439d1d01528ba7de4a6109c8596e90ea6020c7c958b0686215b9",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-shadow-thorn-robe-combination-3d-open.jpg": "888cb6400b3bd8528e4fbe8886f5156a2684b50e7e44c24c609429b267a39b23",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-shadow-thorn-robe-combination-3d-blink.jpg": "8d8016a1a4827890d80bee148ec05a449b25e6bde599e5371a16fa38a4a57a97",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-bare-3d-dark-open.jpg": "7dc80e40ed64abe3f523ef74a402daa30dc6312e96bd710409418fb763757068",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-shadow-thorn-robe-3d-dark-open.jpg": "22e2c64e4b7102640b361731d01a1033e62c885ca54b3f438971db969240902b",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-shadow-thorn-robe-3d-blink.jpg": "931e8112e411f2cd2837ae2a96cfb819ddd89374e75ef34c7aab43022cfe57a1",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-shadow-thorn-robe-3d-light-open.jpg": "f9821d3c60dbff08841062fe55eb9c434763427693a4aa858c2d003313e94ad4",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-shadow-thorn-robe-combination-3d-open.jpg": "c16252dfea90fd9799d6aa9a518c2de965b922651c7f30d1463063fb98625230",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-shadow-thorn-robe-combination-3d-blink.jpg": "775a34e63da6b63b7eb814926ccea631594caee5f9e704a9305689787b557fb8",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-approval-shadow-thorn-robe-v1.jpg": "891d61a48b98940e619569a3a78bff69db2a826bff43418f7e267ffd2aa20712",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-detail-shadow-thorn-robe-v1.jpg": "0e1d8f6909031de2c40e3a10defeeca3a144361f146ea1fa603257e49b6d7816",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-overview-v1.jpg": "6496b7eb0c362b457551e3cb9c6053e807975e6893e42ebbdb84ff1fea264cc2"
+  }
+}
