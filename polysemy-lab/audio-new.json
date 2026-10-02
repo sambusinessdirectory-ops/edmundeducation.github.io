@@ -10851,6 +10851,15 @@
     "speed": 0.96,
     "sourceSha256": "473dd309e08cb61afd0042f8592fab26b179e220f110a69d09cc1b27aeed5352"
   },
+  "place-06-1": {
+    "path": "audio/79852bc4f573fc6b51a4e858.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "There is a place for humour even in serious discussions.",
+    "duration": 3.048,
+    "speed": 1,
+    "sourceSha256": "88a229a981b9cc8f78f5f0d5e4e747a50535cce1e86dc793749e10ea057f3e7f"
+  },
   "place-07-0": {
     "path": "audio/ce962dbf67b4dd057edd01b0.mp3",
     "voice": "american-female",
@@ -10859,6 +10868,15 @@
     "duration": 2.088,
     "speed": 0.96,
     "sourceSha256": "fca54e8d15f12448d3efe1e12f0456502a872ac598ba5607b1a8867e3159deeb"
+  },
+  "place-07-1": {
+    "path": "audio/3cb5d90f44cb11e4d7c60920.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The team moved up to second place.",
+    "duration": 2.232,
+    "speed": 1,
+    "sourceSha256": "5c80fd70e3c14a27867970f6bb4b22821464c1e93c58d3124dd9bb4e7005ad23"
   },
   "place-08-0": {
     "path": "audio/1c24172f41e7c20e883b5965.mp3",
@@ -10869,6 +10887,15 @@
     "speed": 0.96,
     "sourceSha256": "7b95204387fbf4131dea92c180785d72471e1c9217f4ad0f0dcfee0b34ed360e"
   },
+  "place-08-1": {
+    "path": "audio/fcd719f393399161dc071179.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "There are only twenty places on the course.",
+    "duration": 2.928,
+    "speed": 1,
+    "sourceSha256": "936747b438a35c5c734900c51c5b350cb0922f71d676352706df52016a7ad8ba"
+  },
   "place-09-0": {
     "path": "audio/f5215850045a2007b9dbdfaf.mp3",
     "voice": "american-female",
@@ -10877,6 +10904,15 @@
     "duration": 2.112,
     "speed": 0.96,
     "sourceSha256": "12d60d9b28eae527b285891806729e16c9bab0c6336b9a87e1a7027d942fa13a"
+  },
+  "place-09-1": {
+    "path": "audio/d5e31c546fdf79d88d530c15.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She secured a place on the committee.",
+    "duration": 2.424,
+    "speed": 1,
+    "sourceSha256": "d2ae6b57ea6e161e04ee977cdc5187c8c39aa3c275cb7153c12394b339922420"
   },
   "place-10-0": {
     "path": "audio/9dfa392deec8490b46f06f99.mp3",
@@ -10887,6 +10923,15 @@
     "speed": 0.96,
     "sourceSha256": "0a94600c1ba7fd9a0fd8f8f4a0fef79139c77e6dccf6852be1d4bc2f55caf79b"
   },
+  "place-10-1": {
+    "path": "audio/d4a059b54df39796f35170d7.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Mark your place before closing the document.",
+    "duration": 2.928,
+    "speed": 1,
+    "sourceSha256": "36a5ae108d8e980e74c99fbf7816acc095f266b306222d971e81365fe3fd4387"
+  },
   "place-11-0": {
     "path": "audio/7f467644f159abdff0d85ae3.mp3",
     "voice": "american-female",
@@ -10895,6 +10940,15 @@
     "duration": 2.976,
     "speed": 0.96,
     "sourceSha256": "32c9908ec6eaf36c935dede654b98e41ef9a88f85e50b5ec68c7aac6b1d44103"
+  },
+  "place-11-1": {
+    "path": "audio/b78b56a7feb3b7f476594772.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Give your answer to three decimal places.",
+    "duration": 2.952,
+    "speed": 1,
+    "sourceSha256": "972d981c97f2c5a9f186611943481b9c026313828f31625c78074d1d5764c570"
   },
   "place-12-0": {
     "path": "audio/7fdc1ae6f75f074fce358df7.mp3",
@@ -10905,6 +10959,15 @@
     "speed": 0.96,
     "sourceSha256": "058c34de01570b1bf0a014c087014578add42eec6445e83450de2809ea873410"
   },
+  "place-12-1": {
+    "path": "audio/170a781e6b2726b20aa5f11d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Children learn about place value in primary school.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "6cd287bb6823193b326d62bba30ce94d29c86f0995b72810ffd429f4af6b01be"
+  },
   "place-13-0": {
     "path": "audio/d6c7516c08779b9ea84b834a.mp3",
     "voice": "american-female",
@@ -10913,6 +10976,15 @@
     "duration": 2.568,
     "speed": 0.96,
     "sourceSha256": "c53be891d3b4723ae6a6d7a272a176b4514f0e0cdf5b08f4f788297b71b97677"
+  },
+  "place-13-1": {
+    "path": "audio/0c5bc749b436040847d4081d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Please place your bag under the seat.",
+    "duration": 2.352,
+    "speed": 1,
+    "sourceSha256": "f94a79d1b74318bf344f62bc7cbb0c1f33c7e217953ae78115f1d793a304ce55"
   },
   "place-14-0": {
     "path": "audio/d44c781aff4adedc8988115a.mp3",
@@ -10923,6 +10995,15 @@
     "speed": 0.96,
     "sourceSha256": "e271c104061f853264ecb0c419db80145cd2a8c76e94549ee0de83c3d9888cd4"
   },
+  "place-14-1": {
+    "path": "audio/b1bcbbaefea641383a1bf71f.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The children were placed with foster families.",
+    "duration": 2.64,
+    "speed": 1,
+    "sourceSha256": "85d08b2db70067f4a29cd1cc268cedf21c4cf688484537558b3447a4719cfdeb"
+  },
   "place-15-0": {
     "path": "audio/970301bb9fd115df1870dd4d.mp3",
     "voice": "american-female",
@@ -10931,6 +11012,15 @@
     "duration": 3.024,
     "speed": 0.96,
     "sourceSha256": "b183b1caec84bc24bfd91120d8bd2bf50dcac3f503e3bfe1c0ef43b4464d65b4"
+  },
+  "place-15-1": {
+    "path": "audio/6f1ec695444293e39f1616a3.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Customers can place orders through the app.",
+    "duration": 2.64,
+    "speed": 1,
+    "sourceSha256": "e18a845461cb0d5cda36e592574fe51443364ac3650bab9a665fb9d532dee109"
   },
   "place-16-0": {
     "path": "audio/0f0a36676e46d55cd01bb3c3.mp3",
@@ -10941,6 +11031,15 @@
     "speed": 0.96,
     "sourceSha256": "e2bfeea0b7577821ff3c03910a4c863c5b89eb4a5309c990b6d48261f9f1f94b"
   },
+  "place-16-1": {
+    "path": "audio/6a6fd9a568caffa87da5cfb0.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "You can place your bet before the game starts.",
+    "duration": 2.904,
+    "speed": 1,
+    "sourceSha256": "7f58ac438ae18cec57a11ee08babc3d70ed4124e666f227a78f614de587fc4cc"
+  },
   "place-17-0": {
     "path": "audio/4eafade1294ac34992ac5c1e.mp3",
     "voice": "american-female",
@@ -10949,6 +11048,15 @@
     "duration": 3.912,
     "speed": 0.96,
     "sourceSha256": "b62d8a64919f5bc89a192b6788fe48f7c4eae995b30292ec16bf41ddc9aef142"
+  },
+  "place-17-1": {
+    "path": "audio/76c674b728aaacb9914e486e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The course places more importance on practical skills.",
+    "duration": 3.624,
+    "speed": 1,
+    "sourceSha256": "f519762444e79f3de34e5688c3d75919b39ececfffe6b0508c7cb884bae92874"
   },
   "place-18-0": {
     "path": "audio/25a0cac1fabdee1a23dd42d2.mp3",
@@ -10959,6 +11067,15 @@
     "speed": 0.96,
     "sourceSha256": "2c62655dbb57e9c960cf7d5267b1ed0e3341cbc326560068c5e1b7878037d9df"
   },
+  "place-18-1": {
+    "path": "audio/49a31baf2c5d361f6debabb7.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She placed complete confidence in her team.",
+    "duration": 2.856,
+    "speed": 1,
+    "sourceSha256": "bfd9b9c25fa5c87841ed5cf22656fa152cd9c0bca92b517cdb06f1bd0975d2d0"
+  },
   "place-19-0": {
     "path": "audio/569695c3227b5185b0d3ab76.mp3",
     "voice": "american-female",
@@ -10967,6 +11084,15 @@
     "duration": 3.72,
     "speed": 0.96,
     "sourceSha256": "d916e8d111eb921a991eef6870e402fd10d52517c8b01bea33a2ab90397a0193"
+  },
+  "place-19-1": {
+    "path": "audio/10baf5d4063ef8ef7bc3614d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "It would be unfair to place all the blame on one person.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "7667e13f0d33bcf8953ebf186c519c3cc6d70c3bb3de2f869ef07b121635c574"
   },
   "place-20-0": {
     "path": "audio/f6339d108e47f1f1cda43569.mp3",
@@ -10977,6 +11103,15 @@
     "speed": 0.96,
     "sourceSha256": "22968d768e42ecd01384bfa0789816cc57dbfe6296fdf6ca3e027ab594e8576f"
   },
+  "place-20-1": {
+    "path": "audio/8d8c92e05a46137db0fba51b.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The assistant placed several calls that morning.",
+    "duration": 3.288,
+    "speed": 1,
+    "sourceSha256": "14b311b67db748563609529d61474d1ca68120d37647d8692b980fdec9092395"
+  },
   "place-21-0": {
     "path": "audio/a7a0eb5d1106c76148a1a6d2.mp3",
     "voice": "american-female",
@@ -10985,6 +11120,15 @@
     "duration": 3.192,
     "speed": 0.96,
     "sourceSha256": "1c762b2acf459a59a60c04c00f578ae7d7aad8769b741357a0bc22267d3e91ae"
+  },
+  "place-21-1": {
+    "path": "audio/d4c0171e23a2040be5693492.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I know that voice, but I can’t quite place it.",
+    "duration": 3.216,
+    "speed": 1,
+    "sourceSha256": "e809c885d32c97c9ffcd481a3df3c0ec091490056882b04d017b60cff468f34f"
   },
   "place-22-0": {
     "path": "audio/2ebac5a04f21767338c020dc.mp3",
@@ -10995,6 +11139,15 @@
     "speed": 0.96,
     "sourceSha256": "642bdb11a53cac58bcf6608658fc47282e0bea37bb149b671fcb9c371d58825c"
   },
+  "place-22-1": {
+    "path": "audio/7103581826df6cc679131386.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The accident took place near the station.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "db77afbb5e0b354a42f159a6edaea93b27928f9ae0ca1674a13f646c94e6b8ee"
+  },
   "place-23-0": {
     "path": "audio/ffd9765b9aa2da44d16a0b08.mp3",
     "voice": "american-female",
@@ -11003,6 +11156,15 @@
     "duration": 2.832,
     "speed": 0.96,
     "sourceSha256": "5234b10a2730f42998210a10fa52a6985322f96e2fbaea1b9a9836c3a32c9631"
+  },
+  "place-23-1": {
+    "path": "audio/c2b7d6e56dec6175f01583ae.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The cover clicked in place.",
+    "duration": 1.968,
+    "speed": 1,
+    "sourceSha256": "d63fdf92f95a1240d75b963639b641014dc0aba677a24b4208e81da3410cf2f6"
   },
   "place-24-0": {
     "path": "audio/1e59d60ca63a5a2d90061f34.mp3",
@@ -11013,6 +11175,15 @@
     "speed": 0.96,
     "sourceSha256": "6b829562b60a1a2c107598fddc45d95373db7acbfd43b67426832de8238b10b1"
   },
+  "place-24-1": {
+    "path": "audio/452031a1fb61e26dd591c8ac.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Everything is in place for the launch.",
+    "duration": 2.424,
+    "speed": 1,
+    "sourceSha256": "0e1ab17c76f8635586eea9dc030a4ebcc54e0f53265725371046dd585a8eab54"
+  },
   "place-25-0": {
     "path": "audio/9000cf36181c52e1934f1255.mp3",
     "voice": "american-female",
@@ -11021,6 +11192,15 @@
     "duration": 2.424,
     "speed": 0.96,
     "sourceSha256": "70df8e173237d5c086c2372fd3ec19e88e3352458f12cb45035b593419745288"
+  },
+  "place-25-1": {
+    "path": "audio/03456ae086f5115fa5c7a650.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Nothing was out of place in the room.",
+    "duration": 2.4,
+    "speed": 1,
+    "sourceSha256": "dac080487eccfdebd43b057a5360d960b81e740a5897a7e59e7b269edc9c9536"
   },
   "place-26-0": {
     "path": "audio/53c3295683fe55121d05bd99.mp3",
@@ -11031,6 +11211,15 @@
     "speed": 0.96,
     "sourceSha256": "ff41ca0d92bab8f1dab907780260beb60bf501a9e7195e4aa7f4b20cd7fa9dc2"
   },
+  "place-26-1": {
+    "path": "audio/afc55ee411a6d83674402e47.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "That joke felt out of place during such a serious discussion.",
+    "duration": 3.792,
+    "speed": 1,
+    "sourceSha256": "e5b61534d55e9258ebbc513a029a8bcf8fc733a553f9b36bae00fd86135b812b"
+  },
   "place-27-0": {
     "path": "audio/93982923052f95f2a4af0c4d.mp3",
     "voice": "american-female",
@@ -11039,6 +11228,15 @@
     "duration": 4.2,
     "speed": 0.96,
     "sourceSha256": "58477b153f457513bd67365bce17dfdf283b95e698ed53181a7595dc85fe7014"
+  },
+  "place-27-1": {
+    "path": "audio/e8b41fba2015ac0768af0022.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "He told her to ‘know her place,’ which sounded insulting.",
+    "duration": 3.96,
+    "speed": 1,
+    "sourceSha256": "a60265680ec8ff2b590ce3f08d491098f6c9473cca13840c5a4075db9fbecb2d"
   },
   "place-28-0": {
     "path": "audio/ff07c94c1c0049b8888fc45c.mp3",
@@ -11049,6 +11247,15 @@
     "speed": 0.96,
     "sourceSha256": "40213eeb7401a5c0a41f3f20f4c1463e04e56fe76f6e8faef7e636927211371f"
   },
+  "place-28-1": {
+    "path": "audio/87ca9f5106b40d3447870943.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Careful button placement makes the device easier to use.",
+    "duration": 3.336,
+    "speed": 1,
+    "sourceSha256": "ed828c48e11c245d248550ace7dd9e3080c414737be0adafb51f43ee475b4199"
+  },
   "place-29-0": {
     "path": "audio/6af95e507535e1a160bca5f8.mp3",
     "voice": "american-female",
@@ -11057,6 +11264,15 @@
     "duration": 2.832,
     "speed": 0.96,
     "sourceSha256": "24981e717ad36f744910236c0eca918a681570b82b84ce90255131ef0ff3a747"
+  },
+  "place-29-1": {
+    "path": "audio/129264747896979f1d84c9d4.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The university helps students find industry placements.",
+    "duration": 3.6,
+    "speed": 1,
+    "sourceSha256": "df576d2f520c06f828543c11ecc8c4ca8a3ed4ce26a22a6aa7b91846f45698bd"
   },
   "place-30-0": {
     "path": "audio/80c59fc0704bd11af79620e9.mp3",
@@ -11067,6 +11283,15 @@
     "speed": 0.96,
     "sourceSha256": "a7a3903cf33d38088f3f418b1076e2351c0ae709412889d1057f29166fcfc969"
   },
+  "place-30-1": {
+    "path": "audio/cbcce5eaad84aad99a86051e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Student placement depends on test performance.",
+    "duration": 3.24,
+    "speed": 1,
+    "sourceSha256": "27d38f53ec718c7edc8b8f5775f6f3c2948177a78017b0da58b2e78ceb380666"
+  },
   "place-31-0": {
     "path": "audio/edb8acbfa6c2c764dc0c76c3.mp3",
     "voice": "american-female",
@@ -11075,6 +11300,15 @@
     "duration": 2.016,
     "speed": 0.96,
     "sourceSha256": "6e9c044fabc6ace07f6ada93efae5dbcfa45465e6f11a26100eed8dbce8a535b"
+  },
+  "place-31-1": {
+    "path": "audio/1808c0635ff7dffd7ac0950a.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She often misplaces her phone.",
+    "duration": 2.592,
+    "speed": 1,
+    "sourceSha256": "17377fa7181dd150f6a78d05b26557eaf6c54cd75bb6ae1b2edd651a6cfa5278"
   },
   "place-32-0": {
     "path": "audio/421836eb4addf69867627c0e.mp3",
@@ -11085,6 +11319,15 @@
     "speed": 0.96,
     "sourceSha256": "7c0b01b246dfecd8a4dce0adb8d42f9481574f70e8bb2fad50dfdb0a41795740"
   },
+  "place-32-1": {
+    "path": "audio/9af427d7d651d3e934a359e2.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She showed misplaced loyalty to the company.",
+    "duration": 3.072,
+    "speed": 1,
+    "sourceSha256": "3042f68be2c2c9bddcb9ae19172a6a30f02aa8f94a391c633e9af370c04a6065"
+  },
   "place-33-0": {
     "path": "audio/a20da722d67c18ec8b30cc52.mp3",
     "voice": "american-female",
@@ -11093,6 +11336,15 @@
     "duration": 2.544,
     "speed": 0.96,
     "sourceSha256": "9717aacd73025cd559a225ae098a16bf167615d569e8c1f47fb5b26eb8988735"
+  },
+  "place-33-1": {
+    "path": "audio/8165a623f83b8e6e05baacc7.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Machines cannot completely replace human judgment.",
+    "duration": 3,
+    "speed": 1,
+    "sourceSha256": "bccda6be28f32073d5e3a0f78e0b7ea041a66d3ff494e820814c3be6be8867dd"
   },
   "place-34-0": {
     "path": "audio/d6f050a07ef35a0958710017.mp3",
@@ -11103,6 +11355,15 @@
     "speed": 0.96,
     "sourceSha256": "0ae0a25ce599467f9f7c2a419ff992e4aa83514efe38595f9cbcbc60d0a9db9f"
   },
+  "place-34-1": {
+    "path": "audio/277db25fb59caf372ff09692.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "They are looking for a replacement for the manager.",
+    "duration": 2.352,
+    "speed": 1,
+    "sourceSha256": "8bf2cc1b29098a07d2111d1676efc865ad85a61e707488fb7c3a596304f34d98"
+  },
   "place-35-0": {
     "path": "audio/fc9e58044d462215e8030e0a.mp3",
     "voice": "american-female",
@@ -11111,6 +11372,15 @@
     "duration": 3.36,
     "speed": 0.96,
     "sourceSha256": "b7c4da06bd64be8f9c048250a6509145a9f773994d6952258d156a8a52a40290"
+  },
+  "place-35-1": {
+    "path": "audio/e3507b5c2e9ef3a31735ce06.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The conflict displaced thousands of families.",
+    "duration": 3.024,
+    "speed": 1,
+    "sourceSha256": "3c6d41bc3ce07806b790b7c0f1eddc8b38f3dfda5c990cef40aeedb33ba6f97d"
   },
   "place-36-0": {
     "path": "audio/6fa4f22bdd8e4c6074c0c96e.mp3",
@@ -11121,6 +11391,15 @@
     "speed": 0.96,
     "sourceSha256": "f0f4dc8300fadf4ad6adf1f4bfd91c311ba2f3471347a7549db0a933f5140a2c"
   },
+  "place-36-1": {
+    "path": "audio/a065b1f5b3e9e0b7234eb2e3.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Engineers measured the displacement of the structure.",
+    "duration": 3.264,
+    "speed": 1,
+    "sourceSha256": "87b7bc705a0bf42846c8bc7080ab2cea5c12d026e6135839ff4a648967ca7198"
+  },
   "challenge-01-0": {
     "path": "audio/8859272e31f73f7863fed82e.mp3",
     "voice": "american-female",
@@ -11129,6 +11408,15 @@
     "duration": 4.08,
     "speed": 0.96,
     "sourceSha256": "2714125535d59ff5f4ad6ececf3a148d0fbc224cdc9d709bbdee68796b744c5a"
+  },
+  "challenge-01-1": {
+    "path": "audio/8cb97f9019fc177708cec986.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Learning to manage a large team was a major challenge for her.",
+    "duration": 3.648,
+    "speed": 1,
+    "sourceSha256": "6ae8ba6b7253cc87f483b599bfe1fec10a26b854b819503d60a52d17f73963ba"
   },
   "challenge-01-2": {
     "path": "audio/4780aa378d4d28ac3bda7da0.mp3",
@@ -11148,6 +11436,15 @@
     "speed": 0.96,
     "sourceSha256": "998dfd9b07133a20036ffcc8a709275b95a6c8e060721317edbce7a45d193c13"
   },
+  "challenge-02-1": {
+    "path": "audio/9db8c51a60f3146bdf7d0515.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The course is challenging, but I am learning a lot.",
+    "duration": 3.12,
+    "speed": 1,
+    "sourceSha256": "8d55f2a922629d4c2fa8013b8d161b72c720f82d91128dc070b7bb0d14bc0d05"
+  },
   "challenge-02-2": {
     "path": "audio/b6281caddded23624dc94104.mp3",
     "voice": "british-male",
@@ -11166,6 +11463,15 @@
     "speed": 0.96,
     "sourceSha256": "a6d0dec16bf1728a05f422d1c74b66aa1254ede15032a803b4aee1455d09a2ce"
   },
+  "challenge-03-1": {
+    "path": "audio/5280f9116151d44296dfb18e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The exercise is designed to challenge students without overwhelming them.",
+    "duration": 4.056,
+    "speed": 1,
+    "sourceSha256": "10dab5d2a354a1c6b758a410c34ae7de44fc9ef7aaf14970c96ec0edf0ab30a7"
+  },
   "challenge-04-0": {
     "path": "audio/bdbbea0b82c2284708700e12.mp3",
     "voice": "american-female",
@@ -11174,6 +11480,15 @@
     "duration": 5.064,
     "speed": 0.96,
     "sourceSha256": "d68b55682a2665cbb1f2251b3806db14965b3ec1497825200491044d94efa15d"
+  },
+  "challenge-04-1": {
+    "path": "audio/edca4308b34338ccd7a27018.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Try to challenge yourself instead of always choosing the easiest option.",
+    "duration": 3.984,
+    "speed": 1,
+    "sourceSha256": "b90fdd518fe8212856367e19881d02a0ed1f594ccbb85d78f8adb967c070339e"
   },
   "challenge-05-0": {
     "path": "audio/2be5f91317af5e25b0ff4f47.mp3",
@@ -11184,6 +11499,15 @@
     "speed": 0.96,
     "sourceSha256": "1bcf6e7a7092ee1081cea7b1af0652615afff07cda5bfc5ef3c12ae766c38116"
   },
+  "challenge-05-1": {
+    "path": "audio/001a79748a0b7bf2efdfb902.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The evidence challenges the traditional view of what happened.",
+    "duration": 3.48,
+    "speed": 1,
+    "sourceSha256": "75d6b601cec62afa6f92a8a21f3a67e73afa7fa3c215257a16ae9c55e1cafe22"
+  },
   "challenge-06-0": {
     "path": "audio/2e88f70fb238f57170d3d1b5.mp3",
     "voice": "american-female",
@@ -11192,6 +11516,15 @@
     "duration": 4.704,
     "speed": 0.96,
     "sourceSha256": "d63b3abbf7f8a07ff7c2ef3cb96f1e439183f6bcc1633c4656ede7dfc9c94cb9"
+  },
+  "challenge-06-1": {
+    "path": "audio/4199615f6e96793e0a82fb9f.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "His argument was seen as a direct challenge to the traditional view.",
+    "duration": 3.6,
+    "speed": 1,
+    "sourceSha256": "175acc57fb5cbac0ba6e2153c1de0d6de9127a9ed147586d818168ada32ce374"
   },
   "challenge-07-0": {
     "path": "audio/cff080b1091bf1482db422a2.mp3",
@@ -11202,6 +11535,15 @@
     "speed": 0.96,
     "sourceSha256": "c0a158fe74638ccc51cd59ffda997901935fa7328630774b1462e3fe5eba24ad"
   },
+  "challenge-07-1": {
+    "path": "audio/d97ec0bc16a35926d02026b0.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Employees can challenge the decision through the formal appeals process.",
+    "duration": 4.152,
+    "speed": 1,
+    "sourceSha256": "27a8f63268f3ff809842c26ab928c8929372d59e5a965cad06256d861e3360bc"
+  },
   "challenge-08-0": {
     "path": "audio/10b6e39899bcdc7d61a2da68.mp3",
     "voice": "american-female",
@@ -11210,6 +11552,15 @@
     "duration": 3.432,
     "speed": 0.96,
     "sourceSha256": "23d0008b6ca24a43c6f88e9410e36465d391a8cce2a5b199da548b6f84757108"
+  },
+  "challenge-08-1": {
+    "path": "audio/ae102d698cb63cf5742e1f8f.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The organization launched a legal challenge against the decision.",
+    "duration": 3.624,
+    "speed": 1,
+    "sourceSha256": "28b3f24757e0d5e0cc66b3ddfe5c1e210ccb1c8bbd5ce8981db503bd2d5c4b17"
   },
   "challenge-09-0": {
     "path": "audio/973162745c37626ada2fb498.mp3",
@@ -11220,6 +11571,15 @@
     "speed": 0.96,
     "sourceSha256": "de812f1aa66c14d5e02a4b293fa22089d4ad882a85cb5b865d9106ac3945dcae"
   },
+  "challenge-09-1": {
+    "path": "audio/8517fe107fa21673ade03c00.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The runner challenged the champion to a race.",
+    "duration": 3.048,
+    "speed": 1,
+    "sourceSha256": "d0442b490183c812dcf0c5eb099b28f21e833936f0a6a3395f5c58179a71426a"
+  },
   "challenge-10-0": {
     "path": "audio/b3d4b9d2525759cc24c83222.mp3",
     "voice": "american-female",
@@ -11228,6 +11588,15 @@
     "duration": 4.464,
     "speed": 0.96,
     "sourceSha256": "325431d4542c87567c91920f0a62f74fe515106cf243850d5734d770c87dcc03"
+  },
+  "challenge-10-1": {
+    "path": "audio/11fc1d473f00e54332f7ca5a.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She challenged the team to find a better solution.",
+    "duration": 3.168,
+    "speed": 1,
+    "sourceSha256": "32b29f6e96c72cc23225921fcfb2aed922761dcfbfdf665f996e98a85d81a43f"
   },
   "challenge-11-0": {
     "path": "audio/53c41f37561bc7ef0fc7b576.mp3",
@@ -11238,6 +11607,15 @@
     "speed": 0.96,
     "sourceSha256": "11d25cfe6e108381ba418c96a3e7a1dabf171d194c068d4e82c37feaf369faff"
   },
+  "challenge-11-1": {
+    "path": "audio/c592bba5cb11363e55b18f16.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She issued a challenge to anyone who thought they could beat her.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "7b3f0b025817864391ade612c62e93570429d295dc7d225447a60e0fbcdbc1ae"
+  },
   "challenge-12-0": {
     "path": "audio/4225f76d3e379ebce339173d.mp3",
     "voice": "american-female",
@@ -11246,6 +11624,15 @@
     "duration": 3.792,
     "speed": 0.96,
     "sourceSha256": "409c29c5b15cfc460c137f05f44068739791e64c2fca94764d0dc8c585077e8f"
+  },
+  "challenge-12-1": {
+    "path": "audio/ccdfb98310fc08d805bf2e1e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "A strong new challenger has entered the market.",
+    "duration": 2.832,
+    "speed": 1,
+    "sourceSha256": "b0d3ded3b5006efedf32fcf8f8813b50c9bece4c011aa2b8dbcf8e12c92e73aa"
   },
   "challenge-13-0": {
     "path": "audio/4fb07a1cacdf7451a9a7b054.mp3",
@@ -11256,6 +11643,15 @@
     "speed": 0.96,
     "sourceSha256": "109d6a5676892a0156d0b991aeab909a17b2aea92fa2d67d8ae8bd3ca1e4aeab"
   },
+  "challenge-13-1": {
+    "path": "audio/1f498fbc057d3f97d448b77f.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Several athletes are challenging for first place.",
+    "duration": 3.312,
+    "speed": 1,
+    "sourceSha256": "17f0e160f9660735004ae19c44489ce09811f5fb5efcfdf2e591fe77038427d1"
+  },
   "challenge-14-0": {
     "path": "audio/1ef664be2e946d2c3d2402e7.mp3",
     "voice": "american-female",
@@ -11264,6 +11660,15 @@
     "duration": 3.408,
     "speed": 0.96,
     "sourceSha256": "f8266b1efefb1eff3be5a1c566686002bbb1db4d289d293b3156e3a719260d19"
+  },
+  "challenge-14-1": {
+    "path": "audio/8d21727188daee19969f78e7.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The referee gave him a yellow card for a dangerous challenge.",
+    "duration": 3.864,
+    "speed": 1,
+    "sourceSha256": "fb5e9ba4422d53cf147a94a4d136edb9c2d8d7f476024b05a036055b6f790eda"
   },
   "challenge-15-0": {
     "path": "audio/2f882d8fca217caa8da6a542.mp3",
@@ -11274,6 +11679,15 @@
     "speed": 0.96,
     "sourceSha256": "a259b4ba12e1afbdba587b89759f81d33308c6588887f484d8b32f0316ade3ca"
   },
+  "challenge-15-1": {
+    "path": "audio/21e2628d84da61f2a5707866.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Rapid population growth presents significant challenges for city planners.",
+    "duration": 4.608,
+    "speed": 1,
+    "sourceSha256": "6bef0e2d5215c0b128cff000a3e0c983a4231b3346e50cfe5026816851a2fcb7"
+  },
   "challenge-16-0": {
     "path": "audio/942cfcfe7f93ae6ad5606b18.mp3",
     "voice": "american-female",
@@ -11282,6 +11696,15 @@
     "duration": 4.272,
     "speed": 0.96,
     "sourceSha256": "72fa618be04c59f122330c48916a0c97eb6f8b2720a2584611c6f636d4f5496a"
+  },
+  "challenge-16-1": {
+    "path": "audio/13daa64260c12d891a8ddc16.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I was nervous, but I eventually accepted the challenge.",
+    "duration": 3.096,
+    "speed": 1,
+    "sourceSha256": "ee06fdcc522e9b747e5a854dc77481c3bdc5ca5d489b948217867bae8c815a03"
   },
   "challenge-17-0": {
     "path": "audio/cb98fc3997b5e07f38a6b7c4.mp3",
@@ -11292,6 +11715,15 @@
     "speed": 0.96,
     "sourceSha256": "c19aba66b9abd2e0fff222551e357e8fb9a10c346cd65c619af3e681e1b67705"
   },
+  "challenge-17-1": {
+    "path": "audio/03cb1ab52c997a1968a92b1c.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The team rose to the challenge and completed the project on time.",
+    "duration": 3.552,
+    "speed": 1,
+    "sourceSha256": "3b39f8bac3f42c4752fa12bc28a64d52b0313067741a9158dbaec51b308519d0"
+  },
   "challenge-18-0": {
     "path": "audio/715568a8d6d7b6454066a6bf.mp3",
     "voice": "american-female",
@@ -11300,6 +11732,15 @@
     "duration": 3.72,
     "speed": 0.96,
     "sourceSha256": "320585cc34c43938f6f6ca01cddb98544e1594b31017c0c7eb3bc0c3c7f95c3c"
+  },
+  "challenge-18-1": {
+    "path": "audio/375129aea3c03a041ceed3be.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The assumption should not be allowed to go unchallenged.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "a6b97d2d43b7e1432403742325245780fb057690aee281e3429bc159c105a36a"
   },
   "challenge-19-0": {
     "path": "audio/8ee6401724be31c4c421edbe.mp3",
@@ -11310,6 +11751,15 @@
     "speed": 0.96,
     "sourceSha256": "6d405de1e390b21d32154115159439a490fb7c04b963f86c5cd9aadd8281cfad"
   },
+  "challenge-19-1": {
+    "path": "audio/1951504728808d265fde73d8.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She was the unchallenged champion in her category.",
+    "duration": 3.24,
+    "speed": 1,
+    "sourceSha256": "ec5bd976c61192212fff1219843524176be91697afd3a83e90c21e415c14fdd8"
+  },
   "office-01-0": {
     "path": "audio/7307ebba100ccf4038cf800c.mp3",
     "voice": "american-female",
@@ -11318,6 +11768,15 @@
     "duration": 3.696,
     "speed": 0.96,
     "sourceSha256": "280a61d3df695893c015172b9cf947f803826a9ec1b97fe0a2d3fbc28a4e4305"
+  },
+  "office-01-1": {
+    "path": "audio/8373e517acbc70996629034e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She works in a large office in the city centre.",
+    "duration": 3,
+    "speed": 1,
+    "sourceSha256": "7df1afad72b52acbc4971797b7e1e17a8b85814cffe1cfda2382c8e2de599dc3"
   },
   "office-01-2": {
     "path": "audio/9b033011399b7dedd5b05c86.mp3",
@@ -11337,6 +11796,15 @@
     "speed": 0.96,
     "sourceSha256": "a10eb04d53167880bd83082678686a0985dcc02b41a8195451f32610489936a2"
   },
+  "office-02-1": {
+    "path": "audio/65f449c7a477e8316c31e794.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The regional office handles customer complaints.",
+    "duration": 2.712,
+    "speed": 1,
+    "sourceSha256": "bf0b281df0fa692a754bbc5f11a7d66b8b74fcd3db75d3585a33f55011cb4265"
+  },
   "office-03-0": {
     "path": "audio/dfbd4f63b6fe0ccdccc29957.mp3",
     "voice": "american-female",
@@ -11345,6 +11813,15 @@
     "duration": 3.528,
     "speed": 0.96,
     "sourceSha256": "476b8a49415665eacd9eba65facb01bfa82cd586b87f6d3b8b35c6b195c04b32"
+  },
+  "office-03-1": {
+    "path": "audio/ed755c68ee81759d36a9bacf.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She transferred to the company’s New York office.",
+    "duration": 2.52,
+    "speed": 1,
+    "sourceSha256": "9c5e25f67796bc028cee13e96aebd93efb5a8b29350ece98f6c31e67eb4e5563"
   },
   "office-04-0": {
     "path": "audio/56544e9a463270723d87ff3d.mp3",
@@ -11355,6 +11832,15 @@
     "speed": 0.96,
     "sourceSha256": "85a9aa156abc3f58ab9a119d99b0bc3aff996b4074940e0a18abf524abdf2274"
   },
+  "office-04-1": {
+    "path": "audio/939a1cae535627d3484a0e9a.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She called her lawyer’s office.",
+    "duration": 2.496,
+    "speed": 1,
+    "sourceSha256": "38af8fda558685e4fd11c6990b4116b4a0df7331212b5ff307a30628beea8411"
+  },
   "office-05-0": {
     "path": "audio/3bc4ccc47740341f0e70d8da.mp3",
     "voice": "american-female",
@@ -11363,6 +11849,15 @@
     "duration": 2.448,
     "speed": 0.96,
     "sourceSha256": "9b2c6140836f7973e3ff38777346632d73e1b13ecc1fa2d75d5c264c7ecb368f"
+  },
+  "office-05-1": {
+    "path": "audio/d1a5adeebde5885b8138973f.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "He has held office for six years.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "442774b538fac325e1c8456c88878e2fb9eccc1e448810cfc7573b46721bbbec"
   },
   "office-06-0": {
     "path": "audio/f4c2083ef8a35887fa7cc149.mp3",
@@ -11373,6 +11868,15 @@
     "speed": 0.96,
     "sourceSha256": "22b130f9f15cf788bc69d1e8f373376747619a88a4eed1ac0987ef6d1d38be9d"
   },
+  "office-06-1": {
+    "path": "audio/71926b9f775715f16b3f5e94.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She left office at the end of her term.",
+    "duration": 2.64,
+    "speed": 1,
+    "sourceSha256": "412fcdcd4925aa96f1fc68a967cd73ee3a4a078204058b485d7e044a16ff569a"
+  },
   "office-07-0": {
     "path": "audio/1e7dd9362a7f5d5d151c88e8.mp3",
     "voice": "american-female",
@@ -11381,6 +11885,15 @@
     "duration": 2.568,
     "speed": 0.96,
     "sourceSha256": "bbff65a1fdc7f8c1b6417f742421523f70a0a1ef5b344831fd9a22e9682f6e9a"
+  },
+  "office-07-1": {
+    "path": "audio/85a1bff7d4c7ef02cd680dbb.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "During her term of office, several reforms were introduced.",
+    "duration": 3.888,
+    "speed": 1,
+    "sourceSha256": "de8a7ed07820ba9ba5b0079956080b2420ed27d322aa6e2ff41489b53bff2bce"
   },
   "office-08-0": {
     "path": "audio/a720eabd99aed83a15932a15.mp3",
@@ -11391,6 +11904,15 @@
     "speed": 0.96,
     "sourceSha256": "02c3d951843ccee42b5f69f0fc469d589c708f3084db37b1830aef598bd4fb3a"
   },
+  "office-08-1": {
+    "path": "audio/b2705b0f32091452061f7667.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Her office arranged the meeting.",
+    "duration": 1.872,
+    "speed": 1,
+    "sourceSha256": "1f8610e43217372f8331fd946e46230659ebbc16acdabce625c3777821620bc7"
+  },
   "office-09-0": {
     "path": "audio/d8d5d600c10d793dcd490606.mp3",
     "voice": "american-female",
@@ -11399,6 +11921,15 @@
     "duration": 2.832,
     "speed": 0.96,
     "sourceSha256": "03c107ea44311dc7c63fdca5c7314908a0e95ee29afce0047f6a4e86bb7f5926"
+  },
+  "office-09-1": {
+    "path": "audio/f9e2abb0de7221386732f84d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Please call during normal office hours.",
+    "duration": 2.784,
+    "speed": 1,
+    "sourceSha256": "7b95d8540198ad322dfc4edfa02373a6d9c0c90b5bb0a7101b727e6e318b602b"
   },
   "office-10-0": {
     "path": "audio/7132e823804f3f1bc0852edf.mp3",
@@ -11409,6 +11940,15 @@
     "speed": 0.96,
     "sourceSha256": "5f55c7552d096fa906222b6d6afbe19ad16c3bbc1bee1c4ca4be48f410d7dfc8"
   },
+  "office-10-1": {
+    "path": "audio/e99a927cf53d242647b32c45.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I visited my tutor during office hours.",
+    "duration": 3,
+    "speed": 1,
+    "sourceSha256": "b4ee0affdf20f8bc3aa2a0d498052fb1b3d66296e546393980e2883623671c5c"
+  },
   "office-11-0": {
     "path": "audio/38b3e649c7b8ac43d72fe97c.mp3",
     "voice": "american-female",
@@ -11417,6 +11957,15 @@
     "duration": 3.264,
     "speed": 0.96,
     "sourceSha256": "8bc70fa368b1fcb09176cfa353ca33d643e3e54ba0c04b0ac23c8b35a99db56d"
+  },
+  "office-11-1": {
+    "path": "audio/42d5f7bcf4b2a8385371d3fe.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I need a quieter home office for video meetings.",
+    "duration": 3.336,
+    "speed": 1,
+    "sourceSha256": "c04c435df8e56305ef0fa934ef42797d1e7a3530771c2a6c96994bf38d4e764f"
   },
   "office-12-0": {
     "path": "audio/374cc23ceb5109d48ebcc403.mp3",
@@ -11427,6 +11976,15 @@
     "speed": 0.96,
     "sourceSha256": "3c280d9eb0f840e68d2dc10f7280f50ce5c47db65a3c63b0e27f1b1553118c43"
   },
+  "office-12-1": {
+    "path": "audio/96103ed51c96b53a83dc4868.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The film performed well at the box office.",
+    "duration": 2.904,
+    "speed": 1,
+    "sourceSha256": "e5cd6a294d8a4f48f9264fa9f24894defe9cca01e91c9aa5d52bbabf9cc06d24"
+  },
   "office-13-0": {
     "path": "audio/0572cb52d5b2f482384e6b74.mp3",
     "voice": "american-female",
@@ -11435,6 +11993,15 @@
     "duration": 3.288,
     "speed": 0.96,
     "sourceSha256": "81e89ae2244b4bf0f20adcf6c1b9e5773686a7cc1f4f9aa5979ca1b34380082b"
+  },
+  "office-13-1": {
+    "path": "audio/0c3da3dc951b6f5040349dc6.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The nearest post office closes at five.",
+    "duration": 2.856,
+    "speed": 1,
+    "sourceSha256": "c1ff8c5dcbc7500c8e2f7fd7fcc41037ff0c68da448b204a4da657cd43dd5012"
   },
   "office-14-0": {
     "path": "audio/a9ca1631502463f273293f98.mp3",
@@ -11445,6 +12012,15 @@
     "speed": 0.96,
     "sourceSha256": "0320ad9c830dc3a8f49592ddbd348c02b8cfad868c8d0274ec05a19462df289c"
   },
+  "office-14-1": {
+    "path": "audio/152f9d5a3da71622511a20b3.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The official results will be released tomorrow.",
+    "duration": 2.544,
+    "speed": 1,
+    "sourceSha256": "ccf5d20bbf02e7d97b79d0c83b0a43f2d65199fc325492c258f719fab8ab6c04"
+  },
   "office-15-0": {
     "path": "audio/1242ea6374d49bcfa35149ef.mp3",
     "voice": "american-female",
@@ -11453,6 +12029,15 @@
     "duration": 3.048,
     "speed": 0.96,
     "sourceSha256": "08a665465880265f681e35336a586fc8b44111472efcf8361a92005c48568b10"
+  },
+  "office-15-1": {
+    "path": "audio/905261e3391152f590f82a3c.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She travelled there on official business.",
+    "duration": 2.856,
+    "speed": 1,
+    "sourceSha256": "953bfbac6a1574a1059af5f8f31c257ba282011c781a4b085e762114a2444da7"
   },
   "office-16-0": {
     "path": "audio/e2ac0fd3cc44930cb50c7415.mp3",
@@ -11463,6 +12048,15 @@
     "speed": 0.96,
     "sourceSha256": "a41532e5e583f0f51e2b011a74f1dd8854a67512befaa8b409150a70797040d0"
   },
+  "office-16-1": {
+    "path": "audio/9f8f40b0b4a0f38d1d14724a.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "An airport official checked the documents.",
+    "duration": 2.76,
+    "speed": 1,
+    "sourceSha256": "f0e17164370d4bd355b46cc338ee5671e18a488a12964c2a49a7bef5164b806c"
+  },
   "office-17-0": {
     "path": "audio/966cb7d90eb9e020e49e1079.mp3",
     "voice": "american-female",
@@ -11471,6 +12065,15 @@
     "duration": 3.048,
     "speed": 0.96,
     "sourceSha256": "9a223ab4bc4d762e29064171d86fba89f37734d523fbd2b2f4bb3d1154e7a70b"
+  },
+  "office-17-1": {
+    "path": "audio/4dd93edd667dad7904e8498e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The results have not been officially confirmed.",
+    "duration": 3.024,
+    "speed": 1,
+    "sourceSha256": "e00ccbe5336d39ed876272f25f4e9ecd85ad237c0dbb08bb69ed5c909d23d24e"
   },
   "office-18-0": {
     "path": "audio/540693dc20f04dcc6ae86388.mp3",
@@ -11481,6 +12084,15 @@
     "speed": 0.96,
     "sourceSha256": "dd95d01605a7b3c8bbc2663c1a123808ef50296146e166689ce092076c223664"
   },
+  "office-18-1": {
+    "path": "audio/60902350ad395a59798b362b.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The safety officer inspected the building.",
+    "duration": 2.52,
+    "speed": 1,
+    "sourceSha256": "679b759dbb9ec53c36576b84f64ba1db47347f1c54c87ea59bbce6b95ba0ddcb"
+  },
   "office-19-0": {
     "path": "audio/2d33e8c53267620e0b28e0c0.mp3",
     "voice": "american-female",
@@ -11490,6 +12102,15 @@
     "speed": 0.96,
     "sourceSha256": "178fa48b13b6a003f5d88e6d105552ddd081b935eec66a76519a285b63af98d0"
   },
+  "office-19-1": {
+    "path": "audio/6362468d07ff6bf892d4a3e3.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "He served as an army officer for ten years.",
+    "duration": 2.928,
+    "speed": 1,
+    "sourceSha256": "63aa53d64e02a9c8d7f2e6316f86c1d74f7d01e573dd37fd2afc913c603b22eb"
+  },
   "travel-01-0": {
     "path": "audio/d5368932a2e52c24ca1155b1.mp3",
     "voice": "american-female",
@@ -11498,6 +12119,15 @@
     "duration": 2.832,
     "speed": 0.96,
     "sourceSha256": "f68781eb63decef35567a53903b5c2af5c0437f022c1ed8888c17a7482896c4e"
+  },
+  "travel-01-1": {
+    "path": "audio/0c418bd35c2dbbcc6e400f27.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She travels to London regularly for work.",
+    "duration": 3.048,
+    "speed": 1,
+    "sourceSha256": "469764e46a16148062616b41288b45902b2077a592acad694133929258297b0f"
   },
   "travel-01-2": {
     "path": "audio/c8ff8a5014ec8a532ad22b96.mp3",
@@ -11517,6 +12147,15 @@
     "speed": 0.96,
     "sourceSha256": "cd828f030421708b360abe37b663fadea662e2f63f53810e94c5f3d4c99195c2"
   },
+  "travel-02-1": {
+    "path": "audio/ea53a1579b7490786bd93efe.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She travels a lot for her job.",
+    "duration": 2.616,
+    "speed": 1,
+    "sourceSha256": "b1010f65e959eaf87730656f1861150186896df7a4a395273231a60c6498bfba"
+  },
   "travel-03-0": {
     "path": "audio/0c448c94f8feef6aa9bdcad2.mp3",
     "voice": "american-female",
@@ -11525,6 +12164,15 @@
     "duration": 2.352,
     "speed": 0.96,
     "sourceSha256": "c8d068751cadb38502190229247a6f1aa1314d07427bb421b5eeca2cd0393709"
+  },
+  "travel-03-1": {
+    "path": "audio/a35ccef34fd1210d2c2b3ac2.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "It is often cheaper to travel by bus.",
+    "duration": 3,
+    "speed": 1,
+    "sourceSha256": "0bfb656d4f348d43aafd2d07ee41cebdceda4dbb210176e06be8017a4928f575"
   },
   "travel-04-0": {
     "path": "audio/c31107bc4e212d9822a5b2ef.mp3",
@@ -11535,6 +12183,15 @@
     "speed": 0.96,
     "sourceSha256": "f3e70d672fb679fc38891647bf7ed0e10a7c6b8411d252d52bd2d1675c46c592"
   },
+  "travel-04-1": {
+    "path": "audio/5f4e799cf11649b9fd00ccaa.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The ball travelled across the floor.",
+    "duration": 2.664,
+    "speed": 1,
+    "sourceSha256": "e3827b6d05cf23c5c7d427599f00143d0d99dabca78978d43ded25ac71371436"
+  },
   "travel-05-0": {
     "path": "audio/d8aafe5da2bcf95ca6be1807.mp3",
     "voice": "american-female",
@@ -11543,6 +12200,15 @@
     "duration": 2.112,
     "speed": 0.96,
     "sourceSha256": "be99d58decb3a24540927f35dcbbf8d00dbcba49b4aeaee06663301c30265162"
+  },
+  "travel-05-1": {
+    "path": "audio/56a9022628447910e9bd8203.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Light travels much faster than sound.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "75f33521a0a2c4b9fb604eab7d92454babf279c1ea66f049f838823232cad013"
   },
   "travel-06-0": {
     "path": "audio/603527e6117c707b504910ad.mp3",
@@ -11553,6 +12219,15 @@
     "speed": 0.96,
     "sourceSha256": "02849431326a8bdb06aafcf828662b9d167733c2163c31534106df12865ab9be"
   },
+  "travel-06-1": {
+    "path": "audio/6f4c0bfc796840191cbaf880.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The rumour quickly travelled through the office.",
+    "duration": 2.904,
+    "speed": 1,
+    "sourceSha256": "5bdfb16cc7fcc8ceeaaa7d6f5c4a000368adb8ed984cffcb0d829c851667f0c5"
+  },
   "travel-07-0": {
     "path": "audio/3fb5b14950059d963674d798.mp3",
     "voice": "american-female",
@@ -11561,6 +12236,15 @@
     "duration": 2.04,
     "speed": 0.96,
     "sourceSha256": "4bb1bea0b1e97d08f52fd6d25c7c2079ce44bcd39f30670dc1dfad72a48b9ca2"
+  },
+  "travel-07-1": {
+    "path": "audio/139afc12120f17ca0dc649fb.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Some wines do not travel well.",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "e2e0d3dbd0cd8ecebcc2e4957bdd0a68ce51bf7f44ffb464cdd6241b2baefad0"
   },
   "travel-08-0": {
     "path": "audio/e0566b361aeb95ec1237be89.mp3",
@@ -11571,6 +12255,15 @@
     "speed": 0.96,
     "sourceSha256": "65b52f461d984213ac19051aae735eb31bea73dfc4377f400c9b47608f6bf815"
   },
+  "travel-08-1": {
+    "path": "audio/9df0264684cca1e424502700.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The design has travelled well internationally.",
+    "duration": 2.904,
+    "speed": 1,
+    "sourceSha256": "fbf5ae9374b080de3f3da4e57ac546cf61925dc98793d454233df5ae3b76651f"
+  },
   "travel-09-0": {
     "path": "audio/3a36e38c502e3c77f38d9118.mp3",
     "voice": "american-female",
@@ -11579,6 +12272,15 @@
     "duration": 2.832,
     "speed": 0.96,
     "sourceSha256": "3ea2d921fdc49b4c2a9553a5de00756ff511a4785835531b7f43efcbbd32f92c"
+  },
+  "travel-09-1": {
+    "path": "audio/b9884e82374c34c1b786ad78.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The suspension offers more travel on rough terrain.",
+    "duration": 3.384,
+    "speed": 1,
+    "sourceSha256": "034b1b0424699451190c90f8a00dddac0c6ea165b68cd7b952792367f3b2f82a"
   },
   "travel-10-0": {
     "path": "audio/69495ed68cadc8ca8ef14167.mp3",
@@ -11589,6 +12291,15 @@
     "speed": 0.96,
     "sourceSha256": "32307a7c845eecc863dd02d71d009ffc6fa4d2372f255af65b2d478578473a89"
   },
+  "travel-10-1": {
+    "path": "audio/7dd716de6c4e16fab0d16fd3.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Business travel is part of her job.",
+    "duration": 2.664,
+    "speed": 1,
+    "sourceSha256": "f921724f1fc72934d51b0cdfe2f31818e16d8c4a27455a9883ef6eddb9f203ab"
+  },
   "travel-11-0": {
     "path": "audio/fc94efa13bb55924339b3eeb.mp3",
     "voice": "american-female",
@@ -11597,6 +12308,15 @@
     "duration": 3,
     "speed": 0.96,
     "sourceSha256": "f91c88d57626c9de230488943adac936edcbc2996662c91ae2c93590148c3700"
+  },
+  "travel-11-1": {
+    "path": "audio/2cfdf1db2cca50164ad2f96d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She collected these objects during her travels.",
+    "duration": 3.048,
+    "speed": 1,
+    "sourceSha256": "0a77ba2d0c216fb28ef9d9e6e4a83a2ff91dc522b9f6ca66e05399ac64ed5ed9"
   },
   "travel-12-0": {
     "path": "audio/7f8db2f00038e718e41da65d.mp3",
@@ -11607,6 +12327,15 @@
     "speed": 0.96,
     "sourceSha256": "77d7f1770bd2a1abbfdbe6c181a152e530ee19cba710b2b76cd5d4b796c0550f"
   },
+  "travel-12-1": {
+    "path": "audio/7abefbf2ae50ef90f1f86e47.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "Experienced travelers often pack lightly.",
+    "duration": 3.144,
+    "speed": 1,
+    "sourceSha256": "520e71791106bba4a38dda740237be53d8e8c1a412a029d72f58c760d91ed416"
+  },
   "travel-13-0": {
     "path": "audio/7fe7f6d5382a59984b1501e6.mp3",
     "voice": "american-female",
@@ -11615,6 +12344,15 @@
     "duration": 2.16,
     "speed": 0.96,
     "sourceSha256": "fcaa7ea359e874d8bb6f40d0d36986754d2d941bc331fb251afccbae211c6714"
+  },
+  "travel-13-1": {
+    "path": "audio/6703f91aa8d185e8a2bd7ed1.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "He is a well-traveled journalist.",
+    "duration": 2.544,
+    "speed": 1,
+    "sourceSha256": "254e045b8ca15c3f8ad7f05b5a17a1830eb1c3fb5682f1f183159a623b073431"
   },
   "travel-14-0": {
     "path": "audio/4f56623cf99c8cff3210408f.mp3",
@@ -11625,6 +12363,15 @@
     "speed": 0.96,
     "sourceSha256": "221ed6a42546e517f5547ca9bdce2b8950c307be670e6c25c313768c03227d81"
   },
+  "travel-14-1": {
+    "path": "audio/99e1ad8581e92864301074bb.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "They followed a well-travelled route through the mountains.",
+    "duration": 3.072,
+    "speed": 1,
+    "sourceSha256": "a89316f5404db52e0d19e00d59fa69be9027e19c30f7c60761bbe78da813d944"
+  },
   "travel-15-0": {
     "path": "audio/612de2d356fa2516aaa4c5df.mp3",
     "voice": "american-female",
@@ -11634,6 +12381,15 @@
     "speed": 0.96,
     "sourceSha256": "f8638843a5123d8c71251dafb5fdba4b712e8d6b49aa2a511f044e9dea5a7cde"
   },
+  "travel-15-1": {
+    "path": "audio/012c92c2dba759296760b078.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The programme is part documentary and part travelogue.",
+    "duration": 3.912,
+    "speed": 1,
+    "sourceSha256": "f43106300adb7886bd6aa93378a398f9040ff7ea0e61897f846e72223c44a088"
+  },
   "focus-01-0": {
     "path": "audio/3ae13ee45a0b4c3fa9f13c8b.mp3",
     "voice": "american-female",
@@ -11642,6 +12398,15 @@
     "duration": 3.288,
     "speed": 0.96,
     "sourceSha256": "e2184130835bd9f2ffe4df269b1c2c2d29f5bf3260029eee75a97c3cadc7c590"
+  },
+  "focus-01-1": {
+    "path": "audio/8ea67d01e262ca84d7ef95f8.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "It is difficult to focus when the office is noisy.",
+    "duration": 3.456,
+    "speed": 1,
+    "sourceSha256": "efede1ad7d3b9d9fa293b4d6d9ecc3b5b2ea710835710e745487db3415ab10b7"
   },
   "focus-01-2": {
     "path": "audio/dcb7c4dbeb8fcf41dfc52d6d.mp3",
@@ -11661,6 +12426,15 @@
     "speed": 0.96,
     "sourceSha256": "b28f37198a572cbe99c15cd6cc67f76db2c8f96225ce20f5f9a4bf1fb15a0f84"
   },
+  "focus-02-1": {
+    "path": "audio/eb1bdf44e047871fd5eaf756.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The discussion focused on customer satisfaction.",
+    "duration": 3.408,
+    "speed": 1,
+    "sourceSha256": "ddcc66efd4039f80d455ce9c29c8aa7d18304a0eb829c3a25d72ee3e63a3adea"
+  },
   "focus-03-0": {
     "path": "audio/bb279a72e2d567bccac76651.mp3",
     "voice": "american-female",
@@ -11669,6 +12443,15 @@
     "duration": 3.576,
     "speed": 0.96,
     "sourceSha256": "0502f660da03e5beceadebc42bc89ee93364f80295e48d6366db277861254c87"
+  },
+  "focus-03-1": {
+    "path": "audio/faf607cbcbbd80edf6bc4eb4.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The company is focusing its resources on new technology.",
+    "duration": 3.336,
+    "speed": 1,
+    "sourceSha256": "63a0aef9fd3680f7fe55c5dcea53cf62e059ab53ba7e3f93a9ceb443f57d1990"
   },
   "focus-04-0": {
     "path": "audio/88b58012b41bfc6270b819cf.mp3",
@@ -11679,6 +12462,15 @@
     "speed": 0.96,
     "sourceSha256": "da893feb7eec6a8101b899a205f2626dd8868fff8cacbfa12c5abe707f80db15"
   },
+  "focus-04-1": {
+    "path": "audio/f7d902428352aa914aaa2ea6.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The focus of the meeting was customer service.",
+    "duration": 3.072,
+    "speed": 1,
+    "sourceSha256": "798ed167fcd7d33ed1e4335c67490431b0f858b69b1c771d4fbe4692f3ddd4f3"
+  },
   "focus-05-0": {
     "path": "audio/4128e0e9d85b13e8865ce397.mp3",
     "voice": "american-female",
@@ -11687,6 +12479,15 @@
     "duration": 3.264,
     "speed": 0.96,
     "sourceSha256": "e557b250351dbb16c712321e83c036bc4db836a39d3a4850ad052a8c7246f1a2"
+  },
+  "focus-05-1": {
+    "path": "audio/77b20f80dd892b3d2d4bc90c.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She suddenly found herself the focus of attention.",
+    "duration": 2.856,
+    "speed": 1,
+    "sourceSha256": "6b163790442375d90742c86045f9633c772898dec909b67f21b79a8b31073485"
   },
   "focus-06-0": {
     "path": "audio/42d07cd6e94633de29487eec.mp3",
@@ -11697,6 +12498,15 @@
     "speed": 0.96,
     "sourceSha256": "b206d8e295d7b62ef3b78d13e2f2e9d5a7f6c4cead3562d1c1f9c179719e6725"
   },
+  "focus-06-1": {
+    "path": "audio/4f2155a02e7c4a42d1c7a145.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "We should bring the focus back to the customer.",
+    "duration": 2.928,
+    "speed": 1,
+    "sourceSha256": "27efe8cdc0311edd9d77d99177716abafe598469a7b0a480a4d51fd7c55c504e"
+  },
   "focus-07-0": {
     "path": "audio/03717d7b133660a114377209.mp3",
     "voice": "american-female",
@@ -11705,6 +12515,15 @@
     "duration": 2.424,
     "speed": 0.96,
     "sourceSha256": "53b5d3811f998d7a10beb11628ff563493f5157a43abcd32dcb40da89b1cdfc4"
+  },
+  "focus-07-1": {
+    "path": "audio/f6cebf1d9090bea106296821.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "You need to focus the lens before taking the picture.",
+    "duration": 3.168,
+    "speed": 1,
+    "sourceSha256": "a0c3ab3e149f348a50d0face18716a8ddc6e9be43458eceea72caa9d3c391476"
   },
   "focus-08-0": {
     "path": "audio/6ad1ed6ec79b3911657ae6af.mp3",
@@ -11715,6 +12534,15 @@
     "speed": 0.96,
     "sourceSha256": "4328c6b19eed21b1964bc10f2995edb893c90456684d28c99c6569a7e05da16d"
   },
+  "focus-08-1": {
+    "path": "audio/6877da461e0df1a3aabe8977.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The background is slightly out of focus.",
+    "duration": 2.472,
+    "speed": 1,
+    "sourceSha256": "64fe09a777d2ecb9fcb39783925dcff3938ad1d07b856cc7ce69606edbd9f37e"
+  },
   "focus-09-0": {
     "path": "audio/ccf7b8d45ef1fb187f53e8d5.mp3",
     "voice": "american-female",
@@ -11723,6 +12551,15 @@
     "duration": 2.88,
     "speed": 0.96,
     "sourceSha256": "086fe5c3d8e27c3c791b18371aa8dc04bb76bdea70f97eb4e65d71c4f2e7593b"
+  },
+  "focus-09-1": {
+    "path": "audio/a50fde1809cd9324aff9ea45.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The mirror focused the sunlight onto a small area.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "80dc23421cc88bbd773fed1aed31e8f76a2e26880e4ece8741d4e28c37816cc3"
   },
   "focus-10-0": {
     "path": "audio/2bf6e262f12cacec3323f8f5.mp3",
@@ -11733,6 +12570,15 @@
     "speed": 0.96,
     "sourceSha256": "0418e02a98ea1c2ae02cd53cbf3df655f23cf2f6096e24d5b7096334bb1be81e"
   },
+  "focus-10-1": {
+    "path": "audio/cc3f55672eea244b1cd168c2.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The image forms near the focus of the lens.",
+    "duration": 2.952,
+    "speed": 1,
+    "sourceSha256": "ab3d950649dd4afb1215f39f6fcedfb7058af6f54f92c4045786eda313643dec"
+  },
   "focus-11-0": {
     "path": "audio/bfabed5d1f001a933590ac53.mp3",
     "voice": "american-female",
@@ -11741,6 +12587,15 @@
     "duration": 2.112,
     "speed": 0.96,
     "sourceSha256": "39de4a842bd15783c69f00ed31c4980eb66eb3b92e300449065313eb865b132c"
+  },
+  "focus-11-1": {
+    "path": "audio/6043d86311be7b4c29fcf2d8.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The project needs a clearer focus.",
+    "duration": 2.472,
+    "speed": 1,
+    "sourceSha256": "bdeb26022e0422f8e1c4fa881bd8695a5cc8a2b7ca9ae60df541b8ffc9f3a85f"
   },
   "focus-12-0": {
     "path": "audio/006972d0043c5ba71717ff90.mp3",
@@ -11751,6 +12606,15 @@
     "speed": 0.96,
     "sourceSha256": "dfbcf6325927accb7047ab90731c124ffb78afb596458717bd8e9821ae9d6017"
   },
+  "focus-12-1": {
+    "path": "audio/9e62097891c644a33b55bf3a.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I feel more focused when I wear these headphones.",
+    "duration": 3.36,
+    "speed": 1,
+    "sourceSha256": "e1eed1e656d8f6070cbe9d0660684e8e9858cd5d03d9ee3eb023ace51444868e"
+  },
   "focus-13-0": {
     "path": "audio/40e51c435eaa312359122449.mp3",
     "voice": "american-female",
@@ -11759,6 +12623,15 @@
     "duration": 2.424,
     "speed": 0.96,
     "sourceSha256": "df46e6e4a2836411ddb9b5fbc34c8673709c80ae7152ce8822862f03e481c814"
+  },
+  "focus-13-1": {
+    "path": "audio/fa7fa91e351b56b457b3276d.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The course offers focused training in communication skills.",
+    "duration": 3.816,
+    "speed": 1,
+    "sourceSha256": "68fae490a4853248c0f27b045adaf677ef9bfd32407e3d3d18f971428eaa3438"
   },
   "focus-14-0": {
     "path": "audio/2c9c59c89ab3a2eabcefc4a4.mp3",
@@ -11769,6 +12642,15 @@
     "speed": 0.96,
     "sourceSha256": "953436525a40fc823e0a71893ee796b7e947fd7342c515a0ddcd4d4e62189b7a"
   },
+  "focus-14-1": {
+    "path": "audio/3f02d34e716a3638f37da155.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "His thoughts seemed unfocused.",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "0b05d580daaa737071650ca17a478b3bc287d97b6d6b9d0866ea2e166a808644"
+  },
   "focus-15-0": {
     "path": "audio/8d972e84629a1a918bae3021.mp3",
     "voice": "american-female",
@@ -11777,6 +12659,15 @@
     "duration": 2.736,
     "speed": 0.96,
     "sourceSha256": "945392195b7eb87c1d7fce69279d4231c9c45ff9fd2f67488fcb2433127fb563"
+  },
+  "focus-15-1": {
+    "path": "audio/8e8cac73b99f72cc43671972.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The camera produced several unfocused images.",
+    "duration": 3.288,
+    "speed": 1,
+    "sourceSha256": "7e09ad75033840eddbf5282d8b383249e5ed43384edd944f990c857743b14eea"
   },
   "focus-16-0": {
     "path": "audio/3705ed3504e45f417e7f0c28.mp3",
