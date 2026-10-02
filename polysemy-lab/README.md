@@ -18,7 +18,7 @@ The two collapsible dashboards show completed questions and active study time by
 
 - `node tools/test-polysemy-lab.mjs` — catalogue, spaced retry, legacy resume, metrics and private recordings, PGlite account isolation/expiry, atomic validation, idempotency, permissions.
 - `node tools/test-shared-system-nav.mjs` — shared navigation regression.
-- `PROFESSIONAL_QA_PLAYWRIGHT=/path/to/playwright/index.mjs node tools/test-polysemy-lab-browser.mjs [WebKit]` — local preview on port 8633, synthetic accounts and intercepted RPCs, full practice/resume, offline saving, idle clock and responsive layouts. `POLYSEMY_QA_BASE` can select a deployed origin. The SDK stub requires stripping SRI only in the intercepted test HTML; the shipped HTML retains SRI.
+- `PROFESSIONAL_QA_PLAYWRIGHT=/path/to/playwright/index.mjs node tools/test-polysemy-lab-browser.mjs [WebKit]` — local preview on port 8633, synthetic accounts and intercepted RPCs, full practice/resume, offline saving, idle clock and responsive layouts. Set `POLYSEMY_QA_MODULE_LIMIT=2` for a quick representative module sample; omit it for the complete catalogue sweep. `POLYSEMY_QA_BASE` can select a deployed origin. The SDK stub requires stripping SRI only in the intercepted test HTML; the shipped HTML retains SRI.
 - `PROFESSIONAL_QA_PLAYWRIGHT=/path/to/playwright/index.mjs node tools/test-polysemy-module-pages.mjs` — catalogue, focused module views, direct links, browser history and narrow-screen navigation.
 
 Live migration: `20260917015203_polysemy_lab_show.sql`. Existing login functions and Professional English tables are not modified.
