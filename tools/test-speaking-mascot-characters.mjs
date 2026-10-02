@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import * as THREE from '../vendor/three/three.module.js';
 import {MascotCharacters} from '../speaking-mascot-characters.mjs';
+import {mascotMaterial} from '../speaking-mascot-material.mjs';
 import {MASCOT_VIEWS} from '../speaking-mascot-views.mjs';
 
 const extraction=fs.readFileSync(new URL('./mascot-art/v3/extract-blink-sheets.py',import.meta.url),'utf8');
@@ -24,6 +25,12 @@ for(const [name,poses] of Object.entries(MASCOT_VIEWS))for(const [pose,data] of 
  for(let i=0;i<16;i++){const v=data.views[i];if(i)assert.ok(v.angle>data.views[i-1].angle);assert.ok(v.rect[0]>=0&&v.rect[1]>=0&&v.rect[0]+v.rect[2]<=1&&v.rect[1]+v.rect[3]<=1);assert.ok(v.mouth.every(Number.isFinite));if(v.angle>97&&v.angle<263)assert.equal(v.mouth[2],0,'rear heads cannot display a floating mouth');}
  assert.equal(fs.statSync(new URL(base+data.flow,import.meta.url)).size,data.flowSize**2*data.flowGrid[0]*data.flowGrid[1]*4);
 }
+
+const colourSafeMaterial=mascotMaterial(new THREE.Texture(),new THREE.Texture(),MASCOT_VIEWS.elsie.standing,'#C56523');
+assert.equal(colourSafeMaterial.uniforms.hasWardrobeMask.value,0);
+assert.ok(colourSafeMaterial.uniforms.wardrobeMask,'the material accepts a cosmetic alpha mask');
+assert.match(colourSafeMaterial.fragmentShader,/coat\*=1\.-smoothstep\(\.01,\.08,garment\)/,'garment pixels bypass natural-coat recolouring');
+colourSafeMaterial.dispose();
 
 const textures=[],loads=[],requests=[];
 const library=new MascotCharacters({async loadAsync(url){loads.push(url);const t=new THREE.Texture();textures.push(t);return t;}},async url=>{requests.push(url);return {ok:true,arrayBuffer:async()=>new ArrayBuffer(512*512*4)};});

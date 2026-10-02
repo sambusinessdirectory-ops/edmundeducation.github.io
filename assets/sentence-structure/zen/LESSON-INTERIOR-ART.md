@@ -1,0 +1,9 @@
+# Levels 61–90 lesson interior artwork
+
+`lesson-garden-v1.webp` is decorative background scenery for the four interactive pages of each Japanese-garden lesson. It was generated with the built-in image-generation tool on 3 October 2026, then encoded as a 1672 × 941 WebP (RGB, quality 86). The editable HTML carries every heading, explanation, example, question, answer input, control and progress state; the bitmap contains none of those.
+
+Final prompt:
+
+> Use case: stylized-concept. Asset type: responsive background artwork for an interactive English-learning lesson, Japanese-garden levels 61–90. Create a richly illustrated yet calm horizontal landscape scene in the same mood as a premium storybook game: view from a warm timber teahouse veranda into a Japanese garden with an arched red-brown wooden bridge, clear koi pond, stone lanterns, bamboo, maple leaves, shoji frames, a small sleeping calico cat on the right veranda, and a couple of stacked books. Soft afternoon amber light, deep garden greens, cream stone, restrained vermilion accents, painterly material detail and dimensional depth. Compose the center 70 percent and lower center as visually quiet, low-contrast space so editable HTML lesson panels and English/Chinese text can sit above it; place the scenic detail toward the edges and upper background. The illustration must work as a decorative CSS background at desktop and mobile crops. Absolutely no lettering, words, numerals, signs, UI panels, buttons, borders, labels, icons, watermark, or typography. This is background scenery only, not a screenshot of a finished webpage.
+
+The source PNG remains in the local image-generation archive. Theme composition and responsive treatment are in `sentence-structure-zen-lesson.css`; level assignment is in `sentence-structure.js`. Do not flatten the lesson pages into this image or place source text inside the artwork.

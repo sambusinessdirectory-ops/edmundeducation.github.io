@@ -3,6 +3,7 @@ import * as THREE from './vendor/three/three.module.js';
 export function mascotMaterial(atlas, flow, data, coatColour, headResource={atlas,flow,data}, headSpace=[1,0,0]) {
   const uniforms = {
     atlas:{value:atlas}, flowAtlas:{value:flow}, flowRange:{value:data.flowRange},
+    wardrobeMask:{value:atlas},hasWardrobeMask:{value:0},
     headAtlas:{value:headResource.atlas},headBlinkAtlas:{value:headResource.blink||headResource.atlas},headFlowAtlas:{value:headResource.flow},headSpace:{value:headSpace},
     coatGain:{value:new THREE.Color(coatColour).toArray().map((c,i)=>c/new THREE.Color(data.sourceCoat).toArray()[i])},
     headCoatGain:{value:new THREE.Color(coatColour).toArray().map((c,i)=>c/new THREE.Color(headResource.data.sourceCoat).toArray()[i])},
@@ -44,11 +45,11 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
     `,
     fragmentShader:`
       varying vec2 vUv;
-      uniform sampler2D atlas, flowAtlas,headAtlas,headBlinkAtlas,headFlowAtlas;
+      uniform sampler2D atlas, flowAtlas,headAtlas,headBlinkAtlas,headFlowAtlas,wardrobeMask;
       uniform vec4 bodyRects[2],bodyLayouts[2],headRects[2],headLayouts[2];
       uniform vec3 mouths[2];
       uniform vec4 bodyFlow,headFlow;
-      uniform float bodyBlend,headBlend,flowRange,mouthOpen,blink,flowStrength,alphaCutoff;
+      uniform float bodyBlend,headBlend,flowRange,mouthOpen,blink,flowStrength,alphaCutoff,hasWardrobeMask;
       uniform vec3 coatGain,headCoatGain,headSpace;
       uniform vec2 headBand;
       vec4 flowAt(vec2 p,vec4 cell,bool head){
@@ -65,6 +66,11 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
         vec3 rgb=pow(max(col.rgb,vec3(0.)),vec3(1./2.2));
         float saturation=(max(rgb.r,max(rgb.g,rgb.b))-min(rgb.r,min(rgb.g,rgb.b)))/max(rgb.r,.001);
         float coat=smoothstep(.42,.58,saturation)*(1.-smoothstep(.50,.65,rgb.b/max(rgb.r,.001)))*smoothstep(1.12,1.30,rgb.r/max(rgb.g,.001))*smoothstep(.18,.27,rgb.r);
+        // Garment colours are authored final colours. Keep the natural-coat
+        // correction on exposed character pixels, but never apply it where a
+        // cosmetic overlay contributed alpha.
+        float garment=hasWardrobeMask>.5?texture2D(wardrobeMask,rect.xy+q*rect.zw).a:0.;
+        coat*=1.-smoothstep(.01,.08,garment);
         col.rgb=mix(col.rgb,col.rgb*(animate?headCoatGain:coatGain),coat);
         if(animate && mouthOpen>.015 && mouth.z>.001){
           vec2 radius=vec2(mouth.z*.5,mouth.z*(.055+mouthOpen*.22));

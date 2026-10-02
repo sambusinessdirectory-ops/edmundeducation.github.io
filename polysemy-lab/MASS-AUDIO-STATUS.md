@@ -11,8 +11,8 @@ immutable packed MP3s in R2, with the question-to-URL mapping in
 `audio-mass.json`. The browser plays recordings only; it must never generate
 speech from the student's device.
 
-The remaining 5,292 imported Aries sentences are deliberately pending.
-Another 854 Aries sentences in earlier modules have no prerecorded file. The
+Of the 5,292 imported Aries sentences, 5,272 are still pending.
+Another 698 Aries sentences in earlier modules have no prerecorded file. The
 user's instruction is to stay within the Cloudflare free daily allowance and process
 these over successive resets. Do not replace Aries with another voice or turn
 on a paid plan without a new instruction. Pending questions display
@@ -20,8 +20,8 @@ on a paid plan without a new instruction. Pending questions display
 
 Regenerate the queue with `node tools/export-polysemy-mass-audio.mjs
 /private/tmp/polysemy-mass-audio`. The `cloud-pending.json` output includes
-all 6,146 pending Aries sentences, including the gaps in older modules.
+all 5,970 pending Aries sentences, including the gaps in older modules.
 The existing `tools/generate-polysemy-audio.py --kind cloud` uses the same
 Aries recipe and resumes existing clips after the daily allowance resets.
-Publish an additional immutable audio pack and manifest for that queue only
-after its uploaded MP3s are available; keep each day's completed clips.
+The 2026-10-02 free-tier batch added 99 verified Aries clips to the older modules.
+Publish each further batch only after its MP3s are available; keep each day's completed clips.
