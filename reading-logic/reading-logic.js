@@ -27,6 +27,7 @@
   let companionApi;
   let lessonObserver;
   let lessonScrollFrame = 0;
+  let lessonHasMovedAway = false;
   const stages = [
     {name:'全體 → 個體', accent:'gold', steps:[
       '<strong>原句說「全部」</strong>，就涵蓋群體裡的每一個成員。',
@@ -47,7 +48,10 @@
       '<strong>Every student has a book.</strong>',
       'Amy is a student。Amy 在這個群體裡，所以 <strong>Amy has a book.</strong>',
       '原文即使沒有逐字寫出 Amy has a book，也能從兩條資訊推出。'
-    ]},
+    ], quiz:{prompt:'Every student has a book. Amy is a student. 哪一句一定成立？', options:[
+      {label:'Amy has a book.', correct:true, feedback:'對！Amy 是 student，所以 every student 的規則適用於她。'},
+      {label:'Amy has every book.', correct:false, feedback:'再想想：every student 有一本書，不代表 Amy 擁有所有書。'}
+    ]}},
     {name:'地點：大範圍裡的小地點', accent:'blue', steps:[
       '<strong>We went to all the rooms in the house.</strong>',
       'The kitchen is a room in the house。於是我們也去了 kitchen。',
@@ -62,7 +66,10 @@
       '<strong>I work every day this week.</strong>',
       'Monday 是 this week 的一天，所以 I work on Monday。',
       '<strong>every morning last week</strong> 可以推出上週二早上，卻不能推出每個星期二早上。'
-    ]},
+    ], quiz:{prompt:'「I worked every morning last week.」哪個時間一定包括在內？', options:[
+      {label:'上週二早上', correct:true, feedback:'對！上週二早上屬於 last week 的 mornings。'},
+      {label:'每個星期二早上', correct:false, feedback:'再想想：原句只說 last week，不能擴大到每個星期。'}
+    ]}},
     {name:'強句與弱句', accent:'green', steps:[
       '<strong>I like all fruit</strong> 比 <strong>I like mangoes</strong> 提供更多資訊。',
       '前一句涵蓋 apples、bananas、mangoes；後一句只談 mangoes。',
@@ -77,12 +84,18 @@
       '<strong>Lisa eats every fruit on the table.</strong>',
       '桌上的 apple 是 fruit，可以套用規則；桌上的 bread 不是 fruit，不能套用。',
       '只見到 <strong>every</strong> 還不夠；先檢查小東西是否真的在指定群體裡。'
-    ]},
+    ], quiz:{prompt:'桌上有 apple 和 bread。Lisa eats every fruit on the table. 可以推出她吃了哪一個？', options:[
+      {label:'桌上的 apple', correct:true, feedback:'對！apple 既在桌上，也是 fruit，符合完整範圍。'},
+      {label:'桌上的 bread', correct:false, feedback:'再想想：bread 在桌上，但不是 fruit。分類條件仍要符合。'}
+    ]}},
     {name:'群體的限制必須保留', accent:'green', steps:[
       '<strong>Tom knows every student in his class.</strong>',
       'Anna 如果在 Tom 的班，才可以推出 Tom knows Anna。',
       'Anna 如果在別的班，原句既不能證明他認識她，也不能證明他不認識她。'
-    ]},
+    ], quiz:{prompt:'Anna 在另一班。Tom knows every student in his class. 我們能判斷 Tom 是否認識 Anna 嗎？', options:[
+      {label:'不能判斷', correct:true, feedback:'對！規則只涵蓋 Tom 的班，Anna 在範圍外。'},
+      {label:'Tom 一定不認識 Anna', correct:false, feedback:'再想想：規則沒有涵蓋 Anna，但不代表 Tom 一定不認識她。'}
+    ]}},
     {name:'三步解題法', accent:'gold', steps:[
       '<strong>① 找「全部」：</strong>all、every、everyone、everything，並看完整範圍。',
       '<strong>② 找「其中一個」：</strong>題目中的人、東西、地點或時間是誰？',
@@ -92,7 +105,10 @@
       '<strong>All A have B.</strong> 再知道 <strong>X is A.</strong>',
       '才能推出 <strong>X has B.</strong> 這叫全稱實例化（Universal Instantiation）。',
       '<strong>All students have a book</strong> ＋ <strong>Amy is a student</strong> → Amy has a book。'
-    ]},
+    ], quiz:{prompt:'All A have B. X is A. 哪一個結論有根據？', options:[
+      {label:'X has B.', correct:true, feedback:'對！X 是 A 的成員，所以可以套用 All A have B。'},
+      {label:'All B are A.', correct:false, feedback:'再想想：這把推理方向倒轉了，原句沒有說所有 B 都是 A。'}
+    ]}},
     {name:'閱讀理解真正要找的', accent:'coral', steps:[
       '第一層：答案與原文 <strong>字一樣</strong>。',
       '第二層：用字不同，但 <strong>意思一樣</strong>。',
@@ -147,10 +163,13 @@
   }
   function renderLesson() {
     const resumeStage = state.stage;
+    lessonHasMovedAway = false;
     const sections = stages.map((stage, index) => {
-      const ideas = stage.steps.map((step, idea) => `<article class="logic-scroll-idea"><span class="logic-beat__number">${String(idea+1).padStart(2,'0')}</span><p>${step}</p></article>`).join('');
-      const special = stage.special === 'fruit' ? `<div class="logic-fruit-box"><p>FRUIT BOX · 點一下成員</p><div><button data-fruit="apple">apple</button><button data-fruit="banana">banana</button><button data-fruit="mango">mango</button></div><strong data-fruit-result aria-live="polite">哪個水果屬於 all the fruit？</strong></div>` : stage.special === 'direction' ? `<div class="logic-mini"><p>選一個有根據的方向</p><button data-direction="yes">all animals → dogs</button><button data-direction="no">dogs → all animals</button><strong data-direction-result aria-live="polite"></strong></div>` : '';
-      return `<section class="logic-scroll-stage logic-theme--${stage.accent}" data-stage-section="${index}" id="logic-stage-${index+1}" aria-labelledby="logic-stage-title-${index+1}"><div class="logic-stage-header"><span class="logic-piece logic-piece--small">${String(index+1).padStart(2,'0')}</span><div><p class="logic-kicker">IDEA ${String(index+1).padStart(2,'0')} / ${stages.length}</p><h2 id="logic-stage-title-${index+1}">${esc(stage.name)}</h2></div></div><div class="logic-scroll-ideas">${ideas}</div>${special}</section>`;
+      const ideas = stage.steps.map((step, idea) => `<article class="logic-scroll-idea logic-reveal"><span class="logic-beat__number">${String(idea+1).padStart(2,'0')}</span><p>${step}</p></article>`).join('');
+      const special = stage.special === 'fruit' ? `<div class="logic-fruit-box logic-reveal"><p>FRUIT BOX · 點一下成員</p><div><button data-fruit="apple">apple</button><button data-fruit="banana">banana</button><button data-fruit="mango">mango</button></div><strong data-fruit-result aria-live="polite">哪個水果屬於 all the fruit？</strong></div>` : stage.special === 'direction' ? `<div class="logic-mini logic-reveal"><p>選一個有根據的方向</p><button data-direction="yes">all animals → dogs</button><button data-direction="no">dogs → all animals</button><strong data-direction-result aria-live="polite"></strong></div>` : '';
+      const quizOrder = index % 2 ? [1, 0] : [0, 1];
+      const quiz = stage.quiz ? `<div class="logic-check logic-reveal" data-check="${index}" role="group" aria-label="第 ${index+1} 節小練習"><p class="logic-check__eyebrow">試一試 · QUICK CHECK</p><h3>${esc(stage.quiz.prompt)}</h3><div class="logic-check__choices">${quizOrder.map((answer) => `<button type="button" data-logic-check="${answer}" aria-label="${esc(stage.quiz.options[answer].label)}">${esc(stage.quiz.options[answer].label)}</button>`).join('')}</div><p class="logic-check__result" data-check-result role="status" aria-live="polite">選一個有根據的答案。</p></div>` : '';
+      return `<section class="logic-scroll-stage logic-theme--${stage.accent}" data-stage-section="${index}" id="logic-stage-${index+1}" aria-labelledby="logic-stage-title-${index+1}"><div class="logic-stage-header logic-reveal"><span class="logic-piece logic-piece--small">${String(index+1).padStart(2,'0')}</span><div><p class="logic-kicker">IDEA ${String(index+1).padStart(2,'0')} / ${stages.length}</p><h2 id="logic-stage-title-${index+1}">${esc(stage.name)}</h2></div></div><div class="logic-scroll-ideas">${ideas}</div>${special}${quiz}</section>`;
     }).join('');
     shell(`${moduleNav('lesson')}<div class="logic-lesson-layout"><aside class="logic-lesson-rail"><p class="logic-kicker">CURATION · 互動教材</p><h2>全體 <span>→</span> 個體</h2><div class="logic-rail-progress"><span data-lesson-position>第 ${state.stage+1} / ${stages.length} 節</span><span data-lesson-percent>${Math.round((state.stage+1)/stages.length*100)}%</span></div><div class="logic-progress-track"><i data-lesson-progress style="width:${(state.stage+1)/stages.length*100}%"></i></div><nav aria-label="教材章節">${stages.map((s,i)=>`<button class="logic-rail-node ${i===state.stage?'is-current':''}" data-stage="${i}" aria-current="${i===state.stage?'step':'false'}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.name)}</button>`).join('')}</nav></aside><div class="logic-lesson-stream">${sections}<div class="logic-lesson-finish"><h2>準備好練習了嗎？</h2><a class="logic-primary" href="${exerciseUrl}">開始 40 題練習 <span aria-hidden="true">→</span></a></div></div></div>`, true);
     observeLessonIdeas();
@@ -162,15 +181,23 @@
   }
   function observeLessonIdeas() {
     lessonObserver?.disconnect();
-    if (!('IntersectionObserver' in window)) return;
-    lessonObserver = new IntersectionObserver((entries) => {
+    const items = dashboard.querySelectorAll('.logic-reveal');
+    if (!('IntersectionObserver' in window)) { items.forEach((item) => item.classList.add('is-visible')); return; }
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add('is-visible');
-        lessonObserver.unobserve(entry.target);
+        observer.unobserve(entry.target);
       });
-    }, {threshold:0.12});
-    dashboard.querySelectorAll('.logic-scroll-idea').forEach((idea) => lessonObserver.observe(idea));
+    }, {threshold:0.12, rootMargin:'0px 0px -8% 0px'});
+    lessonObserver = observer;
+    items.forEach((item) => observer.observe(item));
+  }
+  function resetLessonRevealAtTop() {
+    if (!lessonHasMovedAway || window.scrollY > 24) return;
+    lessonHasMovedAway = false;
+    dashboard.querySelectorAll('.logic-reveal.is-visible').forEach((item) => item.classList.remove('is-visible'));
+    observeLessonIdeas();
   }
   function updateLessonProgress() {
     if (mode !== 'lesson' || !state.userId) return;
@@ -205,9 +232,15 @@
     return text.replace(/。[^。]*？\s*）$/, '。）');
   }
   function sentenceLines(text) {
-    const parts = typeof Intl.Segmenter === 'function'
+    const segments = typeof Intl.Segmenter === 'function'
       ? [...new Intl.Segmenter('en', {granularity:'sentence'}).segment(text)].map((part) => part.segment.trim()).filter(Boolean)
       : text.split(/(?<=[.!?])\s+(?=[A-Z])/u);
+    const parts = [];
+    segments.forEach((segment) => {
+      if (parts.length && /\b(?:Mr|Mrs|Ms|Dr|Prof|Rev|Mdm|Capt|Sgt|Gen|St)\.$/i.test(parts[parts.length-1]))
+        parts[parts.length-1] += ` ${segment}`;
+      else parts.push(segment);
+    });
     return parts.map((part) => `<span class="logic-sentence-line">${esc(part)}</span>`).join('');
   }
   function feedbackLines(text) {
@@ -270,6 +303,19 @@
     if(fruit){dashboard.querySelector('[data-fruit-result]').textContent=`I like the ${fruit.dataset.fruit}. 因為 ${fruit.dataset.fruit} 在盒子裡，也屬於 all the fruit。`;fruit.classList.add('is-picked');return;}
     const direction=event.target.closest('[data-direction]');
     if(direction){dashboard.querySelector('[data-direction-result]').textContent=direction.dataset.direction==='yes'?'對！all animals 的範圍包括 dogs。':'再想一想：只知道 dogs，不能推出 all animals。';return;}
+    const checkChoice=event.target.closest('[data-logic-check]');
+    if(checkChoice){
+      const check=checkChoice.closest('[data-check]');
+      if(check?.dataset.complete==='true')return;
+      const answer=stages[Number(check.dataset.check)]?.quiz?.options[Number(checkChoice.dataset.logicCheck)];
+      if(!answer)return;
+      check.querySelectorAll('[data-logic-check]').forEach((choice)=>choice.classList.remove('is-wrong','is-correct'));
+      checkChoice.classList.add(answer.correct?'is-correct':'is-wrong');
+      check.querySelector('[data-check-result]').textContent=answer.feedback;
+      if(answer.correct){check.dataset.complete='true';check.querySelectorAll('[data-logic-check]').forEach((choice)=>{choice.disabled=true;});}
+      document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:answer.correct}}));
+      return;
+    }
     const orderButton=event.target.closest('[data-order]');
     if(orderButton){const reverse=orderButton.dataset.order==='reverse';if(state.reverse!==reverse){state.reverse=reverse;state.question=reverse?39:0;renderExercise();}return;}
     const node=event.target.closest('[data-question]');if(node){setQuestion(Number(node.dataset.question));return;}
@@ -304,7 +350,12 @@
   });
   window.addEventListener('scroll',()=>{
     if(mode!=='lesson'||lessonScrollFrame)return;
-    lessonScrollFrame=requestAnimationFrame(()=>{lessonScrollFrame=0;updateLessonProgress();});
+    lessonScrollFrame=requestAnimationFrame(()=>{
+      lessonScrollFrame=0;
+      if(window.scrollY>350)lessonHasMovedAway=true;
+      resetLessonRevealAtTop();
+      updateLessonProgress();
+    });
   },{passive:true});
   window.addEventListener('storage',(event)=>{
     if(!state.userId||!event.key)return;
