@@ -13,6 +13,14 @@ def audit_reader(folder: Path) -> dict:
     source = json.loads((folder / "source-text.json").read_text(encoding="utf-8"))
     markup = (folder / "index.html").read_text(encoding="utf-8")
     issues = []
+    level = folder.name.rsplit("-", 1)[-1].upper()
+    cover = re.search(r'class="cover-stamp"><strong>(B[12])</strong><span>([^<]+)</span>', markup)
+    expected_section = "EASY SECTION" if level == "B1" else "DIFFICULT SECTION"
+    if not cover or cover.groups() != (level, expected_section):
+        issues.append("Data File cover section does not match reader")
+    cover_footer = re.search(r'20\d\d-DSE-ENG LANG 3-(B[12])-DF-1', markup)
+    if cover_footer and cover_footer.group(1) != level:
+        issues.append("Data File cover footer does not match reader")
     if len(source) != report["pages"]:
         issues.append(f"source pages {len(source)} != {report['pages']}")
     if len(re.findall(r'class="paper-page(?:\s[^"]*)?"', markup)) != report["pages"]:
