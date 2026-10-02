@@ -74,6 +74,7 @@ MANIFEST = [
     (2013, "b2", [(YEAR_FILES[2013], list(range(10, 21)), "data"), (YEAR_FILES[2013], list(range(32, 38)), "qab")]),
     (2014, "b1", [(YEAR_FILES[2014], list(range(1, 11)), "data"), (YEAR_FILES[2014], list(range(30, 34)), "qab")]),
     (2014, "b2", [(YEAR_FILES[2014], list(range(11, 22)), "data"), (YEAR_FILES[2014], list(range(34, 40)), "qab")]),
+    (2015, "b2", [("DSE/2015/paper 3/2015 DSE Paper 3B2 Data File.pdf", list(range(1, 11)), "data"), ("DSE/2015/paper 3/2015 DSE Paper 3B2 QA.pdf", list(range(1, 7)), "qab")]),
     (2015, "b1", [(YEAR_FILES[2015], list(range(13, 22)), "data"), (YEAR_FILES[2015], list(range(25, 29)), "qab")]),
     (2016, "b1", [(YEAR_FILES[2016], list(range(9, 18)), "data"), (YEAR_FILES[2016], list(range(28, 32)), "qab")]),
     (2018, "b1", [(YEAR_FILES[2018], list(range(15, 24)), "data"), (YEAR_FILES[2018], list(range(11, 15)), "qab")]),
