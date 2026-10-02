@@ -84,6 +84,7 @@ MANIFEST = [
     (2019, "b1", [(YEAR_FILES[2019], list(range(25, 35)), "data"), (YEAR_FILES[2019], list(range(13, 17)), "qab")]),
     (2019, "b2", [(YEAR_FILES[2019], list(range(37, 48)), "data"), (YEAR_FILES[2019], list(range(17, 25)), "qab")]),
     (2020, "b1", [(YEAR_FILES[2020], list(range(18, 28)), "data"), (YEAR_FILES[2020], list(range(12, 16)), "qab")]),
+    (2020, "b2", [(YEAR_FILES[2020], list(range(37, 48)), "data"), (YEAR_FILES[2020], list(range(30, 37)), "qab")]),
     (2021, "b1", [(YEAR_FILES[2021], list(range(8, 18)), "data"), (YEAR_FILES[2021], list(range(28, 32)), "qab")]),
     (2021, "b2", [(YEAR_FILES[2021], list(range(18, 28)), "data"), (YEAR_FILES[2021], list(range(32, 39)), "qab")]),
     # The supplied 2022 PDF is physically shuffled and contains a blank sheet
