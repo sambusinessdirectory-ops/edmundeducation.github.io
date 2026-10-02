@@ -5,10 +5,7 @@
   "data_pages": 10,
   "qab_pages": 8,
   "missing_source_pages": [],
-  "nontext_qab_pages": [
-    12,
-    17
-  ],
+  "nontext_qab_pages": [],
   "low_coverage": [],
   "sources": [
     "2023 Paper 3 Question.pdf"
