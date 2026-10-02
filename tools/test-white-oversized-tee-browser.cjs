@@ -27,7 +27,7 @@ const server=http.createServer((req,res)=>{
   });
   await page.goto('http://127.0.0.1:'+server.address().port+'/__tee');
   await page.evaluate(async()=>{
-   window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261002-white-tee1');
+   window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261002-retro-shirts1');
    await cosmetics.restoreCosmetics(undefined,{force:true});
   });
 
@@ -35,7 +35,7 @@ const server=http.createServer((req,res)=>{
    await page.evaluate(async character=>{
     window.controller?.abort();window.controller=new AbortController();document.querySelector('#inventory').replaceChildren();
     cosmetics.clearCosmetics(character);cosmetics.beginCosmeticsPreview();
-    const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261002-white-tee1');
+    const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261002-retro-shirts1');
     mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
    },character);
    await page.waitForSelector('[data-cosmetic=white-oversized-tee]');
@@ -54,7 +54,7 @@ const server=http.createServer((req,res)=>{
    await page.evaluate(async character=>{
     const preload=new Image();preload.src=cosmetics.cosmeticAsset('white-oversized-tee',character);await preload.decode();
     const THREE=await import('/vendor/three/three.module.js');
-    const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261002-white-tee1');
+    const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261002-retro-shirts1');
     const system=new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true});
     const actor=await system.create(character,'standing');
     for(let n=0;n<180&&(actor.cosmeticOpen===actor.resource.atlas.image||actor.cosmeticBlink===(actor.resource.blink||actor.resource.atlas).image);n++){

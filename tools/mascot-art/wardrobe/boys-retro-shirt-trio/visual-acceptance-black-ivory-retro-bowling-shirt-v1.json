@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "black-ivory-retro-bowling-shirt",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T15:01:34Z",
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment details",
+    "mane, tail, arms, hoof-hands, legs, bridle and identity preserve correct occlusion",
+    "botanical-cap plus shirt plus shearling-boots compatibility",
+    "shirt overlay is confined to the upper-body band with no generated pixels at the legs or feet",
+    "Eddy open and blink atlases contain zero pale foot-fringe pixels in the audited feet band",
+    "no clipping, halos, holes, stretched shared overlay or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/black-ivory-retro-bowling-shirt.webp": "9836111092a95db6628fc1b2171766714481dbac265c8315edf6ed6b7a1866f8",
+    "assets/speaking-system/cosmetics/noir/black-ivory-retro-bowling-shirt.webp": "1eaeed2f4aa68e07605c4c2387440fb5b775a37f89861b29f3a2f4dfbb6cf2ea",
+    "assets/speaking-system/cosmetics/shared/black-ivory-retro-bowling-shirt-display.png": "d900ce0b8db022b6b209f0cc6a8182e6f1a82ae3a570de71878761717dea681a"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-black-ivory-retro-bowling-shirt-3d-dark-open.jpg": "2b0cf35e0bafdabdf918fcb81a335275046ba967d8aaf12ecff8de4363573ca7",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-black-ivory-retro-bowling-shirt-3d-blink.jpg": "200819e8f545be9484726d3b97bbf633fe3cf9685891871191ae8693b0715649",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-black-ivory-retro-bowling-shirt-3d-light-open.jpg": "baa499dd731e9b6dc1682a1fc8468572d93480e893a015a1f93848199b6cbca5",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-black-ivory-retro-bowling-shirt-combination-3d-open.jpg": "7e6db445f1c06be2823b37f4e606c27b54602a609265d83df9da77ed754e0bf3",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-black-ivory-retro-bowling-shirt-combination-3d-blink.jpg": "4ab4334ac40098d4cbe6da8b685d56e4932cbc77f471ece10fd0f0f9004d5a6a",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-black-ivory-retro-bowling-shirt-3d-dark-open.jpg": "4ccd25da6b4b4ada8066a3dc51c84af54ff41051f9a8f5b2c9d988f79cc19c70",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-black-ivory-retro-bowling-shirt-3d-blink.jpg": "7ab77d2acd355efd7be8a9af5f0e0db28d0b1e5f21af71258d0f12aea2aab1dd",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-black-ivory-retro-bowling-shirt-3d-light-open.jpg": "b2a2d8e0156dd4c10eeaa0d103a5519958cf3830fb337bc9078d035407a8e1f2",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-black-ivory-retro-bowling-shirt-combination-3d-open.jpg": "4854da5152faae86dccb95b355805c6916d0ab2aa81385e32ac7ac2e699d7204",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-black-ivory-retro-bowling-shirt-combination-3d-blink.jpg": "ec5fc2084b96bf3c8aafe4c8ac28b3693b956282a401b3ca76089aa83f938054",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-approval-v1.jpg": "dd4faddffb7e84b362fadbbecca17513eb05ac88d3bc8a6f6c840391a16c2468"
+  }
+}

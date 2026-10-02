@@ -1,0 +1,25 @@
+{
+  "mode": "precise-object-edit",
+  "transparentBackground": true,
+  "registration": "exact 1024x1024 4x4 atlas, sixteen 256x256 direction cells",
+  "sharedRules": [
+    "Use the canonical character atlas as the edit target and the supplied product image as garment reference.",
+    "Preserve face, eyes, muzzle, ears, mane, tail, body, arms, hoof-hands, legs, hooves, identity, direction, cell order, scale and transparency.",
+    "Fit the shirt over the upper torso and upper arms, behind mane and tail, with hoof-hands visible and a straight upper-hip hem.",
+    "Use no readable text. Preserve garment details consistently through all sixteen directions.",
+    "Create open-eye fitting references only; the runtime applies the same garment overlay to independently registered blink atlases."
+  ],
+  "garments": {
+    "black-ivory-retro-bowling-shirt": "Black camp collar and body, ivory vertical front panels, red piping, cream buttons, black chest pockets with ivory welts, and tiny non-text pinstripe embroidery. Rear remains black with restrained red piping.",
+    "burgundy-hot-rod-bowling-shirt": "Burgundy camp shirt with black collar, black/red cuff trim, dark buttons and a small non-text front chest mark. Put the large cream/black/red vintage hot-rod and pinstripe graphic only on rear-facing views.",
+    "ivory-black-flame-shirt": "Warm ivory camp-collar button shirt with dark buttons and a subtle chest pocket. Wrap the black hem band and bold black flames continuously around the lower shirt on every direction."
+  },
+  "characterRules": {
+    "eddy": "Preserve Eddy's warm chestnut coat and black mane/tail exactly.",
+    "noir": "Preserve Noir's dark coat, blue eyes, white forehead diamond, black mane/tail and silver bridle exactly."
+  },
+  "shopCutouts": {
+    "mode": "background-extraction",
+    "rules": "Reconstruct only the specified garment as one centered, fully visible product cutout with no body, mannequin, hanger, text, or other garment, on a transparent background."
+  }
+}

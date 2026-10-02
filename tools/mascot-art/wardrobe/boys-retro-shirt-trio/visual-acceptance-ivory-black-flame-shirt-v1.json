@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "ivory-black-flame-shirt",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T15:01:34Z",
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment details",
+    "mane, tail, arms, hoof-hands, legs, bridle and identity preserve correct occlusion",
+    "botanical-cap plus shirt plus shearling-boots compatibility",
+    "shirt overlay is confined to the upper-body band with no generated pixels at the legs or feet",
+    "Eddy open and blink atlases contain zero pale foot-fringe pixels in the audited feet band",
+    "no clipping, halos, holes, stretched shared overlay or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/ivory-black-flame-shirt.webp": "570caeb25ea3b256abe5d25e09b2777a78d59ddff915d494c034ae3252726970",
+    "assets/speaking-system/cosmetics/noir/ivory-black-flame-shirt.webp": "2a3c8e8f1c392dd62284f500152fa416c647fd6531260e2b9becdf9292670452",
+    "assets/speaking-system/cosmetics/shared/ivory-black-flame-shirt-display.png": "8584f9199ba1ee83ba4edc532bf019777519944df651c8bc6edd0344e2008116"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-ivory-black-flame-shirt-3d-dark-open.jpg": "7529809a7f120f4a1bc9c86c585e1fbfbd868a4df1c1ed3a82a0dd1dfede7150",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-ivory-black-flame-shirt-3d-blink.jpg": "f2c9e80001618843d2ec581ecf56e2d19825e209b04c3e4accff3daf9aa25e87",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-ivory-black-flame-shirt-3d-light-open.jpg": "56556ea69e4ac9e92aae8dac60b9d71ab4da76655cdd00494b8dc14bd9b5b869",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-ivory-black-flame-shirt-combination-3d-open.jpg": "94bd602d5df5e0382517eb1c81aca523052f900b3e7640cd91f0d6517efac5cf",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-ivory-black-flame-shirt-combination-3d-blink.jpg": "49d04f1c7cdcda921e7037bf84e3e6e81fbf4a461a6ebf17739bfb628647c022",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-ivory-black-flame-shirt-3d-dark-open.jpg": "18a18ddac8d529835d61f1c0188137219b775212cd41575c37a01fa8b31978d0",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-ivory-black-flame-shirt-3d-blink.jpg": "1cfa7862f89639ba0efec99b61032ea7cbb6d2db37f6cdc840d88b21249a0457",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-ivory-black-flame-shirt-3d-light-open.jpg": "a595736dcb00c100c7c05cd01fbbdd85d9fbe14c0af691918467f5f3012e17b4",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-ivory-black-flame-shirt-combination-3d-open.jpg": "ca23f4f18dae6f6a6ac588a52d9355a3871a99cc94bc443562e72a2a9434461a",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-ivory-black-flame-shirt-combination-3d-blink.jpg": "f19509a958cf7c5afd6556d6219b283e89dfa4035c1648427a0f13acf52d9053",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-approval-v1.jpg": "dd4faddffb7e84b362fadbbecca17513eb05ac88d3bc8a6f6c840391a16c2468"
+  }
+}

@@ -162,6 +162,36 @@ test('the white oversized tee migration registers all five independent top slots
  for(const slot of ['eddyTop','noirTop','celesteTop','phoebeTop','elsieTop'])assert.match(sql,new RegExp("not\\(value\\?'"+slot+"'\\) or value->>'"+slot+"'.*'white-oversized-tee'"));
  for(const character of ['celeste','phoebe','elsie'])assert.match(sql,new RegExp("not\\(value\\?'"+character+"FullBody' and value\\?'"+character+"Top'\\)"));
 });
+test('the retro shirt trio is boys-only with independent Eddy and Noir atlases',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const ids=['black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt'];
+ for(const id of ids){
+  const hashes=[];
+  for(const character of ['eddy','noir']){
+   clearCosmetics(character);equipCosmetic(id,character);assert.equal(cosmeticsState().equipped[character+'Top'],id);
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+id+'.webp',import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+   const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+   assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>40000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+  }
+  assert.notEqual(hashes[0],hashes[1]);
+  const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/'+id+'-display.png',import.meta.url));
+  assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),512);assert.equal(thumb.readUInt32BE(20),512);assert.ok([4,6].includes(thumb[25]));
+  for(const character of ['celeste','phoebe','elsie'])assert.equal((await import('../eddy-cosmetics.mjs')).cosmeticsForCharacter(character).some(item=>item.id===id),false);
+ }
+ for(const character of ['eddy','noir'])clearCosmetics(character);
+});
+test('the retro shirt migration registers all three catalog items in both boys top slots',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261002225000_boys_retro_shirt_trio.sql',import.meta.url),'utf8');
+ for(const [id,name,price] of [
+  ['black-ivory-retro-bowling-shirt','Black ivory retro bowling shirt',30],
+  ['burgundy-hot-rod-bowling-shirt','Burgundy hot-rod bowling shirt',35],
+  ['ivory-black-flame-shirt','Ivory black-flame camp shirt',30]
+ ])assert.match(sql,new RegExp("\\('"+id+"','"+name+"',"+price+",true\\)"));
+ for(const slot of ['top','eddyTop','noirTop'])for(const id of ['black-ivory-retro-bowling-shirt','burgundy-hot-rod-bowling-shirt','ivory-black-flame-shirt'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'black-ivory-retro-bowling-shirt'"));
+});
 test('full-body clothing replaces tops and lower-body clothing but preserves shoes and headwear',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
  const dress=cosmeticsForCharacter('elsie').find(x=>x.id==='camel-coat-dress');

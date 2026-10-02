@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemId": "burgundy-hot-rod-bowling-shirt",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T15:01:34Z",
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment details",
+    "mane, tail, arms, hoof-hands, legs, bridle and identity preserve correct occlusion",
+    "botanical-cap plus shirt plus shearling-boots compatibility",
+    "shirt overlay is confined to the upper-body band with no generated pixels at the legs or feet",
+    "Eddy open and blink atlases contain zero pale foot-fringe pixels in the audited feet band",
+    "no clipping, halos, holes, stretched shared overlay or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/burgundy-hot-rod-bowling-shirt.webp": "061591aeebd10fbbd381995cc6702900bd68edd27d63700eb4410af0edfac7a4",
+    "assets/speaking-system/cosmetics/noir/burgundy-hot-rod-bowling-shirt.webp": "a6983b559e30ff9bfd2285adf1413d052e39412ae9811e9cb536bf8b4177d6af",
+    "assets/speaking-system/cosmetics/shared/burgundy-hot-rod-bowling-shirt-display.png": "b926e32af37b717d43653d14299f5d6f7c9daedff7cc704393a6528579dbf1a8"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-burgundy-hot-rod-bowling-shirt-3d-dark-open.jpg": "e68bacaac8b64fc1e7bec333def39da76054ac722e31fa4c314b9263b640e74b",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-burgundy-hot-rod-bowling-shirt-3d-blink.jpg": "1efac01eb6a386ab6708680e56918eaedd7c844f61ac48eec84a68dcc5700464",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-burgundy-hot-rod-bowling-shirt-3d-light-open.jpg": "e33a5623c87dd545caaffdbac14ea81d9797e929342371663c904884b10b16cf",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-burgundy-hot-rod-bowling-shirt-combination-3d-open.jpg": "3e5e49343178ca336afb0d3d8ff6bebe0cf9de48e8ebb4a64aff761a4369a3d8",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-eddy-burgundy-hot-rod-bowling-shirt-combination-3d-blink.jpg": "3366b33dcbce10d460dc85c508aba25e56e4dd4dde378fc33530c42da6005b8c",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-burgundy-hot-rod-bowling-shirt-3d-dark-open.jpg": "f32d9e1377a008d144efa6a50e21c56e61cc4ef4b9bf60a333d729461fe1ca93",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-burgundy-hot-rod-bowling-shirt-3d-blink.jpg": "c831cd7255b653a97dd7fdd2f690a57c7dfe1f79031b98c2125229f1e63619c9",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-burgundy-hot-rod-bowling-shirt-3d-light-open.jpg": "837698d33d11aa20ee7fd1f74f5855f01bef9a6c3e9a064b03fbd51b0910acb5",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-burgundy-hot-rod-bowling-shirt-combination-3d-open.jpg": "4f888006208166b1c7e4a5c73a9838be7246e70253be40d36ebd95b95ef53766",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-noir-burgundy-hot-rod-bowling-shirt-combination-3d-blink.jpg": "d94e202a469f31d63ba794814389a5a99a64bc22ebaf5816773a72588ec61140",
+    "tools/mascot-art/wardrobe/boys-retro-shirt-trio/qa-approval-v1.jpg": "dd4faddffb7e84b362fadbbecca17513eb05ac88d3bc8a6f6c840391a16c2468"
+  }
+}

@@ -10,6 +10,9 @@ export const COSMETICS=Object.freeze([
  {id:'black-blazer-hoodie',slot:'top',price:35,name:'Black blazer over hoodie',description:'黑色雙排扣西裝外套 · 連帽衫內搭'},
  {id:'olive-plain-tee',slot:'top',price:20,name:'Olive plain crew-neck T-shirt',description:'橄欖綠純色圓領短袖T恤',display:'eddy/olive-plain-tee-display.png'},
  {id:'white-oversized-tee',slot:'top',group:'all',price:20,name:'White oversized crew-neck T-shirt',description:'純白寬鬆落肩圓領短袖T恤',display:'shared/white-oversized-tee-display.png'},
+ {id:'black-ivory-retro-bowling-shirt',slot:'top',price:30,name:'Black ivory retro bowling shirt',description:'黑色復古保齡球襯衫 · 象牙白拼接與紅色滾邊',display:'shared/black-ivory-retro-bowling-shirt-display.png'},
+ {id:'burgundy-hot-rod-bowling-shirt',slot:'top',price:35,name:'Burgundy hot-rod bowling shirt',description:'酒紅色復古保齡球襯衫 · 背面老爺車圖案',display:'shared/burgundy-hot-rod-bowling-shirt-display.png'},
+ {id:'ivory-black-flame-shirt',slot:'top',price:30,name:'Ivory black-flame camp shirt',description:'象牙白古巴領襯衫 · 黑色火焰下擺',display:'shared/ivory-black-flame-shirt-display.png'},
  {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',price:35,name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'},
  {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',price:35,name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'},
  {id:'navy-cream-knit-vest',slot:'girlsTop',group:'girls',price:30,name:'Navy cream-trim knit vest',description:'海軍藍無袖針織背心 · 奶油白淺V領',display:'girls/navy-cream-knit-vest-display.png'},
@@ -65,7 +68,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-white-tee1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261002-retro-shirts1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
@@ -77,6 +80,25 @@ function closeInterlegWhiteMarks(character,base){
  ctx.drawImage(base,0,0);const image=ctx.getImageData(0,0,1024,1024),pixels=image.data;
  const pale=(r,g,b,a)=>a>=96&&Math.min(r,g,b)>145&&Math.max(r,g,b)-Math.min(r,g,b)<85;
  let changed=false;
+ // Eddy's source sheet has opaque and semi-opaque pale trimming residue around
+ // every hoof and in the gap between the legs.  It is invisible on white but
+ // becomes a rectangular white fringe on dark game floors.  This band contains
+ // no legitimate pale artwork, so make those residual pixels transparent before
+ // any clothing is composed.  Cosmetics remain untouched and render afterwards.
+ if(character==='eddy'){
+  for(let row=0;row<4;row++)for(let col=0;col<4;col++){
+   const ox=col*256,oy=row*256;
+   for(let y=178;y<250;y++)for(let x=30;x<230;x++){
+    const p=((oy+y)*1024+ox+x)*4,r=pixels[p],g=pixels[p+1],b=pixels[p+2],a=pixels[p+3];
+    if(a>=8&&Math.min(r,g,b)>145&&Math.max(r,g,b)-Math.min(r,g,b)<85){pixels[p+3]=0;changed=true;}
+   }
+  }
+ }
+ if(character==='eddy'){
+  if(!changed){correctedAtlases.set(base,base);return base;}
+  ctx.putImageData(image,0,0);canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
+  correctedAtlases.set(base,canvas);return canvas;
+ }
  for(let row=0;row<4;row++)for(let col=0;col<4;col++){
   const x0=col*256+88,y0=row*256+188,w=80,h=58,seen=new Uint8Array(w*h),mask=new Uint8Array(w*h);
   for(let y=0;y<h;y++)for(let x=0;x<w;x++){const p=((y0+y)*1024+x0+x)*4;mask[y*w+x]=pale(pixels[p],pixels[p+1],pixels[p+2],pixels[p+3])?1:0;}
