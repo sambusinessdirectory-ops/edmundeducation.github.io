@@ -57,6 +57,7 @@ class LayoutText(HTMLParser):
         return "\n".join(line.strip() for line in "".join(self.parts).splitlines() if line.strip())
 YEAR_FILES = {
     2012: "DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Data File.pdf",
+    2013: "2013 DSE Paper 3.pdf",
     2014: "2014 Paper 3.pdf",
     2015: "2015 DSE Paper 3 Questions.pdf",
     2016: "2016 DSE Paper 3 Question.pdf",
@@ -70,6 +71,7 @@ YEAR_FILES = {
 MANIFEST = [
     (2012, "b1", [("DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Data File.pdf", list(range(1, 10)), "data"), ("DSE/2012/2012 DSE/DSE 2012/Paper 3 Part B 1 Question-Answer Book.pdf", list(range(1, 5)), "qab")]),
     (2012, "b2", [("DSE/2012/2012 DSE English Language Paper 3B2.pdf", list(range(7, 16)), "data"), ("DSE/2012/2012 DSE English Language Paper 3B2.pdf", list(range(1, 7)), "qab")]),
+    (2013, "b2", [(YEAR_FILES[2013], list(range(10, 21)), "data"), (YEAR_FILES[2013], list(range(32, 38)), "qab")]),
     (2014, "b1", [(YEAR_FILES[2014], list(range(1, 11)), "data"), (YEAR_FILES[2014], list(range(30, 34)), "qab")]),
     (2014, "b2", [(YEAR_FILES[2014], list(range(11, 22)), "data"), (YEAR_FILES[2014], list(range(34, 40)), "qab")]),
     (2015, "b1", [(YEAR_FILES[2015], list(range(13, 22)), "data"), (YEAR_FILES[2015], list(range(25, 29)), "qab")]),

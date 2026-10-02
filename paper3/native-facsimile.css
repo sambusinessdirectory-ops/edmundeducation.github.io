@@ -329,3 +329,57 @@ h1{font:700 clamp(30px,4.5vw,58px)/1.06 Georgia,serif;margin:10px 0 14px}.hero>p
 .commons-answer .qab-heading{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid #96a8a5;padding-bottom:10px;font:700 13px Arial,sans-serif}.commons-answer .bilingual{margin-bottom:16px}.commons-answer .bilingual p{margin:0}.commons-answer .advice-sheet{border:1px solid #879996;padding:15px}.commons-answer .advice-sheet h3{text-align:center}.commons-answer .advice-part{margin:17px 0}.commons-answer .advice-part h4{font-size:18px}
 .commons-answer .advice-part h4,.commons-answer .standing-heading{display:flex;align-items:center;gap:9px}.commons-answer .advice-part h4 img,.commons-answer .standing-heading img{display:block;width:auto;height:55px;max-width:90px;object-fit:contain;filter:grayscale(1)}
 @media(max-width:650px){.commons-email .email-headers{grid-template-columns:1fr}.commons-email .email-content{padding:13px}.commons-blog .blog-shell{grid-template-columns:1fr}.commons-blog .blog-shell>aside{border-right:0;border-bottom:1px solid #96a8a5;padding:7px}.commons-blog .blog-shell>aside span{display:inline-block;margin:4px 9px}.commons-blog .blog-shell>main{padding:10px}.commons-research .research-sheet,.commons-newsletter .newsletter-sheet,.commons-stat-news .newspaper-sheet{padding:12px}.commons-research .folded-figure{float:none;width:190px;max-width:100%;margin:auto}.commons-research .folded-chart .bars>div{grid-template-columns:1fr 42px}.commons-research .folded-chart meter{grid-column:1}.commons-newsletter .commons-turn{grid-template-columns:1fr;gap:0}.commons-stat-news .table-scroll::before{content:"表格可左右捲動 →";display:block;padding:5px 8px;font:700 12px Arial,sans-serif;background:#eef3f1;color:#3d6669}.commons-website .web-columns{grid-template-columns:1fr}.commons-website .web-columns>aside,.commons-website .web-columns>main{border-right:0;border-bottom:1px solid #899d99}.commons-answer .qab-heading{display:block}}
+/* 2013 B2 · Asia Life: retain the source's distinct document formats. */
+.recreated-page.travel-email .email-window{border:1px solid #9da9a8;background:#fff}
+.recreated-page.travel-email .email-headers{background:#eef0ef;border-bottom:1px solid #a9b1b0;padding:15px 20px;line-height:1.65}
+.recreated-page.travel-email .email-content{padding:20px 24px}
+.recreated-page.travel-email .email-content h3{font:700 17px Arial,sans-serif;margin:24px 0 8px;text-decoration:underline}
+.recreated-page.travel-email .email-content ul{margin:3px 0 18px;padding-left:24px}
+.recreated-page.travel-guidelines .memo-sheet{border:1px solid #a9b1b0;padding:24px 28px;font:16px/1.5 Arial,sans-serif}
+.travel-guidelines .memo-label{display:block;text-align:center;font-size:22px;letter-spacing:.1em}
+.travel-guidelines .memo-meta{border-block:1px solid #a9b1b0;padding:10px 0;margin:18px 0 25px}
+.travel-guidelines .memo-meta p{margin:3px 0}
+.travel-guidelines ol{padding-left:26px}
+.travel-guidelines li{margin:0 0 16px}
+.travel-guidelines li .bilingual p{margin:0 0 4px}
+.recreated-page.travel-review .review-sheet{border:1px solid #aeb9b8;padding:22px;font:16px/1.5 Arial,sans-serif}
+.travel-review .review-sheet h3{text-align:center;margin:2px 0 20px}
+.travel-review .review-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px 20px;border-block:1px solid #abb7b6;padding:12px 0;margin-bottom:15px}
+.travel-review .review-sheet .bilingual{border-bottom:1px solid #d2d9d8;padding:10px 0;margin:0}
+.travel-review .review-sheet .bilingual p{margin:0 0 5px}
+.travel-review .review-choice{padding:13px 0;border-bottom:1px solid #aeb9b8}
+.recreated-page.travel-transcript .tv-sheet{border:1px solid #aab6b5;padding:20px 25px;font:16px/1.55 Arial,sans-serif}
+.travel-transcript .tv-sheet h3{text-align:center;font:700 17px Arial,sans-serif;margin:20px 0}
+.travel-transcript .transcript-turn{display:grid;grid-template-columns:74px minmax(0,1fr);gap:10px;margin:9px 0}
+.travel-transcript .transcript-turn .bilingual p{margin:0 0 5px}
+.travel-interview .interview-note{border:1px solid #aeb9b8;padding:20px 24px;font:16px/1.5 Arial,sans-serif}
+.travel-interview .interview-note h3{text-align:center;margin:0 0 20px}
+.travel-interview .interview-note>.bilingual{margin:17px 0}
+.travel-interview .interview-note>.bilingual p{margin:2px 0}
+.travel-interview .published-letter{border:1px solid #aeb9b8;padding:23px 29px;max-width:780px;margin:auto}
+.travel-blog .historian-browser{border:1px solid #8a9a99;font:16px/1.55 Arial,sans-serif}
+.travel-blog .historian-bar{background:#26353a;color:#fff;padding:4px 9px;font-size:12px}
+.travel-blog .historian-url{border-bottom:1px solid #c6d0ce;padding:5px 12px;font-size:12px}
+.travel-blog .historian-content{padding:16px 20px;display:flow-root}
+.travel-blog .historian-content h3{text-align:center;font:700 23px Arial,sans-serif;margin:3px 0}
+.travel-blog .historian-sub{text-align:center;font-style:italic;margin:0 0 27px}
+.travel-blog .historian-content h4{margin:22px 0 10px}
+.travel-blog .historian-photo{margin:6px 0 13px}
+.travel-blog .historian-photo.tiger{float:right;width:min(42%,340px);margin-left:15px}
+.travel-blog .historian-photo.hotel{width:min(65%,290px);margin:16px auto}
+.travel-blog .historian-photo img{display:block;width:100%;height:auto;filter:grayscale(1)}
+.travel-blog .historian-photo figcaption{font-size:12px;color:#55656a}
+.travel-blog .historian-content .bilingual{margin:10px 0}
+.travel-blog .historian-content .bilingual p{margin:3px 0}
+.travel-blog .table-scroll{clear:both}
+.travel-blog table{border-collapse:collapse;width:100%;margin:18px 0}
+.travel-blog th,.travel-blog td{border:1px solid #6d7e7c;padding:9px;text-align:center}
+.travel-blog th:first-child{text-align:left}
+.travel-answer .answer-title{text-align:center;text-decoration:underline;font:700 20px Arial,sans-serif;margin:22px 0}
+.travel-answer .email-answer-head{border:1px solid #9aa9a7;padding:12px 16px;margin:20px 0 0}
+.travel-answer .email-answer-head p{margin:0 0 8px}
+.travel-answer .email-answer-head label{display:flex;align-items:center;gap:12px}
+.travel-answer .email-answer-head input{border:1px solid #9baaaa;padding:6px;font:inherit;flex:1;min-width:0}
+@media(max-width:650px){.travel-review .review-grid{grid-template-columns:1fr}.travel-transcript .transcript-turn{display:block}.travel-blog .historian-photo.tiger{float:none;width:100%;max-width:340px;margin:14px auto}.travel-blog .historian-content{padding:13px}.travel-guidelines .memo-sheet{padding:14px}.travel-email .email-content{padding:14px}}
+.travel-answer .qab-heading{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #98a9a6;padding-bottom:11px;font:700 13px Arial,sans-serif;margin-bottom:17px}
+@media(max-width:650px){.travel-answer .qab-heading{display:block}.travel-answer .qab-heading strong{display:block;margin-top:6px}}
