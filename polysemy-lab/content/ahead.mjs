@@ -268,16 +268,6 @@ export default {
           "Our team is still ahead.",
           "我們的隊伍仍然領先。",
           "領先競爭者"
-        ],
-        [
-          "The company wants to stay ahead of the competition.",
-          "公司希望繼續領先競爭對手。",
-          "領先競爭者"
-        ],
-        [
-          "Innovation helps businesses remain ahead of their competitors.",
-          "創新有助企業保持競爭領先地位。",
-          "領先競爭者"
         ]
       ],
       "options": [],
@@ -486,6 +476,28 @@ export default {
           "I may be getting ahead of myself, but I'm already thinking about next year.",
           "我可能想得太超前了，但我已經在想明年的事。",
           "操之過急；想得太早"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "ahead-pdf-001",
+      "title": "在表現、創新或市場地位上比競爭對手領先",
+      "form": "13. ahead of the competition — 領先競爭對手",
+      "en": "13. ahead of the competition — 領先競爭對手",
+      "zh": "在表現、創新或市場地位上比競爭對手領先",
+      "note": "原始 PDF 第 13 節：在表現、創新或市場地位上比競爭對手領先",
+      "examples": [
+        [
+          "The company wants to stay ahead of the competition.",
+          "公司希望繼續領先競爭對手。",
+          "在表現、創新或市場地位上比競爭對手領先"
+        ],
+        [
+          "Innovation helps businesses remain ahead of their competitors.",
+          "創新有助企業保持競爭領先地位。",
+          "在表現、創新或市場地位上比競爭對手領先"
         ]
       ],
       "options": [],
@@ -1245,63 +1257,63 @@ export default {
     },
     {
       "id": "ahead-13-0",
-      "sense": "ahead-mcq-12",
+      "sense": "ahead-pdf-001",
       "en": "The company wants to stay ahead of the competition.",
       "zh": "公司希望繼續領先競爭對手。",
       "masked": "The company wants to stay ____.",
       "options": [
-        "ahead-mcq-12",
+        "ahead-pdf-001",
         "ahead-mcq-11",
         "ahead-mcq-13",
         "ahead-mcq-10",
         "ahead-mcq-14",
         "ahead-mcq-09"
       ],
-      "explanation": "本句的「ahead of the competition」指「領先競爭者」。",
+      "explanation": "本句的「ahead of the competition」指「在表現、創新或市場地位上比競爭對手領先」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "ahead of the competition"
       ],
       "optionReasons": {
-        "ahead-mcq-12": "本句指「領先競爭者」。",
+        "ahead-pdf-001": "本句指「在表現、創新或市場地位上比競爭對手領先」。",
         "ahead-mcq-11": "「領先」與本句語境不同。",
         "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
         "ahead-mcq-10": "「未來幾年」與本句語境不同。",
         "ahead-mcq-14": "「保持領先」與本句語境不同。",
         "ahead-mcq-09": "「前路；未來」與本句語境不同。"
       },
-      "correctOption": "ahead-mcq-12"
+      "correctOption": "ahead-pdf-001"
     },
     {
       "id": "ahead-13-1",
-      "sense": "ahead-mcq-12",
+      "sense": "ahead-pdf-001",
       "en": "Innovation helps businesses remain ahead of their competitors.",
       "zh": "創新有助企業保持競爭領先地位。",
       "masked": "Innovation helps businesses remain ____.",
       "options": [
-        "ahead-mcq-12",
+        "ahead-pdf-001",
         "ahead-mcq-11",
         "ahead-mcq-13",
         "ahead-mcq-10",
         "ahead-mcq-14",
         "ahead-mcq-09"
       ],
-      "explanation": "本句的「ahead of their competitors」指「領先競爭者」。",
+      "explanation": "本句的「ahead of their competitors」指「在表現、創新或市場地位上比競爭對手領先」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "ahead of their competitors"
       ],
       "optionReasons": {
-        "ahead-mcq-12": "本句指「領先競爭者」。",
+        "ahead-pdf-001": "本句指「在表現、創新或市場地位上比競爭對手領先」。",
         "ahead-mcq-11": "「領先」與本句語境不同。",
         "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
         "ahead-mcq-10": "「未來幾年」與本句語境不同。",
         "ahead-mcq-14": "「保持領先」與本句語境不同。",
         "ahead-mcq-09": "「前路；未來」與本句語境不同。"
       },
-      "correctOption": "ahead-mcq-12"
+      "correctOption": "ahead-pdf-001"
     },
     {
       "id": "ahead-14-0",

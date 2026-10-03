@@ -245,16 +245,6 @@ export default {
           "The opening hours are posted at the entrance.",
           "營業時間已張貼在入口處。",
           "把通知／資料張貼在公開位置"
-        ],
-        [
-          "The company posted its quarterly results.",
-          "公司公布了季度業績。",
-          "把通知／資料張貼在公開位置"
-        ],
-        [
-          "The university posted the timetable online.",
-          "大學在網上公布了時間表。",
-          "把通知／資料張貼在公開位置"
         ]
       ],
       "options": [],
@@ -335,16 +325,6 @@ export default {
       "note": "來源詞義：與郵件和郵政系統有關的",
       "examples": [
         [
-          "The country faced major problems in the post-war period.",
-          "這個國家在戰後時期面對重大問題。",
-          "與郵件和郵政系統有關的"
-        ],
-        [
-          "We discussed our plans for the post-exam period.",
-          "我們討論了考試後的計劃。",
-          "與郵件和郵政系統有關的"
-        ],
-        [
           "The postal service was delayed.",
           "郵政服務出現延誤。",
           "與郵件和郵政系統有關的"
@@ -375,6 +355,50 @@ export default {
           "How much is the postage to Canada?",
           "寄往加拿大的郵費是多少？",
           "郵寄物件所需支付的費用"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "post-pdf-001",
+      "title": "正式把資訊公開發布",
+      "form": "13. post = announce/publish information officially — 公布；刊登",
+      "en": "13. post = announce/publish information officially — 公布；刊登",
+      "zh": "正式把資訊公開發布",
+      "note": "原始 PDF 第 13 節：正式把資訊公開發布",
+      "examples": [
+        [
+          "The company posted its quarterly results.",
+          "公司公布了季度業績。",
+          "正式把資訊公開發布"
+        ],
+        [
+          "The university posted the timetable online.",
+          "大學在網上公布了時間表。",
+          "正式把資訊公開發布"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "post-pdf-002",
+      "title": "在某件事／某時期之後",
+      "form": "18. post- = after — ……之後的；後……",
+      "en": "18. post- = after — ……之後的；後……",
+      "zh": "在某件事／某時期之後",
+      "note": "原始 PDF 第 18 節：在某件事／某時期之後",
+      "examples": [
+        [
+          "The country faced major problems in the post-war period.",
+          "這個國家在戰後時期面對重大問題。",
+          "在某件事／某時期之後"
+        ],
+        [
+          "We discussed our plans for the post-exam period.",
+          "我們討論了考試後的計劃。",
+          "在某件事／某時期之後"
         ]
       ],
       "options": [],
@@ -1134,63 +1158,63 @@ export default {
     },
     {
       "id": "post-13-0",
-      "sense": "post-mcq-10",
+      "sense": "post-pdf-001",
       "en": "The company posted its quarterly results.",
       "zh": "公司公布了季度業績。",
       "masked": "The company ____ its quarterly results.",
       "options": [
-        "post-mcq-10",
+        "post-pdf-001",
         "post-mcq-09",
         "post-mcq-11",
         "post-mcq-08",
         "post-mcq-12",
         "post-mcq-07"
       ],
-      "explanation": "本句的「posted」指「把通知／資料張貼在公開位置」。",
+      "explanation": "本句的「posted」指「正式把資訊公開發布」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-10": "本句指「把通知／資料張貼在公開位置」。",
+        "post-pdf-001": "本句指「正式把資訊公開發布」。",
         "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
         "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
         "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
         "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
         "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。"
       },
-      "correctOption": "post-mcq-10"
+      "correctOption": "post-pdf-001"
     },
     {
       "id": "post-13-1",
-      "sense": "post-mcq-10",
+      "sense": "post-pdf-001",
       "en": "The university posted the timetable online.",
       "zh": "大學在網上公布了時間表。",
       "masked": "The university ____ the timetable online.",
       "options": [
-        "post-mcq-10",
+        "post-pdf-001",
         "post-mcq-09",
         "post-mcq-11",
         "post-mcq-08",
         "post-mcq-12",
         "post-mcq-07"
       ],
-      "explanation": "本句的「posted」指「把通知／資料張貼在公開位置」。",
+      "explanation": "本句的「posted」指「正式把資訊公開發布」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-10": "本句指「把通知／資料張貼在公開位置」。",
+        "post-pdf-001": "本句指「正式把資訊公開發布」。",
         "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
         "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
         "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
         "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
         "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。"
       },
-      "correctOption": "post-mcq-10"
+      "correctOption": "post-pdf-001"
     },
     {
       "id": "post-14-0",
@@ -1374,63 +1398,63 @@ export default {
     },
     {
       "id": "post-18-0",
-      "sense": "post-mcq-14",
+      "sense": "post-pdf-002",
       "en": "The country faced major problems in the post-war period.",
       "zh": "這個國家在戰後時期面對重大問題。",
       "masked": "The country faced major problems in the ____ period.",
       "options": [
-        "post-mcq-14",
+        "post-pdf-002",
         "post-mcq-13",
         "post-mcq-15",
         "post-mcq-12",
         "post-mcq-11",
         "post-mcq-10"
       ],
-      "explanation": "本句的「post-war」指「與郵件和郵政系統有關的」。",
+      "explanation": "本句的「post-war」指「在某件事／某時期之後」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "post-war"
       ],
       "optionReasons": {
-        "post-mcq-14": "本句指「與郵件和郵政系統有關的」。",
+        "post-pdf-002": "本句指「在某件事／某時期之後」。",
         "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
         "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
         "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
         "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
         "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
       },
-      "correctOption": "post-mcq-14"
+      "correctOption": "post-pdf-002"
     },
     {
       "id": "post-18-1",
-      "sense": "post-mcq-14",
+      "sense": "post-pdf-002",
       "en": "We discussed our plans for the post-exam period.",
       "zh": "我們討論了考試後的計劃。",
       "masked": "We discussed our plans for the ____ period.",
       "options": [
-        "post-mcq-14",
+        "post-pdf-002",
         "post-mcq-13",
         "post-mcq-15",
         "post-mcq-12",
         "post-mcq-11",
         "post-mcq-10"
       ],
-      "explanation": "本句的「post-exam」指「與郵件和郵政系統有關的」。",
+      "explanation": "本句的「post-exam」指「在某件事／某時期之後」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "post-exam"
       ],
       "optionReasons": {
-        "post-mcq-14": "本句指「與郵件和郵政系統有關的」。",
+        "post-pdf-002": "本句指「在某件事／某時期之後」。",
         "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
         "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
         "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
         "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
         "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
       },
-      "correctOption": "post-mcq-14"
+      "correctOption": "post-pdf-002"
     },
     {
       "id": "post-19-0",

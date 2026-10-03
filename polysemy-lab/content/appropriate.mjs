@@ -50,18 +50,7 @@ export default {
       "en": "appropriate for X",
       "zh": "適合 X 使用／適合某類人",
       "note": "來源詞義：適合 X 使用／適合某類人",
-      "examples": [
-        [
-          "This book is appropriate for younger students.",
-          "這本書適合年紀較小的學生。",
-          "適合 X 使用／適合某類人"
-        ],
-        [
-          "The room is not appropriate for large classes.",
-          "這個房間並不適合大型班別。",
-          "適合 X 使用／適合某類人"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -579,6 +568,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "appropriate-pdf-001",
+      "title": "對 X 的用途／人士而言合適",
+      "form": "2. appropriate for + purpose/person/situation（適合……）",
+      "en": "2. appropriate for + purpose/person/situation（適合……）",
+      "zh": "對 X 的用途／人士而言合適",
+      "note": "原始 PDF 第 2 節：對 X 的用途／人士而言合適",
+      "examples": [
+        [
+          "This book is appropriate for younger students.",
+          "這本書適合年紀較小的學生。",
+          "對 X 的用途／人士而言合適"
+        ],
+        [
+          "The room is not appropriate for large classes.",
+          "這個房間並不適合大型班別。",
+          "對 X 的用途／人士而言合適"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -674,63 +685,63 @@ export default {
     },
     {
       "id": "appropriate-02-0",
-      "sense": "appropriate-mcq-03",
+      "sense": "appropriate-pdf-001",
       "en": "This book is appropriate for younger students.",
       "zh": "這本書適合年紀較小的學生。",
       "masked": "This book is ____ younger students.",
       "options": [
-        "appropriate-mcq-03",
+        "appropriate-pdf-001",
         "appropriate-mcq-02",
         "appropriate-mcq-04",
         "appropriate-mcq-01",
         "appropriate-mcq-05",
         "appropriate-mcq-06"
       ],
-      "explanation": "本句的「appropriate for」指「適合 X 使用／適合某類人」。",
+      "explanation": "本句的「appropriate for」指「對 X 的用途／人士而言合適」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "appropriate for"
       ],
       "optionReasons": {
-        "appropriate-mcq-03": "本句指「適合 X 使用／適合某類人」。",
+        "appropriate-pdf-001": "本句指「對 X 的用途／人士而言合適」。",
         "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
         "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
         "appropriate-mcq-01": "「對特定用途、人士或情況而言合適的」與本句語境不同。",
         "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
         "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
       },
-      "correctOption": "appropriate-mcq-03"
+      "correctOption": "appropriate-pdf-001"
     },
     {
       "id": "appropriate-02-1",
-      "sense": "appropriate-mcq-03",
+      "sense": "appropriate-pdf-001",
       "en": "The room is not appropriate for large classes.",
       "zh": "這個房間並不適合大型班別。",
       "masked": "The room is not ____ for large classes.",
       "options": [
-        "appropriate-mcq-03",
+        "appropriate-pdf-001",
         "appropriate-mcq-02",
         "appropriate-mcq-04",
         "appropriate-mcq-01",
         "appropriate-mcq-05",
         "appropriate-mcq-06"
       ],
-      "explanation": "本句的「appropriate」指「適合 X 使用／適合某類人」。",
+      "explanation": "本句的「appropriate」指「對 X 的用途／人士而言合適」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-03": "本句指「適合 X 使用／適合某類人」。",
+        "appropriate-pdf-001": "本句指「對 X 的用途／人士而言合適」。",
         "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
         "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
         "appropriate-mcq-01": "「對特定用途、人士或情況而言合適的」與本句語境不同。",
         "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
         "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
       },
-      "correctOption": "appropriate-mcq-03"
+      "correctOption": "appropriate-pdf-001"
     },
     {
       "id": "appropriate-03-0",

@@ -137,36 +137,6 @@ export default {
           "Prices rose sharply last year.",
           "價格去年大幅上升。",
           "rise 的過去式；表示升起、上升、起身或程度增加"
-        ],
-        [
-          "She rose from her chair.",
-          "她從椅子上站了起來。",
-          "rise 的過去式；表示升起、上升、起身或程度增加"
-        ],
-        [
-          "Everyone rose when the guest entered.",
-          "客人進來時，大家都站起來。",
-          "rise 的過去式；表示升起、上升、起身或程度增加"
-        ],
-        [
-          "The temperature rose quickly.",
-          "氣溫迅速上升。",
-          "rise 的過去式；表示升起、上升、起身或程度增加"
-        ],
-        [
-          "Demand for the product rose during the summer.",
-          "夏季時產品需求上升。",
-          "rise 的過去式；表示升起、上升、起身或程度增加"
-        ],
-        [
-          "Her confidence rose as she gained experience.",
-          "隨著經驗增加，她的自信心也提升了。",
-          "rise 的過去式；表示升起、上升、起身或程度增加"
-        ],
-        [
-          "Tension rose during the discussion.",
-          "討論期間氣氛變得更緊張，緊張程度上升。",
-          "rise 的過去式；表示升起、上升、起身或程度增加"
         ]
       ],
       "options": [],
@@ -378,6 +348,72 @@ export default {
       "zh": "粉紅葡萄酒；與 rose 拼寫相近但屬另一個詞",
       "note": "來源詞義：粉紅葡萄酒；與 rose 拼寫相近但屬另一個詞",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rose-pdf-001",
+      "title": "從坐著／躺著的位置站起或起身",
+      "form": "8. rose = stood up（rise 的過去式） — 站起來",
+      "en": "8. rose = stood up（rise 的過去式） — 站起來",
+      "zh": "從坐著／躺著的位置站起或起身",
+      "note": "原始 PDF 第 8 節：從坐著／躺著的位置站起或起身",
+      "examples": [
+        [
+          "She rose from her chair.",
+          "她從椅子上站了起來。",
+          "從坐著／躺著的位置站起或起身"
+        ],
+        [
+          "Everyone rose when the guest entered.",
+          "客人進來時，大家都站起來。",
+          "從坐著／躺著的位置站起或起身"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rose-pdf-002",
+      "title": "數量、價格、程度等變得更高",
+      "form": "9. rose = increased（rise 的過去式） — 上升；增加",
+      "en": "9. rose = increased（rise 的過去式） — 上升；增加",
+      "zh": "數量、價格、程度等變得更高",
+      "note": "原始 PDF 第 9 節：數量、價格、程度等變得更高",
+      "examples": [
+        [
+          "The temperature rose quickly.",
+          "氣溫迅速上升。",
+          "數量、價格、程度等變得更高"
+        ],
+        [
+          "Demand for the product rose during the summer.",
+          "夏季時產品需求上升。",
+          "數量、價格、程度等變得更高"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rose-pdf-003",
+      "title": "抽象程度、情緒或強度提高",
+      "form": "10. rose = became stronger / more intense（rise 的過去式） — 增強；高漲",
+      "en": "10. rose = became stronger / more intense（rise 的過去式） — 增強；高漲",
+      "zh": "抽象程度、情緒或強度提高",
+      "note": "原始 PDF 第 10 節：抽象程度、情緒或強度提高",
+      "examples": [
+        [
+          "Her confidence rose as she gained experience.",
+          "隨著經驗增加，她的自信心也提升了。",
+          "抽象程度、情緒或強度提高"
+        ],
+        [
+          "Tension rose during the discussion.",
+          "討論期間氣氛變得更緊張，緊張程度上升。",
+          "抽象程度、情緒或強度提高"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -835,183 +871,183 @@ export default {
     },
     {
       "id": "rose-08-0",
-      "sense": "rose-mcq-06",
+      "sense": "rose-pdf-001",
       "en": "She rose from her chair.",
       "zh": "她從椅子上站了起來。",
       "masked": "She ____ from her chair.",
       "options": [
-        "rose-mcq-06",
+        "rose-pdf-001",
         "rose-mcq-05",
         "rose-mcq-07",
         "rose-mcq-04",
         "rose-mcq-08",
         "rose-mcq-03"
       ],
-      "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+      "explanation": "本句的「rose」指「從坐著／躺著的位置站起或起身」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-pdf-001": "本句指「從坐著／躺著的位置站起或起身」。",
         "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
         "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
         "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
         "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
         "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
       },
-      "correctOption": "rose-mcq-06"
+      "correctOption": "rose-pdf-001"
     },
     {
       "id": "rose-08-1",
-      "sense": "rose-mcq-06",
+      "sense": "rose-pdf-001",
       "en": "Everyone rose when the guest entered.",
       "zh": "客人進來時，大家都站起來。",
       "masked": "Everyone ____ when the guest entered.",
       "options": [
-        "rose-mcq-06",
+        "rose-pdf-001",
         "rose-mcq-05",
         "rose-mcq-07",
         "rose-mcq-04",
         "rose-mcq-08",
         "rose-mcq-03"
       ],
-      "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+      "explanation": "本句的「rose」指「從坐著／躺著的位置站起或起身」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-pdf-001": "本句指「從坐著／躺著的位置站起或起身」。",
         "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
         "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
         "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
         "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
         "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
       },
-      "correctOption": "rose-mcq-06"
+      "correctOption": "rose-pdf-001"
     },
     {
       "id": "rose-09-0",
-      "sense": "rose-mcq-06",
+      "sense": "rose-pdf-002",
       "en": "The temperature rose quickly.",
       "zh": "氣溫迅速上升。",
       "masked": "The temperature ____ quickly.",
       "options": [
-        "rose-mcq-06",
+        "rose-pdf-002",
         "rose-mcq-05",
         "rose-mcq-07",
         "rose-mcq-04",
         "rose-mcq-08",
         "rose-mcq-03"
       ],
-      "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+      "explanation": "本句的「rose」指「數量、價格、程度等變得更高」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-pdf-002": "本句指「數量、價格、程度等變得更高」。",
         "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
         "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
         "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
         "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
         "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
       },
-      "correctOption": "rose-mcq-06"
+      "correctOption": "rose-pdf-002"
     },
     {
       "id": "rose-09-1",
-      "sense": "rose-mcq-06",
+      "sense": "rose-pdf-002",
       "en": "Demand for the product rose during the summer.",
       "zh": "夏季時產品需求上升。",
       "masked": "Demand for the product ____ during the summer.",
       "options": [
-        "rose-mcq-06",
+        "rose-pdf-002",
         "rose-mcq-05",
         "rose-mcq-07",
         "rose-mcq-04",
         "rose-mcq-08",
         "rose-mcq-03"
       ],
-      "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+      "explanation": "本句的「rose」指「數量、價格、程度等變得更高」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-pdf-002": "本句指「數量、價格、程度等變得更高」。",
         "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
         "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
         "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
         "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
         "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
       },
-      "correctOption": "rose-mcq-06"
+      "correctOption": "rose-pdf-002"
     },
     {
       "id": "rose-10-0",
-      "sense": "rose-mcq-06",
+      "sense": "rose-pdf-003",
       "en": "Her confidence rose as she gained experience.",
       "zh": "隨著經驗增加，她的自信心也提升了。",
       "masked": "Her confidence ____ as she gained experience.",
       "options": [
-        "rose-mcq-06",
+        "rose-pdf-003",
         "rose-mcq-05",
         "rose-mcq-07",
         "rose-mcq-04",
         "rose-mcq-08",
         "rose-mcq-03"
       ],
-      "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+      "explanation": "本句的「rose」指「抽象程度、情緒或強度提高」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-pdf-003": "本句指「抽象程度、情緒或強度提高」。",
         "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
         "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
         "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
         "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
         "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
       },
-      "correctOption": "rose-mcq-06"
+      "correctOption": "rose-pdf-003"
     },
     {
       "id": "rose-10-1",
-      "sense": "rose-mcq-06",
+      "sense": "rose-pdf-003",
       "en": "Tension rose during the discussion.",
       "zh": "討論期間氣氛變得更緊張，緊張程度上升。",
       "masked": "Tension ____ during the discussion.",
       "options": [
-        "rose-mcq-06",
+        "rose-pdf-003",
         "rose-mcq-05",
         "rose-mcq-07",
         "rose-mcq-04",
         "rose-mcq-08",
         "rose-mcq-03"
       ],
-      "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+      "explanation": "本句的「rose」指「抽象程度、情緒或強度提高」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-pdf-003": "本句指「抽象程度、情緒或強度提高」。",
         "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
         "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
         "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
         "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
         "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
       },
-      "correctOption": "rose-mcq-06"
+      "correctOption": "rose-pdf-003"
     },
     {
       "id": "rose-11-0",

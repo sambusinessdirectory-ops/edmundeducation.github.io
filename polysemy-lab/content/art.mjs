@@ -88,16 +88,6 @@ export default {
           "The sculpture is considered a major work of art.",
           "這座雕塑被視為一件重要的藝術品。",
           "一件個別的藝術創作"
-        ],
-        [
-          "That cake is a work of art.",
-          "那個蛋糕簡直是一件藝術品般的傑作。",
-          "一件個別的藝術創作"
-        ],
-        [
-          "The building is a work of art.",
-          "這棟建築本身就是一件藝術品。",
-          "一件個別的藝術創作"
         ]
       ],
       "options": [],
@@ -406,16 +396,6 @@ export default {
           "The arrangement has an artistic quality.",
           "這個佈置很有藝術感／美感。",
           "具有藝術創作能力、審美能力或藝術氣質的"
-        ],
-        [
-          "The film is artistically ambitious.",
-          "這部電影在藝術上很有野心。",
-          "具有藝術創作能力、審美能力或藝術氣質的"
-        ],
-        [
-          "The room was artistically decorated.",
-          "房間被佈置得很有藝術感。",
-          "具有藝術創作能力、審美能力或藝術氣質的"
         ]
       ],
       "options": [],
@@ -460,6 +440,50 @@ export default {
           "The laboratory has state-of-the-art technology.",
           "實驗室配備最尖端的科技。",
           "代表某領域目前最高、最先進技術水平的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "art-pdf-001",
+      "title": "從藝術角度／以有創意、美感的方式",
+      "form": "20. artistically = in an artistic way / from an artistic perspective — 在藝術上；富藝術感地",
+      "en": "20. artistically = in an artistic way / from an artistic perspective — 在藝術上；富藝術感地",
+      "zh": "從藝術角度／以有創意、美感的方式",
+      "note": "原始 PDF 第 20 節：從藝術角度／以有創意、美感的方式",
+      "examples": [
+        [
+          "The film is artistically ambitious.",
+          "這部電影在藝術上很有野心。",
+          "從藝術角度／以有創意、美感的方式"
+        ],
+        [
+          "The room was artistically decorated.",
+          "房間被佈置得很有藝術感。",
+          "從藝術角度／以有創意、美感的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "art-pdf-002",
+      "title": "因設計、工藝或美感極出色而被形容為藝術品的東西",
+      "form": "22. work of art = exceptionally beautiful/skilful object（比喻延伸） — 精美得像藝術品的東西",
+      "en": "22. work of art = exceptionally beautiful/skilful object（比喻延伸） — 精美得像藝術品的東西",
+      "zh": "因設計、工藝或美感極出色而被形容為藝術品的東西",
+      "note": "原始 PDF 第 22 節：因設計、工藝或美感極出色而被形容為藝術品的東西",
+      "examples": [
+        [
+          "That cake is a work of art.",
+          "那個蛋糕簡直是一件藝術品般的傑作。",
+          "因設計、工藝或美感極出色而被形容為藝術品的東西"
+        ],
+        [
+          "The building is a work of art.",
+          "這棟建築本身就是一件藝術品。",
+          "因設計、工藝或美感極出色而被形容為藝術品的東西"
         ]
       ],
       "options": [],
@@ -1549,63 +1573,63 @@ export default {
     },
     {
       "id": "art-20-0",
-      "sense": "art-mcq-18",
+      "sense": "art-pdf-001",
       "en": "The film is artistically ambitious.",
       "zh": "這部電影在藝術上很有野心。",
       "masked": "The film is ____.",
       "options": [
-        "art-mcq-18",
+        "art-pdf-001",
         "art-mcq-17",
         "art-mcq-19",
         "art-mcq-16",
         "art-mcq-20",
         "art-mcq-15"
       ],
-      "explanation": "本句的「artistically ambitious」指「具有藝術創作能力、審美能力或藝術氣質的」。",
+      "explanation": "本句的「artistically ambitious」指「從藝術角度／以有創意、美感的方式」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "artistically ambitious"
       ],
       "optionReasons": {
-        "art-mcq-18": "本句指「具有藝術創作能力、審美能力或藝術氣質的」。",
+        "art-pdf-001": "本句指「從藝術角度／以有創意、美感的方式」。",
         "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
         "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
         "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
         "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
         "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
       },
-      "correctOption": "art-mcq-18"
+      "correctOption": "art-pdf-001"
     },
     {
       "id": "art-20-1",
-      "sense": "art-mcq-18",
+      "sense": "art-pdf-001",
       "en": "The room was artistically decorated.",
       "zh": "房間被佈置得很有藝術感。",
       "masked": "The room was ____ decorated.",
       "options": [
-        "art-mcq-18",
+        "art-pdf-001",
         "art-mcq-17",
         "art-mcq-19",
         "art-mcq-16",
         "art-mcq-20",
         "art-mcq-15"
       ],
-      "explanation": "本句的「artistically」指「具有藝術創作能力、審美能力或藝術氣質的」。",
+      "explanation": "本句的「artistically」指「從藝術角度／以有創意、美感的方式」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "artistically"
       ],
       "optionReasons": {
-        "art-mcq-18": "本句指「具有藝術創作能力、審美能力或藝術氣質的」。",
+        "art-pdf-001": "本句指「從藝術角度／以有創意、美感的方式」。",
         "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
         "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
         "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
         "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
         "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
       },
-      "correctOption": "art-mcq-18"
+      "correctOption": "art-pdf-001"
     },
     {
       "id": "art-21-0",
@@ -1669,63 +1693,63 @@ export default {
     },
     {
       "id": "art-22-0",
-      "sense": "art-mcq-04",
+      "sense": "art-pdf-002",
       "en": "That cake is a work of art.",
       "zh": "那個蛋糕簡直是一件藝術品般的傑作。",
       "masked": "That cake is a ____.",
       "options": [
-        "art-mcq-04",
+        "art-pdf-002",
         "art-mcq-03",
         "art-mcq-05",
         "art-mcq-02",
         "art-mcq-06",
         "art-mcq-01"
       ],
-      "explanation": "本句的「work of art」指「一件個別的藝術創作」。",
+      "explanation": "本句的「work of art」指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "work of art"
       ],
       "optionReasons": {
-        "art-mcq-04": "本句指「一件個別的藝術創作」。",
+        "art-pdf-002": "本句指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
         "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
         "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
         "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
         "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
         "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。"
       },
-      "correctOption": "art-mcq-04"
+      "correctOption": "art-pdf-002"
     },
     {
       "id": "art-22-1",
-      "sense": "art-mcq-04",
+      "sense": "art-pdf-002",
       "en": "The building is a work of art.",
       "zh": "這棟建築本身就是一件藝術品。",
       "masked": "The building is a work of ____.",
       "options": [
-        "art-mcq-04",
+        "art-pdf-002",
         "art-mcq-03",
         "art-mcq-05",
         "art-mcq-02",
         "art-mcq-06",
         "art-mcq-01"
       ],
-      "explanation": "本句的「art」指「一件個別的藝術創作」。",
+      "explanation": "本句的「art」指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "art"
       ],
       "optionReasons": {
-        "art-mcq-04": "本句指「一件個別的藝術創作」。",
+        "art-pdf-002": "本句指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
         "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
         "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
         "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
         "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
         "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。"
       },
-      "correctOption": "art-mcq-04"
+      "correctOption": "art-pdf-002"
     },
     {
       "id": "art-23-0",

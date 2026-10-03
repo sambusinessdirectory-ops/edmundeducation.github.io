@@ -132,36 +132,6 @@ export default {
           "He exploded at me over a tiny mistake.",
           "他因一個小錯誤就對我暴怒。",
           "突然對某人大發脾氣"
-        ],
-        [
-          "The whole class exploded with laughter.",
-          "全班突然爆笑起來。",
-          "突然對某人大發脾氣"
-        ],
-        [
-          "Everyone exploded into laughter.",
-          "所有人突然大笑起來。",
-          "突然對某人大發脾氣"
-        ],
-        [
-          "The city’s population exploded in the 1990s.",
-          "這座城市的人口在 1990 年代急劇增加。",
-          "突然對某人大發脾氣"
-        ],
-        [
-          "Demand for online services exploded.",
-          "對網上服務的需求暴增。",
-          "突然對某人大發脾氣"
-        ],
-        [
-          "The glass bottle exploded in the heat.",
-          "玻璃瓶受熱後爆裂。",
-          "突然對某人大發脾氣"
-        ],
-        [
-          "The tyre exploded while the car was moving.",
-          "汽車行駛時輪胎突然爆裂。",
-          "突然對某人大發脾氣"
         ]
       ],
       "options": [],
@@ -291,11 +261,89 @@ export default {
           "She has explosive speed.",
           "她有很強的爆發速度／爆發力。",
           "能在極短時間內產生大量力量／速度的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "explode-pdf-001",
+      "title": "笑聲突然強烈爆發",
+      "form": "7. explode with laughter = 突然爆笑",
+      "en": "7. explode with laughter = 突然爆笑",
+      "zh": "笑聲突然強烈爆發",
+      "note": "原始 PDF 第 7 節：笑聲突然強烈爆發",
+      "examples": [
+        [
+          "The whole class exploded with laughter.",
+          "全班突然爆笑起來。",
+          "笑聲突然強烈爆發"
         ],
+        [
+          "Everyone exploded into laughter.",
+          "所有人突然大笑起來。",
+          "笑聲突然強烈爆發"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "explode-pdf-002",
+      "title": "規模、人口、需求等迅速擴張",
+      "form": "8. explode = rapidly expand in size/population — 急速膨脹；暴增",
+      "en": "8. explode = rapidly expand in size/population — 急速膨脹；暴增",
+      "zh": "規模、人口、需求等迅速擴張",
+      "note": "原始 PDF 第 8 節：規模、人口、需求等迅速擴張",
+      "examples": [
+        [
+          "The city’s population exploded in the 1990s.",
+          "這座城市的人口在 1990 年代急劇增加。",
+          "規模、人口、需求等迅速擴張"
+        ],
+        [
+          "Demand for online services exploded.",
+          "對網上服務的需求暴增。",
+          "規模、人口、需求等迅速擴張"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "explode-pdf-003",
+      "title": "物件突然猛烈破裂",
+      "form": "9. explode = break apart violently — 炸裂；爆開",
+      "en": "9. explode = break apart violently — 炸裂；爆開",
+      "zh": "物件突然猛烈破裂",
+      "note": "原始 PDF 第 9 節：物件突然猛烈破裂",
+      "examples": [
+        [
+          "The glass bottle exploded in the heat.",
+          "玻璃瓶受熱後爆裂。",
+          "物件突然猛烈破裂"
+        ],
+        [
+          "The tyre exploded while the car was moving.",
+          "汽車行駛時輪胎突然爆裂。",
+          "物件突然猛烈破裂"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "explode-pdf-004",
+      "title": "以突然、強烈、急劇的方式",
+      "form": "18. explosively = suddenly and powerfully — 爆發式地；急劇地",
+      "en": "18. explosively = suddenly and powerfully — 爆發式地；急劇地",
+      "zh": "以突然、強烈、急劇的方式",
+      "note": "原始 PDF 第 18 節：以突然、強烈、急劇的方式",
+      "examples": [
         [
           "Sales grew explosively.",
           "銷售額爆發式增長。",
-          "能在極短時間內產生大量力量／速度的"
+          "以突然、強烈、急劇的方式"
         ]
       ],
       "options": [],
@@ -665,183 +713,183 @@ export default {
     },
     {
       "id": "explode-07-0",
-      "sense": "explode-mcq-06",
+      "sense": "explode-pdf-001",
       "en": "The whole class exploded with laughter.",
       "zh": "全班突然爆笑起來。",
       "masked": "The whole class ____.",
       "options": [
-        "explode-mcq-06",
+        "explode-pdf-001",
         "explode-mcq-05",
         "explode-mcq-07",
         "explode-mcq-04",
         "explode-mcq-08",
         "explode-mcq-03"
       ],
-      "explanation": "本句的「exploded with laughter」指「突然對某人大發脾氣」。",
+      "explanation": "本句的「exploded with laughter」指「笑聲突然強烈爆發」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "exploded with laughter"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
+        "explode-pdf-001": "本句指「笑聲突然強烈爆發」。",
         "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
         "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
         "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
         "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-06"
+      "correctOption": "explode-pdf-001"
     },
     {
       "id": "explode-07-1",
-      "sense": "explode-mcq-06",
+      "sense": "explode-pdf-001",
       "en": "Everyone exploded into laughter.",
       "zh": "所有人突然大笑起來。",
       "masked": "Everyone ____ into laughter.",
       "options": [
-        "explode-mcq-06",
+        "explode-pdf-001",
         "explode-mcq-05",
         "explode-mcq-07",
         "explode-mcq-04",
         "explode-mcq-08",
         "explode-mcq-03"
       ],
-      "explanation": "本句的「exploded」指「突然對某人大發脾氣」。",
+      "explanation": "本句的「exploded」指「笑聲突然強烈爆發」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
+        "explode-pdf-001": "本句指「笑聲突然強烈爆發」。",
         "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
         "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
         "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
         "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-06"
+      "correctOption": "explode-pdf-001"
     },
     {
       "id": "explode-08-0",
-      "sense": "explode-mcq-06",
+      "sense": "explode-pdf-002",
       "en": "The city’s population exploded in the 1990s.",
       "zh": "這座城市的人口在 1990 年代急劇增加。",
       "masked": "The city’s population ____ in the 1990s.",
       "options": [
-        "explode-mcq-06",
+        "explode-pdf-002",
         "explode-mcq-05",
         "explode-mcq-07",
         "explode-mcq-04",
         "explode-mcq-08",
         "explode-mcq-03"
       ],
-      "explanation": "本句的「exploded」指「突然對某人大發脾氣」。",
+      "explanation": "本句的「exploded」指「規模、人口、需求等迅速擴張」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
+        "explode-pdf-002": "本句指「規模、人口、需求等迅速擴張」。",
         "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
         "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
         "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
         "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-06"
+      "correctOption": "explode-pdf-002"
     },
     {
       "id": "explode-08-1",
-      "sense": "explode-mcq-06",
+      "sense": "explode-pdf-002",
       "en": "Demand for online services exploded.",
       "zh": "對網上服務的需求暴增。",
       "masked": "Demand for online services ____.",
       "options": [
-        "explode-mcq-06",
+        "explode-pdf-002",
         "explode-mcq-05",
         "explode-mcq-07",
         "explode-mcq-04",
         "explode-mcq-08",
         "explode-mcq-03"
       ],
-      "explanation": "本句的「exploded」指「突然對某人大發脾氣」。",
+      "explanation": "本句的「exploded」指「規模、人口、需求等迅速擴張」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
+        "explode-pdf-002": "本句指「規模、人口、需求等迅速擴張」。",
         "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
         "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
         "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
         "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-06"
+      "correctOption": "explode-pdf-002"
     },
     {
       "id": "explode-09-0",
-      "sense": "explode-mcq-06",
+      "sense": "explode-pdf-003",
       "en": "The glass bottle exploded in the heat.",
       "zh": "玻璃瓶受熱後爆裂。",
       "masked": "The glass bottle ____ in the heat.",
       "options": [
-        "explode-mcq-06",
+        "explode-pdf-003",
         "explode-mcq-05",
         "explode-mcq-07",
         "explode-mcq-04",
         "explode-mcq-08",
         "explode-mcq-03"
       ],
-      "explanation": "本句的「exploded」指「突然對某人大發脾氣」。",
+      "explanation": "本句的「exploded」指「物件突然猛烈破裂」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
+        "explode-pdf-003": "本句指「物件突然猛烈破裂」。",
         "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
         "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
         "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
         "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-06"
+      "correctOption": "explode-pdf-003"
     },
     {
       "id": "explode-09-1",
-      "sense": "explode-mcq-06",
+      "sense": "explode-pdf-003",
       "en": "The tyre exploded while the car was moving.",
       "zh": "汽車行駛時輪胎突然爆裂。",
       "masked": "The tyre ____ while the car was moving.",
       "options": [
-        "explode-mcq-06",
+        "explode-pdf-003",
         "explode-mcq-05",
         "explode-mcq-07",
         "explode-mcq-04",
         "explode-mcq-08",
         "explode-mcq-03"
       ],
-      "explanation": "本句的「exploded」指「突然對某人大發脾氣」。",
+      "explanation": "本句的「exploded」指「物件突然猛烈破裂」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
+        "explode-pdf-003": "本句指「物件突然猛烈破裂」。",
         "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
         "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
         "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
         "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-06"
+      "correctOption": "explode-pdf-003"
     },
     {
       "id": "explode-10-0",
@@ -1115,33 +1163,33 @@ export default {
     },
     {
       "id": "explode-18-0",
-      "sense": "explode-mcq-13",
+      "sense": "explode-pdf-004",
       "en": "Sales grew explosively.",
       "zh": "銷售額爆發式增長。",
       "masked": "Sales grew ____.",
       "options": [
-        "explode-mcq-13",
+        "explode-pdf-004",
         "explode-mcq-12",
         "explode-mcq-11",
         "explode-mcq-10",
         "explode-mcq-09",
         "explode-mcq-08"
       ],
-      "explanation": "本句的「explosively」指「能在極短時間內產生大量力量／速度的」。",
+      "explanation": "本句的「explosively」指「以突然、強烈、急劇的方式」。",
       "sentenceIndex": 27,
       "sourcePractice": 35,
       "targets": [
         "explosively"
       ],
       "optionReasons": {
-        "explode-mcq-13": "本句指「能在極短時間內產生大量力量／速度的」。",
+        "explode-pdf-004": "本句指「以突然、強烈、急劇的方式」。",
         "explode-mcq-12": "「很容易引發激烈爭論、衝突或情緒爆發的」與本句語境不同。",
         "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
         "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
         "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
         "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。"
       },
-      "correctOption": "explode-mcq-13"
+      "correctOption": "explode-pdf-004"
     }
   ],
   "comparisons": [],

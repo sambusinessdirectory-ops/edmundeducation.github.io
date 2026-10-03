@@ -26,11 +26,6 @@ export default {
           "A clear mind helps you make better decisions.",
           "清晰的思緒／頭腦有助你作出更好的決定。",
           "人用來思考、理解、記憶、想像及產生意識的心智能力"
-        ],
-        [
-          "My mind would go blank.",
-          "我的腦袋會突然一片空白。",
-          "人用來思考、理解、記憶、想像及產生意識的心智能力"
         ]
       ],
       "options": [],
@@ -927,6 +922,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mind-pdf-001",
+      "title": "因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法",
+      "form": "2. mind goes blank（腦袋一片空白） — 突然想不起來／無法思考",
+      "en": "2. mind goes blank（腦袋一片空白） — 突然想不起來／無法思考",
+      "zh": "因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法",
+      "note": "原始 PDF 第 2 節：因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法",
+      "examples": [
+        [
+          "My mind would go blank.",
+          "我的腦袋會突然一片空白。",
+          "因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1022,33 +1034,33 @@ export default {
     },
     {
       "id": "mind-02-0",
-      "sense": "mind-mcq-01",
+      "sense": "mind-pdf-001",
       "en": "My mind would go blank.",
       "zh": "我的腦袋會突然一片空白。",
       "masked": "My ____.",
       "options": [
-        "mind-mcq-01",
+        "mind-pdf-001",
         "mind-mcq-02",
         "mind-mcq-03",
         "mind-mcq-04",
         "mind-mcq-05",
         "mind-mcq-06"
       ],
-      "explanation": "本句的「mind would go blank」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+      "explanation": "本句的「mind would go blank」指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "mind would go blank"
       ],
       "optionReasons": {
-        "mind-mcq-01": "本句指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+        "mind-pdf-001": "本句指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
         "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
         "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
         "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
         "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
         "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
       },
-      "correctOption": "mind-mcq-01"
+      "correctOption": "mind-pdf-001"
     },
     {
       "id": "mind-02-1",

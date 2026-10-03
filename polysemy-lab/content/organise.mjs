@@ -403,16 +403,6 @@ export default {
       "note": "來源詞義：由具有持續結構、分工和協調的犯罪團體進行的犯罪活動",
       "examples": [
         [
-          "The company announced a major reorganisation.",
-          "公司宣布進行重大重組／架構改組。",
-          "由具有持續結構、分工和協調的犯罪團體進行的犯罪活動"
-        ],
-        [
-          "The reorganisation of the files took several days.",
-          "檔案的重新整理花了幾天時間。",
-          "由具有持續結構、分工和協調的犯罪團體進行的犯罪活動"
-        ],
-        [
           "The police created a unit to investigate organised crime.",
           "警方成立了一個專門調查有組織犯罪的部門。",
           "由具有持續結構、分工和協調的犯罪團體進行的犯罪活動"
@@ -465,6 +455,28 @@ export default {
           "They offer organised activities for children during the holidays.",
           "他們在假期為兒童提供有安排、有組織的活動。",
           "事先有規劃、協調和結構，而不是完全臨時／自發進行的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "organise-pdf-001",
+      "title": "對原有結構、部門、資訊或安排進行重新組織的過程",
+      "form": "20. reorganisation = restructuring/rearrangement — 重組；改組；重新整理",
+      "en": "20. reorganisation = restructuring/rearrangement — 重組；改組；重新整理",
+      "zh": "對原有結構、部門、資訊或安排進行重新組織的過程",
+      "note": "原始 PDF 第 20 節：對原有結構、部門、資訊或安排進行重新組織的過程",
+      "examples": [
+        [
+          "The company announced a major reorganisation.",
+          "公司宣布進行重大重組／架構改組。",
+          "對原有結構、部門、資訊或安排進行重新組織的過程"
+        ],
+        [
+          "The reorganisation of the files took several days.",
+          "檔案的重新整理花了幾天時間。",
+          "對原有結構、部門、資訊或安排進行重新組織的過程"
         ]
       ],
       "options": [],
@@ -1644,63 +1656,63 @@ export default {
     },
     {
       "id": "organise-20-0",
-      "sense": "organise-mcq-18",
+      "sense": "organise-pdf-001",
       "en": "The company announced a major reorganisation.",
       "zh": "公司宣布進行重大重組／架構改組。",
       "masked": "The company announced a major ____.",
       "options": [
-        "organise-mcq-18",
+        "organise-pdf-001",
         "organise-mcq-17",
         "organise-mcq-19",
         "organise-mcq-16",
         "organise-mcq-20",
         "organise-mcq-15"
       ],
-      "explanation": "本句的「reorganisation」指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
+      "explanation": "本句的「reorganisation」指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "reorganisation"
       ],
       "optionReasons": {
-        "organise-mcq-18": "本句指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
+        "organise-pdf-001": "本句指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
         "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
         "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
         "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
         "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
         "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
       },
-      "correctOption": "organise-mcq-18"
+      "correctOption": "organise-pdf-001"
     },
     {
       "id": "organise-20-1",
-      "sense": "organise-mcq-18",
+      "sense": "organise-pdf-001",
       "en": "The reorganisation of the files took several days.",
       "zh": "檔案的重新整理花了幾天時間。",
       "masked": "The ____ of the files took several days.",
       "options": [
-        "organise-mcq-18",
+        "organise-pdf-001",
         "organise-mcq-17",
         "organise-mcq-19",
         "organise-mcq-16",
         "organise-mcq-20",
         "organise-mcq-15"
       ],
-      "explanation": "本句的「reorganisation」指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
+      "explanation": "本句的「reorganisation」指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "reorganisation"
       ],
       "optionReasons": {
-        "organise-mcq-18": "本句指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
+        "organise-pdf-001": "本句指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
         "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
         "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
         "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
         "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
         "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
       },
-      "correctOption": "organise-mcq-18"
+      "correctOption": "organise-pdf-001"
     },
     {
       "id": "organise-20-2",

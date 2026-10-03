@@ -483,16 +483,6 @@ export default {
           "The strength of public feeling increased.",
           "公眾情緒的強烈程度上升了。",
           "感情、反應、支持或反對的強烈程度"
-        ],
-        [
-          "I like coffee of medium strength.",
-          "我喜歡濃度中等的咖啡。",
-          "感情、反應、支持或反對的強烈程度"
-        ],
-        [
-          "The strength of the perfume was overwhelming.",
-          "香水的濃烈程度令人難以承受。",
-          "感情、反應、支持或反對的強烈程度"
         ]
       ],
       "options": [],
@@ -514,11 +504,6 @@ export default {
         [
           "She remained strong during a difficult season.",
           "她在艱難的賽季中一直保持堅強。",
-          "具有較高力量、強度、效力、表現或說服力的"
-        ],
-        [
-          "She is a strong candidate for the position.",
-          "她是這個職位的有力人選。",
           "具有較高力量、強度、效力、表現或說服力的"
         ],
         [
@@ -670,6 +655,45 @@ export default {
           "The athlete powered through the final metres on strength alone.",
           "運動員在最後幾米幾乎完全靠力量撐過去。",
           "因某項表現、證據、推薦或有利因素而採取行動／作決定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "strength-pdf-001",
+      "title": "味道、氣味或飲品濃烈到甚麼程度",
+      "form": "27. strength — intensity of smell/taste — 濃烈程度",
+      "en": "27. strength — intensity of smell/taste — 濃烈程度",
+      "zh": "味道、氣味或飲品濃烈到甚麼程度",
+      "note": "原始 PDF 第 27 節：味道、氣味或飲品濃烈到甚麼程度",
+      "examples": [
+        [
+          "I like coffee of medium strength.",
+          "我喜歡濃度中等的咖啡。",
+          "味道、氣味或飲品濃烈到甚麼程度"
+        ],
+        [
+          "The strength of the perfume was overwhelming.",
+          "香水的濃烈程度令人難以承受。",
+          "味道、氣味或飲品濃烈到甚麼程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "strength-pdf-002",
+      "title": "在能力、表現、競爭力或效果方面明顯高於一般水平的",
+      "form": "30. strong — good/skilled/effective — 強的；出色的",
+      "en": "30. strong — good/skilled/effective — 強的；出色的",
+      "zh": "在能力、表現、競爭力或效果方面明顯高於一般水平的",
+      "note": "原始 PDF 第 30 節：在能力、表現、競爭力或效果方面明顯高於一般水平的",
+      "examples": [
+        [
+          "She is a strong candidate for the position.",
+          "她是這個職位的有力人選。",
+          "在能力、表現、競爭力或效果方面明顯高於一般水平的"
         ]
       ],
       "options": [],
@@ -2209,63 +2233,63 @@ export default {
     },
     {
       "id": "strength-27-0",
-      "sense": "strength-mcq-19",
+      "sense": "strength-pdf-001",
       "en": "I like coffee of medium strength.",
       "zh": "我喜歡濃度中等的咖啡。",
       "masked": "I like coffee of medium ____.",
       "options": [
-        "strength-mcq-19",
+        "strength-pdf-001",
         "strength-mcq-18",
         "strength-mcq-20",
         "strength-mcq-17",
         "strength-mcq-21",
         "strength-mcq-16"
       ],
-      "explanation": "本句的「strength」指「感情、反應、支持或反對的強烈程度」。",
+      "explanation": "本句的「strength」指「味道、氣味或飲品濃烈到甚麼程度」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-19": "本句指「感情、反應、支持或反對的強烈程度」。",
+        "strength-pdf-001": "本句指「味道、氣味或飲品濃烈到甚麼程度」。",
         "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
         "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
         "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
         "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
         "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。"
       },
-      "correctOption": "strength-mcq-19"
+      "correctOption": "strength-pdf-001"
     },
     {
       "id": "strength-27-1",
-      "sense": "strength-mcq-19",
+      "sense": "strength-pdf-001",
       "en": "The strength of the perfume was overwhelming.",
       "zh": "香水的濃烈程度令人難以承受。",
       "masked": "The ____ of the perfume was overwhelming.",
       "options": [
-        "strength-mcq-19",
+        "strength-pdf-001",
         "strength-mcq-18",
         "strength-mcq-20",
         "strength-mcq-17",
         "strength-mcq-21",
         "strength-mcq-16"
       ],
-      "explanation": "本句的「strength」指「感情、反應、支持或反對的強烈程度」。",
+      "explanation": "本句的「strength」指「味道、氣味或飲品濃烈到甚麼程度」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-19": "本句指「感情、反應、支持或反對的強烈程度」。",
+        "strength-pdf-001": "本句指「味道、氣味或飲品濃烈到甚麼程度」。",
         "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
         "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
         "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
         "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
         "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。"
       },
-      "correctOption": "strength-mcq-19"
+      "correctOption": "strength-pdf-001"
     },
     {
       "id": "strength-28-0",
@@ -2329,33 +2353,33 @@ export default {
     },
     {
       "id": "strength-30-0",
-      "sense": "strength-mcq-20",
+      "sense": "strength-pdf-002",
       "en": "She is a strong candidate for the position.",
       "zh": "她是這個職位的有力人選。",
       "masked": "She is a ____ candidate for the position.",
       "options": [
-        "strength-mcq-20",
+        "strength-pdf-002",
         "strength-mcq-19",
         "strength-mcq-21",
         "strength-mcq-18",
         "strength-mcq-22",
         "strength-mcq-17"
       ],
-      "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+      "explanation": "本句的「strong」指「在能力、表現、競爭力或效果方面明顯高於一般水平的」。",
       "sentenceIndex": 57,
       "sourcePractice": 60,
       "targets": [
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-pdf-002": "本句指「在能力、表現、競爭力或效果方面明顯高於一般水平的」。",
         "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
         "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
         "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
         "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
         "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
       },
-      "correctOption": "strength-mcq-20"
+      "correctOption": "strength-pdf-002"
     },
     {
       "id": "strength-31-0",

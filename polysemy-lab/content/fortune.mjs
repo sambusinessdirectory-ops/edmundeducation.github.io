@@ -246,16 +246,6 @@ export default {
           "The festival included traditional fortune-telling.",
           "節慶中包括傳統占卜活動。",
           "透過占卜等方式預測個人未來的活動"
-        ],
-        [
-          "I had the fortune of seeing the original painting in person.",
-          "我有幸親眼看到那幅原作。",
-          "透過占卜等方式預測個人未來的活動"
-        ],
-        [
-          "Few people have the fortune to work with such a talented mentor.",
-          "很少人有這樣的機緣／幸運與如此有才華的導師合作。",
-          "透過占卜等方式預測個人未來的活動"
         ]
       ],
       "options": [],
@@ -398,6 +388,28 @@ export default {
           "The message inside the fortune cookie was funny.",
           "那個幸運餅裡的籤語很好笑。",
           "內藏一張短句／預言紙條的脆餅"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fortune-pdf-001",
+      "title": "有幸獲得某個難得機會／際遇",
+      "form": "13. fortune = chance/opportunity created by circumstances — 機緣；際遇",
+      "en": "13. fortune = chance/opportunity created by circumstances — 機緣；際遇",
+      "zh": "有幸獲得某個難得機會／際遇",
+      "note": "原始 PDF 第 13 節：有幸獲得某個難得機會／際遇",
+      "examples": [
+        [
+          "I had the fortune of seeing the original painting in person.",
+          "我有幸親眼看到那幅原作。",
+          "有幸獲得某個難得機會／際遇"
+        ],
+        [
+          "Few people have the fortune to work with such a talented mentor.",
+          "很少人有這樣的機緣／幸運與如此有才華的導師合作。",
+          "有幸獲得某個難得機會／際遇"
         ]
       ],
       "options": [],
@@ -1157,63 +1169,63 @@ export default {
     },
     {
       "id": "fortune-13-0",
-      "sense": "fortune-mcq-11",
+      "sense": "fortune-pdf-001",
       "en": "I had the fortune of seeing the original painting in person.",
       "zh": "我有幸親眼看到那幅原作。",
       "masked": "I had the ____ of seeing the original painting in person.",
       "options": [
-        "fortune-mcq-11",
+        "fortune-pdf-001",
         "fortune-mcq-10",
         "fortune-mcq-12",
         "fortune-mcq-09",
         "fortune-mcq-13",
         "fortune-mcq-08"
       ],
-      "explanation": "本句的「fortune」指「透過占卜等方式預測個人未來的活動」。",
+      "explanation": "本句的「fortune」指「有幸獲得某個難得機會／際遇」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-11": "本句指「透過占卜等方式預測個人未來的活動」。",
+        "fortune-pdf-001": "本句指「有幸獲得某個難得機會／際遇」。",
         "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
         "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
         "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
         "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
         "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。"
       },
-      "correctOption": "fortune-mcq-11"
+      "correctOption": "fortune-pdf-001"
     },
     {
       "id": "fortune-13-1",
-      "sense": "fortune-mcq-11",
+      "sense": "fortune-pdf-001",
       "en": "Few people have the fortune to work with such a talented mentor.",
       "zh": "很少人有這樣的機緣／幸運與如此有才華的導師合作。",
       "masked": "Few people have the ____ to work with such a talented mentor.",
       "options": [
-        "fortune-mcq-11",
+        "fortune-pdf-001",
         "fortune-mcq-10",
         "fortune-mcq-12",
         "fortune-mcq-09",
         "fortune-mcq-13",
         "fortune-mcq-08"
       ],
-      "explanation": "本句的「fortune」指「透過占卜等方式預測個人未來的活動」。",
+      "explanation": "本句的「fortune」指「有幸獲得某個難得機會／際遇」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-11": "本句指「透過占卜等方式預測個人未來的活動」。",
+        "fortune-pdf-001": "本句指「有幸獲得某個難得機會／際遇」。",
         "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
         "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
         "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
         "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
         "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。"
       },
-      "correctOption": "fortune-mcq-11"
+      "correctOption": "fortune-pdf-001"
     },
     {
       "id": "fortune-14-0",

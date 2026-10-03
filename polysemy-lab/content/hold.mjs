@@ -99,16 +99,6 @@ export default {
           "This bottle holds two litres.",
           "這個瓶可以裝兩公升。",
           "容納 500 人"
-        ],
-        [
-          "The container can hold five litres of water.",
-          "這個容器可以裝五公升水。",
-          "容納 500 人"
-        ],
-        [
-          "The cup won't hold water because it is cracked.",
-          "杯裂了，所以盛不住水。",
-          "容納 500 人"
         ]
       ],
       "options": [],
@@ -176,16 +166,6 @@ export default {
       "zh": "持有護照",
       "note": "來源詞義：持有護照",
       "examples": [
-        [
-          "She holds a valid passport.",
-          "她持有有效護照。",
-          "持有護照"
-        ],
-        [
-          "He holds shares in the company.",
-          "他持有公司股份。",
-          "持有護照"
-        ],
         [
           "Applicants must hold a valid licence.",
           "申請人必須持有有效牌照。",
@@ -304,16 +284,6 @@ export default {
         [
           "Good speakers know how to hold an audience's attention.",
           "好的講者懂得如何一直吸引觀眾注意力。",
-          "維持注意力"
-        ],
-        [
-          "The film failed to hold my interest.",
-          "這套電影未能維持我的興趣。",
-          "維持注意力"
-        ],
-        [
-          "The lesson held the students' interest.",
-          "課堂一直吸引着學生的興趣。",
           "維持注意力"
         ]
       ],
@@ -726,16 +696,6 @@ export default {
           "It's difficult to get hold of tickets.",
           "那些票很難弄到手。",
           "弄到某物"
-        ],
-        [
-          "He took hold of the rope.",
-          "他抓住繩子。",
-          "弄到某物"
-        ],
-        [
-          "She took hold of my arm.",
-          "她抓住我的手臂。",
-          "弄到某物"
         ]
       ],
       "options": [],
@@ -967,6 +927,94 @@ export default {
           "He held the door open for the woman behind him.",
           "他替後面的女士扶着門讓它保持打開。",
           "用手使門保持開着或處於某個位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hold-pdf-001",
+      "title": "能夠盛載液體而不漏出",
+      "form": "8. hold water / liquid — 裝得住液體",
+      "en": "8. hold water / liquid — 裝得住液體",
+      "zh": "能夠盛載液體而不漏出",
+      "note": "原始 PDF 第 8 節：能夠盛載液體而不漏出",
+      "examples": [
+        [
+          "The container can hold five litres of water.",
+          "這個容器可以裝五公升水。",
+          "能夠盛載液體而不漏出"
+        ],
+        [
+          "The cup won't hold water because it is cracked.",
+          "杯裂了，所以盛不住水。",
+          "能夠盛載液體而不漏出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hold-pdf-002",
+      "title": "正式擁有或持有某項權利、文件、資產或資格",
+      "form": "12. hold（持有；擁有） — 持有",
+      "en": "12. hold（持有；擁有） — 持有",
+      "zh": "正式擁有或持有某項權利、文件、資產或資格",
+      "note": "原始 PDF 第 12 節：正式擁有或持有某項權利、文件、資產或資格",
+      "examples": [
+        [
+          "She holds a valid passport.",
+          "她持有有效護照。",
+          "正式擁有或持有某項權利、文件、資產或資格"
+        ],
+        [
+          "He holds shares in the company.",
+          "他持有公司股份。",
+          "正式擁有或持有某項權利、文件、資產或資格"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hold-pdf-003",
+      "title": "持續令某人保持有興趣",
+      "form": "19. hold someone's interest — 維持某人的興趣",
+      "en": "19. hold someone's interest — 維持某人的興趣",
+      "zh": "持續令某人保持有興趣",
+      "note": "原始 PDF 第 19 節：持續令某人保持有興趣",
+      "examples": [
+        [
+          "The film failed to hold my interest.",
+          "這套電影未能維持我的興趣。",
+          "持續令某人保持有興趣"
+        ],
+        [
+          "The lesson held the students' interest.",
+          "課堂一直吸引着學生的興趣。",
+          "持續令某人保持有興趣"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hold-pdf-004",
+      "title": "開始用手牢牢抓住 X",
+      "form": "45. take hold of something — 抓住",
+      "en": "45. take hold of something — 抓住",
+      "zh": "開始用手牢牢抓住 X",
+      "note": "原始 PDF 第 45 節：開始用手牢牢抓住 X",
+      "examples": [
+        [
+          "He took hold of the rope.",
+          "他抓住繩子。",
+          "開始用手牢牢抓住 X"
+        ],
+        [
+          "She took hold of my arm.",
+          "她抓住我的手臂。",
+          "開始用手牢牢抓住 X"
         ]
       ],
       "options": [],
@@ -1426,63 +1474,63 @@ export default {
     },
     {
       "id": "hold-08-0",
-      "sense": "hold-mcq-05",
+      "sense": "hold-pdf-001",
       "en": "The container can hold five litres of water.",
       "zh": "這個容器可以裝五公升水。",
       "masked": "The container can ____.",
       "options": [
-        "hold-mcq-05",
+        "hold-pdf-001",
         "hold-mcq-04",
         "hold-mcq-06",
         "hold-mcq-03",
         "hold-mcq-07",
         "hold-mcq-02"
       ],
-      "explanation": "本句的「hold five litres of water」指「容納 500 人」。",
+      "explanation": "本句的「hold five litres of water」指「能夠盛載液體而不漏出」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "hold five litres of water"
       ],
       "optionReasons": {
-        "hold-mcq-05": "本句指「容納 500 人」。",
+        "hold-pdf-001": "本句指「能夠盛載液體而不漏出」。",
         "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
         "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
         "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
         "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
         "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-05"
+      "correctOption": "hold-pdf-001"
     },
     {
       "id": "hold-08-1",
-      "sense": "hold-mcq-05",
+      "sense": "hold-pdf-001",
       "en": "The cup won't hold water because it is cracked.",
       "zh": "杯裂了，所以盛不住水。",
       "masked": "The cup won't ____ because it is cracked.",
       "options": [
-        "hold-mcq-05",
+        "hold-pdf-001",
         "hold-mcq-04",
         "hold-mcq-06",
         "hold-mcq-03",
         "hold-mcq-07",
         "hold-mcq-02"
       ],
-      "explanation": "本句的「hold water」指「容納 500 人」。",
+      "explanation": "本句的「hold water」指「能夠盛載液體而不漏出」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "hold water"
       ],
       "optionReasons": {
-        "hold-mcq-05": "本句指「容納 500 人」。",
+        "hold-pdf-001": "本句指「能夠盛載液體而不漏出」。",
         "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
         "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
         "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
         "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
         "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-05"
+      "correctOption": "hold-pdf-001"
     },
     {
       "id": "hold-09-0",
@@ -1666,63 +1714,63 @@ export default {
     },
     {
       "id": "hold-12-0",
-      "sense": "hold-mcq-08",
+      "sense": "hold-pdf-002",
       "en": "She holds a valid passport.",
       "zh": "她持有有效護照。",
       "masked": "She ____.",
       "options": [
-        "hold-mcq-08",
+        "hold-pdf-002",
         "hold-mcq-07",
         "hold-mcq-09",
         "hold-mcq-06",
         "hold-mcq-10",
         "hold-mcq-05"
       ],
-      "explanation": "本句的「holds a valid passport」指「持有護照」。",
+      "explanation": "本句的「holds a valid passport」指「正式擁有或持有某項權利、文件、資產或資格」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "holds a valid passport"
       ],
       "optionReasons": {
-        "hold-mcq-08": "本句指「持有護照」。",
+        "hold-pdf-002": "本句指「正式擁有或持有某項權利、文件、資產或資格」。",
         "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
         "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
         "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
         "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
         "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-08"
+      "correctOption": "hold-pdf-002"
     },
     {
       "id": "hold-12-1",
-      "sense": "hold-mcq-08",
+      "sense": "hold-pdf-002",
       "en": "He holds shares in the company.",
       "zh": "他持有公司股份。",
       "masked": "He ____ in the company.",
       "options": [
-        "hold-mcq-08",
+        "hold-pdf-002",
         "hold-mcq-07",
         "hold-mcq-09",
         "hold-mcq-06",
         "hold-mcq-10",
         "hold-mcq-05"
       ],
-      "explanation": "本句的「holds shares」指「持有護照」。",
+      "explanation": "本句的「holds shares」指「正式擁有或持有某項權利、文件、資產或資格」。",
       "sentenceIndex": 24,
       "sourcePractice": 2,
       "targets": [
         "holds shares"
       ],
       "optionReasons": {
-        "hold-mcq-08": "本句指「持有護照」。",
+        "hold-pdf-002": "本句指「正式擁有或持有某項權利、文件、資產或資格」。",
         "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
         "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
         "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
         "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
         "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-08"
+      "correctOption": "hold-pdf-002"
     },
     {
       "id": "hold-13-0",
@@ -2086,63 +2134,63 @@ export default {
     },
     {
       "id": "hold-19-0",
-      "sense": "hold-mcq-13",
+      "sense": "hold-pdf-003",
       "en": "The film failed to hold my interest.",
       "zh": "這套電影未能維持我的興趣。",
       "masked": "The film failed to ____.",
       "options": [
-        "hold-mcq-13",
+        "hold-pdf-003",
         "hold-mcq-12",
         "hold-mcq-14",
         "hold-mcq-11",
         "hold-mcq-15",
         "hold-mcq-10"
       ],
-      "explanation": "本句的「hold my interest」指「維持注意力」。",
+      "explanation": "本句的「hold my interest」指「持續令某人保持有興趣」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "hold my interest"
       ],
       "optionReasons": {
-        "hold-mcq-13": "本句指「維持注意力」。",
+        "hold-pdf-003": "本句指「持續令某人保持有興趣」。",
         "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
         "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
         "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
         "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
         "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-13"
+      "correctOption": "hold-pdf-003"
     },
     {
       "id": "hold-19-1",
-      "sense": "hold-mcq-13",
+      "sense": "hold-pdf-003",
       "en": "The lesson held the students' interest.",
       "zh": "課堂一直吸引着學生的興趣。",
       "masked": "The lesson ____.",
       "options": [
-        "hold-mcq-13",
+        "hold-pdf-003",
         "hold-mcq-12",
         "hold-mcq-14",
         "hold-mcq-11",
         "hold-mcq-15",
         "hold-mcq-10"
       ],
-      "explanation": "本句的「held the students' interest」指「維持注意力」。",
+      "explanation": "本句的「held the students' interest」指「持續令某人保持有興趣」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "held the students' interest"
       ],
       "optionReasons": {
-        "hold-mcq-13": "本句指「維持注意力」。",
+        "hold-pdf-003": "本句指「持續令某人保持有興趣」。",
         "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
         "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
         "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
         "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
         "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-13"
+      "correctOption": "hold-pdf-003"
     },
     {
       "id": "hold-20-0",
@@ -3676,63 +3724,63 @@ export default {
     },
     {
       "id": "hold-45-0",
-      "sense": "hold-mcq-26",
+      "sense": "hold-pdf-004",
       "en": "He took hold of the rope.",
       "zh": "他抓住繩子。",
       "masked": "He ____.",
       "options": [
-        "hold-mcq-26",
+        "hold-pdf-004",
         "hold-mcq-25",
         "hold-mcq-27",
         "hold-mcq-24",
         "hold-mcq-28",
         "hold-mcq-23"
       ],
-      "explanation": "本句的「took hold of the rope」指「弄到某物」。",
+      "explanation": "本句的「took hold of the rope」指「開始用手牢牢抓住 X」。",
       "sentenceIndex": 90,
       "sourcePractice": 1,
       "targets": [
         "took hold of the rope"
       ],
       "optionReasons": {
-        "hold-mcq-26": "本句指「弄到某物」。",
+        "hold-pdf-004": "本句指「開始用手牢牢抓住 X」。",
         "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
         "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
         "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
         "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
         "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-26"
+      "correctOption": "hold-pdf-004"
     },
     {
       "id": "hold-45-1",
-      "sense": "hold-mcq-26",
+      "sense": "hold-pdf-004",
       "en": "She took hold of my arm.",
       "zh": "她抓住我的手臂。",
       "masked": "She ____.",
       "options": [
-        "hold-mcq-26",
+        "hold-pdf-004",
         "hold-mcq-25",
         "hold-mcq-27",
         "hold-mcq-24",
         "hold-mcq-28",
         "hold-mcq-23"
       ],
-      "explanation": "本句的「took hold of my arm」指「弄到某物」。",
+      "explanation": "本句的「took hold of my arm」指「開始用手牢牢抓住 X」。",
       "sentenceIndex": 91,
       "sourcePractice": 2,
       "targets": [
         "took hold of my arm"
       ],
       "optionReasons": {
-        "hold-mcq-26": "本句指「弄到某物」。",
+        "hold-pdf-004": "本句指「開始用手牢牢抓住 X」。",
         "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
         "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
         "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
         "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
         "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。"
       },
-      "correctOption": "hold-mcq-26"
+      "correctOption": "hold-pdf-004"
     },
     {
       "id": "hold-46-0",

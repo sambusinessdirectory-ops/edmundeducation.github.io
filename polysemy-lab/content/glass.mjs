@@ -140,16 +140,6 @@ export default {
       "note": "來源詞義：玻璃器皿",
       "examples": [
         [
-          "He pushed open the glass door.",
-          "他推開了玻璃門。",
-          "玻璃器皿"
-        ],
-        [
-          "The office has large glass walls.",
-          "辦公室有大型玻璃牆。",
-          "玻璃器皿"
-        ],
-        [
           "The picture is protected by glass.",
           "那幅畫由玻璃片保護着。",
           "玻璃器皿"
@@ -479,6 +469,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "glass-pdf-001",
+      "title": "由玻璃製成的某物",
+      "form": "5. glass door / window / wall — 玻璃門／窗／牆",
+      "en": "5. glass door / window / wall — 玻璃門／窗／牆",
+      "zh": "由玻璃製成的某物",
+      "note": "原始 PDF 第 5 節：由玻璃製成的某物",
+      "examples": [
+        [
+          "He pushed open the glass door.",
+          "他推開了玻璃門。",
+          "由玻璃製成的某物"
+        ],
+        [
+          "The office has large glass walls.",
+          "辦公室有大型玻璃牆。",
+          "由玻璃製成的某物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -754,63 +766,63 @@ export default {
     },
     {
       "id": "glass-05-0",
-      "sense": "glass-mcq-08",
+      "sense": "glass-pdf-001",
       "en": "He pushed open the glass door.",
       "zh": "他推開了玻璃門。",
       "masked": "He pushed open the ____.",
       "options": [
-        "glass-mcq-08",
+        "glass-pdf-001",
         "glass-mcq-07",
         "glass-mcq-09",
         "glass-mcq-06",
         "glass-mcq-10",
         "glass-mcq-05"
       ],
-      "explanation": "本句的「glass door」指「玻璃器皿」。",
+      "explanation": "本句的「glass door」指「由玻璃製成的某物」。",
       "sentenceIndex": 9,
       "sourcePractice": 1,
       "targets": [
         "glass door"
       ],
       "optionReasons": {
-        "glass-mcq-08": "本句指「玻璃器皿」。",
+        "glass-pdf-001": "本句指「由玻璃製成的某物」。",
         "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
         "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
         "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
         "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
         "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
       },
-      "correctOption": "glass-mcq-08"
+      "correctOption": "glass-pdf-001"
     },
     {
       "id": "glass-05-1",
-      "sense": "glass-mcq-08",
+      "sense": "glass-pdf-001",
       "en": "The office has large glass walls.",
       "zh": "辦公室有大型玻璃牆。",
       "masked": "The office has large ____.",
       "options": [
-        "glass-mcq-08",
+        "glass-pdf-001",
         "glass-mcq-07",
         "glass-mcq-09",
         "glass-mcq-06",
         "glass-mcq-10",
         "glass-mcq-05"
       ],
-      "explanation": "本句的「glass walls」指「玻璃器皿」。",
+      "explanation": "本句的「glass walls」指「由玻璃製成的某物」。",
       "sentenceIndex": 10,
       "sourcePractice": 2,
       "targets": [
         "glass walls"
       ],
       "optionReasons": {
-        "glass-mcq-08": "本句指「玻璃器皿」。",
+        "glass-pdf-001": "本句指「由玻璃製成的某物」。",
         "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
         "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
         "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
         "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
         "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
       },
-      "correctOption": "glass-mcq-08"
+      "correctOption": "glass-pdf-001"
     },
     {
       "id": "glass-06-0",

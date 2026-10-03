@@ -382,16 +382,6 @@ export default {
       "note": "來源詞義：捕獸者",
       "examples": [
         [
-          "Many people feel trapped by financial pressure.",
-          "很多人因經濟壓力而感到被束縛、難以脫身。",
-          "捕獸者"
-        ],
-        [
-          "He didn't want to become trapped by other people's expectations.",
-          "他不想被別人的期望限制住。",
-          "捕獸者"
-        ],
-        [
           "The trapper checked his traps early in the morning.",
           "那名捕獸者清晨檢查了自己設下的陷阱。",
           "捕獸者"
@@ -554,6 +544,28 @@ export default {
           "The actor disappeared through a trap door in the stage.",
           "演員從舞台上的暗門消失了。",
           "安裝在地板、天花或舞台上，可以開關的隱藏小門"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "trap-pdf-001",
+      "title": "因外在或內在限制而覺得缺乏自由和選擇",
+      "form": "20. trapped（心理／制度上受限制） — 被束縛的；缺乏選擇的",
+      "en": "20. trapped（心理／制度上受限制） — 被束縛的；缺乏選擇的",
+      "zh": "因外在或內在限制而覺得缺乏自由和選擇",
+      "note": "原始 PDF 第 20 節：因外在或內在限制而覺得缺乏自由和選擇",
+      "examples": [
+        [
+          "Many people feel trapped by financial pressure.",
+          "很多人因經濟壓力而感到被束縛、難以脫身。",
+          "因外在或內在限制而覺得缺乏自由和選擇"
+        ],
+        [
+          "He didn't want to become trapped by other people's expectations.",
+          "他不想被別人的期望限制住。",
+          "因外在或內在限制而覺得缺乏自由和選擇"
         ]
       ],
       "options": [],
@@ -1733,63 +1745,63 @@ export default {
     },
     {
       "id": "trap-20-0",
-      "sense": "trap-mcq-19",
+      "sense": "trap-pdf-001",
       "en": "Many people feel trapped by financial pressure.",
       "zh": "很多人因經濟壓力而感到被束縛、難以脫身。",
       "masked": "Many people feel ____ by financial pressure.",
       "options": [
-        "trap-mcq-19",
+        "trap-pdf-001",
         "trap-mcq-18",
         "trap-mcq-20",
         "trap-mcq-17",
         "trap-mcq-21",
         "trap-mcq-16"
       ],
-      "explanation": "本句的「trapped」指「捕獸者」。",
+      "explanation": "本句的「trapped」指「因外在或內在限制而覺得缺乏自由和選擇」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "trapped"
       ],
       "optionReasons": {
-        "trap-mcq-19": "本句指「捕獸者」。",
+        "trap-pdf-001": "本句指「因外在或內在限制而覺得缺乏自由和選擇」。",
         "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
         "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
         "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
         "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
         "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。"
       },
-      "correctOption": "trap-mcq-19"
+      "correctOption": "trap-pdf-001"
     },
     {
       "id": "trap-20-1",
-      "sense": "trap-mcq-19",
+      "sense": "trap-pdf-001",
       "en": "He didn't want to become trapped by other people's expectations.",
       "zh": "他不想被別人的期望限制住。",
       "masked": "He didn't want to become ____ by other people's expectations.",
       "options": [
-        "trap-mcq-19",
+        "trap-pdf-001",
         "trap-mcq-18",
         "trap-mcq-20",
         "trap-mcq-17",
         "trap-mcq-21",
         "trap-mcq-16"
       ],
-      "explanation": "本句的「trapped」指「捕獸者」。",
+      "explanation": "本句的「trapped」指「因外在或內在限制而覺得缺乏自由和選擇」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "trapped"
       ],
       "optionReasons": {
-        "trap-mcq-19": "本句指「捕獸者」。",
+        "trap-pdf-001": "本句指「因外在或內在限制而覺得缺乏自由和選擇」。",
         "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
         "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
         "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
         "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
         "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。"
       },
-      "correctOption": "trap-mcq-19"
+      "correctOption": "trap-pdf-001"
     },
     {
       "id": "trap-21-0",

@@ -120,11 +120,6 @@ export default {
           "The course includes both practical and theoretical work.",
           "這門課同時包括實務和理論內容。",
           "與理論有關的；或只在理論上可能存在的"
-        ],
-        [
-          "There is a theoretical possibility that the system could fail.",
-          "理論上存在系統失效的可能性。",
-          "與理論有關的；或只在理論上可能存在的"
         ]
       ],
       "options": [],
@@ -169,6 +164,23 @@ export default {
           "Scholars have long theorised about why the pattern appears.",
           "學者長期以來一直提出理論／推測這個模式為何出現。",
           "提出、建立或推測某個理論／解釋"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "theory-pdf-001",
+      "title": "根據理論推算可以存在，但未必實際發生或存在的",
+      "form": "theoretical = possible in theory but not necessarily real（理論上可能的）",
+      "en": "theoretical = possible in theory but not necessarily real（理論上可能的）",
+      "zh": "根據理論推算可以存在，但未必實際發生或存在的",
+      "note": "原始 PDF 第 None 節：根據理論推算可以存在，但未必實際發生或存在的",
+      "examples": [
+        [
+          "There is a theoretical possibility that the system could fail.",
+          "理論上存在系統失效的可能性。",
+          "根據理論推算可以存在，但未必實際發生或存在的"
         ]
       ],
       "options": [],
@@ -478,33 +490,33 @@ export default {
     },
     {
       "id": "theory-04-3",
-      "sense": "theory-mcq-05",
+      "sense": "theory-pdf-001",
       "en": "There is a theoretical possibility that the system could fail.",
       "zh": "理論上存在系統失效的可能性。",
       "masked": "There is a ____ possibility that the system could fail.",
       "options": [
-        "theory-mcq-05",
+        "theory-pdf-001",
         "theory-mcq-04",
         "theory-mcq-06",
         "theory-mcq-03",
         "theory-mcq-07",
         "theory-mcq-02"
       ],
-      "explanation": "本句的「theoretical」指「與理論有關的；或只在理論上可能存在的」。",
+      "explanation": "本句的「theoretical」指「根據理論推算可以存在，但未必實際發生或存在的」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "theoretical"
       ],
       "optionReasons": {
-        "theory-mcq-05": "本句指「與理論有關的；或只在理論上可能存在的」。",
+        "theory-pdf-001": "本句指「根據理論推算可以存在，但未必實際發生或存在的」。",
         "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
         "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
         "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
         "theory-mcq-07": "「提出、建立或推測某個理論／解釋」與本句語境不同。",
         "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
       },
-      "correctOption": "theory-mcq-05"
+      "correctOption": "theory-pdf-001"
     },
     {
       "id": "theory-04-4",

@@ -125,26 +125,6 @@ export default {
           "She wants the room cleaned before the guests arrive.",
           "她希望客人到之前把房間清理好。",
           "希望／要求某件事情被處理到指定狀態"
-        ],
-        [
-          "Everyone wants success.",
-          "每個人都渴望成功。",
-          "希望／要求某件事情被處理到指定狀態"
-        ],
-        [
-          "What she really wants is peace.",
-          "她真正想要的是平靜。",
-          "希望／要求某件事情被處理到指定狀態"
-        ],
-        [
-          "All I want is some quiet.",
-          "我只想要一點安靜。",
-          "希望／要求某件事情被處理到指定狀態"
-        ],
-        [
-          "All she wants is to spend time with her family.",
-          "她只想多陪家人。",
-          "希望／要求某件事情被處理到指定狀態"
         ]
       ],
       "options": [],
@@ -224,16 +204,6 @@ export default {
       "zh": "因為欠缺 X 而導致某結果",
       "note": "來源詞義：因為欠缺 X 而導致某結果",
       "examples": [
-        [
-          "The plan failed for want of money.",
-          "計劃因缺乏資金而失敗。",
-          "因為欠缺 X 而導致某結果"
-        ],
-        [
-          "The project stopped for want of support.",
-          "項目因缺乏支持而停止。",
-          "因為欠缺 X 而導致某結果"
-        ],
         [
           "The plants died for want of water.",
           "植物因缺水而枯死。",
@@ -473,6 +443,72 @@ export default {
           "The police released information about the wanted man.",
           "警方公布了這名被通緝男子的資料。",
           "因警方／當局希望找到某人而形成的詞彙化形容詞"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "want-pdf-001",
+      "title": "對某種結果／狀態具有明確願望",
+      "form": "7. want = strongly desire a particular result（想得到某結果） — 渴望；希望",
+      "en": "7. want = strongly desire a particular result（想得到某結果） — 渴望；希望",
+      "zh": "對某種結果／狀態具有明確願望",
+      "note": "原始 PDF 第 7 節：對某種結果／狀態具有明確願望",
+      "examples": [
+        [
+          "Everyone wants success.",
+          "每個人都渴望成功。",
+          "對某種結果／狀態具有明確願望"
+        ],
+        [
+          "What she really wants is peace.",
+          "她真正想要的是平靜。",
+          "對某種結果／狀態具有明確願望"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "want-pdf-002",
+      "title": "強調某個願望是最主要／唯一要求",
+      "form": "8. all I want is…（我只想要……） — 唯一想要的是",
+      "en": "8. all I want is…（我只想要……） — 唯一想要的是",
+      "zh": "強調某個願望是最主要／唯一要求",
+      "note": "原始 PDF 第 8 節：強調某個願望是最主要／唯一要求",
+      "examples": [
+        [
+          "All I want is some quiet.",
+          "我只想要一點安靜。",
+          "強調某個願望是最主要／唯一要求"
+        ],
+        [
+          "All she wants is to spend time with her family.",
+          "她只想多陪家人。",
+          "強調某個願望是最主要／唯一要求"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "want-pdf-003",
+      "title": "lack / absence；缺少某項必要事物",
+      "form": "13. want = lack / be without（缺少） — 缺乏",
+      "en": "13. want = lack / be without（缺少） — 缺乏",
+      "zh": "lack / absence；缺少某項必要事物",
+      "note": "原始 PDF 第 13 節：lack / absence；缺少某項必要事物",
+      "examples": [
+        [
+          "The plan failed for want of money.",
+          "計劃因缺乏資金而失敗。",
+          "lack / absence；缺少某項必要事物"
+        ],
+        [
+          "The project stopped for want of support.",
+          "項目因缺乏支持而停止。",
+          "lack / absence；缺少某項必要事物"
         ]
       ],
       "options": [],
@@ -872,123 +908,123 @@ export default {
     },
     {
       "id": "want-07-0",
-      "sense": "want-mcq-05",
+      "sense": "want-pdf-001",
       "en": "Everyone wants success.",
       "zh": "每個人都渴望成功。",
       "masked": "Everyone ____.",
       "options": [
-        "want-mcq-05",
+        "want-pdf-001",
         "want-mcq-04",
         "want-mcq-06",
         "want-mcq-03",
         "want-mcq-07",
         "want-mcq-02"
       ],
-      "explanation": "本句的「wants success」指「希望／要求某件事情被處理到指定狀態」。",
+      "explanation": "本句的「wants success」指「對某種結果／狀態具有明確願望」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "wants success"
       ],
       "optionReasons": {
-        "want-mcq-05": "本句指「希望／要求某件事情被處理到指定狀態」。",
+        "want-pdf-001": "本句指「對某種結果／狀態具有明確願望」。",
         "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
         "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
         "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
         "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
         "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
       },
-      "correctOption": "want-mcq-05"
+      "correctOption": "want-pdf-001"
     },
     {
       "id": "want-07-1",
-      "sense": "want-mcq-05",
+      "sense": "want-pdf-001",
       "en": "What she really wants is peace.",
       "zh": "她真正想要的是平靜。",
       "masked": "What she really ____ is peace.",
       "options": [
-        "want-mcq-05",
+        "want-pdf-001",
         "want-mcq-04",
         "want-mcq-06",
         "want-mcq-03",
         "want-mcq-07",
         "want-mcq-02"
       ],
-      "explanation": "本句的「wants」指「希望／要求某件事情被處理到指定狀態」。",
+      "explanation": "本句的「wants」指「對某種結果／狀態具有明確願望」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-05": "本句指「希望／要求某件事情被處理到指定狀態」。",
+        "want-pdf-001": "本句指「對某種結果／狀態具有明確願望」。",
         "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
         "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
         "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
         "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
         "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
       },
-      "correctOption": "want-mcq-05"
+      "correctOption": "want-pdf-001"
     },
     {
       "id": "want-08-0",
-      "sense": "want-mcq-05",
+      "sense": "want-pdf-002",
       "en": "All I want is some quiet.",
       "zh": "我只想要一點安靜。",
       "masked": "____.",
       "options": [
-        "want-mcq-05",
+        "want-pdf-002",
         "want-mcq-04",
         "want-mcq-06",
         "want-mcq-03",
         "want-mcq-07",
         "want-mcq-02"
       ],
-      "explanation": "本句的「All I want is some quiet」指「希望／要求某件事情被處理到指定狀態」。",
+      "explanation": "本句的「All I want is some quiet」指「強調某個願望是最主要／唯一要求」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "All I want is some quiet"
       ],
       "optionReasons": {
-        "want-mcq-05": "本句指「希望／要求某件事情被處理到指定狀態」。",
+        "want-pdf-002": "本句指「強調某個願望是最主要／唯一要求」。",
         "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
         "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
         "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
         "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
         "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
       },
-      "correctOption": "want-mcq-05"
+      "correctOption": "want-pdf-002"
     },
     {
       "id": "want-08-1",
-      "sense": "want-mcq-05",
+      "sense": "want-pdf-002",
       "en": "All she wants is to spend time with her family.",
       "zh": "她只想多陪家人。",
       "masked": "All she ____ is to spend time with her family.",
       "options": [
-        "want-mcq-05",
+        "want-pdf-002",
         "want-mcq-04",
         "want-mcq-06",
         "want-mcq-03",
         "want-mcq-07",
         "want-mcq-02"
       ],
-      "explanation": "本句的「wants」指「希望／要求某件事情被處理到指定狀態」。",
+      "explanation": "本句的「wants」指「強調某個願望是最主要／唯一要求」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-05": "本句指「希望／要求某件事情被處理到指定狀態」。",
+        "want-pdf-002": "本句指「強調某個願望是最主要／唯一要求」。",
         "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
         "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
         "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
         "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
         "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
       },
-      "correctOption": "want-mcq-05"
+      "correctOption": "want-pdf-002"
     },
     {
       "id": "want-09-0",
@@ -1232,63 +1268,63 @@ export default {
     },
     {
       "id": "want-13-0",
-      "sense": "want-mcq-09",
+      "sense": "want-pdf-003",
       "en": "The plan failed for want of money.",
       "zh": "計劃因缺乏資金而失敗。",
       "masked": "The plan failed ____ money.",
       "options": [
-        "want-mcq-09",
+        "want-pdf-003",
         "want-mcq-08",
         "want-mcq-10",
         "want-mcq-07",
         "want-mcq-11",
         "want-mcq-06"
       ],
-      "explanation": "本句的「for want of」指「因為欠缺 X 而導致某結果」。",
+      "explanation": "本句的「for want of」指「lack / absence；缺少某項必要事物」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "for want of"
       ],
       "optionReasons": {
-        "want-mcq-09": "本句指「因為欠缺 X 而導致某結果」。",
+        "want-pdf-003": "本句指「lack / absence；缺少某項必要事物」。",
         "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
         "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
         "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
         "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
         "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
       },
-      "correctOption": "want-mcq-09"
+      "correctOption": "want-pdf-003"
     },
     {
       "id": "want-13-1",
-      "sense": "want-mcq-09",
+      "sense": "want-pdf-003",
       "en": "The project stopped for want of support.",
       "zh": "項目因缺乏支持而停止。",
       "masked": "The project stopped for ____ of support.",
       "options": [
-        "want-mcq-09",
+        "want-pdf-003",
         "want-mcq-08",
         "want-mcq-10",
         "want-mcq-07",
         "want-mcq-11",
         "want-mcq-06"
       ],
-      "explanation": "本句的「want」指「因為欠缺 X 而導致某結果」。",
+      "explanation": "本句的「want」指「lack / absence；缺少某項必要事物」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "want"
       ],
       "optionReasons": {
-        "want-mcq-09": "本句指「因為欠缺 X 而導致某結果」。",
+        "want-pdf-003": "本句指「lack / absence；缺少某項必要事物」。",
         "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
         "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
         "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
         "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
         "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
       },
-      "correctOption": "want-mcq-09"
+      "correctOption": "want-pdf-003"
     },
     {
       "id": "want-14-0",

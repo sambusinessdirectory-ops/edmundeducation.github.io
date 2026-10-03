@@ -214,16 +214,6 @@ export default {
           "Fresh bread can feel like comfort food.",
           "新鮮麵包可以給人一種療癒食物的感覺。",
           "因熟悉、味道或回憶而令人感到安慰的食物"
-        ],
-        [
-          "The area has several fast-food restaurants.",
-          "這一帶有幾間快餐店。",
-          "因熟悉、味道或回憶而令人感到安慰的食物"
-        ],
-        [
-          "Fast food is designed to be prepared quickly.",
-          "快餐的設計重點是能快速準備。",
-          "因熟悉、味道或回憶而令人感到安慰的食物"
         ]
       ],
       "options": [],
@@ -237,16 +227,6 @@ export default {
       "zh": "被分開看待的不同食物種類",
       "note": "來源詞義：被分開看待的不同食物種類",
       "examples": [
-        [
-          "She prefers whole foods to highly processed snacks.",
-          "她比較喜歡天然完整食物／少加工食物，而不是高度加工零食。",
-          "被分開看待的不同食物種類"
-        ],
-        [
-          "Whole foods are usually minimally processed.",
-          "天然完整食物通常加工程度較低。",
-          "被分開看待的不同食物種類"
-        ],
         [
           "The shop sells organic baby food.",
           "這間店出售有機嬰兒食品。",
@@ -310,6 +290,50 @@ export default {
           "Basic foodstuffs became more expensive.",
           "基本食品變得更昂貴。",
           "作為商品／原料來看待的食品或食材"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "food-pdf-001",
+      "title": "快速製作及供應的餐飲食品",
+      "form": "13. fast food = 快餐；快餐食品",
+      "en": "13. fast food = 快餐；快餐食品",
+      "zh": "快速製作及供應的餐飲食品",
+      "note": "原始 PDF 第 13 節：快速製作及供應的餐飲食品",
+      "examples": [
+        [
+          "The area has several fast-food restaurants.",
+          "這一帶有幾間快餐店。",
+          "快速製作及供應的餐飲食品"
+        ],
+        [
+          "Fast food is designed to be prepared quickly.",
+          "快餐的設計重點是能快速準備。",
+          "快速製作及供應的餐飲食品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "food-pdf-002",
+      "title": "接近天然原貌、加工較少的食物",
+      "form": "14. whole food / whole foods = 天然完整食物；少加工食品",
+      "en": "14. whole food / whole foods = 天然完整食物；少加工食品",
+      "zh": "接近天然原貌、加工較少的食物",
+      "note": "原始 PDF 第 14 節：接近天然原貌、加工較少的食物",
+      "examples": [
+        [
+          "She prefers whole foods to highly processed snacks.",
+          "她比較喜歡天然完整食物／少加工食物，而不是高度加工零食。",
+          "接近天然原貌、加工較少的食物"
+        ],
+        [
+          "Whole foods are usually minimally processed.",
+          "天然完整食物通常加工程度較低。",
+          "接近天然原貌、加工較少的食物"
         ]
       ],
       "options": [],
@@ -889,123 +913,123 @@ export default {
     },
     {
       "id": "food-13-0",
-      "sense": "food-mcq-10",
+      "sense": "food-pdf-001",
       "en": "The area has several fast-food restaurants.",
       "zh": "這一帶有幾間快餐店。",
       "masked": "The area has several ____ restaurants.",
       "options": [
-        "food-mcq-10",
+        "food-pdf-001",
         "food-mcq-09",
         "food-mcq-11",
         "food-mcq-08",
         "food-mcq-12",
         "food-mcq-07"
       ],
-      "explanation": "本句的「fast-food」指「因熟悉、味道或回憶而令人感到安慰的食物」。",
+      "explanation": "本句的「fast-food」指「快速製作及供應的餐飲食品」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "fast-food"
       ],
       "optionReasons": {
-        "food-mcq-10": "本句指「因熟悉、味道或回憶而令人感到安慰的食物」。",
+        "food-pdf-001": "本句指「快速製作及供應的餐飲食品」。",
         "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
         "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
         "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
         "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
         "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。"
       },
-      "correctOption": "food-mcq-10"
+      "correctOption": "food-pdf-001"
     },
     {
       "id": "food-13-1",
-      "sense": "food-mcq-10",
+      "sense": "food-pdf-001",
       "en": "Fast food is designed to be prepared quickly.",
       "zh": "快餐的設計重點是能快速準備。",
       "masked": "Fast ____ is designed to be prepared quickly.",
       "options": [
-        "food-mcq-10",
+        "food-pdf-001",
         "food-mcq-09",
         "food-mcq-11",
         "food-mcq-08",
         "food-mcq-12",
         "food-mcq-07"
       ],
-      "explanation": "本句的「food」指「因熟悉、味道或回憶而令人感到安慰的食物」。",
+      "explanation": "本句的「food」指「快速製作及供應的餐飲食品」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "food"
       ],
       "optionReasons": {
-        "food-mcq-10": "本句指「因熟悉、味道或回憶而令人感到安慰的食物」。",
+        "food-pdf-001": "本句指「快速製作及供應的餐飲食品」。",
         "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
         "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
         "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
         "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
         "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。"
       },
-      "correctOption": "food-mcq-10"
+      "correctOption": "food-pdf-001"
     },
     {
       "id": "food-14-0",
-      "sense": "food-mcq-11",
+      "sense": "food-pdf-002",
       "en": "She prefers whole foods to highly processed snacks.",
       "zh": "她比較喜歡天然完整食物／少加工食物，而不是高度加工零食。",
       "masked": "She prefers ____ to highly processed snacks.",
       "options": [
-        "food-mcq-11",
+        "food-pdf-002",
         "food-mcq-10",
         "food-mcq-12",
         "food-mcq-09",
         "food-mcq-13",
         "food-mcq-08"
       ],
-      "explanation": "本句的「whole foods」指「被分開看待的不同食物種類」。",
+      "explanation": "本句的「whole foods」指「接近天然原貌、加工較少的食物」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "whole foods"
       ],
       "optionReasons": {
-        "food-mcq-11": "本句指「被分開看待的不同食物種類」。",
+        "food-pdf-002": "本句指「接近天然原貌、加工較少的食物」。",
         "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
         "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
         "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
         "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
         "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
       },
-      "correctOption": "food-mcq-11"
+      "correctOption": "food-pdf-002"
     },
     {
       "id": "food-14-1",
-      "sense": "food-mcq-11",
+      "sense": "food-pdf-002",
       "en": "Whole foods are usually minimally processed.",
       "zh": "天然完整食物通常加工程度較低。",
       "masked": "Whole ____ are usually minimally processed.",
       "options": [
-        "food-mcq-11",
+        "food-pdf-002",
         "food-mcq-10",
         "food-mcq-12",
         "food-mcq-09",
         "food-mcq-13",
         "food-mcq-08"
       ],
-      "explanation": "本句的「foods」指「被分開看待的不同食物種類」。",
+      "explanation": "本句的「foods」指「接近天然原貌、加工較少的食物」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "foods"
       ],
       "optionReasons": {
-        "food-mcq-11": "本句指「被分開看待的不同食物種類」。",
+        "food-pdf-002": "本句指「接近天然原貌、加工較少的食物」。",
         "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
         "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
         "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
         "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
         "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
       },
-      "correctOption": "food-mcq-11"
+      "correctOption": "food-pdf-002"
     },
     {
       "id": "food-15-0",

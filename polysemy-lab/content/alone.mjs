@@ -71,16 +71,6 @@ export default {
           "Her experience alone makes her a strong candidate.",
           "單憑她的經驗就足以令她成為很有力的人選。",
           "單憑某一個人、事物、因素本身；僅僅這一點"
-        ],
-        [
-          "She alone understood what had happened.",
-          "只有她明白發生了甚麼事。",
-          "單憑某一個人、事物、因素本身；僅僅這一點"
-        ],
-        [
-          "This reason alone is enough to reject the proposal.",
-          "單是這個理由就足以否決該建議。",
-          "單憑某一個人、事物、因素本身；僅僅這一點"
         ]
       ],
       "options": [],
@@ -186,6 +176,28 @@ export default {
           "He enjoyed the quiet aloneness of the early morning.",
           "他享受清晨安靜的獨處狀態。",
           "獨自一人的狀態；較低頻"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "alone-pdf-001",
+      "title": "只有 X；唯獨 X；其他人／事物都不包括在內",
+      "form": "4. alone = only one person/thing among others（唯一） — 只有……；唯獨……",
+      "en": "4. alone = only one person/thing among others（唯一） — 只有……；唯獨……",
+      "zh": "只有 X；唯獨 X；其他人／事物都不包括在內",
+      "note": "原始 PDF 第 4 節：只有 X；唯獨 X；其他人／事物都不包括在內",
+      "examples": [
+        [
+          "She alone understood what had happened.",
+          "只有她明白發生了甚麼事。",
+          "只有 X；唯獨 X；其他人／事物都不包括在內"
+        ],
+        [
+          "This reason alone is enough to reject the proposal.",
+          "單是這個理由就足以否決該建議。",
+          "只有 X；唯獨 X；其他人／事物都不包括在內"
         ]
       ],
       "options": [],
@@ -405,63 +417,63 @@ export default {
     },
     {
       "id": "alone-04-0",
-      "sense": "alone-mcq-03",
+      "sense": "alone-pdf-001",
       "en": "She alone understood what had happened.",
       "zh": "只有她明白發生了甚麼事。",
       "masked": "She ____ understood what had happened.",
       "options": [
-        "alone-mcq-03",
+        "alone-pdf-001",
         "alone-mcq-02",
         "alone-mcq-04",
         "alone-mcq-01",
         "alone-mcq-05",
         "alone-mcq-06"
       ],
-      "explanation": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+      "explanation": "本句的「alone」指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-03": "本句指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+        "alone-pdf-001": "本句指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
         "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
         "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
         "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
         "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
         "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
       },
-      "correctOption": "alone-mcq-03"
+      "correctOption": "alone-pdf-001"
     },
     {
       "id": "alone-04-1",
-      "sense": "alone-mcq-03",
+      "sense": "alone-pdf-001",
       "en": "This reason alone is enough to reject the proposal.",
       "zh": "單是這個理由就足以否決該建議。",
       "masked": "This reason ____ is enough to reject the proposal.",
       "options": [
-        "alone-mcq-03",
+        "alone-pdf-001",
         "alone-mcq-02",
         "alone-mcq-04",
         "alone-mcq-01",
         "alone-mcq-05",
         "alone-mcq-06"
       ],
-      "explanation": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+      "explanation": "本句的「alone」指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-03": "本句指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+        "alone-pdf-001": "本句指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
         "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
         "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
         "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
         "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
         "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
       },
-      "correctOption": "alone-mcq-03"
+      "correctOption": "alone-pdf-001"
     },
     {
       "id": "alone-05-0",

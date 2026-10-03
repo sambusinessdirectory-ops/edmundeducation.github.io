@@ -555,18 +555,7 @@ export default {
       "en": "formal wear",
       "zh": "正式服裝",
       "note": "來源詞義：正式服裝",
-      "examples": [
-        [
-          "These trousers are designed for everyday wear.",
-          "這條長褲適合日常穿着。",
-          "正式服裝"
-        ],
-        [
-          "The shoes are comfortable enough for everyday wear.",
-          "這雙鞋很舒服，適合日常穿着。",
-          "正式服裝"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -730,6 +719,28 @@ export default {
           "Guests are expected to wear formal wear in the evening.",
           "晚上賓客應穿着正式服裝。",
           "某一用途、場合或類別的衣服／穿戴物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "wear-pdf-001",
+      "title": "作某種用途穿着的衣服或服裝類別",
+      "form": "27. everyday wear — 日常穿着的衣服",
+      "en": "27. everyday wear — 日常穿着的衣服",
+      "zh": "作某種用途穿着的衣服或服裝類別",
+      "note": "原始 PDF 第 27 節：作某種用途穿着的衣服或服裝類別",
+      "examples": [
+        [
+          "These trousers are designed for everyday wear.",
+          "這條長褲適合日常穿着。",
+          "作某種用途穿着的衣服或服裝類別"
+        ],
+        [
+          "The shoes are comfortable enough for everyday wear.",
+          "這雙鞋很舒服，適合日常穿着。",
+          "作某種用途穿着的衣服或服裝類別"
         ]
       ],
       "options": [],
@@ -2329,63 +2340,63 @@ export default {
     },
     {
       "id": "wear-27-0",
-      "sense": "wear-mcq-28",
+      "sense": "wear-pdf-001",
       "en": "These trousers are designed for everyday wear.",
       "zh": "這條長褲適合日常穿着。",
       "masked": "These trousers are designed for ____.",
       "options": [
-        "wear-mcq-28",
+        "wear-pdf-001",
         "wear-mcq-27",
         "wear-mcq-29",
         "wear-mcq-26",
         "wear-mcq-30",
         "wear-mcq-25"
       ],
-      "explanation": "本句的「everyday wear」指「正式服裝」。",
+      "explanation": "本句的「everyday wear」指「作某種用途穿着的衣服或服裝類別」。",
       "sentenceIndex": 53,
       "sourcePractice": 1,
       "targets": [
         "everyday wear"
       ],
       "optionReasons": {
-        "wear-mcq-28": "本句指「正式服裝」。",
+        "wear-pdf-001": "本句指「作某種用途穿着的衣服或服裝類別」。",
         "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
         "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
         "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
         "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
         "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。"
       },
-      "correctOption": "wear-mcq-28"
+      "correctOption": "wear-pdf-001"
     },
     {
       "id": "wear-27-1",
-      "sense": "wear-mcq-28",
+      "sense": "wear-pdf-001",
       "en": "The shoes are comfortable enough for everyday wear.",
       "zh": "這雙鞋很舒服，適合日常穿着。",
       "masked": "The shoes are comfortable enough for ____.",
       "options": [
-        "wear-mcq-28",
+        "wear-pdf-001",
         "wear-mcq-27",
         "wear-mcq-29",
         "wear-mcq-26",
         "wear-mcq-30",
         "wear-mcq-25"
       ],
-      "explanation": "本句的「everyday wear」指「正式服裝」。",
+      "explanation": "本句的「everyday wear」指「作某種用途穿着的衣服或服裝類別」。",
       "sentenceIndex": 54,
       "sourcePractice": 2,
       "targets": [
         "everyday wear"
       ],
       "optionReasons": {
-        "wear-mcq-28": "本句指「正式服裝」。",
+        "wear-pdf-001": "本句指「作某種用途穿着的衣服或服裝類別」。",
         "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
         "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
         "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
         "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
         "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。"
       },
-      "correctOption": "wear-mcq-28"
+      "correctOption": "wear-pdf-001"
     },
     {
       "id": "wear-28-0",

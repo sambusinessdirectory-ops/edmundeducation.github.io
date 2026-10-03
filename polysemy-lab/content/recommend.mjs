@@ -12,23 +12,7 @@ export default {
       "en": "recommend — thing/person",
       "zh": "認為某人／某物很好或合適，因此推薦給別人",
       "note": "來源詞義：認為某人／某物很好或合適，因此推薦給別人",
-      "examples": [
-        [
-          "Several friends kept recommending the book to me.",
-          "有幾位朋友一直向我推薦這本書。",
-          "認為某人／某物很好或合適，因此推薦給別人"
-        ],
-        [
-          "Can you recommend a good restaurant?",
-          "你可以推薦一間好的餐廳嗎？",
-          "認為某人／某物很好或合適，因此推薦給別人"
-        ],
-        [
-          "I would highly recommend this course.",
-          "我會非常推薦這門課程。",
-          "認為某人／某物很好或合適，因此推薦給別人"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -163,98 +147,125 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "recommend-pdf-001",
+      "title": "根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試",
+      "form": "1. recommend = suggest something because you think it is good/suitable（推薦） — 推薦",
+      "en": "1. recommend = suggest something because you think it is good/suitable（推薦） — 推薦",
+      "zh": "根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試",
+      "note": "原始 PDF 第 1 節：根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試",
+      "examples": [
+        [
+          "Several friends kept recommending the book to me.",
+          "有幾位朋友一直向我推薦這本書。",
+          "根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試"
+        ],
+        [
+          "Can you recommend a good restaurant?",
+          "你可以推薦一間好的餐廳嗎？",
+          "根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試"
+        ],
+        [
+          "I would highly recommend this course.",
+          "我會非常推薦這門課程。",
+          "根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "recommend-01-0",
-      "sense": "recommend-mcq-01",
+      "sense": "recommend-pdf-001",
       "en": "Several friends kept recommending the book to me.",
       "zh": "有幾位朋友一直向我推薦這本書。",
       "masked": "Several friends kept ____ the book to me.",
       "options": [
-        "recommend-mcq-01",
+        "recommend-pdf-001",
         "recommend-mcq-02",
         "recommend-mcq-03",
         "recommend-mcq-04",
         "recommend-mcq-05",
         "recommend-mcq-06"
       ],
-      "explanation": "本句的「recommending」指「認為某人／某物很好或合適，因此推薦給別人」。",
+      "explanation": "本句的「recommending」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "recommending"
       ],
       "optionReasons": {
-        "recommend-mcq-01": "本句指「認為某人／某物很好或合適，因此推薦給別人」。",
+        "recommend-pdf-001": "本句指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
         "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
         "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
         "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
         "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
         "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
       },
-      "correctOption": "recommend-mcq-01"
+      "correctOption": "recommend-pdf-001"
     },
     {
       "id": "recommend-01-1",
-      "sense": "recommend-mcq-01",
+      "sense": "recommend-pdf-001",
       "en": "Can you recommend a good restaurant?",
       "zh": "你可以推薦一間好的餐廳嗎？",
       "masked": "Can you ____ a good restaurant?",
       "options": [
-        "recommend-mcq-01",
+        "recommend-pdf-001",
         "recommend-mcq-02",
         "recommend-mcq-03",
         "recommend-mcq-04",
         "recommend-mcq-05",
         "recommend-mcq-06"
       ],
-      "explanation": "本句的「recommend」指「認為某人／某物很好或合適，因此推薦給別人」。",
+      "explanation": "本句的「recommend」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "recommend"
       ],
       "optionReasons": {
-        "recommend-mcq-01": "本句指「認為某人／某物很好或合適，因此推薦給別人」。",
+        "recommend-pdf-001": "本句指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
         "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
         "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
         "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
         "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
         "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
       },
-      "correctOption": "recommend-mcq-01"
+      "correctOption": "recommend-pdf-001"
     },
     {
       "id": "recommend-01-2",
-      "sense": "recommend-mcq-01",
+      "sense": "recommend-pdf-001",
       "en": "I would highly recommend this course.",
       "zh": "我會非常推薦這門課程。",
       "masked": "I would highly ____ this course.",
       "options": [
-        "recommend-mcq-01",
+        "recommend-pdf-001",
         "recommend-mcq-02",
         "recommend-mcq-03",
         "recommend-mcq-04",
         "recommend-mcq-05",
         "recommend-mcq-06"
       ],
-      "explanation": "本句的「recommend」指「認為某人／某物很好或合適，因此推薦給別人」。",
+      "explanation": "本句的「recommend」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "recommend"
       ],
       "optionReasons": {
-        "recommend-mcq-01": "本句指「認為某人／某物很好或合適，因此推薦給別人」。",
+        "recommend-pdf-001": "本句指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
         "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
         "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
         "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
         "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
         "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
       },
-      "correctOption": "recommend-mcq-01"
+      "correctOption": "recommend-pdf-001"
     },
     {
       "id": "recommend-02-0",

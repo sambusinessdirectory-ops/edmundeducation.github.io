@@ -208,26 +208,6 @@ export default {
           "The two dictionaries give slightly different definitions.",
           "兩本字典給出的定義略有不同。",
           "對字詞／概念確切意思的說明"
-        ],
-        [
-          "The legal definition of the term is very narrow.",
-          "這個詞在法律上的界定很狹窄。",
-          "對字詞／概念確切意思的說明"
-        ],
-        [
-          "Clear definition of responsibilities prevents confusion.",
-          "清楚界定責任可以避免混亂。",
-          "對字詞／概念確切意思的說明"
-        ],
-        [
-          "The image has excellent definition.",
-          "這張影像的清晰度很好。",
-          "對字詞／概念確切意思的說明"
-        ],
-        [
-          "The camera captures fine detail with high definition.",
-          "這部相機能以高清晰度捕捉細節。",
-          "對字詞／概念確切意思的說明"
         ]
       ],
       "options": [],
@@ -314,6 +294,50 @@ export default {
           "They released a definitive edition of the album.",
           "他們推出了這張專輯的權威定本／最完整版本。",
           "足以作為最終結論、權威標準或完整版本的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "define-pdf-001",
+      "title": "對範圍、角色、標準或概念作正式界定",
+      "form": "11. definition = act/process of setting limits — 界定；界說",
+      "en": "11. definition = act/process of setting limits — 界定；界說",
+      "zh": "對範圍、角色、標準或概念作正式界定",
+      "note": "原始 PDF 第 11 節：對範圍、角色、標準或概念作正式界定",
+      "examples": [
+        [
+          "The legal definition of the term is very narrow.",
+          "這個詞在法律上的界定很狹窄。",
+          "對範圍、角色、標準或概念作正式界定"
+        ],
+        [
+          "Clear definition of responsibilities prevents confusion.",
+          "清楚界定責任可以避免混亂。",
+          "對範圍、角色、標準或概念作正式界定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "define-pdf-002",
+      "title": "細節、輪廓或影像呈現得有多清楚",
+      "form": "12. definition = clarity/sharpness of an image/sound — 清晰度；解析度感",
+      "en": "12. definition = clarity/sharpness of an image/sound — 清晰度；解析度感",
+      "zh": "細節、輪廓或影像呈現得有多清楚",
+      "note": "原始 PDF 第 12 節：細節、輪廓或影像呈現得有多清楚",
+      "examples": [
+        [
+          "The image has excellent definition.",
+          "這張影像的清晰度很好。",
+          "細節、輪廓或影像呈現得有多清楚"
+        ],
+        [
+          "The camera captures fine detail with high definition.",
+          "這部相機能以高清晰度捕捉細節。",
+          "細節、輪廓或影像呈現得有多清楚"
         ]
       ],
       "options": [],
@@ -923,123 +947,123 @@ export default {
     },
     {
       "id": "define-11-0",
-      "sense": "define-mcq-09",
+      "sense": "define-pdf-001",
       "en": "The legal definition of the term is very narrow.",
       "zh": "這個詞在法律上的界定很狹窄。",
       "masked": "The legal ____ of the term is very narrow.",
       "options": [
-        "define-mcq-09",
+        "define-pdf-001",
         "define-mcq-08",
         "define-mcq-10",
         "define-mcq-07",
         "define-mcq-11",
         "define-mcq-06"
       ],
-      "explanation": "本句的「definition」指「對字詞／概念確切意思的說明」。",
+      "explanation": "本句的「definition」指「對範圍、角色、標準或概念作正式界定」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "definition"
       ],
       "optionReasons": {
-        "define-mcq-09": "本句指「對字詞／概念確切意思的說明」。",
+        "define-pdf-001": "本句指「對範圍、角色、標準或概念作正式界定」。",
         "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
         "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
         "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
         "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
         "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
       },
-      "correctOption": "define-mcq-09"
+      "correctOption": "define-pdf-001"
     },
     {
       "id": "define-11-1",
-      "sense": "define-mcq-09",
+      "sense": "define-pdf-001",
       "en": "Clear definition of responsibilities prevents confusion.",
       "zh": "清楚界定責任可以避免混亂。",
       "masked": "Clear ____ of responsibilities prevents confusion.",
       "options": [
-        "define-mcq-09",
+        "define-pdf-001",
         "define-mcq-08",
         "define-mcq-10",
         "define-mcq-07",
         "define-mcq-11",
         "define-mcq-06"
       ],
-      "explanation": "本句的「definition」指「對字詞／概念確切意思的說明」。",
+      "explanation": "本句的「definition」指「對範圍、角色、標準或概念作正式界定」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "definition"
       ],
       "optionReasons": {
-        "define-mcq-09": "本句指「對字詞／概念確切意思的說明」。",
+        "define-pdf-001": "本句指「對範圍、角色、標準或概念作正式界定」。",
         "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
         "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
         "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
         "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
         "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
       },
-      "correctOption": "define-mcq-09"
+      "correctOption": "define-pdf-001"
     },
     {
       "id": "define-12-0",
-      "sense": "define-mcq-09",
+      "sense": "define-pdf-002",
       "en": "The image has excellent definition.",
       "zh": "這張影像的清晰度很好。",
       "masked": "The image has excellent ____.",
       "options": [
-        "define-mcq-09",
+        "define-pdf-002",
         "define-mcq-08",
         "define-mcq-10",
         "define-mcq-07",
         "define-mcq-11",
         "define-mcq-06"
       ],
-      "explanation": "本句的「definition」指「對字詞／概念確切意思的說明」。",
+      "explanation": "本句的「definition」指「細節、輪廓或影像呈現得有多清楚」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "definition"
       ],
       "optionReasons": {
-        "define-mcq-09": "本句指「對字詞／概念確切意思的說明」。",
+        "define-pdf-002": "本句指「細節、輪廓或影像呈現得有多清楚」。",
         "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
         "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
         "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
         "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
         "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
       },
-      "correctOption": "define-mcq-09"
+      "correctOption": "define-pdf-002"
     },
     {
       "id": "define-12-1",
-      "sense": "define-mcq-09",
+      "sense": "define-pdf-002",
       "en": "The camera captures fine detail with high definition.",
       "zh": "這部相機能以高清晰度捕捉細節。",
       "masked": "The camera captures fine detail with high ____.",
       "options": [
-        "define-mcq-09",
+        "define-pdf-002",
         "define-mcq-08",
         "define-mcq-10",
         "define-mcq-07",
         "define-mcq-11",
         "define-mcq-06"
       ],
-      "explanation": "本句的「definition」指「對字詞／概念確切意思的說明」。",
+      "explanation": "本句的「definition」指「細節、輪廓或影像呈現得有多清楚」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "definition"
       ],
       "optionReasons": {
-        "define-mcq-09": "本句指「對字詞／概念確切意思的說明」。",
+        "define-pdf-002": "本句指「細節、輪廓或影像呈現得有多清楚」。",
         "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
         "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
         "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
         "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
         "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
       },
-      "correctOption": "define-mcq-09"
+      "correctOption": "define-pdf-002"
     },
     {
       "id": "define-13-0",

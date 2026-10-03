@@ -313,16 +313,6 @@ export default {
           "The evening performance starts at eight.",
           "晚間演出八時開始。",
           "演出；表演"
-        ],
-        [
-          "The students gave a performance at the end of the term.",
-          "學生在學期末進行了一場表演。",
-          "演出；表演"
-        ],
-        [
-          "The band gave an energetic performance.",
-          "樂隊帶來了一場充滿活力的演出。",
-          "演出；表演"
         ]
       ],
       "options": [],
@@ -587,16 +577,6 @@ export default {
           "Sales growth improved overall financial performance.",
           "銷售增長改善了整體財務業績。",
           "財務表現"
-        ],
-        [
-          "The product's market performance exceeded expectations.",
-          "產品的市場表現超出預期。",
-          "財務表現"
-        ],
-        [
-          "Analysts compared the performance of different investments.",
-          "分析員比較了不同投資的市場表現。",
-          "財務表現"
         ]
       ],
       "options": [],
@@ -756,6 +736,50 @@ export default {
           "The new system outperformed the old one.",
           "新系統的表現優於舊系統。",
           "表現勝過"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "performance-pdf-001",
+      "title": "正式為觀眾進行音樂、戲劇、舞蹈等表演",
+      "form": "15. give a performance — 演出；表演",
+      "en": "15. give a performance — 演出；表演",
+      "zh": "正式為觀眾進行音樂、戲劇、舞蹈等表演",
+      "note": "原始 PDF 第 15 節：正式為觀眾進行音樂、戲劇、舞蹈等表演",
+      "examples": [
+        [
+          "The students gave a performance at the end of the term.",
+          "學生在學期末進行了一場表演。",
+          "正式為觀眾進行音樂、戲劇、舞蹈等表演"
+        ],
+        [
+          "The band gave an energetic performance.",
+          "樂隊帶來了一場充滿活力的演出。",
+          "正式為觀眾進行音樂、戲劇、舞蹈等表演"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "performance-pdf-002",
+      "title": "產品、公司或投資在市場上的實際成果",
+      "form": "28. market performance — 市場表現",
+      "en": "28. market performance — 市場表現",
+      "zh": "產品、公司或投資在市場上的實際成果",
+      "note": "原始 PDF 第 28 節：產品、公司或投資在市場上的實際成果",
+      "examples": [
+        [
+          "The product's market performance exceeded expectations.",
+          "產品的市場表現超出預期。",
+          "產品、公司或投資在市場上的實際成果"
+        ],
+        [
+          "Analysts compared the performance of different investments.",
+          "分析員比較了不同投資的市場表現。",
+          "產品、公司或投資在市場上的實際成果"
         ]
       ],
       "options": [],
@@ -1635,63 +1659,63 @@ export default {
     },
     {
       "id": "performance-15-0",
-      "sense": "performance-mcq-14",
+      "sense": "performance-pdf-001",
       "en": "The students gave a performance at the end of the term.",
       "zh": "學生在學期末進行了一場表演。",
       "masked": "The students ____ at the end of the term.",
       "options": [
-        "performance-mcq-14",
+        "performance-pdf-001",
         "performance-mcq-13",
         "performance-mcq-15",
         "performance-mcq-12",
         "performance-mcq-16",
         "performance-mcq-11"
       ],
-      "explanation": "本句的「gave a performance」指「演出；表演」。",
+      "explanation": "本句的「gave a performance」指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "gave a performance"
       ],
       "optionReasons": {
-        "performance-mcq-14": "本句指「演出；表演」。",
+        "performance-pdf-001": "本句指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
         "performance-mcq-13": "「競技表現」與本句語境不同。",
         "performance-mcq-15": "「現場演出」與本句語境不同。",
         "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
         "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
         "performance-mcq-11": "「績效指標」與本句語境不同。"
       },
-      "correctOption": "performance-mcq-14"
+      "correctOption": "performance-pdf-001"
     },
     {
       "id": "performance-15-1",
-      "sense": "performance-mcq-14",
+      "sense": "performance-pdf-001",
       "en": "The band gave an energetic performance.",
       "zh": "樂隊帶來了一場充滿活力的演出。",
       "masked": "The band ____.",
       "options": [
-        "performance-mcq-14",
+        "performance-pdf-001",
         "performance-mcq-13",
         "performance-mcq-15",
         "performance-mcq-12",
         "performance-mcq-16",
         "performance-mcq-11"
       ],
-      "explanation": "本句的「gave an energetic performance」指「演出；表演」。",
+      "explanation": "本句的「gave an energetic performance」指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "gave an energetic performance"
       ],
       "optionReasons": {
-        "performance-mcq-14": "本句指「演出；表演」。",
+        "performance-pdf-001": "本句指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
         "performance-mcq-13": "「競技表現」與本句語境不同。",
         "performance-mcq-15": "「現場演出」與本句語境不同。",
         "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
         "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
         "performance-mcq-11": "「績效指標」與本句語境不同。"
       },
-      "correctOption": "performance-mcq-14"
+      "correctOption": "performance-pdf-001"
     },
     {
       "id": "performance-16-0",
@@ -2415,63 +2439,63 @@ export default {
     },
     {
       "id": "performance-28-0",
-      "sense": "performance-mcq-26",
+      "sense": "performance-pdf-002",
       "en": "The product's market performance exceeded expectations.",
       "zh": "產品的市場表現超出預期。",
       "masked": "The product's ____ exceeded expectations.",
       "options": [
-        "performance-mcq-26",
+        "performance-pdf-002",
         "performance-mcq-25",
         "performance-mcq-27",
         "performance-mcq-24",
         "performance-mcq-28",
         "performance-mcq-23"
       ],
-      "explanation": "本句的「market performance」指「財務表現」。",
+      "explanation": "本句的「market performance」指「產品、公司或投資在市場上的實際成果」。",
       "sentenceIndex": 55,
       "sourcePractice": 1,
       "targets": [
         "market performance"
       ],
       "optionReasons": {
-        "performance-mcq-26": "本句指「財務表現」。",
+        "performance-pdf-002": "本句指「產品、公司或投資在市場上的實際成果」。",
         "performance-mcq-25": "「業務表現」與本句語境不同。",
         "performance-mcq-27": "「表現好／差」與本句語境不同。",
         "performance-mcq-24": "「高性能的」與本句語境不同。",
         "performance-mcq-28": "「表演者」與本句語境不同。",
         "performance-mcq-23": "「引擎性能」與本句語境不同。"
       },
-      "correctOption": "performance-mcq-26"
+      "correctOption": "performance-pdf-002"
     },
     {
       "id": "performance-28-1",
-      "sense": "performance-mcq-26",
+      "sense": "performance-pdf-002",
       "en": "Analysts compared the performance of different investments.",
       "zh": "分析員比較了不同投資的市場表現。",
       "masked": "Analysts compared the ____ of different investments.",
       "options": [
-        "performance-mcq-26",
+        "performance-pdf-002",
         "performance-mcq-25",
         "performance-mcq-27",
         "performance-mcq-24",
         "performance-mcq-28",
         "performance-mcq-23"
       ],
-      "explanation": "本句的「performance」指「財務表現」。",
+      "explanation": "本句的「performance」指「產品、公司或投資在市場上的實際成果」。",
       "sentenceIndex": 56,
       "sourcePractice": 2,
       "targets": [
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-26": "本句指「財務表現」。",
+        "performance-pdf-002": "本句指「產品、公司或投資在市場上的實際成果」。",
         "performance-mcq-25": "「業務表現」與本句語境不同。",
         "performance-mcq-27": "「表現好／差」與本句語境不同。",
         "performance-mcq-24": "「高性能的」與本句語境不同。",
         "performance-mcq-28": "「表演者」與本句語境不同。",
         "performance-mcq-23": "「引擎性能」與本句語境不同。"
       },
-      "correctOption": "performance-mcq-26"
+      "correctOption": "performance-pdf-002"
     },
     {
       "id": "performance-29-0",

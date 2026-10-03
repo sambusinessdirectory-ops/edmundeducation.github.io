@@ -326,16 +326,6 @@ export default {
       "note": "來源詞義：以能令人產生好感、興趣或視覺愉悅的方式",
       "examples": [
         [
-          "The café has a simple but attractive interior.",
-          "這間咖啡店的室內設計簡單但很美觀、令人賞心悅目。",
-          "以能令人產生好感、興趣或視覺愉悅的方式"
-        ],
-        [
-          "The website has an attractive layout.",
-          "這個網站的版面美觀而有吸引力。",
-          "以能令人產生好感、興趣或視覺愉悅的方式"
-        ],
-        [
           "The products were attractively displayed.",
           "產品被擺放得很美觀、很能吸引顧客注意。",
           "以能令人產生好感、興趣或視覺愉悅的方式"
@@ -442,6 +432,28 @@ export default {
           "The long commute made the job less attractive.",
           "漫長的通勤時間令這份工作沒有那麼吸引。",
           "因條件不利或缺乏優點而令人不想選擇的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "attract-pdf-001",
+      "title": "視覺效果令人覺得舒服、美觀或想多看幾眼的",
+      "form": "15. attractive = place/design/object（地方／設計／物件）visually pleasant — 悅目的；美觀的",
+      "en": "15. attractive = place/design/object（地方／設計／物件）visually pleasant — 悅目的；美觀的",
+      "zh": "視覺效果令人覺得舒服、美觀或想多看幾眼的",
+      "note": "原始 PDF 第 15 節：視覺效果令人覺得舒服、美觀或想多看幾眼的",
+      "examples": [
+        [
+          "The café has a simple but attractive interior.",
+          "這間咖啡店的室內設計簡單但很美觀、令人賞心悅目。",
+          "視覺效果令人覺得舒服、美觀或想多看幾眼的"
+        ],
+        [
+          "The website has an attractive layout.",
+          "這個網站的版面美觀而有吸引力。",
+          "視覺效果令人覺得舒服、美觀或想多看幾眼的"
         ]
       ],
       "options": [],
@@ -1321,63 +1333,63 @@ export default {
     },
     {
       "id": "attract-15-0",
-      "sense": "attract-mcq-15",
+      "sense": "attract-pdf-001",
       "en": "The café has a simple but attractive interior.",
       "zh": "這間咖啡店的室內設計簡單但很美觀、令人賞心悅目。",
       "masked": "The café has a simple but ____ interior.",
       "options": [
-        "attract-mcq-15",
+        "attract-pdf-001",
         "attract-mcq-14",
         "attract-mcq-16",
         "attract-mcq-13",
         "attract-mcq-17",
         "attract-mcq-12"
       ],
-      "explanation": "本句的「attractive」指「以能令人產生好感、興趣或視覺愉悅的方式」。",
+      "explanation": "本句的「attractive」指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-15": "本句指「以能令人產生好感、興趣或視覺愉悅的方式」。",
+        "attract-pdf-001": "本句指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
         "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
         "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
         "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
         "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
         "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。"
       },
-      "correctOption": "attract-mcq-15"
+      "correctOption": "attract-pdf-001"
     },
     {
       "id": "attract-15-1",
-      "sense": "attract-mcq-15",
+      "sense": "attract-pdf-001",
       "en": "The website has an attractive layout.",
       "zh": "這個網站的版面美觀而有吸引力。",
       "masked": "The website has an ____ layout.",
       "options": [
-        "attract-mcq-15",
+        "attract-pdf-001",
         "attract-mcq-14",
         "attract-mcq-16",
         "attract-mcq-13",
         "attract-mcq-17",
         "attract-mcq-12"
       ],
-      "explanation": "本句的「attractive」指「以能令人產生好感、興趣或視覺愉悅的方式」。",
+      "explanation": "本句的「attractive」指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-15": "本句指「以能令人產生好感、興趣或視覺愉悅的方式」。",
+        "attract-pdf-001": "本句指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
         "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
         "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
         "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
         "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
         "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。"
       },
-      "correctOption": "attract-mcq-15"
+      "correctOption": "attract-pdf-001"
     },
     {
       "id": "attract-16-0",

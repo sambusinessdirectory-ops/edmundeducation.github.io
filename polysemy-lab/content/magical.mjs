@@ -246,11 +246,6 @@ export default {
           "特別擅長令事情成功的本領"
         ],
         [
-          "The player produced a moment of magic.",
-          "那名球員做出了一次神乎其技的精彩表現。",
-          "特別擅長令事情成功的本領"
-        ],
-        [
           "The performance had real magic.",
           "這場演出真的有一種難以言喻的魅力。",
           "特別擅長令事情成功的本領"
@@ -384,6 +379,23 @@ export default {
       "zh": "彷彿不需正常過程便神奇地發生",
       "note": "來源詞義：彷彿不需正常過程便神奇地發生",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "magical-pdf-001",
+      "title": "技巧／創意出色到彷彿超乎尋常的一刻",
+      "form": "48. magic = exceptional skill / brilliant performance — 神乎其技；精彩表現",
+      "en": "48. magic = exceptional skill / brilliant performance — 神乎其技；精彩表現",
+      "zh": "技巧／創意出色到彷彿超乎尋常的一刻",
+      "note": "原始 PDF 第 48 節：技巧／創意出色到彷彿超乎尋常的一刻",
+      "examples": [
+        [
+          "The player produced a moment of magic.",
+          "那名球員做出了一次神乎其技的精彩表現。",
+          "技巧／創意出色到彷彿超乎尋常的一刻"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -961,33 +973,33 @@ export default {
     },
     {
       "id": "magical-48-0",
-      "sense": "magical-mcq-14",
+      "sense": "magical-pdf-001",
       "en": "The player produced a moment of magic.",
       "zh": "那名球員做出了一次神乎其技的精彩表現。",
       "masked": "The player produced a moment of ____.",
       "options": [
-        "magical-mcq-14",
+        "magical-pdf-001",
         "magical-mcq-13",
         "magical-mcq-15",
         "magical-mcq-12",
         "magical-mcq-16",
         "magical-mcq-11"
       ],
-      "explanation": "本句的「magic」指「特別擅長令事情成功的本領」。",
+      "explanation": "本句的「magic」指「技巧／創意出色到彷彿超乎尋常的一刻」。",
       "sentenceIndex": 59,
       "sourcePractice": 48,
       "targets": [
         "magic"
       ],
       "optionReasons": {
-        "magical-mcq-14": "本句指「特別擅長令事情成功的本領」。",
+        "magical-pdf-001": "本句指「技巧／創意出色到彷彿超乎尋常的一刻」。",
         "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
         "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
         "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
         "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
         "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。"
       },
-      "correctOption": "magical-mcq-14"
+      "correctOption": "magical-pdf-001"
     },
     {
       "id": "magical-49-0",

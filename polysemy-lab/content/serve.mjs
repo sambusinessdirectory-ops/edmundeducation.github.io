@@ -120,16 +120,6 @@ export default {
           "This example serves to illustrate the problem.",
           "這個例子用來說明問題。",
           "發揮某種作用、達到目的或滿足需要"
-        ],
-        [
-          "This small table will serve for now.",
-          "這張小桌子目前暫時夠用。",
-          "發揮某種作用、達到目的或滿足需要"
-        ],
-        [
-          "A simple explanation should serve.",
-          "簡單的解釋應該就足夠了。",
-          "發揮某種作用、達到目的或滿足需要"
         ]
       ],
       "options": [],
@@ -318,6 +308,28 @@ export default {
           "The website is stored on a secure server.",
           "網站儲存在安全的伺服器上。",
           "餐廳服務員；亦指提供網絡資源的伺服器"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "serve-pdf-001",
+      "title": "足以滿足某種暫時或實際需要",
+      "form": "6. serve = be suitable or sufficient for a need（夠用） — 可用；足以應付",
+      "en": "6. serve = be suitable or sufficient for a need（夠用） — 可用；足以應付",
+      "zh": "足以滿足某種暫時或實際需要",
+      "note": "原始 PDF 第 6 節：足以滿足某種暫時或實際需要",
+      "examples": [
+        [
+          "This small table will serve for now.",
+          "這張小桌子目前暫時夠用。",
+          "足以滿足某種暫時或實際需要"
+        ],
+        [
+          "A simple explanation should serve.",
+          "簡單的解釋應該就足夠了。",
+          "足以滿足某種暫時或實際需要"
         ]
       ],
       "options": [],
@@ -687,63 +699,63 @@ export default {
     },
     {
       "id": "serve-06-0",
-      "sense": "serve-mcq-05",
+      "sense": "serve-pdf-001",
       "en": "This small table will serve for now.",
       "zh": "這張小桌子目前暫時夠用。",
       "masked": "This small table will ____ for now.",
       "options": [
-        "serve-mcq-05",
+        "serve-pdf-001",
         "serve-mcq-04",
         "serve-mcq-06",
         "serve-mcq-03",
         "serve-mcq-07",
         "serve-mcq-02"
       ],
-      "explanation": "本句的「serve」指「發揮某種作用、達到目的或滿足需要」。",
+      "explanation": "本句的「serve」指「足以滿足某種暫時或實際需要」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "serve"
       ],
       "optionReasons": {
-        "serve-mcq-05": "本句指「發揮某種作用、達到目的或滿足需要」。",
+        "serve-pdf-001": "本句指「足以滿足某種暫時或實際需要」。",
         "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
         "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
         "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
         "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
         "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。"
       },
-      "correctOption": "serve-mcq-05"
+      "correctOption": "serve-pdf-001"
     },
     {
       "id": "serve-06-1",
-      "sense": "serve-mcq-05",
+      "sense": "serve-pdf-001",
       "en": "A simple explanation should serve.",
       "zh": "簡單的解釋應該就足夠了。",
       "masked": "A simple explanation should ____.",
       "options": [
-        "serve-mcq-05",
+        "serve-pdf-001",
         "serve-mcq-04",
         "serve-mcq-06",
         "serve-mcq-03",
         "serve-mcq-07",
         "serve-mcq-02"
       ],
-      "explanation": "本句的「serve」指「發揮某種作用、達到目的或滿足需要」。",
+      "explanation": "本句的「serve」指「足以滿足某種暫時或實際需要」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "serve"
       ],
       "optionReasons": {
-        "serve-mcq-05": "本句指「發揮某種作用、達到目的或滿足需要」。",
+        "serve-pdf-001": "本句指「足以滿足某種暫時或實際需要」。",
         "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
         "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
         "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
         "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
         "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。"
       },
-      "correctOption": "serve-mcq-05"
+      "correctOption": "serve-pdf-001"
     },
     {
       "id": "serve-07-0",

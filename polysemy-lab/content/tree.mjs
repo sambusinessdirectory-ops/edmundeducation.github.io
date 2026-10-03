@@ -181,16 +181,6 @@ export default {
           "Each node in the tree may have several children.",
           "這個樹狀結構中的每個節點可以有多個子節點。",
           "由節點和分支構成的階層式資料結構"
-        ],
-        [
-          "The bird landed on a branch of the tree.",
-          "那隻鳥停在樹枝上。",
-          "由節點和分支構成的階層式資料結構"
-        ],
-        [
-          "Each branch of the decision tree represents a choice.",
-          "決策樹的每個分支代表一個選擇。",
-          "由節點和分支構成的階層式資料結構"
         ]
       ],
       "options": [],
@@ -323,6 +313,28 @@ export default {
           "Her family history is represented as a tree with deep roots.",
           "她的家族歷史被畫成一棵有深根的樹。",
           "常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "tree-pdf-001",
+      "title": "主幹和分支常被借用來表示層級、分類、發展或選擇",
+      "form": "9. branch of a tree（分支） — 樹枝；分支",
+      "en": "9. branch of a tree（分支） — 樹枝；分支",
+      "zh": "主幹和分支常被借用來表示層級、分類、發展或選擇",
+      "note": "原始 PDF 第 9 節：主幹和分支常被借用來表示層級、分類、發展或選擇",
+      "examples": [
+        [
+          "The bird landed on a branch of the tree.",
+          "那隻鳥停在樹枝上。",
+          "主幹和分支常被借用來表示層級、分類、發展或選擇"
+        ],
+        [
+          "Each branch of the decision tree represents a choice.",
+          "決策樹的每個分支代表一個選擇。",
+          "主幹和分支常被借用來表示層級、分類、發展或選擇"
         ]
       ],
       "options": [],
@@ -842,63 +854,63 @@ export default {
     },
     {
       "id": "tree-09-0",
-      "sense": "tree-mcq-08",
+      "sense": "tree-pdf-001",
       "en": "The bird landed on a branch of the tree.",
       "zh": "那隻鳥停在樹枝上。",
       "masked": "The bird landed on a ____.",
       "options": [
-        "tree-mcq-08",
+        "tree-pdf-001",
         "tree-mcq-07",
         "tree-mcq-09",
         "tree-mcq-06",
         "tree-mcq-10",
         "tree-mcq-05"
       ],
-      "explanation": "本句的「branch of the tree」指「由節點和分支構成的階層式資料結構」。",
+      "explanation": "本句的「branch of the tree」指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "branch of the tree"
       ],
       "optionReasons": {
-        "tree-mcq-08": "本句指「由節點和分支構成的階層式資料結構」。",
+        "tree-pdf-001": "本句指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
         "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
         "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
         "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
         "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
         "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。"
       },
-      "correctOption": "tree-mcq-08"
+      "correctOption": "tree-pdf-001"
     },
     {
       "id": "tree-09-1",
-      "sense": "tree-mcq-08",
+      "sense": "tree-pdf-001",
       "en": "Each branch of the decision tree represents a choice.",
       "zh": "決策樹的每個分支代表一個選擇。",
       "masked": "Each branch of the decision ____ represents a choice.",
       "options": [
-        "tree-mcq-08",
+        "tree-pdf-001",
         "tree-mcq-07",
         "tree-mcq-09",
         "tree-mcq-06",
         "tree-mcq-10",
         "tree-mcq-05"
       ],
-      "explanation": "本句的「tree」指「由節點和分支構成的階層式資料結構」。",
+      "explanation": "本句的「tree」指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-08": "本句指「由節點和分支構成的階層式資料結構」。",
+        "tree-pdf-001": "本句指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
         "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
         "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
         "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
         "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
         "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。"
       },
-      "correctOption": "tree-mcq-08"
+      "correctOption": "tree-pdf-001"
     },
     {
       "id": "tree-10-0",

@@ -343,16 +343,6 @@ export default {
           "She was the chosen candidate.",
           "她是獲選的候選人。",
           "經過選擇後被選定的"
-        ],
-        [
-          "The artist worked in her chosen field.",
-          "這位藝術家在自己選定的領域工作。",
-          "經過選擇後被選定的"
-        ],
-        [
-          "He returned to his chosen profession.",
-          "他回到自己選擇的職業。",
-          "經過選擇後被選定的"
         ]
       ],
       "options": [],
@@ -397,6 +387,28 @@ export default {
           "She used some choice language after seeing the bill.",
           "她看到帳單後說了些相當不好聽的話。",
           "語帶反諷，通常指尖銳、粗魯或帶髒話的說話"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "choose-pdf-001",
+      "title": "由本人或他人有意識地選定的",
+      "form": "20. chosen = deliberately preferred / specially selected — 特選的；特別選定的",
+      "en": "20. chosen = deliberately preferred / specially selected — 特選的；特別選定的",
+      "zh": "由本人或他人有意識地選定的",
+      "note": "原始 PDF 第 20 節：由本人或他人有意識地選定的",
+      "examples": [
+        [
+          "The artist worked in her chosen field.",
+          "這位藝術家在自己選定的領域工作。",
+          "由本人或他人有意識地選定的"
+        ],
+        [
+          "He returned to his chosen profession.",
+          "他回到自己選擇的職業。",
+          "由本人或他人有意識地選定的"
         ]
       ],
       "options": [],
@@ -1576,63 +1588,63 @@ export default {
     },
     {
       "id": "choose-20-0",
-      "sense": "choose-mcq-14",
+      "sense": "choose-pdf-001",
       "en": "The artist worked in her chosen field.",
       "zh": "這位藝術家在自己選定的領域工作。",
       "masked": "The artist worked in her ____.",
       "options": [
-        "choose-mcq-14",
+        "choose-pdf-001",
         "choose-mcq-13",
         "choose-mcq-15",
         "choose-mcq-12",
         "choose-mcq-16",
         "choose-mcq-11"
       ],
-      "explanation": "本句的「chosen field」指「經過選擇後被選定的」。",
+      "explanation": "本句的「chosen field」指「由本人或他人有意識地選定的」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "chosen field"
       ],
       "optionReasons": {
-        "choose-mcq-14": "本句指「經過選擇後被選定的」。",
+        "choose-pdf-001": "本句指「由本人或他人有意識地選定的」。",
         "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
         "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
         "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
         "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
         "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
       },
-      "correctOption": "choose-mcq-14"
+      "correctOption": "choose-pdf-001"
     },
     {
       "id": "choose-20-1",
-      "sense": "choose-mcq-14",
+      "sense": "choose-pdf-001",
       "en": "He returned to his chosen profession.",
       "zh": "他回到自己選擇的職業。",
       "masked": "He returned to his ____ profession.",
       "options": [
-        "choose-mcq-14",
+        "choose-pdf-001",
         "choose-mcq-13",
         "choose-mcq-15",
         "choose-mcq-12",
         "choose-mcq-16",
         "choose-mcq-11"
       ],
-      "explanation": "本句的「chosen」指「經過選擇後被選定的」。",
+      "explanation": "本句的「chosen」指「由本人或他人有意識地選定的」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "chosen"
       ],
       "optionReasons": {
-        "choose-mcq-14": "本句指「經過選擇後被選定的」。",
+        "choose-pdf-001": "本句指「由本人或他人有意識地選定的」。",
         "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
         "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
         "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
         "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
         "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
       },
-      "correctOption": "choose-mcq-14"
+      "correctOption": "choose-pdf-001"
     }
   ],
   "comparisons": [],

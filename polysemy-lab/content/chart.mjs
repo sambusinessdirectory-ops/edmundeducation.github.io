@@ -14,16 +14,6 @@ export default {
       "note": "來源詞義：圖表；表格",
       "examples": [
         [
-          "The report includes a chart showing monthly returns.",
-          "報告附有一張顯示每月退貨情況的圖表。",
-          "圖表；表格"
-        ],
-        [
-          "The chart makes the figures easier to compare.",
-          "這張圖表令數據更容易比較。",
-          "圖表；表格"
-        ],
-        [
           "Students should learn how to read charts accurately.",
           "學生應學會如何準確閱讀圖表。",
           "圖表；表格"
@@ -681,18 +671,7 @@ export default {
       "en": "the charts",
       "zh": "音樂排行榜",
       "note": "來源詞義：音樂排行榜",
-      "examples": [
-        [
-          "The song reached number one in the charts.",
-          "歌曲登上排行榜第一位。",
-          "音樂排行榜"
-        ],
-        [
-          "The album stayed in the charts for several weeks.",
-          "專輯在音樂排行榜上停留了數星期。",
-          "音樂排行榜"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -801,18 +780,7 @@ export default {
       "en": "chart (music)",
       "zh": "樂譜／編曲譜",
       "note": "來源詞義：樂譜／編曲譜",
-      "examples": [
-        [
-          "The band received the chart before rehearsal.",
-          "樂隊在排練前收到樂譜／編曲譜。",
-          "樂譜／編曲譜"
-        ],
-        [
-          "The arranger wrote a new chart for the brass section.",
-          "編曲者為銅管組寫了一份新編曲譜。",
-          "樂譜／編曲譜"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1197,68 +1165,134 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "chart-pdf-001",
+      "title": "把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表",
+      "form": "1. chart = visual arrangement of information — 圖表；表格",
+      "en": "1. chart = visual arrangement of information — 圖表；表格",
+      "zh": "把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表",
+      "note": "原始 PDF 第 1 節：把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表",
+      "examples": [
+        [
+          "The report includes a chart showing monthly returns.",
+          "報告附有一張顯示每月退貨情況的圖表。",
+          "把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表"
+        ],
+        [
+          "The chart makes the figures easier to compare.",
+          "這張圖表令數據更容易比較。",
+          "把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "chart-pdf-002",
+      "title": "按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜",
+      "form": "36. the charts = music sales/popularity rankings — 音樂排行榜",
+      "en": "36. the charts = music sales/popularity rankings — 音樂排行榜",
+      "zh": "按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜",
+      "note": "原始 PDF 第 36 節：按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜",
+      "examples": [
+        [
+          "The song reached number one in the charts.",
+          "歌曲登上排行榜第一位。",
+          "按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜"
+        ],
+        [
+          "The album stayed in the charts for several weeks.",
+          "專輯在音樂排行榜上停留了數星期。",
+          "按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "chart-pdf-003",
+      "title": "尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面",
+      "form": "42. chart = written musical arrangement, especially in jazz/pop — 樂譜；編曲譜",
+      "en": "42. chart = written musical arrangement, especially in jazz/pop — 樂譜；編曲譜",
+      "zh": "尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面",
+      "note": "原始 PDF 第 42 節：尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面",
+      "examples": [
+        [
+          "The band received the chart before rehearsal.",
+          "樂隊在排練前收到樂譜／編曲譜。",
+          "尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面"
+        ],
+        [
+          "The arranger wrote a new chart for the brass section.",
+          "編曲者為銅管組寫了一份新編曲譜。",
+          "尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "chart-01-0",
-      "sense": "chart-mcq-01",
+      "sense": "chart-pdf-001",
       "en": "The report includes a chart showing monthly returns.",
       "zh": "報告附有一張顯示每月退貨情況的圖表。",
       "masked": "The report includes a ____ showing monthly returns.",
       "options": [
-        "chart-mcq-01",
+        "chart-pdf-001",
         "chart-mcq-02",
         "chart-mcq-03",
         "chart-mcq-04",
         "chart-mcq-05",
         "chart-mcq-06"
       ],
-      "explanation": "本句的「chart」指「圖表；表格」。",
+      "explanation": "本句的「chart」指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
+        "chart-pdf-001": "本句指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
         "chart-mcq-02": "「尺碼表」與本句語境不同。",
         "chart-mcq-03": "「量度表」與本句語境不同。",
         "chart-mcq-04": "「換算表」與本句語境不同。",
         "chart-mcq-05": "「比較表」與本句語境不同。",
         "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
       },
-      "correctOption": "chart-mcq-01"
+      "correctOption": "chart-pdf-001"
     },
     {
       "id": "chart-01-1",
-      "sense": "chart-mcq-01",
+      "sense": "chart-pdf-001",
       "en": "The chart makes the figures easier to compare.",
       "zh": "這張圖表令數據更容易比較。",
       "masked": "The ____ makes the figures easier to compare.",
       "options": [
-        "chart-mcq-01",
+        "chart-pdf-001",
         "chart-mcq-02",
         "chart-mcq-03",
         "chart-mcq-04",
         "chart-mcq-05",
         "chart-mcq-06"
       ],
-      "explanation": "本句的「chart」指「圖表；表格」。",
+      "explanation": "本句的「chart」指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
+        "chart-pdf-001": "本句指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
         "chart-mcq-02": "「尺碼表」與本句語境不同。",
         "chart-mcq-03": "「量度表」與本句語境不同。",
         "chart-mcq-04": "「換算表」與本句語境不同。",
         "chart-mcq-05": "「比較表」與本句語境不同。",
         "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
       },
-      "correctOption": "chart-mcq-01"
+      "correctOption": "chart-pdf-001"
     },
     {
       "id": "chart-02-0",
@@ -3062,63 +3096,63 @@ export default {
     },
     {
       "id": "chart-36-0",
-      "sense": "chart-mcq-31",
+      "sense": "chart-pdf-002",
       "en": "The song reached number one in the charts.",
       "zh": "歌曲登上排行榜第一位。",
       "masked": "The song reached number one in the ____.",
       "options": [
-        "chart-mcq-31",
+        "chart-pdf-002",
         "chart-mcq-30",
         "chart-mcq-32",
         "chart-mcq-29",
         "chart-mcq-33",
         "chart-mcq-28"
       ],
-      "explanation": "本句的「charts」指「音樂排行榜」。",
+      "explanation": "本句的「charts」指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
       "sentenceIndex": 63,
       "sourcePractice": 1,
       "targets": [
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-31": "本句指「音樂排行榜」。",
+        "chart-pdf-002": "本句指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
         "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
         "chart-mcq-32": "「單曲榜」與本句語境不同。",
         "chart-mcq-29": "「星圖」與本句語境不同。",
         "chart-mcq-33": "「專輯榜」與本句語境不同。",
         "chart-mcq-28": "「氣象圖」與本句語境不同。"
       },
-      "correctOption": "chart-mcq-31"
+      "correctOption": "chart-pdf-002"
     },
     {
       "id": "chart-36-1",
-      "sense": "chart-mcq-31",
+      "sense": "chart-pdf-002",
       "en": "The album stayed in the charts for several weeks.",
       "zh": "專輯在音樂排行榜上停留了數星期。",
       "masked": "The album stayed in the ____ for several weeks.",
       "options": [
-        "chart-mcq-31",
+        "chart-pdf-002",
         "chart-mcq-30",
         "chart-mcq-32",
         "chart-mcq-29",
         "chart-mcq-33",
         "chart-mcq-28"
       ],
-      "explanation": "本句的「charts」指「音樂排行榜」。",
+      "explanation": "本句的「charts」指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
       "sentenceIndex": 64,
       "sourcePractice": 2,
       "targets": [
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-31": "本句指「音樂排行榜」。",
+        "chart-pdf-002": "本句指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
         "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
         "chart-mcq-32": "「單曲榜」與本句語境不同。",
         "chart-mcq-29": "「星圖」與本句語境不同。",
         "chart-mcq-33": "「專輯榜」與本句語境不同。",
         "chart-mcq-28": "「氣象圖」與本句語境不同。"
       },
-      "correctOption": "chart-mcq-31"
+      "correctOption": "chart-pdf-002"
     },
     {
       "id": "chart-37-0",
@@ -3422,63 +3456,63 @@ export default {
     },
     {
       "id": "chart-42-0",
-      "sense": "chart-mcq-36",
+      "sense": "chart-pdf-003",
       "en": "The band received the chart before rehearsal.",
       "zh": "樂隊在排練前收到樂譜／編曲譜。",
       "masked": "The band received the ____ before rehearsal.",
       "options": [
-        "chart-mcq-36",
+        "chart-pdf-003",
         "chart-mcq-35",
         "chart-mcq-37",
         "chart-mcq-34",
         "chart-mcq-38",
         "chart-mcq-33"
       ],
-      "explanation": "本句的「chart」指「樂譜／編曲譜」。",
+      "explanation": "本句的「chart」指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
       "sentenceIndex": 75,
       "sourcePractice": 1,
       "targets": [
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-36": "本句指「樂譜／編曲譜」。",
+        "chart-pdf-003": "本句指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
         "chart-mcq-35": "「榜首的」與本句語境不同。",
         "chart-mcq-37": "「和弦譜」與本句語境不同。",
         "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
         "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
         "chart-mcq-33": "「專輯榜」與本句語境不同。"
       },
-      "correctOption": "chart-mcq-36"
+      "correctOption": "chart-pdf-003"
     },
     {
       "id": "chart-42-1",
-      "sense": "chart-mcq-36",
+      "sense": "chart-pdf-003",
       "en": "The arranger wrote a new chart for the brass section.",
       "zh": "編曲者為銅管組寫了一份新編曲譜。",
       "masked": "The arranger wrote a new ____ for the brass section.",
       "options": [
-        "chart-mcq-36",
+        "chart-pdf-003",
         "chart-mcq-35",
         "chart-mcq-37",
         "chart-mcq-34",
         "chart-mcq-38",
         "chart-mcq-33"
       ],
-      "explanation": "本句的「chart」指「樂譜／編曲譜」。",
+      "explanation": "本句的「chart」指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
       "sentenceIndex": 76,
       "sourcePractice": 2,
       "targets": [
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-36": "本句指「樂譜／編曲譜」。",
+        "chart-pdf-003": "本句指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
         "chart-mcq-35": "「榜首的」與本句語境不同。",
         "chart-mcq-37": "「和弦譜」與本句語境不同。",
         "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
         "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
         "chart-mcq-33": "「專輯榜」與本句語境不同。"
       },
-      "correctOption": "chart-mcq-36"
+      "correctOption": "chart-pdf-003"
     },
     {
       "id": "chart-43-0",

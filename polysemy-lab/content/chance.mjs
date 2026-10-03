@@ -118,16 +118,6 @@ export default {
       "note": "來源詞義：碰巧發生或碰巧做某事；較低頻",
       "examples": [
         [
-          "A chance meeting changed the direction of his career.",
-          "一次偶然的相遇改變了他的職業方向。",
-          "碰巧發生或碰巧做某事；較低頻"
-        ],
-        [
-          "It was a chance discovery.",
-          "那是一項偶然的發現。",
-          "碰巧發生或碰巧做某事；較低頻"
-        ],
-        [
           "We chanced to meet again several years later.",
           "幾年後我們又碰巧遇上了。",
           "碰巧發生或碰巧做某事；較低頻"
@@ -283,6 +273,28 @@ export default {
           "Don’t leave your future to chance.",
           "不要讓自己的未來任由運氣／偶然決定。",
           "表示任由偶然決定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "chance-pdf-001",
+      "title": "並非預先安排、純屬偶然的相遇／發現",
+      "form": "6. chance = accidental/unplanned occurrence（偶然事件） — 巧合；偶然事件",
+      "en": "6. chance = accidental/unplanned occurrence（偶然事件） — 巧合；偶然事件",
+      "zh": "並非預先安排、純屬偶然的相遇／發現",
+      "note": "原始 PDF 第 6 節：並非預先安排、純屬偶然的相遇／發現",
+      "examples": [
+        [
+          "A chance meeting changed the direction of his career.",
+          "一次偶然的相遇改變了他的職業方向。",
+          "並非預先安排、純屬偶然的相遇／發現"
+        ],
+        [
+          "It was a chance discovery.",
+          "那是一項偶然的發現。",
+          "並非預先安排、純屬偶然的相遇／發現"
         ]
       ],
       "options": [],
@@ -622,63 +634,63 @@ export default {
     },
     {
       "id": "chance-06-0",
-      "sense": "chance-mcq-06",
+      "sense": "chance-pdf-001",
       "en": "A chance meeting changed the direction of his career.",
       "zh": "一次偶然的相遇改變了他的職業方向。",
       "masked": "A ____ meeting changed the direction of his career.",
       "options": [
-        "chance-mcq-06",
+        "chance-pdf-001",
         "chance-mcq-05",
         "chance-mcq-07",
         "chance-mcq-04",
         "chance-mcq-08",
         "chance-mcq-03"
       ],
-      "explanation": "本句的「chance」指「碰巧發生或碰巧做某事；較低頻」。",
+      "explanation": "本句的「chance」指「並非預先安排、純屬偶然的相遇／發現」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-06": "本句指「碰巧發生或碰巧做某事；較低頻」。",
+        "chance-pdf-001": "本句指「並非預先安排、純屬偶然的相遇／發現」。",
         "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
         "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
         "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
         "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
         "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。"
       },
-      "correctOption": "chance-mcq-06"
+      "correctOption": "chance-pdf-001"
     },
     {
       "id": "chance-06-1",
-      "sense": "chance-mcq-06",
+      "sense": "chance-pdf-001",
       "en": "It was a chance discovery.",
       "zh": "那是一項偶然的發現。",
       "masked": "It was a ____ discovery.",
       "options": [
-        "chance-mcq-06",
+        "chance-pdf-001",
         "chance-mcq-05",
         "chance-mcq-07",
         "chance-mcq-04",
         "chance-mcq-08",
         "chance-mcq-03"
       ],
-      "explanation": "本句的「chance」指「碰巧發生或碰巧做某事；較低頻」。",
+      "explanation": "本句的「chance」指「並非預先安排、純屬偶然的相遇／發現」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-06": "本句指「碰巧發生或碰巧做某事；較低頻」。",
+        "chance-pdf-001": "本句指「並非預先安排、純屬偶然的相遇／發現」。",
         "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
         "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
         "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
         "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
         "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。"
       },
-      "correctOption": "chance-mcq-06"
+      "correctOption": "chance-pdf-001"
     },
     {
       "id": "chance-07-0",

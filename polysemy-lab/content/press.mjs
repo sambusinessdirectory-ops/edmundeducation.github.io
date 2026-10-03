@@ -180,16 +180,6 @@ export default {
           "The company refused to comment to the press.",
           "公司拒絕向傳媒／新聞界發表評論。",
           "報章、記者及新聞機構整體／新聞媒體"
-        ],
-        [
-          "The press gathered outside the courthouse.",
-          "大批記者聚集在法院外。",
-          "報章、記者及新聞機構整體／新聞媒體"
-        ],
-        [
-          "Security kept the press away from the entrance.",
-          "保安阻止記者群靠近入口。",
-          "報章、記者及新聞機構整體／新聞媒體"
         ]
       ],
       "options": [],
@@ -454,6 +444,28 @@ export default {
           "Don’t let anyone pressurize you into making a quick decision.",
           "不要讓任何人施壓迫使你匆忙作決定。",
           "用心理或社會壓力迫使某人作決定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "press-pdf-001",
+      "title": "在現場採訪或報道事件的記者群體",
+      "form": "9. press = journalists/reporters as a group（記者群體） — 記者；傳媒記者",
+      "en": "9. press = journalists/reporters as a group（記者群體） — 記者；傳媒記者",
+      "zh": "在現場採訪或報道事件的記者群體",
+      "note": "原始 PDF 第 9 節：在現場採訪或報道事件的記者群體",
+      "examples": [
+        [
+          "The press gathered outside the courthouse.",
+          "大批記者聚集在法院外。",
+          "在現場採訪或報道事件的記者群體"
+        ],
+        [
+          "Security kept the press away from the entrance.",
+          "保安阻止記者群靠近入口。",
+          "在現場採訪或報道事件的記者群體"
         ]
       ],
       "options": [],
@@ -973,63 +985,63 @@ export default {
     },
     {
       "id": "press-09-0",
-      "sense": "press-mcq-08",
+      "sense": "press-pdf-001",
       "en": "The press gathered outside the courthouse.",
       "zh": "大批記者聚集在法院外。",
       "masked": "The ____ gathered outside the courthouse.",
       "options": [
-        "press-mcq-08",
+        "press-pdf-001",
         "press-mcq-07",
         "press-mcq-09",
         "press-mcq-06",
         "press-mcq-10",
         "press-mcq-05"
       ],
-      "explanation": "本句的「press」指「報章、記者及新聞機構整體／新聞媒體」。",
+      "explanation": "本句的「press」指「在現場採訪或報道事件的記者群體」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "press"
       ],
       "optionReasons": {
-        "press-mcq-08": "本句指「報章、記者及新聞機構整體／新聞媒體」。",
+        "press-pdf-001": "本句指「在現場採訪或報道事件的記者群體」。",
         "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
         "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
         "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
         "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
         "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。"
       },
-      "correctOption": "press-mcq-08"
+      "correctOption": "press-pdf-001"
     },
     {
       "id": "press-09-1",
-      "sense": "press-mcq-08",
+      "sense": "press-pdf-001",
       "en": "Security kept the press away from the entrance.",
       "zh": "保安阻止記者群靠近入口。",
       "masked": "Security kept the ____ away from the entrance.",
       "options": [
-        "press-mcq-08",
+        "press-pdf-001",
         "press-mcq-07",
         "press-mcq-09",
         "press-mcq-06",
         "press-mcq-10",
         "press-mcq-05"
       ],
-      "explanation": "本句的「press」指「報章、記者及新聞機構整體／新聞媒體」。",
+      "explanation": "本句的「press」指「在現場採訪或報道事件的記者群體」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "press"
       ],
       "optionReasons": {
-        "press-mcq-08": "本句指「報章、記者及新聞機構整體／新聞媒體」。",
+        "press-pdf-001": "本句指「在現場採訪或報道事件的記者群體」。",
         "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
         "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
         "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
         "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
         "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。"
       },
-      "correctOption": "press-mcq-08"
+      "correctOption": "press-pdf-001"
     },
     {
       "id": "press-10-0",

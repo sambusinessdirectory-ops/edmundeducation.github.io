@@ -129,16 +129,6 @@ export default {
       "note": "來源詞義：變涼或使某物冷卻",
       "examples": [
         [
-          "Let the soup cool before you eat it.",
-          "先讓湯放涼再喝。",
-          "變涼或使某物冷卻"
-        ],
-        [
-          "The metal cooled quickly.",
-          "金屬很快冷卻了。",
-          "變涼或使某物冷卻"
-        ],
-        [
           "The fan helped cool the room.",
           "風扇幫助房間降溫。",
           "變涼或使某物冷卻"
@@ -240,6 +230,28 @@ export default {
           "There was a noticeable coolness between them.",
           "他們之間明顯有一種冷淡／疏離感。",
           "涼意、冷靜或冷淡狀態，依語境而定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "cool-pdf-001",
+      "title": "溫度降低，變得比較涼",
+      "form": "6. cool = become less hot（動詞） — 變涼；冷卻",
+      "en": "6. cool = become less hot（動詞） — 變涼；冷卻",
+      "zh": "溫度降低，變得比較涼",
+      "note": "原始 PDF 第 6 節：溫度降低，變得比較涼",
+      "examples": [
+        [
+          "Let the soup cool before you eat it.",
+          "先讓湯放涼再喝。",
+          "溫度降低，變得比較涼"
+        ],
+        [
+          "The metal cooled quickly.",
+          "金屬很快冷卻了。",
+          "溫度降低，變得比較涼"
         ]
       ],
       "options": [],
@@ -579,63 +591,63 @@ export default {
     },
     {
       "id": "cool-06-0",
-      "sense": "cool-mcq-06",
+      "sense": "cool-pdf-001",
       "en": "Let the soup cool before you eat it.",
       "zh": "先讓湯放涼再喝。",
       "masked": "Let the soup ____ before you eat it.",
       "options": [
-        "cool-mcq-06",
+        "cool-pdf-001",
         "cool-mcq-05",
         "cool-mcq-07",
         "cool-mcq-04",
         "cool-mcq-08",
         "cool-mcq-03"
       ],
-      "explanation": "本句的「cool」指「變涼或使某物冷卻」。",
+      "explanation": "本句的「cool」指「溫度降低，變得比較涼」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-06": "本句指「變涼或使某物冷卻」。",
+        "cool-pdf-001": "本句指「溫度降低，變得比較涼」。",
         "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
         "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
         "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
         "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
         "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。"
       },
-      "correctOption": "cool-mcq-06"
+      "correctOption": "cool-pdf-001"
     },
     {
       "id": "cool-06-1",
-      "sense": "cool-mcq-06",
+      "sense": "cool-pdf-001",
       "en": "The metal cooled quickly.",
       "zh": "金屬很快冷卻了。",
       "masked": "The metal ____ quickly.",
       "options": [
-        "cool-mcq-06",
+        "cool-pdf-001",
         "cool-mcq-05",
         "cool-mcq-07",
         "cool-mcq-04",
         "cool-mcq-08",
         "cool-mcq-03"
       ],
-      "explanation": "本句的「cooled」指「變涼或使某物冷卻」。",
+      "explanation": "本句的「cooled」指「溫度降低，變得比較涼」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "cooled"
       ],
       "optionReasons": {
-        "cool-mcq-06": "本句指「變涼或使某物冷卻」。",
+        "cool-pdf-001": "本句指「溫度降低，變得比較涼」。",
         "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
         "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
         "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
         "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
         "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。"
       },
-      "correctOption": "cool-mcq-06"
+      "correctOption": "cool-pdf-001"
     },
     {
       "id": "cool-07-0",

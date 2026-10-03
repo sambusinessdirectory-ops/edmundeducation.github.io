@@ -202,18 +202,7 @@ export default {
       "en": "stressed — linguistics",
       "zh": "在發音時承受重音、被特別重讀的",
       "note": "來源詞義：在發音時承受重音、被特別重讀的",
-      "examples": [
-        [
-          "Stress the first syllable.",
-          "請重讀第一個音節。",
-          "在發音時承受重音、被特別重讀的"
-        ],
-        [
-          "Native speakers often stress the key word.",
-          "母語者常會重讀關鍵字詞。",
-          "在發音時承受重音、被特別重讀的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -398,6 +387,28 @@ export default {
           "The new bridge was stress-tested before opening.",
           "新橋在開放前接受了承載／壓力測試。",
           "刻意在高負荷或極端條件下測試某物是否穩定可靠"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "stress-pdf-001",
+      "title": "發音時有意把某個音節或詞讀得更突出",
+      "form": "10. stress + syllable/word（語言動詞） — 重讀；把重音放在……",
+      "en": "10. stress + syllable/word（語言動詞） — 重讀；把重音放在……",
+      "zh": "發音時有意把某個音節或詞讀得更突出",
+      "note": "原始 PDF 第 10 節：發音時有意把某個音節或詞讀得更突出",
+      "examples": [
+        [
+          "Stress the first syllable.",
+          "請重讀第一個音節。",
+          "發音時有意把某個音節或詞讀得更突出"
+        ],
+        [
+          "Native speakers often stress the key word.",
+          "母語者常會重讀關鍵字詞。",
+          "發音時有意把某個音節或詞讀得更突出"
         ]
       ],
       "options": [],
@@ -977,63 +988,63 @@ export default {
     },
     {
       "id": "stress-10-0",
-      "sense": "stress-mcq-09",
+      "sense": "stress-pdf-001",
       "en": "Stress the first syllable.",
       "zh": "請重讀第一個音節。",
       "masked": "____ the first syllable.",
       "options": [
-        "stress-mcq-09",
+        "stress-pdf-001",
         "stress-mcq-08",
         "stress-mcq-10",
         "stress-mcq-07",
         "stress-mcq-11",
         "stress-mcq-06"
       ],
-      "explanation": "本句的「Stress」指「在發音時承受重音、被特別重讀的」。",
+      "explanation": "本句的「Stress」指「發音時有意把某個音節或詞讀得更突出」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "Stress"
       ],
       "optionReasons": {
-        "stress-mcq-09": "本句指「在發音時承受重音、被特別重讀的」。",
+        "stress-pdf-001": "本句指「發音時有意把某個音節或詞讀得更突出」。",
         "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
         "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
         "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
         "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
         "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
       },
-      "correctOption": "stress-mcq-09"
+      "correctOption": "stress-pdf-001"
     },
     {
       "id": "stress-10-1",
-      "sense": "stress-mcq-09",
+      "sense": "stress-pdf-001",
       "en": "Native speakers often stress the key word.",
       "zh": "母語者常會重讀關鍵字詞。",
       "masked": "Native speakers often ____ the key word.",
       "options": [
-        "stress-mcq-09",
+        "stress-pdf-001",
         "stress-mcq-08",
         "stress-mcq-10",
         "stress-mcq-07",
         "stress-mcq-11",
         "stress-mcq-06"
       ],
-      "explanation": "本句的「stress」指「在發音時承受重音、被特別重讀的」。",
+      "explanation": "本句的「stress」指「發音時有意把某個音節或詞讀得更突出」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-09": "本句指「在發音時承受重音、被特別重讀的」。",
+        "stress-pdf-001": "本句指「發音時有意把某個音節或詞讀得更突出」。",
         "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
         "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
         "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
         "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
         "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
       },
-      "correctOption": "stress-mcq-09"
+      "correctOption": "stress-pdf-001"
     },
     {
       "id": "stress-11-0",

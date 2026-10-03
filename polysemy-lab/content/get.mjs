@@ -486,16 +486,6 @@ export default {
           "You got my name wrong.",
           "你把我的名字弄錯了。",
           "正確／錯誤地理解、記住或處理某事"
-        ],
-        [
-          "The advertisement got me interested in the product.",
-          "那則廣告令我對產品產生興趣。",
-          "正確／錯誤地理解、記住或處理某事"
-        ],
-        [
-          "The music got everyone excited.",
-          "音樂令大家興奮起來。",
-          "正確／錯誤地理解、記住或處理某事"
         ]
       ],
       "options": [],
@@ -749,6 +739,28 @@ export default {
           "The team got three points.",
           "球隊取得了三分。",
           "在某種計量、競賽或反應中取得一定數量／成果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "get-pdf-001",
+      "title": "使某人進入某種情緒／狀態",
+      "form": "28. get = persuade/affect so that something happens — 使；令",
+      "en": "28. get = persuade/affect so that something happens — 使；令",
+      "zh": "使某人進入某種情緒／狀態",
+      "note": "原始 PDF 第 28 節：使某人進入某種情緒／狀態",
+      "examples": [
+        [
+          "The advertisement got me interested in the product.",
+          "那則廣告令我對產品產生興趣。",
+          "使某人進入某種情緒／狀態"
+        ],
+        [
+          "The music got everyone excited.",
+          "音樂令大家興奮起來。",
+          "使某人進入某種情緒／狀態"
         ]
       ],
       "options": [],
@@ -2408,63 +2420,63 @@ export default {
     },
     {
       "id": "get-28-0",
-      "sense": "get-mcq-21",
+      "sense": "get-pdf-001",
       "en": "The advertisement got me interested in the product.",
       "zh": "那則廣告令我對產品產生興趣。",
       "masked": "The advertisement ____ in the product.",
       "options": [
-        "get-mcq-21",
+        "get-pdf-001",
         "get-mcq-20",
         "get-mcq-22",
         "get-mcq-19",
         "get-mcq-23",
         "get-mcq-18"
       ],
-      "explanation": "本句的「got me interested」指「正確／錯誤地理解、記住或處理某事」。",
+      "explanation": "本句的「got me interested」指「使某人進入某種情緒／狀態」。",
       "sentenceIndex": 55,
       "sourcePractice": 56,
       "targets": [
         "got me interested"
       ],
       "optionReasons": {
-        "get-mcq-21": "本句指「正確／錯誤地理解、記住或處理某事」。",
+        "get-pdf-001": "本句指「使某人進入某種情緒／狀態」。",
         "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
         "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
         "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
         "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
         "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。"
       },
-      "correctOption": "get-mcq-21"
+      "correctOption": "get-pdf-001"
     },
     {
       "id": "get-28-1",
-      "sense": "get-mcq-21",
+      "sense": "get-pdf-001",
       "en": "The music got everyone excited.",
       "zh": "音樂令大家興奮起來。",
       "masked": "The music ____.",
       "options": [
-        "get-mcq-21",
+        "get-pdf-001",
         "get-mcq-20",
         "get-mcq-22",
         "get-mcq-19",
         "get-mcq-23",
         "get-mcq-18"
       ],
-      "explanation": "本句的「got everyone excited」指「正確／錯誤地理解、記住或處理某事」。",
+      "explanation": "本句的「got everyone excited」指「使某人進入某種情緒／狀態」。",
       "sentenceIndex": 56,
       "sourcePractice": 57,
       "targets": [
         "got everyone excited"
       ],
       "optionReasons": {
-        "get-mcq-21": "本句指「正確／錯誤地理解、記住或處理某事」。",
+        "get-pdf-001": "本句指「使某人進入某種情緒／狀態」。",
         "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
         "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
         "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
         "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
         "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。"
       },
-      "correctOption": "get-mcq-21"
+      "correctOption": "get-pdf-001"
     },
     {
       "id": "get-29-0",

@@ -44,16 +44,6 @@ export default {
           "Can you drive?",
           "你會開車嗎？",
           "已掌握某項技能，知道怎樣進行"
-        ],
-        [
-          "She can walk short distances.",
-          "她可以走一小段路。",
-          "已掌握某項技能，知道怎樣進行"
-        ],
-        [
-          "I can’t lift this box.",
-          "我搬不動這個箱子。",
-          "已掌握某項技能，知道怎樣進行"
         ]
       ],
       "options": [],
@@ -236,16 +226,6 @@ export default {
       "zh": "表示某個選項／安排在目前情況下可行",
       "note": "來源詞義：表示某個選項／安排在目前情況下可行",
       "examples": [
-        [
-          "We can meet tomorrow if you prefer.",
-          "如果你想，我們可以明天見面。",
-          "表示某個選項／安排在目前情況下可行"
-        ],
-        [
-          "You can try asking her directly.",
-          "你可以試試直接問她。",
-          "表示某個選項／安排在目前情況下可行"
-        ],
         [
           "You can take the bus or walk.",
           "你可以坐巴士，也可以走路。",
@@ -871,6 +851,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "can-pdf-001",
+      "title": "身體條件允許進行某項行動",
+      "form": "3. can = physically able to（身體上能夠） — 能夠；做得到",
+      "en": "3. can = physically able to（身體上能夠） — 能夠；做得到",
+      "zh": "身體條件允許進行某項行動",
+      "note": "原始 PDF 第 3 節：身體條件允許進行某項行動",
+      "examples": [
+        [
+          "She can walk short distances.",
+          "她可以走一小段路。",
+          "身體條件允許進行某項行動"
+        ],
+        [
+          "I can’t lift this box.",
+          "我搬不動這個箱子。",
+          "身體條件允許進行某項行動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "can-pdf-002",
+      "title": "提出一個可行選項、建議或安排",
+      "form": "14. can = offer/suggestion（可以……） — 可以考慮；可選擇",
+      "en": "14. can = offer/suggestion（可以……） — 可以考慮；可選擇",
+      "zh": "提出一個可行選項、建議或安排",
+      "note": "原始 PDF 第 14 節：提出一個可行選項、建議或安排",
+      "examples": [
+        [
+          "We can meet tomorrow if you prefer.",
+          "如果你想，我們可以明天見面。",
+          "提出一個可行選項、建議或安排"
+        ],
+        [
+          "You can try asking her directly.",
+          "你可以試試直接問她。",
+          "提出一個可行選項、建議或安排"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -996,63 +1020,63 @@ export default {
     },
     {
       "id": "can-03-0",
-      "sense": "can-mcq-02",
+      "sense": "can-pdf-001",
       "en": "She can walk short distances.",
       "zh": "她可以走一小段路。",
       "masked": "She ____ short distances.",
       "options": [
-        "can-mcq-02",
+        "can-pdf-001",
         "can-mcq-01",
         "can-mcq-03",
         "can-mcq-04",
         "can-mcq-05",
         "can-mcq-06"
       ],
-      "explanation": "本句的「can walk」指「已掌握某項技能，知道怎樣進行」。",
+      "explanation": "本句的「can walk」指「身體條件允許進行某項行動」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "can walk"
       ],
       "optionReasons": {
-        "can-mcq-02": "本句指「已掌握某項技能，知道怎樣進行」。",
+        "can-pdf-001": "本句指「身體條件允許進行某項行動」。",
         "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
         "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
         "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
         "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
         "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
       },
-      "correctOption": "can-mcq-02"
+      "correctOption": "can-pdf-001"
     },
     {
       "id": "can-03-1",
-      "sense": "can-mcq-02",
+      "sense": "can-pdf-001",
       "en": "I can’t lift this box.",
       "zh": "我搬不動這個箱子。",
       "masked": "I ____’t lift this box.",
       "options": [
-        "can-mcq-02",
+        "can-pdf-001",
         "can-mcq-01",
         "can-mcq-03",
         "can-mcq-04",
         "can-mcq-05",
         "can-mcq-06"
       ],
-      "explanation": "本句的「can」指「已掌握某項技能，知道怎樣進行」。",
+      "explanation": "本句的「can」指「身體條件允許進行某項行動」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "can"
       ],
       "optionReasons": {
-        "can-mcq-02": "本句指「已掌握某項技能，知道怎樣進行」。",
+        "can-pdf-001": "本句指「身體條件允許進行某項行動」。",
         "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
         "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
         "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
         "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
         "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
       },
-      "correctOption": "can-mcq-02"
+      "correctOption": "can-pdf-001"
     },
     {
       "id": "can-04-0",
@@ -1686,63 +1710,63 @@ export default {
     },
     {
       "id": "can-14-0",
-      "sense": "can-mcq-10",
+      "sense": "can-pdf-002",
       "en": "We can meet tomorrow if you prefer.",
       "zh": "如果你想，我們可以明天見面。",
       "masked": "We ____ if you prefer.",
       "options": [
-        "can-mcq-10",
+        "can-pdf-002",
         "can-mcq-09",
         "can-mcq-11",
         "can-mcq-08",
         "can-mcq-12",
         "can-mcq-07"
       ],
-      "explanation": "本句的「can meet tomorrow」指「表示某個選項／安排在目前情況下可行」。",
+      "explanation": "本句的「can meet tomorrow」指「提出一個可行選項、建議或安排」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "can meet tomorrow"
       ],
       "optionReasons": {
-        "can-mcq-10": "本句指「表示某個選項／安排在目前情況下可行」。",
+        "can-pdf-002": "本句指「提出一個可行選項、建議或安排」。",
         "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
         "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
         "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
         "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
         "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。"
       },
-      "correctOption": "can-mcq-10"
+      "correctOption": "can-pdf-002"
     },
     {
       "id": "can-14-1",
-      "sense": "can-mcq-10",
+      "sense": "can-pdf-002",
       "en": "You can try asking her directly.",
       "zh": "你可以試試直接問她。",
       "masked": "You ____ try asking her directly.",
       "options": [
-        "can-mcq-10",
+        "can-pdf-002",
         "can-mcq-09",
         "can-mcq-11",
         "can-mcq-08",
         "can-mcq-12",
         "can-mcq-07"
       ],
-      "explanation": "本句的「can」指「表示某個選項／安排在目前情況下可行」。",
+      "explanation": "本句的「can」指「提出一個可行選項、建議或安排」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "can"
       ],
       "optionReasons": {
-        "can-mcq-10": "本句指「表示某個選項／安排在目前情況下可行」。",
+        "can-pdf-002": "本句指「提出一個可行選項、建議或安排」。",
         "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
         "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
         "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
         "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
         "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。"
       },
-      "correctOption": "can-mcq-10"
+      "correctOption": "can-pdf-002"
     },
     {
       "id": "can-15-0",

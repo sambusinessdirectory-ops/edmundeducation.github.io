@@ -232,11 +232,6 @@ export default {
       "note": "來源詞義：毫無道理／意義的；或失去知覺的",
       "examples": [
         [
-          "It was a senseless act of destruction.",
-          "那是一種毫無意義／毫無理性的破壞行為。",
-          "毫無道理／意義的；或失去知覺的"
-        ],
-        [
           "The impact knocked him senseless.",
           "那次撞擊令他失去知覺。",
           "毫無道理／意義的；或失去知覺的"
@@ -318,6 +313,23 @@ export default {
           "For a moment, he seemed to have lost his senses.",
           "有一瞬間，他似乎失去了理智／知覺。",
           "表示失去知覺／失去理智"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sense-pdf-001",
+      "title": "沒有合理目的、理由或意義的",
+      "form": "senseless = without purpose/reason（毫無意義的）",
+      "en": "senseless = without purpose/reason（毫無意義的）",
+      "zh": "沒有合理目的、理由或意義的",
+      "note": "原始 PDF 第 None 節：沒有合理目的、理由或意義的",
+      "examples": [
+        [
+          "It was a senseless act of destruction.",
+          "那是一種毫無意義／毫無理性的破壞行為。",
+          "沒有合理目的、理由或意義的"
         ]
       ],
       "options": [],
@@ -987,33 +999,33 @@ export default {
     },
     {
       "id": "sense-09-5",
-      "sense": "sense-mcq-10",
+      "sense": "sense-pdf-001",
       "en": "It was a senseless act of destruction.",
       "zh": "那是一種毫無意義／毫無理性的破壞行為。",
       "masked": "It was a ____ act of destruction.",
       "options": [
-        "sense-mcq-10",
+        "sense-pdf-001",
         "sense-mcq-09",
         "sense-mcq-11",
         "sense-mcq-08",
         "sense-mcq-12",
         "sense-mcq-07"
       ],
-      "explanation": "本句的「senseless」指「毫無道理／意義的；或失去知覺的」。",
+      "explanation": "本句的「senseless」指「沒有合理目的、理由或意義的」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "senseless"
       ],
       "optionReasons": {
-        "sense-mcq-10": "本句指「毫無道理／意義的；或失去知覺的」。",
+        "sense-pdf-001": "本句指「沒有合理目的、理由或意義的」。",
         "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
         "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
         "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
         "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
         "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。"
       },
-      "correctOption": "sense-mcq-10"
+      "correctOption": "sense-pdf-001"
     },
     {
       "id": "sense-09-6",

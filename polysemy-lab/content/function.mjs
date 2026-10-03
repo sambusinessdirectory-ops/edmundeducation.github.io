@@ -264,16 +264,6 @@ export default {
           "The protein has several functional regions.",
           "這種蛋白質有幾個不同的功能區域。",
           "在系統中負責某項特定作用的"
-        ],
-        [
-          "He remained functional despite being very tired.",
-          "即使非常疲累，他仍能維持正常日常活動。",
-          "在系統中負責某項特定作用的"
-        ],
-        [
-          "The goal is to help patients stay functional.",
-          "目標是幫助病人維持日常生活功能。",
-          "在系統中負責某項特定作用的"
         ]
       ],
       "options": [],
@@ -306,16 +296,6 @@ export default {
           "The room has good functionality despite its small size.",
           "雖然房間很小，但實用性很高。",
           "系統／產品具備的功能及其實際可用程度"
-        ],
-        [
-          "The two systems are functionally similar.",
-          "這兩個系統從功能上來說很相似。",
-          "系統／產品具備的功能及其實際可用程度"
-        ],
-        [
-          "The room is functionally divided into two areas.",
-          "這個房間從用途上分成兩個區域。",
-          "系統／產品具備的功能及其實際可用程度"
         ]
       ],
       "options": [],
@@ -338,6 +318,50 @@ export default {
           "A sensor malfunction caused the problem.",
           "感應器故障導致了問題。",
           "機器、系統或器官未能正常運作；故障"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "function-pdf-001",
+      "title": "能完成日常生活、工作或基本任務的",
+      "form": "13. functional = able to manage everyday activities — 能維持日常生活功能的",
+      "en": "13. functional = able to manage everyday activities — 能維持日常生活功能的",
+      "zh": "能完成日常生活、工作或基本任務的",
+      "note": "原始 PDF 第 13 節：能完成日常生活、工作或基本任務的",
+      "examples": [
+        [
+          "He remained functional despite being very tired.",
+          "即使非常疲累，他仍能維持正常日常活動。",
+          "能完成日常生活、工作或基本任務的"
+        ],
+        [
+          "The goal is to help patients stay functional.",
+          "目標是幫助病人維持日常生活功能。",
+          "能完成日常生活、工作或基本任務的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "function-pdf-002",
+      "title": "從實際功能／用途角度而言",
+      "form": "16. functionally = in practical/operational terms — 從功能上；實際上",
+      "en": "16. functionally = in practical/operational terms — 從功能上；實際上",
+      "zh": "從實際功能／用途角度而言",
+      "note": "原始 PDF 第 16 節：從實際功能／用途角度而言",
+      "examples": [
+        [
+          "The two systems are functionally similar.",
+          "這兩個系統從功能上來說很相似。",
+          "從實際功能／用途角度而言"
+        ],
+        [
+          "The room is functionally divided into two areas.",
+          "這個房間從用途上分成兩個區域。",
+          "從實際功能／用途角度而言"
         ]
       ],
       "options": [],
@@ -1067,63 +1091,63 @@ export default {
     },
     {
       "id": "function-13-0",
-      "sense": "function-mcq-12",
+      "sense": "function-pdf-001",
       "en": "He remained functional despite being very tired.",
       "zh": "即使非常疲累，他仍能維持正常日常活動。",
       "masked": "He remained ____ despite being very tired.",
       "options": [
-        "function-mcq-12",
+        "function-pdf-001",
         "function-mcq-11",
         "function-mcq-13",
         "function-mcq-10",
         "function-mcq-14",
         "function-mcq-09"
       ],
-      "explanation": "本句的「functional」指「在系統中負責某項特定作用的」。",
+      "explanation": "本句的「functional」指「能完成日常生活、工作或基本任務的」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-12": "本句指「在系統中負責某項特定作用的」。",
+        "function-pdf-001": "本句指「能完成日常生活、工作或基本任務的」。",
         "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
         "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
         "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
         "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
         "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
       },
-      "correctOption": "function-mcq-12"
+      "correctOption": "function-pdf-001"
     },
     {
       "id": "function-13-1",
-      "sense": "function-mcq-12",
+      "sense": "function-pdf-001",
       "en": "The goal is to help patients stay functional.",
       "zh": "目標是幫助病人維持日常生活功能。",
       "masked": "The goal is to help patients stay ____.",
       "options": [
-        "function-mcq-12",
+        "function-pdf-001",
         "function-mcq-11",
         "function-mcq-13",
         "function-mcq-10",
         "function-mcq-14",
         "function-mcq-09"
       ],
-      "explanation": "本句的「functional」指「在系統中負責某項特定作用的」。",
+      "explanation": "本句的「functional」指「能完成日常生活、工作或基本任務的」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-12": "本句指「在系統中負責某項特定作用的」。",
+        "function-pdf-001": "本句指「能完成日常生活、工作或基本任務的」。",
         "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
         "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
         "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
         "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
         "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
       },
-      "correctOption": "function-mcq-12"
+      "correctOption": "function-pdf-001"
     },
     {
       "id": "function-14-0",
@@ -1247,63 +1271,63 @@ export default {
     },
     {
       "id": "function-16-0",
-      "sense": "function-mcq-13",
+      "sense": "function-pdf-002",
       "en": "The two systems are functionally similar.",
       "zh": "這兩個系統從功能上來說很相似。",
       "masked": "The two systems are ____ similar.",
       "options": [
-        "function-mcq-13",
+        "function-pdf-002",
         "function-mcq-12",
         "function-mcq-14",
         "function-mcq-11",
         "function-mcq-10",
         "function-mcq-09"
       ],
-      "explanation": "本句的「functionally」指「系統／產品具備的功能及其實際可用程度」。",
+      "explanation": "本句的「functionally」指「從實際功能／用途角度而言」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "functionally"
       ],
       "optionReasons": {
-        "function-mcq-13": "本句指「系統／產品具備的功能及其實際可用程度」。",
+        "function-pdf-002": "本句指「從實際功能／用途角度而言」。",
         "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
         "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
         "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
         "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
         "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
       },
-      "correctOption": "function-mcq-13"
+      "correctOption": "function-pdf-002"
     },
     {
       "id": "function-16-1",
-      "sense": "function-mcq-13",
+      "sense": "function-pdf-002",
       "en": "The room is functionally divided into two areas.",
       "zh": "這個房間從用途上分成兩個區域。",
       "masked": "The room is ____ divided into two areas.",
       "options": [
-        "function-mcq-13",
+        "function-pdf-002",
         "function-mcq-12",
         "function-mcq-14",
         "function-mcq-11",
         "function-mcq-10",
         "function-mcq-09"
       ],
-      "explanation": "本句的「functionally」指「系統／產品具備的功能及其實際可用程度」。",
+      "explanation": "本句的「functionally」指「從實際功能／用途角度而言」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "functionally"
       ],
       "optionReasons": {
-        "function-mcq-13": "本句指「系統／產品具備的功能及其實際可用程度」。",
+        "function-pdf-002": "本句指「從實際功能／用途角度而言」。",
         "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
         "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
         "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
         "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
         "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
       },
-      "correctOption": "function-mcq-13"
+      "correctOption": "function-pdf-002"
     },
     {
       "id": "function-17-0",

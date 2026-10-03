@@ -80,16 +80,6 @@ export default {
       "note": "來源詞義：把某人／某事視為某種身分、類別或狀態",
       "examples": [
         [
-          "I count her as one of my closest friends.",
-          "我把她視為／算作我最親近的朋友之一。",
-          "把某人／某事視為某種身分、類別或狀態"
-        ],
-        [
-          "Does gardening count as exercise?",
-          "園藝算不算是運動？",
-          "把某人／某事視為某種身分、類別或狀態"
-        ],
-        [
           "I count myself lucky to have had such a teacher.",
           "我認為自己很幸運，曾經遇到這樣的老師。",
           "把某人／某事視為某種身分、類別或狀態"
@@ -534,6 +524,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "count-pdf-001",
+      "title": "把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義",
+      "form": "4. count + person/thing + as + category（分類） — 把……算作；視為",
+      "en": "4. count + person/thing + as + category（分類） — 把……算作；視為",
+      "zh": "把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義",
+      "note": "原始 PDF 第 4 節：把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義",
+      "examples": [
+        [
+          "I count her as one of my closest friends.",
+          "我把她視為／算作我最親近的朋友之一。",
+          "把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義"
+        ],
+        [
+          "Does gardening count as exercise?",
+          "園藝算不算是運動？",
+          "把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -719,63 +731,63 @@ export default {
     },
     {
       "id": "count-04-0",
-      "sense": "count-mcq-04",
+      "sense": "count-pdf-001",
       "en": "I count her as one of my closest friends.",
       "zh": "我把她視為／算作我最親近的朋友之一。",
       "masked": "I ____ her as one of my closest friends.",
       "options": [
-        "count-mcq-04",
+        "count-pdf-001",
         "count-mcq-03",
         "count-mcq-05",
         "count-mcq-02",
         "count-mcq-06",
         "count-mcq-01"
       ],
-      "explanation": "本句的「count」指「把某人／某事視為某種身分、類別或狀態」。",
+      "explanation": "本句的「count」指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "count"
       ],
       "optionReasons": {
-        "count-mcq-04": "本句指「把某人／某事視為某種身分、類別或狀態」。",
+        "count-pdf-001": "本句指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
         "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
         "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
         "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
         "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
         "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。"
       },
-      "correctOption": "count-mcq-04"
+      "correctOption": "count-pdf-001"
     },
     {
       "id": "count-04-1",
-      "sense": "count-mcq-04",
+      "sense": "count-pdf-001",
       "en": "Does gardening count as exercise?",
       "zh": "園藝算不算是運動？",
       "masked": "Does gardening ____ exercise?",
       "options": [
-        "count-mcq-04",
+        "count-pdf-001",
         "count-mcq-03",
         "count-mcq-05",
         "count-mcq-02",
         "count-mcq-06",
         "count-mcq-01"
       ],
-      "explanation": "本句的「count as」指「把某人／某事視為某種身分、類別或狀態」。",
+      "explanation": "本句的「count as」指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "count as"
       ],
       "optionReasons": {
-        "count-mcq-04": "本句指「把某人／某事視為某種身分、類別或狀態」。",
+        "count-pdf-001": "本句指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
         "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
         "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
         "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
         "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
         "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。"
       },
-      "correctOption": "count-mcq-04"
+      "correctOption": "count-pdf-001"
     },
     {
       "id": "count-05-0",

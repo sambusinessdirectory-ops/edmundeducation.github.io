@@ -159,16 +159,6 @@ export default {
           "The two animals compete for the same niche.",
           "這兩種動物競爭同一個生態位。",
           "一個物種在生態系統中的角色、資源使用方式和生存位置"
-        ],
-        [
-          "Diet is one part of an animal’s ecological niche.",
-          "飲食是動物生態位的一部分。",
-          "一個物種在生態系統中的角色、資源使用方式和生存位置"
-        ],
-        [
-          "Changes in climate can alter ecological niches.",
-          "氣候變化可能改變物種的生態位。",
-          "一個物種在生態系統中的角色、資源使用方式和生存位置"
         ]
       ],
       "options": [],
@@ -204,6 +194,28 @@ export default {
       "zh": "靠差異化和努力逐步建立獨特的市場／專業定位",
       "note": "來源詞義：靠差異化和努力逐步建立獨特的市場／專業定位",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "niche-pdf-001",
+      "title": "物種如何利用環境、食物、空間及與其他生物互動的整體角色",
+      "form": "10. ecological niche = 生態位",
+      "en": "10. ecological niche = 生態位",
+      "zh": "物種如何利用環境、食物、空間及與其他生物互動的整體角色",
+      "note": "原始 PDF 第 10 節：物種如何利用環境、食物、空間及與其他生物互動的整體角色",
+      "examples": [
+        [
+          "Diet is one part of an animal’s ecological niche.",
+          "飲食是動物生態位的一部分。",
+          "物種如何利用環境、食物、空間及與其他生物互動的整體角色"
+        ],
+        [
+          "Changes in climate can alter ecological niches.",
+          "氣候變化可能改變物種的生態位。",
+          "物種如何利用環境、食物、空間及與其他生物互動的整體角色"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -661,63 +673,63 @@ export default {
     },
     {
       "id": "niche-10-0",
-      "sense": "niche-mcq-07",
+      "sense": "niche-pdf-001",
       "en": "Diet is one part of an animal’s ecological niche.",
       "zh": "飲食是動物生態位的一部分。",
       "masked": "Diet is one part of an animal’s ____.",
       "options": [
-        "niche-mcq-07",
+        "niche-pdf-001",
         "niche-mcq-06",
         "niche-mcq-08",
         "niche-mcq-05",
         "niche-mcq-09",
         "niche-mcq-04"
       ],
-      "explanation": "本句的「ecological niche」指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
+      "explanation": "本句的「ecological niche」指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "ecological niche"
       ],
       "optionReasons": {
-        "niche-mcq-07": "本句指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
+        "niche-pdf-001": "本句指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
         "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
         "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
         "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
         "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
         "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
       },
-      "correctOption": "niche-mcq-07"
+      "correctOption": "niche-pdf-001"
     },
     {
       "id": "niche-10-1",
-      "sense": "niche-mcq-07",
+      "sense": "niche-pdf-001",
       "en": "Changes in climate can alter ecological niches.",
       "zh": "氣候變化可能改變物種的生態位。",
       "masked": "Changes in climate can alter ecological ____.",
       "options": [
-        "niche-mcq-07",
+        "niche-pdf-001",
         "niche-mcq-06",
         "niche-mcq-08",
         "niche-mcq-05",
         "niche-mcq-09",
         "niche-mcq-04"
       ],
-      "explanation": "本句的「niches」指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
+      "explanation": "本句的「niches」指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "niches"
       ],
       "optionReasons": {
-        "niche-mcq-07": "本句指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
+        "niche-pdf-001": "本句指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
         "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
         "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
         "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
         "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
         "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
       },
-      "correctOption": "niche-mcq-07"
+      "correctOption": "niche-pdf-001"
     },
     {
       "id": "niche-12-0",

@@ -12,23 +12,7 @@ export default {
       "en": "fabric",
       "zh": "布料；織物",
       "note": "來源詞義：布料；織物",
-      "examples": [
-        [
-          "Customers cannot feel the fabric before ordering.",
-          "顧客下單前不能親手感受布料。",
-          "布料；織物"
-        ],
-        [
-          "The dress is made from a soft, lightweight fabric.",
-          "這條裙由柔軟而輕盈的布料製成。",
-          "布料；織物"
-        ],
-        [
-          "Different fabrics behave differently after washing.",
-          "不同布料清洗後的表現不同。",
-          "布料；織物"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1264,16 +1248,6 @@ export default {
       "note": "來源詞義：岩石組構",
       "examples": [
         [
-          "Geologists examined the fabric of the rock.",
-          "地質學家研究岩石的組構。",
-          "岩石組構"
-        ],
-        [
-          "Mineral alignment can produce a distinct rock fabric.",
-          "礦物排列可以形成明顯的岩石組構。",
-          "岩石組構"
-        ],
-        [
           "Deformation changed the geological fabric.",
           "變形作用改變了地質組構。",
           "岩石組構"
@@ -1453,18 +1427,7 @@ export default {
       "en": "fabrication",
       "zh": "製造；加工",
       "note": "來源詞義：製造；加工",
-      "examples": [
-        [
-          "The parts are sent for fabrication.",
-          "零件被送往進行加工製造。",
-          "製造；加工"
-        ],
-        [
-          "Metal fabrication requires specialised equipment.",
-          "金屬加工製造需要專門設備。",
-          "製造；加工"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1723,98 +1686,169 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fabric-pdf-001",
+      "title": "用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物",
+      "form": "1. fabric = cloth used to make clothing or other textile products — 布料；織物",
+      "en": "1. fabric = cloth used to make clothing or other textile products — 布料；織物",
+      "zh": "用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物",
+      "note": "原始 PDF 第 1 節：用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物",
+      "examples": [
+        [
+          "Customers cannot feel the fabric before ordering.",
+          "顧客下單前不能親手感受布料。",
+          "用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物"
+        ],
+        [
+          "The dress is made from a soft, lightweight fabric.",
+          "這條裙由柔軟而輕盈的布料製成。",
+          "用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物"
+        ],
+        [
+          "Different fabrics behave differently after washing.",
+          "不同布料清洗後的表現不同。",
+          "用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fabric-pdf-002",
+      "title": "岩石內礦物、顆粒或結構元素的排列、方向和幾何關係",
+      "form": "61. fabric = spatial arrangement/orientation of components in a rock — 岩石組構",
+      "en": "61. fabric = spatial arrangement/orientation of components in a rock — 岩石組構",
+      "zh": "岩石內礦物、顆粒或結構元素的排列、方向和幾何關係",
+      "note": "原始 PDF 第 61 節：岩石內礦物、顆粒或結構元素的排列、方向和幾何關係",
+      "examples": [
+        [
+          "Geologists examined the fabric of the rock.",
+          "地質學家研究岩石的組構。",
+          "岩石內礦物、顆粒或結構元素的排列、方向和幾何關係"
+        ],
+        [
+          "Mineral alignment can produce a distinct rock fabric.",
+          "礦物排列可以形成明顯的岩石組構。",
+          "岩石內礦物、顆粒或結構元素的排列、方向和幾何關係"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fabric-pdf-003",
+      "title": "把材料加工、組裝成產品或構件的製造過程",
+      "form": "71. fabrication = manufacturing/construction process — 製造；加工",
+      "en": "71. fabrication = manufacturing/construction process — 製造；加工",
+      "zh": "把材料加工、組裝成產品或構件的製造過程",
+      "note": "原始 PDF 第 71 節：把材料加工、組裝成產品或構件的製造過程",
+      "examples": [
+        [
+          "The parts are sent for fabrication.",
+          "零件被送往進行加工製造。",
+          "把材料加工、組裝成產品或構件的製造過程"
+        ],
+        [
+          "Metal fabrication requires specialised equipment.",
+          "金屬加工製造需要專門設備。",
+          "把材料加工、組裝成產品或構件的製造過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "fabric-01-0",
-      "sense": "fabric-mcq-01",
+      "sense": "fabric-pdf-001",
       "en": "Customers cannot feel the fabric before ordering.",
       "zh": "顧客下單前不能親手感受布料。",
       "masked": "Customers cannot ____ before ordering.",
       "options": [
-        "fabric-mcq-01",
+        "fabric-pdf-001",
         "fabric-mcq-02",
         "fabric-mcq-03",
         "fabric-mcq-04",
         "fabric-mcq-05",
         "fabric-mcq-06"
       ],
-      "explanation": "本句的「feel the fabric」指「布料；織物」。",
+      "explanation": "本句的「feel the fabric」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "feel the fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-01": "本句指「布料；織物」。",
+        "fabric-pdf-001": "本句指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
         "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
         "fabric-mcq-03": "「一種布料」與本句語境不同。",
         "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
         "fabric-mcq-05": "「布料種類」與本句語境不同。",
         "fabric-mcq-06": "「布料成分」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-01"
+      "correctOption": "fabric-pdf-001"
     },
     {
       "id": "fabric-01-1",
-      "sense": "fabric-mcq-01",
+      "sense": "fabric-pdf-001",
       "en": "The dress is made from a soft, lightweight fabric.",
       "zh": "這條裙由柔軟而輕盈的布料製成。",
       "masked": "The dress is made from a soft, lightweight ____.",
       "options": [
-        "fabric-mcq-01",
+        "fabric-pdf-001",
         "fabric-mcq-02",
         "fabric-mcq-03",
         "fabric-mcq-04",
         "fabric-mcq-05",
         "fabric-mcq-06"
       ],
-      "explanation": "本句的「fabric」指「布料；織物」。",
+      "explanation": "本句的「fabric」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-01": "本句指「布料；織物」。",
+        "fabric-pdf-001": "本句指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
         "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
         "fabric-mcq-03": "「一種布料」與本句語境不同。",
         "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
         "fabric-mcq-05": "「布料種類」與本句語境不同。",
         "fabric-mcq-06": "「布料成分」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-01"
+      "correctOption": "fabric-pdf-001"
     },
     {
       "id": "fabric-01-2",
-      "sense": "fabric-mcq-01",
+      "sense": "fabric-pdf-001",
       "en": "Different fabrics behave differently after washing.",
       "zh": "不同布料清洗後的表現不同。",
       "masked": "Different ____ behave differently after washing.",
       "options": [
-        "fabric-mcq-01",
+        "fabric-pdf-001",
         "fabric-mcq-02",
         "fabric-mcq-03",
         "fabric-mcq-04",
         "fabric-mcq-05",
         "fabric-mcq-06"
       ],
-      "explanation": "本句的「fabrics」指「布料；織物」。",
+      "explanation": "本句的「fabrics」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-01": "本句指「布料；織物」。",
+        "fabric-pdf-001": "本句指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
         "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
         "fabric-mcq-03": "「一種布料」與本句語境不同。",
         "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
         "fabric-mcq-05": "「布料種類」與本句語境不同。",
         "fabric-mcq-06": "「布料成分」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-01"
+      "correctOption": "fabric-pdf-001"
     },
     {
       "id": "fabric-02-0",
@@ -5208,63 +5242,63 @@ export default {
     },
     {
       "id": "fabric-61-0",
-      "sense": "fabric-mcq-57",
+      "sense": "fabric-pdf-002",
       "en": "Geologists examined the fabric of the rock.",
       "zh": "地質學家研究岩石的組構。",
       "masked": "Geologists examined the ____.",
       "options": [
-        "fabric-mcq-57",
+        "fabric-pdf-002",
         "fabric-mcq-56",
         "fabric-mcq-58",
         "fabric-mcq-55",
         "fabric-mcq-59",
         "fabric-mcq-54"
       ],
-      "explanation": "本句的「fabric of the rock」指「岩石組構」。",
+      "explanation": "本句的「fabric of the rock」指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
       "sentenceIndex": 118,
       "sourcePractice": 1,
       "targets": [
         "fabric of the rock"
       ],
       "optionReasons": {
-        "fabric-mcq-57": "本句指「岩石組構」。",
+        "fabric-pdf-002": "本句指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
         "fabric-mcq-56": "「時空結構」與本句語境不同。",
         "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
         "fabric-mcq-55": "「現實結構」與本句語境不同。",
         "fabric-mcq-59": "「交換架構」與本句語境不同。",
         "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-57"
+      "correctOption": "fabric-pdf-002"
     },
     {
       "id": "fabric-61-1",
-      "sense": "fabric-mcq-57",
+      "sense": "fabric-pdf-002",
       "en": "Mineral alignment can produce a distinct rock fabric.",
       "zh": "礦物排列可以形成明顯的岩石組構。",
       "masked": "Mineral alignment can produce a distinct rock ____.",
       "options": [
-        "fabric-mcq-57",
+        "fabric-pdf-002",
         "fabric-mcq-56",
         "fabric-mcq-58",
         "fabric-mcq-55",
         "fabric-mcq-59",
         "fabric-mcq-54"
       ],
-      "explanation": "本句的「fabric」指「岩石組構」。",
+      "explanation": "本句的「fabric」指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
       "sentenceIndex": 119,
       "sourcePractice": 2,
       "targets": [
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-57": "本句指「岩石組構」。",
+        "fabric-pdf-002": "本句指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
         "fabric-mcq-56": "「時空結構」與本句語境不同。",
         "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
         "fabric-mcq-55": "「現實結構」與本句語境不同。",
         "fabric-mcq-59": "「交換架構」與本句語境不同。",
         "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-57"
+      "correctOption": "fabric-pdf-002"
     },
     {
       "id": "fabric-62-0",
@@ -5778,63 +5812,63 @@ export default {
     },
     {
       "id": "fabric-71-0",
-      "sense": "fabric-mcq-65",
+      "sense": "fabric-pdf-003",
       "en": "The parts are sent for fabrication.",
       "zh": "零件被送往進行加工製造。",
       "masked": "The parts are sent for ____.",
       "options": [
-        "fabric-mcq-65",
+        "fabric-pdf-003",
         "fabric-mcq-64",
         "fabric-mcq-66",
         "fabric-mcq-67",
         "fabric-mcq-62",
         "fabric-mcq-68"
       ],
-      "explanation": "本句的「fabrication」指「製造；加工」。",
+      "explanation": "本句的「fabrication」指「把材料加工、組裝成產品或構件的製造過程」。",
       "sentenceIndex": 137,
       "sourcePractice": 1,
       "targets": [
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-65": "本句指「製造；加工」。",
+        "fabric-pdf-003": "本句指「把材料加工、組裝成產品或構件的製造過程」。",
         "fabric-mcq-64": "「加工構件」與本句語境不同。",
         "fabric-mcq-66": "「金屬加工」與本句語境不同。",
         "fabric-mcq-67": "「數碼製造」與本句語境不同。",
         "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
         "fabric-mcq-68": "「捏造故事」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-65"
+      "correctOption": "fabric-pdf-003"
     },
     {
       "id": "fabric-71-1",
-      "sense": "fabric-mcq-65",
+      "sense": "fabric-pdf-003",
       "en": "Metal fabrication requires specialised equipment.",
       "zh": "金屬加工製造需要專門設備。",
       "masked": "Metal ____ requires specialised equipment.",
       "options": [
-        "fabric-mcq-65",
+        "fabric-pdf-003",
         "fabric-mcq-64",
         "fabric-mcq-66",
         "fabric-mcq-67",
         "fabric-mcq-62",
         "fabric-mcq-68"
       ],
-      "explanation": "本句的「fabrication」指「製造；加工」。",
+      "explanation": "本句的「fabrication」指「把材料加工、組裝成產品或構件的製造過程」。",
       "sentenceIndex": 138,
       "sourcePractice": 2,
       "targets": [
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-65": "本句指「製造；加工」。",
+        "fabric-pdf-003": "本句指「把材料加工、組裝成產品或構件的製造過程」。",
         "fabric-mcq-64": "「加工構件」與本句語境不同。",
         "fabric-mcq-66": "「金屬加工」與本句語境不同。",
         "fabric-mcq-67": "「數碼製造」與本句語境不同。",
         "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
         "fabric-mcq-68": "「捏造故事」與本句語境不同。"
       },
-      "correctOption": "fabric-mcq-65"
+      "correctOption": "fabric-pdf-003"
     },
     {
       "id": "fabric-72-0",

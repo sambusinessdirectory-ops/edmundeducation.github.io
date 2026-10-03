@@ -290,23 +290,7 @@ export default {
       "en": "proportionate",
       "zh": "相稱的；合乎比例的",
       "note": "來源詞義：相稱的；合乎比例的",
-      "examples": [
-        [
-          "Is our present rule proportionate for online fashion?",
-          "現行規定對網上時裝購物而言是否合乎比例？",
-          "相稱的；合乎比例的"
-        ],
-        [
-          "The response should be proportionate to the seriousness of the problem.",
-          "回應措施應與問題的嚴重程度相稱。",
-          "相稱的；合乎比例的"
-        ],
-        [
-          "Controls should be proportionate to the risk of abuse.",
-          "控制措施應與濫用風險相稱。",
-          "相稱的；合乎比例的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -432,18 +416,7 @@ export default {
       "en": "proportional to",
       "zh": "與……成比例",
       "note": "來源詞義：與……成比例",
-      "examples": [
-        [
-          "Processing cost may be roughly proportional to the number of returns.",
-          "處理成本可能大致與退貨數量成比例。",
-          "與……成比例"
-        ],
-        [
-          "The fee is proportional to the value of the order.",
-          "費用與訂單價值成比例。",
-          "與……成比例"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -613,16 +586,6 @@ export default {
       "note": "來源詞義：比例關係／相稱性",
       "examples": [
         [
-          "The figures show rough proportionality between volume and cost.",
-          "數據顯示數量與成本之間大致存在比例關係。",
-          "比例關係／相稱性"
-        ],
-        [
-          "The debate concerns the proportionality of the restriction.",
-          "爭議涉及這項限制的相稱性／是否過度。",
-          "比例關係／相稱性"
-        ],
-        [
           "The proposed pilot improves proportionality by distinguishing genuine defects from simple changes of mind.",
           "建議的試行政策透過區分真正缺陷和單純改變主意，提高政策的比例性／相稱性。",
           "比例關係／相稱性"
@@ -682,13 +645,7 @@ export default {
       "en": "disproportionate",
       "zh": "不成比例／過度的",
       "note": "來源詞義：不成比例／過度的",
-      "examples": [
-        [
-          "A complete ban may be a disproportionate response to limited abuse.",
-          "如果濫用情況有限，全面禁止可能是過度的回應。",
-          "不成比例／過度的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -885,16 +842,6 @@ export default {
       "note": "來源詞義：比例勻稱的",
       "examples": [
         [
-          "The room is well-proportioned.",
-          "房間的比例很協調。",
-          "比例勻稱的"
-        ],
-        [
-          "The design creates a well-proportioned silhouette.",
-          "這個設計形成比例勻稱的輪廓。",
-          "比例勻稱的"
-        ],
-        [
           "The garment was designed to create a well-proportioned silhouette.",
           "服裝設計旨在營造比例勻稱的輪廓。",
           "比例勻稱的"
@@ -1015,16 +962,6 @@ export default {
       "note": "來源詞義：分寸感；輕重判斷",
       "examples": [
         [
-          "Managers need a sense of proportion when responding to isolated abuse.",
-          "管理人員在處理個別濫用個案時需要有分寸感／輕重判斷。",
-          "分寸感；輕重判斷"
-        ],
-        [
-          "Try to keep a sense of proportion.",
-          "要保持對事情輕重的合理判斷。",
-          "分寸感；輕重判斷"
-        ],
-        [
           "One bad return should not make us lose all sense of proportion.",
           "不能因為一次不良退貨個案就完全失去分寸。",
           "分寸感；輕重判斷"
@@ -1110,16 +1047,6 @@ export default {
       "zh": "按比例安排",
       "note": "來源詞義：按比例安排",
       "examples": [
-        [
-          "Ingredients must be carefully proportioned.",
-          "配料必須仔細按比例調配。",
-          "按比例安排"
-        ],
-        [
-          "The room was proportioned to create a balanced appearance.",
-          "房間各部分尺寸經過比例設計，以營造平衡外觀。",
-          "按比例安排"
-        ],
         [
           "Costs were proportioned according to use.",
           "成本按使用量按比例分配。",
@@ -1236,16 +1163,6 @@ export default {
       "note": "來源詞義：比例式",
       "examples": [
         [
-          "\\(2/3 = 4/6\\) forms a proportion.",
-          "\\(2/3 = 4/6\\) 構成一個比例式。",
-          "比例式"
-        ],
-        [
-          "Solve the proportion for x.",
-          "解這個比例式中的 x。",
-          "比例式"
-        ],
-        [
           "Use cross multiplication to solve the proportion.",
           "利用交叉相乘法解這個比例式。",
           "比例式"
@@ -1299,16 +1216,6 @@ export default {
       "zh": "樣本比例",
       "note": "來源詞義：樣本比例",
       "examples": [
-        [
-          "Proportion is important in fashion design.",
-          "比例在時裝設計中非常重要。",
-          "樣本比例"
-        ],
-        [
-          "The designer adjusted the proportions of the sleeves and body.",
-          "設計師調整了袖子與衣身的比例。",
-          "樣本比例"
-        ],
         [
           "The garment has good proportion.",
           "這件服裝的整體比例協調。",
@@ -1452,6 +1359,204 @@ export default {
           "The same waist measurement does not mean the same overall proportions.",
           "腰圍相同並不表示整體身形比例相同。",
           "服裝比例"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-001",
+      "title": "程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱",
+      "form": "15. proportionate = appropriate relative to another factor — 相稱的；合乎比例的",
+      "en": "15. proportionate = appropriate relative to another factor — 相稱的；合乎比例的",
+      "zh": "程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱",
+      "note": "原始 PDF 第 15 節：程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱",
+      "examples": [
+        [
+          "Is our present rule proportionate for online fashion?",
+          "現行規定對網上時裝購物而言是否合乎比例？",
+          "程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱"
+        ],
+        [
+          "The response should be proportionate to the seriousness of the problem.",
+          "回應措施應與問題的嚴重程度相稱。",
+          "程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱"
+        ],
+        [
+          "Controls should be proportionate to the risk of abuse.",
+          "控制措施應與濫用風險相稱。",
+          "程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-002",
+      "title": "X 改變時，另一數量按相應比例改變",
+      "form": "21. proportional to = changing according to a corresponding ratio — 與……成比例",
+      "en": "21. proportional to = changing according to a corresponding ratio — 與……成比例",
+      "zh": "X 改變時，另一數量按相應比例改變",
+      "note": "原始 PDF 第 21 節：X 改變時，另一數量按相應比例改變",
+      "examples": [
+        [
+          "Processing cost may be roughly proportional to the number of returns.",
+          "處理成本可能大致與退貨數量成比例。",
+          "X 改變時，另一數量按相應比例改變"
+        ],
+        [
+          "The fee is proportional to the value of the order.",
+          "費用與訂單價值成比例。",
+          "X 改變時，另一數量按相應比例改變"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-003",
+      "title": "兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則",
+      "form": "30. proportionality = relationship of appropriate proportion — 比例關係；相稱性",
+      "en": "30. proportionality = relationship of appropriate proportion — 比例關係；相稱性",
+      "zh": "兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則",
+      "note": "原始 PDF 第 30 節：兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則",
+      "examples": [
+        [
+          "The figures show rough proportionality between volume and cost.",
+          "數據顯示數量與成本之間大致存在比例關係。",
+          "兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則"
+        ],
+        [
+          "The debate concerns the proportionality of the restriction.",
+          "爭議涉及這項限制的相稱性／是否過度。",
+          "兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-004",
+      "title": "相對於問題、風險或其他比較基準而言過大、過小或不合理",
+      "form": "33. disproportionate = too large/small relative to what is appropriate — 不成比例的；過度的",
+      "en": "33. disproportionate = too large/small relative to what is appropriate — 不成比例的；過度的",
+      "zh": "相對於問題、風險或其他比較基準而言過大、過小或不合理",
+      "note": "原始 PDF 第 33 節：相對於問題、風險或其他比較基準而言過大、過小或不合理",
+      "examples": [
+        [
+          "A complete ban may be a disproportionate response to limited abuse.",
+          "如果濫用情況有限，全面禁止可能是過度的回應。",
+          "相對於問題、風險或其他比較基準而言過大、過小或不合理"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-005",
+      "title": "不同部分的大小互相協調，看起來均衡",
+      "form": "45. well-proportioned = having attractive/balanced relative dimensions — 比例勻稱的",
+      "en": "45. well-proportioned = having attractive/balanced relative dimensions — 比例勻稱的",
+      "zh": "不同部分的大小互相協調，看起來均衡",
+      "note": "原始 PDF 第 45 節：不同部分的大小互相協調，看起來均衡",
+      "examples": [
+        [
+          "The room is well-proportioned.",
+          "房間的比例很協調。",
+          "不同部分的大小互相協調，看起來均衡"
+        ],
+        [
+          "The design creates a well-proportioned silhouette.",
+          "這個設計形成比例勻稱的輪廓。",
+          "不同部分的大小互相協調，看起來均衡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-006",
+      "title": "能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視",
+      "form": "52. a sense of proportion = ability to judge relative importance realistically — 輕重感；分寸",
+      "en": "52. a sense of proportion = ability to judge relative importance realistically — 輕重感；分寸",
+      "zh": "能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視",
+      "note": "原始 PDF 第 52 節：能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視",
+      "examples": [
+        [
+          "Managers need a sense of proportion when responding to isolated abuse.",
+          "管理人員在處理個別濫用個案時需要有分寸感／輕重判斷。",
+          "能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視"
+        ],
+        [
+          "Try to keep a sense of proportion.",
+          "要保持對事情輕重的合理判斷。",
+          "能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-007",
+      "title": "使 X 的各部分具有特定或合適的比例關係",
+      "form": "58. proportion something = arrange/allocate according to appropriate ratios — 按比例安排／分",
+      "en": "58. proportion something = arrange/allocate according to appropriate ratios — 按比例安排／分",
+      "zh": "使 X 的各部分具有特定或合適的比例關係",
+      "note": "原始 PDF 第 58 節：使 X 的各部分具有特定或合適的比例關係",
+      "examples": [
+        [
+          "Ingredients must be carefully proportioned.",
+          "配料必須仔細按比例調配。",
+          "使 X 的各部分具有特定或合適的比例關係"
+        ],
+        [
+          "The room was proportioned to create a balanced appearance.",
+          "房間各部分尺寸經過比例設計，以營造平衡外觀。",
+          "使 X 的各部分具有特定或合適的比例關係"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-008",
+      "title": "數學上兩個比率相等的關係／等式",
+      "form": "65. proportion = equation stating that two ratios are equal — 比例式；比例相等關係",
+      "en": "65. proportion = equation stating that two ratios are equal — 比例式；比例相等關係",
+      "zh": "數學上兩個比率相等的關係／等式",
+      "note": "原始 PDF 第 65 節：數學上兩個比率相等的關係／等式",
+      "examples": [
+        [
+          "\\(2/3 = 4/6\\) forms a proportion.",
+          "\\(2/3 = 4/6\\) 構成一個比例式。",
+          "數學上兩個比率相等的關係／等式"
+        ],
+        [
+          "Solve the proportion for x.",
+          "解這個比例式中的 x。",
+          "數學上兩個比率相等的關係／等式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-pdf-009",
+      "title": "設計中不同部分的尺寸關係是否協調",
+      "form": "69. proportion = harmonious relationship of dimensions — 比例；均衡感",
+      "en": "69. proportion = harmonious relationship of dimensions — 比例；均衡感",
+      "zh": "設計中不同部分的尺寸關係是否協調",
+      "note": "原始 PDF 第 69 節：設計中不同部分的尺寸關係是否協調",
+      "examples": [
+        [
+          "Proportion is important in fashion design.",
+          "比例在時裝設計中非常重要。",
+          "設計中不同部分的尺寸關係是否協調"
+        ],
+        [
+          "The designer adjusted the proportions of the sleeves and body.",
+          "設計師調整了袖子與衣身的比例。",
+          "設計中不同部分的尺寸關係是否協調"
         ]
       ],
       "options": [],
@@ -2331,93 +2436,93 @@ export default {
     },
     {
       "id": "proportion-15-0",
-      "sense": "proportion-mcq-13",
+      "sense": "proportion-pdf-001",
       "en": "Is our present rule proportionate for online fashion?",
       "zh": "現行規定對網上時裝購物而言是否合乎比例？",
       "masked": "Is our present rule ____ for online fashion?",
       "options": [
-        "proportion-mcq-13",
+        "proportion-pdf-001",
         "proportion-mcq-12",
         "proportion-mcq-14",
         "proportion-mcq-11",
         "proportion-mcq-15",
         "proportion-mcq-10"
       ],
-      "explanation": "本句的「proportionate」指「相稱的；合乎比例的」。",
+      "explanation": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-13": "本句指「相稱的；合乎比例的」。",
+        "proportion-pdf-001": "本句指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
         "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
         "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
         "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
         "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
         "proportion-mcq-10": "「相對比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-13"
+      "correctOption": "proportion-pdf-001"
     },
     {
       "id": "proportion-15-1",
-      "sense": "proportion-mcq-13",
+      "sense": "proportion-pdf-001",
       "en": "The response should be proportionate to the seriousness of the problem.",
       "zh": "回應措施應與問題的嚴重程度相稱。",
       "masked": "The response should be ____ to the seriousness of the problem.",
       "options": [
-        "proportion-mcq-13",
+        "proportion-pdf-001",
         "proportion-mcq-12",
         "proportion-mcq-14",
         "proportion-mcq-11",
         "proportion-mcq-15",
         "proportion-mcq-10"
       ],
-      "explanation": "本句的「proportionate」指「相稱的；合乎比例的」。",
+      "explanation": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-13": "本句指「相稱的；合乎比例的」。",
+        "proportion-pdf-001": "本句指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
         "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
         "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
         "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
         "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
         "proportion-mcq-10": "「相對比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-13"
+      "correctOption": "proportion-pdf-001"
     },
     {
       "id": "proportion-15-2",
-      "sense": "proportion-mcq-13",
+      "sense": "proportion-pdf-001",
       "en": "Controls should be proportionate to the risk of abuse.",
       "zh": "控制措施應與濫用風險相稱。",
       "masked": "Controls should be ____ to the risk of abuse.",
       "options": [
-        "proportion-mcq-13",
+        "proportion-pdf-001",
         "proportion-mcq-12",
         "proportion-mcq-14",
         "proportion-mcq-11",
         "proportion-mcq-15",
         "proportion-mcq-10"
       ],
-      "explanation": "本句的「proportionate」指「相稱的；合乎比例的」。",
+      "explanation": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
       "sentenceIndex": 31,
       "sourcePractice": 3,
       "targets": [
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-13": "本句指「相稱的；合乎比例的」。",
+        "proportion-pdf-001": "本句指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
         "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
         "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
         "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
         "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
         "proportion-mcq-10": "「相對比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-13"
+      "correctOption": "proportion-pdf-001"
     },
     {
       "id": "proportion-16-0",
@@ -2691,63 +2796,63 @@ export default {
     },
     {
       "id": "proportion-21-0",
-      "sense": "proportion-mcq-20",
+      "sense": "proportion-pdf-002",
       "en": "Processing cost may be roughly proportional to the number of returns.",
       "zh": "處理成本可能大致與退貨數量成比例。",
       "masked": "Processing cost may be roughly ____.",
       "options": [
-        "proportion-mcq-20",
+        "proportion-pdf-002",
         "proportion-mcq-19",
         "proportion-mcq-21",
         "proportion-mcq-18",
         "proportion-mcq-22",
         "proportion-mcq-17"
       ],
-      "explanation": "本句的「proportional to the number of returns」指「與……成比例」。",
+      "explanation": "本句的「proportional to the number of returns」指「X 改變時，另一數量按相應比例改變」。",
       "sentenceIndex": 41,
       "sourcePractice": 1,
       "targets": [
         "proportional to the number of returns"
       ],
       "optionReasons": {
-        "proportion-mcq-20": "本句指「與……成比例」。",
+        "proportion-pdf-002": "本句指「X 改變時，另一數量按相應比例改變」。",
         "proportion-mcq-19": "「成比例的」與本句語境不同。",
         "proportion-mcq-21": "「成正比」與本句語境不同。",
         "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
         "proportion-mcq-22": "「成反比」與本句語境不同。",
         "proportion-mcq-17": "「相稱處罰」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-20"
+      "correctOption": "proportion-pdf-002"
     },
     {
       "id": "proportion-21-1",
-      "sense": "proportion-mcq-20",
+      "sense": "proportion-pdf-002",
       "en": "The fee is proportional to the value of the order.",
       "zh": "費用與訂單價值成比例。",
       "masked": "The fee is ____ to the value of the order.",
       "options": [
-        "proportion-mcq-20",
+        "proportion-pdf-002",
         "proportion-mcq-19",
         "proportion-mcq-21",
         "proportion-mcq-18",
         "proportion-mcq-22",
         "proportion-mcq-17"
       ],
-      "explanation": "本句的「proportional」指「與……成比例」。",
+      "explanation": "本句的「proportional」指「X 改變時，另一數量按相應比例改變」。",
       "sentenceIndex": 42,
       "sourcePractice": 2,
       "targets": [
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-20": "本句指「與……成比例」。",
+        "proportion-pdf-002": "本句指「X 改變時，另一數量按相應比例改變」。",
         "proportion-mcq-19": "「成比例的」與本句語境不同。",
         "proportion-mcq-21": "「成正比」與本句語境不同。",
         "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
         "proportion-mcq-22": "「成反比」與本句語境不同。",
         "proportion-mcq-17": "「相稱處罰」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-20"
+      "correctOption": "proportion-pdf-002"
     },
     {
       "id": "proportion-22-0",
@@ -3201,63 +3306,63 @@ export default {
     },
     {
       "id": "proportion-30-0",
-      "sense": "proportion-mcq-27",
+      "sense": "proportion-pdf-003",
       "en": "The figures show rough proportionality between volume and cost.",
       "zh": "數據顯示數量與成本之間大致存在比例關係。",
       "masked": "The figures show rough ____ between volume and cost.",
       "options": [
-        "proportion-mcq-27",
+        "proportion-pdf-003",
         "proportion-mcq-26",
         "proportion-mcq-28",
         "proportion-mcq-25",
         "proportion-mcq-29",
         "proportion-mcq-24"
       ],
-      "explanation": "本句的「proportionality」指「比例關係／相稱性」。",
+      "explanation": "本句的「proportionality」指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
       "sentenceIndex": 58,
       "sourcePractice": 1,
       "targets": [
         "proportionality"
       ],
       "optionReasons": {
-        "proportion-mcq-27": "本句指「比例關係／相稱性」。",
+        "proportion-pdf-003": "本句指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
         "proportion-mcq-26": "「比例代表制」與本句語境不同。",
         "proportion-mcq-28": "「比例原則」與本句語境不同。",
         "proportion-mcq-25": "「按比例分配」與本句語境不同。",
         "proportion-mcq-29": "「比例性審查」與本句語境不同。",
         "proportion-mcq-24": "「比例份額」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-27"
+      "correctOption": "proportion-pdf-003"
     },
     {
       "id": "proportion-30-1",
-      "sense": "proportion-mcq-27",
+      "sense": "proportion-pdf-003",
       "en": "The debate concerns the proportionality of the restriction.",
       "zh": "爭議涉及這項限制的相稱性／是否過度。",
       "masked": "The debate concerns the ____ of the restriction.",
       "options": [
-        "proportion-mcq-27",
+        "proportion-pdf-003",
         "proportion-mcq-26",
         "proportion-mcq-28",
         "proportion-mcq-25",
         "proportion-mcq-29",
         "proportion-mcq-24"
       ],
-      "explanation": "本句的「proportionality」指「比例關係／相稱性」。",
+      "explanation": "本句的「proportionality」指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
       "sentenceIndex": 59,
       "sourcePractice": 2,
       "targets": [
         "proportionality"
       ],
       "optionReasons": {
-        "proportion-mcq-27": "本句指「比例關係／相稱性」。",
+        "proportion-pdf-003": "本句指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
         "proportion-mcq-26": "「比例代表制」與本句語境不同。",
         "proportion-mcq-28": "「比例原則」與本句語境不同。",
         "proportion-mcq-25": "「按比例分配」與本句語境不同。",
         "proportion-mcq-29": "「比例性審查」與本句語境不同。",
         "proportion-mcq-24": "「比例份額」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-27"
+      "correctOption": "proportion-pdf-003"
     },
     {
       "id": "proportion-31-0",
@@ -3351,33 +3456,33 @@ export default {
     },
     {
       "id": "proportion-33-0",
-      "sense": "proportion-mcq-30",
+      "sense": "proportion-pdf-004",
       "en": "A complete ban may be a disproportionate response to limited abuse.",
       "zh": "如果濫用情況有限，全面禁止可能是過度的回應。",
       "masked": "A complete ban may be a ____ to limited abuse.",
       "options": [
-        "proportion-mcq-30",
+        "proportion-pdf-004",
         "proportion-mcq-29",
         "proportion-mcq-31",
         "proportion-mcq-28",
         "proportion-mcq-32",
         "proportion-mcq-27"
       ],
-      "explanation": "本句的「disproportionate response」指「不成比例／過度的」。",
+      "explanation": "本句的「disproportionate response」指「相對於問題、風險或其他比較基準而言過大、過小或不合理」。",
       "sentenceIndex": 63,
       "sourcePractice": 1,
       "targets": [
         "disproportionate response"
       ],
       "optionReasons": {
-        "proportion-mcq-30": "本句指「不成比例／過度的」。",
+        "proportion-pdf-004": "本句指「相對於問題、風險或其他比較基準而言過大、過小或不合理」。",
         "proportion-mcq-29": "「比例性審查」與本句語境不同。",
         "proportion-mcq-31": "「過度回應」與本句語境不同。",
         "proportion-mcq-28": "「比例原則」與本句語境不同。",
         "proportion-mcq-32": "「不成比例的影響」與本句語境不同。",
         "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-30"
+      "correctOption": "proportion-pdf-004"
     },
     {
       "id": "proportion-34-0",
@@ -3771,63 +3876,63 @@ export default {
     },
     {
       "id": "proportion-45-0",
-      "sense": "proportion-mcq-41",
+      "sense": "proportion-pdf-005",
       "en": "The room is well-proportioned.",
       "zh": "房間的比例很協調。",
       "masked": "The room is ____.",
       "options": [
-        "proportion-mcq-41",
+        "proportion-pdf-005",
         "proportion-mcq-40",
         "proportion-mcq-42",
         "proportion-mcq-39",
         "proportion-mcq-43",
         "proportion-mcq-38"
       ],
-      "explanation": "本句的「well-proportioned」指「比例勻稱的」。",
+      "explanation": "本句的「well-proportioned」指「不同部分的大小互相協調，看起來均衡」。",
       "sentenceIndex": 77,
       "sourcePractice": 1,
       "targets": [
         "well-proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-41": "本句指「比例勻稱的」。",
+        "proportion-pdf-005": "本句指「不同部分的大小互相協調，看起來均衡」。",
         "proportion-mcq-40": "「建築比例」與本句語境不同。",
         "proportion-mcq-42": "「比例失調的」與本句語境不同。",
         "proportion-mcq-39": "「人體比例」與本句語境不同。",
         "proportion-mcq-43": "「規模；程度」與本句語境不同。",
         "proportion-mcq-38": "「身體比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-41"
+      "correctOption": "proportion-pdf-005"
     },
     {
       "id": "proportion-45-1",
-      "sense": "proportion-mcq-41",
+      "sense": "proportion-pdf-005",
       "en": "The design creates a well-proportioned silhouette.",
       "zh": "這個設計形成比例勻稱的輪廓。",
       "masked": "The design creates a well-____ silhouette.",
       "options": [
-        "proportion-mcq-41",
+        "proportion-pdf-005",
         "proportion-mcq-40",
         "proportion-mcq-42",
         "proportion-mcq-39",
         "proportion-mcq-43",
         "proportion-mcq-38"
       ],
-      "explanation": "本句的「proportioned」指「比例勻稱的」。",
+      "explanation": "本句的「proportioned」指「不同部分的大小互相協調，看起來均衡」。",
       "sentenceIndex": 78,
       "sourcePractice": 2,
       "targets": [
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-41": "本句指「比例勻稱的」。",
+        "proportion-pdf-005": "本句指「不同部分的大小互相協調，看起來均衡」。",
         "proportion-mcq-40": "「建築比例」與本句語境不同。",
         "proportion-mcq-42": "「比例失調的」與本句語境不同。",
         "proportion-mcq-39": "「人體比例」與本句語境不同。",
         "proportion-mcq-43": "「規模；程度」與本句語境不同。",
         "proportion-mcq-38": "「身體比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-41"
+      "correctOption": "proportion-pdf-005"
     },
     {
       "id": "proportion-46-0",
@@ -4191,63 +4296,63 @@ export default {
     },
     {
       "id": "proportion-52-0",
-      "sense": "proportion-mcq-46",
+      "sense": "proportion-pdf-006",
       "en": "Managers need a sense of proportion when responding to isolated abuse.",
       "zh": "管理人員在處理個別濫用個案時需要有分寸感／輕重判斷。",
       "masked": "Managers need ____ when responding to isolated abuse.",
       "options": [
-        "proportion-mcq-46",
+        "proportion-pdf-006",
         "proportion-mcq-45",
         "proportion-mcq-47",
         "proportion-mcq-44",
         "proportion-mcq-48",
         "proportion-mcq-43"
       ],
-      "explanation": "本句的「a sense of proportion」指「分寸感；輕重判斷」。",
+      "explanation": "本句的「a sense of proportion」指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
       "sentenceIndex": 91,
       "sourcePractice": 1,
       "targets": [
         "a sense of proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-46": "本句指「分寸感；輕重判斷」。",
+        "proportion-pdf-006": "本句指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
         "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
         "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
         "proportion-mcq-44": "「巨大規模」與本句語境不同。",
         "proportion-mcq-48": "「誇大 X」與本句語境不同。",
         "proportion-mcq-43": "「規模；程度」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-46"
+      "correctOption": "proportion-pdf-006"
     },
     {
       "id": "proportion-52-1",
-      "sense": "proportion-mcq-46",
+      "sense": "proportion-pdf-006",
       "en": "Try to keep a sense of proportion.",
       "zh": "要保持對事情輕重的合理判斷。",
       "masked": "Try to keep a sense of ____.",
       "options": [
-        "proportion-mcq-46",
+        "proportion-pdf-006",
         "proportion-mcq-45",
         "proportion-mcq-47",
         "proportion-mcq-44",
         "proportion-mcq-48",
         "proportion-mcq-43"
       ],
-      "explanation": "本句的「proportion」指「分寸感；輕重判斷」。",
+      "explanation": "本句的「proportion」指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
       "sentenceIndex": 92,
       "sourcePractice": 2,
       "targets": [
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-46": "本句指「分寸感；輕重判斷」。",
+        "proportion-pdf-006": "本句指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
         "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
         "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
         "proportion-mcq-44": "「巨大規模」與本句語境不同。",
         "proportion-mcq-48": "「誇大 X」與本句語境不同。",
         "proportion-mcq-43": "「規模；程度」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-46"
+      "correctOption": "proportion-pdf-006"
     },
     {
       "id": "proportion-53-0",
@@ -4551,63 +4656,63 @@ export default {
     },
     {
       "id": "proportion-58-0",
-      "sense": "proportion-mcq-49",
+      "sense": "proportion-pdf-007",
       "en": "Ingredients must be carefully proportioned.",
       "zh": "配料必須仔細按比例調配。",
       "masked": "Ingredients must be carefully ____.",
       "options": [
-        "proportion-mcq-49",
+        "proportion-pdf-007",
         "proportion-mcq-48",
         "proportion-mcq-50",
         "proportion-mcq-47",
         "proportion-mcq-51",
         "proportion-mcq-46"
       ],
-      "explanation": "本句的「proportioned」指「按比例安排」。",
+      "explanation": "本句的「proportioned」指「使 X 的各部分具有特定或合適的比例關係」。",
       "sentenceIndex": 103,
       "sourcePractice": 1,
       "targets": [
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-49": "本句指「按比例安排」。",
+        "proportion-pdf-007": "本句指「使 X 的各部分具有特定或合適的比例關係」。",
         "proportion-mcq-48": "「誇大 X」與本句語境不同。",
         "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
         "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
         "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
         "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-49"
+      "correctOption": "proportion-pdf-007"
     },
     {
       "id": "proportion-58-1",
-      "sense": "proportion-mcq-49",
+      "sense": "proportion-pdf-007",
       "en": "The room was proportioned to create a balanced appearance.",
       "zh": "房間各部分尺寸經過比例設計，以營造平衡外觀。",
       "masked": "The room was ____ to create a balanced appearance.",
       "options": [
-        "proportion-mcq-49",
+        "proportion-pdf-007",
         "proportion-mcq-48",
         "proportion-mcq-50",
         "proportion-mcq-47",
         "proportion-mcq-51",
         "proportion-mcq-46"
       ],
-      "explanation": "本句的「proportioned」指「按比例安排」。",
+      "explanation": "本句的「proportioned」指「使 X 的各部分具有特定或合適的比例關係」。",
       "sentenceIndex": 104,
       "sourcePractice": 2,
       "targets": [
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-49": "本句指「按比例安排」。",
+        "proportion-pdf-007": "本句指「使 X 的各部分具有特定或合適的比例關係」。",
         "proportion-mcq-48": "「誇大 X」與本句語境不同。",
         "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
         "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
         "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
         "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-49"
+      "correctOption": "proportion-pdf-007"
     },
     {
       "id": "proportion-59-0",
@@ -4941,63 +5046,63 @@ export default {
     },
     {
       "id": "proportion-65-0",
-      "sense": "proportion-mcq-54",
+      "sense": "proportion-pdf-008",
       "en": "\\(2/3 = 4/6\\) forms a proportion.",
       "zh": "\\(2/3 = 4/6\\) 構成一個比例式。",
       "masked": "\\(2/3 = 4/6\\) forms a ____.",
       "options": [
-        "proportion-mcq-54",
+        "proportion-pdf-008",
         "proportion-mcq-53",
         "proportion-mcq-55",
         "proportion-mcq-52",
         "proportion-mcq-56",
         "proportion-mcq-51"
       ],
-      "explanation": "本句的「proportion」指「比例式」。",
+      "explanation": "本句的「proportion」指「數學上兩個比率相等的關係／等式」。",
       "sentenceIndex": 116,
       "sourcePractice": 1,
       "targets": [
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-54": "本句指「比例式」。",
+        "proportion-pdf-008": "本句指「數學上兩個比率相等的關係／等式」。",
         "proportion-mcq-53": "「反比例」與本句語境不同。",
         "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
         "proportion-mcq-52": "「正比例」與本句語境不同。",
         "proportion-mcq-56": "「樣本比例」與本句語境不同。",
         "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-54"
+      "correctOption": "proportion-pdf-008"
     },
     {
       "id": "proportion-65-1",
-      "sense": "proportion-mcq-54",
+      "sense": "proportion-pdf-008",
       "en": "Solve the proportion for x.",
       "zh": "解這個比例式中的 x。",
       "masked": "Solve the ____ for x.",
       "options": [
-        "proportion-mcq-54",
+        "proportion-pdf-008",
         "proportion-mcq-53",
         "proportion-mcq-55",
         "proportion-mcq-52",
         "proportion-mcq-56",
         "proportion-mcq-51"
       ],
-      "explanation": "本句的「proportion」指「比例式」。",
+      "explanation": "本句的「proportion」指「數學上兩個比率相等的關係／等式」。",
       "sentenceIndex": 117,
       "sourcePractice": 2,
       "targets": [
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-54": "本句指「比例式」。",
+        "proportion-pdf-008": "本句指「數學上兩個比率相等的關係／等式」。",
         "proportion-mcq-53": "「反比例」與本句語境不同。",
         "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
         "proportion-mcq-52": "「正比例」與本句語境不同。",
         "proportion-mcq-56": "「樣本比例」與本句語境不同。",
         "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-54"
+      "correctOption": "proportion-pdf-008"
     },
     {
       "id": "proportion-66-0",
@@ -5181,63 +5286,63 @@ export default {
     },
     {
       "id": "proportion-69-0",
-      "sense": "proportion-mcq-56",
+      "sense": "proportion-pdf-009",
       "en": "Proportion is important in fashion design.",
       "zh": "比例在時裝設計中非常重要。",
       "masked": "____ is important in fashion design.",
       "options": [
-        "proportion-mcq-56",
+        "proportion-pdf-009",
         "proportion-mcq-55",
         "proportion-mcq-57",
         "proportion-mcq-54",
         "proportion-mcq-58",
         "proportion-mcq-53"
       ],
-      "explanation": "本句的「Proportion」指「樣本比例」。",
+      "explanation": "本句的「Proportion」指「設計中不同部分的尺寸關係是否協調」。",
       "sentenceIndex": 124,
       "sourcePractice": 1,
       "targets": [
         "Proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
+        "proportion-pdf-009": "本句指「設計中不同部分的尺寸關係是否協調」。",
         "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
         "proportion-mcq-57": "「母體比例」與本句語境不同。",
         "proportion-mcq-54": "「比例式」與本句語境不同。",
         "proportion-mcq-58": "「服裝比例」與本句語境不同。",
         "proportion-mcq-53": "「反比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-56"
+      "correctOption": "proportion-pdf-009"
     },
     {
       "id": "proportion-69-1",
-      "sense": "proportion-mcq-56",
+      "sense": "proportion-pdf-009",
       "en": "The designer adjusted the proportions of the sleeves and body.",
       "zh": "設計師調整了袖子與衣身的比例。",
       "masked": "The designer adjusted the ____ of the sleeves and body.",
       "options": [
-        "proportion-mcq-56",
+        "proportion-pdf-009",
         "proportion-mcq-55",
         "proportion-mcq-57",
         "proportion-mcq-54",
         "proportion-mcq-58",
         "proportion-mcq-53"
       ],
-      "explanation": "本句的「proportions」指「樣本比例」。",
+      "explanation": "本句的「proportions」指「設計中不同部分的尺寸關係是否協調」。",
       "sentenceIndex": 125,
       "sourcePractice": 2,
       "targets": [
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
+        "proportion-pdf-009": "本句指「設計中不同部分的尺寸關係是否協調」。",
         "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
         "proportion-mcq-57": "「母體比例」與本句語境不同。",
         "proportion-mcq-54": "「比例式」與本句語境不同。",
         "proportion-mcq-58": "「服裝比例」與本句語境不同。",
         "proportion-mcq-53": "「反比例」與本句語境不同。"
       },
-      "correctOption": "proportion-mcq-56"
+      "correctOption": "proportion-pdf-009"
     },
     {
       "id": "proportion-70-0",

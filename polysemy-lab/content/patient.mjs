@@ -348,16 +348,6 @@ export default {
       "note": "來源詞義：以冷靜、不急躁並願意等待的方式",
       "examples": [
         [
-          "Sometimes patience pays off.",
-          "有時候有耐性最終會有回報。",
-          "以冷靜、不急躁並願意等待的方式"
-        ],
-        [
-          "Her patience paid off when the project finally succeeded.",
-          "當項目最終成功時，她的耐心終於得到回報。",
-          "以冷靜、不急躁並願意等待的方式"
-        ],
-        [
           "She listened patiently.",
           "她耐心地聆聽。",
           "以冷靜、不急躁並願意等待的方式"
@@ -520,6 +510,28 @@ export default {
           "She waited impatiently for the announcement.",
           "她迫不及待地等候公布結果。",
           "以缺乏耐性、煩躁，或急切希望事情快點發生的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "patient-pdf-001",
+      "title": "願意等待和堅持最終帶來好的結果",
+      "form": "17. patience pays off — 耐心最終有回報",
+      "en": "17. patience pays off — 耐心最終有回報",
+      "zh": "願意等待和堅持最終帶來好的結果",
+      "note": "原始 PDF 第 17 節：願意等待和堅持最終帶來好的結果",
+      "examples": [
+        [
+          "Sometimes patience pays off.",
+          "有時候有耐性最終會有回報。",
+          "願意等待和堅持最終帶來好的結果"
+        ],
+        [
+          "Her patience paid off when the project finally succeeded.",
+          "當項目最終成功時，她的耐心終於得到回報。",
+          "願意等待和堅持最終帶來好的結果"
         ]
       ],
       "options": [],
@@ -1519,63 +1531,63 @@ export default {
     },
     {
       "id": "patient-17-0",
-      "sense": "patient-mcq-16",
+      "sense": "patient-pdf-001",
       "en": "Sometimes patience pays off.",
       "zh": "有時候有耐性最終會有回報。",
       "masked": "Sometimes ____.",
       "options": [
-        "patient-mcq-16",
+        "patient-pdf-001",
         "patient-mcq-15",
         "patient-mcq-17",
         "patient-mcq-14",
         "patient-mcq-18",
         "patient-mcq-13"
       ],
-      "explanation": "本句的「patience pays off」指「以冷靜、不急躁並願意等待的方式」。",
+      "explanation": "本句的「patience pays off」指「願意等待和堅持最終帶來好的結果」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "patience pays off"
       ],
       "optionReasons": {
-        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-pdf-001": "本句指「願意等待和堅持最終帶來好的結果」。",
         "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
         "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
         "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
         "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
         "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
       },
-      "correctOption": "patient-mcq-16"
+      "correctOption": "patient-pdf-001"
     },
     {
       "id": "patient-17-1",
-      "sense": "patient-mcq-16",
+      "sense": "patient-pdf-001",
       "en": "Her patience paid off when the project finally succeeded.",
       "zh": "當項目最終成功時，她的耐心終於得到回報。",
       "masked": "Her ____ paid off when the project finally succeeded.",
       "options": [
-        "patient-mcq-16",
+        "patient-pdf-001",
         "patient-mcq-15",
         "patient-mcq-17",
         "patient-mcq-14",
         "patient-mcq-18",
         "patient-mcq-13"
       ],
-      "explanation": "本句的「patience」指「以冷靜、不急躁並願意等待的方式」。",
+      "explanation": "本句的「patience」指「願意等待和堅持最終帶來好的結果」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "patience"
       ],
       "optionReasons": {
-        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-pdf-001": "本句指「願意等待和堅持最終帶來好的結果」。",
         "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
         "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
         "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
         "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
         "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
       },
-      "correctOption": "patient-mcq-16"
+      "correctOption": "patient-pdf-001"
     },
     {
       "id": "patient-18-0",

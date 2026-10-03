@@ -371,26 +371,6 @@ export default {
       "note": "來源詞義：透過實際操作和親身經驗學習",
       "examples": [
         [
-          "It takes time to learn a language.",
-          "學習一門語言需要時間。",
-          "透過實際操作和親身經驗學習"
-        ],
-        [
-          "She learned English as a child.",
-          "她小時候學會了英語。",
-          "透過實際操作和親身經驗學習"
-        ],
-        [
-          "Anyone can learn this skill with practice.",
-          "只要練習，任何人都可以學會這項技能。",
-          "透過實際操作和親身經驗學習"
-        ],
-        [
-          "She learned basic cooking skills from her grandmother.",
-          "她從外婆那裡學會了基本烹飪技巧。",
-          "透過實際操作和親身經驗學習"
-        ],
-        [
           "Some people learn best by doing.",
           "有些人透過實際操作學得最好。",
           "透過實際操作和親身經驗學習"
@@ -629,6 +609,50 @@ export default {
           "She learned where he was staying.",
           "她得知他住在哪裡。",
           "得到原本不知道的具體資訊"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "learn-pdf-001",
+      "title": "透過接觸、練習、學習等逐步獲得使用該語言的能力",
+      "form": "18. learn a language（學語言） — 學習並逐漸掌握語言",
+      "en": "18. learn a language（學語言） — 學習並逐漸掌握語言",
+      "zh": "透過接觸、練習、學習等逐步獲得使用該語言的能力",
+      "note": "原始 PDF 第 18 節：透過接觸、練習、學習等逐步獲得使用該語言的能力",
+      "examples": [
+        [
+          "It takes time to learn a language.",
+          "學習一門語言需要時間。",
+          "透過接觸、練習、學習等逐步獲得使用該語言的能力"
+        ],
+        [
+          "She learned English as a child.",
+          "她小時候學會了英語。",
+          "透過接觸、練習、學習等逐步獲得使用該語言的能力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "learn-pdf-002",
+      "title": "透過練習／教導逐步取得某項能力",
+      "form": "19. learn a skill（學技能） — 學會；掌握",
+      "en": "19. learn a skill（學技能） — 學會；掌握",
+      "zh": "透過練習／教導逐步取得某項能力",
+      "note": "原始 PDF 第 19 節：透過練習／教導逐步取得某項能力",
+      "examples": [
+        [
+          "Anyone can learn this skill with practice.",
+          "只要練習，任何人都可以學會這項技能。",
+          "透過練習／教導逐步取得某項能力"
+        ],
+        [
+          "She learned basic cooking skills from her grandmother.",
+          "她從外婆那裡學會了基本烹飪技巧。",
+          "透過練習／教導逐步取得某項能力"
         ]
       ],
       "options": [],
@@ -1688,123 +1712,123 @@ export default {
     },
     {
       "id": "learn-18-0",
-      "sense": "learn-mcq-17",
+      "sense": "learn-pdf-001",
       "en": "It takes time to learn a language.",
       "zh": "學習一門語言需要時間。",
       "masked": "It takes time to ____.",
       "options": [
-        "learn-mcq-17",
+        "learn-pdf-001",
         "learn-mcq-16",
         "learn-mcq-18",
         "learn-mcq-15",
         "learn-mcq-19",
         "learn-mcq-14"
       ],
-      "explanation": "本句的「learn a language」指「透過實際操作和親身經驗學習」。",
+      "explanation": "本句的「learn a language」指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "learn a language"
       ],
       "optionReasons": {
-        "learn-mcq-17": "本句指「透過實際操作和親身經驗學習」。",
+        "learn-pdf-001": "本句指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
         "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
         "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
         "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
         "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
         "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
       },
-      "correctOption": "learn-mcq-17"
+      "correctOption": "learn-pdf-001"
     },
     {
       "id": "learn-18-1",
-      "sense": "learn-mcq-17",
+      "sense": "learn-pdf-001",
       "en": "She learned English as a child.",
       "zh": "她小時候學會了英語。",
       "masked": "She ____ English as a child.",
       "options": [
-        "learn-mcq-17",
+        "learn-pdf-001",
         "learn-mcq-16",
         "learn-mcq-18",
         "learn-mcq-15",
         "learn-mcq-19",
         "learn-mcq-14"
       ],
-      "explanation": "本句的「learned」指「透過實際操作和親身經驗學習」。",
+      "explanation": "本句的「learned」指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-17": "本句指「透過實際操作和親身經驗學習」。",
+        "learn-pdf-001": "本句指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
         "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
         "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
         "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
         "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
         "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
       },
-      "correctOption": "learn-mcq-17"
+      "correctOption": "learn-pdf-001"
     },
     {
       "id": "learn-19-0",
-      "sense": "learn-mcq-17",
+      "sense": "learn-pdf-002",
       "en": "Anyone can learn this skill with practice.",
       "zh": "只要練習，任何人都可以學會這項技能。",
       "masked": "Anyone can ____ with practice.",
       "options": [
-        "learn-mcq-17",
+        "learn-pdf-002",
         "learn-mcq-16",
         "learn-mcq-18",
         "learn-mcq-15",
         "learn-mcq-19",
         "learn-mcq-14"
       ],
-      "explanation": "本句的「learn this skill」指「透過實際操作和親身經驗學習」。",
+      "explanation": "本句的「learn this skill」指「透過練習／教導逐步取得某項能力」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "learn this skill"
       ],
       "optionReasons": {
-        "learn-mcq-17": "本句指「透過實際操作和親身經驗學習」。",
+        "learn-pdf-002": "本句指「透過練習／教導逐步取得某項能力」。",
         "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
         "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
         "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
         "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
         "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
       },
-      "correctOption": "learn-mcq-17"
+      "correctOption": "learn-pdf-002"
     },
     {
       "id": "learn-19-1",
-      "sense": "learn-mcq-17",
+      "sense": "learn-pdf-002",
       "en": "She learned basic cooking skills from her grandmother.",
       "zh": "她從外婆那裡學會了基本烹飪技巧。",
       "masked": "She ____ basic cooking skills from her grandmother.",
       "options": [
-        "learn-mcq-17",
+        "learn-pdf-002",
         "learn-mcq-16",
         "learn-mcq-18",
         "learn-mcq-15",
         "learn-mcq-19",
         "learn-mcq-14"
       ],
-      "explanation": "本句的「learned」指「透過實際操作和親身經驗學習」。",
+      "explanation": "本句的「learned」指「透過練習／教導逐步取得某項能力」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-17": "本句指「透過實際操作和親身經驗學習」。",
+        "learn-pdf-002": "本句指「透過練習／教導逐步取得某項能力」。",
         "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
         "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
         "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
         "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
         "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
       },
-      "correctOption": "learn-mcq-17"
+      "correctOption": "learn-pdf-002"
     },
     {
       "id": "learn-20-0",

@@ -590,16 +590,6 @@ export default {
       "note": "來源詞義：開始掌握某事／局面的控制權",
       "examples": [
         [
-          "Take care on your way home.",
-          "回家路上小心／保重。",
-          "開始掌握某事／局面的控制權"
-        ],
-        [
-          "She takes care of her grandmother.",
-          "她照顧外婆。",
-          "開始掌握某事／局面的控制權"
-        ],
-        [
           "She took control of the situation.",
           "她掌控了局面。",
           "開始掌握某事／局面的控制權"
@@ -872,6 +862,28 @@ export default {
           "The device takes a reading every minute.",
           "這部裝置每分鐘記錄一次讀數。",
           "拍攝、量度或記錄影像／數據"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "take-pdf-001",
+      "title": "小心／保重；take care of 則常指照顧或處理",
+      "form": "27. take care（小心／保重／照顧） — 小心；保重",
+      "en": "27. take care（小心／保重／照顧） — 小心；保重",
+      "zh": "小心／保重；take care of 則常指照顧或處理",
+      "note": "原始 PDF 第 27 節：小心／保重；take care of 則常指照顧或處理",
+      "examples": [
+        [
+          "Take care on your way home.",
+          "回家路上小心／保重。",
+          "小心／保重；take care of 則常指照顧或處理"
+        ],
+        [
+          "She takes care of her grandmother.",
+          "她照顧外婆。",
+          "小心／保重；take care of 則常指照顧或處理"
         ]
       ],
       "options": [],
@@ -2471,63 +2483,63 @@ export default {
     },
     {
       "id": "take-27-0",
-      "sense": "take-mcq-27",
+      "sense": "take-pdf-001",
       "en": "Take care on your way home.",
       "zh": "回家路上小心／保重。",
       "masked": "____ on your way home.",
       "options": [
-        "take-mcq-27",
+        "take-pdf-001",
         "take-mcq-26",
         "take-mcq-28",
         "take-mcq-25",
         "take-mcq-29",
         "take-mcq-24"
       ],
-      "explanation": "本句的「Take care」指「開始掌握某事／局面的控制權」。",
+      "explanation": "本句的「Take care」指「小心／保重；take care of 則常指照顧或處理」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "Take care"
       ],
       "optionReasons": {
-        "take-mcq-27": "本句指「開始掌握某事／局面的控制權」。",
+        "take-pdf-001": "本句指「小心／保重；take care of 則常指照顧或處理」。",
         "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
         "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
         "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
         "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
         "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。"
       },
-      "correctOption": "take-mcq-27"
+      "correctOption": "take-pdf-001"
     },
     {
       "id": "take-27-1",
-      "sense": "take-mcq-27",
+      "sense": "take-pdf-001",
       "en": "She takes care of her grandmother.",
       "zh": "她照顧外婆。",
       "masked": "She ____ of her grandmother.",
       "options": [
-        "take-mcq-27",
+        "take-pdf-001",
         "take-mcq-26",
         "take-mcq-28",
         "take-mcq-25",
         "take-mcq-29",
         "take-mcq-24"
       ],
-      "explanation": "本句的「takes care」指「開始掌握某事／局面的控制權」。",
+      "explanation": "本句的「takes care」指「小心／保重；take care of 則常指照顧或處理」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "takes care"
       ],
       "optionReasons": {
-        "take-mcq-27": "本句指「開始掌握某事／局面的控制權」。",
+        "take-pdf-001": "本句指「小心／保重；take care of 則常指照顧或處理」。",
         "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
         "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
         "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
         "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
         "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。"
       },
-      "correctOption": "take-mcq-27"
+      "correctOption": "take-pdf-001"
     },
     {
       "id": "take-28-0",

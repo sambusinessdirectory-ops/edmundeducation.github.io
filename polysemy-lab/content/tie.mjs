@@ -12,18 +12,7 @@ export default {
       "en": "tie (verb)",
       "zh": "綁；繫",
       "note": "來源詞義：綁；繫",
-      "examples": [
-        [
-          "I stopped to tie my shoelaces.",
-          "我停下來綁鞋帶。",
-          "綁；繫"
-        ],
-        [
-          "Can you tie your shoes by yourself?",
-          "你可以自己綁鞋帶嗎？",
-          "綁；繫"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -182,18 +171,7 @@ export default {
       "en": "ties (relationships)",
       "zh": "關係；聯繫",
       "note": "來源詞義：關係；聯繫",
-      "examples": [
-        [
-          "The two companies have close ties.",
-          "兩間公司有密切的關係。",
-          "關係；聯繫"
-        ],
-        [
-          "She maintains strong ties with her former colleagues.",
-          "她和以前的同事保持緊密聯繫。",
-          "關係；聯繫"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -235,16 +213,6 @@ export default {
         [
           "He has strong professional ties with the industry.",
           "他和該行業有緊密的專業聯繫。",
-          "商業關係"
-        ],
-        [
-          "The two countries strengthened economic ties.",
-          "兩國加強了經濟聯繫。",
-          "商業關係"
-        ],
-        [
-          "They restored diplomatic ties.",
-          "雙方恢復了外交關係。",
           "商業關係"
         ]
       ],
@@ -557,68 +525,134 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "tie-pdf-001",
+      "title": "把鞋帶打結固定",
+      "form": "2. tie your shoes / shoelaces — 綁鞋帶",
+      "en": "2. tie your shoes / shoelaces — 綁鞋帶",
+      "zh": "把鞋帶打結固定",
+      "note": "原始 PDF 第 2 節：把鞋帶打結固定",
+      "examples": [
+        [
+          "I stopped to tie my shoelaces.",
+          "我停下來綁鞋帶。",
+          "把鞋帶打結固定"
+        ],
+        [
+          "Can you tie your shoes by yourself?",
+          "你可以自己綁鞋帶嗎？",
+          "把鞋帶打結固定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "tie-pdf-002",
+      "title": "人、組織或地方之間持續存在的關係或聯繫",
+      "form": "11. tie（noun：關係；聯繫） — 關係；聯繫",
+      "en": "11. tie（noun：關係；聯繫） — 關係；聯繫",
+      "zh": "人、組織或地方之間持續存在的關係或聯繫",
+      "note": "原始 PDF 第 11 節：人、組織或地方之間持續存在的關係或聯繫",
+      "examples": [
+        [
+          "The two companies have close ties.",
+          "兩間公司有密切的關係。",
+          "人、組織或地方之間持續存在的關係或聯繫"
+        ],
+        [
+          "She maintains strong ties with her former colleagues.",
+          "她和以前的同事保持緊密聯繫。",
+          "人、組織或地方之間持續存在的關係或聯繫"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "tie-pdf-003",
+      "title": "國家、政府或經濟體之間的正式關係",
+      "form": "14. diplomatic / economic ties — 外交／經濟關係",
+      "en": "14. diplomatic / economic ties — 外交／經濟關係",
+      "zh": "國家、政府或經濟體之間的正式關係",
+      "note": "原始 PDF 第 14 節：國家、政府或經濟體之間的正式關係",
+      "examples": [
+        [
+          "The two countries strengthened economic ties.",
+          "兩國加強了經濟聯繫。",
+          "國家、政府或經濟體之間的正式關係"
+        ],
+        [
+          "They restored diplomatic ties.",
+          "雙方恢復了外交關係。",
+          "國家、政府或經濟體之間的正式關係"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "tie-02-0",
-      "sense": "tie-mcq-01",
+      "sense": "tie-pdf-001",
       "en": "I stopped to tie my shoelaces.",
       "zh": "我停下來綁鞋帶。",
       "masked": "I stopped to ____.",
       "options": [
-        "tie-mcq-01",
+        "tie-pdf-001",
         "tie-mcq-02",
         "tie-mcq-03",
         "tie-mcq-04",
         "tie-mcq-05",
         "tie-mcq-06"
       ],
-      "explanation": "本句的「tie my shoelaces」指「綁；繫」。",
+      "explanation": "本句的「tie my shoelaces」指「把鞋帶打結固定」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "tie my shoelaces"
       ],
       "optionReasons": {
-        "tie-mcq-01": "本句指「綁；繫」。",
+        "tie-pdf-001": "本句指「把鞋帶打結固定」。",
         "tie-mcq-02": "「打結」與本句語境不同。",
         "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
         "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
         "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
         "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
       },
-      "correctOption": "tie-mcq-01"
+      "correctOption": "tie-pdf-001"
     },
     {
       "id": "tie-02-1",
-      "sense": "tie-mcq-01",
+      "sense": "tie-pdf-001",
       "en": "Can you tie your shoes by yourself?",
       "zh": "你可以自己綁鞋帶嗎？",
       "masked": "Can you ____ by yourself?",
       "options": [
-        "tie-mcq-01",
+        "tie-pdf-001",
         "tie-mcq-02",
         "tie-mcq-03",
         "tie-mcq-04",
         "tie-mcq-05",
         "tie-mcq-06"
       ],
-      "explanation": "本句的「tie your shoes」指「綁；繫」。",
+      "explanation": "本句的「tie your shoes」指「把鞋帶打結固定」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "tie your shoes"
       ],
       "optionReasons": {
-        "tie-mcq-01": "本句指「綁；繫」。",
+        "tie-pdf-001": "本句指「把鞋帶打結固定」。",
         "tie-mcq-02": "「打結」與本句語境不同。",
         "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
         "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
         "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
         "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
       },
-      "correctOption": "tie-mcq-01"
+      "correctOption": "tie-pdf-001"
     },
     {
       "id": "tie-03-0",
@@ -1012,63 +1046,63 @@ export default {
     },
     {
       "id": "tie-11-0",
-      "sense": "tie-mcq-09",
+      "sense": "tie-pdf-002",
       "en": "The two companies have close ties.",
       "zh": "兩間公司有密切的關係。",
       "masked": "The two companies have close ____.",
       "options": [
-        "tie-mcq-09",
+        "tie-pdf-002",
         "tie-mcq-08",
         "tie-mcq-10",
         "tie-mcq-07",
         "tie-mcq-11",
         "tie-mcq-06"
       ],
-      "explanation": "本句的「ties」指「關係；聯繫」。",
+      "explanation": "本句的「ties」指「人、組織或地方之間持續存在的關係或聯繫」。",
       "sentenceIndex": 22,
       "sourcePractice": 1,
       "targets": [
         "ties"
       ],
       "optionReasons": {
-        "tie-mcq-09": "本句指「關係；聯繫」。",
+        "tie-pdf-002": "本句指「人、組織或地方之間持續存在的關係或聯繫」。",
         "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
         "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
         "tie-mcq-07": "「領帶」與本句語境不同。",
         "tie-mcq-11": "「商業關係」與本句語境不同。",
         "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
       },
-      "correctOption": "tie-mcq-09"
+      "correctOption": "tie-pdf-002"
     },
     {
       "id": "tie-11-1",
-      "sense": "tie-mcq-09",
+      "sense": "tie-pdf-002",
       "en": "She maintains strong ties with her former colleagues.",
       "zh": "她和以前的同事保持緊密聯繫。",
       "masked": "She maintains strong ____.",
       "options": [
-        "tie-mcq-09",
+        "tie-pdf-002",
         "tie-mcq-08",
         "tie-mcq-10",
         "tie-mcq-07",
         "tie-mcq-11",
         "tie-mcq-06"
       ],
-      "explanation": "本句的「ties with her former colleagues」指「關係；聯繫」。",
+      "explanation": "本句的「ties with her former colleagues」指「人、組織或地方之間持續存在的關係或聯繫」。",
       "sentenceIndex": 23,
       "sourcePractice": 2,
       "targets": [
         "ties with her former colleagues"
       ],
       "optionReasons": {
-        "tie-mcq-09": "本句指「關係；聯繫」。",
+        "tie-pdf-002": "本句指「人、組織或地方之間持續存在的關係或聯繫」。",
         "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
         "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
         "tie-mcq-07": "「領帶」與本句語境不同。",
         "tie-mcq-11": "「商業關係」與本句語境不同。",
         "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
       },
-      "correctOption": "tie-mcq-09"
+      "correctOption": "tie-pdf-002"
     },
     {
       "id": "tie-12-0",
@@ -1192,63 +1226,63 @@ export default {
     },
     {
       "id": "tie-14-0",
-      "sense": "tie-mcq-11",
+      "sense": "tie-pdf-003",
       "en": "The two countries strengthened economic ties.",
       "zh": "兩國加強了經濟聯繫。",
       "masked": "The two countries strengthened economic ____.",
       "options": [
-        "tie-mcq-11",
+        "tie-pdf-003",
         "tie-mcq-10",
         "tie-mcq-12",
         "tie-mcq-09",
         "tie-mcq-13",
         "tie-mcq-08"
       ],
-      "explanation": "本句的「ties」指「商業關係」。",
+      "explanation": "本句的「ties」指「國家、政府或經濟體之間的正式關係」。",
       "sentenceIndex": 28,
       "sourcePractice": 1,
       "targets": [
         "ties"
       ],
       "optionReasons": {
-        "tie-mcq-11": "本句指「商業關係」。",
+        "tie-pdf-003": "本句指「國家、政府或經濟體之間的正式關係」。",
         "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
         "tie-mcq-12": "「斷絕關係」與本句語境不同。",
         "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
         "tie-mcq-13": "「加強關係」與本句語境不同。",
         "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。"
       },
-      "correctOption": "tie-mcq-11"
+      "correctOption": "tie-pdf-003"
     },
     {
       "id": "tie-14-1",
-      "sense": "tie-mcq-11",
+      "sense": "tie-pdf-003",
       "en": "They restored diplomatic ties.",
       "zh": "雙方恢復了外交關係。",
       "masked": "They restored diplomatic ____.",
       "options": [
-        "tie-mcq-11",
+        "tie-pdf-003",
         "tie-mcq-10",
         "tie-mcq-12",
         "tie-mcq-09",
         "tie-mcq-13",
         "tie-mcq-08"
       ],
-      "explanation": "本句的「ties」指「商業關係」。",
+      "explanation": "本句的「ties」指「國家、政府或經濟體之間的正式關係」。",
       "sentenceIndex": 29,
       "sourcePractice": 2,
       "targets": [
         "ties"
       ],
       "optionReasons": {
-        "tie-mcq-11": "本句指「商業關係」。",
+        "tie-pdf-003": "本句指「國家、政府或經濟體之間的正式關係」。",
         "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
         "tie-mcq-12": "「斷絕關係」與本句語境不同。",
         "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
         "tie-mcq-13": "「加強關係」與本句語境不同。",
         "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。"
       },
-      "correctOption": "tie-mcq-11"
+      "correctOption": "tie-pdf-003"
     },
     {
       "id": "tie-15-0",

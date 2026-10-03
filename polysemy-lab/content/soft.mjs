@@ -22,16 +22,6 @@ export default {
           "She has soft skin.",
           "她的皮膚很柔嫩。",
           "觸感不硬、不僵，容易被壓下／改變形狀"
-        ],
-        [
-          "The blanket is made from a soft fabric.",
-          "這張毛毯由柔軟的布料製成。",
-          "觸感不硬、不僵，容易被壓下／改變形狀"
-        ],
-        [
-          "Choose a soft towel for the baby.",
-          "替寶寶選一條柔軟的毛巾。",
-          "觸感不硬、不僵，容易被壓下／改變形狀"
         ]
       ],
       "options": [],
@@ -360,16 +350,6 @@ export default {
           "He became a soft target for criticism.",
           "他成為了很容易被批評的對象。",
           "因防備／地位較弱而容易被攻擊、利用或批評的對象"
-        ],
-        [
-          "The region has a soft climate.",
-          "該地區氣候較溫和。",
-          "因防備／地位較弱而容易被攻擊、利用或批評的對象"
-        ],
-        [
-          "A soft rain fell all afternoon.",
-          "整個下午都下著細柔的雨。",
-          "因防備／地位較弱而容易被攻擊、利用或批評的對象"
         ]
       ],
       "options": [],
@@ -383,26 +363,6 @@ export default {
       "zh": "低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整",
       "note": "來源詞義：低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整",
       "examples": [
-        [
-          "A soft rain began to fall.",
-          "開始下起了柔和細雨。",
-          "低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整"
-        ],
-        [
-          "The soft rain made the garden quiet.",
-          "細雨令花園顯得很安靜。",
-          "低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整"
-        ],
-        [
-          "She gave the door a soft push.",
-          "她輕輕推了門一下。",
-          "低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整"
-        ],
-        [
-          "The ball landed with a soft bounce.",
-          "球輕輕地彈了一下。",
-          "低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整"
-        ],
         [
           "The aircraft made a soft landing.",
           "飛機平穩著陸。",
@@ -425,16 +385,6 @@ export default {
       "zh": "降低影像邊緣清晰度而形成的柔和效果",
       "note": "來源詞義：降低影像邊緣清晰度而形成的柔和效果",
       "examples": [
-        [
-          "The photograph has a soft focus.",
-          "這張照片用了柔焦效果。",
-          "降低影像邊緣清晰度而形成的柔和效果"
-        ],
-        [
-          "The background appears soft and blurred.",
-          "背景看起來柔化而模糊。",
-          "降低影像邊緣清晰度而形成的柔和效果"
-        ],
         [
           "The portrait was shot in soft focus.",
           "這張人像用了柔焦拍攝。",
@@ -651,16 +601,6 @@ export default {
         [
           "Let the fruit soften before eating it.",
           "讓水果變軟後再吃。",
-          "令硬度降低，或本身變得較軟"
-        ],
-        [
-          "Her expression softened.",
-          "她的表情柔和下來。",
-          "令硬度降低，或本身變得較軟"
-        ],
-        [
-          "He softened his criticism.",
-          "他把批評的語氣緩和了。",
           "令硬度降低，或本身變得較軟"
         ]
       ],
@@ -918,6 +858,138 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "soft-pdf-001",
+      "title": "材料摸起來柔和、不粗硬",
+      "form": "2. soft material/fabric（柔軟材質） — 柔軟的",
+      "en": "2. soft material/fabric（柔軟材質） — 柔軟的",
+      "zh": "材料摸起來柔和、不粗硬",
+      "note": "原始 PDF 第 2 節：材料摸起來柔和、不粗硬",
+      "examples": [
+        [
+          "The blanket is made from a soft fabric.",
+          "這張毛毯由柔軟的布料製成。",
+          "材料摸起來柔和、不粗硬"
+        ],
+        [
+          "Choose a soft towel for the baby.",
+          "替寶寶選一條柔軟的毛巾。",
+          "材料摸起來柔和、不粗硬"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "soft-pdf-002",
+      "title": "天氣、雨等不強烈、較溫和",
+      "form": "23. soft = mild weather/climate（溫和的天氣） — 溫和；不寒冷",
+      "en": "23. soft = mild weather/climate（溫和的天氣） — 溫和；不寒冷",
+      "zh": "天氣、雨等不強烈、較溫和",
+      "note": "原始 PDF 第 23 節：天氣、雨等不強烈、較溫和",
+      "examples": [
+        [
+          "The region has a soft climate.",
+          "該地區氣候較溫和。",
+          "天氣、雨等不強烈、較溫和"
+        ],
+        [
+          "A soft rain fell all afternoon.",
+          "整個下午都下著細柔的雨。",
+          "天氣、雨等不強烈、較溫和"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "soft-pdf-003",
+      "title": "雨勢輕、不猛烈",
+      "form": "24. soft rain（細雨／柔和的雨） — 細柔的雨",
+      "en": "24. soft rain（細雨／柔和的雨） — 細柔的雨",
+      "zh": "雨勢輕、不猛烈",
+      "note": "原始 PDF 第 24 節：雨勢輕、不猛烈",
+      "examples": [
+        [
+          "A soft rain began to fall.",
+          "開始下起了柔和細雨。",
+          "雨勢輕、不猛烈"
+        ],
+        [
+          "The soft rain made the garden quiet.",
+          "細雨令花園顯得很安靜。",
+          "雨勢輕、不猛烈"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "soft-pdf-004",
+      "title": "力度小、衝擊不強",
+      "form": "25. soft = low intensity / gentle impact（力度輕） — 輕柔；不猛烈",
+      "en": "25. soft = low intensity / gentle impact（力度輕） — 輕柔；不猛烈",
+      "zh": "力度小、衝擊不強",
+      "note": "原始 PDF 第 25 節：力度小、衝擊不強",
+      "examples": [
+        [
+          "She gave the door a soft push.",
+          "她輕輕推了門一下。",
+          "力度小、衝擊不強"
+        ],
+        [
+          "The ball landed with a soft bounce.",
+          "球輕輕地彈了一下。",
+          "力度小、衝擊不強"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "soft-pdf-005",
+      "title": "邊緣、細節或焦點不尖銳清楚，而呈柔化效果",
+      "form": "27. soft = not sharply defined（模糊柔化的） — 柔焦；邊緣不清晰",
+      "en": "27. soft = not sharply defined（模糊柔化的） — 柔焦；邊緣不清晰",
+      "zh": "邊緣、細節或焦點不尖銳清楚，而呈柔化效果",
+      "note": "原始 PDF 第 27 節：邊緣、細節或焦點不尖銳清楚，而呈柔化效果",
+      "examples": [
+        [
+          "The photograph has a soft focus.",
+          "這張照片用了柔焦效果。",
+          "邊緣、細節或焦點不尖銳清楚，而呈柔化效果"
+        ],
+        [
+          "The background appears soft and blurred.",
+          "背景看起來柔化而模糊。",
+          "邊緣、細節或焦點不尖銳清楚，而呈柔化效果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "soft-pdf-006",
+      "title": "令態度、語氣、表情、規則等變得較不嚴厲／尖銳",
+      "form": "42. soften = become less severe/harsh（緩和） — 軟化；緩和",
+      "en": "42. soften = become less severe/harsh（緩和） — 軟化；緩和",
+      "zh": "令態度、語氣、表情、規則等變得較不嚴厲／尖銳",
+      "note": "原始 PDF 第 42 節：令態度、語氣、表情、規則等變得較不嚴厲／尖銳",
+      "examples": [
+        [
+          "Her expression softened.",
+          "她的表情柔和下來。",
+          "令態度、語氣、表情、規則等變得較不嚴厲／尖銳"
+        ],
+        [
+          "He softened his criticism.",
+          "他把批評的語氣緩和了。",
+          "令態度、語氣、表情、規則等變得較不嚴厲／尖銳"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -983,63 +1055,63 @@ export default {
     },
     {
       "id": "soft-02-0",
-      "sense": "soft-mcq-01",
+      "sense": "soft-pdf-001",
       "en": "The blanket is made from a soft fabric.",
       "zh": "這張毛毯由柔軟的布料製成。",
       "masked": "The blanket is made from a ____.",
       "options": [
-        "soft-mcq-01",
+        "soft-pdf-001",
         "soft-mcq-02",
         "soft-mcq-03",
         "soft-mcq-04",
         "soft-mcq-05",
         "soft-mcq-06"
       ],
-      "explanation": "本句的「soft fabric」指「觸感不硬、不僵，容易被壓下／改變形狀」。",
+      "explanation": "本句的「soft fabric」指「材料摸起來柔和、不粗硬」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "soft fabric"
       ],
       "optionReasons": {
-        "soft-mcq-01": "本句指「觸感不硬、不僵，容易被壓下／改變形狀」。",
+        "soft-pdf-001": "本句指「材料摸起來柔和、不粗硬」。",
         "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
         "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
         "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
         "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
         "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-01"
+      "correctOption": "soft-pdf-001"
     },
     {
       "id": "soft-02-1",
-      "sense": "soft-mcq-01",
+      "sense": "soft-pdf-001",
       "en": "Choose a soft towel for the baby.",
       "zh": "替寶寶選一條柔軟的毛巾。",
       "masked": "Choose a ____ towel for the baby.",
       "options": [
-        "soft-mcq-01",
+        "soft-pdf-001",
         "soft-mcq-02",
         "soft-mcq-03",
         "soft-mcq-04",
         "soft-mcq-05",
         "soft-mcq-06"
       ],
-      "explanation": "本句的「soft」指「觸感不硬、不僵，容易被壓下／改變形狀」。",
+      "explanation": "本句的「soft」指「材料摸起來柔和、不粗硬」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-01": "本句指「觸感不硬、不僵，容易被壓下／改變形狀」。",
+        "soft-pdf-001": "本句指「材料摸起來柔和、不粗硬」。",
         "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
         "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
         "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
         "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
         "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-01"
+      "correctOption": "soft-pdf-001"
     },
     {
       "id": "soft-03-0",
@@ -2243,183 +2315,183 @@ export default {
     },
     {
       "id": "soft-23-0",
-      "sense": "soft-mcq-15",
+      "sense": "soft-pdf-002",
       "en": "The region has a soft climate.",
       "zh": "該地區氣候較溫和。",
       "masked": "The region has a ____.",
       "options": [
-        "soft-mcq-15",
+        "soft-pdf-002",
         "soft-mcq-14",
         "soft-mcq-16",
         "soft-mcq-13",
         "soft-mcq-17",
         "soft-mcq-12"
       ],
-      "explanation": "本句的「soft climate」指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
+      "explanation": "本句的「soft climate」指「天氣、雨等不強烈、較溫和」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "soft climate"
       ],
       "optionReasons": {
-        "soft-mcq-15": "本句指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
+        "soft-pdf-002": "本句指「天氣、雨等不強烈、較溫和」。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
         "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
         "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
         "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
         "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-15"
+      "correctOption": "soft-pdf-002"
     },
     {
       "id": "soft-23-1",
-      "sense": "soft-mcq-15",
+      "sense": "soft-pdf-002",
       "en": "A soft rain fell all afternoon.",
       "zh": "整個下午都下著細柔的雨。",
       "masked": "A ____ rain fell all afternoon.",
       "options": [
-        "soft-mcq-15",
+        "soft-pdf-002",
         "soft-mcq-14",
         "soft-mcq-16",
         "soft-mcq-13",
         "soft-mcq-17",
         "soft-mcq-12"
       ],
-      "explanation": "本句的「soft」指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
+      "explanation": "本句的「soft」指「天氣、雨等不強烈、較溫和」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-15": "本句指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
+        "soft-pdf-002": "本句指「天氣、雨等不強烈、較溫和」。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
         "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
         "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
         "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
         "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-15"
+      "correctOption": "soft-pdf-002"
     },
     {
       "id": "soft-24-0",
-      "sense": "soft-mcq-16",
+      "sense": "soft-pdf-003",
       "en": "A soft rain began to fall.",
       "zh": "開始下起了柔和細雨。",
       "masked": "A ____ began to fall.",
       "options": [
-        "soft-mcq-16",
+        "soft-pdf-003",
         "soft-mcq-15",
         "soft-mcq-17",
         "soft-mcq-14",
         "soft-mcq-18",
         "soft-mcq-13"
       ],
-      "explanation": "本句的「soft rain」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+      "explanation": "本句的「soft rain」指「雨勢輕、不猛烈」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "soft rain"
       ],
       "optionReasons": {
-        "soft-mcq-16": "本句指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+        "soft-pdf-003": "本句指「雨勢輕、不猛烈」。",
         "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
         "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
         "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
         "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-16"
+      "correctOption": "soft-pdf-003"
     },
     {
       "id": "soft-24-1",
-      "sense": "soft-mcq-16",
+      "sense": "soft-pdf-003",
       "en": "The soft rain made the garden quiet.",
       "zh": "細雨令花園顯得很安靜。",
       "masked": "The ____ rain made the garden quiet.",
       "options": [
-        "soft-mcq-16",
+        "soft-pdf-003",
         "soft-mcq-15",
         "soft-mcq-17",
         "soft-mcq-14",
         "soft-mcq-18",
         "soft-mcq-13"
       ],
-      "explanation": "本句的「soft」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+      "explanation": "本句的「soft」指「雨勢輕、不猛烈」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-16": "本句指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+        "soft-pdf-003": "本句指「雨勢輕、不猛烈」。",
         "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
         "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
         "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
         "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-16"
+      "correctOption": "soft-pdf-003"
     },
     {
       "id": "soft-25-0",
-      "sense": "soft-mcq-16",
+      "sense": "soft-pdf-004",
       "en": "She gave the door a soft push.",
       "zh": "她輕輕推了門一下。",
       "masked": "She gave the door a ____.",
       "options": [
-        "soft-mcq-16",
+        "soft-pdf-004",
         "soft-mcq-15",
         "soft-mcq-17",
         "soft-mcq-14",
         "soft-mcq-18",
         "soft-mcq-13"
       ],
-      "explanation": "本句的「soft push」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+      "explanation": "本句的「soft push」指「力度小、衝擊不強」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "soft push"
       ],
       "optionReasons": {
-        "soft-mcq-16": "本句指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+        "soft-pdf-004": "本句指「力度小、衝擊不強」。",
         "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
         "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
         "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
         "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-16"
+      "correctOption": "soft-pdf-004"
     },
     {
       "id": "soft-25-1",
-      "sense": "soft-mcq-16",
+      "sense": "soft-pdf-004",
       "en": "The ball landed with a soft bounce.",
       "zh": "球輕輕地彈了一下。",
       "masked": "The ball landed with a ____ bounce.",
       "options": [
-        "soft-mcq-16",
+        "soft-pdf-004",
         "soft-mcq-15",
         "soft-mcq-17",
         "soft-mcq-14",
         "soft-mcq-18",
         "soft-mcq-13"
       ],
-      "explanation": "本句的「soft」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+      "explanation": "本句的「soft」指「力度小、衝擊不強」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-16": "本句指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+        "soft-pdf-004": "本句指「力度小、衝擊不強」。",
         "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
         "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
         "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
         "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-16"
+      "correctOption": "soft-pdf-004"
     },
     {
       "id": "soft-26-0",
@@ -2483,63 +2555,63 @@ export default {
     },
     {
       "id": "soft-27-0",
-      "sense": "soft-mcq-17",
+      "sense": "soft-pdf-005",
       "en": "The photograph has a soft focus.",
       "zh": "這張照片用了柔焦效果。",
       "masked": "The photograph has a ____.",
       "options": [
-        "soft-mcq-17",
+        "soft-pdf-005",
         "soft-mcq-16",
         "soft-mcq-18",
         "soft-mcq-15",
         "soft-mcq-19",
         "soft-mcq-14"
       ],
-      "explanation": "本句的「soft focus」指「降低影像邊緣清晰度而形成的柔和效果」。",
+      "explanation": "本句的「soft focus」指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
       "sentenceIndex": 52,
       "sourcePractice": 53,
       "targets": [
         "soft focus"
       ],
       "optionReasons": {
-        "soft-mcq-17": "本句指「降低影像邊緣清晰度而形成的柔和效果」。",
+        "soft-pdf-005": "本句指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
         "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
         "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
         "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
         "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-17"
+      "correctOption": "soft-pdf-005"
     },
     {
       "id": "soft-27-1",
-      "sense": "soft-mcq-17",
+      "sense": "soft-pdf-005",
       "en": "The background appears soft and blurred.",
       "zh": "背景看起來柔化而模糊。",
       "masked": "The background appears ____ and blurred.",
       "options": [
-        "soft-mcq-17",
+        "soft-pdf-005",
         "soft-mcq-16",
         "soft-mcq-18",
         "soft-mcq-15",
         "soft-mcq-19",
         "soft-mcq-14"
       ],
-      "explanation": "本句的「soft」指「降低影像邊緣清晰度而形成的柔和效果」。",
+      "explanation": "本句的「soft」指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-17": "本句指「降低影像邊緣清晰度而形成的柔和效果」。",
+        "soft-pdf-005": "本句指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
         "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
         "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
         "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
         "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
         "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-17"
+      "correctOption": "soft-pdf-005"
     },
     {
       "id": "soft-28-0",
@@ -3383,63 +3455,63 @@ export default {
     },
     {
       "id": "soft-42-0",
-      "sense": "soft-mcq-26",
+      "sense": "soft-pdf-006",
       "en": "Her expression softened.",
       "zh": "她的表情柔和下來。",
       "masked": "Her expression ____.",
       "options": [
-        "soft-mcq-26",
+        "soft-pdf-006",
         "soft-mcq-25",
         "soft-mcq-27",
         "soft-mcq-24",
         "soft-mcq-28",
         "soft-mcq-23"
       ],
-      "explanation": "本句的「softened」指「令硬度降低，或本身變得較軟」。",
+      "explanation": "本句的「softened」指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
       "sentenceIndex": 82,
       "sourcePractice": 83,
       "targets": [
         "softened"
       ],
       "optionReasons": {
-        "soft-mcq-26": "本句指「令硬度降低，或本身變得較軟」。",
+        "soft-pdf-006": "本句指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
         "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
         "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
         "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
         "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
         "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-26"
+      "correctOption": "soft-pdf-006"
     },
     {
       "id": "soft-42-1",
-      "sense": "soft-mcq-26",
+      "sense": "soft-pdf-006",
       "en": "He softened his criticism.",
       "zh": "他把批評的語氣緩和了。",
       "masked": "He ____ his criticism.",
       "options": [
-        "soft-mcq-26",
+        "soft-pdf-006",
         "soft-mcq-25",
         "soft-mcq-27",
         "soft-mcq-24",
         "soft-mcq-28",
         "soft-mcq-23"
       ],
-      "explanation": "本句的「softened」指「令硬度降低，或本身變得較軟」。",
+      "explanation": "本句的「softened」指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
       "sentenceIndex": 83,
       "sourcePractice": 84,
       "targets": [
         "softened"
       ],
       "optionReasons": {
-        "soft-mcq-26": "本句指「令硬度降低，或本身變得較軟」。",
+        "soft-pdf-006": "本句指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
         "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
         "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
         "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
         "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
         "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。"
       },
-      "correctOption": "soft-mcq-26"
+      "correctOption": "soft-pdf-006"
     },
     {
       "id": "soft-43-0",

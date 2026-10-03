@@ -183,16 +183,6 @@ export default {
       "note": "來源詞義：沒有必要是實際母親，但在情感／照顧上扮演母親角色的人",
       "examples": [
         [
-          "She was like a mother to the younger children.",
-          "她對年幼的孩子來說，就像一位母親。",
-          "沒有必要是實際母親，但在情感／照顧上扮演母親角色的人"
-        ],
-        [
-          "She became a mother to children who needed support.",
-          "她像母親一樣照顧那些需要支持的孩子。",
-          "沒有必要是實際母親，但在情感／照顧上扮演母親角色的人"
-        ],
-        [
           "My grandmother was a mother figure to me.",
           "我的外婆對我來說是一個母親般的人物。",
           "沒有必要是實際母親，但在情感／照顧上扮演母親角色的人"
@@ -558,6 +548,28 @@ export default {
           "The spacecraft returned to the mothership.",
           "太空船返回了母艦／母船。",
           "供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mother-pdf-001",
+      "title": "即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性",
+      "form": "9. mother = woman who performs a maternal role（像母親般照顧的人） — 母親般的人",
+      "en": "9. mother = woman who performs a maternal role（像母親般照顧的人） — 母親般的人",
+      "zh": "即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性",
+      "note": "原始 PDF 第 9 節：即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性",
+      "examples": [
+        [
+          "She was like a mother to the younger children.",
+          "她對年幼的孩子來說，就像一位母親。",
+          "即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性"
+        ],
+        [
+          "She became a mother to children who needed support.",
+          "她像母親一樣照顧那些需要支持的孩子。",
+          "即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性"
         ]
       ],
       "options": [],
@@ -1077,63 +1089,63 @@ export default {
     },
     {
       "id": "mother-09-0",
-      "sense": "mother-mcq-08",
+      "sense": "mother-pdf-001",
       "en": "She was like a mother to the younger children.",
       "zh": "她對年幼的孩子來說，就像一位母親。",
       "masked": "She was like a ____ to the younger children.",
       "options": [
-        "mother-mcq-08",
+        "mother-pdf-001",
         "mother-mcq-07",
         "mother-mcq-09",
         "mother-mcq-06",
         "mother-mcq-10",
         "mother-mcq-05"
       ],
-      "explanation": "本句的「mother」指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
+      "explanation": "本句的「mother」指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-08": "本句指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
+        "mother-pdf-001": "本句指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
         "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
         "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
         "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
         "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
         "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。"
       },
-      "correctOption": "mother-mcq-08"
+      "correctOption": "mother-pdf-001"
     },
     {
       "id": "mother-09-1",
-      "sense": "mother-mcq-08",
+      "sense": "mother-pdf-001",
       "en": "She became a mother to children who needed support.",
       "zh": "她像母親一樣照顧那些需要支持的孩子。",
       "masked": "She became a ____ to children who needed support.",
       "options": [
-        "mother-mcq-08",
+        "mother-pdf-001",
         "mother-mcq-07",
         "mother-mcq-09",
         "mother-mcq-06",
         "mother-mcq-10",
         "mother-mcq-05"
       ],
-      "explanation": "本句的「mother」指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
+      "explanation": "本句的「mother」指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-08": "本句指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
+        "mother-pdf-001": "本句指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
         "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
         "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
         "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
         "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
         "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。"
       },
-      "correctOption": "mother-mcq-08"
+      "correctOption": "mother-pdf-001"
     },
     {
       "id": "mother-10-0",

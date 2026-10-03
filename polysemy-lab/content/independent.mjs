@@ -173,16 +173,6 @@ export default {
       "note": "來源詞義：一個事件或變數的結果不會影響另一個",
       "examples": [
         [
-          "He works as an independent consultant.",
-          "他是一名獨立顧問／自僱顧問。",
-          "一個事件或變數的結果不會影響另一個"
-        ],
-        [
-          "She became an independent contractor.",
-          "她成為一名獨立承包商。",
-          "一個事件或變數的結果不會影響另一個"
-        ],
-        [
           "The two events are statistically independent.",
           "這兩個事件在統計上是獨立的。",
           "一個事件或變數的結果不會影響另一個"
@@ -235,6 +225,28 @@ export default {
           "The two departments operate as independent units.",
           "這兩個部門以獨立單位形式運作。",
           "獨立、自主、不受控制或依賴的狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "independent-pdf-001",
+      "title": "不受單一僱主直接聘用，而自行承接工作的",
+      "form": "8. independent = self-employed / freelance（工作） — 自僱的；獨立工作的",
+      "en": "8. independent = self-employed / freelance（工作） — 自僱的；獨立工作的",
+      "zh": "不受單一僱主直接聘用，而自行承接工作的",
+      "note": "原始 PDF 第 8 節：不受單一僱主直接聘用，而自行承接工作的",
+      "examples": [
+        [
+          "He works as an independent consultant.",
+          "他是一名獨立顧問／自僱顧問。",
+          "不受單一僱主直接聘用，而自行承接工作的"
+        ],
+        [
+          "She became an independent contractor.",
+          "她成為一名獨立承包商。",
+          "不受單一僱主直接聘用，而自行承接工作的"
         ]
       ],
       "options": [],
@@ -694,63 +706,63 @@ export default {
     },
     {
       "id": "independent-08-0",
-      "sense": "independent-mcq-08",
+      "sense": "independent-pdf-001",
       "en": "He works as an independent consultant.",
       "zh": "他是一名獨立顧問／自僱顧問。",
       "masked": "He works as an ____ consultant.",
       "options": [
-        "independent-mcq-08",
+        "independent-pdf-001",
         "independent-mcq-07",
         "independent-mcq-09",
         "independent-mcq-06",
         "independent-mcq-10",
         "independent-mcq-05"
       ],
-      "explanation": "本句的「independent」指「一個事件或變數的結果不會影響另一個」。",
+      "explanation": "本句的「independent」指「不受單一僱主直接聘用，而自行承接工作的」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-08": "本句指「一個事件或變數的結果不會影響另一個」。",
+        "independent-pdf-001": "本句指「不受單一僱主直接聘用，而自行承接工作的」。",
         "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
         "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
         "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
         "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
         "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
       },
-      "correctOption": "independent-mcq-08"
+      "correctOption": "independent-pdf-001"
     },
     {
       "id": "independent-08-1",
-      "sense": "independent-mcq-08",
+      "sense": "independent-pdf-001",
       "en": "She became an independent contractor.",
       "zh": "她成為一名獨立承包商。",
       "masked": "She became an ____ contractor.",
       "options": [
-        "independent-mcq-08",
+        "independent-pdf-001",
         "independent-mcq-07",
         "independent-mcq-09",
         "independent-mcq-06",
         "independent-mcq-10",
         "independent-mcq-05"
       ],
-      "explanation": "本句的「independent」指「一個事件或變數的結果不會影響另一個」。",
+      "explanation": "本句的「independent」指「不受單一僱主直接聘用，而自行承接工作的」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-08": "本句指「一個事件或變數的結果不會影響另一個」。",
+        "independent-pdf-001": "本句指「不受單一僱主直接聘用，而自行承接工作的」。",
         "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
         "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
         "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
         "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
         "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
       },
-      "correctOption": "independent-mcq-08"
+      "correctOption": "independent-pdf-001"
     },
     {
       "id": "independent-09-0",

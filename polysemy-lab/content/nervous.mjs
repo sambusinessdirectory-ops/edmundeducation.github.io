@@ -136,16 +136,6 @@ export default {
           "He taps his foot as a nervous habit.",
           "他一緊張就會用腳打拍子，這是他的緊張小動作。",
           "緊張小動作"
-        ],
-        [
-          "Horses can be nervous animals.",
-          "馬有時是很容易受驚的動物。",
-          "緊張小動作"
-        ],
-        [
-          "The dog became nervous around strangers.",
-          "那隻狗見到陌生人時變得不安／容易受驚。",
-          "緊張小動作"
         ]
       ],
       "options": [],
@@ -420,6 +410,28 @@ export default {
           "The phrase nervous breakdown is common in everyday speech but is not a precise medical diagnosis.",
           "nervous breakdown 這個說法在日常英語很常見，但並不是精確的醫學診斷名稱。",
           "精神崩潰"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "nervous-pdf-001",
+      "title": "對聲音、陌生人或環境變化容易產生害怕或不安反應",
+      "form": "8. nervous animal — 容易受驚的動物",
+      "en": "8. nervous animal — 容易受驚的動物",
+      "zh": "對聲音、陌生人或環境變化容易產生害怕或不安反應",
+      "note": "原始 PDF 第 8 節：對聲音、陌生人或環境變化容易產生害怕或不安反應",
+      "examples": [
+        [
+          "Horses can be nervous animals.",
+          "馬有時是很容易受驚的動物。",
+          "對聲音、陌生人或環境變化容易產生害怕或不安反應"
+        ],
+        [
+          "The dog became nervous around strangers.",
+          "那隻狗見到陌生人時變得不安／容易受驚。",
+          "對聲音、陌生人或環境變化容易產生害怕或不安反應"
         ]
       ],
       "options": [],
@@ -819,63 +831,63 @@ export default {
     },
     {
       "id": "nervous-08-0",
-      "sense": "nervous-mcq-06",
+      "sense": "nervous-pdf-001",
       "en": "Horses can be nervous animals.",
       "zh": "馬有時是很容易受驚的動物。",
       "masked": "Horses can be ____.",
       "options": [
-        "nervous-mcq-06",
+        "nervous-pdf-001",
         "nervous-mcq-05",
         "nervous-mcq-07",
         "nervous-mcq-04",
         "nervous-mcq-08",
         "nervous-mcq-03"
       ],
-      "explanation": "本句的「nervous animals」指「緊張小動作」。",
+      "explanation": "本句的「nervous animals」指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "nervous animals"
       ],
       "optionReasons": {
-        "nervous-mcq-06": "本句指「緊張小動作」。",
+        "nervous-pdf-001": "本句指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
         "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
         "nervous-mcq-07": "「神經系統」與本句語境不同。",
         "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
         "nervous-mcq-08": "「緊張地」與本句語境不同。",
         "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。"
       },
-      "correctOption": "nervous-mcq-06"
+      "correctOption": "nervous-pdf-001"
     },
     {
       "id": "nervous-08-1",
-      "sense": "nervous-mcq-06",
+      "sense": "nervous-pdf-001",
       "en": "The dog became nervous around strangers.",
       "zh": "那隻狗見到陌生人時變得不安／容易受驚。",
       "masked": "The dog became ____ around strangers.",
       "options": [
-        "nervous-mcq-06",
+        "nervous-pdf-001",
         "nervous-mcq-05",
         "nervous-mcq-07",
         "nervous-mcq-04",
         "nervous-mcq-08",
         "nervous-mcq-03"
       ],
-      "explanation": "本句的「nervous」指「緊張小動作」。",
+      "explanation": "本句的「nervous」指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "nervous"
       ],
       "optionReasons": {
-        "nervous-mcq-06": "本句指「緊張小動作」。",
+        "nervous-pdf-001": "本句指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
         "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
         "nervous-mcq-07": "「神經系統」與本句語境不同。",
         "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
         "nervous-mcq-08": "「緊張地」與本句語境不同。",
         "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。"
       },
-      "correctOption": "nervous-mcq-06"
+      "correctOption": "nervous-pdf-001"
     },
     {
       "id": "nervous-09-0",

@@ -198,16 +198,6 @@ export default {
           "The decision was made purely for financial reasons.",
           "這個決定完全只是出於財務原因。",
           "完全只是／純粹因為某一原因"
-        ],
-        [
-          "The problem is being discussed purely theoretically.",
-          "這個問題目前只是作純理論上的討論。",
-          "完全只是／純粹因為某一原因"
-        ],
-        [
-          "The idea is interesting from a purely academic perspective.",
-          "從純學術角度來看，這個想法很有趣。",
-          "完全只是／純粹因為某一原因"
         ]
       ],
       "options": [],
@@ -274,16 +264,50 @@ export default {
           "The metal must be purified before use.",
           "這種金屬使用前必須先提純。",
           "去除雜質、污染物或不需要成分，使其更純淨"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pure-pdf-001",
+      "title": "只從某一層面／角度而言",
+      "form": "13. purely = in a theoretical/non-applied way — 純理論地",
+      "en": "13. purely = in a theoretical/non-applied way — 純理論地",
+      "zh": "只從某一層面／角度而言",
+      "note": "原始 PDF 第 13 節：只從某一層面／角度而言",
+      "examples": [
+        [
+          "The problem is being discussed purely theoretically.",
+          "這個問題目前只是作純理論上的討論。",
+          "只從某一層面／角度而言"
         ],
+        [
+          "The idea is interesting from a purely academic perspective.",
+          "從純學術角度來看，這個想法很有趣。",
+          "只從某一層面／角度而言"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pure-pdf-002",
+      "title": "去除精神、道德或情感上的『污濁』",
+      "form": "17. purify = cleanse morally/spiritually — 淨化心靈；潔淨",
+      "en": "17. purify = cleanse morally/spiritually — 淨化心靈；潔淨",
+      "zh": "去除精神、道德或情感上的『污濁』",
+      "note": "原始 PDF 第 17 節：去除精神、道德或情感上的『污濁』",
+      "examples": [
         [
           "The ritual was believed to purify the spirit.",
           "人們相信這個儀式可以淨化心靈。",
-          "去除雜質、污染物或不需要成分，使其更純淨"
+          "去除精神、道德或情感上的『污濁』"
         ],
         [
           "The experience seemed to purify his intentions.",
           "那次經歷似乎令他的動機變得更純正。",
-          "去除雜質、污染物或不需要成分，使其更純淨"
+          "去除精神、道德或情感上的『污濁』"
         ]
       ],
       "options": [],
@@ -833,63 +857,63 @@ export default {
     },
     {
       "id": "pure-13-0",
-      "sense": "pure-mcq-09",
+      "sense": "pure-pdf-001",
       "en": "The problem is being discussed purely theoretically.",
       "zh": "這個問題目前只是作純理論上的討論。",
       "masked": "The problem is being discussed ____.",
       "options": [
-        "pure-mcq-09",
+        "pure-pdf-001",
         "pure-mcq-08",
         "pure-mcq-10",
         "pure-mcq-07",
         "pure-mcq-11",
         "pure-mcq-06"
       ],
-      "explanation": "本句的「purely theoretically」指「完全只是／純粹因為某一原因」。",
+      "explanation": "本句的「purely theoretically」指「只從某一層面／角度而言」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "purely theoretically"
       ],
       "optionReasons": {
-        "pure-mcq-09": "本句指「完全只是／純粹因為某一原因」。",
+        "pure-pdf-001": "本句指「只從某一層面／角度而言」。",
         "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
         "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
         "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
         "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
         "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
       },
-      "correctOption": "pure-mcq-09"
+      "correctOption": "pure-pdf-001"
     },
     {
       "id": "pure-13-1",
-      "sense": "pure-mcq-09",
+      "sense": "pure-pdf-001",
       "en": "The idea is interesting from a purely academic perspective.",
       "zh": "從純學術角度來看，這個想法很有趣。",
       "masked": "The idea is interesting from a ____ academic perspective.",
       "options": [
-        "pure-mcq-09",
+        "pure-pdf-001",
         "pure-mcq-08",
         "pure-mcq-10",
         "pure-mcq-07",
         "pure-mcq-11",
         "pure-mcq-06"
       ],
-      "explanation": "本句的「purely」指「完全只是／純粹因為某一原因」。",
+      "explanation": "本句的「purely」指「只從某一層面／角度而言」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "purely"
       ],
       "optionReasons": {
-        "pure-mcq-09": "本句指「完全只是／純粹因為某一原因」。",
+        "pure-pdf-001": "本句指「只從某一層面／角度而言」。",
         "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
         "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
         "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
         "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
         "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
       },
-      "correctOption": "pure-mcq-09"
+      "correctOption": "pure-pdf-001"
     },
     {
       "id": "pure-14-0",
@@ -1073,63 +1097,63 @@ export default {
     },
     {
       "id": "pure-17-0",
-      "sense": "pure-mcq-12",
+      "sense": "pure-pdf-002",
       "en": "The ritual was believed to purify the spirit.",
       "zh": "人們相信這個儀式可以淨化心靈。",
       "masked": "The ritual was believed to ____ the spirit.",
       "options": [
-        "pure-mcq-12",
+        "pure-pdf-002",
         "pure-mcq-11",
         "pure-mcq-10",
         "pure-mcq-09",
         "pure-mcq-08",
         "pure-mcq-07"
       ],
-      "explanation": "本句的「purify」指「去除雜質、污染物或不需要成分，使其更純淨」。",
+      "explanation": "本句的「purify」指「去除精神、道德或情感上的『污濁』」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "purify"
       ],
       "optionReasons": {
-        "pure-mcq-12": "本句指「去除雜質、污染物或不需要成分，使其更純淨」。",
+        "pure-pdf-002": "本句指「去除精神、道德或情感上的『污濁』」。",
         "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
         "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
         "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
         "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
         "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
       },
-      "correctOption": "pure-mcq-12"
+      "correctOption": "pure-pdf-002"
     },
     {
       "id": "pure-17-1",
-      "sense": "pure-mcq-12",
+      "sense": "pure-pdf-002",
       "en": "The experience seemed to purify his intentions.",
       "zh": "那次經歷似乎令他的動機變得更純正。",
       "masked": "The experience seemed to ____ his intentions.",
       "options": [
-        "pure-mcq-12",
+        "pure-pdf-002",
         "pure-mcq-11",
         "pure-mcq-10",
         "pure-mcq-09",
         "pure-mcq-08",
         "pure-mcq-07"
       ],
-      "explanation": "本句的「purify」指「去除雜質、污染物或不需要成分，使其更純淨」。",
+      "explanation": "本句的「purify」指「去除精神、道德或情感上的『污濁』」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "purify"
       ],
       "optionReasons": {
-        "pure-mcq-12": "本句指「去除雜質、污染物或不需要成分，使其更純淨」。",
+        "pure-pdf-002": "本句指「去除精神、道德或情感上的『污濁』」。",
         "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
         "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
         "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
         "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
         "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
       },
-      "correctOption": "pure-mcq-12"
+      "correctOption": "pure-pdf-002"
     }
   ],
   "comparisons": [],

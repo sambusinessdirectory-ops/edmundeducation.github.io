@@ -269,16 +269,6 @@ export default {
           "The audience was mostly young people.",
           "觀眾大多數是年輕人。",
           "主要地；大部分情況下；多數由……構成"
-        ],
-        [
-          "The sky was mostly clear.",
-          "天空大致上／幾乎都是晴朗的。",
-          "主要地；大部分情況下；多數由……構成"
-        ],
-        [
-          "The soil is mostly dry.",
-          "泥土大部分已經乾了。",
-          "主要地；大部分情況下；多數由……構成"
         ]
       ],
       "options": [],
@@ -296,6 +286,28 @@ export default {
           "The plants were handled with the utmost care.",
           "這些植物受到極其細心／最大程度的謹慎照料。",
           "可能達到的最大程度／最高限度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "most-pdf-001",
+      "title": "某狀況佔絕大部分，但不是百分之百",
+      "form": "14. mostly = almost entirely — 幾乎全部",
+      "en": "14. mostly = almost entirely — 幾乎全部",
+      "zh": "某狀況佔絕大部分，但不是百分之百",
+      "note": "原始 PDF 第 14 節：某狀況佔絕大部分，但不是百分之百",
+      "examples": [
+        [
+          "The sky was mostly clear.",
+          "天空大致上／幾乎都是晴朗的。",
+          "某狀況佔絕大部分，但不是百分之百"
+        ],
+        [
+          "The soil is mostly dry.",
+          "泥土大部分已經乾了。",
+          "某狀況佔絕大部分，但不是百分之百"
         ]
       ],
       "options": [],
@@ -1055,63 +1067,63 @@ export default {
     },
     {
       "id": "most-14-0",
-      "sense": "most-mcq-12",
+      "sense": "most-pdf-001",
       "en": "The sky was mostly clear.",
       "zh": "天空大致上／幾乎都是晴朗的。",
       "masked": "The sky was ____ clear.",
       "options": [
-        "most-mcq-12",
+        "most-pdf-001",
         "most-mcq-11",
         "most-mcq-13",
         "most-mcq-10",
         "most-mcq-09",
         "most-mcq-08"
       ],
-      "explanation": "本句的「mostly」指「主要地；大部分情況下；多數由……構成」。",
+      "explanation": "本句的「mostly」指「某狀況佔絕大部分，但不是百分之百」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "mostly"
       ],
       "optionReasons": {
-        "most-mcq-12": "本句指「主要地；大部分情況下；多數由……構成」。",
+        "most-pdf-001": "本句指「某狀況佔絕大部分，但不是百分之百」。",
         "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
         "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
         "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
         "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
         "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
       },
-      "correctOption": "most-mcq-12"
+      "correctOption": "most-pdf-001"
     },
     {
       "id": "most-14-1",
-      "sense": "most-mcq-12",
+      "sense": "most-pdf-001",
       "en": "The soil is mostly dry.",
       "zh": "泥土大部分已經乾了。",
       "masked": "The soil is ____ dry.",
       "options": [
-        "most-mcq-12",
+        "most-pdf-001",
         "most-mcq-11",
         "most-mcq-13",
         "most-mcq-10",
         "most-mcq-09",
         "most-mcq-08"
       ],
-      "explanation": "本句的「mostly」指「主要地；大部分情況下；多數由……構成」。",
+      "explanation": "本句的「mostly」指「某狀況佔絕大部分，但不是百分之百」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "mostly"
       ],
       "optionReasons": {
-        "most-mcq-12": "本句指「主要地；大部分情況下；多數由……構成」。",
+        "most-pdf-001": "本句指「某狀況佔絕大部分，但不是百分之百」。",
         "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
         "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
         "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
         "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
         "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
       },
-      "correctOption": "most-mcq-12"
+      "correctOption": "most-pdf-001"
     },
     {
       "id": "most-15-0",

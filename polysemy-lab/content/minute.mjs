@@ -184,16 +184,6 @@ export default {
       "note": "來源詞義：時鐘上顯示分鐘的指針",
       "examples": [
         [
-          "One degree contains sixty minutes of arc.",
-          "一度包含六十個角分。",
-          "時鐘上顯示分鐘的指針"
-        ],
-        [
-          "The angle was measured in degrees and minutes.",
-          "這個角度以度和角分量度。",
-          "時鐘上顯示分鐘的指針"
-        ],
-        [
           "The minute hand is pointing at twelve.",
           "分針正指向十二。",
           "時鐘上顯示分鐘的指針"
@@ -378,6 +368,28 @@ export default {
           "I saw her a few minutes ago.",
           "我幾分鐘前見過她。",
           "一分鐘前；口語中亦可較鬆散地表示「剛才」"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "minute-pdf-001",
+      "title": "角度單位，等於一度的六十分之一",
+      "form": "9. minute = one-sixtieth of a degree（角分） — 角分",
+      "en": "9. minute = one-sixtieth of a degree（角分） — 角分",
+      "zh": "角度單位，等於一度的六十分之一",
+      "note": "原始 PDF 第 9 節：角度單位，等於一度的六十分之一",
+      "examples": [
+        [
+          "One degree contains sixty minutes of arc.",
+          "一度包含六十個角分。",
+          "角度單位，等於一度的六十分之一"
+        ],
+        [
+          "The angle was measured in degrees and minutes.",
+          "這個角度以度和角分量度。",
+          "角度單位，等於一度的六十分之一"
         ]
       ],
       "options": [],
@@ -897,63 +909,63 @@ export default {
     },
     {
       "id": "minute-09-0",
-      "sense": "minute-mcq-09",
+      "sense": "minute-pdf-001",
       "en": "One degree contains sixty minutes of arc.",
       "zh": "一度包含六十個角分。",
       "masked": "One degree contains sixty ____ of arc.",
       "options": [
-        "minute-mcq-09",
+        "minute-pdf-001",
         "minute-mcq-08",
         "minute-mcq-10",
         "minute-mcq-07",
         "minute-mcq-11",
         "minute-mcq-06"
       ],
-      "explanation": "本句的「minutes」指「時鐘上顯示分鐘的指針」。",
+      "explanation": "本句的「minutes」指「角度單位，等於一度的六十分之一」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-09": "本句指「時鐘上顯示分鐘的指針」。",
+        "minute-pdf-001": "本句指「角度單位，等於一度的六十分之一」。",
         "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
         "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
         "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
         "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
         "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
       },
-      "correctOption": "minute-mcq-09"
+      "correctOption": "minute-pdf-001"
     },
     {
       "id": "minute-09-1",
-      "sense": "minute-mcq-09",
+      "sense": "minute-pdf-001",
       "en": "The angle was measured in degrees and minutes.",
       "zh": "這個角度以度和角分量度。",
       "masked": "The angle was measured in degrees and ____.",
       "options": [
-        "minute-mcq-09",
+        "minute-pdf-001",
         "minute-mcq-08",
         "minute-mcq-10",
         "minute-mcq-07",
         "minute-mcq-11",
         "minute-mcq-06"
       ],
-      "explanation": "本句的「minutes」指「時鐘上顯示分鐘的指針」。",
+      "explanation": "本句的「minutes」指「角度單位，等於一度的六十分之一」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-09": "本句指「時鐘上顯示分鐘的指針」。",
+        "minute-pdf-001": "本句指「角度單位，等於一度的六十分之一」。",
         "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
         "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
         "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
         "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
         "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
       },
-      "correctOption": "minute-mcq-09"
+      "correctOption": "minute-pdf-001"
     },
     {
       "id": "minute-10-0",

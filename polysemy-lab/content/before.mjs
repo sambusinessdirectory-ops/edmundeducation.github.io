@@ -291,18 +291,7 @@ export default {
       "en": "A before B",
       "zh": "A 在 B 前",
       "note": "來源詞義：A 在 B 前",
-      "examples": [
-        [
-          "B comes before C in the alphabet.",
-          "字母表中 B 排在 C 前面。",
-          "A 在 B 前"
-        ],
-        [
-          "Your name comes before mine on the list.",
-          "你的名字在名單上排在我的前面。",
-          "A 在 B 前"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -367,6 +356,28 @@ export default {
           "The evidence was laid before the court.",
           "證據被呈交法庭。",
           "提交 X 審議"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "before-pdf-001",
+      "title": "在排列、次序或位置上較前",
+      "form": "13. before something in order / sequence — 在……前面",
+      "en": "13. before something in order / sequence — 在……前面",
+      "zh": "在排列、次序或位置上較前",
+      "note": "原始 PDF 第 13 節：在排列、次序或位置上較前",
+      "examples": [
+        [
+          "B comes before C in the alphabet.",
+          "字母表中 B 排在 C 前面。",
+          "在排列、次序或位置上較前"
+        ],
+        [
+          "Your name comes before mine on the list.",
+          "你的名字在名單上排在我的前面。",
+          "在排列、次序或位置上較前"
         ]
       ],
       "options": [],
@@ -1126,63 +1137,63 @@ export default {
     },
     {
       "id": "before-13-0",
-      "sense": "before-mcq-14",
+      "sense": "before-pdf-001",
       "en": "B comes before C in the alphabet.",
       "zh": "字母表中 B 排在 C 前面。",
       "masked": "B comes ____ in the alphabet.",
       "options": [
-        "before-mcq-14",
+        "before-pdf-001",
         "before-mcq-13",
         "before-mcq-15",
         "before-mcq-12",
         "before-mcq-16",
         "before-mcq-11"
       ],
-      "explanation": "本句的「before C」指「A 在 B 前」。",
+      "explanation": "本句的「before C」指「在排列、次序或位置上較前」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "before C"
       ],
       "optionReasons": {
-        "before-mcq-14": "本句指「A 在 B 前」。",
+        "before-pdf-001": "本句指「在排列、次序或位置上較前」。",
         "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
         "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
         "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
         "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
         "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。"
       },
-      "correctOption": "before-mcq-14"
+      "correctOption": "before-pdf-001"
     },
     {
       "id": "before-13-1",
-      "sense": "before-mcq-14",
+      "sense": "before-pdf-001",
       "en": "Your name comes before mine on the list.",
       "zh": "你的名字在名單上排在我的前面。",
       "masked": "Your name comes ____ on the list.",
       "options": [
-        "before-mcq-14",
+        "before-pdf-001",
         "before-mcq-13",
         "before-mcq-15",
         "before-mcq-12",
         "before-mcq-16",
         "before-mcq-11"
       ],
-      "explanation": "本句的「before mine」指「A 在 B 前」。",
+      "explanation": "本句的「before mine」指「在排列、次序或位置上較前」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "before mine"
       ],
       "optionReasons": {
-        "before-mcq-14": "本句指「A 在 B 前」。",
+        "before-pdf-001": "本句指「在排列、次序或位置上較前」。",
         "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
         "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
         "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
         "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
         "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。"
       },
-      "correctOption": "before-mcq-14"
+      "correctOption": "before-pdf-001"
     },
     {
       "id": "before-14-0",

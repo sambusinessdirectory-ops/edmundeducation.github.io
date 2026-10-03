@@ -460,18 +460,7 @@ export default {
       "en": "famously",
       "zh": "以眾所周知的方式；某特點出了名地……",
       "note": "來源詞義：以眾所周知的方式；某特點出了名地……",
-      "examples": [
-        [
-          "The actor famously refused the role.",
-          "眾所周知，那位演員當年拒絕了這個角色。",
-          "以眾所周知的方式；某特點出了名地……"
-        ],
-        [
-          "The two companies famously disagreed over the design.",
-          "兩家公司曾因設計問題發生分歧，這件事廣為人知。",
-          "以眾所周知的方式；某特點出了名地……"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -627,6 +616,28 @@ export default {
           "Fame-driven choices may not bring lasting satisfaction.",
           "由成名欲驅動的選擇未必帶來長久滿足。",
           "行為主要由想成名／保持名氣的動機推動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fame-pdf-001",
+      "title": "這件事本身已廣為人知",
+      "form": "53. famously = in a way that is widely known — 眾所周知地；著名地",
+      "en": "53. famously = in a way that is widely known — 眾所周知地；著名地",
+      "zh": "這件事本身已廣為人知",
+      "note": "原始 PDF 第 53 節：這件事本身已廣為人知",
+      "examples": [
+        [
+          "The actor famously refused the role.",
+          "眾所周知，那位演員當年拒絕了這個角色。",
+          "這件事本身已廣為人知"
+        ],
+        [
+          "The two companies famously disagreed over the design.",
+          "兩家公司曾因設計問題發生分歧，這件事廣為人知。",
+          "這件事本身已廣為人知"
         ]
       ],
       "options": [],
@@ -1836,63 +1847,63 @@ export default {
     },
     {
       "id": "fame-53-0",
-      "sense": "fame-mcq-21",
+      "sense": "fame-pdf-001",
       "en": "The actor famously refused the role.",
       "zh": "眾所周知，那位演員當年拒絕了這個角色。",
       "masked": "The actor ____ the role.",
       "options": [
-        "fame-mcq-21",
+        "fame-pdf-001",
         "fame-mcq-20",
         "fame-mcq-22",
         "fame-mcq-19",
         "fame-mcq-23",
         "fame-mcq-18"
       ],
-      "explanation": "本句的「famously refused」指「以眾所周知的方式；某特點出了名地……」。",
+      "explanation": "本句的「famously refused」指「這件事本身已廣為人知」。",
       "sentenceIndex": 103,
       "sourcePractice": 53,
       "targets": [
         "famously refused"
       ],
       "optionReasons": {
-        "fame-mcq-21": "本句指「以眾所周知的方式；某特點出了名地……」。",
+        "fame-pdf-001": "本句指「這件事本身已廣為人知」。",
         "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
         "fame-mcq-22": "「相處得非常好」與本句語境不同。",
         "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
         "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
         "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。"
       },
-      "correctOption": "fame-mcq-21"
+      "correctOption": "fame-pdf-001"
     },
     {
       "id": "fame-53-1",
-      "sense": "fame-mcq-21",
+      "sense": "fame-pdf-001",
       "en": "The two companies famously disagreed over the design.",
       "zh": "兩家公司曾因設計問題發生分歧，這件事廣為人知。",
       "masked": "The two companies ____ disagreed over the design.",
       "options": [
-        "fame-mcq-21",
+        "fame-pdf-001",
         "fame-mcq-20",
         "fame-mcq-22",
         "fame-mcq-19",
         "fame-mcq-23",
         "fame-mcq-18"
       ],
-      "explanation": "本句的「famously」指「以眾所周知的方式；某特點出了名地……」。",
+      "explanation": "本句的「famously」指「這件事本身已廣為人知」。",
       "sentenceIndex": 104,
       "sourcePractice": 53,
       "targets": [
         "famously"
       ],
       "optionReasons": {
-        "fame-mcq-21": "本句指「以眾所周知的方式；某特點出了名地……」。",
+        "fame-pdf-001": "本句指「這件事本身已廣為人知」。",
         "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
         "fame-mcq-22": "「相處得非常好」與本句語境不同。",
         "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
         "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
         "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。"
       },
-      "correctOption": "fame-mcq-21"
+      "correctOption": "fame-pdf-001"
     },
     {
       "id": "fame-55-0",

@@ -34,18 +34,7 @@ export default {
       "en": "gentle — style/atmosphere",
       "zh": "給人柔和、平靜、舒緩而不強烈的感覺",
       "note": "來源詞義：給人柔和、平靜、舒緩而不強烈的感覺",
-      "examples": [
-        [
-          "The painting felt gentle and almost dreamlike.",
-          "這幅畫給人的感覺很柔和，幾乎像夢境一樣。",
-          "給人柔和、平靜、舒緩而不強烈的感覺"
-        ],
-        [
-          "The room was filled with gentle colours.",
-          "房間裡充滿柔和的色彩。",
-          "給人柔和、平靜、舒緩而不強烈的感覺"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -256,6 +245,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "gentle-pdf-001",
+      "title": "在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感",
+      "form": "2. gentle = soft and soothing in feeling/style — 柔和的；溫和的",
+      "en": "2. gentle = soft and soothing in feeling/style — 柔和的；溫和的",
+      "zh": "在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感",
+      "note": "原始 PDF 第 2 節：在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感",
+      "examples": [
+        [
+          "The painting felt gentle and almost dreamlike.",
+          "這幅畫給人的感覺很柔和，幾乎像夢境一樣。",
+          "在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感"
+        ],
+        [
+          "The room was filled with gentle colours.",
+          "房間裡充滿柔和的色彩。",
+          "在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -321,63 +332,63 @@ export default {
     },
     {
       "id": "gentle-02-0",
-      "sense": "gentle-mcq-02",
+      "sense": "gentle-pdf-001",
       "en": "The painting felt gentle and almost dreamlike.",
       "zh": "這幅畫給人的感覺很柔和，幾乎像夢境一樣。",
       "masked": "The painting felt ____ and almost dreamlike.",
       "options": [
-        "gentle-mcq-02",
+        "gentle-pdf-001",
         "gentle-mcq-01",
         "gentle-mcq-03",
         "gentle-mcq-04",
         "gentle-mcq-05",
         "gentle-mcq-06"
       ],
-      "explanation": "本句的「gentle」指「給人柔和、平靜、舒緩而不強烈的感覺」。",
+      "explanation": "本句的「gentle」指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-02": "本句指「給人柔和、平靜、舒緩而不強烈的感覺」。",
+        "gentle-pdf-001": "本句指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
         "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。",
         "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
         "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
         "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
         "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
       },
-      "correctOption": "gentle-mcq-02"
+      "correctOption": "gentle-pdf-001"
     },
     {
       "id": "gentle-02-1",
-      "sense": "gentle-mcq-02",
+      "sense": "gentle-pdf-001",
       "en": "The room was filled with gentle colours.",
       "zh": "房間裡充滿柔和的色彩。",
       "masked": "The room was filled with ____ colours.",
       "options": [
-        "gentle-mcq-02",
+        "gentle-pdf-001",
         "gentle-mcq-01",
         "gentle-mcq-03",
         "gentle-mcq-04",
         "gentle-mcq-05",
         "gentle-mcq-06"
       ],
-      "explanation": "本句的「gentle」指「給人柔和、平靜、舒緩而不強烈的感覺」。",
+      "explanation": "本句的「gentle」指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-02": "本句指「給人柔和、平靜、舒緩而不強烈的感覺」。",
+        "gentle-pdf-001": "本句指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
         "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。",
         "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
         "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
         "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
         "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
       },
-      "correctOption": "gentle-mcq-02"
+      "correctOption": "gentle-pdf-001"
     },
     {
       "id": "gentle-03-0",

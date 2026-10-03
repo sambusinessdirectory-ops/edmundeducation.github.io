@@ -203,16 +203,6 @@ export default {
           "The phrase was a happy expression of the idea.",
           "那個短語把這個想法表達得很貼切。",
           "措辭、選擇或安排非常合適／貼切的"
-        ],
-        [
-          "I’m happy with either option.",
-          "兩個選擇我都可以接受／都沒問題。",
-          "措辭、選擇或安排非常合適／貼切的"
-        ],
-        [
-          "We’re happy to leave the decision to you.",
-          "我們願意把決定交給你。",
-          "措辭、選擇或安排非常合適／貼切的"
         ]
       ],
       "options": [],
@@ -355,16 +345,6 @@ export default {
           "The discussion had an unhappy ending.",
           "這場討論以一個令人遺憾的結果結束。",
           "情況不幸、令人遺憾或帶來負面結果的"
-        ],
-        [
-          "He lived unhappily for many years.",
-          "他多年來都過得很不快樂。",
-          "情況不幸、令人遺憾或帶來負面結果的"
-        ],
-        [
-          "Unhappily, the plan failed.",
-          "不幸的是，計劃失敗了。",
-          "情況不幸、令人遺憾或帶來負面結果的"
         ]
       ],
       "options": [],
@@ -431,6 +411,50 @@ export default {
           "Drinks are cheaper during happy hour.",
           "在優惠時段飲品比較便宜。",
           "餐廳／酒吧在指定時段提供優惠的時段"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "happy-pdf-001",
+      "title": "對某項安排沒有異議，願意接受",
+      "form": "10. happy = willing / content to accept a situation — 願意接受的；覺得可以的",
+      "en": "10. happy = willing / content to accept a situation — 願意接受的；覺得可以的",
+      "zh": "對某項安排沒有異議，願意接受",
+      "note": "原始 PDF 第 10 節：對某項安排沒有異議，願意接受",
+      "examples": [
+        [
+          "I’m happy with either option.",
+          "兩個選擇我都可以接受／都沒問題。",
+          "對某項安排沒有異議，願意接受"
+        ],
+        [
+          "We’re happy to leave the decision to you.",
+          "我們願意把決定交給你。",
+          "對某項安排沒有異議，願意接受"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "happy-pdf-002",
+      "title": "以不快樂的狀態；或「不幸的是」",
+      "form": "17. unhappily = sadly / unfortunately — 不快地；不幸地",
+      "en": "17. unhappily = sadly / unfortunately — 不快地；不幸地",
+      "zh": "以不快樂的狀態；或「不幸的是」",
+      "note": "原始 PDF 第 17 節：以不快樂的狀態；或「不幸的是」",
+      "examples": [
+        [
+          "He lived unhappily for many years.",
+          "他多年來都過得很不快樂。",
+          "以不快樂的狀態；或「不幸的是」"
+        ],
+        [
+          "Unhappily, the plan failed.",
+          "不幸的是，計劃失敗了。",
+          "以不快樂的狀態；或「不幸的是」"
         ]
       ],
       "options": [],
@@ -1010,63 +1034,63 @@ export default {
     },
     {
       "id": "happy-10-0",
-      "sense": "happy-mcq-09",
+      "sense": "happy-pdf-001",
       "en": "I’m happy with either option.",
       "zh": "兩個選擇我都可以接受／都沒問題。",
       "masked": "I’m ____ either option.",
       "options": [
-        "happy-mcq-09",
+        "happy-pdf-001",
         "happy-mcq-08",
         "happy-mcq-10",
         "happy-mcq-07",
         "happy-mcq-11",
         "happy-mcq-06"
       ],
-      "explanation": "本句的「happy with」指「措辭、選擇或安排非常合適／貼切的」。",
+      "explanation": "本句的「happy with」指「對某項安排沒有異議，願意接受」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "happy with"
       ],
       "optionReasons": {
-        "happy-mcq-09": "本句指「措辭、選擇或安排非常合適／貼切的」。",
+        "happy-pdf-001": "本句指「對某項安排沒有異議，願意接受」。",
         "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
         "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
         "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
         "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
         "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
       },
-      "correctOption": "happy-mcq-09"
+      "correctOption": "happy-pdf-001"
     },
     {
       "id": "happy-10-1",
-      "sense": "happy-mcq-09",
+      "sense": "happy-pdf-001",
       "en": "We’re happy to leave the decision to you.",
       "zh": "我們願意把決定交給你。",
       "masked": "We’re ____ to leave the decision to you.",
       "options": [
-        "happy-mcq-09",
+        "happy-pdf-001",
         "happy-mcq-08",
         "happy-mcq-10",
         "happy-mcq-07",
         "happy-mcq-11",
         "happy-mcq-06"
       ],
-      "explanation": "本句的「happy」指「措辭、選擇或安排非常合適／貼切的」。",
+      "explanation": "本句的「happy」指「對某項安排沒有異議，願意接受」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-09": "本句指「措辭、選擇或安排非常合適／貼切的」。",
+        "happy-pdf-001": "本句指「對某項安排沒有異議，願意接受」。",
         "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
         "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
         "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
         "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
         "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
       },
-      "correctOption": "happy-mcq-09"
+      "correctOption": "happy-pdf-001"
     },
     {
       "id": "happy-11-0",
@@ -1430,63 +1454,63 @@ export default {
     },
     {
       "id": "happy-17-0",
-      "sense": "happy-mcq-15",
+      "sense": "happy-pdf-002",
       "en": "He lived unhappily for many years.",
       "zh": "他多年來都過得很不快樂。",
       "masked": "He lived ____ for many years.",
       "options": [
-        "happy-mcq-15",
+        "happy-pdf-002",
         "happy-mcq-14",
         "happy-mcq-16",
         "happy-mcq-13",
         "happy-mcq-17",
         "happy-mcq-12"
       ],
-      "explanation": "本句的「unhappily」指「情況不幸、令人遺憾或帶來負面結果的」。",
+      "explanation": "本句的「unhappily」指「以不快樂的狀態；或「不幸的是」」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "unhappily"
       ],
       "optionReasons": {
-        "happy-mcq-15": "本句指「情況不幸、令人遺憾或帶來負面結果的」。",
+        "happy-pdf-002": "本句指「以不快樂的狀態；或「不幸的是」」。",
         "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
         "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
         "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
         "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
         "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。"
       },
-      "correctOption": "happy-mcq-15"
+      "correctOption": "happy-pdf-002"
     },
     {
       "id": "happy-17-1",
-      "sense": "happy-mcq-15",
+      "sense": "happy-pdf-002",
       "en": "Unhappily, the plan failed.",
       "zh": "不幸的是，計劃失敗了。",
       "masked": "____, the plan failed.",
       "options": [
-        "happy-mcq-15",
+        "happy-pdf-002",
         "happy-mcq-14",
         "happy-mcq-16",
         "happy-mcq-13",
         "happy-mcq-17",
         "happy-mcq-12"
       ],
-      "explanation": "本句的「Unhappily」指「情況不幸、令人遺憾或帶來負面結果的」。",
+      "explanation": "本句的「Unhappily」指「以不快樂的狀態；或「不幸的是」」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "Unhappily"
       ],
       "optionReasons": {
-        "happy-mcq-15": "本句指「情況不幸、令人遺憾或帶來負面結果的」。",
+        "happy-pdf-002": "本句指「以不快樂的狀態；或「不幸的是」」。",
         "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
         "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
         "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
         "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
         "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。"
       },
-      "correctOption": "happy-mcq-15"
+      "correctOption": "happy-pdf-002"
     },
     {
       "id": "happy-18-0",

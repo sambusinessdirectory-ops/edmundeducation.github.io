@@ -268,16 +268,6 @@ export default {
       "note": "來源詞義：令別人逐漸相信你可靠、值得依賴",
       "examples": [
         [
-          "She earned the confidence of her students.",
-          "她贏得了學生的信任。",
-          "令別人逐漸相信你可靠、值得依賴"
-        ],
-        [
-          "He betrayed my confidence.",
-          "他辜負／背叛了我的信任。",
-          "令別人逐漸相信你可靠、值得依賴"
-        ],
-        [
           "It took time to earn their confidence.",
           "要贏得他們的信任需要時間。",
           "令別人逐漸相信你可靠、值得依賴"
@@ -578,6 +568,28 @@ export default {
           "He rarely takes colleagues into his confidence.",
           "他很少把同事當作可以傾訴秘密的人。",
           "信任某人並與其分享私人／敏感事情"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "confidence-pdf-001",
+      "title": "某人對你所給予的信任",
+      "form": "14. confidence = trust placed in someone（信任） — 信任；託付",
+      "en": "14. confidence = trust placed in someone（信任） — 信任；託付",
+      "zh": "某人對你所給予的信任",
+      "note": "原始 PDF 第 14 節：某人對你所給予的信任",
+      "examples": [
+        [
+          "She earned the confidence of her students.",
+          "她贏得了學生的信任。",
+          "某人對你所給予的信任"
+        ],
+        [
+          "He betrayed my confidence.",
+          "他辜負／背叛了我的信任。",
+          "某人對你所給予的信任"
         ]
       ],
       "options": [],
@@ -1397,63 +1409,63 @@ export default {
     },
     {
       "id": "confidence-14-0",
-      "sense": "confidence-mcq-11",
+      "sense": "confidence-pdf-001",
       "en": "She earned the confidence of her students.",
       "zh": "她贏得了學生的信任。",
       "masked": "She earned the ____.",
       "options": [
-        "confidence-mcq-11",
+        "confidence-pdf-001",
         "confidence-mcq-10",
         "confidence-mcq-12",
         "confidence-mcq-09",
         "confidence-mcq-13",
         "confidence-mcq-08"
       ],
-      "explanation": "本句的「confidence of her students」指「令別人逐漸相信你可靠、值得依賴」。",
+      "explanation": "本句的「confidence of her students」指「某人對你所給予的信任」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "confidence of her students"
       ],
       "optionReasons": {
-        "confidence-mcq-11": "本句指「令別人逐漸相信你可靠、值得依賴」。",
+        "confidence-pdf-001": "本句指「某人對你所給予的信任」。",
         "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
         "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
         "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
         "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
         "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。"
       },
-      "correctOption": "confidence-mcq-11"
+      "correctOption": "confidence-pdf-001"
     },
     {
       "id": "confidence-14-1",
-      "sense": "confidence-mcq-11",
+      "sense": "confidence-pdf-001",
       "en": "He betrayed my confidence.",
       "zh": "他辜負／背叛了我的信任。",
       "masked": "He betrayed my ____.",
       "options": [
-        "confidence-mcq-11",
+        "confidence-pdf-001",
         "confidence-mcq-10",
         "confidence-mcq-12",
         "confidence-mcq-09",
         "confidence-mcq-13",
         "confidence-mcq-08"
       ],
-      "explanation": "本句的「confidence」指「令別人逐漸相信你可靠、值得依賴」。",
+      "explanation": "本句的「confidence」指「某人對你所給予的信任」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-11": "本句指「令別人逐漸相信你可靠、值得依賴」。",
+        "confidence-pdf-001": "本句指「某人對你所給予的信任」。",
         "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
         "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
         "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
         "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
         "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。"
       },
-      "correctOption": "confidence-mcq-11"
+      "correctOption": "confidence-pdf-001"
     },
     {
       "id": "confidence-15-0",

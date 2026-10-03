@@ -470,26 +470,6 @@ export default {
       "note": "來源詞義：在網絡／社交平台上用作身份識別的帳號名稱／網名",
       "examples": [
         [
-          "She reached for the door handle.",
-          "她伸手去拿門把。",
-          "在網絡／社交平台上用作身份識別的帳號名稱／網名"
-        ],
-        [
-          "The door handle was loose.",
-          "門把鬆了。",
-          "在網絡／社交平台上用作身份識別的帳號名稱／網名"
-        ],
-        [
-          "The hammer has a wooden handle.",
-          "這把鎚有一個木製柄。",
-          "在網絡／社交平台上用作身份識別的帳號名稱／網名"
-        ],
-        [
-          "Grip the handle firmly.",
-          "牢牢握住把手／柄。",
-          "在網絡／社交平台上用作身份識別的帳號名稱／網名"
-        ],
-        [
           "What’s your social media handle?",
           "你的社交媒體用戶名稱／帳號名稱是甚麼？",
           "在網絡／社交平台上用作身份識別的帳號名稱／網名"
@@ -497,16 +477,6 @@ export default {
         [
           "She changed her online handle.",
           "她更改了自己的網上用戶名稱。",
-          "在網絡／社交平台上用作身份識別的帳號名稱／網名"
-        ],
-        [
-          "He goes by the handle ‘Ace.’",
-          "他用『Ace』這個名號／暱稱。",
-          "在網絡／社交平台上用作身份識別的帳號名稱／網名"
-        ],
-        [
-          "What handle do you use on the forum?",
-          "你在論壇使用甚麼網名？",
           "在網絡／社交平台上用作身份識別的帳號名稱／網名"
         ]
       ],
@@ -802,6 +772,72 @@ export default {
           "The bag’s handle is made of leather.",
           "這個袋的手挽／把手是皮製的。",
           "讓人提起或攜帶物品的部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "handle-pdf-001",
+      "title": "用手開關／操作門的把手部分",
+      "form": "25. door handle（門把） — 門把；門柄",
+      "en": "25. door handle（門把） — 門把；門柄",
+      "zh": "用手開關／操作門的把手部分",
+      "note": "原始 PDF 第 25 節：用手開關／操作門的把手部分",
+      "examples": [
+        [
+          "She reached for the door handle.",
+          "她伸手去拿門把。",
+          "用手開關／操作門的把手部分"
+        ],
+        [
+          "The door handle was loose.",
+          "門把鬆了。",
+          "用手開關／操作門的把手部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "handle-pdf-002",
+      "title": "工具上專供手握的長柄／握持部分",
+      "form": "27. tool handle（工具柄） — 柄；把手",
+      "en": "27. tool handle（工具柄） — 柄；把手",
+      "zh": "工具上專供手握的長柄／握持部分",
+      "note": "原始 PDF 第 27 節：工具上專供手握的長柄／握持部分",
+      "examples": [
+        [
+          "The hammer has a wooden handle.",
+          "這把鎚有一個木製柄。",
+          "工具上專供手握的長柄／握持部分"
+        ],
+        [
+          "Grip the handle firmly.",
+          "牢牢握住把手／柄。",
+          "工具上專供手握的長柄／握持部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "handle-pdf-003",
+      "title": "非正式用來指某人的名稱、暱稱或識別名稱",
+      "form": "29. handle = nickname/name（稱號／名字；非正式） — 名號；暱稱",
+      "en": "29. handle = nickname/name（稱號／名字；非正式） — 名號；暱稱",
+      "zh": "非正式用來指某人的名稱、暱稱或識別名稱",
+      "note": "原始 PDF 第 29 節：非正式用來指某人的名稱、暱稱或識別名稱",
+      "examples": [
+        [
+          "He goes by the handle ‘Ace.’",
+          "他用『Ace』這個名號／暱稱。",
+          "非正式用來指某人的名稱、暱稱或識別名稱"
+        ],
+        [
+          "What handle do you use on the forum?",
+          "你在論壇使用甚麼網名？",
+          "非正式用來指某人的名稱、暱稱或識別名稱"
         ]
       ],
       "options": [],
@@ -2281,63 +2317,63 @@ export default {
     },
     {
       "id": "handle-25-0",
-      "sense": "handle-mcq-22",
+      "sense": "handle-pdf-001",
       "en": "She reached for the door handle.",
       "zh": "她伸手去拿門把。",
       "masked": "She reached for the ____.",
       "options": [
-        "handle-mcq-22",
+        "handle-pdf-001",
         "handle-mcq-21",
         "handle-mcq-23",
         "handle-mcq-20",
         "handle-mcq-24",
         "handle-mcq-19"
       ],
-      "explanation": "本句的「door handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+      "explanation": "本句的「door handle」指「用手開關／操作門的把手部分」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "door handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-pdf-001": "本句指「用手開關／操作門的把手部分」。",
         "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
         "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
         "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
         "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
         "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
       },
-      "correctOption": "handle-mcq-22"
+      "correctOption": "handle-pdf-001"
     },
     {
       "id": "handle-25-1",
-      "sense": "handle-mcq-22",
+      "sense": "handle-pdf-001",
       "en": "The door handle was loose.",
       "zh": "門把鬆了。",
       "masked": "The ____ was loose.",
       "options": [
-        "handle-mcq-22",
+        "handle-pdf-001",
         "handle-mcq-21",
         "handle-mcq-23",
         "handle-mcq-20",
         "handle-mcq-24",
         "handle-mcq-19"
       ],
-      "explanation": "本句的「door handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+      "explanation": "本句的「door handle」指「用手開關／操作門的把手部分」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "door handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-pdf-001": "本句指「用手開關／操作門的把手部分」。",
         "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
         "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
         "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
         "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
         "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
       },
-      "correctOption": "handle-mcq-22"
+      "correctOption": "handle-pdf-001"
     },
     {
       "id": "handle-26-0",
@@ -2401,63 +2437,63 @@ export default {
     },
     {
       "id": "handle-27-0",
-      "sense": "handle-mcq-22",
+      "sense": "handle-pdf-002",
       "en": "The hammer has a wooden handle.",
       "zh": "這把鎚有一個木製柄。",
       "masked": "The hammer has a wooden ____.",
       "options": [
-        "handle-mcq-22",
+        "handle-pdf-002",
         "handle-mcq-21",
         "handle-mcq-23",
         "handle-mcq-20",
         "handle-mcq-24",
         "handle-mcq-19"
       ],
-      "explanation": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+      "explanation": "本句的「handle」指「工具上專供手握的長柄／握持部分」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-pdf-002": "本句指「工具上專供手握的長柄／握持部分」。",
         "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
         "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
         "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
         "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
         "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
       },
-      "correctOption": "handle-mcq-22"
+      "correctOption": "handle-pdf-002"
     },
     {
       "id": "handle-27-1",
-      "sense": "handle-mcq-22",
+      "sense": "handle-pdf-002",
       "en": "Grip the handle firmly.",
       "zh": "牢牢握住把手／柄。",
       "masked": "Grip the ____ firmly.",
       "options": [
-        "handle-mcq-22",
+        "handle-pdf-002",
         "handle-mcq-21",
         "handle-mcq-23",
         "handle-mcq-20",
         "handle-mcq-24",
         "handle-mcq-19"
       ],
-      "explanation": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+      "explanation": "本句的「handle」指「工具上專供手握的長柄／握持部分」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-pdf-002": "本句指「工具上專供手握的長柄／握持部分」。",
         "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
         "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
         "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
         "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
         "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
       },
-      "correctOption": "handle-mcq-22"
+      "correctOption": "handle-pdf-002"
     },
     {
       "id": "handle-28-0",
@@ -2521,63 +2557,63 @@ export default {
     },
     {
       "id": "handle-29-0",
-      "sense": "handle-mcq-22",
+      "sense": "handle-pdf-003",
       "en": "He goes by the handle ‘Ace.’",
       "zh": "他用『Ace』這個名號／暱稱。",
       "masked": "He goes by the ____ ‘Ace.’",
       "options": [
-        "handle-mcq-22",
+        "handle-pdf-003",
         "handle-mcq-21",
         "handle-mcq-23",
         "handle-mcq-20",
         "handle-mcq-24",
         "handle-mcq-19"
       ],
-      "explanation": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+      "explanation": "本句的「handle」指「非正式用來指某人的名稱、暱稱或識別名稱」。",
       "sentenceIndex": 57,
       "sourcePractice": 58,
       "targets": [
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-pdf-003": "本句指「非正式用來指某人的名稱、暱稱或識別名稱」。",
         "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
         "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
         "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
         "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
         "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
       },
-      "correctOption": "handle-mcq-22"
+      "correctOption": "handle-pdf-003"
     },
     {
       "id": "handle-29-1",
-      "sense": "handle-mcq-22",
+      "sense": "handle-pdf-003",
       "en": "What handle do you use on the forum?",
       "zh": "你在論壇使用甚麼網名？",
       "masked": "What ____ do you use on the forum?",
       "options": [
-        "handle-mcq-22",
+        "handle-pdf-003",
         "handle-mcq-21",
         "handle-mcq-23",
         "handle-mcq-20",
         "handle-mcq-24",
         "handle-mcq-19"
       ],
-      "explanation": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+      "explanation": "本句的「handle」指「非正式用來指某人的名稱、暱稱或識別名稱」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-pdf-003": "本句指「非正式用來指某人的名稱、暱稱或識別名稱」。",
         "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
         "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
         "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
         "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
         "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
       },
-      "correctOption": "handle-mcq-22"
+      "correctOption": "handle-pdf-003"
     },
     {
       "id": "handle-30-0",

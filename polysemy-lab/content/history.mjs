@@ -115,26 +115,6 @@ export default {
           "There is no family history of the disease.",
           "這個家庭沒有這種疾病的家族病史。",
           "某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念"
-        ],
-        [
-          "I cleared my browser history.",
-          "我清除了瀏覽器的瀏覽紀錄。",
-          "某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念"
-        ],
-        [
-          "You can view your order history in the app.",
-          "你可以在應用程式中查看自己的過往訂單紀錄。",
-          "某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念"
-        ],
-        [
-          "The building has a history of electrical problems.",
-          "這座大樓過去一直有多次電力問題的紀錄。",
-          "某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念"
-        ],
-        [
-          "He has a history of arriving late.",
-          "他過去一直有經常遲到的紀錄／習慣。",
-          "某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念"
         ]
       ],
       "options": [],
@@ -289,6 +269,50 @@ export default {
           "If the company loses that contract, it could be history.",
           "如果公司失去那份合約，它可能就會撐不下去／成為歷史。",
           "已經結束、不再存在、不再有用或不再重要；非正式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "history-pdf-001",
+      "title": "系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄",
+      "form": "6. history = stored record of previous activity（系統／科技） — 歷史紀錄；操作紀錄",
+      "en": "6. history = stored record of previous activity（系統／科技） — 歷史紀錄；操作紀錄",
+      "zh": "系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄",
+      "note": "原始 PDF 第 6 節：系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄",
+      "examples": [
+        [
+          "I cleared my browser history.",
+          "我清除了瀏覽器的瀏覽紀錄。",
+          "系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄"
+        ],
+        [
+          "You can view your order history in the app.",
+          "你可以在應用程式中查看自己的過往訂單紀錄。",
+          "系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "history-pdf-002",
+      "title": "過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄",
+      "form": "7. a history of + repeated problem/behaviour（反覆過往情況） — 有……的長期紀錄／慣常情",
+      "en": "7. a history of + repeated problem/behaviour（反覆過往情況） — 有……的長期紀錄／慣常情",
+      "zh": "過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄",
+      "note": "原始 PDF 第 7 節：過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄",
+      "examples": [
+        [
+          "The building has a history of electrical problems.",
+          "這座大樓過去一直有多次電力問題的紀錄。",
+          "過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄"
+        ],
+        [
+          "He has a history of arriving late.",
+          "他過去一直有經常遲到的紀錄／習慣。",
+          "過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄"
         ]
       ],
       "options": [],
@@ -628,123 +652,123 @@ export default {
     },
     {
       "id": "history-06-0",
-      "sense": "history-mcq-05",
+      "sense": "history-pdf-001",
       "en": "I cleared my browser history.",
       "zh": "我清除了瀏覽器的瀏覽紀錄。",
       "masked": "I cleared my browser ____.",
       "options": [
-        "history-mcq-05",
+        "history-pdf-001",
         "history-mcq-04",
         "history-mcq-06",
         "history-mcq-03",
         "history-mcq-07",
         "history-mcq-02"
       ],
-      "explanation": "本句的「history」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+      "explanation": "本句的「history」指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "history"
       ],
       "optionReasons": {
-        "history-mcq-05": "本句指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+        "history-pdf-001": "本句指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
         "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
         "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
         "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
         "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
         "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
       },
-      "correctOption": "history-mcq-05"
+      "correctOption": "history-pdf-001"
     },
     {
       "id": "history-06-1",
-      "sense": "history-mcq-05",
+      "sense": "history-pdf-001",
       "en": "You can view your order history in the app.",
       "zh": "你可以在應用程式中查看自己的過往訂單紀錄。",
       "masked": "You can view your order ____ in the app.",
       "options": [
-        "history-mcq-05",
+        "history-pdf-001",
         "history-mcq-04",
         "history-mcq-06",
         "history-mcq-03",
         "history-mcq-07",
         "history-mcq-02"
       ],
-      "explanation": "本句的「history」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+      "explanation": "本句的「history」指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "history"
       ],
       "optionReasons": {
-        "history-mcq-05": "本句指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+        "history-pdf-001": "本句指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
         "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
         "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
         "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
         "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
         "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
       },
-      "correctOption": "history-mcq-05"
+      "correctOption": "history-pdf-001"
     },
     {
       "id": "history-07-0",
-      "sense": "history-mcq-05",
+      "sense": "history-pdf-002",
       "en": "The building has a history of electrical problems.",
       "zh": "這座大樓過去一直有多次電力問題的紀錄。",
       "masked": "The building has a ____.",
       "options": [
-        "history-mcq-05",
+        "history-pdf-002",
         "history-mcq-04",
         "history-mcq-06",
         "history-mcq-03",
         "history-mcq-07",
         "history-mcq-02"
       ],
-      "explanation": "本句的「history of electrical problems」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+      "explanation": "本句的「history of electrical problems」指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "history of electrical problems"
       ],
       "optionReasons": {
-        "history-mcq-05": "本句指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+        "history-pdf-002": "本句指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
         "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
         "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
         "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
         "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
         "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
       },
-      "correctOption": "history-mcq-05"
+      "correctOption": "history-pdf-002"
     },
     {
       "id": "history-07-1",
-      "sense": "history-mcq-05",
+      "sense": "history-pdf-002",
       "en": "He has a history of arriving late.",
       "zh": "他過去一直有經常遲到的紀錄／習慣。",
       "masked": "He has a ____.",
       "options": [
-        "history-mcq-05",
+        "history-pdf-002",
         "history-mcq-04",
         "history-mcq-06",
         "history-mcq-03",
         "history-mcq-07",
         "history-mcq-02"
       ],
-      "explanation": "本句的「history of arriving late」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+      "explanation": "本句的「history of arriving late」指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "history of arriving late"
       ],
       "optionReasons": {
-        "history-mcq-05": "本句指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+        "history-pdf-002": "本句指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
         "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
         "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
         "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
         "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
         "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
       },
-      "correctOption": "history-mcq-05"
+      "correctOption": "history-pdf-002"
     },
     {
       "id": "history-07-2",

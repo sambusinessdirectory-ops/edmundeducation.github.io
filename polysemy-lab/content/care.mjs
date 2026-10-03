@@ -235,16 +235,6 @@ export default {
           "The plants need careful monitoring.",
           "這些植物需要仔細觀察。",
           "為避免錯誤、危險或損害而仔細注意的"
-        ],
-        [
-          "Water the seedlings carefully.",
-          "要小心地替幼苗澆水。",
-          "為避免錯誤、危險或損害而仔細注意的"
-        ],
-        [
-          "Read the instructions carefully.",
-          "仔細地閱讀指示。",
-          "為避免錯誤、危險或損害而仔細注意的"
         ]
       ],
       "options": [],
@@ -267,16 +257,6 @@ export default {
           "He was careless with the equipment.",
           "他使用設備時很不小心。",
           "因沒有給予足夠注意而容易造成錯誤／損害的"
-        ],
-        [
-          "He seemed careless of the consequences.",
-          "他似乎對後果毫不在意。",
-          "因沒有給予足夠注意而容易造成錯誤／損害的"
-        ],
-        [
-          "They were careless about other people’s feelings.",
-          "他們對別人的感受不太在乎。",
-          "因沒有給予足夠注意而容易造成錯誤／損害的"
         ]
       ],
       "options": [],
@@ -298,16 +278,6 @@ export default {
         [
           "The children grew up in a caring environment.",
           "孩子們在一個充滿關愛的環境中長大。",
-          "真誠關心他人的需要、感受和福祉的"
-        ],
-        [
-          "She works in a caring profession.",
-          "她從事照護類專業工作。",
-          "真誠關心他人的需要、感受和福祉的"
-        ],
-        [
-          "Caring responsibilities can take a lot of time.",
-          "照顧他人的責任可能需要很多時間。",
           "真誠關心他人的需要、感受和福祉的"
         ]
       ],
@@ -551,6 +521,72 @@ export default {
           "The form was filled in carelessly.",
           "那份表格填得很馬虎。",
           "因缺乏注意、細心或謹慎而做某事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "care-pdf-001",
+      "title": "以細心、謹慎或避免錯誤的方式",
+      "form": "17. carefully = with care — 小心地；仔細地",
+      "en": "17. carefully = with care — 小心地；仔細地",
+      "zh": "以細心、謹慎或避免錯誤的方式",
+      "note": "原始 PDF 第 17 節：以細心、謹慎或避免錯誤的方式",
+      "examples": [
+        [
+          "Water the seedlings carefully.",
+          "要小心地替幼苗澆水。",
+          "以細心、謹慎或避免錯誤的方式"
+        ],
+        [
+          "Read the instructions carefully.",
+          "仔細地閱讀指示。",
+          "以細心、謹慎或避免錯誤的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "care-pdf-002",
+      "title": "對某人的需要、後果或重要事情缺乏關注",
+      "form": "19. careless = unconcerned / not bothered（不在意的） — 漠不關心的；不在乎的",
+      "en": "19. careless = unconcerned / not bothered（不在意的） — 漠不關心的；不在乎的",
+      "zh": "對某人的需要、後果或重要事情缺乏關注",
+      "note": "原始 PDF 第 19 節：對某人的需要、後果或重要事情缺乏關注",
+      "examples": [
+        [
+          "He seemed careless of the consequences.",
+          "他似乎對後果毫不在意。",
+          "對某人的需要、後果或重要事情缺乏關注"
+        ],
+        [
+          "They were careless about other people’s feelings.",
+          "他們對別人的感受不太在乎。",
+          "對某人的需要、後果或重要事情缺乏關注"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "care-pdf-003",
+      "title": "與照顧病人、兒童、長者或其他有需要人士相關的",
+      "form": "22. caring = work of looking after people（照護工作） — 照護的；照顧人的",
+      "en": "22. caring = work of looking after people（照護工作） — 照護的；照顧人的",
+      "zh": "與照顧病人、兒童、長者或其他有需要人士相關的",
+      "note": "原始 PDF 第 22 節：與照顧病人、兒童、長者或其他有需要人士相關的",
+      "examples": [
+        [
+          "She works in a caring profession.",
+          "她從事照護類專業工作。",
+          "與照顧病人、兒童、長者或其他有需要人士相關的"
+        ],
+        [
+          "Caring responsibilities can take a lot of time.",
+          "照顧他人的責任可能需要很多時間。",
+          "與照顧病人、兒童、長者或其他有需要人士相關的"
         ]
       ],
       "options": [],
@@ -1550,63 +1586,63 @@ export default {
     },
     {
       "id": "care-17-0",
-      "sense": "care-mcq-10",
+      "sense": "care-pdf-001",
       "en": "Water the seedlings carefully.",
       "zh": "要小心地替幼苗澆水。",
       "masked": "Water the seedlings ____.",
       "options": [
-        "care-mcq-10",
+        "care-pdf-001",
         "care-mcq-09",
         "care-mcq-11",
         "care-mcq-08",
         "care-mcq-12",
         "care-mcq-07"
       ],
-      "explanation": "本句的「carefully」指「為避免錯誤、危險或損害而仔細注意的」。",
+      "explanation": "本句的「carefully」指「以細心、謹慎或避免錯誤的方式」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "carefully"
       ],
       "optionReasons": {
-        "care-mcq-10": "本句指「為避免錯誤、危險或損害而仔細注意的」。",
+        "care-pdf-001": "本句指「以細心、謹慎或避免錯誤的方式」。",
         "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
         "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
         "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
         "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
         "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
       },
-      "correctOption": "care-mcq-10"
+      "correctOption": "care-pdf-001"
     },
     {
       "id": "care-17-1",
-      "sense": "care-mcq-10",
+      "sense": "care-pdf-001",
       "en": "Read the instructions carefully.",
       "zh": "仔細地閱讀指示。",
       "masked": "Read the instructions ____.",
       "options": [
-        "care-mcq-10",
+        "care-pdf-001",
         "care-mcq-09",
         "care-mcq-11",
         "care-mcq-08",
         "care-mcq-12",
         "care-mcq-07"
       ],
-      "explanation": "本句的「carefully」指「為避免錯誤、危險或損害而仔細注意的」。",
+      "explanation": "本句的「carefully」指「以細心、謹慎或避免錯誤的方式」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "carefully"
       ],
       "optionReasons": {
-        "care-mcq-10": "本句指「為避免錯誤、危險或損害而仔細注意的」。",
+        "care-pdf-001": "本句指「以細心、謹慎或避免錯誤的方式」。",
         "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
         "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
         "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
         "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
         "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
       },
-      "correctOption": "care-mcq-10"
+      "correctOption": "care-pdf-001"
     },
     {
       "id": "care-18-0",
@@ -1670,63 +1706,63 @@ export default {
     },
     {
       "id": "care-19-0",
-      "sense": "care-mcq-11",
+      "sense": "care-pdf-002",
       "en": "He seemed careless of the consequences.",
       "zh": "他似乎對後果毫不在意。",
       "masked": "He seemed ____ of the consequences.",
       "options": [
-        "care-mcq-11",
+        "care-pdf-002",
         "care-mcq-10",
         "care-mcq-12",
         "care-mcq-09",
         "care-mcq-13",
         "care-mcq-08"
       ],
-      "explanation": "本句的「careless」指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
+      "explanation": "本句的「careless」指「對某人的需要、後果或重要事情缺乏關注」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "careless"
       ],
       "optionReasons": {
-        "care-mcq-11": "本句指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
+        "care-pdf-002": "本句指「對某人的需要、後果或重要事情缺乏關注」。",
         "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
         "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
         "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
         "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
         "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。"
       },
-      "correctOption": "care-mcq-11"
+      "correctOption": "care-pdf-002"
     },
     {
       "id": "care-19-1",
-      "sense": "care-mcq-11",
+      "sense": "care-pdf-002",
       "en": "They were careless about other people’s feelings.",
       "zh": "他們對別人的感受不太在乎。",
       "masked": "They were ____ about other people’s feelings.",
       "options": [
-        "care-mcq-11",
+        "care-pdf-002",
         "care-mcq-10",
         "care-mcq-12",
         "care-mcq-09",
         "care-mcq-13",
         "care-mcq-08"
       ],
-      "explanation": "本句的「careless」指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
+      "explanation": "本句的「careless」指「對某人的需要、後果或重要事情缺乏關注」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "careless"
       ],
       "optionReasons": {
-        "care-mcq-11": "本句指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
+        "care-pdf-002": "本句指「對某人的需要、後果或重要事情缺乏關注」。",
         "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
         "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
         "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
         "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
         "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。"
       },
-      "correctOption": "care-mcq-11"
+      "correctOption": "care-pdf-002"
     },
     {
       "id": "care-20-0",
@@ -1850,63 +1886,63 @@ export default {
     },
     {
       "id": "care-22-0",
-      "sense": "care-mcq-12",
+      "sense": "care-pdf-003",
       "en": "She works in a caring profession.",
       "zh": "她從事照護類專業工作。",
       "masked": "She works in a ____.",
       "options": [
-        "care-mcq-12",
+        "care-pdf-003",
         "care-mcq-11",
         "care-mcq-13",
         "care-mcq-10",
         "care-mcq-14",
         "care-mcq-09"
       ],
-      "explanation": "本句的「caring profession」指「真誠關心他人的需要、感受和福祉的」。",
+      "explanation": "本句的「caring profession」指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "caring profession"
       ],
       "optionReasons": {
-        "care-mcq-12": "本句指「真誠關心他人的需要、感受和福祉的」。",
+        "care-pdf-003": "本句指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
         "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
         "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
         "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
         "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
         "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。"
       },
-      "correctOption": "care-mcq-12"
+      "correctOption": "care-pdf-003"
     },
     {
       "id": "care-22-1",
-      "sense": "care-mcq-12",
+      "sense": "care-pdf-003",
       "en": "Caring responsibilities can take a lot of time.",
       "zh": "照顧他人的責任可能需要很多時間。",
       "masked": "____ responsibilities can take a lot of time.",
       "options": [
-        "care-mcq-12",
+        "care-pdf-003",
         "care-mcq-11",
         "care-mcq-13",
         "care-mcq-10",
         "care-mcq-14",
         "care-mcq-09"
       ],
-      "explanation": "本句的「Caring」指「真誠關心他人的需要、感受和福祉的」。",
+      "explanation": "本句的「Caring」指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "Caring"
       ],
       "optionReasons": {
-        "care-mcq-12": "本句指「真誠關心他人的需要、感受和福祉的」。",
+        "care-pdf-003": "本句指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
         "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
         "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
         "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
         "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
         "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。"
       },
-      "correctOption": "care-mcq-12"
+      "correctOption": "care-pdf-003"
     },
     {
       "id": "care-23-0",

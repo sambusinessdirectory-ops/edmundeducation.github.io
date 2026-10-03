@@ -412,18 +412,7 @@ export default {
       "en": "putting — put",
       "zh": "「放置／安排」這個動作的 -ing 形式",
       "note": "來源詞義：「放置／安排」這個動作的 -ing 形式",
-      "examples": [
-        [
-          "She was putting the files back on the shelf.",
-          "她正在把檔案放回架上。",
-          "「放置／安排」這個動作的 -ing 形式"
-        ],
-        [
-          "Putting too much information on one slide can confuse the audience.",
-          "在一張投影片上放入太多資訊可能令觀眾感到混亂。",
-          "「放置／安排」這個動作的 -ing 形式"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -466,6 +455,28 @@ export default {
           "Her shocked reaction was obviously a put-on.",
           "她那個震驚反應明顯只是故意裝出來的。",
           "故意裝出來、並非真實的表現或騙局"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "put-pdf-001",
+      "title": "put 這個動作正在進行，或把該動作當作名詞概念使用",
+      "form": "19. putting = act/process of placing or arranging something — 放置／安排的動作",
+      "en": "19. putting = act/process of placing or arranging something — 放置／安排的動作",
+      "zh": "put 這個動作正在進行，或把該動作當作名詞概念使用",
+      "note": "原始 PDF 第 19 節：put 這個動作正在進行，或把該動作當作名詞概念使用",
+      "examples": [
+        [
+          "She was putting the files back on the shelf.",
+          "她正在把檔案放回架上。",
+          "put 這個動作正在進行，或把該動作當作名詞概念使用"
+        ],
+        [
+          "Putting too much information on one slide can confuse the audience.",
+          "在一張投影片上放入太多資訊可能令觀眾感到混亂。",
+          "put 這個動作正在進行，或把該動作當作名詞概念使用"
         ]
       ],
       "options": [],
@@ -1585,63 +1596,63 @@ export default {
     },
     {
       "id": "put-19-0",
-      "sense": "put-mcq-19",
+      "sense": "put-pdf-001",
       "en": "She was putting the files back on the shelf.",
       "zh": "她正在把檔案放回架上。",
       "masked": "She was ____ the files back on the shelf.",
       "options": [
-        "put-mcq-19",
+        "put-pdf-001",
         "put-mcq-18",
         "put-mcq-20",
         "put-mcq-17",
         "put-mcq-21",
         "put-mcq-16"
       ],
-      "explanation": "本句的「putting」指「「放置／安排」這個動作的 -ing 形式」。",
+      "explanation": "本句的「putting」指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "putting"
       ],
       "optionReasons": {
-        "put-mcq-19": "本句指「「放置／安排」這個動作的 -ing 形式」。",
+        "put-pdf-001": "本句指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
         "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
         "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
         "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
         "put-mcq-21": "「故意裝出來、並非真實的表現或騙局」是「put-on」的用法，與本句語境不同。",
         "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
       },
-      "correctOption": "put-mcq-19"
+      "correctOption": "put-pdf-001"
     },
     {
       "id": "put-19-1",
-      "sense": "put-mcq-19",
+      "sense": "put-pdf-001",
       "en": "Putting too much information on one slide can confuse the audience.",
       "zh": "在一張投影片上放入太多資訊可能令觀眾感到混亂。",
       "masked": "____ too much information on one slide can confuse the audience.",
       "options": [
-        "put-mcq-19",
+        "put-pdf-001",
         "put-mcq-18",
         "put-mcq-20",
         "put-mcq-17",
         "put-mcq-21",
         "put-mcq-16"
       ],
-      "explanation": "本句的「Putting」指「「放置／安排」這個動作的 -ing 形式」。",
+      "explanation": "本句的「Putting」指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "Putting"
       ],
       "optionReasons": {
-        "put-mcq-19": "本句指「「放置／安排」這個動作的 -ing 形式」。",
+        "put-pdf-001": "本句指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
         "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
         "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
         "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
         "put-mcq-21": "「故意裝出來、並非真實的表現或騙局」是「put-on」的用法，與本句語境不同。",
         "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
       },
-      "correctOption": "put-mcq-19"
+      "correctOption": "put-pdf-001"
     },
     {
       "id": "put-20-0",

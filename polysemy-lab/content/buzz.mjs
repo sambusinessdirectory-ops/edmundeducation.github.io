@@ -218,16 +218,6 @@ export default {
           "The watch buzzed to remind me of the meeting.",
           "手錶震動提示我開會時間到了。",
           "發出嗡嗡聲；裝置震動提示"
-        ],
-        [
-          "Staff were buzzing around the café.",
-          "員工在咖啡店裡忙碌地穿梭。",
-          "發出嗡嗡聲；裝置震動提示"
-        ],
-        [
-          "Motorbikes buzzed through the streets.",
-          "電單車在街道上快速穿梭。",
-          "發出嗡嗡聲；裝置震動提示"
         ]
       ],
       "options": [],
@@ -294,16 +284,6 @@ export default {
           "The receptionist buzzed the visitor in.",
           "接待員按了門禁，讓訪客進去。",
           "透過電子門禁解除門鎖讓某人進入"
-        ],
-        [
-          "I heard the buzz from the front door.",
-          "我聽到大門對講系統的蜂鳴聲。",
-          "透過電子門禁解除門鎖讓某人進入"
-        ],
-        [
-          "A buzz indicated that the door had unlocked.",
-          "一聲蜂鳴提示表示門鎖已解除。",
-          "透過電子門禁解除門鎖讓某人進入"
         ]
       ],
       "options": [],
@@ -326,6 +306,50 @@ export default {
           "The buzz cut is easy to maintain.",
           "極短寸頭很容易打理。",
           "用電推剪把頭髮剪得非常短的髮型"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "buzz-pdf-001",
+      "title": "以快速、活躍、略帶連續動感的方式來回移動",
+      "form": "12. buzz = move quickly around — 忙碌穿梭；快速來回",
+      "en": "12. buzz = move quickly around — 忙碌穿梭；快速來回",
+      "zh": "以快速、活躍、略帶連續動感的方式來回移動",
+      "note": "原始 PDF 第 12 節：以快速、活躍、略帶連續動感的方式來回移動",
+      "examples": [
+        [
+          "Staff were buzzing around the café.",
+          "員工在咖啡店裡忙碌地穿梭。",
+          "以快速、活躍、略帶連續動感的方式來回移動"
+        ],
+        [
+          "Motorbikes buzzed through the streets.",
+          "電單車在街道上快速穿梭。",
+          "以快速、活躍、略帶連續動感的方式來回移動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "buzz-pdf-002",
+      "title": "電子門禁／對講系統發出的提示聲",
+      "form": "17. buzz = electronic door/intercom signal — 門禁蜂鳴／對講提示聲",
+      "en": "17. buzz = electronic door/intercom signal — 門禁蜂鳴／對講提示聲",
+      "zh": "電子門禁／對講系統發出的提示聲",
+      "note": "原始 PDF 第 17 節：電子門禁／對講系統發出的提示聲",
+      "examples": [
+        [
+          "I heard the buzz from the front door.",
+          "我聽到大門對講系統的蜂鳴聲。",
+          "電子門禁／對講系統發出的提示聲"
+        ],
+        [
+          "A buzz indicated that the door had unlocked.",
+          "一聲蜂鳴提示表示門鎖已解除。",
+          "電子門禁／對講系統發出的提示聲"
         ]
       ],
       "options": [],
@@ -995,63 +1019,63 @@ export default {
     },
     {
       "id": "buzz-12-0",
-      "sense": "buzz-mcq-09",
+      "sense": "buzz-pdf-001",
       "en": "Staff were buzzing around the café.",
       "zh": "員工在咖啡店裡忙碌地穿梭。",
       "masked": "Staff were ____ the café.",
       "options": [
-        "buzz-mcq-09",
+        "buzz-pdf-001",
         "buzz-mcq-08",
         "buzz-mcq-10",
         "buzz-mcq-07",
         "buzz-mcq-11",
         "buzz-mcq-06"
       ],
-      "explanation": "本句的「buzzing around」指「發出嗡嗡聲；裝置震動提示」。",
+      "explanation": "本句的「buzzing around」指「以快速、活躍、略帶連續動感的方式來回移動」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "buzzing around"
       ],
       "optionReasons": {
-        "buzz-mcq-09": "本句指「發出嗡嗡聲；裝置震動提示」。",
+        "buzz-pdf-001": "本句指「以快速、活躍、略帶連續動感的方式來回移動」。",
         "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
         "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
         "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
         "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
         "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
       },
-      "correctOption": "buzz-mcq-09"
+      "correctOption": "buzz-pdf-001"
     },
     {
       "id": "buzz-12-1",
-      "sense": "buzz-mcq-09",
+      "sense": "buzz-pdf-001",
       "en": "Motorbikes buzzed through the streets.",
       "zh": "電單車在街道上快速穿梭。",
       "masked": "Motorbikes ____ through the streets.",
       "options": [
-        "buzz-mcq-09",
+        "buzz-pdf-001",
         "buzz-mcq-08",
         "buzz-mcq-10",
         "buzz-mcq-07",
         "buzz-mcq-11",
         "buzz-mcq-06"
       ],
-      "explanation": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
+      "explanation": "本句的「buzzed」指「以快速、活躍、略帶連續動感的方式來回移動」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-mcq-09": "本句指「發出嗡嗡聲；裝置震動提示」。",
+        "buzz-pdf-001": "本句指「以快速、活躍、略帶連續動感的方式來回移動」。",
         "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
         "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
         "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
         "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
         "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
       },
-      "correctOption": "buzz-mcq-09"
+      "correctOption": "buzz-pdf-001"
     },
     {
       "id": "buzz-13-0",
@@ -1235,63 +1259,63 @@ export default {
     },
     {
       "id": "buzz-17-0",
-      "sense": "buzz-mcq-12",
+      "sense": "buzz-pdf-002",
       "en": "I heard the buzz from the front door.",
       "zh": "我聽到大門對講系統的蜂鳴聲。",
       "masked": "I heard the ____ from the front door.",
       "options": [
-        "buzz-mcq-12",
+        "buzz-pdf-002",
         "buzz-mcq-11",
         "buzz-mcq-13",
         "buzz-mcq-10",
         "buzz-mcq-09",
         "buzz-mcq-08"
       ],
-      "explanation": "本句的「buzz」指「透過電子門禁解除門鎖讓某人進入」。",
+      "explanation": "本句的「buzz」指「電子門禁／對講系統發出的提示聲」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-12": "本句指「透過電子門禁解除門鎖讓某人進入」。",
+        "buzz-pdf-002": "本句指「電子門禁／對講系統發出的提示聲」。",
         "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
         "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
         "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
         "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
         "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
       },
-      "correctOption": "buzz-mcq-12"
+      "correctOption": "buzz-pdf-002"
     },
     {
       "id": "buzz-17-1",
-      "sense": "buzz-mcq-12",
+      "sense": "buzz-pdf-002",
       "en": "A buzz indicated that the door had unlocked.",
       "zh": "一聲蜂鳴提示表示門鎖已解除。",
       "masked": "A ____ indicated that the door had unlocked.",
       "options": [
-        "buzz-mcq-12",
+        "buzz-pdf-002",
         "buzz-mcq-11",
         "buzz-mcq-13",
         "buzz-mcq-10",
         "buzz-mcq-09",
         "buzz-mcq-08"
       ],
-      "explanation": "本句的「buzz」指「透過電子門禁解除門鎖讓某人進入」。",
+      "explanation": "本句的「buzz」指「電子門禁／對講系統發出的提示聲」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-12": "本句指「透過電子門禁解除門鎖讓某人進入」。",
+        "buzz-pdf-002": "本句指「電子門禁／對講系統發出的提示聲」。",
         "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
         "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
         "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
         "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
         "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
       },
-      "correctOption": "buzz-mcq-12"
+      "correctOption": "buzz-pdf-002"
     },
     {
       "id": "buzz-18-0",

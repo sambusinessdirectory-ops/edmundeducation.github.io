@@ -34,18 +34,7 @@ export default {
       "en": "exhibit — publicly display",
       "zh": "在博物館、畫廊、展覽會、比賽等公開展出某物",
       "note": "來源詞義：在博物館、畫廊、展覽會、比賽等公開展出某物",
-      "examples": [
-        [
-          "The gallery is exhibiting several of her paintings.",
-          "畫廊正在展出她的幾幅畫作。",
-          "在博物館、畫廊、展覽會、比賽等公開展出某物"
-        ],
-        [
-          "The flowers were exhibited at the local show.",
-          "那些花在本地展覽中展出。",
-          "在博物館、畫廊、展覽會、比賽等公開展出某物"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -105,18 +94,7 @@ export default {
       "en": "exhibit — symptom/property",
       "zh": "呈現某種可觀察的症狀、特徵、模式或性質",
       "note": "來源詞義：呈現某種可觀察的症狀、特徵、模式或性質",
-      "examples": [
-        [
-          "The plant exhibits dimorphism.",
-          "這種植物呈現二型性。",
-          "呈現某種可觀察的症狀、特徵、模式或性質"
-        ],
-        [
-          "The samples exhibited similar patterns.",
-          "這些樣本呈現出相似模式。",
-          "呈現某種可觀察的症狀、特徵、模式或性質"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -301,6 +279,50 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "exhibition-pdf-001",
+      "title": "把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳",
+      "form": "2. exhibit = display publicly in a museum, gallery, show, competition, etc.（公開展出） — 展",
+      "en": "2. exhibit = display publicly in a museum, gallery, show, competition, etc.（公開展出） — 展",
+      "zh": "把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳",
+      "note": "原始 PDF 第 2 節：把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳",
+      "examples": [
+        [
+          "The gallery is exhibiting several of her paintings.",
+          "畫廊正在展出她的幾幅畫作。",
+          "把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳"
+        ],
+        [
+          "The flowers were exhibited at the local show.",
+          "那些花在本地展覽中展出。",
+          "把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "exhibition-pdf-002",
+      "title": "具有並可觀察到某種特性／現象",
+      "form": "5. exhibit = reveal evidence of something existing（證明／顯示存在） — 顯示；證明具有",
+      "en": "5. exhibit = reveal evidence of something existing（證明／顯示存在） — 顯示；證明具有",
+      "zh": "具有並可觀察到某種特性／現象",
+      "note": "原始 PDF 第 5 節：具有並可觀察到某種特性／現象",
+      "examples": [
+        [
+          "The plant exhibits dimorphism.",
+          "這種植物呈現二型性。",
+          "具有並可觀察到某種特性／現象"
+        ],
+        [
+          "The samples exhibited similar patterns.",
+          "這些樣本呈現出相似模式。",
+          "具有並可觀察到某種特性／現象"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -366,63 +388,63 @@ export default {
     },
     {
       "id": "exhibition-02-0",
-      "sense": "exhibition-mcq-02",
+      "sense": "exhibition-pdf-001",
       "en": "The gallery is exhibiting several of her paintings.",
       "zh": "畫廊正在展出她的幾幅畫作。",
       "masked": "The gallery is ____ several of her paintings.",
       "options": [
-        "exhibition-mcq-02",
+        "exhibition-pdf-001",
         "exhibition-mcq-01",
         "exhibition-mcq-03",
         "exhibition-mcq-04",
         "exhibition-mcq-05",
         "exhibition-mcq-06"
       ],
-      "explanation": "本句的「exhibiting」指「在博物館、畫廊、展覽會、比賽等公開展出某物」。",
+      "explanation": "本句的「exhibiting」指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "exhibiting"
       ],
       "optionReasons": {
-        "exhibition-mcq-02": "本句指「在博物館、畫廊、展覽會、比賽等公開展出某物」。",
+        "exhibition-pdf-001": "本句指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
         "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。",
         "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
         "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
         "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
         "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
       },
-      "correctOption": "exhibition-mcq-02"
+      "correctOption": "exhibition-pdf-001"
     },
     {
       "id": "exhibition-02-1",
-      "sense": "exhibition-mcq-02",
+      "sense": "exhibition-pdf-001",
       "en": "The flowers were exhibited at the local show.",
       "zh": "那些花在本地展覽中展出。",
       "masked": "The flowers were ____ at the local show.",
       "options": [
-        "exhibition-mcq-02",
+        "exhibition-pdf-001",
         "exhibition-mcq-01",
         "exhibition-mcq-03",
         "exhibition-mcq-04",
         "exhibition-mcq-05",
         "exhibition-mcq-06"
       ],
-      "explanation": "本句的「exhibited」指「在博物館、畫廊、展覽會、比賽等公開展出某物」。",
+      "explanation": "本句的「exhibited」指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-02": "本句指「在博物館、畫廊、展覽會、比賽等公開展出某物」。",
+        "exhibition-pdf-001": "本句指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
         "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。",
         "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
         "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
         "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
         "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
       },
-      "correctOption": "exhibition-mcq-02"
+      "correctOption": "exhibition-pdf-001"
     },
     {
       "id": "exhibition-03-0",
@@ -576,63 +598,63 @@ export default {
     },
     {
       "id": "exhibition-05-0",
-      "sense": "exhibition-mcq-05",
+      "sense": "exhibition-pdf-002",
       "en": "The plant exhibits dimorphism.",
       "zh": "這種植物呈現二型性。",
       "masked": "The plant ____ dimorphism.",
       "options": [
-        "exhibition-mcq-05",
+        "exhibition-pdf-002",
         "exhibition-mcq-04",
         "exhibition-mcq-06",
         "exhibition-mcq-03",
         "exhibition-mcq-07",
         "exhibition-mcq-02"
       ],
-      "explanation": "本句的「exhibits」指「呈現某種可觀察的症狀、特徵、模式或性質」。",
+      "explanation": "本句的「exhibits」指「具有並可觀察到某種特性／現象」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "exhibits"
       ],
       "optionReasons": {
-        "exhibition-mcq-05": "本句指「呈現某種可觀察的症狀、特徵、模式或性質」。",
+        "exhibition-pdf-002": "本句指「具有並可觀察到某種特性／現象」。",
         "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
         "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
         "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
         "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
         "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。"
       },
-      "correctOption": "exhibition-mcq-05"
+      "correctOption": "exhibition-pdf-002"
     },
     {
       "id": "exhibition-05-1",
-      "sense": "exhibition-mcq-05",
+      "sense": "exhibition-pdf-002",
       "en": "The samples exhibited similar patterns.",
       "zh": "這些樣本呈現出相似模式。",
       "masked": "The samples ____ similar patterns.",
       "options": [
-        "exhibition-mcq-05",
+        "exhibition-pdf-002",
         "exhibition-mcq-04",
         "exhibition-mcq-06",
         "exhibition-mcq-03",
         "exhibition-mcq-07",
         "exhibition-mcq-02"
       ],
-      "explanation": "本句的「exhibited」指「呈現某種可觀察的症狀、特徵、模式或性質」。",
+      "explanation": "本句的「exhibited」指「具有並可觀察到某種特性／現象」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-05": "本句指「呈現某種可觀察的症狀、特徵、模式或性質」。",
+        "exhibition-pdf-002": "本句指「具有並可觀察到某種特性／現象」。",
         "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
         "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
         "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
         "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
         "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。"
       },
-      "correctOption": "exhibition-mcq-05"
+      "correctOption": "exhibition-pdf-002"
     },
     {
       "id": "exhibition-06-0",

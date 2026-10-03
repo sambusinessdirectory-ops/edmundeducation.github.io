@@ -184,16 +184,6 @@ export default {
       "note": "來源詞義：沒理由為 X 開脫",
       "examples": [
         [
-          "He had no excuse for shouting at her.",
-          "他沒有任何理由可以為向她大叫開脫。",
-          "沒理由為 X 開脫"
-        ],
-        [
-          "Stress is not always an excuse for treating people badly.",
-          "壓力並不總能成為對人態度差的藉口。",
-          "沒理由為 X 開脫"
-        ],
-        [
           "There is no excuse for cheating.",
           "作弊是沒有理由可以開脫的。",
           "沒理由為 X 開脫"
@@ -302,18 +292,7 @@ export default {
       "en": "excuse someone from X",
       "zh": "免除某人 X",
       "note": "來源詞義：免除某人 X",
-      "examples": [
-        [
-          "The teacher excused me from class early.",
-          "老師准許我提早離開課堂。",
-          "免除某人 X"
-        ],
-        [
-          "Please excuse me for a moment.",
-          "請容我離開一下／失陪一下。",
-          "免除某人 X"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -572,6 +551,50 @@ export default {
           "That was an inexcusable error.",
           "那是一個無法開脫的錯誤。",
           "沒有任何合理理由能夠為 X 開脫"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "excuse-pdf-001",
+      "title": "用來為做 X 辯解或減輕責任的理由",
+      "form": "8. excuse for doing something — 為做某事找理由",
+      "en": "8. excuse for doing something — 為做某事找理由",
+      "zh": "用來為做 X 辯解或減輕責任的理由",
+      "note": "原始 PDF 第 8 節：用來為做 X 辯解或減輕責任的理由",
+      "examples": [
+        [
+          "He had no excuse for shouting at her.",
+          "他沒有任何理由可以為向她大叫開脫。",
+          "用來為做 X 辯解或減輕責任的理由"
+        ],
+        [
+          "Stress is not always an excuse for treating people badly.",
+          "壓力並不總能成為對人態度差的藉口。",
+          "用來為做 X 辯解或減輕責任的理由"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "excuse-pdf-002",
+      "title": "准許某人離開某場合或不再參與當下活動",
+      "form": "15. excuse（准許離開） — 讓某人先離開；准許退席",
+      "en": "15. excuse（准許離開） — 讓某人先離開；准許退席",
+      "zh": "准許某人離開某場合或不再參與當下活動",
+      "note": "原始 PDF 第 15 節：准許某人離開某場合或不再參與當下活動",
+      "examples": [
+        [
+          "The teacher excused me from class early.",
+          "老師准許我提早離開課堂。",
+          "准許某人離開某場合或不再參與當下活動"
+        ],
+        [
+          "Please excuse me for a moment.",
+          "請容我離開一下／失陪一下。",
+          "准許某人離開某場合或不再參與當下活動"
         ]
       ],
       "options": [],
@@ -1031,63 +1054,63 @@ export default {
     },
     {
       "id": "excuse-08-0",
-      "sense": "excuse-mcq-09",
+      "sense": "excuse-pdf-001",
       "en": "He had no excuse for shouting at her.",
       "zh": "他沒有任何理由可以為向她大叫開脫。",
       "masked": "He had no ____.",
       "options": [
-        "excuse-mcq-09",
+        "excuse-pdf-001",
         "excuse-mcq-08",
         "excuse-mcq-10",
         "excuse-mcq-07",
         "excuse-mcq-11",
         "excuse-mcq-06"
       ],
-      "explanation": "本句的「excuse for shouting at her」指「沒理由為 X 開脫」。",
+      "explanation": "本句的「excuse for shouting at her」指「用來為做 X 辯解或減輕責任的理由」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "excuse for shouting at her"
       ],
       "optionReasons": {
-        "excuse-mcq-09": "本句指「沒理由為 X 開脫」。",
+        "excuse-pdf-001": "本句指「用來為做 X 辯解或減輕責任的理由」。",
         "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
         "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
         "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
         "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
         "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
       },
-      "correctOption": "excuse-mcq-09"
+      "correctOption": "excuse-pdf-001"
     },
     {
       "id": "excuse-08-1",
-      "sense": "excuse-mcq-09",
+      "sense": "excuse-pdf-001",
       "en": "Stress is not always an excuse for treating people badly.",
       "zh": "壓力並不總能成為對人態度差的藉口。",
       "masked": "Stress is not always an ____.",
       "options": [
-        "excuse-mcq-09",
+        "excuse-pdf-001",
         "excuse-mcq-08",
         "excuse-mcq-10",
         "excuse-mcq-07",
         "excuse-mcq-11",
         "excuse-mcq-06"
       ],
-      "explanation": "本句的「excuse for treating people badly」指「沒理由為 X 開脫」。",
+      "explanation": "本句的「excuse for treating people badly」指「用來為做 X 辯解或減輕責任的理由」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "excuse for treating people badly"
       ],
       "optionReasons": {
-        "excuse-mcq-09": "本句指「沒理由為 X 開脫」。",
+        "excuse-pdf-001": "本句指「用來為做 X 辯解或減輕責任的理由」。",
         "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
         "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
         "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
         "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
         "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
       },
-      "correctOption": "excuse-mcq-09"
+      "correctOption": "excuse-pdf-001"
     },
     {
       "id": "excuse-09-0",
@@ -1451,63 +1474,63 @@ export default {
     },
     {
       "id": "excuse-15-0",
-      "sense": "excuse-mcq-14",
+      "sense": "excuse-pdf-002",
       "en": "The teacher excused me from class early.",
       "zh": "老師准許我提早離開課堂。",
       "masked": "The teacher ____.",
       "options": [
-        "excuse-mcq-14",
+        "excuse-pdf-002",
         "excuse-mcq-13",
         "excuse-mcq-15",
         "excuse-mcq-12",
         "excuse-mcq-16",
         "excuse-mcq-11"
       ],
-      "explanation": "本句的「excused me from class early」指「免除某人 X」。",
+      "explanation": "本句的「excused me from class early」指「准許某人離開某場合或不再參與當下活動」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "excused me from class early"
       ],
       "optionReasons": {
-        "excuse-mcq-14": "本句指「免除某人 X」。",
+        "excuse-pdf-002": "本句指「准許某人離開某場合或不再參與當下活動」。",
         "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
         "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
         "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
         "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
         "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。"
       },
-      "correctOption": "excuse-mcq-14"
+      "correctOption": "excuse-pdf-002"
     },
     {
       "id": "excuse-15-1",
-      "sense": "excuse-mcq-14",
+      "sense": "excuse-pdf-002",
       "en": "Please excuse me for a moment.",
       "zh": "請容我離開一下／失陪一下。",
       "masked": "Please ____ for a moment.",
       "options": [
-        "excuse-mcq-14",
+        "excuse-pdf-002",
         "excuse-mcq-13",
         "excuse-mcq-15",
         "excuse-mcq-12",
         "excuse-mcq-16",
         "excuse-mcq-11"
       ],
-      "explanation": "本句的「excuse me」指「免除某人 X」。",
+      "explanation": "本句的「excuse me」指「准許某人離開某場合或不再參與當下活動」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-14": "本句指「免除某人 X」。",
+        "excuse-pdf-002": "本句指「准許某人離開某場合或不再參與當下活動」。",
         "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
         "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
         "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
         "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
         "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。"
       },
-      "correctOption": "excuse-mcq-14"
+      "correctOption": "excuse-pdf-002"
     },
     {
       "id": "excuse-16-0",

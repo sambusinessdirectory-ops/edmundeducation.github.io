@@ -27,16 +27,6 @@ export default {
           "This chapter is only one part of the book.",
           "這一章只是這本書的其中一個部分。",
           "構成較大整體的其中一個部分、元素、區域或成分"
-        ],
-        [
-          "This part of the city is very quiet.",
-          "城市的這個地區／部分很安靜。",
-          "構成較大整體的其中一個部分、元素、區域或成分"
-        ],
-        [
-          "The damaged part of the machine needs replacing.",
-          "機器受損的部件／部分需要更換。",
-          "構成較大整體的其中一個部分、元素、區域或成分"
         ]
       ],
       "options": [],
@@ -116,16 +106,6 @@ export default {
       "zh": "原本在一起的人或物分離、分開或向不同方向移動",
       "note": "來源詞義：原本在一起的人或物分離、分開或向不同方向移動",
       "examples": [
-        [
-          "There was no dishonesty on her part.",
-          "就她那一方／她本人而言，沒有不誠實的行為。",
-          "原本在一起的人或物分離、分開或向不同方向移動"
-        ],
-        [
-          "The mistake was partly on my part.",
-          "這個錯誤我自己也要負一部分責任。",
-          "原本在一起的人或物分離、分開或向不同方向移動"
-        ],
         [
           "The two friends parted at the station.",
           "兩位朋友在車站分開／道別。",
@@ -242,6 +222,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "part-pdf-001",
+      "title": "一個較大地方、物件或結構中的特定區域／部位",
+      "form": "2. part = a section/area of something（區域／段落） — 部位；部分；地區",
+      "en": "2. part = a section/area of something（區域／段落） — 部位；部分；地區",
+      "zh": "一個較大地方、物件或結構中的特定區域／部位",
+      "note": "原始 PDF 第 2 節：一個較大地方、物件或結構中的特定區域／部位",
+      "examples": [
+        [
+          "This part of the city is very quiet.",
+          "城市的這個地區／部分很安靜。",
+          "一個較大地方、物件或結構中的特定區域／部位"
+        ],
+        [
+          "The damaged part of the machine needs replacing.",
+          "機器受損的部件／部分需要更換。",
+          "一個較大地方、物件或結構中的特定區域／部位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "part-pdf-002",
+      "title": "就某人而言；由某人所做／負責的",
+      "form": "6. part = side in an agreement/dispute（立場／一方） — 一方；一邊",
+      "en": "6. part = side in an agreement/dispute（立場／一方） — 一方；一邊",
+      "zh": "就某人而言；由某人所做／負責的",
+      "note": "原始 PDF 第 6 節：就某人而言；由某人所做／負責的",
+      "examples": [
+        [
+          "There was no dishonesty on her part.",
+          "就她那一方／她本人而言，沒有不誠實的行為。",
+          "就某人而言；由某人所做／負責的"
+        ],
+        [
+          "The mistake was partly on my part.",
+          "這個錯誤我自己也要負一部分責任。",
+          "就某人而言；由某人所做／負責的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -337,63 +361,63 @@ export default {
     },
     {
       "id": "part-02-0",
-      "sense": "part-mcq-01",
+      "sense": "part-pdf-001",
       "en": "This part of the city is very quiet.",
       "zh": "城市的這個地區／部分很安靜。",
       "masked": "This ____ of the city is very quiet.",
       "options": [
-        "part-mcq-01",
+        "part-pdf-001",
         "part-mcq-02",
         "part-mcq-03",
         "part-mcq-04",
         "part-mcq-05",
         "part-mcq-06"
       ],
-      "explanation": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
+      "explanation": "本句的「part」指「一個較大地方、物件或結構中的特定區域／部位」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "part"
       ],
       "optionReasons": {
-        "part-mcq-01": "本句指「構成較大整體的其中一個部分、元素、區域或成分」。",
+        "part-pdf-001": "本句指「一個較大地方、物件或結構中的特定區域／部位」。",
         "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
         "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
         "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
         "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
         "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
       },
-      "correctOption": "part-mcq-01"
+      "correctOption": "part-pdf-001"
     },
     {
       "id": "part-02-1",
-      "sense": "part-mcq-01",
+      "sense": "part-pdf-001",
       "en": "The damaged part of the machine needs replacing.",
       "zh": "機器受損的部件／部分需要更換。",
       "masked": "The damaged ____ of the machine needs replacing.",
       "options": [
-        "part-mcq-01",
+        "part-pdf-001",
         "part-mcq-02",
         "part-mcq-03",
         "part-mcq-04",
         "part-mcq-05",
         "part-mcq-06"
       ],
-      "explanation": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
+      "explanation": "本句的「part」指「一個較大地方、物件或結構中的特定區域／部位」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "part"
       ],
       "optionReasons": {
-        "part-mcq-01": "本句指「構成較大整體的其中一個部分、元素、區域或成分」。",
+        "part-pdf-001": "本句指「一個較大地方、物件或結構中的特定區域／部位」。",
         "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
         "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
         "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
         "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
         "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
       },
-      "correctOption": "part-mcq-01"
+      "correctOption": "part-pdf-001"
     },
     {
       "id": "part-03-0",
@@ -577,63 +601,63 @@ export default {
     },
     {
       "id": "part-06-0",
-      "sense": "part-mcq-05",
+      "sense": "part-pdf-002",
       "en": "There was no dishonesty on her part.",
       "zh": "就她那一方／她本人而言，沒有不誠實的行為。",
       "masked": "There was no dishonesty on her ____.",
       "options": [
-        "part-mcq-05",
+        "part-pdf-002",
         "part-mcq-04",
         "part-mcq-06",
         "part-mcq-03",
         "part-mcq-07",
         "part-mcq-02"
       ],
-      "explanation": "本句的「part」指「原本在一起的人或物分離、分開或向不同方向移動」。",
+      "explanation": "本句的「part」指「就某人而言；由某人所做／負責的」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "part"
       ],
       "optionReasons": {
-        "part-mcq-05": "本句指「原本在一起的人或物分離、分開或向不同方向移動」。",
+        "part-pdf-002": "本句指「就某人而言；由某人所做／負責的」。",
         "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
         "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
         "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
         "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
         "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。"
       },
-      "correctOption": "part-mcq-05"
+      "correctOption": "part-pdf-002"
     },
     {
       "id": "part-06-1",
-      "sense": "part-mcq-05",
+      "sense": "part-pdf-002",
       "en": "The mistake was partly on my part.",
       "zh": "這個錯誤我自己也要負一部分責任。",
       "masked": "The mistake was ____ly on my part.",
       "options": [
-        "part-mcq-05",
+        "part-pdf-002",
         "part-mcq-04",
         "part-mcq-06",
         "part-mcq-03",
         "part-mcq-07",
         "part-mcq-02"
       ],
-      "explanation": "本句的「part」指「原本在一起的人或物分離、分開或向不同方向移動」。",
+      "explanation": "本句的「part」指「就某人而言；由某人所做／負責的」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "part"
       ],
       "optionReasons": {
-        "part-mcq-05": "本句指「原本在一起的人或物分離、分開或向不同方向移動」。",
+        "part-pdf-002": "本句指「就某人而言；由某人所做／負責的」。",
         "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
         "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
         "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
         "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
         "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。"
       },
-      "correctOption": "part-mcq-05"
+      "correctOption": "part-pdf-002"
     },
     {
       "id": "part-07-0",

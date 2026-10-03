@@ -127,18 +127,7 @@ export default {
       "en": "distribute tasks",
       "zh": "分派任務",
       "note": "來源詞義：分派任務",
-      "examples": [
-        [
-          "The manager distributed the tasks among the team members.",
-          "經理把任務分配給不同組員。",
-          "分派任務"
-        ],
-        [
-          "The work was distributed between the two departments.",
-          "工作被分配到兩個部門。",
-          "分派任務"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -202,16 +191,6 @@ export default {
         [
           "The storm interrupted the distribution of aid.",
           "暴風影響了援助物資的派發。",
-          "食物派發"
-        ],
-        [
-          "Staff distributed the documents before the meeting.",
-          "員工在會議前派發文件。",
-          "食物派發"
-        ],
-        [
-          "Volunteers distributed leaflets outside the station.",
-          "義工在車站外派發傳單。",
           "食物派發"
         ]
       ],
@@ -677,6 +656,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "distribution-pdf-001",
+      "title": "把 X 分給多個人或群體",
+      "form": "6. distribute something among / between people — 在人們之間分配某物",
+      "en": "6. distribute something among / between people — 在人們之間分配某物",
+      "zh": "把 X 分給多個人或群體",
+      "note": "原始 PDF 第 6 節：把 X 分給多個人或群體",
+      "examples": [
+        [
+          "The manager distributed the tasks among the team members.",
+          "經理把任務分配給不同組員。",
+          "把 X 分給多個人或群體"
+        ],
+        [
+          "The work was distributed between the two departments.",
+          "工作被分配到兩個部門。",
+          "把 X 分給多個人或群體"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "distribution-pdf-002",
+      "title": "把多份 X 派給多個人",
+      "form": "10. distribute leaflets / documents / materials — 派發傳單／文件／物料",
+      "en": "10. distribute leaflets / documents / materials — 派發傳單／文件／物料",
+      "zh": "把多份 X 派給多個人",
+      "note": "原始 PDF 第 10 節：把多份 X 派給多個人",
+      "examples": [
+        [
+          "Staff distributed the documents before the meeting.",
+          "員工在會議前派發文件。",
+          "把多份 X 派給多個人"
+        ],
+        [
+          "Volunteers distributed leaflets outside the station.",
+          "義工在車站外派發傳單。",
+          "把多份 X 派給多個人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1012,63 +1035,63 @@ export default {
     },
     {
       "id": "distribution-06-0",
-      "sense": "distribution-mcq-06",
+      "sense": "distribution-pdf-001",
       "en": "The manager distributed the tasks among the team members.",
       "zh": "經理把任務分配給不同組員。",
       "masked": "The manager ____.",
       "options": [
-        "distribution-mcq-06",
+        "distribution-pdf-001",
         "distribution-mcq-05",
         "distribution-mcq-07",
         "distribution-mcq-04",
         "distribution-mcq-08",
         "distribution-mcq-03"
       ],
-      "explanation": "本句的「distributed the tasks among the team members」指「分派任務」。",
+      "explanation": "本句的「distributed the tasks among the team members」指「把 X 分給多個人或群體」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "distributed the tasks among the team members"
       ],
       "optionReasons": {
-        "distribution-mcq-06": "本句指「分派任務」。",
+        "distribution-pdf-001": "本句指「把 X 分給多個人或群體」。",
         "distribution-mcq-05": "「公平分配」與本句語境不同。",
         "distribution-mcq-07": "「分配資源」與本句語境不同。",
         "distribution-mcq-04": "「分配不均」與本句語境不同。",
         "distribution-mcq-08": "「分發；派發」與本句語境不同。",
         "distribution-mcq-03": "「工作分配」與本句語境不同。"
       },
-      "correctOption": "distribution-mcq-06"
+      "correctOption": "distribution-pdf-001"
     },
     {
       "id": "distribution-06-1",
-      "sense": "distribution-mcq-06",
+      "sense": "distribution-pdf-001",
       "en": "The work was distributed between the two departments.",
       "zh": "工作被分配到兩個部門。",
       "masked": "The work was ____.",
       "options": [
-        "distribution-mcq-06",
+        "distribution-pdf-001",
         "distribution-mcq-05",
         "distribution-mcq-07",
         "distribution-mcq-04",
         "distribution-mcq-08",
         "distribution-mcq-03"
       ],
-      "explanation": "本句的「distributed between the two departments」指「分派任務」。",
+      "explanation": "本句的「distributed between the two departments」指「把 X 分給多個人或群體」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "distributed between the two departments"
       ],
       "optionReasons": {
-        "distribution-mcq-06": "本句指「分派任務」。",
+        "distribution-pdf-001": "本句指「把 X 分給多個人或群體」。",
         "distribution-mcq-05": "「公平分配」與本句語境不同。",
         "distribution-mcq-07": "「分配資源」與本句語境不同。",
         "distribution-mcq-04": "「分配不均」與本句語境不同。",
         "distribution-mcq-08": "「分發；派發」與本句語境不同。",
         "distribution-mcq-03": "「工作分配」與本句語境不同。"
       },
-      "correctOption": "distribution-mcq-06"
+      "correctOption": "distribution-pdf-001"
     },
     {
       "id": "distribution-07-0",
@@ -1252,63 +1275,63 @@ export default {
     },
     {
       "id": "distribution-10-0",
-      "sense": "distribution-mcq-09",
+      "sense": "distribution-pdf-002",
       "en": "Staff distributed the documents before the meeting.",
       "zh": "員工在會議前派發文件。",
       "masked": "Staff ____ before the meeting.",
       "options": [
-        "distribution-mcq-09",
+        "distribution-pdf-002",
         "distribution-mcq-08",
         "distribution-mcq-10",
         "distribution-mcq-07",
         "distribution-mcq-11",
         "distribution-mcq-06"
       ],
-      "explanation": "本句的「distributed the documents」指「食物派發」。",
+      "explanation": "本句的「distributed the documents」指「把多份 X 派給多個人」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "distributed the documents"
       ],
       "optionReasons": {
-        "distribution-mcq-09": "本句指「食物派發」。",
+        "distribution-pdf-002": "本句指「把多份 X 派給多個人」。",
         "distribution-mcq-08": "「分發；派發」與本句語境不同。",
         "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
         "distribution-mcq-07": "「分配資源」與本句語境不同。",
         "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
         "distribution-mcq-06": "「分派任務」與本句語境不同。"
       },
-      "correctOption": "distribution-mcq-09"
+      "correctOption": "distribution-pdf-002"
     },
     {
       "id": "distribution-10-1",
-      "sense": "distribution-mcq-09",
+      "sense": "distribution-pdf-002",
       "en": "Volunteers distributed leaflets outside the station.",
       "zh": "義工在車站外派發傳單。",
       "masked": "Volunteers ____ outside the station.",
       "options": [
-        "distribution-mcq-09",
+        "distribution-pdf-002",
         "distribution-mcq-08",
         "distribution-mcq-10",
         "distribution-mcq-07",
         "distribution-mcq-11",
         "distribution-mcq-06"
       ],
-      "explanation": "本句的「distributed leaflets」指「食物派發」。",
+      "explanation": "本句的「distributed leaflets」指「把多份 X 派給多個人」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "distributed leaflets"
       ],
       "optionReasons": {
-        "distribution-mcq-09": "本句指「食物派發」。",
+        "distribution-pdf-002": "本句指「把多份 X 派給多個人」。",
         "distribution-mcq-08": "「分發；派發」與本句語境不同。",
         "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
         "distribution-mcq-07": "「分配資源」與本句語境不同。",
         "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
         "distribution-mcq-06": "「分派任務」與本句語境不同。"
       },
-      "correctOption": "distribution-mcq-09"
+      "correctOption": "distribution-pdf-002"
     },
     {
       "id": "distribution-11-0",

@@ -223,16 +223,6 @@ export default {
       "note": "來源詞義：被視為肯定會產生某個結果／行動",
       "examples": [
         [
-          "Careful planning cannot guarantee success, but it helps.",
-          "仔細規劃不能確保成功，但會有幫助。",
-          "被視為肯定會產生某個結果／行動"
-        ],
-        [
-          "High demand does not automatically guarantee profit.",
-          "高需求並不會自動保證盈利。",
-          "被視為肯定會產生某個結果／行動"
-        ],
-        [
           "There is no guaranteed way to build customer loyalty.",
           "沒有一種保證有效的方法可以建立顧客忠誠度。",
           "被視為肯定會產生某個結果／行動"
@@ -295,6 +285,28 @@ export default {
           "Low prices are no guarantee of quality.",
           "低價並不是品質的保證。",
           "某條件並不能確保另一結果一定出現"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "guarantee-pdf-001",
+      "title": "使某結果變得確定／必然",
+      "form": "11. guarantee = make certain / ensure — 確保；使必然發生",
+      "en": "11. guarantee = make certain / ensure — 確保；使必然發生",
+      "zh": "使某結果變得確定／必然",
+      "note": "原始 PDF 第 11 節：使某結果變得確定／必然",
+      "examples": [
+        [
+          "Careful planning cannot guarantee success, but it helps.",
+          "仔細規劃不能確保成功，但會有幫助。",
+          "使某結果變得確定／必然"
+        ],
+        [
+          "High demand does not automatically guarantee profit.",
+          "高需求並不會自動保證盈利。",
+          "使某結果變得確定／必然"
         ]
       ],
       "options": [],
@@ -844,63 +856,63 @@ export default {
     },
     {
       "id": "guarantee-11-0",
-      "sense": "guarantee-mcq-11",
+      "sense": "guarantee-pdf-001",
       "en": "Careful planning cannot guarantee success, but it helps.",
       "zh": "仔細規劃不能確保成功，但會有幫助。",
       "masked": "Careful planning cannot ____ success, but it helps.",
       "options": [
-        "guarantee-mcq-11",
+        "guarantee-pdf-001",
         "guarantee-mcq-10",
         "guarantee-mcq-12",
         "guarantee-mcq-09",
         "guarantee-mcq-13",
         "guarantee-mcq-08"
       ],
-      "explanation": "本句的「guarantee」指「被視為肯定會產生某個結果／行動」。",
+      "explanation": "本句的「guarantee」指「使某結果變得確定／必然」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-11": "本句指「被視為肯定會產生某個結果／行動」。",
+        "guarantee-pdf-001": "本句指「使某結果變得確定／必然」。",
         "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
         "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
         "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
         "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
         "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
       },
-      "correctOption": "guarantee-mcq-11"
+      "correctOption": "guarantee-pdf-001"
     },
     {
       "id": "guarantee-11-1",
-      "sense": "guarantee-mcq-11",
+      "sense": "guarantee-pdf-001",
       "en": "High demand does not automatically guarantee profit.",
       "zh": "高需求並不會自動保證盈利。",
       "masked": "High demand does not automatically ____ profit.",
       "options": [
-        "guarantee-mcq-11",
+        "guarantee-pdf-001",
         "guarantee-mcq-10",
         "guarantee-mcq-12",
         "guarantee-mcq-09",
         "guarantee-mcq-13",
         "guarantee-mcq-08"
       ],
-      "explanation": "本句的「guarantee」指「被視為肯定會產生某個結果／行動」。",
+      "explanation": "本句的「guarantee」指「使某結果變得確定／必然」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-11": "本句指「被視為肯定會產生某個結果／行動」。",
+        "guarantee-pdf-001": "本句指「使某結果變得確定／必然」。",
         "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
         "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
         "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
         "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
         "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
       },
-      "correctOption": "guarantee-mcq-11"
+      "correctOption": "guarantee-pdf-001"
     },
     {
       "id": "guarantee-12-0",

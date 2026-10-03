@@ -182,16 +182,6 @@ export default {
       "note": "來源詞義：在文章、序列或流程中目前所在的位置",
       "examples": [
         [
-          "He earned a place on the team.",
-          "他成功取得球隊中的一個席位／位置。",
-          "在文章、序列或流程中目前所在的位置"
-        ],
-        [
-          "She secured a place on the committee.",
-          "她成功取得委員會的一個席位。",
-          "在文章、序列或流程中目前所在的位置"
-        ],
-        [
           "I lost my place in the book.",
           "我忘了自己剛才讀到書中的哪個位置。",
           "在文章、序列或流程中目前所在的位置"
@@ -265,16 +255,6 @@ export default {
         [
           "Please place your bag under the seat.",
           "請把你的袋子放在座位下面。",
-          "有意把某人／某物放到指定位置或安排到特定角色"
-        ],
-        [
-          "The agency placed him in a temporary job.",
-          "那間機構替他安排了一份臨時工作。",
-          "有意把某人／某物放到指定位置或安排到特定角色"
-        ],
-        [
-          "The children were placed with foster families.",
-          "那些孩子被安置到寄養家庭。",
           "有意把某人／某物放到指定位置或安排到特定角色"
         ]
       ],
@@ -385,16 +365,6 @@ export default {
         [
           "It would be unfair to place all the blame on one person.",
           "把所有責任都歸咎於一個人是不公平的。",
-          "把過錯或責任歸於某人／某事"
-        ],
-        [
-          "She placed a call to the office.",
-          "她打了一通電話到辦公室。",
-          "把過錯或責任歸於某人／某事"
-        ],
-        [
-          "The assistant placed several calls that morning.",
-          "那名助理當天早上打了幾通電話。",
           "把過錯或責任歸於某人／某事"
         ]
       ],
@@ -540,38 +510,7 @@ export default {
       "en": "placement",
       "zh": "放置方式；亦可指實習／職位安排或級別分配",
       "note": "來源詞義：放置方式；亦可指實習／職位安排或級別分配",
-      "examples": [
-        [
-          "The placement of the speakers affects the sound.",
-          "揚聲器的擺放位置會影響聲音效果。",
-          "放置方式；亦可指實習／職位安排或級別分配"
-        ],
-        [
-          "Careful button placement makes the device easier to use.",
-          "仔細安排按鈕的位置可以令裝置更容易使用。",
-          "放置方式；亦可指實習／職位安排或級別分配"
-        ],
-        [
-          "She completed a six-month work placement.",
-          "她完成了為期六個月的工作實習／職場實習。",
-          "放置方式；亦可指實習／職位安排或級別分配"
-        ],
-        [
-          "The university helps students find industry placements.",
-          "大學協助學生尋找業界實習職位。",
-          "放置方式；亦可指實習／職位安排或級別分配"
-        ],
-        [
-          "Her high placement in the competition surprised everyone.",
-          "她在比賽中取得的高名次令大家感到驚訝。",
-          "放置方式；亦可指實習／職位安排或級別分配"
-        ],
-        [
-          "Student placement depends on test performance.",
-          "學生被分配到哪個程度／班級取決於測試表現。",
-          "放置方式；亦可指實習／職位安排或級別分配"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -724,6 +663,138 @@ export default {
           "He told her to ‘know her place,’ which sounded insulting.",
           "他叫她『認清自己的身分』，聽起來很侮辱人。",
           "知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "place-pdf-001",
+      "title": "團體、組織或選拔中可供某人加入的一個位置／資格",
+      "form": "9. place = position/job/role available to someone（職位／席位） — 位置；席位",
+      "en": "9. place = position/job/role available to someone（職位／席位） — 位置；席位",
+      "zh": "團體、組織或選拔中可供某人加入的一個位置／資格",
+      "note": "原始 PDF 第 9 節：團體、組織或選拔中可供某人加入的一個位置／資格",
+      "examples": [
+        [
+          "He earned a place on the team.",
+          "他成功取得球隊中的一個席位／位置。",
+          "團體、組織或選拔中可供某人加入的一個位置／資格"
+        ],
+        [
+          "She secured a place on the committee.",
+          "她成功取得委員會的一個席位。",
+          "團體、組織或選拔中可供某人加入的一個位置／資格"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "place-pdf-002",
+      "title": "安排某人進入特定位置、工作、機構或照顧環境",
+      "form": "14. place + person + position/location（安排某人到某處） — 安排；安置",
+      "en": "14. place + person + position/location（安排某人到某處） — 安排；安置",
+      "zh": "安排某人進入特定位置、工作、機構或照顧環境",
+      "note": "原始 PDF 第 14 節：安排某人進入特定位置、工作、機構或照顧環境",
+      "examples": [
+        [
+          "The agency placed him in a temporary job.",
+          "那間機構替他安排了一份臨時工作。",
+          "安排某人進入特定位置、工作、機構或照顧環境"
+        ],
+        [
+          "The children were placed with foster families.",
+          "那些孩子被安置到寄養家庭。",
+          "安排某人進入特定位置、工作、機構或照顧環境"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "place-pdf-003",
+      "title": "撥打一通電話",
+      "form": "20. place a call（電話） — 打電話",
+      "en": "20. place a call（電話） — 打電話",
+      "zh": "撥打一通電話",
+      "note": "原始 PDF 第 20 節：撥打一通電話",
+      "examples": [
+        [
+          "She placed a call to the office.",
+          "她打了一通電話到辦公室。",
+          "撥打一通電話"
+        ],
+        [
+          "The assistant placed several calls that morning.",
+          "那名助理當天早上打了幾通電話。",
+          "撥打一通電話"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "place-pdf-004",
+      "title": "把某物安排在特定位置的方式／結果",
+      "form": "28. placement = act of putting/positioning something — 放置；位置安排",
+      "en": "28. placement = act of putting/positioning something — 放置；位置安排",
+      "zh": "把某物安排在特定位置的方式／結果",
+      "note": "原始 PDF 第 28 節：把某物安排在特定位置的方式／結果",
+      "examples": [
+        [
+          "The placement of the speakers affects the sound.",
+          "揚聲器的擺放位置會影響聲音效果。",
+          "把某物安排在特定位置的方式／結果"
+        ],
+        [
+          "Careful button placement makes the device easier to use.",
+          "仔細安排按鈕的位置可以令裝置更容易使用。",
+          "把某物安排在特定位置的方式／結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "place-pdf-005",
+      "title": "安排某人到公司、機構或工作環境進行實習／工作的一段職位安排",
+      "form": "29. placement = job/training position（工作／實習） — 實習；工作安排；職位安排",
+      "en": "29. placement = job/training position（工作／實習） — 實習；工作安排；職位安排",
+      "zh": "安排某人到公司、機構或工作環境進行實習／工作的一段職位安排",
+      "note": "原始 PDF 第 29 節：安排某人到公司、機構或工作環境進行實習／工作的一段職位安排",
+      "examples": [
+        [
+          "She completed a six-month work placement.",
+          "她完成了為期六個月的工作實習／職場實習。",
+          "安排某人到公司、機構或工作環境進行實習／工作的一段職位安排"
+        ],
+        [
+          "The university helps students find industry placements.",
+          "大學協助學生尋找業界實習職位。",
+          "安排某人到公司、機構或工作環境進行實習／工作的一段職位安排"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "place-pdf-006",
+      "title": "根據測試、選拔或安排而被分配到某個級別、位置或名次",
+      "form": "30. placement = ranking/position obtained（排名／安置結果） — 名次；分配位置",
+      "en": "30. placement = ranking/position obtained（排名／安置結果） — 名次；分配位置",
+      "zh": "根據測試、選拔或安排而被分配到某個級別、位置或名次",
+      "note": "原始 PDF 第 30 節：根據測試、選拔或安排而被分配到某個級別、位置或名次",
+      "examples": [
+        [
+          "Her high placement in the competition surprised everyone.",
+          "她在比賽中取得的高名次令大家感到驚訝。",
+          "根據測試、選拔或安排而被分配到某個級別、位置或名次"
+        ],
+        [
+          "Student placement depends on test performance.",
+          "學生被分配到哪個程度／班級取決於測試表現。",
+          "根據測試、選拔或安排而被分配到某個級別、位置或名次"
         ]
       ],
       "options": [],
@@ -1243,63 +1314,63 @@ export default {
     },
     {
       "id": "place-09-0",
-      "sense": "place-mcq-08",
+      "sense": "place-pdf-001",
       "en": "He earned a place on the team.",
       "zh": "他成功取得球隊中的一個席位／位置。",
       "masked": "He earned a ____ on the team.",
       "options": [
-        "place-mcq-08",
+        "place-pdf-001",
         "place-mcq-07",
         "place-mcq-09",
         "place-mcq-06",
         "place-mcq-10",
         "place-mcq-05"
       ],
-      "explanation": "本句的「place」指「在文章、序列或流程中目前所在的位置」。",
+      "explanation": "本句的「place」指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "place"
       ],
       "optionReasons": {
-        "place-mcq-08": "本句指「在文章、序列或流程中目前所在的位置」。",
+        "place-pdf-001": "本句指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
         "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
         "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
         "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
         "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
         "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-08"
+      "correctOption": "place-pdf-001"
     },
     {
       "id": "place-09-1",
-      "sense": "place-mcq-08",
+      "sense": "place-pdf-001",
       "en": "She secured a place on the committee.",
       "zh": "她成功取得委員會的一個席位。",
       "masked": "She secured a ____ on the committee.",
       "options": [
-        "place-mcq-08",
+        "place-pdf-001",
         "place-mcq-07",
         "place-mcq-09",
         "place-mcq-06",
         "place-mcq-10",
         "place-mcq-05"
       ],
-      "explanation": "本句的「place」指「在文章、序列或流程中目前所在的位置」。",
+      "explanation": "本句的「place」指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "place"
       ],
       "optionReasons": {
-        "place-mcq-08": "本句指「在文章、序列或流程中目前所在的位置」。",
+        "place-pdf-001": "本句指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
         "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
         "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
         "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
         "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
         "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-08"
+      "correctOption": "place-pdf-001"
     },
     {
       "id": "place-10-0",
@@ -1543,63 +1614,63 @@ export default {
     },
     {
       "id": "place-14-0",
-      "sense": "place-mcq-11",
+      "sense": "place-pdf-002",
       "en": "The agency placed him in a temporary job.",
       "zh": "那間機構替他安排了一份臨時工作。",
       "masked": "The agency ____ him in a temporary job.",
       "options": [
-        "place-mcq-11",
+        "place-pdf-002",
         "place-mcq-10",
         "place-mcq-12",
         "place-mcq-09",
         "place-mcq-13",
         "place-mcq-08"
       ],
-      "explanation": "本句的「placed」指「有意把某人／某物放到指定位置或安排到特定角色」。",
+      "explanation": "本句的「placed」指「安排某人進入特定位置、工作、機構或照顧環境」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "placed"
       ],
       "optionReasons": {
-        "place-mcq-11": "本句指「有意把某人／某物放到指定位置或安排到特定角色」。",
+        "place-pdf-002": "本句指「安排某人進入特定位置、工作、機構或照顧環境」。",
         "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
         "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
         "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
         "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
         "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-11"
+      "correctOption": "place-pdf-002"
     },
     {
       "id": "place-14-1",
-      "sense": "place-mcq-11",
+      "sense": "place-pdf-002",
       "en": "The children were placed with foster families.",
       "zh": "那些孩子被安置到寄養家庭。",
       "masked": "The children were ____ with foster families.",
       "options": [
-        "place-mcq-11",
+        "place-pdf-002",
         "place-mcq-10",
         "place-mcq-12",
         "place-mcq-09",
         "place-mcq-13",
         "place-mcq-08"
       ],
-      "explanation": "本句的「placed」指「有意把某人／某物放到指定位置或安排到特定角色」。",
+      "explanation": "本句的「placed」指「安排某人進入特定位置、工作、機構或照顧環境」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "placed"
       ],
       "optionReasons": {
-        "place-mcq-11": "本句指「有意把某人／某物放到指定位置或安排到特定角色」。",
+        "place-pdf-002": "本句指「安排某人進入特定位置、工作、機構或照顧環境」。",
         "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
         "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
         "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
         "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
         "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-11"
+      "correctOption": "place-pdf-002"
     },
     {
       "id": "place-15-0",
@@ -1903,63 +1974,63 @@ export default {
     },
     {
       "id": "place-20-0",
-      "sense": "place-mcq-16",
+      "sense": "place-pdf-003",
       "en": "She placed a call to the office.",
       "zh": "她打了一通電話到辦公室。",
       "masked": "She ____ to the office.",
       "options": [
-        "place-mcq-16",
+        "place-pdf-003",
         "place-mcq-15",
         "place-mcq-17",
         "place-mcq-14",
         "place-mcq-18",
         "place-mcq-13"
       ],
-      "explanation": "本句的「placed a call」指「把過錯或責任歸於某人／某事」。",
+      "explanation": "本句的「placed a call」指「撥打一通電話」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "placed a call"
       ],
       "optionReasons": {
-        "place-mcq-16": "本句指「把過錯或責任歸於某人／某事」。",
+        "place-pdf-003": "本句指「撥打一通電話」。",
         "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
         "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
         "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
         "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
         "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-16"
+      "correctOption": "place-pdf-003"
     },
     {
       "id": "place-20-1",
-      "sense": "place-mcq-16",
+      "sense": "place-pdf-003",
       "en": "The assistant placed several calls that morning.",
       "zh": "那名助理當天早上打了幾通電話。",
       "masked": "The assistant ____ that morning.",
       "options": [
-        "place-mcq-16",
+        "place-pdf-003",
         "place-mcq-15",
         "place-mcq-17",
         "place-mcq-14",
         "place-mcq-18",
         "place-mcq-13"
       ],
-      "explanation": "本句的「placed several calls」指「把過錯或責任歸於某人／某事」。",
+      "explanation": "本句的「placed several calls」指「撥打一通電話」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "placed several calls"
       ],
       "optionReasons": {
-        "place-mcq-16": "本句指「把過錯或責任歸於某人／某事」。",
+        "place-pdf-003": "本句指「撥打一通電話」。",
         "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
         "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
         "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
         "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
         "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-16"
+      "correctOption": "place-pdf-003"
     },
     {
       "id": "place-21-0",
@@ -2383,183 +2454,183 @@ export default {
     },
     {
       "id": "place-28-0",
-      "sense": "place-mcq-23",
+      "sense": "place-pdf-004",
       "en": "The placement of the speakers affects the sound.",
       "zh": "揚聲器的擺放位置會影響聲音效果。",
       "masked": "The ____ of the speakers affects the sound.",
       "options": [
-        "place-mcq-23",
+        "place-pdf-004",
         "place-mcq-22",
         "place-mcq-24",
         "place-mcq-21",
         "place-mcq-25",
         "place-mcq-20"
       ],
-      "explanation": "本句的「placement」指「放置方式；亦可指實習／職位安排或級別分配」。",
+      "explanation": "本句的「placement」指「把某物安排在特定位置的方式／結果」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "placement"
       ],
       "optionReasons": {
-        "place-mcq-23": "本句指「放置方式；亦可指實習／職位安排或級別分配」。",
+        "place-pdf-004": "本句指「把某物安排在特定位置的方式／結果」。",
         "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
         "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
         "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
         "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
         "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-23"
+      "correctOption": "place-pdf-004"
     },
     {
       "id": "place-28-1",
-      "sense": "place-mcq-23",
+      "sense": "place-pdf-004",
       "en": "Careful button placement makes the device easier to use.",
       "zh": "仔細安排按鈕的位置可以令裝置更容易使用。",
       "masked": "Careful button ____ makes the device easier to use.",
       "options": [
-        "place-mcq-23",
+        "place-pdf-004",
         "place-mcq-22",
         "place-mcq-24",
         "place-mcq-21",
         "place-mcq-25",
         "place-mcq-20"
       ],
-      "explanation": "本句的「placement」指「放置方式；亦可指實習／職位安排或級別分配」。",
+      "explanation": "本句的「placement」指「把某物安排在特定位置的方式／結果」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "placement"
       ],
       "optionReasons": {
-        "place-mcq-23": "本句指「放置方式；亦可指實習／職位安排或級別分配」。",
+        "place-pdf-004": "本句指「把某物安排在特定位置的方式／結果」。",
         "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
         "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
         "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
         "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
         "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-23"
+      "correctOption": "place-pdf-004"
     },
     {
       "id": "place-29-0",
-      "sense": "place-mcq-23",
+      "sense": "place-pdf-005",
       "en": "She completed a six-month work placement.",
       "zh": "她完成了為期六個月的工作實習／職場實習。",
       "masked": "She completed a six-month work ____.",
       "options": [
-        "place-mcq-23",
+        "place-pdf-005",
         "place-mcq-22",
         "place-mcq-24",
         "place-mcq-21",
         "place-mcq-25",
         "place-mcq-20"
       ],
-      "explanation": "本句的「placement」指「放置方式；亦可指實習／職位安排或級別分配」。",
+      "explanation": "本句的「placement」指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "placement"
       ],
       "optionReasons": {
-        "place-mcq-23": "本句指「放置方式；亦可指實習／職位安排或級別分配」。",
+        "place-pdf-005": "本句指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
         "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
         "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
         "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
         "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
         "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-23"
+      "correctOption": "place-pdf-005"
     },
     {
       "id": "place-29-1",
-      "sense": "place-mcq-23",
+      "sense": "place-pdf-005",
       "en": "The university helps students find industry placements.",
       "zh": "大學協助學生尋找業界實習職位。",
       "masked": "The university helps students find industry ____.",
       "options": [
-        "place-mcq-23",
+        "place-pdf-005",
         "place-mcq-22",
         "place-mcq-24",
         "place-mcq-21",
         "place-mcq-25",
         "place-mcq-20"
       ],
-      "explanation": "本句的「placements」指「放置方式；亦可指實習／職位安排或級別分配」。",
+      "explanation": "本句的「placements」指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "placements"
       ],
       "optionReasons": {
-        "place-mcq-23": "本句指「放置方式；亦可指實習／職位安排或級別分配」。",
+        "place-pdf-005": "本句指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
         "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
         "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
         "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
         "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
         "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-23"
+      "correctOption": "place-pdf-005"
     },
     {
       "id": "place-30-0",
-      "sense": "place-mcq-23",
+      "sense": "place-pdf-006",
       "en": "Her high placement in the competition surprised everyone.",
       "zh": "她在比賽中取得的高名次令大家感到驚訝。",
       "masked": "Her high ____ in the competition surprised everyone.",
       "options": [
-        "place-mcq-23",
+        "place-pdf-006",
         "place-mcq-22",
         "place-mcq-24",
         "place-mcq-21",
         "place-mcq-25",
         "place-mcq-20"
       ],
-      "explanation": "本句的「placement」指「放置方式；亦可指實習／職位安排或級別分配」。",
+      "explanation": "本句的「placement」指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "placement"
       ],
       "optionReasons": {
-        "place-mcq-23": "本句指「放置方式；亦可指實習／職位安排或級別分配」。",
+        "place-pdf-006": "本句指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
         "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
         "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
         "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
         "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
         "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-23"
+      "correctOption": "place-pdf-006"
     },
     {
       "id": "place-30-1",
-      "sense": "place-mcq-23",
+      "sense": "place-pdf-006",
       "en": "Student placement depends on test performance.",
       "zh": "學生被分配到哪個程度／班級取決於測試表現。",
       "masked": "Student ____ depends on test performance.",
       "options": [
-        "place-mcq-23",
+        "place-pdf-006",
         "place-mcq-22",
         "place-mcq-24",
         "place-mcq-21",
         "place-mcq-25",
         "place-mcq-20"
       ],
-      "explanation": "本句的「placement」指「放置方式；亦可指實習／職位安排或級別分配」。",
+      "explanation": "本句的「placement」指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "placement"
       ],
       "optionReasons": {
-        "place-mcq-23": "本句指「放置方式；亦可指實習／職位安排或級別分配」。",
+        "place-pdf-006": "本句指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
         "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
         "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
         "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
         "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
         "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
       },
-      "correctOption": "place-mcq-23"
+      "correctOption": "place-pdf-006"
     },
     {
       "id": "place-31-0",

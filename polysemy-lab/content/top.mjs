@@ -67,18 +67,7 @@ export default {
       "en": "a top (clothing)",
       "zh": "上衣",
       "note": "來源詞義：上衣",
-      "examples": [
-        [
-          "She was wearing a white top and black trousers.",
-          "她穿着一件白色上衣和黑色長褲。",
-          "上衣"
-        ],
-        [
-          "I bought two new tops yesterday.",
-          "我昨天買了兩件新上衣。",
-          "上衣"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -221,18 +210,7 @@ export default {
       "en": "top the charts",
       "zh": "位居榜首",
       "note": "來源詞義：位居榜首",
-      "examples": [
-        [
-          "The song topped the charts for three weeks.",
-          "那首歌連續三星期位居排行榜榜首。",
-          "位居榜首"
-        ],
-        [
-          "She topped the class in mathematics.",
-          "她在數學科考獲全班第一。",
-          "位居榜首"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -642,6 +620,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "top-pdf-001",
+      "title": "穿在上半身的衣服，尤其指女裝上衣",
+      "form": "5. top（衣服：上衣） — 上衣",
+      "en": "5. top（衣服：上衣） — 上衣",
+      "zh": "穿在上半身的衣服，尤其指女裝上衣",
+      "note": "原始 PDF 第 5 節：穿在上半身的衣服，尤其指女裝上衣",
+      "examples": [
+        [
+          "She was wearing a white top and black trousers.",
+          "她穿着一件白色上衣和黑色長褲。",
+          "穿在上半身的衣服，尤其指女裝上衣"
+        ],
+        [
+          "I bought two new tops yesterday.",
+          "我昨天買了兩件新上衣。",
+          "穿在上半身的衣服，尤其指女裝上衣"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "top-pdf-002",
+      "title": "在排名、成績或排行榜上位居第一",
+      "form": "14. top（verb：位居第一） — 位居榜首；排名第一",
+      "en": "14. top（verb：位居第一） — 位居榜首；排名第一",
+      "zh": "在排名、成績或排行榜上位居第一",
+      "note": "原始 PDF 第 14 節：在排名、成績或排行榜上位居第一",
+      "examples": [
+        [
+          "The song topped the charts for three weeks.",
+          "那首歌連續三星期位居排行榜榜首。",
+          "在排名、成績或排行榜上位居第一"
+        ],
+        [
+          "She topped the class in mathematics.",
+          "她在數學科考獲全班第一。",
+          "在排名、成績或排行榜上位居第一"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -887,63 +909,63 @@ export default {
     },
     {
       "id": "top-05-0",
-      "sense": "top-mcq-05",
+      "sense": "top-pdf-001",
       "en": "She was wearing a white top and black trousers.",
       "zh": "她穿着一件白色上衣和黑色長褲。",
       "masked": "She was wearing a white ____ and black trousers.",
       "options": [
-        "top-mcq-05",
+        "top-pdf-001",
         "top-mcq-04",
         "top-mcq-06",
         "top-mcq-03",
         "top-mcq-07",
         "top-mcq-02"
       ],
-      "explanation": "本句的「top」指「上衣」。",
+      "explanation": "本句的「top」指「穿在上半身的衣服，尤其指女裝上衣」。",
       "sentenceIndex": 8,
       "sourcePractice": 1,
       "targets": [
         "top"
       ],
       "optionReasons": {
-        "top-mcq-05": "本句指「上衣」。",
+        "top-pdf-001": "本句指「穿在上半身的衣服，尤其指女裝上衣」。",
         "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。",
         "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。",
         "top-mcq-03": "「山頂」是「top of the mountain」的用法，與本句語境不同。",
         "top-mcq-07": "「行業頂尖」是「top of the profession」的用法，與本句語境不同。",
         "top-mcq-02": "「頁頂」是「top of the page」的用法，與本句語境不同。"
       },
-      "correctOption": "top-mcq-05"
+      "correctOption": "top-pdf-001"
     },
     {
       "id": "top-05-1",
-      "sense": "top-mcq-05",
+      "sense": "top-pdf-001",
       "en": "I bought two new tops yesterday.",
       "zh": "我昨天買了兩件新上衣。",
       "masked": "I bought two new ____ yesterday.",
       "options": [
-        "top-mcq-05",
+        "top-pdf-001",
         "top-mcq-04",
         "top-mcq-06",
         "top-mcq-03",
         "top-mcq-07",
         "top-mcq-02"
       ],
-      "explanation": "本句的「tops」指「上衣」。",
+      "explanation": "本句的「tops」指「穿在上半身的衣服，尤其指女裝上衣」。",
       "sentenceIndex": 9,
       "sourcePractice": 2,
       "targets": [
         "tops"
       ],
       "optionReasons": {
-        "top-mcq-05": "本句指「上衣」。",
+        "top-pdf-001": "本句指「穿在上半身的衣服，尤其指女裝上衣」。",
         "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。",
         "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。",
         "top-mcq-03": "「山頂」是「top of the mountain」的用法，與本句語境不同。",
         "top-mcq-07": "「行業頂尖」是「top of the profession」的用法，與本句語境不同。",
         "top-mcq-02": "「頁頂」是「top of the page」的用法，與本句語境不同。"
       },
-      "correctOption": "top-mcq-05"
+      "correctOption": "top-pdf-001"
     },
     {
       "id": "top-06-0",
@@ -1427,63 +1449,63 @@ export default {
     },
     {
       "id": "top-14-0",
-      "sense": "top-mcq-14",
+      "sense": "top-pdf-002",
       "en": "The song topped the charts for three weeks.",
       "zh": "那首歌連續三星期位居排行榜榜首。",
       "masked": "The song ____ for three weeks.",
       "options": [
-        "top-mcq-14",
+        "top-pdf-002",
         "top-mcq-13",
         "top-mcq-15",
         "top-mcq-12",
         "top-mcq-16",
         "top-mcq-11"
       ],
-      "explanation": "本句的「topped the charts」指「位居榜首」。",
+      "explanation": "本句的「topped the charts」指「在排名、成績或排行榜上位居第一」。",
       "sentenceIndex": 26,
       "sourcePractice": 1,
       "targets": [
         "topped the charts"
       ],
       "optionReasons": {
-        "top-mcq-14": "本句指「位居榜首」。",
+        "top-pdf-002": "本句指「在排名、成績或排行榜上位居第一」。",
         "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
         "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
         "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
         "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
         "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。"
       },
-      "correctOption": "top-mcq-14"
+      "correctOption": "top-pdf-002"
     },
     {
       "id": "top-14-1",
-      "sense": "top-mcq-14",
+      "sense": "top-pdf-002",
       "en": "She topped the class in mathematics.",
       "zh": "她在數學科考獲全班第一。",
       "masked": "She ____ in mathematics.",
       "options": [
-        "top-mcq-14",
+        "top-pdf-002",
         "top-mcq-13",
         "top-mcq-15",
         "top-mcq-12",
         "top-mcq-16",
         "top-mcq-11"
       ],
-      "explanation": "本句的「topped the class」指「位居榜首」。",
+      "explanation": "本句的「topped the class」指「在排名、成績或排行榜上位居第一」。",
       "sentenceIndex": 27,
       "sourcePractice": 2,
       "targets": [
         "topped the class"
       ],
       "optionReasons": {
-        "top-mcq-14": "本句指「位居榜首」。",
+        "top-pdf-002": "本句指「在排名、成績或排行榜上位居第一」。",
         "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
         "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
         "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
         "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
         "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。"
       },
-      "correctOption": "top-mcq-14"
+      "correctOption": "top-pdf-002"
     },
     {
       "id": "top-15-0",

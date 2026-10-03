@@ -171,18 +171,7 @@ export default {
       "en": "dive into",
       "zh": "深入投入、研究或處理某件事",
       "note": "來源詞義：深入投入、研究或處理某件事",
-      "examples": [
-        [
-          "She dived into the research.",
-          "她全心投入研究。",
-          "深入投入、研究或處理某件事"
-        ],
-        [
-          "The book dives into the history of the subject.",
-          "這本書深入探討這個主題的歷史。",
-          "深入投入、研究或處理某件事"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -203,16 +192,6 @@ export default {
           "The diver made a deep dive.",
           "潛水員進行了一次深度潛水。",
           "一次跳水／下潛；亦可指破舊廉價的場所"
-        ],
-        [
-          "The bar looks like a dive, but the food is excellent.",
-          "那間酒吧看起來很破舊廉價，但食物很好。",
-          "一次跳水／下潛；亦可指破舊廉價的場所"
-        ],
-        [
-          "They stayed in a cheap dive near the station.",
-          "他們住在車站附近一間便宜又破舊的旅館。",
-          "一次跳水／下潛；亦可指破舊廉價的場所"
         ]
       ],
       "options": [],
@@ -230,6 +209,50 @@ export default {
           "The diver disappeared beneath the surface.",
           "那名潛水員／跳水者消失在水面下。",
           "跳水者／潛水員"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "dive-pdf-001",
+      "title": "積極深入某個主題、活動或工作",
+      "form": "8. dive into = become deeply involved in something（片語） — 深入投入；鑽研",
+      "en": "8. dive into = become deeply involved in something（片語） — 深入投入；鑽研",
+      "zh": "積極深入某個主題、活動或工作",
+      "note": "原始 PDF 第 8 節：積極深入某個主題、活動或工作",
+      "examples": [
+        [
+          "She dived into the research.",
+          "她全心投入研究。",
+          "積極深入某個主題、活動或工作"
+        ],
+        [
+          "The book dives into the history of the subject.",
+          "這本書深入探討這個主題的歷史。",
+          "積極深入某個主題、活動或工作"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "dive-pdf-002",
+      "title": "廉價、破舊、品質不高的酒吧、旅館或類似場所",
+      "form": "10. dive = cheap/run-down bar or place（口語） — 破舊廉價的酒吧／場所",
+      "en": "10. dive = cheap/run-down bar or place（口語） — 破舊廉價的酒吧／場所",
+      "zh": "廉價、破舊、品質不高的酒吧、旅館或類似場所",
+      "note": "原始 PDF 第 10 節：廉價、破舊、品質不高的酒吧、旅館或類似場所",
+      "examples": [
+        [
+          "The bar looks like a dive, but the food is excellent.",
+          "那間酒吧看起來很破舊廉價，但食物很好。",
+          "廉價、破舊、品質不高的酒吧、旅館或類似場所"
+        ],
+        [
+          "They stayed in a cheap dive near the station.",
+          "他們住在車站附近一間便宜又破舊的旅館。",
+          "廉價、破舊、品質不高的酒吧、旅館或類似場所"
         ]
       ],
       "options": [],
@@ -689,63 +712,63 @@ export default {
     },
     {
       "id": "dive-08-0",
-      "sense": "dive-mcq-08",
+      "sense": "dive-pdf-001",
       "en": "She dived into the research.",
       "zh": "她全心投入研究。",
       "masked": "She ____ the research.",
       "options": [
-        "dive-mcq-08",
+        "dive-pdf-001",
         "dive-mcq-07",
         "dive-mcq-09",
         "dive-mcq-06",
         "dive-mcq-10",
         "dive-mcq-05"
       ],
-      "explanation": "本句的「dived into」指「深入投入、研究或處理某件事」。",
+      "explanation": "本句的「dived into」指「積極深入某個主題、活動或工作」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "dived into"
       ],
       "optionReasons": {
-        "dive-mcq-08": "本句指「深入投入、研究或處理某件事」。",
+        "dive-pdf-001": "本句指「積極深入某個主題、活動或工作」。",
         "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
         "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
         "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
         "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
         "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
       },
-      "correctOption": "dive-mcq-08"
+      "correctOption": "dive-pdf-001"
     },
     {
       "id": "dive-08-1",
-      "sense": "dive-mcq-08",
+      "sense": "dive-pdf-001",
       "en": "The book dives into the history of the subject.",
       "zh": "這本書深入探討這個主題的歷史。",
       "masked": "The book ____ the history of the subject.",
       "options": [
-        "dive-mcq-08",
+        "dive-pdf-001",
         "dive-mcq-07",
         "dive-mcq-09",
         "dive-mcq-06",
         "dive-mcq-10",
         "dive-mcq-05"
       ],
-      "explanation": "本句的「dives into」指「深入投入、研究或處理某件事」。",
+      "explanation": "本句的「dives into」指「積極深入某個主題、活動或工作」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "dives into"
       ],
       "optionReasons": {
-        "dive-mcq-08": "本句指「深入投入、研究或處理某件事」。",
+        "dive-pdf-001": "本句指「積極深入某個主題、活動或工作」。",
         "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
         "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
         "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
         "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
         "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
       },
-      "correctOption": "dive-mcq-08"
+      "correctOption": "dive-pdf-001"
     },
     {
       "id": "dive-09-0",
@@ -809,63 +832,63 @@ export default {
     },
     {
       "id": "dive-10-0",
-      "sense": "dive-mcq-09",
+      "sense": "dive-pdf-002",
       "en": "The bar looks like a dive, but the food is excellent.",
       "zh": "那間酒吧看起來很破舊廉價，但食物很好。",
       "masked": "The bar looks like a ____, but the food is excellent.",
       "options": [
-        "dive-mcq-09",
+        "dive-pdf-002",
         "dive-mcq-08",
         "dive-mcq-10",
         "dive-mcq-07",
         "dive-mcq-06",
         "dive-mcq-05"
       ],
-      "explanation": "本句的「dive」指「一次跳水／下潛；亦可指破舊廉價的場所」。",
+      "explanation": "本句的「dive」指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "dive"
       ],
       "optionReasons": {
-        "dive-mcq-09": "本句指「一次跳水／下潛；亦可指破舊廉價的場所」。",
+        "dive-pdf-002": "本句指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
         "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
         "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
         "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
         "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
         "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
       },
-      "correctOption": "dive-mcq-09"
+      "correctOption": "dive-pdf-002"
     },
     {
       "id": "dive-10-1",
-      "sense": "dive-mcq-09",
+      "sense": "dive-pdf-002",
       "en": "They stayed in a cheap dive near the station.",
       "zh": "他們住在車站附近一間便宜又破舊的旅館。",
       "masked": "They stayed in a cheap ____ near the station.",
       "options": [
-        "dive-mcq-09",
+        "dive-pdf-002",
         "dive-mcq-08",
         "dive-mcq-10",
         "dive-mcq-07",
         "dive-mcq-06",
         "dive-mcq-05"
       ],
-      "explanation": "本句的「dive」指「一次跳水／下潛；亦可指破舊廉價的場所」。",
+      "explanation": "本句的「dive」指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "dive"
       ],
       "optionReasons": {
-        "dive-mcq-09": "本句指「一次跳水／下潛；亦可指破舊廉價的場所」。",
+        "dive-pdf-002": "本句指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
         "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
         "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
         "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
         "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
         "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
       },
-      "correctOption": "dive-mcq-09"
+      "correctOption": "dive-pdf-002"
     },
     {
       "id": "dive-10-2",

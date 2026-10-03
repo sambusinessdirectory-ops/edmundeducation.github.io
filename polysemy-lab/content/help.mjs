@@ -112,16 +112,6 @@ export default {
       "note": "來源詞義：使某人更容易完成事情／解決問題的協助",
       "examples": [
         [
-          "Several people stopped to help after the accident.",
-          "意外後有幾個人停下來幫忙／救助。",
-          "使某人更容易完成事情／解決問題的協助"
-        ],
-        [
-          "Call for help!",
-          "求救！",
-          "使某人更容易完成事情／解決問題的協助"
-        ],
-        [
           "Thank you for your help.",
           "謝謝你的幫助。",
           "使某人更容易完成事情／解決問題的協助"
@@ -338,16 +328,6 @@ export default {
           "I never drive in heavy traffic if I can help it.",
           "如果可以避免，我從不在塞車時段開車。",
           "如果事情在控制範圍內，會設法避免"
-        ],
-        [
-          "We’ll have to cancel. There’s no helping it.",
-          "我們只能取消，沒有辦法了。",
-          "如果事情在控制範圍內，會設法避免"
-        ],
-        [
-          "The damage is done; there’s no helping it now.",
-          "事情已造成損害，現在也無可奈何。",
-          "如果事情在控制範圍內，會設法避免"
         ]
       ],
       "options": [],
@@ -446,16 +426,6 @@ export default {
           "She is always helpful when someone has a problem.",
           "有人遇到問題時，她總是很樂於助人。",
           "願意並能提供實際協助的"
-        ],
-        [
-          "She helpfully explained what I needed to do.",
-          "她很好心／有幫助地解釋了我要做甚麼。",
-          "願意並能提供實際協助的"
-        ],
-        [
-          "The instructions helpfully include examples.",
-          "說明書很貼心地／有用地附上了例子。",
-          "願意並能提供實際協助的"
         ]
       ],
       "options": [],
@@ -477,16 +447,6 @@ export default {
         [
           "The child was completely helpless without an adult.",
           "沒有成年人幫助，那個孩子完全無法自理／無助。",
-          "無法自己改善情況、保護自己或採取有效行動"
-        ],
-        [
-          "She burst into helpless laughter.",
-          "她笑得完全控制不了自己。",
-          "無法自己改善情況、保護自己或採取有效行動"
-        ],
-        [
-          "He watched in helpless frustration.",
-          "他只能無能為力又沮喪地看著。",
           "無法自己改善情況、保護自己或採取有效行動"
         ]
       ],
@@ -689,6 +649,94 @@ export default {
           "The phrase the help can refer to domestic workers.",
           "the help 可以指家務傭工。",
           "傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "help-pdf-001",
+      "title": "在危急、困難或需要支援時提供援助",
+      "form": "7. help = assist in an emergency/problem（援助） — 援助；救助",
+      "en": "7. help = assist in an emergency/problem（援助） — 援助；救助",
+      "zh": "在危急、困難或需要支援時提供援助",
+      "note": "原始 PDF 第 7 節：在危急、困難或需要支援時提供援助",
+      "examples": [
+        [
+          "Several people stopped to help after the accident.",
+          "意外後有幾個人停下來幫忙／救助。",
+          "在危急、困難或需要支援時提供援助"
+        ],
+        [
+          "Call for help!",
+          "求救！",
+          "在危急、困難或需要支援時提供援助"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "help-pdf-002",
+      "title": "情況已無法改變／避免",
+      "form": "20. there’s no helping it（無可避免） — 沒辦法；無可奈何",
+      "en": "20. there’s no helping it（無可避免） — 沒辦法；無可奈何",
+      "zh": "情況已無法改變／避免",
+      "note": "原始 PDF 第 20 節：情況已無法改變／避免",
+      "examples": [
+        [
+          "We’ll have to cancel. There’s no helping it.",
+          "我們只能取消，沒有辦法了。",
+          "情況已無法改變／避免"
+        ],
+        [
+          "The damage is done; there’s no helping it now.",
+          "事情已造成損害，現在也無可奈何。",
+          "情況已無法改變／避免"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "help-pdf-003",
+      "title": "以對別人有實際幫助的方式",
+      "form": "26. helpfully（有幫助地／好心地） — 有用地；主動協助地",
+      "en": "26. helpfully（有幫助地／好心地） — 有用地；主動協助地",
+      "zh": "以對別人有實際幫助的方式",
+      "note": "原始 PDF 第 26 節：以對別人有實際幫助的方式",
+      "examples": [
+        [
+          "She helpfully explained what I needed to do.",
+          "她很好心／有幫助地解釋了我要做甚麼。",
+          "以對別人有實際幫助的方式"
+        ],
+        [
+          "The instructions helpfully include examples.",
+          "說明書很貼心地／有用地附上了例子。",
+          "以對別人有實際幫助的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "help-pdf-004",
+      "title": "無法控制局面／反應，沒有有效辦法改變事情",
+      "form": "28. helpless = unable to control a reaction（控制不了） — 無法控制",
+      "en": "28. helpless = unable to control a reaction（控制不了） — 無法控制",
+      "zh": "無法控制局面／反應，沒有有效辦法改變事情",
+      "note": "原始 PDF 第 28 節：無法控制局面／反應，沒有有效辦法改變事情",
+      "examples": [
+        [
+          "She burst into helpless laughter.",
+          "她笑得完全控制不了自己。",
+          "無法控制局面／反應，沒有有效辦法改變事情"
+        ],
+        [
+          "He watched in helpless frustration.",
+          "他只能無能為力又沮喪地看著。",
+          "無法控制局面／反應，沒有有效辦法改變事情"
         ]
       ],
       "options": [],
@@ -1058,63 +1106,63 @@ export default {
     },
     {
       "id": "help-07-0",
-      "sense": "help-mcq-05",
+      "sense": "help-pdf-001",
       "en": "Several people stopped to help after the accident.",
       "zh": "意外後有幾個人停下來幫忙／救助。",
       "masked": "Several people stopped to ____ after the accident.",
       "options": [
-        "help-mcq-05",
+        "help-pdf-001",
         "help-mcq-04",
         "help-mcq-06",
         "help-mcq-03",
         "help-mcq-07",
         "help-mcq-02"
       ],
-      "explanation": "本句的「help」指「使某人更容易完成事情／解決問題的協助」。",
+      "explanation": "本句的「help」指「在危急、困難或需要支援時提供援助」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "help"
       ],
       "optionReasons": {
-        "help-mcq-05": "本句指「使某人更容易完成事情／解決問題的協助」。",
+        "help-pdf-001": "本句指「在危急、困難或需要支援時提供援助」。",
         "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
         "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
         "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
         "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
         "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-05"
+      "correctOption": "help-pdf-001"
     },
     {
       "id": "help-07-1",
-      "sense": "help-mcq-05",
+      "sense": "help-pdf-001",
       "en": "Call for help!",
       "zh": "求救！",
       "masked": "Call for ____!",
       "options": [
-        "help-mcq-05",
+        "help-pdf-001",
         "help-mcq-04",
         "help-mcq-06",
         "help-mcq-03",
         "help-mcq-07",
         "help-mcq-02"
       ],
-      "explanation": "本句的「help」指「使某人更容易完成事情／解決問題的協助」。",
+      "explanation": "本句的「help」指「在危急、困難或需要支援時提供援助」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "help"
       ],
       "optionReasons": {
-        "help-mcq-05": "本句指「使某人更容易完成事情／解決問題的協助」。",
+        "help-pdf-001": "本句指「在危急、困難或需要支援時提供援助」。",
         "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
         "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
         "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
         "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
         "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-05"
+      "correctOption": "help-pdf-001"
     },
     {
       "id": "help-08-0",
@@ -1838,63 +1886,63 @@ export default {
     },
     {
       "id": "help-20-0",
-      "sense": "help-mcq-14",
+      "sense": "help-pdf-002",
       "en": "We’ll have to cancel. There’s no helping it.",
       "zh": "我們只能取消，沒有辦法了。",
       "masked": "We’ll have to cancel. ____",
       "options": [
-        "help-mcq-14",
+        "help-pdf-002",
         "help-mcq-13",
         "help-mcq-15",
         "help-mcq-12",
         "help-mcq-16",
         "help-mcq-11"
       ],
-      "explanation": "本句的「There’s no helping it.」指「如果事情在控制範圍內，會設法避免」。",
+      "explanation": "本句的「There’s no helping it.」指「情況已無法改變／避免」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "There’s no helping it."
       ],
       "optionReasons": {
-        "help-mcq-14": "本句指「如果事情在控制範圍內，會設法避免」。",
+        "help-pdf-002": "本句指「情況已無法改變／避免」。",
         "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
         "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
         "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
         "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
         "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-14"
+      "correctOption": "help-pdf-002"
     },
     {
       "id": "help-20-1",
-      "sense": "help-mcq-14",
+      "sense": "help-pdf-002",
       "en": "The damage is done; there’s no helping it now.",
       "zh": "事情已造成損害，現在也無可奈何。",
       "masked": "The damage is done; there’s no ____ it now.",
       "options": [
-        "help-mcq-14",
+        "help-pdf-002",
         "help-mcq-13",
         "help-mcq-15",
         "help-mcq-12",
         "help-mcq-16",
         "help-mcq-11"
       ],
-      "explanation": "本句的「helping」指「如果事情在控制範圍內，會設法避免」。",
+      "explanation": "本句的「helping」指「情況已無法改變／避免」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "helping"
       ],
       "optionReasons": {
-        "help-mcq-14": "本句指「如果事情在控制範圍內，會設法避免」。",
+        "help-pdf-002": "本句指「情況已無法改變／避免」。",
         "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
         "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
         "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
         "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
         "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-14"
+      "correctOption": "help-pdf-002"
     },
     {
       "id": "help-21-0",
@@ -2168,63 +2216,63 @@ export default {
     },
     {
       "id": "help-26-0",
-      "sense": "help-mcq-18",
+      "sense": "help-pdf-003",
       "en": "She helpfully explained what I needed to do.",
       "zh": "她很好心／有幫助地解釋了我要做甚麼。",
       "masked": "She ____ what I needed to do.",
       "options": [
-        "help-mcq-18",
+        "help-pdf-003",
         "help-mcq-17",
         "help-mcq-19",
         "help-mcq-16",
         "help-mcq-20",
         "help-mcq-15"
       ],
-      "explanation": "本句的「helpfully explained」指「願意並能提供實際協助的」。",
+      "explanation": "本句的「helpfully explained」指「以對別人有實際幫助的方式」。",
       "sentenceIndex": 49,
       "sourcePractice": 51,
       "targets": [
         "helpfully explained"
       ],
       "optionReasons": {
-        "help-mcq-18": "本句指「願意並能提供實際協助的」。",
+        "help-pdf-003": "本句指「以對別人有實際幫助的方式」。",
         "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
         "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
         "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
         "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
         "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-18"
+      "correctOption": "help-pdf-003"
     },
     {
       "id": "help-26-1",
-      "sense": "help-mcq-18",
+      "sense": "help-pdf-003",
       "en": "The instructions helpfully include examples.",
       "zh": "說明書很貼心地／有用地附上了例子。",
       "masked": "The instructions ____ include examples.",
       "options": [
-        "help-mcq-18",
+        "help-pdf-003",
         "help-mcq-17",
         "help-mcq-19",
         "help-mcq-16",
         "help-mcq-20",
         "help-mcq-15"
       ],
-      "explanation": "本句的「helpfully」指「願意並能提供實際協助的」。",
+      "explanation": "本句的「helpfully」指「以對別人有實際幫助的方式」。",
       "sentenceIndex": 50,
       "sourcePractice": 52,
       "targets": [
         "helpfully"
       ],
       "optionReasons": {
-        "help-mcq-18": "本句指「願意並能提供實際協助的」。",
+        "help-pdf-003": "本句指「以對別人有實際幫助的方式」。",
         "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
         "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
         "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
         "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
         "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-18"
+      "correctOption": "help-pdf-003"
     },
     {
       "id": "help-27-0",
@@ -2288,63 +2336,63 @@ export default {
     },
     {
       "id": "help-28-0",
-      "sense": "help-mcq-19",
+      "sense": "help-pdf-004",
       "en": "She burst into helpless laughter.",
       "zh": "她笑得完全控制不了自己。",
       "masked": "She burst into ____.",
       "options": [
-        "help-mcq-19",
+        "help-pdf-004",
         "help-mcq-18",
         "help-mcq-20",
         "help-mcq-17",
         "help-mcq-21",
         "help-mcq-16"
       ],
-      "explanation": "本句的「helpless laughter」指「無法自己改善情況、保護自己或採取有效行動」。",
+      "explanation": "本句的「helpless laughter」指「無法控制局面／反應，沒有有效辦法改變事情」。",
       "sentenceIndex": 53,
       "sourcePractice": 55,
       "targets": [
         "helpless laughter"
       ],
       "optionReasons": {
-        "help-mcq-19": "本句指「無法自己改善情況、保護自己或採取有效行動」。",
+        "help-pdf-004": "本句指「無法控制局面／反應，沒有有效辦法改變事情」。",
         "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
         "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
         "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
         "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
         "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-19"
+      "correctOption": "help-pdf-004"
     },
     {
       "id": "help-28-1",
-      "sense": "help-mcq-19",
+      "sense": "help-pdf-004",
       "en": "He watched in helpless frustration.",
       "zh": "他只能無能為力又沮喪地看著。",
       "masked": "He watched in ____ frustration.",
       "options": [
-        "help-mcq-19",
+        "help-pdf-004",
         "help-mcq-18",
         "help-mcq-20",
         "help-mcq-17",
         "help-mcq-21",
         "help-mcq-16"
       ],
-      "explanation": "本句的「helpless」指「無法自己改善情況、保護自己或採取有效行動」。",
+      "explanation": "本句的「helpless」指「無法控制局面／反應，沒有有效辦法改變事情」。",
       "sentenceIndex": 54,
       "sourcePractice": 56,
       "targets": [
         "helpless"
       ],
       "optionReasons": {
-        "help-mcq-19": "本句指「無法自己改善情況、保護自己或採取有效行動」。",
+        "help-pdf-004": "本句指「無法控制局面／反應，沒有有效辦法改變事情」。",
         "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
         "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
         "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
         "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
         "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。"
       },
-      "correctOption": "help-mcq-19"
+      "correctOption": "help-pdf-004"
     },
     {
       "id": "help-29-0",

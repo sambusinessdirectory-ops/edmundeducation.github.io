@@ -233,11 +233,6 @@ export default {
           "謹慎方針"
         ],
         [
-          "The compliance team was more cautious.",
-          "合規團隊較為謹慎。",
-          "謹慎方針"
-        ],
-        [
           "Investors are cautious about the outlook.",
           "投資者對前景持謹慎態度。",
           "謹慎方針"
@@ -642,33 +637,7 @@ export default {
       "en": "Caution!",
       "zh": "小心！注意！",
       "note": "來源詞義：小心！注意！",
-      "examples": [
-        [
-          "The compliance team insists on caution.",
-          "合規團隊堅持要謹慎行事。",
-          "小心！注意！"
-        ],
-        [
-          "Caution is necessary when making major financial decisions.",
-          "作出重大財務決定時必須保持謹慎。",
-          "小心！注意！"
-        ],
-        [
-          "The situation requires both speed and caution.",
-          "這個情況既需要速度，也需要謹慎。",
-          "小心！注意！"
-        ],
-        [
-          "The sign said, “Caution: Wet Floor.",
-          "標誌寫着：「小心：地面濕滑。",
-          "小心！注意！"
-        ],
-        [
-          "Caution” was printed on the machine.",
-          "機器上印有「注意／小心」。",
-          "小心！注意！"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -724,16 +693,6 @@ export default {
       "zh": "警方正式警誡",
       "note": "來源詞義：警方正式警誡",
       "examples": [
-        [
-          "The suspect was given a police caution.",
-          "疑犯受到警方的正式警誡。",
-          "警方正式警誡"
-        ],
-        [
-          "The precise meaning of a caution depends on the legal system.",
-          "caution 的法律含義取決於相關司法制度。",
-          "警方正式警誡"
-        ],
         [
           "She received a formal caution.",
           "她收到一項正式警誡。",
@@ -804,18 +763,7 @@ export default {
       "en": "caution (football)",
       "zh": "黃牌警告",
       "note": "來源詞義：黃牌警告",
-      "examples": [
-        [
-          "The referee gave the defender a caution.",
-          "裁判向後衛作出警告。",
-          "黃牌警告"
-        ],
-        [
-          "A caution is normally shown with a yellow card in football.",
-          "足球比賽中的正式警告通常以黃牌表示。",
-          "黃牌警告"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -926,11 +874,6 @@ export default {
       "note": "來源詞義：預防措施",
       "examples": [
         [
-          "Wearing protective equipment is a sensible precaution.",
-          "穿戴保護裝備是一項合理的預防措施。",
-          "預防措施"
-        ],
-        [
           "Wearing a helmet is an important safety precaution.",
           "戴頭盔是一項重要的安全措施。",
           "預防措施"
@@ -1006,98 +949,225 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "caution-pdf-001",
+      "title": "為避免危險、錯誤或不必要風險而採取的小心態度",
+      "form": "1. caution = carefulness to avoid danger or mistakes — 謹慎；小心",
+      "en": "1. caution = carefulness to avoid danger or mistakes — 謹慎；小心",
+      "zh": "為避免危險、錯誤或不必要風險而採取的小心態度",
+      "note": "原始 PDF 第 1 節：為避免危險、錯誤或不必要風險而採取的小心態度",
+      "examples": [
+        [
+          "The compliance team insists on caution.",
+          "合規團隊堅持要謹慎行事。",
+          "為避免危險、錯誤或不必要風險而採取的小心態度"
+        ],
+        [
+          "Caution is necessary when making major financial decisions.",
+          "作出重大財務決定時必須保持謹慎。",
+          "為避免危險、錯誤或不必要風險而採取的小心態度"
+        ],
+        [
+          "The situation requires both speed and caution.",
+          "這個情況既需要速度，也需要謹慎。",
+          "為避免危險、錯誤或不必要風險而採取的小心態度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "caution-pdf-002",
+      "title": "不輕率行動，會先考慮可能的風險和後果",
+      "form": "13. cautious = careful about avoiding risk — 謹慎的；小心的",
+      "en": "13. cautious = careful about avoiding risk — 謹慎的；小心的",
+      "zh": "不輕率行動，會先考慮可能的風險和後果",
+      "note": "原始 PDF 第 13 節：不輕率行動，會先考慮可能的風險和後果",
+      "examples": [
+        [
+          "The compliance team was more cautious.",
+          "合規團隊較為謹慎。",
+          "不輕率行動，會先考慮可能的風險和後果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "caution-pdf-003",
+      "title": "用來警告附近可能有危險的正式提示語",
+      "form": "37. Caution! = warning sign/message — 小心！注意！",
+      "en": "37. Caution! = warning sign/message — 小心！注意！",
+      "zh": "用來警告附近可能有危險的正式提示語",
+      "note": "原始 PDF 第 37 節：用來警告附近可能有危險的正式提示語",
+      "examples": [
+        [
+          "The sign said, “Caution: Wet Floor.",
+          "標誌寫着：「小心：地面濕滑。",
+          "用來警告附近可能有危險的正式提示語"
+        ],
+        [
+          "Caution” was printed on the machine.",
+          "機器上印有「注意／小心」。",
+          "用來警告附近可能有危險的正式提示語"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "caution-pdf-004",
+      "title": "警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異",
+      "form": "40. police caution = formal warning in criminal-law contexts — 警方警誡／正式警告",
+      "en": "40. police caution = formal warning in criminal-law contexts — 警方警誡／正式警告",
+      "zh": "警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異",
+      "note": "原始 PDF 第 40 節：警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異",
+      "examples": [
+        [
+          "The suspect was given a police caution.",
+          "疑犯受到警方的正式警誡。",
+          "警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異"
+        ],
+        [
+          "The precise meaning of a caution depends on the legal system.",
+          "caution 的法律含義取決於相關司法制度。",
+          "警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "caution-pdf-005",
+      "title": "裁判因球員犯規或不當行為而作出的正式警告",
+      "form": "45. caution = official warning to a player — 警告；黃牌警告",
+      "en": "45. caution = official warning to a player — 警告；黃牌警告",
+      "zh": "裁判因球員犯規或不當行為而作出的正式警告",
+      "note": "原始 PDF 第 45 節：裁判因球員犯規或不當行為而作出的正式警告",
+      "examples": [
+        [
+          "The referee gave the defender a caution.",
+          "裁判向後衛作出警告。",
+          "裁判因球員犯規或不當行為而作出的正式警告"
+        ],
+        [
+          "A caution is normally shown with a yellow card in football.",
+          "足球比賽中的正式警告通常以黃牌表示。",
+          "裁判因球員犯規或不當行為而作出的正式警告"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "caution-pdf-006",
+      "title": "在問題或危險發生之前採取的具體防範行動",
+      "form": "52. precaution = action taken beforehand to prevent harm — 預防措施",
+      "en": "52. precaution = action taken beforehand to prevent harm — 預防措施",
+      "zh": "在問題或危險發生之前採取的具體防範行動",
+      "note": "原始 PDF 第 52 節：在問題或危險發生之前採取的具體防範行動",
+      "examples": [
+        [
+          "Wearing protective equipment is a sensible precaution.",
+          "穿戴保護裝備是一項合理的預防措施。",
+          "在問題或危險發生之前採取的具體防範行動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "caution-01-0",
-      "sense": "caution-mcq-29",
+      "sense": "caution-pdf-001",
       "en": "The compliance team insists on caution.",
       "zh": "合規團隊堅持要謹慎行事。",
       "masked": "The compliance team ____.",
       "options": [
-        "caution-mcq-29",
+        "caution-pdf-001",
         "caution-mcq-28",
         "caution-mcq-30",
         "caution-mcq-27",
         "caution-mcq-31",
         "caution-mcq-26"
       ],
-      "explanation": "本句的「insists on caution」指「小心！注意！」。",
+      "explanation": "本句的「insists on caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "insists on caution"
       ],
       "optionReasons": {
-        "caution-mcq-29": "本句指「小心！注意！」。",
+        "caution-pdf-001": "本句指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
         "caution-mcq-28": "「警示例子」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-26": "「警示性的」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-29"
+      "correctOption": "caution-pdf-001"
     },
     {
       "id": "caution-01-1",
-      "sense": "caution-mcq-29",
+      "sense": "caution-pdf-001",
       "en": "Caution is necessary when making major financial decisions.",
       "zh": "作出重大財務決定時必須保持謹慎。",
       "masked": "____ is necessary when making major financial decisions.",
       "options": [
-        "caution-mcq-29",
+        "caution-pdf-001",
         "caution-mcq-28",
         "caution-mcq-30",
         "caution-mcq-27",
         "caution-mcq-31",
         "caution-mcq-26"
       ],
-      "explanation": "本句的「Caution」指「小心！注意！」。",
+      "explanation": "本句的「Caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "Caution"
       ],
       "optionReasons": {
-        "caution-mcq-29": "本句指「小心！注意！」。",
+        "caution-pdf-001": "本句指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
         "caution-mcq-28": "「警示例子」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-26": "「警示性的」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-29"
+      "correctOption": "caution-pdf-001"
     },
     {
       "id": "caution-01-2",
-      "sense": "caution-mcq-29",
+      "sense": "caution-pdf-001",
       "en": "The situation requires both speed and caution.",
       "zh": "這個情況既需要速度，也需要謹慎。",
       "masked": "The situation requires both speed and ____.",
       "options": [
-        "caution-mcq-29",
+        "caution-pdf-001",
         "caution-mcq-28",
         "caution-mcq-30",
         "caution-mcq-27",
         "caution-mcq-31",
         "caution-mcq-26"
       ],
-      "explanation": "本句的「caution」指「小心！注意！」。",
+      "explanation": "本句的「caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-29": "本句指「小心！注意！」。",
+        "caution-pdf-001": "本句指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
         "caution-mcq-28": "「警示例子」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-26": "「警示性的」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-29"
+      "correctOption": "caution-pdf-001"
     },
     {
       "id": "caution-02-0",
@@ -1701,33 +1771,33 @@ export default {
     },
     {
       "id": "caution-13-0",
-      "sense": "caution-mcq-11",
+      "sense": "caution-pdf-002",
       "en": "The compliance team was more cautious.",
       "zh": "合規團隊較為謹慎。",
       "masked": "The compliance team was more ____.",
       "options": [
-        "caution-mcq-11",
+        "caution-pdf-002",
         "caution-mcq-10",
         "caution-mcq-12",
         "caution-mcq-09",
         "caution-mcq-13",
         "caution-mcq-08"
       ],
-      "explanation": "本句的「cautious」指「謹慎方針」。",
+      "explanation": "本句的「cautious」指「不輕率行動，會先考慮可能的風險和後果」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "cautious"
       ],
       "optionReasons": {
-        "caution-mcq-11": "本句指「謹慎方針」。",
+        "caution-pdf-002": "本句指「不輕率行動，會先考慮可能的風險和後果」。",
         "caution-mcq-10": "「謹慎的」與本句語境不同。",
         "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
         "caution-mcq-09": "「建議謹慎」與本句語境不同。",
         "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
         "caution-mcq-08": "「應有的謹慎」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-11"
+      "correctOption": "caution-pdf-002"
     },
     {
       "id": "caution-14-0",
@@ -2871,63 +2941,63 @@ export default {
     },
     {
       "id": "caution-37-0",
-      "sense": "caution-mcq-29",
+      "sense": "caution-pdf-003",
       "en": "The sign said, “Caution: Wet Floor.",
       "zh": "標誌寫着：「小心：地面濕滑。",
       "masked": "The sign said, “____.",
       "options": [
-        "caution-mcq-29",
+        "caution-pdf-003",
         "caution-mcq-28",
         "caution-mcq-30",
         "caution-mcq-27",
         "caution-mcq-31",
         "caution-mcq-26"
       ],
-      "explanation": "本句的「Caution: Wet Floor」指「小心！注意！」。",
+      "explanation": "本句的「Caution: Wet Floor」指「用來警告附近可能有危險的正式提示語」。",
       "sentenceIndex": 62,
       "sourcePractice": 1,
       "targets": [
         "Caution: Wet Floor"
       ],
       "optionReasons": {
-        "caution-mcq-29": "本句指「小心！注意！」。",
+        "caution-pdf-003": "本句指「用來警告附近可能有危險的正式提示語」。",
         "caution-mcq-28": "「警示例子」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-26": "「警示性的」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-29"
+      "correctOption": "caution-pdf-003"
     },
     {
       "id": "caution-37-1",
-      "sense": "caution-mcq-29",
+      "sense": "caution-pdf-003",
       "en": "Caution” was printed on the machine.",
       "zh": "機器上印有「注意／小心」。",
       "masked": "____” was printed on the machine.",
       "options": [
-        "caution-mcq-29",
+        "caution-pdf-003",
         "caution-mcq-28",
         "caution-mcq-30",
         "caution-mcq-27",
         "caution-mcq-31",
         "caution-mcq-26"
       ],
-      "explanation": "本句的「Caution」指「小心！注意！」。",
+      "explanation": "本句的「Caution」指「用來警告附近可能有危險的正式提示語」。",
       "sentenceIndex": 63,
       "sourcePractice": 2,
       "targets": [
         "Caution"
       ],
       "optionReasons": {
-        "caution-mcq-29": "本句指「小心！注意！」。",
+        "caution-pdf-003": "本句指「用來警告附近可能有危險的正式提示語」。",
         "caution-mcq-28": "「警示例子」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-26": "「警示性的」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-29"
+      "correctOption": "caution-pdf-003"
     },
     {
       "id": "caution-38-0",
@@ -3051,63 +3121,63 @@ export default {
     },
     {
       "id": "caution-40-0",
-      "sense": "caution-mcq-32",
+      "sense": "caution-pdf-004",
       "en": "The suspect was given a police caution.",
       "zh": "疑犯受到警方的正式警誡。",
       "masked": "The suspect was given a ____.",
       "options": [
-        "caution-mcq-32",
+        "caution-pdf-004",
         "caution-mcq-31",
         "caution-mcq-33",
         "caution-mcq-30",
         "caution-mcq-34",
         "caution-mcq-29"
       ],
-      "explanation": "本句的「police caution」指「警方正式警誡」。",
+      "explanation": "本句的「police caution」指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
       "sentenceIndex": 68,
       "sourcePractice": 1,
       "targets": [
         "police caution"
       ],
       "optionReasons": {
-        "caution-mcq-32": "本句指「警方正式警誡」。",
+        "caution-pdf-004": "本句指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
         "caution-mcq-29": "「小心！注意！」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-32"
+      "correctOption": "caution-pdf-004"
     },
     {
       "id": "caution-40-1",
-      "sense": "caution-mcq-32",
+      "sense": "caution-pdf-004",
       "en": "The precise meaning of a caution depends on the legal system.",
       "zh": "caution 的法律含義取決於相關司法制度。",
       "masked": "The precise meaning of a ____ depends on the legal system.",
       "options": [
-        "caution-mcq-32",
+        "caution-pdf-004",
         "caution-mcq-31",
         "caution-mcq-33",
         "caution-mcq-30",
         "caution-mcq-34",
         "caution-mcq-29"
       ],
-      "explanation": "本句的「caution」指「警方正式警誡」。",
+      "explanation": "本句的「caution」指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
       "sentenceIndex": 69,
       "sourcePractice": 2,
       "targets": [
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-32": "本句指「警方正式警誡」。",
+        "caution-pdf-004": "本句指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
         "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
         "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
         "caution-mcq-30": "「警告標誌」與本句語境不同。",
         "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
         "caution-mcq-29": "「小心！注意！」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-32"
+      "correctOption": "caution-pdf-004"
     },
     {
       "id": "caution-41-0",
@@ -3321,63 +3391,63 @@ export default {
     },
     {
       "id": "caution-45-0",
-      "sense": "caution-mcq-35",
+      "sense": "caution-pdf-005",
       "en": "The referee gave the defender a caution.",
       "zh": "裁判向後衛作出警告。",
       "masked": "The referee gave the defender a ____.",
       "options": [
-        "caution-mcq-35",
+        "caution-pdf-005",
         "caution-mcq-34",
         "caution-mcq-36",
         "caution-mcq-33",
         "caution-mcq-37",
         "caution-mcq-32"
       ],
-      "explanation": "本句的「caution」指「黃牌警告」。",
+      "explanation": "本句的「caution」指「裁判因球員犯規或不當行為而作出的正式警告」。",
       "sentenceIndex": 77,
       "sourcePractice": 1,
       "targets": [
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-35": "本句指「黃牌警告」。",
+        "caution-pdf-005": "本句指「裁判因球員犯規或不當行為而作出的正式警告」。",
         "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
         "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
         "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
         "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
         "caution-mcq-32": "「警方正式警誡」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-35"
+      "correctOption": "caution-pdf-005"
     },
     {
       "id": "caution-45-1",
-      "sense": "caution-mcq-35",
+      "sense": "caution-pdf-005",
       "en": "A caution is normally shown with a yellow card in football.",
       "zh": "足球比賽中的正式警告通常以黃牌表示。",
       "masked": "A ____ is normally shown with a yellow card in football.",
       "options": [
-        "caution-mcq-35",
+        "caution-pdf-005",
         "caution-mcq-34",
         "caution-mcq-36",
         "caution-mcq-33",
         "caution-mcq-37",
         "caution-mcq-32"
       ],
-      "explanation": "本句的「caution」指「黃牌警告」。",
+      "explanation": "本句的「caution」指「裁判因球員犯規或不當行為而作出的正式警告」。",
       "sentenceIndex": 78,
       "sourcePractice": 2,
       "targets": [
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-35": "本句指「黃牌警告」。",
+        "caution-pdf-005": "本句指「裁判因球員犯規或不當行為而作出的正式警告」。",
         "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
         "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
         "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
         "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
         "caution-mcq-32": "「警方正式警誡」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-35"
+      "correctOption": "caution-pdf-005"
     },
     {
       "id": "caution-46-0",
@@ -3681,33 +3751,33 @@ export default {
     },
     {
       "id": "caution-52-0",
-      "sense": "caution-mcq-40",
+      "sense": "caution-pdf-006",
       "en": "Wearing protective equipment is a sensible precaution.",
       "zh": "穿戴保護裝備是一項合理的預防措施。",
       "masked": "Wearing protective equipment is a sensible ____.",
       "options": [
-        "caution-mcq-40",
+        "caution-pdf-006",
         "caution-mcq-39",
         "caution-mcq-41",
         "caution-mcq-38",
         "caution-mcq-42",
         "caution-mcq-37"
       ],
-      "explanation": "本句的「precaution」指「預防措施」。",
+      "explanation": "本句的「precaution」指「在問題或危險發生之前採取的具體防範行動」。",
       "sentenceIndex": 91,
       "sourcePractice": 1,
       "targets": [
         "precaution"
       ],
       "optionReasons": {
-        "caution-mcq-40": "本句指「預防措施」。",
+        "caution-pdf-006": "本句指「在問題或危險發生之前採取的具體防範行動」。",
         "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
         "caution-mcq-41": "「採取預防措施」與本句語境不同。",
         "caution-mcq-38": "「不顧風險」與本句語境不同。",
         "caution-mcq-42": "「以防萬一」與本句語境不同。",
         "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。"
       },
-      "correctOption": "caution-mcq-40"
+      "correctOption": "caution-pdf-006"
     },
     {
       "id": "caution-53-0",

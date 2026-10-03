@@ -333,16 +333,6 @@ export default {
           "He succeeded through talent and a strong will.",
           "他靠才能和堅強意志取得成功。",
           "不容易被困難動搖的堅定決心"
-        ],
-        [
-          "She never lost her will to live.",
-          "她從未失去求生意志。",
-          "不容易被困難動搖的堅定決心"
-        ],
-        [
-          "His will to survive was extraordinary.",
-          "他的求生意志非常強。",
-          "不容易被困難動搖的堅定決心"
         ]
       ],
       "options": [],
@@ -400,16 +390,6 @@ export default {
       "zh": "在遺囑中指定某人／機構繼承某項財產",
       "note": "來源詞義：在遺囑中指定某人／機構繼承某項財產",
       "examples": [
-        [
-          "This document is his last will and testament.",
-          "這份文件是他的最後遺囑。",
-          "在遺囑中指定某人／機構繼承某項財產"
-        ],
-        [
-          "The lawyer prepared her last will and testament.",
-          "律師替她準備了正式遺囑。",
-          "在遺囑中指定某人／機構繼承某項財產"
-        ],
         [
           "She willed the house to her daughter.",
           "她在遺囑中把房子留給女兒。",
@@ -727,6 +707,50 @@ export default {
           "I’m willing to learn.",
           "我願意學習。",
           "對進行某項行動持接受／自願態度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "will-pdf-001",
+      "title": "推動某人堅持做某事的內在意志／決心",
+      "form": "18. will to live / will to survive（生存意志） — 求生意志",
+      "en": "18. will to live / will to survive（生存意志） — 求生意志",
+      "zh": "推動某人堅持做某事的內在意志／決心",
+      "note": "原始 PDF 第 18 節：推動某人堅持做某事的內在意志／決心",
+      "examples": [
+        [
+          "She never lost her will to live.",
+          "她從未失去求生意志。",
+          "推動某人堅持做某事的內在意志／決心"
+        ],
+        [
+          "His will to survive was extraordinary.",
+          "他的求生意志非常強。",
+          "推動某人堅持做某事的內在意志／決心"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "will-pdf-002",
+      "title": "正式法律用語，指遺囑",
+      "form": "23. last will and testament（遺囑） — 最後遺囑",
+      "en": "23. last will and testament（遺囑） — 最後遺囑",
+      "zh": "正式法律用語，指遺囑",
+      "note": "原始 PDF 第 23 節：正式法律用語，指遺囑",
+      "examples": [
+        [
+          "This document is his last will and testament.",
+          "這份文件是他的最後遺囑。",
+          "正式法律用語，指遺囑"
+        ],
+        [
+          "The lawyer prepared her last will and testament.",
+          "律師替她準備了正式遺囑。",
+          "正式法律用語，指遺囑"
         ]
       ],
       "options": [],
@@ -1786,63 +1810,63 @@ export default {
     },
     {
       "id": "will-18-0",
-      "sense": "will-mcq-14",
+      "sense": "will-pdf-001",
       "en": "She never lost her will to live.",
       "zh": "她從未失去求生意志。",
       "masked": "She never lost her ____.",
       "options": [
-        "will-mcq-14",
+        "will-pdf-001",
         "will-mcq-13",
         "will-mcq-15",
         "will-mcq-12",
         "will-mcq-16",
         "will-mcq-11"
       ],
-      "explanation": "本句的「will to live」指「不容易被困難動搖的堅定決心」。",
+      "explanation": "本句的「will to live」指「推動某人堅持做某事的內在意志／決心」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "will to live"
       ],
       "optionReasons": {
-        "will-mcq-14": "本句指「不容易被困難動搖的堅定決心」。",
+        "will-pdf-001": "本句指「推動某人堅持做某事的內在意志／決心」。",
         "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
         "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
         "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
         "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
         "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。"
       },
-      "correctOption": "will-mcq-14"
+      "correctOption": "will-pdf-001"
     },
     {
       "id": "will-18-1",
-      "sense": "will-mcq-14",
+      "sense": "will-pdf-001",
       "en": "His will to survive was extraordinary.",
       "zh": "他的求生意志非常強。",
       "masked": "His ____ to survive was extraordinary.",
       "options": [
-        "will-mcq-14",
+        "will-pdf-001",
         "will-mcq-13",
         "will-mcq-15",
         "will-mcq-12",
         "will-mcq-16",
         "will-mcq-11"
       ],
-      "explanation": "本句的「will」指「不容易被困難動搖的堅定決心」。",
+      "explanation": "本句的「will」指「推動某人堅持做某事的內在意志／決心」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "will"
       ],
       "optionReasons": {
-        "will-mcq-14": "本句指「不容易被困難動搖的堅定決心」。",
+        "will-pdf-001": "本句指「推動某人堅持做某事的內在意志／決心」。",
         "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
         "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
         "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
         "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
         "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。"
       },
-      "correctOption": "will-mcq-14"
+      "correctOption": "will-pdf-001"
     },
     {
       "id": "will-19-0",
@@ -2086,63 +2110,63 @@ export default {
     },
     {
       "id": "will-23-0",
-      "sense": "will-mcq-17",
+      "sense": "will-pdf-002",
       "en": "This document is his last will and testament.",
       "zh": "這份文件是他的最後遺囑。",
       "masked": "This document is his ____.",
       "options": [
-        "will-mcq-17",
+        "will-pdf-002",
         "will-mcq-16",
         "will-mcq-18",
         "will-mcq-15",
         "will-mcq-19",
         "will-mcq-14"
       ],
-      "explanation": "本句的「last will and testament」指「在遺囑中指定某人／機構繼承某項財產」。",
+      "explanation": "本句的「last will and testament」指「正式法律用語，指遺囑」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "last will and testament"
       ],
       "optionReasons": {
-        "will-mcq-17": "本句指「在遺囑中指定某人／機構繼承某項財產」。",
+        "will-pdf-002": "本句指「正式法律用語，指遺囑」。",
         "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
         "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
         "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
         "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
         "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。"
       },
-      "correctOption": "will-mcq-17"
+      "correctOption": "will-pdf-002"
     },
     {
       "id": "will-23-1",
-      "sense": "will-mcq-17",
+      "sense": "will-pdf-002",
       "en": "The lawyer prepared her last will and testament.",
       "zh": "律師替她準備了正式遺囑。",
       "masked": "The lawyer prepared her last ____ and testament.",
       "options": [
-        "will-mcq-17",
+        "will-pdf-002",
         "will-mcq-16",
         "will-mcq-18",
         "will-mcq-15",
         "will-mcq-19",
         "will-mcq-14"
       ],
-      "explanation": "本句的「will」指「在遺囑中指定某人／機構繼承某項財產」。",
+      "explanation": "本句的「will」指「正式法律用語，指遺囑」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "will"
       ],
       "optionReasons": {
-        "will-mcq-17": "本句指「在遺囑中指定某人／機構繼承某項財產」。",
+        "will-pdf-002": "本句指「正式法律用語，指遺囑」。",
         "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
         "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
         "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
         "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
         "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。"
       },
-      "correctOption": "will-mcq-17"
+      "correctOption": "will-pdf-002"
     },
     {
       "id": "will-24-0",

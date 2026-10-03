@@ -261,16 +261,6 @@ export default {
       "note": "來源詞義：從支持／中立轉為反對或敵對",
       "examples": [
         [
-          "Public opinion turned against the plan.",
-          "公眾意見轉而反對這個計劃。",
-          "從支持／中立轉為反對或敵對"
-        ],
-        [
-          "He eventually turned in favour of the idea.",
-          "他最後轉而支持這個想法。",
-          "從支持／中立轉為反對或敵對"
-        ],
-        [
           "Some supporters turned against him.",
           "一些支持者後來轉而反對他。",
           "從支持／中立轉為反對或敵對"
@@ -795,6 +785,28 @@ export default {
           "The next turn was a singer.",
           "下一個表演節目是一位歌手。",
           "娛樂節目中的一段表演／一位表演者的節目"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "turn-pdf-001",
+      "title": "態度、支持或立場發生改變",
+      "form": "12. turn = change opinion/attitude（轉變立場） — 改變；轉變",
+      "en": "12. turn = change opinion/attitude（轉變立場） — 改變；轉變",
+      "zh": "態度、支持或立場發生改變",
+      "note": "原始 PDF 第 12 節：態度、支持或立場發生改變",
+      "examples": [
+        [
+          "Public opinion turned against the plan.",
+          "公眾意見轉而反對這個計劃。",
+          "態度、支持或立場發生改變"
+        ],
+        [
+          "He eventually turned in favour of the idea.",
+          "他最後轉而支持這個想法。",
+          "態度、支持或立場發生改變"
         ]
       ],
       "options": [],
@@ -1494,63 +1506,63 @@ export default {
     },
     {
       "id": "turn-12-0",
-      "sense": "turn-mcq-12",
+      "sense": "turn-pdf-001",
       "en": "Public opinion turned against the plan.",
       "zh": "公眾意見轉而反對這個計劃。",
       "masked": "Public opinion ____ against the plan.",
       "options": [
-        "turn-mcq-12",
+        "turn-pdf-001",
         "turn-mcq-11",
         "turn-mcq-13",
         "turn-mcq-10",
         "turn-mcq-14",
         "turn-mcq-09"
       ],
-      "explanation": "本句的「turned」指「從支持／中立轉為反對或敵對」。",
+      "explanation": "本句的「turned」指「態度、支持或立場發生改變」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-12": "本句指「從支持／中立轉為反對或敵對」。",
+        "turn-pdf-001": "本句指「態度、支持或立場發生改變」。",
         "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
         "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
         "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
         "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
         "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。"
       },
-      "correctOption": "turn-mcq-12"
+      "correctOption": "turn-pdf-001"
     },
     {
       "id": "turn-12-1",
-      "sense": "turn-mcq-12",
+      "sense": "turn-pdf-001",
       "en": "He eventually turned in favour of the idea.",
       "zh": "他最後轉而支持這個想法。",
       "masked": "He eventually ____ in favour of the idea.",
       "options": [
-        "turn-mcq-12",
+        "turn-pdf-001",
         "turn-mcq-11",
         "turn-mcq-13",
         "turn-mcq-10",
         "turn-mcq-14",
         "turn-mcq-09"
       ],
-      "explanation": "本句的「turned」指「從支持／中立轉為反對或敵對」。",
+      "explanation": "本句的「turned」指「態度、支持或立場發生改變」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-12": "本句指「從支持／中立轉為反對或敵對」。",
+        "turn-pdf-001": "本句指「態度、支持或立場發生改變」。",
         "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
         "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
         "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
         "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
         "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。"
       },
-      "correctOption": "turn-mcq-12"
+      "correctOption": "turn-pdf-001"
     },
     {
       "id": "turn-13-0",

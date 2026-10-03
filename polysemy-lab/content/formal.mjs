@@ -621,16 +621,6 @@ export default {
           "The agreement was later formalized in writing.",
           "這項協議後來以書面方式正式確立。",
           "把原本較非正式的安排、關係或程序正式確立／制度化"
-        ],
-        [
-          "The company decided to formalize its hiring process.",
-          "公司決定把招聘程序制度化，訂立明確流程。",
-          "把原本較非正式的安排、關係或程序正式確立／制度化"
-        ],
-        [
-          "The team needs to formalize its decision-making process.",
-          "團隊需要把決策流程正式制度化／建立明確規則。",
-          "把原本較非正式的安排、關係或程序正式確立／制度化"
         ]
       ],
       "options": [],
@@ -719,6 +709,28 @@ export default {
           "The schedule was based on an informal arrangement.",
           "這個時間表是根據一項未正式記錄的安排制定的。",
           "雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "formal-pdf-001",
+      "title": "把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制",
+      "form": "29. formalize = give something a clear structure/rules（使制度化／結構化） — 制度化；訂立",
+      "en": "29. formalize = give something a clear structure/rules（使制度化／結構化） — 制度化；訂立",
+      "zh": "把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制",
+      "note": "原始 PDF 第 29 節：把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制",
+      "examples": [
+        [
+          "The company decided to formalize its hiring process.",
+          "公司決定把招聘程序制度化，訂立明確流程。",
+          "把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制"
+        ],
+        [
+          "The team needs to formalize its decision-making process.",
+          "團隊需要把決策流程正式制度化／建立明確規則。",
+          "把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制"
         ]
       ],
       "options": [],
@@ -2438,63 +2450,63 @@ export default {
     },
     {
       "id": "formal-29-0",
-      "sense": "formal-mcq-28",
+      "sense": "formal-pdf-001",
       "en": "The company decided to formalize its hiring process.",
       "zh": "公司決定把招聘程序制度化，訂立明確流程。",
       "masked": "The company decided to ____.",
       "options": [
-        "formal-mcq-28",
+        "formal-pdf-001",
         "formal-mcq-27",
         "formal-mcq-29",
         "formal-mcq-26",
         "formal-mcq-30",
         "formal-mcq-25"
       ],
-      "explanation": "本句的「formalize its hiring process」指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
+      "explanation": "本句的「formalize its hiring process」指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
       "sentenceIndex": 57,
       "sourcePractice": 58,
       "targets": [
         "formalize its hiring process"
       ],
       "optionReasons": {
-        "formal-mcq-28": "本句指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
+        "formal-pdf-001": "本句指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
         "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
         "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
         "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
         "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
         "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。"
       },
-      "correctOption": "formal-mcq-28"
+      "correctOption": "formal-pdf-001"
     },
     {
       "id": "formal-29-1",
-      "sense": "formal-mcq-28",
+      "sense": "formal-pdf-001",
       "en": "The team needs to formalize its decision-making process.",
       "zh": "團隊需要把決策流程正式制度化／建立明確規則。",
       "masked": "The team needs to ____.",
       "options": [
-        "formal-mcq-28",
+        "formal-pdf-001",
         "formal-mcq-27",
         "formal-mcq-29",
         "formal-mcq-26",
         "formal-mcq-30",
         "formal-mcq-25"
       ],
-      "explanation": "本句的「formalize its decision-making process」指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
+      "explanation": "本句的「formalize its decision-making process」指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "formalize its decision-making process"
       ],
       "optionReasons": {
-        "formal-mcq-28": "本句指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
+        "formal-pdf-001": "本句指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
         "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
         "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
         "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
         "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
         "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。"
       },
-      "correctOption": "formal-mcq-28"
+      "correctOption": "formal-pdf-001"
     },
     {
       "id": "formal-30-0",

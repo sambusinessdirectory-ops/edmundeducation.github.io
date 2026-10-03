@@ -72,18 +72,7 @@ export default {
       "en": "dry (not wet)",
       "zh": "乾的",
       "note": "來源詞義：乾的",
-      "examples": [
-        [
-          "The towel is completely dry.",
-          "毛巾完全乾了。",
-          "乾的"
-        ],
-        [
-          "Keep the floor dry.",
-          "保持地面乾爽。",
-          "乾的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -414,16 +403,6 @@ export default {
       "note": "來源詞義：乾透",
       "examples": [
         [
-          "Leave the paint to dry.",
-          "讓油漆乾掉。",
-          "乾透"
-        ],
-        [
-          "The clothes dried quickly in the sun.",
-          "衣服在陽光下很快便乾了。",
-          "乾透"
-        ],
-        [
           "The soil dried out during the hot weather.",
           "泥土在炎熱天氣下乾透了。",
           "乾透"
@@ -590,6 +569,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "dry-pdf-001",
+      "title": "沒有水、濕氣或水分的",
+      "form": "3. dry（沒有水分的） — 乾的",
+      "en": "3. dry（沒有水分的） — 乾的",
+      "zh": "沒有水、濕氣或水分的",
+      "note": "原始 PDF 第 3 節：沒有水、濕氣或水分的",
+      "examples": [
+        [
+          "The towel is completely dry.",
+          "毛巾完全乾了。",
+          "沒有水、濕氣或水分的"
+        ],
+        [
+          "Keep the floor dry.",
+          "保持地面乾爽。",
+          "沒有水、濕氣或水分的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "dry-pdf-002",
+      "title": "水分逐漸消失而變乾",
+      "form": "20. dry（intransitive：變乾） — 乾掉；變乾",
+      "en": "20. dry（intransitive：變乾） — 乾掉；變乾",
+      "zh": "水分逐漸消失而變乾",
+      "note": "原始 PDF 第 20 節：水分逐漸消失而變乾",
+      "examples": [
+        [
+          "Leave the paint to dry.",
+          "讓油漆乾掉。",
+          "水分逐漸消失而變乾"
+        ],
+        [
+          "The clothes dried quickly in the sun.",
+          "衣服在陽光下很快便乾了。",
+          "水分逐漸消失而變乾"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -745,63 +768,63 @@ export default {
     },
     {
       "id": "dry-03-0",
-      "sense": "dry-mcq-04",
+      "sense": "dry-pdf-001",
       "en": "The towel is completely dry.",
       "zh": "毛巾完全乾了。",
       "masked": "The towel is completely ____.",
       "options": [
-        "dry-mcq-04",
+        "dry-pdf-001",
         "dry-mcq-03",
         "dry-mcq-05",
         "dry-mcq-02",
         "dry-mcq-06",
         "dry-mcq-01"
       ],
-      "explanation": "本句的「dry」指「乾的」。",
+      "explanation": "本句的「dry」指「沒有水、濕氣或水分的」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-04": "本句指「乾的」。",
+        "dry-pdf-001": "本句指「沒有水、濕氣或水分的」。",
         "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
         "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
         "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
         "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
         "dry-mcq-01": "「枯燥的科目」是「dry subject」的用法，與本句語境不同。"
       },
-      "correctOption": "dry-mcq-04"
+      "correctOption": "dry-pdf-001"
     },
     {
       "id": "dry-03-1",
-      "sense": "dry-mcq-04",
+      "sense": "dry-pdf-001",
       "en": "Keep the floor dry.",
       "zh": "保持地面乾爽。",
       "masked": "Keep the floor ____.",
       "options": [
-        "dry-mcq-04",
+        "dry-pdf-001",
         "dry-mcq-03",
         "dry-mcq-05",
         "dry-mcq-02",
         "dry-mcq-06",
         "dry-mcq-01"
       ],
-      "explanation": "本句的「dry」指「乾的」。",
+      "explanation": "本句的「dry」指「沒有水、濕氣或水分的」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-04": "本句指「乾的」。",
+        "dry-pdf-001": "本句指「沒有水、濕氣或水分的」。",
         "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
         "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
         "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
         "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
         "dry-mcq-01": "「枯燥的科目」是「dry subject」的用法，與本句語境不同。"
       },
-      "correctOption": "dry-mcq-04"
+      "correctOption": "dry-pdf-001"
     },
     {
       "id": "dry-04-0",
@@ -1765,63 +1788,63 @@ export default {
     },
     {
       "id": "dry-20-0",
-      "sense": "dry-mcq-20",
+      "sense": "dry-pdf-002",
       "en": "Leave the paint to dry.",
       "zh": "讓油漆乾掉。",
       "masked": "Leave the paint to ____.",
       "options": [
-        "dry-mcq-20",
+        "dry-pdf-002",
         "dry-mcq-19",
         "dry-mcq-21",
         "dry-mcq-18",
         "dry-mcq-22",
         "dry-mcq-17"
       ],
-      "explanation": "本句的「dry」指「乾透」。",
+      "explanation": "本句的「dry」指「水分逐漸消失而變乾」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-20": "本句指「乾透」。",
+        "dry-pdf-002": "本句指「水分逐漸消失而變乾」。",
         "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
         "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
         "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
         "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
         "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。"
       },
-      "correctOption": "dry-mcq-20"
+      "correctOption": "dry-pdf-002"
     },
     {
       "id": "dry-20-1",
-      "sense": "dry-mcq-20",
+      "sense": "dry-pdf-002",
       "en": "The clothes dried quickly in the sun.",
       "zh": "衣服在陽光下很快便乾了。",
       "masked": "The clothes ____ quickly in the sun.",
       "options": [
-        "dry-mcq-20",
+        "dry-pdf-002",
         "dry-mcq-19",
         "dry-mcq-21",
         "dry-mcq-18",
         "dry-mcq-22",
         "dry-mcq-17"
       ],
-      "explanation": "本句的「dried」指「乾透」。",
+      "explanation": "本句的「dried」指「水分逐漸消失而變乾」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "dried"
       ],
       "optionReasons": {
-        "dry-mcq-20": "本句指「乾透」。",
+        "dry-pdf-002": "本句指「水分逐漸消失而變乾」。",
         "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
         "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
         "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
         "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
         "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。"
       },
-      "correctOption": "dry-mcq-20"
+      "correctOption": "dry-pdf-002"
     },
     {
       "id": "dry-21-0",

@@ -137,16 +137,6 @@ export default {
           "Sorry.” > “It doesn't matter.",
           "對不起。",
           "不要緊；沒關係"
-        ],
-        [
-          "Does it matter which file we use?",
-          "我們用哪個檔案有關係嗎？",
-          "不要緊；沒關係"
-        ],
-        [
-          "Does it really matter who speaks first?",
-          "誰先發言真的重要嗎？",
-          "不要緊；沒關係"
         ]
       ],
       "options": [],
@@ -435,16 +425,6 @@ export default {
       "note": "來源詞義：有機物質",
       "examples": [
         [
-          "The sample contains organic matter.",
-          "樣本含有有機物質。",
-          "有機物質"
-        ],
-        [
-          "The material changed from solid matter to liquid.",
-          "物料由固態物質變成液態。",
-          "有機物質"
-        ],
-        [
           "The soil contains a lot of organic matter.",
           "泥土含有大量有機物質。",
           "有機物質"
@@ -684,6 +664,50 @@ export default {
           "Safety remains a serious matter of concern.",
           "安全仍是一項嚴重的關注事項。",
           "令人擔心、需要注意或處理的問題"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "matter-pdf-001",
+      "title": "詢問某件事情是否重要或會影響結果",
+      "form": "7. Does it matter? — 有關係嗎？重要嗎？",
+      "en": "7. Does it matter? — 有關係嗎？重要嗎？",
+      "zh": "詢問某件事情是否重要或會影響結果",
+      "note": "原始 PDF 第 7 節：詢問某件事情是否重要或會影響結果",
+      "examples": [
+        [
+          "Does it matter which file we use?",
+          "我們用哪個檔案有關係嗎？",
+          "詢問某件事情是否重要或會影響結果"
+        ],
+        [
+          "Does it really matter who speaks first?",
+          "誰先發言真的重要嗎？",
+          "詢問某件事情是否重要或會影響結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "matter-pdf-002",
+      "title": "science: 構成物體和材料的實體物質",
+      "form": "22. solid / liquid / gaseous matter — 固體／液體／氣態物質",
+      "en": "22. solid / liquid / gaseous matter — 固體／液體／氣態物質",
+      "zh": "science: 構成物體和材料的實體物質",
+      "note": "原始 PDF 第 22 節：science: 構成物體和材料的實體物質",
+      "examples": [
+        [
+          "The sample contains organic matter.",
+          "樣本含有有機物質。",
+          "science: 構成物體和材料的實體物質"
+        ],
+        [
+          "The material changed from solid matter to liquid.",
+          "物料由固態物質變成液態。",
+          "science: 構成物體和材料的實體物質"
         ]
       ],
       "options": [],
@@ -1083,63 +1107,63 @@ export default {
     },
     {
       "id": "matter-07-0",
-      "sense": "matter-mcq-06",
+      "sense": "matter-pdf-001",
       "en": "Does it matter which file we use?",
       "zh": "我們用哪個檔案有關係嗎？",
       "masked": "____ which file we use?",
       "options": [
-        "matter-mcq-06",
+        "matter-pdf-001",
         "matter-mcq-05",
         "matter-mcq-07",
         "matter-mcq-04",
         "matter-mcq-08",
         "matter-mcq-03"
       ],
-      "explanation": "本句的「Does it matter」指「不要緊；沒關係」。",
+      "explanation": "本句的「Does it matter」指「詢問某件事情是否重要或會影響結果」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "Does it matter"
       ],
       "optionReasons": {
-        "matter-mcq-06": "本句指「不要緊；沒關係」。",
+        "matter-pdf-001": "本句指「詢問某件事情是否重要或會影響結果」。",
         "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
         "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
         "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
         "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
         "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。"
       },
-      "correctOption": "matter-mcq-06"
+      "correctOption": "matter-pdf-001"
     },
     {
       "id": "matter-07-1",
-      "sense": "matter-mcq-06",
+      "sense": "matter-pdf-001",
       "en": "Does it really matter who speaks first?",
       "zh": "誰先發言真的重要嗎？",
       "masked": "____ who speaks first?",
       "options": [
-        "matter-mcq-06",
+        "matter-pdf-001",
         "matter-mcq-05",
         "matter-mcq-07",
         "matter-mcq-04",
         "matter-mcq-08",
         "matter-mcq-03"
       ],
-      "explanation": "本句的「Does it really matter」指「不要緊；沒關係」。",
+      "explanation": "本句的「Does it really matter」指「詢問某件事情是否重要或會影響結果」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "Does it really matter"
       ],
       "optionReasons": {
-        "matter-mcq-06": "本句指「不要緊；沒關係」。",
+        "matter-pdf-001": "本句指「詢問某件事情是否重要或會影響結果」。",
         "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
         "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
         "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
         "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
         "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。"
       },
-      "correctOption": "matter-mcq-06"
+      "correctOption": "matter-pdf-001"
     },
     {
       "id": "matter-08-0",
@@ -1983,63 +2007,63 @@ export default {
     },
     {
       "id": "matter-22-0",
-      "sense": "matter-mcq-19",
+      "sense": "matter-pdf-002",
       "en": "The sample contains organic matter.",
       "zh": "樣本含有有機物質。",
       "masked": "The sample contains organic ____.",
       "options": [
-        "matter-mcq-19",
+        "matter-pdf-002",
         "matter-mcq-18",
         "matter-mcq-20",
         "matter-mcq-17",
         "matter-mcq-21",
         "matter-mcq-16"
       ],
-      "explanation": "本句的「matter」指「有機物質」。",
+      "explanation": "本句的「matter」指「science: 構成物體和材料的實體物質」。",
       "sentenceIndex": 43,
       "sourcePractice": 1,
       "targets": [
         "matter"
       ],
       "optionReasons": {
-        "matter-mcq-19": "本句指「有機物質」。",
+        "matter-pdf-002": "本句指「science: 構成物體和材料的實體物質」。",
         "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
         "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
         "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
         "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
         "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。"
       },
-      "correctOption": "matter-mcq-19"
+      "correctOption": "matter-pdf-002"
     },
     {
       "id": "matter-22-1",
-      "sense": "matter-mcq-19",
+      "sense": "matter-pdf-002",
       "en": "The material changed from solid matter to liquid.",
       "zh": "物料由固態物質變成液態。",
       "masked": "The material changed from solid ____ to liquid.",
       "options": [
-        "matter-mcq-19",
+        "matter-pdf-002",
         "matter-mcq-18",
         "matter-mcq-20",
         "matter-mcq-17",
         "matter-mcq-21",
         "matter-mcq-16"
       ],
-      "explanation": "本句的「matter」指「有機物質」。",
+      "explanation": "本句的「matter」指「science: 構成物體和材料的實體物質」。",
       "sentenceIndex": 44,
       "sourcePractice": 2,
       "targets": [
         "matter"
       ],
       "optionReasons": {
-        "matter-mcq-19": "本句指「有機物質」。",
+        "matter-pdf-002": "本句指「science: 構成物體和材料的實體物質」。",
         "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
         "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
         "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
         "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
         "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。"
       },
-      "correctOption": "matter-mcq-19"
+      "correctOption": "matter-pdf-002"
     },
     {
       "id": "matter-23-0",

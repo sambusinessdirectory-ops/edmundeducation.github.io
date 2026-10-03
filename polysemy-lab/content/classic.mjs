@@ -85,16 +85,6 @@ export default {
       "note": "來源詞義：非常精彩、難忘或具有代表性的事物；與",
       "examples": [
         [
-          "That was a classic mistake.",
-          "那是一個很典型／經典的錯誤。",
-          "非常精彩、難忘或具有代表性的事物；與"
-        ],
-        [
-          "It was a classic case of misunderstanding.",
-          "那是一宗很典型的誤會案例。",
-          "非常精彩、難忘或具有代表性的事物；與"
-        ],
-        [
           "That comment was an absolute classic.",
           "那句話真是經典。",
           "非常精彩、難忘或具有代表性的事物；與"
@@ -269,6 +259,28 @@ export default {
           "This is a classic example of how small errors can grow.",
           "這是一個小錯誤如何逐步擴大的典型例子。",
           "表示典型例子／案例"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "classic-pdf-001",
+      "title": "某種情況極具代表性，幾乎是一看就知道屬於那一類的",
+      "form": "4. classic = famous or memorable example of behaviour/situation（情況） — 經典的；老套而",
+      "en": "4. classic = famous or memorable example of behaviour/situation（情況） — 經典的；老套而",
+      "zh": "某種情況極具代表性，幾乎是一看就知道屬於那一類的",
+      "note": "原始 PDF 第 4 節：某種情況極具代表性，幾乎是一看就知道屬於那一類的",
+      "examples": [
+        [
+          "That was a classic mistake.",
+          "那是一個很典型／經典的錯誤。",
+          "某種情況極具代表性，幾乎是一看就知道屬於那一類的"
+        ],
+        [
+          "It was a classic case of misunderstanding.",
+          "那是一宗很典型的誤會案例。",
+          "某種情況極具代表性，幾乎是一看就知道屬於那一類的"
         ]
       ],
       "options": [],
@@ -488,63 +500,63 @@ export default {
     },
     {
       "id": "classic-04-0",
-      "sense": "classic-mcq-04",
+      "sense": "classic-pdf-001",
       "en": "That was a classic mistake.",
       "zh": "那是一個很典型／經典的錯誤。",
       "masked": "That was a ____ mistake.",
       "options": [
-        "classic-mcq-04",
+        "classic-pdf-001",
         "classic-mcq-03",
         "classic-mcq-05",
         "classic-mcq-02",
         "classic-mcq-06",
         "classic-mcq-01"
       ],
-      "explanation": "本句的「classic」指「非常精彩、難忘或具有代表性的事物；與」。",
+      "explanation": "本句的「classic」指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-04": "本句指「非常精彩、難忘或具有代表性的事物；與」。",
+        "classic-pdf-001": "本句指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
         "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
         "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
         "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
         "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
         "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。"
       },
-      "correctOption": "classic-mcq-04"
+      "correctOption": "classic-pdf-001"
     },
     {
       "id": "classic-04-1",
-      "sense": "classic-mcq-04",
+      "sense": "classic-pdf-001",
       "en": "It was a classic case of misunderstanding.",
       "zh": "那是一宗很典型的誤會案例。",
       "masked": "It was a ____ case of misunderstanding.",
       "options": [
-        "classic-mcq-04",
+        "classic-pdf-001",
         "classic-mcq-03",
         "classic-mcq-05",
         "classic-mcq-02",
         "classic-mcq-06",
         "classic-mcq-01"
       ],
-      "explanation": "本句的「classic」指「非常精彩、難忘或具有代表性的事物；與」。",
+      "explanation": "本句的「classic」指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-04": "本句指「非常精彩、難忘或具有代表性的事物；與」。",
+        "classic-pdf-001": "本句指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
         "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
         "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
         "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
         "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
         "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。"
       },
-      "correctOption": "classic-mcq-04"
+      "correctOption": "classic-pdf-001"
     },
     {
       "id": "classic-05-0",

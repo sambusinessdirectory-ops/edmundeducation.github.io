@@ -419,13 +419,7 @@ export default {
       "en": "approving",
       "zh": "顯示贊同、肯定或滿意態度的",
       "note": "來源詞義：顯示贊同、肯定或滿意態度的",
-      "examples": [
-        [
-          "She gave an approving smile.",
-          "她露出一個表示贊許的微笑。",
-          "顯示贊同、肯定或滿意態度的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -568,6 +562,23 @@ export default {
           "He learned to value self-approval more than online attention.",
           "他學會更重視自我認同，而不是網絡關注。",
           "自己對自己的選擇、價值或表現給予肯定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "approval-pdf-001",
+      "title": "顯示某人覺得某事很好／可以接受的",
+      "form": "43. approving = showing agreement/praise — 表示贊許的；認同的",
+      "en": "43. approving = showing agreement/praise — 表示贊許的；認同的",
+      "zh": "顯示某人覺得某事很好／可以接受的",
+      "note": "原始 PDF 第 43 節：顯示某人覺得某事很好／可以接受的",
+      "examples": [
+        [
+          "She gave an approving smile.",
+          "她露出一個表示贊許的微笑。",
+          "顯示某人覺得某事很好／可以接受的"
         ]
       ],
       "options": [],
@@ -1597,33 +1608,33 @@ export default {
     },
     {
       "id": "approval-43-0",
-      "sense": "approval-mcq-21",
+      "sense": "approval-pdf-001",
       "en": "She gave an approving smile.",
       "zh": "她露出一個表示贊許的微笑。",
       "masked": "She gave an ____.",
       "options": [
-        "approval-mcq-21",
+        "approval-pdf-001",
         "approval-mcq-20",
         "approval-mcq-22",
         "approval-mcq-19",
         "approval-mcq-23",
         "approval-mcq-18"
       ],
-      "explanation": "本句的「approving smile」指「顯示贊同、肯定或滿意態度的」。",
+      "explanation": "本句的「approving smile」指「顯示某人覺得某事很好／可以接受的」。",
       "sentenceIndex": 72,
       "sourcePractice": 43,
       "targets": [
         "approving smile"
       ],
       "optionReasons": {
-        "approval-mcq-21": "本句指「顯示贊同、肯定或滿意態度的」。",
+        "approval-pdf-001": "本句指「顯示某人覺得某事很好／可以接受的」。",
         "approval-mcq-20": "「經有權人士／機構正式接受或認可的」與本句語境不同。",
         "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。",
         "approval-mcq-19": "「正式批准某項計劃、申請、預算或行動」與本句語境不同。",
         "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
         "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。"
       },
-      "correctOption": "approval-mcq-21"
+      "correctOption": "approval-pdf-001"
     },
     {
       "id": "approval-46-0",

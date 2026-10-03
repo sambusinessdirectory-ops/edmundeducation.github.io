@@ -585,16 +585,6 @@ export default {
           "The alarm is activated automatically.",
           "警報系統會自動啟動。",
           "使系統、功能或機制開始運作／生效"
-        ],
-        [
-          "The protein activates a cellular response.",
-          "這種蛋白質會啟動／激活細胞反應。",
-          "使系統、功能或機制開始運作／生效"
-        ],
-        [
-          "Heat activates the chemical.",
-          "熱力會活化這種化學物質。",
-          "使系統、功能或機制開始運作／生效"
         ]
       ],
       "options": [],
@@ -639,6 +629,28 @@ export default {
           "Immediate action was required.",
           "需要立即採取處理措施。",
           "為解決問題、改善情況或執行政策而採取的具體措施"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "action-pdf-001",
+      "title": "令某種生物、化學或物理機制開始產生作用",
+      "form": "30. activate = cause biological/chemical process to begin（激活） — 活化；啟動",
+      "en": "30. activate = cause biological/chemical process to begin（激活） — 活化；啟動",
+      "zh": "令某種生物、化學或物理機制開始產生作用",
+      "note": "原始 PDF 第 30 節：令某種生物、化學或物理機制開始產生作用",
+      "examples": [
+        [
+          "The protein activates a cellular response.",
+          "這種蛋白質會啟動／激活細胞反應。",
+          "令某種生物、化學或物理機制開始產生作用"
+        ],
+        [
+          "Heat activates the chemical.",
+          "熱力會活化這種化學物質。",
+          "令某種生物、化學或物理機制開始產生作用"
         ]
       ],
       "options": [],
@@ -2418,63 +2430,63 @@ export default {
     },
     {
       "id": "action-30-0",
-      "sense": "action-mcq-25",
+      "sense": "action-pdf-001",
       "en": "The protein activates a cellular response.",
       "zh": "這種蛋白質會啟動／激活細胞反應。",
       "masked": "The protein ____ a cellular response.",
       "options": [
-        "action-mcq-25",
+        "action-pdf-001",
         "action-mcq-24",
         "action-mcq-26",
         "action-mcq-23",
         "action-mcq-27",
         "action-mcq-22"
       ],
-      "explanation": "本句的「activates」指「使系統、功能或機制開始運作／生效」。",
+      "explanation": "本句的「activates」指「令某種生物、化學或物理機制開始產生作用」。",
       "sentenceIndex": 59,
       "sourcePractice": 60,
       "targets": [
         "activates"
       ],
       "optionReasons": {
-        "action-mcq-25": "本句指「使系統、功能或機制開始運作／生效」。",
+        "action-pdf-001": "本句指「令某種生物、化學或物理機制開始產生作用」。",
         "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
         "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
         "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
         "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
         "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
       },
-      "correctOption": "action-mcq-25"
+      "correctOption": "action-pdf-001"
     },
     {
       "id": "action-30-1",
-      "sense": "action-mcq-25",
+      "sense": "action-pdf-001",
       "en": "Heat activates the chemical.",
       "zh": "熱力會活化這種化學物質。",
       "masked": "Heat ____ the chemical.",
       "options": [
-        "action-mcq-25",
+        "action-pdf-001",
         "action-mcq-24",
         "action-mcq-26",
         "action-mcq-23",
         "action-mcq-27",
         "action-mcq-22"
       ],
-      "explanation": "本句的「activates」指「使系統、功能或機制開始運作／生效」。",
+      "explanation": "本句的「activates」指「令某種生物、化學或物理機制開始產生作用」。",
       "sentenceIndex": 60,
       "sourcePractice": 61,
       "targets": [
         "activates"
       ],
       "optionReasons": {
-        "action-mcq-25": "本句指「使系統、功能或機制開始運作／生效」。",
+        "action-pdf-001": "本句指「令某種生物、化學或物理機制開始產生作用」。",
         "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
         "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
         "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
         "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
         "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
       },
-      "correctOption": "action-mcq-25"
+      "correctOption": "action-pdf-001"
     },
     {
       "id": "action-31-0",

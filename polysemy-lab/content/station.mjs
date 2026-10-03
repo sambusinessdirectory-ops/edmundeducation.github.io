@@ -58,16 +58,6 @@ export default {
       "note": "來源詞義：多條巴士／長途巴士集中停靠和開出的較大型設施",
       "examples": [
         [
-          "The bus leaves from the main station.",
-          "巴士從主要車站／總站開出。",
-          "多條巴士／長途巴士集中停靠和開出的較大型設施"
-        ],
-        [
-          "We waited at the bus station.",
-          "我們在巴士總站等候。",
-          "多條巴士／長途巴士集中停靠和開出的較大型設施"
-        ],
-        [
           "The coach arrives at the central bus station.",
           "長途巴士會抵達中央巴士總站。",
           "多條巴士／長途巴士集中停靠和開出的較大型設施"
@@ -367,16 +357,6 @@ export default {
           "More electric-car charging stations are being installed.",
           "更多電動車充電站正在安裝。",
           "提供電動車或設備充電服務的固定位置"
-        ],
-        [
-          "Each employee has a separate workstation.",
-          "每名員工都有獨立的工作位置。",
-          "提供電動車或設備充電服務的固定位置"
-        ],
-        [
-          "The designer uses a powerful computer workstation.",
-          "設計師使用一部高性能的電腦工作站。",
-          "提供電動車或設備充電服務的固定位置"
         ]
       ],
       "options": [],
@@ -475,6 +455,50 @@ export default {
           "His wealth raised his social station.",
           "他的財富提高了他的社會地位。",
           "一個人在社會階層中的身份／地位；較正式、較舊式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "station-pdf-001",
+      "title": "為某種公共交通服務設置、供車輛停靠及乘客上落的地方",
+      "form": "3. station = transport terminal/base（交通站／總站） — 車站；交通設施",
+      "en": "3. station = transport terminal/base（交通站／總站） — 車站；交通設施",
+      "zh": "為某種公共交通服務設置、供車輛停靠及乘客上落的地方",
+      "note": "原始 PDF 第 3 節：為某種公共交通服務設置、供車輛停靠及乘客上落的地方",
+      "examples": [
+        [
+          "The bus leaves from the main station.",
+          "巴士從主要車站／總站開出。",
+          "為某種公共交通服務設置、供車輛停靠及乘客上落的地方"
+        ],
+        [
+          "We waited at the bus station.",
+          "我們在巴士總站等候。",
+          "為某種公共交通服務設置、供車輛停靠及乘客上落的地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "station-pdf-002",
+      "title": "專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦",
+      "form": "18. workstation（工作站／工作位置） — 工作站；工作位置",
+      "en": "18. workstation（工作站／工作位置） — 工作站；工作位置",
+      "zh": "專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦",
+      "note": "原始 PDF 第 18 節：專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦",
+      "examples": [
+        [
+          "Each employee has a separate workstation.",
+          "每名員工都有獨立的工作位置。",
+          "專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦"
+        ],
+        [
+          "The designer uses a powerful computer workstation.",
+          "設計師使用一部高性能的電腦工作站。",
+          "專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦"
         ]
       ],
       "options": [],
@@ -604,63 +628,63 @@ export default {
     },
     {
       "id": "station-03-0",
-      "sense": "station-mcq-03",
+      "sense": "station-pdf-001",
       "en": "The bus leaves from the main station.",
       "zh": "巴士從主要車站／總站開出。",
       "masked": "The bus leaves from the main ____.",
       "options": [
-        "station-mcq-03",
+        "station-pdf-001",
         "station-mcq-02",
         "station-mcq-04",
         "station-mcq-01",
         "station-mcq-05",
         "station-mcq-06"
       ],
-      "explanation": "本句的「station」指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
+      "explanation": "本句的「station」指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "station"
       ],
       "optionReasons": {
-        "station-mcq-03": "本句指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
+        "station-pdf-001": "本句指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
         "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
         "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
         "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
         "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
         "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
       },
-      "correctOption": "station-mcq-03"
+      "correctOption": "station-pdf-001"
     },
     {
       "id": "station-03-1",
-      "sense": "station-mcq-03",
+      "sense": "station-pdf-001",
       "en": "We waited at the bus station.",
       "zh": "我們在巴士總站等候。",
       "masked": "We waited at the bus ____.",
       "options": [
-        "station-mcq-03",
+        "station-pdf-001",
         "station-mcq-02",
         "station-mcq-04",
         "station-mcq-01",
         "station-mcq-05",
         "station-mcq-06"
       ],
-      "explanation": "本句的「station」指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
+      "explanation": "本句的「station」指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "station"
       ],
       "optionReasons": {
-        "station-mcq-03": "本句指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
+        "station-pdf-001": "本句指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
         "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
         "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
         "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
         "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
         "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
       },
-      "correctOption": "station-mcq-03"
+      "correctOption": "station-pdf-001"
     },
     {
       "id": "station-04-0",
@@ -1534,63 +1558,63 @@ export default {
     },
     {
       "id": "station-18-0",
-      "sense": "station-mcq-16",
+      "sense": "station-pdf-002",
       "en": "Each employee has a separate workstation.",
       "zh": "每名員工都有獨立的工作位置。",
       "masked": "Each employee has a separate ____.",
       "options": [
-        "station-mcq-16",
+        "station-pdf-002",
         "station-mcq-15",
         "station-mcq-17",
         "station-mcq-14",
         "station-mcq-18",
         "station-mcq-13"
       ],
-      "explanation": "本句的「workstation」指「提供電動車或設備充電服務的固定位置」。",
+      "explanation": "本句的「workstation」指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "workstation"
       ],
       "optionReasons": {
-        "station-mcq-16": "本句指「提供電動車或設備充電服務的固定位置」。",
+        "station-pdf-002": "本句指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
         "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
         "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
         "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
         "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
         "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。"
       },
-      "correctOption": "station-mcq-16"
+      "correctOption": "station-pdf-002"
     },
     {
       "id": "station-18-1",
-      "sense": "station-mcq-16",
+      "sense": "station-pdf-002",
       "en": "The designer uses a powerful computer workstation.",
       "zh": "設計師使用一部高性能的電腦工作站。",
       "masked": "The designer uses a powerful computer ____.",
       "options": [
-        "station-mcq-16",
+        "station-pdf-002",
         "station-mcq-15",
         "station-mcq-17",
         "station-mcq-14",
         "station-mcq-18",
         "station-mcq-13"
       ],
-      "explanation": "本句的「workstation」指「提供電動車或設備充電服務的固定位置」。",
+      "explanation": "本句的「workstation」指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "workstation"
       ],
       "optionReasons": {
-        "station-mcq-16": "本句指「提供電動車或設備充電服務的固定位置」。",
+        "station-pdf-002": "本句指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
         "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
         "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
         "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
         "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
         "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。"
       },
-      "correctOption": "station-mcq-16"
+      "correctOption": "station-pdf-002"
     },
     {
       "id": "station-19-0",

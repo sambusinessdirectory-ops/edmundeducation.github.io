@@ -61,18 +61,7 @@ export default {
       "en": "general turnover",
       "zh": "某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程",
       "note": "來源詞義：某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程",
-      "examples": [
-        [
-          "There has been a rapid turnover of senior managers.",
-          "高級管理人員出現了頻繁的更替。",
-          "某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程"
-        ],
-        [
-          "The organisation experienced considerable leadership turnover.",
-          "這個機構的領導層出現相當大的人事變動。",
-          "某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -227,6 +216,28 @@ export default {
       "zh": "翻轉、顛倒或轉變；較低頻的一般義",
       "note": "來源詞義：翻轉、顛倒或轉變；較低頻的一般義",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "turnover-pdf-001",
+      "title": "原有的人離開，新的人成為替代者的過程／速度",
+      "form": "4. turnover = frequent replacement/change of people（人員／管理層） — 人員更替；頻繁變",
+      "en": "4. turnover = frequent replacement/change of people（人員／管理層） — 人員更替；頻繁變",
+      "zh": "原有的人離開，新的人成為替代者的過程／速度",
+      "note": "原始 PDF 第 4 節：原有的人離開，新的人成為替代者的過程／速度",
+      "examples": [
+        [
+          "There has been a rapid turnover of senior managers.",
+          "高級管理人員出現了頻繁的更替。",
+          "原有的人離開，新的人成為替代者的過程／速度"
+        ],
+        [
+          "The organisation experienced considerable leadership turnover.",
+          "這個機構的領導層出現相當大的人事變動。",
+          "原有的人離開，新的人成為替代者的過程／速度"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -384,63 +395,63 @@ export default {
     },
     {
       "id": "turnover-04-0",
-      "sense": "turnover-mcq-03",
+      "sense": "turnover-pdf-001",
       "en": "There has been a rapid turnover of senior managers.",
       "zh": "高級管理人員出現了頻繁的更替。",
       "masked": "There has been a rapid ____ of senior managers.",
       "options": [
-        "turnover-mcq-03",
+        "turnover-pdf-001",
         "turnover-mcq-02",
         "turnover-mcq-04",
         "turnover-mcq-01",
         "turnover-mcq-05",
         "turnover-mcq-06"
       ],
-      "explanation": "本句的「turnover」指「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」。",
+      "explanation": "本句的「turnover」指「原有的人離開，新的人成為替代者的過程／速度」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-03": "本句指「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」。",
+        "turnover-pdf-001": "本句指「原有的人離開，新的人成為替代者的過程／速度」。",
         "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
         "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
         "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。",
         "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
         "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
       },
-      "correctOption": "turnover-mcq-03"
+      "correctOption": "turnover-pdf-001"
     },
     {
       "id": "turnover-04-1",
-      "sense": "turnover-mcq-03",
+      "sense": "turnover-pdf-001",
       "en": "The organisation experienced considerable leadership turnover.",
       "zh": "這個機構的領導層出現相當大的人事變動。",
       "masked": "The organisation experienced considerable leadership ____.",
       "options": [
-        "turnover-mcq-03",
+        "turnover-pdf-001",
         "turnover-mcq-02",
         "turnover-mcq-04",
         "turnover-mcq-01",
         "turnover-mcq-05",
         "turnover-mcq-06"
       ],
-      "explanation": "本句的「turnover」指「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」。",
+      "explanation": "本句的「turnover」指「原有的人離開，新的人成為替代者的過程／速度」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-03": "本句指「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」。",
+        "turnover-pdf-001": "本句指「原有的人離開，新的人成為替代者的過程／速度」。",
         "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
         "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
         "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。",
         "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
         "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
       },
-      "correctOption": "turnover-mcq-03"
+      "correctOption": "turnover-pdf-001"
     },
     {
       "id": "turnover-05-0",

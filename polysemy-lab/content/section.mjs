@@ -344,16 +344,6 @@ export default {
           "Police sectioned off the area.",
           "警方把該區域封起來／劃開。",
           "隔開"
-        ],
-        [
-          "Visitors must stay inside the sectioned area.",
-          "訪客必須留在劃定區域內。",
-          "隔開"
-        ],
-        [
-          "The hall was divided into several sectioned areas.",
-          "禮堂被劃分成數個分隔區域。",
-          "隔開"
         ]
       ],
       "options": [],
@@ -562,6 +552,28 @@ export default {
           "The research section prepared the report.",
           "研究部門準備了報告。",
           "機構內負責某一類工作的較小部門或單位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "section-pdf-001",
+      "title": "被明確劃分或隔開的一個區域",
+      "form": "19. sectioned area — 分隔區域",
+      "en": "19. sectioned area — 分隔區域",
+      "zh": "被明確劃分或隔開的一個區域",
+      "note": "原始 PDF 第 19 節：被明確劃分或隔開的一個區域",
+      "examples": [
+        [
+          "Visitors must stay inside the sectioned area.",
+          "訪客必須留在劃定區域內。",
+          "被明確劃分或隔開的一個區域"
+        ],
+        [
+          "The hall was divided into several sectioned areas.",
+          "禮堂被劃分成數個分隔區域。",
+          "被明確劃分或隔開的一個區域"
         ]
       ],
       "options": [],
@@ -1681,63 +1693,63 @@ export default {
     },
     {
       "id": "section-19-0",
-      "sense": "section-mcq-16",
+      "sense": "section-pdf-001",
       "en": "Visitors must stay inside the sectioned area.",
       "zh": "訪客必須留在劃定區域內。",
       "masked": "Visitors must stay inside the ____.",
       "options": [
-        "section-mcq-16",
+        "section-pdf-001",
         "section-mcq-15",
         "section-mcq-17",
         "section-mcq-14",
         "section-mcq-18",
         "section-mcq-13"
       ],
-      "explanation": "本句的「sectioned area」指「隔開」。",
+      "explanation": "本句的「sectioned area」指「被明確劃分或隔開的一個區域」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "sectioned area"
       ],
       "optionReasons": {
-        "section-mcq-16": "本句指「隔開」。",
+        "section-pdf-001": "本句指「被明確劃分或隔開的一個區域」。",
         "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
         "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
         "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
         "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
         "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。"
       },
-      "correctOption": "section-mcq-16"
+      "correctOption": "section-pdf-001"
     },
     {
       "id": "section-19-1",
-      "sense": "section-mcq-16",
+      "sense": "section-pdf-001",
       "en": "The hall was divided into several sectioned areas.",
       "zh": "禮堂被劃分成數個分隔區域。",
       "masked": "The hall was divided into several ____.",
       "options": [
-        "section-mcq-16",
+        "section-pdf-001",
         "section-mcq-15",
         "section-mcq-17",
         "section-mcq-14",
         "section-mcq-18",
         "section-mcq-13"
       ],
-      "explanation": "本句的「sectioned areas」指「隔開」。",
+      "explanation": "本句的「sectioned areas」指「被明確劃分或隔開的一個區域」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "sectioned areas"
       ],
       "optionReasons": {
-        "section-mcq-16": "本句指「隔開」。",
+        "section-pdf-001": "本句指「被明確劃分或隔開的一個區域」。",
         "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
         "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
         "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
         "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
         "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。"
       },
-      "correctOption": "section-mcq-16"
+      "correctOption": "section-pdf-001"
     },
     {
       "id": "section-20-0",

@@ -84,16 +84,6 @@ export default {
       "note": "來源詞義：把某段具體內容說給某人聽",
       "examples": [
         [
-          "She said, ‘Don’t worry.’",
-          "她說：「不要擔心。",
-          "把某段具體內容說給某人聽"
-        ],
-        [
-          "He said, ‘You did well.’",
-          "他說：「你做得很好。",
-          "把某段具體內容說給某人聽"
-        ],
-        [
           "She said something encouraging to me.",
           "她對我說了一些鼓勵的話。",
           "把某段具體內容說給某人聽"
@@ -242,16 +232,6 @@ export default {
         [
           "How do you say this word?",
           "這個詞要怎樣說／讀？",
-          "把某個詞、名稱或短語用聲音說出來"
-        ],
-        [
-          "Please say it clearly.",
-          "請說清楚一點。",
-          "把某個詞、名稱或短語用聲音說出來"
-        ],
-        [
-          "She said it loudly so everyone could hear.",
-          "她大聲說了出來，讓所有人都聽到。",
           "把某個詞、名稱或短語用聲音說出來"
         ]
       ],
@@ -451,16 +431,6 @@ export default {
           "He was surprised, to say the least.",
           "說得保守一點，他當時非常驚訝。",
           "表示實際情況可能比剛才的描述更強烈"
-        ],
-        [
-          "The audience looked concerned, not to say alarmed.",
-          "觀眾看起來很擔心，甚至可以說有點驚慌。",
-          "表示實際情況可能比剛才的描述更強烈"
-        ],
-        [
-          "The instructions were confusing, not to say misleading.",
-          "那些指示很混亂，甚至可以說有誤導性。",
-          "表示實際情況可能比剛才的描述更強烈"
         ]
       ],
       "options": [],
@@ -474,16 +444,6 @@ export default {
       "zh": "有權表達意見，並可能影響決定",
       "note": "來源詞義：有權表達意見，並可能影響決定",
       "examples": [
-        [
-          "Try to say what you mean clearly.",
-          "盡量清楚說出你真正想表達的意思。",
-          "有權表達意見，並可能影響決定"
-        ],
-        [
-          "When she promises something, she means what she says.",
-          "她作出承諾時，她說的話是認真的。",
-          "有權表達意見，並可能影響決定"
-        ],
         [
           "Employees should have a say in decisions that affect them.",
           "員工應該在影響自己的決定上有發言權。",
@@ -594,16 +554,6 @@ export default {
       "zh": "某個行為、結果或事實能間接反映某種特質／情況",
       "note": "來源詞義：某個行為、結果或事實能間接反映某種特質／情況",
       "examples": [
-        [
-          "What does that say about the company culture?",
-          "這件事反映了公司文化甚麼問題？",
-          "某個行為、結果或事實能間接反映某種特質／情況"
-        ],
-        [
-          "His reaction says a lot about his character.",
-          "他的反應很能反映他的性格。",
-          "某個行為、結果或事實能間接反映某種特質／情況"
-        ],
         [
           "Her calm response says a lot about her confidence.",
           "她冷靜的反應很能反映她的自信。",
@@ -789,6 +739,116 @@ export default {
           "The instructions say to press this button.",
           "指示寫明要按這個按鈕。",
           "表示文字／訊息指示要做某事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "say-pdf-001",
+      "title": "直接引述某人實際說出的內容",
+      "form": "4. say + direct quotation（直接說出某句話） — 說：「……」",
+      "en": "4. say + direct quotation（直接說出某句話） — 說：「……」",
+      "zh": "直接引述某人實際說出的內容",
+      "note": "原始 PDF 第 4 節：直接引述某人實際說出的內容",
+      "examples": [
+        [
+          "She said, ‘Don’t worry.’",
+          "她說：「不要擔心。",
+          "直接引述某人實際說出的內容"
+        ],
+        [
+          "He said, ‘You did well.’",
+          "他說：「你做得很好。",
+          "直接引述某人實際說出的內容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "say-pdf-002",
+      "title": "以某種方式說出具體內容",
+      "form": "13. say something clearly/loudly（以某方式說） — 清楚／大聲說",
+      "en": "13. say something clearly/loudly（以某方式說） — 清楚／大聲說",
+      "zh": "以某種方式說出具體內容",
+      "note": "原始 PDF 第 13 節：以某種方式說出具體內容",
+      "examples": [
+        [
+          "Please say it clearly.",
+          "請說清楚一點。",
+          "以某種方式說出具體內容"
+        ],
+        [
+          "She said it loudly so everyone could hear.",
+          "她大聲說了出來，讓所有人都聽到。",
+          "以某種方式說出具體內容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "say-pdf-003",
+      "title": "補上一個更強烈、更進一步的描述",
+      "form": "24. not to say + stronger word（甚至可以說） — 甚至可以說",
+      "en": "24. not to say + stronger word（甚至可以說） — 甚至可以說",
+      "zh": "補上一個更強烈、更進一步的描述",
+      "note": "原始 PDF 第 24 節：補上一個更強烈、更進一步的描述",
+      "examples": [
+        [
+          "The audience looked concerned, not to say alarmed.",
+          "觀眾看起來很擔心，甚至可以說有點驚慌。",
+          "補上一個更強烈、更進一步的描述"
+        ],
+        [
+          "The instructions were confusing, not to say misleading.",
+          "那些指示很混亂，甚至可以說有誤導性。",
+          "補上一個更強烈、更進一步的描述"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "say-pdf-004",
+      "title": "把真正意思清楚表達出來",
+      "form": "25. say what you mean / mean what you say（說真心話／說到做到） — 說出真正意思／認真對待自己說的話",
+      "en": "25. say what you mean / mean what you say（說真心話／說到做到） — 說出真正意思／認真對待自己說的話",
+      "zh": "把真正意思清楚表達出來",
+      "note": "原始 PDF 第 25 節：把真正意思清楚表達出來",
+      "examples": [
+        [
+          "Try to say what you mean clearly.",
+          "盡量清楚說出你真正想表達的意思。",
+          "把真正意思清楚表達出來"
+        ],
+        [
+          "When she promises something, she means what she says.",
+          "她作出承諾時，她說的話是認真的。",
+          "把真正意思清楚表達出來"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "say-pdf-005",
+      "title": "某件事反映、顯示或透露 X 的特徵／情況",
+      "form": "33. what does that say about…?（這反映了甚麼？） — 這說明／反映甚麼？",
+      "en": "33. what does that say about…?（這反映了甚麼？） — 這說明／反映甚麼？",
+      "zh": "某件事反映、顯示或透露 X 的特徵／情況",
+      "note": "原始 PDF 第 33 節：某件事反映、顯示或透露 X 的特徵／情況",
+      "examples": [
+        [
+          "What does that say about the company culture?",
+          "這件事反映了公司文化甚麼問題？",
+          "某件事反映、顯示或透露 X 的特徵／情況"
+        ],
+        [
+          "His reaction says a lot about his character.",
+          "他的反應很能反映他的性格。",
+          "某件事反映、顯示或透露 X 的特徵／情況"
         ]
       ],
       "options": [],
@@ -1008,63 +1068,63 @@ export default {
     },
     {
       "id": "say-04-0",
-      "sense": "say-mcq-04",
+      "sense": "say-pdf-001",
       "en": "She said, ‘Don’t worry.’",
       "zh": "她說：「不要擔心。",
       "masked": "She ____, ‘Don’t worry.’",
       "options": [
-        "say-mcq-04",
+        "say-pdf-001",
         "say-mcq-03",
         "say-mcq-05",
         "say-mcq-02",
         "say-mcq-06",
         "say-mcq-01"
       ],
-      "explanation": "本句的「said」指「把某段具體內容說給某人聽」。",
+      "explanation": "本句的「said」指「直接引述某人實際說出的內容」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "said"
       ],
       "optionReasons": {
-        "say-mcq-04": "本句指「把某段具體內容說給某人聽」。",
+        "say-pdf-001": "本句指「直接引述某人實際說出的內容」。",
         "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
         "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
         "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
         "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
         "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-04"
+      "correctOption": "say-pdf-001"
     },
     {
       "id": "say-04-1",
-      "sense": "say-mcq-04",
+      "sense": "say-pdf-001",
       "en": "He said, ‘You did well.’",
       "zh": "他說：「你做得很好。",
       "masked": "He ____, ‘You did well.’",
       "options": [
-        "say-mcq-04",
+        "say-pdf-001",
         "say-mcq-03",
         "say-mcq-05",
         "say-mcq-02",
         "say-mcq-06",
         "say-mcq-01"
       ],
-      "explanation": "本句的「said」指「把某段具體內容說給某人聽」。",
+      "explanation": "本句的「said」指「直接引述某人實際說出的內容」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "said"
       ],
       "optionReasons": {
-        "say-mcq-04": "本句指「把某段具體內容說給某人聽」。",
+        "say-pdf-001": "本句指「直接引述某人實際說出的內容」。",
         "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
         "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
         "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
         "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
         "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-04"
+      "correctOption": "say-pdf-001"
     },
     {
       "id": "say-05-0",
@@ -1548,63 +1608,63 @@ export default {
     },
     {
       "id": "say-13-0",
-      "sense": "say-mcq-10",
+      "sense": "say-pdf-002",
       "en": "Please say it clearly.",
       "zh": "請說清楚一點。",
       "masked": "Please ____.",
       "options": [
-        "say-mcq-10",
+        "say-pdf-002",
         "say-mcq-09",
         "say-mcq-11",
         "say-mcq-08",
         "say-mcq-12",
         "say-mcq-07"
       ],
-      "explanation": "本句的「say it clearly」指「把某個詞、名稱或短語用聲音說出來」。",
+      "explanation": "本句的「say it clearly」指「以某種方式說出具體內容」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "say it clearly"
       ],
       "optionReasons": {
-        "say-mcq-10": "本句指「把某個詞、名稱或短語用聲音說出來」。",
+        "say-pdf-002": "本句指「以某種方式說出具體內容」。",
         "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
         "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
         "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
         "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
         "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-10"
+      "correctOption": "say-pdf-002"
     },
     {
       "id": "say-13-1",
-      "sense": "say-mcq-10",
+      "sense": "say-pdf-002",
       "en": "She said it loudly so everyone could hear.",
       "zh": "她大聲說了出來，讓所有人都聽到。",
       "masked": "She ____ so everyone could hear.",
       "options": [
-        "say-mcq-10",
+        "say-pdf-002",
         "say-mcq-09",
         "say-mcq-11",
         "say-mcq-08",
         "say-mcq-12",
         "say-mcq-07"
       ],
-      "explanation": "本句的「said it loudly」指「把某個詞、名稱或短語用聲音說出來」。",
+      "explanation": "本句的「said it loudly」指「以某種方式說出具體內容」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "said it loudly"
       ],
       "optionReasons": {
-        "say-mcq-10": "本句指「把某個詞、名稱或短語用聲音說出來」。",
+        "say-pdf-002": "本句指「以某種方式說出具體內容」。",
         "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
         "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
         "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
         "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
         "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-10"
+      "correctOption": "say-pdf-002"
     },
     {
       "id": "say-14-0",
@@ -2208,123 +2268,123 @@ export default {
     },
     {
       "id": "say-24-0",
-      "sense": "say-mcq-19",
+      "sense": "say-pdf-003",
       "en": "The audience looked concerned, not to say alarmed.",
       "zh": "觀眾看起來很擔心，甚至可以說有點驚慌。",
       "masked": "The audience looked concerned, ____ alarmed.",
       "options": [
-        "say-mcq-19",
+        "say-pdf-003",
         "say-mcq-18",
         "say-mcq-20",
         "say-mcq-17",
         "say-mcq-21",
         "say-mcq-16"
       ],
-      "explanation": "本句的「not to say」指「表示實際情況可能比剛才的描述更強烈」。",
+      "explanation": "本句的「not to say」指「補上一個更強烈、更進一步的描述」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "not to say"
       ],
       "optionReasons": {
-        "say-mcq-19": "本句指「表示實際情況可能比剛才的描述更強烈」。",
+        "say-pdf-003": "本句指「補上一個更強烈、更進一步的描述」。",
         "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
         "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
         "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
         "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
         "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-19"
+      "correctOption": "say-pdf-003"
     },
     {
       "id": "say-24-1",
-      "sense": "say-mcq-19",
+      "sense": "say-pdf-003",
       "en": "The instructions were confusing, not to say misleading.",
       "zh": "那些指示很混亂，甚至可以說有誤導性。",
       "masked": "The instructions were confusing, ____ misleading.",
       "options": [
-        "say-mcq-19",
+        "say-pdf-003",
         "say-mcq-18",
         "say-mcq-20",
         "say-mcq-17",
         "say-mcq-21",
         "say-mcq-16"
       ],
-      "explanation": "本句的「not to say」指「表示實際情況可能比剛才的描述更強烈」。",
+      "explanation": "本句的「not to say」指「補上一個更強烈、更進一步的描述」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "not to say"
       ],
       "optionReasons": {
-        "say-mcq-19": "本句指「表示實際情況可能比剛才的描述更強烈」。",
+        "say-pdf-003": "本句指「補上一個更強烈、更進一步的描述」。",
         "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
         "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
         "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
         "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
         "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-19"
+      "correctOption": "say-pdf-003"
     },
     {
       "id": "say-25-0",
-      "sense": "say-mcq-20",
+      "sense": "say-pdf-004",
       "en": "Try to say what you mean clearly.",
       "zh": "盡量清楚說出你真正想表達的意思。",
       "masked": "Try to ____ clearly.",
       "options": [
-        "say-mcq-20",
+        "say-pdf-004",
         "say-mcq-19",
         "say-mcq-21",
         "say-mcq-18",
         "say-mcq-22",
         "say-mcq-17"
       ],
-      "explanation": "本句的「say what you mean」指「有權表達意見，並可能影響決定」。",
+      "explanation": "本句的「say what you mean」指「把真正意思清楚表達出來」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "say what you mean"
       ],
       "optionReasons": {
-        "say-mcq-20": "本句指「有權表達意見，並可能影響決定」。",
+        "say-pdf-004": "本句指「把真正意思清楚表達出來」。",
         "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
         "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
         "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
         "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
         "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-20"
+      "correctOption": "say-pdf-004"
     },
     {
       "id": "say-25-1",
-      "sense": "say-mcq-20",
+      "sense": "say-pdf-004",
       "en": "When she promises something, she means what she says.",
       "zh": "她作出承諾時，她說的話是認真的。",
       "masked": "When she promises something, she ____.",
       "options": [
-        "say-mcq-20",
+        "say-pdf-004",
         "say-mcq-19",
         "say-mcq-21",
         "say-mcq-18",
         "say-mcq-22",
         "say-mcq-17"
       ],
-      "explanation": "本句的「means what she says」指「有權表達意見，並可能影響決定」。",
+      "explanation": "本句的「means what she says」指「把真正意思清楚表達出來」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "means what she says"
       ],
       "optionReasons": {
-        "say-mcq-20": "本句指「有權表達意見，並可能影響決定」。",
+        "say-pdf-004": "本句指「把真正意思清楚表達出來」。",
         "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
         "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
         "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
         "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
         "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-20"
+      "correctOption": "say-pdf-004"
     },
     {
       "id": "say-26-0",
@@ -2748,63 +2808,63 @@ export default {
     },
     {
       "id": "say-33-0",
-      "sense": "say-mcq-25",
+      "sense": "say-pdf-005",
       "en": "What does that say about the company culture?",
       "zh": "這件事反映了公司文化甚麼問題？",
       "masked": "What does that ____ the company culture?",
       "options": [
-        "say-mcq-25",
+        "say-pdf-005",
         "say-mcq-24",
         "say-mcq-26",
         "say-mcq-23",
         "say-mcq-27",
         "say-mcq-22"
       ],
-      "explanation": "本句的「say about」指「某個行為、結果或事實能間接反映某種特質／情況」。",
+      "explanation": "本句的「say about」指「某件事反映、顯示或透露 X 的特徵／情況」。",
       "sentenceIndex": 65,
       "sourcePractice": 66,
       "targets": [
         "say about"
       ],
       "optionReasons": {
-        "say-mcq-25": "本句指「某個行為、結果或事實能間接反映某種特質／情況」。",
+        "say-pdf-005": "本句指「某件事反映、顯示或透露 X 的特徵／情況」。",
         "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
         "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
         "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
         "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
         "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-25"
+      "correctOption": "say-pdf-005"
     },
     {
       "id": "say-33-1",
-      "sense": "say-mcq-25",
+      "sense": "say-pdf-005",
       "en": "His reaction says a lot about his character.",
       "zh": "他的反應很能反映他的性格。",
       "masked": "His reaction ____ his character.",
       "options": [
-        "say-mcq-25",
+        "say-pdf-005",
         "say-mcq-24",
         "say-mcq-26",
         "say-mcq-23",
         "say-mcq-27",
         "say-mcq-22"
       ],
-      "explanation": "本句的「says a lot about」指「某個行為、結果或事實能間接反映某種特質／情況」。",
+      "explanation": "本句的「says a lot about」指「某件事反映、顯示或透露 X 的特徵／情況」。",
       "sentenceIndex": 66,
       "sourcePractice": 67,
       "targets": [
         "says a lot about"
       ],
       "optionReasons": {
-        "say-mcq-25": "本句指「某個行為、結果或事實能間接反映某種特質／情況」。",
+        "say-pdf-005": "本句指「某件事反映、顯示或透露 X 的特徵／情況」。",
         "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
         "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
         "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
         "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
         "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。"
       },
-      "correctOption": "say-mcq-25"
+      "correctOption": "say-pdf-005"
     },
     {
       "id": "say-34-0",

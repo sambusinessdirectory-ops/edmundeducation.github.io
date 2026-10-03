@@ -203,16 +203,6 @@ export default {
           "She consistently arrives early.",
           "她一貫地提早到達。",
           "長時間以相似、穩定或一貫方式發生"
-        ],
-        [
-          "The rules must be applied consistently.",
-          "規則必須一致地執行。",
-          "長時間以相似、穩定或一貫方式發生"
-        ],
-        [
-          "The data consistently supports the same conclusion.",
-          "數據一直都一致地支持同一結論。",
-          "長時間以相似、穩定或一貫方式發生"
         ]
       ],
       "options": [],
@@ -286,11 +276,6 @@ export default {
           "The service is inconsistent.",
           "服務表現很不穩定／時好時壞。",
           "品質／說法／行為前後不穩定、不一致或互相矛盾的"
-        ],
-        [
-          "His explanation is inconsistent with the evidence.",
-          "他的解釋與證據不一致／不相符。",
-          "品質／說法／行為前後不穩定、不一致或互相矛盾的"
         ]
       ],
       "options": [],
@@ -308,6 +293,45 @@ export default {
           "Customers noticed an inconsistency in the product quality.",
           "顧客注意到產品品質有不穩定／不一致的情況。",
           "品質、行為、資料或說法之間出現的不一致之處"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "consistent-pdf-001",
+      "title": "各次做法／結果都符合同一標準或方向",
+      "form": "10. consistently = in agreement with a principle/evidence — 一致地；始終如一地",
+      "en": "10. consistently = in agreement with a principle/evidence — 一致地；始終如一地",
+      "zh": "各次做法／結果都符合同一標準或方向",
+      "note": "原始 PDF 第 10 節：各次做法／結果都符合同一標準或方向",
+      "examples": [
+        [
+          "The rules must be applied consistently.",
+          "規則必須一致地執行。",
+          "各次做法／結果都符合同一標準或方向"
+        ],
+        [
+          "The data consistently supports the same conclusion.",
+          "數據一直都一致地支持同一結論。",
+          "各次做法／結果都符合同一標準或方向"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "consistent-pdf-002",
+      "title": "兩項資料、說法或原則不能同時相符",
+      "form": "16. inconsistent = contradictory / not compatible — 不一致的；矛盾的",
+      "en": "16. inconsistent = contradictory / not compatible — 不一致的；矛盾的",
+      "zh": "兩項資料、說法或原則不能同時相符",
+      "note": "原始 PDF 第 16 節：兩項資料、說法或原則不能同時相符",
+      "examples": [
+        [
+          "His explanation is inconsistent with the evidence.",
+          "他的解釋與證據不一致／不相符。",
+          "兩項資料、說法或原則不能同時相符"
         ]
       ],
       "options": [],
@@ -887,63 +911,63 @@ export default {
     },
     {
       "id": "consistent-10-0",
-      "sense": "consistent-mcq-09",
+      "sense": "consistent-pdf-001",
       "en": "The rules must be applied consistently.",
       "zh": "規則必須一致地執行。",
       "masked": "The rules must be applied ____.",
       "options": [
-        "consistent-mcq-09",
+        "consistent-pdf-001",
         "consistent-mcq-08",
         "consistent-mcq-10",
         "consistent-mcq-07",
         "consistent-mcq-11",
         "consistent-mcq-06"
       ],
-      "explanation": "本句的「consistently」指「長時間以相似、穩定或一貫方式發生」。",
+      "explanation": "本句的「consistently」指「各次做法／結果都符合同一標準或方向」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "consistently"
       ],
       "optionReasons": {
-        "consistent-mcq-09": "本句指「長時間以相似、穩定或一貫方式發生」。",
+        "consistent-pdf-001": "本句指「各次做法／結果都符合同一標準或方向」。",
         "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
         "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
         "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
         "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
         "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
       },
-      "correctOption": "consistent-mcq-09"
+      "correctOption": "consistent-pdf-001"
     },
     {
       "id": "consistent-10-1",
-      "sense": "consistent-mcq-09",
+      "sense": "consistent-pdf-001",
       "en": "The data consistently supports the same conclusion.",
       "zh": "數據一直都一致地支持同一結論。",
       "masked": "The data ____ supports the same conclusion.",
       "options": [
-        "consistent-mcq-09",
+        "consistent-pdf-001",
         "consistent-mcq-08",
         "consistent-mcq-10",
         "consistent-mcq-07",
         "consistent-mcq-11",
         "consistent-mcq-06"
       ],
-      "explanation": "本句的「consistently」指「長時間以相似、穩定或一貫方式發生」。",
+      "explanation": "本句的「consistently」指「各次做法／結果都符合同一標準或方向」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "consistently"
       ],
       "optionReasons": {
-        "consistent-mcq-09": "本句指「長時間以相似、穩定或一貫方式發生」。",
+        "consistent-pdf-001": "本句指「各次做法／結果都符合同一標準或方向」。",
         "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
         "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
         "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
         "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
         "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
       },
-      "correctOption": "consistent-mcq-09"
+      "correctOption": "consistent-pdf-001"
     },
     {
       "id": "consistent-11-0",
@@ -1097,33 +1121,33 @@ export default {
     },
     {
       "id": "consistent-16-0",
-      "sense": "consistent-mcq-13",
+      "sense": "consistent-pdf-002",
       "en": "His explanation is inconsistent with the evidence.",
       "zh": "他的解釋與證據不一致／不相符。",
       "masked": "His explanation is ____ the evidence.",
       "options": [
-        "consistent-mcq-13",
+        "consistent-pdf-002",
         "consistent-mcq-12",
         "consistent-mcq-14",
         "consistent-mcq-11",
         "consistent-mcq-10",
         "consistent-mcq-09"
       ],
-      "explanation": "本句的「inconsistent with」指「品質／說法／行為前後不穩定、不一致或互相矛盾的」。",
+      "explanation": "本句的「inconsistent with」指「兩項資料、說法或原則不能同時相符」。",
       "sentenceIndex": 26,
       "sourcePractice": 32,
       "targets": [
         "inconsistent with"
       ],
       "optionReasons": {
-        "consistent-mcq-13": "本句指「品質／說法／行為前後不穩定、不一致或互相矛盾的」。",
+        "consistent-pdf-002": "本句指「兩項資料、說法或原則不能同時相符」。",
         "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
         "consistent-mcq-14": "「品質、行為、資料或說法之間出現的不一致之處」與本句語境不同。",
         "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
         "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
         "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。"
       },
-      "correctOption": "consistent-mcq-13"
+      "correctOption": "consistent-pdf-002"
     },
     {
       "id": "consistent-17-0",

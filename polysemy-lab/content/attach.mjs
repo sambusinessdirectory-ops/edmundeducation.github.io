@@ -27,16 +27,6 @@ export default {
           "A small tag was attached to the bag.",
           "袋子上附着一個小標籤。",
           "把一件東西固定、連接或附在另一件東西上"
-        ],
-        [
-          "The balcony attaches to the main building.",
-          "露台與主建築連接。",
-          "把一件東西固定、連接或附在另一件東西上"
-        ],
-        [
-          "The muscle attaches to the bone.",
-          "肌肉連接／附着於骨骼。",
-          "把一件東西固定、連接或附在另一件東西上"
         ]
       ],
       "options": [],
@@ -157,18 +147,7 @@ export default {
       "en": "attach a condition",
       "zh": "在提議、安排或協議中附加條件／限制",
       "note": "來源詞義：在提議、安排或協議中附加條件／限制",
-      "examples": [
-        [
-          "The funding comes with several conditions attached.",
-          "這筆資助附帶幾項條件。",
-          "在提議、安排或協議中附加條件／限制"
-        ],
-        [
-          "No special conditions were attached to the offer.",
-          "這項提議沒有附加特殊條件。",
-          "在提議、安排或協議中附加條件／限制"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -283,6 +262,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "attach-pdf-001",
+      "title": "與某物實際相連或附着",
+      "form": "2. attach = be physically connected to something（本身連接） — 連着；附着",
+      "en": "2. attach = be physically connected to something（本身連接） — 連着；附着",
+      "zh": "與某物實際相連或附着",
+      "note": "原始 PDF 第 2 節：與某物實際相連或附着",
+      "examples": [
+        [
+          "The balcony attaches to the main building.",
+          "露台與主建築連接。",
+          "與某物實際相連或附着"
+        ],
+        [
+          "The muscle attaches to the bone.",
+          "肌肉連接／附着於骨骼。",
+          "與某物實際相連或附着"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "attach-pdf-002",
+      "title": "把某項要求或限制加進協議／安排之中",
+      "form": "8. attach a condition/restriction = add it as part of an arrangement（條件） — 附加；附帶",
+      "en": "8. attach a condition/restriction = add it as part of an arrangement（條件） — 附加；附帶",
+      "zh": "把某項要求或限制加進協議／安排之中",
+      "note": "原始 PDF 第 8 節：把某項要求或限制加進協議／安排之中",
+      "examples": [
+        [
+          "The funding comes with several conditions attached.",
+          "這筆資助附帶幾項條件。",
+          "把某項要求或限制加進協議／安排之中"
+        ],
+        [
+          "No special conditions were attached to the offer.",
+          "這項提議沒有附加特殊條件。",
+          "把某項要求或限制加進協議／安排之中"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -378,63 +401,63 @@ export default {
     },
     {
       "id": "attach-02-0",
-      "sense": "attach-mcq-01",
+      "sense": "attach-pdf-001",
       "en": "The balcony attaches to the main building.",
       "zh": "露台與主建築連接。",
       "masked": "The balcony ____ to the main building.",
       "options": [
-        "attach-mcq-01",
+        "attach-pdf-001",
         "attach-mcq-02",
         "attach-mcq-03",
         "attach-mcq-04",
         "attach-mcq-05",
         "attach-mcq-06"
       ],
-      "explanation": "本句的「attaches」指「把一件東西固定、連接或附在另一件東西上」。",
+      "explanation": "本句的「attaches」指「與某物實際相連或附着」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "attaches"
       ],
       "optionReasons": {
-        "attach-mcq-01": "本句指「把一件東西固定、連接或附在另一件東西上」。",
+        "attach-pdf-001": "本句指「與某物實際相連或附着」。",
         "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
         "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
         "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
         "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
         "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
       },
-      "correctOption": "attach-mcq-01"
+      "correctOption": "attach-pdf-001"
     },
     {
       "id": "attach-02-1",
-      "sense": "attach-mcq-01",
+      "sense": "attach-pdf-001",
       "en": "The muscle attaches to the bone.",
       "zh": "肌肉連接／附着於骨骼。",
       "masked": "The muscle ____ to the bone.",
       "options": [
-        "attach-mcq-01",
+        "attach-pdf-001",
         "attach-mcq-02",
         "attach-mcq-03",
         "attach-mcq-04",
         "attach-mcq-05",
         "attach-mcq-06"
       ],
-      "explanation": "本句的「attaches」指「把一件東西固定、連接或附在另一件東西上」。",
+      "explanation": "本句的「attaches」指「與某物實際相連或附着」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "attaches"
       ],
       "optionReasons": {
-        "attach-mcq-01": "本句指「把一件東西固定、連接或附在另一件東西上」。",
+        "attach-pdf-001": "本句指「與某物實際相連或附着」。",
         "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
         "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
         "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
         "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
         "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
       },
-      "correctOption": "attach-mcq-01"
+      "correctOption": "attach-pdf-001"
     },
     {
       "id": "attach-03-0",
@@ -798,63 +821,63 @@ export default {
     },
     {
       "id": "attach-08-0",
-      "sense": "attach-mcq-06",
+      "sense": "attach-pdf-002",
       "en": "The funding comes with several conditions attached.",
       "zh": "這筆資助附帶幾項條件。",
       "masked": "The funding comes with several conditions ____.",
       "options": [
-        "attach-mcq-06",
+        "attach-pdf-002",
         "attach-mcq-05",
         "attach-mcq-07",
         "attach-mcq-04",
         "attach-mcq-08",
         "attach-mcq-03"
       ],
-      "explanation": "本句的「attached」指「在提議、安排或協議中附加條件／限制」。",
+      "explanation": "本句的「attached」指「把某項要求或限制加進協議／安排之中」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-06": "本句指「在提議、安排或協議中附加條件／限制」。",
+        "attach-pdf-002": "本句指「把某項要求或限制加進協議／安排之中」。",
         "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
         "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
         "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
         "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
         "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。"
       },
-      "correctOption": "attach-mcq-06"
+      "correctOption": "attach-pdf-002"
     },
     {
       "id": "attach-08-1",
-      "sense": "attach-mcq-06",
+      "sense": "attach-pdf-002",
       "en": "No special conditions were attached to the offer.",
       "zh": "這項提議沒有附加特殊條件。",
       "masked": "No special conditions were ____ to the offer.",
       "options": [
-        "attach-mcq-06",
+        "attach-pdf-002",
         "attach-mcq-05",
         "attach-mcq-07",
         "attach-mcq-04",
         "attach-mcq-08",
         "attach-mcq-03"
       ],
-      "explanation": "本句的「attached」指「在提議、安排或協議中附加條件／限制」。",
+      "explanation": "本句的「attached」指「把某項要求或限制加進協議／安排之中」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-06": "本句指「在提議、安排或協議中附加條件／限制」。",
+        "attach-pdf-002": "本句指「把某項要求或限制加進協議／安排之中」。",
         "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
         "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
         "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
         "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
         "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。"
       },
-      "correctOption": "attach-mcq-06"
+      "correctOption": "attach-pdf-002"
     },
     {
       "id": "attach-10-0",

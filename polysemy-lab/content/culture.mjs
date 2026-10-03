@@ -151,16 +151,6 @@ export default {
       "note": "來源詞義：有文化修養、有教養、有藝術品味的",
       "examples": [
         [
-          "He was a man of considerable culture.",
-          "他是一位很有文化修養／教養的人。",
-          "有文化修養、有教養、有藝術品味的"
-        ],
-        [
-          "She valued education, literature, and culture.",
-          "她重視教育、文學和文化修養。",
-          "有文化修養、有教養、有藝術品味的"
-        ],
-        [
           "She is highly cultured and well read.",
           "她很有文化修養，而且閱讀廣泛。",
           "有文化修養、有教養、有藝術品味的"
@@ -209,6 +199,28 @@ export default {
           "The movement became part of the 1960s counterculture.",
           "這場運動成為六十年代反主流文化的一部分。",
           "刻意反對主流社會價值的反主流文化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "culture-pdf-001",
+      "title": "透過教育、藝術、文學和知識培養出來的修養與鑑賞力",
+      "form": "7. culture = intellectual refinement / cultivated taste（修養） — 文化修養；教養",
+      "en": "7. culture = intellectual refinement / cultivated taste（修養） — 文化修養；教養",
+      "zh": "透過教育、藝術、文學和知識培養出來的修養與鑑賞力",
+      "note": "原始 PDF 第 7 節：透過教育、藝術、文學和知識培養出來的修養與鑑賞力",
+      "examples": [
+        [
+          "He was a man of considerable culture.",
+          "他是一位很有文化修養／教養的人。",
+          "透過教育、藝術、文學和知識培養出來的修養與鑑賞力"
+        ],
+        [
+          "She valued education, literature, and culture.",
+          "她重視教育、文學和文化修養。",
+          "透過教育、藝術、文學和知識培養出來的修養與鑑賞力"
         ]
       ],
       "options": [],
@@ -488,63 +500,63 @@ export default {
     },
     {
       "id": "culture-07-0",
-      "sense": "culture-mcq-08",
+      "sense": "culture-pdf-001",
       "en": "He was a man of considerable culture.",
       "zh": "他是一位很有文化修養／教養的人。",
       "masked": "He was a man of considerable ____.",
       "options": [
-        "culture-mcq-08",
+        "culture-pdf-001",
         "culture-mcq-07",
         "culture-mcq-09",
         "culture-mcq-06",
         "culture-mcq-10",
         "culture-mcq-05"
       ],
-      "explanation": "本句的「culture」指「有文化修養、有教養、有藝術品味的」。",
+      "explanation": "本句的「culture」指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-08": "本句指「有文化修養、有教養、有藝術品味的」。",
+        "culture-pdf-001": "本句指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
         "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
         "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
         "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
         "culture-mcq-10": "「大社會內具有獨特價值和生活方式的次文化」與本句語境不同。",
         "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。"
       },
-      "correctOption": "culture-mcq-08"
+      "correctOption": "culture-pdf-001"
     },
     {
       "id": "culture-07-1",
-      "sense": "culture-mcq-08",
+      "sense": "culture-pdf-001",
       "en": "She valued education, literature, and culture.",
       "zh": "她重視教育、文學和文化修養。",
       "masked": "She valued education, literature, and ____.",
       "options": [
-        "culture-mcq-08",
+        "culture-pdf-001",
         "culture-mcq-07",
         "culture-mcq-09",
         "culture-mcq-06",
         "culture-mcq-10",
         "culture-mcq-05"
       ],
-      "explanation": "本句的「culture」指「有文化修養、有教養、有藝術品味的」。",
+      "explanation": "本句的「culture」指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-08": "本句指「有文化修養、有教養、有藝術品味的」。",
+        "culture-pdf-001": "本句指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
         "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
         "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
         "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
         "culture-mcq-10": "「大社會內具有獨特價值和生活方式的次文化」與本句語境不同。",
         "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。"
       },
-      "correctOption": "culture-mcq-08"
+      "correctOption": "culture-pdf-001"
     },
     {
       "id": "culture-07-2",

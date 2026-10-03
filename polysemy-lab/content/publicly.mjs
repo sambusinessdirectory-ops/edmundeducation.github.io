@@ -115,16 +115,6 @@ export default {
           "He was unwilling to admit publicly that he was wrong.",
           "他不願意公開承認自己錯了。",
           "公開承認"
-        ],
-        [
-          "The decision was publicly announced on Monday.",
-          "這項決定星期一被公開宣布。",
-          "公開承認"
-        ],
-        [
-          "They have not announced the result publicly yet.",
-          "他們還未公開宣布結果。",
-          "公開承認"
         ]
       ],
       "options": [],
@@ -589,6 +579,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "publicly-pdf-001",
+      "title": "向公眾正式公布資訊",
+      "form": "6. announce publicly — 公開宣布",
+      "en": "6. announce publicly — 公開宣布",
+      "zh": "向公眾正式公布資訊",
+      "note": "原始 PDF 第 6 節：向公眾正式公布資訊",
+      "examples": [
+        [
+          "The decision was publicly announced on Monday.",
+          "這項決定星期一被公開宣布。",
+          "向公眾正式公布資訊"
+        ],
+        [
+          "They have not announced the result publicly yet.",
+          "他們還未公開宣布結果。",
+          "向公眾正式公布資訊"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -924,63 +936,63 @@ export default {
     },
     {
       "id": "publicly-06-0",
-      "sense": "publicly-mcq-05",
+      "sense": "publicly-pdf-001",
       "en": "The decision was publicly announced on Monday.",
       "zh": "這項決定星期一被公開宣布。",
       "masked": "The decision was ____ on Monday.",
       "options": [
-        "publicly-mcq-05",
+        "publicly-pdf-001",
         "publicly-mcq-04",
         "publicly-mcq-06",
         "publicly-mcq-03",
         "publicly-mcq-07",
         "publicly-mcq-02"
       ],
-      "explanation": "本句的「publicly announced」指「公開承認」。",
+      "explanation": "本句的「publicly announced」指「向公眾正式公布資訊」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "publicly announced"
       ],
       "optionReasons": {
-        "publicly-mcq-05": "本句指「公開承認」。",
+        "publicly-pdf-001": "本句指「向公眾正式公布資訊」。",
         "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
         "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
         "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
         "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
         "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。"
       },
-      "correctOption": "publicly-mcq-05"
+      "correctOption": "publicly-pdf-001"
     },
     {
       "id": "publicly-06-1",
-      "sense": "publicly-mcq-05",
+      "sense": "publicly-pdf-001",
       "en": "They have not announced the result publicly yet.",
       "zh": "他們還未公開宣布結果。",
       "masked": "They have not ____ yet.",
       "options": [
-        "publicly-mcq-05",
+        "publicly-pdf-001",
         "publicly-mcq-04",
         "publicly-mcq-06",
         "publicly-mcq-03",
         "publicly-mcq-07",
         "publicly-mcq-02"
       ],
-      "explanation": "本句的「announced the result publicly」指「公開承認」。",
+      "explanation": "本句的「announced the result publicly」指「向公眾正式公布資訊」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "announced the result publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-05": "本句指「公開承認」。",
+        "publicly-pdf-001": "本句指「向公眾正式公布資訊」。",
         "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
         "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
         "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
         "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
         "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。"
       },
-      "correctOption": "publicly-mcq-05"
+      "correctOption": "publicly-pdf-001"
     },
     {
       "id": "publicly-07-0",

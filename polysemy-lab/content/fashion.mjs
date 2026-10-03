@@ -222,11 +222,6 @@ export default {
       "note": "來源詞義：流行、時髦；亦可指某地方、活動或觀念當下很受歡迎",
       "examples": [
         [
-          "She wore a very fashionable jacket.",
-          "她穿了一件非常時尚的外套。",
-          "流行、時髦；亦可指某地方、活動或觀念當下很受歡迎"
-        ],
-        [
           "The neighbourhood became a fashionable place to live.",
           "那個社區成為很時興／受歡迎的高尚住宅區。",
           "流行、時髦；亦可指某地方、活動或觀念當下很受歡迎"
@@ -275,6 +270,23 @@ export default {
       "zh": "非常關注時尚、追隨潮流的人",
       "note": "來源詞義：非常關注時尚、追隨潮流的人",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fashion-pdf-001",
+      "title": "符合目前流行風格、被認為時髦的",
+      "form": "fashionable = currently stylish/popular（時髦的） — 時尚的；流行的",
+      "en": "fashionable = currently stylish/popular（時髦的） — 時尚的；流行的",
+      "zh": "符合目前流行風格、被認為時髦的",
+      "note": "原始 PDF 第 None 節：符合目前流行風格、被認為時髦的",
+      "examples": [
+        [
+          "She wore a very fashionable jacket.",
+          "她穿了一件非常時尚的外套。",
+          "符合目前流行風格、被認為時髦的"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -882,33 +894,33 @@ export default {
     },
     {
       "id": "fashion-11-2",
-      "sense": "fashion-mcq-10",
+      "sense": "fashion-pdf-001",
       "en": "She wore a very fashionable jacket.",
       "zh": "她穿了一件非常時尚的外套。",
       "masked": "She wore a very ____ jacket.",
       "options": [
-        "fashion-mcq-10",
+        "fashion-pdf-001",
         "fashion-mcq-09",
         "fashion-mcq-11",
         "fashion-mcq-08",
         "fashion-mcq-12",
         "fashion-mcq-07"
       ],
-      "explanation": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
+      "explanation": "本句的「fashionable」指「符合目前流行風格、被認為時髦的」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "fashionable"
       ],
       "optionReasons": {
-        "fashion-mcq-10": "本句指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
+        "fashion-pdf-001": "本句指「符合目前流行風格、被認為時髦的」。",
         "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
         "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
         "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
         "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
         "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
       },
-      "correctOption": "fashion-mcq-10"
+      "correctOption": "fashion-pdf-001"
     },
     {
       "id": "fashion-11-3",

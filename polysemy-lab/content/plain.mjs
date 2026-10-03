@@ -214,16 +214,6 @@ export default {
           "Her disappointment was plain to see.",
           "她的失望是顯而易見的。",
           "顯而易見"
-        ],
-        [
-          "The mistake was plainly obvious.",
-          "那個錯誤非常明顯。",
-          "顯而易見"
-        ],
-        [
-          "The damage was plainly visible.",
-          "損壞情況清楚可見。",
-          "顯而易見"
         ]
       ],
       "options": [],
@@ -433,6 +423,28 @@ export default {
           "The room's plainness made it feel calm.",
           "房間的簡約樸素令它感覺很平靜。",
           "樸素；簡單"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "plain-pdf-001",
+      "title": "以非常清楚、明顯的方式",
+      "form": "9. plainly obvious / plainly visible — 顯然的；清楚可見的",
+      "en": "9. plainly obvious / plainly visible — 顯然的；清楚可見的",
+      "zh": "以非常清楚、明顯的方式",
+      "note": "原始 PDF 第 9 節：以非常清楚、明顯的方式",
+      "examples": [
+        [
+          "The mistake was plainly obvious.",
+          "那個錯誤非常明顯。",
+          "以非常清楚、明顯的方式"
+        ],
+        [
+          "The damage was plainly visible.",
+          "損壞情況清楚可見。",
+          "以非常清楚、明顯的方式"
         ]
       ],
       "options": [],
@@ -952,63 +964,63 @@ export default {
     },
     {
       "id": "plain-09-0",
-      "sense": "plain-mcq-10",
+      "sense": "plain-pdf-001",
       "en": "The mistake was plainly obvious.",
       "zh": "那個錯誤非常明顯。",
       "masked": "The mistake was ____.",
       "options": [
-        "plain-mcq-10",
+        "plain-pdf-001",
         "plain-mcq-09",
         "plain-mcq-11",
         "plain-mcq-08",
         "plain-mcq-12",
         "plain-mcq-07"
       ],
-      "explanation": "本句的「plainly obvious」指「顯而易見」。",
+      "explanation": "本句的「plainly obvious」指「以非常清楚、明顯的方式」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "plainly obvious"
       ],
       "optionReasons": {
-        "plain-mcq-10": "本句指「顯而易見」。",
+        "plain-pdf-001": "本句指「以非常清楚、明顯的方式」。",
         "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
         "plain-mcq-11": "「相貌普通的」與本句語境不同。",
         "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
         "plain-mcq-12": "「便衣警員」與本句語境不同。",
         "plain-mcq-07": "「淺白英文」與本句語境不同。"
       },
-      "correctOption": "plain-mcq-10"
+      "correctOption": "plain-pdf-001"
     },
     {
       "id": "plain-09-1",
-      "sense": "plain-mcq-10",
+      "sense": "plain-pdf-001",
       "en": "The damage was plainly visible.",
       "zh": "損壞情況清楚可見。",
       "masked": "The damage was ____.",
       "options": [
-        "plain-mcq-10",
+        "plain-pdf-001",
         "plain-mcq-09",
         "plain-mcq-11",
         "plain-mcq-08",
         "plain-mcq-12",
         "plain-mcq-07"
       ],
-      "explanation": "本句的「plainly visible」指「顯而易見」。",
+      "explanation": "本句的「plainly visible」指「以非常清楚、明顯的方式」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "plainly visible"
       ],
       "optionReasons": {
-        "plain-mcq-10": "本句指「顯而易見」。",
+        "plain-pdf-001": "本句指「以非常清楚、明顯的方式」。",
         "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
         "plain-mcq-11": "「相貌普通的」與本句語境不同。",
         "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
         "plain-mcq-12": "「便衣警員」與本句語境不同。",
         "plain-mcq-07": "「淺白英文」與本句語境不同。"
       },
-      "correctOption": "plain-mcq-10"
+      "correctOption": "plain-pdf-001"
     },
     {
       "id": "plain-11-0",

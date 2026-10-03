@@ -80,16 +80,6 @@ export default {
       "note": "來源詞義：品牌、店舖或產品被潛在顧客看到／注意的程度",
       "examples": [
         [
-          "The campaign increased the issue’s visibility.",
-          "這項活動提高了這個議題的公眾關注度／能見度。",
-          "品牌、店舖或產品被潛在顧客看到／注意的程度"
-        ],
-        [
-          "Social media gave the artist greater visibility.",
-          "社交媒體令這位藝術家獲得更高的知名度／曝光度。",
-          "品牌、店舖或產品被潛在顧客看到／注意的程度"
-        ],
-        [
           "The company wants to improve its online visibility.",
           "公司希望提高自己的網上曝光度。",
           "品牌、店舖或產品被潛在顧客看到／注意的程度"
@@ -266,6 +256,28 @@ export default {
           "The workers wore high-visibility jackets.",
           "工人穿著反光外套。",
           "高能見度；或高公眾曝光度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "visibility-pdf-001",
+      "title": "某個人、議題或群體在媒體／社會中被注意的程度",
+      "form": "4. visibility = prominence / profile in media or society — 知名度；曝光程度",
+      "en": "4. visibility = prominence / profile in media or society — 知名度；曝光程度",
+      "zh": "某個人、議題或群體在媒體／社會中被注意的程度",
+      "note": "原始 PDF 第 4 節：某個人、議題或群體在媒體／社會中被注意的程度",
+      "examples": [
+        [
+          "The campaign increased the issue’s visibility.",
+          "這項活動提高了這個議題的公眾關注度／能見度。",
+          "某個人、議題或群體在媒體／社會中被注意的程度"
+        ],
+        [
+          "Social media gave the artist greater visibility.",
+          "社交媒體令這位藝術家獲得更高的知名度／曝光度。",
+          "某個人、議題或群體在媒體／社會中被注意的程度"
         ]
       ],
       "options": [],
@@ -455,63 +467,63 @@ export default {
     },
     {
       "id": "visibility-04-0",
-      "sense": "visibility-mcq-04",
+      "sense": "visibility-pdf-001",
       "en": "The campaign increased the issue’s visibility.",
       "zh": "這項活動提高了這個議題的公眾關注度／能見度。",
       "masked": "The campaign increased the issue’s ____.",
       "options": [
-        "visibility-mcq-04",
+        "visibility-pdf-001",
         "visibility-mcq-03",
         "visibility-mcq-05",
         "visibility-mcq-02",
         "visibility-mcq-06",
         "visibility-mcq-01"
       ],
-      "explanation": "本句的「visibility」指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
+      "explanation": "本句的「visibility」指「某個人、議題或群體在媒體／社會中被注意的程度」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-04": "本句指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
+        "visibility-pdf-001": "本句指「某個人、議題或群體在媒體／社會中被注意的程度」。",
         "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
         "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
         "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
         "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
         "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。"
       },
-      "correctOption": "visibility-mcq-04"
+      "correctOption": "visibility-pdf-001"
     },
     {
       "id": "visibility-04-1",
-      "sense": "visibility-mcq-04",
+      "sense": "visibility-pdf-001",
       "en": "Social media gave the artist greater visibility.",
       "zh": "社交媒體令這位藝術家獲得更高的知名度／曝光度。",
       "masked": "Social media gave the artist greater ____.",
       "options": [
-        "visibility-mcq-04",
+        "visibility-pdf-001",
         "visibility-mcq-03",
         "visibility-mcq-05",
         "visibility-mcq-02",
         "visibility-mcq-06",
         "visibility-mcq-01"
       ],
-      "explanation": "本句的「visibility」指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
+      "explanation": "本句的「visibility」指「某個人、議題或群體在媒體／社會中被注意的程度」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-04": "本句指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
+        "visibility-pdf-001": "本句指「某個人、議題或群體在媒體／社會中被注意的程度」。",
         "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
         "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
         "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
         "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
         "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。"
       },
-      "correctOption": "visibility-mcq-04"
+      "correctOption": "visibility-pdf-001"
     },
     {
       "id": "visibility-05-0",

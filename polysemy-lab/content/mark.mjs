@@ -294,16 +294,6 @@ export default {
       "note": "來源詞義：標誌着開始／結束",
       "examples": [
         [
-          "The event marked the beginning of a new era.",
-          "這件事標誌着一個新時代的開始。",
-          "標誌着開始／結束"
-        ],
-        [
-          "Her graduation marked an important turning point.",
-          "她畢業標誌着一個重要轉捩點。",
-          "標誌着開始／結束"
-        ],
-        [
           "The agreement marked the end of the dispute.",
           "這項協議標誌着爭議結束。",
           "標誌着開始／結束"
@@ -333,16 +323,6 @@ export default {
         [
           "A ceremony was held to mark the anniversary.",
           "舉行了一個儀式來紀念周年。",
-          "紀念某場合"
-        ],
-        [
-          "The museum held an exhibition to mark its 50th anniversary.",
-          "博物館舉辦展覽紀念成立 50 周年。",
-          "紀念某場合"
-        ],
-        [
-          "The event marked ten years since the project began.",
-          "這個活動紀念項目開始十周年。",
           "紀念某場合"
         ]
       ],
@@ -401,16 +381,6 @@ export default {
       "zh": "標線；斑紋",
       "note": "來源詞義：標線；斑紋",
       "examples": [
-        [
-          "The bird has white markings on its wings.",
-          "那隻鳥的翅膀上有白色斑紋。",
-          "標線；斑紋"
-        ],
-        [
-          "Road markings were difficult to see in the rain.",
-          "下雨時道路標線很難看清楚。",
-          "標線；斑紋"
-        ],
         [
           "Drivers must follow the road markings.",
           "駕駛者必須遵守道路標線。",
@@ -702,6 +672,72 @@ export default {
           "It took her all evening to mark the tests.",
           "她花了整個晚上批改試卷。",
           "檢查學生答案並給予分數或評語"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mark-pdf-001",
+      "title": "表示某個重要階段、變化或事件的開始、結束或意義",
+      "form": "14. mark（標誌着；代表某個重要時刻） — 標誌着",
+      "en": "14. mark（標誌着；代表某個重要時刻） — 標誌着",
+      "zh": "表示某個重要階段、變化或事件的開始、結束或意義",
+      "note": "原始 PDF 第 14 節：表示某個重要階段、變化或事件的開始、結束或意義",
+      "examples": [
+        [
+          "The event marked the beginning of a new era.",
+          "這件事標誌着一個新時代的開始。",
+          "表示某個重要階段、變化或事件的開始、結束或意義"
+        ],
+        [
+          "Her graduation marked an important turning point.",
+          "她畢業標誌着一個重要轉捩點。",
+          "表示某個重要階段、變化或事件的開始、結束或意義"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mark-pdf-002",
+      "title": "用活動或行動紀念某件事發生若干周年",
+      "form": "17. mark an anniversary — 紀念周年",
+      "en": "17. mark an anniversary — 紀念周年",
+      "zh": "用活動或行動紀念某件事發生若干周年",
+      "note": "原始 PDF 第 17 節：用活動或行動紀念某件事發生若干周年",
+      "examples": [
+        [
+          "The museum held an exhibition to mark its 50th anniversary.",
+          "博物館舉辦展覽紀念成立 50 周年。",
+          "用活動或行動紀念某件事發生若干周年"
+        ],
+        [
+          "The event marked ten years since the project began.",
+          "這個活動紀念項目開始十周年。",
+          "用活動或行動紀念某件事發生若干周年"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mark-pdf-003",
+      "title": "可用來識別、指示或形成圖案的線條、斑紋或符號",
+      "form": "20. marking（標記；花紋） — 標記；斑紋",
+      "en": "20. marking（標記；花紋） — 標記；斑紋",
+      "zh": "可用來識別、指示或形成圖案的線條、斑紋或符號",
+      "note": "原始 PDF 第 20 節：可用來識別、指示或形成圖案的線條、斑紋或符號",
+      "examples": [
+        [
+          "The bird has white markings on its wings.",
+          "那隻鳥的翅膀上有白色斑紋。",
+          "可用來識別、指示或形成圖案的線條、斑紋或符號"
+        ],
+        [
+          "Road markings were difficult to see in the rain.",
+          "下雨時道路標線很難看清楚。",
+          "可用來識別、指示或形成圖案的線條、斑紋或符號"
         ]
       ],
       "options": [],
@@ -1521,63 +1557,63 @@ export default {
     },
     {
       "id": "mark-14-0",
-      "sense": "mark-mcq-14",
+      "sense": "mark-pdf-001",
       "en": "The event marked the beginning of a new era.",
       "zh": "這件事標誌着一個新時代的開始。",
       "masked": "The event ____.",
       "options": [
-        "mark-mcq-14",
+        "mark-pdf-001",
         "mark-mcq-13",
         "mark-mcq-15",
         "mark-mcq-12",
         "mark-mcq-16",
         "mark-mcq-11"
       ],
-      "explanation": "本句的「marked the beginning of a new era」指「標誌着開始／結束」。",
+      "explanation": "本句的「marked the beginning of a new era」指「表示某個重要階段、變化或事件的開始、結束或意義」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "marked the beginning of a new era"
       ],
       "optionReasons": {
-        "mark-mcq-14": "本句指「標誌着開始／結束」。",
+        "mark-pdf-001": "本句指「表示某個重要階段、變化或事件的開始、結束或意義」。",
         "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
         "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
         "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
         "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
         "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。"
       },
-      "correctOption": "mark-mcq-14"
+      "correctOption": "mark-pdf-001"
     },
     {
       "id": "mark-14-1",
-      "sense": "mark-mcq-14",
+      "sense": "mark-pdf-001",
       "en": "Her graduation marked an important turning point.",
       "zh": "她畢業標誌着一個重要轉捩點。",
       "masked": "Her graduation ____.",
       "options": [
-        "mark-mcq-14",
+        "mark-pdf-001",
         "mark-mcq-13",
         "mark-mcq-15",
         "mark-mcq-12",
         "mark-mcq-16",
         "mark-mcq-11"
       ],
-      "explanation": "本句的「marked an important turning point」指「標誌着開始／結束」。",
+      "explanation": "本句的「marked an important turning point」指「表示某個重要階段、變化或事件的開始、結束或意義」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "marked an important turning point"
       ],
       "optionReasons": {
-        "mark-mcq-14": "本句指「標誌着開始／結束」。",
+        "mark-pdf-001": "本句指「表示某個重要階段、變化或事件的開始、結束或意義」。",
         "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
         "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
         "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
         "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
         "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。"
       },
-      "correctOption": "mark-mcq-14"
+      "correctOption": "mark-pdf-001"
     },
     {
       "id": "mark-15-0",
@@ -1701,63 +1737,63 @@ export default {
     },
     {
       "id": "mark-17-0",
-      "sense": "mark-mcq-15",
+      "sense": "mark-pdf-002",
       "en": "The museum held an exhibition to mark its 50th anniversary.",
       "zh": "博物館舉辦展覽紀念成立 50 周年。",
       "masked": "The museum held an exhibition to ____.",
       "options": [
-        "mark-mcq-15",
+        "mark-pdf-002",
         "mark-mcq-14",
         "mark-mcq-16",
         "mark-mcq-13",
         "mark-mcq-17",
         "mark-mcq-12"
       ],
-      "explanation": "本句的「mark its 50th anniversary」指「紀念某場合」。",
+      "explanation": "本句的「mark its 50th anniversary」指「用活動或行動紀念某件事發生若干周年」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "mark its 50th anniversary"
       ],
       "optionReasons": {
-        "mark-mcq-15": "本句指「紀念某場合」。",
+        "mark-pdf-002": "本句指「用活動或行動紀念某件事發生若干周年」。",
         "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
         "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
         "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
         "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
         "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。"
       },
-      "correctOption": "mark-mcq-15"
+      "correctOption": "mark-pdf-002"
     },
     {
       "id": "mark-17-1",
-      "sense": "mark-mcq-15",
+      "sense": "mark-pdf-002",
       "en": "The event marked ten years since the project began.",
       "zh": "這個活動紀念項目開始十周年。",
       "masked": "The event ____ since the project began.",
       "options": [
-        "mark-mcq-15",
+        "mark-pdf-002",
         "mark-mcq-14",
         "mark-mcq-16",
         "mark-mcq-13",
         "mark-mcq-17",
         "mark-mcq-12"
       ],
-      "explanation": "本句的「marked ten years」指「紀念某場合」。",
+      "explanation": "本句的「marked ten years」指「用活動或行動紀念某件事發生若干周年」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "marked ten years"
       ],
       "optionReasons": {
-        "mark-mcq-15": "本句指「紀念某場合」。",
+        "mark-pdf-002": "本句指「用活動或行動紀念某件事發生若干周年」。",
         "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
         "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
         "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
         "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
         "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。"
       },
-      "correctOption": "mark-mcq-15"
+      "correctOption": "mark-pdf-002"
     },
     {
       "id": "mark-18-0",
@@ -1881,63 +1917,63 @@ export default {
     },
     {
       "id": "mark-20-0",
-      "sense": "mark-mcq-18",
+      "sense": "mark-pdf-003",
       "en": "The bird has white markings on its wings.",
       "zh": "那隻鳥的翅膀上有白色斑紋。",
       "masked": "The bird has white ____ on its wings.",
       "options": [
-        "mark-mcq-18",
+        "mark-pdf-003",
         "mark-mcq-17",
         "mark-mcq-19",
         "mark-mcq-16",
         "mark-mcq-20",
         "mark-mcq-15"
       ],
-      "explanation": "本句的「markings」指「標線；斑紋」。",
+      "explanation": "本句的「markings」指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "markings"
       ],
       "optionReasons": {
-        "mark-mcq-18": "本句指「標線；斑紋」。",
+        "mark-pdf-003": "本句指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
         "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
         "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
         "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
         "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
         "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。"
       },
-      "correctOption": "mark-mcq-18"
+      "correctOption": "mark-pdf-003"
     },
     {
       "id": "mark-20-1",
-      "sense": "mark-mcq-18",
+      "sense": "mark-pdf-003",
       "en": "Road markings were difficult to see in the rain.",
       "zh": "下雨時道路標線很難看清楚。",
       "masked": "Road ____ were difficult to see in the rain.",
       "options": [
-        "mark-mcq-18",
+        "mark-pdf-003",
         "mark-mcq-17",
         "mark-mcq-19",
         "mark-mcq-16",
         "mark-mcq-20",
         "mark-mcq-15"
       ],
-      "explanation": "本句的「markings」指「標線；斑紋」。",
+      "explanation": "本句的「markings」指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "markings"
       ],
       "optionReasons": {
-        "mark-mcq-18": "本句指「標線；斑紋」。",
+        "mark-pdf-003": "本句指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
         "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
         "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
         "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
         "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
         "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。"
       },
-      "correctOption": "mark-mcq-18"
+      "correctOption": "mark-pdf-003"
     },
     {
       "id": "mark-21-0",

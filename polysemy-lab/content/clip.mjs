@@ -27,16 +27,6 @@ export default {
           "The clip was only twenty seconds long.",
           "那段短片只有二十秒。",
           "一段很短的影片／錄音內容，或從較長內容中截取的一小段"
-        ],
-        [
-          "The podcast included a short audio clip.",
-          "這個 podcast 加入了一段短音訊片段。",
-          "一段很短的影片／錄音內容，或從較長內容中截取的一小段"
-        ],
-        [
-          "They played a clip from the recording.",
-          "他們播放了錄音中的一小段片段。",
-          "一段很短的影片／錄音內容，或從較長內容中截取的一小段"
         ]
       ],
       "options": [],
@@ -213,16 +203,6 @@ export default {
       "note": "來源詞義：以輕快而迅速的速度前進",
       "examples": [
         [
-          "The ball clipped him on the shoulder.",
-          "球擦撞／擊中了他的肩膀。",
-          "以輕快而迅速的速度前進"
-        ],
-        [
-          "The branch clipped her arm as she ran past.",
-          "她跑過時，樹枝擦到了她的手臂。",
-          "以輕快而迅速的速度前進"
-        ],
-        [
           "The car was clipping along at a good speed.",
           "那輛車正以相當快的速度前進。",
           "以輕快而迅速的速度前進"
@@ -333,6 +313,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "clip-pdf-001",
+      "title": "一小段錄音／音訊內容",
+      "form": "2. clip = audio extract — 音訊片段",
+      "en": "2. clip = audio extract — 音訊片段",
+      "zh": "一小段錄音／音訊內容",
+      "note": "原始 PDF 第 2 節：一小段錄音／音訊內容",
+      "examples": [
+        [
+          "The podcast included a short audio clip.",
+          "這個 podcast 加入了一段短音訊片段。",
+          "一小段錄音／音訊內容"
+        ],
+        [
+          "They played a clip from the recording.",
+          "他們播放了錄音中的一小段片段。",
+          "一小段錄音／音訊內容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "clip-pdf-002",
+      "title": "快速、輕微但明顯地擊中某人／某物",
+      "form": "12. clip someone = hit someone sharply — 打；撞擊",
+      "en": "12. clip someone = hit someone sharply — 打；撞擊",
+      "zh": "快速、輕微但明顯地擊中某人／某物",
+      "note": "原始 PDF 第 12 節：快速、輕微但明顯地擊中某人／某物",
+      "examples": [
+        [
+          "The ball clipped him on the shoulder.",
+          "球擦撞／擊中了他的肩膀。",
+          "快速、輕微但明顯地擊中某人／某物"
+        ],
+        [
+          "The branch clipped her arm as she ran past.",
+          "她跑過時，樹枝擦到了她的手臂。",
+          "快速、輕微但明顯地擊中某人／某物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -428,63 +452,63 @@ export default {
     },
     {
       "id": "clip-02-0",
-      "sense": "clip-mcq-01",
+      "sense": "clip-pdf-001",
       "en": "The podcast included a short audio clip.",
       "zh": "這個 podcast 加入了一段短音訊片段。",
       "masked": "The podcast included a short audio ____.",
       "options": [
-        "clip-mcq-01",
+        "clip-pdf-001",
         "clip-mcq-02",
         "clip-mcq-03",
         "clip-mcq-04",
         "clip-mcq-05",
         "clip-mcq-06"
       ],
-      "explanation": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+      "explanation": "本句的「clip」指「一小段錄音／音訊內容」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-01": "本句指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+        "clip-pdf-001": "本句指「一小段錄音／音訊內容」。",
         "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
         "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
         "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
         "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
         "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
       },
-      "correctOption": "clip-mcq-01"
+      "correctOption": "clip-pdf-001"
     },
     {
       "id": "clip-02-1",
-      "sense": "clip-mcq-01",
+      "sense": "clip-pdf-001",
       "en": "They played a clip from the recording.",
       "zh": "他們播放了錄音中的一小段片段。",
       "masked": "They played a ____ from the recording.",
       "options": [
-        "clip-mcq-01",
+        "clip-pdf-001",
         "clip-mcq-02",
         "clip-mcq-03",
         "clip-mcq-04",
         "clip-mcq-05",
         "clip-mcq-06"
       ],
-      "explanation": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+      "explanation": "本句的「clip」指「一小段錄音／音訊內容」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-01": "本句指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+        "clip-pdf-001": "本句指「一小段錄音／音訊內容」。",
         "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
         "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
         "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
         "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
         "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
       },
-      "correctOption": "clip-mcq-01"
+      "correctOption": "clip-pdf-001"
     },
     {
       "id": "clip-03-0",
@@ -1028,63 +1052,63 @@ export default {
     },
     {
       "id": "clip-12-0",
-      "sense": "clip-mcq-08",
+      "sense": "clip-pdf-002",
       "en": "The ball clipped him on the shoulder.",
       "zh": "球擦撞／擊中了他的肩膀。",
       "masked": "The ball ____ him on the shoulder.",
       "options": [
-        "clip-mcq-08",
+        "clip-pdf-002",
         "clip-mcq-07",
         "clip-mcq-09",
         "clip-mcq-06",
         "clip-mcq-10",
         "clip-mcq-05"
       ],
-      "explanation": "本句的「clipped」指「以輕快而迅速的速度前進」。",
+      "explanation": "本句的「clipped」指「快速、輕微但明顯地擊中某人／某物」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-08": "本句指「以輕快而迅速的速度前進」。",
+        "clip-pdf-002": "本句指「快速、輕微但明顯地擊中某人／某物」。",
         "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
         "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
         "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
         "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
         "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。"
       },
-      "correctOption": "clip-mcq-08"
+      "correctOption": "clip-pdf-002"
     },
     {
       "id": "clip-12-1",
-      "sense": "clip-mcq-08",
+      "sense": "clip-pdf-002",
       "en": "The branch clipped her arm as she ran past.",
       "zh": "她跑過時，樹枝擦到了她的手臂。",
       "masked": "The branch ____ her arm as she ran past.",
       "options": [
-        "clip-mcq-08",
+        "clip-pdf-002",
         "clip-mcq-07",
         "clip-mcq-09",
         "clip-mcq-06",
         "clip-mcq-10",
         "clip-mcq-05"
       ],
-      "explanation": "本句的「clipped」指「以輕快而迅速的速度前進」。",
+      "explanation": "本句的「clipped」指「快速、輕微但明顯地擊中某人／某物」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-08": "本句指「以輕快而迅速的速度前進」。",
+        "clip-pdf-002": "本句指「快速、輕微但明顯地擊中某人／某物」。",
         "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
         "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
         "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
         "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
         "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。"
       },
-      "correctOption": "clip-mcq-08"
+      "correctOption": "clip-pdf-002"
     },
     {
       "id": "clip-13-0",

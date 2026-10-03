@@ -466,16 +466,6 @@ export default {
           "The agreement did not last long.",
           "這項協議沒有維持很久。",
           "某種關係、協議或狀態繼續存在"
-        ],
-        [
-          "The experience lasted in my memory for years.",
-          "這次經歷多年來一直留在我的記憶中。",
-          "某種關係、協議或狀態繼續存在"
-        ],
-        [
-          "The feeling of confidence lasted long after the presentation.",
-          "簡報結束後，那種自信的感覺仍然持續了很久。",
-          "某種關係、協議或狀態繼續存在"
         ]
       ],
       "options": [],
@@ -729,6 +719,28 @@ export default {
           "Lastly, I want to thank everyone who helped.",
           "最後，我想感謝所有幫助過我的人。",
           "用來引出一系列觀點、步驟或項目中的最後一項"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "last-pdf-001",
+      "title": "某種效果、感受或印象在事情結束後仍然存在",
+      "form": "22. effect/impression/memory lasts（效果／印象持續） — 持續存在；久久不散",
+      "en": "22. effect/impression/memory lasts（效果／印象持續） — 持續存在；久久不散",
+      "zh": "某種效果、感受或印象在事情結束後仍然存在",
+      "note": "原始 PDF 第 22 節：某種效果、感受或印象在事情結束後仍然存在",
+      "examples": [
+        [
+          "The experience lasted in my memory for years.",
+          "這次經歷多年來一直留在我的記憶中。",
+          "某種效果、感受或印象在事情結束後仍然存在"
+        ],
+        [
+          "The feeling of confidence lasted long after the presentation.",
+          "簡報結束後，那種自信的感覺仍然持續了很久。",
+          "某種效果、感受或印象在事情結束後仍然存在"
         ]
       ],
       "options": [],
@@ -2028,63 +2040,63 @@ export default {
     },
     {
       "id": "last-22-0",
-      "sense": "last-mcq-21",
+      "sense": "last-pdf-001",
       "en": "The experience lasted in my memory for years.",
       "zh": "這次經歷多年來一直留在我的記憶中。",
       "masked": "The experience ____ for years.",
       "options": [
-        "last-mcq-21",
+        "last-pdf-001",
         "last-mcq-20",
         "last-mcq-22",
         "last-mcq-19",
         "last-mcq-23",
         "last-mcq-18"
       ],
-      "explanation": "本句的「lasted in my memory」指「某種關係、協議或狀態繼續存在」。",
+      "explanation": "本句的「lasted in my memory」指「某種效果、感受或印象在事情結束後仍然存在」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "lasted in my memory"
       ],
       "optionReasons": {
-        "last-mcq-21": "本句指「某種關係、協議或狀態繼續存在」。",
+        "last-pdf-001": "本句指「某種效果、感受或印象在事情結束後仍然存在」。",
         "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
         "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
         "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
         "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
         "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。"
       },
-      "correctOption": "last-mcq-21"
+      "correctOption": "last-pdf-001"
     },
     {
       "id": "last-22-1",
-      "sense": "last-mcq-21",
+      "sense": "last-pdf-001",
       "en": "The feeling of confidence lasted long after the presentation.",
       "zh": "簡報結束後，那種自信的感覺仍然持續了很久。",
       "masked": "The feeling of confidence ____ long after the presentation.",
       "options": [
-        "last-mcq-21",
+        "last-pdf-001",
         "last-mcq-20",
         "last-mcq-22",
         "last-mcq-19",
         "last-mcq-23",
         "last-mcq-18"
       ],
-      "explanation": "本句的「lasted」指「某種關係、協議或狀態繼續存在」。",
+      "explanation": "本句的「lasted」指「某種效果、感受或印象在事情結束後仍然存在」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "lasted"
       ],
       "optionReasons": {
-        "last-mcq-21": "本句指「某種關係、協議或狀態繼續存在」。",
+        "last-pdf-001": "本句指「某種效果、感受或印象在事情結束後仍然存在」。",
         "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
         "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
         "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
         "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
         "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。"
       },
-      "correctOption": "last-mcq-21"
+      "correctOption": "last-pdf-001"
     },
     {
       "id": "last-23-0",

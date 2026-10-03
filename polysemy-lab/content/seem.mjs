@@ -136,16 +136,6 @@ export default {
           "She seemed as though she had not slept all night.",
           "她看起來好像整晚都沒有睡過。",
           "根據跡象或感受，彷彿某種情況真的存在或發生"
-        ],
-        [
-          "He seems a reliable person.",
-          "他看起來是個可靠的人。",
-          "根據跡象或感受，彷彿某種情況真的存在或發生"
-        ],
-        [
-          "It seemed a strange decision at the time.",
-          "當時看來，那似乎是一個奇怪的決定。",
-          "根據跡象或感受，彷彿某種情況真的存在或發生"
         ]
       ],
       "options": [],
@@ -255,6 +245,28 @@ export default {
           "She was seemingly unaware of the change.",
           "從她的表現看，她似乎並不知道這項改變。",
           "根據表面或目前跡象看似如此，但並非完全確定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "seem-pdf-001",
+      "title": "給人的印象是某種人物、事物或類型",
+      "form": "7. seem + noun（身分／角色） — 看來是；似乎是某種人／事物",
+      "en": "7. seem + noun（身分／角色） — 看來是；似乎是某種人／事物",
+      "zh": "給人的印象是某種人物、事物或類型",
+      "note": "原始 PDF 第 7 節：給人的印象是某種人物、事物或類型",
+      "examples": [
+        [
+          "He seems a reliable person.",
+          "他看起來是個可靠的人。",
+          "給人的印象是某種人物、事物或類型"
+        ],
+        [
+          "It seemed a strange decision at the time.",
+          "當時看來，那似乎是一個奇怪的決定。",
+          "給人的印象是某種人物、事物或類型"
         ]
       ],
       "options": [],
@@ -654,63 +666,63 @@ export default {
     },
     {
       "id": "seem-07-0",
-      "sense": "seem-mcq-06",
+      "sense": "seem-pdf-001",
       "en": "He seems a reliable person.",
       "zh": "他看起來是個可靠的人。",
       "masked": "He ____.",
       "options": [
-        "seem-mcq-06",
+        "seem-pdf-001",
         "seem-mcq-05",
         "seem-mcq-07",
         "seem-mcq-04",
         "seem-mcq-08",
         "seem-mcq-03"
       ],
-      "explanation": "本句的「seems a reliable person」指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
+      "explanation": "本句的「seems a reliable person」指「給人的印象是某種人物、事物或類型」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "seems a reliable person"
       ],
       "optionReasons": {
-        "seem-mcq-06": "本句指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
+        "seem-pdf-001": "本句指「給人的印象是某種人物、事物或類型」。",
         "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
         "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
         "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
         "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
         "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。"
       },
-      "correctOption": "seem-mcq-06"
+      "correctOption": "seem-pdf-001"
     },
     {
       "id": "seem-07-1",
-      "sense": "seem-mcq-06",
+      "sense": "seem-pdf-001",
       "en": "It seemed a strange decision at the time.",
       "zh": "當時看來，那似乎是一個奇怪的決定。",
       "masked": "It ____ at the time.",
       "options": [
-        "seem-mcq-06",
+        "seem-pdf-001",
         "seem-mcq-05",
         "seem-mcq-07",
         "seem-mcq-04",
         "seem-mcq-08",
         "seem-mcq-03"
       ],
-      "explanation": "本句的「seemed a strange decision」指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
+      "explanation": "本句的「seemed a strange decision」指「給人的印象是某種人物、事物或類型」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "seemed a strange decision"
       ],
       "optionReasons": {
-        "seem-mcq-06": "本句指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
+        "seem-pdf-001": "本句指「給人的印象是某種人物、事物或類型」。",
         "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
         "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
         "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
         "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
         "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。"
       },
-      "correctOption": "seem-mcq-06"
+      "correctOption": "seem-pdf-001"
     },
     {
       "id": "seem-08-0",

@@ -39,18 +39,7 @@ export default {
       "en": "argue for X",
       "zh": "提出論據支持 X",
       "note": "來源詞義：提出論據支持 X",
-      "examples": [
-        [
-          "The report argues for greater investment in public facilities.",
-          "報告主張增加公共設施投資。",
-          "提出論據支持 X"
-        ],
-        [
-          "She argued strongly for the proposal.",
-          "她強力提出理據支持這項建議。",
-          "提出論據支持 X"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -653,6 +642,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "argue-pdf-001",
+      "title": "說明為甚麼 X 應該被接受、採取或相信",
+      "form": "2. argue for something = present reasons supporting it（支持） — 為……提出理據；主張支持",
+      "en": "2. argue for something = present reasons supporting it（支持） — 為……提出理據；主張支持",
+      "zh": "說明為甚麼 X 應該被接受、採取或相信",
+      "note": "原始 PDF 第 2 節：說明為甚麼 X 應該被接受、採取或相信",
+      "examples": [
+        [
+          "The report argues for greater investment in public facilities.",
+          "報告主張增加公共設施投資。",
+          "說明為甚麼 X 應該被接受、採取或相信"
+        ],
+        [
+          "She argued strongly for the proposal.",
+          "她強力提出理據支持這項建議。",
+          "說明為甚麼 X 應該被接受、採取或相信"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -748,63 +759,63 @@ export default {
     },
     {
       "id": "argue-02-0",
-      "sense": "argue-mcq-02",
+      "sense": "argue-pdf-001",
       "en": "The report argues for greater investment in public facilities.",
       "zh": "報告主張增加公共設施投資。",
       "masked": "The report ____ greater investment in public facilities.",
       "options": [
-        "argue-mcq-02",
+        "argue-pdf-001",
         "argue-mcq-01",
         "argue-mcq-03",
         "argue-mcq-04",
         "argue-mcq-05",
         "argue-mcq-06"
       ],
-      "explanation": "本句的「argues for」指「提出論據支持 X」。",
+      "explanation": "本句的「argues for」指「說明為甚麼 X 應該被接受、採取或相信」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "argues for"
       ],
       "optionReasons": {
-        "argue-mcq-02": "本句指「提出論據支持 X」。",
+        "argue-pdf-001": "本句指「說明為甚麼 X 應該被接受、採取或相信」。",
         "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
         "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
         "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
         "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
         "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
       },
-      "correctOption": "argue-mcq-02"
+      "correctOption": "argue-pdf-001"
     },
     {
       "id": "argue-02-1",
-      "sense": "argue-mcq-02",
+      "sense": "argue-pdf-001",
       "en": "She argued strongly for the proposal.",
       "zh": "她強力提出理據支持這項建議。",
       "masked": "She argued strongly ____ the proposal.",
       "options": [
-        "argue-mcq-02",
+        "argue-pdf-001",
         "argue-mcq-01",
         "argue-mcq-03",
         "argue-mcq-04",
         "argue-mcq-05",
         "argue-mcq-06"
       ],
-      "explanation": "本句的「for」指「提出論據支持 X」。",
+      "explanation": "本句的「for」指「說明為甚麼 X 應該被接受、採取或相信」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "for"
       ],
       "optionReasons": {
-        "argue-mcq-02": "本句指「提出論據支持 X」。",
+        "argue-pdf-001": "本句指「說明為甚麼 X 應該被接受、採取或相信」。",
         "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
         "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
         "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
         "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
         "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
       },
-      "correctOption": "argue-mcq-02"
+      "correctOption": "argue-pdf-001"
     },
     {
       "id": "argue-03-0",

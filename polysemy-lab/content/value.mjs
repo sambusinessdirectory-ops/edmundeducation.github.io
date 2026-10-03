@@ -417,16 +417,6 @@ export default {
           "The temperature reached a maximum value of 35°C.",
           "溫度達到最高數值 35°C。",
           "數值"
-        ],
-        [
-          "Each answer has a numerical value.",
-          "每個答案都有一個數值。",
-          "數值"
-        ],
-        [
-          "The symbol represents a fixed numerical value.",
-          "這個符號代表一個固定數值。",
-          "數值"
         ]
       ],
       "options": [],
@@ -733,6 +723,28 @@ export default {
           "We sometimes overvalue speed and undervalue accuracy.",
           "我們有時會高估速度的重要性，而低估準確性。",
           "高估價值"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "value-pdf-001",
+      "title": "以數字表示的確切值",
+      "form": "22. numerical value — 數值",
+      "en": "22. numerical value — 數值",
+      "zh": "以數字表示的確切值",
+      "note": "原始 PDF 第 22 節：以數字表示的確切值",
+      "examples": [
+        [
+          "Each answer has a numerical value.",
+          "每個答案都有一個數值。",
+          "以數字表示的確切值"
+        ],
+        [
+          "The symbol represents a fixed numerical value.",
+          "這個符號代表一個固定數值。",
+          "以數字表示的確切值"
         ]
       ],
       "options": [],
@@ -1882,63 +1894,63 @@ export default {
     },
     {
       "id": "value-22-0",
-      "sense": "value-mcq-19",
+      "sense": "value-pdf-001",
       "en": "Each answer has a numerical value.",
       "zh": "每個答案都有一個數值。",
       "masked": "Each answer has a ____.",
       "options": [
-        "value-mcq-19",
+        "value-pdf-001",
         "value-mcq-18",
         "value-mcq-20",
         "value-mcq-17",
         "value-mcq-21",
         "value-mcq-16"
       ],
-      "explanation": "本句的「numerical value」指「數值」。",
+      "explanation": "本句的「numerical value」指「以數字表示的確切值」。",
       "sentenceIndex": 44,
       "sourcePractice": 1,
       "targets": [
         "numerical value"
       ],
       "optionReasons": {
-        "value-mcq-19": "本句指「數值」。",
+        "value-pdf-001": "本句指「以數字表示的確切值」。",
         "value-mcq-18": "「估價；估值」與本句語境不同。",
         "value-mcq-20": "「絕對值」與本句語境不同。",
         "value-mcq-17": "「估值為 Y」與本句語境不同。",
         "value-mcq-21": "「價值觀」與本句語境不同。",
         "value-mcq-16": "「重視」與本句語境不同。"
       },
-      "correctOption": "value-mcq-19"
+      "correctOption": "value-pdf-001"
     },
     {
       "id": "value-22-1",
-      "sense": "value-mcq-19",
+      "sense": "value-pdf-001",
       "en": "The symbol represents a fixed numerical value.",
       "zh": "這個符號代表一個固定數值。",
       "masked": "The symbol represents a fixed ____.",
       "options": [
-        "value-mcq-19",
+        "value-pdf-001",
         "value-mcq-18",
         "value-mcq-20",
         "value-mcq-17",
         "value-mcq-21",
         "value-mcq-16"
       ],
-      "explanation": "本句的「numerical value」指「數值」。",
+      "explanation": "本句的「numerical value」指「以數字表示的確切值」。",
       "sentenceIndex": 45,
       "sourcePractice": 2,
       "targets": [
         "numerical value"
       ],
       "optionReasons": {
-        "value-mcq-19": "本句指「數值」。",
+        "value-pdf-001": "本句指「以數字表示的確切值」。",
         "value-mcq-18": "「估價；估值」與本句語境不同。",
         "value-mcq-20": "「絕對值」與本句語境不同。",
         "value-mcq-17": "「估值為 Y」與本句語境不同。",
         "value-mcq-21": "「價值觀」與本句語境不同。",
         "value-mcq-16": "「重視」與本句語境不同。"
       },
-      "correctOption": "value-mcq-19"
+      "correctOption": "value-pdf-001"
     },
     {
       "id": "value-23-0",

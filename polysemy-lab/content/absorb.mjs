@@ -169,18 +169,7 @@ export default {
       "en": "be absorbed in",
       "zh": "全神貫注於；沉浸於",
       "note": "來源詞義：全神貫注於；沉浸於",
-      "examples": [
-        [
-          "She was absorbed in a book.",
-          "她正全神貫注地看一本書。",
-          "全神貫注於；沉浸於"
-        ],
-        [
-          "He became so absorbed in his work that he forgot the time.",
-          "他太投入工作，連時間也忘記了。",
-          "全神貫注於；沉浸於"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -379,6 +368,28 @@ export default {
       "zh": "光譜學的吸光度",
       "note": "來源詞義：光譜學的吸光度",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "absorb-pdf-001",
+      "title": "注意力完全投入某項活動或思想中",
+      "form": "8. be absorbed in something = be completely concentrated on it（固定結構） — 專心於；沉浸",
+      "en": "8. be absorbed in something = be completely concentrated on it（固定結構） — 專心於；沉浸",
+      "zh": "注意力完全投入某項活動或思想中",
+      "note": "原始 PDF 第 8 節：注意力完全投入某項活動或思想中",
+      "examples": [
+        [
+          "She was absorbed in a book.",
+          "她正全神貫注地看一本書。",
+          "注意力完全投入某項活動或思想中"
+        ],
+        [
+          "He became so absorbed in his work that he forgot the time.",
+          "他太投入工作，連時間也忘記了。",
+          "注意力完全投入某項活動或思想中"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -896,63 +907,63 @@ export default {
     },
     {
       "id": "absorb-08-0",
-      "sense": "absorb-mcq-07",
+      "sense": "absorb-pdf-001",
       "en": "She was absorbed in a book.",
       "zh": "她正全神貫注地看一本書。",
       "masked": "She was ____ a book.",
       "options": [
-        "absorb-mcq-07",
+        "absorb-pdf-001",
         "absorb-mcq-06",
         "absorb-mcq-08",
         "absorb-mcq-05",
         "absorb-mcq-09",
         "absorb-mcq-04"
       ],
-      "explanation": "本句的「absorbed in」指「全神貫注於；沉浸於」。",
+      "explanation": "本句的「absorbed in」指「注意力完全投入某項活動或思想中」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "absorbed in"
       ],
       "optionReasons": {
-        "absorb-mcq-07": "本句指「全神貫注於；沉浸於」。",
+        "absorb-pdf-001": "本句指「注意力完全投入某項活動或思想中」。",
         "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
         "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
         "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
         "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
         "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。"
       },
-      "correctOption": "absorb-mcq-07"
+      "correctOption": "absorb-pdf-001"
     },
     {
       "id": "absorb-08-1",
-      "sense": "absorb-mcq-07",
+      "sense": "absorb-pdf-001",
       "en": "He became so absorbed in his work that he forgot the time.",
       "zh": "他太投入工作，連時間也忘記了。",
       "masked": "He became so ____ his work that he forgot the time.",
       "options": [
-        "absorb-mcq-07",
+        "absorb-pdf-001",
         "absorb-mcq-06",
         "absorb-mcq-08",
         "absorb-mcq-05",
         "absorb-mcq-09",
         "absorb-mcq-04"
       ],
-      "explanation": "本句的「absorbed in」指「全神貫注於；沉浸於」。",
+      "explanation": "本句的「absorbed in」指「注意力完全投入某項活動或思想中」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "absorbed in"
       ],
       "optionReasons": {
-        "absorb-mcq-07": "本句指「全神貫注於；沉浸於」。",
+        "absorb-pdf-001": "本句指「注意力完全投入某項活動或思想中」。",
         "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
         "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
         "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
         "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
         "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。"
       },
-      "correctOption": "absorb-mcq-07"
+      "correctOption": "absorb-pdf-001"
     },
     {
       "id": "absorb-10-0",

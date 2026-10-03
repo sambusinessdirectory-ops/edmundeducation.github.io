@@ -218,16 +218,6 @@ export default {
           "Her work is worthy of attention.",
           "她的作品值得關注。",
           "因品質、目的或品格而值得尊敬、支持或注意"
-        ],
-        [
-          "The museum wanted a display worthy of the artist.",
-          "博物館希望設計一個配得上這位藝術家的展覽。",
-          "因品質、目的或品格而值得尊敬、支持或注意"
-        ],
-        [
-          "It was a performance worthy of the occasion.",
-          "那是一場配得上這個場合的表演。",
-          "因品質、目的或品格而值得尊敬、支持或注意"
         ]
       ],
       "options": [],
@@ -392,6 +382,28 @@ export default {
           "It may be worth your while to compare prices.",
           "花點時間比較價格可能對你很值得／很有幫助。",
           "所得回報足以值得某人花時間／精力去做"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "worth-pdf-001",
+      "title": "品質高到與 X 的重要性／地位相稱",
+      "form": "13. worthy = good enough / suitable for a high standard — 配得上的；有資格的",
+      "en": "13. worthy = good enough / suitable for a high standard — 配得上的；有資格的",
+      "zh": "品質高到與 X 的重要性／地位相稱",
+      "note": "原始 PDF 第 13 節：品質高到與 X 的重要性／地位相稱",
+      "examples": [
+        [
+          "The museum wanted a display worthy of the artist.",
+          "博物館希望設計一個配得上這位藝術家的展覽。",
+          "品質高到與 X 的重要性／地位相稱"
+        ],
+        [
+          "It was a performance worthy of the occasion.",
+          "那是一場配得上這個場合的表演。",
+          "品質高到與 X 的重要性／地位相稱"
         ]
       ],
       "options": [],
@@ -1121,63 +1133,63 @@ export default {
     },
     {
       "id": "worth-13-0",
-      "sense": "worth-mcq-09",
+      "sense": "worth-pdf-001",
       "en": "The museum wanted a display worthy of the artist.",
       "zh": "博物館希望設計一個配得上這位藝術家的展覽。",
       "masked": "The museum wanted a display ____ of the artist.",
       "options": [
-        "worth-mcq-09",
+        "worth-pdf-001",
         "worth-mcq-08",
         "worth-mcq-10",
         "worth-mcq-07",
         "worth-mcq-11",
         "worth-mcq-06"
       ],
-      "explanation": "本句的「worthy」指「因品質、目的或品格而值得尊敬、支持或注意」。",
+      "explanation": "本句的「worthy」指「品質高到與 X 的重要性／地位相稱」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "worthy"
       ],
       "optionReasons": {
-        "worth-mcq-09": "本句指「因品質、目的或品格而值得尊敬、支持或注意」。",
+        "worth-pdf-001": "本句指「品質高到與 X 的重要性／地位相稱」。",
         "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
         "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
         "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
         "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
         "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
       },
-      "correctOption": "worth-mcq-09"
+      "correctOption": "worth-pdf-001"
     },
     {
       "id": "worth-13-1",
-      "sense": "worth-mcq-09",
+      "sense": "worth-pdf-001",
       "en": "It was a performance worthy of the occasion.",
       "zh": "那是一場配得上這個場合的表演。",
       "masked": "It was a performance ____ of the occasion.",
       "options": [
-        "worth-mcq-09",
+        "worth-pdf-001",
         "worth-mcq-08",
         "worth-mcq-10",
         "worth-mcq-07",
         "worth-mcq-11",
         "worth-mcq-06"
       ],
-      "explanation": "本句的「worthy」指「因品質、目的或品格而值得尊敬、支持或注意」。",
+      "explanation": "本句的「worthy」指「品質高到與 X 的重要性／地位相稱」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "worthy"
       ],
       "optionReasons": {
-        "worth-mcq-09": "本句指「因品質、目的或品格而值得尊敬、支持或注意」。",
+        "worth-pdf-001": "本句指「品質高到與 X 的重要性／地位相稱」。",
         "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
         "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
         "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
         "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
         "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
       },
-      "correctOption": "worth-mcq-09"
+      "correctOption": "worth-pdf-001"
     },
     {
       "id": "worth-14-0",

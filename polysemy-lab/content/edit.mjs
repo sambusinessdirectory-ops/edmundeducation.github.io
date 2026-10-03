@@ -61,18 +61,7 @@ export default {
       "en": "edit an essay",
       "zh": "修改作文",
       "note": "來源詞義：修改作文",
-      "examples": [
-        [
-          "Good writers usually edit their work several times.",
-          "好的作者通常會多次修改自己的作品。",
-          "修改作文"
-        ],
-        [
-          "The paragraph needs to be edited for clarity.",
-          "這一段需要修改，讓意思更清晰。",
-          "修改作文"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -105,18 +94,7 @@ export default {
       "en": "edit a publication",
       "zh": "編輯出版物",
       "note": "來源詞義：編輯出版物",
-      "examples": [
-        [
-          "He edits a monthly magazine.",
-          "他編輯一本月刊。",
-          "編輯出版物"
-        ],
-        [
-          "She was invited to edit the collection.",
-          "她獲邀主編／編輯這本文集。",
-          "編輯出版物"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -635,6 +613,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "edit-pdf-001",
+      "title": "修改文字的用詞、結構、內容和表達",
+      "form": "3. edit writing — 編修文字",
+      "en": "3. edit writing — 編修文字",
+      "zh": "修改文字的用詞、結構、內容和表達",
+      "note": "原始 PDF 第 3 節：修改文字的用詞、結構、內容和表達",
+      "examples": [
+        [
+          "Good writers usually edit their work several times.",
+          "好的作者通常會多次修改自己的作品。",
+          "修改文字的用詞、結構、內容和表達"
+        ],
+        [
+          "The paragraph needs to be edited for clarity.",
+          "這一段需要修改，讓意思更清晰。",
+          "修改文字的用詞、結構、內容和表達"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "edit-pdf-002",
+      "title": "負責選擇、整理、修訂及準備出版內容",
+      "form": "6. edit a book / magazine / newspaper — 編輯書籍／雜誌／報章",
+      "en": "6. edit a book / magazine / newspaper — 編輯書籍／雜誌／報章",
+      "zh": "負責選擇、整理、修訂及準備出版內容",
+      "note": "原始 PDF 第 6 節：負責選擇、整理、修訂及準備出版內容",
+      "examples": [
+        [
+          "He edits a monthly magazine.",
+          "他編輯一本月刊。",
+          "負責選擇、整理、修訂及準備出版內容"
+        ],
+        [
+          "She was invited to edit the collection.",
+          "她獲邀主編／編輯這本文集。",
+          "負責選擇、整理、修訂及準備出版內容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -790,63 +812,63 @@ export default {
     },
     {
       "id": "edit-03-0",
-      "sense": "edit-mcq-03",
+      "sense": "edit-pdf-001",
       "en": "Good writers usually edit their work several times.",
       "zh": "好的作者通常會多次修改自己的作品。",
       "masked": "Good writers usually ____ several times.",
       "options": [
-        "edit-mcq-03",
+        "edit-pdf-001",
         "edit-mcq-02",
         "edit-mcq-04",
         "edit-mcq-01",
         "edit-mcq-05",
         "edit-mcq-06"
       ],
-      "explanation": "本句的「edit their work」指「修改作文」。",
+      "explanation": "本句的「edit their work」指「修改文字的用詞、結構、內容和表達」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "edit their work"
       ],
       "optionReasons": {
-        "edit-mcq-03": "本句指「修改作文」。",
+        "edit-pdf-001": "本句指「修改文字的用詞、結構、內容和表達」。",
         "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
         "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
         "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。",
         "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
         "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
       },
-      "correctOption": "edit-mcq-03"
+      "correctOption": "edit-pdf-001"
     },
     {
       "id": "edit-03-1",
-      "sense": "edit-mcq-03",
+      "sense": "edit-pdf-001",
       "en": "The paragraph needs to be edited for clarity.",
       "zh": "這一段需要修改，讓意思更清晰。",
       "masked": "The paragraph needs to be ____ for clarity.",
       "options": [
-        "edit-mcq-03",
+        "edit-pdf-001",
         "edit-mcq-02",
         "edit-mcq-04",
         "edit-mcq-01",
         "edit-mcq-05",
         "edit-mcq-06"
       ],
-      "explanation": "本句的「edited」指「修改作文」。",
+      "explanation": "本句的「edited」指「修改文字的用詞、結構、內容和表達」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "edited"
       ],
       "optionReasons": {
-        "edit-mcq-03": "本句指「修改作文」。",
+        "edit-pdf-001": "本句指「修改文字的用詞、結構、內容和表達」。",
         "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
         "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
         "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。",
         "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
         "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
       },
-      "correctOption": "edit-mcq-03"
+      "correctOption": "edit-pdf-001"
     },
     {
       "id": "edit-04-0",
@@ -970,63 +992,63 @@ export default {
     },
     {
       "id": "edit-06-0",
-      "sense": "edit-mcq-05",
+      "sense": "edit-pdf-002",
       "en": "He edits a monthly magazine.",
       "zh": "他編輯一本月刊。",
       "masked": "He ____.",
       "options": [
-        "edit-mcq-05",
+        "edit-pdf-002",
         "edit-mcq-04",
         "edit-mcq-06",
         "edit-mcq-03",
         "edit-mcq-07",
         "edit-mcq-02"
       ],
-      "explanation": "本句的「edits a monthly magazine」指「編輯出版物」。",
+      "explanation": "本句的「edits a monthly magazine」指「負責選擇、整理、修訂及準備出版內容」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "edits a monthly magazine"
       ],
       "optionReasons": {
-        "edit-mcq-05": "本句指「編輯出版物」。",
+        "edit-pdf-002": "本句指「負責選擇、整理、修訂及準備出版內容」。",
         "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
         "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
         "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
         "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
         "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。"
       },
-      "correctOption": "edit-mcq-05"
+      "correctOption": "edit-pdf-002"
     },
     {
       "id": "edit-06-1",
-      "sense": "edit-mcq-05",
+      "sense": "edit-pdf-002",
       "en": "She was invited to edit the collection.",
       "zh": "她獲邀主編／編輯這本文集。",
       "masked": "She was invited to ____.",
       "options": [
-        "edit-mcq-05",
+        "edit-pdf-002",
         "edit-mcq-04",
         "edit-mcq-06",
         "edit-mcq-03",
         "edit-mcq-07",
         "edit-mcq-02"
       ],
-      "explanation": "本句的「edit the collection」指「編輯出版物」。",
+      "explanation": "本句的「edit the collection」指「負責選擇、整理、修訂及準備出版內容」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "edit the collection"
       ],
       "optionReasons": {
-        "edit-mcq-05": "本句指「編輯出版物」。",
+        "edit-pdf-002": "本句指「負責選擇、整理、修訂及準備出版內容」。",
         "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
         "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
         "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
         "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
         "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。"
       },
-      "correctOption": "edit-mcq-05"
+      "correctOption": "edit-pdf-002"
     },
     {
       "id": "edit-07-0",

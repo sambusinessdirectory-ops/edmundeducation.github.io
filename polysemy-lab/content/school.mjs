@@ -389,18 +389,7 @@ export default {
       "en": "school someone — informal",
       "zh": "以明顯較高水平壓倒某人、令其「上了一課」",
       "note": "來源詞義：以明顯較高水平壓倒某人、令其「上了一課」",
-      "examples": [
-        [
-          "The experienced player schooled the younger opponent.",
-          "那位有經驗的球員狠狠地給年輕對手上了一課。",
-          "以明顯較高水平壓倒某人、令其「上了一課」"
-        ],
-        [
-          "She schooled everyone in the debate.",
-          "她在辯論中完全壓倒其他人／給大家示範了甚麼叫高水平。",
-          "以明顯較高水平壓倒某人、令其「上了一課」"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -485,16 +474,6 @@ export default {
           "There are several school-age children in the family.",
           "這個家庭有幾個學齡孩子。",
           "已達一般接受正式學校教育的年齡"
-        ],
-        [
-          "A typical school day begins at eight.",
-          "一般上課日八點開始。",
-          "已達一般接受正式學校教育的年齡"
-        ],
-        [
-          "She remembered her school days fondly.",
-          "她很懷念自己的學生時代／求學日子。",
-          "已達一般接受正式學校教育的年齡"
         ]
       ],
       "options": [],
@@ -561,6 +540,50 @@ export default {
           "He worked as a school teacher for thirty years.",
           "他當了三十年的教師。",
           "表示在學校任教的老師"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "school-pdf-001",
+      "title": "非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學",
+      "form": "20. school someone = teach someone a lesson / outperform them（教訓／狠狠示範） — 給某",
+      "en": "20. school someone = teach someone a lesson / outperform them（教訓／狠狠示範） — 給某",
+      "zh": "非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學",
+      "note": "原始 PDF 第 20 節：非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學",
+      "examples": [
+        [
+          "The experienced player schooled the younger opponent.",
+          "那位有經驗的球員狠狠地給年輕對手上了一課。",
+          "非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學"
+        ],
+        [
+          "She schooled everyone in the debate.",
+          "她在辯論中完全壓倒其他人／給大家示範了甚麼叫高水平。",
+          "非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "school-pdf-002",
+      "title": "正式上課的一天；複數亦可指學生時代",
+      "form": "26. school day（上學日／學校一天） — 上課日；學校生活的一天",
+      "en": "26. school day（上學日／學校一天） — 上課日；學校生活的一天",
+      "zh": "正式上課的一天；複數亦可指學生時代",
+      "note": "原始 PDF 第 26 節：正式上課的一天；複數亦可指學生時代",
+      "examples": [
+        [
+          "A typical school day begins at eight.",
+          "一般上課日八點開始。",
+          "正式上課的一天；複數亦可指學生時代"
+        ],
+        [
+          "She remembered her school days fondly.",
+          "她很懷念自己的學生時代／求學日子。",
+          "正式上課的一天；複數亦可指學生時代"
         ]
       ],
       "options": [],
@@ -1740,63 +1763,63 @@ export default {
     },
     {
       "id": "school-20-0",
-      "sense": "school-mcq-17",
+      "sense": "school-pdf-001",
       "en": "The experienced player schooled the younger opponent.",
       "zh": "那位有經驗的球員狠狠地給年輕對手上了一課。",
       "masked": "The experienced player ____ the younger opponent.",
       "options": [
-        "school-mcq-17",
+        "school-pdf-001",
         "school-mcq-16",
         "school-mcq-18",
         "school-mcq-15",
         "school-mcq-19",
         "school-mcq-14"
       ],
-      "explanation": "本句的「schooled」指「以明顯較高水平壓倒某人、令其「上了一課」」。",
+      "explanation": "本句的「schooled」指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "schooled"
       ],
       "optionReasons": {
-        "school-mcq-17": "本句指「以明顯較高水平壓倒某人、令其「上了一課」」。",
+        "school-pdf-001": "本句指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
         "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
         "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
         "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
         "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
         "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。"
       },
-      "correctOption": "school-mcq-17"
+      "correctOption": "school-pdf-001"
     },
     {
       "id": "school-20-1",
-      "sense": "school-mcq-17",
+      "sense": "school-pdf-001",
       "en": "She schooled everyone in the debate.",
       "zh": "她在辯論中完全壓倒其他人／給大家示範了甚麼叫高水平。",
       "masked": "She ____ everyone in the debate.",
       "options": [
-        "school-mcq-17",
+        "school-pdf-001",
         "school-mcq-16",
         "school-mcq-18",
         "school-mcq-15",
         "school-mcq-19",
         "school-mcq-14"
       ],
-      "explanation": "本句的「schooled」指「以明顯較高水平壓倒某人、令其「上了一課」」。",
+      "explanation": "本句的「schooled」指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "schooled"
       ],
       "optionReasons": {
-        "school-mcq-17": "本句指「以明顯較高水平壓倒某人、令其「上了一課」」。",
+        "school-pdf-001": "本句指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
         "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
         "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
         "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
         "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
         "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。"
       },
-      "correctOption": "school-mcq-17"
+      "correctOption": "school-pdf-001"
     },
     {
       "id": "school-21-0",
@@ -2100,63 +2123,63 @@ export default {
     },
     {
       "id": "school-26-0",
-      "sense": "school-mcq-20",
+      "sense": "school-pdf-002",
       "en": "A typical school day begins at eight.",
       "zh": "一般上課日八點開始。",
       "masked": "A typical ____ begins at eight.",
       "options": [
-        "school-mcq-20",
+        "school-pdf-002",
         "school-mcq-19",
         "school-mcq-21",
         "school-mcq-18",
         "school-mcq-22",
         "school-mcq-17"
       ],
-      "explanation": "本句的「school day」指「已達一般接受正式學校教育的年齡」。",
+      "explanation": "本句的「school day」指「正式上課的一天；複數亦可指學生時代」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "school day"
       ],
       "optionReasons": {
-        "school-mcq-20": "本句指「已達一般接受正式學校教育的年齡」。",
+        "school-pdf-002": "本句指「正式上課的一天；複數亦可指學生時代」。",
         "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
         "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
         "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
         "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
         "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。"
       },
-      "correctOption": "school-mcq-20"
+      "correctOption": "school-pdf-002"
     },
     {
       "id": "school-26-1",
-      "sense": "school-mcq-20",
+      "sense": "school-pdf-002",
       "en": "She remembered her school days fondly.",
       "zh": "她很懷念自己的學生時代／求學日子。",
       "masked": "She remembered her ____ days fondly.",
       "options": [
-        "school-mcq-20",
+        "school-pdf-002",
         "school-mcq-19",
         "school-mcq-21",
         "school-mcq-18",
         "school-mcq-22",
         "school-mcq-17"
       ],
-      "explanation": "本句的「school」指「已達一般接受正式學校教育的年齡」。",
+      "explanation": "本句的「school」指「正式上課的一天；複數亦可指學生時代」。",
       "sentenceIndex": 52,
       "sourcePractice": 53,
       "targets": [
         "school"
       ],
       "optionReasons": {
-        "school-mcq-20": "本句指「已達一般接受正式學校教育的年齡」。",
+        "school-pdf-002": "本句指「正式上課的一天；複數亦可指學生時代」。",
         "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
         "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
         "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
         "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
         "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。"
       },
-      "correctOption": "school-mcq-20"
+      "correctOption": "school-pdf-002"
     },
     {
       "id": "school-27-0",

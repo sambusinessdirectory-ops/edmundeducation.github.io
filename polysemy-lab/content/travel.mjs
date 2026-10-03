@@ -48,16 +48,6 @@ export default {
           "She travels a lot for her job.",
           "她因工作而經常到不同地方出差／旅行。",
           "進行旅行或經常前往不同地方的活動"
-        ],
-        [
-          "We usually travel by train.",
-          "我們通常乘火車出行。",
-          "進行旅行或經常前往不同地方的活動"
-        ],
-        [
-          "It is often cheaper to travel by bus.",
-          "乘巴士出行通常比較便宜。",
-          "進行旅行或經常前往不同地方的活動"
         ]
       ],
       "options": [],
@@ -337,6 +327,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "travel-pdf-001",
+      "title": "以某種交通工具完成旅程",
+      "form": "3. travel by + transport（交通工具） — 乘……出行",
+      "en": "3. travel by + transport（交通工具） — 乘……出行",
+      "zh": "以某種交通工具完成旅程",
+      "note": "原始 PDF 第 3 節：以某種交通工具完成旅程",
+      "examples": [
+        [
+          "We usually travel by train.",
+          "我們通常乘火車出行。",
+          "以某種交通工具完成旅程"
+        ],
+        [
+          "It is often cheaper to travel by bus.",
+          "乘巴士出行通常比較便宜。",
+          "以某種交通工具完成旅程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -492,63 +504,63 @@ export default {
     },
     {
       "id": "travel-03-0",
-      "sense": "travel-mcq-02",
+      "sense": "travel-pdf-001",
       "en": "We usually travel by train.",
       "zh": "我們通常乘火車出行。",
       "masked": "We usually ____.",
       "options": [
-        "travel-mcq-02",
+        "travel-pdf-001",
         "travel-mcq-01",
         "travel-mcq-03",
         "travel-mcq-04",
         "travel-mcq-05",
         "travel-mcq-06"
       ],
-      "explanation": "本句的「travel by train」指「進行旅行或經常前往不同地方的活動」。",
+      "explanation": "本句的「travel by train」指「以某種交通工具完成旅程」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "travel by train"
       ],
       "optionReasons": {
-        "travel-mcq-02": "本句指「進行旅行或經常前往不同地方的活動」。",
+        "travel-pdf-001": "本句指「以某種交通工具完成旅程」。",
         "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
         "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
         "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
         "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
         "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
       },
-      "correctOption": "travel-mcq-02"
+      "correctOption": "travel-pdf-001"
     },
     {
       "id": "travel-03-1",
-      "sense": "travel-mcq-02",
+      "sense": "travel-pdf-001",
       "en": "It is often cheaper to travel by bus.",
       "zh": "乘巴士出行通常比較便宜。",
       "masked": "It is often cheaper to ____.",
       "options": [
-        "travel-mcq-02",
+        "travel-pdf-001",
         "travel-mcq-01",
         "travel-mcq-03",
         "travel-mcq-04",
         "travel-mcq-05",
         "travel-mcq-06"
       ],
-      "explanation": "本句的「travel by bus」指「進行旅行或經常前往不同地方的活動」。",
+      "explanation": "本句的「travel by bus」指「以某種交通工具完成旅程」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "travel by bus"
       ],
       "optionReasons": {
-        "travel-mcq-02": "本句指「進行旅行或經常前往不同地方的活動」。",
+        "travel-pdf-001": "本句指「以某種交通工具完成旅程」。",
         "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
         "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
         "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
         "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
         "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
       },
-      "correctOption": "travel-mcq-02"
+      "correctOption": "travel-pdf-001"
     },
     {
       "id": "travel-04-0",

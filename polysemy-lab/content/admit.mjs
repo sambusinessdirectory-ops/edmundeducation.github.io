@@ -181,26 +181,6 @@ export default {
           "She was afraid to admit the truth.",
           "她害怕承認真相。",
           "承認真相"
-        ],
-        [
-          "He reluctantly admitted that I was right.",
-          "他很不情願地承認我是對的。",
-          "承認真相"
-        ],
-        [
-          "She admitted reluctantly that the plan had failed.",
-          "她不情願地承認計劃失敗了。",
-          "承認真相"
-        ],
-        [
-          "He openly admitted his mistake.",
-          "他公開承認了自己的錯誤。",
-          "承認真相"
-        ],
-        [
-          "She freely admitted that she had forgotten.",
-          "她坦白承認自己忘記了。",
-          "承認真相"
         ]
       ],
       "options": [],
@@ -530,6 +510,50 @@ export default {
           "The court excluded the inadmissible evidence.",
           "法院排除了不可採納的證據。",
           "不可接納的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "admit-pdf-001",
+      "title": "雖然不願意，但仍承認某件事是真的",
+      "form": "9. admit something reluctantly — 不情願地承認",
+      "en": "9. admit something reluctantly — 不情願地承認",
+      "zh": "雖然不願意，但仍承認某件事是真的",
+      "note": "原始 PDF 第 9 節：雖然不願意，但仍承認某件事是真的",
+      "examples": [
+        [
+          "He reluctantly admitted that I was right.",
+          "他很不情願地承認我是對的。",
+          "雖然不願意，但仍承認某件事是真的"
+        ],
+        [
+          "She admitted reluctantly that the plan had failed.",
+          "她不情願地承認計劃失敗了。",
+          "雖然不願意，但仍承認某件事是真的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "admit-pdf-002",
+      "title": "不隱瞞、不迴避地承認某件事",
+      "form": "10. freely / openly admit — 坦白／公開承認",
+      "en": "10. freely / openly admit — 坦白／公開承認",
+      "zh": "不隱瞞、不迴避地承認某件事",
+      "note": "原始 PDF 第 10 節：不隱瞞、不迴避地承認某件事",
+      "examples": [
+        [
+          "He openly admitted his mistake.",
+          "他公開承認了自己的錯誤。",
+          "不隱瞞、不迴避地承認某件事"
+        ],
+        [
+          "She freely admitted that she had forgotten.",
+          "她坦白承認自己忘記了。",
+          "不隱瞞、不迴避地承認某件事"
         ]
       ],
       "options": [],
@@ -1049,123 +1073,123 @@ export default {
     },
     {
       "id": "admit-09-0",
-      "sense": "admit-mcq-08",
+      "sense": "admit-pdf-001",
       "en": "He reluctantly admitted that I was right.",
       "zh": "他很不情願地承認我是對的。",
       "masked": "He ____ that I was right.",
       "options": [
-        "admit-mcq-08",
+        "admit-pdf-001",
         "admit-mcq-07",
         "admit-mcq-09",
         "admit-mcq-06",
         "admit-mcq-10",
         "admit-mcq-05"
       ],
-      "explanation": "本句的「reluctantly admitted」指「承認真相」。",
+      "explanation": "本句的「reluctantly admitted」指「雖然不願意，但仍承認某件事是真的」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "reluctantly admitted"
       ],
       "optionReasons": {
-        "admit-mcq-08": "本句指「承認真相」。",
+        "admit-pdf-001": "本句指「雖然不願意，但仍承認某件事是真的」。",
         "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
         "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
         "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
         "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
         "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
       },
-      "correctOption": "admit-mcq-08"
+      "correctOption": "admit-pdf-001"
     },
     {
       "id": "admit-09-1",
-      "sense": "admit-mcq-08",
+      "sense": "admit-pdf-001",
       "en": "She admitted reluctantly that the plan had failed.",
       "zh": "她不情願地承認計劃失敗了。",
       "masked": "She ____ that the plan had failed.",
       "options": [
-        "admit-mcq-08",
+        "admit-pdf-001",
         "admit-mcq-07",
         "admit-mcq-09",
         "admit-mcq-06",
         "admit-mcq-10",
         "admit-mcq-05"
       ],
-      "explanation": "本句的「admitted reluctantly」指「承認真相」。",
+      "explanation": "本句的「admitted reluctantly」指「雖然不願意，但仍承認某件事是真的」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "admitted reluctantly"
       ],
       "optionReasons": {
-        "admit-mcq-08": "本句指「承認真相」。",
+        "admit-pdf-001": "本句指「雖然不願意，但仍承認某件事是真的」。",
         "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
         "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
         "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
         "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
         "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
       },
-      "correctOption": "admit-mcq-08"
+      "correctOption": "admit-pdf-001"
     },
     {
       "id": "admit-10-0",
-      "sense": "admit-mcq-08",
+      "sense": "admit-pdf-002",
       "en": "He openly admitted his mistake.",
       "zh": "他公開承認了自己的錯誤。",
       "masked": "He ____ his mistake.",
       "options": [
-        "admit-mcq-08",
+        "admit-pdf-002",
         "admit-mcq-07",
         "admit-mcq-09",
         "admit-mcq-06",
         "admit-mcq-10",
         "admit-mcq-05"
       ],
-      "explanation": "本句的「openly admitted」指「承認真相」。",
+      "explanation": "本句的「openly admitted」指「不隱瞞、不迴避地承認某件事」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "openly admitted"
       ],
       "optionReasons": {
-        "admit-mcq-08": "本句指「承認真相」。",
+        "admit-pdf-002": "本句指「不隱瞞、不迴避地承認某件事」。",
         "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
         "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
         "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
         "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
         "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
       },
-      "correctOption": "admit-mcq-08"
+      "correctOption": "admit-pdf-002"
     },
     {
       "id": "admit-10-1",
-      "sense": "admit-mcq-08",
+      "sense": "admit-pdf-002",
       "en": "She freely admitted that she had forgotten.",
       "zh": "她坦白承認自己忘記了。",
       "masked": "She ____ that she had forgotten.",
       "options": [
-        "admit-mcq-08",
+        "admit-pdf-002",
         "admit-mcq-07",
         "admit-mcq-09",
         "admit-mcq-06",
         "admit-mcq-10",
         "admit-mcq-05"
       ],
-      "explanation": "本句的「freely admitted」指「承認真相」。",
+      "explanation": "本句的「freely admitted」指「不隱瞞、不迴避地承認某件事」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "freely admitted"
       ],
       "optionReasons": {
-        "admit-mcq-08": "本句指「承認真相」。",
+        "admit-pdf-002": "本句指「不隱瞞、不迴避地承認某件事」。",
         "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
         "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
         "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
         "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
         "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
       },
-      "correctOption": "admit-mcq-08"
+      "correctOption": "admit-pdf-002"
     },
     {
       "id": "admit-11-0",

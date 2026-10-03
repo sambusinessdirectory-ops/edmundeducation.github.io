@@ -143,18 +143,7 @@ export default {
       "en": "address — digital/computing",
       "zh": "識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址",
       "note": "來源詞義：識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址",
-      "examples": [
-        [
-          "Every device on the network has an IP address.",
-          "網絡上的每部裝置都有一個 IP 位址。",
-          "識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址"
-        ],
-        [
-          "The program stores the value at a specific memory address.",
-          "程式把數值儲存在特定的記憶體位址。",
-          "識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -243,6 +232,28 @@ export default {
       "zh": "尚未處理的；或沒有寫地址的",
       "note": "來源詞義：尚未處理的；或沒有寫地址的",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "address-pdf-001",
+      "title": "在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識",
+      "form": "memory address",
+      "en": "memory address",
+      "zh": "在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識",
+      "note": "原始 PDF 第 None 節：在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識",
+      "examples": [
+        [
+          "Every device on the network has an IP address.",
+          "網絡上的每部裝置都有一個 IP 位址。",
+          "在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識"
+        ],
+        [
+          "The program stores the value at a specific memory address.",
+          "程式把數值儲存在特定的記憶體位址。",
+          "在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -610,63 +621,63 @@ export default {
     },
     {
       "id": "address-08-0",
-      "sense": "address-mcq-07",
+      "sense": "address-pdf-001",
       "en": "Every device on the network has an IP address.",
       "zh": "網絡上的每部裝置都有一個 IP 位址。",
       "masked": "Every device on the network has an IP ____.",
       "options": [
-        "address-mcq-07",
+        "address-pdf-001",
         "address-mcq-06",
         "address-mcq-08",
         "address-mcq-05",
         "address-mcq-09",
         "address-mcq-04"
       ],
-      "explanation": "本句的「address」指「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」。",
+      "explanation": "本句的「address」指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "address"
       ],
       "optionReasons": {
-        "address-mcq-07": "本句指「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」。",
+        "address-pdf-001": "本句指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
         "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
         "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
         "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
         "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
         "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。"
       },
-      "correctOption": "address-mcq-07"
+      "correctOption": "address-pdf-001"
     },
     {
       "id": "address-08-1",
-      "sense": "address-mcq-07",
+      "sense": "address-pdf-001",
       "en": "The program stores the value at a specific memory address.",
       "zh": "程式把數值儲存在特定的記憶體位址。",
       "masked": "The program stores the value at a specific memory ____.",
       "options": [
-        "address-mcq-07",
+        "address-pdf-001",
         "address-mcq-06",
         "address-mcq-08",
         "address-mcq-05",
         "address-mcq-09",
         "address-mcq-04"
       ],
-      "explanation": "本句的「address」指「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」。",
+      "explanation": "本句的「address」指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "address"
       ],
       "optionReasons": {
-        "address-mcq-07": "本句指「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」。",
+        "address-pdf-001": "本句指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
         "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
         "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
         "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
         "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
         "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。"
       },
-      "correctOption": "address-mcq-07"
+      "correctOption": "address-pdf-001"
     },
     {
       "id": "address-09-0",

@@ -178,16 +178,6 @@ export default {
       "note": "來源詞義：在表面形成硬化、乾燥或凝固的層",
       "examples": [
         [
-          "The cheese develops a natural crust as it ages.",
-          "芝士熟成時會形成天然的外殼。",
-          "在表面形成硬化、乾燥或凝固的層"
-        ],
-        [
-          "The material formed a hard crust while remaining soft inside.",
-          "材料外面形成硬殼，但內部仍然柔軟。",
-          "在表面形成硬化、乾燥或凝固的層"
-        ],
-        [
           "Salt crusted around the edge of the container.",
           "鹽在容器邊緣結成硬殼。",
           "在表面形成硬化、乾燥或凝固的層"
@@ -301,6 +291,28 @@ export default {
           "The hotel was once popular with the upper crust.",
           "這間酒店過去很受上流社會歡迎。",
           "社會中富有、地位最高的一群人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "crust-pdf-001",
+      "title": "某物外面較硬、裡面相對較軟的外層",
+      "form": "9. crust = firm surface around a softer interior — 外殼；硬外層",
+      "en": "9. crust = firm surface around a softer interior — 外殼；硬外層",
+      "zh": "某物外面較硬、裡面相對較軟的外層",
+      "note": "原始 PDF 第 9 節：某物外面較硬、裡面相對較軟的外層",
+      "examples": [
+        [
+          "The cheese develops a natural crust as it ages.",
+          "芝士熟成時會形成天然的外殼。",
+          "某物外面較硬、裡面相對較軟的外層"
+        ],
+        [
+          "The material formed a hard crust while remaining soft inside.",
+          "材料外面形成硬殼，但內部仍然柔軟。",
+          "某物外面較硬、裡面相對較軟的外層"
         ]
       ],
       "options": [],
@@ -790,63 +802,63 @@ export default {
     },
     {
       "id": "crust-09-0",
-      "sense": "crust-mcq-08",
+      "sense": "crust-pdf-001",
       "en": "The cheese develops a natural crust as it ages.",
       "zh": "芝士熟成時會形成天然的外殼。",
       "masked": "The cheese develops a natural ____ as it ages.",
       "options": [
-        "crust-mcq-08",
+        "crust-pdf-001",
         "crust-mcq-07",
         "crust-mcq-09",
         "crust-mcq-06",
         "crust-mcq-10",
         "crust-mcq-05"
       ],
-      "explanation": "本句的「crust」指「在表面形成硬化、乾燥或凝固的層」。",
+      "explanation": "本句的「crust」指「某物外面較硬、裡面相對較軟的外層」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-08": "本句指「在表面形成硬化、乾燥或凝固的層」。",
+        "crust-pdf-001": "本句指「某物外面較硬、裡面相對較軟的外層」。",
         "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
         "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
         "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
         "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
         "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。"
       },
-      "correctOption": "crust-mcq-08"
+      "correctOption": "crust-pdf-001"
     },
     {
       "id": "crust-09-1",
-      "sense": "crust-mcq-08",
+      "sense": "crust-pdf-001",
       "en": "The material formed a hard crust while remaining soft inside.",
       "zh": "材料外面形成硬殼，但內部仍然柔軟。",
       "masked": "The material formed a hard ____ while remaining soft inside.",
       "options": [
-        "crust-mcq-08",
+        "crust-pdf-001",
         "crust-mcq-07",
         "crust-mcq-09",
         "crust-mcq-06",
         "crust-mcq-10",
         "crust-mcq-05"
       ],
-      "explanation": "本句的「crust」指「在表面形成硬化、乾燥或凝固的層」。",
+      "explanation": "本句的「crust」指「某物外面較硬、裡面相對較軟的外層」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-08": "本句指「在表面形成硬化、乾燥或凝固的層」。",
+        "crust-pdf-001": "本句指「某物外面較硬、裡面相對較軟的外層」。",
         "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
         "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
         "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
         "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
         "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。"
       },
-      "correctOption": "crust-mcq-08"
+      "correctOption": "crust-pdf-001"
     },
     {
       "id": "crust-10-0",

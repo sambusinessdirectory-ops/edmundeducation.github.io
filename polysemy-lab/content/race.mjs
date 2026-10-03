@@ -465,16 +465,6 @@ export default {
           "The report discusses racial discrimination.",
           "報告討論種族歧視問題。",
           "與種族分類、身份或不同種族群體關係有關的"
-        ],
-        [
-          "The campaign aims to challenge racism.",
-          "這項運動旨在反對種族主義／種族歧視。",
-          "與種族分類、身份或不同種族群體關係有關的"
-        ],
-        [
-          "The company has policies against racism.",
-          "公司有反對種族歧視的政策。",
-          "與種族分類、身份或不同種族群體關係有關的"
         ]
       ],
       "options": [],
@@ -573,6 +563,28 @@ export default {
           "I was racing from task to task all day.",
           "我整天都在不同工作之間忙著趕來趕去。",
           "因時間緊迫而在不同地方／工作之間快速奔波"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "race-pdf-001",
+      "title": "基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想",
+      "form": "23. racism（種族歧視／種族主義） — 種族主義；種族歧視",
+      "en": "23. racism（種族歧視／種族主義） — 種族主義；種族歧視",
+      "zh": "基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想",
+      "note": "原始 PDF 第 23 節：基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想",
+      "examples": [
+        [
+          "The campaign aims to challenge racism.",
+          "這項運動旨在反對種族主義／種族歧視。",
+          "基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想"
+        ],
+        [
+          "The company has policies against racism.",
+          "公司有反對種族歧視的政策。",
+          "基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想"
         ]
       ],
       "options": [],
@@ -1932,63 +1944,63 @@ export default {
     },
     {
       "id": "race-23-0",
-      "sense": "race-mcq-20",
+      "sense": "race-pdf-001",
       "en": "The campaign aims to challenge racism.",
       "zh": "這項運動旨在反對種族主義／種族歧視。",
       "masked": "The campaign aims to challenge ____.",
       "options": [
-        "race-mcq-20",
+        "race-pdf-001",
         "race-mcq-19",
         "race-mcq-21",
         "race-mcq-18",
         "race-mcq-22",
         "race-mcq-17"
       ],
-      "explanation": "本句的「racism」指「與種族分類、身份或不同種族群體關係有關的」。",
+      "explanation": "本句的「racism」指「基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "racism"
       ],
       "optionReasons": {
-        "race-mcq-20": "本句指「與種族分類、身份或不同種族群體關係有關的」。",
+        "race-pdf-001": "本句指「基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想」。",
         "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
         "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
         "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
         "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
         "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。"
       },
-      "correctOption": "race-mcq-20"
+      "correctOption": "race-pdf-001"
     },
     {
       "id": "race-23-1",
-      "sense": "race-mcq-20",
+      "sense": "race-pdf-001",
       "en": "The company has policies against racism.",
       "zh": "公司有反對種族歧視的政策。",
       "masked": "The company has policies against ____.",
       "options": [
-        "race-mcq-20",
+        "race-pdf-001",
         "race-mcq-19",
         "race-mcq-21",
         "race-mcq-18",
         "race-mcq-22",
         "race-mcq-17"
       ],
-      "explanation": "本句的「racism」指「與種族分類、身份或不同種族群體關係有關的」。",
+      "explanation": "本句的「racism」指「基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "racism"
       ],
       "optionReasons": {
-        "race-mcq-20": "本句指「與種族分類、身份或不同種族群體關係有關的」。",
+        "race-pdf-001": "本句指「基於種族分類而產生的偏見、歧視，或主張某些種族優越／低劣的思想」。",
         "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
         "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
         "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
         "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
         "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。"
       },
-      "correctOption": "race-mcq-20"
+      "correctOption": "race-pdf-001"
     },
     {
       "id": "race-24-0",

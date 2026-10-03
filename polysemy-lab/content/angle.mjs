@@ -45,18 +45,7 @@ export default {
       "en": "from all angles",
       "zh": "從各方面",
       "note": "來源詞義：從各方面",
-      "examples": [
-        [
-          "We should look at the proposal from every angle.",
-          "我們應該從各個角度考慮這項提案。",
-          "從各方面"
-        ],
-        [
-          "The teacher encouraged us to examine the event from all angles.",
-          "老師鼓勵我們從各方面審視這件事。",
-          "從各方面"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -351,16 +340,6 @@ export default {
           "Angling is a popular outdoor activity.",
           "垂釣是一種很受歡迎的戶外活動。",
           "垂釣"
-        ],
-        [
-          "They spent the afternoon angling for trout.",
-          "他們下午都在釣鱒魚。",
-          "垂釣"
-        ],
-        [
-          "He likes to angle in mountain streams.",
-          "他喜歡在山溪中垂釣。",
-          "垂釣"
         ]
       ],
       "options": [],
@@ -486,6 +465,50 @@ export default {
           "I couldn't figure out her angle.",
           "我猜不到她的真正打算。",
           "某人為取得某種結果而採用的隱藏策略、目的或盤算"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "angle-pdf-001",
+      "title": "從多個不同方面全面分析某件事",
+      "form": "3. look at something from every angle — 從各方面考慮",
+      "en": "3. look at something from every angle — 從各方面考慮",
+      "zh": "從多個不同方面全面分析某件事",
+      "note": "原始 PDF 第 3 節：從多個不同方面全面分析某件事",
+      "examples": [
+        [
+          "We should look at the proposal from every angle.",
+          "我們應該從各個角度考慮這項提案。",
+          "從多個不同方面全面分析某件事"
+        ],
+        [
+          "The teacher encouraged us to examine the event from all angles.",
+          "老師鼓勵我們從各方面審視這件事。",
+          "從多個不同方面全面分析某件事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "angle-pdf-002",
+      "title": "用魚竿和魚鉤釣魚",
+      "form": "19. angle for fish — 垂釣",
+      "en": "19. angle for fish — 垂釣",
+      "zh": "用魚竿和魚鉤釣魚",
+      "note": "原始 PDF 第 19 節：用魚竿和魚鉤釣魚",
+      "examples": [
+        [
+          "They spent the afternoon angling for trout.",
+          "他們下午都在釣鱒魚。",
+          "用魚竿和魚鉤釣魚"
+        ],
+        [
+          "He likes to angle in mountain streams.",
+          "他喜歡在山溪中垂釣。",
+          "用魚竿和魚鉤釣魚"
         ]
       ],
       "options": [],
@@ -645,63 +668,63 @@ export default {
     },
     {
       "id": "angle-03-0",
-      "sense": "angle-mcq-03",
+      "sense": "angle-pdf-001",
       "en": "We should look at the proposal from every angle.",
       "zh": "我們應該從各個角度考慮這項提案。",
       "masked": "We should look at the proposal from ____.",
       "options": [
-        "angle-mcq-03",
+        "angle-pdf-001",
         "angle-mcq-02",
         "angle-mcq-04",
         "angle-mcq-01",
         "angle-mcq-05",
         "angle-mcq-06"
       ],
-      "explanation": "本句的「every angle」指「從各方面」。",
+      "explanation": "本句的「every angle」指「從多個不同方面全面分析某件事」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "every angle"
       ],
       "optionReasons": {
-        "angle-mcq-03": "本句指「從各方面」。",
+        "angle-pdf-001": "本句指「從多個不同方面全面分析某件事」。",
         "angle-mcq-02": "「從另一角度」是「from another angle」的用法，與本句語境不同。",
         "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
         "angle-mcq-01": "「角度；觀點」是「angle (viewpoint)」的用法，與本句語境不同。",
         "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
         "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
       },
-      "correctOption": "angle-mcq-03"
+      "correctOption": "angle-pdf-001"
     },
     {
       "id": "angle-03-1",
-      "sense": "angle-mcq-03",
+      "sense": "angle-pdf-001",
       "en": "The teacher encouraged us to examine the event from all angles.",
       "zh": "老師鼓勵我們從各方面審視這件事。",
       "masked": "The teacher encouraged us to examine the event from ____.",
       "options": [
-        "angle-mcq-03",
+        "angle-pdf-001",
         "angle-mcq-02",
         "angle-mcq-04",
         "angle-mcq-01",
         "angle-mcq-05",
         "angle-mcq-06"
       ],
-      "explanation": "本句的「all angles」指「從各方面」。",
+      "explanation": "本句的「all angles」指「從多個不同方面全面分析某件事」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "all angles"
       ],
       "optionReasons": {
-        "angle-mcq-03": "本句指「從各方面」。",
+        "angle-pdf-001": "本句指「從多個不同方面全面分析某件事」。",
         "angle-mcq-02": "「從另一角度」是「from another angle」的用法，與本句語境不同。",
         "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
         "angle-mcq-01": "「角度；觀點」是「angle (viewpoint)」的用法，與本句語境不同。",
         "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
         "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
       },
-      "correctOption": "angle-mcq-03"
+      "correctOption": "angle-pdf-001"
     },
     {
       "id": "angle-04-0",
@@ -1605,63 +1628,63 @@ export default {
     },
     {
       "id": "angle-19-0",
-      "sense": "angle-mcq-18",
+      "sense": "angle-pdf-002",
       "en": "They spent the afternoon angling for trout.",
       "zh": "他們下午都在釣鱒魚。",
       "masked": "They spent the afternoon ____.",
       "options": [
-        "angle-mcq-18",
+        "angle-pdf-002",
         "angle-mcq-17",
         "angle-mcq-19",
         "angle-mcq-16",
         "angle-mcq-20",
         "angle-mcq-15"
       ],
-      "explanation": "本句的「angling for trout」指「垂釣」。",
+      "explanation": "本句的「angling for trout」指「用魚竿和魚鉤釣魚」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "angling for trout"
       ],
       "optionReasons": {
-        "angle-mcq-18": "本句指「垂釣」。",
+        "angle-pdf-002": "本句指「用魚竿和魚鉤釣魚」。",
         "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
         "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
         "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
         "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
         "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。"
       },
-      "correctOption": "angle-mcq-18"
+      "correctOption": "angle-pdf-002"
     },
     {
       "id": "angle-19-1",
-      "sense": "angle-mcq-18",
+      "sense": "angle-pdf-002",
       "en": "He likes to angle in mountain streams.",
       "zh": "他喜歡在山溪中垂釣。",
       "masked": "He likes to ____.",
       "options": [
-        "angle-mcq-18",
+        "angle-pdf-002",
         "angle-mcq-17",
         "angle-mcq-19",
         "angle-mcq-16",
         "angle-mcq-20",
         "angle-mcq-15"
       ],
-      "explanation": "本句的「angle in mountain streams」指「垂釣」。",
+      "explanation": "本句的「angle in mountain streams」指「用魚竿和魚鉤釣魚」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "angle in mountain streams"
       ],
       "optionReasons": {
-        "angle-mcq-18": "本句指「垂釣」。",
+        "angle-pdf-002": "本句指「用魚竿和魚鉤釣魚」。",
         "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
         "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
         "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
         "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
         "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。"
       },
-      "correctOption": "angle-mcq-18"
+      "correctOption": "angle-pdf-002"
     },
     {
       "id": "angle-20-0",

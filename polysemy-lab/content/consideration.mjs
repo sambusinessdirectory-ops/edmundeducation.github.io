@@ -348,23 +348,7 @@ export default {
       "en": "consideration — thoughtfulness",
       "zh": "顧及／體諒別人的需要與感受",
       "note": "來源詞義：顧及／體諒別人的需要與感受",
-      "examples": [
-        [
-          "Convenience matters more than consideration.",
-          "個人方便似乎比體諒別人更重要。",
-          "顧及／體諒別人的需要與感受"
-        ],
-        [
-          "Please show some consideration for other passengers.",
-          "請多體諒／顧及其他乘客。",
-          "顧及／體諒別人的需要與感受"
-        ],
-        [
-          "He has very little consideration for his neighbours.",
-          "他很少顧及鄰居的感受。",
-          "顧及／體諒別人的需要與感受"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -530,18 +514,7 @@ export default {
       "en": "considerate",
       "zh": "願意顧及別人需要、感受和方便的；體貼的",
       "note": "來源詞義：願意顧及別人需要、感受和方便的；體貼的",
-      "examples": [
-        [
-          "It was considerate of her to keep her voice low.",
-          "她把聲音降低，真的很體貼／顧及別人。",
-          "願意顧及別人需要、感受和方便的；體貼的"
-        ],
-        [
-          "Please be considerate of other customers.",
-          "請顧及／體諒其他顧客。",
-          "願意顧及別人需要、感受和方便的；體貼的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -569,13 +542,7 @@ export default {
       "en": "inconsiderate",
       "zh": "沒有顧及別人需要／感受的；不體貼的",
       "note": "來源詞義：沒有顧及別人需要／感受的；不體貼的",
-      "examples": [
-        [
-          "It was inconsiderate to occupy the table for three hours.",
-          "佔着桌子三小時是很不替別人着想的。",
-          "沒有顧及別人需要／感受的；不體貼的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -586,18 +553,7 @@ export default {
       "en": "reconsider",
       "zh": "對原有決定、觀點或計劃重新思考",
       "note": "來源詞義：對原有決定、觀點或計劃重新思考",
-      "examples": [
-        [
-          "The company agreed to reconsider its decision.",
-          "公司同意重新考慮其決定。",
-          "對原有決定、觀點或計劃重新思考"
-        ],
-        [
-          "You may want to reconsider your options.",
-          "你可能需要重新考慮自己的選擇。",
-          "對原有決定、觀點或計劃重新思考"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -613,6 +569,94 @@ export default {
           "The decision is open to reconsideration.",
           "這個決定仍可重新考慮。",
           "對原有決定／問題重新審議"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "consideration-pdf-001",
+      "title": "願意想到自己的行為對別人造成甚麼影響",
+      "form": "34. consideration = thoughtful concern for other people（體諒） — 體貼；顧及；為別人着想",
+      "en": "34. consideration = thoughtful concern for other people（體諒） — 體貼；顧及；為別人着想",
+      "zh": "願意想到自己的行為對別人造成甚麼影響",
+      "note": "原始 PDF 第 34 節：願意想到自己的行為對別人造成甚麼影響",
+      "examples": [
+        [
+          "Convenience matters more than consideration.",
+          "個人方便似乎比體諒別人更重要。",
+          "願意想到自己的行為對別人造成甚麼影響"
+        ],
+        [
+          "Please show some consideration for other passengers.",
+          "請多體諒／顧及其他乘客。",
+          "願意想到自己的行為對別人造成甚麼影響"
+        ],
+        [
+          "He has very little consideration for his neighbours.",
+          "他很少顧及鄰居的感受。",
+          "願意想到自己的行為對別人造成甚麼影響"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "consideration-pdf-002",
+      "title": "會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適",
+      "form": "53. considerate = thoughtful about other people's needs/feelings（體貼） — 體貼的；為別人",
+      "en": "53. considerate = thoughtful about other people's needs/feelings（體貼） — 體貼的；為別人",
+      "zh": "會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適",
+      "note": "原始 PDF 第 53 節：會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適",
+      "examples": [
+        [
+          "It was considerate of her to keep her voice low.",
+          "她把聲音降低，真的很體貼／顧及別人。",
+          "會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適"
+        ],
+        [
+          "Please be considerate of other customers.",
+          "請顧及／體諒其他顧客。",
+          "會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "consideration-pdf-003",
+      "title": "沒有充分考慮自己的行為會怎樣影響其他人",
+      "form": "57. inconsiderate = not thinking about other people's needs/feelings（不體諒） — 不體貼的；",
+      "en": "57. inconsiderate = not thinking about other people's needs/feelings（不體諒） — 不體貼的；",
+      "zh": "沒有充分考慮自己的行為會怎樣影響其他人",
+      "note": "原始 PDF 第 57 節：沒有充分考慮自己的行為會怎樣影響其他人",
+      "examples": [
+        [
+          "It was inconsiderate to occupy the table for three hours.",
+          "佔着桌子三小時是很不替別人着想的。",
+          "沒有充分考慮自己的行為會怎樣影響其他人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "consideration-pdf-004",
+      "title": "因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情",
+      "form": "62. reconsider = think again about a decision/opinion/plan（重新考慮） — 重新考慮；再作考",
+      "en": "62. reconsider = think again about a decision/opinion/plan（重新考慮） — 重新考慮；再作考",
+      "zh": "因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情",
+      "note": "原始 PDF 第 62 節：因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情",
+      "examples": [
+        [
+          "The company agreed to reconsider its decision.",
+          "公司同意重新考慮其決定。",
+          "因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情"
+        ],
+        [
+          "You may want to reconsider your options.",
+          "你可能需要重新考慮自己的選擇。",
+          "因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情"
         ]
       ],
       "options": [],
@@ -1492,93 +1536,93 @@ export default {
     },
     {
       "id": "consideration-34-0",
-      "sense": "consideration-mcq-17",
+      "sense": "consideration-pdf-001",
       "en": "Convenience matters more than consideration.",
       "zh": "個人方便似乎比體諒別人更重要。",
       "masked": "Convenience matters more than ____.",
       "options": [
-        "consideration-mcq-17",
+        "consideration-pdf-001",
         "consideration-mcq-16",
         "consideration-mcq-18",
         "consideration-mcq-15",
         "consideration-mcq-19",
         "consideration-mcq-14"
       ],
-      "explanation": "本句的「consideration」指「顧及／體諒別人的需要與感受」。",
+      "explanation": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
       "sentenceIndex": 33,
       "sourcePractice": 41,
       "targets": [
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-17": "本句指「顧及／體諒別人的需要與感受」。",
+        "consideration-pdf-001": "本句指「願意想到自己的行為對別人造成甚麼影響」。",
         "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
         "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
         "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
         "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
         "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-17"
+      "correctOption": "consideration-pdf-001"
     },
     {
       "id": "consideration-34-1",
-      "sense": "consideration-mcq-17",
+      "sense": "consideration-pdf-001",
       "en": "Please show some consideration for other passengers.",
       "zh": "請多體諒／顧及其他乘客。",
       "masked": "Please show some ____ for other passengers.",
       "options": [
-        "consideration-mcq-17",
+        "consideration-pdf-001",
         "consideration-mcq-16",
         "consideration-mcq-18",
         "consideration-mcq-15",
         "consideration-mcq-19",
         "consideration-mcq-14"
       ],
-      "explanation": "本句的「consideration」指「顧及／體諒別人的需要與感受」。",
+      "explanation": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
       "sentenceIndex": 34,
       "sourcePractice": 42,
       "targets": [
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-17": "本句指「顧及／體諒別人的需要與感受」。",
+        "consideration-pdf-001": "本句指「願意想到自己的行為對別人造成甚麼影響」。",
         "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
         "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
         "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
         "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
         "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-17"
+      "correctOption": "consideration-pdf-001"
     },
     {
       "id": "consideration-34-2",
-      "sense": "consideration-mcq-17",
+      "sense": "consideration-pdf-001",
       "en": "He has very little consideration for his neighbours.",
       "zh": "他很少顧及鄰居的感受。",
       "masked": "He has very little ____ for his neighbours.",
       "options": [
-        "consideration-mcq-17",
+        "consideration-pdf-001",
         "consideration-mcq-16",
         "consideration-mcq-18",
         "consideration-mcq-15",
         "consideration-mcq-19",
         "consideration-mcq-14"
       ],
-      "explanation": "本句的「consideration」指「顧及／體諒別人的需要與感受」。",
+      "explanation": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
       "sentenceIndex": 35,
       "sourcePractice": 43,
       "targets": [
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-17": "本句指「顧及／體諒別人的需要與感受」。",
+        "consideration-pdf-001": "本句指「願意想到自己的行為對別人造成甚麼影響」。",
         "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
         "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
         "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
         "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
         "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-17"
+      "correctOption": "consideration-pdf-001"
     },
     {
       "id": "consideration-36-0",
@@ -1822,63 +1866,63 @@ export default {
     },
     {
       "id": "consideration-53-0",
-      "sense": "consideration-mcq-28",
+      "sense": "consideration-pdf-002",
       "en": "It was considerate of her to keep her voice low.",
       "zh": "她把聲音降低，真的很體貼／顧及別人。",
       "masked": "It was ____ of her to keep her voice low.",
       "options": [
-        "consideration-mcq-28",
+        "consideration-pdf-002",
         "consideration-mcq-27",
         "consideration-mcq-29",
         "consideration-mcq-26",
         "consideration-mcq-30",
         "consideration-mcq-25"
       ],
-      "explanation": "本句的「considerate」指「願意顧及別人需要、感受和方便的；體貼的」。",
+      "explanation": "本句的「considerate」指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
       "sentenceIndex": 44,
       "sourcePractice": 56,
       "targets": [
         "considerate"
       ],
       "optionReasons": {
-        "consideration-mcq-28": "本句指「願意顧及別人需要、感受和方便的；體貼的」。",
+        "consideration-pdf-002": "本句指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
         "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
         "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
         "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。",
         "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
         "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-28"
+      "correctOption": "consideration-pdf-002"
     },
     {
       "id": "consideration-53-1",
-      "sense": "consideration-mcq-28",
+      "sense": "consideration-pdf-002",
       "en": "Please be considerate of other customers.",
       "zh": "請顧及／體諒其他顧客。",
       "masked": "Please be ____ of other customers.",
       "options": [
-        "consideration-mcq-28",
+        "consideration-pdf-002",
         "consideration-mcq-27",
         "consideration-mcq-29",
         "consideration-mcq-26",
         "consideration-mcq-30",
         "consideration-mcq-25"
       ],
-      "explanation": "本句的「considerate」指「願意顧及別人需要、感受和方便的；體貼的」。",
+      "explanation": "本句的「considerate」指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
       "sentenceIndex": 45,
       "sourcePractice": 57,
       "targets": [
         "considerate"
       ],
       "optionReasons": {
-        "consideration-mcq-28": "本句指「願意顧及別人需要、感受和方便的；體貼的」。",
+        "consideration-pdf-002": "本句指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
         "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
         "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
         "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。",
         "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
         "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-28"
+      "correctOption": "consideration-pdf-002"
     },
     {
       "id": "consideration-56-0",
@@ -1912,93 +1956,93 @@ export default {
     },
     {
       "id": "consideration-57-0",
-      "sense": "consideration-mcq-30",
+      "sense": "consideration-pdf-003",
       "en": "It was inconsiderate to occupy the table for three hours.",
       "zh": "佔着桌子三小時是很不替別人着想的。",
       "masked": "It was ____ to occupy the table for three hours.",
       "options": [
-        "consideration-mcq-30",
+        "consideration-pdf-003",
         "consideration-mcq-29",
         "consideration-mcq-31",
         "consideration-mcq-28",
         "consideration-mcq-32",
         "consideration-mcq-27"
       ],
-      "explanation": "本句的「inconsiderate」指「沒有顧及別人需要／感受的；不體貼的」。",
+      "explanation": "本句的「inconsiderate」指「沒有充分考慮自己的行為會怎樣影響其他人」。",
       "sentenceIndex": 47,
       "sourcePractice": 59,
       "targets": [
         "inconsiderate"
       ],
       "optionReasons": {
-        "consideration-mcq-30": "本句指「沒有顧及別人需要／感受的；不體貼的」。",
+        "consideration-pdf-003": "本句指「沒有充分考慮自己的行為會怎樣影響其他人」。",
         "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
         "consideration-mcq-31": "「對原有決定、觀點或計劃重新思考」與本句語境不同。",
         "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
         "consideration-mcq-32": "「對原有決定／問題重新審議」與本句語境不同。",
         "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-30"
+      "correctOption": "consideration-pdf-003"
     },
     {
       "id": "consideration-62-0",
-      "sense": "consideration-mcq-31",
+      "sense": "consideration-pdf-004",
       "en": "The company agreed to reconsider its decision.",
       "zh": "公司同意重新考慮其決定。",
       "masked": "The company agreed to ____ its decision.",
       "options": [
-        "consideration-mcq-31",
+        "consideration-pdf-004",
         "consideration-mcq-30",
         "consideration-mcq-32",
         "consideration-mcq-29",
         "consideration-mcq-28",
         "consideration-mcq-27"
       ],
-      "explanation": "本句的「reconsider」指「對原有決定、觀點或計劃重新思考」。",
+      "explanation": "本句的「reconsider」指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
       "sentenceIndex": 48,
       "sourcePractice": 61,
       "targets": [
         "reconsider"
       ],
       "optionReasons": {
-        "consideration-mcq-31": "本句指「對原有決定、觀點或計劃重新思考」。",
+        "consideration-pdf-004": "本句指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
         "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
         "consideration-mcq-32": "「對原有決定／問題重新審議」與本句語境不同。",
         "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
         "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
         "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-31"
+      "correctOption": "consideration-pdf-004"
     },
     {
       "id": "consideration-62-1",
-      "sense": "consideration-mcq-31",
+      "sense": "consideration-pdf-004",
       "en": "You may want to reconsider your options.",
       "zh": "你可能需要重新考慮自己的選擇。",
       "masked": "You may want to ____ your options.",
       "options": [
-        "consideration-mcq-31",
+        "consideration-pdf-004",
         "consideration-mcq-30",
         "consideration-mcq-32",
         "consideration-mcq-29",
         "consideration-mcq-28",
         "consideration-mcq-27"
       ],
-      "explanation": "本句的「reconsider」指「對原有決定、觀點或計劃重新思考」。",
+      "explanation": "本句的「reconsider」指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
       "sentenceIndex": 49,
       "sourcePractice": 62,
       "targets": [
         "reconsider"
       ],
       "optionReasons": {
-        "consideration-mcq-31": "本句指「對原有決定、觀點或計劃重新思考」。",
+        "consideration-pdf-004": "本句指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
         "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
         "consideration-mcq-32": "「對原有決定／問題重新審議」與本句語境不同。",
         "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
         "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
         "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
       },
-      "correctOption": "consideration-mcq-31"
+      "correctOption": "consideration-pdf-004"
     },
     {
       "id": "consideration-65-0",

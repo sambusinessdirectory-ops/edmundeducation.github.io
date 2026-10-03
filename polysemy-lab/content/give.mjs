@@ -786,16 +786,6 @@ export default {
           "Use the given information to answer the question.",
           "使用已提供／已知的資料回答問題。",
           "已經被指定、提供或確定的"
-        ],
-        [
-          "I was given to understand that the meeting had been cancelled.",
-          "我據告知／據了解，會議已經取消。",
-          "已經被指定、提供或確定的"
-        ],
-        [
-          "We were given to believe that the project was on schedule.",
-          "我們一直被告知／以為項目正按進度進行。",
-          "已經被指定、提供或確定的"
         ]
       ],
       "options": [],
@@ -928,6 +918,28 @@ export default {
           "The question really gave the audience something to think about.",
           "這個問題確實引發了觀眾思考。",
           "提供新的資訊、觀點或問題，令某人需要進一步思考"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "give-pdf-001",
+      "title": "根據別人提供的資料而被告知／形成某種理解",
+      "form": "38. be given to understand/believe（被告知／被理解為） — 據告知；據了解",
+      "en": "38. be given to understand/believe（被告知／被理解為） — 據告知；據了解",
+      "zh": "根據別人提供的資料而被告知／形成某種理解",
+      "note": "原始 PDF 第 38 節：根據別人提供的資料而被告知／形成某種理解",
+      "examples": [
+        [
+          "I was given to understand that the meeting had been cancelled.",
+          "我據告知／據了解，會議已經取消。",
+          "根據別人提供的資料而被告知／形成某種理解"
+        ],
+        [
+          "We were given to believe that the project was on schedule.",
+          "我們一直被告知／以為項目正按進度進行。",
+          "根據別人提供的資料而被告知／形成某種理解"
         ]
       ],
       "options": [],
@@ -3067,63 +3079,63 @@ export default {
     },
     {
       "id": "give-38-0",
-      "sense": "give-mcq-38",
+      "sense": "give-pdf-001",
       "en": "I was given to understand that the meeting had been cancelled.",
       "zh": "我據告知／據了解，會議已經取消。",
       "masked": "I was ____ that the meeting had been cancelled.",
       "options": [
-        "give-mcq-38",
+        "give-pdf-001",
         "give-mcq-37",
         "give-mcq-39",
         "give-mcq-36",
         "give-mcq-40",
         "give-mcq-35"
       ],
-      "explanation": "本句的「given to understand」指「已經被指定、提供或確定的」。",
+      "explanation": "本句的「given to understand」指「根據別人提供的資料而被告知／形成某種理解」。",
       "sentenceIndex": 71,
       "sourcePractice": 72,
       "targets": [
         "given to understand"
       ],
       "optionReasons": {
-        "give-mcq-38": "本句指「已經被指定、提供或確定的」。",
+        "give-pdf-001": "本句指「根據別人提供的資料而被告知／形成某種理解」。",
         "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
         "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
         "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
         "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
         "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。"
       },
-      "correctOption": "give-mcq-38"
+      "correctOption": "give-pdf-001"
     },
     {
       "id": "give-38-1",
-      "sense": "give-mcq-38",
+      "sense": "give-pdf-001",
       "en": "We were given to believe that the project was on schedule.",
       "zh": "我們一直被告知／以為項目正按進度進行。",
       "masked": "We were ____ that the project was on schedule.",
       "options": [
-        "give-mcq-38",
+        "give-pdf-001",
         "give-mcq-37",
         "give-mcq-39",
         "give-mcq-36",
         "give-mcq-40",
         "give-mcq-35"
       ],
-      "explanation": "本句的「given to believe」指「已經被指定、提供或確定的」。",
+      "explanation": "本句的「given to believe」指「根據別人提供的資料而被告知／形成某種理解」。",
       "sentenceIndex": 72,
       "sourcePractice": 73,
       "targets": [
         "given to believe"
       ],
       "optionReasons": {
-        "give-mcq-38": "本句指「已經被指定、提供或確定的」。",
+        "give-pdf-001": "本句指「根據別人提供的資料而被告知／形成某種理解」。",
         "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
         "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
         "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
         "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
         "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。"
       },
-      "correctOption": "give-mcq-38"
+      "correctOption": "give-pdf-001"
     },
     {
       "id": "give-39-0",

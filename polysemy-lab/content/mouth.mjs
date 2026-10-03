@@ -36,16 +36,6 @@ export default {
       "note": "來源詞義：河流、洞穴、隧道等的出口／開口位置",
       "examples": [
         [
-          "There was chocolate around his mouth.",
-          "他的嘴邊沾了朱古力。",
-          "河流、洞穴、隧道等的出口／開口位置"
-        ],
-        [
-          "She wiped her mouth with a napkin.",
-          "她用餐巾擦了擦嘴。",
-          "河流、洞穴、隧道等的出口／開口位置"
-        ],
-        [
           "The village lies near the mouth of the river.",
           "這條村位於河口附近。",
           "河流、洞穴、隧道等的出口／開口位置"
@@ -85,16 +75,6 @@ export default {
         [
           "Another child meant another mouth to feed.",
           "多一個孩子就代表多一口人要供養。",
-          "需要吃飯、需要被供養的一個人"
-        ],
-        [
-          "He has a big mouth.",
-          "他很多嘴／口沒遮攔。",
-          "需要吃飯、需要被供養的一個人"
-        ],
-        [
-          "Watch your mouth.",
-          "說話注意一點／嘴巴放乾淨點。",
           "需要吃飯、需要被供養的一個人"
         ]
       ],
@@ -162,18 +142,7 @@ export default {
       "en": "mouth — verb: insincere",
       "zh": "機械／空泛地把某些說法或口號說出口",
       "note": "來源詞義：機械／空泛地把某些說法或口號說出口",
-      "examples": [
-        [
-          "He mouthed the usual excuses.",
-          "他只是機械式地說出那些老套藉口。",
-          "機械／空泛地把某些說法或口號說出口"
-        ],
-        [
-          "Politicians often mouth familiar slogans.",
-          "政客常常只是重複說著熟悉的口號。",
-          "機械／空泛地把某些說法或口號說出口"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -318,6 +287,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mouth-pdf-001",
+      "title": "嘴巴及其周圍口部區域",
+      "form": "2. mouth = lips / oral area in expressions — 嘴部；口部",
+      "en": "2. mouth = lips / oral area in expressions — 嘴部；口部",
+      "zh": "嘴巴及其周圍口部區域",
+      "note": "原始 PDF 第 2 節：嘴巴及其周圍口部區域",
+      "examples": [
+        [
+          "There was chocolate around his mouth.",
+          "他的嘴邊沾了朱古力。",
+          "嘴巴及其周圍口部區域"
+        ],
+        [
+          "She wiped her mouth with a napkin.",
+          "她用餐巾擦了擦嘴。",
+          "嘴巴及其周圍口部區域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mouth-pdf-002",
+      "title": "一個人說話、洩密、粗魯發言等的方式",
+      "form": "6. mouth = way of speaking / outspoken speech — 嘴；說話方式",
+      "en": "6. mouth = way of speaking / outspoken speech — 嘴；說話方式",
+      "zh": "一個人說話、洩密、粗魯發言等的方式",
+      "note": "原始 PDF 第 6 節：一個人說話、洩密、粗魯發言等的方式",
+      "examples": [
+        [
+          "He has a big mouth.",
+          "他很多嘴／口沒遮攔。",
+          "一個人說話、洩密、粗魯發言等的方式"
+        ],
+        [
+          "Watch your mouth.",
+          "說話注意一點／嘴巴放乾淨點。",
+          "一個人說話、洩密、粗魯發言等的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mouth-pdf-003",
+      "title": "把話說出口，但可能缺乏真誠、理解或實際行動",
+      "form": "10. mouth = verb, say words mechanically / without sincerity — 機械地說；空泛地說",
+      "en": "10. mouth = verb, say words mechanically / without sincerity — 機械地說；空泛地說",
+      "zh": "把話說出口，但可能缺乏真誠、理解或實際行動",
+      "note": "原始 PDF 第 10 節：把話說出口，但可能缺乏真誠、理解或實際行動",
+      "examples": [
+        [
+          "He mouthed the usual excuses.",
+          "他只是機械式地說出那些老套藉口。",
+          "把話說出口，但可能缺乏真誠、理解或實際行動"
+        ],
+        [
+          "Politicians often mouth familiar slogans.",
+          "政客常常只是重複說著熟悉的口號。",
+          "把話說出口，但可能缺乏真誠、理解或實際行動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -383,63 +418,63 @@ export default {
     },
     {
       "id": "mouth-02-0",
-      "sense": "mouth-mcq-02",
+      "sense": "mouth-pdf-001",
       "en": "There was chocolate around his mouth.",
       "zh": "他的嘴邊沾了朱古力。",
       "masked": "There was chocolate around his ____.",
       "options": [
-        "mouth-mcq-02",
+        "mouth-pdf-001",
         "mouth-mcq-01",
         "mouth-mcq-03",
         "mouth-mcq-04",
         "mouth-mcq-05",
         "mouth-mcq-06"
       ],
-      "explanation": "本句的「mouth」指「河流、洞穴、隧道等的出口／開口位置」。",
+      "explanation": "本句的「mouth」指「嘴巴及其周圍口部區域」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-02": "本句指「河流、洞穴、隧道等的出口／開口位置」。",
+        "mouth-pdf-001": "本句指「嘴巴及其周圍口部區域」。",
         "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
         "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
         "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
         "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
         "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
       },
-      "correctOption": "mouth-mcq-02"
+      "correctOption": "mouth-pdf-001"
     },
     {
       "id": "mouth-02-1",
-      "sense": "mouth-mcq-02",
+      "sense": "mouth-pdf-001",
       "en": "She wiped her mouth with a napkin.",
       "zh": "她用餐巾擦了擦嘴。",
       "masked": "She wiped her ____ with a napkin.",
       "options": [
-        "mouth-mcq-02",
+        "mouth-pdf-001",
         "mouth-mcq-01",
         "mouth-mcq-03",
         "mouth-mcq-04",
         "mouth-mcq-05",
         "mouth-mcq-06"
       ],
-      "explanation": "本句的「mouth」指「河流、洞穴、隧道等的出口／開口位置」。",
+      "explanation": "本句的「mouth」指「嘴巴及其周圍口部區域」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-02": "本句指「河流、洞穴、隧道等的出口／開口位置」。",
+        "mouth-pdf-001": "本句指「嘴巴及其周圍口部區域」。",
         "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
         "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
         "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
         "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
         "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
       },
-      "correctOption": "mouth-mcq-02"
+      "correctOption": "mouth-pdf-001"
     },
     {
       "id": "mouth-03-0",
@@ -623,63 +658,63 @@ export default {
     },
     {
       "id": "mouth-06-0",
-      "sense": "mouth-mcq-03",
+      "sense": "mouth-pdf-002",
       "en": "He has a big mouth.",
       "zh": "他很多嘴／口沒遮攔。",
       "masked": "He has a big ____.",
       "options": [
-        "mouth-mcq-03",
+        "mouth-pdf-002",
         "mouth-mcq-02",
         "mouth-mcq-04",
         "mouth-mcq-01",
         "mouth-mcq-05",
         "mouth-mcq-06"
       ],
-      "explanation": "本句的「mouth」指「需要吃飯、需要被供養的一個人」。",
+      "explanation": "本句的「mouth」指「一個人說話、洩密、粗魯發言等的方式」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-03": "本句指「需要吃飯、需要被供養的一個人」。",
+        "mouth-pdf-002": "本句指「一個人說話、洩密、粗魯發言等的方式」。",
         "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
         "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
         "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
         "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
         "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
       },
-      "correctOption": "mouth-mcq-03"
+      "correctOption": "mouth-pdf-002"
     },
     {
       "id": "mouth-06-1",
-      "sense": "mouth-mcq-03",
+      "sense": "mouth-pdf-002",
       "en": "Watch your mouth.",
       "zh": "說話注意一點／嘴巴放乾淨點。",
       "masked": "Watch your ____.",
       "options": [
-        "mouth-mcq-03",
+        "mouth-pdf-002",
         "mouth-mcq-02",
         "mouth-mcq-04",
         "mouth-mcq-01",
         "mouth-mcq-05",
         "mouth-mcq-06"
       ],
-      "explanation": "本句的「mouth」指「需要吃飯、需要被供養的一個人」。",
+      "explanation": "本句的「mouth」指「一個人說話、洩密、粗魯發言等的方式」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-03": "本句指「需要吃飯、需要被供養的一個人」。",
+        "mouth-pdf-002": "本句指「一個人說話、洩密、粗魯發言等的方式」。",
         "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
         "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
         "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
         "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
         "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
       },
-      "correctOption": "mouth-mcq-03"
+      "correctOption": "mouth-pdf-002"
     },
     {
       "id": "mouth-07-0",
@@ -863,63 +898,63 @@ export default {
     },
     {
       "id": "mouth-10-0",
-      "sense": "mouth-mcq-06",
+      "sense": "mouth-pdf-003",
       "en": "He mouthed the usual excuses.",
       "zh": "他只是機械式地說出那些老套藉口。",
       "masked": "He ____ the usual excuses.",
       "options": [
-        "mouth-mcq-06",
+        "mouth-pdf-003",
         "mouth-mcq-05",
         "mouth-mcq-07",
         "mouth-mcq-04",
         "mouth-mcq-08",
         "mouth-mcq-03"
       ],
-      "explanation": "本句的「mouthed」指「機械／空泛地把某些說法或口號說出口」。",
+      "explanation": "本句的「mouthed」指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "mouthed"
       ],
       "optionReasons": {
-        "mouth-mcq-06": "本句指「機械／空泛地把某些說法或口號說出口」。",
+        "mouth-pdf-003": "本句指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
         "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
         "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
         "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
         "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
         "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。"
       },
-      "correctOption": "mouth-mcq-06"
+      "correctOption": "mouth-pdf-003"
     },
     {
       "id": "mouth-10-1",
-      "sense": "mouth-mcq-06",
+      "sense": "mouth-pdf-003",
       "en": "Politicians often mouth familiar slogans.",
       "zh": "政客常常只是重複說著熟悉的口號。",
       "masked": "Politicians often ____ familiar slogans.",
       "options": [
-        "mouth-mcq-06",
+        "mouth-pdf-003",
         "mouth-mcq-05",
         "mouth-mcq-07",
         "mouth-mcq-04",
         "mouth-mcq-08",
         "mouth-mcq-03"
       ],
-      "explanation": "本句的「mouth」指「機械／空泛地把某些說法或口號說出口」。",
+      "explanation": "本句的「mouth」指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-06": "本句指「機械／空泛地把某些說法或口號說出口」。",
+        "mouth-pdf-003": "本句指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
         "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
         "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
         "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
         "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
         "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。"
       },
-      "correctOption": "mouth-mcq-06"
+      "correctOption": "mouth-pdf-003"
     },
     {
       "id": "mouth-11-0",

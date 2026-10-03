@@ -110,11 +110,6 @@ export default {
           "The structure needs more stability.",
           "這個結構需要更高的穩定性。",
           "物體不容易傾倒、搖晃或失去平衡的性質"
-        ],
-        [
-          "Make sure the ladder is stable.",
-          "確保梯子是穩固的。",
-          "物體不容易傾倒、搖晃或失去平衡的性質"
         ]
       ],
       "options": [],
@@ -469,6 +464,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "stability-pdf-001",
+      "title": "物理上保持平衡、不容易移動／倒下",
+      "form": "8. stable = physically firm / balanced（穩固的） — 穩固；不搖晃",
+      "en": "8. stable = physically firm / balanced（穩固的） — 穩固；不搖晃",
+      "zh": "物理上保持平衡、不容易移動／倒下",
+      "note": "原始 PDF 第 8 節：物理上保持平衡、不容易移動／倒下",
+      "examples": [
+        [
+          "Make sure the ladder is stable.",
+          "確保梯子是穩固的。",
+          "物理上保持平衡、不容易移動／倒下"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -774,33 +786,33 @@ export default {
     },
     {
       "id": "stability-08-0",
-      "sense": "stability-mcq-05",
+      "sense": "stability-pdf-001",
       "en": "Make sure the ladder is stable.",
       "zh": "確保梯子是穩固的。",
       "masked": "Make sure the ladder is ____.",
       "options": [
-        "stability-mcq-05",
+        "stability-pdf-001",
         "stability-mcq-04",
         "stability-mcq-06",
         "stability-mcq-03",
         "stability-mcq-07",
         "stability-mcq-02"
       ],
-      "explanation": "本句的「stable」指「物體不容易傾倒、搖晃或失去平衡的性質」。",
+      "explanation": "本句的「stable」指「物理上保持平衡、不容易移動／倒下」。",
       "sentenceIndex": 11,
       "sourcePractice": 16,
       "targets": [
         "stable"
       ],
       "optionReasons": {
-        "stability-mcq-05": "本句指「物體不容易傾倒、搖晃或失去平衡的性質」。",
+        "stability-pdf-001": "本句指「物理上保持平衡、不容易移動／倒下」。",
         "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
         "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
         "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
         "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
         "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。"
       },
-      "correctOption": "stability-mcq-05"
+      "correctOption": "stability-pdf-001"
     },
     {
       "id": "stability-09-0",

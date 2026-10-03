@@ -210,16 +210,6 @@ export default {
       "note": "來源詞義：可供招聘、選拔、培養或晉升的一群具備相關能力的人",
       "examples": [
         [
-          "The company needs more technology talent.",
-          "公司需要更多科技人才。",
-          "可供招聘、選拔、培養或晉升的一群具備相關能力的人"
-        ],
-        [
-          "Competition for skilled talent is increasing.",
-          "企業之間爭奪高技能人才的競爭正在加劇。",
-          "可供招聘、選拔、培養或晉升的一群具備相關能力的人"
-        ],
-        [
           "The programme creates a larger talent pool for elite sport.",
           "這項計劃為精英體育建立更大的人才庫／人才群。",
           "可供招聘、選拔、培養或晉升的一群具備相關能力的人"
@@ -490,6 +480,28 @@ export default {
           "All talent must arrive on set by eight.",
           "所有演出人員／藝人都必須在八時前到達拍攝現場。",
           "影視、廣告或娛樂製作中的演員、主持人、模特等演出人員"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "talent-pdf-001",
+      "title": "對組織具有專業技能、能力或發展價值的人力資源／人才",
+      "form": "10. talent — workforce/recruitment people resource — 人才資源",
+      "en": "10. talent — workforce/recruitment people resource — 人才資源",
+      "zh": "對組織具有專業技能、能力或發展價值的人力資源／人才",
+      "note": "原始 PDF 第 10 節：對組織具有專業技能、能力或發展價值的人力資源／人才",
+      "examples": [
+        [
+          "The company needs more technology talent.",
+          "公司需要更多科技人才。",
+          "對組織具有專業技能、能力或發展價值的人力資源／人才"
+        ],
+        [
+          "Competition for skilled talent is increasing.",
+          "企業之間爭奪高技能人才的競爭正在加劇。",
+          "對組織具有專業技能、能力或發展價值的人力資源／人才"
         ]
       ],
       "options": [],
@@ -1099,63 +1111,63 @@ export default {
     },
     {
       "id": "talent-10-0",
-      "sense": "talent-mcq-09",
+      "sense": "talent-pdf-001",
       "en": "The company needs more technology talent.",
       "zh": "公司需要更多科技人才。",
       "masked": "The company needs more technology ____.",
       "options": [
-        "talent-mcq-09",
+        "talent-pdf-001",
         "talent-mcq-08",
         "talent-mcq-10",
         "talent-mcq-07",
         "talent-mcq-11",
         "talent-mcq-06"
       ],
-      "explanation": "本句的「talent」指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
+      "explanation": "本句的「talent」指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-09": "本句指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
+        "talent-pdf-001": "本句指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
         "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
         "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
         "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
         "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
         "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
       },
-      "correctOption": "talent-mcq-09"
+      "correctOption": "talent-pdf-001"
     },
     {
       "id": "talent-10-1",
-      "sense": "talent-mcq-09",
+      "sense": "talent-pdf-001",
       "en": "Competition for skilled talent is increasing.",
       "zh": "企業之間爭奪高技能人才的競爭正在加劇。",
       "masked": "Competition for skilled ____ is increasing.",
       "options": [
-        "talent-mcq-09",
+        "talent-pdf-001",
         "talent-mcq-08",
         "talent-mcq-10",
         "talent-mcq-07",
         "talent-mcq-11",
         "talent-mcq-06"
       ],
-      "explanation": "本句的「talent」指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
+      "explanation": "本句的「talent」指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-09": "本句指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
+        "talent-pdf-001": "本句指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
         "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
         "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
         "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
         "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
         "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
       },
-      "correctOption": "talent-mcq-09"
+      "correctOption": "talent-pdf-001"
     },
     {
       "id": "talent-11-0",

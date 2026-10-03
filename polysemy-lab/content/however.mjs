@@ -168,16 +168,6 @@ export default {
           "However he approached the problem, he reached the same conclusion.",
           "無論他用甚麼方法處理這個問題，最後都得出相同結論。",
           "不論以甚麼方式、方法或途徑做某事"
-        ],
-        [
-          "You may organise the notes however you like.",
-          "你可以按自己喜歡的任何方式整理筆記。",
-          "不論以甚麼方式、方法或途徑做某事"
-        ],
-        [
-          "Arrange the chairs however you think is best.",
-          "你認為怎樣最好，就按那種方式擺放椅子。",
-          "不論以甚麼方式、方法或途徑做某事"
         ]
       ],
       "options": [],
@@ -233,6 +223,28 @@ export default {
           "However it may be explained, the result remains surprising.",
           "無論怎樣解釋，這個結果仍然令人驚訝。",
           "不論實際情況如何，後面的判斷仍然成立"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "however-pdf-001",
+      "title": "以任何你選擇／認為合適的方式",
+      "form": "8. however = in whatever way（任何方式） — 怎樣都可以；不論用甚麼方式",
+      "en": "8. however = in whatever way（任何方式） — 怎樣都可以；不論用甚麼方式",
+      "zh": "以任何你選擇／認為合適的方式",
+      "note": "原始 PDF 第 8 節：以任何你選擇／認為合適的方式",
+      "examples": [
+        [
+          "You may organise the notes however you like.",
+          "你可以按自己喜歡的任何方式整理筆記。",
+          "以任何你選擇／認為合適的方式"
+        ],
+        [
+          "Arrange the chairs however you think is best.",
+          "你認為怎樣最好，就按那種方式擺放椅子。",
+          "以任何你選擇／認為合適的方式"
         ]
       ],
       "options": [],
@@ -692,63 +704,63 @@ export default {
     },
     {
       "id": "however-08-0",
-      "sense": "however-mcq-07",
+      "sense": "however-pdf-001",
       "en": "You may organise the notes however you like.",
       "zh": "你可以按自己喜歡的任何方式整理筆記。",
       "masked": "You may organise the notes ____.",
       "options": [
-        "however-mcq-07",
+        "however-pdf-001",
         "however-mcq-06",
         "however-mcq-08",
         "however-mcq-05",
         "however-mcq-09",
         "however-mcq-04"
       ],
-      "explanation": "本句的「however you like」指「不論以甚麼方式、方法或途徑做某事」。",
+      "explanation": "本句的「however you like」指「以任何你選擇／認為合適的方式」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "however you like"
       ],
       "optionReasons": {
-        "however-mcq-07": "本句指「不論以甚麼方式、方法或途徑做某事」。",
+        "however-pdf-001": "本句指「以任何你選擇／認為合適的方式」。",
         "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
         "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
         "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
         "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
         "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。"
       },
-      "correctOption": "however-mcq-07"
+      "correctOption": "however-pdf-001"
     },
     {
       "id": "however-08-1",
-      "sense": "however-mcq-07",
+      "sense": "however-pdf-001",
       "en": "Arrange the chairs however you think is best.",
       "zh": "你認為怎樣最好，就按那種方式擺放椅子。",
       "masked": "Arrange the chairs ____ you think is best.",
       "options": [
-        "however-mcq-07",
+        "however-pdf-001",
         "however-mcq-06",
         "however-mcq-08",
         "however-mcq-05",
         "however-mcq-09",
         "however-mcq-04"
       ],
-      "explanation": "本句的「however」指「不論以甚麼方式、方法或途徑做某事」。",
+      "explanation": "本句的「however」指「以任何你選擇／認為合適的方式」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "however"
       ],
       "optionReasons": {
-        "however-mcq-07": "本句指「不論以甚麼方式、方法或途徑做某事」。",
+        "however-pdf-001": "本句指「以任何你選擇／認為合適的方式」。",
         "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
         "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
         "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
         "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
         "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。"
       },
-      "correctOption": "however-mcq-07"
+      "correctOption": "however-pdf-001"
     },
     {
       "id": "however-09-0",

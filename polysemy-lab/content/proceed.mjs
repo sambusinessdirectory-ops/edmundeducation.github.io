@@ -235,16 +235,6 @@ export default {
           "The group proceeded through the entrance.",
           "一行人穿過入口繼續前進。",
           "沿着／穿過前進"
-        ],
-        [
-          "Please proceed to the nearest exit.",
-          "請前往最近的出口。",
-          "沿着／穿過前進"
-        ],
-        [
-          "Passengers may now proceed to the platform.",
-          "乘客現在可以前往月台。",
-          "沿着／穿過前進"
         ]
       ],
       "options": [],
@@ -266,16 +256,6 @@ export default {
         [
           "The interview proceeded smoothly.",
           "面試進行得很順利。",
-          "順利進行"
-        ],
-        [
-          "Operations can now proceed normally.",
-          "運作現在可以恢復正常進行。",
-          "順利進行"
-        ],
-        [
-          "The experiment proceeded normally after the equipment was repaired.",
-          "設備修好後，實驗正常進行。",
           "順利進行"
         ]
       ],
@@ -311,18 +291,7 @@ export default {
       "en": "proceed from A to B",
       "zh": "由 A 推進至 B",
       "note": "來源詞義：由 A 推進至 B",
-      "examples": [
-        [
-          "The argument proceeds from general principles to specific examples.",
-          "論點由一般原則逐步推進至具體例子。",
-          "由 A 推進至 B"
-        ],
-        [
-          "The course proceeds from basic concepts to advanced applications.",
-          "課程由基本概念逐步進展至進階應用。",
-          "由 A 推進至 B"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -596,6 +565,72 @@ export default {
       "zh": "所有收益撥捐慈善",
       "note": "來源詞義：所有收益撥捐慈善",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proceed-pdf-001",
+      "title": "正式指示某人前往某地",
+      "form": "11. proceed to the exit / gate / platform — 前往出口／閘口／月台",
+      "en": "11. proceed to the exit / gate / platform — 前往出口／閘口／月台",
+      "zh": "正式指示某人前往某地",
+      "note": "原始 PDF 第 11 節：正式指示某人前往某地",
+      "examples": [
+        [
+          "Please proceed to the nearest exit.",
+          "請前往最近的出口。",
+          "正式指示某人前往某地"
+        ],
+        [
+          "Passengers may now proceed to the platform.",
+          "乘客現在可以前往月台。",
+          "正式指示某人前往某地"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proceed-pdf-002",
+      "title": "按正常程序持續進行",
+      "form": "14. proceed normally — 正常進行",
+      "en": "14. proceed normally — 正常進行",
+      "zh": "按正常程序持續進行",
+      "note": "原始 PDF 第 14 節：按正常程序持續進行",
+      "examples": [
+        [
+          "Operations can now proceed normally.",
+          "運作現在可以恢復正常進行。",
+          "按正常程序持續進行"
+        ],
+        [
+          "The experiment proceeded normally after the equipment was repaired.",
+          "設備修好後，實驗正常進行。",
+          "按正常程序持續進行"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proceed-pdf-003",
+      "title": "從 A 按次序發展或推進到 B",
+      "form": "16. proceed from one idea to another — 從一個概念推進到另一個概念",
+      "en": "16. proceed from one idea to another — 從一個概念推進到另一個概念",
+      "zh": "從 A 按次序發展或推進到 B",
+      "note": "原始 PDF 第 16 節：從 A 按次序發展或推進到 B",
+      "examples": [
+        [
+          "The argument proceeds from general principles to specific examples.",
+          "論點由一般原則逐步推進至具體例子。",
+          "從 A 按次序發展或推進到 B"
+        ],
+        [
+          "The course proceeds from basic concepts to advanced applications.",
+          "課程由基本概念逐步進展至進階應用。",
+          "從 A 按次序發展或推進到 B"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -1233,63 +1268,63 @@ export default {
     },
     {
       "id": "proceed-11-0",
-      "sense": "proceed-mcq-10",
+      "sense": "proceed-pdf-001",
       "en": "Please proceed to the nearest exit.",
       "zh": "請前往最近的出口。",
       "masked": "Please ____.",
       "options": [
-        "proceed-mcq-10",
+        "proceed-pdf-001",
         "proceed-mcq-09",
         "proceed-mcq-11",
         "proceed-mcq-08",
         "proceed-mcq-12",
         "proceed-mcq-07"
       ],
-      "explanation": "本句的「proceed to the nearest exit」指「沿着／穿過前進」。",
+      "explanation": "本句的「proceed to the nearest exit」指「正式指示某人前往某地」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "proceed to the nearest exit"
       ],
       "optionReasons": {
-        "proceed-mcq-10": "本句指「沿着／穿過前進」。",
+        "proceed-pdf-001": "本句指「正式指示某人前往某地」。",
         "proceed-mcq-09": "「前往某地」與本句語境不同。",
         "proceed-mcq-11": "「順利進行」與本句語境不同。",
         "proceed-mcq-08": "「立即繼續」與本句語境不同。",
         "proceed-mcq-12": "「源自 X」與本句語境不同。",
         "proceed-mcq-07": "「謹慎進行」與本句語境不同。"
       },
-      "correctOption": "proceed-mcq-10"
+      "correctOption": "proceed-pdf-001"
     },
     {
       "id": "proceed-11-1",
-      "sense": "proceed-mcq-10",
+      "sense": "proceed-pdf-001",
       "en": "Passengers may now proceed to the platform.",
       "zh": "乘客現在可以前往月台。",
       "masked": "Passengers may now ____.",
       "options": [
-        "proceed-mcq-10",
+        "proceed-pdf-001",
         "proceed-mcq-09",
         "proceed-mcq-11",
         "proceed-mcq-08",
         "proceed-mcq-12",
         "proceed-mcq-07"
       ],
-      "explanation": "本句的「proceed to the platform」指「沿着／穿過前進」。",
+      "explanation": "本句的「proceed to the platform」指「正式指示某人前往某地」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "proceed to the platform"
       ],
       "optionReasons": {
-        "proceed-mcq-10": "本句指「沿着／穿過前進」。",
+        "proceed-pdf-001": "本句指「正式指示某人前往某地」。",
         "proceed-mcq-09": "「前往某地」與本句語境不同。",
         "proceed-mcq-11": "「順利進行」與本句語境不同。",
         "proceed-mcq-08": "「立即繼續」與本句語境不同。",
         "proceed-mcq-12": "「源自 X」與本句語境不同。",
         "proceed-mcq-07": "「謹慎進行」與本句語境不同。"
       },
-      "correctOption": "proceed-mcq-10"
+      "correctOption": "proceed-pdf-001"
     },
     {
       "id": "proceed-12-0",
@@ -1413,63 +1448,63 @@ export default {
     },
     {
       "id": "proceed-14-0",
-      "sense": "proceed-mcq-11",
+      "sense": "proceed-pdf-002",
       "en": "Operations can now proceed normally.",
       "zh": "運作現在可以恢復正常進行。",
       "masked": "Operations can now ____.",
       "options": [
-        "proceed-mcq-11",
+        "proceed-pdf-002",
         "proceed-mcq-10",
         "proceed-mcq-12",
         "proceed-mcq-09",
         "proceed-mcq-13",
         "proceed-mcq-08"
       ],
-      "explanation": "本句的「proceed normally」指「順利進行」。",
+      "explanation": "本句的「proceed normally」指「按正常程序持續進行」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "proceed normally"
       ],
       "optionReasons": {
-        "proceed-mcq-11": "本句指「順利進行」。",
+        "proceed-pdf-002": "本句指「按正常程序持續進行」。",
         "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
         "proceed-mcq-12": "「源自 X」與本句語境不同。",
         "proceed-mcq-09": "「前往某地」與本句語境不同。",
         "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
         "proceed-mcq-08": "「立即繼續」與本句語境不同。"
       },
-      "correctOption": "proceed-mcq-11"
+      "correctOption": "proceed-pdf-002"
     },
     {
       "id": "proceed-14-1",
-      "sense": "proceed-mcq-11",
+      "sense": "proceed-pdf-002",
       "en": "The experiment proceeded normally after the equipment was repaired.",
       "zh": "設備修好後，實驗正常進行。",
       "masked": "The experiment ____ after the equipment was repaired.",
       "options": [
-        "proceed-mcq-11",
+        "proceed-pdf-002",
         "proceed-mcq-10",
         "proceed-mcq-12",
         "proceed-mcq-09",
         "proceed-mcq-13",
         "proceed-mcq-08"
       ],
-      "explanation": "本句的「proceeded normally」指「順利進行」。",
+      "explanation": "本句的「proceeded normally」指「按正常程序持續進行」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "proceeded normally"
       ],
       "optionReasons": {
-        "proceed-mcq-11": "本句指「順利進行」。",
+        "proceed-pdf-002": "本句指「按正常程序持續進行」。",
         "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
         "proceed-mcq-12": "「源自 X」與本句語境不同。",
         "proceed-mcq-09": "「前往某地」與本句語境不同。",
         "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
         "proceed-mcq-08": "「立即繼續」與本句語境不同。"
       },
-      "correctOption": "proceed-mcq-11"
+      "correctOption": "proceed-pdf-002"
     },
     {
       "id": "proceed-15-0",
@@ -1533,63 +1568,63 @@ export default {
     },
     {
       "id": "proceed-16-0",
-      "sense": "proceed-mcq-13",
+      "sense": "proceed-pdf-003",
       "en": "The argument proceeds from general principles to specific examples.",
       "zh": "論點由一般原則逐步推進至具體例子。",
       "masked": "The argument ____.",
       "options": [
-        "proceed-mcq-13",
+        "proceed-pdf-003",
         "proceed-mcq-12",
         "proceed-mcq-14",
         "proceed-mcq-11",
         "proceed-mcq-15",
         "proceed-mcq-10"
       ],
-      "explanation": "本句的「proceeds from general principles to specific examples」指「由 A 推進至 B」。",
+      "explanation": "本句的「proceeds from general principles to specific examples」指「從 A 按次序發展或推進到 B」。",
       "sentenceIndex": 31,
       "sourcePractice": 1,
       "targets": [
         "proceeds from general principles to specific examples"
       ],
       "optionReasons": {
-        "proceed-mcq-13": "本句指「由 A 推進至 B」。",
+        "proceed-pdf-003": "本句指「從 A 按次序發展或推進到 B」。",
         "proceed-mcq-12": "「源自 X」與本句語境不同。",
         "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
         "proceed-mcq-11": "「順利進行」與本句語境不同。",
         "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
         "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。"
       },
-      "correctOption": "proceed-mcq-13"
+      "correctOption": "proceed-pdf-003"
     },
     {
       "id": "proceed-16-1",
-      "sense": "proceed-mcq-13",
+      "sense": "proceed-pdf-003",
       "en": "The course proceeds from basic concepts to advanced applications.",
       "zh": "課程由基本概念逐步進展至進階應用。",
       "masked": "The course ____.",
       "options": [
-        "proceed-mcq-13",
+        "proceed-pdf-003",
         "proceed-mcq-12",
         "proceed-mcq-14",
         "proceed-mcq-11",
         "proceed-mcq-15",
         "proceed-mcq-10"
       ],
-      "explanation": "本句的「proceeds from basic concepts to advanced applications」指「由 A 推進至 B」。",
+      "explanation": "本句的「proceeds from basic concepts to advanced applications」指「從 A 按次序發展或推進到 B」。",
       "sentenceIndex": 32,
       "sourcePractice": 2,
       "targets": [
         "proceeds from basic concepts to advanced applications"
       ],
       "optionReasons": {
-        "proceed-mcq-13": "本句指「由 A 推進至 B」。",
+        "proceed-pdf-003": "本句指「從 A 按次序發展或推進到 B」。",
         "proceed-mcq-12": "「源自 X」與本句語境不同。",
         "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
         "proceed-mcq-11": "「順利進行」與本句語境不同。",
         "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
         "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。"
       },
-      "correctOption": "proceed-mcq-13"
+      "correctOption": "proceed-pdf-003"
     },
     {
       "id": "proceed-17-0",

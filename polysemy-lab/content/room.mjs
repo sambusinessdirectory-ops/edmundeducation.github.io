@@ -327,16 +327,6 @@ export default {
       "note": "來源詞義：酒店把食物／服務送到客人房間的服務",
       "examples": [
         [
-          "We booked a room for two nights.",
-          "我們訂了兩晚的酒店房間。",
-          "酒店把食物／服務送到客人房間的服務"
-        ],
-        [
-          "The room has a view of the sea.",
-          "這間客房可以看到海景。",
-          "酒店把食物／服務送到客人房間的服務"
-        ],
-        [
           "We ordered dinner from room service.",
           "我們叫了客房送餐服務。",
           "酒店把食物／服務送到客人房間的服務"
@@ -358,16 +348,6 @@ export default {
       "zh": "與某人同房或共用住宿；主要見於美式英語",
       "note": "來源詞義：與某人同房或共用住宿；主要見於美式英語",
       "examples": [
-        [
-          "He is looking for a room in the city centre.",
-          "他正在市中心找一個租住房間。",
-          "與某人同房或共用住宿；主要見於美式英語"
-        ],
-        [
-          "The rent includes a private room and shared kitchen.",
-          "租金包括一間私人房間和共用廚房。",
-          "與某人同房或共用住宿；主要見於美式英語"
-        ],
         [
           "I roomed with him at university.",
           "我大學時曾經和他同房／合住。",
@@ -443,6 +423,50 @@ export default {
           "Dinner is ready in the dining room.",
           "晚餐已經在飯廳準備好了。",
           "用 room 與用途結合，表示某種特定功能的房間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "room-pdf-001",
+      "title": "酒店／旅館中供客人住宿的一個單位",
+      "form": "16. hotel room（酒店房間） — 客房",
+      "en": "16. hotel room（酒店房間） — 客房",
+      "zh": "酒店／旅館中供客人住宿的一個單位",
+      "note": "原始 PDF 第 16 節：酒店／旅館中供客人住宿的一個單位",
+      "examples": [
+        [
+          "We booked a room for two nights.",
+          "我們訂了兩晚的酒店房間。",
+          "酒店／旅館中供客人住宿的一個單位"
+        ],
+        [
+          "The room has a view of the sea.",
+          "這間客房可以看到海景。",
+          "酒店／旅館中供客人住宿的一個單位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "room-pdf-002",
+      "title": "在共住住宅中供一個人居住的獨立空間",
+      "form": "18. room = living accommodation in a house shared with others（租房／房間） — 房間住宿",
+      "en": "18. room = living accommodation in a house shared with others（租房／房間） — 房間住宿",
+      "zh": "在共住住宅中供一個人居住的獨立空間",
+      "note": "原始 PDF 第 18 節：在共住住宅中供一個人居住的獨立空間",
+      "examples": [
+        [
+          "He is looking for a room in the city centre.",
+          "他正在市中心找一個租住房間。",
+          "在共住住宅中供一個人居住的獨立空間"
+        ],
+        [
+          "The rent includes a private room and shared kitchen.",
+          "租金包括一間私人房間和共用廚房。",
+          "在共住住宅中供一個人居住的獨立空間"
         ]
       ],
       "options": [],
@@ -1382,63 +1406,63 @@ export default {
     },
     {
       "id": "room-16-0",
-      "sense": "room-mcq-15",
+      "sense": "room-pdf-001",
       "en": "We booked a room for two nights.",
       "zh": "我們訂了兩晚的酒店房間。",
       "masked": "We booked a ____ for two nights.",
       "options": [
-        "room-mcq-15",
+        "room-pdf-001",
         "room-mcq-14",
         "room-mcq-16",
         "room-mcq-13",
         "room-mcq-17",
         "room-mcq-12"
       ],
-      "explanation": "本句的「room」指「酒店把食物／服務送到客人房間的服務」。",
+      "explanation": "本句的「room」指「酒店／旅館中供客人住宿的一個單位」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "room"
       ],
       "optionReasons": {
-        "room-mcq-15": "本句指「酒店把食物／服務送到客人房間的服務」。",
+        "room-pdf-001": "本句指「酒店／旅館中供客人住宿的一個單位」。",
         "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
         "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
         "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
         "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
         "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。"
       },
-      "correctOption": "room-mcq-15"
+      "correctOption": "room-pdf-001"
     },
     {
       "id": "room-16-1",
-      "sense": "room-mcq-15",
+      "sense": "room-pdf-001",
       "en": "The room has a view of the sea.",
       "zh": "這間客房可以看到海景。",
       "masked": "The ____ has a view of the sea.",
       "options": [
-        "room-mcq-15",
+        "room-pdf-001",
         "room-mcq-14",
         "room-mcq-16",
         "room-mcq-13",
         "room-mcq-17",
         "room-mcq-12"
       ],
-      "explanation": "本句的「room」指「酒店把食物／服務送到客人房間的服務」。",
+      "explanation": "本句的「room」指「酒店／旅館中供客人住宿的一個單位」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "room"
       ],
       "optionReasons": {
-        "room-mcq-15": "本句指「酒店把食物／服務送到客人房間的服務」。",
+        "room-pdf-001": "本句指「酒店／旅館中供客人住宿的一個單位」。",
         "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
         "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
         "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
         "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
         "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。"
       },
-      "correctOption": "room-mcq-15"
+      "correctOption": "room-pdf-001"
     },
     {
       "id": "room-17-0",
@@ -1502,63 +1526,63 @@ export default {
     },
     {
       "id": "room-18-0",
-      "sense": "room-mcq-16",
+      "sense": "room-pdf-002",
       "en": "He is looking for a room in the city centre.",
       "zh": "他正在市中心找一個租住房間。",
       "masked": "He is looking for a ____ in the city centre.",
       "options": [
-        "room-mcq-16",
+        "room-pdf-002",
         "room-mcq-15",
         "room-mcq-17",
         "room-mcq-14",
         "room-mcq-18",
         "room-mcq-13"
       ],
-      "explanation": "本句的「room」指「與某人同房或共用住宿；主要見於美式英語」。",
+      "explanation": "本句的「room」指「在共住住宅中供一個人居住的獨立空間」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "room"
       ],
       "optionReasons": {
-        "room-mcq-16": "本句指「與某人同房或共用住宿；主要見於美式英語」。",
+        "room-pdf-002": "本句指「在共住住宅中供一個人居住的獨立空間」。",
         "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
         "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
         "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
         "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
         "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。"
       },
-      "correctOption": "room-mcq-16"
+      "correctOption": "room-pdf-002"
     },
     {
       "id": "room-18-1",
-      "sense": "room-mcq-16",
+      "sense": "room-pdf-002",
       "en": "The rent includes a private room and shared kitchen.",
       "zh": "租金包括一間私人房間和共用廚房。",
       "masked": "The rent includes a private ____ and shared kitchen.",
       "options": [
-        "room-mcq-16",
+        "room-pdf-002",
         "room-mcq-15",
         "room-mcq-17",
         "room-mcq-14",
         "room-mcq-18",
         "room-mcq-13"
       ],
-      "explanation": "本句的「room」指「與某人同房或共用住宿；主要見於美式英語」。",
+      "explanation": "本句的「room」指「在共住住宅中供一個人居住的獨立空間」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "room"
       ],
       "optionReasons": {
-        "room-mcq-16": "本句指「與某人同房或共用住宿；主要見於美式英語」。",
+        "room-pdf-002": "本句指「在共住住宅中供一個人居住的獨立空間」。",
         "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
         "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
         "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
         "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
         "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。"
       },
-      "correctOption": "room-mcq-16"
+      "correctOption": "room-pdf-002"
     },
     {
       "id": "room-19-0",

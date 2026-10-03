@@ -138,18 +138,7 @@ export default {
       "en": "soaring — architecture",
       "zh": "高聳、極高、氣勢宏偉的",
       "note": "來源詞義：高聳、極高、氣勢宏偉的",
-      "examples": [
-        [
-          "The hall has soaring ceilings.",
-          "大廳有極高的／高聳的天花板。",
-          "高聳、極高、氣勢宏偉的"
-        ],
-        [
-          "The cathedral is famous for its soaring arches.",
-          "這座大教堂以高聳的拱頂聞名。",
-          "高聳、極高、氣勢宏偉的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -192,6 +181,28 @@ export default {
           "Visitor numbers have soared.",
           "訪客數量急升。",
           "利用上升氣流進行的滑翔飛行；專門"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "soar-pdf-001",
+      "title": "向上延伸得非常高，令人產生宏偉、開闊的感覺",
+      "form": "7. soaring = very high / lofty in physical form（形容詞） — 高聳的；極高的",
+      "en": "7. soaring = very high / lofty in physical form（形容詞） — 高聳的；極高的",
+      "zh": "向上延伸得非常高，令人產生宏偉、開闊的感覺",
+      "note": "原始 PDF 第 7 節：向上延伸得非常高，令人產生宏偉、開闊的感覺",
+      "examples": [
+        [
+          "The hall has soaring ceilings.",
+          "大廳有極高的／高聳的天花板。",
+          "向上延伸得非常高，令人產生宏偉、開闊的感覺"
+        ],
+        [
+          "The cathedral is famous for its soaring arches.",
+          "這座大教堂以高聳的拱頂聞名。",
+          "向上延伸得非常高，令人產生宏偉、開闊的感覺"
         ]
       ],
       "options": [],
@@ -531,63 +542,63 @@ export default {
     },
     {
       "id": "soar-07-0",
-      "sense": "soar-mcq-07",
+      "sense": "soar-pdf-001",
       "en": "The hall has soaring ceilings.",
       "zh": "大廳有極高的／高聳的天花板。",
       "masked": "The hall has ____ ceilings.",
       "options": [
-        "soar-mcq-07",
+        "soar-pdf-001",
         "soar-mcq-06",
         "soar-mcq-08",
         "soar-mcq-05",
         "soar-mcq-09",
         "soar-mcq-04"
       ],
-      "explanation": "本句的「soaring」指「高聳、極高、氣勢宏偉的」。",
+      "explanation": "本句的「soaring」指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "soaring"
       ],
       "optionReasons": {
-        "soar-mcq-07": "本句指「高聳、極高、氣勢宏偉的」。",
+        "soar-pdf-001": "本句指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
         "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
         "soar-mcq-08": "「高亢、激昂、開闊而有感染力的」與本句語境不同。",
         "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
         "soar-mcq-09": "「利用上升氣流進行的滑翔飛行；專門」與本句語境不同。",
         "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
       },
-      "correctOption": "soar-mcq-07"
+      "correctOption": "soar-pdf-001"
     },
     {
       "id": "soar-07-1",
-      "sense": "soar-mcq-07",
+      "sense": "soar-pdf-001",
       "en": "The cathedral is famous for its soaring arches.",
       "zh": "這座大教堂以高聳的拱頂聞名。",
       "masked": "The cathedral is famous for its ____ arches.",
       "options": [
-        "soar-mcq-07",
+        "soar-pdf-001",
         "soar-mcq-06",
         "soar-mcq-08",
         "soar-mcq-05",
         "soar-mcq-09",
         "soar-mcq-04"
       ],
-      "explanation": "本句的「soaring」指「高聳、極高、氣勢宏偉的」。",
+      "explanation": "本句的「soaring」指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "soaring"
       ],
       "optionReasons": {
-        "soar-mcq-07": "本句指「高聳、極高、氣勢宏偉的」。",
+        "soar-pdf-001": "本句指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
         "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
         "soar-mcq-08": "「高亢、激昂、開闊而有感染力的」與本句語境不同。",
         "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
         "soar-mcq-09": "「利用上升氣流進行的滑翔飛行；專門」與本句語境不同。",
         "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
       },
-      "correctOption": "soar-mcq-07"
+      "correctOption": "soar-pdf-001"
     },
     {
       "id": "soar-08-0",

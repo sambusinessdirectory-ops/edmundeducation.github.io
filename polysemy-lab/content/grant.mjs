@@ -195,16 +195,6 @@ export default {
       "note": "來源詞義：某項要求、許可、權利等正式獲得批准／給予",
       "examples": [
         [
-          "She was granted more time.",
-          "她獲准予更多時間。",
-          "某項要求、許可、權利等正式獲得批准／給予"
-        ],
-        [
-          "The prisoner was granted an interview.",
-          "囚犯獲准許接受一次會面。",
-          "某項要求、許可、權利等正式獲得批准／給予"
-        ],
-        [
           "Her application was granted.",
           "她的申請獲批准。",
           "某項要求、許可、權利等正式獲得批准／給予"
@@ -226,16 +216,6 @@ export default {
       "zh": "在討論中承認某項說法／事實成立",
       "note": "來源詞義：在討論中承認某項說法／事實成立",
       "examples": [
-        [
-          "I grant that the task is difficult.",
-          "我承認這項任務很困難。",
-          "在討論中承認某項說法／事實成立"
-        ],
-        [
-          "He granted that she had a point.",
-          "他承認她的說法有道理。",
-          "在討論中承認某項說法／事實成立"
-        ],
         [
           "I’ll grant you that.",
           "這一點我承認你說得對。",
@@ -421,6 +401,50 @@ export default {
           "The document grants authority to the committee.",
           "文件賦予委員會權力。",
           "透過正式文件、法律或制度賦予權利、權限或利益"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "grant-pdf-001",
+      "title": "某有權力者正式同意給予某人所要求／允許的東西",
+      "form": "9. grant = give something requested（答應給予） — 准予；給予",
+      "en": "9. grant = give something requested（答應給予） — 准予；給予",
+      "zh": "某有權力者正式同意給予某人所要求／允許的東西",
+      "note": "原始 PDF 第 9 節：某有權力者正式同意給予某人所要求／允許的東西",
+      "examples": [
+        [
+          "She was granted more time.",
+          "她獲准予更多時間。",
+          "某有權力者正式同意給予某人所要求／允許的東西"
+        ],
+        [
+          "The prisoner was granted an interview.",
+          "囚犯獲准許接受一次會面。",
+          "某有權力者正式同意給予某人所要求／允許的東西"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "grant-pdf-002",
+      "title": "承認某件事為真，即使之後仍可能提出不同觀點",
+      "form": "10. grant = admit something is true（承認某點） — 承認；姑且承認",
+      "en": "10. grant = admit something is true（承認某點） — 承認；姑且承認",
+      "zh": "承認某件事為真，即使之後仍可能提出不同觀點",
+      "note": "原始 PDF 第 10 節：承認某件事為真，即使之後仍可能提出不同觀點",
+      "examples": [
+        [
+          "I grant that the task is difficult.",
+          "我承認這項任務很困難。",
+          "承認某件事為真，即使之後仍可能提出不同觀點"
+        ],
+        [
+          "He granted that she had a point.",
+          "他承認她的說法有道理。",
+          "承認某件事為真，即使之後仍可能提出不同觀點"
         ]
       ],
       "options": [],
@@ -940,123 +964,123 @@ export default {
     },
     {
       "id": "grant-09-0",
-      "sense": "grant-mcq-09",
+      "sense": "grant-pdf-001",
       "en": "She was granted more time.",
       "zh": "她獲准予更多時間。",
       "masked": "She was ____.",
       "options": [
-        "grant-mcq-09",
+        "grant-pdf-001",
         "grant-mcq-08",
         "grant-mcq-10",
         "grant-mcq-07",
         "grant-mcq-11",
         "grant-mcq-06"
       ],
-      "explanation": "本句的「granted more time」指「某項要求、許可、權利等正式獲得批准／給予」。",
+      "explanation": "本句的「granted more time」指「某有權力者正式同意給予某人所要求／允許的東西」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "granted more time"
       ],
       "optionReasons": {
-        "grant-mcq-09": "本句指「某項要求、許可、權利等正式獲得批准／給予」。",
+        "grant-pdf-001": "本句指「某有權力者正式同意給予某人所要求／允許的東西」。",
         "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
         "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
         "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
         "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
         "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
       },
-      "correctOption": "grant-mcq-09"
+      "correctOption": "grant-pdf-001"
     },
     {
       "id": "grant-09-1",
-      "sense": "grant-mcq-09",
+      "sense": "grant-pdf-001",
       "en": "The prisoner was granted an interview.",
       "zh": "囚犯獲准許接受一次會面。",
       "masked": "The prisoner was ____ an interview.",
       "options": [
-        "grant-mcq-09",
+        "grant-pdf-001",
         "grant-mcq-08",
         "grant-mcq-10",
         "grant-mcq-07",
         "grant-mcq-11",
         "grant-mcq-06"
       ],
-      "explanation": "本句的「granted」指「某項要求、許可、權利等正式獲得批准／給予」。",
+      "explanation": "本句的「granted」指「某有權力者正式同意給予某人所要求／允許的東西」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-09": "本句指「某項要求、許可、權利等正式獲得批准／給予」。",
+        "grant-pdf-001": "本句指「某有權力者正式同意給予某人所要求／允許的東西」。",
         "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
         "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
         "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
         "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
         "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
       },
-      "correctOption": "grant-mcq-09"
+      "correctOption": "grant-pdf-001"
     },
     {
       "id": "grant-10-0",
-      "sense": "grant-mcq-10",
+      "sense": "grant-pdf-002",
       "en": "I grant that the task is difficult.",
       "zh": "我承認這項任務很困難。",
       "masked": "I ____ the task is difficult.",
       "options": [
-        "grant-mcq-10",
+        "grant-pdf-002",
         "grant-mcq-09",
         "grant-mcq-11",
         "grant-mcq-08",
         "grant-mcq-12",
         "grant-mcq-07"
       ],
-      "explanation": "本句的「grant that」指「在討論中承認某項說法／事實成立」。",
+      "explanation": "本句的「grant that」指「承認某件事為真，即使之後仍可能提出不同觀點」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "grant that"
       ],
       "optionReasons": {
-        "grant-mcq-10": "本句指「在討論中承認某項說法／事實成立」。",
+        "grant-pdf-002": "本句指「承認某件事為真，即使之後仍可能提出不同觀點」。",
         "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
         "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
         "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
         "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
         "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。"
       },
-      "correctOption": "grant-mcq-10"
+      "correctOption": "grant-pdf-002"
     },
     {
       "id": "grant-10-1",
-      "sense": "grant-mcq-10",
+      "sense": "grant-pdf-002",
       "en": "He granted that she had a point.",
       "zh": "他承認她的說法有道理。",
       "masked": "He ____ that she had a point.",
       "options": [
-        "grant-mcq-10",
+        "grant-pdf-002",
         "grant-mcq-09",
         "grant-mcq-11",
         "grant-mcq-08",
         "grant-mcq-12",
         "grant-mcq-07"
       ],
-      "explanation": "本句的「granted」指「在討論中承認某項說法／事實成立」。",
+      "explanation": "本句的「granted」指「承認某件事為真，即使之後仍可能提出不同觀點」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-10": "本句指「在討論中承認某項說法／事實成立」。",
+        "grant-pdf-002": "本句指「承認某件事為真，即使之後仍可能提出不同觀點」。",
         "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
         "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
         "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
         "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
         "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。"
       },
-      "correctOption": "grant-mcq-10"
+      "correctOption": "grant-pdf-002"
     },
     {
       "id": "grant-11-0",

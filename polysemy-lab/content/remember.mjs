@@ -149,18 +149,7 @@ export default {
       "en": "suddenly remember",
       "zh": "突然想起",
       "note": "來源詞義：突然想起",
-      "examples": [
-        [
-          "I suddenly remembered his name.",
-          "我突然想起他的名字。",
-          "突然想起"
-        ],
-        [
-          "Then she remembered where she had seen him before.",
-          "然後她想起以前在哪裏見過他。",
-          "突然想起"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -500,6 +489,28 @@ export default {
           "She fondly remembers summers at her grandparents' home.",
           "她很懷念地回想童年時在祖父母家度過的夏天。",
           "以某種清晰度或情感態度回想過去"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "remember-pdf-001",
+      "title": "原本一時沒有想到，後來重新想起某項資訊或記憶",
+      "form": "7. remember suddenly = recall something that had temporarily slipped your mind — 想起來",
+      "en": "7. remember suddenly = recall something that had temporarily slipped your mind — 想起來",
+      "zh": "原本一時沒有想到，後來重新想起某項資訊或記憶",
+      "note": "原始 PDF 第 7 節：原本一時沒有想到，後來重新想起某項資訊或記憶",
+      "examples": [
+        [
+          "I suddenly remembered his name.",
+          "我突然想起他的名字。",
+          "原本一時沒有想到，後來重新想起某項資訊或記憶"
+        ],
+        [
+          "Then she remembered where she had seen him before.",
+          "然後她想起以前在哪裏見過他。",
+          "原本一時沒有想到，後來重新想起某項資訊或記憶"
         ]
       ],
       "options": [],
@@ -899,63 +910,63 @@ export default {
     },
     {
       "id": "remember-07-0",
-      "sense": "remember-mcq-07",
+      "sense": "remember-pdf-001",
       "en": "I suddenly remembered his name.",
       "zh": "我突然想起他的名字。",
       "masked": "I suddenly ____.",
       "options": [
-        "remember-mcq-07",
+        "remember-pdf-001",
         "remember-mcq-06",
         "remember-mcq-08",
         "remember-mcq-05",
         "remember-mcq-09",
         "remember-mcq-04"
       ],
-      "explanation": "本句的「remembered his name」指「突然想起」。",
+      "explanation": "本句的「remembered his name」指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "remembered his name"
       ],
       "optionReasons": {
-        "remember-mcq-07": "本句指「突然想起」。",
+        "remember-pdf-001": "本句指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
         "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
         "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
         "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
         "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
         "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。"
       },
-      "correctOption": "remember-mcq-07"
+      "correctOption": "remember-pdf-001"
     },
     {
       "id": "remember-07-1",
-      "sense": "remember-mcq-07",
+      "sense": "remember-pdf-001",
       "en": "Then she remembered where she had seen him before.",
       "zh": "然後她想起以前在哪裏見過他。",
       "masked": "Then she ____.",
       "options": [
-        "remember-mcq-07",
+        "remember-pdf-001",
         "remember-mcq-06",
         "remember-mcq-08",
         "remember-mcq-05",
         "remember-mcq-09",
         "remember-mcq-04"
       ],
-      "explanation": "本句的「remembered where she had seen him before」指「突然想起」。",
+      "explanation": "本句的「remembered where she had seen him before」指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "remembered where she had seen him before"
       ],
       "optionReasons": {
-        "remember-mcq-07": "本句指「突然想起」。",
+        "remember-pdf-001": "本句指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
         "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
         "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
         "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
         "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
         "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。"
       },
-      "correctOption": "remember-mcq-07"
+      "correctOption": "remember-pdf-001"
     },
     {
       "id": "remember-08-0",

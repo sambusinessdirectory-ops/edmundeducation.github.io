@@ -154,18 +154,7 @@ export default {
       "en": "attend to instructions",
       "zh": "留意指示",
       "note": "來源詞義：留意指示",
-      "examples": [
-        [
-          "Please attend carefully to the instructions.",
-          "請仔細留意指示。",
-          "留意指示"
-        ],
-        [
-          "The students attended closely to what the teacher was saying.",
-          "學生們專心留意老師所說的話。",
-          "留意指示"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -355,6 +344,28 @@ export default {
           "Both children attend the same school.",
           "兩個孩子在同一間學校就讀。",
           "以學生身份定期到某間學校或大學上課"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "attend-pdf-001",
+      "title": "集中注意力於某件事",
+      "form": "7. attend to what someone says — 留意；專心聽",
+      "en": "7. attend to what someone says — 留意；專心聽",
+      "zh": "集中注意力於某件事",
+      "note": "原始 PDF 第 7 節：集中注意力於某件事",
+      "examples": [
+        [
+          "Please attend carefully to the instructions.",
+          "請仔細留意指示。",
+          "集中注意力於某件事"
+        ],
+        [
+          "The students attended closely to what the teacher was saying.",
+          "學生們專心留意老師所說的話。",
+          "集中注意力於某件事"
         ]
       ],
       "options": [],
@@ -754,63 +765,63 @@ export default {
     },
     {
       "id": "attend-07-0",
-      "sense": "attend-mcq-08",
+      "sense": "attend-pdf-001",
       "en": "Please attend carefully to the instructions.",
       "zh": "請仔細留意指示。",
       "masked": "Please ____.",
       "options": [
-        "attend-mcq-08",
+        "attend-pdf-001",
         "attend-mcq-07",
         "attend-mcq-09",
         "attend-mcq-06",
         "attend-mcq-10",
         "attend-mcq-05"
       ],
-      "explanation": "本句的「attend carefully to the instructions」指「留意指示」。",
+      "explanation": "本句的「attend carefully to the instructions」指「集中注意力於某件事」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "attend carefully to the instructions"
       ],
       "optionReasons": {
-        "attend-mcq-08": "本句指「留意指示」。",
+        "attend-pdf-001": "本句指「集中注意力於某件事」。",
         "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
         "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
         "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
         "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
         "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。"
       },
-      "correctOption": "attend-mcq-08"
+      "correctOption": "attend-pdf-001"
     },
     {
       "id": "attend-07-1",
-      "sense": "attend-mcq-08",
+      "sense": "attend-pdf-001",
       "en": "The students attended closely to what the teacher was saying.",
       "zh": "學生們專心留意老師所說的話。",
       "masked": "The students ____.",
       "options": [
-        "attend-mcq-08",
+        "attend-pdf-001",
         "attend-mcq-07",
         "attend-mcq-09",
         "attend-mcq-06",
         "attend-mcq-10",
         "attend-mcq-05"
       ],
-      "explanation": "本句的「attended closely to what the teacher was saying」指「留意指示」。",
+      "explanation": "本句的「attended closely to what the teacher was saying」指「集中注意力於某件事」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "attended closely to what the teacher was saying"
       ],
       "optionReasons": {
-        "attend-mcq-08": "本句指「留意指示」。",
+        "attend-pdf-001": "本句指「集中注意力於某件事」。",
         "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
         "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
         "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
         "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
         "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。"
       },
-      "correctOption": "attend-mcq-08"
+      "correctOption": "attend-pdf-001"
     },
     {
       "id": "attend-08-0",

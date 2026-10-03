@@ -239,16 +239,6 @@ export default {
       "note": "來源詞義：引出同一類的例子；像……這樣的／例如",
       "examples": [
         [
-          "If you like, we can leave early.",
-          "如果你願意／想的話，我們可以提早離開。",
-          "引出同一類的例子；像……這樣的／例如"
-        ],
-        [
-          "You can sit here if you like.",
-          "如果你想的話，可以坐這裡。",
-          "引出同一類的例子；像……這樣的／例如"
-        ],
-        [
           "She enjoys quiet activities like reading and gardening.",
           "她喜歡閱讀和園藝之類的安靜活動。",
           "引出同一類的例子；像……這樣的／例如"
@@ -685,6 +675,28 @@ export default {
           "Do you like the new design?",
           "你喜歡這個新設計嗎？",
           "對某人、事物、方法或特質有正面評價"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "like-pdf-001",
+      "title": "如果你願意／如果你想",
+      "form": "11. like = want/prefer（非正式） — 想；願意",
+      "en": "11. like = want/prefer（非正式） — 想；願意",
+      "zh": "如果你願意／如果你想",
+      "note": "原始 PDF 第 11 節：如果你願意／如果你想",
+      "examples": [
+        [
+          "If you like, we can leave early.",
+          "如果你願意／想的話，我們可以提早離開。",
+          "如果你願意／如果你想"
+        ],
+        [
+          "You can sit here if you like.",
+          "如果你想的話，可以坐這裡。",
+          "如果你願意／如果你想"
         ]
       ],
       "options": [],
@@ -1324,63 +1336,63 @@ export default {
     },
     {
       "id": "like-11-0",
-      "sense": "like-mcq-12",
+      "sense": "like-pdf-001",
       "en": "If you like, we can leave early.",
       "zh": "如果你願意／想的話，我們可以提早離開。",
       "masked": "If you ____, we can leave early.",
       "options": [
-        "like-mcq-12",
+        "like-pdf-001",
         "like-mcq-11",
         "like-mcq-13",
         "like-mcq-10",
         "like-mcq-14",
         "like-mcq-09"
       ],
-      "explanation": "本句的「like」指「引出同一類的例子；像……這樣的／例如」。",
+      "explanation": "本句的「like」指「如果你願意／如果你想」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "like"
       ],
       "optionReasons": {
-        "like-mcq-12": "本句指「引出同一類的例子；像……這樣的／例如」。",
+        "like-pdf-001": "本句指「如果你願意／如果你想」。",
         "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
         "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
         "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
         "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
         "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。"
       },
-      "correctOption": "like-mcq-12"
+      "correctOption": "like-pdf-001"
     },
     {
       "id": "like-11-1",
-      "sense": "like-mcq-12",
+      "sense": "like-pdf-001",
       "en": "You can sit here if you like.",
       "zh": "如果你想的話，可以坐這裡。",
       "masked": "You can sit here if you ____.",
       "options": [
-        "like-mcq-12",
+        "like-pdf-001",
         "like-mcq-11",
         "like-mcq-13",
         "like-mcq-10",
         "like-mcq-14",
         "like-mcq-09"
       ],
-      "explanation": "本句的「like」指「引出同一類的例子；像……這樣的／例如」。",
+      "explanation": "本句的「like」指「如果你願意／如果你想」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "like"
       ],
       "optionReasons": {
-        "like-mcq-12": "本句指「引出同一類的例子；像……這樣的／例如」。",
+        "like-pdf-001": "本句指「如果你願意／如果你想」。",
         "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
         "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
         "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
         "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
         "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。"
       },
-      "correctOption": "like-mcq-12"
+      "correctOption": "like-pdf-001"
     },
     {
       "id": "like-12-0",

@@ -85,16 +85,6 @@ export default {
       "note": "來源詞義：某人使用或攜帶的一堆物品／裝備；與 equipment 義相關",
       "examples": [
         [
-          "He arrived wearing cycling gear.",
-          "他穿着單車裝備／服裝到場。",
-          "某人使用或攜帶的一堆物品／裝備；與 equipment 義相關"
-        ],
-        [
-          "She changed into her running gear.",
-          "她換上了跑步裝備／運動服。",
-          "某人使用或攜帶的一堆物品／裝備；與 equipment 義相關"
-        ],
-        [
           "Grab your gear and let’s go.",
           "拿好你的東西／裝備，我們走吧。",
           "某人使用或攜帶的一堆物品／裝備；與 equipment 義相關"
@@ -259,6 +249,28 @@ export default {
           "The machine slipped out of gear.",
           "機器的傳動裝置脫離了齒輪咬合／脫檔。",
           "表示入檔／未入檔"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "gear-pdf-001",
+      "title": "為某種活動而穿着的服裝或相關裝備",
+      "form": "4. gear = clothing, especially of a particular type（衣物） — 衣服；服裝",
+      "en": "4. gear = clothing, especially of a particular type（衣物） — 衣服；服裝",
+      "zh": "為某種活動而穿着的服裝或相關裝備",
+      "note": "原始 PDF 第 4 節：為某種活動而穿着的服裝或相關裝備",
+      "examples": [
+        [
+          "He arrived wearing cycling gear.",
+          "他穿着單車裝備／服裝到場。",
+          "為某種活動而穿着的服裝或相關裝備"
+        ],
+        [
+          "She changed into her running gear.",
+          "她換上了跑步裝備／運動服。",
+          "為某種活動而穿着的服裝或相關裝備"
         ]
       ],
       "options": [],
@@ -478,63 +490,63 @@ export default {
     },
     {
       "id": "gear-04-0",
-      "sense": "gear-mcq-04",
+      "sense": "gear-pdf-001",
       "en": "He arrived wearing cycling gear.",
       "zh": "他穿着單車裝備／服裝到場。",
       "masked": "He arrived wearing cycling ____.",
       "options": [
-        "gear-mcq-04",
+        "gear-pdf-001",
         "gear-mcq-03",
         "gear-mcq-05",
         "gear-mcq-02",
         "gear-mcq-06",
         "gear-mcq-01"
       ],
-      "explanation": "本句的「gear」指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
+      "explanation": "本句的「gear」指「為某種活動而穿着的服裝或相關裝備」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-04": "本句指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
+        "gear-pdf-001": "本句指「為某種活動而穿着的服裝或相關裝備」。",
         "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
         "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
         "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
         "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
         "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。"
       },
-      "correctOption": "gear-mcq-04"
+      "correctOption": "gear-pdf-001"
     },
     {
       "id": "gear-04-1",
-      "sense": "gear-mcq-04",
+      "sense": "gear-pdf-001",
       "en": "She changed into her running gear.",
       "zh": "她換上了跑步裝備／運動服。",
       "masked": "She changed into her running ____.",
       "options": [
-        "gear-mcq-04",
+        "gear-pdf-001",
         "gear-mcq-03",
         "gear-mcq-05",
         "gear-mcq-02",
         "gear-mcq-06",
         "gear-mcq-01"
       ],
-      "explanation": "本句的「gear」指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
+      "explanation": "本句的「gear」指「為某種活動而穿着的服裝或相關裝備」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-04": "本句指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
+        "gear-pdf-001": "本句指「為某種活動而穿着的服裝或相關裝備」。",
         "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
         "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
         "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
         "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
         "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。"
       },
-      "correctOption": "gear-mcq-04"
+      "correctOption": "gear-pdf-001"
     },
     {
       "id": "gear-05-0",

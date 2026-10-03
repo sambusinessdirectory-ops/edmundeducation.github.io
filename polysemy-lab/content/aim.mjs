@@ -969,18 +969,7 @@ export default {
       "en": "aimless",
       "zh": "漫無目的的",
       "note": "來源詞義：漫無目的的",
-      "examples": [
-        [
-          "The meeting became aimless.",
-          "會議變得沒有方向。",
-          "漫無目的的"
-        ],
-        [
-          "Without a clear objective, discussion can become aimless.",
-          "如果沒有清晰目標，討論可能變得漫無目的。",
-          "漫無目的的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1099,6 +1088,28 @@ export default {
           "The target must remain in the line of aim.",
           "目標必須保持在瞄準線上。",
           "瞄準線"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "aim-pdf-001",
+      "title": "沒有清晰目的、方向或計劃的",
+      "form": "56. aimless = without a clear purpose — 漫無目的的；沒有方向的",
+      "en": "56. aimless = without a clear purpose — 漫無目的的；沒有方向的",
+      "zh": "沒有清晰目的、方向或計劃的",
+      "note": "原始 PDF 第 56 節：沒有清晰目的、方向或計劃的",
+      "examples": [
+        [
+          "The meeting became aimless.",
+          "會議變得沒有方向。",
+          "沒有清晰目的、方向或計劃的"
+        ],
+        [
+          "Without a clear objective, discussion can become aimless.",
+          "如果沒有清晰目標，討論可能變得漫無目的。",
+          "沒有清晰目的、方向或計劃的"
         ]
       ],
       "options": [],
@@ -4258,63 +4269,63 @@ export default {
     },
     {
       "id": "aim-56-0",
-      "sense": "aim-mcq-37",
+      "sense": "aim-pdf-001",
       "en": "The meeting became aimless.",
       "zh": "會議變得沒有方向。",
       "masked": "The meeting became ____.",
       "options": [
-        "aim-mcq-37",
+        "aim-pdf-001",
         "aim-mcq-36",
         "aim-mcq-38",
         "aim-mcq-35",
         "aim-mcq-39",
         "aim-mcq-34"
       ],
-      "explanation": "本句的「aimless」指「漫無目的的」。",
+      "explanation": "本句的「aimless」指「沒有清晰目的、方向或計劃的」。",
       "sentenceIndex": 109,
       "sourcePractice": 1,
       "targets": [
         "aimless"
       ],
       "optionReasons": {
-        "aim-mcq-37": "本句指「漫無目的的」。",
+        "aim-pdf-001": "本句指「沒有清晰目的、方向或計劃的」。",
         "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
         "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
         "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
         "aim-mcq-39": "「漫無目的地」與本句語境不同。",
         "aim-mcq-34": "「追求更高目標」與本句語境不同。"
       },
-      "correctOption": "aim-mcq-37"
+      "correctOption": "aim-pdf-001"
     },
     {
       "id": "aim-56-1",
-      "sense": "aim-mcq-37",
+      "sense": "aim-pdf-001",
       "en": "Without a clear objective, discussion can become aimless.",
       "zh": "如果沒有清晰目標，討論可能變得漫無目的。",
       "masked": "Without a clear objective, discussion can become ____.",
       "options": [
-        "aim-mcq-37",
+        "aim-pdf-001",
         "aim-mcq-36",
         "aim-mcq-38",
         "aim-mcq-35",
         "aim-mcq-39",
         "aim-mcq-34"
       ],
-      "explanation": "本句的「aimless」指「漫無目的的」。",
+      "explanation": "本句的「aimless」指「沒有清晰目的、方向或計劃的」。",
       "sentenceIndex": 110,
       "sourcePractice": 2,
       "targets": [
         "aimless"
       ],
       "optionReasons": {
-        "aim-mcq-37": "本句指「漫無目的的」。",
+        "aim-pdf-001": "本句指「沒有清晰目的、方向或計劃的」。",
         "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
         "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
         "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
         "aim-mcq-39": "「漫無目的地」與本句語境不同。",
         "aim-mcq-34": "「追求更高目標」與本句語境不同。"
       },
-      "correctOption": "aim-mcq-37"
+      "correctOption": "aim-pdf-001"
     },
     {
       "id": "aim-57-0",

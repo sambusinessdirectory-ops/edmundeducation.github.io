@@ -82,16 +82,6 @@ export default {
           "The meal came with two rice cakes.",
           "這頓飯配了兩件米餅。",
           "把食材混合、壓成扁平或圓形的一塊食品"
-        ],
-        [
-          "She bought some rice cakes.",
-          "她買了一些米餅。",
-          "把食材混合、壓成扁平或圓形的一塊食品"
-        ],
-        [
-          "Rice cakes can be sweet or savoury.",
-          "米餅／年糕類食品可以是甜的，也可以是鹹的。",
-          "把食材混合、壓成扁平或圓形的一塊食品"
         ]
       ],
       "options": [],
@@ -113,16 +103,6 @@ export default {
         [
           "The pigment came in small cakes.",
           "那些顏料是以小塊狀形式出售的。",
-          "被壓實、製成厚實塊狀的一團物質"
-        ],
-        [
-          "There was a fresh cake of soap by the sink.",
-          "洗手盆旁放著一塊新肥皂。",
-          "被壓實、製成厚實塊狀的一團物質"
-        ],
-        [
-          "She wrapped each cake of soap separately.",
-          "她把每一塊肥皂分開包裝。",
           "被壓實、製成厚實塊狀的一團物質"
         ],
         [
@@ -276,6 +256,50 @@ export default {
           "Of all the beautiful desserts, this one takes the cake.",
           "在所有漂亮甜點中，這個真是最出色。",
           "在某方面最突出；常可表示最出色或最離譜"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "cake-pdf-001",
+      "title": "以米製成、壓成塊狀或餅狀的食品",
+      "form": "5. rice cake = 米餅；年糕類食品",
+      "en": "5. rice cake = 米餅；年糕類食品",
+      "zh": "以米製成、壓成塊狀或餅狀的食品",
+      "note": "原始 PDF 第 5 節：以米製成、壓成塊狀或餅狀的食品",
+      "examples": [
+        [
+          "She bought some rice cakes.",
+          "她買了一些米餅。",
+          "以米製成、壓成塊狀或餅狀的食品"
+        ],
+        [
+          "Rice cakes can be sweet or savoury.",
+          "米餅／年糕類食品可以是甜的，也可以是鹹的。",
+          "以米製成、壓成塊狀或餅狀的食品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "cake-pdf-002",
+      "title": "一整塊固體肥皂",
+      "form": "7. cake of soap = 一塊肥皂",
+      "en": "7. cake of soap = 一塊肥皂",
+      "zh": "一整塊固體肥皂",
+      "note": "原始 PDF 第 7 節：一整塊固體肥皂",
+      "examples": [
+        [
+          "There was a fresh cake of soap by the sink.",
+          "洗手盆旁放著一塊新肥皂。",
+          "一整塊固體肥皂"
+        ],
+        [
+          "She wrapped each cake of soap separately.",
+          "她把每一塊肥皂分開包裝。",
+          "一整塊固體肥皂"
         ]
       ],
       "options": [],
@@ -495,63 +519,63 @@ export default {
     },
     {
       "id": "cake-05-0",
-      "sense": "cake-mcq-04",
+      "sense": "cake-pdf-001",
       "en": "She bought some rice cakes.",
       "zh": "她買了一些米餅。",
       "masked": "She bought some ____.",
       "options": [
-        "cake-mcq-04",
+        "cake-pdf-001",
         "cake-mcq-03",
         "cake-mcq-05",
         "cake-mcq-02",
         "cake-mcq-06",
         "cake-mcq-01"
       ],
-      "explanation": "本句的「rice cakes」指「把食材混合、壓成扁平或圓形的一塊食品」。",
+      "explanation": "本句的「rice cakes」指「以米製成、壓成塊狀或餅狀的食品」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "rice cakes"
       ],
       "optionReasons": {
-        "cake-mcq-04": "本句指「把食材混合、壓成扁平或圓形的一塊食品」。",
+        "cake-pdf-001": "本句指「以米製成、壓成塊狀或餅狀的食品」。",
         "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
         "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
         "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
         "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
         "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。"
       },
-      "correctOption": "cake-mcq-04"
+      "correctOption": "cake-pdf-001"
     },
     {
       "id": "cake-05-1",
-      "sense": "cake-mcq-04",
+      "sense": "cake-pdf-001",
       "en": "Rice cakes can be sweet or savoury.",
       "zh": "米餅／年糕類食品可以是甜的，也可以是鹹的。",
       "masked": "Rice ____ can be sweet or savoury.",
       "options": [
-        "cake-mcq-04",
+        "cake-pdf-001",
         "cake-mcq-03",
         "cake-mcq-05",
         "cake-mcq-02",
         "cake-mcq-06",
         "cake-mcq-01"
       ],
-      "explanation": "本句的「cakes」指「把食材混合、壓成扁平或圓形的一塊食品」。",
+      "explanation": "本句的「cakes」指「以米製成、壓成塊狀或餅狀的食品」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "cakes"
       ],
       "optionReasons": {
-        "cake-mcq-04": "本句指「把食材混合、壓成扁平或圓形的一塊食品」。",
+        "cake-pdf-001": "本句指「以米製成、壓成塊狀或餅狀的食品」。",
         "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
         "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
         "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
         "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
         "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。"
       },
-      "correctOption": "cake-mcq-04"
+      "correctOption": "cake-pdf-001"
     },
     {
       "id": "cake-06-0",
@@ -615,63 +639,63 @@ export default {
     },
     {
       "id": "cake-07-0",
-      "sense": "cake-mcq-05",
+      "sense": "cake-pdf-002",
       "en": "There was a fresh cake of soap by the sink.",
       "zh": "洗手盆旁放著一塊新肥皂。",
       "masked": "There was a fresh ____ by the sink.",
       "options": [
-        "cake-mcq-05",
+        "cake-pdf-002",
         "cake-mcq-04",
         "cake-mcq-06",
         "cake-mcq-03",
         "cake-mcq-07",
         "cake-mcq-02"
       ],
-      "explanation": "本句的「cake of soap」指「被壓實、製成厚實塊狀的一團物質」。",
+      "explanation": "本句的「cake of soap」指「一整塊固體肥皂」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "cake of soap"
       ],
       "optionReasons": {
-        "cake-mcq-05": "本句指「被壓實、製成厚實塊狀的一團物質」。",
+        "cake-pdf-002": "本句指「一整塊固體肥皂」。",
         "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
         "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
         "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
         "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
         "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
       },
-      "correctOption": "cake-mcq-05"
+      "correctOption": "cake-pdf-002"
     },
     {
       "id": "cake-07-1",
-      "sense": "cake-mcq-05",
+      "sense": "cake-pdf-002",
       "en": "She wrapped each cake of soap separately.",
       "zh": "她把每一塊肥皂分開包裝。",
       "masked": "She wrapped each ____ of soap separately.",
       "options": [
-        "cake-mcq-05",
+        "cake-pdf-002",
         "cake-mcq-04",
         "cake-mcq-06",
         "cake-mcq-03",
         "cake-mcq-07",
         "cake-mcq-02"
       ],
-      "explanation": "本句的「cake」指「被壓實、製成厚實塊狀的一團物質」。",
+      "explanation": "本句的「cake」指「一整塊固體肥皂」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-05": "本句指「被壓實、製成厚實塊狀的一團物質」。",
+        "cake-pdf-002": "本句指「一整塊固體肥皂」。",
         "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
         "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
         "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
         "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
         "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
       },
-      "correctOption": "cake-mcq-05"
+      "correctOption": "cake-pdf-002"
     },
     {
       "id": "cake-08-0",

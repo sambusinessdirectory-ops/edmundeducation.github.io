@@ -176,16 +176,6 @@ export default {
           "Attendance was thin because of the bad weather.",
           "因為天氣差，出席人數很少。",
           "稀疏人群"
-        ],
-        [
-          "The area has thin vegetation.",
-          "該地區植被很稀疏。",
-          "稀疏人群"
-        ],
-        [
-          "The population is thinly spread across the region.",
-          "人口在該區域分布得很稀疏。",
-          "稀疏人群"
         ]
       ],
       "options": [],
@@ -295,16 +285,6 @@ export default {
         [
           "Spread the paint thinly.",
           "把油漆薄薄地塗開。",
-          "薄薄地／稀疏地"
-        ],
-        [
-          "The region is thinly populated.",
-          "這個地區人口稀少。",
-          "薄薄地／稀疏地"
-        ],
-        [
-          "The houses are thinly spread across the valley.",
-          "房屋在山谷中分布稀疏。",
           "薄薄地／稀疏地"
         ]
       ],
@@ -443,6 +423,50 @@ export default {
           "She wore a thin jacket.",
           "她穿了一件很薄的外套。",
           "從一面到另一面的厚度很小"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "thin-pdf-001",
+      "title": "分布密度低、不集中",
+      "form": "10. thin vegetation / population — 稀疏的植被／人口",
+      "en": "10. thin vegetation / population — 稀疏的植被／人口",
+      "zh": "分布密度低、不集中",
+      "note": "原始 PDF 第 10 節：分布密度低、不集中",
+      "examples": [
+        [
+          "The area has thin vegetation.",
+          "該地區植被很稀疏。",
+          "分布密度低、不集中"
+        ],
+        [
+          "The population is thinly spread across the region.",
+          "人口在該區域分布得很稀疏。",
+          "分布密度低、不集中"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "thin-pdf-002",
+      "title": "以低密度、相隔較遠的方式",
+      "form": "16. thinly populated / spread — 人口稀少／分布稀疏",
+      "en": "16. thinly populated / spread — 人口稀少／分布稀疏",
+      "zh": "以低密度、相隔較遠的方式",
+      "note": "原始 PDF 第 16 節：以低密度、相隔較遠的方式",
+      "examples": [
+        [
+          "The region is thinly populated.",
+          "這個地區人口稀少。",
+          "以低密度、相隔較遠的方式"
+        ],
+        [
+          "The houses are thinly spread across the valley.",
+          "房屋在山谷中分布稀疏。",
+          "以低密度、相隔較遠的方式"
         ]
       ],
       "options": [],
@@ -1022,63 +1046,63 @@ export default {
     },
     {
       "id": "thin-10-0",
-      "sense": "thin-mcq-09",
+      "sense": "thin-pdf-001",
       "en": "The area has thin vegetation.",
       "zh": "該地區植被很稀疏。",
       "masked": "The area has ____.",
       "options": [
-        "thin-mcq-09",
+        "thin-pdf-001",
         "thin-mcq-08",
         "thin-mcq-10",
         "thin-mcq-07",
         "thin-mcq-11",
         "thin-mcq-06"
       ],
-      "explanation": "本句的「thin vegetation」指「稀疏人群」。",
+      "explanation": "本句的「thin vegetation」指「分布密度低、不集中」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "thin vegetation"
       ],
       "optionReasons": {
-        "thin-mcq-09": "本句指「稀疏人群」。",
+        "thin-pdf-001": "本句指「分布密度低、不集中」。",
         "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
         "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
         "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
         "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
         "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
       },
-      "correctOption": "thin-mcq-09"
+      "correctOption": "thin-pdf-001"
     },
     {
       "id": "thin-10-1",
-      "sense": "thin-mcq-09",
+      "sense": "thin-pdf-001",
       "en": "The population is thinly spread across the region.",
       "zh": "人口在該區域分布得很稀疏。",
       "masked": "The population is ____ across the region.",
       "options": [
-        "thin-mcq-09",
+        "thin-pdf-001",
         "thin-mcq-08",
         "thin-mcq-10",
         "thin-mcq-07",
         "thin-mcq-11",
         "thin-mcq-06"
       ],
-      "explanation": "本句的「thinly spread」指「稀疏人群」。",
+      "explanation": "本句的「thinly spread」指「分布密度低、不集中」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "thinly spread"
       ],
       "optionReasons": {
-        "thin-mcq-09": "本句指「稀疏人群」。",
+        "thin-pdf-001": "本句指「分布密度低、不集中」。",
         "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
         "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
         "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
         "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
         "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
       },
-      "correctOption": "thin-mcq-09"
+      "correctOption": "thin-pdf-001"
     },
     {
       "id": "thin-11-0",
@@ -1382,63 +1406,63 @@ export default {
     },
     {
       "id": "thin-16-0",
-      "sense": "thin-mcq-14",
+      "sense": "thin-pdf-002",
       "en": "The region is thinly populated.",
       "zh": "這個地區人口稀少。",
       "masked": "The region is ____.",
       "options": [
-        "thin-mcq-14",
+        "thin-pdf-002",
         "thin-mcq-13",
         "thin-mcq-15",
         "thin-mcq-12",
         "thin-mcq-16",
         "thin-mcq-11"
       ],
-      "explanation": "本句的「thinly populated」指「薄薄地／稀疏地」。",
+      "explanation": "本句的「thinly populated」指「以低密度、相隔較遠的方式」。",
       "sentenceIndex": 31,
       "sourcePractice": 1,
       "targets": [
         "thinly populated"
       ],
       "optionReasons": {
-        "thin-mcq-14": "本句指「薄薄地／稀疏地」。",
+        "thin-pdf-002": "本句指「以低密度、相隔較遠的方式」。",
         "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
         "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
         "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
         "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
         "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。"
       },
-      "correctOption": "thin-mcq-14"
+      "correctOption": "thin-pdf-002"
     },
     {
       "id": "thin-16-1",
-      "sense": "thin-mcq-14",
+      "sense": "thin-pdf-002",
       "en": "The houses are thinly spread across the valley.",
       "zh": "房屋在山谷中分布稀疏。",
       "masked": "The houses are ____ across the valley.",
       "options": [
-        "thin-mcq-14",
+        "thin-pdf-002",
         "thin-mcq-13",
         "thin-mcq-15",
         "thin-mcq-12",
         "thin-mcq-16",
         "thin-mcq-11"
       ],
-      "explanation": "本句的「thinly spread」指「薄薄地／稀疏地」。",
+      "explanation": "本句的「thinly spread」指「以低密度、相隔較遠的方式」。",
       "sentenceIndex": 32,
       "sourcePractice": 2,
       "targets": [
         "thinly spread"
       ],
       "optionReasons": {
-        "thin-mcq-14": "本句指「薄薄地／稀疏地」。",
+        "thin-pdf-002": "本句指「以低密度、相隔較遠的方式」。",
         "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
         "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
         "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
         "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
         "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。"
       },
-      "correctOption": "thin-mcq-14"
+      "correctOption": "thin-pdf-002"
     },
     {
       "id": "thin-17-0",

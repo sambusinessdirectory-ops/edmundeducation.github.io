@@ -719,18 +719,7 @@ export default {
       "en": "legal issue",
       "zh": "法律爭點",
       "note": "來源詞義：法律爭點",
-      "examples": [
-        [
-          "The case raises an important legal issue.",
-          "案件提出一個重要的法律爭點。",
-          "法律爭點"
-        ],
-        [
-          "Consumer rights may create legal issues for the retailer.",
-          "消費者權利可能為零售商帶來法律問題。",
-          "法律爭點"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -795,18 +784,7 @@ export default {
       "en": "issue (publication)",
       "zh": "一期刊物",
       "note": "來源詞義：一期刊物",
-      "examples": [
-        [
-          "I bought the latest issue of the magazine.",
-          "我買了最新一期雜誌。",
-          "一期刊物"
-        ],
-        [
-          "The article appeared in the September issue.",
-          "文章刊登在九月號／期。",
-          "一期刊物"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -927,18 +905,7 @@ export default {
       "en": "issue (verb)",
       "zh": "發出；簽發",
       "note": "來源詞義：發出；簽發",
-      "examples": [
-        [
-          "The company issued a statement.",
-          "公司發表了一份聲明。",
-          "發出；簽發"
-        ],
-        [
-          "Staff were issued new instructions.",
-          "員工收到新指示。",
-          "發出；簽發"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1300,18 +1267,7 @@ export default {
       "en": "issue shares",
       "zh": "發行股份",
       "note": "來源詞義：發行股份",
-      "examples": [
-        [
-          "The company plans to issue new shares.",
-          "公司計劃發行新股。",
-          "發行股份"
-        ],
-        [
-          "Shares were issued to investors.",
-          "股份被發行給投資者。",
-          "發行股份"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1443,16 +1399,6 @@ export default {
       "zh": "發行；簽發",
       "note": "來源詞義：發行；簽發",
       "examples": [
-        [
-          "Passport issuance may take several weeks.",
-          "護照簽發可能需要數星期。",
-          "發行；簽發"
-        ],
-        [
-          "The company approved the issuance of new shares.",
-          "公司批准發行新股。",
-          "發行；簽發"
-        ],
         [
           "The bank advises companies on securities issuance.",
           "銀行就證券發行向公司提供意見。",
@@ -1702,18 +1648,7 @@ export default {
       "en": "issue date",
       "zh": "簽發／發行日期",
       "note": "來源詞義：簽發／發行日期",
-      "examples": [
-        [
-          "Check the passport's issue date.",
-          "檢查護照的簽發日期。",
-          "簽發／發行日期"
-        ],
-        [
-          "The bond's issue date is printed on the document.",
-          "債券的發行日期印在文件上。",
-          "簽發／發行日期"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1754,6 +1689,138 @@ export default {
           "The issue of new guidance was welcomed.",
           "新指引的發布受到歡迎。",
           "簽發日期"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "issue-pdf-001",
+      "title": "需要依法律規則作出判斷的問題",
+      "form": "36. legal issue = legal question requiring determination — 法律問題；法律爭點",
+      "en": "36. legal issue = legal question requiring determination — 法律問題；法律爭點",
+      "zh": "需要依法律規則作出判斷的問題",
+      "note": "原始 PDF 第 36 節：需要依法律規則作出判斷的問題",
+      "examples": [
+        [
+          "The case raises an important legal issue.",
+          "案件提出一個重要的法律爭點。",
+          "需要依法律規則作出判斷的問題"
+        ],
+        [
+          "Consumer rights may create legal issues for the retailer.",
+          "消費者權利可能為零售商帶來法律問題。",
+          "需要依法律規則作出判斷的問題"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "issue-pdf-002",
+      "title": "報紙、雜誌、期刊等定期出版物中的其中一期",
+      "form": "40. issue = one edition of a magazine/journal/newspaper — 一期；一期刊物",
+      "en": "40. issue = one edition of a magazine/journal/newspaper — 一期；一期刊物",
+      "zh": "報紙、雜誌、期刊等定期出版物中的其中一期",
+      "note": "原始 PDF 第 40 節：報紙、雜誌、期刊等定期出版物中的其中一期",
+      "examples": [
+        [
+          "I bought the latest issue of the magazine.",
+          "我買了最新一期雜誌。",
+          "報紙、雜誌、期刊等定期出版物中的其中一期"
+        ],
+        [
+          "The article appeared in the September issue.",
+          "文章刊登在九月號／期。",
+          "報紙、雜誌、期刊等定期出版物中的其中一期"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "issue-pdf-003",
+      "title": "由有權力的機構／人士正式發出、提供或公布 X",
+      "form": "46. issue something = officially give, send, or announce it — 發出；頒發；簽發",
+      "en": "46. issue something = officially give, send, or announce it — 發出；頒發；簽發",
+      "zh": "由有權力的機構／人士正式發出、提供或公布 X",
+      "note": "原始 PDF 第 46 節：由有權力的機構／人士正式發出、提供或公布 X",
+      "examples": [
+        [
+          "The company issued a statement.",
+          "公司發表了一份聲明。",
+          "由有權力的機構／人士正式發出、提供或公布 X"
+        ],
+        [
+          "Staff were issued new instructions.",
+          "員工收到新指示。",
+          "由有權力的機構／人士正式發出、提供或公布 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "issue-pdf-004",
+      "title": "公司正式創設／提供股份供投資者持有或購買",
+      "form": "64. issue shares = create/sell shares to investors — 發行股份",
+      "en": "64. issue shares = create/sell shares to investors — 發行股份",
+      "zh": "公司正式創設／提供股份供投資者持有或購買",
+      "note": "原始 PDF 第 64 節：公司正式創設／提供股份供投資者持有或購買",
+      "examples": [
+        [
+          "The company plans to issue new shares.",
+          "公司計劃發行新股。",
+          "公司正式創設／提供股份供投資者持有或購買"
+        ],
+        [
+          "Shares were issued to investors.",
+          "股份被發行給投資者。",
+          "公司正式創設／提供股份供投資者持有或購買"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "issue-pdf-005",
+      "title": "正式簽發文件、發行證券或發出某物的過程",
+      "form": "71. issuance = act/process of officially issuing something — 發行；簽發；頒發",
+      "en": "71. issuance = act/process of officially issuing something — 發行；簽發；頒發",
+      "zh": "正式簽發文件、發行證券或發出某物的過程",
+      "note": "原始 PDF 第 71 節：正式簽發文件、發行證券或發出某物的過程",
+      "examples": [
+        [
+          "Passport issuance may take several weeks.",
+          "護照簽發可能需要數星期。",
+          "正式簽發文件、發行證券或發出某物的過程"
+        ],
+        [
+          "The company approved the issuance of new shares.",
+          "公司批准發行新股。",
+          "正式簽發文件、發行證券或發出某物的過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "issue-pdf-006",
+      "title": "文件、卡、證券等正式發出的日期",
+      "form": "87. issue date = date on which something is officially issued — 簽發日期；發行日期",
+      "en": "87. issue date = date on which something is officially issued — 簽發日期；發行日期",
+      "zh": "文件、卡、證券等正式發出的日期",
+      "note": "原始 PDF 第 87 節：文件、卡、證券等正式發出的日期",
+      "examples": [
+        [
+          "Check the passport's issue date.",
+          "檢查護照的簽發日期。",
+          "文件、卡、證券等正式發出的日期"
+        ],
+        [
+          "The bond's issue date is printed on the document.",
+          "債券的發行日期印在文件上。",
+          "文件、卡、證券等正式發出的日期"
         ]
       ],
       "options": [],
@@ -3773,63 +3840,63 @@ export default {
     },
     {
       "id": "issue-36-0",
-      "sense": "issue-mcq-32",
+      "sense": "issue-pdf-001",
       "en": "The case raises an important legal issue.",
       "zh": "案件提出一個重要的法律爭點。",
       "masked": "The case raises an important ____.",
       "options": [
-        "issue-mcq-32",
+        "issue-pdf-001",
         "issue-mcq-31",
         "issue-mcq-30",
         "issue-mcq-34",
         "issue-mcq-29",
         "issue-mcq-35"
       ],
-      "explanation": "本句的「legal issue」指「法律爭點」。",
+      "explanation": "本句的「legal issue」指「需要依法律規則作出判斷的問題」。",
       "sentenceIndex": 67,
       "sourcePractice": 1,
       "targets": [
         "legal issue"
       ],
       "optionReasons": {
-        "issue-mcq-32": "本句指「法律爭點」。",
+        "issue-pdf-001": "本句指「需要依法律規則作出判斷的問題」。",
         "issue-mcq-31": "「信任問題」與本句語境不同。",
         "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
         "issue-mcq-34": "「事實爭點」與本句語境不同。",
         "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
         "issue-mcq-35": "「一期刊物」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-32"
+      "correctOption": "issue-pdf-001"
     },
     {
       "id": "issue-36-1",
-      "sense": "issue-mcq-32",
+      "sense": "issue-pdf-001",
       "en": "Consumer rights may create legal issues for the retailer.",
       "zh": "消費者權利可能為零售商帶來法律問題。",
       "masked": "Consumer rights may create legal ____ for the retailer.",
       "options": [
-        "issue-mcq-32",
+        "issue-pdf-001",
         "issue-mcq-31",
         "issue-mcq-30",
         "issue-mcq-34",
         "issue-mcq-29",
         "issue-mcq-35"
       ],
-      "explanation": "本句的「issues」指「法律爭點」。",
+      "explanation": "本句的「issues」指「需要依法律規則作出判斷的問題」。",
       "sentenceIndex": 68,
       "sourcePractice": 2,
       "targets": [
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-32": "本句指「法律爭點」。",
+        "issue-pdf-001": "本句指「需要依法律規則作出判斷的問題」。",
         "issue-mcq-31": "「信任問題」與本句語境不同。",
         "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
         "issue-mcq-34": "「事實爭點」與本句語境不同。",
         "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
         "issue-mcq-35": "「一期刊物」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-32"
+      "correctOption": "issue-pdf-001"
     },
     {
       "id": "issue-37-0",
@@ -4013,63 +4080,63 @@ export default {
     },
     {
       "id": "issue-40-0",
-      "sense": "issue-mcq-35",
+      "sense": "issue-pdf-002",
       "en": "I bought the latest issue of the magazine.",
       "zh": "我買了最新一期雜誌。",
       "masked": "I bought the latest ____.",
       "options": [
-        "issue-mcq-35",
+        "issue-pdf-002",
         "issue-mcq-34",
         "issue-mcq-36",
         "issue-mcq-33",
         "issue-mcq-37",
         "issue-mcq-38"
       ],
-      "explanation": "本句的「issue of the magazine」指「一期刊物」。",
+      "explanation": "本句的「issue of the magazine」指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
       "sentenceIndex": 75,
       "sourcePractice": 1,
       "targets": [
         "issue of the magazine"
       ],
       "optionReasons": {
-        "issue-mcq-35": "本句指「一期刊物」。",
+        "issue-pdf-002": "本句指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
         "issue-mcq-34": "「事實爭點」與本句語境不同。",
         "issue-mcq-36": "「本期」與本句語境不同。",
         "issue-mcq-33": "「法律爭點」與本句語境不同。",
         "issue-mcq-37": "「最新一期」與本句語境不同。",
         "issue-mcq-38": "「舊期刊物」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-35"
+      "correctOption": "issue-pdf-002"
     },
     {
       "id": "issue-40-1",
-      "sense": "issue-mcq-35",
+      "sense": "issue-pdf-002",
       "en": "The article appeared in the September issue.",
       "zh": "文章刊登在九月號／期。",
       "masked": "The article appeared in the September ____.",
       "options": [
-        "issue-mcq-35",
+        "issue-pdf-002",
         "issue-mcq-34",
         "issue-mcq-36",
         "issue-mcq-33",
         "issue-mcq-37",
         "issue-mcq-38"
       ],
-      "explanation": "本句的「issue」指「一期刊物」。",
+      "explanation": "本句的「issue」指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
       "sentenceIndex": 76,
       "sourcePractice": 2,
       "targets": [
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-35": "本句指「一期刊物」。",
+        "issue-pdf-002": "本句指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
         "issue-mcq-34": "「事實爭點」與本句語境不同。",
         "issue-mcq-36": "「本期」與本句語境不同。",
         "issue-mcq-33": "「法律爭點」與本句語境不同。",
         "issue-mcq-37": "「最新一期」與本句語境不同。",
         "issue-mcq-38": "「舊期刊物」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-35"
+      "correctOption": "issue-pdf-002"
     },
     {
       "id": "issue-41-0",
@@ -4373,63 +4440,63 @@ export default {
     },
     {
       "id": "issue-46-0",
-      "sense": "issue-mcq-41",
+      "sense": "issue-pdf-003",
       "en": "The company issued a statement.",
       "zh": "公司發表了一份聲明。",
       "masked": "The company ____.",
       "options": [
-        "issue-mcq-41",
+        "issue-pdf-003",
         "issue-mcq-40",
         "issue-mcq-42",
         "issue-mcq-39",
         "issue-mcq-43",
         "issue-mcq-38"
       ],
-      "explanation": "本句的「issued a statement」指「發出；簽發」。",
+      "explanation": "本句的「issued a statement」指「由有權力的機構／人士正式發出、提供或公布 X」。",
       "sentenceIndex": 87,
       "sourcePractice": 1,
       "targets": [
         "issued a statement"
       ],
       "optionReasons": {
-        "issue-mcq-41": "本句指「發出；簽發」。",
+        "issue-pdf-003": "本句指「由有權力的機構／人士正式發出、提供或公布 X」。",
         "issue-mcq-40": "「期號」與本句語境不同。",
         "issue-mcq-42": "「發表聲明」與本句語境不同。",
         "issue-mcq-39": "「特刊／專號」與本句語境不同。",
         "issue-mcq-43": "「發出警告」與本句語境不同。",
         "issue-mcq-38": "「舊期刊物」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-41"
+      "correctOption": "issue-pdf-003"
     },
     {
       "id": "issue-46-1",
-      "sense": "issue-mcq-41",
+      "sense": "issue-pdf-003",
       "en": "Staff were issued new instructions.",
       "zh": "員工收到新指示。",
       "masked": "Staff were ____ new instructions.",
       "options": [
-        "issue-mcq-41",
+        "issue-pdf-003",
         "issue-mcq-40",
         "issue-mcq-42",
         "issue-mcq-39",
         "issue-mcq-43",
         "issue-mcq-38"
       ],
-      "explanation": "本句的「issued」指「發出；簽發」。",
+      "explanation": "本句的「issued」指「由有權力的機構／人士正式發出、提供或公布 X」。",
       "sentenceIndex": 88,
       "sourcePractice": 2,
       "targets": [
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-41": "本句指「發出；簽發」。",
+        "issue-pdf-003": "本句指「由有權力的機構／人士正式發出、提供或公布 X」。",
         "issue-mcq-40": "「期號」與本句語境不同。",
         "issue-mcq-42": "「發表聲明」與本句語境不同。",
         "issue-mcq-39": "「特刊／專號」與本句語境不同。",
         "issue-mcq-43": "「發出警告」與本句語境不同。",
         "issue-mcq-38": "「舊期刊物」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-41"
+      "correctOption": "issue-pdf-003"
     },
     {
       "id": "issue-47-0",
@@ -5393,63 +5460,63 @@ export default {
     },
     {
       "id": "issue-64-0",
-      "sense": "issue-mcq-58",
+      "sense": "issue-pdf-004",
       "en": "The company plans to issue new shares.",
       "zh": "公司計劃發行新股。",
       "masked": "The company plans to ____.",
       "options": [
-        "issue-mcq-58",
+        "issue-pdf-004",
         "issue-mcq-57",
         "issue-mcq-59",
         "issue-mcq-56",
         "issue-mcq-60",
         "issue-mcq-55"
       ],
-      "explanation": "本句的「issue new shares」指「發行股份」。",
+      "explanation": "本句的「issue new shares」指「公司正式創設／提供股份供投資者持有或購買」。",
       "sentenceIndex": 121,
       "sourcePractice": 1,
       "targets": [
         "issue new shares"
       ],
       "optionReasons": {
-        "issue-mcq-58": "本句指「發行股份」。",
+        "issue-pdf-004": "本句指「公司正式創設／提供股份供投資者持有或購買」。",
         "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
         "issue-mcq-59": "「股份發行」與本句語境不同。",
         "issue-mcq-56": "「配發設備」與本句語境不同。",
         "issue-mcq-60": "「債券發行」與本句語境不同。",
         "issue-mcq-55": "「發放款項」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-58"
+      "correctOption": "issue-pdf-004"
     },
     {
       "id": "issue-64-1",
-      "sense": "issue-mcq-58",
+      "sense": "issue-pdf-004",
       "en": "Shares were issued to investors.",
       "zh": "股份被發行給投資者。",
       "masked": "Shares were ____ to investors.",
       "options": [
-        "issue-mcq-58",
+        "issue-pdf-004",
         "issue-mcq-57",
         "issue-mcq-59",
         "issue-mcq-56",
         "issue-mcq-60",
         "issue-mcq-55"
       ],
-      "explanation": "本句的「issued」指「發行股份」。",
+      "explanation": "本句的「issued」指「公司正式創設／提供股份供投資者持有或購買」。",
       "sentenceIndex": 122,
       "sourcePractice": 2,
       "targets": [
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-58": "本句指「發行股份」。",
+        "issue-pdf-004": "本句指「公司正式創設／提供股份供投資者持有或購買」。",
         "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
         "issue-mcq-59": "「股份發行」與本句語境不同。",
         "issue-mcq-56": "「配發設備」與本句語境不同。",
         "issue-mcq-60": "「債券發行」與本句語境不同。",
         "issue-mcq-55": "「發放款項」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-58"
+      "correctOption": "issue-pdf-004"
     },
     {
       "id": "issue-65-0",
@@ -5813,63 +5880,63 @@ export default {
     },
     {
       "id": "issue-71-0",
-      "sense": "issue-mcq-64",
+      "sense": "issue-pdf-005",
       "en": "Passport issuance may take several weeks.",
       "zh": "護照簽發可能需要數星期。",
       "masked": "Passport ____ may take several weeks.",
       "options": [
-        "issue-mcq-64",
+        "issue-pdf-005",
         "issue-mcq-63",
         "issue-mcq-65",
         "issue-mcq-62",
         "issue-mcq-66",
         "issue-mcq-61"
       ],
-      "explanation": "本句的「issuance」指「發行；簽發」。",
+      "explanation": "本句的「issuance」指「正式簽發文件、發行證券或發出某物的過程」。",
       "sentenceIndex": 135,
       "sourcePractice": 1,
       "targets": [
         "issuance"
       ],
       "optionReasons": {
-        "issue-mcq-64": "本句指「發行；簽發」。",
+        "issue-pdf-005": "本句指「正式簽發文件、發行證券或發出某物的過程」。",
         "issue-mcq-63": "「發行價」與本句語境不同。",
         "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
         "issue-mcq-62": "「供股」與本句語境不同。",
         "issue-mcq-66": "「發卡機構」與本句語境不同。",
         "issue-mcq-61": "「發行債券」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-64"
+      "correctOption": "issue-pdf-005"
     },
     {
       "id": "issue-71-1",
-      "sense": "issue-mcq-64",
+      "sense": "issue-pdf-005",
       "en": "The company approved the issuance of new shares.",
       "zh": "公司批准發行新股。",
       "masked": "The company approved the ____ of new shares.",
       "options": [
-        "issue-mcq-64",
+        "issue-pdf-005",
         "issue-mcq-63",
         "issue-mcq-65",
         "issue-mcq-62",
         "issue-mcq-66",
         "issue-mcq-61"
       ],
-      "explanation": "本句的「issuance」指「發行；簽發」。",
+      "explanation": "本句的「issuance」指「正式簽發文件、發行證券或發出某物的過程」。",
       "sentenceIndex": 136,
       "sourcePractice": 2,
       "targets": [
         "issuance"
       ],
       "optionReasons": {
-        "issue-mcq-64": "本句指「發行；簽發」。",
+        "issue-pdf-005": "本句指「正式簽發文件、發行證券或發出某物的過程」。",
         "issue-mcq-63": "「發行價」與本句語境不同。",
         "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
         "issue-mcq-62": "「供股」與本句語境不同。",
         "issue-mcq-66": "「發卡機構」與本句語境不同。",
         "issue-mcq-61": "「發行債券」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-64"
+      "correctOption": "issue-pdf-005"
     },
     {
       "id": "issue-72-0",
@@ -6653,63 +6720,63 @@ export default {
     },
     {
       "id": "issue-87-0",
-      "sense": "issue-mcq-74",
+      "sense": "issue-pdf-006",
       "en": "Check the passport's issue date.",
       "zh": "檢查護照的簽發日期。",
       "masked": "Check the passport's ____.",
       "options": [
-        "issue-mcq-74",
+        "issue-pdf-006",
         "issue-mcq-73",
         "issue-mcq-75",
         "issue-mcq-72",
         "issue-mcq-71",
         "issue-mcq-70"
       ],
-      "explanation": "本句的「issue date」指「簽發／發行日期」。",
+      "explanation": "本句的「issue date」指「文件、卡、證券等正式發出的日期」。",
       "sentenceIndex": 163,
       "sourcePractice": 1,
       "targets": [
         "issue date"
       ],
       "optionReasons": {
-        "issue-mcq-74": "本句指「簽發／發行日期」。",
+        "issue-pdf-006": "本句指「文件、卡、證券等正式發出的日期」。",
         "issue-mcq-73": "「尚存後代」與本句語境不同。",
         "issue-mcq-75": "「簽發日期」與本句語境不同。",
         "issue-mcq-72": "「無後代而死」與本句語境不同。",
         "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
         "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-74"
+      "correctOption": "issue-pdf-006"
     },
     {
       "id": "issue-87-1",
-      "sense": "issue-mcq-74",
+      "sense": "issue-pdf-006",
       "en": "The bond's issue date is printed on the document.",
       "zh": "債券的發行日期印在文件上。",
       "masked": "The bond's ____ date is printed on the document.",
       "options": [
-        "issue-mcq-74",
+        "issue-pdf-006",
         "issue-mcq-73",
         "issue-mcq-75",
         "issue-mcq-72",
         "issue-mcq-71",
         "issue-mcq-70"
       ],
-      "explanation": "本句的「issue」指「簽發／發行日期」。",
+      "explanation": "本句的「issue」指「文件、卡、證券等正式發出的日期」。",
       "sentenceIndex": 164,
       "sourcePractice": 2,
       "targets": [
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-74": "本句指「簽發／發行日期」。",
+        "issue-pdf-006": "本句指「文件、卡、證券等正式發出的日期」。",
         "issue-mcq-73": "「尚存後代」與本句語境不同。",
         "issue-mcq-75": "「簽發日期」與本句語境不同。",
         "issue-mcq-72": "「無後代而死」與本句語境不同。",
         "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
         "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
       },
-      "correctOption": "issue-mcq-74"
+      "correctOption": "issue-pdf-006"
     },
     {
       "id": "issue-88-0",

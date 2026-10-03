@@ -202,26 +202,6 @@ export default {
       "note": "來源詞義：社區成員之間互相支持、合作及共同歸屬的精神",
       "examples": [
         [
-          "The event was held at the community centre.",
-          "活動在社區中心舉行。",
-          "社區成員之間互相支持、合作及共同歸屬的精神"
-        ],
-        [
-          "The community centre offers classes for local residents.",
-          "社區中心為本地居民提供課程。",
-          "社區成員之間互相支持、合作及共同歸屬的精神"
-        ],
-        [
-          "Students completed several hours of community service.",
-          "學生完成了幾個小時的社區服務／公益服務。",
-          "社區成員之間互相支持、合作及共同歸屬的精神"
-        ],
-        [
-          "The company encourages staff to take part in community service.",
-          "公司鼓勵員工參與社區服務。",
-          "社區成員之間互相支持、合作及共同歸屬的精神"
-        ],
-        [
           "The festival created a strong sense of community spirit.",
           "這個節慶營造了強烈的社區互助精神。",
           "社區成員之間互相支持、合作及共同歸屬的精神"
@@ -269,6 +249,50 @@ export default {
           "The space is communally managed.",
           "這個空間由大家共同管理。",
           "與群體共同生活、活動或互動有關的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "community-pdf-001",
+      "title": "為當地居民提供活動、服務和聚會空間的場所",
+      "form": "10. community centre = 社區中心",
+      "en": "10. community centre = 社區中心",
+      "zh": "為當地居民提供活動、服務和聚會空間的場所",
+      "note": "原始 PDF 第 10 節：為當地居民提供活動、服務和聚會空間的場所",
+      "examples": [
+        [
+          "The event was held at the community centre.",
+          "活動在社區中心舉行。",
+          "為當地居民提供活動、服務和聚會空間的場所"
+        ],
+        [
+          "The community centre offers classes for local residents.",
+          "社區中心為本地居民提供課程。",
+          "為當地居民提供活動、服務和聚會空間的場所"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "community-pdf-002",
+      "title": "為社區／公眾提供的志願或公益性服務",
+      "form": "11. community service = 社區服務；公益服務",
+      "en": "11. community service = 社區服務；公益服務",
+      "zh": "為社區／公眾提供的志願或公益性服務",
+      "note": "原始 PDF 第 11 節：為社區／公眾提供的志願或公益性服務",
+      "examples": [
+        [
+          "Students completed several hours of community service.",
+          "學生完成了幾個小時的社區服務／公益服務。",
+          "為社區／公眾提供的志願或公益性服務"
+        ],
+        [
+          "The company encourages staff to take part in community service.",
+          "公司鼓勵員工參與社區服務。",
+          "為社區／公眾提供的志願或公益性服務"
         ]
       ],
       "options": [],
@@ -758,123 +782,123 @@ export default {
     },
     {
       "id": "community-10-0",
-      "sense": "community-mcq-10",
+      "sense": "community-pdf-001",
       "en": "The event was held at the community centre.",
       "zh": "活動在社區中心舉行。",
       "masked": "The event was held at the ____.",
       "options": [
-        "community-mcq-10",
+        "community-pdf-001",
         "community-mcq-09",
         "community-mcq-11",
         "community-mcq-08",
         "community-mcq-12",
         "community-mcq-07"
       ],
-      "explanation": "本句的「community centre」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+      "explanation": "本句的「community centre」指「為當地居民提供活動、服務和聚會空間的場所」。",
       "sentenceIndex": 16,
       "sourcePractice": 19,
       "targets": [
         "community centre"
       ],
       "optionReasons": {
-        "community-mcq-10": "本句指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+        "community-pdf-001": "本句指「為當地居民提供活動、服務和聚會空間的場所」。",
         "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
         "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
         "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
         "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
         "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
       },
-      "correctOption": "community-mcq-10"
+      "correctOption": "community-pdf-001"
     },
     {
       "id": "community-10-1",
-      "sense": "community-mcq-10",
+      "sense": "community-pdf-001",
       "en": "The community centre offers classes for local residents.",
       "zh": "社區中心為本地居民提供課程。",
       "masked": "The ____ centre offers classes for local residents.",
       "options": [
-        "community-mcq-10",
+        "community-pdf-001",
         "community-mcq-09",
         "community-mcq-11",
         "community-mcq-08",
         "community-mcq-12",
         "community-mcq-07"
       ],
-      "explanation": "本句的「community」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+      "explanation": "本句的「community」指「為當地居民提供活動、服務和聚會空間的場所」。",
       "sentenceIndex": 17,
       "sourcePractice": 20,
       "targets": [
         "community"
       ],
       "optionReasons": {
-        "community-mcq-10": "本句指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+        "community-pdf-001": "本句指「為當地居民提供活動、服務和聚會空間的場所」。",
         "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
         "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
         "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
         "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
         "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
       },
-      "correctOption": "community-mcq-10"
+      "correctOption": "community-pdf-001"
     },
     {
       "id": "community-11-0",
-      "sense": "community-mcq-10",
+      "sense": "community-pdf-002",
       "en": "Students completed several hours of community service.",
       "zh": "學生完成了幾個小時的社區服務／公益服務。",
       "masked": "Students completed several hours of ____.",
       "options": [
-        "community-mcq-10",
+        "community-pdf-002",
         "community-mcq-09",
         "community-mcq-11",
         "community-mcq-08",
         "community-mcq-12",
         "community-mcq-07"
       ],
-      "explanation": "本句的「community service」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+      "explanation": "本句的「community service」指「為社區／公眾提供的志願或公益性服務」。",
       "sentenceIndex": 18,
       "sourcePractice": 21,
       "targets": [
         "community service"
       ],
       "optionReasons": {
-        "community-mcq-10": "本句指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+        "community-pdf-002": "本句指「為社區／公眾提供的志願或公益性服務」。",
         "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
         "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
         "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
         "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
         "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
       },
-      "correctOption": "community-mcq-10"
+      "correctOption": "community-pdf-002"
     },
     {
       "id": "community-11-1",
-      "sense": "community-mcq-10",
+      "sense": "community-pdf-002",
       "en": "The company encourages staff to take part in community service.",
       "zh": "公司鼓勵員工參與社區服務。",
       "masked": "The company encourages staff to take part in ____ service.",
       "options": [
-        "community-mcq-10",
+        "community-pdf-002",
         "community-mcq-09",
         "community-mcq-11",
         "community-mcq-08",
         "community-mcq-12",
         "community-mcq-07"
       ],
-      "explanation": "本句的「community」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+      "explanation": "本句的「community」指「為社區／公眾提供的志願或公益性服務」。",
       "sentenceIndex": 19,
       "sourcePractice": 22,
       "targets": [
         "community"
       ],
       "optionReasons": {
-        "community-mcq-10": "本句指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+        "community-pdf-002": "本句指「為社區／公眾提供的志願或公益性服務」。",
         "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
         "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
         "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
         "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
         "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
       },
-      "correctOption": "community-mcq-10"
+      "correctOption": "community-pdf-002"
     },
     {
       "id": "community-12-0",

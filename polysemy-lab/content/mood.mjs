@@ -127,18 +127,7 @@ export default {
       "en": "in the mood to X",
       "zh": "有心情做 X",
       "note": "來源詞義：有心情做 X",
-      "examples": [
-        [
-          "I'm not in the mood to argue.",
-          "我現在沒心情吵架。",
-          "有心情做 X"
-        ],
-        [
-          "He was in the mood to celebrate.",
-          "他當時很有心情慶祝。",
-          "有心情做 X"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -400,6 +389,28 @@ export default {
           "Lack of sleep can contribute to moodiness.",
           "睡眠不足可能會令人變得情緒不穩。",
           "喜怒無常；情緒反覆"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mood-pdf-001",
+      "title": "當下有意欲或情緒狀態去做某事",
+      "form": "6. in the mood to do something — 有心情做某事",
+      "en": "6. in the mood to do something — 有心情做某事",
+      "zh": "當下有意欲或情緒狀態去做某事",
+      "note": "原始 PDF 第 6 節：當下有意欲或情緒狀態去做某事",
+      "examples": [
+        [
+          "I'm not in the mood to argue.",
+          "我現在沒心情吵架。",
+          "當下有意欲或情緒狀態去做某事"
+        ],
+        [
+          "He was in the mood to celebrate.",
+          "他當時很有心情慶祝。",
+          "當下有意欲或情緒狀態去做某事"
         ]
       ],
       "options": [],
@@ -739,63 +750,63 @@ export default {
     },
     {
       "id": "mood-06-0",
-      "sense": "mood-mcq-06",
+      "sense": "mood-pdf-001",
       "en": "I'm not in the mood to argue.",
       "zh": "我現在沒心情吵架。",
       "masked": "I'm not ____.",
       "options": [
-        "mood-mcq-06",
+        "mood-pdf-001",
         "mood-mcq-05",
         "mood-mcq-07",
         "mood-mcq-04",
         "mood-mcq-08",
         "mood-mcq-03"
       ],
-      "explanation": "本句的「in the mood to argue」指「有心情做 X」。",
+      "explanation": "本句的「in the mood to argue」指「當下有意欲或情緒狀態去做某事」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "in the mood to argue"
       ],
       "optionReasons": {
-        "mood-mcq-06": "本句指「有心情做 X」。",
+        "mood-pdf-001": "本句指「當下有意欲或情緒狀態去做某事」。",
         "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
         "mood-mcq-07": "「沒心情」與本句語境不同。",
         "mood-mcq-04": "「心情變好」與本句語境不同。",
         "mood-mcq-08": "「改變某人心情」與本句語境不同。",
         "mood-mcq-03": "「壞心情」與本句語境不同。"
       },
-      "correctOption": "mood-mcq-06"
+      "correctOption": "mood-pdf-001"
     },
     {
       "id": "mood-06-1",
-      "sense": "mood-mcq-06",
+      "sense": "mood-pdf-001",
       "en": "He was in the mood to celebrate.",
       "zh": "他當時很有心情慶祝。",
       "masked": "He was ____.",
       "options": [
-        "mood-mcq-06",
+        "mood-pdf-001",
         "mood-mcq-05",
         "mood-mcq-07",
         "mood-mcq-04",
         "mood-mcq-08",
         "mood-mcq-03"
       ],
-      "explanation": "本句的「in the mood to celebrate」指「有心情做 X」。",
+      "explanation": "本句的「in the mood to celebrate」指「當下有意欲或情緒狀態去做某事」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "in the mood to celebrate"
       ],
       "optionReasons": {
-        "mood-mcq-06": "本句指「有心情做 X」。",
+        "mood-pdf-001": "本句指「當下有意欲或情緒狀態去做某事」。",
         "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
         "mood-mcq-07": "「沒心情」與本句語境不同。",
         "mood-mcq-04": "「心情變好」與本句語境不同。",
         "mood-mcq-08": "「改變某人心情」與本句語境不同。",
         "mood-mcq-03": "「壞心情」與本句語境不同。"
       },
-      "correctOption": "mood-mcq-06"
+      "correctOption": "mood-pdf-001"
     },
     {
       "id": "mood-07-0",

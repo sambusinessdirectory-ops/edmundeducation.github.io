@@ -115,16 +115,6 @@ export default {
           "The dancer tied her hair into a neat bun.",
           "舞者把頭髮盤成整齊的髮髻。",
           "把頭髮盤成圓形並固定在頭後或頭頂的髮型"
-        ],
-        [
-          "Her hair bun was decorated with flowers.",
-          "她的髮髻用花朵裝飾。",
-          "把頭髮盤成圓形並固定在頭後或頭頂的髮型"
-        ],
-        [
-          "She pinned the bun high on her head.",
-          "她把髮髻固定在頭頂較高的位置。",
-          "把頭髮盤成圓形並固定在頭後或頭頂的髮型"
         ]
       ],
       "options": [],
@@ -147,6 +137,28 @@ export default {
           "The exercise targets the buns and legs.",
           "這個運動主要鍛鍊臀部和腿部。",
           "非正式用語中的臀部／屁股"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bun-pdf-001",
+      "title": "圓形盤髮造型",
+      "form": "6. hair bun = 髮髻",
+      "en": "6. hair bun = 髮髻",
+      "zh": "圓形盤髮造型",
+      "note": "原始 PDF 第 6 節：圓形盤髮造型",
+      "examples": [
+        [
+          "Her hair bun was decorated with flowers.",
+          "她的髮髻用花朵裝飾。",
+          "圓形盤髮造型"
+        ],
+        [
+          "She pinned the bun high on her head.",
+          "她把髮髻固定在頭頂較高的位置。",
+          "圓形盤髮造型"
         ]
       ],
       "options": [],
@@ -486,63 +498,63 @@ export default {
     },
     {
       "id": "bun-06-0",
-      "sense": "bun-mcq-05",
+      "sense": "bun-pdf-001",
       "en": "Her hair bun was decorated with flowers.",
       "zh": "她的髮髻用花朵裝飾。",
       "masked": "Her ____ was decorated with flowers.",
       "options": [
-        "bun-mcq-05",
+        "bun-pdf-001",
         "bun-mcq-04",
         "bun-mcq-06",
         "bun-mcq-03",
         "bun-mcq-02",
         "bun-mcq-01"
       ],
-      "explanation": "本句的「hair bun」指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
+      "explanation": "本句的「hair bun」指「圓形盤髮造型」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "hair bun"
       ],
       "optionReasons": {
-        "bun-mcq-05": "本句指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
+        "bun-pdf-001": "本句指「圓形盤髮造型」。",
         "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
         "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
         "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
         "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
         "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
       },
-      "correctOption": "bun-mcq-05"
+      "correctOption": "bun-pdf-001"
     },
     {
       "id": "bun-06-1",
-      "sense": "bun-mcq-05",
+      "sense": "bun-pdf-001",
       "en": "She pinned the bun high on her head.",
       "zh": "她把髮髻固定在頭頂較高的位置。",
       "masked": "She pinned the ____ high on her head.",
       "options": [
-        "bun-mcq-05",
+        "bun-pdf-001",
         "bun-mcq-04",
         "bun-mcq-06",
         "bun-mcq-03",
         "bun-mcq-02",
         "bun-mcq-01"
       ],
-      "explanation": "本句的「bun」指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
+      "explanation": "本句的「bun」指「圓形盤髮造型」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "bun"
       ],
       "optionReasons": {
-        "bun-mcq-05": "本句指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
+        "bun-pdf-001": "本句指「圓形盤髮造型」。",
         "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
         "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
         "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
         "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
         "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
       },
-      "correctOption": "bun-mcq-05"
+      "correctOption": "bun-pdf-001"
     },
     {
       "id": "bun-07-0",

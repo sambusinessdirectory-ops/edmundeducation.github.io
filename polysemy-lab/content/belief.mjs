@@ -56,18 +56,7 @@ export default {
       "en": "belief — confidence/trust",
       "zh": "對某人、制度、能力或理念的信心與信任",
       "note": "來源詞義：對某人、制度、能力或理念的信心與信任",
-      "examples": [
-        [
-          "She never lost her belief in herself.",
-          "她從沒有失去對自己的信心。",
-          "對某人、制度、能力或理念的信心與信任"
-        ],
-        [
-          "Public belief in the system has weakened.",
-          "公眾對這個制度的信任減弱了。",
-          "對某人、制度、能力或理念的信心與信任"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -182,6 +171,28 @@ export default {
           "Contrary to popular belief, the animal is not dangerous.",
           "與普遍看法相反，這種動物並不危險。",
           "表示與普遍看法相反"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "belief-pdf-001",
+      "title": "相信某人／某事物的能力、價值或可靠性",
+      "form": "3. belief = confidence/trust that something or someone is good, effective, or capable（信心）",
+      "en": "3. belief = confidence/trust that something or someone is good, effective, or capable（信心）",
+      "zh": "相信某人／某事物的能力、價值或可靠性",
+      "note": "原始 PDF 第 3 節：相信某人／某事物的能力、價值或可靠性",
+      "examples": [
+        [
+          "She never lost her belief in herself.",
+          "她從沒有失去對自己的信心。",
+          "相信某人／某事物的能力、價值或可靠性"
+        ],
+        [
+          "Public belief in the system has weakened.",
+          "公眾對這個制度的信任減弱了。",
+          "相信某人／某事物的能力、價值或可靠性"
         ]
       ],
       "options": [],
@@ -311,63 +322,63 @@ export default {
     },
     {
       "id": "belief-03-0",
-      "sense": "belief-mcq-03",
+      "sense": "belief-pdf-001",
       "en": "She never lost her belief in herself.",
       "zh": "她從沒有失去對自己的信心。",
       "masked": "She never lost her ____ in herself.",
       "options": [
-        "belief-mcq-03",
+        "belief-pdf-001",
         "belief-mcq-02",
         "belief-mcq-04",
         "belief-mcq-01",
         "belief-mcq-05",
         "belief-mcq-06"
       ],
-      "explanation": "本句的「belief」指「對某人、制度、能力或理念的信心與信任」。",
+      "explanation": "本句的「belief」指「相信某人／某事物的能力、價值或可靠性」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-03": "本句指「對某人、制度、能力或理念的信心與信任」。",
+        "belief-pdf-001": "本句指「相信某人／某事物的能力、價值或可靠性」。",
         "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
         "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
         "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。",
         "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
         "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
       },
-      "correctOption": "belief-mcq-03"
+      "correctOption": "belief-pdf-001"
     },
     {
       "id": "belief-03-1",
-      "sense": "belief-mcq-03",
+      "sense": "belief-pdf-001",
       "en": "Public belief in the system has weakened.",
       "zh": "公眾對這個制度的信任減弱了。",
       "masked": "Public ____ in the system has weakened.",
       "options": [
-        "belief-mcq-03",
+        "belief-pdf-001",
         "belief-mcq-02",
         "belief-mcq-04",
         "belief-mcq-01",
         "belief-mcq-05",
         "belief-mcq-06"
       ],
-      "explanation": "本句的「belief」指「對某人、制度、能力或理念的信心與信任」。",
+      "explanation": "本句的「belief」指「相信某人／某事物的能力、價值或可靠性」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-03": "本句指「對某人、制度、能力或理念的信心與信任」。",
+        "belief-pdf-001": "本句指「相信某人／某事物的能力、價值或可靠性」。",
         "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
         "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
         "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。",
         "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
         "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
       },
-      "correctOption": "belief-mcq-03"
+      "correctOption": "belief-pdf-001"
     },
     {
       "id": "belief-04-0",

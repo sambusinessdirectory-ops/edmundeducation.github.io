@@ -269,18 +269,7 @@ export default {
       "en": "event opens",
       "zh": "活動開幕",
       "note": "來源詞義：活動開幕",
-      "examples": [
-        [
-          "The exhibition opens next week.",
-          "展覽下星期開幕。",
-          "活動開幕"
-        ],
-        [
-          "The new restaurant opens on Friday.",
-          "新餐廳星期五開業。",
-          "活動開幕"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -345,16 +334,6 @@ export default {
           "She applied for several openings.",
           "她申請了幾個職位空缺。",
           "職位空缺"
-        ],
-        [
-          "We currently have two open positions.",
-          "我們目前有兩個空缺職位。",
-          "職位空缺"
-        ],
-        [
-          "The company is trying to fill an open role.",
-          "公司正嘗試填補一個空缺職位。",
-          "職位空缺"
         ]
       ],
       "options": [],
@@ -376,16 +355,6 @@ export default {
         [
           "The house looks out onto a large open space.",
           "房子面向一大片空曠地方。",
-          "開放／空曠空間"
-        ],
-        [
-          "They drove across open country.",
-          "他們駕車穿越開闊的鄉郊地帶。",
-          "開放／空曠空間"
-        ],
-        [
-          "The boat moved out into the open sea.",
-          "船駛向了外海。",
           "開放／空曠空間"
         ]
       ],
@@ -848,6 +817,72 @@ export default {
           "The defender left an opening for the attacker.",
           "防守者留下了一個讓進攻者可利用的空位／突破口。",
           "可讓某人採取行動、進入或取得優勢的空隙或機會"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "open-pdf-001",
+      "title": "某個場所、活動或服務正式開始運作",
+      "form": "13. open（開始營業／開始活動） — 開始；開幕",
+      "en": "13. open（開始營業／開始活動） — 開始；開幕",
+      "zh": "某個場所、活動或服務正式開始運作",
+      "note": "原始 PDF 第 13 節：某個場所、活動或服務正式開始運作",
+      "examples": [
+        [
+          "The exhibition opens next week.",
+          "展覽下星期開幕。",
+          "某個場所、活動或服務正式開始運作"
+        ],
+        [
+          "The new restaurant opens on Friday.",
+          "新餐廳星期五開業。",
+          "某個場所、活動或服務正式開始運作"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "open-pdf-002",
+      "title": "尚未有人擔任、可供申請的職位",
+      "form": "17. open position / vacancy — 空缺的職位",
+      "en": "17. open position / vacancy — 空缺的職位",
+      "zh": "尚未有人擔任、可供申請的職位",
+      "note": "原始 PDF 第 17 節：尚未有人擔任、可供申請的職位",
+      "examples": [
+        [
+          "We currently have two open positions.",
+          "我們目前有兩個空缺職位。",
+          "尚未有人擔任、可供申請的職位"
+        ],
+        [
+          "The company is trying to fill an open role.",
+          "公司正嘗試填補一個空缺職位。",
+          "尚未有人擔任、可供申請的職位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "open-pdf-003",
+      "title": "廣闊、沒有被圍住或遮擋的",
+      "form": "19. open country / open sea — 開闊地帶／外海",
+      "en": "19. open country / open sea — 開闊地帶／外海",
+      "zh": "廣闊、沒有被圍住或遮擋的",
+      "note": "原始 PDF 第 19 節：廣闊、沒有被圍住或遮擋的",
+      "examples": [
+        [
+          "They drove across open country.",
+          "他們駕車穿越開闊的鄉郊地帶。",
+          "廣闊、沒有被圍住或遮擋的"
+        ],
+        [
+          "The boat moved out into the open sea.",
+          "船駛向了外海。",
+          "廣闊、沒有被圍住或遮擋的"
         ]
       ],
       "options": [],
@@ -1607,63 +1642,63 @@ export default {
     },
     {
       "id": "open-13-0",
-      "sense": "open-mcq-12",
+      "sense": "open-pdf-001",
       "en": "The exhibition opens next week.",
       "zh": "展覽下星期開幕。",
       "masked": "The exhibition ____ next week.",
       "options": [
-        "open-mcq-12",
+        "open-pdf-001",
         "open-mcq-11",
         "open-mcq-13",
         "open-mcq-10",
         "open-mcq-14",
         "open-mcq-09"
       ],
-      "explanation": "本句的「opens」指「活動開幕」。",
+      "explanation": "本句的「opens」指「某個場所、活動或服務正式開始運作」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "opens"
       ],
       "optionReasons": {
-        "open-mcq-12": "本句指「活動開幕」。",
+        "open-pdf-001": "本句指「某個場所、活動或服務正式開始運作」。",
         "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
         "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
         "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
         "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
         "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。"
       },
-      "correctOption": "open-mcq-12"
+      "correctOption": "open-pdf-001"
     },
     {
       "id": "open-13-1",
-      "sense": "open-mcq-12",
+      "sense": "open-pdf-001",
       "en": "The new restaurant opens on Friday.",
       "zh": "新餐廳星期五開業。",
       "masked": "The new restaurant ____ on Friday.",
       "options": [
-        "open-mcq-12",
+        "open-pdf-001",
         "open-mcq-11",
         "open-mcq-13",
         "open-mcq-10",
         "open-mcq-14",
         "open-mcq-09"
       ],
-      "explanation": "本句的「opens」指「活動開幕」。",
+      "explanation": "本句的「opens」指「某個場所、活動或服務正式開始運作」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "opens"
       ],
       "optionReasons": {
-        "open-mcq-12": "本句指「活動開幕」。",
+        "open-pdf-001": "本句指「某個場所、活動或服務正式開始運作」。",
         "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
         "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
         "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
         "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
         "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。"
       },
-      "correctOption": "open-mcq-12"
+      "correctOption": "open-pdf-001"
     },
     {
       "id": "open-14-0",
@@ -1847,63 +1882,63 @@ export default {
     },
     {
       "id": "open-17-0",
-      "sense": "open-mcq-15",
+      "sense": "open-pdf-002",
       "en": "We currently have two open positions.",
       "zh": "我們目前有兩個空缺職位。",
       "masked": "We currently have two ____.",
       "options": [
-        "open-mcq-15",
+        "open-pdf-002",
         "open-mcq-14",
         "open-mcq-16",
         "open-mcq-13",
         "open-mcq-17",
         "open-mcq-12"
       ],
-      "explanation": "本句的「open positions」指「職位空缺」。",
+      "explanation": "本句的「open positions」指「尚未有人擔任、可供申請的職位」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "open positions"
       ],
       "optionReasons": {
-        "open-mcq-15": "本句指「職位空缺」。",
+        "open-pdf-002": "本句指「尚未有人擔任、可供申請的職位」。",
         "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
         "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
         "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
         "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
         "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。"
       },
-      "correctOption": "open-mcq-15"
+      "correctOption": "open-pdf-002"
     },
     {
       "id": "open-17-1",
-      "sense": "open-mcq-15",
+      "sense": "open-pdf-002",
       "en": "The company is trying to fill an open role.",
       "zh": "公司正嘗試填補一個空缺職位。",
       "masked": "The company is trying to fill an ____.",
       "options": [
-        "open-mcq-15",
+        "open-pdf-002",
         "open-mcq-14",
         "open-mcq-16",
         "open-mcq-13",
         "open-mcq-17",
         "open-mcq-12"
       ],
-      "explanation": "本句的「open role」指「職位空缺」。",
+      "explanation": "本句的「open role」指「尚未有人擔任、可供申請的職位」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "open role"
       ],
       "optionReasons": {
-        "open-mcq-15": "本句指「職位空缺」。",
+        "open-pdf-002": "本句指「尚未有人擔任、可供申請的職位」。",
         "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
         "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
         "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
         "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
         "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。"
       },
-      "correctOption": "open-mcq-15"
+      "correctOption": "open-pdf-002"
     },
     {
       "id": "open-18-0",
@@ -1967,63 +2002,63 @@ export default {
     },
     {
       "id": "open-19-0",
-      "sense": "open-mcq-16",
+      "sense": "open-pdf-003",
       "en": "They drove across open country.",
       "zh": "他們駕車穿越開闊的鄉郊地帶。",
       "masked": "They drove across ____.",
       "options": [
-        "open-mcq-16",
+        "open-pdf-003",
         "open-mcq-15",
         "open-mcq-17",
         "open-mcq-14",
         "open-mcq-18",
         "open-mcq-13"
       ],
-      "explanation": "本句的「open country」指「開放／空曠空間」。",
+      "explanation": "本句的「open country」指「廣闊、沒有被圍住或遮擋的」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "open country"
       ],
       "optionReasons": {
-        "open-mcq-16": "本句指「開放／空曠空間」。",
+        "open-pdf-003": "本句指「廣闊、沒有被圍住或遮擋的」。",
         "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
         "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
         "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
         "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
         "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。"
       },
-      "correctOption": "open-mcq-16"
+      "correctOption": "open-pdf-003"
     },
     {
       "id": "open-19-1",
-      "sense": "open-mcq-16",
+      "sense": "open-pdf-003",
       "en": "The boat moved out into the open sea.",
       "zh": "船駛向了外海。",
       "masked": "The boat moved out into the ____.",
       "options": [
-        "open-mcq-16",
+        "open-pdf-003",
         "open-mcq-15",
         "open-mcq-17",
         "open-mcq-14",
         "open-mcq-18",
         "open-mcq-13"
       ],
-      "explanation": "本句的「open sea」指「開放／空曠空間」。",
+      "explanation": "本句的「open sea」指「廣闊、沒有被圍住或遮擋的」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "open sea"
       ],
       "optionReasons": {
-        "open-mcq-16": "本句指「開放／空曠空間」。",
+        "open-pdf-003": "本句指「廣闊、沒有被圍住或遮擋的」。",
         "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
         "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
         "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
         "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
         "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。"
       },
-      "correctOption": "open-mcq-16"
+      "correctOption": "open-pdf-003"
     },
     {
       "id": "open-20-0",

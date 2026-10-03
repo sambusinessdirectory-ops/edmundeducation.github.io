@@ -116,28 +116,7 @@ export default {
       "en": "fill someone with joy",
       "zh": "令某人充滿喜悅",
       "note": "來源詞義：令某人充滿喜悅",
-      "examples": [
-        [
-          "The memory filled her with joy.",
-          "那段回憶令她充滿喜悅。",
-          "令某人充滿喜悅"
-        ],
-        [
-          "The news filled him with fear.",
-          "那個消息令他充滿恐懼。",
-          "令某人充滿喜悅"
-        ],
-        [
-          "She was filled with gratitude.",
-          "她心裏充滿感激。",
-          "令某人充滿喜悅"
-        ],
-        [
-          "He was filled with confidence after the speech.",
-          "演講後，他充滿信心。",
-          "令某人充滿喜悅"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -634,6 +613,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fill-pdf-001",
+      "title": "令某人強烈感受到某種情緒或感覺",
+      "form": "6. fill someone with emotion — 使某人充滿某種情緒",
+      "en": "6. fill someone with emotion — 使某人充滿某種情緒",
+      "zh": "令某人強烈感受到某種情緒或感覺",
+      "note": "原始 PDF 第 6 節：令某人強烈感受到某種情緒或感覺",
+      "examples": [
+        [
+          "The memory filled her with joy.",
+          "那段回憶令她充滿喜悅。",
+          "令某人強烈感受到某種情緒或感覺"
+        ],
+        [
+          "The news filled him with fear.",
+          "那個消息令他充滿恐懼。",
+          "令某人強烈感受到某種情緒或感覺"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fill-pdf-002",
+      "title": "心裏充滿某種強烈情緒",
+      "form": "7. be filled with emotion — 充滿某種情緒",
+      "en": "7. be filled with emotion — 充滿某種情緒",
+      "zh": "心裏充滿某種強烈情緒",
+      "note": "原始 PDF 第 7 節：心裏充滿某種強烈情緒",
+      "examples": [
+        [
+          "She was filled with gratitude.",
+          "她心裏充滿感激。",
+          "心裏充滿某種強烈情緒"
+        ],
+        [
+          "He was filled with confidence after the speech.",
+          "演講後，他充滿信心。",
+          "心裏充滿某種強烈情緒"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -969,123 +992,123 @@ export default {
     },
     {
       "id": "fill-06-0",
-      "sense": "fill-mcq-06",
+      "sense": "fill-pdf-001",
       "en": "The memory filled her with joy.",
       "zh": "那段回憶令她充滿喜悅。",
       "masked": "The memory ____.",
       "options": [
-        "fill-mcq-06",
+        "fill-pdf-001",
         "fill-mcq-05",
         "fill-mcq-07",
         "fill-mcq-04",
         "fill-mcq-08",
         "fill-mcq-03"
       ],
-      "explanation": "本句的「filled her with joy」指「令某人充滿喜悅」。",
+      "explanation": "本句的「filled her with joy」指「令某人強烈感受到某種情緒或感覺」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "filled her with joy"
       ],
       "optionReasons": {
-        "fill-mcq-06": "本句指「令某人充滿喜悅」。",
+        "fill-pdf-001": "本句指「令某人強烈感受到某種情緒或感覺」。",
         "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
         "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
         "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
         "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
         "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
       },
-      "correctOption": "fill-mcq-06"
+      "correctOption": "fill-pdf-001"
     },
     {
       "id": "fill-06-1",
-      "sense": "fill-mcq-06",
+      "sense": "fill-pdf-001",
       "en": "The news filled him with fear.",
       "zh": "那個消息令他充滿恐懼。",
       "masked": "The news ____.",
       "options": [
-        "fill-mcq-06",
+        "fill-pdf-001",
         "fill-mcq-05",
         "fill-mcq-07",
         "fill-mcq-04",
         "fill-mcq-08",
         "fill-mcq-03"
       ],
-      "explanation": "本句的「filled him with fear」指「令某人充滿喜悅」。",
+      "explanation": "本句的「filled him with fear」指「令某人強烈感受到某種情緒或感覺」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "filled him with fear"
       ],
       "optionReasons": {
-        "fill-mcq-06": "本句指「令某人充滿喜悅」。",
+        "fill-pdf-001": "本句指「令某人強烈感受到某種情緒或感覺」。",
         "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
         "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
         "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
         "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
         "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
       },
-      "correctOption": "fill-mcq-06"
+      "correctOption": "fill-pdf-001"
     },
     {
       "id": "fill-07-0",
-      "sense": "fill-mcq-06",
+      "sense": "fill-pdf-002",
       "en": "She was filled with gratitude.",
       "zh": "她心裏充滿感激。",
       "masked": "She was ____.",
       "options": [
-        "fill-mcq-06",
+        "fill-pdf-002",
         "fill-mcq-05",
         "fill-mcq-07",
         "fill-mcq-04",
         "fill-mcq-08",
         "fill-mcq-03"
       ],
-      "explanation": "本句的「filled with gratitude」指「令某人充滿喜悅」。",
+      "explanation": "本句的「filled with gratitude」指「心裏充滿某種強烈情緒」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "filled with gratitude"
       ],
       "optionReasons": {
-        "fill-mcq-06": "本句指「令某人充滿喜悅」。",
+        "fill-pdf-002": "本句指「心裏充滿某種強烈情緒」。",
         "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
         "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
         "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
         "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
         "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
       },
-      "correctOption": "fill-mcq-06"
+      "correctOption": "fill-pdf-002"
     },
     {
       "id": "fill-07-1",
-      "sense": "fill-mcq-06",
+      "sense": "fill-pdf-002",
       "en": "He was filled with confidence after the speech.",
       "zh": "演講後，他充滿信心。",
       "masked": "He was ____ after the speech.",
       "options": [
-        "fill-mcq-06",
+        "fill-pdf-002",
         "fill-mcq-05",
         "fill-mcq-07",
         "fill-mcq-04",
         "fill-mcq-08",
         "fill-mcq-03"
       ],
-      "explanation": "本句的「filled with confidence」指「令某人充滿喜悅」。",
+      "explanation": "本句的「filled with confidence」指「心裏充滿某種強烈情緒」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "filled with confidence"
       ],
       "optionReasons": {
-        "fill-mcq-06": "本句指「令某人充滿喜悅」。",
+        "fill-pdf-002": "本句指「心裏充滿某種強烈情緒」。",
         "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
         "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
         "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
         "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
         "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
       },
-      "correctOption": "fill-mcq-06"
+      "correctOption": "fill-pdf-002"
     },
     {
       "id": "fill-08-0",

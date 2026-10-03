@@ -140,16 +140,6 @@ export default {
       "note": "來源詞義：由 X 突然轉到 Y",
       "examples": [
         [
-          "He jumped aside to avoid the bicycle.",
-          "他迅速閃到一旁避開單車。",
-          "由 X 突然轉到 Y"
-        ],
-        [
-          "She jumped back when the door opened suddenly.",
-          "門突然打開時，她猛然退後。",
-          "由 X 突然轉到 Y"
-        ],
-        [
           "The price jumped from $20 to $35.",
           "價格由 20 元急升至 35 元。",
           "由 X 突然轉到 Y"
@@ -206,16 +196,6 @@ export default {
         [
           "I saw the empty desk and jumped to the conclusion that he had left.",
           "我看到空桌子，就過早認定他已經走了。",
-          "妄下結論；太快判斷"
-        ],
-        [
-          "She jumped to the conclusion that I was angry.",
-          "她貿然認定我在生氣。",
-          "妄下結論；太快判斷"
-        ],
-        [
-          "Don't jump to the conclusion that the project has failed.",
-          "不要過早認定項目已經失敗。",
           "妄下結論；太快判斷"
         ]
       ],
@@ -295,18 +275,7 @@ export default {
       "en": "a jump in sales",
       "zh": "銷售急升",
       "note": "來源詞義：銷售急升",
-      "examples": [
-        [
-          "There was a sharp jump in prices.",
-          "價格出現急升。",
-          "銷售急升"
-        ],
-        [
-          "The company reported a jump in sales.",
-          "公司報告銷售額大幅增加。",
-          "銷售急升"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -845,6 +814,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "jump-pdf-001",
+      "title": "非常快速而突然地移動到另一位置",
+      "form": "7. jump（突然移動／迅速撲向） — 猛然移動；迅速衝向",
+      "en": "7. jump（突然移動／迅速撲向） — 猛然移動；迅速衝向",
+      "zh": "非常快速而突然地移動到另一位置",
+      "note": "原始 PDF 第 7 節：非常快速而突然地移動到另一位置",
+      "examples": [
+        [
+          "He jumped aside to avoid the bicycle.",
+          "他迅速閃到一旁避開單車。",
+          "非常快速而突然地移動到另一位置"
+        ],
+        [
+          "She jumped back when the door opened suddenly.",
+          "門突然打開時，她猛然退後。",
+          "非常快速而突然地移動到另一位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "jump-pdf-002",
+      "title": "在證據不足時快速認定某件事是真的",
+      "form": "11. jump to the conclusion that... — 貿然認定……",
+      "en": "11. jump to the conclusion that... — 貿然認定……",
+      "zh": "在證據不足時快速認定某件事是真的",
+      "note": "原始 PDF 第 11 節：在證據不足時快速認定某件事是真的",
+      "examples": [
+        [
+          "She jumped to the conclusion that I was angry.",
+          "她貿然認定我在生氣。",
+          "在證據不足時快速認定某件事是真的"
+        ],
+        [
+          "Don't jump to the conclusion that the project has failed.",
+          "不要過早認定項目已經失敗。",
+          "在證據不足時快速認定某件事是真的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "jump-pdf-003",
+      "title": "X 在短時間內突然明顯增加",
+      "form": "15. a jump in prices / numbers — 急升；大幅增加",
+      "en": "15. a jump in prices / numbers — 急升；大幅增加",
+      "zh": "X 在短時間內突然明顯增加",
+      "note": "原始 PDF 第 15 節：X 在短時間內突然明顯增加",
+      "examples": [
+        [
+          "There was a sharp jump in prices.",
+          "價格出現急升。",
+          "X 在短時間內突然明顯增加"
+        ],
+        [
+          "The company reported a jump in sales.",
+          "公司報告銷售額大幅增加。",
+          "X 在短時間內突然明顯增加"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1240,63 +1275,63 @@ export default {
     },
     {
       "id": "jump-07-0",
-      "sense": "jump-mcq-07",
+      "sense": "jump-pdf-001",
       "en": "He jumped aside to avoid the bicycle.",
       "zh": "他迅速閃到一旁避開單車。",
       "masked": "He ____ to avoid the bicycle.",
       "options": [
-        "jump-mcq-07",
+        "jump-pdf-001",
         "jump-mcq-06",
         "jump-mcq-08",
         "jump-mcq-05",
         "jump-mcq-09",
         "jump-mcq-04"
       ],
-      "explanation": "本句的「jumped aside」指「由 X 突然轉到 Y」。",
+      "explanation": "本句的「jumped aside」指「非常快速而突然地移動到另一位置」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "jumped aside"
       ],
       "optionReasons": {
-        "jump-mcq-07": "本句指「由 X 突然轉到 Y」。",
+        "jump-pdf-001": "本句指「非常快速而突然地移動到另一位置」。",
         "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
         "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
         "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
         "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
         "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。"
       },
-      "correctOption": "jump-mcq-07"
+      "correctOption": "jump-pdf-001"
     },
     {
       "id": "jump-07-1",
-      "sense": "jump-mcq-07",
+      "sense": "jump-pdf-001",
       "en": "She jumped back when the door opened suddenly.",
       "zh": "門突然打開時，她猛然退後。",
       "masked": "She ____ when the door opened suddenly.",
       "options": [
-        "jump-mcq-07",
+        "jump-pdf-001",
         "jump-mcq-06",
         "jump-mcq-08",
         "jump-mcq-05",
         "jump-mcq-09",
         "jump-mcq-04"
       ],
-      "explanation": "本句的「jumped back」指「由 X 突然轉到 Y」。",
+      "explanation": "本句的「jumped back」指「非常快速而突然地移動到另一位置」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "jumped back"
       ],
       "optionReasons": {
-        "jump-mcq-07": "本句指「由 X 突然轉到 Y」。",
+        "jump-pdf-001": "本句指「非常快速而突然地移動到另一位置」。",
         "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
         "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
         "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
         "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
         "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。"
       },
-      "correctOption": "jump-mcq-07"
+      "correctOption": "jump-pdf-001"
     },
     {
       "id": "jump-08-0",
@@ -1510,63 +1545,63 @@ export default {
     },
     {
       "id": "jump-11-0",
-      "sense": "jump-mcq-09",
+      "sense": "jump-pdf-002",
       "en": "She jumped to the conclusion that I was angry.",
       "zh": "她貿然認定我在生氣。",
       "masked": "She ____.",
       "options": [
-        "jump-mcq-09",
+        "jump-pdf-002",
         "jump-mcq-08",
         "jump-mcq-10",
         "jump-mcq-07",
         "jump-mcq-11",
         "jump-mcq-06"
       ],
-      "explanation": "本句的「jumped to the conclusion that I was angry」指「妄下結論；太快判斷」。",
+      "explanation": "本句的「jumped to the conclusion that I was angry」指「在證據不足時快速認定某件事是真的」。",
       "sentenceIndex": 22,
       "sourcePractice": 1,
       "targets": [
         "jumped to the conclusion that I was angry"
       ],
       "optionReasons": {
-        "jump-mcq-09": "本句指「妄下結論；太快判斷」。",
+        "jump-pdf-002": "本句指「在證據不足時快速認定某件事是真的」。",
         "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
         "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
         "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
         "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
         "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
       },
-      "correctOption": "jump-mcq-09"
+      "correctOption": "jump-pdf-002"
     },
     {
       "id": "jump-11-1",
-      "sense": "jump-mcq-09",
+      "sense": "jump-pdf-002",
       "en": "Don't jump to the conclusion that the project has failed.",
       "zh": "不要過早認定項目已經失敗。",
       "masked": "Don't ____.",
       "options": [
-        "jump-mcq-09",
+        "jump-pdf-002",
         "jump-mcq-08",
         "jump-mcq-10",
         "jump-mcq-07",
         "jump-mcq-11",
         "jump-mcq-06"
       ],
-      "explanation": "本句的「jump to the conclusion that the project has failed」指「妄下結論；太快判斷」。",
+      "explanation": "本句的「jump to the conclusion that the project has failed」指「在證據不足時快速認定某件事是真的」。",
       "sentenceIndex": 23,
       "sourcePractice": 2,
       "targets": [
         "jump to the conclusion that the project has failed"
       ],
       "optionReasons": {
-        "jump-mcq-09": "本句指「妄下結論；太快判斷」。",
+        "jump-pdf-002": "本句指「在證據不足時快速認定某件事是真的」。",
         "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
         "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
         "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
         "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
         "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
       },
-      "correctOption": "jump-mcq-09"
+      "correctOption": "jump-pdf-002"
     },
     {
       "id": "jump-12-0",
@@ -1750,63 +1785,63 @@ export default {
     },
     {
       "id": "jump-15-0",
-      "sense": "jump-mcq-13",
+      "sense": "jump-pdf-003",
       "en": "There was a sharp jump in prices.",
       "zh": "價格出現急升。",
       "masked": "There was a sharp ____.",
       "options": [
-        "jump-mcq-13",
+        "jump-pdf-003",
         "jump-mcq-12",
         "jump-mcq-14",
         "jump-mcq-11",
         "jump-mcq-15",
         "jump-mcq-10"
       ],
-      "explanation": "本句的「jump in prices」指「銷售急升」。",
+      "explanation": "本句的「jump in prices」指「X 在短時間內突然明顯增加」。",
       "sentenceIndex": 30,
       "sourcePractice": 1,
       "targets": [
         "jump in prices"
       ],
       "optionReasons": {
-        "jump-mcq-13": "本句指「銷售急升」。",
+        "jump-pdf-003": "本句指「X 在短時間內突然明顯增加」。",
         "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
         "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
         "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
         "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
         "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。"
       },
-      "correctOption": "jump-mcq-13"
+      "correctOption": "jump-pdf-003"
     },
     {
       "id": "jump-15-1",
-      "sense": "jump-mcq-13",
+      "sense": "jump-pdf-003",
       "en": "The company reported a jump in sales.",
       "zh": "公司報告銷售額大幅增加。",
       "masked": "The company reported a ____.",
       "options": [
-        "jump-mcq-13",
+        "jump-pdf-003",
         "jump-mcq-12",
         "jump-mcq-14",
         "jump-mcq-11",
         "jump-mcq-15",
         "jump-mcq-10"
       ],
-      "explanation": "本句的「jump in sales」指「銷售急升」。",
+      "explanation": "本句的「jump in sales」指「X 在短時間內突然明顯增加」。",
       "sentenceIndex": 31,
       "sourcePractice": 2,
       "targets": [
         "jump in sales"
       ],
       "optionReasons": {
-        "jump-mcq-13": "本句指「銷售急升」。",
+        "jump-pdf-003": "本句指「X 在短時間內突然明顯增加」。",
         "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
         "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
         "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
         "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
         "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。"
       },
-      "correctOption": "jump-mcq-13"
+      "correctOption": "jump-pdf-003"
     },
     {
       "id": "jump-16-0",

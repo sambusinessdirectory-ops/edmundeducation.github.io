@@ -49,16 +49,6 @@ export default {
           "We need to appreciate the importance of time.",
           "我們需要認識到／體會時間的重要性。",
           "充分理解某件事的重要性、難度、影響或意義"
-        ],
-        [
-          "He did not fully appreciate the risk.",
-          "他並沒有充分意識到／理解風險。",
-          "充分理解某件事的重要性、難度、影響或意義"
-        ],
-        [
-          "She appreciates the challenges involved.",
-          "她很清楚並理解其中涉及的困難。",
-          "充分理解某件事的重要性、難度、影響或意義"
         ]
       ],
       "options": [],
@@ -283,6 +273,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "appreciate-pdf-001",
+      "title": "對某情況的性質、影響或後果有充分認識",
+      "form": "3. appreciate + situation/problem — 充分理解；意識到",
+      "en": "3. appreciate + situation/problem — 充分理解；意識到",
+      "zh": "對某情況的性質、影響或後果有充分認識",
+      "note": "原始 PDF 第 3 節：對某情況的性質、影響或後果有充分認識",
+      "examples": [
+        [
+          "He did not fully appreciate the risk.",
+          "他並沒有充分意識到／理解風險。",
+          "對某情況的性質、影響或後果有充分認識"
+        ],
+        [
+          "She appreciates the challenges involved.",
+          "她很清楚並理解其中涉及的困難。",
+          "對某情況的性質、影響或後果有充分認識"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -438,63 +450,63 @@ export default {
     },
     {
       "id": "appreciate-03-0",
-      "sense": "appreciate-mcq-02",
+      "sense": "appreciate-pdf-001",
       "en": "He did not fully appreciate the risk.",
       "zh": "他並沒有充分意識到／理解風險。",
       "masked": "He did not fully ____ the risk.",
       "options": [
-        "appreciate-mcq-02",
+        "appreciate-pdf-001",
         "appreciate-mcq-01",
         "appreciate-mcq-03",
         "appreciate-mcq-04",
         "appreciate-mcq-05",
         "appreciate-mcq-06"
       ],
-      "explanation": "本句的「appreciate」指「充分理解某件事的重要性、難度、影響或意義」。",
+      "explanation": "本句的「appreciate」指「對某情況的性質、影響或後果有充分認識」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-02": "本句指「充分理解某件事的重要性、難度、影響或意義」。",
+        "appreciate-pdf-001": "本句指「對某情況的性質、影響或後果有充分認識」。",
         "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
         "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
         "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
         "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
         "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
       },
-      "correctOption": "appreciate-mcq-02"
+      "correctOption": "appreciate-pdf-001"
     },
     {
       "id": "appreciate-03-1",
-      "sense": "appreciate-mcq-02",
+      "sense": "appreciate-pdf-001",
       "en": "She appreciates the challenges involved.",
       "zh": "她很清楚並理解其中涉及的困難。",
       "masked": "She ____ the challenges involved.",
       "options": [
-        "appreciate-mcq-02",
+        "appreciate-pdf-001",
         "appreciate-mcq-01",
         "appreciate-mcq-03",
         "appreciate-mcq-04",
         "appreciate-mcq-05",
         "appreciate-mcq-06"
       ],
-      "explanation": "本句的「appreciates」指「充分理解某件事的重要性、難度、影響或意義」。",
+      "explanation": "本句的「appreciates」指「對某情況的性質、影響或後果有充分認識」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "appreciates"
       ],
       "optionReasons": {
-        "appreciate-mcq-02": "本句指「充分理解某件事的重要性、難度、影響或意義」。",
+        "appreciate-pdf-001": "本句指「對某情況的性質、影響或後果有充分認識」。",
         "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
         "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
         "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
         "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
         "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
       },
-      "correctOption": "appreciate-mcq-02"
+      "correctOption": "appreciate-pdf-001"
     },
     {
       "id": "appreciate-04-0",

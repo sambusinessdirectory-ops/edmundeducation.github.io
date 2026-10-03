@@ -12,18 +12,7 @@ export default {
       "en": "sister — family",
       "zh": "與某人共有至少一名親生父母的女性手足",
       "note": "來源詞義：與某人共有至少一名親生父母的女性手足",
-      "examples": [
-        [
-          "She has two sisters.",
-          "她有兩個姐妹。",
-          "與某人共有至少一名親生父母的女性手足"
-        ],
-        [
-          "My older sister lives abroad.",
-          "我的姐姐住在外國。",
-          "與某人共有至少一名親生父母的女性手足"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -171,16 +160,6 @@ export default {
           "The two firms are sister companies under the same group.",
           "兩家公司都是同一集團旗下的姊妹公司。",
           "與另一家公司同屬一個母公司／集團的關聯公司"
-        ],
-        [
-          "The museum works with a sister institution overseas.",
-          "這間博物館與海外一間姊妹機構合作。",
-          "與另一家公司同屬一個母公司／集團的關聯公司"
-        ],
-        [
-          "The charities are sister organizations.",
-          "這些慈善機構是互相關聯的姊妹機構。",
-          "與另一家公司同屬一個母公司／集團的關聯公司"
         ]
       ],
       "options": [],
@@ -246,16 +225,6 @@ export default {
         [
           "Its sister ship was launched a year later.",
           "它的姊妹船一年後下水。",
-          "與另一艘船屬同型、同級或同系列的船"
-        ],
-        [
-          "The magazine shares content with its sister publication.",
-          "這本雜誌與其姊妹刊物共享內容。",
-          "與另一艘船屬同型、同級或同系列的船"
-        ],
-        [
-          "The programme also airs on a sister channel.",
-          "這個節目也會在其姊妹頻道播出。",
           "與另一艘船屬同型、同級或同系列的船"
         ]
       ],
@@ -349,68 +318,134 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "sister-pdf-001",
+      "title": "女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹",
+      "form": "1. sister = female sibling（家庭） — 姐妹；姐姐／妹妹",
+      "en": "1. sister = female sibling（家庭） — 姐妹；姐姐／妹妹",
+      "zh": "女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹",
+      "note": "原始 PDF 第 1 節：女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹",
+      "examples": [
+        [
+          "She has two sisters.",
+          "她有兩個姐妹。",
+          "女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹"
+        ],
+        [
+          "My older sister lives abroad.",
+          "我的姐姐住在外國。",
+          "女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sister-pdf-002",
+      "title": "與另一機構在結構、合作或母體關係上密切相關的組織",
+      "form": "9. sister organization / sister institution — 姊妹機構；關聯機構",
+      "en": "9. sister organization / sister institution — 姊妹機構；關聯機構",
+      "zh": "與另一機構在結構、合作或母體關係上密切相關的組織",
+      "note": "原始 PDF 第 9 節：與另一機構在結構、合作或母體關係上密切相關的組織",
+      "examples": [
+        [
+          "The museum works with a sister institution overseas.",
+          "這間博物館與海外一間姊妹機構合作。",
+          "與另一機構在結構、合作或母體關係上密切相關的組織"
+        ],
+        [
+          "The charities are sister organizations.",
+          "這些慈善機構是互相關聯的姊妹機構。",
+          "與另一機構在結構、合作或母體關係上密切相關的組織"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sister-pdf-003",
+      "title": "與另一單位同屬一個集團、品牌或密切關聯體系",
+      "form": "13. sister publication / sister channel（媒體） — 姊妹刊物；姊妹頻道",
+      "en": "13. sister publication / sister channel（媒體） — 姊妹刊物；姊妹頻道",
+      "zh": "與另一單位同屬一個集團、品牌或密切關聯體系",
+      "note": "原始 PDF 第 13 節：與另一單位同屬一個集團、品牌或密切關聯體系",
+      "examples": [
+        [
+          "The magazine shares content with its sister publication.",
+          "這本雜誌與其姊妹刊物共享內容。",
+          "與另一單位同屬一個集團、品牌或密切關聯體系"
+        ],
+        [
+          "The programme also airs on a sister channel.",
+          "這個節目也會在其姊妹頻道播出。",
+          "與另一單位同屬一個集團、品牌或密切關聯體系"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "sister-01-0",
-      "sense": "sister-mcq-01",
+      "sense": "sister-pdf-001",
       "en": "She has two sisters.",
       "zh": "她有兩個姐妹。",
       "masked": "She has two ____.",
       "options": [
-        "sister-mcq-01",
+        "sister-pdf-001",
         "sister-mcq-02",
         "sister-mcq-03",
         "sister-mcq-04",
         "sister-mcq-05",
         "sister-mcq-06"
       ],
-      "explanation": "本句的「sisters」指「與某人共有至少一名親生父母的女性手足」。",
+      "explanation": "本句的「sisters」指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "sisters"
       ],
       "optionReasons": {
-        "sister-mcq-01": "本句指「與某人共有至少一名親生父母的女性手足」。",
+        "sister-pdf-001": "本句指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
         "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
         "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
         "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
         "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
         "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
       },
-      "correctOption": "sister-mcq-01"
+      "correctOption": "sister-pdf-001"
     },
     {
       "id": "sister-01-1",
-      "sense": "sister-mcq-01",
+      "sense": "sister-pdf-001",
       "en": "My older sister lives abroad.",
       "zh": "我的姐姐住在外國。",
       "masked": "My older ____ lives abroad.",
       "options": [
-        "sister-mcq-01",
+        "sister-pdf-001",
         "sister-mcq-02",
         "sister-mcq-03",
         "sister-mcq-04",
         "sister-mcq-05",
         "sister-mcq-06"
       ],
-      "explanation": "本句的「sister」指「與某人共有至少一名親生父母的女性手足」。",
+      "explanation": "本句的「sister」指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-01": "本句指「與某人共有至少一名親生父母的女性手足」。",
+        "sister-pdf-001": "本句指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
         "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
         "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
         "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
         "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
         "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
       },
-      "correctOption": "sister-mcq-01"
+      "correctOption": "sister-pdf-001"
     },
     {
       "id": "sister-02-0",
@@ -804,63 +839,63 @@ export default {
     },
     {
       "id": "sister-09-0",
-      "sense": "sister-mcq-08",
+      "sense": "sister-pdf-002",
       "en": "The museum works with a sister institution overseas.",
       "zh": "這間博物館與海外一間姊妹機構合作。",
       "masked": "The museum works with a ____ overseas.",
       "options": [
-        "sister-mcq-08",
+        "sister-pdf-002",
         "sister-mcq-07",
         "sister-mcq-09",
         "sister-mcq-06",
         "sister-mcq-10",
         "sister-mcq-05"
       ],
-      "explanation": "本句的「sister institution」指「與另一家公司同屬一個母公司／集團的關聯公司」。",
+      "explanation": "本句的「sister institution」指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
       "sentenceIndex": 15,
       "sourcePractice": 17,
       "targets": [
         "sister institution"
       ],
       "optionReasons": {
-        "sister-mcq-08": "本句指「與另一家公司同屬一個母公司／集團的關聯公司」。",
+        "sister-pdf-002": "本句指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
         "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
         "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
         "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
         "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
         "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。"
       },
-      "correctOption": "sister-mcq-08"
+      "correctOption": "sister-pdf-002"
     },
     {
       "id": "sister-09-1",
-      "sense": "sister-mcq-08",
+      "sense": "sister-pdf-002",
       "en": "The charities are sister organizations.",
       "zh": "這些慈善機構是互相關聯的姊妹機構。",
       "masked": "The charities are ____ organizations.",
       "options": [
-        "sister-mcq-08",
+        "sister-pdf-002",
         "sister-mcq-07",
         "sister-mcq-09",
         "sister-mcq-06",
         "sister-mcq-10",
         "sister-mcq-05"
       ],
-      "explanation": "本句的「sister」指「與另一家公司同屬一個母公司／集團的關聯公司」。",
+      "explanation": "本句的「sister」指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
       "sentenceIndex": 16,
       "sourcePractice": 18,
       "targets": [
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-08": "本句指「與另一家公司同屬一個母公司／集團的關聯公司」。",
+        "sister-pdf-002": "本句指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
         "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
         "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
         "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
         "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
         "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。"
       },
-      "correctOption": "sister-mcq-08"
+      "correctOption": "sister-pdf-002"
     },
     {
       "id": "sister-10-0",
@@ -1044,63 +1079,63 @@ export default {
     },
     {
       "id": "sister-13-0",
-      "sense": "sister-mcq-11",
+      "sense": "sister-pdf-003",
       "en": "The magazine shares content with its sister publication.",
       "zh": "這本雜誌與其姊妹刊物共享內容。",
       "masked": "The magazine shares content with its ____.",
       "options": [
-        "sister-mcq-11",
+        "sister-pdf-003",
         "sister-mcq-10",
         "sister-mcq-12",
         "sister-mcq-09",
         "sister-mcq-13",
         "sister-mcq-08"
       ],
-      "explanation": "本句的「sister publication」指「與另一艘船屬同型、同級或同系列的船」。",
+      "explanation": "本句的「sister publication」指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
       "sentenceIndex": 23,
       "sourcePractice": 25,
       "targets": [
         "sister publication"
       ],
       "optionReasons": {
-        "sister-mcq-11": "本句指「與另一艘船屬同型、同級或同系列的船」。",
+        "sister-pdf-003": "本句指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
         "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
         "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
         "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
         "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
         "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。"
       },
-      "correctOption": "sister-mcq-11"
+      "correctOption": "sister-pdf-003"
     },
     {
       "id": "sister-13-1",
-      "sense": "sister-mcq-11",
+      "sense": "sister-pdf-003",
       "en": "The programme also airs on a sister channel.",
       "zh": "這個節目也會在其姊妹頻道播出。",
       "masked": "The programme also airs on a ____ channel.",
       "options": [
-        "sister-mcq-11",
+        "sister-pdf-003",
         "sister-mcq-10",
         "sister-mcq-12",
         "sister-mcq-09",
         "sister-mcq-13",
         "sister-mcq-08"
       ],
-      "explanation": "本句的「sister」指「與另一艘船屬同型、同級或同系列的船」。",
+      "explanation": "本句的「sister」指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
       "sentenceIndex": 24,
       "sourcePractice": 26,
       "targets": [
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-11": "本句指「與另一艘船屬同型、同級或同系列的船」。",
+        "sister-pdf-003": "本句指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
         "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
         "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
         "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
         "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
         "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。"
       },
-      "correctOption": "sister-mcq-11"
+      "correctOption": "sister-pdf-003"
     },
     {
       "id": "sister-14-0",

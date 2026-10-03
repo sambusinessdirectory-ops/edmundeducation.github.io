@@ -329,16 +329,6 @@ export default {
       "note": "來源詞義：一項任務的開始／完成受另一任務影響的關係",
       "examples": [
         [
-          "The application has several external dependencies.",
-          "這個應用程式有幾個外部依賴項。",
-          "一項任務的開始／完成受另一任務影響的關係"
-        ],
-        [
-          "Install the required dependencies first.",
-          "先安裝所需的相依套件／依賴項。",
-          "一項任務的開始／完成受另一任務影響的關係"
-        ],
-        [
           "The schedule shows all task dependencies.",
           "時間表顯示所有任務依賴關係。",
           "一項任務的開始／完成受另一任務影響的關係"
@@ -619,6 +609,28 @@ export default {
           "The dependency ratio compares dependants with the working-age population.",
           "撫養比比較受供養人口與工作年齡人口的比例。",
           "受供養人口相對於工作年齡人口的比例"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "dependence-pdf-001",
+      "title": "一個程式正常執行所需要的另一套程式、函式庫、套件或元件",
+      "form": "42. dependency = software/package required by another program — 軟件依賴項；相依套件",
+      "en": "42. dependency = software/package required by another program — 軟件依賴項；相依套件",
+      "zh": "一個程式正常執行所需要的另一套程式、函式庫、套件或元件",
+      "note": "原始 PDF 第 42 節：一個程式正常執行所需要的另一套程式、函式庫、套件或元件",
+      "examples": [
+        [
+          "The application has several external dependencies.",
+          "這個應用程式有幾個外部依賴項。",
+          "一個程式正常執行所需要的另一套程式、函式庫、套件或元件"
+        ],
+        [
+          "Install the required dependencies first.",
+          "先安裝所需的相依套件／依賴項。",
+          "一個程式正常執行所需要的另一套程式、函式庫、套件或元件"
         ]
       ],
       "options": [],
@@ -1198,63 +1210,63 @@ export default {
     },
     {
       "id": "dependence-42-0",
-      "sense": "dependence-mcq-19",
+      "sense": "dependence-pdf-001",
       "en": "The application has several external dependencies.",
       "zh": "這個應用程式有幾個外部依賴項。",
       "masked": "The application has several external ____.",
       "options": [
-        "dependence-mcq-19",
+        "dependence-pdf-001",
         "dependence-mcq-18",
         "dependence-mcq-20",
         "dependence-mcq-17",
         "dependence-mcq-21",
         "dependence-mcq-16"
       ],
-      "explanation": "本句的「dependencies」指「一項任務的開始／完成受另一任務影響的關係」。",
+      "explanation": "本句的「dependencies」指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
       "sentenceIndex": 60,
       "sourcePractice": 42,
       "targets": [
         "dependencies"
       ],
       "optionReasons": {
-        "dependence-mcq-19": "本句指「一項任務的開始／完成受另一任務影響的關係」。",
+        "dependence-pdf-001": "本句指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
         "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
         "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
         "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
         "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
         "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。"
       },
-      "correctOption": "dependence-mcq-19"
+      "correctOption": "dependence-pdf-001"
     },
     {
       "id": "dependence-42-1",
-      "sense": "dependence-mcq-19",
+      "sense": "dependence-pdf-001",
       "en": "Install the required dependencies first.",
       "zh": "先安裝所需的相依套件／依賴項。",
       "masked": "Install the required ____ first.",
       "options": [
-        "dependence-mcq-19",
+        "dependence-pdf-001",
         "dependence-mcq-18",
         "dependence-mcq-20",
         "dependence-mcq-17",
         "dependence-mcq-21",
         "dependence-mcq-16"
       ],
-      "explanation": "本句的「dependencies」指「一項任務的開始／完成受另一任務影響的關係」。",
+      "explanation": "本句的「dependencies」指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
       "sentenceIndex": 61,
       "sourcePractice": 42,
       "targets": [
         "dependencies"
       ],
       "optionReasons": {
-        "dependence-mcq-19": "本句指「一項任務的開始／完成受另一任務影響的關係」。",
+        "dependence-pdf-001": "本句指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
         "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
         "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
         "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
         "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
         "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。"
       },
-      "correctOption": "dependence-mcq-19"
+      "correctOption": "dependence-pdf-001"
     },
     {
       "id": "dependence-46-0",

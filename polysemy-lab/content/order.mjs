@@ -344,16 +344,6 @@ export default {
           "The court ordered the company to pay compensation.",
           "法院下令公司支付賠償。",
           "命令某人……"
-        ],
-        [
-          "We were ordered to stop.",
-          "我們被命令停下來。",
-          "命令某人……"
-        ],
-        [
-          "The building was ordered to close.",
-          "該建築被勒令關閉。",
-          "命令某人……"
         ]
       ],
       "options": [],
@@ -931,6 +921,28 @@ export default {
           "The award belongs to a historic order of chivalry.",
           "這項榮譽屬於一個歷史悠久的騎士勳章團體。",
           "正式榮譽團體、騎士團或與之相關的勳位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "order-pdf-001",
+      "title": "被正式要求必須做 X",
+      "form": "19. be ordered to do something — 被命令做某事",
+      "en": "19. be ordered to do something — 被命令做某事",
+      "zh": "被正式要求必須做 X",
+      "note": "原始 PDF 第 19 節：被正式要求必須做 X",
+      "examples": [
+        [
+          "We were ordered to stop.",
+          "我們被命令停下來。",
+          "被正式要求必須做 X"
+        ],
+        [
+          "The building was ordered to close.",
+          "該建築被勒令關閉。",
+          "被正式要求必須做 X"
         ]
       ],
       "options": [],
@@ -2050,63 +2062,63 @@ export default {
     },
     {
       "id": "order-19-0",
-      "sense": "order-mcq-16",
+      "sense": "order-pdf-001",
       "en": "We were ordered to stop.",
       "zh": "我們被命令停下來。",
       "masked": "We were ____.",
       "options": [
-        "order-mcq-16",
+        "order-pdf-001",
         "order-mcq-15",
         "order-mcq-17",
         "order-mcq-14",
         "order-mcq-18",
         "order-mcq-13"
       ],
-      "explanation": "本句的「ordered to stop」指「命令某人……」。",
+      "explanation": "本句的「ordered to stop」指「被正式要求必須做 X」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "ordered to stop"
       ],
       "optionReasons": {
-        "order-mcq-16": "本句指「命令某人……」。",
+        "order-pdf-001": "本句指「被正式要求必須做 X」。",
         "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
         "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
         "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
         "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
         "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。"
       },
-      "correctOption": "order-mcq-16"
+      "correctOption": "order-pdf-001"
     },
     {
       "id": "order-19-1",
-      "sense": "order-mcq-16",
+      "sense": "order-pdf-001",
       "en": "The building was ordered to close.",
       "zh": "該建築被勒令關閉。",
       "masked": "The building was ____.",
       "options": [
-        "order-mcq-16",
+        "order-pdf-001",
         "order-mcq-15",
         "order-mcq-17",
         "order-mcq-14",
         "order-mcq-18",
         "order-mcq-13"
       ],
-      "explanation": "本句的「ordered to close」指「命令某人……」。",
+      "explanation": "本句的「ordered to close」指「被正式要求必須做 X」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "ordered to close"
       ],
       "optionReasons": {
-        "order-mcq-16": "本句指「命令某人……」。",
+        "order-pdf-001": "本句指「被正式要求必須做 X」。",
         "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
         "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
         "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
         "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
         "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。"
       },
-      "correctOption": "order-mcq-16"
+      "correctOption": "order-pdf-001"
     },
     {
       "id": "order-20-0",

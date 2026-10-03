@@ -252,16 +252,6 @@ export default {
       "note": "來源詞義：形成",
       "examples": [
         [
-          "The children quickly formed friendships.",
-          "孩子們很快便建立了友誼。",
-          "形成"
-        ],
-        [
-          "She formed a close relationship with her teacher.",
-          "她和老師建立了親密關係。",
-          "形成"
-        ],
-        [
           "Scientists studied the formation of clouds.",
           "科學家研究雲的形成。",
           "形成"
@@ -592,6 +582,28 @@ export default {
           "We formed a circle around the table.",
           "我們在桌子周圍圍成一圈。",
           "以特定空間排列方式組成一個形狀"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "form-pdf-001",
+      "title": "逐漸建立起人際連繫",
+      "form": "18. form a relationship / friendship — 建立關係／友誼",
+      "en": "18. form a relationship / friendship — 建立關係／友誼",
+      "zh": "逐漸建立起人際連繫",
+      "note": "原始 PDF 第 18 節：逐漸建立起人際連繫",
+      "examples": [
+        [
+          "The children quickly formed friendships.",
+          "孩子們很快便建立了友誼。",
+          "逐漸建立起人際連繫"
+        ],
+        [
+          "She formed a close relationship with her teacher.",
+          "她和老師建立了親密關係。",
+          "逐漸建立起人際連繫"
         ]
       ],
       "options": [],
@@ -1651,63 +1663,63 @@ export default {
     },
     {
       "id": "form-18-0",
-      "sense": "form-mcq-10",
+      "sense": "form-pdf-001",
       "en": "The children quickly formed friendships.",
       "zh": "孩子們很快便建立了友誼。",
       "masked": "The children quickly ____.",
       "options": [
-        "form-mcq-10",
+        "form-pdf-001",
         "form-mcq-09",
         "form-mcq-11",
         "form-mcq-08",
         "form-mcq-12",
         "form-mcq-07"
       ],
-      "explanation": "本句的「formed friendships」指「形成」。",
+      "explanation": "本句的「formed friendships」指「逐漸建立起人際連繫」。",
       "sentenceIndex": 35,
       "sourcePractice": 1,
       "targets": [
         "formed friendships"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
+        "form-pdf-001": "本句指「逐漸建立起人際連繫」。",
         "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
         "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
         "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
         "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
         "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
       },
-      "correctOption": "form-mcq-10"
+      "correctOption": "form-pdf-001"
     },
     {
       "id": "form-18-1",
-      "sense": "form-mcq-10",
+      "sense": "form-pdf-001",
       "en": "She formed a close relationship with her teacher.",
       "zh": "她和老師建立了親密關係。",
       "masked": "She ____ with her teacher.",
       "options": [
-        "form-mcq-10",
+        "form-pdf-001",
         "form-mcq-09",
         "form-mcq-11",
         "form-mcq-08",
         "form-mcq-12",
         "form-mcq-07"
       ],
-      "explanation": "本句的「formed a close relationship」指「形成」。",
+      "explanation": "本句的「formed a close relationship」指「逐漸建立起人際連繫」。",
       "sentenceIndex": 36,
       "sourcePractice": 2,
       "targets": [
         "formed a close relationship"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
+        "form-pdf-001": "本句指「逐漸建立起人際連繫」。",
         "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
         "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
         "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
         "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
         "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
       },
-      "correctOption": "form-mcq-10"
+      "correctOption": "form-pdf-001"
     },
     {
       "id": "form-19-0",

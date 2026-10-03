@@ -235,16 +235,6 @@ export default {
           "Viral trends can disappear very quickly.",
           "網絡熱潮可能很快消失。",
           "在網絡平台迅速擴散並被大量參與／模仿的潮流"
-        ],
-        [
-          "The interview created a viral moment.",
-          "那次訪問創造了一個爆紅時刻。",
-          "在網絡平台迅速擴散並被大量參與／模仿的潮流"
-        ],
-        [
-          "One funny mistake turned into a viral moment.",
-          "一個有趣的小失誤變成了一次網絡瘋傳事件。",
-          "在網絡平台迅速擴散並被大量參與／模仿的潮流"
         ]
       ],
       "options": [],
@@ -279,6 +269,28 @@ export default {
           "The computer was infected with a virus.",
           "這部電腦感染了電腦病毒。",
           "能感染檔案／系統並自行傳播的惡意程式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "viral-pdf-001",
+      "title": "某個瞬間／片段突然在網上被廣泛傳播和討論",
+      "form": "12. viral moment = 爆紅時刻；網絡瘋傳事件",
+      "en": "12. viral moment = 爆紅時刻；網絡瘋傳事件",
+      "zh": "某個瞬間／片段突然在網上被廣泛傳播和討論",
+      "note": "原始 PDF 第 12 節：某個瞬間／片段突然在網上被廣泛傳播和討論",
+      "examples": [
+        [
+          "The interview created a viral moment.",
+          "那次訪問創造了一個爆紅時刻。",
+          "某個瞬間／片段突然在網上被廣泛傳播和討論"
+        ],
+        [
+          "One funny mistake turned into a viral moment.",
+          "一個有趣的小失誤變成了一次網絡瘋傳事件。",
+          "某個瞬間／片段突然在網上被廣泛傳播和討論"
         ]
       ],
       "options": [],
@@ -978,63 +990,63 @@ export default {
     },
     {
       "id": "viral-12-0",
-      "sense": "viral-mcq-10",
+      "sense": "viral-pdf-001",
       "en": "The interview created a viral moment.",
       "zh": "那次訪問創造了一個爆紅時刻。",
       "masked": "The interview created a ____.",
       "options": [
-        "viral-mcq-10",
+        "viral-pdf-001",
         "viral-mcq-09",
         "viral-mcq-11",
         "viral-mcq-08",
         "viral-mcq-12",
         "viral-mcq-07"
       ],
-      "explanation": "本句的「viral moment」指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
+      "explanation": "本句的「viral moment」指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "viral moment"
       ],
       "optionReasons": {
-        "viral-mcq-10": "本句指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
+        "viral-pdf-001": "本句指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
         "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
         "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
         "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
         "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
         "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
       },
-      "correctOption": "viral-mcq-10"
+      "correctOption": "viral-pdf-001"
     },
     {
       "id": "viral-12-1",
-      "sense": "viral-mcq-10",
+      "sense": "viral-pdf-001",
       "en": "One funny mistake turned into a viral moment.",
       "zh": "一個有趣的小失誤變成了一次網絡瘋傳事件。",
       "masked": "One funny mistake turned into a ____ moment.",
       "options": [
-        "viral-mcq-10",
+        "viral-pdf-001",
         "viral-mcq-09",
         "viral-mcq-11",
         "viral-mcq-08",
         "viral-mcq-12",
         "viral-mcq-07"
       ],
-      "explanation": "本句的「viral」指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
+      "explanation": "本句的「viral」指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-10": "本句指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
+        "viral-pdf-001": "本句指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
         "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
         "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
         "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
         "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
         "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
       },
-      "correctOption": "viral-mcq-10"
+      "correctOption": "viral-pdf-001"
     },
     {
       "id": "viral-13-0",

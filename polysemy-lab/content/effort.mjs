@@ -147,16 +147,6 @@ export default {
           "Building trust takes time and requires effort.",
           "建立信任需要時間，也需要付出心力。",
           "需要努力"
-        ],
-        [
-          "Staying calm under pressure takes effort.",
-          "在壓力下保持冷靜需要下功夫。",
-          "需要努力"
-        ],
-        [
-          "Good communication takes effort.",
-          "良好溝通需要用心經營。",
-          "需要努力"
         ]
       ],
       "options": [],
@@ -355,18 +345,7 @@ export default {
       "en": "an effort to X",
       "zh": "為 X 作出的努力",
       "note": "來源詞義：為 X 作出的努力",
-      "examples": [
-        [
-          "The company made an effort to improve communication.",
-          "公司努力改善溝通。",
-          "為 X 作出的努力"
-        ],
-        [
-          "In an effort to reduce conflict, the manager changed the meeting format.",
-          "為了減少衝突，經理改變了會議形式。",
-          "為 X 作出的努力"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -629,6 +608,50 @@ export default {
           "At first, the new habit felt effortful.",
           "起初，這個新習慣感覺需要刻意下很多功夫。",
           "費力的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "effort-pdf-001",
+      "title": "完成或維持某件事需要投入心力",
+      "form": "8. take effort — 需要花力氣／心力",
+      "en": "8. take effort — 需要花力氣／心力",
+      "zh": "完成或維持某件事需要投入心力",
+      "note": "原始 PDF 第 8 節：完成或維持某件事需要投入心力",
+      "examples": [
+        [
+          "Staying calm under pressure takes effort.",
+          "在壓力下保持冷靜需要下功夫。",
+          "完成或維持某件事需要投入心力"
+        ],
+        [
+          "Good communication takes effort.",
+          "良好溝通需要用心經營。",
+          "完成或維持某件事需要投入心力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "effort-pdf-002",
+      "title": "以達成 X 為目的的具體行動或嘗試",
+      "form": "19. an effort to do something — 為做某事而作出的努力／嘗試",
+      "en": "19. an effort to do something — 為做某事而作出的努力／嘗試",
+      "zh": "以達成 X 為目的的具體行動或嘗試",
+      "note": "原始 PDF 第 19 節：以達成 X 為目的的具體行動或嘗試",
+      "examples": [
+        [
+          "The company made an effort to improve communication.",
+          "公司努力改善溝通。",
+          "以達成 X 為目的的具體行動或嘗試"
+        ],
+        [
+          "In an effort to reduce conflict, the manager changed the meeting format.",
+          "為了減少衝突，經理改變了會議形式。",
+          "以達成 X 為目的的具體行動或嘗試"
         ]
       ],
       "options": [],
@@ -1088,63 +1111,63 @@ export default {
     },
     {
       "id": "effort-08-0",
-      "sense": "effort-mcq-06",
+      "sense": "effort-pdf-001",
       "en": "Staying calm under pressure takes effort.",
       "zh": "在壓力下保持冷靜需要下功夫。",
       "masked": "Staying calm under pressure ____.",
       "options": [
-        "effort-mcq-06",
+        "effort-pdf-001",
         "effort-mcq-05",
         "effort-mcq-07",
         "effort-mcq-04",
         "effort-mcq-08",
         "effort-mcq-03"
       ],
-      "explanation": "本句的「takes effort」指「需要努力」。",
+      "explanation": "本句的「takes effort」指「完成或維持某件事需要投入心力」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "takes effort"
       ],
       "optionReasons": {
-        "effort-mcq-06": "本句指「需要努力」。",
+        "effort-pdf-001": "本句指「完成或維持某件事需要投入心力」。",
         "effort-mcq-05": "「盡一切努力」與本句語境不同。",
         "effort-mcq-07": "「體力」與本句語境不同。",
         "effort-mcq-04": "「作出努力」與本句語境不同。",
         "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
         "effort-mcq-03": "「付出努力」與本句語境不同。"
       },
-      "correctOption": "effort-mcq-06"
+      "correctOption": "effort-pdf-001"
     },
     {
       "id": "effort-08-1",
-      "sense": "effort-mcq-06",
+      "sense": "effort-pdf-001",
       "en": "Good communication takes effort.",
       "zh": "良好溝通需要用心經營。",
       "masked": "Good communication ____.",
       "options": [
-        "effort-mcq-06",
+        "effort-pdf-001",
         "effort-mcq-05",
         "effort-mcq-07",
         "effort-mcq-04",
         "effort-mcq-08",
         "effort-mcq-03"
       ],
-      "explanation": "本句的「takes effort」指「需要努力」。",
+      "explanation": "本句的「takes effort」指「完成或維持某件事需要投入心力」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "takes effort"
       ],
       "optionReasons": {
-        "effort-mcq-06": "本句指「需要努力」。",
+        "effort-pdf-001": "本句指「完成或維持某件事需要投入心力」。",
         "effort-mcq-05": "「盡一切努力」與本句語境不同。",
         "effort-mcq-07": "「體力」與本句語境不同。",
         "effort-mcq-04": "「作出努力」與本句語境不同。",
         "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
         "effort-mcq-03": "「付出努力」與本句語境不同。"
       },
-      "correctOption": "effort-mcq-06"
+      "correctOption": "effort-pdf-001"
     },
     {
       "id": "effort-09-0",
@@ -1688,63 +1711,63 @@ export default {
     },
     {
       "id": "effort-19-0",
-      "sense": "effort-mcq-15",
+      "sense": "effort-pdf-002",
       "en": "The company made an effort to improve communication.",
       "zh": "公司努力改善溝通。",
       "masked": "The company made an ____.",
       "options": [
-        "effort-mcq-15",
+        "effort-pdf-002",
         "effort-mcq-14",
         "effort-mcq-16",
         "effort-mcq-13",
         "effort-mcq-17",
         "effort-mcq-12"
       ],
-      "explanation": "本句的「effort to improve communication」指「為 X 作出的努力」。",
+      "explanation": "本句的「effort to improve communication」指「以達成 X 為目的的具體行動或嘗試」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "effort to improve communication"
       ],
       "optionReasons": {
-        "effort-mcq-15": "本句指「為 X 作出的努力」。",
+        "effort-pdf-002": "本句指「以達成 X 為目的的具體行動或嘗試」。",
         "effort-mcq-14": "「一次嘗試」與本句語境不同。",
         "effort-mcq-16": "「為了；試圖」與本句語境不同。",
         "effort-mcq-13": "「費力地」與本句語境不同。",
         "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
         "effort-mcq-12": "「相若的付出」與本句語境不同。"
       },
-      "correctOption": "effort-mcq-15"
+      "correctOption": "effort-pdf-002"
     },
     {
       "id": "effort-19-1",
-      "sense": "effort-mcq-15",
+      "sense": "effort-pdf-002",
       "en": "In an effort to reduce conflict, the manager changed the meeting format.",
       "zh": "為了減少衝突，經理改變了會議形式。",
       "masked": "In an ____, the manager changed the meeting format.",
       "options": [
-        "effort-mcq-15",
+        "effort-pdf-002",
         "effort-mcq-14",
         "effort-mcq-16",
         "effort-mcq-13",
         "effort-mcq-17",
         "effort-mcq-12"
       ],
-      "explanation": "本句的「effort to reduce conflict」指「為 X 作出的努力」。",
+      "explanation": "本句的「effort to reduce conflict」指「以達成 X 為目的的具體行動或嘗試」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "effort to reduce conflict"
       ],
       "optionReasons": {
-        "effort-mcq-15": "本句指「為 X 作出的努力」。",
+        "effort-pdf-002": "本句指「以達成 X 為目的的具體行動或嘗試」。",
         "effort-mcq-14": "「一次嘗試」與本句語境不同。",
         "effort-mcq-16": "「為了；試圖」與本句語境不同。",
         "effort-mcq-13": "「費力地」與本句語境不同。",
         "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
         "effort-mcq-12": "「相若的付出」與本句語境不同。"
       },
-      "correctOption": "effort-mcq-15"
+      "correctOption": "effort-pdf-002"
     },
     {
       "id": "effort-20-0",

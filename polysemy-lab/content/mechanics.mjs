@@ -367,11 +367,6 @@ export default {
           "He studied mechanical engineering at university.",
           "他在大學修讀機械工程。",
           "與機器、機件或物理裝置有關的"
-        ],
-        [
-          "The watch uses a mechanical movement.",
-          "這隻手錶使用機械機芯。",
-          "與機器、機件或物理裝置有關的"
         ]
       ],
       "options": [],
@@ -405,11 +400,6 @@ export default {
         [
           "The performance was technically accurate but rather mechanical.",
           "表演技術上很準確，但顯得有點生硬、缺乏感情。",
-          "過於僵硬、公式化而缺乏自然感或情緒的"
-        ],
-        [
-          "He mechanically repeated the instructions.",
-          "他機械式地／不假思索地重複那些指示。",
           "過於僵硬、公式化而缺乏自然感或情緒的"
         ]
       ],
@@ -535,6 +525,40 @@ export default {
           "The explanation was too mechanistic and ignored human behaviour.",
           "這個解釋過於機械論式，忽略了人的行為。",
           "把複雜現象視為固定機械式因果運作，有時過度簡化的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mechanics-pdf-001",
+      "title": "主要依靠物理機件、齒輪、彈簧等機械結構運作的",
+      "form": "21. mechanical — operated by physical machinery rather than electronics/manual action — 機械",
+      "en": "21. mechanical — operated by physical machinery rather than electronics/manual action — 機械",
+      "zh": "主要依靠物理機件、齒輪、彈簧等機械結構運作的",
+      "note": "原始 PDF 第 21 節：主要依靠物理機件、齒輪、彈簧等機械結構運作的",
+      "examples": [
+        [
+          "The watch uses a mechanical movement.",
+          "這隻手錶使用機械機芯。",
+          "主要依靠物理機件、齒輪、彈簧等機械結構運作的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mechanics-pdf-002",
+      "title": "像機器一樣自動、僵化或缺乏思考地",
+      "form": "25. mechanically — automatically / without thought — 機械地；不假思索地",
+      "en": "25. mechanically — automatically / without thought — 機械地；不假思索地",
+      "zh": "像機器一樣自動、僵化或缺乏思考地",
+      "note": "原始 PDF 第 25 節：像機器一樣自動、僵化或缺乏思考地",
+      "examples": [
+        [
+          "He mechanically repeated the instructions.",
+          "他機械式地／不假思索地重複那些指示。",
+          "像機器一樣自動、僵化或缺乏思考地"
         ]
       ],
       "options": [],
@@ -1594,33 +1618,33 @@ export default {
     },
     {
       "id": "mechanics-21-0",
-      "sense": "mechanics-mcq-16",
+      "sense": "mechanics-pdf-001",
       "en": "The watch uses a mechanical movement.",
       "zh": "這隻手錶使用機械機芯。",
       "masked": "The watch uses a ____ movement.",
       "options": [
-        "mechanics-mcq-16",
+        "mechanics-pdf-001",
         "mechanics-mcq-15",
         "mechanics-mcq-17",
         "mechanics-mcq-14",
         "mechanics-mcq-18",
         "mechanics-mcq-13"
       ],
-      "explanation": "本句的「mechanical」指「與機器、機件或物理裝置有關的」。",
+      "explanation": "本句的「mechanical」指「主要依靠物理機件、齒輪、彈簧等機械結構運作的」。",
       "sentenceIndex": 35,
       "sourcePractice": 42,
       "targets": [
         "mechanical"
       ],
       "optionReasons": {
-        "mechanics-mcq-16": "本句指「與機器、機件或物理裝置有關的」。",
+        "mechanics-pdf-001": "本句指「主要依靠物理機件、齒輪、彈簧等機械結構運作的」。",
         "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
         "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
         "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
         "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
         "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。"
       },
-      "correctOption": "mechanics-mcq-16"
+      "correctOption": "mechanics-pdf-001"
     },
     {
       "id": "mechanics-22-0",
@@ -1684,33 +1708,33 @@ export default {
     },
     {
       "id": "mechanics-25-0",
-      "sense": "mechanics-mcq-18",
+      "sense": "mechanics-pdf-002",
       "en": "He mechanically repeated the instructions.",
       "zh": "他機械式地／不假思索地重複那些指示。",
       "masked": "He ____ repeated the instructions.",
       "options": [
-        "mechanics-mcq-18",
+        "mechanics-pdf-002",
         "mechanics-mcq-17",
         "mechanics-mcq-19",
         "mechanics-mcq-16",
         "mechanics-mcq-20",
         "mechanics-mcq-15"
       ],
-      "explanation": "本句的「mechanically」指「過於僵硬、公式化而缺乏自然感或情緒的」。",
+      "explanation": "本句的「mechanically」指「像機器一樣自動、僵化或缺乏思考地」。",
       "sentenceIndex": 39,
       "sourcePractice": 50,
       "targets": [
         "mechanically"
       ],
       "optionReasons": {
-        "mechanics-mcq-18": "本句指「過於僵硬、公式化而缺乏自然感或情緒的」。",
+        "mechanics-pdf-002": "本句指「像機器一樣自動、僵化或缺乏思考地」。",
         "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
         "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。",
         "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
         "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。",
         "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。"
       },
-      "correctOption": "mechanics-mcq-18"
+      "correctOption": "mechanics-pdf-002"
     },
     {
       "id": "mechanics-26-0",

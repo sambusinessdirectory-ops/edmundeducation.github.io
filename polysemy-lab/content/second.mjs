@@ -95,16 +95,6 @@ export default {
       "note": "來源詞義：排名緊接第一名的位置",
       "examples": [
         [
-          "She finished second in the race.",
-          "她在比賽中得第二名。",
-          "排名緊接第一名的位置"
-        ],
-        [
-          "Their team came second.",
-          "他們的隊伍得了第二名。",
-          "排名緊接第一名的位置"
-        ],
-        [
           "He came in second place.",
           "他取得第二名。",
           "排名緊接第一名的位置"
@@ -193,16 +183,6 @@ export default {
       "note": "來源詞義：等於六十分之一分鐘的時間單位",
       "examples": [
         [
-          "He had a second helping of dessert.",
-          "他又吃了第二份甜品。",
-          "等於六十分之一分鐘的時間單位"
-        ],
-        [
-          "Would you like a second helping?",
-          "你想再添一份嗎？",
-          "等於六十分之一分鐘的時間單位"
-        ],
-        [
           "Wait a second.",
           "等一秒／等一下。",
           "等於六十分之一分鐘的時間單位"
@@ -256,16 +236,6 @@ export default {
       "zh": "正式支持／附議某項動議，使其可繼續處理",
       "note": "來源詞義：正式支持／附議某項動議，使其可繼續處理",
       "examples": [
-        [
-          "Only a few seconds remained.",
-          "只剩下幾秒。",
-          "正式支持／附議某項動議，使其可繼續處理"
-        ],
-        [
-          "The difference was less than two seconds.",
-          "兩者相差不到兩秒。",
-          "正式支持／附議某項動議，使其可繼續處理"
-        ],
         [
           "I second the motion.",
           "我附議這項動議。",
@@ -620,16 +590,6 @@ export default {
           "She never wanted to be second best.",
           "她從不想只做到第二好／次佳。",
           "最佳選項之後的次佳選擇"
-        ],
-        [
-          "This option is only second best.",
-          "這個選項只是次佳選擇。",
-          "最佳選項之後的次佳選擇"
-        ],
-        [
-          "If the first plan fails, this is the second-best solution.",
-          "如果第一個計劃失敗，這就是次佳方案。",
-          "最佳選項之後的次佳選擇"
         ]
       ],
       "options": [],
@@ -696,6 +656,94 @@ export default {
           "He teaches at a secondary school.",
           "他在中學任教。",
           "小學之後、高等教育之前的中等教育階段"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "second-pdf-001",
+      "title": "在比賽、排名或評比中排在第一之後",
+      "form": "5. second = ranking after first（第二名的） — 排第二；次於第一",
+      "en": "5. second = ranking after first（第二名的） — 排第二；次於第一",
+      "zh": "在比賽、排名或評比中排在第一之後",
+      "note": "原始 PDF 第 5 節：在比賽、排名或評比中排在第一之後",
+      "examples": [
+        [
+          "She finished second in the race.",
+          "她在比賽中得第二名。",
+          "在比賽、排名或評比中排在第一之後"
+        ],
+        [
+          "Their team came second.",
+          "他們的隊伍得了第二名。",
+          "在比賽、排名或評比中排在第一之後"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "second-pdf-002",
+      "title": "同一道食物再吃一份",
+      "form": "10. second helping（第二份食物） — 再添一份",
+      "en": "10. second helping（第二份食物） — 再添一份",
+      "zh": "同一道食物再吃一份",
+      "note": "原始 PDF 第 10 節：同一道食物再吃一份",
+      "examples": [
+        [
+          "He had a second helping of dessert.",
+          "他又吃了第二份甜品。",
+          "同一道食物再吃一份"
+        ],
+        [
+          "Would you like a second helping?",
+          "你想再添一份嗎？",
+          "同一道食物再吃一份"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "second-pdf-003",
+      "title": "以秒計算的短時間",
+      "form": "14. seconds = very short periods / timing（秒數） — 秒數",
+      "en": "14. seconds = very short periods / timing（秒數） — 秒數",
+      "zh": "以秒計算的短時間",
+      "note": "原始 PDF 第 14 節：以秒計算的短時間",
+      "examples": [
+        [
+          "Only a few seconds remained.",
+          "只剩下幾秒。",
+          "以秒計算的短時間"
+        ],
+        [
+          "The difference was less than two seconds.",
+          "兩者相差不到兩秒。",
+          "以秒計算的短時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "second-pdf-004",
+      "title": "第一選擇不可得時採用的次一級方案",
+      "form": "33. second best = substitute when first choice unavailable（次選） — 次佳選擇",
+      "en": "33. second best = substitute when first choice unavailable（次選） — 次佳選擇",
+      "zh": "第一選擇不可得時採用的次一級方案",
+      "note": "原始 PDF 第 33 節：第一選擇不可得時採用的次一級方案",
+      "examples": [
+        [
+          "This option is only second best.",
+          "這個選項只是次佳選擇。",
+          "第一選擇不可得時採用的次一級方案"
+        ],
+        [
+          "If the first plan fails, this is the second-best solution.",
+          "如果第一個計劃失敗，這就是次佳方案。",
+          "第一選擇不可得時採用的次一級方案"
         ]
       ],
       "options": [],
@@ -975,63 +1023,63 @@ export default {
     },
     {
       "id": "second-05-0",
-      "sense": "second-mcq-04",
+      "sense": "second-pdf-001",
       "en": "She finished second in the race.",
       "zh": "她在比賽中得第二名。",
       "masked": "She finished ____ in the race.",
       "options": [
-        "second-mcq-04",
+        "second-pdf-001",
         "second-mcq-03",
         "second-mcq-05",
         "second-mcq-02",
         "second-mcq-06",
         "second-mcq-01"
       ],
-      "explanation": "本句的「second」指「排名緊接第一名的位置」。",
+      "explanation": "本句的「second」指「在比賽、排名或評比中排在第一之後」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "second"
       ],
       "optionReasons": {
-        "second-mcq-04": "本句指「排名緊接第一名的位置」。",
+        "second-pdf-001": "本句指「在比賽、排名或評比中排在第一之後」。",
         "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
         "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
         "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
         "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
         "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-04"
+      "correctOption": "second-pdf-001"
     },
     {
       "id": "second-05-1",
-      "sense": "second-mcq-04",
+      "sense": "second-pdf-001",
       "en": "Their team came second.",
       "zh": "他們的隊伍得了第二名。",
       "masked": "Their team came ____.",
       "options": [
-        "second-mcq-04",
+        "second-pdf-001",
         "second-mcq-03",
         "second-mcq-05",
         "second-mcq-02",
         "second-mcq-06",
         "second-mcq-01"
       ],
-      "explanation": "本句的「second」指「排名緊接第一名的位置」。",
+      "explanation": "本句的「second」指「在比賽、排名或評比中排在第一之後」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "second"
       ],
       "optionReasons": {
-        "second-mcq-04": "本句指「排名緊接第一名的位置」。",
+        "second-pdf-001": "本句指「在比賽、排名或評比中排在第一之後」。",
         "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
         "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
         "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
         "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
         "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-04"
+      "correctOption": "second-pdf-001"
     },
     {
       "id": "second-06-0",
@@ -1275,63 +1323,63 @@ export default {
     },
     {
       "id": "second-10-0",
-      "sense": "second-mcq-08",
+      "sense": "second-pdf-002",
       "en": "He had a second helping of dessert.",
       "zh": "他又吃了第二份甜品。",
       "masked": "He had a ____ of dessert.",
       "options": [
-        "second-mcq-08",
+        "second-pdf-002",
         "second-mcq-07",
         "second-mcq-09",
         "second-mcq-06",
         "second-mcq-10",
         "second-mcq-05"
       ],
-      "explanation": "本句的「second helping」指「等於六十分之一分鐘的時間單位」。",
+      "explanation": "本句的「second helping」指「同一道食物再吃一份」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "second helping"
       ],
       "optionReasons": {
-        "second-mcq-08": "本句指「等於六十分之一分鐘的時間單位」。",
+        "second-pdf-002": "本句指「同一道食物再吃一份」。",
         "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
         "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
         "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
         "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
         "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-08"
+      "correctOption": "second-pdf-002"
     },
     {
       "id": "second-10-1",
-      "sense": "second-mcq-08",
+      "sense": "second-pdf-002",
       "en": "Would you like a second helping?",
       "zh": "你想再添一份嗎？",
       "masked": "Would you like a ____ helping?",
       "options": [
-        "second-mcq-08",
+        "second-pdf-002",
         "second-mcq-07",
         "second-mcq-09",
         "second-mcq-06",
         "second-mcq-10",
         "second-mcq-05"
       ],
-      "explanation": "本句的「second」指「等於六十分之一分鐘的時間單位」。",
+      "explanation": "本句的「second」指「同一道食物再吃一份」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "second"
       ],
       "optionReasons": {
-        "second-mcq-08": "本句指「等於六十分之一分鐘的時間單位」。",
+        "second-pdf-002": "本句指「同一道食物再吃一份」。",
         "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
         "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
         "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
         "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
         "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-08"
+      "correctOption": "second-pdf-002"
     },
     {
       "id": "second-11-0",
@@ -1515,63 +1563,63 @@ export default {
     },
     {
       "id": "second-14-0",
-      "sense": "second-mcq-10",
+      "sense": "second-pdf-003",
       "en": "Only a few seconds remained.",
       "zh": "只剩下幾秒。",
       "masked": "Only a few ____ remained.",
       "options": [
-        "second-mcq-10",
+        "second-pdf-003",
         "second-mcq-09",
         "second-mcq-11",
         "second-mcq-08",
         "second-mcq-12",
         "second-mcq-07"
       ],
-      "explanation": "本句的「seconds」指「正式支持／附議某項動議，使其可繼續處理」。",
+      "explanation": "本句的「seconds」指「以秒計算的短時間」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "seconds"
       ],
       "optionReasons": {
-        "second-mcq-10": "本句指「正式支持／附議某項動議，使其可繼續處理」。",
+        "second-pdf-003": "本句指「以秒計算的短時間」。",
         "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
         "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
         "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
         "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
         "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-10"
+      "correctOption": "second-pdf-003"
     },
     {
       "id": "second-14-1",
-      "sense": "second-mcq-10",
+      "sense": "second-pdf-003",
       "en": "The difference was less than two seconds.",
       "zh": "兩者相差不到兩秒。",
       "masked": "The difference was less than two ____.",
       "options": [
-        "second-mcq-10",
+        "second-pdf-003",
         "second-mcq-09",
         "second-mcq-11",
         "second-mcq-08",
         "second-mcq-12",
         "second-mcq-07"
       ],
-      "explanation": "本句的「seconds」指「正式支持／附議某項動議，使其可繼續處理」。",
+      "explanation": "本句的「seconds」指「以秒計算的短時間」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "seconds"
       ],
       "optionReasons": {
-        "second-mcq-10": "本句指「正式支持／附議某項動議，使其可繼續處理」。",
+        "second-pdf-003": "本句指「以秒計算的短時間」。",
         "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
         "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
         "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
         "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
         "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-10"
+      "correctOption": "second-pdf-003"
     },
     {
       "id": "second-15-0",
@@ -2625,63 +2673,63 @@ export default {
     },
     {
       "id": "second-33-0",
-      "sense": "second-mcq-25",
+      "sense": "second-pdf-004",
       "en": "This option is only second best.",
       "zh": "這個選項只是次佳選擇。",
       "masked": "This option is only ____.",
       "options": [
-        "second-mcq-25",
+        "second-pdf-004",
         "second-mcq-24",
         "second-mcq-26",
         "second-mcq-23",
         "second-mcq-27",
         "second-mcq-22"
       ],
-      "explanation": "本句的「second best」指「最佳選項之後的次佳選擇」。",
+      "explanation": "本句的「second best」指「第一選擇不可得時採用的次一級方案」。",
       "sentenceIndex": 64,
       "sourcePractice": 66,
       "targets": [
         "second best"
       ],
       "optionReasons": {
-        "second-mcq-25": "本句指「最佳選項之後的次佳選擇」。",
+        "second-pdf-004": "本句指「第一選擇不可得時採用的次一級方案」。",
         "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
         "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
         "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
         "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
         "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-25"
+      "correctOption": "second-pdf-004"
     },
     {
       "id": "second-33-1",
-      "sense": "second-mcq-25",
+      "sense": "second-pdf-004",
       "en": "If the first plan fails, this is the second-best solution.",
       "zh": "如果第一個計劃失敗，這就是次佳方案。",
       "masked": "If the first plan fails, this is the ____ solution.",
       "options": [
-        "second-mcq-25",
+        "second-pdf-004",
         "second-mcq-24",
         "second-mcq-26",
         "second-mcq-23",
         "second-mcq-27",
         "second-mcq-22"
       ],
-      "explanation": "本句的「second-best」指「最佳選項之後的次佳選擇」。",
+      "explanation": "本句的「second-best」指「第一選擇不可得時採用的次一級方案」。",
       "sentenceIndex": 65,
       "sourcePractice": 67,
       "targets": [
         "second-best"
       ],
       "optionReasons": {
-        "second-mcq-25": "本句指「最佳選項之後的次佳選擇」。",
+        "second-pdf-004": "本句指「第一選擇不可得時採用的次一級方案」。",
         "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
         "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
         "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
         "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
         "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。"
       },
-      "correctOption": "second-mcq-25"
+      "correctOption": "second-pdf-004"
     },
     {
       "id": "second-34-0",

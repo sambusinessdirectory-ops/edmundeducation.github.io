@@ -205,16 +205,6 @@ export default {
           "年輕／初級成員"
         ],
         [
-          "His father is also called David, so he is David Smith Junior.",
-          "他的父親也叫 David，所以他是小 David Smith。",
-          "年輕／初級成員"
-        ],
-        [
-          "Robert Downey Jr. is an actor.",
-          "Robert Downey Jr. 是一名演員。",
-          "年輕／初級成員"
-        ],
-        [
           "The juniors trained separately from the seniors.",
           "年輕組／初級組成員與高級組分開訓練。",
           "年輕／初級成員"
@@ -291,6 +281,28 @@ export default {
       "zh": "年輕者／初級成員",
       "note": "來源詞義：年輕者／初級成員",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "junior-pdf-001",
+      "title": "用在與父親同名的兒子姓名後，表示較年輕的一代",
+      "form": "10. Junior / Jr.（同名父子的較年輕者） — 小……",
+      "en": "10. Junior / Jr.（同名父子的較年輕者） — 小……",
+      "zh": "用在與父親同名的兒子姓名後，表示較年輕的一代",
+      "note": "原始 PDF 第 10 節：用在與父親同名的兒子姓名後，表示較年輕的一代",
+      "examples": [
+        [
+          "His father is also called David, so he is David Smith Junior.",
+          "他的父親也叫 David，所以他是小 David Smith。",
+          "用在與父親同名的兒子姓名後，表示較年輕的一代"
+        ],
+        [
+          "Robert Downey Jr. is an actor.",
+          "Robert Downey Jr. 是一名演員。",
+          "用在與父親同名的兒子姓名後，表示較年輕的一代"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -868,63 +880,63 @@ export default {
     },
     {
       "id": "junior-10-0",
-      "sense": "junior-mcq-09",
+      "sense": "junior-pdf-001",
       "en": "His father is also called David, so he is David Smith Junior.",
       "zh": "他的父親也叫 David，所以他是小 David Smith。",
       "masked": "His father is also called David, so he is David Smith ____.",
       "options": [
-        "junior-mcq-09",
+        "junior-pdf-001",
         "junior-mcq-08",
         "junior-mcq-10",
         "junior-mcq-07",
         "junior-mcq-11",
         "junior-mcq-06"
       ],
-      "explanation": "本句的「Junior」指「年輕／初級成員」。",
+      "explanation": "本句的「Junior」指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "Junior"
       ],
       "optionReasons": {
-        "junior-mcq-09": "本句指「年輕／初級成員」。",
+        "junior-pdf-001": "本句指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
         "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
         "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
         "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
         "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
         "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
       },
-      "correctOption": "junior-mcq-09"
+      "correctOption": "junior-pdf-001"
     },
     {
       "id": "junior-10-1",
-      "sense": "junior-mcq-09",
+      "sense": "junior-pdf-001",
       "en": "Robert Downey Jr. is an actor.",
       "zh": "Robert Downey Jr. 是一名演員。",
       "masked": "Robert Downey ____ is an actor.",
       "options": [
-        "junior-mcq-09",
+        "junior-pdf-001",
         "junior-mcq-08",
         "junior-mcq-10",
         "junior-mcq-07",
         "junior-mcq-11",
         "junior-mcq-06"
       ],
-      "explanation": "本句的「Jr.」指「年輕／初級成員」。",
+      "explanation": "本句的「Jr.」指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "Jr."
       ],
       "optionReasons": {
-        "junior-mcq-09": "本句指「年輕／初級成員」。",
+        "junior-pdf-001": "本句指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
         "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
         "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
         "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
         "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
         "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
       },
-      "correctOption": "junior-mcq-09"
+      "correctOption": "junior-pdf-001"
     },
     {
       "id": "junior-11-0",

@@ -179,16 +179,6 @@ export default {
       "note": "來源詞義：把某物／某人移走、去除或撤去的行為／程序",
       "examples": [
         [
-          "The removal of old equipment took several hours.",
-          "移走舊設備花了幾個小時。",
-          "把某物／某人移走、去除或撤去的行為／程序"
-        ],
-        [
-          "Waste removal is included in the service.",
-          "服務包括廢物清理／搬運。",
-          "把某物／某人移走、去除或撤去的行為／程序"
-        ],
-        [
           "Authorities ordered the child’s removal from the unsafe home.",
           "當局下令把孩子從不安全的住所帶離／安置到別處。",
           "把某物／某人移走、去除或撤去的行為／程序"
@@ -196,16 +186,6 @@ export default {
         [
           "Emergency removal may occur when immediate safety is at risk.",
           "如即時安全受到威脅，可能需要緊急帶離安置。",
-          "把某物／某人移走、去除或撤去的行為／程序"
-        ],
-        [
-          "The person faced removal under immigration law.",
-          "該人士根據入境法面臨遣送離境。",
-          "把某物／某人移走、去除或撤去的行為／程序"
-        ],
-        [
-          "A removal order was issued.",
-          "當局發出了遣離令。",
           "把某物／某人移走、去除或撤去的行為／程序"
         ]
       ],
@@ -328,6 +308,50 @@ export default {
           "Better charging infrastructure would remove friction for EV users.",
           "更完善的充電基建可以消除電動車使用上的不便。",
           "消除流程中令人麻煩、拖慢或阻礙行動的因素"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "remove-pdf-001",
+      "title": "remove 的名詞；具體中文隨語境變化",
+      "form": "32. removal = act/process of taking something away — 移除；搬走；去除",
+      "en": "32. removal = act/process of taking something away — 移除；搬走；去除",
+      "zh": "remove 的名詞；具體中文隨語境變化",
+      "note": "原始 PDF 第 32 節：remove 的名詞；具體中文隨語境變化",
+      "examples": [
+        [
+          "The removal of old equipment took several hours.",
+          "移走舊設備花了幾個小時。",
+          "remove 的名詞；具體中文隨語境變化"
+        ],
+        [
+          "Waste removal is included in the service.",
+          "服務包括廢物清理／搬運。",
+          "remove 的名詞；具體中文隨語境變化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "remove-pdf-002",
+      "title": "依法要求／強制某人離開某司法管轄區",
+      "form": "41. removal = forced departure from a country under immigration law — 遣離；遣送離境",
+      "en": "41. removal = forced departure from a country under immigration law — 遣離；遣送離境",
+      "zh": "依法要求／強制某人離開某司法管轄區",
+      "note": "原始 PDF 第 41 節：依法要求／強制某人離開某司法管轄區",
+      "examples": [
+        [
+          "The person faced removal under immigration law.",
+          "該人士根據入境法面臨遣送離境。",
+          "依法要求／強制某人離開某司法管轄區"
+        ],
+        [
+          "A removal order was issued.",
+          "當局發出了遣離令。",
+          "依法要求／強制某人離開某司法管轄區"
         ]
       ],
       "options": [],
@@ -637,63 +661,63 @@ export default {
     },
     {
       "id": "remove-32-0",
-      "sense": "remove-mcq-11",
+      "sense": "remove-pdf-001",
       "en": "The removal of old equipment took several hours.",
       "zh": "移走舊設備花了幾個小時。",
       "masked": "The ____ of old equipment took several hours.",
       "options": [
-        "remove-mcq-11",
+        "remove-pdf-001",
         "remove-mcq-10",
         "remove-mcq-12",
         "remove-mcq-09",
         "remove-mcq-13",
         "remove-mcq-08"
       ],
-      "explanation": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
+      "explanation": "本句的「removal」指「remove 的名詞；具體中文隨語境變化」。",
       "sentenceIndex": 62,
       "sourcePractice": 32,
       "targets": [
         "removal"
       ],
       "optionReasons": {
-        "remove-mcq-11": "本句指「把某物／某人移走、去除或撤去的行為／程序」。",
+        "remove-pdf-001": "本句指「remove 的名詞；具體中文隨語境變化」。",
         "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
         "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
         "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
         "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
         "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
       },
-      "correctOption": "remove-mcq-11"
+      "correctOption": "remove-pdf-001"
     },
     {
       "id": "remove-32-1",
-      "sense": "remove-mcq-11",
+      "sense": "remove-pdf-001",
       "en": "Waste removal is included in the service.",
       "zh": "服務包括廢物清理／搬運。",
       "masked": "Waste ____ is included in the service.",
       "options": [
-        "remove-mcq-11",
+        "remove-pdf-001",
         "remove-mcq-10",
         "remove-mcq-12",
         "remove-mcq-09",
         "remove-mcq-13",
         "remove-mcq-08"
       ],
-      "explanation": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
+      "explanation": "本句的「removal」指「remove 的名詞；具體中文隨語境變化」。",
       "sentenceIndex": 63,
       "sourcePractice": 32,
       "targets": [
         "removal"
       ],
       "optionReasons": {
-        "remove-mcq-11": "本句指「把某物／某人移走、去除或撤去的行為／程序」。",
+        "remove-pdf-001": "本句指「remove 的名詞；具體中文隨語境變化」。",
         "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
         "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
         "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
         "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
         "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
       },
-      "correctOption": "remove-mcq-11"
+      "correctOption": "remove-pdf-001"
     },
     {
       "id": "remove-40-0",
@@ -757,63 +781,63 @@ export default {
     },
     {
       "id": "remove-41-0",
-      "sense": "remove-mcq-11",
+      "sense": "remove-pdf-002",
       "en": "The person faced removal under immigration law.",
       "zh": "該人士根據入境法面臨遣送離境。",
       "masked": "The person faced ____ under immigration law.",
       "options": [
-        "remove-mcq-11",
+        "remove-pdf-002",
         "remove-mcq-10",
         "remove-mcq-12",
         "remove-mcq-09",
         "remove-mcq-13",
         "remove-mcq-08"
       ],
-      "explanation": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
+      "explanation": "本句的「removal」指「依法要求／強制某人離開某司法管轄區」。",
       "sentenceIndex": 80,
       "sourcePractice": 41,
       "targets": [
         "removal"
       ],
       "optionReasons": {
-        "remove-mcq-11": "本句指「把某物／某人移走、去除或撤去的行為／程序」。",
+        "remove-pdf-002": "本句指「依法要求／強制某人離開某司法管轄區」。",
         "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
         "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
         "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
         "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
         "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
       },
-      "correctOption": "remove-mcq-11"
+      "correctOption": "remove-pdf-002"
     },
     {
       "id": "remove-41-1",
-      "sense": "remove-mcq-11",
+      "sense": "remove-pdf-002",
       "en": "A removal order was issued.",
       "zh": "當局發出了遣離令。",
       "masked": "A ____ order was issued.",
       "options": [
-        "remove-mcq-11",
+        "remove-pdf-002",
         "remove-mcq-10",
         "remove-mcq-12",
         "remove-mcq-09",
         "remove-mcq-13",
         "remove-mcq-08"
       ],
-      "explanation": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
+      "explanation": "本句的「removal」指「依法要求／強制某人離開某司法管轄區」。",
       "sentenceIndex": 81,
       "sourcePractice": 41,
       "targets": [
         "removal"
       ],
       "optionReasons": {
-        "remove-mcq-11": "本句指「把某物／某人移走、去除或撤去的行為／程序」。",
+        "remove-pdf-002": "本句指「依法要求／強制某人離開某司法管轄區」。",
         "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
         "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
         "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
         "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
         "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
       },
-      "correctOption": "remove-mcq-11"
+      "correctOption": "remove-pdf-002"
     },
     {
       "id": "remove-43-0",

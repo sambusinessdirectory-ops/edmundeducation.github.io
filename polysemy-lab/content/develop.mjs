@@ -149,18 +149,7 @@ export default {
       "en": "develop — photography",
       "zh": "對菲林／照片進行化學顯影或沖洗",
       "note": "來源詞義：對菲林／照片進行化學顯影或沖洗",
-      "examples": [
-        [
-          "She had the film developed.",
-          "她把菲林拿去沖洗／顯影。",
-          "對菲林／照片進行化學顯影或沖洗"
-        ],
-        [
-          "The photographs were developed in a darkroom.",
-          "照片是在暗房裡沖洗出來的。",
-          "對菲林／照片進行化學顯影或沖洗"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -275,6 +264,28 @@ export default {
           "The idea developed from an earlier project.",
           "這個想法是由較早的一個項目發展而來。",
           "表示由……發展而來"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "develop-pdf-001",
+      "title": "透過化學處理令菲林上的影像顯現出來",
+      "form": "7. develop = process a photograph/film（攝影） — 沖洗；顯影",
+      "en": "7. develop = process a photograph/film（攝影） — 沖洗；顯影",
+      "zh": "透過化學處理令菲林上的影像顯現出來",
+      "note": "原始 PDF 第 7 節：透過化學處理令菲林上的影像顯現出來",
+      "examples": [
+        [
+          "She had the film developed.",
+          "她把菲林拿去沖洗／顯影。",
+          "透過化學處理令菲林上的影像顯現出來"
+        ],
+        [
+          "The photographs were developed in a darkroom.",
+          "照片是在暗房裡沖洗出來的。",
+          "透過化學處理令菲林上的影像顯現出來"
         ]
       ],
       "options": [],
@@ -674,63 +685,63 @@ export default {
     },
     {
       "id": "develop-07-0",
-      "sense": "develop-mcq-07",
+      "sense": "develop-pdf-001",
       "en": "She had the film developed.",
       "zh": "她把菲林拿去沖洗／顯影。",
       "masked": "She had the film ____.",
       "options": [
-        "develop-mcq-07",
+        "develop-pdf-001",
         "develop-mcq-06",
         "develop-mcq-08",
         "develop-mcq-05",
         "develop-mcq-09",
         "develop-mcq-04"
       ],
-      "explanation": "本句的「developed」指「對菲林／照片進行化學顯影或沖洗」。",
+      "explanation": "本句的「developed」指「透過化學處理令菲林上的影像顯現出來」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-07": "本句指「對菲林／照片進行化學顯影或沖洗」。",
+        "develop-pdf-001": "本句指「透過化學處理令菲林上的影像顯現出來」。",
         "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
         "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
         "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
         "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
         "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。"
       },
-      "correctOption": "develop-mcq-07"
+      "correctOption": "develop-pdf-001"
     },
     {
       "id": "develop-07-1",
-      "sense": "develop-mcq-07",
+      "sense": "develop-pdf-001",
       "en": "The photographs were developed in a darkroom.",
       "zh": "照片是在暗房裡沖洗出來的。",
       "masked": "The photographs were ____ in a darkroom.",
       "options": [
-        "develop-mcq-07",
+        "develop-pdf-001",
         "develop-mcq-06",
         "develop-mcq-08",
         "develop-mcq-05",
         "develop-mcq-09",
         "develop-mcq-04"
       ],
-      "explanation": "本句的「developed」指「對菲林／照片進行化學顯影或沖洗」。",
+      "explanation": "本句的「developed」指「透過化學處理令菲林上的影像顯現出來」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-07": "本句指「對菲林／照片進行化學顯影或沖洗」。",
+        "develop-pdf-001": "本句指「透過化學處理令菲林上的影像顯現出來」。",
         "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
         "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
         "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
         "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
         "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。"
       },
-      "correctOption": "develop-mcq-07"
+      "correctOption": "develop-pdf-001"
     },
     {
       "id": "develop-08-0",

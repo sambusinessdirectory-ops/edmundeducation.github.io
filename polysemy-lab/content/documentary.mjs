@@ -132,16 +132,6 @@ export default {
           "The study documented a clear change in behaviour.",
           "研究記錄到並證實行為出現明顯變化。",
           "透過可靠紀錄把某現象或事實記錄並證實"
-        ],
-        [
-          "Please document the procedure carefully.",
-          "請仔細記錄／編寫這個程序。",
-          "透過可靠紀錄把某現象或事實記錄並證實"
-        ],
-        [
-          "The team documented every step of the process.",
-          "團隊把整個流程的每一步都記錄下來。",
-          "透過可靠紀錄把某現象或事實記錄並證實"
         ]
       ],
       "options": [],
@@ -382,16 +372,6 @@ export default {
           "Researchers looked for documentary evidence of the event.",
           "研究人員尋找能證明該事件的文獻證據。",
           "以文件、紀錄或書面材料形式存在的證據"
-        ],
-        [
-          "The historian compared several documentary sources.",
-          "歷史學家比較了幾個文獻來源。",
-          "以文件、紀錄或書面材料形式存在的證據"
-        ],
-        [
-          "There are few documentary sources from that period.",
-          "那個時期留下的文獻史料很少。",
-          "以文件、紀錄或書面材料形式存在的證據"
         ]
       ],
       "options": [],
@@ -414,6 +394,50 @@ export default {
           "The team is documenting every stage of the restoration.",
           "團隊正在記錄修復工作的每一個階段。",
           "有系統地把某人、某事、過程或證據記錄下來"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "documentary-pdf-001",
+      "title": "把流程、方法、決定等寫成可查閱的正式紀錄",
+      "form": "7. document = create written records/instructions — 寫下紀錄；製作文件",
+      "en": "7. document = create written records/instructions — 寫下紀錄；製作文件",
+      "zh": "把流程、方法、決定等寫成可查閱的正式紀錄",
+      "note": "原始 PDF 第 7 節：把流程、方法、決定等寫成可查閱的正式紀錄",
+      "examples": [
+        [
+          "Please document the procedure carefully.",
+          "請仔細記錄／編寫這個程序。",
+          "把流程、方法、決定等寫成可查閱的正式紀錄"
+        ],
+        [
+          "The team documented every step of the process.",
+          "團隊把整個流程的每一步都記錄下來。",
+          "把流程、方法、決定等寫成可查閱的正式紀錄"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "documentary-pdf-002",
+      "title": "作為研究／歷史證據的文件紀錄來源",
+      "form": "21. documentary source = 文獻來源；文件史料",
+      "en": "21. documentary source = 文獻來源；文件史料",
+      "zh": "作為研究／歷史證據的文件紀錄來源",
+      "note": "原始 PDF 第 21 節：作為研究／歷史證據的文件紀錄來源",
+      "examples": [
+        [
+          "The historian compared several documentary sources.",
+          "歷史學家比較了幾個文獻來源。",
+          "作為研究／歷史證據的文件紀錄來源"
+        ],
+        [
+          "There are few documentary sources from that period.",
+          "那個時期留下的文獻史料很少。",
+          "作為研究／歷史證據的文件紀錄來源"
         ]
       ],
       "options": [],
@@ -783,63 +807,63 @@ export default {
     },
     {
       "id": "documentary-07-0",
-      "sense": "documentary-mcq-06",
+      "sense": "documentary-pdf-001",
       "en": "Please document the procedure carefully.",
       "zh": "請仔細記錄／編寫這個程序。",
       "masked": "Please ____ the procedure carefully.",
       "options": [
-        "documentary-mcq-06",
+        "documentary-pdf-001",
         "documentary-mcq-05",
         "documentary-mcq-07",
         "documentary-mcq-04",
         "documentary-mcq-08",
         "documentary-mcq-03"
       ],
-      "explanation": "本句的「document」指「透過可靠紀錄把某現象或事實記錄並證實」。",
+      "explanation": "本句的「document」指「把流程、方法、決定等寫成可查閱的正式紀錄」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "document"
       ],
       "optionReasons": {
-        "documentary-mcq-06": "本句指「透過可靠紀錄把某現象或事實記錄並證實」。",
+        "documentary-pdf-001": "本句指「把流程、方法、決定等寫成可查閱的正式紀錄」。",
         "documentary-mcq-05": "「有系統地把事件、過程、情況或事實記錄保存」是「document — verb: record」的用法，與本句語境不同。",
         "documentary-mcq-07": "「以真實人物、事件、地方或議題為內容的非虛構影片／節目」是「documentary — noun」的用法，與本句語境不同。",
         "documentary-mcq-04": "「由辦公／文字軟件建立、儲存及編輯的文件檔」是「document — computing」的用法，與本句語境不同。",
         "documentary-mcq-08": "「以真實紀錄、文獻或事實呈現為核心的」是「documentary — adjective」的用法，與本句語境不同。",
         "documentary-mcq-03": "「可作為歷史／研究來源的文獻或史料」是「document — historical」的用法，與本句語境不同。"
       },
-      "correctOption": "documentary-mcq-06"
+      "correctOption": "documentary-pdf-001"
     },
     {
       "id": "documentary-07-1",
-      "sense": "documentary-mcq-06",
+      "sense": "documentary-pdf-001",
       "en": "The team documented every step of the process.",
       "zh": "團隊把整個流程的每一步都記錄下來。",
       "masked": "The team ____ every step of the process.",
       "options": [
-        "documentary-mcq-06",
+        "documentary-pdf-001",
         "documentary-mcq-05",
         "documentary-mcq-07",
         "documentary-mcq-04",
         "documentary-mcq-08",
         "documentary-mcq-03"
       ],
-      "explanation": "本句的「documented」指「透過可靠紀錄把某現象或事實記錄並證實」。",
+      "explanation": "本句的「documented」指「把流程、方法、決定等寫成可查閱的正式紀錄」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "documented"
       ],
       "optionReasons": {
-        "documentary-mcq-06": "本句指「透過可靠紀錄把某現象或事實記錄並證實」。",
+        "documentary-pdf-001": "本句指「把流程、方法、決定等寫成可查閱的正式紀錄」。",
         "documentary-mcq-05": "「有系統地把事件、過程、情況或事實記錄保存」是「document — verb: record」的用法，與本句語境不同。",
         "documentary-mcq-07": "「以真實人物、事件、地方或議題為內容的非虛構影片／節目」是「documentary — noun」的用法，與本句語境不同。",
         "documentary-mcq-04": "「由辦公／文字軟件建立、儲存及編輯的文件檔」是「document — computing」的用法，與本句語境不同。",
         "documentary-mcq-08": "「以真實紀錄、文獻或事實呈現為核心的」是「documentary — adjective」的用法，與本句語境不同。",
         "documentary-mcq-03": "「可作為歷史／研究來源的文獻或史料」是「document — historical」的用法，與本句語境不同。"
       },
-      "correctOption": "documentary-mcq-06"
+      "correctOption": "documentary-pdf-001"
     },
     {
       "id": "documentary-08-0",
@@ -1623,63 +1647,63 @@ export default {
     },
     {
       "id": "documentary-21-0",
-      "sense": "documentary-mcq-16",
+      "sense": "documentary-pdf-002",
       "en": "The historian compared several documentary sources.",
       "zh": "歷史學家比較了幾個文獻來源。",
       "masked": "The historian compared several ____.",
       "options": [
-        "documentary-mcq-16",
+        "documentary-pdf-002",
         "documentary-mcq-15",
         "documentary-mcq-17",
         "documentary-mcq-14",
         "documentary-mcq-13",
         "documentary-mcq-12"
       ],
-      "explanation": "本句的「documentary sources」指「以文件、紀錄或書面材料形式存在的證據」。",
+      "explanation": "本句的「documentary sources」指「作為研究／歷史證據的文件紀錄來源」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "documentary sources"
       ],
       "optionReasons": {
-        "documentary-mcq-16": "本句指「以文件、紀錄或書面材料形式存在的證據」。",
+        "documentary-pdf-002": "本句指「作為研究／歷史證據的文件紀錄來源」。",
         "documentary-mcq-15": "「專門製作紀錄片／紀實作品的人」是「documentarian」的用法，與本句語境不同。",
         "documentary-mcq-17": "「有系統地把某人、某事、過程或證據記錄下來」是「18. documenting = the act of recording — 正在記錄；紀錄工作」的用法，與本句語境不同。",
         "documentary-mcq-14": "「沒有被正式文件、紀錄或說明資料記載的」是「undocumented」的用法，與本句語境不同。",
         "documentary-mcq-13": "「已被可靠資料、研究或文件記錄下來的」是「documented」的用法，與本句語境不同。",
         "documentary-mcq-12": "「說明軟件、API、程式庫或系統如何使用／運作的技術資料」是「documentation — technical」的用法，與本句語境不同。"
       },
-      "correctOption": "documentary-mcq-16"
+      "correctOption": "documentary-pdf-002"
     },
     {
       "id": "documentary-21-1",
-      "sense": "documentary-mcq-16",
+      "sense": "documentary-pdf-002",
       "en": "There are few documentary sources from that period.",
       "zh": "那個時期留下的文獻史料很少。",
       "masked": "There are few ____ sources from that period.",
       "options": [
-        "documentary-mcq-16",
+        "documentary-pdf-002",
         "documentary-mcq-15",
         "documentary-mcq-17",
         "documentary-mcq-14",
         "documentary-mcq-13",
         "documentary-mcq-12"
       ],
-      "explanation": "本句的「documentary」指「以文件、紀錄或書面材料形式存在的證據」。",
+      "explanation": "本句的「documentary」指「作為研究／歷史證據的文件紀錄來源」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "documentary"
       ],
       "optionReasons": {
-        "documentary-mcq-16": "本句指「以文件、紀錄或書面材料形式存在的證據」。",
+        "documentary-pdf-002": "本句指「作為研究／歷史證據的文件紀錄來源」。",
         "documentary-mcq-15": "「專門製作紀錄片／紀實作品的人」是「documentarian」的用法，與本句語境不同。",
         "documentary-mcq-17": "「有系統地把某人、某事、過程或證據記錄下來」是「18. documenting = the act of recording — 正在記錄；紀錄工作」的用法，與本句語境不同。",
         "documentary-mcq-14": "「沒有被正式文件、紀錄或說明資料記載的」是「undocumented」的用法，與本句語境不同。",
         "documentary-mcq-13": "「已被可靠資料、研究或文件記錄下來的」是「documented」的用法，與本句語境不同。",
         "documentary-mcq-12": "「說明軟件、API、程式庫或系統如何使用／運作的技術資料」是「documentation — technical」的用法，與本句語境不同。"
       },
-      "correctOption": "documentary-mcq-16"
+      "correctOption": "documentary-pdf-002"
     }
   ],
   "comparisons": [],

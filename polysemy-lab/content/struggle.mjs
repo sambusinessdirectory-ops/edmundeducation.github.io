@@ -213,16 +213,6 @@ export default {
           "Her struggle between ambition and fear lasted for months.",
           "她在抱負與恐懼之間的內心鬥爭持續了幾個月。",
           "兩種相反的情感、價值或選擇在心中互相衝突"
-        ],
-        [
-          "She struggled with herself before replying.",
-          "她回答前經歷了一番內心掙扎。",
-          "兩種相反的情感、價值或選擇在心中互相衝突"
-        ],
-        [
-          "He was clearly struggling with himself.",
-          "他顯然正在內心掙扎。",
-          "兩種相反的情感、價值或選擇在心中互相衝突"
         ]
       ],
       "options": [],
@@ -267,16 +257,6 @@ export default {
           "They faced a tough struggle for first place.",
           "他們為第一名展開了一場艱苦的競爭。",
           "在困難／實力接近情況下進行的艱苦競爭"
-        ],
-        [
-          "They struggled through the deep snow.",
-          "他們在深雪中艱難前進。",
-          "在困難／實力接近情況下進行的艱苦競爭"
-        ],
-        [
-          "He struggled up the stairs with the heavy box.",
-          "他拿著沉重箱子，吃力地走上樓梯。",
-          "在困難／實力接近情況下進行的艱苦競爭"
         ]
       ],
       "options": [],
@@ -299,6 +279,50 @@ export default {
           "She struggled through the final week of exams.",
           "她艱難捱過考試的最後一星期。",
           "在很困難的情況下勉強完成／捱過"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "struggle-pdf-001",
+      "title": "因兩種相反想法／欲望而難以下決定",
+      "form": "11. struggle with oneself = 內心掙扎",
+      "en": "11. struggle with oneself = 內心掙扎",
+      "zh": "因兩種相反想法／欲望而難以下決定",
+      "note": "原始 PDF 第 11 節：因兩種相反想法／欲望而難以下決定",
+      "examples": [
+        [
+          "She struggled with herself before replying.",
+          "她回答前經歷了一番內心掙扎。",
+          "因兩種相反想法／欲望而難以下決定"
+        ],
+        [
+          "He was clearly struggling with himself.",
+          "他顯然正在內心掙扎。",
+          "因兩種相反想法／欲望而難以下決定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "struggle-pdf-002",
+      "title": "因阻力、疲勞或困難而費力移動",
+      "form": "16. struggle = make slow/difficult progress — 艱難前進；費力移動",
+      "en": "16. struggle = make slow/difficult progress — 艱難前進；費力移動",
+      "zh": "因阻力、疲勞或困難而費力移動",
+      "note": "原始 PDF 第 16 節：因阻力、疲勞或困難而費力移動",
+      "examples": [
+        [
+          "They struggled through the deep snow.",
+          "他們在深雪中艱難前進。",
+          "因阻力、疲勞或困難而費力移動"
+        ],
+        [
+          "He struggled up the stairs with the heavy box.",
+          "他拿著沉重箱子，吃力地走上樓梯。",
+          "因阻力、疲勞或困難而費力移動"
         ]
       ],
       "options": [],
@@ -938,63 +962,63 @@ export default {
     },
     {
       "id": "struggle-11-0",
-      "sense": "struggle-mcq-09",
+      "sense": "struggle-pdf-001",
       "en": "She struggled with herself before replying.",
       "zh": "她回答前經歷了一番內心掙扎。",
       "masked": "She ____ with herself before replying.",
       "options": [
-        "struggle-mcq-09",
+        "struggle-pdf-001",
         "struggle-mcq-08",
         "struggle-mcq-10",
         "struggle-mcq-07",
         "struggle-mcq-11",
         "struggle-mcq-06"
       ],
-      "explanation": "本句的「struggled」指「兩種相反的情感、價值或選擇在心中互相衝突」。",
+      "explanation": "本句的「struggled」指「因兩種相反想法／欲望而難以下決定」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-09": "本句指「兩種相反的情感、價值或選擇在心中互相衝突」。",
+        "struggle-pdf-001": "本句指「因兩種相反想法／欲望而難以下決定」。",
         "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
         "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
         "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
         "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
         "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
       },
-      "correctOption": "struggle-mcq-09"
+      "correctOption": "struggle-pdf-001"
     },
     {
       "id": "struggle-11-1",
-      "sense": "struggle-mcq-09",
+      "sense": "struggle-pdf-001",
       "en": "He was clearly struggling with himself.",
       "zh": "他顯然正在內心掙扎。",
       "masked": "He was clearly ____ with himself.",
       "options": [
-        "struggle-mcq-09",
+        "struggle-pdf-001",
         "struggle-mcq-08",
         "struggle-mcq-10",
         "struggle-mcq-07",
         "struggle-mcq-11",
         "struggle-mcq-06"
       ],
-      "explanation": "本句的「struggling」指「兩種相反的情感、價值或選擇在心中互相衝突」。",
+      "explanation": "本句的「struggling」指「因兩種相反想法／欲望而難以下決定」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "struggling"
       ],
       "optionReasons": {
-        "struggle-mcq-09": "本句指「兩種相反的情感、價值或選擇在心中互相衝突」。",
+        "struggle-pdf-001": "本句指「因兩種相反想法／欲望而難以下決定」。",
         "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
         "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
         "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
         "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
         "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
       },
-      "correctOption": "struggle-mcq-09"
+      "correctOption": "struggle-pdf-001"
     },
     {
       "id": "struggle-12-0",
@@ -1118,63 +1142,63 @@ export default {
     },
     {
       "id": "struggle-16-0",
-      "sense": "struggle-mcq-11",
+      "sense": "struggle-pdf-002",
       "en": "They struggled through the deep snow.",
       "zh": "他們在深雪中艱難前進。",
       "masked": "They ____ the deep snow.",
       "options": [
-        "struggle-mcq-11",
+        "struggle-pdf-002",
         "struggle-mcq-10",
         "struggle-mcq-12",
         "struggle-mcq-09",
         "struggle-mcq-08",
         "struggle-mcq-07"
       ],
-      "explanation": "本句的「struggled through」指「在困難／實力接近情況下進行的艱苦競爭」。",
+      "explanation": "本句的「struggled through」指「因阻力、疲勞或困難而費力移動」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "struggled through"
       ],
       "optionReasons": {
-        "struggle-mcq-11": "本句指「在困難／實力接近情況下進行的艱苦競爭」。",
+        "struggle-pdf-002": "本句指「因阻力、疲勞或困難而費力移動」。",
         "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
         "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
         "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
         "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
         "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
       },
-      "correctOption": "struggle-mcq-11"
+      "correctOption": "struggle-pdf-002"
     },
     {
       "id": "struggle-16-1",
-      "sense": "struggle-mcq-11",
+      "sense": "struggle-pdf-002",
       "en": "He struggled up the stairs with the heavy box.",
       "zh": "他拿著沉重箱子，吃力地走上樓梯。",
       "masked": "He ____ up the stairs with the heavy box.",
       "options": [
-        "struggle-mcq-11",
+        "struggle-pdf-002",
         "struggle-mcq-10",
         "struggle-mcq-12",
         "struggle-mcq-09",
         "struggle-mcq-08",
         "struggle-mcq-07"
       ],
-      "explanation": "本句的「struggled」指「在困難／實力接近情況下進行的艱苦競爭」。",
+      "explanation": "本句的「struggled」指「因阻力、疲勞或困難而費力移動」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-11": "本句指「在困難／實力接近情況下進行的艱苦競爭」。",
+        "struggle-pdf-002": "本句指「因阻力、疲勞或困難而費力移動」。",
         "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
         "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
         "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
         "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
         "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
       },
-      "correctOption": "struggle-mcq-11"
+      "correctOption": "struggle-pdf-002"
     },
     {
       "id": "struggle-17-0",

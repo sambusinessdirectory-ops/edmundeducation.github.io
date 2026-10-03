@@ -355,16 +355,28 @@ export default {
           "The design has a certain particularity.",
           "這個設計有某種獨特之處。",
           "特殊性；獨特之處"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "particular-pdf-001",
+      "title": "只在 X 中出現或與 X 特別相關",
+      "form": "19. particular to something — 某事物特有的",
+      "en": "19. particular to something — 某事物特有的",
+      "zh": "只在 X 中出現或與 X 特別相關",
+      "note": "原始 PDF 第 19 節：只在 X 中出現或與 X 特別相關",
+      "examples": [
         [
           "This problem is particular to older buildings.",
           "這個問題是舊建築特有的。",
-          "特殊性；獨特之處"
+          "只在 X 中出現或與 X 特別相關"
         ],
         [
           "The custom is particular to this region.",
           "這個習俗是這個地區特有的。",
-          "特殊性；獨特之處"
+          "只在 X 中出現或與 X 特別相關"
         ]
       ],
       "options": [],
@@ -1424,63 +1436,63 @@ export default {
     },
     {
       "id": "particular-19-0",
-      "sense": "particular-mcq-15",
+      "sense": "particular-pdf-001",
       "en": "This problem is particular to older buildings.",
       "zh": "這個問題是舊建築特有的。",
       "masked": "This problem is ____.",
       "options": [
-        "particular-mcq-15",
+        "particular-pdf-001",
         "particular-mcq-14",
         "particular-mcq-13",
         "particular-mcq-12",
         "particular-mcq-11",
         "particular-mcq-10"
       ],
-      "explanation": "本句的「particular to older buildings」指「特殊性；獨特之處」。",
+      "explanation": "本句的「particular to older buildings」指「只在 X 中出現或與 X 特別相關」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "particular to older buildings"
       ],
       "optionReasons": {
-        "particular-mcq-15": "本句指「特殊性；獨特之處」。",
+        "particular-pdf-001": "本句指「只在 X 中出現或與 X 特別相關」。",
         "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
         "particular-mcq-13": "「特別；尤其」與本句語境不同。",
         "particular-mcq-12": "「個人資料」與本句語境不同。",
         "particular-mcq-11": "「詳情；資料」與本句語境不同。",
         "particular-mcq-10": "「X 特有的」與本句語境不同。"
       },
-      "correctOption": "particular-mcq-15"
+      "correctOption": "particular-pdf-001"
     },
     {
       "id": "particular-19-1",
-      "sense": "particular-mcq-15",
+      "sense": "particular-pdf-001",
       "en": "The custom is particular to this region.",
       "zh": "這個習俗是這個地區特有的。",
       "masked": "The custom is ____.",
       "options": [
-        "particular-mcq-15",
+        "particular-pdf-001",
         "particular-mcq-14",
         "particular-mcq-13",
         "particular-mcq-12",
         "particular-mcq-11",
         "particular-mcq-10"
       ],
-      "explanation": "本句的「particular to this region」指「特殊性；獨特之處」。",
+      "explanation": "本句的「particular to this region」指「只在 X 中出現或與 X 特別相關」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "particular to this region"
       ],
       "optionReasons": {
-        "particular-mcq-15": "本句指「特殊性；獨特之處」。",
+        "particular-pdf-001": "本句指「只在 X 中出現或與 X 特別相關」。",
         "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
         "particular-mcq-13": "「特別；尤其」與本句語境不同。",
         "particular-mcq-12": "「個人資料」與本句語境不同。",
         "particular-mcq-11": "「詳情；資料」與本句語境不同。",
         "particular-mcq-10": "「X 特有的」與本句語境不同。"
       },
-      "correctOption": "particular-mcq-15"
+      "correctOption": "particular-pdf-001"
     }
   ],
   "comparisons": [],

@@ -159,16 +159,6 @@ export default {
           "The project became increasingly complex as more teams joined.",
           "隨着更多團隊加入，項目變得愈來愈複雜。",
           "愈來愈複雜"
-        ],
-        [
-          "This is a highly complex technical problem.",
-          "這是一個高度複雜的技術問題。",
-          "愈來愈複雜"
-        ],
-        [
-          "The organisation has a highly complex structure.",
-          "這個機構的架構非常複雜。",
-          "愈來愈複雜"
         ]
       ],
       "options": [],
@@ -488,6 +478,28 @@ export default {
           "Several proteins combine to form the complex.",
           "數種蛋白質結合形成這個複合體。",
           "蛋白質複合體"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "complex-pdf-001",
+      "title": "涉及非常多元素或關係，因此特別難處理的",
+      "form": "8. highly complex — 高度複雜的",
+      "en": "8. highly complex — 高度複雜的",
+      "zh": "涉及非常多元素或關係，因此特別難處理的",
+      "note": "原始 PDF 第 8 節：涉及非常多元素或關係，因此特別難處理的",
+      "examples": [
+        [
+          "This is a highly complex technical problem.",
+          "這是一個高度複雜的技術問題。",
+          "涉及非常多元素或關係，因此特別難處理的"
+        ],
+        [
+          "The organisation has a highly complex structure.",
+          "這個機構的架構非常複雜。",
+          "涉及非常多元素或關係，因此特別難處理的"
         ]
       ],
       "options": [],
@@ -947,63 +959,63 @@ export default {
     },
     {
       "id": "complex-08-0",
-      "sense": "complex-mcq-07",
+      "sense": "complex-pdf-001",
       "en": "This is a highly complex technical problem.",
       "zh": "這是一個高度複雜的技術問題。",
       "masked": "This is a ____ technical problem.",
       "options": [
-        "complex-mcq-07",
+        "complex-pdf-001",
         "complex-mcq-06",
         "complex-mcq-08",
         "complex-mcq-05",
         "complex-mcq-09",
         "complex-mcq-04"
       ],
-      "explanation": "本句的「highly complex」指「愈來愈複雜」。",
+      "explanation": "本句的「highly complex」指「涉及非常多元素或關係，因此特別難處理的」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "highly complex"
       ],
       "optionReasons": {
-        "complex-mcq-07": "本句指「愈來愈複雜」。",
+        "complex-pdf-001": "本句指「涉及非常多元素或關係，因此特別難處理的」。",
         "complex-mcq-06": "「複雜關係」與本句語境不同。",
         "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
         "complex-mcq-05": "「複雜過程」與本句語境不同。",
         "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
         "complex-mcq-04": "「複雜系統」與本句語境不同。"
       },
-      "correctOption": "complex-mcq-07"
+      "correctOption": "complex-pdf-001"
     },
     {
       "id": "complex-08-1",
-      "sense": "complex-mcq-07",
+      "sense": "complex-pdf-001",
       "en": "The organisation has a highly complex structure.",
       "zh": "這個機構的架構非常複雜。",
       "masked": "The organisation has a ____ structure.",
       "options": [
-        "complex-mcq-07",
+        "complex-pdf-001",
         "complex-mcq-06",
         "complex-mcq-08",
         "complex-mcq-05",
         "complex-mcq-09",
         "complex-mcq-04"
       ],
-      "explanation": "本句的「highly complex」指「愈來愈複雜」。",
+      "explanation": "本句的「highly complex」指「涉及非常多元素或關係，因此特別難處理的」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "highly complex"
       ],
       "optionReasons": {
-        "complex-mcq-07": "本句指「愈來愈複雜」。",
+        "complex-pdf-001": "本句指「涉及非常多元素或關係，因此特別難處理的」。",
         "complex-mcq-06": "「複雜關係」與本句語境不同。",
         "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
         "complex-mcq-05": "「複雜過程」與本句語境不同。",
         "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
         "complex-mcq-04": "「複雜系統」與本句語境不同。"
       },
-      "correctOption": "complex-mcq-07"
+      "correctOption": "complex-pdf-001"
     },
     {
       "id": "complex-09-0",

@@ -117,16 +117,6 @@ export default {
       "note": "來源詞義：進度落後",
       "examples": [
         [
-          "I'm behind in my coursework.",
-          "我的課業進度落後。",
-          "進度落後"
-        ],
-        [
-          "He is several chapters behind.",
-          "他的進度落後了幾章。",
-          "進度落後"
-        ],
-        [
           "The project is behind schedule.",
           "項目進度落後。",
           "進度落後"
@@ -724,6 +714,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "behind-pdf-001",
+      "title": "在 X 的進度上未達到應有水平",
+      "form": "6. be behind in work / study — 工作／學習進度落後",
+      "en": "6. be behind in work / study — 工作／學習進度落後",
+      "zh": "在 X 的進度上未達到應有水平",
+      "note": "原始 PDF 第 6 節：在 X 的進度上未達到應有水平",
+      "examples": [
+        [
+          "I'm behind in my coursework.",
+          "我的課業進度落後。",
+          "在 X 的進度上未達到應有水平"
+        ],
+        [
+          "He is several chapters behind.",
+          "他的進度落後了幾章。",
+          "在 X 的進度上未達到應有水平"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1059,63 +1071,63 @@ export default {
     },
     {
       "id": "behind-06-0",
-      "sense": "behind-mcq-05",
+      "sense": "behind-pdf-001",
       "en": "I'm behind in my coursework.",
       "zh": "我的課業進度落後。",
       "masked": "I'm ____.",
       "options": [
-        "behind-mcq-05",
+        "behind-pdf-001",
         "behind-mcq-04",
         "behind-mcq-06",
         "behind-mcq-03",
         "behind-mcq-07",
         "behind-mcq-02"
       ],
-      "explanation": "本句的「behind in my coursework」指「進度落後」。",
+      "explanation": "本句的「behind in my coursework」指「在 X 的進度上未達到應有水平」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "behind in my coursework"
       ],
       "optionReasons": {
-        "behind-mcq-05": "本句指「進度落後」。",
+        "behind-pdf-001": "本句指「在 X 的進度上未達到應有水平」。",
         "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
         "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
         "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
         "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
         "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。"
       },
-      "correctOption": "behind-mcq-05"
+      "correctOption": "behind-pdf-001"
     },
     {
       "id": "behind-06-1",
-      "sense": "behind-mcq-05",
+      "sense": "behind-pdf-001",
       "en": "He is several chapters behind.",
       "zh": "他的進度落後了幾章。",
       "masked": "He is several chapters ____.",
       "options": [
-        "behind-mcq-05",
+        "behind-pdf-001",
         "behind-mcq-04",
         "behind-mcq-06",
         "behind-mcq-03",
         "behind-mcq-07",
         "behind-mcq-02"
       ],
-      "explanation": "本句的「behind」指「進度落後」。",
+      "explanation": "本句的「behind」指「在 X 的進度上未達到應有水平」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-05": "本句指「進度落後」。",
+        "behind-pdf-001": "本句指「在 X 的進度上未達到應有水平」。",
         "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
         "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
         "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
         "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
         "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。"
       },
-      "correctOption": "behind-mcq-05"
+      "correctOption": "behind-pdf-001"
     },
     {
       "id": "behind-07-0",

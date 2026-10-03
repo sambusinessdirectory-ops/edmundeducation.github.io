@@ -227,16 +227,6 @@ export default {
       "note": "來源詞義：某個特定群體中的每一個個體",
       "examples": [
         [
-          "She used every bit of space.",
-          "她充分利用了每一點空間。",
-          "某個特定群體中的每一個個體"
-        ],
-        [
-          "Every detail of the painting matters.",
-          "這幅畫的每一個細節都很重要。",
-          "某個特定群體中的每一個個體"
-        ],
-        [
           "Every one of the paintings was different.",
           "那些畫作中每一幅都不同。",
           "某個特定群體中的每一個個體"
@@ -397,6 +387,28 @@ export default {
           "The branches were growing every which way.",
           "樹枝亂七八糟地向各個方向生長。",
           "每隔一段時間；偶爾"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "every-pdf-001",
+      "title": "強調某個整體中連最小部分也全部包括",
+      "form": "11. every bit / every inch / every detail = 每一點／每一寸／每個細節",
+      "en": "11. every bit / every inch / every detail = 每一點／每一寸／每個細節",
+      "zh": "強調某個整體中連最小部分也全部包括",
+      "note": "原始 PDF 第 11 節：強調某個整體中連最小部分也全部包括",
+      "examples": [
+        [
+          "She used every bit of space.",
+          "她充分利用了每一點空間。",
+          "強調某個整體中連最小部分也全部包括"
+        ],
+        [
+          "Every detail of the painting matters.",
+          "這幅畫的每一個細節都很重要。",
+          "強調某個整體中連最小部分也全部包括"
         ]
       ],
       "options": [],
@@ -1036,63 +1048,63 @@ export default {
     },
     {
       "id": "every-11-0",
-      "sense": "every-mcq-10",
+      "sense": "every-pdf-001",
       "en": "She used every bit of space.",
       "zh": "她充分利用了每一點空間。",
       "masked": "She used ____.",
       "options": [
-        "every-mcq-10",
+        "every-pdf-001",
         "every-mcq-09",
         "every-mcq-11",
         "every-mcq-08",
         "every-mcq-12",
         "every-mcq-07"
       ],
-      "explanation": "本句的「every bit of space」指「某個特定群體中的每一個個體」。",
+      "explanation": "本句的「every bit of space」指「強調某個整體中連最小部分也全部包括」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "every bit of space"
       ],
       "optionReasons": {
-        "every-mcq-10": "本句指「某個特定群體中的每一個個體」。",
+        "every-pdf-001": "本句指「強調某個整體中連最小部分也全部包括」。",
         "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
         "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
         "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
         "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
         "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。"
       },
-      "correctOption": "every-mcq-10"
+      "correctOption": "every-pdf-001"
     },
     {
       "id": "every-11-1",
-      "sense": "every-mcq-10",
+      "sense": "every-pdf-001",
       "en": "Every detail of the painting matters.",
       "zh": "這幅畫的每一個細節都很重要。",
       "masked": "____ detail of the painting matters.",
       "options": [
-        "every-mcq-10",
+        "every-pdf-001",
         "every-mcq-09",
         "every-mcq-11",
         "every-mcq-08",
         "every-mcq-12",
         "every-mcq-07"
       ],
-      "explanation": "本句的「Every」指「某個特定群體中的每一個個體」。",
+      "explanation": "本句的「Every」指「強調某個整體中連最小部分也全部包括」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "Every"
       ],
       "optionReasons": {
-        "every-mcq-10": "本句指「某個特定群體中的每一個個體」。",
+        "every-pdf-001": "本句指「強調某個整體中連最小部分也全部包括」。",
         "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
         "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
         "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
         "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
         "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。"
       },
-      "correctOption": "every-mcq-10"
+      "correctOption": "every-pdf-001"
     },
     {
       "id": "every-12-0",

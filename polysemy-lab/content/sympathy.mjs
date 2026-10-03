@@ -12,23 +12,7 @@ export default {
       "en": "sympathy — compassion",
       "zh": "因別人的痛苦／困境而產生的同情、關懷和體諒",
       "note": "來源詞義：因別人的痛苦／困境而產生的同情、關懷和體諒",
-      "examples": [
-        [
-          "We can feel sympathy for students who have nowhere quiet to study.",
-          "對於沒有安靜地方學習的學生，我們可以表示同情／體諒。",
-          "因別人的痛苦／困境而產生的同情、關懷和體諒"
-        ],
-        [
-          "She felt great sympathy for the family.",
-          "她十分同情那個家庭。",
-          "因別人的痛苦／困境而產生的同情、關懷和體諒"
-        ],
-        [
-          "His situation deserves our sympathy.",
-          "他的處境值得我們同情。",
-          "因別人的痛苦／困境而產生的同情、關懷和體諒"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -532,98 +516,125 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "sympathy-pdf-001",
+      "title": "知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒",
+      "form": "1. sympathy = feelings of sorrow and concern for someone in difficulty（同情） — 同情；憐",
+      "en": "1. sympathy = feelings of sorrow and concern for someone in difficulty（同情） — 同情；憐",
+      "zh": "知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒",
+      "note": "原始 PDF 第 1 節：知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒",
+      "examples": [
+        [
+          "We can feel sympathy for students who have nowhere quiet to study.",
+          "對於沒有安靜地方學習的學生，我們可以表示同情／體諒。",
+          "知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒"
+        ],
+        [
+          "She felt great sympathy for the family.",
+          "她十分同情那個家庭。",
+          "知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒"
+        ],
+        [
+          "His situation deserves our sympathy.",
+          "他的處境值得我們同情。",
+          "知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "sympathy-01-0",
-      "sense": "sympathy-mcq-01",
+      "sense": "sympathy-pdf-001",
       "en": "We can feel sympathy for students who have nowhere quiet to study.",
       "zh": "對於沒有安靜地方學習的學生，我們可以表示同情／體諒。",
       "masked": "We can feel ____ for students who have nowhere quiet to study.",
       "options": [
-        "sympathy-mcq-01",
+        "sympathy-pdf-001",
         "sympathy-mcq-02",
         "sympathy-mcq-03",
         "sympathy-mcq-04",
         "sympathy-mcq-05",
         "sympathy-mcq-06"
       ],
-      "explanation": "本句的「sympathy」指「因別人的痛苦／困境而產生的同情、關懷和體諒」。",
+      "explanation": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-01": "本句指「因別人的痛苦／困境而產生的同情、關懷和體諒」。",
+        "sympathy-pdf-001": "本句指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
         "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
         "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
         "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
         "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
         "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
       },
-      "correctOption": "sympathy-mcq-01"
+      "correctOption": "sympathy-pdf-001"
     },
     {
       "id": "sympathy-01-1",
-      "sense": "sympathy-mcq-01",
+      "sense": "sympathy-pdf-001",
       "en": "She felt great sympathy for the family.",
       "zh": "她十分同情那個家庭。",
       "masked": "She felt great ____ for the family.",
       "options": [
-        "sympathy-mcq-01",
+        "sympathy-pdf-001",
         "sympathy-mcq-02",
         "sympathy-mcq-03",
         "sympathy-mcq-04",
         "sympathy-mcq-05",
         "sympathy-mcq-06"
       ],
-      "explanation": "本句的「sympathy」指「因別人的痛苦／困境而產生的同情、關懷和體諒」。",
+      "explanation": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-01": "本句指「因別人的痛苦／困境而產生的同情、關懷和體諒」。",
+        "sympathy-pdf-001": "本句指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
         "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
         "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
         "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
         "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
         "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
       },
-      "correctOption": "sympathy-mcq-01"
+      "correctOption": "sympathy-pdf-001"
     },
     {
       "id": "sympathy-01-2",
-      "sense": "sympathy-mcq-01",
+      "sense": "sympathy-pdf-001",
       "en": "His situation deserves our sympathy.",
       "zh": "他的處境值得我們同情。",
       "masked": "His situation deserves our ____.",
       "options": [
-        "sympathy-mcq-01",
+        "sympathy-pdf-001",
         "sympathy-mcq-02",
         "sympathy-mcq-03",
         "sympathy-mcq-04",
         "sympathy-mcq-05",
         "sympathy-mcq-06"
       ],
-      "explanation": "本句的「sympathy」指「因別人的痛苦／困境而產生的同情、關懷和體諒」。",
+      "explanation": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-01": "本句指「因別人的痛苦／困境而產生的同情、關懷和體諒」。",
+        "sympathy-pdf-001": "本句指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
         "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
         "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
         "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
         "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
         "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
       },
-      "correctOption": "sympathy-mcq-01"
+      "correctOption": "sympathy-pdf-001"
     },
     {
       "id": "sympathy-02-0",

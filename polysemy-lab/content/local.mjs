@@ -69,21 +69,6 @@ export default {
       "note": "來源詞義：居住在某地並熟悉當地的人",
       "examples": [
         [
-          "The bakery has built a niche in the local area.",
-          "這間麵包店在本區／當地一帶建立了自己的特色定位。",
-          "居住在某地並熟悉當地的人"
-        ],
-        [
-          "Local shops depend on regular customers.",
-          "本地商店很依賴熟客。",
-          "居住在某地並熟悉當地的人"
-        ],
-        [
-          "She knows the local neighbourhood well.",
-          "她很熟悉當地社區。",
-          "居住在某地並熟悉當地的人"
-        ],
-        [
           "The café is popular with locals.",
           "這間咖啡店很受當地人歡迎。",
           "居住在某地並熟悉當地的人"
@@ -101,16 +86,6 @@ export default {
         [
           "The locals know which cafés are best.",
           "當地人知道哪些咖啡店最好。",
-          "居住在某地並熟悉當地的人"
-        ],
-        [
-          "She joined the local branch of the organisation.",
-          "她加入了該組織的本地分部。",
-          "居住在某地並熟悉當地的人"
-        ],
-        [
-          "The local office handles customer enquiries.",
-          "地方辦事處負責處理客戶查詢。",
           "居住在某地並熟悉當地的人"
         ]
       ],
@@ -169,16 +144,6 @@ export default {
       "zh": "服務較小地區或停站較多、非快速／長途的",
       "note": "來源詞義：服務較小地區或停站較多、非快速／長途的",
       "examples": [
-        [
-          "The local authority approved the plan.",
-          "地方政府機構批准了這個計劃。",
-          "服務較小地區或停站較多、非快速／長途的"
-        ],
-        [
-          "Businesses must follow local authority regulations.",
-          "企業必須遵守地方主管機關的規定。",
-          "服務較小地區或停站較多、非快速／長途的"
-        ],
         [
           "Take the local train, not the express.",
           "乘搭普通站站停列車／區間車，不要搭快車。",
@@ -300,16 +265,6 @@ export default {
       "note": "來源詞義：在本地；或在特定局部／本機範圍內",
       "examples": [
         [
-          "The bread is made locally.",
-          "這些麵包是本地製作的。",
-          "在本地；或在特定局部／本機範圍內"
-        ],
-        [
-          "Most ingredients are sourced locally.",
-          "大部分食材都是在本地採購的。",
-          "在本地；或在特定局部／本機範圍內"
-        ],
-        [
           "The cream works locally on the skin.",
           "這種藥膏只在皮膚上局部發揮作用。",
           "在本地；或在特定局部／本機範圍內"
@@ -366,98 +321,191 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "local-pdf-001",
+      "title": "與某個特定附近地區有關，而不是較遠地方或全國性的",
+      "form": "1. local = relating to a nearby place/area — 本地的；當地的",
+      "en": "1. local = relating to a nearby place/area — 本地的；當地的",
+      "zh": "與某個特定附近地區有關，而不是較遠地方或全國性的",
+      "note": "原始 PDF 第 1 節：與某個特定附近地區有關，而不是較遠地方或全國性的",
+      "examples": [
+        [
+          "The bakery has built a niche in the local area.",
+          "這間麵包店在本區／當地一帶建立了自己的特色定位。",
+          "與某個特定附近地區有關，而不是較遠地方或全國性的"
+        ],
+        [
+          "Local shops depend on regular customers.",
+          "本地商店很依賴熟客。",
+          "與某個特定附近地區有關，而不是較遠地方或全國性的"
+        ],
+        [
+          "She knows the local neighbourhood well.",
+          "她很熟悉當地社區。",
+          "與某個特定附近地區有關，而不是較遠地方或全國性的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "local-pdf-002",
+      "title": "負責某地區公共行政的地方政府單位",
+      "form": "8. local authority = 地方政府機構；地方主管機關",
+      "en": "8. local authority = 地方政府機構；地方主管機關",
+      "zh": "負責某地區公共行政的地方政府單位",
+      "note": "原始 PDF 第 8 節：負責某地區公共行政的地方政府單位",
+      "examples": [
+        [
+          "The local authority approved the plan.",
+          "地方政府機構批准了這個計劃。",
+          "負責某地區公共行政的地方政府單位"
+        ],
+        [
+          "Businesses must follow local authority regulations.",
+          "企業必須遵守地方主管機關的規定。",
+          "負責某地區公共行政的地方政府單位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "local-pdf-003",
+      "title": "屬於較大型組織、但負責某一地區的",
+      "form": "16. local = nearby branch/version of a wider organisation — 地方分部的；本地支部的",
+      "en": "16. local = nearby branch/version of a wider organisation — 地方分部的；本地支部的",
+      "zh": "屬於較大型組織、但負責某一地區的",
+      "note": "原始 PDF 第 16 節：屬於較大型組織、但負責某一地區的",
+      "examples": [
+        [
+          "She joined the local branch of the organisation.",
+          "她加入了該組織的本地分部。",
+          "屬於較大型組織、但負責某一地區的"
+        ],
+        [
+          "The local office handles customer enquiries.",
+          "地方辦事處負責處理客戶查詢。",
+          "屬於較大型組織、但負責某一地區的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "local-pdf-004",
+      "title": "在附近地區／本地進行或取得",
+      "form": "17. locally = in the nearby area — 在本地；當地",
+      "en": "17. locally = in the nearby area — 在本地；當地",
+      "zh": "在附近地區／本地進行或取得",
+      "note": "原始 PDF 第 17 節：在附近地區／本地進行或取得",
+      "examples": [
+        [
+          "The bread is made locally.",
+          "這些麵包是本地製作的。",
+          "在附近地區／本地進行或取得"
+        ],
+        [
+          "Most ingredients are sourced locally.",
+          "大部分食材都是在本地採購的。",
+          "在附近地區／本地進行或取得"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "local-01-0",
-      "sense": "local-mcq-04",
+      "sense": "local-pdf-001",
       "en": "The bakery has built a niche in the local area.",
       "zh": "這間麵包店在本區／當地一帶建立了自己的特色定位。",
       "masked": "The bakery has built a niche in the ____.",
       "options": [
-        "local-mcq-04",
+        "local-pdf-001",
         "local-mcq-03",
         "local-mcq-05",
         "local-mcq-02",
         "local-mcq-06",
         "local-mcq-01"
       ],
-      "explanation": "本句的「local area」指「居住在某地並熟悉當地的人」。",
+      "explanation": "本句的「local area」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "local area"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
+        "local-pdf-001": "本句指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
         "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-04"
+      "correctOption": "local-pdf-001"
     },
     {
       "id": "local-01-1",
-      "sense": "local-mcq-04",
+      "sense": "local-pdf-001",
       "en": "Local shops depend on regular customers.",
       "zh": "本地商店很依賴熟客。",
       "masked": "____ shops depend on regular customers.",
       "options": [
-        "local-mcq-04",
+        "local-pdf-001",
         "local-mcq-03",
         "local-mcq-05",
         "local-mcq-02",
         "local-mcq-06",
         "local-mcq-01"
       ],
-      "explanation": "本句的「Local」指「居住在某地並熟悉當地的人」。",
+      "explanation": "本句的「Local」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "Local"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
+        "local-pdf-001": "本句指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
         "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-04"
+      "correctOption": "local-pdf-001"
     },
     {
       "id": "local-01-2",
-      "sense": "local-mcq-04",
+      "sense": "local-pdf-001",
       "en": "She knows the local neighbourhood well.",
       "zh": "她很熟悉當地社區。",
       "masked": "She knows the ____ neighbourhood well.",
       "options": [
-        "local-mcq-04",
+        "local-pdf-001",
         "local-mcq-03",
         "local-mcq-05",
         "local-mcq-02",
         "local-mcq-06",
         "local-mcq-01"
       ],
-      "explanation": "本句的「local」指「居住在某地並熟悉當地的人」。",
+      "explanation": "本句的「local」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "local"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
+        "local-pdf-001": "本句指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
         "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-04"
+      "correctOption": "local-pdf-001"
     },
     {
       "id": "local-02-0",
@@ -821,63 +869,63 @@ export default {
     },
     {
       "id": "local-08-0",
-      "sense": "local-mcq-07",
+      "sense": "local-pdf-002",
       "en": "The local authority approved the plan.",
       "zh": "地方政府機構批准了這個計劃。",
       "masked": "The ____ approved the plan.",
       "options": [
-        "local-mcq-07",
+        "local-pdf-002",
         "local-mcq-06",
         "local-mcq-08",
         "local-mcq-05",
         "local-mcq-09",
         "local-mcq-04"
       ],
-      "explanation": "本句的「local authority」指「服務較小地區或停站較多、非快速／長途的」。",
+      "explanation": "本句的「local authority」指「負責某地區公共行政的地方政府單位」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "local authority"
       ],
       "optionReasons": {
-        "local-mcq-07": "本句指「服務較小地區或停站較多、非快速／長途的」。",
+        "local-pdf-002": "本句指「負責某地區公共行政的地方政府單位」。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
         "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。"
       },
-      "correctOption": "local-mcq-07"
+      "correctOption": "local-pdf-002"
     },
     {
       "id": "local-08-1",
-      "sense": "local-mcq-07",
+      "sense": "local-pdf-002",
       "en": "Businesses must follow local authority regulations.",
       "zh": "企業必須遵守地方主管機關的規定。",
       "masked": "Businesses must follow ____ authority regulations.",
       "options": [
-        "local-mcq-07",
+        "local-pdf-002",
         "local-mcq-06",
         "local-mcq-08",
         "local-mcq-05",
         "local-mcq-09",
         "local-mcq-04"
       ],
-      "explanation": "本句的「local」指「服務較小地區或停站較多、非快速／長途的」。",
+      "explanation": "本句的「local」指「負責某地區公共行政的地方政府單位」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "local"
       ],
       "optionReasons": {
-        "local-mcq-07": "本句指「服務較小地區或停站較多、非快速／長途的」。",
+        "local-pdf-002": "本句指「負責某地區公共行政的地方政府單位」。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
         "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。"
       },
-      "correctOption": "local-mcq-07"
+      "correctOption": "local-pdf-002"
     },
     {
       "id": "local-09-0",
@@ -1241,123 +1289,123 @@ export default {
     },
     {
       "id": "local-16-0",
-      "sense": "local-mcq-04",
+      "sense": "local-pdf-003",
       "en": "She joined the local branch of the organisation.",
       "zh": "她加入了該組織的本地分部。",
       "masked": "She joined the ____ of the organisation.",
       "options": [
-        "local-mcq-04",
+        "local-pdf-003",
         "local-mcq-03",
         "local-mcq-05",
         "local-mcq-02",
         "local-mcq-06",
         "local-mcq-01"
       ],
-      "explanation": "本句的「local branch」指「居住在某地並熟悉當地的人」。",
+      "explanation": "本句的「local branch」指「屬於較大型組織、但負責某一地區的」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "local branch"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
+        "local-pdf-003": "本句指「屬於較大型組織、但負責某一地區的」。",
         "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-04"
+      "correctOption": "local-pdf-003"
     },
     {
       "id": "local-16-1",
-      "sense": "local-mcq-04",
+      "sense": "local-pdf-003",
       "en": "The local office handles customer enquiries.",
       "zh": "地方辦事處負責處理客戶查詢。",
       "masked": "The ____ office handles customer enquiries.",
       "options": [
-        "local-mcq-04",
+        "local-pdf-003",
         "local-mcq-03",
         "local-mcq-05",
         "local-mcq-02",
         "local-mcq-06",
         "local-mcq-01"
       ],
-      "explanation": "本句的「local」指「居住在某地並熟悉當地的人」。",
+      "explanation": "本句的「local」指「屬於較大型組織、但負責某一地區的」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "local"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
+        "local-pdf-003": "本句指「屬於較大型組織、但負責某一地區的」。",
         "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
         "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
         "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
         "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
         "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-04"
+      "correctOption": "local-pdf-003"
     },
     {
       "id": "local-17-0",
-      "sense": "local-mcq-12",
+      "sense": "local-pdf-004",
       "en": "The bread is made locally.",
       "zh": "這些麵包是本地製作的。",
       "masked": "The bread is made ____.",
       "options": [
-        "local-mcq-12",
+        "local-pdf-004",
         "local-mcq-11",
         "local-mcq-13",
         "local-mcq-10",
         "local-mcq-14",
         "local-mcq-09"
       ],
-      "explanation": "本句的「locally」指「在本地；或在特定局部／本機範圍內」。",
+      "explanation": "本句的「locally」指「在附近地區／本地進行或取得」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "locally"
       ],
       "optionReasons": {
-        "local-mcq-12": "本句指「在本地；或在特定局部／本機範圍內」。",
+        "local-pdf-004": "本句指「在附近地區／本地進行或取得」。",
         "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
         "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
         "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
         "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
         "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-12"
+      "correctOption": "local-pdf-004"
     },
     {
       "id": "local-17-1",
-      "sense": "local-mcq-12",
+      "sense": "local-pdf-004",
       "en": "Most ingredients are sourced locally.",
       "zh": "大部分食材都是在本地採購的。",
       "masked": "Most ingredients are sourced ____.",
       "options": [
-        "local-mcq-12",
+        "local-pdf-004",
         "local-mcq-11",
         "local-mcq-13",
         "local-mcq-10",
         "local-mcq-14",
         "local-mcq-09"
       ],
-      "explanation": "本句的「locally」指「在本地；或在特定局部／本機範圍內」。",
+      "explanation": "本句的「locally」指「在附近地區／本地進行或取得」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "locally"
       ],
       "optionReasons": {
-        "local-mcq-12": "本句指「在本地；或在特定局部／本機範圍內」。",
+        "local-pdf-004": "本句指「在附近地區／本地進行或取得」。",
         "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
         "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
         "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
         "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
         "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
       },
-      "correctOption": "local-mcq-12"
+      "correctOption": "local-pdf-004"
     },
     {
       "id": "local-18-0",

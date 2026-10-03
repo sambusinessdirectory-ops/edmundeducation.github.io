@@ -261,18 +261,7 @@ export default {
       "en": "premise — story/film",
       "zh": "故事／電影得以展開的基本設定或核心構思",
       "note": "來源詞義：故事／電影得以展開的基本設定或核心構思",
-      "examples": [
-        [
-          "The film has an interesting premise.",
-          "這部電影有一個很有趣的基本設定／故事構思。",
-          "故事／電影得以展開的基本設定或核心構思"
-        ],
-        [
-          "The show's premise is simple: strangers live together for a month.",
-          "這個節目的基本設定很簡單：一群陌生人一起生活一個月。",
-          "故事／電影得以展開的基本設定或核心構思"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -550,6 +539,28 @@ export default {
       "zh": "預先陳述／先行提出；古舊、低頻",
       "note": "來源詞義：預先陳述／先行提出；古舊、低頻",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "premise-pdf-001",
+      "title": "故事開始時用來建立人物、情境和主要衝突的核心構想",
+      "form": "33. premise = basic situation or concept on which a story is built（故事設定） — 基本構思；故",
+      "en": "33. premise = basic situation or concept on which a story is built（故事設定） — 基本構思；故",
+      "zh": "故事開始時用來建立人物、情境和主要衝突的核心構想",
+      "note": "原始 PDF 第 33 節：故事開始時用來建立人物、情境和主要衝突的核心構想",
+      "examples": [
+        [
+          "The film has an interesting premise.",
+          "這部電影有一個很有趣的基本設定／故事構思。",
+          "故事開始時用來建立人物、情境和主要衝突的核心構想"
+        ],
+        [
+          "The show's premise is simple: strangers live together for a month.",
+          "這個節目的基本設定很簡單：一群陌生人一起生活一個月。",
+          "故事開始時用來建立人物、情境和主要衝突的核心構想"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -947,63 +958,63 @@ export default {
     },
     {
       "id": "premise-33-0",
-      "sense": "premise-mcq-17",
+      "sense": "premise-pdf-001",
       "en": "The film has an interesting premise.",
       "zh": "這部電影有一個很有趣的基本設定／故事構思。",
       "masked": "The film has an interesting ____.",
       "options": [
-        "premise-mcq-17",
+        "premise-pdf-001",
         "premise-mcq-16",
         "premise-mcq-18",
         "premise-mcq-15",
         "premise-mcq-19",
         "premise-mcq-14"
       ],
-      "explanation": "本句的「premise」指「故事／電影得以展開的基本設定或核心構思」。",
+      "explanation": "本句的「premise」指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-17": "本句指「故事／電影得以展開的基本設定或核心構思」。",
+        "premise-pdf-001": "本句指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
         "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
         "premise-mcq-18": "「商戶／機構所使用的建築物、場所及相關地方」與本句語境不同。",
         "premise-mcq-15": "「建基於……這個前提」與本句語境不同。",
         "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
         "premise-mcq-14": "「以……為前提」與本句語境不同。"
       },
-      "correctOption": "premise-mcq-17"
+      "correctOption": "premise-pdf-001"
     },
     {
       "id": "premise-33-1",
-      "sense": "premise-mcq-17",
+      "sense": "premise-pdf-001",
       "en": "The show's premise is simple: strangers live together for a month.",
       "zh": "這個節目的基本設定很簡單：一群陌生人一起生活一個月。",
       "masked": "The show's ____ is simple: strangers live together for a month.",
       "options": [
-        "premise-mcq-17",
+        "premise-pdf-001",
         "premise-mcq-16",
         "premise-mcq-18",
         "premise-mcq-15",
         "premise-mcq-19",
         "premise-mcq-14"
       ],
-      "explanation": "本句的「premise」指「故事／電影得以展開的基本設定或核心構思」。",
+      "explanation": "本句的「premise」指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-17": "本句指「故事／電影得以展開的基本設定或核心構思」。",
+        "premise-pdf-001": "本句指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
         "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
         "premise-mcq-18": "「商戶／機構所使用的建築物、場所及相關地方」與本句語境不同。",
         "premise-mcq-15": "「建基於……這個前提」與本句語境不同。",
         "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
         "premise-mcq-14": "「以……為前提」與本句語境不同。"
       },
-      "correctOption": "premise-mcq-17"
+      "correctOption": "premise-pdf-001"
     },
     {
       "id": "premise-39-0",

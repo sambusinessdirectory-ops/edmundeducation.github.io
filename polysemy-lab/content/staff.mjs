@@ -148,18 +148,7 @@ export default {
       "en": "staff — pole",
       "zh": "用作支撐、行走或象徵身份的長杖",
       "note": "來源詞義：用作支撐、行走或象徵身份的長杖",
-      "examples": [
-        [
-          "The traveller carried a wooden staff.",
-          "那名旅人拿著一根木製長杖。",
-          "用作支撐、行走或象徵身份的長杖"
-        ],
-        [
-          "He leaned on his staff while walking.",
-          "他走路時靠著手杖／長杖。",
-          "用作支撐、行走或象徵身份的長杖"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -234,6 +223,28 @@ export default {
           "Each staff member received training.",
           "每名員工都接受了培訓。",
           "員工群體中的一名個別職員"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "staff-pdf-001",
+      "title": "長而直的棍／杖，可用來支撐身體或行走",
+      "form": "7. staff = long stick/pole used for support — 杖；長杖",
+      "en": "7. staff = long stick/pole used for support — 杖；長杖",
+      "zh": "長而直的棍／杖，可用來支撐身體或行走",
+      "note": "原始 PDF 第 7 節：長而直的棍／杖，可用來支撐身體或行走",
+      "examples": [
+        [
+          "The traveller carried a wooden staff.",
+          "那名旅人拿著一根木製長杖。",
+          "長而直的棍／杖，可用來支撐身體或行走"
+        ],
+        [
+          "He leaned on his staff while walking.",
+          "他走路時靠著手杖／長杖。",
+          "長而直的棍／杖，可用來支撐身體或行走"
         ]
       ],
       "options": [],
@@ -633,63 +644,63 @@ export default {
     },
     {
       "id": "staff-07-0",
-      "sense": "staff-mcq-07",
+      "sense": "staff-pdf-001",
       "en": "The traveller carried a wooden staff.",
       "zh": "那名旅人拿著一根木製長杖。",
       "masked": "The traveller carried a wooden ____.",
       "options": [
-        "staff-mcq-07",
+        "staff-pdf-001",
         "staff-mcq-06",
         "staff-mcq-08",
         "staff-mcq-05",
         "staff-mcq-09",
         "staff-mcq-04"
       ],
-      "explanation": "本句的「staff」指「用作支撐、行走或象徵身份的長杖」。",
+      "explanation": "本句的「staff」指「長而直的棍／杖，可用來支撐身體或行走」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-07": "本句指「用作支撐、行走或象徵身份的長杖」。",
+        "staff-pdf-001": "本句指「長而直的棍／杖，可用來支撐身體或行走」。",
         "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
         "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
         "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
         "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
         "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。"
       },
-      "correctOption": "staff-mcq-07"
+      "correctOption": "staff-pdf-001"
     },
     {
       "id": "staff-07-1",
-      "sense": "staff-mcq-07",
+      "sense": "staff-pdf-001",
       "en": "He leaned on his staff while walking.",
       "zh": "他走路時靠著手杖／長杖。",
       "masked": "He leaned on his ____ while walking.",
       "options": [
-        "staff-mcq-07",
+        "staff-pdf-001",
         "staff-mcq-06",
         "staff-mcq-08",
         "staff-mcq-05",
         "staff-mcq-09",
         "staff-mcq-04"
       ],
-      "explanation": "本句的「staff」指「用作支撐、行走或象徵身份的長杖」。",
+      "explanation": "本句的「staff」指「長而直的棍／杖，可用來支撐身體或行走」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-07": "本句指「用作支撐、行走或象徵身份的長杖」。",
+        "staff-pdf-001": "本句指「長而直的棍／杖，可用來支撐身體或行走」。",
         "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
         "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
         "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
         "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
         "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。"
       },
-      "correctOption": "staff-mcq-07"
+      "correctOption": "staff-pdf-001"
     },
     {
       "id": "staff-08-0",

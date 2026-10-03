@@ -12,18 +12,7 @@ export default {
       "en": "come — physical movement/arrival",
       "zh": "朝說話者、參照人物或指定地方移動並到達該處",
       "note": "來源詞義：朝說話者、參照人物或指定地方移動並到達該處",
-      "examples": [
-        [
-          "What time did you come home last night?",
-          "你昨晚幾點回到家？",
-          "朝說話者、參照人物或指定地方移動並到達該處"
-        ],
-        [
-          "The train came into the station shortly after nine.",
-          "火車九點後不久抵達車站。",
-          "朝說話者、參照人物或指定地方移動並到達該處"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -262,6 +251,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "come-pdf-001",
+      "title": "經過移動後到達某個地方或位置",
+      "form": "2. come = arrive/reach a place（到達） — 到達；來到",
+      "en": "2. come = arrive/reach a place（到達） — 到達；來到",
+      "zh": "經過移動後到達某個地方或位置",
+      "note": "原始 PDF 第 2 節：經過移動後到達某個地方或位置",
+      "examples": [
+        [
+          "What time did you come home last night?",
+          "你昨晚幾點回到家？",
+          "經過移動後到達某個地方或位置"
+        ],
+        [
+          "The train came into the station shortly after nine.",
+          "火車九點後不久抵達車站。",
+          "經過移動後到達某個地方或位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -327,63 +338,63 @@ export default {
     },
     {
       "id": "come-02-0",
-      "sense": "come-mcq-01",
+      "sense": "come-pdf-001",
       "en": "What time did you come home last night?",
       "zh": "你昨晚幾點回到家？",
       "masked": "What time did you ____ home last night?",
       "options": [
-        "come-mcq-01",
+        "come-pdf-001",
         "come-mcq-02",
         "come-mcq-03",
         "come-mcq-04",
         "come-mcq-05",
         "come-mcq-06"
       ],
-      "explanation": "本句的「come」指「朝說話者、參照人物或指定地方移動並到達該處」。",
+      "explanation": "本句的「come」指「經過移動後到達某個地方或位置」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "come"
       ],
       "optionReasons": {
-        "come-mcq-01": "本句指「朝說話者、參照人物或指定地方移動並到達該處」。",
+        "come-pdf-001": "本句指「經過移動後到達某個地方或位置」。",
         "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
         "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
         "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
         "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
         "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
       },
-      "correctOption": "come-mcq-01"
+      "correctOption": "come-pdf-001"
     },
     {
       "id": "come-02-1",
-      "sense": "come-mcq-01",
+      "sense": "come-pdf-001",
       "en": "The train came into the station shortly after nine.",
       "zh": "火車九點後不久抵達車站。",
       "masked": "The train ____ into the station shortly after nine.",
       "options": [
-        "come-mcq-01",
+        "come-pdf-001",
         "come-mcq-02",
         "come-mcq-03",
         "come-mcq-04",
         "come-mcq-05",
         "come-mcq-06"
       ],
-      "explanation": "本句的「came」指「朝說話者、參照人物或指定地方移動並到達該處」。",
+      "explanation": "本句的「came」指「經過移動後到達某個地方或位置」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "came"
       ],
       "optionReasons": {
-        "come-mcq-01": "本句指「朝說話者、參照人物或指定地方移動並到達該處」。",
+        "come-pdf-001": "本句指「經過移動後到達某個地方或位置」。",
         "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
         "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
         "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
         "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
         "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
       },
-      "correctOption": "come-mcq-01"
+      "correctOption": "come-pdf-001"
     },
     {
       "id": "come-03-0",

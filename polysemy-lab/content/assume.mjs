@@ -39,18 +39,7 @@ export default {
       "en": "assume X to be Y",
       "zh": "假定 X 是 Y",
       "note": "來源詞義：假定 X 是 Y",
-      "examples": [
-        [
-          "The manager assumed the information to be correct.",
-          "經理假定那些資料是正確的。",
-          "假定 X 是 Y"
-        ],
-        [
-          "We should not assume every complaint to be genuine without checking.",
-          "在核實之前，我們不應假定每宗投訴都是真實的。",
-          "假定 X 是 Y"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -389,16 +378,6 @@ export default {
           "He assumed additional duties during the crisis.",
           "危機期間，他承擔了額外職責。",
           "接手職責"
-        ],
-        [
-          "Her assumption of responsibility helped restore trust.",
-          "她承擔責任有助恢復信任。",
-          "接手職責"
-        ],
-        [
-          "The assumption of control took place immediately.",
-          "控制權的接管立即進行。",
-          "接手職責"
         ]
       ],
       "options": [],
@@ -600,6 +579,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "assume-pdf-001",
+      "title": "未完全證實便把 X 視為 Y",
+      "form": "2. assume something to be true — 假定某事為真",
+      "en": "2. assume something to be true — 假定某事為真",
+      "zh": "未完全證實便把 X 視為 Y",
+      "note": "原始 PDF 第 2 節：未完全證實便把 X 視為 Y",
+      "examples": [
+        [
+          "The manager assumed the information to be correct.",
+          "經理假定那些資料是正確的。",
+          "未完全證實便把 X 視為 Y"
+        ],
+        [
+          "We should not assume every complaint to be genuine without checking.",
+          "在核實之前，我們不應假定每宗投訴都是真實的。",
+          "未完全證實便把 X 視為 Y"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "assume-pdf-002",
+      "title": "正式開始承擔、接管或接受 X",
+      "form": "20. assumption of responsibility / control — 承擔責任／接管控制",
+      "en": "20. assumption of responsibility / control — 承擔責任／接管控制",
+      "zh": "正式開始承擔、接管或接受 X",
+      "note": "原始 PDF 第 20 節：正式開始承擔、接管或接受 X",
+      "examples": [
+        [
+          "Her assumption of responsibility helped restore trust.",
+          "她承擔責任有助恢復信任。",
+          "正式開始承擔、接管或接受 X"
+        ],
+        [
+          "The assumption of control took place immediately.",
+          "控制權的接管立即進行。",
+          "正式開始承擔、接管或接受 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -695,63 +718,63 @@ export default {
     },
     {
       "id": "assume-02-0",
-      "sense": "assume-mcq-02",
+      "sense": "assume-pdf-001",
       "en": "The manager assumed the information to be correct.",
       "zh": "經理假定那些資料是正確的。",
       "masked": "The manager ____.",
       "options": [
-        "assume-mcq-02",
+        "assume-pdf-001",
         "assume-mcq-01",
         "assume-mcq-03",
         "assume-mcq-04",
         "assume-mcq-05",
         "assume-mcq-06"
       ],
-      "explanation": "本句的「assumed the information to be correct」指「假定 X 是 Y」。",
+      "explanation": "本句的「assumed the information to be correct」指「未完全證實便把 X 視為 Y」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "assumed the information to be correct"
       ],
       "optionReasons": {
-        "assume-mcq-02": "本句指「假定 X 是 Y」。",
+        "assume-pdf-001": "本句指「未完全證實便把 X 視為 Y」。",
         "assume-mcq-01": "「假定；以為」與本句語境不同。",
         "assume-mcq-03": "「誤以為」與本句語境不同。",
         "assume-mcq-04": "「合理假定」與本句語境不同。",
         "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
         "assume-mcq-06": "「預設已有知識」與本句語境不同。"
       },
-      "correctOption": "assume-mcq-02"
+      "correctOption": "assume-pdf-001"
     },
     {
       "id": "assume-02-1",
-      "sense": "assume-mcq-02",
+      "sense": "assume-pdf-001",
       "en": "We should not assume every complaint to be genuine without checking.",
       "zh": "在核實之前，我們不應假定每宗投訴都是真實的。",
       "masked": "We should not ____ without checking.",
       "options": [
-        "assume-mcq-02",
+        "assume-pdf-001",
         "assume-mcq-01",
         "assume-mcq-03",
         "assume-mcq-04",
         "assume-mcq-05",
         "assume-mcq-06"
       ],
-      "explanation": "本句的「assume every complaint to be genuine」指「假定 X 是 Y」。",
+      "explanation": "本句的「assume every complaint to be genuine」指「未完全證實便把 X 視為 Y」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "assume every complaint to be genuine"
       ],
       "optionReasons": {
-        "assume-mcq-02": "本句指「假定 X 是 Y」。",
+        "assume-pdf-001": "本句指「未完全證實便把 X 視為 Y」。",
         "assume-mcq-01": "「假定；以為」與本句語境不同。",
         "assume-mcq-03": "「誤以為」與本句語境不同。",
         "assume-mcq-04": "「合理假定」與本句語境不同。",
         "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
         "assume-mcq-06": "「預設已有知識」與本句語境不同。"
       },
-      "correctOption": "assume-mcq-02"
+      "correctOption": "assume-pdf-001"
     },
     {
       "id": "assume-03-0",
@@ -1715,63 +1738,63 @@ export default {
     },
     {
       "id": "assume-20-0",
-      "sense": "assume-mcq-17",
+      "sense": "assume-pdf-002",
       "en": "Her assumption of responsibility helped restore trust.",
       "zh": "她承擔責任有助恢復信任。",
       "masked": "Her ____ helped restore trust.",
       "options": [
-        "assume-mcq-17",
+        "assume-pdf-002",
         "assume-mcq-16",
         "assume-mcq-18",
         "assume-mcq-15",
         "assume-mcq-19",
         "assume-mcq-14"
       ],
-      "explanation": "本句的「assumption of responsibility」指「接手職責」。",
+      "explanation": "本句的「assumption of responsibility」指「正式開始承擔、接管或接受 X」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "assumption of responsibility"
       ],
       "optionReasons": {
-        "assume-mcq-17": "本句指「接手職責」。",
+        "assume-pdf-002": "本句指「正式開始承擔、接管或接受 X」。",
         "assume-mcq-16": "「擔任角色」與本句語境不同。",
         "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
         "assume-mcq-15": "「就職；上任」與本句語境不同。",
         "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
         "assume-mcq-14": "「接任指揮」與本句語境不同。"
       },
-      "correctOption": "assume-mcq-17"
+      "correctOption": "assume-pdf-002"
     },
     {
       "id": "assume-20-1",
-      "sense": "assume-mcq-17",
+      "sense": "assume-pdf-002",
       "en": "The assumption of control took place immediately.",
       "zh": "控制權的接管立即進行。",
       "masked": "The ____ took place immediately.",
       "options": [
-        "assume-mcq-17",
+        "assume-pdf-002",
         "assume-mcq-16",
         "assume-mcq-18",
         "assume-mcq-15",
         "assume-mcq-19",
         "assume-mcq-14"
       ],
-      "explanation": "本句的「assumption of control」指「接手職責」。",
+      "explanation": "本句的「assumption of control」指「正式開始承擔、接管或接受 X」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "assumption of control"
       ],
       "optionReasons": {
-        "assume-mcq-17": "本句指「接手職責」。",
+        "assume-pdf-002": "本句指「正式開始承擔、接管或接受 X」。",
         "assume-mcq-16": "「擔任角色」與本句語境不同。",
         "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
         "assume-mcq-15": "「就職；上任」與本句語境不同。",
         "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
         "assume-mcq-14": "「接任指揮」與本句語境不同。"
       },
-      "correctOption": "assume-mcq-17"
+      "correctOption": "assume-pdf-002"
     },
     {
       "id": "assume-21-0",

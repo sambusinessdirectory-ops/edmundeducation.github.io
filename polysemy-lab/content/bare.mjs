@@ -149,18 +149,7 @@ export default {
       "en": "bare majority etc.",
       "zh": "數量或程度僅僅足夠、非常微小的",
       "note": "來源詞義：數量或程度僅僅足夠、非常微小的",
-      "examples": [
-        [
-          "The proposal passed by a bare majority.",
-          "這項提案以極微弱的多數通過。",
-          "數量或程度僅僅足夠、非常微小的"
-        ],
-        [
-          "They survived on a bare subsistence income.",
-          "他們靠着僅足以維生的最低生活收入過活。",
-          "數量或程度僅僅足夠、非常微小的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -313,6 +302,28 @@ export default {
           "There was barely enough food.",
           "食物僅僅夠用／差點不夠。",
           "僅僅；勉強；幾乎不"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bare-pdf-001",
+      "title": "數量、程度等只比不足多一點點，幾乎沒有餘裕",
+      "form": "7. bare = only just sufficient / smallest possible（數量／程度） — 僅僅足夠的；最低的",
+      "en": "7. bare = only just sufficient / smallest possible（數量／程度） — 僅僅足夠的；最低的",
+      "zh": "數量、程度等只比不足多一點點，幾乎沒有餘裕",
+      "note": "原始 PDF 第 7 節：數量、程度等只比不足多一點點，幾乎沒有餘裕",
+      "examples": [
+        [
+          "The proposal passed by a bare majority.",
+          "這項提案以極微弱的多數通過。",
+          "數量、程度等只比不足多一點點，幾乎沒有餘裕"
+        ],
+        [
+          "They survived on a bare subsistence income.",
+          "他們靠着僅足以維生的最低生活收入過活。",
+          "數量、程度等只比不足多一點點，幾乎沒有餘裕"
         ]
       ],
       "options": [],
@@ -712,63 +723,63 @@ export default {
     },
     {
       "id": "bare-07-0",
-      "sense": "bare-mcq-07",
+      "sense": "bare-pdf-001",
       "en": "The proposal passed by a bare majority.",
       "zh": "這項提案以極微弱的多數通過。",
       "masked": "The proposal passed by a ____.",
       "options": [
-        "bare-mcq-07",
+        "bare-pdf-001",
         "bare-mcq-06",
         "bare-mcq-08",
         "bare-mcq-05",
         "bare-mcq-09",
         "bare-mcq-04"
       ],
-      "explanation": "本句的「bare majority」指「數量或程度僅僅足夠、非常微小的」。",
+      "explanation": "本句的「bare majority」指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "bare majority"
       ],
       "optionReasons": {
-        "bare-mcq-07": "本句指「數量或程度僅僅足夠、非常微小的」。",
+        "bare-pdf-001": "本句指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
         "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
         "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
         "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
         "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
         "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。"
       },
-      "correctOption": "bare-mcq-07"
+      "correctOption": "bare-pdf-001"
     },
     {
       "id": "bare-07-1",
-      "sense": "bare-mcq-07",
+      "sense": "bare-pdf-001",
       "en": "They survived on a bare subsistence income.",
       "zh": "他們靠着僅足以維生的最低生活收入過活。",
       "masked": "They survived on a ____ income.",
       "options": [
-        "bare-mcq-07",
+        "bare-pdf-001",
         "bare-mcq-06",
         "bare-mcq-08",
         "bare-mcq-05",
         "bare-mcq-09",
         "bare-mcq-04"
       ],
-      "explanation": "本句的「bare subsistence」指「數量或程度僅僅足夠、非常微小的」。",
+      "explanation": "本句的「bare subsistence」指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "bare subsistence"
       ],
       "optionReasons": {
-        "bare-mcq-07": "本句指「數量或程度僅僅足夠、非常微小的」。",
+        "bare-pdf-001": "本句指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
         "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
         "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
         "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
         "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
         "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。"
       },
-      "correctOption": "bare-mcq-07"
+      "correctOption": "bare-pdf-001"
     },
     {
       "id": "bare-09-0",

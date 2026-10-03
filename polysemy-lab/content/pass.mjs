@@ -216,16 +216,6 @@ export default {
       "note": "來源詞義：判定考試是否合格的最低分數",
       "examples": [
         [
-          "I studied hard and passed.",
-          "我努力溫習，最後及格了。",
-          "判定考試是否合格的最低分數"
-        ],
-        [
-          "Not everyone passed the test.",
-          "不是所有人都通過測驗。",
-          "判定考試是否合格的最低分數"
-        ],
-        [
           "The pass mark is fifty percent.",
           "及格線是百分之五十。",
           "判定考試是否合格的最低分數"
@@ -565,16 +555,6 @@ export default {
       "note": "來源詞義：山脈中較低、可供通行的天然通道",
       "examples": [
         [
-          "Please show your boarding pass.",
-          "請出示你的登機證。",
-          "山脈中較低、可供通行的天然通道"
-        ],
-        [
-          "I downloaded my boarding pass.",
-          "我下載了自己的登機證。",
-          "山脈中較低、可供通行的天然通道"
-        ],
-        [
           "The road crosses a mountain pass.",
           "這條路穿過一個山口。",
           "山脈中較低、可供通行的天然通道"
@@ -604,16 +584,6 @@ export default {
         [
           "We should listen before passing judgment.",
           "我們應該先聽清楚，再作出評斷。",
-          "正式／較書面地作出判斷或評價"
-        ],
-        [
-          "The judge will pass sentence tomorrow.",
-          "法官明天會宣判刑罰。",
-          "正式／較書面地作出判斷或評價"
-        ],
-        [
-          "Sentence was passed after the hearing.",
-          "聆訊後作出了判刑。",
           "正式／較書面地作出判斷或評價"
         ]
       ],
@@ -704,16 +674,6 @@ export default {
       "zh": "書、文章或閱讀材料中的一段連續文字",
       "note": "來源詞義：書、文章或閱讀材料中的一段連續文字",
       "examples": [
-        [
-          "The narrow road allows the passage of vehicles.",
-          "這條狹窄道路允許車輛通行。",
-          "書、文章或閱讀材料中的一段連續文字"
-        ],
-        [
-          "The passage of ships was restricted.",
-          "船隻的通行受到限制。",
-          "書、文章或閱讀材料中的一段連續文字"
-        ],
         [
           "Read the passage and answer the questions.",
           "閱讀這段文章／短文，然後回答問題。",
@@ -921,6 +881,94 @@ export default {
           "The comment passed without response.",
           "那番話沒有得到回應，便這樣過去了。",
           "選擇不評論、不處理或不追究某件事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pass-pdf-001",
+      "title": "在考試／評核中達到合格標準",
+      "form": "10. pass = receive a passing result（及格） — 合格",
+      "en": "10. pass = receive a passing result（及格） — 合格",
+      "zh": "在考試／評核中達到合格標準",
+      "note": "原始 PDF 第 10 節：在考試／評核中達到合格標準",
+      "examples": [
+        [
+          "I studied hard and passed.",
+          "我努力溫習，最後及格了。",
+          "在考試／評核中達到合格標準"
+        ],
+        [
+          "Not everyone passed the test.",
+          "不是所有人都通過測驗。",
+          "在考試／評核中達到合格標準"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pass-pdf-002",
+      "title": "證明旅客可登上指定航班的文件／電子憑證",
+      "form": "30. boarding pass（登機證） — 登機證",
+      "en": "30. boarding pass（登機證） — 登機證",
+      "zh": "證明旅客可登上指定航班的文件／電子憑證",
+      "note": "原始 PDF 第 30 節：證明旅客可登上指定航班的文件／電子憑證",
+      "examples": [
+        [
+          "Please show your boarding pass.",
+          "請出示你的登機證。",
+          "證明旅客可登上指定航班的文件／電子憑證"
+        ],
+        [
+          "I downloaded my boarding pass.",
+          "我下載了自己的登機證。",
+          "證明旅客可登上指定航班的文件／電子憑證"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pass-pdf-003",
+      "title": "法官正式宣布刑罰",
+      "form": "34. pass sentence（宣判刑罰） — 判刑；宣判",
+      "en": "34. pass sentence（宣判刑罰） — 判刑；宣判",
+      "zh": "法官正式宣布刑罰",
+      "note": "原始 PDF 第 34 節：法官正式宣布刑罰",
+      "examples": [
+        [
+          "The judge will pass sentence tomorrow.",
+          "法官明天會宣判刑罰。",
+          "法官正式宣布刑罰"
+        ],
+        [
+          "Sentence was passed after the hearing.",
+          "聆訊後作出了判刑。",
+          "法官正式宣布刑罰"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pass-pdf-004",
+      "title": "從某地通過／移動的行為",
+      "form": "41. passage = act of moving through（通過；通行） — 通過；穿越",
+      "en": "41. passage = act of moving through（通過；通行） — 通過；穿越",
+      "zh": "從某地通過／移動的行為",
+      "note": "原始 PDF 第 41 節：從某地通過／移動的行為",
+      "examples": [
+        [
+          "The narrow road allows the passage of vehicles.",
+          "這條狹窄道路允許車輛通行。",
+          "從某地通過／移動的行為"
+        ],
+        [
+          "The passage of ships was restricted.",
+          "船隻的通行受到限制。",
+          "從某地通過／移動的行為"
         ]
       ],
       "options": [],
@@ -1500,63 +1548,63 @@ export default {
     },
     {
       "id": "pass-10-0",
-      "sense": "pass-mcq-10",
+      "sense": "pass-pdf-001",
       "en": "I studied hard and passed.",
       "zh": "我努力溫習，最後及格了。",
       "masked": "I studied hard and ____.",
       "options": [
-        "pass-mcq-10",
+        "pass-pdf-001",
         "pass-mcq-09",
         "pass-mcq-11",
         "pass-mcq-08",
         "pass-mcq-12",
         "pass-mcq-07"
       ],
-      "explanation": "本句的「passed」指「判定考試是否合格的最低分數」。",
+      "explanation": "本句的「passed」指「在考試／評核中達到合格標準」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-10": "本句指「判定考試是否合格的最低分數」。",
+        "pass-pdf-001": "本句指「在考試／評核中達到合格標準」。",
         "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
         "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
         "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
         "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
         "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-10"
+      "correctOption": "pass-pdf-001"
     },
     {
       "id": "pass-10-1",
-      "sense": "pass-mcq-10",
+      "sense": "pass-pdf-001",
       "en": "Not everyone passed the test.",
       "zh": "不是所有人都通過測驗。",
       "masked": "Not everyone ____ the test.",
       "options": [
-        "pass-mcq-10",
+        "pass-pdf-001",
         "pass-mcq-09",
         "pass-mcq-11",
         "pass-mcq-08",
         "pass-mcq-12",
         "pass-mcq-07"
       ],
-      "explanation": "本句的「passed」指「判定考試是否合格的最低分數」。",
+      "explanation": "本句的「passed」指「在考試／評核中達到合格標準」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-10": "本句指「判定考試是否合格的最低分數」。",
+        "pass-pdf-001": "本句指「在考試／評核中達到合格標準」。",
         "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
         "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
         "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
         "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
         "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-10"
+      "correctOption": "pass-pdf-001"
     },
     {
       "id": "pass-11-0",
@@ -2700,63 +2748,63 @@ export default {
     },
     {
       "id": "pass-30-0",
-      "sense": "pass-mcq-25",
+      "sense": "pass-pdf-002",
       "en": "Please show your boarding pass.",
       "zh": "請出示你的登機證。",
       "masked": "Please show your ____.",
       "options": [
-        "pass-mcq-25",
+        "pass-pdf-002",
         "pass-mcq-24",
         "pass-mcq-26",
         "pass-mcq-23",
         "pass-mcq-27",
         "pass-mcq-22"
       ],
-      "explanation": "本句的「boarding pass」指「山脈中較低、可供通行的天然通道」。",
+      "explanation": "本句的「boarding pass」指「證明旅客可登上指定航班的文件／電子憑證」。",
       "sentenceIndex": 59,
       "sourcePractice": 60,
       "targets": [
         "boarding pass"
       ],
       "optionReasons": {
-        "pass-mcq-25": "本句指「山脈中較低、可供通行的天然通道」。",
+        "pass-pdf-002": "本句指「證明旅客可登上指定航班的文件／電子憑證」。",
         "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
         "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
         "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
         "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
         "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-25"
+      "correctOption": "pass-pdf-002"
     },
     {
       "id": "pass-30-1",
-      "sense": "pass-mcq-25",
+      "sense": "pass-pdf-002",
       "en": "I downloaded my boarding pass.",
       "zh": "我下載了自己的登機證。",
       "masked": "I downloaded my boarding ____.",
       "options": [
-        "pass-mcq-25",
+        "pass-pdf-002",
         "pass-mcq-24",
         "pass-mcq-26",
         "pass-mcq-23",
         "pass-mcq-27",
         "pass-mcq-22"
       ],
-      "explanation": "本句的「pass」指「山脈中較低、可供通行的天然通道」。",
+      "explanation": "本句的「pass」指「證明旅客可登上指定航班的文件／電子憑證」。",
       "sentenceIndex": 60,
       "sourcePractice": 61,
       "targets": [
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-25": "本句指「山脈中較低、可供通行的天然通道」。",
+        "pass-pdf-002": "本句指「證明旅客可登上指定航班的文件／電子憑證」。",
         "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
         "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
         "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
         "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
         "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-25"
+      "correctOption": "pass-pdf-002"
     },
     {
       "id": "pass-31-0",
@@ -2940,63 +2988,63 @@ export default {
     },
     {
       "id": "pass-34-0",
-      "sense": "pass-mcq-26",
+      "sense": "pass-pdf-003",
       "en": "The judge will pass sentence tomorrow.",
       "zh": "法官明天會宣判刑罰。",
       "masked": "The judge will ____ tomorrow.",
       "options": [
-        "pass-mcq-26",
+        "pass-pdf-003",
         "pass-mcq-25",
         "pass-mcq-27",
         "pass-mcq-24",
         "pass-mcq-28",
         "pass-mcq-23"
       ],
-      "explanation": "本句的「pass sentence」指「正式／較書面地作出判斷或評價」。",
+      "explanation": "本句的「pass sentence」指「法官正式宣布刑罰」。",
       "sentenceIndex": 67,
       "sourcePractice": 68,
       "targets": [
         "pass sentence"
       ],
       "optionReasons": {
-        "pass-mcq-26": "本句指「正式／較書面地作出判斷或評價」。",
+        "pass-pdf-003": "本句指「法官正式宣布刑罰」。",
         "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
         "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
         "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
         "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
         "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-26"
+      "correctOption": "pass-pdf-003"
     },
     {
       "id": "pass-34-1",
-      "sense": "pass-mcq-26",
+      "sense": "pass-pdf-003",
       "en": "Sentence was passed after the hearing.",
       "zh": "聆訊後作出了判刑。",
       "masked": "Sentence was ____ after the hearing.",
       "options": [
-        "pass-mcq-26",
+        "pass-pdf-003",
         "pass-mcq-25",
         "pass-mcq-27",
         "pass-mcq-24",
         "pass-mcq-28",
         "pass-mcq-23"
       ],
-      "explanation": "本句的「passed」指「正式／較書面地作出判斷或評價」。",
+      "explanation": "本句的「passed」指「法官正式宣布刑罰」。",
       "sentenceIndex": 68,
       "sourcePractice": 69,
       "targets": [
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-26": "本句指「正式／較書面地作出判斷或評價」。",
+        "pass-pdf-003": "本句指「法官正式宣布刑罰」。",
         "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
         "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
         "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
         "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
         "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-26"
+      "correctOption": "pass-pdf-003"
     },
     {
       "id": "pass-35-0",
@@ -3360,63 +3408,63 @@ export default {
     },
     {
       "id": "pass-41-0",
-      "sense": "pass-mcq-30",
+      "sense": "pass-pdf-004",
       "en": "The narrow road allows the passage of vehicles.",
       "zh": "這條狹窄道路允許車輛通行。",
       "masked": "The narrow road allows the ____.",
       "options": [
-        "pass-mcq-30",
+        "pass-pdf-004",
         "pass-mcq-29",
         "pass-mcq-31",
         "pass-mcq-28",
         "pass-mcq-32",
         "pass-mcq-27"
       ],
-      "explanation": "本句的「passage of vehicles」指「書、文章或閱讀材料中的一段連續文字」。",
+      "explanation": "本句的「passage of vehicles」指「從某地通過／移動的行為」。",
       "sentenceIndex": 81,
       "sourcePractice": 82,
       "targets": [
         "passage of vehicles"
       ],
       "optionReasons": {
-        "pass-mcq-30": "本句指「書、文章或閱讀材料中的一段連續文字」。",
+        "pass-pdf-004": "本句指「從某地通過／移動的行為」。",
         "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
         "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
         "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
         "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
         "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-30"
+      "correctOption": "pass-pdf-004"
     },
     {
       "id": "pass-41-1",
-      "sense": "pass-mcq-30",
+      "sense": "pass-pdf-004",
       "en": "The passage of ships was restricted.",
       "zh": "船隻的通行受到限制。",
       "masked": "The ____ of ships was restricted.",
       "options": [
-        "pass-mcq-30",
+        "pass-pdf-004",
         "pass-mcq-29",
         "pass-mcq-31",
         "pass-mcq-28",
         "pass-mcq-32",
         "pass-mcq-27"
       ],
-      "explanation": "本句的「passage」指「書、文章或閱讀材料中的一段連續文字」。",
+      "explanation": "本句的「passage」指「從某地通過／移動的行為」。",
       "sentenceIndex": 82,
       "sourcePractice": 83,
       "targets": [
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-30": "本句指「書、文章或閱讀材料中的一段連續文字」。",
+        "pass-pdf-004": "本句指「從某地通過／移動的行為」。",
         "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
         "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
         "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
         "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
         "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。"
       },
-      "correctOption": "pass-mcq-30"
+      "correctOption": "pass-pdf-004"
     },
     {
       "id": "pass-42-0",

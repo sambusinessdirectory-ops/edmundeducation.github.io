@@ -497,16 +497,6 @@ export default {
       "note": "來源詞義：把握時機",
       "examples": [
         [
-          "I wanted to say something, but the moment passed.",
-          "我本來想說些甚麼，但時機已經過去了。",
-          "把握時機"
-        ],
-        [
-          "If you hesitate too long, the moment may pass.",
-          "如果你猶豫太久，合適的時機可能會溜走。",
-          "把握時機"
-        ],
-        [
           "She decided to seize the moment and tell him how she felt.",
           "她決定把握時機，告訴他自己的感受。",
           "把握時機"
@@ -640,6 +630,28 @@ export default {
           "It was a moment I would never forget.",
           "那是我永遠不會忘記的一刻。",
           "某件特定事情發生的那個時刻或短暫情境"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "moment-pdf-001",
+      "title": "某個適合行動或具有特殊意義的短暫時機結束",
+      "form": "24. the moment passes — 那一刻／機會過去",
+      "en": "24. the moment passes — 那一刻／機會過去",
+      "zh": "某個適合行動或具有特殊意義的短暫時機結束",
+      "note": "原始 PDF 第 24 節：某個適合行動或具有特殊意義的短暫時機結束",
+      "examples": [
+        [
+          "I wanted to say something, but the moment passed.",
+          "我本來想說些甚麼，但時機已經過去了。",
+          "某個適合行動或具有特殊意義的短暫時機結束"
+        ],
+        [
+          "If you hesitate too long, the moment may pass.",
+          "如果你猶豫太久，合適的時機可能會溜走。",
+          "某個適合行動或具有特殊意義的短暫時機結束"
         ]
       ],
       "options": [],
@@ -2059,63 +2071,63 @@ export default {
     },
     {
       "id": "moment-24-0",
-      "sense": "moment-mcq-23",
+      "sense": "moment-pdf-001",
       "en": "I wanted to say something, but the moment passed.",
       "zh": "我本來想說些甚麼，但時機已經過去了。",
       "masked": "I wanted to say something, but the ____.",
       "options": [
-        "moment-mcq-23",
+        "moment-pdf-001",
         "moment-mcq-22",
         "moment-mcq-24",
         "moment-mcq-21",
         "moment-mcq-25",
         "moment-mcq-20"
       ],
-      "explanation": "本句的「moment passed」指「把握時機」。",
+      "explanation": "本句的「moment passed」指「某個適合行動或具有特殊意義的短暫時機結束」。",
       "sentenceIndex": 47,
       "sourcePractice": 1,
       "targets": [
         "moment passed"
       ],
       "optionReasons": {
-        "moment-mcq-23": "本句指「把握時機」。",
+        "moment-pdf-001": "本句指「某個適合行動或具有特殊意義的短暫時機結束」。",
         "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
         "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
         "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
         "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
         "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。"
       },
-      "correctOption": "moment-mcq-23"
+      "correctOption": "moment-pdf-001"
     },
     {
       "id": "moment-24-1",
-      "sense": "moment-mcq-23",
+      "sense": "moment-pdf-001",
       "en": "If you hesitate too long, the moment may pass.",
       "zh": "如果你猶豫太久，合適的時機可能會溜走。",
       "masked": "If you hesitate too long, the ____.",
       "options": [
-        "moment-mcq-23",
+        "moment-pdf-001",
         "moment-mcq-22",
         "moment-mcq-24",
         "moment-mcq-21",
         "moment-mcq-25",
         "moment-mcq-20"
       ],
-      "explanation": "本句的「moment may pass」指「把握時機」。",
+      "explanation": "本句的「moment may pass」指「某個適合行動或具有特殊意義的短暫時機結束」。",
       "sentenceIndex": 48,
       "sourcePractice": 2,
       "targets": [
         "moment may pass"
       ],
       "optionReasons": {
-        "moment-mcq-23": "本句指「把握時機」。",
+        "moment-pdf-001": "本句指「某個適合行動或具有特殊意義的短暫時機結束」。",
         "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
         "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
         "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
         "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
         "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。"
       },
-      "correctOption": "moment-mcq-23"
+      "correctOption": "moment-pdf-001"
     },
     {
       "id": "moment-25-0",

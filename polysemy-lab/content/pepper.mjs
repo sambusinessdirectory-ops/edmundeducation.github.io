@@ -225,16 +225,6 @@ export default {
           "The report was peppered with spelling mistakes.",
           "這份報告到處都是拼字錯誤／夾雜著很多拼字錯誤。",
           "把許多小型、分散的 X 散布／穿插在某處或內容中"
-        ],
-        [
-          "He peppered his explanation with examples.",
-          "他的解釋中穿插了很多例子。",
-          "把許多小型、分散的 X 散布／穿插在某處或內容中"
-        ],
-        [
-          "Her speech was peppered with jokes.",
-          "她的演講中夾雜了很多笑話。",
-          "把許多小型、分散的 X 散布／穿插在某處或內容中"
         ]
       ],
       "options": [],
@@ -345,6 +335,28 @@ export default {
           "Fresh pepper tastes better when ground with a pepper grinder.",
           "用胡椒研磨器現磨的胡椒味道更好。",
           "把胡椒粒磨碎成粉末的廚房工具"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pepper-pdf-001",
+      "title": "在說話或文字中頻繁穿插某種內容",
+      "form": "11. pepper + speech/text with something（言語／文字） — 穿插；夾雜大量……",
+      "en": "11. pepper + speech/text with something（言語／文字） — 穿插；夾雜大量……",
+      "zh": "在說話或文字中頻繁穿插某種內容",
+      "note": "原始 PDF 第 11 節：在說話或文字中頻繁穿插某種內容",
+      "examples": [
+        [
+          "He peppered his explanation with examples.",
+          "他的解釋中穿插了很多例子。",
+          "在說話或文字中頻繁穿插某種內容"
+        ],
+        [
+          "Her speech was peppered with jokes.",
+          "她的演講中夾雜了很多笑話。",
+          "在說話或文字中頻繁穿插某種內容"
         ]
       ],
       "options": [],
@@ -984,63 +996,63 @@ export default {
     },
     {
       "id": "pepper-11-0",
-      "sense": "pepper-mcq-10",
+      "sense": "pepper-pdf-001",
       "en": "He peppered his explanation with examples.",
       "zh": "他的解釋中穿插了很多例子。",
       "masked": "He ____.",
       "options": [
-        "pepper-mcq-10",
+        "pepper-pdf-001",
         "pepper-mcq-09",
         "pepper-mcq-11",
         "pepper-mcq-08",
         "pepper-mcq-12",
         "pepper-mcq-07"
       ],
-      "explanation": "本句的「peppered his explanation with examples」指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
+      "explanation": "本句的「peppered his explanation with examples」指「在說話或文字中頻繁穿插某種內容」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "peppered his explanation with examples"
       ],
       "optionReasons": {
-        "pepper-mcq-10": "本句指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
+        "pepper-pdf-001": "本句指「在說話或文字中頻繁穿插某種內容」。",
         "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
         "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
         "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
         "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
         "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。"
       },
-      "correctOption": "pepper-mcq-10"
+      "correctOption": "pepper-pdf-001"
     },
     {
       "id": "pepper-11-1",
-      "sense": "pepper-mcq-10",
+      "sense": "pepper-pdf-001",
       "en": "Her speech was peppered with jokes.",
       "zh": "她的演講中夾雜了很多笑話。",
       "masked": "Her speech was ____ with jokes.",
       "options": [
-        "pepper-mcq-10",
+        "pepper-pdf-001",
         "pepper-mcq-09",
         "pepper-mcq-11",
         "pepper-mcq-08",
         "pepper-mcq-12",
         "pepper-mcq-07"
       ],
-      "explanation": "本句的「peppered」指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
+      "explanation": "本句的「peppered」指「在說話或文字中頻繁穿插某種內容」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "peppered"
       ],
       "optionReasons": {
-        "pepper-mcq-10": "本句指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
+        "pepper-pdf-001": "本句指「在說話或文字中頻繁穿插某種內容」。",
         "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
         "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
         "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
         "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
         "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。"
       },
-      "correctOption": "pepper-mcq-10"
+      "correctOption": "pepper-pdf-001"
     },
     {
       "id": "pepper-12-0",

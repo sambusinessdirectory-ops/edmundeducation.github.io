@@ -205,16 +205,6 @@ export default {
       "note": "來源詞義：檢查並篩除不符合要求的內容／項目",
       "examples": [
         [
-          "The company screened hundreds of applications.",
-          "公司初步篩選了數百份申請。",
-          "檢查並篩除不符合要求的內容／項目"
-        ],
-        [
-          "HR screens candidates before sending names to the manager.",
-          "人力資源部會先篩選候選人，再把名單交給經理。",
-          "檢查並篩除不符合要求的內容／項目"
-        ],
-        [
           "The software screens messages for spam.",
           "這套軟件會篩查／過濾垃圾訊息。",
           "檢查並篩除不符合要求的內容／項目"
@@ -222,16 +212,6 @@ export default {
         [
           "The system screens out inappropriate content.",
           "系統會過濾掉不適當內容。",
-          "檢查並篩除不符合要求的內容／項目"
-        ],
-        [
-          "The filter screens out harmful particles.",
-          "過濾器會隔除／篩掉有害微粒。",
-          "檢查並篩除不符合要求的內容／項目"
-        ],
-        [
-          "The first test screens out unsuitable applicants.",
-          "第一輪測試會篩走不合適的申請人。",
           "檢查並篩除不符合要求的內容／項目"
         ]
       ],
@@ -353,6 +333,50 @@ export default {
           "Her real name is different from her screen name.",
           "她的真實姓名和網名不同。",
           "在網絡平台上代替真名顯示的名稱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "screen-pdf-001",
+      "title": "從大量人／資料中先排除不符合條件者",
+      "form": "11. screen candidates/applications = 初步篩選",
+      "en": "11. screen candidates/applications = 初步篩選",
+      "zh": "從大量人／資料中先排除不符合條件者",
+      "note": "原始 PDF 第 11 節：從大量人／資料中先排除不符合條件者",
+      "examples": [
+        [
+          "The company screened hundreds of applications.",
+          "公司初步篩選了數百份申請。",
+          "從大量人／資料中先排除不符合條件者"
+        ],
+        [
+          "HR screens candidates before sending names to the manager.",
+          "人力資源部會先篩選候選人，再把名單交給經理。",
+          "從大量人／資料中先排除不符合條件者"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "screen-pdf-002",
+      "title": "經過檢查／過濾後把不需要或不合格者排除",
+      "form": "13. screen out + unwanted element = 篩除；排除",
+      "en": "13. screen out + unwanted element = 篩除；排除",
+      "zh": "經過檢查／過濾後把不需要或不合格者排除",
+      "note": "原始 PDF 第 13 節：經過檢查／過濾後把不需要或不合格者排除",
+      "examples": [
+        [
+          "The filter screens out harmful particles.",
+          "過濾器會隔除／篩掉有害微粒。",
+          "經過檢查／過濾後把不需要或不合格者排除"
+        ],
+        [
+          "The first test screens out unsuitable applicants.",
+          "第一輪測試會篩走不合適的申請人。",
+          "經過檢查／過濾後把不需要或不合格者排除"
         ]
       ],
       "options": [],
@@ -932,63 +956,63 @@ export default {
     },
     {
       "id": "screen-11-0",
-      "sense": "screen-mcq-09",
+      "sense": "screen-pdf-001",
       "en": "The company screened hundreds of applications.",
       "zh": "公司初步篩選了數百份申請。",
       "masked": "The company ____ hundreds of applications.",
       "options": [
-        "screen-mcq-09",
+        "screen-pdf-001",
         "screen-mcq-08",
         "screen-mcq-10",
         "screen-mcq-07",
         "screen-mcq-11",
         "screen-mcq-06"
       ],
-      "explanation": "本句的「screened」指「檢查並篩除不符合要求的內容／項目」。",
+      "explanation": "本句的「screened」指「從大量人／資料中先排除不符合條件者」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "screened"
       ],
       "optionReasons": {
-        "screen-mcq-09": "本句指「檢查並篩除不符合要求的內容／項目」。",
+        "screen-pdf-001": "本句指「從大量人／資料中先排除不符合條件者」。",
         "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
         "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
         "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
         "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
         "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
       },
-      "correctOption": "screen-mcq-09"
+      "correctOption": "screen-pdf-001"
     },
     {
       "id": "screen-11-1",
-      "sense": "screen-mcq-09",
+      "sense": "screen-pdf-001",
       "en": "HR screens candidates before sending names to the manager.",
       "zh": "人力資源部會先篩選候選人，再把名單交給經理。",
       "masked": "HR ____ candidates before sending names to the manager.",
       "options": [
-        "screen-mcq-09",
+        "screen-pdf-001",
         "screen-mcq-08",
         "screen-mcq-10",
         "screen-mcq-07",
         "screen-mcq-11",
         "screen-mcq-06"
       ],
-      "explanation": "本句的「screens」指「檢查並篩除不符合要求的內容／項目」。",
+      "explanation": "本句的「screens」指「從大量人／資料中先排除不符合條件者」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "screens"
       ],
       "optionReasons": {
-        "screen-mcq-09": "本句指「檢查並篩除不符合要求的內容／項目」。",
+        "screen-pdf-001": "本句指「從大量人／資料中先排除不符合條件者」。",
         "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
         "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
         "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
         "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
         "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
       },
-      "correctOption": "screen-mcq-09"
+      "correctOption": "screen-pdf-001"
     },
     {
       "id": "screen-12-0",
@@ -1052,63 +1076,63 @@ export default {
     },
     {
       "id": "screen-13-0",
-      "sense": "screen-mcq-09",
+      "sense": "screen-pdf-002",
       "en": "The filter screens out harmful particles.",
       "zh": "過濾器會隔除／篩掉有害微粒。",
       "masked": "The filter ____ harmful particles.",
       "options": [
-        "screen-mcq-09",
+        "screen-pdf-002",
         "screen-mcq-08",
         "screen-mcq-10",
         "screen-mcq-07",
         "screen-mcq-11",
         "screen-mcq-06"
       ],
-      "explanation": "本句的「screens out」指「檢查並篩除不符合要求的內容／項目」。",
+      "explanation": "本句的「screens out」指「經過檢查／過濾後把不需要或不合格者排除」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "screens out"
       ],
       "optionReasons": {
-        "screen-mcq-09": "本句指「檢查並篩除不符合要求的內容／項目」。",
+        "screen-pdf-002": "本句指「經過檢查／過濾後把不需要或不合格者排除」。",
         "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
         "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
         "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
         "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
         "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
       },
-      "correctOption": "screen-mcq-09"
+      "correctOption": "screen-pdf-002"
     },
     {
       "id": "screen-13-1",
-      "sense": "screen-mcq-09",
+      "sense": "screen-pdf-002",
       "en": "The first test screens out unsuitable applicants.",
       "zh": "第一輪測試會篩走不合適的申請人。",
       "masked": "The first test ____ out unsuitable applicants.",
       "options": [
-        "screen-mcq-09",
+        "screen-pdf-002",
         "screen-mcq-08",
         "screen-mcq-10",
         "screen-mcq-07",
         "screen-mcq-11",
         "screen-mcq-06"
       ],
-      "explanation": "本句的「screens」指「檢查並篩除不符合要求的內容／項目」。",
+      "explanation": "本句的「screens」指「經過檢查／過濾後把不需要或不合格者排除」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "screens"
       ],
       "optionReasons": {
-        "screen-mcq-09": "本句指「檢查並篩除不符合要求的內容／項目」。",
+        "screen-pdf-002": "本句指「經過檢查／過濾後把不需要或不合格者排除」。",
         "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
         "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
         "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
         "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
         "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
       },
-      "correctOption": "screen-mcq-09"
+      "correctOption": "screen-pdf-002"
     },
     {
       "id": "screen-14-0",

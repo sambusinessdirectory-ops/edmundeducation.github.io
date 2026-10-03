@@ -107,18 +107,7 @@ export default {
       "en": "unwind — finance",
       "zh": "透過出售、反向交易等方式逐步平掉原有持倉",
       "note": "來源詞義：透過出售、反向交易等方式逐步平掉原有持倉",
-      "examples": [
-        [
-          "The fund began to unwind its position.",
-          "該基金開始平倉／減持並退出原有持倉。",
-          "透過出售、反向交易等方式逐步平掉原有持倉"
-        ],
-        [
-          "Investors rushed to unwind risky trades.",
-          "投資者急於解除高風險交易部位／平倉。",
-          "透過出售、反向交易等方式逐步平掉原有持倉"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -161,6 +150,28 @@ export default {
           "As the story unwinds, the characters’ motives become clearer.",
           "隨著故事逐步展開，角色的動機變得更清楚。",
           "故事或事件逐步展開並揭示細節；較少見"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "unwind-pdf-001",
+      "title": "逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀",
+      "form": "6. unwind a position/trade（金融） — 平倉；解除持倉",
+      "en": "6. unwind a position/trade（金融） — 平倉；解除持倉",
+      "zh": "逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀",
+      "note": "原始 PDF 第 6 節：逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀",
+      "examples": [
+        [
+          "The fund began to unwind its position.",
+          "該基金開始平倉／減持並退出原有持倉。",
+          "逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀"
+        ],
+        [
+          "Investors rushed to unwind risky trades.",
+          "投資者急於解除高風險交易部位／平倉。",
+          "逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀"
         ]
       ],
       "options": [],
@@ -380,63 +391,63 @@ export default {
     },
     {
       "id": "unwind-06-0",
-      "sense": "unwind-mcq-06",
+      "sense": "unwind-pdf-001",
       "en": "The fund began to unwind its position.",
       "zh": "該基金開始平倉／減持並退出原有持倉。",
       "masked": "The fund began to ____.",
       "options": [
-        "unwind-mcq-06",
+        "unwind-pdf-001",
         "unwind-mcq-05",
         "unwind-mcq-07",
         "unwind-mcq-04",
         "unwind-mcq-08",
         "unwind-mcq-03"
       ],
-      "explanation": "本句的「unwind its position」指「透過出售、反向交易等方式逐步平掉原有持倉」。",
+      "explanation": "本句的「unwind its position」指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
       "sentenceIndex": 7,
       "sourcePractice": 12,
       "targets": [
         "unwind its position"
       ],
       "optionReasons": {
-        "unwind-mcq-06": "本句指「透過出售、反向交易等方式逐步平掉原有持倉」。",
+        "unwind-pdf-001": "本句指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
         "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
         "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
         "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
         "unwind-mcq-08": "「故事或事件逐步展開並揭示細節；較少見」與本句語境不同。",
         "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
       },
-      "correctOption": "unwind-mcq-06"
+      "correctOption": "unwind-pdf-001"
     },
     {
       "id": "unwind-06-1",
-      "sense": "unwind-mcq-06",
+      "sense": "unwind-pdf-001",
       "en": "Investors rushed to unwind risky trades.",
       "zh": "投資者急於解除高風險交易部位／平倉。",
       "masked": "Investors rushed to ____ risky trades.",
       "options": [
-        "unwind-mcq-06",
+        "unwind-pdf-001",
         "unwind-mcq-05",
         "unwind-mcq-07",
         "unwind-mcq-04",
         "unwind-mcq-08",
         "unwind-mcq-03"
       ],
-      "explanation": "本句的「unwind」指「透過出售、反向交易等方式逐步平掉原有持倉」。",
+      "explanation": "本句的「unwind」指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
       "sentenceIndex": 8,
       "sourcePractice": 13,
       "targets": [
         "unwind"
       ],
       "optionReasons": {
-        "unwind-mcq-06": "本句指「透過出售、反向交易等方式逐步平掉原有持倉」。",
+        "unwind-pdf-001": "本句指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
         "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
         "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
         "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
         "unwind-mcq-08": "「故事或事件逐步展開並揭示細節；較少見」與本句語境不同。",
         "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
       },
-      "correctOption": "unwind-mcq-06"
+      "correctOption": "unwind-pdf-001"
     },
     {
       "id": "unwind-07-0",

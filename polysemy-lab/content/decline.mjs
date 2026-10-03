@@ -444,16 +444,6 @@ export default {
       "note": "來源詞義：拒絕置評",
       "examples": [
         [
-          "He declined to comment.",
-          "他拒絕置評。",
-          "拒絕置評"
-        ],
-        [
-          "She declined to answer the question.",
-          "她拒絕回答問題。",
-          "拒絕置評"
-        ],
-        [
           "The company declined to comment on the report.",
           "公司對報告拒絕置評。",
           "拒絕置評"
@@ -567,6 +557,28 @@ export default {
           "Membership has been in decline for several years.",
           "會員人數已經連續數年下降。",
           "正在衰退"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "decline-pdf-001",
+      "title": "禮貌、正式或刻意地拒絕做 X",
+      "form": "24. decline to do something — 拒絕做某事",
+      "en": "24. decline to do something — 拒絕做某事",
+      "zh": "禮貌、正式或刻意地拒絕做 X",
+      "note": "原始 PDF 第 24 節：禮貌、正式或刻意地拒絕做 X",
+      "examples": [
+        [
+          "He declined to comment.",
+          "他拒絕置評。",
+          "禮貌、正式或刻意地拒絕做 X"
+        ],
+        [
+          "She declined to answer the question.",
+          "她拒絕回答問題。",
+          "禮貌、正式或刻意地拒絕做 X"
         ]
       ],
       "options": [],
@@ -1806,63 +1818,63 @@ export default {
     },
     {
       "id": "decline-24-0",
-      "sense": "decline-mcq-20",
+      "sense": "decline-pdf-001",
       "en": "He declined to comment.",
       "zh": "他拒絕置評。",
       "masked": "He ____.",
       "options": [
-        "decline-mcq-20",
+        "decline-pdf-001",
         "decline-mcq-19",
         "decline-mcq-21",
         "decline-mcq-18",
         "decline-mcq-22",
         "decline-mcq-17"
       ],
-      "explanation": "本句的「declined to comment」指「拒絕置評」。",
+      "explanation": "本句的「declined to comment」指「禮貌、正式或刻意地拒絕做 X」。",
       "sentenceIndex": 47,
       "sourcePractice": 1,
       "targets": [
         "declined to comment"
       ],
       "optionReasons": {
-        "decline-mcq-20": "本句指「拒絕置評」。",
+        "decline-pdf-001": "本句指「禮貌、正式或刻意地拒絕做 X」。",
         "decline-mcq-19": "「拒絕要求」與本句語境不同。",
         "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
         "decline-mcq-18": "「拒絕提議」與本句語境不同。",
         "decline-mcq-22": "「X 的下降」與本句語境不同。",
         "decline-mcq-17": "「婉拒邀請」與本句語境不同。"
       },
-      "correctOption": "decline-mcq-20"
+      "correctOption": "decline-pdf-001"
     },
     {
       "id": "decline-24-1",
-      "sense": "decline-mcq-20",
+      "sense": "decline-pdf-001",
       "en": "She declined to answer the question.",
       "zh": "她拒絕回答問題。",
       "masked": "She ____.",
       "options": [
-        "decline-mcq-20",
+        "decline-pdf-001",
         "decline-mcq-19",
         "decline-mcq-21",
         "decline-mcq-18",
         "decline-mcq-22",
         "decline-mcq-17"
       ],
-      "explanation": "本句的「declined to answer the question」指「拒絕置評」。",
+      "explanation": "本句的「declined to answer the question」指「禮貌、正式或刻意地拒絕做 X」。",
       "sentenceIndex": 48,
       "sourcePractice": 2,
       "targets": [
         "declined to answer the question"
       ],
       "optionReasons": {
-        "decline-mcq-20": "本句指「拒絕置評」。",
+        "decline-pdf-001": "本句指「禮貌、正式或刻意地拒絕做 X」。",
         "decline-mcq-19": "「拒絕要求」與本句語境不同。",
         "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
         "decline-mcq-18": "「拒絕提議」與本句語境不同。",
         "decline-mcq-22": "「X 的下降」與本句語境不同。",
         "decline-mcq-17": "「婉拒邀請」與本句語境不同。"
       },
-      "correctOption": "decline-mcq-20"
+      "correctOption": "decline-pdf-001"
     },
     {
       "id": "decline-25-0",

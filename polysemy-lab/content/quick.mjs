@@ -66,16 +66,6 @@ export default {
           "I had a quick shower.",
           "我很快地洗了個澡。",
           "某活動本身持續時間很短"
-        ],
-        [
-          "We had a quick lunch.",
-          "我們很快地吃了個簡單午餐。",
-          "某活動本身持續時間很短"
-        ],
-        [
-          "Take a quick break.",
-          "稍微休息一下／短暫休息。",
-          "某活動本身持續時間很短"
         ]
       ],
       "options": [],
@@ -120,18 +110,7 @@ export default {
       "en": "quick decision",
       "zh": "在很短時間內作出的決定；本身不表示是否明智",
       "note": "來源詞義：在很短時間內作出的決定；本身不表示是否明智",
-      "examples": [
-        [
-          "Let me take a quick look.",
-          "讓我快速看一下。",
-          "在很短時間內作出的決定；本身不表示是否明智"
-        ],
-        [
-          "I did a quick check before sending the file.",
-          "寄出檔案前，我快速檢查了一下。",
-          "在很短時間內作出的決定；本身不表示是否明智"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -303,16 +282,6 @@ export default {
       "note": "來源詞義：身體對突然刺激迅速作出反應的能力",
       "examples": [
         [
-          "You need quick reflexes for this sport.",
-          "這項運動需要敏捷反應。",
-          "身體對突然刺激迅速作出反應的能力"
-        ],
-        [
-          "The goalkeeper has very quick hands.",
-          "守門員的手部反應非常敏捷。",
-          "身體對突然刺激迅速作出反應的能力"
-        ],
-        [
           "His quick reflexes saved him from falling.",
           "他的敏捷反應令他沒有跌倒。",
           "身體對突然刺激迅速作出反應的能力"
@@ -334,16 +303,6 @@ export default {
       "zh": "情緒很快由平靜變成憤怒；容易發脾氣",
       "note": "來源詞義：情緒很快由平靜變成憤怒；容易發脾氣",
       "examples": [
-        [
-          "Don’t be too quick to blame him.",
-          "不要太快責怪他。",
-          "情緒很快由平靜變成憤怒；容易發脾氣"
-        ],
-        [
-          "People were quick to assume the worst.",
-          "人們很快便往最壞方向猜想。",
-          "情緒很快由平靜變成憤怒；容易發脾氣"
-        ],
         [
           "He has a quick temper.",
           "他很容易發脾氣／脾氣急。",
@@ -418,26 +377,6 @@ export default {
         [
           "The music gradually quickened.",
           "音樂節奏逐漸加快。",
-          "令速度／節奏變快，或本身加快"
-        ],
-        [
-          "The new system should quicken the process.",
-          "新系統應該能加快流程。",
-          "令速度／節奏變快，或本身加快"
-        ],
-        [
-          "The treatment may quicken recovery.",
-          "治療可能有助加快康復。",
-          "令速度／節奏變快，或本身加快"
-        ],
-        [
-          "Her heartbeat quickened.",
-          "她的心跳加快了。",
-          "令速度／節奏變快，或本身加快"
-        ],
-        [
-          "His breathing quickened as he ran.",
-          "他跑步時呼吸加快。",
           "令速度／節奏變快，或本身加快"
         ]
       ],
@@ -579,6 +518,138 @@ export default {
           "He is quick to notice small changes.",
           "他很快就能注意到細微變化。",
           "很快察覺／理解／作出某種反應"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quick-pdf-001",
+      "title": "花很少時間即可完成／進行",
+      "form": "4. quick meal / quick break（快速解決的一餐／短暫休息） — 簡短；省時",
+      "en": "4. quick meal / quick break（快速解決的一餐／短暫休息） — 簡短；省時",
+      "zh": "花很少時間即可完成／進行",
+      "note": "原始 PDF 第 4 節：花很少時間即可完成／進行",
+      "examples": [
+        [
+          "We had a quick lunch.",
+          "我們很快地吃了個簡單午餐。",
+          "花很少時間即可完成／進行"
+        ],
+        [
+          "Take a quick break.",
+          "稍微休息一下／短暫休息。",
+          "花很少時間即可完成／進行"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quick-pdf-002",
+      "title": "花很少時間做，因此通常不是非常深入／詳細",
+      "form": "8. quick = brief / cursory（簡略的） — 快速看一下；粗略",
+      "en": "8. quick = brief / cursory（簡略的） — 快速看一下；粗略",
+      "zh": "花很少時間做，因此通常不是非常深入／詳細",
+      "note": "原始 PDF 第 8 節：花很少時間做，因此通常不是非常深入／詳細",
+      "examples": [
+        [
+          "Let me take a quick look.",
+          "讓我快速看一下。",
+          "花很少時間做，因此通常不是非常深入／詳細"
+        ],
+        [
+          "I did a quick check before sending the file.",
+          "寄出檔案前，我快速檢查了一下。",
+          "花很少時間做，因此通常不是非常深入／詳細"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quick-pdf-003",
+      "title": "身體／感官反應快而靈活",
+      "form": "17. quick = alert / responsive（敏捷的） — 敏捷；靈活",
+      "en": "17. quick = alert / responsive（敏捷的） — 敏捷；靈活",
+      "zh": "身體／感官反應快而靈活",
+      "note": "原始 PDF 第 17 節：身體／感官反應快而靈活",
+      "examples": [
+        [
+          "You need quick reflexes for this sport.",
+          "這項運動需要敏捷反應。",
+          "身體／感官反應快而靈活"
+        ],
+        [
+          "The goalkeeper has very quick hands.",
+          "守門員的手部反應非常敏捷。",
+          "身體／感官反應快而靈活"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quick-pdf-004",
+      "title": "還未充分了解情況便急於作出行動／判斷",
+      "form": "19. quick = eager to act, sometimes prematurely（很快就……） — 容易急於",
+      "en": "19. quick = eager to act, sometimes prematurely（很快就……） — 容易急於",
+      "zh": "還未充分了解情況便急於作出行動／判斷",
+      "note": "原始 PDF 第 19 節：還未充分了解情況便急於作出行動／判斷",
+      "examples": [
+        [
+          "Don’t be too quick to blame him.",
+          "不要太快責怪他。",
+          "還未充分了解情況便急於作出行動／判斷"
+        ],
+        [
+          "People were quick to assume the worst.",
+          "人們很快便往最壞方向猜想。",
+          "還未充分了解情況便急於作出行動／判斷"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quick-pdf-005",
+      "title": "縮短某個過程所需時間",
+      "form": "25. quicken = make something happen faster（加快） — 促進；加速",
+      "en": "25. quicken = make something happen faster（加快） — 促進；加速",
+      "zh": "縮短某個過程所需時間",
+      "note": "原始 PDF 第 25 節：縮短某個過程所需時間",
+      "examples": [
+        [
+          "The new system should quicken the process.",
+          "新系統應該能加快流程。",
+          "縮短某個過程所需時間"
+        ],
+        [
+          "The treatment may quicken recovery.",
+          "治療可能有助加快康復。",
+          "縮短某個過程所需時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quick-pdf-006",
+      "title": "心跳、呼吸等頻率增加",
+      "form": "26. quicken = become more active/intense（加劇；活躍起來） — 加快；加強",
+      "en": "26. quicken = become more active/intense（加劇；活躍起來） — 加快；加強",
+      "zh": "心跳、呼吸等頻率增加",
+      "note": "原始 PDF 第 26 節：心跳、呼吸等頻率增加",
+      "examples": [
+        [
+          "Her heartbeat quickened.",
+          "她的心跳加快了。",
+          "心跳、呼吸等頻率增加"
+        ],
+        [
+          "His breathing quickened as he ran.",
+          "他跑步時呼吸加快。",
+          "心跳、呼吸等頻率增加"
         ]
       ],
       "options": [],
@@ -768,63 +839,63 @@ export default {
     },
     {
       "id": "quick-04-0",
-      "sense": "quick-mcq-03",
+      "sense": "quick-pdf-001",
       "en": "We had a quick lunch.",
       "zh": "我們很快地吃了個簡單午餐。",
       "masked": "We had a ____.",
       "options": [
-        "quick-mcq-03",
+        "quick-pdf-001",
         "quick-mcq-02",
         "quick-mcq-04",
         "quick-mcq-01",
         "quick-mcq-05",
         "quick-mcq-06"
       ],
-      "explanation": "本句的「quick lunch」指「某活動本身持續時間很短」。",
+      "explanation": "本句的「quick lunch」指「花很少時間即可完成／進行」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "quick lunch"
       ],
       "optionReasons": {
-        "quick-mcq-03": "本句指「某活動本身持續時間很短」。",
+        "quick-pdf-001": "本句指「花很少時間即可完成／進行」。",
         "quick-mcq-02": "「以高速度或很短時間完成某動作／變化」是「quickly — speed」的用法，與本句語境不同。",
         "quick-mcq-04": "「在事件發生後幾乎不拖延地作出反應」是「quick response/reaction」的用法，與本句語境不同。",
         "quick-mcq-01": "「動作、移動或反應速度很快」是「quick — movement/action」的用法，與本句語境不同。",
         "quick-mcq-05": "「在很短時間內作出的決定；本身不表示是否明智」是「quick decision」的用法，與本句語境不同。",
         "quick-mcq-06": "「短時間、概括性地查看，而非深入分析」是「quick look/check」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-03"
+      "correctOption": "quick-pdf-001"
     },
     {
       "id": "quick-04-1",
-      "sense": "quick-mcq-03",
+      "sense": "quick-pdf-001",
       "en": "Take a quick break.",
       "zh": "稍微休息一下／短暫休息。",
       "masked": "Take a ____ break.",
       "options": [
-        "quick-mcq-03",
+        "quick-pdf-001",
         "quick-mcq-02",
         "quick-mcq-04",
         "quick-mcq-01",
         "quick-mcq-05",
         "quick-mcq-06"
       ],
-      "explanation": "本句的「quick」指「某活動本身持續時間很短」。",
+      "explanation": "本句的「quick」指「花很少時間即可完成／進行」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "quick"
       ],
       "optionReasons": {
-        "quick-mcq-03": "本句指「某活動本身持續時間很短」。",
+        "quick-pdf-001": "本句指「花很少時間即可完成／進行」。",
         "quick-mcq-02": "「以高速度或很短時間完成某動作／變化」是「quickly — speed」的用法，與本句語境不同。",
         "quick-mcq-04": "「在事件發生後幾乎不拖延地作出反應」是「quick response/reaction」的用法，與本句語境不同。",
         "quick-mcq-01": "「動作、移動或反應速度很快」是「quick — movement/action」的用法，與本句語境不同。",
         "quick-mcq-05": "「在很短時間內作出的決定；本身不表示是否明智」是「quick decision」的用法，與本句語境不同。",
         "quick-mcq-06": "「短時間、概括性地查看，而非深入分析」是「quick look/check」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-03"
+      "correctOption": "quick-pdf-001"
     },
     {
       "id": "quick-05-0",
@@ -1008,63 +1079,63 @@ export default {
     },
     {
       "id": "quick-08-0",
-      "sense": "quick-mcq-05",
+      "sense": "quick-pdf-002",
       "en": "Let me take a quick look.",
       "zh": "讓我快速看一下。",
       "masked": "Let me take a ____.",
       "options": [
-        "quick-mcq-05",
+        "quick-pdf-002",
         "quick-mcq-04",
         "quick-mcq-06",
         "quick-mcq-03",
         "quick-mcq-07",
         "quick-mcq-02"
       ],
-      "explanation": "本句的「quick look」指「在很短時間內作出的決定；本身不表示是否明智」。",
+      "explanation": "本句的「quick look」指「花很少時間做，因此通常不是非常深入／詳細」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "quick look"
       ],
       "optionReasons": {
-        "quick-mcq-05": "本句指「在很短時間內作出的決定；本身不表示是否明智」。",
+        "quick-pdf-002": "本句指「花很少時間做，因此通常不是非常深入／詳細」。",
         "quick-mcq-04": "「在事件發生後幾乎不拖延地作出反應」是「quick response/reaction」的用法，與本句語境不同。",
         "quick-mcq-06": "「短時間、概括性地查看，而非深入分析」是「quick look/check」的用法，與本句語境不同。",
         "quick-mcq-03": "「某活動本身持續時間很短」是「quick — short duration」的用法，與本句語境不同。",
         "quick-mcq-07": "「在還沒有足夠時間、資訊或思考前便作出行動／判斷」是「quickly — too soon」的用法，與本句語境不同。",
         "quick-mcq-02": "「以高速度或很短時間完成某動作／變化」是「quickly — speed」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-05"
+      "correctOption": "quick-pdf-002"
     },
     {
       "id": "quick-08-1",
-      "sense": "quick-mcq-05",
+      "sense": "quick-pdf-002",
       "en": "I did a quick check before sending the file.",
       "zh": "寄出檔案前，我快速檢查了一下。",
       "masked": "I did a ____ check before sending the file.",
       "options": [
-        "quick-mcq-05",
+        "quick-pdf-002",
         "quick-mcq-04",
         "quick-mcq-06",
         "quick-mcq-03",
         "quick-mcq-07",
         "quick-mcq-02"
       ],
-      "explanation": "本句的「quick」指「在很短時間內作出的決定；本身不表示是否明智」。",
+      "explanation": "本句的「quick」指「花很少時間做，因此通常不是非常深入／詳細」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "quick"
       ],
       "optionReasons": {
-        "quick-mcq-05": "本句指「在很短時間內作出的決定；本身不表示是否明智」。",
+        "quick-pdf-002": "本句指「花很少時間做，因此通常不是非常深入／詳細」。",
         "quick-mcq-04": "「在事件發生後幾乎不拖延地作出反應」是「quick response/reaction」的用法，與本句語境不同。",
         "quick-mcq-06": "「短時間、概括性地查看，而非深入分析」是「quick look/check」的用法，與本句語境不同。",
         "quick-mcq-03": "「某活動本身持續時間很短」是「quick — short duration」的用法，與本句語境不同。",
         "quick-mcq-07": "「在還沒有足夠時間、資訊或思考前便作出行動／判斷」是「quickly — too soon」的用法，與本句語境不同。",
         "quick-mcq-02": "「以高速度或很短時間完成某動作／變化」是「quickly — speed」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-05"
+      "correctOption": "quick-pdf-002"
     },
     {
       "id": "quick-09-0",
@@ -1578,63 +1649,63 @@ export default {
     },
     {
       "id": "quick-17-0",
-      "sense": "quick-mcq-13",
+      "sense": "quick-pdf-003",
       "en": "You need quick reflexes for this sport.",
       "zh": "這項運動需要敏捷反應。",
       "masked": "You need ____ for this sport.",
       "options": [
-        "quick-mcq-13",
+        "quick-pdf-003",
         "quick-mcq-12",
         "quick-mcq-14",
         "quick-mcq-11",
         "quick-mcq-15",
         "quick-mcq-10"
       ],
-      "explanation": "本句的「quick reflexes」指「身體對突然刺激迅速作出反應的能力」。",
+      "explanation": "本句的「quick reflexes」指「身體／感官反應快而靈活」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "quick reflexes"
       ],
       "optionReasons": {
-        "quick-mcq-13": "本句指「身體對突然刺激迅速作出反應的能力」。",
+        "quick-pdf-003": "本句指「身體／感官反應快而靈活」。",
         "quick-mcq-12": "「某人很快便採取某種行動；有時暗示過於急於」是「quick to do」的用法，與本句語境不同。",
         "quick-mcq-14": "「情緒很快由平靜變成憤怒；容易發脾氣」是「quick temper」的用法，與本句語境不同。",
         "quick-mcq-11": "「能在短時間內掌握新知識／技能的人」是「quick learner」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-10": "「在短時間內理解情況並作出有效判斷的能力」是「quick thinking」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-13"
+      "correctOption": "quick-pdf-003"
     },
     {
       "id": "quick-17-1",
-      "sense": "quick-mcq-13",
+      "sense": "quick-pdf-003",
       "en": "The goalkeeper has very quick hands.",
       "zh": "守門員的手部反應非常敏捷。",
       "masked": "The goalkeeper has very ____ hands.",
       "options": [
-        "quick-mcq-13",
+        "quick-pdf-003",
         "quick-mcq-12",
         "quick-mcq-14",
         "quick-mcq-11",
         "quick-mcq-15",
         "quick-mcq-10"
       ],
-      "explanation": "本句的「quick」指「身體對突然刺激迅速作出反應的能力」。",
+      "explanation": "本句的「quick」指「身體／感官反應快而靈活」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "quick"
       ],
       "optionReasons": {
-        "quick-mcq-13": "本句指「身體對突然刺激迅速作出反應的能力」。",
+        "quick-pdf-003": "本句指「身體／感官反應快而靈活」。",
         "quick-mcq-12": "「某人很快便採取某種行動；有時暗示過於急於」是「quick to do」的用法，與本句語境不同。",
         "quick-mcq-14": "「情緒很快由平靜變成憤怒；容易發脾氣」是「quick temper」的用法，與本句語境不同。",
         "quick-mcq-11": "「能在短時間內掌握新知識／技能的人」是「quick learner」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-10": "「在短時間內理解情況並作出有效判斷的能力」是「quick thinking」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-13"
+      "correctOption": "quick-pdf-003"
     },
     {
       "id": "quick-18-0",
@@ -1698,63 +1769,63 @@ export default {
     },
     {
       "id": "quick-19-0",
-      "sense": "quick-mcq-14",
+      "sense": "quick-pdf-004",
       "en": "Don’t be too quick to blame him.",
       "zh": "不要太快責怪他。",
       "masked": "Don’t be too ____ him.",
       "options": [
-        "quick-mcq-14",
+        "quick-pdf-004",
         "quick-mcq-13",
         "quick-mcq-15",
         "quick-mcq-12",
         "quick-mcq-16",
         "quick-mcq-11"
       ],
-      "explanation": "本句的「quick to blame」指「情緒很快由平靜變成憤怒；容易發脾氣」。",
+      "explanation": "本句的「quick to blame」指「還未充分了解情況便急於作出行動／判斷」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "quick to blame"
       ],
       "optionReasons": {
-        "quick-mcq-14": "本句指「情緒很快由平靜變成憤怒；容易發脾氣」。",
+        "quick-pdf-004": "本句指「還未充分了解情況便急於作出行動／判斷」。",
         "quick-mcq-13": "「身體對突然刺激迅速作出反應的能力」是「quick reflexes」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-12": "「某人很快便採取某種行動；有時暗示過於急於」是「quick to do」的用法，與本句語境不同。",
         "quick-mcq-16": "「在情感上深深傷害某人」是「cut to the quick」的用法，與本句語境不同。",
         "quick-mcq-11": "「能在短時間內掌握新知識／技能的人」是「quick learner」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-14"
+      "correctOption": "quick-pdf-004"
     },
     {
       "id": "quick-19-1",
-      "sense": "quick-mcq-14",
+      "sense": "quick-pdf-004",
       "en": "People were quick to assume the worst.",
       "zh": "人們很快便往最壞方向猜想。",
       "masked": "People were ____ to assume the worst.",
       "options": [
-        "quick-mcq-14",
+        "quick-pdf-004",
         "quick-mcq-13",
         "quick-mcq-15",
         "quick-mcq-12",
         "quick-mcq-16",
         "quick-mcq-11"
       ],
-      "explanation": "本句的「quick」指「情緒很快由平靜變成憤怒；容易發脾氣」。",
+      "explanation": "本句的「quick」指「還未充分了解情況便急於作出行動／判斷」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "quick"
       ],
       "optionReasons": {
-        "quick-mcq-14": "本句指「情緒很快由平靜變成憤怒；容易發脾氣」。",
+        "quick-pdf-004": "本句指「還未充分了解情況便急於作出行動／判斷」。",
         "quick-mcq-13": "「身體對突然刺激迅速作出反應的能力」是「quick reflexes」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-12": "「某人很快便採取某種行動；有時暗示過於急於」是「quick to do」的用法，與本句語境不同。",
         "quick-mcq-16": "「在情感上深深傷害某人」是「cut to the quick」的用法，與本句語境不同。",
         "quick-mcq-11": "「能在短時間內掌握新知識／技能的人」是「quick learner」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-14"
+      "correctOption": "quick-pdf-004"
     },
     {
       "id": "quick-20-0",
@@ -1998,123 +2069,123 @@ export default {
     },
     {
       "id": "quick-25-0",
-      "sense": "quick-mcq-17",
+      "sense": "quick-pdf-005",
       "en": "The new system should quicken the process.",
       "zh": "新系統應該能加快流程。",
       "masked": "The new system should ____.",
       "options": [
-        "quick-mcq-17",
+        "quick-pdf-005",
         "quick-mcq-16",
         "quick-mcq-18",
         "quick-mcq-15",
         "quick-mcq-19",
         "quick-mcq-14"
       ],
-      "explanation": "本句的「quicken the process」指「令速度／節奏變快，或本身加快」。",
+      "explanation": "本句的「quicken the process」指「縮短某個過程所需時間」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "quicken the process"
       ],
       "optionReasons": {
-        "quick-mcq-17": "本句指「令速度／節奏變快，或本身加快」。",
+        "quick-pdf-005": "本句指「縮短某個過程所需時間」。",
         "quick-mcq-16": "「在情感上深深傷害某人」是「cut to the quick」的用法，與本句語境不同。",
         "quick-mcq-18": "「動作、反應或思考迅速的程度」是「quickness」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-19": "「能快速處理眼前問題但未必解決根本原因的方法」是「quick fix」的用法，與本句語境不同。",
         "quick-mcq-14": "「情緒很快由平靜變成憤怒；容易發脾氣」是「quick temper」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-17"
+      "correctOption": "quick-pdf-005"
     },
     {
       "id": "quick-25-1",
-      "sense": "quick-mcq-17",
+      "sense": "quick-pdf-005",
       "en": "The treatment may quicken recovery.",
       "zh": "治療可能有助加快康復。",
       "masked": "The treatment may ____ recovery.",
       "options": [
-        "quick-mcq-17",
+        "quick-pdf-005",
         "quick-mcq-16",
         "quick-mcq-18",
         "quick-mcq-15",
         "quick-mcq-19",
         "quick-mcq-14"
       ],
-      "explanation": "本句的「quicken」指「令速度／節奏變快，或本身加快」。",
+      "explanation": "本句的「quicken」指「縮短某個過程所需時間」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "quicken"
       ],
       "optionReasons": {
-        "quick-mcq-17": "本句指「令速度／節奏變快，或本身加快」。",
+        "quick-pdf-005": "本句指「縮短某個過程所需時間」。",
         "quick-mcq-16": "「在情感上深深傷害某人」是「cut to the quick」的用法，與本句語境不同。",
         "quick-mcq-18": "「動作、反應或思考迅速的程度」是「quickness」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-19": "「能快速處理眼前問題但未必解決根本原因的方法」是「quick fix」的用法，與本句語境不同。",
         "quick-mcq-14": "「情緒很快由平靜變成憤怒；容易發脾氣」是「quick temper」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-17"
+      "correctOption": "quick-pdf-005"
     },
     {
       "id": "quick-26-0",
-      "sense": "quick-mcq-17",
+      "sense": "quick-pdf-006",
       "en": "Her heartbeat quickened.",
       "zh": "她的心跳加快了。",
       "masked": "Her heartbeat ____.",
       "options": [
-        "quick-mcq-17",
+        "quick-pdf-006",
         "quick-mcq-16",
         "quick-mcq-18",
         "quick-mcq-15",
         "quick-mcq-19",
         "quick-mcq-14"
       ],
-      "explanation": "本句的「quickened」指「令速度／節奏變快，或本身加快」。",
+      "explanation": "本句的「quickened」指「心跳、呼吸等頻率增加」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "quickened"
       ],
       "optionReasons": {
-        "quick-mcq-17": "本句指「令速度／節奏變快，或本身加快」。",
+        "quick-pdf-006": "本句指「心跳、呼吸等頻率增加」。",
         "quick-mcq-16": "「在情感上深深傷害某人」是「cut to the quick」的用法，與本句語境不同。",
         "quick-mcq-18": "「動作、反應或思考迅速的程度」是「quickness」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-19": "「能快速處理眼前問題但未必解決根本原因的方法」是「quick fix」的用法，與本句語境不同。",
         "quick-mcq-14": "「情緒很快由平靜變成憤怒；容易發脾氣」是「quick temper」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-17"
+      "correctOption": "quick-pdf-006"
     },
     {
       "id": "quick-26-1",
-      "sense": "quick-mcq-17",
+      "sense": "quick-pdf-006",
       "en": "His breathing quickened as he ran.",
       "zh": "他跑步時呼吸加快。",
       "masked": "His breathing ____ as he ran.",
       "options": [
-        "quick-mcq-17",
+        "quick-pdf-006",
         "quick-mcq-16",
         "quick-mcq-18",
         "quick-mcq-15",
         "quick-mcq-19",
         "quick-mcq-14"
       ],
-      "explanation": "本句的「quickened」指「令速度／節奏變快，或本身加快」。",
+      "explanation": "本句的「quickened」指「心跳、呼吸等頻率增加」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "quickened"
       ],
       "optionReasons": {
-        "quick-mcq-17": "本句指「令速度／節奏變快，或本身加快」。",
+        "quick-pdf-006": "本句指「心跳、呼吸等頻率增加」。",
         "quick-mcq-16": "「在情感上深深傷害某人」是「cut to the quick」的用法，與本句語境不同。",
         "quick-mcq-18": "「動作、反應或思考迅速的程度」是「quickness」的用法，與本句語境不同。",
         "quick-mcq-15": "「指甲／爪下含血管和神經的敏感活組織」是「the quick」的用法，與本句語境不同。",
         "quick-mcq-19": "「能快速處理眼前問題但未必解決根本原因的方法」是「quick fix」的用法，與本句語境不同。",
         "quick-mcq-14": "「情緒很快由平靜變成憤怒；容易發脾氣」是「quick temper」的用法，與本句語境不同。"
       },
-      "correctOption": "quick-mcq-17"
+      "correctOption": "quick-pdf-006"
     },
     {
       "id": "quick-27-0",

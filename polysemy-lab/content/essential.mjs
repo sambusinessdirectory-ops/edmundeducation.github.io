@@ -443,16 +443,6 @@ export default {
           "The two methods are essentially the same, despite different names.",
           "儘管名稱不同，兩種方法本質上相同。",
           "基本上相同"
-        ],
-        [
-          "This is essentially a question of fairness.",
-          "這本質上是一個公平問題。",
-          "基本上相同"
-        ],
-        [
-          "The disagreement was essentially a matter of communication.",
-          "這場分歧本質上是溝通問題。",
-          "基本上相同"
         ]
       ],
       "options": [],
@@ -519,6 +509,28 @@ export default {
           "The body needs a range of essential nutrients.",
           "身體需要多種必需營養素。",
           "必需營養素"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "essential-pdf-001",
+      "title": "最根本來說，問題的核心是 X",
+      "form": "22. essentially a question / matter of — 本質上是……的問題",
+      "en": "22. essentially a question / matter of — 本質上是……的問題",
+      "zh": "最根本來說，問題的核心是 X",
+      "note": "原始 PDF 第 22 節：最根本來說，問題的核心是 X",
+      "examples": [
+        [
+          "This is essentially a question of fairness.",
+          "這本質上是一個公平問題。",
+          "最根本來說，問題的核心是 X"
+        ],
+        [
+          "The disagreement was essentially a matter of communication.",
+          "這場分歧本質上是溝通問題。",
+          "最根本來說，問題的核心是 X"
         ]
       ],
       "options": [],
@@ -1818,63 +1830,63 @@ export default {
     },
     {
       "id": "essential-22-0",
-      "sense": "essential-mcq-19",
+      "sense": "essential-pdf-001",
       "en": "This is essentially a question of fairness.",
       "zh": "這本質上是一個公平問題。",
       "masked": "This is ____.",
       "options": [
-        "essential-mcq-19",
+        "essential-pdf-001",
         "essential-mcq-18",
         "essential-mcq-20",
         "essential-mcq-17",
         "essential-mcq-21",
         "essential-mcq-16"
       ],
-      "explanation": "本句的「essentially a question of fairness」指「基本上相同」。",
+      "explanation": "本句的「essentially a question of fairness」指「最根本來說，問題的核心是 X」。",
       "sentenceIndex": 43,
       "sourcePractice": 1,
       "targets": [
         "essentially a question of fairness"
       ],
       "optionReasons": {
-        "essential-mcq-19": "本句指「基本上相同」。",
+        "essential-pdf-001": "本句指「最根本來說，問題的核心是 X」。",
         "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
         "essential-mcq-20": "「精油」與本句語境不同。",
         "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
         "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
         "essential-mcq-16": "「最基本必需品」與本句語境不同。"
       },
-      "correctOption": "essential-mcq-19"
+      "correctOption": "essential-pdf-001"
     },
     {
       "id": "essential-22-1",
-      "sense": "essential-mcq-19",
+      "sense": "essential-pdf-001",
       "en": "The disagreement was essentially a matter of communication.",
       "zh": "這場分歧本質上是溝通問題。",
       "masked": "The disagreement was ____.",
       "options": [
-        "essential-mcq-19",
+        "essential-pdf-001",
         "essential-mcq-18",
         "essential-mcq-20",
         "essential-mcq-17",
         "essential-mcq-21",
         "essential-mcq-16"
       ],
-      "explanation": "本句的「essentially a matter of communication」指「基本上相同」。",
+      "explanation": "本句的「essentially a matter of communication」指「最根本來說，問題的核心是 X」。",
       "sentenceIndex": 44,
       "sourcePractice": 2,
       "targets": [
         "essentially a matter of communication"
       ],
       "optionReasons": {
-        "essential-mcq-19": "本句指「基本上相同」。",
+        "essential-pdf-001": "本句指「最根本來說，問題的核心是 X」。",
         "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
         "essential-mcq-20": "「精油」與本句語境不同。",
         "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
         "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
         "essential-mcq-16": "「最基本必需品」與本句語境不同。"
       },
-      "correctOption": "essential-mcq-19"
+      "correctOption": "essential-pdf-001"
     },
     {
       "id": "essential-23-0",

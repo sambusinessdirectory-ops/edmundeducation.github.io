@@ -27,16 +27,6 @@ export default {
           "Never walk on the tracks.",
           "切勿在路軌上行走。",
           "軌道；路軌"
-        ],
-        [
-          "The road crosses the railway tracks.",
-          "道路橫過鐵路路軌。",
-          "軌道；路軌"
-        ],
-        [
-          "A tree fell across the train track.",
-          "一棵樹倒在鐵路軌道上。",
-          "軌道；路軌"
         ]
       ],
       "options": [],
@@ -190,16 +180,6 @@ export default {
         [
           "Businesses need to track expenses carefully.",
           "企業需要仔細記錄和監察開支。",
-          "記錄開支"
-        ],
-        [
-          "Managers track employee performance.",
-          "經理會追蹤員工表現。",
-          "記錄開支"
-        ],
-        [
-          "The system tracks performance over several months.",
-          "系統會在數個月內記錄表現變化。",
           "記錄開支"
         ]
       ],
@@ -489,18 +469,7 @@ export default {
       "en": "academic/career track",
       "zh": "學術／職業路線",
       "note": "來源詞義：學術／職業路線",
-      "examples": [
-        [
-          "She chose the academic track.",
-          "她選擇了學術路線／分流。",
-          "學術／職業路線"
-        ],
-        [
-          "Employees can follow a management track or a technical track.",
-          "員工可以選擇管理發展路線或技術發展路線。",
-          "學術／職業路線"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -542,16 +511,6 @@ export default {
         [
           "She joined a fast-track programme.",
           "她參加了一個快速培訓計劃。",
-          "加快處理"
-        ],
-        [
-          "They adopted a two-track approach.",
-          "他們採取了雙軌並行的方法。",
-          "加快處理"
-        ],
-        [
-          "The strategy follows several tracks at the same time.",
-          "策略同時沿着幾條不同路線進行。",
           "加快處理"
         ]
       ],
@@ -597,6 +556,94 @@ export default {
           "Progress tracking helps me stay motivated.",
           "進度追蹤有助我保持動力。",
           "追蹤；監察"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "track-pdf-001",
+      "title": "供火車行駛的鋼軌路線",
+      "form": "2. railway / train track — 鐵路軌道",
+      "en": "2. railway / train track — 鐵路軌道",
+      "zh": "供火車行駛的鋼軌路線",
+      "note": "原始 PDF 第 2 節：供火車行駛的鋼軌路線",
+      "examples": [
+        [
+          "The road crosses the railway tracks.",
+          "道路橫過鐵路路軌。",
+          "供火車行駛的鋼軌路線"
+        ],
+        [
+          "A tree fell across the train track.",
+          "一棵樹倒在鐵路軌道上。",
+          "供火車行駛的鋼軌路線"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "track-pdf-002",
+      "title": "持續量度和記錄表現的變化",
+      "form": "12. track performance — 追蹤表現",
+      "en": "12. track performance — 追蹤表現",
+      "zh": "持續量度和記錄表現的變化",
+      "note": "原始 PDF 第 12 節：持續量度和記錄表現的變化",
+      "examples": [
+        [
+          "Managers track employee performance.",
+          "經理會追蹤員工表現。",
+          "持續量度和記錄表現的變化"
+        ],
+        [
+          "The system tracks performance over several months.",
+          "系統會在數個月內記錄表現變化。",
+          "持續量度和記錄表現的變化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "track-pdf-003",
+      "title": "為某類學生或員工設定的學習、訓練或職業發展路線",
+      "form": "30. track（教育／職業：路線；組別） — 發展路線；分流",
+      "en": "30. track（教育／職業：路線；組別） — 發展路線；分流",
+      "zh": "為某類學生或員工設定的學習、訓練或職業發展路線",
+      "note": "原始 PDF 第 30 節：為某類學生或員工設定的學習、訓練或職業發展路線",
+      "examples": [
+        [
+          "She chose the academic track.",
+          "她選擇了學術路線／分流。",
+          "為某類學生或員工設定的學習、訓練或職業發展路線"
+        ],
+        [
+          "Employees can follow a management track or a technical track.",
+          "員工可以選擇管理發展路線或技術發展路線。",
+          "為某類學生或員工設定的學習、訓練或職業發展路線"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "track-pdf-004",
+      "title": "figurative: 一條獨立的行動、發展或處理路線",
+      "form": "33. two-track / multi-track — 雙軌／多軌並行的",
+      "en": "33. two-track / multi-track — 雙軌／多軌並行的",
+      "zh": "figurative: 一條獨立的行動、發展或處理路線",
+      "note": "原始 PDF 第 33 節：figurative: 一條獨立的行動、發展或處理路線",
+      "examples": [
+        [
+          "They adopted a two-track approach.",
+          "他們採取了雙軌並行的方法。",
+          "figurative: 一條獨立的行動、發展或處理路線"
+        ],
+        [
+          "The strategy follows several tracks at the same time.",
+          "策略同時沿着幾條不同路線進行。",
+          "figurative: 一條獨立的行動、發展或處理路線"
         ]
       ],
       "options": [],
@@ -696,63 +743,63 @@ export default {
     },
     {
       "id": "track-02-0",
-      "sense": "track-mcq-01",
+      "sense": "track-pdf-001",
       "en": "The road crosses the railway tracks.",
       "zh": "道路橫過鐵路路軌。",
       "masked": "The road crosses the ____.",
       "options": [
-        "track-mcq-01",
+        "track-pdf-001",
         "track-mcq-02",
         "track-mcq-03",
         "track-mcq-04",
         "track-mcq-05",
         "track-mcq-06"
       ],
-      "explanation": "本句的「railway tracks」指「軌道；路軌」。",
+      "explanation": "本句的「railway tracks」指「供火車行駛的鋼軌路線」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "railway tracks"
       ],
       "optionReasons": {
-        "track-mcq-01": "本句指「軌道；路軌」。",
+        "track-pdf-001": "本句指「供火車行駛的鋼軌路線」。",
         "track-mcq-02": "「跑道」與本句語境不同。",
         "track-mcq-03": "「小徑；泥路」與本句語境不同。",
         "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
         "track-mcq-05": "「追蹤；監察」與本句語境不同。",
         "track-mcq-06": "「追蹤包裹」與本句語境不同。"
       },
-      "correctOption": "track-mcq-01"
+      "correctOption": "track-pdf-001"
     },
     {
       "id": "track-02-1",
-      "sense": "track-mcq-01",
+      "sense": "track-pdf-001",
       "en": "A tree fell across the train track.",
       "zh": "一棵樹倒在鐵路軌道上。",
       "masked": "A tree fell across the ____.",
       "options": [
-        "track-mcq-01",
+        "track-pdf-001",
         "track-mcq-02",
         "track-mcq-03",
         "track-mcq-04",
         "track-mcq-05",
         "track-mcq-06"
       ],
-      "explanation": "本句的「train track」指「軌道；路軌」。",
+      "explanation": "本句的「train track」指「供火車行駛的鋼軌路線」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "train track"
       ],
       "optionReasons": {
-        "track-mcq-01": "本句指「軌道；路軌」。",
+        "track-pdf-001": "本句指「供火車行駛的鋼軌路線」。",
         "track-mcq-02": "「跑道」與本句語境不同。",
         "track-mcq-03": "「小徑；泥路」與本句語境不同。",
         "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
         "track-mcq-05": "「追蹤；監察」與本句語境不同。",
         "track-mcq-06": "「追蹤包裹」與本句語境不同。"
       },
-      "correctOption": "track-mcq-01"
+      "correctOption": "track-pdf-001"
     },
     {
       "id": "track-03-0",
@@ -1176,63 +1223,63 @@ export default {
     },
     {
       "id": "track-12-0",
-      "sense": "track-mcq-08",
+      "sense": "track-pdf-002",
       "en": "Managers track employee performance.",
       "zh": "經理會追蹤員工表現。",
       "masked": "Managers ____.",
       "options": [
-        "track-mcq-08",
+        "track-pdf-002",
         "track-mcq-07",
         "track-mcq-09",
         "track-mcq-06",
         "track-mcq-10",
         "track-mcq-05"
       ],
-      "explanation": "本句的「track employee performance」指「記錄開支」。",
+      "explanation": "本句的「track employee performance」指「持續量度和記錄表現的變化」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "track employee performance"
       ],
       "optionReasons": {
-        "track-mcq-08": "本句指「記錄開支」。",
+        "track-pdf-002": "本句指「持續量度和記錄表現的變化」。",
         "track-mcq-07": "「追蹤進度」與本句語境不同。",
         "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
         "track-mcq-06": "「追蹤包裹」與本句語境不同。",
         "track-mcq-10": "「失去掌握」與本句語境不同。",
         "track-mcq-05": "「追蹤；監察」與本句語境不同。"
       },
-      "correctOption": "track-mcq-08"
+      "correctOption": "track-pdf-002"
     },
     {
       "id": "track-12-1",
-      "sense": "track-mcq-08",
+      "sense": "track-pdf-002",
       "en": "The system tracks performance over several months.",
       "zh": "系統會在數個月內記錄表現變化。",
       "masked": "The system ____ over several months.",
       "options": [
-        "track-mcq-08",
+        "track-pdf-002",
         "track-mcq-07",
         "track-mcq-09",
         "track-mcq-06",
         "track-mcq-10",
         "track-mcq-05"
       ],
-      "explanation": "本句的「tracks performance」指「記錄開支」。",
+      "explanation": "本句的「tracks performance」指「持續量度和記錄表現的變化」。",
       "sentenceIndex": 24,
       "sourcePractice": 2,
       "targets": [
         "tracks performance"
       ],
       "optionReasons": {
-        "track-mcq-08": "本句指「記錄開支」。",
+        "track-pdf-002": "本句指「持續量度和記錄表現的變化」。",
         "track-mcq-07": "「追蹤進度」與本句語境不同。",
         "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
         "track-mcq-06": "「追蹤包裹」與本句語境不同。",
         "track-mcq-10": "「失去掌握」與本句語境不同。",
         "track-mcq-05": "「追蹤；監察」與本句語境不同。"
       },
-      "correctOption": "track-mcq-08"
+      "correctOption": "track-pdf-002"
     },
     {
       "id": "track-13-0",
@@ -2106,63 +2153,63 @@ export default {
     },
     {
       "id": "track-30-0",
-      "sense": "track-mcq-20",
+      "sense": "track-pdf-003",
       "en": "She chose the academic track.",
       "zh": "她選擇了學術路線／分流。",
       "masked": "She chose the academic ____.",
       "options": [
-        "track-mcq-20",
+        "track-pdf-003",
         "track-mcq-19",
         "track-mcq-21",
         "track-mcq-18",
         "track-mcq-22",
         "track-mcq-17"
       ],
-      "explanation": "本句的「track」指「學術／職業路線」。",
+      "explanation": "本句的「track」指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
       "sentenceIndex": 60,
       "sourcePractice": 1,
       "targets": [
         "track"
       ],
       "optionReasons": {
-        "track-mcq-20": "本句指「學術／職業路線」。",
+        "track-pdf-003": "本句指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
         "track-mcq-19": "「往績」與本句語境不同。",
         "track-mcq-21": "「快速途徑」與本句語境不同。",
         "track-mcq-18": "「追查到；找到」與本句語境不同。",
         "track-mcq-22": "「加快處理」與本句語境不同。",
         "track-mcq-17": "「音軌」與本句語境不同。"
       },
-      "correctOption": "track-mcq-20"
+      "correctOption": "track-pdf-003"
     },
     {
       "id": "track-30-1",
-      "sense": "track-mcq-20",
+      "sense": "track-pdf-003",
       "en": "Employees can follow a management track or a technical track.",
       "zh": "員工可以選擇管理發展路線或技術發展路線。",
       "masked": "Employees can follow a management ____ or a technical track.",
       "options": [
-        "track-mcq-20",
+        "track-pdf-003",
         "track-mcq-19",
         "track-mcq-21",
         "track-mcq-18",
         "track-mcq-22",
         "track-mcq-17"
       ],
-      "explanation": "本句的「track」指「學術／職業路線」。",
+      "explanation": "本句的「track」指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
       "sentenceIndex": 61,
       "sourcePractice": 2,
       "targets": [
         "track"
       ],
       "optionReasons": {
-        "track-mcq-20": "本句指「學術／職業路線」。",
+        "track-pdf-003": "本句指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
         "track-mcq-19": "「往績」與本句語境不同。",
         "track-mcq-21": "「快速途徑」與本句語境不同。",
         "track-mcq-18": "「追查到；找到」與本句語境不同。",
         "track-mcq-22": "「加快處理」與本句語境不同。",
         "track-mcq-17": "「音軌」與本句語境不同。"
       },
-      "correctOption": "track-mcq-20"
+      "correctOption": "track-pdf-003"
     },
     {
       "id": "track-31-0",
@@ -2286,63 +2333,63 @@ export default {
     },
     {
       "id": "track-33-0",
-      "sense": "track-mcq-22",
+      "sense": "track-pdf-004",
       "en": "They adopted a two-track approach.",
       "zh": "他們採取了雙軌並行的方法。",
       "masked": "They adopted a ____.",
       "options": [
-        "track-mcq-22",
+        "track-pdf-004",
         "track-mcq-21",
         "track-mcq-23",
         "track-mcq-20",
         "track-mcq-24",
         "track-mcq-19"
       ],
-      "explanation": "本句的「two-track approach」指「加快處理」。",
+      "explanation": "本句的「two-track approach」指「figurative: 一條獨立的行動、發展或處理路線」。",
       "sentenceIndex": 66,
       "sourcePractice": 1,
       "targets": [
         "two-track approach"
       ],
       "optionReasons": {
-        "track-mcq-22": "本句指「加快處理」。",
+        "track-pdf-004": "本句指「figurative: 一條獨立的行動、發展或處理路線」。",
         "track-mcq-21": "「快速途徑」與本句語境不同。",
         "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
         "track-mcq-20": "「學術／職業路線」與本句語境不同。",
         "track-mcq-24": "「追蹤；監察」與本句語境不同。",
         "track-mcq-19": "「往績」與本句語境不同。"
       },
-      "correctOption": "track-mcq-22"
+      "correctOption": "track-pdf-004"
     },
     {
       "id": "track-33-1",
-      "sense": "track-mcq-22",
+      "sense": "track-pdf-004",
       "en": "The strategy follows several tracks at the same time.",
       "zh": "策略同時沿着幾條不同路線進行。",
       "masked": "The strategy follows several ____ at the same time.",
       "options": [
-        "track-mcq-22",
+        "track-pdf-004",
         "track-mcq-21",
         "track-mcq-23",
         "track-mcq-20",
         "track-mcq-24",
         "track-mcq-19"
       ],
-      "explanation": "本句的「tracks」指「加快處理」。",
+      "explanation": "本句的「tracks」指「figurative: 一條獨立的行動、發展或處理路線」。",
       "sentenceIndex": 67,
       "sourcePractice": 2,
       "targets": [
         "tracks"
       ],
       "optionReasons": {
-        "track-mcq-22": "本句指「加快處理」。",
+        "track-pdf-004": "本句指「figurative: 一條獨立的行動、發展或處理路線」。",
         "track-mcq-21": "「快速途徑」與本句語境不同。",
         "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
         "track-mcq-20": "「學術／職業路線」與本句語境不同。",
         "track-mcq-24": "「追蹤；監察」與本句語境不同。",
         "track-mcq-19": "「往績」與本句語境不同。"
       },
-      "correctOption": "track-mcq-22"
+      "correctOption": "track-pdf-004"
     },
     {
       "id": "track-34-0",

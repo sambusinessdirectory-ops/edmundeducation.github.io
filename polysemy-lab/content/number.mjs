@@ -110,16 +110,6 @@ export default {
           "The parcel has a tracking number.",
           "這個包裹有一個追蹤編號。",
           "用來識別人、物件、文件或帳戶的編號"
-        ],
-        [
-          "She lives at number 18.",
-          "她住在 18 號。",
-          "用來識別人、物件、文件或帳戶的編號"
-        ],
-        [
-          "Bus number 12 stops here.",
-          "12 號巴士在這裡停。",
-          "用來識別人、物件、文件或帳戶的編號"
         ]
       ],
       "options": [],
@@ -210,16 +200,6 @@ export default {
       "note": "來源詞義：名詞／動詞等在單數、複數方面的語法特徵",
       "examples": [
         [
-          "I found an old number of the magazine.",
-          "我找到一本舊的雜誌期號。",
-          "名詞／動詞等在單數、複數方面的語法特徵"
-        ],
-        [
-          "That article appeared in the June number.",
-          "那篇文章刊登在六月號／期。",
-          "名詞／動詞等在單數、複數方面的語法特徵"
-        ],
-        [
           "English nouns can change in number.",
           "英語名詞可以在數方面變化。",
           "名詞／動詞等在單數、複數方面的語法特徵"
@@ -227,16 +207,6 @@ export default {
         [
           "The verb must agree with the subject in number.",
           "動詞必須在單複數方面與主語一致。",
-          "名詞／動詞等在單數、複數方面的語法特徵"
-        ],
-        [
-          "Negative numbers are less than zero.",
-          "負數小於零。",
-          "名詞／動詞等在單數、複數方面的語法特徵"
-        ],
-        [
-          "This is an irrational number.",
-          "這是一個無理數。",
           "名詞／動詞等在單數、複數方面的語法特徵"
         ]
       ],
@@ -251,16 +221,6 @@ export default {
       "zh": "給人／物加上號碼作排列或識別",
       "note": "來源詞義：給人／物加上號碼作排列或識別",
       "examples": [
-        [
-          "She wears number 10.",
-          "她穿 10 號球衣。",
-          "給人／物加上號碼作排列或識別"
-        ],
-        [
-          "Number 7 scored the winning goal.",
-          "7 號球員射入致勝一球。",
-          "給人／物加上號碼作排列或識別"
-        ],
         [
           "What shoe number do you wear?",
           "你穿甚麼鞋碼？",
@@ -351,11 +311,6 @@ export default {
           "The report contains numerical data.",
           "報告包含數值資料。",
           "與數字、數值有關的"
-        ],
-        [
-          "The files are arranged numerically.",
-          "檔案按數字順序排列。",
-          "與數字、數值有關的"
         ]
       ],
       "options": [],
@@ -373,6 +328,111 @@ export default {
           "The video received numerous comments.",
           "那段影片收到大量留言。",
           "數量很多的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "number-pdf-001",
+      "title": "用來表示次序、地址、路線或識別位置的號碼",
+      "form": "6. number = position in a sequence — 號；第……號",
+      "en": "6. number = position in a sequence — 號；第……號",
+      "zh": "用來表示次序、地址、路線或識別位置的號碼",
+      "note": "原始 PDF 第 6 節：用來表示次序、地址、路線或識別位置的號碼",
+      "examples": [
+        [
+          "She lives at number 18.",
+          "她住在 18 號。",
+          "用來表示次序、地址、路線或識別位置的號碼"
+        ],
+        [
+          "Bus number 12 stops here.",
+          "12 號巴士在這裡停。",
+          "用來表示次序、地址、路線或識別位置的號碼"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "number-pdf-002",
+      "title": "出版物的一期",
+      "form": "12. number = issue of a magazine/newspaper（較舊／正式） — 期；號",
+      "en": "12. number = issue of a magazine/newspaper（較舊／正式） — 期；號",
+      "zh": "出版物的一期",
+      "note": "原始 PDF 第 12 節：出版物的一期",
+      "examples": [
+        [
+          "I found an old number of the magazine.",
+          "我找到一本舊的雜誌期號。",
+          "出版物的一期"
+        ],
+        [
+          "That article appeared in the June number.",
+          "那篇文章刊登在六月號／期。",
+          "出版物的一期"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "number-pdf-003",
+      "title": "數學中表示量、位置或關係的抽象數值",
+      "form": "14. number = mathematical category / type of value — 數；數值",
+      "en": "14. number = mathematical category / type of value — 數；數值",
+      "zh": "數學中表示量、位置或關係的抽象數值",
+      "note": "原始 PDF 第 14 節：數學中表示量、位置或關係的抽象數值",
+      "examples": [
+        [
+          "Negative numbers are less than zero.",
+          "負數小於零。",
+          "數學中表示量、位置或關係的抽象數值"
+        ],
+        [
+          "This is an irrational number.",
+          "這是一個無理數。",
+          "數學中表示量、位置或關係的抽象數值"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "number-pdf-004",
+      "title": "用來識別球員／參賽者的號碼",
+      "form": "15. number = jersey/player number — 球衣號碼；選手號碼",
+      "en": "15. number = jersey/player number — 球衣號碼；選手號碼",
+      "zh": "用來識別球員／參賽者的號碼",
+      "note": "原始 PDF 第 15 節：用來識別球員／參賽者的號碼",
+      "examples": [
+        [
+          "She wears number 10.",
+          "她穿 10 號球衣。",
+          "用來識別球員／參賽者的號碼"
+        ],
+        [
+          "Number 7 scored the winning goal.",
+          "7 號球員射入致勝一球。",
+          "用來識別球員／參賽者的號碼"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "number-pdf-005",
+      "title": "從數量／數值角度而言；按數字方式",
+      "form": "21. numerically = in numerical terms/order — 以數值計；按數字順序",
+      "en": "21. numerically = in numerical terms/order — 以數值計；按數字順序",
+      "zh": "從數量／數值角度而言；按數字方式",
+      "note": "原始 PDF 第 21 節：從數量／數值角度而言；按數字方式",
+      "examples": [
+        [
+          "The files are arranged numerically.",
+          "檔案按數字順序排列。",
+          "從數量／數值角度而言；按數字方式"
         ]
       ],
       "options": [],
@@ -682,63 +742,63 @@ export default {
     },
     {
       "id": "number-06-0",
-      "sense": "number-mcq-05",
+      "sense": "number-pdf-001",
       "en": "She lives at number 18.",
       "zh": "她住在 18 號。",
       "masked": "She lives at ____ 18.",
       "options": [
-        "number-mcq-05",
+        "number-pdf-001",
         "number-mcq-04",
         "number-mcq-06",
         "number-mcq-03",
         "number-mcq-07",
         "number-mcq-02"
       ],
-      "explanation": "本句的「number」指「用來識別人、物件、文件或帳戶的編號」。",
+      "explanation": "本句的「number」指「用來表示次序、地址、路線或識別位置的號碼」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-05": "本句指「用來識別人、物件、文件或帳戶的編號」。",
+        "number-pdf-001": "本句指「用來表示次序、地址、路線或識別位置的號碼」。",
         "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
         "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
         "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
         "number-mcq-02": "「某一群人／物的數量」與本句語境不同。"
       },
-      "correctOption": "number-mcq-05"
+      "correctOption": "number-pdf-001"
     },
     {
       "id": "number-06-1",
-      "sense": "number-mcq-05",
+      "sense": "number-pdf-001",
       "en": "Bus number 12 stops here.",
       "zh": "12 號巴士在這裡停。",
       "masked": "Bus ____ 12 stops here.",
       "options": [
-        "number-mcq-05",
+        "number-pdf-001",
         "number-mcq-04",
         "number-mcq-06",
         "number-mcq-03",
         "number-mcq-07",
         "number-mcq-02"
       ],
-      "explanation": "本句的「number」指「用來識別人、物件、文件或帳戶的編號」。",
+      "explanation": "本句的「number」指「用來表示次序、地址、路線或識別位置的號碼」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-05": "本句指「用來識別人、物件、文件或帳戶的編號」。",
+        "number-pdf-001": "本句指「用來表示次序、地址、路線或識別位置的號碼」。",
         "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
         "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
         "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
         "number-mcq-02": "「某一群人／物的數量」與本句語境不同。"
       },
-      "correctOption": "number-mcq-05"
+      "correctOption": "number-pdf-001"
     },
     {
       "id": "number-07-0",
@@ -982,63 +1042,63 @@ export default {
     },
     {
       "id": "number-12-0",
-      "sense": "number-mcq-09",
+      "sense": "number-pdf-002",
       "en": "I found an old number of the magazine.",
       "zh": "我找到一本舊的雜誌期號。",
       "masked": "I found an old ____ of the magazine.",
       "options": [
-        "number-mcq-09",
+        "number-pdf-002",
         "number-mcq-08",
         "number-mcq-10",
         "number-mcq-07",
         "number-mcq-11",
         "number-mcq-06"
       ],
-      "explanation": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
+      "explanation": "本句的「number」指「出版物的一期」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-09": "本句指「名詞／動詞等在單數、複數方面的語法特徵」。",
+        "number-pdf-002": "本句指「出版物的一期」。",
         "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
         "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
       },
-      "correctOption": "number-mcq-09"
+      "correctOption": "number-pdf-002"
     },
     {
       "id": "number-12-1",
-      "sense": "number-mcq-09",
+      "sense": "number-pdf-002",
       "en": "That article appeared in the June number.",
       "zh": "那篇文章刊登在六月號／期。",
       "masked": "That article appeared in the June ____.",
       "options": [
-        "number-mcq-09",
+        "number-pdf-002",
         "number-mcq-08",
         "number-mcq-10",
         "number-mcq-07",
         "number-mcq-11",
         "number-mcq-06"
       ],
-      "explanation": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
+      "explanation": "本句的「number」指「出版物的一期」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-09": "本句指「名詞／動詞等在單數、複數方面的語法特徵」。",
+        "number-pdf-002": "本句指「出版物的一期」。",
         "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
         "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
       },
-      "correctOption": "number-mcq-09"
+      "correctOption": "number-pdf-002"
     },
     {
       "id": "number-13-0",
@@ -1102,123 +1162,123 @@ export default {
     },
     {
       "id": "number-14-0",
-      "sense": "number-mcq-09",
+      "sense": "number-pdf-003",
       "en": "Negative numbers are less than zero.",
       "zh": "負數小於零。",
       "masked": "Negative ____ are less than zero.",
       "options": [
-        "number-mcq-09",
+        "number-pdf-003",
         "number-mcq-08",
         "number-mcq-10",
         "number-mcq-07",
         "number-mcq-11",
         "number-mcq-06"
       ],
-      "explanation": "本句的「numbers」指「名詞／動詞等在單數、複數方面的語法特徵」。",
+      "explanation": "本句的「numbers」指「數學中表示量、位置或關係的抽象數值」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-09": "本句指「名詞／動詞等在單數、複數方面的語法特徵」。",
+        "number-pdf-003": "本句指「數學中表示量、位置或關係的抽象數值」。",
         "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
         "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
       },
-      "correctOption": "number-mcq-09"
+      "correctOption": "number-pdf-003"
     },
     {
       "id": "number-14-1",
-      "sense": "number-mcq-09",
+      "sense": "number-pdf-003",
       "en": "This is an irrational number.",
       "zh": "這是一個無理數。",
       "masked": "This is an irrational ____.",
       "options": [
-        "number-mcq-09",
+        "number-pdf-003",
         "number-mcq-08",
         "number-mcq-10",
         "number-mcq-07",
         "number-mcq-11",
         "number-mcq-06"
       ],
-      "explanation": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
+      "explanation": "本句的「number」指「數學中表示量、位置或關係的抽象數值」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-09": "本句指「名詞／動詞等在單數、複數方面的語法特徵」。",
+        "number-pdf-003": "本句指「數學中表示量、位置或關係的抽象數值」。",
         "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
         "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
       },
-      "correctOption": "number-mcq-09"
+      "correctOption": "number-pdf-003"
     },
     {
       "id": "number-15-0",
-      "sense": "number-mcq-10",
+      "sense": "number-pdf-004",
       "en": "She wears number 10.",
       "zh": "她穿 10 號球衣。",
       "masked": "She wears ____ 10.",
       "options": [
-        "number-mcq-10",
+        "number-pdf-004",
         "number-mcq-09",
         "number-mcq-11",
         "number-mcq-08",
         "number-mcq-12",
         "number-mcq-07"
       ],
-      "explanation": "本句的「number」指「給人／物加上號碼作排列或識別」。",
+      "explanation": "本句的「number」指「用來識別球員／參賽者的號碼」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-10": "本句指「給人／物加上號碼作排列或識別」。",
+        "number-pdf-004": "本句指「用來識別球員／參賽者的號碼」。",
         "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
         "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
       },
-      "correctOption": "number-mcq-10"
+      "correctOption": "number-pdf-004"
     },
     {
       "id": "number-15-1",
-      "sense": "number-mcq-10",
+      "sense": "number-pdf-004",
       "en": "Number 7 scored the winning goal.",
       "zh": "7 號球員射入致勝一球。",
       "masked": "____ 7 scored the winning goal.",
       "options": [
-        "number-mcq-10",
+        "number-pdf-004",
         "number-mcq-09",
         "number-mcq-11",
         "number-mcq-08",
         "number-mcq-12",
         "number-mcq-07"
       ],
-      "explanation": "本句的「Number」指「給人／物加上號碼作排列或識別」。",
+      "explanation": "本句的「Number」指「用來識別球員／參賽者的號碼」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "Number"
       ],
       "optionReasons": {
-        "number-mcq-10": "本句指「給人／物加上號碼作排列或識別」。",
+        "number-pdf-004": "本句指「用來識別球員／參賽者的號碼」。",
         "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
         "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
         "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
       },
-      "correctOption": "number-mcq-10"
+      "correctOption": "number-pdf-004"
     },
     {
       "id": "number-16-0",
@@ -1492,33 +1552,33 @@ export default {
     },
     {
       "id": "number-21-0",
-      "sense": "number-mcq-13",
+      "sense": "number-pdf-005",
       "en": "The files are arranged numerically.",
       "zh": "檔案按數字順序排列。",
       "masked": "The files are arranged ____.",
       "options": [
-        "number-mcq-13",
+        "number-pdf-005",
         "number-mcq-12",
         "number-mcq-14",
         "number-mcq-11",
         "number-mcq-10",
         "number-mcq-09"
       ],
-      "explanation": "本句的「numerically」指「與數字、數值有關的」。",
+      "explanation": "本句的「numerically」指「從數量／數值角度而言；按數字方式」。",
       "sentenceIndex": 37,
       "sourcePractice": 39,
       "targets": [
         "numerically"
       ],
       "optionReasons": {
-        "number-mcq-13": "本句指「與數字、數值有關的」。",
+        "number-pdf-005": "本句指「從數量／數值角度而言；按數字方式」。",
         "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
         "number-mcq-14": "「數量很多的」與本句語境不同。",
         "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
         "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
         "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
       },
-      "correctOption": "number-mcq-13"
+      "correctOption": "number-pdf-005"
     },
     {
       "id": "number-22-0",

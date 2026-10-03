@@ -80,11 +80,6 @@ export default {
       "note": "來源詞義：在極短時間內；一眨眼間／轉瞬間",
       "examples": [
         [
-          "I wanted to get it fixed in the blink of an eye.",
-          "我想一眨眼之間就把它修好。",
-          "在極短時間內；一眨眼間／轉瞬間"
-        ],
-        [
           "The weekend seemed to disappear in the blink of an eye.",
           "週末好像一轉眼就過去了。",
           "在極短時間內；一眨眼間／轉瞬間"
@@ -149,6 +144,23 @@ export default {
           "Use your blinker before changing lanes.",
           "轉線前要打方向燈。",
           "美式：車輛方向燈；複數 blinkers 亦可指馬眼罩"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "blink-pdf-001",
+      "title": "快得像眨一次眼睛一樣；轉瞬之間",
+      "form": "Word family: blink / blinks / blinked / blinking / blinker",
+      "en": "Word family: blink / blinks / blinked / blinking / blinker",
+      "zh": "快得像眨一次眼睛一樣；轉瞬之間",
+      "note": "原始 PDF 第 None 節：快得像眨一次眼睛一樣；轉瞬之間",
+      "examples": [
+        [
+          "I wanted to get it fixed in the blink of an eye.",
+          "我想一眨眼之間就把它修好。",
+          "快得像眨一次眼睛一樣；轉瞬之間"
         ]
       ],
       "options": [],
@@ -338,33 +350,33 @@ export default {
     },
     {
       "id": "blink-04-2",
-      "sense": "blink-mcq-04",
+      "sense": "blink-pdf-001",
       "en": "I wanted to get it fixed in the blink of an eye.",
       "zh": "我想一眨眼之間就把它修好。",
       "masked": "I wanted to get it fixed ____.",
       "options": [
-        "blink-mcq-04",
+        "blink-pdf-001",
         "blink-mcq-03",
         "blink-mcq-05",
         "blink-mcq-02",
         "blink-mcq-06",
         "blink-mcq-01"
       ],
-      "explanation": "本句的「in the blink of an eye」指「在極短時間內；一眨眼間／轉瞬間」。",
+      "explanation": "本句的「in the blink of an eye」指「快得像眨一次眼睛一樣；轉瞬之間」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "in the blink of an eye"
       ],
       "optionReasons": {
-        "blink-mcq-04": "本句指「在極短時間內；一眨眼間／轉瞬間」。",
+        "blink-pdf-001": "本句指「快得像眨一次眼睛一樣；轉瞬之間」。",
         "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
         "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
         "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
         "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。",
         "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。"
       },
-      "correctOption": "blink-mcq-04"
+      "correctOption": "blink-pdf-001"
     },
     {
       "id": "blink-04-3",

@@ -12,23 +12,7 @@ export default {
       "en": "a series of stories",
       "zh": "一連串故事",
       "note": "來源詞義：一連串故事",
-      "examples": [
-        [
-          "He made history feel like a series of human stories.",
-          "他把歷史講得像一連串關於人的故事。",
-          "一連串故事"
-        ],
-        [
-          "The accident was caused by a series of mistakes.",
-          "這宗意外是由一連串錯誤造成的。",
-          "一連串故事"
-        ],
-        [
-          "She asked me a series of questions.",
-          "她問了我一連串問題。",
-          "一連串故事"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -137,18 +121,7 @@ export default {
       "en": "lecture series",
       "zh": "系列講座",
       "note": "來源詞義：系列講座",
-      "examples": [
-        [
-          "The series has twelve episodes.",
-          "這套劇集共有十二集。",
-          "系列講座"
-        ],
-        [
-          "I watched the first episode of the series.",
-          "我看了這套劇集的第一集。",
-          "系列講座"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -459,98 +432,147 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "series-pdf-001",
+      "title": "多個彼此相關、按次序或接連出現的 X",
+      "form": "1. a series of things — 一系列；一連串",
+      "en": "1. a series of things — 一系列；一連串",
+      "zh": "多個彼此相關、按次序或接連出現的 X",
+      "note": "原始 PDF 第 1 節：多個彼此相關、按次序或接連出現的 X",
+      "examples": [
+        [
+          "He made history feel like a series of human stories.",
+          "他把歷史講得像一連串關於人的故事。",
+          "多個彼此相關、按次序或接連出現的 X"
+        ],
+        [
+          "The accident was caused by a series of mistakes.",
+          "這宗意外是由一連串錯誤造成的。",
+          "多個彼此相關、按次序或接連出現的 X"
+        ],
+        [
+          "She asked me a series of questions.",
+          "她問了我一連串問題。",
+          "多個彼此相關、按次序或接連出現的 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "series-pdf-002",
+      "title": "整套作品；episode = 系列中的其中一集",
+      "form": "7. series vs episode — 系列 vs 一集",
+      "en": "7. series vs episode — 系列 vs 一集",
+      "zh": "整套作品；episode = 系列中的其中一集",
+      "note": "原始 PDF 第 7 節：整套作品；episode = 系列中的其中一集",
+      "examples": [
+        [
+          "The series has twelve episodes.",
+          "這套劇集共有十二集。",
+          "整套作品；episode = 系列中的其中一集"
+        ],
+        [
+          "I watched the first episode of the series.",
+          "我看了這套劇集的第一集。",
+          "整套作品；episode = 系列中的其中一集"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "series-01-0",
-      "sense": "series-mcq-01",
+      "sense": "series-pdf-001",
       "en": "He made history feel like a series of human stories.",
       "zh": "他把歷史講得像一連串關於人的故事。",
       "masked": "He made history feel like a ____.",
       "options": [
-        "series-mcq-01",
+        "series-pdf-001",
         "series-mcq-02",
         "series-mcq-03",
         "series-mcq-04",
         "series-mcq-05",
         "series-mcq-06"
       ],
-      "explanation": "本句的「series of human stories」指「一連串故事」。",
+      "explanation": "本句的「series of human stories」指「多個彼此相關、按次序或接連出現的 X」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "series of human stories"
       ],
       "optionReasons": {
-        "series-mcq-01": "本句指「一連串故事」。",
+        "series-pdf-001": "本句指「多個彼此相關、按次序或接連出現的 X」。",
         "series-mcq-02": "「一連串事件」與本句語境不同。",
         "series-mcq-03": "「一連串問題」與本句語境不同。",
         "series-mcq-04": "「系列書籍」與本句語境不同。",
         "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
         "series-mcq-06": "「系列講座」與本句語境不同。"
       },
-      "correctOption": "series-mcq-01"
+      "correctOption": "series-pdf-001"
     },
     {
       "id": "series-01-1",
-      "sense": "series-mcq-01",
+      "sense": "series-pdf-001",
       "en": "The accident was caused by a series of mistakes.",
       "zh": "這宗意外是由一連串錯誤造成的。",
       "masked": "The accident was caused by a ____.",
       "options": [
-        "series-mcq-01",
+        "series-pdf-001",
         "series-mcq-02",
         "series-mcq-03",
         "series-mcq-04",
         "series-mcq-05",
         "series-mcq-06"
       ],
-      "explanation": "本句的「series of mistakes」指「一連串故事」。",
+      "explanation": "本句的「series of mistakes」指「多個彼此相關、按次序或接連出現的 X」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "series of mistakes"
       ],
       "optionReasons": {
-        "series-mcq-01": "本句指「一連串故事」。",
+        "series-pdf-001": "本句指「多個彼此相關、按次序或接連出現的 X」。",
         "series-mcq-02": "「一連串事件」與本句語境不同。",
         "series-mcq-03": "「一連串問題」與本句語境不同。",
         "series-mcq-04": "「系列書籍」與本句語境不同。",
         "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
         "series-mcq-06": "「系列講座」與本句語境不同。"
       },
-      "correctOption": "series-mcq-01"
+      "correctOption": "series-pdf-001"
     },
     {
       "id": "series-01-2",
-      "sense": "series-mcq-01",
+      "sense": "series-pdf-001",
       "en": "She asked me a series of questions.",
       "zh": "她問了我一連串問題。",
       "masked": "She asked me a ____.",
       "options": [
-        "series-mcq-01",
+        "series-pdf-001",
         "series-mcq-02",
         "series-mcq-03",
         "series-mcq-04",
         "series-mcq-05",
         "series-mcq-06"
       ],
-      "explanation": "本句的「series of questions」指「一連串故事」。",
+      "explanation": "本句的「series of questions」指「多個彼此相關、按次序或接連出現的 X」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "series of questions"
       ],
       "optionReasons": {
-        "series-mcq-01": "本句指「一連串故事」。",
+        "series-pdf-001": "本句指「多個彼此相關、按次序或接連出現的 X」。",
         "series-mcq-02": "「一連串事件」與本句語境不同。",
         "series-mcq-03": "「一連串問題」與本句語境不同。",
         "series-mcq-04": "「系列書籍」與本句語境不同。",
         "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
         "series-mcq-06": "「系列講座」與本句語境不同。"
       },
-      "correctOption": "series-mcq-01"
+      "correctOption": "series-pdf-001"
     },
     {
       "id": "series-02-0",
@@ -854,63 +876,63 @@ export default {
     },
     {
       "id": "series-07-0",
-      "sense": "series-mcq-06",
+      "sense": "series-pdf-002",
       "en": "The series has twelve episodes.",
       "zh": "這套劇集共有十二集。",
       "masked": "The ____ has twelve episodes.",
       "options": [
-        "series-mcq-06",
+        "series-pdf-002",
         "series-mcq-05",
         "series-mcq-07",
         "series-mcq-04",
         "series-mcq-08",
         "series-mcq-03"
       ],
-      "explanation": "本句的「series」指「系列講座」。",
+      "explanation": "本句的「series」指「整套作品；episode = 系列中的其中一集」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "series"
       ],
       "optionReasons": {
-        "series-mcq-06": "本句指「系列講座」。",
+        "series-pdf-002": "本句指「整套作品；episode = 系列中的其中一集」。",
         "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
         "series-mcq-07": "「系列音樂會」與本句語境不同。",
         "series-mcq-04": "「系列書籍」與本句語境不同。",
         "series-mcq-08": "「系列賽」與本句語境不同。",
         "series-mcq-03": "「一連串問題」與本句語境不同。"
       },
-      "correctOption": "series-mcq-06"
+      "correctOption": "series-pdf-002"
     },
     {
       "id": "series-07-1",
-      "sense": "series-mcq-06",
+      "sense": "series-pdf-002",
       "en": "I watched the first episode of the series.",
       "zh": "我看了這套劇集的第一集。",
       "masked": "I watched the first episode of the ____.",
       "options": [
-        "series-mcq-06",
+        "series-pdf-002",
         "series-mcq-05",
         "series-mcq-07",
         "series-mcq-04",
         "series-mcq-08",
         "series-mcq-03"
       ],
-      "explanation": "本句的「series」指「系列講座」。",
+      "explanation": "本句的「series」指「整套作品；episode = 系列中的其中一集」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "series"
       ],
       "optionReasons": {
-        "series-mcq-06": "本句指「系列講座」。",
+        "series-pdf-002": "本句指「整套作品；episode = 系列中的其中一集」。",
         "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
         "series-mcq-07": "「系列音樂會」與本句語境不同。",
         "series-mcq-04": "「系列書籍」與本句語境不同。",
         "series-mcq-08": "「系列賽」與本句語境不同。",
         "series-mcq-03": "「一連串問題」與本句語境不同。"
       },
-      "correctOption": "series-mcq-06"
+      "correctOption": "series-pdf-002"
     },
     {
       "id": "series-08-0",

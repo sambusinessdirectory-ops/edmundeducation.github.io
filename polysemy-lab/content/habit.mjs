@@ -357,16 +357,6 @@ export default {
           "He arrived at his habitual time.",
           "他在自己慣常的時間到達。",
           "經常反覆發生，以致成為某人的固定行為／模式"
-        ],
-        [
-          "He is a habitual latecomer.",
-          "他是個經常遲到的人。",
-          "經常反覆發生，以致成為某人的固定行為／模式"
-        ],
-        [
-          "Habitual lack of sleep can affect concentration.",
-          "長期習慣性睡眠不足會影響專注力。",
-          "經常反覆發生，以致成為某人的固定行為／模式"
         ]
       ],
       "options": [],
@@ -455,6 +445,28 @@ export default {
           "Through habituation, the animal stopped reacting to the harmless sound.",
           "經過習慣化後，動物不再對無害的聲音作出反應。",
           "因同一刺激反覆出現，導致反應逐漸減弱的適應過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "habit-pdf-001",
+      "title": "某種行為持續反覆發生，而不是偶爾一次",
+      "form": "17. habitual = repeatedly doing something problematic（慣常／成習性的）",
+      "en": "17. habitual = repeatedly doing something problematic（慣常／成習性的）",
+      "zh": "某種行為持續反覆發生，而不是偶爾一次",
+      "note": "原始 PDF 第 17 節：某種行為持續反覆發生，而不是偶爾一次",
+      "examples": [
+        [
+          "He is a habitual latecomer.",
+          "他是個經常遲到的人。",
+          "某種行為持續反覆發生，而不是偶爾一次"
+        ],
+        [
+          "Habitual lack of sleep can affect concentration.",
+          "長期習慣性睡眠不足會影響專注力。",
+          "某種行為持續反覆發生，而不是偶爾一次"
         ]
       ],
       "options": [],
@@ -1454,63 +1466,63 @@ export default {
     },
     {
       "id": "habit-17-0",
-      "sense": "habit-mcq-16",
+      "sense": "habit-pdf-001",
       "en": "He is a habitual latecomer.",
       "zh": "他是個經常遲到的人。",
       "masked": "He is a ____ latecomer.",
       "options": [
-        "habit-mcq-16",
+        "habit-pdf-001",
         "habit-mcq-15",
         "habit-mcq-17",
         "habit-mcq-14",
         "habit-mcq-18",
         "habit-mcq-13"
       ],
-      "explanation": "本句的「habitual」指「經常反覆發生，以致成為某人的固定行為／模式」。",
+      "explanation": "本句的「habitual」指「某種行為持續反覆發生，而不是偶爾一次」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "habitual"
       ],
       "optionReasons": {
-        "habit-mcq-16": "本句指「經常反覆發生，以致成為某人的固定行為／模式」。",
+        "habit-pdf-001": "本句指「某種行為持續反覆發生，而不是偶爾一次」。",
         "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
         "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
         "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
         "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
         "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。"
       },
-      "correctOption": "habit-mcq-16"
+      "correctOption": "habit-pdf-001"
     },
     {
       "id": "habit-17-1",
-      "sense": "habit-mcq-16",
+      "sense": "habit-pdf-001",
       "en": "Habitual lack of sleep can affect concentration.",
       "zh": "長期習慣性睡眠不足會影響專注力。",
       "masked": "____ lack of sleep can affect concentration.",
       "options": [
-        "habit-mcq-16",
+        "habit-pdf-001",
         "habit-mcq-15",
         "habit-mcq-17",
         "habit-mcq-14",
         "habit-mcq-18",
         "habit-mcq-13"
       ],
-      "explanation": "本句的「Habitual」指「經常反覆發生，以致成為某人的固定行為／模式」。",
+      "explanation": "本句的「Habitual」指「某種行為持續反覆發生，而不是偶爾一次」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "Habitual"
       ],
       "optionReasons": {
-        "habit-mcq-16": "本句指「經常反覆發生，以致成為某人的固定行為／模式」。",
+        "habit-pdf-001": "本句指「某種行為持續反覆發生，而不是偶爾一次」。",
         "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
         "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
         "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
         "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
         "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。"
       },
-      "correctOption": "habit-mcq-16"
+      "correctOption": "habit-pdf-001"
     },
     {
       "id": "habit-18-0",

@@ -27,16 +27,6 @@ export default {
           "It was all a misunderstanding.",
           "整件事只是一場誤會。",
           "誤解；誤會"
-        ],
-        [
-          "There was a misunderstanding between Kevin and me.",
-          "Kevin 和我之間出現了一場誤會。",
-          "誤解；誤會"
-        ],
-        [
-          "A small misunderstanding between teammates caused unnecessary tension.",
-          "隊友之間一個小小的誤會造成了不必要的緊張。",
-          "誤解；誤會"
         ]
       ],
       "options": [],
@@ -447,6 +437,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "misunderstanding-pdf-001",
+      "title": "A 和 B 因理解不同而產生的誤會",
+      "form": "2. a misunderstanding between people — 人與人之間的誤會",
+      "en": "2. a misunderstanding between people — 人與人之間的誤會",
+      "zh": "A 和 B 因理解不同而產生的誤會",
+      "note": "原始 PDF 第 2 節：A 和 B 因理解不同而產生的誤會",
+      "examples": [
+        [
+          "There was a misunderstanding between Kevin and me.",
+          "Kevin 和我之間出現了一場誤會。",
+          "A 和 B 因理解不同而產生的誤會"
+        ],
+        [
+          "A small misunderstanding between teammates caused unnecessary tension.",
+          "隊友之間一個小小的誤會造成了不必要的緊張。",
+          "A 和 B 因理解不同而產生的誤會"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -542,63 +554,63 @@ export default {
     },
     {
       "id": "misunderstanding-02-0",
-      "sense": "misunderstanding-mcq-01",
+      "sense": "misunderstanding-pdf-001",
       "en": "There was a misunderstanding between Kevin and me.",
       "zh": "Kevin 和我之間出現了一場誤會。",
       "masked": "There was a ____.",
       "options": [
-        "misunderstanding-mcq-01",
+        "misunderstanding-pdf-001",
         "misunderstanding-mcq-02",
         "misunderstanding-mcq-03",
         "misunderstanding-mcq-04",
         "misunderstanding-mcq-05",
         "misunderstanding-mcq-06"
       ],
-      "explanation": "本句的「misunderstanding between Kevin and me」指「誤解；誤會」。",
+      "explanation": "本句的「misunderstanding between Kevin and me」指「A 和 B 因理解不同而產生的誤會」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "misunderstanding between Kevin and me"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-01": "本句指「誤解；誤會」。",
+        "misunderstanding-pdf-001": "本句指「A 和 B 因理解不同而產生的誤會」。",
         "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
         "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
         "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
         "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
         "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
       },
-      "correctOption": "misunderstanding-mcq-01"
+      "correctOption": "misunderstanding-pdf-001"
     },
     {
       "id": "misunderstanding-02-1",
-      "sense": "misunderstanding-mcq-01",
+      "sense": "misunderstanding-pdf-001",
       "en": "A small misunderstanding between teammates caused unnecessary tension.",
       "zh": "隊友之間一個小小的誤會造成了不必要的緊張。",
       "masked": "A small ____ caused unnecessary tension.",
       "options": [
-        "misunderstanding-mcq-01",
+        "misunderstanding-pdf-001",
         "misunderstanding-mcq-02",
         "misunderstanding-mcq-03",
         "misunderstanding-mcq-04",
         "misunderstanding-mcq-05",
         "misunderstanding-mcq-06"
       ],
-      "explanation": "本句的「misunderstanding between teammates」指「誤解；誤會」。",
+      "explanation": "本句的「misunderstanding between teammates」指「A 和 B 因理解不同而產生的誤會」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "misunderstanding between teammates"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-01": "本句指「誤解；誤會」。",
+        "misunderstanding-pdf-001": "本句指「A 和 B 因理解不同而產生的誤會」。",
         "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
         "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
         "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
         "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
         "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
       },
-      "correctOption": "misunderstanding-mcq-01"
+      "correctOption": "misunderstanding-pdf-001"
     },
     {
       "id": "misunderstanding-03-0",

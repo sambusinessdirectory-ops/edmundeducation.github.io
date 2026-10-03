@@ -254,16 +254,6 @@ export default {
           "美好、迷人得令人感到像魔法般特別的"
         ],
         [
-          "The door magically opened.",
-          "門像被施了魔法般打開了。",
-          "美好、迷人得令人感到像魔法般特別的"
-        ],
-        [
-          "The object magically disappeared.",
-          "那件物品神奇地消失了。",
-          "美好、迷人得令人感到像魔法般特別的"
-        ],
-        [
           "The colours worked magically together.",
           "這些顏色搭配起來出奇地和諧／奇妙地協調。",
           "美好、迷人得令人感到像魔法般特別的"
@@ -316,6 +306,28 @@ export default {
           "That chef is a magician in the kitchen.",
           "那位廚師簡直是廚房裡的魔術師／高手。",
           "在某領域技巧極高、能做出令人驚嘆效果的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "magic-pdf-001",
+      "title": "以看似魔法／不可思議的方式",
+      "form": "13. magically = by magic — 用魔法地；神奇地",
+      "en": "13. magically = by magic — 用魔法地；神奇地",
+      "zh": "以看似魔法／不可思議的方式",
+      "note": "原始 PDF 第 13 節：以看似魔法／不可思議的方式",
+      "examples": [
+        [
+          "The door magically opened.",
+          "門像被施了魔法般打開了。",
+          "以看似魔法／不可思議的方式"
+        ],
+        [
+          "The object magically disappeared.",
+          "那件物品神奇地消失了。",
+          "以看似魔法／不可思議的方式"
         ]
       ],
       "options": [],
@@ -1045,63 +1057,63 @@ export default {
     },
     {
       "id": "magic-13-0",
-      "sense": "magic-mcq-11",
+      "sense": "magic-pdf-001",
       "en": "The door magically opened.",
       "zh": "門像被施了魔法般打開了。",
       "masked": "The door ____ opened.",
       "options": [
-        "magic-mcq-11",
+        "magic-pdf-001",
         "magic-mcq-10",
         "magic-mcq-12",
         "magic-mcq-09",
         "magic-mcq-13",
         "magic-mcq-08"
       ],
-      "explanation": "本句的「magically」指「美好、迷人得令人感到像魔法般特別的」。",
+      "explanation": "本句的「magically」指「以看似魔法／不可思議的方式」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "magically"
       ],
       "optionReasons": {
-        "magic-mcq-11": "本句指「美好、迷人得令人感到像魔法般特別的」。",
+        "magic-pdf-001": "本句指「以看似魔法／不可思議的方式」。",
         "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
         "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
         "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
         "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
         "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
       },
-      "correctOption": "magic-mcq-11"
+      "correctOption": "magic-pdf-001"
     },
     {
       "id": "magic-13-1",
-      "sense": "magic-mcq-11",
+      "sense": "magic-pdf-001",
       "en": "The object magically disappeared.",
       "zh": "那件物品神奇地消失了。",
       "masked": "The object ____ disappeared.",
       "options": [
-        "magic-mcq-11",
+        "magic-pdf-001",
         "magic-mcq-10",
         "magic-mcq-12",
         "magic-mcq-09",
         "magic-mcq-13",
         "magic-mcq-08"
       ],
-      "explanation": "本句的「magically」指「美好、迷人得令人感到像魔法般特別的」。",
+      "explanation": "本句的「magically」指「以看似魔法／不可思議的方式」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "magically"
       ],
       "optionReasons": {
-        "magic-mcq-11": "本句指「美好、迷人得令人感到像魔法般特別的」。",
+        "magic-pdf-001": "本句指「以看似魔法／不可思議的方式」。",
         "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
         "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
         "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
         "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
         "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
       },
-      "correctOption": "magic-mcq-11"
+      "correctOption": "magic-pdf-001"
     },
     {
       "id": "magic-14-0",

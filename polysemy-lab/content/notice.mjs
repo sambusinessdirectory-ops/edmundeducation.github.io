@@ -49,16 +49,6 @@ export default {
           "She noticed that one corner of the painting was darker.",
           "她發現／注意到畫的一角比較暗。",
           "察覺到某個完整事實／情況"
-        ],
-        [
-          "I noticed how softly the light was painted.",
-          "我留意到光線被畫得多麼柔和。",
-          "察覺到某個完整事實／情況"
-        ],
-        [
-          "Did you notice where she put the book?",
-          "你有沒有留意到她把書放在哪裡？",
-          "察覺到某個完整事實／情況"
         ]
       ],
       "options": [],
@@ -178,16 +168,6 @@ export default {
         [
           "The school posted a notice about the exhibition.",
           "學校張貼了一則關於展覽的通告。",
-          "向公眾／群體提供資訊、規則或警告的書面通告"
-        ],
-        [
-          "The timetable is on the notice board.",
-          "時間表貼在告示板上。",
-          "向公眾／群體提供資訊、規則或警告的書面通告"
-        ],
-        [
-          "Check the noticeboard for updates.",
-          "查看布告欄上的最新消息。",
           "向公眾／群體提供資訊、規則或警告的書面通告"
         ]
       ],
@@ -435,6 +415,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "notice-pdf-001",
+      "title": "察覺某件事的方式、位置、內容等",
+      "form": "3. notice what/where/how + clause — 留意到／察覺……",
+      "en": "3. notice what/where/how + clause — 留意到／察覺……",
+      "zh": "察覺某件事的方式、位置、內容等",
+      "note": "原始 PDF 第 3 節：察覺某件事的方式、位置、內容等",
+      "examples": [
+        [
+          "I noticed how softly the light was painted.",
+          "我留意到光線被畫得多麼柔和。",
+          "察覺某件事的方式、位置、內容等"
+        ],
+        [
+          "Did you notice where she put the book?",
+          "你有沒有留意到她把書放在哪裡？",
+          "察覺某件事的方式、位置、內容等"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "notice-pdf-002",
+      "title": "用來張貼公告、資訊或通知的板面",
+      "form": "10. notice board / noticeboard — 告示板；布告欄",
+      "en": "10. notice board / noticeboard — 告示板；布告欄",
+      "zh": "用來張貼公告、資訊或通知的板面",
+      "note": "原始 PDF 第 10 節：用來張貼公告、資訊或通知的板面",
+      "examples": [
+        [
+          "The timetable is on the notice board.",
+          "時間表貼在告示板上。",
+          "用來張貼公告、資訊或通知的板面"
+        ],
+        [
+          "Check the noticeboard for updates.",
+          "查看布告欄上的最新消息。",
+          "用來張貼公告、資訊或通知的板面"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -590,63 +614,63 @@ export default {
     },
     {
       "id": "notice-03-0",
-      "sense": "notice-mcq-02",
+      "sense": "notice-pdf-001",
       "en": "I noticed how softly the light was painted.",
       "zh": "我留意到光線被畫得多麼柔和。",
       "masked": "I noticed ____.",
       "options": [
-        "notice-mcq-02",
+        "notice-pdf-001",
         "notice-mcq-01",
         "notice-mcq-03",
         "notice-mcq-04",
         "notice-mcq-05",
         "notice-mcq-06"
       ],
-      "explanation": "本句的「how softly the light was painted」指「察覺到某個完整事實／情況」。",
+      "explanation": "本句的「how softly the light was painted」指「察覺某件事的方式、位置、內容等」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "how softly the light was painted"
       ],
       "optionReasons": {
-        "notice-mcq-02": "本句指「察覺到某個完整事實／情況」。",
+        "notice-pdf-001": "本句指「察覺某件事的方式、位置、內容等」。",
         "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
         "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
         "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
         "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
         "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
       },
-      "correctOption": "notice-mcq-02"
+      "correctOption": "notice-pdf-001"
     },
     {
       "id": "notice-03-1",
-      "sense": "notice-mcq-02",
+      "sense": "notice-pdf-001",
       "en": "Did you notice where she put the book?",
       "zh": "你有沒有留意到她把書放在哪裡？",
       "masked": "Did you ____ where she put the book?",
       "options": [
-        "notice-mcq-02",
+        "notice-pdf-001",
         "notice-mcq-01",
         "notice-mcq-03",
         "notice-mcq-04",
         "notice-mcq-05",
         "notice-mcq-06"
       ],
-      "explanation": "本句的「notice」指「察覺到某個完整事實／情況」。",
+      "explanation": "本句的「notice」指「察覺某件事的方式、位置、內容等」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-02": "本句指「察覺到某個完整事實／情況」。",
+        "notice-pdf-001": "本句指「察覺某件事的方式、位置、內容等」。",
         "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
         "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
         "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
         "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
         "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
       },
-      "correctOption": "notice-mcq-02"
+      "correctOption": "notice-pdf-001"
     },
     {
       "id": "notice-04-0",
@@ -1010,63 +1034,63 @@ export default {
     },
     {
       "id": "notice-10-0",
-      "sense": "notice-mcq-07",
+      "sense": "notice-pdf-002",
       "en": "The timetable is on the notice board.",
       "zh": "時間表貼在告示板上。",
       "masked": "The timetable is on the ____.",
       "options": [
-        "notice-mcq-07",
+        "notice-pdf-002",
         "notice-mcq-06",
         "notice-mcq-08",
         "notice-mcq-05",
         "notice-mcq-09",
         "notice-mcq-04"
       ],
-      "explanation": "本句的「notice board」指「向公眾／群體提供資訊、規則或警告的書面通告」。",
+      "explanation": "本句的「notice board」指「用來張貼公告、資訊或通知的板面」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "notice board"
       ],
       "optionReasons": {
-        "notice-mcq-07": "本句指「向公眾／群體提供資訊、規則或警告的書面通告」。",
+        "notice-pdf-002": "本句指「用來張貼公告、資訊或通知的板面」。",
         "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
         "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
         "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
         "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
         "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。"
       },
-      "correctOption": "notice-mcq-07"
+      "correctOption": "notice-pdf-002"
     },
     {
       "id": "notice-10-1",
-      "sense": "notice-mcq-07",
+      "sense": "notice-pdf-002",
       "en": "Check the noticeboard for updates.",
       "zh": "查看布告欄上的最新消息。",
       "masked": "Check the ____ for updates.",
       "options": [
-        "notice-mcq-07",
+        "notice-pdf-002",
         "notice-mcq-06",
         "notice-mcq-08",
         "notice-mcq-05",
         "notice-mcq-09",
         "notice-mcq-04"
       ],
-      "explanation": "本句的「noticeboard」指「向公眾／群體提供資訊、規則或警告的書面通告」。",
+      "explanation": "本句的「noticeboard」指「用來張貼公告、資訊或通知的板面」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "noticeboard"
       ],
       "optionReasons": {
-        "notice-mcq-07": "本句指「向公眾／群體提供資訊、規則或警告的書面通告」。",
+        "notice-pdf-002": "本句指「用來張貼公告、資訊或通知的板面」。",
         "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
         "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
         "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
         "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
         "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。"
       },
-      "correctOption": "notice-mcq-07"
+      "correctOption": "notice-pdf-002"
     },
     {
       "id": "notice-11-0",

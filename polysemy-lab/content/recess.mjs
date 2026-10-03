@@ -93,16 +93,6 @@ export default {
           "The documents were found in the hidden recesses of the cupboard.",
           "那些文件在櫃子的隱蔽深處被找到。",
           "某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關"
-        ],
-        [
-          "The memory remained somewhere in the recesses of his mind.",
-          "那段記憶仍然藏在他心靈深處的某個地方。",
-          "某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關"
-        ],
-        [
-          "She searched the recesses of her memory for his name.",
-          "她在自己的記憶深處努力搜尋他的名字。",
-          "某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關"
         ]
       ],
       "options": [],
@@ -137,18 +127,7 @@ export default {
       "en": "recess — verb, set inward",
       "zh": "把某物嵌入牆面、天花板或其他表面，使其不突出",
       "note": "來源詞義：把某物嵌入牆面、天花板或其他表面，使其不突出",
-      "examples": [
-        [
-          "The lights were recessed into the ceiling.",
-          "燈具被嵌入天花板內。",
-          "把某物嵌入牆面、天花板或其他表面，使其不突出"
-        ],
-        [
-          "The handle is recessed into the door.",
-          "把手凹嵌在門板裡。",
-          "把某物嵌入牆面、天花板或其他表面，使其不突出"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -235,6 +214,50 @@ export default {
           "The meeting went into recess for twenty minutes.",
           "會議休會二十分鐘。",
           "表示開始休會／暫停"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "recess-pdf-001",
+      "title": "心靈、思想或記憶中深藏、不容易立即接觸到的部分",
+      "form": "5. the recesses of the mind/memory（比喻） — 心靈／記憶深處",
+      "en": "5. the recesses of the mind/memory（比喻） — 心靈／記憶深處",
+      "zh": "心靈、思想或記憶中深藏、不容易立即接觸到的部分",
+      "note": "原始 PDF 第 5 節：心靈、思想或記憶中深藏、不容易立即接觸到的部分",
+      "examples": [
+        [
+          "The memory remained somewhere in the recesses of his mind.",
+          "那段記憶仍然藏在他心靈深處的某個地方。",
+          "心靈、思想或記憶中深藏、不容易立即接觸到的部分"
+        ],
+        [
+          "She searched the recesses of her memory for his name.",
+          "她在自己的記憶深處努力搜尋他的名字。",
+          "心靈、思想或記憶中深藏、不容易立即接觸到的部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "recess-pdf-002",
+      "title": "把某物設置得比周圍表面更深入／嵌入表面之內",
+      "form": "7. recess something into a surface（工程／設計） — 嵌入；使凹入",
+      "en": "7. recess something into a surface（工程／設計） — 嵌入；使凹入",
+      "zh": "把某物設置得比周圍表面更深入／嵌入表面之內",
+      "note": "原始 PDF 第 7 節：把某物設置得比周圍表面更深入／嵌入表面之內",
+      "examples": [
+        [
+          "The lights were recessed into the ceiling.",
+          "燈具被嵌入天花板內。",
+          "把某物設置得比周圍表面更深入／嵌入表面之內"
+        ],
+        [
+          "The handle is recessed into the door.",
+          "把手凹嵌在門板裡。",
+          "把某物設置得比周圍表面更深入／嵌入表面之內"
         ]
       ],
       "options": [],
@@ -514,63 +537,63 @@ export default {
     },
     {
       "id": "recess-05-0",
-      "sense": "recess-mcq-04",
+      "sense": "recess-pdf-001",
       "en": "The memory remained somewhere in the recesses of his mind.",
       "zh": "那段記憶仍然藏在他心靈深處的某個地方。",
       "masked": "The memory remained somewhere in the ____.",
       "options": [
-        "recess-mcq-04",
+        "recess-pdf-001",
         "recess-mcq-03",
         "recess-mcq-05",
         "recess-mcq-02",
         "recess-mcq-06",
         "recess-mcq-01"
       ],
-      "explanation": "本句的「recesses of his mind」指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
+      "explanation": "本句的「recesses of his mind」指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "recesses of his mind"
       ],
       "optionReasons": {
-        "recess-mcq-04": "本句指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
+        "recess-pdf-001": "本句指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
         "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
         "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
         "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
         "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
         "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。"
       },
-      "correctOption": "recess-mcq-04"
+      "correctOption": "recess-pdf-001"
     },
     {
       "id": "recess-05-1",
-      "sense": "recess-mcq-04",
+      "sense": "recess-pdf-001",
       "en": "She searched the recesses of her memory for his name.",
       "zh": "她在自己的記憶深處努力搜尋他的名字。",
       "masked": "She searched the ____ for his name.",
       "options": [
-        "recess-mcq-04",
+        "recess-pdf-001",
         "recess-mcq-03",
         "recess-mcq-05",
         "recess-mcq-02",
         "recess-mcq-06",
         "recess-mcq-01"
       ],
-      "explanation": "本句的「recesses of her memory」指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
+      "explanation": "本句的「recesses of her memory」指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "recesses of her memory"
       ],
       "optionReasons": {
-        "recess-mcq-04": "本句指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
+        "recess-pdf-001": "本句指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
         "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
         "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
         "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
         "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
         "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。"
       },
-      "correctOption": "recess-mcq-04"
+      "correctOption": "recess-pdf-001"
     },
     {
       "id": "recess-06-0",
@@ -634,63 +657,63 @@ export default {
     },
     {
       "id": "recess-07-0",
-      "sense": "recess-mcq-06",
+      "sense": "recess-pdf-002",
       "en": "The lights were recessed into the ceiling.",
       "zh": "燈具被嵌入天花板內。",
       "masked": "The lights were ____ into the ceiling.",
       "options": [
-        "recess-mcq-06",
+        "recess-pdf-002",
         "recess-mcq-05",
         "recess-mcq-07",
         "recess-mcq-04",
         "recess-mcq-08",
         "recess-mcq-03"
       ],
-      "explanation": "本句的「recessed」指「把某物嵌入牆面、天花板或其他表面，使其不突出」。",
+      "explanation": "本句的「recessed」指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "recessed"
       ],
       "optionReasons": {
-        "recess-mcq-06": "本句指「把某物嵌入牆面、天花板或其他表面，使其不突出」。",
+        "recess-pdf-002": "本句指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
         "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
         "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
         "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
         "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
         "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。"
       },
-      "correctOption": "recess-mcq-06"
+      "correctOption": "recess-pdf-002"
     },
     {
       "id": "recess-07-1",
-      "sense": "recess-mcq-06",
+      "sense": "recess-pdf-002",
       "en": "The handle is recessed into the door.",
       "zh": "把手凹嵌在門板裡。",
       "masked": "The handle is ____ into the door.",
       "options": [
-        "recess-mcq-06",
+        "recess-pdf-002",
         "recess-mcq-05",
         "recess-mcq-07",
         "recess-mcq-04",
         "recess-mcq-08",
         "recess-mcq-03"
       ],
-      "explanation": "本句的「recessed」指「把某物嵌入牆面、天花板或其他表面，使其不突出」。",
+      "explanation": "本句的「recessed」指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "recessed"
       ],
       "optionReasons": {
-        "recess-mcq-06": "本句指「把某物嵌入牆面、天花板或其他表面，使其不突出」。",
+        "recess-pdf-002": "本句指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
         "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
         "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
         "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
         "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
         "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。"
       },
-      "correctOption": "recess-mcq-06"
+      "correctOption": "recess-pdf-002"
     },
     {
       "id": "recess-07-2",

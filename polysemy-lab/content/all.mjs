@@ -98,16 +98,6 @@ export default {
           "All were invited.",
           "所有人都獲邀。",
           "已知群體中的全部人／事物"
-        ],
-        [
-          "That is all I know.",
-          "那就是我知道的全部。",
-          "已知群體中的全部人／事物"
-        ],
-        [
-          "She gave away all she had grown.",
-          "她把自己種的東西全部送了出去。",
-          "已知群體中的全部人／事物"
         ]
       ],
       "options": [],
@@ -573,6 +563,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "all-pdf-001",
+      "title": "某事物的全部內容、數量或範圍",
+      "form": "6. all = entire amount / whole thing — 全部；一切",
+      "en": "6. all = entire amount / whole thing — 全部；一切",
+      "zh": "某事物的全部內容、數量或範圍",
+      "note": "原始 PDF 第 6 節：某事物的全部內容、數量或範圍",
+      "examples": [
+        [
+          "That is all I know.",
+          "那就是我知道的全部。",
+          "某事物的全部內容、數量或範圍"
+        ],
+        [
+          "She gave away all she had grown.",
+          "她把自己種的東西全部送了出去。",
+          "某事物的全部內容、數量或範圍"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -878,63 +890,63 @@ export default {
     },
     {
       "id": "all-06-0",
-      "sense": "all-mcq-04",
+      "sense": "all-pdf-001",
       "en": "That is all I know.",
       "zh": "那就是我知道的全部。",
       "masked": "That is ____ I know.",
       "options": [
-        "all-mcq-04",
+        "all-pdf-001",
         "all-mcq-03",
         "all-mcq-05",
         "all-mcq-02",
         "all-mcq-06",
         "all-mcq-01"
       ],
-      "explanation": "本句的「all」指「已知群體中的全部人／事物」。",
+      "explanation": "本句的「all」指「某事物的全部內容、數量或範圍」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "all"
       ],
       "optionReasons": {
-        "all-mcq-04": "本句指「已知群體中的全部人／事物」。",
+        "all-pdf-001": "本句指「某事物的全部內容、數量或範圍」。",
         "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
         "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
         "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
         "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
         "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。"
       },
-      "correctOption": "all-mcq-04"
+      "correctOption": "all-pdf-001"
     },
     {
       "id": "all-06-1",
-      "sense": "all-mcq-04",
+      "sense": "all-pdf-001",
       "en": "She gave away all she had grown.",
       "zh": "她把自己種的東西全部送了出去。",
       "masked": "She gave away ____ she had grown.",
       "options": [
-        "all-mcq-04",
+        "all-pdf-001",
         "all-mcq-03",
         "all-mcq-05",
         "all-mcq-02",
         "all-mcq-06",
         "all-mcq-01"
       ],
-      "explanation": "本句的「all」指「已知群體中的全部人／事物」。",
+      "explanation": "本句的「all」指「某事物的全部內容、數量或範圍」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "all"
       ],
       "optionReasons": {
-        "all-mcq-04": "本句指「已知群體中的全部人／事物」。",
+        "all-pdf-001": "本句指「某事物的全部內容、數量或範圍」。",
         "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
         "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
         "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
         "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
         "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。"
       },
-      "correctOption": "all-mcq-04"
+      "correctOption": "all-pdf-001"
     },
     {
       "id": "all-07-0",

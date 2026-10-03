@@ -61,18 +61,7 @@ export default {
       "en": "rent — tenant-side verb",
       "zh": "付款取得某物一段時間的使用權，而不擁有它",
       "note": "來源詞義：付款取得某物一段時間的使用權，而不擁有它",
-      "examples": [
-        [
-          "We rented a car for the weekend.",
-          "我們週末租了一輛車。",
-          "付款取得某物一段時間的使用權，而不擁有它"
-        ],
-        [
-          "You can rent equipment at the shop.",
-          "你可以在店裡租用設備。",
-          "付款取得某物一段時間的使用權，而不擁有它"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -315,6 +304,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "rent-pdf-001",
+      "title": "付費暫時使用車輛、設備、場地等",
+      "form": "4. rent = verb, pay to use an item temporarily — 租借；租用",
+      "en": "4. rent = verb, pay to use an item temporarily — 租借；租用",
+      "zh": "付費暫時使用車輛、設備、場地等",
+      "note": "原始 PDF 第 4 節：付費暫時使用車輛、設備、場地等",
+      "examples": [
+        [
+          "We rented a car for the weekend.",
+          "我們週末租了一輛車。",
+          "付費暫時使用車輛、設備、場地等"
+        ],
+        [
+          "You can rent equipment at the shop.",
+          "你可以在店裡租用設備。",
+          "付費暫時使用車輛、設備、場地等"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -470,63 +481,63 @@ export default {
     },
     {
       "id": "rent-04-0",
-      "sense": "rent-mcq-03",
+      "sense": "rent-pdf-001",
       "en": "We rented a car for the weekend.",
       "zh": "我們週末租了一輛車。",
       "masked": "We ____ a car for the weekend.",
       "options": [
-        "rent-mcq-03",
+        "rent-pdf-001",
         "rent-mcq-02",
         "rent-mcq-04",
         "rent-mcq-01",
         "rent-mcq-05",
         "rent-mcq-06"
       ],
-      "explanation": "本句的「rented」指「付款取得某物一段時間的使用權，而不擁有它」。",
+      "explanation": "本句的「rented」指「付費暫時使用車輛、設備、場地等」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "rented"
       ],
       "optionReasons": {
-        "rent-mcq-03": "本句指「付款取得某物一段時間的使用權，而不擁有它」。",
+        "rent-pdf-001": "本句指「付費暫時使用車輛、設備、場地等」。",
         "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
         "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
         "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。",
         "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
         "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
       },
-      "correctOption": "rent-mcq-03"
+      "correctOption": "rent-pdf-001"
     },
     {
       "id": "rent-04-1",
-      "sense": "rent-mcq-03",
+      "sense": "rent-pdf-001",
       "en": "You can rent equipment at the shop.",
       "zh": "你可以在店裡租用設備。",
       "masked": "You can ____ equipment at the shop.",
       "options": [
-        "rent-mcq-03",
+        "rent-pdf-001",
         "rent-mcq-02",
         "rent-mcq-04",
         "rent-mcq-01",
         "rent-mcq-05",
         "rent-mcq-06"
       ],
-      "explanation": "本句的「rent」指「付款取得某物一段時間的使用權，而不擁有它」。",
+      "explanation": "本句的「rent」指「付費暫時使用車輛、設備、場地等」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-03": "本句指「付款取得某物一段時間的使用權，而不擁有它」。",
+        "rent-pdf-001": "本句指「付費暫時使用車輛、設備、場地等」。",
         "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
         "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
         "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。",
         "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
         "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
       },
-      "correctOption": "rent-mcq-03"
+      "correctOption": "rent-pdf-001"
     },
     {
       "id": "rent-05-0",

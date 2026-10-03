@@ -45,18 +45,7 @@ export default {
       "en": "volume of orders",
       "zh": "訂單量",
       "note": "來源詞義：訂單量",
-      "examples": [
-        [
-          "Measure the volume of water in the container.",
-          "量度容器內水的體積。",
-          "訂單量"
-        ],
-        [
-          "The gas expands to twice its original volume.",
-          "氣體膨脹至原本體積的兩倍。",
-          "訂單量"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -415,6 +404,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "volume-pdf-001",
+      "title": "液體、氣體等所佔的空間大小",
+      "form": "2. volume of liquid/gas — 液體／氣體的量",
+      "en": "2. volume of liquid/gas — 液體／氣體的量",
+      "zh": "液體、氣體等所佔的空間大小",
+      "note": "原始 PDF 第 2 節：液體、氣體等所佔的空間大小",
+      "examples": [
+        [
+          "Measure the volume of water in the container.",
+          "量度容器內水的體積。",
+          "液體、氣體等所佔的空間大小"
+        ],
+        [
+          "The gas expands to twice its original volume.",
+          "氣體膨脹至原本體積的兩倍。",
+          "液體、氣體等所佔的空間大小"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -480,63 +491,63 @@ export default {
     },
     {
       "id": "volume-02-0",
-      "sense": "volume-mcq-03",
+      "sense": "volume-pdf-001",
       "en": "Measure the volume of water in the container.",
       "zh": "量度容器內水的體積。",
       "masked": "Measure the ____ in the container.",
       "options": [
-        "volume-mcq-03",
+        "volume-pdf-001",
         "volume-mcq-02",
         "volume-mcq-04",
         "volume-mcq-01",
         "volume-mcq-05",
         "volume-mcq-06"
       ],
-      "explanation": "本句的「volume of water」指「訂單量」。",
+      "explanation": "本句的「volume of water」指「液體、氣體等所佔的空間大小」。",
       "sentenceIndex": 2,
       "sourcePractice": 1,
       "targets": [
         "volume of water"
       ],
       "optionReasons": {
-        "volume-mcq-03": "本句指「訂單量」。",
+        "volume-pdf-001": "本句指「液體、氣體等所佔的空間大小」。",
         "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
         "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
         "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。",
         "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
         "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
       },
-      "correctOption": "volume-mcq-03"
+      "correctOption": "volume-pdf-001"
     },
     {
       "id": "volume-02-1",
-      "sense": "volume-mcq-03",
+      "sense": "volume-pdf-001",
       "en": "The gas expands to twice its original volume.",
       "zh": "氣體膨脹至原本體積的兩倍。",
       "masked": "The gas expands to twice its original ____.",
       "options": [
-        "volume-mcq-03",
+        "volume-pdf-001",
         "volume-mcq-02",
         "volume-mcq-04",
         "volume-mcq-01",
         "volume-mcq-05",
         "volume-mcq-06"
       ],
-      "explanation": "本句的「volume」指「訂單量」。",
+      "explanation": "本句的「volume」指「液體、氣體等所佔的空間大小」。",
       "sentenceIndex": 3,
       "sourcePractice": 2,
       "targets": [
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-03": "本句指「訂單量」。",
+        "volume-pdf-001": "本句指「液體、氣體等所佔的空間大小」。",
         "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
         "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
         "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。",
         "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
         "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
       },
-      "correctOption": "volume-mcq-03"
+      "correctOption": "volume-pdf-001"
     },
     {
       "id": "volume-03-0",

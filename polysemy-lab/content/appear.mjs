@@ -360,16 +360,6 @@ export default {
           "The report first appeared online.",
           "這份報告最初在網上發布／出現。",
           "某篇作品／文章被出版、刊登或發布"
-        ],
-        [
-          "Her name appears on the list.",
-          "她的名字出現在／列在名單上。",
-          "某篇作品／文章被出版、刊登或發布"
-        ],
-        [
-          "The figure appears in the report.",
-          "這個數字出現在報告中。",
-          "某篇作品／文章被出版、刊登或發布"
         ]
       ],
       "options": [],
@@ -391,16 +381,6 @@ export default {
         [
           "The title appears at the top of the page.",
           "標題顯示在頁面頂部。",
-          "某個文字、圖像、名稱或資料顯示／列於某處"
-        ],
-        [
-          "The company appears on the list.",
-          "公司名列這份清單。",
-          "某個文字、圖像、名稱或資料顯示／列於某處"
-        ],
-        [
-          "The word appears several times in the passage.",
-          "這個詞在文章中出現了幾次。",
           "某個文字、圖像、名稱或資料顯示／列於某處"
         ]
       ],
@@ -566,16 +546,6 @@ export default {
           "The message disappeared from the screen.",
           "訊息從螢幕上消失了。",
           "由可見／存在狀態變成看不到、不存在或無法找到"
-        ],
-        [
-          "The sudden disappearance of the file was strange.",
-          "檔案突然消失很奇怪。",
-          "由可見／存在狀態變成看不到、不存在或無法找到"
-        ],
-        [
-          "Police investigated the person’s disappearance.",
-          "警方調查該人士的失蹤。",
-          "由可見／存在狀態變成看不到、不存在或無法找到"
         ]
       ],
       "options": [],
@@ -611,16 +581,6 @@ export default {
       "zh": "以嘉賓／非固定角色身份短暫出現",
       "note": "來源詞義：以嘉賓／非固定角色身份短暫出現",
       "examples": [
-        [
-          "She made her first appearance for the team.",
-          "她首次代表球隊上陣／出場。",
-          "以嘉賓／非固定角色身份短暫出現"
-        ],
-        [
-          "The actor made a guest appearance.",
-          "這名演員作了嘉賓亮相／客串演出。",
-          "以嘉賓／非固定角色身份短暫出現"
-        ],
         [
           "She made a guest appearance in the series.",
           "她在劇集中客串演出。",
@@ -784,6 +744,94 @@ export default {
           "At first, the task appeared impossible.",
           "起初，任務似乎不可能完成。",
           "根據表面／證據形成暫時判斷"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "appear-pdf-001",
+      "title": "某項內容被寫入／顯示在文件、名單、頁面等地方",
+      "form": "18. appear in a book/report/list（出現在文件中） — 載於；列於",
+      "en": "18. appear in a book/report/list（出現在文件中） — 載於；列於",
+      "zh": "某項內容被寫入／顯示在文件、名單、頁面等地方",
+      "note": "原始 PDF 第 18 節：某項內容被寫入／顯示在文件、名單、頁面等地方",
+      "examples": [
+        [
+          "Her name appears on the list.",
+          "她的名字出現在／列在名單上。",
+          "某項內容被寫入／顯示在文件、名單、頁面等地方"
+        ],
+        [
+          "The figure appears in the report.",
+          "這個數字出現在報告中。",
+          "某項內容被寫入／顯示在文件、名單、頁面等地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "appear-pdf-002",
+      "title": "某個名稱、詞、項目等實際存在於文字／清單內",
+      "form": "20. appear = be listed/mentioned（列出／提及） — 出現；列名",
+      "en": "20. appear = be listed/mentioned（列出／提及） — 出現；列名",
+      "zh": "某個名稱、詞、項目等實際存在於文字／清單內",
+      "note": "原始 PDF 第 20 節：某個名稱、詞、項目等實際存在於文字／清單內",
+      "examples": [
+        [
+          "The company appears on the list.",
+          "公司名列這份清單。",
+          "某個名稱、詞、項目等實際存在於文字／清單內"
+        ],
+        [
+          "The word appears several times in the passage.",
+          "這個詞在文章中出現了幾次。",
+          "某個名稱、詞、項目等實際存在於文字／清單內"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "appear-pdf-003",
+      "title": "消失／失蹤這件事或狀態",
+      "form": "30. disappearance（消失） — 消失；失蹤",
+      "en": "30. disappearance（消失） — 消失；失蹤",
+      "zh": "消失／失蹤這件事或狀態",
+      "note": "原始 PDF 第 30 節：消失／失蹤這件事或狀態",
+      "examples": [
+        [
+          "The sudden disappearance of the file was strange.",
+          "檔案突然消失很奇怪。",
+          "消失／失蹤這件事或狀態"
+        ],
+        [
+          "Police investigated the person’s disappearance.",
+          "警方調查該人士的失蹤。",
+          "消失／失蹤這件事或狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "appear-pdf-004",
+      "title": "某人在比賽、節目、表演等正式出場／參與一次",
+      "form": "32. appearance = formal participation/performance（亮相／出場） — 出場；登場",
+      "en": "32. appearance = formal participation/performance（亮相／出場） — 出場；登場",
+      "zh": "某人在比賽、節目、表演等正式出場／參與一次",
+      "note": "原始 PDF 第 32 節：某人在比賽、節目、表演等正式出場／參與一次",
+      "examples": [
+        [
+          "She made her first appearance for the team.",
+          "她首次代表球隊上陣／出場。",
+          "某人在比賽、節目、表演等正式出場／參與一次"
+        ],
+        [
+          "The actor made a guest appearance.",
+          "這名演員作了嘉賓亮相／客串演出。",
+          "某人在比賽、節目、表演等正式出場／參與一次"
         ]
       ],
       "options": [],
@@ -1813,63 +1861,63 @@ export default {
     },
     {
       "id": "appear-18-0",
-      "sense": "appear-mcq-15",
+      "sense": "appear-pdf-001",
       "en": "Her name appears on the list.",
       "zh": "她的名字出現在／列在名單上。",
       "masked": "Her name ____ the list.",
       "options": [
-        "appear-mcq-15",
+        "appear-pdf-001",
         "appear-mcq-14",
         "appear-mcq-16",
         "appear-mcq-13",
         "appear-mcq-17",
         "appear-mcq-12"
       ],
-      "explanation": "本句的「appears on」指「某篇作品／文章被出版、刊登或發布」。",
+      "explanation": "本句的「appears on」指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "appears on"
       ],
       "optionReasons": {
-        "appear-mcq-15": "本句指「某篇作品／文章被出版、刊登或發布」。",
+        "appear-pdf-001": "本句指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
         "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
         "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
         "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
         "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
         "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-15"
+      "correctOption": "appear-pdf-001"
     },
     {
       "id": "appear-18-1",
-      "sense": "appear-mcq-15",
+      "sense": "appear-pdf-001",
       "en": "The figure appears in the report.",
       "zh": "這個數字出現在報告中。",
       "masked": "The figure ____ the report.",
       "options": [
-        "appear-mcq-15",
+        "appear-pdf-001",
         "appear-mcq-14",
         "appear-mcq-16",
         "appear-mcq-13",
         "appear-mcq-17",
         "appear-mcq-12"
       ],
-      "explanation": "本句的「appears in」指「某篇作品／文章被出版、刊登或發布」。",
+      "explanation": "本句的「appears in」指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "appears in"
       ],
       "optionReasons": {
-        "appear-mcq-15": "本句指「某篇作品／文章被出版、刊登或發布」。",
+        "appear-pdf-001": "本句指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
         "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
         "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
         "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
         "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
         "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-15"
+      "correctOption": "appear-pdf-001"
     },
     {
       "id": "appear-19-0",
@@ -1933,63 +1981,63 @@ export default {
     },
     {
       "id": "appear-20-0",
-      "sense": "appear-mcq-16",
+      "sense": "appear-pdf-002",
       "en": "The company appears on the list.",
       "zh": "公司名列這份清單。",
       "masked": "The company ____ the list.",
       "options": [
-        "appear-mcq-16",
+        "appear-pdf-002",
         "appear-mcq-15",
         "appear-mcq-17",
         "appear-mcq-14",
         "appear-mcq-18",
         "appear-mcq-13"
       ],
-      "explanation": "本句的「appears on」指「某個文字、圖像、名稱或資料顯示／列於某處」。",
+      "explanation": "本句的「appears on」指「某個名稱、詞、項目等實際存在於文字／清單內」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "appears on"
       ],
       "optionReasons": {
-        "appear-mcq-16": "本句指「某個文字、圖像、名稱或資料顯示／列於某處」。",
+        "appear-pdf-002": "本句指「某個名稱、詞、項目等實際存在於文字／清單內」。",
         "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
         "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
         "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
         "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
         "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-16"
+      "correctOption": "appear-pdf-002"
     },
     {
       "id": "appear-20-1",
-      "sense": "appear-mcq-16",
+      "sense": "appear-pdf-002",
       "en": "The word appears several times in the passage.",
       "zh": "這個詞在文章中出現了幾次。",
       "masked": "The word ____ several times in the passage.",
       "options": [
-        "appear-mcq-16",
+        "appear-pdf-002",
         "appear-mcq-15",
         "appear-mcq-17",
         "appear-mcq-14",
         "appear-mcq-18",
         "appear-mcq-13"
       ],
-      "explanation": "本句的「appears」指「某個文字、圖像、名稱或資料顯示／列於某處」。",
+      "explanation": "本句的「appears」指「某個名稱、詞、項目等實際存在於文字／清單內」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "appears"
       ],
       "optionReasons": {
-        "appear-mcq-16": "本句指「某個文字、圖像、名稱或資料顯示／列於某處」。",
+        "appear-pdf-002": "本句指「某個名稱、詞、項目等實際存在於文字／清單內」。",
         "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
         "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
         "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
         "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
         "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-16"
+      "correctOption": "appear-pdf-002"
     },
     {
       "id": "appear-21-0",
@@ -2533,63 +2581,63 @@ export default {
     },
     {
       "id": "appear-30-0",
-      "sense": "appear-mcq-23",
+      "sense": "appear-pdf-003",
       "en": "The sudden disappearance of the file was strange.",
       "zh": "檔案突然消失很奇怪。",
       "masked": "The sudden ____ of the file was strange.",
       "options": [
-        "appear-mcq-23",
+        "appear-pdf-003",
         "appear-mcq-22",
         "appear-mcq-24",
         "appear-mcq-21",
         "appear-mcq-25",
         "appear-mcq-20"
       ],
-      "explanation": "本句的「disappearance」指「由可見／存在狀態變成看不到、不存在或無法找到」。",
+      "explanation": "本句的「disappearance」指「消失／失蹤這件事或狀態」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "disappearance"
       ],
       "optionReasons": {
-        "appear-mcq-23": "本句指「由可見／存在狀態變成看不到、不存在或無法找到」。",
+        "appear-pdf-003": "本句指「消失／失蹤這件事或狀態」。",
         "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
         "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
         "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
         "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
         "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-23"
+      "correctOption": "appear-pdf-003"
     },
     {
       "id": "appear-30-1",
-      "sense": "appear-mcq-23",
+      "sense": "appear-pdf-003",
       "en": "Police investigated the person’s disappearance.",
       "zh": "警方調查該人士的失蹤。",
       "masked": "Police investigated the person’s ____.",
       "options": [
-        "appear-mcq-23",
+        "appear-pdf-003",
         "appear-mcq-22",
         "appear-mcq-24",
         "appear-mcq-21",
         "appear-mcq-25",
         "appear-mcq-20"
       ],
-      "explanation": "本句的「disappearance」指「由可見／存在狀態變成看不到、不存在或無法找到」。",
+      "explanation": "本句的「disappearance」指「消失／失蹤這件事或狀態」。",
       "sentenceIndex": 59,
       "sourcePractice": 60,
       "targets": [
         "disappearance"
       ],
       "optionReasons": {
-        "appear-mcq-23": "本句指「由可見／存在狀態變成看不到、不存在或無法找到」。",
+        "appear-pdf-003": "本句指「消失／失蹤這件事或狀態」。",
         "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
         "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
         "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
         "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
         "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-23"
+      "correctOption": "appear-pdf-003"
     },
     {
       "id": "appear-31-0",
@@ -2653,63 +2701,63 @@ export default {
     },
     {
       "id": "appear-32-0",
-      "sense": "appear-mcq-25",
+      "sense": "appear-pdf-004",
       "en": "She made her first appearance for the team.",
       "zh": "她首次代表球隊上陣／出場。",
       "masked": "She made her first ____ for the team.",
       "options": [
-        "appear-mcq-25",
+        "appear-pdf-004",
         "appear-mcq-24",
         "appear-mcq-26",
         "appear-mcq-23",
         "appear-mcq-27",
         "appear-mcq-22"
       ],
-      "explanation": "本句的「appearance」指「以嘉賓／非固定角色身份短暫出現」。",
+      "explanation": "本句的「appearance」指「某人在比賽、節目、表演等正式出場／參與一次」。",
       "sentenceIndex": 62,
       "sourcePractice": 63,
       "targets": [
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-25": "本句指「以嘉賓／非固定角色身份短暫出現」。",
+        "appear-pdf-004": "本句指「某人在比賽、節目、表演等正式出場／參與一次」。",
         "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
         "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
         "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
         "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
         "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-25"
+      "correctOption": "appear-pdf-004"
     },
     {
       "id": "appear-32-1",
-      "sense": "appear-mcq-25",
+      "sense": "appear-pdf-004",
       "en": "The actor made a guest appearance.",
       "zh": "這名演員作了嘉賓亮相／客串演出。",
       "masked": "The actor made a guest ____.",
       "options": [
-        "appear-mcq-25",
+        "appear-pdf-004",
         "appear-mcq-24",
         "appear-mcq-26",
         "appear-mcq-23",
         "appear-mcq-27",
         "appear-mcq-22"
       ],
-      "explanation": "本句的「appearance」指「以嘉賓／非固定角色身份短暫出現」。",
+      "explanation": "本句的「appearance」指「某人在比賽、節目、表演等正式出場／參與一次」。",
       "sentenceIndex": 63,
       "sourcePractice": 64,
       "targets": [
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-25": "本句指「以嘉賓／非固定角色身份短暫出現」。",
+        "appear-pdf-004": "本句指「某人在比賽、節目、表演等正式出場／參與一次」。",
         "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
         "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
         "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
         "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
         "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。"
       },
-      "correctOption": "appear-mcq-25"
+      "correctOption": "appear-pdf-004"
     },
     {
       "id": "appear-33-0",

@@ -247,16 +247,6 @@ export default {
           "The restaurant uses warm lighting.",
           "餐廳使用暖色燈光。",
           "色調偏黃橙、常令人感到舒適柔和的光線"
-        ],
-        [
-          "The perfume has a warm, spicy scent.",
-          "這款香水帶有溫厚的辛香氣味。",
-          "色調偏黃橙、常令人感到舒適柔和的光線"
-        ],
-        [
-          "The dish has a warm flavour from cinnamon and cloves.",
-          "這道菜因肉桂和丁香而帶有一種溫暖濃郁的風味。",
-          "色調偏黃橙、常令人感到舒適柔和的光線"
         ]
       ],
       "options": [],
@@ -543,6 +533,28 @@ export default {
           "Ocean warming affects marine ecosystems.",
           "海洋升溫會影響海洋生態系統。",
           "表示溫度逐步升高的過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "warm-pdf-001",
+      "title": "氣味或風味令人聯想到溫暖、柔和、辛香或舒適感",
+      "form": "12. warm scent/flavour（氣味／味道） — 溫厚的；帶暖香的",
+      "en": "12. warm scent/flavour（氣味／味道） — 溫厚的；帶暖香的",
+      "zh": "氣味或風味令人聯想到溫暖、柔和、辛香或舒適感",
+      "note": "原始 PDF 第 12 節：氣味或風味令人聯想到溫暖、柔和、辛香或舒適感",
+      "examples": [
+        [
+          "The perfume has a warm, spicy scent.",
+          "這款香水帶有溫厚的辛香氣味。",
+          "氣味或風味令人聯想到溫暖、柔和、辛香或舒適感"
+        ],
+        [
+          "The dish has a warm flavour from cinnamon and cloves.",
+          "這道菜因肉桂和丁香而帶有一種溫暖濃郁的風味。",
+          "氣味或風味令人聯想到溫暖、柔和、辛香或舒適感"
         ]
       ],
       "options": [],
@@ -1242,63 +1254,63 @@ export default {
     },
     {
       "id": "warm-12-0",
-      "sense": "warm-mcq-11",
+      "sense": "warm-pdf-001",
       "en": "The perfume has a warm, spicy scent.",
       "zh": "這款香水帶有溫厚的辛香氣味。",
       "masked": "The perfume has a ____.",
       "options": [
-        "warm-mcq-11",
+        "warm-pdf-001",
         "warm-mcq-10",
         "warm-mcq-12",
         "warm-mcq-09",
         "warm-mcq-13",
         "warm-mcq-08"
       ],
-      "explanation": "本句的「warm, spicy scent」指「色調偏黃橙、常令人感到舒適柔和的光線」。",
+      "explanation": "本句的「warm, spicy scent」指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "warm, spicy scent"
       ],
       "optionReasons": {
-        "warm-mcq-11": "本句指「色調偏黃橙、常令人感到舒適柔和的光線」。",
+        "warm-pdf-001": "本句指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
         "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
         "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
         "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
         "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
         "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。"
       },
-      "correctOption": "warm-mcq-11"
+      "correctOption": "warm-pdf-001"
     },
     {
       "id": "warm-12-1",
-      "sense": "warm-mcq-11",
+      "sense": "warm-pdf-001",
       "en": "The dish has a warm flavour from cinnamon and cloves.",
       "zh": "這道菜因肉桂和丁香而帶有一種溫暖濃郁的風味。",
       "masked": "The dish has a ____ from cinnamon and cloves.",
       "options": [
-        "warm-mcq-11",
+        "warm-pdf-001",
         "warm-mcq-10",
         "warm-mcq-12",
         "warm-mcq-09",
         "warm-mcq-13",
         "warm-mcq-08"
       ],
-      "explanation": "本句的「warm flavour」指「色調偏黃橙、常令人感到舒適柔和的光線」。",
+      "explanation": "本句的「warm flavour」指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "warm flavour"
       ],
       "optionReasons": {
-        "warm-mcq-11": "本句指「色調偏黃橙、常令人感到舒適柔和的光線」。",
+        "warm-pdf-001": "本句指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
         "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
         "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
         "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
         "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
         "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。"
       },
-      "correctOption": "warm-mcq-11"
+      "correctOption": "warm-pdf-001"
     },
     {
       "id": "warm-13-0",

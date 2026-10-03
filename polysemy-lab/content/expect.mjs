@@ -61,18 +61,7 @@ export default {
       "en": "expect someone to X",
       "zh": "預期／要求某人 X",
       "note": "來源詞義：預期／要求某人 X",
-      "examples": [
-        [
-          "I expected him to call.",
-          "我預料他會打電話來。",
-          "預期／要求某人 X"
-        ],
-        [
-          "We expect students to arrive on time.",
-          "我們預期／要求學生準時到達。",
-          "預期／要求某人 X"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -503,6 +492,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "expect-pdf-001",
+      "title": "認為某人很可能會做某事；某些語境下也可表示要求某人做",
+      "form": "3. expect someone to do something — 預期某人會做某事",
+      "en": "3. expect someone to do something — 預期某人會做某事",
+      "zh": "認為某人很可能會做某事；某些語境下也可表示要求某人做",
+      "note": "原始 PDF 第 3 節：認為某人很可能會做某事；某些語境下也可表示要求某人做",
+      "examples": [
+        [
+          "I expected him to call.",
+          "我預料他會打電話來。",
+          "認為某人很可能會做某事；某些語境下也可表示要求某人做"
+        ],
+        [
+          "We expect students to arrive on time.",
+          "我們預期／要求學生準時到達。",
+          "認為某人很可能會做某事；某些語境下也可表示要求某人做"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -658,63 +669,63 @@ export default {
     },
     {
       "id": "expect-03-0",
-      "sense": "expect-mcq-03",
+      "sense": "expect-pdf-001",
       "en": "I expected him to call.",
       "zh": "我預料他會打電話來。",
       "masked": "I ____.",
       "options": [
-        "expect-mcq-03",
+        "expect-pdf-001",
         "expect-mcq-02",
         "expect-mcq-04",
         "expect-mcq-01",
         "expect-mcq-05",
         "expect-mcq-06"
       ],
-      "explanation": "本句的「expected him to call」指「預期／要求某人 X」。",
+      "explanation": "本句的「expected him to call」指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "expected him to call"
       ],
       "optionReasons": {
-        "expect-mcq-03": "本句指「預期／要求某人 X」。",
+        "expect-pdf-001": "本句指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
         "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
         "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
         "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。",
         "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
         "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
       },
-      "correctOption": "expect-mcq-03"
+      "correctOption": "expect-pdf-001"
     },
     {
       "id": "expect-03-1",
-      "sense": "expect-mcq-03",
+      "sense": "expect-pdf-001",
       "en": "We expect students to arrive on time.",
       "zh": "我們預期／要求學生準時到達。",
       "masked": "We ____.",
       "options": [
-        "expect-mcq-03",
+        "expect-pdf-001",
         "expect-mcq-02",
         "expect-mcq-04",
         "expect-mcq-01",
         "expect-mcq-05",
         "expect-mcq-06"
       ],
-      "explanation": "本句的「expect students to arrive on time」指「預期／要求某人 X」。",
+      "explanation": "本句的「expect students to arrive on time」指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "expect students to arrive on time"
       ],
       "optionReasons": {
-        "expect-mcq-03": "本句指「預期／要求某人 X」。",
+        "expect-pdf-001": "本句指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
         "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
         "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
         "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。",
         "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
         "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
       },
-      "correctOption": "expect-mcq-03"
+      "correctOption": "expect-pdf-001"
     },
     {
       "id": "expect-04-0",

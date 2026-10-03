@@ -455,18 +455,7 @@ export default {
       "en": "speedy recovery",
       "zh": "早日／迅速康復",
       "note": "來源詞義：早日／迅速康復",
-      "examples": [
-        [
-          "The documents must be sent with all speed.",
-          "這些文件必須盡快送出。",
-          "早日／迅速康復"
-        ],
-        [
-          "The rescue team acted with great speed.",
-          "救援隊伍迅速地採取行動。",
-          "早日／迅速康復"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -542,6 +531,28 @@ export default {
           "A cyclist sped past me on the path.",
           "一名單車手在小徑上飛快地從我身旁經過。",
           "以很快速度從某人／某物旁邊經過"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "speed-pdf-001",
+      "title": "非常迅速地；盡快地",
+      "form": "22. with all speed / with great speed — 盡快；迅速地",
+      "en": "22. with all speed / with great speed — 盡快；迅速地",
+      "zh": "非常迅速地；盡快地",
+      "note": "原始 PDF 第 22 節：非常迅速地；盡快地",
+      "examples": [
+        [
+          "The documents must be sent with all speed.",
+          "這些文件必須盡快送出。",
+          "非常迅速地；盡快地"
+        ],
+        [
+          "The rescue team acted with great speed.",
+          "救援隊伍迅速地採取行動。",
+          "非常迅速地；盡快地"
         ]
       ],
       "options": [],
@@ -1841,63 +1852,63 @@ export default {
     },
     {
       "id": "speed-22-0",
-      "sense": "speed-mcq-21",
+      "sense": "speed-pdf-001",
       "en": "The documents must be sent with all speed.",
       "zh": "這些文件必須盡快送出。",
       "masked": "The documents must be sent ____.",
       "options": [
-        "speed-mcq-21",
+        "speed-pdf-001",
         "speed-mcq-20",
         "speed-mcq-22",
         "speed-mcq-19",
         "speed-mcq-23",
         "speed-mcq-18"
       ],
-      "explanation": "本句的「with all speed」指「早日／迅速康復」。",
+      "explanation": "本句的「with all speed」指「非常迅速地；盡快地」。",
       "sentenceIndex": 43,
       "sourcePractice": 1,
       "targets": [
         "with all speed"
       ],
       "optionReasons": {
-        "speed-mcq-21": "本句指「早日／迅速康復」。",
+        "speed-pdf-001": "本句指「非常迅速地；盡快地」。",
         "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
         "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
         "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
         "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
         "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。"
       },
-      "correctOption": "speed-mcq-21"
+      "correctOption": "speed-pdf-001"
     },
     {
       "id": "speed-22-1",
-      "sense": "speed-mcq-21",
+      "sense": "speed-pdf-001",
       "en": "The rescue team acted with great speed.",
       "zh": "救援隊伍迅速地採取行動。",
       "masked": "The rescue team acted ____.",
       "options": [
-        "speed-mcq-21",
+        "speed-pdf-001",
         "speed-mcq-20",
         "speed-mcq-22",
         "speed-mcq-19",
         "speed-mcq-23",
         "speed-mcq-18"
       ],
-      "explanation": "本句的「with great speed」指「早日／迅速康復」。",
+      "explanation": "本句的「with great speed」指「非常迅速地；盡快地」。",
       "sentenceIndex": 44,
       "sourcePractice": 2,
       "targets": [
         "with great speed"
       ],
       "optionReasons": {
-        "speed-mcq-21": "本句指「早日／迅速康復」。",
+        "speed-pdf-001": "本句指「非常迅速地；盡快地」。",
         "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
         "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
         "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
         "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
         "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。"
       },
-      "correctOption": "speed-mcq-21"
+      "correctOption": "speed-pdf-001"
     },
     {
       "id": "speed-23-0",

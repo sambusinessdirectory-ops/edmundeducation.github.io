@@ -88,18 +88,7 @@ export default {
       "en": "coat — biological covering",
       "zh": "種子、細胞等外面的保護層；屬於 outer-layer 義",
       "note": "來源詞義：種子、細胞等外面的保護層；屬於 outer-layer 義",
-      "examples": [
-        [
-          "The seed has a hard outer coat.",
-          "種子有一層堅硬的外皮／種皮。",
-          "種子、細胞等外面的保護層；屬於 outer-layer 義"
-        ],
-        [
-          "The capsule has a protective coat.",
-          "膠囊有一層保護外膜。",
-          "種子、細胞等外面的保護層；屬於 outer-layer 義"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -154,18 +143,7 @@ export default {
       "en": "coating",
       "zh": "覆在物件表面的塗層／包覆層",
       "note": "來源詞義：覆在物件表面的塗層／包覆層",
-      "examples": [
-        [
-          "The pan has a non-stick coating.",
-          "這個煎鍋有一層防黏塗層。",
-          "覆在物件表面的塗層／包覆層"
-        ],
-        [
-          "The tablet has a protective coating.",
-          "這顆藥片有一層保護包衣。",
-          "覆在物件表面的塗層／包覆層"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -208,6 +186,50 @@ export default {
           "The family used an old coat of arms.",
           "這個家族使用一個古老的家族紋章。",
           "家族、城市、機構等使用的紋章；固定詞組"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "coat-pdf-001",
+      "title": "生物結構外圍具有保護作用的外層",
+      "form": "4. coat = protective outer layer of a biological structure（生物） — 外膜；外皮；包膜",
+      "en": "4. coat = protective outer layer of a biological structure（生物） — 外膜；外皮；包膜",
+      "zh": "生物結構外圍具有保護作用的外層",
+      "note": "原始 PDF 第 4 節：生物結構外圍具有保護作用的外層",
+      "examples": [
+        [
+          "The seed has a hard outer coat.",
+          "種子有一層堅硬的外皮／種皮。",
+          "生物結構外圍具有保護作用的外層"
+        ],
+        [
+          "The capsule has a protective coat.",
+          "膠囊有一層保護外膜。",
+          "生物結構外圍具有保護作用的外層"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "coat-pdf-002",
+      "title": "為保護、裝飾、改善功能等而覆在表面的一層材料",
+      "form": "8. coating = layer applied to a surface（塗層） — 塗層；包覆層",
+      "en": "8. coating = layer applied to a surface（塗層） — 塗層；包覆層",
+      "zh": "為保護、裝飾、改善功能等而覆在表面的一層材料",
+      "note": "原始 PDF 第 8 節：為保護、裝飾、改善功能等而覆在表面的一層材料",
+      "examples": [
+        [
+          "The pan has a non-stick coating.",
+          "這個煎鍋有一層防黏塗層。",
+          "為保護、裝飾、改善功能等而覆在表面的一層材料"
+        ],
+        [
+          "The tablet has a protective coating.",
+          "這顆藥片有一層保護包衣。",
+          "為保護、裝飾、改善功能等而覆在表面的一層材料"
         ]
       ],
       "options": [],
@@ -457,63 +479,63 @@ export default {
     },
     {
       "id": "coat-04-0",
-      "sense": "coat-mcq-04",
+      "sense": "coat-pdf-001",
       "en": "The seed has a hard outer coat.",
       "zh": "種子有一層堅硬的外皮／種皮。",
       "masked": "The seed has a hard outer ____.",
       "options": [
-        "coat-mcq-04",
+        "coat-pdf-001",
         "coat-mcq-03",
         "coat-mcq-05",
         "coat-mcq-02",
         "coat-mcq-06",
         "coat-mcq-01"
       ],
-      "explanation": "本句的「coat」指「種子、細胞等外面的保護層；屬於 outer-layer 義」。",
+      "explanation": "本句的「coat」指「生物結構外圍具有保護作用的外層」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-04": "本句指「種子、細胞等外面的保護層；屬於 outer-layer 義」。",
+        "coat-pdf-001": "本句指「生物結構外圍具有保護作用的外層」。",
         "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
         "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
         "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
         "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
         "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。"
       },
-      "correctOption": "coat-mcq-04"
+      "correctOption": "coat-pdf-001"
     },
     {
       "id": "coat-04-1",
-      "sense": "coat-mcq-04",
+      "sense": "coat-pdf-001",
       "en": "The capsule has a protective coat.",
       "zh": "膠囊有一層保護外膜。",
       "masked": "The capsule has a protective ____.",
       "options": [
-        "coat-mcq-04",
+        "coat-pdf-001",
         "coat-mcq-03",
         "coat-mcq-05",
         "coat-mcq-02",
         "coat-mcq-06",
         "coat-mcq-01"
       ],
-      "explanation": "本句的「coat」指「種子、細胞等外面的保護層；屬於 outer-layer 義」。",
+      "explanation": "本句的「coat」指「生物結構外圍具有保護作用的外層」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-04": "本句指「種子、細胞等外面的保護層；屬於 outer-layer 義」。",
+        "coat-pdf-001": "本句指「生物結構外圍具有保護作用的外層」。",
         "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
         "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
         "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
         "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
         "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。"
       },
-      "correctOption": "coat-mcq-04"
+      "correctOption": "coat-pdf-001"
     },
     {
       "id": "coat-05-0",
@@ -637,63 +659,63 @@ export default {
     },
     {
       "id": "coat-08-0",
-      "sense": "coat-mcq-07",
+      "sense": "coat-pdf-002",
       "en": "The pan has a non-stick coating.",
       "zh": "這個煎鍋有一層防黏塗層。",
       "masked": "The pan has a non-stick ____.",
       "options": [
-        "coat-mcq-07",
+        "coat-pdf-002",
         "coat-mcq-06",
         "coat-mcq-08",
         "coat-mcq-05",
         "coat-mcq-09",
         "coat-mcq-04"
       ],
-      "explanation": "本句的「coating」指「覆在物件表面的塗層／包覆層」。",
+      "explanation": "本句的「coating」指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "coating"
       ],
       "optionReasons": {
-        "coat-mcq-07": "本句指「覆在物件表面的塗層／包覆層」。",
+        "coat-pdf-002": "本句指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
         "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
         "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
         "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
         "coat-mcq-09": "「家族、城市、機構等使用的紋章；固定詞組」與本句語境不同。",
         "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
       },
-      "correctOption": "coat-mcq-07"
+      "correctOption": "coat-pdf-002"
     },
     {
       "id": "coat-08-1",
-      "sense": "coat-mcq-07",
+      "sense": "coat-pdf-002",
       "en": "The tablet has a protective coating.",
       "zh": "這顆藥片有一層保護包衣。",
       "masked": "The tablet has a protective ____.",
       "options": [
-        "coat-mcq-07",
+        "coat-pdf-002",
         "coat-mcq-06",
         "coat-mcq-08",
         "coat-mcq-05",
         "coat-mcq-09",
         "coat-mcq-04"
       ],
-      "explanation": "本句的「coating」指「覆在物件表面的塗層／包覆層」。",
+      "explanation": "本句的「coating」指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "coating"
       ],
       "optionReasons": {
-        "coat-mcq-07": "本句指「覆在物件表面的塗層／包覆層」。",
+        "coat-pdf-002": "本句指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
         "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
         "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
         "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
         "coat-mcq-09": "「家族、城市、機構等使用的紋章；固定詞組」與本句語境不同。",
         "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
       },
-      "correctOption": "coat-mcq-07"
+      "correctOption": "coat-pdf-002"
     },
     {
       "id": "coat-09-0",

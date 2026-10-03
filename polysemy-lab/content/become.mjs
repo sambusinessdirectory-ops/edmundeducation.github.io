@@ -49,16 +49,6 @@ export default {
           "He became angry when he heard the news.",
           "他聽到消息後變得生氣。",
           "身體、情緒或心理狀態發生改變"
-        ],
-        [
-          "The problem became more difficult.",
-          "問題變得更困難。",
-          "身體、情緒或心理狀態發生改變"
-        ],
-        [
-          "Communication became easier over time.",
-          "溝通隨時間變得更容易。",
-          "身體、情緒或心理狀態發生改變"
         ]
       ],
       "options": [],
@@ -160,16 +150,6 @@ export default {
       "zh": "人際關係轉變為朋友關係",
       "note": "來源詞義：人際關係轉變為朋友關係",
       "examples": [
-        [
-          "She became a mother at thirty.",
-          "她三十歲時成為母親。",
-          "人際關係轉變為朋友關係"
-        ],
-        [
-          "He became team leader.",
-          "他成為隊長／團隊領導。",
-          "人際關係轉變為朋友關係"
-        ],
         [
           "We became friends at university.",
           "我們在大學時成為朋友。",
@@ -345,6 +325,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "become-pdf-001",
+      "title": "事情、情況或問題的性質逐漸改變",
+      "form": "3. become difficult/easy/important（變得困難／容易／重要） — 情況改變",
+      "en": "3. become difficult/easy/important（變得困難／容易／重要） — 情況改變",
+      "zh": "事情、情況或問題的性質逐漸改變",
+      "note": "原始 PDF 第 3 節：事情、情況或問題的性質逐漸改變",
+      "examples": [
+        [
+          "The problem became more difficult.",
+          "問題變得更困難。",
+          "事情、情況或問題的性質逐漸改變"
+        ],
+        [
+          "Communication became easier over time.",
+          "溝通隨時間變得更容易。",
+          "事情、情況或問題的性質逐漸改變"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "become-pdf-002",
+      "title": "身份／職位由不是 X 轉變為 X",
+      "form": "8. become a parent/teacher/leader（成為某種身份） — 成為",
+      "en": "8. become a parent/teacher/leader（成為某種身份） — 成為",
+      "zh": "身份／職位由不是 X 轉變為 X",
+      "note": "原始 PDF 第 8 節：身份／職位由不是 X 轉變為 X",
+      "examples": [
+        [
+          "She became a mother at thirty.",
+          "她三十歲時成為母親。",
+          "身份／職位由不是 X 轉變為 X"
+        ],
+        [
+          "He became team leader.",
+          "他成為隊長／團隊領導。",
+          "身份／職位由不是 X 轉變為 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -500,63 +524,63 @@ export default {
     },
     {
       "id": "become-03-0",
-      "sense": "become-mcq-02",
+      "sense": "become-pdf-001",
       "en": "The problem became more difficult.",
       "zh": "問題變得更困難。",
       "masked": "The problem ____.",
       "options": [
-        "become-mcq-02",
+        "become-pdf-001",
         "become-mcq-01",
         "become-mcq-03",
         "become-mcq-04",
         "become-mcq-05",
         "become-mcq-06"
       ],
-      "explanation": "本句的「became more difficult」指「身體、情緒或心理狀態發生改變」。",
+      "explanation": "本句的「became more difficult」指「事情、情況或問題的性質逐漸改變」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "became more difficult"
       ],
       "optionReasons": {
-        "become-mcq-02": "本句指「身體、情緒或心理狀態發生改變」。",
+        "become-pdf-001": "本句指「事情、情況或問題的性質逐漸改變」。",
         "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
         "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
         "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
         "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
         "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
       },
-      "correctOption": "become-mcq-02"
+      "correctOption": "become-pdf-001"
     },
     {
       "id": "become-03-1",
-      "sense": "become-mcq-02",
+      "sense": "become-pdf-001",
       "en": "Communication became easier over time.",
       "zh": "溝通隨時間變得更容易。",
       "masked": "Communication ____ easier over time.",
       "options": [
-        "become-mcq-02",
+        "become-pdf-001",
         "become-mcq-01",
         "become-mcq-03",
         "become-mcq-04",
         "become-mcq-05",
         "become-mcq-06"
       ],
-      "explanation": "本句的「became」指「身體、情緒或心理狀態發生改變」。",
+      "explanation": "本句的「became」指「事情、情況或問題的性質逐漸改變」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "became"
       ],
       "optionReasons": {
-        "become-mcq-02": "本句指「身體、情緒或心理狀態發生改變」。",
+        "become-pdf-001": "本句指「事情、情況或問題的性質逐漸改變」。",
         "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
         "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
         "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
         "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
         "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
       },
-      "correctOption": "become-mcq-02"
+      "correctOption": "become-pdf-001"
     },
     {
       "id": "become-04-0",
@@ -800,63 +824,63 @@ export default {
     },
     {
       "id": "become-08-0",
-      "sense": "become-mcq-07",
+      "sense": "become-pdf-002",
       "en": "She became a mother at thirty.",
       "zh": "她三十歲時成為母親。",
       "masked": "She ____ at thirty.",
       "options": [
-        "become-mcq-07",
+        "become-pdf-002",
         "become-mcq-06",
         "become-mcq-08",
         "become-mcq-05",
         "become-mcq-09",
         "become-mcq-04"
       ],
-      "explanation": "本句的「became a mother」指「人際關係轉變為朋友關係」。",
+      "explanation": "本句的「became a mother」指「身份／職位由不是 X 轉變為 X」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "became a mother"
       ],
       "optionReasons": {
-        "become-mcq-07": "本句指「人際關係轉變為朋友關係」。",
+        "become-pdf-002": "本句指「身份／職位由不是 X 轉變為 X」。",
         "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
         "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
         "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
         "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
         "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。"
       },
-      "correctOption": "become-mcq-07"
+      "correctOption": "become-pdf-002"
     },
     {
       "id": "become-08-1",
-      "sense": "become-mcq-07",
+      "sense": "become-pdf-002",
       "en": "He became team leader.",
       "zh": "他成為隊長／團隊領導。",
       "masked": "He ____ team leader.",
       "options": [
-        "become-mcq-07",
+        "become-pdf-002",
         "become-mcq-06",
         "become-mcq-08",
         "become-mcq-05",
         "become-mcq-09",
         "become-mcq-04"
       ],
-      "explanation": "本句的「became」指「人際關係轉變為朋友關係」。",
+      "explanation": "本句的「became」指「身份／職位由不是 X 轉變為 X」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "became"
       ],
       "optionReasons": {
-        "become-mcq-07": "本句指「人際關係轉變為朋友關係」。",
+        "become-pdf-002": "本句指「身份／職位由不是 X 轉變為 X」。",
         "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
         "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
         "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
         "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
         "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。"
       },
-      "correctOption": "become-mcq-07"
+      "correctOption": "become-pdf-002"
     },
     {
       "id": "become-09-0",

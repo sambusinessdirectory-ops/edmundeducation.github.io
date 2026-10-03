@@ -450,16 +450,6 @@ export default {
           "Raise the number to the second power.",
           "把這個數提升到二次方。",
           "數學中的次方／冪概念"
-        ],
-        [
-          "A thousand is a power of ten.",
-          "一千是十的某個次方。",
-          "數學中的次方／冪概念"
-        ],
-        [
-          "Scientific notation uses powers of ten.",
-          "科學記數法使用十的次方。",
-          "數學中的次方／冪概念"
         ]
       ],
       "options": [],
@@ -764,6 +754,28 @@ export default {
           "He powered through the difficult section.",
           "他咬緊牙關完成了那個困難部分。",
           "即使疲累、困難或阻力很大，仍以意志或力氣繼續完成"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "power-pdf-001",
+      "title": "10 自乘若干次所得的數",
+      "form": "22. power of ten（十的冪） — 十的次方",
+      "en": "22. power of ten（十的冪） — 十的次方",
+      "zh": "10 自乘若干次所得的數",
+      "note": "原始 PDF 第 22 節：10 自乘若干次所得的數",
+      "examples": [
+        [
+          "A thousand is a power of ten.",
+          "一千是十的某個次方。",
+          "10 自乘若干次所得的數"
+        ],
+        [
+          "Scientific notation uses powers of ten.",
+          "科學記數法使用十的次方。",
+          "10 自乘若干次所得的數"
         ]
       ],
       "options": [],
@@ -2033,63 +2045,63 @@ export default {
     },
     {
       "id": "power-22-0",
-      "sense": "power-mcq-20",
+      "sense": "power-pdf-001",
       "en": "A thousand is a power of ten.",
       "zh": "一千是十的某個次方。",
       "masked": "A thousand is a ____.",
       "options": [
-        "power-mcq-20",
+        "power-pdf-001",
         "power-mcq-19",
         "power-mcq-21",
         "power-mcq-18",
         "power-mcq-22",
         "power-mcq-17"
       ],
-      "explanation": "本句的「power of ten」指「數學中的次方／冪概念」。",
+      "explanation": "本句的「power of ten」指「10 自乘若干次所得的數」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "power of ten"
       ],
       "optionReasons": {
-        "power-mcq-20": "本句指「數學中的次方／冪概念」。",
+        "power-pdf-001": "本句指「10 自乘若干次所得的數」。",
         "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
         "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
         "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
         "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
         "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。"
       },
-      "correctOption": "power-mcq-20"
+      "correctOption": "power-pdf-001"
     },
     {
       "id": "power-22-1",
-      "sense": "power-mcq-20",
+      "sense": "power-pdf-001",
       "en": "Scientific notation uses powers of ten.",
       "zh": "科學記數法使用十的次方。",
       "masked": "Scientific notation uses ____.",
       "options": [
-        "power-mcq-20",
+        "power-pdf-001",
         "power-mcq-19",
         "power-mcq-21",
         "power-mcq-18",
         "power-mcq-22",
         "power-mcq-17"
       ],
-      "explanation": "本句的「powers of ten」指「數學中的次方／冪概念」。",
+      "explanation": "本句的「powers of ten」指「10 自乘若干次所得的數」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "powers of ten"
       ],
       "optionReasons": {
-        "power-mcq-20": "本句指「數學中的次方／冪概念」。",
+        "power-pdf-001": "本句指「10 自乘若干次所得的數」。",
         "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
         "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
         "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
         "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
         "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。"
       },
-      "correctOption": "power-mcq-20"
+      "correctOption": "power-pdf-001"
     },
     {
       "id": "power-23-0",

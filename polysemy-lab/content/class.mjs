@@ -27,16 +27,6 @@ export default {
           "The class lasted fifty minutes.",
           "這節課持續了五十分鐘。",
           "老師在特定時段教授學生的一節課／課堂"
-        ],
-        [
-          "She teaches a writing class.",
-          "她教授一門寫作課。",
-          "老師在特定時段教授學生的一節課／課堂"
-        ],
-        [
-          "Math class starts after lunch.",
-          "數學課午飯後開始。",
-          "老師在特定時段教授學生的一節課／課堂"
         ]
       ],
       "options": [],
@@ -566,6 +556,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "class-pdf-001",
+      "title": "某一科目／技能的教學課程或課堂",
+      "form": "2. class = course/subject session（某科課堂） — 某一科的課",
+      "en": "2. class = course/subject session（某科課堂） — 某一科的課",
+      "zh": "某一科目／技能的教學課程或課堂",
+      "note": "原始 PDF 第 2 節：某一科目／技能的教學課程或課堂",
+      "examples": [
+        [
+          "She teaches a writing class.",
+          "她教授一門寫作課。",
+          "某一科目／技能的教學課程或課堂"
+        ],
+        [
+          "Math class starts after lunch.",
+          "數學課午飯後開始。",
+          "某一科目／技能的教學課程或課堂"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -661,63 +673,63 @@ export default {
     },
     {
       "id": "class-02-0",
-      "sense": "class-mcq-01",
+      "sense": "class-pdf-001",
       "en": "She teaches a writing class.",
       "zh": "她教授一門寫作課。",
       "masked": "She teaches a writing ____.",
       "options": [
-        "class-mcq-01",
+        "class-pdf-001",
         "class-mcq-02",
         "class-mcq-03",
         "class-mcq-04",
         "class-mcq-05",
         "class-mcq-06"
       ],
-      "explanation": "本句的「class」指「老師在特定時段教授學生的一節課／課堂」。",
+      "explanation": "本句的「class」指「某一科目／技能的教學課程或課堂」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "class"
       ],
       "optionReasons": {
-        "class-mcq-01": "本句指「老師在特定時段教授學生的一節課／課堂」。",
+        "class-pdf-001": "本句指「某一科目／技能的教學課程或課堂」。",
         "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
         "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
         "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
         "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
         "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
       },
-      "correctOption": "class-mcq-01"
+      "correctOption": "class-pdf-001"
     },
     {
       "id": "class-02-1",
-      "sense": "class-mcq-01",
+      "sense": "class-pdf-001",
       "en": "Math class starts after lunch.",
       "zh": "數學課午飯後開始。",
       "masked": "Math ____ starts after lunch.",
       "options": [
-        "class-mcq-01",
+        "class-pdf-001",
         "class-mcq-02",
         "class-mcq-03",
         "class-mcq-04",
         "class-mcq-05",
         "class-mcq-06"
       ],
-      "explanation": "本句的「class」指「老師在特定時段教授學生的一節課／課堂」。",
+      "explanation": "本句的「class」指「某一科目／技能的教學課程或課堂」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "class"
       ],
       "optionReasons": {
-        "class-mcq-01": "本句指「老師在特定時段教授學生的一節課／課堂」。",
+        "class-pdf-001": "本句指「某一科目／技能的教學課程或課堂」。",
         "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
         "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
         "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
         "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
         "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
       },
-      "correctOption": "class-mcq-01"
+      "correctOption": "class-pdf-001"
     },
     {
       "id": "class-03-0",

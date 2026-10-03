@@ -112,16 +112,6 @@ export default {
       "note": "來源詞義：需要認真處理、完成或解決的事情",
       "examples": [
         [
-          "Why don’t you mind your own business?",
-          "你為甚麼不管好自己的事／別多管閒事？",
-          "需要認真處理、完成或解決的事情"
-        ],
-        [
-          "He told them to mind their own business.",
-          "他叫他們不要多管閒事。",
-          "需要認真處理、完成或解決的事情"
-        ],
-        [
           "Let’s get down to business.",
           "我們開始談正事吧。",
           "需要認真處理、完成或解決的事情"
@@ -364,16 +354,6 @@ export default {
       "note": "來源詞義：經營企業或專業從事商業活動的人",
       "examples": [
         [
-          "Please call during business hours.",
-          "請在辦公／營業時間內致電。",
-          "經營企業或專業從事商業活動的人"
-        ],
-        [
-          "The bakery’s business hours are posted on the door.",
-          "麵包店的營業時間貼在門上。",
-          "經營企業或專業從事商業活動的人"
-        ],
-        [
           "She is a successful businessperson.",
           "她是一位成功的商人／企業人士。",
           "經營企業或專業從事商業活動的人"
@@ -480,6 +460,50 @@ export default {
           "We exchanged business cards after the meeting.",
           "會議後我們交換了名片。",
           "與公司、商業活動、工作或交易有關的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "business-pdf-001",
+      "title": "不要干涉別人的私人事務",
+      "form": "6. mind your own business = 管好你自己的事；別多管閒事",
+      "en": "6. mind your own business = 管好你自己的事；別多管閒事",
+      "zh": "不要干涉別人的私人事務",
+      "note": "原始 PDF 第 6 節：不要干涉別人的私人事務",
+      "examples": [
+        [
+          "Why don’t you mind your own business?",
+          "你為甚麼不管好自己的事／別多管閒事？",
+          "不要干涉別人的私人事務"
+        ],
+        [
+          "He told them to mind their own business.",
+          "他叫他們不要多管閒事。",
+          "不要干涉別人的私人事務"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "business-pdf-002",
+      "title": "公司／商店正常對外營業或辦公的時間",
+      "form": "20. business hours = 營業時間；辦公時間",
+      "en": "20. business hours = 營業時間；辦公時間",
+      "zh": "公司／商店正常對外營業或辦公的時間",
+      "note": "原始 PDF 第 20 節：公司／商店正常對外營業或辦公的時間",
+      "examples": [
+        [
+          "Please call during business hours.",
+          "請在辦公／營業時間內致電。",
+          "公司／商店正常對外營業或辦公的時間"
+        ],
+        [
+          "The bakery’s business hours are posted on the door.",
+          "麵包店的營業時間貼在門上。",
+          "公司／商店正常對外營業或辦公的時間"
         ]
       ],
       "options": [],
@@ -789,63 +813,63 @@ export default {
     },
     {
       "id": "business-06-0",
-      "sense": "business-mcq-06",
+      "sense": "business-pdf-001",
       "en": "Why don’t you mind your own business?",
       "zh": "你為甚麼不管好自己的事／別多管閒事？",
       "masked": "Why don’t you ____?",
       "options": [
-        "business-mcq-06",
+        "business-pdf-001",
         "business-mcq-05",
         "business-mcq-07",
         "business-mcq-04",
         "business-mcq-08",
         "business-mcq-03"
       ],
-      "explanation": "本句的「mind your own business」指「需要認真處理、完成或解決的事情」。",
+      "explanation": "本句的「mind your own business」指「不要干涉別人的私人事務」。",
       "sentenceIndex": 10,
       "sourcePractice": 14,
       "targets": [
         "mind your own business"
       ],
       "optionReasons": {
-        "business-mcq-06": "本句指「需要認真處理、完成或解決的事情」。",
+        "business-pdf-001": "本句指「不要干涉別人的私人事務」。",
         "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
         "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
         "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
         "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
         "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。"
       },
-      "correctOption": "business-mcq-06"
+      "correctOption": "business-pdf-001"
     },
     {
       "id": "business-06-1",
-      "sense": "business-mcq-06",
+      "sense": "business-pdf-001",
       "en": "He told them to mind their own business.",
       "zh": "他叫他們不要多管閒事。",
       "masked": "He told them to mind their own ____.",
       "options": [
-        "business-mcq-06",
+        "business-pdf-001",
         "business-mcq-05",
         "business-mcq-07",
         "business-mcq-04",
         "business-mcq-08",
         "business-mcq-03"
       ],
-      "explanation": "本句的「business」指「需要認真處理、完成或解決的事情」。",
+      "explanation": "本句的「business」指「不要干涉別人的私人事務」。",
       "sentenceIndex": 11,
       "sourcePractice": 15,
       "targets": [
         "business"
       ],
       "optionReasons": {
-        "business-mcq-06": "本句指「需要認真處理、完成或解決的事情」。",
+        "business-pdf-001": "本句指「不要干涉別人的私人事務」。",
         "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
         "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
         "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
         "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
         "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。"
       },
-      "correctOption": "business-mcq-06"
+      "correctOption": "business-pdf-001"
     },
     {
       "id": "business-07-0",
@@ -1629,63 +1653,63 @@ export default {
     },
     {
       "id": "business-20-0",
-      "sense": "business-mcq-17",
+      "sense": "business-pdf-002",
       "en": "Please call during business hours.",
       "zh": "請在辦公／營業時間內致電。",
       "masked": "Please call during ____.",
       "options": [
-        "business-mcq-17",
+        "business-pdf-002",
         "business-mcq-16",
         "business-mcq-18",
         "business-mcq-15",
         "business-mcq-19",
         "business-mcq-14"
       ],
-      "explanation": "本句的「business hours」指「經營企業或專業從事商業活動的人」。",
+      "explanation": "本句的「business hours」指「公司／商店正常對外營業或辦公的時間」。",
       "sentenceIndex": 38,
       "sourcePractice": 42,
       "targets": [
         "business hours"
       ],
       "optionReasons": {
-        "business-mcq-17": "本句指「經營企業或專業從事商業活動的人」。",
+        "business-pdf-002": "本句指「公司／商店正常對外營業或辦公的時間」。",
         "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
         "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
         "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
         "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
         "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
       },
-      "correctOption": "business-mcq-17"
+      "correctOption": "business-pdf-002"
     },
     {
       "id": "business-20-1",
-      "sense": "business-mcq-17",
+      "sense": "business-pdf-002",
       "en": "The bakery’s business hours are posted on the door.",
       "zh": "麵包店的營業時間貼在門上。",
       "masked": "The bakery’s ____ hours are posted on the door.",
       "options": [
-        "business-mcq-17",
+        "business-pdf-002",
         "business-mcq-16",
         "business-mcq-18",
         "business-mcq-15",
         "business-mcq-19",
         "business-mcq-14"
       ],
-      "explanation": "本句的「business」指「經營企業或專業從事商業活動的人」。",
+      "explanation": "本句的「business」指「公司／商店正常對外營業或辦公的時間」。",
       "sentenceIndex": 39,
       "sourcePractice": 43,
       "targets": [
         "business"
       ],
       "optionReasons": {
-        "business-mcq-17": "本句指「經營企業或專業從事商業活動的人」。",
+        "business-pdf-002": "本句指「公司／商店正常對外營業或辦公的時間」。",
         "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
         "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
         "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
         "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
         "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
       },
-      "correctOption": "business-mcq-17"
+      "correctOption": "business-pdf-002"
     },
     {
       "id": "business-21-0",

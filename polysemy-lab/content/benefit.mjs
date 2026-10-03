@@ -62,16 +62,6 @@ export default {
           "對某人／某事產生好處，使其受惠"
         ],
         [
-          "One benefit of shopping locally is convenience.",
-          "在本地購物的一個好處是方便。",
-          "對某人／某事產生好處，使其受惠"
-        ],
-        [
-          "The new service offers several benefits.",
-          "新服務帶來幾個好處／益處。",
-          "對某人／某事產生好處，使其受惠"
-        ],
-        [
           "The benefit of a small bakery is personal service.",
           "小型麵包店的好處是服務較有人情味。",
           "對某人／某事產生好處，使其受惠"
@@ -224,6 +214,28 @@ export default {
           "The insurance beneficiary receives the payment.",
           "保險受益人會收到賠款。",
           "在保險、遺產、信託等法律安排下有權取得利益的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "benefit-pdf-001",
+      "title": "某件事帶來的正面結果、優勢或好處",
+      "form": "3. benefit = advantage / positive result — 好處；益處；優點",
+      "en": "3. benefit = advantage / positive result — 好處；益處；優點",
+      "zh": "某件事帶來的正面結果、優勢或好處",
+      "note": "原始 PDF 第 3 節：某件事帶來的正面結果、優勢或好處",
+      "examples": [
+        [
+          "One benefit of shopping locally is convenience.",
+          "在本地購物的一個好處是方便。",
+          "某件事帶來的正面結果、優勢或好處"
+        ],
+        [
+          "The new service offers several benefits.",
+          "新服務帶來幾個好處／益處。",
+          "某件事帶來的正面結果、優勢或好處"
         ]
       ],
       "options": [],
@@ -383,63 +395,63 @@ export default {
     },
     {
       "id": "benefit-03-0",
-      "sense": "benefit-mcq-03",
+      "sense": "benefit-pdf-001",
       "en": "One benefit of shopping locally is convenience.",
       "zh": "在本地購物的一個好處是方便。",
       "masked": "One ____ of shopping locally is convenience.",
       "options": [
-        "benefit-mcq-03",
+        "benefit-pdf-001",
         "benefit-mcq-02",
         "benefit-mcq-04",
         "benefit-mcq-01",
         "benefit-mcq-05",
         "benefit-mcq-06"
       ],
-      "explanation": "本句的「benefit」指「對某人／某事產生好處，使其受惠」。",
+      "explanation": "本句的「benefit」指「某件事帶來的正面結果、優勢或好處」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "benefit"
       ],
       "optionReasons": {
-        "benefit-mcq-03": "本句指「對某人／某事產生好處，使其受惠」。",
+        "benefit-pdf-001": "本句指「某件事帶來的正面結果、優勢或好處」。",
         "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
         "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
         "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
         "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
         "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
       },
-      "correctOption": "benefit-mcq-03"
+      "correctOption": "benefit-pdf-001"
     },
     {
       "id": "benefit-03-1",
-      "sense": "benefit-mcq-03",
+      "sense": "benefit-pdf-001",
       "en": "The new service offers several benefits.",
       "zh": "新服務帶來幾個好處／益處。",
       "masked": "The new service offers several ____.",
       "options": [
-        "benefit-mcq-03",
+        "benefit-pdf-001",
         "benefit-mcq-02",
         "benefit-mcq-04",
         "benefit-mcq-01",
         "benefit-mcq-05",
         "benefit-mcq-06"
       ],
-      "explanation": "本句的「benefits」指「對某人／某事產生好處，使其受惠」。",
+      "explanation": "本句的「benefits」指「某件事帶來的正面結果、優勢或好處」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-03": "本句指「對某人／某事產生好處，使其受惠」。",
+        "benefit-pdf-001": "本句指「某件事帶來的正面結果、優勢或好處」。",
         "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
         "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
         "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
         "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
         "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
       },
-      "correctOption": "benefit-mcq-03"
+      "correctOption": "benefit-pdf-001"
     },
     {
       "id": "benefit-04-0",

@@ -93,16 +93,6 @@ export default {
           "I don’t see the connection between these two ideas.",
           "我看不出這兩個想法之間的關係／關聯。",
           "兩件事在原因、影響、邏輯或相似性上的關聯"
-        ],
-        [
-          "There may be a connection between stress and poor sleep.",
-          "壓力與睡眠不佳之間可能存在關聯／因果聯繫。",
-          "兩件事在原因、影響、邏輯或相似性上的關聯"
-        ],
-        [
-          "The report found no clear connection between the two events.",
-          "報告沒有發現兩件事之間有明確的關聯。",
-          "兩件事在原因、影響、邏輯或相似性上的關聯"
         ]
       ],
       "options": [],
@@ -182,16 +172,6 @@ export default {
       "zh": "電路中導體、接點或設備之間的實體連接",
       "note": "來源詞義：電路中導體、接點或設備之間的實體連接",
       "examples": [
-        [
-          "The phone connection was poor.",
-          "電話連線／通話質素很差。",
-          "電路中導體、接點或設備之間的實體連接"
-        ],
-        [
-          "We were cut off because the connection failed.",
-          "因為連線中斷，我們的通話斷了。",
-          "電路中導體、接點或設備之間的實體連接"
-        ],
         [
           "The electrician checked all the electrical connections.",
           "電工檢查了所有電氣連接／接線點。",
@@ -286,16 +266,6 @@ export default {
         [
           "Several questions were raised in connection with the project.",
           "有人提出數個與該項目有關的問題。",
-          "與……有關；關於……，較正式"
-        ],
-        [
-          "Water was leaking from the pipe connection.",
-          "水從水管的接駁位／連接點漏出來。",
-          "與……有關；關於……，較正式"
-        ],
-        [
-          "Check the connection point before switching on the machine.",
-          "啟動機器前檢查連接點。",
           "與……有關；關於……，較正式"
         ]
       ],
@@ -460,6 +430,72 @@ export default {
           "The project aims to improve transport connectivity.",
           "這個項目旨在改善交通連通性。",
           "裝置、系統、道路等彼此建立連線／連通的能力或程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "connection-pdf-001",
+      "title": "某事件、因素或條件與另一結果之間存在某種影響或關聯",
+      "form": "5. connection = causal link — 因果關係；關聯",
+      "en": "5. connection = causal link — 因果關係；關聯",
+      "zh": "某事件、因素或條件與另一結果之間存在某種影響或關聯",
+      "note": "原始 PDF 第 5 節：某事件、因素或條件與另一結果之間存在某種影響或關聯",
+      "examples": [
+        [
+          "There may be a connection between stress and poor sleep.",
+          "壓力與睡眠不佳之間可能存在關聯／因果聯繫。",
+          "某事件、因素或條件與另一結果之間存在某種影響或關聯"
+        ],
+        [
+          "The report found no clear connection between the two events.",
+          "報告沒有發現兩件事之間有明確的關聯。",
+          "某事件、因素或條件與另一結果之間存在某種影響或關聯"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "connection-pdf-002",
+      "title": "通話雙方之間的通訊連線狀態",
+      "form": "9. connection = phone/mobile signal link — 電話連線；通話連接",
+      "en": "9. connection = phone/mobile signal link — 電話連線；通話連接",
+      "zh": "通話雙方之間的通訊連線狀態",
+      "note": "原始 PDF 第 9 節：通話雙方之間的通訊連線狀態",
+      "examples": [
+        [
+          "The phone connection was poor.",
+          "電話連線／通話質素很差。",
+          "通話雙方之間的通訊連線狀態"
+        ],
+        [
+          "We were cut off because the connection failed.",
+          "因為連線中斷，我們的通話斷了。",
+          "通話雙方之間的通訊連線狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "connection-pdf-003",
+      "title": "實際把兩個部件接在一起的位置／接口",
+      "form": "16. connection = point/junction where things connect — 連接點；接口",
+      "en": "16. connection = point/junction where things connect — 連接點；接口",
+      "zh": "實際把兩個部件接在一起的位置／接口",
+      "note": "原始 PDF 第 16 節：實際把兩個部件接在一起的位置／接口",
+      "examples": [
+        [
+          "Water was leaking from the pipe connection.",
+          "水從水管的接駁位／連接點漏出來。",
+          "實際把兩個部件接在一起的位置／接口"
+        ],
+        [
+          "Check the connection point before switching on the machine.",
+          "啟動機器前檢查連接點。",
+          "實際把兩個部件接在一起的位置／接口"
         ]
       ],
       "options": [],
@@ -739,63 +775,63 @@ export default {
     },
     {
       "id": "connection-05-0",
-      "sense": "connection-mcq-04",
+      "sense": "connection-pdf-001",
       "en": "There may be a connection between stress and poor sleep.",
       "zh": "壓力與睡眠不佳之間可能存在關聯／因果聯繫。",
       "masked": "There may be a ____ between stress and poor sleep.",
       "options": [
-        "connection-mcq-04",
+        "connection-pdf-001",
         "connection-mcq-03",
         "connection-mcq-05",
         "connection-mcq-02",
         "connection-mcq-06",
         "connection-mcq-01"
       ],
-      "explanation": "本句的「connection」指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
+      "explanation": "本句的「connection」指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-04": "本句指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
+        "connection-pdf-001": "本句指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
         "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
         "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
         "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
         "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
         "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。"
       },
-      "correctOption": "connection-mcq-04"
+      "correctOption": "connection-pdf-001"
     },
     {
       "id": "connection-05-1",
-      "sense": "connection-mcq-04",
+      "sense": "connection-pdf-001",
       "en": "The report found no clear connection between the two events.",
       "zh": "報告沒有發現兩件事之間有明確的關聯。",
       "masked": "The report found no clear ____ between the two events.",
       "options": [
-        "connection-mcq-04",
+        "connection-pdf-001",
         "connection-mcq-03",
         "connection-mcq-05",
         "connection-mcq-02",
         "connection-mcq-06",
         "connection-mcq-01"
       ],
-      "explanation": "本句的「connection」指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
+      "explanation": "本句的「connection」指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-04": "本句指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
+        "connection-pdf-001": "本句指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
         "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
         "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
         "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
         "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
         "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。"
       },
-      "correctOption": "connection-mcq-04"
+      "correctOption": "connection-pdf-001"
     },
     {
       "id": "connection-06-0",
@@ -979,63 +1015,63 @@ export default {
     },
     {
       "id": "connection-09-0",
-      "sense": "connection-mcq-08",
+      "sense": "connection-pdf-002",
       "en": "The phone connection was poor.",
       "zh": "電話連線／通話質素很差。",
       "masked": "The phone ____ was poor.",
       "options": [
-        "connection-mcq-08",
+        "connection-pdf-002",
         "connection-mcq-07",
         "connection-mcq-09",
         "connection-mcq-06",
         "connection-mcq-10",
         "connection-mcq-05"
       ],
-      "explanation": "本句的「connection」指「電路中導體、接點或設備之間的實體連接」。",
+      "explanation": "本句的「connection」指「通話雙方之間的通訊連線狀態」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-08": "本句指「電路中導體、接點或設備之間的實體連接」。",
+        "connection-pdf-002": "本句指「通話雙方之間的通訊連線狀態」。",
         "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
         "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
         "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
         "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
         "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。"
       },
-      "correctOption": "connection-mcq-08"
+      "correctOption": "connection-pdf-002"
     },
     {
       "id": "connection-09-1",
-      "sense": "connection-mcq-08",
+      "sense": "connection-pdf-002",
       "en": "We were cut off because the connection failed.",
       "zh": "因為連線中斷，我們的通話斷了。",
       "masked": "We were cut off because the ____ failed.",
       "options": [
-        "connection-mcq-08",
+        "connection-pdf-002",
         "connection-mcq-07",
         "connection-mcq-09",
         "connection-mcq-06",
         "connection-mcq-10",
         "connection-mcq-05"
       ],
-      "explanation": "本句的「connection」指「電路中導體、接點或設備之間的實體連接」。",
+      "explanation": "本句的「connection」指「通話雙方之間的通訊連線狀態」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-08": "本句指「電路中導體、接點或設備之間的實體連接」。",
+        "connection-pdf-002": "本句指「通話雙方之間的通訊連線狀態」。",
         "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
         "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
         "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
         "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
         "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。"
       },
-      "correctOption": "connection-mcq-08"
+      "correctOption": "connection-pdf-002"
     },
     {
       "id": "connection-10-0",
@@ -1399,63 +1435,63 @@ export default {
     },
     {
       "id": "connection-16-0",
-      "sense": "connection-mcq-11",
+      "sense": "connection-pdf-003",
       "en": "Water was leaking from the pipe connection.",
       "zh": "水從水管的接駁位／連接點漏出來。",
       "masked": "Water was leaking from the pipe ____.",
       "options": [
-        "connection-mcq-11",
+        "connection-pdf-003",
         "connection-mcq-10",
         "connection-mcq-12",
         "connection-mcq-09",
         "connection-mcq-13",
         "connection-mcq-08"
       ],
-      "explanation": "本句的「connection」指「與……有關；關於……，較正式」。",
+      "explanation": "本句的「connection」指「實際把兩個部件接在一起的位置／接口」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-11": "本句指「與……有關；關於……，較正式」。",
+        "connection-pdf-003": "本句指「實際把兩個部件接在一起的位置／接口」。",
         "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
         "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
         "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
         "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
         "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。"
       },
-      "correctOption": "connection-mcq-11"
+      "correctOption": "connection-pdf-003"
     },
     {
       "id": "connection-16-1",
-      "sense": "connection-mcq-11",
+      "sense": "connection-pdf-003",
       "en": "Check the connection point before switching on the machine.",
       "zh": "啟動機器前檢查連接點。",
       "masked": "Check the ____ point before switching on the machine.",
       "options": [
-        "connection-mcq-11",
+        "connection-pdf-003",
         "connection-mcq-10",
         "connection-mcq-12",
         "connection-mcq-09",
         "connection-mcq-13",
         "connection-mcq-08"
       ],
-      "explanation": "本句的「connection」指「與……有關；關於……，較正式」。",
+      "explanation": "本句的「connection」指「實際把兩個部件接在一起的位置／接口」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-11": "本句指「與……有關；關於……，較正式」。",
+        "connection-pdf-003": "本句指「實際把兩個部件接在一起的位置／接口」。",
         "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
         "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
         "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
         "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
         "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。"
       },
-      "correctOption": "connection-mcq-11"
+      "correctOption": "connection-pdf-003"
     },
     {
       "id": "connection-19-0",

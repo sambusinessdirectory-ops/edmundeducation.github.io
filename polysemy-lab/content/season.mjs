@@ -122,23 +122,7 @@ export default {
       "en": "seasonal — produce",
       "zh": "在特定季節自然生長、採收或盛產的；當季／時令",
       "note": "來源詞義：在特定季節自然生長、採收或盛產的；當季／時令",
-      "examples": [
-        [
-          "She wants to grow more seasonal vegetables.",
-          "她想種更多時令蔬菜。",
-          "在特定季節自然生長、採收或盛產的；當季／時令"
-        ],
-        [
-          "The restaurant changes its menu to use seasonal ingredients.",
-          "餐廳會按季節更改餐單，使用當季食材。",
-          "在特定季節自然生長、採收或盛產的；當季／時令"
-        ],
-        [
-          "Seasonal fruit is often cheaper when it is plentiful.",
-          "當季水果盛產時通常比較便宜。",
-          "在特定季節自然生長、採收或盛產的；當季／時令"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -493,6 +477,33 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "season-pdf-001",
+      "title": "只在某個季節出現、盛產、適合使用或特別相關的",
+      "form": "6. seasonal = relating to a particular season — 季節性的；時令的",
+      "en": "6. seasonal = relating to a particular season — 季節性的；時令的",
+      "zh": "只在某個季節出現、盛產、適合使用或特別相關的",
+      "note": "原始 PDF 第 6 節：只在某個季節出現、盛產、適合使用或特別相關的",
+      "examples": [
+        [
+          "She wants to grow more seasonal vegetables.",
+          "她想種更多時令蔬菜。",
+          "只在某個季節出現、盛產、適合使用或特別相關的"
+        ],
+        [
+          "The restaurant changes its menu to use seasonal ingredients.",
+          "餐廳會按季節更改餐單，使用當季食材。",
+          "只在某個季節出現、盛產、適合使用或特別相關的"
+        ],
+        [
+          "Seasonal fruit is often cheaper when it is plentiful.",
+          "當季水果盛產時通常比較便宜。",
+          "只在某個季節出現、盛產、適合使用或特別相關的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -798,93 +809,93 @@ export default {
     },
     {
       "id": "season-06-0",
-      "sense": "season-mcq-06",
+      "sense": "season-pdf-001",
       "en": "She wants to grow more seasonal vegetables.",
       "zh": "她想種更多時令蔬菜。",
       "masked": "She wants to grow more ____.",
       "options": [
-        "season-mcq-06",
+        "season-pdf-001",
         "season-mcq-05",
         "season-mcq-07",
         "season-mcq-04",
         "season-mcq-08",
         "season-mcq-03"
       ],
-      "explanation": "本句的「seasonal vegetables」指「在特定季節自然生長、採收或盛產的；當季／時令」。",
+      "explanation": "本句的「seasonal vegetables」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "seasonal vegetables"
       ],
       "optionReasons": {
-        "season-mcq-06": "本句指「在特定季節自然生長、採收或盛產的；當季／時令」。",
+        "season-pdf-001": "本句指「只在某個季節出現、盛產、適合使用或特別相關的」。",
         "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
         "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
         "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
         "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
         "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。"
       },
-      "correctOption": "season-mcq-06"
+      "correctOption": "season-pdf-001"
     },
     {
       "id": "season-06-1",
-      "sense": "season-mcq-06",
+      "sense": "season-pdf-001",
       "en": "The restaurant changes its menu to use seasonal ingredients.",
       "zh": "餐廳會按季節更改餐單，使用當季食材。",
       "masked": "The restaurant changes its menu to use ____ ingredients.",
       "options": [
-        "season-mcq-06",
+        "season-pdf-001",
         "season-mcq-05",
         "season-mcq-07",
         "season-mcq-04",
         "season-mcq-08",
         "season-mcq-03"
       ],
-      "explanation": "本句的「seasonal」指「在特定季節自然生長、採收或盛產的；當季／時令」。",
+      "explanation": "本句的「seasonal」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "seasonal"
       ],
       "optionReasons": {
-        "season-mcq-06": "本句指「在特定季節自然生長、採收或盛產的；當季／時令」。",
+        "season-pdf-001": "本句指「只在某個季節出現、盛產、適合使用或特別相關的」。",
         "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
         "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
         "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
         "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
         "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。"
       },
-      "correctOption": "season-mcq-06"
+      "correctOption": "season-pdf-001"
     },
     {
       "id": "season-06-2",
-      "sense": "season-mcq-06",
+      "sense": "season-pdf-001",
       "en": "Seasonal fruit is often cheaper when it is plentiful.",
       "zh": "當季水果盛產時通常比較便宜。",
       "masked": "____ fruit is often cheaper when it is plentiful.",
       "options": [
-        "season-mcq-06",
+        "season-pdf-001",
         "season-mcq-05",
         "season-mcq-07",
         "season-mcq-04",
         "season-mcq-08",
         "season-mcq-03"
       ],
-      "explanation": "本句的「Seasonal」指「在特定季節自然生長、採收或盛產的；當季／時令」。",
+      "explanation": "本句的「Seasonal」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "Seasonal"
       ],
       "optionReasons": {
-        "season-mcq-06": "本句指「在特定季節自然生長、採收或盛產的；當季／時令」。",
+        "season-pdf-001": "本句指「只在某個季節出現、盛產、適合使用或特別相關的」。",
         "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
         "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
         "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
         "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
         "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。"
       },
-      "correctOption": "season-mcq-06"
+      "correctOption": "season-pdf-001"
     },
     {
       "id": "season-07-0",

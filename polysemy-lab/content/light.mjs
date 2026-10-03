@@ -236,18 +236,7 @@ export default {
       "en": "light blue",
       "zh": "淺藍色",
       "note": "來源詞義：淺藍色",
-      "examples": [
-        [
-          "She painted the walls a light blue.",
-          "她把牆壁漆成淺藍色。",
-          "淺藍色"
-        ],
-        [
-          "Light colours make the room look larger.",
-          "淺色會令房間看起來更大。",
-          "淺藍色"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -993,6 +982,28 @@ export default {
           "The report showed the manager in a bad light.",
           "那份報告令經理顯得形象很差。",
           "以某種方式塑造別人對某人的看法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "light-pdf-001",
+      "title": "顏色較淡、接近白色的",
+      "form": "14. light colour（淺色的） — 淺色的",
+      "en": "14. light colour（淺色的） — 淺色的",
+      "zh": "顏色較淡、接近白色的",
+      "note": "原始 PDF 第 14 節：顏色較淡、接近白色的",
+      "examples": [
+        [
+          "She painted the walls a light blue.",
+          "她把牆壁漆成淺藍色。",
+          "顏色較淡、接近白色的"
+        ],
+        [
+          "Light colours make the room look larger.",
+          "淺色會令房間看起來更大。",
+          "顏色較淡、接近白色的"
         ]
       ],
       "options": [],
@@ -1812,63 +1823,63 @@ export default {
     },
     {
       "id": "light-14-0",
-      "sense": "light-mcq-12",
+      "sense": "light-pdf-001",
       "en": "She painted the walls a light blue.",
       "zh": "她把牆壁漆成淺藍色。",
       "masked": "She painted the walls a ____.",
       "options": [
-        "light-mcq-12",
+        "light-pdf-001",
         "light-mcq-11",
         "light-mcq-13",
         "light-mcq-10",
         "light-mcq-14",
         "light-mcq-09"
       ],
-      "explanation": "本句的「light blue」指「淺藍色」。",
+      "explanation": "本句的「light blue」指「顏色較淡、接近白色的」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "light blue"
       ],
       "optionReasons": {
-        "light-mcq-12": "本句指「淺藍色」。",
+        "light-pdf-001": "本句指「顏色較淡、接近白色的」。",
         "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
         "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
         "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
         "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
         "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。"
       },
-      "correctOption": "light-mcq-12"
+      "correctOption": "light-pdf-001"
     },
     {
       "id": "light-14-1",
-      "sense": "light-mcq-12",
+      "sense": "light-pdf-001",
       "en": "Light colours make the room look larger.",
       "zh": "淺色會令房間看起來更大。",
       "masked": "____ make the room look larger.",
       "options": [
-        "light-mcq-12",
+        "light-pdf-001",
         "light-mcq-11",
         "light-mcq-13",
         "light-mcq-10",
         "light-mcq-14",
         "light-mcq-09"
       ],
-      "explanation": "本句的「Light colours」指「淺藍色」。",
+      "explanation": "本句的「Light colours」指「顏色較淡、接近白色的」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "Light colours"
       ],
       "optionReasons": {
-        "light-mcq-12": "本句指「淺藍色」。",
+        "light-pdf-001": "本句指「顏色較淡、接近白色的」。",
         "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
         "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
         "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
         "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
         "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。"
       },
-      "correctOption": "light-mcq-12"
+      "correctOption": "light-pdf-001"
     },
     {
       "id": "light-15-0",

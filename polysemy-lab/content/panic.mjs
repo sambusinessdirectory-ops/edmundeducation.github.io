@@ -118,16 +118,6 @@ export default {
       "note": "來源詞義：因恐慌而作出的急速、非理性搶購／拋售行為",
       "examples": [
         [
-          "The rumour caused public panic.",
-          "那個謠言引起了公眾恐慌。",
-          "因恐慌而作出的急速、非理性搶購／拋售行為"
-        ],
-        [
-          "There was panic in the market after the announcement.",
-          "消息公布後，市場出現恐慌情緒。",
-          "因恐慌而作出的急速、非理性搶購／拋售行為"
-        ],
-        [
           "The shortage led to panic buying.",
           "短缺引發了恐慌性搶購。",
           "因恐慌而作出的急速、非理性搶購／拋售行為"
@@ -136,6 +126,28 @@ export default {
           "Investors engaged in panic selling.",
           "投資者出現恐慌性拋售。",
           "因恐慌而作出的急速、非理性搶購／拋售行為"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "panic-pdf-001",
+      "title": "大量人同時因恐懼或不確定而產生的集體慌亂",
+      "form": "4. panic = widespread social/financial fear（集體） — 恐慌；恐慌性反應",
+      "en": "4. panic = widespread social/financial fear（集體） — 恐慌；恐慌性反應",
+      "zh": "大量人同時因恐懼或不確定而產生的集體慌亂",
+      "note": "原始 PDF 第 4 節：大量人同時因恐懼或不確定而產生的集體慌亂",
+      "examples": [
+        [
+          "The rumour caused public panic.",
+          "那個謠言引起了公眾恐慌。",
+          "大量人同時因恐懼或不確定而產生的集體慌亂"
+        ],
+        [
+          "There was panic in the market after the announcement.",
+          "消息公布後，市場出現恐慌情緒。",
+          "大量人同時因恐懼或不確定而產生的集體慌亂"
         ]
       ],
       "options": [],
@@ -355,63 +367,63 @@ export default {
     },
     {
       "id": "panic-04-0",
-      "sense": "panic-mcq-06",
+      "sense": "panic-pdf-001",
       "en": "The rumour caused public panic.",
       "zh": "那個謠言引起了公眾恐慌。",
       "masked": "The rumour caused public ____.",
       "options": [
-        "panic-mcq-06",
+        "panic-pdf-001",
         "panic-mcq-05",
         "panic-mcq-04",
         "panic-mcq-03",
         "panic-mcq-02",
         "panic-mcq-01"
       ],
-      "explanation": "本句的「panic」指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
+      "explanation": "本句的「panic」指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "panic"
       ],
       "optionReasons": {
-        "panic-mcq-06": "本句指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
+        "panic-pdf-001": "本句指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
         "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
         "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
         "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
         "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
         "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
       },
-      "correctOption": "panic-mcq-06"
+      "correctOption": "panic-pdf-001"
     },
     {
       "id": "panic-04-1",
-      "sense": "panic-mcq-06",
+      "sense": "panic-pdf-001",
       "en": "There was panic in the market after the announcement.",
       "zh": "消息公布後，市場出現恐慌情緒。",
       "masked": "There was ____ in the market after the announcement.",
       "options": [
-        "panic-mcq-06",
+        "panic-pdf-001",
         "panic-mcq-05",
         "panic-mcq-04",
         "panic-mcq-03",
         "panic-mcq-02",
         "panic-mcq-01"
       ],
-      "explanation": "本句的「panic」指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
+      "explanation": "本句的「panic」指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "panic"
       ],
       "optionReasons": {
-        "panic-mcq-06": "本句指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
+        "panic-pdf-001": "本句指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
         "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
         "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
         "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
         "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
         "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
       },
-      "correctOption": "panic-mcq-06"
+      "correctOption": "panic-pdf-001"
     },
     {
       "id": "panic-05-0",

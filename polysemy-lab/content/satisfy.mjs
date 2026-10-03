@@ -14,21 +14,6 @@ export default {
       "note": "來源詞義：令某人滿意",
       "examples": [
         [
-          "I was rarely satisfied with my work.",
-          "我很少真正滿意自己的作品／表現。",
-          "令某人滿意"
-        ],
-        [
-          "She was satisfied with the final result.",
-          "她對最後結果感到滿意。",
-          "令某人滿意"
-        ],
-        [
-          "Are you satisfied with your progress?",
-          "你對自己的進度滿意嗎？",
-          "令某人滿意"
-        ],
-        [
           "The final version satisfied the client.",
           "最終版本令客戶滿意。",
           "令某人滿意"
@@ -568,98 +553,125 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "satisfy-pdf-001",
+      "title": "覺得 X 達到自己的期望，因此感到滿意",
+      "form": "1. be satisfied with something — 對某事感到滿意",
+      "en": "1. be satisfied with something — 對某事感到滿意",
+      "zh": "覺得 X 達到自己的期望，因此感到滿意",
+      "note": "原始 PDF 第 1 節：覺得 X 達到自己的期望，因此感到滿意",
+      "examples": [
+        [
+          "I was rarely satisfied with my work.",
+          "我很少真正滿意自己的作品／表現。",
+          "覺得 X 達到自己的期望，因此感到滿意"
+        ],
+        [
+          "She was satisfied with the final result.",
+          "她對最後結果感到滿意。",
+          "覺得 X 達到自己的期望，因此感到滿意"
+        ],
+        [
+          "Are you satisfied with your progress?",
+          "你對自己的進度滿意嗎？",
+          "覺得 X 達到自己的期望，因此感到滿意"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "satisfy-01-0",
-      "sense": "satisfy-mcq-01",
+      "sense": "satisfy-pdf-001",
       "en": "I was rarely satisfied with my work.",
       "zh": "我很少真正滿意自己的作品／表現。",
       "masked": "I was rarely ____.",
       "options": [
-        "satisfy-mcq-01",
+        "satisfy-pdf-001",
         "satisfy-mcq-02",
         "satisfy-mcq-03",
         "satisfy-mcq-04",
         "satisfy-mcq-05",
         "satisfy-mcq-06"
       ],
-      "explanation": "本句的「satisfied with my work」指「令某人滿意」。",
+      "explanation": "本句的「satisfied with my work」指「覺得 X 達到自己的期望，因此感到滿意」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "satisfied with my work"
       ],
       "optionReasons": {
-        "satisfy-mcq-01": "本句指「令某人滿意」。",
+        "satisfy-pdf-001": "本句指「覺得 X 達到自己的期望，因此感到滿意」。",
         "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
         "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
         "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
         "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
         "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
       },
-      "correctOption": "satisfy-mcq-01"
+      "correctOption": "satisfy-pdf-001"
     },
     {
       "id": "satisfy-01-1",
-      "sense": "satisfy-mcq-01",
+      "sense": "satisfy-pdf-001",
       "en": "She was satisfied with the final result.",
       "zh": "她對最後結果感到滿意。",
       "masked": "She was ____.",
       "options": [
-        "satisfy-mcq-01",
+        "satisfy-pdf-001",
         "satisfy-mcq-02",
         "satisfy-mcq-03",
         "satisfy-mcq-04",
         "satisfy-mcq-05",
         "satisfy-mcq-06"
       ],
-      "explanation": "本句的「satisfied with the final result」指「令某人滿意」。",
+      "explanation": "本句的「satisfied with the final result」指「覺得 X 達到自己的期望，因此感到滿意」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "satisfied with the final result"
       ],
       "optionReasons": {
-        "satisfy-mcq-01": "本句指「令某人滿意」。",
+        "satisfy-pdf-001": "本句指「覺得 X 達到自己的期望，因此感到滿意」。",
         "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
         "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
         "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
         "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
         "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
       },
-      "correctOption": "satisfy-mcq-01"
+      "correctOption": "satisfy-pdf-001"
     },
     {
       "id": "satisfy-01-2",
-      "sense": "satisfy-mcq-01",
+      "sense": "satisfy-pdf-001",
       "en": "Are you satisfied with your progress?",
       "zh": "你對自己的進度滿意嗎？",
       "masked": "Are you ____?",
       "options": [
-        "satisfy-mcq-01",
+        "satisfy-pdf-001",
         "satisfy-mcq-02",
         "satisfy-mcq-03",
         "satisfy-mcq-04",
         "satisfy-mcq-05",
         "satisfy-mcq-06"
       ],
-      "explanation": "本句的「satisfied with your progress」指「令某人滿意」。",
+      "explanation": "本句的「satisfied with your progress」指「覺得 X 達到自己的期望，因此感到滿意」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "satisfied with your progress"
       ],
       "optionReasons": {
-        "satisfy-mcq-01": "本句指「令某人滿意」。",
+        "satisfy-pdf-001": "本句指「覺得 X 達到自己的期望，因此感到滿意」。",
         "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
         "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
         "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
         "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
         "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
       },
-      "correctOption": "satisfy-mcq-01"
+      "correctOption": "satisfy-pdf-001"
     },
     {
       "id": "satisfy-02-0",

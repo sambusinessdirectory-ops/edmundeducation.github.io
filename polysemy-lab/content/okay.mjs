@@ -225,18 +225,7 @@ export default {
       "en": "okay with X",
       "zh": "接受 X；不介意 X",
       "note": "來源詞義：接受 X；不介意 X",
-      "examples": [
-        [
-          "I'm okay with you leaving early.",
-          "我不介意你早點離開。",
-          "接受 X；不介意 X"
-        ],
-        [
-          "Is your manager okay with you working from home?",
-          "你的經理接受你在家工作嗎？",
-          "接受 X；不介意 X"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -553,6 +542,28 @@ export default {
           "Are you okay with meeting at eight?",
           "你接受八點見面嗎？",
           "對某個安排、決定或情況表示接受或沒有異議"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "okay-pdf-001",
+      "title": "接受或不反對某人進行某項行動",
+      "form": "14. be okay with someone doing something — 不介意某人做某事",
+      "en": "14. be okay with someone doing something — 不介意某人做某事",
+      "zh": "接受或不反對某人進行某項行動",
+      "note": "原始 PDF 第 14 節：接受或不反對某人進行某項行動",
+      "examples": [
+        [
+          "I'm okay with you leaving early.",
+          "我不介意你早點離開。",
+          "接受或不反對某人進行某項行動"
+        ],
+        [
+          "Is your manager okay with you working from home?",
+          "你的經理接受你在家工作嗎？",
+          "接受或不反對某人進行某項行動"
         ]
       ],
       "options": [],
@@ -1372,63 +1383,63 @@ export default {
     },
     {
       "id": "okay-14-0",
-      "sense": "okay-mcq-11",
+      "sense": "okay-pdf-001",
       "en": "I'm okay with you leaving early.",
       "zh": "我不介意你早點離開。",
       "masked": "I'm ____.",
       "options": [
-        "okay-mcq-11",
+        "okay-pdf-001",
         "okay-mcq-10",
         "okay-mcq-12",
         "okay-mcq-09",
         "okay-mcq-13",
         "okay-mcq-08"
       ],
-      "explanation": "本句的「okay with you leaving early」指「接受 X；不介意 X」。",
+      "explanation": "本句的「okay with you leaving early」指「接受或不反對某人進行某項行動」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "okay with you leaving early"
       ],
       "optionReasons": {
-        "okay-mcq-11": "本句指「接受 X；不介意 X」。",
+        "okay-pdf-001": "本句指「接受或不反對某人進行某項行動」。",
         "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
         "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
         "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
         "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
         "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。"
       },
-      "correctOption": "okay-mcq-11"
+      "correctOption": "okay-pdf-001"
     },
     {
       "id": "okay-14-1",
-      "sense": "okay-mcq-11",
+      "sense": "okay-pdf-001",
       "en": "Is your manager okay with you working from home?",
       "zh": "你的經理接受你在家工作嗎？",
       "masked": "Is your manager ____?",
       "options": [
-        "okay-mcq-11",
+        "okay-pdf-001",
         "okay-mcq-10",
         "okay-mcq-12",
         "okay-mcq-09",
         "okay-mcq-13",
         "okay-mcq-08"
       ],
-      "explanation": "本句的「okay with you working from home」指「接受 X；不介意 X」。",
+      "explanation": "本句的「okay with you working from home」指「接受或不反對某人進行某項行動」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "okay with you working from home"
       ],
       "optionReasons": {
-        "okay-mcq-11": "本句指「接受 X；不介意 X」。",
+        "okay-pdf-001": "本句指「接受或不反對某人進行某項行動」。",
         "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
         "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
         "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
         "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
         "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。"
       },
-      "correctOption": "okay-mcq-11"
+      "correctOption": "okay-pdf-001"
     },
     {
       "id": "okay-15-0",

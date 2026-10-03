@@ -326,18 +326,7 @@ export default {
       "en": "bear left/right",
       "zh": "向左／右逐漸轉向或行進",
       "note": "來源詞義：向左／右逐漸轉向或行進",
-      "examples": [
-        [
-          "At the junction, bear left.",
-          "到路口時，稍微向左轉／靠左走。",
-          "向左／右逐漸轉向或行進"
-        ],
-        [
-          "The road bears to the right after the bridge.",
-          "過橋後道路向右彎。",
-          "向左／右逐漸轉向或行進"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -519,6 +508,28 @@ export default {
           "The wheel bearing needs replacing.",
           "車輪軸承需要更換。",
           "軸承"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bear-pdf-001",
+      "title": "不一定作九十度急轉，而是逐漸向某方向偏轉／行進",
+      "form": "16. bear = move or turn in a particular direction（方向） — 向……轉；朝……行進",
+      "en": "16. bear = move or turn in a particular direction（方向） — 向……轉；朝……行進",
+      "zh": "不一定作九十度急轉，而是逐漸向某方向偏轉／行進",
+      "note": "原始 PDF 第 16 節：不一定作九十度急轉，而是逐漸向某方向偏轉／行進",
+      "examples": [
+        [
+          "At the junction, bear left.",
+          "到路口時，稍微向左轉／靠左走。",
+          "不一定作九十度急轉，而是逐漸向某方向偏轉／行進"
+        ],
+        [
+          "The road bears to the right after the bridge.",
+          "過橋後道路向右彎。",
+          "不一定作九十度急轉，而是逐漸向某方向偏轉／行進"
         ]
       ],
       "options": [],
@@ -1548,63 +1559,63 @@ export default {
     },
     {
       "id": "bear-16-0",
-      "sense": "bear-mcq-13",
+      "sense": "bear-pdf-001",
       "en": "At the junction, bear left.",
       "zh": "到路口時，稍微向左轉／靠左走。",
       "masked": "At the junction, ____.",
       "options": [
-        "bear-mcq-13",
+        "bear-pdf-001",
         "bear-mcq-12",
         "bear-mcq-14",
         "bear-mcq-11",
         "bear-mcq-15",
         "bear-mcq-10"
       ],
-      "explanation": "本句的「bear left」指「向左／右逐漸轉向或行進」。",
+      "explanation": "本句的「bear left」指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "bear left"
       ],
       "optionReasons": {
-        "bear-mcq-13": "本句指「向左／右逐漸轉向或行進」。",
+        "bear-pdf-001": "本句指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
         "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
         "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
         "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
         "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
         "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。"
       },
-      "correctOption": "bear-mcq-13"
+      "correctOption": "bear-pdf-001"
     },
     {
       "id": "bear-16-1",
-      "sense": "bear-mcq-13",
+      "sense": "bear-pdf-001",
       "en": "The road bears to the right after the bridge.",
       "zh": "過橋後道路向右彎。",
       "masked": "The road ____ to the right after the bridge.",
       "options": [
-        "bear-mcq-13",
+        "bear-pdf-001",
         "bear-mcq-12",
         "bear-mcq-14",
         "bear-mcq-11",
         "bear-mcq-15",
         "bear-mcq-10"
       ],
-      "explanation": "本句的「bears」指「向左／右逐漸轉向或行進」。",
+      "explanation": "本句的「bears」指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-13": "本句指「向左／右逐漸轉向或行進」。",
+        "bear-pdf-001": "本句指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
         "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
         "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
         "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
         "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
         "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。"
       },
-      "correctOption": "bear-mcq-13"
+      "correctOption": "bear-pdf-001"
     },
     {
       "id": "bear-17-0",

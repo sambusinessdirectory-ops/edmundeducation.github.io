@@ -312,16 +312,6 @@ export default {
           "She gave him a comforting smile.",
           "她給了他一個令人安心、帶有安慰意味的微笑。",
           "能減輕憂慮或悲傷、令人得到安心和情緒安慰的"
-        ],
-        [
-          "The smell of home cooking was deeply comforting.",
-          "家常菜的氣味帶來一種很強的熟悉、溫暖和安心感。",
-          "能減輕憂慮或悲傷、令人得到安心和情緒安慰的"
-        ],
-        [
-          "She found the familiar routine comforting.",
-          "熟悉的日常習慣令她感到安心和有安全感。",
-          "能減輕憂慮或悲傷、令人得到安心和情緒安慰的"
         ]
       ],
       "options": [],
@@ -456,6 +446,28 @@ export default {
       "zh": "因熟悉和可控制而令人感到安全自在、不需面對太大挑戰的狀態",
       "note": "來源詞義：因熟悉和可控制而令人感到安全自在、不需面對太大挑戰的狀態",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "comfort-pdf-001",
+      "title": "因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的",
+      "form": "15. comforting = food/activity familiar and emotionally reassuring — 帶來熟悉安心感的",
+      "en": "15. comforting = food/activity familiar and emotionally reassuring — 帶來熟悉安心感的",
+      "zh": "因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的",
+      "note": "原始 PDF 第 15 節：因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的",
+      "examples": [
+        [
+          "The smell of home cooking was deeply comforting.",
+          "家常菜的氣味帶來一種很強的熟悉、溫暖和安心感。",
+          "因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的"
+        ],
+        [
+          "She found the familiar routine comforting.",
+          "熟悉的日常習慣令她感到安心和有安全感。",
+          "因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -1333,63 +1345,63 @@ export default {
     },
     {
       "id": "comfort-15-0",
-      "sense": "comfort-mcq-14",
+      "sense": "comfort-pdf-001",
       "en": "The smell of home cooking was deeply comforting.",
       "zh": "家常菜的氣味帶來一種很強的熟悉、溫暖和安心感。",
       "masked": "The smell of home cooking was deeply ____.",
       "options": [
-        "comfort-mcq-14",
+        "comfort-pdf-001",
         "comfort-mcq-13",
         "comfort-mcq-15",
         "comfort-mcq-12",
         "comfort-mcq-16",
         "comfort-mcq-11"
       ],
-      "explanation": "本句的「comforting」指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
+      "explanation": "本句的「comforting」指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "comforting"
       ],
       "optionReasons": {
-        "comfort-mcq-14": "本句指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
+        "comfort-pdf-001": "本句指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
         "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
         "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
         "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
         "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
         "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。"
       },
-      "correctOption": "comfort-mcq-14"
+      "correctOption": "comfort-pdf-001"
     },
     {
       "id": "comfort-15-1",
-      "sense": "comfort-mcq-14",
+      "sense": "comfort-pdf-001",
       "en": "She found the familiar routine comforting.",
       "zh": "熟悉的日常習慣令她感到安心和有安全感。",
       "masked": "She found the familiar routine ____.",
       "options": [
-        "comfort-mcq-14",
+        "comfort-pdf-001",
         "comfort-mcq-13",
         "comfort-mcq-15",
         "comfort-mcq-12",
         "comfort-mcq-16",
         "comfort-mcq-11"
       ],
-      "explanation": "本句的「comforting」指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
+      "explanation": "本句的「comforting」指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "comforting"
       ],
       "optionReasons": {
-        "comfort-mcq-14": "本句指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
+        "comfort-pdf-001": "本句指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
         "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
         "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
         "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
         "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
         "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。"
       },
-      "correctOption": "comfort-mcq-14"
+      "correctOption": "comfort-pdf-001"
     },
     {
       "id": "comfort-16-0",

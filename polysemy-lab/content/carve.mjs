@@ -110,16 +110,6 @@ export default {
           "She learned stone carving.",
           "她學習石雕。",
           "雕刻這項工藝或技術"
-        ],
-        [
-          "The carver worked carefully on the wood.",
-          "那位雕刻師仔細處理木材。",
-          "雕刻這項工藝或技術"
-        ],
-        [
-          "He trained as a stone carver.",
-          "他接受訓練成為一名石雕師。",
-          "雕刻這項工藝或技術"
         ]
       ],
       "options": [],
@@ -274,6 +264,28 @@ export default {
           "The door had beautifully carved patterns.",
           "門上有精美的雕刻圖案。",
           "經雕刻加工或帶有刻紋的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "carve-pdf-001",
+      "title": "以雕刻為工作／技能的人",
+      "form": "6. carver = person who carves — 雕刻師；雕刻者",
+      "en": "6. carver = person who carves — 雕刻師；雕刻者",
+      "zh": "以雕刻為工作／技能的人",
+      "note": "原始 PDF 第 6 節：以雕刻為工作／技能的人",
+      "examples": [
+        [
+          "The carver worked carefully on the wood.",
+          "那位雕刻師仔細處理木材。",
+          "以雕刻為工作／技能的人"
+        ],
+        [
+          "He trained as a stone carver.",
+          "他接受訓練成為一名石雕師。",
+          "以雕刻為工作／技能的人"
         ]
       ],
       "options": [],
@@ -583,63 +595,63 @@ export default {
     },
     {
       "id": "carve-06-0",
-      "sense": "carve-mcq-05",
+      "sense": "carve-pdf-001",
       "en": "The carver worked carefully on the wood.",
       "zh": "那位雕刻師仔細處理木材。",
       "masked": "The ____ worked carefully on the wood.",
       "options": [
-        "carve-mcq-05",
+        "carve-pdf-001",
         "carve-mcq-04",
         "carve-mcq-06",
         "carve-mcq-03",
         "carve-mcq-07",
         "carve-mcq-02"
       ],
-      "explanation": "本句的「carver」指「雕刻這項工藝或技術」。",
+      "explanation": "本句的「carver」指「以雕刻為工作／技能的人」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "carver"
       ],
       "optionReasons": {
-        "carve-mcq-05": "本句指「雕刻這項工藝或技術」。",
+        "carve-pdf-001": "本句指「以雕刻為工作／技能的人」。",
         "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
         "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
         "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
         "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
         "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。"
       },
-      "correctOption": "carve-mcq-05"
+      "correctOption": "carve-pdf-001"
     },
     {
       "id": "carve-06-1",
-      "sense": "carve-mcq-05",
+      "sense": "carve-pdf-001",
       "en": "He trained as a stone carver.",
       "zh": "他接受訓練成為一名石雕師。",
       "masked": "He trained as a stone ____.",
       "options": [
-        "carve-mcq-05",
+        "carve-pdf-001",
         "carve-mcq-04",
         "carve-mcq-06",
         "carve-mcq-03",
         "carve-mcq-07",
         "carve-mcq-02"
       ],
-      "explanation": "本句的「carver」指「雕刻這項工藝或技術」。",
+      "explanation": "本句的「carver」指「以雕刻為工作／技能的人」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "carver"
       ],
       "optionReasons": {
-        "carve-mcq-05": "本句指「雕刻這項工藝或技術」。",
+        "carve-pdf-001": "本句指「以雕刻為工作／技能的人」。",
         "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
         "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
         "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
         "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
         "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。"
       },
-      "correctOption": "carve-mcq-05"
+      "correctOption": "carve-pdf-001"
     },
     {
       "id": "carve-07-0",
