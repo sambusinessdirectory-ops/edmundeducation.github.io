@@ -52,7 +52,7 @@ begin
     or p_result ? 'correctionIds'
     or p_result ? 'collapsedCorrectIds';
 
-  if v_key_count not in (6, 9)
+  if v_key_count not in (6, 7, 9, 10)
     or not (p_result ?& array[
       'round',
       'correctIds',
@@ -73,13 +73,15 @@ begin
         'correctionMode',
         'correctionIds',
         'collapsedCorrectIds',
-        'contentVersion'
+        'contentVersion',
+        'answerMode'
       )
     )
     or (
       v_has_correction_state
       and not (p_result ?& array['correctionMode', 'correctionIds', 'collapsedCorrectIds'])
     )
+    or (p_result ? 'answerMode' and coalesce(p_result ->> 'answerMode', '') not in ('guided', 'full'))
   then
     return false;
   end if;

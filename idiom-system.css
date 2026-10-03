@@ -1346,6 +1346,13 @@ body > .site-header.edmund-system-header {
 }
 .answer-input:focus { border-color: var(--blue-bright); box-shadow: 0 0 0 4px rgba(255, 106, 26, .11); outline: none; }
 .answer-input:disabled { color: var(--green); background: var(--green-soft); opacity: 1; }
+.exercise-mode-switch { display: flex; flex-wrap: wrap; gap: 9px; margin: 18px 0; }
+.exercise-mode-switch button { border: 1px solid #d7bca7; border-radius: 999px; padding: 10px 15px; color: var(--navy-deep); background: #fffdfa; font: inherit; font-size: 13px; font-weight: 800; cursor: pointer; }
+.exercise-mode-switch button[aria-pressed="true"] { border-color: var(--green); color: #fff; background: var(--green); }
+.guided-answer { margin-top: 16px; padding: 15px; border: 1px solid #d7e4df; border-radius: 15px; background: #f9fcfa; }
+.guided-answer-label { display: block; margin-bottom: 10px; color: var(--green); font-size: 12px; font-weight: 900; }
+.guided-sentence { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; color: var(--navy-deep); font: 18px/1.8 Georgia, "Times New Roman", serif; }
+.guided-sentence .answer-input { flex: 1 1 180px; width: auto; max-width: 340px; min-height: 43px; margin: 0; padding: 7px 10px; border-color: var(--green); }
 .multi-answer-fields { margin-top: 13px; display: grid; gap: 12px; }
 .answer-part { display: grid; gap: 7px; }
 .answer-part > span { color: var(--accent-text); font-size: 12px; font-weight: 800; }

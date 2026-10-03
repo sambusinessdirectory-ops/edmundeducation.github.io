@@ -13,6 +13,7 @@ const content = context.window.EDMUND_IDIOM_SYSTEM_DATA;
 if (!content || !Array.isArray(content.lessons)) throw new Error("Idiom lesson data is missing");
 
 const catalog = {};
+const guidedCatalog = {};
 for (const lesson of content.lessons) {
   if (!Array.isArray(lesson.questions) || lesson.questions.length !== 50) {
     throw new Error(`${lesson.id || "Unknown lesson"} must contain exactly 50 questions`);
@@ -28,6 +29,11 @@ for (const lesson of content.lessons) {
     if (!uniqueAnswers.length) throw new Error(`${question.id} has no protected answer`);
     if (catalog[question.id]) throw new Error(`Duplicate question ID: ${question.id}`);
     catalog[question.id] = uniqueAnswers;
+    const phrase = String(question.highlight || "").trim();
+    if (!phrase || !String(question.answer || "").toLowerCase().includes(phrase.toLowerCase())) {
+      throw new Error(`${question.id} has no usable guided phrase`);
+    }
+    guidedCatalog[question.id] = [phrase];
   }
 }
 
@@ -38,7 +44,8 @@ if (Object.keys(catalog).length !== 6900) {
 const output = `// Generated from the visually verified Idiom lesson PDFs.\n`
   + `// Run \`node tools/generate-idiom-catalog.mjs\` whenever lesson answers change.\n`
   + `// This protected catalogue is deployed only with the private Worker.\n`
-  + `export const ACCEPTED_ANSWERS = Object.freeze(${JSON.stringify(catalog, null, 2)});\n`;
+  + `export const ACCEPTED_ANSWERS = Object.freeze(${JSON.stringify(catalog, null, 2)});\n`
+  + `export const ACCEPTED_GUIDED_ANSWERS = Object.freeze(${JSON.stringify(guidedCatalog, null, 2)});\n`;
 
 fs.writeFileSync(catalogPath, output);
 console.log(`Wrote ${Object.keys(catalog).length} protected answers to ${path.relative(root, catalogPath)}`);

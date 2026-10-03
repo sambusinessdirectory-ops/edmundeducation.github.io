@@ -1,4 +1,4 @@
-import { ACCEPTED_ANSWERS } from "./catalog.js";
+import { ACCEPTED_ANSWERS, ACCEPTED_GUIDED_ANSWERS } from "./catalog.js";
 import { answersEquivalent, normalizeAnswerText } from "../../shared-answer-comparison.js";
 
 const SERVICE_NAME = "edmund-idiom-system";
@@ -562,8 +562,8 @@ function normalizeAnswer(value) {
   return normalizeAnswerText(value, { canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token });
 }
 
-function answerMatchesCatalog(questionId, answer) {
-  const accepted = ACCEPTED_ANSWERS[questionId];
+function answerMatchesCatalog(questionId, answer, answerMode = "full") {
+  const accepted = (answerMode === "guided" ? ACCEPTED_GUIDED_ANSWERS : ACCEPTED_ANSWERS)[questionId];
   if (!Array.isArray(accepted) || !accepted.length) return false;
   return accepted.some(candidate => answersEquivalent(answer, candidate, {
     canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token
@@ -609,6 +609,7 @@ function normalizeAttemptResult(value, context) {
   ];
   const allowedKeys = new Set([
     ...requiredKeys,
+    "answerMode",
     "correctionMode",
     "correctionIds",
     "collapsedCorrectIds"
@@ -622,6 +623,9 @@ function normalizeAttemptResult(value, context) {
 
   if (!Number.isInteger(value.round) || value.round !== context.roundNumber) {
     throw new HttpError(400, "INVALID_ATTEMPT", "result.round does not match roundNumber");
+  }
+  if (value.answerMode !== undefined && !["guided", "full"].includes(value.answerMode)) {
+    throw new HttpError(400, "INVALID_ATTEMPT", "result.answerMode is invalid");
   }
   const correctIds = normalizeIdentifierArray(
     value.correctIds,
@@ -640,7 +644,9 @@ function normalizeAttemptResult(value, context) {
   for (const [questionId, state] of Object.entries(value.questionState)) {
     if (
       !validQuestionId(context.lessonId, questionId)
-      || !hasExactKeys(state, ["status", "lastAnswer", "reveal"])
+      || !(hasExactKeys(state, ["status", "lastAnswer", "reveal"])
+        || hasExactKeys(state, ["status", "lastAnswer", "reveal", "answerMode"]))
+      || (state.answerMode !== undefined && !["guided", "full"].includes(state.answerMode))
       || !["pending", "correct", "wrong"].includes(state.status)
       || typeof state.lastAnswer !== "string"
       || state.lastAnswer.length > 1000
@@ -651,13 +657,14 @@ function normalizeAttemptResult(value, context) {
     questionState[questionId] = {
       status: state.status,
       lastAnswer: state.lastAnswer,
-      reveal: state.reveal
+      reveal: state.reveal,
+      answerMode: state.answerMode || "full"
     };
   }
   for (const questionId of correctIds) {
     if (
       questionState[questionId]?.status !== "correct"
-      || !answerMatchesCatalog(questionId, questionState[questionId].lastAnswer)
+      || !answerMatchesCatalog(questionId, questionState[questionId].lastAnswer, questionState[questionId].answerMode)
     ) {
       throw new HttpError(400, "INVALID_ATTEMPT", "A claimed correct answer does not match the lesson catalog");
     }
@@ -761,6 +768,7 @@ function normalizeAttemptResult(value, context) {
 
   const normalized = {
     round: value.round,
+    answerMode: value.answerMode || "full",
     correctIds,
     questionState,
     rounds,
