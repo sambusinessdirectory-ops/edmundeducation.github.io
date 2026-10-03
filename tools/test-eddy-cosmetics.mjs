@@ -134,7 +134,7 @@ test('the fish bucket hat and race-car baseball cap remain distinct and independ
 });
 test('the two-hat migration registers both products and preserves every current wardrobe allowlist',async()=>{
  const {readFileSync}=await import('node:fs');
- const sql=readFileSync(new URL('../supabase/migrations/20261003074916_all_character_fish_bucket_race_cap_v2.sql',import.meta.url),'utf8');
+ const sql=readFileSync(new URL('../supabase/migrations/20261003075939_all_character_fish_bucket_race_cap_v2.sql',import.meta.url),'utf8');
  assert.match(sql,/\('navy-fish-bucket-hat','Navy fish bucket hat',20,true\)/);
  assert.match(sql,/\('ivory-racecar-baseball-cap','Ivory race-car baseball cap',20,true\)/);
  for(const id of ['ivory-botanical-cap','navy-fish-bucket-hat','ivory-racecar-baseball-cap','beige-utility-shirt','white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt','crimson-gilded-court-coat','shadow-thorn-robe','ivory-wayfarer-robe','navy-cream-knit-vest','ivory-tiered-dress','brown-shearling-lace-boots'])assert.ok(sql.includes(`'${id}'`),id+' must remain allowed');

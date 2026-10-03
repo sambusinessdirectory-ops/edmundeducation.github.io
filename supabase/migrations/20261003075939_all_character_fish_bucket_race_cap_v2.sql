@@ -1,4 +1,4 @@
--- Two independently fitted headwear items for all five standing characters.
+-- Two independently fitted headwear items for all five standing characters (live migration 20261003075939).
 -- This migration intentionally follows the boys fantasy full-body migration
 -- and preserves every current slot and allowlist while adding the two hats.
 insert into eddie_farm.cosmetic_catalog(id,name,price,enabled)
