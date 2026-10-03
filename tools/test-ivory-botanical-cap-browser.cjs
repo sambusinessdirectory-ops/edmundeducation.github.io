@@ -12,16 +12,16 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   window.EddieFarmAPI={student:()=>({token:'fixture-token'}),snapshot:async()=>({balance:100,cosmetics:[{id:'ivory-botanical-cap',price:15,owned:true},{id:'blue-swordsman-jacket',price:0,owned:true}]})};
  });
  await page.goto('http://127.0.0.1:'+server.address().port+'/__cap');
- await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261003-all-hats1');await cosmetics.restoreCosmetics(undefined,{force:true});});
+ await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261003-all-hats2');await cosmetics.restoreCosmetics(undefined,{force:true});});
  for(const character of ['eddy','noir','celeste','phoebe','elsie']){
   await page.evaluate(async character=>{
    window.controller?.abort();window.controller=new AbortController();document.querySelector('#inventory').replaceChildren();cosmetics.clearCosmetics(character);cosmetics.beginCosmeticsPreview();
-   const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261003-all-hats1');mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
+   const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261003-all-hats2');mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
   },character);
   await page.waitForSelector('[data-cosmetic=ivory-botanical-cap]');await page.locator('[data-cosmetic=ivory-botanical-cap]').click();
   assert.equal(await page.locator('[data-cosmetic=ivory-botanical-cap]').getAttribute('aria-pressed'),'true');
   await page.evaluate(async character=>{
-   const THREE=await import('/vendor/three/three.module.js'),{MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261003-all-hats1');
+   const THREE=await import('/vendor/three/three.module.js'),{MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261003-all-hats2');
    const system=new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true}),actor=await system.create(character,'standing');
    await new Promise(r=>setTimeout(r,700));system.refreshCosmetics();
    for(let n=0;n<180&&(actor.cosmeticOpen===actor.resource.atlas.image||actor.cosmeticBlink===(actor.resource.blink||actor.resource.atlas).image);n++){await new Promise(r=>setTimeout(r,20));system.refreshCosmetics();}

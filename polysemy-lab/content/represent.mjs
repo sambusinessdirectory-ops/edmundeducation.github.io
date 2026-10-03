@@ -194,16 +194,6 @@ export default {
       "note": "來源詞義：把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態",
       "examples": [
         [
-          "The film represents the character as deeply conflicted.",
-          "電影把這個角色刻畫成內心充滿矛盾的人。",
-          "把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態"
-        ],
-        [
-          "The novel represents rural life in great detail.",
-          "小說非常細緻地描寫鄉村生活。",
-          "把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態"
-        ],
-        [
           "The advertisement represents the product as simple and reliable.",
           "廣告把產品呈現成簡單而可靠。",
           "把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態"
@@ -638,6 +628,28 @@ export default {
           "The policy represents a significant change in approach.",
           "這項政策代表／標誌著處理方式上的重大改變。",
           "某項行動或決定反映、標誌或構成某種重要發展"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "represent-pdf-001",
+      "title": "透過文字、影像或藝術方式呈現某人／某事的形象或特徵",
+      "form": "9. represent + person/event in art/media（描寫／刻畫） — 描寫；刻畫",
+      "en": "9. represent + person/event in art/media（描寫／刻畫） — 描寫；刻畫",
+      "zh": "透過文字、影像或藝術方式呈現某人／某事的形象或特徵",
+      "note": "原始 PDF 第 9 節：透過文字、影像或藝術方式呈現某人／某事的形象或特徵",
+      "examples": [
+        [
+          "The film represents the character as deeply conflicted.",
+          "電影把這個角色刻畫成內心充滿矛盾的人。",
+          "透過文字、影像或藝術方式呈現某人／某事的形象或特徵"
+        ],
+        [
+          "The novel represents rural life in great detail.",
+          "小說非常細緻地描寫鄉村生活。",
+          "透過文字、影像或藝術方式呈現某人／某事的形象或特徵"
         ]
       ],
       "options": [],
@@ -1157,63 +1169,63 @@ export default {
     },
     {
       "id": "represent-09-0",
-      "sense": "represent-mcq-09",
+      "sense": "represent-pdf-001",
       "en": "The film represents the character as deeply conflicted.",
       "zh": "電影把這個角色刻畫成內心充滿矛盾的人。",
       "masked": "The film ____ deeply conflicted.",
       "options": [
-        "represent-mcq-09",
+        "represent-pdf-001",
         "represent-mcq-08",
         "represent-mcq-10",
         "represent-mcq-07",
         "represent-mcq-11",
         "represent-mcq-06"
       ],
-      "explanation": "本句的「represents the character as」指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
+      "explanation": "本句的「represents the character as」指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "represents the character as"
       ],
       "optionReasons": {
-        "represent-mcq-09": "本句指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
+        "represent-pdf-001": "本句指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
         "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
         "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
         "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
         "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
         "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
       },
-      "correctOption": "represent-mcq-09"
+      "correctOption": "represent-pdf-001"
     },
     {
       "id": "represent-09-1",
-      "sense": "represent-mcq-09",
+      "sense": "represent-pdf-001",
       "en": "The novel represents rural life in great detail.",
       "zh": "小說非常細緻地描寫鄉村生活。",
       "masked": "The novel ____ in great detail.",
       "options": [
-        "represent-mcq-09",
+        "represent-pdf-001",
         "represent-mcq-08",
         "represent-mcq-10",
         "represent-mcq-07",
         "represent-mcq-11",
         "represent-mcq-06"
       ],
-      "explanation": "本句的「represents rural life」指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
+      "explanation": "本句的「represents rural life」指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "represents rural life"
       ],
       "optionReasons": {
-        "represent-mcq-09": "本句指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
+        "represent-pdf-001": "本句指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
         "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
         "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
         "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
         "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
         "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
       },
-      "correctOption": "represent-mcq-09"
+      "correctOption": "represent-pdf-001"
     },
     {
       "id": "represent-10-0",

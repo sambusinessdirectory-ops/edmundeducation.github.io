@@ -875,18 +875,7 @@ export default {
       "en": "contested (competitive)",
       "zh": "有人競逐的",
       "note": "來源詞義：有人競逐的",
-      "examples": [
-        [
-          "It was a contested leadership position.",
-          "這是一個多人競逐的領導職位。",
-          "有人競逐的"
-        ],
-        [
-          "Every available seat was contested.",
-          "每個可供競逐的席位都有人參與競爭。",
-          "有人競逐的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1030,11 +1019,6 @@ export default {
       "note": "來源詞義：無人競逐／沒有爭議的",
       "examples": [
         [
-          "The claim went uncontested.",
-          "該主張沒有人提出異議。",
-          "無人競逐／沒有爭議的"
-        ],
-        [
           "The position was uncontested.",
           "該職位沒有其他人競逐。",
           "無人競逐／沒有爭議的"
@@ -1085,16 +1069,6 @@ export default {
       "zh": "可爭議／可競爭的",
       "note": "來源詞義：可爭議／可競爭的",
       "examples": [
-        [
-          "That assumption is contestable.",
-          "那個假設是可以受到質疑的。",
-          "可爭議／可競爭的"
-        ],
-        [
-          "The conclusion is highly contestable.",
-          "這項結論很有爭議／可以被挑戰。",
-          "可爭議／可競爭的"
-        ],
         [
           "The interpretation is contestable.",
           "這個解釋可以提出異議。",
@@ -1162,11 +1136,6 @@ export default {
       "note": "來源詞義：無可爭辯的",
       "examples": [
         [
-          "The evidence provides incontestable proof.",
-          "證據提供了無可爭辯的證明。",
-          "無可爭辯的"
-        ],
-        [
           "It is an incontestable fact that the deadline was missed.",
           "截止日期確實被錯過，這是無可爭議的事實。",
           "無可爭辯的"
@@ -1182,18 +1151,7 @@ export default {
       "en": "contestant",
       "zh": "參賽者",
       "note": "來源詞義：參賽者",
-      "examples": [
-        [
-          "Twenty contestants entered the competition.",
-          "二十名參賽者參加比賽。",
-          "參賽者"
-        ],
-        [
-          "Each contestant had five minutes to perform.",
-          "每名參賽者有五分鐘表演時間。",
-          "參賽者"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1236,18 +1194,7 @@ export default {
       "en": "contestation",
       "zh": "爭議；挑戰；角力",
       "note": "來源詞義：爭議；挑戰；角力",
-      "examples": [
-        [
-          "The policy became a site of political and social contestation.",
-          "該政策成為社會各方爭議和角力的焦點。",
-          "爭議；挑戰；角力"
-        ],
-        [
-          "The meaning of the concept is open to contestation.",
-          "這個概念的含義可以受到爭論和挑戰。",
-          "爭議；挑戰；角力"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1268,6 +1215,128 @@ export default {
           "No contest” has a specific legal meaning in some jurisdictions.",
           "no contest 在某些司法制度中具有特定法律含義。",
           "不爭辯抗辯"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-pdf-001",
+      "title": "有兩方或以上互相競爭，希望取得某物的",
+      "form": "47. contested = competed for by more than one person — 有人爭奪的",
+      "en": "47. contested = competed for by more than one person — 有人爭奪的",
+      "zh": "有兩方或以上互相競爭，希望取得某物的",
+      "note": "原始 PDF 第 47 節：有兩方或以上互相競爭，希望取得某物的",
+      "examples": [
+        [
+          "It was a contested leadership position.",
+          "這是一個多人競逐的領導職位。",
+          "有兩方或以上互相競爭，希望取得某物的"
+        ],
+        [
+          "Every available seat was contested.",
+          "每個可供競逐的席位都有人參與競爭。",
+          "有兩方或以上互相競爭，希望取得某物的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-pdf-002",
+      "title": "沒有人提出反對、異議或競爭",
+      "form": "55. uncontested = not opposed or challenged — 無人反對／未受質疑的",
+      "en": "55. uncontested = not opposed or challenged — 無人反對／未受質疑的",
+      "zh": "沒有人提出反對、異議或競爭",
+      "note": "原始 PDF 第 55 節：沒有人提出反對、異議或競爭",
+      "examples": [
+        [
+          "The claim went uncontested.",
+          "該主張沒有人提出異議。",
+          "沒有人提出反對、異議或競爭"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-pdf-003",
+      "title": "並非確定無疑，而是有合理空間被反對或質疑的",
+      "form": "59. contestable = capable of being disputed — 可爭議的；可受到質疑的",
+      "en": "59. contestable = capable of being disputed — 可爭議的；可受到質疑的",
+      "zh": "並非確定無疑，而是有合理空間被反對或質疑的",
+      "note": "原始 PDF 第 59 節：並非確定無疑，而是有合理空間被反對或質疑的",
+      "examples": [
+        [
+          "That assumption is contestable.",
+          "那個假設是可以受到質疑的。",
+          "並非確定無疑，而是有合理空間被反對或質疑的"
+        ],
+        [
+          "The conclusion is highly contestable.",
+          "這項結論很有爭議／可以被挑戰。",
+          "並非確定無疑，而是有合理空間被反對或質疑的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-pdf-004",
+      "title": "證據或事實十分明確，幾乎沒有合理爭議空間的",
+      "form": "63. incontestable = impossible to reasonably dispute — 無可爭辯的；不可否認的",
+      "en": "63. incontestable = impossible to reasonably dispute — 無可爭辯的；不可否認的",
+      "zh": "證據或事實十分明確，幾乎沒有合理爭議空間的",
+      "note": "原始 PDF 第 63 節：證據或事實十分明確，幾乎沒有合理爭議空間的",
+      "examples": [
+        [
+          "The evidence provides incontestable proof.",
+          "證據提供了無可爭辯的證明。",
+          "證據或事實十分明確，幾乎沒有合理爭議空間的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-pdf-005",
+      "title": "參加比賽、競賽或遊戲節目並希望勝出的人",
+      "form": "65. contestant = person taking part in a contest — 參賽者",
+      "en": "65. contestant = person taking part in a contest — 參賽者",
+      "zh": "參加比賽、競賽或遊戲節目並希望勝出的人",
+      "note": "原始 PDF 第 65 節：參加比賽、競賽或遊戲節目並希望勝出的人",
+      "examples": [
+        [
+          "Twenty contestants entered the competition.",
+          "二十名參賽者參加比賽。",
+          "參加比賽、競賽或遊戲節目並希望勝出的人"
+        ],
+        [
+          "Each contestant had five minutes to perform.",
+          "每名參賽者有五分鐘表演時間。",
+          "參加比賽、競賽或遊戲節目並希望勝出的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-pdf-006",
+      "title": "對權利、解釋、權力或主張持續進行爭議或挑戰的過程",
+      "form": "69. contestation = act/process of disputing or competing — 爭議；挑戰；競逐",
+      "en": "69. contestation = act/process of disputing or competing — 爭議；挑戰；競逐",
+      "zh": "對權利、解釋、權力或主張持續進行爭議或挑戰的過程",
+      "note": "原始 PDF 第 69 節：對權利、解釋、權力或主張持續進行爭議或挑戰的過程",
+      "examples": [
+        [
+          "The policy became a site of political and social contestation.",
+          "該政策成為社會各方爭議和角力的焦點。",
+          "對權利、解釋、權力或主張持續進行爭議或挑戰的過程"
+        ],
+        [
+          "The meaning of the concept is open to contestation.",
+          "這個概念的含義可以受到爭論和挑戰。",
+          "對權利、解釋、權力或主張持續進行爭議或挑戰的過程"
         ]
       ],
       "options": [],
@@ -3797,63 +3866,63 @@ export default {
     },
     {
       "id": "contest-47-0",
-      "sense": "contest-mcq-38",
+      "sense": "contest-pdf-001",
       "en": "It was a contested leadership position.",
       "zh": "這是一個多人競逐的領導職位。",
       "masked": "It was a ____.",
       "options": [
-        "contest-mcq-38",
+        "contest-pdf-001",
         "contest-mcq-37",
         "contest-mcq-39",
         "contest-mcq-36",
         "contest-mcq-40",
         "contest-mcq-35"
       ],
-      "explanation": "本句的「contested leadership position」指「有人競逐的」。",
+      "explanation": "本句的「contested leadership position」指「有兩方或以上互相競爭，希望取得某物的」。",
       "sentenceIndex": 89,
       "sourcePractice": 1,
       "targets": [
         "contested leadership position"
       ],
       "optionReasons": {
-        "contest-mcq-38": "本句指「有人競逐的」。",
+        "contest-pdf-001": "本句指「有兩方或以上互相競爭，希望取得某物的」。",
         "contest-mcq-37": "「爭議所有權」與本句語境不同。",
         "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
         "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
         "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
         "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-38"
+      "correctOption": "contest-pdf-001"
     },
     {
       "id": "contest-47-1",
-      "sense": "contest-mcq-38",
+      "sense": "contest-pdf-001",
       "en": "Every available seat was contested.",
       "zh": "每個可供競逐的席位都有人參與競爭。",
       "masked": "Every available seat was ____.",
       "options": [
-        "contest-mcq-38",
+        "contest-pdf-001",
         "contest-mcq-37",
         "contest-mcq-39",
         "contest-mcq-36",
         "contest-mcq-40",
         "contest-mcq-35"
       ],
-      "explanation": "本句的「contested」指「有人競逐的」。",
+      "explanation": "本句的「contested」指「有兩方或以上互相競爭，希望取得某物的」。",
       "sentenceIndex": 90,
       "sourcePractice": 2,
       "targets": [
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-38": "本句指「有人競逐的」。",
+        "contest-pdf-001": "本句指「有兩方或以上互相競爭，希望取得某物的」。",
         "contest-mcq-37": "「爭議所有權」與本句語境不同。",
         "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
         "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
         "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
         "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-38"
+      "correctOption": "contest-pdf-001"
     },
     {
       "id": "contest-49-0",
@@ -4217,33 +4286,33 @@ export default {
     },
     {
       "id": "contest-55-0",
-      "sense": "contest-mcq-45",
+      "sense": "contest-pdf-002",
       "en": "The claim went uncontested.",
       "zh": "該主張沒有人提出異議。",
       "masked": "The claim went ____.",
       "options": [
-        "contest-mcq-45",
+        "contest-pdf-002",
         "contest-mcq-44",
         "contest-mcq-46",
         "contest-mcq-43",
         "contest-mcq-47",
         "contest-mcq-42"
       ],
-      "explanation": "本句的「uncontested」指「無人競逐／沒有爭議的」。",
+      "explanation": "本句的「uncontested」指「沒有人提出反對、異議或競爭」。",
       "sentenceIndex": 103,
       "sourcePractice": 1,
       "targets": [
         "uncontested"
       ],
       "optionReasons": {
-        "contest-mcq-45": "本句指「無人競逐／沒有爭議的」。",
+        "contest-pdf-002": "本句指「沒有人提出反對、異議或競爭」。",
         "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
         "contest-mcq-46": "「無爭議主張」與本句語境不同。",
         "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
         "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
         "contest-mcq-42": "「有爭議的問題」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-45"
+      "correctOption": "contest-pdf-002"
     },
     {
       "id": "contest-56-0",
@@ -4337,63 +4406,63 @@ export default {
     },
     {
       "id": "contest-59-0",
-      "sense": "contest-mcq-48",
+      "sense": "contest-pdf-003",
       "en": "That assumption is contestable.",
       "zh": "那個假設是可以受到質疑的。",
       "masked": "That assumption is ____.",
       "options": [
-        "contest-mcq-48",
+        "contest-pdf-003",
         "contest-mcq-47",
         "contest-mcq-49",
         "contest-mcq-46",
         "contest-mcq-50",
         "contest-mcq-45"
       ],
-      "explanation": "本句的「contestable」指「可爭議／可競爭的」。",
+      "explanation": "本句的「contestable」指「並非確定無疑，而是有合理空間被反對或質疑的」。",
       "sentenceIndex": 107,
       "sourcePractice": 1,
       "targets": [
         "contestable"
       ],
       "optionReasons": {
-        "contest-mcq-48": "本句指「可爭議／可競爭的」。",
+        "contest-pdf-003": "本句指「並非確定無疑，而是有合理空間被反對或質疑的」。",
         "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
         "contest-mcq-49": "「可競爭市場」與本句語境不同。",
         "contest-mcq-46": "「無爭議主張」與本句語境不同。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
         "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-48"
+      "correctOption": "contest-pdf-003"
     },
     {
       "id": "contest-59-1",
-      "sense": "contest-mcq-48",
+      "sense": "contest-pdf-003",
       "en": "The conclusion is highly contestable.",
       "zh": "這項結論很有爭議／可以被挑戰。",
       "masked": "The conclusion is highly ____.",
       "options": [
-        "contest-mcq-48",
+        "contest-pdf-003",
         "contest-mcq-47",
         "contest-mcq-49",
         "contest-mcq-46",
         "contest-mcq-50",
         "contest-mcq-45"
       ],
-      "explanation": "本句的「contestable」指「可爭議／可競爭的」。",
+      "explanation": "本句的「contestable」指「並非確定無疑，而是有合理空間被反對或質疑的」。",
       "sentenceIndex": 108,
       "sourcePractice": 2,
       "targets": [
         "contestable"
       ],
       "optionReasons": {
-        "contest-mcq-48": "本句指「可爭議／可競爭的」。",
+        "contest-pdf-003": "本句指「並非確定無疑，而是有合理空間被反對或質疑的」。",
         "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
         "contest-mcq-49": "「可競爭市場」與本句語境不同。",
         "contest-mcq-46": "「無爭議主張」與本句語境不同。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
         "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-48"
+      "correctOption": "contest-pdf-003"
     },
     {
       "id": "contest-60-0",
@@ -4577,33 +4646,33 @@ export default {
     },
     {
       "id": "contest-63-0",
-      "sense": "contest-mcq-51",
+      "sense": "contest-pdf-004",
       "en": "The evidence provides incontestable proof.",
       "zh": "證據提供了無可爭辯的證明。",
       "masked": "The evidence provides ____.",
       "options": [
-        "contest-mcq-51",
+        "contest-pdf-004",
         "contest-mcq-50",
         "contest-mcq-52",
         "contest-mcq-49",
         "contest-mcq-53",
         "contest-mcq-48"
       ],
-      "explanation": "本句的「incontestable proof」指「無可爭辯的」。",
+      "explanation": "本句的「incontestable proof」指「證據或事實十分明確，幾乎沒有合理爭議空間的」。",
       "sentenceIndex": 115,
       "sourcePractice": 1,
       "targets": [
         "incontestable proof"
       ],
       "optionReasons": {
-        "contest-mcq-51": "本句指「無可爭辯的」。",
+        "contest-pdf-004": "本句指「證據或事實十分明確，幾乎沒有合理爭議空間的」。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
         "contest-mcq-52": "「參賽者」與本句語境不同。",
         "contest-mcq-49": "「可競爭市場」與本句語境不同。",
         "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
         "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-51"
+      "correctOption": "contest-pdf-004"
     },
     {
       "id": "contest-64-0",
@@ -4637,63 +4706,63 @@ export default {
     },
     {
       "id": "contest-65-0",
-      "sense": "contest-mcq-52",
+      "sense": "contest-pdf-005",
       "en": "Twenty contestants entered the competition.",
       "zh": "二十名參賽者參加比賽。",
       "masked": "Twenty ____ entered the competition.",
       "options": [
-        "contest-mcq-52",
+        "contest-pdf-005",
         "contest-mcq-51",
         "contest-mcq-53",
         "contest-mcq-50",
         "contest-mcq-54",
         "contest-mcq-49"
       ],
-      "explanation": "本句的「contestants」指「參賽者」。",
+      "explanation": "本句的「contestants」指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
       "sentenceIndex": 117,
       "sourcePractice": 1,
       "targets": [
         "contestants"
       ],
       "optionReasons": {
-        "contest-mcq-52": "本句指「參賽者」。",
+        "contest-pdf-005": "本句指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
         "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
         "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
         "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
         "contest-mcq-49": "「可競爭市場」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-52"
+      "correctOption": "contest-pdf-005"
     },
     {
       "id": "contest-65-1",
-      "sense": "contest-mcq-52",
+      "sense": "contest-pdf-005",
       "en": "Each contestant had five minutes to perform.",
       "zh": "每名參賽者有五分鐘表演時間。",
       "masked": "Each ____ had five minutes to perform.",
       "options": [
-        "contest-mcq-52",
+        "contest-pdf-005",
         "contest-mcq-51",
         "contest-mcq-53",
         "contest-mcq-50",
         "contest-mcq-54",
         "contest-mcq-49"
       ],
-      "explanation": "本句的「contestant」指「參賽者」。",
+      "explanation": "本句的「contestant」指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
       "sentenceIndex": 118,
       "sourcePractice": 2,
       "targets": [
         "contestant"
       ],
       "optionReasons": {
-        "contest-mcq-52": "本句指「參賽者」。",
+        "contest-pdf-005": "本句指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
         "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
         "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
         "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
         "contest-mcq-49": "「可競爭市場」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-52"
+      "correctOption": "contest-pdf-005"
     },
     {
       "id": "contest-66-0",
@@ -4817,63 +4886,63 @@ export default {
     },
     {
       "id": "contest-69-0",
-      "sense": "contest-mcq-54",
+      "sense": "contest-pdf-006",
       "en": "The policy became a site of political and social contestation.",
       "zh": "該政策成為社會各方爭議和角力的焦點。",
       "masked": "The policy became a site of political and social ____.",
       "options": [
-        "contest-mcq-54",
+        "contest-pdf-006",
         "contest-mcq-53",
         "contest-mcq-55",
         "contest-mcq-52",
         "contest-mcq-51",
         "contest-mcq-50"
       ],
-      "explanation": "本句的「contestation」指「爭議；挑戰；角力」。",
+      "explanation": "本句的「contestation」指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
       "sentenceIndex": 123,
       "sourcePractice": 1,
       "targets": [
         "contestation"
       ],
       "optionReasons": {
-        "contest-mcq-54": "本句指「爭議；挑戰；角力」。",
+        "contest-pdf-006": "本句指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
         "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
         "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
         "contest-mcq-52": "「參賽者」與本句語境不同。",
         "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-54"
+      "correctOption": "contest-pdf-006"
     },
     {
       "id": "contest-69-1",
-      "sense": "contest-mcq-54",
+      "sense": "contest-pdf-006",
       "en": "The meaning of the concept is open to contestation.",
       "zh": "這個概念的含義可以受到爭論和挑戰。",
       "masked": "The meaning of the concept is open to ____.",
       "options": [
-        "contest-mcq-54",
+        "contest-pdf-006",
         "contest-mcq-53",
         "contest-mcq-55",
         "contest-mcq-52",
         "contest-mcq-51",
         "contest-mcq-50"
       ],
-      "explanation": "本句的「contestation」指「爭議；挑戰；角力」。",
+      "explanation": "本句的「contestation」指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
       "sentenceIndex": 124,
       "sourcePractice": 2,
       "targets": [
         "contestation"
       ],
       "optionReasons": {
-        "contest-mcq-54": "本句指「爭議；挑戰；角力」。",
+        "contest-pdf-006": "本句指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
         "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
         "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
         "contest-mcq-52": "「參賽者」與本句語境不同。",
         "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
         "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
       },
-      "correctOption": "contest-mcq-54"
+      "correctOption": "contest-pdf-006"
     },
     {
       "id": "contest-70-0",

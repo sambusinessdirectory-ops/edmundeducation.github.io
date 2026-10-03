@@ -403,16 +403,6 @@ export default {
       "note": "來源詞義：正確程序",
       "examples": [
         [
-          "There is a correct way to operate the machine safely.",
-          "操作這部機器有一套安全而正確的方法。",
-          "正確程序"
-        ],
-        [
-          "The instructor showed us the correct technique.",
-          "導師向我們示範了正確技巧。",
-          "正確程序"
-        ],
-        [
           "Employees must follow the correct procedure.",
           "員工必須遵循正確程序。",
           "正確程序"
@@ -739,16 +729,6 @@ export default {
           "If the figures are accurate, I stand corrected.",
           "如果這些數字準確，那我承認之前說錯了。",
           "承認自己錯了"
-        ],
-        [
-          "Correct me if I'm wrong, but wasn't the meeting moved to Thursday?",
-          "如果我記錯請糾正我，會議不是改到星期四了嗎？",
-          "承認自己錯了"
-        ],
-        [
-          "Correct me if I'm wrong, but I thought everyone had agreed.",
-          "如果我說錯請糾正我，但我以為大家已經同意了。",
-          "承認自己錯了"
         ]
       ],
       "options": [],
@@ -793,16 +773,72 @@ export default {
           "The department is responsible for prisons and corrections.",
           "該部門負責監獄和懲教事務。",
           "懲教制度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "correct-pdf-001",
+      "title": "符合規則、程序或公認標準的方法",
+      "form": "20. correct way / method — 正確方法",
+      "en": "20. correct way / method — 正確方法",
+      "zh": "符合規則、程序或公認標準的方法",
+      "note": "原始 PDF 第 20 節：符合規則、程序或公認標準的方法",
+      "examples": [
+        [
+          "There is a correct way to operate the machine safely.",
+          "操作這部機器有一套安全而正確的方法。",
+          "符合規則、程序或公認標準的方法"
         ],
+        [
+          "The instructor showed us the correct technique.",
+          "導師向我們示範了正確技巧。",
+          "符合規則、程序或公認標準的方法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "correct-pdf-002",
+      "title": "用來表示自己的說法可能有錯，邀請別人更正",
+      "form": "38. correct me if I'm wrong — 如果我錯了請糾正我",
+      "en": "38. correct me if I'm wrong — 如果我錯了請糾正我",
+      "zh": "用來表示自己的說法可能有錯，邀請別人更正",
+      "note": "原始 PDF 第 38 節：用來表示自己的說法可能有錯，邀請別人更正",
+      "examples": [
+        [
+          "Correct me if I'm wrong, but wasn't the meeting moved to Thursday?",
+          "如果我記錯請糾正我，會議不是改到星期四了嗎？",
+          "用來表示自己的說法可能有錯，邀請別人更正"
+        ],
+        [
+          "Correct me if I'm wrong, but I thought everyone had agreed.",
+          "如果我說錯請糾正我，但我以為大家已經同意了。",
+          "用來表示自己的說法可能有錯，邀請別人更正"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "correct-pdf-003",
+      "title": "與監獄、懲教和罪犯管理有關的",
+      "form": "41. correctional facility / correctional officer — 懲教機構／懲教人員",
+      "en": "41. correctional facility / correctional officer — 懲教機構／懲教人員",
+      "zh": "與監獄、懲教和罪犯管理有關的",
+      "note": "原始 PDF 第 41 節：與監獄、懲教和罪犯管理有關的",
+      "examples": [
         [
           "He works at a correctional facility.",
           "他在一所懲教機構工作。",
-          "懲教制度"
+          "與監獄、懲教和罪犯管理有關的"
         ],
         [
           "Correctional officers supervise people in custody.",
           "懲教人員負責監管被羈押的人。",
-          "懲教制度"
+          "與監獄、懲教和罪犯管理有關的"
         ]
       ],
       "options": [],
@@ -1922,63 +1958,63 @@ export default {
     },
     {
       "id": "correct-20-0",
-      "sense": "correct-mcq-18",
+      "sense": "correct-pdf-001",
       "en": "There is a correct way to operate the machine safely.",
       "zh": "操作這部機器有一套安全而正確的方法。",
       "masked": "There is a ____ to operate the machine safely.",
       "options": [
-        "correct-mcq-18",
+        "correct-pdf-001",
         "correct-mcq-17",
         "correct-mcq-19",
         "correct-mcq-16",
         "correct-mcq-20",
         "correct-mcq-15"
       ],
-      "explanation": "本句的「correct way」指「正確程序」。",
+      "explanation": "本句的「correct way」指「符合規則、程序或公認標準的方法」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "correct way"
       ],
       "optionReasons": {
-        "correct-mcq-18": "本句指「正確程序」。",
+        "correct-pdf-001": "本句指「符合規則、程序或公認標準的方法」。",
         "correct-mcq-17": "「文法正確」與本句語境不同。",
         "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
         "correct-mcq-16": "「正確串法」與本句語境不同。",
         "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
         "correct-mcq-15": "「正確資料」與本句語境不同。"
       },
-      "correctOption": "correct-mcq-18"
+      "correctOption": "correct-pdf-001"
     },
     {
       "id": "correct-20-1",
-      "sense": "correct-mcq-18",
+      "sense": "correct-pdf-001",
       "en": "The instructor showed us the correct technique.",
       "zh": "導師向我們示範了正確技巧。",
       "masked": "The instructor showed us the ____.",
       "options": [
-        "correct-mcq-18",
+        "correct-pdf-001",
         "correct-mcq-17",
         "correct-mcq-19",
         "correct-mcq-16",
         "correct-mcq-20",
         "correct-mcq-15"
       ],
-      "explanation": "本句的「correct technique」指「正確程序」。",
+      "explanation": "本句的「correct technique」指「符合規則、程序或公認標準的方法」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "correct technique"
       ],
       "optionReasons": {
-        "correct-mcq-18": "本句指「正確程序」。",
+        "correct-pdf-001": "本句指「符合規則、程序或公認標準的方法」。",
         "correct-mcq-17": "「文法正確」與本句語境不同。",
         "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
         "correct-mcq-16": "「正確串法」與本句語境不同。",
         "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
         "correct-mcq-15": "「正確資料」與本句語境不同。"
       },
-      "correctOption": "correct-mcq-18"
+      "correctOption": "correct-pdf-001"
     },
     {
       "id": "correct-21-0",
@@ -2942,63 +2978,63 @@ export default {
     },
     {
       "id": "correct-38-0",
-      "sense": "correct-mcq-32",
+      "sense": "correct-pdf-002",
       "en": "Correct me if I'm wrong, but wasn't the meeting moved to Thursday?",
       "zh": "如果我記錯請糾正我，會議不是改到星期四了嗎？",
       "masked": "____, but wasn't the meeting moved to Thursday?",
       "options": [
-        "correct-mcq-32",
+        "correct-pdf-002",
         "correct-mcq-31",
         "correct-mcq-33",
         "correct-mcq-30",
         "correct-mcq-34",
         "correct-mcq-29"
       ],
-      "explanation": "本句的「Correct me if I'm wrong」指「承認自己錯了」。",
+      "explanation": "本句的「Correct me if I'm wrong」指「用來表示自己的說法可能有錯，邀請別人更正」。",
       "sentenceIndex": 75,
       "sourcePractice": 1,
       "targets": [
         "Correct me if I'm wrong"
       ],
       "optionReasons": {
-        "correct-mcq-32": "本句指「承認自己錯了」。",
+        "correct-pdf-002": "本句指「用來表示自己的說法可能有錯，邀請別人更正」。",
         "correct-mcq-31": "「正確性」與本句語境不同。",
         "correct-mcq-33": "「市場調整」與本句語境不同。",
         "correct-mcq-30": "「不正確的」與本句語境不同。",
         "correct-mcq-34": "「懲教制度」與本句語境不同。",
         "correct-mcq-29": "「矯正手術」與本句語境不同。"
       },
-      "correctOption": "correct-mcq-32"
+      "correctOption": "correct-pdf-002"
     },
     {
       "id": "correct-38-1",
-      "sense": "correct-mcq-32",
+      "sense": "correct-pdf-002",
       "en": "Correct me if I'm wrong, but I thought everyone had agreed.",
       "zh": "如果我說錯請糾正我，但我以為大家已經同意了。",
       "masked": "____ me if I'm wrong, but I thought everyone had agreed.",
       "options": [
-        "correct-mcq-32",
+        "correct-pdf-002",
         "correct-mcq-31",
         "correct-mcq-33",
         "correct-mcq-30",
         "correct-mcq-34",
         "correct-mcq-29"
       ],
-      "explanation": "本句的「Correct」指「承認自己錯了」。",
+      "explanation": "本句的「Correct」指「用來表示自己的說法可能有錯，邀請別人更正」。",
       "sentenceIndex": 76,
       "sourcePractice": 2,
       "targets": [
         "Correct"
       ],
       "optionReasons": {
-        "correct-mcq-32": "本句指「承認自己錯了」。",
+        "correct-pdf-002": "本句指「用來表示自己的說法可能有錯，邀請別人更正」。",
         "correct-mcq-31": "「正確性」與本句語境不同。",
         "correct-mcq-33": "「市場調整」與本句語境不同。",
         "correct-mcq-30": "「不正確的」與本句語境不同。",
         "correct-mcq-34": "「懲教制度」與本句語境不同。",
         "correct-mcq-29": "「矯正手術」與本句語境不同。"
       },
-      "correctOption": "correct-mcq-32"
+      "correctOption": "correct-pdf-002"
     },
     {
       "id": "correct-39-0",
@@ -3122,63 +3158,63 @@ export default {
     },
     {
       "id": "correct-41-0",
-      "sense": "correct-mcq-34",
+      "sense": "correct-pdf-003",
       "en": "He works at a correctional facility.",
       "zh": "他在一所懲教機構工作。",
       "masked": "He works at a ____.",
       "options": [
-        "correct-mcq-34",
+        "correct-pdf-003",
         "correct-mcq-33",
         "correct-mcq-32",
         "correct-mcq-31",
         "correct-mcq-30",
         "correct-mcq-29"
       ],
-      "explanation": "本句的「correctional facility」指「懲教制度」。",
+      "explanation": "本句的「correctional facility」指「與監獄、懲教和罪犯管理有關的」。",
       "sentenceIndex": 81,
       "sourcePractice": 1,
       "targets": [
         "correctional facility"
       ],
       "optionReasons": {
-        "correct-mcq-34": "本句指「懲教制度」。",
+        "correct-pdf-003": "本句指「與監獄、懲教和罪犯管理有關的」。",
         "correct-mcq-33": "「市場調整」與本句語境不同。",
         "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
         "correct-mcq-31": "「正確性」與本句語境不同。",
         "correct-mcq-30": "「不正確的」與本句語境不同。",
         "correct-mcq-29": "「矯正手術」與本句語境不同。"
       },
-      "correctOption": "correct-mcq-34"
+      "correctOption": "correct-pdf-003"
     },
     {
       "id": "correct-41-1",
-      "sense": "correct-mcq-34",
+      "sense": "correct-pdf-003",
       "en": "Correctional officers supervise people in custody.",
       "zh": "懲教人員負責監管被羈押的人。",
       "masked": "____ supervise people in custody.",
       "options": [
-        "correct-mcq-34",
+        "correct-pdf-003",
         "correct-mcq-33",
         "correct-mcq-32",
         "correct-mcq-31",
         "correct-mcq-30",
         "correct-mcq-29"
       ],
-      "explanation": "本句的「Correctional officers」指「懲教制度」。",
+      "explanation": "本句的「Correctional officers」指「與監獄、懲教和罪犯管理有關的」。",
       "sentenceIndex": 82,
       "sourcePractice": 2,
       "targets": [
         "Correctional officers"
       ],
       "optionReasons": {
-        "correct-mcq-34": "本句指「懲教制度」。",
+        "correct-pdf-003": "本句指「與監獄、懲教和罪犯管理有關的」。",
         "correct-mcq-33": "「市場調整」與本句語境不同。",
         "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
         "correct-mcq-31": "「正確性」與本句語境不同。",
         "correct-mcq-30": "「不正確的」與本句語境不同。",
         "correct-mcq-29": "「矯正手術」與本句語境不同。"
       },
-      "correctOption": "correct-mcq-34"
+      "correctOption": "correct-pdf-003"
     }
   ],
   "comparisons": [],

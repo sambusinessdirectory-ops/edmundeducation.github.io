@@ -257,16 +257,6 @@ export default {
           "The poem contrasts earthly life with the spiritual world.",
           "這首詩把人世生活與精神世界作對比。",
           "與地球上的現實生活／人世間有關的"
-        ],
-        [
-          "There was no earthly reason for him to leave.",
-          "他根本沒有任何合理／可能的理由離開。",
-          "與地球上的現實生活／人世間有關的"
-        ],
-        [
-          "I have no earthly idea where she went.",
-          "我完全不知道她去了哪裡。",
-          "與地球上的現實生活／人世間有關的"
         ]
       ],
       "options": [],
@@ -443,6 +433,28 @@ export default {
           "She prefers clothes in earth colours.",
           "她較喜歡穿大地色系的衣服。",
           "模仿泥土、沙、石頭等自然色彩的大地色系"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "earth-pdf-001",
+      "title": "用來加強「完全沒有／根本沒有」等意思",
+      "form": "13. earthly = possible / imaginable in this world（加強語氣） — 世間可能的；到底有的",
+      "en": "13. earthly = possible / imaginable in this world（加強語氣） — 世間可能的；到底有的",
+      "zh": "用來加強「完全沒有／根本沒有」等意思",
+      "note": "原始 PDF 第 13 節：用來加強「完全沒有／根本沒有」等意思",
+      "examples": [
+        [
+          "There was no earthly reason for him to leave.",
+          "他根本沒有任何合理／可能的理由離開。",
+          "用來加強「完全沒有／根本沒有」等意思"
+        ],
+        [
+          "I have no earthly idea where she went.",
+          "我完全不知道她去了哪裡。",
+          "用來加強「完全沒有／根本沒有」等意思"
         ]
       ],
       "options": [],
@@ -1202,63 +1214,63 @@ export default {
     },
     {
       "id": "earth-13-0",
-      "sense": "earth-mcq-11",
+      "sense": "earth-pdf-001",
       "en": "There was no earthly reason for him to leave.",
       "zh": "他根本沒有任何合理／可能的理由離開。",
       "masked": "There was no ____ reason for him to leave.",
       "options": [
-        "earth-mcq-11",
+        "earth-pdf-001",
         "earth-mcq-10",
         "earth-mcq-12",
         "earth-mcq-09",
         "earth-mcq-13",
         "earth-mcq-08"
       ],
-      "explanation": "本句的「earthly」指「與地球上的現實生活／人世間有關的」。",
+      "explanation": "本句的「earthly」指「用來加強「完全沒有／根本沒有」等意思」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "earthly"
       ],
       "optionReasons": {
-        "earth-mcq-11": "本句指「與地球上的現實生活／人世間有關的」。",
+        "earth-pdf-001": "本句指「用來加強「完全沒有／根本沒有」等意思」。",
         "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
         "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
         "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
         "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
         "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。"
       },
-      "correctOption": "earth-mcq-11"
+      "correctOption": "earth-pdf-001"
     },
     {
       "id": "earth-13-1",
-      "sense": "earth-mcq-11",
+      "sense": "earth-pdf-001",
       "en": "I have no earthly idea where she went.",
       "zh": "我完全不知道她去了哪裡。",
       "masked": "I have no ____ idea where she went.",
       "options": [
-        "earth-mcq-11",
+        "earth-pdf-001",
         "earth-mcq-10",
         "earth-mcq-12",
         "earth-mcq-09",
         "earth-mcq-13",
         "earth-mcq-08"
       ],
-      "explanation": "本句的「earthly」指「與地球上的現實生活／人世間有關的」。",
+      "explanation": "本句的「earthly」指「用來加強「完全沒有／根本沒有」等意思」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "earthly"
       ],
       "optionReasons": {
-        "earth-mcq-11": "本句指「與地球上的現實生活／人世間有關的」。",
+        "earth-pdf-001": "本句指「用來加強「完全沒有／根本沒有」等意思」。",
         "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
         "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
         "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
         "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
         "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。"
       },
-      "correctOption": "earth-mcq-11"
+      "correctOption": "earth-pdf-001"
     },
     {
       "id": "earth-14-0",

@@ -125,16 +125,6 @@ export default {
           "It took her years to find her own voice as a writer.",
           "她花了多年才找到自己作為作家的獨特表達風格。",
           "作者在語氣、觀點、選字和風格上形成的獨特表達方式"
-        ],
-        [
-          "She gradually found her voice as a journalist.",
-          "她逐漸找到自己作為記者的獨特表達風格。",
-          "作者在語氣、觀點、選字和風格上形成的獨特表達方式"
-        ],
-        [
-          "The experience helped him find his voice.",
-          "那段經歷讓他開始敢於表達自己／找到自己的聲音。",
-          "作者在語氣、觀點、選字和風格上形成的獨特表達方式"
         ]
       ],
       "options": [],
@@ -223,16 +213,6 @@ export default {
           "She voiced her disagreement calmly.",
           "她冷靜地表達了反對意見。",
           "把意見、擔憂、反對等明確表達出來"
-        ],
-        [
-          "Many parents voiced support for the proposal.",
-          "很多家長表達了支持。",
-          "把意見、擔憂、反對等明確表達出來"
-        ],
-        [
-          "Residents voiced strong opposition to the plan.",
-          "居民對計劃表達強烈反對。",
-          "把意見、擔憂、反對等明確表達出來"
         ]
       ],
       "options": [],
@@ -291,16 +271,6 @@ export default {
       "note": "來源詞義：發音時聲帶不振動的",
       "examples": [
         [
-          "The organisation speaks for the voiceless.",
-          "這個組織為那些缺乏發言權的人發聲。",
-          "發音時聲帶不振動的"
-        ],
-        [
-          "Many people felt voiceless in the system.",
-          "很多人覺得自己在這個制度裡沒有發言權。",
-          "發音時聲帶不振動的"
-        ],
-        [
           "/s/ is a voiceless consonant.",
           "/s/ 是一個清輔音／無聲輔音。",
           "發音時聲帶不振動的"
@@ -358,6 +328,72 @@ export default {
           "Voice recognition software can identify spoken commands.",
           "語音識別軟件可以識別口頭指令。",
           "說話者不直接出現在畫面中時播放的旁白錄音"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "voice-pdf-001",
+      "title": "建立獨特表達風格，或建立表達自己想法的信心",
+      "form": "7. find your voice = 找到自己的表達方式；敢於發聲",
+      "en": "7. find your voice = 找到自己的表達方式；敢於發聲",
+      "zh": "建立獨特表達風格，或建立表達自己想法的信心",
+      "note": "原始 PDF 第 7 節：建立獨特表達風格，或建立表達自己想法的信心",
+      "examples": [
+        [
+          "She gradually found her voice as a journalist.",
+          "她逐漸找到自己作為記者的獨特表達風格。",
+          "建立獨特表達風格，或建立表達自己想法的信心"
+        ],
+        [
+          "The experience helped him find his voice.",
+          "那段經歷讓他開始敢於表達自己／找到自己的聲音。",
+          "建立獨特表達風格，或建立表達自己想法的信心"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "voice-pdf-002",
+      "title": "公開／明確表達某種立場或情緒",
+      "form": "12. voice support/opposition = 表達支持／反對",
+      "en": "12. voice support/opposition = 表達支持／反對",
+      "zh": "公開／明確表達某種立場或情緒",
+      "note": "原始 PDF 第 12 節：公開／明確表達某種立場或情緒",
+      "examples": [
+        [
+          "Many parents voiced support for the proposal.",
+          "很多家長表達了支持。",
+          "公開／明確表達某種立場或情緒"
+        ],
+        [
+          "Residents voiced strong opposition to the plan.",
+          "居民對計劃表達強烈反對。",
+          "公開／明確表達某種立場或情緒"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "voice-pdf-003",
+      "title": "難以讓自己意見被聽見、缺乏影響力的",
+      "form": "16. voiceless = without a voice / unable to be heard — 無發言權的；無聲的",
+      "en": "16. voiceless = without a voice / unable to be heard — 無發言權的；無聲的",
+      "zh": "難以讓自己意見被聽見、缺乏影響力的",
+      "note": "原始 PDF 第 16 節：難以讓自己意見被聽見、缺乏影響力的",
+      "examples": [
+        [
+          "The organisation speaks for the voiceless.",
+          "這個組織為那些缺乏發言權的人發聲。",
+          "難以讓自己意見被聽見、缺乏影響力的"
+        ],
+        [
+          "Many people felt voiceless in the system.",
+          "很多人覺得自己在這個制度裡沒有發言權。",
+          "難以讓自己意見被聽見、缺乏影響力的"
         ]
       ],
       "options": [],
@@ -757,63 +793,63 @@ export default {
     },
     {
       "id": "voice-07-0",
-      "sense": "voice-mcq-05",
+      "sense": "voice-pdf-001",
       "en": "She gradually found her voice as a journalist.",
       "zh": "她逐漸找到自己作為記者的獨特表達風格。",
       "masked": "She gradually ____ as a journalist.",
       "options": [
-        "voice-mcq-05",
+        "voice-pdf-001",
         "voice-mcq-04",
         "voice-mcq-06",
         "voice-mcq-03",
         "voice-mcq-07",
         "voice-mcq-02"
       ],
-      "explanation": "本句的「found her voice」指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
+      "explanation": "本句的「found her voice」指「建立獨特表達風格，或建立表達自己想法的信心」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "found her voice"
       ],
       "optionReasons": {
-        "voice-mcq-05": "本句指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
+        "voice-pdf-001": "本句指「建立獨特表達風格，或建立表達自己想法的信心」。",
         "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
         "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
         "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
         "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
         "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。"
       },
-      "correctOption": "voice-mcq-05"
+      "correctOption": "voice-pdf-001"
     },
     {
       "id": "voice-07-1",
-      "sense": "voice-mcq-05",
+      "sense": "voice-pdf-001",
       "en": "The experience helped him find his voice.",
       "zh": "那段經歷讓他開始敢於表達自己／找到自己的聲音。",
       "masked": "The experience helped him find his ____.",
       "options": [
-        "voice-mcq-05",
+        "voice-pdf-001",
         "voice-mcq-04",
         "voice-mcq-06",
         "voice-mcq-03",
         "voice-mcq-07",
         "voice-mcq-02"
       ],
-      "explanation": "本句的「voice」指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
+      "explanation": "本句的「voice」指「建立獨特表達風格，或建立表達自己想法的信心」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-05": "本句指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
+        "voice-pdf-001": "本句指「建立獨特表達風格，或建立表達自己想法的信心」。",
         "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
         "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
         "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
         "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
         "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。"
       },
-      "correctOption": "voice-mcq-05"
+      "correctOption": "voice-pdf-001"
     },
     {
       "id": "voice-08-0",
@@ -1057,63 +1093,63 @@ export default {
     },
     {
       "id": "voice-12-0",
-      "sense": "voice-mcq-09",
+      "sense": "voice-pdf-002",
       "en": "Many parents voiced support for the proposal.",
       "zh": "很多家長表達了支持。",
       "masked": "Many parents ____ for the proposal.",
       "options": [
-        "voice-mcq-09",
+        "voice-pdf-002",
         "voice-mcq-08",
         "voice-mcq-10",
         "voice-mcq-07",
         "voice-mcq-11",
         "voice-mcq-06"
       ],
-      "explanation": "本句的「voiced support」指「把意見、擔憂、反對等明確表達出來」。",
+      "explanation": "本句的「voiced support」指「公開／明確表達某種立場或情緒」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "voiced support"
       ],
       "optionReasons": {
-        "voice-mcq-09": "本句指「把意見、擔憂、反對等明確表達出來」。",
+        "voice-pdf-002": "本句指「公開／明確表達某種立場或情緒」。",
         "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
         "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
         "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
         "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
         "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
       },
-      "correctOption": "voice-mcq-09"
+      "correctOption": "voice-pdf-002"
     },
     {
       "id": "voice-12-1",
-      "sense": "voice-mcq-09",
+      "sense": "voice-pdf-002",
       "en": "Residents voiced strong opposition to the plan.",
       "zh": "居民對計劃表達強烈反對。",
       "masked": "Residents ____ strong opposition to the plan.",
       "options": [
-        "voice-mcq-09",
+        "voice-pdf-002",
         "voice-mcq-08",
         "voice-mcq-10",
         "voice-mcq-07",
         "voice-mcq-11",
         "voice-mcq-06"
       ],
-      "explanation": "本句的「voiced」指「把意見、擔憂、反對等明確表達出來」。",
+      "explanation": "本句的「voiced」指「公開／明確表達某種立場或情緒」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "voiced"
       ],
       "optionReasons": {
-        "voice-mcq-09": "本句指「把意見、擔憂、反對等明確表達出來」。",
+        "voice-pdf-002": "本句指「公開／明確表達某種立場或情緒」。",
         "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
         "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
         "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
         "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
         "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
       },
-      "correctOption": "voice-mcq-09"
+      "correctOption": "voice-pdf-002"
     },
     {
       "id": "voice-13-0",
@@ -1237,63 +1273,63 @@ export default {
     },
     {
       "id": "voice-16-0",
-      "sense": "voice-mcq-12",
+      "sense": "voice-pdf-003",
       "en": "The organisation speaks for the voiceless.",
       "zh": "這個組織為那些缺乏發言權的人發聲。",
       "masked": "The organisation speaks for the ____.",
       "options": [
-        "voice-mcq-12",
+        "voice-pdf-003",
         "voice-mcq-11",
         "voice-mcq-13",
         "voice-mcq-10",
         "voice-mcq-14",
         "voice-mcq-09"
       ],
-      "explanation": "本句的「voiceless」指「發音時聲帶不振動的」。",
+      "explanation": "本句的「voiceless」指「難以讓自己意見被聽見、缺乏影響力的」。",
       "sentenceIndex": 30,
       "sourcePractice": 32,
       "targets": [
         "voiceless"
       ],
       "optionReasons": {
-        "voice-mcq-12": "本句指「發音時聲帶不振動的」。",
+        "voice-pdf-003": "本句指「難以讓自己意見被聽見、缺乏影響力的」。",
         "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
         "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
         "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
         "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
         "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
       },
-      "correctOption": "voice-mcq-12"
+      "correctOption": "voice-pdf-003"
     },
     {
       "id": "voice-16-1",
-      "sense": "voice-mcq-12",
+      "sense": "voice-pdf-003",
       "en": "Many people felt voiceless in the system.",
       "zh": "很多人覺得自己在這個制度裡沒有發言權。",
       "masked": "Many people felt ____ in the system.",
       "options": [
-        "voice-mcq-12",
+        "voice-pdf-003",
         "voice-mcq-11",
         "voice-mcq-13",
         "voice-mcq-10",
         "voice-mcq-14",
         "voice-mcq-09"
       ],
-      "explanation": "本句的「voiceless」指「發音時聲帶不振動的」。",
+      "explanation": "本句的「voiceless」指「難以讓自己意見被聽見、缺乏影響力的」。",
       "sentenceIndex": 31,
       "sourcePractice": 33,
       "targets": [
         "voiceless"
       ],
       "optionReasons": {
-        "voice-mcq-12": "本句指「發音時聲帶不振動的」。",
+        "voice-pdf-003": "本句指「難以讓自己意見被聽見、缺乏影響力的」。",
         "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
         "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
         "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
         "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
         "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
       },
-      "correctOption": "voice-mcq-12"
+      "correctOption": "voice-pdf-003"
     },
     {
       "id": "voice-17-0",

@@ -100,18 +100,7 @@ export default {
       "en": "print an article",
       "zh": "刊登文章",
       "note": "來源詞義：刊登文章",
-      "examples": [
-        [
-          "The newspaper printed her letter.",
-          "報章刊登了她的來信。",
-          "刊登文章"
-        ],
-        [
-          "The magazine refused to print the story.",
-          "雜誌拒絕刊登那篇報道。",
-          "刊登文章"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -122,18 +111,7 @@ export default {
       "en": "print X on Y",
       "zh": "把 X 印在 Y 上",
       "note": "來源詞義：把 X 印在 Y 上",
-      "examples": [
-        [
-          "Her name was printed on the card.",
-          "她的名字被印在卡上。",
-          "把 X 印在 Y 上"
-        ],
-        [
-          "The company printed its logo on the bag.",
-          "公司把標誌印在袋上。",
-          "把 X 印在 Y 上"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -464,6 +442,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "print-pdf-001",
+      "title": "把文字、文章或消息正式刊登在報紙、雜誌等出版物上",
+      "form": "5. print something in a newspaper / magazine — 刊登；刊載",
+      "en": "5. print something in a newspaper / magazine — 刊登；刊載",
+      "zh": "把文字、文章或消息正式刊登在報紙、雜誌等出版物上",
+      "note": "原始 PDF 第 5 節：把文字、文章或消息正式刊登在報紙、雜誌等出版物上",
+      "examples": [
+        [
+          "The newspaper printed her letter.",
+          "報章刊登了她的來信。",
+          "把文字、文章或消息正式刊登在報紙、雜誌等出版物上"
+        ],
+        [
+          "The magazine refused to print the story.",
+          "雜誌拒絕刊登那篇報道。",
+          "把文字、文章或消息正式刊登在報紙、雜誌等出版物上"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "print-pdf-002",
+      "title": "把文字、圖案或標誌印到某個表面上",
+      "form": "6. print a name / logo / message on something — 印上名字／標誌／訊息",
+      "en": "6. print a name / logo / message on something — 印上名字／標誌／訊息",
+      "zh": "把文字、圖案或標誌印到某個表面上",
+      "note": "原始 PDF 第 6 節：把文字、圖案或標誌印到某個表面上",
+      "examples": [
+        [
+          "Her name was printed on the card.",
+          "她的名字被印在卡上。",
+          "把文字、圖案或標誌印到某個表面上"
+        ],
+        [
+          "The company printed its logo on the bag.",
+          "公司把標誌印在袋上。",
+          "把文字、圖案或標誌印到某個表面上"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -709,123 +731,123 @@ export default {
     },
     {
       "id": "print-05-0",
-      "sense": "print-mcq-05",
+      "sense": "print-pdf-001",
       "en": "The newspaper printed her letter.",
       "zh": "報章刊登了她的來信。",
       "masked": "The newspaper ____.",
       "options": [
-        "print-mcq-05",
+        "print-pdf-001",
         "print-mcq-04",
         "print-mcq-06",
         "print-mcq-03",
         "print-mcq-07",
         "print-mcq-02"
       ],
-      "explanation": "本句的「printed her letter」指「刊登文章」。",
+      "explanation": "本句的「printed her letter」指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
       "sentenceIndex": 8,
       "sourcePractice": 1,
       "targets": [
         "printed her letter"
       ],
       "optionReasons": {
-        "print-mcq-05": "本句指「刊登文章」。",
+        "print-pdf-001": "本句指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
         "print-mcq-04": "「印刷書籍」與本句語境不同。",
         "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
         "print-mcq-03": "「沖印照片」與本句語境不同。",
         "print-mcq-07": "「印刷字體」與本句語境不同。",
         "print-mcq-02": "「沖印／列印照片」與本句語境不同。"
       },
-      "correctOption": "print-mcq-05"
+      "correctOption": "print-pdf-001"
     },
     {
       "id": "print-05-1",
-      "sense": "print-mcq-05",
+      "sense": "print-pdf-001",
       "en": "The magazine refused to print the story.",
       "zh": "雜誌拒絕刊登那篇報道。",
       "masked": "The magazine refused to ____.",
       "options": [
-        "print-mcq-05",
+        "print-pdf-001",
         "print-mcq-04",
         "print-mcq-06",
         "print-mcq-03",
         "print-mcq-07",
         "print-mcq-02"
       ],
-      "explanation": "本句的「print the story」指「刊登文章」。",
+      "explanation": "本句的「print the story」指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
       "sentenceIndex": 9,
       "sourcePractice": 2,
       "targets": [
         "print the story"
       ],
       "optionReasons": {
-        "print-mcq-05": "本句指「刊登文章」。",
+        "print-pdf-001": "本句指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
         "print-mcq-04": "「印刷書籍」與本句語境不同。",
         "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
         "print-mcq-03": "「沖印照片」與本句語境不同。",
         "print-mcq-07": "「印刷字體」與本句語境不同。",
         "print-mcq-02": "「沖印／列印照片」與本句語境不同。"
       },
-      "correctOption": "print-mcq-05"
+      "correctOption": "print-pdf-001"
     },
     {
       "id": "print-06-0",
-      "sense": "print-mcq-06",
+      "sense": "print-pdf-002",
       "en": "Her name was printed on the card.",
       "zh": "她的名字被印在卡上。",
       "masked": "Her name was ____.",
       "options": [
-        "print-mcq-06",
+        "print-pdf-002",
         "print-mcq-05",
         "print-mcq-07",
         "print-mcq-04",
         "print-mcq-08",
         "print-mcq-03"
       ],
-      "explanation": "本句的「printed on the card」指「把 X 印在 Y 上」。",
+      "explanation": "本句的「printed on the card」指「把文字、圖案或標誌印到某個表面上」。",
       "sentenceIndex": 10,
       "sourcePractice": 1,
       "targets": [
         "printed on the card"
       ],
       "optionReasons": {
-        "print-mcq-06": "本句指「把 X 印在 Y 上」。",
+        "print-pdf-002": "本句指「把文字、圖案或標誌印到某個表面上」。",
         "print-mcq-05": "「刊登文章」與本句語境不同。",
         "print-mcq-07": "「印刷字體」與本句語境不同。",
         "print-mcq-04": "「印刷書籍」與本句語境不同。",
         "print-mcq-08": "「小字條款」與本句語境不同。",
         "print-mcq-03": "「沖印照片」與本句語境不同。"
       },
-      "correctOption": "print-mcq-06"
+      "correctOption": "print-pdf-002"
     },
     {
       "id": "print-06-1",
-      "sense": "print-mcq-06",
+      "sense": "print-pdf-002",
       "en": "The company printed its logo on the bag.",
       "zh": "公司把標誌印在袋上。",
       "masked": "The company ____.",
       "options": [
-        "print-mcq-06",
+        "print-pdf-002",
         "print-mcq-05",
         "print-mcq-07",
         "print-mcq-04",
         "print-mcq-08",
         "print-mcq-03"
       ],
-      "explanation": "本句的「printed its logo on the bag」指「把 X 印在 Y 上」。",
+      "explanation": "本句的「printed its logo on the bag」指「把文字、圖案或標誌印到某個表面上」。",
       "sentenceIndex": 11,
       "sourcePractice": 2,
       "targets": [
         "printed its logo on the bag"
       ],
       "optionReasons": {
-        "print-mcq-06": "本句指「把 X 印在 Y 上」。",
+        "print-pdf-002": "本句指「把文字、圖案或標誌印到某個表面上」。",
         "print-mcq-05": "「刊登文章」與本句語境不同。",
         "print-mcq-07": "「印刷字體」與本句語境不同。",
         "print-mcq-04": "「印刷書籍」與本句語境不同。",
         "print-mcq-08": "「小字條款」與本句語境不同。",
         "print-mcq-03": "「沖印照片」與本句語境不同。"
       },
-      "correctOption": "print-mcq-06"
+      "correctOption": "print-pdf-002"
     },
     {
       "id": "print-07-0",

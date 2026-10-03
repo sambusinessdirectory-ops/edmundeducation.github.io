@@ -22,16 +22,6 @@ export default {
           "She spoke so quietly that I could hardly hear her.",
           "她說話非常小聲，我幾乎聽不到。",
           "表示某種性質、狀態或方式達到很高程度；如此／這麼"
-        ],
-        [
-          "The advertisement worked so well.",
-          "這則廣告效果這麼好／非常有效。",
-          "表示某種性質、狀態或方式達到很高程度；如此／這麼"
-        ],
-        [
-          "She explained the idea so clearly.",
-          "她把這個概念解釋得非常清楚。",
-          "表示某種性質、狀態或方式達到很高程度；如此／這麼"
         ]
       ],
       "options": [],
@@ -255,16 +245,6 @@ export default {
         [
           "There were so many people on the train.",
           "火車上有這麼多人。",
-          "表示不可數／可數數量達到很高程度"
-        ],
-        [
-          "I like these headphones so much.",
-          "我非常喜歡這副耳機。",
-          "表示不可數／可數數量達到很高程度"
-        ],
-        [
-          "The noise bothered me so much.",
-          "噪音非常困擾我／令我很受不了。",
           "表示不可數／可數數量達到很高程度"
         ]
       ],
@@ -512,6 +492,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "so-pdf-001",
+      "title": "這麼好／效果這麼好",
+      "form": "Meaning 2 in your passage: so + adverb = very / to such a degree — 這麼；如此",
+      "en": "Meaning 2 in your passage: so + adverb = very / to such a degree — 這麼；如此",
+      "zh": "這麼好／效果這麼好",
+      "note": "原始 PDF 第 None 節：這麼好／效果這麼好",
+      "examples": [
+        [
+          "The advertisement worked so well.",
+          "這則廣告效果這麼好／非常有效。",
+          "這麼好／效果這麼好"
+        ],
+        [
+          "She explained the idea so clearly.",
+          "她把這個概念解釋得非常清楚。",
+          "這麼好／效果這麼好"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "so-pdf-002",
+      "title": "程度非常高；這麼／非常",
+      "form": "13. so much = to such a great degree — 如此地；這麼厲害",
+      "en": "13. so much = to such a great degree — 如此地；這麼厲害",
+      "zh": "程度非常高；這麼／非常",
+      "note": "原始 PDF 第 13 節：程度非常高；這麼／非常",
+      "examples": [
+        [
+          "I like these headphones so much.",
+          "我非常喜歡這副耳機。",
+          "程度非常高；這麼／非常"
+        ],
+        [
+          "The noise bothered me so much.",
+          "噪音非常困擾我／令我很受不了。",
+          "程度非常高；這麼／非常"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -667,63 +691,63 @@ export default {
     },
     {
       "id": "so-02-3",
-      "sense": "so-mcq-01",
+      "sense": "so-pdf-001",
       "en": "The advertisement worked so well.",
       "zh": "這則廣告效果這麼好／非常有效。",
       "masked": "The advertisement worked ____.",
       "options": [
-        "so-mcq-01",
+        "so-pdf-001",
         "so-mcq-02",
         "so-mcq-03",
         "so-mcq-04",
         "so-mcq-05",
         "so-mcq-06"
       ],
-      "explanation": "本句的「so well」指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
+      "explanation": "本句的「so well」指「這麼好／效果這麼好」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "so well"
       ],
       "optionReasons": {
-        "so-mcq-01": "本句指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
+        "so-pdf-001": "本句指「這麼好／效果這麼好」。",
         "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
         "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
         "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
         "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
         "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
       },
-      "correctOption": "so-mcq-01"
+      "correctOption": "so-pdf-001"
     },
     {
       "id": "so-02-4",
-      "sense": "so-mcq-01",
+      "sense": "so-pdf-001",
       "en": "She explained the idea so clearly.",
       "zh": "她把這個概念解釋得非常清楚。",
       "masked": "She explained the idea ____.",
       "options": [
-        "so-mcq-01",
+        "so-pdf-001",
         "so-mcq-02",
         "so-mcq-03",
         "so-mcq-04",
         "so-mcq-05",
         "so-mcq-06"
       ],
-      "explanation": "本句的「so clearly」指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
+      "explanation": "本句的「so clearly」指「這麼好／效果這麼好」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "so clearly"
       ],
       "optionReasons": {
-        "so-mcq-01": "本句指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
+        "so-pdf-001": "本句指「這麼好／效果這麼好」。",
         "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
         "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
         "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
         "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
         "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
       },
-      "correctOption": "so-mcq-01"
+      "correctOption": "so-pdf-001"
     },
     {
       "id": "so-02-5",
@@ -1387,63 +1411,63 @@ export default {
     },
     {
       "id": "so-02-27",
-      "sense": "so-mcq-11",
+      "sense": "so-pdf-002",
       "en": "I like these headphones so much.",
       "zh": "我非常喜歡這副耳機。",
       "masked": "I like these headphones ____.",
       "options": [
-        "so-mcq-11",
+        "so-pdf-002",
         "so-mcq-10",
         "so-mcq-12",
         "so-mcq-09",
         "so-mcq-13",
         "so-mcq-08"
       ],
-      "explanation": "本句的「so much」指「表示不可數／可數數量達到很高程度」。",
+      "explanation": "本句的「so much」指「程度非常高；這麼／非常」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "so much"
       ],
       "optionReasons": {
-        "so-mcq-11": "本句指「表示不可數／可數數量達到很高程度」。",
+        "so-pdf-002": "本句指「程度非常高；這麼／非常」。",
         "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
         "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
         "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
         "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
         "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。"
       },
-      "correctOption": "so-mcq-11"
+      "correctOption": "so-pdf-002"
     },
     {
       "id": "so-02-28",
-      "sense": "so-mcq-11",
+      "sense": "so-pdf-002",
       "en": "The noise bothered me so much.",
       "zh": "噪音非常困擾我／令我很受不了。",
       "masked": "The noise bothered me ____.",
       "options": [
-        "so-mcq-11",
+        "so-pdf-002",
         "so-mcq-10",
         "so-mcq-12",
         "so-mcq-09",
         "so-mcq-13",
         "so-mcq-08"
       ],
-      "explanation": "本句的「so much」指「表示不可數／可數數量達到很高程度」。",
+      "explanation": "本句的「so much」指「程度非常高；這麼／非常」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "so much"
       ],
       "optionReasons": {
-        "so-mcq-11": "本句指「表示不可數／可數數量達到很高程度」。",
+        "so-pdf-002": "本句指「程度非常高；這麼／非常」。",
         "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
         "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
         "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
         "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
         "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。"
       },
-      "correctOption": "so-mcq-11"
+      "correctOption": "so-pdf-002"
     },
     {
       "id": "so-02-29",

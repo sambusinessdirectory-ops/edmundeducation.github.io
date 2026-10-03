@@ -173,16 +173,6 @@ export default {
       "note": "來源詞義：定期地；有規律地；經常地",
       "examples": [
         [
-          "Exercise can help keep your sleep pattern regular.",
-          "運動有助保持睡眠規律正常。",
-          "定期地；有規律地；經常地"
-        ],
-        [
-          "Her heartbeat was slow but regular.",
-          "她的心跳雖慢，但很規律。",
-          "定期地；有規律地；經常地"
-        ],
-        [
           "She exercises regularly.",
           "她定期／經常做運動。",
           "定期地；有規律地；經常地"
@@ -235,6 +225,28 @@ export default {
           "Exercise with some regularity.",
           "要保持一定的規律性做運動。",
           "重複、整齊、穩定或有規律的特性"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "regular-pdf-001",
+      "title": "身體功能按穩定、正常節奏運作的",
+      "form": "7. regular = consistent bodily function（身體） — 規律的；正常的",
+      "en": "7. regular = consistent bodily function（身體） — 規律的；正常的",
+      "zh": "身體功能按穩定、正常節奏運作的",
+      "note": "原始 PDF 第 7 節：身體功能按穩定、正常節奏運作的",
+      "examples": [
+        [
+          "Exercise can help keep your sleep pattern regular.",
+          "運動有助保持睡眠規律正常。",
+          "身體功能按穩定、正常節奏運作的"
+        ],
+        [
+          "Her heartbeat was slow but regular.",
+          "她的心跳雖慢，但很規律。",
+          "身體功能按穩定、正常節奏運作的"
         ]
       ],
       "options": [],
@@ -634,63 +646,63 @@ export default {
     },
     {
       "id": "regular-07-0",
-      "sense": "regular-mcq-08",
+      "sense": "regular-pdf-001",
       "en": "Exercise can help keep your sleep pattern regular.",
       "zh": "運動有助保持睡眠規律正常。",
       "masked": "Exercise can help keep your sleep pattern ____.",
       "options": [
-        "regular-mcq-08",
+        "regular-pdf-001",
         "regular-mcq-07",
         "regular-mcq-09",
         "regular-mcq-06",
         "regular-mcq-10",
         "regular-mcq-05"
       ],
-      "explanation": "本句的「regular」指「定期地；有規律地；經常地」。",
+      "explanation": "本句的「regular」指「身體功能按穩定、正常節奏運作的」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-08": "本句指「定期地；有規律地；經常地」。",
+        "regular-pdf-001": "本句指「身體功能按穩定、正常節奏運作的」。",
         "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
         "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
         "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
         "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
         "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
       },
-      "correctOption": "regular-mcq-08"
+      "correctOption": "regular-pdf-001"
     },
     {
       "id": "regular-07-1",
-      "sense": "regular-mcq-08",
+      "sense": "regular-pdf-001",
       "en": "Her heartbeat was slow but regular.",
       "zh": "她的心跳雖慢，但很規律。",
       "masked": "Her heartbeat was slow but ____.",
       "options": [
-        "regular-mcq-08",
+        "regular-pdf-001",
         "regular-mcq-07",
         "regular-mcq-09",
         "regular-mcq-06",
         "regular-mcq-10",
         "regular-mcq-05"
       ],
-      "explanation": "本句的「regular」指「定期地；有規律地；經常地」。",
+      "explanation": "本句的「regular」指「身體功能按穩定、正常節奏運作的」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-08": "本句指「定期地；有規律地；經常地」。",
+        "regular-pdf-001": "本句指「身體功能按穩定、正常節奏運作的」。",
         "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
         "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
         "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
         "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
         "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
       },
-      "correctOption": "regular-mcq-08"
+      "correctOption": "regular-pdf-001"
     },
     {
       "id": "regular-08-0",

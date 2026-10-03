@@ -178,16 +178,6 @@ export default {
       "note": "來源詞義：與已有事實／證據吻合",
       "examples": [
         [
-          "The explanation fits the evidence.",
-          "這個解釋與證據吻合。",
-          "與已有事實／證據吻合"
-        ],
-        [
-          "The data fit the pattern.",
-          "數據與這個模式相符。",
-          "與已有事實／證據吻合"
-        ],
-        [
           "The theory must fit the facts.",
           "理論必須符合事實。",
           "與已有事實／證據吻合"
@@ -434,6 +424,28 @@ export default {
           "A trait may increase fitness in one environment but not another.",
           "某項特徵可能在一種環境中提高適合度，在另一環境中卻未必。",
           "個體在特定環境中留下後代的相對成功程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fit-pdf-001",
+      "title": "與某種模式、資料、情況相互一致",
+      "form": "26. fit = match or correspond well with facts/pattern — 吻合；相符",
+      "en": "26. fit = match or correspond well with facts/pattern — 吻合；相符",
+      "zh": "與某種模式、資料、情況相互一致",
+      "note": "原始 PDF 第 26 節：與某種模式、資料、情況相互一致",
+      "examples": [
+        [
+          "The explanation fits the evidence.",
+          "這個解釋與證據吻合。",
+          "與某種模式、資料、情況相互一致"
+        ],
+        [
+          "The data fit the pattern.",
+          "數據與這個模式相符。",
+          "與某種模式、資料、情況相互一致"
         ]
       ],
       "options": [],
@@ -923,63 +935,63 @@ export default {
     },
     {
       "id": "fit-26-0",
-      "sense": "fit-mcq-09",
+      "sense": "fit-pdf-001",
       "en": "The explanation fits the evidence.",
       "zh": "這個解釋與證據吻合。",
       "masked": "The explanation ____ the evidence.",
       "options": [
-        "fit-mcq-09",
+        "fit-pdf-001",
         "fit-mcq-08",
         "fit-mcq-10",
         "fit-mcq-07",
         "fit-mcq-11",
         "fit-mcq-06"
       ],
-      "explanation": "本句的「fits」指「與已有事實／證據吻合」。",
+      "explanation": "本句的「fits」指「與某種模式、資料、情況相互一致」。",
       "sentenceIndex": 49,
       "sourcePractice": 26,
       "targets": [
         "fits"
       ],
       "optionReasons": {
-        "fit-mcq-09": "本句指「與已有事實／證據吻合」。",
+        "fit-pdf-001": "本句指「與某種模式、資料、情況相互一致」。",
         "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
         "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
         "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
         "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
         "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
       },
-      "correctOption": "fit-mcq-09"
+      "correctOption": "fit-pdf-001"
     },
     {
       "id": "fit-26-1",
-      "sense": "fit-mcq-09",
+      "sense": "fit-pdf-001",
       "en": "The data fit the pattern.",
       "zh": "數據與這個模式相符。",
       "masked": "The data ____ the pattern.",
       "options": [
-        "fit-mcq-09",
+        "fit-pdf-001",
         "fit-mcq-08",
         "fit-mcq-10",
         "fit-mcq-07",
         "fit-mcq-11",
         "fit-mcq-06"
       ],
-      "explanation": "本句的「fit」指「與已有事實／證據吻合」。",
+      "explanation": "本句的「fit」指「與某種模式、資料、情況相互一致」。",
       "sentenceIndex": 50,
       "sourcePractice": 26,
       "targets": [
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-09": "本句指「與已有事實／證據吻合」。",
+        "fit-pdf-001": "本句指「與某種模式、資料、情況相互一致」。",
         "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
         "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
         "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
         "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
         "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
       },
-      "correctOption": "fit-mcq-09"
+      "correctOption": "fit-pdf-001"
     },
     {
       "id": "fit-27-0",

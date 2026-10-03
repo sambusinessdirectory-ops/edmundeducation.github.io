@@ -817,16 +817,6 @@ export default {
           "We finally had a break in the traffic.",
           "車流終於出現一個空隙。",
           "中斷；間隙"
-        ],
-        [
-          "There was a break in communication between the departments.",
-          "部門之間出現了溝通中斷。",
-          "中斷；間隙"
-        ],
-        [
-          "A technical problem caused a break in contact.",
-          "技術問題造成聯絡中斷。",
-          "中斷；間隙"
         ]
       ],
       "options": [],
@@ -884,16 +874,6 @@ export default {
       "zh": "重大機會",
       "note": "來源詞義：重大機會",
       "examples": [
-        [
-          "She finally got her big break in the film industry.",
-          "她終於在電影業獲得了重大機會。",
-          "重大機會"
-        ],
-        [
-          "He just needs one break to show what he can do.",
-          "他只需要一個機會來證明自己的能力。",
-          "重大機會"
-        ],
         [
           "The role became her big break.",
           "那個角色成為她的成名契機。",
@@ -969,6 +949,50 @@ export default {
           "The land was broken up into smaller plots.",
           "土地被分割成較小地塊。",
           "把一個整體分成若干較小部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "break-pdf-001",
+      "title": "某種連續的活動、聯絡或狀態出現中斷",
+      "form": "41. break in communication/contact — 溝通／聯絡中斷",
+      "en": "41. break in communication/contact — 溝通／聯絡中斷",
+      "zh": "某種連續的活動、聯絡或狀態出現中斷",
+      "note": "原始 PDF 第 41 節：某種連續的活動、聯絡或狀態出現中斷",
+      "examples": [
+        [
+          "There was a break in communication between the departments.",
+          "部門之間出現了溝通中斷。",
+          "某種連續的活動、聯絡或狀態出現中斷"
+        ],
+        [
+          "A technical problem caused a break in contact.",
+          "技術問題造成聯絡中斷。",
+          "某種連續的活動、聯絡或狀態出現中斷"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "break-pdf-002",
+      "title": "能帶來成功或改善處境的重要機會或好運",
+      "form": "44. get a break — 得到機會／好運",
+      "en": "44. get a break — 得到機會／好運",
+      "zh": "能帶來成功或改善處境的重要機會或好運",
+      "note": "原始 PDF 第 44 節：能帶來成功或改善處境的重要機會或好運",
+      "examples": [
+        [
+          "She finally got her big break in the film industry.",
+          "她終於在電影業獲得了重大機會。",
+          "能帶來成功或改善處境的重要機會或好運"
+        ],
+        [
+          "He just needs one break to show what he can do.",
+          "他只需要一個機會來證明自己的能力。",
+          "能帶來成功或改善處境的重要機會或好運"
         ]
       ],
       "options": [],
@@ -3408,63 +3432,63 @@ export default {
     },
     {
       "id": "break-41-0",
-      "sense": "break-mcq-36",
+      "sense": "break-pdf-001",
       "en": "There was a break in communication between the departments.",
       "zh": "部門之間出現了溝通中斷。",
       "masked": "There was a ____ between the departments.",
       "options": [
-        "break-mcq-36",
+        "break-pdf-001",
         "break-mcq-35",
         "break-mcq-37",
         "break-mcq-34",
         "break-mcq-38",
         "break-mcq-33"
       ],
-      "explanation": "本句的「break in communication」指「中斷；間隙」。",
+      "explanation": "本句的「break in communication」指「某種連續的活動、聯絡或狀態出現中斷」。",
       "sentenceIndex": 81,
       "sourcePractice": 1,
       "targets": [
         "break in communication"
       ],
       "optionReasons": {
-        "break-mcq-36": "本句指「中斷；間隙」。",
+        "break-pdf-001": "本句指「某種連續的活動、聯絡或狀態出現中斷」。",
         "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
         "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
         "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
         "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
         "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。"
       },
-      "correctOption": "break-mcq-36"
+      "correctOption": "break-pdf-001"
     },
     {
       "id": "break-41-1",
-      "sense": "break-mcq-36",
+      "sense": "break-pdf-001",
       "en": "A technical problem caused a break in contact.",
       "zh": "技術問題造成聯絡中斷。",
       "masked": "A technical problem caused a ____.",
       "options": [
-        "break-mcq-36",
+        "break-pdf-001",
         "break-mcq-35",
         "break-mcq-37",
         "break-mcq-34",
         "break-mcq-38",
         "break-mcq-33"
       ],
-      "explanation": "本句的「break in contact」指「中斷；間隙」。",
+      "explanation": "本句的「break in contact」指「某種連續的活動、聯絡或狀態出現中斷」。",
       "sentenceIndex": 82,
       "sourcePractice": 2,
       "targets": [
         "break in contact"
       ],
       "optionReasons": {
-        "break-mcq-36": "本句指「中斷；間隙」。",
+        "break-pdf-001": "本句指「某種連續的活動、聯絡或狀態出現中斷」。",
         "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
         "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
         "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
         "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
         "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。"
       },
-      "correctOption": "break-mcq-36"
+      "correctOption": "break-pdf-001"
     },
     {
       "id": "break-42-0",
@@ -3588,63 +3612,63 @@ export default {
     },
     {
       "id": "break-44-0",
-      "sense": "break-mcq-39",
+      "sense": "break-pdf-002",
       "en": "She finally got her big break in the film industry.",
       "zh": "她終於在電影業獲得了重大機會。",
       "masked": "She finally ____ in the film industry.",
       "options": [
-        "break-mcq-39",
+        "break-pdf-002",
         "break-mcq-38",
         "break-mcq-40",
         "break-mcq-37",
         "break-mcq-41",
         "break-mcq-36"
       ],
-      "explanation": "本句的「got her big break」指「重大機會」。",
+      "explanation": "本句的「got her big break」指「能帶來成功或改善處境的重要機會或好運」。",
       "sentenceIndex": 87,
       "sourcePractice": 1,
       "targets": [
         "got her big break"
       ],
       "optionReasons": {
-        "break-mcq-39": "本句指「重大機會」。",
+        "break-pdf-002": "本句指「能帶來成功或改善處境的重要機會或好運」。",
         "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
         "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
         "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
         "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
         "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。"
       },
-      "correctOption": "break-mcq-39"
+      "correctOption": "break-pdf-002"
     },
     {
       "id": "break-44-1",
-      "sense": "break-mcq-39",
+      "sense": "break-pdf-002",
       "en": "He just needs one break to show what he can do.",
       "zh": "他只需要一個機會來證明自己的能力。",
       "masked": "He just needs one ____ to show what he can do.",
       "options": [
-        "break-mcq-39",
+        "break-pdf-002",
         "break-mcq-38",
         "break-mcq-40",
         "break-mcq-37",
         "break-mcq-41",
         "break-mcq-36"
       ],
-      "explanation": "本句的「break」指「重大機會」。",
+      "explanation": "本句的「break」指「能帶來成功或改善處境的重要機會或好運」。",
       "sentenceIndex": 88,
       "sourcePractice": 2,
       "targets": [
         "break"
       ],
       "optionReasons": {
-        "break-mcq-39": "本句指「重大機會」。",
+        "break-pdf-002": "本句指「能帶來成功或改善處境的重要機會或好運」。",
         "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
         "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
         "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
         "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
         "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。"
       },
-      "correctOption": "break-mcq-39"
+      "correctOption": "break-pdf-002"
     },
     {
       "id": "break-45-0",

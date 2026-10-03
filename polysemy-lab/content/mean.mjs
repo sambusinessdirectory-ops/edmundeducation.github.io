@@ -247,16 +247,6 @@ export default {
           "This photograph means a great deal to her.",
           "這張照片對她意義重大。",
           "對 X 很重要"
-        ],
-        [
-          "Money means nothing to him compared with family.",
-          "和家庭相比，金錢對他來說並不重要。",
-          "對 X 很重要"
-        ],
-        [
-          "That title means nothing to me.",
-          "那個頭銜對我沒有甚麼意義。",
-          "對 X 很重要"
         ]
       ],
       "options": [],
@@ -906,6 +896,28 @@ export default {
           "Education should be available to people regardless of their means.",
           "教育不應因個人經濟能力而有所限制。",
           "一個人可運用的金錢、財產或其他資源"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mean-pdf-001",
+      "title": "對某人沒有重要性、價值或感情意義",
+      "form": "16. mean nothing to someone — 對某人毫無意義／不重要",
+      "en": "16. mean nothing to someone — 對某人毫無意義／不重要",
+      "zh": "對某人沒有重要性、價值或感情意義",
+      "note": "原始 PDF 第 16 節：對某人沒有重要性、價值或感情意義",
+      "examples": [
+        [
+          "Money means nothing to him compared with family.",
+          "和家庭相比，金錢對他來說並不重要。",
+          "對某人沒有重要性、價值或感情意義"
+        ],
+        [
+          "That title means nothing to me.",
+          "那個頭銜對我沒有甚麼意義。",
+          "對某人沒有重要性、價值或感情意義"
         ]
       ],
       "options": [],
@@ -1845,63 +1857,63 @@ export default {
     },
     {
       "id": "mean-16-0",
-      "sense": "mean-mcq-12",
+      "sense": "mean-pdf-001",
       "en": "Money means nothing to him compared with family.",
       "zh": "和家庭相比，金錢對他來說並不重要。",
       "masked": "Money ____ compared with family.",
       "options": [
-        "mean-mcq-12",
+        "mean-pdf-001",
         "mean-mcq-11",
         "mean-mcq-13",
         "mean-mcq-10",
         "mean-mcq-14",
         "mean-mcq-09"
       ],
-      "explanation": "本句的「means nothing to him」指「對 X 很重要」。",
+      "explanation": "本句的「means nothing to him」指「對某人沒有重要性、價值或感情意義」。",
       "sentenceIndex": 31,
       "sourcePractice": 1,
       "targets": [
         "means nothing to him"
       ],
       "optionReasons": {
-        "mean-mcq-12": "本句指「對 X 很重要」。",
+        "mean-pdf-001": "本句指「對某人沒有重要性、價值或感情意義」。",
         "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
         "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
         "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
         "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
         "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。"
       },
-      "correctOption": "mean-mcq-12"
+      "correctOption": "mean-pdf-001"
     },
     {
       "id": "mean-16-1",
-      "sense": "mean-mcq-12",
+      "sense": "mean-pdf-001",
       "en": "That title means nothing to me.",
       "zh": "那個頭銜對我沒有甚麼意義。",
       "masked": "That title ____.",
       "options": [
-        "mean-mcq-12",
+        "mean-pdf-001",
         "mean-mcq-11",
         "mean-mcq-13",
         "mean-mcq-10",
         "mean-mcq-14",
         "mean-mcq-09"
       ],
-      "explanation": "本句的「means nothing to me」指「對 X 很重要」。",
+      "explanation": "本句的「means nothing to me」指「對某人沒有重要性、價值或感情意義」。",
       "sentenceIndex": 32,
       "sourcePractice": 2,
       "targets": [
         "means nothing to me"
       ],
       "optionReasons": {
-        "mean-mcq-12": "本句指「對 X 很重要」。",
+        "mean-pdf-001": "本句指「對某人沒有重要性、價值或感情意義」。",
         "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
         "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
         "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
         "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
         "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。"
       },
-      "correctOption": "mean-mcq-12"
+      "correctOption": "mean-pdf-001"
     },
     {
       "id": "mean-17-0",

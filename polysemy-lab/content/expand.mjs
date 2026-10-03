@@ -106,18 +106,7 @@ export default {
       "en": "expand into X",
       "zh": "把活動／業務拓展到新的市場或領域",
       "note": "來源詞義：把活動／業務拓展到新的市場或領域",
-      "examples": [
-        [
-          "The company is expanding into new markets.",
-          "公司正在拓展至新市場。",
-          "把活動／業務拓展到新的市場或領域"
-        ],
-        [
-          "The restaurant chain expanded into delivery services.",
-          "餐飲連鎖店把業務拓展至外送服務。",
-          "把活動／業務拓展到新的市場或領域"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -858,6 +847,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "expand-pdf-001",
+      "title": "由原有範圍進一步進入新的領域",
+      "form": "16. expand into + market/activity/area = begin operating there（拓展至）",
+      "en": "16. expand into + market/activity/area = begin operating there（拓展至）",
+      "zh": "由原有範圍進一步進入新的領域",
+      "note": "原始 PDF 第 16 節：由原有範圍進一步進入新的領域",
+      "examples": [
+        [
+          "The company is expanding into new markets.",
+          "公司正在拓展至新市場。",
+          "由原有範圍進一步進入新的領域"
+        ],
+        [
+          "The restaurant chain expanded into delivery services.",
+          "餐飲連鎖店把業務拓展至外送服務。",
+          "由原有範圍進一步進入新的領域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1073,63 +1084,63 @@ export default {
     },
     {
       "id": "expand-16-0",
-      "sense": "expand-mcq-06",
+      "sense": "expand-pdf-001",
       "en": "The company is expanding into new markets.",
       "zh": "公司正在拓展至新市場。",
       "masked": "The company is ____ new markets.",
       "options": [
-        "expand-mcq-06",
+        "expand-pdf-001",
         "expand-mcq-05",
         "expand-mcq-07",
         "expand-mcq-04",
         "expand-mcq-08",
         "expand-mcq-03"
       ],
-      "explanation": "本句的「expanding into」指「把活動／業務拓展到新的市場或領域」。",
+      "explanation": "本句的「expanding into」指「由原有範圍進一步進入新的領域」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "expanding into"
       ],
       "optionReasons": {
-        "expand-mcq-06": "本句指「把活動／業務拓展到新的市場或領域」。",
+        "expand-pdf-001": "本句指「由原有範圍進一步進入新的領域」。",
         "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
         "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
         "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
         "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
         "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。"
       },
-      "correctOption": "expand-mcq-06"
+      "correctOption": "expand-pdf-001"
     },
     {
       "id": "expand-16-1",
-      "sense": "expand-mcq-06",
+      "sense": "expand-pdf-001",
       "en": "The restaurant chain expanded into delivery services.",
       "zh": "餐飲連鎖店把業務拓展至外送服務。",
       "masked": "The restaurant chain ____ into delivery services.",
       "options": [
-        "expand-mcq-06",
+        "expand-pdf-001",
         "expand-mcq-05",
         "expand-mcq-07",
         "expand-mcq-04",
         "expand-mcq-08",
         "expand-mcq-03"
       ],
-      "explanation": "本句的「expanded」指「把活動／業務拓展到新的市場或領域」。",
+      "explanation": "本句的「expanded」指「由原有範圍進一步進入新的領域」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-06": "本句指「把活動／業務拓展到新的市場或領域」。",
+        "expand-pdf-001": "本句指「由原有範圍進一步進入新的領域」。",
         "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
         "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
         "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
         "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
         "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。"
       },
-      "correctOption": "expand-mcq-06"
+      "correctOption": "expand-pdf-001"
     },
     {
       "id": "expand-21-0",

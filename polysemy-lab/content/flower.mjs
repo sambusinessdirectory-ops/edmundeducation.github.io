@@ -220,11 +220,6 @@ export default {
           "The room had a fresh floral scent.",
           "房間裡有清新的花香。",
           "與花朵、花香或花卉圖案有關的"
-        ],
-        [
-          "The tea has a light floral aroma.",
-          "這種茶帶有淡淡的花香。",
-          "與花朵、花香或花卉圖案有關的"
         ]
       ],
       "options": [],
@@ -330,6 +325,23 @@ export default {
           "She learned how to make flower arrangements.",
           "她學會了怎樣製作插花作品。",
           "把花朵和植物材料按美感排列而成的插花／花藝作品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "flower-pdf-001",
+      "title": "香氣或味道帶有類似花朵的特徵",
+      "form": "11. floral = having a flower-like scent/flavour（香氣／味道） — 帶花香的",
+      "en": "11. floral = having a flower-like scent/flavour（香氣／味道） — 帶花香的",
+      "zh": "香氣或味道帶有類似花朵的特徵",
+      "note": "原始 PDF 第 11 節：香氣或味道帶有類似花朵的特徵",
+      "examples": [
+        [
+          "The tea has a light floral aroma.",
+          "這種茶帶有淡淡的花香。",
+          "香氣或味道帶有類似花朵的特徵"
         ]
       ],
       "options": [],
@@ -939,33 +951,33 @@ export default {
     },
     {
       "id": "flower-11-0",
-      "sense": "flower-mcq-10",
+      "sense": "flower-pdf-001",
       "en": "The tea has a light floral aroma.",
       "zh": "這種茶帶有淡淡的花香。",
       "masked": "The tea has a light ____.",
       "options": [
-        "flower-mcq-10",
+        "flower-pdf-001",
         "flower-mcq-09",
         "flower-mcq-11",
         "flower-mcq-08",
         "flower-mcq-12",
         "flower-mcq-07"
       ],
-      "explanation": "本句的「floral aroma」指「與花朵、花香或花卉圖案有關的」。",
+      "explanation": "本句的「floral aroma」指「香氣或味道帶有類似花朵的特徵」。",
       "sentenceIndex": 20,
       "sourcePractice": 22,
       "targets": [
         "floral aroma"
       ],
       "optionReasons": {
-        "flower-mcq-10": "本句指「與花朵、花香或花卉圖案有關的」。",
+        "flower-pdf-001": "本句指「香氣或味道帶有類似花朵的特徵」。",
         "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
         "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
         "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
         "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
         "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。"
       },
-      "correctOption": "flower-mcq-10"
+      "correctOption": "flower-pdf-001"
     },
     {
       "id": "flower-12-0",

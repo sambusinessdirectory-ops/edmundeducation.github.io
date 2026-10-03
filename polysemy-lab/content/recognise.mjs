@@ -49,16 +49,6 @@ export default {
           "He immediately recognised his mother's voice.",
           "他立即認出了母親的聲音。",
           "認出樣貌／聲音"
-        ],
-        [
-          "I hardly recognised the neighbourhood after ten years.",
-          "十年後，我幾乎認不出這個社區。",
-          "認出樣貌／聲音"
-        ],
-        [
-          "She recognised the street from a photograph.",
-          "她從照片中認出了那條街。",
-          "認出樣貌／聲音"
         ]
       ],
       "options": [],
@@ -249,16 +239,6 @@ export default {
       "note": "來源詞義：因 X 表揚某人",
       "examples": [
         [
-          "The award recognises outstanding achievement.",
-          "這個獎項旨在表揚傑出成就。",
-          "因 X 表揚某人"
-        ],
-        [
-          "Good leaders recognise effort, not just results.",
-          "好的領導者會肯定努力，而不只是成果。",
-          "因 X 表揚某人"
-        ],
-        [
           "She was recognised for her leadership.",
           "她因其領導能力而獲得表揚。",
           "因 X 表揚某人"
@@ -376,16 +356,6 @@ export default {
         [
           "The organisation is seeking official recognition.",
           "該組織正在尋求正式認可。",
-          "正式認可"
-        ],
-        [
-          "The qualification is officially recognised.",
-          "這項資格獲正式認可。",
-          "正式認可"
-        ],
-        [
-          "The university is recognised by the relevant authority.",
-          "這間大學獲相關機構正式認可。",
           "正式認可"
         ]
       ],
@@ -555,6 +525,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "recognise-pdf-001",
+      "title": "因以前見過或到過而辨認出某個地方",
+      "form": "3. recognise a place — 認出地方",
+      "en": "3. recognise a place — 認出地方",
+      "zh": "因以前見過或到過而辨認出某個地方",
+      "note": "原始 PDF 第 3 節：因以前見過或到過而辨認出某個地方",
+      "examples": [
+        [
+          "I hardly recognised the neighbourhood after ten years.",
+          "十年後，我幾乎認不出這個社區。",
+          "因以前見過或到過而辨認出某個地方"
+        ],
+        [
+          "She recognised the street from a photograph.",
+          "她從照片中認出了那條街。",
+          "因以前見過或到過而辨認出某個地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "recognise-pdf-002",
+      "title": "對某人的成就或付出給予肯定或表揚",
+      "form": "12. recognise achievement / effort — 表揚／肯定成就或努力",
+      "en": "12. recognise achievement / effort — 表揚／肯定成就或努力",
+      "zh": "對某人的成就或付出給予肯定或表揚",
+      "note": "原始 PDF 第 12 節：對某人的成就或付出給予肯定或表揚",
+      "examples": [
+        [
+          "The award recognises outstanding achievement.",
+          "這個獎項旨在表揚傑出成就。",
+          "對某人的成就或付出給予肯定或表揚"
+        ],
+        [
+          "Good leaders recognise effort, not just results.",
+          "好的領導者會肯定努力，而不只是成果。",
+          "對某人的成就或付出給予肯定或表揚"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "recognise-pdf-003",
+      "title": "由有權力的機構正式接受 X 為有效或合法",
+      "form": "19. officially recognise a qualification / institution — 正式認可資格／機構",
+      "en": "19. officially recognise a qualification / institution — 正式認可資格／機構",
+      "zh": "由有權力的機構正式接受 X 為有效或合法",
+      "note": "原始 PDF 第 19 節：由有權力的機構正式接受 X 為有效或合法",
+      "examples": [
+        [
+          "The qualification is officially recognised.",
+          "這項資格獲正式認可。",
+          "由有權力的機構正式接受 X 為有效或合法"
+        ],
+        [
+          "The university is recognised by the relevant authority.",
+          "這間大學獲相關機構正式認可。",
+          "由有權力的機構正式接受 X 為有效或合法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -710,63 +746,63 @@ export default {
     },
     {
       "id": "recognise-03-0",
-      "sense": "recognise-mcq-02",
+      "sense": "recognise-pdf-001",
       "en": "I hardly recognised the neighbourhood after ten years.",
       "zh": "十年後，我幾乎認不出這個社區。",
       "masked": "I hardly ____ after ten years.",
       "options": [
-        "recognise-mcq-02",
+        "recognise-pdf-001",
         "recognise-mcq-01",
         "recognise-mcq-03",
         "recognise-mcq-04",
         "recognise-mcq-05",
         "recognise-mcq-06"
       ],
-      "explanation": "本句的「recognised the neighbourhood」指「認出樣貌／聲音」。",
+      "explanation": "本句的「recognised the neighbourhood」指「因以前見過或到過而辨認出某個地方」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "recognised the neighbourhood"
       ],
       "optionReasons": {
-        "recognise-mcq-02": "本句指「認出樣貌／聲音」。",
+        "recognise-pdf-001": "本句指「因以前見過或到過而辨認出某個地方」。",
         "recognise-mcq-01": "「認出某人」與本句語境不同。",
         "recognise-mcq-03": "「識別模式」與本句語境不同。",
         "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
         "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
         "recognise-mcq-06": "「承認價值」與本句語境不同。"
       },
-      "correctOption": "recognise-mcq-02"
+      "correctOption": "recognise-pdf-001"
     },
     {
       "id": "recognise-03-1",
-      "sense": "recognise-mcq-02",
+      "sense": "recognise-pdf-001",
       "en": "She recognised the street from a photograph.",
       "zh": "她從照片中認出了那條街。",
       "masked": "She ____ from a photograph.",
       "options": [
-        "recognise-mcq-02",
+        "recognise-pdf-001",
         "recognise-mcq-01",
         "recognise-mcq-03",
         "recognise-mcq-04",
         "recognise-mcq-05",
         "recognise-mcq-06"
       ],
-      "explanation": "本句的「recognised the street」指「認出樣貌／聲音」。",
+      "explanation": "本句的「recognised the street」指「因以前見過或到過而辨認出某個地方」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "recognised the street"
       ],
       "optionReasons": {
-        "recognise-mcq-02": "本句指「認出樣貌／聲音」。",
+        "recognise-pdf-001": "本句指「因以前見過或到過而辨認出某個地方」。",
         "recognise-mcq-01": "「認出某人」與本句語境不同。",
         "recognise-mcq-03": "「識別模式」與本句語境不同。",
         "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
         "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
         "recognise-mcq-06": "「承認價值」與本句語境不同。"
       },
-      "correctOption": "recognise-mcq-02"
+      "correctOption": "recognise-pdf-001"
     },
     {
       "id": "recognise-04-0",
@@ -1250,63 +1286,63 @@ export default {
     },
     {
       "id": "recognise-12-0",
-      "sense": "recognise-mcq-11",
+      "sense": "recognise-pdf-002",
       "en": "The award recognises outstanding achievement.",
       "zh": "這個獎項旨在表揚傑出成就。",
       "masked": "The award ____.",
       "options": [
-        "recognise-mcq-11",
+        "recognise-pdf-002",
         "recognise-mcq-10",
         "recognise-mcq-12",
         "recognise-mcq-09",
         "recognise-mcq-13",
         "recognise-mcq-08"
       ],
-      "explanation": "本句的「recognises outstanding achievement」指「因 X 表揚某人」。",
+      "explanation": "本句的「recognises outstanding achievement」指「對某人的成就或付出給予肯定或表揚」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "recognises outstanding achievement"
       ],
       "optionReasons": {
-        "recognise-mcq-11": "本句指「因 X 表揚某人」。",
+        "recognise-pdf-002": "本句指「對某人的成就或付出給予肯定或表揚」。",
         "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
         "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
         "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
         "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
         "recognise-mcq-08": "「廣泛公認」與本句語境不同。"
       },
-      "correctOption": "recognise-mcq-11"
+      "correctOption": "recognise-pdf-002"
     },
     {
       "id": "recognise-12-1",
-      "sense": "recognise-mcq-11",
+      "sense": "recognise-pdf-002",
       "en": "Good leaders recognise effort, not just results.",
       "zh": "好的領導者會肯定努力，而不只是成果。",
       "masked": "Good leaders ____, not just results.",
       "options": [
-        "recognise-mcq-11",
+        "recognise-pdf-002",
         "recognise-mcq-10",
         "recognise-mcq-12",
         "recognise-mcq-09",
         "recognise-mcq-13",
         "recognise-mcq-08"
       ],
-      "explanation": "本句的「recognise effort」指「因 X 表揚某人」。",
+      "explanation": "本句的「recognise effort」指「對某人的成就或付出給予肯定或表揚」。",
       "sentenceIndex": 24,
       "sourcePractice": 2,
       "targets": [
         "recognise effort"
       ],
       "optionReasons": {
-        "recognise-mcq-11": "本句指「因 X 表揚某人」。",
+        "recognise-pdf-002": "本句指「對某人的成就或付出給予肯定或表揚」。",
         "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
         "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
         "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
         "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
         "recognise-mcq-08": "「廣泛公認」與本句語境不同。"
       },
-      "correctOption": "recognise-mcq-11"
+      "correctOption": "recognise-pdf-002"
     },
     {
       "id": "recognise-13-0",
@@ -1670,63 +1706,63 @@ export default {
     },
     {
       "id": "recognise-19-0",
-      "sense": "recognise-mcq-16",
+      "sense": "recognise-pdf-003",
       "en": "The qualification is officially recognised.",
       "zh": "這項資格獲正式認可。",
       "masked": "The qualification is ____.",
       "options": [
-        "recognise-mcq-16",
+        "recognise-pdf-003",
         "recognise-mcq-15",
         "recognise-mcq-17",
         "recognise-mcq-14",
         "recognise-mcq-18",
         "recognise-mcq-13"
       ],
-      "explanation": "本句的「officially recognised」指「正式認可」。",
+      "explanation": "本句的「officially recognised」指「由有權力的機構正式接受 X 為有效或合法」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "officially recognised"
       ],
       "optionReasons": {
-        "recognise-mcq-16": "本句指「正式認可」。",
+        "recognise-pdf-003": "本句指「由有權力的機構正式接受 X 為有效或合法」。",
         "recognise-mcq-15": "「為表揚……」與本句語境不同。",
         "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
         "recognise-mcq-14": "「獲得認可」與本句語境不同。",
         "recognise-mcq-18": "「可辨認的」與本句語境不同。",
         "recognise-mcq-13": "「認可；肯定」與本句語境不同。"
       },
-      "correctOption": "recognise-mcq-16"
+      "correctOption": "recognise-pdf-003"
     },
     {
       "id": "recognise-19-1",
-      "sense": "recognise-mcq-16",
+      "sense": "recognise-pdf-003",
       "en": "The university is recognised by the relevant authority.",
       "zh": "這間大學獲相關機構正式認可。",
       "masked": "The university is ____.",
       "options": [
-        "recognise-mcq-16",
+        "recognise-pdf-003",
         "recognise-mcq-15",
         "recognise-mcq-17",
         "recognise-mcq-14",
         "recognise-mcq-18",
         "recognise-mcq-13"
       ],
-      "explanation": "本句的「recognised by the relevant authority」指「正式認可」。",
+      "explanation": "本句的「recognised by the relevant authority」指「由有權力的機構正式接受 X 為有效或合法」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "recognised by the relevant authority"
       ],
       "optionReasons": {
-        "recognise-mcq-16": "本句指「正式認可」。",
+        "recognise-pdf-003": "本句指「由有權力的機構正式接受 X 為有效或合法」。",
         "recognise-mcq-15": "「為表揚……」與本句語境不同。",
         "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
         "recognise-mcq-14": "「獲得認可」與本句語境不同。",
         "recognise-mcq-18": "「可辨認的」與本句語境不同。",
         "recognise-mcq-13": "「認可；肯定」與本句語境不同。"
       },
-      "correctOption": "recognise-mcq-16"
+      "correctOption": "recognise-pdf-003"
     },
     {
       "id": "recognise-20-0",

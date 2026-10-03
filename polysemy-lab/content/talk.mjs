@@ -138,18 +138,7 @@ export default {
       "en": "learn to talk",
       "zh": "學會說話",
       "note": "來源詞義：學會說話",
-      "examples": [
-        [
-          "The baby is beginning to talk.",
-          "那個嬰兒開始會說話了。",
-          "學會說話"
-        ],
-        [
-          "He was so nervous that he could hardly talk.",
-          "他緊張得幾乎說不出話來。",
-          "學會說話"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -171,18 +160,7 @@ export default {
       "en": "all talk, no action",
       "zh": "只會說、不行動",
       "note": "來源詞義：只會說、不行動",
-      "examples": [
-        [
-          "He is always talking, but he never actually does anything.",
-          "他總是說個不停，但實際上甚麼也不做。",
-          "只會說、不行動"
-        ],
-        [
-          "We need action, not just talk.",
-          "我們需要的是行動，而不只是空談。",
-          "只會說、不行動"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -380,18 +358,7 @@ export default {
       "en": "the governments are talking",
       "zh": "政府正在談判",
       "note": "來源詞義：政府正在談判",
-      "examples": [
-        [
-          "The two governments have agreed to talk.",
-          "兩國政府已同意進行談判。",
-          "政府正在談判"
-        ],
-        [
-          "Management and the union are finally talking again.",
-          "管理層和工會終於再次展開談判。",
-          "政府正在談判"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -856,6 +823,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "talk-pdf-001",
+      "title": "用口語說話；發出有意義的語言",
+      "form": "7. talk = speak rather than remain silent — 說話；開口",
+      "en": "7. talk = speak rather than remain silent — 說話；開口",
+      "zh": "用口語說話；發出有意義的語言",
+      "note": "原始 PDF 第 7 節：用口語說話；發出有意義的語言",
+      "examples": [
+        [
+          "The baby is beginning to talk.",
+          "那個嬰兒開始會說話了。",
+          "用口語說話；發出有意義的語言"
+        ],
+        [
+          "He was so nervous that he could hardly talk.",
+          "他緊張得幾乎說不出話來。",
+          "用口語說話；發出有意義的語言"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "talk-pdf-002",
+      "title": "言談、說法；有時帶有「只有說、沒有行動」的意思",
+      "form": "10. talk = say things, especially too much or without action — 說個不停；只是嘴上說",
+      "en": "10. talk = say things, especially too much or without action — 說個不停；只是嘴上說",
+      "zh": "言談、說法；有時帶有「只有說、沒有行動」的意思",
+      "note": "原始 PDF 第 10 節：言談、說法；有時帶有「只有說、沒有行動」的意思",
+      "examples": [
+        [
+          "He is always talking, but he never actually does anything.",
+          "他總是說個不停，但實際上甚麼也不做。",
+          "言談、說法；有時帶有「只有說、沒有行動」的意思"
+        ],
+        [
+          "We need action, not just talk.",
+          "我們需要的是行動，而不只是空談。",
+          "言談、說法；有時帶有「只有說、沒有行動」的意思"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "talk-pdf-003",
+      "title": "為解決分歧或達成協議而進行談判",
+      "form": "20. talk = communicate or negotiate — 進行談判",
+      "en": "20. talk = communicate or negotiate — 進行談判",
+      "zh": "為解決分歧或達成協議而進行談判",
+      "note": "原始 PDF 第 20 節：為解決分歧或達成協議而進行談判",
+      "examples": [
+        [
+          "The two governments have agreed to talk.",
+          "兩國政府已同意進行談判。",
+          "為解決分歧或達成協議而進行談判"
+        ],
+        [
+          "Management and the union are finally talking again.",
+          "管理層和工會終於再次展開談判。",
+          "為解決分歧或達成協議而進行談判"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1251,63 +1284,63 @@ export default {
     },
     {
       "id": "talk-07-0",
-      "sense": "talk-mcq-07",
+      "sense": "talk-pdf-001",
       "en": "The baby is beginning to talk.",
       "zh": "那個嬰兒開始會說話了。",
       "masked": "The baby is beginning to ____.",
       "options": [
-        "talk-mcq-07",
+        "talk-pdf-001",
         "talk-mcq-06",
         "talk-mcq-08",
         "talk-mcq-05",
         "talk-mcq-09",
         "talk-mcq-04"
       ],
-      "explanation": "本句的「talk」指「學會說話」。",
+      "explanation": "本句的「talk」指「用口語說話；發出有意義的語言」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-07": "本句指「學會說話」。",
+        "talk-pdf-001": "本句指「用口語說話；發出有意義的語言」。",
         "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。",
         "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
         "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
         "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
         "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。"
       },
-      "correctOption": "talk-mcq-07"
+      "correctOption": "talk-pdf-001"
     },
     {
       "id": "talk-07-1",
-      "sense": "talk-mcq-07",
+      "sense": "talk-pdf-001",
       "en": "He was so nervous that he could hardly talk.",
       "zh": "他緊張得幾乎說不出話來。",
       "masked": "He was so nervous that he could hardly ____.",
       "options": [
-        "talk-mcq-07",
+        "talk-pdf-001",
         "talk-mcq-06",
         "talk-mcq-08",
         "talk-mcq-05",
         "talk-mcq-09",
         "talk-mcq-04"
       ],
-      "explanation": "本句的「talk」指「學會說話」。",
+      "explanation": "本句的「talk」指「用口語說話；發出有意義的語言」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-07": "本句指「學會說話」。",
+        "talk-pdf-001": "本句指「用口語說話；發出有意義的語言」。",
         "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。",
         "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
         "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
         "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
         "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。"
       },
-      "correctOption": "talk-mcq-07"
+      "correctOption": "talk-pdf-001"
     },
     {
       "id": "talk-08-0",
@@ -1431,63 +1464,63 @@ export default {
     },
     {
       "id": "talk-10-0",
-      "sense": "talk-mcq-09",
+      "sense": "talk-pdf-002",
       "en": "He is always talking, but he never actually does anything.",
       "zh": "他總是說個不停，但實際上甚麼也不做。",
       "masked": "He is always ____, but he never actually does anything.",
       "options": [
-        "talk-mcq-09",
+        "talk-pdf-002",
         "talk-mcq-08",
         "talk-mcq-10",
         "talk-mcq-07",
         "talk-mcq-11",
         "talk-mcq-06"
       ],
-      "explanation": "本句的「talking」指「只會說、不行動」。",
+      "explanation": "本句的「talking」指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "talking"
       ],
       "optionReasons": {
-        "talk-mcq-09": "本句指「只會說、不行動」。",
+        "talk-pdf-002": "本句指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
         "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
         "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
         "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。",
         "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
         "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
       },
-      "correctOption": "talk-mcq-09"
+      "correctOption": "talk-pdf-002"
     },
     {
       "id": "talk-10-1",
-      "sense": "talk-mcq-09",
+      "sense": "talk-pdf-002",
       "en": "We need action, not just talk.",
       "zh": "我們需要的是行動，而不只是空談。",
       "masked": "We need action, not just ____.",
       "options": [
-        "talk-mcq-09",
+        "talk-pdf-002",
         "talk-mcq-08",
         "talk-mcq-10",
         "talk-mcq-07",
         "talk-mcq-11",
         "talk-mcq-06"
       ],
-      "explanation": "本句的「talk」指「只會說、不行動」。",
+      "explanation": "本句的「talk」指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-09": "本句指「只會說、不行動」。",
+        "talk-pdf-002": "本句指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
         "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
         "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
         "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。",
         "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
         "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
       },
-      "correctOption": "talk-mcq-09"
+      "correctOption": "talk-pdf-002"
     },
     {
       "id": "talk-11-0",
@@ -2031,63 +2064,63 @@ export default {
     },
     {
       "id": "talk-20-0",
-      "sense": "talk-mcq-19",
+      "sense": "talk-pdf-003",
       "en": "The two governments have agreed to talk.",
       "zh": "兩國政府已同意進行談判。",
       "masked": "The two governments have agreed to ____.",
       "options": [
-        "talk-mcq-19",
+        "talk-pdf-003",
         "talk-mcq-18",
         "talk-mcq-20",
         "talk-mcq-17",
         "talk-mcq-21",
         "talk-mcq-16"
       ],
-      "explanation": "本句的「talk」指「政府正在談判」。",
+      "explanation": "本句的「talk」指「為解決分歧或達成協議而進行談判」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-19": "本句指「政府正在談判」。",
+        "talk-pdf-003": "本句指「為解決分歧或達成協議而進行談判」。",
         "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。",
         "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
         "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
         "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
         "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。"
       },
-      "correctOption": "talk-mcq-19"
+      "correctOption": "talk-pdf-003"
     },
     {
       "id": "talk-20-1",
-      "sense": "talk-mcq-19",
+      "sense": "talk-pdf-003",
       "en": "Management and the union are finally talking again.",
       "zh": "管理層和工會終於再次展開談判。",
       "masked": "Management and the union are finally ____.",
       "options": [
-        "talk-mcq-19",
+        "talk-pdf-003",
         "talk-mcq-18",
         "talk-mcq-20",
         "talk-mcq-17",
         "talk-mcq-21",
         "talk-mcq-16"
       ],
-      "explanation": "本句的「talking again」指「政府正在談判」。",
+      "explanation": "本句的「talking again」指「為解決分歧或達成協議而進行談判」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "talking again"
       ],
       "optionReasons": {
-        "talk-mcq-19": "本句指「政府正在談判」。",
+        "talk-pdf-003": "本句指「為解決分歧或達成協議而進行談判」。",
         "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。",
         "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
         "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
         "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
         "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。"
       },
-      "correctOption": "talk-mcq-19"
+      "correctOption": "talk-pdf-003"
     },
     {
       "id": "talk-21-0",

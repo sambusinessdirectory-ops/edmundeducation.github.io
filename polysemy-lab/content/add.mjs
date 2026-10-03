@@ -115,16 +115,6 @@ export default {
           "‘Don’t forget to water the plants,’ he added.",
           "『別忘了替植物澆水，』他補充道。",
           "在已說內容之後再補充另一點資訊"
-        ],
-        [
-          "I’d like to add one more point.",
-          "我想再補充一點。",
-          "在已說內容之後再補充另一點資訊"
-        ],
-        [
-          "She added a short note at the end of the email.",
-          "她在電郵最後加了一小段備註。",
-          "在已說內容之後再補充另一點資訊"
         ]
       ],
       "options": [],
@@ -443,16 +433,6 @@ export default {
           "There will be an additional charge.",
           "會有一項額外收費。",
           "在原有數量、內容或要求之外再增加的"
-        ],
-        [
-          "The plants need sunlight. Additionally, they need regular watering.",
-          "植物需要陽光。此外，它們也需要定期澆水。",
-          "在原有數量、內容或要求之外再增加的"
-        ],
-        [
-          "The course is practical and, additionally, quite affordable.",
-          "這個課程很實用，而且另外一點是價錢也相當合理。",
-          "在原有數量、內容或要求之外再增加的"
         ]
       ],
       "options": [],
@@ -519,6 +499,50 @@ export default {
           "3D printing is a form of additive manufacturing.",
           "3D 列印是增材製造的一種形式。",
           "逐層增加材料以製造物件的生產方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "add-pdf-001",
+      "title": "在原有資訊／文字後補上新的內容",
+      "form": "6. add + comment/information（補充內容） — 補充；加上",
+      "en": "6. add + comment/information（補充內容） — 補充；加上",
+      "zh": "在原有資訊／文字後補上新的內容",
+      "note": "原始 PDF 第 6 節：在原有資訊／文字後補上新的內容",
+      "examples": [
+        [
+          "I’d like to add one more point.",
+          "我想再補充一點。",
+          "在原有資訊／文字後補上新的內容"
+        ],
+        [
+          "She added a short note at the end of the email.",
+          "她在電郵最後加了一小段備註。",
+          "在原有資訊／文字後補上新的內容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "add-pdf-002",
+      "title": "作為額外一點／另外再加上一點",
+      "form": "22. additionally = in addition — 此外；另外",
+      "en": "22. additionally = in addition — 此外；另外",
+      "zh": "作為額外一點／另外再加上一點",
+      "note": "原始 PDF 第 22 節：作為額外一點／另外再加上一點",
+      "examples": [
+        [
+          "The plants need sunlight. Additionally, they need regular watering.",
+          "植物需要陽光。此外，它們也需要定期澆水。",
+          "作為額外一點／另外再加上一點"
+        ],
+        [
+          "The course is practical and, additionally, quite affordable.",
+          "這個課程很實用，而且另外一點是價錢也相當合理。",
+          "作為額外一點／另外再加上一點"
         ]
       ],
       "options": [],
@@ -858,63 +882,63 @@ export default {
     },
     {
       "id": "add-06-0",
-      "sense": "add-mcq-05",
+      "sense": "add-pdf-001",
       "en": "I’d like to add one more point.",
       "zh": "我想再補充一點。",
       "masked": "I’d like to ____ one more point.",
       "options": [
-        "add-mcq-05",
+        "add-pdf-001",
         "add-mcq-04",
         "add-mcq-06",
         "add-mcq-03",
         "add-mcq-07",
         "add-mcq-02"
       ],
-      "explanation": "本句的「add」指「在已說內容之後再補充另一點資訊」。",
+      "explanation": "本句的「add」指「在原有資訊／文字後補上新的內容」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "add"
       ],
       "optionReasons": {
-        "add-mcq-05": "本句指「在已說內容之後再補充另一點資訊」。",
+        "add-pdf-001": "本句指「在原有資訊／文字後補上新的內容」。",
         "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
         "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
         "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
         "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
         "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。"
       },
-      "correctOption": "add-mcq-05"
+      "correctOption": "add-pdf-001"
     },
     {
       "id": "add-06-1",
-      "sense": "add-mcq-05",
+      "sense": "add-pdf-001",
       "en": "She added a short note at the end of the email.",
       "zh": "她在電郵最後加了一小段備註。",
       "masked": "She ____ a short note at the end of the email.",
       "options": [
-        "add-mcq-05",
+        "add-pdf-001",
         "add-mcq-04",
         "add-mcq-06",
         "add-mcq-03",
         "add-mcq-07",
         "add-mcq-02"
       ],
-      "explanation": "本句的「added」指「在已說內容之後再補充另一點資訊」。",
+      "explanation": "本句的「added」指「在原有資訊／文字後補上新的內容」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "added"
       ],
       "optionReasons": {
-        "add-mcq-05": "本句指「在已說內容之後再補充另一點資訊」。",
+        "add-pdf-001": "本句指「在原有資訊／文字後補上新的內容」。",
         "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
         "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
         "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
         "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
         "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。"
       },
-      "correctOption": "add-mcq-05"
+      "correctOption": "add-pdf-001"
     },
     {
       "id": "add-07-0",
@@ -1818,63 +1842,63 @@ export default {
     },
     {
       "id": "add-22-0",
-      "sense": "add-mcq-19",
+      "sense": "add-pdf-002",
       "en": "The plants need sunlight. Additionally, they need regular watering.",
       "zh": "植物需要陽光。此外，它們也需要定期澆水。",
       "masked": "The plants need sunlight. ____, they need regular watering.",
       "options": [
-        "add-mcq-19",
+        "add-pdf-002",
         "add-mcq-18",
         "add-mcq-20",
         "add-mcq-17",
         "add-mcq-21",
         "add-mcq-16"
       ],
-      "explanation": "本句的「Additionally」指「在原有數量、內容或要求之外再增加的」。",
+      "explanation": "本句的「Additionally」指「作為額外一點／另外再加上一點」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "Additionally"
       ],
       "optionReasons": {
-        "add-mcq-19": "本句指「在原有數量、內容或要求之外再增加的」。",
+        "add-pdf-002": "本句指「作為額外一點／另外再加上一點」。",
         "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
         "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
         "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
         "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
         "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。"
       },
-      "correctOption": "add-mcq-19"
+      "correctOption": "add-pdf-002"
     },
     {
       "id": "add-22-1",
-      "sense": "add-mcq-19",
+      "sense": "add-pdf-002",
       "en": "The course is practical and, additionally, quite affordable.",
       "zh": "這個課程很實用，而且另外一點是價錢也相當合理。",
       "masked": "The course is practical and, ____, quite affordable.",
       "options": [
-        "add-mcq-19",
+        "add-pdf-002",
         "add-mcq-18",
         "add-mcq-20",
         "add-mcq-17",
         "add-mcq-21",
         "add-mcq-16"
       ],
-      "explanation": "本句的「additionally」指「在原有數量、內容或要求之外再增加的」。",
+      "explanation": "本句的「additionally」指「作為額外一點／另外再加上一點」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "additionally"
       ],
       "optionReasons": {
-        "add-mcq-19": "本句指「在原有數量、內容或要求之外再增加的」。",
+        "add-pdf-002": "本句指「作為額外一點／另外再加上一點」。",
         "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
         "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
         "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
         "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
         "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。"
       },
-      "correctOption": "add-mcq-19"
+      "correctOption": "add-pdf-002"
     },
     {
       "id": "add-23-0",

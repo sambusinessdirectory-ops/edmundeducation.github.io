@@ -107,16 +107,6 @@ export default {
       "note": "來源詞義：設備把原來聲音、影像或顏色重新呈現出來的能力／效果",
       "examples": [
         [
-          "Temperature can affect plant reproduction.",
-          "溫度會影響植物的繁殖。",
-          "設備把原來聲音、影像或顏色重新呈現出來的能力／效果"
-        ],
-        [
-          "The programme studies animal reproduction.",
-          "這個計劃研究動物繁殖／生殖。",
-          "設備把原來聲音、影像或顏色重新呈現出來的能力／效果"
-        ],
-        [
           "The speakers provide excellent sound reproduction.",
           "這些揚聲器的聲音還原效果／重播效果非常好。",
           "設備把原來聲音、影像或顏色重新呈現出來的能力／效果"
@@ -273,16 +263,6 @@ export default {
       "note": "來源詞義：合法複製、出版或重製作品的權利",
       "examples": [
         [
-          "The exact reproduction of the conditions was impossible.",
-          "要完全重現原本條件是不可能的。",
-          "合法複製、出版或重製作品的權利"
-        ],
-        [
-          "The simulation aims at reproduction of real-world behaviour.",
-          "這個模擬旨在重現現實世界中的行為。",
-          "合法複製、出版或重製作品的權利"
-        ],
-        [
           "The publisher obtained reproduction rights for the image.",
           "出版社取得了該圖像的複製權／重製權。",
           "合法複製、出版或重製作品的權利"
@@ -335,6 +315,50 @@ export default {
           "The reproductive system includes organs involved in reproduction.",
           "生殖系統包括參與生殖的器官。",
           "與生殖、繁殖或產生後代有關的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reproduction-pdf-001",
+      "title": "生物產生新個體的繁殖過程",
+      "form": "5. reproduction = plant/animal breeding process — 繁殖",
+      "en": "5. reproduction = plant/animal breeding process — 繁殖",
+      "zh": "生物產生新個體的繁殖過程",
+      "note": "原始 PDF 第 5 節：生物產生新個體的繁殖過程",
+      "examples": [
+        [
+          "Temperature can affect plant reproduction.",
+          "溫度會影響植物的繁殖。",
+          "生物產生新個體的繁殖過程"
+        ],
+        [
+          "The programme studies animal reproduction.",
+          "這個計劃研究動物繁殖／生殖。",
+          "生物產生新個體的繁殖過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reproduction-pdf-002",
+      "title": "把某種情況、條件、結果或行為再次建立／呈現出來",
+      "form": "16. reproduction = repetition/re-creation of an event/result — 重現；再現",
+      "en": "16. reproduction = repetition/re-creation of an event/result — 重現；再現",
+      "zh": "把某種情況、條件、結果或行為再次建立／呈現出來",
+      "note": "原始 PDF 第 16 節：把某種情況、條件、結果或行為再次建立／呈現出來",
+      "examples": [
+        [
+          "The exact reproduction of the conditions was impossible.",
+          "要完全重現原本條件是不可能的。",
+          "把某種情況、條件、結果或行為再次建立／呈現出來"
+        ],
+        [
+          "The simulation aims at reproduction of real-world behaviour.",
+          "這個模擬旨在重現現實世界中的行為。",
+          "把某種情況、條件、結果或行為再次建立／呈現出來"
         ]
       ],
       "options": [],
@@ -614,63 +638,63 @@ export default {
     },
     {
       "id": "reproduction-05-0",
-      "sense": "reproduction-mcq-05",
+      "sense": "reproduction-pdf-001",
       "en": "Temperature can affect plant reproduction.",
       "zh": "溫度會影響植物的繁殖。",
       "masked": "Temperature can affect plant ____.",
       "options": [
-        "reproduction-mcq-05",
+        "reproduction-pdf-001",
         "reproduction-mcq-04",
         "reproduction-mcq-06",
         "reproduction-mcq-03",
         "reproduction-mcq-07",
         "reproduction-mcq-02"
       ],
-      "explanation": "本句的「reproduction」指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
+      "explanation": "本句的「reproduction」指「生物產生新個體的繁殖過程」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-05": "本句指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
+        "reproduction-pdf-001": "本句指「生物產生新個體的繁殖過程」。",
         "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
         "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
         "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
         "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
         "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。"
       },
-      "correctOption": "reproduction-mcq-05"
+      "correctOption": "reproduction-pdf-001"
     },
     {
       "id": "reproduction-05-1",
-      "sense": "reproduction-mcq-05",
+      "sense": "reproduction-pdf-001",
       "en": "The programme studies animal reproduction.",
       "zh": "這個計劃研究動物繁殖／生殖。",
       "masked": "The programme studies animal ____.",
       "options": [
-        "reproduction-mcq-05",
+        "reproduction-pdf-001",
         "reproduction-mcq-04",
         "reproduction-mcq-06",
         "reproduction-mcq-03",
         "reproduction-mcq-07",
         "reproduction-mcq-02"
       ],
-      "explanation": "本句的「reproduction」指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
+      "explanation": "本句的「reproduction」指「生物產生新個體的繁殖過程」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-05": "本句指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
+        "reproduction-pdf-001": "本句指「生物產生新個體的繁殖過程」。",
         "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
         "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
         "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
         "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
         "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。"
       },
-      "correctOption": "reproduction-mcq-05"
+      "correctOption": "reproduction-pdf-001"
     },
     {
       "id": "reproduction-06-0",
@@ -1034,63 +1058,63 @@ export default {
     },
     {
       "id": "reproduction-16-0",
-      "sense": "reproduction-mcq-14",
+      "sense": "reproduction-pdf-002",
       "en": "The exact reproduction of the conditions was impossible.",
       "zh": "要完全重現原本條件是不可能的。",
       "masked": "The exact ____ of the conditions was impossible.",
       "options": [
-        "reproduction-mcq-14",
+        "reproduction-pdf-002",
         "reproduction-mcq-13",
         "reproduction-mcq-15",
         "reproduction-mcq-12",
         "reproduction-mcq-16",
         "reproduction-mcq-11"
       ],
-      "explanation": "本句的「reproduction」指「合法複製、出版或重製作品的權利」。",
+      "explanation": "本句的「reproduction」指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
       "sentenceIndex": 23,
       "sourcePractice": 32,
       "targets": [
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-14": "本句指「合法複製、出版或重製作品的權利」。",
+        "reproduction-pdf-002": "本句指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
         "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
         "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
         "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
         "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
         "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
       },
-      "correctOption": "reproduction-mcq-14"
+      "correctOption": "reproduction-pdf-002"
     },
     {
       "id": "reproduction-16-1",
-      "sense": "reproduction-mcq-14",
+      "sense": "reproduction-pdf-002",
       "en": "The simulation aims at reproduction of real-world behaviour.",
       "zh": "這個模擬旨在重現現實世界中的行為。",
       "masked": "The simulation aims at ____ of real-world behaviour.",
       "options": [
-        "reproduction-mcq-14",
+        "reproduction-pdf-002",
         "reproduction-mcq-13",
         "reproduction-mcq-15",
         "reproduction-mcq-12",
         "reproduction-mcq-16",
         "reproduction-mcq-11"
       ],
-      "explanation": "本句的「reproduction」指「合法複製、出版或重製作品的權利」。",
+      "explanation": "本句的「reproduction」指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
       "sentenceIndex": 24,
       "sourcePractice": 33,
       "targets": [
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-14": "本句指「合法複製、出版或重製作品的權利」。",
+        "reproduction-pdf-002": "本句指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
         "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
         "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
         "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
         "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
         "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
       },
-      "correctOption": "reproduction-mcq-14"
+      "correctOption": "reproduction-pdf-002"
     },
     {
       "id": "reproduction-17-0",

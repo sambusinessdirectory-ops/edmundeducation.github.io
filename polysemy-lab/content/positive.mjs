@@ -487,16 +487,6 @@ export default {
           "The photo was not clear enough for positive identification.",
           "照片不夠清晰，無法確定身份。",
           "明確確認身份"
-        ],
-        [
-          "There was no positive proof that he had done it.",
-          "沒有確切證據證明是他做的。",
-          "明確確認身份"
-        ],
-        [
-          "Investigators wanted positive evidence before making an accusation.",
-          "調查人員希望有明確證據後才作出指控。",
-          "明確確認身份"
         ]
       ],
       "options": [],
@@ -629,6 +619,28 @@ export default {
           "Supporting someone is different from forcing toxic positivity on them.",
           "支持別人和強迫對方保持過度樂觀並不一樣。",
           "過度正能量"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "positive-pdf-001",
+      "title": "明確而直接支持某個事實的證據",
+      "form": "25. positive proof / evidence — 確切證據",
+      "en": "25. positive proof / evidence — 確切證據",
+      "zh": "明確而直接支持某個事實的證據",
+      "note": "原始 PDF 第 25 節：明確而直接支持某個事實的證據",
+      "examples": [
+        [
+          "There was no positive proof that he had done it.",
+          "沒有確切證據證明是他做的。",
+          "明確而直接支持某個事實的證據"
+        ],
+        [
+          "Investigators wanted positive evidence before making an accusation.",
+          "調查人員希望有明確證據後才作出指控。",
+          "明確而直接支持某個事實的證據"
         ]
       ],
       "options": [],
@@ -2048,63 +2060,63 @@ export default {
     },
     {
       "id": "positive-25-0",
-      "sense": "positive-mcq-21",
+      "sense": "positive-pdf-001",
       "en": "There was no positive proof that he had done it.",
       "zh": "沒有確切證據證明是他做的。",
       "masked": "There was no ____ that he had done it.",
       "options": [
-        "positive-mcq-21",
+        "positive-pdf-001",
         "positive-mcq-20",
         "positive-mcq-22",
         "positive-mcq-19",
         "positive-mcq-23",
         "positive-mcq-18"
       ],
-      "explanation": "本句的「positive proof」指「明確確認身份」。",
+      "explanation": "本句的「positive proof」指「明確而直接支持某個事實的證據」。",
       "sentenceIndex": 49,
       "sourcePractice": 1,
       "targets": [
         "positive proof"
       ],
       "optionReasons": {
-        "positive-mcq-21": "本句指「明確確認身份」。",
+        "positive-pdf-001": "本句指「明確而直接支持某個事實的證據」。",
         "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
         "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
         "positive-mcq-19": "「正極」與本句語境不同。",
         "positive-mcq-23": "「利弊」與本句語境不同。",
         "positive-mcq-18": "「正電荷」與本句語境不同。"
       },
-      "correctOption": "positive-mcq-21"
+      "correctOption": "positive-pdf-001"
     },
     {
       "id": "positive-25-1",
-      "sense": "positive-mcq-21",
+      "sense": "positive-pdf-001",
       "en": "Investigators wanted positive evidence before making an accusation.",
       "zh": "調查人員希望有明確證據後才作出指控。",
       "masked": "Investigators wanted ____ before making an accusation.",
       "options": [
-        "positive-mcq-21",
+        "positive-pdf-001",
         "positive-mcq-20",
         "positive-mcq-22",
         "positive-mcq-19",
         "positive-mcq-23",
         "positive-mcq-18"
       ],
-      "explanation": "本句的「positive evidence」指「明確確認身份」。",
+      "explanation": "本句的「positive evidence」指「明確而直接支持某個事實的證據」。",
       "sentenceIndex": 50,
       "sourcePractice": 2,
       "targets": [
         "positive evidence"
       ],
       "optionReasons": {
-        "positive-mcq-21": "本句指「明確確認身份」。",
+        "positive-pdf-001": "本句指「明確而直接支持某個事實的證據」。",
         "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
         "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
         "positive-mcq-19": "「正極」與本句語境不同。",
         "positive-mcq-23": "「利弊」與本句語境不同。",
         "positive-mcq-18": "「正電荷」與本句語境不同。"
       },
-      "correctOption": "positive-mcq-21"
+      "correctOption": "positive-pdf-001"
     },
     {
       "id": "positive-26-0",

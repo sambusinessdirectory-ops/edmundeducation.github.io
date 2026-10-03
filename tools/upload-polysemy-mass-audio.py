@@ -23,10 +23,11 @@ def main():
     parser.add_argument("--repository", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--wrangler", type=Path, required=True)
     parser.add_argument("--jobs", type=int, default=4)
+    parser.add_argument("--index-path", default="workers/edmund-audio/src/polysemy-pack-index.json")
     args = parser.parse_args()
     if not 1 <= args.jobs <= 8:
         raise SystemExit("Use 1–8 upload jobs")
-    index_path = args.repository / "workers/edmund-audio/src/polysemy-pack-index.json"
+    index_path = args.repository / args.index_path
     index = json.loads(index_path.read_text())
     if index["meta"]["r2UploadComplete"]:
         raise SystemExit("This immutable release is already marked complete")

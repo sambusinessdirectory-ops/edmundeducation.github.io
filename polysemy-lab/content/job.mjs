@@ -215,18 +215,7 @@ export default {
       "en": "nose job",
       "zh": "鼻部整形手術的非正式說法",
       "note": "來源詞義：鼻部整形手術的非正式說法",
-      "examples": [
-        [
-          "He had a nose job several years ago.",
-          "他幾年前做過鼻部整形手術。",
-          "鼻部整形手術的非正式說法"
-        ],
-        [
-          "The phrase ‘nose job’ is informal.",
-          "nose job 是「鼻部整形手術」的非正式說法。",
-          "鼻部整形手術的非正式說法"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -543,6 +532,28 @@ export default {
           "For him, working with animals would be a dream job.",
           "對他來說，與動物一起工作會是一份理想工作。",
           "非常符合某人興趣、目標或理想的工作"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "job-pdf-001",
+      "title": "對某身體部位進行的手術／美容處理",
+      "form": "10. job = medical/cosmetic procedure（非正式） — 手術／整形",
+      "en": "10. job = medical/cosmetic procedure（非正式） — 手術／整形",
+      "zh": "對某身體部位進行的手術／美容處理",
+      "note": "原始 PDF 第 10 節：對某身體部位進行的手術／美容處理",
+      "examples": [
+        [
+          "He had a nose job several years ago.",
+          "他幾年前做過鼻部整形手術。",
+          "對某身體部位進行的手術／美容處理"
+        ],
+        [
+          "The phrase ‘nose job’ is informal.",
+          "nose job 是「鼻部整形手術」的非正式說法。",
+          "對某身體部位進行的手術／美容處理"
         ]
       ],
       "options": [],
@@ -1122,63 +1133,63 @@ export default {
     },
     {
       "id": "job-10-0",
-      "sense": "job-mcq-10",
+      "sense": "job-pdf-001",
       "en": "He had a nose job several years ago.",
       "zh": "他幾年前做過鼻部整形手術。",
       "masked": "He had a ____ several years ago.",
       "options": [
-        "job-mcq-10",
+        "job-pdf-001",
         "job-mcq-09",
         "job-mcq-11",
         "job-mcq-08",
         "job-mcq-12",
         "job-mcq-07"
       ],
-      "explanation": "本句的「nose job」指「鼻部整形手術的非正式說法」。",
+      "explanation": "本句的「nose job」指「對某身體部位進行的手術／美容處理」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "nose job"
       ],
       "optionReasons": {
-        "job-mcq-10": "本句指「鼻部整形手術的非正式說法」。",
+        "job-pdf-001": "本句指「對某身體部位進行的手術／美容處理」。",
         "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
         "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
         "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
         "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
         "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。"
       },
-      "correctOption": "job-mcq-10"
+      "correctOption": "job-pdf-001"
     },
     {
       "id": "job-10-1",
-      "sense": "job-mcq-10",
+      "sense": "job-pdf-001",
       "en": "The phrase ‘nose job’ is informal.",
       "zh": "nose job 是「鼻部整形手術」的非正式說法。",
       "masked": "The phrase ‘nose ____’ is informal.",
       "options": [
-        "job-mcq-10",
+        "job-pdf-001",
         "job-mcq-09",
         "job-mcq-11",
         "job-mcq-08",
         "job-mcq-12",
         "job-mcq-07"
       ],
-      "explanation": "本句的「job」指「鼻部整形手術的非正式說法」。",
+      "explanation": "本句的「job」指「對某身體部位進行的手術／美容處理」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "job"
       ],
       "optionReasons": {
-        "job-mcq-10": "本句指「鼻部整形手術的非正式說法」。",
+        "job-pdf-001": "本句指「對某身體部位進行的手術／美容處理」。",
         "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
         "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
         "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
         "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
         "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。"
       },
-      "correctOption": "job-mcq-10"
+      "correctOption": "job-pdf-001"
     },
     {
       "id": "job-11-0",

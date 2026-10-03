@@ -252,16 +252,6 @@ export default {
           "I originally planned to buy a smaller print.",
           "我最初打算買一幅較小的印刷品。",
           "在事情開始時；原本／起初"
-        ],
-        [
-          "The novel was originally published in French.",
-          "這本小說最初以法文出版。",
-          "在事情開始時；原本／起初"
-        ],
-        [
-          "The work was originally created for a private collection.",
-          "這件作品最初是為私人收藏而創作。",
-          "在事情開始時；原本／起初"
         ]
       ],
       "options": [],
@@ -328,16 +318,6 @@ export default {
           "The idea originated in the nineteenth century.",
           "這個想法起源於十九世紀。",
           "某事物最初開始、出現或產生"
-        ],
-        [
-          "The artist originated a new technique.",
-          "這位藝術家創出了／創始了一種新技法。",
-          "某事物最初開始、出現或產生"
-        ],
-        [
-          "The concept was originated by a small research team.",
-          "這個概念由一個小型研究團隊最先提出。",
-          "某事物最初開始、出現或產生"
         ]
       ],
       "options": [],
@@ -351,6 +331,50 @@ export default {
       "zh": "最先創造、提出或建立某個想法／方法",
       "note": "來源詞義：最先創造、提出或建立某個想法／方法",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "original-pdf-001",
+      "title": "某事物在最初創作、發表或形成時",
+      "form": "13. originally = in the first version/form — 最初地；原先以……形式",
+      "en": "13. originally = in the first version/form — 最初地；原先以……形式",
+      "zh": "某事物在最初創作、發表或形成時",
+      "note": "原始 PDF 第 13 節：某事物在最初創作、發表或形成時",
+      "examples": [
+        [
+          "The novel was originally published in French.",
+          "這本小說最初以法文出版。",
+          "某事物在最初創作、發表或形成時"
+        ],
+        [
+          "The work was originally created for a private collection.",
+          "這件作品最初是為私人收藏而創作。",
+          "某事物在最初創作、發表或形成時"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "original-pdf-002",
+      "title": "成為某個想法、方法或做法的最初創造者",
+      "form": "17. originate = create/initiate something — 創始；提出",
+      "en": "17. originate = create/initiate something — 創始；提出",
+      "zh": "成為某個想法、方法或做法的最初創造者",
+      "note": "原始 PDF 第 17 節：成為某個想法、方法或做法的最初創造者",
+      "examples": [
+        [
+          "The artist originated a new technique.",
+          "這位藝術家創出了／創始了一種新技法。",
+          "成為某個想法、方法或做法的最初創造者"
+        ],
+        [
+          "The concept was originated by a small research team.",
+          "這個概念由一個小型研究團隊最先提出。",
+          "成為某個想法、方法或做法的最初創造者"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -1078,63 +1102,63 @@ export default {
     },
     {
       "id": "original-13-0",
-      "sense": "original-mcq-11",
+      "sense": "original-pdf-001",
       "en": "The novel was originally published in French.",
       "zh": "這本小說最初以法文出版。",
       "masked": "The novel was ____ published in French.",
       "options": [
-        "original-mcq-11",
+        "original-pdf-001",
         "original-mcq-10",
         "original-mcq-12",
         "original-mcq-09",
         "original-mcq-13",
         "original-mcq-08"
       ],
-      "explanation": "本句的「originally」指「在事情開始時；原本／起初」。",
+      "explanation": "本句的「originally」指「某事物在最初創作、發表或形成時」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "originally"
       ],
       "optionReasons": {
-        "original-mcq-11": "本句指「在事情開始時；原本／起初」。",
+        "original-pdf-001": "本句指「某事物在最初創作、發表或形成時」。",
         "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
         "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
         "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
         "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
         "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。"
       },
-      "correctOption": "original-mcq-11"
+      "correctOption": "original-pdf-001"
     },
     {
       "id": "original-13-1",
-      "sense": "original-mcq-11",
+      "sense": "original-pdf-001",
       "en": "The work was originally created for a private collection.",
       "zh": "這件作品最初是為私人收藏而創作。",
       "masked": "The work was ____ created for a private collection.",
       "options": [
-        "original-mcq-11",
+        "original-pdf-001",
         "original-mcq-10",
         "original-mcq-12",
         "original-mcq-09",
         "original-mcq-13",
         "original-mcq-08"
       ],
-      "explanation": "本句的「originally」指「在事情開始時；原本／起初」。",
+      "explanation": "本句的「originally」指「某事物在最初創作、發表或形成時」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "originally"
       ],
       "optionReasons": {
-        "original-mcq-11": "本句指「在事情開始時；原本／起初」。",
+        "original-pdf-001": "本句指「某事物在最初創作、發表或形成時」。",
         "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
         "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
         "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
         "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
         "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。"
       },
-      "correctOption": "original-mcq-11"
+      "correctOption": "original-pdf-001"
     },
     {
       "id": "original-14-0",
@@ -1318,63 +1342,63 @@ export default {
     },
     {
       "id": "original-17-0",
-      "sense": "original-mcq-14",
+      "sense": "original-pdf-002",
       "en": "The artist originated a new technique.",
       "zh": "這位藝術家創出了／創始了一種新技法。",
       "masked": "The artist ____ a new technique.",
       "options": [
-        "original-mcq-14",
+        "original-pdf-002",
         "original-mcq-13",
         "original-mcq-15",
         "original-mcq-12",
         "original-mcq-11",
         "original-mcq-10"
       ],
-      "explanation": "本句的「originated」指「某事物最初開始、出現或產生」。",
+      "explanation": "本句的「originated」指「成為某個想法、方法或做法的最初創造者」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "originated"
       ],
       "optionReasons": {
-        "original-mcq-14": "本句指「某事物最初開始、出現或產生」。",
+        "original-pdf-002": "本句指「成為某個想法、方法或做法的最初創造者」。",
         "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
         "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
         "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
         "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
         "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
       },
-      "correctOption": "original-mcq-14"
+      "correctOption": "original-pdf-002"
     },
     {
       "id": "original-17-1",
-      "sense": "original-mcq-14",
+      "sense": "original-pdf-002",
       "en": "The concept was originated by a small research team.",
       "zh": "這個概念由一個小型研究團隊最先提出。",
       "masked": "The concept was ____ by a small research team.",
       "options": [
-        "original-mcq-14",
+        "original-pdf-002",
         "original-mcq-13",
         "original-mcq-15",
         "original-mcq-12",
         "original-mcq-11",
         "original-mcq-10"
       ],
-      "explanation": "本句的「originated」指「某事物最初開始、出現或產生」。",
+      "explanation": "本句的「originated」指「成為某個想法、方法或做法的最初創造者」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "originated"
       ],
       "optionReasons": {
-        "original-mcq-14": "本句指「某事物最初開始、出現或產生」。",
+        "original-pdf-002": "本句指「成為某個想法、方法或做法的最初創造者」。",
         "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
         "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
         "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
         "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
         "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
       },
-      "correctOption": "original-mcq-14"
+      "correctOption": "original-pdf-002"
     }
   ],
   "comparisons": [],

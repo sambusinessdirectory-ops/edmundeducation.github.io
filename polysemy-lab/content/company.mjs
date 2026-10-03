@@ -596,16 +596,6 @@ export default {
           "He uses his company car for business trips.",
           "他出差時使用公司提供的汽車。",
           "由公司擁有或租用並提供員工作工作用途的汽車"
-        ],
-        [
-          "Please enter the company name on the form.",
-          "請在表格上填寫公司名稱。",
-          "由公司擁有或租用並提供員工作工作用途的汽車"
-        ],
-        [
-          "The business changed its company name after the merger.",
-          "企業合併後更改了公司名稱。",
-          "由公司擁有或租用並提供員工作工作用途的汽車"
         ]
       ],
       "options": [],
@@ -628,6 +618,28 @@ export default {
           "Most residents of the company town worked for the same employer.",
           "這個企業主導的城鎮中，大部分居民都為同一僱主工作。",
           "某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "company-mcq-28",
+      "title": "某家企業正式或商業上使用的名稱",
+      "form": "company name",
+      "en": "company name",
+      "zh": "某家企業正式或商業上使用的名稱",
+      "note": "來源詞義：某家企業正式或商業上使用的名稱",
+      "examples": [
+        [
+          "Please enter the company name on the form.",
+          "請在表格上填寫公司名稱。",
+          "某家企業正式或商業上使用的名稱"
+        ],
+        [
+          "The business changed its company name after the merger.",
+          "企業合併後更改了公司名稱。",
+          "某家企業正式或商業上使用的名稱"
         ]
       ],
       "options": [],
@@ -2347,63 +2359,63 @@ export default {
     },
     {
       "id": "company-28-0",
-      "sense": "company-mcq-26",
+      "sense": "company-mcq-28",
       "en": "Please enter the company name on the form.",
       "zh": "請在表格上填寫公司名稱。",
       "masked": "Please enter the ____ on the form.",
       "options": [
-        "company-mcq-26",
+        "company-mcq-28",
         "company-mcq-25",
         "company-mcq-27",
         "company-mcq-24",
-        "company-mcq-23",
+        "company-mcq-26",
         "company-mcq-22"
       ],
-      "explanation": "本句的「company name」指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+      "explanation": "本句的「company name」指「某家企業正式或商業上使用的名稱」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company name"
       ],
       "optionReasons": {
-        "company-mcq-26": "本句指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+        "company-mcq-28": "本句指「某家企業正式或商業上使用的名稱」。",
         "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
         "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
         "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
-        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
         "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
       },
-      "correctOption": "company-mcq-26"
+      "correctOption": "company-mcq-28"
     },
     {
       "id": "company-28-1",
-      "sense": "company-mcq-26",
+      "sense": "company-mcq-28",
       "en": "The business changed its company name after the merger.",
       "zh": "企業合併後更改了公司名稱。",
       "masked": "The business changed its ____ after the merger.",
       "options": [
-        "company-mcq-26",
+        "company-mcq-28",
         "company-mcq-25",
         "company-mcq-27",
         "company-mcq-24",
-        "company-mcq-23",
+        "company-mcq-26",
         "company-mcq-22"
       ],
-      "explanation": "本句的「company name」指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+      "explanation": "本句的「company name」指「某家企業正式或商業上使用的名稱」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company name"
       ],
       "optionReasons": {
-        "company-mcq-26": "本句指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+        "company-mcq-28": "本句指「某家企業正式或商業上使用的名稱」。",
         "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
         "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
         "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
-        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
         "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
       },
-      "correctOption": "company-mcq-26"
+      "correctOption": "company-mcq-28"
     },
     {
       "id": "company-29-0",

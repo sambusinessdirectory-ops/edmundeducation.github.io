@@ -49,16 +49,6 @@ export default {
           "He woke early because he was nervous.",
           "他因為緊張而很早醒來。",
           "早醒"
-        ],
-        [
-          "She woke from a deep sleep.",
-          "她從熟睡中醒來。",
-          "早醒"
-        ],
-        [
-          "I suddenly woke from sleep.",
-          "我突然從睡眠中醒來。",
-          "早醒"
         ]
       ],
       "options": [],
@@ -90,16 +80,6 @@ export default {
         [
           "The thunder woke me in the middle of the night.",
           "雷聲半夜把我弄醒了。",
-          "叫醒某人"
-        ],
-        [
-          "I woke with a start after hearing a loud bang.",
-          "聽到一聲巨響後，我猛然驚醒。",
-          "叫醒某人"
-        ],
-        [
-          "She woke with a start from a bad dream.",
-          "她從噩夢中一下子驚醒。",
           "叫醒某人"
         ]
       ],
@@ -413,6 +393,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "wake-pdf-001",
+      "title": "從睡眠狀態恢復意識",
+      "form": "3. wake from sleep — 從睡眠中醒來",
+      "en": "3. wake from sleep — 從睡眠中醒來",
+      "zh": "從睡眠狀態恢復意識",
+      "note": "原始 PDF 第 3 節：從睡眠狀態恢復意識",
+      "examples": [
+        [
+          "She woke from a deep sleep.",
+          "她從熟睡中醒來。",
+          "從睡眠狀態恢復意識"
+        ],
+        [
+          "I suddenly woke from sleep.",
+          "我突然從睡眠中醒來。",
+          "從睡眠狀態恢復意識"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "wake-pdf-002",
+      "title": "因突然受驚而猛然醒來",
+      "form": "6. wake with a start — 猛然驚醒",
+      "en": "6. wake with a start — 猛然驚醒",
+      "zh": "因突然受驚而猛然醒來",
+      "note": "原始 PDF 第 6 節：因突然受驚而猛然醒來",
+      "examples": [
+        [
+          "I woke with a start after hearing a loud bang.",
+          "聽到一聲巨響後，我猛然驚醒。",
+          "因突然受驚而猛然醒來"
+        ],
+        [
+          "She woke with a start from a bad dream.",
+          "她從噩夢中一下子驚醒。",
+          "因突然受驚而猛然醒來"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -568,63 +592,63 @@ export default {
     },
     {
       "id": "wake-03-0",
-      "sense": "wake-mcq-02",
+      "sense": "wake-pdf-001",
       "en": "She woke from a deep sleep.",
       "zh": "她從熟睡中醒來。",
       "masked": "She ____.",
       "options": [
-        "wake-mcq-02",
+        "wake-pdf-001",
         "wake-mcq-01",
         "wake-mcq-03",
         "wake-mcq-04",
         "wake-mcq-05",
         "wake-mcq-06"
       ],
-      "explanation": "本句的「woke from a deep sleep」指「早醒」。",
+      "explanation": "本句的「woke from a deep sleep」指「從睡眠狀態恢復意識」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "woke from a deep sleep"
       ],
       "optionReasons": {
-        "wake-mcq-02": "本句指「早醒」。",
+        "wake-pdf-001": "本句指「從睡眠狀態恢復意識」。",
         "wake-mcq-01": "「醒來；起床」與本句語境不同。",
         "wake-mcq-03": "「叫醒某人」與本句語境不同。",
         "wake-mcq-04": "「醒着的」與本句語境不同。",
         "wake-mcq-05": "「完全清醒」與本句語境不同。",
         "wake-mcq-06": "「保持清醒」與本句語境不同。"
       },
-      "correctOption": "wake-mcq-02"
+      "correctOption": "wake-pdf-001"
     },
     {
       "id": "wake-03-1",
-      "sense": "wake-mcq-02",
+      "sense": "wake-pdf-001",
       "en": "I suddenly woke from sleep.",
       "zh": "我突然從睡眠中醒來。",
       "masked": "I suddenly ____.",
       "options": [
-        "wake-mcq-02",
+        "wake-pdf-001",
         "wake-mcq-01",
         "wake-mcq-03",
         "wake-mcq-04",
         "wake-mcq-05",
         "wake-mcq-06"
       ],
-      "explanation": "本句的「woke from sleep」指「早醒」。",
+      "explanation": "本句的「woke from sleep」指「從睡眠狀態恢復意識」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "woke from sleep"
       ],
       "optionReasons": {
-        "wake-mcq-02": "本句指「早醒」。",
+        "wake-pdf-001": "本句指「從睡眠狀態恢復意識」。",
         "wake-mcq-01": "「醒來；起床」與本句語境不同。",
         "wake-mcq-03": "「叫醒某人」與本句語境不同。",
         "wake-mcq-04": "「醒着的」與本句語境不同。",
         "wake-mcq-05": "「完全清醒」與本句語境不同。",
         "wake-mcq-06": "「保持清醒」與本句語境不同。"
       },
-      "correctOption": "wake-mcq-02"
+      "correctOption": "wake-pdf-001"
     },
     {
       "id": "wake-04-0",
@@ -748,63 +772,63 @@ export default {
     },
     {
       "id": "wake-06-0",
-      "sense": "wake-mcq-03",
+      "sense": "wake-pdf-002",
       "en": "I woke with a start after hearing a loud bang.",
       "zh": "聽到一聲巨響後，我猛然驚醒。",
       "masked": "I ____ after hearing a loud bang.",
       "options": [
-        "wake-mcq-03",
+        "wake-pdf-002",
         "wake-mcq-02",
         "wake-mcq-04",
         "wake-mcq-01",
         "wake-mcq-05",
         "wake-mcq-06"
       ],
-      "explanation": "本句的「woke with a start」指「叫醒某人」。",
+      "explanation": "本句的「woke with a start」指「因突然受驚而猛然醒來」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "woke with a start"
       ],
       "optionReasons": {
-        "wake-mcq-03": "本句指「叫醒某人」。",
+        "wake-pdf-002": "本句指「因突然受驚而猛然醒來」。",
         "wake-mcq-02": "「早醒」與本句語境不同。",
         "wake-mcq-04": "「醒着的」與本句語境不同。",
         "wake-mcq-01": "「醒來；起床」與本句語境不同。",
         "wake-mcq-05": "「完全清醒」與本句語境不同。",
         "wake-mcq-06": "「保持清醒」與本句語境不同。"
       },
-      "correctOption": "wake-mcq-03"
+      "correctOption": "wake-pdf-002"
     },
     {
       "id": "wake-06-1",
-      "sense": "wake-mcq-03",
+      "sense": "wake-pdf-002",
       "en": "She woke with a start from a bad dream.",
       "zh": "她從噩夢中一下子驚醒。",
       "masked": "She ____ from a bad dream.",
       "options": [
-        "wake-mcq-03",
+        "wake-pdf-002",
         "wake-mcq-02",
         "wake-mcq-04",
         "wake-mcq-01",
         "wake-mcq-05",
         "wake-mcq-06"
       ],
-      "explanation": "本句的「woke with a start」指「叫醒某人」。",
+      "explanation": "本句的「woke with a start」指「因突然受驚而猛然醒來」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "woke with a start"
       ],
       "optionReasons": {
-        "wake-mcq-03": "本句指「叫醒某人」。",
+        "wake-pdf-002": "本句指「因突然受驚而猛然醒來」。",
         "wake-mcq-02": "「早醒」與本句語境不同。",
         "wake-mcq-04": "「醒着的」與本句語境不同。",
         "wake-mcq-01": "「醒來；起床」與本句語境不同。",
         "wake-mcq-05": "「完全清醒」與本句語境不同。",
         "wake-mcq-06": "「保持清醒」與本句語境不同。"
       },
-      "correctOption": "wake-mcq-03"
+      "correctOption": "wake-pdf-002"
     },
     {
       "id": "wake-07-0",

@@ -702,16 +702,6 @@ export default {
           "Thousands joined the torchlight parade.",
           "數千人參加了火把遊行。",
           "參與者手持火把進行的火炬／火把遊行"
-        ],
-        [
-          "BrE: Have you got a torch?",
-          "你有手電筒嗎？",
-          "參與者手持火把進行的火炬／火把遊行"
-        ],
-        [
-          "AmE: Do you have a flashlight?",
-          "你有手電筒嗎？",
-          "參與者手持火把進行的火炬／火把遊行"
         ]
       ],
       "options": [],
@@ -734,6 +724,28 @@ export default {
           "The pipe was heated with a gas torch.",
           "管子用瓦斯噴燈加熱。",
           "表示噴燈；噴炬；焊炬；切割炬"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "torch-pdf-001",
+      "title": "手電筒",
+      "form": "American English",
+      "en": "American English",
+      "zh": "手電筒",
+      "note": "原始 PDF 第 None 節：手電筒",
+      "examples": [
+        [
+          "BrE: Have you got a torch?",
+          "你有手電筒嗎？",
+          "手電筒"
+        ],
+        [
+          "AmE: Do you have a flashlight?",
+          "你有手電筒嗎？",
+          "手電筒"
         ]
       ],
       "options": [],
@@ -2723,63 +2735,63 @@ export default {
     },
     {
       "id": "torch-35-0",
-      "sense": "torch-mcq-32",
+      "sense": "torch-pdf-001",
       "en": "BrE: Have you got a torch?",
       "zh": "你有手電筒嗎？",
       "masked": "BrE: Have you got a ____?",
       "options": [
-        "torch-mcq-32",
+        "torch-pdf-001",
         "torch-mcq-31",
         "torch-mcq-33",
         "torch-mcq-30",
         "torch-mcq-29",
         "torch-mcq-28"
       ],
-      "explanation": "本句的「torch」指「參與者手持火把進行的火炬／火把遊行」。",
+      "explanation": "本句的「torch」指「手電筒」。",
       "sentenceIndex": 66,
       "sourcePractice": 1,
       "targets": [
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-32": "本句指「參與者手持火把進行的火炬／火把遊行」。",
+        "torch-pdf-001": "本句指「手電筒」。",
         "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
         "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
         "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
         "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
         "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
       },
-      "correctOption": "torch-mcq-32"
+      "correctOption": "torch-pdf-001"
     },
     {
       "id": "torch-35-1",
-      "sense": "torch-mcq-32",
+      "sense": "torch-pdf-001",
       "en": "AmE: Do you have a flashlight?",
       "zh": "你有手電筒嗎？",
       "masked": "AmE: Do you have a ____?",
       "options": [
-        "torch-mcq-32",
+        "torch-pdf-001",
         "torch-mcq-31",
         "torch-mcq-33",
         "torch-mcq-30",
         "torch-mcq-29",
         "torch-mcq-28"
       ],
-      "explanation": "本句的「flashlight」指「參與者手持火把進行的火炬／火把遊行」。",
+      "explanation": "本句的「flashlight」指「手電筒」。",
       "sentenceIndex": 67,
       "sourcePractice": 2,
       "targets": [
         "flashlight"
       ],
       "optionReasons": {
-        "torch-mcq-32": "本句指「參與者手持火把進行的火炬／火把遊行」。",
+        "torch-pdf-001": "本句指「手電筒」。",
         "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
         "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
         "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
         "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
         "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
       },
-      "correctOption": "torch-mcq-32"
+      "correctOption": "torch-pdf-001"
     }
   ],
   "comparisons": [],

@@ -181,18 +181,7 @@ export default {
       "en": "shade — contextual metaphor",
       "zh": "從遮陽庇護延伸出的比喻性保護、安慰或喘息感",
       "note": "來源詞義：從遮陽庇護延伸出的比喻性保護、安慰或喘息感",
-      "examples": [
-        [
-          "The old tree became a symbol of shade and protection.",
-          "那棵老樹成為遮蔭和庇護的象徵。",
-          "從遮陽庇護延伸出的比喻性保護、安慰或喘息感"
-        ],
-        [
-          "Her presence offered emotional shade during difficult times.",
-          "在艱難時期，她的存在給人一種情感上的庇護和喘息空間。",
-          "從遮陽庇護延伸出的比喻性保護、安慰或喘息感"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -212,16 +201,6 @@ export default {
         [
           "A large umbrella shaded us from the sun.",
           "一把大傘為我們遮陽。",
-          "阻擋直接光線，使某人／某物處於較陰涼或較暗位置"
-        ],
-        [
-          "She shaded her eyes with her hand.",
-          "她用手遮住眼睛擋光。",
-          "阻擋直接光線，使某人／某物處於較陰涼或較暗位置"
-        ],
-        [
-          "He wore a hat to shade his face.",
-          "他戴帽子來遮住臉部避免陽光直射。",
           "阻擋直接光線，使某人／某物處於較陰涼或較暗位置"
         ]
       ],
@@ -485,6 +464,50 @@ export default {
           "Ancient stories describe shades wandering in the underworld.",
           "古代故事描述亡魂在冥界遊蕩。",
           "文學／古典語境中的亡魂或幽靈"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "shade-pdf-001",
+      "title": "比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰",
+      "form": "9. shade = protection / shelter metaphorically（庇護） — 庇護；保護",
+      "en": "9. shade = protection / shelter metaphorically（庇護） — 庇護；保護",
+      "zh": "比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰",
+      "note": "原始 PDF 第 9 節：比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰",
+      "examples": [
+        [
+          "The old tree became a symbol of shade and protection.",
+          "那棵老樹成為遮蔭和庇護的象徵。",
+          "比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰"
+        ],
+        [
+          "Her presence offered emotional shade during difficult times.",
+          "在艱難時期，她的存在給人一種情感上的庇護和喘息空間。",
+          "比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "shade-pdf-002",
+      "title": "用物件阻擋陽光或強光照射某個部位",
+      "form": "11. shade your eyes/face（遮擋光線） — 遮住；擋光",
+      "en": "11. shade your eyes/face（遮擋光線） — 遮住；擋光",
+      "zh": "用物件阻擋陽光或強光照射某個部位",
+      "note": "原始 PDF 第 11 節：用物件阻擋陽光或強光照射某個部位",
+      "examples": [
+        [
+          "She shaded her eyes with her hand.",
+          "她用手遮住眼睛擋光。",
+          "用物件阻擋陽光或強光照射某個部位"
+        ],
+        [
+          "He wore a hat to shade his face.",
+          "他戴帽子來遮住臉部避免陽光直射。",
+          "用物件阻擋陽光或強光照射某個部位"
         ]
       ],
       "options": [],
@@ -1004,63 +1027,63 @@ export default {
     },
     {
       "id": "shade-09-0",
-      "sense": "shade-mcq-08",
+      "sense": "shade-pdf-001",
       "en": "The old tree became a symbol of shade and protection.",
       "zh": "那棵老樹成為遮蔭和庇護的象徵。",
       "masked": "The old tree became a symbol of ____ and protection.",
       "options": [
-        "shade-mcq-08",
+        "shade-pdf-001",
         "shade-mcq-07",
         "shade-mcq-09",
         "shade-mcq-06",
         "shade-mcq-10",
         "shade-mcq-05"
       ],
-      "explanation": "本句的「shade」指「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」。",
+      "explanation": "本句的「shade」指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-08": "本句指「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」。",
+        "shade-pdf-001": "本句指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
         "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
         "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
         "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
         "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
         "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。"
       },
-      "correctOption": "shade-mcq-08"
+      "correctOption": "shade-pdf-001"
     },
     {
       "id": "shade-09-1",
-      "sense": "shade-mcq-08",
+      "sense": "shade-pdf-001",
       "en": "Her presence offered emotional shade during difficult times.",
       "zh": "在艱難時期，她的存在給人一種情感上的庇護和喘息空間。",
       "masked": "Her presence offered emotional ____ during difficult times.",
       "options": [
-        "shade-mcq-08",
+        "shade-pdf-001",
         "shade-mcq-07",
         "shade-mcq-09",
         "shade-mcq-06",
         "shade-mcq-10",
         "shade-mcq-05"
       ],
-      "explanation": "本句的「shade」指「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」。",
+      "explanation": "本句的「shade」指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-08": "本句指「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」。",
+        "shade-pdf-001": "本句指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
         "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
         "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
         "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
         "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
         "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。"
       },
-      "correctOption": "shade-mcq-08"
+      "correctOption": "shade-pdf-001"
     },
     {
       "id": "shade-10-0",
@@ -1124,63 +1147,63 @@ export default {
     },
     {
       "id": "shade-11-0",
-      "sense": "shade-mcq-09",
+      "sense": "shade-pdf-002",
       "en": "She shaded her eyes with her hand.",
       "zh": "她用手遮住眼睛擋光。",
       "masked": "She ____ with her hand.",
       "options": [
-        "shade-mcq-09",
+        "shade-pdf-002",
         "shade-mcq-08",
         "shade-mcq-10",
         "shade-mcq-07",
         "shade-mcq-11",
         "shade-mcq-06"
       ],
-      "explanation": "本句的「shaded her eyes」指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
+      "explanation": "本句的「shaded her eyes」指「用物件阻擋陽光或強光照射某個部位」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "shaded her eyes"
       ],
       "optionReasons": {
-        "shade-mcq-09": "本句指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
+        "shade-pdf-002": "本句指「用物件阻擋陽光或強光照射某個部位」。",
         "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
         "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
         "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
         "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
         "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
       },
-      "correctOption": "shade-mcq-09"
+      "correctOption": "shade-pdf-002"
     },
     {
       "id": "shade-11-1",
-      "sense": "shade-mcq-09",
+      "sense": "shade-pdf-002",
       "en": "He wore a hat to shade his face.",
       "zh": "他戴帽子來遮住臉部避免陽光直射。",
       "masked": "He wore a hat to ____.",
       "options": [
-        "shade-mcq-09",
+        "shade-pdf-002",
         "shade-mcq-08",
         "shade-mcq-10",
         "shade-mcq-07",
         "shade-mcq-11",
         "shade-mcq-06"
       ],
-      "explanation": "本句的「shade his face」指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
+      "explanation": "本句的「shade his face」指「用物件阻擋陽光或強光照射某個部位」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "shade his face"
       ],
       "optionReasons": {
-        "shade-mcq-09": "本句指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
+        "shade-pdf-002": "本句指「用物件阻擋陽光或強光照射某個部位」。",
         "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
         "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
         "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
         "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
         "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
       },
-      "correctOption": "shade-mcq-09"
+      "correctOption": "shade-pdf-002"
     },
     {
       "id": "shade-12-0",

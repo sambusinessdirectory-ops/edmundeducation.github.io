@@ -155,18 +155,7 @@ export default {
       "en": "bridge differences",
       "zh": "縮窄差異",
       "note": "來源詞義：縮窄差異",
-      "examples": [
-        [
-          "Video calls help bridge long distances.",
-          "視像通話有助跨越遙遠距離。",
-          "縮窄差異"
-        ],
-        [
-          "Shared experiences can bridge differences in background.",
-          "共同經歷可以縮窄背景上的差異。",
-          "縮窄差異"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -566,6 +555,28 @@ export default {
           "The violin strings rest on the bridge.",
           "小提琴的弦架在琴橋上。",
           "弦樂器上支撐琴弦、並把震動傳到琴身的部件"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bridge-pdf-001",
+      "title": "克服兩者之間的距離、差異或障礙",
+      "form": "9. bridge a distance / difference — 跨越距離／消除差異",
+      "en": "9. bridge a distance / difference — 跨越距離／消除差異",
+      "zh": "克服兩者之間的距離、差異或障礙",
+      "note": "原始 PDF 第 9 節：克服兩者之間的距離、差異或障礙",
+      "examples": [
+        [
+          "Video calls help bridge long distances.",
+          "視像通話有助跨越遙遠距離。",
+          "克服兩者之間的距離、差異或障礙"
+        ],
+        [
+          "Shared experiences can bridge differences in background.",
+          "共同經歷可以縮窄背景上的差異。",
+          "克服兩者之間的距離、差異或障礙"
         ]
       ],
       "options": [],
@@ -1085,63 +1096,63 @@ export default {
     },
     {
       "id": "bridge-09-0",
-      "sense": "bridge-mcq-08",
+      "sense": "bridge-pdf-001",
       "en": "Video calls help bridge long distances.",
       "zh": "視像通話有助跨越遙遠距離。",
       "masked": "Video calls help ____.",
       "options": [
-        "bridge-mcq-08",
+        "bridge-pdf-001",
         "bridge-mcq-07",
         "bridge-mcq-09",
         "bridge-mcq-06",
         "bridge-mcq-10",
         "bridge-mcq-05"
       ],
-      "explanation": "本句的「bridge long distances」指「縮窄差異」。",
+      "explanation": "本句的「bridge long distances」指「克服兩者之間的距離、差異或障礙」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "bridge long distances"
       ],
       "optionReasons": {
-        "bridge-mcq-08": "本句指「縮窄差異」。",
+        "bridge-pdf-001": "本句指「克服兩者之間的距離、差異或障礙」。",
         "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
         "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
         "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
         "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
         "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。"
       },
-      "correctOption": "bridge-mcq-08"
+      "correctOption": "bridge-pdf-001"
     },
     {
       "id": "bridge-09-1",
-      "sense": "bridge-mcq-08",
+      "sense": "bridge-pdf-001",
       "en": "Shared experiences can bridge differences in background.",
       "zh": "共同經歷可以縮窄背景上的差異。",
       "masked": "Shared experiences can ____.",
       "options": [
-        "bridge-mcq-08",
+        "bridge-pdf-001",
         "bridge-mcq-07",
         "bridge-mcq-09",
         "bridge-mcq-06",
         "bridge-mcq-10",
         "bridge-mcq-05"
       ],
-      "explanation": "本句的「bridge differences in background」指「縮窄差異」。",
+      "explanation": "本句的「bridge differences in background」指「克服兩者之間的距離、差異或障礙」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "bridge differences in background"
       ],
       "optionReasons": {
-        "bridge-mcq-08": "本句指「縮窄差異」。",
+        "bridge-pdf-001": "本句指「克服兩者之間的距離、差異或障礙」。",
         "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
         "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
         "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
         "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
         "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。"
       },
-      "correctOption": "bridge-mcq-08"
+      "correctOption": "bridge-pdf-001"
     },
     {
       "id": "bridge-10-0",

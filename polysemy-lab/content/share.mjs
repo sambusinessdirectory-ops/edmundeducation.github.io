@@ -114,16 +114,6 @@ export default {
           "They share a strong belief in education.",
           "他們對教育有共同的信念。",
           "兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷"
-        ],
-        [
-          "They shared many happy memories.",
-          "他們共同擁有／經歷了很多快樂回憶。",
-          "兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷"
-        ],
-        [
-          "The whole team shared the disappointment.",
-          "整支隊伍都共同感受到失望。",
-          "兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷"
         ]
       ],
       "options": [],
@@ -300,6 +290,28 @@ export default {
           "The children shared the sweets equally.",
           "孩子們把糖果平均分配。",
           "表示平分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "share-pdf-001",
+      "title": "多個人共同經歷或感受到同一件事情",
+      "form": "6. share = experience something together（共同經歷） — 共同經歷；一起感受",
+      "en": "6. share = experience something together（共同經歷） — 共同經歷；一起感受",
+      "zh": "多個人共同經歷或感受到同一件事情",
+      "note": "原始 PDF 第 6 節：多個人共同經歷或感受到同一件事情",
+      "examples": [
+        [
+          "They shared many happy memories.",
+          "他們共同擁有／經歷了很多快樂回憶。",
+          "多個人共同經歷或感受到同一件事情"
+        ],
+        [
+          "The whole team shared the disappointment.",
+          "整支隊伍都共同感受到失望。",
+          "多個人共同經歷或感受到同一件事情"
         ]
       ],
       "options": [],
@@ -639,63 +651,63 @@ export default {
     },
     {
       "id": "share-06-0",
-      "sense": "share-mcq-05",
+      "sense": "share-pdf-001",
       "en": "They shared many happy memories.",
       "zh": "他們共同擁有／經歷了很多快樂回憶。",
       "masked": "They ____ many happy memories.",
       "options": [
-        "share-mcq-05",
+        "share-pdf-001",
         "share-mcq-04",
         "share-mcq-06",
         "share-mcq-03",
         "share-mcq-07",
         "share-mcq-02"
       ],
-      "explanation": "本句的「shared」指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
+      "explanation": "本句的「shared」指「多個人共同經歷或感受到同一件事情」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-05": "本句指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
+        "share-pdf-001": "本句指「多個人共同經歷或感受到同一件事情」。",
         "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
         "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
         "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
         "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
         "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。"
       },
-      "correctOption": "share-mcq-05"
+      "correctOption": "share-pdf-001"
     },
     {
       "id": "share-06-1",
-      "sense": "share-mcq-05",
+      "sense": "share-pdf-001",
       "en": "The whole team shared the disappointment.",
       "zh": "整支隊伍都共同感受到失望。",
       "masked": "The whole team ____ the disappointment.",
       "options": [
-        "share-mcq-05",
+        "share-pdf-001",
         "share-mcq-04",
         "share-mcq-06",
         "share-mcq-03",
         "share-mcq-07",
         "share-mcq-02"
       ],
-      "explanation": "本句的「shared」指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
+      "explanation": "本句的「shared」指「多個人共同經歷或感受到同一件事情」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-05": "本句指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
+        "share-pdf-001": "本句指「多個人共同經歷或感受到同一件事情」。",
         "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
         "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
         "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
         "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
         "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。"
       },
-      "correctOption": "share-mcq-05"
+      "correctOption": "share-pdf-001"
     },
     {
       "id": "share-07-0",

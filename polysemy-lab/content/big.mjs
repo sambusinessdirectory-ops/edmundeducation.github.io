@@ -679,16 +679,6 @@ export default {
           "The project started with one big idea.",
           "這個項目由一個宏大的構思開始。",
           "重要、宏大或統領整體方向的核心構思"
-        ],
-        [
-          "You finished five minutes early? Big deal.",
-          "你早五分鐘完成？有甚麼了不起。",
-          "重要、宏大或統領整體方向的核心構思"
-        ],
-        [
-          "So he bought a new car. Big deal.",
-          "所以他買了新車。有甚麼大不了。",
-          "重要、宏大或統領整體方向的核心構思"
         ]
       ],
       "options": [],
@@ -799,6 +789,28 @@ export default {
           "Success made her too big for her britches.",
           "成功令她變得自以為是。",
           "因地位／成功而變得過度自信、自大或目中無人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "big-pdf-reviewed-01",
+      "title": "諷刺地表示某事沒甚麼了不起",
+      "form": "PDF practice 80",
+      "en": "PDF practice 80",
+      "zh": "諷刺地表示某事沒甚麼了不起",
+      "note": "原始 PDF 練習 80：諷刺地表示某事沒甚麼了不起",
+      "examples": [
+        [
+          "You finished five minutes early? Big deal.",
+          "你早五分鐘完成？有甚麼了不起。",
+          "諷刺地表示某事沒甚麼了不起"
+        ],
+        [
+          "So he bought a new car. Big deal.",
+          "所以他買了新車。有甚麼大不了。",
+          "諷刺地表示某事沒甚麼了不起"
         ]
       ],
       "options": [],
@@ -3178,63 +3190,63 @@ export default {
     },
     {
       "id": "big-40-0",
-      "sense": "big-mcq-28",
+      "sense": "big-pdf-reviewed-01",
       "en": "You finished five minutes early? Big deal.",
       "zh": "你早五分鐘完成？有甚麼了不起。",
       "masked": "You finished five minutes early? ____",
       "options": [
-        "big-mcq-28",
+        "big-pdf-reviewed-01",
         "big-mcq-27",
         "big-mcq-29",
         "big-mcq-26",
         "big-mcq-30",
         "big-mcq-25"
       ],
-      "explanation": "本句的「Big deal.」指「重要、宏大或統領整體方向的核心構思」。",
+      "explanation": "本句的「Big deal.」指「諷刺地表示某事沒甚麼了不起」。",
       "sentenceIndex": 79,
       "sourcePractice": 80,
       "targets": [
         "Big deal."
       ],
       "optionReasons": {
-        "big-mcq-28": "本句指「重要、宏大或統領整體方向的核心構思」。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。"
+        "big-pdf-reviewed-01": "本句指「諷刺地表示某事沒甚麼了不起」。",
+        "big-mcq-27": "「整體情況、主要方向和長遠影響」與本句語境不同。",
+        "big-mcq-29": "「重要性高、會帶來明顯後果的」與本句語境不同。",
+        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」與本句語境不同。",
+        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」與本句語境不同。",
+        "big-mcq-25": "「有權勢、地位或影響力的大人物」與本句語境不同。"
       },
-      "correctOption": "big-mcq-28"
+      "correctOption": "big-pdf-reviewed-01"
     },
     {
       "id": "big-40-1",
-      "sense": "big-mcq-28",
+      "sense": "big-pdf-reviewed-01",
       "en": "So he bought a new car. Big deal.",
       "zh": "所以他買了新車。有甚麼大不了。",
       "masked": "So he bought a new car. ____ deal.",
       "options": [
-        "big-mcq-28",
+        "big-pdf-reviewed-01",
         "big-mcq-27",
         "big-mcq-29",
         "big-mcq-26",
         "big-mcq-30",
         "big-mcq-25"
       ],
-      "explanation": "本句的「Big」指「重要、宏大或統領整體方向的核心構思」。",
+      "explanation": "本句的「Big」指「諷刺地表示某事沒甚麼了不起」。",
       "sentenceIndex": 80,
       "sourcePractice": 81,
       "targets": [
         "Big"
       ],
       "optionReasons": {
-        "big-mcq-28": "本句指「重要、宏大或統領整體方向的核心構思」。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。"
+        "big-pdf-reviewed-01": "本句指「諷刺地表示某事沒甚麼了不起」。",
+        "big-mcq-27": "「整體情況、主要方向和長遠影響」與本句語境不同。",
+        "big-mcq-29": "「重要性高、會帶來明顯後果的」與本句語境不同。",
+        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」與本句語境不同。",
+        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」與本句語境不同。",
+        "big-mcq-25": "「有權勢、地位或影響力的大人物」與本句語境不同。"
       },
-      "correctOption": "big-mcq-28"
+      "correctOption": "big-pdf-reviewed-01"
     }
   ],
   "comparisons": [],

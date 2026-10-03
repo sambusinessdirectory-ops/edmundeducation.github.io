@@ -781,18 +781,7 @@ export default {
       "en": "push X into Y",
       "zh": "使 X 陷入 Y",
       "note": "來源詞義：使 X 陷入 Y",
-      "examples": [
-        [
-          "The losses pushed the company into financial difficulty.",
-          "虧損令公司陷入財務困難。",
-          "使 X 陷入 Y"
-        ],
-        [
-          "Stress can push workers into burnout.",
-          "壓力可以令員工陷入倦怠。",
-          "使 X 陷入 Y"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1215,16 +1204,6 @@ export default {
       "note": "來源詞義：推動 X 的行動",
       "examples": [
         [
-          "The company launched a major push to improve communication.",
-          "公司發起一項改善溝通的重大推動行動。",
-          "推動 X 的行動"
-        ],
-        [
-          "There is a new push for greater accountability.",
-          "目前有一股新的力量推動加強問責。",
-          "推動 X 的行動"
-        ],
-        [
           "There is a growing push for flexible working.",
           "愈來愈多人正推動彈性工作。",
           "推動 X 的行動"
@@ -1602,6 +1581,50 @@ export default {
       "zh": "推離／離開",
       "note": "來源詞義：推離／離開",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "push-pdf-001",
+      "title": "成為強大原因，使 X 進入 Y 狀態",
+      "form": "41. push someone/something into a state — 使陷入某狀態",
+      "en": "41. push someone/something into a state — 使陷入某狀態",
+      "zh": "成為強大原因，使 X 進入 Y 狀態",
+      "note": "原始 PDF 第 41 節：成為強大原因，使 X 進入 Y 狀態",
+      "examples": [
+        [
+          "The losses pushed the company into financial difficulty.",
+          "虧損令公司陷入財務困難。",
+          "成為強大原因，使 X 進入 Y 狀態"
+        ],
+        [
+          "Stress can push workers into burnout.",
+          "壓力可以令員工陷入倦怠。",
+          "成為強大原因，使 X 進入 Y 狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "push-pdf-002",
+      "title": "為達成某個目標而作出的集中、有組織的努力",
+      "form": "65. a push = strong organized effort — 推動；努力；攻勢",
+      "en": "65. a push = strong organized effort — 推動；努力；攻勢",
+      "zh": "為達成某個目標而作出的集中、有組織的努力",
+      "note": "原始 PDF 第 65 節：為達成某個目標而作出的集中、有組織的努力",
+      "examples": [
+        [
+          "The company launched a major push to improve communication.",
+          "公司發起一項改善溝通的重大推動行動。",
+          "為達成某個目標而作出的集中、有組織的努力"
+        ],
+        [
+          "There is a new push for greater accountability.",
+          "目前有一股新的力量推動加強問責。",
+          "為達成某個目標而作出的集中、有組織的努力"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -4069,63 +4092,63 @@ export default {
     },
     {
       "id": "push-41-0",
-      "sense": "push-mcq-31",
+      "sense": "push-pdf-001",
       "en": "The losses pushed the company into financial difficulty.",
       "zh": "虧損令公司陷入財務困難。",
       "masked": "The losses ____.",
       "options": [
-        "push-mcq-31",
+        "push-pdf-001",
         "push-mcq-30",
         "push-mcq-32",
         "push-mcq-29",
         "push-mcq-33",
         "push-mcq-28"
       ],
-      "explanation": "本句的「pushed the company into financial difficulty」指「使 X 陷入 Y」。",
+      "explanation": "本句的「pushed the company into financial difficulty」指「成為強大原因，使 X 進入 Y 狀態」。",
       "sentenceIndex": 82,
       "sourcePractice": 1,
       "targets": [
         "pushed the company into financial difficulty"
       ],
       "optionReasons": {
-        "push-mcq-31": "本句指「使 X 陷入 Y」。",
+        "push-pdf-001": "本句指「成為強大原因，使 X 進入 Y 狀態」。",
         "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
         "push-mcq-32": "「繼續推進」與本句語境不同。",
         "push-mcq-29": "「壓低成本」與本句語境不同。",
         "push-mcq-33": "「向前推進」與本句語境不同。",
         "push-mcq-28": "「推高價格」與本句語境不同。"
       },
-      "correctOption": "push-mcq-31"
+      "correctOption": "push-pdf-001"
     },
     {
       "id": "push-41-1",
-      "sense": "push-mcq-31",
+      "sense": "push-pdf-001",
       "en": "Stress can push workers into burnout.",
       "zh": "壓力可以令員工陷入倦怠。",
       "masked": "Stress can ____ workers into burnout.",
       "options": [
-        "push-mcq-31",
+        "push-pdf-001",
         "push-mcq-30",
         "push-mcq-32",
         "push-mcq-29",
         "push-mcq-33",
         "push-mcq-28"
       ],
-      "explanation": "本句的「push」指「使 X 陷入 Y」。",
+      "explanation": "本句的「push」指「成為強大原因，使 X 進入 Y 狀態」。",
       "sentenceIndex": 83,
       "sourcePractice": 2,
       "targets": [
         "push"
       ],
       "optionReasons": {
-        "push-mcq-31": "本句指「使 X 陷入 Y」。",
+        "push-pdf-001": "本句指「成為強大原因，使 X 進入 Y 狀態」。",
         "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
         "push-mcq-32": "「繼續推進」與本句語境不同。",
         "push-mcq-29": "「壓低成本」與本句語境不同。",
         "push-mcq-33": "「向前推進」與本句語境不同。",
         "push-mcq-28": "「推高價格」與本句語境不同。"
       },
-      "correctOption": "push-mcq-31"
+      "correctOption": "push-pdf-001"
     },
     {
       "id": "push-42-0",
@@ -5389,63 +5412,63 @@ export default {
     },
     {
       "id": "push-65-0",
-      "sense": "push-mcq-47",
+      "sense": "push-pdf-002",
       "en": "The company launched a major push to improve communication.",
       "zh": "公司發起一項改善溝通的重大推動行動。",
       "masked": "The company launched ____.",
       "options": [
-        "push-mcq-47",
+        "push-pdf-002",
         "push-mcq-46",
         "push-mcq-48",
         "push-mcq-45",
         "push-mcq-49",
         "push-mcq-44"
       ],
-      "explanation": "本句的「a major push to improve communication」指「推動 X 的行動」。",
+      "explanation": "本句的「a major push to improve communication」指「為達成某個目標而作出的集中、有組織的努力」。",
       "sentenceIndex": 128,
       "sourcePractice": 1,
       "targets": [
         "a major push to improve communication"
       ],
       "optionReasons": {
-        "push-mcq-47": "本句指「推動 X 的行動」。",
+        "push-pdf-002": "本句指「為達成某個目標而作出的集中、有組織的努力」。",
         "push-mcq-46": "「一推」與本句語境不同。",
         "push-mcq-48": "「最後衝刺」與本句語境不同。",
         "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
         "push-mcq-49": "「大力推動」與本句語境不同。",
         "push-mcq-44": "「突破常規／極限」與本句語境不同。"
       },
-      "correctOption": "push-mcq-47"
+      "correctOption": "push-pdf-002"
     },
     {
       "id": "push-65-1",
-      "sense": "push-mcq-47",
+      "sense": "push-pdf-002",
       "en": "There is a new push for greater accountability.",
       "zh": "目前有一股新的力量推動加強問責。",
       "masked": "There is a new ____ for greater accountability.",
       "options": [
-        "push-mcq-47",
+        "push-pdf-002",
         "push-mcq-46",
         "push-mcq-48",
         "push-mcq-45",
         "push-mcq-49",
         "push-mcq-44"
       ],
-      "explanation": "本句的「push」指「推動 X 的行動」。",
+      "explanation": "本句的「push」指「為達成某個目標而作出的集中、有組織的努力」。",
       "sentenceIndex": 129,
       "sourcePractice": 2,
       "targets": [
         "push"
       ],
       "optionReasons": {
-        "push-mcq-47": "本句指「推動 X 的行動」。",
+        "push-pdf-002": "本句指「為達成某個目標而作出的集中、有組織的努力」。",
         "push-mcq-46": "「一推」與本句語境不同。",
         "push-mcq-48": "「最後衝刺」與本句語境不同。",
         "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
         "push-mcq-49": "「大力推動」與本句語境不同。",
         "push-mcq-44": "「突破常規／極限」與本句語境不同。"
       },
-      "correctOption": "push-mcq-47"
+      "correctOption": "push-pdf-002"
     },
     {
       "id": "push-66-0",

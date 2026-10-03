@@ -23,23 +23,7 @@ export default {
       "en": "wide range of",
       "zh": "種類或選擇的涵蓋面非常廣",
       "note": "來源詞義：種類或選擇的涵蓋面非常廣",
-      "examples": [
-        [
-          "She grows quite a wide range of plants.",
-          "她種植的植物種類相當多。",
-          "種類或選擇的涵蓋面非常廣"
-        ],
-        [
-          "The course covers a range of topics.",
-          "這門課涵蓋多種不同題目。",
-          "種類或選擇的涵蓋面非常廣"
-        ],
-        [
-          "The shop sells a wide range of products.",
-          "這間店出售種類繁多的產品。",
-          "種類或選擇的涵蓋面非常廣"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -456,16 +440,55 @@ export default {
           "Rangers protect wildlife and maintain trails.",
           "護林員／巡護員負責保護野生動物和維護步道。",
           "負責巡查、保護或管理公園、森林等自然地區的人員"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "range-pdf-001",
+      "title": "同一大類中包含不同種類、選擇或項目的集合",
+      "form": "1. a range of + things（種類／選擇） — 一系列；各種；範圍",
+      "en": "1. a range of + things（種類／選擇） — 一系列；各種；範圍",
+      "zh": "同一大類中包含不同種類、選擇或項目的集合",
+      "note": "原始 PDF 第 1 節：同一大類中包含不同種類、選擇或項目的集合",
+      "examples": [
+        [
+          "She grows quite a wide range of plants.",
+          "她種植的植物種類相當多。",
+          "同一大類中包含不同種類、選擇或項目的集合"
         ],
+        [
+          "The course covers a range of topics.",
+          "這門課涵蓋多種不同題目。",
+          "同一大類中包含不同種類、選擇或項目的集合"
+        ],
+        [
+          "The shop sells a wide range of products.",
+          "這間店出售種類繁多的產品。",
+          "同一大類中包含不同種類、選擇或項目的集合"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "range-pdf-002",
+      "title": "在一定區域內巡查、管理或保護土地／野生動物的人",
+      "form": "21. ranger = person who ranges/patrols（較廣義） — 巡邏者；巡護人員",
+      "en": "21. ranger = person who ranges/patrols（較廣義） — 巡邏者；巡護人員",
+      "zh": "在一定區域內巡查、管理或保護土地／野生動物的人",
+      "note": "原始 PDF 第 21 節：在一定區域內巡查、管理或保護土地／野生動物的人",
+      "examples": [
         [
           "The ranger patrolled the reserve every morning.",
           "那名巡護員每天早上巡查保護區。",
-          "負責巡查、保護或管理公園、森林等自然地區的人員"
+          "在一定區域內巡查、管理或保護土地／野生動物的人"
         ],
         [
           "Local rangers monitor animal populations.",
           "當地巡護人員監察動物數量。",
-          "負責巡查、保護或管理公園、森林等自然地區的人員"
+          "在一定區域內巡查、管理或保護土地／野生動物的人"
         ]
       ],
       "options": [],
@@ -475,93 +498,93 @@ export default {
   "questions": [
     {
       "id": "range-01-0",
-      "sense": "range-mcq-02",
+      "sense": "range-pdf-001",
       "en": "She grows quite a wide range of plants.",
       "zh": "她種植的植物種類相當多。",
       "masked": "She grows quite a ____.",
       "options": [
-        "range-mcq-02",
+        "range-pdf-001",
         "range-mcq-01",
         "range-mcq-03",
         "range-mcq-04",
         "range-mcq-05",
         "range-mcq-06"
       ],
-      "explanation": "本句的「wide range of plants」指「種類或選擇的涵蓋面非常廣」。",
+      "explanation": "本句的「wide range of plants」指「同一大類中包含不同種類、選擇或項目的集合」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "wide range of plants"
       ],
       "optionReasons": {
-        "range-mcq-02": "本句指「種類或選擇的涵蓋面非常廣」。",
+        "range-pdf-001": "本句指「同一大類中包含不同種類、選擇或項目的集合」。",
         "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
         "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
         "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
         "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
         "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
       },
-      "correctOption": "range-mcq-02"
+      "correctOption": "range-pdf-001"
     },
     {
       "id": "range-01-1",
-      "sense": "range-mcq-02",
+      "sense": "range-pdf-001",
       "en": "The course covers a range of topics.",
       "zh": "這門課涵蓋多種不同題目。",
       "masked": "The course covers a ____.",
       "options": [
-        "range-mcq-02",
+        "range-pdf-001",
         "range-mcq-01",
         "range-mcq-03",
         "range-mcq-04",
         "range-mcq-05",
         "range-mcq-06"
       ],
-      "explanation": "本句的「range of topics」指「種類或選擇的涵蓋面非常廣」。",
+      "explanation": "本句的「range of topics」指「同一大類中包含不同種類、選擇或項目的集合」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "range of topics"
       ],
       "optionReasons": {
-        "range-mcq-02": "本句指「種類或選擇的涵蓋面非常廣」。",
+        "range-pdf-001": "本句指「同一大類中包含不同種類、選擇或項目的集合」。",
         "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
         "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
         "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
         "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
         "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
       },
-      "correctOption": "range-mcq-02"
+      "correctOption": "range-pdf-001"
     },
     {
       "id": "range-01-2",
-      "sense": "range-mcq-02",
+      "sense": "range-pdf-001",
       "en": "The shop sells a wide range of products.",
       "zh": "這間店出售種類繁多的產品。",
       "masked": "The shop sells a ____.",
       "options": [
-        "range-mcq-02",
+        "range-pdf-001",
         "range-mcq-01",
         "range-mcq-03",
         "range-mcq-04",
         "range-mcq-05",
         "range-mcq-06"
       ],
-      "explanation": "本句的「wide range of products」指「種類或選擇的涵蓋面非常廣」。",
+      "explanation": "本句的「wide range of products」指「同一大類中包含不同種類、選擇或項目的集合」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "wide range of products"
       ],
       "optionReasons": {
-        "range-mcq-02": "本句指「種類或選擇的涵蓋面非常廣」。",
+        "range-pdf-001": "本句指「同一大類中包含不同種類、選擇或項目的集合」。",
         "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
         "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
         "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
         "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
         "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
       },
-      "correctOption": "range-mcq-02"
+      "correctOption": "range-pdf-001"
     },
     {
       "id": "range-02-0",
@@ -1705,63 +1728,63 @@ export default {
     },
     {
       "id": "range-21-0",
-      "sense": "range-mcq-21",
+      "sense": "range-pdf-002",
       "en": "The ranger patrolled the reserve every morning.",
       "zh": "那名巡護員每天早上巡查保護區。",
       "masked": "The ____ patrolled the reserve every morning.",
       "options": [
-        "range-mcq-21",
+        "range-pdf-002",
         "range-mcq-20",
         "range-mcq-19",
         "range-mcq-18",
         "range-mcq-17",
         "range-mcq-16"
       ],
-      "explanation": "本句的「ranger」指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
+      "explanation": "本句的「ranger」指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "ranger"
       ],
       "optionReasons": {
-        "range-mcq-21": "本句指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
+        "range-pdf-002": "本句指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
         "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
         "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
         "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
         "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
         "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
       },
-      "correctOption": "range-mcq-21"
+      "correctOption": "range-pdf-002"
     },
     {
       "id": "range-21-1",
-      "sense": "range-mcq-21",
+      "sense": "range-pdf-002",
       "en": "Local rangers monitor animal populations.",
       "zh": "當地巡護人員監察動物數量。",
       "masked": "Local ____ monitor animal populations.",
       "options": [
-        "range-mcq-21",
+        "range-pdf-002",
         "range-mcq-20",
         "range-mcq-19",
         "range-mcq-18",
         "range-mcq-17",
         "range-mcq-16"
       ],
-      "explanation": "本句的「rangers」指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
+      "explanation": "本句的「rangers」指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "rangers"
       ],
       "optionReasons": {
-        "range-mcq-21": "本句指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
+        "range-pdf-002": "本句指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
         "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
         "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
         "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
         "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
         "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
       },
-      "correctOption": "range-mcq-21"
+      "correctOption": "range-pdf-002"
     }
   ],
   "comparisons": [],

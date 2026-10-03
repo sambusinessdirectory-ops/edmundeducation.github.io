@@ -145,11 +145,6 @@ export default {
           "某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法"
         ],
         [
-          "The painting uses traditional religious iconography.",
-          "這幅畫使用了傳統宗教圖像符號系統。",
-          "某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法"
-        ],
-        [
           "The course introduces Renaissance iconography.",
           "這門課介紹文藝復興時期的圖像學。",
           "某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法"
@@ -187,6 +182,23 @@ export default {
           "The artist was regarded as an iconoclast.",
           "那位藝術家被視為一個挑戰傳統的人／反傳統者。",
           "原指破壞聖像者；現亦可指挑戰傳統觀念的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "icon-pdf-001",
+      "title": "某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵",
+      "form": "iconography = visual images/symbols associated with a subject（圖像體系） — 圖像學；象",
+      "en": "iconography = visual images/symbols associated with a subject（圖像體系） — 圖像學；象",
+      "zh": "某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵",
+      "note": "原始 PDF 第 None 節：某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵",
+      "examples": [
+        [
+          "The painting uses traditional religious iconography.",
+          "這幅畫使用了傳統宗教圖像符號系統。",
+          "某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵"
         ]
       ],
       "options": [],
@@ -556,33 +568,33 @@ export default {
     },
     {
       "id": "icon-06-7",
-      "sense": "icon-mcq-07",
+      "sense": "icon-pdf-001",
       "en": "The painting uses traditional religious iconography.",
       "zh": "這幅畫使用了傳統宗教圖像符號系統。",
       "masked": "The painting uses traditional religious ____.",
       "options": [
-        "icon-mcq-07",
+        "icon-pdf-001",
         "icon-mcq-06",
         "icon-mcq-08",
         "icon-mcq-05",
         "icon-mcq-09",
         "icon-mcq-04"
       ],
-      "explanation": "本句的「iconography」指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
+      "explanation": "本句的「iconography」指「某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "iconography"
       ],
       "optionReasons": {
-        "icon-mcq-07": "本句指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
+        "icon-pdf-001": "本句指「某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵」。",
         "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
         "icon-mcq-08": "「與圖像符號系統或圖像學有關的」與本句語境不同。",
         "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
         "icon-mcq-09": "「原指破壞聖像者；現亦可指挑戰傳統觀念的人」與本句語境不同。",
         "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。"
       },
-      "correctOption": "icon-mcq-07"
+      "correctOption": "icon-pdf-001"
     },
     {
       "id": "icon-06-8",

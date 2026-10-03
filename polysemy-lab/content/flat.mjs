@@ -22,16 +22,6 @@ export default {
           "The land around the village is very flat.",
           "村莊周圍的土地非常平坦。",
           "表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的"
-        ],
-        [
-          "She lay flat on the floor.",
-          "她平躺在地板上。",
-          "表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的"
-        ],
-        [
-          "Press the paper flat against the table.",
-          "把紙張壓平在桌面上。",
-          "表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的"
         ]
       ],
       "options": [],
@@ -58,16 +48,6 @@ export default {
         [
           "The performance felt emotionally flat.",
           "那場表演在情感上顯得缺乏起伏、沒有感染力。",
-          "缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力"
-        ],
-        [
-          "He answered in a flat voice.",
-          "他用平淡而沒有感情的語氣回答。",
-          "缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力"
-        ],
-        [
-          "Her delivery sounded strangely flat.",
-          "她的說話方式聽起來異常平淡、缺乏情緒起伏。",
           "缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力"
         ]
       ],
@@ -235,23 +215,7 @@ export default {
       "en": "flatly",
       "zh": "斷然地；亦可指毫無情緒或語調起伏地",
       "note": "來源詞義：斷然地；亦可指毫無情緒或語調起伏地",
-      "examples": [
-        [
-          "She flatly refused to answer.",
-          "她斷然拒絕回答。",
-          "斷然地；亦可指毫無情緒或語調起伏地"
-        ],
-        [
-          "He flatly denied the accusation.",
-          "他斬釘截鐵地否認那項指控。",
-          "斷然地；亦可指毫無情緒或語調起伏地"
-        ],
-        [
-          "‘No,’ she said flatly.",
-          "『不。』她毫無感情地／冷淡地說。",
-          "斷然地；亦可指毫無情緒或語調起伏地"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -272,6 +236,89 @@ export default {
           "The storm flattened several trees.",
           "暴風把幾棵樹吹倒壓平了。",
           "令某物變平、被壓倒或減少原本的突出／起伏"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "flat-pdf-001",
+      "title": "整個表面平放或貼在另一個表面上，沒有豎起或突出",
+      "form": "2. flat = lying horizontally / pressed down（位置／形態） — 平放的；貼平的",
+      "en": "2. flat = lying horizontally / pressed down（位置／形態） — 平放的；貼平的",
+      "zh": "整個表面平放或貼在另一個表面上，沒有豎起或突出",
+      "note": "原始 PDF 第 2 節：整個表面平放或貼在另一個表面上，沒有豎起或突出",
+      "examples": [
+        [
+          "She lay flat on the floor.",
+          "她平躺在地板上。",
+          "整個表面平放或貼在另一個表面上，沒有豎起或突出"
+        ],
+        [
+          "Press the paper flat against the table.",
+          "把紙張壓平在桌面上。",
+          "整個表面平放或貼在另一個表面上，沒有豎起或突出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "flat-pdf-002",
+      "title": "語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣",
+      "form": "4. flat = without emotional expression（聲音／語氣） — 平淡的；沒有感情的",
+      "en": "4. flat = without emotional expression（聲音／語氣） — 平淡的；沒有感情的",
+      "zh": "語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣",
+      "note": "原始 PDF 第 4 節：語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣",
+      "examples": [
+        [
+          "He answered in a flat voice.",
+          "他用平淡而沒有感情的語氣回答。",
+          "語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣"
+        ],
+        [
+          "Her delivery sounded strangely flat.",
+          "她的說話方式聽起來異常平淡、缺乏情緒起伏。",
+          "語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "flat-pdf-003",
+      "title": "以完全、不留餘地而直接的方式",
+      "form": "flatly = directly and absolutely",
+      "en": "flatly = directly and absolutely",
+      "zh": "以完全、不留餘地而直接的方式",
+      "note": "原始 PDF 第 None 節：以完全、不留餘地而直接的方式",
+      "examples": [
+        [
+          "She flatly refused to answer.",
+          "她斷然拒絕回答。",
+          "以完全、不留餘地而直接的方式"
+        ],
+        [
+          "He flatly denied the accusation.",
+          "他斬釘截鐵地否認那項指控。",
+          "以完全、不留餘地而直接的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "flat-pdf-004",
+      "title": "以缺乏情緒、語調變化或表情的方式",
+      "form": "flatly = without expression",
+      "en": "flatly = without expression",
+      "zh": "以缺乏情緒、語調變化或表情的方式",
+      "note": "原始 PDF 第 None 節：以缺乏情緒、語調變化或表情的方式",
+      "examples": [
+        [
+          "‘No,’ she said flatly.",
+          "『不。』她毫無感情地／冷淡地說。",
+          "以缺乏情緒、語調變化或表情的方式"
         ]
       ],
       "options": [],
@@ -341,63 +388,63 @@ export default {
     },
     {
       "id": "flat-02-0",
-      "sense": "flat-mcq-01",
+      "sense": "flat-pdf-001",
       "en": "She lay flat on the floor.",
       "zh": "她平躺在地板上。",
       "masked": "She lay ____ on the floor.",
       "options": [
-        "flat-mcq-01",
+        "flat-pdf-001",
         "flat-mcq-02",
         "flat-mcq-03",
         "flat-mcq-04",
         "flat-mcq-05",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flat」指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
+      "explanation": "本句的「flat」指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-01": "本句指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
+        "flat-pdf-001": "本句指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
         "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
         "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
         "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
         "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-01"
+      "correctOption": "flat-pdf-001"
     },
     {
       "id": "flat-02-1",
-      "sense": "flat-mcq-01",
+      "sense": "flat-pdf-001",
       "en": "Press the paper flat against the table.",
       "zh": "把紙張壓平在桌面上。",
       "masked": "Press the paper ____ against the table.",
       "options": [
-        "flat-mcq-01",
+        "flat-pdf-001",
         "flat-mcq-02",
         "flat-mcq-03",
         "flat-mcq-04",
         "flat-mcq-05",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flat」指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
+      "explanation": "本句的「flat」指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-01": "本句指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
+        "flat-pdf-001": "本句指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
         "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
         "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
         "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
         "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-01"
+      "correctOption": "flat-pdf-001"
     },
     {
       "id": "flat-03-0",
@@ -491,63 +538,63 @@ export default {
     },
     {
       "id": "flat-04-0",
-      "sense": "flat-mcq-02",
+      "sense": "flat-pdf-002",
       "en": "He answered in a flat voice.",
       "zh": "他用平淡而沒有感情的語氣回答。",
       "masked": "He answered in a ____ voice.",
       "options": [
-        "flat-mcq-02",
+        "flat-pdf-002",
         "flat-mcq-01",
         "flat-mcq-03",
         "flat-mcq-04",
         "flat-mcq-05",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+      "explanation": "本句的「flat」指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-02": "本句指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+        "flat-pdf-002": "本句指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
         "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
         "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
         "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
         "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-02"
+      "correctOption": "flat-pdf-002"
     },
     {
       "id": "flat-04-1",
-      "sense": "flat-mcq-02",
+      "sense": "flat-pdf-002",
       "en": "Her delivery sounded strangely flat.",
       "zh": "她的說話方式聽起來異常平淡、缺乏情緒起伏。",
       "masked": "Her delivery sounded strangely ____.",
       "options": [
-        "flat-mcq-02",
+        "flat-pdf-002",
         "flat-mcq-01",
         "flat-mcq-03",
         "flat-mcq-04",
         "flat-mcq-05",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+      "explanation": "本句的「flat」指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-02": "本句指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+        "flat-pdf-002": "本句指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
         "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
         "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
         "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
         "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-02"
+      "correctOption": "flat-pdf-002"
     },
     {
       "id": "flat-05-0",
@@ -971,93 +1018,93 @@ export default {
     },
     {
       "id": "flat-12-0",
-      "sense": "flat-mcq-10",
+      "sense": "flat-pdf-003",
       "en": "She flatly refused to answer.",
       "zh": "她斷然拒絕回答。",
       "masked": "She ____ to answer.",
       "options": [
-        "flat-mcq-10",
+        "flat-pdf-003",
         "flat-mcq-09",
         "flat-mcq-11",
         "flat-mcq-08",
         "flat-mcq-07",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flatly refused」指「斷然地；亦可指毫無情緒或語調起伏地」。",
+      "explanation": "本句的「flatly refused」指「以完全、不留餘地而直接的方式」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "flatly refused"
       ],
       "optionReasons": {
-        "flat-mcq-10": "本句指「斷然地；亦可指毫無情緒或語調起伏地」。",
+        "flat-pdf-003": "本句指「以完全、不留餘地而直接的方式」。",
         "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
         "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
         "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
         "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-10"
+      "correctOption": "flat-pdf-003"
     },
     {
       "id": "flat-12-1",
-      "sense": "flat-mcq-10",
+      "sense": "flat-pdf-003",
       "en": "He flatly denied the accusation.",
       "zh": "他斬釘截鐵地否認那項指控。",
       "masked": "He ____ the accusation.",
       "options": [
-        "flat-mcq-10",
+        "flat-pdf-003",
         "flat-mcq-09",
         "flat-mcq-11",
         "flat-mcq-08",
         "flat-mcq-07",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flatly denied」指「斷然地；亦可指毫無情緒或語調起伏地」。",
+      "explanation": "本句的「flatly denied」指「以完全、不留餘地而直接的方式」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "flatly denied"
       ],
       "optionReasons": {
-        "flat-mcq-10": "本句指「斷然地；亦可指毫無情緒或語調起伏地」。",
+        "flat-pdf-003": "本句指「以完全、不留餘地而直接的方式」。",
         "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
         "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
         "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
         "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-10"
+      "correctOption": "flat-pdf-003"
     },
     {
       "id": "flat-12-2",
-      "sense": "flat-mcq-10",
+      "sense": "flat-pdf-004",
       "en": "‘No,’ she said flatly.",
       "zh": "『不。』她毫無感情地／冷淡地說。",
       "masked": "‘No,’ she said ____.",
       "options": [
-        "flat-mcq-10",
+        "flat-pdf-004",
         "flat-mcq-09",
         "flat-mcq-11",
         "flat-mcq-08",
         "flat-mcq-07",
         "flat-mcq-06"
       ],
-      "explanation": "本句的「flatly」指「斷然地；亦可指毫無情緒或語調起伏地」。",
+      "explanation": "本句的「flatly」指「以缺乏情緒、語調變化或表情的方式」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "flatly"
       ],
       "optionReasons": {
-        "flat-mcq-10": "本句指「斷然地；亦可指毫無情緒或語調起伏地」。",
+        "flat-pdf-004": "本句指「以缺乏情緒、語調變化或表情的方式」。",
         "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
         "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
         "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
         "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
         "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
       },
-      "correctOption": "flat-mcq-10"
+      "correctOption": "flat-pdf-004"
     },
     {
       "id": "flat-12-3",

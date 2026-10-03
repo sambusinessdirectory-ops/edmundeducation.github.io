@@ -12,23 +12,7 @@ export default {
       "en": "claim — statement verb",
       "zh": "把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑",
       "note": "來源詞義：把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑",
-      "examples": [
-        [
-          "Another person claimed the video was embarrassing.",
-          "另一個人聲稱那段影片很尷尬。",
-          "把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑"
-        ],
-        [
-          "He claimed that he had never seen the message.",
-          "他聲稱自己從未看過那則訊息。",
-          "把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑"
-        ],
-        [
-          "The company claims its product is safer.",
-          "公司聲稱自己的產品更安全。",
-          "把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -167,16 +151,6 @@ export default {
           "She claimed compensation for the damage.",
           "她就損失提出賠償要求。",
           "正式提出的索償、福利或金錢申領要求"
-        ],
-        [
-          "Eligible workers can claim benefits.",
-          "符合資格的工人可以申領福利／津貼。",
-          "正式提出的索償、福利或金錢申領要求"
-        ],
-        [
-          "He claimed unemployment benefit for several months.",
-          "他申領了幾個月的失業津貼。",
-          "正式提出的索償、福利或金錢申領要求"
         ]
       ],
       "options": [],
@@ -208,16 +182,6 @@ export default {
         [
           "Several people made claims to the inheritance.",
           "幾個人都對那份遺產提出繼承權主張。",
-          "表示自己對某物擁有合法權利／所有權"
-        ],
-        [
-          "Two families laid claim to the land.",
-          "兩個家庭都聲稱對那塊土地擁有權利。",
-          "表示自己對某物擁有合法權利／所有權"
-        ],
-        [
-          "Several cities lay claim to being the birthplace of the dish.",
-          "幾個城市都聲稱自己是這道菜的發源地。",
           "表示自己對某物擁有合法權利／所有權"
         ]
       ],
@@ -295,16 +259,6 @@ export default {
           "The storm claimed several homes.",
           "暴風雨毀去了／奪去了數間房屋。",
           "災難、疾病或事故造成死亡"
-        ],
-        [
-          "The accident claimed his life.",
-          "那宗事故奪去了他的生命。",
-          "災難、疾病或事故造成死亡"
-        ],
-        [
-          "The disease has claimed many lives.",
-          "這種疾病已奪去很多人的生命。",
-          "災難、疾病或事故造成死亡"
         ]
       ],
       "options": [],
@@ -375,98 +329,191 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "claim-pdf-001",
+      "title": "明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時",
+      "form": "1. claim = state/assert that something is true — 聲稱；宣稱",
+      "en": "1. claim = state/assert that something is true — 聲稱；宣稱",
+      "zh": "明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時",
+      "note": "原始 PDF 第 1 節：明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時",
+      "examples": [
+        [
+          "Another person claimed the video was embarrassing.",
+          "另一個人聲稱那段影片很尷尬。",
+          "明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時"
+        ],
+        [
+          "He claimed that he had never seen the message.",
+          "他聲稱自己從未看過那則訊息。",
+          "明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時"
+        ],
+        [
+          "The company claims its product is safer.",
+          "公司聲稱自己的產品更安全。",
+          "明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "claim-pdf-002",
+      "title": "按資格正式申領政府／機構提供的福利",
+      "form": "10. claim benefits = 申領福利／津貼",
+      "en": "10. claim benefits = 申領福利／津貼",
+      "zh": "按資格正式申領政府／機構提供的福利",
+      "note": "原始 PDF 第 10 節：按資格正式申領政府／機構提供的福利",
+      "examples": [
+        [
+          "Eligible workers can claim benefits.",
+          "符合資格的工人可以申領福利／津貼。",
+          "按資格正式申領政府／機構提供的福利"
+        ],
+        [
+          "He claimed unemployment benefit for several months.",
+          "他申領了幾個月的失業津貼。",
+          "按資格正式申領政府／機構提供的福利"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "claim-pdf-003",
+      "title": "公開主張自己有權擁有／代表／享有某物",
+      "form": "13. lay claim to + noun = 聲稱擁有；主張對……有權利",
+      "en": "13. lay claim to + noun = 聲稱擁有；主張對……有權利",
+      "zh": "公開主張自己有權擁有／代表／享有某物",
+      "note": "原始 PDF 第 13 節：公開主張自己有權擁有／代表／享有某物",
+      "examples": [
+        [
+          "Two families laid claim to the land.",
+          "兩個家庭都聲稱對那塊土地擁有權利。",
+          "公開主張自己有權擁有／代表／享有某物"
+        ],
+        [
+          "Several cities lay claim to being the birthplace of the dish.",
+          "幾個城市都聲稱自己是這道菜的發源地。",
+          "公開主張自己有權擁有／代表／享有某物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "claim-pdf-004",
+      "title": "導致某人死亡",
+      "form": "18. claim a life = 奪去生命",
+      "en": "18. claim a life = 奪去生命",
+      "zh": "導致某人死亡",
+      "note": "原始 PDF 第 18 節：導致某人死亡",
+      "examples": [
+        [
+          "The accident claimed his life.",
+          "那宗事故奪去了他的生命。",
+          "導致某人死亡"
+        ],
+        [
+          "The disease has claimed many lives.",
+          "這種疾病已奪去很多人的生命。",
+          "導致某人死亡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "claim-01-0",
-      "sense": "claim-mcq-01",
+      "sense": "claim-pdf-001",
       "en": "Another person claimed the video was embarrassing.",
       "zh": "另一個人聲稱那段影片很尷尬。",
       "masked": "Another person ____ the video was embarrassing.",
       "options": [
-        "claim-mcq-01",
+        "claim-pdf-001",
         "claim-mcq-02",
         "claim-mcq-03",
         "claim-mcq-04",
         "claim-mcq-05",
         "claim-mcq-06"
       ],
-      "explanation": "本句的「claimed」指「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」。",
+      "explanation": "本句的「claimed」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-01": "本句指「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」。",
+        "claim-pdf-001": "本句指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
         "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
         "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-01"
+      "correctOption": "claim-pdf-001"
     },
     {
       "id": "claim-01-1",
-      "sense": "claim-mcq-01",
+      "sense": "claim-pdf-001",
       "en": "He claimed that he had never seen the message.",
       "zh": "他聲稱自己從未看過那則訊息。",
       "masked": "He ____ that he had never seen the message.",
       "options": [
-        "claim-mcq-01",
+        "claim-pdf-001",
         "claim-mcq-02",
         "claim-mcq-03",
         "claim-mcq-04",
         "claim-mcq-05",
         "claim-mcq-06"
       ],
-      "explanation": "本句的「claimed」指「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」。",
+      "explanation": "本句的「claimed」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-01": "本句指「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」。",
+        "claim-pdf-001": "本句指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
         "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
         "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-01"
+      "correctOption": "claim-pdf-001"
     },
     {
       "id": "claim-01-2",
-      "sense": "claim-mcq-01",
+      "sense": "claim-pdf-001",
       "en": "The company claims its product is safer.",
       "zh": "公司聲稱自己的產品更安全。",
       "masked": "The company ____ its product is safer.",
       "options": [
-        "claim-mcq-01",
+        "claim-pdf-001",
         "claim-mcq-02",
         "claim-mcq-03",
         "claim-mcq-04",
         "claim-mcq-05",
         "claim-mcq-06"
       ],
-      "explanation": "本句的「claims」指「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」。",
+      "explanation": "本句的「claims」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "claims"
       ],
       "optionReasons": {
-        "claim-mcq-01": "本句指「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」。",
+        "claim-pdf-001": "本句指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
         "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
         "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-01"
+      "correctOption": "claim-pdf-001"
     },
     {
       "id": "claim-02-0",
@@ -950,63 +997,63 @@ export default {
     },
     {
       "id": "claim-10-0",
-      "sense": "claim-mcq-06",
+      "sense": "claim-pdf-002",
       "en": "Eligible workers can claim benefits.",
       "zh": "符合資格的工人可以申領福利／津貼。",
       "masked": "Eligible workers can ____.",
       "options": [
-        "claim-mcq-06",
+        "claim-pdf-002",
         "claim-mcq-05",
         "claim-mcq-07",
         "claim-mcq-04",
         "claim-mcq-08",
         "claim-mcq-03"
       ],
-      "explanation": "本句的「claim benefits」指「正式提出的索償、福利或金錢申領要求」。",
+      "explanation": "本句的「claim benefits」指「按資格正式申領政府／機構提供的福利」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "claim benefits"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-pdf-002": "本句指「按資格正式申領政府／機構提供的福利」。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
         "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
         "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-06"
+      "correctOption": "claim-pdf-002"
     },
     {
       "id": "claim-10-1",
-      "sense": "claim-mcq-06",
+      "sense": "claim-pdf-002",
       "en": "He claimed unemployment benefit for several months.",
       "zh": "他申領了幾個月的失業津貼。",
       "masked": "He ____ unemployment benefit for several months.",
       "options": [
-        "claim-mcq-06",
+        "claim-pdf-002",
         "claim-mcq-05",
         "claim-mcq-07",
         "claim-mcq-04",
         "claim-mcq-08",
         "claim-mcq-03"
       ],
-      "explanation": "本句的「claimed」指「正式提出的索償、福利或金錢申領要求」。",
+      "explanation": "本句的「claimed」指「按資格正式申領政府／機構提供的福利」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-pdf-002": "本句指「按資格正式申領政府／機構提供的福利」。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
         "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
         "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-06"
+      "correctOption": "claim-pdf-002"
     },
     {
       "id": "claim-11-0",
@@ -1130,63 +1177,63 @@ export default {
     },
     {
       "id": "claim-13-0",
-      "sense": "claim-mcq-07",
+      "sense": "claim-pdf-003",
       "en": "Two families laid claim to the land.",
       "zh": "兩個家庭都聲稱對那塊土地擁有權利。",
       "masked": "Two families ____ the land.",
       "options": [
-        "claim-mcq-07",
+        "claim-pdf-003",
         "claim-mcq-06",
         "claim-mcq-08",
         "claim-mcq-05",
         "claim-mcq-09",
         "claim-mcq-04"
       ],
-      "explanation": "本句的「laid claim to」指「表示自己對某物擁有合法權利／所有權」。",
+      "explanation": "本句的「laid claim to」指「公開主張自己有權擁有／代表／享有某物」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "laid claim to"
       ],
       "optionReasons": {
-        "claim-mcq-07": "本句指「表示自己對某物擁有合法權利／所有權」。",
+        "claim-pdf-003": "本句指「公開主張自己有權擁有／代表／享有某物」。",
         "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
         "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-07"
+      "correctOption": "claim-pdf-003"
     },
     {
       "id": "claim-13-1",
-      "sense": "claim-mcq-07",
+      "sense": "claim-pdf-003",
       "en": "Several cities lay claim to being the birthplace of the dish.",
       "zh": "幾個城市都聲稱自己是這道菜的發源地。",
       "masked": "Several cities lay ____ to being the birthplace of the dish.",
       "options": [
-        "claim-mcq-07",
+        "claim-pdf-003",
         "claim-mcq-06",
         "claim-mcq-08",
         "claim-mcq-05",
         "claim-mcq-09",
         "claim-mcq-04"
       ],
-      "explanation": "本句的「claim」指「表示自己對某物擁有合法權利／所有權」。",
+      "explanation": "本句的「claim」指「公開主張自己有權擁有／代表／享有某物」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-07": "本句指「表示自己對某物擁有合法權利／所有權」。",
+        "claim-pdf-003": "本句指「公開主張自己有權擁有／代表／享有某物」。",
         "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
         "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
         "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
         "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
         "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-07"
+      "correctOption": "claim-pdf-003"
     },
     {
       "id": "claim-14-0",
@@ -1430,63 +1477,63 @@ export default {
     },
     {
       "id": "claim-18-0",
-      "sense": "claim-mcq-10",
+      "sense": "claim-pdf-004",
       "en": "The accident claimed his life.",
       "zh": "那宗事故奪去了他的生命。",
       "masked": "The accident ____.",
       "options": [
-        "claim-mcq-10",
+        "claim-pdf-004",
         "claim-mcq-09",
         "claim-mcq-11",
         "claim-mcq-08",
         "claim-mcq-12",
         "claim-mcq-07"
       ],
-      "explanation": "本句的「claimed his life」指「災難、疾病或事故造成死亡」。",
+      "explanation": "本句的「claimed his life」指「導致某人死亡」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "claimed his life"
       ],
       "optionReasons": {
-        "claim-mcq-10": "本句指「災難、疾病或事故造成死亡」。",
+        "claim-pdf-004": "本句指「導致某人死亡」。",
         "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
         "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
         "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
         "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
         "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-10"
+      "correctOption": "claim-pdf-004"
     },
     {
       "id": "claim-18-1",
-      "sense": "claim-mcq-10",
+      "sense": "claim-pdf-004",
       "en": "The disease has claimed many lives.",
       "zh": "這種疾病已奪去很多人的生命。",
       "masked": "The disease has ____ many lives.",
       "options": [
-        "claim-mcq-10",
+        "claim-pdf-004",
         "claim-mcq-09",
         "claim-mcq-11",
         "claim-mcq-08",
         "claim-mcq-12",
         "claim-mcq-07"
       ],
-      "explanation": "本句的「claimed」指「災難、疾病或事故造成死亡」。",
+      "explanation": "本句的「claimed」指「導致某人死亡」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-10": "本句指「災難、疾病或事故造成死亡」。",
+        "claim-pdf-004": "本句指「導致某人死亡」。",
         "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
         "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
         "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
         "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
         "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。"
       },
-      "correctOption": "claim-mcq-10"
+      "correctOption": "claim-pdf-004"
     },
     {
       "id": "claim-19-0",

@@ -129,16 +129,6 @@ export default {
       "note": "來源詞義：因判斷錯誤，把 A 誤認為 B",
       "examples": [
         [
-          "I mistook him for his brother.",
-          "我把他錯認成他的兄弟。",
-          "因判斷錯誤，把 A 誤認為 B"
-        ],
-        [
-          "She mistook the sound for an alarm.",
-          "她把那個聲音誤以為是警報。",
-          "因判斷錯誤，把 A 誤認為 B"
-        ],
-        [
           "People often mistake confidence for arrogance.",
           "人們常常把自信誤認為傲慢。",
           "因判斷錯誤，把 A 誤認為 B"
@@ -416,26 +406,6 @@ export default {
           "He kept making the same mistake.",
           "他一直犯同樣的錯。",
           "很多人容易犯／經常出現的錯誤"
-        ],
-        [
-          "There is a mistake in the date.",
-          "日期有一個錯誤。",
-          "很多人容易犯／經常出現的錯誤"
-        ],
-        [
-          "The document contains several typing mistakes.",
-          "文件中有幾個打字錯誤。",
-          "很多人容易犯／經常出現的錯誤"
-        ],
-        [
-          "There is a factual mistake in the article.",
-          "文章裡有一個事實錯誤。",
-          "很多人容易犯／經常出現的錯誤"
-        ],
-        [
-          "The report contains several mistakes about the dates.",
-          "報告中有幾個關於日期的錯誤。",
-          "很多人容易犯／經常出現的錯誤"
         ]
       ],
       "options": [],
@@ -634,6 +604,72 @@ export default {
           "Don’t worry about small pronunciation mistakes.",
           "不要太擔心小的發音錯誤。",
           "語法、拼字、用詞、發音等不符合目標語言形式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mistake-pdf-001",
+      "title": "錯把 A 當成 B；誤認身份／性質",
+      "form": "7. mistake = verb: confuse one person/thing with another（認錯） — 把……錯認為……",
+      "en": "7. mistake = verb: confuse one person/thing with another（認錯） — 把……錯認為……",
+      "zh": "錯把 A 當成 B；誤認身份／性質",
+      "note": "原始 PDF 第 7 節：錯把 A 當成 B；誤認身份／性質",
+      "examples": [
+        [
+          "I mistook him for his brother.",
+          "我把他錯認成他的兄弟。",
+          "錯把 A 當成 B；誤認身份／性質"
+        ],
+        [
+          "She mistook the sound for an alarm.",
+          "她把那個聲音誤以為是警報。",
+          "錯把 A 當成 B；誤認身份／性質"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mistake-pdf-002",
+      "title": "文件、文字或輸入內容中出現的不正確項目",
+      "form": "27. mistake = typographical/writing error（筆誤／文字錯誤） — 文書錯誤",
+      "en": "27. mistake = typographical/writing error（筆誤／文字錯誤） — 文書錯誤",
+      "zh": "文件、文字或輸入內容中出現的不正確項目",
+      "note": "原始 PDF 第 27 節：文件、文字或輸入內容中出現的不正確項目",
+      "examples": [
+        [
+          "There is a mistake in the date.",
+          "日期有一個錯誤。",
+          "文件、文字或輸入內容中出現的不正確項目"
+        ],
+        [
+          "The document contains several typing mistakes.",
+          "文件中有幾個打字錯誤。",
+          "文件、文字或輸入內容中出現的不正確項目"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mistake-pdf-003",
+      "title": "陳述的資訊與實際事實不符",
+      "form": "28. mistake = factual error（事實錯誤） — 事實有誤",
+      "en": "28. mistake = factual error（事實錯誤） — 事實有誤",
+      "zh": "陳述的資訊與實際事實不符",
+      "note": "原始 PDF 第 28 節：陳述的資訊與實際事實不符",
+      "examples": [
+        [
+          "There is a factual mistake in the article.",
+          "文章裡有一個事實錯誤。",
+          "陳述的資訊與實際事實不符"
+        ],
+        [
+          "The report contains several mistakes about the dates.",
+          "報告中有幾個關於日期的錯誤。",
+          "陳述的資訊與實際事實不符"
         ]
       ],
       "options": [],
@@ -973,63 +1009,63 @@ export default {
     },
     {
       "id": "mistake-07-0",
-      "sense": "mistake-mcq-06",
+      "sense": "mistake-pdf-001",
       "en": "I mistook him for his brother.",
       "zh": "我把他錯認成他的兄弟。",
       "masked": "I ____ his brother.",
       "options": [
-        "mistake-mcq-06",
+        "mistake-pdf-001",
         "mistake-mcq-05",
         "mistake-mcq-07",
         "mistake-mcq-04",
         "mistake-mcq-08",
         "mistake-mcq-03"
       ],
-      "explanation": "本句的「mistook him for」指「因判斷錯誤，把 A 誤認為 B」。",
+      "explanation": "本句的「mistook him for」指「錯把 A 當成 B；誤認身份／性質」。",
       "sentenceIndex": 11,
       "sourcePractice": 13,
       "targets": [
         "mistook him for"
       ],
       "optionReasons": {
-        "mistake-mcq-06": "本句指「因判斷錯誤，把 A 誤認為 B」。",
+        "mistake-pdf-001": "本句指「錯把 A 當成 B；誤認身份／性質」。",
         "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
         "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
         "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
         "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
         "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。"
       },
-      "correctOption": "mistake-mcq-06"
+      "correctOption": "mistake-pdf-001"
     },
     {
       "id": "mistake-07-1",
-      "sense": "mistake-mcq-06",
+      "sense": "mistake-pdf-001",
       "en": "She mistook the sound for an alarm.",
       "zh": "她把那個聲音誤以為是警報。",
       "masked": "She ____ an alarm.",
       "options": [
-        "mistake-mcq-06",
+        "mistake-pdf-001",
         "mistake-mcq-05",
         "mistake-mcq-07",
         "mistake-mcq-04",
         "mistake-mcq-08",
         "mistake-mcq-03"
       ],
-      "explanation": "本句的「mistook the sound for」指「因判斷錯誤，把 A 誤認為 B」。",
+      "explanation": "本句的「mistook the sound for」指「錯把 A 當成 B；誤認身份／性質」。",
       "sentenceIndex": 12,
       "sourcePractice": 14,
       "targets": [
         "mistook the sound for"
       ],
       "optionReasons": {
-        "mistake-mcq-06": "本句指「因判斷錯誤，把 A 誤認為 B」。",
+        "mistake-pdf-001": "本句指「錯把 A 當成 B；誤認身份／性質」。",
         "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
         "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
         "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
         "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
         "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。"
       },
-      "correctOption": "mistake-mcq-06"
+      "correctOption": "mistake-pdf-001"
     },
     {
       "id": "mistake-08-0",
@@ -2143,123 +2179,123 @@ export default {
     },
     {
       "id": "mistake-27-0",
-      "sense": "mistake-mcq-18",
+      "sense": "mistake-pdf-002",
       "en": "There is a mistake in the date.",
       "zh": "日期有一個錯誤。",
       "masked": "There is a ____ in the date.",
       "options": [
-        "mistake-mcq-18",
+        "mistake-pdf-002",
         "mistake-mcq-17",
         "mistake-mcq-19",
         "mistake-mcq-16",
         "mistake-mcq-20",
         "mistake-mcq-15"
       ],
-      "explanation": "本句的「mistake」指「很多人容易犯／經常出現的錯誤」。",
+      "explanation": "本句的「mistake」指「文件、文字或輸入內容中出現的不正確項目」。",
       "sentenceIndex": 50,
       "sourcePractice": 53,
       "targets": [
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
+        "mistake-pdf-002": "本句指「文件、文字或輸入內容中出現的不正確項目」。",
         "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
         "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
         "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
         "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
         "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
       },
-      "correctOption": "mistake-mcq-18"
+      "correctOption": "mistake-pdf-002"
     },
     {
       "id": "mistake-27-1",
-      "sense": "mistake-mcq-18",
+      "sense": "mistake-pdf-002",
       "en": "The document contains several typing mistakes.",
       "zh": "文件中有幾個打字錯誤。",
       "masked": "The document contains several typing ____.",
       "options": [
-        "mistake-mcq-18",
+        "mistake-pdf-002",
         "mistake-mcq-17",
         "mistake-mcq-19",
         "mistake-mcq-16",
         "mistake-mcq-20",
         "mistake-mcq-15"
       ],
-      "explanation": "本句的「mistakes」指「很多人容易犯／經常出現的錯誤」。",
+      "explanation": "本句的「mistakes」指「文件、文字或輸入內容中出現的不正確項目」。",
       "sentenceIndex": 51,
       "sourcePractice": 54,
       "targets": [
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
+        "mistake-pdf-002": "本句指「文件、文字或輸入內容中出現的不正確項目」。",
         "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
         "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
         "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
         "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
         "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
       },
-      "correctOption": "mistake-mcq-18"
+      "correctOption": "mistake-pdf-002"
     },
     {
       "id": "mistake-28-0",
-      "sense": "mistake-mcq-18",
+      "sense": "mistake-pdf-003",
       "en": "There is a factual mistake in the article.",
       "zh": "文章裡有一個事實錯誤。",
       "masked": "There is a factual ____ in the article.",
       "options": [
-        "mistake-mcq-18",
+        "mistake-pdf-003",
         "mistake-mcq-17",
         "mistake-mcq-19",
         "mistake-mcq-16",
         "mistake-mcq-20",
         "mistake-mcq-15"
       ],
-      "explanation": "本句的「mistake」指「很多人容易犯／經常出現的錯誤」。",
+      "explanation": "本句的「mistake」指「陳述的資訊與實際事實不符」。",
       "sentenceIndex": 52,
       "sourcePractice": 55,
       "targets": [
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
+        "mistake-pdf-003": "本句指「陳述的資訊與實際事實不符」。",
         "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
         "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
         "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
         "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
         "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
       },
-      "correctOption": "mistake-mcq-18"
+      "correctOption": "mistake-pdf-003"
     },
     {
       "id": "mistake-28-1",
-      "sense": "mistake-mcq-18",
+      "sense": "mistake-pdf-003",
       "en": "The report contains several mistakes about the dates.",
       "zh": "報告中有幾個關於日期的錯誤。",
       "masked": "The report contains several ____ about the dates.",
       "options": [
-        "mistake-mcq-18",
+        "mistake-pdf-003",
         "mistake-mcq-17",
         "mistake-mcq-19",
         "mistake-mcq-16",
         "mistake-mcq-20",
         "mistake-mcq-15"
       ],
-      "explanation": "本句的「mistakes」指「很多人容易犯／經常出現的錯誤」。",
+      "explanation": "本句的「mistakes」指「陳述的資訊與實際事實不符」。",
       "sentenceIndex": 53,
       "sourcePractice": 56,
       "targets": [
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
+        "mistake-pdf-003": "本句指「陳述的資訊與實際事實不符」。",
         "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
         "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
         "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
         "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
         "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
       },
-      "correctOption": "mistake-mcq-18"
+      "correctOption": "mistake-pdf-003"
     },
     {
       "id": "mistake-29-0",

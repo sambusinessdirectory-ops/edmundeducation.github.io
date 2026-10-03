@@ -313,11 +313,6 @@ export default {
           "Too much repetition made the lesson boring.",
           "過多的重複令課堂變得沉悶。",
           "同一內容、動作或形式再次／多次出現的行為或現象"
-        ],
-        [
-          "The writer uses repetition to emphasise the main idea.",
-          "作者利用重複修辭手法來強調主要思想。",
-          "同一內容、動作或形式再次／多次出現的行為或現象"
         ]
       ],
       "options": [],
@@ -511,6 +506,23 @@ export default {
           "The digit pattern continues in a repeating decimal.",
           "在循環小數中，某組數字會不斷重複。",
           "小數部分有某個數字／數字組合無限循環出現的小數"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "repeat-pdf-001",
+      "title": "有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果",
+      "form": "16. repetition = deliberate repeated wording/sound（寫作／修辭） — 重複手法；反覆",
+      "en": "16. repetition = deliberate repeated wording/sound（寫作／修辭） — 重複手法；反覆",
+      "zh": "有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果",
+      "note": "原始 PDF 第 16 節：有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果",
+      "examples": [
+        [
+          "The writer uses repetition to emphasise the main idea.",
+          "作者利用重複修辭手法來強調主要思想。",
+          "有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果"
         ]
       ],
       "options": [],
@@ -1390,33 +1402,33 @@ export default {
     },
     {
       "id": "repeat-16-0",
-      "sense": "repeat-mcq-14",
+      "sense": "repeat-pdf-001",
       "en": "The writer uses repetition to emphasise the main idea.",
       "zh": "作者利用重複修辭手法來強調主要思想。",
       "masked": "The writer uses ____ to emphasise the main idea.",
       "options": [
-        "repeat-mcq-14",
+        "repeat-pdf-001",
         "repeat-mcq-13",
         "repeat-mcq-15",
         "repeat-mcq-12",
         "repeat-mcq-16",
         "repeat-mcq-11"
       ],
-      "explanation": "本句的「repetition」指「同一內容、動作或形式再次／多次出現的行為或現象」。",
+      "explanation": "本句的「repetition」指「有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "repetition"
       ],
       "optionReasons": {
-        "repeat-mcq-14": "本句指「同一內容、動作或形式再次／多次出現的行為或現象」。",
+        "repeat-pdf-001": "本句指「有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果」。",
         "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
         "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
         "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
         "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
         "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。"
       },
-      "correctOption": "repeat-mcq-14"
+      "correctOption": "repeat-pdf-001"
     },
     {
       "id": "repeat-17-0",

@@ -118,16 +118,6 @@ export default {
       "note": "來源詞義：為資料、訊息、貨物或交通決定及安排傳送路徑的過程",
       "examples": [
         [
-          "The buses were routed around the closed road.",
-          "巴士被安排改道繞過封閉道路。",
-          "為資料、訊息、貨物或交通決定及安排傳送路徑的過程"
-        ],
-        [
-          "The goods were routed through Singapore.",
-          "貨物被安排經由新加坡運送。",
-          "為資料、訊息、貨物或交通決定及安排傳送路徑的過程"
-        ],
-        [
           "The software handles message routing automatically.",
           "這套軟件會自動處理訊息路由／傳送路徑安排。",
           "為資料、訊息、貨物或交通決定及安排傳送路徑的過程"
@@ -202,6 +192,28 @@ export default {
           "The army was completely routed.",
           "那支軍隊被徹底擊潰。",
           "表示大敗；擊潰"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "route-pdf-001",
+      "title": "安排某人、車輛或貨物沿指定路線前往目的地",
+      "form": "6. route + vehicle/goods/person（交通／物流） — 安排經由某路線運送",
+      "en": "6. route + vehicle/goods/person（交通／物流） — 安排經由某路線運送",
+      "zh": "安排某人、車輛或貨物沿指定路線前往目的地",
+      "note": "原始 PDF 第 6 節：安排某人、車輛或貨物沿指定路線前往目的地",
+      "examples": [
+        [
+          "The buses were routed around the closed road.",
+          "巴士被安排改道繞過封閉道路。",
+          "安排某人、車輛或貨物沿指定路線前往目的地"
+        ],
+        [
+          "The goods were routed through Singapore.",
+          "貨物被安排經由新加坡運送。",
+          "安排某人、車輛或貨物沿指定路線前往目的地"
         ]
       ],
       "options": [],
@@ -541,63 +553,63 @@ export default {
     },
     {
       "id": "route-06-0",
-      "sense": "route-mcq-06",
+      "sense": "route-pdf-001",
       "en": "The buses were routed around the closed road.",
       "zh": "巴士被安排改道繞過封閉道路。",
       "masked": "The buses were ____ around the closed road.",
       "options": [
-        "route-mcq-06",
+        "route-pdf-001",
         "route-mcq-05",
         "route-mcq-07",
         "route-mcq-04",
         "route-mcq-08",
         "route-mcq-03"
       ],
-      "explanation": "本句的「routed」指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
+      "explanation": "本句的「routed」指「安排某人、車輛或貨物沿指定路線前往目的地」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "routed"
       ],
       "optionReasons": {
-        "route-mcq-06": "本句指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
+        "route-pdf-001": "本句指「安排某人、車輛或貨物沿指定路線前往目的地」。",
         "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
         "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
         "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
         "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
         "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。"
       },
-      "correctOption": "route-mcq-06"
+      "correctOption": "route-pdf-001"
     },
     {
       "id": "route-06-1",
-      "sense": "route-mcq-06",
+      "sense": "route-pdf-001",
       "en": "The goods were routed through Singapore.",
       "zh": "貨物被安排經由新加坡運送。",
       "masked": "The goods were ____ through Singapore.",
       "options": [
-        "route-mcq-06",
+        "route-pdf-001",
         "route-mcq-05",
         "route-mcq-07",
         "route-mcq-04",
         "route-mcq-08",
         "route-mcq-03"
       ],
-      "explanation": "本句的「routed」指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
+      "explanation": "本句的「routed」指「安排某人、車輛或貨物沿指定路線前往目的地」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "routed"
       ],
       "optionReasons": {
-        "route-mcq-06": "本句指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
+        "route-pdf-001": "本句指「安排某人、車輛或貨物沿指定路線前往目的地」。",
         "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
         "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
         "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
         "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
         "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。"
       },
-      "correctOption": "route-mcq-06"
+      "correctOption": "route-pdf-001"
     },
     {
       "id": "route-07-0",

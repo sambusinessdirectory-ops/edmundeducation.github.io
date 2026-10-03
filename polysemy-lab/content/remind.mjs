@@ -321,16 +321,6 @@ export default {
           "She reminded herself that mistakes are normal.",
           "她提醒自己犯錯是正常的。",
           "主動使自己記得某個行動、觀念或事實"
-        ],
-        [
-          "The painting reminded me how much I enjoy quiet spaces.",
-          "這幅畫讓我重新想起／意識到自己多麼喜歡安靜的空間。",
-          "主動使自己記得某個行動、觀念或事實"
-        ],
-        [
-          "The trip reminded her why she loved the city.",
-          "這趟旅程讓她重新想起為甚麼她喜歡這座城市。",
-          "主動使自己記得某個行動、觀念或事實"
         ]
       ],
       "options": [],
@@ -485,6 +475,28 @@ export default {
           "The painting became a constant reminder to slow down.",
           "這幅畫成了持續提醒我要放慢腳步的存在。",
           "持續讓人記住／想起某事的人、物或情況"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "remind-pdf-001",
+      "title": "讓某人重新想起某個原因、方式、事實或感受",
+      "form": "18. remind someone how/why/what... = 使某人重新想起／意識到……",
+      "en": "18. remind someone how/why/what... = 使某人重新想起／意識到……",
+      "zh": "讓某人重新想起某個原因、方式、事實或感受",
+      "note": "原始 PDF 第 18 節：讓某人重新想起某個原因、方式、事實或感受",
+      "examples": [
+        [
+          "The painting reminded me how much I enjoy quiet spaces.",
+          "這幅畫讓我重新想起／意識到自己多麼喜歡安靜的空間。",
+          "讓某人重新想起某個原因、方式、事實或感受"
+        ],
+        [
+          "The trip reminded her why she loved the city.",
+          "這趟旅程讓她重新想起為甚麼她喜歡這座城市。",
+          "讓某人重新想起某個原因、方式、事實或感受"
         ]
       ],
       "options": [],
@@ -1544,63 +1556,63 @@ export default {
     },
     {
       "id": "remind-18-0",
-      "sense": "remind-mcq-13",
+      "sense": "remind-pdf-001",
       "en": "The painting reminded me how much I enjoy quiet spaces.",
       "zh": "這幅畫讓我重新想起／意識到自己多麼喜歡安靜的空間。",
       "masked": "The painting reminded me ____.",
       "options": [
-        "remind-mcq-13",
+        "remind-pdf-001",
         "remind-mcq-12",
         "remind-mcq-14",
         "remind-mcq-11",
         "remind-mcq-15",
         "remind-mcq-10"
       ],
-      "explanation": "本句的「how much I enjoy quiet spaces」指「主動使自己記得某個行動、觀念或事實」。",
+      "explanation": "本句的「how much I enjoy quiet spaces」指「讓某人重新想起某個原因、方式、事實或感受」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "how much I enjoy quiet spaces"
       ],
       "optionReasons": {
-        "remind-mcq-13": "本句指「主動使自己記得某個行動、觀念或事實」。",
+        "remind-pdf-001": "本句指「讓某人重新想起某個原因、方式、事實或感受」。",
         "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
         "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
         "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
         "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
         "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。"
       },
-      "correctOption": "remind-mcq-13"
+      "correctOption": "remind-pdf-001"
     },
     {
       "id": "remind-18-1",
-      "sense": "remind-mcq-13",
+      "sense": "remind-pdf-001",
       "en": "The trip reminded her why she loved the city.",
       "zh": "這趟旅程讓她重新想起為甚麼她喜歡這座城市。",
       "masked": "The trip ____ her why she loved the city.",
       "options": [
-        "remind-mcq-13",
+        "remind-pdf-001",
         "remind-mcq-12",
         "remind-mcq-14",
         "remind-mcq-11",
         "remind-mcq-15",
         "remind-mcq-10"
       ],
-      "explanation": "本句的「reminded」指「主動使自己記得某個行動、觀念或事實」。",
+      "explanation": "本句的「reminded」指「讓某人重新想起某個原因、方式、事實或感受」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-13": "本句指「主動使自己記得某個行動、觀念或事實」。",
+        "remind-pdf-001": "本句指「讓某人重新想起某個原因、方式、事實或感受」。",
         "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
         "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
         "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
         "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
         "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。"
       },
-      "correctOption": "remind-mcq-13"
+      "correctOption": "remind-pdf-001"
     },
     {
       "id": "remind-19-0",

@@ -27,16 +27,6 @@ export default {
           "He put his hand on my shoulder.",
           "他把手放在我的肩膀上。",
           "肩膀；肩部"
-        ],
-        [
-          "She carried the laptop bag on her shoulder.",
-          "她把電腦袋掛在肩上。",
-          "肩膀；肩部"
-        ],
-        [
-          "He looked over his shoulder.",
-          "他回頭越過肩膀看了一眼。",
-          "肩膀；肩部"
         ]
       ],
       "options": [],
@@ -49,18 +39,7 @@ export default {
       "en": "shoulder of clothing",
       "zh": "衣服肩位",
       "note": "來源詞義：衣服肩位",
-      "examples": [
-        [
-          "The shoulders of the jacket are slightly too wide.",
-          "這件外套的肩位稍微太寬。",
-          "衣服肩位"
-        ],
-        [
-          "The dress has padded shoulders.",
-          "這件連身裙有墊肩。",
-          "衣服肩位"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -317,18 +296,7 @@ export default {
       "en": "pork/lamb shoulder",
       "zh": "豬肩／羊肩肉",
       "note": "來源詞義：豬肩／羊肩肉",
-      "examples": [
-        [
-          "We cooked a shoulder of lamb.",
-          "我們煮了一塊羊肩肉。",
-          "豬肩／羊肩肉"
-        ],
-        [
-          "Pork shoulder is suitable for slow cooking.",
-          "豬肩肉很適合慢煮。",
-          "豬肩／羊肩肉"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -484,6 +452,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "shoulder-pdf-001",
+      "title": "從肩膀上方向身後看",
+      "form": "2. on your shoulder / over your shoulder — 在肩上／越過肩膀",
+      "en": "2. on your shoulder / over your shoulder — 在肩上／越過肩膀",
+      "zh": "從肩膀上方向身後看",
+      "note": "原始 PDF 第 2 節：從肩膀上方向身後看",
+      "examples": [
+        [
+          "She carried the laptop bag on her shoulder.",
+          "她把電腦袋掛在肩上。",
+          "從肩膀上方向身後看"
+        ],
+        [
+          "He looked over his shoulder.",
+          "他回頭越過肩膀看了一眼。",
+          "從肩膀上方向身後看"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "shoulder-pdf-002",
+      "title": "衣服覆蓋人體肩膀的部分",
+      "form": "4. shoulder of a garment — 衣服肩位",
+      "en": "4. shoulder of a garment — 衣服肩位",
+      "zh": "衣服覆蓋人體肩膀的部分",
+      "note": "原始 PDF 第 4 節：衣服覆蓋人體肩膀的部分",
+      "examples": [
+        [
+          "The shoulders of the jacket are slightly too wide.",
+          "這件外套的肩位稍微太寬。",
+          "衣服覆蓋人體肩膀的部分"
+        ],
+        [
+          "The dress has padded shoulders.",
+          "這件連身裙有墊肩。",
+          "衣服覆蓋人體肩膀的部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "shoulder-pdf-003",
+      "title": "從動物肩部切下的一塊肉",
+      "form": "17. shoulder of meat — 肩部肉；肩肉",
+      "en": "17. shoulder of meat — 肩部肉；肩肉",
+      "zh": "從動物肩部切下的一塊肉",
+      "note": "原始 PDF 第 17 節：從動物肩部切下的一塊肉",
+      "examples": [
+        [
+          "We cooked a shoulder of lamb.",
+          "我們煮了一塊羊肩肉。",
+          "從動物肩部切下的一塊肉"
+        ],
+        [
+          "Pork shoulder is suitable for slow cooking.",
+          "豬肩肉很適合慢煮。",
+          "從動物肩部切下的一塊肉"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -579,123 +613,123 @@ export default {
     },
     {
       "id": "shoulder-02-0",
-      "sense": "shoulder-mcq-01",
+      "sense": "shoulder-pdf-001",
       "en": "She carried the laptop bag on her shoulder.",
       "zh": "她把電腦袋掛在肩上。",
       "masked": "She carried the laptop bag ____.",
       "options": [
-        "shoulder-mcq-01",
+        "shoulder-pdf-001",
         "shoulder-mcq-02",
         "shoulder-mcq-03",
         "shoulder-mcq-04",
         "shoulder-mcq-05",
         "shoulder-mcq-06"
       ],
-      "explanation": "本句的「on her shoulder」指「肩膀；肩部」。",
+      "explanation": "本句的「on her shoulder」指「從肩膀上方向身後看」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "on her shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-01": "本句指「肩膀；肩部」。",
+        "shoulder-pdf-001": "本句指「從肩膀上方向身後看」。",
         "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
         "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
         "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
         "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
         "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
       },
-      "correctOption": "shoulder-mcq-01"
+      "correctOption": "shoulder-pdf-001"
     },
     {
       "id": "shoulder-02-1",
-      "sense": "shoulder-mcq-01",
+      "sense": "shoulder-pdf-001",
       "en": "He looked over his shoulder.",
       "zh": "他回頭越過肩膀看了一眼。",
       "masked": "He looked ____.",
       "options": [
-        "shoulder-mcq-01",
+        "shoulder-pdf-001",
         "shoulder-mcq-02",
         "shoulder-mcq-03",
         "shoulder-mcq-04",
         "shoulder-mcq-05",
         "shoulder-mcq-06"
       ],
-      "explanation": "本句的「over his shoulder」指「肩膀；肩部」。",
+      "explanation": "本句的「over his shoulder」指「從肩膀上方向身後看」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "over his shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-01": "本句指「肩膀；肩部」。",
+        "shoulder-pdf-001": "本句指「從肩膀上方向身後看」。",
         "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
         "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
         "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
         "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
         "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
       },
-      "correctOption": "shoulder-mcq-01"
+      "correctOption": "shoulder-pdf-001"
     },
     {
       "id": "shoulder-04-0",
-      "sense": "shoulder-mcq-02",
+      "sense": "shoulder-pdf-002",
       "en": "The shoulders of the jacket are slightly too wide.",
       "zh": "這件外套的肩位稍微太寬。",
       "masked": "The ____ are slightly too wide.",
       "options": [
-        "shoulder-mcq-02",
+        "shoulder-pdf-002",
         "shoulder-mcq-01",
         "shoulder-mcq-03",
         "shoulder-mcq-04",
         "shoulder-mcq-05",
         "shoulder-mcq-06"
       ],
-      "explanation": "本句的「shoulders of the jacket」指「衣服肩位」。",
+      "explanation": "本句的「shoulders of the jacket」指「衣服覆蓋人體肩膀的部分」。",
       "sentenceIndex": 7,
       "sourcePractice": 1,
       "targets": [
         "shoulders of the jacket"
       ],
       "optionReasons": {
-        "shoulder-mcq-02": "本句指「衣服肩位」。",
+        "shoulder-pdf-002": "本句指「衣服覆蓋人體肩膀的部分」。",
         "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。",
         "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
         "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
         "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
         "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
       },
-      "correctOption": "shoulder-mcq-02"
+      "correctOption": "shoulder-pdf-002"
     },
     {
       "id": "shoulder-04-1",
-      "sense": "shoulder-mcq-02",
+      "sense": "shoulder-pdf-002",
       "en": "The dress has padded shoulders.",
       "zh": "這件連身裙有墊肩。",
       "masked": "The dress has padded ____.",
       "options": [
-        "shoulder-mcq-02",
+        "shoulder-pdf-002",
         "shoulder-mcq-01",
         "shoulder-mcq-03",
         "shoulder-mcq-04",
         "shoulder-mcq-05",
         "shoulder-mcq-06"
       ],
-      "explanation": "本句的「shoulders」指「衣服肩位」。",
+      "explanation": "本句的「shoulders」指「衣服覆蓋人體肩膀的部分」。",
       "sentenceIndex": 8,
       "sourcePractice": 2,
       "targets": [
         "shoulders"
       ],
       "optionReasons": {
-        "shoulder-mcq-02": "本句指「衣服肩位」。",
+        "shoulder-pdf-002": "本句指「衣服覆蓋人體肩膀的部分」。",
         "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。",
         "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
         "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
         "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
         "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
       },
-      "correctOption": "shoulder-mcq-02"
+      "correctOption": "shoulder-pdf-002"
     },
     {
       "id": "shoulder-05-0",
@@ -1389,63 +1423,63 @@ export default {
     },
     {
       "id": "shoulder-17-0",
-      "sense": "shoulder-mcq-14",
+      "sense": "shoulder-pdf-003",
       "en": "We cooked a shoulder of lamb.",
       "zh": "我們煮了一塊羊肩肉。",
       "masked": "We cooked a ____.",
       "options": [
-        "shoulder-mcq-14",
+        "shoulder-pdf-003",
         "shoulder-mcq-13",
         "shoulder-mcq-15",
         "shoulder-mcq-12",
         "shoulder-mcq-16",
         "shoulder-mcq-11"
       ],
-      "explanation": "本句的「shoulder of lamb」指「豬肩／羊肩肉」。",
+      "explanation": "本句的「shoulder of lamb」指「從動物肩部切下的一塊肉」。",
       "sentenceIndex": 34,
       "sourcePractice": 1,
       "targets": [
         "shoulder of lamb"
       ],
       "optionReasons": {
-        "shoulder-mcq-14": "本句指「豬肩／羊肩肉」。",
+        "shoulder-pdf-003": "本句指「從動物肩部切下的一塊肉」。",
         "shoulder-mcq-13": "「山肩」與本句語境不同。",
         "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
         "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
         "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
         "shoulder-mcq-11": "「路肩」與本句語境不同。"
       },
-      "correctOption": "shoulder-mcq-14"
+      "correctOption": "shoulder-pdf-003"
     },
     {
       "id": "shoulder-17-1",
-      "sense": "shoulder-mcq-14",
+      "sense": "shoulder-pdf-003",
       "en": "Pork shoulder is suitable for slow cooking.",
       "zh": "豬肩肉很適合慢煮。",
       "masked": "Pork ____ is suitable for slow cooking.",
       "options": [
-        "shoulder-mcq-14",
+        "shoulder-pdf-003",
         "shoulder-mcq-13",
         "shoulder-mcq-15",
         "shoulder-mcq-12",
         "shoulder-mcq-16",
         "shoulder-mcq-11"
       ],
-      "explanation": "本句的「shoulder」指「豬肩／羊肩肉」。",
+      "explanation": "本句的「shoulder」指「從動物肩部切下的一塊肉」。",
       "sentenceIndex": 35,
       "sourcePractice": 2,
       "targets": [
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-14": "本句指「豬肩／羊肩肉」。",
+        "shoulder-pdf-003": "本句指「從動物肩部切下的一塊肉」。",
         "shoulder-mcq-13": "「山肩」與本句語境不同。",
         "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
         "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
         "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
         "shoulder-mcq-11": "「路肩」與本句語境不同。"
       },
-      "correctOption": "shoulder-mcq-14"
+      "correctOption": "shoulder-pdf-003"
     },
     {
       "id": "shoulder-18-0",

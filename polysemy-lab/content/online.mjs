@@ -219,26 +219,6 @@ export default {
           "The course is delivered through an online platform.",
           "這個課程透過網上平台提供。",
           "供使用者透過互聯網存取內容或進行活動的數碼系統"
-        ],
-        [
-          "The museum has an online shop.",
-          "博物館有一間網店。",
-          "供使用者透過互聯網存取內容或進行活動的數碼系統"
-        ],
-        [
-          "You can order the reproduction from their online store.",
-          "你可以從他們的網上商店訂購複製畫。",
-          "供使用者透過互聯網存取內容或進行活動的數碼系統"
-        ],
-        [
-          "I paid for the print through online banking.",
-          "我透過網上銀行服務支付那幅印刷品。",
-          "供使用者透過互聯網存取內容或進行活動的數碼系統"
-        ],
-        [
-          "Online banking makes transfers easier.",
-          "網上銀行令轉帳更方便。",
-          "供使用者透過互聯網存取內容或進行活動的數碼系統"
         ]
       ],
       "options": [],
@@ -305,6 +285,50 @@ export default {
           "She attends online classes twice a week.",
           "她每星期上兩次網課。",
           "透過互聯網進行，而不是實體面對面"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "online-pdf-001",
+      "title": "透過互聯網瀏覽和購買商品的商店",
+      "form": "12. online store/shop = 網店",
+      "en": "12. online store/shop = 網店",
+      "zh": "透過互聯網瀏覽和購買商品的商店",
+      "note": "原始 PDF 第 12 節：透過互聯網瀏覽和購買商品的商店",
+      "examples": [
+        [
+          "The museum has an online shop.",
+          "博物館有一間網店。",
+          "透過互聯網瀏覽和購買商品的商店"
+        ],
+        [
+          "You can order the reproduction from their online store.",
+          "你可以從他們的網上商店訂購複製畫。",
+          "透過互聯網瀏覽和購買商品的商店"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "online-pdf-002",
+      "title": "透過互聯網管理銀行帳戶、付款及轉帳等服務",
+      "form": "13. online banking = 網上銀行服務",
+      "en": "13. online banking = 網上銀行服務",
+      "zh": "透過互聯網管理銀行帳戶、付款及轉帳等服務",
+      "note": "原始 PDF 第 13 節：透過互聯網管理銀行帳戶、付款及轉帳等服務",
+      "examples": [
+        [
+          "I paid for the print through online banking.",
+          "我透過網上銀行服務支付那幅印刷品。",
+          "透過互聯網管理銀行帳戶、付款及轉帳等服務"
+        ],
+        [
+          "Online banking makes transfers easier.",
+          "網上銀行令轉帳更方便。",
+          "透過互聯網管理銀行帳戶、付款及轉帳等服務"
         ]
       ],
       "options": [],
@@ -974,123 +998,123 @@ export default {
     },
     {
       "id": "online-12-0",
-      "sense": "online-mcq-10",
+      "sense": "online-pdf-001",
       "en": "The museum has an online shop.",
       "zh": "博物館有一間網店。",
       "masked": "The museum has an ____.",
       "options": [
-        "online-mcq-10",
+        "online-pdf-001",
         "online-mcq-09",
         "online-mcq-11",
         "online-mcq-08",
         "online-mcq-12",
         "online-mcq-07"
       ],
-      "explanation": "本句的「online shop」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+      "explanation": "本句的「online shop」指「透過互聯網瀏覽和購買商品的商店」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "online shop"
       ],
       "optionReasons": {
-        "online-mcq-10": "本句指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+        "online-pdf-001": "本句指「透過互聯網瀏覽和購買商品的商店」。",
         "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
         "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
         "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
         "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
         "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
       },
-      "correctOption": "online-mcq-10"
+      "correctOption": "online-pdf-001"
     },
     {
       "id": "online-12-1",
-      "sense": "online-mcq-10",
+      "sense": "online-pdf-001",
       "en": "You can order the reproduction from their online store.",
       "zh": "你可以從他們的網上商店訂購複製畫。",
       "masked": "You can order the reproduction from their ____ store.",
       "options": [
-        "online-mcq-10",
+        "online-pdf-001",
         "online-mcq-09",
         "online-mcq-11",
         "online-mcq-08",
         "online-mcq-12",
         "online-mcq-07"
       ],
-      "explanation": "本句的「online」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+      "explanation": "本句的「online」指「透過互聯網瀏覽和購買商品的商店」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "online"
       ],
       "optionReasons": {
-        "online-mcq-10": "本句指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+        "online-pdf-001": "本句指「透過互聯網瀏覽和購買商品的商店」。",
         "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
         "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
         "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
         "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
         "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
       },
-      "correctOption": "online-mcq-10"
+      "correctOption": "online-pdf-001"
     },
     {
       "id": "online-13-0",
-      "sense": "online-mcq-10",
+      "sense": "online-pdf-002",
       "en": "I paid for the print through online banking.",
       "zh": "我透過網上銀行服務支付那幅印刷品。",
       "masked": "I paid for the print through ____.",
       "options": [
-        "online-mcq-10",
+        "online-pdf-002",
         "online-mcq-09",
         "online-mcq-11",
         "online-mcq-08",
         "online-mcq-12",
         "online-mcq-07"
       ],
-      "explanation": "本句的「online banking」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+      "explanation": "本句的「online banking」指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "online banking"
       ],
       "optionReasons": {
-        "online-mcq-10": "本句指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+        "online-pdf-002": "本句指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
         "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
         "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
         "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
         "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
         "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
       },
-      "correctOption": "online-mcq-10"
+      "correctOption": "online-pdf-002"
     },
     {
       "id": "online-13-1",
-      "sense": "online-mcq-10",
+      "sense": "online-pdf-002",
       "en": "Online banking makes transfers easier.",
       "zh": "網上銀行令轉帳更方便。",
       "masked": "____ banking makes transfers easier.",
       "options": [
-        "online-mcq-10",
+        "online-pdf-002",
         "online-mcq-09",
         "online-mcq-11",
         "online-mcq-08",
         "online-mcq-12",
         "online-mcq-07"
       ],
-      "explanation": "本句的「Online」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+      "explanation": "本句的「Online」指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "Online"
       ],
       "optionReasons": {
-        "online-mcq-10": "本句指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+        "online-pdf-002": "本句指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
         "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
         "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
         "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
         "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
         "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
       },
-      "correctOption": "online-mcq-10"
+      "correctOption": "online-pdf-002"
     },
     {
       "id": "online-14-0",

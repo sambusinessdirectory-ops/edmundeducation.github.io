@@ -105,18 +105,7 @@ export default {
       "en": "portable — skills/methods",
       "zh": "可以從一個環境或領域移用到另一個的",
       "note": "來源詞義：可以從一個環境或領域移用到另一個的",
-      "examples": [
-        [
-          "These skills are highly portable between industries.",
-          "這些技能在不同行業之間具有很高的可轉移性。",
-          "可以從一個環境或領域移用到另一個的"
-        ],
-        [
-          "The method is simple and portable across different settings.",
-          "這種方法很簡單，而且可以移用到不同情境。",
-          "可以從一個環境或領域移用到另一個的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -171,6 +160,28 @@ export default {
           "The application was designed to run portably across systems.",
           "這個應用程式被設計成能以跨平台方式運行。",
           "以可移植／可轉移的方式；較低頻"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "portable-pdf-001",
+      "title": "不局限於原本的環境，可以帶到另一個情境繼續使用",
+      "form": "5. portable = easily transferred to a new context（抽象） — 可移用的；可套用到別處的",
+      "en": "5. portable = easily transferred to a new context（抽象） — 可移用的；可套用到別處的",
+      "zh": "不局限於原本的環境，可以帶到另一個情境繼續使用",
+      "note": "原始 PDF 第 5 節：不局限於原本的環境，可以帶到另一個情境繼續使用",
+      "examples": [
+        [
+          "These skills are highly portable between industries.",
+          "這些技能在不同行業之間具有很高的可轉移性。",
+          "不局限於原本的環境，可以帶到另一個情境繼續使用"
+        ],
+        [
+          "The method is simple and portable across different settings.",
+          "這種方法很簡單，而且可以移用到不同情境。",
+          "不局限於原本的環境，可以帶到另一個情境繼續使用"
         ]
       ],
       "options": [],
@@ -450,63 +461,63 @@ export default {
     },
     {
       "id": "portable-05-0",
-      "sense": "portable-mcq-05",
+      "sense": "portable-pdf-001",
       "en": "These skills are highly portable between industries.",
       "zh": "這些技能在不同行業之間具有很高的可轉移性。",
       "masked": "These skills are highly ____ between industries.",
       "options": [
-        "portable-mcq-05",
+        "portable-pdf-001",
         "portable-mcq-04",
         "portable-mcq-06",
         "portable-mcq-03",
         "portable-mcq-07",
         "portable-mcq-02"
       ],
-      "explanation": "本句的「portable」指「可以從一個環境或領域移用到另一個的」。",
+      "explanation": "本句的「portable」指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-05": "本句指「可以從一個環境或領域移用到另一個的」。",
+        "portable-pdf-001": "本句指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
         "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
         "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
         "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
         "portable-mcq-07": "「便攜性；可移植性；可轉移性」與本句語境不同。",
         "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。"
       },
-      "correctOption": "portable-mcq-05"
+      "correctOption": "portable-pdf-001"
     },
     {
       "id": "portable-05-1",
-      "sense": "portable-mcq-05",
+      "sense": "portable-pdf-001",
       "en": "The method is simple and portable across different settings.",
       "zh": "這種方法很簡單，而且可以移用到不同情境。",
       "masked": "The method is simple and ____ across different settings.",
       "options": [
-        "portable-mcq-05",
+        "portable-pdf-001",
         "portable-mcq-04",
         "portable-mcq-06",
         "portable-mcq-03",
         "portable-mcq-07",
         "portable-mcq-02"
       ],
-      "explanation": "本句的「portable」指「可以從一個環境或領域移用到另一個的」。",
+      "explanation": "本句的「portable」指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-05": "本句指「可以從一個環境或領域移用到另一個的」。",
+        "portable-pdf-001": "本句指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
         "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
         "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
         "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
         "portable-mcq-07": "「便攜性；可移植性；可轉移性」與本句語境不同。",
         "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。"
       },
-      "correctOption": "portable-mcq-05"
+      "correctOption": "portable-pdf-001"
     },
     {
       "id": "portable-06-0",

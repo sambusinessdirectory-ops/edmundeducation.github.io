@@ -157,16 +157,6 @@ export default {
           "The course afforded me the chance to work with artists.",
           "這個課程給了我機會與藝術家合作。",
           "正式用法：提供／給予某人某種機會、好處、經驗或視野"
-        ],
-        [
-          "The balcony affords a clear view of the river.",
-          "這個露台可以清楚看到河景。",
-          "正式用法：提供／給予某人某種機會、好處、經驗或視野"
-        ],
-        [
-          "The wall affords some protection from the wind.",
-          "這道牆提供了一定的擋風保護。",
-          "正式用法：提供／給予某人某種機會、好處、經驗或視野"
         ]
       ],
       "options": [],
@@ -255,6 +245,28 @@ export default {
           "The discount makes the course more affordable.",
           "折扣令這個課程更負擔得起。",
           "降低實際／相對成本，使更多人有能力支付"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "afford-pdf-001",
+      "title": "使某人能獲得某種視野、保護、便利或好處",
+      "form": "9. afford + view/access/protection = 提供；給予",
+      "en": "9. afford + view/access/protection = 提供；給予",
+      "zh": "使某人能獲得某種視野、保護、便利或好處",
+      "note": "原始 PDF 第 9 節：使某人能獲得某種視野、保護、便利或好處",
+      "examples": [
+        [
+          "The balcony affords a clear view of the river.",
+          "這個露台可以清楚看到河景。",
+          "使某人能獲得某種視野、保護、便利或好處"
+        ],
+        [
+          "The wall affords some protection from the wind.",
+          "這道牆提供了一定的擋風保護。",
+          "使某人能獲得某種視野、保護、便利或好處"
         ]
       ],
       "options": [],
@@ -774,63 +786,63 @@ export default {
     },
     {
       "id": "afford-09-0",
-      "sense": "afford-mcq-06",
+      "sense": "afford-pdf-001",
       "en": "The balcony affords a clear view of the river.",
       "zh": "這個露台可以清楚看到河景。",
       "masked": "The balcony ____ a clear view of the river.",
       "options": [
-        "afford-mcq-06",
+        "afford-pdf-001",
         "afford-mcq-05",
         "afford-mcq-07",
         "afford-mcq-04",
         "afford-mcq-08",
         "afford-mcq-03"
       ],
-      "explanation": "本句的「affords」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+      "explanation": "本句的「affords」指「使某人能獲得某種視野、保護、便利或好處」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "affords"
       ],
       "optionReasons": {
-        "afford-mcq-06": "本句指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+        "afford-pdf-001": "本句指「使某人能獲得某種視野、保護、便利或好處」。",
         "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
         "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
         "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
         "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
         "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
       },
-      "correctOption": "afford-mcq-06"
+      "correctOption": "afford-pdf-001"
     },
     {
       "id": "afford-09-1",
-      "sense": "afford-mcq-06",
+      "sense": "afford-pdf-001",
       "en": "The wall affords some protection from the wind.",
       "zh": "這道牆提供了一定的擋風保護。",
       "masked": "The wall ____ some protection from the wind.",
       "options": [
-        "afford-mcq-06",
+        "afford-pdf-001",
         "afford-mcq-05",
         "afford-mcq-07",
         "afford-mcq-04",
         "afford-mcq-08",
         "afford-mcq-03"
       ],
-      "explanation": "本句的「affords」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+      "explanation": "本句的「affords」指「使某人能獲得某種視野、保護、便利或好處」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "affords"
       ],
       "optionReasons": {
-        "afford-mcq-06": "本句指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+        "afford-pdf-001": "本句指「使某人能獲得某種視野、保護、便利或好處」。",
         "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
         "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
         "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
         "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
         "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
       },
-      "correctOption": "afford-mcq-06"
+      "correctOption": "afford-pdf-001"
     },
     {
       "id": "afford-10-0",

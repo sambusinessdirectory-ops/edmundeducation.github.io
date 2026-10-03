@@ -80,21 +80,6 @@ export default {
       "note": "來源詞義：有系統地佈置、排列、規劃；亦可指清楚說明",
       "examples": [
         [
-          "Everything is laid out in a very orderly way.",
-          "一切都被佈置得井然有序。",
-          "有系統地佈置、排列、規劃；亦可指清楚說明"
-        ],
-        [
-          "The garden is laid out in a formal style.",
-          "花園按照正式風格規劃／佈置。",
-          "有系統地佈置、排列、規劃；亦可指清楚說明"
-        ],
-        [
-          "The information is clearly laid out on the page.",
-          "資料在頁面上排列得很清楚。",
-          "有系統地佈置、排列、規劃；亦可指清楚說明"
-        ],
-        [
           "She laid out the plan in detail.",
           "她把計劃清楚列出／說明。",
           "有系統地佈置、排列、規劃；亦可指清楚說明"
@@ -176,18 +161,7 @@ export default {
       "en": "layer",
       "zh": "一層物質／結構；相關詞彙",
       "note": "來源詞義：一層物質／結構；相關詞彙",
-      "examples": [
-        [
-          "A thin layer of dust covered the shelf.",
-          "架子上覆蓋着一層薄薄的灰塵。",
-          "一層物質／結構；相關詞彙"
-        ],
-        [
-          "The cake has three layers.",
-          "這個蛋糕有三層。",
-          "一層物質／結構；相關詞彙"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -242,6 +216,55 @@ export default {
           "The company had to lay off several workers.",
           "公司不得不裁員。",
           "表示敷設；鋪設"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "lay-pdf-001",
+      "title": "把空間、資訊或物件有系統地安排、排列或設計",
+      "form": "4. lay out = arrange or organize visually/spatially（片語） — 佈置；排列；規劃",
+      "en": "4. lay out = arrange or organize visually/spatially（片語） — 佈置；排列；規劃",
+      "zh": "把空間、資訊或物件有系統地安排、排列或設計",
+      "note": "原始 PDF 第 4 節：把空間、資訊或物件有系統地安排、排列或設計",
+      "examples": [
+        [
+          "Everything is laid out in a very orderly way.",
+          "一切都被佈置得井然有序。",
+          "把空間、資訊或物件有系統地安排、排列或設計"
+        ],
+        [
+          "The garden is laid out in a formal style.",
+          "花園按照正式風格規劃／佈置。",
+          "把空間、資訊或物件有系統地安排、排列或設計"
+        ],
+        [
+          "The information is clearly laid out on the page.",
+          "資料在頁面上排列得很清楚。",
+          "把空間、資訊或物件有系統地安排、排列或設計"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "lay-pdf-002",
+      "title": "一層覆蓋物或上下堆疊的層次",
+      "form": "Related form: layer",
+      "en": "Related form: layer",
+      "zh": "一層覆蓋物或上下堆疊的層次",
+      "note": "原始 PDF 第 None 節：一層覆蓋物或上下堆疊的層次",
+      "examples": [
+        [
+          "A thin layer of dust covered the shelf.",
+          "架子上覆蓋着一層薄薄的灰塵。",
+          "一層覆蓋物或上下堆疊的層次"
+        ],
+        [
+          "The cake has three layers.",
+          "這個蛋糕有三層。",
+          "一層覆蓋物或上下堆疊的層次"
         ]
       ],
       "options": [],
@@ -431,93 +454,93 @@ export default {
     },
     {
       "id": "lay-04-0",
-      "sense": "lay-mcq-04",
+      "sense": "lay-pdf-001",
       "en": "Everything is laid out in a very orderly way.",
       "zh": "一切都被佈置得井然有序。",
       "masked": "Everything is ____ in a very orderly way.",
       "options": [
-        "lay-mcq-04",
+        "lay-pdf-001",
         "lay-mcq-03",
         "lay-mcq-05",
         "lay-mcq-02",
         "lay-mcq-06",
         "lay-mcq-01"
       ],
-      "explanation": "本句的「laid out」指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+      "explanation": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "laid out"
       ],
       "optionReasons": {
-        "lay-mcq-04": "本句指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+        "lay-pdf-001": "本句指「把空間、資訊或物件有系統地安排、排列或設計」。",
         "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
         "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
         "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
         "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
         "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
       },
-      "correctOption": "lay-mcq-04"
+      "correctOption": "lay-pdf-001"
     },
     {
       "id": "lay-04-1",
-      "sense": "lay-mcq-04",
+      "sense": "lay-pdf-001",
       "en": "The garden is laid out in a formal style.",
       "zh": "花園按照正式風格規劃／佈置。",
       "masked": "The garden is ____ in a formal style.",
       "options": [
-        "lay-mcq-04",
+        "lay-pdf-001",
         "lay-mcq-03",
         "lay-mcq-05",
         "lay-mcq-02",
         "lay-mcq-06",
         "lay-mcq-01"
       ],
-      "explanation": "本句的「laid out」指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+      "explanation": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "laid out"
       ],
       "optionReasons": {
-        "lay-mcq-04": "本句指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+        "lay-pdf-001": "本句指「把空間、資訊或物件有系統地安排、排列或設計」。",
         "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
         "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
         "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
         "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
         "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
       },
-      "correctOption": "lay-mcq-04"
+      "correctOption": "lay-pdf-001"
     },
     {
       "id": "lay-04-2",
-      "sense": "lay-mcq-04",
+      "sense": "lay-pdf-001",
       "en": "The information is clearly laid out on the page.",
       "zh": "資料在頁面上排列得很清楚。",
       "masked": "The information is clearly ____ on the page.",
       "options": [
-        "lay-mcq-04",
+        "lay-pdf-001",
         "lay-mcq-03",
         "lay-mcq-05",
         "lay-mcq-02",
         "lay-mcq-06",
         "lay-mcq-01"
       ],
-      "explanation": "本句的「laid out」指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+      "explanation": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "laid out"
       ],
       "optionReasons": {
-        "lay-mcq-04": "本句指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+        "lay-pdf-001": "本句指「把空間、資訊或物件有系統地安排、排列或設計」。",
         "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
         "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
         "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
         "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
         "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
       },
-      "correctOption": "lay-mcq-04"
+      "correctOption": "lay-pdf-001"
     },
     {
       "id": "lay-05-0",
@@ -761,63 +784,63 @@ export default {
     },
     {
       "id": "lay-08-2",
-      "sense": "lay-mcq-08",
+      "sense": "lay-pdf-002",
       "en": "A thin layer of dust covered the shelf.",
       "zh": "架子上覆蓋着一層薄薄的灰塵。",
       "masked": "A thin ____ of dust covered the shelf.",
       "options": [
-        "lay-mcq-08",
+        "lay-pdf-002",
         "lay-mcq-07",
         "lay-mcq-09",
         "lay-mcq-06",
         "lay-mcq-05",
         "lay-mcq-04"
       ],
-      "explanation": "本句的「layer」指「一層物質／結構；相關詞彙」。",
+      "explanation": "本句的「layer」指「一層覆蓋物或上下堆疊的層次」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "layer"
       ],
       "optionReasons": {
-        "lay-mcq-08": "本句指「一層物質／結構；相關詞彙」。",
+        "lay-pdf-002": "本句指「一層覆蓋物或上下堆疊的層次」。",
         "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
         "lay-mcq-09": "「表示敷設；鋪設」是「8. lay = set/install something technical（技術） — 敷設；鋪設」的用法，與本句語境不同。",
         "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
         "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
         "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
       },
-      "correctOption": "lay-mcq-08"
+      "correctOption": "lay-pdf-002"
     },
     {
       "id": "lay-08-3",
-      "sense": "lay-mcq-08",
+      "sense": "lay-pdf-002",
       "en": "The cake has three layers.",
       "zh": "這個蛋糕有三層。",
       "masked": "The cake has three ____.",
       "options": [
-        "lay-mcq-08",
+        "lay-pdf-002",
         "lay-mcq-07",
         "lay-mcq-09",
         "lay-mcq-06",
         "lay-mcq-05",
         "lay-mcq-04"
       ],
-      "explanation": "本句的「layers」指「一層物質／結構；相關詞彙」。",
+      "explanation": "本句的「layers」指「一層覆蓋物或上下堆疊的層次」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "layers"
       ],
       "optionReasons": {
-        "lay-mcq-08": "本句指「一層物質／結構；相關詞彙」。",
+        "lay-pdf-002": "本句指「一層覆蓋物或上下堆疊的層次」。",
         "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
         "lay-mcq-09": "「表示敷設；鋪設」是「8. lay = set/install something technical（技術） — 敷設；鋪設」的用法，與本句語境不同。",
         "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
         "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
         "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
       },
-      "correctOption": "lay-mcq-08"
+      "correctOption": "lay-pdf-002"
     },
     {
       "id": "lay-08-4",

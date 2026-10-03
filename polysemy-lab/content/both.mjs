@@ -107,26 +107,6 @@ export default {
       "note": "來源詞義：主語所指的兩個人／事物都進行同一動作",
       "examples": [
         [
-          "She both grows and shares vegetables.",
-          "她既種蔬菜，也會把蔬菜分享給別人。",
-          "主語所指的兩個人／事物都進行同一動作"
-        ],
-        [
-          "The project both saves money and reduces waste.",
-          "這個項目既節省金錢，又減少廢物。",
-          "主語所指的兩個人／事物都進行同一動作"
-        ],
-        [
-          "Both Anna and Ben enjoy gardening.",
-          "Anna 和 Ben 兩個都喜歡園藝。",
-          "主語所指的兩個人／事物都進行同一動作"
-        ],
-        [
-          "Both the teacher and the students agreed.",
-          "老師和學生雙方都同意。",
-          "主語所指的兩個人／事物都進行同一動作"
-        ],
-        [
           "They both enjoy gardening.",
           "他們兩個都喜歡園藝。",
           "主語所指的兩個人／事物都進行同一動作"
@@ -333,6 +313,50 @@ export default {
           "You both did a great job.",
           "你們兩個都做得很好。",
           "該代名詞所指的兩個人全部"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "both-pdf-001",
+      "title": "強調同一主語進行兩個動作／具備兩個作用",
+      "form": "5. both + verbs / verb phrases（兩個動作都） — 既……又……",
+      "en": "5. both + verbs / verb phrases（兩個動作都） — 既……又……",
+      "zh": "強調同一主語進行兩個動作／具備兩個作用",
+      "note": "原始 PDF 第 5 節：強調同一主語進行兩個動作／具備兩個作用",
+      "examples": [
+        [
+          "She both grows and shares vegetables.",
+          "她既種蔬菜，也會把蔬菜分享給別人。",
+          "強調同一主語進行兩個動作／具備兩個作用"
+        ],
+        [
+          "The project both saves money and reduces waste.",
+          "這個項目既節省金錢，又減少廢物。",
+          "強調同一主語進行兩個動作／具備兩個作用"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "both-pdf-002",
+      "title": "A、B 兩個主體都符合後面的敘述",
+      "form": "6. both + subjects（兩個主體都） — 兩者都",
+      "en": "6. both + subjects（兩個主體都） — 兩者都",
+      "zh": "A、B 兩個主體都符合後面的敘述",
+      "note": "原始 PDF 第 6 節：A、B 兩個主體都符合後面的敘述",
+      "examples": [
+        [
+          "Both Anna and Ben enjoy gardening.",
+          "Anna 和 Ben 兩個都喜歡園藝。",
+          "A、B 兩個主體都符合後面的敘述"
+        ],
+        [
+          "Both the teacher and the students agreed.",
+          "老師和學生雙方都同意。",
+          "A、B 兩個主體都符合後面的敘述"
         ]
       ],
       "options": [],
@@ -612,123 +636,123 @@ export default {
     },
     {
       "id": "both-05-0",
-      "sense": "both-mcq-05",
+      "sense": "both-pdf-001",
       "en": "She both grows and shares vegetables.",
       "zh": "她既種蔬菜，也會把蔬菜分享給別人。",
       "masked": "She ____ vegetables.",
       "options": [
-        "both-mcq-05",
+        "both-pdf-001",
         "both-mcq-04",
         "both-mcq-06",
         "both-mcq-03",
         "both-mcq-07",
         "both-mcq-02"
       ],
-      "explanation": "本句的「both grows and shares」指「主語所指的兩個人／事物都進行同一動作」。",
+      "explanation": "本句的「both grows and shares」指「強調同一主語進行兩個動作／具備兩個作用」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "both grows and shares"
       ],
       "optionReasons": {
-        "both-mcq-05": "本句指「主語所指的兩個人／事物都進行同一動作」。",
+        "both-pdf-001": "本句指「強調同一主語進行兩個動作／具備兩個作用」。",
         "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
         "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
         "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
         "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
         "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
       },
-      "correctOption": "both-mcq-05"
+      "correctOption": "both-pdf-001"
     },
     {
       "id": "both-05-1",
-      "sense": "both-mcq-05",
+      "sense": "both-pdf-001",
       "en": "The project both saves money and reduces waste.",
       "zh": "這個項目既節省金錢，又減少廢物。",
       "masked": "The project ____ saves money and reduces waste.",
       "options": [
-        "both-mcq-05",
+        "both-pdf-001",
         "both-mcq-04",
         "both-mcq-06",
         "both-mcq-03",
         "both-mcq-07",
         "both-mcq-02"
       ],
-      "explanation": "本句的「both」指「主語所指的兩個人／事物都進行同一動作」。",
+      "explanation": "本句的「both」指「強調同一主語進行兩個動作／具備兩個作用」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "both"
       ],
       "optionReasons": {
-        "both-mcq-05": "本句指「主語所指的兩個人／事物都進行同一動作」。",
+        "both-pdf-001": "本句指「強調同一主語進行兩個動作／具備兩個作用」。",
         "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
         "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
         "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
         "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
         "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
       },
-      "correctOption": "both-mcq-05"
+      "correctOption": "both-pdf-001"
     },
     {
       "id": "both-06-0",
-      "sense": "both-mcq-05",
+      "sense": "both-pdf-002",
       "en": "Both Anna and Ben enjoy gardening.",
       "zh": "Anna 和 Ben 兩個都喜歡園藝。",
       "masked": "____ enjoy gardening.",
       "options": [
-        "both-mcq-05",
+        "both-pdf-002",
         "both-mcq-04",
         "both-mcq-06",
         "both-mcq-03",
         "both-mcq-07",
         "both-mcq-02"
       ],
-      "explanation": "本句的「Both Anna and Ben」指「主語所指的兩個人／事物都進行同一動作」。",
+      "explanation": "本句的「Both Anna and Ben」指「A、B 兩個主體都符合後面的敘述」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "Both Anna and Ben"
       ],
       "optionReasons": {
-        "both-mcq-05": "本句指「主語所指的兩個人／事物都進行同一動作」。",
+        "both-pdf-002": "本句指「A、B 兩個主體都符合後面的敘述」。",
         "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
         "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
         "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
         "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
         "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
       },
-      "correctOption": "both-mcq-05"
+      "correctOption": "both-pdf-002"
     },
     {
       "id": "both-06-1",
-      "sense": "both-mcq-05",
+      "sense": "both-pdf-002",
       "en": "Both the teacher and the students agreed.",
       "zh": "老師和學生雙方都同意。",
       "masked": "____ the teacher and the students agreed.",
       "options": [
-        "both-mcq-05",
+        "both-pdf-002",
         "both-mcq-04",
         "both-mcq-06",
         "both-mcq-03",
         "both-mcq-07",
         "both-mcq-02"
       ],
-      "explanation": "本句的「Both」指「主語所指的兩個人／事物都進行同一動作」。",
+      "explanation": "本句的「Both」指「A、B 兩個主體都符合後面的敘述」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "Both"
       ],
       "optionReasons": {
-        "both-mcq-05": "本句指「主語所指的兩個人／事物都進行同一動作」。",
+        "both-pdf-002": "本句指「A、B 兩個主體都符合後面的敘述」。",
         "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
         "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
         "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
         "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
         "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
       },
-      "correctOption": "both-mcq-05"
+      "correctOption": "both-pdf-002"
     },
     {
       "id": "both-07-0",

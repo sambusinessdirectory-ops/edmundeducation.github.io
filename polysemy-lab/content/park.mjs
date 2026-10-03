@@ -93,16 +93,6 @@ export default {
           "We can park the boxes in the spare room for now.",
           "我們暫時可以把箱子放在空房裡。",
           "暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動"
-        ],
-        [
-          "Let’s park that issue and come back to it tomorrow.",
-          "我們先把這個問題暫時擱置，明天再談。",
-          "暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動"
-        ],
-        [
-          "The proposal was parked until more information became available.",
-          "這項建議被暫時擱置，等有更多資料後再處理。",
-          "暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動"
         ]
       ],
       "options": [],
@@ -191,6 +181,28 @@ export default {
           "She decided to park the cash in a savings account for now.",
           "她決定暫時把現金存放在儲蓄戶口。",
           "暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "park-pdf-001",
+      "title": "暫時停止討論或處理某件事，但保留日後再處理的可能",
+      "form": "5. park + idea/problem/project（事情／議題） — 暫時擱置",
+      "en": "5. park + idea/problem/project（事情／議題） — 暫時擱置",
+      "zh": "暫時停止討論或處理某件事，但保留日後再處理的可能",
+      "note": "原始 PDF 第 5 節：暫時停止討論或處理某件事，但保留日後再處理的可能",
+      "examples": [
+        [
+          "Let’s park that issue and come back to it tomorrow.",
+          "我們先把這個問題暫時擱置，明天再談。",
+          "暫時停止討論或處理某件事，但保留日後再處理的可能"
+        ],
+        [
+          "The proposal was parked until more information became available.",
+          "這項建議被暫時擱置，等有更多資料後再處理。",
+          "暫時停止討論或處理某件事，但保留日後再處理的可能"
         ]
       ],
       "options": [],
@@ -470,63 +482,63 @@ export default {
     },
     {
       "id": "park-05-0",
-      "sense": "park-mcq-04",
+      "sense": "park-pdf-001",
       "en": "Let’s park that issue and come back to it tomorrow.",
       "zh": "我們先把這個問題暫時擱置，明天再談。",
       "masked": "Let’s ____ and come back to it tomorrow.",
       "options": [
-        "park-mcq-04",
+        "park-pdf-001",
         "park-mcq-03",
         "park-mcq-05",
         "park-mcq-02",
         "park-mcq-06",
         "park-mcq-01"
       ],
-      "explanation": "本句的「park that issue」指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
+      "explanation": "本句的「park that issue」指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "park that issue"
       ],
       "optionReasons": {
-        "park-mcq-04": "本句指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
+        "park-pdf-001": "本句指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
         "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
         "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
         "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
         "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
         "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。"
       },
-      "correctOption": "park-mcq-04"
+      "correctOption": "park-pdf-001"
     },
     {
       "id": "park-05-1",
-      "sense": "park-mcq-04",
+      "sense": "park-pdf-001",
       "en": "The proposal was parked until more information became available.",
       "zh": "這項建議被暫時擱置，等有更多資料後再處理。",
       "masked": "The proposal was ____ until more information became available.",
       "options": [
-        "park-mcq-04",
+        "park-pdf-001",
         "park-mcq-03",
         "park-mcq-05",
         "park-mcq-02",
         "park-mcq-06",
         "park-mcq-01"
       ],
-      "explanation": "本句的「parked」指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
+      "explanation": "本句的「parked」指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "parked"
       ],
       "optionReasons": {
-        "park-mcq-04": "本句指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
+        "park-pdf-001": "本句指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
         "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
         "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
         "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
         "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
         "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。"
       },
-      "correctOption": "park-mcq-04"
+      "correctOption": "park-pdf-001"
     },
     {
       "id": "park-06-0",

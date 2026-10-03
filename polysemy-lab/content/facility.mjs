@@ -93,16 +93,6 @@ export default {
           "He speaks with great facility.",
           "他說話非常流暢自如。",
           "做某件事時表現出的天分、熟練程度或輕鬆自如的能力"
-        ],
-        [
-          "She answered the questions with surprising facility.",
-          "她非常輕鬆熟練地回答了那些問題。",
-          "做某件事時表現出的天分、熟練程度或輕鬆自如的能力"
-        ],
-        [
-          "He moves between languages with great facility.",
-          "他能非常自如地在不同語言之間切換。",
-          "做某件事時表現出的天分、熟練程度或輕鬆自如的能力"
         ]
       ],
       "options": [],
@@ -203,6 +193,28 @@ export default {
           "He has great facility with numbers.",
           "他處理數字非常熟練／有天分。",
           "表示對……有天分／很熟練"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "facility-pdf-001",
+      "title": "輕鬆、熟練、自如地",
+      "form": "5. facility = ease/readiness in doing something（容易程度） — 容易；熟練自如",
+      "en": "5. facility = ease/readiness in doing something（容易程度） — 容易；熟練自如",
+      "zh": "輕鬆、熟練、自如地",
+      "note": "原始 PDF 第 5 節：輕鬆、熟練、自如地",
+      "examples": [
+        [
+          "She answered the questions with surprising facility.",
+          "她非常輕鬆熟練地回答了那些問題。",
+          "輕鬆、熟練、自如地"
+        ],
+        [
+          "He moves between languages with great facility.",
+          "他能非常自如地在不同語言之間切換。",
+          "輕鬆、熟練、自如地"
         ]
       ],
       "options": [],
@@ -482,63 +494,63 @@ export default {
     },
     {
       "id": "facility-05-0",
-      "sense": "facility-mcq-04",
+      "sense": "facility-pdf-001",
       "en": "She answered the questions with surprising facility.",
       "zh": "她非常輕鬆熟練地回答了那些問題。",
       "masked": "She answered the questions with surprising ____.",
       "options": [
-        "facility-mcq-04",
+        "facility-pdf-001",
         "facility-mcq-03",
         "facility-mcq-05",
         "facility-mcq-02",
         "facility-mcq-06",
         "facility-mcq-01"
       ],
-      "explanation": "本句的「facility」指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
+      "explanation": "本句的「facility」指「輕鬆、熟練、自如地」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-04": "本句指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
+        "facility-pdf-001": "本句指「輕鬆、熟練、自如地」。",
         "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
         "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
         "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
         "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
         "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。"
       },
-      "correctOption": "facility-mcq-04"
+      "correctOption": "facility-pdf-001"
     },
     {
       "id": "facility-05-1",
-      "sense": "facility-mcq-04",
+      "sense": "facility-pdf-001",
       "en": "He moves between languages with great facility.",
       "zh": "他能非常自如地在不同語言之間切換。",
       "masked": "He moves between languages with great ____.",
       "options": [
-        "facility-mcq-04",
+        "facility-pdf-001",
         "facility-mcq-03",
         "facility-mcq-05",
         "facility-mcq-02",
         "facility-mcq-06",
         "facility-mcq-01"
       ],
-      "explanation": "本句的「facility」指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
+      "explanation": "本句的「facility」指「輕鬆、熟練、自如地」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-04": "本句指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
+        "facility-pdf-001": "本句指「輕鬆、熟練、自如地」。",
         "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
         "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
         "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
         "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
         "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。"
       },
-      "correctOption": "facility-mcq-04"
+      "correctOption": "facility-pdf-001"
     },
     {
       "id": "facility-06-0",

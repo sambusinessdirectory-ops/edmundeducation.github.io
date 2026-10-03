@@ -214,18 +214,7 @@ export default {
       "en": "just now",
       "zh": "剛才不久；某些語境亦可指此刻",
       "note": "來源詞義：剛才不久；某些語境亦可指此刻",
-      "examples": [
-        [
-          "I saw her just now.",
-          "我剛才見到她。",
-          "剛才不久；某些語境亦可指此刻"
-        ],
-        [
-          "I can’t talk just now.",
-          "我現在這一刻不方便說話。",
-          "剛才不久；某些語境亦可指此刻"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -258,18 +247,7 @@ export default {
       "en": "the here and now",
       "zh": "現實中正在發生的此時此刻／當下",
       "note": "來源詞義：現實中正在發生的此時此刻／當下",
-      "examples": [
-        [
-          "Try to live in the now.",
-          "嘗試活在當下。",
-          "現實中正在發生的此時此刻／當下"
-        ],
-        [
-          "She tries to focus on the here and now.",
-          "她嘗試專注於當下眼前的生活。",
-          "現實中正在發生的此時此刻／當下"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -290,6 +268,50 @@ export default {
           "It is much easier to work remotely nowadays.",
           "現今遙距工作容易得多。",
           "現今這個時代或現代社會中"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "now-pdf-001",
+      "title": "剛才",
+      "form": "10. just now = a very short time ago / at this moment — 剛才；此刻",
+      "en": "10. just now = a very short time ago / at this moment — 剛才；此刻",
+      "zh": "剛才",
+      "note": "原始 PDF 第 10 節：剛才",
+      "examples": [
+        [
+          "I saw her just now.",
+          "我剛才見到她。",
+          "剛才"
+        ],
+        [
+          "I can’t talk just now.",
+          "我現在這一刻不方便說話。",
+          "剛才"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "now-pdf-002",
+      "title": "當前這一刻，被視為一個概念",
+      "form": "12. the now = the present moment（較抽象／較少見） — 當下；此刻",
+      "en": "12. the now = the present moment（較抽象／較少見） — 當下；此刻",
+      "zh": "當前這一刻，被視為一個概念",
+      "note": "原始 PDF 第 12 節：當前這一刻，被視為一個概念",
+      "examples": [
+        [
+          "Try to live in the now.",
+          "嘗試活在當下。",
+          "當前這一刻，被視為一個概念"
+        ],
+        [
+          "She tries to focus on the here and now.",
+          "她嘗試專注於當下眼前的生活。",
+          "當前這一刻，被視為一個概念"
         ]
       ],
       "options": [],
@@ -869,63 +891,63 @@ export default {
     },
     {
       "id": "now-10-0",
-      "sense": "now-mcq-10",
+      "sense": "now-pdf-001",
       "en": "I saw her just now.",
       "zh": "我剛才見到她。",
       "masked": "I saw her ____.",
       "options": [
-        "now-mcq-10",
+        "now-pdf-001",
         "now-mcq-09",
         "now-mcq-11",
         "now-mcq-08",
         "now-mcq-12",
         "now-mcq-07"
       ],
-      "explanation": "本句的「just now」指「剛才不久；某些語境亦可指此刻」。",
+      "explanation": "本句的「just now」指「剛才」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "just now"
       ],
       "optionReasons": {
-        "now-mcq-10": "本句指「剛才不久；某些語境亦可指此刻」。",
+        "now-pdf-001": "本句指「剛才」。",
         "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
         "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
         "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
         "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
         "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。"
       },
-      "correctOption": "now-mcq-10"
+      "correctOption": "now-pdf-001"
     },
     {
       "id": "now-10-1",
-      "sense": "now-mcq-10",
+      "sense": "now-pdf-001",
       "en": "I can’t talk just now.",
       "zh": "我現在這一刻不方便說話。",
       "masked": "I can’t talk ____.",
       "options": [
-        "now-mcq-10",
+        "now-pdf-001",
         "now-mcq-09",
         "now-mcq-11",
         "now-mcq-08",
         "now-mcq-12",
         "now-mcq-07"
       ],
-      "explanation": "本句的「just now」指「剛才不久；某些語境亦可指此刻」。",
+      "explanation": "本句的「just now」指「剛才」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "just now"
       ],
       "optionReasons": {
-        "now-mcq-10": "本句指「剛才不久；某些語境亦可指此刻」。",
+        "now-pdf-001": "本句指「剛才」。",
         "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
         "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
         "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
         "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
         "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。"
       },
-      "correctOption": "now-mcq-10"
+      "correctOption": "now-pdf-001"
     },
     {
       "id": "now-11-0",
@@ -989,63 +1011,63 @@ export default {
     },
     {
       "id": "now-12-0",
-      "sense": "now-mcq-12",
+      "sense": "now-pdf-002",
       "en": "Try to live in the now.",
       "zh": "嘗試活在當下。",
       "masked": "Try to live in the ____.",
       "options": [
-        "now-mcq-12",
+        "now-pdf-002",
         "now-mcq-11",
         "now-mcq-13",
         "now-mcq-10",
         "now-mcq-09",
         "now-mcq-08"
       ],
-      "explanation": "本句的「now」指「現實中正在發生的此時此刻／當下」。",
+      "explanation": "本句的「now」指「當前這一刻，被視為一個概念」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "now"
       ],
       "optionReasons": {
-        "now-mcq-12": "本句指「現實中正在發生的此時此刻／當下」。",
+        "now-pdf-002": "本句指「當前這一刻，被視為一個概念」。",
         "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
         "now-mcq-13": "「現今這個時代或現代社會中」是「nowadays」的用法，與本句語境不同。",
         "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
         "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
         "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
       },
-      "correctOption": "now-mcq-12"
+      "correctOption": "now-pdf-002"
     },
     {
       "id": "now-12-1",
-      "sense": "now-mcq-12",
+      "sense": "now-pdf-002",
       "en": "She tries to focus on the here and now.",
       "zh": "她嘗試專注於當下眼前的生活。",
       "masked": "She tries to focus on the ____.",
       "options": [
-        "now-mcq-12",
+        "now-pdf-002",
         "now-mcq-11",
         "now-mcq-13",
         "now-mcq-10",
         "now-mcq-09",
         "now-mcq-08"
       ],
-      "explanation": "本句的「here and now」指「現實中正在發生的此時此刻／當下」。",
+      "explanation": "本句的「here and now」指「當前這一刻，被視為一個概念」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "here and now"
       ],
       "optionReasons": {
-        "now-mcq-12": "本句指「現實中正在發生的此時此刻／當下」。",
+        "now-pdf-002": "本句指「當前這一刻，被視為一個概念」。",
         "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
         "now-mcq-13": "「現今這個時代或現代社會中」是「nowadays」的用法，與本句語境不同。",
         "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
         "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
         "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
       },
-      "correctOption": "now-mcq-12"
+      "correctOption": "now-pdf-002"
     },
     {
       "id": "now-12-2",

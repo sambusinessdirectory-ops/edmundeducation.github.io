@@ -66,16 +66,6 @@ export default {
           "Modern machines allow companies to produce goods more efficiently.",
           "現代機器讓公司能更有效率地生產商品。",
           "生產商品"
-        ],
-        [
-          "The product is produced on a large scale.",
-          "這種產品是大規模生產的。",
-          "生產商品"
-        ],
-        [
-          "The factory can produce thousands of units a day.",
-          "工廠每天可以生產數千件產品。",
-          "生產商品"
         ]
       ],
       "options": [],
@@ -230,16 +220,6 @@ export default {
           "He was unable to produce any identification.",
           "他無法出示任何身份證明。",
           "出示文件"
-        ],
-        [
-          "She produced a key from her bag.",
-          "她從袋裏拿出一條鎖匙。",
-          "出示文件"
-        ],
-        [
-          "He suddenly produced a notebook from his pocket.",
-          "他突然從口袋裏掏出一本記事簿。",
-          "出示文件"
         ]
       ],
       "options": [],
@@ -283,16 +263,6 @@ export default {
         [
           "The series was produced by an independent studio.",
           "這套劇集由一間獨立工作室製作。",
-          "製作／監製電影"
-        ],
-        [
-          "The theatre is producing a new play.",
-          "劇院正在製作一齣新劇。",
-          "製作／監製電影"
-        ],
-        [
-          "She has produced several stage shows.",
-          "她曾經製作多個舞台節目。",
           "製作／監製電影"
         ]
       ],
@@ -634,6 +604,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "produce-pdf-001",
+      "title": "以大量、工業化方式製造",
+      "form": "6. produce on a large scale — 大規模生產",
+      "en": "6. produce on a large scale — 大規模生產",
+      "zh": "以大量、工業化方式製造",
+      "note": "原始 PDF 第 6 節：以大量、工業化方式製造",
+      "examples": [
+        [
+          "The product is produced on a large scale.",
+          "這種產品是大規模生產的。",
+          "以大量、工業化方式製造"
+        ],
+        [
+          "The factory can produce thousands of units a day.",
+          "工廠每天可以生產數千件產品。",
+          "以大量、工業化方式製造"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "produce-pdf-002",
+      "title": "從某處取出並展示 X",
+      "form": "14. produce something from a pocket / bag — 拿出；掏出",
+      "en": "14. produce something from a pocket / bag — 拿出；掏出",
+      "zh": "從某處取出並展示 X",
+      "note": "原始 PDF 第 14 節：從某處取出並展示 X",
+      "examples": [
+        [
+          "She produced a key from her bag.",
+          "她從袋裏拿出一條鎖匙。",
+          "從某處取出並展示 X"
+        ],
+        [
+          "He suddenly produced a notebook from his pocket.",
+          "他突然從口袋裏掏出一本記事簿。",
+          "從某處取出並展示 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "produce-pdf-003",
+      "title": "負責組織和管理表演作品的整體製作",
+      "form": "17. produce a play / show — 製作／籌辦舞台作品",
+      "en": "17. produce a play / show — 製作／籌辦舞台作品",
+      "zh": "負責組織和管理表演作品的整體製作",
+      "note": "原始 PDF 第 17 節：負責組織和管理表演作品的整體製作",
+      "examples": [
+        [
+          "The theatre is producing a new play.",
+          "劇院正在製作一齣新劇。",
+          "負責組織和管理表演作品的整體製作"
+        ],
+        [
+          "She has produced several stage shows.",
+          "她曾經製作多個舞台節目。",
+          "負責組織和管理表演作品的整體製作"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -819,63 +855,63 @@ export default {
     },
     {
       "id": "produce-06-0",
-      "sense": "produce-mcq-03",
+      "sense": "produce-pdf-001",
       "en": "The product is produced on a large scale.",
       "zh": "這種產品是大規模生產的。",
       "masked": "The product is ____.",
       "options": [
-        "produce-mcq-03",
+        "produce-pdf-001",
         "produce-mcq-02",
         "produce-mcq-04",
         "produce-mcq-01",
         "produce-mcq-05",
         "produce-mcq-06"
       ],
-      "explanation": "本句的「produced on a large scale」指「生產商品」。",
+      "explanation": "本句的「produced on a large scale」指「以大量、工業化方式製造」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "produced on a large scale"
       ],
       "optionReasons": {
-        "produce-mcq-03": "本句指「生產商品」。",
+        "produce-pdf-001": "本句指「以大量、工業化方式製造」。",
         "produce-mcq-02": "「產生作用」與本句語境不同。",
         "produce-mcq-04": "「出產農作物」與本句語境不同。",
         "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
         "produce-mcq-05": "「結果」與本句語境不同。",
         "produce-mcq-06": "「產奶」與本句語境不同。"
       },
-      "correctOption": "produce-mcq-03"
+      "correctOption": "produce-pdf-001"
     },
     {
       "id": "produce-06-1",
-      "sense": "produce-mcq-03",
+      "sense": "produce-pdf-001",
       "en": "The factory can produce thousands of units a day.",
       "zh": "工廠每天可以生產數千件產品。",
       "masked": "The factory can ____.",
       "options": [
-        "produce-mcq-03",
+        "produce-pdf-001",
         "produce-mcq-02",
         "produce-mcq-04",
         "produce-mcq-01",
         "produce-mcq-05",
         "produce-mcq-06"
       ],
-      "explanation": "本句的「produce thousands of units a day」指「生產商品」。",
+      "explanation": "本句的「produce thousands of units a day」指「以大量、工業化方式製造」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "produce thousands of units a day"
       ],
       "optionReasons": {
-        "produce-mcq-03": "本句指「生產商品」。",
+        "produce-pdf-001": "本句指「以大量、工業化方式製造」。",
         "produce-mcq-02": "「產生作用」與本句語境不同。",
         "produce-mcq-04": "「出產農作物」與本句語境不同。",
         "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
         "produce-mcq-05": "「結果」與本句語境不同。",
         "produce-mcq-06": "「產奶」與本句語境不同。"
       },
-      "correctOption": "produce-mcq-03"
+      "correctOption": "produce-pdf-001"
     },
     {
       "id": "produce-07-0",
@@ -1299,63 +1335,63 @@ export default {
     },
     {
       "id": "produce-14-0",
-      "sense": "produce-mcq-10",
+      "sense": "produce-pdf-002",
       "en": "She produced a key from her bag.",
       "zh": "她從袋裏拿出一條鎖匙。",
       "masked": "She ____.",
       "options": [
-        "produce-mcq-10",
+        "produce-pdf-002",
         "produce-mcq-09",
         "produce-mcq-11",
         "produce-mcq-08",
         "produce-mcq-12",
         "produce-mcq-07"
       ],
-      "explanation": "本句的「produced a key from her bag」指「出示文件」。",
+      "explanation": "本句的「produced a key from her bag」指「從某處取出並展示 X」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "produced a key from her bag"
       ],
       "optionReasons": {
-        "produce-mcq-10": "本句指「出示文件」。",
+        "produce-pdf-002": "本句指「從某處取出並展示 X」。",
         "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
         "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
         "produce-mcq-08": "「產生熱」與本句語境不同。",
         "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
         "produce-mcq-07": "「發電」與本句語境不同。"
       },
-      "correctOption": "produce-mcq-10"
+      "correctOption": "produce-pdf-002"
     },
     {
       "id": "produce-14-1",
-      "sense": "produce-mcq-10",
+      "sense": "produce-pdf-002",
       "en": "He suddenly produced a notebook from his pocket.",
       "zh": "他突然從口袋裏掏出一本記事簿。",
       "masked": "He suddenly ____.",
       "options": [
-        "produce-mcq-10",
+        "produce-pdf-002",
         "produce-mcq-09",
         "produce-mcq-11",
         "produce-mcq-08",
         "produce-mcq-12",
         "produce-mcq-07"
       ],
-      "explanation": "本句的「produced a notebook from his pocket」指「出示文件」。",
+      "explanation": "本句的「produced a notebook from his pocket」指「從某處取出並展示 X」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "produced a notebook from his pocket"
       ],
       "optionReasons": {
-        "produce-mcq-10": "本句指「出示文件」。",
+        "produce-pdf-002": "本句指「從某處取出並展示 X」。",
         "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
         "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
         "produce-mcq-08": "「產生熱」與本句語境不同。",
         "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
         "produce-mcq-07": "「發電」與本句語境不同。"
       },
-      "correctOption": "produce-mcq-10"
+      "correctOption": "produce-pdf-002"
     },
     {
       "id": "produce-15-0",
@@ -1479,63 +1515,63 @@ export default {
     },
     {
       "id": "produce-17-0",
-      "sense": "produce-mcq-12",
+      "sense": "produce-pdf-003",
       "en": "The theatre is producing a new play.",
       "zh": "劇院正在製作一齣新劇。",
       "masked": "The theatre is ____.",
       "options": [
-        "produce-mcq-12",
+        "produce-pdf-003",
         "produce-mcq-11",
         "produce-mcq-13",
         "produce-mcq-10",
         "produce-mcq-14",
         "produce-mcq-09"
       ],
-      "explanation": "本句的「producing a new play」指「製作／監製電影」。",
+      "explanation": "本句的「producing a new play」指「負責組織和管理表演作品的整體製作」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "producing a new play"
       ],
       "optionReasons": {
-        "produce-mcq-12": "本句指「製作／監製電影」。",
+        "produce-pdf-003": "本句指「負責組織和管理表演作品的整體製作」。",
         "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
         "produce-mcq-13": "「音樂製作」與本句語境不同。",
         "produce-mcq-10": "「出示文件」與本句語境不同。",
         "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
         "produce-mcq-09": "「提出／出示證據」與本句語境不同。"
       },
-      "correctOption": "produce-mcq-12"
+      "correctOption": "produce-pdf-003"
     },
     {
       "id": "produce-17-1",
-      "sense": "produce-mcq-12",
+      "sense": "produce-pdf-003",
       "en": "She has produced several stage shows.",
       "zh": "她曾經製作多個舞台節目。",
       "masked": "She has ____.",
       "options": [
-        "produce-mcq-12",
+        "produce-pdf-003",
         "produce-mcq-11",
         "produce-mcq-13",
         "produce-mcq-10",
         "produce-mcq-14",
         "produce-mcq-09"
       ],
-      "explanation": "本句的「produced several stage shows」指「製作／監製電影」。",
+      "explanation": "本句的「produced several stage shows」指「負責組織和管理表演作品的整體製作」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "produced several stage shows"
       ],
       "optionReasons": {
-        "produce-mcq-12": "本句指「製作／監製電影」。",
+        "produce-pdf-003": "本句指「負責組織和管理表演作品的整體製作」。",
         "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
         "produce-mcq-13": "「音樂製作」與本句語境不同。",
         "produce-mcq-10": "「出示文件」與本句語境不同。",
         "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
         "produce-mcq-09": "「提出／出示證據」與本句語境不同。"
       },
-      "correctOption": "produce-mcq-12"
+      "correctOption": "produce-pdf-003"
     },
     {
       "id": "produce-18-0",

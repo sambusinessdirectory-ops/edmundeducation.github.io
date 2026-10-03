@@ -115,16 +115,6 @@ export default {
           "Let me tell you about the project.",
           "讓我告訴你這個項目的情況。",
           "向某人提供關於某人／某事的資訊或經歷"
-        ],
-        [
-          "Please tell me what happened.",
-          "請告訴我發生了甚麼事。",
-          "向某人提供關於某人／某事的資訊或經歷"
-        ],
-        [
-          "Nobody told us.",
-          "沒有人告訴我們。",
-          "向某人提供關於某人／某事的資訊或經歷"
         ]
       ],
       "options": [],
@@ -364,16 +354,6 @@ export default {
         [
           "It is impossible to tell what will happen.",
           "根本無法判斷會發生甚麼。",
-          "根據目前資訊很難知道／確定答案"
-        ],
-        [
-          "Will the plan work? Who can tell?",
-          "計劃會成功嗎？誰知道呢？",
-          "根據目前資訊很難知道／確定答案"
-        ],
-        [
-          "What will happen next? Who can tell?",
-          "之後會發生甚麼？誰說得準呢？",
           "根據目前資訊很難知道／確定答案"
         ]
       ],
@@ -615,16 +595,6 @@ export default {
           "She was told off for arriving late.",
           "她因遲到而被訓斥。",
           "嚴厲批評／責罵某人的錯誤行為"
-        ],
-        [
-          "I can’t tell whether he is serious.",
-          "我無法確定他是不是認真的。",
-          "嚴厲批評／責罵某人的錯誤行為"
-        ],
-        [
-          "Can you tell which answer is correct?",
-          "你能判斷出哪個答案正確嗎？",
-          "嚴厲批評／責罵某人的錯誤行為"
         ]
       ],
       "options": [],
@@ -767,6 +737,72 @@ export default {
           "He doesn’t like being told what to do.",
           "他不喜歡別人告訴他應該怎樣做／指揮他。",
           "根據語氣和關係，可從普通指示到較強的命令"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "tell-pdf-001",
+      "title": "把某項資訊傳遞給特定的人",
+      "form": "6. tell = say information to someone（告訴） — 告知；說給某人聽",
+      "en": "6. tell = say information to someone（告訴） — 告知；說給某人聽",
+      "zh": "把某項資訊傳遞給特定的人",
+      "note": "原始 PDF 第 6 節：把某項資訊傳遞給特定的人",
+      "examples": [
+        [
+          "Please tell me what happened.",
+          "請告訴我發生了甚麼事。",
+          "把某項資訊傳遞給特定的人"
+        ],
+        [
+          "Nobody told us.",
+          "沒有人告訴我們。",
+          "把某項資訊傳遞給特定的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "tell-pdf-002",
+      "title": "沒有人能確定／預測答案",
+      "form": "19. Who can tell?（誰知道呢？） — 誰說得準？",
+      "en": "19. Who can tell?（誰知道呢？） — 誰說得準？",
+      "zh": "沒有人能確定／預測答案",
+      "note": "原始 PDF 第 19 節：沒有人能確定／預測答案",
+      "examples": [
+        [
+          "Will the plan work? Who can tell?",
+          "計劃會成功嗎？誰知道呢？",
+          "沒有人能確定／預測答案"
+        ],
+        [
+          "What will happen next? Who can tell?",
+          "之後會發生甚麼？誰說得準呢？",
+          "沒有人能確定／預測答案"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "tell-pdf-003",
+      "title": "根據資訊辨認／確定某件事情",
+      "form": "34. tell = know with certainty（知道／確定） — 確定；知道",
+      "en": "34. tell = know with certainty（知道／確定） — 確定；知道",
+      "zh": "根據資訊辨認／確定某件事情",
+      "note": "原始 PDF 第 34 節：根據資訊辨認／確定某件事情",
+      "examples": [
+        [
+          "I can’t tell whether he is serious.",
+          "我無法確定他是不是認真的。",
+          "根據資訊辨認／確定某件事情"
+        ],
+        [
+          "Can you tell which answer is correct?",
+          "你能判斷出哪個答案正確嗎？",
+          "根據資訊辨認／確定某件事情"
         ]
       ],
       "options": [],
@@ -1106,63 +1142,63 @@ export default {
     },
     {
       "id": "tell-06-0",
-      "sense": "tell-mcq-05",
+      "sense": "tell-pdf-001",
       "en": "Please tell me what happened.",
       "zh": "請告訴我發生了甚麼事。",
       "masked": "Please ____ what happened.",
       "options": [
-        "tell-mcq-05",
+        "tell-pdf-001",
         "tell-mcq-04",
         "tell-mcq-06",
         "tell-mcq-03",
         "tell-mcq-07",
         "tell-mcq-02"
       ],
-      "explanation": "本句的「tell me」指「向某人提供關於某人／某事的資訊或經歷」。",
+      "explanation": "本句的「tell me」指「把某項資訊傳遞給特定的人」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "tell me"
       ],
       "optionReasons": {
-        "tell-mcq-05": "本句指「向某人提供關於某人／某事的資訊或經歷」。",
+        "tell-pdf-001": "本句指「把某項資訊傳遞給特定的人」。",
         "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
         "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
         "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
         "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
         "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。"
       },
-      "correctOption": "tell-mcq-05"
+      "correctOption": "tell-pdf-001"
     },
     {
       "id": "tell-06-1",
-      "sense": "tell-mcq-05",
+      "sense": "tell-pdf-001",
       "en": "Nobody told us.",
       "zh": "沒有人告訴我們。",
       "masked": "Nobody ____.",
       "options": [
-        "tell-mcq-05",
+        "tell-pdf-001",
         "tell-mcq-04",
         "tell-mcq-06",
         "tell-mcq-03",
         "tell-mcq-07",
         "tell-mcq-02"
       ],
-      "explanation": "本句的「told us」指「向某人提供關於某人／某事的資訊或經歷」。",
+      "explanation": "本句的「told us」指「把某項資訊傳遞給特定的人」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "told us"
       ],
       "optionReasons": {
-        "tell-mcq-05": "本句指「向某人提供關於某人／某事的資訊或經歷」。",
+        "tell-pdf-001": "本句指「把某項資訊傳遞給特定的人」。",
         "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
         "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
         "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
         "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
         "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。"
       },
-      "correctOption": "tell-mcq-05"
+      "correctOption": "tell-pdf-001"
     },
     {
       "id": "tell-07-0",
@@ -1886,63 +1922,63 @@ export default {
     },
     {
       "id": "tell-19-0",
-      "sense": "tell-mcq-15",
+      "sense": "tell-pdf-002",
       "en": "Will the plan work? Who can tell?",
       "zh": "計劃會成功嗎？誰知道呢？",
       "masked": "Will the plan work? ____",
       "options": [
-        "tell-mcq-15",
+        "tell-pdf-002",
         "tell-mcq-14",
         "tell-mcq-16",
         "tell-mcq-13",
         "tell-mcq-17",
         "tell-mcq-12"
       ],
-      "explanation": "本句的「Who can tell?」指「根據目前資訊很難知道／確定答案」。",
+      "explanation": "本句的「Who can tell?」指「沒有人能確定／預測答案」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "Who can tell?"
       ],
       "optionReasons": {
-        "tell-mcq-15": "本句指「根據目前資訊很難知道／確定答案」。",
+        "tell-pdf-002": "本句指「沒有人能確定／預測答案」。",
         "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
         "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
         "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
         "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
         "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。"
       },
-      "correctOption": "tell-mcq-15"
+      "correctOption": "tell-pdf-002"
     },
     {
       "id": "tell-19-1",
-      "sense": "tell-mcq-15",
+      "sense": "tell-pdf-002",
       "en": "What will happen next? Who can tell?",
       "zh": "之後會發生甚麼？誰說得準呢？",
       "masked": "What will happen next? Who can ____?",
       "options": [
-        "tell-mcq-15",
+        "tell-pdf-002",
         "tell-mcq-14",
         "tell-mcq-16",
         "tell-mcq-13",
         "tell-mcq-17",
         "tell-mcq-12"
       ],
-      "explanation": "本句的「tell」指「根據目前資訊很難知道／確定答案」。",
+      "explanation": "本句的「tell」指「沒有人能確定／預測答案」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-15": "本句指「根據目前資訊很難知道／確定答案」。",
+        "tell-pdf-002": "本句指「沒有人能確定／預測答案」。",
         "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
         "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
         "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
         "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
         "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。"
       },
-      "correctOption": "tell-mcq-15"
+      "correctOption": "tell-pdf-002"
     },
     {
       "id": "tell-20-0",
@@ -2786,63 +2822,63 @@ export default {
     },
     {
       "id": "tell-34-0",
-      "sense": "tell-mcq-25",
+      "sense": "tell-pdf-003",
       "en": "I can’t tell whether he is serious.",
       "zh": "我無法確定他是不是認真的。",
       "masked": "I can’t ____ whether he is serious.",
       "options": [
-        "tell-mcq-25",
+        "tell-pdf-003",
         "tell-mcq-24",
         "tell-mcq-26",
         "tell-mcq-23",
         "tell-mcq-27",
         "tell-mcq-22"
       ],
-      "explanation": "本句的「tell」指「嚴厲批評／責罵某人的錯誤行為」。",
+      "explanation": "本句的「tell」指「根據資訊辨認／確定某件事情」。",
       "sentenceIndex": 67,
       "sourcePractice": 68,
       "targets": [
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-25": "本句指「嚴厲批評／責罵某人的錯誤行為」。",
+        "tell-pdf-003": "本句指「根據資訊辨認／確定某件事情」。",
         "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
         "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
         "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
         "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
         "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。"
       },
-      "correctOption": "tell-mcq-25"
+      "correctOption": "tell-pdf-003"
     },
     {
       "id": "tell-34-1",
-      "sense": "tell-mcq-25",
+      "sense": "tell-pdf-003",
       "en": "Can you tell which answer is correct?",
       "zh": "你能判斷出哪個答案正確嗎？",
       "masked": "Can you ____ which answer is correct?",
       "options": [
-        "tell-mcq-25",
+        "tell-pdf-003",
         "tell-mcq-24",
         "tell-mcq-26",
         "tell-mcq-23",
         "tell-mcq-27",
         "tell-mcq-22"
       ],
-      "explanation": "本句的「tell」指「嚴厲批評／責罵某人的錯誤行為」。",
+      "explanation": "本句的「tell」指「根據資訊辨認／確定某件事情」。",
       "sentenceIndex": 68,
       "sourcePractice": 69,
       "targets": [
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-25": "本句指「嚴厲批評／責罵某人的錯誤行為」。",
+        "tell-pdf-003": "本句指「根據資訊辨認／確定某件事情」。",
         "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
         "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
         "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
         "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
         "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。"
       },
-      "correctOption": "tell-mcq-25"
+      "correctOption": "tell-pdf-003"
     },
     {
       "id": "tell-35-0",

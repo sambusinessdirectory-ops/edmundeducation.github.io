@@ -257,16 +257,6 @@ export default {
           "During a routine check, the doctor noticed something unusual.",
           "在一次例行檢查中，醫生注意到一些異常情況。",
           "例行檢查"
-        ],
-        [
-          "The blood test was completely routine.",
-          "這項血液檢查完全是常規性的。",
-          "例行檢查"
-        ],
-        [
-          "She went to hospital for a routine examination.",
-          "她到醫院接受例行檢查。",
-          "例行檢查"
         ]
       ],
       "options": [],
@@ -475,6 +465,28 @@ export default {
           "Too much routinization can reduce creativity.",
           "過度例行化可能降低創意。",
           "例行化；程序化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "routine-pdf-001",
+      "title": "按正常醫療或工作程序進行的標準檢查",
+      "form": "13. routine test / examination — 常規檢測／檢查",
+      "en": "13. routine test / examination — 常規檢測／檢查",
+      "zh": "按正常醫療或工作程序進行的標準檢查",
+      "note": "原始 PDF 第 13 節：按正常醫療或工作程序進行的標準檢查",
+      "examples": [
+        [
+          "The blood test was completely routine.",
+          "這項血液檢查完全是常規性的。",
+          "按正常醫療或工作程序進行的標準檢查"
+        ],
+        [
+          "She went to hospital for a routine examination.",
+          "她到醫院接受例行檢查。",
+          "按正常醫療或工作程序進行的標準檢查"
         ]
       ],
       "options": [],
@@ -1234,63 +1246,63 @@ export default {
     },
     {
       "id": "routine-13-0",
-      "sense": "routine-mcq-11",
+      "sense": "routine-pdf-001",
       "en": "The blood test was completely routine.",
       "zh": "這項血液檢查完全是常規性的。",
       "masked": "The blood test was completely ____.",
       "options": [
-        "routine-mcq-11",
+        "routine-pdf-001",
         "routine-mcq-10",
         "routine-mcq-12",
         "routine-mcq-09",
         "routine-mcq-13",
         "routine-mcq-08"
       ],
-      "explanation": "本句的「routine」指「例行檢查」。",
+      "explanation": "本句的「routine」指「按正常醫療或工作程序進行的標準檢查」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-11": "本句指「例行檢查」。",
+        "routine-pdf-001": "本句指「按正常醫療或工作程序進行的標準檢查」。",
         "routine-mcq-10": "「改變作息」與本句語境不同。",
         "routine-mcq-12": "「常規程序」與本句語境不同。",
         "routine-mcq-09": "「打破固定模式」與本句語境不同。",
         "routine-mcq-13": "「例行保養」與本句語境不同。",
         "routine-mcq-08": "「建立固定作息」與本句語境不同。"
       },
-      "correctOption": "routine-mcq-11"
+      "correctOption": "routine-pdf-001"
     },
     {
       "id": "routine-13-1",
-      "sense": "routine-mcq-11",
+      "sense": "routine-pdf-001",
       "en": "She went to hospital for a routine examination.",
       "zh": "她到醫院接受例行檢查。",
       "masked": "She went to hospital for a ____.",
       "options": [
-        "routine-mcq-11",
+        "routine-pdf-001",
         "routine-mcq-10",
         "routine-mcq-12",
         "routine-mcq-09",
         "routine-mcq-13",
         "routine-mcq-08"
       ],
-      "explanation": "本句的「routine examination」指「例行檢查」。",
+      "explanation": "本句的「routine examination」指「按正常醫療或工作程序進行的標準檢查」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "routine examination"
       ],
       "optionReasons": {
-        "routine-mcq-11": "本句指「例行檢查」。",
+        "routine-pdf-001": "本句指「按正常醫療或工作程序進行的標準檢查」。",
         "routine-mcq-10": "「改變作息」與本句語境不同。",
         "routine-mcq-12": "「常規程序」與本句語境不同。",
         "routine-mcq-09": "「打破固定模式」與本句語境不同。",
         "routine-mcq-13": "「例行保養」與本句語境不同。",
         "routine-mcq-08": "「建立固定作息」與本句語境不同。"
       },
-      "correctOption": "routine-mcq-11"
+      "correctOption": "routine-pdf-001"
     },
     {
       "id": "routine-14-0",

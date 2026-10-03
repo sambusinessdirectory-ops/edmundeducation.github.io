@@ -12,23 +12,7 @@ export default {
       "en": "transparent (literal)",
       "zh": "透明的",
       "note": "來源詞義：透明的",
-      "examples": [
-        [
-          "The container is made of transparent plastic.",
-          "容器由透明塑膠製成。",
-          "透明的"
-        ],
-        [
-          "The door has a transparent glass panel.",
-          "門上有一塊透明玻璃板。",
-          "透明的"
-        ],
-        [
-          "The material becomes transparent when wet.",
-          "這種材料濕了之後會變得透明。",
-          "透明的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -149,13 +133,7 @@ export default {
       "en": "transparency (physical)",
       "zh": "透明度",
       "note": "來源詞義：透明度",
-      "examples": [
-        [
-          "The glass has excellent transparency.",
-          "這種玻璃具有很高的透明度。",
-          "透明度"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -913,18 +891,7 @@ export default {
       "en": "transparent (understandable)",
       "zh": "清晰易懂的",
       "note": "來源詞義：清晰易懂的",
-      "examples": [
-        [
-          "The explanation is admirably transparent.",
-          "這個解釋非常清晰易懂。",
-          "清晰易懂的"
-        ],
-        [
-          "The rules should be transparent to ordinary users.",
-          "規則應該讓一般使用者容易理解。",
-          "清晰易懂的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1364,13 +1331,7 @@ export default {
       "en": "a transparency",
       "zh": "透明正片／幻燈片",
       "note": "來源詞義：透明正片／幻燈片",
-      "examples": [
-        [
-          "The archive contains hundreds of photographic transparencies.",
-          "檔案館保存了數百張透明正片／幻燈片。",
-          "透明正片／幻燈片"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1433,98 +1394,181 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "transparent-pdf-001",
+      "title": "能讓光線穿過，因此可以清楚看到後面物件的",
+      "form": "1. transparent = allowing light through so objects behind can be seen clearly — 透明的",
+      "en": "1. transparent = allowing light through so objects behind can be seen clearly — 透明的",
+      "zh": "能讓光線穿過，因此可以清楚看到後面物件的",
+      "note": "原始 PDF 第 1 節：能讓光線穿過，因此可以清楚看到後面物件的",
+      "examples": [
+        [
+          "The container is made of transparent plastic.",
+          "容器由透明塑膠製成。",
+          "能讓光線穿過，因此可以清楚看到後面物件的"
+        ],
+        [
+          "The door has a transparent glass panel.",
+          "門上有一塊透明玻璃板。",
+          "能讓光線穿過，因此可以清楚看到後面物件的"
+        ],
+        [
+          "The material becomes transparent when wet.",
+          "這種材料濕了之後會變得透明。",
+          "能讓光線穿過，因此可以清楚看到後面物件的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "transparent-pdf-002",
+      "title": "材料讓光穿過、使後方物件可見的程度",
+      "form": "7. transparency = quality of being transparent — 透明性；透明度",
+      "en": "7. transparency = quality of being transparent — 透明性；透明度",
+      "zh": "材料讓光穿過、使後方物件可見的程度",
+      "note": "原始 PDF 第 7 節：材料讓光穿過、使後方物件可見的程度",
+      "examples": [
+        [
+          "The glass has excellent transparency.",
+          "這種玻璃具有很高的透明度。",
+          "材料讓光穿過、使後方物件可見的程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "transparent-pdf-003",
+      "title": "結構或意思十分清楚，不難理解",
+      "form": "49. transparent = clear and easy to understand — 清晰易懂的",
+      "en": "49. transparent = clear and easy to understand — 清晰易懂的",
+      "zh": "結構或意思十分清楚，不難理解",
+      "note": "原始 PDF 第 49 節：結構或意思十分清楚，不難理解",
+      "examples": [
+        [
+          "The explanation is admirably transparent.",
+          "這個解釋非常清晰易懂。",
+          "結構或意思十分清楚，不難理解"
+        ],
+        [
+          "The rules should be transparent to ordinary users.",
+          "規則應該讓一般使用者容易理解。",
+          "結構或意思十分清楚，不難理解"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "transparent-pdf-004",
+      "title": "印在透明底片上的正像照片，可透光觀看或投影",
+      "form": "73. a transparency = positive photographic image on transparent film — 透明正片；幻燈片",
+      "en": "73. a transparency = positive photographic image on transparent film — 透明正片；幻燈片",
+      "zh": "印在透明底片上的正像照片，可透光觀看或投影",
+      "note": "原始 PDF 第 73 節：印在透明底片上的正像照片，可透光觀看或投影",
+      "examples": [
+        [
+          "The archive contains hundreds of photographic transparencies.",
+          "檔案館保存了數百張透明正片／幻燈片。",
+          "印在透明底片上的正像照片，可透光觀看或投影"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "transparent-01-0",
-      "sense": "transparent-mcq-01",
+      "sense": "transparent-pdf-001",
       "en": "The container is made of transparent plastic.",
       "zh": "容器由透明塑膠製成。",
       "masked": "The container is made of ____.",
       "options": [
-        "transparent-mcq-01",
+        "transparent-pdf-001",
         "transparent-mcq-02",
         "transparent-mcq-03",
         "transparent-mcq-04",
         "transparent-mcq-05",
         "transparent-mcq-06"
       ],
-      "explanation": "本句的「transparent plastic」指「透明的」。",
+      "explanation": "本句的「transparent plastic」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "transparent plastic"
       ],
       "optionReasons": {
-        "transparent-mcq-01": "本句指「透明的」。",
+        "transparent-pdf-001": "本句指「能讓光線穿過，因此可以清楚看到後面物件的」。",
         "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
         "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
         "transparent-mcq-04": "「透明材料」與本句語境不同。",
         "transparent-mcq-05": "「完全透明」與本句語境不同。",
         "transparent-mcq-06": "「半透明」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-01"
+      "correctOption": "transparent-pdf-001"
     },
     {
       "id": "transparent-01-1",
-      "sense": "transparent-mcq-01",
+      "sense": "transparent-pdf-001",
       "en": "The door has a transparent glass panel.",
       "zh": "門上有一塊透明玻璃板。",
       "masked": "The door has a ____ glass panel.",
       "options": [
-        "transparent-mcq-01",
+        "transparent-pdf-001",
         "transparent-mcq-02",
         "transparent-mcq-03",
         "transparent-mcq-04",
         "transparent-mcq-05",
         "transparent-mcq-06"
       ],
-      "explanation": "本句的「transparent」指「透明的」。",
+      "explanation": "本句的「transparent」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-01": "本句指「透明的」。",
+        "transparent-pdf-001": "本句指「能讓光線穿過，因此可以清楚看到後面物件的」。",
         "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
         "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
         "transparent-mcq-04": "「透明材料」與本句語境不同。",
         "transparent-mcq-05": "「完全透明」與本句語境不同。",
         "transparent-mcq-06": "「半透明」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-01"
+      "correctOption": "transparent-pdf-001"
     },
     {
       "id": "transparent-01-2",
-      "sense": "transparent-mcq-01",
+      "sense": "transparent-pdf-001",
       "en": "The material becomes transparent when wet.",
       "zh": "這種材料濕了之後會變得透明。",
       "masked": "The material becomes ____ when wet.",
       "options": [
-        "transparent-mcq-01",
+        "transparent-pdf-001",
         "transparent-mcq-02",
         "transparent-mcq-03",
         "transparent-mcq-04",
         "transparent-mcq-05",
         "transparent-mcq-06"
       ],
-      "explanation": "本句的「transparent」指「透明的」。",
+      "explanation": "本句的「transparent」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-01": "本句指「透明的」。",
+        "transparent-pdf-001": "本句指「能讓光線穿過，因此可以清楚看到後面物件的」。",
         "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
         "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
         "transparent-mcq-04": "「透明材料」與本句語境不同。",
         "transparent-mcq-05": "「完全透明」與本句語境不同。",
         "transparent-mcq-06": "「半透明」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-01"
+      "correctOption": "transparent-pdf-001"
     },
     {
       "id": "transparent-02-0",
@@ -1828,33 +1872,33 @@ export default {
     },
     {
       "id": "transparent-07-0",
-      "sense": "transparent-mcq-07",
+      "sense": "transparent-pdf-002",
       "en": "The glass has excellent transparency.",
       "zh": "這種玻璃具有很高的透明度。",
       "masked": "The glass has excellent ____.",
       "options": [
-        "transparent-mcq-07",
+        "transparent-pdf-002",
         "transparent-mcq-06",
         "transparent-mcq-08",
         "transparent-mcq-05",
         "transparent-mcq-09",
         "transparent-mcq-04"
       ],
-      "explanation": "本句的「transparency」指「透明度」。",
+      "explanation": "本句的「transparency」指「材料讓光穿過、使後方物件可見的程度」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-07": "本句指「透明度」。",
+        "transparent-pdf-002": "本句指「材料讓光穿過、使後方物件可見的程度」。",
         "transparent-mcq-06": "「半透明」與本句語境不同。",
         "transparent-mcq-08": "「光學透明度」與本句語境不同。",
         "transparent-mcq-05": "「完全透明」與本句語境不同。",
         "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
         "transparent-mcq-04": "「透明材料」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-07"
+      "correctOption": "transparent-pdf-002"
     },
     {
       "id": "transparent-08-0",
@@ -3838,63 +3882,63 @@ export default {
     },
     {
       "id": "transparent-49-0",
-      "sense": "transparent-mcq-42",
+      "sense": "transparent-pdf-003",
       "en": "The explanation is admirably transparent.",
       "zh": "這個解釋非常清晰易懂。",
       "masked": "The explanation is admirably ____.",
       "options": [
-        "transparent-mcq-42",
+        "transparent-pdf-003",
         "transparent-mcq-41",
         "transparent-mcq-43",
         "transparent-mcq-40",
         "transparent-mcq-44",
         "transparent-mcq-39"
       ],
-      "explanation": "本句的「transparent」指「清晰易懂的」。",
+      "explanation": "本句的「transparent」指「結構或意思十分清楚，不難理解」。",
       "sentenceIndex": 80,
       "sourcePractice": 1,
       "targets": [
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-42": "本句指「清晰易懂的」。",
+        "transparent-pdf-003": "本句指「結構或意思十分清楚，不難理解」。",
         "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
         "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
         "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
         "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
         "transparent-mcq-39": "「提高透明度」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-42"
+      "correctOption": "transparent-pdf-003"
     },
     {
       "id": "transparent-49-1",
-      "sense": "transparent-mcq-42",
+      "sense": "transparent-pdf-003",
       "en": "The rules should be transparent to ordinary users.",
       "zh": "規則應該讓一般使用者容易理解。",
       "masked": "The rules should be ____ to ordinary users.",
       "options": [
-        "transparent-mcq-42",
+        "transparent-pdf-003",
         "transparent-mcq-41",
         "transparent-mcq-43",
         "transparent-mcq-40",
         "transparent-mcq-44",
         "transparent-mcq-39"
       ],
-      "explanation": "本句的「transparent」指「清晰易懂的」。",
+      "explanation": "本句的「transparent」指「結構或意思十分清楚，不難理解」。",
       "sentenceIndex": 81,
       "sourcePractice": 2,
       "targets": [
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-42": "本句指「清晰易懂的」。",
+        "transparent-pdf-003": "本句指「結構或意思十分清楚，不難理解」。",
         "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
         "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
         "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
         "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
         "transparent-mcq-39": "「提高透明度」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-42"
+      "correctOption": "transparent-pdf-003"
     },
     {
       "id": "transparent-50-0",
@@ -5038,33 +5082,33 @@ export default {
     },
     {
       "id": "transparent-73-0",
-      "sense": "transparent-mcq-63",
+      "sense": "transparent-pdf-004",
       "en": "The archive contains hundreds of photographic transparencies.",
       "zh": "檔案館保存了數百張透明正片／幻燈片。",
       "masked": "The archive contains hundreds of photographic ____.",
       "options": [
-        "transparent-mcq-63",
+        "transparent-pdf-004",
         "transparent-mcq-62",
         "transparent-mcq-64",
         "transparent-mcq-61",
         "transparent-mcq-65",
         "transparent-mcq-60"
       ],
-      "explanation": "本句的「transparencies」指「透明正片／幻燈片」。",
+      "explanation": "本句的「transparencies」指「印在透明底片上的正像照片，可透光觀看或投影」。",
       "sentenceIndex": 120,
       "sourcePractice": 1,
       "targets": [
         "transparencies"
       ],
       "optionReasons": {
-        "transparent-mcq-63": "本句指「透明正片／幻燈片」。",
+        "transparent-pdf-004": "本句指「印在透明底片上的正像照片，可透光觀看或投影」。",
         "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
         "transparent-mcq-64": "「不透明的；晦澀的」與本句語境不同。",
         "transparent-mcq-61": "「模型透明度」與本句語境不同。",
         "transparent-mcq-65": "「不透明度」與本句語境不同。",
         "transparent-mcq-60": "「數據透明度」與本句語境不同。"
       },
-      "correctOption": "transparent-mcq-63"
+      "correctOption": "transparent-pdf-004"
     },
     {
       "id": "transparent-74-0",

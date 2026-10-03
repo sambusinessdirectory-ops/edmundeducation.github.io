@@ -387,16 +387,6 @@ export default {
           "This information is useless if it is out of date.",
           "如果資料已經過時，它就沒有實際用處。",
           "無法提供所需幫助或實際價值的；亦可指非常不擅長某事"
-        ],
-        [
-          "I’m useless at drawing.",
-          "我畫畫很不擅長／完全不行。",
-          "無法提供所需幫助或實際價值的；亦可指非常不擅長某事"
-        ],
-        [
-          "He’s useless with computers.",
-          "他對電腦非常不在行。",
-          "無法提供所需幫助或實際價值的；亦可指非常不擅長某事"
         ]
       ],
       "options": [],
@@ -617,6 +607,28 @@ export default {
           "The guide is usefully divided into short sections.",
           "這份指南很實用地分成多個短小章節。",
           "以能提供實際幫助或便利的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "use-pdf-001",
+      "title": "在某項技能或事情上非常不擅長",
+      "form": "23. useless = person very bad at something（非正式） — 很不擅長的；完全不行的",
+      "en": "23. useless = person very bad at something（非正式） — 很不擅長的；完全不行的",
+      "zh": "在某項技能或事情上非常不擅長",
+      "note": "原始 PDF 第 23 節：在某項技能或事情上非常不擅長",
+      "examples": [
+        [
+          "I’m useless at drawing.",
+          "我畫畫很不擅長／完全不行。",
+          "在某項技能或事情上非常不擅長"
+        ],
+        [
+          "He’s useless with computers.",
+          "他對電腦非常不在行。",
+          "在某項技能或事情上非常不擅長"
         ]
       ],
       "options": [],
@@ -1916,63 +1928,63 @@ export default {
     },
     {
       "id": "use-23-0",
-      "sense": "use-mcq-16",
+      "sense": "use-pdf-001",
       "en": "I’m useless at drawing.",
       "zh": "我畫畫很不擅長／完全不行。",
       "masked": "I’m ____ at drawing.",
       "options": [
-        "use-mcq-16",
+        "use-pdf-001",
         "use-mcq-15",
         "use-mcq-17",
         "use-mcq-14",
         "use-mcq-18",
         "use-mcq-13"
       ],
-      "explanation": "本句的「useless」指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
+      "explanation": "本句的「useless」指「在某項技能或事情上非常不擅長」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "useless"
       ],
       "optionReasons": {
-        "use-mcq-16": "本句指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
+        "use-pdf-001": "本句指「在某項技能或事情上非常不擅長」。",
         "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
         "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
         "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
         "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
         "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。"
       },
-      "correctOption": "use-mcq-16"
+      "correctOption": "use-pdf-001"
     },
     {
       "id": "use-23-1",
-      "sense": "use-mcq-16",
+      "sense": "use-pdf-001",
       "en": "He’s useless with computers.",
       "zh": "他對電腦非常不在行。",
       "masked": "He’s ____ with computers.",
       "options": [
-        "use-mcq-16",
+        "use-pdf-001",
         "use-mcq-15",
         "use-mcq-17",
         "use-mcq-14",
         "use-mcq-18",
         "use-mcq-13"
       ],
-      "explanation": "本句的「useless」指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
+      "explanation": "本句的「useless」指「在某項技能或事情上非常不擅長」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "useless"
       ],
       "optionReasons": {
-        "use-mcq-16": "本句指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
+        "use-pdf-001": "本句指「在某項技能或事情上非常不擅長」。",
         "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
         "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
         "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
         "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
         "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。"
       },
-      "correctOption": "use-mcq-16"
+      "correctOption": "use-pdf-001"
     },
     {
       "id": "use-24-0",

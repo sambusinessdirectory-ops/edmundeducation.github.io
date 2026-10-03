@@ -78,11 +78,6 @@ export default {
           "The trend is popular among young people.",
           "這個潮流在年輕人之間很流行。",
           "在 X 群體中廣泛流行／受歡迎"
-        ],
-        [
-          "This is one of our most popular products.",
-          "這是我們最受歡迎／熱門的產品之一。",
-          "在 X 群體中廣泛流行／受歡迎"
         ]
       ],
       "options": [],
@@ -488,6 +483,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "popularity-pdf-001",
+      "title": "很多人選擇、購買或喜歡的",
+      "form": "5. popular = chosen/liked by many people — 熱門的；廣受歡迎的",
+      "en": "5. popular = chosen/liked by many people — 熱門的；廣受歡迎的",
+      "zh": "很多人選擇、購買或喜歡的",
+      "note": "原始 PDF 第 5 節：很多人選擇、購買或喜歡的",
+      "examples": [
+        [
+          "This is one of our most popular products.",
+          "這是我們最受歡迎／熱門的產品之一。",
+          "很多人選擇、購買或喜歡的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -613,33 +625,33 @@ export default {
     },
     {
       "id": "popularity-05-0",
-      "sense": "popularity-mcq-05",
+      "sense": "popularity-pdf-001",
       "en": "This is one of our most popular products.",
       "zh": "這是我們最受歡迎／熱門的產品之一。",
       "masked": "This is one of our most ____.",
       "options": [
-        "popularity-mcq-05",
+        "popularity-pdf-001",
         "popularity-mcq-04",
         "popularity-mcq-06",
         "popularity-mcq-03",
         "popularity-mcq-07",
         "popularity-mcq-02"
       ],
-      "explanation": "本句的「popular products」指「在 X 群體中廣泛流行／受歡迎」。",
+      "explanation": "本句的「popular products」指「很多人選擇、購買或喜歡的」。",
       "sentenceIndex": 5,
       "sourcePractice": 5,
       "targets": [
         "popular products"
       ],
       "optionReasons": {
-        "popularity-mcq-05": "本句指「在 X 群體中廣泛流行／受歡迎」。",
+        "popularity-pdf-001": "本句指「很多人選擇、購買或喜歡的」。",
         "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
         "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
         "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。",
         "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
         "popularity-mcq-02": "「被很多人喜歡、接受或支持的」與本句語境不同。"
       },
-      "correctOption": "popularity-mcq-05"
+      "correctOption": "popularity-pdf-001"
     },
     {
       "id": "popularity-09-0",

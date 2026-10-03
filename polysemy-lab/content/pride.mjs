@@ -930,18 +930,7 @@ export default {
       "en": "pride oneself on X",
       "zh": "以 X 為傲",
       "note": "來源詞義：以 X 為傲",
-      "examples": [
-        [
-          "She prides herself on her honesty.",
-          "她以自己的誠實為傲。",
-          "以 X 為傲"
-        ],
-        [
-          "The company prides itself on excellent customer service.",
-          "公司以優秀客戶服務自豪。",
-          "以 X 為傲"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1119,16 +1108,6 @@ export default {
       "note": "來源詞義：X 的驕傲",
       "examples": [
         [
-          "The museum is the pride of the city.",
-          "這間博物館是這座城市的驕傲。",
-          "X 的驕傲"
-        ],
-        [
-          "She became the pride of her school.",
-          "她成為學校的驕傲。",
-          "X 的驕傲"
-        ],
-        [
           "The new laboratory is the pride of the company.",
           "新實驗室是公司的驕傲。",
           "X 的驕傲"
@@ -1245,6 +1224,50 @@ export default {
           "Different Pride flags may represent different communities.",
           "不同的 Pride 旗幟可以代表不同社群。",
           "驕傲月"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pride-pdf-001",
+      "title": "特別重視 X 並以擁有／做到 X 為傲",
+      "form": "56. pride yourself on something — 以某特質／能力為傲",
+      "en": "56. pride yourself on something — 以某特質／能力為傲",
+      "zh": "特別重視 X 並以擁有／做到 X 為傲",
+      "note": "原始 PDF 第 56 節：特別重視 X 並以擁有／做到 X 為傲",
+      "examples": [
+        [
+          "She prides herself on her honesty.",
+          "她以自己的誠實為傲。",
+          "特別重視 X 並以擁有／做到 X 為傲"
+        ],
+        [
+          "The company prides itself on excellent customer service.",
+          "公司以優秀客戶服務自豪。",
+          "特別重視 X 並以擁有／做到 X 為傲"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pride-pdf-002",
+      "title": "令 X 群體特別自豪的人或事物",
+      "form": "72. the pride of a place/group — 某地／群體的驕傲",
+      "en": "72. the pride of a place/group — 某地／群體的驕傲",
+      "zh": "令 X 群體特別自豪的人或事物",
+      "note": "原始 PDF 第 72 節：令 X 群體特別自豪的人或事物",
+      "examples": [
+        [
+          "The museum is the pride of the city.",
+          "這間博物館是這座城市的驕傲。",
+          "令 X 群體特別自豪的人或事物"
+        ],
+        [
+          "She became the pride of her school.",
+          "她成為學校的驕傲。",
+          "令 X 群體特別自豪的人或事物"
         ]
       ],
       "options": [],
@@ -3804,63 +3827,63 @@ export default {
     },
     {
       "id": "pride-56-0",
-      "sense": "pride-mcq-41",
+      "sense": "pride-pdf-001",
       "en": "She prides herself on her honesty.",
       "zh": "她以自己的誠實為傲。",
       "masked": "She ____.",
       "options": [
-        "pride-mcq-41",
+        "pride-pdf-001",
         "pride-mcq-40",
         "pride-mcq-42",
         "pride-mcq-39",
         "pride-mcq-43",
         "pride-mcq-38"
       ],
-      "explanation": "本句的「prides herself on her honesty」指「以 X 為傲」。",
+      "explanation": "本句的「prides herself on her honesty」指「特別重視 X 並以擁有／做到 X 為傲」。",
       "sentenceIndex": 93,
       "sourcePractice": 1,
       "targets": [
         "prides herself on her honesty"
       ],
       "optionReasons": {
-        "pride-mcq-41": "本句指「以 X 為傲」。",
+        "pride-pdf-001": "本句指「特別重視 X 並以擁有／做到 X 為傲」。",
         "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
         "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
         "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
         "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
         "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。"
       },
-      "correctOption": "pride-mcq-41"
+      "correctOption": "pride-pdf-001"
     },
     {
       "id": "pride-56-1",
-      "sense": "pride-mcq-41",
+      "sense": "pride-pdf-001",
       "en": "The company prides itself on excellent customer service.",
       "zh": "公司以優秀客戶服務自豪。",
       "masked": "The company ____ itself on excellent customer service.",
       "options": [
-        "pride-mcq-41",
+        "pride-pdf-001",
         "pride-mcq-40",
         "pride-mcq-42",
         "pride-mcq-39",
         "pride-mcq-43",
         "pride-mcq-38"
       ],
-      "explanation": "本句的「prides」指「以 X 為傲」。",
+      "explanation": "本句的「prides」指「特別重視 X 並以擁有／做到 X 為傲」。",
       "sentenceIndex": 94,
       "sourcePractice": 2,
       "targets": [
         "prides"
       ],
       "optionReasons": {
-        "pride-mcq-41": "本句指「以 X 為傲」。",
+        "pride-pdf-001": "本句指「特別重視 X 並以擁有／做到 X 為傲」。",
         "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
         "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
         "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
         "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
         "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。"
       },
-      "correctOption": "pride-mcq-41"
+      "correctOption": "pride-pdf-001"
     },
     {
       "id": "pride-57-0",
@@ -4584,63 +4607,63 @@ export default {
     },
     {
       "id": "pride-72-0",
-      "sense": "pride-mcq-47",
+      "sense": "pride-pdf-002",
       "en": "The museum is the pride of the city.",
       "zh": "這間博物館是這座城市的驕傲。",
       "masked": "The museum is the ____.",
       "options": [
-        "pride-mcq-47",
+        "pride-pdf-002",
         "pride-mcq-46",
         "pride-mcq-48",
         "pride-mcq-45",
         "pride-mcq-49",
         "pride-mcq-44"
       ],
-      "explanation": "本句的「pride of the city」指「X 的驕傲」。",
+      "explanation": "本句的「pride of the city」指「令 X 群體特別自豪的人或事物」。",
       "sentenceIndex": 119,
       "sourcePractice": 1,
       "targets": [
         "pride of the city"
       ],
       "optionReasons": {
-        "pride-mcq-47": "本句指「X 的驕傲」。",
+        "pride-pdf-002": "本句指「令 X 群體特別自豪的人或事物」。",
         "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
         "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
         "pride-mcq-45": "「驕者必敗」與本句語境不同。",
         "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
         "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。"
       },
-      "correctOption": "pride-mcq-47"
+      "correctOption": "pride-pdf-002"
     },
     {
       "id": "pride-72-1",
-      "sense": "pride-mcq-47",
+      "sense": "pride-pdf-002",
       "en": "She became the pride of her school.",
       "zh": "她成為學校的驕傲。",
       "masked": "She became the ____ of her school.",
       "options": [
-        "pride-mcq-47",
+        "pride-pdf-002",
         "pride-mcq-46",
         "pride-mcq-48",
         "pride-mcq-45",
         "pride-mcq-49",
         "pride-mcq-44"
       ],
-      "explanation": "本句的「pride」指「X 的驕傲」。",
+      "explanation": "本句的「pride」指「令 X 群體特別自豪的人或事物」。",
       "sentenceIndex": 120,
       "sourcePractice": 2,
       "targets": [
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-47": "本句指「X 的驕傲」。",
+        "pride-pdf-002": "本句指「令 X 群體特別自豪的人或事物」。",
         "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
         "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
         "pride-mcq-45": "「驕者必敗」與本句語境不同。",
         "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
         "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。"
       },
-      "correctOption": "pride-mcq-47"
+      "correctOption": "pride-pdf-002"
     },
     {
       "id": "pride-73-0",

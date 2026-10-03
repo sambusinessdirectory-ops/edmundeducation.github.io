@@ -101,16 +101,6 @@ export default {
       "note": "來源詞義：因強烈陽光／高溫而變得非常熱",
       "examples": [
         [
-          "The clay was baked in a kiln.",
-          "黏土在窯中被燒製／烘硬。",
-          "因強烈陽光／高溫而變得非常熱"
-        ],
-        [
-          "The coating is baked onto the metal surface.",
-          "這層塗層經加熱烘固在金屬表面。",
-          "因強烈陽光／高溫而變得非常熱"
-        ],
-        [
           "The pavement was baking in the afternoon sun.",
           "行人路在午後陽光下熱得發燙。",
           "因強烈陽光／高溫而變得非常熱"
@@ -132,16 +122,6 @@ export default {
       "zh": "因使用大麻而處於明顯 intoxicated 狀態",
       "note": "來源詞義：因使用大麻而處於明顯 intoxicated 狀態",
       "examples": [
-        [
-          "The car was baked after sitting in the sun.",
-          "汽車曬了一整天後熱得發燙。",
-          "因使用大麻而處於明顯 intoxicated 狀態"
-        ],
-        [
-          "The room felt baked by the afternoon heat.",
-          "房間被午後高溫曬得悶熱發燙。",
-          "因使用大麻而處於明顯 intoxicated 狀態"
-        ],
         [
           "He looked completely baked.",
           "他看起來像是嗑了大麻、神智恍惚。",
@@ -261,6 +241,50 @@ export default {
           "Baking soda reacts with acidic ingredients.",
           "小蘇打會和酸性材料產生反應。",
           "碳酸氫鈉；常作烘焙膨鬆劑"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bake-pdf-001",
+      "title": "透過高溫令材料變硬、固定或完成化學／物理變化",
+      "form": "5. bake = harden/set something by heat — 烘硬；燒製",
+      "en": "5. bake = harden/set something by heat — 烘硬；燒製",
+      "zh": "透過高溫令材料變硬、固定或完成化學／物理變化",
+      "note": "原始 PDF 第 5 節：透過高溫令材料變硬、固定或完成化學／物理變化",
+      "examples": [
+        [
+          "The clay was baked in a kiln.",
+          "黏土在窯中被燒製／烘硬。",
+          "透過高溫令材料變硬、固定或完成化學／物理變化"
+        ],
+        [
+          "The coating is baked onto the metal surface.",
+          "這層塗層經加熱烘固在金屬表面。",
+          "透過高溫令材料變硬、固定或完成化學／物理變化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bake-pdf-002",
+      "title": "因熱力或陽光而變得非常熱",
+      "form": "7. baked = extremely hot — 熱得發燙的",
+      "en": "7. baked = extremely hot — 熱得發燙的",
+      "zh": "因熱力或陽光而變得非常熱",
+      "note": "原始 PDF 第 7 節：因熱力或陽光而變得非常熱",
+      "examples": [
+        [
+          "The car was baked after sitting in the sun.",
+          "汽車曬了一整天後熱得發燙。",
+          "因熱力或陽光而變得非常熱"
+        ],
+        [
+          "The room felt baked by the afternoon heat.",
+          "房間被午後高溫曬得悶熱發燙。",
+          "因熱力或陽光而變得非常熱"
         ]
       ],
       "options": [],
@@ -510,63 +534,63 @@ export default {
     },
     {
       "id": "bake-05-0",
-      "sense": "bake-mcq-05",
+      "sense": "bake-pdf-001",
       "en": "The clay was baked in a kiln.",
       "zh": "黏土在窯中被燒製／烘硬。",
       "masked": "The clay was ____ in a kiln.",
       "options": [
-        "bake-mcq-05",
+        "bake-pdf-001",
         "bake-mcq-04",
         "bake-mcq-06",
         "bake-mcq-03",
         "bake-mcq-07",
         "bake-mcq-02"
       ],
-      "explanation": "本句的「baked」指「因強烈陽光／高溫而變得非常熱」。",
+      "explanation": "本句的「baked」指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-05": "本句指「因強烈陽光／高溫而變得非常熱」。",
+        "bake-pdf-001": "本句指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
         "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
         "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
         "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
         "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
         "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。"
       },
-      "correctOption": "bake-mcq-05"
+      "correctOption": "bake-pdf-001"
     },
     {
       "id": "bake-05-1",
-      "sense": "bake-mcq-05",
+      "sense": "bake-pdf-001",
       "en": "The coating is baked onto the metal surface.",
       "zh": "這層塗層經加熱烘固在金屬表面。",
       "masked": "The coating is ____ onto the metal surface.",
       "options": [
-        "bake-mcq-05",
+        "bake-pdf-001",
         "bake-mcq-04",
         "bake-mcq-06",
         "bake-mcq-03",
         "bake-mcq-07",
         "bake-mcq-02"
       ],
-      "explanation": "本句的「baked」指「因強烈陽光／高溫而變得非常熱」。",
+      "explanation": "本句的「baked」指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-05": "本句指「因強烈陽光／高溫而變得非常熱」。",
+        "bake-pdf-001": "本句指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
         "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
         "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
         "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
         "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
         "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。"
       },
-      "correctOption": "bake-mcq-05"
+      "correctOption": "bake-pdf-001"
     },
     {
       "id": "bake-06-0",
@@ -630,63 +654,63 @@ export default {
     },
     {
       "id": "bake-07-0",
-      "sense": "bake-mcq-06",
+      "sense": "bake-pdf-002",
       "en": "The car was baked after sitting in the sun.",
       "zh": "汽車曬了一整天後熱得發燙。",
       "masked": "The car was ____ after sitting in the sun.",
       "options": [
-        "bake-mcq-06",
+        "bake-pdf-002",
         "bake-mcq-05",
         "bake-mcq-07",
         "bake-mcq-04",
         "bake-mcq-08",
         "bake-mcq-03"
       ],
-      "explanation": "本句的「baked」指「因使用大麻而處於明顯 intoxicated 狀態」。",
+      "explanation": "本句的「baked」指「因熱力或陽光而變得非常熱」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-06": "本句指「因使用大麻而處於明顯 intoxicated 狀態」。",
+        "bake-pdf-002": "本句指「因熱力或陽光而變得非常熱」。",
         "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
         "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
         "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
         "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
         "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。"
       },
-      "correctOption": "bake-mcq-06"
+      "correctOption": "bake-pdf-002"
     },
     {
       "id": "bake-07-1",
-      "sense": "bake-mcq-06",
+      "sense": "bake-pdf-002",
       "en": "The room felt baked by the afternoon heat.",
       "zh": "房間被午後高溫曬得悶熱發燙。",
       "masked": "The room felt ____ by the afternoon heat.",
       "options": [
-        "bake-mcq-06",
+        "bake-pdf-002",
         "bake-mcq-05",
         "bake-mcq-07",
         "bake-mcq-04",
         "bake-mcq-08",
         "bake-mcq-03"
       ],
-      "explanation": "本句的「baked」指「因使用大麻而處於明顯 intoxicated 狀態」。",
+      "explanation": "本句的「baked」指「因熱力或陽光而變得非常熱」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-06": "本句指「因使用大麻而處於明顯 intoxicated 狀態」。",
+        "bake-pdf-002": "本句指「因熱力或陽光而變得非常熱」。",
         "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
         "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
         "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
         "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
         "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。"
       },
-      "correctOption": "bake-mcq-06"
+      "correctOption": "bake-pdf-002"
     },
     {
       "id": "bake-08-0",

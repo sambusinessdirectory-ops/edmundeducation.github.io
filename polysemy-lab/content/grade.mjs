@@ -121,16 +121,6 @@ export default {
           "What grade are you in?",
           "你讀幾年級？",
           "五年級"
-        ],
-        [
-          "He started first grade this year.",
-          "他今年開始讀一年級。",
-          "五年級"
-        ],
-        [
-          "She teaches sixth-grade students.",
-          "她教六年級學生。",
-          "五年級"
         ]
       ],
       "options": [],
@@ -607,6 +597,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "grade-pdf-001",
+      "title": "美國等教育制度中的第 X 個年級",
+      "form": "6. first grade / sixth grade — 一年級／六年級",
+      "en": "6. first grade / sixth grade — 一年級／六年級",
+      "zh": "美國等教育制度中的第 X 個年級",
+      "note": "原始 PDF 第 6 節：美國等教育制度中的第 X 個年級",
+      "examples": [
+        [
+          "He started first grade this year.",
+          "他今年開始讀一年級。",
+          "美國等教育制度中的第 X 個年級"
+        ],
+        [
+          "She teaches sixth-grade students.",
+          "她教六年級學生。",
+          "美國等教育制度中的第 X 個年級"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -852,63 +864,63 @@ export default {
     },
     {
       "id": "grade-06-0",
-      "sense": "grade-mcq-07",
+      "sense": "grade-pdf-001",
       "en": "He started first grade this year.",
       "zh": "他今年開始讀一年級。",
       "masked": "He started ____ this year.",
       "options": [
-        "grade-mcq-07",
+        "grade-pdf-001",
         "grade-mcq-06",
         "grade-mcq-08",
         "grade-mcq-05",
         "grade-mcq-09",
         "grade-mcq-04"
       ],
-      "explanation": "本句的「first grade」指「五年級」。",
+      "explanation": "本句的「first grade」指「美國等教育制度中的第 X 個年級」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "first grade"
       ],
       "optionReasons": {
-        "grade-mcq-07": "本句指「五年級」。",
+        "grade-pdf-001": "本句指「美國等教育制度中的第 X 個年級」。",
         "grade-mcq-06": "「年級」與本句語境不同。",
         "grade-mcq-08": "「年級程度」與本句語境不同。",
         "grade-mcq-05": "「平均績點」與本句語境不同。",
         "grade-mcq-09": "「等級；級別」與本句語境不同。",
         "grade-mcq-04": "「績點」與本句語境不同。"
       },
-      "correctOption": "grade-mcq-07"
+      "correctOption": "grade-pdf-001"
     },
     {
       "id": "grade-06-1",
-      "sense": "grade-mcq-07",
+      "sense": "grade-pdf-001",
       "en": "She teaches sixth-grade students.",
       "zh": "她教六年級學生。",
       "masked": "She teaches ____.",
       "options": [
-        "grade-mcq-07",
+        "grade-pdf-001",
         "grade-mcq-06",
         "grade-mcq-08",
         "grade-mcq-05",
         "grade-mcq-09",
         "grade-mcq-04"
       ],
-      "explanation": "本句的「sixth-grade students」指「五年級」。",
+      "explanation": "本句的「sixth-grade students」指「美國等教育制度中的第 X 個年級」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "sixth-grade students"
       ],
       "optionReasons": {
-        "grade-mcq-07": "本句指「五年級」。",
+        "grade-pdf-001": "本句指「美國等教育制度中的第 X 個年級」。",
         "grade-mcq-06": "「年級」與本句語境不同。",
         "grade-mcq-08": "「年級程度」與本句語境不同。",
         "grade-mcq-05": "「平均績點」與本句語境不同。",
         "grade-mcq-09": "「等級；級別」與本句語境不同。",
         "grade-mcq-04": "「績點」與本句語境不同。"
       },
-      "correctOption": "grade-mcq-07"
+      "correctOption": "grade-pdf-001"
     },
     {
       "id": "grade-07-0",

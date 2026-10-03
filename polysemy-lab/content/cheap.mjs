@@ -39,18 +39,7 @@ export default {
       "en": "cheap — low-cost",
       "zh": "完成、取得或生產某事所需成本較低",
       "note": "來源詞義：完成、取得或生產某事所需成本較低",
-      "examples": [
-        [
-          "Digital copies are a cheap way to access art.",
-          "數碼複製品是一種低成本／便宜接觸藝術的方法。",
-          "完成、取得或生產某事所需成本較低"
-        ],
-        [
-          "They were looking for a cheap solution.",
-          "他們正在找一個低成本的解決方法。",
-          "完成、取得或生產某事所需成本較低"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -180,16 +169,6 @@ export default {
         [
           "The advertisement relies on cheap tricks.",
           "這則廣告依賴一些低級伎倆。",
-          "缺乏真正技巧、靠簡單操弄取得效果的手段"
-        ],
-        [
-          "The film relies on cheap emotion.",
-          "這部電影依賴廉價、刻意煽情的情緒效果。",
-          "缺乏真正技巧、靠簡單操弄取得效果的手段"
-        ],
-        [
-          "The speech was full of cheap sentiment.",
-          "這篇演說充滿廉價煽情。",
           "缺乏真正技巧、靠簡單操弄取得效果的手段"
         ]
       ],
@@ -360,6 +339,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "cheap-pdf-001",
+      "title": "所需花費低，重點在成本少",
+      "form": "2. cheap = inexpensive because it costs little — 低成本的；廉價的",
+      "en": "2. cheap = inexpensive because it costs little — 低成本的；廉價的",
+      "zh": "所需花費低，重點在成本少",
+      "note": "原始 PDF 第 2 節：所需花費低，重點在成本少",
+      "examples": [
+        [
+          "Digital copies are a cheap way to access art.",
+          "數碼複製品是一種低成本／便宜接觸藝術的方法。",
+          "所需花費低，重點在成本少"
+        ],
+        [
+          "They were looking for a cheap solution.",
+          "他們正在找一個低成本的解決方法。",
+          "所需花費低，重點在成本少"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "cheap-pdf-002",
+      "title": "為了快速製造效果而顯得膚淺、做作、缺乏真正價值",
+      "form": "9. cheap = lacking depth/sincerity/value — 廉價的；膚淺的",
+      "en": "9. cheap = lacking depth/sincerity/value — 廉價的；膚淺的",
+      "zh": "為了快速製造效果而顯得膚淺、做作、缺乏真正價值",
+      "note": "原始 PDF 第 9 節：為了快速製造效果而顯得膚淺、做作、缺乏真正價值",
+      "examples": [
+        [
+          "The film relies on cheap emotion.",
+          "這部電影依賴廉價、刻意煽情的情緒效果。",
+          "為了快速製造效果而顯得膚淺、做作、缺乏真正價值"
+        ],
+        [
+          "The speech was full of cheap sentiment.",
+          "這篇演說充滿廉價煽情。",
+          "為了快速製造效果而顯得膚淺、做作、缺乏真正價值"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -455,63 +478,63 @@ export default {
     },
     {
       "id": "cheap-02-0",
-      "sense": "cheap-mcq-02",
+      "sense": "cheap-pdf-001",
       "en": "Digital copies are a cheap way to access art.",
       "zh": "數碼複製品是一種低成本／便宜接觸藝術的方法。",
       "masked": "Digital copies are a ____ way to access art.",
       "options": [
-        "cheap-mcq-02",
+        "cheap-pdf-001",
         "cheap-mcq-01",
         "cheap-mcq-03",
         "cheap-mcq-04",
         "cheap-mcq-05",
         "cheap-mcq-06"
       ],
-      "explanation": "本句的「cheap」指「完成、取得或生產某事所需成本較低」。",
+      "explanation": "本句的「cheap」指「所需花費低，重點在成本少」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-02": "本句指「完成、取得或生產某事所需成本較低」。",
+        "cheap-pdf-001": "本句指「所需花費低，重點在成本少」。",
         "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。",
         "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
         "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
         "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
         "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
       },
-      "correctOption": "cheap-mcq-02"
+      "correctOption": "cheap-pdf-001"
     },
     {
       "id": "cheap-02-1",
-      "sense": "cheap-mcq-02",
+      "sense": "cheap-pdf-001",
       "en": "They were looking for a cheap solution.",
       "zh": "他們正在找一個低成本的解決方法。",
       "masked": "They were looking for a ____ solution.",
       "options": [
-        "cheap-mcq-02",
+        "cheap-pdf-001",
         "cheap-mcq-01",
         "cheap-mcq-03",
         "cheap-mcq-04",
         "cheap-mcq-05",
         "cheap-mcq-06"
       ],
-      "explanation": "本句的「cheap」指「完成、取得或生產某事所需成本較低」。",
+      "explanation": "本句的「cheap」指「所需花費低，重點在成本少」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-02": "本句指「完成、取得或生產某事所需成本較低」。",
+        "cheap-pdf-001": "本句指「所需花費低，重點在成本少」。",
         "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。",
         "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
         "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
         "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
         "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
       },
-      "correctOption": "cheap-mcq-02"
+      "correctOption": "cheap-pdf-001"
     },
     {
       "id": "cheap-03-0",
@@ -875,63 +898,63 @@ export default {
     },
     {
       "id": "cheap-09-0",
-      "sense": "cheap-mcq-08",
+      "sense": "cheap-pdf-002",
       "en": "The film relies on cheap emotion.",
       "zh": "這部電影依賴廉價、刻意煽情的情緒效果。",
       "masked": "The film relies on ____.",
       "options": [
-        "cheap-mcq-08",
+        "cheap-pdf-002",
         "cheap-mcq-07",
         "cheap-mcq-09",
         "cheap-mcq-06",
         "cheap-mcq-10",
         "cheap-mcq-05"
       ],
-      "explanation": "本句的「cheap emotion」指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
+      "explanation": "本句的「cheap emotion」指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "cheap emotion"
       ],
       "optionReasons": {
-        "cheap-mcq-08": "本句指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
+        "cheap-pdf-002": "本句指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
         "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
         "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
         "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
         "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
         "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。"
       },
-      "correctOption": "cheap-mcq-08"
+      "correctOption": "cheap-pdf-002"
     },
     {
       "id": "cheap-09-1",
-      "sense": "cheap-mcq-08",
+      "sense": "cheap-pdf-002",
       "en": "The speech was full of cheap sentiment.",
       "zh": "這篇演說充滿廉價煽情。",
       "masked": "The speech was full of ____ sentiment.",
       "options": [
-        "cheap-mcq-08",
+        "cheap-pdf-002",
         "cheap-mcq-07",
         "cheap-mcq-09",
         "cheap-mcq-06",
         "cheap-mcq-10",
         "cheap-mcq-05"
       ],
-      "explanation": "本句的「cheap」指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
+      "explanation": "本句的「cheap」指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-08": "本句指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
+        "cheap-pdf-002": "本句指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
         "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
         "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
         "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
         "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
         "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。"
       },
-      "correctOption": "cheap-mcq-08"
+      "correctOption": "cheap-pdf-002"
     },
     {
       "id": "cheap-10-0",

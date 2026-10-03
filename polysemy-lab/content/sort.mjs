@@ -469,16 +469,6 @@ export default {
       "note": "來源詞義：問題、安排或工作已經處理妥當",
       "examples": [
         [
-          "I need a few days to sort myself out.",
-          "我需要幾天時間把自己調整好／理清狀況。",
-          "問題、安排或工作已經處理妥當"
-        ],
-        [
-          "He needs to sort himself out before making a decision.",
-          "他需要先把自己的狀況理清／處理好，再作決定。",
-          "問題、安排或工作已經處理妥當"
-        ],
-        [
           "Everything is sorted.",
           "所有事情都搞定了／處理好了。",
           "問題、安排或工作已經處理妥當"
@@ -553,6 +543,28 @@ export default {
           "Parcel sortation happens overnight.",
           "包裹分揀作業在夜間進行。",
           "物流／倉儲中系統化或自動進行的分揀過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sort-pdf-001",
+      "title": "把自己的情緒、生活、問題或安排重新整理好",
+      "form": "22. sort yourself out（整理好自己／解決自己的問題） — 調整好；處理好",
+      "en": "22. sort yourself out（整理好自己／解決自己的問題） — 調整好；處理好",
+      "zh": "把自己的情緒、生活、問題或安排重新整理好",
+      "note": "原始 PDF 第 22 節：把自己的情緒、生活、問題或安排重新整理好",
+      "examples": [
+        [
+          "I need a few days to sort myself out.",
+          "我需要幾天時間把自己調整好／理清狀況。",
+          "把自己的情緒、生活、問題或安排重新整理好"
+        ],
+        [
+          "He needs to sort himself out before making a decision.",
+          "他需要先把自己的狀況理清／處理好，再作決定。",
+          "把自己的情緒、生活、問題或安排重新整理好"
         ]
       ],
       "options": [],
@@ -1852,63 +1864,63 @@ export default {
     },
     {
       "id": "sort-22-0",
-      "sense": "sort-mcq-21",
+      "sense": "sort-pdf-001",
       "en": "I need a few days to sort myself out.",
       "zh": "我需要幾天時間把自己調整好／理清狀況。",
       "masked": "I need a few days to ____.",
       "options": [
-        "sort-mcq-21",
+        "sort-pdf-001",
         "sort-mcq-20",
         "sort-mcq-22",
         "sort-mcq-19",
         "sort-mcq-23",
         "sort-mcq-18"
       ],
-      "explanation": "本句的「sort myself out」指「問題、安排或工作已經處理妥當」。",
+      "explanation": "本句的「sort myself out」指「把自己的情緒、生活、問題或安排重新整理好」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "sort myself out"
       ],
       "optionReasons": {
-        "sort-mcq-21": "本句指「問題、安排或工作已經處理妥當」。",
+        "sort-pdf-001": "本句指「把自己的情緒、生活、問題或安排重新整理好」。",
         "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
         "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
         "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
         "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
         "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。"
       },
-      "correctOption": "sort-mcq-21"
+      "correctOption": "sort-pdf-001"
     },
     {
       "id": "sort-22-1",
-      "sense": "sort-mcq-21",
+      "sense": "sort-pdf-001",
       "en": "He needs to sort himself out before making a decision.",
       "zh": "他需要先把自己的狀況理清／處理好，再作決定。",
       "masked": "He needs to ____ before making a decision.",
       "options": [
-        "sort-mcq-21",
+        "sort-pdf-001",
         "sort-mcq-20",
         "sort-mcq-22",
         "sort-mcq-19",
         "sort-mcq-23",
         "sort-mcq-18"
       ],
-      "explanation": "本句的「sort himself out」指「問題、安排或工作已經處理妥當」。",
+      "explanation": "本句的「sort himself out」指「把自己的情緒、生活、問題或安排重新整理好」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "sort himself out"
       ],
       "optionReasons": {
-        "sort-mcq-21": "本句指「問題、安排或工作已經處理妥當」。",
+        "sort-pdf-001": "本句指「把自己的情緒、生活、問題或安排重新整理好」。",
         "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
         "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
         "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
         "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
         "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。"
       },
-      "correctOption": "sort-mcq-21"
+      "correctOption": "sort-pdf-001"
     },
     {
       "id": "sort-23-0",

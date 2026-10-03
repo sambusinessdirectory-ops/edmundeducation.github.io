@@ -56,23 +56,7 @@ export default {
       "en": "erode — abstract",
       "zh": "長期逐步削弱信任、價值、標準、支持等",
       "note": "來源詞義：長期逐步削弱信任、價值、標準、支持等",
-      "examples": [
-        [
-          "Such behaviour can erode everyday courtesy.",
-          "這類行為會逐漸侵蝕日常禮貌。",
-          "長期逐步削弱信任、價值、標準、支持等"
-        ],
-        [
-          "Repeated dishonesty can erode trust.",
-          "反覆的不誠實行為會逐漸侵蝕信任。",
-          "長期逐步削弱信任、價值、標準、支持等"
-        ],
-        [
-          "Poor communication gradually eroded confidence in the project.",
-          "溝通不良逐漸削弱了大家對項目的信心。",
-          "長期逐步削弱信任、價值、標準、支持等"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -342,6 +326,33 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "erode-pdf-001",
+      "title": "不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱",
+      "form": "15. erode = gradually weaken or destroy something abstract（比喻） — 逐漸削弱；侵蝕",
+      "en": "15. erode = gradually weaken or destroy something abstract（比喻） — 逐漸削弱；侵蝕",
+      "zh": "不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱",
+      "note": "原始 PDF 第 15 節：不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱",
+      "examples": [
+        [
+          "Such behaviour can erode everyday courtesy.",
+          "這類行為會逐漸侵蝕日常禮貌。",
+          "不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱"
+        ],
+        [
+          "Repeated dishonesty can erode trust.",
+          "反覆的不誠實行為會逐漸侵蝕信任。",
+          "不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱"
+        ],
+        [
+          "Poor communication gradually eroded confidence in the project.",
+          "溝通不良逐漸削弱了大家對項目的信心。",
+          "不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -497,93 +508,93 @@ export default {
     },
     {
       "id": "erode-15-0",
-      "sense": "erode-mcq-03",
+      "sense": "erode-pdf-001",
       "en": "Such behaviour can erode everyday courtesy.",
       "zh": "這類行為會逐漸侵蝕日常禮貌。",
       "masked": "Such behaviour can ____ everyday courtesy.",
       "options": [
-        "erode-mcq-03",
+        "erode-pdf-001",
         "erode-mcq-02",
         "erode-mcq-04",
         "erode-mcq-01",
         "erode-mcq-05",
         "erode-mcq-06"
       ],
-      "explanation": "本句的「erode」指「長期逐步削弱信任、價值、標準、支持等」。",
+      "explanation": "本句的「erode」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
       "sentenceIndex": 10,
       "sourcePractice": 15,
       "targets": [
         "erode"
       ],
       "optionReasons": {
-        "erode-mcq-03": "本句指「長期逐步削弱信任、價值、標準、支持等」。",
+        "erode-pdf-001": "本句指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
         "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
         "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
         "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
         "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
         "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
       },
-      "correctOption": "erode-mcq-03"
+      "correctOption": "erode-pdf-001"
     },
     {
       "id": "erode-15-1",
-      "sense": "erode-mcq-03",
+      "sense": "erode-pdf-001",
       "en": "Repeated dishonesty can erode trust.",
       "zh": "反覆的不誠實行為會逐漸侵蝕信任。",
       "masked": "Repeated dishonesty can ____ trust.",
       "options": [
-        "erode-mcq-03",
+        "erode-pdf-001",
         "erode-mcq-02",
         "erode-mcq-04",
         "erode-mcq-01",
         "erode-mcq-05",
         "erode-mcq-06"
       ],
-      "explanation": "本句的「erode」指「長期逐步削弱信任、價值、標準、支持等」。",
+      "explanation": "本句的「erode」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
       "sentenceIndex": 11,
       "sourcePractice": 15,
       "targets": [
         "erode"
       ],
       "optionReasons": {
-        "erode-mcq-03": "本句指「長期逐步削弱信任、價值、標準、支持等」。",
+        "erode-pdf-001": "本句指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
         "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
         "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
         "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
         "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
         "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
       },
-      "correctOption": "erode-mcq-03"
+      "correctOption": "erode-pdf-001"
     },
     {
       "id": "erode-15-2",
-      "sense": "erode-mcq-03",
+      "sense": "erode-pdf-001",
       "en": "Poor communication gradually eroded confidence in the project.",
       "zh": "溝通不良逐漸削弱了大家對項目的信心。",
       "masked": "Poor communication gradually ____ confidence in the project.",
       "options": [
-        "erode-mcq-03",
+        "erode-pdf-001",
         "erode-mcq-02",
         "erode-mcq-04",
         "erode-mcq-01",
         "erode-mcq-05",
         "erode-mcq-06"
       ],
-      "explanation": "本句的「eroded」指「長期逐步削弱信任、價值、標準、支持等」。",
+      "explanation": "本句的「eroded」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
       "sentenceIndex": 12,
       "sourcePractice": 15,
       "targets": [
         "eroded"
       ],
       "optionReasons": {
-        "erode-mcq-03": "本句指「長期逐步削弱信任、價值、標準、支持等」。",
+        "erode-pdf-001": "本句指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
         "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
         "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
         "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
         "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
         "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
       },
-      "correctOption": "erode-mcq-03"
+      "correctOption": "erode-pdf-001"
     },
     {
       "id": "erode-27-0",

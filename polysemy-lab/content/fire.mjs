@@ -160,23 +160,7 @@ export default {
       "en": "fire (figurative problem)",
       "zh": "突發危機",
       "note": "來源詞義：突發危機",
-      "examples": [
-        [
-          "I was constantly putting out fires.",
-          "我以前總是在不停救火／處理突發問題。",
-          "突發危機"
-        ],
-        [
-          "The manager spent the whole day putting out fires.",
-          "經理整天都在處理一個又一個突發問題。",
-          "突發危機"
-        ],
-        [
-          "Better planning means fewer fires to put out.",
-          "更好的規劃意味著少一些需要立即處理的突發危機。",
-          "突發危機"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -670,6 +654,33 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fire-pdf-001",
+      "title": "figurative: 突然出現、需要立即處理的問題或危機",
+      "form": "8. fire（figurative：問題／危機） — 緊急問題；危機",
+      "en": "8. fire（figurative：問題／危機） — 緊急問題；危機",
+      "zh": "figurative: 突然出現、需要立即處理的問題或危機",
+      "note": "原始 PDF 第 8 節：figurative: 突然出現、需要立即處理的問題或危機",
+      "examples": [
+        [
+          "I was constantly putting out fires.",
+          "我以前總是在不停救火／處理突發問題。",
+          "figurative: 突然出現、需要立即處理的問題或危機"
+        ],
+        [
+          "The manager spent the whole day putting out fires.",
+          "經理整天都在處理一個又一個突發問題。",
+          "figurative: 突然出現、需要立即處理的問題或危機"
+        ],
+        [
+          "Better planning means fewer fires to put out.",
+          "更好的規劃意味著少一些需要立即處理的突發危機。",
+          "figurative: 突然出現、需要立即處理的問題或危機"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1065,93 +1076,93 @@ export default {
     },
     {
       "id": "fire-08-0",
-      "sense": "fire-mcq-08",
+      "sense": "fire-pdf-001",
       "en": "I was constantly putting out fires.",
       "zh": "我以前總是在不停救火／處理突發問題。",
       "masked": "I was constantly ____.",
       "options": [
-        "fire-mcq-08",
+        "fire-pdf-001",
         "fire-mcq-07",
         "fire-mcq-09",
         "fire-mcq-06",
         "fire-mcq-10",
         "fire-mcq-05"
       ],
-      "explanation": "本句的「putting out fires」指「突發危機」。",
+      "explanation": "本句的「putting out fires」指「figurative: 突然出現、需要立即處理的問題或危機」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "putting out fires"
       ],
       "optionReasons": {
-        "fire-mcq-08": "本句指「突發危機」。",
+        "fire-pdf-001": "本句指「figurative: 突然出現、需要立即處理的問題或危機」。",
         "fire-mcq-07": "「救火」與本句語境不同。",
         "fire-mcq-09": "「不停救火」與本句語境不同。",
         "fire-mcq-06": "「滅火」與本句語境不同。",
         "fire-mcq-10": "「射擊；火力」與本句語境不同。",
         "fire-mcq-05": "「放火燒；點燃」與本句語境不同。"
       },
-      "correctOption": "fire-mcq-08"
+      "correctOption": "fire-pdf-001"
     },
     {
       "id": "fire-08-1",
-      "sense": "fire-mcq-08",
+      "sense": "fire-pdf-001",
       "en": "The manager spent the whole day putting out fires.",
       "zh": "經理整天都在處理一個又一個突發問題。",
       "masked": "The manager spent the whole day ____.",
       "options": [
-        "fire-mcq-08",
+        "fire-pdf-001",
         "fire-mcq-07",
         "fire-mcq-09",
         "fire-mcq-06",
         "fire-mcq-10",
         "fire-mcq-05"
       ],
-      "explanation": "本句的「putting out fires」指「突發危機」。",
+      "explanation": "本句的「putting out fires」指「figurative: 突然出現、需要立即處理的問題或危機」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "putting out fires"
       ],
       "optionReasons": {
-        "fire-mcq-08": "本句指「突發危機」。",
+        "fire-pdf-001": "本句指「figurative: 突然出現、需要立即處理的問題或危機」。",
         "fire-mcq-07": "「救火」與本句語境不同。",
         "fire-mcq-09": "「不停救火」與本句語境不同。",
         "fire-mcq-06": "「滅火」與本句語境不同。",
         "fire-mcq-10": "「射擊；火力」與本句語境不同。",
         "fire-mcq-05": "「放火燒；點燃」與本句語境不同。"
       },
-      "correctOption": "fire-mcq-08"
+      "correctOption": "fire-pdf-001"
     },
     {
       "id": "fire-08-2",
-      "sense": "fire-mcq-08",
+      "sense": "fire-pdf-001",
       "en": "Better planning means fewer fires to put out.",
       "zh": "更好的規劃意味著少一些需要立即處理的突發危機。",
       "masked": "Better planning means fewer ____.",
       "options": [
-        "fire-mcq-08",
+        "fire-pdf-001",
         "fire-mcq-07",
         "fire-mcq-09",
         "fire-mcq-06",
         "fire-mcq-10",
         "fire-mcq-05"
       ],
-      "explanation": "本句的「fires to put out」指「突發危機」。",
+      "explanation": "本句的「fires to put out」指「figurative: 突然出現、需要立即處理的問題或危機」。",
       "sentenceIndex": 17,
       "sourcePractice": 3,
       "targets": [
         "fires to put out"
       ],
       "optionReasons": {
-        "fire-mcq-08": "本句指「突發危機」。",
+        "fire-pdf-001": "本句指「figurative: 突然出現、需要立即處理的問題或危機」。",
         "fire-mcq-07": "「救火」與本句語境不同。",
         "fire-mcq-09": "「不停救火」與本句語境不同。",
         "fire-mcq-06": "「滅火」與本句語境不同。",
         "fire-mcq-10": "「射擊；火力」與本句語境不同。",
         "fire-mcq-05": "「放火燒；點燃」與本句語境不同。"
       },
-      "correctOption": "fire-mcq-08"
+      "correctOption": "fire-pdf-001"
     },
     {
       "id": "fire-09-0",

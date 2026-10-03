@@ -357,16 +357,6 @@ export default {
           "The software can spot unusual patterns.",
           "這套軟件可以偵測出異常模式。",
           "從跡象、模式或資訊中辨認出目標／問題"
-        ],
-        [
-          "She spotted an old friend in the crowd.",
-          "她在人群中認出了一位老朋友。",
-          "從跡象、模式或資訊中辨認出目標／問題"
-        ],
-        [
-          "I spotted him immediately.",
-          "我立即就認出他。",
-          "從跡象、模式或資訊中辨認出目標／問題"
         ]
       ],
       "options": [],
@@ -609,6 +599,28 @@ export default {
           "It took me a while to spot the difference.",
           "我花了一會兒才看出差別。",
           "察覺兩個相似事物之間的不同之處"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "spot-pdf-001",
+      "title": "在人群或一定距離中看見並辨認出某人",
+      "form": "18. spot someone = recognize someone（認出某人） — 認出",
+      "en": "18. spot someone = recognize someone（認出某人） — 認出",
+      "zh": "在人群或一定距離中看見並辨認出某人",
+      "note": "原始 PDF 第 18 節：在人群或一定距離中看見並辨認出某人",
+      "examples": [
+        [
+          "She spotted an old friend in the crowd.",
+          "她在人群中認出了一位老朋友。",
+          "在人群或一定距離中看見並辨認出某人"
+        ],
+        [
+          "I spotted him immediately.",
+          "我立即就認出他。",
+          "在人群或一定距離中看見並辨認出某人"
         ]
       ],
       "options": [],
@@ -1668,63 +1680,63 @@ export default {
     },
     {
       "id": "spot-18-0",
-      "sense": "spot-mcq-16",
+      "sense": "spot-pdf-001",
       "en": "She spotted an old friend in the crowd.",
       "zh": "她在人群中認出了一位老朋友。",
       "masked": "She ____ an old friend in the crowd.",
       "options": [
-        "spot-mcq-16",
+        "spot-pdf-001",
         "spot-mcq-15",
         "spot-mcq-17",
         "spot-mcq-14",
         "spot-mcq-18",
         "spot-mcq-13"
       ],
-      "explanation": "本句的「spotted」指「從跡象、模式或資訊中辨認出目標／問題」。",
+      "explanation": "本句的「spotted」指「在人群或一定距離中看見並辨認出某人」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-16": "本句指「從跡象、模式或資訊中辨認出目標／問題」。",
+        "spot-pdf-001": "本句指「在人群或一定距離中看見並辨認出某人」。",
         "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
         "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
         "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
         "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
         "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。"
       },
-      "correctOption": "spot-mcq-16"
+      "correctOption": "spot-pdf-001"
     },
     {
       "id": "spot-18-1",
-      "sense": "spot-mcq-16",
+      "sense": "spot-pdf-001",
       "en": "I spotted him immediately.",
       "zh": "我立即就認出他。",
       "masked": "I ____ him immediately.",
       "options": [
-        "spot-mcq-16",
+        "spot-pdf-001",
         "spot-mcq-15",
         "spot-mcq-17",
         "spot-mcq-14",
         "spot-mcq-18",
         "spot-mcq-13"
       ],
-      "explanation": "本句的「spotted」指「從跡象、模式或資訊中辨認出目標／問題」。",
+      "explanation": "本句的「spotted」指「在人群或一定距離中看見並辨認出某人」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-16": "本句指「從跡象、模式或資訊中辨認出目標／問題」。",
+        "spot-pdf-001": "本句指「在人群或一定距離中看見並辨認出某人」。",
         "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
         "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
         "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
         "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
         "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。"
       },
-      "correctOption": "spot-mcq-16"
+      "correctOption": "spot-pdf-001"
     },
     {
       "id": "spot-19-0",

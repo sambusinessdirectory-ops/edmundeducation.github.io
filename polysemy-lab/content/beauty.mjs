@@ -151,16 +151,6 @@ export default {
       "note": "來源詞義：性格、品格或精神層面的美好特質",
       "examples": [
         [
-          "The artist found beauty in ordinary scenes.",
-          "藝術家在平凡場景中發現了美。",
-          "性格、品格或精神層面的美好特質"
-        ],
-        [
-          "The work explores ideas of beauty and imperfection.",
-          "這件作品探討美與不完美的概念。",
-          "性格、品格或精神層面的美好特質"
-        ],
-        [
           "Her kindness gave her a different kind of beauty.",
           "她的善良令她具有另一種內在美。",
           "性格、品格或精神層面的美好特質"
@@ -168,16 +158,6 @@ export default {
         [
           "The story celebrates inner beauty.",
           "這個故事歌頌內在美。",
-          "性格、品格或精神層面的美好特質"
-        ],
-        [
-          "There is beauty in simplicity.",
-          "簡潔本身有一種美／精妙之處。",
-          "性格、品格或精神層面的美好特質"
-        ],
-        [
-          "The beauty of the solution lies in its elegance.",
-          "這個解決方案的精妙之處在於它的優雅。",
           "性格、品格或精神層面的美好特質"
         ]
       ],
@@ -375,6 +355,50 @@ export default {
           "Street beautification improved the neighbourhood.",
           "街道美化改善了社區環境。",
           "令環境或地方變得更美觀的過程／工程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "beauty-pdf-001",
+      "title": "藝術、設計、哲學中對美感／審美價值的抽象概念",
+      "form": "7. beauty = artistic/aesthetic excellence — 藝術美；審美價值",
+      "en": "7. beauty = artistic/aesthetic excellence — 藝術美；審美價值",
+      "zh": "藝術、設計、哲學中對美感／審美價值的抽象概念",
+      "note": "原始 PDF 第 7 節：藝術、設計、哲學中對美感／審美價值的抽象概念",
+      "examples": [
+        [
+          "The artist found beauty in ordinary scenes.",
+          "藝術家在平凡場景中發現了美。",
+          "藝術、設計、哲學中對美感／審美價值的抽象概念"
+        ],
+        [
+          "The work explores ideas of beauty and imperfection.",
+          "這件作品探討美與不完美的概念。",
+          "藝術、設計、哲學中對美感／審美價值的抽象概念"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "beauty-pdf-002",
+      "title": "某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力",
+      "form": "9. beauty = strength/appeal in simplicity/elegance — 精妙之處；優雅之美",
+      "en": "9. beauty = strength/appeal in simplicity/elegance — 精妙之處；優雅之美",
+      "zh": "某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力",
+      "note": "原始 PDF 第 9 節：某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力",
+      "examples": [
+        [
+          "There is beauty in simplicity.",
+          "簡潔本身有一種美／精妙之處。",
+          "某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力"
+        ],
+        [
+          "The beauty of the solution lies in its elegance.",
+          "這個解決方案的精妙之處在於它的優雅。",
+          "某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力"
         ]
       ],
       "options": [],
@@ -774,63 +798,63 @@ export default {
     },
     {
       "id": "beauty-07-0",
-      "sense": "beauty-mcq-07",
+      "sense": "beauty-pdf-001",
       "en": "The artist found beauty in ordinary scenes.",
       "zh": "藝術家在平凡場景中發現了美。",
       "masked": "The artist found ____ in ordinary scenes.",
       "options": [
-        "beauty-mcq-07",
+        "beauty-pdf-001",
         "beauty-mcq-06",
         "beauty-mcq-08",
         "beauty-mcq-05",
         "beauty-mcq-09",
         "beauty-mcq-04"
       ],
-      "explanation": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
+      "explanation": "本句的「beauty」指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-07": "本句指「性格、品格或精神層面的美好特質」。",
+        "beauty-pdf-001": "本句指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
         "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
         "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
         "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
         "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
         "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
       },
-      "correctOption": "beauty-mcq-07"
+      "correctOption": "beauty-pdf-001"
     },
     {
       "id": "beauty-07-1",
-      "sense": "beauty-mcq-07",
+      "sense": "beauty-pdf-001",
       "en": "The work explores ideas of beauty and imperfection.",
       "zh": "這件作品探討美與不完美的概念。",
       "masked": "The work explores ideas of ____ and imperfection.",
       "options": [
-        "beauty-mcq-07",
+        "beauty-pdf-001",
         "beauty-mcq-06",
         "beauty-mcq-08",
         "beauty-mcq-05",
         "beauty-mcq-09",
         "beauty-mcq-04"
       ],
-      "explanation": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
+      "explanation": "本句的「beauty」指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-07": "本句指「性格、品格或精神層面的美好特質」。",
+        "beauty-pdf-001": "本句指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
         "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
         "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
         "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
         "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
         "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
       },
-      "correctOption": "beauty-mcq-07"
+      "correctOption": "beauty-pdf-001"
     },
     {
       "id": "beauty-08-0",
@@ -894,63 +918,63 @@ export default {
     },
     {
       "id": "beauty-09-0",
-      "sense": "beauty-mcq-07",
+      "sense": "beauty-pdf-002",
       "en": "There is beauty in simplicity.",
       "zh": "簡潔本身有一種美／精妙之處。",
       "masked": "There is ____ in simplicity.",
       "options": [
-        "beauty-mcq-07",
+        "beauty-pdf-002",
         "beauty-mcq-06",
         "beauty-mcq-08",
         "beauty-mcq-05",
         "beauty-mcq-09",
         "beauty-mcq-04"
       ],
-      "explanation": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
+      "explanation": "本句的「beauty」指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-07": "本句指「性格、品格或精神層面的美好特質」。",
+        "beauty-pdf-002": "本句指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
         "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
         "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
         "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
         "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
         "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
       },
-      "correctOption": "beauty-mcq-07"
+      "correctOption": "beauty-pdf-002"
     },
     {
       "id": "beauty-09-1",
-      "sense": "beauty-mcq-07",
+      "sense": "beauty-pdf-002",
       "en": "The beauty of the solution lies in its elegance.",
       "zh": "這個解決方案的精妙之處在於它的優雅。",
       "masked": "The ____ of the solution lies in its elegance.",
       "options": [
-        "beauty-mcq-07",
+        "beauty-pdf-002",
         "beauty-mcq-06",
         "beauty-mcq-08",
         "beauty-mcq-05",
         "beauty-mcq-09",
         "beauty-mcq-04"
       ],
-      "explanation": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
+      "explanation": "本句的「beauty」指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-07": "本句指「性格、品格或精神層面的美好特質」。",
+        "beauty-pdf-002": "本句指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
         "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
         "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
         "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
         "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
         "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
       },
-      "correctOption": "beauty-mcq-07"
+      "correctOption": "beauty-pdf-002"
     },
     {
       "id": "beauty-10-0",

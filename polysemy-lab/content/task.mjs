@@ -270,16 +270,6 @@ export default {
       "note": "來源詞義：責備某人",
       "examples": [
         [
-          "The committee tasked him to review the report.",
-          "委員會指派他審閱報告。",
-          "責備某人"
-        ],
-        [
-          "She was tasked to investigate the issue.",
-          "她被指派調查這個問題。",
-          "責備某人"
-        ],
-        [
           "The teacher took him to task for arriving late.",
           "老師因他遲到而責備他。",
           "責備某人"
@@ -453,6 +443,28 @@ export default {
           "The lesson includes several task-based activities.",
           "課堂包括幾項任務式活動。",
           "任務為本學習"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "task-pdf-001",
+      "title": "正式要求某人負責完成 X",
+      "form": "13. task someone to do something — 指派某人做某事",
+      "en": "13. task someone to do something — 指派某人做某事",
+      "zh": "正式要求某人負責完成 X",
+      "note": "原始 PDF 第 13 節：正式要求某人負責完成 X",
+      "examples": [
+        [
+          "The committee tasked him to review the report.",
+          "委員會指派他審閱報告。",
+          "正式要求某人負責完成 X"
+        ],
+        [
+          "She was tasked to investigate the issue.",
+          "她被指派調查這個問題。",
+          "正式要求某人負責完成 X"
         ]
       ],
       "options": [],
@@ -1152,63 +1164,63 @@ export default {
     },
     {
       "id": "task-13-0",
-      "sense": "task-mcq-12",
+      "sense": "task-pdf-001",
       "en": "The committee tasked him to review the report.",
       "zh": "委員會指派他審閱報告。",
       "masked": "The committee ____.",
       "options": [
-        "task-mcq-12",
+        "task-pdf-001",
         "task-mcq-11",
         "task-mcq-13",
         "task-mcq-10",
         "task-mcq-14",
         "task-mcq-09"
       ],
-      "explanation": "本句的「tasked him to review the report」指「責備某人」。",
+      "explanation": "本句的「tasked him to review the report」指「正式要求某人負責完成 X」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "tasked him to review the report"
       ],
       "optionReasons": {
-        "task-mcq-12": "本句指「責備某人」。",
+        "task-pdf-001": "本句指「正式要求某人負責完成 X」。",
         "task-mcq-11": "「被指派負責 X」與本句語境不同。",
         "task-mcq-13": "「專責小組」與本句語境不同。",
         "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
         "task-mcq-14": "「特遣部隊」與本句語境不同。",
         "task-mcq-09": "「重任」與本句語境不同。"
       },
-      "correctOption": "task-mcq-12"
+      "correctOption": "task-pdf-001"
     },
     {
       "id": "task-13-1",
-      "sense": "task-mcq-12",
+      "sense": "task-pdf-001",
       "en": "She was tasked to investigate the issue.",
       "zh": "她被指派調查這個問題。",
       "masked": "She was ____.",
       "options": [
-        "task-mcq-12",
+        "task-pdf-001",
         "task-mcq-11",
         "task-mcq-13",
         "task-mcq-10",
         "task-mcq-14",
         "task-mcq-09"
       ],
-      "explanation": "本句的「tasked to investigate the issue」指「責備某人」。",
+      "explanation": "本句的「tasked to investigate the issue」指「正式要求某人負責完成 X」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "tasked to investigate the issue"
       ],
       "optionReasons": {
-        "task-mcq-12": "本句指「責備某人」。",
+        "task-pdf-001": "本句指「正式要求某人負責完成 X」。",
         "task-mcq-11": "「被指派負責 X」與本句語境不同。",
         "task-mcq-13": "「專責小組」與本句語境不同。",
         "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
         "task-mcq-14": "「特遣部隊」與本句語境不同。",
         "task-mcq-09": "「重任」與本句語境不同。"
       },
-      "correctOption": "task-mcq-12"
+      "correctOption": "task-pdf-001"
     },
     {
       "id": "task-14-0",

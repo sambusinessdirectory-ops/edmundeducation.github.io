@@ -144,18 +144,7 @@ export default {
       "en": "reassurance",
       "zh": "能降低擔憂、增加安全感的說話、行動或資訊",
       "note": "來源詞義：能降低擔憂、增加安全感的說話、行動或資訊",
-      "examples": [
-        [
-          "She needed reassurance.",
-          "她需要一些安慰／ reassurance。",
-          "能降低擔憂、增加安全感的說話、行動或資訊"
-        ],
-        [
-          "His reassurance helped her sleep.",
-          "他的安慰和保證令她較容易入睡。",
-          "能降低擔憂、增加安全感的說話、行動或資訊"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -308,6 +297,28 @@ export default {
           "The statement was intended to reassure residents.",
           "聲明旨在安撫居民。",
           "透過公開資訊減少公眾恐慌或擔憂"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reassure-pdf-001",
+      "title": "用說話、行動或證據令某人減少不安的支持",
+      "form": "15. reassurance = words/actions that reduce worry — 安慰；安心保證；令安心的話",
+      "en": "15. reassurance = words/actions that reduce worry — 安慰；安心保證；令安心的話",
+      "zh": "用說話、行動或證據令某人減少不安的支持",
+      "note": "原始 PDF 第 15 節：用說話、行動或證據令某人減少不安的支持",
+      "examples": [
+        [
+          "She needed reassurance.",
+          "她需要一些安慰／ reassurance。",
+          "用說話、行動或證據令某人減少不安的支持"
+        ],
+        [
+          "His reassurance helped her sleep.",
+          "他的安慰和保證令她較容易入睡。",
+          "用說話、行動或證據令某人減少不安的支持"
         ]
       ],
       "options": [],
@@ -557,63 +568,63 @@ export default {
     },
     {
       "id": "reassure-15-0",
-      "sense": "reassure-mcq-09",
+      "sense": "reassure-pdf-001",
       "en": "She needed reassurance.",
       "zh": "她需要一些安慰／ reassurance。",
       "masked": "She needed ____.",
       "options": [
-        "reassure-mcq-09",
+        "reassure-pdf-001",
         "reassure-mcq-08",
         "reassure-mcq-10",
         "reassure-mcq-07",
         "reassure-mcq-11",
         "reassure-mcq-06"
       ],
-      "explanation": "本句的「reassurance」指「能降低擔憂、增加安全感的說話、行動或資訊」。",
+      "explanation": "本句的「reassurance」指「用說話、行動或證據令某人減少不安的支持」。",
       "sentenceIndex": 28,
       "sourcePractice": 15,
       "targets": [
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-09": "本句指「能降低擔憂、增加安全感的說話、行動或資訊」。",
+        "reassure-pdf-001": "本句指「用說話、行動或證據令某人減少不安的支持」。",
         "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
         "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
         "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
         "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
         "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。"
       },
-      "correctOption": "reassure-mcq-09"
+      "correctOption": "reassure-pdf-001"
     },
     {
       "id": "reassure-15-1",
-      "sense": "reassure-mcq-09",
+      "sense": "reassure-pdf-001",
       "en": "His reassurance helped her sleep.",
       "zh": "他的安慰和保證令她較容易入睡。",
       "masked": "His ____ helped her sleep.",
       "options": [
-        "reassure-mcq-09",
+        "reassure-pdf-001",
         "reassure-mcq-08",
         "reassure-mcq-10",
         "reassure-mcq-07",
         "reassure-mcq-11",
         "reassure-mcq-06"
       ],
-      "explanation": "本句的「reassurance」指「能降低擔憂、增加安全感的說話、行動或資訊」。",
+      "explanation": "本句的「reassurance」指「用說話、行動或證據令某人減少不安的支持」。",
       "sentenceIndex": 29,
       "sourcePractice": 15,
       "targets": [
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-09": "本句指「能降低擔憂、增加安全感的說話、行動或資訊」。",
+        "reassure-pdf-001": "本句指「用說話、行動或證據令某人減少不安的支持」。",
         "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
         "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
         "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
         "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
         "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。"
       },
-      "correctOption": "reassure-mcq-09"
+      "correctOption": "reassure-pdf-001"
     },
     {
       "id": "reassure-18-0",

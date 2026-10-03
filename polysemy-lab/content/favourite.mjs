@@ -182,18 +182,7 @@ export default {
       "en": "favourite to win",
       "zh": "最被看好勝出",
       "note": "來源詞義：最被看好勝出",
-      "examples": [
-        [
-          "He is the favourite to become captain.",
-          "他是最被看好會成為隊長的人。",
-          "最被看好勝出"
-        ],
-        [
-          "The team is the favourite to win the tournament.",
-          "這支球隊是最被看好贏得賽事的隊伍。",
-          "最被看好勝出"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -281,6 +270,28 @@ export default {
       "zh": "favourite 的美式拼法",
       "note": "來源詞義：favourite 的美式拼法",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "favourite-pdf-001",
+      "title": "被普遍認為最有可能取得某個競爭性結果的人或隊伍",
+      "form": "8. the favourite to do something — 最被看好會……",
+      "en": "8. the favourite to do something — 最被看好會……",
+      "zh": "被普遍認為最有可能取得某個競爭性結果的人或隊伍",
+      "note": "原始 PDF 第 8 節：被普遍認為最有可能取得某個競爭性結果的人或隊伍",
+      "examples": [
+        [
+          "He is the favourite to become captain.",
+          "他是最被看好會成為隊長的人。",
+          "被普遍認為最有可能取得某個競爭性結果的人或隊伍"
+        ],
+        [
+          "The team is the favourite to win the tournament.",
+          "這支球隊是最被看好贏得賽事的隊伍。",
+          "被普遍認為最有可能取得某個競爭性結果的人或隊伍"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -738,63 +749,63 @@ export default {
     },
     {
       "id": "favourite-08-0",
-      "sense": "favourite-mcq-10",
+      "sense": "favourite-pdf-001",
       "en": "He is the favourite to become captain.",
       "zh": "他是最被看好會成為隊長的人。",
       "masked": "He is the ____.",
       "options": [
-        "favourite-mcq-10",
+        "favourite-pdf-001",
         "favourite-mcq-09",
         "favourite-mcq-11",
         "favourite-mcq-08",
         "favourite-mcq-12",
         "favourite-mcq-07"
       ],
-      "explanation": "本句的「favourite to become captain」指「最被看好勝出」。",
+      "explanation": "本句的「favourite to become captain」指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "favourite to become captain"
       ],
       "optionReasons": {
-        "favourite-mcq-10": "本句指「最被看好勝出」。",
+        "favourite-pdf-001": "本句指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
         "favourite-mcq-09": "「大熱門」與本句語境不同。",
         "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
         "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
         "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
         "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。"
       },
-      "correctOption": "favourite-mcq-10"
+      "correctOption": "favourite-pdf-001"
     },
     {
       "id": "favourite-08-1",
-      "sense": "favourite-mcq-10",
+      "sense": "favourite-pdf-001",
       "en": "The team is the favourite to win the tournament.",
       "zh": "這支球隊是最被看好贏得賽事的隊伍。",
       "masked": "The team is the ____.",
       "options": [
-        "favourite-mcq-10",
+        "favourite-pdf-001",
         "favourite-mcq-09",
         "favourite-mcq-11",
         "favourite-mcq-08",
         "favourite-mcq-12",
         "favourite-mcq-07"
       ],
-      "explanation": "本句的「favourite to win the tournament」指「最被看好勝出」。",
+      "explanation": "本句的「favourite to win the tournament」指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "favourite to win the tournament"
       ],
       "optionReasons": {
-        "favourite-mcq-10": "本句指「最被看好勝出」。",
+        "favourite-pdf-001": "本句指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
         "favourite-mcq-09": "「大熱門」與本句語境不同。",
         "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
         "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
         "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
         "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。"
       },
-      "correctOption": "favourite-mcq-10"
+      "correctOption": "favourite-pdf-001"
     },
     {
       "id": "favourite-09-0",

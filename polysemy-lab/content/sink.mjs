@@ -90,16 +90,6 @@ export default {
       "note": "來源詞義：使船隻沉沒，或比喻令計劃、事業等失敗",
       "examples": [
         [
-          "The attack sank two ships.",
-          "那次攻擊擊沉了兩艘船。",
-          "使船隻沉沒，或比喻令計劃、事業等失敗"
-        ],
-        [
-          "The damaged vessel was eventually sunk.",
-          "那艘受損船隻最後被弄沉／擊沉。",
-          "使船隻沉沒，或比喻令計劃、事業等失敗"
-        ],
-        [
           "The scandal sank his career.",
           "那宗醜聞毀掉了他的事業。",
           "使船隻沉沒，或比喻令計劃、事業等失敗"
@@ -201,6 +191,28 @@ export default {
           "His confidence sank after the failure.",
           "失敗後，他的信心大受打擊／下降。",
           "數值、信心、情緒、希望等降到較低程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sink-pdf-001",
+      "title": "使船隻或其他浮在水面的物體沉入水中",
+      "form": "8. sink = deliberately destroy a ship by causing it to go underwater（及物） — 擊沉；使沉沒",
+      "en": "8. sink = deliberately destroy a ship by causing it to go underwater（及物） — 擊沉；使沉沒",
+      "zh": "使船隻或其他浮在水面的物體沉入水中",
+      "note": "原始 PDF 第 8 節：使船隻或其他浮在水面的物體沉入水中",
+      "examples": [
+        [
+          "The attack sank two ships.",
+          "那次攻擊擊沉了兩艘船。",
+          "使船隻或其他浮在水面的物體沉入水中"
+        ],
+        [
+          "The damaged vessel was eventually sunk.",
+          "那艘受損船隻最後被弄沉／擊沉。",
+          "使船隻或其他浮在水面的物體沉入水中"
         ]
       ],
       "options": [],
@@ -660,63 +672,63 @@ export default {
     },
     {
       "id": "sink-08-0",
-      "sense": "sink-mcq-04",
+      "sense": "sink-pdf-001",
       "en": "The attack sank two ships.",
       "zh": "那次攻擊擊沉了兩艘船。",
       "masked": "The attack ____ two ships.",
       "options": [
-        "sink-mcq-04",
+        "sink-pdf-001",
         "sink-mcq-03",
         "sink-mcq-05",
         "sink-mcq-02",
         "sink-mcq-06",
         "sink-mcq-01"
       ],
-      "explanation": "本句的「sank」指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
+      "explanation": "本句的「sank」指「使船隻或其他浮在水面的物體沉入水中」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-04": "本句指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
+        "sink-pdf-001": "本句指「使船隻或其他浮在水面的物體沉入水中」。",
         "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
         "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
         "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
         "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
         "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。"
       },
-      "correctOption": "sink-mcq-04"
+      "correctOption": "sink-pdf-001"
     },
     {
       "id": "sink-08-1",
-      "sense": "sink-mcq-04",
+      "sense": "sink-pdf-001",
       "en": "The damaged vessel was eventually sunk.",
       "zh": "那艘受損船隻最後被弄沉／擊沉。",
       "masked": "The damaged vessel was eventually ____.",
       "options": [
-        "sink-mcq-04",
+        "sink-pdf-001",
         "sink-mcq-03",
         "sink-mcq-05",
         "sink-mcq-02",
         "sink-mcq-06",
         "sink-mcq-01"
       ],
-      "explanation": "本句的「sunk」指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
+      "explanation": "本句的「sunk」指「使船隻或其他浮在水面的物體沉入水中」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "sunk"
       ],
       "optionReasons": {
-        "sink-mcq-04": "本句指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
+        "sink-pdf-001": "本句指「使船隻或其他浮在水面的物體沉入水中」。",
         "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
         "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
         "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
         "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
         "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。"
       },
-      "correctOption": "sink-mcq-04"
+      "correctOption": "sink-pdf-001"
     },
     {
       "id": "sink-09-0",

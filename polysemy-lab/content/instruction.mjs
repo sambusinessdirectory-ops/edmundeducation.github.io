@@ -1038,13 +1038,7 @@ export default {
       "en": "computer-assisted instruction",
       "zh": "由電腦系統支援的電腦輔助教學",
       "note": "來源詞義：由電腦系統支援的電腦輔助教學",
-      "examples": [
-        [
-          "The processor executes millions of instructions.",
-          "處理器執行數以百萬計的指令。",
-          "由電腦系統支援的電腦輔助教學"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1779,6 +1773,23 @@ export default {
       "zh": "指定資料／文件／交易等如何處理的指示",
       "note": "來源詞義：指定資料／文件／交易等如何處理的指示",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "instruction-pdf-plain-140",
+      "title": "由電腦處理器執行的指令；機器指令",
+      "form": "PDF section 140",
+      "en": "PDF section 140",
+      "zh": "由電腦處理器執行的指令；機器指令",
+      "note": "原始 PDF 第 140 節：由電腦處理器執行的指令；機器指令",
+      "examples": [
+        [
+          "The processor executes millions of instructions.",
+          "處理器執行數以百萬計的指令。",
+          "由電腦處理器執行的指令；機器指令"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -2896,33 +2907,33 @@ export default {
     },
     {
       "id": "instruction-140-0",
-      "sense": "instruction-mcq-77",
+      "sense": "instruction-pdf-plain-140",
       "en": "The processor executes millions of instructions.",
       "zh": "處理器執行數以百萬計的指令。",
       "masked": "The processor executes millions of ____.",
       "options": [
-        "instruction-mcq-77",
+        "instruction-pdf-plain-140",
         "instruction-mcq-76",
         "instruction-mcq-78",
         "instruction-mcq-75",
         "instruction-mcq-79",
         "instruction-mcq-74"
       ],
-      "explanation": "本句的「instructions」指「由電腦系統支援的電腦輔助教學」。",
+      "explanation": "本句的「instructions」指「由電腦處理器執行的指令；機器指令」。",
       "sentenceIndex": 44,
       "sourcePractice": 140,
       "targets": [
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-77": "本句指「由電腦系統支援的電腦輔助教學」。",
+        "instruction-pdf-plain-140": "本句指「由電腦處理器執行的指令；機器指令」。",
         "instruction-mcq-76": "「學生可按自己速度進行的自定進度教學」與本句語境不同。",
         "instruction-mcq-78": "「系統設計學習目標、活動、教材、評估的教學設計」與本句語境不同。",
         "instruction-mcq-75": "「因應學生能力／需要不同而調整的差異化教學」與本句語境不同。",
         "instruction-mcq-79": "「用於教學的教材／教學材料」與本句語境不同。",
         "instruction-mcq-74": "「按個別學生需要調整的個別化教學」與本句語境不同。"
       },
-      "correctOption": "instruction-mcq-77"
+      "correctOption": "instruction-pdf-plain-140"
     }
   ],
   "comparisons": [],

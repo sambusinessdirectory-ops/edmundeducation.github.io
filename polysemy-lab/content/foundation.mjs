@@ -761,18 +761,7 @@ export default {
       "en": "foundation (establishment)",
       "zh": "創立；建立",
       "note": "來源詞義：創立；建立",
-      "examples": [
-        [
-          "The city grew rapidly after its foundation.",
-          "這座城市在建立／建城後迅速發展。",
-          "創立；建立"
-        ],
-        [
-          "The organisation celebrated the anniversary of its foundation.",
-          "該機構慶祝其創立周年。",
-          "創立；建立"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -882,11 +871,6 @@ export default {
       "zh": "創辦人",
       "note": "來源詞義：創辦人",
       "examples": [
-        [
-          "She is the founder of the company.",
-          "她是公司的創辦人。",
-          "創辦人"
-        ],
         [
           "The company founder stepped down as CEO.",
           "公司創辦人辭去行政總裁職位。",
@@ -1010,13 +994,7 @@ export default {
       "en": "well-founded",
       "zh": "有充分根據的",
       "note": "來源詞義：有充分根據的",
-      "examples": [
-        [
-          "Their concerns were well-founded.",
-          "他們的憂慮是有充分根據的。",
-          "有充分根據的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1044,13 +1022,7 @@ export default {
       "en": "unfounded",
       "zh": "無根據的",
       "note": "來源詞義：無根據的",
-      "examples": [
-        [
-          "The allegation was unfounded.",
-          "這項指控毫無根據。",
-          "無根據的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1247,18 +1219,7 @@ export default {
       "en": "foundation (cosmetics)",
       "zh": "粉底",
       "note": "來源詞義：粉底",
-      "examples": [
-        [
-          "She applied foundation before doing the rest of her makeup.",
-          "她化其他妝前先塗上粉底。",
-          "粉底"
-        ],
-        [
-          "This foundation provides light coverage.",
-          "這款粉底的遮瑕度較輕。",
-          "粉底"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1472,18 +1433,7 @@ export default {
       "en": "foundational",
       "zh": "基礎性的；奠基性的",
       "note": "來源詞義：基礎性的；奠基性的",
-      "examples": [
-        [
-          "Trust is foundational to effective teamwork.",
-          "信任對有效團隊合作具有根本基礎性。",
-          "基礎性的；奠基性的"
-        ],
-        [
-          "Reading is a foundational skill.",
-          "閱讀是一項基礎性技能。",
-          "基礎性的；奠基性的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1592,6 +1542,123 @@ export default {
           "The allegation appears to have little foundation in evidence.",
           "該指控看來幾乎沒有證據支持。",
           "沒有事實根據"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-pdf-001",
+      "title": "某城市、機構、制度等首次被正式建立的事件／過程",
+      "form": "38. foundation = act or event of establishing something — 創立；建立",
+      "en": "38. foundation = act or event of establishing something — 創立；建立",
+      "zh": "某城市、機構、制度等首次被正式建立的事件／過程",
+      "note": "原始 PDF 第 38 節：某城市、機構、制度等首次被正式建立的事件／過程",
+      "examples": [
+        [
+          "The city grew rapidly after its foundation.",
+          "這座城市在建立／建城後迅速發展。",
+          "某城市、機構、制度等首次被正式建立的事件／過程"
+        ],
+        [
+          "The organisation celebrated the anniversary of its foundation.",
+          "該機構慶祝其創立周年。",
+          "某城市、機構、制度等首次被正式建立的事件／過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-pdf-002",
+      "title": "創立公司、機構、組織、運動等的人",
+      "form": "47. founder = person who establishes an organisation — 創辦人；創始人",
+      "en": "47. founder = person who establishes an organisation — 創辦人；創始人",
+      "zh": "創立公司、機構、組織、運動等的人",
+      "note": "原始 PDF 第 47 節：創立公司、機構、組織、運動等的人",
+      "examples": [
+        [
+          "She is the founder of the company.",
+          "她是公司的創辦人。",
+          "創立公司、機構、組織、運動等的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-pdf-003",
+      "title": "有可靠事實、證據或理由支持的",
+      "form": "56. well-founded = supported by good evidence/reason — 有充分根據的",
+      "en": "56. well-founded = supported by good evidence/reason — 有充分根據的",
+      "zh": "有可靠事實、證據或理由支持的",
+      "note": "原始 PDF 第 56 節：有可靠事實、證據或理由支持的",
+      "examples": [
+        [
+          "Their concerns were well-founded.",
+          "他們的憂慮是有充分根據的。",
+          "有可靠事實、證據或理由支持的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-pdf-004",
+      "title": "缺乏事實、證據或合理理由支持的",
+      "form": "58. unfounded = not based on evidence — 無根據的",
+      "en": "58. unfounded = not based on evidence — 無根據的",
+      "zh": "缺乏事實、證據或合理理由支持的",
+      "note": "原始 PDF 第 58 節：缺乏事實、證據或合理理由支持的",
+      "examples": [
+        [
+          "The allegation was unfounded.",
+          "這項指控毫無根據。",
+          "缺乏事實、證據或合理理由支持的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-pdf-005",
+      "title": "塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品",
+      "form": "69. foundation = cosmetic base applied to the face — 粉底",
+      "en": "69. foundation = cosmetic base applied to the face — 粉底",
+      "zh": "塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品",
+      "note": "原始 PDF 第 69 節：塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品",
+      "examples": [
+        [
+          "She applied foundation before doing the rest of her makeup.",
+          "她化其他妝前先塗上粉底。",
+          "塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品"
+        ],
+        [
+          "This foundation provides light coverage.",
+          "這款粉底的遮瑕度較輕。",
+          "塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-pdf-006",
+      "title": "其他知識、制度或能力建立其上的基本而重要的",
+      "form": "80. foundational = forming a basic and essential foundation — 基礎性的；根本的",
+      "en": "80. foundational = forming a basic and essential foundation — 基礎性的；根本的",
+      "zh": "其他知識、制度或能力建立其上的基本而重要的",
+      "note": "原始 PDF 第 80 節：其他知識、制度或能力建立其上的基本而重要的",
+      "examples": [
+        [
+          "Trust is foundational to effective teamwork.",
+          "信任對有效團隊合作具有根本基礎性。",
+          "其他知識、制度或能力建立其上的基本而重要的"
+        ],
+        [
+          "Reading is a foundational skill.",
+          "閱讀是一項基礎性技能。",
+          "其他知識、制度或能力建立其上的基本而重要的"
         ]
       ],
       "options": [],
@@ -3791,63 +3858,63 @@ export default {
     },
     {
       "id": "foundation-38-0",
-      "sense": "foundation-mcq-33",
+      "sense": "foundation-pdf-001",
       "en": "The city grew rapidly after its foundation.",
       "zh": "這座城市在建立／建城後迅速發展。",
       "masked": "The city grew rapidly after its ____.",
       "options": [
-        "foundation-mcq-33",
+        "foundation-pdf-001",
         "foundation-mcq-32",
         "foundation-mcq-34",
         "foundation-mcq-31",
         "foundation-mcq-35",
         "foundation-mcq-30"
       ],
-      "explanation": "本句的「foundation」指「創立；建立」。",
+      "explanation": "本句的「foundation」指「某城市、機構、制度等首次被正式建立的事件／過程」。",
       "sentenceIndex": 73,
       "sourcePractice": 1,
       "targets": [
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-33": "本句指「創立；建立」。",
+        "foundation-pdf-001": "本句指「某城市、機構、制度等首次被正式建立的事件／過程」。",
         "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
         "foundation-mcq-34": "「自成立以來」與本句語境不同。",
         "foundation-mcq-31": "「奠基」與本句語境不同。",
         "foundation-mcq-35": "「創立公司」與本句語境不同。",
         "foundation-mcq-30": "「奠基石」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-33"
+      "correctOption": "foundation-pdf-001"
     },
     {
       "id": "foundation-38-1",
-      "sense": "foundation-mcq-33",
+      "sense": "foundation-pdf-001",
       "en": "The organisation celebrated the anniversary of its foundation.",
       "zh": "該機構慶祝其創立周年。",
       "masked": "The organisation celebrated the anniversary of its ____.",
       "options": [
-        "foundation-mcq-33",
+        "foundation-pdf-001",
         "foundation-mcq-32",
         "foundation-mcq-34",
         "foundation-mcq-31",
         "foundation-mcq-35",
         "foundation-mcq-30"
       ],
-      "explanation": "本句的「foundation」指「創立；建立」。",
+      "explanation": "本句的「foundation」指「某城市、機構、制度等首次被正式建立的事件／過程」。",
       "sentenceIndex": 74,
       "sourcePractice": 2,
       "targets": [
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-33": "本句指「創立；建立」。",
+        "foundation-pdf-001": "本句指「某城市、機構、制度等首次被正式建立的事件／過程」。",
         "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
         "foundation-mcq-34": "「自成立以來」與本句語境不同。",
         "foundation-mcq-31": "「奠基」與本句語境不同。",
         "foundation-mcq-35": "「創立公司」與本句語境不同。",
         "foundation-mcq-30": "「奠基石」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-33"
+      "correctOption": "foundation-pdf-001"
     },
     {
       "id": "foundation-39-0",
@@ -4151,33 +4218,33 @@ export default {
     },
     {
       "id": "foundation-47-0",
-      "sense": "foundation-mcq-38",
+      "sense": "foundation-pdf-002",
       "en": "She is the founder of the company.",
       "zh": "她是公司的創辦人。",
       "masked": "She is the ____.",
       "options": [
-        "foundation-mcq-38",
+        "foundation-pdf-002",
         "foundation-mcq-37",
         "foundation-mcq-39",
         "foundation-mcq-36",
         "foundation-mcq-40",
         "foundation-mcq-35"
       ],
-      "explanation": "本句的「founder of the company」指「創辦人」。",
+      "explanation": "本句的「founder of the company」指「創立公司、機構、組織、運動等的人」。",
       "sentenceIndex": 85,
       "sourcePractice": 1,
       "targets": [
         "founder of the company"
       ],
       "optionReasons": {
-        "foundation-mcq-38": "本句指「創辦人」。",
+        "foundation-pdf-002": "本句指「創立公司、機構、組織、運動等的人」。",
         "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
         "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
         "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
         "foundation-mcq-40": "「創立；創建」與本句語境不同。",
         "foundation-mcq-35": "「創立公司」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-38"
+      "correctOption": "foundation-pdf-002"
     },
     {
       "id": "foundation-48-0",
@@ -4421,33 +4488,33 @@ export default {
     },
     {
       "id": "foundation-56-0",
-      "sense": "foundation-mcq-45",
+      "sense": "foundation-pdf-003",
       "en": "Their concerns were well-founded.",
       "zh": "他們的憂慮是有充分根據的。",
       "masked": "Their concerns were ____.",
       "options": [
-        "foundation-mcq-45",
+        "foundation-pdf-003",
         "foundation-mcq-44",
         "foundation-mcq-46",
         "foundation-mcq-43",
         "foundation-mcq-47",
         "foundation-mcq-42"
       ],
-      "explanation": "本句的「well-founded」指「有充分根據的」。",
+      "explanation": "本句的「well-founded」指「有可靠事實、證據或理由支持的」。",
       "sentenceIndex": 94,
       "sourcePractice": 1,
       "targets": [
         "well-founded"
       ],
       "optionReasons": {
-        "foundation-mcq-45": "本句指「有充分根據的」。",
+        "foundation-pdf-003": "本句指「有可靠事實、證據或理由支持的」。",
         "foundation-mcq-44": "「創立文件」與本句語境不同。",
         "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。",
         "foundation-mcq-43": "「創立／基本原則」與本句語境不同。",
         "foundation-mcq-47": "「無根據的」與本句語境不同。",
         "foundation-mcq-42": "「創辦合夥人」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-45"
+      "correctOption": "foundation-pdf-003"
     },
     {
       "id": "foundation-57-0",
@@ -4481,33 +4548,33 @@ export default {
     },
     {
       "id": "foundation-58-0",
-      "sense": "foundation-mcq-47",
+      "sense": "foundation-pdf-004",
       "en": "The allegation was unfounded.",
       "zh": "這項指控毫無根據。",
       "masked": "The allegation was ____.",
       "options": [
-        "foundation-mcq-47",
+        "foundation-pdf-004",
         "foundation-mcq-46",
         "foundation-mcq-48",
         "foundation-mcq-45",
         "foundation-mcq-49",
         "foundation-mcq-44"
       ],
-      "explanation": "本句的「unfounded」指「無根據的」。",
+      "explanation": "本句的「unfounded」指「缺乏事實、證據或合理理由支持的」。",
       "sentenceIndex": 96,
       "sourcePractice": 1,
       "targets": [
         "unfounded"
       ],
       "optionReasons": {
-        "foundation-mcq-47": "本句指「無根據的」。",
+        "foundation-pdf-004": "本句指「缺乏事實、證據或合理理由支持的」。",
         "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。",
         "foundation-mcq-48": "「無根據指控」與本句語境不同。",
         "foundation-mcq-45": "「有充分根據的」與本句語境不同。",
         "foundation-mcq-49": "「基金會」與本句語境不同。",
         "foundation-mcq-44": "「創立文件」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-47"
+      "correctOption": "foundation-pdf-004"
     },
     {
       "id": "foundation-59-0",
@@ -5051,63 +5118,63 @@ export default {
     },
     {
       "id": "foundation-69-0",
-      "sense": "foundation-mcq-56",
+      "sense": "foundation-pdf-005",
       "en": "She applied foundation before doing the rest of her makeup.",
       "zh": "她化其他妝前先塗上粉底。",
       "masked": "She applied ____ before doing the rest of her makeup.",
       "options": [
-        "foundation-mcq-56",
+        "foundation-pdf-005",
         "foundation-mcq-55",
         "foundation-mcq-57",
         "foundation-mcq-54",
         "foundation-mcq-58",
         "foundation-mcq-53"
       ],
-      "explanation": "本句的「foundation」指「粉底」。",
+      "explanation": "本句的「foundation」指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
       "sentenceIndex": 115,
       "sourcePractice": 1,
       "targets": [
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-56": "本句指「粉底」。",
+        "foundation-pdf-005": "本句指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
         "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
         "foundation-mcq-57": "「粉底液」與本句語境不同。",
         "foundation-mcq-54": "「基金會資助」與本句語境不同。",
         "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
         "foundation-mcq-53": "「研究基金會」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-56"
+      "correctOption": "foundation-pdf-005"
     },
     {
       "id": "foundation-69-1",
-      "sense": "foundation-mcq-56",
+      "sense": "foundation-pdf-005",
       "en": "This foundation provides light coverage.",
       "zh": "這款粉底的遮瑕度較輕。",
       "masked": "This ____ provides light coverage.",
       "options": [
-        "foundation-mcq-56",
+        "foundation-pdf-005",
         "foundation-mcq-55",
         "foundation-mcq-57",
         "foundation-mcq-54",
         "foundation-mcq-58",
         "foundation-mcq-53"
       ],
-      "explanation": "本句的「foundation」指「粉底」。",
+      "explanation": "本句的「foundation」指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
       "sentenceIndex": 116,
       "sourcePractice": 2,
       "targets": [
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-56": "本句指「粉底」。",
+        "foundation-pdf-005": "本句指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
         "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
         "foundation-mcq-57": "「粉底液」與本句語境不同。",
         "foundation-mcq-54": "「基金會資助」與本句語境不同。",
         "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
         "foundation-mcq-53": "「研究基金會」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-56"
+      "correctOption": "foundation-pdf-005"
     },
     {
       "id": "foundation-70-0",
@@ -5681,63 +5748,63 @@ export default {
     },
     {
       "id": "foundation-80-0",
-      "sense": "foundation-mcq-66",
+      "sense": "foundation-pdf-006",
       "en": "Trust is foundational to effective teamwork.",
       "zh": "信任對有效團隊合作具有根本基礎性。",
       "masked": "Trust is ____.",
       "options": [
-        "foundation-mcq-66",
+        "foundation-pdf-006",
         "foundation-mcq-65",
         "foundation-mcq-67",
         "foundation-mcq-64",
         "foundation-mcq-68",
         "foundation-mcq-63"
       ],
-      "explanation": "本句的「foundational to effective teamwork」指「基礎性的；奠基性的」。",
+      "explanation": "本句的「foundational to effective teamwork」指「其他知識、制度或能力建立其上的基本而重要的」。",
       "sentenceIndex": 136,
       "sourcePractice": 1,
       "targets": [
         "foundational to effective teamwork"
       ],
       "optionReasons": {
-        "foundation-mcq-66": "本句指「基礎性的；奠基性的」。",
+        "foundation-pdf-006": "本句指「其他知識、制度或能力建立其上的基本而重要的」。",
         "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
         "foundation-mcq-67": "「根本原則」與本句語境不同。",
         "foundation-mcq-64": "「基礎階段」與本句語境不同。",
         "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
         "foundation-mcq-63": "「基礎學位」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-66"
+      "correctOption": "foundation-pdf-006"
     },
     {
       "id": "foundation-80-1",
-      "sense": "foundation-mcq-66",
+      "sense": "foundation-pdf-006",
       "en": "Reading is a foundational skill.",
       "zh": "閱讀是一項基礎性技能。",
       "masked": "Reading is a ____ skill.",
       "options": [
-        "foundation-mcq-66",
+        "foundation-pdf-006",
         "foundation-mcq-65",
         "foundation-mcq-67",
         "foundation-mcq-64",
         "foundation-mcq-68",
         "foundation-mcq-63"
       ],
-      "explanation": "本句的「foundational」指「基礎性的；奠基性的」。",
+      "explanation": "本句的「foundational」指「其他知識、制度或能力建立其上的基本而重要的」。",
       "sentenceIndex": 137,
       "sourcePractice": 2,
       "targets": [
         "foundational"
       ],
       "optionReasons": {
-        "foundation-mcq-66": "本句指「基礎性的；奠基性的」。",
+        "foundation-pdf-006": "本句指「其他知識、制度或能力建立其上的基本而重要的」。",
         "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
         "foundation-mcq-67": "「根本原則」與本句語境不同。",
         "foundation-mcq-64": "「基礎階段」與本句語境不同。",
         "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
         "foundation-mcq-63": "「基礎學位」與本句語境不同。"
       },
-      "correctOption": "foundation-mcq-66"
+      "correctOption": "foundation-pdf-006"
     },
     {
       "id": "foundation-81-0",

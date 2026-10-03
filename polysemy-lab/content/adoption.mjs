@@ -12,18 +12,7 @@ export default {
       "en": "adoption — technology",
       "zh": "個人／組織開始接受並實際使用某項新技術、產品或系統的過程",
       "note": "來源詞義：個人／組織開始接受並實際使用某項新技術、產品或系統的過程",
-      "examples": [
-        [
-          "Charging convenience affects electric-vehicle adoption.",
-          "充電便利性會影響電動車的採用／普及。",
-          "個人／組織開始接受並實際使用某項新技術、產品或系統的過程"
-        ],
-        [
-          "High prices can slow the adoption of new technology.",
-          "高價格可能拖慢新科技的普及採用。",
-          "個人／組織開始接受並實際使用某項新技術、產品或系統的過程"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -295,68 +284,90 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "adoption-pdf-001",
+      "title": "從知道／考慮某項新事物，到真正開始使用它的過程",
+      "form": "1. adoption = process of beginning to use a new technology/product/system — 採用；普及",
+      "en": "1. adoption = process of beginning to use a new technology/product/system — 採用；普及",
+      "zh": "從知道／考慮某項新事物，到真正開始使用它的過程",
+      "note": "原始 PDF 第 1 節：從知道／考慮某項新事物，到真正開始使用它的過程",
+      "examples": [
+        [
+          "Charging convenience affects electric-vehicle adoption.",
+          "充電便利性會影響電動車的採用／普及。",
+          "從知道／考慮某項新事物，到真正開始使用它的過程"
+        ],
+        [
+          "High prices can slow the adoption of new technology.",
+          "高價格可能拖慢新科技的普及採用。",
+          "從知道／考慮某項新事物，到真正開始使用它的過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "adoption-01-0",
-      "sense": "adoption-mcq-01",
+      "sense": "adoption-pdf-001",
       "en": "Charging convenience affects electric-vehicle adoption.",
       "zh": "充電便利性會影響電動車的採用／普及。",
       "masked": "Charging convenience affects electric-vehicle ____.",
       "options": [
-        "adoption-mcq-01",
+        "adoption-pdf-001",
         "adoption-mcq-02",
         "adoption-mcq-03",
         "adoption-mcq-04",
         "adoption-mcq-05",
         "adoption-mcq-06"
       ],
-      "explanation": "本句的「adoption」指「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」。",
+      "explanation": "本句的「adoption」指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-01": "本句指「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」。",
+        "adoption-pdf-001": "本句指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
         "adoption-mcq-02": "「新科技由潛在使用者開始投入實際使用的過程」與本句語境不同。",
         "adoption-mcq-03": "「某群體實際開始使用某產品／技術的比例或速度」與本句語境不同。",
         "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
         "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
         "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
       },
-      "correctOption": "adoption-mcq-01"
+      "correctOption": "adoption-pdf-001"
     },
     {
       "id": "adoption-01-1",
-      "sense": "adoption-mcq-01",
+      "sense": "adoption-pdf-001",
       "en": "High prices can slow the adoption of new technology.",
       "zh": "高價格可能拖慢新科技的普及採用。",
       "masked": "High prices can slow the ____ of new technology.",
       "options": [
-        "adoption-mcq-01",
+        "adoption-pdf-001",
         "adoption-mcq-02",
         "adoption-mcq-03",
         "adoption-mcq-04",
         "adoption-mcq-05",
         "adoption-mcq-06"
       ],
-      "explanation": "本句的「adoption」指「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」。",
+      "explanation": "本句的「adoption」指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
       "sentenceIndex": 1,
       "sourcePractice": 1,
       "targets": [
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-01": "本句指「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」。",
+        "adoption-pdf-001": "本句指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
         "adoption-mcq-02": "「新科技由潛在使用者開始投入實際使用的過程」與本句語境不同。",
         "adoption-mcq-03": "「某群體實際開始使用某產品／技術的比例或速度」與本句語境不同。",
         "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
         "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
         "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
       },
-      "correctOption": "adoption-mcq-01"
+      "correctOption": "adoption-pdf-001"
     },
     {
       "id": "adoption-02-0",

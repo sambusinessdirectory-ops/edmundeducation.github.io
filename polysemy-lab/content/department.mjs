@@ -12,23 +12,7 @@ export default {
       "en": "department (company)",
       "zh": "部門",
       "note": "來源詞義：部門",
-      "examples": [
-        [
-          "Different departments may use different professional language.",
-          "不同部門可能使用不同的專業語言。",
-          "部門"
-        ],
-        [
-          "Each department has its own responsibilities.",
-          "每個部門都有自己的職責。",
-          "部門"
-        ],
-        [
-          "The project involves several departments.",
-          "這個項目涉及數個部門。",
-          "部門"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -553,16 +537,6 @@ export default {
           "The conflict remained intradepartmental.",
           "這場衝突仍屬於部門內部問題。",
           "部門內部的"
-        ],
-        [
-          "Budgets are managed departmentally.",
-          "預算按部門層面管理。",
-          "部門內部的"
-        ],
-        [
-          "The data were organised departmentally.",
-          "數據按照部門分類整理。",
-          "部門內部的"
         ]
       ],
       "options": [],
@@ -628,21 +602,6 @@ export default {
         [
           "Several government departments were involved.",
           "數個政府部門都有參與。",
-          "政府部門"
-        ],
-        [
-          "Some countries use the term department, while others use ministry.",
-          "有些國家使用 department（部門），另一些則使用 ministry（部／部會）。",
-          "政府部門"
-        ],
-        [
-          "Contact the department responsible for transport.",
-          "請聯絡負責交通事務的政府部門。",
-          "政府部門"
-        ],
-        [
-          "The relevant department issued new guidance.",
-          "相關部門發布了新指引。",
           "政府部門"
         ]
       ],
@@ -788,38 +747,7 @@ export default {
       "en": "department (retail)",
       "zh": "商品部／專區",
       "note": "來源詞義：商品部／專區",
-      "examples": [
-        [
-          "The furniture department is on the third floor.",
-          "家具部／專區在三樓。",
-          "商品部／專區"
-        ],
-        [
-          "Ask someone in the cosmetics department.",
-          "向化妝品部門／專櫃區的職員查詢。",
-          "商品部／專區"
-        ],
-        [
-          "The men's department is upstairs.",
-          "男裝部在樓上。",
-          "商品部／專區"
-        ],
-        [
-          "She works in the children's department.",
-          "她在童裝部工作。",
-          "商品部／專區"
-        ],
-        [
-          "The cosmetics department is near the entrance.",
-          "化妝品部在入口附近。",
-          "商品部／專區"
-        ],
-        [
-          "I found the item in the electronics department.",
-          "我在電子產品部找到那件商品。",
-          "商品部／專區"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1041,98 +969,252 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-001",
+      "title": "大型公司或機構內負責某一類特定工作的正式單位",
+      "form": "1. department = functional unit in an organisation — 部門；職能單位",
+      "en": "1. department = functional unit in an organisation — 部門；職能單位",
+      "zh": "大型公司或機構內負責某一類特定工作的正式單位",
+      "note": "原始 PDF 第 1 節：大型公司或機構內負責某一類特定工作的正式單位",
+      "examples": [
+        [
+          "Different departments may use different professional language.",
+          "不同部門可能使用不同的專業語言。",
+          "大型公司或機構內負責某一類特定工作的正式單位"
+        ],
+        [
+          "Each department has its own responsibilities.",
+          "每個部門都有自己的職責。",
+          "大型公司或機構內負責某一類特定工作的正式單位"
+        ],
+        [
+          "The project involves several departments.",
+          "這個項目涉及數個部門。",
+          "大型公司或機構內負責某一類特定工作的正式單位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-002",
+      "title": "以部門為單位或從部門層面進行",
+      "form": "26. departmentally — 按部門；從部門層面",
+      "en": "26. departmentally — 按部門；從部門層面",
+      "zh": "以部門為單位或從部門層面進行",
+      "note": "原始 PDF 第 26 節：以部門為單位或從部門層面進行",
+      "examples": [
+        [
+          "Budgets are managed departmentally.",
+          "預算按部門層面管理。",
+          "以部門為單位或從部門層面進行"
+        ],
+        [
+          "The data were organised departmentally.",
+          "數據按照部門分類整理。",
+          "以部門為單位或從部門層面進行"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-003",
+      "title": "政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不",
+      "form": "33. department vs ministry — 政府「部門」與「部」",
+      "en": "33. department vs ministry — 政府「部門」與「部」",
+      "zh": "政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不",
+      "note": "原始 PDF 第 33 節：政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不",
+      "examples": [
+        [
+          "Some countries use the term department, while others use ministry.",
+          "有些國家使用 department（部門），另一些則使用 ministry（部／部會）。",
+          "政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-004",
+      "title": "正式負責管理 X 政策或行政工作的政府單位",
+      "form": "34. department responsible for something — 負責某範疇的政府部門",
+      "en": "34. department responsible for something — 負責某範疇的政府部門",
+      "zh": "正式負責管理 X 政策或行政工作的政府單位",
+      "note": "原始 PDF 第 34 節：正式負責管理 X 政策或行政工作的政府單位",
+      "examples": [
+        [
+          "Contact the department responsible for transport.",
+          "請聯絡負責交通事務的政府部門。",
+          "正式負責管理 X 政策或行政工作的政府單位"
+        ],
+        [
+          "The relevant department issued new guidance.",
+          "相關部門發布了新指引。",
+          "正式負責管理 X 政策或行政工作的政府單位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-005",
+      "title": "大型商店內專門售賣某一類商品的區域",
+      "form": "41. department = section of a large shop — 商品部；專櫃區",
+      "en": "41. department = section of a large shop — 商品部；專櫃區",
+      "zh": "大型商店內專門售賣某一類商品的區域",
+      "note": "原始 PDF 第 41 節：大型商店內專門售賣某一類商品的區域",
+      "examples": [
+        [
+          "The furniture department is on the third floor.",
+          "家具部／專區在三樓。",
+          "大型商店內專門售賣某一類商品的區域"
+        ],
+        [
+          "Ask someone in the cosmetics department.",
+          "向化妝品部門／專櫃區的職員查詢。",
+          "大型商店內專門售賣某一類商品的區域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-006",
+      "title": "百貨公司內專門售賣 X 類商品的區域",
+      "form": "42. men’s / women’s / children’s department — 男裝／女裝／童裝部",
+      "en": "42. men’s / women’s / children’s department — 男裝／女裝／童裝部",
+      "zh": "百貨公司內專門售賣 X 類商品的區域",
+      "note": "原始 PDF 第 42 節：百貨公司內專門售賣 X 類商品的區域",
+      "examples": [
+        [
+          "The men's department is upstairs.",
+          "男裝部在樓上。",
+          "百貨公司內專門售賣 X 類商品的區域"
+        ],
+        [
+          "She works in the children's department.",
+          "她在童裝部工作。",
+          "百貨公司內專門售賣 X 類商品的區域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "department-pdf-007",
+      "title": "店內按商品種類劃分的銷售區域",
+      "form": "43. cosmetics / furniture / electronics department — 化妝品／家具／電子產品部",
+      "en": "43. cosmetics / furniture / electronics department — 化妝品／家具／電子產品部",
+      "zh": "店內按商品種類劃分的銷售區域",
+      "note": "原始 PDF 第 43 節：店內按商品種類劃分的銷售區域",
+      "examples": [
+        [
+          "The cosmetics department is near the entrance.",
+          "化妝品部在入口附近。",
+          "店內按商品種類劃分的銷售區域"
+        ],
+        [
+          "I found the item in the electronics department.",
+          "我在電子產品部找到那件商品。",
+          "店內按商品種類劃分的銷售區域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "department-01-0",
-      "sense": "department-mcq-01",
+      "sense": "department-pdf-001",
       "en": "Different departments may use different professional language.",
       "zh": "不同部門可能使用不同的專業語言。",
       "masked": "Different ____ may use different professional language.",
       "options": [
-        "department-mcq-01",
+        "department-pdf-001",
         "department-mcq-02",
         "department-mcq-03",
         "department-mcq-04",
         "department-mcq-05",
         "department-mcq-06"
       ],
-      "explanation": "本句的「departments」指「部門」。",
+      "explanation": "本句的「departments」指「大型公司或機構內負責某一類特定工作的正式單位」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "departments"
       ],
       "optionReasons": {
-        "department-mcq-01": "本句指「部門」。",
+        "department-pdf-001": "本句指「大型公司或機構內負責某一類特定工作的正式單位」。",
         "department-mcq-02": "「市場推廣部」與本句語境不同。",
         "department-mcq-03": "「財務部」與本句語境不同。",
         "department-mcq-04": "「營運部」與本句語境不同。",
         "department-mcq-05": "「銷售部」與本句語境不同。",
         "department-mcq-06": "「人力資源部」與本句語境不同。"
       },
-      "correctOption": "department-mcq-01"
+      "correctOption": "department-pdf-001"
     },
     {
       "id": "department-01-1",
-      "sense": "department-mcq-01",
+      "sense": "department-pdf-001",
       "en": "Each department has its own responsibilities.",
       "zh": "每個部門都有自己的職責。",
       "masked": "Each ____ has its own responsibilities.",
       "options": [
-        "department-mcq-01",
+        "department-pdf-001",
         "department-mcq-02",
         "department-mcq-03",
         "department-mcq-04",
         "department-mcq-05",
         "department-mcq-06"
       ],
-      "explanation": "本句的「department」指「部門」。",
+      "explanation": "本句的「department」指「大型公司或機構內負責某一類特定工作的正式單位」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-01": "本句指「部門」。",
+        "department-pdf-001": "本句指「大型公司或機構內負責某一類特定工作的正式單位」。",
         "department-mcq-02": "「市場推廣部」與本句語境不同。",
         "department-mcq-03": "「財務部」與本句語境不同。",
         "department-mcq-04": "「營運部」與本句語境不同。",
         "department-mcq-05": "「銷售部」與本句語境不同。",
         "department-mcq-06": "「人力資源部」與本句語境不同。"
       },
-      "correctOption": "department-mcq-01"
+      "correctOption": "department-pdf-001"
     },
     {
       "id": "department-01-2",
-      "sense": "department-mcq-01",
+      "sense": "department-pdf-001",
       "en": "The project involves several departments.",
       "zh": "這個項目涉及數個部門。",
       "masked": "The project involves several ____.",
       "options": [
-        "department-mcq-01",
+        "department-pdf-001",
         "department-mcq-02",
         "department-mcq-03",
         "department-mcq-04",
         "department-mcq-05",
         "department-mcq-06"
       ],
-      "explanation": "本句的「departments」指「部門」。",
+      "explanation": "本句的「departments」指「大型公司或機構內負責某一類特定工作的正式單位」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "departments"
       ],
       "optionReasons": {
-        "department-mcq-01": "本句指「部門」。",
+        "department-pdf-001": "本句指「大型公司或機構內負責某一類特定工作的正式單位」。",
         "department-mcq-02": "「市場推廣部」與本句語境不同。",
         "department-mcq-03": "「財務部」與本句語境不同。",
         "department-mcq-04": "「營運部」與本句語境不同。",
         "department-mcq-05": "「銷售部」與本句語境不同。",
         "department-mcq-06": "「人力資源部」與本句語境不同。"
       },
-      "correctOption": "department-mcq-01"
+      "correctOption": "department-pdf-001"
     },
     {
       "id": "department-02-0",
@@ -2576,63 +2658,63 @@ export default {
     },
     {
       "id": "department-26-0",
-      "sense": "department-mcq-24",
+      "sense": "department-pdf-002",
       "en": "Budgets are managed departmentally.",
       "zh": "預算按部門層面管理。",
       "masked": "Budgets are managed ____.",
       "options": [
-        "department-mcq-24",
+        "department-pdf-002",
         "department-mcq-23",
         "department-mcq-25",
         "department-mcq-22",
         "department-mcq-26",
         "department-mcq-21"
       ],
-      "explanation": "本句的「departmentally」指「部門內部的」。",
+      "explanation": "本句的「departmentally」指「以部門為單位或從部門層面進行」。",
       "sentenceIndex": 51,
       "sourcePractice": 1,
       "targets": [
         "departmentally"
       ],
       "optionReasons": {
-        "department-mcq-24": "本句指「部門內部的」。",
+        "department-pdf-002": "本句指「以部門為單位或從部門層面進行」。",
         "department-mcq-23": "「跨部門合作」與本句語境不同。",
         "department-mcq-25": "「學系」與本句語境不同。",
         "department-mcq-22": "「跨部門溝通」與本句語境不同。",
         "department-mcq-26": "「X 系」與本句語境不同。",
         "department-mcq-21": "「跨部門的」與本句語境不同。"
       },
-      "correctOption": "department-mcq-24"
+      "correctOption": "department-pdf-002"
     },
     {
       "id": "department-26-1",
-      "sense": "department-mcq-24",
+      "sense": "department-pdf-002",
       "en": "The data were organised departmentally.",
       "zh": "數據按照部門分類整理。",
       "masked": "The data were organised ____.",
       "options": [
-        "department-mcq-24",
+        "department-pdf-002",
         "department-mcq-23",
         "department-mcq-25",
         "department-mcq-22",
         "department-mcq-26",
         "department-mcq-21"
       ],
-      "explanation": "本句的「departmentally」指「部門內部的」。",
+      "explanation": "本句的「departmentally」指「以部門為單位或從部門層面進行」。",
       "sentenceIndex": 52,
       "sourcePractice": 2,
       "targets": [
         "departmentally"
       ],
       "optionReasons": {
-        "department-mcq-24": "本句指「部門內部的」。",
+        "department-pdf-002": "本句指「以部門為單位或從部門層面進行」。",
         "department-mcq-23": "「跨部門合作」與本句語境不同。",
         "department-mcq-25": "「學系」與本句語境不同。",
         "department-mcq-22": "「跨部門溝通」與本句語境不同。",
         "department-mcq-26": "「X 系」與本句語境不同。",
         "department-mcq-21": "「跨部門的」與本句語境不同。"
       },
-      "correctOption": "department-mcq-24"
+      "correctOption": "department-pdf-002"
     },
     {
       "id": "department-27-0",
@@ -2816,93 +2898,93 @@ export default {
     },
     {
       "id": "department-33-0",
-      "sense": "department-mcq-28",
+      "sense": "department-pdf-003",
       "en": "Some countries use the term department, while others use ministry.",
       "zh": "有些國家使用 department（部門），另一些則使用 ministry（部／部會）。",
       "masked": "Some countries use the term ____, while others use ministry.",
       "options": [
-        "department-mcq-28",
+        "department-pdf-003",
         "department-mcq-27",
         "department-mcq-29",
         "department-mcq-26",
         "department-mcq-30",
         "department-mcq-25"
       ],
-      "explanation": "本句的「department」指「政府部門」。",
+      "explanation": "本句的「department」指「政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不」。",
       "sentenceIndex": 65,
       "sourcePractice": 1,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-28": "本句指「政府部門」。",
+        "department-pdf-003": "本句指「政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不」。",
         "department-mcq-27": "「系主任」與本句語境不同。",
         "department-mcq-29": "「警察部門」與本句語境不同。",
         "department-mcq-26": "「X 系」與本句語境不同。",
         "department-mcq-30": "「消防部門」與本句語境不同。",
         "department-mcq-25": "「學系」與本句語境不同。"
       },
-      "correctOption": "department-mcq-28"
+      "correctOption": "department-pdf-003"
     },
     {
       "id": "department-34-0",
-      "sense": "department-mcq-28",
+      "sense": "department-pdf-004",
       "en": "Contact the department responsible for transport.",
       "zh": "請聯絡負責交通事務的政府部門。",
       "masked": "Contact the ____.",
       "options": [
-        "department-mcq-28",
+        "department-pdf-004",
         "department-mcq-27",
         "department-mcq-29",
         "department-mcq-26",
         "department-mcq-30",
         "department-mcq-25"
       ],
-      "explanation": "本句的「department responsible for transport」指「政府部門」。",
+      "explanation": "本句的「department responsible for transport」指「正式負責管理 X 政策或行政工作的政府單位」。",
       "sentenceIndex": 66,
       "sourcePractice": 1,
       "targets": [
         "department responsible for transport"
       ],
       "optionReasons": {
-        "department-mcq-28": "本句指「政府部門」。",
+        "department-pdf-004": "本句指「正式負責管理 X 政策或行政工作的政府單位」。",
         "department-mcq-27": "「系主任」與本句語境不同。",
         "department-mcq-29": "「警察部門」與本句語境不同。",
         "department-mcq-26": "「X 系」與本句語境不同。",
         "department-mcq-30": "「消防部門」與本句語境不同。",
         "department-mcq-25": "「學系」與本句語境不同。"
       },
-      "correctOption": "department-mcq-28"
+      "correctOption": "department-pdf-004"
     },
     {
       "id": "department-34-1",
-      "sense": "department-mcq-28",
+      "sense": "department-pdf-004",
       "en": "The relevant department issued new guidance.",
       "zh": "相關部門發布了新指引。",
       "masked": "The relevant ____ issued new guidance.",
       "options": [
-        "department-mcq-28",
+        "department-pdf-004",
         "department-mcq-27",
         "department-mcq-29",
         "department-mcq-26",
         "department-mcq-30",
         "department-mcq-25"
       ],
-      "explanation": "本句的「department」指「政府部門」。",
+      "explanation": "本句的「department」指「正式負責管理 X 政策或行政工作的政府單位」。",
       "sentenceIndex": 67,
       "sourcePractice": 2,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-28": "本句指「政府部門」。",
+        "department-pdf-004": "本句指「正式負責管理 X 政策或行政工作的政府單位」。",
         "department-mcq-27": "「系主任」與本句語境不同。",
         "department-mcq-29": "「警察部門」與本句語境不同。",
         "department-mcq-26": "「X 系」與本句語境不同。",
         "department-mcq-30": "「消防部門」與本句語境不同。",
         "department-mcq-25": "「學系」與本句語境不同。"
       },
-      "correctOption": "department-mcq-28"
+      "correctOption": "department-pdf-004"
     },
     {
       "id": "department-35-0",
@@ -3266,183 +3348,183 @@ export default {
     },
     {
       "id": "department-41-0",
-      "sense": "department-mcq-35",
+      "sense": "department-pdf-005",
       "en": "The furniture department is on the third floor.",
       "zh": "家具部／專區在三樓。",
       "masked": "The furniture ____ is on the third floor.",
       "options": [
-        "department-mcq-35",
+        "department-pdf-005",
         "department-mcq-34",
         "department-mcq-36",
         "department-mcq-33",
         "department-mcq-37",
         "department-mcq-32"
       ],
-      "explanation": "本句的「department」指「商品部／專區」。",
+      "explanation": "本句的「department」指「大型商店內專門售賣某一類商品的區域」。",
       "sentenceIndex": 80,
       "sourcePractice": 1,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-35": "本句指「商品部／專區」。",
+        "department-pdf-005": "本句指「大型商店內專門售賣某一類商品的區域」。",
         "department-mcq-34": "「門診部」與本句語境不同。",
         "department-mcq-36": "「百貨公司」與本句語境不同。",
         "department-mcq-33": "「急症室／急診部」與本句語境不同。",
         "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
         "department-mcq-32": "「醫院科／部門」與本句語境不同。"
       },
-      "correctOption": "department-mcq-35"
+      "correctOption": "department-pdf-005"
     },
     {
       "id": "department-41-1",
-      "sense": "department-mcq-35",
+      "sense": "department-pdf-005",
       "en": "Ask someone in the cosmetics department.",
       "zh": "向化妝品部門／專櫃區的職員查詢。",
       "masked": "Ask someone in the cosmetics ____.",
       "options": [
-        "department-mcq-35",
+        "department-pdf-005",
         "department-mcq-34",
         "department-mcq-36",
         "department-mcq-33",
         "department-mcq-37",
         "department-mcq-32"
       ],
-      "explanation": "本句的「department」指「商品部／專區」。",
+      "explanation": "本句的「department」指「大型商店內專門售賣某一類商品的區域」。",
       "sentenceIndex": 81,
       "sourcePractice": 2,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-35": "本句指「商品部／專區」。",
+        "department-pdf-005": "本句指「大型商店內專門售賣某一類商品的區域」。",
         "department-mcq-34": "「門診部」與本句語境不同。",
         "department-mcq-36": "「百貨公司」與本句語境不同。",
         "department-mcq-33": "「急症室／急診部」與本句語境不同。",
         "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
         "department-mcq-32": "「醫院科／部門」與本句語境不同。"
       },
-      "correctOption": "department-mcq-35"
+      "correctOption": "department-pdf-005"
     },
     {
       "id": "department-42-0",
-      "sense": "department-mcq-35",
+      "sense": "department-pdf-006",
       "en": "The men's department is upstairs.",
       "zh": "男裝部在樓上。",
       "masked": "The men's ____ is upstairs.",
       "options": [
-        "department-mcq-35",
+        "department-pdf-006",
         "department-mcq-34",
         "department-mcq-36",
         "department-mcq-33",
         "department-mcq-37",
         "department-mcq-32"
       ],
-      "explanation": "本句的「department」指「商品部／專區」。",
+      "explanation": "本句的「department」指「百貨公司內專門售賣 X 類商品的區域」。",
       "sentenceIndex": 82,
       "sourcePractice": 1,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-35": "本句指「商品部／專區」。",
+        "department-pdf-006": "本句指「百貨公司內專門售賣 X 類商品的區域」。",
         "department-mcq-34": "「門診部」與本句語境不同。",
         "department-mcq-36": "「百貨公司」與本句語境不同。",
         "department-mcq-33": "「急症室／急診部」與本句語境不同。",
         "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
         "department-mcq-32": "「醫院科／部門」與本句語境不同。"
       },
-      "correctOption": "department-mcq-35"
+      "correctOption": "department-pdf-006"
     },
     {
       "id": "department-42-1",
-      "sense": "department-mcq-35",
+      "sense": "department-pdf-006",
       "en": "She works in the children's department.",
       "zh": "她在童裝部工作。",
       "masked": "She works in the children's ____.",
       "options": [
-        "department-mcq-35",
+        "department-pdf-006",
         "department-mcq-34",
         "department-mcq-36",
         "department-mcq-33",
         "department-mcq-37",
         "department-mcq-32"
       ],
-      "explanation": "本句的「department」指「商品部／專區」。",
+      "explanation": "本句的「department」指「百貨公司內專門售賣 X 類商品的區域」。",
       "sentenceIndex": 83,
       "sourcePractice": 2,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-35": "本句指「商品部／專區」。",
+        "department-pdf-006": "本句指「百貨公司內專門售賣 X 類商品的區域」。",
         "department-mcq-34": "「門診部」與本句語境不同。",
         "department-mcq-36": "「百貨公司」與本句語境不同。",
         "department-mcq-33": "「急症室／急診部」與本句語境不同。",
         "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
         "department-mcq-32": "「醫院科／部門」與本句語境不同。"
       },
-      "correctOption": "department-mcq-35"
+      "correctOption": "department-pdf-006"
     },
     {
       "id": "department-43-0",
-      "sense": "department-mcq-35",
+      "sense": "department-pdf-007",
       "en": "The cosmetics department is near the entrance.",
       "zh": "化妝品部在入口附近。",
       "masked": "The cosmetics ____ is near the entrance.",
       "options": [
-        "department-mcq-35",
+        "department-pdf-007",
         "department-mcq-34",
         "department-mcq-36",
         "department-mcq-33",
         "department-mcq-37",
         "department-mcq-32"
       ],
-      "explanation": "本句的「department」指「商品部／專區」。",
+      "explanation": "本句的「department」指「店內按商品種類劃分的銷售區域」。",
       "sentenceIndex": 84,
       "sourcePractice": 1,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-35": "本句指「商品部／專區」。",
+        "department-pdf-007": "本句指「店內按商品種類劃分的銷售區域」。",
         "department-mcq-34": "「門診部」與本句語境不同。",
         "department-mcq-36": "「百貨公司」與本句語境不同。",
         "department-mcq-33": "「急症室／急診部」與本句語境不同。",
         "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
         "department-mcq-32": "「醫院科／部門」與本句語境不同。"
       },
-      "correctOption": "department-mcq-35"
+      "correctOption": "department-pdf-007"
     },
     {
       "id": "department-43-1",
-      "sense": "department-mcq-35",
+      "sense": "department-pdf-007",
       "en": "I found the item in the electronics department.",
       "zh": "我在電子產品部找到那件商品。",
       "masked": "I found the item in the electronics ____.",
       "options": [
-        "department-mcq-35",
+        "department-pdf-007",
         "department-mcq-34",
         "department-mcq-36",
         "department-mcq-33",
         "department-mcq-37",
         "department-mcq-32"
       ],
-      "explanation": "本句的「department」指「商品部／專區」。",
+      "explanation": "本句的「department」指「店內按商品種類劃分的銷售區域」。",
       "sentenceIndex": 85,
       "sourcePractice": 2,
       "targets": [
         "department"
       ],
       "optionReasons": {
-        "department-mcq-35": "本句指「商品部／專區」。",
+        "department-pdf-007": "本句指「店內按商品種類劃分的銷售區域」。",
         "department-mcq-34": "「門診部」與本句語境不同。",
         "department-mcq-36": "「百貨公司」與本句語境不同。",
         "department-mcq-33": "「急症室／急診部」與本句語境不同。",
         "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
         "department-mcq-32": "「醫院科／部門」與本句語境不同。"
       },
-      "correctOption": "department-mcq-35"
+      "correctOption": "department-pdf-007"
     },
     {
       "id": "department-44-0",

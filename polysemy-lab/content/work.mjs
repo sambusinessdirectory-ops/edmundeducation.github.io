@@ -90,16 +90,6 @@ export default {
       "note": "來源詞義：為完成目標投入的體力、腦力、時間和努力",
       "examples": [
         [
-          "She works in advertising.",
-          "她從事廣告業。",
-          "為完成目標投入的體力、腦力、時間和努力"
-        ],
-        [
-          "He wants to work in technology.",
-          "他希望從事科技行業。",
-          "為完成目標投入的體力、腦力、時間和努力"
-        ],
-        [
           "Learning a language takes a lot of work.",
           "學好一種語言需要花很多功夫和努力。",
           "為完成目標投入的體力、腦力、時間和努力"
@@ -893,6 +883,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "work-pdf-plain-007",
+      "title": "從事某個行業或專業領域的工作",
+      "form": "PDF section 7",
+      "en": "PDF section 7",
+      "zh": "從事某個行業或專業領域的工作",
+      "note": "原始 PDF 第 7 節：從事某個行業或專業領域的工作",
+      "examples": [
+        [
+          "She works in advertising.",
+          "她從事廣告業。",
+          "從事某個行業或專業領域的工作"
+        ],
+        [
+          "He wants to work in technology.",
+          "他希望從事科技行業。",
+          "從事某個行業或專業領域的工作"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "comparisons": [
@@ -1305,63 +1317,63 @@ export default {
     },
     {
       "id": "work-07-0",
-      "sense": "work-mcq-02",
+      "sense": "work-pdf-plain-007",
       "en": "She works in advertising.",
       "zh": "她從事廣告業。",
       "masked": "她____廣告業。",
       "options": [
-        "work-mcq-02",
+        "work-pdf-plain-007",
         "work-mcq-01",
         "work-mcq-03",
         "work-mcq-04",
         "work-mcq-05",
         "work-mcq-06"
       ],
-      "explanation": "本句的「works in」指「為完成目標投入的體力、腦力、時間和努力」。",
+      "explanation": "本句的「works in」指「從事某個行業或專業領域的工作」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "works in"
       ],
       "optionReasons": {
-        "work-mcq-02": "本句指「為完成目標投入的體力、腦力、時間和努力」。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-pdf-plain-007": "本句指「從事某個行業或專業領域的工作」。",
+        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」與本句語境不同。",
+        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」與本句語境不同。",
+        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」與本句語境不同。",
+        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」與本句語境不同。",
+        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」與本句語境不同。"
       },
-      "correctOption": "work-mcq-02"
+      "correctOption": "work-pdf-plain-007"
     },
     {
       "id": "work-07-1",
-      "sense": "work-mcq-02",
+      "sense": "work-pdf-plain-007",
       "en": "He wants to work in technology.",
       "zh": "他希望從事科技行業。",
       "masked": "他希望____科技行業。",
       "options": [
-        "work-mcq-02",
+        "work-pdf-plain-007",
         "work-mcq-01",
         "work-mcq-03",
         "work-mcq-04",
         "work-mcq-05",
         "work-mcq-06"
       ],
-      "explanation": "本句的「work in」指「為完成目標投入的體力、腦力、時間和努力」。",
+      "explanation": "本句的「work in」指「從事某個行業或專業領域的工作」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "work in"
       ],
       "optionReasons": {
-        "work-mcq-02": "本句指「為完成目標投入的體力、腦力、時間和努力」。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-pdf-plain-007": "本句指「從事某個行業或專業領域的工作」。",
+        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」與本句語境不同。",
+        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」與本句語境不同。",
+        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」與本句語境不同。",
+        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」與本句語境不同。",
+        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」與本句語境不同。"
       },
-      "correctOption": "work-mcq-02"
+      "correctOption": "work-pdf-plain-007"
     },
     {
       "id": "work-08-0",

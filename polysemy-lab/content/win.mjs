@@ -44,26 +44,6 @@ export default {
           "She won the race easily.",
           "她輕鬆地贏得比賽。",
           "在指定比賽／競賽中取得勝利"
-        ],
-        [
-          "They won against a much stronger team.",
-          "他們擊敗了一支強得多的球隊。",
-          "在指定比賽／競賽中取得勝利"
-        ],
-        [
-          "She won comfortably against her opponent.",
-          "她輕鬆地戰勝了對手。",
-          "在指定比賽／競賽中取得勝利"
-        ],
-        [
-          "She won in the final.",
-          "她在決賽中勝出。",
-          "在指定比賽／競賽中取得勝利"
-        ],
-        [
-          "He trained for years before finally winning.",
-          "他訓練多年後終於勝出。",
-          "在指定比賽／競賽中取得勝利"
         ]
       ],
       "options": [],
@@ -143,16 +123,6 @@ export default {
       "zh": "在競爭／招標中成功取得商業合約",
       "note": "來源詞義：在競爭／招標中成功取得商業合約",
       "examples": [
-        [
-          "She won a seat in parliament.",
-          "她當選取得議會席位。",
-          "在競爭／招標中成功取得商業合約"
-        ],
-        [
-          "The party won several new seats.",
-          "該黨取得了幾個新席位。",
-          "在競爭／招標中成功取得商業合約"
-        ],
         [
           "The company won the contract.",
           "公司成功取得了合約。",
@@ -248,16 +218,6 @@ export default {
           "He won the respect of his colleagues.",
           "他贏得了同事的尊敬。",
           "因品格、能力或行動而取得別人的尊重"
-        ],
-        [
-          "Her patience won widespread admiration.",
-          "她的耐性贏得廣泛敬佩。",
-          "因品格、能力或行動而取得別人的尊重"
-        ],
-        [
-          "The rescue won him great admiration.",
-          "這次救援行動令他贏得很多人的敬佩。",
-          "因品格、能力或行動而取得別人的尊重"
         ]
       ],
       "options": [],
@@ -315,16 +275,6 @@ export default {
       "zh": "在競爭／爭論中最終成功或成為決定因素",
       "note": "來源詞義：在競爭／爭論中最終成功或成為決定因素",
       "examples": [
-        [
-          "In the end, patience won.",
-          "最後，耐性取得了勝利／證明是成功的一方。",
-          "在競爭／爭論中最終成功或成為決定因素"
-        ],
-        [
-          "Common sense eventually won.",
-          "常識最後佔了上風。",
-          "在競爭／爭論中最終成功或成為決定因素"
-        ],
         [
           "In the end, patience won the day.",
           "最後，耐性取得了勝利／發揮了決定作用。",
@@ -391,26 +341,6 @@ export default {
       "zh": "一次勝利；亦可指明顯成功、有利的結果",
       "note": "來源詞義：一次勝利；亦可指明顯成功、有利的結果",
       "examples": [
-        [
-          "That was a great win.",
-          "那是一場很棒的勝利。",
-          "一次勝利；亦可指明顯成功、有利的結果"
-        ],
-        [
-          "The team needs one more win.",
-          "球隊還需要多一場勝仗。",
-          "一次勝利；亦可指明顯成功、有利的結果"
-        ],
-        [
-          "It was a narrow win.",
-          "那是一場險勝。",
-          "一次勝利；亦可指明顯成功、有利的結果"
-        ],
-        [
-          "The team recorded an easy win.",
-          "球隊取得了一場輕鬆勝利。",
-          "一次勝利；亦可指明顯成功、有利的結果"
-        ],
         [
           "The partnership was a big win for both companies.",
           "這次合作對兩家公司都是一個重大成功／利好結果。",
@@ -540,16 +470,6 @@ export default {
           "His winning personality made people feel comfortable.",
           "他討喜的性格令大家感到自在。",
           "非常討人喜歡、容易令人產生好感的"
-        ],
-        [
-          "Her winning smile put everyone at ease.",
-          "她親切迷人的笑容令大家放鬆下來。",
-          "非常討人喜歡、容易令人產生好感的"
-        ],
-        [
-          "He has a winning manner.",
-          "他的舉止很討人喜歡。",
-          "非常討人喜歡、容易令人產生好感的"
         ]
       ],
       "options": [],
@@ -625,16 +545,6 @@ export default {
         [
           "He tried to win back her trust.",
           "他努力重新取得她的信任。",
-          "經努力重新取得之前失去的信任、支持、顧客等"
-        ],
-        [
-          "She won by two points.",
-          "她以兩分之差勝出。",
-          "經努力重新取得之前失去的信任、支持、顧客等"
-        ],
-        [
-          "The team won by a narrow margin.",
-          "球隊以些微差距獲勝。",
           "經努力重新取得之前失去的信任、支持、顧客等"
         ]
       ],
@@ -816,6 +726,204 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-001",
+      "title": "在競爭中擊敗 X",
+      "form": "3. win against / win over an opponent（擊敗對手） — 戰勝",
+      "en": "3. win against / win over an opponent（擊敗對手） — 戰勝",
+      "zh": "在競爭中擊敗 X",
+      "note": "原始 PDF 第 3 節：在競爭中擊敗 X",
+      "examples": [
+        [
+          "They won against a much stronger team.",
+          "他們擊敗了一支強得多的球隊。",
+          "在競爭中擊敗 X"
+        ],
+        [
+          "She won comfortably against her opponent.",
+          "她輕鬆地戰勝了對手。",
+          "在競爭中擊敗 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-002",
+      "title": "在有競爭的情況下取得最成功的結果",
+      "form": "4. win = gain first place / succeed in a contest（奪冠） — 勝出；取得第一",
+      "en": "4. win = gain first place / succeed in a contest（奪冠） — 勝出；取得第一",
+      "zh": "在有競爭的情況下取得最成功的結果",
+      "note": "原始 PDF 第 4 節：在有競爭的情況下取得最成功的結果",
+      "examples": [
+        [
+          "She won in the final.",
+          "她在決賽中勝出。",
+          "在有競爭的情況下取得最成功的結果"
+        ],
+        [
+          "He trained for years before finally winning.",
+          "他訓練多年後終於勝出。",
+          "在有競爭的情況下取得最成功的結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-003",
+      "title": "透過選舉取得代表席位",
+      "form": "9. win a seat（贏得席位） — 當選取得席位",
+      "en": "9. win a seat（贏得席位） — 當選取得席位",
+      "zh": "透過選舉取得代表席位",
+      "note": "原始 PDF 第 9 節：透過選舉取得代表席位",
+      "examples": [
+        [
+          "She won a seat in parliament.",
+          "她當選取得議會席位。",
+          "透過選舉取得代表席位"
+        ],
+        [
+          "The party won several new seats.",
+          "該黨取得了幾個新席位。",
+          "透過選舉取得代表席位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-004",
+      "title": "因表現／品格而令別人產生欣賞或敬佩",
+      "form": "17. win admiration（贏得欣賞／敬佩） — 獲得敬佩",
+      "en": "17. win admiration（贏得欣賞／敬佩） — 獲得敬佩",
+      "zh": "因表現／品格而令別人產生欣賞或敬佩",
+      "note": "原始 PDF 第 17 節：因表現／品格而令別人產生欣賞或敬佩",
+      "examples": [
+        [
+          "Her patience won widespread admiration.",
+          "她的耐性贏得廣泛敬佩。",
+          "因表現／品格而令別人產生欣賞或敬佩"
+        ],
+        [
+          "The rescue won him great admiration.",
+          "這次救援行動令他贏得很多人的敬佩。",
+          "因表現／品格而令別人產生欣賞或敬佩"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-005",
+      "title": "某種方法、價值、立場等最終成功／成為佔上風的一方",
+      "form": "21. win = prove successful（成功奏效） — 成功；勝出",
+      "en": "21. win = prove successful（成功奏效） — 成功；勝出",
+      "zh": "某種方法、價值、立場等最終成功／成為佔上風的一方",
+      "note": "原始 PDF 第 21 節：某種方法、價值、立場等最終成功／成為佔上風的一方",
+      "examples": [
+        [
+          "In the end, patience won.",
+          "最後，耐性取得了勝利／證明是成功的一方。",
+          "某種方法、價值、立場等最終成功／成為佔上風的一方"
+        ],
+        [
+          "Common sense eventually won.",
+          "常識最後佔了上風。",
+          "某種方法、價值、立場等最終成功／成為佔上風的一方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-006",
+      "title": "一次比賽、競爭或其他情境中的勝利結果",
+      "form": "25. win = noun-like contrast: a win（一次勝利） — 勝利；勝仗",
+      "en": "25. win = noun-like contrast: a win（一次勝利） — 勝利；勝仗",
+      "zh": "一次比賽、競爭或其他情境中的勝利結果",
+      "note": "原始 PDF 第 25 節：一次比賽、競爭或其他情境中的勝利結果",
+      "examples": [
+        [
+          "That was a great win.",
+          "那是一場很棒的勝利。",
+          "一次比賽、競爭或其他情境中的勝利結果"
+        ],
+        [
+          "The team needs one more win.",
+          "球隊還需要多一場勝仗。",
+          "一次比賽、競爭或其他情境中的勝利結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-007",
+      "title": "可用形容詞描述勝利的幅度／方式",
+      "form": "26. a big/easy/narrow win（大勝／輕鬆勝出／險勝） — 勝利",
+      "en": "26. a big/easy/narrow win（大勝／輕鬆勝出／險勝） — 勝利",
+      "zh": "可用形容詞描述勝利的幅度／方式",
+      "note": "原始 PDF 第 26 節：可用形容詞描述勝利的幅度／方式",
+      "examples": [
+        [
+          "It was a narrow win.",
+          "那是一場險勝。",
+          "可用形容詞描述勝利的幅度／方式"
+        ],
+        [
+          "The team recorded an easy win.",
+          "球隊取得了一場輕鬆勝利。",
+          "可用形容詞描述勝利的幅度／方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-008",
+      "title": "有吸引力、親切感，容易贏得別人的喜愛",
+      "form": "34. winning smile/personality（迷人笑容／討喜性格） — 有魅力；令人喜歡",
+      "en": "34. winning smile/personality（迷人笑容／討喜性格） — 有魅力；令人喜歡",
+      "zh": "有吸引力、親切感，容易贏得別人的喜愛",
+      "note": "原始 PDF 第 34 節：有吸引力、親切感，容易贏得別人的喜愛",
+      "examples": [
+        [
+          "Her winning smile put everyone at ease.",
+          "她親切迷人的笑容令大家放鬆下來。",
+          "有吸引力、親切感，容易贏得別人的喜愛"
+        ],
+        [
+          "He has a winning manner.",
+          "他的舉止很討人喜歡。",
+          "有吸引力、親切感，容易贏得別人的喜愛"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "win-pdf-009",
+      "title": "說明勝方領先對手的差距",
+      "form": "41. win by + amount（以……差距勝出） — 以……之差獲勝",
+      "en": "41. win by + amount（以……差距勝出） — 以……之差獲勝",
+      "zh": "說明勝方領先對手的差距",
+      "note": "原始 PDF 第 41 節：說明勝方領先對手的差距",
+      "examples": [
+        [
+          "She won by two points.",
+          "她以兩分之差勝出。",
+          "說明勝方領先對手的差距"
+        ],
+        [
+          "The team won by a narrow margin.",
+          "球隊以些微差距獲勝。",
+          "說明勝方領先對手的差距"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -941,123 +1049,123 @@ export default {
     },
     {
       "id": "win-03-0",
-      "sense": "win-mcq-02",
+      "sense": "win-pdf-001",
       "en": "They won against a much stronger team.",
       "zh": "他們擊敗了一支強得多的球隊。",
       "masked": "They ____ a much stronger team.",
       "options": [
-        "win-mcq-02",
+        "win-pdf-001",
         "win-mcq-01",
         "win-mcq-03",
         "win-mcq-04",
         "win-mcq-05",
         "win-mcq-06"
       ],
-      "explanation": "本句的「won against」指「在指定比賽／競賽中取得勝利」。",
+      "explanation": "本句的「won against」指「在競爭中擊敗 X」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "won against"
       ],
       "optionReasons": {
-        "win-mcq-02": "本句指「在指定比賽／競賽中取得勝利」。",
+        "win-pdf-001": "本句指「在競爭中擊敗 X」。",
         "win-mcq-01": "「在比賽、競賽或競爭中成為勝方」是「win — competition」的用法，與本句語境不同。",
         "win-mcq-03": "「因競賽／評選成功而獲得獎項」是「win a prize/award」的用法，與本句語境不同。",
         "win-mcq-04": "「因比賽、抽獎等取得金錢獎勵」是「win money」的用法，與本句語境不同。",
         "win-mcq-05": "「在選舉中取得足夠票數而勝選／當選」是「win an election」的用法，與本句語境不同。",
         "win-mcq-06": "「在競爭／招標中成功取得商業合約」是「win a contract」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-02"
+      "correctOption": "win-pdf-001"
     },
     {
       "id": "win-03-1",
-      "sense": "win-mcq-02",
+      "sense": "win-pdf-001",
       "en": "She won comfortably against her opponent.",
       "zh": "她輕鬆地戰勝了對手。",
       "masked": "She ____ comfortably against her opponent.",
       "options": [
-        "win-mcq-02",
+        "win-pdf-001",
         "win-mcq-01",
         "win-mcq-03",
         "win-mcq-04",
         "win-mcq-05",
         "win-mcq-06"
       ],
-      "explanation": "本句的「won」指「在指定比賽／競賽中取得勝利」。",
+      "explanation": "本句的「won」指「在競爭中擊敗 X」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-02": "本句指「在指定比賽／競賽中取得勝利」。",
+        "win-pdf-001": "本句指「在競爭中擊敗 X」。",
         "win-mcq-01": "「在比賽、競賽或競爭中成為勝方」是「win — competition」的用法，與本句語境不同。",
         "win-mcq-03": "「因競賽／評選成功而獲得獎項」是「win a prize/award」的用法，與本句語境不同。",
         "win-mcq-04": "「因比賽、抽獎等取得金錢獎勵」是「win money」的用法，與本句語境不同。",
         "win-mcq-05": "「在選舉中取得足夠票數而勝選／當選」是「win an election」的用法，與本句語境不同。",
         "win-mcq-06": "「在競爭／招標中成功取得商業合約」是「win a contract」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-02"
+      "correctOption": "win-pdf-001"
     },
     {
       "id": "win-04-0",
-      "sense": "win-mcq-02",
+      "sense": "win-pdf-002",
       "en": "She won in the final.",
       "zh": "她在決賽中勝出。",
       "masked": "She ____ in the final.",
       "options": [
-        "win-mcq-02",
+        "win-pdf-002",
         "win-mcq-01",
         "win-mcq-03",
         "win-mcq-04",
         "win-mcq-05",
         "win-mcq-06"
       ],
-      "explanation": "本句的「won」指「在指定比賽／競賽中取得勝利」。",
+      "explanation": "本句的「won」指「在有競爭的情況下取得最成功的結果」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-02": "本句指「在指定比賽／競賽中取得勝利」。",
+        "win-pdf-002": "本句指「在有競爭的情況下取得最成功的結果」。",
         "win-mcq-01": "「在比賽、競賽或競爭中成為勝方」是「win — competition」的用法，與本句語境不同。",
         "win-mcq-03": "「因競賽／評選成功而獲得獎項」是「win a prize/award」的用法，與本句語境不同。",
         "win-mcq-04": "「因比賽、抽獎等取得金錢獎勵」是「win money」的用法，與本句語境不同。",
         "win-mcq-05": "「在選舉中取得足夠票數而勝選／當選」是「win an election」的用法，與本句語境不同。",
         "win-mcq-06": "「在競爭／招標中成功取得商業合約」是「win a contract」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-02"
+      "correctOption": "win-pdf-002"
     },
     {
       "id": "win-04-1",
-      "sense": "win-mcq-02",
+      "sense": "win-pdf-002",
       "en": "He trained for years before finally winning.",
       "zh": "他訓練多年後終於勝出。",
       "masked": "He trained for years before finally ____.",
       "options": [
-        "win-mcq-02",
+        "win-pdf-002",
         "win-mcq-01",
         "win-mcq-03",
         "win-mcq-04",
         "win-mcq-05",
         "win-mcq-06"
       ],
-      "explanation": "本句的「winning」指「在指定比賽／競賽中取得勝利」。",
+      "explanation": "本句的「winning」指「在有競爭的情況下取得最成功的結果」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "winning"
       ],
       "optionReasons": {
-        "win-mcq-02": "本句指「在指定比賽／競賽中取得勝利」。",
+        "win-pdf-002": "本句指「在有競爭的情況下取得最成功的結果」。",
         "win-mcq-01": "「在比賽、競賽或競爭中成為勝方」是「win — competition」的用法，與本句語境不同。",
         "win-mcq-03": "「因競賽／評選成功而獲得獎項」是「win a prize/award」的用法，與本句語境不同。",
         "win-mcq-04": "「因比賽、抽獎等取得金錢獎勵」是「win money」的用法，與本句語境不同。",
         "win-mcq-05": "「在選舉中取得足夠票數而勝選／當選」是「win an election」的用法，與本句語境不同。",
         "win-mcq-06": "「在競爭／招標中成功取得商業合約」是「win a contract」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-02"
+      "correctOption": "win-pdf-002"
     },
     {
       "id": "win-05-0",
@@ -1301,63 +1409,63 @@ export default {
     },
     {
       "id": "win-09-0",
-      "sense": "win-mcq-06",
+      "sense": "win-pdf-003",
       "en": "She won a seat in parliament.",
       "zh": "她當選取得議會席位。",
       "masked": "She ____ in parliament.",
       "options": [
-        "win-mcq-06",
+        "win-pdf-003",
         "win-mcq-05",
         "win-mcq-07",
         "win-mcq-04",
         "win-mcq-08",
         "win-mcq-03"
       ],
-      "explanation": "本句的「won a seat」指「在競爭／招標中成功取得商業合約」。",
+      "explanation": "本句的「won a seat」指「透過選舉取得代表席位」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "won a seat"
       ],
       "optionReasons": {
-        "win-mcq-06": "本句指「在競爭／招標中成功取得商業合約」。",
+        "win-pdf-003": "本句指「透過選舉取得代表席位」。",
         "win-mcq-05": "「在選舉中取得足夠票數而勝選／當選」是「win an election」的用法，與本句語境不同。",
         "win-mcq-07": "「透過行動或論點令別人開始支持某人／某事」是「win support」的用法，與本句語境不同。",
         "win-mcq-04": "「因比賽、抽獎等取得金錢獎勵」是「win money」的用法，與本句語境不同。",
         "win-mcq-08": "「透過行動逐漸取得別人的信任」是「win trust」的用法，與本句語境不同。",
         "win-mcq-03": "「因競賽／評選成功而獲得獎項」是「win a prize/award」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-06"
+      "correctOption": "win-pdf-003"
     },
     {
       "id": "win-09-1",
-      "sense": "win-mcq-06",
+      "sense": "win-pdf-003",
       "en": "The party won several new seats.",
       "zh": "該黨取得了幾個新席位。",
       "masked": "The party ____ several new seats.",
       "options": [
-        "win-mcq-06",
+        "win-pdf-003",
         "win-mcq-05",
         "win-mcq-07",
         "win-mcq-04",
         "win-mcq-08",
         "win-mcq-03"
       ],
-      "explanation": "本句的「won」指「在競爭／招標中成功取得商業合約」。",
+      "explanation": "本句的「won」指「透過選舉取得代表席位」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-06": "本句指「在競爭／招標中成功取得商業合約」。",
+        "win-pdf-003": "本句指「透過選舉取得代表席位」。",
         "win-mcq-05": "「在選舉中取得足夠票數而勝選／當選」是「win an election」的用法，與本句語境不同。",
         "win-mcq-07": "「透過行動或論點令別人開始支持某人／某事」是「win support」的用法，與本句語境不同。",
         "win-mcq-04": "「因比賽、抽獎等取得金錢獎勵」是「win money」的用法，與本句語境不同。",
         "win-mcq-08": "「透過行動逐漸取得別人的信任」是「win trust」的用法，與本句語境不同。",
         "win-mcq-03": "「因競賽／評選成功而獲得獎項」是「win a prize/award」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-06"
+      "correctOption": "win-pdf-003"
     },
     {
       "id": "win-10-0",
@@ -1781,63 +1889,63 @@ export default {
     },
     {
       "id": "win-17-0",
-      "sense": "win-mcq-09",
+      "sense": "win-pdf-004",
       "en": "Her patience won widespread admiration.",
       "zh": "她的耐性贏得廣泛敬佩。",
       "masked": "Her patience ____.",
       "options": [
-        "win-mcq-09",
+        "win-pdf-004",
         "win-mcq-08",
         "win-mcq-10",
         "win-mcq-07",
         "win-mcq-11",
         "win-mcq-06"
       ],
-      "explanation": "本句的「won widespread admiration」指「因品格、能力或行動而取得別人的尊重」。",
+      "explanation": "本句的「won widespread admiration」指「因表現／品格而令別人產生欣賞或敬佩」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "won widespread admiration"
       ],
       "optionReasons": {
-        "win-mcq-09": "本句指「因品格、能力或行動而取得別人的尊重」。",
+        "win-pdf-004": "本句指「因表現／品格而令別人產生欣賞或敬佩」。",
         "win-mcq-08": "「透過行動逐漸取得別人的信任」是「win trust」的用法，與本句語境不同。",
         "win-mcq-10": "「令原本不支持／不確定的人轉而支持、喜歡或認同」是「win someone over」的用法，與本句語境不同。",
         "win-mcq-07": "「透過行動或論點令別人開始支持某人／某事」是「win support」的用法，與本句語境不同。",
         "win-mcq-11": "「令某人產生喜愛、愛意或深厚感情」是「win someone’s heart」的用法，與本句語境不同。",
         "win-mcq-06": "「在競爭／招標中成功取得商業合約」是「win a contract」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-09"
+      "correctOption": "win-pdf-004"
     },
     {
       "id": "win-17-1",
-      "sense": "win-mcq-09",
+      "sense": "win-pdf-004",
       "en": "The rescue won him great admiration.",
       "zh": "這次救援行動令他贏得很多人的敬佩。",
       "masked": "The rescue ____ him great admiration.",
       "options": [
-        "win-mcq-09",
+        "win-pdf-004",
         "win-mcq-08",
         "win-mcq-10",
         "win-mcq-07",
         "win-mcq-11",
         "win-mcq-06"
       ],
-      "explanation": "本句的「won」指「因品格、能力或行動而取得別人的尊重」。",
+      "explanation": "本句的「won」指「因表現／品格而令別人產生欣賞或敬佩」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-09": "本句指「因品格、能力或行動而取得別人的尊重」。",
+        "win-pdf-004": "本句指「因表現／品格而令別人產生欣賞或敬佩」。",
         "win-mcq-08": "「透過行動逐漸取得別人的信任」是「win trust」的用法，與本句語境不同。",
         "win-mcq-10": "「令原本不支持／不確定的人轉而支持、喜歡或認同」是「win someone over」的用法，與本句語境不同。",
         "win-mcq-07": "「透過行動或論點令別人開始支持某人／某事」是「win support」的用法，與本句語境不同。",
         "win-mcq-11": "「令某人產生喜愛、愛意或深厚感情」是「win someone’s heart」的用法，與本句語境不同。",
         "win-mcq-06": "「在競爭／招標中成功取得商業合約」是「win a contract」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-09"
+      "correctOption": "win-pdf-004"
     },
     {
       "id": "win-18-0",
@@ -2021,63 +2129,63 @@ export default {
     },
     {
       "id": "win-21-0",
-      "sense": "win-mcq-12",
+      "sense": "win-pdf-005",
       "en": "In the end, patience won.",
       "zh": "最後，耐性取得了勝利／證明是成功的一方。",
       "masked": "In the end, patience ____.",
       "options": [
-        "win-mcq-12",
+        "win-pdf-005",
         "win-mcq-11",
         "win-mcq-13",
         "win-mcq-10",
         "win-mcq-14",
         "win-mcq-09"
       ],
-      "explanation": "本句的「won」指「在競爭／爭論中最終成功或成為決定因素」。",
+      "explanation": "本句的「won」指「某種方法、價值、立場等最終成功／成為佔上風的一方」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-12": "本句指「在競爭／爭論中最終成功或成為決定因素」。",
+        "win-pdf-005": "本句指「某種方法、價值、立場等最終成功／成為佔上風的一方」。",
         "win-mcq-11": "「令某人產生喜愛、愛意或深厚感情」是「win someone’s heart」的用法，與本句語境不同。",
         "win-mcq-13": "「經過競爭／衝突後最終佔上風」是「win out」的用法，與本句語境不同。",
         "win-mcq-10": "「令原本不支持／不確定的人轉而支持、喜歡或認同」是「win someone over」的用法，與本句語境不同。",
         "win-mcq-14": "「克服困難／阻力後取得成功」是「win through」的用法，與本句語境不同。",
         "win-mcq-09": "「因品格、能力或行動而取得別人的尊重」是「win respect」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-12"
+      "correctOption": "win-pdf-005"
     },
     {
       "id": "win-21-1",
-      "sense": "win-mcq-12",
+      "sense": "win-pdf-005",
       "en": "Common sense eventually won.",
       "zh": "常識最後佔了上風。",
       "masked": "Common sense eventually ____.",
       "options": [
-        "win-mcq-12",
+        "win-pdf-005",
         "win-mcq-11",
         "win-mcq-13",
         "win-mcq-10",
         "win-mcq-14",
         "win-mcq-09"
       ],
-      "explanation": "本句的「won」指「在競爭／爭論中最終成功或成為決定因素」。",
+      "explanation": "本句的「won」指「某種方法、價值、立場等最終成功／成為佔上風的一方」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-12": "本句指「在競爭／爭論中最終成功或成為決定因素」。",
+        "win-pdf-005": "本句指「某種方法、價值、立場等最終成功／成為佔上風的一方」。",
         "win-mcq-11": "「令某人產生喜愛、愛意或深厚感情」是「win someone’s heart」的用法，與本句語境不同。",
         "win-mcq-13": "「經過競爭／衝突後最終佔上風」是「win out」的用法，與本句語境不同。",
         "win-mcq-10": "「令原本不支持／不確定的人轉而支持、喜歡或認同」是「win someone over」的用法，與本句語境不同。",
         "win-mcq-14": "「克服困難／阻力後取得成功」是「win through」的用法，與本句語境不同。",
         "win-mcq-09": "「因品格、能力或行動而取得別人的尊重」是「win respect」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-12"
+      "correctOption": "win-pdf-005"
     },
     {
       "id": "win-22-0",
@@ -2261,123 +2369,123 @@ export default {
     },
     {
       "id": "win-25-0",
-      "sense": "win-mcq-15",
+      "sense": "win-pdf-006",
       "en": "That was a great win.",
       "zh": "那是一場很棒的勝利。",
       "masked": "That was a great ____.",
       "options": [
-        "win-mcq-15",
+        "win-pdf-006",
         "win-mcq-14",
         "win-mcq-16",
         "win-mcq-13",
         "win-mcq-17",
         "win-mcq-12"
       ],
-      "explanation": "本句的「win」指「一次勝利；亦可指明顯成功、有利的結果」。",
+      "explanation": "本句的「win」指「一次比賽、競爭或其他情境中的勝利結果」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "win"
       ],
       "optionReasons": {
-        "win-mcq-15": "本句指「一次勝利；亦可指明顯成功、有利的結果」。",
+        "win-pdf-006": "本句指「一次比賽、競爭或其他情境中的勝利結果」。",
         "win-mcq-14": "「克服困難／阻力後取得成功」是「win through」的用法，與本句語境不同。",
         "win-mcq-16": "「所有主要相關方都獲得正面利益的局面」是「win-win」的用法，與本句語境不同。",
         "win-mcq-13": "「經過競爭／衝突後最終佔上風」是「win out」的用法，與本句語境不同。",
         "win-mcq-17": "「在比賽、競賽或評選中取得勝利的人／作品」是「winner」的用法，與本句語境不同。",
         "win-mcq-12": "「在競爭／爭論中最終成功或成為決定因素」是「win the day」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-15"
+      "correctOption": "win-pdf-006"
     },
     {
       "id": "win-25-1",
-      "sense": "win-mcq-15",
+      "sense": "win-pdf-006",
       "en": "The team needs one more win.",
       "zh": "球隊還需要多一場勝仗。",
       "masked": "The team needs one more ____.",
       "options": [
-        "win-mcq-15",
+        "win-pdf-006",
         "win-mcq-14",
         "win-mcq-16",
         "win-mcq-13",
         "win-mcq-17",
         "win-mcq-12"
       ],
-      "explanation": "本句的「win」指「一次勝利；亦可指明顯成功、有利的結果」。",
+      "explanation": "本句的「win」指「一次比賽、競爭或其他情境中的勝利結果」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "win"
       ],
       "optionReasons": {
-        "win-mcq-15": "本句指「一次勝利；亦可指明顯成功、有利的結果」。",
+        "win-pdf-006": "本句指「一次比賽、競爭或其他情境中的勝利結果」。",
         "win-mcq-14": "「克服困難／阻力後取得成功」是「win through」的用法，與本句語境不同。",
         "win-mcq-16": "「所有主要相關方都獲得正面利益的局面」是「win-win」的用法，與本句語境不同。",
         "win-mcq-13": "「經過競爭／衝突後最終佔上風」是「win out」的用法，與本句語境不同。",
         "win-mcq-17": "「在比賽、競賽或評選中取得勝利的人／作品」是「winner」的用法，與本句語境不同。",
         "win-mcq-12": "「在競爭／爭論中最終成功或成為決定因素」是「win the day」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-15"
+      "correctOption": "win-pdf-006"
     },
     {
       "id": "win-26-0",
-      "sense": "win-mcq-15",
+      "sense": "win-pdf-007",
       "en": "It was a narrow win.",
       "zh": "那是一場險勝。",
       "masked": "It was a ____.",
       "options": [
-        "win-mcq-15",
+        "win-pdf-007",
         "win-mcq-14",
         "win-mcq-16",
         "win-mcq-13",
         "win-mcq-17",
         "win-mcq-12"
       ],
-      "explanation": "本句的「narrow win」指「一次勝利；亦可指明顯成功、有利的結果」。",
+      "explanation": "本句的「narrow win」指「可用形容詞描述勝利的幅度／方式」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "narrow win"
       ],
       "optionReasons": {
-        "win-mcq-15": "本句指「一次勝利；亦可指明顯成功、有利的結果」。",
+        "win-pdf-007": "本句指「可用形容詞描述勝利的幅度／方式」。",
         "win-mcq-14": "「克服困難／阻力後取得成功」是「win through」的用法，與本句語境不同。",
         "win-mcq-16": "「所有主要相關方都獲得正面利益的局面」是「win-win」的用法，與本句語境不同。",
         "win-mcq-13": "「經過競爭／衝突後最終佔上風」是「win out」的用法，與本句語境不同。",
         "win-mcq-17": "「在比賽、競賽或評選中取得勝利的人／作品」是「winner」的用法，與本句語境不同。",
         "win-mcq-12": "「在競爭／爭論中最終成功或成為決定因素」是「win the day」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-15"
+      "correctOption": "win-pdf-007"
     },
     {
       "id": "win-26-1",
-      "sense": "win-mcq-15",
+      "sense": "win-pdf-007",
       "en": "The team recorded an easy win.",
       "zh": "球隊取得了一場輕鬆勝利。",
       "masked": "The team recorded an easy ____.",
       "options": [
-        "win-mcq-15",
+        "win-pdf-007",
         "win-mcq-14",
         "win-mcq-16",
         "win-mcq-13",
         "win-mcq-17",
         "win-mcq-12"
       ],
-      "explanation": "本句的「win」指「一次勝利；亦可指明顯成功、有利的結果」。",
+      "explanation": "本句的「win」指「可用形容詞描述勝利的幅度／方式」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "win"
       ],
       "optionReasons": {
-        "win-mcq-15": "本句指「一次勝利；亦可指明顯成功、有利的結果」。",
+        "win-pdf-007": "本句指「可用形容詞描述勝利的幅度／方式」。",
         "win-mcq-14": "「克服困難／阻力後取得成功」是「win through」的用法，與本句語境不同。",
         "win-mcq-16": "「所有主要相關方都獲得正面利益的局面」是「win-win」的用法，與本句語境不同。",
         "win-mcq-13": "「經過競爭／衝突後最終佔上風」是「win out」的用法，與本句語境不同。",
         "win-mcq-17": "「在比賽、競賽或評選中取得勝利的人／作品」是「winner」的用法，與本句語境不同。",
         "win-mcq-12": "「在競爭／爭論中最終成功或成為決定因素」是「win the day」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-15"
+      "correctOption": "win-pdf-007"
     },
     {
       "id": "win-27-0",
@@ -2801,63 +2909,63 @@ export default {
     },
     {
       "id": "win-34-0",
-      "sense": "win-mcq-20",
+      "sense": "win-pdf-008",
       "en": "Her winning smile put everyone at ease.",
       "zh": "她親切迷人的笑容令大家放鬆下來。",
       "masked": "Her ____ put everyone at ease.",
       "options": [
-        "win-mcq-20",
+        "win-pdf-008",
         "win-mcq-19",
         "win-mcq-21",
         "win-mcq-18",
         "win-mcq-22",
         "win-mcq-17"
       ],
-      "explanation": "本句的「winning smile」指「非常討人喜歡、容易令人產生好感的」。",
+      "explanation": "本句的「winning smile」指「有吸引力、親切感，容易贏得別人的喜愛」。",
       "sentenceIndex": 66,
       "sourcePractice": 67,
       "targets": [
         "winning smile"
       ],
       "optionReasons": {
-        "win-mcq-20": "本句指「非常討人喜歡、容易令人產生好感的」。",
+        "win-pdf-008": "本句指「有吸引力、親切感，容易贏得別人的喜愛」。",
         "win-mcq-19": "「與獲勝有關或直接帶來勝利的」是「winning — victorious」的用法，與本句語境不同。",
         "win-mcq-21": "「因博彩、比賽、抽獎等贏得的金錢」是「winnings」的用法，與本句語境不同。",
         "win-mcq-18": "「很有成功潛力／很受歡迎的事物」是「winner — figurative」的用法，與本句語境不同。",
         "win-mcq-22": "「連續多次取得勝利的一段時期」是「winning streak」的用法，與本句語境不同。",
         "win-mcq-17": "「在比賽、競賽或評選中取得勝利的人／作品」是「winner」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-20"
+      "correctOption": "win-pdf-008"
     },
     {
       "id": "win-34-1",
-      "sense": "win-mcq-20",
+      "sense": "win-pdf-008",
       "en": "He has a winning manner.",
       "zh": "他的舉止很討人喜歡。",
       "masked": "He has a ____ manner.",
       "options": [
-        "win-mcq-20",
+        "win-pdf-008",
         "win-mcq-19",
         "win-mcq-21",
         "win-mcq-18",
         "win-mcq-22",
         "win-mcq-17"
       ],
-      "explanation": "本句的「winning」指「非常討人喜歡、容易令人產生好感的」。",
+      "explanation": "本句的「winning」指「有吸引力、親切感，容易贏得別人的喜愛」。",
       "sentenceIndex": 67,
       "sourcePractice": 68,
       "targets": [
         "winning"
       ],
       "optionReasons": {
-        "win-mcq-20": "本句指「非常討人喜歡、容易令人產生好感的」。",
+        "win-pdf-008": "本句指「有吸引力、親切感，容易贏得別人的喜愛」。",
         "win-mcq-19": "「與獲勝有關或直接帶來勝利的」是「winning — victorious」的用法，與本句語境不同。",
         "win-mcq-21": "「因博彩、比賽、抽獎等贏得的金錢」是「winnings」的用法，與本句語境不同。",
         "win-mcq-18": "「很有成功潛力／很受歡迎的事物」是「winner — figurative」的用法，與本句語境不同。",
         "win-mcq-22": "「連續多次取得勝利的一段時期」是「winning streak」的用法，與本句語境不同。",
         "win-mcq-17": "「在比賽、競賽或評選中取得勝利的人／作品」是「winner」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-20"
+      "correctOption": "win-pdf-008"
     },
     {
       "id": "win-35-0",
@@ -3161,63 +3269,63 @@ export default {
     },
     {
       "id": "win-41-0",
-      "sense": "win-mcq-23",
+      "sense": "win-pdf-009",
       "en": "She won by two points.",
       "zh": "她以兩分之差勝出。",
       "masked": "She ____.",
       "options": [
-        "win-mcq-23",
+        "win-pdf-009",
         "win-mcq-22",
         "win-mcq-24",
         "win-mcq-21",
         "win-mcq-25",
         "win-mcq-20"
       ],
-      "explanation": "本句的「won by two points」指「經努力重新取得之前失去的信任、支持、顧客等」。",
+      "explanation": "本句的「won by two points」指「說明勝方領先對手的差距」。",
       "sentenceIndex": 78,
       "sourcePractice": 79,
       "targets": [
         "won by two points"
       ],
       "optionReasons": {
-        "win-mcq-23": "本句指「經努力重新取得之前失去的信任、支持、顧客等」。",
+        "win-pdf-009": "本句指「說明勝方領先對手的差距」。",
         "win-mcq-22": "「連續多次取得勝利的一段時期」是「winning streak」的用法，與本句語境不同。",
         "win-mcq-24": "「無論怎樣做都得不到滿意／正面結果」是「you can’t win」的用法，與本句語境不同。",
         "win-mcq-21": "「因博彩、比賽、抽獎等贏得的金錢」是「winnings」的用法，與本句語境不同。",
         "win-mcq-25": "「以明顯優勢輕鬆取勝」是「win hands down」的用法，與本句語境不同。",
         "win-mcq-20": "「非常討人喜歡、容易令人產生好感的」是「winning — attractive」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-23"
+      "correctOption": "win-pdf-009"
     },
     {
       "id": "win-41-1",
-      "sense": "win-mcq-23",
+      "sense": "win-pdf-009",
       "en": "The team won by a narrow margin.",
       "zh": "球隊以些微差距獲勝。",
       "masked": "The team ____ by a narrow margin.",
       "options": [
-        "win-mcq-23",
+        "win-pdf-009",
         "win-mcq-22",
         "win-mcq-24",
         "win-mcq-21",
         "win-mcq-25",
         "win-mcq-20"
       ],
-      "explanation": "本句的「won」指「經努力重新取得之前失去的信任、支持、顧客等」。",
+      "explanation": "本句的「won」指「說明勝方領先對手的差距」。",
       "sentenceIndex": 79,
       "sourcePractice": 80,
       "targets": [
         "won"
       ],
       "optionReasons": {
-        "win-mcq-23": "本句指「經努力重新取得之前失去的信任、支持、顧客等」。",
+        "win-pdf-009": "本句指「說明勝方領先對手的差距」。",
         "win-mcq-22": "「連續多次取得勝利的一段時期」是「winning streak」的用法，與本句語境不同。",
         "win-mcq-24": "「無論怎樣做都得不到滿意／正面結果」是「you can’t win」的用法，與本句語境不同。",
         "win-mcq-21": "「因博彩、比賽、抽獎等贏得的金錢」是「winnings」的用法，與本句語境不同。",
         "win-mcq-25": "「以明顯優勢輕鬆取勝」是「win hands down」的用法，與本句語境不同。",
         "win-mcq-20": "「非常討人喜歡、容易令人產生好感的」是「winning — attractive」的用法，與本句語境不同。"
       },
-      "correctOption": "win-mcq-23"
+      "correctOption": "win-pdf-009"
     },
     {
       "id": "win-42-0",

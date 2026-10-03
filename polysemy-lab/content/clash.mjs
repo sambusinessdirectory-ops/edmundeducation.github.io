@@ -12,23 +12,7 @@ export default {
       "en": "clash (people)",
       "zh": "衝突；不和",
       "note": "來源詞義：衝突；不和",
-      "examples": [
-        [
-          "Personality clashes need not destroy cooperation.",
-          "性格衝突不一定會破壞合作。",
-          "衝突；不和"
-        ],
-        [
-          "The two managers had several clashes over strategy.",
-          "兩名經理曾因策略問題發生數次衝突。",
-          "衝突；不和"
-        ],
-        [
-          "Poor communication can turn small disagreements into serious clashes.",
-          "溝通不良可能把小分歧變成嚴重衝突。",
-          "衝突；不和"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -995,18 +979,7 @@ export default {
       "en": "sports clash",
       "zh": "體育對決",
       "note": "來源詞義：體育對決",
-      "examples": [
-        [
-          "The two teams meet in a crucial clash on Saturday.",
-          "兩隊星期六將進行一場關鍵對決。",
-          "體育對決"
-        ],
-        [
-          "Fans are looking forward to the championship clash.",
-          "球迷期待這場錦標賽大戰／對決。",
-          "體育對決"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1203,98 +1176,147 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "clash-pdf-001",
+      "title": "兩方因立場、性格、利益或做法不同而發生的明顯衝突",
+      "form": "1. clash = serious disagreement or conflict — 衝突；不和",
+      "en": "1. clash = serious disagreement or conflict — 衝突；不和",
+      "zh": "兩方因立場、性格、利益或做法不同而發生的明顯衝突",
+      "note": "原始 PDF 第 1 節：兩方因立場、性格、利益或做法不同而發生的明顯衝突",
+      "examples": [
+        [
+          "Personality clashes need not destroy cooperation.",
+          "性格衝突不一定會破壞合作。",
+          "兩方因立場、性格、利益或做法不同而發生的明顯衝突"
+        ],
+        [
+          "The two managers had several clashes over strategy.",
+          "兩名經理曾因策略問題發生數次衝突。",
+          "兩方因立場、性格、利益或做法不同而發生的明顯衝突"
+        ],
+        [
+          "Poor communication can turn small disagreements into serious clashes.",
+          "溝通不良可能把小分歧變成嚴重衝突。",
+          "兩方因立場、性格、利益或做法不同而發生的明顯衝突"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "clash-pdf-002",
+      "title": "尤其體育新聞中，兩個強勁或重要對手之間的一場比賽",
+      "form": "49. clash = sports match between important opponents — 對決；大戰",
+      "en": "49. clash = sports match between important opponents — 對決；大戰",
+      "zh": "尤其體育新聞中，兩個強勁或重要對手之間的一場比賽",
+      "note": "原始 PDF 第 49 節：尤其體育新聞中，兩個強勁或重要對手之間的一場比賽",
+      "examples": [
+        [
+          "The two teams meet in a crucial clash on Saturday.",
+          "兩隊星期六將進行一場關鍵對決。",
+          "尤其體育新聞中，兩個強勁或重要對手之間的一場比賽"
+        ],
+        [
+          "Fans are looking forward to the championship clash.",
+          "球迷期待這場錦標賽大戰／對決。",
+          "尤其體育新聞中，兩個強勁或重要對手之間的一場比賽"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "clash-01-0",
-      "sense": "clash-mcq-01",
+      "sense": "clash-pdf-001",
       "en": "Personality clashes need not destroy cooperation.",
       "zh": "性格衝突不一定會破壞合作。",
       "masked": "Personality ____ need not destroy cooperation.",
       "options": [
-        "clash-mcq-01",
+        "clash-pdf-001",
         "clash-mcq-02",
         "clash-mcq-03",
         "clash-mcq-04",
         "clash-mcq-05",
         "clash-mcq-06"
       ],
-      "explanation": "本句的「clashes」指「衝突；不和」。",
+      "explanation": "本句的「clashes」指「兩方因立場、性格、利益或做法不同而發生的明顯衝突」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "clashes"
       ],
       "optionReasons": {
-        "clash-mcq-01": "本句指「衝突；不和」。",
+        "clash-pdf-001": "本句指「兩方因立場、性格、利益或做法不同而發生的明顯衝突」。",
         "clash-mcq-02": "「與某人發生衝突」與本句語境不同。",
         "clash-mcq-03": "「因 X 發生衝突」與本句語境不同。",
         "clash-mcq-04": "「就 X 意見衝突」與本句語境不同。",
         "clash-mcq-05": "「性格衝突」與本句語境不同。",
         "clash-mcq-06": "「性格不合」與本句語境不同。"
       },
-      "correctOption": "clash-mcq-01"
+      "correctOption": "clash-pdf-001"
     },
     {
       "id": "clash-01-1",
-      "sense": "clash-mcq-01",
+      "sense": "clash-pdf-001",
       "en": "The two managers had several clashes over strategy.",
       "zh": "兩名經理曾因策略問題發生數次衝突。",
       "masked": "The two managers had several ____ over strategy.",
       "options": [
-        "clash-mcq-01",
+        "clash-pdf-001",
         "clash-mcq-02",
         "clash-mcq-03",
         "clash-mcq-04",
         "clash-mcq-05",
         "clash-mcq-06"
       ],
-      "explanation": "本句的「clashes」指「衝突；不和」。",
+      "explanation": "本句的「clashes」指「兩方因立場、性格、利益或做法不同而發生的明顯衝突」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "clashes"
       ],
       "optionReasons": {
-        "clash-mcq-01": "本句指「衝突；不和」。",
+        "clash-pdf-001": "本句指「兩方因立場、性格、利益或做法不同而發生的明顯衝突」。",
         "clash-mcq-02": "「與某人發生衝突」與本句語境不同。",
         "clash-mcq-03": "「因 X 發生衝突」與本句語境不同。",
         "clash-mcq-04": "「就 X 意見衝突」與本句語境不同。",
         "clash-mcq-05": "「性格衝突」與本句語境不同。",
         "clash-mcq-06": "「性格不合」與本句語境不同。"
       },
-      "correctOption": "clash-mcq-01"
+      "correctOption": "clash-pdf-001"
     },
     {
       "id": "clash-01-2",
-      "sense": "clash-mcq-01",
+      "sense": "clash-pdf-001",
       "en": "Poor communication can turn small disagreements into serious clashes.",
       "zh": "溝通不良可能把小分歧變成嚴重衝突。",
       "masked": "Poor communication can turn small disagreements into serious ____.",
       "options": [
-        "clash-mcq-01",
+        "clash-pdf-001",
         "clash-mcq-02",
         "clash-mcq-03",
         "clash-mcq-04",
         "clash-mcq-05",
         "clash-mcq-06"
       ],
-      "explanation": "本句的「clashes」指「衝突；不和」。",
+      "explanation": "本句的「clashes」指「兩方因立場、性格、利益或做法不同而發生的明顯衝突」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "clashes"
       ],
       "optionReasons": {
-        "clash-mcq-01": "本句指「衝突；不和」。",
+        "clash-pdf-001": "本句指「兩方因立場、性格、利益或做法不同而發生的明顯衝突」。",
         "clash-mcq-02": "「與某人發生衝突」與本句語境不同。",
         "clash-mcq-03": "「因 X 發生衝突」與本句語境不同。",
         "clash-mcq-04": "「就 X 意見衝突」與本句語境不同。",
         "clash-mcq-05": "「性格衝突」與本句語境不同。",
         "clash-mcq-06": "「性格不合」與本句語境不同。"
       },
-      "correctOption": "clash-mcq-01"
+      "correctOption": "clash-pdf-001"
     },
     {
       "id": "clash-02-0",
@@ -4088,63 +4110,63 @@ export default {
     },
     {
       "id": "clash-49-0",
-      "sense": "clash-mcq-43",
+      "sense": "clash-pdf-002",
       "en": "The two teams meet in a crucial clash on Saturday.",
       "zh": "兩隊星期六將進行一場關鍵對決。",
       "masked": "The two teams meet in a crucial ____ on Saturday.",
       "options": [
-        "clash-mcq-43",
+        "clash-pdf-002",
         "clash-mcq-42",
         "clash-mcq-44",
         "clash-mcq-41",
         "clash-mcq-45",
         "clash-mcq-40"
       ],
-      "explanation": "本句的「clash」指「體育對決」。",
+      "explanation": "本句的「clash」指「尤其體育新聞中，兩個強勁或重要對手之間的一場比賽」。",
       "sentenceIndex": 96,
       "sourcePractice": 1,
       "targets": [
         "clash"
       ],
       "optionReasons": {
-        "clash-mcq-43": "本句指「體育對決」。",
+        "clash-pdf-002": "本句指「尤其體育新聞中，兩個強勁或重要對手之間的一場比賽」。",
         "clash-mcq-42": "「原則衝突」與本句語境不同。",
         "clash-mcq-44": "「冠軍爭奪戰」與本句語境不同。",
         "clash-mcq-41": "「與政策抵觸」與本句語境不同。",
         "clash-mcq-45": "「不和諧聲音」與本句語境不同。",
         "clash-mcq-40": "「規則衝突」與本句語境不同。"
       },
-      "correctOption": "clash-mcq-43"
+      "correctOption": "clash-pdf-002"
     },
     {
       "id": "clash-49-1",
-      "sense": "clash-mcq-43",
+      "sense": "clash-pdf-002",
       "en": "Fans are looking forward to the championship clash.",
       "zh": "球迷期待這場錦標賽大戰／對決。",
       "masked": "Fans are looking forward to the championship ____.",
       "options": [
-        "clash-mcq-43",
+        "clash-pdf-002",
         "clash-mcq-42",
         "clash-mcq-44",
         "clash-mcq-41",
         "clash-mcq-45",
         "clash-mcq-40"
       ],
-      "explanation": "本句的「clash」指「體育對決」。",
+      "explanation": "本句的「clash」指「尤其體育新聞中，兩個強勁或重要對手之間的一場比賽」。",
       "sentenceIndex": 97,
       "sourcePractice": 2,
       "targets": [
         "clash"
       ],
       "optionReasons": {
-        "clash-mcq-43": "本句指「體育對決」。",
+        "clash-pdf-002": "本句指「尤其體育新聞中，兩個強勁或重要對手之間的一場比賽」。",
         "clash-mcq-42": "「原則衝突」與本句語境不同。",
         "clash-mcq-44": "「冠軍爭奪戰」與本句語境不同。",
         "clash-mcq-41": "「與政策抵觸」與本句語境不同。",
         "clash-mcq-45": "「不和諧聲音」與本句語境不同。",
         "clash-mcq-40": "「規則衝突」與本句語境不同。"
       },
-      "correctOption": "clash-mcq-43"
+      "correctOption": "clash-pdf-002"
     },
     {
       "id": "clash-50-0",

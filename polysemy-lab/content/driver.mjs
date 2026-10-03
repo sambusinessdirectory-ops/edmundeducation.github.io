@@ -338,14 +338,26 @@ export default {
       "note": "來源詞義：主要由 X 推動、控制或決定的",
       "examples": [
         [
-          "She is extremely driven.",
-          "她非常有幹勁／目標感很強。",
-          "主要由 X 推動、控制或決定的"
-        ],
-        [
           "The company uses a data-driven approach.",
           "公司採用數據驅動的方法。",
           "主要由 X 推動、控制或決定的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "driver-pdf-001",
+      "title": "被強烈目標／野心推動而非常努力的",
+      "form": "62. driven = highly motivated and determined — 幹勁強的；企圖心強的；高度自我驅動的",
+      "en": "62. driven = highly motivated and determined — 幹勁強的；企圖心強的；高度自我驅動的",
+      "zh": "被強烈目標／野心推動而非常努力的",
+      "note": "原始 PDF 第 62 節：被強烈目標／野心推動而非常努力的",
+      "examples": [
+        [
+          "She is extremely driven.",
+          "她非常有幹勁／目標感很強。",
+          "被強烈目標／野心推動而非常努力的"
         ]
       ],
       "options": [],
@@ -1075,33 +1087,33 @@ export default {
     },
     {
       "id": "driver-62-0",
-      "sense": "driver-mcq-18",
+      "sense": "driver-pdf-001",
       "en": "She is extremely driven.",
       "zh": "她非常有幹勁／目標感很強。",
       "masked": "She is extremely ____.",
       "options": [
-        "driver-mcq-18",
+        "driver-pdf-001",
         "driver-mcq-17",
         "driver-mcq-16",
         "driver-mcq-15",
         "driver-mcq-14",
         "driver-mcq-13"
       ],
-      "explanation": "本句的「driven」指「主要由 X 推動、控制或決定的」。",
+      "explanation": "本句的「driven」指「被強烈目標／野心推動而非常努力的」。",
       "sentenceIndex": 93,
       "sourcePractice": 62,
       "targets": [
         "driven"
       ],
       "optionReasons": {
-        "driver-mcq-18": "本句指「主要由 X 推動、控制或決定的」。",
+        "driver-pdf-001": "本句指「被強烈目標／野心推動而非常努力的」。",
         "driver-mcq-17": "「被強烈目標／野心驅動、非常有幹勁的」與本句語境不同。",
         "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
         "driver-mcq-15": "「調節並供應 LED 所需電流／電壓的驅動器」與本句語境不同。",
         "driver-mcq-14": "「把電訊號轉化成聲音的揚聲器發聲單元」與本句語境不同。",
         "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。"
       },
-      "correctOption": "driver-mcq-18"
+      "correctOption": "driver-pdf-001"
     },
     {
       "id": "driver-63-0",

@@ -26,11 +26,6 @@ export default {
           "A clear mind helps you make better decisions.",
           "清晰的思緒／頭腦有助你作出更好的決定。",
           "人用來思考、理解、記憶、想像及產生意識的心智能力"
-        ],
-        [
-          "My mind would go blank.",
-          "我的腦袋會突然一片空白。",
-          "人用來思考、理解、記憶、想像及產生意識的心智能力"
         ]
       ],
       "options": [],
@@ -891,16 +886,6 @@ export default {
           "The event brought together like-minded people.",
           "活動讓一群理念相近的人聚在一起。",
           "在重要觀點、態度或興趣上彼此相近的；志同道合的"
-        ],
-        [
-          "She is strong-minded and rarely gives in to pressure.",
-          "她很有主見／意志堅定，很少向壓力低頭。",
-          "在重要觀點、態度或興趣上彼此相近的；志同道合的"
-        ],
-        [
-          "The company values independent-minded employees.",
-          "公司重視有獨立思考能力的員工。",
-          "在重要觀點、態度或興趣上彼此相近的；志同道合的"
         ]
       ],
       "options": [],
@@ -923,6 +908,45 @@ export default {
           "I don’t mind speaking first.",
           "我不介意先發言。",
           "某個選擇／情況對我沒有造成不便或不滿"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mind-pdf-001",
+      "title": "因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法",
+      "form": "2. mind goes blank（腦袋一片空白） — 突然想不起來／無法思考",
+      "en": "2. mind goes blank（腦袋一片空白） — 突然想不起來／無法思考",
+      "zh": "因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法",
+      "note": "原始 PDF 第 2 節：因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法",
+      "examples": [
+        [
+          "My mind would go blank.",
+          "我的腦袋會突然一片空白。",
+          "因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mind-pdf-reviewed-01",
+      "title": "有主見或意志堅定的",
+      "form": "PDF practice 88",
+      "en": "PDF practice 88",
+      "zh": "有主見或意志堅定的",
+      "note": "原始 PDF 練習 88：有主見或意志堅定的",
+      "examples": [
+        [
+          "She is strong-minded and rarely gives in to pressure.",
+          "她很有主見／意志堅定，很少向壓力低頭。",
+          "有主見或意志堅定的"
+        ],
+        [
+          "The company values independent-minded employees.",
+          "公司重視有獨立思考能力的員工。",
+          "有主見或意志堅定的"
         ]
       ],
       "options": [],
@@ -1022,33 +1046,33 @@ export default {
     },
     {
       "id": "mind-02-0",
-      "sense": "mind-mcq-01",
+      "sense": "mind-pdf-001",
       "en": "My mind would go blank.",
       "zh": "我的腦袋會突然一片空白。",
       "masked": "My ____.",
       "options": [
-        "mind-mcq-01",
+        "mind-pdf-001",
         "mind-mcq-02",
         "mind-mcq-03",
         "mind-mcq-04",
         "mind-mcq-05",
         "mind-mcq-06"
       ],
-      "explanation": "本句的「mind would go blank」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+      "explanation": "本句的「mind would go blank」指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "mind would go blank"
       ],
       "optionReasons": {
-        "mind-mcq-01": "本句指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+        "mind-pdf-001": "本句指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
         "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
         "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
         "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
         "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
         "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
       },
-      "correctOption": "mind-mcq-01"
+      "correctOption": "mind-pdf-001"
     },
     {
       "id": "mind-02-1",
@@ -3542,63 +3566,63 @@ export default {
     },
     {
       "id": "mind-45-0",
-      "sense": "mind-mcq-39",
+      "sense": "mind-pdf-reviewed-01",
       "en": "She is strong-minded and rarely gives in to pressure.",
       "zh": "她很有主見／意志堅定，很少向壓力低頭。",
       "masked": "She is ____ and rarely gives in to pressure.",
       "options": [
-        "mind-mcq-39",
+        "mind-pdf-reviewed-01",
         "mind-mcq-38",
         "mind-mcq-40",
         "mind-mcq-37",
         "mind-mcq-36",
         "mind-mcq-35"
       ],
-      "explanation": "本句的「strong-minded」指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
+      "explanation": "本句的「strong-minded」指「有主見或意志堅定的」。",
       "sentenceIndex": 87,
       "sourcePractice": 88,
       "targets": [
         "strong-minded"
       ],
       "optionReasons": {
-        "mind-mcq-39": "本句指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」是「26. I don’t mind（我不介意） — 我沒所謂；我不介意」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-pdf-reviewed-01": "本句指「有主見或意志堅定的」。",
+        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」與本句語境不同。",
+        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」與本句語境不同。",
+        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」與本句語境不同。",
+        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」與本句語境不同。",
+        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」與本句語境不同。"
       },
-      "correctOption": "mind-mcq-39"
+      "correctOption": "mind-pdf-reviewed-01"
     },
     {
       "id": "mind-45-1",
-      "sense": "mind-mcq-39",
+      "sense": "mind-pdf-reviewed-01",
       "en": "The company values independent-minded employees.",
       "zh": "公司重視有獨立思考能力的員工。",
       "masked": "The company values ____ employees.",
       "options": [
-        "mind-mcq-39",
+        "mind-pdf-reviewed-01",
         "mind-mcq-38",
         "mind-mcq-40",
         "mind-mcq-37",
         "mind-mcq-36",
         "mind-mcq-35"
       ],
-      "explanation": "本句的「independent-minded」指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
+      "explanation": "本句的「independent-minded」指「有主見或意志堅定的」。",
       "sentenceIndex": 88,
       "sourcePractice": 89,
       "targets": [
         "independent-minded"
       ],
       "optionReasons": {
-        "mind-mcq-39": "本句指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」是「26. I don’t mind（我不介意） — 我沒所謂；我不介意」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-pdf-reviewed-01": "本句指「有主見或意志堅定的」。",
+        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」與本句語境不同。",
+        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」與本句語境不同。",
+        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」與本句語境不同。",
+        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」與本句語境不同。",
+        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」與本句語境不同。"
       },
-      "correctOption": "mind-mcq-39"
+      "correctOption": "mind-pdf-reviewed-01"
     }
   ],
   "comparisons": [],

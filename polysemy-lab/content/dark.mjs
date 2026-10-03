@@ -12,23 +12,7 @@ export default {
       "en": "dark trousers",
       "zh": "深色長褲",
       "note": "來源詞義：深色長褲",
-      "examples": [
-        [
-          "He usually wore dark trousers.",
-          "他通常穿着深色長褲。",
-          "深色長褲"
-        ],
-        [
-          "She prefers dark colours in winter.",
-          "她冬天比較喜歡穿深色系。",
-          "深色長褲"
-        ],
-        [
-          "He wore a dark blue jacket.",
-          "他穿着一件深藍色外套。",
-          "深色長褲"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -435,18 +419,7 @@ export default {
       "en": "expression darkened",
       "zh": "神情沉下來",
       "note": "來源詞義：神情沉下來",
-      "examples": [
-        [
-          "The news darkened his mood.",
-          "那個消息令他的心情變得沉重。",
-          "神情沉下來"
-        ],
-        [
-          "Her expression darkened when she heard his name.",
-          "她聽到他的名字時，神情沉了下來。",
-          "神情沉下來"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -515,98 +488,147 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "dark-pdf-001",
+      "title": "顏色接近黑色、亮度較低的",
+      "form": "1. dark colour / clothes — 深色的",
+      "en": "1. dark colour / clothes — 深色的",
+      "zh": "顏色接近黑色、亮度較低的",
+      "note": "原始 PDF 第 1 節：顏色接近黑色、亮度較低的",
+      "examples": [
+        [
+          "He usually wore dark trousers.",
+          "他通常穿着深色長褲。",
+          "顏色接近黑色、亮度較低的"
+        ],
+        [
+          "She prefers dark colours in winter.",
+          "她冬天比較喜歡穿深色系。",
+          "顏色接近黑色、亮度較低的"
+        ],
+        [
+          "He wore a dark blue jacket.",
+          "他穿着一件深藍色外套。",
+          "顏色接近黑色、亮度較低的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "dark-pdf-002",
+      "title": "令情緒、神情或氣氛變得更沉重、不快或帶威脅感",
+      "form": "20. darken someone's mood / expression — 令情緒／神情變沉重",
+      "en": "20. darken someone's mood / expression — 令情緒／神情變沉重",
+      "zh": "令情緒、神情或氣氛變得更沉重、不快或帶威脅感",
+      "note": "原始 PDF 第 20 節：令情緒、神情或氣氛變得更沉重、不快或帶威脅感",
+      "examples": [
+        [
+          "The news darkened his mood.",
+          "那個消息令他的心情變得沉重。",
+          "令情緒、神情或氣氛變得更沉重、不快或帶威脅感"
+        ],
+        [
+          "Her expression darkened when she heard his name.",
+          "她聽到他的名字時，神情沉了下來。",
+          "令情緒、神情或氣氛變得更沉重、不快或帶威脅感"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "dark-01-0",
-      "sense": "dark-mcq-01",
+      "sense": "dark-pdf-001",
       "en": "He usually wore dark trousers.",
       "zh": "他通常穿着深色長褲。",
       "masked": "He usually wore ____.",
       "options": [
-        "dark-mcq-01",
+        "dark-pdf-001",
         "dark-mcq-02",
         "dark-mcq-03",
         "dark-mcq-04",
         "dark-mcq-05",
         "dark-mcq-06"
       ],
-      "explanation": "本句的「dark trousers」指「深色長褲」。",
+      "explanation": "本句的「dark trousers」指「顏色接近黑色、亮度較低的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "dark trousers"
       ],
       "optionReasons": {
-        "dark-mcq-01": "本句指「深色長褲」。",
+        "dark-pdf-001": "本句指「顏色接近黑色、亮度較低的」。",
         "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
         "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
         "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
         "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
         "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
       },
-      "correctOption": "dark-mcq-01"
+      "correctOption": "dark-pdf-001"
     },
     {
       "id": "dark-01-1",
-      "sense": "dark-mcq-01",
+      "sense": "dark-pdf-001",
       "en": "She prefers dark colours in winter.",
       "zh": "她冬天比較喜歡穿深色系。",
       "masked": "She prefers ____ in winter.",
       "options": [
-        "dark-mcq-01",
+        "dark-pdf-001",
         "dark-mcq-02",
         "dark-mcq-03",
         "dark-mcq-04",
         "dark-mcq-05",
         "dark-mcq-06"
       ],
-      "explanation": "本句的「dark colours」指「深色長褲」。",
+      "explanation": "本句的「dark colours」指「顏色接近黑色、亮度較低的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "dark colours"
       ],
       "optionReasons": {
-        "dark-mcq-01": "本句指「深色長褲」。",
+        "dark-pdf-001": "本句指「顏色接近黑色、亮度較低的」。",
         "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
         "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
         "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
         "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
         "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
       },
-      "correctOption": "dark-mcq-01"
+      "correctOption": "dark-pdf-001"
     },
     {
       "id": "dark-01-2",
-      "sense": "dark-mcq-01",
+      "sense": "dark-pdf-001",
       "en": "He wore a dark blue jacket.",
       "zh": "他穿着一件深藍色外套。",
       "masked": "He wore a ____.",
       "options": [
-        "dark-mcq-01",
+        "dark-pdf-001",
         "dark-mcq-02",
         "dark-mcq-03",
         "dark-mcq-04",
         "dark-mcq-05",
         "dark-mcq-06"
       ],
-      "explanation": "本句的「dark blue jacket」指「深色長褲」。",
+      "explanation": "本句的「dark blue jacket」指「顏色接近黑色、亮度較低的」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "dark blue jacket"
       ],
       "optionReasons": {
-        "dark-mcq-01": "本句指「深色長褲」。",
+        "dark-pdf-001": "本句指「顏色接近黑色、亮度較低的」。",
         "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
         "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
         "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
         "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
         "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
       },
-      "correctOption": "dark-mcq-01"
+      "correctOption": "dark-pdf-001"
     },
     {
       "id": "dark-02-0",
@@ -1690,63 +1712,63 @@ export default {
     },
     {
       "id": "dark-20-0",
-      "sense": "dark-mcq-21",
+      "sense": "dark-pdf-002",
       "en": "The news darkened his mood.",
       "zh": "那個消息令他的心情變得沉重。",
       "masked": "The news ____.",
       "options": [
-        "dark-mcq-21",
+        "dark-pdf-002",
         "dark-mcq-20",
         "dark-mcq-22",
         "dark-mcq-19",
         "dark-mcq-23",
         "dark-mcq-18"
       ],
-      "explanation": "本句的「darkened his mood」指「神情沉下來」。",
+      "explanation": "本句的「darkened his mood」指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "darkened his mood"
       ],
       "optionReasons": {
-        "dark-mcq-21": "本句指「神情沉下來」。",
+        "dark-pdf-002": "本句指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
         "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
         "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
         "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
         "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
         "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。"
       },
-      "correctOption": "dark-mcq-21"
+      "correctOption": "dark-pdf-002"
     },
     {
       "id": "dark-20-1",
-      "sense": "dark-mcq-21",
+      "sense": "dark-pdf-002",
       "en": "Her expression darkened when she heard his name.",
       "zh": "她聽到他的名字時，神情沉了下來。",
       "masked": "Her expression ____ when she heard his name.",
       "options": [
-        "dark-mcq-21",
+        "dark-pdf-002",
         "dark-mcq-20",
         "dark-mcq-22",
         "dark-mcq-19",
         "dark-mcq-23",
         "dark-mcq-18"
       ],
-      "explanation": "本句的「darkened」指「神情沉下來」。",
+      "explanation": "本句的「darkened」指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "darkened"
       ],
       "optionReasons": {
-        "dark-mcq-21": "本句指「神情沉下來」。",
+        "dark-pdf-002": "本句指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
         "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
         "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
         "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
         "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
         "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。"
       },
-      "correctOption": "dark-mcq-21"
+      "correctOption": "dark-pdf-002"
     },
     {
       "id": "dark-21-0",

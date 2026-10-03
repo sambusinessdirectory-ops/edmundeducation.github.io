@@ -358,16 +358,6 @@ export default {
       "note": "來源詞義：歷史的一頁",
       "examples": [
         [
-          "Moving abroad opened a new page in her life.",
-          "移居海外為她的人生揭開了新的一頁。",
-          "歷史的一頁"
-        ],
-        [
-          "The agreement marked a new page in their relationship.",
-          "那項協議為他們的關係揭開了新的一頁。",
-          "歷史的一頁"
-        ],
-        [
           "The event became an important page in history.",
           "這件事成為歷史上重要的一頁／一段歷史。",
           "歷史的一頁"
@@ -541,6 +531,28 @@ export default {
           "A page carried messages through the palace.",
           "一名侍從／傳令員在宮殿中傳遞訊息。",
           "歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "page-pdf-001",
+      "title": "比喻人生、關係或歷史中一個新的階段",
+      "form": "18. a new page / new chapter — 新的一頁；新階段",
+      "en": "18. a new page / new chapter — 新的一頁；新階段",
+      "zh": "比喻人生、關係或歷史中一個新的階段",
+      "note": "原始 PDF 第 18 節：比喻人生、關係或歷史中一個新的階段",
+      "examples": [
+        [
+          "Moving abroad opened a new page in her life.",
+          "移居海外為她的人生揭開了新的一頁。",
+          "比喻人生、關係或歷史中一個新的階段"
+        ],
+        [
+          "The agreement marked a new page in their relationship.",
+          "那項協議為他們的關係揭開了新的一頁。",
+          "比喻人生、關係或歷史中一個新的階段"
         ]
       ],
       "options": [],
@@ -1600,63 +1612,63 @@ export default {
     },
     {
       "id": "page-18-0",
-      "sense": "page-mcq-16",
+      "sense": "page-pdf-001",
       "en": "Moving abroad opened a new page in her life.",
       "zh": "移居海外為她的人生揭開了新的一頁。",
       "masked": "Moving abroad opened a new ____ in her life.",
       "options": [
-        "page-mcq-16",
+        "page-pdf-001",
         "page-mcq-15",
         "page-mcq-17",
         "page-mcq-14",
         "page-mcq-18",
         "page-mcq-13"
       ],
-      "explanation": "本句的「page」指「歷史的一頁」。",
+      "explanation": "本句的「page」指「比喻人生、關係或歷史中一個新的階段」。",
       "sentenceIndex": 35,
       "sourcePractice": 1,
       "targets": [
         "page"
       ],
       "optionReasons": {
-        "page-mcq-16": "本句指「歷史的一頁」。",
+        "page-pdf-001": "本句指「比喻人生、關係或歷史中一個新的階段」。",
         "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
         "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
         "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
         "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
         "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。"
       },
-      "correctOption": "page-mcq-16"
+      "correctOption": "page-pdf-001"
     },
     {
       "id": "page-18-1",
-      "sense": "page-mcq-16",
+      "sense": "page-pdf-001",
       "en": "The agreement marked a new page in their relationship.",
       "zh": "那項協議為他們的關係揭開了新的一頁。",
       "masked": "The agreement marked a new ____ in their relationship.",
       "options": [
-        "page-mcq-16",
+        "page-pdf-001",
         "page-mcq-15",
         "page-mcq-17",
         "page-mcq-14",
         "page-mcq-18",
         "page-mcq-13"
       ],
-      "explanation": "本句的「page」指「歷史的一頁」。",
+      "explanation": "本句的「page」指「比喻人生、關係或歷史中一個新的階段」。",
       "sentenceIndex": 36,
       "sourcePractice": 2,
       "targets": [
         "page"
       ],
       "optionReasons": {
-        "page-mcq-16": "本句指「歷史的一頁」。",
+        "page-pdf-001": "本句指「比喻人生、關係或歷史中一個新的階段」。",
         "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
         "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
         "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
         "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
         "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。"
       },
-      "correctOption": "page-mcq-16"
+      "correctOption": "page-pdf-001"
     },
     {
       "id": "page-19-0",

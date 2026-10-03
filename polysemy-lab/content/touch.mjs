@@ -44,16 +44,6 @@ export default {
           "She touched the frame lightly.",
           "她輕輕碰了一下畫框。",
           "使身體／物件表面接觸另一表面"
-        ],
-        [
-          "The curtain almost touches the floor.",
-          "窗簾幾乎碰到地面。",
-          "使身體／物件表面接觸另一表面"
-        ],
-        [
-          "Their shoulders touched.",
-          "他們的肩膀碰在一起。",
-          "使身體／物件表面接觸另一表面"
         ]
       ],
       "options": [],
@@ -142,16 +132,6 @@ export default {
           "She has a light touch with colour.",
           "她用色的手法很輕盈細膩。",
           "某人在藝術、處事等方面的個人手法／分寸感"
-        ],
-        [
-          "He has a good touch with customers.",
-          "他很懂得與顧客相處，手腕很好。",
-          "某人在藝術、處事等方面的個人手法／分寸感"
-        ],
-        [
-          "She handled the complaint with a light touch.",
-          "她用很巧妙／不強硬的方式處理投訴。",
-          "某人在藝術、處事等方面的個人手法／分寸感"
         ]
       ],
       "options": [],
@@ -217,16 +197,6 @@ export default {
         [
           "The report touches several important issues.",
           "報告涉及幾個重要議題。",
-          "影響、涉及某人或某事"
-        ],
-        [
-          "We stayed in touch after leaving the office.",
-          "離職後我們仍然保持聯絡。",
-          "影響、涉及某人或某事"
-        ],
-        [
-          "I lost touch with several old colleagues.",
-          "我和幾位舊同事失去了聯絡。",
           "影響、涉及某人或某事"
         ]
       ],
@@ -294,16 +264,6 @@ export default {
           "She has an excellent first touch.",
           "她的第一腳控球／觸球技術很好。",
           "球員碰到或控制球的一次動作／技巧"
-        ],
-        [
-          "The controls are touch-sensitive.",
-          "這些控制鍵是觸控感應式的。",
-          "球員碰到或控制球的一次動作／技巧"
-        ],
-        [
-          "The lamp has a touch-sensitive base.",
-          "這盞燈的底座具有觸碰感應功能。",
-          "球員碰到或控制球的一次動作／技巧"
         ]
       ],
       "options": [],
@@ -338,18 +298,7 @@ export default {
       "en": "touchy — person",
       "zh": "對批評／某話題很敏感，容易不高興的",
       "note": "來源詞義：對批評／某話題很敏感，容易不高興的",
-      "examples": [
-        [
-          "He is touchy about criticism.",
-          "他對批評很敏感／容易不高興。",
-          "對批評／某話題很敏感，容易不高興的"
-        ],
-        [
-          "That is a touchy subject.",
-          "那是一個敏感話題。",
-          "對批評／某話題很敏感，容易不高興的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -360,16 +309,137 @@ export default {
       "en": "touchy — issue",
       "zh": "敏感而需要小心處理的",
       "note": "來源詞義：敏感而需要小心處理的",
+      "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "touch-pdf-001",
+      "title": "兩個物體或表面相接或幾乎相接",
+      "form": "3. touch = reach/contact slightly — 碰到；接到",
+      "en": "3. touch = reach/contact slightly — 碰到；接到",
+      "zh": "兩個物體或表面相接或幾乎相接",
+      "note": "原始 PDF 第 3 節：兩個物體或表面相接或幾乎相接",
+      "examples": [
+        [
+          "The curtain almost touches the floor.",
+          "窗簾幾乎碰到地面。",
+          "兩個物體或表面相接或幾乎相接"
+        ],
+        [
+          "Their shoulders touched.",
+          "他們的肩膀碰在一起。",
+          "兩個物體或表面相接或幾乎相接"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "touch-pdf-002",
+      "title": "處理人或事情時的細膩技巧／分寸感",
+      "form": "8. touch = skill or sensitivity in handling something — 手腕；技巧",
+      "en": "8. touch = skill or sensitivity in handling something — 手腕；技巧",
+      "zh": "處理人或事情時的細膩技巧／分寸感",
+      "note": "原始 PDF 第 8 節：處理人或事情時的細膩技巧／分寸感",
+      "examples": [
+        [
+          "He has a good touch with customers.",
+          "他很懂得與顧客相處，手腕很好。",
+          "處理人或事情時的細膩技巧／分寸感"
+        ],
+        [
+          "She handled the complaint with a light touch.",
+          "她用很巧妙／不強硬的方式處理投訴。",
+          "處理人或事情時的細膩技巧／分寸感"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "touch-pdf-003",
+      "title": "與人保持的聯絡／關係",
+      "form": "13. touch = contact/communication with someone — 聯絡；接觸",
+      "en": "13. touch = contact/communication with someone — 聯絡；接觸",
+      "zh": "與人保持的聯絡／關係",
+      "note": "原始 PDF 第 13 節：與人保持的聯絡／關係",
+      "examples": [
+        [
+          "We stayed in touch after leaving the office.",
+          "離職後我們仍然保持聯絡。",
+          "與人保持的聯絡／關係"
+        ],
+        [
+          "I lost touch with several old colleagues.",
+          "我和幾位舊同事失去了聯絡。",
+          "與人保持的聯絡／關係"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "touch-pdf-004",
+      "title": "能偵測觸碰並作出反應的",
+      "form": "19. touch-sensitive = 觸控感應的；感應觸碰的",
+      "en": "19. touch-sensitive = 觸控感應的；感應觸碰的",
+      "zh": "能偵測觸碰並作出反應的",
+      "note": "原始 PDF 第 19 節：能偵測觸碰並作出反應的",
+      "examples": [
+        [
+          "The controls are touch-sensitive.",
+          "這些控制鍵是觸控感應式的。",
+          "能偵測觸碰並作出反應的"
+        ],
+        [
+          "The lamp has a touch-sensitive base.",
+          "這盞燈的底座具有觸碰感應功能。",
+          "能偵測觸碰並作出反應的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "touch-pdf-005",
+      "title": "容易引起不快，或某人很容易因某事被冒犯",
+      "form": "21. touchy = easily upset / sensitive — 敏感易怒的；容易被冒犯的",
+      "en": "21. touchy = easily upset / sensitive — 敏感易怒的；容易被冒犯的",
+      "zh": "容易引起不快，或某人很容易因某事被冒犯",
+      "note": "原始 PDF 第 21 節：容易引起不快，或某人很容易因某事被冒犯",
+      "examples": [
+        [
+          "He is touchy about criticism.",
+          "他對批評很敏感／容易不高興。",
+          "容易引起不快，或某人很容易因某事被冒犯"
+        ],
+        [
+          "That is a touchy subject.",
+          "那是一個敏感話題。",
+          "容易引起不快，或某人很容易因某事被冒犯"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "touch-pdf-006",
+      "title": "情況敏感，處理不當容易出問題",
+      "form": "22. touchy = delicate / requiring care — 棘手的；需要小心處理的",
+      "en": "22. touchy = delicate / requiring care — 棘手的；需要小心處理的",
+      "zh": "情況敏感，處理不當容易出問題",
+      "note": "原始 PDF 第 22 節：情況敏感，處理不當容易出問題",
       "examples": [
         [
           "The negotiation is a touchy issue.",
           "這場談判是個很棘手、敏感的問題。",
-          "敏感而需要小心處理的"
+          "情況敏感，處理不當容易出問題"
         ],
         [
           "It’s a touchy situation.",
           "這是一個需要小心處理的敏感情況。",
-          "敏感而需要小心處理的"
+          "情況敏感，處理不當容易出問題"
         ]
       ],
       "options": [],
@@ -499,63 +569,63 @@ export default {
     },
     {
       "id": "touch-03-0",
-      "sense": "touch-mcq-02",
+      "sense": "touch-pdf-001",
       "en": "The curtain almost touches the floor.",
       "zh": "窗簾幾乎碰到地面。",
       "masked": "The curtain almost ____ the floor.",
       "options": [
-        "touch-mcq-02",
+        "touch-pdf-001",
         "touch-mcq-01",
         "touch-mcq-03",
         "touch-mcq-04",
         "touch-mcq-05",
         "touch-mcq-06"
       ],
-      "explanation": "本句的「touches」指「使身體／物件表面接觸另一表面」。",
+      "explanation": "本句的「touches」指「兩個物體或表面相接或幾乎相接」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "touches"
       ],
       "optionReasons": {
-        "touch-mcq-02": "本句指「使身體／物件表面接觸另一表面」。",
+        "touch-pdf-001": "本句指「兩個物體或表面相接或幾乎相接」。",
         "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
         "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
         "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
         "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
         "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-02"
+      "correctOption": "touch-pdf-001"
     },
     {
       "id": "touch-03-1",
-      "sense": "touch-mcq-02",
+      "sense": "touch-pdf-001",
       "en": "Their shoulders touched.",
       "zh": "他們的肩膀碰在一起。",
       "masked": "Their shoulders ____.",
       "options": [
-        "touch-mcq-02",
+        "touch-pdf-001",
         "touch-mcq-01",
         "touch-mcq-03",
         "touch-mcq-04",
         "touch-mcq-05",
         "touch-mcq-06"
       ],
-      "explanation": "本句的「touched」指「使身體／物件表面接觸另一表面」。",
+      "explanation": "本句的「touched」指「兩個物體或表面相接或幾乎相接」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "touched"
       ],
       "optionReasons": {
-        "touch-mcq-02": "本句指「使身體／物件表面接觸另一表面」。",
+        "touch-pdf-001": "本句指「兩個物體或表面相接或幾乎相接」。",
         "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
         "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
         "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
         "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
         "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-02"
+      "correctOption": "touch-pdf-001"
     },
     {
       "id": "touch-04-0",
@@ -799,63 +869,63 @@ export default {
     },
     {
       "id": "touch-08-0",
-      "sense": "touch-mcq-06",
+      "sense": "touch-pdf-002",
       "en": "He has a good touch with customers.",
       "zh": "他很懂得與顧客相處，手腕很好。",
       "masked": "He has a good ____ with customers.",
       "options": [
-        "touch-mcq-06",
+        "touch-pdf-002",
         "touch-mcq-05",
         "touch-mcq-07",
         "touch-mcq-04",
         "touch-mcq-08",
         "touch-mcq-03"
       ],
-      "explanation": "本句的「touch」指「某人在藝術、處事等方面的個人手法／分寸感」。",
+      "explanation": "本句的「touch」指「處理人或事情時的細膩技巧／分寸感」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-06": "本句指「某人在藝術、處事等方面的個人手法／分寸感」。",
+        "touch-pdf-002": "本句指「處理人或事情時的細膩技巧／分寸感」。",
         "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
         "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
         "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
         "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
         "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-06"
+      "correctOption": "touch-pdf-002"
     },
     {
       "id": "touch-08-1",
-      "sense": "touch-mcq-06",
+      "sense": "touch-pdf-002",
       "en": "She handled the complaint with a light touch.",
       "zh": "她用很巧妙／不強硬的方式處理投訴。",
       "masked": "She handled the complaint with a light ____.",
       "options": [
-        "touch-mcq-06",
+        "touch-pdf-002",
         "touch-mcq-05",
         "touch-mcq-07",
         "touch-mcq-04",
         "touch-mcq-08",
         "touch-mcq-03"
       ],
-      "explanation": "本句的「touch」指「某人在藝術、處事等方面的個人手法／分寸感」。",
+      "explanation": "本句的「touch」指「處理人或事情時的細膩技巧／分寸感」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-06": "本句指「某人在藝術、處事等方面的個人手法／分寸感」。",
+        "touch-pdf-002": "本句指「處理人或事情時的細膩技巧／分寸感」。",
         "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
         "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
         "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
         "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
         "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-06"
+      "correctOption": "touch-pdf-002"
     },
     {
       "id": "touch-09-0",
@@ -1039,63 +1109,63 @@ export default {
     },
     {
       "id": "touch-13-0",
-      "sense": "touch-mcq-09",
+      "sense": "touch-pdf-003",
       "en": "We stayed in touch after leaving the office.",
       "zh": "離職後我們仍然保持聯絡。",
       "masked": "We stayed in ____ after leaving the office.",
       "options": [
-        "touch-mcq-09",
+        "touch-pdf-003",
         "touch-mcq-08",
         "touch-mcq-10",
         "touch-mcq-07",
         "touch-mcq-11",
         "touch-mcq-06"
       ],
-      "explanation": "本句的「touch」指「影響、涉及某人或某事」。",
+      "explanation": "本句的「touch」指「與人保持的聯絡／關係」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-09": "本句指「影響、涉及某人或某事」。",
+        "touch-pdf-003": "本句指「與人保持的聯絡／關係」。",
         "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
         "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-09"
+      "correctOption": "touch-pdf-003"
     },
     {
       "id": "touch-13-1",
-      "sense": "touch-mcq-09",
+      "sense": "touch-pdf-003",
       "en": "I lost touch with several old colleagues.",
       "zh": "我和幾位舊同事失去了聯絡。",
       "masked": "I lost ____ with several old colleagues.",
       "options": [
-        "touch-mcq-09",
+        "touch-pdf-003",
         "touch-mcq-08",
         "touch-mcq-10",
         "touch-mcq-07",
         "touch-mcq-11",
         "touch-mcq-06"
       ],
-      "explanation": "本句的「touch」指「影響、涉及某人或某事」。",
+      "explanation": "本句的「touch」指「與人保持的聯絡／關係」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-09": "本句指「影響、涉及某人或某事」。",
+        "touch-pdf-003": "本句指「與人保持的聯絡／關係」。",
         "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
         "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-09"
+      "correctOption": "touch-pdf-003"
     },
     {
       "id": "touch-14-0",
@@ -1339,183 +1409,183 @@ export default {
     },
     {
       "id": "touch-19-0",
-      "sense": "touch-mcq-12",
+      "sense": "touch-pdf-004",
       "en": "The controls are touch-sensitive.",
       "zh": "這些控制鍵是觸控感應式的。",
       "masked": "The controls are ____.",
       "options": [
-        "touch-mcq-12",
+        "touch-pdf-004",
         "touch-mcq-11",
         "touch-mcq-13",
         "touch-mcq-10",
         "touch-mcq-14",
         "touch-mcq-09"
       ],
-      "explanation": "本句的「touch-sensitive」指「球員碰到或控制球的一次動作／技巧」。",
+      "explanation": "本句的「touch-sensitive」指「能偵測觸碰並作出反應的」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "touch-sensitive"
       ],
       "optionReasons": {
-        "touch-mcq-12": "本句指「球員碰到或控制球的一次動作／技巧」。",
+        "touch-pdf-004": "本句指「能偵測觸碰並作出反應的」。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
         "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
         "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-12"
+      "correctOption": "touch-pdf-004"
     },
     {
       "id": "touch-19-1",
-      "sense": "touch-mcq-12",
+      "sense": "touch-pdf-004",
       "en": "The lamp has a touch-sensitive base.",
       "zh": "這盞燈的底座具有觸碰感應功能。",
       "masked": "The lamp has a ____ base.",
       "options": [
-        "touch-mcq-12",
+        "touch-pdf-004",
         "touch-mcq-11",
         "touch-mcq-13",
         "touch-mcq-10",
         "touch-mcq-14",
         "touch-mcq-09"
       ],
-      "explanation": "本句的「touch-sensitive」指「球員碰到或控制球的一次動作／技巧」。",
+      "explanation": "本句的「touch-sensitive」指「能偵測觸碰並作出反應的」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "touch-sensitive"
       ],
       "optionReasons": {
-        "touch-mcq-12": "本句指「球員碰到或控制球的一次動作／技巧」。",
+        "touch-pdf-004": "本句指「能偵測觸碰並作出反應的」。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
         "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
         "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-12"
+      "correctOption": "touch-pdf-004"
     },
     {
       "id": "touch-21-0",
-      "sense": "touch-mcq-14",
+      "sense": "touch-pdf-005",
       "en": "He is touchy about criticism.",
       "zh": "他對批評很敏感／容易不高興。",
       "masked": "He is ____ about criticism.",
       "options": [
-        "touch-mcq-14",
+        "touch-pdf-005",
         "touch-mcq-13",
         "touch-mcq-15",
         "touch-mcq-12",
         "touch-mcq-11",
         "touch-mcq-10"
       ],
-      "explanation": "本句的「touchy」指「對批評／某話題很敏感，容易不高興的」。",
+      "explanation": "本句的「touchy」指「容易引起不快，或某人很容易因某事被冒犯」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "touchy"
       ],
       "optionReasons": {
-        "touch-mcq-14": "本句指「對批評／某話題很敏感，容易不高興的」。",
+        "touch-pdf-005": "本句指「容易引起不快，或某人很容易因某事被冒犯」。",
         "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
         "touch-mcq-15": "「敏感而需要小心處理的」與本句語境不同。",
         "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-14"
+      "correctOption": "touch-pdf-005"
     },
     {
       "id": "touch-21-1",
-      "sense": "touch-mcq-14",
+      "sense": "touch-pdf-005",
       "en": "That is a touchy subject.",
       "zh": "那是一個敏感話題。",
       "masked": "That is a ____ subject.",
       "options": [
-        "touch-mcq-14",
+        "touch-pdf-005",
         "touch-mcq-13",
         "touch-mcq-15",
         "touch-mcq-12",
         "touch-mcq-11",
         "touch-mcq-10"
       ],
-      "explanation": "本句的「touchy」指「對批評／某話題很敏感，容易不高興的」。",
+      "explanation": "本句的「touchy」指「容易引起不快，或某人很容易因某事被冒犯」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "touchy"
       ],
       "optionReasons": {
-        "touch-mcq-14": "本句指「對批評／某話題很敏感，容易不高興的」。",
+        "touch-pdf-005": "本句指「容易引起不快，或某人很容易因某事被冒犯」。",
         "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
         "touch-mcq-15": "「敏感而需要小心處理的」與本句語境不同。",
         "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-14"
+      "correctOption": "touch-pdf-005"
     },
     {
       "id": "touch-22-0",
-      "sense": "touch-mcq-15",
+      "sense": "touch-pdf-006",
       "en": "The negotiation is a touchy issue.",
       "zh": "這場談判是個很棘手、敏感的問題。",
       "masked": "The negotiation is a ____ issue.",
       "options": [
-        "touch-mcq-15",
+        "touch-pdf-006",
         "touch-mcq-14",
         "touch-mcq-13",
         "touch-mcq-12",
         "touch-mcq-11",
         "touch-mcq-10"
       ],
-      "explanation": "本句的「touchy」指「敏感而需要小心處理的」。",
+      "explanation": "本句的「touchy」指「情況敏感，處理不當容易出問題」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "touchy"
       ],
       "optionReasons": {
-        "touch-mcq-15": "本句指「敏感而需要小心處理的」。",
+        "touch-pdf-006": "本句指「情況敏感，處理不當容易出問題」。",
         "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
         "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
         "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-15"
+      "correctOption": "touch-pdf-006"
     },
     {
       "id": "touch-22-1",
-      "sense": "touch-mcq-15",
+      "sense": "touch-pdf-006",
       "en": "It’s a touchy situation.",
       "zh": "這是一個需要小心處理的敏感情況。",
       "masked": "It’s a ____ situation.",
       "options": [
-        "touch-mcq-15",
+        "touch-pdf-006",
         "touch-mcq-14",
         "touch-mcq-13",
         "touch-mcq-12",
         "touch-mcq-11",
         "touch-mcq-10"
       ],
-      "explanation": "本句的「touchy」指「敏感而需要小心處理的」。",
+      "explanation": "本句的「touchy」指「情況敏感，處理不當容易出問題」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "touchy"
       ],
       "optionReasons": {
-        "touch-mcq-15": "本句指「敏感而需要小心處理的」。",
+        "touch-pdf-006": "本句指「情況敏感，處理不當容易出問題」。",
         "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
         "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
         "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
         "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
         "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
       },
-      "correctOption": "touch-mcq-15"
+      "correctOption": "touch-pdf-006"
     }
   ],
   "comparisons": [],

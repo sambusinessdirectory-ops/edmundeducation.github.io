@@ -475,16 +475,6 @@ export default {
           "Don’t wait too long.",
           "不要等太久。",
           "長度／時間超過適當或需要程度"
-        ],
-        [
-          "The meeting didn’t last long.",
-          "會議沒有持續很久。",
-          "長度／時間超過適當或需要程度"
-        ],
-        [
-          "It won’t take long.",
-          "這不會花很久時間。",
-          "長度／時間超過適當或需要程度"
         ]
       ],
       "options": [],
@@ -574,26 +564,6 @@ export default {
       "zh": "涉及或關注相對較長時間範圍的",
       "note": "來源詞義：涉及或關注相對較長時間範圍的",
       "examples": [
-        [
-          "The presentation took longer than expected.",
-          "簡報比預期花更久時間。",
-          "涉及或關注相對較長時間範圍的"
-        ],
-        [
-          "The road is longer than it looks.",
-          "這條路比看起來更長。",
-          "涉及或關注相對較長時間範圍的"
-        ],
-        [
-          "That was the longest presentation of the day.",
-          "那是當天最長的簡報。",
-          "涉及或關注相對較長時間範圍的"
-        ],
-        [
-          "This is the longest route.",
-          "這是最長的路線。",
-          "涉及或關注相對較長時間範圍的"
-        ],
         [
           "Practice brings long-term benefits.",
           "練習會帶來長期好處。",
@@ -767,16 +737,6 @@ export default {
           "A change was long overdue.",
           "這項改變早就該發生。",
           "應該在很久以前已發生／完成但一直延遲"
-        ],
-        [
-          "She worked long hours preparing the presentation.",
-          "她為準備簡報工作了很長時間／長工時。",
-          "應該在很久以前已發生／完成但一直延遲"
-        ],
-        [
-          "Long hours can lead to fatigue.",
-          "長工時可能導致疲勞。",
-          "應該在很久以前已發生／完成但一直延遲"
         ]
       ],
       "options": [],
@@ -790,16 +750,6 @@ export default {
       "zh": "顯得失望、悲傷或不高興的表情",
       "note": "來源詞義：顯得失望、悲傷或不高興的表情",
       "examples": [
-        [
-          "It had been a long day.",
-          "那真是漫長的一天。",
-          "顯得失望、悲傷或不高興的表情"
-        ],
-        [
-          "After a long day, I was exhausted.",
-          "經過漫長的一天後，我筋疲力盡。",
-          "顯得失望、悲傷或不高興的表情"
-        ],
         [
           "Why the long face?",
           "為甚麼愁眉苦臉？",
@@ -830,16 +780,6 @@ export default {
         [
           "It’s a long shot, but the plan might work.",
           "這個計劃成功機會很低，但也可能奏效。",
-          "成功可能性很低但仍可能值得嘗試的事情"
-        ],
-        [
-          "This was by a long way the hardest presentation I had done.",
-          "這次簡報遠遠是我做過最困難的一次。",
-          "成功可能性很低但仍可能值得嘗試的事情"
-        ],
-        [
-          "She was the best candidate by a long way.",
-          "她明顯是最佳候選人。",
           "成功可能性很低但仍可能值得嘗試的事情"
         ],
         [
@@ -1223,16 +1163,6 @@ export default {
       "note": "來源詞義：預期資產價格上升而建立的多頭／好倉部位",
       "examples": [
         [
-          "The students learned long division.",
-          "學生學習了長除法／直式除法。",
-          "預期資產價格上升而建立的多頭／好倉部位"
-        ],
-        [
-          "Use long division to solve the problem.",
-          "用長除法解這題。",
-          "預期資產價格上升而建立的多頭／好倉部位"
-        ],
-        [
           "The investor is long the stock.",
           "投資者持有這隻股票的好倉／多頭部位。",
           "預期資產價格上升而建立的多頭／好倉部位"
@@ -1250,16 +1180,6 @@ export default {
         [
           "He went long on the stock.",
           "他對這隻股票建立了多頭部位。",
-          "預期資產價格上升而建立的多頭／好倉部位"
-        ],
-        [
-          "Hold the note longer.",
-          "把這個音拉長一點。",
-          "預期資產價格上升而建立的多頭／好倉部位"
-        ],
-        [
-          "The phrase ends with a long note.",
-          "這個樂句以一個長音結束。",
           "預期資產價格上升而建立的多頭／好倉部位"
         ]
       ],
@@ -1415,6 +1335,182 @@ export default {
           "The project has a long list of requirements.",
           "這個項目有很多要求。",
           "項目數量很多，使清單篇幅很長"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-001",
+      "title": "所需／持續的時間不多",
+      "form": "24. not long（不久／不長） — 時間不長",
+      "en": "24. not long（不久／不長） — 時間不長",
+      "zh": "所需／持續的時間不多",
+      "note": "原始 PDF 第 24 節：所需／持續的時間不多",
+      "examples": [
+        [
+          "The meeting didn’t last long.",
+          "會議沒有持續很久。",
+          "所需／持續的時間不多"
+        ],
+        [
+          "It won’t take long.",
+          "這不會花很久時間。",
+          "所需／持續的時間不多"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-002",
+      "title": "comparative form of long；在長度／時間上更大",
+      "form": "29. longer than expected（比預期久／長） — 更長；更久",
+      "en": "29. longer than expected（比預期久／長） — 更長；更久",
+      "zh": "comparative form of long；在長度／時間上更大",
+      "note": "原始 PDF 第 29 節：comparative form of long；在長度／時間上更大",
+      "examples": [
+        [
+          "The presentation took longer than expected.",
+          "簡報比預期花更久時間。",
+          "comparative form of long；在長度／時間上更大"
+        ],
+        [
+          "The road is longer than it looks.",
+          "這條路比看起來更長。",
+          "comparative form of long；在長度／時間上更大"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-003",
+      "title": "在比較群體中長度／持續時間最大",
+      "form": "30. the longest（最長／最久） — 最長的；最久的",
+      "en": "30. the longest（最長／最久） — 最長的；最久的",
+      "zh": "在比較群體中長度／持續時間最大",
+      "note": "原始 PDF 第 30 節：在比較群體中長度／持續時間最大",
+      "examples": [
+        [
+          "That was the longest presentation of the day.",
+          "那是當天最長的簡報。",
+          "在比較群體中長度／持續時間最大"
+        ],
+        [
+          "This is the longest route.",
+          "這是最長的路線。",
+          "在比較群體中長度／持續時間最大"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-004",
+      "title": "每天／每段工作時間很長",
+      "form": "40. long hours（長時間工作） — 長工時；長時間",
+      "en": "40. long hours（長時間工作） — 長工時；長時間",
+      "zh": "每天／每段工作時間很長",
+      "note": "原始 PDF 第 40 節：每天／每段工作時間很長",
+      "examples": [
+        [
+          "She worked long hours preparing the presentation.",
+          "她為準備簡報工作了很長時間／長工時。",
+          "每天／每段工作時間很長"
+        ],
+        [
+          "Long hours can lead to fatigue.",
+          "長工時可能導致疲勞。",
+          "每天／每段工作時間很長"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-005",
+      "title": "因活動多、疲倦或時間感覺漫長而顯得很長的一天",
+      "form": "41. long day（漫長的一天） — 很累／很長的一天",
+      "en": "41. long day（漫長的一天） — 很累／很長的一天",
+      "zh": "因活動多、疲倦或時間感覺漫長而顯得很長的一天",
+      "note": "原始 PDF 第 41 節：因活動多、疲倦或時間感覺漫長而顯得很長的一天",
+      "examples": [
+        [
+          "It had been a long day.",
+          "那真是漫長的一天。",
+          "因活動多、疲倦或時間感覺漫長而顯得很長的一天"
+        ],
+        [
+          "After a long day, I was exhausted.",
+          "經過漫長的一天後，我筋疲力盡。",
+          "因活動多、疲倦或時間感覺漫長而顯得很長的一天"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-006",
+      "title": "程度差距非常大",
+      "form": "45. by a long way / by far（遠遠地） — 大幅；遠遠",
+      "en": "45. by a long way / by far（遠遠地） — 大幅；遠遠",
+      "zh": "程度差距非常大",
+      "note": "原始 PDF 第 45 節：程度差距非常大",
+      "examples": [
+        [
+          "This was by a long way the hardest presentation I had done.",
+          "這次簡報遠遠是我做過最困難的一次。",
+          "程度差距非常大"
+        ],
+        [
+          "She was the best candidate by a long way.",
+          "她明顯是最佳候選人。",
+          "程度差距非常大"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-007",
+      "title": "把除法按逐步書寫程序完成的計算方法",
+      "form": "67. long division（長除法／直式除法） — 長除法",
+      "en": "67. long division（長除法／直式除法） — 長除法",
+      "zh": "把除法按逐步書寫程序完成的計算方法",
+      "note": "原始 PDF 第 67 節：把除法按逐步書寫程序完成的計算方法",
+      "examples": [
+        [
+          "The students learned long division.",
+          "學生學習了長除法／直式除法。",
+          "把除法按逐步書寫程序完成的計算方法"
+        ],
+        [
+          "Use long division to solve the problem.",
+          "用長除法解這題。",
+          "把除法按逐步書寫程序完成的計算方法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-pdf-008",
+      "title": "聲音／音符持續時間較長",
+      "form": "72. long = music: sustained note（長音） — 延長的音",
+      "en": "72. long = music: sustained note（長音） — 延長的音",
+      "zh": "聲音／音符持續時間較長",
+      "note": "原始 PDF 第 72 節：聲音／音符持續時間較長",
+      "examples": [
+        [
+          "Hold the note longer.",
+          "把這個音拉長一點。",
+          "聲音／音符持續時間較長"
+        ],
+        [
+          "The phrase ends with a long note.",
+          "這個樂句以一個長音結束。",
+          "聲音／音符持續時間較長"
         ]
       ],
       "options": [],
@@ -2834,63 +2930,63 @@ export default {
     },
     {
       "id": "long-24-0",
-      "sense": "long-mcq-20",
+      "sense": "long-pdf-001",
       "en": "The meeting didn’t last long.",
       "zh": "會議沒有持續很久。",
       "masked": "The meeting didn’t last ____.",
       "options": [
-        "long-mcq-20",
+        "long-pdf-001",
         "long-mcq-19",
         "long-mcq-21",
         "long-mcq-18",
         "long-mcq-22",
         "long-mcq-17"
       ],
-      "explanation": "本句的「long」指「長度／時間超過適當或需要程度」。",
+      "explanation": "本句的「long」指「所需／持續的時間不多」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-20": "本句指「長度／時間超過適當或需要程度」。",
+        "long-pdf-001": "本句指「所需／持續的時間不多」。",
         "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
         "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
         "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
         "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
         "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-20"
+      "correctOption": "long-pdf-001"
     },
     {
       "id": "long-24-1",
-      "sense": "long-mcq-20",
+      "sense": "long-pdf-001",
       "en": "It won’t take long.",
       "zh": "這不會花很久時間。",
       "masked": "It won’t take ____.",
       "options": [
-        "long-mcq-20",
+        "long-pdf-001",
         "long-mcq-19",
         "long-mcq-21",
         "long-mcq-18",
         "long-mcq-22",
         "long-mcq-17"
       ],
-      "explanation": "本句的「long」指「長度／時間超過適當或需要程度」。",
+      "explanation": "本句的「long」指「所需／持續的時間不多」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-20": "本句指「長度／時間超過適當或需要程度」。",
+        "long-pdf-001": "本句指「所需／持續的時間不多」。",
         "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
         "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
         "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
         "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
         "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-20"
+      "correctOption": "long-pdf-001"
     },
     {
       "id": "long-25-0",
@@ -3134,123 +3230,123 @@ export default {
     },
     {
       "id": "long-29-0",
-      "sense": "long-mcq-24",
+      "sense": "long-pdf-002",
       "en": "The presentation took longer than expected.",
       "zh": "簡報比預期花更久時間。",
       "masked": "The presentation took ____.",
       "options": [
-        "long-mcq-24",
+        "long-pdf-002",
         "long-mcq-23",
         "long-mcq-25",
         "long-mcq-22",
         "long-mcq-26",
         "long-mcq-21"
       ],
-      "explanation": "本句的「longer than expected」指「涉及或關注相對較長時間範圍的」。",
+      "explanation": "本句的「longer than expected」指「comparative form of long；在長度／時間上更大」。",
       "sentenceIndex": 57,
       "sourcePractice": 58,
       "targets": [
         "longer than expected"
       ],
       "optionReasons": {
-        "long-mcq-24": "本句指「涉及或關注相對較長時間範圍的」。",
+        "long-pdf-002": "本句指「comparative form of long；在長度／時間上更大」。",
         "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
         "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
         "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
         "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
         "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-24"
+      "correctOption": "long-pdf-002"
     },
     {
       "id": "long-29-1",
-      "sense": "long-mcq-24",
+      "sense": "long-pdf-002",
       "en": "The road is longer than it looks.",
       "zh": "這條路比看起來更長。",
       "masked": "The road is ____ it looks.",
       "options": [
-        "long-mcq-24",
+        "long-pdf-002",
         "long-mcq-23",
         "long-mcq-25",
         "long-mcq-22",
         "long-mcq-26",
         "long-mcq-21"
       ],
-      "explanation": "本句的「longer than」指「涉及或關注相對較長時間範圍的」。",
+      "explanation": "本句的「longer than」指「comparative form of long；在長度／時間上更大」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "longer than"
       ],
       "optionReasons": {
-        "long-mcq-24": "本句指「涉及或關注相對較長時間範圍的」。",
+        "long-pdf-002": "本句指「comparative form of long；在長度／時間上更大」。",
         "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
         "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
         "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
         "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
         "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-24"
+      "correctOption": "long-pdf-002"
     },
     {
       "id": "long-30-0",
-      "sense": "long-mcq-24",
+      "sense": "long-pdf-003",
       "en": "That was the longest presentation of the day.",
       "zh": "那是當天最長的簡報。",
       "masked": "That was the ____ presentation of the day.",
       "options": [
-        "long-mcq-24",
+        "long-pdf-003",
         "long-mcq-23",
         "long-mcq-25",
         "long-mcq-22",
         "long-mcq-26",
         "long-mcq-21"
       ],
-      "explanation": "本句的「longest」指「涉及或關注相對較長時間範圍的」。",
+      "explanation": "本句的「longest」指「在比較群體中長度／持續時間最大」。",
       "sentenceIndex": 59,
       "sourcePractice": 60,
       "targets": [
         "longest"
       ],
       "optionReasons": {
-        "long-mcq-24": "本句指「涉及或關注相對較長時間範圍的」。",
+        "long-pdf-003": "本句指「在比較群體中長度／持續時間最大」。",
         "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
         "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
         "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
         "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
         "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-24"
+      "correctOption": "long-pdf-003"
     },
     {
       "id": "long-30-1",
-      "sense": "long-mcq-24",
+      "sense": "long-pdf-003",
       "en": "This is the longest route.",
       "zh": "這是最長的路線。",
       "masked": "This is the ____ route.",
       "options": [
-        "long-mcq-24",
+        "long-pdf-003",
         "long-mcq-23",
         "long-mcq-25",
         "long-mcq-22",
         "long-mcq-26",
         "long-mcq-21"
       ],
-      "explanation": "本句的「longest」指「涉及或關注相對較長時間範圍的」。",
+      "explanation": "本句的「longest」指「在比較群體中長度／持續時間最大」。",
       "sentenceIndex": 60,
       "sourcePractice": 61,
       "targets": [
         "longest"
       ],
       "optionReasons": {
-        "long-mcq-24": "本句指「涉及或關注相對較長時間範圍的」。",
+        "long-pdf-003": "本句指「在比較群體中長度／持續時間最大」。",
         "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
         "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
         "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
         "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
         "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-24"
+      "correctOption": "long-pdf-003"
     },
     {
       "id": "long-31-0",
@@ -3794,123 +3890,123 @@ export default {
     },
     {
       "id": "long-40-0",
-      "sense": "long-mcq-31",
+      "sense": "long-pdf-004",
       "en": "She worked long hours preparing the presentation.",
       "zh": "她為準備簡報工作了很長時間／長工時。",
       "masked": "She worked ____ preparing the presentation.",
       "options": [
-        "long-mcq-31",
+        "long-pdf-004",
         "long-mcq-30",
         "long-mcq-32",
         "long-mcq-29",
         "long-mcq-33",
         "long-mcq-28"
       ],
-      "explanation": "本句的「long hours」指「應該在很久以前已發生／完成但一直延遲」。",
+      "explanation": "本句的「long hours」指「每天／每段工作時間很長」。",
       "sentenceIndex": 79,
       "sourcePractice": 80,
       "targets": [
         "long hours"
       ],
       "optionReasons": {
-        "long-mcq-31": "本句指「應該在很久以前已發生／完成但一直延遲」。",
+        "long-pdf-004": "本句指「每天／每段工作時間很長」。",
         "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
         "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
         "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
         "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
         "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-31"
+      "correctOption": "long-pdf-004"
     },
     {
       "id": "long-40-1",
-      "sense": "long-mcq-31",
+      "sense": "long-pdf-004",
       "en": "Long hours can lead to fatigue.",
       "zh": "長工時可能導致疲勞。",
       "masked": "____ hours can lead to fatigue.",
       "options": [
-        "long-mcq-31",
+        "long-pdf-004",
         "long-mcq-30",
         "long-mcq-32",
         "long-mcq-29",
         "long-mcq-33",
         "long-mcq-28"
       ],
-      "explanation": "本句的「Long」指「應該在很久以前已發生／完成但一直延遲」。",
+      "explanation": "本句的「Long」指「每天／每段工作時間很長」。",
       "sentenceIndex": 80,
       "sourcePractice": 81,
       "targets": [
         "Long"
       ],
       "optionReasons": {
-        "long-mcq-31": "本句指「應該在很久以前已發生／完成但一直延遲」。",
+        "long-pdf-004": "本句指「每天／每段工作時間很長」。",
         "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
         "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
         "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
         "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
         "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-31"
+      "correctOption": "long-pdf-004"
     },
     {
       "id": "long-41-0",
-      "sense": "long-mcq-32",
+      "sense": "long-pdf-005",
       "en": "It had been a long day.",
       "zh": "那真是漫長的一天。",
       "masked": "It had been a ____.",
       "options": [
-        "long-mcq-32",
+        "long-pdf-005",
         "long-mcq-31",
         "long-mcq-33",
         "long-mcq-30",
         "long-mcq-34",
         "long-mcq-29"
       ],
-      "explanation": "本句的「long day」指「顯得失望、悲傷或不高興的表情」。",
+      "explanation": "本句的「long day」指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
       "sentenceIndex": 81,
       "sourcePractice": 82,
       "targets": [
         "long day"
       ],
       "optionReasons": {
-        "long-mcq-32": "本句指「顯得失望、悲傷或不高興的表情」。",
+        "long-pdf-005": "本句指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
         "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
         "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
         "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
         "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
         "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-32"
+      "correctOption": "long-pdf-005"
     },
     {
       "id": "long-41-1",
-      "sense": "long-mcq-32",
+      "sense": "long-pdf-005",
       "en": "After a long day, I was exhausted.",
       "zh": "經過漫長的一天後，我筋疲力盡。",
       "masked": "After a ____ day, I was exhausted.",
       "options": [
-        "long-mcq-32",
+        "long-pdf-005",
         "long-mcq-31",
         "long-mcq-33",
         "long-mcq-30",
         "long-mcq-34",
         "long-mcq-29"
       ],
-      "explanation": "本句的「long」指「顯得失望、悲傷或不高興的表情」。",
+      "explanation": "本句的「long」指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
       "sentenceIndex": 82,
       "sourcePractice": 83,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-32": "本句指「顯得失望、悲傷或不高興的表情」。",
+        "long-pdf-005": "本句指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
         "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
         "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
         "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
         "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
         "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-32"
+      "correctOption": "long-pdf-005"
     },
     {
       "id": "long-42-0",
@@ -4094,63 +4190,63 @@ export default {
     },
     {
       "id": "long-45-0",
-      "sense": "long-mcq-33",
+      "sense": "long-pdf-006",
       "en": "This was by a long way the hardest presentation I had done.",
       "zh": "這次簡報遠遠是我做過最困難的一次。",
       "masked": "This was ____ the hardest presentation I had done.",
       "options": [
-        "long-mcq-33",
+        "long-pdf-006",
         "long-mcq-32",
         "long-mcq-34",
         "long-mcq-31",
         "long-mcq-35",
         "long-mcq-30"
       ],
-      "explanation": "本句的「by a long way」指「成功可能性很低但仍可能值得嘗試的事情」。",
+      "explanation": "本句的「by a long way」指「程度差距非常大」。",
       "sentenceIndex": 89,
       "sourcePractice": 90,
       "targets": [
         "by a long way"
       ],
       "optionReasons": {
-        "long-mcq-33": "本句指「成功可能性很低但仍可能值得嘗試的事情」。",
+        "long-pdf-006": "本句指「程度差距非常大」。",
         "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
         "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
         "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
         "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
         "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-33"
+      "correctOption": "long-pdf-006"
     },
     {
       "id": "long-45-1",
-      "sense": "long-mcq-33",
+      "sense": "long-pdf-006",
       "en": "She was the best candidate by a long way.",
       "zh": "她明顯是最佳候選人。",
       "masked": "She was the best candidate by a ____ way.",
       "options": [
-        "long-mcq-33",
+        "long-pdf-006",
         "long-mcq-32",
         "long-mcq-34",
         "long-mcq-31",
         "long-mcq-35",
         "long-mcq-30"
       ],
-      "explanation": "本句的「long」指「成功可能性很低但仍可能值得嘗試的事情」。",
+      "explanation": "本句的「long」指「程度差距非常大」。",
       "sentenceIndex": 90,
       "sourcePractice": 91,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-33": "本句指「成功可能性很低但仍可能值得嘗試的事情」。",
+        "long-pdf-006": "本句指「程度差距非常大」。",
         "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
         "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
         "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
         "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
         "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-33"
+      "correctOption": "long-pdf-006"
     },
     {
       "id": "long-46-0",
@@ -5414,63 +5510,63 @@ export default {
     },
     {
       "id": "long-67-0",
-      "sense": "long-mcq-48",
+      "sense": "long-pdf-007",
       "en": "The students learned long division.",
       "zh": "學生學習了長除法／直式除法。",
       "masked": "The students learned ____.",
       "options": [
-        "long-mcq-48",
+        "long-pdf-007",
         "long-mcq-47",
         "long-mcq-49",
         "long-mcq-46",
         "long-mcq-50",
         "long-mcq-45"
       ],
-      "explanation": "本句的「long division」指「預期資產價格上升而建立的多頭／好倉部位」。",
+      "explanation": "本句的「long division」指「把除法按逐步書寫程序完成的計算方法」。",
       "sentenceIndex": 133,
       "sourcePractice": 134,
       "targets": [
         "long division"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-pdf-007": "本句指「把除法按逐步書寫程序完成的計算方法」。",
         "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
         "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
         "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
         "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
         "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-48"
+      "correctOption": "long-pdf-007"
     },
     {
       "id": "long-67-1",
-      "sense": "long-mcq-48",
+      "sense": "long-pdf-007",
       "en": "Use long division to solve the problem.",
       "zh": "用長除法解這題。",
       "masked": "Use ____ division to solve the problem.",
       "options": [
-        "long-mcq-48",
+        "long-pdf-007",
         "long-mcq-47",
         "long-mcq-49",
         "long-mcq-46",
         "long-mcq-50",
         "long-mcq-45"
       ],
-      "explanation": "本句的「long」指「預期資產價格上升而建立的多頭／好倉部位」。",
+      "explanation": "本句的「long」指「把除法按逐步書寫程序完成的計算方法」。",
       "sentenceIndex": 134,
       "sourcePractice": 135,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-pdf-007": "本句指「把除法按逐步書寫程序完成的計算方法」。",
         "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
         "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
         "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
         "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
         "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-48"
+      "correctOption": "long-pdf-007"
     },
     {
       "id": "long-68-0",
@@ -5714,63 +5810,63 @@ export default {
     },
     {
       "id": "long-72-0",
-      "sense": "long-mcq-48",
+      "sense": "long-pdf-008",
       "en": "Hold the note longer.",
       "zh": "把這個音拉長一點。",
       "masked": "Hold the note ____.",
       "options": [
-        "long-mcq-48",
+        "long-pdf-008",
         "long-mcq-47",
         "long-mcq-49",
         "long-mcq-46",
         "long-mcq-50",
         "long-mcq-45"
       ],
-      "explanation": "本句的「longer」指「預期資產價格上升而建立的多頭／好倉部位」。",
+      "explanation": "本句的「longer」指「聲音／音符持續時間較長」。",
       "sentenceIndex": 143,
       "sourcePractice": 144,
       "targets": [
         "longer"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-pdf-008": "本句指「聲音／音符持續時間較長」。",
         "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
         "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
         "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
         "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
         "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-48"
+      "correctOption": "long-pdf-008"
     },
     {
       "id": "long-72-1",
-      "sense": "long-mcq-48",
+      "sense": "long-pdf-008",
       "en": "The phrase ends with a long note.",
       "zh": "這個樂句以一個長音結束。",
       "masked": "The phrase ends with a ____.",
       "options": [
-        "long-mcq-48",
+        "long-pdf-008",
         "long-mcq-47",
         "long-mcq-49",
         "long-mcq-46",
         "long-mcq-50",
         "long-mcq-45"
       ],
-      "explanation": "本句的「long note」指「預期資產價格上升而建立的多頭／好倉部位」。",
+      "explanation": "本句的「long note」指「聲音／音符持續時間較長」。",
       "sentenceIndex": 144,
       "sourcePractice": 145,
       "targets": [
         "long note"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-pdf-008": "本句指「聲音／音符持續時間較長」。",
         "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
         "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
         "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
         "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
         "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
       },
-      "correctOption": "long-mcq-48"
+      "correctOption": "long-pdf-008"
     },
     {
       "id": "long-73-0",

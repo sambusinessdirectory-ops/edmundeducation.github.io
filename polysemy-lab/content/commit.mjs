@@ -289,16 +289,6 @@ export default {
           "In some legal systems, a person may be committed to hospital under specific conditions.",
           "在某些法律制度下，一個人可能在特定條件下被正式送院接受治療。",
           "正式送入機構"
-        ],
-        [
-          "The defendant was committed for trial.",
-          "被告被交付審判。",
-          "正式送入機構"
-        ],
-        [
-          "The case was serious enough for the accused to be committed for trial.",
-          "案件嚴重至足以把被告交付法庭審訊。",
-          "正式送入機構"
         ]
       ],
       "options": [],
@@ -311,18 +301,7 @@ export default {
       "en": "commit code",
       "zh": "提交程式碼",
       "note": "來源詞義：提交程式碼",
-      "examples": [
-        [
-          "I committed the changes to the repository.",
-          "我把變更提交到程式碼儲存庫。",
-          "提交程式碼"
-        ],
-        [
-          "Remember to commit your code before switching branches.",
-          "切換分支前記得提交程式碼。",
-          "提交程式碼"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -646,6 +625,50 @@ export default {
           "The department still has some uncommitted funds.",
           "部門仍有一些尚未指定用途的資金。",
           "尚未撥用的資金"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "commit-pdf-001",
+      "title": "formal/legal: 正式把案件送交較高級法院審理",
+      "form": "17. commit someone for trial — 把案件交付審判",
+      "en": "17. commit someone for trial — 把案件交付審判",
+      "zh": "formal/legal: 正式把案件送交較高級法院審理",
+      "note": "原始 PDF 第 17 節：formal/legal: 正式把案件送交較高級法院審理",
+      "examples": [
+        [
+          "The defendant was committed for trial.",
+          "被告被交付審判。",
+          "formal/legal: 正式把案件送交較高級法院審理"
+        ],
+        [
+          "The case was serious enough for the accused to be committed for trial.",
+          "案件嚴重至足以把被告交付法庭審訊。",
+          "formal/legal: 正式把案件送交較高級法院審理"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "commit-pdf-002",
+      "title": "在版本控制系統中正式記錄一組修改",
+      "form": "18. commit（computing：提交變更） — 提交程式碼／變更",
+      "en": "18. commit（computing：提交變更） — 提交程式碼／變更",
+      "zh": "在版本控制系統中正式記錄一組修改",
+      "note": "原始 PDF 第 18 節：在版本控制系統中正式記錄一組修改",
+      "examples": [
+        [
+          "I committed the changes to the repository.",
+          "我把變更提交到程式碼儲存庫。",
+          "在版本控制系統中正式記錄一組修改"
+        ],
+        [
+          "Remember to commit your code before switching branches.",
+          "切換分支前記得提交程式碼。",
+          "在版本控制系統中正式記錄一組修改"
         ]
       ],
       "options": [],
@@ -1525,123 +1548,123 @@ export default {
     },
     {
       "id": "commit-17-0",
-      "sense": "commit-mcq-12",
+      "sense": "commit-pdf-001",
       "en": "The defendant was committed for trial.",
       "zh": "被告被交付審判。",
       "masked": "The defendant was ____.",
       "options": [
-        "commit-mcq-12",
+        "commit-pdf-001",
         "commit-mcq-11",
         "commit-mcq-13",
         "commit-mcq-10",
         "commit-mcq-14",
         "commit-mcq-09"
       ],
-      "explanation": "本句的「committed for trial」指「正式送入機構」。",
+      "explanation": "本句的「committed for trial」指「formal/legal: 正式把案件送交較高級法院審理」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "committed for trial"
       ],
       "optionReasons": {
-        "commit-mcq-12": "本句指「正式送入機構」。",
+        "commit-pdf-001": "本句指「formal/legal: 正式把案件送交較高級法院審理」。",
         "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
         "commit-mcq-13": "「提交程式碼」與本句語境不同。",
         "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
         "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
         "commit-mcq-09": "「犯錯」與本句語境不同。"
       },
-      "correctOption": "commit-mcq-12"
+      "correctOption": "commit-pdf-001"
     },
     {
       "id": "commit-17-1",
-      "sense": "commit-mcq-12",
+      "sense": "commit-pdf-001",
       "en": "The case was serious enough for the accused to be committed for trial.",
       "zh": "案件嚴重至足以把被告交付法庭審訊。",
       "masked": "The case was serious enough for the accused to be ____.",
       "options": [
-        "commit-mcq-12",
+        "commit-pdf-001",
         "commit-mcq-11",
         "commit-mcq-13",
         "commit-mcq-10",
         "commit-mcq-14",
         "commit-mcq-09"
       ],
-      "explanation": "本句的「committed for trial」指「正式送入機構」。",
+      "explanation": "本句的「committed for trial」指「formal/legal: 正式把案件送交較高級法院審理」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "committed for trial"
       ],
       "optionReasons": {
-        "commit-mcq-12": "本句指「正式送入機構」。",
+        "commit-pdf-001": "本句指「formal/legal: 正式把案件送交較高級法院審理」。",
         "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
         "commit-mcq-13": "「提交程式碼」與本句語境不同。",
         "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
         "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
         "commit-mcq-09": "「犯錯」與本句語境不同。"
       },
-      "correctOption": "commit-mcq-12"
+      "correctOption": "commit-pdf-001"
     },
     {
       "id": "commit-18-0",
-      "sense": "commit-mcq-13",
+      "sense": "commit-pdf-002",
       "en": "I committed the changes to the repository.",
       "zh": "我把變更提交到程式碼儲存庫。",
       "masked": "I ____ to the repository.",
       "options": [
-        "commit-mcq-13",
+        "commit-pdf-002",
         "commit-mcq-12",
         "commit-mcq-14",
         "commit-mcq-11",
         "commit-mcq-15",
         "commit-mcq-10"
       ],
-      "explanation": "本句的「committed the changes」指「提交程式碼」。",
+      "explanation": "本句的「committed the changes」指「在版本控制系統中正式記錄一組修改」。",
       "sentenceIndex": 35,
       "sourcePractice": 1,
       "targets": [
         "committed the changes"
       ],
       "optionReasons": {
-        "commit-mcq-13": "本句指「提交程式碼」。",
+        "commit-pdf-002": "本句指「在版本控制系統中正式記錄一組修改」。",
         "commit-mcq-12": "「正式送入機構」與本句語境不同。",
         "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
         "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
         "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
         "commit-mcq-10": "「把 X 記牢」與本句語境不同。"
       },
-      "correctOption": "commit-mcq-13"
+      "correctOption": "commit-pdf-002"
     },
     {
       "id": "commit-18-1",
-      "sense": "commit-mcq-13",
+      "sense": "commit-pdf-002",
       "en": "Remember to commit your code before switching branches.",
       "zh": "切換分支前記得提交程式碼。",
       "masked": "Remember to ____ before switching branches.",
       "options": [
-        "commit-mcq-13",
+        "commit-pdf-002",
         "commit-mcq-12",
         "commit-mcq-14",
         "commit-mcq-11",
         "commit-mcq-15",
         "commit-mcq-10"
       ],
-      "explanation": "本句的「commit your code」指「提交程式碼」。",
+      "explanation": "本句的「commit your code」指「在版本控制系統中正式記錄一組修改」。",
       "sentenceIndex": 36,
       "sourcePractice": 2,
       "targets": [
         "commit your code"
       ],
       "optionReasons": {
-        "commit-mcq-13": "本句指「提交程式碼」。",
+        "commit-pdf-002": "本句指「在版本控制系統中正式記錄一組修改」。",
         "commit-mcq-12": "「正式送入機構」與本句語境不同。",
         "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
         "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
         "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
         "commit-mcq-10": "「把 X 記牢」與本句語境不同。"
       },
-      "correctOption": "commit-mcq-13"
+      "correctOption": "commit-pdf-002"
     },
     {
       "id": "commit-19-0",

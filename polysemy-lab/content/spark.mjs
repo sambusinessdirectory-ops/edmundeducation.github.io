@@ -252,16 +252,6 @@ export default {
           "The mechanic checked the spark.",
           "技師檢查了點火火花。",
           "汽油引擎中產生火花點燃燃料的零件"
-        ],
-        [
-          "A spark of hope returned.",
-          "一絲希望重新出現。",
-          "汽油引擎中產生火花點燃燃料的零件"
-        ],
-        [
-          "The idea began with a tiny spark of inspiration.",
-          "這個想法源自一點小小的靈感火花。",
-          "汽油引擎中產生火花點燃燃料的零件"
         ]
       ],
       "options": [],
@@ -350,6 +340,28 @@ export default {
           "Sparks flew the moment they met.",
           "他們一見面就產生了強烈的化學反應／火花。",
           "情緒、爭論或吸引力突然變得非常強烈"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "spark-pdf-001",
+      "title": "某種想法、情感或希望突然出現的一小點開端",
+      "form": "14. spark = sudden burst of thought/emotion — 一瞬間的念頭／情緒",
+      "en": "14. spark = sudden burst of thought/emotion — 一瞬間的念頭／情緒",
+      "zh": "某種想法、情感或希望突然出現的一小點開端",
+      "note": "原始 PDF 第 14 節：某種想法、情感或希望突然出現的一小點開端",
+      "examples": [
+        [
+          "A spark of hope returned.",
+          "一絲希望重新出現。",
+          "某種想法、情感或希望突然出現的一小點開端"
+        ],
+        [
+          "The idea began with a tiny spark of inspiration.",
+          "這個想法源自一點小小的靈感火花。",
+          "某種想法、情感或希望突然出現的一小點開端"
         ]
       ],
       "options": [],
@@ -1139,63 +1151,63 @@ export default {
     },
     {
       "id": "spark-14-0",
-      "sense": "spark-mcq-11",
+      "sense": "spark-pdf-001",
       "en": "A spark of hope returned.",
       "zh": "一絲希望重新出現。",
       "masked": "A ____ of hope returned.",
       "options": [
-        "spark-mcq-11",
+        "spark-pdf-001",
         "spark-mcq-10",
         "spark-mcq-12",
         "spark-mcq-09",
         "spark-mcq-13",
         "spark-mcq-08"
       ],
-      "explanation": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
+      "explanation": "本句的「spark」指「某種想法、情感或希望突然出現的一小點開端」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-11": "本句指「汽油引擎中產生火花點燃燃料的零件」。",
+        "spark-pdf-001": "本句指「某種想法、情感或希望突然出現的一小點開端」。",
         "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
         "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
         "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
         "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
         "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
       },
-      "correctOption": "spark-mcq-11"
+      "correctOption": "spark-pdf-001"
     },
     {
       "id": "spark-14-1",
-      "sense": "spark-mcq-11",
+      "sense": "spark-pdf-001",
       "en": "The idea began with a tiny spark of inspiration.",
       "zh": "這個想法源自一點小小的靈感火花。",
       "masked": "The idea began with a tiny ____ of inspiration.",
       "options": [
-        "spark-mcq-11",
+        "spark-pdf-001",
         "spark-mcq-10",
         "spark-mcq-12",
         "spark-mcq-09",
         "spark-mcq-13",
         "spark-mcq-08"
       ],
-      "explanation": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
+      "explanation": "本句的「spark」指「某種想法、情感或希望突然出現的一小點開端」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-11": "本句指「汽油引擎中產生火花點燃燃料的零件」。",
+        "spark-pdf-001": "本句指「某種想法、情感或希望突然出現的一小點開端」。",
         "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
         "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
         "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
         "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
         "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
       },
-      "correctOption": "spark-mcq-11"
+      "correctOption": "spark-pdf-001"
     },
     {
       "id": "spark-15-0",

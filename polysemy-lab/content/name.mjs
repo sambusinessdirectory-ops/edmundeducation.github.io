@@ -12,18 +12,7 @@ export default {
       "en": "name (person)",
       "zh": "名字；姓名",
       "note": "來源詞義：名字；姓名",
-      "examples": [
-        [
-          "What's your first name?",
-          "你的名字是甚麼？",
-          "名字；姓名"
-        ],
-        [
-          "Please enter your given name and surname.",
-          "請填寫你的名字和姓氏。",
-          "名字；姓名"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -665,6 +654,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "name-pdf-001",
+      "title": "個人名字中用來區分家庭成員的部分，通常不是姓氏",
+      "form": "2. first name / given name — 名；名字",
+      "en": "2. first name / given name — 名；名字",
+      "zh": "個人名字中用來區分家庭成員的部分，通常不是姓氏",
+      "note": "原始 PDF 第 2 節：個人名字中用來區分家庭成員的部分，通常不是姓氏",
+      "examples": [
+        [
+          "What's your first name?",
+          "你的名字是甚麼？",
+          "個人名字中用來區分家庭成員的部分，通常不是姓氏"
+        ],
+        [
+          "Please enter your given name and surname.",
+          "請填寫你的名字和姓氏。",
+          "個人名字中用來區分家庭成員的部分，通常不是姓氏"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -760,63 +771,63 @@ export default {
     },
     {
       "id": "name-02-0",
-      "sense": "name-mcq-01",
+      "sense": "name-pdf-001",
       "en": "What's your first name?",
       "zh": "你的名字是甚麼？",
       "masked": "What's your ____?",
       "options": [
-        "name-mcq-01",
+        "name-pdf-001",
         "name-mcq-02",
         "name-mcq-03",
         "name-mcq-04",
         "name-mcq-05",
         "name-mcq-06"
       ],
-      "explanation": "本句的「first name」指「名字；姓名」。",
+      "explanation": "本句的「first name」指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "first name"
       ],
       "optionReasons": {
-        "name-mcq-01": "本句指「名字；姓名」。",
+        "name-pdf-001": "本句指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
         "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。",
         "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。",
         "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
         "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
         "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
       },
-      "correctOption": "name-mcq-01"
+      "correctOption": "name-pdf-001"
     },
     {
       "id": "name-02-1",
-      "sense": "name-mcq-01",
+      "sense": "name-pdf-001",
       "en": "Please enter your given name and surname.",
       "zh": "請填寫你的名字和姓氏。",
       "masked": "Please enter your ____ and surname.",
       "options": [
-        "name-mcq-01",
+        "name-pdf-001",
         "name-mcq-02",
         "name-mcq-03",
         "name-mcq-04",
         "name-mcq-05",
         "name-mcq-06"
       ],
-      "explanation": "本句的「given name」指「名字；姓名」。",
+      "explanation": "本句的「given name」指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "given name"
       ],
       "optionReasons": {
-        "name-mcq-01": "本句指「名字；姓名」。",
+        "name-pdf-001": "本句指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
         "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。",
         "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。",
         "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
         "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
         "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
       },
-      "correctOption": "name-mcq-01"
+      "correctOption": "name-pdf-001"
     },
     {
       "id": "name-03-0",

@@ -305,16 +305,6 @@ export default {
       "note": "來源詞義：由物質、空間和實體事物組成的現實世界",
       "examples": [
         [
-          "The damage was both emotional and physical.",
-          "造成的傷害既有情緒上的，也有身體／實質上的。",
-          "由物質、空間和實體事物組成的現實世界"
-        ],
-        [
-          "The project produced a physical result, not just an idea.",
-          "這個項目產生了實際有形的成果，而不只是一個構思。",
-          "由物質、空間和實體事物組成的現實世界"
-        ],
-        [
           "Digital information still depends on the physical world.",
           "數碼資訊仍然依賴物質世界／實體環境。",
           "由物質、空間和實體事物組成的現實世界"
@@ -641,6 +631,28 @@ export default {
           "The team struggled with the opponent’s physicality.",
           "球隊難以應付對手強大的身體對抗能力。",
           "身體力量、動作、存在感或肢體特質所形成的整體表現"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "physical-pdf-001",
+      "title": "屬於實際物質存在，而非純思想、概念或抽象層面的",
+      "form": "14. physical = material rather than abstract（物質層面的） — 物質的；有形的",
+      "en": "14. physical = material rather than abstract（物質層面的） — 物質的；有形的",
+      "zh": "屬於實際物質存在，而非純思想、概念或抽象層面的",
+      "note": "原始 PDF 第 14 節：屬於實際物質存在，而非純思想、概念或抽象層面的",
+      "examples": [
+        [
+          "The damage was both emotional and physical.",
+          "造成的傷害既有情緒上的，也有身體／實質上的。",
+          "屬於實際物質存在，而非純思想、概念或抽象層面的"
+        ],
+        [
+          "The project produced a physical result, not just an idea.",
+          "這個項目產生了實際有形的成果，而不只是一個構思。",
+          "屬於實際物質存在，而非純思想、概念或抽象層面的"
         ]
       ],
       "options": [],
@@ -1460,63 +1472,63 @@ export default {
     },
     {
       "id": "physical-14-0",
-      "sense": "physical-mcq-14",
+      "sense": "physical-pdf-001",
       "en": "The damage was both emotional and physical.",
       "zh": "造成的傷害既有情緒上的，也有身體／實質上的。",
       "masked": "The damage was both emotional and ____.",
       "options": [
-        "physical-mcq-14",
+        "physical-pdf-001",
         "physical-mcq-13",
         "physical-mcq-15",
         "physical-mcq-12",
         "physical-mcq-16",
         "physical-mcq-11"
       ],
-      "explanation": "本句的「physical」指「由物質、空間和實體事物組成的現實世界」。",
+      "explanation": "本句的「physical」指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-14": "本句指「由物質、空間和實體事物組成的現實世界」。",
+        "physical-pdf-001": "本句指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
         "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
         "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
         "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
         "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
         "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。"
       },
-      "correctOption": "physical-mcq-14"
+      "correctOption": "physical-pdf-001"
     },
     {
       "id": "physical-14-1",
-      "sense": "physical-mcq-14",
+      "sense": "physical-pdf-001",
       "en": "The project produced a physical result, not just an idea.",
       "zh": "這個項目產生了實際有形的成果，而不只是一個構思。",
       "masked": "The project produced a ____, not just an idea.",
       "options": [
-        "physical-mcq-14",
+        "physical-pdf-001",
         "physical-mcq-13",
         "physical-mcq-15",
         "physical-mcq-12",
         "physical-mcq-16",
         "physical-mcq-11"
       ],
-      "explanation": "本句的「physical result」指「由物質、空間和實體事物組成的現實世界」。",
+      "explanation": "本句的「physical result」指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "physical result"
       ],
       "optionReasons": {
-        "physical-mcq-14": "本句指「由物質、空間和實體事物組成的現實世界」。",
+        "physical-pdf-001": "本句指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
         "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
         "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
         "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
         "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
         "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。"
       },
-      "correctOption": "physical-mcq-14"
+      "correctOption": "physical-pdf-001"
     },
     {
       "id": "physical-15-0",

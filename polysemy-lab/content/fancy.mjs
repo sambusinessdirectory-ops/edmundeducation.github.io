@@ -27,16 +27,6 @@ export default {
           "You don’t need any fancy equipment to start.",
           "你開始時不需要任何高級／花巧的設備。",
           "外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的"
-        ],
-        [
-          "The invitation had fancy lettering.",
-          "邀請卡用了很花巧／華麗的字體。",
-          "外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的"
-        ],
-        [
-          "The cake was covered in fancy decorations.",
-          "蛋糕上佈滿了精緻華麗的裝飾。",
-          "外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的"
         ]
       ],
       "options": [],
@@ -231,6 +221,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fancy-pdf-001",
+      "title": "帶有較多裝飾、圖案或複雜設計的",
+      "form": "2. fancy = decorative / complicated in design（設計） — 花式的；裝飾華麗的",
+      "en": "2. fancy = decorative / complicated in design（設計） — 花式的；裝飾華麗的",
+      "zh": "帶有較多裝飾、圖案或複雜設計的",
+      "note": "原始 PDF 第 2 節：帶有較多裝飾、圖案或複雜設計的",
+      "examples": [
+        [
+          "The invitation had fancy lettering.",
+          "邀請卡用了很花巧／華麗的字體。",
+          "帶有較多裝飾、圖案或複雜設計的"
+        ],
+        [
+          "The cake was covered in fancy decorations.",
+          "蛋糕上佈滿了精緻華麗的裝飾。",
+          "帶有較多裝飾、圖案或複雜設計的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -326,63 +338,63 @@ export default {
     },
     {
       "id": "fancy-02-0",
-      "sense": "fancy-mcq-01",
+      "sense": "fancy-pdf-001",
       "en": "The invitation had fancy lettering.",
       "zh": "邀請卡用了很花巧／華麗的字體。",
       "masked": "The invitation had ____ lettering.",
       "options": [
-        "fancy-mcq-01",
+        "fancy-pdf-001",
         "fancy-mcq-02",
         "fancy-mcq-03",
         "fancy-mcq-04",
         "fancy-mcq-05",
         "fancy-mcq-06"
       ],
-      "explanation": "本句的「fancy」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+      "explanation": "本句的「fancy」指「帶有較多裝飾、圖案或複雜設計的」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-01": "本句指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+        "fancy-pdf-001": "本句指「帶有較多裝飾、圖案或複雜設計的」。",
         "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
         "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
         "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
         "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
         "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
       },
-      "correctOption": "fancy-mcq-01"
+      "correctOption": "fancy-pdf-001"
     },
     {
       "id": "fancy-02-1",
-      "sense": "fancy-mcq-01",
+      "sense": "fancy-pdf-001",
       "en": "The cake was covered in fancy decorations.",
       "zh": "蛋糕上佈滿了精緻華麗的裝飾。",
       "masked": "The cake was covered in ____ decorations.",
       "options": [
-        "fancy-mcq-01",
+        "fancy-pdf-001",
         "fancy-mcq-02",
         "fancy-mcq-03",
         "fancy-mcq-04",
         "fancy-mcq-05",
         "fancy-mcq-06"
       ],
-      "explanation": "本句的「fancy」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+      "explanation": "本句的「fancy」指「帶有較多裝飾、圖案或複雜設計的」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-01": "本句指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+        "fancy-pdf-001": "本句指「帶有較多裝飾、圖案或複雜設計的」。",
         "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
         "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
         "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
         "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
         "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
       },
-      "correctOption": "fancy-mcq-01"
+      "correctOption": "fancy-pdf-001"
     },
     {
       "id": "fancy-03-0",

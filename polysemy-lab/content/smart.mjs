@@ -34,18 +34,7 @@ export default {
       "en": "smart — strategy",
       "zh": "判斷明智、能有效取得好結果的；精明的",
       "note": "來源詞義：判斷明智、能有效取得好結果的；精明的",
-      "examples": [
-        [
-          "The business succeeds through good products and smart focus.",
-          "這間生意靠優質產品和精明的策略性專注取得成功。",
-          "判斷明智、能有效取得好結果的；精明的"
-        ],
-        [
-          "Opening near the station was a smart move.",
-          "在車站附近開店是一個明智的做法。",
-          "判斷明智、能有效取得好結果的；精明的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -286,16 +275,6 @@ export default {
           "The staff responded smartly to the problem.",
           "員工迅速地處理了問題。",
           "以迅速、俐落的方式"
-        ],
-        [
-          "The dark uniform gives the staff a sense of smartness.",
-          "深色制服令員工顯得很俐落整齊。",
-          "以迅速、俐落的方式"
-        ],
-        [
-          "The room’s smartness comes from its clean design.",
-          "房間的俐落感來自簡潔設計。",
-          "以迅速、俐落的方式"
         ]
       ],
       "options": [],
@@ -340,6 +319,50 @@ export default {
           "Smart home devices can control lighting automatically.",
           "智能家居裝置可以自動控制照明。",
           "使用連網、感應及自動化裝置的智能家居系統"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "smart-pdf-001",
+      "title": "某個決定、策略或方法判斷得宜，而且很可能帶來好結果",
+      "form": "2. smart = sensible / strategically clever — 精明的；明智的",
+      "en": "2. smart = sensible / strategically clever — 精明的；明智的",
+      "zh": "某個決定、策略或方法判斷得宜，而且很可能帶來好結果",
+      "note": "原始 PDF 第 2 節：某個決定、策略或方法判斷得宜，而且很可能帶來好結果",
+      "examples": [
+        [
+          "The business succeeds through good products and smart focus.",
+          "這間生意靠優質產品和精明的策略性專注取得成功。",
+          "某個決定、策略或方法判斷得宜，而且很可能帶來好結果"
+        ],
+        [
+          "Opening near the station was a smart move.",
+          "在車站附近開店是一個明智的做法。",
+          "某個決定、策略或方法判斷得宜，而且很可能帶來好結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "smart-pdf-002",
+      "title": "外觀整潔、時尚、有型的特質",
+      "form": "15. smartness = stylish/neat appearance — 俐落；整潔感",
+      "en": "15. smartness = stylish/neat appearance — 俐落；整潔感",
+      "zh": "外觀整潔、時尚、有型的特質",
+      "note": "原始 PDF 第 15 節：外觀整潔、時尚、有型的特質",
+      "examples": [
+        [
+          "The dark uniform gives the staff a sense of smartness.",
+          "深色制服令員工顯得很俐落整齊。",
+          "外觀整潔、時尚、有型的特質"
+        ],
+        [
+          "The room’s smartness comes from its clean design.",
+          "房間的俐落感來自簡潔設計。",
+          "外觀整潔、時尚、有型的特質"
         ]
       ],
       "options": [],
@@ -409,63 +432,63 @@ export default {
     },
     {
       "id": "smart-02-0",
-      "sense": "smart-mcq-02",
+      "sense": "smart-pdf-001",
       "en": "The business succeeds through good products and smart focus.",
       "zh": "這間生意靠優質產品和精明的策略性專注取得成功。",
       "masked": "The business succeeds through good products and ____.",
       "options": [
-        "smart-mcq-02",
+        "smart-pdf-001",
         "smart-mcq-01",
         "smart-mcq-03",
         "smart-mcq-04",
         "smart-mcq-05",
         "smart-mcq-06"
       ],
-      "explanation": "本句的「smart focus」指「判斷明智、能有效取得好結果的；精明的」。",
+      "explanation": "本句的「smart focus」指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "smart focus"
       ],
       "optionReasons": {
-        "smart-mcq-02": "本句指「判斷明智、能有效取得好結果的；精明的」。",
+        "smart-pdf-001": "本句指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
         "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。",
         "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
         "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
         "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
         "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
       },
-      "correctOption": "smart-mcq-02"
+      "correctOption": "smart-pdf-001"
     },
     {
       "id": "smart-02-1",
-      "sense": "smart-mcq-02",
+      "sense": "smart-pdf-001",
       "en": "Opening near the station was a smart move.",
       "zh": "在車站附近開店是一個明智的做法。",
       "masked": "Opening near the station was a ____.",
       "options": [
-        "smart-mcq-02",
+        "smart-pdf-001",
         "smart-mcq-01",
         "smart-mcq-03",
         "smart-mcq-04",
         "smart-mcq-05",
         "smart-mcq-06"
       ],
-      "explanation": "本句的「smart move」指「判斷明智、能有效取得好結果的；精明的」。",
+      "explanation": "本句的「smart move」指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "smart move"
       ],
       "optionReasons": {
-        "smart-mcq-02": "本句指「判斷明智、能有效取得好結果的；精明的」。",
+        "smart-pdf-001": "本句指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
         "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。",
         "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
         "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
         "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
         "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
       },
-      "correctOption": "smart-mcq-02"
+      "correctOption": "smart-pdf-001"
     },
     {
       "id": "smart-03-0",
@@ -1129,63 +1152,63 @@ export default {
     },
     {
       "id": "smart-15-0",
-      "sense": "smart-mcq-13",
+      "sense": "smart-pdf-002",
       "en": "The dark uniform gives the staff a sense of smartness.",
       "zh": "深色制服令員工顯得很俐落整齊。",
       "masked": "The dark uniform gives the staff a sense of ____.",
       "options": [
-        "smart-mcq-13",
+        "smart-pdf-002",
         "smart-mcq-12",
         "smart-mcq-14",
         "smart-mcq-11",
         "smart-mcq-15",
         "smart-mcq-10"
       ],
-      "explanation": "本句的「smartness」指「以迅速、俐落的方式」。",
+      "explanation": "本句的「smartness」指「外觀整潔、時尚、有型的特質」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "smartness"
       ],
       "optionReasons": {
-        "smart-mcq-13": "本句指「以迅速、俐落的方式」。",
+        "smart-pdf-002": "本句指「外觀整潔、時尚、有型的特質」。",
         "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
         "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
         "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
         "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
         "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
       },
-      "correctOption": "smart-mcq-13"
+      "correctOption": "smart-pdf-002"
     },
     {
       "id": "smart-15-1",
-      "sense": "smart-mcq-13",
+      "sense": "smart-pdf-002",
       "en": "The room’s smartness comes from its clean design.",
       "zh": "房間的俐落感來自簡潔設計。",
       "masked": "The room’s ____ comes from its clean design.",
       "options": [
-        "smart-mcq-13",
+        "smart-pdf-002",
         "smart-mcq-12",
         "smart-mcq-14",
         "smart-mcq-11",
         "smart-mcq-15",
         "smart-mcq-10"
       ],
-      "explanation": "本句的「smartness」指「以迅速、俐落的方式」。",
+      "explanation": "本句的「smartness」指「外觀整潔、時尚、有型的特質」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "smartness"
       ],
       "optionReasons": {
-        "smart-mcq-13": "本句指「以迅速、俐落的方式」。",
+        "smart-pdf-002": "本句指「外觀整潔、時尚、有型的特質」。",
         "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
         "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
         "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
         "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
         "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
       },
-      "correctOption": "smart-mcq-13"
+      "correctOption": "smart-pdf-002"
     },
     {
       "id": "smart-16-0",

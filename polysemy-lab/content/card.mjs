@@ -206,16 +206,6 @@ export default {
           "The shop accepts cash and card.",
           "這間店接受現金和信用／扣帳卡付款。",
           "用卡付款"
-        ],
-        [
-          "The machine isn't accepting card payments.",
-          "這部機暫時不能接受卡付款。",
-          "用卡付款"
-        ],
-        [
-          "Most customers now use card payments.",
-          "現在大部分顧客都使用卡付款。",
-          "用卡付款"
         ]
       ],
       "options": [],
@@ -903,6 +893,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "card-pdf-001",
+      "title": "透過支付卡完成的交易",
+      "form": "10. card payment — 卡付款；信用／扣帳卡交易",
+      "en": "10. card payment — 卡付款；信用／扣帳卡交易",
+      "zh": "透過支付卡完成的交易",
+      "note": "原始 PDF 第 10 節：透過支付卡完成的交易",
+      "examples": [
+        [
+          "The machine isn't accepting card payments.",
+          "這部機暫時不能接受卡付款。",
+          "透過支付卡完成的交易"
+        ],
+        [
+          "Most customers now use card payments.",
+          "現在大部分顧客都使用卡付款。",
+          "透過支付卡完成的交易"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1448,63 +1460,63 @@ export default {
     },
     {
       "id": "card-10-0",
-      "sense": "card-mcq-08",
+      "sense": "card-pdf-001",
       "en": "The machine isn't accepting card payments.",
       "zh": "這部機暫時不能接受卡付款。",
       "masked": "The machine isn't accepting ____.",
       "options": [
-        "card-mcq-08",
+        "card-pdf-001",
         "card-mcq-07",
         "card-mcq-09",
         "card-mcq-06",
         "card-mcq-10",
         "card-mcq-05"
       ],
-      "explanation": "本句的「card payments」指「用卡付款」。",
+      "explanation": "本句的「card payments」指「透過支付卡完成的交易」。",
       "sentenceIndex": 20,
       "sourcePractice": 1,
       "targets": [
         "card payments"
       ],
       "optionReasons": {
-        "card-mcq-08": "本句指「用卡付款」。",
+        "card-pdf-001": "本句指「透過支付卡完成的交易」。",
         "card-mcq-07": "「扣帳卡」與本句語境不同。",
         "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
         "card-mcq-06": "「信用卡」與本句語境不同。",
         "card-mcq-10": "「會員卡」與本句語境不同。",
         "card-mcq-05": "「銀行卡」與本句語境不同。"
       },
-      "correctOption": "card-mcq-08"
+      "correctOption": "card-pdf-001"
     },
     {
       "id": "card-10-1",
-      "sense": "card-mcq-08",
+      "sense": "card-pdf-001",
       "en": "Most customers now use card payments.",
       "zh": "現在大部分顧客都使用卡付款。",
       "masked": "Most customers now use ____.",
       "options": [
-        "card-mcq-08",
+        "card-pdf-001",
         "card-mcq-07",
         "card-mcq-09",
         "card-mcq-06",
         "card-mcq-10",
         "card-mcq-05"
       ],
-      "explanation": "本句的「card payments」指「用卡付款」。",
+      "explanation": "本句的「card payments」指「透過支付卡完成的交易」。",
       "sentenceIndex": 21,
       "sourcePractice": 2,
       "targets": [
         "card payments"
       ],
       "optionReasons": {
-        "card-mcq-08": "本句指「用卡付款」。",
+        "card-pdf-001": "本句指「透過支付卡完成的交易」。",
         "card-mcq-07": "「扣帳卡」與本句語境不同。",
         "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
         "card-mcq-06": "「信用卡」與本句語境不同。",
         "card-mcq-10": "「會員卡」與本句語境不同。",
         "card-mcq-05": "「銀行卡」與本句語境不同。"
       },
-      "correctOption": "card-mcq-08"
+      "correctOption": "card-pdf-001"
     },
     {
       "id": "card-11-0",

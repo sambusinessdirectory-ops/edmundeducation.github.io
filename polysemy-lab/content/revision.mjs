@@ -211,16 +211,6 @@ export default {
           "安排各科溫習時間的計劃表"
         ],
         [
-          "The teacher held a revision session after school.",
-          "老師放學後安排了一節複習課。",
-          "安排各科溫習時間的計劃表"
-        ],
-        [
-          "We had a short revision session before the test.",
-          "測驗前我們進行了一小段溫習。",
-          "安排各科溫習時間的計劃表"
-        ],
-        [
           "She bought a revision guide for biology.",
           "她買了一本生物科溫習指南。",
           "安排各科溫習時間的計劃表"
@@ -229,6 +219,28 @@ export default {
           "The revision guide summarises the key topics.",
           "這本複習指南總結了重點課題。",
           "安排各科溫習時間的計劃表"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "revision-pdf-001",
+      "title": "專門用來重溫已學內容的一段時間／課堂",
+      "form": "11. revision session = 溫習時段；複習課",
+      "en": "11. revision session = 溫習時段；複習課",
+      "zh": "專門用來重溫已學內容的一段時間／課堂",
+      "note": "原始 PDF 第 11 節：專門用來重溫已學內容的一段時間／課堂",
+      "examples": [
+        [
+          "The teacher held a revision session after school.",
+          "老師放學後安排了一節複習課。",
+          "專門用來重溫已學內容的一段時間／課堂"
+        ],
+        [
+          "We had a short revision session before the test.",
+          "測驗前我們進行了一小段溫習。",
+          "專門用來重溫已學內容的一段時間／課堂"
         ]
       ],
       "options": [],
@@ -778,63 +790,63 @@ export default {
     },
     {
       "id": "revision-11-0",
-      "sense": "revision-mcq-10",
+      "sense": "revision-pdf-001",
       "en": "The teacher held a revision session after school.",
       "zh": "老師放學後安排了一節複習課。",
       "masked": "The teacher held a ____ after school.",
       "options": [
-        "revision-mcq-10",
+        "revision-pdf-001",
         "revision-mcq-09",
         "revision-mcq-08",
         "revision-mcq-07",
         "revision-mcq-06",
         "revision-mcq-05"
       ],
-      "explanation": "本句的「revision session」指「安排各科溫習時間的計劃表」。",
+      "explanation": "本句的「revision session」指「專門用來重溫已學內容的一段時間／課堂」。",
       "sentenceIndex": 18,
       "sourcePractice": 22,
       "targets": [
         "revision session"
       ],
       "optionReasons": {
-        "revision-mcq-10": "本句指「安排各科溫習時間的計劃表」。",
+        "revision-pdf-001": "本句指「專門用來重溫已學內容的一段時間／課堂」。",
         "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
         "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
         "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
         "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
         "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
       },
-      "correctOption": "revision-mcq-10"
+      "correctOption": "revision-pdf-001"
     },
     {
       "id": "revision-11-1",
-      "sense": "revision-mcq-10",
+      "sense": "revision-pdf-001",
       "en": "We had a short revision session before the test.",
       "zh": "測驗前我們進行了一小段溫習。",
       "masked": "We had a short ____ session before the test.",
       "options": [
-        "revision-mcq-10",
+        "revision-pdf-001",
         "revision-mcq-09",
         "revision-mcq-08",
         "revision-mcq-07",
         "revision-mcq-06",
         "revision-mcq-05"
       ],
-      "explanation": "本句的「revision」指「安排各科溫習時間的計劃表」。",
+      "explanation": "本句的「revision」指「專門用來重溫已學內容的一段時間／課堂」。",
       "sentenceIndex": 19,
       "sourcePractice": 23,
       "targets": [
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-10": "本句指「安排各科溫習時間的計劃表」。",
+        "revision-pdf-001": "本句指「專門用來重溫已學內容的一段時間／課堂」。",
         "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
         "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
         "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
         "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
         "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
       },
-      "correctOption": "revision-mcq-10"
+      "correctOption": "revision-pdf-001"
     },
     {
       "id": "revision-12-0",

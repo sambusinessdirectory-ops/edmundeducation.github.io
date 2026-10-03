@@ -93,16 +93,6 @@ export default {
           "He fished around in his pocket for some coins.",
           "他在口袋裡掏來掏去找硬幣。",
           "摸索、試探或間接嘗試取得某物；屬於 figurative extension"
-        ],
-        [
-          "He was fishing for information.",
-          "他在試探／套取資料。",
-          "摸索、試探或間接嘗試取得某物；屬於 figurative extension"
-        ],
-        [
-          "She was clearly fishing for compliments.",
-          "她很明顯在博取稱讚。",
-          "摸索、試探或間接嘗試取得某物；屬於 figurative extension"
         ]
       ],
       "options": [],
@@ -164,6 +154,28 @@ export default {
           "Local fishers returned before sunset.",
           "本地漁民在日落前回來。",
           "捕魚的人；漁民／漁夫"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fish-pdf-001",
+      "title": "間接地試圖獲得資料、稱讚、反應等",
+      "form": "5. fish = try to get information/praise indirectly（比喻） — 試探；套話；博取",
+      "en": "5. fish = try to get information/praise indirectly（比喻） — 試探；套話；博取",
+      "zh": "間接地試圖獲得資料、稱讚、反應等",
+      "note": "原始 PDF 第 5 節：間接地試圖獲得資料、稱讚、反應等",
+      "examples": [
+        [
+          "He was fishing for information.",
+          "他在試探／套取資料。",
+          "間接地試圖獲得資料、稱讚、反應等"
+        ],
+        [
+          "She was clearly fishing for compliments.",
+          "她很明顯在博取稱讚。",
+          "間接地試圖獲得資料、稱讚、反應等"
         ]
       ],
       "options": [],
@@ -443,63 +455,63 @@ export default {
     },
     {
       "id": "fish-05-0",
-      "sense": "fish-mcq-04",
+      "sense": "fish-pdf-001",
       "en": "He was fishing for information.",
       "zh": "他在試探／套取資料。",
       "masked": "He was ____.",
       "options": [
-        "fish-mcq-04",
+        "fish-pdf-001",
         "fish-mcq-03",
         "fish-mcq-05",
         "fish-mcq-02",
         "fish-mcq-06",
         "fish-mcq-01"
       ],
-      "explanation": "本句的「fishing for information」指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
+      "explanation": "本句的「fishing for information」指「間接地試圖獲得資料、稱讚、反應等」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "fishing for information"
       ],
       "optionReasons": {
-        "fish-mcq-04": "本句指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
+        "fish-pdf-001": "本句指「間接地試圖獲得資料、稱讚、反應等」。",
         "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
         "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
         "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
         "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
         "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。"
       },
-      "correctOption": "fish-mcq-04"
+      "correctOption": "fish-pdf-001"
     },
     {
       "id": "fish-05-1",
-      "sense": "fish-mcq-04",
+      "sense": "fish-pdf-001",
       "en": "She was clearly fishing for compliments.",
       "zh": "她很明顯在博取稱讚。",
       "masked": "She was clearly ____.",
       "options": [
-        "fish-mcq-04",
+        "fish-pdf-001",
         "fish-mcq-03",
         "fish-mcq-05",
         "fish-mcq-02",
         "fish-mcq-06",
         "fish-mcq-01"
       ],
-      "explanation": "本句的「fishing for compliments」指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
+      "explanation": "本句的「fishing for compliments」指「間接地試圖獲得資料、稱讚、反應等」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "fishing for compliments"
       ],
       "optionReasons": {
-        "fish-mcq-04": "本句指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
+        "fish-pdf-001": "本句指「間接地試圖獲得資料、稱讚、反應等」。",
         "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
         "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
         "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
         "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
         "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。"
       },
-      "correctOption": "fish-mcq-04"
+      "correctOption": "fish-pdf-001"
     },
     {
       "id": "fish-06-0",

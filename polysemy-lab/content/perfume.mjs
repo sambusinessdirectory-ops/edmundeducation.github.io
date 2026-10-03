@@ -344,16 +344,28 @@ export default {
           "The perfume counter is on the ground floor.",
           "香水專櫃在地下。",
           "香水專櫃"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "perfume-pdf-001",
+      "title": "香味濃烈／清淡的香水",
+      "form": "15. strong / light perfume — 濃香／淡香",
+      "en": "15. strong / light perfume — 濃香／淡香",
+      "zh": "香味濃烈／清淡的香水",
+      "note": "原始 PDF 第 15 節：香味濃烈／清淡的香水",
+      "examples": [
         [
           "I find that perfume too strong.",
           "我覺得那款香水味太濃。",
-          "香水專櫃"
+          "香味濃烈／清淡的香水"
         ],
         [
           "She prefers a light perfume.",
           "她喜歡較清淡的香水。",
-          "香水專櫃"
+          "香味濃烈／清淡的香水"
         ]
       ],
       "options": [],
@@ -1233,63 +1245,63 @@ export default {
     },
     {
       "id": "perfume-15-0",
-      "sense": "perfume-mcq-16",
+      "sense": "perfume-pdf-001",
       "en": "I find that perfume too strong.",
       "zh": "我覺得那款香水味太濃。",
       "masked": "I find that ____ too strong.",
       "options": [
-        "perfume-mcq-16",
+        "perfume-pdf-001",
         "perfume-mcq-15",
         "perfume-mcq-14",
         "perfume-mcq-13",
         "perfume-mcq-12",
         "perfume-mcq-11"
       ],
-      "explanation": "本句的「perfume」指「香水專櫃」。",
+      "explanation": "本句的「perfume」指「香味濃烈／清淡的香水」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-16": "本句指「香水專櫃」。",
+        "perfume-pdf-001": "本句指「香味濃烈／清淡的香水」。",
         "perfume-mcq-15": "「調香師」與本句語境不同。",
         "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
         "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
         "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
         "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
       },
-      "correctOption": "perfume-mcq-16"
+      "correctOption": "perfume-pdf-001"
     },
     {
       "id": "perfume-15-1",
-      "sense": "perfume-mcq-16",
+      "sense": "perfume-pdf-001",
       "en": "She prefers a light perfume.",
       "zh": "她喜歡較清淡的香水。",
       "masked": "She prefers a ____.",
       "options": [
-        "perfume-mcq-16",
+        "perfume-pdf-001",
         "perfume-mcq-15",
         "perfume-mcq-14",
         "perfume-mcq-13",
         "perfume-mcq-12",
         "perfume-mcq-11"
       ],
-      "explanation": "本句的「light perfume」指「香水專櫃」。",
+      "explanation": "本句的「light perfume」指「香味濃烈／清淡的香水」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "light perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-16": "本句指「香水專櫃」。",
+        "perfume-pdf-001": "本句指「香味濃烈／清淡的香水」。",
         "perfume-mcq-15": "「調香師」與本句語境不同。",
         "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
         "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
         "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
         "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
       },
-      "correctOption": "perfume-mcq-16"
+      "correctOption": "perfume-pdf-001"
     },
     {
       "id": "perfume-16-0",

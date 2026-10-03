@@ -12,33 +12,7 @@ export default {
       "en": "rule",
       "zh": "規則；規定",
       "note": "來源詞義：規則；規定",
-      "examples": [
-        [
-          "Is our present rule proportionate for online fashion?",
-          "我們現行的規定對網上時裝購物而言是否合乎比例？",
-          "規則；規定"
-        ],
-        [
-          "The company introduced a new rule on returns.",
-          "公司推出了一項新的退貨規則。",
-          "規則；規定"
-        ],
-        [
-          "Staff must understand the rule before applying it.",
-          "員工在執行之前必須先理解這項規定。",
-          "規則；規定"
-        ],
-        [
-          "There are exceptions to almost every linguistic rule.",
-          "幾乎每條語言規則／法則都有例外。",
-          "規則；規定"
-        ],
-        [
-          "The rule describes a regular pattern.",
-          "這條規律描述一種固定模式。",
-          "規則；規定"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -881,18 +855,7 @@ export default {
       "en": "business rule",
       "zh": "業務規則",
       "note": "來源詞義：業務規則",
-      "examples": [
-        [
-          "The refund system follows several business rules.",
-          "退款系統遵循多項業務規則。",
-          "業務規則"
-        ],
-        [
-          "One business rule may state that worn items cannot be refunded.",
-          "其中一項業務規則可能規定穿過的商品不得退款。",
-          "業務規則"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1241,18 +1204,7 @@ export default {
       "en": "ruling",
       "zh": "裁決；判決",
       "note": "來源詞義：裁決；判決",
-      "examples": [
-        [
-          "The court issued a ruling.",
-          "法院作出一項裁決。",
-          "裁決；判決"
-        ],
-        [
-          "The ruling may affect other retailers.",
-          "這項裁決可能影響其他零售商。",
-          "裁決；判決"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1295,13 +1247,7 @@ export default {
       "en": "overrule",
       "zh": "推翻／駁回",
       "note": "來源詞義：推翻／駁回",
-      "examples": [
-        [
-          "The manager overruled the employee's decision.",
-          "經理推翻了員工的決定。",
-          "推翻／駁回"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1329,18 +1275,7 @@ export default {
       "en": "rule out",
       "zh": "排除可能性",
       "note": "來源詞義：排除可能性",
-      "examples": [
-        [
-          "We should not rule out a limited refund system.",
-          "我們不應排除有限退款制度的可能性。",
-          "排除可能性"
-        ],
-        [
-          "The evidence ruled out fraud.",
-          "證據排除了欺詐的可能性。",
-          "排除可能性"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1471,13 +1406,7 @@ export default {
       "en": "unruly",
       "zh": "難以控制的",
       "note": "來源詞義：難以控制的",
-      "examples": [
-        [
-          "An unruly crowd caused disruption.",
-          "一群難以控制的人群造成混亂。",
-          "難以控制的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1551,11 +1480,6 @@ export default {
       "note": "來源詞義：X 超棒／最強",
       "examples": [
         [
-          "In informal speech, someone might say, “This band rules!",
-          "在非正式語氣中，X rules! 可以表示「X 超棒／最強！",
-          "X 超棒／最強"
-        ],
-        [
           "Players must know the rules of the game.",
           "參賽者必須了解比賽規則。",
           "X 超棒／最強"
@@ -1568,98 +1492,264 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-001",
+      "title": "用來控制、要求或限制行為的正式規定",
+      "form": "1. rule = instruction controlling what is allowed or required — 規則；規定",
+      "en": "1. rule = instruction controlling what is allowed or required — 規則；規定",
+      "zh": "用來控制、要求或限制行為的正式規定",
+      "note": "原始 PDF 第 1 節：用來控制、要求或限制行為的正式規定",
+      "examples": [
+        [
+          "Is our present rule proportionate for online fashion?",
+          "我們現行的規定對網上時裝購物而言是否合乎比例？",
+          "用來控制、要求或限制行為的正式規定"
+        ],
+        [
+          "The company introduced a new rule on returns.",
+          "公司推出了一項新的退貨規則。",
+          "用來控制、要求或限制行為的正式規定"
+        ],
+        [
+          "Staff must understand the rule before applying it.",
+          "員工在執行之前必須先理解這項規定。",
+          "用來控制、要求或限制行為的正式規定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-002",
+      "title": "描述某個系統一般如何運作的原則或規律",
+      "form": "40. rule = principle describing how something normally works — 法則；規律",
+      "en": "40. rule = principle describing how something normally works — 法則；規律",
+      "zh": "描述某個系統一般如何運作的原則或規律",
+      "note": "原始 PDF 第 40 節：描述某個系統一般如何運作的原則或規律",
+      "examples": [
+        [
+          "There are exceptions to almost every linguistic rule.",
+          "幾乎每條語言規則／法則都有例外。",
+          "描述某個系統一般如何運作的原則或規律"
+        ],
+        [
+          "The rule describes a regular pattern.",
+          "這條規律描述一種固定模式。",
+          "描述某個系統一般如何運作的原則或規律"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-003",
+      "title": "組織用來控制流程、資格、計算或決策邏輯的明確規則",
+      "form": "45. business rule = formal logic/constraint used by a business or system — 業務規則",
+      "en": "45. business rule = formal logic/constraint used by a business or system — 業務規則",
+      "zh": "組織用來控制流程、資格、計算或決策邏輯的明確規則",
+      "note": "原始 PDF 第 45 節：組織用來控制流程、資格、計算或決策邏輯的明確規則",
+      "examples": [
+        [
+          "The refund system follows several business rules.",
+          "退款系統遵循多項業務規則。",
+          "組織用來控制流程、資格、計算或決策邏輯的明確規則"
+        ],
+        [
+          "One business rule may state that worn items cannot be refunded.",
+          "其中一項業務規則可能規定穿過的商品不得退款。",
+          "組織用來控制流程、資格、計算或決策邏輯的明確規則"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-004",
+      "title": "法院、裁判機構或有權機構作出的正式決定",
+      "form": "64. ruling = official decision by court/authority — 裁決；判決",
+      "en": "64. ruling = official decision by court/authority — 裁決；判決",
+      "zh": "法院、裁判機構或有權機構作出的正式決定",
+      "note": "原始 PDF 第 64 節：法院、裁判機構或有權機構作出的正式決定",
+      "examples": [
+        [
+          "The court issued a ruling.",
+          "法院作出一項裁決。",
+          "法院、裁判機構或有權機構作出的正式決定"
+        ],
+        [
+          "The ruling may affect other retailers.",
+          "這項裁決可能影響其他零售商。",
+          "法院、裁判機構或有權機構作出的正式決定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-005",
+      "title": "有較高權力的人／機構否決或改變較低層原本的決定",
+      "form": "67. overrule = reverse/reject a decision made by someone with lower authority — 推翻；駁回",
+      "en": "67. overrule = reverse/reject a decision made by someone with lower authority — 推翻；駁回",
+      "zh": "有較高權力的人／機構否決或改變較低層原本的決定",
+      "note": "原始 PDF 第 67 節：有較高權力的人／機構否決或改變較低層原本的決定",
+      "examples": [
+        [
+          "The manager overruled the employee's decision.",
+          "經理推翻了員工的決定。",
+          "有較高權力的人／機構否決或改變較低層原本的決定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-006",
+      "title": "經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮",
+      "form": "70. rule out = eliminate something as a possibility — 排除可能性",
+      "en": "70. rule out = eliminate something as a possibility — 排除可能性",
+      "zh": "經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮",
+      "note": "原始 PDF 第 70 節：經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮",
+      "examples": [
+        [
+          "We should not rule out a limited refund system.",
+          "我們不應排除有限退款制度的可能性。",
+          "經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮"
+        ],
+        [
+          "The evidence ruled out fraud.",
+          "證據排除了欺詐的可能性。",
+          "經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-007",
+      "title": "不容易被控制、管理或約束的",
+      "form": "77. unruly = difficult to control; not obeying rules — 難以控制的；不守規矩的",
+      "en": "77. unruly = difficult to control; not obeying rules — 難以控制的；不守規矩的",
+      "zh": "不容易被控制、管理或約束的",
+      "note": "原始 PDF 第 77 節：不容易被控制、管理或約束的",
+      "examples": [
+        [
+          "An unruly crowd caused disruption.",
+          "一群難以控制的人群造成混亂。",
+          "不容易被控制、管理或約束的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rule-pdf-008",
+      "title": "informal/slang: X 非常出色、厲害",
+      "form": "81. X rules = X dominates / is extremely good — X 最強／稱霸",
+      "en": "81. X rules = X dominates / is extremely good — X 最強／稱霸",
+      "zh": "informal/slang: X 非常出色、厲害",
+      "note": "原始 PDF 第 81 節：informal/slang: X 非常出色、厲害",
+      "examples": [
+        [
+          "In informal speech, someone might say, “This band rules!",
+          "在非正式語氣中，X rules! 可以表示「X 超棒／最強！",
+          "informal/slang: X 非常出色、厲害"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "rule-01-0",
-      "sense": "rule-mcq-01",
+      "sense": "rule-pdf-001",
       "en": "Is our present rule proportionate for online fashion?",
       "zh": "我們現行的規定對網上時裝購物而言是否合乎比例？",
       "masked": "Is our ____ proportionate for online fashion?",
       "options": [
-        "rule-mcq-01",
+        "rule-pdf-001",
         "rule-mcq-02",
         "rule-mcq-03",
         "rule-mcq-04",
         "rule-mcq-05",
         "rule-mcq-06"
       ],
-      "explanation": "本句的「present rule」指「規則；規定」。",
+      "explanation": "本句的「present rule」指「用來控制、要求或限制行為的正式規定」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "present rule"
       ],
       "optionReasons": {
-        "rule-mcq-01": "本句指「規則；規定」。",
+        "rule-pdf-001": "本句指「用來控制、要求或限制行為的正式規定」。",
         "rule-mcq-02": "「現行規定」與本句語境不同。",
         "rule-mcq-03": "「嚴格規定」與本句語境不同。",
         "rule-mcq-04": "「清晰規則」與本句語境不同。",
         "rule-mcq-05": "「明文規定」與本句語境不同。",
         "rule-mcq-06": "「不成文規定」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-01"
+      "correctOption": "rule-pdf-001"
     },
     {
       "id": "rule-01-1",
-      "sense": "rule-mcq-01",
+      "sense": "rule-pdf-001",
       "en": "The company introduced a new rule on returns.",
       "zh": "公司推出了一項新的退貨規則。",
       "masked": "The company introduced a new ____ on returns.",
       "options": [
-        "rule-mcq-01",
+        "rule-pdf-001",
         "rule-mcq-02",
         "rule-mcq-03",
         "rule-mcq-04",
         "rule-mcq-05",
         "rule-mcq-06"
       ],
-      "explanation": "本句的「rule」指「規則；規定」。",
+      "explanation": "本句的「rule」指「用來控制、要求或限制行為的正式規定」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-01": "本句指「規則；規定」。",
+        "rule-pdf-001": "本句指「用來控制、要求或限制行為的正式規定」。",
         "rule-mcq-02": "「現行規定」與本句語境不同。",
         "rule-mcq-03": "「嚴格規定」與本句語境不同。",
         "rule-mcq-04": "「清晰規則」與本句語境不同。",
         "rule-mcq-05": "「明文規定」與本句語境不同。",
         "rule-mcq-06": "「不成文規定」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-01"
+      "correctOption": "rule-pdf-001"
     },
     {
       "id": "rule-01-2",
-      "sense": "rule-mcq-01",
+      "sense": "rule-pdf-001",
       "en": "Staff must understand the rule before applying it.",
       "zh": "員工在執行之前必須先理解這項規定。",
       "masked": "Staff must understand the ____ before applying it.",
       "options": [
-        "rule-mcq-01",
+        "rule-pdf-001",
         "rule-mcq-02",
         "rule-mcq-03",
         "rule-mcq-04",
         "rule-mcq-05",
         "rule-mcq-06"
       ],
-      "explanation": "本句的「rule」指「規則；規定」。",
+      "explanation": "本句的「rule」指「用來控制、要求或限制行為的正式規定」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-01": "本句指「規則；規定」。",
+        "rule-pdf-001": "本句指「用來控制、要求或限制行為的正式規定」。",
         "rule-mcq-02": "「現行規定」與本句語境不同。",
         "rule-mcq-03": "「嚴格規定」與本句語境不同。",
         "rule-mcq-04": "「清晰規則」與本句語境不同。",
         "rule-mcq-05": "「明文規定」與本句語境不同。",
         "rule-mcq-06": "「不成文規定」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-01"
+      "correctOption": "rule-pdf-001"
     },
     {
       "id": "rule-02-0",
@@ -3763,63 +3853,63 @@ export default {
     },
     {
       "id": "rule-40-0",
-      "sense": "rule-mcq-01",
+      "sense": "rule-pdf-002",
       "en": "There are exceptions to almost every linguistic rule.",
       "zh": "幾乎每條語言規則／法則都有例外。",
       "masked": "There are exceptions to almost every linguistic ____.",
       "options": [
-        "rule-mcq-01",
+        "rule-pdf-002",
         "rule-mcq-02",
         "rule-mcq-03",
         "rule-mcq-04",
         "rule-mcq-05",
         "rule-mcq-06"
       ],
-      "explanation": "本句的「rule」指「規則；規定」。",
+      "explanation": "本句的「rule」指「描述某個系統一般如何運作的原則或規律」。",
       "sentenceIndex": 73,
       "sourcePractice": 1,
       "targets": [
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-01": "本句指「規則；規定」。",
+        "rule-pdf-002": "本句指「描述某個系統一般如何運作的原則或規律」。",
         "rule-mcq-02": "「現行規定」與本句語境不同。",
         "rule-mcq-03": "「嚴格規定」與本句語境不同。",
         "rule-mcq-04": "「清晰規則」與本句語境不同。",
         "rule-mcq-05": "「明文規定」與本句語境不同。",
         "rule-mcq-06": "「不成文規定」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-01"
+      "correctOption": "rule-pdf-002"
     },
     {
       "id": "rule-40-1",
-      "sense": "rule-mcq-01",
+      "sense": "rule-pdf-002",
       "en": "The rule describes a regular pattern.",
       "zh": "這條規律描述一種固定模式。",
       "masked": "The ____ describes a regular pattern.",
       "options": [
-        "rule-mcq-01",
+        "rule-pdf-002",
         "rule-mcq-02",
         "rule-mcq-03",
         "rule-mcq-04",
         "rule-mcq-05",
         "rule-mcq-06"
       ],
-      "explanation": "本句的「rule」指「規則；規定」。",
+      "explanation": "本句的「rule」指「描述某個系統一般如何運作的原則或規律」。",
       "sentenceIndex": 74,
       "sourcePractice": 2,
       "targets": [
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-01": "本句指「規則；規定」。",
+        "rule-pdf-002": "本句指「描述某個系統一般如何運作的原則或規律」。",
         "rule-mcq-02": "「現行規定」與本句語境不同。",
         "rule-mcq-03": "「嚴格規定」與本句語境不同。",
         "rule-mcq-04": "「清晰規則」與本句語境不同。",
         "rule-mcq-05": "「明文規定」與本句語境不同。",
         "rule-mcq-06": "「不成文規定」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-01"
+      "correctOption": "rule-pdf-002"
     },
     {
       "id": "rule-41-0",
@@ -4063,63 +4153,63 @@ export default {
     },
     {
       "id": "rule-45-0",
-      "sense": "rule-mcq-38",
+      "sense": "rule-pdf-003",
       "en": "The refund system follows several business rules.",
       "zh": "退款系統遵循多項業務規則。",
       "masked": "The refund system follows several ____.",
       "options": [
-        "rule-mcq-38",
+        "rule-pdf-003",
         "rule-mcq-37",
         "rule-mcq-39",
         "rule-mcq-36",
         "rule-mcq-40",
         "rule-mcq-35"
       ],
-      "explanation": "本句的「business rules」指「業務規則」。",
+      "explanation": "本句的「business rules」指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
       "sentenceIndex": 83,
       "sourcePractice": 1,
       "targets": [
         "business rules"
       ],
       "optionReasons": {
-        "rule-mcq-38": "本句指「業務規則」。",
+        "rule-pdf-003": "本句指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
         "rule-mcq-37": "「數學規則」與本句語境不同。",
         "rule-mcq-39": "「規則式系統」與本句語境不同。",
         "rule-mcq-36": "「拼字規則」與本句語境不同。",
         "rule-mcq-40": "「法治」與本句語境不同。",
         "rule-mcq-35": "「文法規則」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-38"
+      "correctOption": "rule-pdf-003"
     },
     {
       "id": "rule-45-1",
-      "sense": "rule-mcq-38",
+      "sense": "rule-pdf-003",
       "en": "One business rule may state that worn items cannot be refunded.",
       "zh": "其中一項業務規則可能規定穿過的商品不得退款。",
       "masked": "One business ____ may state that worn items cannot be refunded.",
       "options": [
-        "rule-mcq-38",
+        "rule-pdf-003",
         "rule-mcq-37",
         "rule-mcq-39",
         "rule-mcq-36",
         "rule-mcq-40",
         "rule-mcq-35"
       ],
-      "explanation": "本句的「rule」指「業務規則」。",
+      "explanation": "本句的「rule」指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
       "sentenceIndex": 84,
       "sourcePractice": 2,
       "targets": [
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-38": "本句指「業務規則」。",
+        "rule-pdf-003": "本句指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
         "rule-mcq-37": "「數學規則」與本句語境不同。",
         "rule-mcq-39": "「規則式系統」與本句語境不同。",
         "rule-mcq-36": "「拼字規則」與本句語境不同。",
         "rule-mcq-40": "「法治」與本句語境不同。",
         "rule-mcq-35": "「文法規則」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-38"
+      "correctOption": "rule-pdf-003"
     },
     {
       "id": "rule-46-0",
@@ -5083,63 +5173,63 @@ export default {
     },
     {
       "id": "rule-64-0",
-      "sense": "rule-mcq-54",
+      "sense": "rule-pdf-004",
       "en": "The court issued a ruling.",
       "zh": "法院作出一項裁決。",
       "masked": "The court issued a ____.",
       "options": [
-        "rule-mcq-54",
+        "rule-pdf-004",
         "rule-mcq-53",
         "rule-mcq-55",
         "rule-mcq-52",
         "rule-mcq-56",
         "rule-mcq-51"
       ],
-      "explanation": "本句的「ruling」指「裁決；判決」。",
+      "explanation": "本句的「ruling」指「法院、裁判機構或有權機構作出的正式決定」。",
       "sentenceIndex": 121,
       "sourcePractice": 1,
       "targets": [
         "ruling"
       ],
       "optionReasons": {
-        "rule-mcq-54": "本句指「裁決；判決」。",
+        "rule-pdf-004": "本句指「法院、裁判機構或有權機構作出的正式決定」。",
         "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
         "rule-mcq-55": "「法院裁決」與本句語境不同。",
         "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
         "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
         "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-54"
+      "correctOption": "rule-pdf-004"
     },
     {
       "id": "rule-64-1",
-      "sense": "rule-mcq-54",
+      "sense": "rule-pdf-004",
       "en": "The ruling may affect other retailers.",
       "zh": "這項裁決可能影響其他零售商。",
       "masked": "The ____ may affect other retailers.",
       "options": [
-        "rule-mcq-54",
+        "rule-pdf-004",
         "rule-mcq-53",
         "rule-mcq-55",
         "rule-mcq-52",
         "rule-mcq-56",
         "rule-mcq-51"
       ],
-      "explanation": "本句的「ruling」指「裁決；判決」。",
+      "explanation": "本句的「ruling」指「法院、裁判機構或有權機構作出的正式決定」。",
       "sentenceIndex": 122,
       "sourcePractice": 2,
       "targets": [
         "ruling"
       ],
       "optionReasons": {
-        "rule-mcq-54": "本句指「裁決；判決」。",
+        "rule-pdf-004": "本句指「法院、裁判機構或有權機構作出的正式決定」。",
         "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
         "rule-mcq-55": "「法院裁決」與本句語境不同。",
         "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
         "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
         "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-54"
+      "correctOption": "rule-pdf-004"
     },
     {
       "id": "rule-65-0",
@@ -5263,33 +5353,33 @@ export default {
     },
     {
       "id": "rule-67-0",
-      "sense": "rule-mcq-56",
+      "sense": "rule-pdf-005",
       "en": "The manager overruled the employee's decision.",
       "zh": "經理推翻了員工的決定。",
       "masked": "The manager ____.",
       "options": [
-        "rule-mcq-56",
+        "rule-pdf-005",
         "rule-mcq-55",
         "rule-mcq-57",
         "rule-mcq-54",
         "rule-mcq-58",
         "rule-mcq-53"
       ],
-      "explanation": "本句的「overruled the employee's decision」指「推翻／駁回」。",
+      "explanation": "本句的「overruled the employee's decision」指「有較高權力的人／機構否決或改變較低層原本的決定」。",
       "sentenceIndex": 127,
       "sourcePractice": 1,
       "targets": [
         "overruled the employee's decision"
       ],
       "optionReasons": {
-        "rule-mcq-56": "本句指「推翻／駁回」。",
+        "rule-pdf-005": "本句指「有較高權力的人／機構否決或改變較低層原本的決定」。",
         "rule-mcq-55": "「法院裁決」與本句語境不同。",
         "rule-mcq-57": "「駁回反對」與本句語境不同。",
         "rule-mcq-54": "「裁決；判決」與本句語境不同。",
         "rule-mcq-58": "「排除可能性」與本句語境不同。",
         "rule-mcq-53": "「判某方敗訴」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-56"
+      "correctOption": "rule-pdf-005"
     },
     {
       "id": "rule-68-0",
@@ -5323,63 +5413,63 @@ export default {
     },
     {
       "id": "rule-70-0",
-      "sense": "rule-mcq-58",
+      "sense": "rule-pdf-006",
       "en": "We should not rule out a limited refund system.",
       "zh": "我們不應排除有限退款制度的可能性。",
       "masked": "We should not ____ a limited refund system.",
       "options": [
-        "rule-mcq-58",
+        "rule-pdf-006",
         "rule-mcq-57",
         "rule-mcq-59",
         "rule-mcq-56",
         "rule-mcq-60",
         "rule-mcq-55"
       ],
-      "explanation": "本句的「rule out」指「排除可能性」。",
+      "explanation": "本句的「rule out」指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
       "sentenceIndex": 129,
       "sourcePractice": 1,
       "targets": [
         "rule out"
       ],
       "optionReasons": {
-        "rule-mcq-58": "本句指「排除可能性」。",
+        "rule-pdf-006": "本句指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
         "rule-mcq-57": "「駁回反對」與本句語境不同。",
         "rule-mcq-59": "「排除可能」與本句語境不同。",
         "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
         "rule-mcq-60": "「排除疾病」與本句語境不同。",
         "rule-mcq-55": "「法院裁決」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-58"
+      "correctOption": "rule-pdf-006"
     },
     {
       "id": "rule-70-1",
-      "sense": "rule-mcq-58",
+      "sense": "rule-pdf-006",
       "en": "The evidence ruled out fraud.",
       "zh": "證據排除了欺詐的可能性。",
       "masked": "The evidence ____ out fraud.",
       "options": [
-        "rule-mcq-58",
+        "rule-pdf-006",
         "rule-mcq-57",
         "rule-mcq-59",
         "rule-mcq-56",
         "rule-mcq-60",
         "rule-mcq-55"
       ],
-      "explanation": "本句的「ruled」指「排除可能性」。",
+      "explanation": "本句的「ruled」指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
       "sentenceIndex": 130,
       "sourcePractice": 2,
       "targets": [
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-58": "本句指「排除可能性」。",
+        "rule-pdf-006": "本句指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
         "rule-mcq-57": "「駁回反對」與本句語境不同。",
         "rule-mcq-59": "「排除可能」與本句語境不同。",
         "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
         "rule-mcq-60": "「排除疾病」與本句語境不同。",
         "rule-mcq-55": "「法院裁決」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-58"
+      "correctOption": "rule-pdf-006"
     },
     {
       "id": "rule-71-0",
@@ -5743,33 +5833,33 @@ export default {
     },
     {
       "id": "rule-77-0",
-      "sense": "rule-mcq-64",
+      "sense": "rule-pdf-007",
       "en": "An unruly crowd caused disruption.",
       "zh": "一群難以控制的人群造成混亂。",
       "masked": "An ____ caused disruption.",
       "options": [
-        "rule-mcq-64",
+        "rule-pdf-007",
         "rule-mcq-63",
         "rule-mcq-65",
         "rule-mcq-62",
         "rule-mcq-66",
         "rule-mcq-61"
       ],
-      "explanation": "本句的「unruly crowd」指「難以控制的」。",
+      "explanation": "本句的「unruly crowd」指「不容易被控制、管理或約束的」。",
       "sentenceIndex": 143,
       "sourcePractice": 1,
       "targets": [
         "unruly crowd"
       ],
       "optionReasons": {
-        "rule-mcq-64": "本句指「難以控制的」。",
+        "rule-pdf-007": "本句指「不容易被控制、管理或約束的」。",
         "rule-mcq-63": "「尺；直尺」與本句語境不同。",
         "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
         "rule-mcq-62": "「橫線紙」與本句語境不同。",
         "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
         "rule-mcq-61": "「用尺劃線」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-64"
+      "correctOption": "rule-pdf-007"
     },
     {
       "id": "rule-78-0",
@@ -5923,33 +6013,33 @@ export default {
     },
     {
       "id": "rule-81-0",
-      "sense": "rule-mcq-68",
+      "sense": "rule-pdf-008",
       "en": "In informal speech, someone might say, “This band rules!",
       "zh": "在非正式語氣中，X rules! 可以表示「X 超棒／最強！",
       "masked": "In informal speech, someone might say, “This band ____!",
       "options": [
-        "rule-mcq-68",
+        "rule-pdf-008",
         "rule-mcq-67",
         "rule-mcq-66",
         "rule-mcq-65",
         "rule-mcq-64",
         "rule-mcq-63"
       ],
-      "explanation": "本句的「rules」指「X 超棒／最強」。",
+      "explanation": "本句的「rules」指「informal/slang: X 非常出色、厲害」。",
       "sentenceIndex": 149,
       "sourcePractice": 1,
       "targets": [
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-68": "本句指「X 超棒／最強」。",
+        "rule-pdf-008": "本句指「informal/slang: X 非常出色、厲害」。",
         "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
         "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
         "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
         "rule-mcq-64": "「難以控制的」與本句語境不同。",
         "rule-mcq-63": "「尺；直尺」與本句語境不同。"
       },
-      "correctOption": "rule-mcq-68"
+      "correctOption": "rule-pdf-008"
     },
     {
       "id": "rule-82-0",

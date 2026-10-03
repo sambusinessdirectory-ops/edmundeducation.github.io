@@ -268,16 +268,6 @@ export default {
           "The characters need to feel believable.",
           "角色需要令人覺得真實可信，行為和反應符合現實。",
           "符合現實、邏輯或經驗，因此容易令人相信是真實或可能的"
-        ],
-        [
-          "The actor gave a very believable performance.",
-          "這名演員的演出非常自然可信，令人相信角色真的會這樣反應。",
-          "符合現實、邏輯或經驗，因此容易令人相信是真實或可能的"
-        ],
-        [
-          "The film creates a believable future world.",
-          "這部電影創造了一個雖然虛構但內在合理、令人信服的未來世界。",
-          "符合現實、邏輯或經驗，因此容易令人相信是真實或可能的"
         ]
       ],
       "options": [],
@@ -519,6 +509,28 @@ export default {
           "Her performance was unbelievable.",
           "她的表現精彩得令人難以置信。",
           "程度強烈到令人非常驚訝，可正面表示「非常出色」"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "believe-pdf-001",
+      "title": "即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信",
+      "form": "14. believable = character/performance/world（角色／演出／虛構世界）convincingly realistic — 真實可信的；令人信服",
+      "en": "14. believable = character/performance/world（角色／演出／虛構世界）convincingly realistic — 真實可信的；令人信服",
+      "zh": "即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信",
+      "note": "原始 PDF 第 14 節：即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信",
+      "examples": [
+        [
+          "The actor gave a very believable performance.",
+          "這名演員的演出非常自然可信，令人相信角色真的會這樣反應。",
+          "即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信"
+        ],
+        [
+          "The film creates a believable future world.",
+          "這部電影創造了一個雖然虛構但內在合理、令人信服的未來世界。",
+          "即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信"
         ]
       ],
       "options": [],
@@ -1338,63 +1350,63 @@ export default {
     },
     {
       "id": "believe-14-0",
-      "sense": "believe-mcq-12",
+      "sense": "believe-pdf-001",
       "en": "The actor gave a very believable performance.",
       "zh": "這名演員的演出非常自然可信，令人相信角色真的會這樣反應。",
       "masked": "The actor gave a very ____ performance.",
       "options": [
-        "believe-mcq-12",
+        "believe-pdf-001",
         "believe-mcq-11",
         "believe-mcq-13",
         "believe-mcq-10",
         "believe-mcq-14",
         "believe-mcq-09"
       ],
-      "explanation": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+      "explanation": "本句的「believable」指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "believable"
       ],
       "optionReasons": {
-        "believe-mcq-12": "本句指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+        "believe-pdf-001": "本句指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
         "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
         "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
         "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
         "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
         "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
       },
-      "correctOption": "believe-mcq-12"
+      "correctOption": "believe-pdf-001"
     },
     {
       "id": "believe-14-1",
-      "sense": "believe-mcq-12",
+      "sense": "believe-pdf-001",
       "en": "The film creates a believable future world.",
       "zh": "這部電影創造了一個雖然虛構但內在合理、令人信服的未來世界。",
       "masked": "The film creates a ____ future world.",
       "options": [
-        "believe-mcq-12",
+        "believe-pdf-001",
         "believe-mcq-11",
         "believe-mcq-13",
         "believe-mcq-10",
         "believe-mcq-14",
         "believe-mcq-09"
       ],
-      "explanation": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+      "explanation": "本句的「believable」指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "believable"
       ],
       "optionReasons": {
-        "believe-mcq-12": "本句指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+        "believe-pdf-001": "本句指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
         "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
         "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
         "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
         "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
         "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
       },
-      "correctOption": "believe-mcq-12"
+      "correctOption": "believe-pdf-001"
     },
     {
       "id": "believe-15-0",

@@ -61,18 +61,7 @@ export default {
       "en": "lifeless — face/voice/person",
       "zh": "缺乏表情、精神或情緒；呆滯的、毫無神采的",
       "note": "來源詞義：缺乏表情、精神或情緒；呆滯的、毫無神采的",
-      "examples": [
-        [
-          "His eyes looked lifeless.",
-          "他的眼神看起來很呆滯／毫無神采。",
-          "缺乏表情、精神或情緒；呆滯的、毫無神采的"
-        ],
-        [
-          "She spoke in a flat, lifeless voice.",
-          "她用一種平淡而毫無生氣的聲音說話。",
-          "缺乏表情、精神或情緒；呆滯的、毫無神采的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -149,6 +138,28 @@ export default {
           "The landscape seemed dry and lifeless.",
           "那片景觀看起來乾枯而缺乏生命氣息。",
           "沒有明顯活動、動作或生命跡象"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "lifeless-pdf-001",
+      "title": "表情、眼神、聲音或動作缺乏情緒、精神或活力",
+      "form": "3. lifeless = expressionless / without animation（人／臉／聲音） — 呆滯的；毫無表情的",
+      "en": "3. lifeless = expressionless / without animation（人／臉／聲音） — 呆滯的；毫無表情的",
+      "zh": "表情、眼神、聲音或動作缺乏情緒、精神或活力",
+      "note": "原始 PDF 第 3 節：表情、眼神、聲音或動作缺乏情緒、精神或活力",
+      "examples": [
+        [
+          "His eyes looked lifeless.",
+          "他的眼神看起來很呆滯／毫無神采。",
+          "表情、眼神、聲音或動作缺乏情緒、精神或活力"
+        ],
+        [
+          "She spoke in a flat, lifeless voice.",
+          "她用一種平淡而毫無生氣的聲音說話。",
+          "表情、眼神、聲音或動作缺乏情緒、精神或活力"
         ]
       ],
       "options": [],
@@ -308,63 +319,63 @@ export default {
     },
     {
       "id": "lifeless-03-0",
-      "sense": "lifeless-mcq-03",
+      "sense": "lifeless-pdf-001",
       "en": "His eyes looked lifeless.",
       "zh": "他的眼神看起來很呆滯／毫無神采。",
       "masked": "His eyes looked ____.",
       "options": [
-        "lifeless-mcq-03",
+        "lifeless-pdf-001",
         "lifeless-mcq-02",
         "lifeless-mcq-04",
         "lifeless-mcq-01",
         "lifeless-mcq-05",
         "lifeless-mcq-06"
       ],
-      "explanation": "本句的「lifeless」指「缺乏表情、精神或情緒；呆滯的、毫無神采的」。",
+      "explanation": "本句的「lifeless」指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-03": "本句指「缺乏表情、精神或情緒；呆滯的、毫無神采的」。",
+        "lifeless-pdf-001": "本句指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
         "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
         "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
         "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
         "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
         "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
       },
-      "correctOption": "lifeless-mcq-03"
+      "correctOption": "lifeless-pdf-001"
     },
     {
       "id": "lifeless-03-1",
-      "sense": "lifeless-mcq-03",
+      "sense": "lifeless-pdf-001",
       "en": "She spoke in a flat, lifeless voice.",
       "zh": "她用一種平淡而毫無生氣的聲音說話。",
       "masked": "She spoke in a flat, ____ voice.",
       "options": [
-        "lifeless-mcq-03",
+        "lifeless-pdf-001",
         "lifeless-mcq-02",
         "lifeless-mcq-04",
         "lifeless-mcq-01",
         "lifeless-mcq-05",
         "lifeless-mcq-06"
       ],
-      "explanation": "本句的「lifeless」指「缺乏表情、精神或情緒；呆滯的、毫無神采的」。",
+      "explanation": "本句的「lifeless」指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-03": "本句指「缺乏表情、精神或情緒；呆滯的、毫無神采的」。",
+        "lifeless-pdf-001": "本句指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
         "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
         "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
         "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
         "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
         "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
       },
-      "correctOption": "lifeless-mcq-03"
+      "correctOption": "lifeless-pdf-001"
     },
     {
       "id": "lifeless-04-0",

@@ -313,16 +313,6 @@ export default {
           "The money was divided evenly among the students.",
           "那筆錢在學生之間平均分配。",
           "以各部分數量、程度或分布相近的方式"
-        ],
-        [
-          "She breathed slowly and evenly.",
-          "她緩慢而平穩地呼吸。",
-          "以各部分數量、程度或分布相近的方式"
-        ],
-        [
-          "He spoke evenly despite his anger.",
-          "儘管他很生氣，仍然語氣平穩地說話。",
-          "以各部分數量、程度或分布相近的方式"
         ]
       ],
       "options": [],
@@ -455,6 +445,28 @@ export default {
           "His manner remained calm and even.",
           "他的態度一直保持平靜而穩定。",
           "情緒不容易劇烈起伏，能保持冷靜穩定的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "even-pdf-001",
+      "title": "以沒有明顯波動、起伏或突然變化的方式",
+      "form": "16. evenly = calmly / steadily（說話／呼吸） — 平穩地；均勻地",
+      "en": "16. evenly = calmly / steadily（說話／呼吸） — 平穩地；均勻地",
+      "zh": "以沒有明顯波動、起伏或突然變化的方式",
+      "note": "原始 PDF 第 16 節：以沒有明顯波動、起伏或突然變化的方式",
+      "examples": [
+        [
+          "She breathed slowly and evenly.",
+          "她緩慢而平穩地呼吸。",
+          "以沒有明顯波動、起伏或突然變化的方式"
+        ],
+        [
+          "He spoke evenly despite his anger.",
+          "儘管他很生氣，仍然語氣平穩地說話。",
+          "以沒有明顯波動、起伏或突然變化的方式"
         ]
       ],
       "options": [],
@@ -1394,63 +1406,63 @@ export default {
     },
     {
       "id": "even-16-0",
-      "sense": "even-mcq-14",
+      "sense": "even-pdf-001",
       "en": "She breathed slowly and evenly.",
       "zh": "她緩慢而平穩地呼吸。",
       "masked": "She breathed slowly and ____.",
       "options": [
-        "even-mcq-14",
+        "even-pdf-001",
         "even-mcq-13",
         "even-mcq-15",
         "even-mcq-12",
         "even-mcq-16",
         "even-mcq-11"
       ],
-      "explanation": "本句的「evenly」指「以各部分數量、程度或分布相近的方式」。",
+      "explanation": "本句的「evenly」指「以沒有明顯波動、起伏或突然變化的方式」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "evenly"
       ],
       "optionReasons": {
-        "even-mcq-14": "本句指「以各部分數量、程度或分布相近的方式」。",
+        "even-pdf-001": "本句指「以沒有明顯波動、起伏或突然變化的方式」。",
         "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
         "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
         "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
         "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
         "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。"
       },
-      "correctOption": "even-mcq-14"
+      "correctOption": "even-pdf-001"
     },
     {
       "id": "even-16-1",
-      "sense": "even-mcq-14",
+      "sense": "even-pdf-001",
       "en": "He spoke evenly despite his anger.",
       "zh": "儘管他很生氣，仍然語氣平穩地說話。",
       "masked": "He spoke ____ despite his anger.",
       "options": [
-        "even-mcq-14",
+        "even-pdf-001",
         "even-mcq-13",
         "even-mcq-15",
         "even-mcq-12",
         "even-mcq-16",
         "even-mcq-11"
       ],
-      "explanation": "本句的「evenly」指「以各部分數量、程度或分布相近的方式」。",
+      "explanation": "本句的「evenly」指「以沒有明顯波動、起伏或突然變化的方式」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "evenly"
       ],
       "optionReasons": {
-        "even-mcq-14": "本句指「以各部分數量、程度或分布相近的方式」。",
+        "even-pdf-001": "本句指「以沒有明顯波動、起伏或突然變化的方式」。",
         "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
         "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
         "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
         "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
         "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。"
       },
-      "correctOption": "even-mcq-14"
+      "correctOption": "even-pdf-001"
     },
     {
       "id": "even-17-0",

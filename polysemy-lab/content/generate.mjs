@@ -830,16 +830,6 @@ export default {
           "The generator started automatically during the outage.",
           "停電期間發電機自動啟動。",
           "發電機 machine"
-        ],
-        [
-          "The group has a single generator.",
-          "這個群有一個生成元。",
-          "發電機 machine"
-        ],
-        [
-          "Repeated application of the generator produces the other elements.",
-          "重複運用該生成元可以得到其他元素。",
-          "發電機 machine"
         ]
       ],
       "options": [],
@@ -1601,26 +1591,6 @@ export default {
       "note": "來源詞義：代溝 age differences",
       "examples": [
         [
-          "Idea generation is only the first stage.",
-          "產生想法只是第一階段。",
-          "代溝 age differences"
-        ],
-        [
-          "The system automates report generation.",
-          "系統把報告生成自動化。",
-          "代溝 age differences"
-        ],
-        [
-          "Younger generations often use technology differently.",
-          "較年輕的世代使用科技的方式往往不同。",
-          "代溝 age differences"
-        ],
-        [
-          "Each generation faces different challenges.",
-          "每一代人都面對不同挑戰。",
-          "代溝 age differences"
-        ],
-        [
           "Different attitudes can create a generation gap.",
           "不同態度可能造成代溝。",
           "代溝 age differences"
@@ -1628,16 +1598,6 @@ export default {
         [
           "Technology sometimes widens the generation gap.",
           "科技有時會擴大世代差異／代溝。",
-          "代溝 age differences"
-        ],
-        [
-          "Three generations of the family live together.",
-          "一家三代同堂。",
-          "代溝 age differences"
-        ],
-        [
-          "The business has remained in the family for four generations.",
-          "這門生意已在家族中傳承了四代。",
           "代溝 age differences"
         ]
       ],
@@ -1925,6 +1885,94 @@ export default {
       "zh": "城市更新 urban renewal",
       "note": "來源詞義：城市更新 urban renewal",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "generate-pdf-plain-076",
+      "title": "產生或生成某種事物的過程",
+      "form": "PDF section 76",
+      "en": "PDF section 76",
+      "zh": "產生或生成某種事物的過程",
+      "note": "原始 PDF 第 76 節：產生或生成某種事物的過程",
+      "examples": [
+        [
+          "Idea generation is only the first stage.",
+          "產生想法只是第一階段。",
+          "產生或生成某種事物的過程"
+        ],
+        [
+          "The system automates report generation.",
+          "系統把報告生成自動化。",
+          "產生或生成某種事物的過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "generate-pdf-plain-080",
+      "title": "出生於相近時期的一代人；世代",
+      "form": "PDF section 80",
+      "en": "PDF section 80",
+      "zh": "出生於相近時期的一代人；世代",
+      "note": "原始 PDF 第 80 節：出生於相近時期的一代人；世代",
+      "examples": [
+        [
+          "Younger generations often use technology differently.",
+          "較年輕的世代使用科技的方式往往不同。",
+          "出生於相近時期的一代人；世代"
+        ],
+        [
+          "Each generation faces different challenges.",
+          "每一代人都面對不同挑戰。",
+          "出生於相近時期的一代人；世代"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "generate-pdf-plain-091",
+      "title": "家族中的一代",
+      "form": "PDF section 91",
+      "en": "PDF section 91",
+      "zh": "家族中的一代",
+      "note": "原始 PDF 第 91 節：家族中的一代",
+      "examples": [
+        [
+          "Three generations of the family live together.",
+          "一家三代同堂。",
+          "家族中的一代"
+        ],
+        [
+          "The business has remained in the family for four generations.",
+          "這門生意已在家族中傳承了四代。",
+          "家族中的一代"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "generate-pdf-plain-103",
+      "title": "生成元",
+      "form": "PDF section 103",
+      "en": "PDF section 103",
+      "zh": "生成元",
+      "note": "原始 PDF 第 103 節：生成元",
+      "examples": [
+        [
+          "The group has a single generator.",
+          "這個群有一個生成元。",
+          "生成元"
+        ],
+        [
+          "Repeated application of the generator produces the other elements.",
+          "重複運用該生成元可以得到其他元素。",
+          "生成元"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -5802,63 +5850,63 @@ export default {
     },
     {
       "id": "generate-76-0",
-      "sense": "generate-mcq-76",
+      "sense": "generate-pdf-plain-076",
       "en": "Idea generation is only the first stage.",
       "zh": "產生想法只是第一階段。",
       "masked": "Idea ____ is only the first stage.",
       "options": [
-        "generate-mcq-76",
+        "generate-pdf-plain-076",
         "generate-mcq-75",
         "generate-mcq-77",
         "generate-mcq-74",
         "generate-mcq-78",
         "generate-mcq-73"
       ],
-      "explanation": "本句的「generation」指「代溝 age differences」。",
+      "explanation": "本句的「generation」指「產生或生成某種事物的過程」。",
       "sentenceIndex": 151,
       "sourcePractice": 76,
       "targets": [
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
+        "generate-pdf-plain-076": "本句指「產生或生成某種事物的過程」。",
         "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
         "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
         "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
         "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
         "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-76"
+      "correctOption": "generate-pdf-plain-076"
     },
     {
       "id": "generate-76-1",
-      "sense": "generate-mcq-76",
+      "sense": "generate-pdf-plain-076",
       "en": "The system automates report generation.",
       "zh": "系統把報告生成自動化。",
       "masked": "The system automates report ____.",
       "options": [
-        "generate-mcq-76",
+        "generate-pdf-plain-076",
         "generate-mcq-75",
         "generate-mcq-77",
         "generate-mcq-74",
         "generate-mcq-78",
         "generate-mcq-73"
       ],
-      "explanation": "本句的「generation」指「代溝 age differences」。",
+      "explanation": "本句的「generation」指「產生或生成某種事物的過程」。",
       "sentenceIndex": 152,
       "sourcePractice": 76,
       "targets": [
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
+        "generate-pdf-plain-076": "本句指「產生或生成某種事物的過程」。",
         "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
         "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
         "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
         "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
         "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-76"
+      "correctOption": "generate-pdf-plain-076"
     },
     {
       "id": "generate-77-0",
@@ -6042,63 +6090,63 @@ export default {
     },
     {
       "id": "generate-80-0",
-      "sense": "generate-mcq-76",
+      "sense": "generate-pdf-plain-080",
       "en": "Younger generations often use technology differently.",
       "zh": "較年輕的世代使用科技的方式往往不同。",
       "masked": "Younger ____ often use technology differently.",
       "options": [
-        "generate-mcq-76",
+        "generate-pdf-plain-080",
         "generate-mcq-75",
         "generate-mcq-77",
         "generate-mcq-74",
         "generate-mcq-78",
         "generate-mcq-73"
       ],
-      "explanation": "本句的「generations」指「代溝 age differences」。",
+      "explanation": "本句的「generations」指「出生於相近時期的一代人；世代」。",
       "sentenceIndex": 159,
       "sourcePractice": 80,
       "targets": [
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
+        "generate-pdf-plain-080": "本句指「出生於相近時期的一代人；世代」。",
         "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
         "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
         "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
         "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
         "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-76"
+      "correctOption": "generate-pdf-plain-080"
     },
     {
       "id": "generate-80-1",
-      "sense": "generate-mcq-76",
+      "sense": "generate-pdf-plain-080",
       "en": "Each generation faces different challenges.",
       "zh": "每一代人都面對不同挑戰。",
       "masked": "Each ____ faces different challenges.",
       "options": [
-        "generate-mcq-76",
+        "generate-pdf-plain-080",
         "generate-mcq-75",
         "generate-mcq-77",
         "generate-mcq-74",
         "generate-mcq-78",
         "generate-mcq-73"
       ],
-      "explanation": "本句的「generation」指「代溝 age differences」。",
+      "explanation": "本句的「generation」指「出生於相近時期的一代人；世代」。",
       "sentenceIndex": 160,
       "sourcePractice": 80,
       "targets": [
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
+        "generate-pdf-plain-080": "本句指「出生於相近時期的一代人；世代」。",
         "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
         "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
         "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
         "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
         "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-76"
+      "correctOption": "generate-pdf-plain-080"
     },
     {
       "id": "generate-82-0",
@@ -6342,63 +6390,63 @@ export default {
     },
     {
       "id": "generate-91-0",
-      "sense": "generate-mcq-76",
+      "sense": "generate-pdf-plain-091",
       "en": "Three generations of the family live together.",
       "zh": "一家三代同堂。",
       "masked": "Three ____ of the family live together.",
       "options": [
-        "generate-mcq-76",
+        "generate-pdf-plain-091",
         "generate-mcq-75",
         "generate-mcq-77",
         "generate-mcq-74",
         "generate-mcq-78",
         "generate-mcq-73"
       ],
-      "explanation": "本句的「generations」指「代溝 age differences」。",
+      "explanation": "本句的「generations」指「家族中的一代」。",
       "sentenceIndex": 175,
       "sourcePractice": 91,
       "targets": [
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
+        "generate-pdf-plain-091": "本句指「家族中的一代」。",
         "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
         "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
         "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
         "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
         "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-76"
+      "correctOption": "generate-pdf-plain-091"
     },
     {
       "id": "generate-91-1",
-      "sense": "generate-mcq-76",
+      "sense": "generate-pdf-plain-091",
       "en": "The business has remained in the family for four generations.",
       "zh": "這門生意已在家族中傳承了四代。",
       "masked": "The business has remained in the family for four ____.",
       "options": [
-        "generate-mcq-76",
+        "generate-pdf-plain-091",
         "generate-mcq-75",
         "generate-mcq-77",
         "generate-mcq-74",
         "generate-mcq-78",
         "generate-mcq-73"
       ],
-      "explanation": "本句的「generations」指「代溝 age differences」。",
+      "explanation": "本句的「generations」指「家族中的一代」。",
       "sentenceIndex": 176,
       "sourcePractice": 91,
       "targets": [
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
+        "generate-pdf-plain-091": "本句指「家族中的一代」。",
         "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
         "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
         "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
         "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
         "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-76"
+      "correctOption": "generate-pdf-plain-091"
     },
     {
       "id": "generate-92-0",
@@ -6822,63 +6870,63 @@ export default {
     },
     {
       "id": "generate-103-0",
-      "sense": "generate-mcq-38",
+      "sense": "generate-pdf-plain-103",
       "en": "The group has a single generator.",
       "zh": "這個群有一個生成元。",
       "masked": "The group has a single ____.",
       "options": [
-        "generate-mcq-38",
+        "generate-pdf-plain-103",
         "generate-mcq-37",
         "generate-mcq-39",
         "generate-mcq-36",
         "generate-mcq-40",
         "generate-mcq-41"
       ],
-      "explanation": "本句的「generator」指「發電機 machine」。",
+      "explanation": "本句的「generator」指「生成元」。",
       "sentenceIndex": 197,
       "sourcePractice": 103,
       "targets": [
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-38": "本句指「發電機 machine」。",
+        "generate-pdf-plain-103": "本句指「生成元」。",
         "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
         "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
         "generate-mcq-36": "「發電 electricity」與本句語境不同。",
         "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
         "generate-mcq-41": "「產生光 physics」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-38"
+      "correctOption": "generate-pdf-plain-103"
     },
     {
       "id": "generate-103-1",
-      "sense": "generate-mcq-38",
+      "sense": "generate-pdf-plain-103",
       "en": "Repeated application of the generator produces the other elements.",
       "zh": "重複運用該生成元可以得到其他元素。",
       "masked": "Repeated application of the ____ produces the other elements.",
       "options": [
-        "generate-mcq-38",
+        "generate-pdf-plain-103",
         "generate-mcq-37",
         "generate-mcq-39",
         "generate-mcq-36",
         "generate-mcq-40",
         "generate-mcq-41"
       ],
-      "explanation": "本句的「generator」指「發電機 machine」。",
+      "explanation": "本句的「generator」指「生成元」。",
       "sentenceIndex": 198,
       "sourcePractice": 103,
       "targets": [
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-38": "本句指「發電機 machine」。",
+        "generate-pdf-plain-103": "本句指「生成元」。",
         "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
         "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
         "generate-mcq-36": "「發電 electricity」與本句語境不同。",
         "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
         "generate-mcq-41": "「產生光 physics」與本句語境不同。"
       },
-      "correctOption": "generate-mcq-38"
+      "correctOption": "generate-pdf-plain-103"
     }
   ],
   "comparisons": [],

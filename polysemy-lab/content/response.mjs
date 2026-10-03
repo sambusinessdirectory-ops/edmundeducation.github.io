@@ -253,11 +253,6 @@ export default {
       "note": "來源詞義：對法律申請／上訴作出答辯的一方",
       "examples": [
         [
-          "Most respondents were university students.",
-          "大部分受訪者都是大學生。",
-          "對法律申請／上訴作出答辯的一方"
-        ],
-        [
           "The respondent filed written arguments.",
           "答辯人提交了書面陳詞。",
           "對法律申請／上訴作出答辯的一方"
@@ -659,16 +654,6 @@ export default {
           "Check whether the person is responsive.",
           "檢查該人士是否有反應。",
           "對聲音、疼痛等刺激能作出反應的"
-        ],
-        [
-          "The website has a responsive design.",
-          "這個網站採用響應式設計。",
-          "對聲音、疼痛等刺激能作出反應的"
-        ],
-        [
-          "Responsive pages adapt to different screen sizes.",
-          "響應式網頁會適應不同螢幕尺寸。",
-          "對聲音、疼痛等刺激能作出反應的"
         ]
       ],
       "options": [],
@@ -856,6 +841,45 @@ export default {
           "Pulling your hand away can be a reflex response.",
           "把手縮回可能是一種反射反應。",
           "由神經系統快速自動產生的反射性反應"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "response-pdf-001",
+      "title": "回答問卷、訪問或調查的人",
+      "form": "19. respondent = person who answers a survey — 受訪者；答卷者",
+      "en": "19. respondent = person who answers a survey — 受訪者；答卷者",
+      "zh": "回答問卷、訪問或調查的人",
+      "note": "原始 PDF 第 19 節：回答問卷、訪問或調查的人",
+      "examples": [
+        [
+          "Most respondents were university students.",
+          "大部分受訪者都是大學生。",
+          "回答問卷、訪問或調查的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "response-pdf-002",
+      "title": "網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整",
+      "form": "64. responsive = automatically adapting to screen/device size — 響應式的；自適應的",
+      "en": "64. responsive = automatically adapting to screen/device size — 響應式的；自適應的",
+      "zh": "網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整",
+      "note": "原始 PDF 第 64 節：網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整",
+      "examples": [
+        [
+          "The website has a responsive design.",
+          "這個網站採用響應式設計。",
+          "網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整"
+        ],
+        [
+          "Responsive pages adapt to different screen sizes.",
+          "響應式網頁會適應不同螢幕尺寸。",
+          "網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整"
         ]
       ],
       "options": [],
@@ -1465,33 +1489,33 @@ export default {
     },
     {
       "id": "response-19-0",
-      "sense": "response-mcq-12",
+      "sense": "response-pdf-001",
       "en": "Most respondents were university students.",
       "zh": "大部分受訪者都是大學生。",
       "masked": "Most ____ were university students.",
       "options": [
-        "response-mcq-12",
+        "response-pdf-001",
         "response-mcq-11",
         "response-mcq-13",
         "response-mcq-10",
         "response-mcq-14",
         "response-mcq-09"
       ],
-      "explanation": "本句的「respondents」指「對法律申請／上訴作出答辯的一方」。",
+      "explanation": "本句的「respondents」指「回答問卷、訪問或調查的人」。",
       "sentenceIndex": 36,
       "sourcePractice": 19,
       "targets": [
         "respondents"
       ],
       "optionReasons": {
-        "response-mcq-12": "本句指「對法律申請／上訴作出答辯的一方」。",
+        "response-pdf-001": "本句指「回答問卷、訪問或調查的人」。",
         "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
         "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。",
         "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
         "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
         "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。"
       },
-      "correctOption": "response-mcq-12"
+      "correctOption": "response-pdf-001"
     },
     {
       "id": "response-20-0",
@@ -2635,63 +2659,63 @@ export default {
     },
     {
       "id": "response-64-0",
-      "sense": "response-mcq-30",
+      "sense": "response-pdf-002",
       "en": "The website has a responsive design.",
       "zh": "這個網站採用響應式設計。",
       "masked": "The website has a ____.",
       "options": [
-        "response-mcq-30",
+        "response-pdf-002",
         "response-mcq-29",
         "response-mcq-31",
         "response-mcq-28",
         "response-mcq-32",
         "response-mcq-27"
       ],
-      "explanation": "本句的「responsive design」指「對聲音、疼痛等刺激能作出反應的」。",
+      "explanation": "本句的「responsive design」指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
       "sentenceIndex": 111,
       "sourcePractice": 64,
       "targets": [
         "responsive design"
       ],
       "optionReasons": {
-        "response-mcq-30": "本句指「對聲音、疼痛等刺激能作出反應的」。",
+        "response-pdf-002": "本句指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
         "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
         "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
         "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
         "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
         "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
       },
-      "correctOption": "response-mcq-30"
+      "correctOption": "response-pdf-002"
     },
     {
       "id": "response-64-1",
-      "sense": "response-mcq-30",
+      "sense": "response-pdf-002",
       "en": "Responsive pages adapt to different screen sizes.",
       "zh": "響應式網頁會適應不同螢幕尺寸。",
       "masked": "____ pages adapt to different screen sizes.",
       "options": [
-        "response-mcq-30",
+        "response-pdf-002",
         "response-mcq-29",
         "response-mcq-31",
         "response-mcq-28",
         "response-mcq-32",
         "response-mcq-27"
       ],
-      "explanation": "本句的「Responsive」指「對聲音、疼痛等刺激能作出反應的」。",
+      "explanation": "本句的「Responsive」指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
       "sentenceIndex": 112,
       "sourcePractice": 64,
       "targets": [
         "Responsive"
       ],
       "optionReasons": {
-        "response-mcq-30": "本句指「對聲音、疼痛等刺激能作出反應的」。",
+        "response-pdf-002": "本句指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
         "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
         "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
         "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
         "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
         "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
       },
-      "correctOption": "response-mcq-30"
+      "correctOption": "response-pdf-002"
     },
     {
       "id": "response-66-0",

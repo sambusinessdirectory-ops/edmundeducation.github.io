@@ -71,16 +71,6 @@ export default {
           "The photography competition attracted hundreds of entries.",
           "這個攝影比賽吸引了數百份參賽作品。",
           "有正式規則、參賽者和結果的比賽／競賽"
-        ],
-        [
-          "The teams are in direct competition.",
-          "各隊正直接競逐／較量。",
-          "有正式規則、參賽者和結果的比賽／競賽"
-        ],
-        [
-          "The award created healthy competition among the students.",
-          "這個獎項在學生之間形成了良性的競爭。",
-          "有正式規則、參賽者和結果的比賽／競賽"
         ]
       ],
       "options": [],
@@ -288,11 +278,6 @@ export default {
           "The shop offers competitive prices.",
           "這間店提供有競爭力的價格。",
           "與其他市場價格相比具有足夠吸引力的價格"
-        ],
-        [
-          "The products are competitively priced.",
-          "這些產品的定價具競爭力。",
-          "與其他市場價格相比具有足夠吸引力的價格"
         ]
       ],
       "options": [],
@@ -315,6 +300,45 @@ export default {
           "The activity is non-competitive.",
           "這項活動是非競賽性／不強調競爭的。",
           "令企業比競爭對手更容易取得市場優勢的特點"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "competition-pdf-001",
+      "title": "為取得同一目標而持續比較、較量的過程",
+      "form": "4. competition = the act/process of competing — 競逐；較量",
+      "en": "4. competition = the act/process of competing — 競逐；較量",
+      "zh": "為取得同一目標而持續比較、較量的過程",
+      "note": "原始 PDF 第 4 節：為取得同一目標而持續比較、較量的過程",
+      "examples": [
+        [
+          "The teams are in direct competition.",
+          "各隊正直接競逐／較量。",
+          "為取得同一目標而持續比較、較量的過程"
+        ],
+        [
+          "The award created healthy competition among the students.",
+          "這個獎項在學生之間形成了良性的競爭。",
+          "為取得同一目標而持續比較、較量的過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "competition-pdf-002",
+      "title": "價格設定得足以和市場其他選項競爭",
+      "form": "17. competitively priced = 價格具競爭力的",
+      "en": "17. competitively priced = 價格具競爭力的",
+      "zh": "價格設定得足以和市場其他選項競爭",
+      "note": "原始 PDF 第 17 節：價格設定得足以和市場其他選項競爭",
+      "examples": [
+        [
+          "The products are competitively priced.",
+          "這些產品的定價具競爭力。",
+          "價格設定得足以和市場其他選項競爭"
         ]
       ],
       "options": [],
@@ -534,63 +558,63 @@ export default {
     },
     {
       "id": "competition-04-0",
-      "sense": "competition-mcq-03",
+      "sense": "competition-pdf-001",
       "en": "The teams are in direct competition.",
       "zh": "各隊正直接競逐／較量。",
       "masked": "The teams are in direct ____.",
       "options": [
-        "competition-mcq-03",
+        "competition-pdf-001",
         "competition-mcq-02",
         "competition-mcq-04",
         "competition-mcq-01",
         "competition-mcq-05",
         "competition-mcq-06"
       ],
-      "explanation": "本句的「competition」指「有正式規則、參賽者和結果的比賽／競賽」。",
+      "explanation": "本句的「competition」指「為取得同一目標而持續比較、較量的過程」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-03": "本句指「有正式規則、參賽者和結果的比賽／競賽」。",
+        "competition-pdf-001": "本句指「為取得同一目標而持續比較、較量的過程」。",
         "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
         "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
         "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
         "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
         "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
       },
-      "correctOption": "competition-mcq-03"
+      "correctOption": "competition-pdf-001"
     },
     {
       "id": "competition-04-1",
-      "sense": "competition-mcq-03",
+      "sense": "competition-pdf-001",
       "en": "The award created healthy competition among the students.",
       "zh": "這個獎項在學生之間形成了良性的競爭。",
       "masked": "The award created healthy ____ among the students.",
       "options": [
-        "competition-mcq-03",
+        "competition-pdf-001",
         "competition-mcq-02",
         "competition-mcq-04",
         "competition-mcq-01",
         "competition-mcq-05",
         "competition-mcq-06"
       ],
-      "explanation": "本句的「competition」指「有正式規則、參賽者和結果的比賽／競賽」。",
+      "explanation": "本句的「competition」指「為取得同一目標而持續比較、較量的過程」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-03": "本句指「有正式規則、參賽者和結果的比賽／競賽」。",
+        "competition-pdf-001": "本句指「為取得同一目標而持續比較、較量的過程」。",
         "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
         "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
         "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
         "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
         "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
       },
-      "correctOption": "competition-mcq-03"
+      "correctOption": "competition-pdf-001"
     },
     {
       "id": "competition-05-0",
@@ -984,33 +1008,33 @@ export default {
     },
     {
       "id": "competition-17-0",
-      "sense": "competition-mcq-15",
+      "sense": "competition-pdf-002",
       "en": "The products are competitively priced.",
       "zh": "這些產品的定價具競爭力。",
       "masked": "The products are ____.",
       "options": [
-        "competition-mcq-15",
+        "competition-pdf-002",
         "competition-mcq-14",
         "competition-mcq-16",
         "competition-mcq-13",
         "competition-mcq-12",
         "competition-mcq-11"
       ],
-      "explanation": "本句的「competitively priced」指「與其他市場價格相比具有足夠吸引力的價格」。",
+      "explanation": "本句的「competitively priced」指「價格設定得足以和市場其他選項競爭」。",
       "sentenceIndex": 22,
       "sourcePractice": 34,
       "targets": [
         "competitively priced"
       ],
       "optionReasons": {
-        "competition-mcq-15": "本句指「與其他市場價格相比具有足夠吸引力的價格」。",
+        "competition-pdf-002": "本句指「價格設定得足以和市場其他選項競爭」。",
         "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
         "competition-mcq-16": "「令企業比競爭對手更容易取得市場優勢的特點」與本句語境不同。",
         "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
         "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
         "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。"
       },
-      "correctOption": "competition-mcq-15"
+      "correctOption": "competition-pdf-002"
     },
     {
       "id": "competition-19-0",

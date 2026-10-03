@@ -118,26 +118,6 @@ export default {
       "note": "來源詞義：修復關係",
       "examples": [
         [
-          "They are trying to mend their relationship.",
-          "他們正嘗試修補彼此的關係。",
-          "修復關係"
-        ],
-        [
-          "The apology helped mend the friendship.",
-          "那次道歉有助修復友誼。",
-          "修復關係"
-        ],
-        [
-          "They talked honestly and mended their friendship.",
-          "他們坦誠地談過後，修復了友誼。",
-          "修復關係"
-        ],
-        [
-          "It took months to mend the friendship.",
-          "他們花了幾個月才修補好這段友誼。",
-          "修復關係"
-        ],
-        [
           "Trust is essential if you want to mend a relationship.",
           "如果你想修復關係，信任很重要。",
           "修復關係"
@@ -322,6 +302,50 @@ export default {
           "The fence is finally mended.",
           "圍欄終於修好了。",
           "已修好的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mend-pdf-001",
+      "title": "在關係受損後努力令它重新改善",
+      "form": "5. mend（figurative：修復關係） — 修補關係",
+      "en": "5. mend（figurative：修復關係） — 修補關係",
+      "zh": "在關係受損後努力令它重新改善",
+      "note": "原始 PDF 第 5 節：在關係受損後努力令它重新改善",
+      "examples": [
+        [
+          "They are trying to mend their relationship.",
+          "他們正嘗試修補彼此的關係。",
+          "在關係受損後努力令它重新改善"
+        ],
+        [
+          "The apology helped mend the friendship.",
+          "那次道歉有助修復友誼。",
+          "在關係受損後努力令它重新改善"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mend-pdf-002",
+      "title": "在出現衝突、誤會或傷害後重新建立友好關係",
+      "form": "7. mend a friendship — 修復友誼",
+      "en": "7. mend a friendship — 修復友誼",
+      "zh": "在出現衝突、誤會或傷害後重新建立友好關係",
+      "note": "原始 PDF 第 7 節：在出現衝突、誤會或傷害後重新建立友好關係",
+      "examples": [
+        [
+          "They talked honestly and mended their friendship.",
+          "他們坦誠地談過後，修復了友誼。",
+          "在出現衝突、誤會或傷害後重新建立友好關係"
+        ],
+        [
+          "It took months to mend the friendship.",
+          "他們花了幾個月才修補好這段友誼。",
+          "在出現衝突、誤會或傷害後重新建立友好關係"
         ]
       ],
       "options": [],
@@ -601,63 +625,63 @@ export default {
     },
     {
       "id": "mend-05-0",
-      "sense": "mend-mcq-06",
+      "sense": "mend-pdf-001",
       "en": "They are trying to mend their relationship.",
       "zh": "他們正嘗試修補彼此的關係。",
       "masked": "They are trying to ____.",
       "options": [
-        "mend-mcq-06",
+        "mend-pdf-001",
         "mend-mcq-05",
         "mend-mcq-07",
         "mend-mcq-04",
         "mend-mcq-08",
         "mend-mcq-03"
       ],
-      "explanation": "本句的「mend their relationship」指「修復關係」。",
+      "explanation": "本句的「mend their relationship」指「在關係受損後努力令它重新改善」。",
       "sentenceIndex": 9,
       "sourcePractice": 1,
       "targets": [
         "mend their relationship"
       ],
       "optionReasons": {
-        "mend-mcq-06": "本句指「修復關係」。",
+        "mend-pdf-001": "本句指「在關係受損後努力令它重新改善」。",
         "mend-mcq-05": "「修理圍欄」與本句語境不同。",
         "mend-mcq-07": "「修補友誼」與本句語境不同。",
         "mend-mcq-04": "「補洞」與本句語境不同。",
         "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
         "mend-mcq-03": "「補裂口」與本句語境不同。"
       },
-      "correctOption": "mend-mcq-06"
+      "correctOption": "mend-pdf-001"
     },
     {
       "id": "mend-05-1",
-      "sense": "mend-mcq-06",
+      "sense": "mend-pdf-001",
       "en": "The apology helped mend the friendship.",
       "zh": "那次道歉有助修復友誼。",
       "masked": "The apology helped ____.",
       "options": [
-        "mend-mcq-06",
+        "mend-pdf-001",
         "mend-mcq-05",
         "mend-mcq-07",
         "mend-mcq-04",
         "mend-mcq-08",
         "mend-mcq-03"
       ],
-      "explanation": "本句的「mend the friendship」指「修復關係」。",
+      "explanation": "本句的「mend the friendship」指「在關係受損後努力令它重新改善」。",
       "sentenceIndex": 10,
       "sourcePractice": 2,
       "targets": [
         "mend the friendship"
       ],
       "optionReasons": {
-        "mend-mcq-06": "本句指「修復關係」。",
+        "mend-pdf-001": "本句指「在關係受損後努力令它重新改善」。",
         "mend-mcq-05": "「修理圍欄」與本句語境不同。",
         "mend-mcq-07": "「修補友誼」與本句語境不同。",
         "mend-mcq-04": "「補洞」與本句語境不同。",
         "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
         "mend-mcq-03": "「補裂口」與本句語境不同。"
       },
-      "correctOption": "mend-mcq-06"
+      "correctOption": "mend-pdf-001"
     },
     {
       "id": "mend-06-0",
@@ -721,63 +745,63 @@ export default {
     },
     {
       "id": "mend-07-0",
-      "sense": "mend-mcq-06",
+      "sense": "mend-pdf-002",
       "en": "They talked honestly and mended their friendship.",
       "zh": "他們坦誠地談過後，修復了友誼。",
       "masked": "They talked honestly and ____.",
       "options": [
-        "mend-mcq-06",
+        "mend-pdf-002",
         "mend-mcq-05",
         "mend-mcq-07",
         "mend-mcq-04",
         "mend-mcq-08",
         "mend-mcq-03"
       ],
-      "explanation": "本句的「mended their friendship」指「修復關係」。",
+      "explanation": "本句的「mended their friendship」指「在出現衝突、誤會或傷害後重新建立友好關係」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "mended their friendship"
       ],
       "optionReasons": {
-        "mend-mcq-06": "本句指「修復關係」。",
+        "mend-pdf-002": "本句指「在出現衝突、誤會或傷害後重新建立友好關係」。",
         "mend-mcq-05": "「修理圍欄」與本句語境不同。",
         "mend-mcq-07": "「修補友誼」與本句語境不同。",
         "mend-mcq-04": "「補洞」與本句語境不同。",
         "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
         "mend-mcq-03": "「補裂口」與本句語境不同。"
       },
-      "correctOption": "mend-mcq-06"
+      "correctOption": "mend-pdf-002"
     },
     {
       "id": "mend-07-1",
-      "sense": "mend-mcq-06",
+      "sense": "mend-pdf-002",
       "en": "It took months to mend the friendship.",
       "zh": "他們花了幾個月才修補好這段友誼。",
       "masked": "It took months to ____.",
       "options": [
-        "mend-mcq-06",
+        "mend-pdf-002",
         "mend-mcq-05",
         "mend-mcq-07",
         "mend-mcq-04",
         "mend-mcq-08",
         "mend-mcq-03"
       ],
-      "explanation": "本句的「mend the friendship」指「修復關係」。",
+      "explanation": "本句的「mend the friendship」指「在出現衝突、誤會或傷害後重新建立友好關係」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "mend the friendship"
       ],
       "optionReasons": {
-        "mend-mcq-06": "本句指「修復關係」。",
+        "mend-pdf-002": "本句指「在出現衝突、誤會或傷害後重新建立友好關係」。",
         "mend-mcq-05": "「修理圍欄」與本句語境不同。",
         "mend-mcq-07": "「修補友誼」與本句語境不同。",
         "mend-mcq-04": "「補洞」與本句語境不同。",
         "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
         "mend-mcq-03": "「補裂口」與本句語境不同。"
       },
-      "correctOption": "mend-mcq-06"
+      "correctOption": "mend-pdf-002"
     },
     {
       "id": "mend-08-0",

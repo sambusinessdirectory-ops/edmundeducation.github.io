@@ -411,16 +411,6 @@ export default {
           "She speaks English fairly well.",
           "她英語說得頗好。",
           "相當；頗為"
-        ],
-        [
-          "I'm fairly certain that the file was uploaded.",
-          "我相當肯定檔案已經上傳。",
-          "相當；頗為"
-        ],
-        [
-          "This is a fairly common mistake.",
-          "這是一個頗常見的錯誤。",
-          "相當；頗為"
         ]
       ],
       "options": [],
@@ -487,6 +477,28 @@ export default {
           "Fair enough, but you should have told us earlier.",
           "這可以理解，但你應該早點告訴我們。",
           "有道理；可以接受"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "unfairly-pdf-001",
+      "title": "程度相當高，但通常沒有 very 那麼強",
+      "form": "20. fairly certain / fairly common — 相當肯定／頗常見",
+      "en": "20. fairly certain / fairly common — 相當肯定／頗常見",
+      "zh": "程度相當高，但通常沒有 very 那麼強",
+      "note": "原始 PDF 第 20 節：程度相當高，但通常沒有 very 那麼強",
+      "examples": [
+        [
+          "I'm fairly certain that the file was uploaded.",
+          "我相當肯定檔案已經上傳。",
+          "程度相當高，但通常沒有 very 那麼強"
+        ],
+        [
+          "This is a fairly common mistake.",
+          "這是一個頗常見的錯誤。",
+          "程度相當高，但通常沒有 very 那麼強"
         ]
       ],
       "options": [],
@@ -1666,63 +1678,63 @@ export default {
     },
     {
       "id": "unfairly-20-0",
-      "sense": "unfairly-mcq-18",
+      "sense": "unfairly-pdf-001",
       "en": "I'm fairly certain that the file was uploaded.",
       "zh": "我相當肯定檔案已經上傳。",
       "masked": "I'm ____ that the file was uploaded.",
       "options": [
-        "unfairly-mcq-18",
+        "unfairly-pdf-001",
         "unfairly-mcq-17",
         "unfairly-mcq-19",
         "unfairly-mcq-16",
         "unfairly-mcq-20",
         "unfairly-mcq-15"
       ],
-      "explanation": "本句的「fairly certain」指「相當；頗為」。",
+      "explanation": "本句的「fairly certain」指「程度相當高，但通常沒有 very 那麼強」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "fairly certain"
       ],
       "optionReasons": {
-        "unfairly-mcq-18": "本句指「相當；頗為」。",
+        "unfairly-pdf-001": "本句指「程度相當高，但通常沒有 very 那麼強」。",
         "unfairly-mcq-17": "「公平地」與本句語境不同。",
         "unfairly-mcq-19": "「公平性」與本句語境不同。",
         "unfairly-mcq-16": "「公平的」與本句語境不同。",
         "unfairly-mcq-20": "「公道地說」與本句語境不同。",
         "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。"
       },
-      "correctOption": "unfairly-mcq-18"
+      "correctOption": "unfairly-pdf-001"
     },
     {
       "id": "unfairly-20-1",
-      "sense": "unfairly-mcq-18",
+      "sense": "unfairly-pdf-001",
       "en": "This is a fairly common mistake.",
       "zh": "這是一個頗常見的錯誤。",
       "masked": "This is a ____ mistake.",
       "options": [
-        "unfairly-mcq-18",
+        "unfairly-pdf-001",
         "unfairly-mcq-17",
         "unfairly-mcq-19",
         "unfairly-mcq-16",
         "unfairly-mcq-20",
         "unfairly-mcq-15"
       ],
-      "explanation": "本句的「fairly common」指「相當；頗為」。",
+      "explanation": "本句的「fairly common」指「程度相當高，但通常沒有 very 那麼強」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "fairly common"
       ],
       "optionReasons": {
-        "unfairly-mcq-18": "本句指「相當；頗為」。",
+        "unfairly-pdf-001": "本句指「程度相當高，但通常沒有 very 那麼強」。",
         "unfairly-mcq-17": "「公平地」與本句語境不同。",
         "unfairly-mcq-19": "「公平性」與本句語境不同。",
         "unfairly-mcq-16": "「公平的」與本句語境不同。",
         "unfairly-mcq-20": "「公道地說」與本句語境不同。",
         "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。"
       },
-      "correctOption": "unfairly-mcq-18"
+      "correctOption": "unfairly-pdf-001"
     },
     {
       "id": "unfairly-21-0",

@@ -166,11 +166,6 @@ export default {
           "The new cake was a huge success.",
           "這款新蛋糕非常成功／大受歡迎。",
           "一個取得良好成果的人、產品、活動或計劃"
-        ],
-        [
-          "People define success in different ways.",
-          "人們對成功有不同定義。",
-          "一個取得良好成果的人、產品、活動或計劃"
         ]
       ],
       "options": [],
@@ -277,16 +272,45 @@ export default {
           "A film can be artistic but not commercially successful.",
           "一部電影可以很有藝術性，但未必在商業上成功。",
           "在銷售、收入、盈利或市場表現方面成功的"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "successful-pdf-001",
+      "title": "一個人在生活、事業或人生目標上所達到的成就",
+      "form": "9. success = prosperity / achievement in life or career — 成就；成功人生",
+      "en": "9. success = prosperity / achievement in life or career — 成就；成功人生",
+      "zh": "一個人在生活、事業或人生目標上所達到的成就",
+      "note": "原始 PDF 第 9 節：一個人在生活、事業或人生目標上所達到的成就",
+      "examples": [
+        [
+          "People define success in different ways.",
+          "人們對成功有不同定義。",
+          "一個人在生活、事業或人生目標上所達到的成就"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "successful-pdf-002",
+      "title": "最終符合目標／期望的結果",
+      "form": "19. successful outcome = 成功結果；理想結果",
+      "en": "19. successful outcome = 成功結果；理想結果",
+      "zh": "最終符合目標／期望的結果",
+      "note": "原始 PDF 第 19 節：最終符合目標／期望的結果",
+      "examples": [
         [
           "Careful planning improves the chance of a successful outcome.",
           "仔細規劃可以提高取得理想結果的機會。",
-          "在銷售、收入、盈利或市場表現方面成功的"
+          "最終符合目標／期望的結果"
         ],
         [
           "The negotiation ended in a successful outcome.",
           "談判最終取得了成功結果。",
-          "在銷售、收入、盈利或市場表現方面成功的"
+          "最終符合目標／期望的結果"
         ]
       ],
       "options": [],
@@ -716,33 +740,33 @@ export default {
     },
     {
       "id": "successful-09-0",
-      "sense": "successful-mcq-08",
+      "sense": "successful-pdf-001",
       "en": "People define success in different ways.",
       "zh": "人們對成功有不同定義。",
       "masked": "People define ____ in different ways.",
       "options": [
-        "successful-mcq-08",
+        "successful-pdf-001",
         "successful-mcq-07",
         "successful-mcq-09",
         "successful-mcq-06",
         "successful-mcq-10",
         "successful-mcq-05"
       ],
-      "explanation": "本句的「success」指「一個取得良好成果的人、產品、活動或計劃」。",
+      "explanation": "本句的「success」指「一個人在生活、事業或人生目標上所達到的成就」。",
       "sentenceIndex": 14,
       "sourcePractice": 17,
       "targets": [
         "success"
       ],
       "optionReasons": {
-        "successful-mcq-08": "本句指「一個取得良好成果的人、產品、活動或計劃」。",
+        "successful-pdf-001": "本句指「一個人在生活、事業或人生目標上所達到的成就」。",
         "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
         "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。",
         "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
         "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
         "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。"
       },
-      "correctOption": "successful-mcq-08"
+      "correctOption": "successful-pdf-001"
     },
     {
       "id": "successful-10-0",
@@ -956,63 +980,63 @@ export default {
     },
     {
       "id": "successful-19-0",
-      "sense": "successful-mcq-14",
+      "sense": "successful-pdf-002",
       "en": "Careful planning improves the chance of a successful outcome.",
       "zh": "仔細規劃可以提高取得理想結果的機會。",
       "masked": "Careful planning improves the chance of a ____.",
       "options": [
-        "successful-mcq-14",
+        "successful-pdf-002",
         "successful-mcq-13",
         "successful-mcq-12",
         "successful-mcq-11",
         "successful-mcq-10",
         "successful-mcq-09"
       ],
-      "explanation": "本句的「successful outcome」指「在銷售、收入、盈利或市場表現方面成功的」。",
+      "explanation": "本句的「successful outcome」指「最終符合目標／期望的結果」。",
       "sentenceIndex": 27,
       "sourcePractice": 37,
       "targets": [
         "successful outcome"
       ],
       "optionReasons": {
-        "successful-mcq-14": "本句指「在銷售、收入、盈利或市場表現方面成功的」。",
+        "successful-pdf-002": "本句指「最終符合目標／期望的結果」。",
         "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
         "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
         "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
         "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
         "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
       },
-      "correctOption": "successful-mcq-14"
+      "correctOption": "successful-pdf-002"
     },
     {
       "id": "successful-19-1",
-      "sense": "successful-mcq-14",
+      "sense": "successful-pdf-002",
       "en": "The negotiation ended in a successful outcome.",
       "zh": "談判最終取得了成功結果。",
       "masked": "The negotiation ended in a ____ outcome.",
       "options": [
-        "successful-mcq-14",
+        "successful-pdf-002",
         "successful-mcq-13",
         "successful-mcq-12",
         "successful-mcq-11",
         "successful-mcq-10",
         "successful-mcq-09"
       ],
-      "explanation": "本句的「successful」指「在銷售、收入、盈利或市場表現方面成功的」。",
+      "explanation": "本句的「successful」指「最終符合目標／期望的結果」。",
       "sentenceIndex": 28,
       "sourcePractice": 38,
       "targets": [
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-14": "本句指「在銷售、收入、盈利或市場表現方面成功的」。",
+        "successful-pdf-002": "本句指「最終符合目標／期望的結果」。",
         "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
         "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
         "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
         "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
         "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
       },
-      "correctOption": "successful-mcq-14"
+      "correctOption": "successful-pdf-002"
     }
   ],
   "comparisons": [],

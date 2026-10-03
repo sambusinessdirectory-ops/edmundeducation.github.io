@@ -497,16 +497,6 @@ export default {
           "We had a lovely afternoon together.",
           "我們一起度過了一個非常愉快美好的下午。",
           "令人感到愉快、美好、吸引或親切的"
-        ],
-        [
-          "Your grandmother sounds lovely.",
-          "你的外婆聽起來是個很親切、很好的人。",
-          "令人感到愉快、美好、吸引或親切的"
-        ],
-        [
-          "Everyone says she is absolutely lovely.",
-          "大家都說她是個非常親切可愛的人。",
-          "令人感到愉快、美好、吸引或親切的"
         ]
       ],
       "options": [],
@@ -595,6 +585,28 @@ export default {
           "Do it for love's sake, not for money.",
           "為了愛本身去做，而不是為了錢。",
           "表示她對孩子表現出親切愛護"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "love-pdf-001",
+      "title": "形容一個人的性格或待人方式令人喜歡、感到溫暖",
+      "form": "25. lovely = kind / pleasant person（人） — 親切可愛的；很好的人",
+      "en": "25. lovely = kind / pleasant person（人） — 親切可愛的；很好的人",
+      "zh": "形容一個人的性格或待人方式令人喜歡、感到溫暖",
+      "note": "原始 PDF 第 25 節：形容一個人的性格或待人方式令人喜歡、感到溫暖",
+      "examples": [
+        [
+          "Your grandmother sounds lovely.",
+          "你的外婆聽起來是個很親切、很好的人。",
+          "形容一個人的性格或待人方式令人喜歡、感到溫暖"
+        ],
+        [
+          "Everyone says she is absolutely lovely.",
+          "大家都說她是個非常親切可愛的人。",
+          "形容一個人的性格或待人方式令人喜歡、感到溫暖"
         ]
       ],
       "options": [],
@@ -2074,63 +2086,63 @@ export default {
     },
     {
       "id": "love-25-0",
-      "sense": "love-mcq-21",
+      "sense": "love-pdf-001",
       "en": "Your grandmother sounds lovely.",
       "zh": "你的外婆聽起來是個很親切、很好的人。",
       "masked": "Your grandmother sounds ____.",
       "options": [
-        "love-mcq-21",
+        "love-pdf-001",
         "love-mcq-20",
         "love-mcq-22",
         "love-mcq-19",
         "love-mcq-23",
         "love-mcq-18"
       ],
-      "explanation": "本句的「lovely」指「令人感到愉快、美好、吸引或親切的」。",
+      "explanation": "本句的「lovely」指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "lovely"
       ],
       "optionReasons": {
-        "love-mcq-21": "本句指「令人感到愉快、美好、吸引或親切的」。",
+        "love-pdf-001": "本句指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
         "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
         "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
         "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
         "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
         "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。"
       },
-      "correctOption": "love-mcq-21"
+      "correctOption": "love-pdf-001"
     },
     {
       "id": "love-25-1",
-      "sense": "love-mcq-21",
+      "sense": "love-pdf-001",
       "en": "Everyone says she is absolutely lovely.",
       "zh": "大家都說她是個非常親切可愛的人。",
       "masked": "Everyone says she is absolutely ____.",
       "options": [
-        "love-mcq-21",
+        "love-pdf-001",
         "love-mcq-20",
         "love-mcq-22",
         "love-mcq-19",
         "love-mcq-23",
         "love-mcq-18"
       ],
-      "explanation": "本句的「lovely」指「令人感到愉快、美好、吸引或親切的」。",
+      "explanation": "本句的「lovely」指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "lovely"
       ],
       "optionReasons": {
-        "love-mcq-21": "本句指「令人感到愉快、美好、吸引或親切的」。",
+        "love-pdf-001": "本句指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
         "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
         "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
         "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
         "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
         "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。"
       },
-      "correctOption": "love-mcq-21"
+      "correctOption": "love-pdf-001"
     },
     {
       "id": "love-26-0",

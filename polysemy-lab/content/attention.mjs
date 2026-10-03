@@ -378,16 +378,6 @@ export default {
           "He is an attentive father.",
           "他是一位很細心、很留意孩子需要的父親。",
           "主動留意別人的需要並給予細心照顧的"
-        ],
-        [
-          "She listened attentively.",
-          "她專心仔細地聽著。",
-          "主動留意別人的需要並給予細心照顧的"
-        ],
-        [
-          "He watched attentively as the technician explained the controls.",
-          "技術人員解釋操作方法時，他很留心地看著。",
-          "主動留意別人的需要並給予細心照顧的"
         ]
       ],
       "options": [],
@@ -422,18 +412,7 @@ export default {
       "en": "inattention",
       "zh": "缺乏應有注意力而造成的分心／疏忽",
       "note": "來源詞義：缺乏應有注意力而造成的分心／疏忽",
-      "examples": [
-        [
-          "The mistake was caused by inattention.",
-          "這個錯誤是因為疏忽／沒有留心造成的。",
-          "缺乏應有注意力而造成的分心／疏忽"
-        ],
-        [
-          "A moment of inattention can cause an accident.",
-          "一瞬間的分心或疏忽也可能造成事故。",
-          "缺乏應有注意力而造成的分心／疏忽"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -454,6 +433,50 @@ export default {
           "The model assigns higher attention to relevant words.",
           "模型會對相關字詞給予較高的注意力權重。",
           "模型動態判斷不同輸入部分相對重要程度的計算機制"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "attention-pdf-001",
+      "title": "以高度留意、專心而不分心的方式",
+      "form": "18. attentively = with careful attention — 專心地；仔細地",
+      "en": "18. attentively = with careful attention — 專心地；仔細地",
+      "zh": "以高度留意、專心而不分心的方式",
+      "note": "原始 PDF 第 18 節：以高度留意、專心而不分心的方式",
+      "examples": [
+        [
+          "She listened attentively.",
+          "她專心仔細地聽著。",
+          "以高度留意、專心而不分心的方式"
+        ],
+        [
+          "He watched attentively as the technician explained the controls.",
+          "技術人員解釋操作方法時，他很留心地看著。",
+          "以高度留意、專心而不分心的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "attention-pdf-002",
+      "title": "沒有給予應有的注意力，導致忽略重要資訊或事情",
+      "form": "20. inattention = failure/lack of attention — 不注意；疏忽",
+      "en": "20. inattention = failure/lack of attention — 不注意；疏忽",
+      "zh": "沒有給予應有的注意力，導致忽略重要資訊或事情",
+      "note": "原始 PDF 第 20 節：沒有給予應有的注意力，導致忽略重要資訊或事情",
+      "examples": [
+        [
+          "The mistake was caused by inattention.",
+          "這個錯誤是因為疏忽／沒有留心造成的。",
+          "沒有給予應有的注意力，導致忽略重要資訊或事情"
+        ],
+        [
+          "A moment of inattention can cause an accident.",
+          "一瞬間的分心或疏忽也可能造成事故。",
+          "沒有給予應有的注意力，導致忽略重要資訊或事情"
         ]
       ],
       "options": [],
@@ -1513,63 +1536,63 @@ export default {
     },
     {
       "id": "attention-18-0",
-      "sense": "attention-mcq-17",
+      "sense": "attention-pdf-001",
       "en": "She listened attentively.",
       "zh": "她專心仔細地聽著。",
       "masked": "She listened ____.",
       "options": [
-        "attention-mcq-17",
+        "attention-pdf-001",
         "attention-mcq-16",
         "attention-mcq-18",
         "attention-mcq-15",
         "attention-mcq-19",
         "attention-mcq-14"
       ],
-      "explanation": "本句的「attentively」指「主動留意別人的需要並給予細心照顧的」。",
+      "explanation": "本句的「attentively」指「以高度留意、專心而不分心的方式」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "attentively"
       ],
       "optionReasons": {
-        "attention-mcq-17": "本句指「主動留意別人的需要並給予細心照顧的」。",
+        "attention-pdf-001": "本句指「以高度留意、專心而不分心的方式」。",
         "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
         "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
         "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
         "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
         "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。"
       },
-      "correctOption": "attention-mcq-17"
+      "correctOption": "attention-pdf-001"
     },
     {
       "id": "attention-18-1",
-      "sense": "attention-mcq-17",
+      "sense": "attention-pdf-001",
       "en": "He watched attentively as the technician explained the controls.",
       "zh": "技術人員解釋操作方法時，他很留心地看著。",
       "masked": "He watched ____ as the technician explained the controls.",
       "options": [
-        "attention-mcq-17",
+        "attention-pdf-001",
         "attention-mcq-16",
         "attention-mcq-18",
         "attention-mcq-15",
         "attention-mcq-19",
         "attention-mcq-14"
       ],
-      "explanation": "本句的「attentively」指「主動留意別人的需要並給予細心照顧的」。",
+      "explanation": "本句的「attentively」指「以高度留意、專心而不分心的方式」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "attentively"
       ],
       "optionReasons": {
-        "attention-mcq-17": "本句指「主動留意別人的需要並給予細心照顧的」。",
+        "attention-pdf-001": "本句指「以高度留意、專心而不分心的方式」。",
         "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
         "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
         "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
         "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
         "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。"
       },
-      "correctOption": "attention-mcq-17"
+      "correctOption": "attention-pdf-001"
     },
     {
       "id": "attention-19-0",
@@ -1633,63 +1656,63 @@ export default {
     },
     {
       "id": "attention-20-0",
-      "sense": "attention-mcq-19",
+      "sense": "attention-pdf-002",
       "en": "The mistake was caused by inattention.",
       "zh": "這個錯誤是因為疏忽／沒有留心造成的。",
       "masked": "The mistake was caused by ____.",
       "options": [
-        "attention-mcq-19",
+        "attention-pdf-002",
         "attention-mcq-18",
         "attention-mcq-20",
         "attention-mcq-17",
         "attention-mcq-16",
         "attention-mcq-15"
       ],
-      "explanation": "本句的「inattention」指「缺乏應有注意力而造成的分心／疏忽」。",
+      "explanation": "本句的「inattention」指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "inattention"
       ],
       "optionReasons": {
-        "attention-mcq-19": "本句指「缺乏應有注意力而造成的分心／疏忽」。",
+        "attention-pdf-002": "本句指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
         "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
         "attention-mcq-20": "「模型動態判斷不同輸入部分相對重要程度的計算機制」是「attention — AI」的用法，與本句語境不同。",
         "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
         "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
         "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
       },
-      "correctOption": "attention-mcq-19"
+      "correctOption": "attention-pdf-002"
     },
     {
       "id": "attention-20-1",
-      "sense": "attention-mcq-19",
+      "sense": "attention-pdf-002",
       "en": "A moment of inattention can cause an accident.",
       "zh": "一瞬間的分心或疏忽也可能造成事故。",
       "masked": "A moment of ____ can cause an accident.",
       "options": [
-        "attention-mcq-19",
+        "attention-pdf-002",
         "attention-mcq-18",
         "attention-mcq-20",
         "attention-mcq-17",
         "attention-mcq-16",
         "attention-mcq-15"
       ],
-      "explanation": "本句的「inattention」指「缺乏應有注意力而造成的分心／疏忽」。",
+      "explanation": "本句的「inattention」指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "inattention"
       ],
       "optionReasons": {
-        "attention-mcq-19": "本句指「缺乏應有注意力而造成的分心／疏忽」。",
+        "attention-pdf-002": "本句指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
         "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
         "attention-mcq-20": "「模型動態判斷不同輸入部分相對重要程度的計算機制」是「attention — AI」的用法，與本句語境不同。",
         "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
         "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
         "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
       },
-      "correctOption": "attention-mcq-19"
+      "correctOption": "attention-pdf-002"
     },
     {
       "id": "attention-21-0",

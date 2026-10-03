@@ -171,18 +171,7 @@ export default {
       "en": "specific situation",
       "zh": "特定情況",
       "note": "來源詞義：特定情況",
-      "examples": [
-        [
-          "This tool is designed for a specific type of task.",
-          "這個工具是為一種特定類型的任務而設。",
-          "特定情況"
-        ],
-        [
-          "The disease affects a specific type of cell.",
-          "這種疾病影響一種特定類型的細胞。",
-          "特定情況"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -595,6 +584,28 @@ export default {
           "Every unit is tested to ensure it meets specification.",
           "每個單位都會接受測試，以確保符合規格要求。",
           "技術規格"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "specific-pdf-001",
+      "title": "某一個明確而限定的類別",
+      "form": "8. a specific type / kind — 特定類型",
+      "en": "8. a specific type / kind — 特定類型",
+      "zh": "某一個明確而限定的類別",
+      "note": "原始 PDF 第 8 節：某一個明確而限定的類別",
+      "examples": [
+        [
+          "This tool is designed for a specific type of task.",
+          "這個工具是為一種特定類型的任務而設。",
+          "某一個明確而限定的類別"
+        ],
+        [
+          "The disease affects a specific type of cell.",
+          "這種疾病影響一種特定類型的細胞。",
+          "某一個明確而限定的類別"
         ]
       ],
       "options": [],
@@ -1054,63 +1065,63 @@ export default {
     },
     {
       "id": "specific-08-0",
-      "sense": "specific-mcq-08",
+      "sense": "specific-pdf-001",
       "en": "This tool is designed for a specific type of task.",
       "zh": "這個工具是為一種特定類型的任務而設。",
       "masked": "This tool is designed for a ____.",
       "options": [
-        "specific-mcq-08",
+        "specific-pdf-001",
         "specific-mcq-07",
         "specific-mcq-09",
         "specific-mcq-06",
         "specific-mcq-10",
         "specific-mcq-05"
       ],
-      "explanation": "本句的「specific type of task」指「特定情況」。",
+      "explanation": "本句的「specific type of task」指「某一個明確而限定的類別」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "specific type of task"
       ],
       "optionReasons": {
-        "specific-mcq-08": "本句指「特定情況」。",
+        "specific-pdf-001": "本句指「某一個明確而限定的類別」。",
         "specific-mcq-07": "「特定人物」與本句語境不同。",
         "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
         "specific-mcq-06": "「特定的」與本句語境不同。",
         "specific-mcq-10": "「任務專用的」與本句語境不同。",
         "specific-mcq-05": "「具體例子」與本句語境不同。"
       },
-      "correctOption": "specific-mcq-08"
+      "correctOption": "specific-pdf-001"
     },
     {
       "id": "specific-08-1",
-      "sense": "specific-mcq-08",
+      "sense": "specific-pdf-001",
       "en": "The disease affects a specific type of cell.",
       "zh": "這種疾病影響一種特定類型的細胞。",
       "masked": "The disease affects a ____.",
       "options": [
-        "specific-mcq-08",
+        "specific-pdf-001",
         "specific-mcq-07",
         "specific-mcq-09",
         "specific-mcq-06",
         "specific-mcq-10",
         "specific-mcq-05"
       ],
-      "explanation": "本句的「specific type of cell」指「特定情況」。",
+      "explanation": "本句的「specific type of cell」指「某一個明確而限定的類別」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "specific type of cell"
       ],
       "optionReasons": {
-        "specific-mcq-08": "本句指「特定情況」。",
+        "specific-pdf-001": "本句指「某一個明確而限定的類別」。",
         "specific-mcq-07": "「特定人物」與本句語境不同。",
         "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
         "specific-mcq-06": "「特定的」與本句語境不同。",
         "specific-mcq-10": "「任務專用的」與本句語境不同。",
         "specific-mcq-05": "「具體例子」與本句語境不同。"
       },
-      "correctOption": "specific-mcq-08"
+      "correctOption": "specific-pdf-001"
     },
     {
       "id": "specific-09-0",

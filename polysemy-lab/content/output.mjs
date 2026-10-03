@@ -283,16 +283,6 @@ export default {
       "note": "來源詞義：語言輸出",
       "examples": [
         [
-          "The teacher assessed students' written output.",
-          "老師評估學生的書面學習產出。",
-          "語言輸出"
-        ],
-        [
-          "Speaking activities encourage language output.",
-          "口語活動鼓勵學生進行語言輸出。",
-          "語言輸出"
-        ],
-        [
           "Learners need opportunities to produce spoken output.",
           "學習者需要有機會產生口語輸出。",
           "語言輸出"
@@ -389,16 +379,6 @@ export default {
           "Speakers are audio output devices.",
           "揚聲器是音訊輸出裝置。",
           "輸出裝置"
-        ],
-        [
-          "The program outputs the results to a file.",
-          "程式把結果輸出到檔案。",
-          "輸出裝置"
-        ],
-        [
-          "The system outputs an error message.",
-          "系統會輸出一則錯誤訊息。",
-          "輸出裝置"
         ]
       ],
       "options": [],
@@ -486,16 +466,6 @@ export default {
         [
           "The solar panels' output depends on sunlight.",
           "太陽能板的輸出功率取決於陽光。",
-          "輸出功率"
-        ],
-        [
-          "The machine's energy output was measured.",
-          "機器的能量輸出被量度。",
-          "輸出功率"
-        ],
-        [
-          "Higher temperatures increased the system's output.",
-          "較高溫度提高了系統的輸出量。",
           "輸出功率"
         ]
       ],
@@ -585,6 +555,72 @@ export default {
           "The model outputs a probability score.",
           "模型會輸出一個機率分數。",
           "輸出；產生"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "output-pdf-001",
+      "title": "學習者實際產生的語言、作品或可觀察成果",
+      "form": "14. learning output — 學習產出",
+      "en": "14. learning output — 學習產出",
+      "zh": "學習者實際產生的語言、作品或可觀察成果",
+      "note": "原始 PDF 第 14 節：學習者實際產生的語言、作品或可觀察成果",
+      "examples": [
+        [
+          "The teacher assessed students' written output.",
+          "老師評估學生的書面學習產出。",
+          "學習者實際產生的語言、作品或可觀察成果"
+        ],
+        [
+          "Speaking activities encourage language output.",
+          "口語活動鼓勵學生進行語言輸出。",
+          "學習者實際產生的語言、作品或可觀察成果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "output-pdf-002",
+      "title": "系統產生並送出 X",
+      "form": "20. output to a file / screen — 輸出到檔案／畫面",
+      "en": "20. output to a file / screen — 輸出到檔案／畫面",
+      "zh": "系統產生並送出 X",
+      "note": "原始 PDF 第 20 節：系統產生並送出 X",
+      "examples": [
+        [
+          "The program outputs the results to a file.",
+          "程式把結果輸出到檔案。",
+          "系統產生並送出 X"
+        ],
+        [
+          "The system outputs an error message.",
+          "系統會輸出一則錯誤訊息。",
+          "系統產生並送出 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "output-pdf-003",
+      "title": "系統實際產生或釋放的能量",
+      "form": "25. energy output — 能量輸出",
+      "en": "25. energy output — 能量輸出",
+      "zh": "系統實際產生或釋放的能量",
+      "note": "原始 PDF 第 25 節：系統實際產生或釋放的能量",
+      "examples": [
+        [
+          "The machine's energy output was measured.",
+          "機器的能量輸出被量度。",
+          "系統實際產生或釋放的能量"
+        ],
+        [
+          "Higher temperatures increased the system's output.",
+          "較高溫度提高了系統的輸出量。",
+          "系統實際產生或釋放的能量"
         ]
       ],
       "options": [],
@@ -1284,63 +1320,63 @@ export default {
     },
     {
       "id": "output-14-0",
-      "sense": "output-mcq-14",
+      "sense": "output-pdf-001",
       "en": "The teacher assessed students' written output.",
       "zh": "老師評估學生的書面學習產出。",
       "masked": "The teacher assessed students' written ____.",
       "options": [
-        "output-mcq-14",
+        "output-pdf-001",
         "output-mcq-13",
         "output-mcq-15",
         "output-mcq-12",
         "output-mcq-16",
         "output-mcq-11"
       ],
-      "explanation": "本句的「output」指「語言輸出」。",
+      "explanation": "本句的「output」指「學習者實際產生的語言、作品或可觀察成果」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "output"
       ],
       "optionReasons": {
-        "output-mcq-14": "本句指「語言輸出」。",
+        "output-pdf-001": "本句指「學習者實際產生的語言、作品或可觀察成果」。",
         "output-mcq-13": "「研究成果」與本句語境不同。",
         "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
         "output-mcq-12": "「創作產出」與本句語境不同。",
         "output-mcq-16": "「輸入與輸出」與本句語境不同。",
         "output-mcq-11": "「總產出」與本句語境不同。"
       },
-      "correctOption": "output-mcq-14"
+      "correctOption": "output-pdf-001"
     },
     {
       "id": "output-14-1",
-      "sense": "output-mcq-14",
+      "sense": "output-pdf-001",
       "en": "Speaking activities encourage language output.",
       "zh": "口語活動鼓勵學生進行語言輸出。",
       "masked": "Speaking activities encourage language ____.",
       "options": [
-        "output-mcq-14",
+        "output-pdf-001",
         "output-mcq-13",
         "output-mcq-15",
         "output-mcq-12",
         "output-mcq-16",
         "output-mcq-11"
       ],
-      "explanation": "本句的「output」指「語言輸出」。",
+      "explanation": "本句的「output」指「學習者實際產生的語言、作品或可觀察成果」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "output"
       ],
       "optionReasons": {
-        "output-mcq-14": "本句指「語言輸出」。",
+        "output-pdf-001": "本句指「學習者實際產生的語言、作品或可觀察成果」。",
         "output-mcq-13": "「研究成果」與本句語境不同。",
         "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
         "output-mcq-12": "「創作產出」與本句語境不同。",
         "output-mcq-16": "「輸入與輸出」與本句語境不同。",
         "output-mcq-11": "「總產出」與本句語境不同。"
       },
-      "correctOption": "output-mcq-14"
+      "correctOption": "output-pdf-001"
     },
     {
       "id": "output-15-0",
@@ -1644,63 +1680,63 @@ export default {
     },
     {
       "id": "output-20-0",
-      "sense": "output-mcq-18",
+      "sense": "output-pdf-002",
       "en": "The program outputs the results to a file.",
       "zh": "程式把結果輸出到檔案。",
       "masked": "The program ____.",
       "options": [
-        "output-mcq-18",
+        "output-pdf-002",
         "output-mcq-17",
         "output-mcq-19",
         "output-mcq-16",
         "output-mcq-20",
         "output-mcq-15"
       ],
-      "explanation": "本句的「outputs the results to a file」指「輸出裝置」。",
+      "explanation": "本句的「outputs the results to a file」指「系統產生並送出 X」。",
       "sentenceIndex": 39,
       "sourcePractice": 1,
       "targets": [
         "outputs the results to a file"
       ],
       "optionReasons": {
-        "output-mcq-18": "本句指「輸出裝置」。",
+        "output-pdf-002": "本句指「系統產生並送出 X」。",
         "output-mcq-17": "「資料輸出」與本句語境不同。",
         "output-mcq-19": "「輸出訊號」與本句語境不同。",
         "output-mcq-16": "「輸入與輸出」與本句語境不同。",
         "output-mcq-20": "「音訊輸出」與本句語境不同。",
         "output-mcq-15": "「輸出；輸出結果」與本句語境不同。"
       },
-      "correctOption": "output-mcq-18"
+      "correctOption": "output-pdf-002"
     },
     {
       "id": "output-20-1",
-      "sense": "output-mcq-18",
+      "sense": "output-pdf-002",
       "en": "The system outputs an error message.",
       "zh": "系統會輸出一則錯誤訊息。",
       "masked": "The system ____.",
       "options": [
-        "output-mcq-18",
+        "output-pdf-002",
         "output-mcq-17",
         "output-mcq-19",
         "output-mcq-16",
         "output-mcq-20",
         "output-mcq-15"
       ],
-      "explanation": "本句的「outputs an error message」指「輸出裝置」。",
+      "explanation": "本句的「outputs an error message」指「系統產生並送出 X」。",
       "sentenceIndex": 40,
       "sourcePractice": 2,
       "targets": [
         "outputs an error message"
       ],
       "optionReasons": {
-        "output-mcq-18": "本句指「輸出裝置」。",
+        "output-pdf-002": "本句指「系統產生並送出 X」。",
         "output-mcq-17": "「資料輸出」與本句語境不同。",
         "output-mcq-19": "「輸出訊號」與本句語境不同。",
         "output-mcq-16": "「輸入與輸出」與本句語境不同。",
         "output-mcq-20": "「音訊輸出」與本句語境不同。",
         "output-mcq-15": "「輸出；輸出結果」與本句語境不同。"
       },
-      "correctOption": "output-mcq-18"
+      "correctOption": "output-pdf-002"
     },
     {
       "id": "output-21-0",
@@ -1944,63 +1980,63 @@ export default {
     },
     {
       "id": "output-25-0",
-      "sense": "output-mcq-22",
+      "sense": "output-pdf-003",
       "en": "The machine's energy output was measured.",
       "zh": "機器的能量輸出被量度。",
       "masked": "The machine's energy ____ was measured.",
       "options": [
-        "output-mcq-22",
+        "output-pdf-003",
         "output-mcq-21",
         "output-mcq-23",
         "output-mcq-20",
         "output-mcq-24",
         "output-mcq-19"
       ],
-      "explanation": "本句的「output」指「輸出功率」。",
+      "explanation": "本句的「output」指「系統實際產生或釋放的能量」。",
       "sentenceIndex": 49,
       "sourcePractice": 1,
       "targets": [
         "output"
       ],
       "optionReasons": {
-        "output-mcq-22": "本句指「輸出功率」。",
+        "output-pdf-003": "本句指「系統實際產生或釋放的能量」。",
         "output-mcq-21": "「視訊輸出」與本句語境不同。",
         "output-mcq-23": "「心輸出量」與本句語境不同。",
         "output-mcq-20": "「音訊輸出」與本句語境不同。",
         "output-mcq-24": "「尿量」與本句語境不同。",
         "output-mcq-19": "「輸出訊號」與本句語境不同。"
       },
-      "correctOption": "output-mcq-22"
+      "correctOption": "output-pdf-003"
     },
     {
       "id": "output-25-1",
-      "sense": "output-mcq-22",
+      "sense": "output-pdf-003",
       "en": "Higher temperatures increased the system's output.",
       "zh": "較高溫度提高了系統的輸出量。",
       "masked": "Higher temperatures increased the system's ____.",
       "options": [
-        "output-mcq-22",
+        "output-pdf-003",
         "output-mcq-21",
         "output-mcq-23",
         "output-mcq-20",
         "output-mcq-24",
         "output-mcq-19"
       ],
-      "explanation": "本句的「output」指「輸出功率」。",
+      "explanation": "本句的「output」指「系統實際產生或釋放的能量」。",
       "sentenceIndex": 50,
       "sourcePractice": 2,
       "targets": [
         "output"
       ],
       "optionReasons": {
-        "output-mcq-22": "本句指「輸出功率」。",
+        "output-pdf-003": "本句指「系統實際產生或釋放的能量」。",
         "output-mcq-21": "「視訊輸出」與本句語境不同。",
         "output-mcq-23": "「心輸出量」與本句語境不同。",
         "output-mcq-20": "「音訊輸出」與本句語境不同。",
         "output-mcq-24": "「尿量」與本句語境不同。",
         "output-mcq-19": "「輸出訊號」與本句語境不同。"
       },
-      "correctOption": "output-mcq-22"
+      "correctOption": "output-pdf-003"
     },
     {
       "id": "output-26-0",

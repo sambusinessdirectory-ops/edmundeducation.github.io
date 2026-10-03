@@ -542,16 +542,6 @@ export default {
           "The café has a lively atmosphere.",
           "這間咖啡店的氣氛很熱鬧、有活力。",
           "充滿活力、活動、興奮感；亦可指內容生動有趣"
-        ],
-        [
-          "The speaker gave a lively presentation.",
-          "講者作了一場生動有趣的簡報。",
-          "充滿活力、活動、興奮感；亦可指內容生動有趣"
-        ],
-        [
-          "The article is written in a lively style.",
-          "這篇文章的文風生動活潑。",
-          "充滿活力、活動、興奮感；亦可指內容生動有趣"
         ]
       ],
       "options": [],
@@ -596,6 +586,28 @@ export default {
           "The closure threatened hundreds of people’s livelihoods.",
           "關閉事件威脅到數百人的生計。",
           "用來賺取收入、維持日常生活的工作或經濟來源"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "live-pdf-001",
+      "title": "有活力、有趣而能保持別人注意力的",
+      "form": "26. lively = interesting and stimulating（內容／討論） — 生動有趣的；熱烈的",
+      "en": "26. lively = interesting and stimulating（內容／討論） — 生動有趣的；熱烈的",
+      "zh": "有活力、有趣而能保持別人注意力的",
+      "note": "原始 PDF 第 26 節：有活力、有趣而能保持別人注意力的",
+      "examples": [
+        [
+          "The speaker gave a lively presentation.",
+          "講者作了一場生動有趣的簡報。",
+          "有活力、有趣而能保持別人注意力的"
+        ],
+        [
+          "The article is written in a lively style.",
+          "這篇文章的文風生動活潑。",
+          "有活力、有趣而能保持別人注意力的"
         ]
       ],
       "options": [],
@@ -2135,63 +2147,63 @@ export default {
     },
     {
       "id": "live-26-0",
-      "sense": "live-mcq-24",
+      "sense": "live-pdf-001",
       "en": "The speaker gave a lively presentation.",
       "zh": "講者作了一場生動有趣的簡報。",
       "masked": "The speaker gave a ____ presentation.",
       "options": [
-        "live-mcq-24",
+        "live-pdf-001",
         "live-mcq-23",
         "live-mcq-25",
         "live-mcq-22",
         "live-mcq-26",
         "live-mcq-21"
       ],
-      "explanation": "本句的「lively」指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
+      "explanation": "本句的「lively」指「有活力、有趣而能保持別人注意力的」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "lively"
       ],
       "optionReasons": {
-        "live-mcq-24": "本句指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
+        "live-pdf-001": "本句指「有活力、有趣而能保持別人注意力的」。",
         "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
         "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
         "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
         "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
         "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
       },
-      "correctOption": "live-mcq-24"
+      "correctOption": "live-pdf-001"
     },
     {
       "id": "live-26-1",
-      "sense": "live-mcq-24",
+      "sense": "live-pdf-001",
       "en": "The article is written in a lively style.",
       "zh": "這篇文章的文風生動活潑。",
       "masked": "The article is written in a ____ style.",
       "options": [
-        "live-mcq-24",
+        "live-pdf-001",
         "live-mcq-23",
         "live-mcq-25",
         "live-mcq-22",
         "live-mcq-26",
         "live-mcq-21"
       ],
-      "explanation": "本句的「lively」指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
+      "explanation": "本句的「lively」指「有活力、有趣而能保持別人注意力的」。",
       "sentenceIndex": 52,
       "sourcePractice": 53,
       "targets": [
         "lively"
       ],
       "optionReasons": {
-        "live-mcq-24": "本句指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
+        "live-pdf-001": "本句指「有活力、有趣而能保持別人注意力的」。",
         "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
         "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
         "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
         "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
         "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
       },
-      "correctOption": "live-mcq-24"
+      "correctOption": "live-pdf-001"
     },
     {
       "id": "live-27-0",

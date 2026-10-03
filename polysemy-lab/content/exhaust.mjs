@@ -466,16 +466,28 @@ export default {
           "She seems to have an inexhaustible supply of energy.",
           "她似乎有源源不絕、用不完的精力。",
           "數量／能力似乎無法被完全用盡；取之不盡的"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "exhaust-pdf-plain-022",
+      "title": "完整無遺漏、全面涵蓋所有相關項目的",
+      "form": "PDF section 22",
+      "en": "PDF section 22",
+      "zh": "完整無遺漏、全面涵蓋所有相關項目的",
+      "note": "原始 PDF 第 22 節：完整無遺漏、全面涵蓋所有相關項目的",
+      "examples": [
         [
           "This is not intended to be an exhaustive list.",
           "這份清單並非要做到完全涵蓋所有項目。",
-          "數量／能力似乎無法被完全用盡；取之不盡的"
+          "完整無遺漏、全面涵蓋所有相關項目的"
         ],
         [
           "An exhaustive review of the evidence would take months.",
           "若要對證據進行全面而不遺漏重要資料的審查，可能需要數月。",
-          "數量／能力似乎無法被完全用盡；取之不盡的"
+          "完整無遺漏、全面涵蓋所有相關項目的"
         ]
       ],
       "options": [],
@@ -1775,63 +1787,63 @@ export default {
     },
     {
       "id": "exhaust-22-0",
-      "sense": "exhaust-mcq-21",
+      "sense": "exhaust-pdf-plain-022",
       "en": "This is not intended to be an exhaustive list.",
       "zh": "這份清單並非要做到完全涵蓋所有項目。",
       "masked": "This is not intended to be an ____ list.",
       "options": [
-        "exhaust-mcq-21",
+        "exhaust-pdf-plain-022",
         "exhaust-mcq-20",
         "exhaust-mcq-19",
         "exhaust-mcq-18",
         "exhaust-mcq-17",
         "exhaust-mcq-16"
       ],
-      "explanation": "本句的「exhaustive」指「數量／能力似乎無法被完全用盡；取之不盡的」。",
+      "explanation": "本句的「exhaustive」指「完整無遺漏、全面涵蓋所有相關項目的」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "exhaustive"
       ],
       "optionReasons": {
-        "exhaust-mcq-21": "本句指「數量／能力似乎無法被完全用盡；取之不盡的」。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-pdf-plain-022": "本句指「完整無遺漏、全面涵蓋所有相關項目的」。",
+        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」與本句語境不同。",
+        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」與本句語境不同。",
+        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」與本句語境不同。",
+        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」與本句語境不同。",
+        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」與本句語境不同。"
       },
-      "correctOption": "exhaust-mcq-21"
+      "correctOption": "exhaust-pdf-plain-022"
     },
     {
       "id": "exhaust-22-1",
-      "sense": "exhaust-mcq-21",
+      "sense": "exhaust-pdf-plain-022",
       "en": "An exhaustive review of the evidence would take months.",
       "zh": "若要對證據進行全面而不遺漏重要資料的審查，可能需要數月。",
       "masked": "An ____ review of the evidence would take months.",
       "options": [
-        "exhaust-mcq-21",
+        "exhaust-pdf-plain-022",
         "exhaust-mcq-20",
         "exhaust-mcq-19",
         "exhaust-mcq-18",
         "exhaust-mcq-17",
         "exhaust-mcq-16"
       ],
-      "explanation": "本句的「exhaustive」指「數量／能力似乎無法被完全用盡；取之不盡的」。",
+      "explanation": "本句的「exhaustive」指「完整無遺漏、全面涵蓋所有相關項目的」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "exhaustive"
       ],
       "optionReasons": {
-        "exhaust-mcq-21": "本句指「數量／能力似乎無法被完全用盡；取之不盡的」。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-pdf-plain-022": "本句指「完整無遺漏、全面涵蓋所有相關項目的」。",
+        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」與本句語境不同。",
+        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」與本句語境不同。",
+        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」與本句語境不同。",
+        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」與本句語境不同。",
+        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」與本句語境不同。"
       },
-      "correctOption": "exhaust-mcq-21"
+      "correctOption": "exhaust-pdf-plain-022"
     }
   ],
   "comparisons": [],

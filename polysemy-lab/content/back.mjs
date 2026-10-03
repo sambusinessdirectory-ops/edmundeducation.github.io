@@ -202,26 +202,6 @@ export default {
           "She carried the bag on her back.",
           "她把袋背在背上。",
           "身體後方由肩部到腰部一帶；背部"
-        ],
-        [
-          "Sitting badly can cause back pain.",
-          "坐姿不良可能引致背痛。",
-          "身體後方由肩部到腰部一帶；背部"
-        ],
-        [
-          "He took a break because of back pain.",
-          "他因為背痛而休息了一會。",
-          "身體後方由肩部到腰部一帶；背部"
-        ],
-        [
-          "She felt pain in her lower back.",
-          "她感到下背部疼痛。",
-          "身體後方由肩部到腰部一帶；背部"
-        ],
-        [
-          "Stretch your upper back gently.",
-          "輕輕伸展你的上背部。",
-          "身體後方由肩部到腰部一帶；背部"
         ]
       ],
       "options": [],
@@ -265,16 +245,6 @@ export default {
         [
           "There is a garden at the back of the building.",
           "大樓後面有一個花園。",
-          "某空間最遠離正面／入口的後方部分"
-        ],
-        [
-          "The senior managers were sitting at the back.",
-          "幾位高層經理坐在後面。",
-          "某空間最遠離正面／入口的後方部分"
-        ],
-        [
-          "There are extra chairs at the back.",
-          "後面有額外椅子。",
           "某空間最遠離正面／入口的後方部分"
         ]
       ],
@@ -952,16 +922,6 @@ export default {
           "Savings gave him something to fall back on.",
           "積蓄給了他一個可以依靠的後備保障。",
           "主要方法失敗時退而依靠後備資源"
-        ],
-        [
-          "The library stores back issues of the journal.",
-          "圖書館收藏這份期刊的舊期號。",
-          "主要方法失敗時退而依靠後備資源"
-        ],
-        [
-          "I found the article in a back issue.",
-          "我在一本舊期刊物中找到那篇文章。",
-          "主要方法失敗時退而依靠後備資源"
         ]
       ],
       "options": [],
@@ -983,16 +943,6 @@ export default {
         [
           "The chair tilted backward.",
           "椅子向後傾。",
-          "朝後方方向；比喻上亦可指倒退"
-        ],
-        [
-          "The change would be a backward step.",
-          "這項改變會是一個倒退的步驟。",
-          "朝後方方向；比喻上亦可指倒退"
-        ],
-        [
-          "The system was considered outdated and backward.",
-          "這套系統被認為落後過時。",
           "朝後方方向；比喻上亦可指倒退"
         ]
       ],
@@ -1246,6 +1196,116 @@ export default {
           "The child answered back.",
           "孩子頂嘴反駁。",
           "以被視為不尊重的方式反駁有權威的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "back-pdf-001",
+      "title": "背部出現的疼痛",
+      "form": "10. back pain（背痛） — 背部疼痛",
+      "en": "10. back pain（背痛） — 背部疼痛",
+      "zh": "背部出現的疼痛",
+      "note": "原始 PDF 第 10 節：背部出現的疼痛",
+      "examples": [
+        [
+          "Sitting badly can cause back pain.",
+          "坐姿不良可能引致背痛。",
+          "背部出現的疼痛"
+        ],
+        [
+          "He took a break because of back pain.",
+          "他因為背痛而休息了一會。",
+          "背部出現的疼痛"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "back-pdf-002",
+      "title": "身體背面，可進一步分為上背／下背",
+      "form": "11. lower/upper back（下背／上背） — 下背部；上背部",
+      "en": "11. lower/upper back（下背／上背） — 下背部；上背部",
+      "zh": "身體背面，可進一步分為上背／下背",
+      "note": "原始 PDF 第 11 節：身體背面，可進一步分為上背／下背",
+      "examples": [
+        [
+          "She felt pain in her lower back.",
+          "她感到下背部疼痛。",
+          "身體背面，可進一步分為上背／下背"
+        ],
+        [
+          "Stretch your upper back gently.",
+          "輕輕伸展你的上背部。",
+          "身體背面，可進一步分為上背／下背"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "back-pdf-003",
+      "title": "位於某個地方的後方位置",
+      "form": "14. at the back（在後面） — 在後方",
+      "en": "14. at the back（在後面） — 在後方",
+      "zh": "位於某個地方的後方位置",
+      "note": "原始 PDF 第 14 節：位於某個地方的後方位置",
+      "examples": [
+        [
+          "The senior managers were sitting at the back.",
+          "幾位高層經理坐在後面。",
+          "位於某個地方的後方位置"
+        ],
+        [
+          "There are extra chairs at the back.",
+          "後面有額外椅子。",
+          "位於某個地方的後方位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "back-pdf-004",
+      "title": "雜誌／期刊以前出版的期號",
+      "form": "57. back issue（舊期刊物） — 過期期刊；舊刊",
+      "en": "57. back issue（舊期刊物） — 過期期刊；舊刊",
+      "zh": "雜誌／期刊以前出版的期號",
+      "note": "原始 PDF 第 57 節：雜誌／期刊以前出版的期號",
+      "examples": [
+        [
+          "The library stores back issues of the journal.",
+          "圖書館收藏這份期刊的舊期號。",
+          "雜誌／期刊以前出版的期號"
+        ],
+        [
+          "I found the article in a back issue.",
+          "我在一本舊期刊物中找到那篇文章。",
+          "雜誌／期刊以前出版的期號"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "back-pdf-005",
+      "title": "朝較差／較舊／較不發達狀態發展的",
+      "form": "62. backward = less developed / regressive（落後的；倒退的） — 落後；倒退",
+      "en": "62. backward = less developed / regressive（落後的；倒退的） — 落後；倒退",
+      "zh": "朝較差／較舊／較不發達狀態發展的",
+      "note": "原始 PDF 第 62 節：朝較差／較舊／較不發達狀態發展的",
+      "examples": [
+        [
+          "The change would be a backward step.",
+          "這項改變會是一個倒退的步驟。",
+          "朝較差／較舊／較不發達狀態發展的"
+        ],
+        [
+          "The system was considered outdated and backward.",
+          "這套系統被認為落後過時。",
+          "朝較差／較舊／較不發達狀態發展的"
         ]
       ],
       "options": [],
@@ -1825,123 +1885,123 @@ export default {
     },
     {
       "id": "back-10-0",
-      "sense": "back-mcq-09",
+      "sense": "back-pdf-001",
       "en": "Sitting badly can cause back pain.",
       "zh": "坐姿不良可能引致背痛。",
       "masked": "Sitting badly can cause ____.",
       "options": [
-        "back-mcq-09",
+        "back-pdf-001",
         "back-mcq-08",
         "back-mcq-10",
         "back-mcq-07",
         "back-mcq-11",
         "back-mcq-06"
       ],
-      "explanation": "本句的「back pain」指「身體後方由肩部到腰部一帶；背部」。",
+      "explanation": "本句的「back pain」指「背部出現的疼痛」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "back pain"
       ],
       "optionReasons": {
-        "back-mcq-09": "本句指「身體後方由肩部到腰部一帶；背部」。",
+        "back-pdf-001": "本句指「背部出現的疼痛」。",
         "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
         "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
         "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
         "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
         "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-09"
+      "correctOption": "back-pdf-001"
     },
     {
       "id": "back-10-1",
-      "sense": "back-mcq-09",
+      "sense": "back-pdf-001",
       "en": "He took a break because of back pain.",
       "zh": "他因為背痛而休息了一會。",
       "masked": "He took a break because of ____.",
       "options": [
-        "back-mcq-09",
+        "back-pdf-001",
         "back-mcq-08",
         "back-mcq-10",
         "back-mcq-07",
         "back-mcq-11",
         "back-mcq-06"
       ],
-      "explanation": "本句的「back pain」指「身體後方由肩部到腰部一帶；背部」。",
+      "explanation": "本句的「back pain」指「背部出現的疼痛」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "back pain"
       ],
       "optionReasons": {
-        "back-mcq-09": "本句指「身體後方由肩部到腰部一帶；背部」。",
+        "back-pdf-001": "本句指「背部出現的疼痛」。",
         "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
         "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
         "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
         "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
         "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-09"
+      "correctOption": "back-pdf-001"
     },
     {
       "id": "back-11-0",
-      "sense": "back-mcq-09",
+      "sense": "back-pdf-002",
       "en": "She felt pain in her lower back.",
       "zh": "她感到下背部疼痛。",
       "masked": "She felt pain in her ____.",
       "options": [
-        "back-mcq-09",
+        "back-pdf-002",
         "back-mcq-08",
         "back-mcq-10",
         "back-mcq-07",
         "back-mcq-11",
         "back-mcq-06"
       ],
-      "explanation": "本句的「lower back」指「身體後方由肩部到腰部一帶；背部」。",
+      "explanation": "本句的「lower back」指「身體背面，可進一步分為上背／下背」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "lower back"
       ],
       "optionReasons": {
-        "back-mcq-09": "本句指「身體後方由肩部到腰部一帶；背部」。",
+        "back-pdf-002": "本句指「身體背面，可進一步分為上背／下背」。",
         "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
         "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
         "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
         "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
         "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-09"
+      "correctOption": "back-pdf-002"
     },
     {
       "id": "back-11-1",
-      "sense": "back-mcq-09",
+      "sense": "back-pdf-002",
       "en": "Stretch your upper back gently.",
       "zh": "輕輕伸展你的上背部。",
       "masked": "Stretch your ____ gently.",
       "options": [
-        "back-mcq-09",
+        "back-pdf-002",
         "back-mcq-08",
         "back-mcq-10",
         "back-mcq-07",
         "back-mcq-11",
         "back-mcq-06"
       ],
-      "explanation": "本句的「upper back」指「身體後方由肩部到腰部一帶；背部」。",
+      "explanation": "本句的「upper back」指「身體背面，可進一步分為上背／下背」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "upper back"
       ],
       "optionReasons": {
-        "back-mcq-09": "本句指「身體後方由肩部到腰部一帶；背部」。",
+        "back-pdf-002": "本句指「身體背面，可進一步分為上背／下背」。",
         "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
         "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
         "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
         "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
         "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-09"
+      "correctOption": "back-pdf-002"
     },
     {
       "id": "back-12-0",
@@ -2065,63 +2125,63 @@ export default {
     },
     {
       "id": "back-14-0",
-      "sense": "back-mcq-11",
+      "sense": "back-pdf-003",
       "en": "The senior managers were sitting at the back.",
       "zh": "幾位高層經理坐在後面。",
       "masked": "The senior managers were sitting ____.",
       "options": [
-        "back-mcq-11",
+        "back-pdf-003",
         "back-mcq-10",
         "back-mcq-12",
         "back-mcq-09",
         "back-mcq-13",
         "back-mcq-08"
       ],
-      "explanation": "本句的「at the back」指「某空間最遠離正面／入口的後方部分」。",
+      "explanation": "本句的「at the back」指「位於某個地方的後方位置」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "at the back"
       ],
       "optionReasons": {
-        "back-mcq-11": "本句指「某空間最遠離正面／入口的後方部分」。",
+        "back-pdf-003": "本句指「位於某個地方的後方位置」。",
         "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
         "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
         "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
         "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
         "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-11"
+      "correctOption": "back-pdf-003"
     },
     {
       "id": "back-14-1",
-      "sense": "back-mcq-11",
+      "sense": "back-pdf-003",
       "en": "There are extra chairs at the back.",
       "zh": "後面有額外椅子。",
       "masked": "There are extra chairs ____.",
       "options": [
-        "back-mcq-11",
+        "back-pdf-003",
         "back-mcq-10",
         "back-mcq-12",
         "back-mcq-09",
         "back-mcq-13",
         "back-mcq-08"
       ],
-      "explanation": "本句的「at the back」指「某空間最遠離正面／入口的後方部分」。",
+      "explanation": "本句的「at the back」指「位於某個地方的後方位置」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "at the back"
       ],
       "optionReasons": {
-        "back-mcq-11": "本句指「某空間最遠離正面／入口的後方部分」。",
+        "back-pdf-003": "本句指「位於某個地方的後方位置」。",
         "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
         "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
         "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
         "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
         "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-11"
+      "correctOption": "back-pdf-003"
     },
     {
       "id": "back-15-0",
@@ -4525,63 +4585,63 @@ export default {
     },
     {
       "id": "back-57-0",
-      "sense": "back-mcq-40",
+      "sense": "back-pdf-004",
       "en": "The library stores back issues of the journal.",
       "zh": "圖書館收藏這份期刊的舊期號。",
       "masked": "The library stores ____ of the journal.",
       "options": [
-        "back-mcq-40",
+        "back-pdf-004",
         "back-mcq-39",
         "back-mcq-41",
         "back-mcq-38",
         "back-mcq-42",
         "back-mcq-37"
       ],
-      "explanation": "本句的「back issues」指「主要方法失敗時退而依靠後備資源」。",
+      "explanation": "本句的「back issues」指「雜誌／期刊以前出版的期號」。",
       "sentenceIndex": 109,
       "sourcePractice": 110,
       "targets": [
         "back issues"
       ],
       "optionReasons": {
-        "back-mcq-40": "本句指「主要方法失敗時退而依靠後備資源」。",
+        "back-pdf-004": "本句指「雜誌／期刊以前出版的期號」。",
         "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
         "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
         "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
         "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
         "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-40"
+      "correctOption": "back-pdf-004"
     },
     {
       "id": "back-57-1",
-      "sense": "back-mcq-40",
+      "sense": "back-pdf-004",
       "en": "I found the article in a back issue.",
       "zh": "我在一本舊期刊物中找到那篇文章。",
       "masked": "I found the article in a ____.",
       "options": [
-        "back-mcq-40",
+        "back-pdf-004",
         "back-mcq-39",
         "back-mcq-41",
         "back-mcq-38",
         "back-mcq-42",
         "back-mcq-37"
       ],
-      "explanation": "本句的「back issue」指「主要方法失敗時退而依靠後備資源」。",
+      "explanation": "本句的「back issue」指「雜誌／期刊以前出版的期號」。",
       "sentenceIndex": 110,
       "sourcePractice": 111,
       "targets": [
         "back issue"
       ],
       "optionReasons": {
-        "back-mcq-40": "本句指「主要方法失敗時退而依靠後備資源」。",
+        "back-pdf-004": "本句指「雜誌／期刊以前出版的期號」。",
         "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
         "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
         "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
         "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
         "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-40"
+      "correctOption": "back-pdf-004"
     },
     {
       "id": "back-59-0",
@@ -4765,63 +4825,63 @@ export default {
     },
     {
       "id": "back-62-0",
-      "sense": "back-mcq-41",
+      "sense": "back-pdf-005",
       "en": "The change would be a backward step.",
       "zh": "這項改變會是一個倒退的步驟。",
       "masked": "The change would be a ____.",
       "options": [
-        "back-mcq-41",
+        "back-pdf-005",
         "back-mcq-40",
         "back-mcq-42",
         "back-mcq-39",
         "back-mcq-43",
         "back-mcq-38"
       ],
-      "explanation": "本句的「backward step」指「朝後方方向；比喻上亦可指倒退」。",
+      "explanation": "本句的「backward step」指「朝較差／較舊／較不發達狀態發展的」。",
       "sentenceIndex": 117,
       "sourcePractice": 118,
       "targets": [
         "backward step"
       ],
       "optionReasons": {
-        "back-mcq-41": "本句指「朝後方方向；比喻上亦可指倒退」。",
+        "back-pdf-005": "本句指「朝較差／較舊／較不發達狀態發展的」。",
         "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
         "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
         "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
         "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
         "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-41"
+      "correctOption": "back-pdf-005"
     },
     {
       "id": "back-62-1",
-      "sense": "back-mcq-41",
+      "sense": "back-pdf-005",
       "en": "The system was considered outdated and backward.",
       "zh": "這套系統被認為落後過時。",
       "masked": "The system was considered outdated and ____.",
       "options": [
-        "back-mcq-41",
+        "back-pdf-005",
         "back-mcq-40",
         "back-mcq-42",
         "back-mcq-39",
         "back-mcq-43",
         "back-mcq-38"
       ],
-      "explanation": "本句的「backward」指「朝後方方向；比喻上亦可指倒退」。",
+      "explanation": "本句的「backward」指「朝較差／較舊／較不發達狀態發展的」。",
       "sentenceIndex": 118,
       "sourcePractice": 119,
       "targets": [
         "backward"
       ],
       "optionReasons": {
-        "back-mcq-41": "本句指「朝後方方向；比喻上亦可指倒退」。",
+        "back-pdf-005": "本句指「朝較差／較舊／較不發達狀態發展的」。",
         "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
         "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
         "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
         "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
         "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。"
       },
-      "correctOption": "back-mcq-41"
+      "correctOption": "back-pdf-005"
     },
     {
       "id": "back-63-0",

@@ -227,23 +227,7 @@ export default {
       "en": "widely respected",
       "zh": "受到很多人或不同群體普遍尊重",
       "note": "來源詞義：受到很多人或不同群體普遍尊重",
-      "examples": [
-        [
-          "She is widely respected in my family and even in the neighbourhood.",
-          "她在家人甚至鄰里之間都廣受尊重。",
-          "受到很多人或不同群體普遍尊重"
-        ],
-        [
-          "The book is widely read.",
-          "這本書廣受閱讀／很多人都讀過。",
-          "受到很多人或不同群體普遍尊重"
-        ],
-        [
-          "The idea is widely accepted.",
-          "這個想法被廣泛接受。",
-          "受到很多人或不同群體普遍尊重"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -549,18 +533,7 @@ export default {
       "en": "widen — figurative",
       "zh": "令差距、分歧、範圍等進一步擴大",
       "note": "來源詞義：令差距、分歧、範圍等進一步擴大",
-      "examples": [
-        [
-          "Travel can widen your experience.",
-          "旅行可以擴闊你的經驗／眼界。",
-          "令差距、分歧、範圍等進一步擴大"
-        ],
-        [
-          "Reading widely can widen your knowledge.",
-          "廣泛閱讀可以擴闊知識面。",
-          "令差距、分歧、範圍等進一步擴大"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -580,16 +553,6 @@ export default {
         [
           "The road is five metres in width.",
           "這條路的寬度是五米。",
-          "某物從一邊到另一邊的橫向距離"
-        ],
-        [
-          "The width of the gap increased.",
-          "差距的幅度／寬度增加了。",
-          "某物從一邊到另一邊的橫向距離"
-        ],
-        [
-          "The design allows adjustment of the column width.",
-          "這個設計可以調整欄位的寬度。",
           "某物從一邊到另一邊的橫向距離"
         ]
       ],
@@ -689,6 +652,77 @@ export default {
           "They crossed a wide river.",
           "他們跨過了一條寬闊的河流。",
           "某個物體／空間橫向延伸的距離大"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "wide-pdf-001",
+      "title": "在很多人、地方、群體或情況中都有／都發生",
+      "form": "13. widely = by many people / in many places（廣泛地） — 廣泛地；普遍地",
+      "en": "13. widely = by many people / in many places（廣泛地） — 廣泛地；普遍地",
+      "zh": "在很多人、地方、群體或情況中都有／都發生",
+      "note": "原始 PDF 第 13 節：在很多人、地方、群體或情況中都有／都發生",
+      "examples": [
+        [
+          "She is widely respected in my family and even in the neighbourhood.",
+          "她在家人甚至鄰里之間都廣受尊重。",
+          "在很多人、地方、群體或情況中都有／都發生"
+        ],
+        [
+          "The book is widely read.",
+          "這本書廣受閱讀／很多人都讀過。",
+          "在很多人、地方、群體或情況中都有／都發生"
+        ],
+        [
+          "The idea is widely accepted.",
+          "這個想法被廣泛接受。",
+          "在很多人、地方、群體或情況中都有／都發生"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "wide-pdf-002",
+      "title": "令知識、經驗、選擇或視野的範圍增加",
+      "form": "29. widen your knowledge/experience（擴闊知識／經驗） — 擴闊；拓展",
+      "en": "29. widen your knowledge/experience（擴闊知識／經驗） — 擴闊；拓展",
+      "zh": "令知識、經驗、選擇或視野的範圍增加",
+      "note": "原始 PDF 第 29 節：令知識、經驗、選擇或視野的範圍增加",
+      "examples": [
+        [
+          "Travel can widen your experience.",
+          "旅行可以擴闊你的經驗／眼界。",
+          "令知識、經驗、選擇或視野的範圍增加"
+        ],
+        [
+          "Reading widely can widen your knowledge.",
+          "廣泛閱讀可以擴闊知識面。",
+          "令知識、經驗、選擇或視野的範圍增加"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "wide-pdf-003",
+      "title": "某個空間、欄位、範圍的橫向大小",
+      "form": "31. width = extent/range figuratively（幅度／範圍） — 寬度；範圍",
+      "en": "31. width = extent/range figuratively（幅度／範圍） — 寬度；範圍",
+      "zh": "某個空間、欄位、範圍的橫向大小",
+      "note": "原始 PDF 第 31 節：某個空間、欄位、範圍的橫向大小",
+      "examples": [
+        [
+          "The width of the gap increased.",
+          "差距的幅度／寬度增加了。",
+          "某個空間、欄位、範圍的橫向大小"
+        ],
+        [
+          "The design allows adjustment of the column width.",
+          "這個設計可以調整欄位的寬度。",
+          "某個空間、欄位、範圍的橫向大小"
         ]
       ],
       "options": [],
@@ -1418,93 +1452,93 @@ export default {
     },
     {
       "id": "wide-13-0",
-      "sense": "wide-mcq-09",
+      "sense": "wide-pdf-001",
       "en": "She is widely respected in my family and even in the neighbourhood.",
       "zh": "她在家人甚至鄰里之間都廣受尊重。",
       "masked": "She is ____ in my family and even in the neighbourhood.",
       "options": [
-        "wide-mcq-09",
+        "wide-pdf-001",
         "wide-mcq-08",
         "wide-mcq-10",
         "wide-mcq-07",
         "wide-mcq-11",
         "wide-mcq-06"
       ],
-      "explanation": "本句的「widely respected」指「受到很多人或不同群體普遍尊重」。",
+      "explanation": "本句的「widely respected」指「在很多人、地方、群體或情況中都有／都發生」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "widely respected"
       ],
       "optionReasons": {
-        "wide-mcq-09": "本句指「受到很多人或不同群體普遍尊重」。",
+        "wide-pdf-001": "本句指「在很多人、地方、群體或情況中都有／都發生」。",
         "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
         "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
         "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
         "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
         "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-09"
+      "correctOption": "wide-pdf-001"
     },
     {
       "id": "wide-13-1",
-      "sense": "wide-mcq-09",
+      "sense": "wide-pdf-001",
       "en": "The book is widely read.",
       "zh": "這本書廣受閱讀／很多人都讀過。",
       "masked": "The book is ____.",
       "options": [
-        "wide-mcq-09",
+        "wide-pdf-001",
         "wide-mcq-08",
         "wide-mcq-10",
         "wide-mcq-07",
         "wide-mcq-11",
         "wide-mcq-06"
       ],
-      "explanation": "本句的「widely read」指「受到很多人或不同群體普遍尊重」。",
+      "explanation": "本句的「widely read」指「在很多人、地方、群體或情況中都有／都發生」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "widely read"
       ],
       "optionReasons": {
-        "wide-mcq-09": "本句指「受到很多人或不同群體普遍尊重」。",
+        "wide-pdf-001": "本句指「在很多人、地方、群體或情況中都有／都發生」。",
         "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
         "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
         "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
         "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
         "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-09"
+      "correctOption": "wide-pdf-001"
     },
     {
       "id": "wide-13-2",
-      "sense": "wide-mcq-09",
+      "sense": "wide-pdf-001",
       "en": "The idea is widely accepted.",
       "zh": "這個想法被廣泛接受。",
       "masked": "The idea is ____.",
       "options": [
-        "wide-mcq-09",
+        "wide-pdf-001",
         "wide-mcq-08",
         "wide-mcq-10",
         "wide-mcq-07",
         "wide-mcq-11",
         "wide-mcq-06"
       ],
-      "explanation": "本句的「widely accepted」指「受到很多人或不同群體普遍尊重」。",
+      "explanation": "本句的「widely accepted」指「在很多人、地方、群體或情況中都有／都發生」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "widely accepted"
       ],
       "optionReasons": {
-        "wide-mcq-09": "本句指「受到很多人或不同群體普遍尊重」。",
+        "wide-pdf-001": "本句指「在很多人、地方、群體或情況中都有／都發生」。",
         "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
         "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
         "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
         "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
         "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-09"
+      "correctOption": "wide-pdf-001"
     },
     {
       "id": "wide-14-0",
@@ -2408,63 +2442,63 @@ export default {
     },
     {
       "id": "wide-29-0",
-      "sense": "wide-mcq-23",
+      "sense": "wide-pdf-002",
       "en": "Travel can widen your experience.",
       "zh": "旅行可以擴闊你的經驗／眼界。",
       "masked": "Travel can ____.",
       "options": [
-        "wide-mcq-23",
+        "wide-pdf-002",
         "wide-mcq-22",
         "wide-mcq-24",
         "wide-mcq-21",
         "wide-mcq-25",
         "wide-mcq-20"
       ],
-      "explanation": "本句的「widen your experience」指「令差距、分歧、範圍等進一步擴大」。",
+      "explanation": "本句的「widen your experience」指「令知識、經驗、選擇或視野的範圍增加」。",
       "sentenceIndex": 57,
       "sourcePractice": 58,
       "targets": [
         "widen your experience"
       ],
       "optionReasons": {
-        "wide-mcq-23": "本句指「令差距、分歧、範圍等進一步擴大」。",
+        "wide-pdf-002": "本句指「令知識、經驗、選擇或視野的範圍增加」。",
         "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
         "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
         "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
         "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
         "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-23"
+      "correctOption": "wide-pdf-002"
     },
     {
       "id": "wide-29-1",
-      "sense": "wide-mcq-23",
+      "sense": "wide-pdf-002",
       "en": "Reading widely can widen your knowledge.",
       "zh": "廣泛閱讀可以擴闊知識面。",
       "masked": "Reading ____ can widen your knowledge.",
       "options": [
-        "wide-mcq-23",
+        "wide-pdf-002",
         "wide-mcq-22",
         "wide-mcq-24",
         "wide-mcq-21",
         "wide-mcq-25",
         "wide-mcq-20"
       ],
-      "explanation": "本句的「widely」指「令差距、分歧、範圍等進一步擴大」。",
+      "explanation": "本句的「widely」指「令知識、經驗、選擇或視野的範圍增加」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-23": "本句指「令差距、分歧、範圍等進一步擴大」。",
+        "wide-pdf-002": "本句指「令知識、經驗、選擇或視野的範圍增加」。",
         "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
         "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
         "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
         "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
         "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-23"
+      "correctOption": "wide-pdf-002"
     },
     {
       "id": "wide-30-0",
@@ -2528,63 +2562,63 @@ export default {
     },
     {
       "id": "wide-31-0",
-      "sense": "wide-mcq-24",
+      "sense": "wide-pdf-003",
       "en": "The width of the gap increased.",
       "zh": "差距的幅度／寬度增加了。",
       "masked": "The ____ of the gap increased.",
       "options": [
-        "wide-mcq-24",
+        "wide-pdf-003",
         "wide-mcq-23",
         "wide-mcq-25",
         "wide-mcq-22",
         "wide-mcq-26",
         "wide-mcq-21"
       ],
-      "explanation": "本句的「width」指「某物從一邊到另一邊的橫向距離」。",
+      "explanation": "本句的「width」指「某個空間、欄位、範圍的橫向大小」。",
       "sentenceIndex": 61,
       "sourcePractice": 62,
       "targets": [
         "width"
       ],
       "optionReasons": {
-        "wide-mcq-24": "本句指「某物從一邊到另一邊的橫向距離」。",
+        "wide-pdf-003": "本句指「某個空間、欄位、範圍的橫向大小」。",
         "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
         "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
         "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
         "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
         "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-24"
+      "correctOption": "wide-pdf-003"
     },
     {
       "id": "wide-31-1",
-      "sense": "wide-mcq-24",
+      "sense": "wide-pdf-003",
       "en": "The design allows adjustment of the column width.",
       "zh": "這個設計可以調整欄位的寬度。",
       "masked": "The design allows adjustment of the column ____.",
       "options": [
-        "wide-mcq-24",
+        "wide-pdf-003",
         "wide-mcq-23",
         "wide-mcq-25",
         "wide-mcq-22",
         "wide-mcq-26",
         "wide-mcq-21"
       ],
-      "explanation": "本句的「width」指「某物從一邊到另一邊的橫向距離」。",
+      "explanation": "本句的「width」指「某個空間、欄位、範圍的橫向大小」。",
       "sentenceIndex": 62,
       "sourcePractice": 63,
       "targets": [
         "width"
       ],
       "optionReasons": {
-        "wide-mcq-24": "本句指「某物從一邊到另一邊的橫向距離」。",
+        "wide-pdf-003": "本句指「某個空間、欄位、範圍的橫向大小」。",
         "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
         "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
         "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
         "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
         "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。"
       },
-      "correctOption": "wide-mcq-24"
+      "correctOption": "wide-pdf-003"
     },
     {
       "id": "wide-32-0",

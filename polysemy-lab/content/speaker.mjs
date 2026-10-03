@@ -206,16 +206,6 @@ export default {
       "note": "來源詞義：揚聲器；喇叭",
       "examples": [
         [
-          "He is a speaker of several languages.",
-          "他會說多種語言，是多種語言的使用者。",
-          "揚聲器；喇叭"
-        ],
-        [
-          "The region has millions of Spanish speakers.",
-          "該地區有數百萬名西班牙語使用者。",
-          "揚聲器；喇叭"
-        ],
-        [
           "The music is coming from that speaker.",
           "音樂是從那個揚聲器傳出來的。",
           "揚聲器；喇叭"
@@ -464,6 +454,28 @@ export default {
           "We should not automatically assume that the speaker is the poet.",
           "我們不應自動假設詩中的說話者就是詩人本人。",
           "文學作品，尤其詩歌中發出說話聲音的角色或敘述者"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "speaker-pdf-001",
+      "title": "能夠用 X 語言說話的人",
+      "form": "10. speaker of a language — 某種語言的使用者",
+      "en": "10. speaker of a language — 某種語言的使用者",
+      "zh": "能夠用 X 語言說話的人",
+      "note": "原始 PDF 第 10 節：能夠用 X 語言說話的人",
+      "examples": [
+        [
+          "He is a speaker of several languages.",
+          "他會說多種語言，是多種語言的使用者。",
+          "能夠用 X 語言說話的人"
+        ],
+        [
+          "The region has millions of Spanish speakers.",
+          "該地區有數百萬名西班牙語使用者。",
+          "能夠用 X 語言說話的人"
         ]
       ],
       "options": [],
@@ -1043,63 +1055,63 @@ export default {
     },
     {
       "id": "speaker-10-0",
-      "sense": "speaker-mcq-10",
+      "sense": "speaker-pdf-001",
       "en": "He is a speaker of several languages.",
       "zh": "他會說多種語言，是多種語言的使用者。",
       "masked": "He is a ____.",
       "options": [
-        "speaker-mcq-10",
+        "speaker-pdf-001",
         "speaker-mcq-09",
         "speaker-mcq-11",
         "speaker-mcq-08",
         "speaker-mcq-12",
         "speaker-mcq-07"
       ],
-      "explanation": "本句的「speaker of several languages」指「揚聲器；喇叭」。",
+      "explanation": "本句的「speaker of several languages」指「能夠用 X 語言說話的人」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "speaker of several languages"
       ],
       "optionReasons": {
-        "speaker-mcq-10": "本句指「揚聲器；喇叭」。",
+        "speaker-pdf-001": "本句指「能夠用 X 語言說話的人」。",
         "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
         "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
         "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
         "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
         "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。"
       },
-      "correctOption": "speaker-mcq-10"
+      "correctOption": "speaker-pdf-001"
     },
     {
       "id": "speaker-10-1",
-      "sense": "speaker-mcq-10",
+      "sense": "speaker-pdf-001",
       "en": "The region has millions of Spanish speakers.",
       "zh": "該地區有數百萬名西班牙語使用者。",
       "masked": "The region has millions of Spanish ____.",
       "options": [
-        "speaker-mcq-10",
+        "speaker-pdf-001",
         "speaker-mcq-09",
         "speaker-mcq-11",
         "speaker-mcq-08",
         "speaker-mcq-12",
         "speaker-mcq-07"
       ],
-      "explanation": "本句的「speakers」指「揚聲器；喇叭」。",
+      "explanation": "本句的「speakers」指「能夠用 X 語言說話的人」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-10": "本句指「揚聲器；喇叭」。",
+        "speaker-pdf-001": "本句指「能夠用 X 語言說話的人」。",
         "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
         "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
         "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
         "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
         "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。"
       },
-      "correctOption": "speaker-mcq-10"
+      "correctOption": "speaker-pdf-001"
     },
     {
       "id": "speaker-11-0",

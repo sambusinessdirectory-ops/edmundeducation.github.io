@@ -204,18 +204,7 @@ export default {
       "en": "contribute to success",
       "zh": "促成成功",
       "note": "來源詞義：促成成功",
-      "examples": [
-        [
-          "Clear communication contributed to the project's success.",
-          "清晰溝通促成了項目成功。",
-          "促成成功"
-        ],
-        [
-          "Several factors contributed to the improvement.",
-          "多個因素共同促成了改善。",
-          "促成成功"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -586,6 +575,28 @@ export default {
           "Contributory negligence can affect how damages are assessed.",
           "與有過失可能影響賠償額的評定。",
           "與有過失"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contribute-pdf-001",
+      "title": "成為造成 X 的其中一個因素",
+      "form": "10. contribute to a result / outcome — 促成結果",
+      "en": "10. contribute to a result / outcome — 促成結果",
+      "zh": "成為造成 X 的其中一個因素",
+      "note": "原始 PDF 第 10 節：成為造成 X 的其中一個因素",
+      "examples": [
+        [
+          "Clear communication contributed to the project's success.",
+          "清晰溝通促成了項目成功。",
+          "成為造成 X 的其中一個因素"
+        ],
+        [
+          "Several factors contributed to the improvement.",
+          "多個因素共同促成了改善。",
+          "成為造成 X 的其中一個因素"
         ]
       ],
       "options": [],
@@ -1105,63 +1116,63 @@ export default {
     },
     {
       "id": "contribute-10-0",
-      "sense": "contribute-mcq-10",
+      "sense": "contribute-pdf-001",
       "en": "Clear communication contributed to the project's success.",
       "zh": "清晰溝通促成了項目成功。",
       "masked": "Clear communication ____.",
       "options": [
-        "contribute-mcq-10",
+        "contribute-pdf-001",
         "contribute-mcq-09",
         "contribute-mcq-11",
         "contribute-mcq-08",
         "contribute-mcq-12",
         "contribute-mcq-07"
       ],
-      "explanation": "本句的「contributed to the project's success」指「促成成功」。",
+      "explanation": "本句的「contributed to the project's success」指「成為造成 X 的其中一個因素」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "contributed to the project's success"
       ],
       "optionReasons": {
-        "contribute-mcq-10": "本句指「促成成功」。",
+        "contribute-pdf-001": "本句指「成為造成 X 的其中一個因素」。",
         "contribute-mcq-09": "「向基金供款」與本句語境不同。",
         "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
         "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
         "contribute-mcq-12": "「促成因素」與本句語境不同。",
         "contribute-mcq-07": "「捐款／供款」與本句語境不同。"
       },
-      "correctOption": "contribute-mcq-10"
+      "correctOption": "contribute-pdf-001"
     },
     {
       "id": "contribute-10-1",
-      "sense": "contribute-mcq-10",
+      "sense": "contribute-pdf-001",
       "en": "Several factors contributed to the improvement.",
       "zh": "多個因素共同促成了改善。",
       "masked": "Several factors ____.",
       "options": [
-        "contribute-mcq-10",
+        "contribute-pdf-001",
         "contribute-mcq-09",
         "contribute-mcq-11",
         "contribute-mcq-08",
         "contribute-mcq-12",
         "contribute-mcq-07"
       ],
-      "explanation": "本句的「contributed to the improvement」指「促成成功」。",
+      "explanation": "本句的「contributed to the improvement」指「成為造成 X 的其中一個因素」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "contributed to the improvement"
       ],
       "optionReasons": {
-        "contribute-mcq-10": "本句指「促成成功」。",
+        "contribute-pdf-001": "本句指「成為造成 X 的其中一個因素」。",
         "contribute-mcq-09": "「向基金供款」與本句語境不同。",
         "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
         "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
         "contribute-mcq-12": "「促成因素」與本句語境不同。",
         "contribute-mcq-07": "「捐款／供款」與本句語境不同。"
       },
-      "correctOption": "contribute-mcq-10"
+      "correctOption": "contribute-pdf-001"
     },
     {
       "id": "contribute-11-0",

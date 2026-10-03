@@ -66,16 +66,6 @@ export default {
           "She trusted me with a secret.",
           "她信任我，把一個秘密告訴了我。",
           "把 X 交託給某人"
-        ],
-        [
-          "They trusted her with managing the project.",
-          "他們信任她，讓她負責管理這個項目。",
-          "把 X 交託給某人"
-        ],
-        [
-          "I wouldn't trust him with handling the money.",
-          "我不會放心讓他處理那筆錢。",
-          "把 X 交託給某人"
         ]
       ],
       "options": [],
@@ -519,16 +509,6 @@ export default {
       "note": "來源詞義：不信任",
       "examples": [
         [
-          "He is sometimes too trusting of strangers.",
-          "他有時太容易相信陌生人。",
-          "不信任"
-        ],
-        [
-          "Being too trusting can make you vulnerable to scams.",
-          "過分容易相信別人可能令你容易受騙。",
-          "不信任"
-        ],
-        [
           "She distrusted him from the beginning.",
           "她從一開始就不信任他。",
           "不信任"
@@ -656,6 +636,50 @@ export default {
           "Sharing that private information would break his trust.",
           "公開那些私人資料會破壞他對你的信任。",
           "做出違反對方信任的事情，使信任關係受到破壞"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "trust-pdf-001",
+      "title": "把某項責任交給某人，因為相信他有能力而且可靠",
+      "form": "4. trust someone with doing something — 信任某人負責某事",
+      "en": "4. trust someone with doing something — 信任某人負責某事",
+      "zh": "把某項責任交給某人，因為相信他有能力而且可靠",
+      "note": "原始 PDF 第 4 節：把某項責任交給某人，因為相信他有能力而且可靠",
+      "examples": [
+        [
+          "They trusted her with managing the project.",
+          "他們信任她，讓她負責管理這個項目。",
+          "把某項責任交給某人，因為相信他有能力而且可靠"
+        ],
+        [
+          "I wouldn't trust him with handling the money.",
+          "我不會放心讓他處理那筆錢。",
+          "把某項責任交給某人，因為相信他有能力而且可靠"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "trust-pdf-002",
+      "title": "對別人的信任過多，缺乏足夠警覺",
+      "form": "25. too trusting — 太容易相信別人的",
+      "en": "25. too trusting — 太容易相信別人的",
+      "zh": "對別人的信任過多，缺乏足夠警覺",
+      "note": "原始 PDF 第 25 節：對別人的信任過多，缺乏足夠警覺",
+      "examples": [
+        [
+          "He is sometimes too trusting of strangers.",
+          "他有時太容易相信陌生人。",
+          "對別人的信任過多，缺乏足夠警覺"
+        ],
+        [
+          "Being too trusting can make you vulnerable to scams.",
+          "過分容易相信別人可能令你容易受騙。",
+          "對別人的信任過多，缺乏足夠警覺"
         ]
       ],
       "options": [],
@@ -845,63 +869,63 @@ export default {
     },
     {
       "id": "trust-04-0",
-      "sense": "trust-mcq-03",
+      "sense": "trust-pdf-001",
       "en": "They trusted her with managing the project.",
       "zh": "他們信任她，讓她負責管理這個項目。",
       "masked": "They ____.",
       "options": [
-        "trust-mcq-03",
+        "trust-pdf-001",
         "trust-mcq-02",
         "trust-mcq-04",
         "trust-mcq-01",
         "trust-mcq-05",
         "trust-mcq-06"
       ],
-      "explanation": "本句的「trusted her with managing the project」指「把 X 交託給某人」。",
+      "explanation": "本句的「trusted her with managing the project」指「把某項責任交給某人，因為相信他有能力而且可靠」。",
       "sentenceIndex": 6,
       "sourcePractice": 1,
       "targets": [
         "trusted her with managing the project"
       ],
       "optionReasons": {
-        "trust-mcq-03": "本句指「把 X 交託給某人」。",
+        "trust-pdf-001": "本句指「把某項責任交給某人，因為相信他有能力而且可靠」。",
         "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
         "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
         "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
         "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
         "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
       },
-      "correctOption": "trust-mcq-03"
+      "correctOption": "trust-pdf-001"
     },
     {
       "id": "trust-04-1",
-      "sense": "trust-mcq-03",
+      "sense": "trust-pdf-001",
       "en": "I wouldn't trust him with handling the money.",
       "zh": "我不會放心讓他處理那筆錢。",
       "masked": "I wouldn't ____.",
       "options": [
-        "trust-mcq-03",
+        "trust-pdf-001",
         "trust-mcq-02",
         "trust-mcq-04",
         "trust-mcq-01",
         "trust-mcq-05",
         "trust-mcq-06"
       ],
-      "explanation": "本句的「trust him with handling the money」指「把 X 交託給某人」。",
+      "explanation": "本句的「trust him with handling the money」指「把某項責任交給某人，因為相信他有能力而且可靠」。",
       "sentenceIndex": 7,
       "sourcePractice": 2,
       "targets": [
         "trust him with handling the money"
       ],
       "optionReasons": {
-        "trust-mcq-03": "本句指「把 X 交託給某人」。",
+        "trust-pdf-001": "本句指「把某項責任交給某人，因為相信他有能力而且可靠」。",
         "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
         "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
         "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
         "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
         "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
       },
-      "correctOption": "trust-mcq-03"
+      "correctOption": "trust-pdf-001"
     },
     {
       "id": "trust-05-0",
@@ -2105,63 +2129,63 @@ export default {
     },
     {
       "id": "trust-25-0",
-      "sense": "trust-mcq-24",
+      "sense": "trust-pdf-002",
       "en": "He is sometimes too trusting of strangers.",
       "zh": "他有時太容易相信陌生人。",
       "masked": "He is sometimes ____ of strangers.",
       "options": [
-        "trust-mcq-24",
+        "trust-pdf-002",
         "trust-mcq-23",
         "trust-mcq-25",
         "trust-mcq-22",
         "trust-mcq-26",
         "trust-mcq-21"
       ],
-      "explanation": "本句的「too trusting」指「不信任」。",
+      "explanation": "本句的「too trusting」指「對別人的信任過多，缺乏足夠警覺」。",
       "sentenceIndex": 48,
       "sourcePractice": 1,
       "targets": [
         "too trusting"
       ],
       "optionReasons": {
-        "trust-mcq-24": "本句指「不信任」。",
+        "trust-pdf-002": "本句指「對別人的信任過多，缺乏足夠警覺」。",
         "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
         "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
         "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
         "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
         "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
       },
-      "correctOption": "trust-mcq-24"
+      "correctOption": "trust-pdf-002"
     },
     {
       "id": "trust-25-1",
-      "sense": "trust-mcq-24",
+      "sense": "trust-pdf-002",
       "en": "Being too trusting can make you vulnerable to scams.",
       "zh": "過分容易相信別人可能令你容易受騙。",
       "masked": "Being ____ can make you vulnerable to scams.",
       "options": [
-        "trust-mcq-24",
+        "trust-pdf-002",
         "trust-mcq-23",
         "trust-mcq-25",
         "trust-mcq-22",
         "trust-mcq-26",
         "trust-mcq-21"
       ],
-      "explanation": "本句的「too trusting」指「不信任」。",
+      "explanation": "本句的「too trusting」指「對別人的信任過多，缺乏足夠警覺」。",
       "sentenceIndex": 49,
       "sourcePractice": 2,
       "targets": [
         "too trusting"
       ],
       "optionReasons": {
-        "trust-mcq-24": "本句指「不信任」。",
+        "trust-pdf-002": "本句指「對別人的信任過多，缺乏足夠警覺」。",
         "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
         "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
         "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
         "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
         "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
       },
-      "correctOption": "trust-mcq-24"
+      "correctOption": "trust-pdf-002"
     },
     {
       "id": "trust-26-0",

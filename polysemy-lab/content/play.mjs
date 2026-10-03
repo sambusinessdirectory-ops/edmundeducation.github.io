@@ -171,18 +171,7 @@ export default {
       "en": "play music/song",
       "zh": "演奏音樂，或使錄音開始播放；依語境判斷",
       "note": "來源詞義：演奏音樂，或使錄音開始播放；依語境判斷",
-      "examples": [
-        [
-          "The band played my favourite song.",
-          "樂隊演奏了我最喜歡的歌曲。",
-          "演奏音樂，或使錄音開始播放；依語境判斷"
-        ],
-        [
-          "She played a short piece on the piano.",
-          "她用鋼琴演奏了一小段樂曲。",
-          "演奏音樂，或使錄音開始播放；依語境判斷"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -731,16 +720,6 @@ export default {
           "She gave him a playful smile.",
           "她向他露出一個帶點玩笑意味的笑容。",
           "愛玩、調皮、輕鬆有趣或帶玩味的"
-        ],
-        [
-          "The design has a playful style.",
-          "這個設計風格很活潑有趣／帶玩味。",
-          "愛玩、調皮、輕鬆有趣或帶玩味的"
-        ],
-        [
-          "The writer uses a playful tone.",
-          "作者使用了一種輕鬆帶玩味的語氣。",
-          "愛玩、調皮、輕鬆有趣或帶玩味的"
         ]
       ],
       "options": [],
@@ -873,6 +852,50 @@ export default {
           "The activity uses role-play to practise speaking.",
           "這項活動透過角色扮演練習口語。",
           "扮演人物／情境以練習、娛樂或模擬互動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "play-pdf-001",
+      "title": "演奏某首樂曲／歌曲",
+      "form": "9. play = perform a piece of music（演奏樂曲） — 演奏",
+      "en": "9. play = perform a piece of music（演奏樂曲） — 演奏",
+      "zh": "演奏某首樂曲／歌曲",
+      "note": "原始 PDF 第 9 節：演奏某首樂曲／歌曲",
+      "examples": [
+        [
+          "The band played my favourite song.",
+          "樂隊演奏了我最喜歡的歌曲。",
+          "演奏某首樂曲／歌曲"
+        ],
+        [
+          "She played a short piece on the piano.",
+          "她用鋼琴演奏了一小段樂曲。",
+          "演奏某首樂曲／歌曲"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "play-pdf-002",
+      "title": "不嚴肅、帶創意、幽默或遊戲感的",
+      "form": "34. playful = light-hearted rather than serious（帶玩味的） — 輕鬆有趣的；帶玩味的",
+      "en": "34. playful = light-hearted rather than serious（帶玩味的） — 輕鬆有趣的；帶玩味的",
+      "zh": "不嚴肅、帶創意、幽默或遊戲感的",
+      "note": "原始 PDF 第 34 節：不嚴肅、帶創意、幽默或遊戲感的",
+      "examples": [
+        [
+          "The design has a playful style.",
+          "這個設計風格很活潑有趣／帶玩味。",
+          "不嚴肅、帶創意、幽默或遊戲感的"
+        ],
+        [
+          "The writer uses a playful tone.",
+          "作者使用了一種輕鬆帶玩味的語氣。",
+          "不嚴肅、帶創意、幽默或遊戲感的"
         ]
       ],
       "options": [],
@@ -1392,63 +1415,63 @@ export default {
     },
     {
       "id": "play-09-0",
-      "sense": "play-mcq-08",
+      "sense": "play-pdf-001",
       "en": "The band played my favourite song.",
       "zh": "樂隊演奏了我最喜歡的歌曲。",
       "masked": "The band ____ my favourite song.",
       "options": [
-        "play-mcq-08",
+        "play-pdf-001",
         "play-mcq-07",
         "play-mcq-09",
         "play-mcq-06",
         "play-mcq-10",
         "play-mcq-05"
       ],
-      "explanation": "本句的「played」指「演奏音樂，或使錄音開始播放；依語境判斷」。",
+      "explanation": "本句的「played」指「演奏某首樂曲／歌曲」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "played"
       ],
       "optionReasons": {
-        "play-mcq-08": "本句指「演奏音樂，或使錄音開始播放；依語境判斷」。",
+        "play-pdf-001": "本句指「演奏某首樂曲／歌曲」。",
         "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
         "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
         "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
         "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
         "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。"
       },
-      "correctOption": "play-mcq-08"
+      "correctOption": "play-pdf-001"
     },
     {
       "id": "play-09-1",
-      "sense": "play-mcq-08",
+      "sense": "play-pdf-001",
       "en": "She played a short piece on the piano.",
       "zh": "她用鋼琴演奏了一小段樂曲。",
       "masked": "She ____ a short piece on the piano.",
       "options": [
-        "play-mcq-08",
+        "play-pdf-001",
         "play-mcq-07",
         "play-mcq-09",
         "play-mcq-06",
         "play-mcq-10",
         "play-mcq-05"
       ],
-      "explanation": "本句的「played」指「演奏音樂，或使錄音開始播放；依語境判斷」。",
+      "explanation": "本句的「played」指「演奏某首樂曲／歌曲」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "played"
       ],
       "optionReasons": {
-        "play-mcq-08": "本句指「演奏音樂，或使錄音開始播放；依語境判斷」。",
+        "play-pdf-001": "本句指「演奏某首樂曲／歌曲」。",
         "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
         "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
         "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
         "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
         "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。"
       },
-      "correctOption": "play-mcq-08"
+      "correctOption": "play-pdf-001"
     },
     {
       "id": "play-10-0",
@@ -2892,63 +2915,63 @@ export default {
     },
     {
       "id": "play-34-0",
-      "sense": "play-mcq-33",
+      "sense": "play-pdf-002",
       "en": "The design has a playful style.",
       "zh": "這個設計風格很活潑有趣／帶玩味。",
       "masked": "The design has a ____ style.",
       "options": [
-        "play-mcq-33",
+        "play-pdf-002",
         "play-mcq-32",
         "play-mcq-34",
         "play-mcq-31",
         "play-mcq-35",
         "play-mcq-30"
       ],
-      "explanation": "本句的「playful」指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
+      "explanation": "本句的「playful」指「不嚴肅、帶創意、幽默或遊戲感的」。",
       "sentenceIndex": 67,
       "sourcePractice": 68,
       "targets": [
         "playful"
       ],
       "optionReasons": {
-        "play-mcq-33": "本句指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
+        "play-pdf-002": "本句指「不嚴肅、帶創意、幽默或遊戲感的」。",
         "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
         "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
         "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
         "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
         "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。"
       },
-      "correctOption": "play-mcq-33"
+      "correctOption": "play-pdf-002"
     },
     {
       "id": "play-34-1",
-      "sense": "play-mcq-33",
+      "sense": "play-pdf-002",
       "en": "The writer uses a playful tone.",
       "zh": "作者使用了一種輕鬆帶玩味的語氣。",
       "masked": "The writer uses a ____ tone.",
       "options": [
-        "play-mcq-33",
+        "play-pdf-002",
         "play-mcq-32",
         "play-mcq-34",
         "play-mcq-31",
         "play-mcq-35",
         "play-mcq-30"
       ],
-      "explanation": "本句的「playful」指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
+      "explanation": "本句的「playful」指「不嚴肅、帶創意、幽默或遊戲感的」。",
       "sentenceIndex": 68,
       "sourcePractice": 69,
       "targets": [
         "playful"
       ],
       "optionReasons": {
-        "play-mcq-33": "本句指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
+        "play-pdf-002": "本句指「不嚴肅、帶創意、幽默或遊戲感的」。",
         "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
         "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
         "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
         "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
         "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。"
       },
-      "correctOption": "play-mcq-33"
+      "correctOption": "play-pdf-002"
     },
     {
       "id": "play-35-0",

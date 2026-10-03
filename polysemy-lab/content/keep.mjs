@@ -93,16 +93,6 @@ export default {
           "She decided to keep the old laptop.",
           "她決定留下那部舊手提電腦。",
           "繼續擁有某物，不把它交走、丟掉、歸還或放棄"
-        ],
-        [
-          "You can keep the copy.",
-          "這份副本你可以留著，不用歸還。",
-          "繼續擁有某物，不把它交走、丟掉、歸還或放棄"
-        ],
-        [
-          "The restaurant said we could keep the menu.",
-          "餐廳說我們可以把餐牌留下。",
-          "繼續擁有某物，不把它交走、丟掉、歸還或放棄"
         ]
       ],
       "options": [],
@@ -717,16 +707,6 @@ export default {
           "I struggled to keep pace with the speaker.",
           "我很難跟上講者的速度。",
           "以相同速度或進度前進，不被對方拋離"
-        ],
-        [
-          "I practised so I could keep up with the discussion.",
-          "我練習是為了可以跟上討論。",
-          "以相同速度或進度前進，不被對方拋離"
-        ],
-        [
-          "It is difficult to keep up with all the changes.",
-          "要跟上所有變化並不容易。",
-          "以相同速度或進度前進，不被對方拋離"
         ]
       ],
       "options": [],
@@ -1091,6 +1071,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "keep-pdf-001",
+      "title": "不需要把某物交還給原來的人／地方",
+      "form": "5. keep = not return something（留下不用歸還） — 留著；不用還",
+      "en": "5. keep = not return something（留下不用歸還） — 留著；不用還",
+      "zh": "不需要把某物交還給原來的人／地方",
+      "note": "原始 PDF 第 5 節：不需要把某物交還給原來的人／地方",
+      "examples": [
+        [
+          "You can keep the copy.",
+          "這份副本你可以留著，不用歸還。",
+          "不需要把某物交還給原來的人／地方"
+        ],
+        [
+          "The restaurant said we could keep the menu.",
+          "餐廳說我們可以把餐牌留下。",
+          "不需要把某物交還給原來的人／地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "keep-pdf-002",
+      "title": "跟上某人的速度、知識、進展或變化",
+      "form": "40. keep up with（跟上） — 跟上；維持同等水平",
+      "en": "40. keep up with（跟上） — 跟上；維持同等水平",
+      "zh": "跟上某人的速度、知識、進展或變化",
+      "note": "原始 PDF 第 40 節：跟上某人的速度、知識、進展或變化",
+      "examples": [
+        [
+          "I practised so I could keep up with the discussion.",
+          "我練習是為了可以跟上討論。",
+          "跟上某人的速度、知識、進展或變化"
+        ],
+        [
+          "It is difficult to keep up with all the changes.",
+          "要跟上所有變化並不容易。",
+          "跟上某人的速度、知識、進展或變化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1366,63 +1390,63 @@ export default {
     },
     {
       "id": "keep-05-0",
-      "sense": "keep-mcq-04",
+      "sense": "keep-pdf-001",
       "en": "You can keep the copy.",
       "zh": "這份副本你可以留著，不用歸還。",
       "masked": "You can ____.",
       "options": [
-        "keep-mcq-04",
+        "keep-pdf-001",
         "keep-mcq-03",
         "keep-mcq-05",
         "keep-mcq-02",
         "keep-mcq-06",
         "keep-mcq-01"
       ],
-      "explanation": "本句的「keep the copy」指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
+      "explanation": "本句的「keep the copy」指「不需要把某物交還給原來的人／地方」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "keep the copy"
       ],
       "optionReasons": {
-        "keep-mcq-04": "本句指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
+        "keep-pdf-001": "本句指「不需要把某物交還給原來的人／地方」。",
         "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
         "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
         "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
         "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
         "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。"
       },
-      "correctOption": "keep-mcq-04"
+      "correctOption": "keep-pdf-001"
     },
     {
       "id": "keep-05-1",
-      "sense": "keep-mcq-04",
+      "sense": "keep-pdf-001",
       "en": "The restaurant said we could keep the menu.",
       "zh": "餐廳說我們可以把餐牌留下。",
       "masked": "The restaurant said we could ____.",
       "options": [
-        "keep-mcq-04",
+        "keep-pdf-001",
         "keep-mcq-03",
         "keep-mcq-05",
         "keep-mcq-02",
         "keep-mcq-06",
         "keep-mcq-01"
       ],
-      "explanation": "本句的「keep the menu」指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
+      "explanation": "本句的「keep the menu」指「不需要把某物交還給原來的人／地方」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "keep the menu"
       ],
       "optionReasons": {
-        "keep-mcq-04": "本句指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
+        "keep-pdf-001": "本句指「不需要把某物交還給原來的人／地方」。",
         "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
         "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
         "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
         "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
         "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。"
       },
-      "correctOption": "keep-mcq-04"
+      "correctOption": "keep-pdf-001"
     },
     {
       "id": "keep-06-0",
@@ -3406,63 +3430,63 @@ export default {
     },
     {
       "id": "keep-40-0",
-      "sense": "keep-mcq-31",
+      "sense": "keep-pdf-002",
       "en": "I practised so I could keep up with the discussion.",
       "zh": "我練習是為了可以跟上討論。",
       "masked": "I practised so I could ____ the discussion.",
       "options": [
-        "keep-mcq-31",
+        "keep-pdf-002",
         "keep-mcq-30",
         "keep-mcq-32",
         "keep-mcq-29",
         "keep-mcq-33",
         "keep-mcq-28"
       ],
-      "explanation": "本句的「keep up with」指「以相同速度或進度前進，不被對方拋離」。",
+      "explanation": "本句的「keep up with」指「跟上某人的速度、知識、進展或變化」。",
       "sentenceIndex": 77,
       "sourcePractice": 78,
       "targets": [
         "keep up with"
       ],
       "optionReasons": {
-        "keep-mcq-31": "本句指「以相同速度或進度前進，不被對方拋離」。",
+        "keep-pdf-002": "本句指「跟上某人的速度、知識、進展或變化」。",
         "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
         "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
         "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
         "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
         "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。"
       },
-      "correctOption": "keep-mcq-31"
+      "correctOption": "keep-pdf-002"
     },
     {
       "id": "keep-40-1",
-      "sense": "keep-mcq-31",
+      "sense": "keep-pdf-002",
       "en": "It is difficult to keep up with all the changes.",
       "zh": "要跟上所有變化並不容易。",
       "masked": "It is difficult to ____ all the changes.",
       "options": [
-        "keep-mcq-31",
+        "keep-pdf-002",
         "keep-mcq-30",
         "keep-mcq-32",
         "keep-mcq-29",
         "keep-mcq-33",
         "keep-mcq-28"
       ],
-      "explanation": "本句的「keep up with」指「以相同速度或進度前進，不被對方拋離」。",
+      "explanation": "本句的「keep up with」指「跟上某人的速度、知識、進展或變化」。",
       "sentenceIndex": 78,
       "sourcePractice": 79,
       "targets": [
         "keep up with"
       ],
       "optionReasons": {
-        "keep-mcq-31": "本句指「以相同速度或進度前進，不被對方拋離」。",
+        "keep-pdf-002": "本句指「跟上某人的速度、知識、進展或變化」。",
         "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
         "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
         "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
         "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
         "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。"
       },
-      "correctOption": "keep-mcq-31"
+      "correctOption": "keep-pdf-002"
     },
     {
       "id": "keep-41-0",

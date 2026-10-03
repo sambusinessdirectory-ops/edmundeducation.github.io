@@ -582,11 +582,6 @@ export default {
       "note": "來源詞義：過大／寬鬆大版型",
       "examples": [
         [
-          "The parcel was classified as oversized.",
-          "包裹被列為超大尺寸。",
-          "過大／寬鬆大版型"
-        ],
-        [
           "She bought an oversized jacket.",
           "她買了一件寬鬆大版型外套。",
           "過大／寬鬆大版型"
@@ -624,18 +619,7 @@ export default {
       "en": "sizing",
       "zh": "尺碼制度",
       "note": "來源詞義：尺碼制度",
-      "examples": [
-        [
-          "Clothing sizing varies between brands.",
-          "不同品牌的服裝尺碼制度不同。",
-          "尺碼制度"
-        ],
-        [
-          "Inconsistent sizing causes avoidable returns.",
-          "尺碼不一致會造成可避免的退貨。",
-          "尺碼制度"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -692,16 +676,6 @@ export default {
       "note": "來源詞義：按大小分類／定尺寸",
       "examples": [
         [
-          "The fruit is sized before packaging.",
-          "水果在包裝前會按大小分類。",
-          "按大小分類／定尺寸"
-        ],
-        [
-          "The manufacturer sizes the components before assembly.",
-          "製造商在組裝前按尺寸把構件分級。",
-          "按大小分類／定尺寸"
-        ],
-        [
           "Products are sized and graded before sale.",
           "產品出售前會按尺寸及等級分類。",
           "按大小分類／定尺寸"
@@ -732,13 +706,7 @@ export default {
       "en": "resize",
       "zh": "調整大小",
       "note": "來源詞義：調整大小",
-      "examples": [
-        [
-          "Resize the image before uploading it.",
-          "上載前先調整圖像大小。",
-          "調整大小"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1488,18 +1456,7 @@ export default {
       "en": "bite-sized (figurative)",
       "zh": "短小易消化的",
       "note": "來源詞義：短小易消化的",
-      "examples": [
-        [
-          "The course breaks information into bite-sized lessons.",
-          "課程把資訊分成短小易消化的課節。",
-          "短小易消化的"
-        ],
-        [
-          "Break the project into bite-sized tasks.",
-          "把項目拆成容易處理的小任務。",
-          "短小易消化的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1532,13 +1489,7 @@ export default {
       "en": "downsize",
       "zh": "縮減規模／搬小屋",
       "note": "來源詞義：縮減規模／搬小屋",
-      "examples": [
-        [
-          "The company downsized its workforce.",
-          "公司縮減人手。",
-          "縮減規模／搬小屋"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1567,11 +1518,6 @@ export default {
       "zh": "加大；升級大份",
       "note": "來源詞義：加大；升級大份",
       "examples": [
-        [
-          "Would you like to upsize your order?",
-          "你想把訂單升級成較大份量嗎？",
-          "加大；升級大份"
-        ],
         [
           "Customers can upsize the meal.",
           "顧客可以把餐點升級為大份量。",
@@ -1649,18 +1595,7 @@ export default {
       "en": "sizing (textile)",
       "zh": "上漿處理",
       "note": "來源詞義：上漿處理",
-      "examples": [
-        [
-          "Warp yarn may undergo sizing before weaving.",
-          "經紗在織造前可能進行上漿處理。",
-          "上漿處理"
-        ],
-        [
-          "Sizing can improve yarn performance during weaving.",
-          "上漿可以改善紗線在織造過程中的性能。",
-          "上漿處理"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1703,6 +1638,162 @@ export default {
           "Artists may work differently on sized and unsized paper.",
           "藝術家在經施膠與未施膠紙張上的作畫方式可能不同。",
           "施膠處理"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-001",
+      "title": "比一般、標準或適合的尺寸更大",
+      "form": "31. oversized = larger than normal/necessary — 過大的",
+      "en": "31. oversized = larger than normal/necessary — 過大的",
+      "zh": "比一般、標準或適合的尺寸更大",
+      "note": "原始 PDF 第 31 節：比一般、標準或適合的尺寸更大",
+      "examples": [
+        [
+          "The parcel was classified as oversized.",
+          "包裹被列為超大尺寸。",
+          "比一般、標準或適合的尺寸更大"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-002",
+      "title": "把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式",
+      "form": "35. sizing = system or process of assigning sizes — 尺碼制度；尺碼設定",
+      "en": "35. sizing = system or process of assigning sizes — 尺碼制度；尺碼設定",
+      "zh": "把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式",
+      "note": "原始 PDF 第 35 節：把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式",
+      "examples": [
+        [
+          "Clothing sizing varies between brands.",
+          "不同品牌的服裝尺碼制度不同。",
+          "把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式"
+        ],
+        [
+          "Inconsistent sizing causes avoidable returns.",
+          "尺碼不一致會造成可避免的退貨。",
+          "把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-003",
+      "title": "按尺寸量度、分類或分級 X",
+      "form": "39. size something = sort/classify according to size — 按大小分類",
+      "en": "39. size something = sort/classify according to size — 按大小分類",
+      "zh": "按尺寸量度、分類或分級 X",
+      "note": "原始 PDF 第 39 節：按尺寸量度、分類或分級 X",
+      "examples": [
+        [
+          "The fruit is sized before packaging.",
+          "水果在包裝前會按大小分類。",
+          "按尺寸量度、分類或分級 X"
+        ],
+        [
+          "The manufacturer sizes the components before assembly.",
+          "製造商在組裝前按尺寸把構件分級。",
+          "按尺寸量度、分類或分級 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-004",
+      "title": "把原有大小改成另一個大小",
+      "form": "42. resize = change the dimensions/size of something — 調整大小；重新設定尺寸",
+      "en": "42. resize = change the dimensions/size of something — 調整大小；重新設定尺寸",
+      "zh": "把原有大小改成另一個大小",
+      "note": "原始 PDF 第 42 節：把原有大小改成另一個大小",
+      "examples": [
+        [
+          "Resize the image before uploading it.",
+          "上載前先調整圖像大小。",
+          "把原有大小改成另一個大小"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-005",
+      "title": "figurative: 被分成較小、容易理解或處理的單位",
+      "form": "82. bite-sized = short and easy to understand/manage — 短小易消化的",
+      "en": "82. bite-sized = short and easy to understand/manage — 短小易消化的",
+      "zh": "figurative: 被分成較小、容易理解或處理的單位",
+      "note": "原始 PDF 第 82 節：figurative: 被分成較小、容易理解或處理的單位",
+      "examples": [
+        [
+          "The course breaks information into bite-sized lessons.",
+          "課程把資訊分成短小易消化的課節。",
+          "figurative: 被分成較小、容易理解或處理的單位"
+        ],
+        [
+          "Break the project into bite-sized tasks.",
+          "把項目拆成容易處理的小任務。",
+          "figurative: 被分成較小、容易理解或處理的單位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-006",
+      "title": "把公司、部門或人手規模縮小，通常為降低成本",
+      "form": "84. downsize = reduce the size of an organisation/workforce — 縮減規模；裁減人手",
+      "en": "84. downsize = reduce the size of an organisation/workforce — 縮減規模；裁減人手",
+      "zh": "把公司、部門或人手規模縮小，通常為降低成本",
+      "note": "原始 PDF 第 84 節：把公司、部門或人手規模縮小，通常為降低成本",
+      "examples": [
+        [
+          "The company downsized its workforce.",
+          "公司縮減人手。",
+          "把公司、部門或人手規模縮小，通常為降低成本"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-007",
+      "title": "把商品、份量、設備等改為更大的尺寸／容量",
+      "form": "87. upsize = change to a larger size — 加大；升級為較大尺寸",
+      "en": "87. upsize = change to a larger size — 加大；升級為較大尺寸",
+      "zh": "把商品、份量、設備等改為更大的尺寸／容量",
+      "note": "原始 PDF 第 87 節：把商品、份量、設備等改為更大的尺寸／容量",
+      "examples": [
+        [
+          "Would you like to upsize your order?",
+          "你想把訂單升級成較大份量嗎？",
+          "把商品、份量、設備等改為更大的尺寸／容量"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "size-pdf-008",
+      "title": "紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理",
+      "form": "92. sizing = substance/treatment applied to yarn or fabric — 上漿；漿料處理",
+      "en": "92. sizing = substance/treatment applied to yarn or fabric — 上漿；漿料處理",
+      "zh": "紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理",
+      "note": "原始 PDF 第 92 節：紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理",
+      "examples": [
+        [
+          "Warp yarn may undergo sizing before weaving.",
+          "經紗在織造前可能進行上漿處理。",
+          "紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理"
+        ],
+        [
+          "Sizing can improve yarn performance during weaving.",
+          "上漿可以改善紗線在織造過程中的性能。",
+          "紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理"
         ]
       ],
       "options": [],
@@ -3272,33 +3363,33 @@ export default {
     },
     {
       "id": "size-31-0",
-      "sense": "size-mcq-26",
+      "sense": "size-pdf-001",
       "en": "The parcel was classified as oversized.",
       "zh": "包裹被列為超大尺寸。",
       "masked": "The parcel was classified as ____.",
       "options": [
-        "size-mcq-26",
+        "size-pdf-001",
         "size-mcq-25",
         "size-mcq-27",
         "size-mcq-24",
         "size-mcq-28",
         "size-mcq-23"
       ],
-      "explanation": "本句的「oversized」指「過大／寬鬆大版型」。",
+      "explanation": "本句的「oversized」指「比一般、標準或適合的尺寸更大」。",
       "sentenceIndex": 58,
       "sourcePractice": 1,
       "targets": [
         "oversized"
       ],
       "optionReasons": {
-        "size-mcq-26": "本句指「過大／寬鬆大版型」。",
+        "size-pdf-001": "本句指「比一般、標準或適合的尺寸更大」。",
         "size-mcq-25": "「大尺碼的」與本句語境不同。",
         "size-mcq-27": "「尺寸過小」與本句語境不同。",
         "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
         "size-mcq-28": "「尺碼制度」與本句語境不同。",
         "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。"
       },
-      "correctOption": "size-mcq-26"
+      "correctOption": "size-pdf-001"
     },
     {
       "id": "size-32-0",
@@ -3392,63 +3483,63 @@ export default {
     },
     {
       "id": "size-35-0",
-      "sense": "size-mcq-28",
+      "sense": "size-pdf-002",
       "en": "Clothing sizing varies between brands.",
       "zh": "不同品牌的服裝尺碼制度不同。",
       "masked": "Clothing ____ varies between brands.",
       "options": [
-        "size-mcq-28",
+        "size-pdf-002",
         "size-mcq-27",
         "size-mcq-29",
         "size-mcq-26",
         "size-mcq-30",
         "size-mcq-25"
       ],
-      "explanation": "本句的「sizing」指「尺碼制度」。",
+      "explanation": "本句的「sizing」指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
       "sentenceIndex": 62,
       "sourcePractice": 1,
       "targets": [
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-28": "本句指「尺碼制度」。",
+        "size-pdf-002": "本句指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
         "size-mcq-27": "「尺寸過小」與本句語境不同。",
         "size-mcq-29": "「尺碼不一致」與本句語境不同。",
         "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
         "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
         "size-mcq-25": "「大尺碼的」與本句語境不同。"
       },
-      "correctOption": "size-mcq-28"
+      "correctOption": "size-pdf-002"
     },
     {
       "id": "size-35-1",
-      "sense": "size-mcq-28",
+      "sense": "size-pdf-002",
       "en": "Inconsistent sizing causes avoidable returns.",
       "zh": "尺碼不一致會造成可避免的退貨。",
       "masked": "Inconsistent ____ causes avoidable returns.",
       "options": [
-        "size-mcq-28",
+        "size-pdf-002",
         "size-mcq-27",
         "size-mcq-29",
         "size-mcq-26",
         "size-mcq-30",
         "size-mcq-25"
       ],
-      "explanation": "本句的「sizing」指「尺碼制度」。",
+      "explanation": "本句的「sizing」指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
       "sentenceIndex": 63,
       "sourcePractice": 2,
       "targets": [
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-28": "本句指「尺碼制度」。",
+        "size-pdf-002": "本句指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
         "size-mcq-27": "「尺寸過小」與本句語境不同。",
         "size-mcq-29": "「尺碼不一致」與本句語境不同。",
         "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
         "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
         "size-mcq-25": "「大尺碼的」與本句語境不同。"
       },
-      "correctOption": "size-mcq-28"
+      "correctOption": "size-pdf-002"
     },
     {
       "id": "size-36-0",
@@ -3572,63 +3663,63 @@ export default {
     },
     {
       "id": "size-39-0",
-      "sense": "size-mcq-31",
+      "sense": "size-pdf-003",
       "en": "The fruit is sized before packaging.",
       "zh": "水果在包裝前會按大小分類。",
       "masked": "The fruit is ____.",
       "options": [
-        "size-mcq-31",
+        "size-pdf-003",
         "size-mcq-30",
         "size-mcq-32",
         "size-mcq-29",
         "size-mcq-33",
         "size-mcq-28"
       ],
-      "explanation": "本句的「sized before packaging」指「按大小分類／定尺寸」。",
+      "explanation": "本句的「sized before packaging」指「按尺寸量度、分類或分級 X」。",
       "sentenceIndex": 70,
       "sourcePractice": 1,
       "targets": [
         "sized before packaging"
       ],
       "optionReasons": {
-        "size-mcq-31": "本句指「按大小分類／定尺寸」。",
+        "size-pdf-003": "本句指「按尺寸量度、分類或分級 X」。",
         "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
         "size-mcq-32": "「調整大小」與本句語境不同。",
         "size-mcq-29": "「尺碼不一致」與本句語境不同。",
         "size-mcq-33": "「調整圖片大小」與本句語境不同。",
         "size-mcq-28": "「尺碼制度」與本句語境不同。"
       },
-      "correctOption": "size-mcq-31"
+      "correctOption": "size-pdf-003"
     },
     {
       "id": "size-39-1",
-      "sense": "size-mcq-31",
+      "sense": "size-pdf-003",
       "en": "The manufacturer sizes the components before assembly.",
       "zh": "製造商在組裝前按尺寸把構件分級。",
       "masked": "The manufacturer ____ the components before assembly.",
       "options": [
-        "size-mcq-31",
+        "size-pdf-003",
         "size-mcq-30",
         "size-mcq-32",
         "size-mcq-29",
         "size-mcq-33",
         "size-mcq-28"
       ],
-      "explanation": "本句的「sizes」指「按大小分類／定尺寸」。",
+      "explanation": "本句的「sizes」指「按尺寸量度、分類或分級 X」。",
       "sentenceIndex": 71,
       "sourcePractice": 2,
       "targets": [
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-31": "本句指「按大小分類／定尺寸」。",
+        "size-pdf-003": "本句指「按尺寸量度、分類或分級 X」。",
         "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
         "size-mcq-32": "「調整大小」與本句語境不同。",
         "size-mcq-29": "「尺碼不一致」與本句語境不同。",
         "size-mcq-33": "「調整圖片大小」與本句語境不同。",
         "size-mcq-28": "「尺碼制度」與本句語境不同。"
       },
-      "correctOption": "size-mcq-31"
+      "correctOption": "size-pdf-003"
     },
     {
       "id": "size-40-0",
@@ -3752,33 +3843,33 @@ export default {
     },
     {
       "id": "size-42-0",
-      "sense": "size-mcq-32",
+      "sense": "size-pdf-004",
       "en": "Resize the image before uploading it.",
       "zh": "上載前先調整圖像大小。",
       "masked": "____ before uploading it.",
       "options": [
-        "size-mcq-32",
+        "size-pdf-004",
         "size-mcq-31",
         "size-mcq-33",
         "size-mcq-30",
         "size-mcq-34",
         "size-mcq-29"
       ],
-      "explanation": "本句的「Resize the image」指「調整大小」。",
+      "explanation": "本句的「Resize the image」指「把原有大小改成另一個大小」。",
       "sentenceIndex": 76,
       "sourcePractice": 1,
       "targets": [
         "Resize the image"
       ],
       "optionReasons": {
-        "size-mcq-32": "本句指「調整大小」。",
+        "size-pdf-004": "本句指「把原有大小改成另一個大小」。",
         "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
         "size-mcq-33": "「調整圖片大小」與本句語境不同。",
         "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
         "size-mcq-34": "「打量／評估某人」與本句語境不同。",
         "size-mcq-29": "「尺碼不一致」與本句語境不同。"
       },
-      "correctOption": "size-mcq-32"
+      "correctOption": "size-pdf-004"
     },
     {
       "id": "size-44-0",
@@ -5912,63 +6003,63 @@ export default {
     },
     {
       "id": "size-82-0",
-      "sense": "size-mcq-66",
+      "sense": "size-pdf-005",
       "en": "The course breaks information into bite-sized lessons.",
       "zh": "課程把資訊分成短小易消化的課節。",
       "masked": "The course breaks information into ____.",
       "options": [
-        "size-mcq-66",
+        "size-pdf-005",
         "size-mcq-65",
         "size-mcq-67",
         "size-mcq-64",
         "size-mcq-68",
         "size-mcq-63"
       ],
-      "explanation": "本句的「bite-sized lessons」指「短小易消化的」。",
+      "explanation": "本句的「bite-sized lessons」指「figurative: 被分成較小、容易理解或處理的單位」。",
       "sentenceIndex": 150,
       "sourcePractice": 1,
       "targets": [
         "bite-sized lessons"
       ],
       "optionReasons": {
-        "size-mcq-66": "本句指「短小易消化的」。",
+        "size-pdf-005": "本句指「figurative: 被分成較小、容易理解或處理的單位」。",
         "size-mcq-65": "「一口大小的」與本句語境不同。",
         "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
         "size-mcq-64": "「家庭裝的」與本句語境不同。",
         "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
         "size-mcq-63": "「旅行裝的」與本句語境不同。"
       },
-      "correctOption": "size-mcq-66"
+      "correctOption": "size-pdf-005"
     },
     {
       "id": "size-82-1",
-      "sense": "size-mcq-66",
+      "sense": "size-pdf-005",
       "en": "Break the project into bite-sized tasks.",
       "zh": "把項目拆成容易處理的小任務。",
       "masked": "Break the project into bite-____ tasks.",
       "options": [
-        "size-mcq-66",
+        "size-pdf-005",
         "size-mcq-65",
         "size-mcq-67",
         "size-mcq-64",
         "size-mcq-68",
         "size-mcq-63"
       ],
-      "explanation": "本句的「sized」指「短小易消化的」。",
+      "explanation": "本句的「sized」指「figurative: 被分成較小、容易理解或處理的單位」。",
       "sentenceIndex": 151,
       "sourcePractice": 2,
       "targets": [
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-66": "本句指「短小易消化的」。",
+        "size-pdf-005": "本句指「figurative: 被分成較小、容易理解或處理的單位」。",
         "size-mcq-65": "「一口大小的」與本句語境不同。",
         "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
         "size-mcq-64": "「家庭裝的」與本句語境不同。",
         "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
         "size-mcq-63": "「旅行裝的」與本句語境不同。"
       },
-      "correctOption": "size-mcq-66"
+      "correctOption": "size-pdf-005"
     },
     {
       "id": "size-83-0",
@@ -6032,33 +6123,33 @@ export default {
     },
     {
       "id": "size-84-0",
-      "sense": "size-mcq-68",
+      "sense": "size-pdf-006",
       "en": "The company downsized its workforce.",
       "zh": "公司縮減人手。",
       "masked": "The company ____.",
       "options": [
-        "size-mcq-68",
+        "size-pdf-006",
         "size-mcq-67",
         "size-mcq-69",
         "size-mcq-66",
         "size-mcq-70",
         "size-mcq-65"
       ],
-      "explanation": "本句的「downsized its workforce」指「縮減規模／搬小屋」。",
+      "explanation": "本句的「downsized its workforce」指「把公司、部門或人手規模縮小，通常為降低成本」。",
       "sentenceIndex": 154,
       "sourcePractice": 1,
       "targets": [
         "downsized its workforce"
       ],
       "optionReasons": {
-        "size-mcq-68": "本句指「縮減規模／搬小屋」。",
+        "size-pdf-006": "本句指「把公司、部門或人手規模縮小，通常為降低成本」。",
         "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
         "size-mcq-69": "「縮編；裁員」與本句語境不同。",
         "size-mcq-66": "「短小易消化的」與本句語境不同。",
         "size-mcq-70": "「加大；升級大份」與本句語境不同。",
         "size-mcq-65": "「一口大小的」與本句語境不同。"
       },
-      "correctOption": "size-mcq-68"
+      "correctOption": "size-pdf-006"
     },
     {
       "id": "size-85-0",
@@ -6092,33 +6183,33 @@ export default {
     },
     {
       "id": "size-87-0",
-      "sense": "size-mcq-70",
+      "sense": "size-pdf-007",
       "en": "Would you like to upsize your order?",
       "zh": "你想把訂單升級成較大份量嗎？",
       "masked": "Would you like to ____?",
       "options": [
-        "size-mcq-70",
+        "size-pdf-007",
         "size-mcq-69",
         "size-mcq-71",
         "size-mcq-68",
         "size-mcq-72",
         "size-mcq-67"
       ],
-      "explanation": "本句的「upsize your order」指「加大；升級大份」。",
+      "explanation": "本句的「upsize your order」指「把商品、份量、設備等改為更大的尺寸／容量」。",
       "sentenceIndex": 157,
       "sourcePractice": 1,
       "targets": [
         "upsize your order"
       ],
       "optionReasons": {
-        "size-mcq-70": "本句指「加大；升級大份」。",
+        "size-pdf-007": "本句指「把商品、份量、設備等改為更大的尺寸／容量」。",
         "size-mcq-69": "「縮編；裁員」與本句語境不同。",
         "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
         "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
         "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
         "size-mcq-67": "「相當大的；可觀的」與本句語境不同。"
       },
-      "correctOption": "size-mcq-70"
+      "correctOption": "size-pdf-007"
     },
     {
       "id": "size-88-0",
@@ -6302,63 +6393,63 @@ export default {
     },
     {
       "id": "size-92-0",
-      "sense": "size-mcq-74",
+      "sense": "size-pdf-008",
       "en": "Warp yarn may undergo sizing before weaving.",
       "zh": "經紗在織造前可能進行上漿處理。",
       "masked": "Warp yarn may undergo ____ before weaving.",
       "options": [
-        "size-mcq-74",
+        "size-pdf-008",
         "size-mcq-73",
         "size-mcq-75",
         "size-mcq-72",
         "size-mcq-76",
         "size-mcq-71"
       ],
-      "explanation": "本句的「sizing」指「上漿處理」。",
+      "explanation": "本句的「sizing」指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
       "sentenceIndex": 164,
       "sourcePractice": 1,
       "targets": [
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-74": "本句指「上漿處理」。",
+        "size-pdf-008": "本句指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
         "size-mcq-73": "「各式各樣」與本句語境不同。",
         "size-mcq-75": "「漿料」與本句語境不同。",
         "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
         "size-mcq-76": "「施膠處理」與本句語境不同。",
         "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
       },
-      "correctOption": "size-mcq-74"
+      "correctOption": "size-pdf-008"
     },
     {
       "id": "size-92-1",
-      "sense": "size-mcq-74",
+      "sense": "size-pdf-008",
       "en": "Sizing can improve yarn performance during weaving.",
       "zh": "上漿可以改善紗線在織造過程中的性能。",
       "masked": "____ can improve yarn performance during weaving.",
       "options": [
-        "size-mcq-74",
+        "size-pdf-008",
         "size-mcq-73",
         "size-mcq-75",
         "size-mcq-72",
         "size-mcq-76",
         "size-mcq-71"
       ],
-      "explanation": "本句的「Sizing」指「上漿處理」。",
+      "explanation": "本句的「Sizing」指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
       "sentenceIndex": 165,
       "sourcePractice": 2,
       "targets": [
         "Sizing"
       ],
       "optionReasons": {
-        "size-mcq-74": "本句指「上漿處理」。",
+        "size-pdf-008": "本句指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
         "size-mcq-73": "「各式各樣」與本句語境不同。",
         "size-mcq-75": "「漿料」與本句語境不同。",
         "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
         "size-mcq-76": "「施膠處理」與本句語境不同。",
         "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
       },
-      "correctOption": "size-mcq-74"
+      "correctOption": "size-pdf-008"
     },
     {
       "id": "size-93-0",

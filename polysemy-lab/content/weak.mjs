@@ -302,16 +302,6 @@ export default {
           "This coffee is too weak.",
           "這杯咖啡太淡。",
           "淡茶／咖啡"
-        ],
-        [
-          "The sauce has a rather weak flavour.",
-          "這個醬汁的味道比較淡。",
-          "淡茶／咖啡"
-        ],
-        [
-          "The colour looks weak under this light.",
-          "這種顏色在這個光線下看起來有點淡。",
-          "淡茶／咖啡"
         ]
       ],
       "options": [],
@@ -520,6 +510,28 @@ export default {
           "This contradiction weakens the argument.",
           "這個矛盾削弱了論點的說服力。",
           "令某立場或論點變得較難支持或較沒有說服力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "weak-pdf-001",
+      "title": "強度、濃度或鮮明程度較低",
+      "form": "15. weak colour / flavour — 淡的顏色／味道",
+      "en": "15. weak colour / flavour — 淡的顏色／味道",
+      "zh": "強度、濃度或鮮明程度較低",
+      "note": "原始 PDF 第 15 節：強度、濃度或鮮明程度較低",
+      "examples": [
+        [
+          "The sauce has a rather weak flavour.",
+          "這個醬汁的味道比較淡。",
+          "強度、濃度或鮮明程度較低"
+        ],
+        [
+          "The colour looks weak under this light.",
+          "這種顏色在這個光線下看起來有點淡。",
+          "強度、濃度或鮮明程度較低"
         ]
       ],
       "options": [],
@@ -1399,63 +1411,63 @@ export default {
     },
     {
       "id": "weak-15-0",
-      "sense": "weak-mcq-14",
+      "sense": "weak-pdf-001",
       "en": "The sauce has a rather weak flavour.",
       "zh": "這個醬汁的味道比較淡。",
       "masked": "The sauce has a rather ____.",
       "options": [
-        "weak-mcq-14",
+        "weak-pdf-001",
         "weak-mcq-13",
         "weak-mcq-15",
         "weak-mcq-12",
         "weak-mcq-16",
         "weak-mcq-11"
       ],
-      "explanation": "本句的「weak flavour」指「淡茶／咖啡」。",
+      "explanation": "本句的「weak flavour」指「強度、濃度或鮮明程度較低」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "weak flavour"
       ],
       "optionReasons": {
-        "weak-mcq-14": "本句指「淡茶／咖啡」。",
+        "weak-pdf-001": "本句指「強度、濃度或鮮明程度較低」。",
         "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
         "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
         "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
         "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
         "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。"
       },
-      "correctOption": "weak-mcq-14"
+      "correctOption": "weak-pdf-001"
     },
     {
       "id": "weak-15-1",
-      "sense": "weak-mcq-14",
+      "sense": "weak-pdf-001",
       "en": "The colour looks weak under this light.",
       "zh": "這種顏色在這個光線下看起來有點淡。",
       "masked": "The colour looks ____ under this light.",
       "options": [
-        "weak-mcq-14",
+        "weak-pdf-001",
         "weak-mcq-13",
         "weak-mcq-15",
         "weak-mcq-12",
         "weak-mcq-16",
         "weak-mcq-11"
       ],
-      "explanation": "本句的「weak」指「淡茶／咖啡」。",
+      "explanation": "本句的「weak」指「強度、濃度或鮮明程度較低」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-14": "本句指「淡茶／咖啡」。",
+        "weak-pdf-001": "本句指「強度、濃度或鮮明程度較低」。",
         "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
         "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
         "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
         "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
         "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。"
       },
-      "correctOption": "weak-mcq-14"
+      "correctOption": "weak-pdf-001"
     },
     {
       "id": "weak-16-0",

@@ -181,16 +181,6 @@ export default {
           "She smiled and pretended to be interested.",
           "她笑着裝作很有興趣。",
           "假裝有興趣"
-        ],
-        [
-          "He pretended ignorance when asked about the missing file.",
-          "有人問起失蹤的檔案時，他假裝不知道。",
-          "假裝有興趣"
-        ],
-        [
-          "She could no longer pretend ignorance of the problem.",
-          "她再也不能裝作不知道這個問題。",
-          "假裝有興趣"
         ]
       ],
       "options": [],
@@ -432,6 +422,28 @@ export default {
           "Let's pretend the deadline is tomorrow.",
           "我們假設截止日期是明天。",
           "暫時假想 X 是真的，以便遊戲、討論或推理"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pretend-pdf-001",
+      "title": "明知某事，卻故意裝作不知道",
+      "form": "9. pretend ignorance — 假裝不知道",
+      "en": "9. pretend ignorance — 假裝不知道",
+      "zh": "明知某事，卻故意裝作不知道",
+      "note": "原始 PDF 第 9 節：明知某事，卻故意裝作不知道",
+      "examples": [
+        [
+          "He pretended ignorance when asked about the missing file.",
+          "有人問起失蹤的檔案時，他假裝不知道。",
+          "明知某事，卻故意裝作不知道"
+        ],
+        [
+          "She could no longer pretend ignorance of the problem.",
+          "她再也不能裝作不知道這個問題。",
+          "明知某事，卻故意裝作不知道"
         ]
       ],
       "options": [],
@@ -951,63 +963,63 @@ export default {
     },
     {
       "id": "pretend-09-0",
-      "sense": "pretend-mcq-08",
+      "sense": "pretend-pdf-001",
       "en": "He pretended ignorance when asked about the missing file.",
       "zh": "有人問起失蹤的檔案時，他假裝不知道。",
       "masked": "He ____ when asked about the missing file.",
       "options": [
-        "pretend-mcq-08",
+        "pretend-pdf-001",
         "pretend-mcq-07",
         "pretend-mcq-09",
         "pretend-mcq-06",
         "pretend-mcq-10",
         "pretend-mcq-05"
       ],
-      "explanation": "本句的「pretended ignorance」指「假裝有興趣」。",
+      "explanation": "本句的「pretended ignorance」指「明知某事，卻故意裝作不知道」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "pretended ignorance"
       ],
       "optionReasons": {
-        "pretend-mcq-08": "本句指「假裝有興趣」。",
+        "pretend-pdf-001": "本句指「明知某事，卻故意裝作不知道」。",
         "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
         "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
         "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
         "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
         "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。"
       },
-      "correctOption": "pretend-mcq-08"
+      "correctOption": "pretend-pdf-001"
     },
     {
       "id": "pretend-09-1",
-      "sense": "pretend-mcq-08",
+      "sense": "pretend-pdf-001",
       "en": "She could no longer pretend ignorance of the problem.",
       "zh": "她再也不能裝作不知道這個問題。",
       "masked": "She could no longer ____ of the problem.",
       "options": [
-        "pretend-mcq-08",
+        "pretend-pdf-001",
         "pretend-mcq-07",
         "pretend-mcq-09",
         "pretend-mcq-06",
         "pretend-mcq-10",
         "pretend-mcq-05"
       ],
-      "explanation": "本句的「pretend ignorance」指「假裝有興趣」。",
+      "explanation": "本句的「pretend ignorance」指「明知某事，卻故意裝作不知道」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "pretend ignorance"
       ],
       "optionReasons": {
-        "pretend-mcq-08": "本句指「假裝有興趣」。",
+        "pretend-pdf-001": "本句指「明知某事，卻故意裝作不知道」。",
         "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
         "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
         "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
         "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
         "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。"
       },
-      "correctOption": "pretend-mcq-08"
+      "correctOption": "pretend-pdf-001"
     },
     {
       "id": "pretend-10-0",

@@ -364,16 +364,6 @@ export default {
       "note": "來源詞義：與自己屬於同一專業領域的其他人士",
       "examples": [
         [
-          "She was elected a Fellow of the society.",
-          "她獲選為該學會的會士／院士。",
-          "與自己屬於同一專業領域的其他人士"
-        ],
-        [
-          "Only a small number of members become Fellows.",
-          "只有少部分會員會成為資深會士。",
-          "與自己屬於同一專業領域的其他人士"
-        ],
-        [
           "She discussed the case with fellow professionals.",
           "她和同行／其他專業人士討論個案。",
           "與自己屬於同一專業領域的其他人士"
@@ -382,6 +372,28 @@ export default {
           "Fellow professionals praised the research.",
           "同業人士讚揚這項研究。",
           "與自己屬於同一專業領域的其他人士"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fellow-pdf-001",
+      "title": "因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份",
+      "form": "22. Fellow = senior/elected member of a professional or learned society — 會士；院士；資深",
+      "en": "22. Fellow = senior/elected member of a professional or learned society — 會士；院士；資深",
+      "zh": "因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份",
+      "note": "原始 PDF 第 22 節：因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份",
+      "examples": [
+        [
+          "She was elected a Fellow of the society.",
+          "她獲選為該學會的會士／院士。",
+          "因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份"
+        ],
+        [
+          "Only a small number of members become Fellows.",
+          "只有少部分會員會成為資深會士。",
+          "因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份"
         ]
       ],
       "options": [],
@@ -751,63 +763,63 @@ export default {
     },
     {
       "id": "fellow-22-0",
-      "sense": "fellow-mcq-19",
+      "sense": "fellow-pdf-001",
       "en": "She was elected a Fellow of the society.",
       "zh": "她獲選為該學會的會士／院士。",
       "masked": "She was elected a ____ of the society.",
       "options": [
-        "fellow-mcq-19",
+        "fellow-pdf-001",
         "fellow-mcq-18",
         "fellow-mcq-17",
         "fellow-mcq-16",
         "fellow-mcq-15",
         "fellow-mcq-14"
       ],
-      "explanation": "本句的「Fellow」指「與自己屬於同一專業領域的其他人士」。",
+      "explanation": "本句的「Fellow」指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
       "sentenceIndex": 42,
       "sourcePractice": 22,
       "targets": [
         "Fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-19": "本句指「與自己屬於同一專業領域的其他人士」。",
+        "fellow-pdf-001": "本句指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
         "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
         "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
         "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
         "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
         "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
       },
-      "correctOption": "fellow-mcq-19"
+      "correctOption": "fellow-pdf-001"
     },
     {
       "id": "fellow-22-1",
-      "sense": "fellow-mcq-19",
+      "sense": "fellow-pdf-001",
       "en": "Only a small number of members become Fellows.",
       "zh": "只有少部分會員會成為資深會士。",
       "masked": "Only a small number of members become ____.",
       "options": [
-        "fellow-mcq-19",
+        "fellow-pdf-001",
         "fellow-mcq-18",
         "fellow-mcq-17",
         "fellow-mcq-16",
         "fellow-mcq-15",
         "fellow-mcq-14"
       ],
-      "explanation": "本句的「Fellows」指「與自己屬於同一專業領域的其他人士」。",
+      "explanation": "本句的「Fellows」指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
       "sentenceIndex": 43,
       "sourcePractice": 22,
       "targets": [
         "Fellows"
       ],
       "optionReasons": {
-        "fellow-mcq-19": "本句指「與自己屬於同一專業領域的其他人士」。",
+        "fellow-pdf-001": "本句指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
         "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
         "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
         "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
         "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
         "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
       },
-      "correctOption": "fellow-mcq-19"
+      "correctOption": "fellow-pdf-001"
     },
     {
       "id": "fellow-26-0",

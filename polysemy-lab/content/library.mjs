@@ -71,16 +71,6 @@ export default {
           "Her personal library contains thousands of books.",
           "她的私人藏書有數千本書。",
           "某人或機構有系統擁有的一整套藏書"
-        ],
-        [
-          "I organized my digital music library.",
-          "我整理了自己的數碼音樂庫。",
-          "某人或機構有系統擁有的一整套藏書"
-        ],
-        [
-          "The service gives users access to a huge music library.",
-          "這項服務讓使用者存取龐大的音樂庫。",
-          "某人或機構有系統擁有的一整套藏書"
         ]
       ],
       "options": [],
@@ -125,18 +115,7 @@ export default {
       "en": "library — computing",
       "zh": "預先寫好、可由其他程式重複調用的程式碼／函式集合",
       "note": "來源詞義：預先寫好、可由其他程式重複調用的程式碼／函式集合",
-      "examples": [
-        [
-          "The design team maintains a library of icons.",
-          "設計團隊維護一個圖示素材庫。",
-          "預先寫好、可由其他程式重複調用的程式碼／函式集合"
-        ],
-        [
-          "Choose a template from the library.",
-          "從範本庫中選一個範本。",
-          "預先寫好、可由其他程式重複調用的程式碼／函式集合"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -168,16 +147,6 @@ export default {
           "Students can access the digital library from home.",
           "學生可以在家使用數碼圖書館。",
           "以電子形式收藏、管理並提供書籍、文章或檔案的系統"
-        ],
-        [
-          "It operates as a free lending library.",
-          "它是一間免費的借閱圖書館。",
-          "以電子形式收藏、管理並提供書籍、文章或檔案的系統"
-        ],
-        [
-          "Members can borrow books from the lending library.",
-          "會員可以從借閱圖書館借書。",
-          "以電子形式收藏、管理並提供書籍、文章或檔案的系統"
         ]
       ],
       "options": [],
@@ -191,16 +160,6 @@ export default {
       "zh": "管理圖書館資料並協助使用者查找資訊的人",
       "note": "來源詞義：管理圖書館資料並協助使用者查找資訊的人",
       "examples": [
-        [
-          "You need a library card to borrow books.",
-          "你需要一張圖書證／借書證才能借書。",
-          "管理圖書館資料並協助使用者查找資訊的人"
-        ],
-        [
-          "I renewed my library card online.",
-          "我在網上續期了我的圖書證。",
-          "管理圖書館資料並協助使用者查找資訊的人"
-        ],
         [
           "The librarian helped me find the art section.",
           "圖書館員幫我找到藝術類書籍區。",
@@ -320,6 +279,94 @@ export default {
           "The department has a small reference library.",
           "這個部門有一個小型參考資料庫／藏書區。",
           "主要供查閱而非一般借出的參考資料收藏／場所"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "library-pdf-001",
+      "title": "系統性保存、管理或提供使用的音樂收藏",
+      "form": "5. music library = 音樂庫；音樂收藏",
+      "en": "5. music library = 音樂庫；音樂收藏",
+      "zh": "系統性保存、管理或提供使用的音樂收藏",
+      "note": "原始 PDF 第 5 節：系統性保存、管理或提供使用的音樂收藏",
+      "examples": [
+        [
+          "I organized my digital music library.",
+          "我整理了自己的數碼音樂庫。",
+          "系統性保存、管理或提供使用的音樂收藏"
+        ],
+        [
+          "The service gives users access to a huge music library.",
+          "這項服務讓使用者存取龐大的音樂庫。",
+          "系統性保存、管理或提供使用的音樂收藏"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "library-pdf-002",
+      "title": "有系統整理、可重複取用的素材、範本或設計元素集合",
+      "form": "9. library = collection of samples/templates/design assets — 範本庫；素材庫",
+      "en": "9. library = collection of samples/templates/design assets — 範本庫；素材庫",
+      "zh": "有系統整理、可重複取用的素材、範本或設計元素集合",
+      "note": "原始 PDF 第 9 節：有系統整理、可重複取用的素材、範本或設計元素集合",
+      "examples": [
+        [
+          "The design team maintains a library of icons.",
+          "設計團隊維護一個圖示素材庫。",
+          "有系統整理、可重複取用的素材、範本或設計元素集合"
+        ],
+        [
+          "Choose a template from the library.",
+          "從範本庫中選一個範本。",
+          "有系統整理、可重複取用的素材、範本或設計元素集合"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "library-pdf-003",
+      "title": "主要讓使用者把書籍借走的圖書館",
+      "form": "13. lending library = 借閱圖書館",
+      "en": "13. lending library = 借閱圖書館",
+      "zh": "主要讓使用者把書籍借走的圖書館",
+      "note": "原始 PDF 第 13 節：主要讓使用者把書籍借走的圖書館",
+      "examples": [
+        [
+          "It operates as a free lending library.",
+          "它是一間免費的借閱圖書館。",
+          "主要讓使用者把書籍借走的圖書館"
+        ],
+        [
+          "Members can borrow books from the lending library.",
+          "會員可以從借閱圖書館借書。",
+          "主要讓使用者把書籍借走的圖書館"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "library-pdf-004",
+      "title": "證明使用者有借閱／使用圖書館資格的卡",
+      "form": "14. library card = 圖書證；借書證",
+      "en": "14. library card = 圖書證；借書證",
+      "zh": "證明使用者有借閱／使用圖書館資格的卡",
+      "note": "原始 PDF 第 14 節：證明使用者有借閱／使用圖書館資格的卡",
+      "examples": [
+        [
+          "You need a library card to borrow books.",
+          "你需要一張圖書證／借書證才能借書。",
+          "證明使用者有借閱／使用圖書館資格的卡"
+        ],
+        [
+          "I renewed my library card online.",
+          "我在網上續期了我的圖書證。",
+          "證明使用者有借閱／使用圖書館資格的卡"
         ]
       ],
       "options": [],
@@ -599,63 +646,63 @@ export default {
     },
     {
       "id": "library-05-0",
-      "sense": "library-mcq-03",
+      "sense": "library-pdf-001",
       "en": "I organized my digital music library.",
       "zh": "我整理了自己的數碼音樂庫。",
       "masked": "I organized my digital ____.",
       "options": [
-        "library-mcq-03",
+        "library-pdf-001",
         "library-mcq-02",
         "library-mcq-04",
         "library-mcq-01",
         "library-mcq-05",
         "library-mcq-06"
       ],
-      "explanation": "本句的「music library」指「某人或機構有系統擁有的一整套藏書」。",
+      "explanation": "本句的「music library」指「系統性保存、管理或提供使用的音樂收藏」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "music library"
       ],
       "optionReasons": {
-        "library-mcq-03": "本句指「某人或機構有系統擁有的一整套藏書」。",
+        "library-pdf-001": "本句指「系統性保存、管理或提供使用的音樂收藏」。",
         "library-mcq-02": "「專門放置書籍並供閱讀的房間」是「library — room」的用法，與本句語境不同。",
         "library-mcq-04": "「被整理並可搜尋、選取或重複使用的一組數碼內容／資源」是「library — media/resources」的用法，與本句語境不同。",
         "library-mcq-01": "「收藏、管理並提供書籍及其他資料供閱讀、研究或借閱的場所／機構」是「library — institution」的用法，與本句語境不同。",
         "library-mcq-05": "「預先寫好、可由其他程式重複調用的程式碼／函式集合」是「library — computing」的用法，與本句語境不同。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-03"
+      "correctOption": "library-pdf-001"
     },
     {
       "id": "library-05-1",
-      "sense": "library-mcq-03",
+      "sense": "library-pdf-001",
       "en": "The service gives users access to a huge music library.",
       "zh": "這項服務讓使用者存取龐大的音樂庫。",
       "masked": "The service gives users access to a huge music ____.",
       "options": [
-        "library-mcq-03",
+        "library-pdf-001",
         "library-mcq-02",
         "library-mcq-04",
         "library-mcq-01",
         "library-mcq-05",
         "library-mcq-06"
       ],
-      "explanation": "本句的「library」指「某人或機構有系統擁有的一整套藏書」。",
+      "explanation": "本句的「library」指「系統性保存、管理或提供使用的音樂收藏」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "library"
       ],
       "optionReasons": {
-        "library-mcq-03": "本句指「某人或機構有系統擁有的一整套藏書」。",
+        "library-pdf-001": "本句指「系統性保存、管理或提供使用的音樂收藏」。",
         "library-mcq-02": "「專門放置書籍並供閱讀的房間」是「library — room」的用法，與本句語境不同。",
         "library-mcq-04": "「被整理並可搜尋、選取或重複使用的一組數碼內容／資源」是「library — media/resources」的用法，與本句語境不同。",
         "library-mcq-01": "「收藏、管理並提供書籍及其他資料供閱讀、研究或借閱的場所／機構」是「library — institution」的用法，與本句語境不同。",
         "library-mcq-05": "「預先寫好、可由其他程式重複調用的程式碼／函式集合」是「library — computing」的用法，與本句語境不同。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-03"
+      "correctOption": "library-pdf-001"
     },
     {
       "id": "library-06-0",
@@ -839,63 +886,63 @@ export default {
     },
     {
       "id": "library-09-0",
-      "sense": "library-mcq-05",
+      "sense": "library-pdf-002",
       "en": "The design team maintains a library of icons.",
       "zh": "設計團隊維護一個圖示素材庫。",
       "masked": "The design team maintains a ____ of icons.",
       "options": [
-        "library-mcq-05",
+        "library-pdf-002",
         "library-mcq-04",
         "library-mcq-06",
         "library-mcq-03",
         "library-mcq-07",
         "library-mcq-02"
       ],
-      "explanation": "本句的「library」指「預先寫好、可由其他程式重複調用的程式碼／函式集合」。",
+      "explanation": "本句的「library」指「有系統整理、可重複取用的素材、範本或設計元素集合」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "library"
       ],
       "optionReasons": {
-        "library-mcq-05": "本句指「預先寫好、可由其他程式重複調用的程式碼／函式集合」。",
+        "library-pdf-002": "本句指「有系統整理、可重複取用的素材、範本或設計元素集合」。",
         "library-mcq-04": "「被整理並可搜尋、選取或重複使用的一組數碼內容／資源」是「library — media/resources」的用法，與本句語境不同。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。",
         "library-mcq-03": "「某人或機構有系統擁有的一整套藏書」是「library — collection」的用法，與本句語境不同。",
         "library-mcq-07": "「以電子形式收藏、管理並提供書籍、文章或檔案的系統」是「digital library」的用法，與本句語境不同。",
         "library-mcq-02": "「專門放置書籍並供閱讀的房間」是「library — room」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-05"
+      "correctOption": "library-pdf-002"
     },
     {
       "id": "library-09-1",
-      "sense": "library-mcq-05",
+      "sense": "library-pdf-002",
       "en": "Choose a template from the library.",
       "zh": "從範本庫中選一個範本。",
       "masked": "Choose a template from the ____.",
       "options": [
-        "library-mcq-05",
+        "library-pdf-002",
         "library-mcq-04",
         "library-mcq-06",
         "library-mcq-03",
         "library-mcq-07",
         "library-mcq-02"
       ],
-      "explanation": "本句的「library」指「預先寫好、可由其他程式重複調用的程式碼／函式集合」。",
+      "explanation": "本句的「library」指「有系統整理、可重複取用的素材、範本或設計元素集合」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "library"
       ],
       "optionReasons": {
-        "library-mcq-05": "本句指「預先寫好、可由其他程式重複調用的程式碼／函式集合」。",
+        "library-pdf-002": "本句指「有系統整理、可重複取用的素材、範本或設計元素集合」。",
         "library-mcq-04": "「被整理並可搜尋、選取或重複使用的一組數碼內容／資源」是「library — media/resources」的用法，與本句語境不同。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。",
         "library-mcq-03": "「某人或機構有系統擁有的一整套藏書」是「library — collection」的用法，與本句語境不同。",
         "library-mcq-07": "「以電子形式收藏、管理並提供書籍、文章或檔案的系統」是「digital library」的用法，與本句語境不同。",
         "library-mcq-02": "「專門放置書籍並供閱讀的房間」是「library — room」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-05"
+      "correctOption": "library-pdf-002"
     },
     {
       "id": "library-10-0",
@@ -1079,123 +1126,123 @@ export default {
     },
     {
       "id": "library-13-0",
-      "sense": "library-mcq-07",
+      "sense": "library-pdf-003",
       "en": "It operates as a free lending library.",
       "zh": "它是一間免費的借閱圖書館。",
       "masked": "It operates as a free ____.",
       "options": [
-        "library-mcq-07",
+        "library-pdf-003",
         "library-mcq-06",
         "library-mcq-08",
         "library-mcq-05",
         "library-mcq-09",
         "library-mcq-04"
       ],
-      "explanation": "本句的「lending library」指「以電子形式收藏、管理並提供書籍、文章或檔案的系統」。",
+      "explanation": "本句的「lending library」指「主要讓使用者把書籍借走的圖書館」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "lending library"
       ],
       "optionReasons": {
-        "library-mcq-07": "本句指「以電子形式收藏、管理並提供書籍、文章或檔案的系統」。",
+        "library-pdf-003": "本句指「主要讓使用者把書籍借走的圖書館」。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。",
         "library-mcq-08": "「管理圖書館資料並協助使用者查找資訊的人」是「librarian」的用法，與本句語境不同。",
         "library-mcq-05": "「預先寫好、可由其他程式重複調用的程式碼／函式集合」是「library — computing」的用法，與本句語境不同。",
         "library-mcq-09": "「管理圖書館與資訊資源的專業／學科」是「librarianship」的用法，與本句語境不同。",
         "library-mcq-04": "「被整理並可搜尋、選取或重複使用的一組數碼內容／資源」是「library — media/resources」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-07"
+      "correctOption": "library-pdf-003"
     },
     {
       "id": "library-13-1",
-      "sense": "library-mcq-07",
+      "sense": "library-pdf-003",
       "en": "Members can borrow books from the lending library.",
       "zh": "會員可以從借閱圖書館借書。",
       "masked": "Members can borrow books from the lending ____.",
       "options": [
-        "library-mcq-07",
+        "library-pdf-003",
         "library-mcq-06",
         "library-mcq-08",
         "library-mcq-05",
         "library-mcq-09",
         "library-mcq-04"
       ],
-      "explanation": "本句的「library」指「以電子形式收藏、管理並提供書籍、文章或檔案的系統」。",
+      "explanation": "本句的「library」指「主要讓使用者把書籍借走的圖書館」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "library"
       ],
       "optionReasons": {
-        "library-mcq-07": "本句指「以電子形式收藏、管理並提供書籍、文章或檔案的系統」。",
+        "library-pdf-003": "本句指「主要讓使用者把書籍借走的圖書館」。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。",
         "library-mcq-08": "「管理圖書館資料並協助使用者查找資訊的人」是「librarian」的用法，與本句語境不同。",
         "library-mcq-05": "「預先寫好、可由其他程式重複調用的程式碼／函式集合」是「library — computing」的用法，與本句語境不同。",
         "library-mcq-09": "「管理圖書館與資訊資源的專業／學科」是「librarianship」的用法，與本句語境不同。",
         "library-mcq-04": "「被整理並可搜尋、選取或重複使用的一組數碼內容／資源」是「library — media/resources」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-07"
+      "correctOption": "library-pdf-003"
     },
     {
       "id": "library-14-0",
-      "sense": "library-mcq-08",
+      "sense": "library-pdf-004",
       "en": "You need a library card to borrow books.",
       "zh": "你需要一張圖書證／借書證才能借書。",
       "masked": "You need a ____ to borrow books.",
       "options": [
-        "library-mcq-08",
+        "library-pdf-004",
         "library-mcq-07",
         "library-mcq-09",
         "library-mcq-06",
         "library-mcq-10",
         "library-mcq-05"
       ],
-      "explanation": "本句的「library card」指「管理圖書館資料並協助使用者查找資訊的人」。",
+      "explanation": "本句的「library card」指「證明使用者有借閱／使用圖書館資格的卡」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "library card"
       ],
       "optionReasons": {
-        "library-mcq-08": "本句指「管理圖書館資料並協助使用者查找資訊的人」。",
+        "library-pdf-004": "本句指「證明使用者有借閱／使用圖書館資格的卡」。",
         "library-mcq-07": "「以電子形式收藏、管理並提供書籍、文章或檔案的系統」是「digital library」的用法，與本句語境不同。",
         "library-mcq-09": "「管理圖書館與資訊資源的專業／學科」是「librarianship」的用法，與本句語境不同。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。",
         "library-mcq-10": "「有組織地保存並可搜尋使用的圖片／照片集合」是「6. photo/image library = 圖片庫；相片庫」的用法，與本句語境不同。",
         "library-mcq-05": "「預先寫好、可由其他程式重複調用的程式碼／函式集合」是「library — computing」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-08"
+      "correctOption": "library-pdf-004"
     },
     {
       "id": "library-14-1",
-      "sense": "library-mcq-08",
+      "sense": "library-pdf-004",
       "en": "I renewed my library card online.",
       "zh": "我在網上續期了我的圖書證。",
       "masked": "I renewed my ____ card online.",
       "options": [
-        "library-mcq-08",
+        "library-pdf-004",
         "library-mcq-07",
         "library-mcq-09",
         "library-mcq-06",
         "library-mcq-10",
         "library-mcq-05"
       ],
-      "explanation": "本句的「library」指「管理圖書館資料並協助使用者查找資訊的人」。",
+      "explanation": "本句的「library」指「證明使用者有借閱／使用圖書館資格的卡」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "library"
       ],
       "optionReasons": {
-        "library-mcq-08": "本句指「管理圖書館資料並協助使用者查找資訊的人」。",
+        "library-pdf-004": "本句指「證明使用者有借閱／使用圖書館資格的卡」。",
         "library-mcq-07": "「以電子形式收藏、管理並提供書籍、文章或檔案的系統」是「digital library」的用法，與本句語境不同。",
         "library-mcq-09": "「管理圖書館與資訊資源的專業／學科」是「librarianship」的用法，與本句語境不同。",
         "library-mcq-06": "「可重複取用的圖示、範本、素材等集合」是「design/template library」的用法，與本句語境不同。",
         "library-mcq-10": "「有組織地保存並可搜尋使用的圖片／照片集合」是「6. photo/image library = 圖片庫；相片庫」的用法，與本句語境不同。",
         "library-mcq-05": "「預先寫好、可由其他程式重複調用的程式碼／函式集合」是「library — computing」的用法，與本句語境不同。"
       },
-      "correctOption": "library-mcq-08"
+      "correctOption": "library-pdf-004"
     },
     {
       "id": "library-15-0",

@@ -381,16 +381,6 @@ export default {
       "note": "來源詞義：完成某段距離、數量，或達到某個速度",
       "examples": [
         [
-          "They had the whole house done last year.",
-          "他們去年把整間屋都重新裝修／整理過。",
-          "完成某段距離、數量，或達到某個速度"
-        ],
-        [
-          "We’re having the kitchen done next month.",
-          "我們下個月會把廚房重新裝修。",
-          "完成某段距離、數量，或達到某個速度"
-        ],
-        [
           "The car can do 200 kilometres an hour.",
           "這輛車的最高速度可以達到每小時二百公里。",
           "完成某段距離、數量，或達到某個速度"
@@ -871,6 +861,28 @@ export default {
           "Learn the basic dos and don’ts before your first interview.",
           "第一次面試前，要先了解基本的注意事項和宜忌。",
           "某種情況下應該做及應避免做的事情／注意事項"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "do-pdf-001",
+      "title": "找人替自己完成某項服務／工作",
+      "form": "18. do a place/room/building（裝修／整理） — 裝修；布置",
+      "en": "18. do a place/room/building（裝修／整理） — 裝修；布置",
+      "zh": "找人替自己完成某項服務／工作",
+      "note": "原始 PDF 第 18 節：找人替自己完成某項服務／工作",
+      "examples": [
+        [
+          "They had the whole house done last year.",
+          "他們去年把整間屋都重新裝修／整理過。",
+          "找人替自己完成某項服務／工作"
+        ],
+        [
+          "We’re having the kitchen done next month.",
+          "我們下個月會把廚房重新裝修。",
+          "找人替自己完成某項服務／工作"
         ]
       ],
       "options": [],
@@ -1930,63 +1942,63 @@ export default {
     },
     {
       "id": "do-18-0",
-      "sense": "do-mcq-17",
+      "sense": "do-pdf-001",
       "en": "They had the whole house done last year.",
       "zh": "他們去年把整間屋都重新裝修／整理過。",
       "masked": "They had the whole house ____ last year.",
       "options": [
-        "do-mcq-17",
+        "do-pdf-001",
         "do-mcq-16",
         "do-mcq-18",
         "do-mcq-15",
         "do-mcq-19",
         "do-mcq-14"
       ],
-      "explanation": "本句的「done」指「完成某段距離、數量，或達到某個速度」。",
+      "explanation": "本句的「done」指「找人替自己完成某項服務／工作」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "done"
       ],
       "optionReasons": {
-        "do-mcq-17": "本句指「完成某段距離、數量，或達到某個速度」。",
+        "do-pdf-001": "本句指「找人替自己完成某項服務／工作」。",
         "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
         "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
         "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
         "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
         "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。"
       },
-      "correctOption": "do-mcq-17"
+      "correctOption": "do-pdf-001"
     },
     {
       "id": "do-18-1",
-      "sense": "do-mcq-17",
+      "sense": "do-pdf-001",
       "en": "We’re having the kitchen done next month.",
       "zh": "我們下個月會把廚房重新裝修。",
       "masked": "We’re having the kitchen ____ next month.",
       "options": [
-        "do-mcq-17",
+        "do-pdf-001",
         "do-mcq-16",
         "do-mcq-18",
         "do-mcq-15",
         "do-mcq-19",
         "do-mcq-14"
       ],
-      "explanation": "本句的「done」指「完成某段距離、數量，或達到某個速度」。",
+      "explanation": "本句的「done」指「找人替自己完成某項服務／工作」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "done"
       ],
       "optionReasons": {
-        "do-mcq-17": "本句指「完成某段距離、數量，或達到某個速度」。",
+        "do-pdf-001": "本句指「找人替自己完成某項服務／工作」。",
         "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
         "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
         "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
         "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
         "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。"
       },
-      "correctOption": "do-mcq-17"
+      "correctOption": "do-pdf-001"
     },
     {
       "id": "do-19-0",

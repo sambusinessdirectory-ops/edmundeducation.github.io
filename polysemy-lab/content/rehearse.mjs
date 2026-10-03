@@ -518,7 +518,18 @@ export default {
       "en": "rehearsal — performance",
       "zh": "正式表演前的排練／彩排",
       "note": "來源詞義：正式表演前的排練／彩排",
-      "examples": [],
+      "examples": [
+        [
+          "We have a rehearsal after school.",
+          "我們放學後有一次排練。",
+          "正式表演前的排練／彩排"
+        ],
+        [
+          "The final rehearsal went smoothly.",
+          "最後一次彩排很順利。",
+          "正式表演前的排練／彩排"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -861,16 +872,6 @@ export default {
           "Learners may rehearse a phone number until they can write it down.",
           "學習者可能會反覆默念電話號碼，直到能把它寫下來。",
           "為保持資訊在記憶中而反覆默念／回想"
-        ],
-        [
-          "There is no need to rehearse all the arguments again.",
-          "沒有必要再次重述所有論點。",
-          "為保持資訊在記憶中而反覆默念／回想"
-        ],
-        [
-          "The report rehearses the familiar criticisms.",
-          "報告再次列舉那些耳熟能詳的批評。",
-          "為保持資訊在記憶中而反覆默念／回想"
         ]
       ],
       "options": [],
@@ -1088,28 +1089,7 @@ export default {
       "en": "rehearsal notes",
       "zh": "導演／指揮／老師在排練後提出的修改意見",
       "note": "來源詞義：導演／指揮／老師在排練後提出的修改意見",
-      "examples": [
-        [
-          "We have a rehearsal after school.",
-          "我們放學後有一次排練。",
-          "導演／指揮／老師在排練後提出的修改意見"
-        ],
-        [
-          "The final rehearsal went smoothly.",
-          "最後一次彩排很順利。",
-          "導演／指揮／老師在排練後提出的修改意見"
-        ],
-        [
-          "The exercise was a useful rehearsal for the real interview.",
-          "這項練習是正式面試前很有用的預演。",
-          "導演／指揮／老師在排練後提出的修改意見"
-        ],
-        [
-          "Repeated rehearsal can help keep information in short-term memory.",
-          "反覆複誦有助把資訊暫時保持在短期記憶中。",
-          "導演／指揮／老師在排練後提出的修改意見"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1242,6 +1222,62 @@ export default {
       "zh": "即興",
       "note": "來源詞義：即興",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rehearse-pdf-plain-123",
+      "title": "為保持記憶而反覆默念或複誦",
+      "form": "PDF section 123",
+      "en": "PDF section 123",
+      "zh": "為保持記憶而反覆默念或複誦",
+      "note": "原始 PDF 第 123 節：為保持記憶而反覆默念或複誦",
+      "examples": [
+        [
+          "Repeated rehearsal can help keep information in short-term memory.",
+          "反覆複誦有助把資訊暫時保持在短期記憶中。",
+          "為保持記憶而反覆默念或複誦"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rehearse-pdf-plain-138",
+      "title": "再次重述、詳述或列舉",
+      "form": "PDF section 138",
+      "en": "PDF section 138",
+      "zh": "再次重述、詳述或列舉",
+      "note": "原始 PDF 第 138 節：再次重述、詳述或列舉",
+      "examples": [
+        [
+          "There is no need to rehearse all the arguments again.",
+          "沒有必要再次重述所有論點。",
+          "再次重述、詳述或列舉"
+        ],
+        [
+          "The report rehearses the familiar criticisms.",
+          "報告再次列舉那些耳熟能詳的批評。",
+          "再次重述、詳述或列舉"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "rehearse-pdf-orphan-01",
+      "title": "為日後真實活動而做的練習或預演",
+      "form": "PDF practice 121",
+      "en": "PDF practice 121",
+      "zh": "為日後真實活動而做的練習或預演",
+      "note": "原始 PDF 練習 121：為日後真實活動而做的練習或預演",
+      "examples": [
+        [
+          "The exercise was a useful rehearsal for the real interview.",
+          "這項練習是正式面試前很有用的預演。",
+          "為日後真實活動而做的練習或預演"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -1969,63 +2005,63 @@ export default {
     },
     {
       "id": "rehearse-43-0",
-      "sense": "rehearse-mcq-79",
+      "sense": "rehearse-mcq-34",
       "en": "We have a rehearsal after school.",
       "zh": "我們放學後有一次排練。",
       "masked": "We have a ____ after school.",
       "options": [
-        "rehearse-mcq-79",
+        "rehearse-mcq-34",
         "rehearse-mcq-78",
         "rehearse-mcq-80",
         "rehearse-mcq-77",
         "rehearse-mcq-81",
         "rehearse-mcq-76"
       ],
-      "explanation": "本句的「rehearsal」指「導演／指揮／老師在排練後提出的修改意見」。",
+      "explanation": "本句的「rehearsal」指「正式表演前的排練／彩排」。",
       "sentenceIndex": 27,
       "sourcePractice": 43,
       "targets": [
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-79": "本句指「導演／指揮／老師在排練後提出的修改意見」。",
+        "rehearse-mcq-34": "本句指「正式表演前的排練／彩排」。",
         "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
         "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
         "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
         "rehearse-mcq-81": "「練習」與本句語境不同。",
         "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
       },
-      "correctOption": "rehearse-mcq-79"
+      "correctOption": "rehearse-mcq-34"
     },
     {
       "id": "rehearse-43-1",
-      "sense": "rehearse-mcq-79",
+      "sense": "rehearse-mcq-34",
       "en": "The final rehearsal went smoothly.",
       "zh": "最後一次彩排很順利。",
       "masked": "The final ____ went smoothly.",
       "options": [
-        "rehearse-mcq-79",
+        "rehearse-mcq-34",
         "rehearse-mcq-78",
         "rehearse-mcq-80",
         "rehearse-mcq-77",
         "rehearse-mcq-81",
         "rehearse-mcq-76"
       ],
-      "explanation": "本句的「rehearsal」指「導演／指揮／老師在排練後提出的修改意見」。",
+      "explanation": "本句的「rehearsal」指「正式表演前的排練／彩排」。",
       "sentenceIndex": 28,
       "sourcePractice": 43,
       "targets": [
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-79": "本句指「導演／指揮／老師在排練後提出的修改意見」。",
+        "rehearse-mcq-34": "本句指「正式表演前的排練／彩排」。",
         "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
         "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
         "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
         "rehearse-mcq-81": "「練習」與本句語境不同。",
         "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
       },
-      "correctOption": "rehearse-mcq-79"
+      "correctOption": "rehearse-mcq-34"
     },
     {
       "id": "rehearse-54-0",
@@ -2239,63 +2275,63 @@ export default {
     },
     {
       "id": "rehearse-121-0",
-      "sense": "rehearse-mcq-79",
+      "sense": "rehearse-pdf-orphan-01",
       "en": "The exercise was a useful rehearsal for the real interview.",
       "zh": "這項練習是正式面試前很有用的預演。",
       "masked": "The exercise was a useful ____ for the real interview.",
       "options": [
-        "rehearse-mcq-79",
+        "rehearse-pdf-orphan-01",
         "rehearse-mcq-78",
         "rehearse-mcq-80",
         "rehearse-mcq-77",
         "rehearse-mcq-81",
         "rehearse-mcq-76"
       ],
-      "explanation": "本句的「rehearsal」指「導演／指揮／老師在排練後提出的修改意見」。",
+      "explanation": "本句的「rehearsal」指「為日後真實活動而做的練習或預演」。",
       "sentenceIndex": 39,
       "sourcePractice": 121,
       "targets": [
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-79": "本句指「導演／指揮／老師在排練後提出的修改意見」。",
+        "rehearse-pdf-orphan-01": "本句指「為日後真實活動而做的練習或預演」。",
         "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
         "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
         "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
         "rehearse-mcq-81": "「練習」與本句語境不同。",
         "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
       },
-      "correctOption": "rehearse-mcq-79"
+      "correctOption": "rehearse-pdf-orphan-01"
     },
     {
       "id": "rehearse-123-0",
-      "sense": "rehearse-mcq-79",
+      "sense": "rehearse-pdf-plain-123",
       "en": "Repeated rehearsal can help keep information in short-term memory.",
       "zh": "反覆複誦有助把資訊暫時保持在短期記憶中。",
       "masked": "Repeated ____ can help keep information in short-term memory.",
       "options": [
-        "rehearse-mcq-79",
+        "rehearse-pdf-plain-123",
         "rehearse-mcq-78",
         "rehearse-mcq-80",
         "rehearse-mcq-77",
         "rehearse-mcq-81",
         "rehearse-mcq-76"
       ],
-      "explanation": "本句的「rehearsal」指「導演／指揮／老師在排練後提出的修改意見」。",
+      "explanation": "本句的「rehearsal」指「為保持記憶而反覆默念或複誦」。",
       "sentenceIndex": 41,
       "sourcePractice": 123,
       "targets": [
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-79": "本句指「導演／指揮／老師在排練後提出的修改意見」。",
+        "rehearse-pdf-plain-123": "本句指「為保持記憶而反覆默念或複誦」。",
         "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
         "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
         "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
         "rehearse-mcq-81": "「練習」與本句語境不同。",
         "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
       },
-      "correctOption": "rehearse-mcq-79"
+      "correctOption": "rehearse-pdf-plain-123"
     },
     {
       "id": "rehearse-124-0",
@@ -2389,63 +2425,63 @@ export default {
     },
     {
       "id": "rehearse-138-0",
-      "sense": "rehearse-mcq-61",
+      "sense": "rehearse-pdf-plain-138",
       "en": "There is no need to rehearse all the arguments again.",
       "zh": "沒有必要再次重述所有論點。",
       "masked": "There is no need to ____ all the arguments again.",
       "options": [
-        "rehearse-mcq-61",
+        "rehearse-pdf-plain-138",
         "rehearse-mcq-60",
         "rehearse-mcq-62",
         "rehearse-mcq-59",
         "rehearse-mcq-63",
         "rehearse-mcq-58"
       ],
-      "explanation": "本句的「rehearse」指「為保持資訊在記憶中而反覆默念／回想」。",
+      "explanation": "本句的「rehearse」指「再次重述、詳述或列舉」。",
       "sentenceIndex": 45,
       "sourcePractice": 138,
       "targets": [
         "rehearse"
       ],
       "optionReasons": {
-        "rehearse-mcq-61": "本句指「為保持資訊在記憶中而反覆默念／回想」。",
+        "rehearse-pdf-plain-138": "本句指「再次重述、詳述或列舉」。",
         "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。",
         "rehearse-mcq-62": "「主要靠機械式重複維持資訊的維持性複誦」與本句語境不同。",
         "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
         "rehearse-mcq-63": "「把新資訊與意義、舊知識等連結的精緻化複誦」與本句語境不同。",
         "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。"
       },
-      "correctOption": "rehearse-mcq-61"
+      "correctOption": "rehearse-pdf-plain-138"
     },
     {
       "id": "rehearse-138-1",
-      "sense": "rehearse-mcq-61",
+      "sense": "rehearse-pdf-plain-138",
       "en": "The report rehearses the familiar criticisms.",
       "zh": "報告再次列舉那些耳熟能詳的批評。",
       "masked": "The report ____ the familiar criticisms.",
       "options": [
-        "rehearse-mcq-61",
+        "rehearse-pdf-plain-138",
         "rehearse-mcq-60",
         "rehearse-mcq-62",
         "rehearse-mcq-59",
         "rehearse-mcq-63",
         "rehearse-mcq-58"
       ],
-      "explanation": "本句的「rehearses」指「為保持資訊在記憶中而反覆默念／回想」。",
+      "explanation": "本句的「rehearses」指「再次重述、詳述或列舉」。",
       "sentenceIndex": 46,
       "sourcePractice": 138,
       "targets": [
         "rehearses"
       ],
       "optionReasons": {
-        "rehearse-mcq-61": "本句指「為保持資訊在記憶中而反覆默念／回想」。",
+        "rehearse-pdf-plain-138": "本句指「再次重述、詳述或列舉」。",
         "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。",
         "rehearse-mcq-62": "「主要靠機械式重複維持資訊的維持性複誦」與本句語境不同。",
         "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
         "rehearse-mcq-63": "「把新資訊與意義、舊知識等連結的精緻化複誦」與本句語境不同。",
         "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。"
       },
-      "correctOption": "rehearse-mcq-61"
+      "correctOption": "rehearse-pdf-plain-138"
     },
     {
       "id": "rehearse-139-0",

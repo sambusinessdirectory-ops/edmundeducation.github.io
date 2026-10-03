@@ -1,0 +1,1625 @@
+{
+  "patches": [
+    {
+      "module": "assessment",
+      "number": 1046,
+      "oldSenseCount": 188,
+      "newSenses": [
+        {
+          "id": "assessment-pdf-plain-050",
+          "title": "自我評估；自行評估自己的作品、表現或能力",
+          "form": "PDF section 50",
+          "en": "PDF section 50",
+          "zh": "自我評估；自行評估自己的作品、表現或能力",
+          "note": "原始 PDF 第 50 節：自我評估；自行評估自己的作品、表現或能力",
+          "examples": [
+            [
+              "Students completed a short self-assessment.",
+              "學生完成了一份簡短的自我評估。",
+              "自我評估；自行評估自己的作品、表現或能力"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "assessment-50-0",
+          "sourceSection": 50,
+          "sourceMeaning": "自我評估；自行評估自己的作品、表現或能力",
+          "oldSense": "assessment-mcq-144",
+          "newSense": "assessment-pdf-plain-050",
+          "oldOptions": [
+            "assessment-mcq-144",
+            "assessment-mcq-143",
+            "assessment-mcq-145",
+            "assessment-mcq-142",
+            "assessment-mcq-146",
+            "assessment-mcq-141"
+          ],
+          "newOptions": [
+            "assessment-pdf-plain-050",
+            "assessment-mcq-143",
+            "assessment-mcq-145",
+            "assessment-mcq-142",
+            "assessment-mcq-146",
+            "assessment-mcq-141"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "crowd",
+      "number": 79,
+      "oldSenseCount": 22,
+      "newSenses": [
+        {
+          "id": "crowd-pdf-plain-005",
+          "title": "聚集於某處；擠滿某個地方",
+          "form": "PDF section 5",
+          "en": "PDF section 5",
+          "zh": "聚集於某處；擠滿某個地方",
+          "note": "原始 PDF 第 5 節：聚集於某處；擠滿某個地方",
+          "examples": [
+            [
+              "People crowded around the entrance.",
+              "人們擠在入口周圍。",
+              "聚集於某處；擠滿某個地方"
+            ],
+            [
+              "Fans crowded the streets after the match.",
+              "比賽後，球迷擠滿了街道。",
+              "聚集於某處；擠滿某個地方"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "crowd-05-0",
+          "sourceSection": 5,
+          "sourceMeaning": "聚集於某處；擠滿某個地方",
+          "oldSense": "crowd-mcq-10",
+          "newSense": "crowd-pdf-plain-005",
+          "oldOptions": [
+            "crowd-mcq-10",
+            "crowd-mcq-09",
+            "crowd-mcq-11",
+            "crowd-mcq-08",
+            "crowd-mcq-12",
+            "crowd-mcq-07"
+          ],
+          "newOptions": [
+            "crowd-pdf-plain-005",
+            "crowd-mcq-09",
+            "crowd-mcq-11",
+            "crowd-mcq-08",
+            "crowd-mcq-12",
+            "crowd-mcq-07"
+          ]
+        },
+        {
+          "question": "crowd-05-1",
+          "sourceSection": 5,
+          "sourceMeaning": "聚集於某處；擠滿某個地方",
+          "oldSense": "crowd-mcq-10",
+          "newSense": "crowd-pdf-plain-005",
+          "oldOptions": [
+            "crowd-mcq-10",
+            "crowd-mcq-09",
+            "crowd-mcq-11",
+            "crowd-mcq-08",
+            "crowd-mcq-12",
+            "crowd-mcq-07"
+          ],
+          "newOptions": [
+            "crowd-pdf-plain-005",
+            "crowd-mcq-09",
+            "crowd-mcq-11",
+            "crowd-mcq-08",
+            "crowd-mcq-12",
+            "crowd-mcq-07"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "diary",
+      "number": 1051,
+      "oldSenseCount": 99,
+      "newSenses": [
+        {
+          "id": "diary-pdf-plain-055",
+          "title": "記錄未來約會及安排的行事曆／日程表",
+          "form": "PDF section 55",
+          "en": "PDF section 55",
+          "zh": "記錄未來約會及安排的行事曆／日程表",
+          "note": "原始 PDF 第 55 節：記錄未來約會及安排的行事曆／日程表",
+          "examples": [
+            [
+              "Let me check my diary.",
+              "讓我看看我的行事曆／日程表。",
+              "記錄未來約會及安排的行事曆／日程表"
+            ],
+            [
+              "My diary is full next week.",
+              "我下星期的行程已排滿。",
+              "記錄未來約會及安排的行事曆／日程表"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "diary-55-0",
+          "sourceSection": 55,
+          "sourceMeaning": "記錄未來約會及安排的行事曆／日程表",
+          "oldSense": "diary-mcq-15",
+          "newSense": "diary-pdf-plain-055",
+          "oldOptions": [
+            "diary-mcq-15",
+            "diary-mcq-14",
+            "diary-mcq-16",
+            "diary-mcq-13",
+            "diary-mcq-17",
+            "diary-mcq-12"
+          ],
+          "newOptions": [
+            "diary-pdf-plain-055",
+            "diary-mcq-14",
+            "diary-mcq-16",
+            "diary-mcq-13",
+            "diary-mcq-17",
+            "diary-mcq-12"
+          ]
+        },
+        {
+          "question": "diary-55-1",
+          "sourceSection": 55,
+          "sourceMeaning": "記錄未來約會及安排的行事曆／日程表",
+          "oldSense": "diary-mcq-15",
+          "newSense": "diary-pdf-plain-055",
+          "oldOptions": [
+            "diary-mcq-15",
+            "diary-mcq-14",
+            "diary-mcq-16",
+            "diary-mcq-13",
+            "diary-mcq-17",
+            "diary-mcq-12"
+          ],
+          "newOptions": [
+            "diary-pdf-plain-055",
+            "diary-mcq-14",
+            "diary-mcq-16",
+            "diary-mcq-13",
+            "diary-mcq-17",
+            "diary-mcq-12"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "entry",
+      "number": 1025,
+      "oldSenseCount": 137,
+      "newSenses": [
+        {
+          "id": "entry-pdf-plain-061",
+          "title": "供人或事物進入的入口點",
+          "form": "PDF section 61",
+          "en": "PDF section 61",
+          "zh": "供人或事物進入的入口點",
+          "note": "原始 PDF 第 61 節：供人或事物進入的入口點",
+          "examples": [
+            [
+              "Guards monitored every entry point.",
+              "保安監察每個入口點。",
+              "供人或事物進入的入口點"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "entry-pdf-plain-064",
+          "title": "程式開始執行的入口點",
+          "form": "PDF section 64",
+          "en": "PDF section 64",
+          "zh": "程式開始執行的入口點",
+          "note": "原始 PDF 第 64 節：程式開始執行的入口點",
+          "examples": [
+            [
+              "The program’s main function is its entry point.",
+              "main 函數是程式的入口點。",
+              "程式開始執行的入口點"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "entry-pdf-plain-065",
+          "title": "攻擊者得以進入系統的入侵入口點",
+          "form": "PDF section 65",
+          "en": "PDF section 65",
+          "zh": "攻擊者得以進入系統的入侵入口點",
+          "note": "原始 PDF 第 65 節：攻擊者得以進入系統的入侵入口點",
+          "examples": [
+            [
+              "The exposed service became an entry point for attackers.",
+              "暴露的服務成為攻擊者的入侵入口。",
+              "攻擊者得以進入系統的入侵入口點"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "entry-61-0",
+          "sourceSection": 61,
+          "sourceMeaning": "供人或事物進入的入口點",
+          "oldSense": "entry-mcq-90",
+          "newSense": "entry-pdf-plain-061",
+          "oldOptions": [
+            "entry-mcq-90",
+            "entry-mcq-89",
+            "entry-mcq-91",
+            "entry-mcq-88",
+            "entry-mcq-92",
+            "entry-mcq-87"
+          ],
+          "newOptions": [
+            "entry-pdf-plain-061",
+            "entry-mcq-89",
+            "entry-mcq-91",
+            "entry-mcq-88",
+            "entry-mcq-92",
+            "entry-mcq-87"
+          ]
+        },
+        {
+          "question": "entry-64-0",
+          "sourceSection": 64,
+          "sourceMeaning": "程式開始執行的入口點",
+          "oldSense": "entry-mcq-90",
+          "newSense": "entry-pdf-plain-064",
+          "oldOptions": [
+            "entry-mcq-90",
+            "entry-mcq-89",
+            "entry-mcq-91",
+            "entry-mcq-88",
+            "entry-mcq-92",
+            "entry-mcq-87"
+          ],
+          "newOptions": [
+            "entry-pdf-plain-064",
+            "entry-mcq-89",
+            "entry-mcq-91",
+            "entry-mcq-88",
+            "entry-mcq-92",
+            "entry-mcq-87"
+          ]
+        },
+        {
+          "question": "entry-65-0",
+          "sourceSection": 65,
+          "sourceMeaning": "攻擊者得以進入系統的入侵入口點",
+          "oldSense": "entry-mcq-90",
+          "newSense": "entry-pdf-plain-065",
+          "oldOptions": [
+            "entry-mcq-90",
+            "entry-mcq-89",
+            "entry-mcq-91",
+            "entry-mcq-88",
+            "entry-mcq-92",
+            "entry-mcq-87"
+          ],
+          "newOptions": [
+            "entry-pdf-plain-065",
+            "entry-mcq-89",
+            "entry-mcq-91",
+            "entry-mcq-88",
+            "entry-mcq-92",
+            "entry-mcq-87"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "exhaust",
+      "number": 80,
+      "oldSenseCount": 21,
+      "newSenses": [
+        {
+          "id": "exhaust-pdf-plain-022",
+          "title": "完整無遺漏、全面涵蓋所有相關項目的",
+          "form": "PDF section 22",
+          "en": "PDF section 22",
+          "zh": "完整無遺漏、全面涵蓋所有相關項目的",
+          "note": "原始 PDF 第 22 節：完整無遺漏、全面涵蓋所有相關項目的",
+          "examples": [
+            [
+              "This is not intended to be an exhaustive list.",
+              "這份清單並非要做到完全涵蓋所有項目。",
+              "完整無遺漏、全面涵蓋所有相關項目的"
+            ],
+            [
+              "An exhaustive review of the evidence would take months.",
+              "若要對證據進行全面而不遺漏重要資料的審查，可能需要數月。",
+              "完整無遺漏、全面涵蓋所有相關項目的"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "exhaust-22-0",
+          "sourceSection": 22,
+          "sourceMeaning": "完整無遺漏、全面涵蓋所有相關項目的",
+          "oldSense": "exhaust-mcq-21",
+          "newSense": "exhaust-pdf-plain-022",
+          "oldOptions": [
+            "exhaust-mcq-21",
+            "exhaust-mcq-20",
+            "exhaust-mcq-19",
+            "exhaust-mcq-18",
+            "exhaust-mcq-17",
+            "exhaust-mcq-16"
+          ],
+          "newOptions": [
+            "exhaust-pdf-plain-022",
+            "exhaust-mcq-20",
+            "exhaust-mcq-19",
+            "exhaust-mcq-18",
+            "exhaust-mcq-17",
+            "exhaust-mcq-16"
+          ]
+        },
+        {
+          "question": "exhaust-22-1",
+          "sourceSection": 22,
+          "sourceMeaning": "完整無遺漏、全面涵蓋所有相關項目的",
+          "oldSense": "exhaust-mcq-21",
+          "newSense": "exhaust-pdf-plain-022",
+          "oldOptions": [
+            "exhaust-mcq-21",
+            "exhaust-mcq-20",
+            "exhaust-mcq-19",
+            "exhaust-mcq-18",
+            "exhaust-mcq-17",
+            "exhaust-mcq-16"
+          ],
+          "newOptions": [
+            "exhaust-pdf-plain-022",
+            "exhaust-mcq-20",
+            "exhaust-mcq-19",
+            "exhaust-mcq-18",
+            "exhaust-mcq-17",
+            "exhaust-mcq-16"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "generate",
+      "number": 1018,
+      "oldSenseCount": 93,
+      "newSenses": [
+        {
+          "id": "generate-pdf-plain-076",
+          "title": "產生或生成某種事物的過程",
+          "form": "PDF section 76",
+          "en": "PDF section 76",
+          "zh": "產生或生成某種事物的過程",
+          "note": "原始 PDF 第 76 節：產生或生成某種事物的過程",
+          "examples": [
+            [
+              "Idea generation is only the first stage.",
+              "產生想法只是第一階段。",
+              "產生或生成某種事物的過程"
+            ],
+            [
+              "The system automates report generation.",
+              "系統把報告生成自動化。",
+              "產生或生成某種事物的過程"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "generate-pdf-plain-080",
+          "title": "出生於相近時期的一代人；世代",
+          "form": "PDF section 80",
+          "en": "PDF section 80",
+          "zh": "出生於相近時期的一代人；世代",
+          "note": "原始 PDF 第 80 節：出生於相近時期的一代人；世代",
+          "examples": [
+            [
+              "Younger generations often use technology differently.",
+              "較年輕的世代使用科技的方式往往不同。",
+              "出生於相近時期的一代人；世代"
+            ],
+            [
+              "Each generation faces different challenges.",
+              "每一代人都面對不同挑戰。",
+              "出生於相近時期的一代人；世代"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "generate-pdf-plain-091",
+          "title": "家族中的一代",
+          "form": "PDF section 91",
+          "en": "PDF section 91",
+          "zh": "家族中的一代",
+          "note": "原始 PDF 第 91 節：家族中的一代",
+          "examples": [
+            [
+              "Three generations of the family live together.",
+              "一家三代同堂。",
+              "家族中的一代"
+            ],
+            [
+              "The business has remained in the family for four generations.",
+              "這門生意已在家族中傳承了四代。",
+              "家族中的一代"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "generate-pdf-plain-103",
+          "title": "生成元",
+          "form": "PDF section 103",
+          "en": "PDF section 103",
+          "zh": "生成元",
+          "note": "原始 PDF 第 103 節：生成元",
+          "examples": [
+            [
+              "The group has a single generator.",
+              "這個群有一個生成元。",
+              "生成元"
+            ],
+            [
+              "Repeated application of the generator produces the other elements.",
+              "重複運用該生成元可以得到其他元素。",
+              "生成元"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "generate-76-0",
+          "sourceSection": 76,
+          "sourceMeaning": "產生或生成某種事物的過程",
+          "oldSense": "generate-mcq-76",
+          "newSense": "generate-pdf-plain-076",
+          "oldOptions": [
+            "generate-mcq-76",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-076",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ]
+        },
+        {
+          "question": "generate-76-1",
+          "sourceSection": 76,
+          "sourceMeaning": "產生或生成某種事物的過程",
+          "oldSense": "generate-mcq-76",
+          "newSense": "generate-pdf-plain-076",
+          "oldOptions": [
+            "generate-mcq-76",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-076",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ]
+        },
+        {
+          "question": "generate-80-0",
+          "sourceSection": 80,
+          "sourceMeaning": "出生於相近時期的一代人；世代",
+          "oldSense": "generate-mcq-76",
+          "newSense": "generate-pdf-plain-080",
+          "oldOptions": [
+            "generate-mcq-76",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-080",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ]
+        },
+        {
+          "question": "generate-80-1",
+          "sourceSection": 80,
+          "sourceMeaning": "出生於相近時期的一代人；世代",
+          "oldSense": "generate-mcq-76",
+          "newSense": "generate-pdf-plain-080",
+          "oldOptions": [
+            "generate-mcq-76",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-080",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ]
+        },
+        {
+          "question": "generate-91-0",
+          "sourceSection": 91,
+          "sourceMeaning": "家族中的一代",
+          "oldSense": "generate-mcq-76",
+          "newSense": "generate-pdf-plain-091",
+          "oldOptions": [
+            "generate-mcq-76",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-091",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ]
+        },
+        {
+          "question": "generate-91-1",
+          "sourceSection": 91,
+          "sourceMeaning": "家族中的一代",
+          "oldSense": "generate-mcq-76",
+          "newSense": "generate-pdf-plain-091",
+          "oldOptions": [
+            "generate-mcq-76",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-091",
+            "generate-mcq-75",
+            "generate-mcq-77",
+            "generate-mcq-74",
+            "generate-mcq-78",
+            "generate-mcq-73"
+          ]
+        },
+        {
+          "question": "generate-103-0",
+          "sourceSection": 103,
+          "sourceMeaning": "生成元",
+          "oldSense": "generate-mcq-38",
+          "newSense": "generate-pdf-plain-103",
+          "oldOptions": [
+            "generate-mcq-38",
+            "generate-mcq-37",
+            "generate-mcq-39",
+            "generate-mcq-36",
+            "generate-mcq-40",
+            "generate-mcq-41"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-103",
+            "generate-mcq-37",
+            "generate-mcq-39",
+            "generate-mcq-36",
+            "generate-mcq-40",
+            "generate-mcq-41"
+          ]
+        },
+        {
+          "question": "generate-103-1",
+          "sourceSection": 103,
+          "sourceMeaning": "生成元",
+          "oldSense": "generate-mcq-38",
+          "newSense": "generate-pdf-plain-103",
+          "oldOptions": [
+            "generate-mcq-38",
+            "generate-mcq-37",
+            "generate-mcq-39",
+            "generate-mcq-36",
+            "generate-mcq-40",
+            "generate-mcq-41"
+          ],
+          "newOptions": [
+            "generate-pdf-plain-103",
+            "generate-mcq-37",
+            "generate-mcq-39",
+            "generate-mcq-36",
+            "generate-mcq-40",
+            "generate-mcq-41"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "home",
+      "number": 12,
+      "oldSenseCount": 34,
+      "newSenses": [
+        {
+          "id": "home-pdf-plain-015",
+          "title": "在某處感到自在、熟悉或有歸屬感",
+          "form": "PDF section 15",
+          "en": "PDF section 15",
+          "zh": "在某處感到自在、熟悉或有歸屬感",
+          "note": "原始 PDF 第 15 節：在某處感到自在、熟悉或有歸屬感",
+          "examples": [
+            [
+              "I immediately felt at home in the new office.",
+              "我在新辦公室裡很快就感到自在、像自己熟悉的地方一樣。",
+              "在某處感到自在、熟悉或有歸屬感"
+            ],
+            [
+              "She is completely at home with technology.",
+              "她對科技非常熟悉自在、應付自如。",
+              "在某處感到自在、熟悉或有歸屬感"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "home-pdf-plain-017",
+          "title": "像家一樣舒服的地方",
+          "form": "PDF section 17",
+          "en": "PDF section 17",
+          "zh": "像家一樣舒服的地方",
+          "note": "原始 PDF 第 17 節：像家一樣舒服的地方",
+          "examples": [
+            [
+              "The small hotel became a home away from home.",
+              "那間小酒店成為一個像家一樣舒服自在的地方。",
+              "像家一樣舒服的地方"
+            ],
+            [
+              "The café feels like a home from home.",
+              "那間咖啡店有一種第二個家的感覺。",
+              "像家一樣舒服的地方"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "home-pdf-plain-019",
+          "title": "擁有自己的住宅；置業",
+          "form": "PDF section 19",
+          "en": "PDF section 19",
+          "zh": "擁有自己的住宅；置業",
+          "note": "原始 PDF 第 19 節：擁有自己的住宅；置業",
+          "examples": [
+            [
+              "High prices have made homeownership more difficult.",
+              "高樓價令置業／自置居所變得更加困難。",
+              "擁有自己的住宅；置業"
+            ],
+            [
+              "The study examines rates of homeownership.",
+              "研究分析自置住宅比例。",
+              "擁有自己的住宅；置業"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "home-15-0",
+          "sourceSection": 15,
+          "sourceMeaning": "在某處感到自在、熟悉或有歸屬感",
+          "oldSense": "home-mcq-14",
+          "newSense": "home-pdf-plain-015",
+          "oldOptions": [
+            "home-mcq-14",
+            "home-mcq-13",
+            "home-mcq-15",
+            "home-mcq-12",
+            "home-mcq-16",
+            "home-mcq-11"
+          ],
+          "newOptions": [
+            "home-pdf-plain-015",
+            "home-mcq-13",
+            "home-mcq-15",
+            "home-mcq-12",
+            "home-mcq-16",
+            "home-mcq-11"
+          ]
+        },
+        {
+          "question": "home-15-1",
+          "sourceSection": 15,
+          "sourceMeaning": "在某處感到自在、熟悉或有歸屬感",
+          "oldSense": "home-mcq-14",
+          "newSense": "home-pdf-plain-015",
+          "oldOptions": [
+            "home-mcq-14",
+            "home-mcq-13",
+            "home-mcq-15",
+            "home-mcq-12",
+            "home-mcq-16",
+            "home-mcq-11"
+          ],
+          "newOptions": [
+            "home-pdf-plain-015",
+            "home-mcq-13",
+            "home-mcq-15",
+            "home-mcq-12",
+            "home-mcq-16",
+            "home-mcq-11"
+          ]
+        },
+        {
+          "question": "home-17-0",
+          "sourceSection": 17,
+          "sourceMeaning": "像家一樣舒服的地方",
+          "oldSense": "home-mcq-15",
+          "newSense": "home-pdf-plain-017",
+          "oldOptions": [
+            "home-mcq-15",
+            "home-mcq-14",
+            "home-mcq-16",
+            "home-mcq-13",
+            "home-mcq-17",
+            "home-mcq-12"
+          ],
+          "newOptions": [
+            "home-pdf-plain-017",
+            "home-mcq-14",
+            "home-mcq-16",
+            "home-mcq-13",
+            "home-mcq-17",
+            "home-mcq-12"
+          ]
+        },
+        {
+          "question": "home-17-1",
+          "sourceSection": 17,
+          "sourceMeaning": "像家一樣舒服的地方",
+          "oldSense": "home-mcq-15",
+          "newSense": "home-pdf-plain-017",
+          "oldOptions": [
+            "home-mcq-15",
+            "home-mcq-14",
+            "home-mcq-16",
+            "home-mcq-13",
+            "home-mcq-17",
+            "home-mcq-12"
+          ],
+          "newOptions": [
+            "home-pdf-plain-017",
+            "home-mcq-14",
+            "home-mcq-16",
+            "home-mcq-13",
+            "home-mcq-17",
+            "home-mcq-12"
+          ]
+        },
+        {
+          "question": "home-19-0",
+          "sourceSection": 19,
+          "sourceMeaning": "擁有自己的住宅；置業",
+          "oldSense": "home-mcq-16",
+          "newSense": "home-pdf-plain-019",
+          "oldOptions": [
+            "home-mcq-16",
+            "home-mcq-15",
+            "home-mcq-17",
+            "home-mcq-14",
+            "home-mcq-18",
+            "home-mcq-13"
+          ],
+          "newOptions": [
+            "home-pdf-plain-019",
+            "home-mcq-15",
+            "home-mcq-17",
+            "home-mcq-14",
+            "home-mcq-18",
+            "home-mcq-13"
+          ]
+        },
+        {
+          "question": "home-19-1",
+          "sourceSection": 19,
+          "sourceMeaning": "擁有自己的住宅；置業",
+          "oldSense": "home-mcq-16",
+          "newSense": "home-pdf-plain-019",
+          "oldOptions": [
+            "home-mcq-16",
+            "home-mcq-15",
+            "home-mcq-17",
+            "home-mcq-14",
+            "home-mcq-18",
+            "home-mcq-13"
+          ],
+          "newOptions": [
+            "home-pdf-plain-019",
+            "home-mcq-15",
+            "home-mcq-17",
+            "home-mcq-14",
+            "home-mcq-18",
+            "home-mcq-13"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "incorporate",
+      "number": 1040,
+      "oldSenseCount": 110,
+      "newSenses": [
+        {
+          "id": "incorporate-pdf-plain-059",
+          "title": "公司或組織依法註冊成立為法人實體",
+          "form": "PDF section 59",
+          "en": "PDF section 59",
+          "zh": "公司或組織依法註冊成立為法人實體",
+          "note": "原始 PDF 第 59 節：公司或組織依法註冊成立為法人實體",
+          "examples": [
+            [
+              "The organization is incorporated.",
+              "該組織已正式註冊成立為法人實體。",
+              "公司或組織依法註冊成立為法人實體"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "incorporate-59-0",
+          "sourceSection": 59,
+          "sourceMeaning": "公司或組織依法註冊成立為法人實體",
+          "oldSense": "incorporate-mcq-04",
+          "newSense": "incorporate-pdf-plain-059",
+          "oldOptions": [
+            "incorporate-mcq-04",
+            "incorporate-mcq-03",
+            "incorporate-mcq-05",
+            "incorporate-mcq-02",
+            "incorporate-mcq-06",
+            "incorporate-mcq-01"
+          ],
+          "newOptions": [
+            "incorporate-pdf-plain-059",
+            "incorporate-mcq-03",
+            "incorporate-mcq-05",
+            "incorporate-mcq-02",
+            "incorporate-mcq-06",
+            "incorporate-mcq-01"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "instruction",
+      "number": 1019,
+      "oldSenseCount": 141,
+      "newSenses": [
+        {
+          "id": "instruction-pdf-plain-140",
+          "title": "由電腦處理器執行的指令；機器指令",
+          "form": "PDF section 140",
+          "en": "PDF section 140",
+          "zh": "由電腦處理器執行的指令；機器指令",
+          "note": "原始 PDF 第 140 節：由電腦處理器執行的指令；機器指令",
+          "examples": [
+            [
+              "The processor executes millions of instructions.",
+              "處理器執行數以百萬計的指令。",
+              "由電腦處理器執行的指令；機器指令"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "instruction-140-0",
+          "sourceSection": 140,
+          "sourceMeaning": "由電腦處理器執行的指令；機器指令",
+          "oldSense": "instruction-mcq-77",
+          "newSense": "instruction-pdf-plain-140",
+          "oldOptions": [
+            "instruction-mcq-77",
+            "instruction-mcq-76",
+            "instruction-mcq-78",
+            "instruction-mcq-75",
+            "instruction-mcq-79",
+            "instruction-mcq-74"
+          ],
+          "newOptions": [
+            "instruction-pdf-plain-140",
+            "instruction-mcq-76",
+            "instruction-mcq-78",
+            "instruction-mcq-75",
+            "instruction-mcq-79",
+            "instruction-mcq-74"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "reduce",
+      "number": 1008,
+      "oldSenseCount": 87,
+      "newSenses": [
+        {
+          "id": "reduce-pdf-plain-082",
+          "title": "烹調時收濃的汁液；濃縮汁",
+          "form": "PDF section 82",
+          "en": "PDF section 82",
+          "zh": "烹調時收濃的汁液；濃縮汁",
+          "note": "原始 PDF 第 82 節：烹調時收濃的汁液；濃縮汁",
+          "examples": [
+            [
+              "The dish was served with a balsamic reduction.",
+              "菜式配上濃縮黑醋汁。",
+              "烹調時收濃的汁液；濃縮汁"
+            ],
+            [
+              "A wine reduction adds concentrated flavour.",
+              "葡萄酒濃縮汁可以增加濃郁味道。",
+              "烹調時收濃的汁液；濃縮汁"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "reduce-pdf-plain-083",
+          "title": "化學反應中的還原",
+          "form": "PDF section 83",
+          "en": "PDF section 83",
+          "zh": "化學反應中的還原",
+          "note": "原始 PDF 第 83 節：化學反應中的還原",
+          "examples": [
+            [
+              "The reaction involves oxidation and reduction.",
+              "這個反應涉及氧化和還原。",
+              "化學反應中的還原"
+            ],
+            [
+              "Reduction involves a gain of electrons in redox chemistry.",
+              "在氧化還原化學中，還原涉及獲得電子。",
+              "化學反應中的還原"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "reduce-pdf-plain-099",
+          "title": "原圖的縮小版本；縮印",
+          "form": "PDF section 99",
+          "en": "PDF section 99",
+          "zh": "原圖的縮小版本；縮印",
+          "note": "原始 PDF 第 99 節：原圖的縮小版本；縮印",
+          "examples": [
+            [
+              "The image is a reduction of the original.",
+              "這幅圖是原圖的縮小版本。",
+              "原圖的縮小版本；縮印"
+            ],
+            [
+              "The document was printed at a 50% reduction.",
+              "文件以縮小至百分之五十的比例打印。",
+              "原圖的縮小版本；縮印"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "reduce-pdf-plain-101",
+          "title": "減價；折扣",
+          "form": "PDF section 101",
+          "en": "PDF section 101",
+          "zh": "減價；折扣",
+          "note": "原始 PDF 第 101 節：減價；折扣",
+          "examples": [
+            [
+              "Members receive a 10% reduction.",
+              "會員可享九折／百分之十減價。",
+              "減價；折扣"
+            ],
+            [
+              "There has been a substantial reduction in prices.",
+              "價格已經大幅下降。",
+              "減價；折扣"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "reduce-82-0",
+          "sourceSection": 82,
+          "sourceMeaning": "烹調時收濃的汁液；濃縮汁",
+          "oldSense": "reduce-mcq-59",
+          "newSense": "reduce-pdf-plain-082",
+          "oldOptions": [
+            "reduce-mcq-59",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-082",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ]
+        },
+        {
+          "question": "reduce-82-1",
+          "sourceSection": 82,
+          "sourceMeaning": "烹調時收濃的汁液；濃縮汁",
+          "oldSense": "reduce-mcq-59",
+          "newSense": "reduce-pdf-plain-082",
+          "oldOptions": [
+            "reduce-mcq-59",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-082",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ]
+        },
+        {
+          "question": "reduce-83-0",
+          "sourceSection": 83,
+          "sourceMeaning": "化學反應中的還原",
+          "oldSense": "reduce-mcq-59",
+          "newSense": "reduce-pdf-plain-083",
+          "oldOptions": [
+            "reduce-mcq-59",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-083",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ]
+        },
+        {
+          "question": "reduce-83-1",
+          "sourceSection": 83,
+          "sourceMeaning": "化學反應中的還原",
+          "oldSense": "reduce-mcq-59",
+          "newSense": "reduce-pdf-plain-083",
+          "oldOptions": [
+            "reduce-mcq-59",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-083",
+            "reduce-mcq-58",
+            "reduce-mcq-60",
+            "reduce-mcq-57",
+            "reduce-mcq-61",
+            "reduce-mcq-56"
+          ]
+        },
+        {
+          "question": "reduce-99-0",
+          "sourceSection": 99,
+          "sourceMeaning": "原圖的縮小版本；縮印",
+          "oldSense": "reduce-mcq-73",
+          "newSense": "reduce-pdf-plain-099",
+          "oldOptions": [
+            "reduce-mcq-73",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-099",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ]
+        },
+        {
+          "question": "reduce-99-1",
+          "sourceSection": 99,
+          "sourceMeaning": "原圖的縮小版本；縮印",
+          "oldSense": "reduce-mcq-73",
+          "newSense": "reduce-pdf-plain-099",
+          "oldOptions": [
+            "reduce-mcq-73",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-099",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ]
+        },
+        {
+          "question": "reduce-101-0",
+          "sourceSection": 101,
+          "sourceMeaning": "減價；折扣",
+          "oldSense": "reduce-mcq-73",
+          "newSense": "reduce-pdf-plain-101",
+          "oldOptions": [
+            "reduce-mcq-73",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-101",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ]
+        },
+        {
+          "question": "reduce-101-1",
+          "sourceSection": 101,
+          "sourceMeaning": "減價；折扣",
+          "oldSense": "reduce-mcq-73",
+          "newSense": "reduce-pdf-plain-101",
+          "oldOptions": [
+            "reduce-mcq-73",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ],
+          "newOptions": [
+            "reduce-pdf-plain-101",
+            "reduce-mcq-72",
+            "reduce-mcq-74",
+            "reduce-mcq-71",
+            "reduce-mcq-75",
+            "reduce-mcq-70"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "rehearse",
+      "number": 1041,
+      "oldSenseCount": 91,
+      "newSenses": [
+        {
+          "id": "rehearse-pdf-plain-123",
+          "title": "為保持記憶而反覆默念或複誦",
+          "form": "PDF section 123",
+          "en": "PDF section 123",
+          "zh": "為保持記憶而反覆默念或複誦",
+          "note": "原始 PDF 第 123 節：為保持記憶而反覆默念或複誦",
+          "examples": [
+            [
+              "Repeated rehearsal can help keep information in short-term memory.",
+              "反覆複誦有助把資訊暫時保持在短期記憶中。",
+              "為保持記憶而反覆默念或複誦"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "rehearse-pdf-plain-138",
+          "title": "再次重述、詳述或列舉",
+          "form": "PDF section 138",
+          "en": "PDF section 138",
+          "zh": "再次重述、詳述或列舉",
+          "note": "原始 PDF 第 138 節：再次重述、詳述或列舉",
+          "examples": [
+            [
+              "There is no need to rehearse all the arguments again.",
+              "沒有必要再次重述所有論點。",
+              "再次重述、詳述或列舉"
+            ],
+            [
+              "The report rehearses the familiar criticisms.",
+              "報告再次列舉那些耳熟能詳的批評。",
+              "再次重述、詳述或列舉"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "rehearse-123-0",
+          "sourceSection": 123,
+          "sourceMeaning": "為保持記憶而反覆默念或複誦",
+          "oldSense": "rehearse-mcq-79",
+          "newSense": "rehearse-pdf-plain-123",
+          "oldOptions": [
+            "rehearse-mcq-79",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ],
+          "newOptions": [
+            "rehearse-pdf-plain-123",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ]
+        },
+        {
+          "question": "rehearse-138-0",
+          "sourceSection": 138,
+          "sourceMeaning": "再次重述、詳述或列舉",
+          "oldSense": "rehearse-mcq-61",
+          "newSense": "rehearse-pdf-plain-138",
+          "oldOptions": [
+            "rehearse-mcq-61",
+            "rehearse-mcq-60",
+            "rehearse-mcq-62",
+            "rehearse-mcq-59",
+            "rehearse-mcq-63",
+            "rehearse-mcq-58"
+          ],
+          "newOptions": [
+            "rehearse-pdf-plain-138",
+            "rehearse-mcq-60",
+            "rehearse-mcq-62",
+            "rehearse-mcq-59",
+            "rehearse-mcq-63",
+            "rehearse-mcq-58"
+          ]
+        },
+        {
+          "question": "rehearse-138-1",
+          "sourceSection": 138,
+          "sourceMeaning": "再次重述、詳述或列舉",
+          "oldSense": "rehearse-mcq-61",
+          "newSense": "rehearse-pdf-plain-138",
+          "oldOptions": [
+            "rehearse-mcq-61",
+            "rehearse-mcq-60",
+            "rehearse-mcq-62",
+            "rehearse-mcq-59",
+            "rehearse-mcq-63",
+            "rehearse-mcq-58"
+          ],
+          "newOptions": [
+            "rehearse-pdf-plain-138",
+            "rehearse-mcq-60",
+            "rehearse-mcq-62",
+            "rehearse-mcq-59",
+            "rehearse-mcq-63",
+            "rehearse-mcq-58"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "return",
+      "number": 1065,
+      "oldSenseCount": 80,
+      "newSenses": [
+        {
+          "id": "return-pdf-plain-061",
+          "title": "來回票；往返車票",
+          "form": "PDF section 61",
+          "en": "PDF section 61",
+          "zh": "來回票；往返車票",
+          "note": "原始 PDF 第 61 節：來回票；往返車票",
+          "examples": [
+            [
+              "Single or return?",
+              "單程還是來回？",
+              "來回票；往返車票"
+            ],
+            [
+              "Two returns to Brighton, please.",
+              "請給我兩張去 Brighton 的來回票。",
+              "來回票；往返車票"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "return-pdf-plain-064",
+          "title": "投資所得的回報或收益",
+          "form": "PDF section 64",
+          "en": "PDF section 64",
+          "zh": "投資所得的回報或收益",
+          "note": "原始 PDF 第 64 節：投資所得的回報或收益",
+          "examples": [
+            [
+              "Investors want a reasonable return.",
+              "投資者希望獲得合理回報。",
+              "投資所得的回報或收益"
+            ],
+            [
+              "The investment produced a strong return.",
+              "這項投資帶來可觀收益。",
+              "投資所得的回報或收益"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "return-61-0",
+          "sourceSection": 61,
+          "sourceMeaning": "來回票；往返車票",
+          "oldSense": "return-mcq-05",
+          "newSense": "return-pdf-plain-061",
+          "oldOptions": [
+            "return-mcq-05",
+            "return-mcq-04",
+            "return-mcq-06",
+            "return-mcq-03",
+            "return-mcq-07",
+            "return-mcq-02"
+          ],
+          "newOptions": [
+            "return-pdf-plain-061",
+            "return-mcq-04",
+            "return-mcq-06",
+            "return-mcq-03",
+            "return-mcq-07",
+            "return-mcq-02"
+          ]
+        },
+        {
+          "question": "return-61-1",
+          "sourceSection": 61,
+          "sourceMeaning": "來回票；往返車票",
+          "oldSense": "return-mcq-05",
+          "newSense": "return-pdf-plain-061",
+          "oldOptions": [
+            "return-mcq-05",
+            "return-mcq-04",
+            "return-mcq-06",
+            "return-mcq-03",
+            "return-mcq-07",
+            "return-mcq-02"
+          ],
+          "newOptions": [
+            "return-pdf-plain-061",
+            "return-mcq-04",
+            "return-mcq-06",
+            "return-mcq-03",
+            "return-mcq-07",
+            "return-mcq-02"
+          ]
+        },
+        {
+          "question": "return-64-0",
+          "sourceSection": 64,
+          "sourceMeaning": "投資所得的回報或收益",
+          "oldSense": "return-mcq-58",
+          "newSense": "return-pdf-plain-064",
+          "oldOptions": [
+            "return-mcq-58",
+            "return-mcq-57",
+            "return-mcq-59",
+            "return-mcq-56",
+            "return-mcq-60",
+            "return-mcq-55"
+          ],
+          "newOptions": [
+            "return-pdf-plain-064",
+            "return-mcq-57",
+            "return-mcq-59",
+            "return-mcq-56",
+            "return-mcq-60",
+            "return-mcq-55"
+          ]
+        },
+        {
+          "question": "return-64-1",
+          "sourceSection": 64,
+          "sourceMeaning": "投資所得的回報或收益",
+          "oldSense": "return-mcq-58",
+          "newSense": "return-pdf-plain-064",
+          "oldOptions": [
+            "return-mcq-58",
+            "return-mcq-57",
+            "return-mcq-59",
+            "return-mcq-56",
+            "return-mcq-60",
+            "return-mcq-55"
+          ],
+          "newOptions": [
+            "return-pdf-plain-064",
+            "return-mcq-57",
+            "return-mcq-59",
+            "return-mcq-56",
+            "return-mcq-60",
+            "return-mcq-55"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "work",
+      "number": 11,
+      "oldSenseCount": 40,
+      "newSenses": [
+        {
+          "id": "work-pdf-plain-007",
+          "title": "從事某個行業或專業領域的工作",
+          "form": "PDF section 7",
+          "en": "PDF section 7",
+          "zh": "從事某個行業或專業領域的工作",
+          "note": "原始 PDF 第 7 節：從事某個行業或專業領域的工作",
+          "examples": [
+            [
+              "She works in advertising.",
+              "她從事廣告業。",
+              "從事某個行業或專業領域的工作"
+            ],
+            [
+              "He wants to work in technology.",
+              "他希望從事科技行業。",
+              "從事某個行業或專業領域的工作"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "work-07-0",
+          "sourceSection": 7,
+          "sourceMeaning": "從事某個行業或專業領域的工作",
+          "oldSense": "work-mcq-02",
+          "newSense": "work-pdf-plain-007",
+          "oldOptions": [
+            "work-mcq-02",
+            "work-mcq-01",
+            "work-mcq-03",
+            "work-mcq-04",
+            "work-mcq-05",
+            "work-mcq-06"
+          ],
+          "newOptions": [
+            "work-pdf-plain-007",
+            "work-mcq-01",
+            "work-mcq-03",
+            "work-mcq-04",
+            "work-mcq-05",
+            "work-mcq-06"
+          ]
+        },
+        {
+          "question": "work-07-1",
+          "sourceSection": 7,
+          "sourceMeaning": "從事某個行業或專業領域的工作",
+          "oldSense": "work-mcq-02",
+          "newSense": "work-pdf-plain-007",
+          "oldOptions": [
+            "work-mcq-02",
+            "work-mcq-01",
+            "work-mcq-03",
+            "work-mcq-04",
+            "work-mcq-05",
+            "work-mcq-06"
+          ],
+          "newOptions": [
+            "work-pdf-plain-007",
+            "work-mcq-01",
+            "work-mcq-03",
+            "work-mcq-04",
+            "work-mcq-05",
+            "work-mcq-06"
+          ]
+        }
+      ]
+    }
+  ]
+}

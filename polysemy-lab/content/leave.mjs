@@ -497,16 +497,6 @@ export default {
           "Where did we leave off yesterday?",
           "我們昨天講到哪裏停下來了？",
           "停止；中斷"
-        ],
-        [
-          "Just leave it alone.",
-          "就別管它／別碰它。",
-          "停止；中斷"
-        ],
-        [
-          "Sometimes it's better to leave well alone.",
-          "有時候最好不要多事去改動本來沒問題的東西。",
-          "停止；中斷"
         ]
       ],
       "options": [],
@@ -738,6 +728,28 @@ export default {
           "She took her leave quietly.",
           "她靜靜地告辭了。",
           "正式或較文雅地向某人告別並離去"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "leave-pdf-001",
+      "title": "不再碰、干預或處理某事",
+      "form": "24. leave alone / leave well alone — 不干預；別碰",
+      "en": "24. leave alone / leave well alone — 不干預；別碰",
+      "zh": "不再碰、干預或處理某事",
+      "note": "原始 PDF 第 24 節：不再碰、干預或處理某事",
+      "examples": [
+        [
+          "Just leave it alone.",
+          "就別管它／別碰它。",
+          "不再碰、干預或處理某事"
+        ],
+        [
+          "Sometimes it's better to leave well alone.",
+          "有時候最好不要多事去改動本來沒問題的東西。",
+          "不再碰、干預或處理某事"
         ]
       ],
       "options": [],
@@ -2157,63 +2169,63 @@ export default {
     },
     {
       "id": "leave-24-0",
-      "sense": "leave-mcq-22",
+      "sense": "leave-pdf-001",
       "en": "Just leave it alone.",
       "zh": "就別管它／別碰它。",
       "masked": "Just ____.",
       "options": [
-        "leave-mcq-22",
+        "leave-pdf-001",
         "leave-mcq-21",
         "leave-mcq-23",
         "leave-mcq-20",
         "leave-mcq-24",
         "leave-mcq-19"
       ],
-      "explanation": "本句的「leave it alone」指「停止；中斷」。",
+      "explanation": "本句的「leave it alone」指「不再碰、干預或處理某事」。",
       "sentenceIndex": 47,
       "sourcePractice": 1,
       "targets": [
         "leave it alone"
       ],
       "optionReasons": {
-        "leave-mcq-22": "本句指「停止；中斷」。",
+        "leave-pdf-001": "本句指「不再碰、干預或處理某事」。",
         "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
         "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
         "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
         "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
         "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。"
       },
-      "correctOption": "leave-mcq-22"
+      "correctOption": "leave-pdf-001"
     },
     {
       "id": "leave-24-1",
-      "sense": "leave-mcq-22",
+      "sense": "leave-pdf-001",
       "en": "Sometimes it's better to leave well alone.",
       "zh": "有時候最好不要多事去改動本來沒問題的東西。",
       "masked": "Sometimes it's better to ____.",
       "options": [
-        "leave-mcq-22",
+        "leave-pdf-001",
         "leave-mcq-21",
         "leave-mcq-23",
         "leave-mcq-20",
         "leave-mcq-24",
         "leave-mcq-19"
       ],
-      "explanation": "本句的「leave well alone」指「停止；中斷」。",
+      "explanation": "本句的「leave well alone」指「不再碰、干預或處理某事」。",
       "sentenceIndex": 48,
       "sourcePractice": 2,
       "targets": [
         "leave well alone"
       ],
       "optionReasons": {
-        "leave-mcq-22": "本句指「停止；中斷」。",
+        "leave-pdf-001": "本句指「不再碰、干預或處理某事」。",
         "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
         "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
         "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
         "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
         "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。"
       },
-      "correctOption": "leave-mcq-22"
+      "correctOption": "leave-pdf-001"
     },
     {
       "id": "leave-25-0",

@@ -227,16 +227,6 @@ export default {
       "note": "來源詞義：整個過程完成後最終得到的結果",
       "examples": [
         [
-          "Hold the other end of the rope.",
-          "拿著繩子的另一端。",
-          "整個過程完成後最終得到的結果"
-        ],
-        [
-          "There is a mark at one end of the stick.",
-          "木棍的一端有個記號。",
-          "整個過程完成後最終得到的結果"
-        ],
-        [
           "The end result was positive.",
           "最終結果是正面的。",
           "整個過程完成後最終得到的結果"
@@ -428,16 +418,6 @@ export default {
           "Their efforts ended in success.",
           "他們的努力最後取得成功。",
           "整個過程最終導致某種結果"
-        ],
-        [
-          "The accident ended his career.",
-          "那宗意外終結了他的職業生涯。",
-          "整個過程最終導致某種結果"
-        ],
-        [
-          "The disease eventually ended his life.",
-          "疾病最後奪去了他的生命／終結了他的生命。",
-          "整個過程最終導致某種結果"
         ]
       ],
       "options": [],
@@ -451,26 +431,6 @@ export default {
       "zh": "字面終點；比喻指某件事已不能再繼續",
       "note": "來源詞義：字面終點；比喻指某件事已不能再繼續",
       "examples": [
-        [
-          "The teams changed ends.",
-          "兩隊交換了場地兩端。",
-          "字面終點；比喻指某件事已不能再繼續"
-        ],
-        [
-          "They scored at the other end.",
-          "他們在球場的另一端得分。",
-          "字面終點；比喻指某件事已不能再繼續"
-        ],
-        [
-          "There was silence at the other end of the line.",
-          "電話線的另一端一片沉默。",
-          "字面終點；比喻指某件事已不能再繼續"
-        ],
-        [
-          "Someone laughed at the other end.",
-          "電話另一頭有人笑了。",
-          "字面終點；比喻指某件事已不能再繼續"
-        ],
         [
           "This station is the end of the line.",
           "這一站是路線的終點。",
@@ -786,6 +746,94 @@ export default {
           "Toward the end of the year, things became busier.",
           "接近年尾時，事情變得更忙。",
           "某段時間／人生階段的最後部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "end-pdf-001",
+      "title": "長形物件兩端之一",
+      "form": "12. end of an object（物件的一端） — 端部",
+      "en": "12. end of an object（物件的一端） — 端部",
+      "zh": "長形物件兩端之一",
+      "note": "原始 PDF 第 12 節：長形物件兩端之一",
+      "examples": [
+        [
+          "Hold the other end of the rope.",
+          "拿著繩子的另一端。",
+          "長形物件兩端之一"
+        ],
+        [
+          "There is a mark at one end of the stick.",
+          "木棍的一端有個記號。",
+          "長形物件兩端之一"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "end-pdf-002",
+      "title": "令其生命／事業無法繼續",
+      "form": "28. end = death / destruction（生命終結；毀滅） — 終結；死亡",
+      "en": "28. end = death / destruction（生命終結；毀滅） — 終結；死亡",
+      "zh": "令其生命／事業無法繼續",
+      "note": "原始 PDF 第 28 節：令其生命／事業無法繼續",
+      "examples": [
+        [
+          "The accident ended his career.",
+          "那宗意外終結了他的職業生涯。",
+          "令其生命／事業無法繼續"
+        ],
+        [
+          "The disease eventually ended his life.",
+          "疾病最後奪去了他的生命／終結了他的生命。",
+          "令其生命／事業無法繼續"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "end-pdf-003",
+      "title": "球場、場地等其中一端",
+      "form": "31. end = role/side in sport（場地的一端） — 一邊；一端",
+      "en": "31. end = role/side in sport（場地的一端） — 一邊；一端",
+      "zh": "球場、場地等其中一端",
+      "note": "原始 PDF 第 31 節：球場、場地等其中一端",
+      "examples": [
+        [
+          "The teams changed ends.",
+          "兩隊交換了場地兩端。",
+          "球場、場地等其中一端"
+        ],
+        [
+          "They scored at the other end.",
+          "他們在球場的另一端得分。",
+          "球場、場地等其中一端"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "end-pdf-004",
+      "title": "通訊連線另一方的人／位置",
+      "form": "32. end = telephone/device side（通訊另一端） — 電話另一邊",
+      "en": "32. end = telephone/device side（通訊另一端） — 電話另一邊",
+      "zh": "通訊連線另一方的人／位置",
+      "note": "原始 PDF 第 32 節：通訊連線另一方的人／位置",
+      "examples": [
+        [
+          "There was silence at the other end of the line.",
+          "電話線的另一端一片沉默。",
+          "通訊連線另一方的人／位置"
+        ],
+        [
+          "Someone laughed at the other end.",
+          "電話另一頭有人笑了。",
+          "通訊連線另一方的人／位置"
         ]
       ],
       "options": [],
@@ -1485,63 +1533,63 @@ export default {
     },
     {
       "id": "end-12-0",
-      "sense": "end-mcq-10",
+      "sense": "end-pdf-001",
       "en": "Hold the other end of the rope.",
       "zh": "拿著繩子的另一端。",
       "masked": "Hold the other ____.",
       "options": [
-        "end-mcq-10",
+        "end-pdf-001",
         "end-mcq-09",
         "end-mcq-11",
         "end-mcq-08",
         "end-mcq-12",
         "end-mcq-07"
       ],
-      "explanation": "本句的「end of the rope」指「整個過程完成後最終得到的結果」。",
+      "explanation": "本句的「end of the rope」指「長形物件兩端之一」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "end of the rope"
       ],
       "optionReasons": {
-        "end-mcq-10": "本句指「整個過程完成後最終得到的結果」。",
+        "end-pdf-001": "本句指「長形物件兩端之一」。",
         "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
         "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
         "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
         "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
         "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-10"
+      "correctOption": "end-pdf-001"
     },
     {
       "id": "end-12-1",
-      "sense": "end-mcq-10",
+      "sense": "end-pdf-001",
       "en": "There is a mark at one end of the stick.",
       "zh": "木棍的一端有個記號。",
       "masked": "There is a mark at one ____ of the stick.",
       "options": [
-        "end-mcq-10",
+        "end-pdf-001",
         "end-mcq-09",
         "end-mcq-11",
         "end-mcq-08",
         "end-mcq-12",
         "end-mcq-07"
       ],
-      "explanation": "本句的「end」指「整個過程完成後最終得到的結果」。",
+      "explanation": "本句的「end」指「長形物件兩端之一」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "end"
       ],
       "optionReasons": {
-        "end-mcq-10": "本句指「整個過程完成後最終得到的結果」。",
+        "end-pdf-001": "本句指「長形物件兩端之一」。",
         "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
         "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
         "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
         "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
         "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-10"
+      "correctOption": "end-pdf-001"
     },
     {
       "id": "end-13-0",
@@ -2385,63 +2433,63 @@ export default {
     },
     {
       "id": "end-28-0",
-      "sense": "end-mcq-17",
+      "sense": "end-pdf-002",
       "en": "The accident ended his career.",
       "zh": "那宗意外終結了他的職業生涯。",
       "masked": "The accident ____.",
       "options": [
-        "end-mcq-17",
+        "end-pdf-002",
         "end-mcq-16",
         "end-mcq-18",
         "end-mcq-15",
         "end-mcq-19",
         "end-mcq-14"
       ],
-      "explanation": "本句的「ended his career」指「整個過程最終導致某種結果」。",
+      "explanation": "本句的「ended his career」指「令其生命／事業無法繼續」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "ended his career"
       ],
       "optionReasons": {
-        "end-mcq-17": "本句指「整個過程最終導致某種結果」。",
+        "end-pdf-002": "本句指「令其生命／事業無法繼續」。",
         "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
         "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
         "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
         "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
         "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-17"
+      "correctOption": "end-pdf-002"
     },
     {
       "id": "end-28-1",
-      "sense": "end-mcq-17",
+      "sense": "end-pdf-002",
       "en": "The disease eventually ended his life.",
       "zh": "疾病最後奪去了他的生命／終結了他的生命。",
       "masked": "The disease eventually ____ his life.",
       "options": [
-        "end-mcq-17",
+        "end-pdf-002",
         "end-mcq-16",
         "end-mcq-18",
         "end-mcq-15",
         "end-mcq-19",
         "end-mcq-14"
       ],
-      "explanation": "本句的「ended」指「整個過程最終導致某種結果」。",
+      "explanation": "本句的「ended」指「令其生命／事業無法繼續」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-17": "本句指「整個過程最終導致某種結果」。",
+        "end-pdf-002": "本句指「令其生命／事業無法繼續」。",
         "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
         "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
         "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
         "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
         "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-17"
+      "correctOption": "end-pdf-002"
     },
     {
       "id": "end-29-0",
@@ -2565,123 +2613,123 @@ export default {
     },
     {
       "id": "end-31-0",
-      "sense": "end-mcq-18",
+      "sense": "end-pdf-003",
       "en": "The teams changed ends.",
       "zh": "兩隊交換了場地兩端。",
       "masked": "The teams changed ____.",
       "options": [
-        "end-mcq-18",
+        "end-pdf-003",
         "end-mcq-17",
         "end-mcq-19",
         "end-mcq-16",
         "end-mcq-20",
         "end-mcq-15"
       ],
-      "explanation": "本句的「ends」指「字面終點；比喻指某件事已不能再繼續」。",
+      "explanation": "本句的「ends」指「球場、場地等其中一端」。",
       "sentenceIndex": 59,
       "sourcePractice": 60,
       "targets": [
         "ends"
       ],
       "optionReasons": {
-        "end-mcq-18": "本句指「字面終點；比喻指某件事已不能再繼續」。",
+        "end-pdf-003": "本句指「球場、場地等其中一端」。",
         "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
         "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
         "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
         "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
         "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-18"
+      "correctOption": "end-pdf-003"
     },
     {
       "id": "end-31-1",
-      "sense": "end-mcq-18",
+      "sense": "end-pdf-003",
       "en": "They scored at the other end.",
       "zh": "他們在球場的另一端得分。",
       "masked": "They scored at the other ____.",
       "options": [
-        "end-mcq-18",
+        "end-pdf-003",
         "end-mcq-17",
         "end-mcq-19",
         "end-mcq-16",
         "end-mcq-20",
         "end-mcq-15"
       ],
-      "explanation": "本句的「end」指「字面終點；比喻指某件事已不能再繼續」。",
+      "explanation": "本句的「end」指「球場、場地等其中一端」。",
       "sentenceIndex": 60,
       "sourcePractice": 61,
       "targets": [
         "end"
       ],
       "optionReasons": {
-        "end-mcq-18": "本句指「字面終點；比喻指某件事已不能再繼續」。",
+        "end-pdf-003": "本句指「球場、場地等其中一端」。",
         "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
         "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
         "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
         "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
         "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-18"
+      "correctOption": "end-pdf-003"
     },
     {
       "id": "end-32-0",
-      "sense": "end-mcq-18",
+      "sense": "end-pdf-004",
       "en": "There was silence at the other end of the line.",
       "zh": "電話線的另一端一片沉默。",
       "masked": "There was silence at the other ____.",
       "options": [
-        "end-mcq-18",
+        "end-pdf-004",
         "end-mcq-17",
         "end-mcq-19",
         "end-mcq-16",
         "end-mcq-20",
         "end-mcq-15"
       ],
-      "explanation": "本句的「end of the line」指「字面終點；比喻指某件事已不能再繼續」。",
+      "explanation": "本句的「end of the line」指「通訊連線另一方的人／位置」。",
       "sentenceIndex": 61,
       "sourcePractice": 62,
       "targets": [
         "end of the line"
       ],
       "optionReasons": {
-        "end-mcq-18": "本句指「字面終點；比喻指某件事已不能再繼續」。",
+        "end-pdf-004": "本句指「通訊連線另一方的人／位置」。",
         "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
         "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
         "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
         "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
         "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-18"
+      "correctOption": "end-pdf-004"
     },
     {
       "id": "end-32-1",
-      "sense": "end-mcq-18",
+      "sense": "end-pdf-004",
       "en": "Someone laughed at the other end.",
       "zh": "電話另一頭有人笑了。",
       "masked": "Someone laughed at the other ____.",
       "options": [
-        "end-mcq-18",
+        "end-pdf-004",
         "end-mcq-17",
         "end-mcq-19",
         "end-mcq-16",
         "end-mcq-20",
         "end-mcq-15"
       ],
-      "explanation": "本句的「end」指「字面終點；比喻指某件事已不能再繼續」。",
+      "explanation": "本句的「end」指「通訊連線另一方的人／位置」。",
       "sentenceIndex": 62,
       "sourcePractice": 63,
       "targets": [
         "end"
       ],
       "optionReasons": {
-        "end-mcq-18": "本句指「字面終點；比喻指某件事已不能再繼續」。",
+        "end-pdf-004": "本句指「通訊連線另一方的人／位置」。",
         "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
         "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
         "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
         "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
         "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
       },
-      "correctOption": "end-mcq-18"
+      "correctOption": "end-pdf-004"
     },
     {
       "id": "end-33-0",

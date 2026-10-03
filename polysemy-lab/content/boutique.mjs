@@ -12,23 +12,7 @@ export default {
       "en": "boutique",
       "zh": "精品店；時裝精品店",
       "note": "來源詞義：精品店；時裝精品店",
-      "examples": [
-        [
-          "Unlike shoppers in a physical boutique, our customers cannot try on a dress.",
-          "與在實體時裝精品店購物的人不同，我們的顧客不能試穿裙子。",
-          "精品店；時裝精品店"
-        ],
-        [
-          "She bought the dress from a small boutique in Central.",
-          "她在中環一間小型時裝精品店買了這條裙。",
-          "精品店；時裝精品店"
-        ],
-        [
-          "The boutique sells clothing from independent designers.",
-          "這間精品店出售獨立設計師的服裝。",
-          "精品店；時裝精品店"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -702,98 +686,125 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "boutique-pdf-001",
+      "title": "規模較小、通常出售時尚、精選或具特色商品的零售店",
+      "form": "1. boutique = small fashionable shop — 精品店；時裝精品店",
+      "en": "1. boutique = small fashionable shop — 精品店；時裝精品店",
+      "zh": "規模較小、通常出售時尚、精選或具特色商品的零售店",
+      "note": "原始 PDF 第 1 節：規模較小、通常出售時尚、精選或具特色商品的零售店",
+      "examples": [
+        [
+          "Unlike shoppers in a physical boutique, our customers cannot try on a dress.",
+          "與在實體時裝精品店購物的人不同，我們的顧客不能試穿裙子。",
+          "規模較小、通常出售時尚、精選或具特色商品的零售店"
+        ],
+        [
+          "She bought the dress from a small boutique in Central.",
+          "她在中環一間小型時裝精品店買了這條裙。",
+          "規模較小、通常出售時尚、精選或具特色商品的零售店"
+        ],
+        [
+          "The boutique sells clothing from independent designers.",
+          "這間精品店出售獨立設計師的服裝。",
+          "規模較小、通常出售時尚、精選或具特色商品的零售店"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "boutique-01-0",
-      "sense": "boutique-mcq-01",
+      "sense": "boutique-pdf-001",
       "en": "Unlike shoppers in a physical boutique, our customers cannot try on a dress.",
       "zh": "與在實體時裝精品店購物的人不同，我們的顧客不能試穿裙子。",
       "masked": "Unlike shoppers in a physical ____, our customers cannot try on a dress.",
       "options": [
-        "boutique-mcq-01",
+        "boutique-pdf-001",
         "boutique-mcq-02",
         "boutique-mcq-03",
         "boutique-mcq-04",
         "boutique-mcq-05",
         "boutique-mcq-06"
       ],
-      "explanation": "本句的「boutique」指「精品店；時裝精品店」。",
+      "explanation": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-01": "本句指「精品店；時裝精品店」。",
+        "boutique-pdf-001": "本句指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
         "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
         "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
         "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
         "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
         "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
       },
-      "correctOption": "boutique-mcq-01"
+      "correctOption": "boutique-pdf-001"
     },
     {
       "id": "boutique-01-1",
-      "sense": "boutique-mcq-01",
+      "sense": "boutique-pdf-001",
       "en": "She bought the dress from a small boutique in Central.",
       "zh": "她在中環一間小型時裝精品店買了這條裙。",
       "masked": "She bought the dress from a small ____ in Central.",
       "options": [
-        "boutique-mcq-01",
+        "boutique-pdf-001",
         "boutique-mcq-02",
         "boutique-mcq-03",
         "boutique-mcq-04",
         "boutique-mcq-05",
         "boutique-mcq-06"
       ],
-      "explanation": "本句的「boutique」指「精品店；時裝精品店」。",
+      "explanation": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-01": "本句指「精品店；時裝精品店」。",
+        "boutique-pdf-001": "本句指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
         "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
         "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
         "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
         "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
         "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
       },
-      "correctOption": "boutique-mcq-01"
+      "correctOption": "boutique-pdf-001"
     },
     {
       "id": "boutique-01-2",
-      "sense": "boutique-mcq-01",
+      "sense": "boutique-pdf-001",
       "en": "The boutique sells clothing from independent designers.",
       "zh": "這間精品店出售獨立設計師的服裝。",
       "masked": "The ____ sells clothing from independent designers.",
       "options": [
-        "boutique-mcq-01",
+        "boutique-pdf-001",
         "boutique-mcq-02",
         "boutique-mcq-03",
         "boutique-mcq-04",
         "boutique-mcq-05",
         "boutique-mcq-06"
       ],
-      "explanation": "本句的「boutique」指「精品店；時裝精品店」。",
+      "explanation": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-01": "本句指「精品店；時裝精品店」。",
+        "boutique-pdf-001": "本句指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
         "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
         "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
         "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
         "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
         "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
       },
-      "correctOption": "boutique-mcq-01"
+      "correctOption": "boutique-pdf-001"
     },
     {
       "id": "boutique-02-0",

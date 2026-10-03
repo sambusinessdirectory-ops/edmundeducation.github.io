@@ -144,13 +144,7 @@ export default {
       "en": "sun — exposure",
       "zh": "日照／陽光",
       "note": "來源詞義：日照／陽光",
-      "examples": [
-        [
-          "This plant needs plenty of sun.",
-          "這種植物需要充足的陽光。",
-          "日照／陽光"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -239,6 +233,23 @@ export default {
           "Choose the sunny side of the garden.",
           "選花園日照較充足的一側。",
           "比另一側接受更多陽光的一面"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sunny-pdf-001",
+      "title": "陽光／日照，而不是太陽本身",
+      "form": "7. sun = sunlight / direct sunshine（陽光） — 日光；陽光",
+      "en": "7. sun = sunlight / direct sunshine（陽光） — 日光；陽光",
+      "zh": "陽光／日照，而不是太陽本身",
+      "note": "原始 PDF 第 7 節：陽光／日照，而不是太陽本身",
+      "examples": [
+        [
+          "This plant needs plenty of sun.",
+          "這種植物需要充足的陽光。",
+          "陽光／日照，而不是太陽本身"
         ]
       ],
       "options": [],
@@ -608,33 +619,33 @@ export default {
     },
     {
       "id": "sunny-07-0",
-      "sense": "sunny-mcq-07",
+      "sense": "sunny-pdf-001",
       "en": "This plant needs plenty of sun.",
       "zh": "這種植物需要充足的陽光。",
       "masked": "This plant needs plenty of ____.",
       "options": [
-        "sunny-mcq-07",
+        "sunny-pdf-001",
         "sunny-mcq-06",
         "sunny-mcq-08",
         "sunny-mcq-05",
         "sunny-mcq-09",
         "sunny-mcq-04"
       ],
-      "explanation": "本句的「sun」指「日照／陽光」。",
+      "explanation": "本句的「sun」指「陽光／日照，而不是太陽本身」。",
       "sentenceIndex": 12,
       "sourcePractice": 14,
       "targets": [
         "sun"
       ],
       "optionReasons": {
-        "sunny-mcq-07": "本句指「日照／陽光」。",
+        "sunny-pdf-001": "本句指「陽光／日照，而不是太陽本身」。",
         "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
         "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
         "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
         "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
         "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。"
       },
-      "correctOption": "sunny-mcq-07"
+      "correctOption": "sunny-pdf-001"
     },
     {
       "id": "sunny-08-0",

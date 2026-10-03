@@ -258,18 +258,7 @@ export default {
       "en": "not have the heart to",
       "zh": "因同情、不捨或情感困難而不忍心做某事",
       "note": "來源詞義：因同情、不捨或情感困難而不忍心做某事",
-      "examples": [
-        [
-          "I didn’t have the heart to tell her the bad news.",
-          "我不忍心告訴她這個壞消息。",
-          "因同情、不捨或情感困難而不忍心做某事"
-        ],
-        [
-          "How could he have the heart to leave them like that?",
-          "他怎麼忍心那樣離開他們？",
-          "因同情、不捨或情感困難而不忍心做某事"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -761,16 +750,6 @@ export default {
           "The restaurant serves hearty meals.",
           "這間餐廳供應份量足、很飽肚的餐點。",
           "份量足、實在而令人飽足的"
-        ],
-        [
-          "She wore a heart-shaped necklace.",
-          "她戴著一條心形頸鏈。",
-          "份量足、實在而令人飽足的"
-        ],
-        [
-          "The card had a heart-shaped design.",
-          "卡片上有一個心形圖案。",
-          "份量足、實在而令人飽足的"
         ]
       ],
       "options": [],
@@ -837,6 +816,50 @@ export default {
           "Do you know how to play Hearts?",
           "你會玩 Hearts 嗎？",
           "我的感情想答應，但我的理智告訴我不要"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "heart-pdf-001",
+      "title": "有足夠的狠心／勇氣去做一件情感上令人難受的事",
+      "form": "13. have the heart to do something（忍心／有勇氣做） — 忍心；有心做",
+      "en": "13. have the heart to do something（忍心／有勇氣做） — 忍心；有心做",
+      "zh": "有足夠的狠心／勇氣去做一件情感上令人難受的事",
+      "note": "原始 PDF 第 13 節：有足夠的狠心／勇氣去做一件情感上令人難受的事",
+      "examples": [
+        [
+          "I didn’t have the heart to tell her the bad news.",
+          "我不忍心告訴她這個壞消息。",
+          "有足夠的狠心／勇氣去做一件情感上令人難受的事"
+        ],
+        [
+          "How could he have the heart to leave them like that?",
+          "他怎麼忍心那樣離開他們？",
+          "有足夠的狠心／勇氣去做一件情感上令人難受的事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "heart-pdf-002",
+      "title": "形狀像傳統心形符號的",
+      "form": "38. heart-shaped（心形的） — 心形的",
+      "en": "38. heart-shaped（心形的） — 心形的",
+      "zh": "形狀像傳統心形符號的",
+      "note": "原始 PDF 第 38 節：形狀像傳統心形符號的",
+      "examples": [
+        [
+          "She wore a heart-shaped necklace.",
+          "她戴著一條心形頸鏈。",
+          "形狀像傳統心形符號的"
+        ],
+        [
+          "The card had a heart-shaped design.",
+          "卡片上有一個心形圖案。",
+          "形狀像傳統心形符號的"
         ]
       ],
       "options": [],
@@ -1596,63 +1619,63 @@ export default {
     },
     {
       "id": "heart-13-0",
-      "sense": "heart-mcq-12",
+      "sense": "heart-pdf-001",
       "en": "I didn’t have the heart to tell her the bad news.",
       "zh": "我不忍心告訴她這個壞消息。",
       "masked": "I didn’t ____ her the bad news.",
       "options": [
-        "heart-mcq-12",
+        "heart-pdf-001",
         "heart-mcq-11",
         "heart-mcq-13",
         "heart-mcq-10",
         "heart-mcq-14",
         "heart-mcq-09"
       ],
-      "explanation": "本句的「have the heart to tell」指「因同情、不捨或情感困難而不忍心做某事」。",
+      "explanation": "本句的「have the heart to tell」指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "have the heart to tell"
       ],
       "optionReasons": {
-        "heart-mcq-12": "本句指「因同情、不捨或情感困難而不忍心做某事」。",
+        "heart-pdf-001": "本句指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
         "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
         "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
         "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
         "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
         "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。"
       },
-      "correctOption": "heart-mcq-12"
+      "correctOption": "heart-pdf-001"
     },
     {
       "id": "heart-13-1",
-      "sense": "heart-mcq-12",
+      "sense": "heart-pdf-001",
       "en": "How could he have the heart to leave them like that?",
       "zh": "他怎麼忍心那樣離開他們？",
       "masked": "How could he ____ leave them like that?",
       "options": [
-        "heart-mcq-12",
+        "heart-pdf-001",
         "heart-mcq-11",
         "heart-mcq-13",
         "heart-mcq-10",
         "heart-mcq-14",
         "heart-mcq-09"
       ],
-      "explanation": "本句的「have the heart to」指「因同情、不捨或情感困難而不忍心做某事」。",
+      "explanation": "本句的「have the heart to」指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "have the heart to"
       ],
       "optionReasons": {
-        "heart-mcq-12": "本句指「因同情、不捨或情感困難而不忍心做某事」。",
+        "heart-pdf-001": "本句指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
         "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
         "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
         "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
         "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
         "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。"
       },
-      "correctOption": "heart-mcq-12"
+      "correctOption": "heart-pdf-001"
     },
     {
       "id": "heart-14-0",
@@ -3036,63 +3059,63 @@ export default {
     },
     {
       "id": "heart-38-0",
-      "sense": "heart-mcq-34",
+      "sense": "heart-pdf-002",
       "en": "She wore a heart-shaped necklace.",
       "zh": "她戴著一條心形頸鏈。",
       "masked": "She wore a ____ necklace.",
       "options": [
-        "heart-mcq-34",
+        "heart-pdf-002",
         "heart-mcq-33",
         "heart-mcq-35",
         "heart-mcq-32",
         "heart-mcq-36",
         "heart-mcq-31"
       ],
-      "explanation": "本句的「heart-shaped」指「份量足、實在而令人飽足的」。",
+      "explanation": "本句的「heart-shaped」指「形狀像傳統心形符號的」。",
       "sentenceIndex": 73,
       "sourcePractice": 74,
       "targets": [
         "heart-shaped"
       ],
       "optionReasons": {
-        "heart-mcq-34": "本句指「份量足、實在而令人飽足的」。",
+        "heart-pdf-002": "本句指「形狀像傳統心形符號的」。",
         "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
         "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
         "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
         "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
         "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。"
       },
-      "correctOption": "heart-mcq-34"
+      "correctOption": "heart-pdf-002"
     },
     {
       "id": "heart-38-1",
-      "sense": "heart-mcq-34",
+      "sense": "heart-pdf-002",
       "en": "The card had a heart-shaped design.",
       "zh": "卡片上有一個心形圖案。",
       "masked": "The card had a ____ design.",
       "options": [
-        "heart-mcq-34",
+        "heart-pdf-002",
         "heart-mcq-33",
         "heart-mcq-35",
         "heart-mcq-32",
         "heart-mcq-36",
         "heart-mcq-31"
       ],
-      "explanation": "本句的「heart-shaped」指「份量足、實在而令人飽足的」。",
+      "explanation": "本句的「heart-shaped」指「形狀像傳統心形符號的」。",
       "sentenceIndex": 74,
       "sourcePractice": 75,
       "targets": [
         "heart-shaped"
       ],
       "optionReasons": {
-        "heart-mcq-34": "本句指「份量足、實在而令人飽足的」。",
+        "heart-pdf-002": "本句指「形狀像傳統心形符號的」。",
         "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
         "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
         "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
         "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
         "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。"
       },
-      "correctOption": "heart-mcq-34"
+      "correctOption": "heart-pdf-002"
     },
     {
       "id": "heart-39-0",

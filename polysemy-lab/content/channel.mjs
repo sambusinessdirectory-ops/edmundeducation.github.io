@@ -378,16 +378,6 @@ export default {
       "note": "來源詞義：電視頻道",
       "examples": [
         [
-          "Which channel is the programme on?",
-          "這個節目在哪個頻道播放？",
-          "電視頻道"
-        ],
-        [
-          "The television receives hundreds of channels.",
-          "這部電視可以接收數百個頻道。",
-          "電視頻道"
-        ],
-        [
           "She works for a national TV channel.",
           "她在一家全國性電視頻道／電視台工作。",
           "電視頻道"
@@ -538,18 +528,7 @@ export default {
       "en": "channel (telecom)",
       "zh": "信道",
       "note": "來源詞義：信道",
-      "examples": [
-        [
-          "The signal travels through a communication channel.",
-          "訊號經由一條通訊信道傳送。",
-          "信道"
-        ],
-        [
-          "Noise can reduce the quality of the channel.",
-          "雜訊可能降低信道品質。",
-          "信道"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1530,16 +1509,6 @@ export default {
           "Barriers channel the crowd into separate queues.",
           "欄杆把人群分流到不同隊伍。",
           "展現／模仿某人的風格"
-        ],
-        [
-          "The singer seemed to be channeling an earlier generation of jazz performers.",
-          "這位歌手似乎在展現早期爵士樂手的風格。",
-          "展現／模仿某人的風格"
-        ],
-        [
-          "Her speech channelled the confidence of a seasoned leader.",
-          "她的演說展現出資深領袖般的自信風格。",
-          "展現／模仿某人的風格"
         ]
       ],
       "options": [],
@@ -1628,6 +1597,72 @@ export default {
           "Road channelisation can separate traffic movements.",
           "道路交通導流設計可以分隔不同車流。",
           "導流／渠道化"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "channel-pdf-001",
+      "title": "播放一系列電視節目的電視服務或指定傳輸頻段",
+      "form": "19. channel = television broadcasting service/frequency — 電視頻道",
+      "en": "19. channel = television broadcasting service/frequency — 電視頻道",
+      "zh": "播放一系列電視節目的電視服務或指定傳輸頻段",
+      "note": "原始 PDF 第 19 節：播放一系列電視節目的電視服務或指定傳輸頻段",
+      "examples": [
+        [
+          "Which channel is the programme on?",
+          "這個節目在哪個頻道播放？",
+          "播放一系列電視節目的電視服務或指定傳輸頻段"
+        ],
+        [
+          "The television receives hundreds of channels.",
+          "這部電視可以接收數百個頻道。",
+          "播放一系列電視節目的電視服務或指定傳輸頻段"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "channel-pdf-002",
+      "title": "通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介",
+      "form": "28. channel = path through which a signal is transmitted — 通訊信道；信道",
+      "en": "28. channel = path through which a signal is transmitted — 通訊信道；信道",
+      "zh": "通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介",
+      "note": "原始 PDF 第 28 節：通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介",
+      "examples": [
+        [
+          "The signal travels through a communication channel.",
+          "訊號經由一條通訊信道傳送。",
+          "通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介"
+        ],
+        [
+          "Noise can reduce the quality of the channel.",
+          "雜訊可能降低信道品質。",
+          "通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "channel-pdf-003",
+      "title": "以自己的行為、造型或表達方式令人聯想到某人的特色或風格",
+      "form": "80. channel someone = evoke or imitate their style/spirit — 展現／模仿某人的風格",
+      "en": "80. channel someone = evoke or imitate their style/spirit — 展現／模仿某人的風格",
+      "zh": "以自己的行為、造型或表達方式令人聯想到某人的特色或風格",
+      "note": "原始 PDF 第 80 節：以自己的行為、造型或表達方式令人聯想到某人的特色或風格",
+      "examples": [
+        [
+          "The singer seemed to be channeling an earlier generation of jazz performers.",
+          "這位歌手似乎在展現早期爵士樂手的風格。",
+          "以自己的行為、造型或表達方式令人聯想到某人的特色或風格"
+        ],
+        [
+          "Her speech channelled the confidence of a seasoned leader.",
+          "她的演說展現出資深領袖般的自信風格。",
+          "以自己的行為、造型或表達方式令人聯想到某人的特色或風格"
         ]
       ],
       "options": [],
@@ -2687,63 +2722,63 @@ export default {
     },
     {
       "id": "channel-19-0",
-      "sense": "channel-mcq-16",
+      "sense": "channel-pdf-001",
       "en": "Which channel is the programme on?",
       "zh": "這個節目在哪個頻道播放？",
       "masked": "Which ____ is the programme on?",
       "options": [
-        "channel-mcq-16",
+        "channel-pdf-001",
         "channel-mcq-15",
         "channel-mcq-17",
         "channel-mcq-14",
         "channel-mcq-18",
         "channel-mcq-13"
       ],
-      "explanation": "本句的「channel」指「電視頻道」。",
+      "explanation": "本句的「channel」指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-16": "本句指「電視頻道」。",
+        "channel-pdf-001": "本句指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
         "channel-mcq-15": "「私人頻道」與本句語境不同。",
         "channel-mcq-17": "「新聞頻道」與本句語境不同。",
         "channel-mcq-14": "「項目頻道」與本句語境不同。",
         "channel-mcq-18": "「轉台」與本句語境不同。",
         "channel-mcq-13": "「頻道」與本句語境不同。"
       },
-      "correctOption": "channel-mcq-16"
+      "correctOption": "channel-pdf-001"
     },
     {
       "id": "channel-19-1",
-      "sense": "channel-mcq-16",
+      "sense": "channel-pdf-001",
       "en": "The television receives hundreds of channels.",
       "zh": "這部電視可以接收數百個頻道。",
       "masked": "The television receives hundreds of ____.",
       "options": [
-        "channel-mcq-16",
+        "channel-pdf-001",
         "channel-mcq-15",
         "channel-mcq-17",
         "channel-mcq-14",
         "channel-mcq-18",
         "channel-mcq-13"
       ],
-      "explanation": "本句的「channels」指「電視頻道」。",
+      "explanation": "本句的「channels」指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-16": "本句指「電視頻道」。",
+        "channel-pdf-001": "本句指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
         "channel-mcq-15": "「私人頻道」與本句語境不同。",
         "channel-mcq-17": "「新聞頻道」與本句語境不同。",
         "channel-mcq-14": "「項目頻道」與本句語境不同。",
         "channel-mcq-18": "「轉台」與本句語境不同。",
         "channel-mcq-13": "「頻道」與本句語境不同。"
       },
-      "correctOption": "channel-mcq-16"
+      "correctOption": "channel-pdf-001"
     },
     {
       "id": "channel-20-0",
@@ -3227,63 +3262,63 @@ export default {
     },
     {
       "id": "channel-28-0",
-      "sense": "channel-mcq-22",
+      "sense": "channel-pdf-002",
       "en": "The signal travels through a communication channel.",
       "zh": "訊號經由一條通訊信道傳送。",
       "masked": "The signal travels through a communication ____.",
       "options": [
-        "channel-mcq-22",
+        "channel-pdf-002",
         "channel-mcq-21",
         "channel-mcq-23",
         "channel-mcq-20",
         "channel-mcq-24",
         "channel-mcq-19"
       ],
-      "explanation": "本句的「channel」指「信道」。",
+      "explanation": "本句的「channel」指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
       "sentenceIndex": 55,
       "sourcePractice": 1,
       "targets": [
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-22": "本句指「信道」。",
+        "channel-pdf-002": "本句指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
         "channel-mcq-21": "「廣播頻道」與本句語境不同。",
         "channel-mcq-23": "「頻率信道」與本句語境不同。",
         "channel-mcq-20": "「無線電頻道」與本句語境不同。",
         "channel-mcq-24": "「無線信道」與本句語境不同。",
         "channel-mcq-19": "「不停轉台」與本句語境不同。"
       },
-      "correctOption": "channel-mcq-22"
+      "correctOption": "channel-pdf-002"
     },
     {
       "id": "channel-28-1",
-      "sense": "channel-mcq-22",
+      "sense": "channel-pdf-002",
       "en": "Noise can reduce the quality of the channel.",
       "zh": "雜訊可能降低信道品質。",
       "masked": "Noise can reduce the quality of the ____.",
       "options": [
-        "channel-mcq-22",
+        "channel-pdf-002",
         "channel-mcq-21",
         "channel-mcq-23",
         "channel-mcq-20",
         "channel-mcq-24",
         "channel-mcq-19"
       ],
-      "explanation": "本句的「channel」指「信道」。",
+      "explanation": "本句的「channel」指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
       "sentenceIndex": 56,
       "sourcePractice": 2,
       "targets": [
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-22": "本句指「信道」。",
+        "channel-pdf-002": "本句指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
         "channel-mcq-21": "「廣播頻道」與本句語境不同。",
         "channel-mcq-23": "「頻率信道」與本句語境不同。",
         "channel-mcq-20": "「無線電頻道」與本句語境不同。",
         "channel-mcq-24": "「無線信道」與本句語境不同。",
         "channel-mcq-19": "「不停轉台」與本句語境不同。"
       },
-      "correctOption": "channel-mcq-22"
+      "correctOption": "channel-pdf-002"
     },
     {
       "id": "channel-29-0",
@@ -6287,63 +6322,63 @@ export default {
     },
     {
       "id": "channel-80-0",
-      "sense": "channel-mcq-63",
+      "sense": "channel-pdf-003",
       "en": "The singer seemed to be channeling an earlier generation of jazz performers.",
       "zh": "這位歌手似乎在展現早期爵士樂手的風格。",
       "masked": "The singer seemed to be ____.",
       "options": [
-        "channel-mcq-63",
+        "channel-pdf-003",
         "channel-mcq-62",
         "channel-mcq-64",
         "channel-mcq-61",
         "channel-mcq-65",
         "channel-mcq-60"
       ],
-      "explanation": "本句的「channeling an earlier generation of jazz performers」指「展現／模仿某人的風格」。",
+      "explanation": "本句的「channeling an earlier generation of jazz performers」指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
       "sentenceIndex": 157,
       "sourcePractice": 1,
       "targets": [
         "channeling an earlier generation of jazz performers"
       ],
       "optionReasons": {
-        "channel-mcq-63": "本句指「展現／模仿某人的風格」。",
+        "channel-pdf-003": "本句指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
         "channel-mcq-62": "「疏導交通」與本句語境不同。",
         "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
         "channel-mcq-61": "「引導水流」與本句語境不同。",
         "channel-mcq-65": "「通靈」與本句語境不同。",
         "channel-mcq-60": "「疏導憤怒」與本句語境不同。"
       },
-      "correctOption": "channel-mcq-63"
+      "correctOption": "channel-pdf-003"
     },
     {
       "id": "channel-80-1",
-      "sense": "channel-mcq-63",
+      "sense": "channel-pdf-003",
       "en": "Her speech channelled the confidence of a seasoned leader.",
       "zh": "她的演說展現出資深領袖般的自信風格。",
       "masked": "Her speech ____ the confidence of a seasoned leader.",
       "options": [
-        "channel-mcq-63",
+        "channel-pdf-003",
         "channel-mcq-62",
         "channel-mcq-64",
         "channel-mcq-61",
         "channel-mcq-65",
         "channel-mcq-60"
       ],
-      "explanation": "本句的「channelled」指「展現／模仿某人的風格」。",
+      "explanation": "本句的「channelled」指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
       "sentenceIndex": 158,
       "sourcePractice": 2,
       "targets": [
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-63": "本句指「展現／模仿某人的風格」。",
+        "channel-pdf-003": "本句指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
         "channel-mcq-62": "「疏導交通」與本句語境不同。",
         "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
         "channel-mcq-61": "「引導水流」與本句語境不同。",
         "channel-mcq-65": "「通靈」與本句語境不同。",
         "channel-mcq-60": "「疏導憤怒」與本句語境不同。"
       },
-      "correctOption": "channel-mcq-63"
+      "correctOption": "channel-pdf-003"
     },
     {
       "id": "channel-81-0",

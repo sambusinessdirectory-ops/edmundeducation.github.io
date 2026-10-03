@@ -1,0 +1,149 @@
+{
+  "patches": [
+    {
+      "module": "sound",
+      "number": 58,
+      "oldSenseCount": 17,
+      "newSenses": [
+        {
+          "id": "sound-pdf-like-sound",
+          "title": "聽到構思、安排或提議後，覺得它吸引並產生好感",
+          "form": "like the sound of something",
+          "en": "like the sound of something",
+          "zh": "聽到構思、安排或提議後，覺得它吸引並產生好感",
+          "note": "原始 PDF 用法：聽到構思、安排或提議後，覺得它吸引並產生好感",
+          "examples": [
+            [
+              "I like the sound of that.",
+              "聽起來很不錯，我喜歡這個主意。",
+              "聽到構思、安排或提議後，覺得它吸引並產生好感"
+            ],
+            [
+              "I like the sound of that.",
+              "這個安排聽起來很吸引。",
+              "聽到構思、安排或提議後，覺得它吸引並產生好感"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        },
+        {
+          "id": "sound-pdf-not-like-sound",
+          "title": "聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+          "form": "not like the sound of something",
+          "en": "not like the sound of something",
+          "zh": "聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+          "note": "原始 PDF 用法：聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+          "examples": [
+            [
+              "I don’t like the sound of that.",
+              "這聽起來不太妙。",
+              "聽到消息或情況後，覺得它不妙、令人擔心或不吸引"
+            ],
+            [
+              "I don’t like the sound of that.",
+              "這個情況聽起來不太理想。",
+              "聽到消息或情況後，覺得它不妙、令人擔心或不吸引"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "sound-16-0",
+          "sourceSection": 16,
+          "sourceMeaning": "聽到構思、安排或提議後，覺得它吸引並產生好感",
+          "oldSense": "sound-mcq-16",
+          "newSense": "sound-pdf-like-sound",
+          "oldOptions": [
+            "sound-mcq-16",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ],
+          "newOptions": [
+            "sound-pdf-like-sound",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ]
+        },
+        {
+          "question": "sound-16-1",
+          "sourceSection": 16,
+          "sourceMeaning": "聽到構思、安排或提議後，覺得它吸引並產生好感",
+          "oldSense": "sound-mcq-16",
+          "newSense": "sound-pdf-like-sound",
+          "oldOptions": [
+            "sound-mcq-16",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ],
+          "newOptions": [
+            "sound-pdf-like-sound",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ]
+        },
+        {
+          "question": "sound-16-2",
+          "sourceSection": 16,
+          "sourceMeaning": "聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+          "oldSense": "sound-mcq-16",
+          "newSense": "sound-pdf-not-like-sound",
+          "oldOptions": [
+            "sound-mcq-16",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ],
+          "newOptions": [
+            "sound-pdf-not-like-sound",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ]
+        },
+        {
+          "question": "sound-16-3",
+          "sourceSection": 16,
+          "sourceMeaning": "聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+          "oldSense": "sound-mcq-16",
+          "newSense": "sound-pdf-not-like-sound",
+          "oldOptions": [
+            "sound-mcq-16",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ],
+          "newOptions": [
+            "sound-pdf-not-like-sound",
+            "sound-mcq-15",
+            "sound-mcq-17",
+            "sound-mcq-14",
+            "sound-mcq-13",
+            "sound-mcq-12"
+          ]
+        }
+      ]
+    }
+  ]
+}

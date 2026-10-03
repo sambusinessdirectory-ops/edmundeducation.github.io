@@ -151,16 +151,6 @@ export default {
       "note": "來源詞義：人與人之間具有血緣、婚姻或家族關係的",
       "examples": [
         [
-          "The damage was related to the water leak.",
-          "損壞與漏水事件有關。",
-          "人與人之間具有血緣、婚姻或家族關係的"
-        ],
-        [
-          "Several symptoms may be related to stress.",
-          "有些症狀可能與壓力存在關聯。",
-          "人與人之間具有血緣、婚姻或家族關係的"
-        ],
-        [
           "Are you two related?",
           "你們兩個有親屬關係嗎？",
           "人與人之間具有血緣、婚姻或家族關係的"
@@ -433,6 +423,28 @@ export default {
           "The journey was relatively comfortable.",
           "比較起來，這趟旅程算是相當舒適。",
           "與其他事物或一般標準相比之下"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "relate-pdf-001",
+      "title": "與某件事情、原因、人物或主題存在關係",
+      "form": "7. related to + subject/person/event（主題／人物／事件） — 與……有關聯",
+      "en": "7. related to + subject/person/event（主題／人物／事件） — 與……有關聯",
+      "zh": "與某件事情、原因、人物或主題存在關係",
+      "note": "原始 PDF 第 7 節：與某件事情、原因、人物或主題存在關係",
+      "examples": [
+        [
+          "The damage was related to the water leak.",
+          "損壞與漏水事件有關。",
+          "與某件事情、原因、人物或主題存在關係"
+        ],
+        [
+          "Several symptoms may be related to stress.",
+          "有些症狀可能與壓力存在關聯。",
+          "與某件事情、原因、人物或主題存在關係"
         ]
       ],
       "options": [],
@@ -832,63 +844,63 @@ export default {
     },
     {
       "id": "relate-07-0",
-      "sense": "relate-mcq-07",
+      "sense": "relate-pdf-001",
       "en": "The damage was related to the water leak.",
       "zh": "損壞與漏水事件有關。",
       "masked": "The damage was ____ the water leak.",
       "options": [
-        "relate-mcq-07",
+        "relate-pdf-001",
         "relate-mcq-06",
         "relate-mcq-08",
         "relate-mcq-05",
         "relate-mcq-09",
         "relate-mcq-04"
       ],
-      "explanation": "本句的「related to」指「人與人之間具有血緣、婚姻或家族關係的」。",
+      "explanation": "本句的「related to」指「與某件事情、原因、人物或主題存在關係」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "related to"
       ],
       "optionReasons": {
-        "relate-mcq-07": "本句指「人與人之間具有血緣、婚姻或家族關係的」。",
+        "relate-pdf-001": "本句指「與某件事情、原因、人物或主題存在關係」。",
         "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
         "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
         "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
         "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
         "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。"
       },
-      "correctOption": "relate-mcq-07"
+      "correctOption": "relate-pdf-001"
     },
     {
       "id": "relate-07-1",
-      "sense": "relate-mcq-07",
+      "sense": "relate-pdf-001",
       "en": "Several symptoms may be related to stress.",
       "zh": "有些症狀可能與壓力存在關聯。",
       "masked": "Several symptoms may be ____ stress.",
       "options": [
-        "relate-mcq-07",
+        "relate-pdf-001",
         "relate-mcq-06",
         "relate-mcq-08",
         "relate-mcq-05",
         "relate-mcq-09",
         "relate-mcq-04"
       ],
-      "explanation": "本句的「related to」指「人與人之間具有血緣、婚姻或家族關係的」。",
+      "explanation": "本句的「related to」指「與某件事情、原因、人物或主題存在關係」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "related to"
       ],
       "optionReasons": {
-        "relate-mcq-07": "本句指「人與人之間具有血緣、婚姻或家族關係的」。",
+        "relate-pdf-001": "本句指「與某件事情、原因、人物或主題存在關係」。",
         "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
         "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
         "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
         "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
         "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。"
       },
-      "correctOption": "relate-mcq-07"
+      "correctOption": "relate-pdf-001"
     },
     {
       "id": "relate-08-0",

@@ -898,18 +898,7 @@ export default {
       "en": "allowance (money)",
       "zh": "津貼；零用錢",
       "note": "來源詞義：津貼；零用錢",
-      "examples": [
-        [
-          "She gives her child a weekly allowance.",
-          "她每星期給孩子零用錢。",
-          "津貼；零用錢"
-        ],
-        [
-          "Employees receive a travel allowance.",
-          "員工可獲交通津貼。",
-          "津貼；零用錢"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1290,13 +1279,7 @@ export default {
       "en": "disallow",
       "zh": "不准許；駁回",
       "note": "來源詞義：不准許；駁回",
-      "examples": [
-        [
-          "The policy disallows returns on worn items.",
-          "政策不允許穿過的商品退貨。",
-          "不准許；駁回"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1433,6 +1416,45 @@ export default {
           "Good procedures should not allow defective goods to remain in circulation.",
           "良好程序不應讓有缺陷商品繼續流通。",
           "被對方得分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-pdf-001",
+      "title": "定期給予某人，用於某項需要或個人開支的一筆金錢",
+      "form": "47. allowance = regular amount of money given to someone — 津貼；零用錢",
+      "en": "47. allowance = regular amount of money given to someone — 津貼；零用錢",
+      "zh": "定期給予某人，用於某項需要或個人開支的一筆金錢",
+      "note": "原始 PDF 第 47 節：定期給予某人，用於某項需要或個人開支的一筆金錢",
+      "examples": [
+        [
+          "She gives her child a weekly allowance.",
+          "她每星期給孩子零用錢。",
+          "定期給予某人，用於某項需要或個人開支的一筆金錢"
+        ],
+        [
+          "Employees receive a travel allowance.",
+          "員工可獲交通津貼。",
+          "定期給予某人，用於某項需要或個人開支的一筆金錢"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-pdf-002",
+      "title": "正式判定 X 不獲准、不被接受或不符合規則",
+      "form": "69. disallow = officially refuse to permit/accept — 不准許；不予認可；駁回",
+      "en": "69. disallow = officially refuse to permit/accept — 不准許；不予認可；駁回",
+      "zh": "正式判定 X 不獲准、不被接受或不符合規則",
+      "note": "原始 PDF 第 69 節：正式判定 X 不獲准、不被接受或不符合規則",
+      "examples": [
+        [
+          "The policy disallows returns on worn items.",
+          "政策不允許穿過的商品退貨。",
+          "正式判定 X 不獲准、不被接受或不符合規則"
         ]
       ],
       "options": [],
@@ -4052,63 +4074,63 @@ export default {
     },
     {
       "id": "allow-47-0",
-      "sense": "allow-mcq-37",
+      "sense": "allow-pdf-001",
       "en": "She gives her child a weekly allowance.",
       "zh": "她每星期給孩子零用錢。",
       "masked": "She gives her child a weekly ____.",
       "options": [
-        "allow-mcq-37",
+        "allow-pdf-001",
         "allow-mcq-36",
         "allow-mcq-38",
         "allow-mcq-35",
         "allow-mcq-39",
         "allow-mcq-34"
       ],
-      "explanation": "本句的「allowance」指「津貼；零用錢」。",
+      "explanation": "本句的「allowance」指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
       "sentenceIndex": 89,
       "sourcePractice": 1,
       "targets": [
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-37": "本句指「津貼；零用錢」。",
+        "allow-pdf-001": "本句指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
         "allow-mcq-36": "「禁止 X」與本句語境不同。",
         "allow-mcq-38": "「每週零用錢」與本句語境不同。",
         "allow-mcq-35": "「最高容許」與本句語境不同。",
         "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
         "allow-mcq-34": "「獲准的」與本句語境不同。"
       },
-      "correctOption": "allow-mcq-37"
+      "correctOption": "allow-pdf-001"
     },
     {
       "id": "allow-47-1",
-      "sense": "allow-mcq-37",
+      "sense": "allow-pdf-001",
       "en": "Employees receive a travel allowance.",
       "zh": "員工可獲交通津貼。",
       "masked": "Employees receive a travel ____.",
       "options": [
-        "allow-mcq-37",
+        "allow-pdf-001",
         "allow-mcq-36",
         "allow-mcq-38",
         "allow-mcq-35",
         "allow-mcq-39",
         "allow-mcq-34"
       ],
-      "explanation": "本句的「allowance」指「津貼；零用錢」。",
+      "explanation": "本句的「allowance」指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
       "sentenceIndex": 90,
       "sourcePractice": 2,
       "targets": [
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-37": "本句指「津貼；零用錢」。",
+        "allow-pdf-001": "本句指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
         "allow-mcq-36": "「禁止 X」與本句語境不同。",
         "allow-mcq-38": "「每週零用錢」與本句語境不同。",
         "allow-mcq-35": "「最高容許」與本句語境不同。",
         "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
         "allow-mcq-34": "「獲准的」與本句語境不同。"
       },
-      "correctOption": "allow-mcq-37"
+      "correctOption": "allow-pdf-001"
     },
     {
       "id": "allow-48-0",
@@ -5252,33 +5274,33 @@ export default {
     },
     {
       "id": "allow-69-0",
-      "sense": "allow-mcq-53",
+      "sense": "allow-pdf-002",
       "en": "The policy disallows returns on worn items.",
       "zh": "政策不允許穿過的商品退貨。",
       "masked": "The policy ____.",
       "options": [
-        "allow-mcq-53",
+        "allow-pdf-002",
         "allow-mcq-52",
         "allow-mcq-54",
         "allow-mcq-51",
         "allow-mcq-55",
         "allow-mcq-50"
       ],
-      "explanation": "本句的「disallows returns on worn items」指「不准許；駁回」。",
+      "explanation": "本句的「disallows returns on worn items」指「正式判定 X 不獲准、不被接受或不符合規則」。",
       "sentenceIndex": 129,
       "sourcePractice": 1,
       "targets": [
         "disallows returns on worn items"
       ],
       "optionReasons": {
-        "allow-mcq-53": "本句指「不准許；駁回」。",
+        "allow-pdf-002": "本句指「正式判定 X 不獲准、不被接受或不符合規則」。",
         "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
         "allow-mcq-54": "「駁回申索」與本句語境不同。",
         "allow-mcq-51": "「縫份」與本句語境不同。",
         "allow-mcq-55": "「不認可扣除」與本句語境不同。",
         "allow-mcq-50": "「加工餘量」與本句語境不同。"
       },
-      "correctOption": "allow-mcq-53"
+      "correctOption": "allow-pdf-002"
     },
     {
       "id": "allow-70-0",

@@ -259,18 +259,7 @@ export default {
       "en": "secondary to X",
       "zh": "由 X 繼發／造成",
       "note": "來源詞義：由 X 繼發／造成",
-      "examples": [
-        [
-          "The condition may be secondary to another illness.",
-          "這種情況可能是由另一種疾病繼發引起的。",
-          "由 X 繼發／造成"
-        ],
-        [
-          "The symptoms were found to be secondary to an underlying problem.",
-          "這些症狀後來發現是由一個潛在問題繼發造成的。",
-          "由 X 繼發／造成"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -335,6 +324,28 @@ export default {
           "The novel gives several secondary characters important moments.",
           "小說給了幾個次要人物不少重要戲份。",
           "次要角色"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "secondary-pdf-001",
+      "title": "由 X 引起、作為 X 的後續或繼發結果",
+      "form": "11. secondary disease / condition — 繼發性疾病／狀況",
+      "en": "11. secondary disease / condition — 繼發性疾病／狀況",
+      "zh": "由 X 引起、作為 X 的後續或繼發結果",
+      "note": "原始 PDF 第 11 節：由 X 引起、作為 X 的後續或繼發結果",
+      "examples": [
+        [
+          "The condition may be secondary to another illness.",
+          "這種情況可能是由另一種疾病繼發引起的。",
+          "由 X 引起、作為 X 的後續或繼發結果"
+        ],
+        [
+          "The symptoms were found to be secondary to an underlying problem.",
+          "這些症狀後來發現是由一個潛在問題繼發造成的。",
+          "由 X 引起、作為 X 的後續或繼發結果"
         ]
       ],
       "options": [],
@@ -974,63 +985,63 @@ export default {
     },
     {
       "id": "secondary-11-0",
-      "sense": "secondary-mcq-12",
+      "sense": "secondary-pdf-001",
       "en": "The condition may be secondary to another illness.",
       "zh": "這種情況可能是由另一種疾病繼發引起的。",
       "masked": "The condition may be ____ another illness.",
       "options": [
-        "secondary-mcq-12",
+        "secondary-pdf-001",
         "secondary-mcq-11",
         "secondary-mcq-13",
         "secondary-mcq-10",
         "secondary-mcq-14",
         "secondary-mcq-09"
       ],
-      "explanation": "本句的「secondary to」指「由 X 繼發／造成」。",
+      "explanation": "本句的「secondary to」指「由 X 引起、作為 X 的後續或繼發結果」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "secondary to"
       ],
       "optionReasons": {
-        "secondary-mcq-12": "本句指「由 X 繼發／造成」。",
+        "secondary-pdf-001": "本句指「由 X 引起、作為 X 的後續或繼發結果」。",
         "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
         "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
         "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
         "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
         "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。"
       },
-      "correctOption": "secondary-mcq-12"
+      "correctOption": "secondary-pdf-001"
     },
     {
       "id": "secondary-11-1",
-      "sense": "secondary-mcq-12",
+      "sense": "secondary-pdf-001",
       "en": "The symptoms were found to be secondary to an underlying problem.",
       "zh": "這些症狀後來發現是由一個潛在問題繼發造成的。",
       "masked": "The symptoms were found to be ____ an underlying problem.",
       "options": [
-        "secondary-mcq-12",
+        "secondary-pdf-001",
         "secondary-mcq-11",
         "secondary-mcq-13",
         "secondary-mcq-10",
         "secondary-mcq-14",
         "secondary-mcq-09"
       ],
-      "explanation": "本句的「secondary to」指「由 X 繼發／造成」。",
+      "explanation": "本句的「secondary to」指「由 X 引起、作為 X 的後續或繼發結果」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "secondary to"
       ],
       "optionReasons": {
-        "secondary-mcq-12": "本句指「由 X 繼發／造成」。",
+        "secondary-pdf-001": "本句指「由 X 引起、作為 X 的後續或繼發結果」。",
         "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
         "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
         "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
         "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
         "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。"
       },
-      "correctOption": "secondary-mcq-12"
+      "correctOption": "secondary-pdf-001"
     },
     {
       "id": "secondary-12-0",

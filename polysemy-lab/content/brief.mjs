@@ -762,18 +762,7 @@ export default {
       "en": "someone's brief",
       "zh": "職責範圍",
       "note": "來源詞義：職責範圍",
-      "examples": [
-        [
-          "International sales are part of her brief.",
-          "國際銷售屬於她的職責範圍。",
-          "職責範圍"
-        ],
-        [
-          "That's outside my brief.",
-          "那件事不屬於我的職責範圍。",
-          "職責範圍"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -916,18 +905,7 @@ export default {
       "en": "brief someone",
       "zh": "向某人作簡報",
       "note": "來源詞義：向某人作簡報",
-      "examples": [
-        [
-          "The manager briefed the team before the meeting.",
-          "經理在會議前向團隊簡要交代情況。",
-          "向某人作簡報"
-        ],
-        [
-          "Staff were briefed before the launch.",
-          "產品推出前，員工接受了工作簡報／情況說明。",
-          "向某人作簡報"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -979,16 +957,6 @@ export default {
         [
           "Brief the team before they begin.",
           "團隊開始前先向他們作工作說明。",
-          "簡報；說明會"
-        ],
-        [
-          "We have a briefing at nine.",
-          "我們九時有一場簡報會。",
-          "簡報；說明會"
-        ],
-        [
-          "The manager gave a short briefing before the event.",
-          "經理在活動前進行了一次簡短的工作簡報。",
           "簡報；說明會"
         ]
       ],
@@ -1208,18 +1176,7 @@ export default {
       "en": "legal brief",
       "zh": "法律書狀",
       "note": "來源詞義：法律書狀",
-      "examples": [
-        [
-          "The lawyers filed a brief with the court.",
-          "律師向法院提交了一份法律書狀。",
-          "法律書狀"
-        ],
-        [
-          "The brief sets out the legal arguments.",
-          "這份法律文件列出相關法律論點。",
-          "法律書狀"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1350,16 +1307,6 @@ export default {
       "note": "來源詞義：三角內褲",
       "examples": [
         [
-          "He bought a pack of cotton briefs.",
-          "他買了一包棉質三角內褲。",
-          "三角內褲"
-        ],
-        [
-          "Briefs are more close-fitting than boxer shorts.",
-          "三角內褲比 boxer shorts 更貼身。",
-          "三角內褲"
-        ],
-        [
           "The shop sells men's briefs and boxer shorts.",
           "這間店售賣男裝三角內褲和 boxer shorts。",
           "三角內褲"
@@ -1456,6 +1403,116 @@ export default {
           "A post-project debrief can capture lessons learned.",
           "項目後檢討可以記錄所得經驗。",
           "事後匯報／檢討會"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "brief-pdf-001",
+      "title": "某人被正式交託負責的工作範圍",
+      "form": "38. brief = responsibility/task assigned to someone — 職責範圍；任務",
+      "en": "38. brief = responsibility/task assigned to someone — 職責範圍；任務",
+      "zh": "某人被正式交託負責的工作範圍",
+      "note": "原始 PDF 第 38 節：某人被正式交託負責的工作範圍",
+      "examples": [
+        [
+          "International sales are part of her brief.",
+          "國際銷售屬於她的職責範圍。",
+          "某人被正式交託負責的工作範圍"
+        ],
+        [
+          "That's outside my brief.",
+          "那件事不屬於我的職責範圍。",
+          "某人被正式交託負責的工作範圍"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "brief-pdf-002",
+      "title": "在任務、會議或事件前，向某人提供需要知道的重點資訊和指示",
+      "form": "46. brief someone = give essential information/instructions — 向某人簡要說明；交代情況",
+      "en": "46. brief someone = give essential information/instructions — 向某人簡要說明；交代情況",
+      "zh": "在任務、會議或事件前，向某人提供需要知道的重點資訊和指示",
+      "note": "原始 PDF 第 46 節：在任務、會議或事件前，向某人提供需要知道的重點資訊和指示",
+      "examples": [
+        [
+          "The manager briefed the team before the meeting.",
+          "經理在會議前向團隊簡要交代情況。",
+          "在任務、會議或事件前，向某人提供需要知道的重點資訊和指示"
+        ],
+        [
+          "Staff were briefed before the launch.",
+          "產品推出前，員工接受了工作簡報／情況說明。",
+          "在任務、會議或事件前，向某人提供需要知道的重點資訊和指示"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "brief-pdf-003",
+      "title": "為某人提供任務、背景、情況或指示的正式簡短說明活動",
+      "form": "51. briefing = meeting/session giving key information — 簡報會；情況匯報",
+      "en": "51. briefing = meeting/session giving key information — 簡報會；情況匯報",
+      "zh": "為某人提供任務、背景、情況或指示的正式簡短說明活動",
+      "note": "原始 PDF 第 51 節：為某人提供任務、背景、情況或指示的正式簡短說明活動",
+      "examples": [
+        [
+          "We have a briefing at nine.",
+          "我們九時有一場簡報會。",
+          "為某人提供任務、背景、情況或指示的正式簡短說明活動"
+        ],
+        [
+          "The manager gave a short briefing before the event.",
+          "經理在活動前進行了一次簡短的工作簡報。",
+          "為某人提供任務、背景、情況或指示的正式簡短說明活動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "brief-pdf-004",
+      "title": "向法院提交、陳述案件事實、法律論點和相關依據的正式文件",
+      "form": "62. brief = legal document setting out arguments — 法律書狀；法律陳詞文件",
+      "en": "62. brief = legal document setting out arguments — 法律書狀；法律陳詞文件",
+      "zh": "向法院提交、陳述案件事實、法律論點和相關依據的正式文件",
+      "note": "原始 PDF 第 62 節：向法院提交、陳述案件事實、法律論點和相關依據的正式文件",
+      "examples": [
+        [
+          "The lawyers filed a brief with the court.",
+          "律師向法院提交了一份法律書狀。",
+          "向法院提交、陳述案件事實、法律論點和相關依據的正式文件"
+        ],
+        [
+          "The brief sets out the legal arguments.",
+          "這份法律文件列出相關法律論點。",
+          "向法院提交、陳述案件事實、法律論點和相關依據的正式文件"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "brief-pdf-005",
+      "title": "貼身、褲腳很短的內褲款式",
+      "form": "70. briefs = close-fitting underwear — 三角內褲；貼身短內褲",
+      "en": "70. briefs = close-fitting underwear — 三角內褲；貼身短內褲",
+      "zh": "貼身、褲腳很短的內褲款式",
+      "note": "原始 PDF 第 70 節：貼身、褲腳很短的內褲款式",
+      "examples": [
+        [
+          "He bought a pack of cotton briefs.",
+          "他買了一包棉質三角內褲。",
+          "貼身、褲腳很短的內褲款式"
+        ],
+        [
+          "Briefs are more close-fitting than boxer shorts.",
+          "三角內褲比 boxer shorts 更貼身。",
+          "貼身、褲腳很短的內褲款式"
         ]
       ],
       "options": [],
@@ -3595,63 +3652,63 @@ export default {
     },
     {
       "id": "brief-38-0",
-      "sense": "brief-mcq-34",
+      "sense": "brief-pdf-001",
       "en": "International sales are part of her brief.",
       "zh": "國際銷售屬於她的職責範圍。",
       "masked": "International sales are ____.",
       "options": [
-        "brief-mcq-34",
+        "brief-pdf-001",
         "brief-mcq-33",
         "brief-mcq-35",
         "brief-mcq-32",
         "brief-mcq-36",
         "brief-mcq-31"
       ],
-      "explanation": "本句的「part of her brief」指「職責範圍」。",
+      "explanation": "本句的「part of her brief」指「某人被正式交託負責的工作範圍」。",
       "sentenceIndex": 75,
       "sourcePractice": 1,
       "targets": [
         "part of her brief"
       ],
       "optionReasons": {
-        "brief-mcq-34": "本句指「職責範圍」。",
+        "brief-pdf-001": "本句指「某人被正式交託負責的工作範圍」。",
         "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
         "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
         "brief-mcq-32": "「客戶要求」與本句語境不同。",
         "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
         "brief-mcq-31": "「創意簡報」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-34"
+      "correctOption": "brief-pdf-001"
     },
     {
       "id": "brief-38-1",
-      "sense": "brief-mcq-34",
+      "sense": "brief-pdf-001",
       "en": "That's outside my brief.",
       "zh": "那件事不屬於我的職責範圍。",
       "masked": "That's outside my ____.",
       "options": [
-        "brief-mcq-34",
+        "brief-pdf-001",
         "brief-mcq-33",
         "brief-mcq-35",
         "brief-mcq-32",
         "brief-mcq-36",
         "brief-mcq-31"
       ],
-      "explanation": "本句的「brief」指「職責範圍」。",
+      "explanation": "本句的「brief」指「某人被正式交託負責的工作範圍」。",
       "sentenceIndex": 76,
       "sourcePractice": 2,
       "targets": [
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-34": "本句指「職責範圍」。",
+        "brief-pdf-001": "本句指「某人被正式交託負責的工作範圍」。",
         "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
         "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
         "brief-mcq-32": "「客戶要求」與本句語境不同。",
         "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
         "brief-mcq-31": "「創意簡報」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-34"
+      "correctOption": "brief-pdf-001"
     },
     {
       "id": "brief-39-0",
@@ -4015,63 +4072,63 @@ export default {
     },
     {
       "id": "brief-46-0",
-      "sense": "brief-mcq-41",
+      "sense": "brief-pdf-002",
       "en": "The manager briefed the team before the meeting.",
       "zh": "經理在會議前向團隊簡要交代情況。",
       "masked": "The manager ____ before the meeting.",
       "options": [
-        "brief-mcq-41",
+        "brief-pdf-002",
         "brief-mcq-40",
         "brief-mcq-42",
         "brief-mcq-39",
         "brief-mcq-43",
         "brief-mcq-38"
       ],
-      "explanation": "本句的「briefed the team」指「向某人作簡報」。",
+      "explanation": "本句的「briefed the team」指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
       "sentenceIndex": 89,
       "sourcePractice": 1,
       "targets": [
         "briefed the team"
       ],
       "optionReasons": {
-        "brief-mcq-41": "本句指「向某人作簡報」。",
+        "brief-pdf-002": "本句指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
         "brief-mcq-40": "「判例摘要」與本句語境不同。",
         "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
         "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
         "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
         "brief-mcq-38": "「情況說明文件」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-41"
+      "correctOption": "brief-pdf-002"
     },
     {
       "id": "brief-46-1",
-      "sense": "brief-mcq-41",
+      "sense": "brief-pdf-002",
       "en": "Staff were briefed before the launch.",
       "zh": "產品推出前，員工接受了工作簡報／情況說明。",
       "masked": "Staff were ____ before the launch.",
       "options": [
-        "brief-mcq-41",
+        "brief-pdf-002",
         "brief-mcq-40",
         "brief-mcq-42",
         "brief-mcq-39",
         "brief-mcq-43",
         "brief-mcq-38"
       ],
-      "explanation": "本句的「briefed」指「向某人作簡報」。",
+      "explanation": "本句的「briefed」指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
       "sentenceIndex": 90,
       "sourcePractice": 2,
       "targets": [
         "briefed"
       ],
       "optionReasons": {
-        "brief-mcq-41": "本句指「向某人作簡報」。",
+        "brief-pdf-002": "本句指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
         "brief-mcq-40": "「判例摘要」與本句語境不同。",
         "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
         "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
         "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
         "brief-mcq-38": "「情況說明文件」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-41"
+      "correctOption": "brief-pdf-002"
     },
     {
       "id": "brief-47-0",
@@ -4315,63 +4372,63 @@ export default {
     },
     {
       "id": "brief-51-0",
-      "sense": "brief-mcq-43",
+      "sense": "brief-pdf-003",
       "en": "We have a briefing at nine.",
       "zh": "我們九時有一場簡報會。",
       "masked": "We have a ____ at nine.",
       "options": [
-        "brief-mcq-43",
+        "brief-pdf-003",
         "brief-mcq-42",
         "brief-mcq-44",
         "brief-mcq-41",
         "brief-mcq-45",
         "brief-mcq-40"
       ],
-      "explanation": "本句的「briefing」指「簡報；說明會」。",
+      "explanation": "本句的「briefing」指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
       "sentenceIndex": 99,
       "sourcePractice": 1,
       "targets": [
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-43": "本句指「簡報；說明會」。",
+        "brief-pdf-003": "本句指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
         "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
         "brief-mcq-44": "「簡報會」與本句語境不同。",
         "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
         "brief-mcq-45": "「團隊簡報」與本句語境不同。",
         "brief-mcq-40": "「判例摘要」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-43"
+      "correctOption": "brief-pdf-003"
     },
     {
       "id": "brief-51-1",
-      "sense": "brief-mcq-43",
+      "sense": "brief-pdf-003",
       "en": "The manager gave a short briefing before the event.",
       "zh": "經理在活動前進行了一次簡短的工作簡報。",
       "masked": "The manager gave a short ____ before the event.",
       "options": [
-        "brief-mcq-43",
+        "brief-pdf-003",
         "brief-mcq-42",
         "brief-mcq-44",
         "brief-mcq-41",
         "brief-mcq-45",
         "brief-mcq-40"
       ],
-      "explanation": "本句的「briefing」指「簡報；說明會」。",
+      "explanation": "本句的「briefing」指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
       "sentenceIndex": 100,
       "sourcePractice": 2,
       "targets": [
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-43": "本句指「簡報；說明會」。",
+        "brief-pdf-003": "本句指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
         "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
         "brief-mcq-44": "「簡報會」與本句語境不同。",
         "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
         "brief-mcq-45": "「團隊簡報」與本句語境不同。",
         "brief-mcq-40": "「判例摘要」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-43"
+      "correctOption": "brief-pdf-003"
     },
     {
       "id": "brief-52-0",
@@ -4975,63 +5032,63 @@ export default {
     },
     {
       "id": "brief-62-0",
-      "sense": "brief-mcq-52",
+      "sense": "brief-pdf-004",
       "en": "The lawyers filed a brief with the court.",
       "zh": "律師向法院提交了一份法律書狀。",
       "masked": "The lawyers filed a ____ with the court.",
       "options": [
-        "brief-mcq-52",
+        "brief-pdf-004",
         "brief-mcq-51",
         "brief-mcq-53",
         "brief-mcq-50",
         "brief-mcq-54",
         "brief-mcq-49"
       ],
-      "explanation": "本句的「brief」指「法律書狀」。",
+      "explanation": "本句的「brief」指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
       "sentenceIndex": 121,
       "sourcePractice": 1,
       "targets": [
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-52": "本句指「法律書狀」。",
+        "brief-pdf-004": "本句指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
         "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
         "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
         "brief-mcq-50": "「情報簡報」與本句語境不同。",
         "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
         "brief-mcq-49": "「保安簡報」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-52"
+      "correctOption": "brief-pdf-004"
     },
     {
       "id": "brief-62-1",
-      "sense": "brief-mcq-52",
+      "sense": "brief-pdf-004",
       "en": "The brief sets out the legal arguments.",
       "zh": "這份法律文件列出相關法律論點。",
       "masked": "The ____ sets out the legal arguments.",
       "options": [
-        "brief-mcq-52",
+        "brief-pdf-004",
         "brief-mcq-51",
         "brief-mcq-53",
         "brief-mcq-50",
         "brief-mcq-54",
         "brief-mcq-49"
       ],
-      "explanation": "本句的「brief」指「法律書狀」。",
+      "explanation": "本句的「brief」指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
       "sentenceIndex": 122,
       "sourcePractice": 2,
       "targets": [
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-52": "本句指「法律書狀」。",
+        "brief-pdf-004": "本句指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
         "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
         "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
         "brief-mcq-50": "「情報簡報」與本句語境不同。",
         "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
         "brief-mcq-49": "「保安簡報」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-52"
+      "correctOption": "brief-pdf-004"
     },
     {
       "id": "brief-63-0",
@@ -5455,63 +5512,63 @@ export default {
     },
     {
       "id": "brief-70-0",
-      "sense": "brief-mcq-57",
+      "sense": "brief-pdf-005",
       "en": "He bought a pack of cotton briefs.",
       "zh": "他買了一包棉質三角內褲。",
       "masked": "He bought a pack of cotton ____.",
       "options": [
-        "brief-mcq-57",
+        "brief-pdf-005",
         "brief-mcq-56",
         "brief-mcq-58",
         "brief-mcq-55",
         "brief-mcq-59",
         "brief-mcq-54"
       ],
-      "explanation": "本句的「briefs」指「三角內褲」。",
+      "explanation": "本句的「briefs」指「貼身、褲腳很短的內褲款式」。",
       "sentenceIndex": 137,
       "sourcePractice": 1,
       "targets": [
         "briefs"
       ],
       "optionReasons": {
-        "brief-mcq-57": "本句指「三角內褲」。",
+        "brief-pdf-005": "本句指「貼身、褲腳很短的內褲款式」。",
         "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
         "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
         "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
         "brief-mcq-59": "「公事包」與本句語境不同。",
         "brief-mcq-54": "「法庭之友意見書」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-57"
+      "correctOption": "brief-pdf-005"
     },
     {
       "id": "brief-70-1",
-      "sense": "brief-mcq-57",
+      "sense": "brief-pdf-005",
       "en": "Briefs are more close-fitting than boxer shorts.",
       "zh": "三角內褲比 boxer shorts 更貼身。",
       "masked": "____ are more close-fitting than boxer shorts.",
       "options": [
-        "brief-mcq-57",
+        "brief-pdf-005",
         "brief-mcq-56",
         "brief-mcq-58",
         "brief-mcq-55",
         "brief-mcq-59",
         "brief-mcq-54"
       ],
-      "explanation": "本句的「Briefs」指「三角內褲」。",
+      "explanation": "本句的「Briefs」指「貼身、褲腳很短的內褲款式」。",
       "sentenceIndex": 138,
       "sourcePractice": 2,
       "targets": [
         "Briefs"
       ],
       "optionReasons": {
-        "brief-mcq-57": "本句指「三角內褲」。",
+        "brief-pdf-005": "本句指「貼身、褲腳很短的內褲款式」。",
         "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
         "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
         "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
         "brief-mcq-59": "「公事包」與本句語境不同。",
         "brief-mcq-54": "「法庭之友意見書」與本句語境不同。"
       },
-      "correctOption": "brief-mcq-57"
+      "correctOption": "brief-pdf-005"
     },
     {
       "id": "brief-71-0",

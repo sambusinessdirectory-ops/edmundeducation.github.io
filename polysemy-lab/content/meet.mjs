@@ -81,16 +81,6 @@ export default {
           "We met unexpectedly in town.",
           "我們在城裡意外碰見了。",
           "沒有事先安排而偶然碰見某人"
-        ],
-        [
-          "Have you met my sister?",
-          "你見過／認識我妹妹嗎？",
-          "沒有事先安排而偶然碰見某人"
-        ],
-        [
-          "It was nice to meet your parents.",
-          "很高興認識你的父母。",
-          "沒有事先安排而偶然碰見某人"
         ]
       ],
       "options": [],
@@ -432,16 +422,6 @@ export default {
           "The changes met with resistance.",
           "這些改變遇到阻力／遭到抵制。",
           "遭遇別人的反對、阻力或抵制"
-        ],
-        [
-          "The idea met with approval.",
-          "這個想法獲得認同。",
-          "遭遇別人的反對、阻力或抵制"
-        ],
-        [
-          "His suggestion met with silence.",
-          "他的建議得到的反應是一片沉默。",
-          "遭遇別人的反對、阻力或抵制"
         ]
       ],
       "options": [],
@@ -704,6 +684,50 @@ export default {
           "The sky seems to meet the sea at the horizon.",
           "天空在地平線上看起來像與海面相接。",
           "兩個地方、表面或概念相連／交界之處"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "meet-pdf-001",
+      "title": "透過介紹或初次接觸而認識某人",
+      "form": "7. meet = be introduced to someone（被介紹認識） — 認識；見面",
+      "en": "7. meet = be introduced to someone（被介紹認識） — 認識；見面",
+      "zh": "透過介紹或初次接觸而認識某人",
+      "note": "原始 PDF 第 7 節：透過介紹或初次接觸而認識某人",
+      "examples": [
+        [
+          "Have you met my sister?",
+          "你見過／認識我妹妹嗎？",
+          "透過介紹或初次接觸而認識某人"
+        ],
+        [
+          "It was nice to meet your parents.",
+          "很高興認識你的父母。",
+          "透過介紹或初次接觸而認識某人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "meet-pdf-002",
+      "title": "某件事情引起／遭遇某種反應",
+      "form": "25. meet with + reaction/result（遭遇／得到某種反應） — 遭到；獲得",
+      "en": "25. meet with + reaction/result（遭遇／得到某種反應） — 遭到；獲得",
+      "zh": "某件事情引起／遭遇某種反應",
+      "note": "原始 PDF 第 25 節：某件事情引起／遭遇某種反應",
+      "examples": [
+        [
+          "The idea met with approval.",
+          "這個想法獲得認同。",
+          "某件事情引起／遭遇某種反應"
+        ],
+        [
+          "His suggestion met with silence.",
+          "他的建議得到的反應是一片沉默。",
+          "某件事情引起／遭遇某種反應"
         ]
       ],
       "options": [],
@@ -1103,63 +1127,63 @@ export default {
     },
     {
       "id": "meet-07-0",
-      "sense": "meet-mcq-03",
+      "sense": "meet-pdf-001",
       "en": "Have you met my sister?",
       "zh": "你見過／認識我妹妹嗎？",
       "masked": "Have you ____?",
       "options": [
-        "meet-mcq-03",
+        "meet-pdf-001",
         "meet-mcq-02",
         "meet-mcq-04",
         "meet-mcq-01",
         "meet-mcq-05",
         "meet-mcq-06"
       ],
-      "explanation": "本句的「met my sister」指「沒有事先安排而偶然碰見某人」。",
+      "explanation": "本句的「met my sister」指「透過介紹或初次接觸而認識某人」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "met my sister"
       ],
       "optionReasons": {
-        "meet-mcq-03": "本句指「沒有事先安排而偶然碰見某人」。",
+        "meet-pdf-001": "本句指「透過介紹或初次接觸而認識某人」。",
         "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
         "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
         "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
         "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
         "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
       },
-      "correctOption": "meet-mcq-03"
+      "correctOption": "meet-pdf-001"
     },
     {
       "id": "meet-07-1",
-      "sense": "meet-mcq-03",
+      "sense": "meet-pdf-001",
       "en": "It was nice to meet your parents.",
       "zh": "很高興認識你的父母。",
       "masked": "It was nice to ____ your parents.",
       "options": [
-        "meet-mcq-03",
+        "meet-pdf-001",
         "meet-mcq-02",
         "meet-mcq-04",
         "meet-mcq-01",
         "meet-mcq-05",
         "meet-mcq-06"
       ],
-      "explanation": "本句的「meet」指「沒有事先安排而偶然碰見某人」。",
+      "explanation": "本句的「meet」指「透過介紹或初次接觸而認識某人」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-03": "本句指「沒有事先安排而偶然碰見某人」。",
+        "meet-pdf-001": "本句指「透過介紹或初次接觸而認識某人」。",
         "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
         "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
         "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
         "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
         "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
       },
-      "correctOption": "meet-mcq-03"
+      "correctOption": "meet-pdf-001"
     },
     {
       "id": "meet-08-0",
@@ -2183,63 +2207,63 @@ export default {
     },
     {
       "id": "meet-25-0",
-      "sense": "meet-mcq-19",
+      "sense": "meet-pdf-002",
       "en": "The idea met with approval.",
       "zh": "這個想法獲得認同。",
       "masked": "The idea ____.",
       "options": [
-        "meet-mcq-19",
+        "meet-pdf-002",
         "meet-mcq-18",
         "meet-mcq-20",
         "meet-mcq-17",
         "meet-mcq-21",
         "meet-mcq-16"
       ],
-      "explanation": "本句的「met with approval」指「遭遇別人的反對、阻力或抵制」。",
+      "explanation": "本句的「met with approval」指「某件事情引起／遭遇某種反應」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "met with approval"
       ],
       "optionReasons": {
-        "meet-mcq-19": "本句指「遭遇別人的反對、阻力或抵制」。",
+        "meet-pdf-002": "本句指「某件事情引起／遭遇某種反應」。",
         "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
         "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
         "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
         "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
         "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。"
       },
-      "correctOption": "meet-mcq-19"
+      "correctOption": "meet-pdf-002"
     },
     {
       "id": "meet-25-1",
-      "sense": "meet-mcq-19",
+      "sense": "meet-pdf-002",
       "en": "His suggestion met with silence.",
       "zh": "他的建議得到的反應是一片沉默。",
       "masked": "His suggestion ____ with silence.",
       "options": [
-        "meet-mcq-19",
+        "meet-pdf-002",
         "meet-mcq-18",
         "meet-mcq-20",
         "meet-mcq-17",
         "meet-mcq-21",
         "meet-mcq-16"
       ],
-      "explanation": "本句的「met」指「遭遇別人的反對、阻力或抵制」。",
+      "explanation": "本句的「met」指「某件事情引起／遭遇某種反應」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-19": "本句指「遭遇別人的反對、阻力或抵制」。",
+        "meet-pdf-002": "本句指「某件事情引起／遭遇某種反應」。",
         "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
         "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
         "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
         "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
         "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。"
       },
-      "correctOption": "meet-mcq-19"
+      "correctOption": "meet-pdf-002"
     },
     {
       "id": "meet-26-0",

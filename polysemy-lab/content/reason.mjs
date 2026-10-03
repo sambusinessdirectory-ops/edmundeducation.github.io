@@ -202,16 +202,6 @@ export default {
           "Her reasoning was clear and well supported by evidence.",
           "她的推理思路很清晰，而且有充分證據支持。",
           "從資料或證據一步步得出結論的推理過程／能力"
-        ],
-        [
-          "The test measures verbal and numerical reasoning.",
-          "這項測驗評估語文及數字推理能力。",
-          "從資料或證據一步步得出結論的推理過程／能力"
-        ],
-        [
-          "Logical reasoning is important in problem-solving.",
-          "邏輯推理能力在解決問題時非常重要。",
-          "從資料或證據一步步得出結論的推理過程／能力"
         ]
       ],
       "options": [],
@@ -518,6 +508,28 @@ export default {
           "They reasoned that the problem must be caused by the software.",
           "他們根據情況推斷問題一定是由軟件造成的。",
           "根據邏輯和已知資料得出某個判斷"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reason-pdf-001",
+      "title": "分析資料、建立邏輯關係並作出合理判斷的能力",
+      "form": "11. reasoning = ability to think logically（邏輯推理能力） — 推理能力",
+      "en": "11. reasoning = ability to think logically（邏輯推理能力） — 推理能力",
+      "zh": "分析資料、建立邏輯關係並作出合理判斷的能力",
+      "note": "原始 PDF 第 11 節：分析資料、建立邏輯關係並作出合理判斷的能力",
+      "examples": [
+        [
+          "The test measures verbal and numerical reasoning.",
+          "這項測驗評估語文及數字推理能力。",
+          "分析資料、建立邏輯關係並作出合理判斷的能力"
+        ],
+        [
+          "Logical reasoning is important in problem-solving.",
+          "邏輯推理能力在解決問題時非常重要。",
+          "分析資料、建立邏輯關係並作出合理判斷的能力"
         ]
       ],
       "options": [],
@@ -1157,63 +1169,63 @@ export default {
     },
     {
       "id": "reason-11-0",
-      "sense": "reason-mcq-09",
+      "sense": "reason-pdf-001",
       "en": "The test measures verbal and numerical reasoning.",
       "zh": "這項測驗評估語文及數字推理能力。",
       "masked": "The test measures verbal and numerical ____.",
       "options": [
-        "reason-mcq-09",
+        "reason-pdf-001",
         "reason-mcq-08",
         "reason-mcq-10",
         "reason-mcq-07",
         "reason-mcq-11",
         "reason-mcq-06"
       ],
-      "explanation": "本句的「reasoning」指「從資料或證據一步步得出結論的推理過程／能力」。",
+      "explanation": "本句的「reasoning」指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "reasoning"
       ],
       "optionReasons": {
-        "reason-mcq-09": "本句指「從資料或證據一步步得出結論的推理過程／能力」。",
+        "reason-pdf-001": "本句指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
         "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
         "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
         "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
         "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
         "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
       },
-      "correctOption": "reason-mcq-09"
+      "correctOption": "reason-pdf-001"
     },
     {
       "id": "reason-11-1",
-      "sense": "reason-mcq-09",
+      "sense": "reason-pdf-001",
       "en": "Logical reasoning is important in problem-solving.",
       "zh": "邏輯推理能力在解決問題時非常重要。",
       "masked": "Logical ____ is important in problem-solving.",
       "options": [
-        "reason-mcq-09",
+        "reason-pdf-001",
         "reason-mcq-08",
         "reason-mcq-10",
         "reason-mcq-07",
         "reason-mcq-11",
         "reason-mcq-06"
       ],
-      "explanation": "本句的「reasoning」指「從資料或證據一步步得出結論的推理過程／能力」。",
+      "explanation": "本句的「reasoning」指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "reasoning"
       ],
       "optionReasons": {
-        "reason-mcq-09": "本句指「從資料或證據一步步得出結論的推理過程／能力」。",
+        "reason-pdf-001": "本句指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
         "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
         "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
         "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
         "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
         "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
       },
-      "correctOption": "reason-mcq-09"
+      "correctOption": "reason-pdf-001"
     },
     {
       "id": "reason-12-0",

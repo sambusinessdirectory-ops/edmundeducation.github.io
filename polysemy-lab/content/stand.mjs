@@ -22,16 +22,6 @@ export default {
           "I had to stand for the entire journey because there were no seats.",
           "因為沒有座位，我整段旅程都要站着。",
           "身體保持直立並由雙腳支撐，而不是坐着或躺着"
-        ],
-        [
-          "She stood beside the window and watched the rain.",
-          "她站在窗邊看雨。",
-          "身體保持直立並由雙腳支撐，而不是坐着或躺着"
-        ],
-        [
-          "A police officer was standing at the entrance.",
-          "一名警員正站在入口處。",
-          "身體保持直立並由雙腳支撐，而不是坐着或躺着"
         ]
       ],
       "options": [],
@@ -166,16 +156,6 @@ export default {
       "zh": "對某個問題持有某種意見、態度或立場",
       "note": "來源詞義：對某個問題持有某種意見、態度或立場",
       "examples": [
-        [
-          "The agreement still stands.",
-          "這項協議仍然有效／仍然成立。",
-          "對某個問題持有某種意見、態度或立場"
-        ],
-        [
-          "As things stand, we cannot afford to expand.",
-          "按目前情況來看，我們沒有能力擴展業務。",
-          "對某個問題持有某種意見、態度或立場"
-        ],
         [
           "Where do you stand on this issue?",
           "你對這個問題持甚麼立場？",
@@ -436,6 +416,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "stand-pdf-001",
+      "title": "以站立姿勢處於某個位置",
+      "form": "2. stand + place/position（所在位置） — 站在；位於",
+      "en": "2. stand + place/position（所在位置） — 站在；位於",
+      "zh": "以站立姿勢處於某個位置",
+      "note": "原始 PDF 第 2 節：以站立姿勢處於某個位置",
+      "examples": [
+        [
+          "She stood beside the window and watched the rain.",
+          "她站在窗邊看雨。",
+          "以站立姿勢處於某個位置"
+        ],
+        [
+          "A police officer was standing at the entrance.",
+          "一名警員正站在入口處。",
+          "以站立姿勢處於某個位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "stand-pdf-002",
+      "title": "某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態",
+      "form": "8. stand + condition/state（情況／狀態） — 處於某種情況",
+      "en": "8. stand + condition/state（情況／狀態） — 處於某種情況",
+      "zh": "某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態",
+      "note": "原始 PDF 第 8 節：某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態",
+      "examples": [
+        [
+          "The agreement still stands.",
+          "這項協議仍然有效／仍然成立。",
+          "某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態"
+        ],
+        [
+          "As things stand, we cannot afford to expand.",
+          "按目前情況來看，我們沒有能力擴展業務。",
+          "某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -501,63 +525,63 @@ export default {
     },
     {
       "id": "stand-02-0",
-      "sense": "stand-mcq-01",
+      "sense": "stand-pdf-001",
       "en": "She stood beside the window and watched the rain.",
       "zh": "她站在窗邊看雨。",
       "masked": "She ____ beside the window and watched the rain.",
       "options": [
-        "stand-mcq-01",
+        "stand-pdf-001",
         "stand-mcq-02",
         "stand-mcq-03",
         "stand-mcq-04",
         "stand-mcq-05",
         "stand-mcq-06"
       ],
-      "explanation": "本句的「stood」指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
+      "explanation": "本句的「stood」指「以站立姿勢處於某個位置」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "stood"
       ],
       "optionReasons": {
-        "stand-mcq-01": "本句指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
+        "stand-pdf-001": "本句指「以站立姿勢處於某個位置」。",
         "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
         "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
         "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
         "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
         "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
       },
-      "correctOption": "stand-mcq-01"
+      "correctOption": "stand-pdf-001"
     },
     {
       "id": "stand-02-1",
-      "sense": "stand-mcq-01",
+      "sense": "stand-pdf-001",
       "en": "A police officer was standing at the entrance.",
       "zh": "一名警員正站在入口處。",
       "masked": "A police officer was ____ at the entrance.",
       "options": [
-        "stand-mcq-01",
+        "stand-pdf-001",
         "stand-mcq-02",
         "stand-mcq-03",
         "stand-mcq-04",
         "stand-mcq-05",
         "stand-mcq-06"
       ],
-      "explanation": "本句的「standing」指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
+      "explanation": "本句的「standing」指「以站立姿勢處於某個位置」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "standing"
       ],
       "optionReasons": {
-        "stand-mcq-01": "本句指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
+        "stand-pdf-001": "本句指「以站立姿勢處於某個位置」。",
         "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
         "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
         "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
         "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
         "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
       },
-      "correctOption": "stand-mcq-01"
+      "correctOption": "stand-pdf-001"
     },
     {
       "id": "stand-03-0",
@@ -861,63 +885,63 @@ export default {
     },
     {
       "id": "stand-08-0",
-      "sense": "stand-mcq-08",
+      "sense": "stand-pdf-002",
       "en": "The agreement still stands.",
       "zh": "這項協議仍然有效／仍然成立。",
       "masked": "The agreement still ____.",
       "options": [
-        "stand-mcq-08",
+        "stand-pdf-002",
         "stand-mcq-07",
         "stand-mcq-09",
         "stand-mcq-06",
         "stand-mcq-10",
         "stand-mcq-05"
       ],
-      "explanation": "本句的「stands」指「對某個問題持有某種意見、態度或立場」。",
+      "explanation": "本句的「stands」指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "stands"
       ],
       "optionReasons": {
-        "stand-mcq-08": "本句指「對某個問題持有某種意見、態度或立場」。",
+        "stand-pdf-002": "本句指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
         "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
         "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
         "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
         "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
         "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。"
       },
-      "correctOption": "stand-mcq-08"
+      "correctOption": "stand-pdf-002"
     },
     {
       "id": "stand-08-1",
-      "sense": "stand-mcq-08",
+      "sense": "stand-pdf-002",
       "en": "As things stand, we cannot afford to expand.",
       "zh": "按目前情況來看，我們沒有能力擴展業務。",
       "masked": "As things ____, we cannot afford to expand.",
       "options": [
-        "stand-mcq-08",
+        "stand-pdf-002",
         "stand-mcq-07",
         "stand-mcq-09",
         "stand-mcq-06",
         "stand-mcq-10",
         "stand-mcq-05"
       ],
-      "explanation": "本句的「stand」指「對某個問題持有某種意見、態度或立場」。",
+      "explanation": "本句的「stand」指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-08": "本句指「對某個問題持有某種意見、態度或立場」。",
+        "stand-pdf-002": "本句指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
         "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
         "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
         "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
         "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
         "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。"
       },
-      "correctOption": "stand-mcq-08"
+      "correctOption": "stand-pdf-002"
     },
     {
       "id": "stand-09-0",

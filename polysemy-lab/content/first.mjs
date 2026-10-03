@@ -488,16 +488,6 @@ export default {
           "Seats are first come, first served.",
           "座位先到先得。",
           "最早到達／提出要求的人最先獲得服務或資源"
-        ],
-        [
-          "She trusted him from the first.",
-          "她從一開始便信任他。",
-          "最早到達／提出要求的人最先獲得服務或資源"
-        ],
-        [
-          "The idea seemed promising from the first.",
-          "這個想法一開始就顯得很有希望。",
-          "最早到達／提出要求的人最先獲得服務或資源"
         ]
       ],
       "options": [],
@@ -542,6 +532,28 @@ export default {
           "The work was of first-rate quality.",
           "這項工作的質素是一流的。",
           "在品質、等級或評價上屬於最高一級"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "first-pdf-001",
+      "title": "從事情最初開始的時候",
+      "form": "24. from the first = from the beginning（從一開始） — 從最初",
+      "en": "24. from the first = from the beginning（從一開始） — 從最初",
+      "zh": "從事情最初開始的時候",
+      "note": "原始 PDF 第 24 節：從事情最初開始的時候",
+      "examples": [
+        [
+          "She trusted him from the first.",
+          "她從一開始便信任他。",
+          "從事情最初開始的時候"
+        ],
+        [
+          "The idea seemed promising from the first.",
+          "這個想法一開始就顯得很有希望。",
+          "從事情最初開始的時候"
         ]
       ],
       "options": [],
@@ -1961,63 +1973,63 @@ export default {
     },
     {
       "id": "first-24-0",
-      "sense": "first-mcq-22",
+      "sense": "first-pdf-001",
       "en": "She trusted him from the first.",
       "zh": "她從一開始便信任他。",
       "masked": "She trusted him ____.",
       "options": [
-        "first-mcq-22",
+        "first-pdf-001",
         "first-mcq-21",
         "first-mcq-23",
         "first-mcq-20",
         "first-mcq-24",
         "first-mcq-19"
       ],
-      "explanation": "本句的「from the first」指「最早到達／提出要求的人最先獲得服務或資源」。",
+      "explanation": "本句的「from the first」指「從事情最初開始的時候」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "from the first"
       ],
       "optionReasons": {
-        "first-mcq-22": "本句指「最早到達／提出要求的人最先獲得服務或資源」。",
+        "first-pdf-001": "本句指「從事情最初開始的時候」。",
         "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
         "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
         "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
         "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
         "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
       },
-      "correctOption": "first-mcq-22"
+      "correctOption": "first-pdf-001"
     },
     {
       "id": "first-24-1",
-      "sense": "first-mcq-22",
+      "sense": "first-pdf-001",
       "en": "The idea seemed promising from the first.",
       "zh": "這個想法一開始就顯得很有希望。",
       "masked": "The idea seemed promising ____.",
       "options": [
-        "first-mcq-22",
+        "first-pdf-001",
         "first-mcq-21",
         "first-mcq-23",
         "first-mcq-20",
         "first-mcq-24",
         "first-mcq-19"
       ],
-      "explanation": "本句的「from the first」指「最早到達／提出要求的人最先獲得服務或資源」。",
+      "explanation": "本句的「from the first」指「從事情最初開始的時候」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "from the first"
       ],
       "optionReasons": {
-        "first-mcq-22": "本句指「最早到達／提出要求的人最先獲得服務或資源」。",
+        "first-pdf-001": "本句指「從事情最初開始的時候」。",
         "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
         "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
         "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
         "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
         "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
       },
-      "correctOption": "first-mcq-22"
+      "correctOption": "first-pdf-001"
     },
     {
       "id": "first-25-0",

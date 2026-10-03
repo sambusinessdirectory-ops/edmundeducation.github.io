@@ -308,26 +308,6 @@ export default {
           "She layered the blankets for extra warmth.",
           "她把毯子一層層疊起來增加保暖。",
           "把多個東西按層次疊放、排列或疊加"
-        ],
-        [
-          "It is easier to stay warm if you layer your clothes.",
-          "把衣服分層疊穿會比較容易保暖。",
-          "把多個東西按層次疊放、排列或疊加"
-        ],
-        [
-          "She layered a sweater under the coat.",
-          "她在外套裡疊穿了一件毛衣。",
-          "把多個東西按層次疊放、排列或疊加"
-        ],
-        [
-          "The artist layered transparent colours.",
-          "畫家把透明色彩層層疊加。",
-          "把多個東西按層次疊放、排列或疊加"
-        ],
-        [
-          "The producer layered several sounds together.",
-          "製作人把幾種聲音疊加在一起。",
-          "把多個東西按層次疊放、排列或疊加"
         ]
       ],
       "options": [],
@@ -394,6 +374,50 @@ export default {
           "Layering is useful in cold weather.",
           "寒冷天氣下，分層穿衣很有用。",
           "把衣物、顏色、聲音、材料等一層層加入的做法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "layer-pdf-001",
+      "title": "把幾件衣物按內外層次穿上",
+      "form": "15. layer = verb, wear several clothes together — 疊穿",
+      "en": "15. layer = verb, wear several clothes together — 疊穿",
+      "zh": "把幾件衣物按內外層次穿上",
+      "note": "原始 PDF 第 15 節：把幾件衣物按內外層次穿上",
+      "examples": [
+        [
+          "It is easier to stay warm if you layer your clothes.",
+          "把衣服分層疊穿會比較容易保暖。",
+          "把幾件衣物按內外層次穿上"
+        ],
+        [
+          "She layered a sweater under the coat.",
+          "她在外套裡疊穿了一件毛衣。",
+          "把幾件衣物按內外層次穿上"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "layer-pdf-002",
+      "title": "把多個視覺、聲音或效果重疊組合",
+      "form": "16. layer = verb, build visual/sound effects gradually — 疊加；層疊",
+      "en": "16. layer = verb, build visual/sound effects gradually — 疊加；層疊",
+      "zh": "把多個視覺、聲音或效果重疊組合",
+      "note": "原始 PDF 第 16 節：把多個視覺、聲音或效果重疊組合",
+      "examples": [
+        [
+          "The artist layered transparent colours.",
+          "畫家把透明色彩層層疊加。",
+          "把多個視覺、聲音或效果重疊組合"
+        ],
+        [
+          "The producer layered several sounds together.",
+          "製作人把幾種聲音疊加在一起。",
+          "把多個視覺、聲音或效果重疊組合"
         ]
       ],
       "options": [],
@@ -1243,123 +1267,123 @@ export default {
     },
     {
       "id": "layer-15-0",
-      "sense": "layer-mcq-14",
+      "sense": "layer-pdf-001",
       "en": "It is easier to stay warm if you layer your clothes.",
       "zh": "把衣服分層疊穿會比較容易保暖。",
       "masked": "It is easier to stay warm if you ____ your clothes.",
       "options": [
-        "layer-mcq-14",
+        "layer-pdf-001",
         "layer-mcq-13",
         "layer-mcq-15",
         "layer-mcq-12",
         "layer-mcq-16",
         "layer-mcq-11"
       ],
-      "explanation": "本句的「layer」指「把多個東西按層次疊放、排列或疊加」。",
+      "explanation": "本句的「layer」指「把幾件衣物按內外層次穿上」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-14": "本句指「把多個東西按層次疊放、排列或疊加」。",
+        "layer-pdf-001": "本句指「把幾件衣物按內外層次穿上」。",
         "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
         "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
         "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
         "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
         "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
       },
-      "correctOption": "layer-mcq-14"
+      "correctOption": "layer-pdf-001"
     },
     {
       "id": "layer-15-1",
-      "sense": "layer-mcq-14",
+      "sense": "layer-pdf-001",
       "en": "She layered a sweater under the coat.",
       "zh": "她在外套裡疊穿了一件毛衣。",
       "masked": "She ____ a sweater under the coat.",
       "options": [
-        "layer-mcq-14",
+        "layer-pdf-001",
         "layer-mcq-13",
         "layer-mcq-15",
         "layer-mcq-12",
         "layer-mcq-16",
         "layer-mcq-11"
       ],
-      "explanation": "本句的「layered」指「把多個東西按層次疊放、排列或疊加」。",
+      "explanation": "本句的「layered」指「把幾件衣物按內外層次穿上」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-14": "本句指「把多個東西按層次疊放、排列或疊加」。",
+        "layer-pdf-001": "本句指「把幾件衣物按內外層次穿上」。",
         "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
         "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
         "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
         "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
         "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
       },
-      "correctOption": "layer-mcq-14"
+      "correctOption": "layer-pdf-001"
     },
     {
       "id": "layer-16-0",
-      "sense": "layer-mcq-14",
+      "sense": "layer-pdf-002",
       "en": "The artist layered transparent colours.",
       "zh": "畫家把透明色彩層層疊加。",
       "masked": "The artist ____ transparent colours.",
       "options": [
-        "layer-mcq-14",
+        "layer-pdf-002",
         "layer-mcq-13",
         "layer-mcq-15",
         "layer-mcq-12",
         "layer-mcq-16",
         "layer-mcq-11"
       ],
-      "explanation": "本句的「layered」指「把多個東西按層次疊放、排列或疊加」。",
+      "explanation": "本句的「layered」指「把多個視覺、聲音或效果重疊組合」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-14": "本句指「把多個東西按層次疊放、排列或疊加」。",
+        "layer-pdf-002": "本句指「把多個視覺、聲音或效果重疊組合」。",
         "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
         "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
         "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
         "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
         "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
       },
-      "correctOption": "layer-mcq-14"
+      "correctOption": "layer-pdf-002"
     },
     {
       "id": "layer-16-1",
-      "sense": "layer-mcq-14",
+      "sense": "layer-pdf-002",
       "en": "The producer layered several sounds together.",
       "zh": "製作人把幾種聲音疊加在一起。",
       "masked": "The producer ____ several sounds together.",
       "options": [
-        "layer-mcq-14",
+        "layer-pdf-002",
         "layer-mcq-13",
         "layer-mcq-15",
         "layer-mcq-12",
         "layer-mcq-16",
         "layer-mcq-11"
       ],
-      "explanation": "本句的「layered」指「把多個東西按層次疊放、排列或疊加」。",
+      "explanation": "本句的「layered」指「把多個視覺、聲音或效果重疊組合」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-14": "本句指「把多個東西按層次疊放、排列或疊加」。",
+        "layer-pdf-002": "本句指「把多個視覺、聲音或效果重疊組合」。",
         "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
         "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
         "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
         "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
         "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
       },
-      "correctOption": "layer-mcq-14"
+      "correctOption": "layer-pdf-002"
     },
     {
       "id": "layer-17-0",

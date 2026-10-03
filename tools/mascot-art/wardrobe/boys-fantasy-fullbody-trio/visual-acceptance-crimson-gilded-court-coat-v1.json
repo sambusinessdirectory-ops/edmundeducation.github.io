@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemId": "crimson-gilded-court-coat",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "accepted",
+  "humanVisualAcceptance": true,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "same-angle bare and full-body outfit comparison for Eddy and Noir in the actual standing 3D renderer",
+    "all 16 directions for both characters, including fronts, profiles, rear and diagonals",
+    "open-eye and blink states with exact runtime atlases",
+    "dark, midtone and light renderer backgrounds",
+    "independent fitted crimson gilded court coat with front, side and back garment details matching the reference",
+    "the full-body slot clears tops and lower-body clothing, including pants, and preserves compatible headwear and footwear",
+    "canonical face, eyes, ears, bridle, mane, tail, hoof hands and hoof feet remain visible and correctly occluded",
+    "botanical-cap plus outfit plus shearling-boots compatibility",
+    "no clipping, colored fringe, background matte, white halo, missing cells or copied character overlay"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/crimson-gilded-court-coat.webp": "6886c2f020cbe6c77c25e8a5c3c5fcd933b9627b0d22fab5ba347ae9ec3e22e2",
+    "assets/speaking-system/cosmetics/noir/crimson-gilded-court-coat.webp": "1a6bf4fefd079fbc19a3525b761ffbd8ab9748c8fc60f0a5f50ef92aa6d5b271",
+    "assets/speaking-system/cosmetics/shared/crimson-gilded-court-coat-display.png": "beb9fac3f1666e167e5ad75d9ed4b351c9b49c8a8a3dd2297a8289f49edcfcf0"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-bare-3d-dark-open.jpg": "dc15a4b46e8a33ed94778b2e311cae9a474e7b7e6764a8113d9728a423e6ec00",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-crimson-gilded-court-coat-3d-dark-open.jpg": "58037fa6df9ebfd071c0995f48bdc78a8eb43fe591233d7e7c1a8d048231a59e",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-crimson-gilded-court-coat-3d-blink.jpg": "f07ed6900ccf2acfe61b17a36e2469268c3636def17e6d71562b16dd6abfd2fa",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-crimson-gilded-court-coat-3d-light-open.jpg": "fb0fface29247ce6f781063a31faff5fb1b529439a2302c89e18e7b32925c245",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-crimson-gilded-court-coat-combination-3d-open.jpg": "cc0162cc8e285ea42239d6a3cc5c8915c42d4b531a5d1b3b1f3ff04fe9b7897b",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-eddy-crimson-gilded-court-coat-combination-3d-blink.jpg": "df18de73d98677673166e3cdb018e4dd8ae4418dd75d0db9923a868d70461f83",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-bare-3d-dark-open.jpg": "7dc80e40ed64abe3f523ef74a402daa30dc6312e96bd710409418fb763757068",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-crimson-gilded-court-coat-3d-dark-open.jpg": "e47b375f0c64bf2219f0c97b15e32885f02142d25a0eb5ecc0282da0c094e12e",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-crimson-gilded-court-coat-3d-blink.jpg": "e0b40385e506992363f363f1cf1897ec04303b886cc87816966519d071172f05",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-crimson-gilded-court-coat-3d-light-open.jpg": "87ed10c71e886420f8fe1df3e57a94d536fdaef927250f489ededd8d51618086",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-crimson-gilded-court-coat-combination-3d-open.jpg": "9245908c02796ac849da024f452b31eb19020d1b071f3ebcc7a918d8d290294d",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-noir-crimson-gilded-court-coat-combination-3d-blink.jpg": "2833afe343b5c39872c093cf59e512773e54831a966e5697c78321306b2daaa2",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-approval-crimson-gilded-court-coat-v1.jpg": "49c471492f1044495f1bf41a847dba3adb63cf096ce58801a5860af77db39af6",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-detail-crimson-gilded-court-coat-v1.jpg": "5408a51bd2caa54eef2efb933006c3e5cd9ab0652bacbf16c373dc5260e77c6d",
+    "tools/mascot-art/wardrobe/boys-fantasy-fullbody-trio/qa-overview-v1.jpg": "6496b7eb0c362b457551e3cb9c6053e807975e6893e42ebbdb84ff1fea264cc2"
+  },
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-02T17:59:08Z"
+}

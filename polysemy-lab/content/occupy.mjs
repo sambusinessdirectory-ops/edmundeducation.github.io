@@ -93,16 +93,6 @@ export default {
           "He occupied the post for five years.",
           "他擔任這個職位五年。",
           "擔任某職位，或在排名／結構中佔據某位置"
-        ],
-        [
-          "The company occupies third place in the market.",
-          "這家公司在市場上位居第三。",
-          "擔任某職位，或在排名／結構中佔據某位置"
-        ],
-        [
-          "The topic occupies a central position in the debate.",
-          "這個議題在辯論中佔據核心位置。",
-          "擔任某職位，或在排名／結構中佔據某位置"
         ]
       ],
       "options": [],
@@ -182,16 +172,6 @@ export default {
       "zh": "進駐並控制某個地區、城市、建築等；佔領／佔據",
       "note": "來源詞義：進駐並控制某個地區、城市、建築等；佔領／佔據",
       "examples": [
-        [
-          "The army occupied the city.",
-          "軍隊佔領了這座城市。",
-          "進駐並控制某個地區、城市、建築等；佔領／佔據"
-        ],
-        [
-          "The territory remained occupied for several years.",
-          "該地區被佔領了數年。",
-          "進駐並控制某個地區、城市、建築等；佔領／佔據"
-        ],
         [
           "Protesters occupied the building overnight.",
           "示威者通宵佔據了該建築物。",
@@ -291,6 +271,50 @@ export default {
       "zh": "與工作／職業有關的",
       "note": "來源詞義：與工作／職業有關的",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "occupy-pdf-001",
+      "title": "在某個順序、結構或抽象空間中處於某個位置",
+      "form": "6. occupy = take a particular place in an order/ranking（位置／排名） — 處於；佔據",
+      "en": "6. occupy = take a particular place in an order/ranking（位置／排名） — 處於；佔據",
+      "zh": "在某個順序、結構或抽象空間中處於某個位置",
+      "note": "原始 PDF 第 6 節：在某個順序、結構或抽象空間中處於某個位置",
+      "examples": [
+        [
+          "The company occupies third place in the market.",
+          "這家公司在市場上位居第三。",
+          "在某個順序、結構或抽象空間中處於某個位置"
+        ],
+        [
+          "The topic occupies a central position in the debate.",
+          "這個議題在辯論中佔據核心位置。",
+          "在某個順序、結構或抽象空間中處於某個位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "occupy-pdf-002",
+      "title": "進入某地並實際控制該地，通常帶有軍事或強制性",
+      "form": "11. occupy = seize and control territory/buildings by force（軍事／政治） — 佔領",
+      "en": "11. occupy = seize and control territory/buildings by force（軍事／政治） — 佔領",
+      "zh": "進入某地並實際控制該地，通常帶有軍事或強制性",
+      "note": "原始 PDF 第 11 節：進入某地並實際控制該地，通常帶有軍事或強制性",
+      "examples": [
+        [
+          "The army occupied the city.",
+          "軍隊佔領了這座城市。",
+          "進入某地並實際控制該地，通常帶有軍事或強制性"
+        ],
+        [
+          "The territory remained occupied for several years.",
+          "該地區被佔領了數年。",
+          "進入某地並實際控制該地，通常帶有軍事或強制性"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -568,63 +592,63 @@ export default {
     },
     {
       "id": "occupy-06-0",
-      "sense": "occupy-mcq-04",
+      "sense": "occupy-pdf-001",
       "en": "The company occupies third place in the market.",
       "zh": "這家公司在市場上位居第三。",
       "masked": "The company ____ third place in the market.",
       "options": [
-        "occupy-mcq-04",
+        "occupy-pdf-001",
         "occupy-mcq-03",
         "occupy-mcq-05",
         "occupy-mcq-02",
         "occupy-mcq-06",
         "occupy-mcq-01"
       ],
-      "explanation": "本句的「occupies」指「擔任某職位，或在排名／結構中佔據某位置」。",
+      "explanation": "本句的「occupies」指「在某個順序、結構或抽象空間中處於某個位置」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "occupies"
       ],
       "optionReasons": {
-        "occupy-mcq-04": "本句指「擔任某職位，或在排名／結構中佔據某位置」。",
+        "occupy-pdf-001": "本句指「在某個順序、結構或抽象空間中處於某個位置」。",
         "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
         "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
         "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
         "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
         "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。"
       },
-      "correctOption": "occupy-mcq-04"
+      "correctOption": "occupy-pdf-001"
     },
     {
       "id": "occupy-06-1",
-      "sense": "occupy-mcq-04",
+      "sense": "occupy-pdf-001",
       "en": "The topic occupies a central position in the debate.",
       "zh": "這個議題在辯論中佔據核心位置。",
       "masked": "The topic ____ a central position in the debate.",
       "options": [
-        "occupy-mcq-04",
+        "occupy-pdf-001",
         "occupy-mcq-03",
         "occupy-mcq-05",
         "occupy-mcq-02",
         "occupy-mcq-06",
         "occupy-mcq-01"
       ],
-      "explanation": "本句的「occupies」指「擔任某職位，或在排名／結構中佔據某位置」。",
+      "explanation": "本句的「occupies」指「在某個順序、結構或抽象空間中處於某個位置」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "occupies"
       ],
       "optionReasons": {
-        "occupy-mcq-04": "本句指「擔任某職位，或在排名／結構中佔據某位置」。",
+        "occupy-pdf-001": "本句指「在某個順序、結構或抽象空間中處於某個位置」。",
         "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
         "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
         "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
         "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
         "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。"
       },
-      "correctOption": "occupy-mcq-04"
+      "correctOption": "occupy-pdf-001"
     },
     {
       "id": "occupy-07-0",
@@ -808,63 +832,63 @@ export default {
     },
     {
       "id": "occupy-11-0",
-      "sense": "occupy-mcq-08",
+      "sense": "occupy-pdf-002",
       "en": "The army occupied the city.",
       "zh": "軍隊佔領了這座城市。",
       "masked": "The army ____ the city.",
       "options": [
-        "occupy-mcq-08",
+        "occupy-pdf-002",
         "occupy-mcq-07",
         "occupy-mcq-09",
         "occupy-mcq-06",
         "occupy-mcq-10",
         "occupy-mcq-05"
       ],
-      "explanation": "本句的「occupied」指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
+      "explanation": "本句的「occupied」指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-08": "本句指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
+        "occupy-pdf-002": "本句指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
         "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
         "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
         "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
         "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
         "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。"
       },
-      "correctOption": "occupy-mcq-08"
+      "correctOption": "occupy-pdf-002"
     },
     {
       "id": "occupy-11-1",
-      "sense": "occupy-mcq-08",
+      "sense": "occupy-pdf-002",
       "en": "The territory remained occupied for several years.",
       "zh": "該地區被佔領了數年。",
       "masked": "The territory remained ____ for several years.",
       "options": [
-        "occupy-mcq-08",
+        "occupy-pdf-002",
         "occupy-mcq-07",
         "occupy-mcq-09",
         "occupy-mcq-06",
         "occupy-mcq-10",
         "occupy-mcq-05"
       ],
-      "explanation": "本句的「occupied」指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
+      "explanation": "本句的「occupied」指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-08": "本句指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
+        "occupy-pdf-002": "本句指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
         "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
         "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
         "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
         "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
         "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。"
       },
-      "correctOption": "occupy-mcq-08"
+      "correctOption": "occupy-pdf-002"
     },
     {
       "id": "occupy-12-0",

@@ -12,18 +12,7 @@ export default {
       "en": "masterpiece — general",
       "zh": "在藝術、創作、設計或技藝上達到極高水準的傑出作品",
       "note": "來源詞義：在藝術、創作、設計或技藝上達到極高水準的傑出作品",
-      "examples": [
-        [
-          "The painting is widely regarded as a masterpiece.",
-          "這幅畫被廣泛視為一件藝術傑作。",
-          "在藝術、創作、設計或技藝上達到極高水準的傑出作品"
-        ],
-        [
-          "The museum displays several masterpieces.",
-          "博物館展出多件傑作。",
-          "在藝術、創作、設計或技藝上達到極高水準的傑出作品"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -269,68 +258,90 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "masterpiece-pdf-001",
+      "title": "在藝術品質、技巧、影響力或完成度上極為出色的作品",
+      "form": "1. masterpiece = exceptionally great work of art — 藝術傑作",
+      "en": "1. masterpiece = exceptionally great work of art — 藝術傑作",
+      "zh": "在藝術品質、技巧、影響力或完成度上極為出色的作品",
+      "note": "原始 PDF 第 1 節：在藝術品質、技巧、影響力或完成度上極為出色的作品",
+      "examples": [
+        [
+          "The painting is widely regarded as a masterpiece.",
+          "這幅畫被廣泛視為一件藝術傑作。",
+          "在藝術品質、技巧、影響力或完成度上極為出色的作品"
+        ],
+        [
+          "The museum displays several masterpieces.",
+          "博物館展出多件傑作。",
+          "在藝術品質、技巧、影響力或完成度上極為出色的作品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "masterpiece-01-0",
-      "sense": "masterpiece-mcq-01",
+      "sense": "masterpiece-pdf-001",
       "en": "The painting is widely regarded as a masterpiece.",
       "zh": "這幅畫被廣泛視為一件藝術傑作。",
       "masked": "The painting is widely regarded as a ____.",
       "options": [
-        "masterpiece-mcq-01",
+        "masterpiece-pdf-001",
         "masterpiece-mcq-02",
         "masterpiece-mcq-03",
         "masterpiece-mcq-04",
         "masterpiece-mcq-05",
         "masterpiece-mcq-06"
       ],
-      "explanation": "本句的「masterpiece」指「在藝術、創作、設計或技藝上達到極高水準的傑出作品」。",
+      "explanation": "本句的「masterpiece」指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-01": "本句指「在藝術、創作、設計或技藝上達到極高水準的傑出作品」。",
+        "masterpiece-pdf-001": "本句指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
         "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。",
         "masterpiece-mcq-03": "「作曲／音樂創作水準極高的作品」與本句語境不同。",
         "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
         "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
         "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
       },
-      "correctOption": "masterpiece-mcq-01"
+      "correctOption": "masterpiece-pdf-001"
     },
     {
       "id": "masterpiece-01-1",
-      "sense": "masterpiece-mcq-01",
+      "sense": "masterpiece-pdf-001",
       "en": "The museum displays several masterpieces.",
       "zh": "博物館展出多件傑作。",
       "masked": "The museum displays several ____.",
       "options": [
-        "masterpiece-mcq-01",
+        "masterpiece-pdf-001",
         "masterpiece-mcq-02",
         "masterpiece-mcq-03",
         "masterpiece-mcq-04",
         "masterpiece-mcq-05",
         "masterpiece-mcq-06"
       ],
-      "explanation": "本句的「masterpieces」指「在藝術、創作、設計或技藝上達到極高水準的傑出作品」。",
+      "explanation": "本句的「masterpieces」指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
       "sentenceIndex": 1,
       "sourcePractice": 1,
       "targets": [
         "masterpieces"
       ],
       "optionReasons": {
-        "masterpiece-mcq-01": "本句指「在藝術、創作、設計或技藝上達到極高水準的傑出作品」。",
+        "masterpiece-pdf-001": "本句指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
         "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。",
         "masterpiece-mcq-03": "「作曲／音樂創作水準極高的作品」與本句語境不同。",
         "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
         "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
         "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
       },
-      "correctOption": "masterpiece-mcq-01"
+      "correctOption": "masterpiece-pdf-001"
     },
     {
       "id": "masterpiece-03-0",

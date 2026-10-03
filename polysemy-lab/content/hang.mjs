@@ -198,16 +198,6 @@ export default {
           "The threat of closure hung over the museum.",
           "閉館的威脅一直籠罩著博物館。",
           "某種威脅、不確定性等持續籠罩"
-        ],
-        [
-          "We just hung around the gallery after lunch.",
-          "午飯後我們只是在畫廊附近閒逛／待著。",
-          "某種威脅、不確定性等持續籠罩"
-        ],
-        [
-          "They were hanging outside the café.",
-          "他們當時在咖啡店外面待著。",
-          "某種威脅、不確定性等持續籠罩"
         ]
       ],
       "options": [],
@@ -221,16 +211,6 @@ export default {
       "zh": "程式／系統停止回應或卡死",
       "note": "來源詞義：程式／系統停止回應或卡死",
       "examples": [
-        [
-          "The success of the plan may hang on one decision.",
-          "這個計劃能否成功可能取決於一個決定。",
-          "程式／系統停止回應或卡死"
-        ],
-        [
-          "Everything hangs on whether funding is approved.",
-          "一切都取決於資金是否獲批。",
-          "程式／系統停止回應或卡死"
-        ],
         [
           "The program hung while opening the file.",
           "程式在開啟檔案時卡住／當機了。",
@@ -306,6 +286,50 @@ export default {
           "The museum displayed a large wall hanging.",
           "博物館展示了一幅大型壁掛／掛毯。",
           "掛在牆上／空中的裝飾物，尤其是布藝作品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hang-pdf-001",
+      "title": "在某處停留、逗留",
+      "form": "10. hang = stay/remain somewhere casually（口語） — 待著；逗留",
+      "en": "10. hang = stay/remain somewhere casually（口語） — 待著；逗留",
+      "zh": "在某處停留、逗留",
+      "note": "原始 PDF 第 10 節：在某處停留、逗留",
+      "examples": [
+        [
+          "We just hung around the gallery after lunch.",
+          "午飯後我們只是在畫廊附近閒逛／待著。",
+          "在某處停留、逗留"
+        ],
+        [
+          "They were hanging outside the café.",
+          "他們當時在咖啡店外面待著。",
+          "在某處停留、逗留"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hang-pdf-002",
+      "title": "取決於……",
+      "form": "11. hang = depend/be decided on something — 取決於；繫於",
+      "en": "11. hang = depend/be decided on something — 取決於；繫於",
+      "zh": "取決於……",
+      "note": "原始 PDF 第 11 節：取決於……",
+      "examples": [
+        [
+          "The success of the plan may hang on one decision.",
+          "這個計劃能否成功可能取決於一個決定。",
+          "取決於……"
+        ],
+        [
+          "Everything hangs on whether funding is approved.",
+          "一切都取決於資金是否獲批。",
+          "取決於……"
         ]
       ],
       "options": [],
@@ -855,123 +879,123 @@ export default {
     },
     {
       "id": "hang-10-0",
-      "sense": "hang-mcq-09",
+      "sense": "hang-pdf-001",
       "en": "We just hung around the gallery after lunch.",
       "zh": "午飯後我們只是在畫廊附近閒逛／待著。",
       "masked": "We just ____ around the gallery after lunch.",
       "options": [
-        "hang-mcq-09",
+        "hang-pdf-001",
         "hang-mcq-08",
         "hang-mcq-10",
         "hang-mcq-07",
         "hang-mcq-11",
         "hang-mcq-06"
       ],
-      "explanation": "本句的「hung」指「某種威脅、不確定性等持續籠罩」。",
+      "explanation": "本句的「hung」指「在某處停留、逗留」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-09": "本句指「某種威脅、不確定性等持續籠罩」。",
+        "hang-pdf-001": "本句指「在某處停留、逗留」。",
         "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
         "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
         "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
         "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
         "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
       },
-      "correctOption": "hang-mcq-09"
+      "correctOption": "hang-pdf-001"
     },
     {
       "id": "hang-10-1",
-      "sense": "hang-mcq-09",
+      "sense": "hang-pdf-001",
       "en": "They were hanging outside the café.",
       "zh": "他們當時在咖啡店外面待著。",
       "masked": "They were ____ outside the café.",
       "options": [
-        "hang-mcq-09",
+        "hang-pdf-001",
         "hang-mcq-08",
         "hang-mcq-10",
         "hang-mcq-07",
         "hang-mcq-11",
         "hang-mcq-06"
       ],
-      "explanation": "本句的「hanging」指「某種威脅、不確定性等持續籠罩」。",
+      "explanation": "本句的「hanging」指「在某處停留、逗留」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-09": "本句指「某種威脅、不確定性等持續籠罩」。",
+        "hang-pdf-001": "本句指「在某處停留、逗留」。",
         "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
         "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
         "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
         "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
         "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
       },
-      "correctOption": "hang-mcq-09"
+      "correctOption": "hang-pdf-001"
     },
     {
       "id": "hang-11-0",
-      "sense": "hang-mcq-10",
+      "sense": "hang-pdf-002",
       "en": "The success of the plan may hang on one decision.",
       "zh": "這個計劃能否成功可能取決於一個決定。",
       "masked": "The success of the plan may ____ one decision.",
       "options": [
-        "hang-mcq-10",
+        "hang-pdf-002",
         "hang-mcq-09",
         "hang-mcq-11",
         "hang-mcq-08",
         "hang-mcq-12",
         "hang-mcq-07"
       ],
-      "explanation": "本句的「hang on」指「程式／系統停止回應或卡死」。",
+      "explanation": "本句的「hang on」指「取決於……」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "hang on"
       ],
       "optionReasons": {
-        "hang-mcq-10": "本句指「程式／系統停止回應或卡死」。",
+        "hang-pdf-002": "本句指「取決於……」。",
         "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
         "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
         "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
         "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
         "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。"
       },
-      "correctOption": "hang-mcq-10"
+      "correctOption": "hang-pdf-002"
     },
     {
       "id": "hang-11-1",
-      "sense": "hang-mcq-10",
+      "sense": "hang-pdf-002",
       "en": "Everything hangs on whether funding is approved.",
       "zh": "一切都取決於資金是否獲批。",
       "masked": "Everything ____ on whether funding is approved.",
       "options": [
-        "hang-mcq-10",
+        "hang-pdf-002",
         "hang-mcq-09",
         "hang-mcq-11",
         "hang-mcq-08",
         "hang-mcq-12",
         "hang-mcq-07"
       ],
-      "explanation": "本句的「hangs」指「程式／系統停止回應或卡死」。",
+      "explanation": "本句的「hangs」指「取決於……」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "hangs"
       ],
       "optionReasons": {
-        "hang-mcq-10": "本句指「程式／系統停止回應或卡死」。",
+        "hang-pdf-002": "本句指「取決於……」。",
         "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
         "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
         "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
         "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
         "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。"
       },
-      "correctOption": "hang-mcq-10"
+      "correctOption": "hang-pdf-002"
     },
     {
       "id": "hang-12-0",

@@ -338,16 +338,6 @@ export default {
       "note": "來源詞義：政府／公共機構中承擔公共權力或責任的正式職位",
       "examples": [
         [
-          "He was treated at a public hospital.",
-          "他在一家公立醫院接受治療。",
-          "政府／公共機構中承擔公共權力或責任的正式職位"
-        ],
-        [
-          "The country has invested heavily in public healthcare.",
-          "該國在公共醫療／公營醫療方面投入大量資源。",
-          "政府／公共機構中承擔公共權力或責任的正式職位"
-        ],
-        [
           "She has held public office for many years.",
           "她擔任公職多年。",
           "政府／公共機構中承擔公共權力或責任的正式職位"
@@ -620,16 +610,6 @@ export default {
           "She had never publicly discussed the experience.",
           "她以前從未公開談論這段經歷。",
           "在社會大眾可以看到、聽到或知道的情況下"
-        ],
-        [
-          "The organization is publicly funded.",
-          "該機構由公共資金／政府資金資助。",
-          "在社會大眾可以看到、聽到或知道的情況下"
-        ],
-        [
-          "The service is publicly owned.",
-          "這項服務屬於公共／政府所有。",
-          "在社會大眾可以看到、聽到或知道的情況下"
         ]
       ],
       "options": [],
@@ -827,6 +807,50 @@ export default {
           "Its shares are publicly traded on the stock exchange.",
           "它的股份在交易所公開買賣。",
           "公司股份可在公開證券市場買賣的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "public-pdf-001",
+      "title": "主要由政府／公共資金支持、服務一般市民的醫療系統",
+      "form": "15. public hospital/healthcare（公營醫療） — 公立醫院；公共醫療",
+      "en": "15. public hospital/healthcare（公營醫療） — 公立醫院；公共醫療",
+      "zh": "主要由政府／公共資金支持、服務一般市民的醫療系統",
+      "note": "原始 PDF 第 15 節：主要由政府／公共資金支持、服務一般市民的醫療系統",
+      "examples": [
+        [
+          "He was treated at a public hospital.",
+          "他在一家公立醫院接受治療。",
+          "主要由政府／公共資金支持、服務一般市民的醫療系統"
+        ],
+        [
+          "The country has invested heavily in public healthcare.",
+          "該國在公共醫療／公營醫療方面投入大量資源。",
+          "主要由政府／公共資金支持、服務一般市民的醫療系統"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "public-pdf-002",
+      "title": "由政府／公共機構資助或擁有",
+      "form": "30. publicly = in a government/public ownership context（公營地／由公共資金） — 公營；公",
+      "en": "30. publicly = in a government/public ownership context（公營地／由公共資金） — 公營；公",
+      "zh": "由政府／公共機構資助或擁有",
+      "note": "原始 PDF 第 30 節：由政府／公共機構資助或擁有",
+      "examples": [
+        [
+          "The organization is publicly funded.",
+          "該機構由公共資金／政府資金資助。",
+          "由政府／公共機構資助或擁有"
+        ],
+        [
+          "The service is publicly owned.",
+          "這項服務屬於公共／政府所有。",
+          "由政府／公共機構資助或擁有"
         ]
       ],
       "options": [],
@@ -1706,63 +1730,63 @@ export default {
     },
     {
       "id": "public-15-0",
-      "sense": "public-mcq-16",
+      "sense": "public-pdf-001",
       "en": "He was treated at a public hospital.",
       "zh": "他在一家公立醫院接受治療。",
       "masked": "He was treated at a ____.",
       "options": [
-        "public-mcq-16",
+        "public-pdf-001",
         "public-mcq-15",
         "public-mcq-17",
         "public-mcq-14",
         "public-mcq-18",
         "public-mcq-13"
       ],
-      "explanation": "本句的「public hospital」指「政府／公共機構中承擔公共權力或責任的正式職位」。",
+      "explanation": "本句的「public hospital」指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "public hospital"
       ],
       "optionReasons": {
-        "public-mcq-16": "本句指「政府／公共機構中承擔公共權力或責任的正式職位」。",
+        "public-pdf-001": "本句指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
         "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
         "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
         "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
         "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
         "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。"
       },
-      "correctOption": "public-mcq-16"
+      "correctOption": "public-pdf-001"
     },
     {
       "id": "public-15-1",
-      "sense": "public-mcq-16",
+      "sense": "public-pdf-001",
       "en": "The country has invested heavily in public healthcare.",
       "zh": "該國在公共醫療／公營醫療方面投入大量資源。",
       "masked": "The country has invested heavily in ____.",
       "options": [
-        "public-mcq-16",
+        "public-pdf-001",
         "public-mcq-15",
         "public-mcq-17",
         "public-mcq-14",
         "public-mcq-18",
         "public-mcq-13"
       ],
-      "explanation": "本句的「public healthcare」指「政府／公共機構中承擔公共權力或責任的正式職位」。",
+      "explanation": "本句的「public healthcare」指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "public healthcare"
       ],
       "optionReasons": {
-        "public-mcq-16": "本句指「政府／公共機構中承擔公共權力或責任的正式職位」。",
+        "public-pdf-001": "本句指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
         "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
         "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
         "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
         "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
         "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。"
       },
-      "correctOption": "public-mcq-16"
+      "correctOption": "public-pdf-001"
     },
     {
       "id": "public-16-0",
@@ -2546,63 +2570,63 @@ export default {
     },
     {
       "id": "public-30-0",
-      "sense": "public-mcq-29",
+      "sense": "public-pdf-002",
       "en": "The organization is publicly funded.",
       "zh": "該機構由公共資金／政府資金資助。",
       "masked": "The organization is ____.",
       "options": [
-        "public-mcq-29",
+        "public-pdf-002",
         "public-mcq-28",
         "public-mcq-30",
         "public-mcq-27",
         "public-mcq-31",
         "public-mcq-26"
       ],
-      "explanation": "本句的「publicly funded」指「在社會大眾可以看到、聽到或知道的情況下」。",
+      "explanation": "本句的「publicly funded」指「由政府／公共機構資助或擁有」。",
       "sentenceIndex": 57,
       "sourcePractice": 58,
       "targets": [
         "publicly funded"
       ],
       "optionReasons": {
-        "public-mcq-29": "本句指「在社會大眾可以看到、聽到或知道的情況下」。",
+        "public-pdf-002": "本句指「由政府／公共機構資助或擁有」。",
         "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
         "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
         "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
         "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
         "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。"
       },
-      "correctOption": "public-mcq-29"
+      "correctOption": "public-pdf-002"
     },
     {
       "id": "public-30-1",
-      "sense": "public-mcq-29",
+      "sense": "public-pdf-002",
       "en": "The service is publicly owned.",
       "zh": "這項服務屬於公共／政府所有。",
       "masked": "The service is ____.",
       "options": [
-        "public-mcq-29",
+        "public-pdf-002",
         "public-mcq-28",
         "public-mcq-30",
         "public-mcq-27",
         "public-mcq-31",
         "public-mcq-26"
       ],
-      "explanation": "本句的「publicly owned」指「在社會大眾可以看到、聽到或知道的情況下」。",
+      "explanation": "本句的「publicly owned」指「由政府／公共機構資助或擁有」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "publicly owned"
       ],
       "optionReasons": {
-        "public-mcq-29": "本句指「在社會大眾可以看到、聽到或知道的情況下」。",
+        "public-pdf-002": "本句指「由政府／公共機構資助或擁有」。",
         "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
         "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
         "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
         "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
         "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。"
       },
-      "correctOption": "public-mcq-29"
+      "correctOption": "public-pdf-002"
     },
     {
       "id": "public-31-0",

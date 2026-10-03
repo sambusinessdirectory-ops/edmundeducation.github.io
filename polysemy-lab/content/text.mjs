@@ -54,6 +54,11 @@ export default {
           "Make the text larger.",
           "把文字放大。",
           "與圖片、聲音等相對的文字內容"
+        ],
+        [
+          "The website combines text and images.",
+          "網站結合了文字與圖像。",
+          "與圖片、聲音等相對的文字內容"
         ]
       ],
       "options": [],
@@ -1384,13 +1389,7 @@ export default {
       "en": "text-to-image",
       "zh": "由文字描述生成圖像",
       "note": "來源詞義：由文字描述生成圖像",
-      "examples": [
-        [
-          "The website combines text and images.",
-          "網站結合了文字與圖像。",
-          "由文字描述生成圖像"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1721,33 +1720,33 @@ export default {
     },
     {
       "id": "text-05-0",
-      "sense": "text-mcq-111",
+      "sense": "text-mcq-02",
       "en": "The website combines text and images.",
       "zh": "網站結合了文字與圖像。",
       "masked": "The website combines ____ and images.",
       "options": [
-        "text-mcq-111",
-        "text-mcq-110",
-        "text-mcq-112",
-        "text-mcq-109",
-        "text-mcq-113",
-        "text-mcq-108"
+        "text-mcq-02",
+        "text-mcq-01",
+        "text-mcq-03",
+        "text-mcq-04",
+        "text-mcq-05",
+        "text-mcq-06"
       ],
-      "explanation": "本句的「text」指「由文字描述生成圖像」。",
+      "explanation": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
       "sentenceIndex": 6,
       "sourcePractice": 5,
       "targets": [
         "text"
       ],
       "optionReasons": {
-        "text-mcq-111": "本句指「由文字描述生成圖像」。",
-        "text-mcq-110": "「中把文本轉成數值向量表示」與本句語境不同。",
-        "text-mcq-112": "「由文字輸入生成影片」與本句語境不同。",
-        "text-mcq-109": "「用短縮寫自動展開成預設較長文字的功能」與本句語境不同。",
-        "text-mcq-113": "「提供給模型／系統的文字提示」與本句語境不同。",
-        "text-mcq-108": "「根據已輸入內容預測下一字詞的文字預測功能」與本句語境不同。"
+        "text-mcq-02": "本句指「與圖片、聲音等相對的文字內容」。",
+        "text-mcq-01": "「學生表演所依據的原來書面作品／原文」與本句語境不同。",
+        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
+        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
+        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
+        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
       },
-      "correctOption": "text-mcq-111"
+      "correctOption": "text-mcq-02"
     },
     {
       "id": "text-07-0",

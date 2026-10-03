@@ -347,18 +347,7 @@ export default {
       "en": "the good",
       "zh": "道德上正確、正面或有益的事物／特質",
       "note": "來源詞義：道德上正確、正面或有益的事物／特質",
-      "examples": [
-        [
-          "People often disagree about what counts as the good.",
-          "人們常常對甚麼才算是善／真正的好有不同看法。",
-          "道德上正確、正面或有益的事物／特質"
-        ],
-        [
-          "She always tries to see the good in people.",
-          "她總是嘗試看到別人身上的優點／善意。",
-          "道德上正確、正面或有益的事物／特質"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -577,6 +566,28 @@ export default {
           "Part of the purchase price reflected the brand’s goodwill.",
           "部分收購價反映了品牌的商譽價值。",
           "品牌、聲譽和客戶關係等帶來的額外無形商業價值"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "good-pdf-001",
+      "title": "有價值、正面或善良的部分",
+      "form": "16. the good = what is morally right/beneficial（名詞化） — 善；好處；有益之事",
+      "en": "16. the good = what is morally right/beneficial（名詞化） — 善；好處；有益之事",
+      "zh": "有價值、正面或善良的部分",
+      "note": "原始 PDF 第 16 節：有價值、正面或善良的部分",
+      "examples": [
+        [
+          "People often disagree about what counts as the good.",
+          "人們常常對甚麼才算是善／真正的好有不同看法。",
+          "有價值、正面或善良的部分"
+        ],
+        [
+          "She always tries to see the good in people.",
+          "她總是嘗試看到別人身上的優點／善意。",
+          "有價值、正面或善良的部分"
         ]
       ],
       "options": [],
@@ -1516,63 +1527,63 @@ export default {
     },
     {
       "id": "good-16-0",
-      "sense": "good-mcq-16",
+      "sense": "good-pdf-001",
       "en": "People often disagree about what counts as the good.",
       "zh": "人們常常對甚麼才算是善／真正的好有不同看法。",
       "masked": "People often disagree about what counts as ____.",
       "options": [
-        "good-mcq-16",
+        "good-pdf-001",
         "good-mcq-15",
         "good-mcq-17",
         "good-mcq-14",
         "good-mcq-18",
         "good-mcq-13"
       ],
-      "explanation": "本句的「the good」指「道德上正確、正面或有益的事物／特質」。",
+      "explanation": "本句的「the good」指「有價值、正面或善良的部分」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "the good"
       ],
       "optionReasons": {
-        "good-mcq-16": "本句指「道德上正確、正面或有益的事物／特質」。",
+        "good-pdf-001": "本句指「有價值、正面或善良的部分」。",
         "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
         "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
         "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
         "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
         "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。"
       },
-      "correctOption": "good-mcq-16"
+      "correctOption": "good-pdf-001"
     },
     {
       "id": "good-16-1",
-      "sense": "good-mcq-16",
+      "sense": "good-pdf-001",
       "en": "She always tries to see the good in people.",
       "zh": "她總是嘗試看到別人身上的優點／善意。",
       "masked": "She always tries to see the ____ in people.",
       "options": [
-        "good-mcq-16",
+        "good-pdf-001",
         "good-mcq-15",
         "good-mcq-17",
         "good-mcq-14",
         "good-mcq-18",
         "good-mcq-13"
       ],
-      "explanation": "本句的「good」指「道德上正確、正面或有益的事物／特質」。",
+      "explanation": "本句的「good」指「有價值、正面或善良的部分」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "good"
       ],
       "optionReasons": {
-        "good-mcq-16": "本句指「道德上正確、正面或有益的事物／特質」。",
+        "good-pdf-001": "本句指「有價值、正面或善良的部分」。",
         "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
         "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
         "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
         "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
         "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。"
       },
-      "correctOption": "good-mcq-16"
+      "correctOption": "good-pdf-001"
     },
     {
       "id": "good-17-0",

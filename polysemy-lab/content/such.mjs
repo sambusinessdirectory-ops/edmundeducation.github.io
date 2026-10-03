@@ -154,11 +154,6 @@ export default {
           "He is the team leader and, as such, is responsible for the final decision.",
           "他是團隊主管，因此以這個身分需要負責最終決定。",
           "以剛才提到的身分／性質來說；或表示「嚴格來說」"
-        ],
-        [
-          "It isn’t a problem as such; it’s more of an inconvenience.",
-          "嚴格來說這不算是一個問題，只是有點不方便。",
-          "以剛才提到的身分／性質來說；或表示「嚴格來說」"
         ]
       ],
       "options": [],
@@ -181,6 +176,23 @@ export default {
           "They told us to go to such and such an address.",
           "他們叫我們去某個特定但沒有明說的地址。",
           "代替沒有具體說出的名字、人物、地方或細節；某某／某個"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "such-pdf-001",
+      "title": "就該詞最嚴格、最本身的意義而言",
+      "form": "not X as such = strictly speaking, not really X（嚴格來說不算）",
+      "en": "not X as such = strictly speaking, not really X（嚴格來說不算）",
+      "zh": "就該詞最嚴格、最本身的意義而言",
+      "note": "原始 PDF 第 None 節：就該詞最嚴格、最本身的意義而言",
+      "examples": [
+        [
+          "It isn’t a problem as such; it’s more of an inconvenience.",
+          "嚴格來說這不算是一個問題，只是有點不方便。",
+          "就該詞最嚴格、最本身的意義而言"
         ]
       ],
       "options": [],
@@ -610,33 +622,33 @@ export default {
     },
     {
       "id": "such-07-1",
-      "sense": "such-mcq-07",
+      "sense": "such-pdf-001",
       "en": "It isn’t a problem as such; it’s more of an inconvenience.",
       "zh": "嚴格來說這不算是一個問題，只是有點不方便。",
       "masked": "It isn’t a problem ____; it’s more of an inconvenience.",
       "options": [
-        "such-mcq-07",
+        "such-pdf-001",
         "such-mcq-06",
         "such-mcq-08",
         "such-mcq-05",
         "such-mcq-04",
         "such-mcq-03"
       ],
-      "explanation": "本句的「as such」指「以剛才提到的身分／性質來說；或表示「嚴格來說」」。",
+      "explanation": "本句的「as such」指「就該詞最嚴格、最本身的意義而言」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "as such"
       ],
       "optionReasons": {
-        "such-mcq-07": "本句指「以剛才提到的身分／性質來說；或表示「嚴格來說」」。",
+        "such-pdf-001": "本句指「就該詞最嚴格、最本身的意義而言」。",
         "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
         "such-mcq-08": "「代替沒有具體說出的名字、人物、地方或細節；某某／某個」是「such and such」的用法，與本句語境不同。",
         "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
         "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
         "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
       },
-      "correctOption": "such-mcq-07"
+      "correctOption": "such-pdf-001"
     },
     {
       "id": "such-08-0",

@@ -93,16 +93,6 @@ export default {
           "Don't forget to hand in your assignment.",
           "別忘了交作業。",
           "提交作業"
-        ],
-        [
-          "It took me three hours to complete the assignment.",
-          "我花了三小時才完成這份作業。",
-          "提交作業"
-        ],
-        [
-          "She stayed up late to finish her assignment.",
-          "她熬夜完成作業。",
-          "提交作業"
         ]
       ],
       "options": [],
@@ -223,18 +213,7 @@ export default {
       "en": "assignment (posting)",
       "zh": "派任；調派",
       "note": "來源詞義：派任；調派",
-      "examples": [
-        [
-          "He received a new military assignment.",
-          "他收到新的軍事派任。",
-          "派任；調派"
-        ],
-        [
-          "Her overseas assignment lasted two years.",
-          "她的海外駐派任務持續了兩年。",
-          "派任；調派"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -555,6 +534,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "assignment-pdf-001",
+      "title": "把指定的課業全部做完",
+      "form": "6. complete / finish an assignment — 完成作業",
+      "en": "6. complete / finish an assignment — 完成作業",
+      "zh": "把指定的課業全部做完",
+      "note": "原始 PDF 第 6 節：把指定的課業全部做完",
+      "examples": [
+        [
+          "It took me three hours to complete the assignment.",
+          "我花了三小時才完成這份作業。",
+          "把指定的課業全部做完"
+        ],
+        [
+          "She stayed up late to finish her assignment.",
+          "她熬夜完成作業。",
+          "把指定的課業全部做完"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "assignment-pdf-002",
+      "title": "軍方正式安排的職務、崗位或駐派任務",
+      "form": "13. military assignment — 軍事派任；駐派",
+      "en": "13. military assignment — 軍事派任；駐派",
+      "zh": "軍方正式安排的職務、崗位或駐派任務",
+      "note": "原始 PDF 第 13 節：軍方正式安排的職務、崗位或駐派任務",
+      "examples": [
+        [
+          "He received a new military assignment.",
+          "他收到新的軍事派任。",
+          "軍方正式安排的職務、崗位或駐派任務"
+        ],
+        [
+          "Her overseas assignment lasted two years.",
+          "她的海外駐派任務持續了兩年。",
+          "軍方正式安排的職務、崗位或駐派任務"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -830,63 +853,63 @@ export default {
     },
     {
       "id": "assignment-06-0",
-      "sense": "assignment-mcq-04",
+      "sense": "assignment-pdf-001",
       "en": "It took me three hours to complete the assignment.",
       "zh": "我花了三小時才完成這份作業。",
       "masked": "It took me three hours to ____.",
       "options": [
-        "assignment-mcq-04",
+        "assignment-pdf-001",
         "assignment-mcq-03",
         "assignment-mcq-05",
         "assignment-mcq-02",
         "assignment-mcq-06",
         "assignment-mcq-01"
       ],
-      "explanation": "本句的「complete the assignment」指「提交作業」。",
+      "explanation": "本句的「complete the assignment」指「把指定的課業全部做完」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "complete the assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-04": "本句指「提交作業」。",
+        "assignment-pdf-001": "本句指「把指定的課業全部做完」。",
         "assignment-mcq-03": "「小組作業」與本句語境不同。",
         "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
         "assignment-mcq-02": "「書面作業」與本句語境不同。",
         "assignment-mcq-06": "「工作任務」與本句語境不同。",
         "assignment-mcq-01": "「作業；課業」與本句語境不同。"
       },
-      "correctOption": "assignment-mcq-04"
+      "correctOption": "assignment-pdf-001"
     },
     {
       "id": "assignment-06-1",
-      "sense": "assignment-mcq-04",
+      "sense": "assignment-pdf-001",
       "en": "She stayed up late to finish her assignment.",
       "zh": "她熬夜完成作業。",
       "masked": "She stayed up late to ____.",
       "options": [
-        "assignment-mcq-04",
+        "assignment-pdf-001",
         "assignment-mcq-03",
         "assignment-mcq-05",
         "assignment-mcq-02",
         "assignment-mcq-06",
         "assignment-mcq-01"
       ],
-      "explanation": "本句的「finish her assignment」指「提交作業」。",
+      "explanation": "本句的「finish her assignment」指「把指定的課業全部做完」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "finish her assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-04": "本句指「提交作業」。",
+        "assignment-pdf-001": "本句指「把指定的課業全部做完」。",
         "assignment-mcq-03": "「小組作業」與本句語境不同。",
         "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
         "assignment-mcq-02": "「書面作業」與本句語境不同。",
         "assignment-mcq-06": "「工作任務」與本句語境不同。",
         "assignment-mcq-01": "「作業；課業」與本句語境不同。"
       },
-      "correctOption": "assignment-mcq-04"
+      "correctOption": "assignment-pdf-001"
     },
     {
       "id": "assignment-07-0",
@@ -1250,63 +1273,63 @@ export default {
     },
     {
       "id": "assignment-13-0",
-      "sense": "assignment-mcq-09",
+      "sense": "assignment-pdf-002",
       "en": "He received a new military assignment.",
       "zh": "他收到新的軍事派任。",
       "masked": "He received a new ____.",
       "options": [
-        "assignment-mcq-09",
+        "assignment-pdf-002",
         "assignment-mcq-08",
         "assignment-mcq-10",
         "assignment-mcq-07",
         "assignment-mcq-11",
         "assignment-mcq-06"
       ],
-      "explanation": "本句的「military assignment」指「派任；調派」。",
+      "explanation": "本句的「military assignment」指「軍方正式安排的職務、崗位或駐派任務」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "military assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-09": "本句指「派任；調派」。",
+        "assignment-pdf-002": "本句指「軍方正式安排的職務、崗位或駐派任務」。",
         "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
         "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
         "assignment-mcq-07": "「特別任務」與本句語境不同。",
         "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
         "assignment-mcq-06": "「工作任務」與本句語境不同。"
       },
-      "correctOption": "assignment-mcq-09"
+      "correctOption": "assignment-pdf-002"
     },
     {
       "id": "assignment-13-1",
-      "sense": "assignment-mcq-09",
+      "sense": "assignment-pdf-002",
       "en": "Her overseas assignment lasted two years.",
       "zh": "她的海外駐派任務持續了兩年。",
       "masked": "Her overseas ____ lasted two years.",
       "options": [
-        "assignment-mcq-09",
+        "assignment-pdf-002",
         "assignment-mcq-08",
         "assignment-mcq-10",
         "assignment-mcq-07",
         "assignment-mcq-11",
         "assignment-mcq-06"
       ],
-      "explanation": "本句的「assignment」指「派任；調派」。",
+      "explanation": "本句的「assignment」指「軍方正式安排的職務、崗位或駐派任務」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-09": "本句指「派任；調派」。",
+        "assignment-pdf-002": "本句指「軍方正式安排的職務、崗位或駐派任務」。",
         "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
         "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
         "assignment-mcq-07": "「特別任務」與本句語境不同。",
         "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
         "assignment-mcq-06": "「工作任務」與本句語境不同。"
       },
-      "correctOption": "assignment-mcq-09"
+      "correctOption": "assignment-pdf-002"
     },
     {
       "id": "assignment-14-0",

@@ -215,16 +215,6 @@ export default {
           "Add the missing piece to complete the pattern.",
           "加入缺少的一塊以完成圖案。",
           "補上欠缺元素，使序列／圖案完整"
-        ],
-        [
-          "We need one more chair to complete the set.",
-          "我們還需要一張椅子才能湊齊整套。",
-          "補上欠缺元素，使序列／圖案完整"
-        ],
-        [
-          "The final chapter completes the story.",
-          "最後一章令整個故事完整。",
-          "補上欠缺元素，使序列／圖案完整"
         ]
       ],
       "options": [],
@@ -879,6 +869,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "complete-pdf-001",
+      "title": "加入欠缺的部分，使整體不再有重要缺口",
+      "form": "12. complete something = supply the missing part so it becomes whole（補全） — 補全；使完",
+      "en": "12. complete something = supply the missing part so it becomes whole（補全） — 補全；使完",
+      "zh": "加入欠缺的部分，使整體不再有重要缺口",
+      "note": "原始 PDF 第 12 節：加入欠缺的部分，使整體不再有重要缺口",
+      "examples": [
+        [
+          "We need one more chair to complete the set.",
+          "我們還需要一張椅子才能湊齊整套。",
+          "加入欠缺的部分，使整體不再有重要缺口"
+        ],
+        [
+          "The final chapter completes the story.",
+          "最後一章令整個故事完整。",
+          "加入欠缺的部分，使整體不再有重要缺口"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1454,63 +1466,63 @@ export default {
     },
     {
       "id": "complete-12-0",
-      "sense": "complete-mcq-10",
+      "sense": "complete-pdf-001",
       "en": "We need one more chair to complete the set.",
       "zh": "我們還需要一張椅子才能湊齊整套。",
       "masked": "We need one more chair to ____ the set.",
       "options": [
-        "complete-mcq-10",
+        "complete-pdf-001",
         "complete-mcq-09",
         "complete-mcq-11",
         "complete-mcq-08",
         "complete-mcq-12",
         "complete-mcq-07"
       ],
-      "explanation": "本句的「complete」指「補上欠缺元素，使序列／圖案完整」。",
+      "explanation": "本句的「complete」指「加入欠缺的部分，使整體不再有重要缺口」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-10": "本句指「補上欠缺元素，使序列／圖案完整」。",
+        "complete-pdf-001": "本句指「加入欠缺的部分，使整體不再有重要缺口」。",
         "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
         "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
         "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
         "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
         "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。"
       },
-      "correctOption": "complete-mcq-10"
+      "correctOption": "complete-pdf-001"
     },
     {
       "id": "complete-12-1",
-      "sense": "complete-mcq-10",
+      "sense": "complete-pdf-001",
       "en": "The final chapter completes the story.",
       "zh": "最後一章令整個故事完整。",
       "masked": "The final chapter ____ the story.",
       "options": [
-        "complete-mcq-10",
+        "complete-pdf-001",
         "complete-mcq-09",
         "complete-mcq-11",
         "complete-mcq-08",
         "complete-mcq-12",
         "complete-mcq-07"
       ],
-      "explanation": "本句的「completes」指「補上欠缺元素，使序列／圖案完整」。",
+      "explanation": "本句的「completes」指「加入欠缺的部分，使整體不再有重要缺口」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "completes"
       ],
       "optionReasons": {
-        "complete-mcq-10": "本句指「補上欠缺元素，使序列／圖案完整」。",
+        "complete-pdf-001": "本句指「加入欠缺的部分，使整體不再有重要缺口」。",
         "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
         "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
         "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
         "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
         "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。"
       },
-      "correctOption": "complete-mcq-10"
+      "correctOption": "complete-pdf-001"
     },
     {
       "id": "complete-13-0",

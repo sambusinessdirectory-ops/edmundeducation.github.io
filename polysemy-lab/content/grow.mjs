@@ -356,16 +356,6 @@ export default {
           "This farm grows rice.",
           "這個農場種植稻米。",
           "種植並照料植物，使其生長"
-        ],
-        [
-          "They grow their own vegetables.",
-          "他們自己種蔬菜。",
-          "種植並照料植物，使其生長"
-        ],
-        [
-          "More people are learning to grow their own food.",
-          "愈來愈多人學習自己種植食物。",
-          "種植並照料植物，使其生長"
         ]
       ],
       "options": [],
@@ -866,16 +856,6 @@ export default {
           "The region is famous for grape growers.",
           "這個地區以葡萄種植戶聞名。",
           "種植農作物、植物、水果等的人／企業"
-        ],
-        [
-          "This variety is a fast grower.",
-          "這個品種是生長很快的植物。",
-          "種植農作物、植物、水果等的人／企業"
-        ],
-        [
-          "It’s a slow grower, but very hardy.",
-          "它生長較慢，但很耐寒。",
-          "種植農作物、植物、水果等的人／企業"
         ]
       ],
       "options": [],
@@ -996,6 +976,50 @@ export default {
           "The small project grew into an international programme.",
           "小項目逐漸發展成一個國際計劃。",
           "規模／性質發展到一個更大、更成熟的新形式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "grow-pdf-001",
+      "title": "自己栽培／生產，而不是購買",
+      "form": "17. grow your own food（自己種食物） — 自己種植",
+      "en": "17. grow your own food（自己種食物） — 自己種植",
+      "zh": "自己栽培／生產，而不是購買",
+      "note": "原始 PDF 第 17 節：自己栽培／生產，而不是購買",
+      "examples": [
+        [
+          "They grow their own vegetables.",
+          "他們自己種蔬菜。",
+          "自己栽培／生產，而不是購買"
+        ],
+        [
+          "More people are learning to grow their own food.",
+          "愈來愈多人學習自己種植食物。",
+          "自己栽培／生產，而不是購買"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "grow-pdf-002",
+      "title": "生長速度快／慢的植物",
+      "form": "45. grower = plant of a certain growth pattern（生長型植物；園藝） — 生長……的植物",
+      "en": "45. grower = plant of a certain growth pattern（生長型植物；園藝） — 生長……的植物",
+      "zh": "生長速度快／慢的植物",
+      "note": "原始 PDF 第 45 節：生長速度快／慢的植物",
+      "examples": [
+        [
+          "This variety is a fast grower.",
+          "這個品種是生長很快的植物。",
+          "生長速度快／慢的植物"
+        ],
+        [
+          "It’s a slow grower, but very hardy.",
+          "它生長較慢，但很耐寒。",
+          "生長速度快／慢的植物"
         ]
       ],
       "options": [],
@@ -1995,63 +2019,63 @@ export default {
     },
     {
       "id": "grow-17-0",
-      "sense": "grow-mcq-16",
+      "sense": "grow-pdf-001",
       "en": "They grow their own vegetables.",
       "zh": "他們自己種蔬菜。",
       "masked": "They ____.",
       "options": [
-        "grow-mcq-16",
+        "grow-pdf-001",
         "grow-mcq-15",
         "grow-mcq-17",
         "grow-mcq-14",
         "grow-mcq-18",
         "grow-mcq-13"
       ],
-      "explanation": "本句的「grow their own vegetables」指「種植並照料植物，使其生長」。",
+      "explanation": "本句的「grow their own vegetables」指「自己栽培／生產，而不是購買」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "grow their own vegetables"
       ],
       "optionReasons": {
-        "grow-mcq-16": "本句指「種植並照料植物，使其生長」。",
+        "grow-pdf-001": "本句指「自己栽培／生產，而不是購買」。",
         "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
         "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
         "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
         "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
         "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。"
       },
-      "correctOption": "grow-mcq-16"
+      "correctOption": "grow-pdf-001"
     },
     {
       "id": "grow-17-1",
-      "sense": "grow-mcq-16",
+      "sense": "grow-pdf-001",
       "en": "More people are learning to grow their own food.",
       "zh": "愈來愈多人學習自己種植食物。",
       "masked": "More people are learning to ____.",
       "options": [
-        "grow-mcq-16",
+        "grow-pdf-001",
         "grow-mcq-15",
         "grow-mcq-17",
         "grow-mcq-14",
         "grow-mcq-18",
         "grow-mcq-13"
       ],
-      "explanation": "本句的「grow their own food」指「種植並照料植物，使其生長」。",
+      "explanation": "本句的「grow their own food」指「自己栽培／生產，而不是購買」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "grow their own food"
       ],
       "optionReasons": {
-        "grow-mcq-16": "本句指「種植並照料植物，使其生長」。",
+        "grow-pdf-001": "本句指「自己栽培／生產，而不是購買」。",
         "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
         "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
         "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
         "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
         "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。"
       },
-      "correctOption": "grow-mcq-16"
+      "correctOption": "grow-pdf-001"
     },
     {
       "id": "grow-18-0",
@@ -3675,63 +3699,63 @@ export default {
     },
     {
       "id": "grow-45-0",
-      "sense": "grow-mcq-36",
+      "sense": "grow-pdf-002",
       "en": "This variety is a fast grower.",
       "zh": "這個品種是生長很快的植物。",
       "masked": "This variety is a fast ____.",
       "options": [
-        "grow-mcq-36",
+        "grow-pdf-002",
         "grow-mcq-35",
         "grow-mcq-37",
         "grow-mcq-34",
         "grow-mcq-38",
         "grow-mcq-33"
       ],
-      "explanation": "本句的「grower」指「種植農作物、植物、水果等的人／企業」。",
+      "explanation": "本句的「grower」指「生長速度快／慢的植物」。",
       "sentenceIndex": 89,
       "sourcePractice": 90,
       "targets": [
         "grower"
       ],
       "optionReasons": {
-        "grow-mcq-36": "本句指「種植農作物、植物、水果等的人／企業」。",
+        "grow-pdf-002": "本句指「生長速度快／慢的植物」。",
         "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
         "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
         "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
         "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
         "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。"
       },
-      "correctOption": "grow-mcq-36"
+      "correctOption": "grow-pdf-002"
     },
     {
       "id": "grow-45-1",
-      "sense": "grow-mcq-36",
+      "sense": "grow-pdf-002",
       "en": "It’s a slow grower, but very hardy.",
       "zh": "它生長較慢，但很耐寒。",
       "masked": "It’s a slow ____, but very hardy.",
       "options": [
-        "grow-mcq-36",
+        "grow-pdf-002",
         "grow-mcq-35",
         "grow-mcq-37",
         "grow-mcq-34",
         "grow-mcq-38",
         "grow-mcq-33"
       ],
-      "explanation": "本句的「grower」指「種植農作物、植物、水果等的人／企業」。",
+      "explanation": "本句的「grower」指「生長速度快／慢的植物」。",
       "sentenceIndex": 90,
       "sourcePractice": 91,
       "targets": [
         "grower"
       ],
       "optionReasons": {
-        "grow-mcq-36": "本句指「種植農作物、植物、水果等的人／企業」。",
+        "grow-pdf-002": "本句指「生長速度快／慢的植物」。",
         "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
         "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
         "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
         "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
         "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。"
       },
-      "correctOption": "grow-mcq-36"
+      "correctOption": "grow-pdf-002"
     },
     {
       "id": "grow-46-0",

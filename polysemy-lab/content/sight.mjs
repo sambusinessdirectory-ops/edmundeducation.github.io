@@ -213,16 +213,6 @@ export default {
           "The empty classroom was a strange sight.",
           "空無一人的課室是一個奇怪的景象。",
           "美麗景象"
-        ],
-        [
-          "The old building was a familiar sight.",
-          "那座舊建築是個熟悉的景象。",
-          "美麗景象"
-        ],
-        [
-          "After hours of walking, the hotel was a welcome sight.",
-          "走了幾個小時後，看見酒店真是個令人欣喜的景象。",
-          "美麗景象"
         ]
       ],
       "options": [],
@@ -465,6 +455,28 @@ export default {
           "The camera has an electronic sight.",
           "這部相機有電子瞄準裝置。",
           "瞄準器"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sight-pdf-001",
+      "title": "某個帶有特定感受或評價的所見景象",
+      "form": "11. a familiar / strange / welcome sight — 熟悉／奇怪／令人欣喜的景象",
+      "en": "11. a familiar / strange / welcome sight — 熟悉／奇怪／令人欣喜的景象",
+      "zh": "某個帶有特定感受或評價的所見景象",
+      "note": "原始 PDF 第 11 節：某個帶有特定感受或評價的所見景象",
+      "examples": [
+        [
+          "The old building was a familiar sight.",
+          "那座舊建築是個熟悉的景象。",
+          "某個帶有特定感受或評價的所見景象"
+        ],
+        [
+          "After hours of walking, the hotel was a welcome sight.",
+          "走了幾個小時後，看見酒店真是個令人欣喜的景象。",
+          "某個帶有特定感受或評價的所見景象"
         ]
       ],
       "options": [],
@@ -1104,63 +1116,63 @@ export default {
     },
     {
       "id": "sight-11-0",
-      "sense": "sight-mcq-09",
+      "sense": "sight-pdf-001",
       "en": "The old building was a familiar sight.",
       "zh": "那座舊建築是個熟悉的景象。",
       "masked": "The old building was a ____.",
       "options": [
-        "sight-mcq-09",
+        "sight-pdf-001",
         "sight-mcq-08",
         "sight-mcq-10",
         "sight-mcq-07",
         "sight-mcq-11",
         "sight-mcq-06"
       ],
-      "explanation": "本句的「familiar sight」指「美麗景象」。",
+      "explanation": "本句的「familiar sight」指「某個帶有特定感受或評價的所見景象」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "familiar sight"
       ],
       "optionReasons": {
-        "sight-mcq-09": "本句指「美麗景象」。",
+        "sight-pdf-001": "本句指「某個帶有特定感受或評價的所見景象」。",
         "sight-mcq-08": "「突然瞥見」與本句語境不同。",
         "sight-mcq-10": "「名勝景點」與本句語境不同。",
         "sight-mcq-07": "「看不見」與本句語境不同。",
         "sight-mcq-11": "「觀光」與本句語境不同。",
         "sight-mcq-06": "「在視線範圍內」與本句語境不同。"
       },
-      "correctOption": "sight-mcq-09"
+      "correctOption": "sight-pdf-001"
     },
     {
       "id": "sight-11-1",
-      "sense": "sight-mcq-09",
+      "sense": "sight-pdf-001",
       "en": "After hours of walking, the hotel was a welcome sight.",
       "zh": "走了幾個小時後，看見酒店真是個令人欣喜的景象。",
       "masked": "After hours of walking, the hotel was a ____.",
       "options": [
-        "sight-mcq-09",
+        "sight-pdf-001",
         "sight-mcq-08",
         "sight-mcq-10",
         "sight-mcq-07",
         "sight-mcq-11",
         "sight-mcq-06"
       ],
-      "explanation": "本句的「welcome sight」指「美麗景象」。",
+      "explanation": "本句的「welcome sight」指「某個帶有特定感受或評價的所見景象」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "welcome sight"
       ],
       "optionReasons": {
-        "sight-mcq-09": "本句指「美麗景象」。",
+        "sight-pdf-001": "本句指「某個帶有特定感受或評價的所見景象」。",
         "sight-mcq-08": "「突然瞥見」與本句語境不同。",
         "sight-mcq-10": "「名勝景點」與本句語境不同。",
         "sight-mcq-07": "「看不見」與本句語境不同。",
         "sight-mcq-11": "「觀光」與本句語境不同。",
         "sight-mcq-06": "「在視線範圍內」與本句語境不同。"
       },
-      "correctOption": "sight-mcq-09"
+      "correctOption": "sight-pdf-001"
     },
     {
       "id": "sight-12-0",

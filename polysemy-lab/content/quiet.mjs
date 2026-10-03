@@ -411,16 +411,6 @@ export default {
           "His explanation helped quiet their fears.",
           "他的解釋有助平息他們的恐懼。",
           "令聲音、情緒、恐懼或騷動減弱／平息"
-        ],
-        [
-          "The doctor’s explanation quieted her fears.",
-          "醫生的解釋平息了她的恐懼。",
-          "令聲音、情緒、恐懼或騷動減弱／平息"
-        ],
-        [
-          "The new evidence helped quiet doubts about the result.",
-          "新證據有助消除人們對結果的疑慮。",
-          "令聲音、情緒、恐懼或騷動減弱／平息"
         ]
       ],
       "options": [],
@@ -685,6 +675,28 @@ export default {
           "The children eventually quieted down.",
           "孩子們最後終於安靜下來。",
           "從吵鬧、活躍或激動的狀態變得較安靜"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "quiet-pdf-001",
+      "title": "令原本強烈的不安、疑慮或擔憂減弱",
+      "form": "22. quiet fears/doubts/concerns（平息） — 消除；平息",
+      "en": "22. quiet fears/doubts/concerns（平息） — 消除；平息",
+      "zh": "令原本強烈的不安、疑慮或擔憂減弱",
+      "note": "原始 PDF 第 22 節：令原本強烈的不安、疑慮或擔憂減弱",
+      "examples": [
+        [
+          "The doctor’s explanation quieted her fears.",
+          "醫生的解釋平息了她的恐懼。",
+          "令原本強烈的不安、疑慮或擔憂減弱"
+        ],
+        [
+          "The new evidence helped quiet doubts about the result.",
+          "新證據有助消除人們對結果的疑慮。",
+          "令原本強烈的不安、疑慮或擔憂減弱"
         ]
       ],
       "options": [],
@@ -1984,63 +1996,63 @@ export default {
     },
     {
       "id": "quiet-22-0",
-      "sense": "quiet-mcq-18",
+      "sense": "quiet-pdf-001",
       "en": "The doctor’s explanation quieted her fears.",
       "zh": "醫生的解釋平息了她的恐懼。",
       "masked": "The doctor’s explanation ____ her fears.",
       "options": [
-        "quiet-mcq-18",
+        "quiet-pdf-001",
         "quiet-mcq-17",
         "quiet-mcq-19",
         "quiet-mcq-16",
         "quiet-mcq-20",
         "quiet-mcq-15"
       ],
-      "explanation": "本句的「quieted」指「令聲音、情緒、恐懼或騷動減弱／平息」。",
+      "explanation": "本句的「quieted」指「令原本強烈的不安、疑慮或擔憂減弱」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "quieted"
       ],
       "optionReasons": {
-        "quiet-mcq-18": "本句指「令聲音、情緒、恐懼或騷動減弱／平息」。",
+        "quiet-pdf-001": "本句指「令原本強烈的不安、疑慮或擔憂減弱」。",
         "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
         "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
         "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
         "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
         "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。"
       },
-      "correctOption": "quiet-mcq-18"
+      "correctOption": "quiet-pdf-001"
     },
     {
       "id": "quiet-22-1",
-      "sense": "quiet-mcq-18",
+      "sense": "quiet-pdf-001",
       "en": "The new evidence helped quiet doubts about the result.",
       "zh": "新證據有助消除人們對結果的疑慮。",
       "masked": "The new evidence helped ____ doubts about the result.",
       "options": [
-        "quiet-mcq-18",
+        "quiet-pdf-001",
         "quiet-mcq-17",
         "quiet-mcq-19",
         "quiet-mcq-16",
         "quiet-mcq-20",
         "quiet-mcq-15"
       ],
-      "explanation": "本句的「quiet」指「令聲音、情緒、恐懼或騷動減弱／平息」。",
+      "explanation": "本句的「quiet」指「令原本強烈的不安、疑慮或擔憂減弱」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-18": "本句指「令聲音、情緒、恐懼或騷動減弱／平息」。",
+        "quiet-pdf-001": "本句指「令原本強烈的不安、疑慮或擔憂減弱」。",
         "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
         "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
         "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
         "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
         "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。"
       },
-      "correctOption": "quiet-mcq-18"
+      "correctOption": "quiet-pdf-001"
     },
     {
       "id": "quiet-23-0",

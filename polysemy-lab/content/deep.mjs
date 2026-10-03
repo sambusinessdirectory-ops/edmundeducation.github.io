@@ -375,16 +375,6 @@ export default {
       "note": "來源詞義：不只掌握表面資訊，而是理解原因、關係和核心本質",
       "examples": [
         [
-          "The course goes into deep technical detail.",
-          "這個課程涉及很深入的技術細節。",
-          "不只掌握表面資訊，而是理解原因、關係和核心本質"
-        ],
-        [
-          "You don’t need deep knowledge of the subject.",
-          "你不需要對這個題目有很深入的知識。",
-          "不只掌握表面資訊，而是理解原因、關係和核心本質"
-        ],
-        [
           "She has a deep understanding of people.",
           "她對人有深刻的理解。",
           "不只掌握表面資訊，而是理解原因、關係和核心本質"
@@ -587,16 +577,6 @@ export default {
           "The report examines the problem in depth.",
           "報告深入分析這個問題。",
           "詳細而深入地處理／分析某事"
-        ],
-        [
-          "Her voice revealed the depth of her feeling.",
-          "她的聲音流露出她深厚的感情。",
-          "詳細而深入地處理／分析某事"
-        ],
-        [
-          "I did not realize the depth of his concern.",
-          "我之前沒有意識到他的憂慮有多深。",
-          "詳細而深入地處理／分析某事"
         ]
       ],
       "options": [],
@@ -662,16 +642,6 @@ export default {
         [
           "The crisis deepened.",
           "危機加劇了。",
-          "令感情、理解、問題或危機程度增加／更強烈"
-        ],
-        [
-          "Reading can deepen your understanding.",
-          "閱讀可以加深你的理解。",
-          "令感情、理解、問題或危機程度增加／更強烈"
-        ],
-        [
-          "The course deepened her knowledge of the subject.",
-          "課程深化了她對這個主題的知識。",
           "令感情、理解、問題或危機程度增加／更強烈"
         ]
       ],
@@ -761,6 +731,72 @@ export default {
           "They have a deep pool of experienced staff.",
           "他們有一批數量充足而有經驗的人才。",
           "可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "deep-pdf-001",
+      "title": "對某個主題有全面、深入而非表面的理解",
+      "form": "23. deep = advanced/complex knowledge（深入／高階的） — 深入；高深",
+      "en": "23. deep = advanced/complex knowledge（深入／高階的） — 深入；高深",
+      "zh": "對某個主題有全面、深入而非表面的理解",
+      "note": "原始 PDF 第 23 節：對某個主題有全面、深入而非表面的理解",
+      "examples": [
+        [
+          "The course goes into deep technical detail.",
+          "這個課程涉及很深入的技術細節。",
+          "對某個主題有全面、深入而非表面的理解"
+        ],
+        [
+          "You don’t need deep knowledge of the subject.",
+          "你不需要對這個題目有很深入的知識。",
+          "對某個主題有全面、深入而非表面的理解"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "deep-pdf-002",
+      "title": "情緒／感情強烈、深厚的程度",
+      "form": "37. depth of feeling（感情深度） — 深厚情感",
+      "en": "37. depth of feeling（感情深度） — 深厚情感",
+      "zh": "情緒／感情強烈、深厚的程度",
+      "note": "原始 PDF 第 37 節：情緒／感情強烈、深厚的程度",
+      "examples": [
+        [
+          "Her voice revealed the depth of her feeling.",
+          "她的聲音流露出她深厚的感情。",
+          "情緒／感情強烈、深厚的程度"
+        ],
+        [
+          "I did not realize the depth of his concern.",
+          "我之前沒有意識到他的憂慮有多深。",
+          "情緒／感情強烈、深厚的程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "deep-pdf-003",
+      "title": "令理解由表面變得更全面、更深入",
+      "form": "41. deepen understanding/knowledge（深化理解） — 加深；深化",
+      "en": "41. deepen understanding/knowledge（深化理解） — 加深；深化",
+      "zh": "令理解由表面變得更全面、更深入",
+      "note": "原始 PDF 第 41 節：令理解由表面變得更全面、更深入",
+      "examples": [
+        [
+          "Reading can deepen your understanding.",
+          "閱讀可以加深你的理解。",
+          "令理解由表面變得更全面、更深入"
+        ],
+        [
+          "The course deepened her knowledge of the subject.",
+          "課程深化了她對這個主題的知識。",
+          "令理解由表面變得更全面、更深入"
         ]
       ],
       "options": [],
@@ -2120,63 +2156,63 @@ export default {
     },
     {
       "id": "deep-23-0",
-      "sense": "deep-mcq-14",
+      "sense": "deep-pdf-001",
       "en": "The course goes into deep technical detail.",
       "zh": "這個課程涉及很深入的技術細節。",
       "masked": "The course goes into ____.",
       "options": [
-        "deep-mcq-14",
+        "deep-pdf-001",
         "deep-mcq-13",
         "deep-mcq-15",
         "deep-mcq-12",
         "deep-mcq-16",
         "deep-mcq-11"
       ],
-      "explanation": "本句的「deep technical detail」指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
+      "explanation": "本句的「deep technical detail」指「對某個主題有全面、深入而非表面的理解」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "deep technical detail"
       ],
       "optionReasons": {
-        "deep-mcq-14": "本句指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
+        "deep-pdf-001": "本句指「對某個主題有全面、深入而非表面的理解」。",
         "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
         "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
         "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
         "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
         "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。"
       },
-      "correctOption": "deep-mcq-14"
+      "correctOption": "deep-pdf-001"
     },
     {
       "id": "deep-23-1",
-      "sense": "deep-mcq-14",
+      "sense": "deep-pdf-001",
       "en": "You don’t need deep knowledge of the subject.",
       "zh": "你不需要對這個題目有很深入的知識。",
       "masked": "You don’t need ____ knowledge of the subject.",
       "options": [
-        "deep-mcq-14",
+        "deep-pdf-001",
         "deep-mcq-13",
         "deep-mcq-15",
         "deep-mcq-12",
         "deep-mcq-16",
         "deep-mcq-11"
       ],
-      "explanation": "本句的「deep」指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
+      "explanation": "本句的「deep」指「對某個主題有全面、深入而非表面的理解」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-14": "本句指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
+        "deep-pdf-001": "本句指「對某個主題有全面、深入而非表面的理解」。",
         "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
         "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
         "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
         "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
         "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。"
       },
-      "correctOption": "deep-mcq-14"
+      "correctOption": "deep-pdf-001"
     },
     {
       "id": "deep-24-0",
@@ -2960,63 +2996,63 @@ export default {
     },
     {
       "id": "deep-37-0",
-      "sense": "deep-mcq-21",
+      "sense": "deep-pdf-002",
       "en": "Her voice revealed the depth of her feeling.",
       "zh": "她的聲音流露出她深厚的感情。",
       "masked": "Her voice revealed the ____.",
       "options": [
-        "deep-mcq-21",
+        "deep-pdf-002",
         "deep-mcq-20",
         "deep-mcq-22",
         "deep-mcq-19",
         "deep-mcq-23",
         "deep-mcq-18"
       ],
-      "explanation": "本句的「depth of her feeling」指「詳細而深入地處理／分析某事」。",
+      "explanation": "本句的「depth of her feeling」指「情緒／感情強烈、深厚的程度」。",
       "sentenceIndex": 73,
       "sourcePractice": 74,
       "targets": [
         "depth of her feeling"
       ],
       "optionReasons": {
-        "deep-mcq-21": "本句指「詳細而深入地處理／分析某事」。",
+        "deep-pdf-002": "本句指「情緒／感情強烈、深厚的程度」。",
         "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
         "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
         "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
         "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
         "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。"
       },
-      "correctOption": "deep-mcq-21"
+      "correctOption": "deep-pdf-002"
     },
     {
       "id": "deep-37-1",
-      "sense": "deep-mcq-21",
+      "sense": "deep-pdf-002",
       "en": "I did not realize the depth of his concern.",
       "zh": "我之前沒有意識到他的憂慮有多深。",
       "masked": "I did not realize the ____ of his concern.",
       "options": [
-        "deep-mcq-21",
+        "deep-pdf-002",
         "deep-mcq-20",
         "deep-mcq-22",
         "deep-mcq-19",
         "deep-mcq-23",
         "deep-mcq-18"
       ],
-      "explanation": "本句的「depth」指「詳細而深入地處理／分析某事」。",
+      "explanation": "本句的「depth」指「情緒／感情強烈、深厚的程度」。",
       "sentenceIndex": 74,
       "sourcePractice": 75,
       "targets": [
         "depth"
       ],
       "optionReasons": {
-        "deep-mcq-21": "本句指「詳細而深入地處理／分析某事」。",
+        "deep-pdf-002": "本句指「情緒／感情強烈、深厚的程度」。",
         "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
         "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
         "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
         "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
         "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。"
       },
-      "correctOption": "deep-mcq-21"
+      "correctOption": "deep-pdf-002"
     },
     {
       "id": "deep-38-0",
@@ -3200,63 +3236,63 @@ export default {
     },
     {
       "id": "deep-41-0",
-      "sense": "deep-mcq-24",
+      "sense": "deep-pdf-003",
       "en": "Reading can deepen your understanding.",
       "zh": "閱讀可以加深你的理解。",
       "masked": "Reading can ____.",
       "options": [
-        "deep-mcq-24",
+        "deep-pdf-003",
         "deep-mcq-23",
         "deep-mcq-25",
         "deep-mcq-22",
         "deep-mcq-26",
         "deep-mcq-21"
       ],
-      "explanation": "本句的「deepen your understanding」指「令感情、理解、問題或危機程度增加／更強烈」。",
+      "explanation": "本句的「deepen your understanding」指「令理解由表面變得更全面、更深入」。",
       "sentenceIndex": 81,
       "sourcePractice": 82,
       "targets": [
         "deepen your understanding"
       ],
       "optionReasons": {
-        "deep-mcq-24": "本句指「令感情、理解、問題或危機程度增加／更強烈」。",
+        "deep-pdf-003": "本句指「令理解由表面變得更全面、更深入」。",
         "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
         "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
         "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
         "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
         "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。"
       },
-      "correctOption": "deep-mcq-24"
+      "correctOption": "deep-pdf-003"
     },
     {
       "id": "deep-41-1",
-      "sense": "deep-mcq-24",
+      "sense": "deep-pdf-003",
       "en": "The course deepened her knowledge of the subject.",
       "zh": "課程深化了她對這個主題的知識。",
       "masked": "The course ____ her knowledge of the subject.",
       "options": [
-        "deep-mcq-24",
+        "deep-pdf-003",
         "deep-mcq-23",
         "deep-mcq-25",
         "deep-mcq-22",
         "deep-mcq-26",
         "deep-mcq-21"
       ],
-      "explanation": "本句的「deepened」指「令感情、理解、問題或危機程度增加／更強烈」。",
+      "explanation": "本句的「deepened」指「令理解由表面變得更全面、更深入」。",
       "sentenceIndex": 82,
       "sourcePractice": 83,
       "targets": [
         "deepened"
       ],
       "optionReasons": {
-        "deep-mcq-24": "本句指「令感情、理解、問題或危機程度增加／更強烈」。",
+        "deep-pdf-003": "本句指「令理解由表面變得更全面、更深入」。",
         "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
         "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
         "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
         "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
         "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。"
       },
-      "correctOption": "deep-mcq-24"
+      "correctOption": "deep-pdf-003"
     },
     {
       "id": "deep-42-0",

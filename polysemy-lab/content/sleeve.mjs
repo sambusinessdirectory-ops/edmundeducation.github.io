@@ -12,23 +12,7 @@ export default {
       "en": "sleeve",
       "zh": "袖子；衣袖",
       "note": "來源詞義：袖子；衣袖",
-      "examples": [
-        [
-          "The blouse arrived with sleeves far longer than expected.",
-          "這件女裝上衣收到時，袖子比預期長得多。",
-          "袖子；衣袖"
-        ],
-        [
-          "One sleeve is slightly longer than the other.",
-          "其中一隻袖子比另一隻稍長。",
-          "袖子；衣袖"
-        ],
-        [
-          "The sleeves are too tight around the arms.",
-          "這件衣服的袖子在手臂位置太緊。",
-          "袖子；衣袖"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1190,98 +1174,125 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "sleeve-pdf-001",
+      "title": "衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分",
+      "form": "1. sleeve = part of a garment covering the arm — 袖子；衣袖",
+      "en": "1. sleeve = part of a garment covering the arm — 袖子；衣袖",
+      "zh": "衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分",
+      "note": "原始 PDF 第 1 節：衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分",
+      "examples": [
+        [
+          "The blouse arrived with sleeves far longer than expected.",
+          "這件女裝上衣收到時，袖子比預期長得多。",
+          "衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分"
+        ],
+        [
+          "One sleeve is slightly longer than the other.",
+          "其中一隻袖子比另一隻稍長。",
+          "衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分"
+        ],
+        [
+          "The sleeves are too tight around the arms.",
+          "這件衣服的袖子在手臂位置太緊。",
+          "衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "sleeve-01-0",
-      "sense": "sleeve-mcq-01",
+      "sense": "sleeve-pdf-001",
       "en": "The blouse arrived with sleeves far longer than expected.",
       "zh": "這件女裝上衣收到時，袖子比預期長得多。",
       "masked": "The blouse arrived with ____.",
       "options": [
-        "sleeve-mcq-01",
+        "sleeve-pdf-001",
         "sleeve-mcq-02",
         "sleeve-mcq-03",
         "sleeve-mcq-04",
         "sleeve-mcq-05",
         "sleeve-mcq-06"
       ],
-      "explanation": "本句的「sleeves far longer than expected」指「袖子；衣袖」。",
+      "explanation": "本句的「sleeves far longer than expected」指「衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "sleeves far longer than expected"
       ],
       "optionReasons": {
-        "sleeve-mcq-01": "本句指「袖子；衣袖」。",
+        "sleeve-pdf-001": "本句指「衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分」。",
         "sleeve-mcq-02": "「襯衫袖」與本句語境不同。",
         "sleeve-mcq-03": "「女裝上衣袖」與本句語境不同。",
         "sleeve-mcq-04": "「外套袖」與本句語境不同。",
         "sleeve-mcq-05": "「袖長」與本句語境不同。",
         "sleeve-mcq-06": "「袖口開口」與本句語境不同。"
       },
-      "correctOption": "sleeve-mcq-01"
+      "correctOption": "sleeve-pdf-001"
     },
     {
       "id": "sleeve-01-1",
-      "sense": "sleeve-mcq-01",
+      "sense": "sleeve-pdf-001",
       "en": "One sleeve is slightly longer than the other.",
       "zh": "其中一隻袖子比另一隻稍長。",
       "masked": "One ____ is slightly longer than the other.",
       "options": [
-        "sleeve-mcq-01",
+        "sleeve-pdf-001",
         "sleeve-mcq-02",
         "sleeve-mcq-03",
         "sleeve-mcq-04",
         "sleeve-mcq-05",
         "sleeve-mcq-06"
       ],
-      "explanation": "本句的「sleeve」指「袖子；衣袖」。",
+      "explanation": "本句的「sleeve」指「衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "sleeve"
       ],
       "optionReasons": {
-        "sleeve-mcq-01": "本句指「袖子；衣袖」。",
+        "sleeve-pdf-001": "本句指「衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分」。",
         "sleeve-mcq-02": "「襯衫袖」與本句語境不同。",
         "sleeve-mcq-03": "「女裝上衣袖」與本句語境不同。",
         "sleeve-mcq-04": "「外套袖」與本句語境不同。",
         "sleeve-mcq-05": "「袖長」與本句語境不同。",
         "sleeve-mcq-06": "「袖口開口」與本句語境不同。"
       },
-      "correctOption": "sleeve-mcq-01"
+      "correctOption": "sleeve-pdf-001"
     },
     {
       "id": "sleeve-01-2",
-      "sense": "sleeve-mcq-01",
+      "sense": "sleeve-pdf-001",
       "en": "The sleeves are too tight around the arms.",
       "zh": "這件衣服的袖子在手臂位置太緊。",
       "masked": "The ____ are too tight around the arms.",
       "options": [
-        "sleeve-mcq-01",
+        "sleeve-pdf-001",
         "sleeve-mcq-02",
         "sleeve-mcq-03",
         "sleeve-mcq-04",
         "sleeve-mcq-05",
         "sleeve-mcq-06"
       ],
-      "explanation": "本句的「sleeves」指「袖子；衣袖」。",
+      "explanation": "本句的「sleeves」指「衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "sleeves"
       ],
       "optionReasons": {
-        "sleeve-mcq-01": "本句指「袖子；衣袖」。",
+        "sleeve-pdf-001": "本句指「衣服中由肩膀／袖窿延伸並覆蓋手臂全部或部分的部分」。",
         "sleeve-mcq-02": "「襯衫袖」與本句語境不同。",
         "sleeve-mcq-03": "「女裝上衣袖」與本句語境不同。",
         "sleeve-mcq-04": "「外套袖」與本句語境不同。",
         "sleeve-mcq-05": "「袖長」與本句語境不同。",
         "sleeve-mcq-06": "「袖口開口」與本句語境不同。"
       },
-      "correctOption": "sleeve-mcq-01"
+      "correctOption": "sleeve-pdf-001"
     },
     {
       "id": "sleeve-02-0",

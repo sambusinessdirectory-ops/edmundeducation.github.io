@@ -12,18 +12,7 @@ export default {
       "en": "refuge — physical safety",
       "zh": "躲避危險、暴力或惡劣環境的庇護／避難場所",
       "note": "來源詞義：躲避危險、暴力或惡劣環境的庇護／避難場所",
-      "examples": [
-        [
-          "The villagers sought refuge from the storm.",
-          "村民尋找地方避難，躲避暴風雨。",
-          "躲避危險、暴力或惡劣環境的庇護／避難場所"
-        ],
-        [
-          "The cave provided refuge from the cold.",
-          "山洞提供了躲避寒冷的庇護。",
-          "躲避危險、暴力或惡劣環境的庇護／避難場所"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -119,64 +108,86 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "refuge-pdf-001",
+      "title": "在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態",
+      "form": "1. refuge = shelter/protection from danger（避難所） — 庇護；避難所",
+      "en": "1. refuge = shelter/protection from danger（避難所） — 庇護；避難所",
+      "zh": "在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態",
+      "note": "原始 PDF 第 1 節：在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態",
+      "examples": [
+        [
+          "The villagers sought refuge from the storm.",
+          "村民尋找地方避難，躲避暴風雨。",
+          "在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態"
+        ],
+        [
+          "The cave provided refuge from the cold.",
+          "山洞提供了躲避寒冷的庇護。",
+          "在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "refuge-01-0",
-      "sense": "refuge-mcq-01",
+      "sense": "refuge-pdf-001",
       "en": "The villagers sought refuge from the storm.",
       "zh": "村民尋找地方避難，躲避暴風雨。",
       "masked": "The villagers sought ____ from the storm.",
       "options": [
-        "refuge-mcq-01",
+        "refuge-pdf-001",
         "refuge-mcq-02",
         "refuge-mcq-03",
         "refuge-mcq-04",
         "refuge-mcq-05"
       ],
-      "explanation": "本句的「refuge」指「躲避危險、暴力或惡劣環境的庇護／避難場所」。",
+      "explanation": "本句的「refuge」指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-01": "本句指「躲避危險、暴力或惡劣環境的庇護／避難場所」。",
+        "refuge-pdf-001": "本句指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
         "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
         "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
         "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
         "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
       },
-      "correctOption": "refuge-mcq-01"
+      "correctOption": "refuge-pdf-001"
     },
     {
       "id": "refuge-01-1",
-      "sense": "refuge-mcq-01",
+      "sense": "refuge-pdf-001",
       "en": "The cave provided refuge from the cold.",
       "zh": "山洞提供了躲避寒冷的庇護。",
       "masked": "The cave provided ____ from the cold.",
       "options": [
-        "refuge-mcq-01",
+        "refuge-pdf-001",
         "refuge-mcq-02",
         "refuge-mcq-03",
         "refuge-mcq-04",
         "refuge-mcq-05"
       ],
-      "explanation": "本句的「refuge」指「躲避危險、暴力或惡劣環境的庇護／避難場所」。",
+      "explanation": "本句的「refuge」指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-01": "本句指「躲避危險、暴力或惡劣環境的庇護／避難場所」。",
+        "refuge-pdf-001": "本句指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
         "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
         "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
         "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
         "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
       },
-      "correctOption": "refuge-mcq-01"
+      "correctOption": "refuge-pdf-001"
     },
     {
       "id": "refuge-02-0",

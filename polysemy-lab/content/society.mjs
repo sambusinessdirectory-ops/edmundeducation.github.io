@@ -138,23 +138,7 @@ export default {
       "en": "social",
       "zh": "社會的；亦可表示社交的",
       "note": "來源詞義：社會的；亦可表示社交的",
-      "examples": [
-        [
-          "The book examines major social changes.",
-          "這本書探討重大的社會變化。",
-          "社會的；亦可表示社交的"
-        ],
-        [
-          "She has a very active social life.",
-          "她的社交生活非常活躍。",
-          "社會的；亦可表示社交的"
-        ],
-        [
-          "The event was mainly social.",
-          "這場活動主要是社交性質的。",
-          "社會的；亦可表示社交的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -209,6 +193,45 @@ export default {
           "The family moved in high society.",
           "這個家庭活躍於上流社會。",
           "表示上流社會"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "society-pdf-001",
+      "title": "與社會、人群及人與人之間的關係有關的",
+      "form": "social = relating to society（社會的）",
+      "en": "social = relating to society（社會的）",
+      "zh": "與社會、人群及人與人之間的關係有關的",
+      "note": "原始 PDF 第 None 節：與社會、人群及人與人之間的關係有關的",
+      "examples": [
+        [
+          "The book examines major social changes.",
+          "這本書探討重大的社會變化。",
+          "與社會、人群及人與人之間的關係有關的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "society-pdf-002",
+      "title": "與和別人見面、交流、共同活動有關的",
+      "form": "social = involving interaction with other people（社交的）",
+      "en": "social = involving interaction with other people（社交的）",
+      "zh": "與和別人見面、交流、共同活動有關的",
+      "note": "原始 PDF 第 None 節：與和別人見面、交流、共同活動有關的",
+      "examples": [
+        [
+          "She has a very active social life.",
+          "她的社交生活非常活躍。",
+          "與和別人見面、交流、共同活動有關的"
+        ],
+        [
+          "The event was mainly social.",
+          "這場活動主要是社交性質的。",
+          "與和別人見面、交流、共同活動有關的"
         ]
       ],
       "options": [],
@@ -548,93 +571,93 @@ export default {
     },
     {
       "id": "society-05-2",
-      "sense": "society-mcq-07",
+      "sense": "society-pdf-001",
       "en": "The book examines major social changes.",
       "zh": "這本書探討重大的社會變化。",
       "masked": "The book examines major ____ changes.",
       "options": [
-        "society-mcq-07",
+        "society-pdf-001",
         "society-mcq-06",
         "society-mcq-08",
         "society-mcq-05",
         "society-mcq-09",
         "society-mcq-04"
       ],
-      "explanation": "本句的「social」指「社會的；亦可表示社交的」。",
+      "explanation": "本句的「social」指「與社會、人群及人與人之間的關係有關的」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "social"
       ],
       "optionReasons": {
-        "society-mcq-07": "本句指「社會的；亦可表示社交的」。",
+        "society-pdf-001": "本句指「與社會、人群及人與人之間的關係有關的」。",
         "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
         "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
         "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
         "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
         "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。"
       },
-      "correctOption": "society-mcq-07"
+      "correctOption": "society-pdf-001"
     },
     {
       "id": "society-05-3",
-      "sense": "society-mcq-07",
+      "sense": "society-pdf-002",
       "en": "She has a very active social life.",
       "zh": "她的社交生活非常活躍。",
       "masked": "She has a very active ____ life.",
       "options": [
-        "society-mcq-07",
+        "society-pdf-002",
         "society-mcq-06",
         "society-mcq-08",
         "society-mcq-05",
         "society-mcq-09",
         "society-mcq-04"
       ],
-      "explanation": "本句的「social」指「社會的；亦可表示社交的」。",
+      "explanation": "本句的「social」指「與和別人見面、交流、共同活動有關的」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "social"
       ],
       "optionReasons": {
-        "society-mcq-07": "本句指「社會的；亦可表示社交的」。",
+        "society-pdf-002": "本句指「與和別人見面、交流、共同活動有關的」。",
         "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
         "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
         "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
         "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
         "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。"
       },
-      "correctOption": "society-mcq-07"
+      "correctOption": "society-pdf-002"
     },
     {
       "id": "society-05-4",
-      "sense": "society-mcq-07",
+      "sense": "society-pdf-002",
       "en": "The event was mainly social.",
       "zh": "這場活動主要是社交性質的。",
       "masked": "The event was mainly ____.",
       "options": [
-        "society-mcq-07",
+        "society-pdf-002",
         "society-mcq-06",
         "society-mcq-08",
         "society-mcq-05",
         "society-mcq-09",
         "society-mcq-04"
       ],
-      "explanation": "本句的「social」指「社會的；亦可表示社交的」。",
+      "explanation": "本句的「social」指「與和別人見面、交流、共同活動有關的」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "social"
       ],
       "optionReasons": {
-        "society-mcq-07": "本句指「社會的；亦可表示社交的」。",
+        "society-pdf-002": "本句指「與和別人見面、交流、共同活動有關的」。",
         "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
         "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
         "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
         "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
         "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。"
       },
-      "correctOption": "society-mcq-07"
+      "correctOption": "society-pdf-002"
     },
     {
       "id": "society-05-5",

@@ -173,18 +173,7 @@ export default {
       "en": "patronise/patronize — condescend",
       "zh": "用高人一等、彷彿對方能力較低的態度對待某人",
       "note": "來源詞義：用高人一等、彷彿對方能力較低的態度對待某人",
-      "examples": [
-        [
-          "Please don’t patronise me.",
-          "請不要用居高臨下的態度對我。",
-          "用高人一等、彷彿對方能力較低的態度對待某人"
-        ],
-        [
-          "He spoke to the staff in a patronising tone.",
-          "他用一種居高臨下、把人當成不懂事的語氣跟員工說話。",
-          "用高人一等、彷彿對方能力較低的態度對待某人"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -200,6 +189,28 @@ export default {
           "Her explanation sounded patronising.",
           "她的解釋聽起來有點居高臨下／像把別人當小孩子。",
           "居高臨下的；帶有把別人看低的態度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "patron-pdf-001",
+      "title": "用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看",
+      "form": "10. patronise/patronize = treat someone as if they are less intelligent or capable（貶低） — 居",
+      "en": "10. patronise/patronize = treat someone as if they are less intelligent or capable（貶低） — 居",
+      "zh": "用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看",
+      "note": "原始 PDF 第 10 節：用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看",
+      "examples": [
+        [
+          "Please don’t patronise me.",
+          "請不要用居高臨下的態度對我。",
+          "用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看"
+        ],
+        [
+          "He spoke to the staff in a patronising tone.",
+          "他用一種居高臨下、把人當成不懂事的語氣跟員工說話。",
+          "用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看"
         ]
       ],
       "options": [],
@@ -479,63 +490,63 @@ export default {
     },
     {
       "id": "patron-07-7",
-      "sense": "patron-mcq-11",
+      "sense": "patron-pdf-001",
       "en": "Please don’t patronise me.",
       "zh": "請不要用居高臨下的態度對我。",
       "masked": "Please don’t ____ me.",
       "options": [
-        "patron-mcq-11",
+        "patron-pdf-001",
         "patron-mcq-10",
         "patron-mcq-12",
         "patron-mcq-09",
         "patron-mcq-08",
         "patron-mcq-07"
       ],
-      "explanation": "本句的「patronise」指「用高人一等、彷彿對方能力較低的態度對待某人」。",
+      "explanation": "本句的「patronise」指「用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "patronise"
       ],
       "optionReasons": {
-        "patron-mcq-11": "本句指「用高人一等、彷彿對方能力較低的態度對待某人」。",
+        "patron-pdf-001": "本句指「用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看」。",
         "patron-mcq-10": "「贊助／庇護某人或藝術活動；較正式或歷史」與本句語境不同。",
         "patron-mcq-12": "「居高臨下的；帶有把別人看低的態度」與本句語境不同。",
         "patron-mcq-09": "「光顧某間店／企業」與本句語境不同。",
         "patron-mcq-08": "「透過權力關係把職位、利益等分配給支持者的庇護制度」與本句語境不同。",
         "patron-mcq-07": "「對藝術、機構、個人等提供的資助／庇護」與本句語境不同。"
       },
-      "correctOption": "patron-mcq-11"
+      "correctOption": "patron-pdf-001"
     },
     {
       "id": "patron-07-8",
-      "sense": "patron-mcq-11",
+      "sense": "patron-pdf-001",
       "en": "He spoke to the staff in a patronising tone.",
       "zh": "他用一種居高臨下、把人當成不懂事的語氣跟員工說話。",
       "masked": "He spoke to the staff in a ____ tone.",
       "options": [
-        "patron-mcq-11",
+        "patron-pdf-001",
         "patron-mcq-10",
         "patron-mcq-12",
         "patron-mcq-09",
         "patron-mcq-08",
         "patron-mcq-07"
       ],
-      "explanation": "本句的「patronising」指「用高人一等、彷彿對方能力較低的態度對待某人」。",
+      "explanation": "本句的「patronising」指「用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "patronising"
       ],
       "optionReasons": {
-        "patron-mcq-11": "本句指「用高人一等、彷彿對方能力較低的態度對待某人」。",
+        "patron-pdf-001": "本句指「用彷彿自己更聰明、更成熟或地位更高的方式對待某人，使對方感到被看」。",
         "patron-mcq-10": "「贊助／庇護某人或藝術活動；較正式或歷史」與本句語境不同。",
         "patron-mcq-12": "「居高臨下的；帶有把別人看低的態度」與本句語境不同。",
         "patron-mcq-09": "「光顧某間店／企業」與本句語境不同。",
         "patron-mcq-08": "「透過權力關係把職位、利益等分配給支持者的庇護制度」與本句語境不同。",
         "patron-mcq-07": "「對藝術、機構、個人等提供的資助／庇護」與本句語境不同。"
       },
-      "correctOption": "patron-mcq-11"
+      "correctOption": "patron-pdf-001"
     },
     {
       "id": "patron-07-9",

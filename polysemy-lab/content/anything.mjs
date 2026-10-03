@@ -34,18 +34,7 @@ export default {
       "en": "anything — negative",
       "zh": "否定範圍涵蓋所有可能事物；甚麼都沒有／不……",
       "note": "來源詞義：否定範圍涵蓋所有可能事物；甚麼都沒有／不……",
-      "examples": [
-        [
-          "I didn’t buy anything.",
-          "我甚麼都沒有買。",
-          "否定範圍涵蓋所有可能事物；甚麼都沒有／不……"
-        ],
-        [
-          "She couldn’t see anything in the dark.",
-          "她在黑暗中甚麼都看不見。",
-          "否定範圍涵蓋所有可能事物；甚麼都沒有／不……"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -252,16 +241,6 @@ export default {
           "I couldn’t hear anything at all.",
           "我完全甚麼都聽不見。",
           "強調任何可能事物都包括；哪怕一點點"
-        ],
-        [
-          "We’ll do anything possible to protect the painting.",
-          "我們會做任何可能做到的事來保護這幅畫。",
-          "強調任何可能事物都包括；哪怕一點點"
-        ],
-        [
-          "She tried anything possible to solve the problem.",
-          "她嘗試了所有可能的方法去解決問題。",
-          "強調任何可能事物都包括；哪怕一點點"
         ]
       ],
       "options": [],
@@ -386,6 +365,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "anything-pdf-001",
+      "title": "在否定句中表示沒有任何一樣事物符合",
+      "form": "2. anything in negatives = 任何東西；甚麼都……不",
+      "en": "2. anything in negatives = 任何東西；甚麼都……不",
+      "zh": "在否定句中表示沒有任何一樣事物符合",
+      "note": "原始 PDF 第 2 節：在否定句中表示沒有任何一樣事物符合",
+      "examples": [
+        [
+          "I didn’t buy anything.",
+          "我甚麼都沒有買。",
+          "在否定句中表示沒有任何一樣事物符合"
+        ],
+        [
+          "She couldn’t see anything in the dark.",
+          "她在黑暗中甚麼都看不見。",
+          "在否定句中表示沒有任何一樣事物符合"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "anything-pdf-002",
+      "title": "任何在現實上可行的事情",
+      "form": "13. anything possible = 任何可能的事",
+      "en": "13. anything possible = 任何可能的事",
+      "zh": "任何在現實上可行的事情",
+      "note": "原始 PDF 第 13 節：任何在現實上可行的事情",
+      "examples": [
+        [
+          "We’ll do anything possible to protect the painting.",
+          "我們會做任何可能做到的事來保護這幅畫。",
+          "任何在現實上可行的事情"
+        ],
+        [
+          "She tried anything possible to solve the problem.",
+          "她嘗試了所有可能的方法去解決問題。",
+          "任何在現實上可行的事情"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -451,63 +474,63 @@ export default {
     },
     {
       "id": "anything-02-0",
-      "sense": "anything-mcq-02",
+      "sense": "anything-pdf-001",
       "en": "I didn’t buy anything.",
       "zh": "我甚麼都沒有買。",
       "masked": "I didn’t buy ____.",
       "options": [
-        "anything-mcq-02",
+        "anything-pdf-001",
         "anything-mcq-01",
         "anything-mcq-03",
         "anything-mcq-04",
         "anything-mcq-05",
         "anything-mcq-06"
       ],
-      "explanation": "本句的「anything」指「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」。",
+      "explanation": "本句的「anything」指「在否定句中表示沒有任何一樣事物符合」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-02": "本句指「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」。",
+        "anything-pdf-001": "本句指「在否定句中表示沒有任何一樣事物符合」。",
         "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。",
         "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
         "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
         "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
         "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
       },
-      "correctOption": "anything-mcq-02"
+      "correctOption": "anything-pdf-001"
     },
     {
       "id": "anything-02-1",
-      "sense": "anything-mcq-02",
+      "sense": "anything-pdf-001",
       "en": "She couldn’t see anything in the dark.",
       "zh": "她在黑暗中甚麼都看不見。",
       "masked": "She couldn’t see ____ in the dark.",
       "options": [
-        "anything-mcq-02",
+        "anything-pdf-001",
         "anything-mcq-01",
         "anything-mcq-03",
         "anything-mcq-04",
         "anything-mcq-05",
         "anything-mcq-06"
       ],
-      "explanation": "本句的「anything」指「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」。",
+      "explanation": "本句的「anything」指「在否定句中表示沒有任何一樣事物符合」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-02": "本句指「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」。",
+        "anything-pdf-001": "本句指「在否定句中表示沒有任何一樣事物符合」。",
         "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。",
         "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
         "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
         "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
         "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
       },
-      "correctOption": "anything-mcq-02"
+      "correctOption": "anything-pdf-001"
     },
     {
       "id": "anything-03-0",
@@ -1111,63 +1134,63 @@ export default {
     },
     {
       "id": "anything-13-0",
-      "sense": "anything-mcq-11",
+      "sense": "anything-pdf-002",
       "en": "We’ll do anything possible to protect the painting.",
       "zh": "我們會做任何可能做到的事來保護這幅畫。",
       "masked": "We’ll do ____ to protect the painting.",
       "options": [
-        "anything-mcq-11",
+        "anything-pdf-002",
         "anything-mcq-10",
         "anything-mcq-12",
         "anything-mcq-09",
         "anything-mcq-13",
         "anything-mcq-08"
       ],
-      "explanation": "本句的「anything possible」指「強調任何可能事物都包括；哪怕一點點」。",
+      "explanation": "本句的「anything possible」指「任何在現實上可行的事情」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "anything possible"
       ],
       "optionReasons": {
-        "anything-mcq-11": "本句指「強調任何可能事物都包括；哪怕一點點」。",
+        "anything-pdf-002": "本句指「任何在現實上可行的事情」。",
         "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
         "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
         "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
         "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
         "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。"
       },
-      "correctOption": "anything-mcq-11"
+      "correctOption": "anything-pdf-002"
     },
     {
       "id": "anything-13-1",
-      "sense": "anything-mcq-11",
+      "sense": "anything-pdf-002",
       "en": "She tried anything possible to solve the problem.",
       "zh": "她嘗試了所有可能的方法去解決問題。",
       "masked": "She tried ____ possible to solve the problem.",
       "options": [
-        "anything-mcq-11",
+        "anything-pdf-002",
         "anything-mcq-10",
         "anything-mcq-12",
         "anything-mcq-09",
         "anything-mcq-13",
         "anything-mcq-08"
       ],
-      "explanation": "本句的「anything」指「強調任何可能事物都包括；哪怕一點點」。",
+      "explanation": "本句的「anything」指「任何在現實上可行的事情」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-11": "本句指「強調任何可能事物都包括；哪怕一點點」。",
+        "anything-pdf-002": "本句指「任何在現實上可行的事情」。",
         "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
         "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
         "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
         "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
         "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。"
       },
-      "correctOption": "anything-mcq-11"
+      "correctOption": "anything-pdf-002"
     },
     {
       "id": "anything-14-0",

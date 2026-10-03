@@ -63,16 +63,6 @@ export default {
       "note": "來源詞義：位於外部或與外部有關的",
       "examples": [
         [
-          "The damage was limited to the exterior of the structure.",
-          "損壞只限於建築結構的外部。",
-          "位於外部或與外部有關的"
-        ],
-        [
-          "The spacecraft’s exterior must withstand extreme temperatures.",
-          "太空船的外部必須承受極端溫度。",
-          "位於外部或與外部有關的"
-        ],
-        [
           "The exterior walls were painted white.",
           "外牆被漆成白色。",
           "位於外部或與外部有關的"
@@ -115,6 +105,28 @@ export default {
           "The building was exteriorly restored.",
           "這棟建築的外部經過修復。",
           "在外部；向外；較少見"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "exterior-pdf-001",
+      "title": "某事物最外圍、外層或外部範圍",
+      "form": "3. exterior = outside area of something（外面區域） — 外圍；外部區域",
+      "en": "3. exterior = outside area of something（外面區域） — 外圍；外部區域",
+      "zh": "某事物最外圍、外層或外部範圍",
+      "note": "原始 PDF 第 3 節：某事物最外圍、外層或外部範圍",
+      "examples": [
+        [
+          "The damage was limited to the exterior of the structure.",
+          "損壞只限於建築結構的外部。",
+          "某事物最外圍、外層或外部範圍"
+        ],
+        [
+          "The spacecraft’s exterior must withstand extreme temperatures.",
+          "太空船的外部必須承受極端溫度。",
+          "某事物最外圍、外層或外部範圍"
         ]
       ],
       "options": [],
@@ -264,59 +276,59 @@ export default {
     },
     {
       "id": "exterior-03-0",
-      "sense": "exterior-mcq-03",
+      "sense": "exterior-pdf-001",
       "en": "The damage was limited to the exterior of the structure.",
       "zh": "損壞只限於建築結構的外部。",
       "masked": "The damage was limited to the ____ of the structure.",
       "options": [
-        "exterior-mcq-03",
+        "exterior-pdf-001",
         "exterior-mcq-02",
         "exterior-mcq-04",
         "exterior-mcq-01",
         "exterior-mcq-05"
       ],
-      "explanation": "本句的「exterior」指「位於外部或與外部有關的」。",
+      "explanation": "本句的「exterior」指「某事物最外圍、外層或外部範圍」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-03": "本句指「位於外部或與外部有關的」。",
+        "exterior-pdf-001": "本句指「某事物最外圍、外層或外部範圍」。",
         "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
         "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
         "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
         "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
       },
-      "correctOption": "exterior-mcq-03"
+      "correctOption": "exterior-pdf-001"
     },
     {
       "id": "exterior-03-1",
-      "sense": "exterior-mcq-03",
+      "sense": "exterior-pdf-001",
       "en": "The spacecraft’s exterior must withstand extreme temperatures.",
       "zh": "太空船的外部必須承受極端溫度。",
       "masked": "The spacecraft’s ____ must withstand extreme temperatures.",
       "options": [
-        "exterior-mcq-03",
+        "exterior-pdf-001",
         "exterior-mcq-02",
         "exterior-mcq-04",
         "exterior-mcq-01",
         "exterior-mcq-05"
       ],
-      "explanation": "本句的「exterior」指「位於外部或與外部有關的」。",
+      "explanation": "本句的「exterior」指「某事物最外圍、外層或外部範圍」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-03": "本句指「位於外部或與外部有關的」。",
+        "exterior-pdf-001": "本句指「某事物最外圍、外層或外部範圍」。",
         "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
         "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
         "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
         "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
       },
-      "correctOption": "exterior-mcq-03"
+      "correctOption": "exterior-pdf-001"
     },
     {
       "id": "exterior-04-0",

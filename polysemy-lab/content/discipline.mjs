@@ -171,23 +171,7 @@ export default {
       "en": "disciplined",
       "zh": "自律、有紀律、做事有規律和控制力的",
       "note": "來源詞義：自律、有紀律、做事有規律和控制力的",
-      "examples": [
-        [
-          "I was trying to become more disciplined.",
-          "我當時正努力讓自己變得更加自律。",
-          "自律、有紀律、做事有規律和控制力的"
-        ],
-        [
-          "She is very disciplined about her study routine.",
-          "她在學習習慣方面非常自律。",
-          "自律、有紀律、做事有規律和控制力的"
-        ],
-        [
-          "The team played in a very disciplined way.",
-          "球隊踢得非常有紀律、有組織。",
-          "自律、有紀律、做事有規律和控制力的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -248,6 +232,33 @@ export default {
       "zh": "不依靠外界監督而能控制自己並持續按目標行事的能力",
       "note": "來源詞義：不依靠外界監督而能控制自己並持續按目標行事的能力",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "discipline-pdf-001",
+      "title": "能控制自己、遵守規律，並有系統地持續做應做的事情",
+      "form": "8. disciplined = self-controlled / orderly（有自律／有紀律） — 自律的；有紀律的",
+      "en": "8. disciplined = self-controlled / orderly（有自律／有紀律） — 自律的；有紀律的",
+      "zh": "能控制自己、遵守規律，並有系統地持續做應做的事情",
+      "note": "原始 PDF 第 8 節：能控制自己、遵守規律，並有系統地持續做應做的事情",
+      "examples": [
+        [
+          "I was trying to become more disciplined.",
+          "我當時正努力讓自己變得更加自律。",
+          "能控制自己、遵守規律，並有系統地持續做應做的事情"
+        ],
+        [
+          "She is very disciplined about her study routine.",
+          "她在學習習慣方面非常自律。",
+          "能控制自己、遵守規律，並有系統地持續做應做的事情"
+        ],
+        [
+          "The team played in a very disciplined way.",
+          "球隊踢得非常有紀律、有組織。",
+          "能控制自己、遵守規律，並有系統地持續做應做的事情"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -705,93 +716,93 @@ export default {
     },
     {
       "id": "discipline-08-0",
-      "sense": "discipline-mcq-08",
+      "sense": "discipline-pdf-001",
       "en": "I was trying to become more disciplined.",
       "zh": "我當時正努力讓自己變得更加自律。",
       "masked": "I was trying to become more ____.",
       "options": [
-        "discipline-mcq-08",
+        "discipline-pdf-001",
         "discipline-mcq-07",
         "discipline-mcq-09",
         "discipline-mcq-06",
         "discipline-mcq-10",
         "discipline-mcq-05"
       ],
-      "explanation": "本句的「disciplined」指「自律、有紀律、做事有規律和控制力的」。",
+      "explanation": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-08": "本句指「自律、有紀律、做事有規律和控制力的」。",
+        "discipline-pdf-001": "本句指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
         "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
         "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
         "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
         "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
         "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。"
       },
-      "correctOption": "discipline-mcq-08"
+      "correctOption": "discipline-pdf-001"
     },
     {
       "id": "discipline-08-1",
-      "sense": "discipline-mcq-08",
+      "sense": "discipline-pdf-001",
       "en": "She is very disciplined about her study routine.",
       "zh": "她在學習習慣方面非常自律。",
       "masked": "She is very ____ about her study routine.",
       "options": [
-        "discipline-mcq-08",
+        "discipline-pdf-001",
         "discipline-mcq-07",
         "discipline-mcq-09",
         "discipline-mcq-06",
         "discipline-mcq-10",
         "discipline-mcq-05"
       ],
-      "explanation": "本句的「disciplined」指「自律、有紀律、做事有規律和控制力的」。",
+      "explanation": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-08": "本句指「自律、有紀律、做事有規律和控制力的」。",
+        "discipline-pdf-001": "本句指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
         "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
         "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
         "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
         "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
         "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。"
       },
-      "correctOption": "discipline-mcq-08"
+      "correctOption": "discipline-pdf-001"
     },
     {
       "id": "discipline-08-2",
-      "sense": "discipline-mcq-08",
+      "sense": "discipline-pdf-001",
       "en": "The team played in a very disciplined way.",
       "zh": "球隊踢得非常有紀律、有組織。",
       "masked": "The team played in a very ____ way.",
       "options": [
-        "discipline-mcq-08",
+        "discipline-pdf-001",
         "discipline-mcq-07",
         "discipline-mcq-09",
         "discipline-mcq-06",
         "discipline-mcq-10",
         "discipline-mcq-05"
       ],
-      "explanation": "本句的「disciplined」指「自律、有紀律、做事有規律和控制力的」。",
+      "explanation": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-08": "本句指「自律、有紀律、做事有規律和控制力的」。",
+        "discipline-pdf-001": "本句指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
         "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
         "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
         "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
         "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
         "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。"
       },
-      "correctOption": "discipline-mcq-08"
+      "correctOption": "discipline-pdf-001"
     },
     {
       "id": "discipline-09-0",

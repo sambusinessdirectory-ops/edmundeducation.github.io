@@ -212,16 +212,6 @@ export default {
           "The treatment produced noticeable improvements.",
           "這項治療帶來了明顯改善。",
           "製造、產生或形成產品、結果、聲音等"
-        ],
-        [
-          "The documentary was produced by an independent studio.",
-          "這部紀錄片由一間獨立工作室製作。",
-          "製造、產生或形成產品、結果、聲音等"
-        ],
-        [
-          "She produced several successful television programmes.",
-          "她製作／監製了幾個成功的電視節目。",
-          "製造、產生或形成產品、結果、聲音等"
         ]
       ],
       "options": [],
@@ -430,6 +420,28 @@ export default {
           "The film is the product of collaboration between several artists.",
           "這部電影是幾位藝術家合作的成果。",
           "經過創作、研究或合作後完成的作品／成果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "product-pdf-001",
+      "title": "組織、管理並負責電影、節目、音樂等作品的製作",
+      "form": "12. produce = create film/music/show（媒體） — 製作；監製",
+      "en": "12. produce = create film/music/show（媒體） — 製作；監製",
+      "zh": "組織、管理並負責電影、節目、音樂等作品的製作",
+      "note": "原始 PDF 第 12 節：組織、管理並負責電影、節目、音樂等作品的製作",
+      "examples": [
+        [
+          "The documentary was produced by an independent studio.",
+          "這部紀錄片由一間獨立工作室製作。",
+          "組織、管理並負責電影、節目、音樂等作品的製作"
+        ],
+        [
+          "She produced several successful television programmes.",
+          "她製作／監製了幾個成功的電視節目。",
+          "組織、管理並負責電影、節目、音樂等作品的製作"
         ]
       ],
       "options": [],
@@ -1129,63 +1141,63 @@ export default {
     },
     {
       "id": "product-12-0",
-      "sense": "product-mcq-09",
+      "sense": "product-pdf-001",
       "en": "The documentary was produced by an independent studio.",
       "zh": "這部紀錄片由一間獨立工作室製作。",
       "masked": "The documentary was ____ by an independent studio.",
       "options": [
-        "product-mcq-09",
+        "product-pdf-001",
         "product-mcq-08",
         "product-mcq-10",
         "product-mcq-07",
         "product-mcq-11",
         "product-mcq-06"
       ],
-      "explanation": "本句的「produced」指「製造、產生或形成產品、結果、聲音等」。",
+      "explanation": "本句的「produced」指「組織、管理並負責電影、節目、音樂等作品的製作」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "produced"
       ],
       "optionReasons": {
-        "product-mcq-09": "本句指「製造、產生或形成產品、結果、聲音等」。",
+        "product-pdf-001": "本句指「組織、管理並負責電影、節目、音樂等作品的製作」。",
         "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
         "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
         "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
         "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
         "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
       },
-      "correctOption": "product-mcq-09"
+      "correctOption": "product-pdf-001"
     },
     {
       "id": "product-12-1",
-      "sense": "product-mcq-09",
+      "sense": "product-pdf-001",
       "en": "She produced several successful television programmes.",
       "zh": "她製作／監製了幾個成功的電視節目。",
       "masked": "She ____ several successful television programmes.",
       "options": [
-        "product-mcq-09",
+        "product-pdf-001",
         "product-mcq-08",
         "product-mcq-10",
         "product-mcq-07",
         "product-mcq-11",
         "product-mcq-06"
       ],
-      "explanation": "本句的「produced」指「製造、產生或形成產品、結果、聲音等」。",
+      "explanation": "本句的「produced」指「組織、管理並負責電影、節目、音樂等作品的製作」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "produced"
       ],
       "optionReasons": {
-        "product-mcq-09": "本句指「製造、產生或形成產品、結果、聲音等」。",
+        "product-pdf-001": "本句指「組織、管理並負責電影、節目、音樂等作品的製作」。",
         "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
         "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
         "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
         "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
         "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
       },
-      "correctOption": "product-mcq-09"
+      "correctOption": "product-pdf-001"
     },
     {
       "id": "product-13-0",

@@ -115,16 +115,6 @@ export default {
           "The company owns several buildings.",
           "公司擁有幾棟大樓。",
           "擁有"
-        ],
-        [
-          "They own their home.",
-          "他們擁有自己的住所。",
-          "擁有"
-        ],
-        [
-          "He owns a small company.",
-          "他擁有一家小公司。",
-          "擁有"
         ]
       ],
       "options": [],
@@ -315,16 +305,6 @@ export default {
         [
           "He needs to own what he did.",
           "他需要承認並為自己的行為負責。",
-          "承認並承擔錯誤"
-        ],
-        [
-          "Good leaders own their mistakes.",
-          "好的領袖會承認並承擔自己的錯誤。",
-          "承認並承擔錯誤"
-        ],
-        [
-          "It's difficult, but you have to own your mistakes.",
-          "雖然很難，但你必須為自己的錯誤負責。",
           "承認並承擔錯誤"
         ]
       ],
@@ -621,6 +601,50 @@ export default {
           "He left the company on his own terms.",
           "他按照自己的決定和條件離開公司。",
           "按自己的方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "own-pdf-001",
+      "title": "對 X 有正式所有權",
+      "form": "6. own a house / car / company — 擁有房屋／汽車／公司",
+      "en": "6. own a house / car / company — 擁有房屋／汽車／公司",
+      "zh": "對 X 有正式所有權",
+      "note": "原始 PDF 第 6 節：對 X 有正式所有權",
+      "examples": [
+        [
+          "They own their home.",
+          "他們擁有自己的住所。",
+          "對 X 有正式所有權"
+        ],
+        [
+          "He owns a small company.",
+          "他擁有一家小公司。",
+          "對 X 有正式所有權"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "own-pdf-002",
+      "title": "不推卸責任，坦白承認錯誤是自己造成的",
+      "form": "16. own your mistakes — 承認並承擔自己的錯誤",
+      "en": "16. own your mistakes — 承認並承擔自己的錯誤",
+      "zh": "不推卸責任，坦白承認錯誤是自己造成的",
+      "note": "原始 PDF 第 16 節：不推卸責任，坦白承認錯誤是自己造成的",
+      "examples": [
+        [
+          "Good leaders own their mistakes.",
+          "好的領袖會承認並承擔自己的錯誤。",
+          "不推卸責任，坦白承認錯誤是自己造成的"
+        ],
+        [
+          "It's difficult, but you have to own your mistakes.",
+          "雖然很難，但你必須為自己的錯誤負責。",
+          "不推卸責任，坦白承認錯誤是自己造成的"
         ]
       ],
       "options": [],
@@ -960,63 +984,63 @@ export default {
     },
     {
       "id": "own-06-0",
-      "sense": "own-mcq-05",
+      "sense": "own-pdf-001",
       "en": "They own their home.",
       "zh": "他們擁有自己的住所。",
       "masked": "They ____.",
       "options": [
-        "own-mcq-05",
+        "own-pdf-001",
         "own-mcq-04",
         "own-mcq-06",
         "own-mcq-03",
         "own-mcq-07",
         "own-mcq-02"
       ],
-      "explanation": "本句的「own their home」指「擁有」。",
+      "explanation": "本句的「own their home」指「對 X 有正式所有權」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "own their home"
       ],
       "optionReasons": {
-        "own-mcq-05": "本句指「擁有」。",
+        "own-pdf-001": "本句指「對 X 有正式所有權」。",
         "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
         "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
         "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
         "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
         "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。"
       },
-      "correctOption": "own-mcq-05"
+      "correctOption": "own-pdf-001"
     },
     {
       "id": "own-06-1",
-      "sense": "own-mcq-05",
+      "sense": "own-pdf-001",
       "en": "He owns a small company.",
       "zh": "他擁有一家小公司。",
       "masked": "He ____.",
       "options": [
-        "own-mcq-05",
+        "own-pdf-001",
         "own-mcq-04",
         "own-mcq-06",
         "own-mcq-03",
         "own-mcq-07",
         "own-mcq-02"
       ],
-      "explanation": "本句的「owns a small company」指「擁有」。",
+      "explanation": "本句的「owns a small company」指「對 X 有正式所有權」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "owns a small company"
       ],
       "optionReasons": {
-        "own-mcq-05": "本句指「擁有」。",
+        "own-pdf-001": "本句指「對 X 有正式所有權」。",
         "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
         "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
         "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
         "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
         "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。"
       },
-      "correctOption": "own-mcq-05"
+      "correctOption": "own-pdf-001"
     },
     {
       "id": "own-07-0",
@@ -1590,63 +1614,63 @@ export default {
     },
     {
       "id": "own-16-0",
-      "sense": "own-mcq-13",
+      "sense": "own-pdf-002",
       "en": "Good leaders own their mistakes.",
       "zh": "好的領袖會承認並承擔自己的錯誤。",
       "masked": "Good leaders ____.",
       "options": [
-        "own-mcq-13",
+        "own-pdf-002",
         "own-mcq-12",
         "own-mcq-14",
         "own-mcq-11",
         "own-mcq-15",
         "own-mcq-10"
       ],
-      "explanation": "本句的「own their mistakes」指「承認並承擔錯誤」。",
+      "explanation": "本句的「own their mistakes」指「不推卸責任，坦白承認錯誤是自己造成的」。",
       "sentenceIndex": 32,
       "sourcePractice": 1,
       "targets": [
         "own their mistakes"
       ],
       "optionReasons": {
-        "own-mcq-13": "本句指「承認並承擔錯誤」。",
+        "own-pdf-002": "本句指「不推卸責任，坦白承認錯誤是自己造成的」。",
         "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
         "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
         "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
         "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
         "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
       },
-      "correctOption": "own-mcq-13"
+      "correctOption": "own-pdf-002"
     },
     {
       "id": "own-16-1",
-      "sense": "own-mcq-13",
+      "sense": "own-pdf-002",
       "en": "It's difficult, but you have to own your mistakes.",
       "zh": "雖然很難，但你必須為自己的錯誤負責。",
       "masked": "It's difficult, but you have to ____.",
       "options": [
-        "own-mcq-13",
+        "own-pdf-002",
         "own-mcq-12",
         "own-mcq-14",
         "own-mcq-11",
         "own-mcq-15",
         "own-mcq-10"
       ],
-      "explanation": "本句的「own your mistakes」指「承認並承擔錯誤」。",
+      "explanation": "本句的「own your mistakes」指「不推卸責任，坦白承認錯誤是自己造成的」。",
       "sentenceIndex": 33,
       "sourcePractice": 2,
       "targets": [
         "own your mistakes"
       ],
       "optionReasons": {
-        "own-mcq-13": "本句指「承認並承擔錯誤」。",
+        "own-pdf-002": "本句指「不推卸責任，坦白承認錯誤是自己造成的」。",
         "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
         "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
         "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
         "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
         "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
       },
-      "correctOption": "own-mcq-13"
+      "correctOption": "own-pdf-002"
     },
     {
       "id": "own-17-0",

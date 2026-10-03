@@ -104,13 +104,7 @@ export default {
       "en": "courtesies",
       "zh": "社交寒暄、禮節、客套行為",
       "note": "來源詞義：社交寒暄、禮節、客套行為",
-      "examples": [
-        [
-          "They exchanged the usual courtesies before the meeting.",
-          "會議前，他們互相作了慣常的禮貌寒暄／客套。",
-          "社交寒暄、禮節、客套行為"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -470,13 +464,7 @@ export default {
       "en": "courteous",
       "zh": "有禮貌、尊重並以合宜態度對待他人的",
       "note": "來源詞義：有禮貌、尊重並以合宜態度對待他人的",
-      "examples": [
-        [
-          "The staff were friendly and courteous.",
-          "職員友善而且有禮貌。",
-          "有禮貌、尊重並以合宜態度對待他人的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -526,6 +514,40 @@ export default {
           "Leaving without thanking the host was a discourtesy.",
           "離開時沒有向主人道謝是一種失禮行為。",
           "無禮／一次失禮行為"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "courtesy-pdf-001",
+      "title": "互相問候、寒暄、作禮貌性交流",
+      "form": "5. courtesies = polite acts/formalities（禮節） — 禮節；客套",
+      "en": "5. courtesies = polite acts/formalities（禮節） — 禮節；客套",
+      "zh": "互相問候、寒暄、作禮貌性交流",
+      "note": "原始 PDF 第 5 節：互相問候、寒暄、作禮貌性交流",
+      "examples": [
+        [
+          "They exchanged the usual courtesies before the meeting.",
+          "會議前，他們互相作了慣常的禮貌寒暄／客套。",
+          "互相問候、寒暄、作禮貌性交流"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "courtesy-pdf-002",
+      "title": "在說話和行為上尊重別人、符合良好禮貌規範",
+      "form": "34. courteous = polite, respectful, and considerate（有禮貌的） — 有禮的；彬彬有禮的；謙恭",
+      "en": "34. courteous = polite, respectful, and considerate（有禮貌的） — 有禮的；彬彬有禮的；謙恭",
+      "zh": "在說話和行為上尊重別人、符合良好禮貌規範",
+      "note": "原始 PDF 第 34 節：在說話和行為上尊重別人、符合良好禮貌規範",
+      "examples": [
+        [
+          "The staff were friendly and courteous.",
+          "職員友善而且有禮貌。",
+          "在說話和行為上尊重別人、符合良好禮貌規範"
         ]
       ],
       "options": [],
@@ -805,33 +827,33 @@ export default {
     },
     {
       "id": "courtesy-05-0",
-      "sense": "courtesy-mcq-05",
+      "sense": "courtesy-pdf-001",
       "en": "They exchanged the usual courtesies before the meeting.",
       "zh": "會議前，他們互相作了慣常的禮貌寒暄／客套。",
       "masked": "They exchanged the usual ____ before the meeting.",
       "options": [
-        "courtesy-mcq-05",
+        "courtesy-pdf-001",
         "courtesy-mcq-04",
         "courtesy-mcq-06",
         "courtesy-mcq-03",
         "courtesy-mcq-07",
         "courtesy-mcq-02"
       ],
-      "explanation": "本句的「courtesies」指「社交寒暄、禮節、客套行為」。",
+      "explanation": "本句的「courtesies」指「互相問候、寒暄、作禮貌性交流」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "courtesies"
       ],
       "optionReasons": {
-        "courtesy-mcq-05": "本句指「社交寒暄、禮節、客套行為」。",
+        "courtesy-pdf-001": "本句指「互相問候、寒暄、作禮貌性交流」。",
         "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
         "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
         "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
         "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
         "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。"
       },
-      "correctOption": "courtesy-mcq-05"
+      "correctOption": "courtesy-pdf-001"
     },
     {
       "id": "courtesy-06-0",
@@ -1345,33 +1367,33 @@ export default {
     },
     {
       "id": "courtesy-34-0",
-      "sense": "courtesy-mcq-29",
+      "sense": "courtesy-pdf-002",
       "en": "The staff were friendly and courteous.",
       "zh": "職員友善而且有禮貌。",
       "masked": "The staff were friendly and ____.",
       "options": [
-        "courtesy-mcq-29",
+        "courtesy-pdf-002",
         "courtesy-mcq-28",
         "courtesy-mcq-30",
         "courtesy-mcq-27",
         "courtesy-mcq-31",
         "courtesy-mcq-26"
       ],
-      "explanation": "本句的「courteous」指「有禮貌、尊重並以合宜態度對待他人的」。",
+      "explanation": "本句的「courteous」指「在說話和行為上尊重別人、符合良好禮貌規範」。",
       "sentenceIndex": 27,
       "sourcePractice": 29,
       "targets": [
         "courteous"
       ],
       "optionReasons": {
-        "courtesy-mcq-29": "本句指「有禮貌、尊重並以合宜態度對待他人的」。",
+        "courtesy-pdf-002": "本句指「在說話和行為上尊重別人、符合良好禮貌規範」。",
         "courtesy-mcq-28": "「作為提醒／善意安排而發出的禮貌性通知」與本句語境不同。",
         "courtesy-mcq-30": "「有禮貌地」與本句語境不同。",
         "courtesy-mcq-27": "「同行之間的專業禮讓；亦可指傳統的同行優惠服務」與本句語境不同。",
         "courtesy-mcq-31": "「缺乏禮貌、失禮的」與本句語境不同。",
         "courtesy-mcq-26": "「為減少氣味、顧及他人而中途沖廁；非正式」與本句語境不同。"
       },
-      "correctOption": "courtesy-mcq-29"
+      "correctOption": "courtesy-pdf-002"
     },
     {
       "id": "courtesy-37-0",

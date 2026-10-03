@@ -301,11 +301,6 @@ export default {
           "Film critics praised the performance.",
           "電影評論家讚揚了這場演出。",
           "專門分析、評論藝術／媒體作品的人"
-        ],
-        [
-          "He is a strong critic of the policy.",
-          "他是這項政策的強烈批評者。",
-          "專門分析、評論藝術／媒體作品的人"
         ]
       ],
       "options": [],
@@ -822,6 +817,23 @@ export default {
           "Her blood pressure became critically low.",
           "她的血壓降至危險水平。",
           "低到已造成危險／嚴重問題的程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "critical-pdf-001",
+      "title": "經常或公開指出某人／事物問題的人",
+      "form": "27. critic = person who expresses opposition/disapproval — 批評者；反對者",
+      "en": "27. critic = person who expresses opposition/disapproval — 批評者；反對者",
+      "zh": "經常或公開指出某人／事物問題的人",
+      "note": "原始 PDF 第 27 節：經常或公開指出某人／事物問題的人",
+      "examples": [
+        [
+          "He is a strong critic of the policy.",
+          "他是這項政策的強烈批評者。",
+          "經常或公開指出某人／事物問題的人"
         ]
       ],
       "options": [],
@@ -1581,33 +1593,33 @@ export default {
     },
     {
       "id": "critical-27-0",
-      "sense": "critical-mcq-16",
+      "sense": "critical-pdf-001",
       "en": "He is a strong critic of the policy.",
       "zh": "他是這項政策的強烈批評者。",
       "masked": "He is a strong ____ of the policy.",
       "options": [
-        "critical-mcq-16",
+        "critical-pdf-001",
         "critical-mcq-15",
         "critical-mcq-17",
         "critical-mcq-14",
         "critical-mcq-18",
         "critical-mcq-13"
       ],
-      "explanation": "本句的「critic」指「專門分析、評論藝術／媒體作品的人」。",
+      "explanation": "本句的「critic」指「經常或公開指出某人／事物問題的人」。",
       "sentenceIndex": 51,
       "sourcePractice": 27,
       "targets": [
         "critic"
       ],
       "optionReasons": {
-        "critical-mcq-16": "本句指「專門分析、評論藝術／媒體作品的人」。",
+        "critical-pdf-001": "本句指「經常或公開指出某人／事物問題的人」。",
         "critical-mcq-15": "「在評論界獲得高度肯定的成功」與本句語境不同。",
         "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
         "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
         "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。",
         "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。"
       },
-      "correctOption": "critical-mcq-16"
+      "correctOption": "critical-pdf-001"
     },
     {
       "id": "critical-28-0",

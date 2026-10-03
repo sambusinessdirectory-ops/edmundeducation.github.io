@@ -159,16 +159,6 @@ export default {
           "Add a little sugar.",
           "加一點糖。",
           "一點時間"
-        ],
-        [
-          "There is little chance of rain today.",
-          "今天下雨的機會很小。",
-          "一點時間"
-        ],
-        [
-          "We have little possibility of finishing on time.",
-          "我們準時完成的可能性很低。",
-          "一點時間"
         ]
       ],
       "options": [],
@@ -290,16 +280,6 @@ export default {
           "He was little more than a child when he started working.",
           "他開始工作時幾乎還只是個孩子。",
           "幾乎只是 X"
-        ],
-        [
-          "The journey took little less than three hours.",
-          "旅程用了接近三小時。",
-          "幾乎只是 X"
-        ],
-        [
-          "The project cost little less than a million dollars.",
-          "這個項目花了接近一百萬美元。",
-          "幾乎只是 X"
         ]
       ],
       "options": [],
@@ -343,16 +323,6 @@ export default {
         [
           "Little wonder she was upset.",
           "她不開心，一點也不奇怪。",
-          "難怪"
-        ],
-        [
-          "She learned the system in little time.",
-          "她在很短時間內學會了這個系統。",
-          "難怪"
-        ],
-        [
-          "The problem was solved in very little time.",
-          "問題在很短時間內就解決了。",
           "難怪"
         ]
       ],
@@ -562,6 +532,72 @@ export default {
           "The first problem seems little by comparison.",
           "相比之下，第一個問題顯得微不足道。",
           "與另一事物相比，數量、規模或重要性很小"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "little-pdf-001",
+      "title": "機會或可能性非常低",
+      "form": "7. little chance / little possibility — 機會很小",
+      "en": "7. little chance / little possibility — 機會很小",
+      "zh": "機會或可能性非常低",
+      "note": "原始 PDF 第 7 節：機會或可能性非常低",
+      "examples": [
+        [
+          "There is little chance of rain today.",
+          "今天下雨的機會很小。",
+          "機會或可能性非常低"
+        ],
+        [
+          "We have little possibility of finishing on time.",
+          "我們準時完成的可能性很低。",
+          "機會或可能性非常低"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "little-pdf-002",
+      "title": "比 X 少一點點，接近 X",
+      "form": "13. little less than — 幾乎等於；只差一點",
+      "en": "13. little less than — 幾乎等於；只差一點",
+      "zh": "比 X 少一點點，接近 X",
+      "note": "原始 PDF 第 13 節：比 X 少一點點，接近 X",
+      "examples": [
+        [
+          "The journey took little less than three hours.",
+          "旅程用了接近三小時。",
+          "比 X 少一點點，接近 X"
+        ],
+        [
+          "The project cost little less than a million dollars.",
+          "這個項目花了接近一百萬美元。",
+          "比 X 少一點點，接近 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "little-pdf-003",
+      "title": "很短的時間量",
+      "form": "16. in little time — 在很短時間內",
+      "en": "16. in little time — 在很短時間內",
+      "zh": "很短的時間量",
+      "note": "原始 PDF 第 16 節：很短的時間量",
+      "examples": [
+        [
+          "She learned the system in little time.",
+          "她在很短時間內學會了這個系統。",
+          "很短的時間量"
+        ],
+        [
+          "The problem was solved in very little time.",
+          "問題在很短時間內就解決了。",
+          "很短的時間量"
         ]
       ],
       "options": [],
@@ -961,63 +997,63 @@ export default {
     },
     {
       "id": "little-07-0",
-      "sense": "little-mcq-08",
+      "sense": "little-pdf-001",
       "en": "There is little chance of rain today.",
       "zh": "今天下雨的機會很小。",
       "masked": "There is ____ of rain today.",
       "options": [
-        "little-mcq-08",
+        "little-pdf-001",
         "little-mcq-07",
         "little-mcq-09",
         "little-mcq-06",
         "little-mcq-10",
         "little-mcq-05"
       ],
-      "explanation": "本句的「little chance」指「一點時間」。",
+      "explanation": "本句的「little chance」指「機會或可能性非常低」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "little chance"
       ],
       "optionReasons": {
-        "little-mcq-08": "本句指「一點時間」。",
+        "little-pdf-001": "本句指「機會或可能性非常低」。",
         "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
         "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
         "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
         "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
         "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。"
       },
-      "correctOption": "little-mcq-08"
+      "correctOption": "little-pdf-001"
     },
     {
       "id": "little-07-1",
-      "sense": "little-mcq-08",
+      "sense": "little-pdf-001",
       "en": "We have little possibility of finishing on time.",
       "zh": "我們準時完成的可能性很低。",
       "masked": "We have ____ of finishing on time.",
       "options": [
-        "little-mcq-08",
+        "little-pdf-001",
         "little-mcq-07",
         "little-mcq-09",
         "little-mcq-06",
         "little-mcq-10",
         "little-mcq-05"
       ],
-      "explanation": "本句的「little possibility」指「一點時間」。",
+      "explanation": "本句的「little possibility」指「機會或可能性非常低」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "little possibility"
       ],
       "optionReasons": {
-        "little-mcq-08": "本句指「一點時間」。",
+        "little-pdf-001": "本句指「機會或可能性非常低」。",
         "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
         "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
         "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
         "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
         "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。"
       },
-      "correctOption": "little-mcq-08"
+      "correctOption": "little-pdf-001"
     },
     {
       "id": "little-08-0",
@@ -1321,63 +1357,63 @@ export default {
     },
     {
       "id": "little-13-0",
-      "sense": "little-mcq-14",
+      "sense": "little-pdf-002",
       "en": "The journey took little less than three hours.",
       "zh": "旅程用了接近三小時。",
       "masked": "The journey took ____.",
       "options": [
-        "little-mcq-14",
+        "little-pdf-002",
         "little-mcq-13",
         "little-mcq-15",
         "little-mcq-12",
         "little-mcq-16",
         "little-mcq-11"
       ],
-      "explanation": "本句的「little less than three hours」指「幾乎只是 X」。",
+      "explanation": "本句的「little less than three hours」指「比 X 少一點點，接近 X」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "little less than three hours"
       ],
       "optionReasons": {
-        "little-mcq-14": "本句指「幾乎只是 X」。",
+        "little-pdf-002": "本句指「比 X 少一點點，接近 X」。",
         "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
         "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
         "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
         "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
         "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。"
       },
-      "correctOption": "little-mcq-14"
+      "correctOption": "little-pdf-002"
     },
     {
       "id": "little-13-1",
-      "sense": "little-mcq-14",
+      "sense": "little-pdf-002",
       "en": "The project cost little less than a million dollars.",
       "zh": "這個項目花了接近一百萬美元。",
       "masked": "The project cost ____.",
       "options": [
-        "little-mcq-14",
+        "little-pdf-002",
         "little-mcq-13",
         "little-mcq-15",
         "little-mcq-12",
         "little-mcq-16",
         "little-mcq-11"
       ],
-      "explanation": "本句的「little less than a million dollars」指「幾乎只是 X」。",
+      "explanation": "本句的「little less than a million dollars」指「比 X 少一點點，接近 X」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "little less than a million dollars"
       ],
       "optionReasons": {
-        "little-mcq-14": "本句指「幾乎只是 X」。",
+        "little-pdf-002": "本句指「比 X 少一點點，接近 X」。",
         "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
         "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
         "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
         "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
         "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。"
       },
-      "correctOption": "little-mcq-14"
+      "correctOption": "little-pdf-002"
     },
     {
       "id": "little-14-0",
@@ -1501,63 +1537,63 @@ export default {
     },
     {
       "id": "little-16-0",
-      "sense": "little-mcq-16",
+      "sense": "little-pdf-003",
       "en": "She learned the system in little time.",
       "zh": "她在很短時間內學會了這個系統。",
       "masked": "She learned the system in ____.",
       "options": [
-        "little-mcq-16",
+        "little-pdf-003",
         "little-mcq-15",
         "little-mcq-17",
         "little-mcq-14",
         "little-mcq-18",
         "little-mcq-13"
       ],
-      "explanation": "本句的「little time」指「難怪」。",
+      "explanation": "本句的「little time」指「很短的時間量」。",
       "sentenceIndex": 31,
       "sourcePractice": 1,
       "targets": [
         "little time"
       ],
       "optionReasons": {
-        "little-mcq-16": "本句指「難怪」。",
+        "little-pdf-003": "本句指「很短的時間量」。",
         "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
         "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
         "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
         "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
         "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。"
       },
-      "correctOption": "little-mcq-16"
+      "correctOption": "little-pdf-003"
     },
     {
       "id": "little-16-1",
-      "sense": "little-mcq-16",
+      "sense": "little-pdf-003",
       "en": "The problem was solved in very little time.",
       "zh": "問題在很短時間內就解決了。",
       "masked": "The problem was solved in ____.",
       "options": [
-        "little-mcq-16",
+        "little-pdf-003",
         "little-mcq-15",
         "little-mcq-17",
         "little-mcq-14",
         "little-mcq-18",
         "little-mcq-13"
       ],
-      "explanation": "本句的「very little time」指「難怪」。",
+      "explanation": "本句的「very little time」指「很短的時間量」。",
       "sentenceIndex": 32,
       "sourcePractice": 2,
       "targets": [
         "very little time"
       ],
       "optionReasons": {
-        "little-mcq-16": "本句指「難怪」。",
+        "little-pdf-003": "本句指「很短的時間量」。",
         "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
         "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
         "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
         "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
         "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。"
       },
-      "correctOption": "little-mcq-16"
+      "correctOption": "little-pdf-003"
     },
     {
       "id": "little-17-0",

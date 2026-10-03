@@ -161,16 +161,6 @@ export default {
       "note": "來源詞義：節目中斷並播放商業廣告的一段時間",
       "examples": [
         [
-          "The company operates a fleet of commercial vehicles.",
-          "公司營運一支商用車隊。",
-          "節目中斷並播放商業廣告的一段時間"
-        ],
-        [
-          "Different rules may apply to commercial vehicles.",
-          "商用車輛可能適用不同規則。",
-          "節目中斷並播放商業廣告的一段時間"
-        ],
-        [
           "I made some tea during the commercial break.",
           "我在廣告時段去泡了茶。",
           "節目中斷並播放商業廣告的一段時間"
@@ -365,6 +355,28 @@ export default {
           "Office buildings are a form of commercial real estate.",
           "辦公大樓屬於商業房地產的一種。",
           "用於辦公、零售、工業等商業活動的物業"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "commercial-pdf-001",
+      "title": "主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛",
+      "form": "7. commercial vehicle（運輸） — 商用車輛",
+      "en": "7. commercial vehicle（運輸） — 商用車輛",
+      "zh": "主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛",
+      "note": "原始 PDF 第 7 節：主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛",
+      "examples": [
+        [
+          "The company operates a fleet of commercial vehicles.",
+          "公司營運一支商用車隊。",
+          "主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛"
+        ],
+        [
+          "Different rules may apply to commercial vehicles.",
+          "商用車輛可能適用不同規則。",
+          "主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛"
         ]
       ],
       "options": [],
@@ -764,63 +776,63 @@ export default {
     },
     {
       "id": "commercial-07-0",
-      "sense": "commercial-mcq-08",
+      "sense": "commercial-pdf-001",
       "en": "The company operates a fleet of commercial vehicles.",
       "zh": "公司營運一支商用車隊。",
       "masked": "The company operates a fleet of ____.",
       "options": [
-        "commercial-mcq-08",
+        "commercial-pdf-001",
         "commercial-mcq-07",
         "commercial-mcq-09",
         "commercial-mcq-06",
         "commercial-mcq-10",
         "commercial-mcq-05"
       ],
-      "explanation": "本句的「commercial vehicles」指「節目中斷並播放商業廣告的一段時間」。",
+      "explanation": "本句的「commercial vehicles」指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "commercial vehicles"
       ],
       "optionReasons": {
-        "commercial-mcq-08": "本句指「節目中斷並播放商業廣告的一段時間」。",
+        "commercial-pdf-001": "本句指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
         "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
         "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
         "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
         "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
         "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。"
       },
-      "correctOption": "commercial-mcq-08"
+      "correctOption": "commercial-pdf-001"
     },
     {
       "id": "commercial-07-1",
-      "sense": "commercial-mcq-08",
+      "sense": "commercial-pdf-001",
       "en": "Different rules may apply to commercial vehicles.",
       "zh": "商用車輛可能適用不同規則。",
       "masked": "Different rules may apply to ____.",
       "options": [
-        "commercial-mcq-08",
+        "commercial-pdf-001",
         "commercial-mcq-07",
         "commercial-mcq-09",
         "commercial-mcq-06",
         "commercial-mcq-10",
         "commercial-mcq-05"
       ],
-      "explanation": "本句的「commercial vehicles」指「節目中斷並播放商業廣告的一段時間」。",
+      "explanation": "本句的「commercial vehicles」指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "commercial vehicles"
       ],
       "optionReasons": {
-        "commercial-mcq-08": "本句指「節目中斷並播放商業廣告的一段時間」。",
+        "commercial-pdf-001": "本句指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
         "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
         "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
         "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
         "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
         "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。"
       },
-      "correctOption": "commercial-mcq-08"
+      "correctOption": "commercial-pdf-001"
     },
     {
       "id": "commercial-08-0",

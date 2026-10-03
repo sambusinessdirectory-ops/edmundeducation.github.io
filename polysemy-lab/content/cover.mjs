@@ -12,23 +12,7 @@ export default {
       "en": "cover — surface",
       "zh": "把某物鋪／蓋在表面，或使表面大部分被某物佔據",
       "note": "來源詞義：把某物鋪／蓋在表面，或使表面大部分被某物佔據",
-      "examples": [
-        [
-          "The tables were covered in notes and past papers.",
-          "桌面上鋪滿了筆記和歷屆試題。",
-          "把某物鋪／蓋在表面，或使表面大部分被某物佔據"
-        ],
-        [
-          "Snow covered the road.",
-          "積雪覆蓋了道路。",
-          "把某物鋪／蓋在表面，或使表面大部分被某物佔據"
-        ],
-        [
-          "She covered the food with a cloth.",
-          "她用布把食物蓋起來。",
-          "把某物鋪／蓋在表面，或使表面大部分被某物佔據"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -232,16 +216,6 @@ export default {
       "note": "來源詞義：承保某種風險、損失或費用",
       "examples": [
         [
-          "Does the insurance cover theft?",
-          "這份保險是否承保盜竊損失？",
-          "承保某種風險、損失或費用"
-        ],
-        [
-          "The policy covers medical expenses overseas.",
-          "這份保單保障／承保海外醫療費用。",
-          "承保某種風險、損失或費用"
-        ],
-        [
           "The plan provides worldwide medical cover.",
           "這項計劃提供全球醫療保險保障。",
           "承保某種風險、損失或費用"
@@ -404,98 +378,147 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "cover-pdf-001",
+      "title": "令某物的表面被另一種物件、物質或材料遮住／鋪滿",
+      "form": "1. cover = put something over a surface / be spread over it（覆蓋） — 覆蓋；遮蓋；鋪滿",
+      "en": "1. cover = put something over a surface / be spread over it（覆蓋） — 覆蓋；遮蓋；鋪滿",
+      "zh": "令某物的表面被另一種物件、物質或材料遮住／鋪滿",
+      "note": "原始 PDF 第 1 節：令某物的表面被另一種物件、物質或材料遮住／鋪滿",
+      "examples": [
+        [
+          "The tables were covered in notes and past papers.",
+          "桌面上鋪滿了筆記和歷屆試題。",
+          "令某物的表面被另一種物件、物質或材料遮住／鋪滿"
+        ],
+        [
+          "Snow covered the road.",
+          "積雪覆蓋了道路。",
+          "令某物的表面被另一種物件、物質或材料遮住／鋪滿"
+        ],
+        [
+          "She covered the food with a cloth.",
+          "她用布把食物蓋起來。",
+          "令某物的表面被另一種物件、物質或材料遮住／鋪滿"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "cover-pdf-002",
+      "title": "保險公司承諾在特定情況下承擔相關財務損失",
+      "form": "13. cover = protect against financial loss through insurance（保險） — 承保；保障",
+      "en": "13. cover = protect against financial loss through insurance（保險） — 承保；保障",
+      "zh": "保險公司承諾在特定情況下承擔相關財務損失",
+      "note": "原始 PDF 第 13 節：保險公司承諾在特定情況下承擔相關財務損失",
+      "examples": [
+        [
+          "Does the insurance cover theft?",
+          "這份保險是否承保盜竊損失？",
+          "保險公司承諾在特定情況下承擔相關財務損失"
+        ],
+        [
+          "The policy covers medical expenses overseas.",
+          "這份保單保障／承保海外醫療費用。",
+          "保險公司承諾在特定情況下承擔相關財務損失"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "cover-01-0",
-      "sense": "cover-mcq-01",
+      "sense": "cover-pdf-001",
       "en": "The tables were covered in notes and past papers.",
       "zh": "桌面上鋪滿了筆記和歷屆試題。",
       "masked": "The tables were ____ notes and past papers.",
       "options": [
-        "cover-mcq-01",
+        "cover-pdf-001",
         "cover-mcq-02",
         "cover-mcq-03",
         "cover-mcq-04",
         "cover-mcq-05",
         "cover-mcq-06"
       ],
-      "explanation": "本句的「covered in」指「把某物鋪／蓋在表面，或使表面大部分被某物佔據」。",
+      "explanation": "本句的「covered in」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "covered in"
       ],
       "optionReasons": {
-        "cover-mcq-01": "本句指「把某物鋪／蓋在表面，或使表面大部分被某物佔據」。",
+        "cover-pdf-001": "本句指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
         "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
         "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
         "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
         "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
         "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
       },
-      "correctOption": "cover-mcq-01"
+      "correctOption": "cover-pdf-001"
     },
     {
       "id": "cover-01-1",
-      "sense": "cover-mcq-01",
+      "sense": "cover-pdf-001",
       "en": "Snow covered the road.",
       "zh": "積雪覆蓋了道路。",
       "masked": "Snow ____ the road.",
       "options": [
-        "cover-mcq-01",
+        "cover-pdf-001",
         "cover-mcq-02",
         "cover-mcq-03",
         "cover-mcq-04",
         "cover-mcq-05",
         "cover-mcq-06"
       ],
-      "explanation": "本句的「covered」指「把某物鋪／蓋在表面，或使表面大部分被某物佔據」。",
+      "explanation": "本句的「covered」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "covered"
       ],
       "optionReasons": {
-        "cover-mcq-01": "本句指「把某物鋪／蓋在表面，或使表面大部分被某物佔據」。",
+        "cover-pdf-001": "本句指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
         "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
         "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
         "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
         "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
         "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
       },
-      "correctOption": "cover-mcq-01"
+      "correctOption": "cover-pdf-001"
     },
     {
       "id": "cover-01-2",
-      "sense": "cover-mcq-01",
+      "sense": "cover-pdf-001",
       "en": "She covered the food with a cloth.",
       "zh": "她用布把食物蓋起來。",
       "masked": "She ____ the food with a cloth.",
       "options": [
-        "cover-mcq-01",
+        "cover-pdf-001",
         "cover-mcq-02",
         "cover-mcq-03",
         "cover-mcq-04",
         "cover-mcq-05",
         "cover-mcq-06"
       ],
-      "explanation": "本句的「covered」指「把某物鋪／蓋在表面，或使表面大部分被某物佔據」。",
+      "explanation": "本句的「covered」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "covered"
       ],
       "optionReasons": {
-        "cover-mcq-01": "本句指「把某物鋪／蓋在表面，或使表面大部分被某物佔據」。",
+        "cover-pdf-001": "本句指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
         "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
         "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
         "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
         "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
         "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
       },
-      "correctOption": "cover-mcq-01"
+      "correctOption": "cover-pdf-001"
     },
     {
       "id": "cover-03-0",
@@ -1099,63 +1122,63 @@ export default {
     },
     {
       "id": "cover-13-0",
-      "sense": "cover-mcq-10",
+      "sense": "cover-pdf-002",
       "en": "Does the insurance cover theft?",
       "zh": "這份保險是否承保盜竊損失？",
       "masked": "Does the insurance ____ theft?",
       "options": [
-        "cover-mcq-10",
+        "cover-pdf-002",
         "cover-mcq-09",
         "cover-mcq-11",
         "cover-mcq-08",
         "cover-mcq-12",
         "cover-mcq-07"
       ],
-      "explanation": "本句的「cover」指「承保某種風險、損失或費用」。",
+      "explanation": "本句的「cover」指「保險公司承諾在特定情況下承擔相關財務損失」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-10": "本句指「承保某種風險、損失或費用」。",
+        "cover-pdf-002": "本句指「保險公司承諾在特定情況下承擔相關財務損失」。",
         "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
         "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
         "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
         "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
         "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。"
       },
-      "correctOption": "cover-mcq-10"
+      "correctOption": "cover-pdf-002"
     },
     {
       "id": "cover-13-1",
-      "sense": "cover-mcq-10",
+      "sense": "cover-pdf-002",
       "en": "The policy covers medical expenses overseas.",
       "zh": "這份保單保障／承保海外醫療費用。",
       "masked": "The policy ____ medical expenses overseas.",
       "options": [
-        "cover-mcq-10",
+        "cover-pdf-002",
         "cover-mcq-09",
         "cover-mcq-11",
         "cover-mcq-08",
         "cover-mcq-12",
         "cover-mcq-07"
       ],
-      "explanation": "本句的「covers」指「承保某種風險、損失或費用」。",
+      "explanation": "本句的「covers」指「保險公司承諾在特定情況下承擔相關財務損失」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-10": "本句指「承保某種風險、損失或費用」。",
+        "cover-pdf-002": "本句指「保險公司承諾在特定情況下承擔相關財務損失」。",
         "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
         "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
         "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
         "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
         "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。"
       },
-      "correctOption": "cover-mcq-10"
+      "correctOption": "cover-pdf-002"
     },
     {
       "id": "cover-14-0",

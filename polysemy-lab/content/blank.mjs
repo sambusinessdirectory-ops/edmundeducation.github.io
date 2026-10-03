@@ -355,16 +355,6 @@ export default {
           "When asked for an example, I suddenly felt blank.",
           "被要求舉例時，我突然甚麼都想不到。",
           "暫時沒有可用的想法、答案或靈感"
-        ],
-        [
-          "Use a blank card for the message.",
-          "請用一張沒有預印文字的空白卡寫訊息。",
-          "暫時沒有可用的想法、答案或靈感"
-        ],
-        [
-          "The notebook has a blank cover.",
-          "筆記簿有一個素面／沒有圖案的封面。",
-          "暫時沒有可用的想法、答案或靈感"
         ]
       ],
       "options": [],
@@ -452,16 +442,6 @@ export default {
         [
           "The actors used blanks during filming.",
           "演員拍攝時使用了空包彈。",
-          "沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈"
-        ],
-        [
-          "The soldiers were firing blanks during the exercise.",
-          "士兵在演習中發射空包彈。",
-          "沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈"
-        ],
-        [
-          "The gun contained only blanks.",
-          "槍內只有空包彈。",
           "沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈"
         ]
       ],
@@ -649,6 +629,50 @@ export default {
           "The screen was temporarily blanked.",
           "畫面暫時被清空／關掉顯示。",
           "使畫面、區域或內容變成空白"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "blank-pdf-001",
+      "title": "表面沒有文字、圖案、符號或裝飾的",
+      "form": "17. blank = plain / without decoration or printing（沒有圖案／標記的） — 素面的；空白的",
+      "en": "17. blank = plain / without decoration or printing（沒有圖案／標記的） — 素面的；空白的",
+      "zh": "表面沒有文字、圖案、符號或裝飾的",
+      "note": "原始 PDF 第 17 節：表面沒有文字、圖案、符號或裝飾的",
+      "examples": [
+        [
+          "Use a blank card for the message.",
+          "請用一張沒有預印文字的空白卡寫訊息。",
+          "表面沒有文字、圖案、符號或裝飾的"
+        ],
+        [
+          "The notebook has a blank cover.",
+          "筆記簿有一個素面／沒有圖案的封面。",
+          "表面沒有文字、圖案、符號或裝飾的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "blank-pdf-002",
+      "title": "空包彈",
+      "form": "22. fire blanks（發射空包彈） — 打空包彈",
+      "en": "22. fire blanks（發射空包彈） — 打空包彈",
+      "zh": "空包彈",
+      "note": "原始 PDF 第 22 節：空包彈",
+      "examples": [
+        [
+          "The soldiers were firing blanks during the exercise.",
+          "士兵在演習中發射空包彈。",
+          "空包彈"
+        ],
+        [
+          "The gun contained only blanks.",
+          "槍內只有空包彈。",
+          "空包彈"
         ]
       ],
       "options": [],
@@ -1648,63 +1672,63 @@ export default {
     },
     {
       "id": "blank-17-0",
-      "sense": "blank-mcq-15",
+      "sense": "blank-pdf-001",
       "en": "Use a blank card for the message.",
       "zh": "請用一張沒有預印文字的空白卡寫訊息。",
       "masked": "Use a ____ for the message.",
       "options": [
-        "blank-mcq-15",
+        "blank-pdf-001",
         "blank-mcq-14",
         "blank-mcq-16",
         "blank-mcq-13",
         "blank-mcq-17",
         "blank-mcq-12"
       ],
-      "explanation": "本句的「blank card」指「暫時沒有可用的想法、答案或靈感」。",
+      "explanation": "本句的「blank card」指「表面沒有文字、圖案、符號或裝飾的」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "blank card"
       ],
       "optionReasons": {
-        "blank-mcq-15": "本句指「暫時沒有可用的想法、答案或靈感」。",
+        "blank-pdf-001": "本句指「表面沒有文字、圖案、符號或裝飾的」。",
         "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
         "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
         "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
         "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
         "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。"
       },
-      "correctOption": "blank-mcq-15"
+      "correctOption": "blank-pdf-001"
     },
     {
       "id": "blank-17-1",
-      "sense": "blank-mcq-15",
+      "sense": "blank-pdf-001",
       "en": "The notebook has a blank cover.",
       "zh": "筆記簿有一個素面／沒有圖案的封面。",
       "masked": "The notebook has a ____.",
       "options": [
-        "blank-mcq-15",
+        "blank-pdf-001",
         "blank-mcq-14",
         "blank-mcq-16",
         "blank-mcq-13",
         "blank-mcq-17",
         "blank-mcq-12"
       ],
-      "explanation": "本句的「blank cover」指「暫時沒有可用的想法、答案或靈感」。",
+      "explanation": "本句的「blank cover」指「表面沒有文字、圖案、符號或裝飾的」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "blank cover"
       ],
       "optionReasons": {
-        "blank-mcq-15": "本句指「暫時沒有可用的想法、答案或靈感」。",
+        "blank-pdf-001": "本句指「表面沒有文字、圖案、符號或裝飾的」。",
         "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
         "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
         "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
         "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
         "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。"
       },
-      "correctOption": "blank-mcq-15"
+      "correctOption": "blank-pdf-001"
     },
     {
       "id": "blank-18-0",
@@ -1948,63 +1972,63 @@ export default {
     },
     {
       "id": "blank-22-0",
-      "sense": "blank-mcq-19",
+      "sense": "blank-pdf-002",
       "en": "The soldiers were firing blanks during the exercise.",
       "zh": "士兵在演習中發射空包彈。",
       "masked": "The soldiers were ____ during the exercise.",
       "options": [
-        "blank-mcq-19",
+        "blank-pdf-002",
         "blank-mcq-18",
         "blank-mcq-20",
         "blank-mcq-17",
         "blank-mcq-21",
         "blank-mcq-16"
       ],
-      "explanation": "本句的「firing blanks」指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
+      "explanation": "本句的「firing blanks」指「空包彈」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "firing blanks"
       ],
       "optionReasons": {
-        "blank-mcq-19": "本句指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
+        "blank-pdf-002": "本句指「空包彈」。",
         "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
         "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
         "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
         "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
         "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。"
       },
-      "correctOption": "blank-mcq-19"
+      "correctOption": "blank-pdf-002"
     },
     {
       "id": "blank-22-1",
-      "sense": "blank-mcq-19",
+      "sense": "blank-pdf-002",
       "en": "The gun contained only blanks.",
       "zh": "槍內只有空包彈。",
       "masked": "The gun contained only ____.",
       "options": [
-        "blank-mcq-19",
+        "blank-pdf-002",
         "blank-mcq-18",
         "blank-mcq-20",
         "blank-mcq-17",
         "blank-mcq-21",
         "blank-mcq-16"
       ],
-      "explanation": "本句的「blanks」指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
+      "explanation": "本句的「blanks」指「空包彈」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "blanks"
       ],
       "optionReasons": {
-        "blank-mcq-19": "本句指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
+        "blank-pdf-002": "本句指「空包彈」。",
         "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
         "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
         "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
         "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
         "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。"
       },
-      "correctOption": "blank-mcq-19"
+      "correctOption": "blank-pdf-002"
     },
     {
       "id": "blank-23-0",

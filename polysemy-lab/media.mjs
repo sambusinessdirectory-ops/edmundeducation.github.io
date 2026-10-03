@@ -1,9 +1,9 @@
 import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260928-five-companions1';
 import {allQuestionMap,esc} from './core.mjs?v=20261003-polysemy-mass-2';
 let earlyManifestPromise,massManifestPromise;
-const readManifest=file=>fetch(new URL('./'+file+'?v=20261002-polysemy-aries2',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
+const readManifest=file=>fetch(new URL('./'+file+'?v=20261003-polysemy-voices3',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
 const manifest=mass=>mass
- ? massManifestPromise||=(readManifest('audio-mass.json').catch(e=>{massManifestPromise=null;throw e;}))
+ ? massManifestPromise||=(Promise.all(['audio-mass.json','audio-mass-2.json'].map(readManifest)).then(rows=>Object.assign({},...rows)).catch(e=>{massManifestPromise=null;throw e;}))
  : earlyManifestPromise||=(Promise.all(['audio.json','audio-new.json'].map(readManifest)).then(rows=>Object.assign({},...rows)).catch(e=>{earlyManifestPromise=null;throw e;}));
 const clock=seconds=>{const value=Number.isFinite(seconds)?Math.max(0,seconds):0;return `${Math.floor(value/60)}:${String(Math.floor(value%60)).padStart(2,'0')}`;};
 function waveform(seed,count=46){
@@ -186,7 +186,7 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
      <div class="recording-time"><span data-current-time>0:00</span><span data-total-time>—:—</span></div>
      <div class="recording-controls">
       <button class="recording-skip" type="button" data-skip="-5" aria-label="倒退 5 秒"><span aria-hidden="true">↶</span><small>5</small></button>
-      <button class="recording-play" type="button" data-play aria-label="播放錄音 · Play recording"><span data-play-icon aria-hidden="true">▶</span></button>
+      <button class="recording-play" type="button" data-play aria-label="播放錄音 · Play recording" aria-pressed="false"><span class="recording-play-icon" aria-hidden="true"></span></button>
       <button class="recording-skip" type="button" data-skip="5" aria-label="前進 5 秒"><small>5</small><span aria-hidden="true">↷</span></button>
      </div>
     </div>
@@ -201,7 +201,6 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
    const status=box.querySelector('[role=status]');
    const player=box.querySelector('audio');
    const playButton=box.querySelector('[data-play]');
-   const playIcon=box.querySelector('[data-play-icon]');
    const seek=box.querySelector('[data-seek]');
    const bars=[...box.querySelectorAll('[data-waveform] i')];
    const currentTime=box.querySelector('[data-current-time]');
@@ -219,8 +218,8 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
    }
    function setPlaying(playing){
     box.classList.toggle('is-playing',playing);
-    playIcon.textContent=playing?'❚❚':'▶';
     playButton.setAttribute('aria-label',playing?'暫停錄音 · Pause recording':'播放錄音 · Play recording');
+    playButton.setAttribute('aria-pressed',String(playing));
    }
    async function prepare(){
     if(player.src)return player;

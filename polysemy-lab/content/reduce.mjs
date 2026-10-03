@@ -1234,26 +1234,6 @@ export default {
           "Gaussian elimination is a form of row reduction.",
           "高斯消去法是一種行化簡方法。",
           "行化簡 mathematics"
-        ],
-        [
-          "The dish was served with a balsamic reduction.",
-          "菜式配上濃縮黑醋汁。",
-          "行化簡 mathematics"
-        ],
-        [
-          "A wine reduction adds concentrated flavour.",
-          "葡萄酒濃縮汁可以增加濃郁味道。",
-          "行化簡 mathematics"
-        ],
-        [
-          "The reaction involves oxidation and reduction.",
-          "這個反應涉及氧化和還原。",
-          "行化簡 mathematics"
-        ],
-        [
-          "Reduction involves a gain of electrons in redox chemistry.",
-          "在氧化還原化學中，還原涉及獲得電子。",
-          "行化簡 mathematics"
         ]
       ],
       "options": [],
@@ -1528,26 +1508,6 @@ export default {
         [
           "Open reduction allows direct surgical alignment.",
           "切開復位讓醫生以手術直接把骨頭重新對正。",
-          "切開復位 medicine"
-        ],
-        [
-          "The image is a reduction of the original.",
-          "這幅圖是原圖的縮小版本。",
-          "切開復位 medicine"
-        ],
-        [
-          "The document was printed at a 50% reduction.",
-          "文件以縮小至百分之五十的比例打印。",
-          "切開復位 medicine"
-        ],
-        [
-          "Members receive a 10% reduction.",
-          "會員可享九折／百分之十減價。",
-          "切開復位 medicine"
-        ],
-        [
-          "There has been a substantial reduction in prices.",
-          "價格已經大幅下降。",
           "切開復位 medicine"
         ]
       ],
@@ -1833,6 +1793,94 @@ export default {
           "A reductionist may focus on simpler underlying mechanisms.",
           "還原論者可能集中研究較基本的底層機制。",
           "還原論的／還原論者 theory/person"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reduce-pdf-plain-082",
+      "title": "烹調時收濃的汁液；濃縮汁",
+      "form": "PDF section 82",
+      "en": "PDF section 82",
+      "zh": "烹調時收濃的汁液；濃縮汁",
+      "note": "原始 PDF 第 82 節：烹調時收濃的汁液；濃縮汁",
+      "examples": [
+        [
+          "The dish was served with a balsamic reduction.",
+          "菜式配上濃縮黑醋汁。",
+          "烹調時收濃的汁液；濃縮汁"
+        ],
+        [
+          "A wine reduction adds concentrated flavour.",
+          "葡萄酒濃縮汁可以增加濃郁味道。",
+          "烹調時收濃的汁液；濃縮汁"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reduce-pdf-plain-083",
+      "title": "化學反應中的還原",
+      "form": "PDF section 83",
+      "en": "PDF section 83",
+      "zh": "化學反應中的還原",
+      "note": "原始 PDF 第 83 節：化學反應中的還原",
+      "examples": [
+        [
+          "The reaction involves oxidation and reduction.",
+          "這個反應涉及氧化和還原。",
+          "化學反應中的還原"
+        ],
+        [
+          "Reduction involves a gain of electrons in redox chemistry.",
+          "在氧化還原化學中，還原涉及獲得電子。",
+          "化學反應中的還原"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reduce-pdf-plain-099",
+      "title": "原圖的縮小版本；縮印",
+      "form": "PDF section 99",
+      "en": "PDF section 99",
+      "zh": "原圖的縮小版本；縮印",
+      "note": "原始 PDF 第 99 節：原圖的縮小版本；縮印",
+      "examples": [
+        [
+          "The image is a reduction of the original.",
+          "這幅圖是原圖的縮小版本。",
+          "原圖的縮小版本；縮印"
+        ],
+        [
+          "The document was printed at a 50% reduction.",
+          "文件以縮小至百分之五十的比例打印。",
+          "原圖的縮小版本；縮印"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "reduce-pdf-plain-101",
+      "title": "減價；折扣",
+      "form": "PDF section 101",
+      "en": "PDF section 101",
+      "zh": "減價；折扣",
+      "note": "原始 PDF 第 101 節：減價；折扣",
+      "examples": [
+        [
+          "Members receive a 10% reduction.",
+          "會員可享九折／百分之十減價。",
+          "減價；折扣"
+        ],
+        [
+          "There has been a substantial reduction in prices.",
+          "價格已經大幅下降。",
+          "減價；折扣"
         ]
       ],
       "options": [],
@@ -5172,123 +5220,123 @@ export default {
     },
     {
       "id": "reduce-82-0",
-      "sense": "reduce-mcq-59",
+      "sense": "reduce-pdf-plain-082",
       "en": "The dish was served with a balsamic reduction.",
       "zh": "菜式配上濃縮黑醋汁。",
       "masked": "The dish was served with a balsamic ____.",
       "options": [
-        "reduce-mcq-59",
+        "reduce-pdf-plain-082",
         "reduce-mcq-58",
         "reduce-mcq-60",
         "reduce-mcq-57",
         "reduce-mcq-61",
         "reduce-mcq-56"
       ],
-      "explanation": "本句的「reduction」指「行化簡 mathematics」。",
+      "explanation": "本句的「reduction」指「烹調時收濃的汁液；濃縮汁」。",
       "sentenceIndex": 163,
       "sourcePractice": 82,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-59": "本句指「行化簡 mathematics」。",
+        "reduce-pdf-plain-082": "本句指「烹調時收濃的汁液；濃縮汁」。",
         "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
         "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
         "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
         "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
         "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-59"
+      "correctOption": "reduce-pdf-plain-082"
     },
     {
       "id": "reduce-82-1",
-      "sense": "reduce-mcq-59",
+      "sense": "reduce-pdf-plain-082",
       "en": "A wine reduction adds concentrated flavour.",
       "zh": "葡萄酒濃縮汁可以增加濃郁味道。",
       "masked": "A wine ____ adds concentrated flavour.",
       "options": [
-        "reduce-mcq-59",
+        "reduce-pdf-plain-082",
         "reduce-mcq-58",
         "reduce-mcq-60",
         "reduce-mcq-57",
         "reduce-mcq-61",
         "reduce-mcq-56"
       ],
-      "explanation": "本句的「reduction」指「行化簡 mathematics」。",
+      "explanation": "本句的「reduction」指「烹調時收濃的汁液；濃縮汁」。",
       "sentenceIndex": 164,
       "sourcePractice": 82,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-59": "本句指「行化簡 mathematics」。",
+        "reduce-pdf-plain-082": "本句指「烹調時收濃的汁液；濃縮汁」。",
         "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
         "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
         "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
         "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
         "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-59"
+      "correctOption": "reduce-pdf-plain-082"
     },
     {
       "id": "reduce-83-0",
-      "sense": "reduce-mcq-59",
+      "sense": "reduce-pdf-plain-083",
       "en": "The reaction involves oxidation and reduction.",
       "zh": "這個反應涉及氧化和還原。",
       "masked": "The reaction involves oxidation and ____.",
       "options": [
-        "reduce-mcq-59",
+        "reduce-pdf-plain-083",
         "reduce-mcq-58",
         "reduce-mcq-60",
         "reduce-mcq-57",
         "reduce-mcq-61",
         "reduce-mcq-56"
       ],
-      "explanation": "本句的「reduction」指「行化簡 mathematics」。",
+      "explanation": "本句的「reduction」指「化學反應中的還原」。",
       "sentenceIndex": 165,
       "sourcePractice": 83,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-59": "本句指「行化簡 mathematics」。",
+        "reduce-pdf-plain-083": "本句指「化學反應中的還原」。",
         "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
         "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
         "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
         "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
         "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-59"
+      "correctOption": "reduce-pdf-plain-083"
     },
     {
       "id": "reduce-83-1",
-      "sense": "reduce-mcq-59",
+      "sense": "reduce-pdf-plain-083",
       "en": "Reduction involves a gain of electrons in redox chemistry.",
       "zh": "在氧化還原化學中，還原涉及獲得電子。",
       "masked": "____ involves a gain of electrons in redox chemistry.",
       "options": [
-        "reduce-mcq-59",
+        "reduce-pdf-plain-083",
         "reduce-mcq-58",
         "reduce-mcq-60",
         "reduce-mcq-57",
         "reduce-mcq-61",
         "reduce-mcq-56"
       ],
-      "explanation": "本句的「Reduction」指「行化簡 mathematics」。",
+      "explanation": "本句的「Reduction」指「化學反應中的還原」。",
       "sentenceIndex": 166,
       "sourcePractice": 83,
       "targets": [
         "Reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-59": "本句指「行化簡 mathematics」。",
+        "reduce-pdf-plain-083": "本句指「化學反應中的還原」。",
         "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
         "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
         "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
         "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
         "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-59"
+      "correctOption": "reduce-pdf-plain-083"
     },
     {
       "id": "reduce-86-0",
@@ -5952,123 +6000,123 @@ export default {
     },
     {
       "id": "reduce-99-0",
-      "sense": "reduce-mcq-73",
+      "sense": "reduce-pdf-plain-099",
       "en": "The image is a reduction of the original.",
       "zh": "這幅圖是原圖的縮小版本。",
       "masked": "The image is a ____ of the original.",
       "options": [
-        "reduce-mcq-73",
+        "reduce-pdf-plain-099",
         "reduce-mcq-72",
         "reduce-mcq-74",
         "reduce-mcq-71",
         "reduce-mcq-75",
         "reduce-mcq-70"
       ],
-      "explanation": "本句的「reduction」指「切開復位 medicine」。",
+      "explanation": "本句的「reduction」指「原圖的縮小版本；縮印」。",
       "sentenceIndex": 197,
       "sourcePractice": 99,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-73": "本句指「切開復位 medicine」。",
+        "reduce-pdf-plain-099": "本句指「原圖的縮小版本；縮印」。",
         "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
         "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
         "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
         "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
         "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-73"
+      "correctOption": "reduce-pdf-plain-099"
     },
     {
       "id": "reduce-99-1",
-      "sense": "reduce-mcq-73",
+      "sense": "reduce-pdf-plain-099",
       "en": "The document was printed at a 50% reduction.",
       "zh": "文件以縮小至百分之五十的比例打印。",
       "masked": "The document was printed at a 50% ____.",
       "options": [
-        "reduce-mcq-73",
+        "reduce-pdf-plain-099",
         "reduce-mcq-72",
         "reduce-mcq-74",
         "reduce-mcq-71",
         "reduce-mcq-75",
         "reduce-mcq-70"
       ],
-      "explanation": "本句的「reduction」指「切開復位 medicine」。",
+      "explanation": "本句的「reduction」指「原圖的縮小版本；縮印」。",
       "sentenceIndex": 198,
       "sourcePractice": 99,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-73": "本句指「切開復位 medicine」。",
+        "reduce-pdf-plain-099": "本句指「原圖的縮小版本；縮印」。",
         "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
         "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
         "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
         "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
         "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-73"
+      "correctOption": "reduce-pdf-plain-099"
     },
     {
       "id": "reduce-101-0",
-      "sense": "reduce-mcq-73",
+      "sense": "reduce-pdf-plain-101",
       "en": "Members receive a 10% reduction.",
       "zh": "會員可享九折／百分之十減價。",
       "masked": "Members receive a 10% ____.",
       "options": [
-        "reduce-mcq-73",
+        "reduce-pdf-plain-101",
         "reduce-mcq-72",
         "reduce-mcq-74",
         "reduce-mcq-71",
         "reduce-mcq-75",
         "reduce-mcq-70"
       ],
-      "explanation": "本句的「reduction」指「切開復位 medicine」。",
+      "explanation": "本句的「reduction」指「減價；折扣」。",
       "sentenceIndex": 201,
       "sourcePractice": 101,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-73": "本句指「切開復位 medicine」。",
+        "reduce-pdf-plain-101": "本句指「減價；折扣」。",
         "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
         "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
         "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
         "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
         "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-73"
+      "correctOption": "reduce-pdf-plain-101"
     },
     {
       "id": "reduce-101-1",
-      "sense": "reduce-mcq-73",
+      "sense": "reduce-pdf-plain-101",
       "en": "There has been a substantial reduction in prices.",
       "zh": "價格已經大幅下降。",
       "masked": "There has been a substantial ____ in prices.",
       "options": [
-        "reduce-mcq-73",
+        "reduce-pdf-plain-101",
         "reduce-mcq-72",
         "reduce-mcq-74",
         "reduce-mcq-71",
         "reduce-mcq-75",
         "reduce-mcq-70"
       ],
-      "explanation": "本句的「reduction」指「切開復位 medicine」。",
+      "explanation": "本句的「reduction」指「減價；折扣」。",
       "sentenceIndex": 202,
       "sourcePractice": 101,
       "targets": [
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-73": "本句指「切開復位 medicine」。",
+        "reduce-pdf-plain-101": "本句指「減價；折扣」。",
         "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
         "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
         "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
         "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
         "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
       },
-      "correctOption": "reduce-mcq-73"
+      "correctOption": "reduce-pdf-plain-101"
     },
     {
       "id": "reduce-102-0",

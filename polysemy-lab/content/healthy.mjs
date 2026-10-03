@@ -71,11 +71,6 @@ export default {
           "Walking every day is a healthy habit.",
           "每天步行是一個有益健康的習慣。",
           "對身體或心理健康有益、有助維持良好狀態的"
-        ],
-        [
-          "She cooks simple, healthy meals.",
-          "她會煮簡單而健康、營養均衡的餐點。",
-          "對身體或心理健康有益、有助維持良好狀態的"
         ]
       ],
       "options": [],
@@ -163,16 +158,6 @@ export default {
         [
           "There was a healthy increase in sales.",
           "銷售錄得相當可觀的增長。",
-          "數量、增長或利益相當大而令人滿意的；可觀的"
-        ],
-        [
-          "There is healthy competition between the two teams.",
-          "兩隊之間存在良性而有活力的競爭。",
-          "數量、增長或利益相當大而令人滿意的；可觀的"
-        ],
-        [
-          "The market shows healthy demand.",
-          "市場顯示出強勁、穩健的需求。",
           "數量、增長或利益相當大而令人滿意的；可觀的"
         ]
       ],
@@ -320,6 +305,45 @@ export default {
           "Their relationship became unhealthy.",
           "他們的關係變得不健康／不良。",
           "關係、習慣或心理模式失衡並可能造成傷害的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "healthy-pdf-001",
+      "title": "營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點",
+      "form": "4. healthy = nutritionally balanced / beneficial（飲食） — 營養均衡的；健康的",
+      "en": "4. healthy = nutritionally balanced / beneficial（飲食） — 營養均衡的；健康的",
+      "zh": "營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點",
+      "note": "原始 PDF 第 4 節：營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點",
+      "examples": [
+        [
+          "She cooks simple, healthy meals.",
+          "她會煮簡單而健康、營養均衡的餐點。",
+          "營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "healthy-pdf-002",
+      "title": "活躍而不失平衡、具有足夠活力和持續性的",
+      "form": "9. healthy = strong / vigorous / robust（狀態） — 強健的；旺盛的",
+      "en": "9. healthy = strong / vigorous / robust（狀態） — 強健的；旺盛的",
+      "zh": "活躍而不失平衡、具有足夠活力和持續性的",
+      "note": "原始 PDF 第 9 節：活躍而不失平衡、具有足夠活力和持續性的",
+      "examples": [
+        [
+          "There is healthy competition between the two teams.",
+          "兩隊之間存在良性而有活力的競爭。",
+          "活躍而不失平衡、具有足夠活力和持續性的"
+        ],
+        [
+          "The market shows healthy demand.",
+          "市場顯示出強勁、穩健的需求。",
+          "活躍而不失平衡、具有足夠活力和持續性的"
         ]
       ],
       "options": [],
@@ -539,33 +563,33 @@ export default {
     },
     {
       "id": "healthy-04-0",
-      "sense": "healthy-mcq-03",
+      "sense": "healthy-pdf-001",
       "en": "She cooks simple, healthy meals.",
       "zh": "她會煮簡單而健康、營養均衡的餐點。",
       "masked": "She cooks simple, ____.",
       "options": [
-        "healthy-mcq-03",
+        "healthy-pdf-001",
         "healthy-mcq-02",
         "healthy-mcq-04",
         "healthy-mcq-01",
         "healthy-mcq-05",
         "healthy-mcq-06"
       ],
-      "explanation": "本句的「healthy meals」指「對身體或心理健康有益、有助維持良好狀態的」。",
+      "explanation": "本句的「healthy meals」指「營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "healthy meals"
       ],
       "optionReasons": {
-        "healthy-mcq-03": "本句指「對身體或心理健康有益、有助維持良好狀態的」。",
+        "healthy-pdf-001": "本句指「營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點」。",
         "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
         "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
         "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
         "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
         "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
       },
-      "correctOption": "healthy-mcq-03"
+      "correctOption": "healthy-pdf-001"
     },
     {
       "id": "healthy-05-0",
@@ -809,63 +833,63 @@ export default {
     },
     {
       "id": "healthy-09-0",
-      "sense": "healthy-mcq-07",
+      "sense": "healthy-pdf-002",
       "en": "There is healthy competition between the two teams.",
       "zh": "兩隊之間存在良性而有活力的競爭。",
       "masked": "There is ____ competition between the two teams.",
       "options": [
-        "healthy-mcq-07",
+        "healthy-pdf-002",
         "healthy-mcq-06",
         "healthy-mcq-08",
         "healthy-mcq-05",
         "healthy-mcq-09",
         "healthy-mcq-04"
       ],
-      "explanation": "本句的「healthy」指「數量、增長或利益相當大而令人滿意的；可觀的」。",
+      "explanation": "本句的「healthy」指「活躍而不失平衡、具有足夠活力和持續性的」。",
       "sentenceIndex": 16,
       "sourcePractice": 18,
       "targets": [
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-07": "本句指「數量、增長或利益相當大而令人滿意的；可觀的」。",
+        "healthy-pdf-002": "本句指「活躍而不失平衡、具有足夠活力和持續性的」。",
         "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
         "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
         "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
         "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
         "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。"
       },
-      "correctOption": "healthy-mcq-07"
+      "correctOption": "healthy-pdf-002"
     },
     {
       "id": "healthy-09-1",
-      "sense": "healthy-mcq-07",
+      "sense": "healthy-pdf-002",
       "en": "The market shows healthy demand.",
       "zh": "市場顯示出強勁、穩健的需求。",
       "masked": "The market shows ____ demand.",
       "options": [
-        "healthy-mcq-07",
+        "healthy-pdf-002",
         "healthy-mcq-06",
         "healthy-mcq-08",
         "healthy-mcq-05",
         "healthy-mcq-09",
         "healthy-mcq-04"
       ],
-      "explanation": "本句的「healthy」指「數量、增長或利益相當大而令人滿意的；可觀的」。",
+      "explanation": "本句的「healthy」指「活躍而不失平衡、具有足夠活力和持續性的」。",
       "sentenceIndex": 17,
       "sourcePractice": 19,
       "targets": [
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-07": "本句指「數量、增長或利益相當大而令人滿意的；可觀的」。",
+        "healthy-pdf-002": "本句指「活躍而不失平衡、具有足夠活力和持續性的」。",
         "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
         "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
         "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
         "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
         "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。"
       },
-      "correctOption": "healthy-mcq-07"
+      "correctOption": "healthy-pdf-002"
     },
     {
       "id": "healthy-10-0",

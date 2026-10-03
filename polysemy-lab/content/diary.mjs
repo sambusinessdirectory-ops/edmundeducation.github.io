@@ -215,16 +215,6 @@ export default {
       "note": "來源詞義：電子形式的個人日記",
       "examples": [
         [
-          "Let me check my diary.",
-          "讓我看看我的行事曆／日程表。",
-          "電子形式的個人日記"
-        ],
-        [
-          "My diary is full next week.",
-          "我下星期的行程已排滿。",
-          "電子形式的個人日記"
-        ],
-        [
           "All meetings are stored in the shared electronic diary.",
           "所有會議都記錄在共用的電子行事曆。",
           "電子形式的個人日記"
@@ -1276,6 +1266,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "diary-pdf-plain-055",
+      "title": "記錄未來約會及安排的行事曆／日程表",
+      "form": "PDF section 55",
+      "en": "PDF section 55",
+      "zh": "記錄未來約會及安排的行事曆／日程表",
+      "note": "原始 PDF 第 55 節：記錄未來約會及安排的行事曆／日程表",
+      "examples": [
+        [
+          "Let me check my diary.",
+          "讓我看看我的行事曆／日程表。",
+          "記錄未來約會及安排的行事曆／日程表"
+        ],
+        [
+          "My diary is full next week.",
+          "我下星期的行程已排滿。",
+          "記錄未來約會及安排的行事曆／日程表"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1881,63 +1893,63 @@ export default {
     },
     {
       "id": "diary-55-0",
-      "sense": "diary-mcq-15",
+      "sense": "diary-pdf-plain-055",
       "en": "Let me check my diary.",
       "zh": "讓我看看我的行事曆／日程表。",
       "masked": "Let me check my ____.",
       "options": [
-        "diary-mcq-15",
+        "diary-pdf-plain-055",
         "diary-mcq-14",
         "diary-mcq-16",
         "diary-mcq-13",
         "diary-mcq-17",
         "diary-mcq-12"
       ],
-      "explanation": "本句的「diary」指「電子形式的個人日記」。",
+      "explanation": "本句的「diary」指「記錄未來約會及安排的行事曆／日程表」。",
       "sentenceIndex": 20,
       "sourcePractice": 55,
       "targets": [
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-15": "本句指「電子形式的個人日記」。",
+        "diary-pdf-plain-055": "本句指「記錄未來約會及安排的行事曆／日程表」。",
         "diary-mcq-14": "「以電子裝置保存的數碼日記」與本句語境不同。",
         "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
         "diary-mcq-13": "「紙本日記；依語境亦可指紙本行事簿」與本句語境不同。",
         "diary-mcq-17": "「在網上保存／發布的日記」與本句語境不同。",
         "diary-mcq-12": "「手寫日記」與本句語境不同。"
       },
-      "correctOption": "diary-mcq-15"
+      "correctOption": "diary-pdf-plain-055"
     },
     {
       "id": "diary-55-1",
-      "sense": "diary-mcq-15",
+      "sense": "diary-pdf-plain-055",
       "en": "My diary is full next week.",
       "zh": "我下星期的行程已排滿。",
       "masked": "My ____ is full next week.",
       "options": [
-        "diary-mcq-15",
+        "diary-pdf-plain-055",
         "diary-mcq-14",
         "diary-mcq-16",
         "diary-mcq-13",
         "diary-mcq-17",
         "diary-mcq-12"
       ],
-      "explanation": "本句的「diary」指「電子形式的個人日記」。",
+      "explanation": "本句的「diary」指「記錄未來約會及安排的行事曆／日程表」。",
       "sentenceIndex": 21,
       "sourcePractice": 55,
       "targets": [
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-15": "本句指「電子形式的個人日記」。",
+        "diary-pdf-plain-055": "本句指「記錄未來約會及安排的行事曆／日程表」。",
         "diary-mcq-14": "「以電子裝置保存的數碼日記」與本句語境不同。",
         "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
         "diary-mcq-13": "「紙本日記；依語境亦可指紙本行事簿」與本句語境不同。",
         "diary-mcq-17": "「在網上保存／發布的日記」與本句語境不同。",
         "diary-mcq-12": "「手寫日記」與本句語境不同。"
       },
-      "correctOption": "diary-mcq-15"
+      "correctOption": "diary-pdf-plain-055"
     },
     {
       "id": "diary-60-0",

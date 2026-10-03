@@ -71,16 +71,6 @@ export default {
           "Whenever he arrives, we’ll be ready.",
           "無論他甚麼時候到，我們都會準備好。",
           "無論事情在甚麼時間發生，主句內容都成立"
-        ],
-        [
-          "She smiles whenever she talks about gardening.",
-          "她每逢談到園藝都會笑。",
-          "無論事情在甚麼時間發生，主句內容都成立"
-        ],
-        [
-          "The dog barks whenever someone approaches the gate.",
-          "每當有人走近大門，那隻狗就會叫。",
-          "無論事情在甚麼時間發生，主句內容都成立"
         ]
       ],
       "options": [],
@@ -235,6 +225,28 @@ export default {
           "Whenever you choose will be fine.",
           "你選的任何時間都可以。",
           "任何符合條件、適合的時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "whenever-pdf-001",
+      "title": "描述有規律重複的情況：A 每次發生，B 都跟著發生",
+      "form": "4. whenever = each occasion on which something happens — 每逢；凡是……的時候",
+      "en": "4. whenever = each occasion on which something happens — 每逢；凡是……的時候",
+      "zh": "描述有規律重複的情況：A 每次發生，B 都跟著發生",
+      "note": "原始 PDF 第 4 節：描述有規律重複的情況：A 每次發生，B 都跟著發生",
+      "examples": [
+        [
+          "She smiles whenever she talks about gardening.",
+          "她每逢談到園藝都會笑。",
+          "描述有規律重複的情況：A 每次發生，B 都跟著發生"
+        ],
+        [
+          "The dog barks whenever someone approaches the gate.",
+          "每當有人走近大門，那隻狗就會叫。",
+          "描述有規律重複的情況：A 每次發生，B 都跟著發生"
         ]
       ],
       "options": [],
@@ -454,63 +466,63 @@ export default {
     },
     {
       "id": "whenever-04-0",
-      "sense": "whenever-mcq-03",
+      "sense": "whenever-pdf-001",
       "en": "She smiles whenever she talks about gardening.",
       "zh": "她每逢談到園藝都會笑。",
       "masked": "She smiles ____ she talks about gardening.",
       "options": [
-        "whenever-mcq-03",
+        "whenever-pdf-001",
         "whenever-mcq-02",
         "whenever-mcq-04",
         "whenever-mcq-01",
         "whenever-mcq-05",
         "whenever-mcq-06"
       ],
-      "explanation": "本句的「whenever」指「無論事情在甚麼時間發生，主句內容都成立」。",
+      "explanation": "本句的「whenever」指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-03": "本句指「無論事情在甚麼時間發生，主句內容都成立」。",
+        "whenever-pdf-001": "本句指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
         "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
         "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
         "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
         "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
         "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
       },
-      "correctOption": "whenever-mcq-03"
+      "correctOption": "whenever-pdf-001"
     },
     {
       "id": "whenever-04-1",
-      "sense": "whenever-mcq-03",
+      "sense": "whenever-pdf-001",
       "en": "The dog barks whenever someone approaches the gate.",
       "zh": "每當有人走近大門，那隻狗就會叫。",
       "masked": "The dog barks ____ someone approaches the gate.",
       "options": [
-        "whenever-mcq-03",
+        "whenever-pdf-001",
         "whenever-mcq-02",
         "whenever-mcq-04",
         "whenever-mcq-01",
         "whenever-mcq-05",
         "whenever-mcq-06"
       ],
-      "explanation": "本句的「whenever」指「無論事情在甚麼時間發生，主句內容都成立」。",
+      "explanation": "本句的「whenever」指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-03": "本句指「無論事情在甚麼時間發生，主句內容都成立」。",
+        "whenever-pdf-001": "本句指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
         "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
         "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
         "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
         "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
         "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
       },
-      "correctOption": "whenever-mcq-03"
+      "correctOption": "whenever-pdf-001"
     },
     {
       "id": "whenever-06-0",

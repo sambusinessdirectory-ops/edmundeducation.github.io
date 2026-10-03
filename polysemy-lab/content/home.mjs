@@ -302,16 +302,6 @@ export default {
           "身處自己的住所"
         ],
         [
-          "I immediately felt at home in the new office.",
-          "我在新辦公室裡很快就感到自在、像自己熟悉的地方一樣。",
-          "身處自己的住所"
-        ],
-        [
-          "She is completely at home with technology.",
-          "她對科技非常熟悉自在、應付自如。",
-          "身處自己的住所"
-        ],
-        [
           "Come in and make yourself at home.",
           "進來吧，別拘束，就當自己家一樣。",
           "身處自己的住所"
@@ -332,18 +322,7 @@ export default {
       "en": "at home — figurative",
       "zh": "對某地方、環境或領域感到熟悉自在",
       "note": "來源詞義：對某地方、環境或領域感到熟悉自在",
-      "examples": [
-        [
-          "The small hotel became a home away from home.",
-          "那間小酒店成為一個像家一樣舒服自在的地方。",
-          "對某地方、環境或領域感到熟悉自在"
-        ],
-        [
-          "The café feels like a home from home.",
-          "那間咖啡店有一種第二個家的感覺。",
-          "對某地方、環境或領域感到熟悉自在"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -363,16 +342,6 @@ export default {
         [
           "The programme provides support for first-time homeowners.",
           "這項計劃為首次置業人士提供支援。",
-          "擁有自己住宅物業的人"
-        ],
-        [
-          "High prices have made homeownership more difficult.",
-          "高樓價令置業／自置居所變得更加困難。",
-          "擁有自己住宅物業的人"
-        ],
-        [
-          "The study examines rates of homeownership.",
-          "研究分析自置住宅比例。",
           "擁有自己住宅物業的人"
         ]
       ],
@@ -719,6 +688,72 @@ export default {
           "Homesickness is common among students living abroad.",
           "在海外生活的學生出現思鄉情緒很常見。",
           "表示思鄉；想家"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "home-pdf-plain-015",
+      "title": "在某處感到自在、熟悉或有歸屬感",
+      "form": "PDF section 15",
+      "en": "PDF section 15",
+      "zh": "在某處感到自在、熟悉或有歸屬感",
+      "note": "原始 PDF 第 15 節：在某處感到自在、熟悉或有歸屬感",
+      "examples": [
+        [
+          "I immediately felt at home in the new office.",
+          "我在新辦公室裡很快就感到自在、像自己熟悉的地方一樣。",
+          "在某處感到自在、熟悉或有歸屬感"
+        ],
+        [
+          "She is completely at home with technology.",
+          "她對科技非常熟悉自在、應付自如。",
+          "在某處感到自在、熟悉或有歸屬感"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "home-pdf-plain-017",
+      "title": "像家一樣舒服的地方",
+      "form": "PDF section 17",
+      "en": "PDF section 17",
+      "zh": "像家一樣舒服的地方",
+      "note": "原始 PDF 第 17 節：像家一樣舒服的地方",
+      "examples": [
+        [
+          "The small hotel became a home away from home.",
+          "那間小酒店成為一個像家一樣舒服自在的地方。",
+          "像家一樣舒服的地方"
+        ],
+        [
+          "The café feels like a home from home.",
+          "那間咖啡店有一種第二個家的感覺。",
+          "像家一樣舒服的地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "home-pdf-plain-019",
+      "title": "擁有自己的住宅；置業",
+      "form": "PDF section 19",
+      "en": "PDF section 19",
+      "zh": "擁有自己的住宅；置業",
+      "note": "原始 PDF 第 19 節：擁有自己的住宅；置業",
+      "examples": [
+        [
+          "High prices have made homeownership more difficult.",
+          "高樓價令置業／自置居所變得更加困難。",
+          "擁有自己的住宅；置業"
+        ],
+        [
+          "The study examines rates of homeownership.",
+          "研究分析自置住宅比例。",
+          "擁有自己的住宅；置業"
         ]
       ],
       "options": [],
@@ -1615,63 +1650,63 @@ export default {
     },
     {
       "id": "home-15-0",
-      "sense": "home-mcq-14",
+      "sense": "home-pdf-plain-015",
       "en": "I immediately felt at home in the new office.",
       "zh": "我在新辦公室裡很快就感到自在、像自己熟悉的地方一樣。",
       "masked": "我在新辦公室裡很快就____、像自己熟悉的地方一樣。",
       "options": [
-        "home-mcq-14",
+        "home-pdf-plain-015",
         "home-mcq-13",
         "home-mcq-15",
         "home-mcq-12",
         "home-mcq-16",
         "home-mcq-11"
       ],
-      "explanation": "本句的「at home」指「身處自己的住所」。",
+      "explanation": "本句的「at home」指「在某處感到自在、熟悉或有歸屬感」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "at home"
       ],
       "optionReasons": {
-        "home-mcq-14": "本句指「身處自己的住所」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。"
+        "home-pdf-plain-015": "本句指「在某處感到自在、熟悉或有歸屬感」。",
+        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
+        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
+        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。",
+        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
+        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」與本句語境不同。"
       },
-      "correctOption": "home-mcq-14"
+      "correctOption": "home-pdf-plain-015"
     },
     {
       "id": "home-15-1",
-      "sense": "home-mcq-14",
+      "sense": "home-pdf-plain-015",
       "en": "She is completely at home with technology.",
       "zh": "她對科技非常熟悉自在、應付自如。",
       "masked": "她對科技非常熟悉____、應付自如。",
       "options": [
-        "home-mcq-14",
+        "home-pdf-plain-015",
         "home-mcq-13",
         "home-mcq-15",
         "home-mcq-12",
         "home-mcq-16",
         "home-mcq-11"
       ],
-      "explanation": "本句的「at home」指「身處自己的住所」。",
+      "explanation": "本句的「at home」指「在某處感到自在、熟悉或有歸屬感」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "at home"
       ],
       "optionReasons": {
-        "home-mcq-14": "本句指「身處自己的住所」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。"
+        "home-pdf-plain-015": "本句指「在某處感到自在、熟悉或有歸屬感」。",
+        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
+        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
+        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。",
+        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
+        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」與本句語境不同。"
       },
-      "correctOption": "home-mcq-14"
+      "correctOption": "home-pdf-plain-015"
     },
     {
       "id": "home-16-0",
@@ -1732,63 +1767,63 @@ export default {
     },
     {
       "id": "home-17-0",
-      "sense": "home-mcq-15",
+      "sense": "home-pdf-plain-017",
       "en": "The small hotel became a home away from home.",
       "zh": "那間小酒店成為一個像家一樣舒服自在的地方。",
       "masked": "那間小酒店成為一個____自在的地方。",
       "options": [
-        "home-mcq-15",
+        "home-pdf-plain-017",
         "home-mcq-14",
         "home-mcq-16",
         "home-mcq-13",
         "home-mcq-17",
         "home-mcq-12"
       ],
-      "explanation": "本句的「home away from home」指「對某地方、環境或領域感到熟悉自在」。",
+      "explanation": "本句的「home away from home」指「像家一樣舒服的地方」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "home away from home"
       ],
       "optionReasons": {
-        "home-mcq-15": "本句指「對某地方、環境或領域感到熟悉自在」。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。"
+        "home-pdf-plain-017": "本句指「像家一樣舒服的地方」。",
+        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
+        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
+        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
+        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
+        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。"
       },
-      "correctOption": "home-mcq-15"
+      "correctOption": "home-pdf-plain-017"
     },
     {
       "id": "home-17-1",
-      "sense": "home-mcq-15",
+      "sense": "home-pdf-plain-017",
       "en": "The café feels like a home from home.",
       "zh": "那間咖啡店有一種第二個家的感覺。",
       "masked": "那間咖啡店有一種____的感覺。",
       "options": [
-        "home-mcq-15",
+        "home-pdf-plain-017",
         "home-mcq-14",
         "home-mcq-16",
         "home-mcq-13",
         "home-mcq-17",
         "home-mcq-12"
       ],
-      "explanation": "本句的「home from home」指「對某地方、環境或領域感到熟悉自在」。",
+      "explanation": "本句的「home from home」指「像家一樣舒服的地方」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "home from home"
       ],
       "optionReasons": {
-        "home-mcq-15": "本句指「對某地方、環境或領域感到熟悉自在」。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。"
+        "home-pdf-plain-017": "本句指「像家一樣舒服的地方」。",
+        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
+        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
+        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
+        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
+        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。"
       },
-      "correctOption": "home-mcq-15"
+      "correctOption": "home-pdf-plain-017"
     },
     {
       "id": "home-18-0",
@@ -1852,63 +1887,63 @@ export default {
     },
     {
       "id": "home-19-0",
-      "sense": "home-mcq-16",
+      "sense": "home-pdf-plain-019",
       "en": "High prices have made homeownership more difficult.",
       "zh": "高樓價令置業／自置居所變得更加困難。",
       "masked": "____。",
       "options": [
-        "home-mcq-16",
+        "home-pdf-plain-019",
         "home-mcq-15",
         "home-mcq-17",
         "home-mcq-14",
         "home-mcq-18",
         "home-mcq-13"
       ],
-      "explanation": "本句的「homeownership」指「擁有自己住宅物業的人」。",
+      "explanation": "本句的「homeownership」指「擁有自己的住宅；置業」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "homeownership"
       ],
       "optionReasons": {
-        "home-mcq-16": "本句指「擁有自己住宅物業的人」。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。"
+        "home-pdf-plain-019": "本句指「擁有自己的住宅；置業」。",
+        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
+        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
+        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
+        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」與本句語境不同。",
+        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。"
       },
-      "correctOption": "home-mcq-16"
+      "correctOption": "home-pdf-plain-019"
     },
     {
       "id": "home-19-1",
-      "sense": "home-mcq-16",
+      "sense": "home-pdf-plain-019",
       "en": "The study examines rates of homeownership.",
       "zh": "研究分析自置住宅比例。",
       "masked": "研究分析____住宅比例。",
       "options": [
-        "home-mcq-16",
+        "home-pdf-plain-019",
         "home-mcq-15",
         "home-mcq-17",
         "home-mcq-14",
         "home-mcq-18",
         "home-mcq-13"
       ],
-      "explanation": "本句的「homeownership」指「擁有自己住宅物業的人」。",
+      "explanation": "本句的「homeownership」指「擁有自己的住宅；置業」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "homeownership"
       ],
       "optionReasons": {
-        "home-mcq-16": "本句指「擁有自己住宅物業的人」。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。"
+        "home-pdf-plain-019": "本句指「擁有自己的住宅；置業」。",
+        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
+        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
+        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
+        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」與本句語境不同。",
+        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。"
       },
-      "correctOption": "home-mcq-16"
+      "correctOption": "home-pdf-plain-019"
     },
     {
       "id": "home-20-0",

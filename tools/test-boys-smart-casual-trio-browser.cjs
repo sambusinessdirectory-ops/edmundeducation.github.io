@@ -42,16 +42,16 @@ async function assertOverlayBounds(){
    window.EddieFarmAPI={student:()=>({token:'fixture-token'}),snapshot:async()=>({balance:100,cosmetics:owned.map(id=>({id,price:40,owned:true}))})};
   },garments);
   await page.goto('http://127.0.0.1:'+server.address().port+'/__smart');
-  await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261003-all-hats1');await cosmetics.restoreCosmetics(undefined,{force:true});});
+  await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20261003-all-hats2');await cosmetics.restoreCosmetics(undefined,{force:true});});
 
   for(const character of ['eddy','noir']){
    await page.evaluate(async character=>{
     window.controller?.abort();window.controller=new AbortController();document.querySelector('#inventory').replaceChildren();
     cosmetics.clearCosmetics(character);cosmetics.beginCosmeticsPreview();
-    const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261003-all-hats1');
+    const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20261003-all-hats2');
     mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
     const THREE=await import('/vendor/three/three.module.js');
-    const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261003-all-hats1');
+    const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20261003-all-hats2');
     const system=new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true});
     const actor=await system.create(character,'standing');
     const scene=new THREE.Scene();scene.background=new THREE.Color('#292421');scene.add(actor.mesh);

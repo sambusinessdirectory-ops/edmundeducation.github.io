@@ -326,16 +326,6 @@ export default {
       "note": "來源詞義：個人責任",
       "examples": [
         [
-          "He was trying to avoid responsibility.",
-          "他試圖逃避責任。",
-          "個人責任"
-        ],
-        [
-          "You cannot escape responsibility for your actions.",
-          "你不能逃避自己行為所帶來的責任。",
-          "個人責任"
-        ],
-        [
           "Time management requires personal responsibility.",
           "時間管理需要個人責任感。",
           "個人責任"
@@ -584,6 +574,28 @@ export default {
           "The delay was partly caused by poor planning and irresponsibility.",
           "延誤部分是由規劃不善和缺乏責任感造成的。",
           "不負責任"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "responsibility-pdf-001",
+      "title": "不願承認或承擔自己應負的責任",
+      "form": "15. avoid / escape responsibility — 逃避責任",
+      "en": "15. avoid / escape responsibility — 逃避責任",
+      "zh": "不願承認或承擔自己應負的責任",
+      "note": "原始 PDF 第 15 節：不願承認或承擔自己應負的責任",
+      "examples": [
+        [
+          "He was trying to avoid responsibility.",
+          "他試圖逃避責任。",
+          "不願承認或承擔自己應負的責任"
+        ],
+        [
+          "You cannot escape responsibility for your actions.",
+          "你不能逃避自己行為所帶來的責任。",
+          "不願承認或承擔自己應負的責任"
         ]
       ],
       "options": [],
@@ -1463,63 +1475,63 @@ export default {
     },
     {
       "id": "responsibility-15-0",
-      "sense": "responsibility-mcq-15",
+      "sense": "responsibility-pdf-001",
       "en": "He was trying to avoid responsibility.",
       "zh": "他試圖逃避責任。",
       "masked": "He was trying to ____.",
       "options": [
-        "responsibility-mcq-15",
+        "responsibility-pdf-001",
         "responsibility-mcq-14",
         "responsibility-mcq-16",
         "responsibility-mcq-13",
         "responsibility-mcq-17",
         "responsibility-mcq-12"
       ],
-      "explanation": "本句的「avoid responsibility」指「個人責任」。",
+      "explanation": "本句的「avoid responsibility」指「不願承認或承擔自己應負的責任」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "avoid responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-15": "本句指「個人責任」。",
+        "responsibility-pdf-001": "本句指「不願承認或承擔自己應負的責任」。",
         "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
         "responsibility-mcq-16": "「責任感」與本句語境不同。",
         "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
         "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
         "responsibility-mcq-12": "「導致 X」與本句語境不同。"
       },
-      "correctOption": "responsibility-mcq-15"
+      "correctOption": "responsibility-pdf-001"
     },
     {
       "id": "responsibility-15-1",
-      "sense": "responsibility-mcq-15",
+      "sense": "responsibility-pdf-001",
       "en": "You cannot escape responsibility for your actions.",
       "zh": "你不能逃避自己行為所帶來的責任。",
       "masked": "You cannot ____ for your actions.",
       "options": [
-        "responsibility-mcq-15",
+        "responsibility-pdf-001",
         "responsibility-mcq-14",
         "responsibility-mcq-16",
         "responsibility-mcq-13",
         "responsibility-mcq-17",
         "responsibility-mcq-12"
       ],
-      "explanation": "本句的「escape responsibility」指「個人責任」。",
+      "explanation": "本句的「escape responsibility」指「不願承認或承擔自己應負的責任」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "escape responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-15": "本句指「個人責任」。",
+        "responsibility-pdf-001": "本句指「不願承認或承擔自己應負的責任」。",
         "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
         "responsibility-mcq-16": "「責任感」與本句語境不同。",
         "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
         "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
         "responsibility-mcq-12": "「導致 X」與本句語境不同。"
       },
-      "correctOption": "responsibility-mcq-15"
+      "correctOption": "responsibility-pdf-001"
     },
     {
       "id": "responsibility-16-0",

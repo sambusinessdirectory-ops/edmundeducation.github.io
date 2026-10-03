@@ -171,18 +171,7 @@ export default {
       "en": "hype — verb",
       "zh": "透過大量宣傳或讚美提高公眾興奮感和期待",
       "note": "來源詞義：透過大量宣傳或讚美提高公眾興奮感和期待",
-      "examples": [
-        [
-          "I don’t understand all the hype about this app.",
-          "我不明白為甚麼這個應用程式會有這麼大的熱度／為甚麼大家這麼吹捧它。",
-          "透過大量宣傳或讚美提高公眾興奮感和期待"
-        ],
-        [
-          "What is all the hype about?",
-          "大家到底在熱烈討論／吹捧甚麼？",
-          "透過大量宣傳或讚美提高公眾興奮感和期待"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -292,6 +281,28 @@ export default {
       "zh": "非正式：熱衷追逐被炒熱的潮牌、球鞋和限量時尚產品的人",
       "note": "來源詞義：非正式：熱衷追逐被炒熱的潮牌、球鞋和限量時尚產品的人",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "hype-pdf-001",
+      "title": "圍繞某件事出現的大量關注、討論和宣傳",
+      "form": "8. all the hype / all this hype — 這麼大的熱度／炒作",
+      "en": "8. all the hype / all this hype — 這麼大的熱度／炒作",
+      "zh": "圍繞某件事出現的大量關注、討論和宣傳",
+      "note": "原始 PDF 第 8 節：圍繞某件事出現的大量關注、討論和宣傳",
+      "examples": [
+        [
+          "I don’t understand all the hype about this app.",
+          "我不明白為甚麼這個應用程式會有這麼大的熱度／為甚麼大家這麼吹捧它。",
+          "圍繞某件事出現的大量關注、討論和宣傳"
+        ],
+        [
+          "What is all the hype about?",
+          "大家到底在熱烈討論／吹捧甚麼？",
+          "圍繞某件事出現的大量關注、討論和宣傳"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -749,63 +760,63 @@ export default {
     },
     {
       "id": "hype-08-0",
-      "sense": "hype-mcq-08",
+      "sense": "hype-pdf-001",
       "en": "I don’t understand all the hype about this app.",
       "zh": "我不明白為甚麼這個應用程式會有這麼大的熱度／為甚麼大家這麼吹捧它。",
       "masked": "I don’t understand ____ about this app.",
       "options": [
-        "hype-mcq-08",
+        "hype-pdf-001",
         "hype-mcq-07",
         "hype-mcq-09",
         "hype-mcq-06",
         "hype-mcq-10",
         "hype-mcq-05"
       ],
-      "explanation": "本句的「all the hype」指「透過大量宣傳或讚美提高公眾興奮感和期待」。",
+      "explanation": "本句的「all the hype」指「圍繞某件事出現的大量關注、討論和宣傳」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "all the hype"
       ],
       "optionReasons": {
-        "hype-mcq-08": "本句指「透過大量宣傳或讚美提高公眾興奮感和期待」。",
+        "hype-pdf-001": "本句指「圍繞某件事出現的大量關注、討論和宣傳」。",
         "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
         "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
         "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
         "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
         "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。"
       },
-      "correctOption": "hype-mcq-08"
+      "correctOption": "hype-pdf-001"
     },
     {
       "id": "hype-08-1",
-      "sense": "hype-mcq-08",
+      "sense": "hype-pdf-001",
       "en": "What is all the hype about?",
       "zh": "大家到底在熱烈討論／吹捧甚麼？",
       "masked": "What is ____ about?",
       "options": [
-        "hype-mcq-08",
+        "hype-pdf-001",
         "hype-mcq-07",
         "hype-mcq-09",
         "hype-mcq-06",
         "hype-mcq-10",
         "hype-mcq-05"
       ],
-      "explanation": "本句的「all the hype」指「透過大量宣傳或讚美提高公眾興奮感和期待」。",
+      "explanation": "本句的「all the hype」指「圍繞某件事出現的大量關注、討論和宣傳」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "all the hype"
       ],
       "optionReasons": {
-        "hype-mcq-08": "本句指「透過大量宣傳或讚美提高公眾興奮感和期待」。",
+        "hype-pdf-001": "本句指「圍繞某件事出現的大量關注、討論和宣傳」。",
         "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
         "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
         "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
         "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
         "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。"
       },
-      "correctOption": "hype-mcq-08"
+      "correctOption": "hype-pdf-001"
     },
     {
       "id": "hype-09-0",

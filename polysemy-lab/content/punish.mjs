@@ -23,18 +23,7 @@ export default {
       "en": "punish someone",
       "zh": "懲罰某人",
       "note": "來源詞義：懲罰某人",
-      "examples": [
-        [
-          "The school punished the student for cheating.",
-          "學校因學生作弊而處罰他。",
-          "懲罰某人"
-        ],
-        [
-          "Employees should not be punished without a fair investigation.",
-          "沒有公平調查前，不應處罰員工。",
-          "懲罰某人"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -186,18 +175,7 @@ export default {
       "en": "punishment",
       "zh": "懲罰；處罰",
       "note": "來源詞義：懲罰；處罰",
-      "examples": [
-        [
-          "The punishment should fit the offence.",
-          "處罰應與違規程度相稱。",
-          "懲罰；處罰"
-        ],
-        [
-          "The manager thought the punishment was too severe.",
-          "經理認為這項懲罰太嚴厲。",
-          "懲罰；處罰"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -428,18 +406,7 @@ export default {
       "en": "punishable",
       "zh": "可受懲罰的",
       "note": "來源詞義：可受懲罰的",
-      "examples": [
-        [
-          "The offence is punishable by a fine.",
-          "該罪行可處罰款。",
-          "可受懲罰的"
-        ],
-        [
-          "Serious misconduct may be punishable under company rules.",
-          "嚴重不當行為可能按照公司規則受到處分。",
-          "可受懲罰的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -495,11 +462,6 @@ export default {
       "zh": "懲罰性的",
       "note": "來源詞義：懲罰性的",
       "examples": [
-        [
-          "The policy should protect the company without becoming punitive toward genuine customers.",
-          "政策應保護公司，但不應變成對真正顧客具有懲罰性。",
-          "懲罰性的"
-        ],
         [
           "The business faced punitive borrowing costs.",
           "企業面對極其高昂、近乎懲罰性的借貸成本。",
@@ -668,16 +630,6 @@ export default {
       "zh": "嚴酷、吃力的",
       "note": "來源詞義：嚴酷、吃力的",
       "examples": [
-        [
-          "The employees faced a punishing workload.",
-          "員工面對極其沉重的工作量。",
-          "嚴酷、吃力的"
-        ],
-        [
-          "They maintained a punishing schedule during the launch.",
-          "產品推出期間，他們維持一個令人筋疲力竭的日程。",
-          "嚴酷、吃力的"
-        ],
         [
           "The runners completed a punishing course.",
           "跑手完成了一條非常艱辛的賽道。",
@@ -866,68 +818,173 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "punish-pdf-001",
+      "title": "因某人的錯誤、違規或不當行為而令他承受不利後果",
+      "form": "1. punish someone = impose a penalty because they did something wrong — 懲罰某人；處罰",
+      "en": "1. punish someone = impose a penalty because they did something wrong — 懲罰某人；處罰",
+      "zh": "因某人的錯誤、違規或不當行為而令他承受不利後果",
+      "note": "原始 PDF 第 1 節：因某人的錯誤、違規或不當行為而令他承受不利後果",
+      "examples": [
+        [
+          "The school punished the student for cheating.",
+          "學校因學生作弊而處罰他。",
+          "因某人的錯誤、違規或不當行為而令他承受不利後果"
+        ],
+        [
+          "Employees should not be punished without a fair investigation.",
+          "沒有公平調查前，不應處罰員工。",
+          "因某人的錯誤、違規或不當行為而令他承受不利後果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "punish-pdf-002",
+      "title": "因違規、犯罪或錯誤行為而施加的不利後果",
+      "form": "10. punishment = penalty imposed for wrongdoing — 懲罰；處罰",
+      "en": "10. punishment = penalty imposed for wrongdoing — 懲罰；處罰",
+      "zh": "因違規、犯罪或錯誤行為而施加的不利後果",
+      "note": "原始 PDF 第 10 節：因違規、犯罪或錯誤行為而施加的不利後果",
+      "examples": [
+        [
+          "The punishment should fit the offence.",
+          "處罰應與違規程度相稱。",
+          "因違規、犯罪或錯誤行為而施加的不利後果"
+        ],
+        [
+          "The manager thought the punishment was too severe.",
+          "經理認為這項懲罰太嚴厲。",
+          "因違規、犯罪或錯誤行為而施加的不利後果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "punish-pdf-003",
+      "title": "根據法律或規則可以被處罰的",
+      "form": "23. punishable = able to be legally/formally punished — 可受處罰的",
+      "en": "23. punishable = able to be legally/formally punished — 可受處罰的",
+      "zh": "根據法律或規則可以被處罰的",
+      "note": "原始 PDF 第 23 節：根據法律或規則可以被處罰的",
+      "examples": [
+        [
+          "The offence is punishable by a fine.",
+          "該罪行可處罰款。",
+          "根據法律或規則可以被處罰的"
+        ],
+        [
+          "Serious misconduct may be punishable under company rules.",
+          "嚴重不當行為可能按照公司規則受到處分。",
+          "根據法律或規則可以被處罰的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "punish-pdf-004",
+      "title": "目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的",
+      "form": "26. punitive = intended to punish — 懲罰性的",
+      "en": "26. punitive = intended to punish — 懲罰性的",
+      "zh": "目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的",
+      "note": "原始 PDF 第 26 節：目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的",
+      "examples": [
+        [
+          "The policy should protect the company without becoming punitive toward genuine customers.",
+          "政策應保護公司，但不應變成對真正顧客具有懲罰性。",
+          "目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "punish-pdf-005",
+      "title": "嚴酷到令人非常疲累、難以承受或付出很大代價的",
+      "form": "34. punishing = extremely difficult, severe or exhausting — 嚴酷的；非常吃力的",
+      "en": "34. punishing = extremely difficult, severe or exhausting — 嚴酷的；非常吃力的",
+      "zh": "嚴酷到令人非常疲累、難以承受或付出很大代價的",
+      "note": "原始 PDF 第 34 節：嚴酷到令人非常疲累、難以承受或付出很大代價的",
+      "examples": [
+        [
+          "The employees faced a punishing workload.",
+          "員工面對極其沉重的工作量。",
+          "嚴酷到令人非常疲累、難以承受或付出很大代價的"
+        ],
+        [
+          "They maintained a punishing schedule during the launch.",
+          "產品推出期間，他們維持一個令人筋疲力竭的日程。",
+          "嚴酷到令人非常疲累、難以承受或付出很大代價的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "punish-01-0",
-      "sense": "punish-mcq-02",
+      "sense": "punish-pdf-001",
       "en": "The school punished the student for cheating.",
       "zh": "學校因學生作弊而處罰他。",
       "masked": "The school ____ for cheating.",
       "options": [
-        "punish-mcq-02",
+        "punish-pdf-001",
         "punish-mcq-01",
         "punish-mcq-03",
         "punish-mcq-04",
         "punish-mcq-05",
         "punish-mcq-06"
       ],
-      "explanation": "本句的「punished the student」指「懲罰某人」。",
+      "explanation": "本句的「punished the student」指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "punished the student"
       ],
       "optionReasons": {
-        "punish-mcq-02": "本句指「懲罰某人」。",
+        "punish-pdf-001": "本句指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
         "punish-mcq-01": "「懲罰；處罰」與本句語境不同。",
         "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
         "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
         "punish-mcq-05": "「受到懲罰」與本句語境不同。",
         "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-02"
+      "correctOption": "punish-pdf-001"
     },
     {
       "id": "punish-01-1",
-      "sense": "punish-mcq-02",
+      "sense": "punish-pdf-001",
       "en": "Employees should not be punished without a fair investigation.",
       "zh": "沒有公平調查前，不應處罰員工。",
       "masked": "Employees should not be ____ without a fair investigation.",
       "options": [
-        "punish-mcq-02",
+        "punish-pdf-001",
         "punish-mcq-01",
         "punish-mcq-03",
         "punish-mcq-04",
         "punish-mcq-05",
         "punish-mcq-06"
       ],
-      "explanation": "本句的「punished」指「懲罰某人」。",
+      "explanation": "本句的「punished」指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "punished"
       ],
       "optionReasons": {
-        "punish-mcq-02": "本句指「懲罰某人」。",
+        "punish-pdf-001": "本句指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
         "punish-mcq-01": "「懲罰；處罰」與本句語境不同。",
         "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
         "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
         "punish-mcq-05": "「受到懲罰」與本句語境不同。",
         "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-02"
+      "correctOption": "punish-pdf-001"
     },
     {
       "id": "punish-02-0",
@@ -1351,63 +1408,63 @@ export default {
     },
     {
       "id": "punish-10-0",
-      "sense": "punish-mcq-09",
+      "sense": "punish-pdf-002",
       "en": "The punishment should fit the offence.",
       "zh": "處罰應與違規程度相稱。",
       "masked": "The ____ should fit the offence.",
       "options": [
-        "punish-mcq-09",
+        "punish-pdf-002",
         "punish-mcq-08",
         "punish-mcq-10",
         "punish-mcq-07",
         "punish-mcq-11",
         "punish-mcq-06"
       ],
-      "explanation": "本句的「punishment」指「懲罰；處罰」。",
+      "explanation": "本句的「punishment」指「因違規、犯罪或錯誤行為而施加的不利後果」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-09": "本句指「懲罰；處罰」。",
+        "punish-pdf-002": "本句指「因違規、犯罪或錯誤行為而施加的不利後果」。",
         "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
         "punish-mcq-10": "「一項懲罰」與本句語境不同。",
         "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
         "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
         "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-09"
+      "correctOption": "punish-pdf-002"
     },
     {
       "id": "punish-10-1",
-      "sense": "punish-mcq-09",
+      "sense": "punish-pdf-002",
       "en": "The manager thought the punishment was too severe.",
       "zh": "經理認為這項懲罰太嚴厲。",
       "masked": "The manager thought the ____ was too severe.",
       "options": [
-        "punish-mcq-09",
+        "punish-pdf-002",
         "punish-mcq-08",
         "punish-mcq-10",
         "punish-mcq-07",
         "punish-mcq-11",
         "punish-mcq-06"
       ],
-      "explanation": "本句的「punishment」指「懲罰；處罰」。",
+      "explanation": "本句的「punishment」指「因違規、犯罪或錯誤行為而施加的不利後果」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-09": "本句指「懲罰；處罰」。",
+        "punish-pdf-002": "本句指「因違規、犯罪或錯誤行為而施加的不利後果」。",
         "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
         "punish-mcq-10": "「一項懲罰」與本句語境不同。",
         "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
         "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
         "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-09"
+      "correctOption": "punish-pdf-002"
     },
     {
       "id": "punish-11-0",
@@ -2011,63 +2068,63 @@ export default {
     },
     {
       "id": "punish-23-0",
-      "sense": "punish-mcq-20",
+      "sense": "punish-pdf-003",
       "en": "The offence is punishable by a fine.",
       "zh": "該罪行可處罰款。",
       "masked": "The offence is ____.",
       "options": [
-        "punish-mcq-20",
+        "punish-pdf-003",
         "punish-mcq-19",
         "punish-mcq-21",
         "punish-mcq-18",
         "punish-mcq-22",
         "punish-mcq-17"
       ],
-      "explanation": "本句的「punishable by a fine」指「可受懲罰的」。",
+      "explanation": "本句的「punishable by a fine」指「根據法律或規則可以被處罰的」。",
       "sentenceIndex": 41,
       "sourcePractice": 1,
       "targets": [
         "punishable by a fine"
       ],
       "optionReasons": {
-        "punish-mcq-20": "本句指「可受懲罰的」。",
+        "punish-pdf-003": "本句指「根據法律或規則可以被處罰的」。",
         "punish-mcq-19": "「集體懲罰」與本句語境不同。",
         "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
         "punish-mcq-18": "「死刑」與本句語境不同。",
         "punish-mcq-22": "「可處罰款」與本句語境不同。",
         "punish-mcq-17": "「體罰」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-20"
+      "correctOption": "punish-pdf-003"
     },
     {
       "id": "punish-23-1",
-      "sense": "punish-mcq-20",
+      "sense": "punish-pdf-003",
       "en": "Serious misconduct may be punishable under company rules.",
       "zh": "嚴重不當行為可能按照公司規則受到處分。",
       "masked": "Serious misconduct may be ____ under company rules.",
       "options": [
-        "punish-mcq-20",
+        "punish-pdf-003",
         "punish-mcq-19",
         "punish-mcq-21",
         "punish-mcq-18",
         "punish-mcq-22",
         "punish-mcq-17"
       ],
-      "explanation": "本句的「punishable」指「可受懲罰的」。",
+      "explanation": "本句的「punishable」指「根據法律或規則可以被處罰的」。",
       "sentenceIndex": 42,
       "sourcePractice": 2,
       "targets": [
         "punishable"
       ],
       "optionReasons": {
-        "punish-mcq-20": "本句指「可受懲罰的」。",
+        "punish-pdf-003": "本句指「根據法律或規則可以被處罰的」。",
         "punish-mcq-19": "「集體懲罰」與本句語境不同。",
         "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
         "punish-mcq-18": "「死刑」與本句語境不同。",
         "punish-mcq-22": "「可處罰款」與本句語境不同。",
         "punish-mcq-17": "「體罰」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-20"
+      "correctOption": "punish-pdf-003"
     },
     {
       "id": "punish-24-0",
@@ -2191,33 +2248,33 @@ export default {
     },
     {
       "id": "punish-26-0",
-      "sense": "punish-mcq-23",
+      "sense": "punish-pdf-004",
       "en": "The policy should protect the company without becoming punitive toward genuine customers.",
       "zh": "政策應保護公司，但不應變成對真正顧客具有懲罰性。",
       "masked": "The policy should protect the company without becoming ____ toward genuine customers.",
       "options": [
-        "punish-mcq-23",
+        "punish-pdf-004",
         "punish-mcq-22",
         "punish-mcq-24",
         "punish-mcq-21",
         "punish-mcq-25",
         "punish-mcq-20"
       ],
-      "explanation": "本句的「punitive」指「懲罰性的」。",
+      "explanation": "本句的「punitive」指「目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的」。",
       "sentenceIndex": 47,
       "sourcePractice": 1,
       "targets": [
         "punitive"
       ],
       "optionReasons": {
-        "punish-mcq-23": "本句指「懲罰性的」。",
+        "punish-pdf-004": "本句指「目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的」。",
         "punish-mcq-22": "「可處罰款」與本句語境不同。",
         "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
         "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
         "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
         "punish-mcq-20": "「可受懲罰的」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-23"
+      "correctOption": "punish-pdf-004"
     },
     {
       "id": "punish-27-0",
@@ -2461,63 +2518,63 @@ export default {
     },
     {
       "id": "punish-34-0",
-      "sense": "punish-mcq-32",
+      "sense": "punish-pdf-005",
       "en": "The employees faced a punishing workload.",
       "zh": "員工面對極其沉重的工作量。",
       "masked": "The employees faced a ____.",
       "options": [
-        "punish-mcq-32",
+        "punish-pdf-005",
         "punish-mcq-31",
         "punish-mcq-33",
         "punish-mcq-30",
         "punish-mcq-34",
         "punish-mcq-29"
       ],
-      "explanation": "本句的「punishing workload」指「嚴酷、吃力的」。",
+      "explanation": "本句的「punishing workload」指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
       "sentenceIndex": 56,
       "sourcePractice": 1,
       "targets": [
         "punishing workload"
       ],
       "optionReasons": {
-        "punish-mcq-32": "本句指「嚴酷、吃力的」。",
+        "punish-pdf-005": "本句指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
         "punish-mcq-31": "「懲罰性地」與本句語境不同。",
         "punish-mcq-33": "「極繁重日程」與本句語境不同。",
         "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
         "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
         "punish-mcq-29": "「懲罰性政策」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-32"
+      "correctOption": "punish-pdf-005"
     },
     {
       "id": "punish-34-1",
-      "sense": "punish-mcq-32",
+      "sense": "punish-pdf-005",
       "en": "They maintained a punishing schedule during the launch.",
       "zh": "產品推出期間，他們維持一個令人筋疲力竭的日程。",
       "masked": "They maintained a ____ schedule during the launch.",
       "options": [
-        "punish-mcq-32",
+        "punish-pdf-005",
         "punish-mcq-31",
         "punish-mcq-33",
         "punish-mcq-30",
         "punish-mcq-34",
         "punish-mcq-29"
       ],
-      "explanation": "本句的「punishing」指「嚴酷、吃力的」。",
+      "explanation": "本句的「punishing」指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
       "sentenceIndex": 57,
       "sourcePractice": 2,
       "targets": [
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-32": "本句指「嚴酷、吃力的」。",
+        "punish-pdf-005": "本句指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
         "punish-mcq-31": "「懲罰性地」與本句語境不同。",
         "punish-mcq-33": "「極繁重日程」與本句語境不同。",
         "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
         "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
         "punish-mcq-29": "「懲罰性政策」與本句語境不同。"
       },
-      "correctOption": "punish-mcq-32"
+      "correctOption": "punish-pdf-005"
     },
     {
       "id": "punish-35-0",

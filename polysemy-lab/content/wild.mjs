@@ -173,16 +173,6 @@ export default {
       "note": "來源詞義：野生、原始、狂野或不受控制的性質",
       "examples": [
         [
-          "They crossed a wild mountain region.",
-          "他們穿越了一片荒野般的／未開發的山區。",
-          "野生、原始、狂野或不受控制的性質"
-        ],
-        [
-          "The island feels remote and wild.",
-          "這座島感覺偏遠而原始荒野。",
-          "野生、原始、狂野或不受控制的性質"
-        ],
-        [
           "The wildness of the landscape attracted hikers.",
           "那片景觀的荒野感／原始感吸引了行山人士。",
           "野生、原始、狂野或不受控制的性質"
@@ -274,6 +264,28 @@ export default {
           "I’m just making a wild guess.",
           "我只是在瞎猜／亂猜。",
           "表示瞎猜"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "wild-pdf-001",
+      "title": "未經大量人類開發、管理或控制，仍保留原始自然狀態的",
+      "form": "7. wild = harsh / exposed natural environment（自然環境） — 荒野的；原始的",
+      "en": "7. wild = harsh / exposed natural environment（自然環境） — 荒野的；原始的",
+      "zh": "未經大量人類開發、管理或控制，仍保留原始自然狀態的",
+      "note": "原始 PDF 第 7 節：未經大量人類開發、管理或控制，仍保留原始自然狀態的",
+      "examples": [
+        [
+          "They crossed a wild mountain region.",
+          "他們穿越了一片荒野般的／未開發的山區。",
+          "未經大量人類開發、管理或控制，仍保留原始自然狀態的"
+        ],
+        [
+          "The island feels remote and wild.",
+          "這座島感覺偏遠而原始荒野。",
+          "未經大量人類開發、管理或控制，仍保留原始自然狀態的"
         ]
       ],
       "options": [],
@@ -673,63 +685,63 @@ export default {
     },
     {
       "id": "wild-07-0",
-      "sense": "wild-mcq-08",
+      "sense": "wild-pdf-001",
       "en": "They crossed a wild mountain region.",
       "zh": "他們穿越了一片荒野般的／未開發的山區。",
       "masked": "They crossed a ____ mountain region.",
       "options": [
-        "wild-mcq-08",
+        "wild-pdf-001",
         "wild-mcq-07",
         "wild-mcq-09",
         "wild-mcq-06",
         "wild-mcq-10",
         "wild-mcq-05"
       ],
-      "explanation": "本句的「wild」指「野生、原始、狂野或不受控制的性質」。",
+      "explanation": "本句的「wild」指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-08": "本句指「野生、原始、狂野或不受控制的性質」。",
+        "wild-pdf-001": "本句指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
         "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
         "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
         "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
         "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
         "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。"
       },
-      "correctOption": "wild-mcq-08"
+      "correctOption": "wild-pdf-001"
     },
     {
       "id": "wild-07-1",
-      "sense": "wild-mcq-08",
+      "sense": "wild-pdf-001",
       "en": "The island feels remote and wild.",
       "zh": "這座島感覺偏遠而原始荒野。",
       "masked": "The island feels remote and ____.",
       "options": [
-        "wild-mcq-08",
+        "wild-pdf-001",
         "wild-mcq-07",
         "wild-mcq-09",
         "wild-mcq-06",
         "wild-mcq-10",
         "wild-mcq-05"
       ],
-      "explanation": "本句的「wild」指「野生、原始、狂野或不受控制的性質」。",
+      "explanation": "本句的「wild」指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-08": "本句指「野生、原始、狂野或不受控制的性質」。",
+        "wild-pdf-001": "本句指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
         "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
         "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
         "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
         "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
         "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。"
       },
-      "correctOption": "wild-mcq-08"
+      "correctOption": "wild-pdf-001"
     },
     {
       "id": "wild-08-0",

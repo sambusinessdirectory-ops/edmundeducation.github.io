@@ -234,16 +234,6 @@ export default {
           "She usually calls around lunchtime.",
           "她通常在午飯時間左右打電話。",
           "在某個時間點前後不久"
-        ],
-        [
-          "It costs around $100.",
-          "大約要100 元左右。",
-          "在某個時間點前後不久"
-        ],
-        [
-          "She is around seventy years old.",
-          "她大約七十歲左右。",
-          "在某個時間點前後不久"
         ]
       ],
       "options": [],
@@ -574,6 +564,28 @@ export default {
           "Word soon got around that she was leaving.",
           "她要離開的消息很快就傳開了。",
           "消息或資訊在人與人之間傳開"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "around-pdf-001",
+      "title": "表示估算，而非精確數值",
+      "form": "12. around = approximately in general（大概） — 大約；差不多",
+      "en": "12. around = approximately in general（大概） — 大約；差不多",
+      "zh": "表示估算，而非精確數值",
+      "note": "原始 PDF 第 12 節：表示估算，而非精確數值",
+      "examples": [
+        [
+          "It costs around $100.",
+          "大約要100 元左右。",
+          "表示估算，而非精確數值"
+        ],
+        [
+          "She is around seventy years old.",
+          "她大約七十歲左右。",
+          "表示估算，而非精確數值"
         ]
       ],
       "options": [],
@@ -1273,63 +1285,63 @@ export default {
     },
     {
       "id": "around-12-0",
-      "sense": "around-mcq-10",
+      "sense": "around-pdf-001",
       "en": "It costs around $100.",
       "zh": "大約要100 元左右。",
       "masked": "It costs ____ $100.",
       "options": [
-        "around-mcq-10",
+        "around-pdf-001",
         "around-mcq-09",
         "around-mcq-11",
         "around-mcq-08",
         "around-mcq-12",
         "around-mcq-07"
       ],
-      "explanation": "本句的「around」指「在某個時間點前後不久」。",
+      "explanation": "本句的「around」指「表示估算，而非精確數值」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "around"
       ],
       "optionReasons": {
-        "around-mcq-10": "本句指「在某個時間點前後不久」。",
+        "around-pdf-001": "本句指「表示估算，而非精確數值」。",
         "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
         "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
         "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
         "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
         "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。"
       },
-      "correctOption": "around-mcq-10"
+      "correctOption": "around-pdf-001"
     },
     {
       "id": "around-12-1",
-      "sense": "around-mcq-10",
+      "sense": "around-pdf-001",
       "en": "She is around seventy years old.",
       "zh": "她大約七十歲左右。",
       "masked": "She is ____ seventy years old.",
       "options": [
-        "around-mcq-10",
+        "around-pdf-001",
         "around-mcq-09",
         "around-mcq-11",
         "around-mcq-08",
         "around-mcq-12",
         "around-mcq-07"
       ],
-      "explanation": "本句的「around」指「在某個時間點前後不久」。",
+      "explanation": "本句的「around」指「表示估算，而非精確數值」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "around"
       ],
       "optionReasons": {
-        "around-mcq-10": "本句指「在某個時間點前後不久」。",
+        "around-pdf-001": "本句指「表示估算，而非精確數值」。",
         "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
         "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
         "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
         "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
         "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。"
       },
-      "correctOption": "around-mcq-10"
+      "correctOption": "around-pdf-001"
     },
     {
       "id": "around-13-0",

@@ -95,16 +95,6 @@ export default {
       "note": "來源詞義：早期階段",
       "examples": [
         [
-          "We arrived early.",
-          "我們提早到了。",
-          "早期階段"
-        ],
-        [
-          "I had to leave early.",
-          "我不得不提早離開。",
-          "早期階段"
-        ],
-        [
           "The project is still in its early stages.",
           "這個項目仍處於早期階段。",
           "早期階段"
@@ -477,16 +467,6 @@ export default {
       "note": "來源詞義：早開始；提早出發",
       "examples": [
         [
-          "I'll call you in the early evening.",
-          "我會在傍晚較早時打給你。",
-          "早開始；提早出發"
-        ],
-        [
-          "The rain should stop by early afternoon.",
-          "雨應該在下午早段前後停。",
-          "早開始；提早出發"
-        ],
-        [
           "We had an early lunch.",
           "我們提早吃了午飯。",
           "早開始；提早出發"
@@ -549,6 +529,50 @@ export default {
           "The studio announced an early release of the film.",
           "電影公司宣布影片會提早上映／推出。",
           "提早釋放／推出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "early-pdf-001",
+      "title": "比原定、通常或預期時間早",
+      "form": "4. arrive early / leave early — 提早到／早走",
+      "en": "4. arrive early / leave early — 提早到／早走",
+      "zh": "比原定、通常或預期時間早",
+      "note": "原始 PDF 第 4 節：比原定、通常或預期時間早",
+      "examples": [
+        [
+          "We arrived early.",
+          "我們提早到了。",
+          "比原定、通常或預期時間早"
+        ],
+        [
+          "I had to leave early.",
+          "我不得不提早離開。",
+          "比原定、通常或預期時間早"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "early-pdf-002",
+      "title": "該時段開始不久的部分",
+      "form": "23. early evening / early afternoon — 傍晚較早時／下午早段",
+      "en": "23. early evening / early afternoon — 傍晚較早時／下午早段",
+      "zh": "該時段開始不久的部分",
+      "note": "原始 PDF 第 23 節：該時段開始不久的部分",
+      "examples": [
+        [
+          "I'll call you in the early evening.",
+          "我會在傍晚較早時打給你。",
+          "該時段開始不久的部分"
+        ],
+        [
+          "The rain should stop by early afternoon.",
+          "雨應該在下午早段前後停。",
+          "該時段開始不久的部分"
         ]
       ],
       "options": [],
@@ -768,63 +792,63 @@ export default {
     },
     {
       "id": "early-04-0",
-      "sense": "early-mcq-05",
+      "sense": "early-pdf-001",
       "en": "We arrived early.",
       "zh": "我們提早到了。",
       "masked": "We arrived ____.",
       "options": [
-        "early-mcq-05",
+        "early-pdf-001",
         "early-mcq-04",
         "early-mcq-06",
         "early-mcq-03",
         "early-mcq-07",
         "early-mcq-02"
       ],
-      "explanation": "本句的「early」指「早期階段」。",
+      "explanation": "本句的「early」指「比原定、通常或預期時間早」。",
       "sentenceIndex": 7,
       "sourcePractice": 1,
       "targets": [
         "early"
       ],
       "optionReasons": {
-        "early-mcq-05": "本句指「早期階段」。",
+        "early-pdf-001": "本句指「比原定、通常或預期時間早」。",
         "early-mcq-04": "「清晨」與本句語境不同。",
         "early-mcq-06": "「初期」與本句語境不同。",
         "early-mcq-03": "「提早到」與本句語境不同。",
         "early-mcq-07": "「早年」與本句語境不同。",
         "early-mcq-02": "「早起」與本句語境不同。"
       },
-      "correctOption": "early-mcq-05"
+      "correctOption": "early-pdf-001"
     },
     {
       "id": "early-04-1",
-      "sense": "early-mcq-05",
+      "sense": "early-pdf-001",
       "en": "I had to leave early.",
       "zh": "我不得不提早離開。",
       "masked": "I had to leave ____.",
       "options": [
-        "early-mcq-05",
+        "early-pdf-001",
         "early-mcq-04",
         "early-mcq-06",
         "early-mcq-03",
         "early-mcq-07",
         "early-mcq-02"
       ],
-      "explanation": "本句的「early」指「早期階段」。",
+      "explanation": "本句的「early」指「比原定、通常或預期時間早」。",
       "sentenceIndex": 8,
       "sourcePractice": 2,
       "targets": [
         "early"
       ],
       "optionReasons": {
-        "early-mcq-05": "本句指「早期階段」。",
+        "early-pdf-001": "本句指「比原定、通常或預期時間早」。",
         "early-mcq-04": "「清晨」與本句語境不同。",
         "early-mcq-06": "「初期」與本句語境不同。",
         "early-mcq-03": "「提早到」與本句語境不同。",
         "early-mcq-07": "「早年」與本句語境不同。",
         "early-mcq-02": "「早起」與本句語境不同。"
       },
-      "correctOption": "early-mcq-05"
+      "correctOption": "early-pdf-001"
     },
     {
       "id": "early-05-0",
@@ -1908,63 +1932,63 @@ export default {
     },
     {
       "id": "early-23-0",
-      "sense": "early-mcq-21",
+      "sense": "early-pdf-002",
       "en": "I'll call you in the early evening.",
       "zh": "我會在傍晚較早時打給你。",
       "masked": "I'll call you in the ____.",
       "options": [
-        "early-mcq-21",
+        "early-pdf-002",
         "early-mcq-20",
         "early-mcq-22",
         "early-mcq-19",
         "early-mcq-23",
         "early-mcq-18"
       ],
-      "explanation": "本句的「early evening」指「早開始；提早出發」。",
+      "explanation": "本句的「early evening」指「該時段開始不久的部分」。",
       "sentenceIndex": 45,
       "sourcePractice": 1,
       "targets": [
         "early evening"
       ],
       "optionReasons": {
-        "early-mcq-21": "本句指「早開始；提早出發」。",
+        "early-pdf-002": "本句指「該時段開始不久的部分」。",
         "early-mcq-20": "「凌晨時分」與本句語境不同。",
         "early-mcq-22": "「提早退休」與本句語境不同。",
         "early-mcq-19": "「早鳥優惠」與本句語境不同。",
         "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
         "early-mcq-18": "「早起／早到的人」與本句語境不同。"
       },
-      "correctOption": "early-mcq-21"
+      "correctOption": "early-pdf-002"
     },
     {
       "id": "early-23-1",
-      "sense": "early-mcq-21",
+      "sense": "early-pdf-002",
       "en": "The rain should stop by early afternoon.",
       "zh": "雨應該在下午早段前後停。",
       "masked": "The rain should stop by ____.",
       "options": [
-        "early-mcq-21",
+        "early-pdf-002",
         "early-mcq-20",
         "early-mcq-22",
         "early-mcq-19",
         "early-mcq-23",
         "early-mcq-18"
       ],
-      "explanation": "本句的「early afternoon」指「早開始；提早出發」。",
+      "explanation": "本句的「early afternoon」指「該時段開始不久的部分」。",
       "sentenceIndex": 46,
       "sourcePractice": 2,
       "targets": [
         "early afternoon"
       ],
       "optionReasons": {
-        "early-mcq-21": "本句指「早開始；提早出發」。",
+        "early-pdf-002": "本句指「該時段開始不久的部分」。",
         "early-mcq-20": "「凌晨時分」與本句語境不同。",
         "early-mcq-22": "「提早退休」與本句語境不同。",
         "early-mcq-19": "「早鳥優惠」與本句語境不同。",
         "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
         "early-mcq-18": "「早起／早到的人」與本句語境不同。"
       },
-      "correctOption": "early-mcq-21"
+      "correctOption": "early-pdf-002"
     },
     {
       "id": "early-24-0",

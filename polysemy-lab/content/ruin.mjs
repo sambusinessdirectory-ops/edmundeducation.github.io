@@ -192,16 +192,6 @@ export default {
           "Don't overcook the fish or you'll ruin it.",
           "不要把魚煮過頭，否則會把它煮壞。",
           "把食物弄壞"
-        ],
-        [
-          "The bleach ruined my shirt.",
-          "漂白劑把我的恤衫弄壞了。",
-          "把食物弄壞"
-        ],
-        [
-          "Water can ruin electronic equipment.",
-          "水可以嚴重損壞電子設備。",
-          "把食物弄壞"
         ]
       ],
       "options": [],
@@ -586,6 +576,28 @@ export default {
           "The war caused the ruination of many towns.",
           "戰爭造成許多城鎮的毀滅。",
           "毀滅；敗壞"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "ruin-pdf-001",
+      "title": "把物件損壞到不能正常使用或失去原有價值",
+      "form": "9. ruin clothes / objects — 把衣物／物品弄壞",
+      "en": "9. ruin clothes / objects — 把衣物／物品弄壞",
+      "zh": "把物件損壞到不能正常使用或失去原有價值",
+      "note": "原始 PDF 第 9 節：把物件損壞到不能正常使用或失去原有價值",
+      "examples": [
+        [
+          "The bleach ruined my shirt.",
+          "漂白劑把我的恤衫弄壞了。",
+          "把物件損壞到不能正常使用或失去原有價值"
+        ],
+        [
+          "Water can ruin electronic equipment.",
+          "水可以嚴重損壞電子設備。",
+          "把物件損壞到不能正常使用或失去原有價值"
         ]
       ],
       "options": [],
@@ -1105,63 +1117,63 @@ export default {
     },
     {
       "id": "ruin-09-0",
-      "sense": "ruin-mcq-09",
+      "sense": "ruin-pdf-001",
       "en": "The bleach ruined my shirt.",
       "zh": "漂白劑把我的恤衫弄壞了。",
       "masked": "The bleach ____.",
       "options": [
-        "ruin-mcq-09",
+        "ruin-pdf-001",
         "ruin-mcq-08",
         "ruin-mcq-10",
         "ruin-mcq-07",
         "ruin-mcq-11",
         "ruin-mcq-06"
       ],
-      "explanation": "本句的「ruined my shirt」指「把食物弄壞」。",
+      "explanation": "本句的「ruined my shirt」指「把物件損壞到不能正常使用或失去原有價值」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "ruined my shirt"
       ],
       "optionReasons": {
-        "ruin-mcq-09": "本句指「把食物弄壞」。",
+        "ruin-pdf-001": "本句指「把物件損壞到不能正常使用或失去原有價值」。",
         "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
         "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
         "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
         "ruin-mcq-11": "「令某人破產」與本句語境不同。",
         "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
       },
-      "correctOption": "ruin-mcq-09"
+      "correctOption": "ruin-pdf-001"
     },
     {
       "id": "ruin-09-1",
-      "sense": "ruin-mcq-09",
+      "sense": "ruin-pdf-001",
       "en": "Water can ruin electronic equipment.",
       "zh": "水可以嚴重損壞電子設備。",
       "masked": "Water can ____.",
       "options": [
-        "ruin-mcq-09",
+        "ruin-pdf-001",
         "ruin-mcq-08",
         "ruin-mcq-10",
         "ruin-mcq-07",
         "ruin-mcq-11",
         "ruin-mcq-06"
       ],
-      "explanation": "本句的「ruin electronic equipment」指「把食物弄壞」。",
+      "explanation": "本句的「ruin electronic equipment」指「把物件損壞到不能正常使用或失去原有價值」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "ruin electronic equipment"
       ],
       "optionReasons": {
-        "ruin-mcq-09": "本句指「把食物弄壞」。",
+        "ruin-pdf-001": "本句指「把物件損壞到不能正常使用或失去原有價值」。",
         "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
         "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
         "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
         "ruin-mcq-11": "「令某人破產」與本句語境不同。",
         "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
       },
-      "correctOption": "ruin-mcq-09"
+      "correctOption": "ruin-pdf-001"
     },
     {
       "id": "ruin-10-0",

@@ -246,18 +246,7 @@ export default {
       "en": "small change",
       "zh": "小面值零錢；亦可指微不足道的小額金錢",
       "note": "來源詞義：小面值零錢；亦可指微不足道的小額金錢",
-      "examples": [
-        [
-          "Do you have any small change for the parking meter?",
-          "你有沒有一些零錢可以付停車費？",
-          "小面值零錢；亦可指微不足道的小額金錢"
-        ],
-        [
-          "For a large company, that amount is small change.",
-          "對一家大型公司來說，那筆錢只是微不足道的小額金錢。",
-          "小面值零錢；亦可指微不足道的小額金錢"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -335,6 +324,28 @@ export default {
       "zh": "強調某事相當重要、困難或值得重視，絕非小事",
       "note": "來源詞義：強調某事相當重要、困難或值得重視，絕非小事",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "small-pdf-001",
+      "title": "面值較小的硬幣；亦可比喻金額小得不值得特別在意",
+      "form": "12. small change = low-value coins / insignificant amount of money — 零錢；小額金錢",
+      "en": "12. small change = low-value coins / insignificant amount of money — 零錢；小額金錢",
+      "zh": "面值較小的硬幣；亦可比喻金額小得不值得特別在意",
+      "note": "原始 PDF 第 12 節：面值較小的硬幣；亦可比喻金額小得不值得特別在意",
+      "examples": [
+        [
+          "Do you have any small change for the parking meter?",
+          "你有沒有一些零錢可以付停車費？",
+          "面值較小的硬幣；亦可比喻金額小得不值得特別在意"
+        ],
+        [
+          "For a large company, that amount is small change.",
+          "對一家大型公司來說，那筆錢只是微不足道的小額金錢。",
+          "面值較小的硬幣；亦可比喻金額小得不值得特別在意"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -1032,63 +1043,63 @@ export default {
     },
     {
       "id": "small-12-0",
-      "sense": "small-mcq-11",
+      "sense": "small-pdf-001",
       "en": "Do you have any small change for the parking meter?",
       "zh": "你有沒有一些零錢可以付停車費？",
       "masked": "Do you have any ____ change for the parking meter?",
       "options": [
-        "small-mcq-11",
+        "small-pdf-001",
         "small-mcq-10",
         "small-mcq-12",
         "small-mcq-09",
         "small-mcq-13",
         "small-mcq-08"
       ],
-      "explanation": "本句的「small」指「小面值零錢；亦可指微不足道的小額金錢」。",
+      "explanation": "本句的「small」指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "small"
       ],
       "optionReasons": {
-        "small-mcq-11": "本句指「小面值零錢；亦可指微不足道的小額金錢」。",
+        "small-pdf-001": "本句指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
         "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
         "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
         "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
         "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
         "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。"
       },
-      "correctOption": "small-mcq-11"
+      "correctOption": "small-pdf-001"
     },
     {
       "id": "small-12-1",
-      "sense": "small-mcq-11",
+      "sense": "small-pdf-001",
       "en": "For a large company, that amount is small change.",
       "zh": "對一家大型公司來說，那筆錢只是微不足道的小額金錢。",
       "masked": "For a large company, that amount is ____ change.",
       "options": [
-        "small-mcq-11",
+        "small-pdf-001",
         "small-mcq-10",
         "small-mcq-12",
         "small-mcq-09",
         "small-mcq-13",
         "small-mcq-08"
       ],
-      "explanation": "本句的「small」指「小面值零錢；亦可指微不足道的小額金錢」。",
+      "explanation": "本句的「small」指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "small"
       ],
       "optionReasons": {
-        "small-mcq-11": "本句指「小面值零錢；亦可指微不足道的小額金錢」。",
+        "small-pdf-001": "本句指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
         "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
         "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
         "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
         "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
         "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。"
       },
-      "correctOption": "small-mcq-11"
+      "correctOption": "small-pdf-001"
     },
     {
       "id": "small-13-0",

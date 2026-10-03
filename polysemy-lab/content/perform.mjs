@@ -81,16 +81,6 @@ export default {
           "She performed better than expected.",
           "她的表現比預期更好。",
           "在比賽、工作、測試或其他活動中實際展現某種能力和成果水平"
-        ],
-        [
-          "The athletes performed well despite the heat.",
-          "儘管天氣炎熱，運動員仍然表現良好。",
-          "在比賽、工作、測試或其他活動中實際展現某種能力和成果水平"
-        ],
-        [
-          "The system performed poorly during testing.",
-          "系統在測試期間表現不佳。",
-          "在比賽、工作、測試或其他活動中實際展現某種能力和成果水平"
         ]
       ],
       "options": [],
@@ -274,16 +264,6 @@ export default {
         [
           "This component performs two important functions.",
           "這個組件執行／發揮兩項重要功能。",
-          "實際承擔並發揮某種用途或作用"
-        ],
-        [
-          "The captain performs an important leadership role.",
-          "隊長發揮重要的領導角色。",
-          "實際承擔並發揮某種用途或作用"
-        ],
-        [
-          "Volunteers perform several roles during the event.",
-          "義工在活動期間擔任多種角色。",
           "實際承擔並發揮某種用途或作用"
         ]
       ],
@@ -582,6 +562,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "perform-pdf-001",
+      "title": "顯示某人、團隊、系統或產品在實際運作／活動中的表現水平",
+      "form": "5. perform well / badly / poorly — 表現好／差",
+      "en": "5. perform well / badly / poorly — 表現好／差",
+      "zh": "顯示某人、團隊、系統或產品在實際運作／活動中的表現水平",
+      "note": "原始 PDF 第 5 節：顯示某人、團隊、系統或產品在實際運作／活動中的表現水平",
+      "examples": [
+        [
+          "The athletes performed well despite the heat.",
+          "儘管天氣炎熱，運動員仍然表現良好。",
+          "顯示某人、團隊、系統或產品在實際運作／活動中的表現水平"
+        ],
+        [
+          "The system performed poorly during testing.",
+          "系統在測試期間表現不佳。",
+          "顯示某人、團隊、系統或產品在實際運作／活動中的表現水平"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "perform-pdf-002",
+      "title": "實際履行某個角色所包含的責任或功能",
+      "form": "21. perform a role — 履行角色；發揮作用",
+      "en": "21. perform a role — 履行角色；發揮作用",
+      "zh": "實際履行某個角色所包含的責任或功能",
+      "note": "原始 PDF 第 21 節：實際履行某個角色所包含的責任或功能",
+      "examples": [
+        [
+          "The captain performs an important leadership role.",
+          "隊長發揮重要的領導角色。",
+          "實際履行某個角色所包含的責任或功能"
+        ],
+        [
+          "Volunteers perform several roles during the event.",
+          "義工在活動期間擔任多種角色。",
+          "實際履行某個角色所包含的責任或功能"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -857,63 +881,63 @@ export default {
     },
     {
       "id": "perform-05-0",
-      "sense": "perform-mcq-03",
+      "sense": "perform-pdf-001",
       "en": "The athletes performed well despite the heat.",
       "zh": "儘管天氣炎熱，運動員仍然表現良好。",
       "masked": "The athletes ____ despite the heat.",
       "options": [
-        "perform-mcq-03",
+        "perform-pdf-001",
         "perform-mcq-02",
         "perform-mcq-04",
         "perform-mcq-01",
         "perform-mcq-05",
         "perform-mcq-06"
       ],
-      "explanation": "本句的「performed well」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+      "explanation": "本句的「performed well」指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "performed well"
       ],
       "optionReasons": {
-        "perform-mcq-03": "本句指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+        "perform-pdf-001": "本句指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
         "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
         "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
         "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
         "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
         "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
       },
-      "correctOption": "perform-mcq-03"
+      "correctOption": "perform-pdf-001"
     },
     {
       "id": "perform-05-1",
-      "sense": "perform-mcq-03",
+      "sense": "perform-pdf-001",
       "en": "The system performed poorly during testing.",
       "zh": "系統在測試期間表現不佳。",
       "masked": "The system ____ poorly during testing.",
       "options": [
-        "perform-mcq-03",
+        "perform-pdf-001",
         "perform-mcq-02",
         "perform-mcq-04",
         "perform-mcq-01",
         "perform-mcq-05",
         "perform-mcq-06"
       ],
-      "explanation": "本句的「performed」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+      "explanation": "本句的「performed」指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-03": "本句指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+        "perform-pdf-001": "本句指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
         "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
         "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
         "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
         "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
         "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
       },
-      "correctOption": "perform-mcq-03"
+      "correctOption": "perform-pdf-001"
     },
     {
       "id": "perform-06-0",
@@ -1577,63 +1601,63 @@ export default {
     },
     {
       "id": "perform-21-0",
-      "sense": "perform-mcq-10",
+      "sense": "perform-pdf-002",
       "en": "The captain performs an important leadership role.",
       "zh": "隊長發揮重要的領導角色。",
       "masked": "The captain ____ an important leadership role.",
       "options": [
-        "perform-mcq-10",
+        "perform-pdf-002",
         "perform-mcq-09",
         "perform-mcq-11",
         "perform-mcq-08",
         "perform-mcq-12",
         "perform-mcq-07"
       ],
-      "explanation": "本句的「performs」指「實際承擔並發揮某種用途或作用」。",
+      "explanation": "本句的「performs」指「實際履行某個角色所包含的責任或功能」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "performs"
       ],
       "optionReasons": {
-        "perform-mcq-10": "本句指「實際承擔並發揮某種用途或作用」。",
+        "perform-pdf-002": "本句指「實際履行某個角色所包含的責任或功能」。",
         "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
         "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
         "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
         "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
         "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。"
       },
-      "correctOption": "perform-mcq-10"
+      "correctOption": "perform-pdf-002"
     },
     {
       "id": "perform-21-1",
-      "sense": "perform-mcq-10",
+      "sense": "perform-pdf-002",
       "en": "Volunteers perform several roles during the event.",
       "zh": "義工在活動期間擔任多種角色。",
       "masked": "Volunteers ____ several roles during the event.",
       "options": [
-        "perform-mcq-10",
+        "perform-pdf-002",
         "perform-mcq-09",
         "perform-mcq-11",
         "perform-mcq-08",
         "perform-mcq-12",
         "perform-mcq-07"
       ],
-      "explanation": "本句的「perform」指「實際承擔並發揮某種用途或作用」。",
+      "explanation": "本句的「perform」指「實際履行某個角色所包含的責任或功能」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-10": "本句指「實際承擔並發揮某種用途或作用」。",
+        "perform-pdf-002": "本句指「實際履行某個角色所包含的責任或功能」。",
         "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
         "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
         "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
         "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
         "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。"
       },
-      "correctOption": "perform-mcq-10"
+      "correctOption": "perform-pdf-002"
     },
     {
       "id": "perform-22-0",

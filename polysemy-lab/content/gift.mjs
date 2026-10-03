@@ -223,16 +223,6 @@ export default {
       "note": "來源詞義：送禮；贈送",
       "examples": [
         [
-          "They gifted her a watch.",
-          "他們送了一隻手錶給她。",
-          "送禮；贈送"
-        ],
-        [
-          "The brand gifted influencers free products.",
-          "品牌贈送免費產品給網紅。",
-          "送禮；贈送"
-        ],
-        [
           "Holiday gifting can become expensive.",
           "節日送禮可能會很花錢。",
           "送禮；贈送"
@@ -510,6 +500,28 @@ export default {
           "We should value the gift of friendship.",
           "我們應珍惜友誼這份珍貴的禮物。",
           "把 X 比喻成值得珍惜、感激的贈予或恩惠"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "gift-pdf-001",
+      "title": "把 X 作為禮物或免費贈品送給某人",
+      "form": "11. gift someone something — 贈送某物給某人",
+      "en": "11. gift someone something — 贈送某物給某人",
+      "zh": "把 X 作為禮物或免費贈品送給某人",
+      "note": "原始 PDF 第 11 節：把 X 作為禮物或免費贈品送給某人",
+      "examples": [
+        [
+          "They gifted her a watch.",
+          "他們送了一隻手錶給她。",
+          "把 X 作為禮物或免費贈品送給某人"
+        ],
+        [
+          "The brand gifted influencers free products.",
+          "品牌贈送免費產品給網紅。",
+          "把 X 作為禮物或免費贈品送給某人"
         ]
       ],
       "options": [],
@@ -1149,63 +1161,63 @@ export default {
     },
     {
       "id": "gift-11-0",
-      "sense": "gift-mcq-11",
+      "sense": "gift-pdf-001",
       "en": "They gifted her a watch.",
       "zh": "他們送了一隻手錶給她。",
       "masked": "They ____.",
       "options": [
-        "gift-mcq-11",
+        "gift-pdf-001",
         "gift-mcq-10",
         "gift-mcq-12",
         "gift-mcq-09",
         "gift-mcq-13",
         "gift-mcq-08"
       ],
-      "explanation": "本句的「gifted her a watch」指「送禮；贈送」。",
+      "explanation": "本句的「gifted her a watch」指「把 X 作為禮物或免費贈品送給某人」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "gifted her a watch"
       ],
       "optionReasons": {
-        "gift-mcq-11": "本句指「送禮；贈送」。",
+        "gift-pdf-001": "本句指「把 X 作為禮物或免費贈品送給某人」。",
         "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
         "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
         "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
         "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
         "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。"
       },
-      "correctOption": "gift-mcq-11"
+      "correctOption": "gift-pdf-001"
     },
     {
       "id": "gift-11-1",
-      "sense": "gift-mcq-11",
+      "sense": "gift-pdf-001",
       "en": "The brand gifted influencers free products.",
       "zh": "品牌贈送免費產品給網紅。",
       "masked": "The brand ____.",
       "options": [
-        "gift-mcq-11",
+        "gift-pdf-001",
         "gift-mcq-10",
         "gift-mcq-12",
         "gift-mcq-09",
         "gift-mcq-13",
         "gift-mcq-08"
       ],
-      "explanation": "本句的「gifted influencers free products」指「送禮；贈送」。",
+      "explanation": "本句的「gifted influencers free products」指「把 X 作為禮物或免費贈品送給某人」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "gifted influencers free products"
       ],
       "optionReasons": {
-        "gift-mcq-11": "本句指「送禮；贈送」。",
+        "gift-pdf-001": "本句指「把 X 作為禮物或免費贈品送給某人」。",
         "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
         "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
         "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
         "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
         "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。"
       },
-      "correctOption": "gift-mcq-11"
+      "correctOption": "gift-pdf-001"
     },
     {
       "id": "gift-12-0",

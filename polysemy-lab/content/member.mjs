@@ -14,31 +14,6 @@ export default {
       "note": "來源詞義：成員；會員",
       "examples": [
         [
-          "I am writing as a member of the sales department.",
-          "我以銷售部一員的身份寫信。",
-          "成員；會員"
-        ],
-        [
-          "Every member of the team has a defined role.",
-          "每名團隊成員都有清晰角色。",
-          "成員；會員"
-        ],
-        [
-          "She is one of the newest members of the department.",
-          "她是部門最新加入的成員之一。",
-          "成員；會員"
-        ],
-        [
-          "The federation has thirty members.",
-          "該聯會有三十個成員機構。",
-          "成員；會員"
-        ],
-        [
-          "Each member appoints a representative.",
-          "每個成員機構委任一名代表。",
-          "成員；會員"
-        ],
-        [
           "Members can save products to a wish list.",
           "會員可以把商品儲存到願望清單。",
           "成員；會員"
@@ -583,18 +558,7 @@ export default {
       "en": "membership (people)",
       "zh": "全體會員",
       "note": "來源詞義：全體會員",
-      "examples": [
-        [
-          "The proposal was supported by most of the membership.",
-          "大部分會員都支持該方案。",
-          "全體會員"
-        ],
-        [
-          "The union consulted its membership before voting.",
-          "工會在投票前諮詢了全體會員。",
-          "全體會員"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1518,13 +1482,7 @@ export default {
       "en": "dismember",
       "zh": "肢解；拆散",
       "note": "來源詞義：肢解；拆散",
-      "examples": [
-        [
-          "The word dismember literally means to remove limbs or body parts.",
-          "dismember 字面指肢解身體。",
-          "肢解；拆散"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1657,98 +1615,186 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "member-pdf-001",
+      "title": "屬於某個團體、組織、團隊或機構的人",
+      "form": "1. member = person belonging to a group — 成員；一員",
+      "en": "1. member = person belonging to a group — 成員；一員",
+      "zh": "屬於某個團體、組織、團隊或機構的人",
+      "note": "原始 PDF 第 1 節：屬於某個團體、組織、團隊或機構的人",
+      "examples": [
+        [
+          "I am writing as a member of the sales department.",
+          "我以銷售部一員的身份寫信。",
+          "屬於某個團體、組織、團隊或機構的人"
+        ],
+        [
+          "Every member of the team has a defined role.",
+          "每名團隊成員都有清晰角色。",
+          "屬於某個團體、組織、團隊或機構的人"
+        ],
+        [
+          "She is one of the newest members of the department.",
+          "她是部門最新加入的成員之一。",
+          "屬於某個團體、組織、團隊或機構的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "member-pdf-002",
+      "title": "某組織全部會員作為一個整體",
+      "form": "28. membership = all the members of an organisation — 全體會員",
+      "en": "28. membership = all the members of an organisation — 全體會員",
+      "zh": "某組織全部會員作為一個整體",
+      "note": "原始 PDF 第 28 節：某組織全部會員作為一個整體",
+      "examples": [
+        [
+          "The proposal was supported by most of the membership.",
+          "大部分會員都支持該方案。",
+          "某組織全部會員作為一個整體"
+        ],
+        [
+          "The union consulted its membership before voting.",
+          "工會在投票前諮詢了全體會員。",
+          "某組織全部會員作為一個整體"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "member-pdf-003",
+      "title": "把人或動物的肢體切斷／分離",
+      "form": "78. dismember = cut/remove limbs from a body — 肢解",
+      "en": "78. dismember = cut/remove limbs from a body — 肢解",
+      "zh": "把人或動物的肢體切斷／分離",
+      "note": "原始 PDF 第 78 節：把人或動物的肢體切斷／分離",
+      "examples": [
+        [
+          "The word dismember literally means to remove limbs or body parts.",
+          "dismember 字面指肢解身體。",
+          "把人或動物的肢體切斷／分離"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "member-pdf-004",
+      "title": "也可以指加入另一個大型組織的公司、國家、機構等，而不只指人",
+      "form": "81. member = organisation belonging to a larger network — 成員機構",
+      "en": "81. member = organisation belonging to a larger network — 成員機構",
+      "zh": "也可以指加入另一個大型組織的公司、國家、機構等，而不只指人",
+      "note": "原始 PDF 第 81 節：也可以指加入另一個大型組織的公司、國家、機構等，而不只指人",
+      "examples": [
+        [
+          "The federation has thirty members.",
+          "該聯會有三十個成員機構。",
+          "也可以指加入另一個大型組織的公司、國家、機構等，而不只指人"
+        ],
+        [
+          "Each member appoints a representative.",
+          "每個成員機構委任一名代表。",
+          "也可以指加入另一個大型組織的公司、國家、機構等，而不只指人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "member-01-0",
-      "sense": "member-mcq-01",
+      "sense": "member-pdf-001",
       "en": "I am writing as a member of the sales department.",
       "zh": "我以銷售部一員的身份寫信。",
       "masked": "I am writing ____.",
       "options": [
-        "member-mcq-01",
+        "member-pdf-001",
         "member-mcq-02",
         "member-mcq-03",
         "member-mcq-04",
         "member-mcq-05",
         "member-mcq-06"
       ],
-      "explanation": "本句的「as a member of the sales department」指「成員；會員」。",
+      "explanation": "本句的「as a member of the sales department」指「屬於某個團體、組織、團隊或機構的人」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "as a member of the sales department"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
+        "member-pdf-001": "本句指「屬於某個團體、組織、團隊或機構的人」。",
         "member-mcq-02": "「部門成員」與本句語境不同。",
         "member-mcq-03": "「團隊成員」與本句語境不同。",
         "member-mcq-04": "「小組成員」與本句語境不同。",
         "member-mcq-05": "「員工；職員」與本句語境不同。",
         "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
       },
-      "correctOption": "member-mcq-01"
+      "correctOption": "member-pdf-001"
     },
     {
       "id": "member-01-1",
-      "sense": "member-mcq-01",
+      "sense": "member-pdf-001",
       "en": "Every member of the team has a defined role.",
       "zh": "每名團隊成員都有清晰角色。",
       "masked": "Every ____ has a defined role.",
       "options": [
-        "member-mcq-01",
+        "member-pdf-001",
         "member-mcq-02",
         "member-mcq-03",
         "member-mcq-04",
         "member-mcq-05",
         "member-mcq-06"
       ],
-      "explanation": "本句的「member of the team」指「成員；會員」。",
+      "explanation": "本句的「member of the team」指「屬於某個團體、組織、團隊或機構的人」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "member of the team"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
+        "member-pdf-001": "本句指「屬於某個團體、組織、團隊或機構的人」。",
         "member-mcq-02": "「部門成員」與本句語境不同。",
         "member-mcq-03": "「團隊成員」與本句語境不同。",
         "member-mcq-04": "「小組成員」與本句語境不同。",
         "member-mcq-05": "「員工；職員」與本句語境不同。",
         "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
       },
-      "correctOption": "member-mcq-01"
+      "correctOption": "member-pdf-001"
     },
     {
       "id": "member-01-2",
-      "sense": "member-mcq-01",
+      "sense": "member-pdf-001",
       "en": "She is one of the newest members of the department.",
       "zh": "她是部門最新加入的成員之一。",
       "masked": "She is one of the newest ____ of the department.",
       "options": [
-        "member-mcq-01",
+        "member-pdf-001",
         "member-mcq-02",
         "member-mcq-03",
         "member-mcq-04",
         "member-mcq-05",
         "member-mcq-06"
       ],
-      "explanation": "本句的「members」指「成員；會員」。",
+      "explanation": "本句的「members」指「屬於某個團體、組織、團隊或機構的人」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "members"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
+        "member-pdf-001": "本句指「屬於某個團體、組織、團隊或機構的人」。",
         "member-mcq-02": "「部門成員」與本句語境不同。",
         "member-mcq-03": "「團隊成員」與本句語境不同。",
         "member-mcq-04": "「小組成員」與本句語境不同。",
         "member-mcq-05": "「員工；職員」與本句語境不同。",
         "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
       },
-      "correctOption": "member-mcq-01"
+      "correctOption": "member-pdf-001"
     },
     {
       "id": "member-02-0",
@@ -3312,63 +3358,63 @@ export default {
     },
     {
       "id": "member-28-0",
-      "sense": "member-mcq-24",
+      "sense": "member-pdf-002",
       "en": "The proposal was supported by most of the membership.",
       "zh": "大部分會員都支持該方案。",
       "masked": "The proposal was supported by most of the ____.",
       "options": [
-        "member-mcq-24",
+        "member-pdf-002",
         "member-mcq-23",
         "member-mcq-22",
         "member-mcq-26",
         "member-mcq-21",
         "member-mcq-27"
       ],
-      "explanation": "本句的「membership」指「全體會員」。",
+      "explanation": "本句的「membership」指「某組織全部會員作為一個整體」。",
       "sentenceIndex": 55,
       "sourcePractice": 1,
       "targets": [
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-24": "本句指「全體會員」。",
+        "member-pdf-002": "本句指「某組織全部會員作為一個整體」。",
         "member-mcq-23": "「終止會籍」與本句語境不同。",
         "member-mcq-22": "「失去會員資格」與本句語境不同。",
         "member-mcq-26": "「會員人數」與本句語境不同。",
         "member-mcq-21": "「取得會員資格」與本句語境不同。",
         "member-mcq-27": "「會員人數增長」與本句語境不同。"
       },
-      "correctOption": "member-mcq-24"
+      "correctOption": "member-pdf-002"
     },
     {
       "id": "member-28-1",
-      "sense": "member-mcq-24",
+      "sense": "member-pdf-002",
       "en": "The union consulted its membership before voting.",
       "zh": "工會在投票前諮詢了全體會員。",
       "masked": "The union consulted its ____ before voting.",
       "options": [
-        "member-mcq-24",
+        "member-pdf-002",
         "member-mcq-23",
         "member-mcq-22",
         "member-mcq-26",
         "member-mcq-21",
         "member-mcq-27"
       ],
-      "explanation": "本句的「membership」指「全體會員」。",
+      "explanation": "本句的「membership」指「某組織全部會員作為一個整體」。",
       "sentenceIndex": 56,
       "sourcePractice": 2,
       "targets": [
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-24": "本句指「全體會員」。",
+        "member-pdf-002": "本句指「某組織全部會員作為一個整體」。",
         "member-mcq-23": "「終止會籍」與本句語境不同。",
         "member-mcq-22": "「失去會員資格」與本句語境不同。",
         "member-mcq-26": "「會員人數」與本句語境不同。",
         "member-mcq-21": "「取得會員資格」與本句語境不同。",
         "member-mcq-27": "「會員人數增長」與本句語境不同。"
       },
-      "correctOption": "member-mcq-24"
+      "correctOption": "member-pdf-002"
     },
     {
       "id": "member-29-0",
@@ -6042,33 +6088,33 @@ export default {
     },
     {
       "id": "member-78-0",
-      "sense": "member-mcq-64",
+      "sense": "member-pdf-003",
       "en": "The word dismember literally means to remove limbs or body parts.",
       "zh": "dismember 字面指肢解身體。",
       "masked": "The word ____ literally means to remove limbs or body parts.",
       "options": [
-        "member-mcq-64",
+        "member-pdf-003",
         "member-mcq-63",
         "member-mcq-65",
         "member-mcq-62",
         "member-mcq-66",
         "member-mcq-61"
       ],
-      "explanation": "本句的「dismember」指「肢解；拆散」。",
+      "explanation": "本句的「dismember」指「把人或動物的肢體切斷／分離」。",
       "sentenceIndex": 149,
       "sourcePractice": 1,
       "targets": [
         "dismember"
       ],
       "optionReasons": {
-        "member-mcq-64": "本句指「肢解；拆散」。",
+        "member-pdf-003": "本句指「把人或動物的肢體切斷／分離」。",
         "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
         "member-mcq-65": "「肢解；分割」與本句語境不同。",
         "member-mcq-62": "「承重構件」與本句語境不同。",
         "member-mcq-66": "「個人會員」與本句語境不同。",
         "member-mcq-61": "「結構構件」與本句語境不同。"
       },
-      "correctOption": "member-mcq-64"
+      "correctOption": "member-pdf-003"
     },
     {
       "id": "member-79-0",
@@ -6132,63 +6178,63 @@ export default {
     },
     {
       "id": "member-81-0",
-      "sense": "member-mcq-01",
+      "sense": "member-pdf-004",
       "en": "The federation has thirty members.",
       "zh": "該聯會有三十個成員機構。",
       "masked": "The federation has thirty ____.",
       "options": [
-        "member-mcq-01",
+        "member-pdf-004",
         "member-mcq-02",
         "member-mcq-03",
         "member-mcq-04",
         "member-mcq-05",
         "member-mcq-06"
       ],
-      "explanation": "本句的「members」指「成員；會員」。",
+      "explanation": "本句的「members」指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
       "sentenceIndex": 152,
       "sourcePractice": 1,
       "targets": [
         "members"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
+        "member-pdf-004": "本句指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
         "member-mcq-02": "「部門成員」與本句語境不同。",
         "member-mcq-03": "「團隊成員」與本句語境不同。",
         "member-mcq-04": "「小組成員」與本句語境不同。",
         "member-mcq-05": "「員工；職員」與本句語境不同。",
         "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
       },
-      "correctOption": "member-mcq-01"
+      "correctOption": "member-pdf-004"
     },
     {
       "id": "member-81-1",
-      "sense": "member-mcq-01",
+      "sense": "member-pdf-004",
       "en": "Each member appoints a representative.",
       "zh": "每個成員機構委任一名代表。",
       "masked": "Each ____ appoints a representative.",
       "options": [
-        "member-mcq-01",
+        "member-pdf-004",
         "member-mcq-02",
         "member-mcq-03",
         "member-mcq-04",
         "member-mcq-05",
         "member-mcq-06"
       ],
-      "explanation": "本句的「member」指「成員；會員」。",
+      "explanation": "本句的「member」指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
       "sentenceIndex": 153,
       "sourcePractice": 2,
       "targets": [
         "member"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
+        "member-pdf-004": "本句指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
         "member-mcq-02": "「部門成員」與本句語境不同。",
         "member-mcq-03": "「團隊成員」與本句語境不同。",
         "member-mcq-04": "「小組成員」與本句語境不同。",
         "member-mcq-05": "「員工；職員」與本句語境不同。",
         "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
       },
-      "correctOption": "member-mcq-01"
+      "correctOption": "member-pdf-004"
     },
     {
       "id": "member-82-0",

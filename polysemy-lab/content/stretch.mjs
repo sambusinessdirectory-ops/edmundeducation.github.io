@@ -12,18 +12,7 @@ export default {
       "en": "stretch — physical",
       "zh": "用拉力使物件變得更長、更闊或繃緊",
       "note": "來源詞義：用拉力使物件變得更長、更闊或繃緊",
-      "examples": [
-        [
-          "Do not stretch the cable too tightly.",
-          "不要把電線拉得太緊／拉伸過度。",
-          "用拉力使物件變得更長、更闊或繃緊"
-        ],
-        [
-          "She stretched the fabric across the frame.",
-          "她把布料拉開鋪在框架上。",
-          "用拉力使物件變得更長、更闊或繃緊"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -355,68 +344,90 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "stretch-pdf-001",
+      "title": "對某物施力，使其在長度、寬度或形狀上延伸",
+      "form": "1. stretch something = pull something so it becomes longer/wider — 拉長；拉伸；撐開",
+      "en": "1. stretch something = pull something so it becomes longer/wider — 拉長；拉伸；撐開",
+      "zh": "對某物施力，使其在長度、寬度或形狀上延伸",
+      "note": "原始 PDF 第 1 節：對某物施力，使其在長度、寬度或形狀上延伸",
+      "examples": [
+        [
+          "Do not stretch the cable too tightly.",
+          "不要把電線拉得太緊／拉伸過度。",
+          "對某物施力，使其在長度、寬度或形狀上延伸"
+        ],
+        [
+          "She stretched the fabric across the frame.",
+          "她把布料拉開鋪在框架上。",
+          "對某物施力，使其在長度、寬度或形狀上延伸"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "stretch-01-0",
-      "sense": "stretch-mcq-01",
+      "sense": "stretch-pdf-001",
       "en": "Do not stretch the cable too tightly.",
       "zh": "不要把電線拉得太緊／拉伸過度。",
       "masked": "Do not ____ the cable too tightly.",
       "options": [
-        "stretch-mcq-01",
+        "stretch-pdf-001",
         "stretch-mcq-02",
         "stretch-mcq-03",
         "stretch-mcq-04",
         "stretch-mcq-05",
         "stretch-mcq-06"
       ],
-      "explanation": "本句的「stretch」指「用拉力使物件變得更長、更闊或繃緊」。",
+      "explanation": "本句的「stretch」指「對某物施力，使其在長度、寬度或形狀上延伸」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-01": "本句指「用拉力使物件變得更長、更闊或繃緊」。",
+        "stretch-pdf-001": "本句指「對某物施力，使其在長度、寬度或形狀上延伸」。",
         "stretch-mcq-02": "「把手腳／肌肉伸展開來」與本句語境不同。",
         "stretch-mcq-03": "「為增加活動幅度／放鬆肌肉而進行的伸展運動」與本句語境不同。",
         "stretch-mcq-04": "「在空間上連續延伸至很遠的地方」與本句語境不同。",
         "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。",
         "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。"
       },
-      "correctOption": "stretch-mcq-01"
+      "correctOption": "stretch-pdf-001"
     },
     {
       "id": "stretch-01-1",
-      "sense": "stretch-mcq-01",
+      "sense": "stretch-pdf-001",
       "en": "She stretched the fabric across the frame.",
       "zh": "她把布料拉開鋪在框架上。",
       "masked": "She ____ the fabric across the frame.",
       "options": [
-        "stretch-mcq-01",
+        "stretch-pdf-001",
         "stretch-mcq-02",
         "stretch-mcq-03",
         "stretch-mcq-04",
         "stretch-mcq-05",
         "stretch-mcq-06"
       ],
-      "explanation": "本句的「stretched」指「用拉力使物件變得更長、更闊或繃緊」。",
+      "explanation": "本句的「stretched」指「對某物施力，使其在長度、寬度或形狀上延伸」。",
       "sentenceIndex": 1,
       "sourcePractice": 1,
       "targets": [
         "stretched"
       ],
       "optionReasons": {
-        "stretch-mcq-01": "本句指「用拉力使物件變得更長、更闊或繃緊」。",
+        "stretch-pdf-001": "本句指「對某物施力，使其在長度、寬度或形狀上延伸」。",
         "stretch-mcq-02": "「把手腳／肌肉伸展開來」與本句語境不同。",
         "stretch-mcq-03": "「為增加活動幅度／放鬆肌肉而進行的伸展運動」與本句語境不同。",
         "stretch-mcq-04": "「在空間上連續延伸至很遠的地方」與本句語境不同。",
         "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。",
         "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。"
       },
-      "correctOption": "stretch-mcq-01"
+      "correctOption": "stretch-pdf-001"
     },
     {
       "id": "stretch-15-0",

@@ -117,16 +117,6 @@ export default {
       "note": "來源詞義：某件事情正在進行中；或處於其中間階段",
       "examples": [
         [
-          "His view lies somewhere in the middle.",
-          "他的觀點介乎兩個極端之間，處於中間立場。",
-          "某件事情正在進行中；或處於其中間階段"
-        ],
-        [
-          "We need to find a middle position.",
-          "我們需要找到一個折衷／中間位置。",
-          "某件事情正在進行中；或處於其中間階段"
-        ],
-        [
           "I’m in the middle of cooking.",
           "我正在煮飯當中。",
           "某件事情正在進行中；或處於其中間階段"
@@ -152,6 +142,28 @@ export default {
           "The cabin was in the middle of nowhere.",
           "那間小屋位於荒郊野外／非常偏僻的地方。",
           "非常偏遠、荒涼、附近幾乎沒有人的地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "middle-pdf-001",
+      "title": "兩種極端、立場或選擇之間的中間位置",
+      "form": "5. the middle = central group/position between extremes（立場／選擇） — 中間立場；折衷位",
+      "en": "5. the middle = central group/position between extremes（立場／選擇） — 中間立場；折衷位",
+      "zh": "兩種極端、立場或選擇之間的中間位置",
+      "note": "原始 PDF 第 5 節：兩種極端、立場或選擇之間的中間位置",
+      "examples": [
+        [
+          "His view lies somewhere in the middle.",
+          "他的觀點介乎兩個極端之間，處於中間立場。",
+          "兩種極端、立場或選擇之間的中間位置"
+        ],
+        [
+          "We need to find a middle position.",
+          "我們需要找到一個折衷／中間位置。",
+          "兩種極端、立場或選擇之間的中間位置"
         ]
       ],
       "options": [],
@@ -431,63 +443,63 @@ export default {
     },
     {
       "id": "middle-05-0",
-      "sense": "middle-mcq-05",
+      "sense": "middle-pdf-001",
       "en": "His view lies somewhere in the middle.",
       "zh": "他的觀點介乎兩個極端之間，處於中間立場。",
       "masked": "His view lies somewhere in the ____.",
       "options": [
-        "middle-mcq-05",
+        "middle-pdf-001",
         "middle-mcq-04",
         "middle-mcq-06",
         "middle-mcq-03",
         "middle-mcq-02",
         "middle-mcq-01"
       ],
-      "explanation": "本句的「middle」指「某件事情正在進行中；或處於其中間階段」。",
+      "explanation": "本句的「middle」指「兩種極端、立場或選擇之間的中間位置」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "middle"
       ],
       "optionReasons": {
-        "middle-mcq-05": "本句指「某件事情正在進行中；或處於其中間階段」。",
+        "middle-pdf-001": "本句指「兩種極端、立場或選擇之間的中間位置」。",
         "middle-mcq-04": "「人體軀幹的中間部分，通常指腰腹附近」與本句語境不同。",
         "middle-mcq-06": "「非常偏遠、荒涼、附近幾乎沒有人的地方」與本句語境不同。",
         "middle-mcq-03": "「在大小、年齡、等級、地位等方面處於兩端之間的」與本句語境不同。",
         "middle-mcq-02": "「一件事情由開始到結束之間的中間階段」與本句語境不同。",
         "middle-mcq-01": "「位於兩端、兩邊或外圍之間的中央部分／位置」與本句語境不同。"
       },
-      "correctOption": "middle-mcq-05"
+      "correctOption": "middle-pdf-001"
     },
     {
       "id": "middle-05-1",
-      "sense": "middle-mcq-05",
+      "sense": "middle-pdf-001",
       "en": "We need to find a middle position.",
       "zh": "我們需要找到一個折衷／中間位置。",
       "masked": "We need to find a ____ position.",
       "options": [
-        "middle-mcq-05",
+        "middle-pdf-001",
         "middle-mcq-04",
         "middle-mcq-06",
         "middle-mcq-03",
         "middle-mcq-02",
         "middle-mcq-01"
       ],
-      "explanation": "本句的「middle」指「某件事情正在進行中；或處於其中間階段」。",
+      "explanation": "本句的「middle」指「兩種極端、立場或選擇之間的中間位置」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "middle"
       ],
       "optionReasons": {
-        "middle-mcq-05": "本句指「某件事情正在進行中；或處於其中間階段」。",
+        "middle-pdf-001": "本句指「兩種極端、立場或選擇之間的中間位置」。",
         "middle-mcq-04": "「人體軀幹的中間部分，通常指腰腹附近」與本句語境不同。",
         "middle-mcq-06": "「非常偏遠、荒涼、附近幾乎沒有人的地方」與本句語境不同。",
         "middle-mcq-03": "「在大小、年齡、等級、地位等方面處於兩端之間的」與本句語境不同。",
         "middle-mcq-02": "「一件事情由開始到結束之間的中間階段」與本句語境不同。",
         "middle-mcq-01": "「位於兩端、兩邊或外圍之間的中央部分／位置」與本句語境不同。"
       },
-      "correctOption": "middle-mcq-05"
+      "correctOption": "middle-pdf-001"
     },
     {
       "id": "middle-06-0",

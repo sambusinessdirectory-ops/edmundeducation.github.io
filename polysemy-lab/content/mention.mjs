@@ -290,16 +290,6 @@ export default {
           "Certain personal matters remained unmentionable in the family.",
           "家中有些私人事情一直被視為不能公開提起的禁忌話題。",
           "因尷尬、禁忌或冒犯性而不適合公開談論的"
-        ],
-        [
-          "The phrase ‘the unmentionables’ was once used humorously for underwear.",
-          "the unmentionables 過去有時被幽默地用來指不便直說的內衣。",
-          "因尷尬、禁忌或冒犯性而不適合公開談論的"
-        ],
-        [
-          "Older novels sometimes refer jokingly to ‘the unmentionables.’",
-          "較舊的小說有時會以幽默方式用 the unmentionables 指不便直接說出的貼身衣物。",
-          "因尷尬、禁忌或冒犯性而不適合公開談論的"
         ]
       ],
       "options": [],
@@ -322,6 +312,28 @@ export default {
           "The aforementioned problems must be addressed before launch.",
           "在推出產品前，必須處理前述的問題。",
           "在前面的文字或討論中已經提及的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mention-pdf-001",
+      "title": "較舊式或幽默地指被視為尷尬、不便公開點名的東西",
+      "form": "14. the unmentionables（較舊式／幽默） — 不便明說的東西；內衣等",
+      "en": "14. the unmentionables（較舊式／幽默） — 不便明說的東西；內衣等",
+      "zh": "較舊式或幽默地指被視為尷尬、不便公開點名的東西",
+      "note": "原始 PDF 第 14 節：較舊式或幽默地指被視為尷尬、不便公開點名的東西",
+      "examples": [
+        [
+          "The phrase ‘the unmentionables’ was once used humorously for underwear.",
+          "the unmentionables 過去有時被幽默地用來指不便直說的內衣。",
+          "較舊式或幽默地指被視為尷尬、不便公開點名的東西"
+        ],
+        [
+          "Older novels sometimes refer jokingly to ‘the unmentionables.’",
+          "較舊的小說有時會以幽默方式用 the unmentionables 指不便直接說出的貼身衣物。",
+          "較舊式或幽默地指被視為尷尬、不便公開點名的東西"
         ]
       ],
       "options": [],
@@ -1141,63 +1153,63 @@ export default {
     },
     {
       "id": "mention-14-0",
-      "sense": "mention-mcq-13",
+      "sense": "mention-pdf-001",
       "en": "The phrase ‘the unmentionables’ was once used humorously for underwear.",
       "zh": "the unmentionables 過去有時被幽默地用來指不便直說的內衣。",
       "masked": "The phrase ‘the ____’ was once used humorously for underwear.",
       "options": [
-        "mention-mcq-13",
+        "mention-pdf-001",
         "mention-mcq-12",
         "mention-mcq-14",
         "mention-mcq-11",
         "mention-mcq-10",
         "mention-mcq-09"
       ],
-      "explanation": "本句的「unmentionables」指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
+      "explanation": "本句的「unmentionables」指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "unmentionables"
       ],
       "optionReasons": {
-        "mention-mcq-13": "本句指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
+        "mention-pdf-001": "本句指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
         "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
         "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
         "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
         "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
         "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
       },
-      "correctOption": "mention-mcq-13"
+      "correctOption": "mention-pdf-001"
     },
     {
       "id": "mention-14-1",
-      "sense": "mention-mcq-13",
+      "sense": "mention-pdf-001",
       "en": "Older novels sometimes refer jokingly to ‘the unmentionables.’",
       "zh": "較舊的小說有時會以幽默方式用 the unmentionables 指不便直接說出的貼身衣物。",
       "masked": "Older novels sometimes refer jokingly to ‘the ____.’",
       "options": [
-        "mention-mcq-13",
+        "mention-pdf-001",
         "mention-mcq-12",
         "mention-mcq-14",
         "mention-mcq-11",
         "mention-mcq-10",
         "mention-mcq-09"
       ],
-      "explanation": "本句的「unmentionables」指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
+      "explanation": "本句的「unmentionables」指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "unmentionables"
       ],
       "optionReasons": {
-        "mention-mcq-13": "本句指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
+        "mention-pdf-001": "本句指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
         "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
         "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
         "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
         "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
         "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
       },
-      "correctOption": "mention-mcq-13"
+      "correctOption": "mention-pdf-001"
     },
     {
       "id": "mention-15-0",

@@ -344,16 +344,6 @@ export default {
       "note": "來源詞義：以整齊俐落、完整或衛生的方式",
       "examples": [
         [
-          "The branch broke cleanly.",
-          "樹枝乾脆俐落地折斷了。",
-          "以整齊俐落、完整或衛生的方式"
-        ],
-        [
-          "The knife cut cleanly through the fruit.",
-          "刀子俐落地切過水果。",
-          "以整齊俐落、完整或衛生的方式"
-        ],
-        [
           "The food must be prepared cleanly.",
           "食物必須以衛生的方式處理。",
           "以整齊俐落、完整或衛生的方式"
@@ -626,6 +616,28 @@ export default {
           "I clean forgot about the meeting.",
           "我把會議完全忘記了。",
           "完全地；徹底地，常見於固定／非正式用法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "clean-pdf-001",
+      "title": "動作整齊、完整、沒有拖拉或破碎地完成",
+      "form": "17. cleanly = in a clean/neat way（動作） — 乾淨俐落地",
+      "en": "17. cleanly = in a clean/neat way（動作） — 乾淨俐落地",
+      "zh": "動作整齊、完整、沒有拖拉或破碎地完成",
+      "note": "原始 PDF 第 17 節：動作整齊、完整、沒有拖拉或破碎地完成",
+      "examples": [
+        [
+          "The branch broke cleanly.",
+          "樹枝乾脆俐落地折斷了。",
+          "動作整齊、完整、沒有拖拉或破碎地完成"
+        ],
+        [
+          "The knife cut cleanly through the fruit.",
+          "刀子俐落地切過水果。",
+          "動作整齊、完整、沒有拖拉或破碎地完成"
         ]
       ],
       "options": [],
@@ -1535,63 +1547,63 @@ export default {
     },
     {
       "id": "clean-17-0",
-      "sense": "clean-mcq-16",
+      "sense": "clean-pdf-001",
       "en": "The branch broke cleanly.",
       "zh": "樹枝乾脆俐落地折斷了。",
       "masked": "The branch broke ____.",
       "options": [
-        "clean-mcq-16",
+        "clean-pdf-001",
         "clean-mcq-15",
         "clean-mcq-17",
         "clean-mcq-14",
         "clean-mcq-18",
         "clean-mcq-13"
       ],
-      "explanation": "本句的「cleanly」指「以整齊俐落、完整或衛生的方式」。",
+      "explanation": "本句的「cleanly」指「動作整齊、完整、沒有拖拉或破碎地完成」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "cleanly"
       ],
       "optionReasons": {
-        "clean-mcq-16": "本句指「以整齊俐落、完整或衛生的方式」。",
+        "clean-pdf-001": "本句指「動作整齊、完整、沒有拖拉或破碎地完成」。",
         "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
         "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
         "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
         "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
         "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。"
       },
-      "correctOption": "clean-mcq-16"
+      "correctOption": "clean-pdf-001"
     },
     {
       "id": "clean-17-1",
-      "sense": "clean-mcq-16",
+      "sense": "clean-pdf-001",
       "en": "The knife cut cleanly through the fruit.",
       "zh": "刀子俐落地切過水果。",
       "masked": "The knife cut ____ through the fruit.",
       "options": [
-        "clean-mcq-16",
+        "clean-pdf-001",
         "clean-mcq-15",
         "clean-mcq-17",
         "clean-mcq-14",
         "clean-mcq-18",
         "clean-mcq-13"
       ],
-      "explanation": "本句的「cleanly」指「以整齊俐落、完整或衛生的方式」。",
+      "explanation": "本句的「cleanly」指「動作整齊、完整、沒有拖拉或破碎地完成」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "cleanly"
       ],
       "optionReasons": {
-        "clean-mcq-16": "本句指「以整齊俐落、完整或衛生的方式」。",
+        "clean-pdf-001": "本句指「動作整齊、完整、沒有拖拉或破碎地完成」。",
         "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
         "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
         "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
         "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
         "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。"
       },
-      "correctOption": "clean-mcq-16"
+      "correctOption": "clean-pdf-001"
     },
     {
       "id": "clean-18-0",

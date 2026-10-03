@@ -12,18 +12,7 @@ export default {
       "en": "insurance — general",
       "zh": "透過支付保費，把指定未來財務風險轉移給保險人的保障安排",
       "note": "來源詞義：透過支付保費，把指定未來財務風險轉移給保險人的保障安排",
-      "examples": [
-        [
-          "The car must have valid insurance.",
-          "這輛車必須有有效的保險。",
-          "透過支付保費，把指定未來財務風險轉移給保險人的保障安排"
-        ],
-        [
-          "Insurance protects owners against certain financial losses.",
-          "保險可以保障車主免受某些財務損失。",
-          "透過支付保費，把指定未來財務風險轉移給保險人的保障安排"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -360,68 +349,90 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "insurance-pdf-001",
+      "title": "投保人支付保費，由保險公司按保單條款承擔指定風險",
+      "form": "1. insurance = financial protection against specified risk — 保險",
+      "en": "1. insurance = financial protection against specified risk — 保險",
+      "zh": "投保人支付保費，由保險公司按保單條款承擔指定風險",
+      "note": "原始 PDF 第 1 節：投保人支付保費，由保險公司按保單條款承擔指定風險",
+      "examples": [
+        [
+          "The car must have valid insurance.",
+          "這輛車必須有有效的保險。",
+          "投保人支付保費，由保險公司按保單條款承擔指定風險"
+        ],
+        [
+          "Insurance protects owners against certain financial losses.",
+          "保險可以保障車主免受某些財務損失。",
+          "投保人支付保費，由保險公司按保單條款承擔指定風險"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "insurance-01-0",
-      "sense": "insurance-mcq-01",
+      "sense": "insurance-pdf-001",
       "en": "The car must have valid insurance.",
       "zh": "這輛車必須有有效的保險。",
       "masked": "The car must have valid ____.",
       "options": [
-        "insurance-mcq-01",
+        "insurance-pdf-001",
         "insurance-mcq-02",
         "insurance-mcq-03",
         "insurance-mcq-04",
         "insurance-mcq-05",
         "insurance-mcq-06"
       ],
-      "explanation": "本句的「insurance」指「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」。",
+      "explanation": "本句的「insurance」指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-01": "本句指「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」。",
+        "insurance-pdf-001": "本句指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
         "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
         "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
         "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
         "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
         "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
       },
-      "correctOption": "insurance-mcq-01"
+      "correctOption": "insurance-pdf-001"
     },
     {
       "id": "insurance-01-1",
-      "sense": "insurance-mcq-01",
+      "sense": "insurance-pdf-001",
       "en": "Insurance protects owners against certain financial losses.",
       "zh": "保險可以保障車主免受某些財務損失。",
       "masked": "____ protects owners against certain financial losses.",
       "options": [
-        "insurance-mcq-01",
+        "insurance-pdf-001",
         "insurance-mcq-02",
         "insurance-mcq-03",
         "insurance-mcq-04",
         "insurance-mcq-05",
         "insurance-mcq-06"
       ],
-      "explanation": "本句的「Insurance」指「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」。",
+      "explanation": "本句的「Insurance」指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
       "sentenceIndex": 1,
       "sourcePractice": 1,
       "targets": [
         "Insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-01": "本句指「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」。",
+        "insurance-pdf-001": "本句指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
         "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
         "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
         "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
         "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
         "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
       },
-      "correctOption": "insurance-mcq-01"
+      "correctOption": "insurance-pdf-001"
     },
     {
       "id": "insurance-02-0",

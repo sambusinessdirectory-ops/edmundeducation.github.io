@@ -269,16 +269,6 @@ export default {
           "The advertisement sends a positive message.",
           "這則廣告傳達了一個正面的信息。",
           "主旨；寓意"
-        ],
-        [
-          "The message of the story is about kindness.",
-          "故事的寓意是善良。",
-          "主旨；寓意"
-        ],
-        [
-          "The film has a strong environmental message.",
-          "這部電影帶有很強的環保主旨。",
-          "主旨；寓意"
         ]
       ],
       "options": [],
@@ -508,6 +498,28 @@ export default {
           "Managers should not shoot the messenger when employees report problems.",
           "當員工報告問題時，管理層不應怪罪傳達壞消息的人。",
           "遷怒報信者"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "message-pdf-001",
+      "title": "作品希望觀眾理解的主要思想、價值或寓意",
+      "form": "13. the message of a story / film — 故事／電影的寓意；主旨",
+      "en": "13. the message of a story / film — 故事／電影的寓意；主旨",
+      "zh": "作品希望觀眾理解的主要思想、價值或寓意",
+      "note": "原始 PDF 第 13 節：作品希望觀眾理解的主要思想、價值或寓意",
+      "examples": [
+        [
+          "The message of the story is about kindness.",
+          "故事的寓意是善良。",
+          "作品希望觀眾理解的主要思想、價值或寓意"
+        ],
+        [
+          "The film has a strong environmental message.",
+          "這部電影帶有很強的環保主旨。",
+          "作品希望觀眾理解的主要思想、價值或寓意"
         ]
       ],
       "options": [],
@@ -1267,63 +1279,63 @@ export default {
     },
     {
       "id": "message-13-0",
-      "sense": "message-mcq-12",
+      "sense": "message-pdf-001",
       "en": "The message of the story is about kindness.",
       "zh": "故事的寓意是善良。",
       "masked": "The ____ is about kindness.",
       "options": [
-        "message-mcq-12",
+        "message-pdf-001",
         "message-mcq-11",
         "message-mcq-13",
         "message-mcq-10",
         "message-mcq-14",
         "message-mcq-09"
       ],
-      "explanation": "本句的「message of the story」指「主旨；寓意」。",
+      "explanation": "本句的「message of the story」指「作品希望觀眾理解的主要思想、價值或寓意」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "message of the story"
       ],
       "optionReasons": {
-        "message-mcq-12": "本句指「主旨；寓意」。",
+        "message-pdf-001": "本句指「作品希望觀眾理解的主要思想、價值或寓意」。",
         "message-mcq-11": "「即時通訊」與本句語境不同。",
         "message-mcq-13": "「隱含信息」與本句語境不同。",
         "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
         "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
         "message-mcq-09": "「傳訊息給某人」與本句語境不同。"
       },
-      "correctOption": "message-mcq-12"
+      "correctOption": "message-pdf-001"
     },
     {
       "id": "message-13-1",
-      "sense": "message-mcq-12",
+      "sense": "message-pdf-001",
       "en": "The film has a strong environmental message.",
       "zh": "這部電影帶有很強的環保主旨。",
       "masked": "The film has a strong environmental ____.",
       "options": [
-        "message-mcq-12",
+        "message-pdf-001",
         "message-mcq-11",
         "message-mcq-13",
         "message-mcq-10",
         "message-mcq-14",
         "message-mcq-09"
       ],
-      "explanation": "本句的「message」指「主旨；寓意」。",
+      "explanation": "本句的「message」指「作品希望觀眾理解的主要思想、價值或寓意」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "message"
       ],
       "optionReasons": {
-        "message-mcq-12": "本句指「主旨；寓意」。",
+        "message-pdf-001": "本句指「作品希望觀眾理解的主要思想、價值或寓意」。",
         "message-mcq-11": "「即時通訊」與本句語境不同。",
         "message-mcq-13": "「隱含信息」與本句語境不同。",
         "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
         "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
         "message-mcq-09": "「傳訊息給某人」與本句語境不同。"
       },
-      "correctOption": "message-mcq-12"
+      "correctOption": "message-pdf-001"
     },
     {
       "id": "message-14-0",

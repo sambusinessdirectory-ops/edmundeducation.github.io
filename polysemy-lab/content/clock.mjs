@@ -326,16 +326,6 @@ export default {
           "Don't forget to clock out.",
           "別忘了打卡下班。",
           "下班打卡"
-        ],
-        [
-          "He clocked on at nine.",
-          "他九時打卡上班。",
-          "下班打卡"
-        ],
-        [
-          "Workers clock off at five.",
-          "工人五時打卡下班。",
-          "下班打卡"
         ]
       ],
       "options": [],
@@ -620,6 +610,28 @@ export default {
           "He seemed to be running down the clock instead of making a decision.",
           "他似乎只是在拖時間等限時結束，而不是作決定。",
           "消耗剩餘時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "clock-pdf-001",
+      "title": "BrE: 記錄開始／結束工作的時間",
+      "form": "18. clock on / clock off — 上班／下班打卡",
+      "en": "18. clock on / clock off — 上班／下班打卡",
+      "zh": "BrE: 記錄開始／結束工作的時間",
+      "note": "原始 PDF 第 18 節：BrE: 記錄開始／結束工作的時間",
+      "examples": [
+        [
+          "He clocked on at nine.",
+          "他九時打卡上班。",
+          "BrE: 記錄開始／結束工作的時間"
+        ],
+        [
+          "Workers clock off at five.",
+          "工人五時打卡下班。",
+          "BrE: 記錄開始／結束工作的時間"
         ]
       ],
       "options": [],
@@ -1649,63 +1661,63 @@ export default {
     },
     {
       "id": "clock-18-0",
-      "sense": "clock-mcq-13",
+      "sense": "clock-pdf-001",
       "en": "He clocked on at nine.",
       "zh": "他九時打卡上班。",
       "masked": "He ____ at nine.",
       "options": [
-        "clock-mcq-13",
+        "clock-pdf-001",
         "clock-mcq-12",
         "clock-mcq-14",
         "clock-mcq-11",
         "clock-mcq-15",
         "clock-mcq-10"
       ],
-      "explanation": "本句的「clocked on」指「下班打卡」。",
+      "explanation": "本句的「clocked on」指「BrE: 記錄開始／結束工作的時間」。",
       "sentenceIndex": 36,
       "sourcePractice": 1,
       "targets": [
         "clocked on"
       ],
       "optionReasons": {
-        "clock-mcq-13": "本句指「下班打卡」。",
+        "clock-pdf-001": "本句指「BrE: 記錄開始／結束工作的時間」。",
         "clock-mcq-12": "「上班打卡」與本句語境不同。",
         "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
         "clock-mcq-11": "「累積」與本句語境不同。",
         "clock-mcq-15": "「打某人」與本句語境不同。",
         "clock-mcq-10": "「測得 X 速度」與本句語境不同。"
       },
-      "correctOption": "clock-mcq-13"
+      "correctOption": "clock-pdf-001"
     },
     {
       "id": "clock-18-1",
-      "sense": "clock-mcq-13",
+      "sense": "clock-pdf-001",
       "en": "Workers clock off at five.",
       "zh": "工人五時打卡下班。",
       "masked": "Workers ____ at five.",
       "options": [
-        "clock-mcq-13",
+        "clock-pdf-001",
         "clock-mcq-12",
         "clock-mcq-14",
         "clock-mcq-11",
         "clock-mcq-15",
         "clock-mcq-10"
       ],
-      "explanation": "本句的「clock off」指「下班打卡」。",
+      "explanation": "本句的「clock off」指「BrE: 記錄開始／結束工作的時間」。",
       "sentenceIndex": 37,
       "sourcePractice": 2,
       "targets": [
         "clock off"
       ],
       "optionReasons": {
-        "clock-mcq-13": "本句指「下班打卡」。",
+        "clock-pdf-001": "本句指「BrE: 記錄開始／結束工作的時間」。",
         "clock-mcq-12": "「上班打卡」與本句語境不同。",
         "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
         "clock-mcq-11": "「累積」與本句語境不同。",
         "clock-mcq-15": "「打某人」與本句語境不同。",
         "clock-mcq-10": "「測得 X 速度」與本句語境不同。"
       },
-      "correctOption": "clock-mcq-13"
+      "correctOption": "clock-pdf-001"
     },
     {
       "id": "clock-19-0",

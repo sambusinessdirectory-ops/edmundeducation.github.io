@@ -313,16 +313,6 @@ export default {
           "The role includes several administrative duties.",
           "這個職位包括多項行政職務。",
           "與組織、程序、文件、協調及日常管理有關的"
-        ],
-        [
-          "The delay was caused by an administrative error.",
-          "延誤是由一個行政程序上的錯誤造成的。",
-          "與組織、程序、文件、協調及日常管理有關的"
-        ],
-        [
-          "The application was rejected for administrative reasons.",
-          "申請因行政程序方面的原因被拒絕。",
-          "與組織、程序、文件、協調及日常管理有關的"
         ]
       ],
       "options": [],
@@ -435,6 +425,28 @@ export default {
       "zh": "因程序、文件或規管要求而產生的行政工作負擔",
       "note": "來源詞義：因程序、文件或規管要求而產生的行政工作負擔",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "administrator-pdf-001",
+      "title": "與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容",
+      "form": "15. administrative — procedural rather than substantive — 行政程序上的",
+      "en": "15. administrative — procedural rather than substantive — 行政程序上的",
+      "zh": "與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容",
+      "note": "原始 PDF 第 15 節：與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容",
+      "examples": [
+        [
+          "The delay was caused by an administrative error.",
+          "延誤是由一個行政程序上的錯誤造成的。",
+          "與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容"
+        ],
+        [
+          "The application was rejected for administrative reasons.",
+          "申請因行政程序方面的原因被拒絕。",
+          "與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -1312,63 +1324,63 @@ export default {
     },
     {
       "id": "administrator-15-0",
-      "sense": "administrator-mcq-14",
+      "sense": "administrator-pdf-001",
       "en": "The delay was caused by an administrative error.",
       "zh": "延誤是由一個行政程序上的錯誤造成的。",
       "masked": "The delay was caused by an ____ error.",
       "options": [
-        "administrator-mcq-14",
+        "administrator-pdf-001",
         "administrator-mcq-13",
         "administrator-mcq-15",
         "administrator-mcq-12",
         "administrator-mcq-16",
         "administrator-mcq-11"
       ],
-      "explanation": "本句的「administrative」指「與組織、程序、文件、協調及日常管理有關的」。",
+      "explanation": "本句的「administrative」指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "administrative"
       ],
       "optionReasons": {
-        "administrator-mcq-14": "本句指「與組織、程序、文件、協調及日常管理有關的」。",
+        "administrator-pdf-001": "本句指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
         "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
         "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
         "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
         "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
         "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。"
       },
-      "correctOption": "administrator-mcq-14"
+      "correctOption": "administrator-pdf-001"
     },
     {
       "id": "administrator-15-1",
-      "sense": "administrator-mcq-14",
+      "sense": "administrator-pdf-001",
       "en": "The application was rejected for administrative reasons.",
       "zh": "申請因行政程序方面的原因被拒絕。",
       "masked": "The application was rejected for ____ reasons.",
       "options": [
-        "administrator-mcq-14",
+        "administrator-pdf-001",
         "administrator-mcq-13",
         "administrator-mcq-15",
         "administrator-mcq-12",
         "administrator-mcq-16",
         "administrator-mcq-11"
       ],
-      "explanation": "本句的「administrative」指「與組織、程序、文件、協調及日常管理有關的」。",
+      "explanation": "本句的「administrative」指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "administrative"
       ],
       "optionReasons": {
-        "administrator-mcq-14": "本句指「與組織、程序、文件、協調及日常管理有關的」。",
+        "administrator-pdf-001": "本句指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
         "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
         "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
         "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
         "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
         "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。"
       },
-      "correctOption": "administrator-mcq-14"
+      "correctOption": "administrator-pdf-001"
     },
     {
       "id": "administrator-16-0",

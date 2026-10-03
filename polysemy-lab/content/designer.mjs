@@ -313,18 +313,7 @@ export default {
       "en": "design for X",
       "zh": "為 X 設計",
       "note": "來源詞義：為 X 設計",
-      "examples": [
-        [
-          "The chair was designed for children.",
-          "這張椅子是為兒童設計的。",
-          "為 X 設計"
-        ],
-        [
-          "They designed the app for older users.",
-          "他們為年長用戶設計了這個應用程式。",
-          "為 X 設計"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -433,6 +422,28 @@ export default {
           "The product needs a complete redesign.",
           "這個產品需要徹底重新設計。",
           "重新設計"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "designer-pdf-001",
+      "title": "按特定人物、用途或需要來設計某物",
+      "form": "15. design something for someone / a purpose — 為某人／用途設計",
+      "en": "15. design something for someone / a purpose — 為某人／用途設計",
+      "zh": "按特定人物、用途或需要來設計某物",
+      "note": "原始 PDF 第 15 節：按特定人物、用途或需要來設計某物",
+      "examples": [
+        [
+          "The chair was designed for children.",
+          "這張椅子是為兒童設計的。",
+          "按特定人物、用途或需要來設計某物"
+        ],
+        [
+          "They designed the app for older users.",
+          "他們為年長用戶設計了這個應用程式。",
+          "按特定人物、用途或需要來設計某物"
         ]
       ],
       "options": [],
@@ -1252,63 +1263,63 @@ export default {
     },
     {
       "id": "designer-15-0",
-      "sense": "designer-mcq-15",
+      "sense": "designer-pdf-001",
       "en": "The chair was designed for children.",
       "zh": "這張椅子是為兒童設計的。",
       "masked": "The chair was ____.",
       "options": [
-        "designer-mcq-15",
+        "designer-pdf-001",
         "designer-mcq-14",
         "designer-mcq-16",
         "designer-mcq-13",
         "designer-mcq-17",
         "designer-mcq-12"
       ],
-      "explanation": "本句的「designed for children」指「為 X 設計」。",
+      "explanation": "本句的「designed for children」指「按特定人物、用途或需要來設計某物」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "designed for children"
       ],
       "optionReasons": {
-        "designer-mcq-15": "本句指「為 X 設計」。",
+        "designer-pdf-001": "本句指「按特定人物、用途或需要來設計某物」。",
         "designer-mcq-14": "「設計」與本句語境不同。",
         "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
         "designer-mcq-13": "「設計方案」與本句語境不同。",
         "designer-mcq-17": "「故意地」與本句語境不同。",
         "designer-mcq-12": "「圖案」與本句語境不同。"
       },
-      "correctOption": "designer-mcq-15"
+      "correctOption": "designer-pdf-001"
     },
     {
       "id": "designer-15-1",
-      "sense": "designer-mcq-15",
+      "sense": "designer-pdf-001",
       "en": "They designed the app for older users.",
       "zh": "他們為年長用戶設計了這個應用程式。",
       "masked": "They ____.",
       "options": [
-        "designer-mcq-15",
+        "designer-pdf-001",
         "designer-mcq-14",
         "designer-mcq-16",
         "designer-mcq-13",
         "designer-mcq-17",
         "designer-mcq-12"
       ],
-      "explanation": "本句的「designed the app for older users」指「為 X 設計」。",
+      "explanation": "本句的「designed the app for older users」指「按特定人物、用途或需要來設計某物」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "designed the app for older users"
       ],
       "optionReasons": {
-        "designer-mcq-15": "本句指「為 X 設計」。",
+        "designer-pdf-001": "本句指「按特定人物、用途或需要來設計某物」。",
         "designer-mcq-14": "「設計」與本句語境不同。",
         "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
         "designer-mcq-13": "「設計方案」與本句語境不同。",
         "designer-mcq-17": "「故意地」與本句語境不同。",
         "designer-mcq-12": "「圖案」與本句語境不同。"
       },
-      "correctOption": "designer-mcq-15"
+      "correctOption": "designer-pdf-001"
     },
     {
       "id": "designer-16-0",

@@ -171,16 +171,6 @@ export default {
       "note": "來源詞義：情緒激烈並充滿敵意、怨恨的爭論",
       "examples": [
         [
-          "They had a bitter argument.",
-          "他們發生了一場激烈的爭吵。",
-          "情緒激烈並充滿敵意、怨恨的爭論"
-        ],
-        [
-          "The issue caused a bitter dispute.",
-          "這個問題引起了激烈而充滿敵意的爭議。",
-          "情緒激烈並充滿敵意、怨恨的爭論"
-        ],
-        [
           "A bitter dispute developed between the two groups.",
           "兩個群體之間爆發了激烈的爭議。",
           "情緒激烈並充滿敵意、怨恨的爭論"
@@ -515,6 +505,28 @@ export default {
           "The dispute left lasting bitterness.",
           "爭議留下了長久的怨恨和敵意。",
           "雙方因過去衝突而留下的強烈不滿／敵意"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bitter-pdf-001",
+      "title": "衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨",
+      "form": "9. bitter = involving intense hostility（激烈敵對的） — 激烈的；充滿敵意的",
+      "en": "9. bitter = involving intense hostility（激烈敵對的） — 激烈的；充滿敵意的",
+      "zh": "衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨",
+      "note": "原始 PDF 第 9 節：衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨",
+      "examples": [
+        [
+          "They had a bitter argument.",
+          "他們發生了一場激烈的爭吵。",
+          "衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨"
+        ],
+        [
+          "The issue caused a bitter dispute.",
+          "這個問題引起了激烈而充滿敵意的爭議。",
+          "衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨"
         ]
       ],
       "options": [],
@@ -1034,63 +1046,63 @@ export default {
     },
     {
       "id": "bitter-09-0",
-      "sense": "bitter-mcq-07",
+      "sense": "bitter-pdf-001",
       "en": "They had a bitter argument.",
       "zh": "他們發生了一場激烈的爭吵。",
       "masked": "They had a ____.",
       "options": [
-        "bitter-mcq-07",
+        "bitter-pdf-001",
         "bitter-mcq-06",
         "bitter-mcq-08",
         "bitter-mcq-05",
         "bitter-mcq-09",
         "bitter-mcq-04"
       ],
-      "explanation": "本句的「bitter argument」指「情緒激烈並充滿敵意、怨恨的爭論」。",
+      "explanation": "本句的「bitter argument」指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "bitter argument"
       ],
       "optionReasons": {
-        "bitter-mcq-07": "本句指「情緒激烈並充滿敵意、怨恨的爭論」。",
+        "bitter-pdf-001": "本句指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
         "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
         "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
         "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
         "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
         "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。"
       },
-      "correctOption": "bitter-mcq-07"
+      "correctOption": "bitter-pdf-001"
     },
     {
       "id": "bitter-09-1",
-      "sense": "bitter-mcq-07",
+      "sense": "bitter-pdf-001",
       "en": "The issue caused a bitter dispute.",
       "zh": "這個問題引起了激烈而充滿敵意的爭議。",
       "masked": "The issue caused a ____ dispute.",
       "options": [
-        "bitter-mcq-07",
+        "bitter-pdf-001",
         "bitter-mcq-06",
         "bitter-mcq-08",
         "bitter-mcq-05",
         "bitter-mcq-09",
         "bitter-mcq-04"
       ],
-      "explanation": "本句的「bitter」指「情緒激烈並充滿敵意、怨恨的爭論」。",
+      "explanation": "本句的「bitter」指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-07": "本句指「情緒激烈並充滿敵意、怨恨的爭論」。",
+        "bitter-pdf-001": "本句指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
         "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
         "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
         "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
         "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
         "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。"
       },
-      "correctOption": "bitter-mcq-07"
+      "correctOption": "bitter-pdf-001"
     },
     {
       "id": "bitter-10-0",

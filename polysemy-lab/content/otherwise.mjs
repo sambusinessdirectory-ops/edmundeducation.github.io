@@ -12,23 +12,7 @@ export default {
       "en": "otherwise (consequence)",
       "zh": "否則；不然",
       "note": "來源詞義：否則；不然",
-      "examples": [
-        [
-          "It captured small moments that might otherwise have slipped through the cracks.",
-          "它記錄了一些否則可能會被遺忘的小片段。",
-          "否則；不然"
-        ],
-        [
-          "Leave now; otherwise, you'll miss the train.",
-          "現在就走，否則你會錯過火車。",
-          "否則；不然"
-        ],
-        [
-          "Wear a coat. Otherwise, you'll get cold.",
-          "穿上外套，不然你會冷。",
-          "否則；不然"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -61,18 +45,7 @@ export default {
       "en": "otherwise have done",
       "zh": "否則本來會……",
       "note": "來源詞義：否則本來會……",
-      "examples": [
-        [
-          "The photos preserved memories that might otherwise have faded.",
-          "照片保存了那些否則可能早已淡去的回憶。",
-          "否則本來會……"
-        ],
-        [
-          "The warning prevented an accident that could otherwise have happened.",
-          "那個警告避免了一場否則可能已經發生的意外。",
-          "否則本來會……"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -387,98 +360,147 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "otherwise-pdf-001",
+      "title": "如果前面的事情沒有發生或沒有照做，就會出現另一個結果",
+      "form": "1. otherwise = if not / if that does not happen — 否則；不然",
+      "en": "1. otherwise = if not / if that does not happen — 否則；不然",
+      "zh": "如果前面的事情沒有發生或沒有照做，就會出現另一個結果",
+      "note": "原始 PDF 第 1 節：如果前面的事情沒有發生或沒有照做，就會出現另一個結果",
+      "examples": [
+        [
+          "It captured small moments that might otherwise have slipped through the cracks.",
+          "它記錄了一些否則可能會被遺忘的小片段。",
+          "如果前面的事情沒有發生或沒有照做，就會出現另一個結果"
+        ],
+        [
+          "Leave now; otherwise, you'll miss the train.",
+          "現在就走，否則你會錯過火車。",
+          "如果前面的事情沒有發生或沒有照做，就會出現另一個結果"
+        ],
+        [
+          "Wear a coat. Otherwise, you'll get cold.",
+          "穿上外套，不然你會冷。",
+          "如果前面的事情沒有發生或沒有照做，就會出現另一個結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "otherwise-pdf-002",
+      "title": "表示在另一種假設情況下，本來可能／會發生的過去結果",
+      "form": "3. otherwise have + past participle — 否則本來會……",
+      "en": "3. otherwise have + past participle — 否則本來會……",
+      "zh": "表示在另一種假設情況下，本來可能／會發生的過去結果",
+      "note": "原始 PDF 第 3 節：表示在另一種假設情況下，本來可能／會發生的過去結果",
+      "examples": [
+        [
+          "The photos preserved memories that might otherwise have faded.",
+          "照片保存了那些否則可能早已淡去的回憶。",
+          "表示在另一種假設情況下，本來可能／會發生的過去結果"
+        ],
+        [
+          "The warning prevented an accident that could otherwise have happened.",
+          "那個警告避免了一場否則可能已經發生的意外。",
+          "表示在另一種假設情況下，本來可能／會發生的過去結果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "otherwise-01-0",
-      "sense": "otherwise-mcq-01",
+      "sense": "otherwise-pdf-001",
       "en": "It captured small moments that might otherwise have slipped through the cracks.",
       "zh": "它記錄了一些否則可能會被遺忘的小片段。",
       "masked": "It captured small moments that might ____ have slipped through the cracks.",
       "options": [
-        "otherwise-mcq-01",
+        "otherwise-pdf-001",
         "otherwise-mcq-02",
         "otherwise-mcq-03",
         "otherwise-mcq-04",
         "otherwise-mcq-05",
         "otherwise-mcq-06"
       ],
-      "explanation": "本句的「otherwise」指「否則；不然」。",
+      "explanation": "本句的「otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-01": "本句指「否則；不然」。",
+        "otherwise-pdf-001": "本句指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
         "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
         "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
         "otherwise-mcq-04": "「其他方面」與本句語境不同。",
         "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
         "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
       },
-      "correctOption": "otherwise-mcq-01"
+      "correctOption": "otherwise-pdf-001"
     },
     {
       "id": "otherwise-01-1",
-      "sense": "otherwise-mcq-01",
+      "sense": "otherwise-pdf-001",
       "en": "Leave now; otherwise, you'll miss the train.",
       "zh": "現在就走，否則你會錯過火車。",
       "masked": "Leave now; ____, you'll miss the train.",
       "options": [
-        "otherwise-mcq-01",
+        "otherwise-pdf-001",
         "otherwise-mcq-02",
         "otherwise-mcq-03",
         "otherwise-mcq-04",
         "otherwise-mcq-05",
         "otherwise-mcq-06"
       ],
-      "explanation": "本句的「otherwise」指「否則；不然」。",
+      "explanation": "本句的「otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-01": "本句指「否則；不然」。",
+        "otherwise-pdf-001": "本句指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
         "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
         "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
         "otherwise-mcq-04": "「其他方面」與本句語境不同。",
         "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
         "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
       },
-      "correctOption": "otherwise-mcq-01"
+      "correctOption": "otherwise-pdf-001"
     },
     {
       "id": "otherwise-01-2",
-      "sense": "otherwise-mcq-01",
+      "sense": "otherwise-pdf-001",
       "en": "Wear a coat. Otherwise, you'll get cold.",
       "zh": "穿上外套，不然你會冷。",
       "masked": "Wear a coat. ____, you'll get cold.",
       "options": [
-        "otherwise-mcq-01",
+        "otherwise-pdf-001",
         "otherwise-mcq-02",
         "otherwise-mcq-03",
         "otherwise-mcq-04",
         "otherwise-mcq-05",
         "otherwise-mcq-06"
       ],
-      "explanation": "本句的「Otherwise」指「否則；不然」。",
+      "explanation": "本句的「Otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "Otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-01": "本句指「否則；不然」。",
+        "otherwise-pdf-001": "本句指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
         "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
         "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
         "otherwise-mcq-04": "「其他方面」與本句語境不同。",
         "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
         "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
       },
-      "correctOption": "otherwise-mcq-01"
+      "correctOption": "otherwise-pdf-001"
     },
     {
       "id": "otherwise-02-0",
@@ -542,63 +564,63 @@ export default {
     },
     {
       "id": "otherwise-03-0",
-      "sense": "otherwise-mcq-03",
+      "sense": "otherwise-pdf-002",
       "en": "The photos preserved memories that might otherwise have faded.",
       "zh": "照片保存了那些否則可能早已淡去的回憶。",
       "masked": "The photos preserved memories that might ____.",
       "options": [
-        "otherwise-mcq-03",
+        "otherwise-pdf-002",
         "otherwise-mcq-02",
         "otherwise-mcq-04",
         "otherwise-mcq-01",
         "otherwise-mcq-05",
         "otherwise-mcq-06"
       ],
-      "explanation": "本句的「otherwise have faded」指「否則本來會……」。",
+      "explanation": "本句的「otherwise have faded」指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
       "sentenceIndex": 5,
       "sourcePractice": 1,
       "targets": [
         "otherwise have faded"
       ],
       "optionReasons": {
-        "otherwise-mcq-03": "本句指「否則本來會……」。",
+        "otherwise-pdf-002": "本句指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
         "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
         "otherwise-mcq-04": "「其他方面」與本句語境不同。",
         "otherwise-mcq-01": "「否則；不然」與本句語境不同。",
         "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
         "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
       },
-      "correctOption": "otherwise-mcq-03"
+      "correctOption": "otherwise-pdf-002"
     },
     {
       "id": "otherwise-03-1",
-      "sense": "otherwise-mcq-03",
+      "sense": "otherwise-pdf-002",
       "en": "The warning prevented an accident that could otherwise have happened.",
       "zh": "那個警告避免了一場否則可能已經發生的意外。",
       "masked": "The warning prevented an accident that could ____.",
       "options": [
-        "otherwise-mcq-03",
+        "otherwise-pdf-002",
         "otherwise-mcq-02",
         "otherwise-mcq-04",
         "otherwise-mcq-01",
         "otherwise-mcq-05",
         "otherwise-mcq-06"
       ],
-      "explanation": "本句的「otherwise have happened」指「否則本來會……」。",
+      "explanation": "本句的「otherwise have happened」指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "otherwise have happened"
       ],
       "optionReasons": {
-        "otherwise-mcq-03": "本句指「否則本來會……」。",
+        "otherwise-pdf-002": "本句指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
         "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
         "otherwise-mcq-04": "「其他方面」與本句語境不同。",
         "otherwise-mcq-01": "「否則；不然」與本句語境不同。",
         "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
         "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
       },
-      "correctOption": "otherwise-mcq-03"
+      "correctOption": "otherwise-pdf-002"
     },
     {
       "id": "otherwise-04-0",

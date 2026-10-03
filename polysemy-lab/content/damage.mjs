@@ -12,23 +12,7 @@ export default {
       "en": "damage (noun)",
       "zh": "損害；破壞",
       "note": "來源詞義：損害；破壞",
-      "examples": [
-        [
-          "The storm caused serious damage to the building.",
-          "暴風雨對大樓造成嚴重損壞。",
-          "損害；破壞"
-        ],
-        [
-          "The phone showed no visible damage.",
-          "手機沒有明顯損壞。",
-          "損害；破壞"
-        ],
-        [
-          "Engineers inspected the damage.",
-          "工程師檢查了受損情況。",
-          "損害；破壞"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -425,16 +409,6 @@ export default {
       "note": "來源詞義：腦部損傷",
       "examples": [
         [
-          "The accident caused nerve damage.",
-          "事故造成神經損傷。",
-          "腦部損傷"
-        ],
-        [
-          "Long-term exposure can cause tissue damage.",
-          "長期暴露可能造成組織損傷。",
-          "腦部損傷"
-        ],
-        [
           "The injury caused serious brain damage.",
           "傷勢造成嚴重腦部損傷。",
           "腦部損傷"
@@ -815,23 +789,7 @@ export default {
       "en": "damaging",
       "zh": "有害的；破壞性的",
       "note": "來源詞義：有害的；破壞性的",
-      "examples": [
-        [
-          "Such conflict is professionally damaging.",
-          "這種衝突在專業／工作層面上是有害的。",
-          "有害的；破壞性的"
-        ],
-        [
-          "Constant blame is damaging to teamwork.",
-          "不斷互相指責對團隊合作具有破壞性。",
-          "有害的；破壞性的"
-        ],
-        [
-          "Poor communication can be damaging to trust.",
-          "溝通不良可能損害信任。",
-          "有害的；破壞性的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1296,16 +1254,6 @@ export default {
       "note": "來源詞義：附帶損害",
       "examples": [
         [
-          "The operation caused significant collateral damage.",
-          "行動造成重大附帶損害。",
-          "附帶損害"
-        ],
-        [
-          "Measures should be designed to minimize collateral damage.",
-          "措施應設計成盡量減少附帶影響／損害。",
-          "附帶損害"
-        ],
-        [
           "Staff morale became collateral damage in the dispute between managers.",
           "員工士氣成為經理爭議中的附帶犧牲品／附帶損害。",
           "附帶損害"
@@ -1327,16 +1275,6 @@ export default {
       "zh": "損害賠償金",
       "note": "來源詞義：損害賠償金",
       "examples": [
-        [
-          "The court awarded her damages.",
-          "法院判給她損害賠償金。",
-          "損害賠償金"
-        ],
-        [
-          "The company was ordered to pay damages.",
-          "公司被命令支付賠償金。",
-          "損害賠償金"
-        ],
         [
           "The company is seeking damages for breach of contract.",
           "公司正因違約追討損害賠償。",
@@ -1549,18 +1487,7 @@ export default {
       "en": "damage (gaming)",
       "zh": "傷害值",
       "note": "來源詞義：傷害值",
-      "examples": [
-        [
-          "This weapon deals high damage.",
-          "這件武器的傷害值很高。",
-          "傷害值"
-        ],
-        [
-          "The attack does more damage at close range.",
-          "這項攻擊在近距離造成更高傷害。",
-          "傷害值"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1671,98 +1598,240 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "damage-pdf-001",
+      "title": "令物件、建築、設備等變壞、變弱或不能正常使用的損害",
+      "form": "1. damage = physical harm that makes something worse, weaker, or less useful — 損壞；破壞",
+      "en": "1. damage = physical harm that makes something worse, weaker, or less useful — 損壞；破壞",
+      "zh": "令物件、建築、設備等變壞、變弱或不能正常使用的損害",
+      "note": "原始 PDF 第 1 節：令物件、建築、設備等變壞、變弱或不能正常使用的損害",
+      "examples": [
+        [
+          "The storm caused serious damage to the building.",
+          "暴風雨對大樓造成嚴重損壞。",
+          "令物件、建築、設備等變壞、變弱或不能正常使用的損害"
+        ],
+        [
+          "The phone showed no visible damage.",
+          "手機沒有明顯損壞。",
+          "令物件、建築、設備等變壞、變弱或不能正常使用的損害"
+        ],
+        [
+          "Engineers inspected the damage.",
+          "工程師檢查了受損情況。",
+          "令物件、建築、設備等變壞、變弱或不能正常使用的損害"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-pdf-002",
+      "title": "對身體器官、細胞、神經或組織造成的傷害",
+      "form": "19. damage = injury to body tissue or organs — 身體損傷",
+      "en": "19. damage = injury to body tissue or organs — 身體損傷",
+      "zh": "對身體器官、細胞、神經或組織造成的傷害",
+      "note": "原始 PDF 第 19 節：對身體器官、細胞、神經或組織造成的傷害",
+      "examples": [
+        [
+          "The accident caused nerve damage.",
+          "事故造成神經損傷。",
+          "對身體器官、細胞、神經或組織造成的傷害"
+        ],
+        [
+          "Long-term exposure can cause tissue damage.",
+          "長期暴露可能造成組織損傷。",
+          "對身體器官、細胞、神經或組織造成的傷害"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-pdf-003",
+      "title": "會令某人、某事物或某種關係變差、變弱或受損的",
+      "form": "40. damaging = harmful; likely to cause negative consequences — 有害的；有破壞性的",
+      "en": "40. damaging = harmful; likely to cause negative consequences — 有害的；有破壞性的",
+      "zh": "會令某人、某事物或某種關係變差、變弱或受損的",
+      "note": "原始 PDF 第 40 節：會令某人、某事物或某種關係變差、變弱或受損的",
+      "examples": [
+        [
+          "Such conflict is professionally damaging.",
+          "這種衝突在專業／工作層面上是有害的。",
+          "會令某人、某事物或某種關係變差、變弱或受損的"
+        ],
+        [
+          "Constant blame is damaging to teamwork.",
+          "不斷互相指責對團隊合作具有破壞性。",
+          "會令某人、某事物或某種關係變差、變弱或受損的"
+        ],
+        [
+          "Poor communication can be damaging to trust.",
+          "溝通不良可能損害信任。",
+          "會令某人、某事物或某種關係變差、變弱或受損的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-pdf-004",
+      "title": "在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞",
+      "form": "67. collateral damage = unintended harm caused alongside an intended action — 附帶損害",
+      "en": "67. collateral damage = unintended harm caused alongside an intended action — 附帶損害",
+      "zh": "在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞",
+      "note": "原始 PDF 第 67 節：在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞",
+      "examples": [
+        [
+          "The operation caused significant collateral damage.",
+          "行動造成重大附帶損害。",
+          "在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞"
+        ],
+        [
+          "Measures should be designed to minimize collateral damage.",
+          "措施應設計成盡量減少附帶影響／損害。",
+          "在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-pdf-005",
+      "title": "法院或法律程序因某人受到損害而判給／要求支付的金錢賠償",
+      "form": "69. damages = money awarded as compensation for legal harm — 損害賠償金",
+      "en": "69. damages = money awarded as compensation for legal harm — 損害賠償金",
+      "zh": "法院或法律程序因某人受到損害而判給／要求支付的金錢賠償",
+      "note": "原始 PDF 第 69 節：法院或法律程序因某人受到損害而判給／要求支付的金錢賠償",
+      "examples": [
+        [
+          "The court awarded her damages.",
+          "法院判給她損害賠償金。",
+          "法院或法律程序因某人受到損害而判給／要求支付的金錢賠償"
+        ],
+        [
+          "The company was ordered to pay damages.",
+          "公司被命令支付賠償金。",
+          "法院或法律程序因某人受到損害而判給／要求支付的金錢賠償"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-pdf-006",
+      "title": "電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值",
+      "form": "81. damage = amount of harm inflicted in a game — 傷害值",
+      "en": "81. damage = amount of harm inflicted in a game — 傷害值",
+      "zh": "電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值",
+      "note": "原始 PDF 第 81 節：電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值",
+      "examples": [
+        [
+          "This weapon deals high damage.",
+          "這件武器的傷害值很高。",
+          "電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值"
+        ],
+        [
+          "The attack does more damage at close range.",
+          "這項攻擊在近距離造成更高傷害。",
+          "電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "damage-01-0",
-      "sense": "damage-mcq-01",
+      "sense": "damage-pdf-001",
       "en": "The storm caused serious damage to the building.",
       "zh": "暴風雨對大樓造成嚴重損壞。",
       "masked": "The storm caused serious ____ to the building.",
       "options": [
-        "damage-mcq-01",
+        "damage-pdf-001",
         "damage-mcq-02",
         "damage-mcq-03",
         "damage-mcq-04",
         "damage-mcq-06",
         "damage-mcq-07"
       ],
-      "explanation": "本句的「damage」指「損害；破壞」。",
+      "explanation": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-01": "本句指「損害；破壞」。",
+        "damage-pdf-001": "本句指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
         "damage-mcq-02": "「造成損害」與本句語境不同。",
         "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
         "damage-mcq-04": "「遭受損害」與本句語境不同。",
         "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
         "damage-mcq-07": "「輕微損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-01"
+      "correctOption": "damage-pdf-001"
     },
     {
       "id": "damage-01-1",
-      "sense": "damage-mcq-01",
+      "sense": "damage-pdf-001",
       "en": "The phone showed no visible damage.",
       "zh": "手機沒有明顯損壞。",
       "masked": "The phone showed no visible ____.",
       "options": [
-        "damage-mcq-01",
+        "damage-pdf-001",
         "damage-mcq-02",
         "damage-mcq-03",
         "damage-mcq-04",
         "damage-mcq-06",
         "damage-mcq-07"
       ],
-      "explanation": "本句的「damage」指「損害；破壞」。",
+      "explanation": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-01": "本句指「損害；破壞」。",
+        "damage-pdf-001": "本句指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
         "damage-mcq-02": "「造成損害」與本句語境不同。",
         "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
         "damage-mcq-04": "「遭受損害」與本句語境不同。",
         "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
         "damage-mcq-07": "「輕微損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-01"
+      "correctOption": "damage-pdf-001"
     },
     {
       "id": "damage-01-2",
-      "sense": "damage-mcq-01",
+      "sense": "damage-pdf-001",
       "en": "Engineers inspected the damage.",
       "zh": "工程師檢查了受損情況。",
       "masked": "Engineers inspected the ____.",
       "options": [
-        "damage-mcq-01",
+        "damage-pdf-001",
         "damage-mcq-02",
         "damage-mcq-03",
         "damage-mcq-04",
         "damage-mcq-06",
         "damage-mcq-07"
       ],
-      "explanation": "本句的「damage」指「損害；破壞」。",
+      "explanation": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-01": "本句指「損害；破壞」。",
+        "damage-pdf-001": "本句指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
         "damage-mcq-02": "「造成損害」與本句語境不同。",
         "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
         "damage-mcq-04": "「遭受損害」與本句語境不同。",
         "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
         "damage-mcq-07": "「輕微損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-01"
+      "correctOption": "damage-pdf-001"
     },
     {
       "id": "damage-02-0",
@@ -2786,63 +2855,63 @@ export default {
     },
     {
       "id": "damage-19-0",
-      "sense": "damage-mcq-19",
+      "sense": "damage-pdf-002",
       "en": "The accident caused nerve damage.",
       "zh": "事故造成神經損傷。",
       "masked": "The accident caused ____.",
       "options": [
-        "damage-mcq-19",
+        "damage-pdf-002",
         "damage-mcq-18",
         "damage-mcq-20",
         "damage-mcq-17",
         "damage-mcq-21",
         "damage-mcq-16"
       ],
-      "explanation": "本句的「nerve damage」指「腦部損傷」。",
+      "explanation": "本句的「nerve damage」指「對身體器官、細胞、神經或組織造成的傷害」。",
       "sentenceIndex": 37,
       "sourcePractice": 1,
       "targets": [
         "nerve damage"
       ],
       "optionReasons": {
-        "damage-mcq-19": "本句指「腦部損傷」。",
+        "damage-pdf-002": "本句指「對身體器官、細胞、神經或組織造成的傷害」。",
         "damage-mcq-18": "「意外損壞」與本句語境不同。",
         "damage-mcq-20": "「神經損傷」與本句語境不同。",
         "damage-mcq-17": "「風災損害」與本句語境不同。",
         "damage-mcq-21": "「組織損傷」與本句語境不同。",
         "damage-mcq-16": "「火災損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-19"
+      "correctOption": "damage-pdf-002"
     },
     {
       "id": "damage-19-1",
-      "sense": "damage-mcq-19",
+      "sense": "damage-pdf-002",
       "en": "Long-term exposure can cause tissue damage.",
       "zh": "長期暴露可能造成組織損傷。",
       "masked": "Long-term exposure can cause tissue ____.",
       "options": [
-        "damage-mcq-19",
+        "damage-pdf-002",
         "damage-mcq-18",
         "damage-mcq-20",
         "damage-mcq-17",
         "damage-mcq-21",
         "damage-mcq-16"
       ],
-      "explanation": "本句的「damage」指「腦部損傷」。",
+      "explanation": "本句的「damage」指「對身體器官、細胞、神經或組織造成的傷害」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-19": "本句指「腦部損傷」。",
+        "damage-pdf-002": "本句指「對身體器官、細胞、神經或組織造成的傷害」。",
         "damage-mcq-18": "「意外損壞」與本句語境不同。",
         "damage-mcq-20": "「神經損傷」與本句語境不同。",
         "damage-mcq-17": "「風災損害」與本句語境不同。",
         "damage-mcq-21": "「組織損傷」與本句語境不同。",
         "damage-mcq-16": "「火災損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-19"
+      "correctOption": "damage-pdf-002"
     },
     {
       "id": "damage-20-0",
@@ -3986,93 +4055,93 @@ export default {
     },
     {
       "id": "damage-40-0",
-      "sense": "damage-mcq-35",
+      "sense": "damage-pdf-003",
       "en": "Such conflict is professionally damaging.",
       "zh": "這種衝突在專業／工作層面上是有害的。",
       "masked": "Such conflict is professionally ____.",
       "options": [
-        "damage-mcq-35",
+        "damage-pdf-003",
         "damage-mcq-34",
         "damage-mcq-36",
         "damage-mcq-33",
         "damage-mcq-37",
         "damage-mcq-32"
       ],
-      "explanation": "本句的「damaging」指「有害的；破壞性的」。",
+      "explanation": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
       "sentenceIndex": 79,
       "sourcePractice": 1,
       "targets": [
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-35": "本句指「有害的；破壞性的」。",
+        "damage-pdf-003": "本句指「會令某人、某事物或某種關係變差、變弱或受損的」。",
         "damage-mcq-34": "「情感傷害」與本句語境不同。",
         "damage-mcq-36": "「對 X 有害」與本句語境不同。",
         "damage-mcq-33": "「心理傷害」與本句語境不同。",
         "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
         "damage-mcq-32": "「聲譽損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-35"
+      "correctOption": "damage-pdf-003"
     },
     {
       "id": "damage-40-1",
-      "sense": "damage-mcq-35",
+      "sense": "damage-pdf-003",
       "en": "Constant blame is damaging to teamwork.",
       "zh": "不斷互相指責對團隊合作具有破壞性。",
       "masked": "Constant blame is ____ to teamwork.",
       "options": [
-        "damage-mcq-35",
+        "damage-pdf-003",
         "damage-mcq-34",
         "damage-mcq-36",
         "damage-mcq-33",
         "damage-mcq-37",
         "damage-mcq-32"
       ],
-      "explanation": "本句的「damaging」指「有害的；破壞性的」。",
+      "explanation": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
       "sentenceIndex": 80,
       "sourcePractice": 2,
       "targets": [
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-35": "本句指「有害的；破壞性的」。",
+        "damage-pdf-003": "本句指「會令某人、某事物或某種關係變差、變弱或受損的」。",
         "damage-mcq-34": "「情感傷害」與本句語境不同。",
         "damage-mcq-36": "「對 X 有害」與本句語境不同。",
         "damage-mcq-33": "「心理傷害」與本句語境不同。",
         "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
         "damage-mcq-32": "「聲譽損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-35"
+      "correctOption": "damage-pdf-003"
     },
     {
       "id": "damage-40-2",
-      "sense": "damage-mcq-35",
+      "sense": "damage-pdf-003",
       "en": "Poor communication can be damaging to trust.",
       "zh": "溝通不良可能損害信任。",
       "masked": "Poor communication can be ____ to trust.",
       "options": [
-        "damage-mcq-35",
+        "damage-pdf-003",
         "damage-mcq-34",
         "damage-mcq-36",
         "damage-mcq-33",
         "damage-mcq-37",
         "damage-mcq-32"
       ],
-      "explanation": "本句的「damaging」指「有害的；破壞性的」。",
+      "explanation": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
       "sentenceIndex": 81,
       "sourcePractice": 3,
       "targets": [
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-35": "本句指「有害的；破壞性的」。",
+        "damage-pdf-003": "本句指「會令某人、某事物或某種關係變差、變弱或受損的」。",
         "damage-mcq-34": "「情感傷害」與本句語境不同。",
         "damage-mcq-36": "「對 X 有害」與本句語境不同。",
         "damage-mcq-33": "「心理傷害」與本句語境不同。",
         "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
         "damage-mcq-32": "「聲譽損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-35"
+      "correctOption": "damage-pdf-003"
     },
     {
       "id": "damage-41-0",
@@ -5486,63 +5555,63 @@ export default {
     },
     {
       "id": "damage-67-0",
-      "sense": "damage-mcq-55",
+      "sense": "damage-pdf-004",
       "en": "The operation caused significant collateral damage.",
       "zh": "行動造成重大附帶損害。",
       "masked": "The operation caused significant ____.",
       "options": [
-        "damage-mcq-55",
+        "damage-pdf-004",
         "damage-mcq-54",
         "damage-mcq-56",
         "damage-mcq-53",
         "damage-mcq-57",
         "damage-mcq-52"
       ],
-      "explanation": "本句的「collateral damage」指「附帶損害」。",
+      "explanation": "本句的「collateral damage」指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
       "sentenceIndex": 130,
       "sourcePractice": 1,
       "targets": [
         "collateral damage"
       ],
       "optionReasons": {
-        "damage-mcq-55": "本句指「附帶損害」。",
+        "damage-pdf-004": "本句指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
         "damage-mcq-54": "「限制損害」與本句語境不同。",
         "damage-mcq-56": "「損害賠償金」與本句語境不同。",
         "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
         "damage-mcq-57": "「索取賠償」與本句語境不同。",
         "damage-mcq-52": "「評估損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-55"
+      "correctOption": "damage-pdf-004"
     },
     {
       "id": "damage-67-1",
-      "sense": "damage-mcq-55",
+      "sense": "damage-pdf-004",
       "en": "Measures should be designed to minimize collateral damage.",
       "zh": "措施應設計成盡量減少附帶影響／損害。",
       "masked": "Measures should be designed to minimize collateral ____.",
       "options": [
-        "damage-mcq-55",
+        "damage-pdf-004",
         "damage-mcq-54",
         "damage-mcq-56",
         "damage-mcq-53",
         "damage-mcq-57",
         "damage-mcq-52"
       ],
-      "explanation": "本句的「damage」指「附帶損害」。",
+      "explanation": "本句的「damage」指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
       "sentenceIndex": 131,
       "sourcePractice": 2,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-55": "本句指「附帶損害」。",
+        "damage-pdf-004": "本句指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
         "damage-mcq-54": "「限制損害」與本句語境不同。",
         "damage-mcq-56": "「損害賠償金」與本句語境不同。",
         "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
         "damage-mcq-57": "「索取賠償」與本句語境不同。",
         "damage-mcq-52": "「評估損害」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-55"
+      "correctOption": "damage-pdf-004"
     },
     {
       "id": "damage-68-0",
@@ -5606,63 +5675,63 @@ export default {
     },
     {
       "id": "damage-69-0",
-      "sense": "damage-mcq-56",
+      "sense": "damage-pdf-005",
       "en": "The court awarded her damages.",
       "zh": "法院判給她損害賠償金。",
       "masked": "The court awarded her ____.",
       "options": [
-        "damage-mcq-56",
+        "damage-pdf-005",
         "damage-mcq-55",
         "damage-mcq-57",
         "damage-mcq-54",
         "damage-mcq-58",
         "damage-mcq-53"
       ],
-      "explanation": "本句的「damages」指「損害賠償金」。",
+      "explanation": "本句的「damages」指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
       "sentenceIndex": 134,
       "sourcePractice": 1,
       "targets": [
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-56": "本句指「損害賠償金」。",
+        "damage-pdf-005": "本句指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
         "damage-mcq-55": "「附帶損害」與本句語境不同。",
         "damage-mcq-57": "「索取賠償」與本句語境不同。",
         "damage-mcq-54": "「限制損害」與本句語境不同。",
         "damage-mcq-58": "「判給賠償」與本句語境不同。",
         "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-56"
+      "correctOption": "damage-pdf-005"
     },
     {
       "id": "damage-69-1",
-      "sense": "damage-mcq-56",
+      "sense": "damage-pdf-005",
       "en": "The company was ordered to pay damages.",
       "zh": "公司被命令支付賠償金。",
       "masked": "The company was ordered to pay ____.",
       "options": [
-        "damage-mcq-56",
+        "damage-pdf-005",
         "damage-mcq-55",
         "damage-mcq-57",
         "damage-mcq-54",
         "damage-mcq-58",
         "damage-mcq-53"
       ],
-      "explanation": "本句的「damages」指「損害賠償金」。",
+      "explanation": "本句的「damages」指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
       "sentenceIndex": 135,
       "sourcePractice": 2,
       "targets": [
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-56": "本句指「損害賠償金」。",
+        "damage-pdf-005": "本句指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
         "damage-mcq-55": "「附帶損害」與本句語境不同。",
         "damage-mcq-57": "「索取賠償」與本句語境不同。",
         "damage-mcq-54": "「限制損害」與本句語境不同。",
         "damage-mcq-58": "「判給賠償」與本句語境不同。",
         "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-56"
+      "correctOption": "damage-pdf-005"
     },
     {
       "id": "damage-70-0",
@@ -6296,63 +6365,63 @@ export default {
     },
     {
       "id": "damage-81-0",
-      "sense": "damage-mcq-65",
+      "sense": "damage-pdf-006",
       "en": "This weapon deals high damage.",
       "zh": "這件武器的傷害值很高。",
       "masked": "This weapon deals high ____.",
       "options": [
-        "damage-mcq-65",
+        "damage-pdf-006",
         "damage-mcq-64",
         "damage-mcq-66",
         "damage-mcq-63",
         "damage-mcq-67",
         "damage-mcq-62"
       ],
-      "explanation": "本句的「damage」指「傷害值」。",
+      "explanation": "本句的「damage」指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
       "sentenceIndex": 157,
       "sourcePractice": 1,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-65": "本句指「傷害值」。",
+        "damage-pdf-006": "本句指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
         "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
         "damage-mcq-66": "「造成傷害」與本句語境不同。",
         "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
         "damage-mcq-67": "「受到傷害」與本句語境不同。",
         "damage-mcq-62": "「象徵性賠償」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-65"
+      "correctOption": "damage-pdf-006"
     },
     {
       "id": "damage-81-1",
-      "sense": "damage-mcq-65",
+      "sense": "damage-pdf-006",
       "en": "The attack does more damage at close range.",
       "zh": "這項攻擊在近距離造成更高傷害。",
       "masked": "The attack does more ____ at close range.",
       "options": [
-        "damage-mcq-65",
+        "damage-pdf-006",
         "damage-mcq-64",
         "damage-mcq-66",
         "damage-mcq-63",
         "damage-mcq-67",
         "damage-mcq-62"
       ],
-      "explanation": "本句的「damage」指「傷害值」。",
+      "explanation": "本句的「damage」指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
       "sentenceIndex": 158,
       "sourcePractice": 2,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-65": "本句指「傷害值」。",
+        "damage-pdf-006": "本句指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
         "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
         "damage-mcq-66": "「造成傷害」與本句語境不同。",
         "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
         "damage-mcq-67": "「受到傷害」與本句語境不同。",
         "damage-mcq-62": "「象徵性賠償」與本句語境不同。"
       },
-      "correctOption": "damage-mcq-65"
+      "correctOption": "damage-pdf-006"
     },
     {
       "id": "damage-82-0",

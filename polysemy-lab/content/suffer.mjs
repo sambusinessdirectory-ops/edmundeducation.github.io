@@ -12,23 +12,7 @@ export default {
       "en": "suffer from X",
       "zh": "受 X 困擾／影響",
       "note": "來源詞義：受 X 困擾／影響",
-      "examples": [
-        [
-          "Group work often suffers from free-riding, miscommunication and interpersonal tension.",
-          "團隊合作經常受到搭便車行為、溝通失誤和人際緊張的困擾。",
-          "受 X 困擾／影響"
-        ],
-        [
-          "The project suffered from poor communication.",
-          "項目因溝通不良而受到影響。",
-          "受 X 困擾／影響"
-        ],
-        [
-          "Many large organisations suffer from unnecessary bureaucracy.",
-          "很多大型機構都受到不必要官僚程序的困擾。",
-          "受 X 困擾／影響"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -254,18 +238,7 @@ export default {
       "en": "suffer (pain)",
       "zh": "受苦",
       "note": "來源詞義：受苦",
-      "examples": [
-        [
-          "Nobody should have to suffer unnecessarily.",
-          "沒有人應該要承受不必要的痛苦。",
-          "受苦"
-        ],
-        [
-          "She suffered greatly after the loss.",
-          "失去重要的人／事物後，她承受了巨大痛苦。",
-          "受苦"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1211,18 +1184,7 @@ export default {
       "en": "suffering",
       "zh": "痛苦；苦難",
       "note": "來源詞義：痛苦；苦難",
-      "examples": [
-        [
-          "The treatment aims to reduce suffering.",
-          "治療旨在減輕痛苦。",
-          "痛苦；苦難"
-        ],
-        [
-          "The disaster caused widespread suffering.",
-          "災難造成廣泛苦難。",
-          "痛苦；苦難"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1341,18 +1303,7 @@ export default {
       "en": "sufferer",
       "zh": "患者；受苦者",
       "note": "來源詞義：患者；受苦者",
-      "examples": [
-        [
-          "Asthma sufferers may need medication.",
-          "哮喘患者可能需要藥物。",
-          "患者；受苦者"
-        ],
-        [
-          "The service supports migraine sufferers.",
-          "這項服務支援偏頭痛患者。",
-          "患者；受苦者"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1386,16 +1337,6 @@ export default {
       "zh": "長期忍耐的",
       "note": "來源詞義：長期忍耐的",
       "examples": [
-        [
-          "His long-suffering colleagues had tolerated the behaviour for years.",
-          "他那些長期忍耐的同事多年來一直容忍他的行為。",
-          "長期忍耐的"
-        ],
-        [
-          "The long-suffering customers finally received an apology.",
-          "那些長期受困擾、一直忍耐的顧客終於收到道歉。",
-          "長期忍耐的"
-        ],
         [
           "Long-suffering employees were relieved when the system was replaced.",
           "長期忍受舊制度的員工在制度被更換後如釋重負。",
@@ -1487,98 +1428,213 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "suffer-pdf-001",
+      "title": "因 X 這個問題而導致表現、狀況、品質或效果變差",
+      "form": "1. suffer from something = be adversely affected by it — 受……困擾；受到……不良影響",
+      "en": "1. suffer from something = be adversely affected by it — 受……困擾；受到……不良影響",
+      "zh": "因 X 這個問題而導致表現、狀況、品質或效果變差",
+      "note": "原始 PDF 第 1 節：因 X 這個問題而導致表現、狀況、品質或效果變差",
+      "examples": [
+        [
+          "Group work often suffers from free-riding, miscommunication and interpersonal tension.",
+          "團隊合作經常受到搭便車行為、溝通失誤和人際緊張的困擾。",
+          "因 X 這個問題而導致表現、狀況、品質或效果變差"
+        ],
+        [
+          "The project suffered from poor communication.",
+          "項目因溝通不良而受到影響。",
+          "因 X 這個問題而導致表現、狀況、品質或效果變差"
+        ],
+        [
+          "Many large organisations suffer from unnecessary bureaucracy.",
+          "很多大型機構都受到不必要官僚程序的困擾。",
+          "因 X 這個問題而導致表現、狀況、品質或效果變差"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "suffer-pdf-002",
+      "title": "經歷身體、心理或情感上的痛苦",
+      "form": "14. suffer = experience physical or emotional pain — 受苦；遭受痛苦",
+      "en": "14. suffer = experience physical or emotional pain — 受苦；遭受痛苦",
+      "zh": "經歷身體、心理或情感上的痛苦",
+      "note": "原始 PDF 第 14 節：經歷身體、心理或情感上的痛苦",
+      "examples": [
+        [
+          "Nobody should have to suffer unnecessarily.",
+          "沒有人應該要承受不必要的痛苦。",
+          "經歷身體、心理或情感上的痛苦"
+        ],
+        [
+          "She suffered greatly after the loss.",
+          "失去重要的人／事物後，她承受了巨大痛苦。",
+          "經歷身體、心理或情感上的痛苦"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "suffer-pdf-003",
+      "title": "因疾病、傷害、失去、困境等造成的身體或心理痛苦",
+      "form": "64. suffering = physical or emotional pain — 痛苦；苦難",
+      "en": "64. suffering = physical or emotional pain — 痛苦；苦難",
+      "zh": "因疾病、傷害、失去、困境等造成的身體或心理痛苦",
+      "note": "原始 PDF 第 64 節：因疾病、傷害、失去、困境等造成的身體或心理痛苦",
+      "examples": [
+        [
+          "The treatment aims to reduce suffering.",
+          "治療旨在減輕痛苦。",
+          "因疾病、傷害、失去、困境等造成的身體或心理痛苦"
+        ],
+        [
+          "The disaster caused widespread suffering.",
+          "災難造成廣泛苦難。",
+          "因疾病、傷害、失去、困境等造成的身體或心理痛苦"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "suffer-pdf-004",
+      "title": "長期受到某疾病、症狀或問題影響的人",
+      "form": "71. sufferer = person affected by an illness/problem — 患者；受某問題困擾的人",
+      "en": "71. sufferer = person affected by an illness/problem — 患者；受某問題困擾的人",
+      "zh": "長期受到某疾病、症狀或問題影響的人",
+      "note": "原始 PDF 第 71 節：長期受到某疾病、症狀或問題影響的人",
+      "examples": [
+        [
+          "Asthma sufferers may need medication.",
+          "哮喘患者可能需要藥物。",
+          "長期受到某疾病、症狀或問題影響的人"
+        ],
+        [
+          "The service supports migraine sufferers.",
+          "這項服務支援偏頭痛患者。",
+          "長期受到某疾病、症狀或問題影響的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "suffer-pdf-005",
+      "title": "長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的",
+      "form": "74. long-suffering = patiently enduring difficulties for a long time — 長期忍耐的；忍辱負重的",
+      "en": "74. long-suffering = patiently enduring difficulties for a long time — 長期忍耐的；忍辱負重的",
+      "zh": "長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的",
+      "note": "原始 PDF 第 74 節：長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的",
+      "examples": [
+        [
+          "His long-suffering colleagues had tolerated the behaviour for years.",
+          "他那些長期忍耐的同事多年來一直容忍他的行為。",
+          "長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的"
+        ],
+        [
+          "The long-suffering customers finally received an apology.",
+          "那些長期受困擾、一直忍耐的顧客終於收到道歉。",
+          "長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "suffer-01-0",
-      "sense": "suffer-mcq-01",
+      "sense": "suffer-pdf-001",
       "en": "Group work often suffers from free-riding, miscommunication and interpersonal tension.",
       "zh": "團隊合作經常受到搭便車行為、溝通失誤和人際緊張的困擾。",
       "masked": "Group work often ____, miscommunication and interpersonal tension.",
       "options": [
-        "suffer-mcq-01",
+        "suffer-pdf-001",
         "suffer-mcq-02",
         "suffer-mcq-03",
         "suffer-mcq-04",
         "suffer-mcq-05",
         "suffer-mcq-06"
       ],
-      "explanation": "本句的「suffers from free-riding」指「受 X 困擾／影響」。",
+      "explanation": "本句的「suffers from free-riding」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "suffers from free-riding"
       ],
       "optionReasons": {
-        "suffer-mcq-01": "本句指「受 X 困擾／影響」。",
+        "suffer-pdf-001": "本句指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
         "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
         "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
         "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
         "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
         "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-01"
+      "correctOption": "suffer-pdf-001"
     },
     {
       "id": "suffer-01-1",
-      "sense": "suffer-mcq-01",
+      "sense": "suffer-pdf-001",
       "en": "The project suffered from poor communication.",
       "zh": "項目因溝通不良而受到影響。",
       "masked": "The project ____.",
       "options": [
-        "suffer-mcq-01",
+        "suffer-pdf-001",
         "suffer-mcq-02",
         "suffer-mcq-03",
         "suffer-mcq-04",
         "suffer-mcq-05",
         "suffer-mcq-06"
       ],
-      "explanation": "本句的「suffered from poor communication」指「受 X 困擾／影響」。",
+      "explanation": "本句的「suffered from poor communication」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "suffered from poor communication"
       ],
       "optionReasons": {
-        "suffer-mcq-01": "本句指「受 X 困擾／影響」。",
+        "suffer-pdf-001": "本句指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
         "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
         "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
         "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
         "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
         "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-01"
+      "correctOption": "suffer-pdf-001"
     },
     {
       "id": "suffer-01-2",
-      "sense": "suffer-mcq-01",
+      "sense": "suffer-pdf-001",
       "en": "Many large organisations suffer from unnecessary bureaucracy.",
       "zh": "很多大型機構都受到不必要官僚程序的困擾。",
       "masked": "Many large organisations ____ from unnecessary bureaucracy.",
       "options": [
-        "suffer-mcq-01",
+        "suffer-pdf-001",
         "suffer-mcq-02",
         "suffer-mcq-03",
         "suffer-mcq-04",
         "suffer-mcq-05",
         "suffer-mcq-06"
       ],
-      "explanation": "本句的「suffer」指「受 X 困擾／影響」。",
+      "explanation": "本句的「suffer」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-01": "本句指「受 X 困擾／影響」。",
+        "suffer-pdf-001": "本句指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
         "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
         "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
         "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
         "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
         "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-01"
+      "correctOption": "suffer-pdf-001"
     },
     {
       "id": "suffer-02-0",
@@ -2302,63 +2358,63 @@ export default {
     },
     {
       "id": "suffer-14-0",
-      "sense": "suffer-mcq-10",
+      "sense": "suffer-pdf-002",
       "en": "Nobody should have to suffer unnecessarily.",
       "zh": "沒有人應該要承受不必要的痛苦。",
       "masked": "Nobody should have to ____.",
       "options": [
-        "suffer-mcq-10",
+        "suffer-pdf-002",
         "suffer-mcq-09",
         "suffer-mcq-11",
         "suffer-mcq-08",
         "suffer-mcq-12",
         "suffer-mcq-07"
       ],
-      "explanation": "本句的「suffer unnecessarily」指「受苦」。",
+      "explanation": "本句的「suffer unnecessarily」指「經歷身體、心理或情感上的痛苦」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "suffer unnecessarily"
       ],
       "optionReasons": {
-        "suffer-mcq-10": "本句指「受苦」。",
+        "suffer-pdf-002": "本句指「經歷身體、心理或情感上的痛苦」。",
         "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
         "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
         "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
         "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
         "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-10"
+      "correctOption": "suffer-pdf-002"
     },
     {
       "id": "suffer-14-1",
-      "sense": "suffer-mcq-10",
+      "sense": "suffer-pdf-002",
       "en": "She suffered greatly after the loss.",
       "zh": "失去重要的人／事物後，她承受了巨大痛苦。",
       "masked": "She ____ greatly after the loss.",
       "options": [
-        "suffer-mcq-10",
+        "suffer-pdf-002",
         "suffer-mcq-09",
         "suffer-mcq-11",
         "suffer-mcq-08",
         "suffer-mcq-12",
         "suffer-mcq-07"
       ],
-      "explanation": "本句的「suffered」指「受苦」。",
+      "explanation": "本句的「suffered」指「經歷身體、心理或情感上的痛苦」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-10": "本句指「受苦」。",
+        "suffer-pdf-002": "本句指「經歷身體、心理或情感上的痛苦」。",
         "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
         "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
         "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
         "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
         "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-10"
+      "correctOption": "suffer-pdf-002"
     },
     {
       "id": "suffer-15-0",
@@ -5242,63 +5298,63 @@ export default {
     },
     {
       "id": "suffer-64-0",
-      "sense": "suffer-mcq-49",
+      "sense": "suffer-pdf-003",
       "en": "The treatment aims to reduce suffering.",
       "zh": "治療旨在減輕痛苦。",
       "masked": "The treatment aims to reduce ____.",
       "options": [
-        "suffer-mcq-49",
+        "suffer-pdf-003",
         "suffer-mcq-48",
         "suffer-mcq-50",
         "suffer-mcq-47",
         "suffer-mcq-51",
         "suffer-mcq-46"
       ],
-      "explanation": "本句的「suffering」指「痛苦；苦難」。",
+      "explanation": "本句的「suffering」指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
       "sentenceIndex": 127,
       "sourcePractice": 1,
       "targets": [
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-49": "本句指「痛苦；苦難」。",
+        "suffer-pdf-003": "本句指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
         "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
         "suffer-mcq-50": "「人類苦難」與本句語境不同。",
         "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
         "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
         "suffer-mcq-46": "「默默忍受」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-49"
+      "correctOption": "suffer-pdf-003"
     },
     {
       "id": "suffer-64-1",
-      "sense": "suffer-mcq-49",
+      "sense": "suffer-pdf-003",
       "en": "The disaster caused widespread suffering.",
       "zh": "災難造成廣泛苦難。",
       "masked": "The disaster caused widespread ____.",
       "options": [
-        "suffer-mcq-49",
+        "suffer-pdf-003",
         "suffer-mcq-48",
         "suffer-mcq-50",
         "suffer-mcq-47",
         "suffer-mcq-51",
         "suffer-mcq-46"
       ],
-      "explanation": "本句的「suffering」指「痛苦；苦難」。",
+      "explanation": "本句的「suffering」指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
       "sentenceIndex": 128,
       "sourcePractice": 2,
       "targets": [
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-49": "本句指「痛苦；苦難」。",
+        "suffer-pdf-003": "本句指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
         "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
         "suffer-mcq-50": "「人類苦難」與本句語境不同。",
         "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
         "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
         "suffer-mcq-46": "「默默忍受」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-49"
+      "correctOption": "suffer-pdf-003"
     },
     {
       "id": "suffer-65-0",
@@ -5662,63 +5718,63 @@ export default {
     },
     {
       "id": "suffer-71-0",
-      "sense": "suffer-mcq-54",
+      "sense": "suffer-pdf-004",
       "en": "Asthma sufferers may need medication.",
       "zh": "哮喘患者可能需要藥物。",
       "masked": "Asthma ____ may need medication.",
       "options": [
-        "suffer-mcq-54",
+        "suffer-pdf-004",
         "suffer-mcq-53",
         "suffer-mcq-55",
         "suffer-mcq-52",
         "suffer-mcq-56",
         "suffer-mcq-51"
       ],
-      "explanation": "本句的「sufferers」指「患者；受苦者」。",
+      "explanation": "本句的「sufferers」指「長期受到某疾病、症狀或問題影響的人」。",
       "sentenceIndex": 141,
       "sourcePractice": 1,
       "targets": [
         "sufferers"
       ],
       "optionReasons": {
-        "suffer-mcq-54": "本句指「患者；受苦者」。",
+        "suffer-pdf-004": "本句指「長期受到某疾病、症狀或問題影響的人」。",
         "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
         "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
         "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
         "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
         "suffer-mcq-51": "「不必要痛苦」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-54"
+      "correctOption": "suffer-pdf-004"
     },
     {
       "id": "suffer-71-1",
-      "sense": "suffer-mcq-54",
+      "sense": "suffer-pdf-004",
       "en": "The service supports migraine sufferers.",
       "zh": "這項服務支援偏頭痛患者。",
       "masked": "The service supports migraine ____.",
       "options": [
-        "suffer-mcq-54",
+        "suffer-pdf-004",
         "suffer-mcq-53",
         "suffer-mcq-55",
         "suffer-mcq-52",
         "suffer-mcq-56",
         "suffer-mcq-51"
       ],
-      "explanation": "本句的「sufferers」指「患者；受苦者」。",
+      "explanation": "本句的「sufferers」指「長期受到某疾病、症狀或問題影響的人」。",
       "sentenceIndex": 142,
       "sourcePractice": 2,
       "targets": [
         "sufferers"
       ],
       "optionReasons": {
-        "suffer-mcq-54": "本句指「患者；受苦者」。",
+        "suffer-pdf-004": "本句指「長期受到某疾病、症狀或問題影響的人」。",
         "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
         "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
         "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
         "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
         "suffer-mcq-51": "「不必要痛苦」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-54"
+      "correctOption": "suffer-pdf-004"
     },
     {
       "id": "suffer-73-0",
@@ -5782,63 +5838,63 @@ export default {
     },
     {
       "id": "suffer-74-0",
-      "sense": "suffer-mcq-56",
+      "sense": "suffer-pdf-005",
       "en": "His long-suffering colleagues had tolerated the behaviour for years.",
       "zh": "他那些長期忍耐的同事多年來一直容忍他的行為。",
       "masked": "His ____ had tolerated the behaviour for years.",
       "options": [
-        "suffer-mcq-56",
+        "suffer-pdf-005",
         "suffer-mcq-55",
         "suffer-mcq-57",
         "suffer-mcq-54",
         "suffer-mcq-58",
         "suffer-mcq-53"
       ],
-      "explanation": "本句的「long-suffering colleagues」指「長期忍耐的」。",
+      "explanation": "本句的「long-suffering colleagues」指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
       "sentenceIndex": 147,
       "sourcePractice": 1,
       "targets": [
         "long-suffering colleagues"
       ],
       "optionReasons": {
-        "suffer-mcq-56": "本句指「長期忍耐的」。",
+        "suffer-pdf-005": "本句指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
         "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
         "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
         "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
         "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
         "suffer-mcq-53": "「減輕痛苦」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-56"
+      "correctOption": "suffer-pdf-005"
     },
     {
       "id": "suffer-74-1",
-      "sense": "suffer-mcq-56",
+      "sense": "suffer-pdf-005",
       "en": "The long-suffering customers finally received an apology.",
       "zh": "那些長期受困擾、一直忍耐的顧客終於收到道歉。",
       "masked": "The long-____ customers finally received an apology.",
       "options": [
-        "suffer-mcq-56",
+        "suffer-pdf-005",
         "suffer-mcq-55",
         "suffer-mcq-57",
         "suffer-mcq-54",
         "suffer-mcq-58",
         "suffer-mcq-53"
       ],
-      "explanation": "本句的「suffering」指「長期忍耐的」。",
+      "explanation": "本句的「suffering」指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
       "sentenceIndex": 148,
       "sourcePractice": 2,
       "targets": [
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-56": "本句指「長期忍耐的」。",
+        "suffer-pdf-005": "本句指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
         "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
         "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
         "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
         "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
         "suffer-mcq-53": "「減輕痛苦」與本句語境不同。"
       },
-      "correctOption": "suffer-mcq-56"
+      "correctOption": "suffer-pdf-005"
     },
     {
       "id": "suffer-75-0",

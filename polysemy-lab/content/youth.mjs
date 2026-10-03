@@ -353,16 +353,6 @@ export default {
           "The youth programme combines sport and mentoring.",
           "這項青少年計劃結合運動和導師支援。",
           "專門支援青少年成長、教育或生活需要的人員"
-        ],
-        [
-          "The council provides youth services across the district.",
-          "議會在整個地區提供青少年服務。",
-          "專門支援青少年成長、教育或生活需要的人員"
-        ],
-        [
-          "Funding for youth services has increased.",
-          "青少年服務的撥款增加了。",
-          "專門支援青少年成長、教育或生活需要的人員"
         ]
       ],
       "options": [],
@@ -537,6 +527,28 @@ export default {
           "Youth hostels usually provide relatively affordable accommodation.",
           "青年旅舍通常提供價格較相宜的住宿。",
           "傳統上以年輕旅客為主要對象的較相宜住宿設施"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "youth-pdf-001",
+      "title": "為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務",
+      "form": "19. youth services — 青少年服務",
+      "en": "19. youth services — 青少年服務",
+      "zh": "為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務",
+      "note": "原始 PDF 第 19 節：為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務",
+      "examples": [
+        [
+          "The council provides youth services across the district.",
+          "議會在整個地區提供青少年服務。",
+          "為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務"
+        ],
+        [
+          "Funding for youth services has increased.",
+          "青少年服務的撥款增加了。",
+          "為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務"
         ]
       ],
       "options": [],
@@ -1656,63 +1668,63 @@ export default {
     },
     {
       "id": "youth-19-0",
-      "sense": "youth-mcq-14",
+      "sense": "youth-pdf-001",
       "en": "The council provides youth services across the district.",
       "zh": "議會在整個地區提供青少年服務。",
       "masked": "The council provides ____ across the district.",
       "options": [
-        "youth-mcq-14",
+        "youth-pdf-001",
         "youth-mcq-13",
         "youth-mcq-15",
         "youth-mcq-12",
         "youth-mcq-16",
         "youth-mcq-11"
       ],
-      "explanation": "本句的「youth services」指「專門支援青少年成長、教育或生活需要的人員」。",
+      "explanation": "本句的「youth services」指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "youth services"
       ],
       "optionReasons": {
-        "youth-mcq-14": "本句指「專門支援青少年成長、教育或生活需要的人員」。",
+        "youth-pdf-001": "本句指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
         "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
         "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
         "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
         "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
         "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
       },
-      "correctOption": "youth-mcq-14"
+      "correctOption": "youth-pdf-001"
     },
     {
       "id": "youth-19-1",
-      "sense": "youth-mcq-14",
+      "sense": "youth-pdf-001",
       "en": "Funding for youth services has increased.",
       "zh": "青少年服務的撥款增加了。",
       "masked": "Funding for ____ services has increased.",
       "options": [
-        "youth-mcq-14",
+        "youth-pdf-001",
         "youth-mcq-13",
         "youth-mcq-15",
         "youth-mcq-12",
         "youth-mcq-16",
         "youth-mcq-11"
       ],
-      "explanation": "本句的「youth」指「專門支援青少年成長、教育或生活需要的人員」。",
+      "explanation": "本句的「youth」指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-14": "本句指「專門支援青少年成長、教育或生活需要的人員」。",
+        "youth-pdf-001": "本句指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
         "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
         "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
         "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
         "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
         "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
       },
-      "correctOption": "youth-mcq-14"
+      "correctOption": "youth-pdf-001"
     },
     {
       "id": "youth-20-0",

@@ -203,16 +203,6 @@ export default {
           "She appeared in several motion pictures.",
           "她演出了幾部電影。",
           "電影，較舊式或特定行業用法"
-        ],
-        [
-          "They used to go to the pictures every Saturday.",
-          "他們以前每逢星期六都會去看電影／去電影院。",
-          "電影，較舊式或特定行業用法"
-        ],
-        [
-          "My grandparents often talked about going to the pictures.",
-          "我的祖父母常說起以前去電影院看戲的事。",
-          "電影，較舊式或特定行業用法"
         ]
       ],
       "options": [],
@@ -234,16 +224,6 @@ export default {
         [
           "I can picture her sitting beside the pond.",
           "我可以想像她坐在池塘旁的樣子。",
-          "在腦海中形成某人、某物或場景的視覺形象"
-        ],
-        [
-          "Picture yourself standing in front of Monet’s painting.",
-          "想像一下自己站在 Monet 的畫作前。",
-          "在腦海中形成某人、某物或場景的視覺形象"
-        ],
-        [
-          "She could picture herself living by the sea.",
-          "她可以想像自己住在海邊。",
           "在腦海中形成某人、某物或場景的視覺形象"
         ]
       ],
@@ -399,6 +379,50 @@ export default {
           "He is no longer in charge, so he is effectively out of the picture.",
           "他已不再負責，所以基本上已經不再參與其中。",
           "不再參與、影響或被納入考慮"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "picture-pdf-001",
+      "title": "電影院／看電影",
+      "form": "10. the pictures（BrE, dated/informal） — 電影院",
+      "en": "10. the pictures（BrE, dated/informal） — 電影院",
+      "zh": "電影院／看電影",
+      "note": "原始 PDF 第 10 節：電影院／看電影",
+      "examples": [
+        [
+          "They used to go to the pictures every Saturday.",
+          "他們以前每逢星期六都會去看電影／去電影院。",
+          "電影院／看電影"
+        ],
+        [
+          "My grandparents often talked about going to the pictures.",
+          "我的祖父母常說起以前去電影院看戲的事。",
+          "電影院／看電影"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "picture-pdf-002",
+      "title": "在腦海中想像自己處於某種情境",
+      "form": "12. picture yourself + -ing / in a situation — 想像自己……",
+      "en": "12. picture yourself + -ing / in a situation — 想像自己……",
+      "zh": "在腦海中想像自己處於某種情境",
+      "note": "原始 PDF 第 12 節：在腦海中想像自己處於某種情境",
+      "examples": [
+        [
+          "Picture yourself standing in front of Monet’s painting.",
+          "想像一下自己站在 Monet 的畫作前。",
+          "在腦海中想像自己處於某種情境"
+        ],
+        [
+          "She could picture herself living by the sea.",
+          "她可以想像自己住在海邊。",
+          "在腦海中想像自己處於某種情境"
         ]
       ],
       "options": [],
@@ -978,63 +1002,63 @@ export default {
     },
     {
       "id": "picture-10-0",
-      "sense": "picture-mcq-09",
+      "sense": "picture-pdf-001",
       "en": "They used to go to the pictures every Saturday.",
       "zh": "他們以前每逢星期六都會去看電影／去電影院。",
       "masked": "They used to go to ____ every Saturday.",
       "options": [
-        "picture-mcq-09",
+        "picture-pdf-001",
         "picture-mcq-08",
         "picture-mcq-10",
         "picture-mcq-07",
         "picture-mcq-11",
         "picture-mcq-06"
       ],
-      "explanation": "本句的「the pictures」指「電影，較舊式或特定行業用法」。",
+      "explanation": "本句的「the pictures」指「電影院／看電影」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "the pictures"
       ],
       "optionReasons": {
-        "picture-mcq-09": "本句指「電影，較舊式或特定行業用法」。",
+        "picture-pdf-001": "本句指「電影院／看電影」。",
         "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
         "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
         "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
         "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
         "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
       },
-      "correctOption": "picture-mcq-09"
+      "correctOption": "picture-pdf-001"
     },
     {
       "id": "picture-10-1",
-      "sense": "picture-mcq-09",
+      "sense": "picture-pdf-001",
       "en": "My grandparents often talked about going to the pictures.",
       "zh": "我的祖父母常說起以前去電影院看戲的事。",
       "masked": "My grandparents often talked about going to the ____.",
       "options": [
-        "picture-mcq-09",
+        "picture-pdf-001",
         "picture-mcq-08",
         "picture-mcq-10",
         "picture-mcq-07",
         "picture-mcq-11",
         "picture-mcq-06"
       ],
-      "explanation": "本句的「pictures」指「電影，較舊式或特定行業用法」。",
+      "explanation": "本句的「pictures」指「電影院／看電影」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "pictures"
       ],
       "optionReasons": {
-        "picture-mcq-09": "本句指「電影，較舊式或特定行業用法」。",
+        "picture-pdf-001": "本句指「電影院／看電影」。",
         "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
         "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
         "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
         "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
         "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
       },
-      "correctOption": "picture-mcq-09"
+      "correctOption": "picture-pdf-001"
     },
     {
       "id": "picture-11-0",
@@ -1098,63 +1122,63 @@ export default {
     },
     {
       "id": "picture-12-0",
-      "sense": "picture-mcq-10",
+      "sense": "picture-pdf-002",
       "en": "Picture yourself standing in front of Monet’s painting.",
       "zh": "想像一下自己站在 Monet 的畫作前。",
       "masked": "____ standing in front of Monet’s painting.",
       "options": [
-        "picture-mcq-10",
+        "picture-pdf-002",
         "picture-mcq-09",
         "picture-mcq-11",
         "picture-mcq-08",
         "picture-mcq-12",
         "picture-mcq-07"
       ],
-      "explanation": "本句的「Picture yourself」指「在腦海中形成某人、某物或場景的視覺形象」。",
+      "explanation": "本句的「Picture yourself」指「在腦海中想像自己處於某種情境」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "Picture yourself"
       ],
       "optionReasons": {
-        "picture-mcq-10": "本句指「在腦海中形成某人、某物或場景的視覺形象」。",
+        "picture-pdf-002": "本句指「在腦海中想像自己處於某種情境」。",
         "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
         "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
         "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
         "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
         "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。"
       },
-      "correctOption": "picture-mcq-10"
+      "correctOption": "picture-pdf-002"
     },
     {
       "id": "picture-12-1",
-      "sense": "picture-mcq-10",
+      "sense": "picture-pdf-002",
       "en": "She could picture herself living by the sea.",
       "zh": "她可以想像自己住在海邊。",
       "masked": "She could ____ herself living by the sea.",
       "options": [
-        "picture-mcq-10",
+        "picture-pdf-002",
         "picture-mcq-09",
         "picture-mcq-11",
         "picture-mcq-08",
         "picture-mcq-12",
         "picture-mcq-07"
       ],
-      "explanation": "本句的「picture」指「在腦海中形成某人、某物或場景的視覺形象」。",
+      "explanation": "本句的「picture」指「在腦海中想像自己處於某種情境」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-10": "本句指「在腦海中形成某人、某物或場景的視覺形象」。",
+        "picture-pdf-002": "本句指「在腦海中想像自己處於某種情境」。",
         "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
         "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
         "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
         "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
         "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。"
       },
-      "correctOption": "picture-mcq-10"
+      "correctOption": "picture-pdf-002"
     },
     {
       "id": "picture-13-0",

@@ -242,16 +242,28 @@ export default {
           "The café composts used coffee grounds.",
           "這間咖啡店會把用過的咖啡渣拿去堆肥。",
           "沖泡咖啡後剩下的咖啡粉渣"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "coffee-pdf-001",
+      "title": "咖啡植物種子，經處理、烘焙後用來沖泡咖啡",
+      "form": "12. coffee bean = 咖啡豆",
+      "en": "12. coffee bean = 咖啡豆",
+      "zh": "咖啡植物種子，經處理、烘焙後用來沖泡咖啡",
+      "note": "原始 PDF 第 12 節：咖啡植物種子，經處理、烘焙後用來沖泡咖啡",
+      "examples": [
         [
           "These coffee beans were roasted this morning.",
           "這些咖啡豆今早才烘焙。",
-          "沖泡咖啡後剩下的咖啡粉渣"
+          "咖啡植物種子，經處理、烘焙後用來沖泡咖啡"
         ],
         [
           "Different coffee beans produce different flavours.",
           "不同咖啡豆會產生不同風味。",
-          "沖泡咖啡後剩下的咖啡粉渣"
+          "咖啡植物種子，經處理、烘焙後用來沖泡咖啡"
         ]
       ],
       "options": [],
@@ -921,63 +933,63 @@ export default {
     },
     {
       "id": "coffee-12-0",
-      "sense": "coffee-mcq-11",
+      "sense": "coffee-pdf-001",
       "en": "These coffee beans were roasted this morning.",
       "zh": "這些咖啡豆今早才烘焙。",
       "masked": "These ____ were roasted this morning.",
       "options": [
-        "coffee-mcq-11",
+        "coffee-pdf-001",
         "coffee-mcq-10",
         "coffee-mcq-09",
         "coffee-mcq-08",
         "coffee-mcq-07",
         "coffee-mcq-06"
       ],
-      "explanation": "本句的「coffee beans」指「沖泡咖啡後剩下的咖啡粉渣」。",
+      "explanation": "本句的「coffee beans」指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
       "sentenceIndex": 22,
       "sourcePractice": 24,
       "targets": [
         "coffee beans"
       ],
       "optionReasons": {
-        "coffee-mcq-11": "本句指「沖泡咖啡後剩下的咖啡粉渣」。",
+        "coffee-pdf-001": "本句指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
         "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
         "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
         "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
         "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
         "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
       },
-      "correctOption": "coffee-mcq-11"
+      "correctOption": "coffee-pdf-001"
     },
     {
       "id": "coffee-12-1",
-      "sense": "coffee-mcq-11",
+      "sense": "coffee-pdf-001",
       "en": "Different coffee beans produce different flavours.",
       "zh": "不同咖啡豆會產生不同風味。",
       "masked": "Different ____ beans produce different flavours.",
       "options": [
-        "coffee-mcq-11",
+        "coffee-pdf-001",
         "coffee-mcq-10",
         "coffee-mcq-09",
         "coffee-mcq-08",
         "coffee-mcq-07",
         "coffee-mcq-06"
       ],
-      "explanation": "本句的「coffee」指「沖泡咖啡後剩下的咖啡粉渣」。",
+      "explanation": "本句的「coffee」指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
       "sentenceIndex": 23,
       "sourcePractice": 25,
       "targets": [
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-11": "本句指「沖泡咖啡後剩下的咖啡粉渣」。",
+        "coffee-pdf-001": "本句指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
         "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
         "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
         "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
         "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
         "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
       },
-      "correctOption": "coffee-mcq-11"
+      "correctOption": "coffee-pdf-001"
     }
   ],
   "comparisons": [],

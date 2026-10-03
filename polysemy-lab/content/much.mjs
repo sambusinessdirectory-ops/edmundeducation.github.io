@@ -223,16 +223,6 @@ export default {
           "He gave us so much useful advice.",
           "他給了我們這麼多有用的建議。",
           "強調不可數事物的數量／程度非常大"
-        ],
-        [
-          "I learned so much from that teacher.",
-          "我從那位老師身上學到了很多很多／非常多。",
-          "強調不可數事物的數量／程度非常大"
-        ],
-        [
-          "His teaching style changed me so much.",
-          "他的教學方式對我的改變非常大。",
-          "強調不可數事物的數量／程度非常大"
         ]
       ],
       "options": [],
@@ -379,16 +369,6 @@ export default {
       "note": "來源詞義：前一較容易事項尚且不能成立，後一更難事項更不用說",
       "examples": [
         [
-          "I understand history much better now.",
-          "我現在對歷史理解得好多了。",
-          "前一較容易事項尚且不能成立，後一更難事項更不用說"
-        ],
-        [
-          "The second exam was much easier.",
-          "第二次考試容易得多。",
-          "前一較容易事項尚且不能成立，後一更難事項更不用說"
-        ],
-        [
           "He could barely remember the date, much less explain the event.",
           "他連日期都幾乎記不起來，更不用說解釋那件事件了。",
           "前一較容易事項尚且不能成立，後一更難事項更不用說"
@@ -485,6 +465,50 @@ export default {
           "So much for the idea that the test would be easy.",
           "看來『這次測驗會很容易』這個想法完全不成立了。",
           "表示某個想法、計劃或期望已失敗／被證明不成立"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "much-pdf-001",
+      "title": "某個行為、感受或影響達到很高程度",
+      "form": "12. so much = to such a great degree — 如此；非常",
+      "en": "12. so much = to such a great degree — 如此；非常",
+      "zh": "某個行為、感受或影響達到很高程度",
+      "note": "原始 PDF 第 12 節：某個行為、感受或影響達到很高程度",
+      "examples": [
+        [
+          "I learned so much from that teacher.",
+          "我從那位老師身上學到了很多很多／非常多。",
+          "某個行為、感受或影響達到很高程度"
+        ],
+        [
+          "His teaching style changed me so much.",
+          "他的教學方式對我的改變非常大。",
+          "某個行為、感受或影響達到很高程度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "much-pdf-002",
+      "title": "比較差距顯著",
+      "form": "19. much better/worse/easier/etc.（大幅比較） — 好得多／差得多／容易得多",
+      "en": "19. much better/worse/easier/etc.（大幅比較） — 好得多／差得多／容易得多",
+      "zh": "比較差距顯著",
+      "note": "原始 PDF 第 19 節：比較差距顯著",
+      "examples": [
+        [
+          "I understand history much better now.",
+          "我現在對歷史理解得好多了。",
+          "比較差距顯著"
+        ],
+        [
+          "The second exam was much easier.",
+          "第二次考試容易得多。",
+          "比較差距顯著"
         ]
       ],
       "options": [],
@@ -1184,63 +1208,63 @@ export default {
     },
     {
       "id": "much-12-0",
-      "sense": "much-mcq-09",
+      "sense": "much-pdf-001",
       "en": "I learned so much from that teacher.",
       "zh": "我從那位老師身上學到了很多很多／非常多。",
       "masked": "I learned ____ from that teacher.",
       "options": [
-        "much-mcq-09",
+        "much-pdf-001",
         "much-mcq-08",
         "much-mcq-10",
         "much-mcq-07",
         "much-mcq-11",
         "much-mcq-06"
       ],
-      "explanation": "本句的「so much」指「強調不可數事物的數量／程度非常大」。",
+      "explanation": "本句的「so much」指「某個行為、感受或影響達到很高程度」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "so much"
       ],
       "optionReasons": {
-        "much-mcq-09": "本句指「強調不可數事物的數量／程度非常大」。",
+        "much-pdf-001": "本句指「某個行為、感受或影響達到很高程度」。",
         "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
         "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
         "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
         "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
         "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
       },
-      "correctOption": "much-mcq-09"
+      "correctOption": "much-pdf-001"
     },
     {
       "id": "much-12-1",
-      "sense": "much-mcq-09",
+      "sense": "much-pdf-001",
       "en": "His teaching style changed me so much.",
       "zh": "他的教學方式對我的改變非常大。",
       "masked": "His teaching style changed me ____.",
       "options": [
-        "much-mcq-09",
+        "much-pdf-001",
         "much-mcq-08",
         "much-mcq-10",
         "much-mcq-07",
         "much-mcq-11",
         "much-mcq-06"
       ],
-      "explanation": "本句的「so much」指「強調不可數事物的數量／程度非常大」。",
+      "explanation": "本句的「so much」指「某個行為、感受或影響達到很高程度」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "so much"
       ],
       "optionReasons": {
-        "much-mcq-09": "本句指「強調不可數事物的數量／程度非常大」。",
+        "much-pdf-001": "本句指「某個行為、感受或影響達到很高程度」。",
         "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
         "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
         "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
         "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
         "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
       },
-      "correctOption": "much-mcq-09"
+      "correctOption": "much-pdf-001"
     },
     {
       "id": "much-13-0",
@@ -1604,63 +1628,63 @@ export default {
     },
     {
       "id": "much-19-0",
-      "sense": "much-mcq-16",
+      "sense": "much-pdf-002",
       "en": "I understand history much better now.",
       "zh": "我現在對歷史理解得好多了。",
       "masked": "I understand history ____ now.",
       "options": [
-        "much-mcq-16",
+        "much-pdf-002",
         "much-mcq-15",
         "much-mcq-17",
         "much-mcq-14",
         "much-mcq-18",
         "much-mcq-13"
       ],
-      "explanation": "本句的「much better」指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
+      "explanation": "本句的「much better」指「比較差距顯著」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "much better"
       ],
       "optionReasons": {
-        "much-mcq-16": "本句指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
+        "much-pdf-002": "本句指「比較差距顯著」。",
         "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
         "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
         "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
         "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
         "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。"
       },
-      "correctOption": "much-mcq-16"
+      "correctOption": "much-pdf-002"
     },
     {
       "id": "much-19-1",
-      "sense": "much-mcq-16",
+      "sense": "much-pdf-002",
       "en": "The second exam was much easier.",
       "zh": "第二次考試容易得多。",
       "masked": "The second exam was ____.",
       "options": [
-        "much-mcq-16",
+        "much-pdf-002",
         "much-mcq-15",
         "much-mcq-17",
         "much-mcq-14",
         "much-mcq-18",
         "much-mcq-13"
       ],
-      "explanation": "本句的「much easier」指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
+      "explanation": "本句的「much easier」指「比較差距顯著」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "much easier"
       ],
       "optionReasons": {
-        "much-mcq-16": "本句指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
+        "much-pdf-002": "本句指「比較差距顯著」。",
         "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
         "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
         "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
         "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
         "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。"
       },
-      "correctOption": "much-mcq-16"
+      "correctOption": "much-pdf-002"
     },
     {
       "id": "much-20-0",

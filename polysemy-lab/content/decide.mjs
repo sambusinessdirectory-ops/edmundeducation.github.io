@@ -203,16 +203,6 @@ export default {
           "The final vote could decide the outcome.",
           "最後一次投票可能會決定結果。",
           "決定結果"
-        ],
-        [
-          "The winner will be decided by the judges.",
-          "勝出者將由評判決定。",
-          "決定結果"
-        ],
-        [
-          "The final result was decided by one point.",
-          "最終結果由一分之差決定。",
-          "決定結果"
         ]
       ],
       "options": [],
@@ -609,6 +599,28 @@ export default {
           "They won a decisive victory in the final.",
           "他們在決賽中取得大勝。",
           "結果非常清楚、沒有太大疑問的勝利"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "decide-pdf-001",
+      "title": "最終結果由 X 作出判定或受到 X 關鍵性影響",
+      "form": "11. be decided by something — 由……決定",
+      "en": "11. be decided by something — 由……決定",
+      "zh": "最終結果由 X 作出判定或受到 X 關鍵性影響",
+      "note": "原始 PDF 第 11 節：最終結果由 X 作出判定或受到 X 關鍵性影響",
+      "examples": [
+        [
+          "The winner will be decided by the judges.",
+          "勝出者將由評判決定。",
+          "最終結果由 X 作出判定或受到 X 關鍵性影響"
+        ],
+        [
+          "The final result was decided by one point.",
+          "最終結果由一分之差決定。",
+          "最終結果由 X 作出判定或受到 X 關鍵性影響"
         ]
       ],
       "options": [],
@@ -1248,63 +1260,63 @@ export default {
     },
     {
       "id": "decide-11-0",
-      "sense": "decide-mcq-10",
+      "sense": "decide-pdf-001",
       "en": "The winner will be decided by the judges.",
       "zh": "勝出者將由評判決定。",
       "masked": "The winner will be ____.",
       "options": [
-        "decide-mcq-10",
+        "decide-pdf-001",
         "decide-mcq-09",
         "decide-mcq-11",
         "decide-mcq-08",
         "decide-mcq-12",
         "decide-mcq-07"
       ],
-      "explanation": "本句的「decided by the judges」指「決定結果」。",
+      "explanation": "本句的「decided by the judges」指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "decided by the judges"
       ],
       "optionReasons": {
-        "decide-mcq-10": "本句指「決定結果」。",
+        "decide-pdf-001": "本句指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
         "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
         "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
         "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
         "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
         "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。"
       },
-      "correctOption": "decide-mcq-10"
+      "correctOption": "decide-pdf-001"
     },
     {
       "id": "decide-11-1",
-      "sense": "decide-mcq-10",
+      "sense": "decide-pdf-001",
       "en": "The final result was decided by one point.",
       "zh": "最終結果由一分之差決定。",
       "masked": "The final result was ____.",
       "options": [
-        "decide-mcq-10",
+        "decide-pdf-001",
         "decide-mcq-09",
         "decide-mcq-11",
         "decide-mcq-08",
         "decide-mcq-12",
         "decide-mcq-07"
       ],
-      "explanation": "本句的「decided by one point」指「決定結果」。",
+      "explanation": "本句的「decided by one point」指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "decided by one point"
       ],
       "optionReasons": {
-        "decide-mcq-10": "本句指「決定結果」。",
+        "decide-pdf-001": "本句指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
         "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
         "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
         "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
         "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
         "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。"
       },
-      "correctOption": "decide-mcq-10"
+      "correctOption": "decide-pdf-001"
     },
     {
       "id": "decide-12-0",

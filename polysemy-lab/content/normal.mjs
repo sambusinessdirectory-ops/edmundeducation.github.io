@@ -68,16 +68,6 @@ export default {
           "沒有特殊干擾／異常情況下的通常狀態"
         ],
         [
-          "Things are finally back to normal.",
-          "事情終於恢復正常了。",
-          "沒有特殊干擾／異常情況下的通常狀態"
-        ],
-        [
-          "Her temperature returned to normal.",
-          "她的體溫恢復正常。",
-          "沒有特殊干擾／異常情況下的通常狀態"
-        ],
-        [
           "Demand is now close to normal.",
           "需求現在已接近正常水平。",
           "沒有特殊干擾／異常情況下的通常狀態"
@@ -270,16 +260,6 @@ export default {
           "The score was above the norm for that age group.",
           "分數高於該年齡組的常模水平。",
           "用來比較或評估個人／結果的典型標準／常模"
-        ],
-        [
-          "The test was developed using age-based norms.",
-          "這項測驗使用按年齡建立的常模。",
-          "用來比較或評估個人／結果的典型標準／常模"
-        ],
-        [
-          "Scores are interpreted against population norms.",
-          "分數會按人口常模解讀。",
-          "用來比較或評估個人／結果的典型標準／常模"
         ]
       ],
       "options": [],
@@ -390,16 +370,6 @@ export default {
           "The values are normalized to a common scale.",
           "這些數值被正規化到同一尺度。",
           "按指定規則調整數據／結構，使其符合共同尺度或形式"
-        ],
-        [
-          "The measurements were normalized for body size.",
-          "測量結果按體型進行了標準化調整。",
-          "按指定規則調整數據／結構，使其符合共同尺度或形式"
-        ],
-        [
-          "Researchers normalized the results across groups.",
-          "研究人員把不同群體的結果進行了標準化。",
-          "按指定規則調整數據／結構，使其符合共同尺度或形式"
         ]
       ],
       "options": [],
@@ -465,16 +435,6 @@ export default {
         [
           "Database normalization reduces unnecessary duplication.",
           "資料庫正規化可以減少不必要的重複資料。",
-          "把資料、數值或結構調整到特定標準形式的技術過程"
-        ],
-        [
-          "Her temperature has normalized.",
-          "她的體溫已經恢復正常。",
-          "把資料、數值或結構調整到特定標準形式的技術過程"
-        ],
-        [
-          "Conditions gradually normalized.",
-          "情況逐步恢復正常。",
           "把資料、數值或結構調整到特定標準形式的技術過程"
         ]
       ],
@@ -694,16 +654,6 @@ export default {
           "The normal force acts perpendicular to the surface.",
           "法向力垂直作用於表面。",
           "由接觸表面施加、方向垂直於表面的力"
-        ],
-        [
-          "Draw a normal to the curve at this point.",
-          "在這一點畫一條曲線的法線。",
-          "由接觸表面施加、方向垂直於表面的力"
-        ],
-        [
-          "The normal is perpendicular to the tangent.",
-          "法線與切線垂直。",
-          "由接觸表面施加、方向垂直於表面的力"
         ]
       ],
       "options": [],
@@ -748,6 +698,116 @@ export default {
           "The normalized scores are easier to compare.",
           "標準化後的分數較容易比較。",
           "已根據指定規則調整到共同標準／尺度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "normal-pdf-001",
+      "title": "由異常／特殊狀態回到平常或預期狀態",
+      "form": "6. back to normal / return to normal（恢復正常） — 回復正常狀態",
+      "en": "6. back to normal / return to normal（恢復正常） — 回復正常狀態",
+      "zh": "由異常／特殊狀態回到平常或預期狀態",
+      "note": "原始 PDF 第 6 節：由異常／特殊狀態回到平常或預期狀態",
+      "examples": [
+        [
+          "Things are finally back to normal.",
+          "事情終於恢復正常了。",
+          "由異常／特殊狀態回到平常或預期狀態"
+        ],
+        [
+          "Her temperature returned to normal.",
+          "她的體溫恢復正常。",
+          "由異常／特殊狀態回到平常或預期狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "normal-pdf-002",
+      "title": "根據某參照群體建立的比較標準",
+      "form": "16. norms = statistical/testing standards（常模） — 常模；標準值",
+      "en": "16. norms = statistical/testing standards（常模） — 常模；標準值",
+      "zh": "根據某參照群體建立的比較標準",
+      "note": "原始 PDF 第 16 節：根據某參照群體建立的比較標準",
+      "examples": [
+        [
+          "The test was developed using age-based norms.",
+          "這項測驗使用按年齡建立的常模。",
+          "根據某參照群體建立的比較標準"
+        ],
+        [
+          "Scores are interpreted against population norms.",
+          "分數會按人口常模解讀。",
+          "根據某參照群體建立的比較標準"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "normal-pdf-003",
+      "title": "消除某些尺度／條件差異，使結果可公平比較",
+      "form": "22. normalize = adjust to a standard reference（校正／標準化） — 調整到標準",
+      "en": "22. normalize = adjust to a standard reference（校正／標準化） — 調整到標準",
+      "zh": "消除某些尺度／條件差異，使結果可公平比較",
+      "note": "原始 PDF 第 22 節：消除某些尺度／條件差異，使結果可公平比較",
+      "examples": [
+        [
+          "The measurements were normalized for body size.",
+          "測量結果按體型進行了標準化調整。",
+          "消除某些尺度／條件差異，使結果可公平比較"
+        ],
+        [
+          "Researchers normalized the results across groups.",
+          "研究人員把不同群體的結果進行了標準化。",
+          "消除某些尺度／條件差異，使結果可公平比較"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "normal-pdf-004",
+      "title": "已回到正常／預期狀態",
+      "form": "26. normalized = returned to normal（恢復正常的） — 已正常化",
+      "en": "26. normalized = returned to normal（恢復正常的） — 已正常化",
+      "zh": "已回到正常／預期狀態",
+      "note": "原始 PDF 第 26 節：已回到正常／預期狀態",
+      "examples": [
+        [
+          "Her temperature has normalized.",
+          "她的體溫已經恢復正常。",
+          "已回到正常／預期狀態"
+        ],
+        [
+          "Conditions gradually normalized.",
+          "情況逐步恢復正常。",
+          "已回到正常／預期狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "normal-pdf-005",
+      "title": "數學中與曲線／表面垂直的線或方向",
+      "form": "40. normal = noun in mathematics: a normal line/vector（法線／法向量） — 法線",
+      "en": "40. normal = noun in mathematics: a normal line/vector（法線／法向量） — 法線",
+      "zh": "數學中與曲線／表面垂直的線或方向",
+      "note": "原始 PDF 第 40 節：數學中與曲線／表面垂直的線或方向",
+      "examples": [
+        [
+          "Draw a normal to the curve at this point.",
+          "在這一點畫一條曲線的法線。",
+          "數學中與曲線／表面垂直的線或方向"
+        ],
+        [
+          "The normal is perpendicular to the tangent.",
+          "法線與切線垂直。",
+          "數學中與曲線／表面垂直的線或方向"
         ]
       ],
       "options": [],
@@ -1087,63 +1147,63 @@ export default {
     },
     {
       "id": "normal-06-0",
-      "sense": "normal-mcq-03",
+      "sense": "normal-pdf-001",
       "en": "Things are finally back to normal.",
       "zh": "事情終於恢復正常了。",
       "masked": "Things are finally ____.",
       "options": [
-        "normal-mcq-03",
+        "normal-pdf-001",
         "normal-mcq-02",
         "normal-mcq-04",
         "normal-mcq-01",
         "normal-mcq-05",
         "normal-mcq-06"
       ],
-      "explanation": "本句的「back to normal」指「沒有特殊干擾／異常情況下的通常狀態」。",
+      "explanation": "本句的「back to normal」指「由異常／特殊狀態回到平常或預期狀態」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "back to normal"
       ],
       "optionReasons": {
-        "normal-mcq-03": "本句指「沒有特殊干擾／異常情況下的通常狀態」。",
+        "normal-pdf-001": "本句指「由異常／特殊狀態回到平常或預期狀態」。",
         "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
         "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
         "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
         "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
         "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-03"
+      "correctOption": "normal-pdf-001"
     },
     {
       "id": "normal-06-1",
-      "sense": "normal-mcq-03",
+      "sense": "normal-pdf-001",
       "en": "Her temperature returned to normal.",
       "zh": "她的體溫恢復正常。",
       "masked": "Her temperature returned to ____.",
       "options": [
-        "normal-mcq-03",
+        "normal-pdf-001",
         "normal-mcq-02",
         "normal-mcq-04",
         "normal-mcq-01",
         "normal-mcq-05",
         "normal-mcq-06"
       ],
-      "explanation": "本句的「normal」指「沒有特殊干擾／異常情況下的通常狀態」。",
+      "explanation": "本句的「normal」指「由異常／特殊狀態回到平常或預期狀態」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-03": "本句指「沒有特殊干擾／異常情況下的通常狀態」。",
+        "normal-pdf-001": "本句指「由異常／特殊狀態回到平常或預期狀態」。",
         "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
         "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
         "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
         "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
         "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-03"
+      "correctOption": "normal-pdf-001"
     },
     {
       "id": "normal-07-0",
@@ -1657,63 +1717,63 @@ export default {
     },
     {
       "id": "normal-16-0",
-      "sense": "normal-mcq-10",
+      "sense": "normal-pdf-002",
       "en": "The test was developed using age-based norms.",
       "zh": "這項測驗使用按年齡建立的常模。",
       "masked": "The test was developed using age-based ____.",
       "options": [
-        "normal-mcq-10",
+        "normal-pdf-002",
         "normal-mcq-09",
         "normal-mcq-11",
         "normal-mcq-08",
         "normal-mcq-12",
         "normal-mcq-07"
       ],
-      "explanation": "本句的「norms」指「用來比較或評估個人／結果的典型標準／常模」。",
+      "explanation": "本句的「norms」指「根據某參照群體建立的比較標準」。",
       "sentenceIndex": 30,
       "sourcePractice": 32,
       "targets": [
         "norms"
       ],
       "optionReasons": {
-        "normal-mcq-10": "本句指「用來比較或評估個人／結果的典型標準／常模」。",
+        "normal-pdf-002": "本句指「根據某參照群體建立的比較標準」。",
         "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
         "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
         "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
         "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
         "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-10"
+      "correctOption": "normal-pdf-002"
     },
     {
       "id": "normal-16-1",
-      "sense": "normal-mcq-10",
+      "sense": "normal-pdf-002",
       "en": "Scores are interpreted against population norms.",
       "zh": "分數會按人口常模解讀。",
       "masked": "Scores are interpreted against population ____.",
       "options": [
-        "normal-mcq-10",
+        "normal-pdf-002",
         "normal-mcq-09",
         "normal-mcq-11",
         "normal-mcq-08",
         "normal-mcq-12",
         "normal-mcq-07"
       ],
-      "explanation": "本句的「norms」指「用來比較或評估個人／結果的典型標準／常模」。",
+      "explanation": "本句的「norms」指「根據某參照群體建立的比較標準」。",
       "sentenceIndex": 31,
       "sourcePractice": 33,
       "targets": [
         "norms"
       ],
       "optionReasons": {
-        "normal-mcq-10": "本句指「用來比較或評估個人／結果的典型標準／常模」。",
+        "normal-pdf-002": "本句指「根據某參照群體建立的比較標準」。",
         "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
         "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
         "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
         "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
         "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-10"
+      "correctOption": "normal-pdf-002"
     },
     {
       "id": "normal-17-0",
@@ -2017,63 +2077,63 @@ export default {
     },
     {
       "id": "normal-22-0",
-      "sense": "normal-mcq-15",
+      "sense": "normal-pdf-003",
       "en": "The measurements were normalized for body size.",
       "zh": "測量結果按體型進行了標準化調整。",
       "masked": "The measurements were ____ for body size.",
       "options": [
-        "normal-mcq-15",
+        "normal-pdf-003",
         "normal-mcq-14",
         "normal-mcq-16",
         "normal-mcq-13",
         "normal-mcq-17",
         "normal-mcq-12"
       ],
-      "explanation": "本句的「normalized」指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
+      "explanation": "本句的「normalized」指「消除某些尺度／條件差異，使結果可公平比較」。",
       "sentenceIndex": 42,
       "sourcePractice": 44,
       "targets": [
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-15": "本句指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
+        "normal-pdf-003": "本句指「消除某些尺度／條件差異，使結果可公平比較」。",
         "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
         "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
         "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
         "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
         "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-15"
+      "correctOption": "normal-pdf-003"
     },
     {
       "id": "normal-22-1",
-      "sense": "normal-mcq-15",
+      "sense": "normal-pdf-003",
       "en": "Researchers normalized the results across groups.",
       "zh": "研究人員把不同群體的結果進行了標準化。",
       "masked": "Researchers ____ the results across groups.",
       "options": [
-        "normal-mcq-15",
+        "normal-pdf-003",
         "normal-mcq-14",
         "normal-mcq-16",
         "normal-mcq-13",
         "normal-mcq-17",
         "normal-mcq-12"
       ],
-      "explanation": "本句的「normalized」指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
+      "explanation": "本句的「normalized」指「消除某些尺度／條件差異，使結果可公平比較」。",
       "sentenceIndex": 43,
       "sourcePractice": 45,
       "targets": [
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-15": "本句指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
+        "normal-pdf-003": "本句指「消除某些尺度／條件差異，使結果可公平比較」。",
         "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
         "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
         "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
         "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
         "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-15"
+      "correctOption": "normal-pdf-003"
     },
     {
       "id": "normal-23-0",
@@ -2257,63 +2317,63 @@ export default {
     },
     {
       "id": "normal-26-0",
-      "sense": "normal-mcq-18",
+      "sense": "normal-pdf-004",
       "en": "Her temperature has normalized.",
       "zh": "她的體溫已經恢復正常。",
       "masked": "Her temperature has ____.",
       "options": [
-        "normal-mcq-18",
+        "normal-pdf-004",
         "normal-mcq-17",
         "normal-mcq-19",
         "normal-mcq-16",
         "normal-mcq-20",
         "normal-mcq-15"
       ],
-      "explanation": "本句的「normalized」指「把資料、數值或結構調整到特定標準形式的技術過程」。",
+      "explanation": "本句的「normalized」指「已回到正常／預期狀態」。",
       "sentenceIndex": 50,
       "sourcePractice": 52,
       "targets": [
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-18": "本句指「把資料、數值或結構調整到特定標準形式的技術過程」。",
+        "normal-pdf-004": "本句指「已回到正常／預期狀態」。",
         "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
         "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
         "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
         "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
         "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-18"
+      "correctOption": "normal-pdf-004"
     },
     {
       "id": "normal-26-1",
-      "sense": "normal-mcq-18",
+      "sense": "normal-pdf-004",
       "en": "Conditions gradually normalized.",
       "zh": "情況逐步恢復正常。",
       "masked": "Conditions gradually ____.",
       "options": [
-        "normal-mcq-18",
+        "normal-pdf-004",
         "normal-mcq-17",
         "normal-mcq-19",
         "normal-mcq-16",
         "normal-mcq-20",
         "normal-mcq-15"
       ],
-      "explanation": "本句的「normalized」指「把資料、數值或結構調整到特定標準形式的技術過程」。",
+      "explanation": "本句的「normalized」指「已回到正常／預期狀態」。",
       "sentenceIndex": 51,
       "sourcePractice": 53,
       "targets": [
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-18": "本句指「把資料、數值或結構調整到特定標準形式的技術過程」。",
+        "normal-pdf-004": "本句指「已回到正常／預期狀態」。",
         "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
         "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
         "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
         "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
         "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-18"
+      "correctOption": "normal-pdf-004"
     },
     {
       "id": "normal-27-0",
@@ -3097,63 +3157,63 @@ export default {
     },
     {
       "id": "normal-40-0",
-      "sense": "normal-mcq-27",
+      "sense": "normal-pdf-005",
       "en": "Draw a normal to the curve at this point.",
       "zh": "在這一點畫一條曲線的法線。",
       "masked": "Draw a ____ to the curve at this point.",
       "options": [
-        "normal-mcq-27",
+        "normal-pdf-005",
         "normal-mcq-26",
         "normal-mcq-28",
         "normal-mcq-25",
         "normal-mcq-29",
         "normal-mcq-24"
       ],
-      "explanation": "本句的「normal」指「由接觸表面施加、方向垂直於表面的力」。",
+      "explanation": "本句的「normal」指「數學中與曲線／表面垂直的線或方向」。",
       "sentenceIndex": 78,
       "sourcePractice": 80,
       "targets": [
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-27": "本句指「由接觸表面施加、方向垂直於表面的力」。",
+        "normal-pdf-005": "本句指「數學中與曲線／表面垂直的線或方向」。",
         "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
         "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
         "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
         "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
         "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-27"
+      "correctOption": "normal-pdf-005"
     },
     {
       "id": "normal-40-1",
-      "sense": "normal-mcq-27",
+      "sense": "normal-pdf-005",
       "en": "The normal is perpendicular to the tangent.",
       "zh": "法線與切線垂直。",
       "masked": "The ____ is perpendicular to the tangent.",
       "options": [
-        "normal-mcq-27",
+        "normal-pdf-005",
         "normal-mcq-26",
         "normal-mcq-28",
         "normal-mcq-25",
         "normal-mcq-29",
         "normal-mcq-24"
       ],
-      "explanation": "本句的「normal」指「由接觸表面施加、方向垂直於表面的力」。",
+      "explanation": "本句的「normal」指「數學中與曲線／表面垂直的線或方向」。",
       "sentenceIndex": 79,
       "sourcePractice": 81,
       "targets": [
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-27": "本句指「由接觸表面施加、方向垂直於表面的力」。",
+        "normal-pdf-005": "本句指「數學中與曲線／表面垂直的線或方向」。",
         "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
         "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
         "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
         "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
         "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
       },
-      "correctOption": "normal-mcq-27"
+      "correctOption": "normal-pdf-005"
     }
   ],
   "comparisons": [],

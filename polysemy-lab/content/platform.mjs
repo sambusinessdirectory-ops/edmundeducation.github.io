@@ -44,16 +44,6 @@ export default {
           "The musicians were seated on a small platform.",
           "音樂家坐在一個小型台上。",
           "供演講者／表演者站立的高台"
-        ],
-        [
-          "The train leaves from platform 4.",
-          "列車由 4 號月台開出。",
-          "供演講者／表演者站立的高台"
-        ],
-        [
-          "Passengers waited on the platform.",
-          "乘客在月台上等候。",
-          "供演講者／表演者站立的高台"
         ]
       ],
       "options": [],
@@ -395,16 +385,6 @@ export default {
           "The manufacturer developed a new electric-vehicle platform.",
           "製造商開發了一個新的電動車平台架構。",
           "多款車型共用的核心底盤／工程架構"
-        ],
-        [
-          "The aircraft serves as a surveillance platform.",
-          "這架飛機作為監察平台／載台使用。",
-          "多款車型共用的核心底盤／工程架構"
-        ],
-        [
-          "The ship provides a stable weapons platform.",
-          "這艘船提供穩定的武器載台。",
-          "多款車型共用的核心底盤／工程架構"
         ]
       ],
       "options": [],
@@ -629,6 +609,50 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "platform-pdf-001",
+      "title": "火車／地鐵站內供乘客上落列車和等候的平面區域",
+      "form": "4. platform = railway/train platform — 月台",
+      "en": "4. platform = railway/train platform — 月台",
+      "zh": "火車／地鐵站內供乘客上落列車和等候的平面區域",
+      "note": "原始 PDF 第 4 節：火車／地鐵站內供乘客上落列車和等候的平面區域",
+      "examples": [
+        [
+          "The train leaves from platform 4.",
+          "列車由 4 號月台開出。",
+          "火車／地鐵站內供乘客上落列車和等候的平面區域"
+        ],
+        [
+          "Passengers waited on the platform.",
+          "乘客在月台上等候。",
+          "火車／地鐵站內供乘客上落列車和等候的平面區域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "platform-pdf-002",
+      "title": "承載感應器、武器、通訊設備等並提供操作基礎的載具／系統",
+      "form": "48. platform = vehicle/system carrying equipment or weapons — 載台；作戰平台",
+      "en": "48. platform = vehicle/system carrying equipment or weapons — 載台；作戰平台",
+      "zh": "承載感應器、武器、通訊設備等並提供操作基礎的載具／系統",
+      "note": "原始 PDF 第 48 節：承載感應器、武器、通訊設備等並提供操作基礎的載具／系統",
+      "examples": [
+        [
+          "The aircraft serves as a surveillance platform.",
+          "這架飛機作為監察平台／載台使用。",
+          "承載感應器、武器、通訊設備等並提供操作基礎的載具／系統"
+        ],
+        [
+          "The ship provides a stable weapons platform.",
+          "這艘船提供穩定的武器載台。",
+          "承載感應器、武器、通訊設備等並提供操作基礎的載具／系統"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -754,63 +778,63 @@ export default {
     },
     {
       "id": "platform-04-0",
-      "sense": "platform-mcq-02",
+      "sense": "platform-pdf-001",
       "en": "The train leaves from platform 4.",
       "zh": "列車由 4 號月台開出。",
       "masked": "The train leaves from ____.",
       "options": [
-        "platform-mcq-02",
+        "platform-pdf-001",
         "platform-mcq-01",
         "platform-mcq-03",
         "platform-mcq-04",
         "platform-mcq-05",
         "platform-mcq-06"
       ],
-      "explanation": "本句的「platform 4」指「供演講者／表演者站立的高台」。",
+      "explanation": "本句的「platform 4」指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
       "sentenceIndex": 6,
       "sourcePractice": 4,
       "targets": [
         "platform 4"
       ],
       "optionReasons": {
-        "platform-mcq-02": "本句指「供演講者／表演者站立的高台」。",
+        "platform-pdf-001": "本句指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
         "platform-mcq-01": "「高於周圍表面的平坦區域，供人站立、工作或放置設備」與本句語境不同。",
         "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
         "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
         "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
         "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
       },
-      "correctOption": "platform-mcq-02"
+      "correctOption": "platform-pdf-001"
     },
     {
       "id": "platform-04-1",
-      "sense": "platform-mcq-02",
+      "sense": "platform-pdf-001",
       "en": "Passengers waited on the platform.",
       "zh": "乘客在月台上等候。",
       "masked": "Passengers waited on the ____.",
       "options": [
-        "platform-mcq-02",
+        "platform-pdf-001",
         "platform-mcq-01",
         "platform-mcq-03",
         "platform-mcq-04",
         "platform-mcq-05",
         "platform-mcq-06"
       ],
-      "explanation": "本句的「platform」指「供演講者／表演者站立的高台」。",
+      "explanation": "本句的「platform」指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
       "sentenceIndex": 7,
       "sourcePractice": 4,
       "targets": [
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-02": "本句指「供演講者／表演者站立的高台」。",
+        "platform-pdf-001": "本句指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
         "platform-mcq-01": "「高於周圍表面的平坦區域，供人站立、工作或放置設備」與本句語境不同。",
         "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
         "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
         "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
         "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
       },
-      "correctOption": "platform-mcq-02"
+      "correctOption": "platform-pdf-001"
     },
     {
       "id": "platform-08-0",
@@ -1714,63 +1738,63 @@ export default {
     },
     {
       "id": "platform-48-0",
-      "sense": "platform-mcq-20",
+      "sense": "platform-pdf-002",
       "en": "The aircraft serves as a surveillance platform.",
       "zh": "這架飛機作為監察平台／載台使用。",
       "masked": "The aircraft serves as a surveillance ____.",
       "options": [
-        "platform-mcq-20",
+        "platform-pdf-002",
         "platform-mcq-19",
         "platform-mcq-21",
         "platform-mcq-18",
         "platform-mcq-22",
         "platform-mcq-17"
       ],
-      "explanation": "本句的「platform」指「多款車型共用的核心底盤／工程架構」。",
+      "explanation": "本句的「platform」指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
       "sentenceIndex": 94,
       "sourcePractice": 48,
       "targets": [
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-20": "本句指「多款車型共用的核心底盤／工程架構」。",
+        "platform-pdf-002": "本句指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
         "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
         "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
         "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
         "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
         "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。"
       },
-      "correctOption": "platform-mcq-20"
+      "correctOption": "platform-pdf-002"
     },
     {
       "id": "platform-48-1",
-      "sense": "platform-mcq-20",
+      "sense": "platform-pdf-002",
       "en": "The ship provides a stable weapons platform.",
       "zh": "這艘船提供穩定的武器載台。",
       "masked": "The ship provides a stable weapons ____.",
       "options": [
-        "platform-mcq-20",
+        "platform-pdf-002",
         "platform-mcq-19",
         "platform-mcq-21",
         "platform-mcq-18",
         "platform-mcq-22",
         "platform-mcq-17"
       ],
-      "explanation": "本句的「platform」指「多款車型共用的核心底盤／工程架構」。",
+      "explanation": "本句的「platform」指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
       "sentenceIndex": 95,
       "sourcePractice": 48,
       "targets": [
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-20": "本句指「多款車型共用的核心底盤／工程架構」。",
+        "platform-pdf-002": "本句指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
         "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
         "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
         "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
         "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
         "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。"
       },
-      "correctOption": "platform-mcq-20"
+      "correctOption": "platform-pdf-002"
     },
     {
       "id": "platform-52-0",

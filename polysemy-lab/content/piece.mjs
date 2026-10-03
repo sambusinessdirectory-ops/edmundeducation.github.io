@@ -234,16 +234,6 @@ export default {
       "note": "來源詞義：一項個別證據／資訊",
       "examples": [
         [
-          "That chair is a beautiful piece of furniture.",
-          "那張椅是一件漂亮的家具。",
-          "一項個別證據／資訊"
-        ],
-        [
-          "This is an expensive piece of equipment.",
-          "這是一件昂貴的設備。",
-          "一項個別證據／資訊"
-        ],
-        [
           "The police found an important piece of evidence.",
           "警方找到了一項重要的證據。",
           "一項個別證據／資訊"
@@ -404,6 +394,28 @@ export default {
           "We are still missing an important piece of the puzzle.",
           "我們仍然缺少拼圖中的一個重要部分／關鍵線索。",
           "構成整體理解或事件的一個部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "piece-pdf-001",
+      "title": "一件某類物品",
+      "form": "11. piece = item of clothing/furniture/equipment — 一件衣物／家具／設備",
+      "en": "11. piece = item of clothing/furniture/equipment — 一件衣物／家具／設備",
+      "zh": "一件某類物品",
+      "note": "原始 PDF 第 11 節：一件某類物品",
+      "examples": [
+        [
+          "That chair is a beautiful piece of furniture.",
+          "那張椅是一件漂亮的家具。",
+          "一件某類物品"
+        ],
+        [
+          "This is an expensive piece of equipment.",
+          "這是一件昂貴的設備。",
+          "一件某類物品"
         ]
       ],
       "options": [],
@@ -1013,63 +1025,63 @@ export default {
     },
     {
       "id": "piece-11-0",
-      "sense": "piece-mcq-11",
+      "sense": "piece-pdf-001",
       "en": "That chair is a beautiful piece of furniture.",
       "zh": "那張椅是一件漂亮的家具。",
       "masked": "That chair is a beautiful ____.",
       "options": [
-        "piece-mcq-11",
+        "piece-pdf-001",
         "piece-mcq-10",
         "piece-mcq-12",
         "piece-mcq-09",
         "piece-mcq-13",
         "piece-mcq-08"
       ],
-      "explanation": "本句的「piece of furniture」指「一項個別證據／資訊」。",
+      "explanation": "本句的「piece of furniture」指「一件某類物品」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "piece of furniture"
       ],
       "optionReasons": {
-        "piece-mcq-11": "本句指「一項個別證據／資訊」。",
+        "piece-pdf-001": "本句指「一件某類物品」。",
         "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
         "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
         "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
         "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
         "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。"
       },
-      "correctOption": "piece-mcq-11"
+      "correctOption": "piece-pdf-001"
     },
     {
       "id": "piece-11-1",
-      "sense": "piece-mcq-11",
+      "sense": "piece-pdf-001",
       "en": "This is an expensive piece of equipment.",
       "zh": "這是一件昂貴的設備。",
       "masked": "This is an expensive ____ of equipment.",
       "options": [
-        "piece-mcq-11",
+        "piece-pdf-001",
         "piece-mcq-10",
         "piece-mcq-12",
         "piece-mcq-09",
         "piece-mcq-13",
         "piece-mcq-08"
       ],
-      "explanation": "本句的「piece」指「一項個別證據／資訊」。",
+      "explanation": "本句的「piece」指「一件某類物品」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-11": "本句指「一項個別證據／資訊」。",
+        "piece-pdf-001": "本句指「一件某類物品」。",
         "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
         "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
         "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
         "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
         "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。"
       },
-      "correctOption": "piece-mcq-11"
+      "correctOption": "piece-pdf-001"
     },
     {
       "id": "piece-12-0",

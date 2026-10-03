@@ -181,16 +181,28 @@ export default {
           "Additional seating was added for the event.",
           "活動增加了額外的座位設施。",
           "某場所提供的座位，或座位／人物的排列方式"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "seat-pdf-001",
+      "title": "座位如何排列，或人物如何被分配到不同座位",
+      "form": "seating = arrangement of seats/people（座位安排）",
+      "en": "seating = arrangement of seats/people（座位安排）",
+      "zh": "座位如何排列，或人物如何被分配到不同座位",
+      "note": "原始 PDF 第 None 節：座位如何排列，或人物如何被分配到不同座位",
+      "examples": [
         [
           "The seating was arranged by family group.",
           "座位安排是按照家庭組別來編排的。",
-          "某場所提供的座位，或座位／人物的排列方式"
+          "座位如何排列，或人物如何被分配到不同座位"
         ],
         [
           "Check the seating plan before the dinner begins.",
           "晚宴開始前先查看座位表／座位安排。",
-          "某場所提供的座位，或座位／人物的排列方式"
+          "座位如何排列，或人物如何被分配到不同座位"
         ]
       ],
       "options": [],
@@ -710,63 +722,63 @@ export default {
     },
     {
       "id": "seat-06-6",
-      "sense": "seat-mcq-08",
+      "sense": "seat-pdf-001",
       "en": "The seating was arranged by family group.",
       "zh": "座位安排是按照家庭組別來編排的。",
       "masked": "The ____ was arranged by family group.",
       "options": [
-        "seat-mcq-08",
+        "seat-pdf-001",
         "seat-mcq-07",
         "seat-mcq-06",
         "seat-mcq-05",
         "seat-mcq-04",
         "seat-mcq-03"
       ],
-      "explanation": "本句的「seating」指「某場所提供的座位，或座位／人物的排列方式」。",
+      "explanation": "本句的「seating」指「座位如何排列，或人物如何被分配到不同座位」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "seating"
       ],
       "optionReasons": {
-        "seat-mcq-08": "本句指「某場所提供的座位，或座位／人物的排列方式」。",
+        "seat-pdf-001": "本句指「座位如何排列，或人物如何被分配到不同座位」。",
         "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
         "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
         "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
         "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
         "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
       },
-      "correctOption": "seat-mcq-08"
+      "correctOption": "seat-pdf-001"
     },
     {
       "id": "seat-06-7",
-      "sense": "seat-mcq-08",
+      "sense": "seat-pdf-001",
       "en": "Check the seating plan before the dinner begins.",
       "zh": "晚宴開始前先查看座位表／座位安排。",
       "masked": "Check the ____ before the dinner begins.",
       "options": [
-        "seat-mcq-08",
+        "seat-pdf-001",
         "seat-mcq-07",
         "seat-mcq-06",
         "seat-mcq-05",
         "seat-mcq-04",
         "seat-mcq-03"
       ],
-      "explanation": "本句的「seating plan」指「某場所提供的座位，或座位／人物的排列方式」。",
+      "explanation": "本句的「seating plan」指「座位如何排列，或人物如何被分配到不同座位」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "seating plan"
       ],
       "optionReasons": {
-        "seat-mcq-08": "本句指「某場所提供的座位，或座位／人物的排列方式」。",
+        "seat-pdf-001": "本句指「座位如何排列，或人物如何被分配到不同座位」。",
         "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
         "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
         "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
         "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
         "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
       },
-      "correctOption": "seat-mcq-08"
+      "correctOption": "seat-pdf-001"
     }
   ],
   "comparisons": [],

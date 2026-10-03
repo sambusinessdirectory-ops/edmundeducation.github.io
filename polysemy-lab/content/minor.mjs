@@ -154,16 +154,6 @@ export default {
           "The melody shifts from major to minor.",
           "旋律由大調轉為小調。",
           "屬於小調音階／和聲系統的"
-        ],
-        [
-          "The piece moves into the minor.",
-          "這首作品轉入小調。",
-          "屬於小調音階／和聲系統的"
-        ],
-        [
-          "The ending is in C minor.",
-          "結尾是 C 小調。",
-          "屬於小調音階／和聲系統的"
         ]
       ],
       "options": [],
@@ -262,6 +252,28 @@ export default {
           "Religious minorities may face different challenges.",
           "宗教少數群體可能面對不同挑戰。",
           "整體中人數／比例較少的一部分或群體"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "minor-pdf-001",
+      "title": "小調調性",
+      "form": "8. minor = noun, minor key/scale/chord context — 小調",
+      "en": "8. minor = noun, minor key/scale/chord context — 小調",
+      "zh": "小調調性",
+      "note": "原始 PDF 第 8 節：小調調性",
+      "examples": [
+        [
+          "The piece moves into the minor.",
+          "這首作品轉入小調。",
+          "小調調性"
+        ],
+        [
+          "The ending is in C minor.",
+          "結尾是 C 小調。",
+          "小調調性"
         ]
       ],
       "options": [],
@@ -691,63 +703,63 @@ export default {
     },
     {
       "id": "minor-08-0",
-      "sense": "minor-mcq-07",
+      "sense": "minor-pdf-001",
       "en": "The piece moves into the minor.",
       "zh": "這首作品轉入小調。",
       "masked": "The piece moves into the ____.",
       "options": [
-        "minor-mcq-07",
+        "minor-pdf-001",
         "minor-mcq-06",
         "minor-mcq-08",
         "minor-mcq-05",
         "minor-mcq-09",
         "minor-mcq-04"
       ],
-      "explanation": "本句的「minor」指「屬於小調音階／和聲系統的」。",
+      "explanation": "本句的「minor」指「小調調性」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-07": "本句指「屬於小調音階／和聲系統的」。",
+        "minor-pdf-001": "本句指「小調調性」。",
         "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
         "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
         "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
         "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
         "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。"
       },
-      "correctOption": "minor-mcq-07"
+      "correctOption": "minor-pdf-001"
     },
     {
       "id": "minor-08-1",
-      "sense": "minor-mcq-07",
+      "sense": "minor-pdf-001",
       "en": "The ending is in C minor.",
       "zh": "結尾是 C 小調。",
       "masked": "The ending is in C ____.",
       "options": [
-        "minor-mcq-07",
+        "minor-pdf-001",
         "minor-mcq-06",
         "minor-mcq-08",
         "minor-mcq-05",
         "minor-mcq-09",
         "minor-mcq-04"
       ],
-      "explanation": "本句的「minor」指「屬於小調音階／和聲系統的」。",
+      "explanation": "本句的「minor」指「小調調性」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-07": "本句指「屬於小調音階／和聲系統的」。",
+        "minor-pdf-001": "本句指「小調調性」。",
         "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
         "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
         "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
         "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
         "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。"
       },
-      "correctOption": "minor-mcq-07"
+      "correctOption": "minor-pdf-001"
     },
     {
       "id": "minor-09-0",

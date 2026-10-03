@@ -302,16 +302,6 @@ export default {
           "She carefully engineered the situation so that everyone would agree.",
           "她精心安排整個局面，讓所有人都會同意。",
           "策劃促成結果"
-        ],
-        [
-          "The coach engineered the team's victory with a clever tactical change.",
-          "教練透過巧妙的戰術改變策劃促成了球隊勝利。",
-          "策劃促成結果"
-        ],
-        [
-          "They were accused of engineering his removal from the position.",
-          "他們被指策劃令他被撤職。",
-          "策劃促成結果"
         ]
       ],
       "options": [],
@@ -334,6 +324,28 @@ export default {
           "Reverse engineering can reveal the structure of a complex system.",
           "逆向工程可以揭示複雜系統的結構。",
           "逆向工程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "engineer-pdf-001",
+      "title": "有意策劃並操控事情，使某個結果發生",
+      "form": "14. engineer someone's success / defeat — 策劃促成成功／失敗",
+      "en": "14. engineer someone's success / defeat — 策劃促成成功／失敗",
+      "zh": "有意策劃並操控事情，使某個結果發生",
+      "note": "原始 PDF 第 14 節：有意策劃並操控事情，使某個結果發生",
+      "examples": [
+        [
+          "The coach engineered the team's victory with a clever tactical change.",
+          "教練透過巧妙的戰術改變策劃促成了球隊勝利。",
+          "有意策劃並操控事情，使某個結果發生"
+        ],
+        [
+          "They were accused of engineering his removal from the position.",
+          "他們被指策劃令他被撤職。",
+          "有意策劃並操控事情，使某個結果發生"
         ]
       ],
       "options": [],
@@ -1153,63 +1165,63 @@ export default {
     },
     {
       "id": "engineer-14-0",
-      "sense": "engineer-mcq-14",
+      "sense": "engineer-pdf-001",
       "en": "The coach engineered the team's victory with a clever tactical change.",
       "zh": "教練透過巧妙的戰術改變策劃促成了球隊勝利。",
       "masked": "The coach ____ with a clever tactical change.",
       "options": [
-        "engineer-mcq-14",
+        "engineer-pdf-001",
         "engineer-mcq-13",
         "engineer-mcq-15",
         "engineer-mcq-12",
         "engineer-mcq-11",
         "engineer-mcq-10"
       ],
-      "explanation": "本句的「engineered the team's victory」指「策劃促成結果」。",
+      "explanation": "本句的「engineered the team's victory」指「有意策劃並操控事情，使某個結果發生」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "engineered the team's victory"
       ],
       "optionReasons": {
-        "engineer-mcq-14": "本句指「策劃促成結果」。",
+        "engineer-pdf-001": "本句指「有意策劃並操控事情，使某個結果發生」。",
         "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
         "engineer-mcq-15": "「逆向工程」與本句語境不同。",
         "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
         "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
         "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
       },
-      "correctOption": "engineer-mcq-14"
+      "correctOption": "engineer-pdf-001"
     },
     {
       "id": "engineer-14-1",
-      "sense": "engineer-mcq-14",
+      "sense": "engineer-pdf-001",
       "en": "They were accused of engineering his removal from the position.",
       "zh": "他們被指策劃令他被撤職。",
       "masked": "They were accused of ____ from the position.",
       "options": [
-        "engineer-mcq-14",
+        "engineer-pdf-001",
         "engineer-mcq-13",
         "engineer-mcq-15",
         "engineer-mcq-12",
         "engineer-mcq-11",
         "engineer-mcq-10"
       ],
-      "explanation": "本句的「engineering his removal」指「策劃促成結果」。",
+      "explanation": "本句的「engineering his removal」指「有意策劃並操控事情，使某個結果發生」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "engineering his removal"
       ],
       "optionReasons": {
-        "engineer-mcq-14": "本句指「策劃促成結果」。",
+        "engineer-pdf-001": "本句指「有意策劃並操控事情，使某個結果發生」。",
         "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
         "engineer-mcq-15": "「逆向工程」與本句語境不同。",
         "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
         "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
         "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
       },
-      "correctOption": "engineer-mcq-14"
+      "correctOption": "engineer-pdf-001"
     },
     {
       "id": "engineer-15-0",

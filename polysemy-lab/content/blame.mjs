@@ -71,18 +71,7 @@ export default {
       "en": "blame on stress",
       "zh": "歸咎於壓力",
       "note": "來源詞義：歸咎於壓力",
-      "examples": [
-        [
-          "He blamed his reaction on stress.",
-          "他把自己的反應歸咎於壓力。",
-          "歸咎於壓力"
-        ],
-        [
-          "The delay was blamed on technical problems.",
-          "延誤被歸因於技術問題。",
-          "歸咎於壓力"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -601,6 +590,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "blame-pdf-001",
+      "title": "把 X 的原因或責任歸到 Y",
+      "form": "5. blame something on a cause — 把問題歸因於某因素",
+      "en": "5. blame something on a cause — 把問題歸因於某因素",
+      "zh": "把 X 的原因或責任歸到 Y",
+      "note": "原始 PDF 第 5 節：把 X 的原因或責任歸到 Y",
+      "examples": [
+        [
+          "He blamed his reaction on stress.",
+          "他把自己的反應歸咎於壓力。",
+          "把 X 的原因或責任歸到 Y"
+        ],
+        [
+          "The delay was blamed on technical problems.",
+          "延誤被歸因於技術問題。",
+          "把 X 的原因或責任歸到 Y"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -876,63 +887,63 @@ export default {
     },
     {
       "id": "blame-05-0",
-      "sense": "blame-mcq-04",
+      "sense": "blame-pdf-001",
       "en": "He blamed his reaction on stress.",
       "zh": "他把自己的反應歸咎於壓力。",
       "masked": "He ____.",
       "options": [
-        "blame-mcq-04",
+        "blame-pdf-001",
         "blame-mcq-03",
         "blame-mcq-05",
         "blame-mcq-02",
         "blame-mcq-06",
         "blame-mcq-01"
       ],
-      "explanation": "本句的「blamed his reaction on stress」指「歸咎於壓力」。",
+      "explanation": "本句的「blamed his reaction on stress」指「把 X 的原因或責任歸到 Y」。",
       "sentenceIndex": 9,
       "sourcePractice": 1,
       "targets": [
         "blamed his reaction on stress"
       ],
       "optionReasons": {
-        "blame-mcq-04": "本句指「歸咎於壓力」。",
+        "blame-pdf-001": "本句指「把 X 的原因或責任歸到 Y」。",
         "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
         "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
         "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
         "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
         "blame-mcq-01": "「責怪某人」是「blame someone」的用法，與本句語境不同。"
       },
-      "correctOption": "blame-mcq-04"
+      "correctOption": "blame-pdf-001"
     },
     {
       "id": "blame-05-1",
-      "sense": "blame-mcq-04",
+      "sense": "blame-pdf-001",
       "en": "The delay was blamed on technical problems.",
       "zh": "延誤被歸因於技術問題。",
       "masked": "The delay was ____.",
       "options": [
-        "blame-mcq-04",
+        "blame-pdf-001",
         "blame-mcq-03",
         "blame-mcq-05",
         "blame-mcq-02",
         "blame-mcq-06",
         "blame-mcq-01"
       ],
-      "explanation": "本句的「blamed on technical problems」指「歸咎於壓力」。",
+      "explanation": "本句的「blamed on technical problems」指「把 X 的原因或責任歸到 Y」。",
       "sentenceIndex": 10,
       "sourcePractice": 2,
       "targets": [
         "blamed on technical problems"
       ],
       "optionReasons": {
-        "blame-mcq-04": "本句指「歸咎於壓力」。",
+        "blame-pdf-001": "本句指「把 X 的原因或責任歸到 Y」。",
         "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
         "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
         "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
         "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
         "blame-mcq-01": "「責怪某人」是「blame someone」的用法，與本句語境不同。"
       },
-      "correctOption": "blame-mcq-04"
+      "correctOption": "blame-pdf-001"
     },
     {
       "id": "blame-06-0",
