@@ -86,7 +86,7 @@ test('girls share availability but have independent equipped slots',async()=>{
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
  equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('ivory-botanical-cap','celeste');equipCosmetic('pink-rain-jacket','elsie');
  assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',celesteHeadwear:'ivory-botanical-cap',elsieTop:'pink-rain-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','white-oversized-tee','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress','brown-shearling-lace-boots']);
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','navy-fish-bucket-hat','ivory-racecar-baseball-cap','white-oversized-tee','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress','brown-shearling-lace-boots']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
@@ -106,6 +106,39 @@ test('the botanical cap is independently fitted and equippable for all five char
  assert.equal(new Set(hashes).size,5);
  const display=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/ivory-botanical-cap-display.png',import.meta.url));
  assert.deepEqual([...display.subarray(0,8)],[137,80,78,71,13,10,26,10]);
+});
+test('the fish bucket hat and race-car baseball cap remain distinct and independently fitted for all five characters',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const characters=['eddy','noir','celeste','phoebe','elsie'];
+ for(const id of ['navy-fish-bucket-hat','ivory-racecar-baseball-cap']){
+  const hashes=[];
+  for(const character of characters){
+   clearCosmetics(character);equipCosmetic(id,character);
+   assert.equal(cosmeticsState().equipped[character+'Headwear'],id);
+   for(const file of [`${id}.webp`,`${id}-hide.webp`]){
+    const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+file,import.meta.url));
+    assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');assert.ok(bytes.length>10000);
+    const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+    assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);
+    if(file===`${id}.webp`)hashes.push(createHash('sha256').update(bytes).digest('hex'));
+   }
+  }
+  assert.equal(new Set(hashes).size,5,`${id} must have five independent fitted atlases`);
+  const display=readFileSync(new URL(`../assets/speaking-system/cosmetics/shared/${id}-display.png`,import.meta.url));
+  assert.deepEqual([...display.subarray(0,8)],[137,80,78,71,13,10,26,10]);
+ }
+ const bucket=readFileSync(new URL('../assets/speaking-system/cosmetics/eddy/navy-fish-bucket-hat.webp',import.meta.url));
+ const cap=readFileSync(new URL('../assets/speaking-system/cosmetics/eddy/ivory-racecar-baseball-cap.webp',import.meta.url));
+ assert.notEqual(createHash('sha256').update(bucket).digest('hex'),createHash('sha256').update(cap).digest('hex'));
+ for(const character of characters)clearCosmetics(character);
+});
+test('the two-hat migration registers both products and preserves every current wardrobe allowlist',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261002181557_all_character_fish_bucket_race_cap.sql',import.meta.url),'utf8');
+ assert.match(sql,/\('navy-fish-bucket-hat','Navy fish bucket hat',20,true\)/);
+ assert.match(sql,/\('ivory-racecar-baseball-cap','Ivory race-car baseball cap',20,true\)/);
+ for(const id of ['ivory-botanical-cap','navy-fish-bucket-hat','ivory-racecar-baseball-cap','beige-utility-shirt','white-shirt-black-tie','black-v-neck-collar-sweater','navy-blazer-cream-sweatshirt','navy-cream-knit-vest','ivory-tiered-dress','brown-shearling-lace-boots'])assert.ok(sql.includes(`'${id}'`),id+' must remain allowed');
+ for(const slot of ['eddyHeadwear','noirHeadwear','celesteHeadwear','phoebeHeadwear','elsieHeadwear'])assert.match(sql,new RegExp("not\\(value\\?'"+slot+"'\\).*navy-fish-bucket-hat.*ivory-racecar-baseball-cap"));
 });
 test('the shearling lace boots have five independent feet-slot atlases and remain compatible with full-body clothing',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');const hashes=[];

@@ -2,6 +2,8 @@
 export const COSMETICS=Object.freeze([
  {id:'white-fedora',slot:'headwear',price:15,name:'White fedora',description:'白色 Fedora 帽',hide:'hat-hide'},
  {id:'ivory-botanical-cap',slot:'headwear',group:'all',price:15,name:'Ivory botanical baseball cap',description:'象牙白棉質棒球帽 · 橄欖綠植物刺繡',display:'shared/ivory-botanical-cap-display.png',hide:'ivory-botanical-cap-hide'},
+ {id:'navy-fish-bucket-hat',slot:'headwear',group:'all',price:20,name:'Navy fish bucket hat',description:'海軍藍漁夫帽 · 小魚刺繡圖案',display:'shared/navy-fish-bucket-hat-display.png',hide:'navy-fish-bucket-hat-hide'},
+ {id:'ivory-racecar-baseball-cap',slot:'headwear',group:'all',price:20,name:'Ivory race-car baseball cap',description:'象牙白棉質棒球帽 · 紅色賽車刺繡',display:'shared/ivory-racecar-baseball-cap-display.png',hide:'ivory-racecar-baseball-cap-hide'},
  {id:'cream-cable-knit',slot:'top',price:25,name:'Cream cable-knit crewneck',description:'奶油色麻花針織毛衣'},
  {id:'charcoal-turtleneck',slot:'top',price:25,name:'Charcoal gray turtleneck',description:'炭灰色高領毛衣'},
  {id:'blue-swordsman-jacket',slot:'top',price:35,name:'Blue swordsman jacket',description:'藍色劍士外套 · 銀色飾邊'},
@@ -72,7 +74,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261003-smart-casual1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261003-all-hats1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();

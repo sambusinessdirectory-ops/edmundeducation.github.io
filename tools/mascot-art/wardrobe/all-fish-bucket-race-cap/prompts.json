@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "useCase": "stylized-concept",
+  "designReference": "design-reference.png",
+  "navyFishBucketHat": {
+    "output": "navy-fish-bucket-hat-source.png",
+    "promptSummary": "Exactly sixteen isolated rotational views of the navy fish-pattern bucket hat: soft cylindrical crown, flat circular top and continuous 360-degree downward stitched brim; explicitly no baseball visor, top button, rear adjustment opening or six-panel cap construction; true transparency."
+  },
+  "ivoryRacecarBaseballCap": {
+    "output": "ivory-racecar-baseball-cap-source.png",
+    "promptSummary": "Exactly sixteen isolated rotational views of the warm-ivory six-panel baseball cap with curved forward brim, top button, eyelets, horse-ear openings and a red vintage open-wheel race-car embroidery that rotates with the front panel; true transparency."
+  },
+  "fittingMethod": "Close generic generated ear holes, use the accepted per-character botanical-cap landmarks, independently scale and register each item and direction, then reopen only canonical character ear pixels."
+}
