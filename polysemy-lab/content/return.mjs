@@ -105,18 +105,7 @@ export default {
       "en": "a return",
       "zh": "一宗退貨 retail noun",
       "note": "來源詞義：一宗退貨 retail noun",
-      "examples": [
-        [
-          "Single or return?",
-          "單程還是來回？",
-          "一宗退貨 retail noun"
-        ],
-        [
-          "Two returns to Brighton, please.",
-          "請給我兩張去 Brighton 的來回票。",
-          "一宗退貨 retail noun"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1130,16 +1119,6 @@ export default {
       "note": "來源詞義：錄得／產生盈利 business",
       "examples": [
         [
-          "Investors want a reasonable return.",
-          "投資者希望獲得合理回報。",
-          "錄得／產生盈利 business"
-        ],
-        [
-          "The investment produced a strong return.",
-          "這項投資帶來可觀收益。",
-          "錄得／產生盈利 business"
-        ],
-        [
           "The new division finally returned a profit.",
           "新事業部終於錄得盈利／帶來盈利。",
           "錄得／產生盈利 business"
@@ -1625,6 +1604,50 @@ export default {
           "The customer returned the dress.",
           "顧客退回裙子。",
           "回頭客 repeat business"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "return-pdf-plain-061",
+      "title": "來回票；往返車票",
+      "form": "PDF section 61",
+      "en": "PDF section 61",
+      "zh": "來回票；往返車票",
+      "note": "原始 PDF 第 61 節：來回票；往返車票",
+      "examples": [
+        [
+          "Single or return?",
+          "單程還是來回？",
+          "來回票；往返車票"
+        ],
+        [
+          "Two returns to Brighton, please.",
+          "請給我兩張去 Brighton 的來回票。",
+          "來回票；往返車票"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "return-pdf-plain-064",
+      "title": "投資所得的回報或收益",
+      "form": "PDF section 64",
+      "en": "PDF section 64",
+      "zh": "投資所得的回報或收益",
+      "note": "原始 PDF 第 64 節：投資所得的回報或收益",
+      "examples": [
+        [
+          "Investors want a reasonable return.",
+          "投資者希望獲得合理回報。",
+          "投資所得的回報或收益"
+        ],
+        [
+          "The investment produced a strong return.",
+          "這項投資帶來可觀收益。",
+          "投資所得的回報或收益"
         ]
       ],
       "options": [],
@@ -3914,63 +3937,63 @@ export default {
     },
     {
       "id": "return-61-0",
-      "sense": "return-mcq-05",
+      "sense": "return-pdf-plain-061",
       "en": "Single or return?",
       "zh": "單程還是來回？",
       "masked": "Single or ____?",
       "options": [
-        "return-mcq-05",
+        "return-pdf-plain-061",
         "return-mcq-04",
         "return-mcq-06",
         "return-mcq-03",
         "return-mcq-07",
         "return-mcq-02"
       ],
-      "explanation": "本句的「return」指「一宗退貨 retail noun」。",
+      "explanation": "本句的「return」指「來回票；往返車票」。",
       "sentenceIndex": 118,
       "sourcePractice": 61,
       "targets": [
         "return"
       ],
       "optionReasons": {
-        "return-mcq-05": "本句指「一宗退貨 retail noun」。",
+        "return-pdf-plain-061": "本句指「來回票；往返車票」。",
         "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
         "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
         "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
         "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
         "return-mcq-02": "「退回貨品 retail」與本句語境不同。"
       },
-      "correctOption": "return-mcq-05"
+      "correctOption": "return-pdf-plain-061"
     },
     {
       "id": "return-61-1",
-      "sense": "return-mcq-05",
+      "sense": "return-pdf-plain-061",
       "en": "Two returns to Brighton, please.",
       "zh": "請給我兩張去 Brighton 的來回票。",
       "masked": "Two ____ to Brighton, please.",
       "options": [
-        "return-mcq-05",
+        "return-pdf-plain-061",
         "return-mcq-04",
         "return-mcq-06",
         "return-mcq-03",
         "return-mcq-07",
         "return-mcq-02"
       ],
-      "explanation": "本句的「returns」指「一宗退貨 retail noun」。",
+      "explanation": "本句的「returns」指「來回票；往返車票」。",
       "sentenceIndex": 119,
       "sourcePractice": 61,
       "targets": [
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-05": "本句指「一宗退貨 retail noun」。",
+        "return-pdf-plain-061": "本句指「來回票；往返車票」。",
         "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
         "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
         "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
         "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
         "return-mcq-02": "「退回貨品 retail」與本句語境不同。"
       },
-      "correctOption": "return-mcq-05"
+      "correctOption": "return-pdf-plain-061"
     },
     {
       "id": "return-62-0",
@@ -4094,63 +4117,63 @@ export default {
     },
     {
       "id": "return-64-0",
-      "sense": "return-mcq-58",
+      "sense": "return-pdf-plain-064",
       "en": "Investors want a reasonable return.",
       "zh": "投資者希望獲得合理回報。",
       "masked": "Investors want a reasonable ____.",
       "options": [
-        "return-mcq-58",
+        "return-pdf-plain-064",
         "return-mcq-57",
         "return-mcq-59",
         "return-mcq-56",
         "return-mcq-60",
         "return-mcq-55"
       ],
-      "explanation": "本句的「return」指「錄得／產生盈利 business」。",
+      "explanation": "本句的「return」指「投資所得的回報或收益」。",
       "sentenceIndex": 124,
       "sourcePractice": 64,
       "targets": [
         "return"
       ],
       "optionReasons": {
-        "return-mcq-58": "本句指「錄得／產生盈利 business」。",
+        "return-pdf-plain-064": "本句指「投資所得的回報或收益」。",
         "return-mcq-57": "「總回報 finance」與本句語境不同。",
         "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
         "return-mcq-56": "「年度回報 finance」與本句語境不同。",
         "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
         "return-mcq-55": "「回報率 finance」與本句語境不同。"
       },
-      "correctOption": "return-mcq-58"
+      "correctOption": "return-pdf-plain-064"
     },
     {
       "id": "return-64-1",
-      "sense": "return-mcq-58",
+      "sense": "return-pdf-plain-064",
       "en": "The investment produced a strong return.",
       "zh": "這項投資帶來可觀收益。",
       "masked": "The investment produced a strong ____.",
       "options": [
-        "return-mcq-58",
+        "return-pdf-plain-064",
         "return-mcq-57",
         "return-mcq-59",
         "return-mcq-56",
         "return-mcq-60",
         "return-mcq-55"
       ],
-      "explanation": "本句的「return」指「錄得／產生盈利 business」。",
+      "explanation": "本句的「return」指「投資所得的回報或收益」。",
       "sentenceIndex": 125,
       "sourcePractice": 64,
       "targets": [
         "return"
       ],
       "optionReasons": {
-        "return-mcq-58": "本句指「錄得／產生盈利 business」。",
+        "return-pdf-plain-064": "本句指「投資所得的回報或收益」。",
         "return-mcq-57": "「總回報 finance」與本句語境不同。",
         "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
         "return-mcq-56": "「年度回報 finance」與本句語境不同。",
         "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
         "return-mcq-55": "「回報率 finance」與本句語境不同。"
       },
-      "correctOption": "return-mcq-58"
+      "correctOption": "return-pdf-plain-064"
     },
     {
       "id": "return-65-0",

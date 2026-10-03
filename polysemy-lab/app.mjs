@@ -1,6 +1,6 @@
 import {companionFor,companionName,companionStorageKeys} from './companion.mjs?v=20260928-shared-companion1';
 import {createMedia} from './media.mjs?v=20261003-polysemy-voices3';
-import {modules,moduleMap,allQuestionMap,loadModule,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20261003-pdf-audit1';
+import {modules,moduleMap,allQuestionMap,loadModule,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20261003-pdf-audit2';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let client,user=null,events=[],outbox=[],timeDays=[],syncing=null,mode='directory',activeModule=null,feedback=null,clockSeconds=0,lastAction=Date.now(),lastTick=Date.now(),generation=0,moduleSelection=0,range='7',cacheWarning=false;
 const media=createMedia({getUser:()=>user,getModule:()=>showModule,getCompanion:()=>companionFor(user?.id),rpc});

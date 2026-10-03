@@ -1,11 +1,11 @@
-import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20261003-pdf-audit1';
+import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20261003-pdf-audit2';
 export {modules,moduleMap,allQuestionMap};
 export let showModule,questions,senses,questionMap;
 export async function loadModule(id){
  const indexed=moduleMap.get(id);
  if(!indexed)throw Error('Unknown module');
  if(!indexed.mass||indexed.loaded)return indexed;
- const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=20261003-pdf-audit1`)).default;
+ const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=20261003-pdf-audit2`)).default;
  if(loaded.id!==id||loaded.number!==indexed.number)throw Error('Lesson content does not match its index');
  loaded.loaded=true;
  const at=modules.findIndex(module=>module.id===id);

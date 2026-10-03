@@ -516,16 +516,6 @@ export default {
           "Each daughter cell develops from the mother cell.",
           "每個子細胞都由母細胞發展而來。",
           "能分裂／產生其他細胞的原始細胞"
-        ],
-        [
-          "The puppies stayed close to their mother.",
-          "小狗留在牠們的母狗／媽媽身邊。",
-          "能分裂／產生其他細胞的原始細胞"
-        ],
-        [
-          "The mother bird fed her chicks.",
-          "母鳥餵食幼鳥。",
-          "能分裂／產生其他細胞的原始細胞"
         ]
       ],
       "options": [],
@@ -570,6 +560,28 @@ export default {
           "She became a mother to children who needed support.",
           "她像母親一樣照顧那些需要支持的孩子。",
           "即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "mother-pdf-reviewed-01",
+      "title": "動物的雌性親代",
+      "form": "PDF practice 58",
+      "en": "PDF practice 58",
+      "zh": "動物的雌性親代",
+      "note": "原始 PDF 練習 58：動物的雌性親代",
+      "examples": [
+        [
+          "The puppies stayed close to their mother.",
+          "小狗留在牠們的母狗／媽媽身邊。",
+          "動物的雌性親代"
+        ],
+        [
+          "The mother bird fed her chicks.",
+          "母鳥餵食幼鳥。",
+          "動物的雌性親代"
         ]
       ],
       "options": [],
@@ -2289,63 +2301,63 @@ export default {
     },
     {
       "id": "mother-29-0",
-      "sense": "mother-mcq-21",
+      "sense": "mother-pdf-reviewed-01",
       "en": "The puppies stayed close to their mother.",
       "zh": "小狗留在牠們的母狗／媽媽身邊。",
       "masked": "The puppies stayed close to their ____.",
       "options": [
-        "mother-mcq-21",
+        "mother-pdf-reviewed-01",
         "mother-mcq-20",
         "mother-mcq-22",
         "mother-mcq-19",
         "mother-mcq-18",
         "mother-mcq-17"
       ],
-      "explanation": "本句的「mother」指「能分裂／產生其他細胞的原始細胞」。",
+      "explanation": "本句的「mother」指「動物的雌性親代」。",
       "sentenceIndex": 57,
       "sourcePractice": 58,
       "targets": [
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-21": "本句指「能分裂／產生其他細胞的原始細胞」。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」是「25. mother ship / mothership（母艦／母船） — 母艦；母船；母機」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-pdf-reviewed-01": "本句指「動物的雌性親代」。",
+        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」與本句語境不同。",
+        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」與本句語境不同。",
+        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」與本句語境不同。",
+        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」與本句語境不同。",
+        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」與本句語境不同。"
       },
-      "correctOption": "mother-mcq-21"
+      "correctOption": "mother-pdf-reviewed-01"
     },
     {
       "id": "mother-29-1",
-      "sense": "mother-mcq-21",
+      "sense": "mother-pdf-reviewed-01",
       "en": "The mother bird fed her chicks.",
       "zh": "母鳥餵食幼鳥。",
       "masked": "The ____ bird fed her chicks.",
       "options": [
-        "mother-mcq-21",
+        "mother-pdf-reviewed-01",
         "mother-mcq-20",
         "mother-mcq-22",
         "mother-mcq-19",
         "mother-mcq-18",
         "mother-mcq-17"
       ],
-      "explanation": "本句的「mother」指「能分裂／產生其他細胞的原始細胞」。",
+      "explanation": "本句的「mother」指「動物的雌性親代」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "targets": [
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-21": "本句指「能分裂／產生其他細胞的原始細胞」。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」是「25. mother ship / mothership（母艦／母船） — 母艦；母船；母機」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-pdf-reviewed-01": "本句指「動物的雌性親代」。",
+        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」與本句語境不同。",
+        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」與本句語境不同。",
+        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」與本句語境不同。",
+        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」與本句語境不同。",
+        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」與本句語境不同。"
       },
-      "correctOption": "mother-mcq-21"
+      "correctOption": "mother-pdf-reviewed-01"
     }
   ],
   "comparisons": [],

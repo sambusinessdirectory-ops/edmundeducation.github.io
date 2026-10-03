@@ -641,16 +641,28 @@ export default {
           "She opened the desk drawer.",
           "她打開書桌的抽屜。",
           "家具中可拉出和推回、用來存放物品的盒狀部分"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "draw-pdf-reviewed-01",
+      "title": "畫圖的人",
+      "form": "PDF practice 62",
+      "en": "PDF practice 62",
+      "zh": "畫圖的人",
+      "note": "原始 PDF 練習 62：畫圖的人",
+      "examples": [
         [
           "He is a skilled drawer.",
           "他是一個熟練的繪圖者。",
-          "家具中可拉出和推回、用來存放物品的盒狀部分"
+          "畫圖的人"
         ],
         [
           "The better drawer completed the sketch quickly.",
           "較擅長繪畫的人很快完成了草圖。",
-          "家具中可拉出和推回、用來存放物品的盒狀部分"
+          "畫圖的人"
         ]
       ],
       "options": [],
@@ -2490,63 +2502,63 @@ export default {
     },
     {
       "id": "draw-31-0",
-      "sense": "draw-mcq-28",
+      "sense": "draw-pdf-reviewed-01",
       "en": "He is a skilled drawer.",
       "zh": "他是一個熟練的繪圖者。",
       "masked": "He is a skilled ____.",
       "options": [
-        "draw-mcq-28",
+        "draw-pdf-reviewed-01",
         "draw-mcq-27",
         "draw-mcq-26",
         "draw-mcq-25",
         "draw-mcq-24",
         "draw-mcq-23"
       ],
-      "explanation": "本句的「drawer」指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
+      "explanation": "本句的「drawer」指「畫圖的人」。",
       "sentenceIndex": 61,
       "sourcePractice": 62,
       "targets": [
         "drawer"
       ],
       "optionReasons": {
-        "draw-mcq-28": "本句指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-pdf-reviewed-01": "本句指「畫圖的人」。",
+        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」與本句語境不同。",
+        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」與本句語境不同。",
+        "draw-mcq-25": "「用筆等畫成的圖像或作品」與本句語境不同。",
+        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」與本句語境不同。",
+        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」與本句語境不同。"
       },
-      "correctOption": "draw-mcq-28"
+      "correctOption": "draw-pdf-reviewed-01"
     },
     {
       "id": "draw-31-1",
-      "sense": "draw-mcq-28",
+      "sense": "draw-pdf-reviewed-01",
       "en": "The better drawer completed the sketch quickly.",
       "zh": "較擅長繪畫的人很快完成了草圖。",
       "masked": "The better ____ completed the sketch quickly.",
       "options": [
-        "draw-mcq-28",
+        "draw-pdf-reviewed-01",
         "draw-mcq-27",
         "draw-mcq-26",
         "draw-mcq-25",
         "draw-mcq-24",
         "draw-mcq-23"
       ],
-      "explanation": "本句的「drawer」指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
+      "explanation": "本句的「drawer」指「畫圖的人」。",
       "sentenceIndex": 62,
       "sourcePractice": 63,
       "targets": [
         "drawer"
       ],
       "optionReasons": {
-        "draw-mcq-28": "本句指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-pdf-reviewed-01": "本句指「畫圖的人」。",
+        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」與本句語境不同。",
+        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」與本句語境不同。",
+        "draw-mcq-25": "「用筆等畫成的圖像或作品」與本句語境不同。",
+        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」與本句語境不同。",
+        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」與本句語境不同。"
       },
-      "correctOption": "draw-mcq-28"
+      "correctOption": "draw-pdf-reviewed-01"
     }
   ],
   "comparisons": [],

@@ -265,7 +265,13 @@ export default {
       "en": "storage space",
       "zh": "可用來存放實物或數碼資料的空間",
       "note": "來源詞義：可用來存放實物或數碼資料的空間",
-      "examples": [],
+      "examples": [
+        [
+          "We need more storage in the kitchen.",
+          "廚房需要更多收納空間。",
+          "可用來存放實物或數碼資料的空間"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -818,7 +824,13 @@ export default {
       "en": "storage — physical",
       "zh": "把物品保存起來的行為／安排",
       "note": "來源詞義：把物品保存起來的行為／安排",
-      "examples": [],
+      "examples": [
+        [
+          "The furniture is currently in storage.",
+          "家具目前正在寄存／存放。",
+          "把物品保存起來的行為／安排"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -902,7 +914,13 @@ export default {
       "en": "cold storage — food",
       "zh": "低溫冷藏保存",
       "note": "來源詞義：低溫冷藏保存",
-      "examples": [],
+      "examples": [
+        [
+          "The fruit must be kept in cold storage.",
+          "水果必須放在冷藏庫。",
+          "低溫冷藏保存"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1212,13 +1230,7 @@ export default {
       "en": "cold storage — data",
       "zh": "專門保存很少存取資料的低成本冷儲存",
       "note": "來源詞義：專門保存很少存取資料的低成本冷儲存",
-      "examples": [
-        [
-          "The fruit must be kept in cold storage.",
-          "水果必須放在冷藏庫。",
-          "專門保存很少存取資料的低成本冷儲存"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1229,18 +1241,7 @@ export default {
       "en": "hot storage",
       "zh": "供高頻存取資料使用的高速儲存層",
       "note": "來源詞義：供高頻存取資料使用的高速儲存層",
-      "examples": [
-        [
-          "The furniture is currently in storage.",
-          "家具目前正在寄存／存放。",
-          "供高頻存取資料使用的高速儲存層"
-        ],
-        [
-          "We need more storage in the kitchen.",
-          "廚房需要更多收納空間。",
-          "供高頻存取資料使用的高速儲存層"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1741,63 +1742,63 @@ export default {
     },
     {
       "id": "store-78-0",
-      "sense": "store-mcq-100",
+      "sense": "store-mcq-70",
       "en": "The furniture is currently in storage.",
       "zh": "家具目前正在寄存／存放。",
       "masked": "The furniture is currently in ____.",
       "options": [
-        "store-mcq-100",
+        "store-mcq-70",
         "store-mcq-99",
         "store-mcq-101",
         "store-mcq-98",
         "store-mcq-102",
         "store-mcq-97"
       ],
-      "explanation": "本句的「storage」指「供高頻存取資料使用的高速儲存層」。",
+      "explanation": "本句的「storage」指「把物品保存起來的行為／安排」。",
       "sentenceIndex": 13,
       "sourcePractice": 78,
       "targets": [
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-100": "本句指「供高頻存取資料使用的高速儲存層」。",
+        "store-mcq-70": "本句指「把物品保存起來的行為／安排」。",
         "store-mcq-99": "「專門保存很少存取資料的低成本冷儲存」與本句語境不同。",
         "store-mcq-101": "「先儲存資料再轉送至下一站的通訊方式」與本句語境不同。",
         "store-mcq-98": "「電腦中非主要記憶體的持久儲存」與本句語境不同。",
         "store-mcq-102": "「與網店相對的實體零售店」與本句語境不同。",
         "store-mcq-97": "「大容量數碼儲存」與本句語境不同。"
       },
-      "correctOption": "store-mcq-100"
+      "correctOption": "store-mcq-70"
     },
     {
       "id": "store-78-1",
-      "sense": "store-mcq-100",
+      "sense": "store-mcq-24",
       "en": "We need more storage in the kitchen.",
       "zh": "廚房需要更多收納空間。",
       "masked": "We need more ____ in the kitchen.",
       "options": [
-        "store-mcq-100",
+        "store-mcq-24",
         "store-mcq-99",
         "store-mcq-101",
         "store-mcq-98",
         "store-mcq-102",
         "store-mcq-97"
       ],
-      "explanation": "本句的「storage」指「供高頻存取資料使用的高速儲存層」。",
+      "explanation": "本句的「storage」指「可用來存放實物或數碼資料的空間」。",
       "sentenceIndex": 14,
       "sourcePractice": 78,
       "targets": [
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-100": "本句指「供高頻存取資料使用的高速儲存層」。",
+        "store-mcq-24": "本句指「可用來存放實物或數碼資料的空間」。",
         "store-mcq-99": "「專門保存很少存取資料的低成本冷儲存」與本句語境不同。",
         "store-mcq-101": "「先儲存資料再轉送至下一站的通訊方式」與本句語境不同。",
         "store-mcq-98": "「電腦中非主要記憶體的持久儲存」與本句語境不同。",
         "store-mcq-102": "「與網店相對的實體零售店」與本句語境不同。",
         "store-mcq-97": "「大容量數碼儲存」與本句語境不同。"
       },
-      "correctOption": "store-mcq-100"
+      "correctOption": "store-mcq-24"
     },
     {
       "id": "store-79-0",
@@ -1891,33 +1892,33 @@ export default {
     },
     {
       "id": "store-84-0",
-      "sense": "store-mcq-99",
+      "sense": "store-mcq-76",
       "en": "The fruit must be kept in cold storage.",
       "zh": "水果必須放在冷藏庫。",
       "masked": "The fruit must be kept in cold ____.",
       "options": [
-        "store-mcq-99",
+        "store-mcq-76",
         "store-mcq-98",
         "store-mcq-100",
         "store-mcq-97",
         "store-mcq-101",
         "store-mcq-96"
       ],
-      "explanation": "本句的「storage」指「專門保存很少存取資料的低成本冷儲存」。",
+      "explanation": "本句的「storage」指「低溫冷藏保存」。",
       "sentenceIndex": 18,
       "sourcePractice": 84,
       "targets": [
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-99": "本句指「專門保存很少存取資料的低成本冷儲存」。",
+        "store-mcq-76": "本句指「低溫冷藏保存」。",
         "store-mcq-98": "「電腦中非主要記憶體的持久儲存」與本句語境不同。",
         "store-mcq-100": "「供高頻存取資料使用的高速儲存層」與本句語境不同。",
         "store-mcq-97": "「大容量數碼儲存」與本句語境不同。",
         "store-mcq-101": "「先儲存資料再轉送至下一站的通訊方式」與本句語境不同。",
         "store-mcq-96": "「用來保存數碼資訊的儲存媒介」與本句語境不同。"
       },
-      "correctOption": "store-mcq-99"
+      "correctOption": "store-mcq-76"
     },
     {
       "id": "store-89-0",

@@ -346,28 +346,7 @@ export default {
       "en": "For your original sentence",
       "zh": "耳機播放出來、能被使用者聽見的音訊",
       "note": "來源詞義：耳機播放出來、能被使用者聽見的音訊",
-      "examples": [
-        [
-          "I like the sound of that.",
-          "聽起來很不錯，我喜歡這個主意。",
-          "耳機播放出來、能被使用者聽見的音訊"
-        ],
-        [
-          "I like the sound of that.",
-          "這個安排聽起來很吸引。",
-          "耳機播放出來、能被使用者聽見的音訊"
-        ],
-        [
-          "I don’t like the sound of that.",
-          "這聽起來不太妙。",
-          "耳機播放出來、能被使用者聽見的音訊"
-        ],
-        [
-          "I don’t like the sound of that.",
-          "這個情況聽起來不太理想。",
-          "耳機播放出來、能被使用者聽見的音訊"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -388,6 +367,50 @@ export default {
           "The job sounds interesting.",
           "這份工作聽起來很有趣。",
           "根據聽到的資料或說法，給人某種印象"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sound-pdf-like-sound",
+      "title": "聽到構思、安排或提議後，覺得它吸引並產生好感",
+      "form": "like the sound of something",
+      "en": "like the sound of something",
+      "zh": "聽到構思、安排或提議後，覺得它吸引並產生好感",
+      "note": "原始 PDF 用法：聽到構思、安排或提議後，覺得它吸引並產生好感",
+      "examples": [
+        [
+          "I like the sound of that.",
+          "聽起來很不錯，我喜歡這個主意。",
+          "聽到構思、安排或提議後，覺得它吸引並產生好感"
+        ],
+        [
+          "I like the sound of that.",
+          "這個安排聽起來很吸引。",
+          "聽到構思、安排或提議後，覺得它吸引並產生好感"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "sound-pdf-not-like-sound",
+      "title": "聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+      "form": "not like the sound of something",
+      "en": "not like the sound of something",
+      "zh": "聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+      "note": "原始 PDF 用法：聽到消息或情況後，覺得它不妙、令人擔心或不吸引",
+      "examples": [
+        [
+          "I don’t like the sound of that.",
+          "這聽起來不太妙。",
+          "聽到消息或情況後，覺得它不妙、令人擔心或不吸引"
+        ],
+        [
+          "I don’t like the sound of that.",
+          "這個情況聽起來不太理想。",
+          "聽到消息或情況後，覺得它不妙、令人擔心或不吸引"
         ]
       ],
       "options": [],
@@ -427,33 +450,33 @@ export default {
     },
     {
       "id": "sound-16-0",
-      "sense": "sound-mcq-16",
+      "sense": "sound-pdf-like-sound",
       "en": "I like the sound of that.",
       "zh": "聽起來很不錯，我喜歡這個主意。",
       "masked": "I like the ____ of that.",
       "options": [
-        "sound-mcq-16",
+        "sound-pdf-like-sound",
         "sound-mcq-15",
         "sound-mcq-17",
         "sound-mcq-14",
         "sound-mcq-13",
         "sound-mcq-12"
       ],
-      "explanation": "本句的「sound」指「耳機播放出來、能被使用者聽見的音訊」。",
+      "explanation": "本句的「sound」指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
       "sentenceIndex": 1,
       "sourcePractice": 1,
       "targets": [
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-16": "本句指「耳機播放出來、能被使用者聽見的音訊」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」是「4. sound = impression created by words/idea（說話／構思給人的感覺） — 聽起來的感覺／印象」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-pdf-like-sound": "本句指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
+        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
+        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
+        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
+        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
+        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
       },
-      "correctOption": "sound-mcq-16"
+      "correctOption": "sound-pdf-like-sound"
     },
     {
       "id": "sound-01-1",
@@ -487,33 +510,33 @@ export default {
     },
     {
       "id": "sound-16-1",
-      "sense": "sound-mcq-16",
+      "sense": "sound-pdf-like-sound",
       "en": "I like the sound of that.",
       "zh": "這個安排聽起來很吸引。",
       "masked": "I like the ____ of that.",
       "options": [
-        "sound-mcq-16",
+        "sound-pdf-like-sound",
         "sound-mcq-15",
         "sound-mcq-17",
         "sound-mcq-14",
         "sound-mcq-13",
         "sound-mcq-12"
       ],
-      "explanation": "本句的「sound」指「耳機播放出來、能被使用者聽見的音訊」。",
+      "explanation": "本句的「sound」指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
       "sentenceIndex": 3,
       "sourcePractice": 2,
       "targets": [
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-16": "本句指「耳機播放出來、能被使用者聽見的音訊」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」是「4. sound = impression created by words/idea（說話／構思給人的感覺） — 聽起來的感覺／印象」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-pdf-like-sound": "本句指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
+        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
+        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
+        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
+        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
+        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
       },
-      "correctOption": "sound-mcq-16"
+      "correctOption": "sound-pdf-like-sound"
     },
     {
       "id": "sound-02-0",
@@ -547,33 +570,33 @@ export default {
     },
     {
       "id": "sound-16-2",
-      "sense": "sound-mcq-16",
+      "sense": "sound-pdf-not-like-sound",
       "en": "I don’t like the sound of that.",
       "zh": "這聽起來不太妙。",
       "masked": "I don’t like the ____ of that.",
       "options": [
-        "sound-mcq-16",
+        "sound-pdf-not-like-sound",
         "sound-mcq-15",
         "sound-mcq-17",
         "sound-mcq-14",
         "sound-mcq-13",
         "sound-mcq-12"
       ],
-      "explanation": "本句的「sound」指「耳機播放出來、能被使用者聽見的音訊」。",
+      "explanation": "本句的「sound」指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
       "sentenceIndex": 5,
       "sourcePractice": 3,
       "targets": [
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-16": "本句指「耳機播放出來、能被使用者聽見的音訊」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」是「4. sound = impression created by words/idea（說話／構思給人的感覺） — 聽起來的感覺／印象」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-pdf-not-like-sound": "本句指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
+        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
+        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
+        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
+        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
+        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
       },
-      "correctOption": "sound-mcq-16"
+      "correctOption": "sound-pdf-not-like-sound"
     },
     {
       "id": "sound-02-1",
@@ -607,33 +630,33 @@ export default {
     },
     {
       "id": "sound-16-3",
-      "sense": "sound-mcq-16",
+      "sense": "sound-pdf-not-like-sound",
       "en": "I don’t like the sound of that.",
       "zh": "這個情況聽起來不太理想。",
       "masked": "I don’t like the ____ of that.",
       "options": [
-        "sound-mcq-16",
+        "sound-pdf-not-like-sound",
         "sound-mcq-15",
         "sound-mcq-17",
         "sound-mcq-14",
         "sound-mcq-13",
         "sound-mcq-12"
       ],
-      "explanation": "本句的「sound」指「耳機播放出來、能被使用者聽見的音訊」。",
+      "explanation": "本句的「sound」指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
       "sentenceIndex": 7,
       "sourcePractice": 4,
       "targets": [
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-16": "本句指「耳機播放出來、能被使用者聽見的音訊」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」是「4. sound = impression created by words/idea（說話／構思給人的感覺） — 聽起來的感覺／印象」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-pdf-not-like-sound": "本句指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
+        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
+        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
+        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
+        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
+        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
       },
-      "correctOption": "sound-mcq-16"
+      "correctOption": "sound-pdf-not-like-sound"
     },
     {
       "id": "sound-02-2",

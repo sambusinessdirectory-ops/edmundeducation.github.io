@@ -54,6 +54,11 @@ export default {
           "These columns bear most of the roof’s weight.",
           "這些柱子支撐着屋頂大部分重量。",
           "承受／支撐重量或負荷"
+        ],
+        [
+          "The structure has borne the weight for decades.",
+          "這個結構已經承受該重量數十年。",
+          "承受／支撐重量或負荷"
         ]
       ],
       "options": [],
@@ -107,6 +112,11 @@ export default {
         [
           "The family had to bear the financial burden.",
           "這個家庭不得不承受經濟負擔。",
+          "承受／承擔成本、後果、風險、損失或負擔"
+        ],
+        [
+          "The cost was borne by the restaurant.",
+          "這筆成本由餐廳承擔。",
           "承受／承擔成本、後果、風險、損失或負擔"
         ]
       ],
@@ -205,16 +215,6 @@ export default {
         [
           "She was born in 2005.",
           "她於 2005 年出生。",
-          "生育／生下孩子；較正式"
-        ],
-        [
-          "The cost was borne by the restaurant.",
-          "這筆成本由餐廳承擔。",
-          "生育／生下孩子；較正式"
-        ],
-        [
-          "The structure has borne the weight for decades.",
-          "這個結構已經承受該重量數十年。",
           "生育／生下孩子；較正式"
         ]
       ],
@@ -1199,63 +1199,63 @@ export default {
     },
     {
       "id": "bear-10-3",
-      "sense": "bear-mcq-08",
+      "sense": "bear-mcq-04",
       "en": "The cost was borne by the restaurant.",
       "zh": "這筆成本由餐廳承擔。",
       "masked": "The cost was ____ by the restaurant.",
       "options": [
-        "bear-mcq-08",
-        "bear-mcq-07",
-        "bear-mcq-09",
+        "bear-mcq-04",
+        "bear-mcq-03",
+        "bear-mcq-05",
+        "bear-mcq-02",
         "bear-mcq-06",
-        "bear-mcq-10",
-        "bear-mcq-05"
+        "bear-mcq-01"
       ],
-      "explanation": "本句的「borne」指「生育／生下孩子；較正式」。",
+      "explanation": "本句的「borne」指「承受／承擔成本、後果、風險、損失或負擔」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "borne"
       ],
       "optionReasons": {
-        "bear-mcq-08": "本句指「生育／生下孩子；較正式」。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
+        "bear-mcq-04": "本句指「承受／承擔成本、後果、風險、損失或負擔」。",
+        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
+        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
+        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
         "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。"
+        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。"
       },
-      "correctOption": "bear-mcq-08"
+      "correctOption": "bear-mcq-04"
     },
     {
       "id": "bear-10-4",
-      "sense": "bear-mcq-08",
+      "sense": "bear-mcq-02",
       "en": "The structure has borne the weight for decades.",
       "zh": "這個結構已經承受該重量數十年。",
       "masked": "The structure has ____ the weight for decades.",
       "options": [
-        "bear-mcq-08",
-        "bear-mcq-07",
-        "bear-mcq-09",
-        "bear-mcq-06",
-        "bear-mcq-10",
-        "bear-mcq-05"
+        "bear-mcq-02",
+        "bear-mcq-01",
+        "bear-mcq-03",
+        "bear-mcq-04",
+        "bear-mcq-05",
+        "bear-mcq-06"
       ],
-      "explanation": "本句的「borne」指「生育／生下孩子；較正式」。",
+      "explanation": "本句的「borne」指「承受／支撐重量或負荷」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "borne"
       ],
       "optionReasons": {
-        "bear-mcq-08": "本句指「生育／生下孩子；較正式」。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。"
+        "bear-mcq-02": "本句指「承受／支撐重量或負荷」。",
+        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
+        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
+        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
+        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
+        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
       },
-      "correctOption": "bear-mcq-08"
+      "correctOption": "bear-mcq-02"
     },
     {
       "id": "bear-11-0",

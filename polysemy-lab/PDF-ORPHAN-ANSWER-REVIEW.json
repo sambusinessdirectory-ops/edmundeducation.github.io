@@ -1,0 +1,479 @@
+{
+  "patches": [
+    {
+      "module": "crowd",
+      "number": 79,
+      "oldSenseCount": 23,
+      "newSenses": [
+        {
+          "id": "crowd-pdf-orphan-01",
+          "title": "大型群眾在某情況下的行為及反應",
+          "form": "PDF practice 34",
+          "en": "PDF practice 34",
+          "zh": "大型群眾在某情況下的行為及反應",
+          "note": "原始 PDF 練習 34：大型群眾在某情況下的行為及反應",
+          "examples": [
+            [
+              "Researchers study crowd behaviour during emergencies.",
+              "研究人員研究緊急情況下的群眾行為。",
+              "大型群眾在某情況下的行為及反應"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "crowd-10-2",
+          "sourceSection": 10,
+          "sourceMeaning": "管理大量聚集人士的移動、安全和秩序",
+          "oldSense": "crowd-mcq-16",
+          "newSense": "crowd-mcq-17",
+          "oldOptions": [
+            "crowd-mcq-16",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ],
+          "newOptions": [
+            "crowd-mcq-17",
+            "crowd-mcq-15",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13",
+            "crowd-mcq-01"
+          ]
+        },
+        {
+          "question": "crowd-10-3",
+          "sourceSection": 10,
+          "sourceMeaning": "大型群眾在某情況下的行為及反應",
+          "oldSense": "crowd-mcq-16",
+          "newSense": "crowd-pdf-orphan-01",
+          "oldOptions": [
+            "crowd-mcq-16",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ],
+          "newOptions": [
+            "crowd-pdf-orphan-01",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ]
+        },
+        {
+          "question": "crowd-10-4",
+          "sourceSection": 10,
+          "sourceMeaning": "很容易受到大量觀眾、客人或一般大眾喜愛的人／事物",
+          "oldSense": "crowd-mcq-16",
+          "newSense": "crowd-mcq-18",
+          "oldOptions": [
+            "crowd-mcq-16",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ],
+          "newOptions": [
+            "crowd-mcq-18",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-13",
+            "crowd-mcq-01"
+          ]
+        },
+        {
+          "question": "crowd-10-5",
+          "sourceSection": 10,
+          "sourceMeaning": "很容易受到大量觀眾、客人或一般大眾喜愛的人／事物",
+          "oldSense": "crowd-mcq-16",
+          "newSense": "crowd-mcq-18",
+          "oldOptions": [
+            "crowd-mcq-16",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ],
+          "newOptions": [
+            "crowd-mcq-18",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-13",
+            "crowd-mcq-01"
+          ]
+        },
+        {
+          "question": "crowd-10-6",
+          "sourceSection": 10,
+          "sourceMeaning": "由大量個人共同提供資金支持某個項目的眾籌方式",
+          "oldSense": "crowd-mcq-16",
+          "newSense": "crowd-mcq-19",
+          "oldOptions": [
+            "crowd-mcq-16",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ],
+          "newOptions": [
+            "crowd-mcq-19",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ]
+        },
+        {
+          "question": "crowd-10-7",
+          "sourceSection": 10,
+          "sourceMeaning": "把構思、資料或工作公開交由大量群眾共同提供的眾包方式",
+          "oldSense": "crowd-mcq-16",
+          "newSense": "crowd-mcq-20",
+          "oldOptions": [
+            "crowd-mcq-16",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ],
+          "newOptions": [
+            "crowd-mcq-20",
+            "crowd-mcq-15",
+            "crowd-mcq-17",
+            "crowd-mcq-14",
+            "crowd-mcq-18",
+            "crowd-mcq-13"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "incorporate",
+      "number": 1040,
+      "oldSenseCount": 111,
+      "newSenses": [],
+      "changes": [
+        {
+          "question": "incorporate-49-0",
+          "sourceSection": 49,
+          "sourceMeaning": "把某事物納入／整合至較大整體的過程",
+          "oldSense": "incorporate-mcq-96",
+          "newSense": "incorporate-mcq-33",
+          "oldOptions": [
+            "incorporate-mcq-96",
+            "incorporate-mcq-95",
+            "incorporate-mcq-97",
+            "incorporate-mcq-94",
+            "incorporate-mcq-98",
+            "incorporate-mcq-93"
+          ],
+          "newOptions": [
+            "incorporate-mcq-33",
+            "incorporate-mcq-95",
+            "incorporate-mcq-97",
+            "incorporate-mcq-94",
+            "incorporate-mcq-98",
+            "incorporate-mcq-93"
+          ]
+        },
+        {
+          "question": "incorporate-66-0",
+          "sourceSection": 66,
+          "sourceMeaning": "公司／法人依法正式成立的過程",
+          "oldSense": "incorporate-mcq-96",
+          "newSense": "incorporate-mcq-42",
+          "oldOptions": [
+            "incorporate-mcq-96",
+            "incorporate-mcq-95",
+            "incorporate-mcq-97",
+            "incorporate-mcq-94",
+            "incorporate-mcq-98",
+            "incorporate-mcq-93"
+          ],
+          "newOptions": [
+            "incorporate-mcq-42",
+            "incorporate-mcq-95",
+            "incorporate-mcq-97",
+            "incorporate-mcq-94",
+            "incorporate-mcq-98",
+            "incorporate-mcq-93"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "rehearse",
+      "number": 1041,
+      "oldSenseCount": 93,
+      "newSenses": [
+        {
+          "id": "rehearse-pdf-orphan-01",
+          "title": "為日後真實活動而做的練習或預演",
+          "form": "PDF practice 121",
+          "en": "PDF practice 121",
+          "zh": "為日後真實活動而做的練習或預演",
+          "note": "原始 PDF 練習 121：為日後真實活動而做的練習或預演",
+          "examples": [
+            [
+              "The exercise was a useful rehearsal for the real interview.",
+              "這項練習是正式面試前很有用的預演。",
+              "為日後真實活動而做的練習或預演"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "rehearse-43-0",
+          "sourceSection": 43,
+          "sourceMeaning": "正式表演前的排練／彩排",
+          "oldSense": "rehearse-mcq-79",
+          "newSense": "rehearse-mcq-34",
+          "oldOptions": [
+            "rehearse-mcq-79",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ],
+          "newOptions": [
+            "rehearse-mcq-34",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ]
+        },
+        {
+          "question": "rehearse-43-1",
+          "sourceSection": 43,
+          "sourceMeaning": "正式表演前的排練／彩排",
+          "oldSense": "rehearse-mcq-79",
+          "newSense": "rehearse-mcq-34",
+          "oldOptions": [
+            "rehearse-mcq-79",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ],
+          "newOptions": [
+            "rehearse-mcq-34",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ]
+        },
+        {
+          "question": "rehearse-121-0",
+          "sourceSection": 121,
+          "sourceMeaning": "為日後真實活動而做的練習或預演",
+          "oldSense": "rehearse-mcq-79",
+          "newSense": "rehearse-pdf-orphan-01",
+          "oldOptions": [
+            "rehearse-mcq-79",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ],
+          "newOptions": [
+            "rehearse-pdf-orphan-01",
+            "rehearse-mcq-78",
+            "rehearse-mcq-80",
+            "rehearse-mcq-77",
+            "rehearse-mcq-81",
+            "rehearse-mcq-76"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "spirit",
+      "number": 340,
+      "oldSenseCount": 24,
+      "newSenses": [],
+      "changes": [
+        {
+          "question": "spirit-15-16",
+          "sourceSection": 15,
+          "sourceMeaning": "對內在生命、人生意義、靈魂或超越物質生活的關注與實踐",
+          "oldSense": "spirit-mcq-15",
+          "newSense": "spirit-mcq-22",
+          "oldOptions": [
+            "spirit-mcq-15",
+            "spirit-mcq-14",
+            "spirit-mcq-16",
+            "spirit-mcq-13",
+            "spirit-mcq-17",
+            "spirit-mcq-12"
+          ],
+          "newOptions": [
+            "spirit-mcq-22",
+            "spirit-mcq-14",
+            "spirit-mcq-16",
+            "spirit-mcq-13",
+            "spirit-mcq-17",
+            "spirit-mcq-12"
+          ]
+        },
+        {
+          "question": "spirit-15-17",
+          "sourceSection": 15,
+          "sourceMeaning": "對內在生命、人生意義、靈魂或超越物質生活的關注與實踐",
+          "oldSense": "spirit-mcq-15",
+          "newSense": "spirit-mcq-22",
+          "oldOptions": [
+            "spirit-mcq-15",
+            "spirit-mcq-14",
+            "spirit-mcq-16",
+            "spirit-mcq-13",
+            "spirit-mcq-17",
+            "spirit-mcq-12"
+          ],
+          "newOptions": [
+            "spirit-mcq-22",
+            "spirit-mcq-14",
+            "spirit-mcq-16",
+            "spirit-mcq-13",
+            "spirit-mcq-17",
+            "spirit-mcq-12"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "store",
+      "number": 984,
+      "oldSenseCount": 123,
+      "newSenses": [],
+      "changes": [
+        {
+          "question": "store-78-0",
+          "sourceSection": 78,
+          "sourceMeaning": "把物品保存起來的行為／安排",
+          "oldSense": "store-mcq-100",
+          "newSense": "store-mcq-70",
+          "oldOptions": [
+            "store-mcq-100",
+            "store-mcq-99",
+            "store-mcq-101",
+            "store-mcq-98",
+            "store-mcq-102",
+            "store-mcq-97"
+          ],
+          "newOptions": [
+            "store-mcq-70",
+            "store-mcq-99",
+            "store-mcq-101",
+            "store-mcq-98",
+            "store-mcq-102",
+            "store-mcq-97"
+          ]
+        },
+        {
+          "question": "store-78-1",
+          "sourceSection": 78,
+          "sourceMeaning": "可用來存放實物或數碼資料的空間",
+          "oldSense": "store-mcq-100",
+          "newSense": "store-mcq-24",
+          "oldOptions": [
+            "store-mcq-100",
+            "store-mcq-99",
+            "store-mcq-101",
+            "store-mcq-98",
+            "store-mcq-102",
+            "store-mcq-97"
+          ],
+          "newOptions": [
+            "store-mcq-24",
+            "store-mcq-99",
+            "store-mcq-101",
+            "store-mcq-98",
+            "store-mcq-102",
+            "store-mcq-97"
+          ]
+        },
+        {
+          "question": "store-84-0",
+          "sourceSection": 84,
+          "sourceMeaning": "低溫冷藏保存",
+          "oldSense": "store-mcq-99",
+          "newSense": "store-mcq-76",
+          "oldOptions": [
+            "store-mcq-99",
+            "store-mcq-98",
+            "store-mcq-100",
+            "store-mcq-97",
+            "store-mcq-101",
+            "store-mcq-96"
+          ],
+          "newOptions": [
+            "store-mcq-76",
+            "store-mcq-98",
+            "store-mcq-100",
+            "store-mcq-97",
+            "store-mcq-101",
+            "store-mcq-96"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "text",
+      "number": 1029,
+      "oldSenseCount": 124,
+      "newSenses": [],
+      "changes": [
+        {
+          "question": "text-05-0",
+          "sourceSection": 5,
+          "sourceMeaning": "與圖片、聲音等相對的文字內容",
+          "oldSense": "text-mcq-111",
+          "newSense": "text-mcq-02",
+          "oldOptions": [
+            "text-mcq-111",
+            "text-mcq-110",
+            "text-mcq-112",
+            "text-mcq-109",
+            "text-mcq-113",
+            "text-mcq-108"
+          ],
+          "newOptions": [
+            "text-mcq-02",
+            "text-mcq-01",
+            "text-mcq-03",
+            "text-mcq-04",
+            "text-mcq-05",
+            "text-mcq-06"
+          ]
+        }
+      ]
+    }
+  ]
+}

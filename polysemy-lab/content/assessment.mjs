@@ -1720,13 +1720,7 @@ export default {
       "en": "self-assessment — tax",
       "zh": "納稅人自行申報／計算相關稅務資料的自行評稅制度",
       "note": "來源詞義：納稅人自行申報／計算相關稅務資料的自行評稅制度",
-      "examples": [
-        [
-          "Students completed a short self-assessment.",
-          "學生完成了一份簡短的自我評估。",
-          "納稅人自行申報／計算相關稅務資料的自行評稅制度"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -2211,6 +2205,23 @@ export default {
       "zh": "估計",
       "note": "來源詞義：估計",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "assessment-pdf-plain-050",
+      "title": "自我評估；自行評估自己的作品、表現或能力",
+      "form": "PDF section 50",
+      "en": "PDF section 50",
+      "zh": "自我評估；自行評估自己的作品、表現或能力",
+      "note": "原始 PDF 第 50 節：自我評估；自行評估自己的作品、表現或能力",
+      "examples": [
+        [
+          "Students completed a short self-assessment.",
+          "學生完成了一份簡短的自我評估。",
+          "自我評估；自行評估自己的作品、表現或能力"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -2698,33 +2709,33 @@ export default {
     },
     {
       "id": "assessment-50-0",
-      "sense": "assessment-mcq-144",
+      "sense": "assessment-pdf-plain-050",
       "en": "Students completed a short self-assessment.",
       "zh": "學生完成了一份簡短的自我評估。",
       "masked": "Students completed a short self-____.",
       "options": [
-        "assessment-mcq-144",
+        "assessment-pdf-plain-050",
         "assessment-mcq-143",
         "assessment-mcq-145",
         "assessment-mcq-142",
         "assessment-mcq-146",
         "assessment-mcq-141"
       ],
-      "explanation": "本句的「assessment」指「納稅人自行申報／計算相關稅務資料的自行評稅制度」。",
+      "explanation": "本句的「assessment」指「自我評估；自行評估自己的作品、表現或能力」。",
       "sentenceIndex": 18,
       "sourcePractice": 50,
       "targets": [
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-144": "本句指「納稅人自行申報／計算相關稅務資料的自行評稅制度」。",
+        "assessment-pdf-plain-050": "本句指「自我評估；自行評估自己的作品、表現或能力」。",
         "assessment-mcq-143": "「評估產品整個生命周期環境影響的方法」與本句語境不同。",
         "assessment-mcq-145": "「由個人／機構對自己狀況作評估的問卷」與本句語境不同。",
         "assessment-mcq-142": "「標準／法規：證明產品等是否符合指定要求的合格評定」與本句語境不同。",
         "assessment-mcq-146": "「記錄評估方法、發現及結論的報告」與本句語境不同。",
         "assessment-mcq-141": "「評估是否符合規則／要求」與本句語境不同。"
       },
-      "correctOption": "assessment-mcq-144"
+      "correctOption": "assessment-pdf-plain-050"
     },
     {
       "id": "assessment-54-0",

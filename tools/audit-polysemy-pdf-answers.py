@@ -18,6 +18,15 @@ FORM_STOP = {'and','of','the','a','to','in','on','for','with','from','something'
              'person','thing','one','is','be','have','has','can','or','as','by','than','it','that',
              'an','use','used','form','sense','meaning','noun','verb','adjective','adverb',
              'expression','fixed','general','literal','figurative','word','related'}
+REVIEWED_EXCEPTIONS = {
+    'bear-10-3':'bear-mcq-04','bear-10-4':'bear-mcq-02',
+    'big-40-0':'big-pdf-reviewed-01','big-40-1':'big-pdf-reviewed-01',
+    'draw-31-0':'draw-pdf-reviewed-01','draw-31-1':'draw-pdf-reviewed-01',
+    'handle-40-0':'handle-pdf-reviewed-01','handle-40-1':'handle-pdf-reviewed-01',
+    'mind-45-0':'mind-pdf-reviewed-01','mind-45-1':'mind-pdf-reviewed-01',
+    'mother-29-0':'mother-pdf-reviewed-01','mother-29-1':'mother-pdf-reviewed-01',
+    'script-27-0':'script-pdf-reviewed-01','script-27-1':'script-pdf-reviewed-01',
+}
 
 def section_definitions(lines):
     found=[]
@@ -94,7 +103,11 @@ def run():
                   'current_title':current,'meaning_score':round(score,3),'form_score':round(heading_score,3),
                   'sentence':q['en']}
             matched.append(item)
-            if definitions and score<.23 and (heading_score<.4 or only_headword_overlap):
+            expected=REVIEWED_EXCEPTIONS.get(q['id'])
+            if expected and q.get('correctOption',q['sense'])!=expected:
+                issues.append({'id':q['id'],'reason':'reviewed_answer_changed','expected':expected,
+                               'actual':q.get('correctOption',q['sense'])})
+            elif not expected and definitions and score<.23 and (heading_score<.4 or only_headword_overlap):
                 issues.append({'id':q['id'],'reason':'answer_mismatch',**item})
         out.append({'id':module['id'],'number':module['number'],'table_rows':len(rows),'sections':len(blocks),
                     'questions':len(module['questions']),'issues':issues,'matched':matched})

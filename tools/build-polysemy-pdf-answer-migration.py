@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Create an idempotent catalogue migration for PDF-verified MCQ corrections."""
 import json
+import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -8,8 +9,8 @@ REPORT = ROOT/'polysemy-lab/PDF-ANSWER-AUDIT.json'
 OUT = ROOT/'supabase/migrations/20261003070000_polysemy_pdf_answer_repair.sql'
 
 
-def main():
-    report = json.loads(REPORT.read_text())
+def main(report_path=REPORT, out_path=OUT):
+    report = json.loads(report_path.read_text())
     rows = []
     for patch in report['patches']:
         module = json.loads((ROOT/'polysemy-lab/content'/f"{patch['module']}.mjs").read_text()
@@ -19,7 +20,8 @@ def main():
         added = [s['id'] for s in patch['newSenses']]
         assert len(sense_ids) == patch['oldSenseCount'] + len(added)
         if patch['number'] < 565:
-            old_answers = {c['question']: indices[c['oldSense']] for c in patch['changes']}
+            old_answers = {c['question']: indices[c['oldSense']] for c in patch['changes']
+                           if not c.get('oldAnswerMissing')}
             answers = {c['question']: indices[c['newSense']] for c in patch['changes']}
             options = {}
             for c in patch['changes']:
@@ -32,7 +34,8 @@ def main():
                    'oldCount': patch['oldSenseCount'], 'newSenses': added,
                    'oldAnswers': old_answers, 'answers': answers, 'options': options}
         else:
-            old_answers = {c['question']: c['oldSense'] for c in patch['changes']}
+            old_answers = {c['question']: c['oldSense'] for c in patch['changes']
+                           if not c.get('oldAnswerMissing')}
             questions = {c['question']: {'answer': c['newSense'],
                                           'options': c['newOptions']} for c in patch['changes']}
             row = {'module': patch['module'], 'kind': 'questions',
@@ -63,7 +66,8 @@ begin
       if check_row.mcq is null then
         raise exception 'Missing MCQ catalogue %', patch->>'module';
       end if;
-      if jsonb_array_length(check_row.mcq->'senses') =
+      if jsonb_array_length(new_senses) > 0
+         and jsonb_array_length(check_row.mcq->'senses') =
          (patch->>'oldCount')::int + jsonb_array_length(new_senses)
          and (check_row.mcq->'senses') @> new_senses then
         continue;
@@ -85,7 +89,8 @@ begin
         '{{options}}', check_row.mcq->'options' || patch->'options')
       where module = patch->>'module';
     else
-      if jsonb_array_length(check_row.senses) =
+      if jsonb_array_length(new_senses) > 0
+         and jsonb_array_length(check_row.senses) =
          (patch->>'oldCount')::int + jsonb_array_length(new_senses)
          and check_row.senses @> new_senses then
         continue;
@@ -107,9 +112,13 @@ begin
   end loop;
 end $repair$;
 '''
-    OUT.write_text(sql)
-    print(json.dumps({'modules': len(rows), 'bytes': len(sql.encode()), 'path': str(OUT)}))
+    out_path.write_text(sql)
+    print(json.dumps({'modules': len(rows), 'bytes': len(sql.encode()), 'path': str(out_path)}))
 
 
 if __name__ == '__main__':
-    main()
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--report',type=Path,default=REPORT)
+    parser.add_argument('--out',type=Path,default=OUT)
+    args=parser.parse_args()
+    main(args.report,args.out)

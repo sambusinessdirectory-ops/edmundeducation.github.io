@@ -497,16 +497,6 @@ export default {
           "The actor memorized the script before rehearsal.",
           "演員在綵排前把劇本內容背熟。",
           "把講稿／劇本內容背熟，使自己不用看稿也能說出"
-        ],
-        [
-          "The support staff follow a script when answering calls.",
-          "支援人員接電話時會按照固定話術／腳本回答。",
-          "把講稿／劇本內容背熟，使自己不用看稿也能說出"
-        ],
-        [
-          "I used the script as a guide rather than following it exactly.",
-          "我只是把講稿當作指引，而不是完全逐字照著說。",
-          "把講稿／劇本內容背熟，使自己不用看稿也能說出"
         ]
       ],
       "options": [],
@@ -551,6 +541,28 @@ export default {
           "Russian is written in the Cyrillic script.",
           "俄語使用西里爾字母系統書寫。",
           "某一語言所使用的一套書寫符號系統"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "script-pdf-reviewed-01",
+      "title": "按照預先規定的文字／步驟進行",
+      "form": "PDF practice 54",
+      "en": "PDF practice 54",
+      "zh": "按照預先規定的文字／步驟進行",
+      "note": "原始 PDF 練習 54：按照預先規定的文字／步驟進行",
+      "examples": [
+        [
+          "The support staff follow a script when answering calls.",
+          "支援人員接電話時會按照固定話術／腳本回答。",
+          "按照預先規定的文字／步驟進行"
+        ],
+        [
+          "I used the script as a guide rather than following it exactly.",
+          "我只是把講稿當作指引，而不是完全逐字照著說。",
+          "按照預先規定的文字／步驟進行"
         ]
       ],
       "options": [],
@@ -2150,63 +2162,63 @@ export default {
     },
     {
       "id": "script-27-0",
-      "sense": "script-mcq-21",
+      "sense": "script-pdf-reviewed-01",
       "en": "The support staff follow a script when answering calls.",
       "zh": "支援人員接電話時會按照固定話術／腳本回答。",
       "masked": "The support staff ____ when answering calls.",
       "options": [
-        "script-mcq-21",
+        "script-pdf-reviewed-01",
         "script-mcq-20",
         "script-mcq-22",
         "script-mcq-19",
         "script-mcq-23",
         "script-mcq-18"
       ],
-      "explanation": "本句的「follow a script」指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
+      "explanation": "本句的「follow a script」指「按照預先規定的文字／步驟進行」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "follow a script"
       ],
       "optionReasons": {
-        "script-mcq-21": "本句指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」是「10. Latin/Arabic/Cyrillic script（拉丁／阿拉伯／西里爾文字） — 書寫系統」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-pdf-reviewed-01": "本句指「按照預先規定的文字／步驟進行」。",
+        "script-mcq-20": "「看著預先寫好的文字讀出／講出」與本句語境不同。",
+        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」與本句語境不同。",
+        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」與本句語境不同。",
+        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」與本句語境不同。",
+        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」與本句語境不同。"
       },
-      "correctOption": "script-mcq-21"
+      "correctOption": "script-pdf-reviewed-01"
     },
     {
       "id": "script-27-1",
-      "sense": "script-mcq-21",
+      "sense": "script-pdf-reviewed-01",
       "en": "I used the script as a guide rather than following it exactly.",
       "zh": "我只是把講稿當作指引，而不是完全逐字照著說。",
       "masked": "I used the script as a guide rather than ____.",
       "options": [
-        "script-mcq-21",
+        "script-pdf-reviewed-01",
         "script-mcq-20",
         "script-mcq-22",
         "script-mcq-19",
         "script-mcq-23",
         "script-mcq-18"
       ],
-      "explanation": "本句的「following it exactly」指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
+      "explanation": "本句的「following it exactly」指「按照預先規定的文字／步驟進行」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "following it exactly"
       ],
       "optionReasons": {
-        "script-mcq-21": "本句指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」是「10. Latin/Arabic/Cyrillic script（拉丁／阿拉伯／西里爾文字） — 書寫系統」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-pdf-reviewed-01": "本句指「按照預先規定的文字／步驟進行」。",
+        "script-mcq-20": "「看著預先寫好的文字讀出／講出」與本句語境不同。",
+        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」與本句語境不同。",
+        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」與本句語境不同。",
+        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」與本句語境不同。",
+        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」與本句語境不同。"
       },
-      "correctOption": "script-mcq-21"
+      "correctOption": "script-pdf-reviewed-01"
     }
   ],
   "comparisons": [],

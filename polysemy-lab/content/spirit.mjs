@@ -394,16 +394,6 @@ export default {
           "The building has great spiritual significance for the community.",
           "這座建築對該社群具有重要的宗教／靈性意義。",
           "宗教語境中的神聖靈性存在；具體意思取決於宗教傳統"
-        ],
-        [
-          "She became more interested in spirituality as she grew older.",
-          "隨著年紀增長，她對靈性和精神層面的探索更感興趣。",
-          "宗教語境中的神聖靈性存在；具體意思取決於宗教傳統"
-        ],
-        [
-          "For some people, spirituality is important even without formal religion.",
-          "對一些人來說，即使沒有正式宗教信仰，靈性追求仍然很重要。",
-          "宗教語境中的神聖靈性存在；具體意思取決於宗教傳統"
         ]
       ],
       "options": [],
@@ -482,7 +472,18 @@ export default {
       "en": "spirituality",
       "zh": "對內在生命、人生意義、靈魂或超越物質生活的關注與實踐",
       "note": "來源詞義：對內在生命、人生意義、靈魂或超越物質生活的關注與實踐",
-      "examples": [],
+      "examples": [
+        [
+          "She became more interested in spirituality as she grew older.",
+          "隨著年紀增長，她對靈性和精神層面的探索更感興趣。",
+          "對內在生命、人生意義、靈魂或超越物質生活的關注與實踐"
+        ],
+        [
+          "For some people, spirituality is important even without formal religion.",
+          "對一些人來說，即使沒有正式宗教信仰，靈性追求仍然很重要。",
+          "對內在生命、人生意義、靈魂或超越物質生活的關注與實踐"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1874,63 +1875,63 @@ export default {
     },
     {
       "id": "spirit-15-16",
-      "sense": "spirit-mcq-15",
+      "sense": "spirit-mcq-22",
       "en": "She became more interested in spirituality as she grew older.",
       "zh": "隨著年紀增長，她對靈性和精神層面的探索更感興趣。",
       "masked": "She became more interested in ____ as she grew older.",
       "options": [
-        "spirit-mcq-15",
+        "spirit-mcq-22",
         "spirit-mcq-14",
         "spirit-mcq-16",
         "spirit-mcq-13",
         "spirit-mcq-17",
         "spirit-mcq-12"
       ],
-      "explanation": "本句的「spirituality」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+      "explanation": "本句的「spirituality」指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "spirituality"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-22": "本句指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
+        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」與本句語境不同。",
+        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」與本句語境不同。",
+        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」與本句語境不同。",
+        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」與本句語境不同。",
+        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」與本句語境不同。"
       },
-      "correctOption": "spirit-mcq-15"
+      "correctOption": "spirit-mcq-22"
     },
     {
       "id": "spirit-15-17",
-      "sense": "spirit-mcq-15",
+      "sense": "spirit-mcq-22",
       "en": "For some people, spirituality is important even without formal religion.",
       "zh": "對一些人來說，即使沒有正式宗教信仰，靈性追求仍然很重要。",
       "masked": "For some people, ____ is important even without formal religion.",
       "options": [
-        "spirit-mcq-15",
+        "spirit-mcq-22",
         "spirit-mcq-14",
         "spirit-mcq-16",
         "spirit-mcq-13",
         "spirit-mcq-17",
         "spirit-mcq-12"
       ],
-      "explanation": "本句的「spirituality」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+      "explanation": "本句的「spirituality」指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "spirituality"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-22": "本句指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
+        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」與本句語境不同。",
+        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」與本句語境不同。",
+        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」與本句語境不同。",
+        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」與本句語境不同。",
+        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」與本句語境不同。"
       },
-      "correctOption": "spirit-mcq-15"
+      "correctOption": "spirit-mcq-22"
     }
   ],
   "comparisons": [],

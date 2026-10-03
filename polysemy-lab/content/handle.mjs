@@ -652,16 +652,6 @@ export default {
           "She works as a baggage handler at the airport.",
           "她在機場當行李處理員／搬運員。",
           "負責操作、控制、管理或照顧某人／某物的人或程式元件"
-        ],
-        [
-          "The program uses an error handler.",
-          "程式使用一個錯誤處理程序。",
-          "負責操作、控制、管理或照顧某人／某物的人或程式元件"
-        ],
-        [
-          "The event handler runs when the user clicks the button.",
-          "用戶按下按鈕時，事件處理程序便會執行。",
-          "負責操作、控制、管理或照顧某人／某物的人或程式元件"
         ]
       ],
       "options": [],
@@ -838,6 +828,28 @@ export default {
           "What handle do you use on the forum?",
           "你在論壇使用甚麼網名？",
           "非正式用來指某人的名稱、暱稱或識別名稱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "handle-pdf-reviewed-01",
+      "title": "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+      "form": "PDF practice 78",
+      "en": "PDF practice 78",
+      "zh": "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+      "note": "原始 PDF 練習 78：電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+      "examples": [
+        [
+          "The program uses an error handler.",
+          "程式使用一個錯誤處理程序。",
+          "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件"
+        ],
+        [
+          "The event handler runs when the user clicks the button.",
+          "用戶按下按鈕時，事件處理程序便會執行。",
+          "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件"
         ]
       ],
       "options": [],
@@ -3157,63 +3169,63 @@ export default {
     },
     {
       "id": "handle-40-0",
-      "sense": "handle-mcq-29",
+      "sense": "handle-pdf-reviewed-01",
       "en": "The program uses an error handler.",
       "zh": "程式使用一個錯誤處理程序。",
       "masked": "The program uses an error ____.",
       "options": [
-        "handle-mcq-29",
+        "handle-pdf-reviewed-01",
         "handle-mcq-28",
         "handle-mcq-30",
         "handle-mcq-27",
         "handle-mcq-31",
         "handle-mcq-26"
       ],
-      "explanation": "本句的「handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+      "explanation": "本句的「handler」指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
       "sentenceIndex": 77,
       "sourcePractice": 78,
       "targets": [
         "handler"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-pdf-reviewed-01": "本句指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
+        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」與本句語境不同。",
+        "handle-mcq-30": "「以某種方式處理或應對事情」與本句語境不同。",
+        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」與本句語境不同。",
+        "handle-mcq-31": "「管理溝通、談判或討論的進行」與本句語境不同。",
+        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」與本句語境不同。"
       },
-      "correctOption": "handle-mcq-29"
+      "correctOption": "handle-pdf-reviewed-01"
     },
     {
       "id": "handle-40-1",
-      "sense": "handle-mcq-29",
+      "sense": "handle-pdf-reviewed-01",
       "en": "The event handler runs when the user clicks the button.",
       "zh": "用戶按下按鈕時，事件處理程序便會執行。",
       "masked": "The event ____ runs when the user clicks the button.",
       "options": [
-        "handle-mcq-29",
+        "handle-pdf-reviewed-01",
         "handle-mcq-28",
         "handle-mcq-30",
         "handle-mcq-27",
         "handle-mcq-31",
         "handle-mcq-26"
       ],
-      "explanation": "本句的「handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+      "explanation": "本句的「handler」指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
       "sentenceIndex": 78,
       "sourcePractice": 79,
       "targets": [
         "handler"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-pdf-reviewed-01": "本句指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
+        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」與本句語境不同。",
+        "handle-mcq-30": "「以某種方式處理或應對事情」與本句語境不同。",
+        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」與本句語境不同。",
+        "handle-mcq-31": "「管理溝通、談判或討論的進行」與本句語境不同。",
+        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」與本句語境不同。"
       },
-      "correctOption": "handle-mcq-29"
+      "correctOption": "handle-pdf-reviewed-01"
     }
   ],
   "comparisons": [],

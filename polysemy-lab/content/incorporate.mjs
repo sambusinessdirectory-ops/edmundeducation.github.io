@@ -82,11 +82,6 @@ export default {
           "Drama can be incorporated into ordinary lessons.",
           "戲劇可以被融入一般課堂。",
           "被納入／融合進一個更大的整體"
-        ],
-        [
-          "The organization is incorporated.",
-          "該組織已正式註冊成立為法人實體。",
-          "被納入／融合進一個更大的整體"
         ]
       ],
       "options": [],
@@ -537,7 +532,13 @@ export default {
       "en": "incorporation — general",
       "zh": "把某事物納入／整合至較大整體的過程",
       "note": "來源詞義：把某事物納入／整合至較大整體的過程",
-      "examples": [],
+      "examples": [
+        [
+          "The incorporation of drama into lessons can make learning more active.",
+          "把戲劇融入課堂可令學習更主動。",
+          "把某事物納入／整合至較大整體的過程"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -647,7 +648,13 @@ export default {
       "en": "incorporation — corporate",
       "zh": "公司／法人依法正式成立的過程",
       "note": "來源詞義：公司／法人依法正式成立的過程",
-      "examples": [],
+      "examples": [
+        [
+          "The firm completed its incorporation.",
+          "公司完成了註冊成立程序。",
+          "公司／法人依法正式成立的過程"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1307,18 +1314,7 @@ export default {
       "en": "air incorporation",
       "zh": "食品科學：把空氣氣泡引入並保留於混合物中",
       "note": "來源詞義：食品科學：把空氣氣泡引入並保留於混合物中",
-      "examples": [
-        [
-          "The incorporation of drama into lessons can make learning more active.",
-          "把戲劇融入課堂可令學習更主動。",
-          "食品科學：把空氣氣泡引入並保留於混合物中"
-        ],
-        [
-          "The firm completed its incorporation.",
-          "公司完成了註冊成立程序。",
-          "食品科學：把空氣氣泡引入並保留於混合物中"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1473,6 +1469,23 @@ export default {
       "zh": "把戲劇活動融入整個教學設計中",
       "note": "來源詞義：把戲劇活動融入整個教學設計中",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "incorporate-pdf-plain-059",
+      "title": "公司或組織依法註冊成立為法人實體",
+      "form": "PDF section 59",
+      "en": "PDF section 59",
+      "zh": "公司或組織依法註冊成立為法人實體",
+      "note": "原始 PDF 第 59 節：公司或組織依法註冊成立為法人實體",
+      "examples": [
+        [
+          "The organization is incorporated.",
+          "該組織已正式註冊成立為法人實體。",
+          "公司或組織依法註冊成立為法人實體"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -2350,33 +2363,33 @@ export default {
     },
     {
       "id": "incorporate-49-0",
-      "sense": "incorporate-mcq-96",
+      "sense": "incorporate-mcq-33",
       "en": "The incorporation of drama into lessons can make learning more active.",
       "zh": "把戲劇融入課堂可令學習更主動。",
       "masked": "The ____ of drama into lessons can make learning more active.",
       "options": [
-        "incorporate-mcq-96",
+        "incorporate-mcq-33",
         "incorporate-mcq-95",
         "incorporate-mcq-97",
         "incorporate-mcq-94",
         "incorporate-mcq-98",
         "incorporate-mcq-93"
       ],
-      "explanation": "本句的「incorporation」指「食品科學：把空氣氣泡引入並保留於混合物中」。",
+      "explanation": "本句的「incorporation」指「把某事物納入／整合至較大整體的過程」。",
       "sentenceIndex": 36,
       "sourcePractice": 49,
       "targets": [
         "incorporation"
       ],
       "optionReasons": {
-        "incorporate-mcq-96": "本句指「食品科學：把空氣氣泡引入並保留於混合物中」。",
+        "incorporate-mcq-33": "本句指「把某事物納入／整合至較大整體的過程」。",
         "incorporate-mcq-95": "「包含／融入某元素的」與本句語境不同。",
         "incorporate-mcq-97": "「把配料混入產品／配方的過程」與本句語境不同。",
         "incorporate-mcq-94": "「最近正式註冊成立的公司」與本句語境不同。",
         "incorporate-mcq-98": "「包括；包含」與本句語境不同。",
         "incorporate-mcq-93": "「已被納入／整合的」與本句語境不同。"
       },
-      "correctOption": "incorporate-mcq-96"
+      "correctOption": "incorporate-mcq-33"
     },
     {
       "id": "incorporate-57-0",
@@ -2440,63 +2453,63 @@ export default {
     },
     {
       "id": "incorporate-59-0",
-      "sense": "incorporate-mcq-04",
+      "sense": "incorporate-pdf-plain-059",
       "en": "The organization is incorporated.",
       "zh": "該組織已正式註冊成立為法人實體。",
       "masked": "The organization is ____.",
       "options": [
-        "incorporate-mcq-04",
+        "incorporate-pdf-plain-059",
         "incorporate-mcq-03",
         "incorporate-mcq-05",
         "incorporate-mcq-02",
         "incorporate-mcq-06",
         "incorporate-mcq-01"
       ],
-      "explanation": "本句的「incorporated」指「被納入／融合進一個更大的整體」。",
+      "explanation": "本句的「incorporated」指「公司或組織依法註冊成立為法人實體」。",
       "sentenceIndex": 42,
       "sourcePractice": 59,
       "targets": [
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-04": "本句指「被納入／融合進一個更大的整體」。",
+        "incorporate-pdf-plain-059": "本句指「公司或組織依法註冊成立為法人實體」。",
         "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
         "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
         "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
         "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
         "incorporate-mcq-01": "「把某活動／元素納入並融入較大的課堂或教學整體」與本句語境不同。"
       },
-      "correctOption": "incorporate-mcq-04"
+      "correctOption": "incorporate-pdf-plain-059"
     },
     {
       "id": "incorporate-66-0",
-      "sense": "incorporate-mcq-96",
+      "sense": "incorporate-mcq-42",
       "en": "The firm completed its incorporation.",
       "zh": "公司完成了註冊成立程序。",
       "masked": "The firm completed its ____.",
       "options": [
-        "incorporate-mcq-96",
+        "incorporate-mcq-42",
         "incorporate-mcq-95",
         "incorporate-mcq-97",
         "incorporate-mcq-94",
         "incorporate-mcq-98",
         "incorporate-mcq-93"
       ],
-      "explanation": "本句的「incorporation」指「食品科學：把空氣氣泡引入並保留於混合物中」。",
+      "explanation": "本句的「incorporation」指「公司／法人依法正式成立的過程」。",
       "sentenceIndex": 43,
       "sourcePractice": 66,
       "targets": [
         "incorporation"
       ],
       "optionReasons": {
-        "incorporate-mcq-96": "本句指「食品科學：把空氣氣泡引入並保留於混合物中」。",
+        "incorporate-mcq-42": "本句指「公司／法人依法正式成立的過程」。",
         "incorporate-mcq-95": "「包含／融入某元素的」與本句語境不同。",
         "incorporate-mcq-97": "「把配料混入產品／配方的過程」與本句語境不同。",
         "incorporate-mcq-94": "「最近正式註冊成立的公司」與本句語境不同。",
         "incorporate-mcq-98": "「包括；包含」與本句語境不同。",
         "incorporate-mcq-93": "「已被納入／整合的」與本句語境不同。"
       },
-      "correctOption": "incorporate-mcq-96"
+      "correctOption": "incorporate-mcq-42"
     },
     {
       "id": "incorporate-81-0",

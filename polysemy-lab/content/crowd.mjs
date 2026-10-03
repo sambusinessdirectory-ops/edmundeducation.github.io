@@ -214,18 +214,7 @@ export default {
       "en": "crowded — market/field",
       "zh": "同一市場或領域中有太多競爭者／產品，令可用機會變少的",
       "note": "來源詞義：同一市場或領域中有太多競爭者／產品，令可用機會變少的",
-      "examples": [
-        [
-          "People crowded around the entrance.",
-          "人們擠在入口周圍。",
-          "同一市場或領域中有太多競爭者／產品，令可用機會變少的"
-        ],
-        [
-          "Fans crowded the streets after the match.",
-          "比賽後，球迷擠滿了街道。",
-          "同一市場或領域中有太多競爭者／產品，令可用機會變少的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -334,36 +323,6 @@ export default {
           "Overcrowding can create safety problems.",
           "過度擁擠可能造成安全問題。",
           "人／物密度超過合理、安全或舒適容量的狀態"
-        ],
-        [
-          "Police were responsible for crowd control.",
-          "警方負責人群管制／維持群眾秩序。",
-          "人／物密度超過合理、安全或舒適容量的狀態"
-        ],
-        [
-          "Researchers study crowd behaviour during emergencies.",
-          "研究人員研究緊急情況下的群眾行為。",
-          "人／物密度超過合理、安全或舒適容量的狀態"
-        ],
-        [
-          "The song is a real crowd-pleaser.",
-          "這首歌非常討大眾喜歡／很能帶動現場氣氛。",
-          "人／物密度超過合理、安全或舒適容量的狀態"
-        ],
-        [
-          "The dessert is always a crowd-pleaser.",
-          "這款甜品總是很受大家歡迎。",
-          "人／物密度超過合理、安全或舒適容量的狀態"
-        ],
-        [
-          "The project raised money through crowdfunding.",
-          "這個項目透過眾籌／群眾募資籌集資金。",
-          "人／物密度超過合理、安全或舒適容量的狀態"
-        ],
-        [
-          "The company used crowdsourcing to collect ideas.",
-          "公司利用眾包／群眾外包收集構思。",
-          "人／物密度超過合理、安全或舒適容量的狀態"
         ]
       ],
       "options": [],
@@ -376,7 +335,13 @@ export default {
       "en": "crowd control",
       "zh": "管理大量聚集人士的移動、安全和秩序",
       "note": "來源詞義：管理大量聚集人士的移動、安全和秩序",
-      "examples": [],
+      "examples": [
+        [
+          "Police were responsible for crowd control.",
+          "警方負責人群管制／維持群眾秩序。",
+          "管理大量聚集人士的移動、安全和秩序"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -387,7 +352,18 @@ export default {
       "en": "crowd-pleaser",
       "zh": "很容易受到大量觀眾、客人或一般大眾喜愛的人／事物",
       "note": "來源詞義：很容易受到大量觀眾、客人或一般大眾喜愛的人／事物",
-      "examples": [],
+      "examples": [
+        [
+          "The song is a real crowd-pleaser.",
+          "這首歌非常討大眾喜歡／很能帶動現場氣氛。",
+          "很容易受到大量觀眾、客人或一般大眾喜愛的人／事物"
+        ],
+        [
+          "The dessert is always a crowd-pleaser.",
+          "這款甜品總是很受大家歡迎。",
+          "很容易受到大量觀眾、客人或一般大眾喜愛的人／事物"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -398,7 +374,13 @@ export default {
       "en": "crowdfunding",
       "zh": "由大量個人共同提供資金支持某個項目的眾籌方式",
       "note": "來源詞義：由大量個人共同提供資金支持某個項目的眾籌方式",
-      "examples": [],
+      "examples": [
+        [
+          "The project raised money through crowdfunding.",
+          "這個項目透過眾籌／群眾募資籌集資金。",
+          "由大量個人共同提供資金支持某個項目的眾籌方式"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -409,7 +391,13 @@ export default {
       "en": "crowdsourcing",
       "zh": "把構思、資料或工作公開交由大量群眾共同提供的眾包方式",
       "note": "來源詞義：把構思、資料或工作公開交由大量群眾共同提供的眾包方式",
-      "examples": [],
+      "examples": [
+        [
+          "The company used crowdsourcing to collect ideas.",
+          "公司利用眾包／群眾外包收集構思。",
+          "把構思、資料或工作公開交由大量群眾共同提供的眾包方式"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     },
@@ -442,6 +430,45 @@ export default {
           "The new layout reduces crowding near the entrance.",
           "新布局減少了入口附近的擁擠情況。",
           "表示擁擠；過度密集"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "crowd-pdf-plain-005",
+      "title": "聚集於某處；擠滿某個地方",
+      "form": "PDF section 5",
+      "en": "PDF section 5",
+      "zh": "聚集於某處；擠滿某個地方",
+      "note": "原始 PDF 第 5 節：聚集於某處；擠滿某個地方",
+      "examples": [
+        [
+          "People crowded around the entrance.",
+          "人們擠在入口周圍。",
+          "聚集於某處；擠滿某個地方"
+        ],
+        [
+          "Fans crowded the streets after the match.",
+          "比賽後，球迷擠滿了街道。",
+          "聚集於某處；擠滿某個地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "crowd-pdf-orphan-01",
+      "title": "大型群眾在某情況下的行為及反應",
+      "form": "PDF practice 34",
+      "en": "PDF practice 34",
+      "zh": "大型群眾在某情況下的行為及反應",
+      "note": "原始 PDF 練習 34：大型群眾在某情況下的行為及反應",
+      "examples": [
+        [
+          "Researchers study crowd behaviour during emergencies.",
+          "研究人員研究緊急情況下的群眾行為。",
+          "大型群眾在某情況下的行為及反應"
         ]
       ],
       "options": [],
@@ -1051,63 +1078,63 @@ export default {
     },
     {
       "id": "crowd-05-0",
-      "sense": "crowd-mcq-10",
+      "sense": "crowd-pdf-plain-005",
       "en": "People crowded around the entrance.",
       "zh": "人們擠在入口周圍。",
       "masked": "People ____ around the entrance.",
       "options": [
-        "crowd-mcq-10",
+        "crowd-pdf-plain-005",
         "crowd-mcq-09",
         "crowd-mcq-11",
         "crowd-mcq-08",
         "crowd-mcq-12",
         "crowd-mcq-07"
       ],
-      "explanation": "本句的「crowded」指「同一市場或領域中有太多競爭者／產品，令可用機會變少的」。",
+      "explanation": "本句的「crowded」指「聚集於某處；擠滿某個地方」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-10": "本句指「同一市場或領域中有太多競爭者／產品，令可用機會變少的」。",
-        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」是「crowded — schedule」的用法，與本句語境不同。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」是「crowded — mind」的用法，與本句語境不同。",
-        "crowd-mcq-08": "「在有限篇幅中放入過多資訊／概念，令內容過度密集的」是「crowded — content」的用法，與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」是「crowd — verb」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。"
+        "crowd-pdf-plain-005": "本句指「聚集於某處；擠滿某個地方」。",
+        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」與本句語境不同。",
+        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」與本句語境不同。",
+        "crowd-mcq-08": "「在有限篇幅中放入過多資訊／概念，令內容過度密集的」與本句語境不同。",
+        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」與本句語境不同。",
+        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-10"
+      "correctOption": "crowd-pdf-plain-005"
     },
     {
       "id": "crowd-05-1",
-      "sense": "crowd-mcq-10",
+      "sense": "crowd-pdf-plain-005",
       "en": "Fans crowded the streets after the match.",
       "zh": "比賽後，球迷擠滿了街道。",
       "masked": "Fans ____ the streets after the match.",
       "options": [
-        "crowd-mcq-10",
+        "crowd-pdf-plain-005",
         "crowd-mcq-09",
         "crowd-mcq-11",
         "crowd-mcq-08",
         "crowd-mcq-12",
         "crowd-mcq-07"
       ],
-      "explanation": "本句的「crowded」指「同一市場或領域中有太多競爭者／產品，令可用機會變少的」。",
+      "explanation": "本句的「crowded」指「聚集於某處；擠滿某個地方」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-10": "本句指「同一市場或領域中有太多競爭者／產品，令可用機會變少的」。",
-        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」是「crowded — schedule」的用法，與本句語境不同。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」是「crowded — mind」的用法，與本句語境不同。",
-        "crowd-mcq-08": "「在有限篇幅中放入過多資訊／概念，令內容過度密集的」是「crowded — content」的用法，與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」是「crowd — verb」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。"
+        "crowd-pdf-plain-005": "本句指「聚集於某處；擠滿某個地方」。",
+        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」與本句語境不同。",
+        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」與本句語境不同。",
+        "crowd-mcq-08": "「在有限篇幅中放入過多資訊／概念，令內容過度密集的」與本句語境不同。",
+        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」與本句語境不同。",
+        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-10"
+      "correctOption": "crowd-pdf-plain-005"
     },
     {
       "id": "crowd-06-0",
@@ -1411,183 +1438,183 @@ export default {
     },
     {
       "id": "crowd-10-2",
-      "sense": "crowd-mcq-16",
+      "sense": "crowd-mcq-17",
       "en": "Police were responsible for crowd control.",
       "zh": "警方負責人群管制／維持群眾秩序。",
       "masked": "Police were responsible for ____ control.",
       "options": [
-        "crowd-mcq-16",
-        "crowd-mcq-15",
         "crowd-mcq-17",
+        "crowd-mcq-15",
         "crowd-mcq-14",
         "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-13",
+        "crowd-mcq-01"
       ],
-      "explanation": "本句的「crowd」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+      "explanation": "本句的「crowd」指「管理大量聚集人士的移動、安全和秩序」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-17": "本句指「管理大量聚集人士的移動、安全和秩序」。",
+        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
+        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
+        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
+        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。",
+        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-16"
+      "correctOption": "crowd-mcq-17"
     },
     {
       "id": "crowd-10-3",
-      "sense": "crowd-mcq-16",
+      "sense": "crowd-pdf-orphan-01",
       "en": "Researchers study crowd behaviour during emergencies.",
       "zh": "研究人員研究緊急情況下的群眾行為。",
       "masked": "Researchers study ____ behaviour during emergencies.",
       "options": [
-        "crowd-mcq-16",
+        "crowd-pdf-orphan-01",
         "crowd-mcq-15",
         "crowd-mcq-17",
         "crowd-mcq-14",
         "crowd-mcq-18",
         "crowd-mcq-13"
       ],
-      "explanation": "本句的「crowd」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+      "explanation": "本句的「crowd」指「大型群眾在某情況下的行為及反應」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-pdf-orphan-01": "本句指「大型群眾在某情況下的行為及反應」。",
+        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
+        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
+        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
+        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
+        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-16"
+      "correctOption": "crowd-pdf-orphan-01"
     },
     {
       "id": "crowd-10-4",
-      "sense": "crowd-mcq-16",
+      "sense": "crowd-mcq-18",
       "en": "The song is a real crowd-pleaser.",
       "zh": "這首歌非常討大眾喜歡／很能帶動現場氣氛。",
       "masked": "The song is a real ____.",
       "options": [
-        "crowd-mcq-16",
+        "crowd-mcq-18",
         "crowd-mcq-15",
         "crowd-mcq-17",
         "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-13",
+        "crowd-mcq-01"
       ],
-      "explanation": "本句的「crowd-pleaser」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+      "explanation": "本句的「crowd-pleaser」指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "crowd-pleaser"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-18": "本句指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
+        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
+        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
+        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
+        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。",
+        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-16"
+      "correctOption": "crowd-mcq-18"
     },
     {
       "id": "crowd-10-5",
-      "sense": "crowd-mcq-16",
+      "sense": "crowd-mcq-18",
       "en": "The dessert is always a crowd-pleaser.",
       "zh": "這款甜品總是很受大家歡迎。",
       "masked": "The dessert is always a ____.",
       "options": [
-        "crowd-mcq-16",
+        "crowd-mcq-18",
         "crowd-mcq-15",
         "crowd-mcq-17",
         "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-13",
+        "crowd-mcq-01"
       ],
-      "explanation": "本句的「crowd-pleaser」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+      "explanation": "本句的「crowd-pleaser」指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "crowd-pleaser"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-18": "本句指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
+        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
+        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
+        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
+        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。",
+        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-16"
+      "correctOption": "crowd-mcq-18"
     },
     {
       "id": "crowd-10-6",
-      "sense": "crowd-mcq-16",
+      "sense": "crowd-mcq-19",
       "en": "The project raised money through crowdfunding.",
       "zh": "這個項目透過眾籌／群眾募資籌集資金。",
       "masked": "The project raised money through ____.",
       "options": [
-        "crowd-mcq-16",
+        "crowd-mcq-19",
         "crowd-mcq-15",
         "crowd-mcq-17",
         "crowd-mcq-14",
         "crowd-mcq-18",
         "crowd-mcq-13"
       ],
-      "explanation": "本句的「crowdfunding」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+      "explanation": "本句的「crowdfunding」指「由大量個人共同提供資金支持某個項目的眾籌方式」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "crowdfunding"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-19": "本句指「由大量個人共同提供資金支持某個項目的眾籌方式」。",
+        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
+        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
+        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
+        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
+        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-16"
+      "correctOption": "crowd-mcq-19"
     },
     {
       "id": "crowd-10-7",
-      "sense": "crowd-mcq-16",
+      "sense": "crowd-mcq-20",
       "en": "The company used crowdsourcing to collect ideas.",
       "zh": "公司利用眾包／群眾外包收集構思。",
       "masked": "The company used ____ to collect ideas.",
       "options": [
-        "crowd-mcq-16",
+        "crowd-mcq-20",
         "crowd-mcq-15",
         "crowd-mcq-17",
         "crowd-mcq-14",
         "crowd-mcq-18",
         "crowd-mcq-13"
       ],
-      "explanation": "本句的「crowdsourcing」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+      "explanation": "本句的「crowdsourcing」指「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "crowdsourcing"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-20": "本句指「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」。",
+        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
+        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
+        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
+        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
+        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。"
       },
-      "correctOption": "crowd-mcq-16"
+      "correctOption": "crowd-mcq-20"
     }
   ],
   "comparisons": [],

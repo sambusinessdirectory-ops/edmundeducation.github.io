@@ -1236,21 +1236,6 @@ export default {
       "note": "來源詞義：適合建立交易倉位的價格／時機",
       "examples": [
         [
-          "Guards monitored every entry point.",
-          "保安監察每個入口點。",
-          "適合建立交易倉位的價格／時機"
-        ],
-        [
-          "The program’s main function is its entry point.",
-          "main 函數是程式的入口點。",
-          "適合建立交易倉位的價格／時機"
-        ],
-        [
-          "The exposed service became an entry point for attackers.",
-          "暴露的服務成為攻擊者的入侵入口。",
-          "適合建立交易倉位的價格／時機"
-        ],
-        [
           "Investors are looking for a better entry point.",
           "投資者正在尋找更好的入場點。",
           "適合建立交易倉位的價格／時機"
@@ -1785,6 +1770,57 @@ export default {
       "zh": "正式清單／登記冊中的一項記錄",
       "note": "來源詞義：正式清單／登記冊中的一項記錄",
       "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "entry-pdf-plain-061",
+      "title": "供人或事物進入的入口點",
+      "form": "PDF section 61",
+      "en": "PDF section 61",
+      "zh": "供人或事物進入的入口點",
+      "note": "原始 PDF 第 61 節：供人或事物進入的入口點",
+      "examples": [
+        [
+          "Guards monitored every entry point.",
+          "保安監察每個入口點。",
+          "供人或事物進入的入口點"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "entry-pdf-plain-064",
+      "title": "程式開始執行的入口點",
+      "form": "PDF section 64",
+      "en": "PDF section 64",
+      "zh": "程式開始執行的入口點",
+      "note": "原始 PDF 第 64 節：程式開始執行的入口點",
+      "examples": [
+        [
+          "The program’s main function is its entry point.",
+          "main 函數是程式的入口點。",
+          "程式開始執行的入口點"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "entry-pdf-plain-065",
+      "title": "攻擊者得以進入系統的入侵入口點",
+      "form": "PDF section 65",
+      "en": "PDF section 65",
+      "zh": "攻擊者得以進入系統的入侵入口點",
+      "note": "原始 PDF 第 65 節：攻擊者得以進入系統的入侵入口點",
+      "examples": [
+        [
+          "The exposed service became an entry point for attackers.",
+          "暴露的服務成為攻擊者的入侵入口。",
+          "攻擊者得以進入系統的入侵入口點"
+        ]
+      ],
       "options": [],
       "excludedOverlaps": []
     }
@@ -2512,33 +2548,33 @@ export default {
     },
     {
       "id": "entry-61-0",
-      "sense": "entry-mcq-90",
+      "sense": "entry-pdf-plain-061",
       "en": "Guards monitored every entry point.",
       "zh": "保安監察每個入口點。",
       "masked": "Guards monitored every ____ point.",
       "options": [
-        "entry-mcq-90",
+        "entry-pdf-plain-061",
         "entry-mcq-89",
         "entry-mcq-91",
         "entry-mcq-88",
         "entry-mcq-92",
         "entry-mcq-87"
       ],
-      "explanation": "本句的「entry」指「適合建立交易倉位的價格／時機」。",
+      "explanation": "本句的「entry」指「供人或事物進入的入口點」。",
       "sentenceIndex": 26,
       "sourcePractice": 61,
       "targets": [
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-90": "本句指「適合建立交易倉位的價格／時機」。",
+        "entry-pdf-plain-061": "本句指「供人或事物進入的入口點」。",
         "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
         "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
         "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
         "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
         "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
       },
-      "correctOption": "entry-mcq-90"
+      "correctOption": "entry-pdf-plain-061"
     },
     {
       "id": "entry-63-0",
@@ -2572,63 +2608,63 @@ export default {
     },
     {
       "id": "entry-64-0",
-      "sense": "entry-mcq-90",
+      "sense": "entry-pdf-plain-064",
       "en": "The program’s main function is its entry point.",
       "zh": "main 函數是程式的入口點。",
       "masked": "The program’s main function is its ____ point.",
       "options": [
-        "entry-mcq-90",
+        "entry-pdf-plain-064",
         "entry-mcq-89",
         "entry-mcq-91",
         "entry-mcq-88",
         "entry-mcq-92",
         "entry-mcq-87"
       ],
-      "explanation": "本句的「entry」指「適合建立交易倉位的價格／時機」。",
+      "explanation": "本句的「entry」指「程式開始執行的入口點」。",
       "sentenceIndex": 28,
       "sourcePractice": 64,
       "targets": [
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-90": "本句指「適合建立交易倉位的價格／時機」。",
+        "entry-pdf-plain-064": "本句指「程式開始執行的入口點」。",
         "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
         "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
         "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
         "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
         "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
       },
-      "correctOption": "entry-mcq-90"
+      "correctOption": "entry-pdf-plain-064"
     },
     {
       "id": "entry-65-0",
-      "sense": "entry-mcq-90",
+      "sense": "entry-pdf-plain-065",
       "en": "The exposed service became an entry point for attackers.",
       "zh": "暴露的服務成為攻擊者的入侵入口。",
       "masked": "The exposed service became an ____ point for attackers.",
       "options": [
-        "entry-mcq-90",
+        "entry-pdf-plain-065",
         "entry-mcq-89",
         "entry-mcq-91",
         "entry-mcq-88",
         "entry-mcq-92",
         "entry-mcq-87"
       ],
-      "explanation": "本句的「entry」指「適合建立交易倉位的價格／時機」。",
+      "explanation": "本句的「entry」指「攻擊者得以進入系統的入侵入口點」。",
       "sentenceIndex": 29,
       "sourcePractice": 65,
       "targets": [
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-90": "本句指「適合建立交易倉位的價格／時機」。",
+        "entry-pdf-plain-065": "本句指「攻擊者得以進入系統的入侵入口點」。",
         "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
         "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
         "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
         "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
         "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
       },
-      "correctOption": "entry-mcq-90"
+      "correctOption": "entry-pdf-plain-065"
     },
     {
       "id": "entry-75-0",
