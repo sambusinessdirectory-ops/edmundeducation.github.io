@@ -186,7 +186,7 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
      <div class="recording-time"><span data-current-time>0:00</span><span data-total-time>—:—</span></div>
      <div class="recording-controls">
       <button class="recording-skip" type="button" data-skip="-5" aria-label="倒退 5 秒"><span aria-hidden="true">↶</span><small>5</small></button>
-      <button class="recording-play" type="button" data-play aria-label="播放錄音 · Play recording"><span data-play-icon aria-hidden="true">▶</span></button>
+      <button class="recording-play" type="button" data-play aria-label="播放錄音 · Play recording" aria-pressed="false"><span class="recording-play-icon" aria-hidden="true"></span></button>
       <button class="recording-skip" type="button" data-skip="5" aria-label="前進 5 秒"><small>5</small><span aria-hidden="true">↷</span></button>
      </div>
     </div>
@@ -201,7 +201,6 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
    const status=box.querySelector('[role=status]');
    const player=box.querySelector('audio');
    const playButton=box.querySelector('[data-play]');
-   const playIcon=box.querySelector('[data-play-icon]');
    const seek=box.querySelector('[data-seek]');
    const bars=[...box.querySelectorAll('[data-waveform] i')];
    const currentTime=box.querySelector('[data-current-time]');
@@ -219,8 +218,8 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
    }
    function setPlaying(playing){
     box.classList.toggle('is-playing',playing);
-    playIcon.textContent=playing?'❚❚':'▶';
     playButton.setAttribute('aria-label',playing?'暫停錄音 · Pause recording':'播放錄音 · Play recording');
+    playButton.setAttribute('aria-pressed',String(playing));
    }
    async function prepare(){
     if(player.src)return player;
