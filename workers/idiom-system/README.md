@@ -154,6 +154,13 @@ The exact top-level `PUT` shape is:
 }
 ```
 
+New attempts use `result.answerMode: "guided"` and store each student's idiom-only
+answer with `questionState[questionId].answerMode: "guided"`. The protected
+guided catalogue validates the phrase before awarding progress. Full-sentence
+rewrites remain available as an optional mode; attempts saved before this change
+default to `"full"` when resumed. Apply the Idiom guided-mode database migration
+before deploying this Worker and the updated page.
+
 Only content version `1`, lessons `idiom-01` through `idiom-138`, and question
 IDs `q01` through `q50` within the matching lesson are accepted. Claimed
 correct answers are checked against the 6,900-answer server catalogue

@@ -1288,6 +1288,7 @@ function attemptHistoryHtml(attempts, { allowResume = true } = {}) {
         <div class="attempt-details">
           <div class="attempt-details-grid">
             <div class="attempt-detail"><span>狀態</span><strong>${complete ? "全部答對" : "尚未完成"}</strong></div>
+            <div class="attempt-detail"><span>練習模式</span><strong>${attempt.result?.answerMode === "guided" ? "填入慣用語" : "完整句子改寫"}</strong></div>
             <div class="attempt-detail"><span>提交記錄</span><strong>${escapeHtml(rounds)} 次</strong></div>
             <div class="attempt-detail"><span>練習時間</span><strong>${escapeHtml(formatDuration(attempt.durationMs))}</strong></div>
           </div>
@@ -1658,6 +1659,7 @@ function createExercise(lesson) {
     round: 1,
     correctIds: [],
     questionState: {},
+    answerMode: "guided",
     drafts: {},
     rounds: [],
     awaitingNextRound: false,
@@ -1690,7 +1692,8 @@ function exerciseFromAttempt(attempt) {
       questionState[id] = {
         status: ["pending", "correct", "wrong"].includes(value.status) ? value.status : "pending",
         lastAnswer: String(value.lastAnswer || ""),
-        reveal: value.reveal === true
+        reveal: value.reveal === true,
+        answerMode: value.answerMode === "guided" ? "guided" : "full"
       };
     }
   }
@@ -1701,6 +1704,7 @@ function exerciseFromAttempt(attempt) {
     round: Math.max(1, attempt.roundNumber || Number(result.round || 1)),
     correctIds,
     questionState,
+    answerMode: result.answerMode === "guided" ? "guided" : "full",
     drafts: {},
     rounds: Array.isArray(result.rounds) ? result.rounds.slice(-250) : [],
     awaitingNextRound: result.awaitingNextRound === true,
@@ -1828,7 +1832,13 @@ function questionHtml(question) {
     && state.exercise.correctionIds.includes(question.id)
     && !correct;
   const revealAnswer = qState.reveal === true;
-  const value = state.exercise.drafts[question.id] ?? qState.lastAnswer ?? "";
+  const answerMode = state.exercise.answerMode;
+  const value = state.exercise.drafts[question.id]
+    ?? (qState.answerMode === answerMode ? qState.lastAnswer : "");
+  const guided = answerMode === "guided";
+  const phrase = String(question.highlight || "");
+  const answer = String(question.answer || "");
+  const phraseIndex = answer.toLowerCase().indexOf(phrase.toLowerCase());
   const answerParts = questionAnswerParts(question);
   const partValues = storedAnswerPartValues(question, value);
   const bookmarked = isBookmarked(state.lessonId, question.id);
@@ -1846,17 +1856,17 @@ function questionHtml(question) {
         <p class="english">${escapeHtml(question.prompt || question.english || "")}</p>
         <p class="chinese">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
         ${question.cue ? `<p class="question-cue">${escapeHtml(question.cue)}</p>` : ""}
-        ${!answerParts.length && question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
+        ${!guided && !answerParts.length && question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
       </div>
-      ${answerParts.length ? `<div class="multi-answer-fields">${answerParts.map((part, index) => `
+      ${guided && phraseIndex >= 0 ? `<div class="guided-answer"><span class="guided-answer-label">只填入缺少的慣用語</span><div class="guided-sentence"><span>${escapeHtml(answer.slice(0, phraseIndex))}</span><input class="answer-input" type="text" maxlength="180" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題，填入慣用語" placeholder="填入慣用語"><span>${escapeHtml(answer.slice(phraseIndex + phrase.length))}</span></div></div>` : answerParts.length ? `<div class="multi-answer-fields">${answerParts.map((part, index) => `
         <label class="answer-part">
           <span><strong>${escapeHtml(part.label)}</strong> · 請以「${escapeHtml(part.starter)}」開始</span>
           <input class="answer-input" type="text" maxlength="450" data-answer-input="${escapeHtml(question.id)}" data-answer-part-index="${index}" value="${escapeHtml(partValues[index] || "")}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題 ${escapeHtml(part.label)} 答案">
         </label>
       `).join("")}</div>` : `<input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">`}
       ${wrong && !correct ? `<button class="clear-answer-button" type="button" data-clear-question-answer="${escapeHtml(question.id)}">清除答案，重新輸入</button>` : ""}
-      <p class="question-feedback" aria-live="polite">${correct ? answerComparison(value, question).typoCount === 1 ? "✓ 答案正確；黃色標示一個可留意的拼寫。" : "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "答案未完全符合目標慣用語；請再次修改後提交。" : "答案未完全符合目標慣用語；請參考答案並修改。" : ""}</p>
-      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案（黃色為遺漏或需修改部分）</span>${suggestedAnswerHtml(question, value)}</div>` : ""}
+      <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "再看看慣用語的拼寫或詞形，修改後重新提交。" : "再看看慣用語的拼寫或詞形，參考答案後再試。" : ""}</p>
+      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span>${guided ? `<p><strong>${escapeHtml(phrase)}</strong></p><p>${highlightedAnswerHtml(answer, phrase)}</p><p>${escapeHtml(question.answerZh || "")}</p>` : suggestedAnswerHtml(question, value)}</div>` : ""}
     </div>
   </article>`;
 }
@@ -1906,8 +1916,15 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const bulkVisibilityLabel = allVisibleCorrectCollapsed
     ? "展開所有已完成題目"
     : "隱藏所有已完成題目";
-  const instructionZh = String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
-  const instructionEn = String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
+  const guided = state.exercise.answerMode === "guided";
+  const hasGuidedCredit = Object.values(state.exercise.questionState)
+    .some((entry) => entry.status === "correct" && entry.answerMode === "guided");
+  const instructionZh = guided
+    ? "閱讀原句及改寫後的句子，只填入缺少的慣用語。答對即可完成該題；不必重寫整句。"
+    : String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
+  const instructionEn = guided
+    ? "Fill in only the missing idiom. A correct phrase completes the question."
+    : String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
   const illustrationAlt = String(lesson.imageAlt || `${lessonEnglishTitle(lesson)} illustration`);
   const illustrationCaptionZh = String(lesson.imageCaptionZh || lessonTitle(lesson));
   const illustrationCaptionEn = String(lesson.imageCaptionEn || lessonEnglishTitle(lesson));
@@ -1915,7 +1932,11 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
       <div class="exercise-header-top">
-        <div><p class="eyebrow">PAGE 8 · TYPE THE WHOLE SENTENCE</p><h2>慣用語句子改寫練習</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
+        <div><p class="eyebrow">PAGE 8 · ${guided ? "FILL IN THE IDIOM" : "TYPE THE WHOLE SENTENCE"}</p><h2>${guided ? "填入慣用語" : "慣用語句子改寫練習"}</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
+      </div>
+      <div class="exercise-mode-switch" role="group" aria-label="練習模式">
+        <button type="button" data-exercise-mode="guided" aria-pressed="${guided}">填入慣用語 · 標準練習</button>
+        <button type="button" data-exercise-mode="full" aria-pressed="${!guided}">完整句子改寫 · 進階挑戰</button>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
@@ -1930,7 +1951,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <div class="completion-mark" aria-hidden="true">✓</div>
       <h3>恭喜，全部題目已完成！</h3>
       <p>你已完成這組 <strong>${escapeHtml(total)}</strong> 題英文慣用語練習。</p>
-      <div class="round-summary-actions"><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
+      <div class="round-summary-actions">${hasGuidedCredit ? `<button class="secondary-button" type="button" data-start-full-challenge>挑戰完整句子改寫</button>` : ""}<button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
     </section>` : state.exercise.awaitingNextRound ? `<section class="round-summary">
       <h3>本次提交已檢查</h3>
       <p>目前已答對 <strong>${escapeHtml(correct)}</strong> 題；尚有 <strong>${escapeHtml(remaining)}</strong> 題需要繼續練習。</p>
@@ -2007,6 +2028,31 @@ function readExerciseDrafts() {
   });
 }
 
+function switchExerciseMode(mode) {
+  if (!state.exercise || !["guided", "full"].includes(mode) || mode === state.exercise.answerMode) return;
+  readExerciseDrafts();
+  state.exercise.draftsByMode ||= { guided: {}, full: {} };
+  state.exercise.draftsByMode[state.exercise.answerMode] = { ...state.exercise.drafts };
+  state.exercise.drafts = { ...state.exercise.draftsByMode[mode] };
+  state.exercise.answerMode = mode;
+  renderExercisePage(getLesson(), { preserveScroll: true });
+  scheduleExercisePersistence();
+}
+
+async function startFullChallenge() {
+  if (!state.exercise?.completedAt || state.saveInFlight) return;
+  const lesson = getLesson();
+  state.exercise = createExercise(lesson);
+  state.exercise.answerMode = "full";
+  renderExercisePage(lesson);
+  try {
+    await persistExercise();
+  } catch (error) {
+    console.warn("Full-sentence challenge save failed", error);
+    showToast("進階挑戰已開始，但暫時未能同步記錄。", "error");
+  }
+}
+
 function syncExerciseButtons() {
   const partialButton = document.querySelector("[data-submit-partial]");
   const allButton = document.querySelector("[data-submit-all]");
@@ -2040,6 +2086,12 @@ function answerComparison(studentAnswer, question) {
   });
 }
 
+function guidedAnswerComparison(studentAnswer, question) {
+  return window.EdmundAnswerComparison.best(studentAnswer, [question.highlight], {
+    canonicalizeToken: canonicalSpellingToken
+  });
+}
+
 function answersMatch(studentAnswer, question) {
   return answerComparison(studentAnswer, question).correct;
 }
@@ -2047,6 +2099,7 @@ function answersMatch(studentAnswer, question) {
 function serializeExerciseResult(exercise = state.exercise) {
   return {
     round: exercise.round,
+    answerMode: exercise.answerMode,
     correctIds: [...exercise.correctIds],
     questionState: { ...exercise.questionState },
     rounds: exercise.rounds.slice(-250),
@@ -2138,11 +2191,14 @@ async function submitExercise(kind) {
   let bookmarkChanged = false;
   for (const question of targets) {
     const answer = String(state.exercise.drafts[question.id] || "").trim();
-    const correct = Boolean(answer) && answersMatch(answer, question);
+    const correct = Boolean(answer) && (state.exercise.answerMode === "guided"
+      ? guidedAnswerComparison(answer, question).correct
+      : answersMatch(answer, question));
     state.exercise.questionState[question.id] = {
       status: correct ? "correct" : "wrong",
       lastAnswer: answer,
-      reveal: true
+      reveal: true,
+      answerMode: state.exercise.answerMode
     };
     if (correct) {
       if (!state.exercise.correctIds.includes(question.id)) state.exercise.correctIds.push(question.id);
@@ -2584,6 +2640,9 @@ function handleClick(event) {
   if (event.target.closest("[data-lesson-next]")) return setLessonPage(state.lessonPage + 1);
   if (event.target.closest("[data-submit-partial]")) return submitExercise("partial");
   if (event.target.closest("[data-submit-all]")) return submitExercise("all");
+  const modeButton = event.target.closest("[data-exercise-mode]");
+  if (modeButton) return switchExerciseMode(modeButton.dataset.exerciseMode);
+  if (event.target.closest("[data-start-full-challenge]")) return startFullChallenge();
   if (event.target.closest("[data-start-correction]")) return startCorrectionRound();
   if (event.target.closest("[data-exit-correction]")) return exitCorrectionRound();
   if (event.target.closest("[data-next-round]")) return startNextRound();

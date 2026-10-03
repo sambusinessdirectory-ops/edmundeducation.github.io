@@ -352,6 +352,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
   updateLessonStepper, currentProgressQuestionId, focusExerciseQuestion,
   readExerciseDrafts, syncExerciseButtons, wrongQuestionIds, correctionQuestions,
   submissionQuestions, submitExercise, startCorrectionRound, exitCorrectionRound,
+  switchExerciseMode, startFullChallenge,
   serializeExerciseResult, persistExercise,
   pauseExerciseClock, startExerciseClock, bindEvents
 };
@@ -663,6 +664,29 @@ test("correct and wrong answers support immediate correction, explicit exit, and
   assert.equal(sut.state.exercise.questionState[q2.id].status, "correct");
   assert.equal(sut.state.exercise.correctionMode, false);
   assert.deepEqual(Array.from(sut.state.exercise.correctionIds), []);
+});
+
+test("new attempts complete with the missing idiom while full rewrites remain optional", async () => {
+  const { sut, answerInputs, apiCalls } = createFrontendHarness();
+  const question = lesson.questions[0];
+  authenticateStudent(sut);
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 8;
+  sut.state.exercise = sut.createExercise(lesson);
+  sut.renderExercisePage(lesson);
+  assert.equal(sut.state.exercise.answerMode, "guided");
+  assert.match(sut.elements.lessonContent.innerHTML, /FILL IN THE IDIOM/);
+  assert.match(sut.elements.lessonContent.innerHTML, /data-exercise-mode="full"/);
+  answerInputs.push(makeElement({ dataset: { answerInput: question.id }, value: question.highlight }));
+  await sut.submitExercise("partial");
+  assert.ok(sut.state.exercise.correctIds.includes(question.id));
+  assert.equal(sut.state.exercise.questionState[question.id].lastAnswer, question.highlight);
+  assert.equal(sut.state.exercise.questionState[question.id].answerMode, "guided");
+  assert.equal(JSON.parse(apiCalls.at(-1).options.body).result.answerMode, "guided");
+  sut.switchExerciseMode("full");
+  assert.match(sut.elements.lessonContent.innerHTML, /TYPE THE WHOLE SENTENCE/);
+  assert.ok(sut.state.exercise.correctIds.includes(question.id));
 });
 
 test("resumed and persisted correction IDs exclude already-correct questions", async () => {

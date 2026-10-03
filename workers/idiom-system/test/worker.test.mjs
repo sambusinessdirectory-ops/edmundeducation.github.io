@@ -3,7 +3,7 @@ import fs from "node:fs";
 import test from "node:test";
 import vm from "node:vm";
 
-import { ACCEPTED_ANSWERS } from "../src/catalog.js";
+import { ACCEPTED_ANSWERS, ACCEPTED_GUIDED_ANSWERS } from "../src/catalog.js";
 import worker from "../src/index.js";
 
 const ORIGIN = "https://edmundeducation.github.io";
@@ -305,6 +305,32 @@ test("a valid PDF answer reaches the Idiom attempt RPC unchanged", async t => {
     upsertPayload.p_result.questionState[QUESTION_IDS[0]].lastAnswer,
     ACCEPTED_ANSWERS[QUESTION_IDS[0]][0]
   );
+});
+
+test("guided idiom answers count as completion while a full sentence is rejected in guided mode", async t => {
+  let saved = null;
+  installFetch(t, async (input, init = {}) => {
+    const name = rpcName(input);
+    const body = JSON.parse(String(init.body || "{}"));
+    if (name === "idiom_system_student_profile") return jsonResponse(studentProfile());
+    if (name === "idiom_system_upsert_attempt") {
+      saved = body.p_result;
+      return jsonResponse(attemptRow(body));
+    }
+    throw new Error(`Unexpected RPC: ${name}`);
+  });
+  const id = QUESTION_IDS[0];
+  const phrase = ACCEPTED_GUIDED_ANSWERS[id][0];
+  const payload = attemptPayload({ questionId: id, answer: phrase });
+  payload.result.answerMode = "guided";
+  payload.result.questionState[id].answerMode = "guided";
+  const response = await worker.fetch(attemptRequest(payload), environment());
+  assert.equal(response.status, 200);
+  assert.equal(saved.questionState[id].lastAnswer, phrase);
+  assert.equal(saved.questionState[id].answerMode, "guided");
+  payload.result.questionState[id].lastAnswer = ACCEPTED_ANSWERS[id][0];
+  const rejected = await worker.fetch(attemptRequest(payload), environment());
+  assert.equal(rejected.status, 400);
 });
 
 test("British and American spelling variants validate identically", async t => {
