@@ -24,13 +24,13 @@ const CONTEXT_HIGHLIGHTS = [
 ];
 const config = window.EDMUND_SUPABASE || {};
 const el = {
-  status: $('[data-status]'), reader: $('[data-reader]'), context: $('[data-context]'),
+  status: $('[data-status]'), loadingPanel: $('[data-loading-panel]'), loadProgress: $('[data-load-progress]'), loadFill: $('[data-load-fill]'), loadPercent: $('[data-load-percent]'), reader: $('[data-reader]'), context: $('[data-context]'),
   contextReading: $('[data-context-reading]'), fullText: $('[data-full-text]'), fullSection: $('#full-speech'),
   addressTranslation: $('[data-address-translation]'), addressRules: $('[data-address-rules]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'), pinnedSentence: $('[data-pinned-sentence]'), pinnedText: $('[data-pinned-text]'),
   chapters: $('[data-chapters]'), addressChapters: $('[data-address-chapters]'), addressNavToggle: $('[data-address-nav-toggle]'), lines: $('[data-lines]'),
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
-  accountName: $('[data-account-name]'), logout: $('[data-logout]')
+  accountName: $('[data-account-name]'), logout: $('[data-logout]'), albumToggle: $('[data-album-toggle]'), albumPages: $('[data-album-pages]'), albumAction: $('[data-album-action]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 const cards = [];
@@ -88,6 +88,14 @@ function node(tag, className, value) {
   if (className) result.className = className;
   if (value !== undefined) result.textContent = value;
   return result;
+}
+function setLoadProgress(percent, message) {
+  const value = Math.max(0, Math.min(100, percent));
+  el.status.hidden = false;
+  el.status.textContent = message;
+  el.loadFill.style.width = `${value}%`;
+  el.loadProgress.setAttribute('aria-valuenow', String(value));
+  el.loadPercent.textContent = `${value}%`;
 }
 function ownSession() {
   try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || 'null'); }
@@ -241,6 +249,7 @@ function updateReadingProgress() {
   el.progressFill.style.width = `${percent}%`;
   el.progressValue.value = `${percent}%`;
   el.progressValue.textContent = `${percent}%`;
+  $('[data-reading-progress]').classList.toggle('is-complete', percent === 100);
   updatePinnedSentence();
 }
 function updatePinnedSentence() {
@@ -577,6 +586,14 @@ el.translationToggle.addEventListener('click', () => {
   el.translationToggle.textContent = visible ? '隱藏全部中譯' : '顯示全部中譯';
 });
 el.search.addEventListener('input', filterLines);
+el.albumToggle.addEventListener('click', () => {
+  const open = el.albumToggle.getAttribute('aria-expanded') !== 'true';
+  el.albumToggle.setAttribute('aria-expanded', String(open));
+  el.albumPages.inert = !open;
+  el.albumPages.setAttribute('aria-hidden', String(!open));
+  el.albumToggle.closest('.archive-gallery').classList.toggle('is-open', open);
+  el.albumAction.textContent = open ? '合上相冊 ↑' : '打開相冊，觀看歷史影像 ↗';
+});
 document.addEventListener('keydown', event => {
   if (event.target instanceof HTMLInputElement || event.altKey || event.metaKey || event.ctrlKey) return;
   if (event.key === 'Escape' && selected >= 0) openLine(selected);
@@ -599,6 +616,7 @@ async function start() {
   const current = tokenSession();
   if (!current) return escapeLogin();
   el.accountName.textContent = current.name || '';
+  setLoadProgress(10, '正在連接演講資料庫…');
   try {
     const data = await rpc('speech_curation_lesson', {
       p_slug: 'churchill-1949',
@@ -606,11 +624,13 @@ async function start() {
       p_admin_token: current.role === 'admin' ? current.token : null
     });
     if (!data?.lines?.length || !data?.introduction?.length) throw new Error('Lesson unavailable');
+    setLoadProgress(48, '演說資料已載入，正在排版…');
     lesson = data;
     renderContext(data.introduction);
     renderFullText(data.lines);
     renderChapters();
     renderLines(data.lines);
+    setLoadProgress(78, '逐句導讀已備妥，正在讀取書籤…');
     const readerState = await rpc('speech_curation_reader_state', {
       p_slug: 'churchill-1949',
       p_account_token: current.role === 'admin' ? null : current.token,
@@ -619,13 +639,14 @@ async function start() {
     setSpeechStudentNavigation(Boolean(readerState?.is_student));
     (readerState?.marks || []).forEach(mark => marks.add(markKey(mark.kind, mark.line_index, mark.idea_index)));
     refreshMarks();
+    setLoadProgress(100, '演說已準備好。');
     if (current.role === 'admin') {
       const source = node('a', 'source-link', '英文原文來源 ↗');
       source.href = data.source_url || 'https://www.nationalchurchillmuseum.org/the-council-of-europe.html';
       source.target = '_blank'; source.rel = 'noopener noreferrer';
       $('.hero-actions').append(source);
     }
-    el.status.hidden = true;
+    el.loadingPanel.hidden = true;
     el.reader.hidden = false;
     const floatingToolbar = $('.address-floating-toolbar');
     const measureToolbar = () => el.fullSection.style.setProperty('--address-toolbar-height', `${Math.ceil(floatingToolbar.getBoundingClientRect().height)}px`);
