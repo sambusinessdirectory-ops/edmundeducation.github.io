@@ -592,7 +592,7 @@ el.albumToggle.addEventListener('click', () => {
   el.albumPages.inert = !open;
   el.albumPages.setAttribute('aria-hidden', String(!open));
   el.albumToggle.closest('.archive-gallery').classList.toggle('is-open', open);
-  el.albumAction.textContent = open ? '合上相冊 ↑' : '打開相冊，觀看歷史影像 ↗';
+  el.albumAction.textContent = open ? '收起歷史影像' : '向下揭開歷史影像';
 });
 document.addEventListener('keydown', event => {
   if (event.target instanceof HTMLInputElement || event.altKey || event.metaKey || event.ctrlKey) return;
