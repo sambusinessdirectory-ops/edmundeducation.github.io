@@ -2,7 +2,7 @@ const $ = selector => document.querySelector(selector);
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = 'edmund-speech-curation-session-v1';
 const el = {
-  login: $('[data-login-panel]'), library: $('[data-library]'), loginForm: $('[data-login-form]'),
+  entry: $('[data-entry-stage]'), login: $('[data-login-panel]'), library: $('[data-library]'), loginForm: $('[data-login-form]'),
   loginButton: $('[data-login-button]'), loginStatus: $('[data-login-status]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]'),
   list: $('[data-speech-list]'), libraryStatus: $('[data-library-status]'),
@@ -72,6 +72,7 @@ function showSignedIn() {
     location.replace('/speech-curation-churchill.html');
     return;
   }
+  el.entry.hidden = true;
   el.login.hidden = true;
   el.library.hidden = false;
   el.logout.hidden = false;
@@ -85,6 +86,7 @@ function showSignedIn() {
 }
 
 function showLogin() {
+  el.entry.hidden = false;
   el.login.hidden = false;
   el.library.hidden = true;
   el.logout.hidden = true;

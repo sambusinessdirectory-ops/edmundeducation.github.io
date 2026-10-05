@@ -10,15 +10,17 @@ const CHAPTERS = [
   { first: 129, title: '德國與歐洲和平', short: '德國' },
   { first: 207, title: '復興歐洲的精神', short: '結語' }
 ];
+const PARAGRAPH_STARTS = [0, 10, 22, 35, 50, 61, 74, 86, 106, 128, 141, 145, 153, 170, 177, 187, 206];
+const CONTEXT_IMAGES = ['history', 'importance', 'after', 'style', 'people'];
 const config = window.EDMUND_SUPABASE || {};
 const el = {
   status: $('[data-status]'), reader: $('[data-reader]'), context: $('[data-context]'),
-  chapters: $('[data-chapters]'), lines: $('[data-lines]'), detail: $('[data-detail]'),
-  search: $('[data-search]'), count: $('[data-line-count]'),
+  contextReading: $('[data-context-reading]'), fullText: $('[data-full-text]'),
+  chapters: $('[data-chapters]'), lines: $('[data-lines]'),
+  search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]')
 };
-let client, lesson, selected = -1;
-const translated = new Set();
+let client, lesson, selected = -1, contextSelected = -1;
 const cards = [];
 
 function node(tag, className, value) {
@@ -63,12 +65,62 @@ function escapeLogin() { location.replace(LOGIN_URL); }
 function renderContext(items) {
   el.context.replaceChildren();
   items.forEach((item, index) => {
-    const card = node('details', 'context-card');
-    const summary = node('summary', '', '');
-    summary.append(node('span', 'context-number', String(index + 1).padStart(2, '0')), node('span', '', item.title), node('span', 'context-chevron', '＋'));
-    card.append(summary, node('p', '', item.text));
-    el.context.append(card);
+    const button = node('button', 'context-cover');
+    button.type = 'button'; button.dataset.context = String(index);
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-controls', 'context-reading');
+    const image = node('img', 'cover-image');
+    image.src = `/speech-curation-assets/context-${CONTEXT_IMAGES[index] || 'history'}.jpg`;
+    image.alt = ''; image.loading = 'lazy';
+    button.append(image, node('span', 'cover-number', `CHAPTER ${String(index + 1).padStart(2, '0')}`), node('span', 'cover-title', item.title), node('span', 'cover-action', '打開導讀 ↗'));
+    el.context.append(button);
   });
+  el.contextReading.id = 'context-reading';
+}
+function splitIdeas(text) {
+  return (text.match(/[^。！？]+[。！？]?/g) || [text]).map(part => part.trim()).filter(Boolean);
+}
+function showContext(index) {
+  if (index === contextSelected) {
+    contextSelected = -1;
+    el.contextReading.classList.remove('is-open');
+    el.contextReading.hidden = true;
+    el.context.querySelectorAll('[data-context]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+    return;
+  }
+  contextSelected = index;
+  const item = lesson.introduction[index];
+  el.context.querySelectorAll('[data-context]').forEach(button => button.setAttribute('aria-expanded', String(Number(button.dataset.context) === index)));
+  const top = node('div', 'context-reading-top');
+  const close = node('button', 'context-close', '收起導讀 ×'); close.type = 'button'; close.dataset.contextClose = '';
+  top.append(node('p', 'eyebrow', `ARCHIVE NOTE ${String(index + 1).padStart(2, '0')}`), close);
+  const ideas = node('div', 'context-ideas');
+  splitIdeas(item.text).forEach((part, ideaIndex) => {
+    const row = node('div', 'context-idea');
+    row.append(node('span', 'idea-number', String(ideaIndex + 1).padStart(2, '0')), node('p', '', part));
+    ideas.append(row);
+  });
+  el.contextReading.replaceChildren(top, node('h3', '', item.title), ideas);
+  el.contextReading.hidden = false;
+  requestAnimationFrame(() => {
+    el.contextReading.classList.add('is-open');
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries, observed) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observed.unobserve(entry.target); }
+        });
+      }, { threshold: 0.12 });
+      ideas.querySelectorAll('.context-idea').forEach(row => observer.observe(row));
+    } else ideas.querySelectorAll('.context-idea').forEach(row => row.classList.add('is-visible'));
+    el.contextReading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+function renderFullText(lines) {
+  el.fullText.replaceChildren();
+  const starts = [...PARAGRAPH_STARTS, lines.length];
+  for (let i = 0; i < starts.length - 1; i++) {
+    el.fullText.append(node('p', '', lines.slice(starts[i], starts[i + 1]).map(line => line.english.trim()).join(' ')));
+  }
 }
 function chapterFor(index) {
   let chapter = CHAPTERS[0];
@@ -87,20 +139,15 @@ function renderChapters() {
 function makeCard(line, index) {
   const card = node('article', 'line-card');
   card.dataset.index = String(index);
-  const top = node('div', 'line-top');
-  top.append(node('span', 'line-number', String(index + 1).padStart(3, '0')));
-  const toggle = node('button', 'translation-toggle', '顯示中譯');
-  toggle.type = 'button'; toggle.dataset.translate = String(index);
-  toggle.setAttribute('aria-pressed', 'false');
-  toggle.setAttribute('aria-controls', `translation-${index}`);
-  top.append(toggle);
-  const open = node('button', 'line-open', line.english);
+  const open = node('button', 'line-open');
   open.type = 'button'; open.dataset.open = String(index);
-  open.setAttribute('aria-label', `第 ${index + 1} 句：${line.english}。開啟導讀`);
-  const translation = node('p', 'inline-translation', line.chinese);
-  translation.id = `translation-${index}`;
-  translation.hidden = true;
-  card.append(top, open, translation);
+  open.setAttribute('aria-expanded', 'false');
+  open.setAttribute('aria-controls', `line-body-${index}`);
+  open.append(node('span', 'line-number', String(index + 1).padStart(3, '0')), node('span', 'line-english', line.english), node('span', 'line-chevron', '+'));
+  const translation = node('p', 'line-translation', line.chinese);
+  const body = node('div', 'line-body'); body.id = `line-body-${index}`;
+  body.append(node('div', 'line-body-inner'));
+  card.append(open, translation, body);
   return card;
 }
 function renderLines(lines) {
@@ -121,63 +168,59 @@ function renderLines(lines) {
     cards.push(card);
     section.append(card);
   });
-  el.count.textContent = `${lines.length} 句 · 點選查看導讀`;
+  el.count.textContent = `${lines.length} 句`;
 }
-function setTranslation(index, visible) {
-  if (visible) translated.add(index); else translated.delete(index);
-  const card = cards[index];
-  card.querySelector('.inline-translation').hidden = !visible;
-  const toggle = card.querySelector('.translation-toggle');
-  toggle.textContent = visible ? '隱藏中譯' : '顯示中譯';
-  toggle.setAttribute('aria-pressed', String(visible));
-  if (selected === index) {
-    const detailButton = el.detail.querySelector('[data-detail-translate]');
-    if (detailButton) detailButton.textContent = visible ? '隱藏中譯' : '顯示中譯';
-    const detailTranslation = el.detail.querySelector('.detail-translation');
-    if (detailTranslation) detailTranslation.hidden = !visible;
-  }
+function vocabularyRows(collocations) {
+  return String(collocations || '').replace(/^Collocations 配詞:\s*/, '').split(/[；;]/).map(part => part.trim()).filter(Boolean).map(part => {
+    const separator = part.indexOf('=');
+    return separator < 0 ? [part, '—'] : [part.slice(0, separator).trim(), part.slice(separator + 1).trim()];
+  });
 }
-function renderDetail(index) {
+function fillLineBody(index) {
   const line = lesson.lines[index];
-  el.detail.replaceChildren();
-  const top = node('div', 'detail-top');
-  const eyebrow = node('p', 'eyebrow', `LINE ${String(index + 1).padStart(3, '0')} / ${lesson.lines.length}`);
-  const close = node('button', 'detail-close', '關閉');
-  close.type = 'button'; close.dataset.close = '';
-  top.append(eyebrow, close);
-  const heading = node('h3', '', line.english);
-  const translationButton = node('button', 'detail-translate', translated.has(index) ? '隱藏中譯' : '顯示中譯');
-  translationButton.type = 'button'; translationButton.dataset.detailTranslate = '';
-  const translation = node('p', 'detail-translation', line.chinese);
-  translation.hidden = !translated.has(index);
-  const label = node('h4', '', '語言與思想導讀');
-  const notes = node('div', 'detail-notes');
-  line.notes.forEach((note, noteIndex) => {
+  const inner = cards[index].querySelector('.line-body-inner');
+  if (inner.childElementCount) return;
+  const intro = node('div', 'annotation-heading');
+  intro.append(node('p', 'eyebrow', `LINE ${String(index + 1).padStart(3, '0')}`), node('h4', '', '語言與思想導讀'));
+  const notes = node('div', 'annotation-grid');
+  (line.notes || []).forEach((note, noteIndex) => {
     const block = node('div', 'note');
     block.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), node('p', '', note.replace(/^\d+\.\s*/, '')));
     notes.append(block);
   });
-  const collocations = node('div', 'collocations', '');
-  collocations.append(node('h4', '', '配詞 · Collocations'), node('p', '', line.collocations.replace(/^Collocations 配詞:\s*/, '')));
-  const nav = node('div', 'detail-navigation');
-  for (const [delta, label] of [[-1, '← 上一句'], [1, '下一句 →']]) {
-    const button = node('button', '', label);
-    button.type = 'button'; button.dataset.step = String(delta);
-    button.disabled = index + delta < 0 || index + delta >= lesson.lines.length;
-    nav.append(button);
+  inner.append(intro, notes);
+  const rows = vocabularyRows(line.collocations);
+  if (rows.length) {
+    const section = node('section', 'vocabulary');
+    section.append(node('h4', '', '主題詞彙與配詞'));
+    const table = node('table');
+    const header = node('thead'); const headerRow = node('tr');
+    headerRow.append(node('th', '', '英文表達'), node('th', '', '中文意思'));
+    header.append(headerRow); table.append(header);
+    const tbody = node('tbody');
+    rows.forEach(([term, meaning]) => { const row = node('tr'); row.append(node('td', '', term), node('td', '', meaning)); tbody.append(row); });
+    table.append(tbody); section.append(table); inner.append(section);
   }
-  el.detail.append(top, heading, translationButton, translation, label, notes, collocations, nav);
-  el.detail.classList.add('is-open');
 }
 function openLine(index, focus = false) {
   if (index < 0 || index >= lesson.lines.length) return;
   if (cards[index].hidden) { el.search.value = ''; filterLines(); }
-  if (selected >= 0) cards[selected].classList.remove('is-selected');
+  if (selected === index && !focus) {
+    cards[index].classList.remove('is-open');
+    cards[index].querySelector('.line-open').setAttribute('aria-expanded', 'false');
+    selected = -1;
+    return;
+  }
+  if (selected >= 0) {
+    cards[selected].classList.remove('is-open');
+    cards[selected].querySelector('.line-open').setAttribute('aria-expanded', 'false');
+  }
   selected = index;
-  cards[index].classList.add('is-selected');
-  renderDetail(index);
+  fillLineBody(index);
+  cards[index].classList.add('is-open');
+  cards[index].querySelector('.line-open').setAttribute('aria-expanded', 'true');
   if (focus) cards[index].querySelector('.line-open').focus({ preventScroll: true });
-  cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+  cards[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
   try { sessionStorage.setItem('edmund-speech-churchill-line', String(index)); } catch { /* Optional. */ }
 }
 function filterLines() {
@@ -192,25 +235,30 @@ function filterLines() {
   el.lines.querySelectorAll('.chapter').forEach(section => {
     section.hidden = !Array.from(section.querySelectorAll('.line-card')).some(card => !card.hidden);
   });
-  el.count.textContent = query ? `${visible} / ${cards.length} 句` : `${cards.length} 句 · 點選查看導讀`;
+  el.count.textContent = query ? `${visible} / ${cards.length} 句` : `${cards.length} 句`;
 }
 
+el.context.addEventListener('click', event => {
+  const button = event.target.closest('[data-context]');
+  if (button) showContext(Number(button.dataset.context));
+});
+el.contextReading.addEventListener('click', event => {
+  if (event.target.closest('[data-context-close]') && contextSelected >= 0) showContext(contextSelected);
+});
 el.lines.addEventListener('click', event => {
-  const toggle = event.target.closest('[data-translate]');
-  if (toggle) return setTranslation(Number(toggle.dataset.translate), !translated.has(Number(toggle.dataset.translate)));
   const open = event.target.closest('[data-open]');
   if (open) openLine(Number(open.dataset.open));
 });
-el.detail.addEventListener('click', event => {
-  if (event.target.closest('[data-detail-translate]') && selected >= 0) setTranslation(selected, !translated.has(selected));
-  const step = event.target.closest('[data-step]');
-  if (step && selected >= 0) openLine(selected + Number(step.dataset.step), true);
-  if (event.target.closest('[data-close]')) el.detail.classList.remove('is-open');
+el.translationToggle.addEventListener('click', () => {
+  const visible = !el.lines.classList.contains('translations-on');
+  el.lines.classList.toggle('translations-on', visible);
+  el.translationToggle.setAttribute('aria-pressed', String(visible));
+  el.translationToggle.textContent = visible ? '隱藏全部中譯' : '顯示全部中譯';
 });
 el.search.addEventListener('input', filterLines);
 document.addEventListener('keydown', event => {
   if (event.target instanceof HTMLInputElement || event.altKey || event.metaKey || event.ctrlKey) return;
-  if (event.key === 'Escape') el.detail.classList.remove('is-open');
+  if (event.key === 'Escape' && selected >= 0) openLine(selected);
   if (selected >= 0 && (event.key === 'ArrowDown' || event.key === 'ArrowUp')) {
     event.preventDefault(); openLine(selected + (event.key === 'ArrowDown' ? 1 : -1), true);
   }
@@ -239,11 +287,13 @@ async function start() {
     if (!data?.lines?.length || !data?.introduction?.length) throw new Error('Lesson unavailable');
     lesson = data;
     renderContext(data.introduction);
+    renderFullText(data.lines);
     renderChapters();
     renderLines(data.lines);
     el.status.hidden = true;
     el.reader.hidden = false;
-    const remembered = Number(sessionStorage.getItem('edmund-speech-churchill-line'));
+    let remembered = -1;
+    try { remembered = Number(sessionStorage.getItem('edmund-speech-churchill-line')); } catch { /* Optional. */ }
     if (Number.isInteger(remembered) && remembered > 0 && remembered < data.lines.length) {
       const resume = node('button', 'resume-button', `繼續閱讀第 ${remembered + 1} 句 →`);
       resume.type = 'button';
