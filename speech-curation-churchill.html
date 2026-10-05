@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="/speech-curation-churchill.css?v=20261005-2">
+  <link rel="stylesheet" href="/speech-curation-churchill.css?v=20261005-3">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body>
@@ -26,7 +26,7 @@
       <p class="eyebrow">WINSTON CHURCHILL · 1949</p>
       <h1>The Council of Europe</h1>
       <p class="hero-chinese">歐洲理事會演說</p>
-      <div class="hero-actions"><a href="#full-speech">閱讀演說全文 <span aria-hidden="true">↓</span></a><a class="source-link" href="https://www.nationalchurchillmuseum.org/the-council-of-europe.html" target="_blank" rel="noopener noreferrer">英文原文來源 ↗</a></div>
+      <div class="hero-actions"><a href="#full-speech">閱讀演說全文 <span aria-hidden="true">↓</span></a></div>
     </section>
     <p class="load-state" data-status role="status" aria-live="polite">正在載入演說…</p>
     <div data-reader hidden>
@@ -35,7 +35,12 @@
         <div class="context-grid" data-context></div>
         <div class="context-reading" data-context-reading hidden></div>
       </section>
-      <section class="full-section" id="full-speech" aria-labelledby="full-heading"><div class="section-heading"><p class="eyebrow">THE COMPLETE ADDRESS</p><h2 id="full-heading">演說英文全文</h2><p>先通讀原文，再選段落細看語言與思想。</p></div><article class="full-text" data-full-text></article><a class="jump-link" href="#transcript">前往逐句細讀 ↓</a></section>
+      <section class="full-section" id="full-speech" aria-labelledby="full-heading">
+        <div class="section-heading full-heading"><div><p class="eyebrow">THE COMPLETE ADDRESS</p><h2 id="full-heading">演說英文全文</h2></div><a class="curation-jump" href="#transcript"><span>逐句細讀</span><span aria-hidden="true">↓</span></a></div>
+        <div class="address-controls"><div class="font-choice" role="group" aria-label="演說字體"><button type="button" data-font="courier" aria-pressed="true">Courier New</button><button type="button" data-font="times" aria-pressed="false">Times New Roman</button></div><button class="address-translation-toggle" type="button" data-address-translation aria-pressed="false">顯示全文中譯</button></div>
+        <div class="reading-progress" data-reading-progress aria-label="演說閱讀進度"><span class="progress-label">閱讀進度 <output data-progress-value>0%</output></span><div class="progress-track"><div class="progress-fill" data-progress-fill></div></div><img src="/speech-curation-assets/bankers-lamp.webp" alt="" class="progress-lamp" width="46" height="46"></div>
+        <article class="full-text" data-full-text></article>
+      </section>
       <section class="read-section" id="transcript" aria-labelledby="transcript-heading">
         <div class="section-heading"><p class="eyebrow">THE SPEECH · LINE BY LINE</p><h2 id="transcript-heading">逐句細讀</h2><p>點選句子，導讀會在原文下方展開。</p></div>
         <div class="reader-toolbar"><label>搜尋句子<input type="search" data-search placeholder="搜尋英文或中文…" autocomplete="off"></label><button class="all-translations" type="button" data-translation-toggle aria-pressed="false">顯示全部中譯</button><span class="line-count" data-line-count></span></div>
@@ -46,6 +51,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="/supabase-config.js"></script>
   <script src="/shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="/speech-curation-churchill.mjs?v=20261005-2"></script>
+  <script type="module" src="/speech-curation-churchill.mjs?v=20261005-3"></script>
 </body>
 </html>

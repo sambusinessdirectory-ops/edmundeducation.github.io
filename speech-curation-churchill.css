@@ -95,3 +95,56 @@ body{background:linear-gradient(180deg,#dce5e6 0,#f6f8f7 520px,#eff3f2 100%)}
 @media(max-width:780px){.context-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.context-cover{min-height:270px}.reader-layout{grid-template-columns:minmax(0,1fr)}.chapter-nav{position:static;display:flex;overflow:auto;max-height:none;white-space:nowrap}.nav-title{display:none}.chapter-nav a{flex:0 0 auto}}
 @media(max-width:600px){.reader-hero{min-height:360px;padding:2rem 1.25rem}.reader-hero h1{font-size:clamp(2.55rem,11vw,3.6rem)}.context-grid{gap:.6rem}.context-cover{min-height:225px;padding:.8rem}.cover-title{font-size:1.14rem}.context-idea{grid-template-columns:32px 1fr}.reader-toolbar{align-items:stretch}.reader-toolbar label,.all-translations{width:100%}.line-count{margin:0}.line-open{grid-template-columns:36px 1fr 20px;gap:.45rem;padding:.95rem .8rem}.line-translation{margin:0 .8rem .8rem 3.4rem}.line-card.is-open .line-body-inner{padding:1rem .8rem}.annotation-grid{grid-template-columns:1fr}.vocabulary th,.vocabulary td{padding:.55rem}.section-heading{margin-top:3rem}}
 @media(prefers-reduced-motion:reduce){.context-idea{opacity:1;transform:none}}
+
+/* Archival paper and the full-address reading desk. */
+html{scroll-padding-top:100px}
+body{background:linear-gradient(#dce5e6dc,#eff3f2e8),url('/speech-curation-assets/parchment-paper.jpg') center top/640px auto repeat}
+.context-reading{background:linear-gradient(#f7f6f0e5,#f7f6f0e5),url('/speech-curation-assets/parchment-paper.jpg') center/560px auto repeat;scroll-margin-top:100px}
+.idea-clause{display:inline-block;max-width:100%;vertical-align:baseline;white-space:normal}
+.pdf-highlight{padding:.03em .08em;background:#f2df8d;color:#243638;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.full-heading{display:flex;justify-content:space-between;align-items:end;gap:1.3rem;flex-wrap:wrap}
+.full-heading .eyebrow{margin-bottom:.5rem}
+.full-heading h2{margin-bottom:0}
+.curation-jump{display:inline-flex;align-items:center;justify-content:space-between;gap:1.3rem;min-width:175px;min-height:55px;border:1px solid #047c92;border-radius:2px;padding:.75rem 1.05rem;background:#006f85;color:#fff;font-size:.91rem;font-weight:800;text-decoration:none;box-shadow:0 5px 0 #19454c;transition:transform .2s,box-shadow .2s,background .2s}
+.curation-jump:hover{background:#005b6e;transform:translateY(-2px);box-shadow:0 7px 0 #19454c}
+.curation-jump span:last-child{font-size:1.3rem}
+.address-controls{display:flex;align-items:center;justify-content:space-between;gap:.8rem;max-width:980px;margin:0 auto 1.2rem;flex-wrap:wrap}
+.font-choice{display:inline-flex;gap:.2rem;border:1px solid #b9c8c8;border-radius:2px;padding:.22rem;background:#eff4f3}
+.font-choice button,.address-translation-toggle{min-height:41px;border:0;border-radius:2px;padding:.6rem .85rem;background:transparent;color:#315256;font-size:.82rem;font-weight:800}
+.font-choice button[aria-pressed=true]{background:#303b3c;color:#fff}
+.address-translation-toggle{border:1px solid #00839c;background:#fff;color:#006f85}
+.address-translation-toggle[aria-pressed=true]{background:#00839c;color:#fff}
+.reading-progress{position:sticky;top:76px;z-index:12;display:grid;grid-template-columns:auto minmax(50px,1fr) 54px;align-items:center;gap:.85rem;max-width:980px;min-height:63px;margin:0 auto;border:1px solid #b8c7c6;border-bottom:0;border-radius:2px 2px 0 0;padding:.4rem .75rem;background:linear-gradient(#faf9f2ee,#faf9f2ee),url('/speech-curation-assets/parchment-paper.jpg') center/512px auto repeat;box-shadow:0 7px 22px #23333514;backdrop-filter:blur(8px)}
+.progress-label{white-space:nowrap;color:#3a585b;font-size:.72rem;font-weight:900;letter-spacing:.06em}
+.progress-label output{margin-left:.4rem;color:#006f85;font-variant-numeric:tabular-nums}
+.progress-track{height:5px;overflow:hidden;border-radius:100px;background:#d0d7d1;box-shadow:inset 0 1px 2px #1e373930}
+.progress-fill{width:0;height:100%;border-radius:100px;background:linear-gradient(90deg,#00839c,#79adb2);transition:width .16s linear}
+.progress-lamp{width:48px;height:48px;object-fit:contain;filter:drop-shadow(0 3px 3px #243b3b38)}
+.full-text{border-color:#cbb995;border-top:0;border-radius:0 0 2px 2px;background:linear-gradient(#f0e2c6b8,#f0e2c6b8),url('/speech-curation-assets/parchment-paper.jpg') center top/512px auto repeat;box-shadow:0 16px 35px #2f2d231a}
+.address-paragraph{margin:0 0 2.1rem}
+.address-paragraph:last-child{margin-bottom:0}
+.full-text .address-english{margin:0;color:#312e27;font:400 clamp(1.05rem,1.35vw,1.27rem)/1.85 "Courier New",Courier,monospace;letter-spacing:.005em}
+.full-text.font-times .address-english{font-family:"Times New Roman",Times,serif;font-size:clamp(1.15rem,1.5vw,1.43rem);line-height:1.7}
+.address-sentence{cursor:pointer;border-bottom:1px dotted transparent;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background .2s,border-color .2s}
+.address-sentence:hover,.address-sentence:focus-visible,.address-sentence.is-selected{background:#ecd795a8;border-bottom-color:#866d3d;outline:none}
+.full-text .address-chinese{display:none;margin:.8rem 0 0;border-left:3px solid #5e9296;padding:.15rem .9rem;color:#4c5550;font:400 1rem/1.85 Inter,"PingFang TC",sans-serif}
+.address-translations-on .address-chinese{display:block}
+.address-insight{margin:1.15rem 0 2rem;border:1px solid #b6a47f;border-left:4px solid #007f94;padding:clamp(1rem,2.5vw,1.75rem);background:#fbf9f1;opacity:0;transform:translateY(-10px);transition:opacity .4s ease,transform .4s ease}
+.address-insight.is-open{opacity:1;transform:none}
+.line-card{scroll-margin-top:100px}
+.curation-title{margin:0 0 1rem;color:#24393b;font:700 1.2rem Georgia,"Noto Serif TC",serif}
+.annotation-grid .note{display:block;background:#fbfcfb}
+.note-heading{display:grid;grid-template-columns:28px 1fr;align-items:start;gap:.55rem}
+.note-heading h5{margin:0;color:#193e45;font:800 clamp(1.05rem,1.3vw,1.18rem)/1.4 Inter,"PingFang TC",sans-serif}
+.note-number{padding-top:.15rem}
+.note-description{margin:.8rem 0 0}
+.note-description p{margin:0 0 .55rem;color:#344e51;font-size:.95rem;line-height:1.72}
+.note-description p:last-child{margin-bottom:0}
+.examples-table{width:100%;margin-top:1rem;border-collapse:collapse;table-layout:fixed;background:#fff}
+.examples-table th,.examples-table td{width:50%;border:1px solid #d1dfe0;padding:.52rem .62rem;text-align:left;vertical-align:top;overflow-wrap:anywhere;line-height:1.55}
+.examples-table th{background:#e8f1f2;color:#27535a;font-size:.73rem;font-weight:800}
+.examples-table td{color:#334d50;font-size:.84rem}
+.examples-table td:first-child{background:#f8e8ad;font-family:Georgia,"Times New Roman",serif}
+.examples-fallback{margin:.8rem 0 0;color:#496165;font-size:.87rem;line-height:1.65}
+@media(max-width:600px){html{scroll-padding-top:140px}.context-reading,.line-card{scroll-margin-top:140px}.full-heading{align-items:stretch}.curation-jump{width:100%}.address-controls{align-items:stretch;flex-direction:column}.font-choice{display:flex}.font-choice button{flex:1}.reading-progress{top:120px;grid-template-columns:auto minmax(35px,1fr) 40px;gap:.45rem;padding:.35rem .5rem}.progress-lamp{width:38px;height:38px}.progress-label{font-size:.64rem}.full-text{padding:1.35rem 1rem}.address-insight{padding:.85rem}.examples-table th,.examples-table td{padding:.4rem;font-size:.77rem}.note-heading h5{font-size:1.04rem}}
+@media(prefers-reduced-motion:reduce){.address-insight{opacity:1;transform:none}.progress-fill{transition:none}}

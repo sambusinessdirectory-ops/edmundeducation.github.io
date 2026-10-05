@@ -12,15 +12,24 @@ const CHAPTERS = [
 ];
 const PARAGRAPH_STARTS = [0, 10, 22, 35, 50, 61, 74, 86, 106, 128, 141, 145, 153, 170, 177, 187, 206];
 const CONTEXT_IMAGES = ['history', 'importance', 'after', 'style', 'people'];
+// Phrases with yellow shading in the user's annotated PDF, grouped by pre-read chapter.
+const CONTEXT_HIGHLIGHTS = [
+  ['東歐多國受到蘇聯控制', 'Churchill形容這些地方位於「鐵幕」之後', 'Churchill在這個重要時刻發表演說', '討論歐洲團結、議會權力、人權、德國重新參與歐洲事務', '以及東歐國家暫時無法參與大會的問題'],
+  ['相當完整的歐洲合作方向', '人權是演說中的核心內容之一', '他支持建立共同的人權原則', '也提出設立歐洲法院的構想', '讓侵犯人權的案件得到國際審視'],
+  ['Churchill提出的幾個方向逐漸發展成實際制度', '之後制定《歐洲人權公約》', '並建立歐洲人權法院', '使人權保障從政治理想進一步走向法律制度', '整個過程沒有立即完成', '人權、德國參與和歐洲合作都在1950年代得到明顯推進'],
+  ['正式之中帶有幽默', '也很善於使用比喻', '他把政治制度比作建築的「支柱」', '也用「鐵幕」描寫歐洲分裂', '他甚至用「先看看姑娘長甚麼樣，再決定是否結婚」來比喻不要過早作出政治承諾', '令抽象政治問題更容易理解', '也讓整篇演說既有權威感', '又不會過分沉重'],
+  ['Winston Churchill 是演說者', 'Herbert Morrison 是英國政治家', 'Napoleon 被引用來談憲法設計', 'André Philip 提出「空席」問題', 'Winston Churchill', 'Herbert Morrison', 'Napoleon', 'André Philip']
+];
 const config = window.EDMUND_SUPABASE || {};
 const el = {
   status: $('[data-status]'), reader: $('[data-reader]'), context: $('[data-context]'),
-  contextReading: $('[data-context-reading]'), fullText: $('[data-full-text]'),
+  contextReading: $('[data-context-reading]'), fullText: $('[data-full-text]'), fullSection: $('#full-speech'),
+  addressTranslation: $('[data-address-translation]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'),
   chapters: $('[data-chapters]'), lines: $('[data-lines]'),
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]')
 };
-let client, lesson, selected = -1, contextSelected = -1;
+let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 const cards = [];
 
 function node(tag, className, value) {
@@ -80,6 +89,37 @@ function renderContext(items) {
 function splitIdeas(text) {
   return (text.match(/[^。！？]+[。！？]?/g) || [text]).map(part => part.trim()).filter(Boolean);
 }
+function highlightedClause(text, chapterIndex) {
+  const span = node('span', 'idea-clause');
+  const phrases = CONTEXT_HIGHLIGHTS[chapterIndex] || [];
+  const matches = phrases.filter(phrase => text.includes(phrase)).sort((a, b) => b.length - a.length);
+  if (!matches.length) { span.textContent = text; return span; }
+  const pattern = new RegExp(matches.map(phrase => phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'g');
+  let cursor = 0;
+  for (const match of text.matchAll(pattern)) {
+    const position = match.index;
+    if (position > cursor) span.append(document.createTextNode(text.slice(cursor, position)));
+    span.append(node('mark', 'pdf-highlight', match[0]));
+    cursor = position + match[0].length;
+  }
+  if (cursor < text.length) span.append(document.createTextNode(text.slice(cursor)));
+  return span;
+}
+function appendGroupedClauses(target, text, chapterIndex) {
+  const clauses = [];
+  let current = '', quoted = 0;
+  for (const character of text) {
+    if (character === '「') quoted++;
+    if (character === '」') quoted = Math.max(0, quoted - 1);
+    current += character;
+    if ((character === '，' || character === ',') && !quoted) { clauses.push(current); current = ''; }
+  }
+  if (current) clauses.push(current);
+  clauses.forEach((clause, index) => {
+    target.append(highlightedClause(clause, chapterIndex));
+    if (index < clauses.length - 1) target.append(document.createTextNode('\u200b'));
+  });
+}
 function showContext(index) {
   if (index === contextSelected) {
     contextSelected = -1;
@@ -97,7 +137,9 @@ function showContext(index) {
   const ideas = node('div', 'context-ideas');
   splitIdeas(item.text).forEach((part, ideaIndex) => {
     const row = node('div', 'context-idea');
-    row.append(node('span', 'idea-number', String(ideaIndex + 1).padStart(2, '0')), node('p', '', part));
+    const prose = node('p');
+    appendGroupedClauses(prose, part, index);
+    row.append(node('span', 'idea-number', String(ideaIndex + 1).padStart(2, '0')), prose);
     ideas.append(row);
   });
   el.contextReading.replaceChildren(top, node('h3', '', item.title), ideas);
@@ -119,8 +161,38 @@ function renderFullText(lines) {
   el.fullText.replaceChildren();
   const starts = [...PARAGRAPH_STARTS, lines.length];
   for (let i = 0; i < starts.length - 1; i++) {
-    el.fullText.append(node('p', '', lines.slice(starts[i], starts[i + 1]).map(line => line.english.trim()).join(' ')));
+    const paragraph = node('section', 'address-paragraph');
+    const english = node('p', 'address-english');
+    const pieces = lines.slice(starts[i], starts[i + 1]);
+    pieces.forEach((line, position) => {
+      const sentence = node('span', 'address-sentence', line.english.trim());
+      sentence.dataset.addressLine = String(starts[i] + position);
+      sentence.setAttribute('role', 'button');
+      sentence.setAttribute('tabindex', '0');
+      sentence.setAttribute('aria-label', `開啟第 ${starts[i] + position + 1} 段語言導讀：${line.english}`);
+      english.append(sentence);
+      if (position < pieces.length - 1) english.append(document.createTextNode(' '));
+    });
+    const chinese = node('p', 'address-chinese', pieces.map(line => line.chinese.trim()).join(''));
+    const insight = node('div', 'address-insight'); insight.hidden = true;
+    paragraph.append(english, chinese, insight);
+    el.fullText.append(paragraph);
   }
+}
+function updateReadingProgress() {
+  const bounds = el.fullText.getBoundingClientRect();
+  const start = window.scrollY + bounds.top - 120;
+  const end = window.scrollY + bounds.bottom - window.innerHeight + 120;
+  const amount = Math.max(0, Math.min(1, (window.scrollY - start) / Math.max(1, end - start)));
+  const percent = Math.round(amount * 100);
+  el.progressFill.style.width = `${percent}%`;
+  el.progressValue.value = `${percent}%`;
+  el.progressValue.textContent = `${percent}%`;
+}
+let progressFrame = 0;
+function queueProgressUpdate() {
+  if (progressFrame) return;
+  progressFrame = requestAnimationFrame(() => { progressFrame = 0; updateReadingProgress(); });
 }
 function chapterFor(index) {
   let chapter = CHAPTERS[0];
@@ -176,19 +248,58 @@ function vocabularyRows(collocations) {
     return separator < 0 ? [part, '—'] : [part.slice(0, separator).trim(), part.slice(separator + 1).trim()];
   });
 }
-function fillLineBody(index) {
+function splitDescription(text) {
+  const protectedText = text.replace(/\b(?:Mr|Mrs|Ms|Dr|Prof|St|Jr|Sr|e\.g|i\.e|a\.m|p\.m|U\.S)\./gi, match => match.replace(/\./g, '\uE000'));
+  return protectedText.split(/(?<=。)\s*|(?<=[.!?])\s+(?=[A-Z\u3400-\u9fff])/u)
+    .map(part => part.replace(/\uE000/g, '.').trim()).filter(Boolean);
+}
+function parseExamples(text) {
+  const rows = [];
+  const pattern = /([^（]+?)（([^）]+)）/g;
+  for (const match of text.matchAll(pattern)) {
+    const english = match[1].replace(/^\s*[/／]\s*/, '').trim();
+    if (english) rows.push([english, match[2].trim()]);
+  }
+  return rows;
+}
+function buildNote(note, noteIndex) {
+  const clean = String(note).replace(/^\d+\.\s*/, '').trim();
+  const examplesAt = clean.search(/Examples?\s*:/i);
+  const prose = examplesAt < 0 ? clean : clean.slice(0, examplesAt).trim();
+  const exampleText = examplesAt < 0 ? '' : clean.slice(examplesAt).replace(/^Examples?\s*:\s*/i, '');
+  const colon = prose.search(/[:：]/);
+  const title = colon > 0 && colon < 105 ? prose.slice(0, colon).trim() : '';
+  const description = title ? prose.slice(colon + 1).trim() : prose;
+  const block = node('section', 'note');
+  const heading = node('div', 'note-heading');
+  heading.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), node('h5', '', title || '語言觀察'));
+  block.append(heading);
+  const detail = node('div', 'note-description');
+  splitDescription(description).forEach(part => detail.append(node('p', '', part)));
+  block.append(detail);
+  const examples = parseExamples(exampleText);
+  if (examples.length) {
+    const table = node('table', 'examples-table');
+    const header = node('thead'); const row = node('tr');
+    row.append(node('th', '', 'English example'), node('th', '', '中文翻譯'));
+    header.append(row); table.append(header);
+    const body = node('tbody');
+    examples.forEach(([english, chinese]) => {
+      const exampleRow = node('tr');
+      exampleRow.append(node('td', '', english), node('td', '', chinese));
+      body.append(exampleRow);
+    });
+    table.append(body); block.append(table);
+  } else if (exampleText.trim()) block.append(node('p', 'examples-fallback', exampleText.trim()));
+  return block;
+}
+function buildCuratedContent(index) {
   const line = lesson.lines[index];
-  const inner = cards[index].querySelector('.line-body-inner');
-  if (inner.childElementCount) return;
-  const intro = node('div', 'annotation-heading');
-  intro.append(node('p', 'eyebrow', `LINE ${String(index + 1).padStart(3, '0')}`), node('h4', '', '語言與思想導讀'));
+  const content = node('div', 'curated-content');
+  content.append(node('h4', 'curation-title', '語言與思想導讀'));
   const notes = node('div', 'annotation-grid');
-  (line.notes || []).forEach((note, noteIndex) => {
-    const block = node('div', 'note');
-    block.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), node('p', '', note.replace(/^\d+\.\s*/, '')));
-    notes.append(block);
-  });
-  inner.append(intro, notes);
+  (line.notes || []).forEach((note, noteIndex) => notes.append(buildNote(note, noteIndex)));
+  content.append(notes);
   const rows = vocabularyRows(line.collocations);
   if (rows.length) {
     const section = node('section', 'vocabulary');
@@ -199,8 +310,14 @@ function fillLineBody(index) {
     header.append(headerRow); table.append(header);
     const tbody = node('tbody');
     rows.forEach(([term, meaning]) => { const row = node('tr'); row.append(node('td', '', term), node('td', '', meaning)); tbody.append(row); });
-    table.append(tbody); section.append(table); inner.append(section);
+    table.append(tbody); section.append(table); content.append(section);
   }
+  return content;
+}
+function fillLineBody(index) {
+  const inner = cards[index].querySelector('.line-body-inner');
+  if (inner.childElementCount) return;
+  inner.append(buildCuratedContent(index));
 }
 function openLine(index, focus = false) {
   if (index < 0 || index >= lesson.lines.length) return;
@@ -237,6 +354,24 @@ function filterLines() {
   });
   el.count.textContent = query ? `${visible} / ${cards.length} 句` : `${cards.length} 句`;
 }
+function openAddressLine(index) {
+  const trigger = el.fullText.querySelector(`[data-address-line="${index}"]`);
+  if (!trigger) return;
+  if (selectedAddress >= 0) {
+    const previous = el.fullText.querySelector(`[data-address-line="${selectedAddress}"]`);
+    previous?.classList.remove('is-selected');
+    const previousInsight = previous?.closest('.address-paragraph')?.querySelector('.address-insight');
+    if (previousInsight) { previousInsight.classList.remove('is-open'); previousInsight.hidden = true; }
+  }
+  if (selectedAddress === index) { selectedAddress = -1; return; }
+  selectedAddress = index;
+  trigger.classList.add('is-selected');
+  const insight = trigger.closest('.address-paragraph').querySelector('.address-insight');
+  insight.replaceChildren(buildCuratedContent(index));
+  insight.hidden = false;
+  requestAnimationFrame(() => insight.classList.add('is-open'));
+  queueProgressUpdate();
+}
 
 el.context.addEventListener('click', event => {
   const button = event.target.closest('[data-context]');
@@ -249,6 +384,29 @@ el.lines.addEventListener('click', event => {
   const open = event.target.closest('[data-open]');
   if (open) openLine(Number(open.dataset.open));
 });
+el.fullText.addEventListener('click', event => {
+  const sentence = event.target.closest('[data-address-line]');
+  if (sentence) openAddressLine(Number(sentence.dataset.addressLine));
+});
+el.fullText.addEventListener('keydown', event => {
+  const sentence = event.target.closest('[data-address-line]');
+  if (sentence && (event.key === 'Enter' || event.key === ' ')) {
+    event.preventDefault(); openAddressLine(Number(sentence.dataset.addressLine));
+  }
+});
+el.addressTranslation.addEventListener('click', () => {
+  const visible = !el.fullText.classList.contains('address-translations-on');
+  el.fullText.classList.toggle('address-translations-on', visible);
+  el.addressTranslation.setAttribute('aria-pressed', String(visible));
+  el.addressTranslation.textContent = visible ? '隱藏全文中譯' : '顯示全文中譯';
+  queueProgressUpdate();
+});
+document.querySelectorAll('[data-font]').forEach(button => button.addEventListener('click', () => {
+  const times = button.dataset.font === 'times';
+  el.fullText.classList.toggle('font-times', times);
+  document.querySelectorAll('[data-font]').forEach(option => option.setAttribute('aria-pressed', String(option === button)));
+  queueProgressUpdate();
+}));
 el.translationToggle.addEventListener('click', () => {
   const visible = !el.lines.classList.contains('translations-on');
   el.lines.classList.toggle('translations-on', visible);
@@ -290,8 +448,17 @@ async function start() {
     renderFullText(data.lines);
     renderChapters();
     renderLines(data.lines);
+    if (current.role === 'admin') {
+      const source = node('a', 'source-link', '英文原文來源 ↗');
+      source.href = data.source_url || 'https://www.nationalchurchillmuseum.org/the-council-of-europe.html';
+      source.target = '_blank'; source.rel = 'noopener noreferrer';
+      $('.hero-actions').append(source);
+    }
     el.status.hidden = true;
     el.reader.hidden = false;
+    window.addEventListener('scroll', queueProgressUpdate, { passive: true });
+    window.addEventListener('resize', queueProgressUpdate);
+    queueProgressUpdate();
     let remembered = -1;
     try { remembered = Number(sessionStorage.getItem('edmund-speech-churchill-line')); } catch { /* Optional. */ }
     if (Number.isInteger(remembered) && remembered > 0 && remembered < data.lines.length) {
