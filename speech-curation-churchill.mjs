@@ -26,7 +26,7 @@ const config = window.EDMUND_SUPABASE || {};
 const el = {
   status: $('[data-status]'), reader: $('[data-reader]'), context: $('[data-context]'),
   contextReading: $('[data-context-reading]'), fullText: $('[data-full-text]'), fullSection: $('#full-speech'),
-  addressTranslation: $('[data-address-translation]'), addressRules: $('[data-address-rules]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'),
+  addressTranslation: $('[data-address-translation]'), addressRules: $('[data-address-rules]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'), pinnedSentence: $('[data-pinned-sentence]'), pinnedText: $('[data-pinned-text]'),
   chapters: $('[data-chapters]'), addressChapters: $('[data-address-chapters]'), addressNavToggle: $('[data-address-nav-toggle]'), lines: $('[data-lines]'),
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
@@ -241,6 +241,16 @@ function updateReadingProgress() {
   el.progressFill.style.width = `${percent}%`;
   el.progressValue.value = `${percent}%`;
   el.progressValue.textContent = `${percent}%`;
+  updatePinnedSentence();
+}
+function updatePinnedSentence() {
+  const trigger = selectedAddress < 0 ? null : el.fullText.querySelector(`[data-address-line="${selectedAddress}"]`);
+  const insight = trigger?.nextElementSibling?.matches('.address-insight.is-open') ? trigger.nextElementSibling : null;
+  const progress = $('[data-reading-progress]');
+  const boundary = progress.getBoundingClientRect().bottom;
+  const visible = Boolean(trigger && insight && trigger.getBoundingClientRect().bottom < boundary + 12 && insight.getBoundingClientRect().bottom > boundary + 24);
+  el.pinnedSentence.classList.toggle('is-visible', visible);
+  el.pinnedSentence.setAttribute('aria-hidden', String(!visible));
 }
 let progressFrame = 0;
 function queueProgressUpdate() {
@@ -329,8 +339,14 @@ function buildNote(note, noteIndex, lineIndex) {
   const prose = examplesAt < 0 ? clean : clean.slice(0, examplesAt).trim();
   const exampleText = examplesAt < 0 ? '' : clean.slice(examplesAt).replace(/^Examples?\s*:\s*/i, '');
   const colon = prose.search(/[:：]/);
-  const title = colon > 0 && colon < 105 ? prose.slice(0, colon).trim() : '';
-  const description = title ? prose.slice(colon + 1).trim() : prose;
+  let title = colon > 0 && colon < 105 ? prose.slice(0, colon).trim() : '';
+  let description = title ? prose.slice(colon + 1).trim() : prose;
+  // A trailing Chinese explanation after the bracket belongs in the body, not the heading.
+  const titleWithProse = title.match(/^(.+?（[^）]+）)\s*(.+)$/u);
+  if (titleWithProse) {
+    title = titleWithProse[1];
+    description = `${titleWithProse[2]}${/[。！？]$/u.test(titleWithProse[2]) ? '' : '。'}${description}`;
+  }
   const block = node('section', 'note');
   const heading = node('div', 'note-heading');
   const titleNode = node('h5');
@@ -447,8 +463,9 @@ function openAddressLine(index) {
       setTimeout(() => previousInsight.remove(), 650);
     }
   }
-  if (selectedAddress === index) { selectedAddress = -1; return; }
+  if (selectedAddress === index) { selectedAddress = -1; queueProgressUpdate(); return; }
   selectedAddress = index;
+  el.pinnedText.textContent = trigger.textContent.trim();
   markViewed(index);
   trigger.classList.add('is-selected');
   trigger.setAttribute('aria-expanded', 'true');

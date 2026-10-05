@@ -86,6 +86,8 @@ function showSignedIn() {
   el.accountPanel.hidden = session.role !== 'admin';
   if (session.role === 'admin') setSpeechStudentNavigation(false);
   saveSession();
+  const requestedSearch = new URLSearchParams(location.search).get('search');
+  if (requestedSearch) el.search.value = requestedSearch;
   void loadSpeeches();
   void loadSavedLibrary();
   if (session.role === 'admin') void loadAccounts();
