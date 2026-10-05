@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#162b3b">
+  <meta name="description" content="名人／偉人演講精選：登入後探索經典演講。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>名人／偉人演講精選 | EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/speech-curation.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="/shared-system-nav.css?v=20260924-wallet1">
+  <link rel="stylesheet" href="/speech-curation.css?v=20261005-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="edmund-system-header"><div class="edmund-system-header__inner">
+    <div class="edmund-system-switcher" data-edmund-system-switcher data-system="speech-curation"><button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="/Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>名人／偉人演講精選</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button></div>
+    <div class="edmund-system-header__actions"><a class="home-link" href="/">主頁 · Home</a><span class="account-name" data-account-name hidden></span><button class="header-logout" type="button" data-logout hidden>登出</button></div>
+  </div></header>
+  <main id="main" class="speech-shell">
+    <section class="hero"><p class="eyebrow">CARD 69 · SPEECH ANTHOLOGY</p><h1>名人／偉人<br><em>演講精選</em></h1><p>聆聽改變世界的聲音，細讀有力量的英文表達。</p></section>
+    <section class="login-panel" data-login-panel aria-labelledby="login-title">
+      <div class="login-intro"><p class="eyebrow">WELCOME</p><h2 id="login-title">登入演講資料庫</h2><p>學生可使用現有 EdmundEducation 學生帳戶。管理員請選擇管理員登入。</p></div>
+      <div class="login-box">
+        <div class="role-tabs" role="group" aria-label="登入身份"><button type="button" data-role="student" aria-pressed="true">學生登入</button><button type="button" data-role="admin" aria-pressed="false">管理員登入</button></div>
+        <form data-login-form><label>使用者名稱<input name="username" autocomplete="username" required maxlength="160"></label><label>密碼<input name="password" type="password" autocomplete="current-password" required maxlength="200"></label><p class="form-status" data-login-status role="status" aria-live="polite"></p><button class="primary-button" type="submit" data-login-button>登入 · Continue</button></form>
+      </div>
+    </section>
+    <section class="library" data-library hidden aria-labelledby="library-title">
+      <div class="library-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="library-title">演講資料庫</h2><p data-library-subtitle>精選演講與延伸閱讀。</p></div><label class="search-label">搜尋演講<input type="search" data-search placeholder="講者或標題" autocomplete="off"></label></div>
+      <section class="editor" data-editor hidden aria-labelledby="editor-title"><div class="editor-heading"><p class="eyebrow">ADMIN STUDIO</p><h3 id="editor-title">新增演講</h3><p>儲存後，已登入的學生便可看到這則演講。</p></div><form data-editor-form><input type="hidden" name="id"><div class="editor-grid"><label>演講標題<input name="title" required maxlength="200"></label><label>演講者<input name="speaker" required maxlength="160"></label></div><label>演講連結（HTTPS）<input name="url" type="url" required maxlength="2048" pattern="https://.*" placeholder="https://..."></label><label>導讀／備註<textarea name="description" rows="3" maxlength="5000"></textarea></label><div class="editor-actions"><button class="primary-button" type="submit" data-save>儲存演講</button><button type="button" data-cancel-edit hidden>取消編輯</button><span data-editor-status role="status" aria-live="polite"></span></div></form></section>
+      <p class="library-status" data-library-status role="status" aria-live="polite"></p><div class="speech-list" data-speech-list></div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/shared-system-nav.js?v=20260924-wallet1"></script>
+  <script type="module" src="/speech-curation.mjs?v=20261005-1"></script>
+</body>
+</html>
