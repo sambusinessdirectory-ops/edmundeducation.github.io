@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="/speech-curation.css?v=20261005-5">
+  <link rel="stylesheet" href="/speech-curation.css?v=20261005-6">
   <link rel="stylesheet" href="/speech-curation-preferences.css?v=20261005-1">
   <script defer src="/pwa-register.js"></script>
 </head>
@@ -34,7 +34,8 @@
     </section>
     </div>
     <section class="library" data-library hidden aria-labelledby="library-title">
-      <div class="library-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="library-title">演講資料庫</h2><p data-library-subtitle>精選演講與延伸閱讀。</p></div><label class="search-label">搜尋演講<input type="search" data-search placeholder="講者或標題" autocomplete="off"></label></div>
+      <div class="library-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="library-title">演講資料庫</h2><p data-library-subtitle>精選演講與延伸閱讀。</p></div><label class="search-label">搜尋演講與原文<input type="search" data-search placeholder="講者、標題或演說詞句" autocomplete="off"></label></div>
+      <div class="library-text-results" data-text-results role="status" aria-live="polite" hidden></div>
       <section class="editor account-editor" data-account-panel hidden aria-labelledby="account-title"><div class="editor-heading"><p class="eyebrow">SPEECH ACCOUNTS</p><h3 id="account-title">開設演講帳戶</h3><p>這份帳戶名單獨立於現有學生系統。現有學生已獲建立帳戶；新增用戶只會加入此處。</p></div><form data-account-form><input type="hidden" name="id"><div class="editor-grid"><label>使用者名稱<input name="name" required maxlength="160" autocomplete="off"></label><label>密碼 <small data-password-hint>至少 12 個字元</small><input name="password" type="password" required minlength="12" maxlength="200" autocomplete="new-password"></label></div><label class="account-active"><input name="active" type="checkbox" checked>允許登入</label><div class="editor-actions"><button class="primary-button" type="submit" data-save-account>建立帳戶</button><button type="button" data-cancel-account hidden>取消編輯</button><span data-account-status role="status" aria-live="polite"></span></div></form><div class="account-list-heading"><h4>演講帳戶名單</h4><span data-account-count></span></div><div class="account-list" data-account-list></div></section>
       <section class="editor" data-editor hidden aria-labelledby="editor-title"><div class="editor-heading"><p class="eyebrow">ADMIN STUDIO</p><h3 id="editor-title">新增演講</h3><p>儲存後，已登入的演講帳戶便可看到這則演講。</p></div><form data-editor-form><input type="hidden" name="id"><div class="editor-grid"><label>演講標題<input name="title" required maxlength="200"></label><label>演講者<input name="speaker" required maxlength="160"></label></div><label>演講連結（HTTPS）<input name="url" type="url" required maxlength="2048" pattern="https://.*" placeholder="https://..."></label><label>導讀／備註<textarea name="description" rows="3" maxlength="5000"></textarea></label><div class="editor-actions"><button class="primary-button" type="submit" data-save>儲存演講</button><button type="button" data-cancel-edit hidden>取消編輯</button><span data-editor-status role="status" aria-live="polite"></span></div></form></section>
       <section class="saved-library" data-saved-library aria-labelledby="saved-library-title"><div class="saved-library-head"><div><p class="eyebrow">YOUR READING SHELF</p><h3 id="saved-library-title">我的書籤 <span data-saved-count>0</span></h3></div><p>收藏句子與導讀重點，隨時返回原文。</p></div><p class="saved-status" data-saved-status role="status" aria-live="polite"></p><div class="saved-list" data-saved-list></div></section>
@@ -44,6 +45,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="/supabase-config.js"></script>
   <script src="/shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="/speech-curation.mjs?v=20261005-5"></script>
+  <script type="module" src="/speech-curation.mjs?v=20261005-6"></script>
 </body>
 </html>

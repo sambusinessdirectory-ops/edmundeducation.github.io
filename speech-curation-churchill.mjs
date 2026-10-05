@@ -29,6 +29,7 @@ const el = {
   addressTranslation: $('[data-address-translation]'), addressRules: $('[data-address-rules]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'),
   chapters: $('[data-chapters]'), addressChapters: $('[data-address-chapters]'), addressNavToggle: $('[data-address-nav-toggle]'), lines: $('[data-lines]'),
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
+  speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
@@ -214,20 +215,20 @@ function renderFullText(lines) {
     const paragraph = node('section', 'address-paragraph');
     const chapterIndex = CHAPTERS.findIndex(chapter => chapter.first === starts[i] + 1);
     if (chapterIndex >= 0) paragraph.id = `address-chapter-${chapterIndex + 1}`;
-    const english = node('p', 'address-english');
+    const english = node('div', 'address-english');
     const pieces = lines.slice(starts[i], starts[i + 1]);
     pieces.forEach((line, position) => {
       const sentence = node('span', 'address-sentence', line.english.trim());
       sentence.dataset.addressLine = String(starts[i] + position);
       sentence.setAttribute('role', 'button');
       sentence.setAttribute('tabindex', '0');
+      sentence.setAttribute('aria-expanded', 'false');
       sentence.setAttribute('aria-label', `開啟第 ${starts[i] + position + 1} 段語言導讀：${line.english}`);
       english.append(sentence);
       if (position < pieces.length - 1) english.append(document.createTextNode(' '));
     });
     const chinese = node('p', 'address-chinese', pieces.map(line => line.chinese.trim()).join(''));
-    const insight = node('div', 'address-insight'); insight.hidden = true;
-    paragraph.append(english, chinese, insight);
+    paragraph.append(english, chinese);
     el.fullText.append(paragraph);
   }
 }
@@ -332,10 +333,24 @@ function buildNote(note, noteIndex, lineIndex) {
   const description = title ? prose.slice(colon + 1).trim() : prose;
   const block = node('section', 'note');
   const heading = node('div', 'note-heading');
-  heading.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), node('h5', '', title || '語言觀察'), bookmarkButton('idea', lineIndex, noteIndex));
+  const titleNode = node('h5');
+  const titleParts = (title || '語言觀察').match(/^(.*?)\s*（([^）]+)）$/u);
+  if (titleParts) titleNode.append(node('span', 'note-title-en', titleParts[1]), node('span', 'note-title-zh', `（${titleParts[2]}）`));
+  else titleNode.textContent = title || '語言觀察';
+  heading.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), titleNode, bookmarkButton('idea', lineIndex, noteIndex));
   block.append(heading);
   const detail = node('div', 'note-description');
-  splitDescription(description).forEach(part => detail.append(node('p', '', part)));
+  splitDescription(description).forEach(part => {
+    const paragraph = node('p');
+    const excerpt = part.match(/^([“"‘'])([^”"’']+)([”"’'])(.*)$/u);
+    if (excerpt && /[A-Za-z]/.test(excerpt[2])) {
+      paragraph.append(node('strong', 'note-excerpt', `${excerpt[1]}${excerpt[2]}${excerpt[3]}`));
+      const repeated = excerpt[4].match(/^\s*([“"‘'])([^”"’']+)([”"’'])(.*)$/u);
+      const remainder = repeated && repeated[2].trim() === excerpt[2].trim() ? repeated[4] : excerpt[4];
+      paragraph.append(document.createTextNode(remainder));
+    } else paragraph.textContent = part;
+    detail.append(paragraph);
+  });
   block.append(detail);
   const examples = parseExamples(exampleText);
   if (examples.length) {
@@ -424,20 +439,57 @@ function openAddressLine(index) {
   if (selectedAddress >= 0) {
     const previous = el.fullText.querySelector(`[data-address-line="${selectedAddress}"]`);
     previous?.classList.remove('is-selected');
-    const previousInsight = previous?.closest('.address-paragraph')?.querySelector('.address-insight');
-    if (previousInsight) { previousInsight.classList.remove('is-open'); previousInsight.hidden = true; }
+    previous?.setAttribute('aria-expanded', 'false');
+    const previousInsight = previous?.nextElementSibling?.matches('.address-insight') ? previous.nextElementSibling : null;
+    if (previousInsight) {
+      previousInsight.classList.remove('is-open');
+      previousInsight.addEventListener('transitionend', () => previousInsight.remove(), { once: true });
+      setTimeout(() => previousInsight.remove(), 650);
+    }
   }
   if (selectedAddress === index) { selectedAddress = -1; return; }
   selectedAddress = index;
   markViewed(index);
   trigger.classList.add('is-selected');
-  const insight = trigger.closest('.address-paragraph').querySelector('.address-insight');
-  insight.replaceChildren(buildCuratedContent(index));
+  trigger.setAttribute('aria-expanded', 'true');
+  const insight = node('div', 'address-insight');
+  const inner = node('div', 'address-insight-inner');
+  inner.append(buildCuratedContent(index));
+  insight.append(inner);
+  trigger.after(insight);
   refreshMarks();
-  insight.hidden = false;
+  // Commit the collapsed state before the next frame so the opening animates.
+  void insight.offsetHeight;
   requestAnimationFrame(() => insight.classList.add('is-open'));
   queueProgressUpdate();
 }
+
+function searchSpeech() {
+  const query = el.speechSearch.value.trim().toLocaleLowerCase();
+  el.speechSearchResults.replaceChildren();
+  el.speechSearchResults.hidden = !query;
+  if (!query || !lesson) return;
+  const matches = lesson.lines.map((line, index) => ({ line, index }))
+    .filter(({ line }) => `${line.english} ${line.chinese} ${(line.notes || []).join(' ')}`.toLocaleLowerCase().includes(query));
+  const heading = node('p', 'speech-search-count', matches.length ? `《The Council of Europe》找到 ${matches.length} 句相關內容` : '這篇演說沒有相符內容');
+  el.speechSearchResults.append(heading);
+  matches.slice(0, 12).forEach(({ line, index }) => {
+    const button = node('button', 'speech-search-hit');
+    button.type = 'button';
+    button.dataset.searchLine = String(index);
+    button.append(node('span', 'speech-search-hit-number', `第 ${index + 1} 句`), node('span', '', line.english));
+    el.speechSearchResults.append(button);
+  });
+  if (matches.length > 12) el.speechSearchResults.append(node('p', 'speech-search-more', `另有 ${matches.length - 12} 句；縮小搜尋詞可查看。`));
+}
+el.speechSearch.addEventListener('input', searchSpeech);
+el.speechSearchClear.addEventListener('click', () => { el.speechSearch.value = ''; searchSpeech(); el.speechSearch.focus(); });
+el.speechSearchResults.addEventListener('click', event => {
+  const hit = event.target.closest('[data-search-line]');
+  if (!hit) return;
+  const index = Number(hit.dataset.searchLine);
+  openLine(index);
+});
 
 el.context.addEventListener('click', event => {
   const button = event.target.closest('[data-context]');
@@ -558,6 +610,10 @@ async function start() {
     }
     el.status.hidden = true;
     el.reader.hidden = false;
+    const floatingToolbar = $('.address-floating-toolbar');
+    const measureToolbar = () => el.fullSection.style.setProperty('--address-toolbar-height', `${Math.ceil(floatingToolbar.getBoundingClientRect().height)}px`);
+    measureToolbar();
+    if ('ResizeObserver' in window) new ResizeObserver(measureToolbar).observe(floatingToolbar);
     window.addEventListener('scroll', queueProgressUpdate, { passive: true });
     window.addEventListener('resize', queueProgressUpdate);
     queueProgressUpdate();

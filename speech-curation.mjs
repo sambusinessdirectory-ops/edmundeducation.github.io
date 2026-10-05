@@ -9,7 +9,7 @@ const el = {
   accountName: $('[data-account-name]'), logout: $('[data-logout]'),
   list: $('[data-speech-list]'), libraryStatus: $('[data-library-status]'),
   savedList: $('[data-saved-list]'), savedStatus: $('[data-saved-status]'), savedCount: $('[data-saved-count]'),
-  search: $('[data-search]'), editor: $('[data-editor]'), editorForm: $('[data-editor-form]'),
+  search: $('[data-search]'), textResults: $('[data-text-results]'), editor: $('[data-editor]'), editorForm: $('[data-editor-form]'),
   editorTitle: $('#editor-title'), editorStatus: $('[data-editor-status]'),
   save: $('[data-save]'), cancelEdit: $('[data-cancel-edit]'),
   accountPanel: $('[data-account-panel]'), accountForm: $('[data-account-form]'),
@@ -19,6 +19,7 @@ const el = {
   passwordHint: $('[data-password-hint]')
 };
 let client, role = 'account', session = null, speeches = [], accounts = [], savedMarks = [], savedLesson = null;
+let searchMatches = [], searchRevision = 0, searchTimer = 0;
 
 function status(node, message) { node.textContent = message || ''; }
 function storedSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || 'null'); } catch { return null; } }
@@ -91,6 +92,8 @@ function showSignedIn() {
 }
 
 function showLogin() {
+  ++searchRevision;
+  clearTimeout(searchTimer);
   el.entry.hidden = false;
   el.login.hidden = false;
   el.library.hidden = true;
@@ -102,6 +105,7 @@ function showLogin() {
   el.accountList.replaceChildren();
   speeches = []; accounts = [];
   savedMarks = []; savedLesson = null;
+  searchMatches = []; el.textResults.replaceChildren(); el.textResults.hidden = true;
   el.savedList.replaceChildren();
   setSpeechStudentNavigation(true);
 }
@@ -252,11 +256,11 @@ el.savedList.addEventListener('click', async event => {
 });
 function renderSpeeches() {
   const query = el.search.value.trim().toLocaleLowerCase();
-  const visible = speeches.filter(row => `${row.title} ${row.speaker} ${row.description}`.toLocaleLowerCase().includes(query));
+  const visible = speeches.filter(row => `${row.title} ${row.speaker} ${row.description}`.toLocaleLowerCase().includes(query) || (searchMatches.length && row.url?.includes('speech-curation-churchill.html')));
   el.list.replaceChildren();
   if (!visible.length) {
     const empty = text('div', 'empty-state', '');
-    empty.append(text('h3', '', query ? '找不到相符的演講' : '演講精選即將開始'), text('p', '', query ? '試試其他講者或標題。' : '管理員加入第一則演講後，這裡便會顯示內容。'));
+    empty.append(text('h3', '', query ? '找不到相符的演講' : '演講精選即將開始'), text('p', '', query ? '試試其他講者、標題或原文詞句。' : '管理員加入第一則演講後，這裡便會顯示內容。'));
     el.list.append(empty);
     return;
   }
@@ -302,6 +306,37 @@ function renderSpeeches() {
     });
     group.append(contents);
     el.list.append(group);
+  }
+}
+
+async function searchSpeechText() {
+  const query = el.search.value.trim().toLocaleLowerCase();
+  const revision = ++searchRevision;
+  searchMatches = [];
+  el.textResults.replaceChildren();
+  el.textResults.hidden = !query;
+  renderSpeeches();
+  if (!query) return;
+  el.textResults.append(text('p', '', '正在搜尋演說原文…'));
+  try {
+    savedLesson ||= await rpc('speech_curation_lesson', { p_slug: 'churchill-1949', ...readerTokens() });
+    if (revision !== searchRevision) return;
+    searchMatches = (savedLesson?.lines || []).map((line, index) => ({ line, index }))
+      .filter(({ line }) => `${line.english} ${line.chinese} ${(line.notes || []).join(' ')}`.toLocaleLowerCase().includes(query));
+    el.textResults.replaceChildren();
+    el.textResults.append(text('p', 'library-text-count', searchMatches.length ? `《The Council of Europe》：${searchMatches.length} 句符合` : '演說原文沒有相符詞句'));
+    searchMatches.slice(0, 10).forEach(({ line, index }) => {
+      const link = text('a', 'library-text-hit', '');
+      link.href = `/speech-curation-churchill.html?line=${index + 1}#transcript`;
+      link.append(text('strong', '', `第 ${index + 1} 句`), text('span', '', line.english));
+      el.textResults.append(link);
+    });
+    if (searchMatches.length > 10) el.textResults.append(text('p', 'library-text-count', `另有 ${searchMatches.length - 10} 句；請縮小搜尋詞。`));
+    renderSpeeches();
+  } catch (error) {
+    if (revision !== searchRevision) return;
+    console.warn('Speech text search failed', error);
+    el.textResults.replaceChildren(text('p', '', '原文搜尋暫時未能使用，仍可搜尋講者與標題。'));
   }
 }
 
@@ -461,5 +496,8 @@ el.accountForm.addEventListener('submit', async event => {
   } finally { el.accountSave.disabled = false; }
 });
 
-el.search.addEventListener('input', renderSpeeches);
+el.search.addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(searchSpeechText, 180);
+});
 void restore();

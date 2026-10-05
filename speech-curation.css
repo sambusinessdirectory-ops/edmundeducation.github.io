@@ -73,3 +73,10 @@ input:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{
 .saved-link{display:inline-flex;border-bottom:1px solid #00768d;padding:.2rem 0;color:#006b80;font-size:.82rem;font-weight:900;text-decoration:none}
 .saved-empty{grid-column:1/-1;margin:0;padding:1rem;color:#5c7070;font-size:.9rem}
 @media(max-width:600px){.saved-library-head{align-items:start;flex-direction:column}}
+
+.library-text-results{display:grid;gap:.5rem;margin:-.3rem 0 1.4rem;border:1px solid #bed1cf;padding:1rem;background:linear-gradient(#f9f5ebde,#f9f5ebde),url('/speech-curation-assets/parchment-paper.jpg') center/440px auto repeat}
+.library-text-results>p{margin:.2rem 0;color:#355e63;font-size:.87rem;font-weight:800}
+.library-text-hit{display:flex;align-items:baseline;gap:.85rem;border:1px solid #d2dfdb;padding:.65rem .8rem;background:#fff;color:#253e42;text-decoration:none;line-height:1.5}
+.library-text-hit:hover,.library-text-hit:focus-visible{border-color:#00839c;background:#e8f2f0}
+.library-text-hit strong{flex:0 0 auto;color:#9d6438;font-size:.77rem}
+@media(max-width:600px){.library-text-hit{align-items:start;flex-direction:column;gap:.1rem}}
