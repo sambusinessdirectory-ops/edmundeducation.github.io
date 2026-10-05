@@ -55,3 +55,21 @@ input:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{
 @media(max-width:850px){.entry-stage,.login-panel{min-height:700px}.login-panel{grid-template-columns:1fr;gap:1rem;align-content:end}.login-intro{padding-top:220px}.login-box{max-width:530px}.hero{background-position:center}}
 @media(max-width:520px){.speech-shell{padding:0}.entry-stage{border-radius:0}.hero{padding:2rem 1.25rem;background-position:57% center}.hero h1{font-size:3rem}.login-panel{padding:1.25rem;min-height:780px}.login-intro{padding-top:250px}.login-box{padding:1rem}.library{padding:1rem}.speaker-group>summary{padding:1rem}.speaker-group-name{font-size:1.35rem}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+.saved-library{margin:1.5rem 0 2rem;border:1px solid #bed1d1;border-left:4px solid #00839c;padding:clamp(1rem,2vw,1.65rem);background:linear-gradient(#f3ede0cf,#f3ede0cf),url('/speech-curation-assets/parchment-paper.jpg') center/520px auto repeat}
+.saved-library-head{display:flex;align-items:end;justify-content:space-between;gap:1rem;border-bottom:1px solid #c7d3d1;padding-bottom:.8rem}
+.saved-library-head h3{margin:0;color:#203a3c;font:700 clamp(1.4rem,2vw,1.9rem) Georgia,"Noto Serif TC",serif}
+.saved-library-head h3 span{margin-left:.4rem;color:#00768d;font:800 .85rem Inter,Arial,sans-serif}
+.saved-library-head>p{max-width:26rem;margin:0;color:#597173;font-size:.86rem;line-height:1.5}
+.saved-status{color:#a04c37;font-size:.84rem}
+.saved-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:.7rem}
+.saved-item{border:1px solid #c5d5d4;padding:1rem;background:#fffdf8;box-shadow:0 5px 15px #1932390d}
+.saved-item-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.saved-kicker{color:#00768d;font-size:.69rem;font-weight:900;letter-spacing:.08em}
+.saved-remove{border:0;background:none;color:#8a6d55;font-size:.72rem;font-weight:800;text-decoration:underline}
+.saved-idea-title{margin:.7rem 0 .2rem;color:#8b4c2b;font:800 1.07rem Inter,"PingFang TC",sans-serif;text-decoration:underline;text-underline-offset:.2em}
+.saved-english{margin:.75rem 0;color:#203537;font:700 1.1rem/1.55 "Times New Roman",Times,serif}
+.saved-chinese{margin:0 0 .9rem;color:#526668;font-size:.86rem;line-height:1.6}
+.saved-link{display:inline-flex;border-bottom:1px solid #00768d;padding:.2rem 0;color:#006b80;font-size:.82rem;font-weight:900;text-decoration:none}
+.saved-empty{grid-column:1/-1;margin:0;padding:1rem;color:#5c7070;font-size:.9rem}
+@media(max-width:600px){.saved-library-head{align-items:start;flex-direction:column}}

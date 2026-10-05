@@ -1,3 +1,5 @@
+import { initSpeechPreferences, setSpeechStudentNavigation } from '/speech-curation-preferences.mjs';
+initSpeechPreferences();
 const $ = selector => document.querySelector(selector);
 const SESSION_KEY = 'edmund-speech-curation-session-v1';
 const LOGIN_URL = '/speech-curation.html?next=churchill';
@@ -24,13 +26,61 @@ const config = window.EDMUND_SUPABASE || {};
 const el = {
   status: $('[data-status]'), reader: $('[data-reader]'), context: $('[data-context]'),
   contextReading: $('[data-context-reading]'), fullText: $('[data-full-text]'), fullSection: $('#full-speech'),
-  addressTranslation: $('[data-address-translation]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'),
-  chapters: $('[data-chapters]'), lines: $('[data-lines]'),
+  addressTranslation: $('[data-address-translation]'), addressRules: $('[data-address-rules]'), progressFill: $('[data-progress-fill]'), progressValue: $('[data-progress-value]'),
+  chapters: $('[data-chapters]'), addressChapters: $('[data-address-chapters]'), addressNavToggle: $('[data-address-nav-toggle]'), lines: $('[data-lines]'),
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 const cards = [];
+const marks = new Set();
+const markKey = (kind, index, idea = -1) => `${kind}:${index}:${idea}`;
+const markArgs = (index, kind, idea, active) => {
+  const current = tokenSession();
+  return {
+    p_slug: 'churchill-1949', p_line_index: index, p_kind: kind, p_idea_index: idea, p_active: active,
+    p_account_token: current.role === 'admin' ? null : current.token,
+    p_admin_token: current.role === 'admin' ? current.token : null
+  };
+};
+function refreshMarks() {
+  document.querySelectorAll('[data-bookmark-kind]').forEach(button => {
+    const active = marks.has(markKey(button.dataset.bookmarkKind, Number(button.dataset.bookmarkLine), Number(button.dataset.bookmarkIdea || -1)));
+    button.setAttribute('aria-pressed', String(active));
+    button.textContent = active ? '已收藏' : '加入書籤';
+  });
+  cards.forEach((card, index) => card.classList.toggle('is-viewed', marks.has(markKey('view', index))));
+}
+function bookmarkButton(kind, index, idea = -1) {
+  const button = node('button', 'bookmark-button', '加入書籤');
+  button.type = 'button';
+  button.dataset.bookmarkKind = kind;
+  button.dataset.bookmarkLine = String(index);
+  button.dataset.bookmarkIdea = String(idea);
+  button.setAttribute('aria-label', `收藏第 ${index + 1} 句${kind === 'idea' ? `第 ${idea + 1} 項導讀` : ''}`);
+  button.setAttribute('aria-pressed', 'false');
+  return button;
+}
+async function saveMark(index, kind, idea, active) {
+  const key = markKey(kind, index, idea);
+  const before = marks.has(key);
+  if (active) marks.add(key); else marks.delete(key);
+  refreshMarks();
+  try { await rpc('speech_curation_reader_mark', markArgs(index, kind, idea, active)); }
+  catch (error) {
+    if (before) marks.add(key); else marks.delete(key);
+    refreshMarks();
+    console.warn('Reader mark save failed', error);
+    el.status.hidden = false;
+    el.status.textContent = '書籤暫時未能儲存，請稍後再試。';
+  }
+}
+function markViewed(index) {
+  const key = markKey('view', index);
+  if (marks.has(key)) return;
+  marks.add(key); refreshMarks();
+  void rpc('speech_curation_reader_mark', markArgs(index, 'view', -1, true)).catch(error => console.warn('Reader history save failed', error));
+}
 
 function node(tag, className, value) {
   const result = document.createElement(tag);
@@ -162,6 +212,8 @@ function renderFullText(lines) {
   const starts = [...PARAGRAPH_STARTS, lines.length];
   for (let i = 0; i < starts.length - 1; i++) {
     const paragraph = node('section', 'address-paragraph');
+    const chapterIndex = CHAPTERS.findIndex(chapter => chapter.first === starts[i] + 1);
+    if (chapterIndex >= 0) paragraph.id = `address-chapter-${chapterIndex + 1}`;
     const english = node('p', 'address-english');
     const pieces = lines.slice(starts[i], starts[i + 1]);
     pieces.forEach((line, position) => {
@@ -201,11 +253,15 @@ function chapterFor(index) {
 }
 function renderChapters() {
   el.chapters.replaceChildren(node('p', 'nav-title', '段落導覽'));
+  el.addressChapters.replaceChildren(node('p', 'nav-title', '段落導覽'));
   CHAPTERS.forEach((chapter, i) => {
     const link = node('a', '', '');
     link.href = `#chapter-${i + 1}`;
     link.append(node('span', 'nav-index', String(i + 1).padStart(2, '0')), node('span', '', chapter.short));
     el.chapters.append(link);
+    const addressLink = link.cloneNode(true);
+    addressLink.href = `#address-chapter-${i + 1}`;
+    el.addressChapters.append(addressLink);
   });
 }
 function makeCard(line, index) {
@@ -215,11 +271,15 @@ function makeCard(line, index) {
   open.type = 'button'; open.dataset.open = String(index);
   open.setAttribute('aria-expanded', 'false');
   open.setAttribute('aria-controls', `line-body-${index}`);
-  open.append(node('span', 'line-number', String(index + 1).padStart(3, '0')), node('span', 'line-english', line.english), node('span', 'line-chevron', '+'));
+  const meta = node('span', 'line-meta');
+  meta.append(node('span', 'line-number', String(index + 1).padStart(3, '0')), node('span', 'viewed-badge', '已瀏覽'));
+  open.append(meta, node('span', 'line-english', line.english), node('span', 'line-chevron', '+'));
   const translation = node('p', 'line-translation', line.chinese);
   const body = node('div', 'line-body'); body.id = `line-body-${index}`;
   body.append(node('div', 'line-body-inner'));
-  card.append(open, translation, body);
+  const actions = node('div', 'line-bookmark-actions');
+  actions.append(bookmarkButton('line', index));
+  card.append(open, actions, translation, body);
   return card;
 }
 function renderLines(lines) {
@@ -262,7 +322,7 @@ function parseExamples(text) {
   }
   return rows;
 }
-function buildNote(note, noteIndex) {
+function buildNote(note, noteIndex, lineIndex) {
   const clean = String(note).replace(/^\d+\.\s*/, '').trim();
   const examplesAt = clean.search(/Examples?\s*:/i);
   const prose = examplesAt < 0 ? clean : clean.slice(0, examplesAt).trim();
@@ -272,7 +332,7 @@ function buildNote(note, noteIndex) {
   const description = title ? prose.slice(colon + 1).trim() : prose;
   const block = node('section', 'note');
   const heading = node('div', 'note-heading');
-  heading.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), node('h5', '', title || '語言觀察'));
+  heading.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), node('h5', '', title || '語言觀察'), bookmarkButton('idea', lineIndex, noteIndex));
   block.append(heading);
   const detail = node('div', 'note-description');
   splitDescription(description).forEach(part => detail.append(node('p', '', part)));
@@ -296,9 +356,11 @@ function buildNote(note, noteIndex) {
 function buildCuratedContent(index) {
   const line = lesson.lines[index];
   const content = node('div', 'curated-content');
-  content.append(node('h4', 'curation-title', '語言與思想導讀'));
+  const heading = node('div', 'curation-heading');
+  heading.append(node('h4', 'curation-title', '語言與思想導讀'), bookmarkButton('line', index));
+  content.append(heading);
   const notes = node('div', 'annotation-grid');
-  (line.notes || []).forEach((note, noteIndex) => notes.append(buildNote(note, noteIndex)));
+  (line.notes || []).forEach((note, noteIndex) => notes.append(buildNote(note, noteIndex, index)));
   content.append(notes);
   const rows = vocabularyRows(line.collocations);
   if (rows.length) {
@@ -333,7 +395,9 @@ function openLine(index, focus = false) {
     cards[selected].querySelector('.line-open').setAttribute('aria-expanded', 'false');
   }
   selected = index;
+  markViewed(index);
   fillLineBody(index);
+  refreshMarks();
   cards[index].classList.add('is-open');
   cards[index].querySelector('.line-open').setAttribute('aria-expanded', 'true');
   if (focus) cards[index].querySelector('.line-open').focus({ preventScroll: true });
@@ -365,9 +429,11 @@ function openAddressLine(index) {
   }
   if (selectedAddress === index) { selectedAddress = -1; return; }
   selectedAddress = index;
+  markViewed(index);
   trigger.classList.add('is-selected');
   const insight = trigger.closest('.address-paragraph').querySelector('.address-insight');
   insight.replaceChildren(buildCuratedContent(index));
+  refreshMarks();
   insight.hidden = false;
   requestAnimationFrame(() => insight.classList.add('is-open'));
   queueProgressUpdate();
@@ -379,6 +445,15 @@ el.context.addEventListener('click', event => {
 });
 el.contextReading.addEventListener('click', event => {
   if (event.target.closest('[data-context-close]') && contextSelected >= 0) showContext(contextSelected);
+});
+document.addEventListener('click', event => {
+  const button = event.target.closest('[data-bookmark-kind]');
+  if (!button || !lesson) return;
+  event.preventDefault(); event.stopPropagation();
+  const kind = button.dataset.bookmarkKind;
+  const index = Number(button.dataset.bookmarkLine);
+  const idea = Number(button.dataset.bookmarkIdea);
+  void saveMark(index, kind, idea, !marks.has(markKey(kind, index, idea)));
 });
 el.lines.addEventListener('click', event => {
   const open = event.target.closest('[data-open]');
@@ -404,9 +479,28 @@ el.addressTranslation.addEventListener('click', () => {
 document.querySelectorAll('[data-font]').forEach(button => button.addEventListener('click', () => {
   const times = button.dataset.font === 'times';
   el.fullText.classList.toggle('font-times', times);
+  el.fullText.classList.toggle('font-courier-bold', button.dataset.font === 'courier-bold');
   document.querySelectorAll('[data-font]').forEach(option => option.setAttribute('aria-pressed', String(option === button)));
   queueProgressUpdate();
 }));
+el.addressRules.addEventListener('click', () => {
+  const on = !el.fullText.classList.contains('address-rules-on');
+  el.fullText.classList.toggle('address-rules-on', on);
+  el.addressRules.setAttribute('aria-pressed', String(on));
+  el.addressRules.textContent = on ? '閱讀輔助線：開' : '閱讀輔助線：關';
+});
+el.addressNavToggle.addEventListener('click', () => {
+  const open = !el.addressChapters.classList.contains('is-open');
+  el.addressChapters.classList.toggle('is-open', open);
+  el.addressNavToggle.setAttribute('aria-expanded', String(open));
+  el.addressNavToggle.setAttribute('aria-label', open ? '關閉段落導覽' : '開啟段落導覽');
+});
+el.addressChapters.addEventListener('click', event => {
+  if (event.target.closest('a')) {
+    el.addressChapters.classList.remove('is-open');
+    el.addressNavToggle.setAttribute('aria-expanded', 'false');
+  }
+});
 el.translationToggle.addEventListener('click', () => {
   const visible = !el.lines.classList.contains('translations-on');
   el.lines.classList.toggle('translations-on', visible);
@@ -448,6 +542,14 @@ async function start() {
     renderFullText(data.lines);
     renderChapters();
     renderLines(data.lines);
+    const readerState = await rpc('speech_curation_reader_state', {
+      p_slug: 'churchill-1949',
+      p_account_token: current.role === 'admin' ? null : current.token,
+      p_admin_token: current.role === 'admin' ? current.token : null
+    });
+    setSpeechStudentNavigation(Boolean(readerState?.is_student));
+    (readerState?.marks || []).forEach(mark => marks.add(markKey(mark.kind, mark.line_index, mark.idea_index)));
+    refreshMarks();
     if (current.role === 'admin') {
       const source = node('a', 'source-link', '英文原文來源 ↗');
       source.href = data.source_url || 'https://www.nationalchurchillmuseum.org/the-council-of-europe.html';
@@ -459,6 +561,19 @@ async function start() {
     window.addEventListener('scroll', queueProgressUpdate, { passive: true });
     window.addEventListener('resize', queueProgressUpdate);
     queueProgressUpdate();
+    const params = new URLSearchParams(location.search);
+    const requestedLine = Number(params.get('line'));
+    const requestedIdea = Number(params.get('idea'));
+    if (Number.isInteger(requestedLine) && requestedLine >= 1 && requestedLine <= data.lines.length) {
+      requestAnimationFrame(() => {
+        openLine(requestedLine - 1);
+        if (Number.isInteger(requestedIdea) && requestedIdea >= 1) {
+          const target = cards[requestedLine - 1].querySelectorAll('.note')[requestedIdea - 1];
+          target?.classList.add('is-deep-linked');
+          target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    }
     let remembered = -1;
     try { remembered = Number(sessionStorage.getItem('edmund-speech-churchill-line')); } catch { /* Optional. */ }
     if (Number.isInteger(remembered) && remembered > 0 && remembered < data.lines.length) {

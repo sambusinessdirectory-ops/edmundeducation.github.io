@@ -1,3 +1,5 @@
+import { initSpeechPreferences, setSpeechStudentNavigation } from '/speech-curation-preferences.mjs';
+initSpeechPreferences();
 const $ = selector => document.querySelector(selector);
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = 'edmund-speech-curation-session-v1';
@@ -6,6 +8,7 @@ const el = {
   loginButton: $('[data-login-button]'), loginStatus: $('[data-login-status]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]'),
   list: $('[data-speech-list]'), libraryStatus: $('[data-library-status]'),
+  savedList: $('[data-saved-list]'), savedStatus: $('[data-saved-status]'), savedCount: $('[data-saved-count]'),
   search: $('[data-search]'), editor: $('[data-editor]'), editorForm: $('[data-editor-form]'),
   editorTitle: $('#editor-title'), editorStatus: $('[data-editor-status]'),
   save: $('[data-save]'), cancelEdit: $('[data-cancel-edit]'),
@@ -15,7 +18,7 @@ const el = {
   accountSave: $('[data-save-account]'), accountCancel: $('[data-cancel-account]'),
   passwordHint: $('[data-password-hint]')
 };
-let client, role = 'account', session = null, speeches = [], accounts = [];
+let client, role = 'account', session = null, speeches = [], accounts = [], savedMarks = [], savedLesson = null;
 
 function status(node, message) { node.textContent = message || ''; }
 function storedSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || 'null'); } catch { return null; } }
@@ -80,8 +83,10 @@ function showSignedIn() {
   el.accountName.textContent = session.name;
   el.editor.hidden = session.role !== 'admin';
   el.accountPanel.hidden = session.role !== 'admin';
+  if (session.role === 'admin') setSpeechStudentNavigation(false);
   saveSession();
   void loadSpeeches();
+  void loadSavedLibrary();
   if (session.role === 'admin') void loadAccounts();
 }
 
@@ -96,6 +101,9 @@ function showLogin() {
   el.list.replaceChildren();
   el.accountList.replaceChildren();
   speeches = []; accounts = [];
+  savedMarks = []; savedLesson = null;
+  el.savedList.replaceChildren();
+  setSpeechStudentNavigation(true);
 }
 
 async function restore() {
@@ -170,6 +178,78 @@ function text(tag, className, value) {
   node.textContent = value;
   return node;
 }
+function readerTokens() {
+  return {
+    p_account_token: session.role === 'admin' ? null : session.token,
+    p_admin_token: session.role === 'admin' ? session.token : null
+  };
+}
+function ideaTitle(raw) {
+  const clean = String(raw || '').replace(/^\d+\.\s*/, '');
+  const colon = clean.search(/[:：]/);
+  return colon > 0 && colon < 105 ? clean.slice(0, colon).trim() : '語言觀察';
+}
+function renderSavedLibrary() {
+  el.savedList.replaceChildren();
+  const bookmarks = savedMarks.filter(mark => mark.kind === 'line' || mark.kind === 'idea');
+  el.savedCount.textContent = String(bookmarks.length);
+  if (!bookmarks.length) {
+    el.savedList.append(text('p', 'saved-empty', '暫無書籤。閱讀演說時可收藏句子或個別導讀。'));
+    return;
+  }
+  bookmarks.forEach(mark => {
+    const line = savedLesson?.lines?.[mark.line_index];
+    if (!line) return;
+    const item = text('article', 'saved-item', '');
+    const header = text('div', 'saved-item-head', '');
+    const kind = mark.kind === 'idea' ? `導讀 ${String(mark.idea_index + 1).padStart(2, '0')}` : '演說句子';
+    header.append(text('span', 'saved-kicker', `${String(mark.line_index + 1).padStart(3, '0')} · ${kind}`));
+    const remove = text('button', 'saved-remove', '移除');
+    remove.type = 'button'; remove.dataset.removeMark = `${mark.line_index}:${mark.kind}:${mark.idea_index}`;
+    remove.setAttribute('aria-label', `移除第 ${mark.line_index + 1} 句${mark.kind === 'idea' ? '導讀' : ''}書籤`);
+    header.append(remove);
+    item.append(header);
+    if (mark.kind === 'idea') item.append(text('h4', 'saved-idea-title', ideaTitle(line.notes?.[mark.idea_index])));
+    item.append(text('p', 'saved-english', line.english), text('p', 'saved-chinese', line.chinese));
+    const link = text('a', 'saved-link', '返回這段導讀 →');
+    link.href = `/speech-curation-churchill.html?line=${mark.line_index + 1}${mark.kind === 'idea' ? `&idea=${mark.idea_index + 1}` : ''}#transcript`;
+    item.append(link);
+    el.savedList.append(item);
+  });
+}
+async function loadSavedLibrary() {
+  status(el.savedStatus, '正在整理書籤…');
+  try {
+    const state = await rpc('speech_curation_reader_state', { p_slug: 'churchill-1949', ...readerTokens() });
+    setSpeechStudentNavigation(Boolean(state?.is_student));
+    savedMarks = Array.isArray(state?.marks) ? state.marks : [];
+    if (savedMarks.some(mark => mark.kind === 'line' || mark.kind === 'idea')) {
+      savedLesson = await rpc('speech_curation_lesson', { p_slug: 'churchill-1949', ...readerTokens() });
+    }
+    status(el.savedStatus, ''); renderSavedLibrary();
+  } catch (error) {
+    console.warn('Speech bookmarks unavailable', error);
+    status(el.savedStatus, '書籤暫時未能載入，請稍後重新整理。');
+  }
+}
+el.savedList.addEventListener('click', async event => {
+  const button = event.target.closest('[data-remove-mark]');
+  if (!button || !session) return;
+  const [line, kind, idea] = button.dataset.removeMark.split(':');
+  button.disabled = true;
+  try {
+    await rpc('speech_curation_reader_mark', {
+      p_slug: 'churchill-1949', p_line_index: Number(line), p_kind: kind,
+      p_idea_index: Number(idea), p_active: false, ...readerTokens()
+    });
+    savedMarks = savedMarks.filter(mark => !(mark.line_index === Number(line) && mark.kind === kind && mark.idea_index === Number(idea)));
+    renderSavedLibrary();
+  } catch (error) {
+    console.warn('Speech bookmark removal failed', error);
+    status(el.savedStatus, '移除書籤失敗，請稍後再試。');
+    button.disabled = false;
+  }
+});
 function renderSpeeches() {
   const query = el.search.value.trim().toLocaleLowerCase();
   const visible = speeches.filter(row => `${row.title} ${row.speaker} ${row.description}`.toLocaleLowerCase().includes(query));
