@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="/speech-curation.css?v=20261005-1">
+  <link rel="stylesheet" href="/speech-curation.css?v=20261005-2">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body>
@@ -24,21 +24,22 @@
   <main id="main" class="speech-shell">
     <section class="hero"><p class="eyebrow">CARD 69 · SPEECH ANTHOLOGY</p><h1>名人／偉人<br><em>演講精選</em></h1><p>聆聽改變世界的聲音，細讀有力量的英文表達。</p></section>
     <section class="login-panel" data-login-panel aria-labelledby="login-title">
-      <div class="login-intro"><p class="eyebrow">WELCOME</p><h2 id="login-title">登入演講資料庫</h2><p>學生可使用現有 EdmundEducation 學生帳戶。管理員請選擇管理員登入。</p></div>
+      <div class="login-intro"><p class="eyebrow">WELCOME</p><h2 id="login-title">登入演講資料庫</h2><p>使用此系統專屬的演講帳戶登入。現有學生已獲建立演講帳戶，可使用原有的使用者名稱及密碼；新用戶由管理員開設。</p></div>
       <div class="login-box">
-        <div class="role-tabs" role="group" aria-label="登入身份"><button type="button" data-role="student" aria-pressed="true">學生登入</button><button type="button" data-role="admin" aria-pressed="false">管理員登入</button></div>
+        <div class="role-tabs" role="group" aria-label="登入身份"><button type="button" data-role="account" aria-pressed="true">演講帳戶登入</button><button type="button" data-role="admin" aria-pressed="false">管理員登入</button></div>
         <form data-login-form><label>使用者名稱<input name="username" autocomplete="username" required maxlength="160"></label><label>密碼<input name="password" type="password" autocomplete="current-password" required maxlength="200"></label><p class="form-status" data-login-status role="status" aria-live="polite"></p><button class="primary-button" type="submit" data-login-button>登入 · Continue</button></form>
       </div>
     </section>
     <section class="library" data-library hidden aria-labelledby="library-title">
       <div class="library-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="library-title">演講資料庫</h2><p data-library-subtitle>精選演講與延伸閱讀。</p></div><label class="search-label">搜尋演講<input type="search" data-search placeholder="講者或標題" autocomplete="off"></label></div>
-      <section class="editor" data-editor hidden aria-labelledby="editor-title"><div class="editor-heading"><p class="eyebrow">ADMIN STUDIO</p><h3 id="editor-title">新增演講</h3><p>儲存後，已登入的學生便可看到這則演講。</p></div><form data-editor-form><input type="hidden" name="id"><div class="editor-grid"><label>演講標題<input name="title" required maxlength="200"></label><label>演講者<input name="speaker" required maxlength="160"></label></div><label>演講連結（HTTPS）<input name="url" type="url" required maxlength="2048" pattern="https://.*" placeholder="https://..."></label><label>導讀／備註<textarea name="description" rows="3" maxlength="5000"></textarea></label><div class="editor-actions"><button class="primary-button" type="submit" data-save>儲存演講</button><button type="button" data-cancel-edit hidden>取消編輯</button><span data-editor-status role="status" aria-live="polite"></span></div></form></section>
+      <section class="editor account-editor" data-account-panel hidden aria-labelledby="account-title"><div class="editor-heading"><p class="eyebrow">SPEECH ACCOUNTS</p><h3 id="account-title">開設演講帳戶</h3><p>這份帳戶名單獨立於現有學生系統。現有學生已獲建立帳戶；新增用戶只會加入此處。</p></div><form data-account-form><input type="hidden" name="id"><div class="editor-grid"><label>使用者名稱<input name="name" required maxlength="160" autocomplete="off"></label><label>密碼 <small data-password-hint>至少 12 個字元</small><input name="password" type="password" required minlength="12" maxlength="200" autocomplete="new-password"></label></div><label class="account-active"><input name="active" type="checkbox" checked>允許登入</label><div class="editor-actions"><button class="primary-button" type="submit" data-save-account>建立帳戶</button><button type="button" data-cancel-account hidden>取消編輯</button><span data-account-status role="status" aria-live="polite"></span></div></form><div class="account-list-heading"><h4>演講帳戶名單</h4><span data-account-count></span></div><div class="account-list" data-account-list></div></section>
+      <section class="editor" data-editor hidden aria-labelledby="editor-title"><div class="editor-heading"><p class="eyebrow">ADMIN STUDIO</p><h3 id="editor-title">新增演講</h3><p>儲存後，已登入的演講帳戶便可看到這則演講。</p></div><form data-editor-form><input type="hidden" name="id"><div class="editor-grid"><label>演講標題<input name="title" required maxlength="200"></label><label>演講者<input name="speaker" required maxlength="160"></label></div><label>演講連結（HTTPS）<input name="url" type="url" required maxlength="2048" pattern="https://.*" placeholder="https://..."></label><label>導讀／備註<textarea name="description" rows="3" maxlength="5000"></textarea></label><div class="editor-actions"><button class="primary-button" type="submit" data-save>儲存演講</button><button type="button" data-cancel-edit hidden>取消編輯</button><span data-editor-status role="status" aria-live="polite"></span></div></form></section>
       <p class="library-status" data-library-status role="status" aria-live="polite"></p><div class="speech-list" data-speech-list></div>
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="/supabase-config.js"></script>
   <script src="/shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="/speech-curation.mjs?v=20261005-1"></script>
+  <script type="module" src="/speech-curation.mjs?v=20261005-2"></script>
 </body>
 </html>

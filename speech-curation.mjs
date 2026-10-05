@@ -8,9 +8,14 @@ const el = {
   list: $('[data-speech-list]'), libraryStatus: $('[data-library-status]'),
   search: $('[data-search]'), editor: $('[data-editor]'), editorForm: $('[data-editor-form]'),
   editorTitle: $('#editor-title'), editorStatus: $('[data-editor-status]'),
-  save: $('[data-save]'), cancelEdit: $('[data-cancel-edit]')
+  save: $('[data-save]'), cancelEdit: $('[data-cancel-edit]'),
+  accountPanel: $('[data-account-panel]'), accountForm: $('[data-account-form]'),
+  accountTitle: $('#account-title'), accountStatus: $('[data-account-status]'),
+  accountList: $('[data-account-list]'), accountCount: $('[data-account-count]'),
+  accountSave: $('[data-save-account]'), accountCancel: $('[data-cancel-account]'),
+  passwordHint: $('[data-password-hint]')
 };
-let client, role = 'student', session = null, speeches = [];
+let client, role = 'account', session = null, speeches = [], accounts = [];
 
 function status(node, message) { node.textContent = message || ''; }
 function storedSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || 'null'); } catch { return null; } }
@@ -42,11 +47,17 @@ async function rpc(name, args) {
   return data;
 }
 
-async function validStudent(token) {
-  const rows = await rpc('flashcard_student_session_profile', { p_token: token });
+async function validAccount(token) {
+  const rows = await rpc('speech_curation_account_profile', { p_token: token });
   const row = Array.isArray(rows) ? rows[0] : null;
   if (!row?.id || !row?.session_token) return null;
-  return { role: 'student', token: row.session_token, id: row.id, name: row.name };
+  return { role: 'account', token: row.session_token, id: row.id, name: row.name };
+}
+
+async function exchangeStudentSession(token) {
+  const rows = await rpc('speech_curation_account_from_student_session', { p_student_token: token });
+  const row = Array.isArray(rows) ? rows[0] : null;
+  return row?.session_token ? { role: 'account', token: row.session_token, id: row.id, name: row.name } : null;
 }
 
 async function validAdmin(token) {
@@ -62,11 +73,10 @@ function showSignedIn() {
   el.accountName.hidden = false;
   el.accountName.textContent = session.name;
   el.editor.hidden = session.role !== 'admin';
+  el.accountPanel.hidden = session.role !== 'admin';
   saveSession();
-  if (session.role === 'student') window.EdmundSystemNav?.rememberStudentSession({
-    token: session.token, id: session.id, name: session.name, role: 'student'
-  });
   void loadSpeeches();
+  if (session.role === 'admin') void loadAccounts();
 }
 
 function showLogin() {
@@ -75,8 +85,10 @@ function showLogin() {
   el.logout.hidden = true;
   el.accountName.hidden = true;
   el.editor.hidden = true;
+  el.accountPanel.hidden = true;
   el.list.replaceChildren();
-  speeches = [];
+  el.accountList.replaceChildren();
+  speeches = []; accounts = [];
 }
 
 async function restore() {
@@ -85,8 +97,9 @@ async function restore() {
   try {
     if (own?.role === 'admin' && own.token) session = await validAdmin(own.token);
     else {
+      if (own?.role === 'account' && own.token) session = await validAccount(own.token);
       const token = own?.role === 'student' ? own.token : universal?.role === 'student' ? universal.token : null;
-      if (token) session = await validStudent(token);
+      if (!session && token) session = await exchangeStudentSession(token);
     }
   } catch (error) { console.warn('Speech curation session restore failed', error); }
   if (session) showSignedIn();
@@ -113,9 +126,9 @@ el.loginForm.addEventListener('submit', async event => {
       const row = Array.isArray(rows) ? rows[0] : null;
       session = row?.session_token ? { role: 'admin', token: row.session_token, name: row.name } : null;
     } else {
-      const rows = await rpc('flashcard_student_login', { p_name: name, p_password: password });
+      const rows = await rpc('speech_curation_account_login', { p_name: name, p_password: password });
       const row = Array.isArray(rows) ? rows[0] : null;
-      session = row?.session_token ? await validStudent(row.session_token) : null;
+      session = row?.session_token ? { role: 'account', token: row.session_token, id: row.id, name: row.name } : null;
     }
     if (!session) throw new Error('使用者名稱或密碼不正確。');
     el.loginForm.reset();
@@ -133,7 +146,10 @@ el.logout.addEventListener('click', async () => {
   clearSession();
   if (previous?.role === 'admin') {
     try { await rpc('speech_curation_admin_logout', { p_token: previous.token }); } catch { /* Local logout still applies. */ }
-  } else window.EdmundSystemNav?.forgetStudentSession?.();
+  } else {
+    try { await rpc('speech_curation_account_logout', { p_token: previous.token }); } catch { /* Local logout still applies. */ }
+    window.EdmundSystemNav?.forgetStudentSession?.();
+  }
   showLogin();
 });
 
@@ -188,7 +204,7 @@ async function loadSpeeches() {
   status(el.libraryStatus, '正在更新演講資料…');
   try {
     const rows = await rpc('speech_curation_list', {
-      p_student_token: session.role === 'student' ? session.token : null,
+      p_student_token: session.role === 'account' ? session.token : null,
       p_admin_token: session.role === 'admin' ? session.token : null
     });
     speeches = Array.isArray(rows) ? rows : [];
@@ -223,7 +239,7 @@ el.editorForm.addEventListener('submit', async event => {
     });
     resetEditor();
     await loadSpeeches();
-    status(el.editorStatus, '已儲存，學生現在可以看到。');
+    status(el.editorStatus, '已儲存，演講帳戶現在可以看到。');
   } catch (error) {
     console.warn('Speech curation save failed', error);
     status(el.editorStatus, '儲存失敗，請檢查資料或重新登入。');
@@ -253,5 +269,92 @@ el.list.addEventListener('click', async event => {
     button.disabled = false;
   }
 });
+
+function renderAccounts() {
+  el.accountList.replaceChildren();
+  el.accountCount.textContent = `${accounts.length} 個帳戶`;
+  for (const account of accounts) {
+    const row = text('div', 'account-row', '');
+    const details = text('div', '', '');
+    details.append(
+      text('strong', '', account.name),
+      text('small', '', `${account.source_student_id ? '原有學生帳戶副本' : '演講專屬帳戶'} · ${account.active ? '可登入' : '已停用'}`)
+    );
+    const button = text('button', '', '管理');
+    button.type = 'button';
+    button.dataset.accountId = account.id;
+    row.append(details, button);
+    el.accountList.append(row);
+  }
+}
+
+async function loadAccounts() {
+  status(el.accountStatus, '正在更新帳戶名單…');
+  try {
+    const rows = await rpc('speech_curation_accounts', { p_admin_token: session.token });
+    accounts = Array.isArray(rows) ? rows : [];
+    renderAccounts();
+    status(el.accountStatus, '');
+  } catch (error) {
+    console.warn('Speech account list failed', error);
+    status(el.accountStatus, '暫時未能讀取帳戶名單，請重新整理頁面。');
+  }
+}
+
+function resetAccountForm() {
+  el.accountForm.reset();
+  el.accountTitle.textContent = '開設演講帳戶';
+  el.accountSave.textContent = '建立帳戶';
+  el.accountCancel.hidden = true;
+  el.accountForm.elements.namedItem('password').required = true;
+  el.passwordHint.textContent = '至少 12 個字元';
+  status(el.accountStatus, '');
+}
+el.accountCancel.addEventListener('click', resetAccountForm);
+el.accountList.addEventListener('click', event => {
+  const button = event.target.closest('button[data-account-id]');
+  if (!button || session?.role !== 'admin') return;
+  const account = accounts.find(row => row.id === button.dataset.accountId);
+  if (!account) return;
+  el.accountForm.elements.namedItem('id').value = account.id;
+  el.accountForm.elements.namedItem('name').value = account.name;
+  el.accountForm.elements.namedItem('password').value = '';
+  el.accountForm.elements.namedItem('password').required = false;
+  el.accountForm.elements.namedItem('active').checked = account.active;
+  el.accountTitle.textContent = `管理帳戶 · ${account.name}`;
+  el.accountSave.textContent = '儲存帳戶變更';
+  el.accountCancel.hidden = false;
+  el.passwordHint.textContent = '留空即保留原有密碼；輸入至少 12 個字元可重設';
+  status(el.accountStatus, '');
+  el.accountPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  el.accountForm.elements.namedItem('name').focus({ preventScroll: true });
+});
+el.accountForm.addEventListener('submit', async event => {
+  event.preventDefault();
+  if (session?.role !== 'admin') return;
+  const data = new FormData(el.accountForm);
+  const id = String(data.get('id') || '');
+  const password = String(data.get('password') || '');
+  if (!id && password.length < 12) return status(el.accountStatus, '新帳戶密碼至少需要 12 個字元。');
+  if (password && password.length < 12) return status(el.accountStatus, '新密碼至少需要 12 個字元。');
+  el.accountSave.disabled = true;
+  status(el.accountStatus, '正在儲存帳戶…');
+  try {
+    await rpc('speech_curation_account_save', {
+      p_admin_token: session.token,
+      p_id: id || null,
+      p_name: String(data.get('name') || '').trim(),
+      p_password: password,
+      p_active: data.has('active')
+    });
+    resetAccountForm();
+    await loadAccounts();
+    status(el.accountStatus, id ? '帳戶已更新。' : '演講帳戶已建立；請將登入資料交給該用戶。');
+  } catch (error) {
+    console.warn('Speech account save failed', error);
+    status(el.accountStatus, error?.code === '23505' ? '此使用者名稱已存在。' : '儲存帳戶失敗，請檢查資料或重新登入。');
+  } finally { el.accountSave.disabled = false; }
+});
+
 el.search.addEventListener('input', renderSpeeches);
 void restore();
