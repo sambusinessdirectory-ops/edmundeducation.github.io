@@ -67,6 +67,11 @@ async function validAdmin(token) {
 }
 
 function showSignedIn() {
+  if (new URLSearchParams(location.search).get('next') === 'churchill') {
+    saveSession();
+    location.replace('/speech-curation-churchill.html');
+    return;
+  }
   el.login.hidden = true;
   el.library.hidden = false;
   el.logout.hidden = false;
@@ -173,17 +178,32 @@ function renderSpeeches() {
     el.list.append(empty);
     return;
   }
+  const bySpeaker = new Map();
   visible.forEach(row => {
+    if (!bySpeaker.has(row.speaker)) bySpeaker.set(row.speaker, []);
+    bySpeaker.get(row.speaker).push(row);
+  });
+  for (const [speaker, rows] of bySpeaker) {
+    const group = document.createElement('details');
+    group.className = 'speaker-group';
+    group.open = Boolean(query);
+    const heading = document.createElement('summary');
+    const speakerName = text('span', 'speaker-group-name', speaker);
+    const count = text('span', 'speaker-group-count', `${rows.length} 篇演講`);
+    heading.append(speakerName, count, text('span', 'speaker-group-arrow', '⌄'));
+    group.append(heading);
+    const contents = text('div', 'speaker-speeches', '');
+    rows.forEach(row => {
     const card = text('article', 'speech-card', '');
-    card.append(text('p', 'eyebrow', 'FEATURED SPEECH'), text('h3', '', row.title), text('p', 'speaker', row.speaker));
+    card.append(text('p', 'eyebrow', 'FEATURED SPEECH'), text('h3', '', row.title));
     if (row.description) card.append(text('p', 'description', row.description));
     const actions = text('div', 'speech-actions', '');
     const href = safeLink(row.url);
     if (href) {
-      const link = text('a', 'speech-link', '開啟演講 ↗');
+      const local = new URL(href).origin === location.origin;
+      const link = text('a', 'speech-link', local ? '逐句閱讀 →' : '開啟演講 ↗');
       link.href = href;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
+      if (!local) { link.target = '_blank'; link.rel = 'noopener noreferrer'; }
       actions.append(link);
     }
     if (session?.role === 'admin') {
@@ -196,8 +216,11 @@ function renderSpeeches() {
       }
     }
     card.append(actions);
-    el.list.append(card);
-  });
+    contents.append(card);
+    });
+    group.append(contents);
+    el.list.append(group);
+  }
 }
 
 async function loadSpeeches() {
