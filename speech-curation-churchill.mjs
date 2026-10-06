@@ -30,7 +30,9 @@ const el = {
   chapters: $('[data-chapters]'), addressChapters: $('[data-address-chapters]'), addressNavToggle: $('[data-address-nav-toggle]'), lines: $('[data-lines]'),
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
-  accountName: $('[data-account-name]'), logout: $('[data-logout]'), albumToggle: $('[data-album-toggle]'), albumPages: $('[data-album-pages]'), albumAction: $('[data-album-action]')
+  accountName: $('[data-account-name]'), logout: $('[data-logout]'), albumToggle: $('[data-album-toggle]'), albumPages: $('[data-album-pages]'), albumAction: $('[data-album-action]'),
+  audio: $('[data-speech-audio]'), audioPlay: $('[data-audio-play]'), audioSeek: $('[data-audio-seek]'), audioCurrent: $('[data-audio-current]'), audioDuration: $('[data-audio-duration]'), audioMute: $('[data-audio-mute]'), audioVolume: $('[data-audio-volume]'), audioSpeeds: $('[data-audio-speeds]'),
+  photoDialog: $('[data-photo-dialog]'), photoEnlarged: $('[data-photo-enlarged]'), photoCaption: $('[data-photo-caption]'), photoClose: $('[data-photo-close]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 const cards = [];
@@ -594,7 +596,100 @@ el.albumToggle.addEventListener('click', () => {
   el.albumToggle.closest('.archive-gallery').classList.toggle('is-open', open);
   el.albumAction.textContent = open ? '收起歷史影像' : '向下揭開歷史影像';
 });
+const speedOptions = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3];
+const formatAudioTime = seconds => {
+  if (!Number.isFinite(seconds)) return '--:--';
+  const whole = Math.floor(Math.max(0, seconds));
+  return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`;
+};
+speedOptions.forEach(speed => {
+  const button = node('button', '', `${speed}×`);
+  button.type = 'button';
+  button.dataset.audioSpeed = String(speed);
+  button.setAttribute('aria-pressed', String(speed === 1));
+  button.setAttribute('aria-label', `播放速度 ${speed} 倍`);
+  el.audioSpeeds.append(button);
+});
+function updateAudioControls() {
+  const duration = el.audio.duration;
+  const hasDuration = Number.isFinite(duration) && duration > 0;
+  const progress = hasDuration ? Math.max(0, Math.min(1, el.audio.currentTime / duration)) : 0;
+  el.audioCurrent.textContent = formatAudioTime(el.audio.currentTime);
+  el.audioDuration.textContent = formatAudioTime(duration);
+  el.audioSeek.disabled = !hasDuration;
+  el.audioSeek.value = String(Math.round(progress * 1000));
+  el.audioSeek.style.setProperty('--range-fill', `${progress * 100}%`);
+  el.audioVolume.value = String(el.audio.volume);
+  el.audioVolume.style.setProperty('--range-fill', `${el.audio.volume * 100}%`);
+  el.audioMute.setAttribute('aria-pressed', String(el.audio.muted));
+  el.audioMute.setAttribute('aria-label', el.audio.muted ? '取消靜音' : '靜音');
+  el.audioMute.textContent = el.audio.muted ? '♪̸' : '♪';
+  const playing = !el.audio.paused && !el.audio.ended;
+  el.audioPlay.textContent = playing ? 'Ⅱ' : '▶';
+  el.audioPlay.setAttribute('aria-label', playing ? '暫停演說' : '播放演說');
+  el.audioPlay.closest('.speech-audio-dock').classList.toggle('is-playing', playing);
+  el.audioSpeeds.querySelectorAll('[data-audio-speed]').forEach(button => {
+    button.setAttribute('aria-pressed', String(Number(button.dataset.audioSpeed) === el.audio.playbackRate));
+  });
+}
+['loadedmetadata', 'durationchange', 'timeupdate', 'play', 'pause', 'ended', 'volumechange', 'ratechange'].forEach(type => el.audio.addEventListener(type, updateAudioControls));
+el.audio.addEventListener('error', () => { el.audioDuration.textContent = '無法載入'; el.audioPlay.disabled = true; });
+el.audioPlay.addEventListener('click', async () => {
+  if (!el.audio.paused) { el.audio.pause(); return; }
+  try { await el.audio.play(); } catch (error) { console.warn('Speech audio playback failed', error); }
+  updateAudioControls();
+});
+el.audioSeek.addEventListener('input', () => {
+  if (Number.isFinite(el.audio.duration)) el.audio.currentTime = el.audio.duration * Number(el.audioSeek.value) / 1000;
+  updateAudioControls();
+});
+el.audioVolume.addEventListener('input', () => {
+  el.audio.volume = Number(el.audioVolume.value);
+  if (el.audio.volume > 0) el.audio.muted = false;
+  updateAudioControls();
+});
+el.audioMute.addEventListener('click', () => { el.audio.muted = !el.audio.muted; updateAudioControls(); });
+el.audioSpeeds.addEventListener('click', event => {
+  const button = event.target.closest('[data-audio-speed]');
+  if (!button) return;
+  el.audio.playbackRate = Number(button.dataset.audioSpeed);
+  updateAudioControls();
+});
+updateAudioControls();
+
+let photoOpener = null;
+let photoCloseTimer = 0;
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+function closePhotoInspection() {
+  if (!el.photoDialog.open) return;
+  el.photoDialog.classList.remove('is-open');
+  clearTimeout(photoCloseTimer);
+  photoCloseTimer = setTimeout(() => {
+    el.photoDialog.close();
+    photoOpener?.focus({ preventScroll: true });
+    photoOpener = null;
+  }, reducedMotion.matches ? 0 : 510);
+}
+document.querySelector('.archive-gallery-list').addEventListener('click', event => {
+  const button = event.target.closest('[data-inspect-photo]');
+  if (!button) return;
+  const figure = button.closest('.archive-gallery-item');
+  const photo = button.querySelector('img');
+  photoOpener = button;
+  clearTimeout(photoCloseTimer);
+  el.photoEnlarged.src = photo.src;
+  el.photoEnlarged.alt = photo.alt;
+  el.photoEnlarged.referrerPolicy = photo.referrerPolicy;
+  el.photoCaption.replaceChildren(...Array.from(figure.querySelector('figcaption').childNodes, child => child.cloneNode(true)));
+  el.photoDialog.showModal();
+  requestAnimationFrame(() => el.photoDialog.classList.add('is-open'));
+  el.photoClose.focus({ preventScroll: true });
+});
+el.photoClose.addEventListener('click', closePhotoInspection);
+el.photoDialog.addEventListener('cancel', event => { event.preventDefault(); closePhotoInspection(); });
+el.photoDialog.addEventListener('click', event => { if (event.target === el.photoDialog) closePhotoInspection(); });
 document.addEventListener('keydown', event => {
+  if (el.photoDialog.open) return;
   if (event.target instanceof HTMLInputElement || event.altKey || event.metaKey || event.ctrlKey) return;
   if (event.key === 'Escape' && selected >= 0) openLine(selected);
   if (selected >= 0 && (event.key === 'ArrowDown' || event.key === 'ArrowUp')) {
@@ -648,10 +743,10 @@ async function start() {
     }
     el.loadingPanel.hidden = true;
     el.reader.hidden = false;
-    const floatingToolbar = $('.address-floating-toolbar');
-    const measureToolbar = () => el.fullSection.style.setProperty('--address-toolbar-height', `${Math.ceil(floatingToolbar.getBoundingClientRect().height)}px`);
-    measureToolbar();
-    if ('ResizeObserver' in window) new ResizeObserver(measureToolbar).observe(floatingToolbar);
+    const readerStack = $('.reader-sticky-stack');
+    const measureStack = () => document.documentElement.style.setProperty('--reader-stack-height', `${Math.ceil(readerStack.getBoundingClientRect().height)}px`);
+    measureStack();
+    if ('ResizeObserver' in window) new ResizeObserver(measureStack).observe(readerStack);
     window.addEventListener('scroll', queueProgressUpdate, { passive: true });
     window.addEventListener('resize', queueProgressUpdate);
     queueProgressUpdate();

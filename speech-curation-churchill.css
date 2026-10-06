@@ -314,3 +314,53 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .speech-audio-copy p{max-width:55ch;margin:0;color:#52666a;font-size:.87rem;line-height:1.6}
 .speech-audio-panel audio{display:block;width:100%;min-width:0;accent-color:#0083a0}
 @media(max-width:700px){.speech-audio-panel{grid-template-columns:1fr;gap:1rem;padding:1rem}}
+
+/* A small 1940s radio desk remains above the paper reader controls. */
+:root{--reader-top-offset:77px;--reader-stack-height:195px}
+.speech-audio-panel{display:block;max-width:980px;margin:0 auto 0;border-radius:12px 12px 0 0;border-bottom:0;padding:1.15rem 1.45rem;background:linear-gradient(115deg,#fdfaf2,#e8f0ed)}
+.reader-sticky-stack{position:sticky;top:var(--reader-top-offset);z-index:35;max-width:980px;margin:0 auto;isolation:isolate}
+.reader-sticky-stack .address-floating-toolbar{position:relative;top:auto;z-index:1;max-width:none;margin:0}
+.speech-audio-dock{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:1rem;row-gap:.55rem;border:1px solid #49301d;padding:.62rem .8rem .55rem;background:linear-gradient(#1c0d083b,#1c0d084a),url('/speech-curation-assets/walnut-radio-fascia-1940s.webp') center/100% 100% no-repeat;box-shadow:inset 0 1px #f3d3a66b,inset 0 -3px #1b17154d,0 8px 20px #23171445;color:#f7e9c9}
+.radio-identity{display:flex;align-items:center;gap:.55rem;min-width:142px}
+.radio-on-air{width:12px;height:12px;flex:none;border:2px solid #e4b377;border-radius:50%;background:#a83e27;box-shadow:0 0 0 3px #4a231d,inset 0 1px #ffd5a1,0 0 8px #dc6c34a3}
+.speech-audio-dock.is-playing .radio-on-air{box-shadow:0 0 0 3px #4a231d,inset 0 1px #ffd5a1,0 0 13px #f6924f}
+.radio-station{display:grid;gap:.08rem;color:#f9e3ad;font:800 .66rem/1.2 Inter,Arial,sans-serif;letter-spacing:.14em;white-space:nowrap}
+.radio-station small{color:#d5c2a5;font-size:.58rem;font-weight:700;letter-spacing:.03em}
+.radio-transport{display:grid;grid-template-columns:38px 38px minmax(70px,1fr) 42px 32px 70px;align-items:center;gap:.45rem;min-width:0;border:1px solid #c5a76e;border-radius:5px;padding:.33rem .48rem;background:linear-gradient(#f4e6c9,#d7c5a3);box-shadow:inset 0 1px #fff8e6,0 3px 0 #1c1713;color:#3c3025}
+.radio-play,.radio-mute{display:grid;place-items:center;width:34px;height:34px;border:1px solid #856133;border-radius:50%;background:radial-gradient(circle at 30% 25%,#f9e9c5,#bf9153 62%,#7d562e);box-shadow:inset 0 1px #fff2c7,0 2px 3px #39291a66;color:#2e2922;font-size:.85rem;font-weight:900}
+.radio-play[aria-label="暫停演說"]{background:radial-gradient(circle at 30% 25%,#f6cf96,#a76637 68%,#633922);color:#fff7e6}
+.radio-mute{width:29px;height:29px;font-size:1rem}.radio-mute[aria-pressed="true"]{color:#9e3b2a}
+.radio-time{color:#493d30;font:700 .67rem/1.1 "Courier New",monospace;font-variant-numeric:tabular-nums;text-align:center;white-space:nowrap}
+.radio-transport input[type="range"]{appearance:none;-webkit-appearance:none;width:100%;height:15px;margin:0;border:0;border-radius:100px;background:linear-gradient(90deg,#8b582f 0 var(--range-fill,0%),#8f8170 var(--range-fill,0%) 100%) center/100% 5px no-repeat;cursor:pointer}
+.radio-transport input[type="range"]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:15px;height:15px;border:2px solid #825c31;border-radius:50%;background:#f8edd5;box-shadow:0 1px 3px #251b1599}
+.radio-transport input[type="range"]::-moz-range-thumb{width:12px;height:12px;border:2px solid #825c31;border-radius:50%;background:#f8edd5;box-shadow:0 1px 3px #251b1599}
+.radio-speed{grid-column:1/-1;display:flex;align-items:center;gap:.55rem;min-width:0;border-top:1px solid #d7b57857;padding-top:.45rem}
+.radio-speed>span{color:#e6c995;font-size:.63rem;font-weight:900;letter-spacing:.12em;white-space:nowrap}
+.radio-speed-presets{display:flex;gap:.25rem;overflow-x:auto;min-width:0;padding:.05rem .1rem .22rem;scrollbar-width:thin;scrollbar-color:#b58a55 transparent}
+.radio-speed-presets button{flex:none;min-width:38px;border:1px solid #a98658;border-radius:3px;padding:.25rem .38rem;background:linear-gradient(#f6e9d0,#d4b887);box-shadow:inset 0 1px #fff9e8;color:#4c321f;font:800 .64rem/1.1 Inter,Arial,sans-serif;white-space:nowrap}
+.radio-speed-presets button[aria-pressed="true"]{border-color:#f7df9f;background:linear-gradient(#244d52,#15363f);box-shadow:inset 0 1px #80a6a4,0 0 0 1px #edcf8e;color:#fff1cc}
+.radio-speed-presets button:hover{filter:brightness(1.1)}
+.speech-audio-dock audio{display:none}
+.address-chapters{top:calc(var(--reader-top-offset) + var(--reader-stack-height) + 12px);max-height:calc(100vh - var(--reader-top-offset) - var(--reader-stack-height) - 28px)}
+.address-paragraph[id]{scroll-margin-top:calc(var(--reader-top-offset) + var(--reader-stack-height) + 18px)}
+@media(max-width:780px){:root{--reader-top-offset:92px}.address-chapters{top:auto;bottom:4.7rem;max-height:min(55vh,440px)}}
+@media(max-width:600px){:root{--reader-top-offset:120px}.speech-audio-panel{padding:.85rem 1rem}.speech-audio-dock{grid-template-columns:1fr;gap:.4rem;padding:.43rem .55rem}.radio-identity{min-width:0}.radio-transport{grid-template-columns:33px 34px minmax(48px,1fr) 37px 29px 48px;gap:.23rem;padding:.25rem}.radio-play{width:31px;height:31px}.radio-transport input[type="range"]{min-width:0}.radio-speed{grid-column:1}.radio-speed-presets button{min-width:36px}.address-chapters{top:auto;bottom:4.7rem;max-height:min(50vh,360px)}}
+
+/* Documentary photographs open as framed museum pieces; source links stay separate. */
+button.archive-photo{width:100%;padding:0;cursor:zoom-in;color:inherit}
+button.archive-photo:hover{filter:brightness(1.06)}
+button.archive-photo:focus-visible{outline:3px solid #f4d38b;outline-offset:6px}
+dialog.archive-inspection{position:fixed;inset:0;width:min(96vw,1100px);max-width:none;max-height:calc(100dvh - 2rem);margin:auto;border:0;padding:0;overflow:auto;background:transparent;color:#f5e9d7;opacity:0;transform:translateY(18px) scale(.965);transition:opacity .48s ease,transform .6s cubic-bezier(.22,.8,.2,1)}
+dialog.archive-inspection[open].is-open{opacity:1;transform:none}
+dialog.archive-inspection::backdrop{background:#12080c00;backdrop-filter:blur(0);transition:background .5s ease,backdrop-filter .5s ease}
+dialog.archive-inspection.is-open::backdrop{background:#12080cc2;backdrop-filter:blur(5px)}
+.archive-inspection-inner{position:relative;border:1px solid #aa8054;border-radius:8px;padding:clamp(1rem,3vw,2rem);background:linear-gradient(#3009134d,#2907116b),url('/speech-curation-assets/burgundy-velvet.webp') center/900px repeat;box-shadow:0 28px 80px #100508b3,inset 0 0 0 5px #a7794863}
+.archive-inspection figure{display:grid;justify-items:center;gap:1.15rem;margin:0}
+.archive-inspection-photo{width:fit-content;max-width:100%;margin:auto;--frame-width:clamp(27px,3.6vw,50px)}
+.archive-inspection-photo img{display:block;width:min(74vw,780px);max-width:100%;height:auto;max-height:min(61dvh,680px);object-fit:contain}
+.archive-inspection figcaption{width:min(100%,850px);border:1px solid #ae80657d;padding:clamp(.85rem,2vw,1.3rem);background:linear-gradient(130deg,#290b12ec,#421923e8);box-shadow:0 12px 27px #15050a8a;color:#f2e3d7;line-height:1.7}
+.archive-inspection figcaption h3{margin:.35rem 0;font:700 clamp(1.15rem,2vw,1.55rem)/1.3 Georgia,'Noto Serif TC',serif;color:#fff2df}
+.archive-inspection figcaption p{margin:.4rem 0 .7rem}.archive-inspection figcaption .archive-date{color:#e8c083}.archive-inspection figcaption a{color:#f5d697;font-weight:800;text-underline-offset:.2em}
+.archive-inspection-close{position:sticky;top:.45rem;z-index:2;display:grid;place-items:center;width:40px;height:40px;margin:0 0 -40px auto;border:1px solid #e3bd79;border-radius:50%;background:#241216;color:#fff0ce;font-size:1.7rem;line-height:1;box-shadow:0 6px 17px #110608aa}
+@media(max-width:600px){dialog.archive-inspection{width:min(98vw,1100px);max-height:calc(100dvh - .5rem)}.archive-inspection-inner{padding:.8rem}.archive-inspection-photo{--frame-width:clamp(22px,6vw,34px)}.archive-inspection-photo img{max-height:52dvh}.archive-inspection figcaption{font-size:.85rem}}
+@media(prefers-reduced-motion:reduce){dialog.archive-inspection,dialog.archive-inspection::backdrop{transition:none;transform:none}}
