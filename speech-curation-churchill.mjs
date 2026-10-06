@@ -425,7 +425,22 @@ function buildStructuredNote(note, noteIndex, lineIndex) {
     bookmarkButton('idea', lineIndex, noteIndex));
   block.append(heading);
   const detail = node('div', 'note-description');
-  splitDescription(note.description_zh || '').forEach(part => detail.append(node('p', '', part)));
+  let firstUseMarked = false;
+  splitDescription(note.description_zh || '').forEach(part => {
+    const paragraph = node('p');
+    if (!firstUseMarked) {
+      const quotations = [...part.matchAll(/“([^”]+)”|‘([^’]+)’|"([^"]+)"/gu)];
+      const firstEnglish = quotations.find(match => /[A-Za-z]/u.test(match[1] || match[2] || match[3]));
+      if (firstEnglish) {
+        paragraph.append(document.createTextNode(part.slice(0, firstEnglish.index)));
+        paragraph.append(node('strong', 'note-excerpt', firstEnglish[0]));
+        paragraph.append(document.createTextNode(part.slice(firstEnglish.index + firstEnglish[0].length)));
+        firstUseMarked = true;
+      }
+    }
+    if (!paragraph.childNodes.length) paragraph.textContent = part;
+    detail.append(paragraph);
+  });
   block.append(detail);
   if (note.examples?.length) {
     const table = node('table', 'examples-table');
