@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="/speech-curation-churchill.css?v=20261006-magnifier1">
+  <link rel="stylesheet" href="/speech-curation-churchill.css?v=20261006-sync1">
   <link rel="stylesheet" href="/speech-curation-preferences.css?v=20261005-1">
   <script defer src="/pwa-register.js"></script>
 </head>
@@ -56,8 +56,8 @@
         <div class="reader-sticky-stack">
           <div class="speech-audio-dock" aria-label="AI 演說語音控制台">
             <div class="radio-identity"><span class="radio-on-air" aria-hidden="true"></span><span class="radio-station">EDMUND RADIO <small>1949 · AI 語音重現</small></span></div>
-            <div class="radio-transport"><button type="button" class="radio-play" data-audio-play aria-label="播放演說">▶</button><span class="radio-time" data-audio-current>0:00</span><input type="range" min="0" max="1000" value="0" step="1" data-audio-seek aria-label="演說播放進度"><span class="radio-time" data-audio-duration>--:--</span><button type="button" class="radio-mute" data-audio-mute aria-label="靜音">♪</button><input type="range" min="0" max="1" value="1" step="0.01" data-audio-volume aria-label="音量"></div>
-            <div class="radio-speed" role="group" aria-label="播放速度"><span>速度</span><div class="radio-speed-presets" data-audio-speeds></div></div>
+            <div class="radio-transport"><button type="button" class="radio-play" data-audio-play aria-label="播放演說"></button><span class="radio-time" data-audio-current>0:00</span><input type="range" min="0" max="1000" value="0" step="1" data-audio-seek aria-label="演說播放進度"><span class="radio-time" data-audio-duration>--:--</span><button type="button" class="radio-mute" data-audio-mute aria-label="靜音">♪</button><input type="range" min="0" max="1" value="1" step="0.01" data-audio-volume aria-label="音量"></div>
+            <div class="radio-speed" role="group" aria-label="播放與閱讀設定"><span>速度</span><div class="radio-speed-presets" data-audio-speeds></div><button type="button" class="radio-sync-toggle" data-audio-sync aria-pressed="true" aria-label="關閉語音同步標示">同步標示：開</button></div>
             <audio preload="metadata" src="/speech-curation-assets/churchill-council-of-europe-1949-ai-reconstruction-v2.mp3" data-speech-audio aria-label="The Council of Europe, 1949，AI 語音重現全篇"></audio>
           </div>
         <div class="address-floating-toolbar"><div class="address-controls"><div class="font-choice" role="group" aria-label="演說字體"><button type="button" data-font="courier" aria-pressed="false">Courier New</button><button type="button" data-font="courier-bold" aria-pressed="true">Courier Bold</button><button type="button" data-font="times" aria-pressed="false">Times New Roman</button></div><button class="address-rules-toggle" type="button" data-address-rules aria-pressed="true">閱讀輔助線：開</button><button class="address-translation-toggle" type="button" data-address-translation aria-pressed="false">顯示全文中譯</button><a class="curation-jump" href="#transcript"><span>逐句細讀</span><span aria-hidden="true">↓</span></a></div>
@@ -76,6 +76,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="/supabase-config.js"></script>
   <script src="/shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="/speech-curation-churchill.mjs?v=20261006-magnifier1"></script>
+  <script type="module" src="/speech-curation-churchill.mjs?v=20261006-sync1"></script>
 </body>
 </html>

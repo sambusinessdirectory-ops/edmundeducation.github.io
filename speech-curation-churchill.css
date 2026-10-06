@@ -393,3 +393,25 @@ dialog.archive-inspection{width:min(98vw,1380px);max-height:calc(100dvh - 1rem);
 @media(hover:none){.archive-magnifier-lens,.archive-magnifier-cursor{display:none}.archive-inspection-photo>img{cursor:default}}
 @media(max-width:600px){dialog.archive-inspection{width:min(99vw,1380px)}.archive-inspection-photo>img{max-width:none;max-height:none}}
 @media(prefers-reduced-motion:reduce){.archive-magnifier-lens,.archive-inspection figcaption{transition:none}}
+
+/* Transcript-constrained narration follows the spoken word and holds the sentence through pauses. */
+.radio-sync-toggle{flex:none;margin-left:auto;border:1px solid #d8ba7d;border-radius:4px;padding:.34rem .62rem;background:linear-gradient(#f7e9c7,#d6b77c);color:#42301e;font:800 .68rem/1.2 Inter,Arial,sans-serif;white-space:nowrap;box-shadow:inset 0 1px #fff7dd}
+.radio-sync-toggle[aria-pressed="true"]{border-color:#e8cf91;background:linear-gradient(#2c5960,#173b43);color:#fff1c9;box-shadow:inset 0 1px #8fb2ae,0 0 0 1px #e5c784}
+.radio-sync-toggle:disabled{opacity:.64;cursor:wait}
+.radio-sync-toggle:focus-visible,.sentence-sound:focus-visible{outline:3px solid #00a0b9;outline-offset:3px}
+.address-sentence.is-audio-active{background:#f5df9b99;border-bottom-color:#8f5d28}
+.address-audio-word{border-radius:.11em;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background-color .16s ease,box-shadow .16s ease}
+.address-sentence.is-audio-active .address-audio-word.is-heard{background:#e8bb66a8}
+.address-sentence.is-audio-active .address-audio-word.is-current{background:#ffce68;box-shadow:0 .08em 0 #ae692e}
+.line-card.is-audio-active{border-left-color:#bd7b33;box-shadow:0 0 0 2px #dfb46b,0 10px 24px #55391620}
+.curation-heading{justify-content:flex-start}
+.curation-heading .bookmark-button{margin-left:auto}
+.sentence-sound{display:inline-flex;align-items:center;justify-content:center;gap:.38rem;min-height:38px;border:1px solid #b58f53;border-radius:4px;padding:.36rem .65rem;background:linear-gradient(#fff6df,#ead3a5);color:#70451e;font:800 .78rem/1.1 Inter,'PingFang TC',sans-serif;box-shadow:inset 0 1px #fff,0 2px 0 #a07848;white-space:nowrap}
+.sentence-sound svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.sentence-sound:hover:not(:disabled){background:#ffe7ad}
+.sentence-sound.is-playing{border-color:#006f83;background:#dcecef;color:#00566b;box-shadow:inset 0 1px #fff,0 2px 0 #518e99}
+.sentence-sound:disabled{opacity:.55;cursor:wait}
+@media(max-width:600px){.radio-speed{flex-wrap:wrap}.radio-speed-presets{flex:1 1 210px}.radio-sync-toggle{margin-left:0}.curation-heading .curation-title{width:auto;flex:0 1 auto}.curation-heading .bookmark-button{margin-left:auto}}
+@media(prefers-reduced-motion:reduce){.address-audio-word{transition:none}}
+.radio-play::before{content:'';display:block;width:0;height:0;margin-left:3px;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid currentColor}
+.radio-play[aria-label="暫停演說"]::before{width:11px;height:15px;margin-left:0;border:0;border-left:4px solid currentColor;border-right:4px solid currentColor}

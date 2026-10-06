@@ -1,8 +1,12 @@
 import { initSpeechPreferences, setSpeechStudentNavigation } from '/speech-curation-preferences.mjs';
+import { validateSpeechTiming, lessonTextHash, cueIndexAtTime, wordIndexAtTime } from '/speech-curation-audio-timing.mjs';
 initSpeechPreferences();
 const $ = selector => document.querySelector(selector);
 const SESSION_KEY = 'edmund-speech-curation-session-v1';
 const LOGIN_URL = '/speech-curation.html?next=churchill';
+const AUDIO_TIMING_URL = '/speech-curation-assets/churchill-sentence-timing-v2.json?v=20261006-sync1';
+const SENTENCE_AUDIO_ROOT = '/speech-curation-assets/churchill-lines-v2/';
+const AUDIO_SYNC_PREF = 'edmund-churchill-audio-sync-v1';
 const CHAPTERS = [
   { first: 1, title: '開場與致意', short: '開場' },
   { first: 11, title: '歐洲與世界秩序', short: '歐洲團結' },
@@ -31,10 +35,19 @@ const el = {
   search: $('[data-search]'), count: $('[data-line-count]'), translationToggle: $('[data-translation-toggle]'),
   speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]'), albumToggle: $('[data-album-toggle]'), albumPages: $('[data-album-pages]'), albumAction: $('[data-album-action]'),
-  audio: $('[data-speech-audio]'), audioPlay: $('[data-audio-play]'), audioSeek: $('[data-audio-seek]'), audioCurrent: $('[data-audio-current]'), audioDuration: $('[data-audio-duration]'), audioMute: $('[data-audio-mute]'), audioVolume: $('[data-audio-volume]'), audioSpeeds: $('[data-audio-speeds]'),
+  audio: $('[data-speech-audio]'), audioPlay: $('[data-audio-play]'), audioSeek: $('[data-audio-seek]'), audioCurrent: $('[data-audio-current]'), audioDuration: $('[data-audio-duration]'), audioMute: $('[data-audio-mute]'), audioVolume: $('[data-audio-volume]'), audioSpeeds: $('[data-audio-speeds]'), audioSync: $('[data-audio-sync]'),
   photoDialog: $('[data-photo-dialog]'), photoFrame: $('.archive-inspection-photo'), photoEnlarged: $('[data-photo-enlarged]'), photoCaption: $('[data-photo-caption]'), photoClose: $('[data-photo-close]'), photoLens: $('[data-photo-lens]'), photoLensImage: $('[data-photo-lens-image]'), photoCursor: $('[data-photo-cursor]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
+let speechTiming = null, activeAudioLine = -1, activeAudioWord = -1, activeAudioWordLit = false, audioFrame = 0;
+let syncEnabled = true, followSuppressedUntil = 0, sentencePlaying = -1;
+try { syncEnabled = localStorage.getItem(AUDIO_SYNC_PREF) !== 'off'; } catch { /* Storage is optional. */ }
+const timingRequest = fetch(AUDIO_TIMING_URL).then(response => {
+  if (!response.ok) throw new Error(`Audio timing HTTP ${response.status}`);
+  return response.json();
+}).catch(error => { console.warn('Speech timing unavailable', error); return null; });
+const sentenceAudio = new Audio();
+sentenceAudio.preload = 'none';
 const cards = [];
 const marks = new Set();
 const markKey = (kind, index, idea = -1) => `${kind}:${index}:${idea}`;
@@ -395,11 +408,28 @@ function buildNote(note, noteIndex, lineIndex) {
   } else if (exampleText.trim()) block.append(node('p', 'examples-fallback', exampleText.trim()));
   return block;
 }
+function sentenceSoundButton(index) {
+  const button = node('button', 'sentence-sound');
+  button.type = 'button';
+  button.dataset.sentencePlay = String(index);
+  button.disabled = !speechTiming;
+  button.setAttribute('aria-label', `播放第 ${index + 1} 句語音`);
+  button.setAttribute('aria-pressed', 'false');
+  button.title = '獨立播放本句，不會改變全篇演說的播放位置';
+  const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  icon.setAttribute('viewBox', '0 0 24 24');
+  icon.setAttribute('width', '20');
+  icon.setAttribute('height', '20');
+  icon.setAttribute('aria-hidden', 'true');
+  icon.innerHTML = '<path d="M4 9v6h4l5 4V5L8 9H4Z"/><path d="M16 8a5 5 0 0 1 0 8M18.5 5a9 9 0 0 1 0 14"/>';
+  button.append(icon, node('span', '', '播放本句'));
+  return button;
+}
 function buildCuratedContent(index) {
   const line = lesson.lines[index];
   const content = node('div', 'curated-content');
   const heading = node('div', 'curation-heading');
-  heading.append(node('h4', 'curation-title', '語言與思想導讀'), bookmarkButton('line', index));
+  heading.append(node('h4', 'curation-title', '語言與思想導讀'), sentenceSoundButton(index), bookmarkButton('line', index));
   content.append(heading);
   const notes = node('div', 'annotation-grid');
   (line.notes || []).forEach((note, noteIndex) => notes.append(buildNote(note, noteIndex, index)));
@@ -422,6 +452,7 @@ function fillLineBody(index) {
   const inner = cards[index].querySelector('.line-body-inner');
   if (inner.childElementCount) return;
   inner.append(buildCuratedContent(index));
+  updateSentenceButtons();
 }
 function openLine(index, focus = false) {
   if (index < 0 || index >= lesson.lines.length) return;
@@ -485,6 +516,7 @@ function openAddressLine(index) {
   inner.append(buildCuratedContent(index));
   insight.append(inner);
   trigger.after(insight);
+  updateSentenceButtons();
   refreshMarks();
   // Commit the collapsed state before the next frame so the opening animates.
   void insight.offsetHeight;
@@ -596,6 +628,146 @@ el.albumToggle.addEventListener('click', () => {
   el.albumToggle.closest('.archive-gallery').classList.toggle('is-open', open);
   el.albumAction.textContent = open ? '收起歷史影像' : '向下揭開歷史影像';
 });
+function updateSyncButton() {
+  el.audioSync.disabled = !speechTiming;
+  el.audioSync.setAttribute('aria-pressed', String(Boolean(speechTiming && syncEnabled)));
+  el.audioSync.setAttribute('aria-label', speechTiming ? (syncEnabled ? '關閉語音同步標示' : '開啟語音同步標示') : '同步標示尚未載入');
+  el.audioSync.textContent = speechTiming ? `同步標示：${syncEnabled ? '開' : '關'}` : '同步標示載入中';
+}
+function clearAudioHighlight() {
+  if (activeAudioLine < 0) return;
+  const sentence = el.fullText.querySelector(`[data-address-line="${activeAudioLine}"]`);
+  sentence?.classList.remove('is-audio-active');
+  sentence?.removeAttribute('aria-current');
+  sentence?.querySelectorAll('[data-audio-word]').forEach(word => word.classList.remove('is-heard', 'is-current'));
+  cards[activeAudioLine]?.classList.remove('is-audio-active');
+  activeAudioLine = -1;
+  activeAudioWord = -1;
+  activeAudioWordLit = false;
+}
+function revealAudioLine(index, force = false) {
+  if (index < 0 || (!force && (performance.now() < followSuppressedUntil || el.audio.paused))) return;
+  const sentence = el.fullText.querySelector(`[data-address-line="${index}"]`);
+  if (!sentence) return;
+  const section = el.fullSection.getBoundingClientRect();
+  if (!force && (section.bottom < 0 || section.top > innerHeight)) return;
+  const bounds = sentence.getBoundingClientRect();
+  const readerHeight = $('.reader-sticky-stack').getBoundingClientRect().height;
+  if (force || bounds.top < readerHeight + 95 || bounds.bottom > innerHeight - 85) {
+    sentence.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'center' });
+  }
+}
+function syncAudioHighlight(forceReveal = false) {
+  if (!speechTiming || !syncEnabled || !lesson) { clearAudioHighlight(); return; }
+  const index = cueIndexAtTime(speechTiming.lines, el.audio.currentTime);
+  if (index !== activeAudioLine) {
+    clearAudioHighlight();
+    if (index < 0) return;
+    activeAudioLine = index;
+    const sentence = el.fullText.querySelector(`[data-address-line="${index}"]`);
+    sentence?.classList.add('is-audio-active');
+    sentence?.setAttribute('aria-current', 'true');
+    cards[index]?.classList.add('is-audio-active');
+    revealAudioLine(index, forceReveal);
+  } else if (forceReveal) revealAudioLine(index, true);
+  if (index < 0) return;
+  const wordIndex = wordIndexAtTime(speechTiming.lines[index].words, el.audio.currentTime);
+  const word = speechTiming.lines[index].words[wordIndex];
+  const wordLit = Boolean(word && el.audio.currentTime <= Math.min(word.end + 0.08, word.start + Math.max(0.8, Math.min(1.6, word.length * 0.12))));
+  if (wordIndex === activeAudioWord && wordLit === activeAudioWordLit) return;
+  activeAudioWord = wordIndex;
+  activeAudioWordLit = wordLit;
+  const sentence = el.fullText.querySelector(`[data-address-line="${index}"]`);
+  sentence?.querySelectorAll('[data-audio-word]').forEach((word, position) => {
+    word.classList.toggle('is-heard', position <= wordIndex);
+    word.classList.toggle('is-current', wordLit && position === wordIndex);
+  });
+}
+function audioAnimationFrame() {
+  audioFrame = 0;
+  syncAudioHighlight();
+  if (!el.audio.paused && !el.audio.ended) audioFrame = requestAnimationFrame(audioAnimationFrame);
+}
+function startAudioAnimation() {
+  if (!audioFrame) audioFrame = requestAnimationFrame(audioAnimationFrame);
+}
+function updateSentenceButtons() {
+  document.querySelectorAll('[data-sentence-play]').forEach(button => {
+    const playing = Number(button.dataset.sentencePlay) === sentencePlaying;
+    button.disabled = !speechTiming;
+    button.classList.toggle('is-playing', playing);
+    button.setAttribute('aria-pressed', String(playing));
+    button.setAttribute('aria-label', `${playing ? '停止' : '播放'}第 ${Number(button.dataset.sentencePlay) + 1} 句語音`);
+    button.querySelector('span').textContent = playing ? '停止播放' : '播放本句';
+  });
+}
+function stopSentenceAudio() {
+  sentenceAudio.pause();
+  sentencePlaying = -1;
+  updateSentenceButtons();
+}
+function playSentenceAudio(index) {
+  if (!speechTiming?.lines[index]) return;
+  if (sentencePlaying === index) { stopSentenceAudio(); return; }
+  stopSentenceAudio();
+  sentencePlaying = index;
+  updateSentenceButtons();
+  sentenceAudio.src = `${SENTENCE_AUDIO_ROOT}${String(index + 1).padStart(3, '0')}.mp3`;
+  const result = sentenceAudio.play();
+  result?.catch(error => {
+    if (sentencePlaying !== index) return;
+    console.warn('Sentence playback failed', error);
+    stopSentenceAudio();
+  });
+}
+async function installSpeechTiming(lines) {
+  const map = await timingRequest;
+  const file = el.audio.getAttribute('src').split('/').pop();
+  const duration = Number.isFinite(el.audio.duration) ? el.audio.duration : null;
+  let matchesLesson = false;
+  try { matchesLesson = map?.lesson_text_sha256 === await lessonTextHash(lines); }
+  catch (error) { console.warn('Speech text verification unavailable', error); }
+  if (!matchesLesson || !validateSpeechTiming(map, lines, file, duration)) {
+    el.audioSync.textContent = '同步標示未載入';
+    el.audioSync.disabled = true;
+    console.warn('Speech timing failed the lesson/audio validation');
+    return;
+  }
+  speechTiming = map;
+  lines.forEach((line, index) => {
+    const sentence = el.fullText.querySelector(`[data-address-line="${index}"]`);
+    const text = line.english.trim();
+    const fragment = document.createDocumentFragment();
+    let offset = 0;
+    map.lines[index].words.forEach((word, wordIndex) => {
+      const span = node('span', 'address-audio-word', text.slice(offset, offset + word.length));
+      span.dataset.audioWord = String(wordIndex);
+      fragment.append(span);
+      offset += word.length;
+    });
+    sentence.replaceChildren(fragment);
+  });
+  updateSyncButton();
+  updateSentenceButtons();
+  syncAudioHighlight();
+}
+updateSyncButton();
+el.audioSync.addEventListener('click', () => {
+  if (!speechTiming) return;
+  syncEnabled = !syncEnabled;
+  try { localStorage.setItem(AUDIO_SYNC_PREF, syncEnabled ? 'on' : 'off'); } catch { /* Storage is optional. */ }
+  updateSyncButton();
+  syncAudioHighlight();
+});
+['wheel', 'touchstart', 'pointerdown'].forEach(type => el.fullSection.addEventListener(type, () => { followSuppressedUntil = performance.now() + 7000; }, { passive: true }));
+document.addEventListener('click', event => {
+  const button = event.target.closest('[data-sentence-play]');
+  if (!button) return;
+  event.preventDefault(); event.stopPropagation();
+  playSentenceAudio(Number(button.dataset.sentencePlay));
+});
+sentenceAudio.addEventListener('ended', stopSentenceAudio);
+sentenceAudio.addEventListener('error', () => { console.warn('Sentence audio unavailable', sentenceAudio.error); stopSentenceAudio(); });
 const speedOptions = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3];
 const formatAudioTime = seconds => {
   if (!Number.isFinite(seconds)) return '--:--';
@@ -625,7 +797,6 @@ function updateAudioControls() {
   el.audioMute.setAttribute('aria-label', el.audio.muted ? '取消靜音' : '靜音');
   el.audioMute.textContent = el.audio.muted ? '♪̸' : '♪';
   const playing = !el.audio.paused && !el.audio.ended;
-  el.audioPlay.textContent = playing ? 'Ⅱ' : '▶';
   el.audioPlay.setAttribute('aria-label', playing ? '暫停演說' : '播放演說');
   el.audioPlay.closest('.speech-audio-dock').classList.toggle('is-playing', playing);
   el.audioSpeeds.querySelectorAll('[data-audio-speed]').forEach(button => {
@@ -633,6 +804,10 @@ function updateAudioControls() {
   });
 }
 ['loadedmetadata', 'durationchange', 'timeupdate', 'play', 'pause', 'ended', 'volumechange', 'ratechange'].forEach(type => el.audio.addEventListener(type, updateAudioControls));
+['loadedmetadata', 'timeupdate', 'seeking', 'seeked', 'pause', 'ended'].forEach(type => el.audio.addEventListener(type, () => syncAudioHighlight()));
+el.audio.addEventListener('play', startAudioAnimation);
+el.audio.addEventListener('pause', () => { if (audioFrame) cancelAnimationFrame(audioFrame); audioFrame = 0; });
+el.audio.addEventListener('ended', () => { if (audioFrame) cancelAnimationFrame(audioFrame); audioFrame = 0; });
 el.audio.addEventListener('error', () => { el.audioDuration.textContent = '無法載入'; el.audioPlay.disabled = true; });
 el.audioPlay.addEventListener('click', async () => {
   if (!el.audio.paused) { el.audio.pause(); return; }
@@ -642,7 +817,9 @@ el.audioPlay.addEventListener('click', async () => {
 el.audioSeek.addEventListener('input', () => {
   if (Number.isFinite(el.audio.duration)) el.audio.currentTime = el.audio.duration * Number(el.audioSeek.value) / 1000;
   updateAudioControls();
+  syncAudioHighlight();
 });
+el.audioSeek.addEventListener('change', () => syncAudioHighlight(true));
 el.audioVolume.addEventListener('input', () => {
   el.audio.volume = Number(el.audioVolume.value);
   if (el.audio.volume > 0) el.audio.muted = false;
@@ -798,6 +975,7 @@ async function start() {
     renderFullText(data.lines);
     renderChapters();
     renderLines(data.lines);
+    void installSpeechTiming(data.lines);
     setLoadProgress(78, '逐句導讀已備妥，正在讀取書籤…');
     const readerState = await rpc('speech_curation_reader_state', {
       p_slug: 'churchill-1949',
