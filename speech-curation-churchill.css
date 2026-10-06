@@ -307,3 +307,10 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 @keyframes lamp-aura{50%{opacity:.68;transform:translate(18%,-50%) scale(1.12)}}
 @media(max-width:600px){.archive-gallery-item{grid-template-columns:1fr}.archive-gallery-item:nth-child(odd) .archive-photo,.archive-gallery-item:nth-child(odd) .archive-video,.archive-gallery-item:nth-child(even) .archive-photo,.archive-gallery-item:nth-child(even) .archive-video{order:0}.archive-gallery-item figcaption{order:1}.museum-frame{--frame-width:clamp(25px,7vw,38px)}.read-section .line-card{margin:.85rem 0}}
 @media(prefers-reduced-motion:reduce){.load-track:after,.gallery-reveal-toggle,.gallery-toggle-chevron,.archive-gallery-reveal,.reading-progress.is-complete:after,.reading-progress.is-complete .progress-lamp{animation:none;transition:none}}
+
+.speech-audio-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,42%);align-items:center;gap:1.5rem;margin:0 0 1.25rem;border:1px solid #b9c9c6;border-left:5px solid #0083a0;border-radius:14px;padding:1.25rem 1.5rem;background:linear-gradient(115deg,#fdfaf2,#e8f0ed);box-shadow:0 10px 26px #203e3b16;scroll-margin-top:110px}
+.speech-audio-kicker{color:#00768f;font-size:.7rem;font-weight:900;letter-spacing:.17em}
+.speech-audio-copy h3{margin:.3rem 0 .45rem;color:#1d3940;font:700 clamp(1.3rem,2vw,1.75rem)/1.2 Georgia,"Noto Serif TC",serif}
+.speech-audio-copy p{max-width:55ch;margin:0;color:#52666a;font-size:.87rem;line-height:1.6}
+.speech-audio-panel audio{display:block;width:100%;min-width:0;accent-color:#0083a0}
+@media(max-width:700px){.speech-audio-panel{grid-template-columns:1fr;gap:1rem;padding:1rem}}
