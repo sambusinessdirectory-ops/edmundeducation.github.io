@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="/speech-curation-churchill.css?v=20261006-multispeech1">
+  <link rel="stylesheet" href="/speech-curation-churchill.css?v=20261006-archive1">
   <link rel="stylesheet" href="/speech-curation-preferences.css?v=20261005-1">
   <script defer src="/pwa-register.js"></script>
 </head>
@@ -28,7 +28,7 @@
       <p class="eyebrow">WINSTON CHURCHILL · 1944</p>
       <h1>Invasion of France, 1944</h1>
       <p class="hero-chinese">盟軍進攻法國：下議院兩次報告</p>
-      <div class="hero-actions"><a href="#full-speech">閱讀演說全文 <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-actions"><a href="#historical-images">觀看登陸日影像 <span aria-hidden="true">↓</span></a><a href="#recording-history">了解錄音史料 <span aria-hidden="true">↓</span></a><a href="#full-speech">閱讀演說全文 <span aria-hidden="true">↓</span></a></div>
     </section>
     <div class="load-state" data-loading-panel role="status" aria-live="polite"><p data-status>正在連接演講資料庫…</p><div class="load-track" role="progressbar" aria-label="載入演說" aria-valuemin="0" aria-valuemax="100" aria-valuenow="8" data-load-progress><span data-load-fill></span></div><small data-load-percent>8%</small></div>
     <div data-reader hidden>
@@ -38,7 +38,20 @@
         <div class="context-grid" data-context></div>
         <div class="context-reading" data-context-reading hidden></div>
       </section>
-      <section class="archive-gallery" hidden><button type="button" data-album-toggle aria-expanded="false"><span data-album-action></span></button><div data-album-pages></div></section>
+      <section class="archive-recording" id="recording-history" aria-labelledby="recording-history-heading">
+        <div class="section-heading"><p class="eyebrow">A NOTE ON THE HISTORICAL RECORD</p><h2 id="recording-history-heading">這場演說有原聲錄音嗎？</h2></div>
+        <div class="archive-recording-card archive-recording-note"><div class="archive-recording-copy"><span class="archive-date">6 JUNE 1944 · HOUSE OF COMMONS</span><h3>沒有當日的議會現場錄音</h3><p>丘吉爾在下議院發表本篇兩次戰況報告時，議會辯論尚未開始錄音。史料目錄列有其後由丘吉爾本人重錄的片段，但沒有核實到可公開播放、涵蓋本課全文的原聲檔，因此不把後期選段標成 1944 年現場錄音。</p></div><div class="archive-recording-player"><a href="https://winstonchurchill.hillsdale.edu/churchill-recordings-speeches-memoirs/" target="_blank" rel="noopener noreferrer">查閱丘吉爾錄音目錄 ↗</a><a href="https://api.parliament.uk/historic-hansard/commons/1944/jun/06/liberation-of-rome-landings-in-france" target="_blank" rel="noopener noreferrer">查閱 1944 年 6 月 6 日議會紀錄 ↗</a></div></div>
+      </section>
+      <section class="archive-gallery" id="historical-images" aria-labelledby="archive-gallery-heading">
+        <div class="section-heading"><p class="eyebrow">ARCHIVE · MAY–JUNE 1944</p><h2 id="archive-gallery-heading">登陸前後的歷史影像</h2><p>下議院發言沒有已核實的現場照片；以下為準備階段及 6 月 6 日登陸行動的原始照片。</p></div>
+        <button class="gallery-reveal-toggle" type="button" data-album-toggle aria-expanded="false" aria-controls="archive-gallery-pages"><span data-album-action>向下揭開歷史影像</span><span class="gallery-toggle-chevron" aria-hidden="true">⌄</span></button>
+        <div class="archive-gallery-reveal" id="archive-gallery-pages" data-album-pages aria-hidden="true" inert><div class="archive-gallery-pages-inner"><div class="archive-gallery-list">
+          <figure class="archive-gallery-item"><button class="archive-photo museum-frame" type="button" data-inspect-photo aria-label="放大檢視：丘吉爾與艾森豪在登陸前視察"><img src="/speech-curation-assets/archive-dday-churchill-preparations.jpg" alt="1944 年 5 月 15 日，丘吉爾與艾森豪等人視察盟軍準備工作" loading="lazy"></button><figcaption><span class="archive-date">15 MAY 1944 · BEFORE D-DAY</span><h3>登陸前的準備</h3><p>美國陸軍官方照片：丘吉爾與盟軍最高統帥艾森豪等人於 5 月 15 日視察準備工作。這比下議院報告早三週，並非演說現場。</p><a href="https://commons.wikimedia.org/wiki/File:Churchill_Oversees_Preparations_for_D-Day.jpg" target="_blank" rel="noopener noreferrer">影像來源：U.S. Army / Wikimedia Commons ↗</a></figcaption></figure>
+          <figure class="archive-gallery-item"><button class="archive-photo museum-frame" type="button" data-inspect-photo aria-label="放大檢視：突擊隊登陸劍灘"><img src="/speech-curation-assets/archive-dday-sword-commandos-b5103.jpg" alt="1944 年 6 月 6 日上午，英軍突擊隊在諾曼第劍灘登陸" loading="lazy"></button><figcaption><span class="archive-date">6 JUNE 1944 · SWORD BEACH</span><h3>突擊隊踏上法國海岸</h3><p>英軍第一特別勤務旅於上午約 8 時 40 分在劍灘 Queen Red 區登陸。這是丘吉爾在當天報告中所說的跨海進攻，不是議會畫面。</p><a href="https://commons.wikimedia.org/wiki/File:Landing_on_Queen_Red_Beach,_Sword_Area.jpg" target="_blank" rel="noopener noreferrer">影像來源：IWM B 5103 / Wikimedia Commons ↗</a></figcaption></figure>
+          <figure class="archive-gallery-item"><button class="archive-photo museum-frame" type="button" data-inspect-photo aria-label="放大檢視：劍灘上的英軍第三步兵師"><img src="/speech-curation-assets/archive-dday-sword-troops-b5114.jpg" alt="1944 年 6 月 6 日上午約 8 時 45 分，英軍第三步兵師在劍灘 Queen Red 區登陸" loading="lazy"></button><figcaption><span class="archive-date">6 JUNE 1944 · ABOUT 08:45</span><h3>劍灘上的英軍</h3><p>英軍第三步兵師在劍灘 Queen Red 區向內陸推進；帝國戰爭博物館將照片時間標為登陸日上午約 8 時 45 分。</p><a href="https://commons.wikimedia.org/wiki/File:D-day_-_British_Forces_during_the_Invasion_of_Normandy_6_June_1944_B5114.jpg" target="_blank" rel="noopener noreferrer">影像來源：IWM B 5114 / Wikimedia Commons ↗</a></figcaption></figure>
+          <figure class="archive-gallery-item"><button class="archive-photo museum-frame" type="button" data-inspect-photo aria-label="放大檢視：第六空降師士兵與滑翔機"><img src="/speech-curation-assets/archive-dday-glider-b5050.jpg" alt="1944 年 6 月 6 日，第六空降師士兵站在迫降的 Horsa 滑翔機旁" loading="lazy"></button><figcaption><span class="archive-date">6 JUNE 1944 · AIRBORNE LANDINGS</span><h3>空降部隊抵達諾曼第</h3><p>第六空降師士兵站在迫降後的 Horsa 滑翔機旁。照片呈現登陸日海空協同的一部分，與丘吉爾當日報告的作戰背景相連。</p><a href="https://commons.wikimedia.org/wiki/File:D-day_-_British_Forces_during_the_Invasion_of_Normandy_6_June_1944_B5050.jpg" target="_blank" rel="noopener noreferrer">影像來源：IWM B 5050 / Wikimedia Commons ↗</a></figcaption></figure>
+        </div></div></div>
+      </section>
       <section class="full-section" id="full-speech" aria-labelledby="full-heading">
         <div class="section-heading full-heading"><div><p class="eyebrow">THE COMPLETE ADDRESS</p><h2 id="full-heading">演說英文原文</h2></div></div>
         <div class="reader-sticky-stack">

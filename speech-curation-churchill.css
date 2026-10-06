@@ -292,6 +292,17 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .archive-gallery-item h3{color:#fff2df}
 .archive-gallery-item .archive-date{color:#e5ba79}
 .archive-gallery-item figcaption a{color:#f5d697}
+.archive-recording{scroll-margin-top:1.5rem}
+.archive-recording .section-heading{margin-bottom:1rem}
+.archive-recording-card{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(230px,1fr);align-items:center;gap:clamp(1rem,3vw,2.5rem);border:1px solid #b7c9c6;border-left:5px solid #00839c;border-radius:8px;padding:clamp(1rem,2.5vw,2rem);background:linear-gradient(115deg,#fffcf4,#e6efed);box-shadow:0 12px 28px #1c3f4119}
+.archive-recording-copy h3{margin:.4rem 0 .65rem;color:#183e45;font:700 clamp(1.3rem,2vw,1.8rem)/1.3 Georgia,'Noto Serif TC',serif}
+.archive-recording-copy p{margin:0;max-width:68ch;color:#355258;line-height:1.85}
+.archive-recording-player{display:grid;gap:.75rem;justify-items:start}
+.archive-recording-player audio{display:block;width:100%;min-width:0;accent-color:#00839c}
+.archive-recording-player a{display:inline-flex;align-items:center;min-height:40px;border:1px solid #00839c;border-radius:4px;padding:.5rem .8rem;background:#fffdf8;color:#006c84;font-size:.82rem;font-weight:850;text-decoration:none}
+.archive-recording-player a:hover,.archive-recording-player a:focus-visible{background:#e4f0ee}
+.archive-recording-note{border-left-color:#aa7848}
+@media(max-width:720px){.archive-recording-card{grid-template-columns:1fr}.archive-recording-player{justify-items:stretch}.archive-recording-player a{justify-content:center}}
 .museum-frame{--frame-width:clamp(28px,3.7vw,52px);display:block;position:relative;overflow:visible;border:var(--frame-width) solid transparent;border-image-source:url('/speech-curation-assets/ornate-walnut-frame.webp');border-image-slice:210 285 230 285;border-image-width:1;border-image-repeat:stretch;background:#100b0b;box-shadow:0 18px 34px #140508a8}
 .archive-photo img{display:block;width:100%;height:auto;max-height:380px;object-fit:contain}
 .archive-video{aspect-ratio:auto}
