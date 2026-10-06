@@ -673,7 +673,7 @@ function syncAudioHighlight(forceReveal = false) {
   if (index < 0) return;
   const wordIndex = wordIndexAtTime(speechTiming.lines[index].words, el.audio.currentTime);
   const word = speechTiming.lines[index].words[wordIndex];
-  const wordLit = Boolean(word && el.audio.currentTime <= Math.min(word.end + 0.08, word.start + Math.max(0.8, Math.min(1.6, word.length * 0.12))));
+  const wordLit = Boolean(word && word.end - word.start >= 0.04 && el.audio.currentTime <= Math.min(word.end + 0.08, word.start + Math.max(0.8, Math.min(1.6, word.length * 0.12))));
   if (wordIndex === activeAudioWord && wordLit === activeAudioWordLit) return;
   activeAudioWord = wordIndex;
   activeAudioWordLit = wordLit;
