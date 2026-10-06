@@ -3,11 +3,13 @@ import { validateSpeechTiming, lessonTextHash, cueIndexAtTime, wordIndexAtTime }
 initSpeechPreferences();
 const $ = selector => document.querySelector(selector);
 const SESSION_KEY = 'edmund-speech-curation-session-v1';
-const LOGIN_URL = '/speech-curation.html?next=churchill';
+const SLUG = document.body.dataset.speechSlug || 'churchill-1949';
+const IS_CHURCHILL_1949 = SLUG === 'churchill-1949';
+const LOGIN_URL = `/speech-curation.html?next=${encodeURIComponent(SLUG)}`;
 const AUDIO_TIMING_URL = '/speech-curation-assets/churchill-sentence-timing-v2.json?v=20261006-sync1';
 const SENTENCE_AUDIO_ROOT = '/speech-curation-assets/churchill-lines-v2/';
 const AUDIO_SYNC_PREF = 'edmund-churchill-audio-sync-v1';
-const CHAPTERS = [
+let CHAPTERS = [
   { first: 1, title: '開場與致意', short: '開場' },
   { first: 11, title: '歐洲與世界秩序', short: '歐洲團結' },
   { first: 36, title: '議會的自由與權力', short: '議會權力' },
@@ -16,7 +18,7 @@ const CHAPTERS = [
   { first: 129, title: '德國與歐洲和平', short: '德國' },
   { first: 207, title: '復興歐洲的精神', short: '結語' }
 ];
-const PARAGRAPH_STARTS = [0, 10, 22, 35, 50, 61, 74, 86, 106, 128, 141, 145, 153, 170, 177, 187, 206];
+let PARAGRAPH_STARTS = [0, 10, 22, 35, 50, 61, 74, 86, 106, 128, 141, 145, 153, 170, 177, 187, 206];
 const CONTEXT_IMAGES = ['history', 'importance', 'after', 'style', 'people'];
 // Phrases with yellow shading in the user's annotated PDF, grouped by pre-read chapter.
 const CONTEXT_HIGHLIGHTS = [
@@ -42,7 +44,8 @@ let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 let speechTiming = null, activeAudioLine = -1, activeAudioWord = -1, activeAudioWordLit = false, audioFrame = 0;
 let syncEnabled = true, followSuppressedUntil = 0, sentencePlaying = -1;
 try { syncEnabled = localStorage.getItem(AUDIO_SYNC_PREF) !== 'off'; } catch { /* Storage is optional. */ }
-const timingRequest = fetch(AUDIO_TIMING_URL).then(response => {
+const timingRequest = (IS_CHURCHILL_1949 ? fetch(AUDIO_TIMING_URL) : Promise.resolve(null)).then(response => {
+  if (!response) return null;
   if (!response.ok) throw new Error(`Audio timing HTTP ${response.status}`);
   return response.json();
 }).catch(error => { console.warn('Speech timing unavailable', error); return null; });
@@ -54,7 +57,7 @@ const markKey = (kind, index, idea = -1) => `${kind}:${index}:${idea}`;
 const markArgs = (index, kind, idea, active) => {
   const current = tokenSession();
   return {
-    p_slug: 'churchill-1949', p_line_index: index, p_kind: kind, p_idea_index: idea, p_active: active,
+    p_slug: SLUG, p_line_index: index, p_kind: kind, p_idea_index: idea, p_active: active,
     p_account_token: current.role === 'admin' ? null : current.token,
     p_admin_token: current.role === 'admin' ? current.token : null
   };
@@ -152,10 +155,13 @@ function renderContext(items) {
     button.type = 'button'; button.dataset.context = String(index);
     button.setAttribute('aria-expanded', 'false');
     button.setAttribute('aria-controls', 'context-reading');
-    const image = node('img', 'cover-image');
-    image.src = `/speech-curation-assets/context-${CONTEXT_IMAGES[index] || 'history'}.jpg`;
-    image.alt = ''; image.loading = 'lazy';
-    button.append(image, node('span', 'cover-number', `CHAPTER ${String(index + 1).padStart(2, '0')}`), node('span', 'cover-title', item.title), node('span', 'cover-action', '打開導讀 ↗'));
+    if (IS_CHURCHILL_1949) {
+      const image = node('img', 'cover-image');
+      image.src = `/speech-curation-assets/context-${CONTEXT_IMAGES[index] || 'history'}.jpg`;
+      image.alt = ''; image.loading = 'lazy';
+      button.append(image);
+    } else button.classList.add('context-cover-plain');
+    button.append(node('span', 'cover-number', `CHAPTER ${String(index + 1).padStart(2, '0')}`), node('span', 'cover-title', item.title), node('span', 'cover-action', '打開導讀 ↗'));
     el.context.append(button);
   });
   el.contextReading.id = 'context-reading';
@@ -165,7 +171,7 @@ function splitIdeas(text) {
 }
 function highlightedClause(text, chapterIndex) {
   const span = node('span', 'idea-clause');
-  const phrases = CONTEXT_HIGHLIGHTS[chapterIndex] || [];
+  const phrases = IS_CHURCHILL_1949 ? CONTEXT_HIGHLIGHTS[chapterIndex] || [] : lesson?.introduction?.[chapterIndex]?.highlights || [];
   const matches = phrases.filter(phrase => text.includes(phrase)).sort((a, b) => b.length - a.length);
   if (!matches.length) { span.textContent = text; return span; }
   const pattern = new RegExp(matches.map(phrase => phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'g');
@@ -358,6 +364,7 @@ function parseExamples(text) {
   return rows;
 }
 function buildNote(note, noteIndex, lineIndex) {
+  if (note && typeof note === 'object') return buildStructuredNote(note, noteIndex, lineIndex);
   const clean = String(note).replace(/^\d+\.\s*/, '').trim();
   const examplesAt = clean.search(/Examples?\s*:/i);
   const prose = examplesAt < 0 ? clean : clean.slice(0, examplesAt).trim();
@@ -408,6 +415,33 @@ function buildNote(note, noteIndex, lineIndex) {
   } else if (exampleText.trim()) block.append(node('p', 'examples-fallback', exampleText.trim()));
   return block;
 }
+function buildStructuredNote(note, noteIndex, lineIndex) {
+  const block = node('section', 'note');
+  const heading = node('div', 'note-heading');
+  const title = node('h5');
+  title.append(node('span', 'note-title-en', note.title_en || 'Language note'),
+    node('span', 'note-title-zh', `（${note.title_zh || '語言觀察'}）`));
+  heading.append(node('span', 'note-number', String(noteIndex + 1).padStart(2, '0')), title,
+    bookmarkButton('idea', lineIndex, noteIndex));
+  block.append(heading);
+  const detail = node('div', 'note-description');
+  splitDescription(note.description_zh || '').forEach(part => detail.append(node('p', '', part)));
+  block.append(detail);
+  if (note.examples?.length) {
+    const table = node('table', 'examples-table');
+    const head = node('thead'); const headings = node('tr');
+    headings.append(node('th', '', 'English example'), node('th', '', '中文翻譯'));
+    head.append(headings); table.append(head);
+    const body = node('tbody');
+    note.examples.forEach(example => {
+      const row = node('tr');
+      row.append(node('td', '', example.english), node('td', '', example.chinese));
+      body.append(row);
+    });
+    table.append(body); block.append(table);
+  }
+  return block;
+}
 function sentenceSoundButton(index) {
   const button = node('button', 'sentence-sound');
   button.type = 'button';
@@ -429,11 +463,16 @@ function buildCuratedContent(index) {
   const line = lesson.lines[index];
   const content = node('div', 'curated-content');
   const heading = node('div', 'curation-heading');
-  heading.append(node('h4', 'curation-title', '語言與思想導讀'), sentenceSoundButton(index), bookmarkButton('line', index));
+  heading.append(node('h4', 'curation-title', '語言與思想導讀'));
+  if (IS_CHURCHILL_1949) heading.append(sentenceSoundButton(index));
+  heading.append(bookmarkButton('line', index));
   content.append(heading);
   const notes = node('div', 'annotation-grid');
   (line.notes || []).forEach((note, noteIndex) => notes.append(buildNote(note, noteIndex, index)));
   content.append(notes);
+  if (line.editorial_completion && !line.notes?.length) {
+    content.append(node('p', 'editorial-source-note', '此句補自英國下議院官方紀錄；所附講義未另設逐句導讀。'));
+  }
   const rows = vocabularyRows(line.collocations);
   if (rows.length) {
     const section = node('section', 'vocabulary');
@@ -475,7 +514,7 @@ function openLine(index, focus = false) {
   cards[index].querySelector('.line-open').setAttribute('aria-expanded', 'true');
   if (focus) cards[index].querySelector('.line-open').focus({ preventScroll: true });
   cards[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
-  try { sessionStorage.setItem('edmund-speech-churchill-line', String(index)); } catch { /* Optional. */ }
+  try { sessionStorage.setItem(`edmund-speech-${SLUG}-line`, String(index)); } catch { /* Optional. */ }
 }
 function filterLines() {
   const query = el.search.value.trim().toLocaleLowerCase();
@@ -530,8 +569,8 @@ function searchSpeech() {
   el.speechSearchResults.hidden = !query;
   if (!query || !lesson) return;
   const matches = lesson.lines.map((line, index) => ({ line, index }))
-    .filter(({ line }) => `${line.english} ${line.chinese} ${(line.notes || []).join(' ')}`.toLocaleLowerCase().includes(query));
-  const heading = node('p', 'speech-search-count', matches.length ? `《The Council of Europe》找到 ${matches.length} 句相關內容` : '這篇演說沒有相符內容');
+    .filter(({ line }) => `${line.english} ${line.chinese} ${(line.notes || []).map(note => typeof note === 'string' ? note : `${note.title_en} ${note.title_zh} ${note.description_zh}`).join(' ')}`.toLocaleLowerCase().includes(query));
+  const heading = node('p', 'speech-search-count', matches.length ? `《${lesson.title}》找到 ${matches.length} 句相關內容` : '這篇演說沒有相符內容');
   el.speechSearchResults.append(heading);
   matches.slice(0, 12).forEach(({ line, index }) => {
     const button = node('button', 'speech-search-hit');
@@ -721,6 +760,7 @@ function playSentenceAudio(index) {
   });
 }
 async function installSpeechTiming(lines) {
+  if (!IS_CHURCHILL_1949) return;
   const map = await timingRequest;
   const file = el.audio.getAttribute('src').split('/').pop();
   const duration = Number.isFinite(el.audio.duration) ? el.audio.duration : null;
@@ -886,7 +926,7 @@ function closePhotoInspection() {
     photoOpener = null;
   }, reducedMotion.matches ? 0 : 510);
 }
-document.querySelector('.archive-gallery-list').addEventListener('click', event => {
+document.querySelector('.archive-gallery-list')?.addEventListener('click', event => {
   const button = event.target.closest('[data-inspect-photo]');
   if (!button) return;
   const figure = button.closest('.archive-gallery-item');
@@ -960,13 +1000,25 @@ async function start() {
   setLoadProgress(10, '正在連接演講資料庫…');
   try {
     const data = await rpc('speech_curation_lesson', {
-      p_slug: 'churchill-1949',
+      p_slug: SLUG,
       p_account_token: current.role === 'admin' ? null : current.token,
       p_admin_token: current.role === 'admin' ? current.token : null
     });
     if (!data?.lines?.length || !data?.introduction?.length) throw new Error('Lesson unavailable');
     setLoadProgress(48, '演說資料已載入，正在排版…');
     lesson = data;
+    if (Array.isArray(data.chapters) && data.chapters.length) CHAPTERS = data.chapters;
+    if (Array.isArray(data.paragraph_starts) && data.paragraph_starts.length) PARAGRAPH_STARTS = data.paragraph_starts;
+    document.title = `${data.title} | 名人／偉人演講精選`;
+    const hero = $('.reader-hero');
+    hero.querySelector('.eyebrow').textContent = `${data.speaker.toUpperCase()} · ${data.year || ''}`;
+    hero.querySelector('h1').textContent = data.title;
+    hero.querySelector('.hero-chinese').textContent = data.title_zh || '';
+    $('.reader-breadcrumb [aria-current="page"]').textContent = data.title;
+    if (!IS_CHURCHILL_1949) {
+      const audioLink = hero.querySelector('a[href="#speech-audio-player"]');
+      audioLink?.remove();
+    }
     renderContext(data.introduction);
     renderFullText(data.lines);
     renderChapters();
@@ -974,7 +1026,7 @@ async function start() {
     void installSpeechTiming(data.lines);
     setLoadProgress(78, '逐句導讀已備妥，正在讀取書籤…');
     const readerState = await rpc('speech_curation_reader_state', {
-      p_slug: 'churchill-1949',
+      p_slug: SLUG,
       p_account_token: current.role === 'admin' ? null : current.token,
       p_admin_token: current.role === 'admin' ? current.token : null
     });
@@ -1011,7 +1063,7 @@ async function start() {
       });
     }
     let remembered = -1;
-    try { remembered = Number(sessionStorage.getItem('edmund-speech-churchill-line')); } catch { /* Optional. */ }
+    try { remembered = Number(sessionStorage.getItem(`edmund-speech-${SLUG}-line`)); } catch { /* Optional. */ }
     if (Number.isInteger(remembered) && remembered > 0 && remembered < data.lines.length) {
       const resume = node('button', 'resume-button', `繼續閱讀第 ${remembered + 1} 句 →`);
       resume.type = 'button';

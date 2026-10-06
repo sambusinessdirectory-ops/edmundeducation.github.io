@@ -3,6 +3,11 @@ initSpeechPreferences();
 const $ = selector => document.querySelector(selector);
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = 'edmund-speech-curation-session-v1';
+const LESSON_ROUTES = [
+  { slug: 'churchill-1949', path: '/speech-curation-churchill.html' },
+  { slug: 'churchill-victory-europe-1945', path: '/speech-curation-victory-europe.html' },
+  { slug: 'churchill-invasion-france-1944', path: '/speech-curation-invasion-france.html' }
+];
 const el = {
   entry: $('[data-entry-stage]'), login: $('[data-login-panel]'), library: $('[data-library]'), loginForm: $('[data-login-form]'),
   loginButton: $('[data-login-button]'), loginStatus: $('[data-login-status]'),
@@ -18,7 +23,8 @@ const el = {
   accountSave: $('[data-save-account]'), accountCancel: $('[data-cancel-account]'),
   passwordHint: $('[data-password-hint]')
 };
-let client, role = 'account', session = null, speeches = [], accounts = [], savedMarks = [], savedLesson = null;
+let client, role = 'account', session = null, speeches = [], accounts = [], savedMarks = [];
+const savedLessons = new Map();
 let searchMatches = [], searchRevision = 0, searchTimer = 0;
 
 function status(node, message) { node.textContent = message || ''; }
@@ -71,9 +77,11 @@ async function validAdmin(token) {
 }
 
 function showSignedIn() {
-  if (new URLSearchParams(location.search).get('next') === 'churchill') {
+  const next = new URLSearchParams(location.search).get('next');
+  const destination = LESSON_ROUTES.find(route => route.slug === next || (next === 'churchill' && route.slug === 'churchill-1949'));
+  if (destination) {
     saveSession();
-    location.replace('/speech-curation-churchill.html');
+    location.replace(destination.path);
     return;
   }
   el.entry.hidden = true;
@@ -106,7 +114,7 @@ function showLogin() {
   el.list.replaceChildren();
   el.accountList.replaceChildren();
   speeches = []; accounts = [];
-  savedMarks = []; savedLesson = null;
+  savedMarks = []; savedLessons.clear();
   searchMatches = []; el.textResults.replaceChildren(); el.textResults.hidden = true;
   el.savedList.replaceChildren();
   setSpeechStudentNavigation(true);
@@ -191,6 +199,7 @@ function readerTokens() {
   };
 }
 function ideaTitle(raw) {
+  if (raw && typeof raw === 'object') return `${raw.title_en || 'Language note'}（${raw.title_zh || '語言觀察'}）`;
   const clean = String(raw || '').replace(/^\d+\.\s*/, '');
   const colon = clean.search(/[:：]/);
   return colon > 0 && colon < 105 ? clean.slice(0, colon).trim() : '語言觀察';
@@ -204,21 +213,23 @@ function renderSavedLibrary() {
     return;
   }
   bookmarks.forEach(mark => {
-    const line = savedLesson?.lines?.[mark.line_index];
+    const lesson = savedLessons.get(mark.slug);
+    const line = lesson?.lines?.[mark.line_index];
     if (!line) return;
     const item = text('article', 'saved-item', '');
     const header = text('div', 'saved-item-head', '');
     const kind = mark.kind === 'idea' ? `導讀 ${String(mark.idea_index + 1).padStart(2, '0')}` : '演說句子';
-    header.append(text('span', 'saved-kicker', `${String(mark.line_index + 1).padStart(3, '0')} · ${kind}`));
+    header.append(text('span', 'saved-kicker', `${lesson.title} · ${String(mark.line_index + 1).padStart(3, '0')} · ${kind}`));
     const remove = text('button', 'saved-remove', '移除');
-    remove.type = 'button'; remove.dataset.removeMark = `${mark.line_index}:${mark.kind}:${mark.idea_index}`;
+    remove.type = 'button'; remove.dataset.removeMark = `${mark.slug}:${mark.line_index}:${mark.kind}:${mark.idea_index}`;
     remove.setAttribute('aria-label', `移除第 ${mark.line_index + 1} 句${mark.kind === 'idea' ? '導讀' : ''}書籤`);
     header.append(remove);
     item.append(header);
     if (mark.kind === 'idea') item.append(text('h4', 'saved-idea-title', ideaTitle(line.notes?.[mark.idea_index])));
     item.append(text('p', 'saved-english', line.english), text('p', 'saved-chinese', line.chinese));
     const link = text('a', 'saved-link', '返回這段導讀 →');
-    link.href = `/speech-curation-churchill.html?line=${mark.line_index + 1}${mark.kind === 'idea' ? `&idea=${mark.idea_index + 1}` : ''}#transcript`;
+    const route = LESSON_ROUTES.find(route => route.slug === mark.slug);
+    link.href = `${route.path}?line=${mark.line_index + 1}${mark.kind === 'idea' ? `&idea=${mark.idea_index + 1}` : ''}#transcript`;
     item.append(link);
     el.savedList.append(item);
   });
@@ -226,12 +237,16 @@ function renderSavedLibrary() {
 async function loadSavedLibrary() {
   status(el.savedStatus, '正在整理書籤…');
   try {
-    const state = await rpc('speech_curation_reader_state', { p_slug: 'churchill-1949', ...readerTokens() });
-    setSpeechStudentNavigation(Boolean(state?.is_student));
-    savedMarks = Array.isArray(state?.marks) ? state.marks : [];
-    if (savedMarks.some(mark => mark.kind === 'line' || mark.kind === 'idea')) {
-      savedLesson = await rpc('speech_curation_lesson', { p_slug: 'churchill-1949', ...readerTokens() });
-    }
+    const results = await Promise.all(LESSON_ROUTES.map(async route => {
+      const state = await rpc('speech_curation_reader_state', { p_slug: route.slug, ...readerTokens() });
+      const marks = Array.isArray(state?.marks) ? state.marks.map(mark => ({ ...mark, slug: route.slug })) : [];
+      if (marks.some(mark => mark.kind === 'line' || mark.kind === 'idea')) {
+        savedLessons.set(route.slug, await rpc('speech_curation_lesson', { p_slug: route.slug, ...readerTokens() }));
+      }
+      return { state, marks };
+    }));
+    setSpeechStudentNavigation(results.some(result => result.state?.is_student));
+    savedMarks = results.flatMap(result => result.marks);
     status(el.savedStatus, ''); renderSavedLibrary();
   } catch (error) {
     console.warn('Speech bookmarks unavailable', error);
@@ -241,14 +256,14 @@ async function loadSavedLibrary() {
 el.savedList.addEventListener('click', async event => {
   const button = event.target.closest('[data-remove-mark]');
   if (!button || !session) return;
-  const [line, kind, idea] = button.dataset.removeMark.split(':');
+  const [slug, line, kind, idea] = button.dataset.removeMark.split(':');
   button.disabled = true;
   try {
     await rpc('speech_curation_reader_mark', {
-      p_slug: 'churchill-1949', p_line_index: Number(line), p_kind: kind,
+      p_slug: slug, p_line_index: Number(line), p_kind: kind,
       p_idea_index: Number(idea), p_active: false, ...readerTokens()
     });
-    savedMarks = savedMarks.filter(mark => !(mark.line_index === Number(line) && mark.kind === kind && mark.idea_index === Number(idea)));
+    savedMarks = savedMarks.filter(mark => !(mark.slug === slug && mark.line_index === Number(line) && mark.kind === kind && mark.idea_index === Number(idea)));
     renderSavedLibrary();
   } catch (error) {
     console.warn('Speech bookmark removal failed', error);
@@ -258,7 +273,7 @@ el.savedList.addEventListener('click', async event => {
 });
 function renderSpeeches() {
   const query = el.search.value.trim().toLocaleLowerCase();
-  const visible = speeches.filter(row => `${row.title} ${row.speaker} ${row.description}`.toLocaleLowerCase().includes(query) || (searchMatches.length && row.url?.includes('speech-curation-churchill.html')));
+  const visible = speeches.filter(row => `${row.title} ${row.speaker} ${row.description}`.toLocaleLowerCase().includes(query) || searchMatches.some(match => row.url?.includes(match.route.path)));
   el.list.replaceChildren();
   if (!visible.length) {
     const empty = text('div', 'empty-state', '');
@@ -321,16 +336,19 @@ async function searchSpeechText() {
   if (!query) return;
   el.textResults.append(text('p', '', '正在搜尋演說原文…'));
   try {
-    savedLesson ||= await rpc('speech_curation_lesson', { p_slug: 'churchill-1949', ...readerTokens() });
+    const lessons = await Promise.all(LESSON_ROUTES.map(async route => {
+      if (!savedLessons.has(route.slug)) savedLessons.set(route.slug, await rpc('speech_curation_lesson', { p_slug: route.slug, ...readerTokens() }));
+      return { route, lesson: savedLessons.get(route.slug) };
+    }));
     if (revision !== searchRevision) return;
-    searchMatches = (savedLesson?.lines || []).map((line, index) => ({ line, index }))
-      .filter(({ line }) => `${line.english} ${line.chinese} ${(line.notes || []).join(' ')}`.toLocaleLowerCase().includes(query));
+    searchMatches = lessons.flatMap(({ route, lesson }) => (lesson?.lines || []).map((line, index) => ({ route, lesson, line, index })))
+      .filter(({ line }) => `${line.english} ${line.chinese} ${(line.notes || []).map(note => typeof note === 'string' ? note : `${note.title_en} ${note.title_zh} ${note.description_zh}`).join(' ')}`.toLocaleLowerCase().includes(query));
     el.textResults.replaceChildren();
-    el.textResults.append(text('p', 'library-text-count', searchMatches.length ? `《The Council of Europe》：${searchMatches.length} 句符合` : '演說原文沒有相符詞句'));
-    searchMatches.slice(0, 10).forEach(({ line, index }) => {
+    el.textResults.append(text('p', 'library-text-count', searchMatches.length ? `${searchMatches.length} 句符合` : '演說原文沒有相符詞句'));
+    searchMatches.slice(0, 10).forEach(({ route, lesson, line, index }) => {
       const link = text('a', 'library-text-hit', '');
-      link.href = `/speech-curation-churchill.html?line=${index + 1}#transcript`;
-      link.append(text('strong', '', `第 ${index + 1} 句`), text('span', '', line.english));
+      link.href = `${route.path}?line=${index + 1}#transcript`;
+      link.append(text('strong', '', `${lesson.title} · 第 ${index + 1} 句`), text('span', '', line.english));
       el.textResults.append(link);
     });
     if (searchMatches.length > 10) el.textResults.append(text('p', 'library-text-count', `另有 ${searchMatches.length - 10} 句；請縮小搜尋詞。`));
