@@ -32,7 +32,7 @@ const el = {
   speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]'), albumToggle: $('[data-album-toggle]'), albumPages: $('[data-album-pages]'), albumAction: $('[data-album-action]'),
   audio: $('[data-speech-audio]'), audioPlay: $('[data-audio-play]'), audioSeek: $('[data-audio-seek]'), audioCurrent: $('[data-audio-current]'), audioDuration: $('[data-audio-duration]'), audioMute: $('[data-audio-mute]'), audioVolume: $('[data-audio-volume]'), audioSpeeds: $('[data-audio-speeds]'),
-  photoDialog: $('[data-photo-dialog]'), photoFrame: $('.archive-inspection-photo'), photoEnlarged: $('[data-photo-enlarged]'), photoCaption: $('[data-photo-caption]'), photoClose: $('[data-photo-close]'), photoLens: $('[data-photo-lens]'), photoLensImage: $('[data-photo-lens-image]')
+  photoDialog: $('[data-photo-dialog]'), photoFrame: $('.archive-inspection-photo'), photoEnlarged: $('[data-photo-enlarged]'), photoCaption: $('[data-photo-caption]'), photoClose: $('[data-photo-close]'), photoLens: $('[data-photo-lens]'), photoLensImage: $('[data-photo-lens-image]'), photoCursor: $('[data-photo-cursor]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 const cards = [];
@@ -701,6 +701,7 @@ function closePhotoInspection() {
   photoFlight = null;
   el.photoDialog.classList.remove('is-transitioning');
   el.photoLens.classList.remove('is-visible');
+  el.photoCursor.classList.remove('is-visible');
   el.photoDialog.classList.remove('is-open');
   clearTimeout(photoCloseTimer);
   photoCloseTimer = setTimeout(() => {
@@ -732,26 +733,29 @@ document.querySelector('.archive-gallery-list').addEventListener('click', event 
 function moveMagnifier(event) {
   if (event.pointerType === 'touch' || !el.photoDialog.open || el.photoDialog.classList.contains('is-transitioning')) return;
   const image = el.photoEnlarged.getBoundingClientRect();
-  const frame = el.photoFrame.getBoundingClientRect();
   const lensSize = el.photoLens.offsetWidth;
   const zoom = 2.6;
   const x = Math.max(0, Math.min(image.width, event.clientX - image.left));
   const y = Math.max(0, Math.min(image.height, event.clientY - image.top));
-  const border = parseFloat(getComputedStyle(el.photoFrame).borderLeftWidth) || 0;
-  el.photoLens.style.left = `${event.clientX - frame.left - border - lensSize / 2}px`;
-  el.photoLens.style.top = `${event.clientY - frame.top - border - lensSize / 2}px`;
   Object.assign(el.photoLensImage.style, {
     width: `${image.width * zoom}px`, height: `${image.height * zoom}px`,
     left: `${lensSize / 2 - x * zoom}px`, top: `${lensSize / 2 - y * zoom}px`
   });
+  el.photoCursor.style.left = `${event.clientX + 4}px`;
+  el.photoCursor.style.top = `${event.clientY + 4}px`;
   el.photoLens.classList.add('is-visible');
+  el.photoCursor.classList.add('is-visible');
 }
 el.photoEnlarged.addEventListener('pointermove', moveMagnifier);
-el.photoEnlarged.addEventListener('pointerleave', () => el.photoLens.classList.remove('is-visible'));
+el.photoEnlarged.addEventListener('pointerleave', () => {
+  el.photoLens.classList.remove('is-visible');
+  el.photoCursor.classList.remove('is-visible');
+});
 window.addEventListener('resize', () => {
   if (el.photoDialog.open && photoOpener) {
     sizeInspectedPhoto(photoOpener.querySelector('img'));
     el.photoLens.classList.remove('is-visible');
+    el.photoCursor.classList.remove('is-visible');
   }
 });
 el.photoClose.addEventListener('click', closePhotoInspection);
