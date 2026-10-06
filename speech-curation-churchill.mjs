@@ -32,7 +32,7 @@ const el = {
   speechSearch: $('[data-speech-search]'), speechSearchResults: $('[data-speech-search-results]'), speechSearchClear: $('[data-speech-search-clear]'),
   accountName: $('[data-account-name]'), logout: $('[data-logout]'), albumToggle: $('[data-album-toggle]'), albumPages: $('[data-album-pages]'), albumAction: $('[data-album-action]'),
   audio: $('[data-speech-audio]'), audioPlay: $('[data-audio-play]'), audioSeek: $('[data-audio-seek]'), audioCurrent: $('[data-audio-current]'), audioDuration: $('[data-audio-duration]'), audioMute: $('[data-audio-mute]'), audioVolume: $('[data-audio-volume]'), audioSpeeds: $('[data-audio-speeds]'),
-  photoDialog: $('[data-photo-dialog]'), photoEnlarged: $('[data-photo-enlarged]'), photoCaption: $('[data-photo-caption]'), photoClose: $('[data-photo-close]')
+  photoDialog: $('[data-photo-dialog]'), photoFrame: $('.archive-inspection-photo'), photoEnlarged: $('[data-photo-enlarged]'), photoCaption: $('[data-photo-caption]'), photoClose: $('[data-photo-close]'), photoLens: $('[data-photo-lens]'), photoLensImage: $('[data-photo-lens-image]')
 };
 let client, lesson, selected = -1, contextSelected = -1, selectedAddress = -1;
 const cards = [];
@@ -301,7 +301,7 @@ function makeCard(line, index) {
   body.append(node('div', 'line-body-inner'));
   const actions = node('div', 'line-bookmark-actions');
   actions.append(bookmarkButton('line', index));
-  card.append(open, actions, translation, body);
+  card.append(open, translation, actions, body);
   return card;
 }
 function renderLines(lines) {
@@ -659,9 +659,48 @@ updateAudioControls();
 
 let photoOpener = null;
 let photoCloseTimer = 0;
+let photoFlight = null;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+function sizeInspectedPhoto(source) {
+  const ratio = source.naturalWidth && source.naturalHeight ? source.naturalWidth / source.naturalHeight : 1.5;
+  const maximumWidth = Math.min(window.innerWidth - (window.innerWidth <= 600 ? 76 : 144), 1160);
+  const maximumHeight = Math.min(window.innerHeight * .72, 760);
+  const width = Math.max(140, Math.min(maximumWidth, maximumHeight * ratio));
+  el.photoEnlarged.style.width = `${Math.round(width)}px`;
+  el.photoEnlarged.style.height = `${Math.round(width / ratio)}px`;
+}
+function movePhotoIntoView(source, origin) {
+  if (reducedMotion.matches) {
+    el.photoDialog.classList.add('is-open');
+    return;
+  }
+  const destination = el.photoFrame.getBoundingClientRect();
+  const flight = source.cloneNode(true);
+  flight.classList.add('archive-photo-flight');
+  flight.removeAttribute('data-inspect-photo');
+  flight.removeAttribute('aria-label');
+  flight.setAttribute('aria-hidden', 'true');
+  flight.tabIndex = -1;
+  Object.assign(flight.style, { left: `${origin.left}px`, top: `${origin.top}px`, width: `${origin.width}px`, height: `${origin.height}px` });
+  el.photoDialog.append(flight);
+  photoFlight = flight;
+  el.photoDialog.classList.add('is-open');
+  const animation = flight.animate([
+    { left: `${origin.left}px`, top: `${origin.top}px`, width: `${origin.width}px`, height: `${origin.height}px` },
+    { left: `${destination.left}px`, top: `${destination.top}px`, width: `${destination.width}px`, height: `${destination.height}px` }
+  ], { duration: 760, easing: 'cubic-bezier(.22,.8,.2,1)', fill: 'forwards' });
+  animation.finished.catch(() => {}).finally(() => {
+    if (photoFlight === flight) photoFlight = null;
+    flight.remove();
+    el.photoDialog.classList.remove('is-transitioning');
+  });
+}
 function closePhotoInspection() {
   if (!el.photoDialog.open) return;
+  photoFlight?.remove();
+  photoFlight = null;
+  el.photoDialog.classList.remove('is-transitioning');
+  el.photoLens.classList.remove('is-visible');
   el.photoDialog.classList.remove('is-open');
   clearTimeout(photoCloseTimer);
   photoCloseTimer = setTimeout(() => {
@@ -675,15 +714,45 @@ document.querySelector('.archive-gallery-list').addEventListener('click', event 
   if (!button) return;
   const figure = button.closest('.archive-gallery-item');
   const photo = button.querySelector('img');
+  const origin = button.getBoundingClientRect();
   photoOpener = button;
   clearTimeout(photoCloseTimer);
-  el.photoEnlarged.src = photo.src;
+  el.photoEnlarged.src = photo.currentSrc || photo.src;
   el.photoEnlarged.alt = photo.alt;
   el.photoEnlarged.referrerPolicy = photo.referrerPolicy;
+  el.photoLensImage.src = el.photoEnlarged.src;
+  el.photoLensImage.referrerPolicy = photo.referrerPolicy;
+  sizeInspectedPhoto(photo);
   el.photoCaption.replaceChildren(...Array.from(figure.querySelector('figcaption').childNodes, child => child.cloneNode(true)));
+  el.photoDialog.classList.add('is-transitioning');
   el.photoDialog.showModal();
-  requestAnimationFrame(() => el.photoDialog.classList.add('is-open'));
+  requestAnimationFrame(() => movePhotoIntoView(button, origin));
   el.photoClose.focus({ preventScroll: true });
+});
+function moveMagnifier(event) {
+  if (event.pointerType === 'touch' || !el.photoDialog.open || el.photoDialog.classList.contains('is-transitioning')) return;
+  const image = el.photoEnlarged.getBoundingClientRect();
+  const frame = el.photoFrame.getBoundingClientRect();
+  const lensSize = el.photoLens.offsetWidth;
+  const zoom = 2.6;
+  const x = Math.max(0, Math.min(image.width, event.clientX - image.left));
+  const y = Math.max(0, Math.min(image.height, event.clientY - image.top));
+  const border = parseFloat(getComputedStyle(el.photoFrame).borderLeftWidth) || 0;
+  el.photoLens.style.left = `${event.clientX - frame.left - border - lensSize / 2}px`;
+  el.photoLens.style.top = `${event.clientY - frame.top - border - lensSize / 2}px`;
+  Object.assign(el.photoLensImage.style, {
+    width: `${image.width * zoom}px`, height: `${image.height * zoom}px`,
+    left: `${lensSize / 2 - x * zoom}px`, top: `${lensSize / 2 - y * zoom}px`
+  });
+  el.photoLens.classList.add('is-visible');
+}
+el.photoEnlarged.addEventListener('pointermove', moveMagnifier);
+el.photoEnlarged.addEventListener('pointerleave', () => el.photoLens.classList.remove('is-visible'));
+window.addEventListener('resize', () => {
+  if (el.photoDialog.open && photoOpener) {
+    sizeInspectedPhoto(photoOpener.querySelector('img'));
+    el.photoLens.classList.remove('is-visible');
+  }
 });
 el.photoClose.addEventListener('click', closePhotoInspection);
 el.photoDialog.addEventListener('cancel', event => { event.preventDefault(); closePhotoInspection(); });

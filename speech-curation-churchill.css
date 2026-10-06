@@ -364,3 +364,30 @@ dialog.archive-inspection.is-open::backdrop{background:#12080cc2;backdrop-filter
 .archive-inspection-close{position:sticky;top:.45rem;z-index:2;display:grid;place-items:center;width:40px;height:40px;margin:0 0 -40px auto;border:1px solid #e3bd79;border-radius:50%;background:#241216;color:#fff0ce;font-size:1.7rem;line-height:1;box-shadow:0 6px 17px #110608aa}
 @media(max-width:600px){dialog.archive-inspection{width:min(98vw,1100px);max-height:calc(100dvh - .5rem)}.archive-inspection-inner{padding:.8rem}.archive-inspection-photo{--frame-width:clamp(22px,6vw,34px)}.archive-inspection-photo img{max-height:52dvh}.archive-inspection figcaption{font-size:.85rem}}
 @media(prefers-reduced-motion:reduce){dialog.archive-inspection,dialog.archive-inspection::backdrop{transition:none;transform:none}}
+
+/* Keep the translation adjacent to its sentence; the bookmark shares its row. */
+.translations-on .line-card{display:grid;grid-template-columns:minmax(0,1fr) auto}
+.translations-on .line-open{grid-column:1/-1;padding-bottom:.35rem}
+.translations-on .line-translation{grid-column:1;margin:0 0 .65rem 5.7rem;align-self:center}
+.translations-on .line-bookmark-actions{grid-column:2;align-self:center;padding:0 1.3rem .65rem .6rem}
+.translations-on .line-body{grid-column:1/-1}
+@media(max-width:600px){.translations-on .line-translation{margin-left:3.4rem}.translations-on .line-bookmark-actions{padding-right:.8rem}}
+
+/* Stretch one curtain across each entire gallery surface, never tile its folds. */
+.archive-gallery-list{background-image:linear-gradient(#30091342,#29071156),url('/speech-curation-assets/burgundy-velvet.webp');background-position:center,center top;background-size:100% 100%,100% 100%;background-repeat:no-repeat,no-repeat}
+.archive-inspection-inner{background-image:linear-gradient(#3009134d,#2907116b),url('/speech-curation-assets/burgundy-velvet.webp');background-position:center,center top;background-size:100% 100%,100% 100%;background-repeat:no-repeat,no-repeat}
+
+/* The actual framed photograph travels from its position on the gallery wall. */
+dialog.archive-inspection{width:min(98vw,1380px);max-height:calc(100dvh - 1rem);transform:none;transition:opacity .36s ease}
+.archive-inspection-photo>img{width:auto;max-width:none;max-height:none;cursor:url('/speech-curation-assets/brass-magnifying-glass-cursor.png') 32 32,zoom-in}
+.archive-inspection.is-transitioning .archive-inspection-photo{visibility:hidden}
+.archive-inspection figcaption{transition:opacity .45s ease .15s,transform .55s cubic-bezier(.22,.8,.2,1) .15s}
+.archive-inspection.is-transitioning figcaption{opacity:0;transform:translateY(12px)}
+.archive-photo-flight{position:fixed!important;z-index:10;display:block;margin:0;padding:0;pointer-events:none;overflow:hidden;box-sizing:border-box}
+.archive-photo-flight img{display:block;width:100%;height:100%;max-height:none;object-fit:contain}
+.archive-magnifier-lens{position:absolute;z-index:4;width:clamp(130px,14vw,190px);height:clamp(130px,14vw,190px);overflow:hidden;border:4px solid #b8894b;border-radius:50%;background:#211814;box-shadow:inset 0 0 0 2px #f5d69b,0 12px 28px #100507ad;opacity:0;transform:scale(.82);transition:opacity .18s ease,transform .28s cubic-bezier(.22,.8,.2,1);pointer-events:none}
+.archive-magnifier-lens.is-visible{opacity:1;transform:scale(1)}
+.archive-magnifier-lens img{position:absolute;display:block;max-width:none;max-height:none;object-fit:fill}
+@media(hover:none){.archive-magnifier-lens{display:none}.archive-inspection-photo>img{cursor:default}}
+@media(max-width:600px){dialog.archive-inspection{width:min(99vw,1380px)}.archive-inspection-photo>img{max-width:none;max-height:none}}
+@media(prefers-reduced-motion:reduce){.archive-magnifier-lens,.archive-inspection figcaption{transition:none}}
