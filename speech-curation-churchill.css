@@ -389,7 +389,7 @@ dialog.archive-inspection{width:min(98vw,1380px);max-height:calc(100dvh - 1rem);
 .archive-magnifier-lens.is-visible{opacity:1;transform:scale(1)}
 .archive-magnifier-viewport{position:relative;box-sizing:border-box;width:100%;height:100%;overflow:hidden;border:3px solid #b8894b;border-radius:50%;background:#211814;box-shadow:inset 0 0 0 2px #f5d69b,0 8px 18px #100507ad}
 .archive-magnifier-viewport img{position:absolute;display:block;max-width:none;max-height:none;object-fit:fill}
-.archive-magnifier-cursor{position:absolute;right:-14px;bottom:-14px;z-index:1;display:block;width:34px;height:auto;max-width:none;pointer-events:none;filter:drop-shadow(0 2px 2px #100507b8)}
+.archive-magnifier-lens>.archive-magnifier-cursor{position:absolute;right:-14px;bottom:-14px;z-index:1;display:block;width:34px;height:auto;max-width:none;max-height:none;pointer-events:none;filter:drop-shadow(0 2px 2px #100507b8)}
 @media(hover:none){.archive-magnifier-lens,.archive-magnifier-cursor{display:none}.archive-inspection-photo>img{cursor:default}}
 @media(max-width:600px){dialog.archive-inspection{width:min(99vw,1380px)}.archive-inspection-photo>img{max-width:none;max-height:none}}
 @media(prefers-reduced-motion:reduce){.archive-magnifier-lens,.archive-inspection figcaption{transition:none}}
