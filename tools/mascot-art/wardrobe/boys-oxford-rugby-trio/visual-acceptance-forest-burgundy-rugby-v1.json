@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemId": "forest-burgundy-rugby",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "pending",
+  "humanVisualAcceptance": false,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "button-down collar, pocket, navy inner placket and cuffs, cream rugby stripes, forest, navy and burgundy rugby stripes preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "botanical-cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/forest-burgundy-rugby.webp": "d2e02cde6e95a6a9cf24d6ef55af1db7698fae76573fc3c6c67d8455325f700e",
+    "assets/speaking-system/cosmetics/noir/forest-burgundy-rugby.webp": "0e556bd5bc07768bab1242531474219eff19520faeba064735da7ce56a097ddb",
+    "assets/speaking-system/cosmetics/shared/forest-burgundy-rugby-display.png": "d0516e091e666862575c5dd1fe740b1ec9471ff76dc51e1f54c6b0eb1253be74"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-forest-burgundy-rugby-3d-dark-open.jpg": "8c51915dba445c63f1aa49798fec932c5df5e6d53c7342ecc21f020376064420",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-forest-burgundy-rugby-3d-blink.jpg": "ce6d860deb152882501bcfa4945c1daeaed334ef31c810f6402e81df13c504c6",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-forest-burgundy-rugby-3d-light-open.jpg": "3ef8ac3e1217b8b1692d2f60973faa160ed485f03a157ace54d1565d5e099ae9",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-forest-burgundy-rugby-combination-3d-open.jpg": "1c56b555f42da7ba5a49f6a27c271892ab82d9596165e8ff4ad41422649a3417",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-forest-burgundy-rugby-combination-3d-blink.jpg": "01ab3fa97728cec79164fab0ec5f85c8f6e015140d10ba6db1c8a16304b9fea8",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-3d-dark-open.jpg": "e0c3b7884c2bedc8c4eadc9e7a11d018b8c7701e5d26d60503c8e2c8549d8874",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-3d-blink.jpg": "8f7ec30cc64758b9831a2e59891650179260e6f6e36c1cc8c261d135ccf50afd",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-3d-light-open.jpg": "2bc11255d84a2763c103ffd57f5c97cb6cb78c5ea21359f1eff189df837c4643",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-combination-3d-open.jpg": "5980b4845534e06faca8bb121c5a135c950890654a9d1c6ea273914f31d2514c",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-combination-3d-blink.jpg": "040bf01e9e7bfa1d6a4caa4aa9011e08ace60370149495f0a7c00feae4571481",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-approval-v1.jpg": "f5af0dfb2a5870bb43fda6856d4a50373aff56f8fbad774bbb24c2b5f8b49abe"
+  }
+}

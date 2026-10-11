@@ -409,3 +409,34 @@ test('the ivory asymmetric gown has three independent transparent 16-view overla
  const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/girls/ivory-tiered-dress-display.png',import.meta.url));
  assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),509);assert.equal(thumb.readUInt32BE(20),768);assert.ok([4,6].includes(thumb[25]));
 });
+
+test('Oxford and rugby trio is boys-only with independent Eddy and Noir atlases',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const ids=['white-navy-oxford','navy-cream-rugby','forest-burgundy-rugby'];
+ for(const id of ids){
+  const hashes=[];
+  for(const character of ['eddy','noir']){
+   clearCosmetics(character);equipCosmetic(id,character);assert.equal(cosmeticsState().equipped[character+'Top'],id);
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+id+'.webp',import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+   const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+   assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>30000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+  }
+  assert.notEqual(hashes[0],hashes[1]);
+  const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/shared/'+id+'-display.png',import.meta.url));
+  assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.equal(thumb.readUInt32BE(16),512);assert.equal(thumb.readUInt32BE(20),512);
+  for(const character of ['celeste','phoebe','elsie'])assert.equal((await import('../eddy-cosmetics.mjs')).cosmeticsForCharacter(character).some(item=>item.id===id),false);
+ }
+ for(const character of ['eddy','noir'])clearCosmetics(character);
+});
+
+test('Oxford and rugby migration preserves the current allowlists',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261011030000_boys_oxford_rugby_trio.sql',import.meta.url),'utf8');
+ for(const [id,name] of [['white-navy-oxford','White Oxford shirt with navy trim'],['navy-cream-rugby','Navy and cream striped rugby shirt'],['forest-burgundy-rugby','Forest rugby shirt with burgundy stripes']]){
+  assert.match(sql,new RegExp("\\('"+id+"','"+name+"',30,true\\)"));
+  for(const slot of ['top','eddyTop','noirTop'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+  for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ }
+ for(const id of ['crimson-gilded-court-coat','shadow-thorn-robe','ivory-wayfarer-robe','navy-fish-bucket-hat','ivory-racecar-baseball-cap'])assert.ok(sql.includes("'"+id+"'"));
+});

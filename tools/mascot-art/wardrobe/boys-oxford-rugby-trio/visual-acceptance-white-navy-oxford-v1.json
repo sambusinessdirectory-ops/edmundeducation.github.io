@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemId": "white-navy-oxford",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "pending",
+  "humanVisualAcceptance": false,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "button-down collar, pocket, navy inner placket and cuffs, cream rugby stripes, forest, navy and burgundy rugby stripes preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "botanical-cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/white-navy-oxford.webp": "d5261255fa16bcbb20ed195e78dd796af633bf36a878d5ee9a4de296d274c387",
+    "assets/speaking-system/cosmetics/noir/white-navy-oxford.webp": "483082f92ba3f9aaa4aa33024c6e02eb5ba15684b840db2c2a5e7de4d2ac3f20",
+    "assets/speaking-system/cosmetics/shared/white-navy-oxford-display.png": "9a32214f10dc999f4de4d50ace3d25ed66685468e314f39599a57a50b07a38d2"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-white-navy-oxford-3d-dark-open.jpg": "df556a45a8b16d8e80e09b8a988120a6dc0a46390840f853fdb26fb4e1735a8b",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-white-navy-oxford-3d-blink.jpg": "6ae90e1a68c4a52a5be7f3d67c860dfecf27c448fd61777e81248f4718dd480f",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-white-navy-oxford-3d-light-open.jpg": "9752b46b1234ffa554435c9355616476ea555591d245a64db3148484473c3b32",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-white-navy-oxford-combination-3d-open.jpg": "c550b396128dc6f73e911b30c1ce35b1e90c2d5a8f08b9c8b670c5d04ba988b7",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-eddy-white-navy-oxford-combination-3d-blink.jpg": "2a24620ca0006f53110477f41f599e303c3e847c8fc25d6d19244a448dc32563",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-3d-dark-open.jpg": "8b9cb02065da5c864b80aac184e87f5e7f0886d360acd55eeb264bb42ea10778",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-3d-blink.jpg": "304752c210bca0ce8dcfd7b9ac25f59ea711180b839b72ea762d9b15ec1387d3",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-3d-light-open.jpg": "fe3eb26db4d744a39917a67aba64a543af23af8c737b021c52fabe052045b7ed",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-combination-3d-open.jpg": "dfece7d511ae96e83958604725b7f67374e42bad23508c654d2394867696e5bf",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-combination-3d-blink.jpg": "99b1f375f24358f679af6b0359a51652d6c47c6848231ce685a0c2126b3a5dae",
+    "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-approval-v1.jpg": "f5af0dfb2a5870bb43fda6856d4a50373aff56f8fbad774bbb24c2b5f8b49abe"
+  }
+}
