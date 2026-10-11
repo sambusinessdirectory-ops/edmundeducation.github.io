@@ -6,6 +6,7 @@ import flashcardReadingExpansionPackIndex from "./flashcard-pack-index-reading-e
 import flashcardExpansionPackIndex from "./flashcard-pack-index-flashcard-expansion.json" with { type: "json" };
 import polysemyPackIndex from "./polysemy-pack-index.json" with { type: "json" };
 import polysemyPackIndex2 from "./polysemy-pack-index-2.json" with { type: "json" };
+import synonymPackIndex from "./synonym-pack-index.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
   "assets/writing-practice/audio/edmund-neural/dse-part-b-kokoro-20260911/",
@@ -27,7 +28,8 @@ const FLASHCARD_PACK_INDEXES = [
   flashcardPackIndex,
   flashcardPassage2PackIndex,
   flashcardReadingExpansionPackIndex,
-  flashcardExpansionPackIndex
+  flashcardExpansionPackIndex,
+  synonymPackIndex
 ];
 
 function responseHeaders() {
@@ -352,7 +354,7 @@ export default {
       return listeningCatalogue(request, env);
     }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-writing-part-b", "part1", "part3", "exam", "flashcards", "polysemy-lab", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-writing-part-b", "part1", "part3", "exam", "flashcards", "polysemy-lab", "synonyms", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",

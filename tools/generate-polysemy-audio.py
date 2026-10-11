@@ -3,10 +3,10 @@ Credentials stay in memory. Cache immutable source hashes; pad starts for mobile
 """
 import argparse,json,hashlib,os,re,subprocess,tempfile,urllib.request,urllib.error,time
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);p.add_argument('--audio-dir');p.add_argument('--manifest-file');p.add_argument('--threads',type=int,default=2);p.add_argument('--checkpoint-every',type=int,default=1);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--recipes');p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);p.add_argument('--audio-dir');p.add_argument('--manifest-file');p.add_argument('--threads',type=int,default=2);p.add_argument('--checkpoint-every',type=int,default=1);a=p.parse_args()
 if a.threads<1 or a.checkpoint_every<1: raise SystemExit('threads and checkpoint-every must be positive')
 root=Path(__file__).resolve().parent.parent;out=Path(a.audio_dir) if a.audio_dir else root/'polysemy-lab/audio';out.mkdir(parents=True,exist_ok=True)
-recipes=json.loads((root/'professional-english/dialogues.json').read_text())['voiceRecipes'];cycle=['american-female','american-male','british-male','british-female'];rows=json.loads(Path(a.sentences).read_text());manifest={}
+recipe_source=Path(a.recipes) if a.recipes else root/'professional-english/dialogues.json';recipe_data=json.loads(recipe_source.read_text());recipes=recipe_data.get('voiceRecipes',recipe_data);cycle=['american-female','american-male','british-male','british-female'];rows=json.loads(Path(a.sentences).read_text());manifest={}
 if a.kind=='local':
  import onnxruntime as ort,soundfile as sf
  from kokoro_onnx import Kokoro

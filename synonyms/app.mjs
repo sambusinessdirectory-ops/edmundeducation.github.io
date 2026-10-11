@@ -2,7 +2,6 @@ import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
 import { catalog, legacyCatalog } from './lesson-catalog.mjs?v=20261011-priority1';
 import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
-import { synonymAudio } from './audio-manifest.mjs?v=20260928-four-voices1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
 import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20260928-recordings1';
@@ -11,9 +10,9 @@ const lessonCatalog = [...catalog,...legacyCatalog].sort((a,b)=>a.rank-b.rank ||
 const modules = {important:importantModule,...Object.fromEntries(lessonCatalog.map(item=>[item.id,item])),'social-media':socialMediaModule};
 const loadedLessons = new Map();
 let searchQuery = '', visibleCount = 80, moduleLoadTicket = 0;
-const voices = ['american-female', 'american-male', 'british-male', 'british-female'];
+const voices = ['american-female', 'british-male', 'british-female'];
 let moduleId = 'important', moduleData = importantModule, words = moduleData.words;
-const makeQuestions = (id,items) => items.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${id === 'important' ? '' : id === 'social-media' ? 'social-' : id + '-'}${wi + 1}-${ei + 1}`, wi, ei, word, exercise, voice: voices[(wi * 2 + ei) % 4]})));
+const makeQuestions = (id,items) => items.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${id === 'important' ? '' : id === 'social-media' ? 'social-' : id + '-'}${wi + 1}-${ei + 1}`, wi, ei, word, exercise})));
 let questions = makeQuestions(moduleId,words), byId = new Map(questions.map(question => [question.id, question])), total = questions.length;
 const dashboard = document.querySelector('[data-view="dashboard"]');
 dashboard?.querySelector('.learning-portal-empty')?.remove();
@@ -35,6 +34,7 @@ const importantFalseSynonyms = [
 ];
 const audio = new Audio();
 const cloudAudio = new Map();
+const exerciseAudio = new Map();
 let audioTicket = 0, activeAudioStatus = null;
 let owner = null, token = null, progress = {answers:{},order:[],cursor:0};
 let view = 'home', choice = null, streak = 0, saveState = 'loading', localAvailable = true;
@@ -241,7 +241,7 @@ async function playClip(item,cacheKey,status) {
   activeAudioStatus=status;
   if (status) status.textContent='正在載入音訊…';
   try {
-    let url=item.path?new URL('./'+item.path,import.meta.url).href:cloudAudio.get(cacheKey);
+    let url=item.path?new URL(item.path,import.meta.url).href:cloudAudio.get(cacheKey);
     if (!url) {
       const response=await fetch('https://edmund-speaking-system.edmundeducation.workers.dev/v1/learning-voice',{
         method:'POST',headers:{Authorization:'Bearer '+token,'Content-Type':'application/json'},
@@ -257,10 +257,23 @@ async function playClip(item,cacheKey,status) {
     await audio.play();if(ticket===audioTicket && status?.isConnected)status.textContent='正在播放';
   } catch { if(ticket===audioTicket && status?.isConnected)status.textContent='未能播放，請再按一次。'; }
 }
-function playVoice() {
+async function playVoice() {
   const q=current();if(!q)return;
-  const clip=moduleId==='important'?synonymAudio[q.id]:moduleId==='social-media'?socialMediaAudio.exercises[q.id]:{text:q.exercise.original};
-  return playClip(clip,q.id,host.querySelector('[data-audio-status]'));
+  const expectedOwner=owner,expectedModule=moduleId,expectedQuestion=q.id;
+  const ticket=++audioTicket,status=host.querySelector('[data-audio-status]');
+  if(status)status.textContent='正在載入音訊…';
+  try {
+    if(!exerciseAudio.has(moduleId)){
+      const address=new URL('./lesson-audio/'+encodeURIComponent(moduleId)+'.json?v=v1-kokoro-20261011-1',import.meta.url);
+      const response=await fetch(address,{cache:'force-cache'});
+      if(!response.ok)throw new Error('Audio manifest unavailable');
+      exerciseAudio.set(moduleId,await response.json());
+    }
+    if(ticket!==audioTicket||owner!==expectedOwner||moduleId!==expectedModule||current()?.id!==expectedQuestion)return;
+    const clip=exerciseAudio.get(moduleId)?.[q.id];
+    if(!clip?.path||!voices.includes(clip.voice))throw new Error('Question audio unavailable');
+    return playClip(clip,q.id,status);
+  }catch{if(ticket===audioTicket&&status?.isConnected)status.textContent='音訊暫不可用，請稍後再試。';}
 }
 function playGuideAudio(kind,index,button) {
   const status=button.parentElement.querySelector('[data-guide-audio-status]');

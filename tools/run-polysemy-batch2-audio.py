@@ -31,6 +31,8 @@ def worker(batch, build):
         "--manifest-file", str(build / f"local-{batch}-manifest.json"),
         "--kind", "local", "--threads", "1", "--checkpoint-every", "100",
     ]
+    if config.get("recipes"):
+        command.extend(["--recipes", config["recipes"]])
     result = subprocess.run(command, cwd=ROOT).returncode
     (build / f"batch-{batch}.done.json").write_text(json.dumps({
         "returncode": result,
@@ -39,10 +41,11 @@ def worker(batch, build):
     return result
 
 
-def launch(build, model, voices, python, batches):
+def launch(build, model, voices, python, batches, recipes=None):
     build.mkdir(parents=True, exist_ok=True)
     (build / "runner-config.json").write_text(json.dumps({
         "model": str(model), "voices": str(voices), "python": str(python),
+        "recipes": str(recipes) if recipes else None,
     }) + "\n")
     for batch in range(batches):
         complete = build / f"batch-{batch}.done.json"
@@ -71,6 +74,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=Path)
     parser.add_argument("--voices", type=Path)
     parser.add_argument("--python", type=Path, default=Path(sys.executable))
+    parser.add_argument("--recipes", type=Path)
     parser.add_argument("--batches", type=int, default=8)
     parser.add_argument("--worker", type=int)
     args = parser.parse_args()
@@ -78,4 +82,4 @@ if __name__ == "__main__":
         raise SystemExit(worker(args.worker, args.build_dir))
     if not args.model or not args.voices:
         parser.error("--model and --voices are required when launching")
-    launch(args.build_dir, args.model, args.voices, args.python, args.batches)
+    launch(args.build_dir, args.model, args.voices, args.python, args.batches, args.recipes)

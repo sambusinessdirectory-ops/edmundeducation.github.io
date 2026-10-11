@@ -23,6 +23,7 @@ def main():
     parser.add_argument("--repository", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--wrangler", type=Path, required=True)
     parser.add_argument("--jobs", type=int, default=4)
+    parser.add_argument("--expected-packs", type=int, default=16)
     parser.add_argument("--index-path", default="workers/edmund-audio/src/polysemy-pack-index.json")
     args = parser.parse_args()
     if not 1 <= args.jobs <= 8:
@@ -37,7 +38,7 @@ def main():
         if path.stat().st_size != row["size"] or file_hash(path) != row["sha256"]:
             raise SystemExit(f"Pack integrity mismatch: {path}")
         packs.append((row["key"], path, row["sha256"]))
-    if len(packs) != 16 or sum(row[1].stat().st_size for row in packs) != index["meta"]["totalBytes"]:
+    if len(packs) != args.expected_packs or sum(row[1].stat().st_size for row in packs) != index["meta"]["totalBytes"]:
         raise SystemExit("Pack count or byte total mismatch")
 
     checkpoint_path = args.build_dir / "r2-upload-checkpoint.json"
@@ -58,19 +59,19 @@ def main():
         return key, digest
 
     pending = [row for row in packs if checkpoint.get(row[0]) != row[2]]
-    print(f"Uploading {len(pending)} Polysemy audio packs", flush=True)
+    print(f"Uploading {len(pending)} audio packs", flush=True)
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as pool:
         futures = {pool.submit(upload, row): row for row in pending}
         for future in concurrent.futures.as_completed(futures):
             key, digest = future.result()
             checkpoint[key] = digest
             checkpoint_path.write_text(json.dumps(checkpoint, indent=2, sort_keys=True) + "\n")
-            print(f"Uploaded {len(checkpoint)}/16: {key}", flush=True)
-    if len(checkpoint) != 16:
+            print(f"Uploaded {len(checkpoint)}/{args.expected_packs}: {key}", flush=True)
+    if len(checkpoint) != args.expected_packs:
         raise SystemExit("Some audio packs are still missing")
     index["meta"]["r2UploadComplete"] = True
     index_path.write_text(json.dumps(index, separators=(",", ":"), sort_keys=True) + "\n")
-    print("All 16 Polysemy packs uploaded; Worker index is ready to deploy", flush=True)
+    print(f"All {args.expected_packs} audio packs uploaded; Worker index is ready to deploy", flush=True)
 
 
 if __name__ == "__main__":
