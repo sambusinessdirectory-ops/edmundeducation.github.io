@@ -719,6 +719,36 @@ async function learningPortalResources() {
   return resources.map((resource) => ({ ...resource }));
 }
 
+async function synonymModuleResources() {
+  const { catalog, legacyCatalog } = await import(`${pathToFileURL(path.join(root, "synonyms/lesson-catalog.mjs")).href}?homework-catalogue`);
+  const lessons = [...catalog, ...legacyCatalog];
+  if (!lessons.length) throw new Error("Synonyms module catalogue is empty");
+  const seen = new Set();
+  const resources = lessons.map((lesson) => {
+    const id = String(lesson.id || "");
+    const rank = Number(lesson.rank);
+    if (seen.has(id) || !/^[a-z0-9][a-z0-9-]{0,79}$/i.test(id) || !Number.isSafeInteger(rank) || rank < 1 || !lesson.title) {
+      throw new Error(`Invalid Synonyms module: ${id || "missing id"}`);
+    }
+    seen.add(id);
+    const label = `#${rank} · ${compactText(lesson.title, 155)}`;
+    return {
+      id: `synonym:${id}`,
+      type: "synonym",
+      ordinal: rank,
+      label,
+      detail: `Synonyms · ${lesson.guideCount || 0} 詞組 · ${lesson.questionCount || 0} 題${lesson.legacy ? " · 原有版本" : ""}`,
+      url: `synonyms-system.html?module=${encodeURIComponent(id)}`
+    };
+  });
+  const nextRank = Math.max(...catalog.map((lesson) => lesson.rank)) + 1;
+  for (const [id, label, ordinal] of [["important", "Important", 0], ["social-media", "Social Media", nextRank]]) {
+    if (seen.has(id)) throw new Error(`Duplicate featured Synonyms module: ${id}`);
+    resources.push({ id: `synonym:${id}`, type: "synonym", ordinal, label, detail: "Synonyms · 精選模組", url: `synonyms-system.html?module=${id}` });
+  }
+  return resources;
+}
+
 async function registeredProviderResources(allFiles) {
   const files = allFiles.filter((file) => /(?:^|-)homework-resources\.js$/i.test(file)).sort();
   const resources = [];
@@ -805,6 +835,7 @@ const resources = [
   ...await commonExpressionResources(),
   ...await listeningResources(),
   ...await learningPortalResources(),
+  ...await synonymModuleResources(),
   ...await moduleLessonResources({
     file: "polysemy-lab/catalogue.mjs",
     type: "polysemy",

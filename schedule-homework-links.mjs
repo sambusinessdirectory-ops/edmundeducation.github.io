@@ -104,6 +104,15 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
     pickerNoun: "Native English 課程",
     color: "#81543d"
   }),
+  Object.freeze({
+    type: "synonym",
+    trigger: "Synonyms",
+    aliases: Object.freeze(["Synonym", "Synonym System"]),
+    label: "Synonyms",
+    pickerTitle: "選擇 Synonyms 同義詞模組",
+    pickerNoun: "同義詞模組",
+    color: "#244a7a"
+  }),
   Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
 ]);
 
@@ -136,6 +145,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   "dse-listening": Object.freeze(["/listening-system.html"]),
   polysemy: Object.freeze(["/polysemy-lab.html"]),
   "native-english": Object.freeze(["/natural-english.html"]),
+  synonym: Object.freeze(["/synonyms-system.html"]),
   "learning-portal": Object.freeze([
     "/quotes-system.html",
     "/grammar-system.html",
@@ -202,13 +212,13 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/listening-system.html": Object.freeze(["section", "practice", "part"]),
   "/polysemy-lab.html": Object.freeze(["module"]),
   "/natural-english.html": Object.freeze(["module"]),
+  "/synonyms-system.html": Object.freeze(["module"]),
   "/quotes-system.html": Object.freeze([]),
   "/grammar-system.html": Object.freeze([]),
   "/collocation-system.html": Object.freeze([]),
   "/irregular-verb-system.html": Object.freeze([]),
   "/thematic-vocabulary-system.html": Object.freeze([]),
   "/part-of-speech-system.html": Object.freeze([]),
-  "/synonyms-system.html": Object.freeze([]),
   "/error-identifier-system.html": Object.freeze([]),
   "/learning-roadmap.html": Object.freeze([]),
   "/spelling-system.html": Object.freeze([]),
@@ -274,6 +284,7 @@ export function normalizeHomeworkResource(value) {
     section !== "dse"
     || id !== `${type}:dse-listening-${parsed.searchParams.get("year")}-task-${parsed.searchParams.get("task")}`
   )) return null;
+  if (type === "synonym" && id !== `synonym:${parsed.searchParams.get("module")}`) return null;
   return Object.freeze({ id, type, label, url });
 }
 
@@ -300,6 +311,9 @@ export function normalizeHomeworkHref(value) {
   // below remain restricted to one allow-listed `exercise` parameter.
   if (parsed.pathname === "/writing-submission.html" && actualParameters.length === 0) {
     return "writing-submission.html";
+  }
+  if (parsed.pathname === "/synonyms-system.html" && actualParameters.length === 0) {
+    return "synonyms-system.html";
   }
   if (parsed.pathname === "/writing-submission.html") {
     if (actualParameters.length !== 1 || !["exercise", "manualTopic"].includes(actualParameters[0])) return null;
@@ -352,7 +366,7 @@ export function normalizeHomeworkHref(value) {
   if (parsed.pathname === "/reading-comprehension.html") {
     if (!/^(?:p[123]-\d{3}(?:-[a-z0-9]+)*|dse-20(?:1[2-9]|2[0-6])-(?:a|b1|b2))$/i.test(parsed.searchParams.get("article") || "")) return null;
   }
-  if (["/polysemy-lab.html", "/natural-english.html"].includes(parsed.pathname)) {
+  if (["/polysemy-lab.html", "/natural-english.html", "/synonyms-system.html"].includes(parsed.pathname)) {
     if (!/^[a-z0-9][a-z0-9-]{0,79}$/i.test(parsed.searchParams.get("module") || "")) return null;
   }
   const query = parsed.searchParams.toString();

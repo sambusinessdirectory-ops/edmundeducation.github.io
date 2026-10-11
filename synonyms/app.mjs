@@ -362,6 +362,26 @@ function render() {
   if (!owner || !host.isConnected) return;
   if(view==='module')renderModule();else if(view==='guide')renderGuide();else if(view==='false')renderFalse();else if(view==='question')renderQuestion();else if(view==='finish')renderFinish();else if(view==='recordings'){renderRecordings();void loadRecordings();}else renderHome();
 }
+async function restoreRoute(initial = false) {
+  if (!owner) return;
+  const expectedOwner = owner;
+  const hash = location.hash.slice(1);
+  const separator = hash.indexOf(':');
+  const linkedModule = !hash ? new URLSearchParams(location.search).get('module') : null;
+  const target = separator > 0 ? hash.slice(0, separator) : (linkedModule && modules[linkedModule] ? linkedModule : 'important');
+  const part = separator > 0 ? hash.slice(separator + 1) : (hash || (linkedModule && modules[linkedModule] ? 'module' : 'home'));
+  if (!(await selectModule(modules[target] ? target : 'important')) || owner !== expectedOwner) {
+    if (owner === expectedOwner) { render(); if (initial) void loadAccount(); }
+    return;
+  }
+  view = part === 'false-synonyms' ? 'false' : ['home','module','guide','question','finish','recordings','false'].includes(part) ? part : 'home';
+  if (view === 'question' && !current()) view = 'guide';
+  if (initial && !hash && linkedModule && modules[linkedModule]) {
+    history.replaceState({synonymsView:'module'}, '', `#${target}:module`);
+  }
+  render();
+  if (initial && target === 'important') void loadAccount();
+}
 function syncSession() {
   const snapshot=window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
   const next=snapshot?.user?.id||null;
@@ -371,12 +391,18 @@ function syncSession() {
   for(const url of recordingUrls.splice(0))URL.revokeObjectURL(url);recordingItems.clear();
   stopVoice();for(const url of cloudAudio.values())URL.revokeObjectURL(url);cloudAudio.clear();
   owner=next;token=snapshot?.token||null;streak=0;choice=null;pending=new Map();moduleStates.clear();moduleId='important';moduleData=importantModule;words=moduleData.words;questions=makeQuestions(moduleId,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=importantFalseSynonyms;view='home';
-  if(owner){readLocal();saveState='loading';render();void loadAccount();}else{progress={answers:{},order:[],cursor:0};host.replaceChildren();}
+  if(owner){
+    readLocal();saveState='loading';
+    if(location.hash || new URLSearchParams(location.search).get('module')){
+      host.textContent='正在開啟指定的同義詞模組…';
+      void restoreRoute(true);
+    }else{render();void loadAccount();}
+  }else{progress={answers:{},order:[],cursor:0};host.replaceChildren();}
 }
 window.addEventListener('edmund:learning-portal-session',syncSession);
 window.addEventListener('storage',event=>{if(owner&&event.key===progressKey()){readLocal();render();}});
 window.addEventListener('online',()=>{if(owner){if(pending.size)void syncPending();else void loadAccount();}});
-window.addEventListener('popstate',()=>{void (async()=>{if(!owner)return;const hash=location.hash.slice(1);const separator=hash.indexOf(':');const target=separator>0?hash.slice(0,separator):'important';if(!(await selectModule(modules[target]?target:'important')))return;const part=separator>0?hash.slice(separator+1):hash;view=part==='false-synonyms'?'false':['home','module','guide','question','finish','recordings','false'].includes(part)?part:'home';if(view==='question'&&!current())view='guide';render();})();});
+window.addEventListener('popstate',()=>{void restoreRoute();});
 host.addEventListener('input',event=>{if(!event.target.matches('[data-module-search]'))return;searchQuery=event.target.value.trim();visibleCount=80;renderModuleList();});
 async function playRecording(button) {
   const item=recordingItems.get(button.dataset.playRecording),card=button.closest('.syn-recording-card'),status=card?.querySelector('[role="status"]'),player=card?.querySelector('audio');

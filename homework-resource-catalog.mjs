@@ -36084,7 +36084,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 11,
     "label": "#11 · work",
-    "detail": "Polysemy #11 · 40 meanings · 83 questions",
+    "detail": "Polysemy #11 · 41 meanings · 83 questions",
     "url": "polysemy-lab.html?module=work"
   },
   {
@@ -36092,7 +36092,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 12,
     "label": "#12 · home",
-    "detail": "Polysemy #12 · 34 meanings · 63 questions",
+    "detail": "Polysemy #12 · 37 meanings · 63 questions",
     "url": "polysemy-lab.html?module=home"
   },
   {
@@ -36212,7 +36212,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 27,
     "label": "#27 · small",
-    "detail": "Polysemy #27 · 15 meanings · 31 questions",
+    "detail": "Polysemy #27 · 16 meanings · 31 questions",
     "url": "polysemy-lab.html?module=small"
   },
   {
@@ -36244,7 +36244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 31,
     "label": "#31 · comfort",
-    "detail": "Polysemy #31 · 21 meanings · 41 questions",
+    "detail": "Polysemy #31 · 22 meanings · 41 questions",
     "url": "polysemy-lab.html?module=comfort"
   },
   {
@@ -36276,7 +36276,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 35,
     "label": "#35 · place",
-    "detail": "Polysemy #35 · 30 meanings · 73 questions",
+    "detail": "Polysemy #35 · 36 meanings · 73 questions",
     "url": "polysemy-lab.html?module=place"
   },
   {
@@ -36300,7 +36300,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 38,
     "label": "#38 · travel",
-    "detail": "Polysemy #38 · 15 meanings · 31 questions",
+    "detail": "Polysemy #38 · 16 meanings · 31 questions",
     "url": "polysemy-lab.html?module=travel"
   },
   {
@@ -36324,7 +36324,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 41,
     "label": "#41 · company",
-    "detail": "Polysemy #41 · 27 meanings · 61 questions",
+    "detail": "Polysemy #41 · 28 meanings · 61 questions",
     "url": "polysemy-lab.html?module=company"
   },
   {
@@ -36348,7 +36348,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 44,
     "label": "#44 · attract",
-    "detail": "Polysemy #44 · 19 meanings · 43 questions",
+    "detail": "Polysemy #44 · 20 meanings · 43 questions",
     "url": "polysemy-lab.html?module=attract"
   },
   {
@@ -36356,7 +36356,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 45,
     "label": "#45 · reason",
-    "detail": "Polysemy #45 · 22 meanings · 51 questions",
+    "detail": "Polysemy #45 · 23 meanings · 51 questions",
     "url": "polysemy-lab.html?module=reason"
   },
   {
@@ -36428,7 +36428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 54,
     "label": "#54 · seem",
-    "detail": "Polysemy #54 · 11 meanings · 25 questions",
+    "detail": "Polysemy #54 · 12 meanings · 25 questions",
     "url": "polysemy-lab.html?module=seem"
   },
   {
@@ -36460,7 +36460,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 58,
     "label": "#58 · sound",
-    "detail": "Polysemy #58 · 17 meanings · 37 questions",
+    "detail": "Polysemy #58 · 19 meanings · 37 questions",
     "url": "polysemy-lab.html?module=sound"
   },
   {
@@ -36484,7 +36484,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 61,
     "label": "#61 · now",
-    "detail": "Polysemy #61 · 13 meanings · 27 questions",
+    "detail": "Polysemy #61 · 15 meanings · 27 questions",
     "url": "polysemy-lab.html?module=now"
   },
   {
@@ -36508,7 +36508,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 64,
     "label": "#64 · product",
-    "detail": "Polysemy #64 · 18 meanings · 43 questions",
+    "detail": "Polysemy #64 · 19 meanings · 43 questions",
     "url": "polysemy-lab.html?module=product"
   },
   {
@@ -36524,7 +36524,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 66,
     "label": "#66 · live",
-    "detail": "Polysemy #66 · 26 meanings · 57 questions",
+    "detail": "Polysemy #66 · 27 meanings · 57 questions",
     "url": "polysemy-lab.html?module=live"
   },
   {
@@ -36532,7 +36532,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 67,
     "label": "#67 · stress",
-    "detail": "Polysemy #67 · 17 meanings · 39 questions",
+    "detail": "Polysemy #67 · 18 meanings · 39 questions",
     "url": "polysemy-lab.html?module=stress"
   },
   {
@@ -36540,7 +36540,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 68,
     "label": "#68 · press",
-    "detail": "Polysemy #68 · 20 meanings · 43 questions",
+    "detail": "Polysemy #68 · 21 meanings · 43 questions",
     "url": "polysemy-lab.html?module=press"
   },
   {
@@ -36548,7 +36548,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 69,
     "label": "#69 · put",
-    "detail": "Polysemy #69 · 21 meanings · 43 questions",
+    "detail": "Polysemy #69 · 22 meanings · 43 questions",
     "url": "polysemy-lab.html?module=put"
   },
   {
@@ -36556,7 +36556,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 70,
     "label": "#70 · mention",
-    "detail": "Polysemy #70 · 14 meanings · 31 questions",
+    "detail": "Polysemy #70 · 15 meanings · 31 questions",
     "url": "polysemy-lab.html?module=mention"
   },
   {
@@ -36564,7 +36564,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 71,
     "label": "#71 · believe",
-    "detail": "Polysemy #71 · 23 meanings · 49 questions",
+    "detail": "Polysemy #71 · 24 meanings · 49 questions",
     "url": "polysemy-lab.html?module=believe"
   },
   {
@@ -36572,7 +36572,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 72,
     "label": "#72 · commercial",
-    "detail": "Polysemy #72 · 16 meanings · 35 questions",
+    "detail": "Polysemy #72 · 17 meanings · 35 questions",
     "url": "polysemy-lab.html?module=commercial"
   },
   {
@@ -36596,7 +36596,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 75,
     "label": "#75 · attention",
-    "detail": "Polysemy #75 · 20 meanings · 43 questions",
+    "detail": "Polysemy #75 · 22 meanings · 43 questions",
     "url": "polysemy-lab.html?module=attention"
   },
   {
@@ -36612,7 +36612,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 77,
     "label": "#77 · represent",
-    "detail": "Polysemy #77 · 27 meanings · 63 questions",
+    "detail": "Polysemy #77 · 28 meanings · 63 questions",
     "url": "polysemy-lab.html?module=represent"
   },
   {
@@ -36628,7 +36628,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 79,
     "label": "#79 · crowd",
-    "detail": "Polysemy #79 · 22 meanings · 38 questions",
+    "detail": "Polysemy #79 · 24 meanings · 38 questions",
     "url": "polysemy-lab.html?module=crowd"
   },
   {
@@ -36636,7 +36636,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 80,
     "label": "#80 · exhaust",
-    "detail": "Polysemy #80 · 21 meanings · 45 questions",
+    "detail": "Polysemy #80 · 22 meanings · 45 questions",
     "url": "polysemy-lab.html?module=exhaust"
   },
   {
@@ -36644,7 +36644,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 82,
     "label": "#82 · say",
-    "detail": "Polysemy #82 · 33 meanings · 79 questions",
+    "detail": "Polysemy #82 · 38 meanings · 79 questions",
     "url": "polysemy-lab.html?module=say"
   },
   {
@@ -36652,7 +36652,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 85,
     "label": "#85 · tree",
-    "detail": "Polysemy #85 · 14 meanings · 31 questions",
+    "detail": "Polysemy #85 · 15 meanings · 31 questions",
     "url": "polysemy-lab.html?module=tree"
   },
   {
@@ -36660,7 +36660,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 86,
     "label": "#86 · mistake",
-    "detail": "Polysemy #86 · 27 meanings · 62 questions",
+    "detail": "Polysemy #86 · 30 meanings · 62 questions",
     "url": "polysemy-lab.html?module=mistake"
   },
   {
@@ -36676,7 +36676,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 88,
     "label": "#88 · warm",
-    "detail": "Polysemy #88 · 24 meanings · 51 questions",
+    "detail": "Polysemy #88 · 25 meanings · 51 questions",
     "url": "polysemy-lab.html?module=warm"
   },
   {
@@ -36692,7 +36692,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 90,
     "label": "#90 · mind",
-    "detail": "Polysemy #90 · 40 meanings · 89 questions",
+    "detail": "Polysemy #90 · 42 meanings · 89 questions",
     "url": "polysemy-lab.html?module=mind"
   },
   {
@@ -36708,7 +36708,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 98,
     "label": "#98 · like",
-    "detail": "Polysemy #98 · 31 meanings · 63 questions",
+    "detail": "Polysemy #98 · 32 meanings · 63 questions",
     "url": "polysemy-lab.html?module=like"
   },
   {
@@ -36732,7 +36732,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 101,
     "label": "#101 · first",
-    "detail": "Polysemy #101 · 24 meanings · 51 questions",
+    "detail": "Polysemy #101 · 25 meanings · 51 questions",
     "url": "polysemy-lab.html?module=first"
   },
   {
@@ -36740,7 +36740,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 102,
     "label": "#102 · bitter",
-    "detail": "Polysemy #102 · 20 meanings · 55 questions",
+    "detail": "Polysemy #102 · 21 meanings · 55 questions",
     "url": "polysemy-lab.html?module=bitter"
   },
   {
@@ -36764,7 +36764,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 107,
     "label": "#107 · heart",
-    "detail": "Polysemy #107 · 37 meanings · 79 questions",
+    "detail": "Polysemy #107 · 39 meanings · 79 questions",
     "url": "polysemy-lab.html?module=heart"
   },
   {
@@ -36772,7 +36772,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 114,
     "label": "#114 · habit",
-    "detail": "Polysemy #114 · 20 meanings · 43 questions",
+    "detail": "Polysemy #114 · 21 meanings · 43 questions",
     "url": "polysemy-lab.html?module=habit"
   },
   {
@@ -36788,7 +36788,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 116,
     "label": "#116 · appear",
-    "detail": "Polysemy #116 · 32 meanings · 80 questions",
+    "detail": "Polysemy #116 · 36 meanings · 80 questions",
     "url": "polysemy-lab.html?module=appear"
   },
   {
@@ -36796,7 +36796,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 117,
     "label": "#117 · grow",
-    "detail": "Polysemy #117 · 41 meanings · 101 questions",
+    "detail": "Polysemy #117 · 43 meanings · 101 questions",
     "url": "polysemy-lab.html?module=grow"
   },
   {
@@ -36820,7 +36820,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 120,
     "label": "#120 · quiet",
-    "detail": "Polysemy #120 · 30 meanings · 65 questions",
+    "detail": "Polysemy #120 · 31 meanings · 65 questions",
     "url": "polysemy-lab.html?module=quiet"
   },
   {
@@ -36828,7 +36828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 121,
     "label": "#121 · tell",
-    "detail": "Polysemy #121 · 31 meanings · 79 questions",
+    "detail": "Polysemy #121 · 34 meanings · 79 questions",
     "url": "polysemy-lab.html?module=tell"
   },
   {
@@ -36844,7 +36844,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 123,
     "label": "#123 · deep",
-    "detail": "Polysemy #123 · 28 meanings · 85 questions",
+    "detail": "Polysemy #123 · 31 meanings · 85 questions",
     "url": "polysemy-lab.html?module=deep"
   },
   {
@@ -36860,7 +36860,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 125,
     "label": "#125 · last",
-    "detail": "Polysemy #125 · 33 meanings · 67 questions",
+    "detail": "Polysemy #125 · 34 meanings · 67 questions",
     "url": "polysemy-lab.html?module=last"
   },
   {
@@ -36892,7 +36892,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 129,
     "label": "#129 · learn",
-    "detail": "Polysemy #129 · 27 meanings · 61 questions",
+    "detail": "Polysemy #129 · 29 meanings · 61 questions",
     "url": "polysemy-lab.html?module=learn"
   },
   {
@@ -36908,7 +36908,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 131,
     "label": "#131 · grant",
-    "detail": "Polysemy #131 · 18 meanings · 41 questions",
+    "detail": "Polysemy #131 · 20 meanings · 41 questions",
     "url": "polysemy-lab.html?module=grant"
   },
   {
@@ -36916,7 +36916,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 132,
     "label": "#132 · power",
-    "detail": "Polysemy #132 · 32 meanings · 76 questions",
+    "detail": "Polysemy #132 · 33 meanings · 76 questions",
     "url": "polysemy-lab.html?module=power"
   },
   {
@@ -36924,7 +36924,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 133,
     "label": "#133 · around",
-    "detail": "Polysemy #133 · 25 meanings · 55 questions",
+    "detail": "Polysemy #133 · 26 meanings · 55 questions",
     "url": "polysemy-lab.html?module=around"
   },
   {
@@ -36932,7 +36932,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 134,
     "label": "#134 · long",
-    "detail": "Polysemy #134 · 55 meanings · 151 questions",
+    "detail": "Polysemy #134 · 63 meanings · 151 questions",
     "url": "polysemy-lab.html?module=long"
   },
   {
@@ -36948,7 +36948,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 136,
     "label": "#136 · back",
-    "detail": "Polysemy #136 · 52 meanings · 125 questions",
+    "detail": "Polysemy #136 · 57 meanings · 125 questions",
     "url": "polysemy-lab.html?module=back"
   },
   {
@@ -36956,7 +36956,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 142,
     "label": "#142 · love",
-    "detail": "Polysemy #142 · 25 meanings · 59 questions",
+    "detail": "Polysemy #142 · 26 meanings · 59 questions",
     "url": "polysemy-lab.html?module=love"
   },
   {
@@ -36964,7 +36964,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 143,
     "label": "#143 · action",
-    "detail": "Polysemy #143 · 27 meanings · 63 questions",
+    "detail": "Polysemy #143 · 28 meanings · 63 questions",
     "url": "polysemy-lab.html?module=action"
   },
   {
@@ -36972,7 +36972,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 144,
     "label": "#144 · patient",
-    "detail": "Polysemy #144 · 23 meanings · 49 questions",
+    "detail": "Polysemy #144 · 24 meanings · 49 questions",
     "url": "polysemy-lab.html?module=patient"
   },
   {
@@ -37004,7 +37004,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 148,
     "label": "#148 · big",
-    "detail": "Polysemy #148 · 33 meanings · 81 questions",
+    "detail": "Polysemy #148 · 34 meanings · 81 questions",
     "url": "polysemy-lab.html?module=big"
   },
   {
@@ -37044,7 +37044,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 153,
     "label": "#153 · normal",
-    "detail": "Polysemy #153 · 29 meanings · 80 questions",
+    "detail": "Polysemy #153 · 34 meanings · 80 questions",
     "url": "polysemy-lab.html?module=normal"
   },
   {
@@ -37052,7 +37052,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 154,
     "label": "#154 · soft",
-    "detail": "Polysemy #154 · 37 meanings · 94 questions",
+    "detail": "Polysemy #154 · 43 meanings · 94 questions",
     "url": "polysemy-lab.html?module=soft"
   },
   {
@@ -37068,7 +37068,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 156,
     "label": "#156 · mother",
-    "detail": "Polysemy #156 · 22 meanings · 59 questions",
+    "detail": "Polysemy #156 · 24 meanings · 59 questions",
     "url": "polysemy-lab.html?module=mother"
   },
   {
@@ -37084,7 +37084,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 158,
     "label": "#158 · win",
-    "detail": "Polysemy #158 · 31 meanings · 88 questions",
+    "detail": "Polysemy #158 · 40 meanings · 88 questions",
     "url": "polysemy-lab.html?module=win"
   },
   {
@@ -37092,7 +37092,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 159,
     "label": "#159 · spot",
-    "detail": "Polysemy #159 · 27 meanings · 57 questions",
+    "detail": "Polysemy #159 · 28 meanings · 57 questions",
     "url": "polysemy-lab.html?module=spot"
   },
   {
@@ -37100,7 +37100,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 160,
     "label": "#160 · break",
-    "detail": "Polysemy #160 · 42 meanings · 93 questions",
+    "detail": "Polysemy #160 · 44 meanings · 93 questions",
     "url": "polysemy-lab.html?module=break"
   },
   {
@@ -37108,7 +37108,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 161,
     "label": "#161 · trust",
-    "detail": "Polysemy #161 · 29 meanings · 62 questions",
+    "detail": "Polysemy #161 · 31 meanings · 62 questions",
     "url": "polysemy-lab.html?module=trust"
   },
   {
@@ -37124,7 +37124,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 163,
     "label": "#163 · top",
-    "detail": "Polysemy #163 · 30 meanings · 57 questions",
+    "detail": "Polysemy #163 · 32 meanings · 57 questions",
     "url": "polysemy-lab.html?module=top"
   },
   {
@@ -37132,7 +37132,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 164,
     "label": "#164 · remember",
-    "detail": "Polysemy #164 · 24 meanings · 43 questions",
+    "detail": "Polysemy #164 · 25 meanings · 43 questions",
     "url": "polysemy-lab.html?module=remember"
   },
   {
@@ -37236,7 +37236,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 177,
     "label": "#177 · moment",
-    "detail": "Polysemy #177 · 28 meanings · 61 questions",
+    "detail": "Polysemy #177 · 29 meanings · 61 questions",
     "url": "polysemy-lab.html?module=moment"
   },
   {
@@ -37252,7 +37252,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 179,
     "label": "#179 · volume",
-    "detail": "Polysemy #179 · 19 meanings · 37 questions",
+    "detail": "Polysemy #179 · 20 meanings · 37 questions",
     "url": "polysemy-lab.html?module=volume"
   },
   {
@@ -37276,7 +37276,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 182,
     "label": "#182 · trap",
-    "detail": "Polysemy #182 · 26 meanings · 49 questions",
+    "detail": "Polysemy #182 · 27 meanings · 49 questions",
     "url": "polysemy-lab.html?module=trap"
   },
   {
@@ -37308,7 +37308,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 186,
     "label": "#186 · little",
-    "detail": "Polysemy #186 · 26 meanings · 51 questions",
+    "detail": "Polysemy #186 · 29 meanings · 51 questions",
     "url": "polysemy-lab.html?module=little"
   },
   {
@@ -37348,7 +37348,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 191,
     "label": "#191 · come",
-    "detail": "Polysemy #191 · 12 meanings · 23 questions",
+    "detail": "Polysemy #191 · 13 meanings · 23 questions",
     "url": "polysemy-lab.html?module=come"
   },
   {
@@ -37428,7 +37428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 201,
     "label": "#201 · okay",
-    "detail": "Polysemy #201 · 25 meanings · 51 questions",
+    "detail": "Polysemy #201 · 26 meanings · 51 questions",
     "url": "polysemy-lab.html?module=okay"
   },
   {
@@ -37444,7 +37444,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 203,
     "label": "#203 · stand",
-    "detail": "Polysemy #203 · 19 meanings · 41 questions",
+    "detail": "Polysemy #203 · 21 meanings · 41 questions",
     "url": "polysemy-lab.html?module=stand"
   },
   {
@@ -37484,7 +37484,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 208,
     "label": "#208 · light",
-    "detail": "Polysemy #208 · 46 meanings · 89 questions",
+    "detail": "Polysemy #208 · 47 meanings · 89 questions",
     "url": "polysemy-lab.html?module=light"
   },
   {
@@ -37500,7 +37500,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 210,
     "label": "#210 · wear",
-    "detail": "Polysemy #210 · 36 meanings · 61 questions",
+    "detail": "Polysemy #210 · 37 meanings · 61 questions",
     "url": "polysemy-lab.html?module=wear"
   },
   {
@@ -37532,7 +37532,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 214,
     "label": "#214 · speed",
-    "detail": "Polysemy #214 · 25 meanings · 49 questions",
+    "detail": "Polysemy #214 · 26 meanings · 49 questions",
     "url": "polysemy-lab.html?module=speed"
   },
   {
@@ -37564,7 +37564,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 218,
     "label": "#218 · talk",
-    "detail": "Polysemy #218 · 41 meanings · 73 questions",
+    "detail": "Polysemy #218 · 44 meanings · 73 questions",
     "url": "polysemy-lab.html?module=talk"
   },
   {
@@ -37612,7 +37612,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 224,
     "label": "#224 · high",
-    "detail": "Polysemy #224 · 25 meanings · 91 questions",
+    "detail": "Polysemy #224 · 38 meanings · 91 questions",
     "url": "polysemy-lab.html?module=high"
   },
   {
@@ -37628,7 +37628,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 226,
     "label": "#226 · confidence",
-    "detail": "Polysemy #226 · 22 meanings · 63 questions",
+    "detail": "Polysemy #226 · 23 meanings · 63 questions",
     "url": "polysemy-lab.html?module=confidence"
   },
   {
@@ -37660,7 +37660,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 230,
     "label": "#230 · turn",
-    "detail": "Polysemy #230 · 35 meanings · 75 questions",
+    "detail": "Polysemy #230 · 36 meanings · 75 questions",
     "url": "polysemy-lab.html?module=turn"
   },
   {
@@ -37668,7 +37668,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 231,
     "label": "#231 · pass",
-    "detail": "Polysemy #231 · 39 meanings · 91 questions",
+    "detail": "Polysemy #231 · 43 meanings · 91 questions",
     "url": "polysemy-lab.html?module=pass"
   },
   {
@@ -37676,7 +37676,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 233,
     "label": "#233 · class",
-    "detail": "Polysemy #233 · 24 meanings · 55 questions",
+    "detail": "Polysemy #233 · 25 meanings · 55 questions",
     "url": "polysemy-lab.html?module=class"
   },
   {
@@ -37684,7 +37684,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 234,
     "label": "#234 · end",
-    "detail": "Polysemy #234 · 31 meanings · 83 questions",
+    "detail": "Polysemy #234 · 35 meanings · 83 questions",
     "url": "polysemy-lab.html?module=end"
   },
   {
@@ -37708,7 +37708,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 237,
     "label": "#237 · station",
-    "detail": "Polysemy #237 · 20 meanings · 47 questions",
+    "detail": "Polysemy #237 · 22 meanings · 47 questions",
     "url": "polysemy-lab.html?module=station"
   },
   {
@@ -37716,7 +37716,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 238,
     "label": "#238 · meet",
-    "detail": "Polysemy #238 · 30 meanings · 69 questions",
+    "detail": "Polysemy #238 · 32 meanings · 69 questions",
     "url": "polysemy-lab.html?module=meet"
   },
   {
@@ -37724,7 +37724,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 239,
     "label": "#239 · room",
-    "detail": "Polysemy #239 · 19 meanings · 43 questions",
+    "detail": "Polysemy #239 · 21 meanings · 43 questions",
     "url": "polysemy-lab.html?module=room"
   },
   {
@@ -37732,7 +37732,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 240,
     "label": "#240 · school",
-    "detail": "Polysemy #240 · 23 meanings · 57 questions",
+    "detail": "Polysemy #240 · 25 meanings · 57 questions",
     "url": "polysemy-lab.html?module=school"
   },
   {
@@ -37740,7 +37740,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 241,
     "label": "#241 · minute",
-    "detail": "Polysemy #241 · 17 meanings · 35 questions",
+    "detail": "Polysemy #241 · 18 meanings · 35 questions",
     "url": "polysemy-lab.html?module=minute"
   },
   {
@@ -37748,7 +37748,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 242,
     "label": "#242 · second",
-    "detail": "Polysemy #242 · 28 meanings · 72 questions",
+    "detail": "Polysemy #242 · 32 meanings · 72 questions",
     "url": "polysemy-lab.html?module=second"
   },
   {
@@ -37788,7 +37788,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 247,
     "label": "#247 · want",
-    "detail": "Polysemy #247 · 19 meanings · 49 questions",
+    "detail": "Polysemy #247 · 22 meanings · 49 questions",
     "url": "polysemy-lab.html?module=want"
   },
   {
@@ -37804,7 +37804,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 249,
     "label": "#249 · become",
-    "detail": "Polysemy #249 · 13 meanings · 37 questions",
+    "detail": "Polysemy #249 · 15 meanings · 37 questions",
     "url": "polysemy-lab.html?module=become"
   },
   {
@@ -37820,7 +37820,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 251,
     "label": "#251 · quick",
-    "detail": "Polysemy #251 · 22 meanings · 63 questions",
+    "detail": "Polysemy #251 · 28 meanings · 63 questions",
     "url": "polysemy-lab.html?module=quick"
   },
   {
@@ -37828,7 +37828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 252,
     "label": "#252 · draw",
-    "detail": "Polysemy #252 · 28 meanings · 63 questions",
+    "detail": "Polysemy #252 · 29 meanings · 63 questions",
     "url": "polysemy-lab.html?module=draw"
   },
   {
@@ -37836,7 +37836,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 253,
     "label": "#253 · play",
-    "detail": "Polysemy #253 · 39 meanings · 81 questions",
+    "detail": "Polysemy #253 · 41 meanings · 81 questions",
     "url": "polysemy-lab.html?module=play"
   },
   {
@@ -37844,7 +37844,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 254,
     "label": "#254 · help",
-    "detail": "Polysemy #254 · 27 meanings · 73 questions",
+    "detail": "Polysemy #254 · 31 meanings · 73 questions",
     "url": "polysemy-lab.html?module=help"
   },
   {
@@ -37852,7 +37852,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 255,
     "label": "#255 · will",
-    "detail": "Polysemy #255 · 31 meanings · 71 questions",
+    "detail": "Polysemy #255 · 33 meanings · 71 questions",
     "url": "polysemy-lab.html?module=will"
   },
   {
@@ -37860,7 +37860,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 256,
     "label": "#256 · can",
-    "detail": "Polysemy #256 · 36 meanings · 87 questions",
+    "detail": "Polysemy #256 · 38 meanings · 87 questions",
     "url": "polysemy-lab.html?module=can"
   },
   {
@@ -37908,7 +37908,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 262,
     "label": "#262 · open",
-    "detail": "Polysemy #262 · 37 meanings · 81 questions",
+    "detail": "Polysemy #262 · 40 meanings · 81 questions",
     "url": "polysemy-lab.html?module=open"
   },
   {
@@ -37964,7 +37964,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 269,
     "label": "#269 · leave",
-    "detail": "Polysemy #269 · 33 meanings · 69 questions",
+    "detail": "Polysemy #269 · 34 meanings · 69 questions",
     "url": "polysemy-lab.html?module=leave"
   },
   {
@@ -38036,7 +38036,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 278,
     "label": "#278 · thin",
-    "detail": "Polysemy #278 · 20 meanings · 41 questions",
+    "detail": "Polysemy #278 · 22 meanings · 41 questions",
     "url": "polysemy-lab.html?module=thin"
   },
   {
@@ -38044,7 +38044,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 279,
     "label": "#279 · organise",
-    "detail": "Polysemy #279 · 20 meanings · 45 questions",
+    "detail": "Polysemy #279 · 21 meanings · 45 questions",
     "url": "polysemy-lab.html?module=organise"
   },
   {
@@ -38068,7 +38068,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 282,
     "label": "#282 · good",
-    "detail": "Polysemy #282 · 26 meanings · 53 questions",
+    "detail": "Polysemy #282 · 27 meanings · 53 questions",
     "url": "polysemy-lab.html?module=good"
   },
   {
@@ -38108,7 +38108,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 287,
     "label": "#287 · dry",
-    "detail": "Polysemy #287 · 27 meanings · 53 questions",
+    "detail": "Polysemy #287 · 29 meanings · 53 questions",
     "url": "polysemy-lab.html?module=dry"
   },
   {
@@ -38116,7 +38116,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 288,
     "label": "#288 · expect",
-    "detail": "Polysemy #288 · 23 meanings · 45 questions",
+    "detail": "Polysemy #288 · 24 meanings · 45 questions",
     "url": "polysemy-lab.html?module=expect"
   },
   {
@@ -38124,7 +38124,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 289,
     "label": "#289 · name",
-    "detail": "Polysemy #289 · 31 meanings · 59 questions",
+    "detail": "Polysemy #289 · 32 meanings · 59 questions",
     "url": "polysemy-lab.html?module=name"
   },
   {
@@ -38140,7 +38140,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 291,
     "label": "#291 · glass",
-    "detail": "Polysemy #291 · 22 meanings · 43 questions",
+    "detail": "Polysemy #291 · 23 meanings · 43 questions",
     "url": "polysemy-lab.html?module=glass"
   },
   {
@@ -38148,7 +38148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 292,
     "label": "#292 · dark",
-    "detail": "Polysemy #292 · 24 meanings · 45 questions",
+    "detail": "Polysemy #292 · 26 meanings · 45 questions",
     "url": "polysemy-lab.html?module=dark"
   },
   {
@@ -38188,7 +38188,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 297,
     "label": "#297 · sense",
-    "detail": "Polysemy #297 · 14 meanings · 30 questions",
+    "detail": "Polysemy #297 · 15 meanings · 30 questions",
     "url": "polysemy-lab.html?module=sense"
   },
   {
@@ -38196,7 +38196,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 298,
     "label": "#298 · mean",
-    "detail": "Polysemy #298 · 44 meanings · 77 questions",
+    "detail": "Polysemy #298 · 45 meanings · 77 questions",
     "url": "polysemy-lab.html?module=mean"
   },
   {
@@ -38228,7 +38228,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 302,
     "label": "#302 · angle",
-    "detail": "Polysemy #302 · 23 meanings · 43 questions",
+    "detail": "Polysemy #302 · 25 meanings · 43 questions",
     "url": "polysemy-lab.html?module=angle"
   },
   {
@@ -38236,7 +38236,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 303,
     "label": "#303 · torch",
-    "detail": "Polysemy #303 · 33 meanings · 68 questions",
+    "detail": "Polysemy #303 · 34 meanings · 68 questions",
     "url": "polysemy-lab.html?module=torch"
   },
   {
@@ -38244,7 +38244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 304,
     "label": "#304 · weak",
-    "detail": "Polysemy #304 · 24 meanings · 47 questions",
+    "detail": "Polysemy #304 · 25 meanings · 47 questions",
     "url": "polysemy-lab.html?module=weak"
   },
   {
@@ -38268,7 +38268,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 307,
     "label": "#307 · park",
-    "detail": "Polysemy #307 · 8 meanings · 19 questions",
+    "detail": "Polysemy #307 · 9 meanings · 19 questions",
     "url": "polysemy-lab.html?module=park"
   },
   {
@@ -38276,7 +38276,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 308,
     "label": "#308 · much",
-    "detail": "Polysemy #308 · 20 meanings · 49 questions",
+    "detail": "Polysemy #308 · 22 meanings · 49 questions",
     "url": "polysemy-lab.html?module=much"
   },
   {
@@ -38300,7 +38300,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 311,
     "label": "#311 · attend",
-    "detail": "Polysemy #311 · 16 meanings · 33 questions",
+    "detail": "Polysemy #311 · 17 meanings · 33 questions",
     "url": "polysemy-lab.html?module=attend"
   },
   {
@@ -38324,7 +38324,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 314,
     "label": "#314 · flat",
-    "detail": "Polysemy #314 · 11 meanings · 28 questions",
+    "detail": "Polysemy #314 · 15 meanings · 28 questions",
     "url": "polysemy-lab.html?module=flat"
   },
   {
@@ -38388,7 +38388,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 322,
     "label": "#322 · use",
-    "detail": "Polysemy #322 · 26 meanings · 61 questions",
+    "detail": "Polysemy #322 · 27 meanings · 61 questions",
     "url": "polysemy-lab.html?module=use"
   },
   {
@@ -38420,7 +38420,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 326,
     "label": "#326 · get",
-    "detail": "Polysemy #326 · 33 meanings · 71 questions",
+    "detail": "Polysemy #326 · 34 meanings · 71 questions",
     "url": "polysemy-lab.html?module=get"
   },
   {
@@ -38436,7 +38436,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 328,
     "label": "#328 · so",
-    "detail": "Polysemy #328 · 22 meanings · 49 questions",
+    "detail": "Polysemy #328 · 24 meanings · 49 questions",
     "url": "polysemy-lab.html?module=so"
   },
   {
@@ -38452,7 +38452,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 330,
     "label": "#330 · do",
-    "detail": "Polysemy #330 · 38 meanings · 83 questions",
+    "detail": "Polysemy #330 · 39 meanings · 83 questions",
     "url": "polysemy-lab.html?module=do"
   },
   {
@@ -38460,7 +38460,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 331,
     "label": "#331 · give",
-    "detail": "Polysemy #331 · 44 meanings · 81 questions",
+    "detail": "Polysemy #331 · 45 meanings · 81 questions",
     "url": "polysemy-lab.html?module=give"
   },
   {
@@ -38468,7 +38468,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 332,
     "label": "#332 · formal",
-    "detail": "Polysemy #332 · 32 meanings · 67 questions",
+    "detail": "Polysemy #332 · 33 meanings · 67 questions",
     "url": "polysemy-lab.html?module=formal"
   },
   {
@@ -38476,7 +38476,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 333,
     "label": "#333 · public",
-    "detail": "Polysemy #333 · 38 meanings · 75 questions",
+    "detail": "Polysemy #333 · 40 meanings · 75 questions",
     "url": "polysemy-lab.html?module=public"
   },
   {
@@ -38484,7 +38484,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 334,
     "label": "#334 · race",
-    "detail": "Polysemy #334 · 24 meanings · 57 questions",
+    "detail": "Polysemy #334 · 25 meanings · 57 questions",
     "url": "polysemy-lab.html?module=race"
   },
   {
@@ -38492,7 +38492,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 335,
     "label": "#335 · blank",
-    "detail": "Polysemy #335 · 28 meanings · 63 questions",
+    "detail": "Polysemy #335 · 30 meanings · 63 questions",
     "url": "polysemy-lab.html?module=blank"
   },
   {
@@ -38500,7 +38500,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 336,
     "label": "#336 · keep",
-    "detail": "Polysemy #336 · 46 meanings · 107 questions",
+    "detail": "Polysemy #336 · 48 meanings · 107 questions",
     "url": "polysemy-lab.html?module=keep"
   },
   {
@@ -38508,7 +38508,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 337,
     "label": "#337 · handle",
-    "detail": "Polysemy #337 · 34 meanings · 79 questions",
+    "detail": "Polysemy #337 · 38 meanings · 79 questions",
     "url": "polysemy-lab.html?module=handle"
   },
   {
@@ -38516,7 +38516,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 338,
     "label": "#338 · script",
-    "detail": "Polysemy #338 · 23 meanings · 55 questions",
+    "detail": "Polysemy #338 · 24 meanings · 55 questions",
     "url": "polysemy-lab.html?module=script"
   },
   {
@@ -38540,7 +38540,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 341,
     "label": "#341 · sort",
-    "detail": "Polysemy #341 · 24 meanings · 53 questions",
+    "detail": "Polysemy #341 · 25 meanings · 53 questions",
     "url": "polysemy-lab.html?module=sort"
   },
   {
@@ -38548,7 +38548,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 342,
     "label": "#342 · physical",
-    "detail": "Polysemy #342 · 28 meanings · 61 questions",
+    "detail": "Polysemy #342 · 29 meanings · 61 questions",
     "url": "polysemy-lab.html?module=physical"
   },
   {
@@ -38572,7 +38572,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 346,
     "label": "#346 · wide",
-    "detail": "Polysemy #346 · 28 meanings · 71 questions",
+    "detail": "Polysemy #346 · 31 meanings · 71 questions",
     "url": "polysemy-lab.html?module=wide"
   },
   {
@@ -38580,7 +38580,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 347,
     "label": "#347 · shade",
-    "detail": "Polysemy #347 · 20 meanings · 49 questions",
+    "detail": "Polysemy #347 · 22 meanings · 49 questions",
     "url": "polysemy-lab.html?module=shade"
   },
   {
@@ -38604,7 +38604,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 350,
     "label": "#350 · take",
-    "detail": "Polysemy #350 · 39 meanings · 81 questions",
+    "detail": "Polysemy #350 · 40 meanings · 81 questions",
     "url": "polysemy-lab.html?module=take"
   },
   {
@@ -38628,7 +38628,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 354,
     "label": "#354 · bridge",
-    "detail": "Polysemy #354 · 27 meanings · 49 questions",
+    "detail": "Polysemy #354 · 28 meanings · 49 questions",
     "url": "polysemy-lab.html?module=bridge"
   },
   {
@@ -38668,7 +38668,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 359,
     "label": "#359 · route",
-    "detail": "Polysemy #359 · 9 meanings · 19 questions",
+    "detail": "Polysemy #359 · 10 meanings · 19 questions",
     "url": "polysemy-lab.html?module=route"
   },
   {
@@ -38692,7 +38692,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 362,
     "label": "#362 · history",
-    "detail": "Polysemy #362 · 12 meanings · 29 questions",
+    "detail": "Polysemy #362 · 14 meanings · 29 questions",
     "url": "polysemy-lab.html?module=history"
   },
   {
@@ -38772,7 +38772,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 372,
     "label": "#372 · secondary",
-    "detail": "Polysemy #372 · 15 meanings · 31 questions",
+    "detail": "Polysemy #372 · 16 meanings · 31 questions",
     "url": "polysemy-lab.html?module=secondary"
   },
   {
@@ -38780,7 +38780,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 373,
     "label": "#373 · form",
-    "detail": "Polysemy #373 · 24 meanings · 61 questions",
+    "detail": "Polysemy #373 · 25 meanings · 61 questions",
     "url": "polysemy-lab.html?module=form"
   },
   {
@@ -38796,7 +38796,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 375,
     "label": "#375 · junior",
-    "detail": "Polysemy #375 · 13 meanings · 27 questions",
+    "detail": "Polysemy #375 · 14 meanings · 27 questions",
     "url": "polysemy-lab.html?module=junior"
   },
   {
@@ -38820,7 +38820,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 378,
     "label": "#378 · such",
-    "detail": "Polysemy #378 · 8 meanings · 17 questions",
+    "detail": "Polysemy #378 · 9 meanings · 17 questions",
     "url": "polysemy-lab.html?module=such"
   },
   {
@@ -38828,7 +38828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 379,
     "label": "#379 · even",
-    "detail": "Polysemy #379 · 20 meanings · 43 questions",
+    "detail": "Polysemy #379 · 21 meanings · 43 questions",
     "url": "polysemy-lab.html?module=even"
   },
   {
@@ -38868,7 +38868,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 384,
     "label": "#384 · recess",
-    "detail": "Polysemy #384 · 10 meanings · 23 questions",
+    "detail": "Polysemy #384 · 12 meanings · 23 questions",
     "url": "polysemy-lab.html?module=recess"
   },
   {
@@ -38900,7 +38900,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 388,
     "label": "#388 · count",
-    "detail": "Polysemy #388 · 23 meanings · 51 questions",
+    "detail": "Polysemy #388 · 24 meanings · 51 questions",
     "url": "polysemy-lab.html?module=count"
   },
   {
@@ -38916,7 +38916,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 390,
     "label": "#390 · before",
-    "detail": "Polysemy #390 · 17 meanings · 33 questions",
+    "detail": "Polysemy #390 · 18 meanings · 33 questions",
     "url": "polysemy-lab.html?module=before"
   },
   {
@@ -38924,7 +38924,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 391,
     "label": "#391 · however",
-    "detail": "Polysemy #391 · 10 meanings · 23 questions",
+    "detail": "Polysemy #391 · 11 meanings · 23 questions",
     "url": "polysemy-lab.html?module=however"
   },
   {
@@ -38932,7 +38932,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 392,
     "label": "#392 · rose",
-    "detail": "Polysemy #392 · 16 meanings · 37 questions",
+    "detail": "Polysemy #392 · 19 meanings · 37 questions",
     "url": "polysemy-lab.html?module=rose"
   },
   {
@@ -38940,7 +38940,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 393,
     "label": "#393 · gift",
-    "detail": "Polysemy #393 · 24 meanings · 45 questions",
+    "detail": "Polysemy #393 · 25 meanings · 45 questions",
     "url": "polysemy-lab.html?module=gift"
   },
   {
@@ -38980,7 +38980,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 398,
     "label": "#398 · share",
-    "detail": "Polysemy #398 · 13 meanings · 29 questions",
+    "detail": "Polysemy #398 · 14 meanings · 29 questions",
     "url": "polysemy-lab.html?module=share"
   },
   {
@@ -38988,7 +38988,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 399,
     "label": "#399 · chance",
-    "detail": "Polysemy #399 · 12 meanings · 28 questions",
+    "detail": "Polysemy #399 · 13 meanings · 28 questions",
     "url": "polysemy-lab.html?module=chance"
   },
   {
@@ -39012,7 +39012,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 402,
     "label": "#402 · job",
-    "detail": "Polysemy #402 · 24 meanings · 51 questions",
+    "detail": "Polysemy #402 · 25 meanings · 51 questions",
     "url": "polysemy-lab.html?module=job"
   },
   {
@@ -39052,7 +39052,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 407,
     "label": "#407 · fill",
-    "detail": "Polysemy #407 · 28 meanings · 59 questions",
+    "detail": "Polysemy #407 · 30 meanings · 59 questions",
     "url": "polysemy-lab.html?module=fill"
   },
   {
@@ -39076,7 +39076,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 410,
     "label": "#410 · earth",
-    "detail": "Polysemy #410 · 19 meanings · 43 questions",
+    "detail": "Polysemy #410 · 20 meanings · 43 questions",
     "url": "polysemy-lab.html?module=earth"
   },
   {
@@ -39116,7 +39116,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 415,
     "label": "#415 · clean",
-    "detail": "Polysemy #415 · 28 meanings · 58 questions",
+    "detail": "Polysemy #415 · 29 meanings · 58 questions",
     "url": "polysemy-lab.html?module=clean"
   },
   {
@@ -39124,7 +39124,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 416,
     "label": "#416 · care",
-    "detail": "Polysemy #416 · 23 meanings · 55 questions",
+    "detail": "Polysemy #416 · 26 meanings · 55 questions",
     "url": "polysemy-lab.html?module=care"
   },
   {
@@ -39140,7 +39140,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 418,
     "label": "#418 · gear",
-    "detail": "Polysemy #418 · 12 meanings · 23 questions",
+    "detail": "Polysemy #418 · 13 meanings · 23 questions",
     "url": "polysemy-lab.html?module=gear"
   },
   {
@@ -39148,7 +39148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 419,
     "label": "#419 · happy",
-    "detail": "Polysemy #419 · 18 meanings · 43 questions",
+    "detail": "Polysemy #419 · 20 meanings · 43 questions",
     "url": "polysemy-lab.html?module=happy"
   },
   {
@@ -39172,7 +39172,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 422,
     "label": "#422 · decide",
-    "detail": "Polysemy #422 · 28 meanings · 55 questions",
+    "detail": "Polysemy #422 · 29 meanings · 55 questions",
     "url": "polysemy-lab.html?module=decide"
   },
   {
@@ -39188,7 +39188,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 424,
     "label": "#424 · sink",
-    "detail": "Polysemy #424 · 8 meanings · 21 questions",
+    "detail": "Polysemy #424 · 9 meanings · 21 questions",
     "url": "polysemy-lab.html?module=sink"
   },
   {
@@ -39204,7 +39204,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 426,
     "label": "#426 · add",
-    "detail": "Polysemy #426 · 22 meanings · 51 questions",
+    "detail": "Polysemy #426 · 24 meanings · 51 questions",
     "url": "polysemy-lab.html?module=add"
   },
   {
@@ -39244,7 +39244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 431,
     "label": "#431 · page",
-    "detail": "Polysemy #431 · 24 meanings · 51 questions",
+    "detail": "Polysemy #431 · 25 meanings · 51 questions",
     "url": "polysemy-lab.html?module=page"
   },
   {
@@ -39308,7 +39308,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 439,
     "label": "#439 · mark",
-    "detail": "Polysemy #439 · 29 meanings · 71 questions",
+    "detail": "Polysemy #439 · 32 meanings · 71 questions",
     "url": "polysemy-lab.html?module=mark"
   },
   {
@@ -39340,7 +39340,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 443,
     "label": "#443 · every",
-    "detail": "Polysemy #443 · 17 meanings · 39 questions",
+    "detail": "Polysemy #443 · 18 meanings · 39 questions",
     "url": "polysemy-lab.html?module=every"
   },
   {
@@ -39404,7 +39404,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 451,
     "label": "#451 · nature",
-    "detail": "Polysemy #451 · 11 meanings · 23 questions",
+    "detail": "Polysemy #451 · 14 meanings · 23 questions",
     "url": "polysemy-lab.html?module=nature"
   },
   {
@@ -39412,7 +39412,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 452,
     "label": "#452 · picture",
-    "detail": "Polysemy #452 · 17 meanings · 39 questions",
+    "detail": "Polysemy #452 · 19 meanings · 39 questions",
     "url": "polysemy-lab.html?module=picture"
   },
   {
@@ -39460,7 +39460,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 458,
     "label": "#458 · edit",
-    "detail": "Polysemy #458 · 29 meanings · 57 questions",
+    "detail": "Polysemy #458 · 31 meanings · 57 questions",
     "url": "polysemy-lab.html?module=edit"
   },
   {
@@ -39476,7 +39476,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 460,
     "label": "#460 · order",
-    "detail": "Polysemy #460 · 41 meanings · 89 questions",
+    "detail": "Polysemy #460 · 42 meanings · 89 questions",
     "url": "polysemy-lab.html?module=order"
   },
   {
@@ -39484,7 +39484,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 461,
     "label": "#461 · wild",
-    "detail": "Polysemy #461 · 12 meanings · 26 questions",
+    "detail": "Polysemy #461 · 13 meanings · 26 questions",
     "url": "polysemy-lab.html?module=wild"
   },
   {
@@ -39516,7 +39516,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 465,
     "label": "#465 · speaker",
-    "detail": "Polysemy #465 · 21 meanings · 43 questions",
+    "detail": "Polysemy #465 · 22 meanings · 43 questions",
     "url": "polysemy-lab.html?module=speaker"
   },
   {
@@ -39524,7 +39524,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 466,
     "label": "#466 · classic",
-    "detail": "Polysemy #466 · 13 meanings · 23 questions",
+    "detail": "Polysemy #466 · 14 meanings · 23 questions",
     "url": "polysemy-lab.html?module=classic"
   },
   {
@@ -39532,7 +39532,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 467,
     "label": "#467 · original",
-    "detail": "Polysemy #467 · 15 meanings · 34 questions",
+    "detail": "Polysemy #467 · 17 meanings · 34 questions",
     "url": "polysemy-lab.html?module=original"
   },
   {
@@ -39556,7 +39556,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 470,
     "label": "#470 · fortune",
-    "detail": "Polysemy #470 · 17 meanings · 39 questions",
+    "detail": "Polysemy #470 · 18 meanings · 39 questions",
     "url": "polysemy-lab.html?module=fortune"
   },
   {
@@ -39580,7 +39580,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 473,
     "label": "#473 · regular",
-    "detail": "Polysemy #473 · 10 meanings · 23 questions",
+    "detail": "Polysemy #473 · 11 meanings · 23 questions",
     "url": "polysemy-lab.html?module=regular"
   },
   {
@@ -39588,7 +39588,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 474,
     "label": "#474 · anything",
-    "detail": "Polysemy #474 · 16 meanings · 38 questions",
+    "detail": "Polysemy #474 · 18 meanings · 38 questions",
     "url": "polysemy-lab.html?module=anything"
   },
   {
@@ -39612,7 +39612,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 477,
     "label": "#477 · alone",
-    "detail": "Polysemy #477 · 8 meanings · 18 questions",
+    "detail": "Polysemy #477 · 9 meanings · 18 questions",
     "url": "polysemy-lab.html?module=alone"
   },
   {
@@ -39620,7 +39620,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 478,
     "label": "#478 · afford",
-    "detail": "Polysemy #478 · 10 meanings · 27 questions",
+    "detail": "Polysemy #478 · 11 meanings · 27 questions",
     "url": "polysemy-lab.html?module=afford"
   },
   {
@@ -39636,7 +39636,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 480,
     "label": "#480 · hold",
-    "detail": "Polysemy #480 · 34 meanings · 112 questions",
+    "detail": "Polysemy #480 · 38 meanings · 112 questions",
     "url": "polysemy-lab.html?module=hold"
   },
   {
@@ -39660,7 +39660,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 484,
     "label": "#484 · section",
-    "detail": "Polysemy #484 · 25 meanings · 53 questions",
+    "detail": "Polysemy #484 · 26 meanings · 53 questions",
     "url": "polysemy-lab.html?module=section"
   },
   {
@@ -39668,7 +39668,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 485,
     "label": "#485 · develop",
-    "detail": "Polysemy #485 · 13 meanings · 24 questions",
+    "detail": "Polysemy #485 · 14 meanings · 24 questions",
     "url": "polysemy-lab.html?module=develop"
   },
   {
@@ -39676,7 +39676,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 486,
     "label": "#486 · cheap",
-    "detail": "Polysemy #486 · 16 meanings · 33 questions",
+    "detail": "Polysemy #486 · 18 meanings · 33 questions",
     "url": "polysemy-lab.html?module=cheap"
   },
   {
@@ -39700,7 +39700,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 489,
     "label": "#489 · society",
-    "detail": "Polysemy #489 · 10 meanings · 18 questions",
+    "detail": "Polysemy #489 · 12 meanings · 18 questions",
     "url": "polysemy-lab.html?module=society"
   },
   {
@@ -39708,7 +39708,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 490,
     "label": "#490 · piece",
-    "detail": "Polysemy #490 · 17 meanings · 40 questions",
+    "detail": "Polysemy #490 · 18 meanings · 40 questions",
     "url": "polysemy-lab.html?module=piece"
   },
   {
@@ -39724,7 +39724,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 492,
     "label": "#492 · publicly",
-    "detail": "Polysemy #492 · 25 meanings · 57 questions",
+    "detail": "Polysemy #492 · 26 meanings · 57 questions",
     "url": "polysemy-lab.html?module=publicly"
   },
   {
@@ -39740,7 +39740,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 494,
     "label": "#494 · worth",
-    "detail": "Polysemy #494 · 16 meanings · 40 questions",
+    "detail": "Polysemy #494 · 17 meanings · 40 questions",
     "url": "polysemy-lab.html?module=worth"
   },
   {
@@ -39772,7 +39772,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 498,
     "label": "#498 · function",
-    "detail": "Polysemy #498 · 14 meanings · 34 questions",
+    "detail": "Polysemy #498 · 16 meanings · 34 questions",
     "url": "polysemy-lab.html?module=function"
   },
   {
@@ -39796,7 +39796,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 501,
     "label": "#501 · belief",
-    "detail": "Polysemy #501 · 9 meanings · 15 questions",
+    "detail": "Polysemy #501 · 10 meanings · 15 questions",
     "url": "polysemy-lab.html?module=belief"
   },
   {
@@ -39804,7 +39804,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 502,
     "label": "#502 · magic",
-    "detail": "Polysemy #502 · 13 meanings · 32 questions",
+    "detail": "Polysemy #502 · 14 meanings · 32 questions",
     "url": "polysemy-lab.html?module=magic"
   },
   {
@@ -39828,7 +39828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 505,
     "label": "#505 · dive",
-    "detail": "Polysemy #505 · 10 meanings · 22 questions",
+    "detail": "Polysemy #505 · 12 meanings · 22 questions",
     "url": "polysemy-lab.html?module=dive"
   },
   {
@@ -39836,7 +39836,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 506,
     "label": "#506 · hang",
-    "detail": "Polysemy #506 · 13 meanings · 30 questions",
+    "detail": "Polysemy #506 · 15 meanings · 30 questions",
     "url": "polysemy-lab.html?module=hang"
   },
   {
@@ -39868,7 +39868,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 510,
     "label": "#510 · spark",
-    "detail": "Polysemy #510 · 15 meanings · 34 questions",
+    "detail": "Polysemy #510 · 16 meanings · 34 questions",
     "url": "polysemy-lab.html?module=spark"
   },
   {
@@ -39900,7 +39900,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 514,
     "label": "#514 · gentle",
-    "detail": "Polysemy #514 · 11 meanings · 24 questions",
+    "detail": "Polysemy #514 · 12 meanings · 24 questions",
     "url": "polysemy-lab.html?module=gentle"
   },
   {
@@ -39916,7 +39916,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 516,
     "label": "#516 · excuse",
-    "detail": "Polysemy #516 · 24 meanings · 57 questions",
+    "detail": "Polysemy #516 · 26 meanings · 57 questions",
     "url": "polysemy-lab.html?module=excuse"
   },
   {
@@ -39932,7 +39932,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 518,
     "label": "#518 · library",
-    "detail": "Polysemy #518 · 13 meanings · 33 questions",
+    "detail": "Polysemy #518 · 17 meanings · 33 questions",
     "url": "polysemy-lab.html?module=library"
   },
   {
@@ -39940,7 +39940,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 519,
     "label": "#519 · admit",
-    "detail": "Polysemy #519 · 23 meanings · 51 questions",
+    "detail": "Polysemy #519 · 25 meanings · 51 questions",
     "url": "polysemy-lab.html?module=admit"
   },
   {
@@ -39956,7 +39956,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 521,
     "label": "#521 · documentary",
-    "detail": "Polysemy #521 · 17 meanings · 42 questions",
+    "detail": "Polysemy #521 · 19 meanings · 42 questions",
     "url": "polysemy-lab.html?module=documentary"
   },
   {
@@ -39972,7 +39972,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 523,
     "label": "#523 · online",
-    "detail": "Polysemy #523 · 13 meanings · 30 questions",
+    "detail": "Polysemy #523 · 15 meanings · 30 questions",
     "url": "polysemy-lab.html?module=online"
   },
   {
@@ -39988,7 +39988,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 525,
     "label": "#525 · jump",
-    "detail": "Polysemy #525 · 36 meanings · 82 questions",
+    "detail": "Polysemy #525 · 39 meanings · 82 questions",
     "url": "polysemy-lab.html?module=jump"
   },
   {
@@ -40028,7 +40028,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 530,
     "label": "#530 · recommend",
-    "detail": "Polysemy #530 · 7 meanings · 15 questions",
+    "detail": "Polysemy #530 · 8 meanings · 15 questions",
     "url": "polysemy-lab.html?module=recommend"
   },
   {
@@ -40068,7 +40068,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 535,
     "label": "#535 · beauty",
-    "detail": "Polysemy #535 · 15 meanings · 39 questions",
+    "detail": "Polysemy #535 · 17 meanings · 39 questions",
     "url": "polysemy-lab.html?module=beauty"
   },
   {
@@ -40084,7 +40084,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 537,
     "label": "#537 · matter",
-    "detail": "Polysemy #537 · 30 meanings · 65 questions",
+    "detail": "Polysemy #537 · 32 meanings · 65 questions",
     "url": "polysemy-lab.html?module=matter"
   },
   {
@@ -40092,7 +40092,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 538,
     "label": "#538 · remind",
-    "detail": "Polysemy #538 · 20 meanings · 49 questions",
+    "detail": "Polysemy #538 · 21 meanings · 49 questions",
     "url": "polysemy-lab.html?module=remind"
   },
   {
@@ -40124,7 +40124,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 542,
     "label": "#542 · choose",
-    "detail": "Polysemy #542 · 16 meanings · 41 questions",
+    "detail": "Polysemy #542 · 17 meanings · 41 questions",
     "url": "polysemy-lab.html?module=choose"
   },
   {
@@ -40148,7 +40148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 545,
     "label": "#545 · refuge",
-    "detail": "Polysemy #545 · 5 meanings · 11 questions",
+    "detail": "Polysemy #545 · 6 meanings · 11 questions",
     "url": "polysemy-lab.html?module=refuge"
   },
   {
@@ -40156,7 +40156,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 546,
     "label": "#546 · behind",
-    "detail": "Polysemy #546 · 32 meanings · 68 questions",
+    "detail": "Polysemy #546 · 33 meanings · 68 questions",
     "url": "polysemy-lab.html?module=behind"
   },
   {
@@ -40164,7 +40164,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 547,
     "label": "#547 · exterior",
-    "detail": "Polysemy #547 · 5 meanings · 11 questions",
+    "detail": "Polysemy #547 · 6 meanings · 11 questions",
     "url": "polysemy-lab.html?module=exterior"
   },
   {
@@ -40196,7 +40196,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 551,
     "label": "#551 · lay",
-    "detail": "Polysemy #551 · 11 meanings · 22 questions",
+    "detail": "Polysemy #551 · 13 meanings · 22 questions",
     "url": "polysemy-lab.html?module=lay"
   },
   {
@@ -40212,7 +40212,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 553,
     "label": "#553 · business",
-    "detail": "Polysemy #553 · 21 meanings · 46 questions",
+    "detail": "Polysemy #553 · 23 meanings · 46 questions",
     "url": "polysemy-lab.html?module=business"
   },
   {
@@ -40228,7 +40228,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 555,
     "label": "#555 · misunderstanding",
-    "detail": "Polysemy #555 · 20 meanings · 41 questions",
+    "detail": "Polysemy #555 · 21 meanings · 41 questions",
     "url": "polysemy-lab.html?module=misunderstanding"
   },
   {
@@ -40236,7 +40236,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 556,
     "label": "#556 · lifeless",
-    "detail": "Polysemy #556 · 7 meanings · 13 questions",
+    "detail": "Polysemy #556 · 8 meanings · 13 questions",
     "url": "polysemy-lab.html?module=lifeless"
   },
   {
@@ -40244,7 +40244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 557,
     "label": "#557 · own",
-    "detail": "Polysemy #557 · 26 meanings · 62 questions",
+    "detail": "Polysemy #557 · 28 meanings · 62 questions",
     "url": "polysemy-lab.html?module=own"
   },
   {
@@ -40268,7 +40268,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 560,
     "label": "#560 · pretend",
-    "detail": "Polysemy #560 · 19 meanings · 41 questions",
+    "detail": "Polysemy #560 · 20 meanings · 41 questions",
     "url": "polysemy-lab.html?module=pretend"
   },
   {
@@ -40276,7 +40276,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 561,
     "label": "#561 · facility",
-    "detail": "Polysemy #561 · 9 meanings · 19 questions",
+    "detail": "Polysemy #561 · 10 meanings · 19 questions",
     "url": "polysemy-lab.html?module=facility"
   },
   {
@@ -40300,8 +40300,4416 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 564,
     "label": "#564 · blame",
-    "detail": "Polysemy #564 · 27 meanings · 55 questions",
+    "detail": "Polysemy #564 · 28 meanings · 55 questions",
     "url": "polysemy-lab.html?module=blame"
+  },
+  {
+    "id": "polysemy:borrow",
+    "type": "polysemy",
+    "ordinal": 565,
+    "label": "#565 · borrow",
+    "detail": "Polysemy #565 · 5 meanings · 11 questions",
+    "url": "polysemy-lab.html?module=borrow"
+  },
+  {
+    "id": "polysemy:drift",
+    "type": "polysemy",
+    "ordinal": 566,
+    "label": "#566 · drift",
+    "detail": "Polysemy #566 · 13 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=drift"
+  },
+  {
+    "id": "polysemy:linger",
+    "type": "polysemy",
+    "ordinal": 567,
+    "label": "#567 · linger",
+    "detail": "Polysemy #567 · 15 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=linger"
+  },
+  {
+    "id": "polysemy:unfairly",
+    "type": "polysemy",
+    "ordinal": 568,
+    "label": "#568 · unfairly",
+    "detail": "Polysemy #568 · 22 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=unfairly"
+  },
+  {
+    "id": "polysemy:reference",
+    "type": "polysemy",
+    "ordinal": 569,
+    "label": "#569 · reference",
+    "detail": "Polysemy #569 · 8 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=reference"
+  },
+  {
+    "id": "polysemy:bun",
+    "type": "polysemy",
+    "ordinal": 570,
+    "label": "#570 · bun",
+    "detail": "Polysemy #570 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=bun"
+  },
+  {
+    "id": "polysemy:peace",
+    "type": "polysemy",
+    "ordinal": 571,
+    "label": "#571 · peace",
+    "detail": "Polysemy #571 · 26 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=peace"
+  },
+  {
+    "id": "polysemy:delay",
+    "type": "polysemy",
+    "ordinal": 572,
+    "label": "#572 · delay",
+    "detail": "Polysemy #572 · 20 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=delay"
+  },
+  {
+    "id": "polysemy:exhibition",
+    "type": "polysemy",
+    "ordinal": 573,
+    "label": "#573 · exhibition",
+    "detail": "Polysemy #573 · 16 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=exhibition"
+  },
+  {
+    "id": "polysemy:pastry",
+    "type": "polysemy",
+    "ordinal": 574,
+    "label": "#574 · pastry",
+    "detail": "Polysemy #574 · 8 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=pastry"
+  },
+  {
+    "id": "polysemy:flaw",
+    "type": "polysemy",
+    "ordinal": 575,
+    "label": "#575 · flaw",
+    "detail": "Polysemy #575 · 20 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=flaw"
+  },
+  {
+    "id": "polysemy:restore",
+    "type": "polysemy",
+    "ordinal": 576,
+    "label": "#576 · restore",
+    "detail": "Polysemy #576 · 23 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=restore"
+  },
+  {
+    "id": "polysemy:culture",
+    "type": "polysemy",
+    "ordinal": 577,
+    "label": "#577 · culture",
+    "detail": "Polysemy #577 · 12 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=culture"
+  },
+  {
+    "id": "polysemy:cake",
+    "type": "polysemy",
+    "ordinal": 578,
+    "label": "#578 · cake",
+    "detail": "Polysemy #578 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=cake"
+  },
+  {
+    "id": "polysemy:cookie",
+    "type": "polysemy",
+    "ordinal": 579,
+    "label": "#579 · cookie",
+    "detail": "Polysemy #579 · 20 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=cookie"
+  },
+  {
+    "id": "polysemy:erase",
+    "type": "polysemy",
+    "ordinal": 580,
+    "label": "#580 · erase",
+    "detail": "Polysemy #580 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=erase"
+  },
+  {
+    "id": "polysemy:drink",
+    "type": "polysemy",
+    "ordinal": 581,
+    "label": "#581 · drink",
+    "detail": "Polysemy #581 · 12 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=drink"
+  },
+  {
+    "id": "polysemy:egg",
+    "type": "polysemy",
+    "ordinal": 582,
+    "label": "#582 · egg",
+    "detail": "Polysemy #582 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=egg"
+  },
+  {
+    "id": "polysemy:brownie",
+    "type": "polysemy",
+    "ordinal": 583,
+    "label": "#583 · brownie",
+    "detail": "Polysemy #583 · 12 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=brownie"
+  },
+  {
+    "id": "polysemy:timely",
+    "type": "polysemy",
+    "ordinal": 584,
+    "label": "#584 · timely",
+    "detail": "Polysemy #584 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=timely"
+  },
+  {
+    "id": "polysemy:jot",
+    "type": "polysemy",
+    "ordinal": 585,
+    "label": "#585 · jot",
+    "detail": "Polysemy #585 · 7 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=jot"
+  },
+  {
+    "id": "polysemy:tart",
+    "type": "polysemy",
+    "ordinal": 586,
+    "label": "#586 · tart",
+    "detail": "Polysemy #586 · 7 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=tart"
+  },
+  {
+    "id": "polysemy:demand",
+    "type": "polysemy",
+    "ordinal": 587,
+    "label": "#587 · demand",
+    "detail": "Polysemy #587 · 23 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=demand"
+  },
+  {
+    "id": "polysemy:specific",
+    "type": "polysemy",
+    "ordinal": 588,
+    "label": "#588 · specific",
+    "detail": "Polysemy #588 · 27 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=specific"
+  },
+  {
+    "id": "polysemy:pause",
+    "type": "polysemy",
+    "ordinal": 589,
+    "label": "#589 · pause",
+    "detail": "Polysemy #589 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=pause"
+  },
+  {
+    "id": "polysemy:custom",
+    "type": "polysemy",
+    "ordinal": 590,
+    "label": "#590 · custom",
+    "detail": "Polysemy #590 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=custom"
+  },
+  {
+    "id": "polysemy:ingredient",
+    "type": "polysemy",
+    "ordinal": 591,
+    "label": "#591 · ingredient",
+    "detail": "Polysemy #591 · 12 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=ingredient"
+  },
+  {
+    "id": "polysemy:mend",
+    "type": "polysemy",
+    "ordinal": 592,
+    "label": "#592 · mend",
+    "detail": "Polysemy #592 · 17 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=mend"
+  },
+  {
+    "id": "polysemy:discipline",
+    "type": "polysemy",
+    "ordinal": 593,
+    "label": "#593 · discipline",
+    "detail": "Polysemy #593 · 12 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=discipline"
+  },
+  {
+    "id": "polysemy:carve",
+    "type": "polysemy",
+    "ordinal": 594,
+    "label": "#594 · carve",
+    "detail": "Polysemy #594 · 13 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=carve"
+  },
+  {
+    "id": "polysemy:package",
+    "type": "polysemy",
+    "ordinal": 595,
+    "label": "#595 · package",
+    "detail": "Polysemy #595 · 21 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=package"
+  },
+  {
+    "id": "polysemy:situation",
+    "type": "polysemy",
+    "ordinal": 596,
+    "label": "#596 · situation",
+    "detail": "Polysemy #596 · 24 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=situation"
+  },
+  {
+    "id": "polysemy:independent",
+    "type": "polysemy",
+    "ordinal": 597,
+    "label": "#597 · independent",
+    "detail": "Polysemy #597 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=independent"
+  },
+  {
+    "id": "polysemy:niche",
+    "type": "polysemy",
+    "ordinal": 598,
+    "label": "#598 · niche",
+    "detail": "Polysemy #598 · 10 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=niche"
+  },
+  {
+    "id": "polysemy:delivery",
+    "type": "polysemy",
+    "ordinal": 599,
+    "label": "#599 · delivery",
+    "detail": "Polysemy #599 · 20 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=delivery"
+  },
+  {
+    "id": "polysemy:regain",
+    "type": "polysemy",
+    "ordinal": 600,
+    "label": "#600 · regain",
+    "detail": "Polysemy #600 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=regain"
+  },
+  {
+    "id": "polysemy:positive",
+    "type": "polysemy",
+    "ordinal": 601,
+    "label": "#601 · positive",
+    "detail": "Polysemy #601 · 28 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=positive"
+  },
+  {
+    "id": "polysemy:staff",
+    "type": "polysemy",
+    "ordinal": 602,
+    "label": "#602 · staff",
+    "detail": "Polysemy #602 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=staff"
+  },
+  {
+    "id": "polysemy:manage",
+    "type": "polysemy",
+    "ordinal": 603,
+    "label": "#603 · manage",
+    "detail": "Polysemy #603 · 23 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=manage"
+  },
+  {
+    "id": "polysemy:perspective",
+    "type": "polysemy",
+    "ordinal": 604,
+    "label": "#604 · perspective",
+    "detail": "Polysemy #604 · 8 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=perspective"
+  },
+  {
+    "id": "polysemy:touch",
+    "type": "polysemy",
+    "ordinal": 605,
+    "label": "#605 · touch",
+    "detail": "Polysemy #605 · 21 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=touch"
+  },
+  {
+    "id": "polysemy:customer",
+    "type": "polysemy",
+    "ordinal": 606,
+    "label": "#606 · customer",
+    "detail": "Polysemy #606 · 15 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=customer"
+  },
+  {
+    "id": "polysemy:overwhelm",
+    "type": "polysemy",
+    "ordinal": 607,
+    "label": "#607 · overwhelm",
+    "detail": "Polysemy #607 · 18 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=overwhelm"
+  },
+  {
+    "id": "polysemy:pace",
+    "type": "polysemy",
+    "ordinal": 608,
+    "label": "#608 · pace",
+    "detail": "Polysemy #608 · 15 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=pace"
+  },
+  {
+    "id": "polysemy:benefit",
+    "type": "polysemy",
+    "ordinal": 609,
+    "label": "#609 · benefit",
+    "detail": "Polysemy #609 · 11 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=benefit"
+  },
+  {
+    "id": "polysemy:single",
+    "type": "polysemy",
+    "ordinal": 610,
+    "label": "#610 · single",
+    "detail": "Polysemy #610 · 20 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=single"
+  },
+  {
+    "id": "polysemy:clock",
+    "type": "polysemy",
+    "ordinal": 611,
+    "label": "#611 · clock",
+    "detail": "Polysemy #611 · 26 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=clock"
+  },
+  {
+    "id": "polysemy:icon",
+    "type": "polysemy",
+    "ordinal": 612,
+    "label": "#612 · icon",
+    "detail": "Polysemy #612 · 10 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=icon"
+  },
+  {
+    "id": "polysemy:mouth",
+    "type": "polysemy",
+    "ordinal": 613,
+    "label": "#613 · mouth",
+    "detail": "Polysemy #613 · 15 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=mouth"
+  },
+  {
+    "id": "polysemy:tool",
+    "type": "polysemy",
+    "ordinal": 614,
+    "label": "#614 · tool",
+    "detail": "Polysemy #614 · 21 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=tool"
+  },
+  {
+    "id": "polysemy:satisfy",
+    "type": "polysemy",
+    "ordinal": 615,
+    "label": "#615 · satisfy",
+    "detail": "Polysemy #615 · 26 meanings · 53 questions",
+    "url": "polysemy-lab.html?module=satisfy"
+  },
+  {
+    "id": "polysemy:jacket",
+    "type": "polysemy",
+    "ordinal": 616,
+    "label": "#616 · jacket",
+    "detail": "Polysemy #616 · 12 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=jacket"
+  },
+  {
+    "id": "polysemy:coat",
+    "type": "polysemy",
+    "ordinal": 617,
+    "label": "#617 · coat",
+    "detail": "Polysemy #617 · 11 meanings · 20 questions",
+    "url": "polysemy-lab.html?module=coat"
+  },
+  {
+    "id": "polysemy:battle",
+    "type": "polysemy",
+    "ordinal": 618,
+    "label": "#618 · battle",
+    "detail": "Polysemy #618 · 13 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=battle"
+  },
+  {
+    "id": "polysemy:material",
+    "type": "polysemy",
+    "ordinal": 619,
+    "label": "#619 · material",
+    "detail": "Polysemy #619 · 23 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=material"
+  },
+  {
+    "id": "polysemy:assignment",
+    "type": "polysemy",
+    "ordinal": 620,
+    "label": "#620 · assignment",
+    "detail": "Polysemy #620 · 25 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=assignment"
+  },
+  {
+    "id": "polysemy:casual",
+    "type": "polysemy",
+    "ordinal": 621,
+    "label": "#621 · casual",
+    "detail": "Polysemy #621 · 11 meanings · 20 questions",
+    "url": "polysemy-lab.html?module=casual"
+  },
+  {
+    "id": "polysemy:community",
+    "type": "polysemy",
+    "ordinal": 622,
+    "label": "#622 · community",
+    "detail": "Polysemy #622 · 14 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=community"
+  },
+  {
+    "id": "polysemy:sweetness",
+    "type": "polysemy",
+    "ordinal": 623,
+    "label": "#623 · sweetness",
+    "detail": "Polysemy #623 · 35 meanings · 72 questions",
+    "url": "polysemy-lab.html?module=sweetness"
+  },
+  {
+    "id": "polysemy:underestimate",
+    "type": "polysemy",
+    "ordinal": 624,
+    "label": "#624 · underestimate",
+    "detail": "Polysemy #624 · 18 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=underestimate"
+  },
+  {
+    "id": "polysemy:throw",
+    "type": "polysemy",
+    "ordinal": 625,
+    "label": "#625 · throw",
+    "detail": "Polysemy #625 · 16 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=throw"
+  },
+  {
+    "id": "polysemy:branch",
+    "type": "polysemy",
+    "ordinal": 626,
+    "label": "#626 · branch",
+    "detail": "Polysemy #626 · 12 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=branch"
+  },
+  {
+    "id": "polysemy:wake",
+    "type": "polysemy",
+    "ordinal": 627,
+    "label": "#627 · wake",
+    "detail": "Polysemy #627 · 20 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=wake"
+  },
+  {
+    "id": "polysemy:dress",
+    "type": "polysemy",
+    "ordinal": 628,
+    "label": "#628 · dress",
+    "detail": "Polysemy #628 · 16 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=dress"
+  },
+  {
+    "id": "polysemy:rise",
+    "type": "polysemy",
+    "ordinal": 629,
+    "label": "#629 · rise",
+    "detail": "Polysemy #629 · 17 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=rise"
+  },
+  {
+    "id": "polysemy:planner",
+    "type": "polysemy",
+    "ordinal": 630,
+    "label": "#630 · planner",
+    "detail": "Polysemy #630 · 21 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=planner"
+  },
+  {
+    "id": "polysemy:fashion",
+    "type": "polysemy",
+    "ordinal": 631,
+    "label": "#631 · fashion",
+    "detail": "Polysemy #631 · 13 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=fashion"
+  },
+  {
+    "id": "polysemy:theme",
+    "type": "polysemy",
+    "ordinal": 632,
+    "label": "#632 · theme",
+    "detail": "Polysemy #632 · 22 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=theme"
+  },
+  {
+    "id": "polysemy:rent",
+    "type": "polysemy",
+    "ordinal": 633,
+    "label": "#633 · rent",
+    "detail": "Polysemy #633 · 14 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=rent"
+  },
+  {
+    "id": "polysemy:task",
+    "type": "polysemy",
+    "ordinal": 634,
+    "label": "#634 · task",
+    "detail": "Polysemy #634 · 21 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=task"
+  },
+  {
+    "id": "polysemy:attach",
+    "type": "polysemy",
+    "ordinal": 635,
+    "label": "#635 · attach",
+    "detail": "Polysemy #635 · 14 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=attach"
+  },
+  {
+    "id": "polysemy:competition",
+    "type": "polysemy",
+    "ordinal": 636,
+    "label": "#636 · competition",
+    "detail": "Polysemy #636 · 18 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=competition"
+  },
+  {
+    "id": "polysemy:hot",
+    "type": "polysemy",
+    "ordinal": 637,
+    "label": "#637 · hot",
+    "detail": "Polysemy #637 · 33 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=hot"
+  },
+  {
+    "id": "polysemy:early",
+    "type": "polysemy",
+    "ordinal": 638,
+    "label": "#638 · early",
+    "detail": "Polysemy #638 · 25 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=early"
+  },
+  {
+    "id": "polysemy:journey",
+    "type": "polysemy",
+    "ordinal": 639,
+    "label": "#639 · journey",
+    "detail": "Polysemy #639 · 7 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=journey"
+  },
+  {
+    "id": "polysemy:guarantee",
+    "type": "polysemy",
+    "ordinal": 640,
+    "label": "#640 · guarantee",
+    "detail": "Polysemy #640 · 14 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=guarantee"
+  },
+  {
+    "id": "polysemy:thunder",
+    "type": "polysemy",
+    "ordinal": 641,
+    "label": "#641 · thunder",
+    "detail": "Polysemy #641 · 19 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=thunder"
+  },
+  {
+    "id": "polysemy:transform",
+    "type": "polysemy",
+    "ordinal": 642,
+    "label": "#642 · transform",
+    "detail": "Polysemy #642 · 18 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=transform"
+  },
+  {
+    "id": "polysemy:portable",
+    "type": "polysemy",
+    "ordinal": 643,
+    "label": "#643 · portable",
+    "detail": "Polysemy #643 · 9 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=portable"
+  },
+  {
+    "id": "polysemy:identity",
+    "type": "polysemy",
+    "ordinal": 644,
+    "label": "#644 · identity",
+    "detail": "Polysemy #644 · 16 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=identity"
+  },
+  {
+    "id": "polysemy:reliable",
+    "type": "polysemy",
+    "ordinal": 645,
+    "label": "#645 · reliable",
+    "detail": "Polysemy #645 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=reliable"
+  },
+  {
+    "id": "polysemy:sentimental",
+    "type": "polysemy",
+    "ordinal": 646,
+    "label": "#646 · sentimental",
+    "detail": "Polysemy #646 · 10 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=sentimental"
+  },
+  {
+    "id": "polysemy:blast",
+    "type": "polysemy",
+    "ordinal": 647,
+    "label": "#647 · blast",
+    "detail": "Polysemy #647 · 24 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=blast"
+  },
+  {
+    "id": "polysemy:smart",
+    "type": "polysemy",
+    "ordinal": 648,
+    "label": "#648 · smart",
+    "detail": "Polysemy #648 · 17 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=smart"
+  },
+  {
+    "id": "polysemy:queue",
+    "type": "polysemy",
+    "ordinal": 649,
+    "label": "#649 · queue",
+    "detail": "Polysemy #649 · 23 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=queue"
+  },
+  {
+    "id": "polysemy:emergency",
+    "type": "polysemy",
+    "ordinal": 650,
+    "label": "#650 · emergency",
+    "detail": "Polysemy #650 · 17 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=emergency"
+  },
+  {
+    "id": "polysemy:tick",
+    "type": "polysemy",
+    "ordinal": 651,
+    "label": "#651 · tick",
+    "detail": "Polysemy #651 · 15 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=tick"
+  },
+  {
+    "id": "polysemy:golden",
+    "type": "polysemy",
+    "ordinal": 652,
+    "label": "#652 · golden",
+    "detail": "Polysemy #652 · 11 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=golden"
+  },
+  {
+    "id": "polysemy:cry",
+    "type": "polysemy",
+    "ordinal": 653,
+    "label": "#653 · cry",
+    "detail": "Polysemy #653 · 27 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=cry"
+  },
+  {
+    "id": "polysemy:fire",
+    "type": "polysemy",
+    "ordinal": 654,
+    "label": "#654 · fire",
+    "detail": "Polysemy #654 · 30 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=fire"
+  },
+  {
+    "id": "polysemy:crust",
+    "type": "polysemy",
+    "ordinal": 655,
+    "label": "#655 · crust",
+    "detail": "Polysemy #655 · 14 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=crust"
+  },
+  {
+    "id": "polysemy:tissue",
+    "type": "polysemy",
+    "ordinal": 656,
+    "label": "#656 · tissue",
+    "detail": "Polysemy #656 · 16 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=tissue"
+  },
+  {
+    "id": "polysemy:responsibility",
+    "type": "polysemy",
+    "ordinal": 657,
+    "label": "#657 · responsibility",
+    "detail": "Polysemy #657 · 26 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=responsibility"
+  },
+  {
+    "id": "polysemy:street",
+    "type": "polysemy",
+    "ordinal": 658,
+    "label": "#658 · street",
+    "detail": "Polysemy #658 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=street"
+  },
+  {
+    "id": "polysemy:mock",
+    "type": "polysemy",
+    "ordinal": 659,
+    "label": "#659 · mock",
+    "detail": "Polysemy #659 · 23 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=mock"
+  },
+  {
+    "id": "polysemy:efficient",
+    "type": "polysemy",
+    "ordinal": 660,
+    "label": "#660 · efficient",
+    "detail": "Polysemy #660 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=efficient"
+  },
+  {
+    "id": "polysemy:serve",
+    "type": "polysemy",
+    "ordinal": 661,
+    "label": "#661 · serve",
+    "detail": "Polysemy #661 · 15 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=serve"
+  },
+  {
+    "id": "polysemy:coffee",
+    "type": "polysemy",
+    "ordinal": 662,
+    "label": "#662 · coffee",
+    "detail": "Polysemy #662 · 12 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=coffee"
+  },
+  {
+    "id": "polysemy:hide",
+    "type": "polysemy",
+    "ordinal": 663,
+    "label": "#663 · hide",
+    "detail": "Polysemy #663 · 30 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=hide"
+  },
+  {
+    "id": "polysemy:frank",
+    "type": "polysemy",
+    "ordinal": 664,
+    "label": "#664 · frank",
+    "detail": "Polysemy #664 · 13 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=frank"
+  },
+  {
+    "id": "polysemy:drill",
+    "type": "polysemy",
+    "ordinal": 665,
+    "label": "#665 · drill",
+    "detail": "Polysemy #665 · 15 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=drill"
+  },
+  {
+    "id": "polysemy:local",
+    "type": "polysemy",
+    "ordinal": 666,
+    "label": "#666 · local",
+    "detail": "Polysemy #666 · 18 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=local"
+  },
+  {
+    "id": "polysemy:bench",
+    "type": "polysemy",
+    "ordinal": 667,
+    "label": "#667 · bench",
+    "detail": "Polysemy #667 · 21 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=bench"
+  },
+  {
+    "id": "polysemy:procrastinate",
+    "type": "polysemy",
+    "ordinal": 668,
+    "label": "#668 · procrastinate",
+    "detail": "Polysemy #668 · 10 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=procrastinate"
+  },
+  {
+    "id": "polysemy:cramp",
+    "type": "polysemy",
+    "ordinal": 669,
+    "label": "#669 · cramp",
+    "detail": "Polysemy #669 · 9 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=cramp"
+  },
+  {
+    "id": "polysemy:successful",
+    "type": "polysemy",
+    "ordinal": 670,
+    "label": "#670 · successful",
+    "detail": "Polysemy #670 · 16 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=successful"
+  },
+  {
+    "id": "polysemy:wheel",
+    "type": "polysemy",
+    "ordinal": 671,
+    "label": "#671 · wheel",
+    "detail": "Polysemy #671 · 33 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=wheel"
+  },
+  {
+    "id": "polysemy:track",
+    "type": "polysemy",
+    "ordinal": 672,
+    "label": "#672 · track",
+    "detail": "Polysemy #672 · 28 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=track"
+  },
+  {
+    "id": "polysemy:soar",
+    "type": "polysemy",
+    "ordinal": 673,
+    "label": "#673 · soar",
+    "detail": "Polysemy #673 · 10 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=soar"
+  },
+  {
+    "id": "polysemy:consistent",
+    "type": "polysemy",
+    "ordinal": 674,
+    "label": "#674 · consistent",
+    "detail": "Polysemy #674 · 16 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=consistent"
+  },
+  {
+    "id": "polysemy:collapse",
+    "type": "polysemy",
+    "ordinal": 675,
+    "label": "#675 · collapse",
+    "detail": "Polysemy #675 · 26 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=collapse"
+  },
+  {
+    "id": "polysemy:spiral",
+    "type": "polysemy",
+    "ordinal": 676,
+    "label": "#676 · spiral",
+    "detail": "Polysemy #676 · 18 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=spiral"
+  },
+  {
+    "id": "polysemy:trend",
+    "type": "polysemy",
+    "ordinal": 677,
+    "label": "#677 · trend",
+    "detail": "Polysemy #677 · 10 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=trend"
+  },
+  {
+    "id": "polysemy:bake",
+    "type": "polysemy",
+    "ordinal": 678,
+    "label": "#678 · bake",
+    "detail": "Polysemy #678 · 13 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=bake"
+  },
+  {
+    "id": "polysemy:knock",
+    "type": "polysemy",
+    "ordinal": 679,
+    "label": "#679 · knock",
+    "detail": "Polysemy #679 · 39 meanings · 82 questions",
+    "url": "polysemy-lab.html?module=knock"
+  },
+  {
+    "id": "polysemy:glance",
+    "type": "polysemy",
+    "ordinal": 680,
+    "label": "#680 · glance",
+    "detail": "Polysemy #680 · 10 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=glance"
+  },
+  {
+    "id": "polysemy:food",
+    "type": "polysemy",
+    "ordinal": 681,
+    "label": "#681 · food",
+    "detail": "Polysemy #681 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=food"
+  },
+  {
+    "id": "polysemy:security",
+    "type": "polysemy",
+    "ordinal": 682,
+    "label": "#682 · security",
+    "detail": "Polysemy #682 · 44 meanings · 88 questions",
+    "url": "polysemy-lab.html?module=security"
+  },
+  {
+    "id": "polysemy:complex",
+    "type": "polysemy",
+    "ordinal": 683,
+    "label": "#683 · complex",
+    "detail": "Polysemy #683 · 23 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=complex"
+  },
+  {
+    "id": "polysemy:private",
+    "type": "polysemy",
+    "ordinal": 684,
+    "label": "#684 · private",
+    "detail": "Polysemy #684 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=private"
+  },
+  {
+    "id": "polysemy:praise",
+    "type": "polysemy",
+    "ordinal": 685,
+    "label": "#685 · praise",
+    "detail": "Polysemy #685 · 9 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=praise"
+  },
+  {
+    "id": "polysemy:guard",
+    "type": "polysemy",
+    "ordinal": 686,
+    "label": "#686 · guard",
+    "detail": "Polysemy #686 · 44 meanings · 86 questions",
+    "url": "polysemy-lab.html?module=guard"
+  },
+  {
+    "id": "polysemy:produce",
+    "type": "polysemy",
+    "ordinal": 687,
+    "label": "#687 · produce",
+    "detail": "Polysemy #687 · 29 meanings · 64 questions",
+    "url": "polysemy-lab.html?module=produce"
+  },
+  {
+    "id": "polysemy:occupy",
+    "type": "polysemy",
+    "ordinal": 688,
+    "label": "#688 · occupy",
+    "detail": "Polysemy #688 · 15 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=occupy"
+  },
+  {
+    "id": "polysemy:thrive",
+    "type": "polysemy",
+    "ordinal": 689,
+    "label": "#689 · thrive",
+    "detail": "Polysemy #689 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=thrive"
+  },
+  {
+    "id": "polysemy:flight",
+    "type": "polysemy",
+    "ordinal": 690,
+    "label": "#690 · flight",
+    "detail": "Polysemy #690 · 28 meanings · 56 questions",
+    "url": "polysemy-lab.html?module=flight"
+  },
+  {
+    "id": "polysemy:recognise",
+    "type": "polysemy",
+    "ordinal": 691,
+    "label": "#691 · recognise",
+    "detail": "Polysemy #691 · 26 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=recognise"
+  },
+  {
+    "id": "polysemy:burden",
+    "type": "polysemy",
+    "ordinal": 692,
+    "label": "#692 · burden",
+    "detail": "Polysemy #692 · 17 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=burden"
+  },
+  {
+    "id": "polysemy:shock",
+    "type": "polysemy",
+    "ordinal": 693,
+    "label": "#693 · shock",
+    "detail": "Polysemy #693 · 30 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=shock"
+  },
+  {
+    "id": "polysemy:address",
+    "type": "polysemy",
+    "ordinal": 695,
+    "label": "#695 · address",
+    "detail": "Polysemy #695 · 13 meanings · 20 questions",
+    "url": "polysemy-lab.html?module=address"
+  },
+  {
+    "id": "polysemy:post",
+    "type": "polysemy",
+    "ordinal": 696,
+    "label": "#696 · post",
+    "detail": "Polysemy #696 · 17 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=post"
+  },
+  {
+    "id": "polysemy:recover",
+    "type": "polysemy",
+    "ordinal": 697,
+    "label": "#697 · recover",
+    "detail": "Polysemy #697 · 34 meanings · 66 questions",
+    "url": "polysemy-lab.html?module=recover"
+  },
+  {
+    "id": "polysemy:effort",
+    "type": "polysemy",
+    "ordinal": 698,
+    "label": "#698 · effort",
+    "detail": "Polysemy #698 · 29 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=effort"
+  },
+  {
+    "id": "polysemy:shift",
+    "type": "polysemy",
+    "ordinal": 699,
+    "label": "#699 · shift",
+    "detail": "Polysemy #699 · 15 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=shift"
+  },
+  {
+    "id": "polysemy:screen",
+    "type": "polysemy",
+    "ordinal": 700,
+    "label": "#700 · screen",
+    "detail": "Polysemy #700 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=screen"
+  },
+  {
+    "id": "polysemy:follow",
+    "type": "polysemy",
+    "ordinal": 701,
+    "label": "#701 · follow",
+    "detail": "Polysemy #701 · 45 meanings · 84 questions",
+    "url": "polysemy-lab.html?module=follow"
+  },
+  {
+    "id": "polysemy:uneven",
+    "type": "polysemy",
+    "ordinal": 702,
+    "label": "#702 · uneven",
+    "detail": "Polysemy #702 · 22 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=uneven"
+  },
+  {
+    "id": "polysemy:venue",
+    "type": "polysemy",
+    "ordinal": 703,
+    "label": "#703 · venue",
+    "detail": "Polysemy #703 · 8 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=venue"
+  },
+  {
+    "id": "polysemy:minor",
+    "type": "polysemy",
+    "ordinal": 704,
+    "label": "#704 · minor",
+    "detail": "Polysemy #704 · 12 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=minor"
+  },
+  {
+    "id": "polysemy:session",
+    "type": "polysemy",
+    "ordinal": 705,
+    "label": "#705 · session",
+    "detail": "Polysemy #705 · 30 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=session"
+  },
+  {
+    "id": "polysemy:essential",
+    "type": "polysemy",
+    "ordinal": 706,
+    "label": "#706 · essential",
+    "detail": "Polysemy #706 · 23 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=essential"
+  },
+  {
+    "id": "polysemy:bare",
+    "type": "polysemy",
+    "ordinal": 707,
+    "label": "#707 · bare",
+    "detail": "Polysemy #707 · 17 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=bare"
+  },
+  {
+    "id": "polysemy:viral",
+    "type": "polysemy",
+    "ordinal": 708,
+    "label": "#708 · viral",
+    "detail": "Polysemy #708 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=viral"
+  },
+  {
+    "id": "polysemy:volunteer",
+    "type": "polysemy",
+    "ordinal": 709,
+    "label": "#709 · volunteer",
+    "detail": "Polysemy #709 · 28 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=volunteer"
+  },
+  {
+    "id": "polysemy:distribution",
+    "type": "polysemy",
+    "ordinal": 710,
+    "label": "#710 · distribution",
+    "detail": "Polysemy #710 · 31 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=distribution"
+  },
+  {
+    "id": "polysemy:turnover",
+    "type": "polysemy",
+    "ordinal": 711,
+    "label": "#711 · turnover",
+    "detail": "Polysemy #711 · 12 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=turnover"
+  },
+  {
+    "id": "polysemy:clip",
+    "type": "polysemy",
+    "ordinal": 712,
+    "label": "#712 · clip",
+    "detail": "Polysemy #712 · 14 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=clip"
+  },
+  {
+    "id": "polysemy:appointment",
+    "type": "polysemy",
+    "ordinal": 713,
+    "label": "#713 · appointment",
+    "detail": "Polysemy #713 · 31 meanings · 67 questions",
+    "url": "polysemy-lab.html?module=appointment"
+  },
+  {
+    "id": "polysemy:shoulder",
+    "type": "polysemy",
+    "ordinal": 714,
+    "label": "#714 · shoulder",
+    "detail": "Polysemy #714 · 24 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=shoulder"
+  },
+  {
+    "id": "polysemy:peak",
+    "type": "polysemy",
+    "ordinal": 715,
+    "label": "#715 · peak",
+    "detail": "Polysemy #715 · 12 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=peak"
+  },
+  {
+    "id": "polysemy:revision",
+    "type": "polysemy",
+    "ordinal": 716,
+    "label": "#716 · revision",
+    "detail": "Polysemy #716 · 11 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=revision"
+  },
+  {
+    "id": "polysemy:wave",
+    "type": "polysemy",
+    "ordinal": 717,
+    "label": "#717 · wave",
+    "detail": "Polysemy #717 · 37 meanings · 70 questions",
+    "url": "polysemy-lab.html?module=wave"
+  },
+  {
+    "id": "polysemy:contribute",
+    "type": "polysemy",
+    "ordinal": 718,
+    "label": "#718 · contribute",
+    "detail": "Polysemy #718 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=contribute"
+  },
+  {
+    "id": "polysemy:penalty",
+    "type": "polysemy",
+    "ordinal": 719,
+    "label": "#719 · penalty",
+    "detail": "Polysemy #719 · 12 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=penalty"
+  },
+  {
+    "id": "polysemy:sandwich",
+    "type": "polysemy",
+    "ordinal": 720,
+    "label": "#720 · sandwich",
+    "detail": "Polysemy #720 · 9 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=sandwich"
+  },
+  {
+    "id": "polysemy:flicker",
+    "type": "polysemy",
+    "ordinal": 721,
+    "label": "#721 · flicker",
+    "detail": "Polysemy #721 · 19 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=flicker"
+  },
+  {
+    "id": "polysemy:tie",
+    "type": "polysemy",
+    "ordinal": 722,
+    "label": "#722 · tie",
+    "detail": "Polysemy #722 · 28 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=tie"
+  },
+  {
+    "id": "polysemy:earn",
+    "type": "polysemy",
+    "ordinal": 723,
+    "label": "#723 · earn",
+    "detail": "Polysemy #723 · 13 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=earn"
+  },
+  {
+    "id": "polysemy:explode",
+    "type": "polysemy",
+    "ordinal": 724,
+    "label": "#724 · explode",
+    "detail": "Polysemy #724 · 17 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=explode"
+  },
+  {
+    "id": "polysemy:force",
+    "type": "polysemy",
+    "ordinal": 725,
+    "label": "#725 · force",
+    "detail": "Polysemy #725 · 49 meanings · 93 questions",
+    "url": "polysemy-lab.html?module=force"
+  },
+  {
+    "id": "polysemy:commit",
+    "type": "polysemy",
+    "ordinal": 726,
+    "label": "#726 · commit",
+    "detail": "Polysemy #726 · 30 meanings · 62 questions",
+    "url": "polysemy-lab.html?module=commit"
+  },
+  {
+    "id": "polysemy:absorb",
+    "type": "polysemy",
+    "ordinal": 727,
+    "label": "#727 · absorb",
+    "detail": "Polysemy #727 · 18 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=absorb"
+  },
+  {
+    "id": "polysemy:pure",
+    "type": "polysemy",
+    "ordinal": 728,
+    "label": "#728 · pure",
+    "detail": "Polysemy #728 · 14 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=pure"
+  },
+  {
+    "id": "polysemy:buzz",
+    "type": "polysemy",
+    "ordinal": 729,
+    "label": "#729 · buzz",
+    "detail": "Polysemy #729 · 15 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=buzz"
+  },
+  {
+    "id": "polysemy:performance",
+    "type": "polysemy",
+    "ordinal": 730,
+    "label": "#730 · performance",
+    "detail": "Polysemy #730 · 35 meanings · 72 questions",
+    "url": "polysemy-lab.html?module=performance"
+  },
+  {
+    "id": "polysemy:overhead",
+    "type": "polysemy",
+    "ordinal": 731,
+    "label": "#731 · overhead",
+    "detail": "Polysemy #731 · 14 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=overhead"
+  },
+  {
+    "id": "polysemy:sustainable",
+    "type": "polysemy",
+    "ordinal": 732,
+    "label": "#732 · sustainable",
+    "detail": "Polysemy #732 · 11 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=sustainable"
+  },
+  {
+    "id": "polysemy:parent",
+    "type": "polysemy",
+    "ordinal": 733,
+    "label": "#733 · parent",
+    "detail": "Polysemy #733 · 34 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=parent"
+  },
+  {
+    "id": "polysemy:number",
+    "type": "polysemy",
+    "ordinal": 734,
+    "label": "#734 · number",
+    "detail": "Polysemy #734 · 19 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=number"
+  },
+  {
+    "id": "polysemy:decline",
+    "type": "polysemy",
+    "ordinal": 735,
+    "label": "#735 · decline",
+    "detail": "Polysemy #735 · 26 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=decline"
+  },
+  {
+    "id": "polysemy:anxious",
+    "type": "polysemy",
+    "ordinal": 736,
+    "label": "#736 · anxious",
+    "detail": "Polysemy #736 · 11 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=anxious"
+  },
+  {
+    "id": "polysemy:upright",
+    "type": "polysemy",
+    "ordinal": 737,
+    "label": "#737 · upright",
+    "detail": "Polysemy #737 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=upright"
+  },
+  {
+    "id": "polysemy:credit",
+    "type": "polysemy",
+    "ordinal": 738,
+    "label": "#738 · credit",
+    "detail": "Polysemy #738 · 31 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=credit"
+  },
+  {
+    "id": "polysemy:promote",
+    "type": "polysemy",
+    "ordinal": 739,
+    "label": "#739 · promote",
+    "detail": "Polysemy #739 · 13 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=promote"
+  },
+  {
+    "id": "polysemy:struggle",
+    "type": "polysemy",
+    "ordinal": 740,
+    "label": "#740 · struggle",
+    "detail": "Polysemy #740 · 14 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=struggle"
+  },
+  {
+    "id": "polysemy:test",
+    "type": "polysemy",
+    "ordinal": 741,
+    "label": "#741 · test",
+    "detail": "Polysemy #741 · 43 meanings · 82 questions",
+    "url": "polysemy-lab.html?module=test"
+  },
+  {
+    "id": "polysemy:output",
+    "type": "polysemy",
+    "ordinal": 742,
+    "label": "#742 · output",
+    "detail": "Polysemy #742 · 29 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=output"
+  },
+  {
+    "id": "polysemy:patron",
+    "type": "polysemy",
+    "ordinal": 743,
+    "label": "#743 · patron",
+    "detail": "Polysemy #743 · 13 meanings · 12 questions",
+    "url": "polysemy-lab.html?module=patron"
+  },
+  {
+    "id": "polysemy:voice",
+    "type": "polysemy",
+    "ordinal": 744,
+    "label": "#744 · voice",
+    "detail": "Polysemy #744 · 17 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=voice"
+  },
+  {
+    "id": "polysemy:stance",
+    "type": "polysemy",
+    "ordinal": 745,
+    "label": "#745 · stance",
+    "detail": "Polysemy #745 · 26 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=stance"
+  },
+  {
+    "id": "polysemy:assume",
+    "type": "polysemy",
+    "ordinal": 746,
+    "label": "#746 · assume",
+    "detail": "Polysemy #746 · 28 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=assume"
+  },
+  {
+    "id": "polysemy:bear",
+    "type": "polysemy",
+    "ordinal": 747,
+    "label": "#747 · bear",
+    "detail": "Polysemy #747 · 25 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=bear"
+  },
+  {
+    "id": "polysemy:claim",
+    "type": "polysemy",
+    "ordinal": 748,
+    "label": "#748 · claim",
+    "detail": "Polysemy #748 · 17 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=claim"
+  },
+  {
+    "id": "polysemy:abstract",
+    "type": "polysemy",
+    "ordinal": 749,
+    "label": "#749 · abstract",
+    "detail": "Polysemy #749 · 26 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=abstract"
+  },
+  {
+    "id": "polysemy:exploit",
+    "type": "polysemy",
+    "ordinal": 750,
+    "label": "#750 · exploit",
+    "detail": "Polysemy #750 · 28 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=exploit"
+  },
+  {
+    "id": "polysemy:squeeze",
+    "type": "polysemy",
+    "ordinal": 751,
+    "label": "#751 · squeeze",
+    "detail": "Polysemy #751 · 18 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=squeeze"
+  },
+  {
+    "id": "polysemy:cringe",
+    "type": "polysemy",
+    "ordinal": 752,
+    "label": "#752 · cringe",
+    "detail": "Polysemy #752 · 8 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=cringe"
+  },
+  {
+    "id": "polysemy:peer",
+    "type": "polysemy",
+    "ordinal": 753,
+    "label": "#753 · peer",
+    "detail": "Polysemy #753 · 25 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=peer"
+  },
+  {
+    "id": "polysemy:ruin",
+    "type": "polysemy",
+    "ordinal": 754,
+    "label": "#754 · ruin",
+    "detail": "Polysemy #754 · 27 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=ruin"
+  },
+  {
+    "id": "polysemy:cover",
+    "type": "polysemy",
+    "ordinal": 755,
+    "label": "#755 · cover",
+    "detail": "Polysemy #755 · 20 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=cover"
+  },
+  {
+    "id": "polysemy:define",
+    "type": "polysemy",
+    "ordinal": 756,
+    "label": "#756 · define",
+    "detail": "Polysemy #756 · 14 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=define"
+  },
+  {
+    "id": "polysemy:moral",
+    "type": "polysemy",
+    "ordinal": 757,
+    "label": "#757 · moral",
+    "detail": "Polysemy #757 · 32 meanings · 66 questions",
+    "url": "polysemy-lab.html?module=moral"
+  },
+  {
+    "id": "polysemy:overlook",
+    "type": "polysemy",
+    "ordinal": 758,
+    "label": "#758 · overlook",
+    "detail": "Polysemy #758 · 19 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=overlook"
+  },
+  {
+    "id": "polysemy:ideal",
+    "type": "polysemy",
+    "ordinal": 759,
+    "label": "#759 · ideal",
+    "detail": "Polysemy #759 · 14 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=ideal"
+  },
+  {
+    "id": "polysemy:peculiar",
+    "type": "polysemy",
+    "ordinal": 760,
+    "label": "#760 · peculiar",
+    "detail": "Polysemy #760 · 7 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=peculiar"
+  },
+  {
+    "id": "polysemy:laugh",
+    "type": "polysemy",
+    "ordinal": 761,
+    "label": "#761 · laugh",
+    "detail": "Polysemy #761 · 29 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=laugh"
+  },
+  {
+    "id": "polysemy:correct",
+    "type": "polysemy",
+    "ordinal": 762,
+    "label": "#762 · correct",
+    "detail": "Polysemy #762 · 37 meanings · 79 questions",
+    "url": "polysemy-lab.html?module=correct"
+  },
+  {
+    "id": "polysemy:constant",
+    "type": "polysemy",
+    "ordinal": 763,
+    "label": "#763 · constant",
+    "detail": "Polysemy #763 · 9 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=constant"
+  },
+  {
+    "id": "polysemy:visibility",
+    "type": "polysemy",
+    "ordinal": 764,
+    "label": "#764 · visibility",
+    "detail": "Polysemy #764 · 14 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=visibility"
+  },
+  {
+    "id": "polysemy:remain",
+    "type": "polysemy",
+    "ordinal": 765,
+    "label": "#765 · remain",
+    "detail": "Polysemy #765 · 25 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=remain"
+  },
+  {
+    "id": "polysemy:proceed",
+    "type": "polysemy",
+    "ordinal": 766,
+    "label": "#766 · proceed",
+    "detail": "Polysemy #766 · 28 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=proceed"
+  },
+  {
+    "id": "polysemy:concentrate",
+    "type": "polysemy",
+    "ordinal": 767,
+    "label": "#767 · concentrate",
+    "detail": "Polysemy #767 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=concentrate"
+  },
+  {
+    "id": "polysemy:vulnerability",
+    "type": "polysemy",
+    "ordinal": 768,
+    "label": "#768 · vulnerability",
+    "detail": "Polysemy #768 · 34 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=vulnerability"
+  },
+  {
+    "id": "polysemy:hurt",
+    "type": "polysemy",
+    "ordinal": 769,
+    "label": "#769 · hurt",
+    "detail": "Polysemy #769 · 85 meanings · 151 questions",
+    "url": "polysemy-lab.html?module=hurt"
+  },
+  {
+    "id": "polysemy:department",
+    "type": "polysemy",
+    "ordinal": 770,
+    "label": "#770 · department",
+    "detail": "Polysemy #770 · 52 meanings · 100 questions",
+    "url": "polysemy-lab.html?module=department"
+  },
+  {
+    "id": "polysemy:complete",
+    "type": "polysemy",
+    "ordinal": 771,
+    "label": "#771 · complete",
+    "detail": "Polysemy #771 · 50 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=complete"
+  },
+  {
+    "id": "polysemy:treadmill",
+    "type": "polysemy",
+    "ordinal": 772,
+    "label": "#772 · treadmill",
+    "detail": "Polysemy #772 · 23 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=treadmill"
+  },
+  {
+    "id": "polysemy:flashy",
+    "type": "polysemy",
+    "ordinal": 773,
+    "label": "#773 · flashy",
+    "detail": "Polysemy #773 · 4 meanings · 9 questions",
+    "url": "polysemy-lab.html?module=flashy"
+  },
+  {
+    "id": "polysemy:aggressive",
+    "type": "polysemy",
+    "ordinal": 774,
+    "label": "#774 · aggressive",
+    "detail": "Polysemy #774 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=aggressive"
+  },
+  {
+    "id": "polysemy:polish",
+    "type": "polysemy",
+    "ordinal": 775,
+    "label": "#775 · polish",
+    "detail": "Polysemy #775 · 10 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=polish"
+  },
+  {
+    "id": "polysemy:relate",
+    "type": "polysemy",
+    "ordinal": 776,
+    "label": "#776 · relate",
+    "detail": "Polysemy #776 · 20 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=relate"
+  },
+  {
+    "id": "polysemy:fade",
+    "type": "polysemy",
+    "ordinal": 777,
+    "label": "#777 · fade",
+    "detail": "Polysemy #777 · 13 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=fade"
+  },
+  {
+    "id": "polysemy:chaos",
+    "type": "polysemy",
+    "ordinal": 778,
+    "label": "#778 · chaos",
+    "detail": "Polysemy #778 · 8 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=chaos"
+  },
+  {
+    "id": "polysemy:hype",
+    "type": "polysemy",
+    "ordinal": 779,
+    "label": "#779 · hype",
+    "detail": "Polysemy #779 · 14 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=hype"
+  },
+  {
+    "id": "polysemy:especially",
+    "type": "polysemy",
+    "ordinal": 780,
+    "label": "#780 · especially",
+    "detail": "Polysemy #780 · 10 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=especially"
+  },
+  {
+    "id": "polysemy:commute",
+    "type": "polysemy",
+    "ordinal": 781,
+    "label": "#781 · commute",
+    "detail": "Polysemy #781 · 14 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=commute"
+  },
+  {
+    "id": "polysemy:stability",
+    "type": "polysemy",
+    "ordinal": 782,
+    "label": "#782 · stability",
+    "detail": "Polysemy #782 · 21 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=stability"
+  },
+  {
+    "id": "polysemy:lead",
+    "type": "polysemy",
+    "ordinal": 783,
+    "label": "#783 · lead",
+    "detail": "Polysemy #783 · 27 meanings · 70 questions",
+    "url": "polysemy-lab.html?module=lead"
+  },
+  {
+    "id": "polysemy:routine",
+    "type": "polysemy",
+    "ordinal": 784,
+    "label": "#784 · routine",
+    "detail": "Polysemy #784 · 21 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=routine"
+  },
+  {
+    "id": "polysemy:role",
+    "type": "polysemy",
+    "ordinal": 785,
+    "label": "#785 · role",
+    "detail": "Polysemy #785 · 16 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=role"
+  },
+  {
+    "id": "polysemy:path",
+    "type": "polysemy",
+    "ordinal": 786,
+    "label": "#786 · path",
+    "detail": "Polysemy #786 · 21 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=path"
+  },
+  {
+    "id": "polysemy:impress",
+    "type": "polysemy",
+    "ordinal": 787,
+    "label": "#787 · impress",
+    "detail": "Polysemy #787 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=impress"
+  },
+  {
+    "id": "polysemy:difference",
+    "type": "polysemy",
+    "ordinal": 788,
+    "label": "#788 · difference",
+    "detail": "Polysemy #788 · 24 meanings · 58 questions",
+    "url": "polysemy-lab.html?module=difference"
+  },
+  {
+    "id": "polysemy:strict",
+    "type": "polysemy",
+    "ordinal": 789,
+    "label": "#789 · strict",
+    "detail": "Polysemy #789 · 19 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=strict"
+  },
+  {
+    "id": "polysemy:stuffy",
+    "type": "polysemy",
+    "ordinal": 790,
+    "label": "#790 · stuffy",
+    "detail": "Polysemy #790 · 14 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=stuffy"
+  },
+  {
+    "id": "polysemy:remark",
+    "type": "polysemy",
+    "ordinal": 791,
+    "label": "#791 · remark",
+    "detail": "Polysemy #791 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=remark"
+  },
+  {
+    "id": "polysemy:belong",
+    "type": "polysemy",
+    "ordinal": 792,
+    "label": "#792 · belong",
+    "detail": "Polysemy #792 · 16 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=belong"
+  },
+  {
+    "id": "polysemy:ahead",
+    "type": "polysemy",
+    "ordinal": 793,
+    "label": "#793 · ahead",
+    "detail": "Polysemy #793 · 22 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=ahead"
+  },
+  {
+    "id": "polysemy:group",
+    "type": "polysemy",
+    "ordinal": 794,
+    "label": "#794 · group",
+    "detail": "Polysemy #794 · 21 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=group"
+  },
+  {
+    "id": "polysemy:combination",
+    "type": "polysemy",
+    "ordinal": 795,
+    "label": "#795 · combination",
+    "detail": "Polysemy #795 · 19 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=combination"
+  },
+  {
+    "id": "polysemy:creative",
+    "type": "polysemy",
+    "ordinal": 796,
+    "label": "#796 · creative",
+    "detail": "Polysemy #796 · 20 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=creative"
+  },
+  {
+    "id": "polysemy:feedback",
+    "type": "polysemy",
+    "ordinal": 797,
+    "label": "#797 · feedback",
+    "detail": "Polysemy #797 · 21 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=feedback"
+  },
+  {
+    "id": "polysemy:designer",
+    "type": "polysemy",
+    "ordinal": 798,
+    "label": "#798 · designer",
+    "detail": "Polysemy #798 · 21 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=designer"
+  },
+  {
+    "id": "polysemy:engineer",
+    "type": "polysemy",
+    "ordinal": 799,
+    "label": "#799 · engineer",
+    "detail": "Polysemy #799 · 16 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=engineer"
+  },
+  {
+    "id": "polysemy:stubborn",
+    "type": "polysemy",
+    "ordinal": 800,
+    "label": "#800 · stubborn",
+    "detail": "Polysemy #800 · 17 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=stubborn"
+  },
+  {
+    "id": "polysemy:reflect",
+    "type": "polysemy",
+    "ordinal": 801,
+    "label": "#801 · reflect",
+    "detail": "Polysemy #801 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=reflect"
+  },
+  {
+    "id": "polysemy:awake",
+    "type": "polysemy",
+    "ordinal": 802,
+    "label": "#802 · awake",
+    "detail": "Polysemy #802 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=awake"
+  },
+  {
+    "id": "polysemy:nudge",
+    "type": "polysemy",
+    "ordinal": 803,
+    "label": "#803 · nudge",
+    "detail": "Polysemy #803 · 16 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=nudge"
+  },
+  {
+    "id": "polysemy:mood",
+    "type": "polysemy",
+    "ordinal": 804,
+    "label": "#804 · mood",
+    "detail": "Polysemy #804 · 19 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=mood"
+  },
+  {
+    "id": "polysemy:neighbour",
+    "type": "polysemy",
+    "ordinal": 805,
+    "label": "#805 · neighbour",
+    "detail": "Polysemy #805 · 8 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=neighbour"
+  },
+  {
+    "id": "polysemy:interview",
+    "type": "polysemy",
+    "ordinal": 806,
+    "label": "#806 · interview",
+    "detail": "Polysemy #806 · 6 meanings · 11 questions",
+    "url": "polysemy-lab.html?module=interview"
+  },
+  {
+    "id": "polysemy:intelligent",
+    "type": "polysemy",
+    "ordinal": 807,
+    "label": "#807 · intelligent",
+    "detail": "Polysemy #807 · 17 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=intelligent"
+  },
+  {
+    "id": "polysemy:favourite",
+    "type": "polysemy",
+    "ordinal": 808,
+    "label": "#808 · favourite",
+    "detail": "Polysemy #808 · 15 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=favourite"
+  },
+  {
+    "id": "polysemy:city",
+    "type": "polysemy",
+    "ordinal": 809,
+    "label": "#809 · city",
+    "detail": "Polysemy #809 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=city"
+  },
+  {
+    "id": "polysemy:science",
+    "type": "polysemy",
+    "ordinal": 810,
+    "label": "#810 · science",
+    "detail": "Polysemy #810 · 21 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=science"
+  },
+  {
+    "id": "polysemy:exactly",
+    "type": "polysemy",
+    "ordinal": 811,
+    "label": "#811 · exactly",
+    "detail": "Polysemy #811 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=exactly"
+  },
+  {
+    "id": "polysemy:education",
+    "type": "polysemy",
+    "ordinal": 812,
+    "label": "#812 · education",
+    "detail": "Polysemy #812 · 24 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=education"
+  },
+  {
+    "id": "polysemy:neat",
+    "type": "polysemy",
+    "ordinal": 813,
+    "label": "#813 · neat",
+    "detail": "Polysemy #813 · 16 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=neat"
+  },
+  {
+    "id": "polysemy:friend",
+    "type": "polysemy",
+    "ordinal": 814,
+    "label": "#814 · friend",
+    "detail": "Polysemy #814 · 10 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=friend"
+  },
+  {
+    "id": "polysemy:plain",
+    "type": "polysemy",
+    "ordinal": 815,
+    "label": "#815 · plain",
+    "detail": "Polysemy #815 · 21 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=plain"
+  },
+  {
+    "id": "polysemy:primary",
+    "type": "polysemy",
+    "ordinal": 816,
+    "label": "#816 · primary",
+    "detail": "Polysemy #816 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=primary"
+  },
+  {
+    "id": "polysemy:mentor",
+    "type": "polysemy",
+    "ordinal": 817,
+    "label": "#817 · mentor",
+    "detail": "Polysemy #817 · 15 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=mentor"
+  },
+  {
+    "id": "polysemy:seat",
+    "type": "polysemy",
+    "ordinal": 818,
+    "label": "#818 · seat",
+    "detail": "Polysemy #818 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=seat"
+  },
+  {
+    "id": "polysemy:field",
+    "type": "polysemy",
+    "ordinal": 819,
+    "label": "#819 · field",
+    "detail": "Polysemy #819 · 27 meanings · 60 questions",
+    "url": "polysemy-lab.html?module=field"
+  },
+  {
+    "id": "polysemy:repeat",
+    "type": "polysemy",
+    "ordinal": 820,
+    "label": "#820 · repeat",
+    "detail": "Polysemy #820 · 24 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=repeat"
+  },
+  {
+    "id": "polysemy:sight",
+    "type": "polysemy",
+    "ordinal": 821,
+    "label": "#821 · sight",
+    "detail": "Polysemy #821 · 21 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=sight"
+  },
+  {
+    "id": "polysemy:lively",
+    "type": "polysemy",
+    "ordinal": 822,
+    "label": "#822 · lively",
+    "detail": "Polysemy #822 · 16 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=lively"
+  },
+  {
+    "id": "polysemy:comic",
+    "type": "polysemy",
+    "ordinal": 823,
+    "label": "#823 · comic",
+    "detail": "Polysemy #823 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=comic"
+  },
+  {
+    "id": "polysemy:human",
+    "type": "polysemy",
+    "ordinal": 824,
+    "label": "#824 · human",
+    "detail": "Polysemy #824 · 21 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=human"
+  },
+  {
+    "id": "polysemy:dot",
+    "type": "polysemy",
+    "ordinal": 825,
+    "label": "#825 · dot",
+    "detail": "Polysemy #825 · 17 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=dot"
+  },
+  {
+    "id": "polysemy:government",
+    "type": "polysemy",
+    "ordinal": 826,
+    "label": "#826 · government",
+    "detail": "Polysemy #826 · 13 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=government"
+  },
+  {
+    "id": "polysemy:toolbox",
+    "type": "polysemy",
+    "ordinal": 827,
+    "label": "#827 · toolbox",
+    "detail": "Polysemy #827 · 13 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=toolbox"
+  },
+  {
+    "id": "polysemy:stuck",
+    "type": "polysemy",
+    "ordinal": 828,
+    "label": "#828 · stuck",
+    "detail": "Polysemy #828 · 16 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=stuck"
+  },
+  {
+    "id": "polysemy:more",
+    "type": "polysemy",
+    "ordinal": 829,
+    "label": "#829 · more",
+    "detail": "Polysemy #829 · 21 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=more"
+  },
+  {
+    "id": "polysemy:pull",
+    "type": "polysemy",
+    "ordinal": 830,
+    "label": "#830 · pull",
+    "detail": "Polysemy #830 · 25 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=pull"
+  },
+  {
+    "id": "polysemy:explanation",
+    "type": "polysemy",
+    "ordinal": 831,
+    "label": "#831 · explanation",
+    "detail": "Polysemy #831 · 19 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=explanation"
+  },
+  {
+    "id": "polysemy:estate",
+    "type": "polysemy",
+    "ordinal": 832,
+    "label": "#832 · estate",
+    "detail": "Polysemy #832 · 8 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=estate"
+  },
+  {
+    "id": "polysemy:academic",
+    "type": "polysemy",
+    "ordinal": 833,
+    "label": "#833 · academic",
+    "detail": "Polysemy #833 · 19 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=academic"
+  },
+  {
+    "id": "polysemy:hip",
+    "type": "polysemy",
+    "ordinal": 834,
+    "label": "#834 · hip",
+    "detail": "Polysemy #834 · 7 meanings · 10 questions",
+    "url": "polysemy-lab.html?module=hip"
+  },
+  {
+    "id": "polysemy:series",
+    "type": "polysemy",
+    "ordinal": 835,
+    "label": "#835 · series",
+    "detail": "Polysemy #835 · 22 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=series"
+  },
+  {
+    "id": "polysemy:brilliant",
+    "type": "polysemy",
+    "ordinal": 836,
+    "label": "#836 · brilliant",
+    "detail": "Polysemy #836 · 18 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=brilliant"
+  },
+  {
+    "id": "polysemy:fancy",
+    "type": "polysemy",
+    "ordinal": 837,
+    "label": "#837 · fancy",
+    "detail": "Polysemy #837 · 10 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=fancy"
+  },
+  {
+    "id": "polysemy:emotional",
+    "type": "polysemy",
+    "ordinal": 838,
+    "label": "#838 · emotional",
+    "detail": "Polysemy #838 · 21 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=emotional"
+  },
+  {
+    "id": "polysemy:confuse",
+    "type": "polysemy",
+    "ordinal": 839,
+    "label": "#839 · confuse",
+    "detail": "Polysemy #839 · 18 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=confuse"
+  },
+  {
+    "id": "polysemy:bring",
+    "type": "polysemy",
+    "ordinal": 840,
+    "label": "#840 · bring",
+    "detail": "Polysemy #840 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=bring"
+  },
+  {
+    "id": "polysemy:understand",
+    "type": "polysemy",
+    "ordinal": 841,
+    "label": "#841 · understand",
+    "detail": "Polysemy #841 · 26 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=understand"
+  },
+  {
+    "id": "polysemy:flower",
+    "type": "polysemy",
+    "ordinal": 842,
+    "label": "#842 · flower",
+    "detail": "Polysemy #842 · 16 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=flower"
+  },
+  {
+    "id": "polysemy:shadow",
+    "type": "polysemy",
+    "ordinal": 843,
+    "label": "#843 · shadow",
+    "detail": "Polysemy #843 · 25 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=shadow"
+  },
+  {
+    "id": "polysemy:overnight",
+    "type": "polysemy",
+    "ordinal": 844,
+    "label": "#844 · overnight",
+    "detail": "Polysemy #844 · 9 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=overnight"
+  },
+  {
+    "id": "polysemy:fog",
+    "type": "polysemy",
+    "ordinal": 845,
+    "label": "#845 · fog",
+    "detail": "Polysemy #845 · 20 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=fog"
+  },
+  {
+    "id": "polysemy:accept",
+    "type": "polysemy",
+    "ordinal": 846,
+    "label": "#846 · accept",
+    "detail": "Polysemy #846 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=accept"
+  },
+  {
+    "id": "polysemy:range",
+    "type": "polysemy",
+    "ordinal": 847,
+    "label": "#847 · range",
+    "detail": "Polysemy #847 · 23 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=range"
+  },
+  {
+    "id": "polysemy:balance",
+    "type": "polysemy",
+    "ordinal": 848,
+    "label": "#848 · balance",
+    "detail": "Polysemy #848 · 27 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=balance"
+  },
+  {
+    "id": "polysemy:associate",
+    "type": "polysemy",
+    "ordinal": 849,
+    "label": "#849 · associate",
+    "detail": "Polysemy #849 · 8 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=associate"
+  },
+  {
+    "id": "polysemy:pepper",
+    "type": "polysemy",
+    "ordinal": 850,
+    "label": "#850 · pepper",
+    "detail": "Polysemy #850 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=pepper"
+  },
+  {
+    "id": "polysemy:judgement",
+    "type": "polysemy",
+    "ordinal": 851,
+    "label": "#851 · judgement",
+    "detail": "Polysemy #851 · 23 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=judgement"
+  },
+  {
+    "id": "polysemy:bright",
+    "type": "polysemy",
+    "ordinal": 852,
+    "label": "#852 · bright",
+    "detail": "Polysemy #852 · 10 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=bright"
+  },
+  {
+    "id": "polysemy:lemon",
+    "type": "polysemy",
+    "ordinal": 853,
+    "label": "#853 · lemon",
+    "detail": "Polysemy #853 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=lemon"
+  },
+  {
+    "id": "polysemy:humility",
+    "type": "polysemy",
+    "ordinal": 854,
+    "label": "#854 · humility",
+    "detail": "Polysemy #854 · 20 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=humility"
+  },
+  {
+    "id": "polysemy:part",
+    "type": "polysemy",
+    "ordinal": 855,
+    "label": "#855 · part",
+    "detail": "Polysemy #855 · 11 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=part"
+  },
+  {
+    "id": "polysemy:arrogant",
+    "type": "polysemy",
+    "ordinal": 856,
+    "label": "#856 · arrogant",
+    "detail": "Polysemy #856 · 12 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=arrogant"
+  },
+  {
+    "id": "polysemy:album",
+    "type": "polysemy",
+    "ordinal": 857,
+    "label": "#857 · album",
+    "detail": "Polysemy #857 · 16 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=album"
+  },
+  {
+    "id": "polysemy:garden",
+    "type": "polysemy",
+    "ordinal": 858,
+    "label": "#858 · garden",
+    "detail": "Polysemy #858 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=garden"
+  },
+  {
+    "id": "polysemy:fountain",
+    "type": "polysemy",
+    "ordinal": 859,
+    "label": "#859 · fountain",
+    "detail": "Polysemy #859 · 11 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=fountain"
+  },
+  {
+    "id": "polysemy:unwind",
+    "type": "polysemy",
+    "ordinal": 860,
+    "label": "#860 · unwind",
+    "detail": "Polysemy #860 · 9 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=unwind"
+  },
+  {
+    "id": "polysemy:print",
+    "type": "polysemy",
+    "ordinal": 861,
+    "label": "#861 · print",
+    "detail": "Polysemy #861 · 23 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=print"
+  },
+  {
+    "id": "polysemy:blink",
+    "type": "polysemy",
+    "ordinal": 862,
+    "label": "#862 · blink",
+    "detail": "Polysemy #862 · 8 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=blink"
+  },
+  {
+    "id": "polysemy:caption",
+    "type": "polysemy",
+    "ordinal": 863,
+    "label": "#863 · caption",
+    "detail": "Polysemy #863 · 12 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=caption"
+  },
+  {
+    "id": "polysemy:screw",
+    "type": "polysemy",
+    "ordinal": 864,
+    "label": "#864 · screw",
+    "detail": "Polysemy #864 · 6 meanings · 12 questions",
+    "url": "polysemy-lab.html?module=screw"
+  },
+  {
+    "id": "polysemy:reward",
+    "type": "polysemy",
+    "ordinal": 865,
+    "label": "#865 · reward",
+    "detail": "Polysemy #865 · 12 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=reward"
+  },
+  {
+    "id": "polysemy:healthy",
+    "type": "polysemy",
+    "ordinal": 866,
+    "label": "#866 · healthy",
+    "detail": "Polysemy #866 · 17 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=healthy"
+  },
+  {
+    "id": "polysemy:budge",
+    "type": "polysemy",
+    "ordinal": 867,
+    "label": "#867 · budge",
+    "detail": "Polysemy #867 · 5 meanings · 11 questions",
+    "url": "polysemy-lab.html?module=budge"
+  },
+  {
+    "id": "polysemy:relieve",
+    "type": "polysemy",
+    "ordinal": 868,
+    "label": "#868 · relieve",
+    "detail": "Polysemy #868 · 22 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=relieve"
+  },
+  {
+    "id": "polysemy:receipt",
+    "type": "polysemy",
+    "ordinal": 869,
+    "label": "#869 · receipt",
+    "detail": "Polysemy #869 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=receipt"
+  },
+  {
+    "id": "polysemy:outing",
+    "type": "polysemy",
+    "ordinal": 870,
+    "label": "#870 · outing",
+    "detail": "Polysemy #870 · 12 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=outing"
+  },
+  {
+    "id": "polysemy:uncertain",
+    "type": "polysemy",
+    "ordinal": 871,
+    "label": "#871 · uncertain",
+    "detail": "Polysemy #871 · 15 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=uncertain"
+  },
+  {
+    "id": "polysemy:nervous",
+    "type": "polysemy",
+    "ordinal": 872,
+    "label": "#872 · nervous",
+    "detail": "Polysemy #872 · 20 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=nervous"
+  },
+  {
+    "id": "polysemy:personal",
+    "type": "polysemy",
+    "ordinal": 873,
+    "label": "#873 · personal",
+    "detail": "Polysemy #873 · 26 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=personal"
+  },
+  {
+    "id": "polysemy:theory",
+    "type": "polysemy",
+    "ordinal": 874,
+    "label": "#874 · theory",
+    "detail": "Polysemy #874 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=theory"
+  },
+  {
+    "id": "polysemy:connection",
+    "type": "polysemy",
+    "ordinal": 875,
+    "label": "#875 · connection",
+    "detail": "Polysemy #875 · 24 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=connection"
+  },
+  {
+    "id": "polysemy:example",
+    "type": "polysemy",
+    "ordinal": 876,
+    "label": "#876 · example",
+    "detail": "Polysemy #876 · 7 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=example"
+  },
+  {
+    "id": "polysemy:season",
+    "type": "polysemy",
+    "ordinal": 877,
+    "label": "#877 · season",
+    "detail": "Polysemy #877 · 23 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=season"
+  },
+  {
+    "id": "polysemy:particular",
+    "type": "polysemy",
+    "ordinal": 878,
+    "label": "#878 · particular",
+    "detail": "Polysemy #878 · 16 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=particular"
+  },
+  {
+    "id": "polysemy:corner",
+    "type": "polysemy",
+    "ordinal": 879,
+    "label": "#879 · corner",
+    "detail": "Polysemy #879 · 20 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=corner"
+  },
+  {
+    "id": "polysemy:beyond",
+    "type": "polysemy",
+    "ordinal": 880,
+    "label": "#880 · beyond",
+    "detail": "Polysemy #880 · 6 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=beyond"
+  },
+  {
+    "id": "polysemy:elegant",
+    "type": "polysemy",
+    "ordinal": 881,
+    "label": "#881 · elegant",
+    "detail": "Polysemy #881 · 10 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=elegant"
+  },
+  {
+    "id": "polysemy:perfume",
+    "type": "polysemy",
+    "ordinal": 882,
+    "label": "#882 · perfume",
+    "detail": "Polysemy #882 · 17 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=perfume"
+  },
+  {
+    "id": "polysemy:messy",
+    "type": "polysemy",
+    "ordinal": 883,
+    "label": "#883 · messy",
+    "detail": "Polysemy #883 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=messy"
+  },
+  {
+    "id": "polysemy:sister",
+    "type": "polysemy",
+    "ordinal": 884,
+    "label": "#884 · sister",
+    "detail": "Polysemy #884 · 18 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=sister"
+  },
+  {
+    "id": "polysemy:capture",
+    "type": "polysemy",
+    "ordinal": 885,
+    "label": "#885 · capture",
+    "detail": "Polysemy #885 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=capture"
+  },
+  {
+    "id": "polysemy:sunny",
+    "type": "polysemy",
+    "ordinal": 886,
+    "label": "#886 · sunny",
+    "detail": "Polysemy #886 · 13 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=sunny"
+  },
+  {
+    "id": "polysemy:engrave",
+    "type": "polysemy",
+    "ordinal": 887,
+    "label": "#887 · engrave",
+    "detail": "Polysemy #887 · 12 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=engrave"
+  },
+  {
+    "id": "polysemy:otherwise",
+    "type": "polysemy",
+    "ordinal": 888,
+    "label": "#888 · otherwise",
+    "detail": "Polysemy #888 · 19 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=otherwise"
+  },
+  {
+    "id": "polysemy:rather",
+    "type": "polysemy",
+    "ordinal": 889,
+    "label": "#889 · rather",
+    "detail": "Polysemy #889 · 7 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=rather"
+  },
+  {
+    "id": "polysemy:roof",
+    "type": "polysemy",
+    "ordinal": 890,
+    "label": "#890 · roof",
+    "detail": "Polysemy #890 · 17 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=roof"
+  },
+  {
+    "id": "polysemy:milestone",
+    "type": "polysemy",
+    "ordinal": 891,
+    "label": "#891 · milestone",
+    "detail": "Polysemy #891 · 12 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=milestone"
+  },
+  {
+    "id": "polysemy:slip",
+    "type": "polysemy",
+    "ordinal": 892,
+    "label": "#892 · slip",
+    "detail": "Polysemy #892 · 30 meanings · 66 questions",
+    "url": "polysemy-lab.html?module=slip"
+  },
+  {
+    "id": "polysemy:crack",
+    "type": "polysemy",
+    "ordinal": 893,
+    "label": "#893 · crack",
+    "detail": "Polysemy #893 · 26 meanings · 70 questions",
+    "url": "polysemy-lab.html?module=crack"
+  },
+  {
+    "id": "polysemy:half",
+    "type": "polysemy",
+    "ordinal": 894,
+    "label": "#894 · half",
+    "detail": "Polysemy #894 · 27 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=half"
+  },
+  {
+    "id": "polysemy:far",
+    "type": "polysemy",
+    "ordinal": 895,
+    "label": "#895 · far",
+    "detail": "Polysemy #895 · 24 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=far"
+  },
+  {
+    "id": "polysemy:superpower",
+    "type": "polysemy",
+    "ordinal": 896,
+    "label": "#896 · superpower",
+    "detail": "Polysemy #896 · 4 meanings · 10 questions",
+    "url": "polysemy-lab.html?module=superpower"
+  },
+  {
+    "id": "polysemy:most",
+    "type": "polysemy",
+    "ordinal": 897,
+    "label": "#897 · most",
+    "detail": "Polysemy #897 · 14 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=most"
+  },
+  {
+    "id": "polysemy:joke",
+    "type": "polysemy",
+    "ordinal": 898,
+    "label": "#898 · joke",
+    "detail": "Polysemy #898 · 24 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=joke"
+  },
+  {
+    "id": "polysemy:chocolate",
+    "type": "polysemy",
+    "ordinal": 899,
+    "label": "#899 · chocolate",
+    "detail": "Polysemy #899 · 18 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=chocolate"
+  },
+  {
+    "id": "polysemy:cool",
+    "type": "polysemy",
+    "ordinal": 900,
+    "label": "#900 · cool",
+    "detail": "Polysemy #900 · 11 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=cool"
+  },
+  {
+    "id": "polysemy:all",
+    "type": "polysemy",
+    "ordinal": 901,
+    "label": "#901 · all",
+    "detail": "Polysemy #901 · 26 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=all"
+  },
+  {
+    "id": "polysemy:wallet",
+    "type": "polysemy",
+    "ordinal": 902,
+    "label": "#902 · wallet",
+    "detail": "Polysemy #902 · 12 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=wallet"
+  },
+  {
+    "id": "polysemy:line",
+    "type": "polysemy",
+    "ordinal": 903,
+    "label": "#903 · line",
+    "detail": "Polysemy #903 · 49 meanings · 96 questions",
+    "url": "polysemy-lab.html?module=line"
+  },
+  {
+    "id": "polysemy:process",
+    "type": "polysemy",
+    "ordinal": 904,
+    "label": "#904 · process",
+    "detail": "Polysemy #904 · 9 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=process"
+  },
+  {
+    "id": "polysemy:both",
+    "type": "polysemy",
+    "ordinal": 905,
+    "label": "#905 · both",
+    "detail": "Polysemy #905 · 16 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=both"
+  },
+  {
+    "id": "polysemy:strike",
+    "type": "polysemy",
+    "ordinal": 906,
+    "label": "#906 · strike",
+    "detail": "Polysemy #906 · 34 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=strike"
+  },
+  {
+    "id": "polysemy:card",
+    "type": "polysemy",
+    "ordinal": 907,
+    "label": "#907 · card",
+    "detail": "Polysemy #907 · 39 meanings · 89 questions",
+    "url": "polysemy-lab.html?module=card"
+  },
+  {
+    "id": "polysemy:holiday",
+    "type": "polysemy",
+    "ordinal": 908,
+    "label": "#908 · holiday",
+    "detail": "Polysemy #908 · 6 meanings · 12 questions",
+    "url": "polysemy-lab.html?module=holiday"
+  },
+  {
+    "id": "polysemy:one",
+    "type": "polysemy",
+    "ordinal": 909,
+    "label": "#909 · one",
+    "detail": "Polysemy #909 · 22 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=one"
+  },
+  {
+    "id": "polysemy:chord",
+    "type": "polysemy",
+    "ordinal": 910,
+    "label": "#910 · chord",
+    "detail": "Polysemy #910 · 13 meanings · 18 questions",
+    "url": "polysemy-lab.html?module=chord"
+  },
+  {
+    "id": "polysemy:safe",
+    "type": "polysemy",
+    "ordinal": 911,
+    "label": "#911 · safe",
+    "detail": "Polysemy #911 · 26 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=safe"
+  },
+  {
+    "id": "polysemy:tour",
+    "type": "polysemy",
+    "ordinal": 912,
+    "label": "#912 · tour",
+    "detail": "Polysemy #912 · 8 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=tour"
+  },
+  {
+    "id": "polysemy:another",
+    "type": "polysemy",
+    "ordinal": 913,
+    "label": "#913 · another",
+    "detail": "Polysemy #913 · 14 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=another"
+  },
+  {
+    "id": "polysemy:stage",
+    "type": "polysemy",
+    "ordinal": 914,
+    "label": "#914 · stage",
+    "detail": "Polysemy #914 · 25 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=stage"
+  },
+  {
+    "id": "polysemy:contrast",
+    "type": "polysemy",
+    "ordinal": 915,
+    "label": "#915 · contrast",
+    "detail": "Polysemy #915 · 19 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=contrast"
+  },
+  {
+    "id": "polysemy:coast",
+    "type": "polysemy",
+    "ordinal": 916,
+    "label": "#916 · coast",
+    "detail": "Polysemy #916 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=coast"
+  },
+  {
+    "id": "polysemy:what",
+    "type": "polysemy",
+    "ordinal": 917,
+    "label": "#917 · what",
+    "detail": "Polysemy #917 · 18 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=what"
+  },
+  {
+    "id": "polysemy:crossroads",
+    "type": "polysemy",
+    "ordinal": 918,
+    "label": "#918 · crossroads",
+    "detail": "Polysemy #918 · 10 meanings · 18 questions",
+    "url": "polysemy-lab.html?module=crossroads"
+  },
+  {
+    "id": "polysemy:message",
+    "type": "polysemy",
+    "ordinal": 919,
+    "label": "#919 · message",
+    "detail": "Polysemy #919 · 23 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=message"
+  },
+  {
+    "id": "polysemy:fish",
+    "type": "polysemy",
+    "ordinal": 920,
+    "label": "#920 · fish",
+    "detail": "Polysemy #920 · 8 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=fish"
+  },
+  {
+    "id": "polysemy:whenever",
+    "type": "polysemy",
+    "ordinal": 921,
+    "label": "#921 · whenever",
+    "detail": "Polysemy #921 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=whenever"
+  },
+  {
+    "id": "polysemy:vote",
+    "type": "polysemy",
+    "ordinal": 922,
+    "label": "#922 · vote",
+    "detail": "Polysemy #922 · 26 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=vote"
+  },
+  {
+    "id": "polysemy:middle",
+    "type": "polysemy",
+    "ordinal": 923,
+    "label": "#923 · middle",
+    "detail": "Polysemy #923 · 7 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=middle"
+  },
+  {
+    "id": "polysemy:dramatic",
+    "type": "polysemy",
+    "ordinal": 924,
+    "label": "#924 · dramatic",
+    "detail": "Polysemy #924 · 20 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=dramatic"
+  },
+  {
+    "id": "polysemy:some",
+    "type": "polysemy",
+    "ordinal": 925,
+    "label": "#925 · some",
+    "detail": "Polysemy #925 · 17 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=some"
+  },
+  {
+    "id": "polysemy:smooth",
+    "type": "polysemy",
+    "ordinal": 926,
+    "label": "#926 · smooth",
+    "detail": "Polysemy #926 · 24 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=smooth"
+  },
+  {
+    "id": "polysemy:reaction",
+    "type": "polysemy",
+    "ordinal": 927,
+    "label": "#927 · reaction",
+    "detail": "Polysemy #927 · 23 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=reaction"
+  },
+  {
+    "id": "polysemy:trip",
+    "type": "polysemy",
+    "ordinal": 928,
+    "label": "#928 · trip",
+    "detail": "Polysemy #928 · 7 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=trip"
+  },
+  {
+    "id": "polysemy:also",
+    "type": "polysemy",
+    "ordinal": 929,
+    "label": "#929 · also",
+    "detail": "Polysemy #929 · 11 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=also"
+  },
+  {
+    "id": "polysemy:journal",
+    "type": "polysemy",
+    "ordinal": 930,
+    "label": "#930 · journal",
+    "detail": "Polysemy #930 · 17 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=journal"
+  },
+  {
+    "id": "polysemy:nail",
+    "type": "polysemy",
+    "ordinal": 931,
+    "label": "#931 · nail",
+    "detail": "Polysemy #931 · 23 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=nail"
+  },
+  {
+    "id": "polysemy:panic",
+    "type": "polysemy",
+    "ordinal": 932,
+    "label": "#932 · panic",
+    "detail": "Polysemy #932 · 7 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=panic"
+  },
+  {
+    "id": "polysemy:list",
+    "type": "polysemy",
+    "ordinal": 933,
+    "label": "#933 · list",
+    "detail": "Polysemy #933 · 26 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=list"
+  },
+  {
+    "id": "polysemy:shelf",
+    "type": "polysemy",
+    "ordinal": 934,
+    "label": "#934 · shelf",
+    "detail": "Polysemy #934 · 21 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=shelf"
+  },
+  {
+    "id": "polysemy:glide",
+    "type": "polysemy",
+    "ordinal": 935,
+    "label": "#935 · glide",
+    "detail": "Polysemy #935 · 7 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=glide"
+  },
+  {
+    "id": "polysemy:paint",
+    "type": "polysemy",
+    "ordinal": 936,
+    "label": "#936 · paint",
+    "detail": "Polysemy #936 · 15 meanings · 30 questions",
+    "url": "polysemy-lab.html?module=paint"
+  },
+  {
+    "id": "polysemy:understate",
+    "type": "polysemy",
+    "ordinal": 937,
+    "label": "#937 · understate",
+    "detail": "Polysemy #937 · 11 meanings · 20 questions",
+    "url": "polysemy-lab.html?module=understate"
+  },
+  {
+    "id": "polysemy:value",
+    "type": "polysemy",
+    "ordinal": 938,
+    "label": "#938 · value",
+    "detail": "Polysemy #938 · 33 meanings · 70 questions",
+    "url": "polysemy-lab.html?module=value"
+  },
+  {
+    "id": "polysemy:shell",
+    "type": "polysemy",
+    "ordinal": 939,
+    "label": "#939 · shell",
+    "detail": "Polysemy #939 · 13 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=shell"
+  },
+  {
+    "id": "polysemy:art",
+    "type": "polysemy",
+    "ordinal": 940,
+    "label": "#940 · art",
+    "detail": "Polysemy #940 · 22 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=art"
+  },
+  {
+    "id": "polysemy:period",
+    "type": "polysemy",
+    "ordinal": 941,
+    "label": "#941 · period",
+    "detail": "Polysemy #941 · 23 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=period"
+  },
+  {
+    "id": "polysemy:generic",
+    "type": "polysemy",
+    "ordinal": 942,
+    "label": "#942 · generic",
+    "detail": "Polysemy #942 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=generic"
+  },
+  {
+    "id": "polysemy:reproduction",
+    "type": "polysemy",
+    "ordinal": 943,
+    "label": "#943 · reproduction",
+    "detail": "Polysemy #943 · 18 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=reproduction"
+  },
+  {
+    "id": "polysemy:word",
+    "type": "polysemy",
+    "ordinal": 944,
+    "label": "#944 · word",
+    "detail": "Polysemy #944 · 40 meanings · 82 questions",
+    "url": "polysemy-lab.html?module=word"
+  },
+  {
+    "id": "polysemy:shop",
+    "type": "polysemy",
+    "ordinal": 945,
+    "label": "#945 · shop",
+    "detail": "Polysemy #945 · 30 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=shop"
+  },
+  {
+    "id": "polysemy:rhythm",
+    "type": "polysemy",
+    "ordinal": 946,
+    "label": "#946 · rhythm",
+    "detail": "Polysemy #946 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=rhythm"
+  },
+  {
+    "id": "polysemy:water",
+    "type": "polysemy",
+    "ordinal": 947,
+    "label": "#947 · water",
+    "detail": "Polysemy #947 · 21 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=water"
+  },
+  {
+    "id": "polysemy:bag",
+    "type": "polysemy",
+    "ordinal": 948,
+    "label": "#948 · bag",
+    "detail": "Polysemy #948 · 21 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=bag"
+  },
+  {
+    "id": "polysemy:fast",
+    "type": "polysemy",
+    "ordinal": 950,
+    "label": "#950 · fast",
+    "detail": "Polysemy #950 · 23 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=fast"
+  },
+  {
+    "id": "polysemy:appreciate",
+    "type": "polysemy",
+    "ordinal": 951,
+    "label": "#951 · appreciate",
+    "detail": "Polysemy #951 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=appreciate"
+  },
+  {
+    "id": "polysemy:anchor",
+    "type": "polysemy",
+    "ordinal": 952,
+    "label": "#952 · anchor",
+    "detail": "Polysemy #952 · 24 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=anchor"
+  },
+  {
+    "id": "polysemy:ever",
+    "type": "polysemy",
+    "ordinal": 953,
+    "label": "#953 · ever",
+    "detail": "Polysemy #953 · 24 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=ever"
+  },
+  {
+    "id": "polysemy:strange",
+    "type": "polysemy",
+    "ordinal": 954,
+    "label": "#954 · strange",
+    "detail": "Polysemy #954 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=strange"
+  },
+  {
+    "id": "polysemy:treasure",
+    "type": "polysemy",
+    "ordinal": 955,
+    "label": "#955 · treasure",
+    "detail": "Polysemy #955 · 20 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=treasure"
+  },
+  {
+    "id": "polysemy:mixture",
+    "type": "polysemy",
+    "ordinal": 956,
+    "label": "#956 · mixture",
+    "detail": "Polysemy #956 · 7 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=mixture"
+  },
+  {
+    "id": "polysemy:notice",
+    "type": "polysemy",
+    "ordinal": 957,
+    "label": "#957 · notice",
+    "detail": "Polysemy #957 · 20 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=notice"
+  },
+  {
+    "id": "polysemy:carry",
+    "type": "polysemy",
+    "ordinal": 958,
+    "label": "#958 · carry",
+    "detail": "Polysemy #958 · 36 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=carry"
+  },
+  {
+    "id": "polysemy:apologise",
+    "type": "polysemy",
+    "ordinal": 959,
+    "label": "#959 · apologise",
+    "detail": "Polysemy #959 · 23 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=apologise"
+  },
+  {
+    "id": "polysemy:symbol",
+    "type": "polysemy",
+    "ordinal": 960,
+    "label": "#960 · symbol",
+    "detail": "Polysemy #960 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=symbol"
+  },
+  {
+    "id": "polysemy:grade",
+    "type": "polysemy",
+    "ordinal": 961,
+    "label": "#961 · grade",
+    "detail": "Polysemy #961 · 30 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=grade"
+  },
+  {
+    "id": "polysemy:fragile",
+    "type": "polysemy",
+    "ordinal": 962,
+    "label": "#962 · fragile",
+    "detail": "Polysemy #962 · 7 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=fragile"
+  },
+  {
+    "id": "polysemy:layer",
+    "type": "polysemy",
+    "ordinal": 963,
+    "label": "#963 · layer",
+    "detail": "Polysemy #963 · 19 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=layer"
+  },
+  {
+    "id": "polysemy:deadline",
+    "type": "polysemy",
+    "ordinal": 964,
+    "label": "#964 · deadline",
+    "detail": "Polysemy #964 · 24 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=deadline"
+  },
+  {
+    "id": "polysemy:resilient",
+    "type": "polysemy",
+    "ordinal": 965,
+    "label": "#965 · resilient",
+    "detail": "Polysemy #965 · 7 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=resilient"
+  },
+  {
+    "id": "polysemy:blur",
+    "type": "polysemy",
+    "ordinal": 966,
+    "label": "#966 · blur",
+    "detail": "Polysemy #966 · 14 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=blur"
+  },
+  {
+    "id": "polysemy:harsh",
+    "type": "polysemy",
+    "ordinal": 967,
+    "label": "#967 · harsh",
+    "detail": "Polysemy #967 · 8 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=harsh"
+  },
+  {
+    "id": "polysemy:float",
+    "type": "polysemy",
+    "ordinal": 968,
+    "label": "#968 · float",
+    "detail": "Polysemy #968 · 20 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=float"
+  },
+  {
+    "id": "polysemy:irritable",
+    "type": "polysemy",
+    "ordinal": 969,
+    "label": "#969 · irritable",
+    "detail": "Polysemy #969 · 18 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=irritable"
+  },
+  {
+    "id": "polysemy:market",
+    "type": "polysemy",
+    "ordinal": 970,
+    "label": "#970 · market",
+    "detail": "Polysemy #970 · 87 meanings · 145 questions",
+    "url": "polysemy-lab.html?module=market"
+  },
+  {
+    "id": "polysemy:conflict",
+    "type": "polysemy",
+    "ordinal": 971,
+    "label": "#971 · conflict",
+    "detail": "Polysemy #971 · 93 meanings · 126 questions",
+    "url": "polysemy-lab.html?module=conflict"
+  },
+  {
+    "id": "polysemy:consideration",
+    "type": "polysemy",
+    "ordinal": 972,
+    "label": "#972 · consideration",
+    "detail": "Polysemy #972 · 36 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=consideration"
+  },
+  {
+    "id": "polysemy:source",
+    "type": "polysemy",
+    "ordinal": 973,
+    "label": "#973 · source",
+    "detail": "Polysemy #973 · 31 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=source"
+  },
+  {
+    "id": "polysemy:approval",
+    "type": "polysemy",
+    "ordinal": 974,
+    "label": "#974 · approval",
+    "detail": "Polysemy #974 · 29 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=approval"
+  },
+  {
+    "id": "polysemy:tone",
+    "type": "polysemy",
+    "ordinal": 975,
+    "label": "#975 · tone",
+    "detail": "Polysemy #975 · 95 meanings · 84 questions",
+    "url": "polysemy-lab.html?module=tone"
+  },
+  {
+    "id": "polysemy:finance",
+    "type": "polysemy",
+    "ordinal": 976,
+    "label": "#976 · finance",
+    "detail": "Polysemy #976 · 84 meanings · 174 questions",
+    "url": "polysemy-lab.html?module=finance"
+  },
+  {
+    "id": "polysemy:erode",
+    "type": "polysemy",
+    "ordinal": 977,
+    "label": "#977 · erode",
+    "detail": "Polysemy #977 · 25 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=erode"
+  },
+  {
+    "id": "polysemy:courtesy",
+    "type": "polysemy",
+    "ordinal": 978,
+    "label": "#978 · courtesy",
+    "detail": "Polysemy #978 · 34 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=courtesy"
+  },
+  {
+    "id": "polysemy:critical",
+    "type": "polysemy",
+    "ordinal": 979,
+    "label": "#979 · critical",
+    "detail": "Polysemy #979 · 41 meanings · 70 questions",
+    "url": "polysemy-lab.html?module=critical"
+  },
+  {
+    "id": "polysemy:gesture",
+    "type": "polysemy",
+    "ordinal": 980,
+    "label": "#980 · gesture",
+    "detail": "Polysemy #980 · 84 meanings · 65 questions",
+    "url": "polysemy-lab.html?module=gesture"
+  },
+  {
+    "id": "polysemy:professional",
+    "type": "polysemy",
+    "ordinal": 981,
+    "label": "#981 · professional",
+    "detail": "Polysemy #981 · 72 meanings · 112 questions",
+    "url": "polysemy-lab.html?module=professional"
+  },
+  {
+    "id": "polysemy:defend",
+    "type": "polysemy",
+    "ordinal": 982,
+    "label": "#982 · defend",
+    "detail": "Polysemy #982 · 40 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=defend"
+  },
+  {
+    "id": "polysemy:platform",
+    "type": "polysemy",
+    "ordinal": 983,
+    "label": "#983 · platform",
+    "detail": "Polysemy #983 · 33 meanings · 52 questions",
+    "url": "polysemy-lab.html?module=platform"
+  },
+  {
+    "id": "polysemy:store",
+    "type": "polysemy",
+    "ordinal": 984,
+    "label": "#984 · store",
+    "detail": "Polysemy #984 · 123 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=store"
+  },
+  {
+    "id": "polysemy:push",
+    "type": "polysemy",
+    "ordinal": 985,
+    "label": "#985 · push",
+    "detail": "Polysemy #985 · 64 meanings · 172 questions",
+    "url": "polysemy-lab.html?module=push"
+  },
+  {
+    "id": "polysemy:argue",
+    "type": "polysemy",
+    "ordinal": 986,
+    "label": "#986 · argue",
+    "detail": "Polysemy #986 · 41 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=argue"
+  },
+  {
+    "id": "polysemy:phone",
+    "type": "polysemy",
+    "ordinal": 987,
+    "label": "#987 · phone",
+    "detail": "Polysemy #987 · 36 meanings · 55 questions",
+    "url": "polysemy-lab.html?module=phone"
+  },
+  {
+    "id": "polysemy:negotiate",
+    "type": "polysemy",
+    "ordinal": 988,
+    "label": "#988 · negotiate",
+    "detail": "Polysemy #988 · 101 meanings · 83 questions",
+    "url": "polysemy-lab.html?module=negotiate"
+  },
+  {
+    "id": "polysemy:caution",
+    "type": "polysemy",
+    "ordinal": 989,
+    "label": "#989 · caution",
+    "detail": "Polysemy #989 · 50 meanings · 95 questions",
+    "url": "polysemy-lab.html?module=caution"
+  },
+  {
+    "id": "polysemy:concern",
+    "type": "polysemy",
+    "ordinal": 990,
+    "label": "#990 · concern",
+    "detail": "Polysemy #990 · 38 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=concern"
+  },
+  {
+    "id": "polysemy:comment",
+    "type": "polysemy",
+    "ordinal": 991,
+    "label": "#991 · comment",
+    "detail": "Polysemy #991 · 28 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=comment"
+  },
+  {
+    "id": "polysemy:language",
+    "type": "polysemy",
+    "ordinal": 992,
+    "label": "#992 · language",
+    "detail": "Polysemy #992 · 137 meanings · 44 questions",
+    "url": "polysemy-lab.html?module=language"
+  },
+  {
+    "id": "polysemy:aim",
+    "type": "polysemy",
+    "ordinal": 993,
+    "label": "#993 · aim",
+    "detail": "Polysemy #993 · 43 meanings · 119 questions",
+    "url": "polysemy-lab.html?module=aim"
+  },
+  {
+    "id": "polysemy:dismiss",
+    "type": "polysemy",
+    "ordinal": 994,
+    "label": "#994 · dismiss",
+    "detail": "Polysemy #994 · 34 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=dismiss"
+  },
+  {
+    "id": "polysemy:aside",
+    "type": "polysemy",
+    "ordinal": 995,
+    "label": "#995 · aside",
+    "detail": "Polysemy #995 · 24 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=aside"
+  },
+  {
+    "id": "polysemy:report",
+    "type": "polysemy",
+    "ordinal": 996,
+    "label": "#996 · report",
+    "detail": "Polysemy #996 · 122 meanings · 54 questions",
+    "url": "polysemy-lab.html?module=report"
+  },
+  {
+    "id": "polysemy:objective",
+    "type": "polysemy",
+    "ordinal": 997,
+    "label": "#997 · objective",
+    "detail": "Polysemy #997 · 67 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=objective"
+  },
+  {
+    "id": "polysemy:sympathy",
+    "type": "polysemy",
+    "ordinal": 998,
+    "label": "#998 · sympathy",
+    "detail": "Polysemy #998 · 38 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=sympathy"
+  },
+  {
+    "id": "polysemy:thrill",
+    "type": "polysemy",
+    "ordinal": 999,
+    "label": "#999 · thrill",
+    "detail": "Polysemy #999 · 20 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=thrill"
+  },
+  {
+    "id": "polysemy:court",
+    "type": "polysemy",
+    "ordinal": 1000,
+    "label": "#1000 · court",
+    "detail": "Polysemy #1000 · 123 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=court"
+  },
+  {
+    "id": "polysemy:channel",
+    "type": "polysemy",
+    "ordinal": 1001,
+    "label": "#1001 · channel",
+    "detail": "Polysemy #1001 · 70 meanings · 165 questions",
+    "url": "polysemy-lab.html?module=channel"
+  },
+  {
+    "id": "polysemy:gap",
+    "type": "polysemy",
+    "ordinal": 1002,
+    "label": "#1002 · gap",
+    "detail": "Polysemy #1002 · 63 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=gap"
+  },
+  {
+    "id": "polysemy:flatter",
+    "type": "polysemy",
+    "ordinal": 1003,
+    "label": "#1003 · flatter",
+    "detail": "Polysemy #1003 · 21 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=flatter"
+  },
+  {
+    "id": "polysemy:brief",
+    "type": "polysemy",
+    "ordinal": 1004,
+    "label": "#1004 · brief",
+    "detail": "Polysemy #1004 · 66 meanings · 145 questions",
+    "url": "polysemy-lab.html?module=brief"
+  },
+  {
+    "id": "polysemy:appropriate",
+    "type": "polysemy",
+    "ordinal": 1005,
+    "label": "#1005 · appropriate",
+    "detail": "Polysemy #1005 · 37 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=appropriate"
+  },
+  {
+    "id": "polysemy:reversal",
+    "type": "polysemy",
+    "ordinal": 1006,
+    "label": "#1006 · reversal",
+    "detail": "Polysemy #1006 · 140 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=reversal"
+  },
+  {
+    "id": "polysemy:dependence",
+    "type": "polysemy",
+    "ordinal": 1007,
+    "label": "#1007 · dependence",
+    "detail": "Polysemy #1007 · 34 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=dependence"
+  },
+  {
+    "id": "polysemy:reduce",
+    "type": "polysemy",
+    "ordinal": 1008,
+    "label": "#1008 · reduce",
+    "detail": "Polysemy #1008 · 91 meanings · 161 questions",
+    "url": "polysemy-lab.html?module=reduce"
+  },
+  {
+    "id": "polysemy:premise",
+    "type": "polysemy",
+    "ordinal": 1009,
+    "label": "#1009 · premise",
+    "detail": "Polysemy #1009 · 38 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=premise"
+  },
+  {
+    "id": "polysemy:response",
+    "type": "polysemy",
+    "ordinal": 1010,
+    "label": "#1010 · response",
+    "detail": "Polysemy #1010 · 41 meanings · 79 questions",
+    "url": "polysemy-lab.html?module=response"
+  },
+  {
+    "id": "polysemy:wound",
+    "type": "polysemy",
+    "ordinal": 1011,
+    "label": "#1011 · wound",
+    "detail": "Polysemy #1011 · 99 meanings · 68 questions",
+    "url": "polysemy-lab.html?module=wound"
+  },
+  {
+    "id": "polysemy:direct",
+    "type": "polysemy",
+    "ordinal": 1012,
+    "label": "#1012 · direct",
+    "detail": "Polysemy #1012 · 83 meanings · 139 questions",
+    "url": "polysemy-lab.html?module=direct"
+  },
+  {
+    "id": "polysemy:expand",
+    "type": "polysemy",
+    "ordinal": 1013,
+    "label": "#1013 · expand",
+    "detail": "Polysemy #1013 · 65 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=expand"
+  },
+  {
+    "id": "polysemy:encourage",
+    "type": "polysemy",
+    "ordinal": 1014,
+    "label": "#1014 · encourage",
+    "detail": "Polysemy #1014 · 23 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=encourage"
+  },
+  {
+    "id": "polysemy:apply",
+    "type": "polysemy",
+    "ordinal": 1015,
+    "label": "#1015 · apply",
+    "detail": "Polysemy #1015 · 139 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=apply"
+  },
+  {
+    "id": "polysemy:fellow",
+    "type": "polysemy",
+    "ordinal": 1016,
+    "label": "#1016 · fellow",
+    "detail": "Polysemy #1016 · 20 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=fellow"
+  },
+  {
+    "id": "polysemy:accessible",
+    "type": "polysemy",
+    "ordinal": 1017,
+    "label": "#1017 · accessible",
+    "detail": "Polysemy #1017 · 55 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=accessible"
+  },
+  {
+    "id": "polysemy:generate",
+    "type": "polysemy",
+    "ordinal": 1018,
+    "label": "#1018 · generate",
+    "detail": "Polysemy #1018 · 97 meanings · 165 questions",
+    "url": "polysemy-lab.html?module=generate"
+  },
+  {
+    "id": "polysemy:instruction",
+    "type": "polysemy",
+    "ordinal": 1019,
+    "label": "#1019 · instruction",
+    "detail": "Polysemy #1019 · 142 meanings · 38 questions",
+    "url": "polysemy-lab.html?module=instruction"
+  },
+  {
+    "id": "polysemy:stun",
+    "type": "polysemy",
+    "ordinal": 1020,
+    "label": "#1020 · stun",
+    "detail": "Polysemy #1020 · 22 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=stun"
+  },
+  {
+    "id": "polysemy:limit",
+    "type": "polysemy",
+    "ordinal": 1021,
+    "label": "#1021 · limit",
+    "detail": "Polysemy #1021 · 140 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=limit"
+  },
+  {
+    "id": "polysemy:contest",
+    "type": "polysemy",
+    "ordinal": 1022,
+    "label": "#1022 · contest",
+    "detail": "Polysemy #1022 · 61 meanings · 122 questions",
+    "url": "polysemy-lab.html?module=contest"
+  },
+  {
+    "id": "polysemy:operate",
+    "type": "polysemy",
+    "ordinal": 1023,
+    "label": "#1023 · operate",
+    "detail": "Polysemy #1023 · 68 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=operate"
+  },
+  {
+    "id": "polysemy:celebrity",
+    "type": "polysemy",
+    "ordinal": 1024,
+    "label": "#1024 · celebrity",
+    "detail": "Polysemy #1024 · 19 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=celebrity"
+  },
+  {
+    "id": "polysemy:entry",
+    "type": "polysemy",
+    "ordinal": 1025,
+    "label": "#1025 · entry",
+    "detail": "Polysemy #1025 · 140 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=entry"
+  },
+  {
+    "id": "polysemy:pride",
+    "type": "polysemy",
+    "ordinal": 1026,
+    "label": "#1026 · pride",
+    "detail": "Polysemy #1026 · 53 meanings · 127 questions",
+    "url": "polysemy-lab.html?module=pride"
+  },
+  {
+    "id": "polysemy:entrench",
+    "type": "polysemy",
+    "ordinal": 1027,
+    "label": "#1027 · entrench",
+    "detail": "Polysemy #1027 · 32 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=entrench"
+  },
+  {
+    "id": "polysemy:fame",
+    "type": "polysemy",
+    "ordinal": 1028,
+    "label": "#1028 · fame",
+    "detail": "Polysemy #1028 · 28 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=fame"
+  },
+  {
+    "id": "polysemy:text",
+    "type": "polysemy",
+    "ordinal": 1029,
+    "label": "#1029 · text",
+    "detail": "Polysemy #1029 · 124 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=text"
+  },
+  {
+    "id": "polysemy:pursue",
+    "type": "polysemy",
+    "ordinal": 1030,
+    "label": "#1030 · pursue",
+    "detail": "Polysemy #1030 · 60 meanings · 147 questions",
+    "url": "polysemy-lab.html?module=pursue"
+  },
+  {
+    "id": "polysemy:structure",
+    "type": "polysemy",
+    "ordinal": 1031,
+    "label": "#1031 · structure",
+    "detail": "Polysemy #1031 · 69 meanings · 14 questions",
+    "url": "polysemy-lab.html?module=structure"
+  },
+  {
+    "id": "polysemy:masterpiece",
+    "type": "polysemy",
+    "ordinal": 1032,
+    "label": "#1032 · masterpiece",
+    "detail": "Polysemy #1032 · 17 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=masterpiece"
+  },
+  {
+    "id": "polysemy:damage",
+    "type": "polysemy",
+    "ordinal": 1033,
+    "label": "#1033 · damage",
+    "detail": "Polysemy #1033 · 75 meanings · 168 questions",
+    "url": "polysemy-lab.html?module=damage"
+  },
+  {
+    "id": "polysemy:introduce",
+    "type": "polysemy",
+    "ordinal": 1034,
+    "label": "#1034 · introduce",
+    "detail": "Polysemy #1034 · 35 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=introduce"
+  },
+  {
+    "id": "polysemy:goal",
+    "type": "polysemy",
+    "ordinal": 1035,
+    "label": "#1035 · goal",
+    "detail": "Polysemy #1035 · 126 meanings · 36 questions",
+    "url": "polysemy-lab.html?module=goal"
+  },
+  {
+    "id": "polysemy:notification",
+    "type": "polysemy",
+    "ordinal": 1036,
+    "label": "#1036 · notification",
+    "detail": "Polysemy #1036 · 29 meanings · 56 questions",
+    "url": "polysemy-lab.html?module=notification"
+  },
+  {
+    "id": "polysemy:foundation",
+    "type": "polysemy",
+    "ordinal": 1037,
+    "label": "#1037 · foundation",
+    "detail": "Polysemy #1037 · 77 meanings · 148 questions",
+    "url": "polysemy-lab.html?module=foundation"
+  },
+  {
+    "id": "polysemy:policy",
+    "type": "polysemy",
+    "ordinal": 1038,
+    "label": "#1038 · policy",
+    "detail": "Polysemy #1038 · 53 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=policy"
+  },
+  {
+    "id": "polysemy:magical",
+    "type": "polysemy",
+    "ordinal": 1039,
+    "label": "#1039 · magical",
+    "detail": "Polysemy #1039 · 23 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=magical"
+  },
+  {
+    "id": "polysemy:incorporate",
+    "type": "polysemy",
+    "ordinal": 1040,
+    "label": "#1040 · incorporate",
+    "detail": "Polysemy #1040 · 111 meanings · 45 questions",
+    "url": "polysemy-lab.html?module=incorporate"
+  },
+  {
+    "id": "polysemy:rehearse",
+    "type": "polysemy",
+    "ordinal": 1041,
+    "label": "#1041 · rehearse",
+    "detail": "Polysemy #1041 · 94 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=rehearse"
+  },
+  {
+    "id": "polysemy:reassure",
+    "type": "polysemy",
+    "ordinal": 1042,
+    "label": "#1042 · reassure",
+    "detail": "Polysemy #1042 · 17 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=reassure"
+  },
+  {
+    "id": "polysemy:clash",
+    "type": "polysemy",
+    "ordinal": 1043,
+    "label": "#1043 · clash",
+    "detail": "Polysemy #1043 · 52 meanings · 120 questions",
+    "url": "polysemy-lab.html?module=clash"
+  },
+  {
+    "id": "polysemy:substitute",
+    "type": "polysemy",
+    "ordinal": 1044,
+    "label": "#1044 · substitute",
+    "detail": "Polysemy #1044 · 53 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=substitute"
+  },
+  {
+    "id": "polysemy:popularity",
+    "type": "polysemy",
+    "ordinal": 1045,
+    "label": "#1045 · popularity",
+    "detail": "Polysemy #1045 · 27 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=popularity"
+  },
+  {
+    "id": "polysemy:assessment",
+    "type": "polysemy",
+    "ordinal": 1046,
+    "label": "#1046 · assessment",
+    "detail": "Polysemy #1046 · 189 meanings · 24 questions",
+    "url": "polysemy-lab.html?module=assessment"
+  },
+  {
+    "id": "polysemy:resolution",
+    "type": "polysemy",
+    "ordinal": 1047,
+    "label": "#1047 · resolution",
+    "detail": "Polysemy #1047 · 78 meanings · 95 questions",
+    "url": "polysemy-lab.html?module=resolution"
+  },
+  {
+    "id": "polysemy:addictive",
+    "type": "polysemy",
+    "ordinal": 1048,
+    "label": "#1048 · addictive",
+    "detail": "Polysemy #1048 · 17 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=addictive"
+  },
+  {
+    "id": "polysemy:division",
+    "type": "polysemy",
+    "ordinal": 1049,
+    "label": "#1049 · division",
+    "detail": "Polysemy #1049 · 83 meanings · 78 questions",
+    "url": "polysemy-lab.html?module=division"
+  },
+  {
+    "id": "polysemy:diary",
+    "type": "polysemy",
+    "ordinal": 1051,
+    "label": "#1051 · diary",
+    "detail": "Polysemy #1051 · 100 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=diary"
+  },
+  {
+    "id": "polysemy:suffer",
+    "type": "polysemy",
+    "ordinal": 1052,
+    "label": "#1052 · suffer",
+    "detail": "Polysemy #1052 · 65 meanings · 153 questions",
+    "url": "polysemy-lab.html?module=suffer"
+  },
+  {
+    "id": "polysemy:dream",
+    "type": "polysemy",
+    "ordinal": 1053,
+    "label": "#1053 · dream",
+    "detail": "Polysemy #1053 · 50 meanings · 34 questions",
+    "url": "polysemy-lab.html?module=dream"
+  },
+  {
+    "id": "polysemy:letter",
+    "type": "polysemy",
+    "ordinal": 1054,
+    "label": "#1054 · letter",
+    "detail": "Polysemy #1054 · 58 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=letter"
+  },
+  {
+    "id": "polysemy:transparent",
+    "type": "polysemy",
+    "ordinal": 1055,
+    "label": "#1055 · transparent",
+    "detail": "Polysemy #1055 · 70 meanings · 128 questions",
+    "url": "polysemy-lab.html?module=transparent"
+  },
+  {
+    "id": "polysemy:roast",
+    "type": "polysemy",
+    "ordinal": 1056,
+    "label": "#1056 · roast",
+    "detail": "Polysemy #1056 · 34 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=roast"
+  },
+  {
+    "id": "polysemy:indicate",
+    "type": "polysemy",
+    "ordinal": 1057,
+    "label": "#1057 · indicate",
+    "detail": "Polysemy #1057 · 20 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=indicate"
+  },
+  {
+    "id": "polysemy:vehicle",
+    "type": "polysemy",
+    "ordinal": 1058,
+    "label": "#1058 · vehicle",
+    "detail": "Polysemy #1058 · 19 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=vehicle"
+  },
+  {
+    "id": "polysemy:require",
+    "type": "polysemy",
+    "ordinal": 1059,
+    "label": "#1059 · require",
+    "detail": "Polysemy #1059 · 207 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=require"
+  },
+  {
+    "id": "polysemy:common",
+    "type": "polysemy",
+    "ordinal": 1060,
+    "label": "#1060 · common",
+    "detail": "Polysemy #1060 · 78 meanings · 118 questions",
+    "url": "polysemy-lab.html?module=common"
+  },
+  {
+    "id": "polysemy:freedom",
+    "type": "polysemy",
+    "ordinal": 1061,
+    "label": "#1061 · freedom",
+    "detail": "Polysemy #1061 · 40 meanings · 13 questions",
+    "url": "polysemy-lab.html?module=freedom"
+  },
+  {
+    "id": "polysemy:dealer",
+    "type": "polysemy",
+    "ordinal": 1062,
+    "label": "#1062 · dealer",
+    "detail": "Polysemy #1062 · 17 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=dealer"
+  },
+  {
+    "id": "polysemy:risk",
+    "type": "polysemy",
+    "ordinal": 1063,
+    "label": "#1063 · risk",
+    "detail": "Polysemy #1063 · 96 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=risk"
+  },
+  {
+    "id": "polysemy:driver",
+    "type": "polysemy",
+    "ordinal": 1064,
+    "label": "#1064 · driver",
+    "detail": "Polysemy #1064 · 19 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=driver"
+  },
+  {
+    "id": "polysemy:return",
+    "type": "polysemy",
+    "ordinal": 1065,
+    "label": "#1065 · return",
+    "detail": "Polysemy #1065 · 82 meanings · 136 questions",
+    "url": "polysemy-lab.html?module=return"
+  },
+  {
+    "id": "polysemy:resign",
+    "type": "polysemy",
+    "ordinal": 1066,
+    "label": "#1066 · resign",
+    "detail": "Polysemy #1066 · 39 meanings · 28 questions",
+    "url": "polysemy-lab.html?module=resign"
+  },
+  {
+    "id": "polysemy:position",
+    "type": "polysemy",
+    "ordinal": 1067,
+    "label": "#1067 · position",
+    "detail": "Polysemy #1067 · 25 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=position"
+  },
+  {
+    "id": "polysemy:coach",
+    "type": "polysemy",
+    "ordinal": 1068,
+    "label": "#1068 · coach",
+    "detail": "Polysemy #1068 · 21 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=coach"
+  },
+  {
+    "id": "polysemy:member",
+    "type": "polysemy",
+    "ordinal": 1069,
+    "label": "#1069 · member",
+    "detail": "Polysemy #1069 · 73 meanings · 165 questions",
+    "url": "polysemy-lab.html?module=member"
+  },
+  {
+    "id": "polysemy:surrender",
+    "type": "polysemy",
+    "ordinal": 1070,
+    "label": "#1070 · surrender",
+    "detail": "Polysemy #1070 · 38 meanings · 21 questions",
+    "url": "polysemy-lab.html?module=surrender"
+  },
+  {
+    "id": "polysemy:purchase",
+    "type": "polysemy",
+    "ordinal": 1071,
+    "label": "#1071 · purchase",
+    "detail": "Polysemy #1071 · 20 meanings · 33 questions",
+    "url": "polysemy-lab.html?module=purchase"
+  },
+  {
+    "id": "polysemy:captain",
+    "type": "polysemy",
+    "ordinal": 1072,
+    "label": "#1072 · captain",
+    "detail": "Polysemy #1072 · 16 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=captain"
+  },
+  {
+    "id": "polysemy:profit",
+    "type": "polysemy",
+    "ordinal": 1073,
+    "label": "#1073 · profit",
+    "detail": "Polysemy #1073 · 61 meanings · 101 questions",
+    "url": "polysemy-lab.html?module=profit"
+  },
+  {
+    "id": "polysemy:romance",
+    "type": "polysemy",
+    "ordinal": 1074,
+    "label": "#1074 · romance",
+    "detail": "Polysemy #1074 · 40 meanings · 6 questions",
+    "url": "polysemy-lab.html?module=romance"
+  },
+  {
+    "id": "polysemy:remove",
+    "type": "polysemy",
+    "ordinal": 1075,
+    "label": "#1075 · remove",
+    "detail": "Polysemy #1075 · 19 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=remove"
+  },
+  {
+    "id": "polysemy:issue",
+    "type": "polysemy",
+    "ordinal": 1076,
+    "label": "#1076 · issue",
+    "detail": "Polysemy #1076 · 81 meanings · 171 questions",
+    "url": "polysemy-lab.html?module=issue"
+  },
+  {
+    "id": "polysemy:menu",
+    "type": "polysemy",
+    "ordinal": 1077,
+    "label": "#1077 · menu",
+    "detail": "Polysemy #1077 · 55 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=menu"
+  },
+  {
+    "id": "polysemy:charge",
+    "type": "polysemy",
+    "ordinal": 1078,
+    "label": "#1078 · charge",
+    "detail": "Polysemy #1078 · 25 meanings · 48 questions",
+    "url": "polysemy-lab.html?module=charge"
+  },
+  {
+    "id": "polysemy:administrator",
+    "type": "polysemy",
+    "ordinal": 1079,
+    "label": "#1079 · administrator",
+    "detail": "Polysemy #1079 · 22 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=administrator"
+  },
+  {
+    "id": "polysemy:allow",
+    "type": "polysemy",
+    "ordinal": 1080,
+    "label": "#1080 · allow",
+    "detail": "Polysemy #1080 · 59 meanings · 150 questions",
+    "url": "polysemy-lab.html?module=allow"
+  },
+  {
+    "id": "polysemy:wage",
+    "type": "polysemy",
+    "ordinal": 1081,
+    "label": "#1081 · wage",
+    "detail": "Polysemy #1081 · 69 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=wage"
+  },
+  {
+    "id": "polysemy:guest",
+    "type": "polysemy",
+    "ordinal": 1082,
+    "label": "#1082 · guest",
+    "detail": "Polysemy #1082 · 31 meanings · 59 questions",
+    "url": "polysemy-lab.html?module=guest"
+  },
+  {
+    "id": "polysemy:battery",
+    "type": "polysemy",
+    "ordinal": 1083,
+    "label": "#1083 · battery",
+    "detail": "Polysemy #1083 · 23 meanings · 32 questions",
+    "url": "polysemy-lab.html?module=battery"
+  },
+  {
+    "id": "polysemy:rule",
+    "type": "polysemy",
+    "ordinal": 1084,
+    "label": "#1084 · rule",
+    "detail": "Polysemy #1084 · 76 meanings · 150 questions",
+    "url": "polysemy-lab.html?module=rule"
+  },
+  {
+    "id": "polysemy:license",
+    "type": "polysemy",
+    "ordinal": 1085,
+    "label": "#1085 · license",
+    "detail": "Polysemy #1085 · 60 meanings · 1 questions",
+    "url": "polysemy-lab.html?module=license"
+  },
+  {
+    "id": "polysemy:price",
+    "type": "polysemy",
+    "ordinal": 1086,
+    "label": "#1086 · price",
+    "detail": "Polysemy #1086 · 28 meanings · 46 questions",
+    "url": "polysemy-lab.html?module=price"
+  },
+  {
+    "id": "polysemy:runner",
+    "type": "polysemy",
+    "ordinal": 1087,
+    "label": "#1087 · runner",
+    "detail": "Polysemy #1087 · 19 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=runner"
+  },
+  {
+    "id": "polysemy:proportion",
+    "type": "polysemy",
+    "ordinal": 1088,
+    "label": "#1088 · proportion",
+    "detail": "Polysemy #1088 · 67 meanings · 152 questions",
+    "url": "polysemy-lab.html?module=proportion"
+  },
+  {
+    "id": "polysemy:passion",
+    "type": "polysemy",
+    "ordinal": 1089,
+    "label": "#1089 · passion",
+    "detail": "Polysemy #1089 · 41 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=passion"
+  },
+  {
+    "id": "polysemy:insurance",
+    "type": "polysemy",
+    "ordinal": 1090,
+    "label": "#1090 · insurance",
+    "detail": "Polysemy #1090 · 23 meanings · 20 questions",
+    "url": "polysemy-lab.html?module=insurance"
+  },
+  {
+    "id": "polysemy:talent",
+    "type": "polysemy",
+    "ordinal": 1091,
+    "label": "#1091 · talent",
+    "detail": "Polysemy #1091 · 21 meanings · 50 questions",
+    "url": "polysemy-lab.html?module=talent"
+  },
+  {
+    "id": "polysemy:boutique",
+    "type": "polysemy",
+    "ordinal": 1092,
+    "label": "#1092 · boutique",
+    "detail": "Polysemy #1092 · 33 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=boutique"
+  },
+  {
+    "id": "polysemy:cushion",
+    "type": "polysemy",
+    "ordinal": 1093,
+    "label": "#1093 · cushion",
+    "detail": "Polysemy #1093 · 32 meanings · 8 questions",
+    "url": "polysemy-lab.html?module=cushion"
+  },
+  {
+    "id": "polysemy:second-hand",
+    "type": "polysemy",
+    "ordinal": 1094,
+    "label": "#1094 · second-hand",
+    "detail": "Polysemy #1094 · 14 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=second-hand"
+  },
+  {
+    "id": "polysemy:youth",
+    "type": "polysemy",
+    "ordinal": 1095,
+    "label": "#1095 · youth",
+    "detail": "Polysemy #1095 · 22 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=youth"
+  },
+  {
+    "id": "polysemy:fabric",
+    "type": "polysemy",
+    "ordinal": 1096,
+    "label": "#1096 · fabric",
+    "detail": "Polysemy #1096 · 79 meanings · 162 questions",
+    "url": "polysemy-lab.html?module=fabric"
+  },
+  {
+    "id": "polysemy:quarrel",
+    "type": "polysemy",
+    "ordinal": 1097,
+    "label": "#1097 · quarrel",
+    "detail": "Polysemy #1097 · 29 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=quarrel"
+  },
+  {
+    "id": "polysemy:stretch",
+    "type": "polysemy",
+    "ordinal": 1098,
+    "label": "#1098 · stretch",
+    "detail": "Polysemy #1098 · 22 meanings · 22 questions",
+    "url": "polysemy-lab.html?module=stretch"
+  },
+  {
+    "id": "polysemy:raw",
+    "type": "polysemy",
+    "ordinal": 1099,
+    "label": "#1099 · raw",
+    "detail": "Polysemy #1099 · 23 meanings · 49 questions",
+    "url": "polysemy-lab.html?module=raw"
+  },
+  {
+    "id": "polysemy:runway",
+    "type": "polysemy",
+    "ordinal": 1100,
+    "label": "#1100 · runway",
+    "detail": "Polysemy #1100 · 50 meanings · 8 questions",
+    "url": "polysemy-lab.html?module=runway"
+  },
+  {
+    "id": "polysemy:mortgage",
+    "type": "polysemy",
+    "ordinal": 1101,
+    "label": "#1101 · mortgage",
+    "detail": "Polysemy #1101 · 19 meanings · 26 questions",
+    "url": "polysemy-lab.html?module=mortgage"
+  },
+  {
+    "id": "polysemy:strength",
+    "type": "polysemy",
+    "ordinal": 1102,
+    "label": "#1102 · strength",
+    "detail": "Polysemy #1102 · 27 meanings · 74 questions",
+    "url": "polysemy-lab.html?module=strength"
+  },
+  {
+    "id": "polysemy:size",
+    "type": "polysemy",
+    "ordinal": 1103,
+    "label": "#1103 · size",
+    "detail": "Polysemy #1103 · 84 meanings · 159 questions",
+    "url": "polysemy-lab.html?module=size"
+  },
+  {
+    "id": "polysemy:target",
+    "type": "polysemy",
+    "ordinal": 1104,
+    "label": "#1104 · target",
+    "detail": "Polysemy #1104 · 78 meanings · 19 questions",
+    "url": "polysemy-lab.html?module=target"
+  },
+  {
+    "id": "polysemy:barrier",
+    "type": "polysemy",
+    "ordinal": 1105,
+    "label": "#1105 · barrier",
+    "detail": "Polysemy #1105 · 15 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=barrier"
+  },
+  {
+    "id": "polysemy:mechanics",
+    "type": "polysemy",
+    "ordinal": 1106,
+    "label": "#1106 · mechanics",
+    "detail": "Polysemy #1106 · 27 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=mechanics"
+  },
+  {
+    "id": "polysemy:chart",
+    "type": "polysemy",
+    "ordinal": 1107,
+    "label": "#1107 · chart",
+    "detail": "Polysemy #1107 · 56 meanings · 112 questions",
+    "url": "polysemy-lab.html?module=chart"
+  },
+  {
+    "id": "polysemy:calculate",
+    "type": "polysemy",
+    "ordinal": 1108,
+    "label": "#1108 · calculate",
+    "detail": "Polysemy #1108 · 51 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=calculate"
+  },
+  {
+    "id": "polysemy:translate",
+    "type": "polysemy",
+    "ordinal": 1109,
+    "label": "#1109 · translate",
+    "detail": "Polysemy #1109 · 15 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=translate"
+  },
+  {
+    "id": "polysemy:mileage",
+    "type": "polysemy",
+    "ordinal": 1110,
+    "label": "#1110 · mileage",
+    "detail": "Polysemy #1110 · 17 meanings · 41 questions",
+    "url": "polysemy-lab.html?module=mileage"
+  },
+  {
+    "id": "polysemy:sleeve",
+    "type": "polysemy",
+    "ordinal": 1111,
+    "label": "#1111 · sleeve",
+    "detail": "Polysemy #1111 · 53 meanings · 113 questions",
+    "url": "polysemy-lab.html?module=sleeve"
+  },
+  {
+    "id": "polysemy:meal",
+    "type": "polysemy",
+    "ordinal": 1112,
+    "label": "#1112 · meal",
+    "detail": "Polysemy #1112 · 60 meanings · 16 questions",
+    "url": "polysemy-lab.html?module=meal"
+  },
+  {
+    "id": "polysemy:fit",
+    "type": "polysemy",
+    "ordinal": 1113,
+    "label": "#1113 · fit",
+    "detail": "Polysemy #1113 · 20 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=fit"
+  },
+  {
+    "id": "polysemy:perform",
+    "type": "polysemy",
+    "ordinal": 1114,
+    "label": "#1114 · perform",
+    "detail": "Polysemy #1114 · 24 meanings · 63 questions",
+    "url": "polysemy-lab.html?module=perform"
+  },
+  {
+    "id": "polysemy:punish",
+    "type": "polysemy",
+    "ordinal": 1115,
+    "label": "#1115 · punish",
+    "detail": "Polysemy #1115 · 45 meanings · 77 questions",
+    "url": "polysemy-lab.html?module=punish"
+  },
+  {
+    "id": "polysemy:adoption",
+    "type": "polysemy",
+    "ordinal": 1116,
+    "label": "#1116 · adoption",
+    "detail": "Polysemy #1116 · 19 meanings · 17 questions",
+    "url": "polysemy-lab.html?module=adoption"
+  },
+  {
+    "id": "polysemy:acceleration",
+    "type": "polysemy",
+    "ordinal": 1117,
+    "label": "#1117 · acceleration",
+    "detail": "Polysemy #1117 · 20 meanings · 42 questions",
+    "url": "polysemy-lab.html?module=acceleration"
+  },
+  {
+    "id": "polysemy:pop-up",
+    "type": "polysemy",
+    "ordinal": 1118,
+    "label": "#1118 · pop-up",
+    "detail": "Polysemy #1118 · 46 meanings · 5 questions",
+    "url": "polysemy-lab.html?module=pop-up"
   },
   {
     "id": "proverb:proverb-01",
@@ -56574,6 +60982,14798 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Zoo (place)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-09"
+  },
+  {
+    "id": "synonym:lesson-v2-004",
+    "type": "synonym",
+    "ordinal": 1,
+    "label": "#1 · A lot of",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-004"
+  },
+  {
+    "id": "synonym:lesson-src-7bde696d123618",
+    "type": "synonym",
+    "ordinal": 2,
+    "label": "#2 · Advantages and disadvantages",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-7bde696d123618"
+  },
+  {
+    "id": "synonym:lesson-v2-021",
+    "type": "synonym",
+    "ordinal": 3,
+    "label": "#3 · Nervous",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-021"
+  },
+  {
+    "id": "synonym:lesson-src-bf621c2774a57c",
+    "type": "synonym",
+    "ordinal": 4,
+    "label": "#4 · Rather Than",
+    "detail": "Synonyms · 7 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-src-bf621c2774a57c"
+  },
+  {
+    "id": "synonym:lesson-src-abf30438c1d320",
+    "type": "synonym",
+    "ordinal": 5,
+    "label": "#5 · In Many Cases",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-abf30438c1d320"
+  },
+  {
+    "id": "synonym:lesson-src-f76661fe4410ad",
+    "type": "synonym",
+    "ordinal": 6,
+    "label": "#6 · Think",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f76661fe4410ad"
+  },
+  {
+    "id": "synonym:lesson-src-9d3d17db5e371c",
+    "type": "synonym",
+    "ordinal": 7,
+    "label": "#7 · Because",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-9d3d17db5e371c"
+  },
+  {
+    "id": "synonym:lesson-src-4ddd2f6befb094",
+    "type": "synonym",
+    "ordinal": 8,
+    "label": "#8 · Need",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4ddd2f6befb094"
+  },
+  {
+    "id": "synonym:lesson-src-d203c00c4bb82d",
+    "type": "synonym",
+    "ordinal": 9,
+    "label": "#9 · Such as",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d203c00c4bb82d"
+  },
+  {
+    "id": "synonym:lesson-v2-003",
+    "type": "synonym",
+    "ordinal": 10,
+    "label": "#10 · Help",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-003"
+  },
+  {
+    "id": "synonym:lesson-src-3fa5ae764b5ef6",
+    "type": "synonym",
+    "ordinal": 11,
+    "label": "#11 · Family",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-3fa5ae764b5ef6"
+  },
+  {
+    "id": "synonym:lesson-src-dba7d670029be0",
+    "type": "synonym",
+    "ordinal": 12,
+    "label": "#12 · Money",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-dba7d670029be0"
+  },
+  {
+    "id": "synonym:lesson-src-d43836dce5b134",
+    "type": "synonym",
+    "ordinal": 13,
+    "label": "#13 · However",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d43836dce5b134"
+  },
+  {
+    "id": "synonym:lesson-src-ef0d39eeaa5a9a",
+    "type": "synonym",
+    "ordinal": 14,
+    "label": "#14 · Government",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-ef0d39eeaa5a9a"
+  },
+  {
+    "id": "synonym:lesson-src-d882b7913fd85f",
+    "type": "synonym",
+    "ordinal": 15,
+    "label": "#15 · Business",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-d882b7913fd85f"
+  },
+  {
+    "id": "synonym:lesson-src-8a6a5c458baaca",
+    "type": "synonym",
+    "ordinal": 16,
+    "label": "#16 · Change",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-8a6a5c458baaca"
+  },
+  {
+    "id": "synonym:lesson-src-7a7879b4b78130",
+    "type": "synonym",
+    "ordinal": 17,
+    "label": "#17 · Believe",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-7a7879b4b78130"
+  },
+  {
+    "id": "synonym:lesson-src-6801f7ba228d0c",
+    "type": "synonym",
+    "ordinal": 18,
+    "label": "#18 · Small",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6801f7ba228d0c"
+  },
+  {
+    "id": "synonym:lesson-src-56fe071df3e59b",
+    "type": "synonym",
+    "ordinal": 19,
+    "label": "#19 · Job",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-56fe071df3e59b"
+  },
+  {
+    "id": "synonym:lesson-src-8e9da7f7e7fc80",
+    "type": "synonym",
+    "ordinal": 20,
+    "label": "#20 · Health",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8e9da7f7e7fc80"
+  },
+  {
+    "id": "synonym:lesson-src-2e6fd92fe45f63",
+    "type": "synonym",
+    "ordinal": 21,
+    "label": "#21 · Information",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2e6fd92fe45f63"
+  },
+  {
+    "id": "synonym:lesson-src-8528254571acb8",
+    "type": "synonym",
+    "ordinal": 22,
+    "label": "#22 · Often",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8528254571acb8"
+  },
+  {
+    "id": "synonym:lesson-src-6c50fb89a9b242",
+    "type": "synonym",
+    "ordinal": 23,
+    "label": "#23 · Wrong",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-6c50fb89a9b242"
+  },
+  {
+    "id": "synonym:lesson-src-545b7103069ecc",
+    "type": "synonym",
+    "ordinal": 24,
+    "label": "#24 · Past",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-545b7103069ecc"
+  },
+  {
+    "id": "synonym:lesson-src-cb61e616fbe802",
+    "type": "synonym",
+    "ordinal": 25,
+    "label": "#25 · Possible",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-cb61e616fbe802"
+  },
+  {
+    "id": "synonym:lesson-src-bbff87aca1fd25",
+    "type": "synonym",
+    "ordinal": 26,
+    "label": "#26 · Cause",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-bbff87aca1fd25"
+  },
+  {
+    "id": "synonym:lesson-src-8ebf951198a09b",
+    "type": "synonym",
+    "ordinal": 27,
+    "label": "#27 · Cause",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-8ebf951198a09b"
+  },
+  {
+    "id": "synonym:lesson-src-be6a8a881de30a",
+    "type": "synonym",
+    "ordinal": 28,
+    "label": "#28 · Community",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-be6a8a881de30a"
+  },
+  {
+    "id": "synonym:lesson-src-e76b307c5f9b19",
+    "type": "synonym",
+    "ordinal": 29,
+    "label": "#29 · Future",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e76b307c5f9b19"
+  },
+  {
+    "id": "synonym:lesson-v2-012",
+    "type": "synonym",
+    "ordinal": 30,
+    "label": "#30 · A number of",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-012"
+  },
+  {
+    "id": "synonym:lesson-src-5bd5ec7c6f81bc",
+    "type": "synonym",
+    "ordinal": 31,
+    "label": "#31 · Reason",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-5bd5ec7c6f81bc"
+  },
+  {
+    "id": "synonym:lesson-src-f54a29856d8c7f",
+    "type": "synonym",
+    "ordinal": 32,
+    "label": "#32 · Although",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f54a29856d8c7f"
+  },
+  {
+    "id": "synonym:lesson-src-ac76cd16f1007c",
+    "type": "synonym",
+    "ordinal": 33,
+    "label": "#33 · Easy",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-ac76cd16f1007c"
+  },
+  {
+    "id": "synonym:lesson-v2-039",
+    "type": "synonym",
+    "ordinal": 34,
+    "label": "#34 · According to",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-039"
+  },
+  {
+    "id": "synonym:lesson-src-8003c74b8ad4ac",
+    "type": "synonym",
+    "ordinal": 35,
+    "label": "#35 · Education",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8003c74b8ad4ac"
+  },
+  {
+    "id": "synonym:lesson-src-f274b54baf2b36",
+    "type": "synonym",
+    "ordinal": 36,
+    "label": "#36 · Sometimes",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f274b54baf2b36"
+  },
+  {
+    "id": "synonym:lesson-src-6eab5181f675d2",
+    "type": "synonym",
+    "ordinal": 37,
+    "label": "#37 · Current",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-6eab5181f675d2"
+  },
+  {
+    "id": "synonym:lesson-src-1c217767dfda30",
+    "type": "synonym",
+    "ordinal": 38,
+    "label": "#38 · For example",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1c217767dfda30"
+  },
+  {
+    "id": "synonym:lesson-src-fb6b6e8d813e1c",
+    "type": "synonym",
+    "ordinal": 39,
+    "label": "#39 · Clear",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-fb6b6e8d813e1c"
+  },
+  {
+    "id": "synonym:lesson-src-db06355b50b64a",
+    "type": "synonym",
+    "ordinal": 40,
+    "label": "#40 · Cost",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-db06355b50b64a"
+  },
+  {
+    "id": "synonym:lesson-src-d8d749fe07b321",
+    "type": "synonym",
+    "ordinal": 41,
+    "label": "#41 · Energy",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-d8d749fe07b321"
+  },
+  {
+    "id": "synonym:lesson-src-9c8e439517ddef",
+    "type": "synonym",
+    "ordinal": 42,
+    "label": "#42 · Price",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-9c8e439517ddef"
+  },
+  {
+    "id": "synonym:lesson-src-42ab312ed5b77f",
+    "type": "synonym",
+    "ordinal": 43,
+    "label": "#43 · Strong",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-42ab312ed5b77f"
+  },
+  {
+    "id": "synonym:lesson-src-40d90e255cc76f",
+    "type": "synonym",
+    "ordinal": 44,
+    "label": "#44 · Especially",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-40d90e255cc76f"
+  },
+  {
+    "id": "synonym:lesson-src-26c4b8e9708aa3",
+    "type": "synonym",
+    "ordinal": 45,
+    "label": "#45 · Similar",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-26c4b8e9708aa3"
+  },
+  {
+    "id": "synonym:lesson-src-70f0bb3771f877",
+    "type": "synonym",
+    "ordinal": 46,
+    "label": "#46 · Common",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-70f0bb3771f877"
+  },
+  {
+    "id": "synonym:lesson-src-6591711b3cfcd8",
+    "type": "synonym",
+    "ordinal": 47,
+    "label": "#47 · Likely",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6591711b3cfcd8"
+  },
+  {
+    "id": "synonym:lesson-src-0e6b9b0a728c87",
+    "type": "synonym",
+    "ordinal": 48,
+    "label": "#48 · Result",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0e6b9b0a728c87"
+  },
+  {
+    "id": "synonym:lesson-src-0d1fac25b434d4",
+    "type": "synonym",
+    "ordinal": 49,
+    "label": "#49 · Relationship",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0d1fac25b434d4"
+  },
+  {
+    "id": "synonym:lesson-src-f84cbc34cf908f",
+    "type": "synonym",
+    "ordinal": 50,
+    "label": "#50 · Usually",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f84cbc34cf908f"
+  },
+  {
+    "id": "synonym:lesson-src-345cc26a39aca5",
+    "type": "synonym",
+    "ordinal": 51,
+    "label": "#51 · Usually",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-345cc26a39aca5"
+  },
+  {
+    "id": "synonym:lesson-src-1bbd37e3c9eb12",
+    "type": "synonym",
+    "ordinal": 52,
+    "label": "#52 · Value",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-1bbd37e3c9eb12"
+  },
+  {
+    "id": "synonym:lesson-src-48d91bfe002d6d",
+    "type": "synonym",
+    "ordinal": 53,
+    "label": "#53 · Evidence",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-48d91bfe002d6d"
+  },
+  {
+    "id": "synonym:lesson-src-07358f49763ae2",
+    "type": "synonym",
+    "ordinal": 54,
+    "label": "#54 · Various",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-07358f49763ae2"
+  },
+  {
+    "id": "synonym:lesson-src-e81541b7278be7",
+    "type": "synonym",
+    "ordinal": 55,
+    "label": "#55 · Serious",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e81541b7278be7"
+  },
+  {
+    "id": "synonym:lesson-src-d01534931e87bb",
+    "type": "synonym",
+    "ordinal": 56,
+    "label": "#56 · Perhaps",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d01534931e87bb"
+  },
+  {
+    "id": "synonym:lesson-src-fa8e8984dd2e5c",
+    "type": "synonym",
+    "ordinal": 57,
+    "label": "#57 · Technology",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-fa8e8984dd2e5c"
+  },
+  {
+    "id": "synonym:lesson-src-a64dbc69d2ce0e",
+    "type": "synonym",
+    "ordinal": 58,
+    "label": "#58 · Increase",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a64dbc69d2ce0e"
+  },
+  {
+    "id": "synonym:lesson-src-882d9873082410",
+    "type": "synonym",
+    "ordinal": 59,
+    "label": "#59 · Career",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-882d9873082410"
+  },
+  {
+    "id": "synonym:lesson-src-e5846177d40cff",
+    "type": "synonym",
+    "ordinal": 60,
+    "label": "#60 · Difficult",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-e5846177d40cff"
+  },
+  {
+    "id": "synonym:lesson-src-d71b8d5d9d0192",
+    "type": "synonym",
+    "ordinal": 61,
+    "label": "#61 · Huge",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-d71b8d5d9d0192"
+  },
+  {
+    "id": "synonym:lesson-src-077c3b1e1217cc",
+    "type": "synonym",
+    "ordinal": 62,
+    "label": "#62 · Internet",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-077c3b1e1217cc"
+  },
+  {
+    "id": "synonym:lesson-src-f00e6decfbd108",
+    "type": "synonym",
+    "ordinal": 63,
+    "label": "#63 · Success",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f00e6decfbd108"
+  },
+  {
+    "id": "synonym:lesson-v2-035",
+    "type": "synonym",
+    "ordinal": 64,
+    "label": "#64 · Access",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-035"
+  },
+  {
+    "id": "synonym:lesson-src-8c3ddcb3744dc9",
+    "type": "synonym",
+    "ordinal": 65,
+    "label": "#65 · Risk",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8c3ddcb3744dc9"
+  },
+  {
+    "id": "synonym:lesson-v2-027",
+    "type": "synonym",
+    "ordinal": 66,
+    "label": "#66 · Effect",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-027"
+  },
+  {
+    "id": "synonym:lesson-src-d81309b62bd593",
+    "type": "synonym",
+    "ordinal": 67,
+    "label": "#67 · Effect",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-d81309b62bd593"
+  },
+  {
+    "id": "synonym:lesson-src-b0dab5c05ed5d2",
+    "type": "synonym",
+    "ordinal": 68,
+    "label": "#68 · Allow",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-b0dab5c05ed5d2"
+  },
+  {
+    "id": "synonym:lesson-src-b1be4e210f9330",
+    "type": "synonym",
+    "ordinal": 69,
+    "label": "#69 · Difference",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-b1be4e210f9330"
+  },
+  {
+    "id": "synonym:lesson-src-53ce7f4153a029",
+    "type": "synonym",
+    "ordinal": 70,
+    "label": "#70 · In Addition",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-53ce7f4153a029"
+  },
+  {
+    "id": "synonym:lesson-src-948379a88c913c",
+    "type": "synonym",
+    "ordinal": 71,
+    "label": "#71 · Consider",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-948379a88c913c"
+  },
+  {
+    "id": "synonym:lesson-src-b56da67aaa21a6",
+    "type": "synonym",
+    "ordinal": 72,
+    "label": "#72 · Fair",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b56da67aaa21a6"
+  },
+  {
+    "id": "synonym:lesson-src-ff259e55e032f6",
+    "type": "synonym",
+    "ordinal": 73,
+    "label": "#73 · Positive",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ff259e55e032f6"
+  },
+  {
+    "id": "synonym:lesson-src-5340083f6770ec",
+    "type": "synonym",
+    "ordinal": 74,
+    "label": "#74 · Agree",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-5340083f6770ec"
+  },
+  {
+    "id": "synonym:lesson-src-bc221eaaa9f8d2",
+    "type": "synonym",
+    "ordinal": 75,
+    "label": "#75 · Fear",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-bc221eaaa9f8d2"
+  },
+  {
+    "id": "synonym:lesson-src-a2b4bbed62504d",
+    "type": "synonym",
+    "ordinal": 76,
+    "label": "#76 · Opportunity",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-a2b4bbed62504d"
+  },
+  {
+    "id": "synonym:lesson-src-699aa657bad086",
+    "type": "synonym",
+    "ordinal": 77,
+    "label": "#77 · Opinion",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-699aa657bad086"
+  },
+  {
+    "id": "synonym:lesson-src-d9b4b374c9b185",
+    "type": "synonym",
+    "ordinal": 78,
+    "label": "#78 · Successful",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-d9b4b374c9b185"
+  },
+  {
+    "id": "synonym:lesson-src-ef3b00f0ce2fdb",
+    "type": "synonym",
+    "ordinal": 79,
+    "label": "#79 · Effective",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ef3b00f0ce2fdb"
+  },
+  {
+    "id": "synonym:lesson-src-6202bb4d3866a1",
+    "type": "synonym",
+    "ordinal": 80,
+    "label": "#80 · Explain",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6202bb4d3866a1"
+  },
+  {
+    "id": "synonym:lesson-src-01a4b405750edb",
+    "type": "synonym",
+    "ordinal": 81,
+    "label": "#81 · As a result",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-01a4b405750edb"
+  },
+  {
+    "id": "synonym:lesson-src-bcd85c5a4fe7a3",
+    "type": "synonym",
+    "ordinal": 82,
+    "label": "#82 · Advice",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-bcd85c5a4fe7a3"
+  },
+  {
+    "id": "synonym:lesson-src-c0e5d61126e4d0",
+    "type": "synonym",
+    "ordinal": 83,
+    "label": "#83 · Challenge",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-c0e5d61126e4d0"
+  },
+  {
+    "id": "synonym:lesson-src-51a03e30cb4444",
+    "type": "synonym",
+    "ordinal": 84,
+    "label": "#84 · Environment",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-51a03e30cb4444"
+  },
+  {
+    "id": "synonym:lesson-src-cbbbb969873cc7",
+    "type": "synonym",
+    "ordinal": 85,
+    "label": "#85 · Complex",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-cbbbb969873cc7"
+  },
+  {
+    "id": "synonym:lesson-src-52893c726b8fdb",
+    "type": "synonym",
+    "ordinal": 86,
+    "label": "#86 · Solution",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-52893c726b8fdb"
+  },
+  {
+    "id": "synonym:lesson-v2-044",
+    "type": "synonym",
+    "ordinal": 87,
+    "label": "#87 · A range of",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-044"
+  },
+  {
+    "id": "synonym:lesson-src-e9dc94b2c0937d",
+    "type": "synonym",
+    "ordinal": 88,
+    "label": "#88 · Benefit",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-e9dc94b2c0937d"
+  },
+  {
+    "id": "synonym:lesson-src-d6f11186106e71",
+    "type": "synonym",
+    "ordinal": 89,
+    "label": "#89 · Improve",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d6f11186106e71"
+  },
+  {
+    "id": "synonym:lesson-src-a1b587fe62229d",
+    "type": "synonym",
+    "ordinal": 90,
+    "label": "#90 · Advantage",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a1b587fe62229d"
+  },
+  {
+    "id": "synonym:lesson-src-de70f9ff29f984",
+    "type": "synonym",
+    "ordinal": 91,
+    "label": "#91 · Develop",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-de70f9ff29f984"
+  },
+  {
+    "id": "synonym:lesson-src-424039ac49960b",
+    "type": "synonym",
+    "ordinal": 92,
+    "label": "#92 · Failure",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-424039ac49960b"
+  },
+  {
+    "id": "synonym:lesson-src-b19d9c7f27a532",
+    "type": "synonym",
+    "ordinal": 93,
+    "label": "#93 · Useful",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b19d9c7f27a532"
+  },
+  {
+    "id": "synonym:lesson-src-a50dc46ec06e28",
+    "type": "synonym",
+    "ordinal": 94,
+    "label": "#94 · Useful",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a50dc46ec06e28"
+  },
+  {
+    "id": "synonym:lesson-src-ad6eb98cabc5a7",
+    "type": "synonym",
+    "ordinal": 95,
+    "label": "#95 · Climate",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ad6eb98cabc5a7"
+  },
+  {
+    "id": "synonym:lesson-src-3524de64272099",
+    "type": "synonym",
+    "ordinal": 96,
+    "label": "#96 · In Recent Years",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3524de64272099"
+  },
+  {
+    "id": "synonym:lesson-src-83cc0bcce3d493",
+    "type": "synonym",
+    "ordinal": 97,
+    "label": "#97 · Communication",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-83cc0bcce3d493"
+  },
+  {
+    "id": "synonym:lesson-src-aa091df97020a9",
+    "type": "synonym",
+    "ordinal": 98,
+    "label": "#98 · Confidence",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-aa091df97020a9"
+  },
+  {
+    "id": "synonym:lesson-src-eae2ea3999e9b3",
+    "type": "synonym",
+    "ordinal": 99,
+    "label": "#99 · False",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-eae2ea3999e9b3"
+  },
+  {
+    "id": "synonym:lesson-src-4ebbfcf136094b",
+    "type": "synonym",
+    "ordinal": 100,
+    "label": "#100 · Minor",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4ebbfcf136094b"
+  },
+  {
+    "id": "synonym:lesson-src-24f4c4b13dc1a8",
+    "type": "synonym",
+    "ordinal": 101,
+    "label": "#101 · Affect",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-24f4c4b13dc1a8"
+  },
+  {
+    "id": "synonym:lesson-v2-045",
+    "type": "synonym",
+    "ordinal": 102,
+    "label": "#102 · Achieve",
+    "detail": "Synonyms · 10 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-v2-045"
+  },
+  {
+    "id": "synonym:lesson-src-866954ace3ba1b",
+    "type": "synonym",
+    "ordinal": 103,
+    "label": "#103 · Describe",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-866954ace3ba1b"
+  },
+  {
+    "id": "synonym:lesson-src-62c8d5fbbe786d",
+    "type": "synonym",
+    "ordinal": 104,
+    "label": "#104 · Valuable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-62c8d5fbbe786d"
+  },
+  {
+    "id": "synonym:lesson-src-0a8878301297a4",
+    "type": "synonym",
+    "ordinal": 105,
+    "label": "#105 · Valuable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-0a8878301297a4"
+  },
+  {
+    "id": "synonym:lesson-v2-043",
+    "type": "synonym",
+    "ordinal": 106,
+    "label": "#106 · A variety of",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-043"
+  },
+  {
+    "id": "synonym:lesson-src-4e9aea8f96e402",
+    "type": "synonym",
+    "ordinal": 107,
+    "label": "#107 · Contrast",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4e9aea8f96e402"
+  },
+  {
+    "id": "synonym:lesson-src-79e8bd1de45802",
+    "type": "synonym",
+    "ordinal": 108,
+    "label": "#108 · Poverty",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-79e8bd1de45802"
+  },
+  {
+    "id": "synonym:lesson-src-ca698ce73411ae",
+    "type": "synonym",
+    "ordinal": 109,
+    "label": "#109 · Anxiety",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-ca698ce73411ae"
+  },
+  {
+    "id": "synonym:lesson-src-0d6281a75083bb",
+    "type": "synonym",
+    "ordinal": 110,
+    "label": "#110 · Compare",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0d6281a75083bb"
+  },
+  {
+    "id": "synonym:lesson-src-6554b22e034770",
+    "type": "synonym",
+    "ordinal": 111,
+    "label": "#111 · Efficient",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6554b22e034770"
+  },
+  {
+    "id": "synonym:lesson-src-87b5652c10546e",
+    "type": "synonym",
+    "ordinal": 112,
+    "label": "#112 · Rarely",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-87b5652c10546e"
+  },
+  {
+    "id": "synonym:lesson-src-dec2ca50720b45",
+    "type": "synonym",
+    "ordinal": 113,
+    "label": "#113 · Priority (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-dec2ca50720b45"
+  },
+  {
+    "id": "synonym:lesson-src-58b80210938e86",
+    "type": "synonym",
+    "ordinal": 114,
+    "label": "#114 · Experience",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-58b80210938e86"
+  },
+  {
+    "id": "synonym:lesson-src-f0d705af127f42",
+    "type": "synonym",
+    "ordinal": 115,
+    "label": "#115 · Action (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f0d705af127f42"
+  },
+  {
+    "id": "synonym:lesson-src-7ed8dc60776597",
+    "type": "synonym",
+    "ordinal": 116,
+    "label": "#116 · Pollution",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-7ed8dc60776597"
+  },
+  {
+    "id": "synonym:lesson-src-cbb4968a7c1e60",
+    "type": "synonym",
+    "ordinal": 117,
+    "label": "#117 · Emotion",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-cbb4968a7c1e60"
+  },
+  {
+    "id": "synonym:lesson-src-12ca2af69cf1cd",
+    "type": "synonym",
+    "ordinal": 118,
+    "label": "#118 · Interest",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-12ca2af69cf1cd"
+  },
+  {
+    "id": "synonym:lesson-src-26e57d2cf0924e",
+    "type": "synonym",
+    "ordinal": 119,
+    "label": "#119 · Management",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-26e57d2cf0924e"
+  },
+  {
+    "id": "synonym:lesson-src-8dec122a483349",
+    "type": "synonym",
+    "ordinal": 120,
+    "label": "#120 · Anxious · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8dec122a483349"
+  },
+  {
+    "id": "synonym:lesson-src-7a46b90ab20d05",
+    "type": "synonym",
+    "ordinal": 121,
+    "label": "#121 · Financial",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7a46b90ab20d05"
+  },
+  {
+    "id": "synonym:lesson-src-5950790072b225",
+    "type": "synonym",
+    "ordinal": 122,
+    "label": "#122 · Safe",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-5950790072b225"
+  },
+  {
+    "id": "synonym:lesson-src-555a4fddb12266",
+    "type": "synonym",
+    "ordinal": 123,
+    "label": "#123 · Goal",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-555a4fddb12266"
+  },
+  {
+    "id": "synonym:lesson-v2-028",
+    "type": "synonym",
+    "ordinal": 124,
+    "label": "#124 · Goal",
+    "detail": "Synonyms · 18 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-v2-028"
+  },
+  {
+    "id": "synonym:lesson-src-c10ddb9e802ae0",
+    "type": "synonym",
+    "ordinal": 125,
+    "label": "#125 · Culture",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-c10ddb9e802ae0"
+  },
+  {
+    "id": "synonym:lesson-src-74e034797e3f69",
+    "type": "synonym",
+    "ordinal": 126,
+    "label": "#126 · Potential",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-74e034797e3f69"
+  },
+  {
+    "id": "synonym:lesson-src-697ec4316e456a",
+    "type": "synonym",
+    "ordinal": 127,
+    "label": "#127 · Pressure",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-697ec4316e456a"
+  },
+  {
+    "id": "synonym:lesson-src-bc7588914ab5ad",
+    "type": "synonym",
+    "ordinal": 128,
+    "label": "#128 · Focus",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-bc7588914ab5ad"
+  },
+  {
+    "id": "synonym:lesson-v2-026",
+    "type": "synonym",
+    "ordinal": 129,
+    "label": "#129 · Ability",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-026"
+  },
+  {
+    "id": "synonym:lesson-src-3fa923e5cb5066",
+    "type": "synonym",
+    "ordinal": 130,
+    "label": "#130 · Knowledge",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3fa923e5cb5066"
+  },
+  {
+    "id": "synonym:lesson-src-a1476185f0db8a",
+    "type": "synonym",
+    "ordinal": 131,
+    "label": "#131 · Judge",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-a1476185f0db8a"
+  },
+  {
+    "id": "synonym:lesson-src-52e32284c22d8c",
+    "type": "synonym",
+    "ordinal": 132,
+    "label": "#132 · Material",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-52e32284c22d8c"
+  },
+  {
+    "id": "synonym:lesson-v2-030",
+    "type": "synonym",
+    "ordinal": 133,
+    "label": "#133 · Active",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-030"
+  },
+  {
+    "id": "synonym:lesson-src-eb2782ba00f2dc",
+    "type": "synonym",
+    "ordinal": 134,
+    "label": "#134 · Independent",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-eb2782ba00f2dc"
+  },
+  {
+    "id": "synonym:lesson-src-bab42e6d1b331f",
+    "type": "synonym",
+    "ordinal": 135,
+    "label": "#135 · Effort (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-bab42e6d1b331f"
+  },
+  {
+    "id": "synonym:lesson-src-dc257da1f04565",
+    "type": "synonym",
+    "ordinal": 136,
+    "label": "#136 · Protect",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-dc257da1f04565"
+  },
+  {
+    "id": "synonym:lesson-src-421864cca3fb09",
+    "type": "synonym",
+    "ordinal": 137,
+    "label": "#137 · Competition",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-421864cca3fb09"
+  },
+  {
+    "id": "synonym:lesson-src-d0f9ff51c5b42b",
+    "type": "synonym",
+    "ordinal": 138,
+    "label": "#138 · Responsible",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d0f9ff51c5b42b"
+  },
+  {
+    "id": "synonym:lesson-v2-029",
+    "type": "synonym",
+    "ordinal": 139,
+    "label": "#139 · Activity",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-029"
+  },
+  {
+    "id": "synonym:lesson-src-23864160ec5a75",
+    "type": "synonym",
+    "ordinal": 140,
+    "label": "#140 · Aware",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-23864160ec5a75"
+  },
+  {
+    "id": "synonym:lesson-src-50ca632a4cb95e",
+    "type": "synonym",
+    "ordinal": 141,
+    "label": "#141 · Progress",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-50ca632a4cb95e"
+  },
+  {
+    "id": "synonym:lesson-src-045b9c401294d0",
+    "type": "synonym",
+    "ordinal": 142,
+    "label": "#142 · Balance",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-045b9c401294d0"
+  },
+  {
+    "id": "synonym:lesson-src-4c952c7df148f4",
+    "type": "synonym",
+    "ordinal": 143,
+    "label": "#143 · Appreciate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-4c952c7df148f4"
+  },
+  {
+    "id": "synonym:lesson-src-e0db49014b567d",
+    "type": "synonym",
+    "ordinal": 144,
+    "label": "#144 · Disadvantage",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e0db49014b567d"
+  },
+  {
+    "id": "synonym:lesson-src-1f64e34c376467",
+    "type": "synonym",
+    "ordinal": 145,
+    "label": "#145 · Limit",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-1f64e34c376467"
+  },
+  {
+    "id": "synonym:lesson-src-df8dd46ab99627",
+    "type": "synonym",
+    "ordinal": 146,
+    "label": "#146 · Factor",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-df8dd46ab99627"
+  },
+  {
+    "id": "synonym:lesson-src-360feb3a3560eb",
+    "type": "synonym",
+    "ordinal": 147,
+    "label": "#147 · Concern",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-360feb3a3560eb"
+  },
+  {
+    "id": "synonym:lesson-src-36b8ddb72c189a",
+    "type": "synonym",
+    "ordinal": 148,
+    "label": "#148 · Equal",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-36b8ddb72c189a"
+  },
+  {
+    "id": "synonym:lesson-src-151080da98de99",
+    "type": "synonym",
+    "ordinal": 149,
+    "label": "#149 · Identity",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-151080da98de99"
+  },
+  {
+    "id": "synonym:lesson-src-d9ae22fabf6f66",
+    "type": "synonym",
+    "ordinal": 150,
+    "label": "#150 · Argument",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-d9ae22fabf6f66"
+  },
+  {
+    "id": "synonym:lesson-src-eeae533ff216b3",
+    "type": "synonym",
+    "ordinal": 151,
+    "label": "#151 · Conflict",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-eeae533ff216b3"
+  },
+  {
+    "id": "synonym:lesson-src-09b16d71b4e8f1",
+    "type": "synonym",
+    "ordinal": 152,
+    "label": "#152 · Debate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-09b16d71b4e8f1"
+  },
+  {
+    "id": "synonym:lesson-src-dc4b1928a0d790",
+    "type": "synonym",
+    "ordinal": 153,
+    "label": "#153 · Struggle",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-dc4b1928a0d790"
+  },
+  {
+    "id": "synonym:lesson-src-7790ca8ae08929",
+    "type": "synonym",
+    "ordinal": 154,
+    "label": "#154 · Recommend",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7790ca8ae08929"
+  },
+  {
+    "id": "synonym:lesson-src-db5368b13f864a",
+    "type": "synonym",
+    "ordinal": 155,
+    "label": "#155 · Reasonable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-db5368b13f864a"
+  },
+  {
+    "id": "synonym:lesson-src-73496a6b81130a",
+    "type": "synonym",
+    "ordinal": 156,
+    "label": "#156 · Attitude",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-73496a6b81130a"
+  },
+  {
+    "id": "synonym:lesson-src-bb866fc8f30360",
+    "type": "synonym",
+    "ordinal": 157,
+    "label": "#157 · Perspective",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-bb866fc8f30360"
+  },
+  {
+    "id": "synonym:lesson-src-0c504c91ceec91",
+    "type": "synonym",
+    "ordinal": 158,
+    "label": "#158 · Manage",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0c504c91ceec91"
+  },
+  {
+    "id": "synonym:lesson-v2-033",
+    "type": "synonym",
+    "ordinal": 159,
+    "label": "#159 · Encourage",
+    "detail": "Synonyms · 13 詞組 · 26 題",
+    "url": "synonyms-system.html?module=lesson-v2-033"
+  },
+  {
+    "id": "synonym:lesson-src-e591499b4abea4",
+    "type": "synonym",
+    "ordinal": 160,
+    "label": "#160 · Encourage",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-e591499b4abea4"
+  },
+  {
+    "id": "synonym:lesson-src-2a534fee5b670e",
+    "type": "synonym",
+    "ordinal": 161,
+    "label": "#161 · Awareness",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-2a534fee5b670e"
+  },
+  {
+    "id": "synonym:lesson-src-41093fa36f0e1a",
+    "type": "synonym",
+    "ordinal": 162,
+    "label": "#162 · Welfare",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-41093fa36f0e1a"
+  },
+  {
+    "id": "synonym:lesson-src-31b63fef1497ff",
+    "type": "synonym",
+    "ordinal": 163,
+    "label": "#163 · Solve",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-31b63fef1497ff"
+  },
+  {
+    "id": "synonym:lesson-src-1234c162b79d81",
+    "type": "synonym",
+    "ordinal": 164,
+    "label": "#164 · Behaviour",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1234c162b79d81"
+  },
+  {
+    "id": "synonym:lesson-src-a7ea683b941df5",
+    "type": "synonym",
+    "ordinal": 165,
+    "label": "#165 · Contribute",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a7ea683b941df5"
+  },
+  {
+    "id": "synonym:lesson-src-6fbb169f9df86b",
+    "type": "synonym",
+    "ordinal": 166,
+    "label": "#166 · Diversity",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-6fbb169f9df86b"
+  },
+  {
+    "id": "synonym:lesson-src-b2bcf33db0efca",
+    "type": "synonym",
+    "ordinal": 167,
+    "label": "#167 · Reliable",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b2bcf33db0efca"
+  },
+  {
+    "id": "synonym:lesson-src-9381d7dae26872",
+    "type": "synonym",
+    "ordinal": 168,
+    "label": "#168 · Succeed",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9381d7dae26872"
+  },
+  {
+    "id": "synonym:lesson-src-727e48bc88ac71",
+    "type": "synonym",
+    "ordinal": 169,
+    "label": "#169 · Frequent",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-727e48bc88ac71"
+  },
+  {
+    "id": "synonym:lesson-src-d8c7b26a97ec4b",
+    "type": "synonym",
+    "ordinal": 170,
+    "label": "#170 · Burden",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-d8c7b26a97ec4b"
+  },
+  {
+    "id": "synonym:lesson-src-7786c420010b89",
+    "type": "synonym",
+    "ordinal": 171,
+    "label": "#171 · Motivation",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-7786c420010b89"
+  },
+  {
+    "id": "synonym:lesson-src-375cc96617b555",
+    "type": "synonym",
+    "ordinal": 172,
+    "label": "#172 · Urgent",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-375cc96617b555"
+  },
+  {
+    "id": "synonym:lesson-src-4ffc7778d43f57",
+    "type": "synonym",
+    "ordinal": 173,
+    "label": "#173 · Recommendation",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4ffc7778d43f57"
+  },
+  {
+    "id": "synonym:lesson-src-690c120a4c698b",
+    "type": "synonym",
+    "ordinal": 174,
+    "label": "#174 · Uncertainty",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-690c120a4c698b"
+  },
+  {
+    "id": "synonym:lesson-v2-037",
+    "type": "synonym",
+    "ordinal": 175,
+    "label": "#175 · Adapt",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-037"
+  },
+  {
+    "id": "synonym:lesson-src-3d8f40139ff669",
+    "type": "synonym",
+    "ordinal": 176,
+    "label": "#176 · Satisfy · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3d8f40139ff669"
+  },
+  {
+    "id": "synonym:lesson-src-59ad53951483ab",
+    "type": "synonym",
+    "ordinal": 177,
+    "label": "#177 · Inequality",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-59ad53951483ab"
+  },
+  {
+    "id": "synonym:lesson-src-7980e0fcd1ffda",
+    "type": "synonym",
+    "ordinal": 178,
+    "label": "#178 · Use",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-7980e0fcd1ffda"
+  },
+  {
+    "id": "synonym:lesson-src-b1240cd39ff41e",
+    "type": "synonym",
+    "ordinal": 179,
+    "label": "#179 · Use",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-b1240cd39ff41e"
+  },
+  {
+    "id": "synonym:lesson-src-4f779899032bac",
+    "type": "synonym",
+    "ordinal": 180,
+    "label": "#180 · Sustainability",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4f779899032bac"
+  },
+  {
+    "id": "synonym:lesson-src-a391166a9e52d0",
+    "type": "synonym",
+    "ordinal": 181,
+    "label": "#181 · Face",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-a391166a9e52d0"
+  },
+  {
+    "id": "synonym:lesson-src-1cd617c1c589d2",
+    "type": "synonym",
+    "ordinal": 182,
+    "label": "#182 · Obstacle",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-1cd617c1c589d2"
+  },
+  {
+    "id": "synonym:lesson-src-7cff2d71b86c5e",
+    "type": "synonym",
+    "ordinal": 183,
+    "label": "#183 · Control",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-7cff2d71b86c5e"
+  },
+  {
+    "id": "synonym:lesson-src-b29f48989d8b21",
+    "type": "synonym",
+    "ordinal": 184,
+    "label": "#184 · Understand",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b29f48989d8b21"
+  },
+  {
+    "id": "synonym:lesson-src-d3df2439b479b0",
+    "type": "synonym",
+    "ordinal": 185,
+    "label": "#185 · Report",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d3df2439b479b0"
+  },
+  {
+    "id": "synonym:lesson-src-294dce5c4c988e",
+    "type": "synonym",
+    "ordinal": 186,
+    "label": "#186 · Motivate",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-294dce5c4c988e"
+  },
+  {
+    "id": "synonym:lesson-src-d5da47651d2520",
+    "type": "synonym",
+    "ordinal": 187,
+    "label": "#187 · Share",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d5da47651d2520"
+  },
+  {
+    "id": "synonym:lesson-src-9530b4fa750905",
+    "type": "synonym",
+    "ordinal": 188,
+    "label": "#188 · Learn",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-9530b4fa750905"
+  },
+  {
+    "id": "synonym:lesson-src-dbba842fb911d9",
+    "type": "synonym",
+    "ordinal": 189,
+    "label": "#189 · Follow",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-dbba842fb911d9"
+  },
+  {
+    "id": "synonym:lesson-src-ba0a886b9db3a2",
+    "type": "synonym",
+    "ordinal": 190,
+    "label": "#190 · Continue",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-ba0a886b9db3a2"
+  },
+  {
+    "id": "synonym:lesson-src-9c10ff93635c05",
+    "type": "synonym",
+    "ordinal": 191,
+    "label": "#191 · Offer",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-9c10ff93635c05"
+  },
+  {
+    "id": "synonym:lesson-src-7f8d5bed31157e",
+    "type": "synonym",
+    "ordinal": 192,
+    "label": "#192 · Build",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-7f8d5bed31157e"
+  },
+  {
+    "id": "synonym:lesson-src-9e41ab28a7f872",
+    "type": "synonym",
+    "ordinal": 193,
+    "label": "#193 · Write",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-9e41ab28a7f872"
+  },
+  {
+    "id": "synonym:lesson-src-d29e7c80d23857",
+    "type": "synonym",
+    "ordinal": 194,
+    "label": "#194 · Create",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d29e7c80d23857"
+  },
+  {
+    "id": "synonym:lesson-src-e9b1a0c6ce152e",
+    "type": "synonym",
+    "ordinal": 195,
+    "label": "#195 · Expect",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e9b1a0c6ce152e"
+  },
+  {
+    "id": "synonym:lesson-src-d7d866c07caac9",
+    "type": "synonym",
+    "ordinal": 196,
+    "label": "#196 · Approach",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-d7d866c07caac9"
+  },
+  {
+    "id": "synonym:lesson-src-6f5fe7cc36539a",
+    "type": "synonym",
+    "ordinal": 197,
+    "label": "#197 · Choose",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-6f5fe7cc36539a"
+  },
+  {
+    "id": "synonym:lesson-src-35f9845b748a7b",
+    "type": "synonym",
+    "ordinal": 198,
+    "label": "#198 · Notice",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-35f9845b748a7b"
+  },
+  {
+    "id": "synonym:lesson-v2-023",
+    "type": "synonym",
+    "ordinal": 199,
+    "label": "#199 · Avoid",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-023"
+  },
+  {
+    "id": "synonym:lesson-src-8374be9c28ed49",
+    "type": "synonym",
+    "ordinal": 200,
+    "label": "#200 · Demand",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-8374be9c28ed49"
+  },
+  {
+    "id": "synonym:lesson-src-d156989615f0e9",
+    "type": "synonym",
+    "ordinal": 201,
+    "label": "#201 · Adaptable",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d156989615f0e9"
+  },
+  {
+    "id": "synonym:lesson-src-2097d337210e8b",
+    "type": "synonym",
+    "ordinal": 202,
+    "label": "#202 · Apply",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-2097d337210e8b"
+  },
+  {
+    "id": "synonym:lesson-src-b40e7d408affdb",
+    "type": "synonym",
+    "ordinal": 203,
+    "label": "#203 · Prevent",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b40e7d408affdb"
+  },
+  {
+    "id": "synonym:lesson-src-3d1bab2045cabd",
+    "type": "synonym",
+    "ordinal": 204,
+    "label": "#204 · Decide",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-3d1bab2045cabd"
+  },
+  {
+    "id": "synonym:lesson-src-713e2ece8cd44d",
+    "type": "synonym",
+    "ordinal": 205,
+    "label": "#205 · Produce",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-713e2ece8cd44d"
+  },
+  {
+    "id": "synonym:lesson-src-594e8f70423be1",
+    "type": "synonym",
+    "ordinal": 206,
+    "label": "#206 · Require",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-594e8f70423be1"
+  },
+  {
+    "id": "synonym:lesson-src-ebe89616f210fb",
+    "type": "synonym",
+    "ordinal": 207,
+    "label": "#207 · Like · verb",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ebe89616f210fb"
+  },
+  {
+    "id": "synonym:lesson-src-f17e5a6557c8d6",
+    "type": "synonym",
+    "ordinal": 208,
+    "label": "#208 · New",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-f17e5a6557c8d6"
+  },
+  {
+    "id": "synonym:lesson-src-a99415becf6412",
+    "type": "synonym",
+    "ordinal": 209,
+    "label": "#209 · Want",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a99415becf6412"
+  },
+  {
+    "id": "synonym:lesson-src-70e5883f9ab0c2",
+    "type": "synonym",
+    "ordinal": 210,
+    "label": "#210 · Life",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-70e5883f9ab0c2"
+  },
+  {
+    "id": "synonym:lesson-src-f8e99c47862d12",
+    "type": "synonym",
+    "ordinal": 211,
+    "label": "#211 · Last",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f8e99c47862d12"
+  },
+  {
+    "id": "synonym:lesson-src-aeded102e33ff2",
+    "type": "synonym",
+    "ordinal": 212,
+    "label": "#212 · Love",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-aeded102e33ff2"
+  },
+  {
+    "id": "synonym:lesson-src-649fc56f89b614",
+    "type": "synonym",
+    "ordinal": 213,
+    "label": "#213 · Home",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-649fc56f89b614"
+  },
+  {
+    "id": "synonym:lesson-src-542d44a28873a9",
+    "type": "synonym",
+    "ordinal": 214,
+    "label": "#214 · Long",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-542d44a28873a9"
+  },
+  {
+    "id": "synonym:lesson-src-80094d13431863",
+    "type": "synonym",
+    "ordinal": 215,
+    "label": "#215 · State",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-80094d13431863"
+  },
+  {
+    "id": "synonym:lesson-src-fa23d80c650caf",
+    "type": "synonym",
+    "ordinal": 216,
+    "label": "#216 · Find",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-fa23d80c650caf"
+  },
+  {
+    "id": "synonym:lesson-src-a3b856f3d3a27f",
+    "type": "synonym",
+    "ordinal": 217,
+    "label": "#217 · Give",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a3b856f3d3a27f"
+  },
+  {
+    "id": "synonym:lesson-src-e78988e0bbbaa7",
+    "type": "synonym",
+    "ordinal": 218,
+    "label": "#218 · School",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e78988e0bbbaa7"
+  },
+  {
+    "id": "synonym:lesson-src-f0dc3f9438673a",
+    "type": "synonym",
+    "ordinal": 219,
+    "label": "#219 · Feel",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-f0dc3f9438673a"
+  },
+  {
+    "id": "synonym:lesson-src-cf64eb17327d0c",
+    "type": "synonym",
+    "ordinal": 220,
+    "label": "#220 · Team",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-cf64eb17327d0c"
+  },
+  {
+    "id": "synonym:lesson-src-8150050c4a8d12",
+    "type": "synonym",
+    "ordinal": 221,
+    "label": "#221 · Free",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8150050c4a8d12"
+  },
+  {
+    "id": "synonym:lesson-src-e3ef1ee0a266c9",
+    "type": "synonym",
+    "ordinal": 222,
+    "label": "#222 · City",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e3ef1ee0a266c9"
+  },
+  {
+    "id": "synonym:lesson-src-c3d6d38c198408",
+    "type": "synonym",
+    "ordinal": 223,
+    "label": "#223 · Name",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c3d6d38c198408"
+  },
+  {
+    "id": "synonym:lesson-src-8a9d84bd578c69",
+    "type": "synonym",
+    "ordinal": 224,
+    "label": "#224 · Night",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-8a9d84bd578c69"
+  },
+  {
+    "id": "synonym:lesson-src-36f59804e2b767",
+    "type": "synonym",
+    "ordinal": 225,
+    "label": "#225 · Play",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-36f59804e2b767"
+  },
+  {
+    "id": "synonym:lesson-src-f93e531c41111b",
+    "type": "synonym",
+    "ordinal": 226,
+    "label": "#226 · Treat",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f93e531c41111b"
+  },
+  {
+    "id": "synonym:lesson-src-f69756916a8233",
+    "type": "synonym",
+    "ordinal": 227,
+    "label": "#227 · Treat",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f69756916a8233"
+  },
+  {
+    "id": "synonym:lesson-src-7acc8915ea8feb",
+    "type": "synonym",
+    "ordinal": 228,
+    "label": "#228 · Real",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7acc8915ea8feb"
+  },
+  {
+    "id": "synonym:lesson-src-5b0093793df00f",
+    "type": "synonym",
+    "ordinal": 229,
+    "label": "#229 · Reduce",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5b0093793df00f"
+  },
+  {
+    "id": "synonym:lesson-src-66ac0390cd9add",
+    "type": "synonym",
+    "ordinal": 230,
+    "label": "#230 · Care",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-66ac0390cd9add"
+  },
+  {
+    "id": "synonym:lesson-src-8a2a4390a885f6",
+    "type": "synonym",
+    "ordinal": 231,
+    "label": "#231 · Ensure",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-8a2a4390a885f6"
+  },
+  {
+    "id": "synonym:lesson-src-2dd22fff23e4e5",
+    "type": "synonym",
+    "ordinal": 232,
+    "label": "#232 · Case",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-2dd22fff23e4e5"
+  },
+  {
+    "id": "synonym:lesson-src-1620b497ac1b6d",
+    "type": "synonym",
+    "ordinal": 233,
+    "label": "#233 · Live",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-1620b497ac1b6d"
+  },
+  {
+    "id": "synonym:lesson-src-7d5d5de23fd219",
+    "type": "synonym",
+    "ordinal": 234,
+    "label": "#234 · Point",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-7d5d5de23fd219"
+  },
+  {
+    "id": "synonym:lesson-src-491bee8080debd",
+    "type": "synonym",
+    "ordinal": 235,
+    "label": "#235 · Read",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-491bee8080debd"
+  },
+  {
+    "id": "synonym:lesson-src-2b98333b831048",
+    "type": "synonym",
+    "ordinal": 236,
+    "label": "#236 · Teach",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2b98333b831048"
+  },
+  {
+    "id": "synonym:lesson-src-50bcf6fdcb7af0",
+    "type": "synonym",
+    "ordinal": 237,
+    "label": "#237 · Power",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-50bcf6fdcb7af0"
+  },
+  {
+    "id": "synonym:lesson-src-33b42ad9245f78",
+    "type": "synonym",
+    "ordinal": 238,
+    "label": "#238 · National",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-33b42ad9245f78"
+  },
+  {
+    "id": "synonym:lesson-src-68fa252eb3303b",
+    "type": "synonym",
+    "ordinal": 239,
+    "label": "#239 · Start-up",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-68fa252eb3303b"
+  },
+  {
+    "id": "synonym:lesson-src-40ab7cad63a29e",
+    "type": "synonym",
+    "ordinal": 240,
+    "label": "#240 · Try",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-40ab7cad63a29e"
+  },
+  {
+    "id": "synonym:lesson-v2-007",
+    "type": "synonym",
+    "ordinal": 241,
+    "label": "#241 · Actually",
+    "detail": "Synonyms · 11 詞組 · 10 題",
+    "url": "synonyms-system.html?module=lesson-v2-007"
+  },
+  {
+    "id": "synonym:lesson-src-6d61a3067316c9",
+    "type": "synonym",
+    "ordinal": 242,
+    "label": "#242 · Line",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6d61a3067316c9"
+  },
+  {
+    "id": "synonym:lesson-src-e3272ae6d3fb78",
+    "type": "synonym",
+    "ordinal": 243,
+    "label": "#243 · Service",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e3272ae6d3fb78"
+  },
+  {
+    "id": "synonym:lesson-src-947a7e7af1140e",
+    "type": "synonym",
+    "ordinal": 244,
+    "label": "#244 · Country",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-947a7e7af1140e"
+  },
+  {
+    "id": "synonym:lesson-src-ae683f8a048c68",
+    "type": "synonym",
+    "ordinal": 245,
+    "label": "#245 · Open",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-ae683f8a048c68"
+  },
+  {
+    "id": "synonym:lesson-src-259d9e7b76a7dd",
+    "type": "synonym",
+    "ordinal": 246,
+    "label": "#246 · Season (noun)",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-259d9e7b76a7dd"
+  },
+  {
+    "id": "synonym:lesson-src-e100fc91ffc602",
+    "type": "synonym",
+    "ordinal": 247,
+    "label": "#247 · General",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e100fc91ffc602"
+  },
+  {
+    "id": "synonym:lesson-src-d480bbe133d3a8",
+    "type": "synonym",
+    "ordinal": 248,
+    "label": "#248 · Area",
+    "detail": "Synonyms · 18 詞組 · 54 題",
+    "url": "synonyms-system.html?module=lesson-src-d480bbe133d3a8"
+  },
+  {
+    "id": "synonym:lesson-src-a7aaa65a6836a8",
+    "type": "synonym",
+    "ordinal": 249,
+    "label": "#249 · Law",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a7aaa65a6836a8"
+  },
+  {
+    "id": "synonym:lesson-src-b138e26e6820d0",
+    "type": "synonym",
+    "ordinal": 250,
+    "label": "#250 · Kind",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b138e26e6820d0"
+  },
+  {
+    "id": "synonym:lesson-src-7fa2228c5ec880",
+    "type": "synonym",
+    "ordinal": 251,
+    "label": "#251 · Story",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7fa2228c5ec880"
+  },
+  {
+    "id": "synonym:lesson-src-2940b0e251a151",
+    "type": "synonym",
+    "ordinal": 252,
+    "label": "#252 · Course",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-2940b0e251a151"
+  },
+  {
+    "id": "synonym:lesson-src-8a85103f13c5ff",
+    "type": "synonym",
+    "ordinal": 253,
+    "label": "#253 · News",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8a85103f13c5ff"
+  },
+  {
+    "id": "synonym:lesson-src-71bf2a84760c50",
+    "type": "synonym",
+    "ordinal": 254,
+    "label": "#254 · Replace",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-71bf2a84760c50"
+  },
+  {
+    "id": "synonym:lesson-src-3323d279a5afd4",
+    "type": "synonym",
+    "ordinal": 255,
+    "label": "#255 · Represent",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-3323d279a5afd4"
+  },
+  {
+    "id": "synonym:lesson-v2-006",
+    "type": "synonym",
+    "ordinal": 256,
+    "label": "#256 · Able",
+    "detail": "Synonyms · 12 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-v2-006"
+  },
+  {
+    "id": "synonym:lesson-src-0c284053945316",
+    "type": "synonym",
+    "ordinal": 257,
+    "label": "#257 · Book",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0c284053945316"
+  },
+  {
+    "id": "synonym:lesson-src-e2ff9a39f969bf",
+    "type": "synonym",
+    "ordinal": 258,
+    "label": "#258 · Local",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e2ff9a39f969bf"
+  },
+  {
+    "id": "synonym:lesson-src-257afa217eba3f",
+    "type": "synonym",
+    "ordinal": 259,
+    "label": "#259 · Post",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-257afa217eba3f"
+  },
+  {
+    "id": "synonym:lesson-src-80842c09795773",
+    "type": "synonym",
+    "ordinal": 260,
+    "label": "#260 · Young",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-80842c09795773"
+  },
+  {
+    "id": "synonym:lesson-src-2b46d87df1b883",
+    "type": "synonym",
+    "ordinal": 261,
+    "label": "#261 · Identify",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-2b46d87df1b883"
+  },
+  {
+    "id": "synonym:lesson-src-b07919311b2226",
+    "type": "synonym",
+    "ordinal": 262,
+    "label": "#262 · Promote",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-b07919311b2226"
+  },
+  {
+    "id": "synonym:lesson-src-34a5b0eb2357d3",
+    "type": "synonym",
+    "ordinal": 263,
+    "label": "#263 · Mind · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-34a5b0eb2357d3"
+  },
+  {
+    "id": "synonym:lesson-src-d6d7f4b97fc0a5",
+    "type": "synonym",
+    "ordinal": 264,
+    "label": "#264 · Become",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-d6d7f4b97fc0a5"
+  },
+  {
+    "id": "synonym:lesson-src-505f226b5206ac",
+    "type": "synonym",
+    "ordinal": 265,
+    "label": "#265 · Body",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-505f226b5206ac"
+  },
+  {
+    "id": "synonym:lesson-src-a1f5221bc1d6fa",
+    "type": "synonym",
+    "ordinal": 266,
+    "label": "#266 · Death",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a1f5221bc1d6fa"
+  },
+  {
+    "id": "synonym:lesson-src-b3b8c6157d7851",
+    "type": "synonym",
+    "ordinal": 267,
+    "label": "#267 · Office",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b3b8c6157d7851"
+  },
+  {
+    "id": "synonym:lesson-src-4aff5ac21039aa",
+    "type": "synonym",
+    "ordinal": 268,
+    "label": "#268 · Research",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4aff5ac21039aa"
+  },
+  {
+    "id": "synonym:lesson-src-e91e388eace5c6",
+    "type": "synonym",
+    "ordinal": 269,
+    "label": "#269 · University",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-e91e388eace5c6"
+  },
+  {
+    "id": "synonym:lesson-v2-009",
+    "type": "synonym",
+    "ordinal": 270,
+    "label": "#270 · Win",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-009"
+  },
+  {
+    "id": "synonym:lesson-src-610d06414ae2b9",
+    "type": "synonym",
+    "ordinal": 271,
+    "label": "#271 · Matter",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-610d06414ae2b9"
+  },
+  {
+    "id": "synonym:lesson-v2-008",
+    "type": "synonym",
+    "ordinal": 272,
+    "label": "#272 · Remember",
+    "detail": "Synonyms · 9 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-v2-008"
+  },
+  {
+    "id": "synonym:lesson-src-5c37ad8895c146",
+    "type": "synonym",
+    "ordinal": 273,
+    "label": "#273 · Remember",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-5c37ad8895c146"
+  },
+  {
+    "id": "synonym:lesson-src-13fada6128dc8b",
+    "type": "synonym",
+    "ordinal": 274,
+    "label": "#274 · Survive",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-13fada6128dc8b"
+  },
+  {
+    "id": "synonym:lesson-src-aea7ba47b87446",
+    "type": "synonym",
+    "ordinal": 275,
+    "label": "#275 · Air",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-aea7ba47b87446"
+  },
+  {
+    "id": "synonym:lesson-src-b8724be6efec4d",
+    "type": "synonym",
+    "ordinal": 276,
+    "label": "#276 · Friend",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b8724be6efec4d"
+  },
+  {
+    "id": "synonym:lesson-src-34e9a46ddd5434",
+    "type": "synonym",
+    "ordinal": 277,
+    "label": "#277 · Class",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-34e9a46ddd5434"
+  },
+  {
+    "id": "synonym:lesson-src-30d641c88fc2d1",
+    "type": "synonym",
+    "ordinal": 278,
+    "label": "#278 · Close",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-30d641c88fc2d1"
+  },
+  {
+    "id": "synonym:lesson-src-b67bc3112978e1",
+    "type": "synonym",
+    "ordinal": 279,
+    "label": "#279 · Human",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b67bc3112978e1"
+  },
+  {
+    "id": "synonym:lesson-src-830162a90a01ed",
+    "type": "synonym",
+    "ordinal": 280,
+    "label": "#280 · Wait",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-830162a90a01ed"
+  },
+  {
+    "id": "synonym:lesson-src-74a091c43f7c47",
+    "type": "synonym",
+    "ordinal": 281,
+    "label": "#281 · Data",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-74a091c43f7c47"
+  },
+  {
+    "id": "synonym:lesson-src-d68a730f509609",
+    "type": "synonym",
+    "ordinal": 282,
+    "label": "#282 · Late",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d68a730f509609"
+  },
+  {
+    "id": "synonym:lesson-src-735b619375fa24",
+    "type": "synonym",
+    "ordinal": 283,
+    "label": "#283 · Leave",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-735b619375fa24"
+  },
+  {
+    "id": "synonym:lesson-src-6eb064997ccbb6",
+    "type": "synonym",
+    "ordinal": 284,
+    "label": "#284 · Special",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6eb064997ccbb6"
+  },
+  {
+    "id": "synonym:lesson-src-54b0bfb2d3aff9",
+    "type": "synonym",
+    "ordinal": 285,
+    "label": "#285 · Morning (noun)",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-54b0bfb2d3aff9"
+  },
+  {
+    "id": "synonym:lesson-src-2269d072b84ba5",
+    "type": "synonym",
+    "ordinal": 286,
+    "label": "#286 · Police",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-2269d072b84ba5"
+  },
+  {
+    "id": "synonym:lesson-src-8bcae3ce488d5a",
+    "type": "synonym",
+    "ordinal": 287,
+    "label": "#287 · Short",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-8bcae3ce488d5a"
+  },
+  {
+    "id": "synonym:lesson-src-847b11e44cec5f",
+    "type": "synonym",
+    "ordinal": 288,
+    "label": "#288 · Age",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-847b11e44cec5f"
+  },
+  {
+    "id": "synonym:lesson-src-271477122f4473",
+    "type": "synonym",
+    "ordinal": 289,
+    "label": "#289 · Buy",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-271477122f4473"
+  },
+  {
+    "id": "synonym:lesson-src-f62513429eddf1",
+    "type": "synonym",
+    "ordinal": 290,
+    "label": "#290 · Establish",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f62513429eddf1"
+  },
+  {
+    "id": "synonym:lesson-src-b747d9c44c2400",
+    "type": "synonym",
+    "ordinal": 291,
+    "label": "#291 · Check",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b747d9c44c2400"
+  },
+  {
+    "id": "synonym:lesson-v2-010",
+    "type": "synonym",
+    "ordinal": 292,
+    "label": "#292 · Asked",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-010"
+  },
+  {
+    "id": "synonym:lesson-src-b4fee8e6093ef0",
+    "type": "synonym",
+    "ordinal": 293,
+    "label": "#293 · Child",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-b4fee8e6093ef0"
+  },
+  {
+    "id": "synonym:lesson-src-3f0fb4f8430467",
+    "type": "synonym",
+    "ordinal": 294,
+    "label": "#294 · Fun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3f0fb4f8430467"
+  },
+  {
+    "id": "synonym:lesson-src-8a9e39080e78b9",
+    "type": "synonym",
+    "ordinal": 295,
+    "label": "#295 · Media",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8a9e39080e78b9"
+  },
+  {
+    "id": "synonym:lesson-src-efff823c7b84bf",
+    "type": "synonym",
+    "ordinal": 296,
+    "label": "#296 · Art",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-efff823c7b84bf"
+  },
+  {
+    "id": "synonym:lesson-src-92a140315ffbd4",
+    "type": "synonym",
+    "ordinal": 297,
+    "label": "#297 · Building",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-92a140315ffbd4"
+  },
+  {
+    "id": "synonym:lesson-v2-016",
+    "type": "synonym",
+    "ordinal": 297,
+    "label": "#297 · Building · 原有版本",
+    "detail": "Synonyms · 14 詞組 · 1 題 · 原有版本",
+    "url": "synonyms-system.html?module=lesson-v2-016"
+  },
+  {
+    "id": "synonym:lesson-src-abfaffd3edc76d",
+    "type": "synonym",
+    "ordinal": 298,
+    "label": "#298 · Market",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-abfaffd3edc76d"
+  },
+  {
+    "id": "synonym:lesson-src-d0990d4369347c",
+    "type": "synonym",
+    "ordinal": 299,
+    "label": "#299 · Available",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-d0990d4369347c"
+  },
+  {
+    "id": "synonym:lesson-src-ad8c621056292b",
+    "type": "synonym",
+    "ordinal": 300,
+    "label": "#300 · Meet",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-ad8c621056292b"
+  },
+  {
+    "id": "synonym:lesson-src-f57587e3fcade3",
+    "type": "synonym",
+    "ordinal": 301,
+    "label": "#301 · Program",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f57587e3fcade3"
+  },
+  {
+    "id": "synonym:lesson-src-f9aefe38767e97",
+    "type": "synonym",
+    "ordinal": 302,
+    "label": "#302 · Chance",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f9aefe38767e97"
+  },
+  {
+    "id": "synonym:lesson-src-2f91b81aa829e7",
+    "type": "synonym",
+    "ordinal": 303,
+    "label": "#303 · World-class",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2f91b81aa829e7"
+  },
+  {
+    "id": "synonym:lesson-src-36d1b90918baa7",
+    "type": "synonym",
+    "ordinal": 304,
+    "label": "#304 · Reflect",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-36d1b90918baa7"
+  },
+  {
+    "id": "synonym:lesson-src-148837847c8886",
+    "type": "synonym",
+    "ordinal": 305,
+    "label": "#305 · Department",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-148837847c8886"
+  },
+  {
+    "id": "synonym:lesson-src-170d6a6fa69b7d",
+    "type": "synonym",
+    "ordinal": 306,
+    "label": "#306 · Fight",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-170d6a6fa69b7d"
+  },
+  {
+    "id": "synonym:lesson-src-e1a5843e3ac52c",
+    "type": "synonym",
+    "ordinal": 307,
+    "label": "#307 · Fine",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e1a5843e3ac52c"
+  },
+  {
+    "id": "synonym:lesson-src-1992f92d6b846e",
+    "type": "synonym",
+    "ordinal": 308,
+    "label": "#308 · Force",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1992f92d6b846e"
+  },
+  {
+    "id": "synonym:lesson-src-b7f1953f077e19",
+    "type": "synonym",
+    "ordinal": 309,
+    "label": "#309 · Rest",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b7f1953f077e19"
+  },
+  {
+    "id": "synonym:lesson-src-fb53703b6220cf",
+    "type": "synonym",
+    "ordinal": 310,
+    "label": "#310 · Space",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-fb53703b6220cf"
+  },
+  {
+    "id": "synonym:lesson-src-1b8440ec3be0a7",
+    "type": "synonym",
+    "ordinal": 311,
+    "label": "#311 · Summer",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1b8440ec3be0a7"
+  },
+  {
+    "id": "synonym:lesson-src-93ec2a19cbd961",
+    "type": "synonym",
+    "ordinal": 312,
+    "label": "#312 · Term",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-93ec2a19cbd961"
+  },
+  {
+    "id": "synonym:lesson-src-cdd4c0dafdda76",
+    "type": "synonym",
+    "ordinal": 313,
+    "label": "#313 · Collect",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-cdd4c0dafdda76"
+  },
+  {
+    "id": "synonym:lesson-src-639ff62cb30e35",
+    "type": "synonym",
+    "ordinal": 314,
+    "label": "#314 · Beautiful",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-639ff62cb30e35"
+  },
+  {
+    "id": "synonym:lesson-src-335e941ead4dcf",
+    "type": "synonym",
+    "ordinal": 315,
+    "label": "#315 · Land",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-335e941ead4dcf"
+  },
+  {
+    "id": "synonym:lesson-src-28ad28ca606f37",
+    "type": "synonym",
+    "ordinal": 316,
+    "label": "#316 · Miss",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-28ad28ca606f37"
+  },
+  {
+    "id": "synonym:lesson-v2-040",
+    "type": "synonym",
+    "ordinal": 317,
+    "label": "#317 · Account",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-040"
+  },
+  {
+    "id": "synonym:lesson-src-49dc3ea404c35d",
+    "type": "synonym",
+    "ordinal": 318,
+    "label": "#318 · Include",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-49dc3ea404c35d"
+  },
+  {
+    "id": "synonym:lesson-src-084c5ac2460976",
+    "type": "synonym",
+    "ordinal": 319,
+    "label": "#319 · Record",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-084c5ac2460976"
+  },
+  {
+    "id": "synonym:lesson-src-f85a368bd31abd",
+    "type": "synonym",
+    "ordinal": 320,
+    "label": "#320 · Total",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f85a368bd31abd"
+  },
+  {
+    "id": "synonym:lesson-src-719f644d863f95",
+    "type": "synonym",
+    "ordinal": 321,
+    "label": "#321 · Indicate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-719f644d863f95"
+  },
+  {
+    "id": "synonym:lesson-src-ff5496b6eafcaf",
+    "type": "synonym",
+    "ordinal": 322,
+    "label": "#322 · Club",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ff5496b6eafcaf"
+  },
+  {
+    "id": "synonym:lesson-src-fd7cb69291105e",
+    "type": "synonym",
+    "ordinal": 323,
+    "label": "#323 · Film",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-fd7cb69291105e"
+  },
+  {
+    "id": "synonym:lesson-src-2782f89a2695ae",
+    "type": "synonym",
+    "ordinal": 324,
+    "label": "#324 · Military",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-2782f89a2695ae"
+  },
+  {
+    "id": "synonym:lesson-src-9b3bd63995cbe0",
+    "type": "synonym",
+    "ordinal": 325,
+    "label": "#325 · Perfect · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9b3bd63995cbe0"
+  },
+  {
+    "id": "synonym:lesson-src-8b1dbc1a559682",
+    "type": "synonym",
+    "ordinal": 326,
+    "label": "#326 · Personal",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8b1dbc1a559682"
+  },
+  {
+    "id": "synonym:lesson-src-3eb8f8ce6a286a",
+    "type": "synonym",
+    "ordinal": 327,
+    "label": "#327 · Second-Hand",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3eb8f8ce6a286a"
+  },
+  {
+    "id": "synonym:lesson-src-67449a26e5b1e4",
+    "type": "synonym",
+    "ordinal": 328,
+    "label": "#328 · Lead (A Lifestyle)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-67449a26e5b1e4"
+  },
+  {
+    "id": "synonym:lesson-src-a60cf8820c2a52",
+    "type": "synonym",
+    "ordinal": 329,
+    "label": "#329 · Happen",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a60cf8820c2a52"
+  },
+  {
+    "id": "synonym:lesson-src-fa6cb4869f40d3",
+    "type": "synonym",
+    "ordinal": 330,
+    "label": "#330 · Hold",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-fa6cb4869f40d3"
+  },
+  {
+    "id": "synonym:lesson-src-ccb9ef12c46e72",
+    "type": "synonym",
+    "ordinal": 331,
+    "label": "#331 · Industry",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ccb9ef12c46e72"
+  },
+  {
+    "id": "synonym:lesson-src-de34979a261c74",
+    "type": "synonym",
+    "ordinal": 332,
+    "label": "#332 · Online",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-de34979a261c74"
+  },
+  {
+    "id": "synonym:lesson-src-e42212746798fc",
+    "type": "synonym",
+    "ordinal": 333,
+    "label": "#333 · Private",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e42212746798fc"
+  },
+  {
+    "id": "synonym:lesson-src-19cb015fa1b368",
+    "type": "synonym",
+    "ordinal": 334,
+    "label": "#334 · Sense",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-19cb015fa1b368"
+  },
+  {
+    "id": "synonym:lesson-src-f4f25a43afebaa",
+    "type": "synonym",
+    "ordinal": 335,
+    "label": "#335 · Break",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f4f25a43afebaa"
+  },
+  {
+    "id": "synonym:lesson-src-89a4c42b81b189",
+    "type": "synonym",
+    "ordinal": 336,
+    "label": "#336 · Event",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-89a4c42b81b189"
+  },
+  {
+    "id": "synonym:lesson-src-9975a5ab7c244c",
+    "type": "synonym",
+    "ordinal": 337,
+    "label": "#337 · Member",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9975a5ab7c244c"
+  },
+  {
+    "id": "synonym:lesson-src-e9412b1e1a2467",
+    "type": "synonym",
+    "ordinal": 338,
+    "label": "#338 · Answer",
+    "detail": "Synonyms · 12 詞組 · 0 題",
+    "url": "synonyms-system.html?module=lesson-src-e9412b1e1a2467"
+  },
+  {
+    "id": "synonym:lesson-src-42937079267524",
+    "type": "synonym",
+    "ordinal": 339,
+    "label": "#339 · Design",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-42937079267524"
+  },
+  {
+    "id": "synonym:lesson-src-4b2527a8e0109c",
+    "type": "synonym",
+    "ordinal": 340,
+    "label": "#340 · Finally",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4b2527a8e0109c"
+  },
+  {
+    "id": "synonym:lesson-src-6d6c32afb10ade",
+    "type": "synonym",
+    "ordinal": 341,
+    "label": "#341 · Policy",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6d6c32afb10ade"
+  },
+  {
+    "id": "synonym:lesson-src-763650d6652bb6",
+    "type": "synonym",
+    "ordinal": 342,
+    "label": "#342 · Alone",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-763650d6652bb6"
+  },
+  {
+    "id": "synonym:lesson-src-5ffa9590c4aa04",
+    "type": "synonym",
+    "ordinal": 343,
+    "label": "#343 · Average",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5ffa9590c4aa04"
+  },
+  {
+    "id": "synonym:lesson-src-aa2bb8df5b2255",
+    "type": "synonym",
+    "ordinal": 344,
+    "label": "#344 · Certain",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-aa2bb8df5b2255"
+  },
+  {
+    "id": "synonym:lesson-src-6f4bf03de374e6",
+    "type": "synonym",
+    "ordinal": 345,
+    "label": "#345 · Hot · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-6f4bf03de374e6"
+  },
+  {
+    "id": "synonym:lesson-src-2ff0e437323e95",
+    "type": "synonym",
+    "ordinal": 346,
+    "label": "#346 · Medical",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-2ff0e437323e95"
+  },
+  {
+    "id": "synonym:lesson-src-d5a6fb353261b6",
+    "type": "synonym",
+    "ordinal": 347,
+    "label": "#347 · Original",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d5a6fb353261b6"
+  },
+  {
+    "id": "synonym:lesson-src-21c4bf0e8b0962",
+    "type": "synonym",
+    "ordinal": 348,
+    "label": "#348 · Park",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-21c4bf0e8b0962"
+  },
+  {
+    "id": "synonym:lesson-src-b3e20dc99f8e08",
+    "type": "synonym",
+    "ordinal": 349,
+    "label": "#349 · Role",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b3e20dc99f8e08"
+  },
+  {
+    "id": "synonym:lesson-src-f70dbf43cded35",
+    "type": "synonym",
+    "ordinal": 350,
+    "label": "#350 · Director",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-f70dbf43cded35"
+  },
+  {
+    "id": "synonym:lesson-src-50cf3eef3c2531",
+    "type": "synonym",
+    "ordinal": 351,
+    "label": "#351 · Hands-on",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-50cf3eef3c2531"
+  },
+  {
+    "id": "synonym:lesson-src-579d0112d99ff5",
+    "type": "synonym",
+    "ordinal": 352,
+    "label": "#352 · Meeting",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-579d0112d99ff5"
+  },
+  {
+    "id": "synonym:lesson-src-f10e02e49c8f80",
+    "type": "synonym",
+    "ordinal": 353,
+    "label": "#353 · Estimate",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f10e02e49c8f80"
+  },
+  {
+    "id": "synonym:lesson-src-7ab7f3414677ef",
+    "type": "synonym",
+    "ordinal": 354,
+    "label": "#354 · Official",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7ab7f3414677ef"
+  },
+  {
+    "id": "synonym:lesson-src-7fb8ccd05b8697",
+    "type": "synonym",
+    "ordinal": 355,
+    "label": "#355 · Rate",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7fb8ccd05b8697"
+  },
+  {
+    "id": "synonym:lesson-src-873e94fcfc31f4",
+    "type": "synonym",
+    "ordinal": 356,
+    "label": "#356 · Reading",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-873e94fcfc31f4"
+  },
+  {
+    "id": "synonym:lesson-src-d71149e75644c0",
+    "type": "synonym",
+    "ordinal": 357,
+    "label": "#357 · Stand",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d71149e75644c0"
+  },
+  {
+    "id": "synonym:lesson-src-e08e548bc5e720",
+    "type": "synonym",
+    "ordinal": 358,
+    "label": "#358 · Involve",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e08e548bc5e720"
+  },
+  {
+    "id": "synonym:lesson-src-f4fe2d51b67116",
+    "type": "synonym",
+    "ordinal": 359,
+    "label": "#359 · Amount",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f4fe2d51b67116"
+  },
+  {
+    "id": "synonym:lesson-src-1bb93e9d2649b9",
+    "type": "synonym",
+    "ordinal": 360,
+    "label": "#360 · Drive",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-1bb93e9d2649b9"
+  },
+  {
+    "id": "synonym:lesson-src-e27e4b0407e673",
+    "type": "synonym",
+    "ordinal": 361,
+    "label": "#361 · Eat",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e27e4b0407e673"
+  },
+  {
+    "id": "synonym:lesson-src-d2a4316b87ef37",
+    "type": "synonym",
+    "ordinal": 362,
+    "label": "#362 · Fall",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-d2a4316b87ef37"
+  },
+  {
+    "id": "synonym:lesson-src-cdaf73c3f34b09",
+    "type": "synonym",
+    "ordinal": 363,
+    "label": "#363 · Green",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-cdaf73c3f34b09"
+  },
+  {
+    "id": "synonym:lesson-src-9c082a1b22ed5a",
+    "type": "synonym",
+    "ordinal": 364,
+    "label": "#364 · Trust",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-9c082a1b22ed5a"
+  },
+  {
+    "id": "synonym:lesson-src-6962221934d050",
+    "type": "synonym",
+    "ordinal": 365,
+    "label": "#365 · Overcome",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-6962221934d050"
+  },
+  {
+    "id": "synonym:lesson-src-850ccf8c77df9d",
+    "type": "synonym",
+    "ordinal": 366,
+    "label": "#366 · Range",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-850ccf8c77df9d"
+  },
+  {
+    "id": "synonym:lesson-src-a2e04afba3bdd4",
+    "type": "synonym",
+    "ordinal": 367,
+    "label": "#367 · Attention",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-a2e04afba3bdd4"
+  },
+  {
+    "id": "synonym:lesson-src-92038e4835930e",
+    "type": "synonym",
+    "ordinal": 368,
+    "label": "#368 · Character",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-92038e4835930e"
+  },
+  {
+    "id": "synonym:lesson-src-4b78a55c58109c",
+    "type": "synonym",
+    "ordinal": 369,
+    "label": "#369 · Natural",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-4b78a55c58109c"
+  },
+  {
+    "id": "synonym:lesson-src-b246ef1108cb2c",
+    "type": "synonym",
+    "ordinal": 370,
+    "label": "#370 · Quality",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b246ef1108cb2c"
+  },
+  {
+    "id": "synonym:lesson-v2-042",
+    "type": "synonym",
+    "ordinal": 371,
+    "label": "#371 · Quality",
+    "detail": "Synonyms · 20 詞組 · 40 題",
+    "url": "synonyms-system.html?module=lesson-v2-042"
+  },
+  {
+    "id": "synonym:lesson-src-f5964485eef169",
+    "type": "synonym",
+    "ordinal": 372,
+    "label": "#372 · Send",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-f5964485eef169"
+  },
+  {
+    "id": "synonym:lesson-v2-019",
+    "type": "synonym",
+    "ordinal": 373,
+    "label": "#373 · Amazing",
+    "detail": "Synonyms · 22 詞組 · 44 題",
+    "url": "synonyms-system.html?module=lesson-v2-019"
+  },
+  {
+    "id": "synonym:lesson-src-11bf0287651ee6",
+    "type": "synonym",
+    "ordinal": 374,
+    "label": "#374 · Amazing",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-11bf0287651ee6"
+  },
+  {
+    "id": "synonym:lesson-src-d944624f6cac27",
+    "type": "synonym",
+    "ordinal": 375,
+    "label": "#375 · Language",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d944624f6cac27"
+  },
+  {
+    "id": "synonym:lesson-src-5b0582817d8bd5",
+    "type": "synonym",
+    "ordinal": 376,
+    "label": "#376 · Stage",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5b0582817d8bd5"
+  },
+  {
+    "id": "synonym:lesson-src-609e7a6d0f03e8",
+    "type": "synonym",
+    "ordinal": 377,
+    "label": "#377 · Complete",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-609e7a6d0f03e8"
+  },
+  {
+    "id": "synonym:lesson-src-7e87b290baab6e",
+    "type": "synonym",
+    "ordinal": 378,
+    "label": "#378 · Article",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-7e87b290baab6e"
+  },
+  {
+    "id": "synonym:lesson-src-eab966bbbadbfa",
+    "type": "synonym",
+    "ordinal": 379,
+    "label": "#379 · Enjoy",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-eab966bbbadbfa"
+  },
+  {
+    "id": "synonym:lesson-src-9fd81ef629e8c6",
+    "type": "synonym",
+    "ordinal": 380,
+    "label": "#380 · Kill",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-9fd81ef629e8c6"
+  },
+  {
+    "id": "synonym:lesson-src-7470920c9cd36d",
+    "type": "synonym",
+    "ordinal": 381,
+    "label": "#381 · Poor",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7470920c9cd36d"
+  },
+  {
+    "id": "synonym:lesson-src-0f0fef715336e2",
+    "type": "synonym",
+    "ordinal": 382,
+    "label": "#382 · Release",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0f0fef715336e2"
+  },
+  {
+    "id": "synonym:lesson-v2-025",
+    "type": "synonym",
+    "ordinal": 383,
+    "label": "#383 · Situation",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-025"
+  },
+  {
+    "id": "synonym:lesson-src-bca0c87dc8f7c9",
+    "type": "synonym",
+    "ordinal": 384,
+    "label": "#384 · Choice",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-bca0c87dc8f7c9"
+  },
+  {
+    "id": "synonym:lesson-src-9680d61a61449d",
+    "type": "synonym",
+    "ordinal": 385,
+    "label": "#385 · Cover",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9680d61a61449d"
+  },
+  {
+    "id": "synonym:lesson-src-2da9b61a5e541c",
+    "type": "synonym",
+    "ordinal": 386,
+    "label": "#386 · Foreign",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-2da9b61a5e541c"
+  },
+  {
+    "id": "synonym:lesson-src-853b00c384dd77",
+    "type": "synonym",
+    "ordinal": 387,
+    "label": "#387 · Legal",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-853b00c384dd77"
+  },
+  {
+    "id": "synonym:lesson-src-8e16e215bb9a7d",
+    "type": "synonym",
+    "ordinal": 388,
+    "label": "#388 · Lose",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-8e16e215bb9a7d"
+  },
+  {
+    "id": "synonym:lesson-src-d340dea7a38196",
+    "type": "synonym",
+    "ordinal": 389,
+    "label": "#389 · Race",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d340dea7a38196"
+  },
+  {
+    "id": "synonym:lesson-src-b9a9e09c52ce90",
+    "type": "synonym",
+    "ordinal": 390,
+    "label": "#390 · Seem",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b9a9e09c52ce90"
+  },
+  {
+    "id": "synonym:lesson-src-eb393a9048a0c2",
+    "type": "synonym",
+    "ordinal": 391,
+    "label": "#391 · Self-Care",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-eb393a9048a0c2"
+  },
+  {
+    "id": "synonym:lesson-src-5cc99753fa504a",
+    "type": "synonym",
+    "ordinal": 392,
+    "label": "#392 · Sign",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5cc99753fa504a"
+  },
+  {
+    "id": "synonym:lesson-src-7a05c952eb2d46",
+    "type": "synonym",
+    "ordinal": 393,
+    "label": "#393 · Simply",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-7a05c952eb2d46"
+  },
+  {
+    "id": "synonym:lesson-src-d236aceef40b5b",
+    "type": "synonym",
+    "ordinal": 394,
+    "label": "#394 · Walk",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d236aceef40b5b"
+  },
+  {
+    "id": "synonym:lesson-src-548d0b7e8342d0",
+    "type": "synonym",
+    "ordinal": 395,
+    "label": "#395 · Daily",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-548d0b7e8342d0"
+  },
+  {
+    "id": "synonym:lesson-src-f83e92fff56dd7",
+    "type": "synonym",
+    "ordinal": 396,
+    "label": "#396 · Modern",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f83e92fff56dd7"
+  },
+  {
+    "id": "synonym:lesson-src-6194f4be0d6637",
+    "type": "synonym",
+    "ordinal": 397,
+    "label": "#397 · Paper · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-6194f4be0d6637"
+  },
+  {
+    "id": "synonym:lesson-src-f30bdd7c2fbd5f",
+    "type": "synonym",
+    "ordinal": 398,
+    "label": "#398 · Popular",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f30bdd7c2fbd5f"
+  },
+  {
+    "id": "synonym:lesson-src-ff1fe0db6c60ed",
+    "type": "synonym",
+    "ordinal": 399,
+    "label": "#399 · Writing · noun",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-ff1fe0db6c60ed"
+  },
+  {
+    "id": "synonym:lesson-src-ab5cec534e0398",
+    "type": "synonym",
+    "ordinal": 400,
+    "label": "#400 · Forget",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ab5cec534e0398"
+  },
+  {
+    "id": "synonym:lesson-src-f29528e4f62ba0",
+    "type": "synonym",
+    "ordinal": 401,
+    "label": "#401 · Listen",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f29528e4f62ba0"
+  },
+  {
+    "id": "synonym:lesson-src-73c3d012570a70",
+    "type": "synonym",
+    "ordinal": 402,
+    "label": "#402 · Practice",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-73c3d012570a70"
+  },
+  {
+    "id": "synonym:lesson-src-1baba7dfc31aad",
+    "type": "synonym",
+    "ordinal": 403,
+    "label": "#403 · Sea",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1baba7dfc31aad"
+  },
+  {
+    "id": "synonym:lesson-src-3a23280507e149",
+    "type": "synonym",
+    "ordinal": 404,
+    "label": "#404 · Base",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-3a23280507e149"
+  },
+  {
+    "id": "synonym:lesson-src-7bafdf16fd0991",
+    "type": "synonym",
+    "ordinal": 405,
+    "label": "#405 · Deep",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7bafdf16fd0991"
+  },
+  {
+    "id": "synonym:lesson-v2-041",
+    "type": "synonym",
+    "ordinal": 406,
+    "label": "#406 · Professional",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-041"
+  },
+  {
+    "id": "synonym:lesson-src-7fff7d241cd1f8",
+    "type": "synonym",
+    "ordinal": 407,
+    "label": "#407 · Professional",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-7fff7d241cd1f8"
+  },
+  {
+    "id": "synonym:lesson-src-b75e50d0881d7e",
+    "type": "synonym",
+    "ordinal": 408,
+    "label": "#408 · Box",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b75e50d0881d7e"
+  },
+  {
+    "id": "synonym:lesson-src-a70f8871950262",
+    "type": "synonym",
+    "ordinal": 409,
+    "label": "#409 · Note",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-a70f8871950262"
+  },
+  {
+    "id": "synonym:lesson-src-04e3e0e1e4dd91",
+    "type": "synonym",
+    "ordinal": 410,
+    "label": "#410 · Percent",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-04e3e0e1e4dd91"
+  },
+  {
+    "id": "synonym:lesson-src-76afd31bda7a33",
+    "type": "synonym",
+    "ordinal": 411,
+    "label": "#411 · Recent",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-76afd31bda7a33"
+  },
+  {
+    "id": "synonym:lesson-src-18ec72164c94c3",
+    "type": "synonym",
+    "ordinal": 412,
+    "label": "#412 · Respect",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-18ec72164c94c3"
+  },
+  {
+    "id": "synonym:lesson-src-451a55f58952fe",
+    "type": "synonym",
+    "ordinal": 413,
+    "label": "#413 · Specific",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-451a55f58952fe"
+  },
+  {
+    "id": "synonym:lesson-src-9df98cc58ee34d",
+    "type": "synonym",
+    "ordinal": 414,
+    "label": "#414 · Standard",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-9df98cc58ee34d"
+  },
+  {
+    "id": "synonym:lesson-src-b2d4dae60e0984",
+    "type": "synonym",
+    "ordinal": 415,
+    "label": "#415 · Cold",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b2d4dae60e0984"
+  },
+  {
+    "id": "synonym:lesson-src-8d27c25c5c915f",
+    "type": "synonym",
+    "ordinal": 416,
+    "label": "#416 · Funny",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8d27c25c5c915f"
+  },
+  {
+    "id": "synonym:lesson-src-dbc329f7b26f9c",
+    "type": "synonym",
+    "ordinal": 417,
+    "label": "#417 · Limited",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-dbc329f7b26f9c"
+  },
+  {
+    "id": "synonym:lesson-src-ba710eaa108f10",
+    "type": "synonym",
+    "ordinal": 418,
+    "label": "#418 · Store",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-ba710eaa108f10"
+  },
+  {
+    "id": "synonym:lesson-src-1291645d08061e",
+    "type": "synonym",
+    "ordinal": 419,
+    "label": "#419 · Committee",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-1291645d08061e"
+  },
+  {
+    "id": "synonym:lesson-src-a4f8a4d4ecc82c",
+    "type": "synonym",
+    "ordinal": 420,
+    "label": "#420 · Normal",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a4f8a4d4ecc82c"
+  },
+  {
+    "id": "synonym:lesson-src-1a37cca9f9013f",
+    "type": "synonym",
+    "ordinal": 421,
+    "label": "#421 · Completely",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-1a37cca9f9013f"
+  },
+  {
+    "id": "synonym:lesson-src-c43b577c26f438",
+    "type": "synonym",
+    "ordinal": 422,
+    "label": "#422 · Content",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-c43b577c26f438"
+  },
+  {
+    "id": "synonym:lesson-src-0a280f07bb5eda",
+    "type": "synonym",
+    "ordinal": 423,
+    "label": "#423 · Individual",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0a280f07bb5eda"
+  },
+  {
+    "id": "synonym:lesson-src-0480bb50ab192e",
+    "type": "synonym",
+    "ordinal": 424,
+    "label": "#424 · Particular",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0480bb50ab192e"
+  },
+  {
+    "id": "synonym:lesson-src-51becc780042b4",
+    "type": "synonym",
+    "ordinal": 425,
+    "label": "#425 · Speed",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-51becc780042b4"
+  },
+  {
+    "id": "synonym:lesson-src-0d37e6a6fe2baa",
+    "type": "synonym",
+    "ordinal": 426,
+    "label": "#426 · Link",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0d37e6a6fe2baa"
+  },
+  {
+    "id": "synonym:lesson-src-218f3f0fa904d7",
+    "type": "synonym",
+    "ordinal": 427,
+    "label": "#427 · Tour",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-218f3f0fa904d7"
+  },
+  {
+    "id": "synonym:lesson-src-b348abcbc2e3f3",
+    "type": "synonym",
+    "ordinal": 428,
+    "label": "#428 · Combine (verb)",
+    "detail": "Synonyms · 8 詞組 · 23 題",
+    "url": "synonyms-system.html?module=lesson-src-b348abcbc2e3f3"
+  },
+  {
+    "id": "synonym:lesson-src-84f327db98f40b",
+    "type": "synonym",
+    "ordinal": 429,
+    "label": "#429 · Extra",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-84f327db98f40b"
+  },
+  {
+    "id": "synonym:lesson-src-14e99e3aa72446",
+    "type": "synonym",
+    "ordinal": 430,
+    "label": "#430 · Immediately",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-14e99e3aa72446"
+  },
+  {
+    "id": "synonym:lesson-v2-014",
+    "type": "synonym",
+    "ordinal": 431,
+    "label": "#431 · Immediately",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-014"
+  },
+  {
+    "id": "synonym:lesson-src-94dec2cab2b372",
+    "type": "synonym",
+    "ordinal": 432,
+    "label": "#432 · Nature",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-94dec2cab2b372"
+  },
+  {
+    "id": "synonym:lesson-src-7d5782449e2604",
+    "type": "synonym",
+    "ordinal": 433,
+    "label": "#433 · Quick",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7d5782449e2604"
+  },
+  {
+    "id": "synonym:lesson-src-f1898e3e14def9",
+    "type": "synonym",
+    "ordinal": 434,
+    "label": "#434 · Sell",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-f1898e3e14def9"
+  },
+  {
+    "id": "synonym:lesson-src-5d53bd0d0512b7",
+    "type": "synonym",
+    "ordinal": 435,
+    "label": "#435 · Clean",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5d53bd0d0512b7"
+  },
+  {
+    "id": "synonym:lesson-src-e3eda41e617f56",
+    "type": "synonym",
+    "ordinal": 436,
+    "label": "#436 · Construction",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e3eda41e617f56"
+  },
+  {
+    "id": "synonym:lesson-src-f3c0f6a51b3d92",
+    "type": "synonym",
+    "ordinal": 437,
+    "label": "#437 · Favorite",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-f3c0f6a51b3d92"
+  },
+  {
+    "id": "synonym:lesson-src-4c37d533aebf93",
+    "type": "synonym",
+    "ordinal": 438,
+    "label": "#438 · Income",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-4c37d533aebf93"
+  },
+  {
+    "id": "synonym:lesson-src-63a5c86d83ed7c",
+    "type": "synonym",
+    "ordinal": 439,
+    "label": "#439 · Justice",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-63a5c86d83ed7c"
+  },
+  {
+    "id": "synonym:lesson-src-7e31dee0fa6978",
+    "type": "synonym",
+    "ordinal": 440,
+    "label": "#440 · Movement · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-7e31dee0fa6978"
+  },
+  {
+    "id": "synonym:lesson-src-8f9ef1de12d56a",
+    "type": "synonym",
+    "ordinal": 441,
+    "label": "#441 · Photo",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8f9ef1de12d56a"
+  },
+  {
+    "id": "synonym:lesson-src-1a0211d628219d",
+    "type": "synonym",
+    "ordinal": 442,
+    "label": "#442 · Spend",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-1a0211d628219d"
+  },
+  {
+    "id": "synonym:lesson-src-2431c65a1fb008",
+    "type": "synonym",
+    "ordinal": 443,
+    "label": "#443 · Statement · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2431c65a1fb008"
+  },
+  {
+    "id": "synonym:lesson-src-6b42888441625e",
+    "type": "synonym",
+    "ordinal": 444,
+    "label": "#444 · Coach",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-6b42888441625e"
+  },
+  {
+    "id": "synonym:lesson-src-837a0ec9f5f0eb",
+    "type": "synonym",
+    "ordinal": 445,
+    "label": "#445 · Collection",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-837a0ec9f5f0eb"
+  },
+  {
+    "id": "synonym:lesson-src-0cf75d8d094e60",
+    "type": "synonym",
+    "ordinal": 446,
+    "label": "#446 · Search",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0cf75d8d094e60"
+  },
+  {
+    "id": "synonym:lesson-src-fb55b033c8d8ff",
+    "type": "synonym",
+    "ordinal": 447,
+    "label": "#447 · Subject",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-fb55b033c8d8ff"
+  },
+  {
+    "id": "synonym:lesson-v2-032",
+    "type": "synonym",
+    "ordinal": 448,
+    "label": "#448 · Train",
+    "detail": "Synonyms · 20 詞組 · 40 題",
+    "url": "synonyms-system.html?module=lesson-v2-032"
+  },
+  {
+    "id": "synonym:lesson-src-2a15e87e9256ff",
+    "type": "synonym",
+    "ordinal": 449,
+    "label": "#449 · Wide",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-2a15e87e9256ff"
+  },
+  {
+    "id": "synonym:lesson-src-5569d131b884a3",
+    "type": "synonym",
+    "ordinal": 450,
+    "label": "#450 · Author",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-5569d131b884a3"
+  },
+  {
+    "id": "synonym:lesson-src-bdff8025683759",
+    "type": "synonym",
+    "ordinal": 451,
+    "label": "#451 · Centre",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-bdff8025683759"
+  },
+  {
+    "id": "synonym:lesson-src-0f1a9348ace7af",
+    "type": "synonym",
+    "ordinal": 452,
+    "label": "#452 · Claim",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-0f1a9348ace7af"
+  },
+  {
+    "id": "synonym:lesson-src-425862c2bc5437",
+    "type": "synonym",
+    "ordinal": 453,
+    "label": "#453 · Co-living",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-425862c2bc5437"
+  },
+  {
+    "id": "synonym:lesson-src-961569383ae7a0",
+    "type": "synonym",
+    "ordinal": 454,
+    "label": "#454 · Fit",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-961569383ae7a0"
+  },
+  {
+    "id": "synonym:lesson-src-ae33b21f3af499",
+    "type": "synonym",
+    "ordinal": 455,
+    "label": "#455 · Global",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-ae33b21f3af499"
+  },
+  {
+    "id": "synonym:lesson-src-2bdd1e5f134241",
+    "type": "synonym",
+    "ordinal": 456,
+    "label": "#456 · Leader",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-2bdd1e5f134241"
+  },
+  {
+    "id": "synonym:lesson-src-e93b5712472ac9",
+    "type": "synonym",
+    "ordinal": 457,
+    "label": "#457 · Product",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e93b5712472ac9"
+  },
+  {
+    "id": "synonym:lesson-src-1442f962cccb67",
+    "type": "synonym",
+    "ordinal": 458,
+    "label": "#458 · Regular",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-1442f962cccb67"
+  },
+  {
+    "id": "synonym:lesson-src-292f0593bfb2e0",
+    "type": "synonym",
+    "ordinal": 459,
+    "label": "#459 · Annual",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-292f0593bfb2e0"
+  },
+  {
+    "id": "synonym:lesson-src-4d4e8a682d6af9",
+    "type": "synonym",
+    "ordinal": 460,
+    "label": "#460 · Brain",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-4d4e8a682d6af9"
+  },
+  {
+    "id": "synonym:lesson-src-d3ee78e43c7087",
+    "type": "synonym",
+    "ordinal": 461,
+    "label": "#461 · Floor",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d3ee78e43c7087"
+  },
+  {
+    "id": "synonym:lesson-src-12f00bddb4b451",
+    "type": "synonym",
+    "ordinal": 462,
+    "label": "#462 · Image",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-12f00bddb4b451"
+  },
+  {
+    "id": "synonym:lesson-src-21f49d51eaeba8",
+    "type": "synonym",
+    "ordinal": 463,
+    "label": "#463 · Physical",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-21f49d51eaeba8"
+  },
+  {
+    "id": "synonym:lesson-src-7b52407cc021f7",
+    "type": "synonym",
+    "ordinal": 464,
+    "label": "#464 · Reach",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7b52407cc021f7"
+  },
+  {
+    "id": "synonym:lesson-src-e6e4454394b63d",
+    "type": "synonym",
+    "ordinal": 465,
+    "label": "#465 · Rule",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e6e4454394b63d"
+  },
+  {
+    "id": "synonym:lesson-src-aff4f180740b46",
+    "type": "synonym",
+    "ordinal": 466,
+    "label": "#466 · Seriously · adv",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-aff4f180740b46"
+  },
+  {
+    "id": "synonym:lesson-src-478bcccef06131",
+    "type": "synonym",
+    "ordinal": 467,
+    "label": "#467 · Degree",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-478bcccef06131"
+  },
+  {
+    "id": "synonym:lesson-src-abee28e00f8cf3",
+    "type": "synonym",
+    "ordinal": 468,
+    "label": "#468 · Dance",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-abee28e00f8cf3"
+  },
+  {
+    "id": "synonym:lesson-src-a0143827771d13",
+    "type": "synonym",
+    "ordinal": 469,
+    "label": "#469 · Master",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a0143827771d13"
+  },
+  {
+    "id": "synonym:lesson-src-27106c2c6aaefc",
+    "type": "synonym",
+    "ordinal": 470,
+    "label": "#470 · Band",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-27106c2c6aaefc"
+  },
+  {
+    "id": "synonym:lesson-src-476e00fa83dfe2",
+    "type": "synonym",
+    "ordinal": 471,
+    "label": "#471 · Cash",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-476e00fa83dfe2"
+  },
+  {
+    "id": "synonym:lesson-src-8076409f173fd1",
+    "type": "synonym",
+    "ordinal": 472,
+    "label": "#472 · Commercial",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-8076409f173fd1"
+  },
+  {
+    "id": "synonym:lesson-src-1881b1b903efd9",
+    "type": "synonym",
+    "ordinal": 473,
+    "label": "#473 · Impact",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1881b1b903efd9"
+  },
+  {
+    "id": "synonym:lesson-src-eb1c066772c1cd",
+    "type": "synonym",
+    "ordinal": 474,
+    "label": "#474 · Lack",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-eb1c066772c1cd"
+  },
+  {
+    "id": "synonym:lesson-src-50dfb7fd99e6c6",
+    "type": "synonym",
+    "ordinal": 475,
+    "label": "#475 · Latest",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-50dfb7fd99e6c6"
+  },
+  {
+    "id": "synonym:lesson-src-86085f69a1f3c6",
+    "type": "synonym",
+    "ordinal": 476,
+    "label": "#476 · Spring",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-86085f69a1f3c6"
+  },
+  {
+    "id": "synonym:lesson-src-f61d61cb65bf75",
+    "type": "synonym",
+    "ordinal": 477,
+    "label": "#477 · Wear",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f61d61cb65bf75"
+  },
+  {
+    "id": "synonym:lesson-src-b20f10ec0c717f",
+    "type": "synonym",
+    "ordinal": 478,
+    "label": "#478 · Direct",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-b20f10ec0c717f"
+  },
+  {
+    "id": "synonym:lesson-src-e96f04e251c298",
+    "type": "synonym",
+    "ordinal": 479,
+    "label": "#479 · Dream",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e96f04e251c298"
+  },
+  {
+    "id": "synonym:lesson-src-a195b5db769d1b",
+    "type": "synonym",
+    "ordinal": 480,
+    "label": "#480 · Easily",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a195b5db769d1b"
+  },
+  {
+    "id": "synonym:lesson-src-4355ca44a41e81",
+    "type": "synonym",
+    "ordinal": 481,
+    "label": "#481 · Low-key (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4355ca44a41e81"
+  },
+  {
+    "id": "synonym:lesson-src-9e60cdb77632c3",
+    "type": "synonym",
+    "ordinal": 482,
+    "label": "#482 · Rich",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-9e60cdb77632c3"
+  },
+  {
+    "id": "synonym:lesson-src-271c5858da1e70",
+    "type": "synonym",
+    "ordinal": 483,
+    "label": "#483 · Skin",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-271c5858da1e70"
+  },
+  {
+    "id": "synonym:lesson-v2-017",
+    "type": "synonym",
+    "ordinal": 484,
+    "label": "#484 · Closed",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-017"
+  },
+  {
+    "id": "synonym:lesson-src-4f0b5525d67d1c",
+    "type": "synonym",
+    "ordinal": 485,
+    "label": "#485 · Damage",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-4f0b5525d67d1c"
+  },
+  {
+    "id": "synonym:lesson-src-388b7a5dd8b14e",
+    "type": "synonym",
+    "ordinal": 486,
+    "label": "#486 · Disease",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-388b7a5dd8b14e"
+  },
+  {
+    "id": "synonym:lesson-src-773dd5800865c4",
+    "type": "synonym",
+    "ordinal": 487,
+    "label": "#487 · Grow",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-773dd5800865c4"
+  },
+  {
+    "id": "synonym:lesson-src-1d05d461062def",
+    "type": "synonym",
+    "ordinal": 488,
+    "label": "#488 · Basic",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-1d05d461062def"
+  },
+  {
+    "id": "synonym:lesson-src-1a6cb23c7adfb0",
+    "type": "synonym",
+    "ordinal": 489,
+    "label": "#489 · Carry",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1a6cb23c7adfb0"
+  },
+  {
+    "id": "synonym:lesson-src-4d74dd26f70eb3",
+    "type": "synonym",
+    "ordinal": 490,
+    "label": "#490 · Crime",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-4d74dd26f70eb3"
+  },
+  {
+    "id": "synonym:lesson-src-bd27f030c7687d",
+    "type": "synonym",
+    "ordinal": 491,
+    "label": "#491 · Reality",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-bd27f030c7687d"
+  },
+  {
+    "id": "synonym:lesson-src-59c9e95b2d30be",
+    "type": "synonym",
+    "ordinal": 492,
+    "label": "#492 · Winter",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-59c9e95b2d30be"
+  },
+  {
+    "id": "synonym:lesson-src-6d88811a44f618",
+    "type": "synonym",
+    "ordinal": 493,
+    "label": "#493 · Award",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-6d88811a44f618"
+  },
+  {
+    "id": "synonym:lesson-src-3882d68186df26",
+    "type": "synonym",
+    "ordinal": 494,
+    "label": "#494 · Block",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-3882d68186df26"
+  },
+  {
+    "id": "synonym:lesson-src-64f7f4a8989cf1",
+    "type": "synonym",
+    "ordinal": 495,
+    "label": "#495 · Comment",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-64f7f4a8989cf1"
+  },
+  {
+    "id": "synonym:lesson-src-ddef99d160da2c",
+    "type": "synonym",
+    "ordinal": 496,
+    "label": "#496 · Equipment",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-ddef99d160da2c"
+  },
+  {
+    "id": "synonym:lesson-src-8807b4ee88c0ea",
+    "type": "synonym",
+    "ordinal": 497,
+    "label": "#497 · Primary",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8807b4ee88c0ea"
+  },
+  {
+    "id": "synonym:lesson-src-1f5fbcfd00ff24",
+    "type": "synonym",
+    "ordinal": 498,
+    "label": "#498 · Teacher",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1f5fbcfd00ff24"
+  },
+  {
+    "id": "synonym:lesson-src-c877acfb5c2adc",
+    "type": "synonym",
+    "ordinal": 499,
+    "label": "#499 · Camera",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c877acfb5c2adc"
+  },
+  {
+    "id": "synonym:lesson-src-1b706b788b1e38",
+    "type": "synonym",
+    "ordinal": 500,
+    "label": "#500 · Drug",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-1b706b788b1e38"
+  },
+  {
+    "id": "synonym:lesson-src-b7ef6f5f5173b3",
+    "type": "synonym",
+    "ordinal": 501,
+    "label": "#501 · Executive",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b7ef6f5f5173b3"
+  },
+  {
+    "id": "synonym:lesson-src-e2d2087878ecfe",
+    "type": "synonym",
+    "ordinal": 502,
+    "label": "#502 · Meaning",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e2d2087878ecfe"
+  },
+  {
+    "id": "synonym:lesson-src-b468e723790597",
+    "type": "synonym",
+    "ordinal": 503,
+    "label": "#503 · Mission",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b468e723790597"
+  },
+  {
+    "id": "synonym:lesson-src-4a4a7e4582cb08",
+    "type": "synonym",
+    "ordinal": 504,
+    "label": "#504 · App",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4a4a7e4582cb08"
+  },
+  {
+    "id": "synonym:lesson-src-a52f413316e314",
+    "type": "synonym",
+    "ordinal": 505,
+    "label": "#505 · Application",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-a52f413316e314"
+  },
+  {
+    "id": "synonym:lesson-src-ae1e2516d0120b",
+    "type": "synonym",
+    "ordinal": 506,
+    "label": "#506 · Evening",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-ae1e2516d0120b"
+  },
+  {
+    "id": "synonym:lesson-src-f09cada1f12ebf",
+    "type": "synonym",
+    "ordinal": 507,
+    "label": "#507 · Flight",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f09cada1f12ebf"
+  },
+  {
+    "id": "synonym:lesson-src-76aa43894465e4",
+    "type": "synonym",
+    "ordinal": 508,
+    "label": "#508 · Freedom",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-76aa43894465e4"
+  },
+  {
+    "id": "synonym:lesson-src-87093b58d4c30f",
+    "type": "synonym",
+    "ordinal": 509,
+    "label": "#509 · Heat",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-87093b58d4c30f"
+  },
+  {
+    "id": "synonym:lesson-src-69b185a132f0c5",
+    "type": "synonym",
+    "ordinal": 510,
+    "label": "#510 · Interview",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-69b185a132f0c5"
+  },
+  {
+    "id": "synonym:lesson-src-321a1cd3dc8dc9",
+    "type": "synonym",
+    "ordinal": 511,
+    "label": "#511 · Location",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-321a1cd3dc8dc9"
+  },
+  {
+    "id": "synonym:lesson-src-320962545297df",
+    "type": "synonym",
+    "ordinal": 512,
+    "label": "#512 · Appear",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-320962545297df"
+  },
+  {
+    "id": "synonym:lesson-src-e55bec99664f73",
+    "type": "synonym",
+    "ordinal": 513,
+    "label": "#513 · Distance · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e55bec99664f73"
+  },
+  {
+    "id": "synonym:lesson-src-8d1b9a9355c867",
+    "type": "synonym",
+    "ordinal": 514,
+    "label": "#514 · Exchange (verb)",
+    "detail": "Synonyms · 8 詞組 · 16 題",
+    "url": "synonyms-system.html?module=lesson-src-8d1b9a9355c867"
+  },
+  {
+    "id": "synonym:lesson-src-fe82c2e0d7ba44",
+    "type": "synonym",
+    "ordinal": 515,
+    "label": "#515 · Mobile",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-fe82c2e0d7ba44"
+  },
+  {
+    "id": "synonym:lesson-src-440f3f02e474a8",
+    "type": "synonym",
+    "ordinal": 516,
+    "label": "#516 · Religious",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-440f3f02e474a8"
+  },
+  {
+    "id": "synonym:lesson-src-701bff6ac7ba84",
+    "type": "synonym",
+    "ordinal": 517,
+    "label": "#517 · Ride",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-701bff6ac7ba84"
+  },
+  {
+    "id": "synonym:lesson-src-325141a2318faf",
+    "type": "synonym",
+    "ordinal": 518,
+    "label": "#518 · Screen",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-325141a2318faf"
+  },
+  {
+    "id": "synonym:lesson-src-7899539fa2de14",
+    "type": "synonym",
+    "ordinal": 519,
+    "label": "#519 · Slow",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7899539fa2de14"
+  },
+  {
+    "id": "synonym:lesson-src-4746319f3997dc",
+    "type": "synonym",
+    "ordinal": 520,
+    "label": "#520 · Species",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-4746319f3997dc"
+  },
+  {
+    "id": "synonym:lesson-src-6fb9562a7177de",
+    "type": "synonym",
+    "ordinal": 521,
+    "label": "#521 · Speech",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6fb9562a7177de"
+  },
+  {
+    "id": "synonym:lesson-src-33cc86532f1ea2",
+    "type": "synonym",
+    "ordinal": 522,
+    "label": "#522 · Begin",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-33cc86532f1ea2"
+  },
+  {
+    "id": "synonym:lesson-v2-005",
+    "type": "synonym",
+    "ordinal": 523,
+    "label": "#523 · Begin",
+    "detail": "Synonyms · 18 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-v2-005"
+  },
+  {
+    "id": "synonym:lesson-src-53c92084de6095",
+    "type": "synonym",
+    "ordinal": 524,
+    "label": "#524 · Famous",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-53c92084de6095"
+  },
+  {
+    "id": "synonym:lesson-src-e76fcc1b55e511",
+    "type": "synonym",
+    "ordinal": 525,
+    "label": "#525 · Traditional",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e76fcc1b55e511"
+  },
+  {
+    "id": "synonym:lesson-src-4d3fe426915e0d",
+    "type": "synonym",
+    "ordinal": 526,
+    "label": "#526 · Brand",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4d3fe426915e0d"
+  },
+  {
+    "id": "synonym:lesson-src-08ad694894d0c1",
+    "type": "synonym",
+    "ordinal": 527,
+    "label": "#527 · Digital",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-08ad694894d0c1"
+  },
+  {
+    "id": "synonym:lesson-src-0d83458e9c090e",
+    "type": "synonym",
+    "ordinal": 528,
+    "label": "#528 · Owner",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0d83458e9c090e"
+  },
+  {
+    "id": "synonym:lesson-src-dcf8a4639d52b1",
+    "type": "synonym",
+    "ordinal": 529,
+    "label": "#529 · Previously",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-dcf8a4639d52b1"
+  },
+  {
+    "id": "synonym:lesson-src-0e18388b12b437",
+    "type": "synonym",
+    "ordinal": 530,
+    "label": "#530 · Remain",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0e18388b12b437"
+  },
+  {
+    "id": "synonym:lesson-src-125c813c55dc52",
+    "type": "synonym",
+    "ordinal": 531,
+    "label": "#531 · Scale",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-125c813c55dc52"
+  },
+  {
+    "id": "synonym:lesson-src-c012f80d6d1099",
+    "type": "synonym",
+    "ordinal": 532,
+    "label": "#532 · Score",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c012f80d6d1099"
+  },
+  {
+    "id": "synonym:lesson-src-18960b7397a50e",
+    "type": "synonym",
+    "ordinal": 533,
+    "label": "#533 · Separate",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-18960b7397a50e"
+  },
+  {
+    "id": "synonym:lesson-src-f8711f7cc72c07",
+    "type": "synonym",
+    "ordinal": 534,
+    "label": "#534 · Surface",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-f8711f7cc72c07"
+  },
+  {
+    "id": "synonym:lesson-src-141e9e1378aa35",
+    "type": "synonym",
+    "ordinal": 535,
+    "label": "#535 · Throw",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-141e9e1378aa35"
+  },
+  {
+    "id": "synonym:lesson-src-97b252d7abb2a0",
+    "type": "synonym",
+    "ordinal": 536,
+    "label": "#536 · Budget",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-97b252d7abb2a0"
+  },
+  {
+    "id": "synonym:lesson-src-e0b0784844135a",
+    "type": "synonym",
+    "ordinal": 537,
+    "label": "#537 · Estate · noun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e0b0784844135a"
+  },
+  {
+    "id": "synonym:lesson-src-aa6d3502c8cd5e",
+    "type": "synonym",
+    "ordinal": 538,
+    "label": "#538 · Fund",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-aa6d3502c8cd5e"
+  },
+  {
+    "id": "synonym:lesson-src-5a40a0f4ffcd97",
+    "type": "synonym",
+    "ordinal": 539,
+    "label": "#539 · Generation",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-5a40a0f4ffcd97"
+  },
+  {
+    "id": "synonym:lesson-src-33926437bf6005",
+    "type": "synonym",
+    "ordinal": 540,
+    "label": "#540 · Profile",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-33926437bf6005"
+  },
+  {
+    "id": "synonym:lesson-src-fe1ffadc572365",
+    "type": "synonym",
+    "ordinal": 541,
+    "label": "#541 · Push",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fe1ffadc572365"
+  },
+  {
+    "id": "synonym:lesson-src-e37d155533dead",
+    "type": "synonym",
+    "ordinal": 542,
+    "label": "#542 · Authority",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-e37d155533dead"
+  },
+  {
+    "id": "synonym:lesson-src-f3c2d103985fac",
+    "type": "synonym",
+    "ordinal": 543,
+    "label": "#543 · Enter",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-f3c2d103985fac"
+  },
+  {
+    "id": "synonym:lesson-src-0febfad515af50",
+    "type": "synonym",
+    "ordinal": 544,
+    "label": "#544 · Foundation",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0febfad515af50"
+  },
+  {
+    "id": "synonym:lesson-src-10b36f412e892b",
+    "type": "synonym",
+    "ordinal": 545,
+    "label": "#545 · Spread",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-10b36f412e892b"
+  },
+  {
+    "id": "synonym:lesson-src-5383c394f3c1e2",
+    "type": "synonym",
+    "ordinal": 546,
+    "label": "#546 · Waste",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-5383c394f3c1e2"
+  },
+  {
+    "id": "synonym:lesson-src-d7215405d09da2",
+    "type": "synonym",
+    "ordinal": 547,
+    "label": "#547 · Draw",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d7215405d09da2"
+  },
+  {
+    "id": "synonym:lesson-src-7917e06826b581",
+    "type": "synonym",
+    "ordinal": 548,
+    "label": "#548 · Adult",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-7917e06826b581"
+  },
+  {
+    "id": "synonym:lesson-src-f059dd650c7879",
+    "type": "synonym",
+    "ordinal": 549,
+    "label": "#549 · Artist",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-f059dd650c7879"
+  },
+  {
+    "id": "synonym:lesson-src-0e04559590be0e",
+    "type": "synonym",
+    "ordinal": 550,
+    "label": "#550 · Option",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0e04559590be0e"
+  },
+  {
+    "id": "synonym:lesson-src-69931a38faa285",
+    "type": "synonym",
+    "ordinal": 551,
+    "label": "#551 · Wild",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-69931a38faa285"
+  },
+  {
+    "id": "synonym:lesson-src-21a5138305c728",
+    "type": "synonym",
+    "ordinal": 552,
+    "label": "#552 · Bag (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-21a5138305c728"
+  },
+  {
+    "id": "synonym:lesson-src-fb7833de8dd266",
+    "type": "synonym",
+    "ordinal": 553,
+    "label": "#553 · Extremely",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fb7833de8dd266"
+  },
+  {
+    "id": "synonym:lesson-src-ee3a9b4cd68d34",
+    "type": "synonym",
+    "ordinal": 554,
+    "label": "#554 · Handle",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-ee3a9b4cd68d34"
+  },
+  {
+    "id": "synonym:lesson-src-e23dfe4809d719",
+    "type": "synonym",
+    "ordinal": 555,
+    "label": "#555 · Dinner",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e23dfe4809d719"
+  },
+  {
+    "id": "synonym:lesson-src-6913c21e682da0",
+    "type": "synonym",
+    "ordinal": 556,
+    "label": "#556 · E-sports",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6913c21e682da0"
+  },
+  {
+    "id": "synonym:lesson-src-5c134c0f7ff62a",
+    "type": "synonym",
+    "ordinal": 557,
+    "label": "#557 · Function",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5c134c0f7ff62a"
+  },
+  {
+    "id": "synonym:lesson-src-821e483e2e2f2c",
+    "type": "synonym",
+    "ordinal": 558,
+    "label": "#558 · Impossible",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-821e483e2e2f2c"
+  },
+  {
+    "id": "synonym:lesson-src-006b947ee6d640",
+    "type": "synonym",
+    "ordinal": 559,
+    "label": "#559 · Background",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-006b947ee6d640"
+  },
+  {
+    "id": "synonym:lesson-src-59c30005697737",
+    "type": "synonym",
+    "ordinal": 560,
+    "label": "#560 · Birth",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-59c30005697737"
+  },
+  {
+    "id": "synonym:lesson-src-450f4ed58dc334",
+    "type": "synonym",
+    "ordinal": 561,
+    "label": "#561 · Bridge (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-450f4ed58dc334"
+  },
+  {
+    "id": "synonym:lesson-src-c52a9c4957b059",
+    "type": "synonym",
+    "ordinal": 562,
+    "label": "#562 · Concept",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-c52a9c4957b059"
+  },
+  {
+    "id": "synonym:lesson-src-642e9b661aa2b9",
+    "type": "synonym",
+    "ordinal": 563,
+    "label": "#563 · Host",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-642e9b661aa2b9"
+  },
+  {
+    "id": "synonym:lesson-src-65bab821f00468",
+    "type": "synonym",
+    "ordinal": 564,
+    "label": "#564 · Leadership",
+    "detail": "Synonyms · 10 詞組 · 29 題",
+    "url": "synonyms-system.html?module=lesson-src-65bab821f00468"
+  },
+  {
+    "id": "synonym:lesson-src-66766f3bc3bd62",
+    "type": "synonym",
+    "ordinal": 565,
+    "label": "#565 · Rare",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-66766f3bc3bd62"
+  },
+  {
+    "id": "synonym:lesson-src-fc5ba6657cfaf2",
+    "type": "synonym",
+    "ordinal": 566,
+    "label": "#566 · Setting",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-fc5ba6657cfaf2"
+  },
+  {
+    "id": "synonym:lesson-src-ef01447371494a",
+    "type": "synonym",
+    "ordinal": 567,
+    "label": "#567 · Thousands",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ef01447371494a"
+  },
+  {
+    "id": "synonym:lesson-src-b547cd7629809d",
+    "type": "synonym",
+    "ordinal": 568,
+    "label": "#568 · Alive",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b547cd7629809d"
+  },
+  {
+    "id": "synonym:lesson-src-7ac91299df85a1",
+    "type": "synonym",
+    "ordinal": 569,
+    "label": "#569 · Connection",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-7ac91299df85a1"
+  },
+  {
+    "id": "synonym:lesson-src-968303c66d345a",
+    "type": "synonym",
+    "ordinal": 570,
+    "label": "#570 · Dress",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-968303c66d345a"
+  },
+  {
+    "id": "synonym:lesson-src-7ff1ee5ac1655c",
+    "type": "synonym",
+    "ordinal": 571,
+    "label": "#571 · Wake",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7ff1ee5ac1655c"
+  },
+  {
+    "id": "synonym:lesson-src-d958ae950f89f4",
+    "type": "synonym",
+    "ordinal": 572,
+    "label": "#572 · Beauty",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d958ae950f89f4"
+  },
+  {
+    "id": "synonym:lesson-src-ce3c0f34a677a5",
+    "type": "synonym",
+    "ordinal": 573,
+    "label": "#573 · Busy",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-ce3c0f34a677a5"
+  },
+  {
+    "id": "synonym:lesson-src-89c7d240667a9b",
+    "type": "synonym",
+    "ordinal": 574,
+    "label": "#574 · Conversation",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-89c7d240667a9b"
+  },
+  {
+    "id": "synonym:lesson-src-ebbe2e33e2d69e",
+    "type": "synonym",
+    "ordinal": 575,
+    "label": "#575 · Corner · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ebbe2e33e2d69e"
+  },
+  {
+    "id": "synonym:lesson-src-d614c565eee4c3",
+    "type": "synonym",
+    "ordinal": 576,
+    "label": "#576 · Criminal",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d614c565eee4c3"
+  },
+  {
+    "id": "synonym:lesson-src-d2ac4ff8be8105",
+    "type": "synonym",
+    "ordinal": 577,
+    "label": "#577 · Cultural",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d2ac4ff8be8105"
+  },
+  {
+    "id": "synonym:lesson-src-49e024c2d0d5fc",
+    "type": "synonym",
+    "ordinal": 578,
+    "label": "#578 · Guide",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-49e024c2d0d5fc"
+  },
+  {
+    "id": "synonym:lesson-src-38d3951f71e0e9",
+    "type": "synonym",
+    "ordinal": 579,
+    "label": "#579 · Surprise",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-38d3951f71e0e9"
+  },
+  {
+    "id": "synonym:lesson-src-38fdf5de1f11a4",
+    "type": "synonym",
+    "ordinal": 580,
+    "label": "#580 · Technical · adj",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-38fdf5de1f11a4"
+  },
+  {
+    "id": "synonym:lesson-src-e83ad4d816b3a3",
+    "type": "synonym",
+    "ordinal": 581,
+    "label": "#581 · Unique",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e83ad4d816b3a3"
+  },
+  {
+    "id": "synonym:lesson-src-390bb555cb6468",
+    "type": "synonym",
+    "ordinal": 582,
+    "label": "#582 · Audience",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-390bb555cb6468"
+  },
+  {
+    "id": "synonym:lesson-src-30996fa29a12e0",
+    "type": "synonym",
+    "ordinal": 583,
+    "label": "#583 · Blog",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-30996fa29a12e0"
+  },
+  {
+    "id": "synonym:lesson-src-c1f5d1de345b43",
+    "type": "synonym",
+    "ordinal": 584,
+    "label": "#584 · Exist",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c1f5d1de345b43"
+  },
+  {
+    "id": "synonym:lesson-src-0d60308c038510",
+    "type": "synonym",
+    "ordinal": 585,
+    "label": "#585 · Honest",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0d60308c038510"
+  },
+  {
+    "id": "synonym:lesson-src-a022d3f2c392a2",
+    "type": "synonym",
+    "ordinal": 586,
+    "label": "#586 · Reaction",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a022d3f2c392a2"
+  },
+  {
+    "id": "synonym:lesson-src-fb0b01d7673c98",
+    "type": "synonym",
+    "ordinal": 587,
+    "label": "#587 · Shoot",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-fb0b01d7673c98"
+  },
+  {
+    "id": "synonym:lesson-src-58bca6f6811624",
+    "type": "synonym",
+    "ordinal": 588,
+    "label": "#588 · Classic",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-58bca6f6811624"
+  },
+  {
+    "id": "synonym:lesson-src-d94b4a9fbf8b0d",
+    "type": "synonym",
+    "ordinal": 589,
+    "label": "#589 · Clothes",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d94b4a9fbf8b0d"
+  },
+  {
+    "id": "synonym:lesson-src-c2c6c8c394f9a3",
+    "type": "synonym",
+    "ordinal": 590,
+    "label": "#590 · Emergency · noun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c2c6c8c394f9a3"
+  },
+  {
+    "id": "synonym:lesson-src-3e11ae36d31a51",
+    "type": "synonym",
+    "ordinal": 591,
+    "label": "#591 · Entirely",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-3e11ae36d31a51"
+  },
+  {
+    "id": "synonym:lesson-src-47489d0f2a8332",
+    "type": "synonym",
+    "ordinal": 592,
+    "label": "#592 · Festival",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-47489d0f2a8332"
+  },
+  {
+    "id": "synonym:lesson-src-1013aa80acbb92",
+    "type": "synonym",
+    "ordinal": 593,
+    "label": "#593 · Proper · adj",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1013aa80acbb92"
+  },
+  {
+    "id": "synonym:lesson-src-63316b3fd2b019",
+    "type": "synonym",
+    "ordinal": 594,
+    "label": "#594 · Session",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-63316b3fd2b019"
+  },
+  {
+    "id": "synonym:lesson-src-a3c7070bc440e7",
+    "type": "synonym",
+    "ordinal": 595,
+    "label": "#595 · Shape",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a3c7070bc440e7"
+  },
+  {
+    "id": "synonym:lesson-src-e098ebc1b7ba1e",
+    "type": "synonym",
+    "ordinal": 596,
+    "label": "#596 · Willing · adj",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e098ebc1b7ba1e"
+  },
+  {
+    "id": "synonym:lesson-src-c053fcd172417f",
+    "type": "synonym",
+    "ordinal": 597,
+    "label": "#597 · Alternative",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c053fcd172417f"
+  },
+  {
+    "id": "synonym:lesson-src-da45e20b98fbed",
+    "type": "synonym",
+    "ordinal": 598,
+    "label": "#598 · Cheap",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-da45e20b98fbed"
+  },
+  {
+    "id": "synonym:lesson-src-da022651acf101",
+    "type": "synonym",
+    "ordinal": 599,
+    "label": "#599 · Duty",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-da022651acf101"
+  },
+  {
+    "id": "synonym:lesson-src-8669ebf87d132a",
+    "type": "synonym",
+    "ordinal": 600,
+    "label": "#600 · Path",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8669ebf87d132a"
+  },
+  {
+    "id": "synonym:lesson-src-1b5d0555a68e66",
+    "type": "synonym",
+    "ordinal": 601,
+    "label": "#601 · Remove",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1b5d0555a68e66"
+  },
+  {
+    "id": "synonym:lesson-src-5e318b299cabf9",
+    "type": "synonym",
+    "ordinal": 602,
+    "label": "#602 · Tired",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-5e318b299cabf9"
+  },
+  {
+    "id": "synonym:lesson-src-9cea8003eaaffe",
+    "type": "synonym",
+    "ordinal": 603,
+    "label": "#603 · Afraid",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-9cea8003eaaffe"
+  },
+  {
+    "id": "synonym:lesson-src-4b4d047d021d64",
+    "type": "synonym",
+    "ordinal": 604,
+    "label": "#604 · Border",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-4b4d047d021d64"
+  },
+  {
+    "id": "synonym:lesson-src-c30cc86fbfeaae",
+    "type": "synonym",
+    "ordinal": 605,
+    "label": "#605 · Crowd",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-c30cc86fbfeaae"
+  },
+  {
+    "id": "synonym:lesson-src-e3b8ba18f7a64d",
+    "type": "synonym",
+    "ordinal": 606,
+    "label": "#606 · Forest",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e3b8ba18f7a64d"
+  },
+  {
+    "id": "synonym:lesson-src-b73e6691d432a9",
+    "type": "synonym",
+    "ordinal": 607,
+    "label": "#607 · Intelligence",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-b73e6691d432a9"
+  },
+  {
+    "id": "synonym:lesson-src-e4b43d410af464",
+    "type": "synonym",
+    "ordinal": 608,
+    "label": "#608 · Profit",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e4b43d410af464"
+  },
+  {
+    "id": "synonym:lesson-src-278a562a32e6cf",
+    "type": "synonym",
+    "ordinal": 609,
+    "label": "#609 · Suit",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-278a562a32e6cf"
+  },
+  {
+    "id": "synonym:lesson-src-e5106480583d30",
+    "type": "synonym",
+    "ordinal": 610,
+    "label": "#610 · Organise",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e5106480583d30"
+  },
+  {
+    "id": "synonym:lesson-src-297c7c3264472e",
+    "type": "synonym",
+    "ordinal": 611,
+    "label": "#611 · As For",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-297c7c3264472e"
+  },
+  {
+    "id": "synonym:lesson-src-f6c87466c57da0",
+    "type": "synonym",
+    "ordinal": 612,
+    "label": "#612 · At First",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f6c87466c57da0"
+  },
+  {
+    "id": "synonym:lesson-src-328fdef7da2b1f",
+    "type": "synonym",
+    "ordinal": 613,
+    "label": "#613 · Because of",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-328fdef7da2b1f"
+  },
+  {
+    "id": "synonym:lesson-src-339d8587cbaaf5",
+    "type": "synonym",
+    "ordinal": 614,
+    "label": "#614 · Go out · phrasal verb",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-339d8587cbaaf5"
+  },
+  {
+    "id": "synonym:lesson-v2-047",
+    "type": "synonym",
+    "ordinal": 615,
+    "label": "#615 · Take up",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-047"
+  },
+  {
+    "id": "synonym:lesson-src-07d57fa6a698d5",
+    "type": "synonym",
+    "ordinal": 616,
+    "label": "#616 · Look for",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-07d57fa6a698d5"
+  },
+  {
+    "id": "synonym:lesson-src-0dd1f301e94cf4",
+    "type": "synonym",
+    "ordinal": 617,
+    "label": "#617 · Come from",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0dd1f301e94cf4"
+  },
+  {
+    "id": "synonym:lesson-src-e3c371c40efc8b",
+    "type": "synonym",
+    "ordinal": 618,
+    "label": "#618 · Find out",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e3c371c40efc8b"
+  },
+  {
+    "id": "synonym:lesson-src-37e339430d249e",
+    "type": "synonym",
+    "ordinal": 619,
+    "label": "#619 · Get around",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-37e339430d249e"
+  },
+  {
+    "id": "synonym:lesson-src-3673fdc9124e30",
+    "type": "synonym",
+    "ordinal": 620,
+    "label": "#620 · Look After",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-3673fdc9124e30"
+  },
+  {
+    "id": "synonym:lesson-src-ca6aa856bc3fd1",
+    "type": "synonym",
+    "ordinal": 621,
+    "label": "#621 · Feel like · phrase",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-ca6aa856bc3fd1"
+  },
+  {
+    "id": "synonym:lesson-src-0e9ac979adb4fc",
+    "type": "synonym",
+    "ordinal": 622,
+    "label": "#622 · New Place",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-0e9ac979adb4fc"
+  },
+  {
+    "id": "synonym:lesson-src-07ccdd30fc9f50",
+    "type": "synonym",
+    "ordinal": 623,
+    "label": "#623 · Every Day",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-07ccdd30fc9f50"
+  },
+  {
+    "id": "synonym:lesson-src-14b5412af22d07",
+    "type": "synonym",
+    "ordinal": 624,
+    "label": "#624 · Free time",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-14b5412af22d07"
+  },
+  {
+    "id": "synonym:lesson-src-0c853c8cf4752b",
+    "type": "synonym",
+    "ordinal": 625,
+    "label": "#625 · Full of · phrase",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0c853c8cf4752b"
+  },
+  {
+    "id": "synonym:lesson-src-7c5ff8a1945b37",
+    "type": "synonym",
+    "ordinal": 626,
+    "label": "#626 · Set Up",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-7c5ff8a1945b37"
+  },
+  {
+    "id": "synonym:lesson-v2-011",
+    "type": "synonym",
+    "ordinal": 627,
+    "label": "#627 · Try it",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-011"
+  },
+  {
+    "id": "synonym:lesson-src-1585af7479cba7",
+    "type": "synonym",
+    "ordinal": 628,
+    "label": "#628 · Later On",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-1585af7479cba7"
+  },
+  {
+    "id": "synonym:lesson-src-d91c687695c6e6",
+    "type": "synonym",
+    "ordinal": 629,
+    "label": "#629 · These Days",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d91c687695c6e6"
+  },
+  {
+    "id": "synonym:lesson-src-62886df94bd317",
+    "type": "synonym",
+    "ordinal": 630,
+    "label": "#630 · In general",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-62886df94bd317"
+  },
+  {
+    "id": "synonym:lesson-src-f330efaefcd9da",
+    "type": "synonym",
+    "ordinal": 631,
+    "label": "#631 · Looking back · phrase",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f330efaefcd9da"
+  },
+  {
+    "id": "synonym:lesson-src-15c2a182bddecf",
+    "type": "synonym",
+    "ordinal": 632,
+    "label": "#632 · Of Course",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-15c2a182bddecf"
+  },
+  {
+    "id": "synonym:lesson-src-1b3f67f7f769dd",
+    "type": "synonym",
+    "ordinal": 633,
+    "label": "#633 · Open Up",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-1b3f67f7f769dd"
+  },
+  {
+    "id": "synonym:lesson-src-7a2290444b8402",
+    "type": "synonym",
+    "ordinal": 634,
+    "label": "#634 · Real World",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-7a2290444b8402"
+  },
+  {
+    "id": "synonym:lesson-v2-013",
+    "type": "synonym",
+    "ordinal": 635,
+    "label": "#635 · In fact",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-013"
+  },
+  {
+    "id": "synonym:lesson-src-3eaaa88fb6184a",
+    "type": "synonym",
+    "ordinal": 636,
+    "label": "#636 · Music",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3eaaa88fb6184a"
+  },
+  {
+    "id": "synonym:lesson-src-1dd55b2aa8423d",
+    "type": "synonym",
+    "ordinal": 637,
+    "label": "#637 · Due to",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-1dd55b2aa8423d"
+  },
+  {
+    "id": "synonym:lesson-src-2542c58026f275",
+    "type": "synonym",
+    "ordinal": 638,
+    "label": "#638 · At that time · phrase",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-2542c58026f275"
+  },
+  {
+    "id": "synonym:lesson-src-255288653abc9c",
+    "type": "synonym",
+    "ordinal": 639,
+    "label": "#639 · More and More",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-255288653abc9c"
+  },
+  {
+    "id": "synonym:lesson-src-d295a1aa4e6ce8",
+    "type": "synonym",
+    "ordinal": 640,
+    "label": "#640 · Be Good For",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-d295a1aa4e6ce8"
+  },
+  {
+    "id": "synonym:lesson-src-b527349603de77",
+    "type": "synonym",
+    "ordinal": 641,
+    "label": "#641 · As well as",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b527349603de77"
+  },
+  {
+    "id": "synonym:lesson-src-d9576bf6253386",
+    "type": "synonym",
+    "ordinal": 642,
+    "label": "#642 · For A While",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d9576bf6253386"
+  },
+  {
+    "id": "synonym:lesson-src-e6bb64b7dfda7b",
+    "type": "synonym",
+    "ordinal": 643,
+    "label": "#643 · In Love With",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e6bb64b7dfda7b"
+  },
+  {
+    "id": "synonym:lesson-src-5adb3a83d973ab",
+    "type": "synonym",
+    "ordinal": 644,
+    "label": "#644 · Be part of",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-5adb3a83d973ab"
+  },
+  {
+    "id": "synonym:lesson-src-4030178ede0119",
+    "type": "synonym",
+    "ordinal": 645,
+    "label": "#645 · As long as",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4030178ede0119"
+  },
+  {
+    "id": "synonym:lesson-src-fb8449a94c496d",
+    "type": "synonym",
+    "ordinal": 646,
+    "label": "#646 · Get Used To",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fb8449a94c496d"
+  },
+  {
+    "id": "synonym:lesson-src-f676f157ce505c",
+    "type": "synonym",
+    "ordinal": 647,
+    "label": "#647 · Deal with",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-f676f157ce505c"
+  },
+  {
+    "id": "synonym:lesson-src-e12b2a9e002448",
+    "type": "synonym",
+    "ordinal": 648,
+    "label": "#648 · Young Love",
+    "detail": "Synonyms · 3 詞組 · 9 題",
+    "url": "synonyms-system.html?module=lesson-src-e12b2a9e002448"
+  },
+  {
+    "id": "synonym:lesson-src-ae7e6c939d590a",
+    "type": "synonym",
+    "ordinal": 649,
+    "label": "#649 · Turn into",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ae7e6c939d590a"
+  },
+  {
+    "id": "synonym:lesson-src-e79ea2f8f2c42f",
+    "type": "synonym",
+    "ordinal": 650,
+    "label": "#650 · Work from home",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e79ea2f8f2c42f"
+  },
+  {
+    "id": "synonym:lesson-src-c85575b074a8c6",
+    "type": "synonym",
+    "ordinal": 651,
+    "label": "#651 · Be Different From",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-c85575b074a8c6"
+  },
+  {
+    "id": "synonym:lesson-src-85ec1600424cb3",
+    "type": "synonym",
+    "ordinal": 652,
+    "label": "#652 · Around The World",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-85ec1600424cb3"
+  },
+  {
+    "id": "synonym:lesson-src-6d7ba53147f920",
+    "type": "synonym",
+    "ordinal": 653,
+    "label": "#653 · Be bad for",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-6d7ba53147f920"
+  },
+  {
+    "id": "synonym:lesson-src-786a53196538a4",
+    "type": "synonym",
+    "ordinal": 654,
+    "label": "#654 · Family history",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-786a53196538a4"
+  },
+  {
+    "id": "synonym:lesson-src-8c85b3c4ff35ee",
+    "type": "synonym",
+    "ordinal": 655,
+    "label": "#655 · Lead To",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8c85b3c4ff35ee"
+  },
+  {
+    "id": "synonym:lesson-src-0eb25915881e2d",
+    "type": "synonym",
+    "ordinal": 656,
+    "label": "#656 · In Order To",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0eb25915881e2d"
+  },
+  {
+    "id": "synonym:lesson-src-8a2fedfecec675",
+    "type": "synonym",
+    "ordinal": 657,
+    "label": "#657 · Work Experience",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-8a2fedfecec675"
+  },
+  {
+    "id": "synonym:lesson-src-647f1f0b4e72fe",
+    "type": "synonym",
+    "ordinal": 658,
+    "label": "#658 · Be based on",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-647f1f0b4e72fe"
+  },
+  {
+    "id": "synonym:lesson-src-a55537d9060184",
+    "type": "synonym",
+    "ordinal": 659,
+    "label": "#659 · Result In",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a55537d9060184"
+  },
+  {
+    "id": "synonym:lesson-src-1770b16f6dd356",
+    "type": "synonym",
+    "ordinal": 660,
+    "label": "#660 · Business idea",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1770b16f6dd356"
+  },
+  {
+    "id": "synonym:lesson-src-345d21bafc1b85",
+    "type": "synonym",
+    "ordinal": 661,
+    "label": "#661 · Face-To-Face",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-345d21bafc1b85"
+  },
+  {
+    "id": "synonym:lesson-src-fdce4ab048da1b",
+    "type": "synonym",
+    "ordinal": 662,
+    "label": "#662 · Great results",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-fdce4ab048da1b"
+  },
+  {
+    "id": "synonym:lesson-src-616d4cc4858831",
+    "type": "synonym",
+    "ordinal": 663,
+    "label": "#663 · Be able to",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-616d4cc4858831"
+  },
+  {
+    "id": "synonym:lesson-src-4a298821e4be8d",
+    "type": "synonym",
+    "ordinal": 664,
+    "label": "#664 · Take Care Of",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-4a298821e4be8d"
+  },
+  {
+    "id": "synonym:lesson-src-aec267d1efb275",
+    "type": "synonym",
+    "ordinal": 665,
+    "label": "#665 · Community service",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-aec267d1efb275"
+  },
+  {
+    "id": "synonym:lesson-src-1bed5d897d56da",
+    "type": "synonym",
+    "ordinal": 666,
+    "label": "#666 · Own Space",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-1bed5d897d56da"
+  },
+  {
+    "id": "synonym:lesson-src-9e79de924a2020",
+    "type": "synonym",
+    "ordinal": 667,
+    "label": "#667 · Short Story",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-9e79de924a2020"
+  },
+  {
+    "id": "synonym:lesson-v2-057",
+    "type": "synonym",
+    "ordinal": 668,
+    "label": "#668 · Call himself",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-057"
+  },
+  {
+    "id": "synonym:lesson-src-c84bba995dfbc8",
+    "type": "synonym",
+    "ordinal": 669,
+    "label": "#669 · New Technology",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c84bba995dfbc8"
+  },
+  {
+    "id": "synonym:lesson-src-fd413ac9cc3807",
+    "type": "synonym",
+    "ordinal": 670,
+    "label": "#670 · From Time To Time",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-fd413ac9cc3807"
+  },
+  {
+    "id": "synonym:lesson-src-a06f56609cb473",
+    "type": "synonym",
+    "ordinal": 671,
+    "label": "#671 · For the first time",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-a06f56609cb473"
+  },
+  {
+    "id": "synonym:lesson-src-fdcfccaeb91473",
+    "type": "synonym",
+    "ordinal": 672,
+    "label": "#672 · Most Of The Time",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fdcfccaeb91473"
+  },
+  {
+    "id": "synonym:lesson-src-596e6943964d6a",
+    "type": "synonym",
+    "ordinal": 673,
+    "label": "#673 · Make the Most of",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-596e6943964d6a"
+  },
+  {
+    "id": "synonym:lesson-src-96fd2b41476538",
+    "type": "synonym",
+    "ordinal": 674,
+    "label": "#674 · At the same time",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-96fd2b41476538"
+  },
+  {
+    "id": "synonym:lesson-src-dfd2a5e8bf8de7",
+    "type": "synonym",
+    "ordinal": 675,
+    "label": "#675 · By Any Means",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-dfd2a5e8bf8de7"
+  },
+  {
+    "id": "synonym:lesson-src-6834faa633e172",
+    "type": "synonym",
+    "ordinal": 676,
+    "label": "#676 · Lost Art",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6834faa633e172"
+  },
+  {
+    "id": "synonym:lesson-src-36c5024a8be762",
+    "type": "synonym",
+    "ordinal": 677,
+    "label": "#677 · All Over The World",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-36c5024a8be762"
+  },
+  {
+    "id": "synonym:lesson-src-a32ba2bddfeacc",
+    "type": "synonym",
+    "ordinal": 678,
+    "label": "#678 · Get Along With",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a32ba2bddfeacc"
+  },
+  {
+    "id": "synonym:lesson-src-a56464ea62e2a7",
+    "type": "synonym",
+    "ordinal": 679,
+    "label": "#679 · In the future",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-a56464ea62e2a7"
+  },
+  {
+    "id": "synonym:lesson-src-6cb194c24169c6",
+    "type": "synonym",
+    "ordinal": 680,
+    "label": "#680 · Entire life",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-6cb194c24169c6"
+  },
+  {
+    "id": "synonym:lesson-src-8fae11234bd7b9",
+    "type": "synonym",
+    "ordinal": 681,
+    "label": "#681 · Online Job",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8fae11234bd7b9"
+  },
+  {
+    "id": "synonym:lesson-src-d8b9375989f3a9",
+    "type": "synonym",
+    "ordinal": 682,
+    "label": "#682 · Save Money",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-d8b9375989f3a9"
+  },
+  {
+    "id": "synonym:lesson-src-4c104d61902b60",
+    "type": "synonym",
+    "ordinal": 683,
+    "label": "#683 · Simple Life",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-4c104d61902b60"
+  },
+  {
+    "id": "synonym:lesson-v2-052",
+    "type": "synonym",
+    "ordinal": 684,
+    "label": "#684 · Summer Course",
+    "detail": "Synonyms · 10 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-v2-052"
+  },
+  {
+    "id": "synonym:lesson-src-caa8f117bd13e5",
+    "type": "synonym",
+    "ordinal": 685,
+    "label": "#685 · Bank",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-caa8f117bd13e5"
+  },
+  {
+    "id": "synonym:lesson-src-6ef0a0644bdb98",
+    "type": "synonym",
+    "ordinal": 686,
+    "label": "#686 · Live Longer",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-6ef0a0644bdb98"
+  },
+  {
+    "id": "synonym:lesson-src-2b9c33c886a3cc",
+    "type": "synonym",
+    "ordinal": 687,
+    "label": "#687 · Public areas",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2b9c33c886a3cc"
+  },
+  {
+    "id": "synonym:lesson-src-7994f9c06b5f67",
+    "type": "synonym",
+    "ordinal": 688,
+    "label": "#688 · At That Age",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7994f9c06b5f67"
+  },
+  {
+    "id": "synonym:lesson-src-095e470278dca3",
+    "type": "synonym",
+    "ordinal": 689,
+    "label": "#689 · Book club",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-095e470278dca3"
+  },
+  {
+    "id": "synonym:lesson-src-de96d401c60920",
+    "type": "synonym",
+    "ordinal": 690,
+    "label": "#690 · Down-to-earth (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-de96d401c60920"
+  },
+  {
+    "id": "synonym:lesson-src-f4a883a8009132",
+    "type": "synonym",
+    "ordinal": 691,
+    "label": "#691 · In particular",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f4a883a8009132"
+  },
+  {
+    "id": "synonym:lesson-src-29e989300e44ac",
+    "type": "synonym",
+    "ordinal": 692,
+    "label": "#692 · Low price",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-29e989300e44ac"
+  },
+  {
+    "id": "synonym:lesson-src-f079836fc85f03",
+    "type": "synonym",
+    "ordinal": 693,
+    "label": "#693 · Paper Money",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f079836fc85f03"
+  },
+  {
+    "id": "synonym:lesson-src-327a735ae012be",
+    "type": "synonym",
+    "ordinal": 694,
+    "label": "#694 · On top of that · phrase",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-327a735ae012be"
+  },
+  {
+    "id": "synonym:lesson-src-208c5d03019d50",
+    "type": "synonym",
+    "ordinal": 695,
+    "label": "#695 · Book Review",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-208c5d03019d50"
+  },
+  {
+    "id": "synonym:lesson-v2-046",
+    "type": "synonym",
+    "ordinal": 696,
+    "label": "#696 · Interested In",
+    "detail": "Synonyms · 12 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-v2-046"
+  },
+  {
+    "id": "synonym:lesson-src-9ce52f05d4f107",
+    "type": "synonym",
+    "ordinal": 697,
+    "label": "#697 · Personal development",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9ce52f05d4f107"
+  },
+  {
+    "id": "synonym:lesson-src-10b4f0e1c9a152",
+    "type": "synonym",
+    "ordinal": 698,
+    "label": "#698 · Fast Food",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-10b4f0e1c9a152"
+  },
+  {
+    "id": "synonym:lesson-src-1adc313d6a80e5",
+    "type": "synonym",
+    "ordinal": 699,
+    "label": "#699 · Poor Service",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1adc313d6a80e5"
+  },
+  {
+    "id": "synonym:lesson-src-27477335db392a",
+    "type": "synonym",
+    "ordinal": 700,
+    "label": "#700 · Ask questions",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-27477335db392a"
+  },
+  {
+    "id": "synonym:lesson-src-2900b6340f6174",
+    "type": "synonym",
+    "ordinal": 701,
+    "label": "#701 · Hospital",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-2900b6340f6174"
+  },
+  {
+    "id": "synonym:lesson-src-1ebf2638429608",
+    "type": "synonym",
+    "ordinal": 702,
+    "label": "#702 · Good Leader",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1ebf2638429608"
+  },
+  {
+    "id": "synonym:lesson-src-0fbf4456a9e1e0",
+    "type": "synonym",
+    "ordinal": 703,
+    "label": "#703 · In Other Words",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0fbf4456a9e1e0"
+  },
+  {
+    "id": "synonym:lesson-src-15b9211f3aa156",
+    "type": "synonym",
+    "ordinal": 704,
+    "label": "#704 · Compared With",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-15b9211f3aa156"
+  },
+  {
+    "id": "synonym:lesson-src-eb093857c28687",
+    "type": "synonym",
+    "ordinal": 705,
+    "label": "#705 · Older People",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-eb093857c28687"
+  },
+  {
+    "id": "synonym:lesson-src-36f3cfec097dd1",
+    "type": "synonym",
+    "ordinal": 706,
+    "label": "#706 · In that sense · phrase",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-36f3cfec097dd1"
+  },
+  {
+    "id": "synonym:lesson-src-64ca2b321857bd",
+    "type": "synonym",
+    "ordinal": 707,
+    "label": "#707 · In my view",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-64ca2b321857bd"
+  },
+  {
+    "id": "synonym:lesson-src-799190d7ac918e",
+    "type": "synonym",
+    "ordinal": 708,
+    "label": "#708 · Carry out",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-799190d7ac918e"
+  },
+  {
+    "id": "synonym:lesson-src-d5f039bf44655c",
+    "type": "synonym",
+    "ordinal": 709,
+    "label": "#709 · Keep Fit",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d5f039bf44655c"
+  },
+  {
+    "id": "synonym:lesson-src-97adc59534522f",
+    "type": "synonym",
+    "ordinal": 710,
+    "label": "#710 · Team Sports",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-97adc59534522f"
+  },
+  {
+    "id": "synonym:lesson-src-3e73acda17e8a0",
+    "type": "synonym",
+    "ordinal": 711,
+    "label": "#711 · Book fair",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-3e73acda17e8a0"
+  },
+  {
+    "id": "synonym:lesson-src-cb0cc224a3a6ff",
+    "type": "synonym",
+    "ordinal": 712,
+    "label": "#712 · Day-to-day living",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-cb0cc224a3a6ff"
+  },
+  {
+    "id": "synonym:lesson-src-1ccf000b58f1de",
+    "type": "synonym",
+    "ordinal": 713,
+    "label": "#713 · Car Safety",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1ccf000b58f1de"
+  },
+  {
+    "id": "synonym:lesson-src-e10ea96fa7f49a",
+    "type": "synonym",
+    "ordinal": 714,
+    "label": "#714 · Working Conditions",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e10ea96fa7f49a"
+  },
+  {
+    "id": "synonym:lesson-src-01b2ed2fef748d",
+    "type": "synonym",
+    "ordinal": 715,
+    "label": "#715 · Computer Games",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-01b2ed2fef748d"
+  },
+  {
+    "id": "synonym:lesson-src-12cbf9812e8034",
+    "type": "synonym",
+    "ordinal": 716,
+    "label": "#716 · Role Model",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-12cbf9812e8034"
+  },
+  {
+    "id": "synonym:lesson-src-5f52a4b31dab33",
+    "type": "synonym",
+    "ordinal": 717,
+    "label": "#717 · Screen Time",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5f52a4b31dab33"
+  },
+  {
+    "id": "synonym:lesson-src-ea84f7c6d00d88",
+    "type": "synonym",
+    "ordinal": 718,
+    "label": "#718 · Physical Health",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ea84f7c6d00d88"
+  },
+  {
+    "id": "synonym:lesson-src-c69735b9a25091",
+    "type": "synonym",
+    "ordinal": 719,
+    "label": "#719 · Primary School",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c69735b9a25091"
+  },
+  {
+    "id": "synonym:lesson-src-0074975809256b",
+    "type": "synonym",
+    "ordinal": 720,
+    "label": "#720 · Making A Living",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-0074975809256b"
+  },
+  {
+    "id": "synonym:lesson-src-5a66415a3d477b",
+    "type": "synonym",
+    "ordinal": 721,
+    "label": "#721 · Slow down · phrase / phrasal verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-5a66415a3d477b"
+  },
+  {
+    "id": "synonym:lesson-src-d91eb58468fe7b",
+    "type": "synonym",
+    "ordinal": 722,
+    "label": "#722 · In Terms Of",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d91eb58468fe7b"
+  },
+  {
+    "id": "synonym:lesson-src-b493991ece35e6",
+    "type": "synonym",
+    "ordinal": 723,
+    "label": "#723 · Study Tour",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b493991ece35e6"
+  },
+  {
+    "id": "synonym:lesson-src-fe96835e1c4932",
+    "type": "synonym",
+    "ordinal": 724,
+    "label": "#724 · Famous Place",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-fe96835e1c4932"
+  },
+  {
+    "id": "synonym:lesson-src-d46371eb0bde43",
+    "type": "synonym",
+    "ordinal": 725,
+    "label": "#725 · Good Memory",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d46371eb0bde43"
+  },
+  {
+    "id": "synonym:lesson-src-7042dd066f3e21",
+    "type": "synonym",
+    "ordinal": 726,
+    "label": "#726 · Get involved in",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7042dd066f3e21"
+  },
+  {
+    "id": "synonym:lesson-src-e95e112ef035d7",
+    "type": "synonym",
+    "ordinal": 727,
+    "label": "#727 · Road Safety",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e95e112ef035d7"
+  },
+  {
+    "id": "synonym:lesson-src-212340f9086e42",
+    "type": "synonym",
+    "ordinal": 728,
+    "label": "#728 · Art competition",
+    "detail": "Synonyms · 16 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-212340f9086e42"
+  },
+  {
+    "id": "synonym:lesson-src-862f37425ce82e",
+    "type": "synonym",
+    "ordinal": 729,
+    "label": "#729 · On Balance",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-862f37425ce82e"
+  },
+  {
+    "id": "synonym:lesson-src-a6aed9e4935a7c",
+    "type": "synonym",
+    "ordinal": 730,
+    "label": "#730 · Stick To",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-a6aed9e4935a7c"
+  },
+  {
+    "id": "synonym:lesson-src-88bebabbb9752c",
+    "type": "synonym",
+    "ordinal": 731,
+    "label": "#731 · Quality Of Life",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-88bebabbb9752c"
+  },
+  {
+    "id": "synonym:lesson-src-c9fcfc17d0f2f2",
+    "type": "synonym",
+    "ordinal": 732,
+    "label": "#732 · Learning outside",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c9fcfc17d0f2f2"
+  },
+  {
+    "id": "synonym:lesson-src-09971d56a38dc1",
+    "type": "synonym",
+    "ordinal": 733,
+    "label": "#733 · Senior (position)",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-09971d56a38dc1"
+  },
+  {
+    "id": "synonym:lesson-src-08ef9f9f1388a3",
+    "type": "synonym",
+    "ordinal": 734,
+    "label": "#734 · In the Long Run",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-08ef9f9f1388a3"
+  },
+  {
+    "id": "synonym:lesson-src-a4c791d8a9a67b",
+    "type": "synonym",
+    "ordinal": 735,
+    "label": "#735 · Shop",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-a4c791d8a9a67b"
+  },
+  {
+    "id": "synonym:lesson-src-e83d9718ec66de",
+    "type": "synonym",
+    "ordinal": 736,
+    "label": "#736 · Medical reasons",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e83d9718ec66de"
+  },
+  {
+    "id": "synonym:lesson-src-7131bf5914d169",
+    "type": "synonym",
+    "ordinal": 737,
+    "label": "#737 · Mental health",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7131bf5914d169"
+  },
+  {
+    "id": "synonym:lesson-src-6db74e89161241",
+    "type": "synonym",
+    "ordinal": 738,
+    "label": "#738 · Online resources",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6db74e89161241"
+  },
+  {
+    "id": "synonym:lesson-src-7713893eada046",
+    "type": "synonym",
+    "ordinal": 739,
+    "label": "#739 · Credit card",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7713893eada046"
+  },
+  {
+    "id": "synonym:lesson-src-94e50852f2146e",
+    "type": "synonym",
+    "ordinal": 740,
+    "label": "#740 · Mobile phone",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-94e50852f2146e"
+  },
+  {
+    "id": "synonym:lesson-src-0915200d1a1bb2",
+    "type": "synonym",
+    "ordinal": 741,
+    "label": "#741 · Online crime",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0915200d1a1bb2"
+  },
+  {
+    "id": "synonym:lesson-src-5486e38e98fc1a",
+    "type": "synonym",
+    "ordinal": 742,
+    "label": "#742 · Language Learning",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-5486e38e98fc1a"
+  },
+  {
+    "id": "synonym:lesson-src-cf98c4066aa2aa",
+    "type": "synonym",
+    "ordinal": 743,
+    "label": "#743 · Work-life balance",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-cf98c4066aa2aa"
+  },
+  {
+    "id": "synonym:lesson-src-fb4992a4a91ade",
+    "type": "synonym",
+    "ordinal": 744,
+    "label": "#744 · Airport",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-fb4992a4a91ade"
+  },
+  {
+    "id": "synonym:lesson-src-cac729d4e4a94c",
+    "type": "synonym",
+    "ordinal": 745,
+    "label": "#745 · Appearance",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-cac729d4e4a94c"
+  },
+  {
+    "id": "synonym:lesson-src-4f4c198ee05907",
+    "type": "synonym",
+    "ordinal": 746,
+    "label": "#746 · Critical Thinking",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-4f4c198ee05907"
+  },
+  {
+    "id": "synonym:lesson-src-d69b60b0ee2688",
+    "type": "synonym",
+    "ordinal": 747,
+    "label": "#747 · Debt",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d69b60b0ee2688"
+  },
+  {
+    "id": "synonym:lesson-src-f5ed42813439cc",
+    "type": "synonym",
+    "ordinal": 748,
+    "label": "#748 · Great teaching",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f5ed42813439cc"
+  },
+  {
+    "id": "synonym:lesson-src-aa4d2776f12f10",
+    "type": "synonym",
+    "ordinal": 749,
+    "label": "#749 · Honestly",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-aa4d2776f12f10"
+  },
+  {
+    "id": "synonym:lesson-src-684cb7fd4a8765",
+    "type": "synonym",
+    "ordinal": 750,
+    "label": "#750 · Launch",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-684cb7fd4a8765"
+  },
+  {
+    "id": "synonym:lesson-src-e9c2ab31249db8",
+    "type": "synonym",
+    "ordinal": 751,
+    "label": "#751 · Political Leaders",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e9c2ab31249db8"
+  },
+  {
+    "id": "synonym:lesson-src-541a381e2fda9a",
+    "type": "synonym",
+    "ordinal": 752,
+    "label": "#752 · Suddenly",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-541a381e2fda9a"
+  },
+  {
+    "id": "synonym:lesson-src-bb225c7a496d0c",
+    "type": "synonym",
+    "ordinal": 753,
+    "label": "#753 · Survey",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-bb225c7a496d0c"
+  },
+  {
+    "id": "synonym:lesson-src-ce828d2efb83ec",
+    "type": "synonym",
+    "ordinal": 754,
+    "label": "#754 · User",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ce828d2efb83ec"
+  },
+  {
+    "id": "synonym:lesson-src-ae2ceaebe26339",
+    "type": "synonym",
+    "ordinal": 755,
+    "label": "#755 · User",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ae2ceaebe26339"
+  },
+  {
+    "id": "synonym:lesson-src-8f1af8ddd0b7b9",
+    "type": "synonym",
+    "ordinal": 756,
+    "label": "#756 · Writer",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8f1af8ddd0b7b9"
+  },
+  {
+    "id": "synonym:lesson-src-bc0d151ad8af60",
+    "type": "synonym",
+    "ordinal": 757,
+    "label": "#757 · Wedding",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-bc0d151ad8af60"
+  },
+  {
+    "id": "synonym:lesson-src-5abe377865785f",
+    "type": "synonym",
+    "ordinal": 758,
+    "label": "#758 · Make A Difference",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-5abe377865785f"
+  },
+  {
+    "id": "synonym:lesson-src-5d3d9b1afd9401",
+    "type": "synonym",
+    "ordinal": 759,
+    "label": "#759 · Email",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-5d3d9b1afd9401"
+  },
+  {
+    "id": "synonym:lesson-src-073d4c2cabc7b3",
+    "type": "synonym",
+    "ordinal": 760,
+    "label": "#760 · Exercise",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-073d4c2cabc7b3"
+  },
+  {
+    "id": "synonym:lesson-src-0231ba6d7477ff",
+    "type": "synonym",
+    "ordinal": 761,
+    "label": "#761 · Hero",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0231ba6d7477ff"
+  },
+  {
+    "id": "synonym:lesson-src-2ccf38f76ee396",
+    "type": "synonym",
+    "ordinal": 762,
+    "label": "#762 · Illegal",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-2ccf38f76ee396"
+  },
+  {
+    "id": "synonym:lesson-src-04126837cef659",
+    "type": "synonym",
+    "ordinal": 763,
+    "label": "#763 · Joke",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-04126837cef659"
+  },
+  {
+    "id": "synonym:lesson-src-67c4e4fc8762ab",
+    "type": "synonym",
+    "ordinal": 764,
+    "label": "#764 · Loan",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-67c4e4fc8762ab"
+  },
+  {
+    "id": "synonym:lesson-src-853298d126c96d",
+    "type": "synonym",
+    "ordinal": 765,
+    "label": "#765 · Fashion",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-853298d126c96d"
+  },
+  {
+    "id": "synonym:lesson-src-b3f7862dc780e1",
+    "type": "synonym",
+    "ordinal": 766,
+    "label": "#766 · Appeal",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-b3f7862dc780e1"
+  },
+  {
+    "id": "synonym:lesson-src-89ab1d01332809",
+    "type": "synonym",
+    "ordinal": 767,
+    "label": "#767 · Appropriate",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-89ab1d01332809"
+  },
+  {
+    "id": "synonym:lesson-src-05b08ada16f12e",
+    "type": "synonym",
+    "ordinal": 768,
+    "label": "#768 · Device",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-05b08ada16f12e"
+  },
+  {
+    "id": "synonym:lesson-src-cad537e218adf7",
+    "type": "synonym",
+    "ordinal": 769,
+    "label": "#769 · Era",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-cad537e218adf7"
+  },
+  {
+    "id": "synonym:lesson-src-ae2a3089e672a1",
+    "type": "synonym",
+    "ordinal": 770,
+    "label": "#770 · Individual sports",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-ae2a3089e672a1"
+  },
+  {
+    "id": "synonym:lesson-src-dd683bb6eb7cf6",
+    "type": "synonym",
+    "ordinal": 771,
+    "label": "#771 · Mistake",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-dd683bb6eb7cf6"
+  },
+  {
+    "id": "synonym:lesson-src-034faa6a74ae09",
+    "type": "synonym",
+    "ordinal": 772,
+    "label": "#772 · Route",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-034faa6a74ae09"
+  },
+  {
+    "id": "synonym:lesson-src-28263553ffb486",
+    "type": "synonym",
+    "ordinal": 773,
+    "label": "#773 · Schedule",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-28263553ffb486"
+  },
+  {
+    "id": "synonym:lesson-src-7b8a7167fd3553",
+    "type": "synonym",
+    "ordinal": 774,
+    "label": "#774 · Scientific",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7b8a7167fd3553"
+  },
+  {
+    "id": "synonym:lesson-src-34b326bf90248e",
+    "type": "synonym",
+    "ordinal": 775,
+    "label": "#775 · Social Responsibility",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-34b326bf90248e"
+  },
+  {
+    "id": "synonym:lesson-src-92b0fe7e4ac8ee",
+    "type": "synonym",
+    "ordinal": 776,
+    "label": "#776 · Angry",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-92b0fe7e4ac8ee"
+  },
+  {
+    "id": "synonym:lesson-src-91c357cfa89334",
+    "type": "synonym",
+    "ordinal": 777,
+    "label": "#777 · Candidate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-91c357cfa89334"
+  },
+  {
+    "id": "synonym:lesson-src-742e6953352541",
+    "type": "synonym",
+    "ordinal": 778,
+    "label": "#778 · Comfortable",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-742e6953352541"
+  },
+  {
+    "id": "synonym:lesson-src-737ebd2f710c99",
+    "type": "synonym",
+    "ordinal": 779,
+    "label": "#779 · Contact Sports",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-737ebd2f710c99"
+  },
+  {
+    "id": "synonym:lesson-src-39658941d52968",
+    "type": "synonym",
+    "ordinal": 780,
+    "label": "#780 · Laugh",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-39658941d52968"
+  },
+  {
+    "id": "synonym:lesson-src-83cb290eef6dd1",
+    "type": "synonym",
+    "ordinal": 781,
+    "label": "#781 · Payment",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-83cb290eef6dd1"
+  },
+  {
+    "id": "synonym:lesson-src-a25cf2ff7bbbd1",
+    "type": "synonym",
+    "ordinal": 782,
+    "label": "#782 · Perform",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a25cf2ff7bbbd1"
+  },
+  {
+    "id": "synonym:lesson-src-18e4172031769d",
+    "type": "synonym",
+    "ordinal": 783,
+    "label": "#783 · Studio",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-18e4172031769d"
+  },
+  {
+    "id": "synonym:lesson-src-83210db29fb5e0",
+    "type": "synonym",
+    "ordinal": 784,
+    "label": "#784 · Be interested in",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-83210db29fb5e0"
+  },
+  {
+    "id": "synonym:lesson-src-885d94c86da4ab",
+    "type": "synonym",
+    "ordinal": 785,
+    "label": "#785 · Apartment",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-885d94c86da4ab"
+  },
+  {
+    "id": "synonym:lesson-src-1508e2e8881315",
+    "type": "synonym",
+    "ordinal": 786,
+    "label": "#786 · Chain",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-1508e2e8881315"
+  },
+  {
+    "id": "synonym:lesson-src-249d39d3a18cf7",
+    "type": "synonym",
+    "ordinal": 787,
+    "label": "#787 · Chapter · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-249d39d3a18cf7"
+  },
+  {
+    "id": "synonym:lesson-src-29e4214b8a53b9",
+    "type": "synonym",
+    "ordinal": 788,
+    "label": "#788 · Climate change",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-29e4214b8a53b9"
+  },
+  {
+    "id": "synonym:lesson-src-f387dc1a40b235",
+    "type": "synonym",
+    "ordinal": 789,
+    "label": "#789 · Committed",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-f387dc1a40b235"
+  },
+  {
+    "id": "synonym:lesson-src-9b9543586d1834",
+    "type": "synonym",
+    "ordinal": 790,
+    "label": "#790 · Cook",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9b9543586d1834"
+  },
+  {
+    "id": "synonym:lesson-src-5bc6c1f8397b8c",
+    "type": "synonym",
+    "ordinal": 791,
+    "label": "#791 · Fake",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-5bc6c1f8397b8c"
+  },
+  {
+    "id": "synonym:lesson-src-bc4920e6083bf5",
+    "type": "synonym",
+    "ordinal": 792,
+    "label": "#792 · Focused · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-bc4920e6083bf5"
+  },
+  {
+    "id": "synonym:lesson-v2-031",
+    "type": "synonym",
+    "ordinal": 793,
+    "label": "#793 · Journey",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-031"
+  },
+  {
+    "id": "synonym:lesson-src-bf15ab9948e1fb",
+    "type": "synonym",
+    "ordinal": 794,
+    "label": "#794 · Journey",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-bf15ab9948e1fb"
+  },
+  {
+    "id": "synonym:lesson-src-0aa2f22858743b",
+    "type": "synonym",
+    "ordinal": 795,
+    "label": "#795 · Kitchen",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-0aa2f22858743b"
+  },
+  {
+    "id": "synonym:lesson-src-2cd788561846ce",
+    "type": "synonym",
+    "ordinal": 796,
+    "label": "#796 · Old buildings",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2cd788561846ce"
+  },
+  {
+    "id": "synonym:lesson-src-ebf5b14e5f2fe7",
+    "type": "synonym",
+    "ordinal": 797,
+    "label": "#797 · Quiet",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-ebf5b14e5f2fe7"
+  },
+  {
+    "id": "synonym:lesson-src-f5bd2b4f75ff96",
+    "type": "synonym",
+    "ordinal": 798,
+    "label": "#798 · Task (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f5bd2b4f75ff96"
+  },
+  {
+    "id": "synonym:lesson-src-15588122fed98f",
+    "type": "synonym",
+    "ordinal": 799,
+    "label": "#799 · Keep track of",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-15588122fed98f"
+  },
+  {
+    "id": "synonym:lesson-src-b2eb6ac785ac81",
+    "type": "synonym",
+    "ordinal": 800,
+    "label": "#800 · Pay Attention To",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b2eb6ac785ac81"
+  },
+  {
+    "id": "synonym:lesson-src-ab99f49c6eb863",
+    "type": "synonym",
+    "ordinal": 801,
+    "label": "#801 · Approximately",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-ab99f49c6eb863"
+  },
+  {
+    "id": "synonym:lesson-src-89df4069868271",
+    "type": "synonym",
+    "ordinal": 802,
+    "label": "#802 · Documents",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-89df4069868271"
+  },
+  {
+    "id": "synonym:lesson-src-a26a907cccce03",
+    "type": "synonym",
+    "ordinal": 803,
+    "label": "#803 · Escape",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-a26a907cccce03"
+  },
+  {
+    "id": "synonym:lesson-src-143076e49d8ea7",
+    "type": "synonym",
+    "ordinal": 804,
+    "label": "#804 · Fill",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-143076e49d8ea7"
+  },
+  {
+    "id": "synonym:lesson-src-6c565280457980",
+    "type": "synonym",
+    "ordinal": 805,
+    "label": "#805 · Mixed",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6c565280457980"
+  },
+  {
+    "id": "synonym:lesson-src-f70e84ac1179bd",
+    "type": "synonym",
+    "ordinal": 806,
+    "label": "#806 · Strange",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f70e84ac1179bd"
+  },
+  {
+    "id": "synonym:lesson-src-27ed930a97c48c",
+    "type": "synonym",
+    "ordinal": 807,
+    "label": "#807 · Talent",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-27ed930a97c48c"
+  },
+  {
+    "id": "synonym:lesson-src-778ee3a241f80d",
+    "type": "synonym",
+    "ordinal": 808,
+    "label": "#808 · Temperature",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-778ee3a241f80d"
+  },
+  {
+    "id": "synonym:lesson-src-08c2d3c3bbe032",
+    "type": "synonym",
+    "ordinal": 809,
+    "label": "#809 · Put Pressure On",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-08c2d3c3bbe032"
+  },
+  {
+    "id": "synonym:lesson-src-e62ddbdb6fe155",
+    "type": "synonym",
+    "ordinal": 810,
+    "label": "#810 · Blame",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-e62ddbdb6fe155"
+  },
+  {
+    "id": "synonym:lesson-src-2bc965730da54d",
+    "type": "synonym",
+    "ordinal": 811,
+    "label": "#811 · Examples",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-2bc965730da54d"
+  },
+  {
+    "id": "synonym:lesson-src-d80efe597b7f22",
+    "type": "synonym",
+    "ordinal": 812,
+    "label": "#812 · Incredible",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d80efe597b7f22"
+  },
+  {
+    "id": "synonym:lesson-src-6e28def7971cec",
+    "type": "synonym",
+    "ordinal": 813,
+    "label": "#813 · Inspired",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-6e28def7971cec"
+  },
+  {
+    "id": "synonym:lesson-src-e92fb26ecc8614",
+    "type": "synonym",
+    "ordinal": 814,
+    "label": "#814 · Local Communities",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-e92fb26ecc8614"
+  },
+  {
+    "id": "synonym:lesson-src-9ac5dbe5b41868",
+    "type": "synonym",
+    "ordinal": 815,
+    "label": "#815 · Meat",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9ac5dbe5b41868"
+  },
+  {
+    "id": "synonym:lesson-src-f9390d8b698a11",
+    "type": "synonym",
+    "ordinal": 816,
+    "label": "#816 · Surgery",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f9390d8b698a11"
+  },
+  {
+    "id": "synonym:lesson-src-ab7a96b3837500",
+    "type": "synonym",
+    "ordinal": 817,
+    "label": "#817 · Birth rate",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ab7a96b3837500"
+  },
+  {
+    "id": "synonym:lesson-src-c1d2a21af7b73f",
+    "type": "synonym",
+    "ordinal": 818,
+    "label": "#818 · Champion",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c1d2a21af7b73f"
+  },
+  {
+    "id": "synonym:lesson-src-787316f689f829",
+    "type": "synonym",
+    "ordinal": 819,
+    "label": "#819 · Crisis",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-787316f689f829"
+  },
+  {
+    "id": "synonym:lesson-src-f4d0b62f2fbe46",
+    "type": "synonym",
+    "ordinal": 820,
+    "label": "#820 · Giant",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-f4d0b62f2fbe46"
+  },
+  {
+    "id": "synonym:lesson-src-d2ad124f3a8a64",
+    "type": "synonym",
+    "ordinal": 821,
+    "label": "#821 · Literature",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d2ad124f3a8a64"
+  },
+  {
+    "id": "synonym:lesson-src-812558d882fd16",
+    "type": "synonym",
+    "ordinal": 822,
+    "label": "#822 · Stream",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-812558d882fd16"
+  },
+  {
+    "id": "synonym:lesson-src-6139036bf786ef",
+    "type": "synonym",
+    "ordinal": 823,
+    "label": "#823 · Theme",
+    "detail": "Synonyms · 11 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6139036bf786ef"
+  },
+  {
+    "id": "synonym:lesson-src-3a552ef4df0f79",
+    "type": "synonym",
+    "ordinal": 824,
+    "label": "#824 · Tiny",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-3a552ef4df0f79"
+  },
+  {
+    "id": "synonym:lesson-src-2047a8e27d381a",
+    "type": "synonym",
+    "ordinal": 825,
+    "label": "#825 · Wave",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-2047a8e27d381a"
+  },
+  {
+    "id": "synonym:lesson-src-9d18cd53a014ba",
+    "type": "synonym",
+    "ordinal": 826,
+    "label": "#826 · Age Limit",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9d18cd53a014ba"
+  },
+  {
+    "id": "synonym:lesson-src-029a1d0f193770",
+    "type": "synonym",
+    "ordinal": 827,
+    "label": "#827 · Breakfast",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-029a1d0f193770"
+  },
+  {
+    "id": "synonym:lesson-src-00a820a1292909",
+    "type": "synonym",
+    "ordinal": 828,
+    "label": "#828 · Combination",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-00a820a1292909"
+  },
+  {
+    "id": "synonym:lesson-src-20d1ca1a582d3b",
+    "type": "synonym",
+    "ordinal": 829,
+    "label": "#829 · Desire",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-20d1ca1a582d3b"
+  },
+  {
+    "id": "synonym:lesson-src-800cdbc17fae1c",
+    "type": "synonym",
+    "ordinal": 830,
+    "label": "#830 · Familiar",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-800cdbc17fae1c"
+  },
+  {
+    "id": "synonym:lesson-src-80c4cdd587edf7",
+    "type": "synonym",
+    "ordinal": 831,
+    "label": "#831 · Relevant",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-80c4cdd587edf7"
+  },
+  {
+    "id": "synonym:lesson-src-86187768cb0f52",
+    "type": "synonym",
+    "ordinal": 832,
+    "label": "#832 · Ticket",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-86187768cb0f52"
+  },
+  {
+    "id": "synonym:lesson-src-261be49cbb60b6",
+    "type": "synonym",
+    "ordinal": 833,
+    "label": "#833 · Creative",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-261be49cbb60b6"
+  },
+  {
+    "id": "synonym:lesson-src-03b7c087fcb354",
+    "type": "synonym",
+    "ordinal": 834,
+    "label": "#834 · Entertainment",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-03b7c087fcb354"
+  },
+  {
+    "id": "synonym:lesson-src-72c31cd7a6a134",
+    "type": "synonym",
+    "ordinal": 835,
+    "label": "#835 · Extreme (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-72c31cd7a6a134"
+  },
+  {
+    "id": "synonym:lesson-src-156585e8482a9a",
+    "type": "synonym",
+    "ordinal": 836,
+    "label": "#836 · Newspaper",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-156585e8482a9a"
+  },
+  {
+    "id": "synonym:lesson-src-b168faf8e4e12b",
+    "type": "synonym",
+    "ordinal": 837,
+    "label": "#837 · Painting",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b168faf8e4e12b"
+  },
+  {
+    "id": "synonym:lesson-src-4f834a375ecc40",
+    "type": "synonym",
+    "ordinal": 838,
+    "label": "#838 · Threat",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4f834a375ecc40"
+  },
+  {
+    "id": "synonym:lesson-v2-034",
+    "type": "synonym",
+    "ordinal": 839,
+    "label": "#839 · Assistance",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-034"
+  },
+  {
+    "id": "synonym:lesson-v2-022",
+    "type": "synonym",
+    "ordinal": 840,
+    "label": "#840 · Danger",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-022"
+  },
+  {
+    "id": "synonym:lesson-src-8f239cfae92197",
+    "type": "synonym",
+    "ordinal": 841,
+    "label": "#841 · Danger",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8f239cfae92197"
+  },
+  {
+    "id": "synonym:lesson-src-5686ce085dc8ac",
+    "type": "synonym",
+    "ordinal": 842,
+    "label": "#842 · Delivery",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5686ce085dc8ac"
+  },
+  {
+    "id": "synonym:lesson-src-63b55bde006507",
+    "type": "synonym",
+    "ordinal": 843,
+    "label": "#843 · Empty",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-63b55bde006507"
+  },
+  {
+    "id": "synonym:lesson-src-b751743985dd31",
+    "type": "synonym",
+    "ordinal": 844,
+    "label": "#844 · Motion",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-b751743985dd31"
+  },
+  {
+    "id": "synonym:lesson-src-c23791299e0901",
+    "type": "synonym",
+    "ordinal": 845,
+    "label": "#845 · Typical",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-c23791299e0901"
+  },
+  {
+    "id": "synonym:lesson-src-e337f1b7c7556a",
+    "type": "synonym",
+    "ordinal": 846,
+    "label": "#846 · Unique Character",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e337f1b7c7556a"
+  },
+  {
+    "id": "synonym:lesson-src-ad17120a78e7d2",
+    "type": "synonym",
+    "ordinal": 847,
+    "label": "#847 · Universe",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ad17120a78e7d2"
+  },
+  {
+    "id": "synonym:lesson-src-02fdfdaf38682d",
+    "type": "synonym",
+    "ordinal": 848,
+    "label": "#848 · Working Holiday",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-02fdfdaf38682d"
+  },
+  {
+    "id": "synonym:lesson-src-68833b0450bec6",
+    "type": "synonym",
+    "ordinal": 849,
+    "label": "#849 · Sport",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-68833b0450bec6"
+  },
+  {
+    "id": "synonym:lesson-src-b85e6ab6b97575",
+    "type": "synonym",
+    "ordinal": 850,
+    "label": "#850 · Be responsible for",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b85e6ab6b97575"
+  },
+  {
+    "id": "synonym:lesson-src-e5899a7ccc0d65",
+    "type": "synonym",
+    "ordinal": 851,
+    "label": "#851 · Fake News",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e5899a7ccc0d65"
+  },
+  {
+    "id": "synonym:lesson-src-e5481ef37ba74a",
+    "type": "synonym",
+    "ordinal": 852,
+    "label": "#852 · Frame",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-e5481ef37ba74a"
+  },
+  {
+    "id": "synonym:lesson-src-71b49790a9a311",
+    "type": "synonym",
+    "ordinal": 853,
+    "label": "#853 · Independence (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-71b49790a9a311"
+  },
+  {
+    "id": "synonym:lesson-src-66ca286a7fb3cb",
+    "type": "synonym",
+    "ordinal": 854,
+    "label": "#854 · Recovery",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-66ca286a7fb3cb"
+  },
+  {
+    "id": "synonym:lesson-src-6895a77d2e169b",
+    "type": "synonym",
+    "ordinal": 855,
+    "label": "#855 · Rent",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6895a77d2e169b"
+  },
+  {
+    "id": "synonym:lesson-src-0d53fd59b0bfbc",
+    "type": "synonym",
+    "ordinal": 856,
+    "label": "#856 · Self-Taught",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0d53fd59b0bfbc"
+  },
+  {
+    "id": "synonym:lesson-src-59dbba2a7ede56",
+    "type": "synonym",
+    "ordinal": 857,
+    "label": "#857 · Switch off",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-59dbba2a7ede56"
+  },
+  {
+    "id": "synonym:lesson-v2-054",
+    "type": "synonym",
+    "ordinal": 858,
+    "label": "#858 · Academic",
+    "detail": "Synonyms · 10 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-v2-054"
+  },
+  {
+    "id": "synonym:lesson-src-e0ffe9ab635b2e",
+    "type": "synonym",
+    "ordinal": 859,
+    "label": "#859 · Afford",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e0ffe9ab635b2e"
+  },
+  {
+    "id": "synonym:lesson-src-6785a492dcbb85",
+    "type": "synonym",
+    "ordinal": 860,
+    "label": "#860 · Assume",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-6785a492dcbb85"
+  },
+  {
+    "id": "synonym:lesson-src-53ad98bab847b2",
+    "type": "synonym",
+    "ordinal": 861,
+    "label": "#861 · Bottle",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-53ad98bab847b2"
+  },
+  {
+    "id": "synonym:lesson-src-8bc00c9996d92d",
+    "type": "synonym",
+    "ordinal": 862,
+    "label": "#862 · Chat",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-8bc00c9996d92d"
+  },
+  {
+    "id": "synonym:lesson-src-0e91ceaf18b68c",
+    "type": "synonym",
+    "ordinal": 863,
+    "label": "#863 · Diet",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-0e91ceaf18b68c"
+  },
+  {
+    "id": "synonym:lesson-src-3e11b59e5a4f87",
+    "type": "synonym",
+    "ordinal": 864,
+    "label": "#864 · Item",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-3e11b59e5a4f87"
+  },
+  {
+    "id": "synonym:lesson-src-6049dbd762fd40",
+    "type": "synonym",
+    "ordinal": 865,
+    "label": "#865 · Parent",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-6049dbd762fd40"
+  },
+  {
+    "id": "synonym:lesson-src-514b518739ad97",
+    "type": "synonym",
+    "ordinal": 866,
+    "label": "#866 · Permanent",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-514b518739ad97"
+  },
+  {
+    "id": "synonym:lesson-src-00613c95a3d7b8",
+    "type": "synonym",
+    "ordinal": 867,
+    "label": "#867 · Personally",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-00613c95a3d7b8"
+  },
+  {
+    "id": "synonym:lesson-src-f7f0825fb3dcf4",
+    "type": "synonym",
+    "ordinal": 868,
+    "label": "#868 · Shift",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f7f0825fb3dcf4"
+  },
+  {
+    "id": "synonym:lesson-src-35843efd098988",
+    "type": "synonym",
+    "ordinal": 869,
+    "label": "#869 · Storage",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-35843efd098988"
+  },
+  {
+    "id": "synonym:lesson-src-e745eb8bcae510",
+    "type": "synonym",
+    "ordinal": 870,
+    "label": "#870 · Tend",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e745eb8bcae510"
+  },
+  {
+    "id": "synonym:lesson-src-fa4061df83faee",
+    "type": "synonym",
+    "ordinal": 871,
+    "label": "#871 · Museum",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fa4061df83faee"
+  },
+  {
+    "id": "synonym:lesson-src-60f28317494a32",
+    "type": "synonym",
+    "ordinal": 872,
+    "label": "#872 · Button",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-60f28317494a32"
+  },
+  {
+    "id": "synonym:lesson-src-3158a165212ace",
+    "type": "synonym",
+    "ordinal": 873,
+    "label": "#873 · Consumer",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3158a165212ace"
+  },
+  {
+    "id": "synonym:lesson-src-4e68d50e0db12f",
+    "type": "synonym",
+    "ordinal": 874,
+    "label": "#874 · Counter",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-4e68d50e0db12f"
+  },
+  {
+    "id": "synonym:lesson-src-78a45c29059212",
+    "type": "synonym",
+    "ordinal": 875,
+    "label": "#875 · Customer service",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-78a45c29059212"
+  },
+  {
+    "id": "synonym:lesson-src-603bbdbf8a9141",
+    "type": "synonym",
+    "ordinal": 876,
+    "label": "#876 · Depression",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-603bbdbf8a9141"
+  },
+  {
+    "id": "synonym:lesson-src-4b3d29e51af046",
+    "type": "synonym",
+    "ordinal": 877,
+    "label": "#877 · Expert",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4b3d29e51af046"
+  },
+  {
+    "id": "synonym:lesson-src-ee69b4f899dccc",
+    "type": "synonym",
+    "ordinal": 878,
+    "label": "#878 · Job opportunities",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ee69b4f899dccc"
+  },
+  {
+    "id": "synonym:lesson-src-6e3bb19c32a2fa",
+    "type": "synonym",
+    "ordinal": 879,
+    "label": "#879 · Severe",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-6e3bb19c32a2fa"
+  },
+  {
+    "id": "synonym:lesson-src-fb4987b539c448",
+    "type": "synonym",
+    "ordinal": 880,
+    "label": "#880 · Tool",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-fb4987b539c448"
+  },
+  {
+    "id": "synonym:lesson-src-e37779df2207e3",
+    "type": "synonym",
+    "ordinal": 881,
+    "label": "#881 · Victim",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e37779df2207e3"
+  },
+  {
+    "id": "synonym:lesson-src-50faa17ccd14fa",
+    "type": "synonym",
+    "ordinal": 882,
+    "label": "#882 · A few years ago",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-50faa17ccd14fa"
+  },
+  {
+    "id": "synonym:lesson-v2-015",
+    "type": "synonym",
+    "ordinal": 882,
+    "label": "#882 · A few years ago · 原有版本",
+    "detail": "Synonyms · 14 詞組 · 0 題 · 原有版本",
+    "url": "synonyms-system.html?module=lesson-v2-015"
+  },
+  {
+    "id": "synonym:lesson-src-fac830e9ea54b4",
+    "type": "synonym",
+    "ordinal": 883,
+    "label": "#883 · Arrest",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-fac830e9ea54b4"
+  },
+  {
+    "id": "synonym:lesson-src-0a55c83b97afdd",
+    "type": "synonym",
+    "ordinal": 884,
+    "label": "#884 · Attend",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0a55c83b97afdd"
+  },
+  {
+    "id": "synonym:lesson-src-4a9e0ce0a42dab",
+    "type": "synonym",
+    "ordinal": 885,
+    "label": "#885 · Ban",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-4a9e0ce0a42dab"
+  },
+  {
+    "id": "synonym:lesson-src-fc141f0295feab",
+    "type": "synonym",
+    "ordinal": 886,
+    "label": "#886 · Carbon",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-fc141f0295feab"
+  },
+  {
+    "id": "synonym:lesson-src-936a610604ba88",
+    "type": "synonym",
+    "ordinal": 887,
+    "label": "#887 · Concert",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-936a610604ba88"
+  },
+  {
+    "id": "synonym:lesson-src-6dd6e3bd712255",
+    "type": "synonym",
+    "ordinal": 888,
+    "label": "#888 · Dirty",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-6dd6e3bd712255"
+  },
+  {
+    "id": "synonym:lesson-src-f6375753714c46",
+    "type": "synonym",
+    "ordinal": 889,
+    "label": "#889 · Noise",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f6375753714c46"
+  },
+  {
+    "id": "synonym:lesson-src-779d6bbf7262fe",
+    "type": "synonym",
+    "ordinal": 890,
+    "label": "#890 · Origin",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-779d6bbf7262fe"
+  },
+  {
+    "id": "synonym:lesson-src-3553c934794629",
+    "type": "synonym",
+    "ordinal": 891,
+    "label": "#891 · Plate",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3553c934794629"
+  },
+  {
+    "id": "synonym:lesson-v2-024",
+    "type": "synonym",
+    "ordinal": 892,
+    "label": "#892 · Prepare",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-024"
+  },
+  {
+    "id": "synonym:lesson-src-f2a83e6e28ca6d",
+    "type": "synonym",
+    "ordinal": 893,
+    "label": "#893 · Replaced",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f2a83e6e28ca6d"
+  },
+  {
+    "id": "synonym:lesson-src-bbbb4cbfe816f2",
+    "type": "synonym",
+    "ordinal": 894,
+    "label": "#894 · Roof",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-bbbb4cbfe816f2"
+  },
+  {
+    "id": "synonym:lesson-src-eb6e90371b3cde",
+    "type": "synonym",
+    "ordinal": 895,
+    "label": "#895 · Advertising",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-eb6e90371b3cde"
+  },
+  {
+    "id": "synonym:lesson-src-9a67af1720e828",
+    "type": "synonym",
+    "ordinal": 896,
+    "label": "#896 · Bathroom",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-9a67af1720e828"
+  },
+  {
+    "id": "synonym:lesson-v2-020",
+    "type": "synonym",
+    "ordinal": 897,
+    "label": "#897 · Calm",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-020"
+  },
+  {
+    "id": "synonym:lesson-src-498ffafbe81df5",
+    "type": "synonym",
+    "ordinal": 898,
+    "label": "#898 · Constant (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-498ffafbe81df5"
+  },
+  {
+    "id": "synonym:lesson-src-2f59f51652e999",
+    "type": "synonym",
+    "ordinal": 899,
+    "label": "#899 · Exciting",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2f59f51652e999"
+  },
+  {
+    "id": "synonym:lesson-src-25262cc5276a89",
+    "type": "synonym",
+    "ordinal": 900,
+    "label": "#900 · Heavily · adv.",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-25262cc5276a89"
+  },
+  {
+    "id": "synonym:lesson-src-097e829593e85b",
+    "type": "synonym",
+    "ordinal": 901,
+    "label": "#901 · Negative effects",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-097e829593e85b"
+  },
+  {
+    "id": "synonym:lesson-src-36992e6042a1e1",
+    "type": "synonym",
+    "ordinal": 902,
+    "label": "#902 · Sing",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-36992e6042a1e1"
+  },
+  {
+    "id": "synonym:lesson-src-e7842a49f4cf0c",
+    "type": "synonym",
+    "ordinal": 903,
+    "label": "#903 · Talent Shows",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e7842a49f4cf0c"
+  },
+  {
+    "id": "synonym:lesson-src-b5b493878f1708",
+    "type": "synonym",
+    "ordinal": 904,
+    "label": "#904 · Lose Interest In",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b5b493878f1708"
+  },
+  {
+    "id": "synonym:lesson-src-843ace52ea3aa5",
+    "type": "synonym",
+    "ordinal": 905,
+    "label": "#905 · Get to Know Each Other",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-843ace52ea3aa5"
+  },
+  {
+    "id": "synonym:lesson-src-eac585ed2fe737",
+    "type": "synonym",
+    "ordinal": 906,
+    "label": "#906 · Closely",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-eac585ed2fe737"
+  },
+  {
+    "id": "synonym:lesson-src-4c3d00696270cc",
+    "type": "synonym",
+    "ordinal": 907,
+    "label": "#907 · Laid-back life",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-4c3d00696270cc"
+  },
+  {
+    "id": "synonym:lesson-src-ef94d26f0300ff",
+    "type": "synonym",
+    "ordinal": 908,
+    "label": "#908 · Loud",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ef94d26f0300ff"
+  },
+  {
+    "id": "synonym:lesson-src-43be97fa2cf9d9",
+    "type": "synonym",
+    "ordinal": 909,
+    "label": "#909 · Peak",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-43be97fa2cf9d9"
+  },
+  {
+    "id": "synonym:lesson-src-d53925e2999b9a",
+    "type": "synonym",
+    "ordinal": 910,
+    "label": "#910 · Portion",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d53925e2999b9a"
+  },
+  {
+    "id": "synonym:lesson-src-474fea50ba132e",
+    "type": "synonym",
+    "ordinal": 911,
+    "label": "#911 · Professional Communication",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-474fea50ba132e"
+  },
+  {
+    "id": "synonym:lesson-src-a4aa31d65bdecc",
+    "type": "synonym",
+    "ordinal": 912,
+    "label": "#912 · Protein",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-a4aa31d65bdecc"
+  },
+  {
+    "id": "synonym:lesson-src-503544547622ad",
+    "type": "synonym",
+    "ordinal": 913,
+    "label": "#913 · Sample",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-503544547622ad"
+  },
+  {
+    "id": "synonym:lesson-src-587b853a73d4a6",
+    "type": "synonym",
+    "ordinal": 914,
+    "label": "#914 · Street Markets",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-587b853a73d4a6"
+  },
+  {
+    "id": "synonym:lesson-src-731c5eae229c1b",
+    "type": "synonym",
+    "ordinal": 915,
+    "label": "#915 · Young Adults",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-731c5eae229c1b"
+  },
+  {
+    "id": "synonym:lesson-src-a1345ec23bfcf4",
+    "type": "synonym",
+    "ordinal": 916,
+    "label": "#916 · Destroy",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-a1345ec23bfcf4"
+  },
+  {
+    "id": "synonym:lesson-src-2b9f53f0aa97e6",
+    "type": "synonym",
+    "ordinal": 917,
+    "label": "#917 · External",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-2b9f53f0aa97e6"
+  },
+  {
+    "id": "synonym:lesson-src-90460475c95cf6",
+    "type": "synonym",
+    "ordinal": 918,
+    "label": "#918 · Immediate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-90460475c95cf6"
+  },
+  {
+    "id": "synonym:lesson-src-9e2e1999b967a9",
+    "type": "synonym",
+    "ordinal": 919,
+    "label": "#919 · Paint",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9e2e1999b967a9"
+  },
+  {
+    "id": "synonym:lesson-src-ffbb16f4489fe4",
+    "type": "synonym",
+    "ordinal": 920,
+    "label": "#920 · Principal",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ffbb16f4489fe4"
+  },
+  {
+    "id": "synonym:lesson-src-e86574c2a0c5d2",
+    "type": "synonym",
+    "ordinal": 921,
+    "label": "#921 · Registered",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-e86574c2a0c5d2"
+  },
+  {
+    "id": "synonym:lesson-src-c294b684c17228",
+    "type": "synonym",
+    "ordinal": 922,
+    "label": "#922 · Therapy",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c294b684c17228"
+  },
+  {
+    "id": "synonym:lesson-src-9202853278ae35",
+    "type": "synonym",
+    "ordinal": 923,
+    "label": "#923 · Wild Animals",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9202853278ae35"
+  },
+  {
+    "id": "synonym:lesson-src-daf35b6a62e7c6",
+    "type": "synonym",
+    "ordinal": 924,
+    "label": "#924 · Aim",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-daf35b6a62e7c6"
+  },
+  {
+    "id": "synonym:lesson-src-2abe6b735bc4bd",
+    "type": "synonym",
+    "ordinal": 925,
+    "label": "#925 · Campus",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-2abe6b735bc4bd"
+  },
+  {
+    "id": "synonym:lesson-src-ed13f15c4d07c7",
+    "type": "synonym",
+    "ordinal": 926,
+    "label": "#926 · Championship game",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ed13f15c4d07c7"
+  },
+  {
+    "id": "synonym:lesson-src-692b2d23ab8968",
+    "type": "synonym",
+    "ordinal": 927,
+    "label": "#927 · Childhood",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-692b2d23ab8968"
+  },
+  {
+    "id": "synonym:lesson-src-65b38463ca71fc",
+    "type": "synonym",
+    "ordinal": 928,
+    "label": "#928 · Comedy",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-65b38463ca71fc"
+  },
+  {
+    "id": "synonym:lesson-src-57e24932db4d46",
+    "type": "synonym",
+    "ordinal": 929,
+    "label": "#929 · Opposed",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-57e24932db4d46"
+  },
+  {
+    "id": "synonym:lesson-src-b67d63fdccd4ac",
+    "type": "synonym",
+    "ordinal": 930,
+    "label": "#930 · Recording",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b67d63fdccd4ac"
+  },
+  {
+    "id": "synonym:lesson-src-d7fb22d69ef597",
+    "type": "synonym",
+    "ordinal": 931,
+    "label": "#931 · Senior forms",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d7fb22d69ef597"
+  },
+  {
+    "id": "synonym:lesson-src-a99580b310f24d",
+    "type": "synonym",
+    "ordinal": 932,
+    "label": "#932 · Wealth",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a99580b310f24d"
+  },
+  {
+    "id": "synonym:lesson-src-42bb0ad8aabc51",
+    "type": "synonym",
+    "ordinal": 933,
+    "label": "#933 · Key to Success",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-42bb0ad8aabc51"
+  },
+  {
+    "id": "synonym:lesson-src-d47310a9c3fa88",
+    "type": "synonym",
+    "ordinal": 934,
+    "label": "#934 · Contain",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d47310a9c3fa88"
+  },
+  {
+    "id": "synonym:lesson-src-34222d778729ed",
+    "type": "synonym",
+    "ordinal": 935,
+    "label": "#935 · Employee",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-34222d778729ed"
+  },
+  {
+    "id": "synonym:lesson-src-83ea0851c1c6f8",
+    "type": "synonym",
+    "ordinal": 936,
+    "label": "#936 · Reply",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-83ea0851c1c6f8"
+  },
+  {
+    "id": "synonym:lesson-src-4931dd19bfb18f",
+    "type": "synonym",
+    "ordinal": 937,
+    "label": "#937 · Secondary School",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4931dd19bfb18f"
+  },
+  {
+    "id": "synonym:lesson-src-75f665ea2d2294",
+    "type": "synonym",
+    "ordinal": 938,
+    "label": "#938 · Tradition",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-75f665ea2d2294"
+  },
+  {
+    "id": "synonym:lesson-src-930c1bf6e41ccd",
+    "type": "synonym",
+    "ordinal": 939,
+    "label": "#939 · Barely",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-930c1bf6e41ccd"
+  },
+  {
+    "id": "synonym:lesson-src-36048c01068363",
+    "type": "synonym",
+    "ordinal": 940,
+    "label": "#940 · Colour",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-36048c01068363"
+  },
+  {
+    "id": "synonym:lesson-src-f37c55b99e9d0a",
+    "type": "synonym",
+    "ordinal": 941,
+    "label": "#941 · Gallery",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f37c55b99e9d0a"
+  },
+  {
+    "id": "synonym:lesson-src-f5309564e986e2",
+    "type": "synonym",
+    "ordinal": 942,
+    "label": "#942 · Introduction days",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-f5309564e986e2"
+  },
+  {
+    "id": "synonym:lesson-src-d4d6b72b6ba071",
+    "type": "synonym",
+    "ordinal": 943,
+    "label": "#943 · Rough (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d4d6b72b6ba071"
+  },
+  {
+    "id": "synonym:lesson-src-b4c26022cd459e",
+    "type": "synonym",
+    "ordinal": 944,
+    "label": "#944 · Smell",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b4c26022cd459e"
+  },
+  {
+    "id": "synonym:lesson-src-c498f474aec261",
+    "type": "synonym",
+    "ordinal": 945,
+    "label": "#945 · Tone · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c498f474aec261"
+  },
+  {
+    "id": "synonym:lesson-src-51bcec8c7a6462",
+    "type": "synonym",
+    "ordinal": 946,
+    "label": "#946 · Check-Out Counter",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-51bcec8c7a6462"
+  },
+  {
+    "id": "synonym:lesson-src-df32ac8cf18574",
+    "type": "synonym",
+    "ordinal": 947,
+    "label": "#947 · Earn",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-df32ac8cf18574"
+  },
+  {
+    "id": "synonym:lesson-src-4ebbef1f440b07",
+    "type": "synonym",
+    "ordinal": 948,
+    "label": "#948 · Naturally",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4ebbef1f440b07"
+  },
+  {
+    "id": "synonym:lesson-src-6cdc828b752987",
+    "type": "synonym",
+    "ordinal": 949,
+    "label": "#949 · Practical",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6cdc828b752987"
+  },
+  {
+    "id": "synonym:lesson-src-398cb0b2d27472",
+    "type": "synonym",
+    "ordinal": 950,
+    "label": "#950 · Rush",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-398cb0b2d27472"
+  },
+  {
+    "id": "synonym:lesson-src-0e67c565bdf4c9",
+    "type": "synonym",
+    "ordinal": 951,
+    "label": "#951 · Attended",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0e67c565bdf4c9"
+  },
+  {
+    "id": "synonym:lesson-src-1e2564751dda70",
+    "type": "synonym",
+    "ordinal": 952,
+    "label": "#952 · Format",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-1e2564751dda70"
+  },
+  {
+    "id": "synonym:lesson-src-0df837a0e22c2f",
+    "type": "synonym",
+    "ordinal": 953,
+    "label": "#953 · Gate",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0df837a0e22c2f"
+  },
+  {
+    "id": "synonym:lesson-src-fb282dc72d5b68",
+    "type": "synonym",
+    "ordinal": 954,
+    "label": "#954 · Healthcare",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fb282dc72d5b68"
+  },
+  {
+    "id": "synonym:lesson-src-d4e8d465162b9b",
+    "type": "synonym",
+    "ordinal": 955,
+    "label": "#955 · Impressive",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d4e8d465162b9b"
+  },
+  {
+    "id": "synonym:lesson-src-d5733720d2458a",
+    "type": "synonym",
+    "ordinal": 956,
+    "label": "#956 · Lesson",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-d5733720d2458a"
+  },
+  {
+    "id": "synonym:lesson-src-08038bce290ee0",
+    "type": "synonym",
+    "ordinal": 957,
+    "label": "#957 · Mirror",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-08038bce290ee0"
+  },
+  {
+    "id": "synonym:lesson-src-c1e534fd9ad127",
+    "type": "synonym",
+    "ordinal": 958,
+    "label": "#958 · Parking",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c1e534fd9ad127"
+  },
+  {
+    "id": "synonym:lesson-src-9a0d97eae68158",
+    "type": "synonym",
+    "ordinal": 959,
+    "label": "#959 · Self-Expression",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9a0d97eae68158"
+  },
+  {
+    "id": "synonym:lesson-src-63e2c1fe2b90b6",
+    "type": "synonym",
+    "ordinal": 960,
+    "label": "#960 · Technique",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-63e2c1fe2b90b6"
+  },
+  {
+    "id": "synonym:lesson-src-a1a7bc5db30690",
+    "type": "synonym",
+    "ordinal": 961,
+    "label": "#961 · Chart",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a1a7bc5db30690"
+  },
+  {
+    "id": "synonym:lesson-src-f11b61d757e6c1",
+    "type": "synonym",
+    "ordinal": 962,
+    "label": "#962 · Lack of Space",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f11b61d757e6c1"
+  },
+  {
+    "id": "synonym:lesson-src-dddc9fe864e899",
+    "type": "synonym",
+    "ordinal": 963,
+    "label": "#963 · Adventure",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-dddc9fe864e899"
+  },
+  {
+    "id": "synonym:lesson-src-1534f860384016",
+    "type": "synonym",
+    "ordinal": 964,
+    "label": "#964 · Argue",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-1534f860384016"
+  },
+  {
+    "id": "synonym:lesson-src-47dfc2d02b58cd",
+    "type": "synonym",
+    "ordinal": 965,
+    "label": "#965 · Atmosphere",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-47dfc2d02b58cd"
+  },
+  {
+    "id": "synonym:lesson-src-c9c064a763a750",
+    "type": "synonym",
+    "ordinal": 966,
+    "label": "#966 · Bedroom",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c9c064a763a750"
+  },
+  {
+    "id": "synonym:lesson-src-360228266cbc0d",
+    "type": "synonym",
+    "ordinal": 967,
+    "label": "#967 · Carefully",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-360228266cbc0d"
+  },
+  {
+    "id": "synonym:lesson-src-a493e07eba2655",
+    "type": "synonym",
+    "ordinal": 968,
+    "label": "#968 · Gap year",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a493e07eba2655"
+  },
+  {
+    "id": "synonym:lesson-src-0bd9fdcc518558",
+    "type": "synonym",
+    "ordinal": 969,
+    "label": "#969 · Infrastructure",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0bd9fdcc518558"
+  },
+  {
+    "id": "synonym:lesson-src-4addd3bcabe90c",
+    "type": "synonym",
+    "ordinal": 970,
+    "label": "#970 · Loose",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4addd3bcabe90c"
+  },
+  {
+    "id": "synonym:lesson-src-91e4250a36d760",
+    "type": "synonym",
+    "ordinal": 971,
+    "label": "#971 · Package",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-91e4250a36d760"
+  },
+  {
+    "id": "synonym:lesson-src-c5bee91a960e8f",
+    "type": "synonym",
+    "ordinal": 972,
+    "label": "#972 · Personality Test",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c5bee91a960e8f"
+  },
+  {
+    "id": "synonym:lesson-src-fcf8e5925aec64",
+    "type": "synonym",
+    "ordinal": 973,
+    "label": "#973 · Secret identity",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-fcf8e5925aec64"
+  },
+  {
+    "id": "synonym:lesson-src-c01a45c13d8712",
+    "type": "synonym",
+    "ordinal": 974,
+    "label": "#974 · Soldier",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-c01a45c13d8712"
+  },
+  {
+    "id": "synonym:lesson-src-1acbc7f99c6f1d",
+    "type": "synonym",
+    "ordinal": 975,
+    "label": "#975 · Living in the Past",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-1acbc7f99c6f1d"
+  },
+  {
+    "id": "synonym:lesson-src-c21e52113b574d",
+    "type": "synonym",
+    "ordinal": 976,
+    "label": "#976 · Be Concerned About",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-c21e52113b574d"
+  },
+  {
+    "id": "synonym:lesson-src-ff33dcdd5a396e",
+    "type": "synonym",
+    "ordinal": 977,
+    "label": "#977 · Discovery · noun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ff33dcdd5a396e"
+  },
+  {
+    "id": "synonym:lesson-src-c92751718d9da0",
+    "type": "synonym",
+    "ordinal": 978,
+    "label": "#978 · Earn Money",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c92751718d9da0"
+  },
+  {
+    "id": "synonym:lesson-src-d39d821079c0ea",
+    "type": "synonym",
+    "ordinal": 979,
+    "label": "#979 · Formal",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d39d821079c0ea"
+  },
+  {
+    "id": "synonym:lesson-src-703a3dfd2af8b1",
+    "type": "synonym",
+    "ordinal": 980,
+    "label": "#980 · Pocket Money",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-703a3dfd2af8b1"
+  },
+  {
+    "id": "synonym:lesson-src-8a8a5c1c4622b0",
+    "type": "synonym",
+    "ordinal": 981,
+    "label": "#981 · Rating",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8a8a5c1c4622b0"
+  },
+  {
+    "id": "synonym:lesson-src-58b8b0033e3ce6",
+    "type": "synonym",
+    "ordinal": 982,
+    "label": "#982 · Refer",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-58b8b0033e3ce6"
+  },
+  {
+    "id": "synonym:lesson-src-047b756d95563f",
+    "type": "synonym",
+    "ordinal": 983,
+    "label": "#983 · Suffer",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-047b756d95563f"
+  },
+  {
+    "id": "synonym:lesson-src-047fe41c49057a",
+    "type": "synonym",
+    "ordinal": 984,
+    "label": "#984 · Suffer From",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-047fe41c49057a"
+  },
+  {
+    "id": "synonym:lesson-src-2329c9480c7cd2",
+    "type": "synonym",
+    "ordinal": 985,
+    "label": "#985 · Unusual",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2329c9480c7cd2"
+  },
+  {
+    "id": "synonym:lesson-src-162e765eb3f108",
+    "type": "synonym",
+    "ordinal": 986,
+    "label": "#986 · Live With Their Parents",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-162e765eb3f108"
+  },
+  {
+    "id": "synonym:lesson-src-c3e1228372344b",
+    "type": "synonym",
+    "ordinal": 987,
+    "label": "#987 · Free Tv Station",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-c3e1228372344b"
+  },
+  {
+    "id": "synonym:lesson-src-b5783f74fd52c6",
+    "type": "synonym",
+    "ordinal": 988,
+    "label": "#988 · Charity work",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-b5783f74fd52c6"
+  },
+  {
+    "id": "synonym:lesson-src-9ce2c279ce3bab",
+    "type": "synonym",
+    "ordinal": 989,
+    "label": "#989 · Deeply · adv.",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9ce2c279ce3bab"
+  },
+  {
+    "id": "synonym:lesson-src-e62897e903d0ab",
+    "type": "synonym",
+    "ordinal": 990,
+    "label": "#990 · Design contest",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e62897e903d0ab"
+  },
+  {
+    "id": "synonym:lesson-src-a30155462fdd20",
+    "type": "synonym",
+    "ordinal": 991,
+    "label": "#991 · Exposure · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a30155462fdd20"
+  },
+  {
+    "id": "synonym:lesson-src-db20281047b5fd",
+    "type": "synonym",
+    "ordinal": 992,
+    "label": "#992 · Fiction",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-db20281047b5fd"
+  },
+  {
+    "id": "synonym:lesson-src-2e0b05a12dd949",
+    "type": "synonym",
+    "ordinal": 993,
+    "label": "#993 · Fiction",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-2e0b05a12dd949"
+  },
+  {
+    "id": "synonym:lesson-src-f5c2311eb3bd7e",
+    "type": "synonym",
+    "ordinal": 994,
+    "label": "#994 · Happiness",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f5c2311eb3bd7e"
+  },
+  {
+    "id": "synonym:lesson-src-0800e4a6fd2279",
+    "type": "synonym",
+    "ordinal": 995,
+    "label": "#995 · Horrible",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0800e4a6fd2279"
+  },
+  {
+    "id": "synonym:lesson-src-d152bee67f0f2f",
+    "type": "synonym",
+    "ordinal": 996,
+    "label": "#996 · Ideal",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-d152bee67f0f2f"
+  },
+  {
+    "id": "synonym:lesson-src-8f24853e031df3",
+    "type": "synonym",
+    "ordinal": 997,
+    "label": "#997 · Mood",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8f24853e031df3"
+  },
+  {
+    "id": "synonym:lesson-src-14d971d48731a4",
+    "type": "synonym",
+    "ordinal": 998,
+    "label": "#998 · Procedure",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-14d971d48731a4"
+  },
+  {
+    "id": "synonym:lesson-src-ca5ef8fa4367d9",
+    "type": "synonym",
+    "ordinal": 999,
+    "label": "#999 · Rank",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-ca5ef8fa4367d9"
+  },
+  {
+    "id": "synonym:lesson-src-dcc2ad2f2fdd33",
+    "type": "synonym",
+    "ordinal": 1000,
+    "label": "#1000 · Shadow · noun",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-dcc2ad2f2fdd33"
+  },
+  {
+    "id": "synonym:lesson-src-4c97676aba5457",
+    "type": "synonym",
+    "ordinal": 1001,
+    "label": "#1001 · Be willing to",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-4c97676aba5457"
+  },
+  {
+    "id": "synonym:lesson-src-24d35834c81273",
+    "type": "synonym",
+    "ordinal": 1002,
+    "label": "#1002 · Boring",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-24d35834c81273"
+  },
+  {
+    "id": "synonym:lesson-src-8a62924898577d",
+    "type": "synonym",
+    "ordinal": 1003,
+    "label": "#1003 · Desk",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-8a62924898577d"
+  },
+  {
+    "id": "synonym:lesson-src-ae4ff2e0487e06",
+    "type": "synonym",
+    "ordinal": 1004,
+    "label": "#1004 · Farmers",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ae4ff2e0487e06"
+  },
+  {
+    "id": "synonym:lesson-src-b4a313854e772e",
+    "type": "synonym",
+    "ordinal": 1005,
+    "label": "#1005 · Gym",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-b4a313854e772e"
+  },
+  {
+    "id": "synonym:lesson-src-e3d17ce78bba3b",
+    "type": "synonym",
+    "ordinal": 1006,
+    "label": "#1006 · Reduce stress",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e3d17ce78bba3b"
+  },
+  {
+    "id": "synonym:lesson-src-0f84904b5e95af",
+    "type": "synonym",
+    "ordinal": 1007,
+    "label": "#1007 · Strategic",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0f84904b5e95af"
+  },
+  {
+    "id": "synonym:lesson-src-0da63e8e630cce",
+    "type": "synonym",
+    "ordinal": 1008,
+    "label": "#1008 · Worker",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0da63e8e630cce"
+  },
+  {
+    "id": "synonym:lesson-src-d510e7d59b87a0",
+    "type": "synonym",
+    "ordinal": 1009,
+    "label": "#1009 · Architecture",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-d510e7d59b87a0"
+  },
+  {
+    "id": "synonym:lesson-src-afb374fe6443d1",
+    "type": "synonym",
+    "ordinal": 1010,
+    "label": "#1010 · Assist",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-afb374fe6443d1"
+  },
+  {
+    "id": "synonym:lesson-src-f2209409defd10",
+    "type": "synonym",
+    "ordinal": 1011,
+    "label": "#1011 · Capture",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f2209409defd10"
+  },
+  {
+    "id": "synonym:lesson-src-c780d7373ef51d",
+    "type": "synonym",
+    "ordinal": 1012,
+    "label": "#1012 · Designer",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c780d7373ef51d"
+  },
+  {
+    "id": "synonym:lesson-src-e0bc7e2edf4d27",
+    "type": "synonym",
+    "ordinal": 1013,
+    "label": "#1013 · Kit",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-e0bc7e2edf4d27"
+  },
+  {
+    "id": "synonym:lesson-src-1e21495c840c86",
+    "type": "synonym",
+    "ordinal": 1014,
+    "label": "#1014 · Odd",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1e21495c840c86"
+  },
+  {
+    "id": "synonym:lesson-src-9a74a9fd524b39",
+    "type": "synonym",
+    "ordinal": 1015,
+    "label": "#1015 · Ordinary",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-9a74a9fd524b39"
+  },
+  {
+    "id": "synonym:lesson-src-4343e4fd78753c",
+    "type": "synonym",
+    "ordinal": 1016,
+    "label": "#1016 · Skill",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4343e4fd78753c"
+  },
+  {
+    "id": "synonym:lesson-src-19b9407dab732c",
+    "type": "synonym",
+    "ordinal": 1017,
+    "label": "#1017 · Ugly",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-19b9407dab732c"
+  },
+  {
+    "id": "synonym:lesson-src-6bea9c4db5e83b",
+    "type": "synonym",
+    "ordinal": 1018,
+    "label": "#1018 · Age Limits",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6bea9c4db5e83b"
+  },
+  {
+    "id": "synonym:lesson-src-09df4b4e194367",
+    "type": "synonym",
+    "ordinal": 1019,
+    "label": "#1019 · Aspect",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-09df4b4e194367"
+  },
+  {
+    "id": "synonym:lesson-src-78e7d814929fd8",
+    "type": "synonym",
+    "ordinal": 1020,
+    "label": "#1020 · Boost",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-78e7d814929fd8"
+  },
+  {
+    "id": "synonym:lesson-src-932ba3fa857751",
+    "type": "synonym",
+    "ordinal": 1021,
+    "label": "#1021 · Comfort",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-932ba3fa857751"
+  },
+  {
+    "id": "synonym:lesson-src-3bc1621d6241c3",
+    "type": "synonym",
+    "ordinal": 1022,
+    "label": "#1022 · Dramatic · adj",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3bc1621d6241c3"
+  },
+  {
+    "id": "synonym:lesson-src-cdca0e1c2c4e2a",
+    "type": "synonym",
+    "ordinal": 1023,
+    "label": "#1023 · Illness",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-cdca0e1c2c4e2a"
+  },
+  {
+    "id": "synonym:lesson-src-4432acbc50a442",
+    "type": "synonym",
+    "ordinal": 1024,
+    "label": "#1024 · Public Awareness",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4432acbc50a442"
+  },
+  {
+    "id": "synonym:lesson-src-ae8ae1c87b2240",
+    "type": "synonym",
+    "ordinal": 1025,
+    "label": "#1025 · Remote",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-ae8ae1c87b2240"
+  },
+  {
+    "id": "synonym:lesson-src-600ec5fc580d59",
+    "type": "synonym",
+    "ordinal": 1026,
+    "label": "#1026 · Repair",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-600ec5fc580d59"
+  },
+  {
+    "id": "synonym:lesson-src-5bc1539031f9b1",
+    "type": "synonym",
+    "ordinal": 1027,
+    "label": "#1027 · Caught My Attention",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-5bc1539031f9b1"
+  },
+  {
+    "id": "synonym:lesson-src-316eea5e63b723",
+    "type": "synonym",
+    "ordinal": 1028,
+    "label": "#1028 · Communities in need",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-316eea5e63b723"
+  },
+  {
+    "id": "synonym:lesson-v2-051",
+    "type": "synonym",
+    "ordinal": 1029,
+    "label": "#1029 · Actors",
+    "detail": "Synonyms · 8 詞組 · 16 題",
+    "url": "synonyms-system.html?module=lesson-v2-051"
+  },
+  {
+    "id": "synonym:lesson-src-9d2758d7b2e2b2",
+    "type": "synonym",
+    "ordinal": 1030,
+    "label": "#1030 · Annoying",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-9d2758d7b2e2b2"
+  },
+  {
+    "id": "synonym:lesson-src-6b23d99217ad4e",
+    "type": "synonym",
+    "ordinal": 1031,
+    "label": "#1031 · Conclusion",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-6b23d99217ad4e"
+  },
+  {
+    "id": "synonym:lesson-src-778ee5f0297b68",
+    "type": "synonym",
+    "ordinal": 1032,
+    "label": "#1032 · Decent",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-778ee5f0297b68"
+  },
+  {
+    "id": "synonym:lesson-src-12004b1f4ac17f",
+    "type": "synonym",
+    "ordinal": 1033,
+    "label": "#1033 · Decline",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-12004b1f4ac17f"
+  },
+  {
+    "id": "synonym:lesson-src-ff1031c467aee3",
+    "type": "synonym",
+    "ordinal": 1034,
+    "label": "#1034 · Desert",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-ff1031c467aee3"
+  },
+  {
+    "id": "synonym:lesson-src-cb9853eb58c718",
+    "type": "synonym",
+    "ordinal": 1035,
+    "label": "#1035 · Layer (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-cb9853eb58c718"
+  },
+  {
+    "id": "synonym:lesson-src-8bf57c503546d8",
+    "type": "synonym",
+    "ordinal": 1036,
+    "label": "#1036 · Mobile Devices",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8bf57c503546d8"
+  },
+  {
+    "id": "synonym:lesson-src-3c6e9e7bd286bf",
+    "type": "synonym",
+    "ordinal": 1037,
+    "label": "#1037 · Plant-Based Meat",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-3c6e9e7bd286bf"
+  },
+  {
+    "id": "synonym:lesson-src-1a015c904d16a7",
+    "type": "synonym",
+    "ordinal": 1038,
+    "label": "#1038 · Printed",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-1a015c904d16a7"
+  },
+  {
+    "id": "synonym:lesson-src-7cd4f69f287733",
+    "type": "synonym",
+    "ordinal": 1039,
+    "label": "#1039 · Smooth",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7cd4f69f287733"
+  },
+  {
+    "id": "synonym:lesson-src-344839d030c312",
+    "type": "synonym",
+    "ordinal": 1040,
+    "label": "#1040 · Spiritual",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-344839d030c312"
+  },
+  {
+    "id": "synonym:lesson-src-9c8aa97b1d9c5c",
+    "type": "synonym",
+    "ordinal": 1041,
+    "label": "#1041 · Abroad",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-9c8aa97b1d9c5c"
+  },
+  {
+    "id": "synonym:lesson-src-80ef32786bbf94",
+    "type": "synonym",
+    "ordinal": 1042,
+    "label": "#1042 · Broadcast",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-80ef32786bbf94"
+  },
+  {
+    "id": "synonym:lesson-src-e43b6318403c4b",
+    "type": "synonym",
+    "ordinal": 1043,
+    "label": "#1043 · Citizen",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e43b6318403c4b"
+  },
+  {
+    "id": "synonym:lesson-src-1b467c38ad3243",
+    "type": "synonym",
+    "ordinal": 1044,
+    "label": "#1044 · Compete",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-1b467c38ad3243"
+  },
+  {
+    "id": "synonym:lesson-src-fb85e101c50302",
+    "type": "synonym",
+    "ordinal": 1045,
+    "label": "#1045 · Discover",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fb85e101c50302"
+  },
+  {
+    "id": "synonym:lesson-src-77724e75a6b59f",
+    "type": "synonym",
+    "ordinal": 1046,
+    "label": "#1046 · Everyday Problems",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-77724e75a6b59f"
+  },
+  {
+    "id": "synonym:lesson-src-036a369c966d8c",
+    "type": "synonym",
+    "ordinal": 1047,
+    "label": "#1047 · Fitness",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-036a369c966d8c"
+  },
+  {
+    "id": "synonym:lesson-src-26164a97625793",
+    "type": "synonym",
+    "ordinal": 1048,
+    "label": "#1048 · Friendship",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-26164a97625793"
+  },
+  {
+    "id": "synonym:lesson-src-41089fc7fec489",
+    "type": "synonym",
+    "ordinal": 1049,
+    "label": "#1049 · Housing crisis",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-41089fc7fec489"
+  },
+  {
+    "id": "synonym:lesson-src-89cc32951b51b9",
+    "type": "synonym",
+    "ordinal": 1050,
+    "label": "#1050 · Left-handed",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-89cc32951b51b9"
+  },
+  {
+    "id": "synonym:lesson-src-9d8822855538c1",
+    "type": "synonym",
+    "ordinal": 1051,
+    "label": "#1051 · Silly (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9d8822855538c1"
+  },
+  {
+    "id": "synonym:lesson-src-00d9b226e95263",
+    "type": "synonym",
+    "ordinal": 1052,
+    "label": "#1052 · Arrive",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-00d9b226e95263"
+  },
+  {
+    "id": "synonym:lesson-src-3d988b63b8cdd2",
+    "type": "synonym",
+    "ordinal": 1053,
+    "label": "#1053 · Belong",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-3d988b63b8cdd2"
+  },
+  {
+    "id": "synonym:lesson-src-59234469fbf29a",
+    "type": "synonym",
+    "ordinal": 1054,
+    "label": "#1054 · Connect",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-59234469fbf29a"
+  },
+  {
+    "id": "synonym:lesson-src-a83a41a7d771e0",
+    "type": "synonym",
+    "ordinal": 1055,
+    "label": "#1055 · Efficiency",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a83a41a7d771e0"
+  },
+  {
+    "id": "synonym:lesson-src-3894e0a4536a5b",
+    "type": "synonym",
+    "ordinal": 1056,
+    "label": "#1056 · Findings",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-3894e0a4536a5b"
+  },
+  {
+    "id": "synonym:lesson-src-f709e0b2582aef",
+    "type": "synonym",
+    "ordinal": 1057,
+    "label": "#1057 · Gifts",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f709e0b2582aef"
+  },
+  {
+    "id": "synonym:lesson-src-82def4cd3b37de",
+    "type": "synonym",
+    "ordinal": 1058,
+    "label": "#1058 · Incredibly",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-82def4cd3b37de"
+  },
+  {
+    "id": "synonym:lesson-src-c5ef848ef1a0dd",
+    "type": "synonym",
+    "ordinal": 1059,
+    "label": "#1059 · Occasion (noun)",
+    "detail": "Synonyms · 8 詞組 · 23 題",
+    "url": "synonyms-system.html?module=lesson-src-c5ef848ef1a0dd"
+  },
+  {
+    "id": "synonym:lesson-src-9f83cddb6f948c",
+    "type": "synonym",
+    "ordinal": 1060,
+    "label": "#1060 · Passenger",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9f83cddb6f948c"
+  },
+  {
+    "id": "synonym:lesson-src-6a2690f3f437c9",
+    "type": "synonym",
+    "ordinal": 1061,
+    "label": "#1061 · Resident",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6a2690f3f437c9"
+  },
+  {
+    "id": "synonym:lesson-src-16883056ca5c28",
+    "type": "synonym",
+    "ordinal": 1062,
+    "label": "#1062 · Suitable",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-16883056ca5c28"
+  },
+  {
+    "id": "synonym:lesson-src-976120e61c00a5",
+    "type": "synonym",
+    "ordinal": 1063,
+    "label": "#1063 · Gain work experience",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-976120e61c00a5"
+  },
+  {
+    "id": "synonym:lesson-v2-050",
+    "type": "synonym",
+    "ordinal": 1064,
+    "label": "#1064 · Raised Their Hands",
+    "detail": "Synonyms · 8 詞組 · 16 題",
+    "url": "synonyms-system.html?module=lesson-v2-050"
+  },
+  {
+    "id": "synonym:lesson-src-5b7344563ec980",
+    "type": "synonym",
+    "ordinal": 1065,
+    "label": "#1065 · Comfort Food",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-5b7344563ec980"
+  },
+  {
+    "id": "synonym:lesson-src-8eb2d346d2e9b8",
+    "type": "synonym",
+    "ordinal": 1066,
+    "label": "#1066 · Energy drinks",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-8eb2d346d2e9b8"
+  },
+  {
+    "id": "synonym:lesson-src-185dcb58b083b0",
+    "type": "synonym",
+    "ordinal": 1067,
+    "label": "#1067 · Exhibition",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-185dcb58b083b0"
+  },
+  {
+    "id": "synonym:lesson-src-1e446cb2055310",
+    "type": "synonym",
+    "ordinal": 1068,
+    "label": "#1068 · Genuine · adj.",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1e446cb2055310"
+  },
+  {
+    "id": "synonym:lesson-src-fe06477f2294a1",
+    "type": "synonym",
+    "ordinal": 1069,
+    "label": "#1069 · Introduce",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-fe06477f2294a1"
+  },
+  {
+    "id": "synonym:lesson-src-f59834f4347061",
+    "type": "synonym",
+    "ordinal": 1070,
+    "label": "#1070 · Merely",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f59834f4347061"
+  },
+  {
+    "id": "synonym:lesson-src-b179c792d42a3e",
+    "type": "synonym",
+    "ordinal": 1071,
+    "label": "#1071 · Monitor",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b179c792d42a3e"
+  },
+  {
+    "id": "synonym:lesson-src-263efca99d24f2",
+    "type": "synonym",
+    "ordinal": 1072,
+    "label": "#1072 · Remind",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-263efca99d24f2"
+  },
+  {
+    "id": "synonym:lesson-src-d5cb86cf9c8c47",
+    "type": "synonym",
+    "ordinal": 1073,
+    "label": "#1073 · Routine",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d5cb86cf9c8c47"
+  },
+  {
+    "id": "synonym:lesson-src-30810debfff9cf",
+    "type": "synonym",
+    "ordinal": 1074,
+    "label": "#1074 · Private space travel",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-30810debfff9cf"
+  },
+  {
+    "id": "synonym:lesson-src-6cf963d11420c8",
+    "type": "synonym",
+    "ordinal": 1075,
+    "label": "#1075 · Co-Worker",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-6cf963d11420c8"
+  },
+  {
+    "id": "synonym:lesson-src-544b18f0c4c5a3",
+    "type": "synonym",
+    "ordinal": 1076,
+    "label": "#1076 · Destruction",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-544b18f0c4c5a3"
+  },
+  {
+    "id": "synonym:lesson-src-7fe51633ba215a",
+    "type": "synonym",
+    "ordinal": 1077,
+    "label": "#1077 · Engage",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7fe51633ba215a"
+  },
+  {
+    "id": "synonym:lesson-src-63c980c30fa9cd",
+    "type": "synonym",
+    "ordinal": 1078,
+    "label": "#1078 · Heritage",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-63c980c30fa9cd"
+  },
+  {
+    "id": "synonym:lesson-src-c670e3560c6532",
+    "type": "synonym",
+    "ordinal": 1079,
+    "label": "#1079 · Initiative",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-c670e3560c6532"
+  },
+  {
+    "id": "synonym:lesson-src-cdf75af9a7d293",
+    "type": "synonym",
+    "ordinal": 1080,
+    "label": "#1080 · Landscape",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-cdf75af9a7d293"
+  },
+  {
+    "id": "synonym:lesson-src-c7290a454a34d7",
+    "type": "synonym",
+    "ordinal": 1081,
+    "label": "#1081 · Logic",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c7290a454a34d7"
+  },
+  {
+    "id": "synonym:lesson-src-27e6788ed32613",
+    "type": "synonym",
+    "ordinal": 1082,
+    "label": "#1082 · Once-In-A-Lifetime",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-27e6788ed32613"
+  },
+  {
+    "id": "synonym:lesson-src-e012832fd8ac60",
+    "type": "synonym",
+    "ordinal": 1083,
+    "label": "#1083 · Privacy",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e012832fd8ac60"
+  },
+  {
+    "id": "synonym:lesson-src-38de8e8e4dc33d",
+    "type": "synonym",
+    "ordinal": 1084,
+    "label": "#1084 · Salary",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-38de8e8e4dc33d"
+  },
+  {
+    "id": "synonym:lesson-src-cd2b1cce5e958b",
+    "type": "synonym",
+    "ordinal": 1085,
+    "label": "#1085 · Consumption",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-cd2b1cce5e958b"
+  },
+  {
+    "id": "synonym:lesson-src-cc46550212c949",
+    "type": "synonym",
+    "ordinal": 1086,
+    "label": "#1086 · Grateful",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-cc46550212c949"
+  },
+  {
+    "id": "synonym:lesson-src-064fd8c8495ea6",
+    "type": "synonym",
+    "ordinal": 1087,
+    "label": "#1087 · Luxury",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-064fd8c8495ea6"
+  },
+  {
+    "id": "synonym:lesson-src-d0067ebb02e0cf",
+    "type": "synonym",
+    "ordinal": 1088,
+    "label": "#1088 · Visual Effects",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d0067ebb02e0cf"
+  },
+  {
+    "id": "synonym:lesson-src-a092d460bbc4b2",
+    "type": "synonym",
+    "ordinal": 1089,
+    "label": "#1089 · Punishment",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a092d460bbc4b2"
+  },
+  {
+    "id": "synonym:lesson-src-3429c93ec3b99b",
+    "type": "synonym",
+    "ordinal": 1090,
+    "label": "#1090 · Read Emotions",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-3429c93ec3b99b"
+  },
+  {
+    "id": "synonym:lesson-src-93010994fc3c34",
+    "type": "synonym",
+    "ordinal": 1091,
+    "label": "#1091 · Roots",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-93010994fc3c34"
+  },
+  {
+    "id": "synonym:lesson-src-0e12abd78d2c03",
+    "type": "synonym",
+    "ordinal": 1092,
+    "label": "#1092 · Alert",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0e12abd78d2c03"
+  },
+  {
+    "id": "synonym:lesson-src-5cd28bca07b013",
+    "type": "synonym",
+    "ordinal": 1093,
+    "label": "#1093 · Annual passes",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5cd28bca07b013"
+  },
+  {
+    "id": "synonym:lesson-src-e0af2643ca059f",
+    "type": "synonym",
+    "ordinal": 1094,
+    "label": "#1094 · Commit",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e0af2643ca059f"
+  },
+  {
+    "id": "synonym:lesson-src-a096b9161bbb36",
+    "type": "synonym",
+    "ordinal": 1095,
+    "label": "#1095 · Composition",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a096b9161bbb36"
+  },
+  {
+    "id": "synonym:lesson-src-b70b9f4d44be32",
+    "type": "synonym",
+    "ordinal": 1096,
+    "label": "#1096 · Conservation",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-b70b9f4d44be32"
+  },
+  {
+    "id": "synonym:lesson-src-c0acc0c9b56d27",
+    "type": "synonym",
+    "ordinal": 1097,
+    "label": "#1097 · Difficulty",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-c0acc0c9b56d27"
+  },
+  {
+    "id": "synonym:lesson-src-dbf85b1b84a71d",
+    "type": "synonym",
+    "ordinal": 1098,
+    "label": "#1098 · Pretend",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-dbf85b1b84a71d"
+  },
+  {
+    "id": "synonym:lesson-src-82d01e00e9d279",
+    "type": "synonym",
+    "ordinal": 1099,
+    "label": "#1099 · Residential",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-82d01e00e9d279"
+  },
+  {
+    "id": "synonym:lesson-src-dc2444569dca7f",
+    "type": "synonym",
+    "ordinal": 1100,
+    "label": "#1100 · Teen",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-dc2444569dca7f"
+  },
+  {
+    "id": "synonym:lesson-src-492783d8c14f27",
+    "type": "synonym",
+    "ordinal": 1101,
+    "label": "#1101 · Uniform",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-492783d8c14f27"
+  },
+  {
+    "id": "synonym:lesson-src-9f500dc23432d4",
+    "type": "synonym",
+    "ordinal": 1102,
+    "label": "#1102 · Aggressive",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9f500dc23432d4"
+  },
+  {
+    "id": "synonym:lesson-src-925ddc0b6dc54d",
+    "type": "synonym",
+    "ordinal": 1103,
+    "label": "#1103 · E-commerce",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-925ddc0b6dc54d"
+  },
+  {
+    "id": "synonym:lesson-src-edcb610cbb74d1",
+    "type": "synonym",
+    "ordinal": 1104,
+    "label": "#1104 · English lessons",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-edcb610cbb74d1"
+  },
+  {
+    "id": "synonym:lesson-src-b8b2135e612cea",
+    "type": "synonym",
+    "ordinal": 1105,
+    "label": "#1105 · Invest",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-b8b2135e612cea"
+  },
+  {
+    "id": "synonym:lesson-src-01193bacd5ebbc",
+    "type": "synonym",
+    "ordinal": 1106,
+    "label": "#1106 · Listing",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-01193bacd5ebbc"
+  },
+  {
+    "id": "synonym:lesson-src-95f3fc64a54499",
+    "type": "synonym",
+    "ordinal": 1107,
+    "label": "#1107 · Preparation",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-95f3fc64a54499"
+  },
+  {
+    "id": "synonym:lesson-src-a2639a6b9e8142",
+    "type": "synonym",
+    "ordinal": 1108,
+    "label": "#1108 · Announcement",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a2639a6b9e8142"
+  },
+  {
+    "id": "synonym:lesson-src-88af3eb91f86c3",
+    "type": "synonym",
+    "ordinal": 1109,
+    "label": "#1109 · Discrimination",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-88af3eb91f86c3"
+  },
+  {
+    "id": "synonym:lesson-src-7efee66b1d6b32",
+    "type": "synonym",
+    "ordinal": 1110,
+    "label": "#1110 · Documentary",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-7efee66b1d6b32"
+  },
+  {
+    "id": "synonym:lesson-src-755d464a0c9d6c",
+    "type": "synonym",
+    "ordinal": 1111,
+    "label": "#1111 · Investigate",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-755d464a0c9d6c"
+  },
+  {
+    "id": "synonym:lesson-src-f0b9070f1c6add",
+    "type": "synonym",
+    "ordinal": 1112,
+    "label": "#1112 · Literary",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-f0b9070f1c6add"
+  },
+  {
+    "id": "synonym:lesson-src-568c2bc633b8c0",
+    "type": "synonym",
+    "ordinal": 1113,
+    "label": "#1113 · Smart clothing",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-568c2bc633b8c0"
+  },
+  {
+    "id": "synonym:lesson-src-4f856eb19b5ece",
+    "type": "synonym",
+    "ordinal": 1114,
+    "label": "#1114 · Stability",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4f856eb19b5ece"
+  },
+  {
+    "id": "synonym:lesson-src-5ffafca87770c9",
+    "type": "synonym",
+    "ordinal": 1115,
+    "label": "#1115 · Unlikely",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5ffafca87770c9"
+  },
+  {
+    "id": "synonym:lesson-src-f05e636d82eaef",
+    "type": "synonym",
+    "ordinal": 1116,
+    "label": "#1116 · Calendar",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f05e636d82eaef"
+  },
+  {
+    "id": "synonym:lesson-src-9e7c15e74558e4",
+    "type": "synonym",
+    "ordinal": 1117,
+    "label": "#1117 · Craft",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-9e7c15e74558e4"
+  },
+  {
+    "id": "synonym:lesson-src-2e5088d8959f07",
+    "type": "synonym",
+    "ordinal": 1118,
+    "label": "#1118 · Edit · verb",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2e5088d8959f07"
+  },
+  {
+    "id": "synonym:lesson-src-49798e4ccc0403",
+    "type": "synonym",
+    "ordinal": 1119,
+    "label": "#1119 · Invite",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-49798e4ccc0403"
+  },
+  {
+    "id": "synonym:lesson-src-f58f19ad203cf8",
+    "type": "synonym",
+    "ordinal": 1120,
+    "label": "#1120 · Partly",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f58f19ad203cf8"
+  },
+  {
+    "id": "synonym:lesson-v2-059",
+    "type": "synonym",
+    "ordinal": 1121,
+    "label": "#1121 · Accounting",
+    "detail": "Synonyms · 7 詞組 · 14 題",
+    "url": "synonyms-system.html?module=lesson-v2-059"
+  },
+  {
+    "id": "synonym:lesson-src-cecfd838e58350",
+    "type": "synonym",
+    "ordinal": 1122,
+    "label": "#1122 · Awkward",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-cecfd838e58350"
+  },
+  {
+    "id": "synonym:lesson-src-9717efb1e1824f",
+    "type": "synonym",
+    "ordinal": 1123,
+    "label": "#1123 · Celebration",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-9717efb1e1824f"
+  },
+  {
+    "id": "synonym:lesson-src-559ff4f3db941c",
+    "type": "synonym",
+    "ordinal": 1124,
+    "label": "#1124 · Colleagues",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-559ff4f3db941c"
+  },
+  {
+    "id": "synonym:lesson-src-1a1471262b57f2",
+    "type": "synonym",
+    "ordinal": 1125,
+    "label": "#1125 · Dialogue",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-1a1471262b57f2"
+  },
+  {
+    "id": "synonym:lesson-src-abc313cb70d29e",
+    "type": "synonym",
+    "ordinal": 1126,
+    "label": "#1126 · Green Initiative",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-abc313cb70d29e"
+  },
+  {
+    "id": "synonym:lesson-src-b5803f7e6cd7b3",
+    "type": "synonym",
+    "ordinal": 1127,
+    "label": "#1127 · Internet Fraud",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b5803f7e6cd7b3"
+  },
+  {
+    "id": "synonym:lesson-src-b4230fdad5d297",
+    "type": "synonym",
+    "ordinal": 1128,
+    "label": "#1128 · Lifestyle",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b4230fdad5d297"
+  },
+  {
+    "id": "synonym:lesson-src-8d3c8114a61e97",
+    "type": "synonym",
+    "ordinal": 1129,
+    "label": "#1129 · Lighting",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-8d3c8114a61e97"
+  },
+  {
+    "id": "synonym:lesson-src-6d081c5b25b03a",
+    "type": "synonym",
+    "ordinal": 1130,
+    "label": "#1130 · Mall",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6d081c5b25b03a"
+  },
+  {
+    "id": "synonym:lesson-src-8f2f724bbfde1d",
+    "type": "synonym",
+    "ordinal": 1131,
+    "label": "#1131 · Overseas · adj",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8f2f724bbfde1d"
+  },
+  {
+    "id": "synonym:lesson-src-7e4f2d200c64f3",
+    "type": "synonym",
+    "ordinal": 1132,
+    "label": "#1132 · Relax",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7e4f2d200c64f3"
+  },
+  {
+    "id": "synonym:lesson-src-de8fe8204e9232",
+    "type": "synonym",
+    "ordinal": 1133,
+    "label": "#1133 · Rely",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-de8fe8204e9232"
+  },
+  {
+    "id": "synonym:lesson-src-f7ca6c11e47f02",
+    "type": "synonym",
+    "ordinal": 1134,
+    "label": "#1134 · Rely On",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-f7ca6c11e47f02"
+  },
+  {
+    "id": "synonym:lesson-src-dbbd3a618f68f2",
+    "type": "synonym",
+    "ordinal": 1135,
+    "label": "#1135 · Timing",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-dbbd3a618f68f2"
+  },
+  {
+    "id": "synonym:lesson-src-2062ccaef6e742",
+    "type": "synonym",
+    "ordinal": 1136,
+    "label": "#1136 · Money Management Skills",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-2062ccaef6e742"
+  },
+  {
+    "id": "synonym:lesson-src-0b58c2643ffc3b",
+    "type": "synonym",
+    "ordinal": 1137,
+    "label": "#1137 · Know / Be Known As",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0b58c2643ffc3b"
+  },
+  {
+    "id": "synonym:lesson-src-a32d64666a4efa",
+    "type": "synonym",
+    "ordinal": 1138,
+    "label": "#1138 · Alarm (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a32d64666a4efa"
+  },
+  {
+    "id": "synonym:lesson-src-832661692f8cd3",
+    "type": "synonym",
+    "ordinal": 1139,
+    "label": "#1139 · Animal welfare",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-832661692f8cd3"
+  },
+  {
+    "id": "synonym:lesson-src-72ea2a95f2b3d5",
+    "type": "synonym",
+    "ordinal": 1140,
+    "label": "#1140 · Filter",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-72ea2a95f2b3d5"
+  },
+  {
+    "id": "synonym:lesson-src-b308cccfb25ebd",
+    "type": "synonym",
+    "ordinal": 1141,
+    "label": "#1141 · Judgment (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b308cccfb25ebd"
+  },
+  {
+    "id": "synonym:lesson-src-70c1e93f1a7c47",
+    "type": "synonym",
+    "ordinal": 1142,
+    "label": "#1142 · Slip",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-70c1e93f1a7c47"
+  },
+  {
+    "id": "synonym:lesson-src-32dd69143f2c9e",
+    "type": "synonym",
+    "ordinal": 1143,
+    "label": "#1143 · Surprising",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-32dd69143f2c9e"
+  },
+  {
+    "id": "synonym:lesson-src-971c09cf77ea5a",
+    "type": "synonym",
+    "ordinal": 1144,
+    "label": "#1144 · Volunteer",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-971c09cf77ea5a"
+  },
+  {
+    "id": "synonym:lesson-src-5d0a15d0fe0704",
+    "type": "synonym",
+    "ordinal": 1145,
+    "label": "#1145 · Age Discrimination",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-5d0a15d0fe0704"
+  },
+  {
+    "id": "synonym:lesson-src-25aa2848555100",
+    "type": "synonym",
+    "ordinal": 1146,
+    "label": "#1146 · Challenging",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-25aa2848555100"
+  },
+  {
+    "id": "synonym:lesson-src-34d36d498cd878",
+    "type": "synonym",
+    "ordinal": 1147,
+    "label": "#1147 · Chaos (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-34d36d498cd878"
+  },
+  {
+    "id": "synonym:lesson-src-253a0b209f26a1",
+    "type": "synonym",
+    "ordinal": 1148,
+    "label": "#1148 · DNA testing",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-253a0b209f26a1"
+  },
+  {
+    "id": "synonym:lesson-src-b60253460f7676",
+    "type": "synonym",
+    "ordinal": 1149,
+    "label": "#1149 · Raise awareness",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b60253460f7676"
+  },
+  {
+    "id": "synonym:lesson-src-fe6382c5ccad13",
+    "type": "synonym",
+    "ordinal": 1150,
+    "label": "#1150 · Stunning",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-fe6382c5ccad13"
+  },
+  {
+    "id": "synonym:lesson-src-deda07b5e208df",
+    "type": "synonym",
+    "ordinal": 1151,
+    "label": "#1151 · Wet markets",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-deda07b5e208df"
+  },
+  {
+    "id": "synonym:lesson-src-2cbee7e25eeee6",
+    "type": "synonym",
+    "ordinal": 1152,
+    "label": "#1152 · Anime",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-2cbee7e25eeee6"
+  },
+  {
+    "id": "synonym:lesson-src-527254f4e591cc",
+    "type": "synonym",
+    "ordinal": 1153,
+    "label": "#1153 · Autumn · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-527254f4e591cc"
+  },
+  {
+    "id": "synonym:lesson-src-2f555bac43dd57",
+    "type": "synonym",
+    "ordinal": 1154,
+    "label": "#1154 · Clip · noun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-2f555bac43dd57"
+  },
+  {
+    "id": "synonym:lesson-src-03a1c9403f0ae1",
+    "type": "synonym",
+    "ordinal": 1155,
+    "label": "#1155 · Coins",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-03a1c9403f0ae1"
+  },
+  {
+    "id": "synonym:lesson-src-80ebb70dce9a24",
+    "type": "synonym",
+    "ordinal": 1156,
+    "label": "#1156 · Encounter",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-80ebb70dce9a24"
+  },
+  {
+    "id": "synonym:lesson-src-f6c75cc4e1a805",
+    "type": "synonym",
+    "ordinal": 1157,
+    "label": "#1157 · Exam",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f6c75cc4e1a805"
+  },
+  {
+    "id": "synonym:lesson-src-6491e228df9853",
+    "type": "synonym",
+    "ordinal": 1158,
+    "label": "#1158 · Instant access",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6491e228df9853"
+  },
+  {
+    "id": "synonym:lesson-src-39b8083dac6361",
+    "type": "synonym",
+    "ordinal": 1159,
+    "label": "#1159 · Instrument",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-39b8083dac6361"
+  },
+  {
+    "id": "synonym:lesson-src-9e33930fee0b48",
+    "type": "synonym",
+    "ordinal": 1160,
+    "label": "#1160 · Menu",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9e33930fee0b48"
+  },
+  {
+    "id": "synonym:lesson-src-bc6616d65cb2d3",
+    "type": "synonym",
+    "ordinal": 1161,
+    "label": "#1161 · Mutual",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-bc6616d65cb2d3"
+  },
+  {
+    "id": "synonym:lesson-src-fb59e2a4e95ed7",
+    "type": "synonym",
+    "ordinal": 1162,
+    "label": "#1162 · Plastic surgery",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fb59e2a4e95ed7"
+  },
+  {
+    "id": "synonym:lesson-src-9409168bb41a71",
+    "type": "synonym",
+    "ordinal": 1163,
+    "label": "#1163 · Pursue",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-9409168bb41a71"
+  },
+  {
+    "id": "synonym:lesson-src-e2e1ba41f696c5",
+    "type": "synonym",
+    "ordinal": 1164,
+    "label": "#1164 · Realise",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e2e1ba41f696c5"
+  },
+  {
+    "id": "synonym:lesson-src-955642626ef6f8",
+    "type": "synonym",
+    "ordinal": 1165,
+    "label": "#1165 · Requirement",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-955642626ef6f8"
+  },
+  {
+    "id": "synonym:lesson-src-c0ab6da41c67b7",
+    "type": "synonym",
+    "ordinal": 1166,
+    "label": "#1166 · Well laid out",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c0ab6da41c67b7"
+  },
+  {
+    "id": "synonym:lesson-src-ff830075cd7a7d",
+    "type": "synonym",
+    "ordinal": 1167,
+    "label": "#1167 · Considerable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-ff830075cd7a7d"
+  },
+  {
+    "id": "synonym:lesson-src-2d2fd937af6890",
+    "type": "synonym",
+    "ordinal": 1168,
+    "label": "#1168 · Gathering · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2d2fd937af6890"
+  },
+  {
+    "id": "synonym:lesson-src-2700875990ef37",
+    "type": "synonym",
+    "ordinal": 1169,
+    "label": "#1169 · Toys",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-2700875990ef37"
+  },
+  {
+    "id": "synonym:lesson-src-92ef4fc85faea5",
+    "type": "synonym",
+    "ordinal": 1170,
+    "label": "#1170 · Artificial",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-92ef4fc85faea5"
+  },
+  {
+    "id": "synonym:lesson-src-8dac1346347653",
+    "type": "synonym",
+    "ordinal": 1171,
+    "label": "#1171 · Destination",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8dac1346347653"
+  },
+  {
+    "id": "synonym:lesson-src-1bb224e6fbe199",
+    "type": "synonym",
+    "ordinal": 1172,
+    "label": "#1172 · Functional",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-1bb224e6fbe199"
+  },
+  {
+    "id": "synonym:lesson-src-10397b3a5cd5ce",
+    "type": "synonym",
+    "ordinal": 1173,
+    "label": "#1173 · Habit",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-10397b3a5cd5ce"
+  },
+  {
+    "id": "synonym:lesson-src-c01b213e0e1d69",
+    "type": "synonym",
+    "ordinal": 1174,
+    "label": "#1174 · Lazy",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c01b213e0e1d69"
+  },
+  {
+    "id": "synonym:lesson-src-8481032a128a55",
+    "type": "synonym",
+    "ordinal": 1175,
+    "label": "#1175 · Neutral",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8481032a128a55"
+  },
+  {
+    "id": "synonym:lesson-src-143ffc6da7f684",
+    "type": "synonym",
+    "ordinal": 1176,
+    "label": "#1176 · Relate",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-143ffc6da7f684"
+  },
+  {
+    "id": "synonym:lesson-src-4b0c5977a0d74a",
+    "type": "synonym",
+    "ordinal": 1177,
+    "label": "#1177 · Robot",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4b0c5977a0d74a"
+  },
+  {
+    "id": "synonym:lesson-src-f5b6c4c1b81ead",
+    "type": "synonym",
+    "ordinal": 1178,
+    "label": "#1178 · AI",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f5b6c4c1b81ead"
+  },
+  {
+    "id": "synonym:lesson-src-3e80b73ab5bcbf",
+    "type": "synonym",
+    "ordinal": 1179,
+    "label": "#1179 · Asset",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-3e80b73ab5bcbf"
+  },
+  {
+    "id": "synonym:lesson-src-7b596b97bcd658",
+    "type": "synonym",
+    "ordinal": 1180,
+    "label": "#1180 · Casual",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-7b596b97bcd658"
+  },
+  {
+    "id": "synonym:lesson-src-21dac3f920091d",
+    "type": "synonym",
+    "ordinal": 1181,
+    "label": "#1181 · Chef",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-21dac3f920091d"
+  },
+  {
+    "id": "synonym:lesson-src-83b15f3be6cf3f",
+    "type": "synonym",
+    "ordinal": 1182,
+    "label": "#1182 · Coffee Shops",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-83b15f3be6cf3f"
+  },
+  {
+    "id": "synonym:lesson-src-8eb21ff2114830",
+    "type": "synonym",
+    "ordinal": 1183,
+    "label": "#1183 · Complain",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-8eb21ff2114830"
+  },
+  {
+    "id": "synonym:lesson-src-1d34ab7ebd0b8b",
+    "type": "synonym",
+    "ordinal": 1184,
+    "label": "#1184 · Controversial",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-1d34ab7ebd0b8b"
+  },
+  {
+    "id": "synonym:lesson-src-28756dcff11fd6",
+    "type": "synonym",
+    "ordinal": 1185,
+    "label": "#1185 · Discipline",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-28756dcff11fd6"
+  },
+  {
+    "id": "synonym:lesson-src-f0e0fe515c10aa",
+    "type": "synonym",
+    "ordinal": 1186,
+    "label": "#1186 · Essay",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f0e0fe515c10aa"
+  },
+  {
+    "id": "synonym:lesson-src-4ec0ee3a52c53d",
+    "type": "synonym",
+    "ordinal": 1187,
+    "label": "#1187 · Healing",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-4ec0ee3a52c53d"
+  },
+  {
+    "id": "synonym:lesson-src-5ffa85405cc769",
+    "type": "synonym",
+    "ordinal": 1188,
+    "label": "#1188 · Management strategies",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5ffa85405cc769"
+  },
+  {
+    "id": "synonym:lesson-src-0b45383ae55bc8",
+    "type": "synonym",
+    "ordinal": 1189,
+    "label": "#1189 · Outdoor",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-0b45383ae55bc8"
+  },
+  {
+    "id": "synonym:lesson-src-6973701c15e5b0",
+    "type": "synonym",
+    "ordinal": 1190,
+    "label": "#1190 · Strict",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-6973701c15e5b0"
+  },
+  {
+    "id": "synonym:lesson-src-d71930818a252d",
+    "type": "synonym",
+    "ordinal": 1191,
+    "label": "#1191 · Selling products online",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d71930818a252d"
+  },
+  {
+    "id": "synonym:lesson-src-7d6ee55720fe52",
+    "type": "synonym",
+    "ordinal": 1192,
+    "label": "#1192 · Affordable",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-7d6ee55720fe52"
+  },
+  {
+    "id": "synonym:lesson-src-ac60e6fc40e72a",
+    "type": "synonym",
+    "ordinal": 1193,
+    "label": "#1193 · Climb · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-ac60e6fc40e72a"
+  },
+  {
+    "id": "synonym:lesson-src-4a12829a0c6be4",
+    "type": "synonym",
+    "ordinal": 1194,
+    "label": "#1194 · Employer",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4a12829a0c6be4"
+  },
+  {
+    "id": "synonym:lesson-src-e82a709006a2aa",
+    "type": "synonym",
+    "ordinal": 1195,
+    "label": "#1195 · Magical",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e82a709006a2aa"
+  },
+  {
+    "id": "synonym:lesson-src-b3caaa659c0cb4",
+    "type": "synonym",
+    "ordinal": 1196,
+    "label": "#1196 · Productive",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b3caaa659c0cb4"
+  },
+  {
+    "id": "synonym:lesson-src-2b38aed1eda818",
+    "type": "synonym",
+    "ordinal": 1197,
+    "label": "#1197 · Useless",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-2b38aed1eda818"
+  },
+  {
+    "id": "synonym:lesson-src-a55510a9b0fa92",
+    "type": "synonym",
+    "ordinal": 1198,
+    "label": "#1198 · Useless",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a55510a9b0fa92"
+  },
+  {
+    "id": "synonym:lesson-src-d9c4a55b97d8d7",
+    "type": "synonym",
+    "ordinal": 1199,
+    "label": "#1199 · Backup (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d9c4a55b97d8d7"
+  },
+  {
+    "id": "synonym:lesson-src-0dbb95a0b14077",
+    "type": "synonym",
+    "ordinal": 1200,
+    "label": "#1200 · Clever",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0dbb95a0b14077"
+  },
+  {
+    "id": "synonym:lesson-src-546285396630ea",
+    "type": "synonym",
+    "ordinal": 1201,
+    "label": "#1201 · Gradually",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-546285396630ea"
+  },
+  {
+    "id": "synonym:lesson-src-53846b3a46d5e8",
+    "type": "synonym",
+    "ordinal": 1202,
+    "label": "#1202 · Highlight",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-53846b3a46d5e8"
+  },
+  {
+    "id": "synonym:lesson-src-a5c2e044c13c50",
+    "type": "synonym",
+    "ordinal": 1203,
+    "label": "#1203 · Rising Trend",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-a5c2e044c13c50"
+  },
+  {
+    "id": "synonym:lesson-src-14169011ba9d43",
+    "type": "synonym",
+    "ordinal": 1204,
+    "label": "#1204 · School Trips",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-14169011ba9d43"
+  },
+  {
+    "id": "synonym:lesson-src-853978699f9607",
+    "type": "synonym",
+    "ordinal": 1205,
+    "label": "#1205 · Super-Sized",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-853978699f9607"
+  },
+  {
+    "id": "synonym:lesson-src-78dd03881c24e0",
+    "type": "synonym",
+    "ordinal": 1206,
+    "label": "#1206 · Swim",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-78dd03881c24e0"
+  },
+  {
+    "id": "synonym:lesson-src-d860b99377ce93",
+    "type": "synonym",
+    "ordinal": 1207,
+    "label": "#1207 · Get Rid Of",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d860b99377ce93"
+  },
+  {
+    "id": "synonym:lesson-src-813be92964f22c",
+    "type": "synonym",
+    "ordinal": 1208,
+    "label": "#1208 · Attract",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-813be92964f22c"
+  },
+  {
+    "id": "synonym:lesson-src-f2071479a31234",
+    "type": "synonym",
+    "ordinal": 1209,
+    "label": "#1209 · Cheating",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f2071479a31234"
+  },
+  {
+    "id": "synonym:lesson-src-cfa48571fa6ddb",
+    "type": "synonym",
+    "ordinal": 1210,
+    "label": "#1210 · Chronic (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-cfa48571fa6ddb"
+  },
+  {
+    "id": "synonym:lesson-src-6bb2b329f354d9",
+    "type": "synonym",
+    "ordinal": 1211,
+    "label": "#1211 · Communicate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-6bb2b329f354d9"
+  },
+  {
+    "id": "synonym:lesson-src-20d3c3e52604df",
+    "type": "synonym",
+    "ordinal": 1212,
+    "label": "#1212 · Depend (verb)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-20d3c3e52604df"
+  },
+  {
+    "id": "synonym:lesson-src-efe35f3b570ff3",
+    "type": "synonym",
+    "ordinal": 1213,
+    "label": "#1213 · Generous",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-efe35f3b570ff3"
+  },
+  {
+    "id": "synonym:lesson-src-9e523b6fdaeb3c",
+    "type": "synonym",
+    "ordinal": 1214,
+    "label": "#1214 · Good Habits",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-9e523b6fdaeb3c"
+  },
+  {
+    "id": "synonym:lesson-v2-058",
+    "type": "synonym",
+    "ordinal": 1215,
+    "label": "#1215 · Opponent",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-058"
+  },
+  {
+    "id": "synonym:lesson-src-7000dd29c48c7f",
+    "type": "synonym",
+    "ordinal": 1216,
+    "label": "#1216 · Patience (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7000dd29c48c7f"
+  },
+  {
+    "id": "synonym:lesson-src-ed41342391345f",
+    "type": "synonym",
+    "ordinal": 1217,
+    "label": "#1217 · Tourist",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-ed41342391345f"
+  },
+  {
+    "id": "synonym:lesson-src-5b28a4485fb52f",
+    "type": "synonym",
+    "ordinal": 1218,
+    "label": "#1218 · Wireless",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5b28a4485fb52f"
+  },
+  {
+    "id": "synonym:lesson-src-7b53b81c63e3cf",
+    "type": "synonym",
+    "ordinal": 1219,
+    "label": "#1219 · Living in a new country",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-7b53b81c63e3cf"
+  },
+  {
+    "id": "synonym:lesson-src-ce16ba222f047f",
+    "type": "synonym",
+    "ordinal": 1220,
+    "label": "#1220 · Adopt",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-ce16ba222f047f"
+  },
+  {
+    "id": "synonym:lesson-src-1c02a3dff507b0",
+    "type": "synonym",
+    "ordinal": 1221,
+    "label": "#1221 · Coastal · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-1c02a3dff507b0"
+  },
+  {
+    "id": "synonym:lesson-src-09b5941bc3a931",
+    "type": "synonym",
+    "ordinal": 1222,
+    "label": "#1222 · Excitement",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-09b5941bc3a931"
+  },
+  {
+    "id": "synonym:lesson-src-3930c93510b440",
+    "type": "synonym",
+    "ordinal": 1223,
+    "label": "#1223 · Exploration",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-3930c93510b440"
+  },
+  {
+    "id": "synonym:lesson-src-eb0a974d272faa",
+    "type": "synonym",
+    "ordinal": 1224,
+    "label": "#1224 · Nightmare · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-eb0a974d272faa"
+  },
+  {
+    "id": "synonym:lesson-src-9fd3b46e4604c0",
+    "type": "synonym",
+    "ordinal": 1225,
+    "label": "#1225 · Preserve",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-9fd3b46e4604c0"
+  },
+  {
+    "id": "synonym:lesson-src-68f06e9fb85776",
+    "type": "synonym",
+    "ordinal": 1226,
+    "label": "#1226 · Taxi",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-68f06e9fb85776"
+  },
+  {
+    "id": "synonym:lesson-src-f67c3ffd5f092a",
+    "type": "synonym",
+    "ordinal": 1227,
+    "label": "#1227 · Uncomfortable",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f67c3ffd5f092a"
+  },
+  {
+    "id": "synonym:lesson-v2-036",
+    "type": "synonym",
+    "ordinal": 1228,
+    "label": "#1228 · Accessible",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-036"
+  },
+  {
+    "id": "synonym:lesson-src-8922dfda5c3381",
+    "type": "synonym",
+    "ordinal": 1229,
+    "label": "#1229 · Animation",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-8922dfda5c3381"
+  },
+  {
+    "id": "synonym:lesson-src-9590a159a29771",
+    "type": "synonym",
+    "ordinal": 1230,
+    "label": "#1230 · Art collections",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-9590a159a29771"
+  },
+  {
+    "id": "synonym:lesson-src-9bd2e55e95f88b",
+    "type": "synonym",
+    "ordinal": 1231,
+    "label": "#1231 · Assignment",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-9bd2e55e95f88b"
+  },
+  {
+    "id": "synonym:lesson-src-6fe309a2212877",
+    "type": "synonym",
+    "ordinal": 1232,
+    "label": "#1232 · Balanced",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-6fe309a2212877"
+  },
+  {
+    "id": "synonym:lesson-src-607de5c1a812fe",
+    "type": "synonym",
+    "ordinal": 1233,
+    "label": "#1233 · Conscious",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-607de5c1a812fe"
+  },
+  {
+    "id": "synonym:lesson-src-bfa96164f50e4e",
+    "type": "synonym",
+    "ordinal": 1234,
+    "label": "#1234 · Endless",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-bfa96164f50e4e"
+  },
+  {
+    "id": "synonym:lesson-src-4d2c9205f3bca0",
+    "type": "synonym",
+    "ordinal": 1235,
+    "label": "#1235 · Sleeping Patterns",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4d2c9205f3bca0"
+  },
+  {
+    "id": "synonym:lesson-src-794105ffca65f2",
+    "type": "synonym",
+    "ordinal": 1236,
+    "label": "#1236 · Unnecessary",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-794105ffca65f2"
+  },
+  {
+    "id": "synonym:lesson-src-b7094125941a01",
+    "type": "synonym",
+    "ordinal": 1237,
+    "label": "#1237 · Artistic",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-b7094125941a01"
+  },
+  {
+    "id": "synonym:lesson-src-c7ca4ff369a95c",
+    "type": "synonym",
+    "ordinal": 1238,
+    "label": "#1238 · Attendance",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c7ca4ff369a95c"
+  },
+  {
+    "id": "synonym:lesson-src-0146ad34f83f95",
+    "type": "synonym",
+    "ordinal": 1239,
+    "label": "#1239 · Boxing",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0146ad34f83f95"
+  },
+  {
+    "id": "synonym:lesson-src-5f60f1bb90d6ea",
+    "type": "synonym",
+    "ordinal": 1240,
+    "label": "#1240 · Cinema",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-5f60f1bb90d6ea"
+  },
+  {
+    "id": "synonym:lesson-src-9b5dab54b81938",
+    "type": "synonym",
+    "ordinal": 1241,
+    "label": "#1241 · Gentle",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-9b5dab54b81938"
+  },
+  {
+    "id": "synonym:lesson-src-c8d85911fa37af",
+    "type": "synonym",
+    "ordinal": 1242,
+    "label": "#1242 · Reflection (noun)",
+    "detail": "Synonyms · 8 詞組 · 23 題",
+    "url": "synonyms-system.html?module=lesson-src-c8d85911fa37af"
+  },
+  {
+    "id": "synonym:lesson-src-8397b3ba6d14dc",
+    "type": "synonym",
+    "ordinal": 1243,
+    "label": "#1243 · Surveillance",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8397b3ba6d14dc"
+  },
+  {
+    "id": "synonym:lesson-v2-038",
+    "type": "synonym",
+    "ordinal": 1244,
+    "label": "#1244 · Accidents",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-038"
+  },
+  {
+    "id": "synonym:lesson-src-0332174aaaf5ed",
+    "type": "synonym",
+    "ordinal": 1245,
+    "label": "#1245 · Realistic · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0332174aaaf5ed"
+  },
+  {
+    "id": "synonym:lesson-v2-048",
+    "type": "synonym",
+    "ordinal": 1246,
+    "label": "#1246 · Shy",
+    "detail": "Synonyms · 11 詞組 · 22 題",
+    "url": "synonyms-system.html?module=lesson-v2-048"
+  },
+  {
+    "id": "synonym:lesson-src-8776ec06c9c934",
+    "type": "synonym",
+    "ordinal": 1247,
+    "label": "#1247 · Shy",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8776ec06c9c934"
+  },
+  {
+    "id": "synonym:lesson-src-2681c37e62f58c",
+    "type": "synonym",
+    "ordinal": 1248,
+    "label": "#1248 · Installation · noun",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-2681c37e62f58c"
+  },
+  {
+    "id": "synonym:lesson-src-55dbba99baaa1a",
+    "type": "synonym",
+    "ordinal": 1249,
+    "label": "#1249 · Forms of Beauty",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-55dbba99baaa1a"
+  },
+  {
+    "id": "synonym:lesson-src-785b43e8885dba",
+    "type": "synonym",
+    "ordinal": 1250,
+    "label": "#1250 · Burst · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-785b43e8885dba"
+  },
+  {
+    "id": "synonym:lesson-src-f534c7625ed305",
+    "type": "synonym",
+    "ordinal": 1251,
+    "label": "#1251 · Classroom",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f534c7625ed305"
+  },
+  {
+    "id": "synonym:lesson-src-1102380395514d",
+    "type": "synonym",
+    "ordinal": 1252,
+    "label": "#1252 · Convenient",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-1102380395514d"
+  },
+  {
+    "id": "synonym:lesson-src-c27371729eb051",
+    "type": "synonym",
+    "ordinal": 1253,
+    "label": "#1253 · Elderly people",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-c27371729eb051"
+  },
+  {
+    "id": "synonym:lesson-src-8822dea36b46d2",
+    "type": "synonym",
+    "ordinal": 1254,
+    "label": "#1254 · Inform · verb",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8822dea36b46d2"
+  },
+  {
+    "id": "synonym:lesson-src-2427f5548a5cd6",
+    "type": "synonym",
+    "ordinal": 1255,
+    "label": "#1255 · Quietly",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-2427f5548a5cd6"
+  },
+  {
+    "id": "synonym:lesson-src-5f66f345c1574f",
+    "type": "synonym",
+    "ordinal": 1256,
+    "label": "#1256 · Soup",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5f66f345c1574f"
+  },
+  {
+    "id": "synonym:lesson-src-c8bb4d29658c05",
+    "type": "synonym",
+    "ordinal": 1257,
+    "label": "#1257 · Wallet (noun)",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-c8bb4d29658c05"
+  },
+  {
+    "id": "synonym:lesson-src-0def5f147aa458",
+    "type": "synonym",
+    "ordinal": 1258,
+    "label": "#1258 · Workshop",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-0def5f147aa458"
+  },
+  {
+    "id": "synonym:lesson-src-eaa8db181f596d",
+    "type": "synonym",
+    "ordinal": 1259,
+    "label": "#1259 · Abstract · adj.",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-eaa8db181f596d"
+  },
+  {
+    "id": "synonym:lesson-src-68c6686093a6ce",
+    "type": "synonym",
+    "ordinal": 1260,
+    "label": "#1260 · Awake",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-68c6686093a6ce"
+  },
+  {
+    "id": "synonym:lesson-src-671955e4191dfc",
+    "type": "synonym",
+    "ordinal": 1261,
+    "label": "#1261 · Blank · adj",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-671955e4191dfc"
+  },
+  {
+    "id": "synonym:lesson-src-a74400a7e12a8e",
+    "type": "synonym",
+    "ordinal": 1262,
+    "label": "#1262 · Food Paradise",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-a74400a7e12a8e"
+  },
+  {
+    "id": "synonym:lesson-src-3261bdd14a83a1",
+    "type": "synonym",
+    "ordinal": 1263,
+    "label": "#1263 · Ingredients",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-3261bdd14a83a1"
+  },
+  {
+    "id": "synonym:lesson-src-8ab29d0f979145",
+    "type": "synonym",
+    "ordinal": 1264,
+    "label": "#1264 · Meaningful",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-8ab29d0f979145"
+  },
+  {
+    "id": "synonym:lesson-src-7e6942cb742971",
+    "type": "synonym",
+    "ordinal": 1265,
+    "label": "#1265 · Strangers",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7e6942cb742971"
+  },
+  {
+    "id": "synonym:lesson-src-c1854c4ed50443",
+    "type": "synonym",
+    "ordinal": 1266,
+    "label": "#1266 · Cleaning Sessions",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-c1854c4ed50443"
+  },
+  {
+    "id": "synonym:lesson-src-720ea707a1c936",
+    "type": "synonym",
+    "ordinal": 1267,
+    "label": "#1267 · Companion (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-720ea707a1c936"
+  },
+  {
+    "id": "synonym:lesson-src-4aaa8061573a89",
+    "type": "synonym",
+    "ordinal": 1268,
+    "label": "#1268 · Courtesy",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4aaa8061573a89"
+  },
+  {
+    "id": "synonym:lesson-src-c4ff3a1ed22184",
+    "type": "synonym",
+    "ordinal": 1269,
+    "label": "#1269 · Engaging",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-c4ff3a1ed22184"
+  },
+  {
+    "id": "synonym:lesson-src-a6ed92ccec0432",
+    "type": "synonym",
+    "ordinal": 1270,
+    "label": "#1270 · Flexible",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-a6ed92ccec0432"
+  },
+  {
+    "id": "synonym:lesson-src-03831d377b40bd",
+    "type": "synonym",
+    "ordinal": 1271,
+    "label": "#1271 · Homework",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-03831d377b40bd"
+  },
+  {
+    "id": "synonym:lesson-src-d73ec719c5151e",
+    "type": "synonym",
+    "ordinal": 1272,
+    "label": "#1272 · Iconic",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d73ec719c5151e"
+  },
+  {
+    "id": "synonym:lesson-src-5a5d1e7b4c43a8",
+    "type": "synonym",
+    "ordinal": 1273,
+    "label": "#1273 · Athletic",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-5a5d1e7b4c43a8"
+  },
+  {
+    "id": "synonym:lesson-src-d6f64416888845",
+    "type": "synonym",
+    "ordinal": 1274,
+    "label": "#1274 · Banner · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d6f64416888845"
+  },
+  {
+    "id": "synonym:lesson-src-844f74d2cc53f6",
+    "type": "synonym",
+    "ordinal": 1275,
+    "label": "#1275 · Cruel",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-844f74d2cc53f6"
+  },
+  {
+    "id": "synonym:lesson-src-e81bbb27368957",
+    "type": "synonym",
+    "ordinal": 1276,
+    "label": "#1276 · Curriculum",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-e81bbb27368957"
+  },
+  {
+    "id": "synonym:lesson-src-d4ae1c7f65cebe",
+    "type": "synonym",
+    "ordinal": 1277,
+    "label": "#1277 · Deadline · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d4ae1c7f65cebe"
+  },
+  {
+    "id": "synonym:lesson-src-7a5c7309bfe805",
+    "type": "synonym",
+    "ordinal": 1278,
+    "label": "#1278 · Excessive",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7a5c7309bfe805"
+  },
+  {
+    "id": "synonym:lesson-src-2ba0592de488b9",
+    "type": "synonym",
+    "ordinal": 1279,
+    "label": "#1279 · Occasional",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-2ba0592de488b9"
+  },
+  {
+    "id": "synonym:lesson-src-ce4618b429805e",
+    "type": "synonym",
+    "ordinal": 1280,
+    "label": "#1280 · Pet ownership",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ce4618b429805e"
+  },
+  {
+    "id": "synonym:lesson-src-54f71b6feea4de",
+    "type": "synonym",
+    "ordinal": 1281,
+    "label": "#1281 · Reminder (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-54f71b6feea4de"
+  },
+  {
+    "id": "synonym:lesson-src-96c5414fe0b1d1",
+    "type": "synonym",
+    "ordinal": 1282,
+    "label": "#1282 · Road Accidents",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-96c5414fe0b1d1"
+  },
+  {
+    "id": "synonym:lesson-src-b3da29741c9c33",
+    "type": "synonym",
+    "ordinal": 1283,
+    "label": "#1283 · Athlete",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-b3da29741c9c33"
+  },
+  {
+    "id": "synonym:lesson-src-dcc86722c0631b",
+    "type": "synonym",
+    "ordinal": 1284,
+    "label": "#1284 · Attraction",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-dcc86722c0631b"
+  },
+  {
+    "id": "synonym:lesson-src-de115bc3e36d29",
+    "type": "synonym",
+    "ordinal": 1285,
+    "label": "#1285 · Lasting",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-de115bc3e36d29"
+  },
+  {
+    "id": "synonym:lesson-src-90fce2c24d769d",
+    "type": "synonym",
+    "ordinal": 1286,
+    "label": "#1286 · Medium-sized · adj.",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-90fce2c24d769d"
+  },
+  {
+    "id": "synonym:lesson-src-95b400cf6cd80f",
+    "type": "synonym",
+    "ordinal": 1287,
+    "label": "#1287 · Mild",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-95b400cf6cd80f"
+  },
+  {
+    "id": "synonym:lesson-src-91bbe76b15c9e6",
+    "type": "synonym",
+    "ordinal": 1288,
+    "label": "#1288 · Preference",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-91bbe76b15c9e6"
+  },
+  {
+    "id": "synonym:lesson-src-fc35f5a2747728",
+    "type": "synonym",
+    "ordinal": 1289,
+    "label": "#1289 · Selfish",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-fc35f5a2747728"
+  },
+  {
+    "id": "synonym:lesson-src-3b9aae947d4740",
+    "type": "synonym",
+    "ordinal": 1290,
+    "label": "#1290 · Urge",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3b9aae947d4740"
+  },
+  {
+    "id": "synonym:lesson-src-d81b55f2f4fd54",
+    "type": "synonym",
+    "ordinal": 1291,
+    "label": "#1291 · Urge",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d81b55f2f4fd54"
+  },
+  {
+    "id": "synonym:lesson-src-44d62fce4bc9cc",
+    "type": "synonym",
+    "ordinal": 1292,
+    "label": "#1292 · Booth",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-44d62fce4bc9cc"
+  },
+  {
+    "id": "synonym:lesson-src-b4668864554b9a",
+    "type": "synonym",
+    "ordinal": 1293,
+    "label": "#1293 · Breakdown",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-b4668864554b9a"
+  },
+  {
+    "id": "synonym:lesson-src-5e09a3e7965360",
+    "type": "synonym",
+    "ordinal": 1294,
+    "label": "#1294 · Home-Cooked",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-5e09a3e7965360"
+  },
+  {
+    "id": "synonym:lesson-src-29deb426e8e1bd",
+    "type": "synonym",
+    "ordinal": 1295,
+    "label": "#1295 · Hunger",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-29deb426e8e1bd"
+  },
+  {
+    "id": "synonym:lesson-src-006f174ae215cd",
+    "type": "synonym",
+    "ordinal": 1296,
+    "label": "#1296 · Innovative",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-006f174ae215cd"
+  },
+  {
+    "id": "synonym:lesson-src-664897688c00b3",
+    "type": "synonym",
+    "ordinal": 1297,
+    "label": "#1297 · Publish",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-664897688c00b3"
+  },
+  {
+    "id": "synonym:lesson-src-614e540da53f88",
+    "type": "synonym",
+    "ordinal": 1298,
+    "label": "#1298 · Brand Conscious",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-614e540da53f88"
+  },
+  {
+    "id": "synonym:lesson-src-bb6723d6c253eb",
+    "type": "synonym",
+    "ordinal": 1299,
+    "label": "#1299 · Diary",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-bb6723d6c253eb"
+  },
+  {
+    "id": "synonym:lesson-src-5851c36c9d039d",
+    "type": "synonym",
+    "ordinal": 1300,
+    "label": "#1300 · Disagree",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5851c36c9d039d"
+  },
+  {
+    "id": "synonym:lesson-src-1f0ae886247f46",
+    "type": "synonym",
+    "ordinal": 1301,
+    "label": "#1301 · Disappear",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1f0ae886247f46"
+  },
+  {
+    "id": "synonym:lesson-src-bbc04ee482946e",
+    "type": "synonym",
+    "ordinal": 1302,
+    "label": "#1302 · Earliest",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-bbc04ee482946e"
+  },
+  {
+    "id": "synonym:lesson-src-7eb5bfdaaab895",
+    "type": "synonym",
+    "ordinal": 1303,
+    "label": "#1303 · Forecast",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-7eb5bfdaaab895"
+  },
+  {
+    "id": "synonym:lesson-src-7714e3dbf0f614",
+    "type": "synonym",
+    "ordinal": 1304,
+    "label": "#1304 · Indoor",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7714e3dbf0f614"
+  },
+  {
+    "id": "synonym:lesson-src-902909c8651740",
+    "type": "synonym",
+    "ordinal": 1305,
+    "label": "#1305 · Peer pressure",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-902909c8651740"
+  },
+  {
+    "id": "synonym:lesson-src-87ca2c487dbc0b",
+    "type": "synonym",
+    "ordinal": 1306,
+    "label": "#1306 · Web Developer",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-87ca2c487dbc0b"
+  },
+  {
+    "id": "synonym:lesson-src-b2b0890d47b690",
+    "type": "synonym",
+    "ordinal": 1307,
+    "label": "#1307 · Architect",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b2b0890d47b690"
+  },
+  {
+    "id": "synonym:lesson-src-05cee34eacaed3",
+    "type": "synonym",
+    "ordinal": 1308,
+    "label": "#1308 · Beneficial",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-05cee34eacaed3"
+  },
+  {
+    "id": "synonym:lesson-src-9600fc39b98a44",
+    "type": "synonym",
+    "ordinal": 1309,
+    "label": "#1309 · Frustrated",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-9600fc39b98a44"
+  },
+  {
+    "id": "synonym:lesson-src-084427978011ae",
+    "type": "synonym",
+    "ordinal": 1310,
+    "label": "#1310 · Myth",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-084427978011ae"
+  },
+  {
+    "id": "synonym:lesson-src-3a65223ed5fcbb",
+    "type": "synonym",
+    "ordinal": 1311,
+    "label": "#1311 · Organised",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-3a65223ed5fcbb"
+  },
+  {
+    "id": "synonym:lesson-src-088794eb21e8e3",
+    "type": "synonym",
+    "ordinal": 1312,
+    "label": "#1312 · Pop Charts",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-088794eb21e8e3"
+  },
+  {
+    "id": "synonym:lesson-src-8002fc6dfa87af",
+    "type": "synonym",
+    "ordinal": 1313,
+    "label": "#1313 · Concentrate · verb",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8002fc6dfa87af"
+  },
+  {
+    "id": "synonym:lesson-src-07ab3f829516b8",
+    "type": "synonym",
+    "ordinal": 1314,
+    "label": "#1314 · Drain",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-07ab3f829516b8"
+  },
+  {
+    "id": "synonym:lesson-src-78a30bf0de86d5",
+    "type": "synonym",
+    "ordinal": 1315,
+    "label": "#1315 · Emissions",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-78a30bf0de86d5"
+  },
+  {
+    "id": "synonym:lesson-src-df0ac02b681970",
+    "type": "synonym",
+    "ordinal": 1316,
+    "label": "#1316 · Ethical",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-df0ac02b681970"
+  },
+  {
+    "id": "synonym:lesson-src-7cfcfad20fac7d",
+    "type": "synonym",
+    "ordinal": 1317,
+    "label": "#1317 · Freely · adv",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7cfcfad20fac7d"
+  },
+  {
+    "id": "synonym:lesson-src-8d6f7669aa2c56",
+    "type": "synonym",
+    "ordinal": 1318,
+    "label": "#1318 · Graduation",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8d6f7669aa2c56"
+  },
+  {
+    "id": "synonym:lesson-src-1525757d8cd65c",
+    "type": "synonym",
+    "ordinal": 1319,
+    "label": "#1319 · Magazines",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1525757d8cd65c"
+  },
+  {
+    "id": "synonym:lesson-src-91df66eb399b06",
+    "type": "synonym",
+    "ordinal": 1320,
+    "label": "#1320 · Scan",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-91df66eb399b06"
+  },
+  {
+    "id": "synonym:lesson-src-e23eceb96ff5c3",
+    "type": "synonym",
+    "ordinal": 1321,
+    "label": "#1321 · Span",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e23eceb96ff5c3"
+  },
+  {
+    "id": "synonym:lesson-src-f6457446713eb8",
+    "type": "synonym",
+    "ordinal": 1322,
+    "label": "#1322 · Sunny",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f6457446713eb8"
+  },
+  {
+    "id": "synonym:lesson-src-b852756e9eb772",
+    "type": "synonym",
+    "ordinal": 1323,
+    "label": "#1323 · Translation Apps",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b852756e9eb772"
+  },
+  {
+    "id": "synonym:lesson-v2-053",
+    "type": "synonym",
+    "ordinal": 1324,
+    "label": "#1324 · Accommodation",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-053"
+  },
+  {
+    "id": "synonym:lesson-src-49084432c1240f",
+    "type": "synonym",
+    "ordinal": 1325,
+    "label": "#1325 · Blessing",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-49084432c1240f"
+  },
+  {
+    "id": "synonym:lesson-src-8d0095c1e1306a",
+    "type": "synonym",
+    "ordinal": 1326,
+    "label": "#1326 · Cheat",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-8d0095c1e1306a"
+  },
+  {
+    "id": "synonym:lesson-src-37c17762c4322a",
+    "type": "synonym",
+    "ordinal": 1327,
+    "label": "#1327 · Compact",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-37c17762c4322a"
+  },
+  {
+    "id": "synonym:lesson-src-f30f5e2438c493",
+    "type": "synonym",
+    "ordinal": 1328,
+    "label": "#1328 · Future Careers",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f30f5e2438c493"
+  },
+  {
+    "id": "synonym:lesson-src-3990b112172bd4",
+    "type": "synonym",
+    "ordinal": 1329,
+    "label": "#1329 · Grocery · noun",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-3990b112172bd4"
+  },
+  {
+    "id": "synonym:lesson-src-de30ed92e5d2d6",
+    "type": "synonym",
+    "ordinal": 1330,
+    "label": "#1330 · Interactive (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-de30ed92e5d2d6"
+  },
+  {
+    "id": "synonym:lesson-src-64bfe85f184113",
+    "type": "synonym",
+    "ordinal": 1331,
+    "label": "#1331 · Multi-Functional",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-64bfe85f184113"
+  },
+  {
+    "id": "synonym:lesson-src-49144c64d018d7",
+    "type": "synonym",
+    "ordinal": 1332,
+    "label": "#1332 · Password",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-49144c64d018d7"
+  },
+  {
+    "id": "synonym:lesson-src-b1f85361441a01",
+    "type": "synonym",
+    "ordinal": 1333,
+    "label": "#1333 · Remote districts",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-b1f85361441a01"
+  },
+  {
+    "id": "synonym:lesson-src-507bd191141e63",
+    "type": "synonym",
+    "ordinal": 1334,
+    "label": "#1334 · Spectacular · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-507bd191141e63"
+  },
+  {
+    "id": "synonym:lesson-src-24b90874fb5bd0",
+    "type": "synonym",
+    "ordinal": 1335,
+    "label": "#1335 · Street Musicians",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-24b90874fb5bd0"
+  },
+  {
+    "id": "synonym:lesson-src-24ad2f736ed287",
+    "type": "synonym",
+    "ordinal": 1336,
+    "label": "#1336 · Detect",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-24ad2f736ed287"
+  },
+  {
+    "id": "synonym:lesson-src-4de01a335edff5",
+    "type": "synonym",
+    "ordinal": 1337,
+    "label": "#1337 · Heritage Conservation",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-4de01a335edff5"
+  },
+  {
+    "id": "synonym:lesson-src-344c6c88cd1f80",
+    "type": "synonym",
+    "ordinal": 1338,
+    "label": "#1338 · Interact",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-344c6c88cd1f80"
+  },
+  {
+    "id": "synonym:lesson-src-2651242d769c00",
+    "type": "synonym",
+    "ordinal": 1339,
+    "label": "#1339 · Orientation",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-2651242d769c00"
+  },
+  {
+    "id": "synonym:lesson-src-c2eccd77d46063",
+    "type": "synonym",
+    "ordinal": 1340,
+    "label": "#1340 · Withdraw",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-c2eccd77d46063"
+  },
+  {
+    "id": "synonym:lesson-src-1da306704ea4c0",
+    "type": "synonym",
+    "ordinal": 1341,
+    "label": "#1341 · Attendance Requirements",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1da306704ea4c0"
+  },
+  {
+    "id": "synonym:lesson-src-f0b6ef92c93d67",
+    "type": "synonym",
+    "ordinal": 1342,
+    "label": "#1342 · Cope With",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-f0b6ef92c93d67"
+  },
+  {
+    "id": "synonym:lesson-src-0760a2c040c496",
+    "type": "synonym",
+    "ordinal": 1343,
+    "label": "#1343 · Courtesy classes",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0760a2c040c496"
+  },
+  {
+    "id": "synonym:lesson-src-d847029ccf05c2",
+    "type": "synonym",
+    "ordinal": 1344,
+    "label": "#1344 · Donate",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-d847029ccf05c2"
+  },
+  {
+    "id": "synonym:lesson-src-45879ef2e5648f",
+    "type": "synonym",
+    "ordinal": 1345,
+    "label": "#1345 · Emotionally",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-45879ef2e5648f"
+  },
+  {
+    "id": "synonym:lesson-src-3bb602d0b8114e",
+    "type": "synonym",
+    "ordinal": 1346,
+    "label": "#1346 · Sketch · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3bb602d0b8114e"
+  },
+  {
+    "id": "synonym:lesson-src-4f022edaabb07e",
+    "type": "synonym",
+    "ordinal": 1347,
+    "label": "#1347 · Workplace",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-4f022edaabb07e"
+  },
+  {
+    "id": "synonym:lesson-src-4c5a40c068c9ff",
+    "type": "synonym",
+    "ordinal": 1348,
+    "label": "#1348 · Headline · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4c5a40c068c9ff"
+  },
+  {
+    "id": "synonym:lesson-src-18cf2241216b68",
+    "type": "synonym",
+    "ordinal": 1349,
+    "label": "#1349 · Anchor",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-18cf2241216b68"
+  },
+  {
+    "id": "synonym:lesson-src-a4596296e0abaf",
+    "type": "synonym",
+    "ordinal": 1350,
+    "label": "#1350 · Convenience · noun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a4596296e0abaf"
+  },
+  {
+    "id": "synonym:lesson-src-779e9755518bc5",
+    "type": "synonym",
+    "ordinal": 1351,
+    "label": "#1351 · Dictionary",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-779e9755518bc5"
+  },
+  {
+    "id": "synonym:lesson-src-69fc047e1deea0",
+    "type": "synonym",
+    "ordinal": 1352,
+    "label": "#1352 · Enthusiasm",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-69fc047e1deea0"
+  },
+  {
+    "id": "synonym:lesson-src-534c06ed7ffd09",
+    "type": "synonym",
+    "ordinal": 1353,
+    "label": "#1353 · Equation",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-534c06ed7ffd09"
+  },
+  {
+    "id": "synonym:lesson-src-d65d0468e6cd8e",
+    "type": "synonym",
+    "ordinal": 1354,
+    "label": "#1354 · Subscribe",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d65d0468e6cd8e"
+  },
+  {
+    "id": "synonym:lesson-src-94639880ecfe46",
+    "type": "synonym",
+    "ordinal": 1355,
+    "label": "#1355 · Warn",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-94639880ecfe46"
+  },
+  {
+    "id": "synonym:lesson-src-4ada6c208211ac",
+    "type": "synonym",
+    "ordinal": 1356,
+    "label": "#1356 · Apartments",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4ada6c208211ac"
+  },
+  {
+    "id": "synonym:lesson-src-7b52c23c5ff522",
+    "type": "synonym",
+    "ordinal": 1357,
+    "label": "#1357 · Massage",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7b52c23c5ff522"
+  },
+  {
+    "id": "synonym:lesson-src-a5041ac5b2aa68",
+    "type": "synonym",
+    "ordinal": 1358,
+    "label": "#1358 · Precision",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a5041ac5b2aa68"
+  },
+  {
+    "id": "synonym:lesson-src-df3f3bcad6be07",
+    "type": "synonym",
+    "ordinal": 1359,
+    "label": "#1359 · Borrow",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-df3f3bcad6be07"
+  },
+  {
+    "id": "synonym:lesson-src-3d4b791132a743",
+    "type": "synonym",
+    "ordinal": 1360,
+    "label": "#1360 · Camping",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3d4b791132a743"
+  },
+  {
+    "id": "synonym:lesson-src-aad2837e291164",
+    "type": "synonym",
+    "ordinal": 1361,
+    "label": "#1361 · Kindness · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-aad2837e291164"
+  },
+  {
+    "id": "synonym:lesson-src-d991d7ac88bd2c",
+    "type": "synonym",
+    "ordinal": 1362,
+    "label": "#1362 · Pledge",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d991d7ac88bd2c"
+  },
+  {
+    "id": "synonym:lesson-src-11bde411e18fca",
+    "type": "synonym",
+    "ordinal": 1363,
+    "label": "#1363 · Clerk",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-11bde411e18fca"
+  },
+  {
+    "id": "synonym:lesson-src-2a18cecc723e17",
+    "type": "synonym",
+    "ordinal": 1364,
+    "label": "#1364 · On a Regular Basis",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-2a18cecc723e17"
+  },
+  {
+    "id": "synonym:lesson-src-97c45ba39e3967",
+    "type": "synonym",
+    "ordinal": 1365,
+    "label": "#1365 · Accurately",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-97c45ba39e3967"
+  },
+  {
+    "id": "synonym:lesson-src-4c7a0fe72c3153",
+    "type": "synonym",
+    "ordinal": 1366,
+    "label": "#1366 · Consistency",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4c7a0fe72c3153"
+  },
+  {
+    "id": "synonym:lesson-src-1d1b0264eb06b1",
+    "type": "synonym",
+    "ordinal": 1367,
+    "label": "#1367 · Neat · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-1d1b0264eb06b1"
+  },
+  {
+    "id": "synonym:lesson-src-a1ab3630c9d631",
+    "type": "synonym",
+    "ordinal": 1368,
+    "label": "#1368 · Perfection",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-a1ab3630c9d631"
+  },
+  {
+    "id": "synonym:lesson-src-eced487086c709",
+    "type": "synonym",
+    "ordinal": 1369,
+    "label": "#1369 · Propose",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-eced487086c709"
+  },
+  {
+    "id": "synonym:lesson-src-bee7b844cf8065",
+    "type": "synonym",
+    "ordinal": 1370,
+    "label": "#1370 · Recruiting",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-bee7b844cf8065"
+  },
+  {
+    "id": "synonym:lesson-src-baae0ae1881af4",
+    "type": "synonym",
+    "ordinal": 1371,
+    "label": "#1371 · Spark",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-baae0ae1881af4"
+  },
+  {
+    "id": "synonym:lesson-src-b62a76509429f7",
+    "type": "synonym",
+    "ordinal": 1372,
+    "label": "#1372 · Steep",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b62a76509429f7"
+  },
+  {
+    "id": "synonym:lesson-src-5629ba32004f78",
+    "type": "synonym",
+    "ordinal": 1373,
+    "label": "#1373 · Archive · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5629ba32004f78"
+  },
+  {
+    "id": "synonym:lesson-src-43cb28e5bab54a",
+    "type": "synonym",
+    "ordinal": 1374,
+    "label": "#1374 · Crowded",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-43cb28e5bab54a"
+  },
+  {
+    "id": "synonym:lesson-src-656bb710e97830",
+    "type": "synonym",
+    "ordinal": 1375,
+    "label": "#1375 · Cyber",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-656bb710e97830"
+  },
+  {
+    "id": "synonym:lesson-src-1583e72ea8fcda",
+    "type": "synonym",
+    "ordinal": 1376,
+    "label": "#1376 · Dense",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-1583e72ea8fcda"
+  },
+  {
+    "id": "synonym:lesson-src-1744ab0569ffb4",
+    "type": "synonym",
+    "ordinal": 1377,
+    "label": "#1377 · Expose",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-1744ab0569ffb4"
+  },
+  {
+    "id": "synonym:lesson-src-88d027e5c66261",
+    "type": "synonym",
+    "ordinal": 1378,
+    "label": "#1378 · Habitat",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-88d027e5c66261"
+  },
+  {
+    "id": "synonym:lesson-src-11f4e8952cbaac",
+    "type": "synonym",
+    "ordinal": 1379,
+    "label": "#1379 · Rushed",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-11f4e8952cbaac"
+  },
+  {
+    "id": "synonym:lesson-src-c55727c3886664",
+    "type": "synonym",
+    "ordinal": 1380,
+    "label": "#1380 · Admire",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c55727c3886664"
+  },
+  {
+    "id": "synonym:lesson-src-f7ae69430006da",
+    "type": "synonym",
+    "ordinal": 1381,
+    "label": "#1381 · Curiosity",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f7ae69430006da"
+  },
+  {
+    "id": "synonym:lesson-src-eed56ad318898e",
+    "type": "synonym",
+    "ordinal": 1382,
+    "label": "#1382 · Lanes",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-eed56ad318898e"
+  },
+  {
+    "id": "synonym:lesson-src-942ef70e87ffce",
+    "type": "synonym",
+    "ordinal": 1383,
+    "label": "#1383 · Licence",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-942ef70e87ffce"
+  },
+  {
+    "id": "synonym:lesson-src-a896ab36ba3caa",
+    "type": "synonym",
+    "ordinal": 1384,
+    "label": "#1384 · Manga",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-a896ab36ba3caa"
+  },
+  {
+    "id": "synonym:lesson-src-bfb868b203177c",
+    "type": "synonym",
+    "ordinal": 1385,
+    "label": "#1385 · Martial Arts",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-bfb868b203177c"
+  },
+  {
+    "id": "synonym:lesson-src-80c5ebb088e6c7",
+    "type": "synonym",
+    "ordinal": 1386,
+    "label": "#1386 · Memorable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-80c5ebb088e6c7"
+  },
+  {
+    "id": "synonym:lesson-src-e4b7636f5c7456",
+    "type": "synonym",
+    "ordinal": 1387,
+    "label": "#1387 · Portable",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e4b7636f5c7456"
+  },
+  {
+    "id": "synonym:lesson-src-9c476d48984d6f",
+    "type": "synonym",
+    "ordinal": 1388,
+    "label": "#1388 · Food Portions",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-9c476d48984d6f"
+  },
+  {
+    "id": "synonym:lesson-src-1551b8b110758d",
+    "type": "synonym",
+    "ordinal": 1389,
+    "label": "#1389 · Renowned",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1551b8b110758d"
+  },
+  {
+    "id": "synonym:lesson-src-2cd19a352a3715",
+    "type": "synonym",
+    "ordinal": 1390,
+    "label": "#1390 · Shopping On Social Media",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2cd19a352a3715"
+  },
+  {
+    "id": "synonym:lesson-src-a414f14a91fe23",
+    "type": "synonym",
+    "ordinal": 1391,
+    "label": "#1391 · Appealing",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-a414f14a91fe23"
+  },
+  {
+    "id": "synonym:lesson-src-687e77df5799fe",
+    "type": "synonym",
+    "ordinal": 1392,
+    "label": "#1392 · Bargain",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-687e77df5799fe"
+  },
+  {
+    "id": "synonym:lesson-src-e231bacb72beb2",
+    "type": "synonym",
+    "ordinal": 1393,
+    "label": "#1393 · Blend",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-e231bacb72beb2"
+  },
+  {
+    "id": "synonym:lesson-src-ac01b8d1077653",
+    "type": "synonym",
+    "ordinal": 1394,
+    "label": "#1394 · Critic",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ac01b8d1077653"
+  },
+  {
+    "id": "synonym:lesson-src-b2e54068f99587",
+    "type": "synonym",
+    "ordinal": 1395,
+    "label": "#1395 · Hike",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-b2e54068f99587"
+  },
+  {
+    "id": "synonym:lesson-src-c46e905f60b318",
+    "type": "synonym",
+    "ordinal": 1396,
+    "label": "#1396 · Meditation",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-c46e905f60b318"
+  },
+  {
+    "id": "synonym:lesson-src-8b4751ea7ad46c",
+    "type": "synonym",
+    "ordinal": 1397,
+    "label": "#1397 · Crowded places",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8b4751ea7ad46c"
+  },
+  {
+    "id": "synonym:lesson-src-159bc94673b9d6",
+    "type": "synonym",
+    "ordinal": 1398,
+    "label": "#1398 · Dull",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-159bc94673b9d6"
+  },
+  {
+    "id": "synonym:lesson-src-ff1e6850f490d9",
+    "type": "synonym",
+    "ordinal": 1399,
+    "label": "#1399 · Hobby",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-ff1e6850f490d9"
+  },
+  {
+    "id": "synonym:lesson-src-9d87eb6ec3b522",
+    "type": "synonym",
+    "ordinal": 1400,
+    "label": "#1400 · Neighbourhood (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9d87eb6ec3b522"
+  },
+  {
+    "id": "synonym:lesson-src-fd3ea8b7eea9a8",
+    "type": "synonym",
+    "ordinal": 1401,
+    "label": "#1401 · Networking",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fd3ea8b7eea9a8"
+  },
+  {
+    "id": "synonym:lesson-src-d80d986898b682",
+    "type": "synonym",
+    "ordinal": 1402,
+    "label": "#1402 · Squeeze (verb)",
+    "detail": "Synonyms · 8 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-src-d80d986898b682"
+  },
+  {
+    "id": "synonym:lesson-src-82199f03adf556",
+    "type": "synonym",
+    "ordinal": 1403,
+    "label": "#1403 · Suspects",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-82199f03adf556"
+  },
+  {
+    "id": "synonym:lesson-src-540a189083830b",
+    "type": "synonym",
+    "ordinal": 1404,
+    "label": "#1404 · Swap",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-540a189083830b"
+  },
+  {
+    "id": "synonym:lesson-src-99077045b6f0a1",
+    "type": "synonym",
+    "ordinal": 1405,
+    "label": "#1405 · Themed",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-99077045b6f0a1"
+  },
+  {
+    "id": "synonym:lesson-src-66646686651210",
+    "type": "synonym",
+    "ordinal": 1406,
+    "label": "#1406 · Threaten",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-66646686651210"
+  },
+  {
+    "id": "synonym:lesson-src-0fd633f6036170",
+    "type": "synonym",
+    "ordinal": 1407,
+    "label": "#1407 · Old-fashioned · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0fd633f6036170"
+  },
+  {
+    "id": "synonym:lesson-src-c154cfdacca015",
+    "type": "synonym",
+    "ordinal": 1408,
+    "label": "#1408 · Recruiting Firm",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c154cfdacca015"
+  },
+  {
+    "id": "synonym:lesson-src-9356ae9ccc52cb",
+    "type": "synonym",
+    "ordinal": 1409,
+    "label": "#1409 · Soundtrack",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9356ae9ccc52cb"
+  },
+  {
+    "id": "synonym:lesson-src-dacdd3be34a490",
+    "type": "synonym",
+    "ordinal": 1410,
+    "label": "#1410 · Countryside",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-dacdd3be34a490"
+  },
+  {
+    "id": "synonym:lesson-src-f3ac1a8aad9f98",
+    "type": "synonym",
+    "ordinal": 1411,
+    "label": "#1411 · Leisure",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-f3ac1a8aad9f98"
+  },
+  {
+    "id": "synonym:lesson-src-a926c4e50e1675",
+    "type": "synonym",
+    "ordinal": 1412,
+    "label": "#1412 · Notification",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a926c4e50e1675"
+  },
+  {
+    "id": "synonym:lesson-src-ec4eba0b820a8d",
+    "type": "synonym",
+    "ordinal": 1413,
+    "label": "#1413 · Polite",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-ec4eba0b820a8d"
+  },
+  {
+    "id": "synonym:lesson-src-289bdfed9ff27d",
+    "type": "synonym",
+    "ordinal": 1414,
+    "label": "#1414 · Recognise",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-289bdfed9ff27d"
+  },
+  {
+    "id": "synonym:lesson-src-d5f6b2c2523572",
+    "type": "synonym",
+    "ordinal": 1415,
+    "label": "#1415 · Reliability",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d5f6b2c2523572"
+  },
+  {
+    "id": "synonym:lesson-src-d9bb30821883bb",
+    "type": "synonym",
+    "ordinal": 1416,
+    "label": "#1416 · Researcher",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d9bb30821883bb"
+  },
+  {
+    "id": "synonym:lesson-src-4a514723aed6c6",
+    "type": "synonym",
+    "ordinal": 1417,
+    "label": "#1417 · Gender Pay Gap",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4a514723aed6c6"
+  },
+  {
+    "id": "synonym:lesson-src-3d01d7258881f0",
+    "type": "synonym",
+    "ordinal": 1418,
+    "label": "#1418 · Number of viewers",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3d01d7258881f0"
+  },
+  {
+    "id": "synonym:lesson-src-e94b87ef25f1c9",
+    "type": "synonym",
+    "ordinal": 1419,
+    "label": "#1419 · Aerial",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e94b87ef25f1c9"
+  },
+  {
+    "id": "synonym:lesson-src-3fd44929a120dd",
+    "type": "synonym",
+    "ordinal": 1420,
+    "label": "#1420 · Ambition",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3fd44929a120dd"
+  },
+  {
+    "id": "synonym:lesson-src-4dd83099136219",
+    "type": "synonym",
+    "ordinal": 1421,
+    "label": "#1421 · Bus Lanes",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-4dd83099136219"
+  },
+  {
+    "id": "synonym:lesson-src-0e5d15e72565d9",
+    "type": "synonym",
+    "ordinal": 1422,
+    "label": "#1422 · Enjoyable",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-0e5d15e72565d9"
+  },
+  {
+    "id": "synonym:lesson-src-8c9287049f2ebd",
+    "type": "synonym",
+    "ordinal": 1423,
+    "label": "#1423 · Glance",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8c9287049f2ebd"
+  },
+  {
+    "id": "synonym:lesson-src-91c9d844fb65c6",
+    "type": "synonym",
+    "ordinal": 1424,
+    "label": "#1424 · Hometown",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-91c9d844fb65c6"
+  },
+  {
+    "id": "synonym:lesson-src-2a1a0d752c796c",
+    "type": "synonym",
+    "ordinal": 1425,
+    "label": "#1425 · Recreational",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2a1a0d752c796c"
+  },
+  {
+    "id": "synonym:lesson-src-1e153c8c1b1f36",
+    "type": "synonym",
+    "ordinal": 1426,
+    "label": "#1426 · Tablets",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-1e153c8c1b1f36"
+  },
+  {
+    "id": "synonym:lesson-src-ef406b5ea2073d",
+    "type": "synonym",
+    "ordinal": 1427,
+    "label": "#1427 · Animal-Assisted Therapy",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-ef406b5ea2073d"
+  },
+  {
+    "id": "synonym:lesson-src-a5dac6565fa5db",
+    "type": "synonym",
+    "ordinal": 1428,
+    "label": "#1428 · Clarity",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a5dac6565fa5db"
+  },
+  {
+    "id": "synonym:lesson-src-247685045238d6",
+    "type": "synonym",
+    "ordinal": 1429,
+    "label": "#1429 · Coordination",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-247685045238d6"
+  },
+  {
+    "id": "synonym:lesson-src-708ab0201d15c0",
+    "type": "synonym",
+    "ordinal": 1430,
+    "label": "#1430 · Gesture",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-708ab0201d15c0"
+  },
+  {
+    "id": "synonym:lesson-src-3f5cf406a7764f",
+    "type": "synonym",
+    "ordinal": 1431,
+    "label": "#1431 · Hospitality",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-3f5cf406a7764f"
+  },
+  {
+    "id": "synonym:lesson-src-f7a6cb956a1b37",
+    "type": "synonym",
+    "ordinal": 1432,
+    "label": "#1432 · Persistent",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f7a6cb956a1b37"
+  },
+  {
+    "id": "synonym:lesson-src-586a8c9b63d48e",
+    "type": "synonym",
+    "ordinal": 1433,
+    "label": "#1433 · Boot Camps",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-586a8c9b63d48e"
+  },
+  {
+    "id": "synonym:lesson-src-7c43c2d9f59752",
+    "type": "synonym",
+    "ordinal": 1434,
+    "label": "#1434 · Costumes",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-7c43c2d9f59752"
+  },
+  {
+    "id": "synonym:lesson-src-4f106cd2e856ed",
+    "type": "synonym",
+    "ordinal": 1435,
+    "label": "#1435 · Dislike",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4f106cd2e856ed"
+  },
+  {
+    "id": "synonym:lesson-src-21881d8dda4fff",
+    "type": "synonym",
+    "ordinal": 1436,
+    "label": "#1436 · Recruit",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-21881d8dda4fff"
+  },
+  {
+    "id": "synonym:lesson-src-dba3bd2de16690",
+    "type": "synonym",
+    "ordinal": 1437,
+    "label": "#1437 · Sincerely",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-dba3bd2de16690"
+  },
+  {
+    "id": "synonym:lesson-src-75d35e209e87e2",
+    "type": "synonym",
+    "ordinal": 1438,
+    "label": "#1438 · Umbrella",
+    "detail": "Synonyms · 2 詞組 · 6 題",
+    "url": "synonyms-system.html?module=lesson-src-75d35e209e87e2"
+  },
+  {
+    "id": "synonym:lesson-src-1747b28705479c",
+    "type": "synonym",
+    "ordinal": 1439,
+    "label": "#1439 · Mission To Mars",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-1747b28705479c"
+  },
+  {
+    "id": "synonym:lesson-src-b6c35d8d92ce00",
+    "type": "synonym",
+    "ordinal": 1440,
+    "label": "#1440 · Struggling with debt",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b6c35d8d92ce00"
+  },
+  {
+    "id": "synonym:lesson-src-8e276fa4f4f278",
+    "type": "synonym",
+    "ordinal": 1441,
+    "label": "#1441 · Leisure Activities",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8e276fa4f4f278"
+  },
+  {
+    "id": "synonym:lesson-src-5ddff8db76991e",
+    "type": "synonym",
+    "ordinal": 1442,
+    "label": "#1442 · Proximity",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5ddff8db76991e"
+  },
+  {
+    "id": "synonym:lesson-src-5015cfe7b77d74",
+    "type": "synonym",
+    "ordinal": 1443,
+    "label": "#1443 · Qualification · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-5015cfe7b77d74"
+  },
+  {
+    "id": "synonym:lesson-src-6d2a22fbe12592",
+    "type": "synonym",
+    "ordinal": 1444,
+    "label": "#1444 · Self-Esteem",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-6d2a22fbe12592"
+  },
+  {
+    "id": "synonym:lesson-src-abfd1669227897",
+    "type": "synonym",
+    "ordinal": 1445,
+    "label": "#1445 · Terrace",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-abfd1669227897"
+  },
+  {
+    "id": "synonym:lesson-src-69dfc816b7c2e6",
+    "type": "synonym",
+    "ordinal": 1446,
+    "label": "#1446 · Calculate",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-69dfc816b7c2e6"
+  },
+  {
+    "id": "synonym:lesson-src-c8cfc9971737f3",
+    "type": "synonym",
+    "ordinal": 1447,
+    "label": "#1447 · Dominate",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-c8cfc9971737f3"
+  },
+  {
+    "id": "synonym:lesson-src-7d8ea59b944a83",
+    "type": "synonym",
+    "ordinal": 1448,
+    "label": "#1448 · Parenting",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7d8ea59b944a83"
+  },
+  {
+    "id": "synonym:lesson-src-8e3b0b58c155b5",
+    "type": "synonym",
+    "ordinal": 1449,
+    "label": "#1449 · Pharmacy",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8e3b0b58c155b5"
+  },
+  {
+    "id": "synonym:lesson-src-4bd5d4a3db61bd",
+    "type": "synonym",
+    "ordinal": 1450,
+    "label": "#1450 · Rubbish · noun",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-4bd5d4a3db61bd"
+  },
+  {
+    "id": "synonym:lesson-src-8b57d51acca68c",
+    "type": "synonym",
+    "ordinal": 1451,
+    "label": "#1451 · Swallow",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-8b57d51acca68c"
+  },
+  {
+    "id": "synonym:lesson-src-d9ccd304256a8d",
+    "type": "synonym",
+    "ordinal": 1452,
+    "label": "#1452 · Vague",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d9ccd304256a8d"
+  },
+  {
+    "id": "synonym:lesson-src-0fea23184deb5e",
+    "type": "synonym",
+    "ordinal": 1453,
+    "label": "#1453 · Movie Streaming Service",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0fea23184deb5e"
+  },
+  {
+    "id": "synonym:lesson-src-e5913a25e52487",
+    "type": "synonym",
+    "ordinal": 1454,
+    "label": "#1454 · Cooperative",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e5913a25e52487"
+  },
+  {
+    "id": "synonym:lesson-src-1d7517543a3cfb",
+    "type": "synonym",
+    "ordinal": 1455,
+    "label": "#1455 · Endangered",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-1d7517543a3cfb"
+  },
+  {
+    "id": "synonym:lesson-src-10cde1a461c751",
+    "type": "synonym",
+    "ordinal": 1456,
+    "label": "#1456 · Irony",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-10cde1a461c751"
+  },
+  {
+    "id": "synonym:lesson-src-e1de13dc19c845",
+    "type": "synonym",
+    "ordinal": 1457,
+    "label": "#1457 · Logistics",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e1de13dc19c845"
+  },
+  {
+    "id": "synonym:lesson-src-d2ae074682bd9f",
+    "type": "synonym",
+    "ordinal": 1458,
+    "label": "#1458 · Night owl",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d2ae074682bd9f"
+  },
+  {
+    "id": "synonym:lesson-src-edc4604cd675e7",
+    "type": "synonym",
+    "ordinal": 1459,
+    "label": "#1459 · Street",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-edc4604cd675e7"
+  },
+  {
+    "id": "synonym:lesson-src-d8292715d8e8db",
+    "type": "synonym",
+    "ordinal": 1460,
+    "label": "#1460 · Eye-opener",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d8292715d8e8db"
+  },
+  {
+    "id": "synonym:lesson-src-8b2e69a274396c",
+    "type": "synonym",
+    "ordinal": 1461,
+    "label": "#1461 · Successful Economies",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-8b2e69a274396c"
+  },
+  {
+    "id": "synonym:lesson-src-13e2e7f346cd24",
+    "type": "synonym",
+    "ordinal": 1462,
+    "label": "#1462 · Tourist attraction",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-13e2e7f346cd24"
+  },
+  {
+    "id": "synonym:lesson-src-ca3f80a84f4973",
+    "type": "synonym",
+    "ordinal": 1463,
+    "label": "#1463 · Advertisement",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ca3f80a84f4973"
+  },
+  {
+    "id": "synonym:lesson-src-d75d28171dec42",
+    "type": "synonym",
+    "ordinal": 1464,
+    "label": "#1464 · Analysts",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d75d28171dec42"
+  },
+  {
+    "id": "synonym:lesson-src-864092422d5c82",
+    "type": "synonym",
+    "ordinal": 1465,
+    "label": "#1465 · Digital museums",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-864092422d5c82"
+  },
+  {
+    "id": "synonym:lesson-src-fe564b5f987547",
+    "type": "synonym",
+    "ordinal": 1466,
+    "label": "#1466 · Paperwork",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-fe564b5f987547"
+  },
+  {
+    "id": "synonym:lesson-src-b62dca80d1c186",
+    "type": "synonym",
+    "ordinal": 1467,
+    "label": "#1467 · Sincere",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-b62dca80d1c186"
+  },
+  {
+    "id": "synonym:lesson-src-6e7634101256ee",
+    "type": "synonym",
+    "ordinal": 1468,
+    "label": "#1468 · Humour",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-6e7634101256ee"
+  },
+  {
+    "id": "synonym:lesson-src-abcef1c793fa7b",
+    "type": "synonym",
+    "ordinal": 1469,
+    "label": "#1469 · Livestock",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-abcef1c793fa7b"
+  },
+  {
+    "id": "synonym:lesson-src-dc6d68c93e5c9e",
+    "type": "synonym",
+    "ordinal": 1470,
+    "label": "#1470 · Manners",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-dc6d68c93e5c9e"
+  },
+  {
+    "id": "synonym:lesson-src-898b71f242a35d",
+    "type": "synonym",
+    "ordinal": 1471,
+    "label": "#1471 · Refreshing · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-898b71f242a35d"
+  },
+  {
+    "id": "synonym:lesson-src-c90ce80327ef55",
+    "type": "synonym",
+    "ordinal": 1472,
+    "label": "#1472 · Addicted",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-c90ce80327ef55"
+  },
+  {
+    "id": "synonym:lesson-src-dfa837972be021",
+    "type": "synonym",
+    "ordinal": 1473,
+    "label": "#1473 · Decoration",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-dfa837972be021"
+  },
+  {
+    "id": "synonym:lesson-src-012644ebeab90b",
+    "type": "synonym",
+    "ordinal": 1474,
+    "label": "#1474 · Marketplace",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-012644ebeab90b"
+  },
+  {
+    "id": "synonym:lesson-src-e0870af70f0945",
+    "type": "synonym",
+    "ordinal": 1475,
+    "label": "#1475 · Nap",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-e0870af70f0945"
+  },
+  {
+    "id": "synonym:lesson-src-c50192569be8f4",
+    "type": "synonym",
+    "ordinal": 1476,
+    "label": "#1476 · Persuade",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-c50192569be8f4"
+  },
+  {
+    "id": "synonym:lesson-src-fb3e6032abdedb",
+    "type": "synonym",
+    "ordinal": 1477,
+    "label": "#1477 · Surge",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-fb3e6032abdedb"
+  },
+  {
+    "id": "synonym:lesson-src-f9e71f521777f8",
+    "type": "synonym",
+    "ordinal": 1478,
+    "label": "#1478 · Road",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-f9e71f521777f8"
+  },
+  {
+    "id": "synonym:lesson-src-462a0a8c97fafd",
+    "type": "synonym",
+    "ordinal": 1479,
+    "label": "#1479 · Architectural heritage",
+    "detail": "Synonyms · 16 詞組 · 48 題",
+    "url": "synonyms-system.html?module=lesson-src-462a0a8c97fafd"
+  },
+  {
+    "id": "synonym:lesson-src-b444ae9ba669de",
+    "type": "synonym",
+    "ordinal": 1480,
+    "label": "#1480 · Blood donors",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-b444ae9ba669de"
+  },
+  {
+    "id": "synonym:lesson-src-d84d4bc21c5378",
+    "type": "synonym",
+    "ordinal": 1481,
+    "label": "#1481 · Coding",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d84d4bc21c5378"
+  },
+  {
+    "id": "synonym:lesson-src-e23ee32ac5c278",
+    "type": "synonym",
+    "ordinal": 1482,
+    "label": "#1482 · Dolls",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e23ee32ac5c278"
+  },
+  {
+    "id": "synonym:lesson-src-dfc423b0e8718e",
+    "type": "synonym",
+    "ordinal": 1483,
+    "label": "#1483 · Exhaust · verb",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-dfc423b0e8718e"
+  },
+  {
+    "id": "synonym:lesson-src-a692a0fa229736",
+    "type": "synonym",
+    "ordinal": 1484,
+    "label": "#1484 · Obesity",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a692a0fa229736"
+  },
+  {
+    "id": "synonym:lesson-src-cb6bc6cc0c2a25",
+    "type": "synonym",
+    "ordinal": 1485,
+    "label": "#1485 · Posed · adj",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-cb6bc6cc0c2a25"
+  },
+  {
+    "id": "synonym:lesson-src-bb1b1580e7d3d6",
+    "type": "synonym",
+    "ordinal": 1486,
+    "label": "#1486 · Pupil",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-bb1b1580e7d3d6"
+  },
+  {
+    "id": "synonym:lesson-src-4fcea59e904271",
+    "type": "synonym",
+    "ordinal": 1487,
+    "label": "#1487 · Respiratory",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4fcea59e904271"
+  },
+  {
+    "id": "synonym:lesson-src-e4b7c10ff17b2d",
+    "type": "synonym",
+    "ordinal": 1488,
+    "label": "#1488 · Evolve · verb",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e4b7c10ff17b2d"
+  },
+  {
+    "id": "synonym:lesson-src-a2393fbcd18d42",
+    "type": "synonym",
+    "ordinal": 1489,
+    "label": "#1489 · Luggage",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a2393fbcd18d42"
+  },
+  {
+    "id": "synonym:lesson-src-6937945e511d85",
+    "type": "synonym",
+    "ordinal": 1490,
+    "label": "#1490 · Performer",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-6937945e511d85"
+  },
+  {
+    "id": "synonym:lesson-src-78156aa752e4ff",
+    "type": "synonym",
+    "ordinal": 1491,
+    "label": "#1491 · Restrict · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-78156aa752e4ff"
+  },
+  {
+    "id": "synonym:lesson-src-75ad5150c0962b",
+    "type": "synonym",
+    "ordinal": 1492,
+    "label": "#1492 · Sticky",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-75ad5150c0962b"
+  },
+  {
+    "id": "synonym:lesson-src-b147eeda5c18d1",
+    "type": "synonym",
+    "ordinal": 1493,
+    "label": "#1493 · Table manners",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b147eeda5c18d1"
+  },
+  {
+    "id": "synonym:lesson-src-4fe917828e9307",
+    "type": "synonym",
+    "ordinal": 1494,
+    "label": "#1494 · Weaknesses",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4fe917828e9307"
+  },
+  {
+    "id": "synonym:lesson-src-e878e5a0808b75",
+    "type": "synonym",
+    "ordinal": 1495,
+    "label": "#1495 · Efficiently",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e878e5a0808b75"
+  },
+  {
+    "id": "synonym:lesson-src-d4ae7cc6431d15",
+    "type": "synonym",
+    "ordinal": 1496,
+    "label": "#1496 · Hopeful (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-d4ae7cc6431d15"
+  },
+  {
+    "id": "synonym:lesson-src-57657648c9850a",
+    "type": "synonym",
+    "ordinal": 1497,
+    "label": "#1497 · Imaginary · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-57657648c9850a"
+  },
+  {
+    "id": "synonym:lesson-src-54f81cc306a26d",
+    "type": "synonym",
+    "ordinal": 1498,
+    "label": "#1498 · Populated",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-54f81cc306a26d"
+  },
+  {
+    "id": "synonym:lesson-src-8a531f31f7a5b1",
+    "type": "synonym",
+    "ordinal": 1499,
+    "label": "#1499 · Surround · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8a531f31f7a5b1"
+  },
+  {
+    "id": "synonym:lesson-src-187c65349687b4",
+    "type": "synonym",
+    "ordinal": 1500,
+    "label": "#1500 · Surroundings",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-187c65349687b4"
+  },
+  {
+    "id": "synonym:lesson-src-f26da2c278a130",
+    "type": "synonym",
+    "ordinal": 1501,
+    "label": "#1501 · Backpack",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-f26da2c278a130"
+  },
+  {
+    "id": "synonym:lesson-src-56af87a7951bc9",
+    "type": "synonym",
+    "ordinal": 1502,
+    "label": "#1502 · Exclude",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-56af87a7951bc9"
+  },
+  {
+    "id": "synonym:lesson-src-541126abd24fb5",
+    "type": "synonym",
+    "ordinal": 1503,
+    "label": "#1503 · Participant",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-541126abd24fb5"
+  },
+  {
+    "id": "synonym:lesson-src-2662c844ea6647",
+    "type": "synonym",
+    "ordinal": 1504,
+    "label": "#1504 · Respondents",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2662c844ea6647"
+  },
+  {
+    "id": "synonym:lesson-src-a45bf6b89a9cac",
+    "type": "synonym",
+    "ordinal": 1505,
+    "label": "#1505 · Unwanted",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-a45bf6b89a9cac"
+  },
+  {
+    "id": "synonym:lesson-src-b560e42a6478c8",
+    "type": "synonym",
+    "ordinal": 1506,
+    "label": "#1506 · Relieve · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-b560e42a6478c8"
+  },
+  {
+    "id": "synonym:lesson-src-d210872a55859b",
+    "type": "synonym",
+    "ordinal": 1507,
+    "label": "#1507 · Simplicity",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d210872a55859b"
+  },
+  {
+    "id": "synonym:lesson-src-22a4fa4dcb9877",
+    "type": "synonym",
+    "ordinal": 1508,
+    "label": "#1508 · Textbook",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-22a4fa4dcb9877"
+  },
+  {
+    "id": "synonym:lesson-src-a9421fbd0934b3",
+    "type": "synonym",
+    "ordinal": 1509,
+    "label": "#1509 · Billionaire",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a9421fbd0934b3"
+  },
+  {
+    "id": "synonym:lesson-src-e17078185d574a",
+    "type": "synonym",
+    "ordinal": 1510,
+    "label": "#1510 · Polished (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e17078185d574a"
+  },
+  {
+    "id": "synonym:lesson-src-7e64aada90eb92",
+    "type": "synonym",
+    "ordinal": 1511,
+    "label": "#1511 · Predictable · adj.",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-7e64aada90eb92"
+  },
+  {
+    "id": "synonym:lesson-src-d2836d65ce8af7",
+    "type": "synonym",
+    "ordinal": 1512,
+    "label": "#1512 · Write a diary",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d2836d65ce8af7"
+  },
+  {
+    "id": "synonym:lesson-src-4f355d21b9604d",
+    "type": "synonym",
+    "ordinal": 1513,
+    "label": "#1513 · Café",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-4f355d21b9604d"
+  },
+  {
+    "id": "synonym:lesson-src-b12286166a80ee",
+    "type": "synonym",
+    "ordinal": 1514,
+    "label": "#1514 · Noticeable · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-b12286166a80ee"
+  },
+  {
+    "id": "synonym:lesson-src-a0cca485b1b8e0",
+    "type": "synonym",
+    "ordinal": 1515,
+    "label": "#1515 · Prestige",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a0cca485b1b8e0"
+  },
+  {
+    "id": "synonym:lesson-src-6a8d731c4d696c",
+    "type": "synonym",
+    "ordinal": 1516,
+    "label": "#1516 · Selfie",
+    "detail": "Synonyms · 3 詞組 · 9 題",
+    "url": "synonyms-system.html?module=lesson-src-6a8d731c4d696c"
+  },
+  {
+    "id": "synonym:lesson-src-e8515496433b69",
+    "type": "synonym",
+    "ordinal": 1517,
+    "label": "#1517 · Arrogant",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-e8515496433b69"
+  },
+  {
+    "id": "synonym:lesson-src-11bf44d0465220",
+    "type": "synonym",
+    "ordinal": 1518,
+    "label": "#1518 · Cartoons",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-11bf44d0465220"
+  },
+  {
+    "id": "synonym:lesson-src-33fa9bb767cac9",
+    "type": "synonym",
+    "ordinal": 1519,
+    "label": "#1519 · Comfortably · adv",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-33fa9bb767cac9"
+  },
+  {
+    "id": "synonym:lesson-src-0f2c6170c3c566",
+    "type": "synonym",
+    "ordinal": 1520,
+    "label": "#1520 · Rainy (adjective)",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-0f2c6170c3c566"
+  },
+  {
+    "id": "synonym:lesson-src-6640563a3345d4",
+    "type": "synonym",
+    "ordinal": 1521,
+    "label": "#1521 · Rewarding",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6640563a3345d4"
+  },
+  {
+    "id": "synonym:lesson-src-74328ce8001039",
+    "type": "synonym",
+    "ordinal": 1522,
+    "label": "#1522 · Storyline",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-74328ce8001039"
+  },
+  {
+    "id": "synonym:lesson-src-fbbfc0c5acfe6a",
+    "type": "synonym",
+    "ordinal": 1523,
+    "label": "#1523 · Childish · adj",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fbbfc0c5acfe6a"
+  },
+  {
+    "id": "synonym:lesson-src-61684fbd2b935f",
+    "type": "synonym",
+    "ordinal": 1524,
+    "label": "#1524 · Fake identities",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-61684fbd2b935f"
+  },
+  {
+    "id": "synonym:lesson-src-f0744559119fd9",
+    "type": "synonym",
+    "ordinal": 1525,
+    "label": "#1525 · Solitary",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f0744559119fd9"
+  },
+  {
+    "id": "synonym:lesson-src-ce0c6d373ffa6b",
+    "type": "synonym",
+    "ordinal": 1526,
+    "label": "#1526 · Unpaid",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ce0c6d373ffa6b"
+  },
+  {
+    "id": "synonym:lesson-src-2c5c9cef7d071b",
+    "type": "synonym",
+    "ordinal": 1527,
+    "label": "#1527 · Impulse",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2c5c9cef7d071b"
+  },
+  {
+    "id": "synonym:lesson-src-ec795a8bc0e56c",
+    "type": "synonym",
+    "ordinal": 1528,
+    "label": "#1528 · Intentional",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-ec795a8bc0e56c"
+  },
+  {
+    "id": "synonym:lesson-src-4ae016c0fa661b",
+    "type": "synonym",
+    "ordinal": 1529,
+    "label": "#1529 · Petrol",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-4ae016c0fa661b"
+  },
+  {
+    "id": "synonym:lesson-src-128c23206e2f29",
+    "type": "synonym",
+    "ordinal": 1530,
+    "label": "#1530 · Unhealthy",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-128c23206e2f29"
+  },
+  {
+    "id": "synonym:lesson-src-b81bff6c7cf1ca",
+    "type": "synonym",
+    "ordinal": 1531,
+    "label": "#1531 · Insects as Food",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-b81bff6c7cf1ca"
+  },
+  {
+    "id": "synonym:lesson-v2-055",
+    "type": "synonym",
+    "ordinal": 1532,
+    "label": "#1532 · Accuse",
+    "detail": "Synonyms · 10 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-v2-055"
+  },
+  {
+    "id": "synonym:lesson-src-3a6961687fee4c",
+    "type": "synonym",
+    "ordinal": 1533,
+    "label": "#1533 · Energetic · adj.",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-3a6961687fee4c"
+  },
+  {
+    "id": "synonym:lesson-src-bf1832aa349f56",
+    "type": "synonym",
+    "ordinal": 1534,
+    "label": "#1534 · Friction",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-bf1832aa349f56"
+  },
+  {
+    "id": "synonym:lesson-src-57729ec67bf5b5",
+    "type": "synonym",
+    "ordinal": 1535,
+    "label": "#1535 · Outdoors",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-57729ec67bf5b5"
+  },
+  {
+    "id": "synonym:lesson-src-4b10e870596df8",
+    "type": "synonym",
+    "ordinal": 1536,
+    "label": "#1536 · Personal Trainers",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-4b10e870596df8"
+  },
+  {
+    "id": "synonym:lesson-src-4c3501ce75f07c",
+    "type": "synonym",
+    "ordinal": 1537,
+    "label": "#1537 · Respectful",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4c3501ce75f07c"
+  },
+  {
+    "id": "synonym:lesson-src-cc9a345852b9ba",
+    "type": "synonym",
+    "ordinal": 1538,
+    "label": "#1538 · Spontaneous",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-cc9a345852b9ba"
+  },
+  {
+    "id": "synonym:lesson-src-1b227782bd6c81",
+    "type": "synonym",
+    "ordinal": 1539,
+    "label": "#1539 · Texting",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-1b227782bd6c81"
+  },
+  {
+    "id": "synonym:lesson-src-5df69e7ada5e2b",
+    "type": "synonym",
+    "ordinal": 1540,
+    "label": "#1540 · Compulsory",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5df69e7ada5e2b"
+  },
+  {
+    "id": "synonym:lesson-src-b5d556b8d8bc91",
+    "type": "synonym",
+    "ordinal": 1541,
+    "label": "#1541 · Crisp (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b5d556b8d8bc91"
+  },
+  {
+    "id": "synonym:lesson-src-83a4ae04362181",
+    "type": "synonym",
+    "ordinal": 1542,
+    "label": "#1542 · Daring",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-83a4ae04362181"
+  },
+  {
+    "id": "synonym:lesson-src-24b86f0af4a4f8",
+    "type": "synonym",
+    "ordinal": 1543,
+    "label": "#1543 · Employment Traps",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-24b86f0af4a4f8"
+  },
+  {
+    "id": "synonym:lesson-src-3956bbfbe34212",
+    "type": "synonym",
+    "ordinal": 1544,
+    "label": "#1544 · Time-Honoured",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3956bbfbe34212"
+  },
+  {
+    "id": "synonym:lesson-src-d41df6cf77f5d6",
+    "type": "synonym",
+    "ordinal": 1545,
+    "label": "#1545 · Neighbour",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d41df6cf77f5d6"
+  },
+  {
+    "id": "synonym:lesson-src-0a4ee0cc963ebe",
+    "type": "synonym",
+    "ordinal": 1546,
+    "label": "#1546 · Underestimate (verb)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0a4ee0cc963ebe"
+  },
+  {
+    "id": "synonym:lesson-src-e6a7b42871830c",
+    "type": "synonym",
+    "ordinal": 1547,
+    "label": "#1547 · Exaggerated",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e6a7b42871830c"
+  },
+  {
+    "id": "synonym:lesson-src-caa2d6ff59d198",
+    "type": "synonym",
+    "ordinal": 1548,
+    "label": "#1548 · Freelance",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-caa2d6ff59d198"
+  },
+  {
+    "id": "synonym:lesson-src-1adee516f3f3ef",
+    "type": "synonym",
+    "ordinal": 1549,
+    "label": "#1549 · Helicopter Parenting",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1adee516f3f3ef"
+  },
+  {
+    "id": "synonym:lesson-src-6127d4e0f4c51e",
+    "type": "synonym",
+    "ordinal": 1550,
+    "label": "#1550 · Pandemic",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6127d4e0f4c51e"
+  },
+  {
+    "id": "synonym:lesson-src-9486dfbd4dc461",
+    "type": "synonym",
+    "ordinal": 1551,
+    "label": "#1551 · Scenery",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-9486dfbd4dc461"
+  },
+  {
+    "id": "synonym:lesson-src-0a1bea4a9dd945",
+    "type": "synonym",
+    "ordinal": 1552,
+    "label": "#1552 · Sleepy",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0a1bea4a9dd945"
+  },
+  {
+    "id": "synonym:lesson-src-44af357dffb8d6",
+    "type": "synonym",
+    "ordinal": 1553,
+    "label": "#1553 · Chaotic",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-44af357dffb8d6"
+  },
+  {
+    "id": "synonym:lesson-src-e37ac86d1c9376",
+    "type": "synonym",
+    "ordinal": 1554,
+    "label": "#1554 · Confuse · verb",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e37ac86d1c9376"
+  },
+  {
+    "id": "synonym:lesson-src-b06f1e40a1e46f",
+    "type": "synonym",
+    "ordinal": 1555,
+    "label": "#1555 · Gardening",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b06f1e40a1e46f"
+  },
+  {
+    "id": "synonym:lesson-src-56f8687b422726",
+    "type": "synonym",
+    "ordinal": 1556,
+    "label": "#1556 · Heartbeat",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-56f8687b422726"
+  },
+  {
+    "id": "synonym:lesson-src-9c9318cea072a2",
+    "type": "synonym",
+    "ordinal": 1557,
+    "label": "#1557 · Intern",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-9c9318cea072a2"
+  },
+  {
+    "id": "synonym:lesson-src-3938b36ad649f5",
+    "type": "synonym",
+    "ordinal": 1558,
+    "label": "#1558 · Noisy",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-3938b36ad649f5"
+  },
+  {
+    "id": "synonym:lesson-v2-056",
+    "type": "synonym",
+    "ordinal": 1559,
+    "label": "#1559 · Recalls",
+    "detail": "Synonyms · 14 詞組 · 26 題",
+    "url": "synonyms-system.html?module=lesson-v2-056"
+  },
+  {
+    "id": "synonym:lesson-src-283a6f165ac063",
+    "type": "synonym",
+    "ordinal": 1560,
+    "label": "#1560 · Scenic",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-283a6f165ac063"
+  },
+  {
+    "id": "synonym:lesson-src-5554e1b39cf458",
+    "type": "synonym",
+    "ordinal": 1561,
+    "label": "#1561 · Vibrant",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-5554e1b39cf458"
+  },
+  {
+    "id": "synonym:lesson-src-18586f1066774a",
+    "type": "synonym",
+    "ordinal": 1562,
+    "label": "#1562 · Wander · verb",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-18586f1066774a"
+  },
+  {
+    "id": "synonym:lesson-src-c47d2562ecc347",
+    "type": "synonym",
+    "ordinal": 1563,
+    "label": "#1563 · Advertise",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-c47d2562ecc347"
+  },
+  {
+    "id": "synonym:lesson-src-36ea5f50ee6698",
+    "type": "synonym",
+    "ordinal": 1564,
+    "label": "#1564 · Apologise",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-36ea5f50ee6698"
+  },
+  {
+    "id": "synonym:lesson-src-0dc2f44a0234f9",
+    "type": "synonym",
+    "ordinal": 1565,
+    "label": "#1565 · Assign",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-0dc2f44a0234f9"
+  },
+  {
+    "id": "synonym:lesson-src-f8879643b8480e",
+    "type": "synonym",
+    "ordinal": 1566,
+    "label": "#1566 · Casually · adv",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-f8879643b8480e"
+  },
+  {
+    "id": "synonym:lesson-src-5b029712b001ee",
+    "type": "synonym",
+    "ordinal": 1567,
+    "label": "#1567 · Dreadful",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5b029712b001ee"
+  },
+  {
+    "id": "synonym:lesson-src-a688ea3e517dd4",
+    "type": "synonym",
+    "ordinal": 1568,
+    "label": "#1568 · Outdated",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-a688ea3e517dd4"
+  },
+  {
+    "id": "synonym:lesson-src-4903b5b623c629",
+    "type": "synonym",
+    "ordinal": 1569,
+    "label": "#1569 · Outdoor playground",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-4903b5b623c629"
+  },
+  {
+    "id": "synonym:lesson-src-b5b6e609ab0684",
+    "type": "synonym",
+    "ordinal": 1570,
+    "label": "#1570 · Remark",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-b5b6e609ab0684"
+  },
+  {
+    "id": "synonym:lesson-src-5438cdac3b4c09",
+    "type": "synonym",
+    "ordinal": 1571,
+    "label": "#1571 · Refresh",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-5438cdac3b4c09"
+  },
+  {
+    "id": "synonym:lesson-src-c1dd822bf3df70",
+    "type": "synonym",
+    "ordinal": 1572,
+    "label": "#1572 · Seafood",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c1dd822bf3df70"
+  },
+  {
+    "id": "synonym:lesson-src-4ae4a0ef86d66c",
+    "type": "synonym",
+    "ordinal": 1573,
+    "label": "#1573 · Vocational",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4ae4a0ef86d66c"
+  },
+  {
+    "id": "synonym:lesson-src-90f48590838696",
+    "type": "synonym",
+    "ordinal": 1574,
+    "label": "#1574 · Applicant (noun)",
+    "detail": "Synonyms · 8 詞組 · 23 題",
+    "url": "synonyms-system.html?module=lesson-src-90f48590838696"
+  },
+  {
+    "id": "synonym:lesson-v2-049",
+    "type": "synonym",
+    "ordinal": 1575,
+    "label": "#1575 · Classmates",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-049"
+  },
+  {
+    "id": "synonym:lesson-src-219c9239a6d091",
+    "type": "synonym",
+    "ordinal": 1576,
+    "label": "#1576 · Coupons",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-219c9239a6d091"
+  },
+  {
+    "id": "synonym:lesson-src-6764de33eb2751",
+    "type": "synonym",
+    "ordinal": 1577,
+    "label": "#1577 · Notebook Computers",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-6764de33eb2751"
+  },
+  {
+    "id": "synonym:lesson-src-6ec98da7431df3",
+    "type": "synonym",
+    "ordinal": 1578,
+    "label": "#1578 · Vocational training",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-6ec98da7431df3"
+  },
+  {
+    "id": "synonym:lesson-src-8cd6b5e30fff01",
+    "type": "synonym",
+    "ordinal": 1579,
+    "label": "#1579 · Accessory",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8cd6b5e30fff01"
+  },
+  {
+    "id": "synonym:lesson-src-433fd3892cc8e4",
+    "type": "synonym",
+    "ordinal": 1580,
+    "label": "#1580 · Air-conditioned",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-433fd3892cc8e4"
+  },
+  {
+    "id": "synonym:lesson-src-3417606c1403c5",
+    "type": "synonym",
+    "ordinal": 1581,
+    "label": "#1581 · Broadcaster",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3417606c1403c5"
+  },
+  {
+    "id": "synonym:lesson-src-54a77ca0b128cb",
+    "type": "synonym",
+    "ordinal": 1582,
+    "label": "#1582 · Reproduce · verb",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-54a77ca0b128cb"
+  },
+  {
+    "id": "synonym:lesson-src-bea5c370902d58",
+    "type": "synonym",
+    "ordinal": 1583,
+    "label": "#1583 · Traditional Textbooks",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-bea5c370902d58"
+  },
+  {
+    "id": "synonym:lesson-src-66c4de875771c2",
+    "type": "synonym",
+    "ordinal": 1584,
+    "label": "#1584 · Fuss (noun)",
+    "detail": "Synonyms · 8 詞組 · 23 題",
+    "url": "synonyms-system.html?module=lesson-src-66c4de875771c2"
+  },
+  {
+    "id": "synonym:lesson-src-3a9b18d3988580",
+    "type": "synonym",
+    "ordinal": 1585,
+    "label": "#1585 · Mascot",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-3a9b18d3988580"
+  },
+  {
+    "id": "synonym:lesson-src-d2312dcf0c2cdf",
+    "type": "synonym",
+    "ordinal": 1586,
+    "label": "#1586 · Nostalgia",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d2312dcf0c2cdf"
+  },
+  {
+    "id": "synonym:lesson-src-e1f2a4db66be0a",
+    "type": "synonym",
+    "ordinal": 1587,
+    "label": "#1587 · Addictive",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-e1f2a4db66be0a"
+  },
+  {
+    "id": "synonym:lesson-src-ff2b980ad59e85",
+    "type": "synonym",
+    "ordinal": 1588,
+    "label": "#1588 · Informative",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-ff2b980ad59e85"
+  },
+  {
+    "id": "synonym:lesson-src-c6a90374039fc9",
+    "type": "synonym",
+    "ordinal": 1589,
+    "label": "#1589 · Instant noodles",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-c6a90374039fc9"
+  },
+  {
+    "id": "synonym:lesson-src-efb03bf2070dd3",
+    "type": "synonym",
+    "ordinal": 1590,
+    "label": "#1590 · Internship",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-efb03bf2070dd3"
+  },
+  {
+    "id": "synonym:lesson-src-a23715018168d3",
+    "type": "synonym",
+    "ordinal": 1591,
+    "label": "#1591 · Interrupt",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a23715018168d3"
+  },
+  {
+    "id": "synonym:lesson-src-275f6515d15813",
+    "type": "synonym",
+    "ordinal": 1592,
+    "label": "#1592 · Pavement",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-275f6515d15813"
+  },
+  {
+    "id": "synonym:lesson-src-622f6874fc16b9",
+    "type": "synonym",
+    "ordinal": 1593,
+    "label": "#1593 · Adulthood",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-622f6874fc16b9"
+  },
+  {
+    "id": "synonym:lesson-src-8cb8e53b6549ef",
+    "type": "synonym",
+    "ordinal": 1594,
+    "label": "#1594 · Astronaut",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8cb8e53b6549ef"
+  },
+  {
+    "id": "synonym:lesson-src-83318b2577a6cd",
+    "type": "synonym",
+    "ordinal": 1595,
+    "label": "#1595 · Biscuits",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-83318b2577a6cd"
+  },
+  {
+    "id": "synonym:lesson-src-a57def9dc08b62",
+    "type": "synonym",
+    "ordinal": 1596,
+    "label": "#1596 · Cheerful",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a57def9dc08b62"
+  },
+  {
+    "id": "synonym:lesson-src-d9151439ca10f2",
+    "type": "synonym",
+    "ordinal": 1597,
+    "label": "#1597 · Cinematic",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d9151439ca10f2"
+  },
+  {
+    "id": "synonym:lesson-src-535da596946541",
+    "type": "synonym",
+    "ordinal": 1598,
+    "label": "#1598 · Exhausting",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-535da596946541"
+  },
+  {
+    "id": "synonym:lesson-src-fd41643d5fb385",
+    "type": "synonym",
+    "ordinal": 1599,
+    "label": "#1599 · Album · noun",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-fd41643d5fb385"
+  },
+  {
+    "id": "synonym:lesson-src-e6b32d4c81638e",
+    "type": "synonym",
+    "ordinal": 1600,
+    "label": "#1600 · Admiration",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e6b32d4c81638e"
+  },
+  {
+    "id": "synonym:lesson-src-4cbc891277816f",
+    "type": "synonym",
+    "ordinal": 1601,
+    "label": "#1601 · Banquet · noun",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-4cbc891277816f"
+  },
+  {
+    "id": "synonym:lesson-src-7e71f7b4af996e",
+    "type": "synonym",
+    "ordinal": 1602,
+    "label": "#1602 · Disrupt",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-7e71f7b4af996e"
+  },
+  {
+    "id": "synonym:lesson-src-31df87fe579687",
+    "type": "synonym",
+    "ordinal": 1603,
+    "label": "#1603 · Typhoon",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-31df87fe579687"
+  },
+  {
+    "id": "synonym:lesson-src-643d34849bbb1a",
+    "type": "synonym",
+    "ordinal": 1604,
+    "label": "#1604 · Backdrop",
+    "detail": "Synonyms · 15 詞組 · 45 題",
+    "url": "synonyms-system.html?module=lesson-src-643d34849bbb1a"
+  },
+  {
+    "id": "synonym:lesson-src-30d3cb1bc52000",
+    "type": "synonym",
+    "ordinal": 1605,
+    "label": "#1605 · Resilience",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-30d3cb1bc52000"
+  },
+  {
+    "id": "synonym:lesson-src-fba0d81ca32e13",
+    "type": "synonym",
+    "ordinal": 1606,
+    "label": "#1606 · Discourage",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-fba0d81ca32e13"
+  },
+  {
+    "id": "synonym:lesson-src-1e122b4da1d860",
+    "type": "synonym",
+    "ordinal": 1607,
+    "label": "#1607 · Organizer",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1e122b4da1d860"
+  },
+  {
+    "id": "synonym:lesson-src-df164a98c60dd1",
+    "type": "synonym",
+    "ordinal": 1608,
+    "label": "#1608 · Catastrophe · noun",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-df164a98c60dd1"
+  },
+  {
+    "id": "synonym:lesson-src-0d073adc64140c",
+    "type": "synonym",
+    "ordinal": 1609,
+    "label": "#1609 · Commute",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0d073adc64140c"
+  },
+  {
+    "id": "synonym:lesson-src-bd2a2f2b0c2a40",
+    "type": "synonym",
+    "ordinal": 1610,
+    "label": "#1610 · Irrational",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-bd2a2f2b0c2a40"
+  },
+  {
+    "id": "synonym:lesson-src-50423eda6e9eb3",
+    "type": "synonym",
+    "ordinal": 1611,
+    "label": "#1611 · Repetitive",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-50423eda6e9eb3"
+  },
+  {
+    "id": "synonym:lesson-src-08fbab342be783",
+    "type": "synonym",
+    "ordinal": 1612,
+    "label": "#1612 · Waterfront",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-08fbab342be783"
+  },
+  {
+    "id": "synonym:lesson-src-28036d0c576081",
+    "type": "synonym",
+    "ordinal": 1613,
+    "label": "#1613 · Ambassadors",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-28036d0c576081"
+  },
+  {
+    "id": "synonym:lesson-src-b24efce4b26b36",
+    "type": "synonym",
+    "ordinal": 1614,
+    "label": "#1614 · Colourful",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-b24efce4b26b36"
+  },
+  {
+    "id": "synonym:lesson-src-87689c531a7f32",
+    "type": "synonym",
+    "ordinal": 1615,
+    "label": "#1615 · Fast-paced",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-87689c531a7f32"
+  },
+  {
+    "id": "synonym:lesson-src-eba594cca61d4a",
+    "type": "synonym",
+    "ordinal": 1616,
+    "label": "#1616 · Fragment (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-eba594cca61d4a"
+  },
+  {
+    "id": "synonym:lesson-src-9977ea07ce043b",
+    "type": "synonym",
+    "ordinal": 1617,
+    "label": "#1617 · Longevity",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-9977ea07ce043b"
+  },
+  {
+    "id": "synonym:lesson-src-0d512fd8c3773d",
+    "type": "synonym",
+    "ordinal": 1618,
+    "label": "#1618 · Rooftop",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0d512fd8c3773d"
+  },
+  {
+    "id": "synonym:lesson-src-200f2353a9e07c",
+    "type": "synonym",
+    "ordinal": 1619,
+    "label": "#1619 · Slang",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-200f2353a9e07c"
+  },
+  {
+    "id": "synonym:lesson-src-635e5bb06d8d76",
+    "type": "synonym",
+    "ordinal": 1620,
+    "label": "#1620 · Chores",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-635e5bb06d8d76"
+  },
+  {
+    "id": "synonym:lesson-src-78c73d281bea06",
+    "type": "synonym",
+    "ordinal": 1621,
+    "label": "#1621 · Double-edged",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-78c73d281bea06"
+  },
+  {
+    "id": "synonym:lesson-src-84c69d84e1f0f7",
+    "type": "synonym",
+    "ordinal": 1622,
+    "label": "#1622 · Irrational fear",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-84c69d84e1f0f7"
+  },
+  {
+    "id": "synonym:lesson-src-799845741a7588",
+    "type": "synonym",
+    "ordinal": 1623,
+    "label": "#1623 · Backbone",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-799845741a7588"
+  },
+  {
+    "id": "synonym:lesson-src-52bacb02dc0c62",
+    "type": "synonym",
+    "ordinal": 1624,
+    "label": "#1624 · Experimenting",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-52bacb02dc0c62"
+  },
+  {
+    "id": "synonym:lesson-src-c500c92762fe17",
+    "type": "synonym",
+    "ordinal": 1625,
+    "label": "#1625 · Fragrance",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-c500c92762fe17"
+  },
+  {
+    "id": "synonym:lesson-src-910d3727f87aa6",
+    "type": "synonym",
+    "ordinal": 1626,
+    "label": "#1626 · Overlook (verb)",
+    "detail": "Synonyms · 8 詞組 · 23 題",
+    "url": "synonyms-system.html?module=lesson-src-910d3727f87aa6"
+  },
+  {
+    "id": "synonym:lesson-src-549b08af717d3a",
+    "type": "synonym",
+    "ordinal": 1627,
+    "label": "#1627 · Personalized · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-549b08af717d3a"
+  },
+  {
+    "id": "synonym:lesson-src-63d76cba2d5a25",
+    "type": "synonym",
+    "ordinal": 1628,
+    "label": "#1628 · Tidy · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-63d76cba2d5a25"
+  },
+  {
+    "id": "synonym:lesson-src-860d9d8b4b5914",
+    "type": "synonym",
+    "ordinal": 1629,
+    "label": "#1629 · Timeless",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-860d9d8b4b5914"
+  },
+  {
+    "id": "synonym:lesson-src-0d538a642dac72",
+    "type": "synonym",
+    "ordinal": 1630,
+    "label": "#1630 · Weave",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0d538a642dac72"
+  },
+  {
+    "id": "synonym:lesson-src-23d6f6cbffb3bd",
+    "type": "synonym",
+    "ordinal": 1631,
+    "label": "#1631 · Adrenaline",
+    "detail": "Synonyms · 3 詞組 · 9 題",
+    "url": "synonyms-system.html?module=lesson-src-23d6f6cbffb3bd"
+  },
+  {
+    "id": "synonym:lesson-src-32b3aabb14587f",
+    "type": "synonym",
+    "ordinal": 1632,
+    "label": "#1632 · Beginner",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-32b3aabb14587f"
+  },
+  {
+    "id": "synonym:lesson-src-1d748e87ec84a7",
+    "type": "synonym",
+    "ordinal": 1633,
+    "label": "#1633 · Dishonest",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-1d748e87ec84a7"
+  },
+  {
+    "id": "synonym:lesson-src-11c4f26b69cee9",
+    "type": "synonym",
+    "ordinal": 1634,
+    "label": "#1634 · Fluent",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-11c4f26b69cee9"
+  },
+  {
+    "id": "synonym:lesson-src-557428f6285eb5",
+    "type": "synonym",
+    "ordinal": 1635,
+    "label": "#1635 · Lockdown",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-557428f6285eb5"
+  },
+  {
+    "id": "synonym:lesson-src-6834b9274f4c3a",
+    "type": "synonym",
+    "ordinal": 1636,
+    "label": "#1636 · Addicted to technology",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-6834b9274f4c3a"
+  },
+  {
+    "id": "synonym:lesson-src-902df0efd4ddb1",
+    "type": "synonym",
+    "ordinal": 1637,
+    "label": "#1637 · Pronunciation",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-902df0efd4ddb1"
+  },
+  {
+    "id": "synonym:lesson-src-e7ced1c5461b65",
+    "type": "synonym",
+    "ordinal": 1638,
+    "label": "#1638 · Vacations",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e7ced1c5461b65"
+  },
+  {
+    "id": "synonym:lesson-src-c4948165fec154",
+    "type": "synonym",
+    "ordinal": 1639,
+    "label": "#1639 · Vacations",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c4948165fec154"
+  },
+  {
+    "id": "synonym:lesson-src-a0c0cacb192aae",
+    "type": "synonym",
+    "ordinal": 1640,
+    "label": "#1640 · Weekend",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-a0c0cacb192aae"
+  },
+  {
+    "id": "synonym:lesson-src-6c30c57c40fbc9",
+    "type": "synonym",
+    "ordinal": 1641,
+    "label": "#1641 · Addicts",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-6c30c57c40fbc9"
+  },
+  {
+    "id": "synonym:lesson-src-30b8b83a1796db",
+    "type": "synonym",
+    "ordinal": 1642,
+    "label": "#1642 · Augmented",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-30b8b83a1796db"
+  },
+  {
+    "id": "synonym:lesson-src-0d3e739977a2c2",
+    "type": "synonym",
+    "ordinal": 1643,
+    "label": "#1643 · Humid",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0d3e739977a2c2"
+  },
+  {
+    "id": "synonym:lesson-src-dde1fc7bb38947",
+    "type": "synonym",
+    "ordinal": 1644,
+    "label": "#1644 · Resilient",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-dde1fc7bb38947"
+  },
+  {
+    "id": "synonym:lesson-src-cf1eaea062b61e",
+    "type": "synonym",
+    "ordinal": 1645,
+    "label": "#1645 · Beach",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-cf1eaea062b61e"
+  },
+  {
+    "id": "synonym:lesson-src-21d599adcac2b3",
+    "type": "synonym",
+    "ordinal": 1646,
+    "label": "#1646 · Catchy",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-21d599adcac2b3"
+  },
+  {
+    "id": "synonym:lesson-src-a8161910f9cb71",
+    "type": "synonym",
+    "ordinal": 1647,
+    "label": "#1647 · Ceremonial",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-a8161910f9cb71"
+  },
+  {
+    "id": "synonym:lesson-src-b6bb66590c166f",
+    "type": "synonym",
+    "ordinal": 1648,
+    "label": "#1648 · Mural",
+    "detail": "Synonyms · 3 詞組 · 9 題",
+    "url": "synonyms-system.html?module=lesson-src-b6bb66590c166f"
+  },
+  {
+    "id": "synonym:lesson-src-e41230bc72a474",
+    "type": "synonym",
+    "ordinal": 1649,
+    "label": "#1649 · Skyline",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-e41230bc72a474"
+  },
+  {
+    "id": "synonym:lesson-src-29bb674170e7f5",
+    "type": "synonym",
+    "ordinal": 1650,
+    "label": "#1650 · Teller",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-29bb674170e7f5"
+  },
+  {
+    "id": "synonym:lesson-src-397ef1962dbea3",
+    "type": "synonym",
+    "ordinal": 1651,
+    "label": "#1651 · Admirable · adj",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-397ef1962dbea3"
+  },
+  {
+    "id": "synonym:lesson-src-9f5f7dc62cf6a9",
+    "type": "synonym",
+    "ordinal": 1652,
+    "label": "#1652 · Augmented Reality",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-9f5f7dc62cf6a9"
+  },
+  {
+    "id": "synonym:lesson-src-d7a93adfda0497",
+    "type": "synonym",
+    "ordinal": 1653,
+    "label": "#1653 · Chunks",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-d7a93adfda0497"
+  },
+  {
+    "id": "synonym:lesson-src-7204b8ab51e920",
+    "type": "synonym",
+    "ordinal": 1654,
+    "label": "#1654 · Diner",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-7204b8ab51e920"
+  },
+  {
+    "id": "synonym:lesson-src-e2d424c53a3668",
+    "type": "synonym",
+    "ordinal": 1655,
+    "label": "#1655 · Subtitles",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e2d424c53a3668"
+  },
+  {
+    "id": "synonym:lesson-src-3c81c829ce529e",
+    "type": "synonym",
+    "ordinal": 1656,
+    "label": "#1656 · Teamwork",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3c81c829ce529e"
+  },
+  {
+    "id": "synonym:lesson-src-6c0425bb0930b6",
+    "type": "synonym",
+    "ordinal": 1657,
+    "label": "#1657 · Analyse · verb",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-6c0425bb0930b6"
+  },
+  {
+    "id": "synonym:lesson-src-608c67b94bc148",
+    "type": "synonym",
+    "ordinal": 1658,
+    "label": "#1658 · Apprenticeship",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-608c67b94bc148"
+  },
+  {
+    "id": "synonym:lesson-src-a997fdc519cc1f",
+    "type": "synonym",
+    "ordinal": 1659,
+    "label": "#1659 · Unbearable",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-a997fdc519cc1f"
+  },
+  {
+    "id": "synonym:lesson-src-0a0b77f4d52c61",
+    "type": "synonym",
+    "ordinal": 1660,
+    "label": "#1660 · Plant",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0a0b77f4d52c61"
+  },
+  {
+    "id": "synonym:lesson-src-682497cbc8172a",
+    "type": "synonym",
+    "ordinal": 1661,
+    "label": "#1661 · Boredom · noun",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-682497cbc8172a"
+  },
+  {
+    "id": "synonym:lesson-src-ad62a3cf5a2352",
+    "type": "synonym",
+    "ordinal": 1662,
+    "label": "#1662 · Criterion",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-ad62a3cf5a2352"
+  },
+  {
+    "id": "synonym:lesson-src-d0ee5ae8e22e6a",
+    "type": "synonym",
+    "ordinal": 1663,
+    "label": "#1663 · Stormy · adj.",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d0ee5ae8e22e6a"
+  },
+  {
+    "id": "synonym:lesson-src-03a9745ee92f77",
+    "type": "synonym",
+    "ordinal": 1664,
+    "label": "#1664 · Adding subtitles",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-03a9745ee92f77"
+  },
+  {
+    "id": "synonym:lesson-src-d8c37f17b7dce2",
+    "type": "synonym",
+    "ordinal": 1665,
+    "label": "#1665 · Checklist",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-d8c37f17b7dce2"
+  },
+  {
+    "id": "synonym:lesson-src-e25788da9f52cf",
+    "type": "synonym",
+    "ordinal": 1666,
+    "label": "#1666 · Specialised",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e25788da9f52cf"
+  },
+  {
+    "id": "synonym:lesson-src-2a4f9981b8bdd3",
+    "type": "synonym",
+    "ordinal": 1667,
+    "label": "#1667 · Wavelength · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-2a4f9981b8bdd3"
+  },
+  {
+    "id": "synonym:lesson-src-38f9659f2e1687",
+    "type": "synonym",
+    "ordinal": 1668,
+    "label": "#1668 · Workload",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-38f9659f2e1687"
+  },
+  {
+    "id": "synonym:lesson-src-b2d08624abd6c6",
+    "type": "synonym",
+    "ordinal": 1669,
+    "label": "#1669 · Pedestrians",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-b2d08624abd6c6"
+  },
+  {
+    "id": "synonym:lesson-src-a5a533bb7057e1",
+    "type": "synonym",
+    "ordinal": 1670,
+    "label": "#1670 · Postcard",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a5a533bb7057e1"
+  },
+  {
+    "id": "synonym:lesson-src-1a4fb070f45744",
+    "type": "synonym",
+    "ordinal": 1671,
+    "label": "#1671 · Reclaim · verb",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-1a4fb070f45744"
+  },
+  {
+    "id": "synonym:lesson-src-47939f48832bab",
+    "type": "synonym",
+    "ordinal": 1672,
+    "label": "#1672 · Redevelopment",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-47939f48832bab"
+  },
+  {
+    "id": "synonym:lesson-src-af3b3ba71c94d5",
+    "type": "synonym",
+    "ordinal": 1673,
+    "label": "#1673 · Timetable",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-af3b3ba71c94d5"
+  },
+  {
+    "id": "synonym:lesson-src-0fa620df2e5697",
+    "type": "synonym",
+    "ordinal": 1674,
+    "label": "#1674 · Coffee",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0fa620df2e5697"
+  },
+  {
+    "id": "synonym:lesson-src-cc2a4d3406b3fc",
+    "type": "synonym",
+    "ordinal": 1675,
+    "label": "#1675 · Expressive",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-cc2a4d3406b3fc"
+  },
+  {
+    "id": "synonym:lesson-src-bfce010164ee20",
+    "type": "synonym",
+    "ordinal": 1676,
+    "label": "#1676 · Fortune teller",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-bfce010164ee20"
+  },
+  {
+    "id": "synonym:lesson-src-0a3769d8fe06a9",
+    "type": "synonym",
+    "ordinal": 1677,
+    "label": "#1677 · Therapists",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-0a3769d8fe06a9"
+  },
+  {
+    "id": "synonym:lesson-src-be3aecb1f0c0b3",
+    "type": "synonym",
+    "ordinal": 1678,
+    "label": "#1678 · Tree · noun",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-be3aecb1f0c0b3"
+  },
+  {
+    "id": "synonym:lesson-src-d53408783dd827",
+    "type": "synonym",
+    "ordinal": 1679,
+    "label": "#1679 · Ballad",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-d53408783dd827"
+  },
+  {
+    "id": "synonym:lesson-src-14014521d872c9",
+    "type": "synonym",
+    "ordinal": 1680,
+    "label": "#1680 · Cosplay",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-14014521d872c9"
+  },
+  {
+    "id": "synonym:lesson-src-54423c8005a371",
+    "type": "synonym",
+    "ordinal": 1681,
+    "label": "#1681 · Elegance",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-54423c8005a371"
+  },
+  {
+    "id": "synonym:lesson-src-5b134a114dc6e8",
+    "type": "synonym",
+    "ordinal": 1682,
+    "label": "#1682 · English Proficiency",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-5b134a114dc6e8"
+  },
+  {
+    "id": "synonym:lesson-src-720bdeb88d48b9",
+    "type": "synonym",
+    "ordinal": 1683,
+    "label": "#1683 · Confidently",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-720bdeb88d48b9"
+  },
+  {
+    "id": "synonym:lesson-src-8357df9466eb7c",
+    "type": "synonym",
+    "ordinal": 1684,
+    "label": "#1684 · Spacious · adj",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8357df9466eb7c"
+  },
+  {
+    "id": "synonym:lesson-src-0d80e7a6714ac3",
+    "type": "synonym",
+    "ordinal": 1685,
+    "label": "#1685 · Extravagant",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0d80e7a6714ac3"
+  },
+  {
+    "id": "synonym:lesson-src-948ebbfabcc93c",
+    "type": "synonym",
+    "ordinal": 1686,
+    "label": "#1686 · Familiarity",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-948ebbfabcc93c"
+  },
+  {
+    "id": "synonym:lesson-src-3699a1b3facc61",
+    "type": "synonym",
+    "ordinal": 1687,
+    "label": "#1687 · Leftover",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-3699a1b3facc61"
+  },
+  {
+    "id": "synonym:lesson-src-a8ae0a28f6eb36",
+    "type": "synonym",
+    "ordinal": 1688,
+    "label": "#1688 · Oversized",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-a8ae0a28f6eb36"
+  },
+  {
+    "id": "synonym:lesson-src-3ad550dec91229",
+    "type": "synonym",
+    "ordinal": 1689,
+    "label": "#1689 · Recharge",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3ad550dec91229"
+  },
+  {
+    "id": "synonym:lesson-src-892f58646d5fe1",
+    "type": "synonym",
+    "ordinal": 1690,
+    "label": "#1690 · Superheroes",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-892f58646d5fe1"
+  },
+  {
+    "id": "synonym:lesson-src-964034848c3263",
+    "type": "synonym",
+    "ordinal": 1691,
+    "label": "#1691 · Music groups",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-964034848c3263"
+  },
+  {
+    "id": "synonym:lesson-src-20cc4838b5603f",
+    "type": "synonym",
+    "ordinal": 1692,
+    "label": "#1692 · Keep listeners interested",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-20cc4838b5603f"
+  },
+  {
+    "id": "synonym:lesson-src-69e048d192d70a",
+    "type": "synonym",
+    "ordinal": 1693,
+    "label": "#1693 · Misty",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-69e048d192d70a"
+  },
+  {
+    "id": "synonym:lesson-src-95e364535a1085",
+    "type": "synonym",
+    "ordinal": 1694,
+    "label": "#1694 · Smartphone Addicts",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-95e364535a1085"
+  },
+  {
+    "id": "synonym:lesson-src-3e48b621bd8437",
+    "type": "synonym",
+    "ordinal": 1695,
+    "label": "#1695 · Animal",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-3e48b621bd8437"
+  },
+  {
+    "id": "synonym:lesson-src-31583f150c9087",
+    "type": "synonym",
+    "ordinal": 1696,
+    "label": "#1696 · Artworks",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-31583f150c9087"
+  },
+  {
+    "id": "synonym:lesson-src-a3a4a5f52e0ab6",
+    "type": "synonym",
+    "ordinal": 1697,
+    "label": "#1697 · Jogging",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a3a4a5f52e0ab6"
+  },
+  {
+    "id": "synonym:lesson-src-7e57ef7d98cc15",
+    "type": "synonym",
+    "ordinal": 1698,
+    "label": "#1698 · Manageable · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-7e57ef7d98cc15"
+  },
+  {
+    "id": "synonym:lesson-src-39175fa7daa5da",
+    "type": "synonym",
+    "ordinal": 1699,
+    "label": "#1699 · Visually-Impaired",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-39175fa7daa5da"
+  },
+  {
+    "id": "synonym:lesson-src-5ed22b3c007626",
+    "type": "synonym",
+    "ordinal": 1700,
+    "label": "#1700 · Brochure",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-5ed22b3c007626"
+  },
+  {
+    "id": "synonym:lesson-src-76d98d4ccfbbc0",
+    "type": "synonym",
+    "ordinal": 1701,
+    "label": "#1701 · Standing Desks",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-76d98d4ccfbbc0"
+  },
+  {
+    "id": "synonym:lesson-src-8bbf0039d9eeb9",
+    "type": "synonym",
+    "ordinal": 1702,
+    "label": "#1702 · Tiring (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8bbf0039d9eeb9"
+  },
+  {
+    "id": "synonym:lesson-src-acc2069a43e2eb",
+    "type": "synonym",
+    "ordinal": 1703,
+    "label": "#1703 · Decorate",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-acc2069a43e2eb"
+  },
+  {
+    "id": "synonym:lesson-src-8e7a041446e881",
+    "type": "synonym",
+    "ordinal": 1704,
+    "label": "#1704 · Online scams",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8e7a041446e881"
+  },
+  {
+    "id": "synonym:lesson-src-1502542b4e6756",
+    "type": "synonym",
+    "ordinal": 1705,
+    "label": "#1705 · Plumber",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1502542b4e6756"
+  },
+  {
+    "id": "synonym:lesson-src-985b0a0e423ebd",
+    "type": "synonym",
+    "ordinal": 1706,
+    "label": "#1706 · Vending machine",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-985b0a0e423ebd"
+  },
+  {
+    "id": "synonym:lesson-src-a788a5eb310669",
+    "type": "synonym",
+    "ordinal": 1707,
+    "label": "#1707 · Appliance",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-a788a5eb310669"
+  },
+  {
+    "id": "synonym:lesson-src-58c297e91872c8",
+    "type": "synonym",
+    "ordinal": 1708,
+    "label": "#1708 · Calming",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-58c297e91872c8"
+  },
+  {
+    "id": "synonym:lesson-src-3edf23e0f38db1",
+    "type": "synonym",
+    "ordinal": 1709,
+    "label": "#1709 · Crackdown",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-3edf23e0f38db1"
+  },
+  {
+    "id": "synonym:lesson-src-0eb835d3516cc3",
+    "type": "synonym",
+    "ordinal": 1710,
+    "label": "#1710 · Craze",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-0eb835d3516cc3"
+  },
+  {
+    "id": "synonym:lesson-src-cb357bd7cb2e7a",
+    "type": "synonym",
+    "ordinal": 1711,
+    "label": "#1711 · Interpersonal Skills",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-cb357bd7cb2e7a"
+  },
+  {
+    "id": "synonym:lesson-src-c9924fa233415f",
+    "type": "synonym",
+    "ordinal": 1712,
+    "label": "#1712 · Learner",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c9924fa233415f"
+  },
+  {
+    "id": "synonym:lesson-src-e720678583f0bd",
+    "type": "synonym",
+    "ordinal": 1713,
+    "label": "#1713 · Recycle",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-e720678583f0bd"
+  },
+  {
+    "id": "synonym:lesson-src-3bdd1d4a22a9be",
+    "type": "synonym",
+    "ordinal": 1714,
+    "label": "#1714 · Stunts",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3bdd1d4a22a9be"
+  },
+  {
+    "id": "synonym:lesson-src-9172654b05dbb9",
+    "type": "synonym",
+    "ordinal": 1715,
+    "label": "#1715 · Unavoidable",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-9172654b05dbb9"
+  },
+  {
+    "id": "synonym:lesson-src-8953da764fd4f7",
+    "type": "synonym",
+    "ordinal": 1716,
+    "label": "#1716 · Garden",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-8953da764fd4f7"
+  },
+  {
+    "id": "synonym:lesson-src-9d94f4cae763ec",
+    "type": "synonym",
+    "ordinal": 1717,
+    "label": "#1717 · Classmate",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-9d94f4cae763ec"
+  },
+  {
+    "id": "synonym:lesson-src-8765cd94c67daa",
+    "type": "synonym",
+    "ordinal": 1718,
+    "label": "#1718 · Foreseeable · adj.",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-8765cd94c67daa"
+  },
+  {
+    "id": "synonym:lesson-src-943bb436461b69",
+    "type": "synonym",
+    "ordinal": 1719,
+    "label": "#1719 · Vehicle",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-943bb436461b69"
+  },
+  {
+    "id": "synonym:lesson-src-9dd4b89dcba5bd",
+    "type": "synonym",
+    "ordinal": 1720,
+    "label": "#1720 · Handwritten (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9dd4b89dcba5bd"
+  },
+  {
+    "id": "synonym:lesson-src-7f584cc4eccb04",
+    "type": "synonym",
+    "ordinal": 1721,
+    "label": "#1721 · Intrusive · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-7f584cc4eccb04"
+  },
+  {
+    "id": "synonym:lesson-src-5947991b2bab42",
+    "type": "synonym",
+    "ordinal": 1722,
+    "label": "#1722 · Positivity",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-5947991b2bab42"
+  },
+  {
+    "id": "synonym:lesson-src-5736bb6ae806de",
+    "type": "synonym",
+    "ordinal": 1723,
+    "label": "#1723 · Observe",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-5736bb6ae806de"
+  },
+  {
+    "id": "synonym:lesson-src-ecbfbbfc603d08",
+    "type": "synonym",
+    "ordinal": 1724,
+    "label": "#1724 · Linger (verb)",
+    "detail": "Synonyms · 8 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-src-ecbfbbfc603d08"
+  },
+  {
+    "id": "synonym:lesson-src-e52011d19d346a",
+    "type": "synonym",
+    "ordinal": 1725,
+    "label": "#1725 · Unequal",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-e52011d19d346a"
+  },
+  {
+    "id": "synonym:lesson-src-0667c25f8b8a12",
+    "type": "synonym",
+    "ordinal": 1726,
+    "label": "#1726 · Amazing And Enjoyable Experience",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-0667c25f8b8a12"
+  },
+  {
+    "id": "synonym:lesson-src-c66b9198ae24cc",
+    "type": "synonym",
+    "ordinal": 1727,
+    "label": "#1727 · Believable",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c66b9198ae24cc"
+  },
+  {
+    "id": "synonym:lesson-src-0187fd806064aa",
+    "type": "synonym",
+    "ordinal": 1728,
+    "label": "#1728 · Certifications",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-0187fd806064aa"
+  },
+  {
+    "id": "synonym:lesson-src-923edd75f78258",
+    "type": "synonym",
+    "ordinal": 1729,
+    "label": "#1729 · Elective Courses",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-923edd75f78258"
+  },
+  {
+    "id": "synonym:lesson-src-885c253511f1ae",
+    "type": "synonym",
+    "ordinal": 1730,
+    "label": "#1730 · Stationery",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-885c253511f1ae"
+  },
+  {
+    "id": "synonym:lesson-src-0a56b3183a48fe",
+    "type": "synonym",
+    "ordinal": 1731,
+    "label": "#1731 · Wearable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-0a56b3183a48fe"
+  },
+  {
+    "id": "synonym:lesson-src-6b8ba820ebf3ab",
+    "type": "synonym",
+    "ordinal": 1732,
+    "label": "#1732 · Rain",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6b8ba820ebf3ab"
+  },
+  {
+    "id": "synonym:lesson-src-d4864491afb111",
+    "type": "synonym",
+    "ordinal": 1733,
+    "label": "#1733 · Cramped",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d4864491afb111"
+  },
+  {
+    "id": "synonym:lesson-src-3d77e9e3870a65",
+    "type": "synonym",
+    "ordinal": 1734,
+    "label": "#1734 · Resale",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3d77e9e3870a65"
+  },
+  {
+    "id": "synonym:lesson-src-d4934b18ebacdb",
+    "type": "synonym",
+    "ordinal": 1735,
+    "label": "#1735 · Unmanned",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d4934b18ebacdb"
+  },
+  {
+    "id": "synonym:lesson-v2-018",
+    "type": "synonym",
+    "ordinal": 1736,
+    "label": "#1736 · Youngster",
+    "detail": "Synonyms · 10 詞組 · 20 題",
+    "url": "synonyms-system.html?module=lesson-v2-018"
+  },
+  {
+    "id": "synonym:lesson-src-24fcb177615864",
+    "type": "synonym",
+    "ordinal": 1737,
+    "label": "#1737 · Densely populated",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-24fcb177615864"
+  },
+  {
+    "id": "synonym:lesson-src-806f3d2aead6f5",
+    "type": "synonym",
+    "ordinal": 1738,
+    "label": "#1738 · Unprofessional · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-806f3d2aead6f5"
+  },
+  {
+    "id": "synonym:lesson-src-c18bd41621f058",
+    "type": "synonym",
+    "ordinal": 1739,
+    "label": "#1739 · Excursions",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c18bd41621f058"
+  },
+  {
+    "id": "synonym:lesson-src-885429a977bcb8",
+    "type": "synonym",
+    "ordinal": 1740,
+    "label": "#1740 · Flashy (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-885429a977bcb8"
+  },
+  {
+    "id": "synonym:lesson-src-b016e8be805a22",
+    "type": "synonym",
+    "ordinal": 1741,
+    "label": "#1741 · Sluggish",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-b016e8be805a22"
+  },
+  {
+    "id": "synonym:lesson-src-04368096528ad4",
+    "type": "synonym",
+    "ordinal": 1742,
+    "label": "#1742 · Revolve",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-04368096528ad4"
+  },
+  {
+    "id": "synonym:lesson-src-6b501924488b7e",
+    "type": "synonym",
+    "ordinal": 1743,
+    "label": "#1743 · Endanger",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-6b501924488b7e"
+  },
+  {
+    "id": "synonym:lesson-src-24432a324ac120",
+    "type": "synonym",
+    "ordinal": 1744,
+    "label": "#1744 · Unimportant · adj",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-24432a324ac120"
+  },
+  {
+    "id": "synonym:lesson-src-dc1c4f0bc139a6",
+    "type": "synonym",
+    "ordinal": 1745,
+    "label": "#1745 · Pros and cons",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-dc1c4f0bc139a6"
+  },
+  {
+    "id": "synonym:lesson-src-9c082f8501f575",
+    "type": "synonym",
+    "ordinal": 1746,
+    "label": "#1746 · Memorize",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9c082f8501f575"
+  },
+  {
+    "id": "synonym:lesson-src-41000e018e5b03",
+    "type": "synonym",
+    "ordinal": 1747,
+    "label": "#1747 · Stricter laws",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-41000e018e5b03"
+  },
+  {
+    "id": "synonym:lesson-src-51fea7f3e36726",
+    "type": "synonym",
+    "ordinal": 1748,
+    "label": "#1748 · Clutter",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-51fea7f3e36726"
+  },
+  {
+    "id": "synonym:lesson-src-6326064fc74231",
+    "type": "synonym",
+    "ordinal": 1749,
+    "label": "#1749 · Amaze",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-6326064fc74231"
+  },
+  {
+    "id": "synonym:lesson-src-b01058aed2b067",
+    "type": "synonym",
+    "ordinal": 1750,
+    "label": "#1750 · Carefree (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b01058aed2b067"
+  },
+  {
+    "id": "synonym:lesson-src-a2960a4634c720",
+    "type": "synonym",
+    "ordinal": 1751,
+    "label": "#1751 · Academically",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-a2960a4634c720"
+  },
+  {
+    "id": "synonym:lesson-src-2f26c7b96b5ced",
+    "type": "synonym",
+    "ordinal": 1752,
+    "label": "#1752 · Nutritious",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-2f26c7b96b5ced"
+  },
+  {
+    "id": "synonym:lesson-src-7af1ad38229af4",
+    "type": "synonym",
+    "ordinal": 1753,
+    "label": "#1753 · Personal shopper",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7af1ad38229af4"
+  },
+  {
+    "id": "synonym:lesson-src-7232a133615369",
+    "type": "synonym",
+    "ordinal": 1754,
+    "label": "#1754 · Soothe (verb)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7232a133615369"
+  },
+  {
+    "id": "synonym:lesson-src-8de58d3a002624",
+    "type": "synonym",
+    "ordinal": 1755,
+    "label": "#1755 · Souvenirs",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-8de58d3a002624"
+  },
+  {
+    "id": "synonym:lesson-src-541f56386553e2",
+    "type": "synonym",
+    "ordinal": 1756,
+    "label": "#1756 · Chore",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-541f56386553e2"
+  },
+  {
+    "id": "synonym:lesson-src-def22bfe3f4cda",
+    "type": "synonym",
+    "ordinal": 1757,
+    "label": "#1757 · Sharpen",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-def22bfe3f4cda"
+  },
+  {
+    "id": "synonym:lesson-src-95c8f908cab4fe",
+    "type": "synonym",
+    "ordinal": 1758,
+    "label": "#1758 · Cram",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-95c8f908cab4fe"
+  },
+  {
+    "id": "synonym:lesson-src-9ef33280ae6ace",
+    "type": "synonym",
+    "ordinal": 1759,
+    "label": "#1759 · Overtaken",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9ef33280ae6ace"
+  },
+  {
+    "id": "synonym:lesson-src-8c8abf18527abc",
+    "type": "synonym",
+    "ordinal": 1760,
+    "label": "#1760 · Unplanned",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-8c8abf18527abc"
+  },
+  {
+    "id": "synonym:lesson-src-e27e2295f3ce39",
+    "type": "synonym",
+    "ordinal": 1761,
+    "label": "#1761 · Scammers",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-e27e2295f3ce39"
+  },
+  {
+    "id": "synonym:lesson-src-fd55be7eae2c27",
+    "type": "synonym",
+    "ordinal": 1762,
+    "label": "#1762 · Sugary · adj",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-fd55be7eae2c27"
+  },
+  {
+    "id": "synonym:lesson-v2-061",
+    "type": "synonym",
+    "ordinal": 1763,
+    "label": "#1763 · Footwork",
+    "detail": "Synonyms · 14 詞組 · 28 題",
+    "url": "synonyms-system.html?module=lesson-v2-061"
+  },
+  {
+    "id": "synonym:lesson-src-2b87dd2ce8bbdb",
+    "type": "synonym",
+    "ordinal": 1764,
+    "label": "#1764 · Restaurant",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-2b87dd2ce8bbdb"
+  },
+  {
+    "id": "synonym:lesson-src-371358cec30175",
+    "type": "synonym",
+    "ordinal": 1765,
+    "label": "#1765 · Transport",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-371358cec30175"
+  },
+  {
+    "id": "synonym:lesson-src-934e8d2c063e28",
+    "type": "synonym",
+    "ordinal": 1766,
+    "label": "#1766 · Mismatch · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-934e8d2c063e28"
+  },
+  {
+    "id": "synonym:lesson-src-f6364e6300135e",
+    "type": "synonym",
+    "ordinal": 1767,
+    "label": "#1767 · Printed Handouts",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f6364e6300135e"
+  },
+  {
+    "id": "synonym:lesson-src-6aae12992338bf",
+    "type": "synonym",
+    "ordinal": 1768,
+    "label": "#1768 · Spoilt",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-6aae12992338bf"
+  },
+  {
+    "id": "synonym:lesson-src-642ca9c9fdd262",
+    "type": "synonym",
+    "ordinal": 1769,
+    "label": "#1769 · Second-hand fashion",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-642ca9c9fdd262"
+  },
+  {
+    "id": "synonym:lesson-src-fa97da58f2a09c",
+    "type": "synonym",
+    "ordinal": 1770,
+    "label": "#1770 · Housework",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-fa97da58f2a09c"
+  },
+  {
+    "id": "synonym:lesson-src-3bbe65819aa5b1",
+    "type": "synonym",
+    "ordinal": 1771,
+    "label": "#1771 · Irritate",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-3bbe65819aa5b1"
+  },
+  {
+    "id": "synonym:lesson-src-0aa7478c7846e5",
+    "type": "synonym",
+    "ordinal": 1772,
+    "label": "#1772 · Afternoon naps",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0aa7478c7846e5"
+  },
+  {
+    "id": "synonym:lesson-src-9a7a8b982be5dd",
+    "type": "synonym",
+    "ordinal": 1773,
+    "label": "#1773 · International sport",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-9a7a8b982be5dd"
+  },
+  {
+    "id": "synonym:lesson-src-619c018514d5b7",
+    "type": "synonym",
+    "ordinal": 1774,
+    "label": "#1774 · Calligraphy",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-619c018514d5b7"
+  },
+  {
+    "id": "synonym:lesson-src-d7288daf2a4683",
+    "type": "synonym",
+    "ordinal": 1775,
+    "label": "#1775 · Speak Cantonese",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d7288daf2a4683"
+  },
+  {
+    "id": "synonym:lesson-src-4aa7e8d96a133d",
+    "type": "synonym",
+    "ordinal": 1776,
+    "label": "#1776 · Speak Cantonese",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-4aa7e8d96a133d"
+  },
+  {
+    "id": "synonym:lesson-src-8dbedf816dc1eb",
+    "type": "synonym",
+    "ordinal": 1777,
+    "label": "#1777 · Public Transport",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-8dbedf816dc1eb"
+  },
+  {
+    "id": "synonym:lesson-src-8693484c70a31a",
+    "type": "synonym",
+    "ordinal": 1778,
+    "label": "#1778 · Errand (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-8693484c70a31a"
+  },
+  {
+    "id": "synonym:lesson-src-7cb1648fa2321f",
+    "type": "synonym",
+    "ordinal": 1779,
+    "label": "#1779 · Extra-curricular activities",
+    "detail": "Synonyms · 12 詞組 · 36 題",
+    "url": "synonyms-system.html?module=lesson-src-7cb1648fa2321f"
+  },
+  {
+    "id": "synonym:lesson-src-04489f8a832e68",
+    "type": "synonym",
+    "ordinal": 1780,
+    "label": "#1780 · Hydrate",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-04489f8a832e68"
+  },
+  {
+    "id": "synonym:lesson-src-9bdd6701bd3c96",
+    "type": "synonym",
+    "ordinal": 1781,
+    "label": "#1781 · Scaffold",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-9bdd6701bd3c96"
+  },
+  {
+    "id": "synonym:lesson-src-881c30fb0a908f",
+    "type": "synonym",
+    "ordinal": 1782,
+    "label": "#1782 · Reread",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-881c30fb0a908f"
+  },
+  {
+    "id": "synonym:lesson-src-0719258023d963",
+    "type": "synonym",
+    "ordinal": 1783,
+    "label": "#1783 · Bamboo scaffolding",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-0719258023d963"
+  },
+  {
+    "id": "synonym:lesson-src-7b680102a7363a",
+    "type": "synonym",
+    "ordinal": 1784,
+    "label": "#1784 · Fillet",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7b680102a7363a"
+  },
+  {
+    "id": "synonym:lesson-src-c18c62ccd9627a",
+    "type": "synonym",
+    "ordinal": 1785,
+    "label": "#1785 · Influencer",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-c18c62ccd9627a"
+  },
+  {
+    "id": "synonym:lesson-src-aae4ac03e62cf8",
+    "type": "synonym",
+    "ordinal": 1786,
+    "label": "#1786 · Money Smarts",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-aae4ac03e62cf8"
+  },
+  {
+    "id": "synonym:lesson-src-d8c4fbd2c3bcc1",
+    "type": "synonym",
+    "ordinal": 1787,
+    "label": "#1787 · Quotient",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-d8c4fbd2c3bcc1"
+  },
+  {
+    "id": "synonym:lesson-src-732f5d88904fa8",
+    "type": "synonym",
+    "ordinal": 1788,
+    "label": "#1788 · Cruelly treated",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-732f5d88904fa8"
+  },
+  {
+    "id": "synonym:lesson-src-8c6e44dd128401",
+    "type": "synonym",
+    "ordinal": 1789,
+    "label": "#1789 · Approachable · adj.",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-8c6e44dd128401"
+  },
+  {
+    "id": "synonym:lesson-src-b00e2bafb42b01",
+    "type": "synonym",
+    "ordinal": 1790,
+    "label": "#1790 · Music therapy",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b00e2bafb42b01"
+  },
+  {
+    "id": "synonym:lesson-src-54a6b51a08b208",
+    "type": "synonym",
+    "ordinal": 1791,
+    "label": "#1791 · Nourish",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-54a6b51a08b208"
+  },
+  {
+    "id": "synonym:lesson-src-12cf579c3f8d10",
+    "type": "synonym",
+    "ordinal": 1792,
+    "label": "#1792 · Gravitate",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-12cf579c3f8d10"
+  },
+  {
+    "id": "synonym:lesson-src-de7f0aab767d27",
+    "type": "synonym",
+    "ordinal": 1793,
+    "label": "#1793 · Reshape",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-de7f0aab767d27"
+  },
+  {
+    "id": "synonym:lesson-v2-060",
+    "type": "synonym",
+    "ordinal": 1794,
+    "label": "#1794 · Adaptability",
+    "detail": "Synonyms · 9 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-v2-060"
+  },
+  {
+    "id": "synonym:lesson-src-9d762c32bfcb4e",
+    "type": "synonym",
+    "ordinal": 1795,
+    "label": "#1795 · Punctual",
+    "detail": "Synonyms · 4 詞組 · 12 題",
+    "url": "synonyms-system.html?module=lesson-src-9d762c32bfcb4e"
+  },
+  {
+    "id": "synonym:lesson-src-0b2859b54ad836",
+    "type": "synonym",
+    "ordinal": 1796,
+    "label": "#1796 · Driverless",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0b2859b54ad836"
+  },
+  {
+    "id": "synonym:lesson-src-a66cd1612592d2",
+    "type": "synonym",
+    "ordinal": 1797,
+    "label": "#1797 · Overreact",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-a66cd1612592d2"
+  },
+  {
+    "id": "synonym:lesson-src-eb086172f4c95b",
+    "type": "synonym",
+    "ordinal": 1798,
+    "label": "#1798 · Livable · adj",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-eb086172f4c95b"
+  },
+  {
+    "id": "synonym:lesson-src-39698b4a14ff2b",
+    "type": "synonym",
+    "ordinal": 1799,
+    "label": "#1799 · After-school hangouts",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-39698b4a14ff2b"
+  },
+  {
+    "id": "synonym:lesson-src-50114b78e99924",
+    "type": "synonym",
+    "ordinal": 1800,
+    "label": "#1800 · Punctuality",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-50114b78e99924"
+  },
+  {
+    "id": "synonym:lesson-src-0b5af19bac8521",
+    "type": "synonym",
+    "ordinal": 1801,
+    "label": "#1801 · Tourism",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-0b5af19bac8521"
+  },
+  {
+    "id": "synonym:lesson-src-37a5bd8288d9df",
+    "type": "synonym",
+    "ordinal": 1802,
+    "label": "#1802 · Classical",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-37a5bd8288d9df"
+  },
+  {
+    "id": "synonym:lesson-src-996a71f85c5187",
+    "type": "synonym",
+    "ordinal": 1803,
+    "label": "#1803 · Beekeeping",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-996a71f85c5187"
+  },
+  {
+    "id": "synonym:lesson-src-d3aa59625a1824",
+    "type": "synonym",
+    "ordinal": 1804,
+    "label": "#1804 · Laundromat",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-d3aa59625a1824"
+  },
+  {
+    "id": "synonym:lesson-src-c665fbf567b209",
+    "type": "synonym",
+    "ordinal": 1805,
+    "label": "#1805 · Space tourism",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-c665fbf567b209"
+  },
+  {
+    "id": "synonym:lesson-src-f552dec94ab8a3",
+    "type": "synonym",
+    "ordinal": 1806,
+    "label": "#1806 · Toughen",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-f552dec94ab8a3"
+  },
+  {
+    "id": "synonym:lesson-src-be09771ebd3695",
+    "type": "synonym",
+    "ordinal": 1807,
+    "label": "#1807 · Biology (noun)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-be09771ebd3695"
+  },
+  {
+    "id": "synonym:lesson-src-57b52fbb7ce4ed",
+    "type": "synonym",
+    "ordinal": 1808,
+    "label": "#1808 · Keepsake",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-57b52fbb7ce4ed"
+  },
+  {
+    "id": "synonym:lesson-src-936c3a239cff0f",
+    "type": "synonym",
+    "ordinal": 1809,
+    "label": "#1809 · Metro (noun)",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-936c3a239cff0f"
+  },
+  {
+    "id": "synonym:lesson-v2-062",
+    "type": "synonym",
+    "ordinal": 1810,
+    "label": "#1810 · Adaptability Quotient",
+    "detail": "Synonyms · 9 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-v2-062"
+  },
+  {
+    "id": "synonym:lesson-src-edcb2abcb7f668",
+    "type": "synonym",
+    "ordinal": 1811,
+    "label": "#1811 · Socialise",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-edcb2abcb7f668"
+  },
+  {
+    "id": "synonym:lesson-src-b770c33508f98f",
+    "type": "synonym",
+    "ordinal": 1812,
+    "label": "#1812 · Vegetarianism",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b770c33508f98f"
+  },
+  {
+    "id": "synonym:lesson-src-6a393fc2ed2922",
+    "type": "synonym",
+    "ordinal": 1813,
+    "label": "#1813 · Walkable",
+    "detail": "Synonyms · 11 詞組 · 33 題",
+    "url": "synonyms-system.html?module=lesson-src-6a393fc2ed2922"
+  },
+  {
+    "id": "synonym:lesson-src-d23aafda325aeb",
+    "type": "synonym",
+    "ordinal": 1814,
+    "label": "#1814 · Short distance commutes",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-d23aafda325aeb"
+  },
+  {
+    "id": "synonym:lesson-src-07d62d9900f980",
+    "type": "synonym",
+    "ordinal": 1815,
+    "label": "#1815 · Cashless",
+    "detail": "Synonyms · 13 詞組 · 39 題",
+    "url": "synonyms-system.html?module=lesson-src-07d62d9900f980"
+  },
+  {
+    "id": "synonym:lesson-src-366ae551c33935",
+    "type": "synonym",
+    "ordinal": 1816,
+    "label": "#1816 · Redecorating",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-366ae551c33935"
+  },
+  {
+    "id": "synonym:lesson-src-3e5a0dddda5559",
+    "type": "synonym",
+    "ordinal": 1817,
+    "label": "#1817 · Lateness · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-3e5a0dddda5559"
+  },
+  {
+    "id": "synonym:lesson-src-0f70e3637cb974",
+    "type": "synonym",
+    "ordinal": 1818,
+    "label": "#1818 · Pop Music Trends",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0f70e3637cb974"
+  },
+  {
+    "id": "synonym:lesson-src-18f3001ec9c97f",
+    "type": "synonym",
+    "ordinal": 1819,
+    "label": "#1819 · Outdoor music festival",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-18f3001ec9c97f"
+  },
+  {
+    "id": "synonym:lesson-src-5830c4a8a4e694",
+    "type": "synonym",
+    "ordinal": 1820,
+    "label": "#1820 · Affectionate · adj.",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-5830c4a8a4e694"
+  },
+  {
+    "id": "synonym:lesson-src-c2aa000ebc2683",
+    "type": "synonym",
+    "ordinal": 1821,
+    "label": "#1821 · Buskers",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-c2aa000ebc2683"
+  },
+  {
+    "id": "synonym:lesson-src-e4b45ef4b12f27",
+    "type": "synonym",
+    "ordinal": 1822,
+    "label": "#1822 · Upcycled Products",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-e4b45ef4b12f27"
+  },
+  {
+    "id": "synonym:lesson-src-75a0a1185d40e2",
+    "type": "synonym",
+    "ordinal": 1823,
+    "label": "#1823 · Toiletry",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-75a0a1185d40e2"
+  },
+  {
+    "id": "synonym:lesson-src-2b894c4d89699b",
+    "type": "synonym",
+    "ordinal": 1824,
+    "label": "#1824 · Couponing",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-2b894c4d89699b"
+  },
+  {
+    "id": "synonym:lesson-src-87248d19a96403",
+    "type": "synonym",
+    "ordinal": 1825,
+    "label": "#1825 · Homeschoolers",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-87248d19a96403"
+  },
+  {
+    "id": "synonym:lesson-src-460ee0d2dca3e5",
+    "type": "synonym",
+    "ordinal": 1826,
+    "label": "#1826 · Eatable",
+    "detail": "Synonyms · 9 詞組 · 27 題",
+    "url": "synonyms-system.html?module=lesson-src-460ee0d2dca3e5"
+  },
+  {
+    "id": "synonym:lesson-src-5b6dfe6494d9f5",
+    "type": "synonym",
+    "ordinal": 1827,
+    "label": "#1827 · Flying a drone",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-5b6dfe6494d9f5"
+  },
+  {
+    "id": "synonym:lesson-src-aba6d0673456a5",
+    "type": "synonym",
+    "ordinal": 1828,
+    "label": "#1828 · Airport Ambassadors",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-aba6d0673456a5"
+  },
+  {
+    "id": "synonym:lesson-src-b3edde27737006",
+    "type": "synonym",
+    "ordinal": 1829,
+    "label": "#1829 · Holiday",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b3edde27737006"
+  },
+  {
+    "id": "synonym:lesson-src-f7bde5784d0ff3",
+    "type": "synonym",
+    "ordinal": 1830,
+    "label": "#1830 · Cake",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-f7bde5784d0ff3"
+  },
+  {
+    "id": "synonym:lesson-src-0effa907ba5fe4",
+    "type": "synonym",
+    "ordinal": 1831,
+    "label": "#1831 · Battery · noun",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-0effa907ba5fe4"
+  },
+  {
+    "id": "synonym:lesson-src-00faab09bbfa21",
+    "type": "synonym",
+    "ordinal": 1832,
+    "label": "#1832 · Flower",
+    "detail": "Synonyms · 6 詞組 · 18 題",
+    "url": "synonyms-system.html?module=lesson-src-00faab09bbfa21"
+  },
+  {
+    "id": "synonym:lesson-src-7cdc1ed2da055a",
+    "type": "synonym",
+    "ordinal": 1833,
+    "label": "#1833 · Fame",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-7cdc1ed2da055a"
+  },
+  {
+    "id": "synonym:lesson-src-e45f4dcd49cf78",
+    "type": "synonym",
+    "ordinal": 1834,
+    "label": "#1834 · Jacket · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-e45f4dcd49cf78"
+  },
+  {
+    "id": "synonym:lesson-src-002051b2d45560",
+    "type": "synonym",
+    "ordinal": 1835,
+    "label": "#1835 · Celebrity",
+    "detail": "Synonyms · 14 詞組 · 42 題",
+    "url": "synonyms-system.html?module=lesson-src-002051b2d45560"
+  },
+  {
+    "id": "synonym:lesson-src-50f0fb9860307c",
+    "type": "synonym",
+    "ordinal": 1836,
+    "label": "#1836 · Dish",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-50f0fb9860307c"
+  },
+  {
+    "id": "synonym:lesson-src-50eeab8d49b4bb",
+    "type": "synonym",
+    "ordinal": 1837,
+    "label": "#1837 · Fabric · noun",
+    "detail": "Synonyms · 7 詞組 · 21 題",
+    "url": "synonyms-system.html?module=lesson-src-50eeab8d49b4bb"
+  },
+  {
+    "id": "synonym:lesson-src-d8e24b414392cd",
+    "type": "synonym",
+    "ordinal": 1838,
+    "label": "#1838 · Lamp",
+    "detail": "Synonyms · 10 詞組 · 30 題",
+    "url": "synonyms-system.html?module=lesson-src-d8e24b414392cd"
+  },
+  {
+    "id": "synonym:lesson-src-b566f843ffc3d1",
+    "type": "synonym",
+    "ordinal": 1839,
+    "label": "#1839 · Snack",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b566f843ffc3d1"
+  },
+  {
+    "id": "synonym:lesson-src-63e4da0e7b5e00",
+    "type": "synonym",
+    "ordinal": 1840,
+    "label": "#1840 · Cuisine",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-63e4da0e7b5e00"
+  },
+  {
+    "id": "synonym:lesson-src-bf3a743ee50b9b",
+    "type": "synonym",
+    "ordinal": 1841,
+    "label": "#1841 · Wardrobe",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-bf3a743ee50b9b"
+  },
+  {
+    "id": "synonym:lesson-src-b308eb85ea7c45",
+    "type": "synonym",
+    "ordinal": 1842,
+    "label": "#1842 · Stylish (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-b308eb85ea7c45"
+  },
+  {
+    "id": "synonym:lesson-src-d879fceaa8d3da",
+    "type": "synonym",
+    "ordinal": 1843,
+    "label": "#1843 · Fashionable",
+    "detail": "Synonyms · 5 詞組 · 15 題",
+    "url": "synonyms-system.html?module=lesson-src-d879fceaa8d3da"
+  },
+  {
+    "id": "synonym:lesson-src-1406917dff434c",
+    "type": "synonym",
+    "ordinal": 1844,
+    "label": "#1844 · Glamorous (adjective)",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-1406917dff434c"
+  },
+  {
+    "id": "synonym:lesson-src-40005ecce8979d",
+    "type": "synonym",
+    "ordinal": 1845,
+    "label": "#1845 · Weekday",
+    "detail": "Synonyms · 8 詞組 · 24 題",
+    "url": "synonyms-system.html?module=lesson-src-40005ecce8979d"
+  },
+  {
+    "id": "synonym:important",
+    "type": "synonym",
+    "ordinal": 0,
+    "label": "Important",
+    "detail": "Synonyms · 精選模組",
+    "url": "synonyms-system.html?module=important"
+  },
+  {
+    "id": "synonym:social-media",
+    "type": "synonym",
+    "ordinal": 1846,
+    "label": "Social Media",
+    "detail": "Synonyms · 精選模組",
+    "url": "synonyms-system.html?module=social-media"
   },
   {
     "id": "writing-submission:dse-writing-2025-part-a",

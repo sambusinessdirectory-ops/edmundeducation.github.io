@@ -6,6 +6,8 @@ import path from "node:path";
 import { promisify } from "node:util";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import vm from "node:vm";
+import { catalog as synonymCatalog, legacyCatalog as legacySynonymCatalog } from "../synonyms/lesson-catalog.mjs";
+import { modules as polysemyModules } from "../polysemy-lab/catalogue.mjs";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
 import {
   HOMEWORK_ENTRY_TAGS,
@@ -17,6 +19,7 @@ import {
   homeworkAutocomplete,
   homeworkResourceDisplayTitle,
   insertHomeworkResourceTitle,
+  normalizeHomeworkHref,
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
@@ -42,7 +45,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 7109, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part, Polysemy lesson, Native English lesson and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 9509, "the Homework/Schedule catalogue should include every current learning resource and Synonym module");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -61,8 +64,18 @@ assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing
 assert.equal((byType["download-material"] || []).length, 939, "every item in the DSE/IELTS download portal should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
-assert.equal((byType.polysemy || []).length, 538, "all Polysemy modules should be indexed");
+assert.equal((byType.polysemy || []).length, polysemyModules.length, "all Polysemy modules should be indexed");
 assert.equal((byType["native-english"] || []).length, 466, "all Native English modules should be indexed");
+assert.equal((byType.synonym || []).length, synonymCatalog.length + legacySynonymCatalog.length + 2, "all ranked, legacy, and featured Synonym modules should be indexed");
+for (const module of [...synonymCatalog, ...legacySynonymCatalog]) {
+  const resource = HOMEWORK_RESOURCE_CATALOG.find((item) => item.id === `synonym:${module.id}`);
+  assert.equal(resource?.url, `synonyms-system.html?module=${module.id}`, `Homework should open Synonym module ${module.id}`);
+}
+assert.ok(ids.has("synonym:important"));
+assert.ok(ids.has("synonym:social-media"));
+assert.equal(normalizeHomeworkHref("synonyms-system.html"), "synonyms-system.html", "existing portal-level Synonyms links must remain valid");
+assert.equal(normalizeHomeworkHref("synonyms-system.html?module=lesson-v2-004&redirect=elsewhere"), null);
+assert.equal(normalizeHomeworkResource({ id: "synonym:wrong-module", type: "synonym", label: "A lot of", url: "synonyms-system.html?module=lesson-v2-004" }), null);
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
 const writingPracticeAssignments = new Map((byType["writing-submission"] || []).map((resource) => [
   resource.id.slice("writing-submission:".length),
@@ -819,6 +832,7 @@ assert.equal(homeworkResourceDisplayTitle(videoClassMarkerResource), "Series Vid
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "IELTS Mock Part 1 Part 3").items[0]?.id, "speaking:mock:ielts:p1-p3");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "DSE Mock 小組討論 個人發言").items[0]?.id, "speaking:mock:dse:dse-combined");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "synonym", "A lot of").items[0]?.id, "synonym:lesson-v2-004");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "Mungo Man").items[0]?.id, "reading-analysis:mungo-man");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "it's dynamite").items[0]?.id, "reading-analysis:p1-088-its-dynamite");
@@ -987,11 +1001,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261001-homework-dse-links1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261001-homework-dse-links1/, "Homework link helper cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261001-homework-link-export1/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261001-homework-dse-links1/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261001-homework-dse-links1/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261011-homework-synonyms1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261011-homework-synonyms1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261011-homework-synonyms1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261011-homework-synonyms1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261011-homework-synonyms1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261011-homework-synonyms1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
