@@ -86,7 +86,7 @@ test('girls share availability but have independent equipped slots',async()=>{
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
  equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('ivory-botanical-cap','celeste');equipCosmetic('pink-rain-jacket','elsie');
  assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',celesteHeadwear:'ivory-botanical-cap',elsieTop:'pink-rain-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','navy-fish-bucket-hat','ivory-racecar-baseball-cap','white-oversized-tee','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress','brown-shearling-lace-boots']);
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['ivory-botanical-cap','navy-fish-bucket-hat','ivory-racecar-baseball-cap','white-oversized-tee','cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest','ivory-bow-neck-blouse','brown-zip-front-jacket','dusty-rose-oversized-sweatshirt','camel-coat-dress','ivory-tiered-dress','brown-shearling-lace-boots']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
@@ -381,6 +381,47 @@ test('the vest release migration registers the item and all three independent to
  const sql=readFileSync(new URL('../supabase/migrations/20261002170000_girls_navy_cream_knit_vest.sql',import.meta.url),'utf8');
  assert.match(sql,/values \('navy-cream-knit-vest','Navy cream-trim knit vest',30,true\)/);
  for(const slot of ['celesteTop','phoebeTop','elsieTop'])assert.match(sql,new RegExp(slot+"'\\) or value->>'"+slot+"' in \\('cream-sherpa-jacket','pink-rain-jacket','navy-cream-knit-vest'\\)"));
+ for(const character of ['celeste','phoebe','elsie'])assert.match(sql,new RegExp("not\\(value\\?'"+character+"FullBody' and value\\?'"+character+"Top'\\)"));
+});
+test('the autumn top trio is girls-only, independently fitted, transparent and full-body exclusive',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
+ const ids=['ivory-bow-neck-blouse','brown-zip-front-jacket','dusty-rose-oversized-sweatshirt'];
+ for(const id of ids){
+  const hashes=[];
+  for(const character of ['celeste','phoebe','elsie']){
+   assert.equal(cosmeticsForCharacter(character).some(item=>item.id===id),true);
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+id+'.webp',import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+   const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+   assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);assert.ok(bytes.length>30000);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+  }
+  assert.equal(new Set(hashes).size,3,id+' must have three independently fitted atlases');
+  for(const character of ['eddy','noir'])assert.equal(cosmeticsForCharacter(character).some(item=>item.id===id),false);
+  const thumb=readFileSync(new URL('../assets/speaking-system/cosmetics/girls/'+id+'-display.png',import.meta.url));
+  assert.deepEqual([...thumb.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.ok([4,6].includes(thumb[25]));
+ }
+ clearCosmetics('elsie');equipCosmetic('ivory-bow-neck-blouse','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{elsieTop:'ivory-bow-neck-blouse'});
+ equipCosmetic('ivory-tiered-dress','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{elsieFullBody:'ivory-tiered-dress'});
+ equipCosmetic('brown-zip-front-jacket','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{elsieTop:'brown-zip-front-jacket'});
+ clearCosmetics('elsie');
+});
+test('the autumn top trio migration registers the products and preserves every wardrobe allowlist',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261011031933_girls_autumn_top_trio.sql',import.meta.url),'utf8');
+ const ids=['ivory-bow-neck-blouse','brown-zip-front-jacket','dusty-rose-oversized-sweatshirt'];
+ for(const [id,name,price] of [
+  ['ivory-bow-neck-blouse','Ivory bow-neck blouse',30],
+  ['brown-zip-front-jacket','Brown zip-front jacket',35],
+  ['dusty-rose-oversized-sweatshirt','Dusty rose oversized sweatshirt',30]
+ ])assert.match(sql,new RegExp("\\('"+id+"','"+name+"',"+price+",true\\)"));
+ for(const slot of ['girlsTop','celesteTop','phoebeTop','elsieTop'])for(const id of ids)assert.match(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const slot of ['top','eddyTop','noirTop'])for(const id of ids)assert.doesNotMatch(sql,new RegExp("value->>'"+slot+"'.*'"+id+"'"));
+ for(const id of ['ivory-botanical-cap','navy-fish-bucket-hat','ivory-racecar-baseball-cap','white-oversized-tee','navy-cream-knit-vest','camel-coat-dress','ivory-tiered-dress','brown-shearling-lace-boots','white-navy-oxford','navy-cream-rugby','forest-burgundy-rugby','charcoal-wash-jeans','classic-blue-jeans'])assert.ok(sql.includes("'"+id+"'"),id+' must remain allowed');
+ for(const slot of ['eddyLower','noirLower'])assert.match(sql,new RegExp("value->>'"+slot+"'.*'charcoal-wash-jeans'.*'classic-blue-jeans'"));
  for(const character of ['celeste','phoebe','elsie'])assert.match(sql,new RegExp("not\\(value\\?'"+character+"FullBody' and value\\?'"+character+"Top'\\)"));
 });
 test('the camel coat dress has three independent transparent 16-view overlays and a shop image',async()=>{

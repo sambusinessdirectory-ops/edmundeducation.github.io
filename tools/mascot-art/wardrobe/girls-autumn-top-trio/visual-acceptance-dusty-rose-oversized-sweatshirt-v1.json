@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemId": "dusty-rose-oversized-sweatshirt",
+  "catalogGroup": "girls",
+  "revision": "v1",
+  "status": "accepted",
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-11T03:14:56Z",
+  "humanVisualAcceptance": true,
+  "characters": [
+    "celeste",
+    "phoebe",
+    "elsie"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Celeste, Phoebe and Elsie in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Celeste, Phoebe and Elsie fits with correct front, side and rear garment construction",
+    "bow and collar, zip and pockets, or ribbed sweatshirt details preserve the supplied design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "race-car cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/celeste/dusty-rose-oversized-sweatshirt.webp": "51ec387319179ec57cb26b492d4a68ce51466a95e258c19acdf0cb424c914ff4",
+    "assets/speaking-system/cosmetics/phoebe/dusty-rose-oversized-sweatshirt.webp": "5d8f01f9429e7d47ae41a766acf7e828b743a48708d65490b1f6a01d9295daf1",
+    "assets/speaking-system/cosmetics/elsie/dusty-rose-oversized-sweatshirt.webp": "8b69d0f6dbde6276140e758e914bb98e816ae1869f0e0b5f5d4125d130914200",
+    "assets/speaking-system/cosmetics/girls/dusty-rose-oversized-sweatshirt-display.png": "0c8c63c40a4a8ef355a283e2e16d024f20f4562a3d0254e6cc9c1404839aaf58"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-dusty-rose-oversized-sweatshirt-3d-dark-open.jpg": "92b8c78f77818f3db00946b7909b000a097dfef7151dd2cfa8dc96dcd9eaa7c9",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-dusty-rose-oversized-sweatshirt-3d-blink.jpg": "bf439f83fb814820134e6f3c79ffd8640436ada42d748be923f959d059160694",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-dusty-rose-oversized-sweatshirt-3d-light-open.jpg": "2996bb2b35c1d73457f0eca7e2ed47f70500e8b8419badfdc1fa009e6ca7d6d4",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-dusty-rose-oversized-sweatshirt-combination-3d-open.jpg": "454b17b720d23bbaf4be297a403afd8c50717567d305b21e3f99dcaae3a50838",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-dusty-rose-oversized-sweatshirt-combination-3d-blink.jpg": "48ee5363ce77c3b386d7e1a65860dcacdc8d1bc501660f6c79dea4f412b672c6",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-dusty-rose-oversized-sweatshirt-3d-dark-open.jpg": "b86fb9c81cdf5e92fe01dce0cfbeb272fcad366975e1242533ba9c7769c2a590",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-dusty-rose-oversized-sweatshirt-3d-blink.jpg": "6671691a0382a64c9b49b5276a23aa7ab00b3f875b6402dc8a98d51d25af87f8",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-dusty-rose-oversized-sweatshirt-3d-light-open.jpg": "840806fc1b220873a92234d0d4401239421f93ce5b44f53034c1c5d6c198a036",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-dusty-rose-oversized-sweatshirt-combination-3d-open.jpg": "291a3ec4610f9d093dea41f703c0b56667684d877f6d61c0e8c1618499e31127",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-dusty-rose-oversized-sweatshirt-combination-3d-blink.jpg": "ecfd9d1d7fcba2406e52ad28f24d77d5da71090ee1dfda86217b6b0dc96377b7",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-dusty-rose-oversized-sweatshirt-3d-dark-open.jpg": "0a6eea8d19fb302138c556f5c80ab0a899408ea202d526a6e4d88f942ec50d80",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-dusty-rose-oversized-sweatshirt-3d-blink.jpg": "705cdd34487d3d020083e30231ff2539ca71ce2d61dc3a421023a9dee1b336db",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-dusty-rose-oversized-sweatshirt-3d-light-open.jpg": "9d76ce9a4e57701c1d98d697abaa27ce5d07a796d133aa364758ba57d1f990e2",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-dusty-rose-oversized-sweatshirt-combination-3d-open.jpg": "3762c3ed7da2a2ad8ac9b3e6fc66bbb5a759ddaf5f6fcde969d4a527b7cd76fe",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-dusty-rose-oversized-sweatshirt-combination-3d-blink.jpg": "9dcf6e7bd83916fef82c8ad94070947089bc17cef5ad1be29a6f0e4ea3a53093",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-approval-v1.jpg": "b0c98f830287ad400fe8678f567b7593fdc5fe5099b91bb881746657d481fad5"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemId": "ivory-bow-neck-blouse",
+  "catalogGroup": "girls",
+  "revision": "v1",
+  "status": "accepted",
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-11T03:14:56Z",
+  "humanVisualAcceptance": true,
+  "characters": [
+    "celeste",
+    "phoebe",
+    "elsie"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Celeste, Phoebe and Elsie in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Celeste, Phoebe and Elsie fits with correct front, side and rear garment construction",
+    "bow and collar, zip and pockets, or ribbed sweatshirt details preserve the supplied design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "race-car cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/celeste/ivory-bow-neck-blouse.webp": "ffa9a918e69284a585fc1a506502199239eb37c6107f2a0284933b71242514ed",
+    "assets/speaking-system/cosmetics/phoebe/ivory-bow-neck-blouse.webp": "4c114aa9fb41bd2675940dc99d7d5c6fe10e0ff9ea30400fdf70eb4b2631d004",
+    "assets/speaking-system/cosmetics/elsie/ivory-bow-neck-blouse.webp": "b682c34ca970d6b928d57490881ae3ea9d89913e6f5f4e085096e8d31b710403",
+    "assets/speaking-system/cosmetics/girls/ivory-bow-neck-blouse-display.png": "ece7075028dc6a3c7da1b8b75ead688496299f56235115c0e8f5e2a152873aa7"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-ivory-bow-neck-blouse-3d-dark-open.jpg": "a43f6799b454bfffdea8e226e46c0a01b073b370182c85866667f5a776e4aab3",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-ivory-bow-neck-blouse-3d-blink.jpg": "ad2349ed9c0aa7cd66e6fcd2222a3ab6c6addd778e15ae593ae09b1a35d539f6",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-ivory-bow-neck-blouse-3d-light-open.jpg": "dcbe4f6b89a96b4979cf1515f6bf579eb7e58b74cf44234991d9e843d9a3b168",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-ivory-bow-neck-blouse-combination-3d-open.jpg": "153c21fee12603d6e3d71bf545a7b36ce31fc86d79c551554674de7bf2ee04ea",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-ivory-bow-neck-blouse-combination-3d-blink.jpg": "8e3dbeee9e5c011c4e20cd6c06d5cd9dab159291101e3143190f46a0c0644249",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-ivory-bow-neck-blouse-3d-dark-open.jpg": "b0ae6861376331602e589937fda30a877ab58247fdbcd30c1106ced063b4690d",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-ivory-bow-neck-blouse-3d-blink.jpg": "ec60150c7b0498d0619718f1a161802942296f7822c2ad29e2b55c168812107c",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-ivory-bow-neck-blouse-3d-light-open.jpg": "ce28baf6fa1466d5e6568b51010c1032dd7c24225ed5d9db3b4b68cb8a2306da",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-ivory-bow-neck-blouse-combination-3d-open.jpg": "8c025585b1ca8dfff897c59a24045af762b24e8c52fb76ba6dc5195cb1346050",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-ivory-bow-neck-blouse-combination-3d-blink.jpg": "82f786373dd5f269aea957f29d71156a9a5938a55288cc8e270a310521e88757",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-ivory-bow-neck-blouse-3d-dark-open.jpg": "6e9e225a23228cb002c53f9e5352417a09985da163083ec00da9037b9a55c2b0",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-ivory-bow-neck-blouse-3d-blink.jpg": "6d7fd977914b084967a56279f74d725f82d4c5ad2e414d49c67e047f49868920",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-ivory-bow-neck-blouse-3d-light-open.jpg": "3f87743060251695ffe509b01624a359bf577adf5be9eae65aedeba631305094",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-ivory-bow-neck-blouse-combination-3d-open.jpg": "c34c9efd1be900c71522d512f632c79ffae3ce90df6ac07308083176b1ff4dbf",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-ivory-bow-neck-blouse-combination-3d-blink.jpg": "592f55d266b588ff37e11cebe096b0e76b754d2f4c5ce25aa6ece6912e3850da",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-approval-v1.jpg": "b0c98f830287ad400fe8678f567b7593fdc5fe5099b91bb881746657d481fad5"
+  }
+}

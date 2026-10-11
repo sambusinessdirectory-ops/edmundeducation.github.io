@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemId": "brown-zip-front-jacket",
+  "catalogGroup": "girls",
+  "revision": "v1",
+  "status": "accepted",
+  "approvedBy": "User - explicit approval in Codex chat",
+  "approvedAt": "2026-10-11T03:14:56Z",
+  "humanVisualAcceptance": true,
+  "characters": [
+    "celeste",
+    "phoebe",
+    "elsie"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Celeste, Phoebe and Elsie in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Celeste, Phoebe and Elsie fits with correct front, side and rear garment construction",
+    "bow and collar, zip and pockets, or ribbed sweatshirt details preserve the supplied design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "race-car cap plus top plus shearling-boots compatibility",
+    "garment overlay is confined to the upper-body band with zero generated body, mane, tail, leg or foot pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/celeste/brown-zip-front-jacket.webp": "7df9e876df5bdb8f40a75614287840d0381e21af1eeca2f7e0fd57b286dbeecc",
+    "assets/speaking-system/cosmetics/phoebe/brown-zip-front-jacket.webp": "87f4e19fd1331150363fe67b846e5657d4b119170de1d1fee2c4d8e27797f400",
+    "assets/speaking-system/cosmetics/elsie/brown-zip-front-jacket.webp": "f3d115de37197fdef9ab5bc00036eae96438417c1fe25b352c7a6b9a3fbf8789",
+    "assets/speaking-system/cosmetics/girls/brown-zip-front-jacket-display.png": "36ff34ce0e86ac242114193a1e4974a127566cd4c15386d0c083f8e16ecc722c"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-brown-zip-front-jacket-3d-dark-open.jpg": "70abd6931874fda8ac425facf83618eb983620152490122ec54297a39b91c51a",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-brown-zip-front-jacket-3d-blink.jpg": "79c020dcb8fc78d57d5857f73ae395ffb62d2d6f70f77b3d31767da9f8419513",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-brown-zip-front-jacket-3d-light-open.jpg": "21a4207502a08ba5ab8fef18985a87972e6f0e7412131a28091898dc2d11132f",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-brown-zip-front-jacket-combination-3d-open.jpg": "c1be4a5236967dad013a8e319b3adc57faa7227de70edbdf44c8b3e514842994",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-celeste-brown-zip-front-jacket-combination-3d-blink.jpg": "d3cf0ff9ac59494f33b5d2311ed20244d8ae8e7c7c07c4655bc615350578aa67",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-brown-zip-front-jacket-3d-dark-open.jpg": "f6146f8e7f8c43fe195aac9baff0d1e510b3af5fa8ce6ce910eea173e9d15795",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-brown-zip-front-jacket-3d-blink.jpg": "4805d1b9748e62fe84db6bb6b2fbbb5f4318c1045983010f8e79035ba91fa06f",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-brown-zip-front-jacket-3d-light-open.jpg": "ea81bfcd8d72a73e00ab0bd0ec2ff5e2478929c59b0cbc3add22cf636026c7f0",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-brown-zip-front-jacket-combination-3d-open.jpg": "e42ed5783a6ffafb83fea9dc6bbb02d8d88d87162412c3a8338b67164dacce3e",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-phoebe-brown-zip-front-jacket-combination-3d-blink.jpg": "edfc2ffd2ca24e0bc157afe28002df35eb8e96912d7c09b262d1f93fa0c94ca3",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-brown-zip-front-jacket-3d-dark-open.jpg": "374115f10c4758e1c318924c8dd785ecfa1dc97196dc0b96a67de478e9743fdc",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-brown-zip-front-jacket-3d-blink.jpg": "8a750f0e193de38065fd4716c799fea17749e82f44d0864132efdd106827e85a",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-brown-zip-front-jacket-3d-light-open.jpg": "daa700899a727229de03994efbdb59460d2963d2669d12104b0a00089d61833e",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-brown-zip-front-jacket-combination-3d-open.jpg": "95ec310c26b3ff8ee0389788f9481a2ec122c4e30794a1745e1f32d2cbf99504",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-elsie-brown-zip-front-jacket-combination-3d-blink.jpg": "a504a99220838072591bcf8bef35eb83ecc4050dabc34b72c840bbc352f34f59",
+    "tools/mascot-art/wardrobe/girls-autumn-top-trio/qa-approval-v1.jpg": "b0c98f830287ad400fe8678f567b7593fdc5fe5099b91bb881746657d481fad5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "toolMode": "OpenAI built-in image generation and image editing",
+  "sourceGarments": {
+    "ivory-bow-neck-blouse": "Screenshot 2026-10-11 at 10.24.53 AM.png",
+    "brown-zip-front-jacket": "Screenshot 2026-10-11 at 10.25.20 AM.png",
+    "dusty-rose-oversized-sweatshirt": "Screenshot 2026-10-11 at 10.25.54 AM.png"
+  },
+  "characters": ["celeste", "phoebe", "elsie"],
+  "fitPromptTemplate": "Create one exact 4x4, 16-direction registered standing-character sprite atlas for {character} wearing {garment}. Preserve the canonical character identity, anatomy, mane, tail, face, pose order, scale and position. Reconstruct the garment consistently through front, quarter, profile, rear-quarter and rear views, with correct fabric, seams, cuffs, collar and reference-specific details. Keep the lower body, legs and hooves unchanged. Use a transparent background and do not add props, text, shadows, scenery or extra characters.",
+  "itemOnlyEditPromptTemplate": "From this fitted 4x4 atlas, make a pixel-registered garment-only extraction. Preserve the exact 16-cell layout, pose, scale and garment position. Remove the character head, muzzle, ears, eyes, mane, tail, body, legs, hooves and accessories. Retain only {garment}, including all visible sleeves, cuffs, hem, collar and reference-specific construction. Use genuine transparency; remove every stray speck and halo. Do not move, mirror, resize, repaint or rearrange the garment.",
+  "deterministicPostProcessing": [
+    "resize to exact 1024x1024 RGBA",
+    "palette and connected-component cleanup of extraction speckles",
+    "canonical guide alignment limited to plus or minus 6 pixels",
+    "zero alpha in each cell at local y greater than or equal to 214",
+    "three-pass transparent-RGB edge padding",
+    "lossless WebP export"
+  ]
+}
