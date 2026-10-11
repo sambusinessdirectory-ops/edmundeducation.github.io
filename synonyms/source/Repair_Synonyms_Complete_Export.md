@@ -1,0 +1,1005 @@
+# REPAIR — Complete Synonym Lesson
+
+## 01 同義詞指南
+
+### Repair 的 6 種更精準說法
+
+> 本課按 **repair** 的實際語境區分：一般修好、修補破損、恢復原貌、臨時修補、全面翻新舊設備，以及正式修正 fault / defect / error。
+
+### 01 Fix
+**修理；修好**
+
+當 repair 指把壞掉的物件、機器、設備或系統修好時，可用 fix。它是最常見、最口語的說法，適用範圍很廣。
+
+**EXAMPLE · 例句**
+Can you fix the broken printer?
+你可以修好這部壞掉的打印機嗎？
+
+---
+
+### 02 Mend
+**修補；縫補；修復破損**
+
+當 repair 指修補衣服、布料、裂縫、破洞、籬笆等具體破損時，可用 mend。它也可比喻修復關係。
+
+**EXAMPLE · 例句**
+She mended the tear in her jacket.
+她把外套上的裂口縫補好。
+
+---
+
+### 03 Restore
+**修復；恢復原貌／原狀**
+
+當 repair 指把受損、老化或有歷史價值的建築、家具、藝術品、照片等恢復到較接近原貌時，可用 restore。它比 fix 更強調『恢復原來狀態』。
+
+**EXAMPLE · 例句**
+Experts restored the damaged painting.
+專家修復了受損的畫作。
+
+---
+
+### 04 Patch Up
+**臨時修補；簡單修好**
+
+當 repair 指快速、簡單地把破損或故障處理到暫時可用，而不是徹底修復時，可用 patch up。它常帶有『先頂住』的意思。
+
+**EXAMPLE · 例句**
+We patched up the roof until a contractor could replace it.
+我們先把屋頂臨時修補好，等承建商來更換。
+
+---
+
+### 05 Recondition
+**翻新；整修至良好工作狀態**
+
+當 repair 指把舊機器、引擎、設備或零件全面檢修、清潔、更換磨損部件，使它恢復良好可用狀態時，可用 recondition。
+
+**EXAMPLE · 例句**
+The workshop reconditions used engines for resale.
+工場翻新舊引擎後再出售。
+
+---
+
+### 06 Rectify
+**糾正；修正；排除問題**
+
+當 repair 不是指直接修理一件物品，而是指修正 fault, defect, error, problem, imbalance 等問題時，可用 rectify。它較正式，常用於技術、行政和商業語境。
+
+**EXAMPLE · 例句**
+The engineer rectified the fault in the control system.
+工程師修正了控制系統中的故障。
+
+---
+
+## 02 False synonyms
+
+### 看起來相關，意思卻不同。這些詞可能屬於維修、翻新或更換流程，但動作範圍、詞性或目的不同。
+
+### 01 Repairing
+**修理中；修理這個動作不等於一般的 repair**
+
+repairing 是現在分詞／動名詞，和動詞原形 repair 的詞性與句法功能不同。
+
+**ENGLISH COMPARISON**
+Repair is the base verb; repairing is the -ing form.
+
+---
+
+### 02 Repairable
+**可修理的不等於一般的 repair**
+
+repairable 是形容詞，表示某物可以被修理，不表示實際進行修理。
+
+**ENGLISH COMPARISON**
+A repairable device can be repaired.
+
+---
+
+### 03 Replace
+**更換不等於一般的 repair**
+
+replace 是把舊物換成另一件新的或不同的東西；repair 是把原來的東西修好。
+
+**ENGLISH COMPARISON**
+Repair keeps the original item; replace substitutes another one.
+
+---
+
+### 04 Maintain
+**保養；維護不等於一般的 repair**
+
+maintain 是透過保養防止故障或保持良好狀態；repair 通常是在故障或損壞後處理。
+
+**ENGLISH COMPARISON**
+Maintenance prevents problems; repair fixes damage or faults.
+
+---
+
+### 05 Service
+**保養；檢修不等於一般的 repair**
+
+service 通常指例行檢查、保養和調整。保養時可能包括 repair，但兩者不完全相同。
+
+**ENGLISH COMPARISON**
+A service may include repairs, but servicing is broader maintenance.
+
+---
+
+### 06 Refinish
+**重新處理表面不等於一般的 repair**
+
+refinish 是重新上漆、上光或處理表面，使外觀變新；它不一定修理結構或功能故障。
+
+**ENGLISH COMPARISON**
+Refinishing improves a surface; repairing fixes damage or function.
+
+---
+
+### 07 Rebuild
+**重建；重新組裝不等於一般的 repair**
+
+rebuild 通常表示大幅拆除或重新建造，比一般 repair 的範圍更大。
+
+**ENGLISH COMPARISON**
+A badly damaged engine may need rebuilding rather than a simple repair.
+
+---
+
+### 08 Renovate
+**翻新；裝修不等於一般的 repair**
+
+renovate 常指改善建築或房間的整體狀況和外觀，不等於修理單一故障。
+
+**ENGLISH COMPARISON**
+You renovate a house; you repair a broken pipe.
+
+---
+
+## 03 練習與解釋
+
+## 練習 01.1
+
+**Target word: Fix · 修理；修好**
+
+### READ THE CONTEXT · 閱讀語境
+
+The technician repaired the office printer after it stopped feeding paper correctly.
+
+### 中文翻譯
+
+打印機無法正常送紙後，技術員把它修好了。
+
+A. restore
+B. mend
+C. fix
+D. recondition
+E. patch up
+F. rectify
+
+### CORRECT ANSWER · 正確答案
+
+**fix · 修理；修好**
+
+The technician fixed the office printer after it stopped feeding paper correctly.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. restore**
+restore = 修復；恢復原狀。通常更強調把舊物、建築或功能恢復到原來狀態，不如 fix 直接表示把普通故障修好。
+
+**B. mend**
+mend = 修補。更常用於衣物、裂口、破損物件或關係，不是打印機故障的首選。
+
+**C. fix ✓**
+fix = 修好。printer stopped working correctly 是最典型的日常 repair = fix 語境。
+
+**D. recondition**
+recondition = 翻新整修。通常表示較全面地檢修舊設備，使其恢復良好狀態，力度比本句大。
+
+**E. patch up**
+patch up = 臨時修補。通常暗示快速、簡單或不徹底的修理，本句沒有這個意思。
+
+**F. rectify**
+rectify = 糾正。較常修正 fault, error, problem，不直接說 rectify a printer。
+
+---
+
+## 練習 01.2
+
+**Target word: Fix · 修理；修好**
+
+### READ THE CONTEXT · 閱讀語境
+
+I need to repair the leaking kitchen tap before it wastes any more water.
+
+### 中文翻譯
+
+我要把漏水的廚房水龍頭修好，以免再浪費食水。
+
+A. mend
+B. restore
+C. patch up
+D. fix
+E. recondition
+F. rectify
+
+### CORRECT ANSWER · 正確答案
+
+**fix · 修理；修好**
+
+I need to fix the leaking kitchen tap before it wastes any more water.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. mend**
+mend = 修補。可以形容某些破損，但 tap 故障最自然說 fix。
+
+**B. restore**
+restore = 修復原狀。語氣較正式，也通常用於較大範圍復修。
+
+**C. patch up**
+patch up = 簡單修補。會暗示臨時堵漏，不一定真正修好。
+
+**D. fix ✓**
+fix = 修好。leaking tap 是日常生活中非常自然的 fix 搭配。
+
+**E. recondition**
+recondition = 翻新。對一個普通水龍頭來說過重。
+
+**F. rectify**
+rectify = 糾正問題。可以 rectify a leak/problem，但不能自然直接取代 repair the tap。
+
+---
+
+## 練習 01.3
+
+**Target word: Fix · 修理；修好**
+
+### READ THE CONTEXT · 閱讀語境
+
+The mechanic repaired the car's faulty brake light in less than ten minutes.
+
+### 中文翻譯
+
+技師不到十分鐘便修好了汽車故障的煞車燈。
+
+A. fix
+B. restore
+C. mend
+D. patch up
+E. recondition
+F. rectify
+
+### CORRECT ANSWER · 正確答案
+
+**fix · 修理；修好**
+
+The mechanic fixed the car's faulty brake light in less than ten minutes.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. fix ✓**
+fix = 修好。faulty brake light + mechanic 是最自然的日常維修語境。
+
+**B. restore**
+restore = 恢復原狀。通常比修理一個小故障更正式、範圍更大。
+
+**C. mend**
+mend = 修補。一般不用於汽車燈的機械／電氣故障。
+
+**D. patch up**
+patch up = 臨時修補。沒有證據顯示這只是暫時處理。
+
+**E. recondition**
+recondition = 翻新。通常是全面整修整件舊設備。
+
+**F. rectify**
+rectify = 糾正。可說 rectify the fault，但不直接說 rectify the brake light。
+
+---
+
+## 練習 02.1
+
+**Target word: Mend · 修補；縫補；修復破損**
+
+### READ THE CONTEXT · 閱讀語境
+
+She repaired the tear in her shirt with a needle and thread.
+
+### 中文翻譯
+
+她用針線把恤衫的裂口縫補好。
+
+A. restore
+B. mend
+C. fix electronically
+D. recondition
+E. rectify
+F. patch up temporarily
+
+### CORRECT ANSWER · 正確答案
+
+**mend · 修補；縫補；修復破損**
+
+She mended the tear in her shirt with a needle and thread.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. restore**
+restore = 修復原狀。可以用於舊衣物修復，但 needle and thread + tear 更直接是 mend。
+
+**B. mend ✓**
+mend = 縫補。tear in a shirt 是最典型的 mend 搭配。
+
+**C. fix electronically**
+fix electronically = 電子方式修理。完全不合衣物語境。
+
+**D. recondition**
+recondition = 翻新。通常不形容縫補一個裂口。
+
+**E. rectify**
+rectify = 糾正。用於錯誤或問題，不用於衣服裂口。
+
+**F. patch up temporarily**
+patch up temporarily = 臨時補一補。也可，但題目沒有說只是暫時處理。
+
+---
+
+## 練習 02.2
+
+**Target word: Mend · 修補；縫補；修復破損**
+
+### READ THE CONTEXT · 閱讀語境
+
+The farmer repaired a broken section of the wooden fence before the cattle escaped.
+
+### 中文翻譯
+
+農夫在牛群逃走前把木籬笆破損的一段修補好。
+
+A. recondition
+B. rectify
+C. mend
+D. restore fully
+E. fix software
+F. refinish
+
+### CORRECT ANSWER · 正確答案
+
+**mend · 修補；縫補；修復破損**
+
+The farmer mended a broken section of the wooden fence before the cattle escaped.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. recondition**
+recondition = 翻新。表示較全面整修，不只是修補一小段籬笆。
+
+**B. rectify**
+rectify = 糾正。通常修正錯誤或缺陷，不是直接修補木籬笆。
+
+**C. mend ✓**
+mend = 修補。broken section of a fence 是自然的 mending 語境。
+
+**D. restore fully**
+restore fully = 完整修復。力度較大，會暗示整體恢復。
+
+**E. fix software**
+fix software = 修理軟件。對象完全不合。
+
+**F. refinish**
+refinish = 重新上漆／處理表面。不是修補斷裂。
+
+---
+
+## 練習 02.3
+
+**Target word: Mend · 修補；縫補；修復破損**
+
+### READ THE CONTEXT · 閱讀語境
+
+They are trying to repair their relationship after months of arguments.
+
+### 中文翻譯
+
+經過數月爭吵後，他們正努力修補彼此的關係。
+
+A. mend
+B. recondition
+C. restore a building
+D. patch a machine
+E. rectify a document
+F. service
+
+### CORRECT ANSWER · 正確答案
+
+**mend · 修補；縫補；修復破損**
+
+They are trying to mend their relationship after months of arguments.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. mend ✓**
+mend = 修補。mend a relationship 是常見比喻搭配，表示改善受損關係。
+
+**B. recondition**
+recondition = 翻新設備。不能形容人際關係。
+
+**C. restore a building**
+restore a building = 修復建築。對象不合。
+
+**D. patch a machine**
+patch a machine = 臨時修機器。完全不合。
+
+**E. rectify a document**
+rectify a document = 修正文件。對象錯誤。
+
+**F. service**
+service = 保養。不能用於關係。
+
+---
+
+## 練習 03.1
+
+**Target word: Restore · 修復；恢復原貌／原狀**
+
+### READ THE CONTEXT · 閱讀語境
+
+Specialists repaired the centuries-old painting without changing its original appearance.
+
+### 中文翻譯
+
+專家在不改變原貌的情況下修復這幅數百年歷史的畫作。
+
+A. mend
+B. fix
+C. restore
+D. patch up
+E. rectify
+F. recondition mechanically
+
+### CORRECT ANSWER · 正確答案
+
+**restore · 修復；恢復原貌／原狀**
+
+Specialists restored the centuries-old painting without changing its original appearance.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. mend**
+mend = 修補。通常用於裂縫、衣物等，不足以表達藝術品專業修復。
+
+**B. fix**
+fix = 修好。太日常，沒有恢復原貌的文化保存意味。
+
+**C. restore ✓**
+restore = 修復原貌。centuries-old painting + original appearance 是決定性線索。
+
+**D. patch up**
+patch up = 簡單修補。對藝術品修復過於粗略。
+
+**E. rectify**
+rectify = 糾正。不是修復藝術品。
+
+**F. recondition mechanically**
+recondition mechanically = 機械翻新。完全不合。
+
+---
+
+## 練習 03.2
+
+**Target word: Restore · 修復；恢復原貌／原狀**
+
+### READ THE CONTEXT · 閱讀語境
+
+The city plans to repair the historic theatre and return its interior to its 1920s appearance.
+
+### 中文翻譯
+
+市政府計劃修復這座歷史劇院，令內部恢復到1920年代的外觀。
+
+A. fix quickly
+B. mend
+C. patch up
+D. restore
+E. rectify
+F. recondition an engine
+
+### CORRECT ANSWER · 正確答案
+
+**restore · 修復；恢復原貌／原狀**
+
+The city plans to restore the historic theatre and return its interior to its 1920s appearance.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. fix quickly**
+fix quickly = 快速修理。太表面，不能表達歷史建築復原。
+
+**B. mend**
+mend = 修補。只適合局部破損，不足以涵蓋整座劇院。
+
+**C. patch up**
+patch up = 臨時修補。和 return its interior to its 1920s appearance 的完整復修目標不合。
+
+**D. restore ✓**
+restore = 修復／復原。historic theatre + return to its 1920s appearance 是典型 restore 語境。
+
+**E. rectify**
+rectify = 糾正。通常修正問題，不用於歷史建築復原。
+
+**F. recondition an engine**
+recondition an engine = 翻新引擎。對象不合。
+
+---
+
+## 練習 03.3
+
+**Target word: Restore · 修復；恢復原貌／原狀**
+
+### READ THE CONTEXT · 閱讀語境
+
+Conservators repaired the damaged manuscript so that as much of the original material as possible was preserved.
+
+### 中文翻譯
+
+修復人員修復受損手稿，盡量保留原有材料。
+
+A. restore
+B. fix casually
+C. mend clothing
+D. rectify
+E. patch up
+F. service
+
+### CORRECT ANSWER · 正確答案
+
+**restore · 修復；恢復原貌／原狀**
+
+Conservators restored the damaged manuscript so that as much of the original material as possible was preserved.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. restore ✓**
+restore = 修復。conservators + original material preserved 明確是文物／檔案修復語境。
+
+**B. fix casually**
+fix casually = 隨便修好。專業保存語境不合。
+
+**C. mend clothing**
+mend clothing = 修補衣物。材料和用途不合。
+
+**D. rectify**
+rectify = 糾正。不能表達手稿保存修復。
+
+**E. patch up**
+patch up = 臨時修補。太粗略。
+
+**F. service**
+service = 保養設備。對象不合。
+
+---
+
+## 練習 04.1
+
+**Target word: Patch Up · 臨時修補；簡單修好**
+
+### READ THE CONTEXT · 閱讀語境
+
+We repaired the leaking roof temporarily until the builders could replace the damaged section.
+
+### 中文翻譯
+
+我們先臨時修補漏水的屋頂，等建築工人更換受損部分。
+
+A. restore
+B. mend permanently
+C. recondition
+D. patch up
+E. rectify formally
+F. refinish
+
+### CORRECT ANSWER · 正確答案
+
+**patch up · 臨時修補；簡單修好**
+
+We patched up the leaking roof temporarily until the builders could replace the damaged section.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. restore**
+restore = 修復原貌。題目明確說 temporarily，不是全面復原。
+
+**B. mend permanently**
+mend permanently = 永久修補。和 until the builders could replace it 不符。
+
+**C. recondition**
+recondition = 翻新。通常用於設備或機械。
+
+**D. patch up ✓**
+patch up = 臨時修補。temporarily + until replacement 是最直接線索。
+
+**E. rectify formally**
+rectify formally = 正式糾正。對屋頂漏水不自然。
+
+**F. refinish**
+refinish = 重新處理表面。不能解決漏水結構問題。
+
+---
+
+## 練習 04.2
+
+**Target word: Patch Up · 臨時修補；簡單修好**
+
+### READ THE CONTEXT · 閱讀語境
+
+The driver repaired the torn hose just enough to get the vehicle to a garage.
+
+### 中文翻譯
+
+司機只把破裂的喉管臨時修好，讓車可以駛到車房。
+
+A. patch up
+B. restore fully
+C. recondition
+D. rectify paperwork
+E. mend clothing
+F. service completely
+
+### CORRECT ANSWER · 正確答案
+
+**patch up · 臨時修補；簡單修好**
+
+The driver patched up the torn hose just enough to get the vehicle to a garage.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. patch up ✓**
+patch up = 臨時修補。just enough to get... to a garage 明確表示只是暫時應急。
+
+**B. restore fully**
+restore fully = 完整復修。和 just enough 相反。
+
+**C. recondition**
+recondition = 全面翻新。力度過大。
+
+**D. rectify paperwork**
+rectify paperwork = 修正文件。完全無關。
+
+**E. mend clothing**
+mend clothing = 修補衣物。對象不合。
+
+**F. service completely**
+service completely = 全面保養。不是應急修補。
+
+---
+
+## 練習 04.3
+
+**Target word: Patch Up · 臨時修補；簡單修好**
+
+### READ THE CONTEXT · 閱讀語境
+
+They repaired the cracked window frame as a short-term measure before the full renovation.
+
+### 中文翻譯
+
+全面翻新前，他們先把裂開的窗框作短期修補。
+
+A. mend
+B. restore historically
+C. patch up
+D. recondition mechanically
+E. rectify
+F. replace entirely
+
+### CORRECT ANSWER · 正確答案
+
+**patch up · 臨時修補；簡單修好**
+
+They patched up the cracked window frame as a short-term measure before the full renovation.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. mend**
+mend = 修補。也可接近，但 short-term measure 更直接支持 patch up 的臨時性。
+
+**B. restore historically**
+restore historically = 歷史性修復。沒有文物復原意味。
+
+**C. patch up ✓**
+patch up = 臨時修補。short-term measure before full renovation 是典型用法。
+
+**D. recondition mechanically**
+recondition mechanically = 機械翻新。對象不合。
+
+**E. rectify**
+rectify = 糾正。通常接 fault/problem，而不直接修窗框。
+
+**F. replace entirely**
+replace entirely = 全部更換。題目說的是 repair，不是換掉。
+
+---
+
+## 練習 05.1
+
+**Target word: Recondition · 翻新；整修至良好工作狀態**
+
+### READ THE CONTEXT · 閱讀語境
+
+The workshop repairs old engines by stripping them down, replacing worn parts, and testing them before resale.
+
+### 中文翻譯
+
+工場把舊引擎拆開、更換磨損零件並測試後再出售。
+
+A. fix one fault
+B. mend
+C. restore artwork
+D. patch up
+E. recondition
+F. rectify
+
+### CORRECT ANSWER · 正確答案
+
+**recondition · 翻新；整修至良好工作狀態**
+
+The workshop reconditions old engines by stripping them down, replacing worn parts, and testing them before resale.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. fix one fault**
+fix one fault = 修一個故障。題目描述的是整套翻新流程，不是一個小問題。
+
+**B. mend**
+mend = 修補。通常不用於全面處理引擎。
+
+**C. restore artwork**
+restore artwork = 修復藝術品。對象錯誤。
+
+**D. patch up**
+patch up = 臨時修補。和拆解、更換零件、測試後再售不符。
+
+**E. recondition ✓**
+recondition = 翻新整修。stripping down + replacing worn parts + testing before resale 是標準 reconditioning 流程。
+
+**F. rectify**
+rectify = 糾正。較適合 fault/problem，不是整台引擎翻新。
+
+---
+
+## 練習 05.2
+
+**Target word: Recondition · 翻新；整修至良好工作狀態**
+
+### READ THE CONTEXT · 閱讀語境
+
+The company repairs returned office chairs by replacing worn components, cleaning them thoroughly, and selling them again.
+
+### 中文翻譯
+
+公司把退回的辦公椅更換磨損部件、徹底清潔後再次出售。
+
+A. restore a painting
+B. recondition
+C. patch temporarily
+D. rectify an error
+E. mend fabric only
+F. discard
+
+### CORRECT ANSWER · 正確答案
+
+**recondition · 翻新；整修至良好工作狀態**
+
+The company reconditions returned office chairs by replacing worn components, cleaning them thoroughly, and selling them again.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. restore a painting**
+restore a painting = 修復畫作。對象錯誤。
+
+**B. recondition ✓**
+recondition = 翻新。replace worn components + clean thoroughly + sell again 明確是整體整修。
+
+**C. patch temporarily**
+patch temporarily = 臨時修補。沒有短期應急意味。
+
+**D. rectify an error**
+rectify an error = 糾正錯誤。無關。
+
+**E. mend fabric only**
+mend fabric only = 只修補布料。題目包含多個零件和全面清潔。
+
+**F. discard**
+discard = 丟棄。和再次出售相反。
+
+---
+
+## 練習 05.3
+
+**Target word: Recondition · 翻新；整修至良好工作狀態**
+
+### READ THE CONTEXT · 閱讀語境
+
+Rather than buying new units, the hospital repairs older wheelchairs by fully inspecting and refurbishing them.
+
+### 中文翻譯
+
+醫院沒有購買新輪椅，而是全面檢查和翻新較舊的輪椅。
+
+A. recondition
+B. patch up briefly
+C. mend
+D. restore a monument
+E. rectify paperwork
+F. replace
+
+### CORRECT ANSWER · 正確答案
+
+**recondition · 翻新；整修至良好工作狀態**
+
+Rather than buying new units, the hospital reconditions older wheelchairs by fully inspecting and refurbishing them.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. recondition ✓**
+recondition = 翻新。fully inspecting and refurbishing 是典型設備整修語境。
+
+**B. patch up briefly**
+patch up briefly = 短暫修補。和 fully inspecting 不符。
+
+**C. mend**
+mend = 修補。太局部。
+
+**D. restore a monument**
+restore a monument = 修復紀念碑。對象完全不合。
+
+**E. rectify paperwork**
+rectify paperwork = 修正文件。無關。
+
+**F. replace**
+replace = 更換。題目明確說 rather than buying new units。
+
+---
+
+## 練習 06.1
+
+**Target word: Rectify · 糾正；修正；排除問題**
+
+### READ THE CONTEXT · 閱讀語境
+
+Engineers repaired the fault in the control system after discovering an incorrect sensor setting.
+
+### 中文翻譯
+
+工程師發現感應器設定錯誤後，修正了控制系統的故障。
+
+A. mend
+B. restore
+C. fix the whole machine
+D. rectify
+E. patch up
+F. recondition
+
+### CORRECT ANSWER · 正確答案
+
+**rectify · 糾正；修正；排除問題**
+
+Engineers rectified the fault in the control system after discovering an incorrect sensor setting.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. mend**
+mend = 修補。通常不用於抽象技術 fault。
+
+**B. restore**
+restore = 恢復原狀。可以 restore functionality，但本句直接對 fault 作處理。
+
+**C. fix the whole machine**
+fix the whole machine = 修好整部機器。範圍太大，題目只是 sensor setting fault。
+
+**D. rectify ✓**
+rectify = 糾正／修正。rectify a fault 是自然正式搭配。
+
+**E. patch up**
+patch up = 臨時修補。沒有表示只是暫時處理。
+
+**F. recondition**
+recondition = 翻新。不是全面整修設備。
+
+---
+
+## 練習 06.2
+
+**Target word: Rectify · 糾正；修正；排除問題**
+
+### READ THE CONTEXT · 閱讀語境
+
+The supplier promised to repair the billing error before issuing the next invoice.
+
+### 中文翻譯
+
+供應商承諾在發出下一張發票前修正帳單錯誤。
+
+A. rectify
+B. mend
+C. restore
+D. patch up
+E. recondition
+F. service
+
+### CORRECT ANSWER · 正確答案
+
+**rectify · 糾正；修正；排除問題**
+
+The supplier promised to rectify the billing error before issuing the next invoice.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. rectify ✓**
+rectify = 糾正。billing error 是非常典型的 rectify 搭配。
+
+**B. mend**
+mend = 修補。通常不用於帳單錯誤。
+
+**C. restore**
+restore = 恢復原狀。不能自然說 restore an error。
+
+**D. patch up**
+patch up = 臨時修補。對行政錯誤不自然。
+
+**E. recondition**
+recondition = 翻新設備。無關。
+
+**F. service**
+service = 保養機器。無關。
+
+---
+
+## 練習 06.3
+
+**Target word: Rectify · 糾正；修正；排除問題**
+
+### READ THE CONTEXT · 閱讀語境
+
+The contractor must repair all defects identified during the final inspection.
+
+### 中文翻譯
+
+承建商必須修正最終檢查中發現的所有缺陷。
+
+A. restore historically
+B. patch temporarily
+C. mend clothing
+D. recondition equipment
+E. polish
+F. rectify
+
+### CORRECT ANSWER · 正確答案
+
+**rectify · 糾正；修正；排除問題**
+
+The contractor must rectify all defects identified during the final inspection.
+
+### SIX-OPTION FEEDBACK · 六個選項的解釋
+
+**A. restore historically**
+restore historically = 歷史修復。沒有文物語境。
+
+**B. patch temporarily**
+patch temporarily = 臨時修補。final inspection 通常要求正式修正缺陷。
+
+**C. mend clothing**
+mend clothing = 修補衣物。完全不合。
+
+**D. recondition equipment**
+recondition equipment = 翻新設備。defects 可以存在於多種工程項目，不一定是設備。
+
+**E. polish**
+polish = 拋光。只能處理表面，不能涵蓋所有 defects。
+
+**F. rectify ✓**
+rectify = 糾正／修正。rectify defects 是正式工程和驗收語境中的自然搭配。
+
+---

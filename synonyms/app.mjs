@@ -1,13 +1,16 @@
 import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
-import { lessons } from './lessons-data.mjs?v=20261001-scaling1';
+import { catalog, legacyCatalog } from './lesson-catalog.mjs?v=20261011-priority1';
 import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
 import { synonymAudio } from './audio-manifest.mjs?v=20260928-four-voices1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
 import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20260928-recordings1';
 
-const modules = {important:importantModule,'social-media':socialMediaModule,...Object.fromEntries(lessons.map(item=>[item.id,item]))};
+const lessonCatalog = [...catalog,...legacyCatalog].sort((a,b)=>a.rank-b.rank || Number(a.legacy||false)-Number(b.legacy||false));
+const modules = {important:importantModule,...Object.fromEntries(lessonCatalog.map(item=>[item.id,item])),'social-media':socialMediaModule};
+const loadedLessons = new Map();
+let searchQuery = '', visibleCount = 80, moduleLoadTicket = 0;
 const voices = ['american-female', 'american-male', 'british-male', 'british-female'];
 let moduleId = 'important', moduleData = importantModule, words = moduleData.words;
 const makeQuestions = (id,items) => items.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${id === 'important' ? '' : id === 'social-media' ? 'social-' : id + '-'}${wi + 1}-${ei + 1}`, wi, ei, word, exercise, voice: voices[(wi * 2 + ei) % 4]})));
@@ -43,15 +46,39 @@ const recordingItems = new Map();
 let pending = new Map();
 const progressKey = (id=moduleId) => `edmund-synonyms-${id}-v1:${owner}`;
 const blankProgress = () => ({answers:{},order:[],cursor:0});
-function selectModule(id) {
-  if (!modules[id] || id === moduleId) return;
+async function selectModule(id) {
+  if (!modules[id]) return false;
+  if (id === moduleId) return true;
+  const ticket = ++moduleLoadTicket;
+  const expectedOwner = owner;
+  let data = modules[id];
+  if (!data.words) {
+    try {
+      if (!loadedLessons.has(id)) {
+        const response = await fetch(new URL(data.dataFile, import.meta.url), {cache:'force-cache'});
+        if (!response.ok) throw new Error('Lesson unavailable');
+        const lesson = await response.json();
+        if (lesson.id !== id || !Array.isArray(lesson.words)) throw new Error('Invalid lesson');
+        loadedLessons.set(id, lesson);
+      }
+      data = loadedLessons.get(id);
+    } catch {
+      if (ticket === moduleLoadTicket) {
+        const note = host.querySelector('[data-catalog-status]');
+        if (note) note.textContent = '暫時未能載入這份教材，請再試一次。';
+      }
+      return false;
+    }
+  }
+  if (ticket !== moduleLoadTicket || !owner || owner !== expectedOwner) return false;
   moduleStates.set(moduleId,{progress,pending,saveState,localAvailable,streak});
-  stopVoice(); moduleId=id;moduleData=modules[id];words=moduleData.words;questions=makeQuestions(id,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=id==='important'?importantFalseSynonyms:moduleData.falseSynonyms;
+  stopVoice(); moduleId=id;moduleData=data;words=moduleData.words;questions=makeQuestions(id,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=id==='important'?importantFalseSynonyms:moduleData.falseSynonyms||[];
   const state=moduleStates.get(id);
   if (state) ({progress,pending,saveState,localAvailable,streak}=state);
   else {progress=blankProgress();pending=new Map();streak=0;readLocal();saveState='loading';}
   choice=null;
   if(owner&&token)void loadAccount();
+  return true;
 }
 function moduleProgress(id) {
   if(id===moduleId)return progress;
@@ -255,14 +282,29 @@ function shell(content) {
     '<div class="syn-save-row" role="status" aria-live="polite"><span data-save-state></span><button type="button" data-retry-save hidden>重試儲存</button></div>'+content;
   updateSaveBadge();
 }
+function moduleCard(id,data) {
+  const saved=moduleProgress(id), prefix=id==='important'?'':id==='social-media'?'social-':id+'-';
+  const count=Object.keys(saved.answers||{}).filter(key=>key.startsWith(prefix) && (saved.answers[key]?.attempts||0)>0).length;
+  const exerciseCount=data.questionCount ?? data.words?.reduce((n,w)=>n+w.exercises.length,0) ?? 0;
+  const guideCount=data.guideCount ?? data.words?.length ?? 0;
+  const rank=data.rank?'PRIORITY '+String(data.rank).padStart(4,'0')+(data.legacy?' · 原有版本':''):'FEATURED';
+  const review=data.reviewCount?' · '+data.reviewCount+' 題自測':'';
+  return '<button class="syn-module-card" type="button" data-module="'+esc(id)+'"><span class="syn-module-index">'+rank+' / SYNONYM EXPANSION</span><strong>'+esc(data.title)+'</strong><small>'+guideCount+' 個詞組 · '+(exerciseCount?exerciseCount+' 道選擇題':'閱讀教材')+review+'</small><span class="syn-module-progress">'+(exerciseCount?'已作答 '+count+' / '+exerciseCount+' 題':'同義詞指南與辨析')+'</span></button>';
+}
+function renderModuleList() {
+  const query=searchQuery.toLocaleLowerCase();
+  const matching=lessonCatalog.filter(item=>(item.title+' '+item.headword).toLocaleLowerCase().includes(query));
+  const grid=host.querySelector('[data-ranked-grid]');
+  if (!grid) return;
+  grid.innerHTML=matching.slice(0,visibleCount).map(item=>moduleCard(item.id,item)).join('')||'<p>沒有找到相符的詞語。</p>';
+  const status=host.querySelector('[data-catalog-status]');
+  if (status) status.textContent='顯示 '+Math.min(visibleCount,matching.length)+' / '+matching.length+' 個教材版本';
+  const more=host.querySelector('[data-more-modules]');
+  if (more) more.hidden=matching.length<=visibleCount;
+}
 function renderHome() {
-  const cards=Object.entries(modules).map(([id,data],index)=>{
-    const saved=moduleProgress(id), prefix=id==='important'?'':id==='social-media'?'social-':id+'-';
-    const count=Object.keys(saved.answers||{}).filter(key=>key.startsWith(prefix) && (saved.answers[key]?.attempts||0)>0).length;
-    const exerciseCount=data.words.reduce((n,w)=>n+w.exercises.length,0);
-    return '<button class="syn-module-card" type="button" data-module="'+id+'" data-search="'+esc((data.title+' '+(data.headword||'')).toLowerCase())+'"><span class="syn-module-index">'+String(index+1).padStart(2,'0')+' / SYNONYM EXPANSION</span><strong>'+esc(data.title)+'</strong><small>'+data.words.length+' 個詞組 · '+(exerciseCount?exerciseCount+' 道選擇題':'閱讀教材')+'</small><span class="syn-module-progress">'+(exerciseCount?'已作答 '+count+' / '+exerciseCount+' 題':'同義詞指南與辨析')+'</span></button>';
-  }).join('');
-  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>按常用程度排列。每個模組先認識詞義，再以語境練習運用。</p><label class="syn-search-label">搜尋詞語 <input type="search" data-module-search placeholder="例如 help、begin、ability"></label><div class="syn-module-grid">'+cards+'</div></section>');
+  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>依 DSE 跨題材實用程度排列，共 '+catalog.length+' 個排名模組；另保留 '+legacyCatalog.length+' 個原有教材版本與學生進度。</p><div class="syn-module-grid">'+moduleCard('important',importantModule)+'</div><label class="syn-search-label">搜尋詞語 <input type="search" data-module-search placeholder="例如 a lot of、nervous、help" value="'+esc(searchQuery)+'"></label><p data-catalog-status></p><div class="syn-module-grid" data-ranked-grid></div><button class="syn-secondary syn-more-modules" type="button" data-more-modules hidden>顯示更多排名模組</button><div class="syn-module-grid">'+moduleCard('social-media',socialMediaModule)+'</div></section>');
+  renderModuleList();
 }
 function renderAudit(data) {
   if(!data)return '';
@@ -271,12 +313,13 @@ function renderAudit(data) {
 }
 function renderModule() {
   const number=moduleData.moduleNumber|| (moduleId==='important'?1:2);
-  shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE '+String(number).padStart(2,'0')+' · '+esc(moduleData.title.toUpperCase())+'</p><h3>'+esc(moduleData.subtitle||moduleData.title)+'</h3><p>'+esc(moduleData.description||'先看同義詞指南，再練習選出語境最貼切的表達。')+'</p>'+(moduleData.omittedExercises?'<p class="syn-source-note">原始教材有 '+moduleData.omittedExercises+' 題沒有完整選項或答案互相矛盾，未放入選擇題；可下載原始教材查看。</p>':'')+'<div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 '+words.length+' 個詞組 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button>'+(moduleData.sourceFile?'<a class="syn-source-link" href="'+esc(moduleData.sourceFile)+'" download>下載完整原始教材</a>':'')+'</div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>'+ (total?'題已掌握':'閱讀教材') +'</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>'+(moduleData.sourceMap?'<details class="syn-audit"><summary>查看原始候選詞核對</summary>'+renderAudit(moduleData.sourceMap)+'</details>':''));
+  shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE '+String(number).padStart(2,'0')+' · '+esc(moduleData.title.toUpperCase())+'</p><h3>'+esc(moduleData.subtitle||moduleData.title)+'</h3><p>'+esc(moduleData.description||'先看同義詞指南，再練習選出語境最貼切的表達。')+'</p>'+(moduleData.omittedExercises?'<p class="syn-source-note">原始教材有 '+moduleData.omittedExercises+' 題未能安全評分；可在指南中查看自測題，或下載原始教材。</p>':'')+'<div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 '+words.length+' 個詞組 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button>'+(moduleData.sourceFile?'<a class="syn-source-link" href="'+esc(moduleData.sourceFile)+'" download>下載完整原始教材</a>':'')+'</div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>'+ (total?'題已掌握':'閱讀教材') +'</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>'+(moduleData.sourceMap?'<details class="syn-audit"><summary>查看原始候選詞核對</summary>'+renderAudit(moduleData.sourceMap)+'</details>':''));
 }
 function renderGuide() {
   const cards=words.map(word=>{const first=word.exercises[0];const example=word.example||first?.upgrade?.replace('______',word.word)||first?.original||'';const note=word.note||first?.options.find(o=>o.text===word.word)?.explanation||word.meaning;
     return '<article class="syn-word-card"><span>'+String(word.order).padStart(2,'0')+'</span><div><h4>'+esc(word.word[0].toUpperCase()+word.word.slice(1))+'</h4><div class="syn-word-audio-controls"><button type="button" data-guide-audio="word:'+word.order+'" aria-label="播放 '+esc(word.word)+' 的讀音">'+icon('audio')+'聽讀音</button><span data-guide-audio-status role="status"></span></div><strong>'+esc(word.meaning)+'</strong><p>'+esc(note)+'</p>'+(word.collocations?'<p><b>常見搭配：</b>'+esc(word.collocations)+'</p>':'')+(word.contrast?'<p><b>辨析：</b>'+esc(word.contrast)+'</p>':'')+(example?'<div class="syn-guide-example"><small lang="en">'+esc(example)+'</small><p class="syn-guide-translation">'+esc(word.exampleZh||first?.zh||'')+'</p><button type="button" data-guide-audio="sentence:'+word.order+'" aria-label="播放例句">'+icon('audio')+'聽例句</button><span data-guide-audio-status role="status"></span></div>':'')+'</div></article>';}).join('');
-  shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>'+esc(moduleData.title)+' 的 '+words.length+' 種更精準說法</h3><p>看看每個詞組的重點和例句。'+(total?'準備好後，進入隨機排列的 '+total+' 題練習。':'這份教材提供閱讀與辨析，沒有選擇題。')+'</p><div class="syn-word-grid">'+cards+'</div>'+(moduleData.quickChoice?'<details class="syn-audit"><summary>快速選詞規則</summary>'+renderAudit(moduleData.quickChoice)+'</details>':'')+'<div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button>'+(total?'<button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 '+total+' 題練習')+' →</button>':'')+(moduleData.sourceFile?'<a class="syn-source-link" href="'+esc(moduleData.sourceFile)+'" download>下載完整原始教材</a>':'')+'</div></section>');
+  const review=moduleData.reviewExercises?.length?'<section class="syn-self-check"><h4>原始教材自測題</h4><p>這些題目沒有可安全評分的選項；先自行作答，再展開參考答案。</p>'+moduleData.reviewExercises.map(item=>'<details><summary><span>題 '+esc(item.number)+'</span> '+esc(item.original)+'</summary><p><strong>參考答案：</strong>'+esc(item.answer)+'</p>'+(item.reason?'<small>'+esc(item.reason)+'</small>':'')+'</details>').join('')+'</section>':'';
+  shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>'+esc(moduleData.title)+' 的 '+words.length+' 種更精準說法</h3><p>看看每個詞組的重點和例句。'+(total?'準備好後，進入隨機排列的 '+total+' 題練習。':'這份教材提供閱讀與辨析，沒有選擇題。')+'</p><div class="syn-word-grid">'+cards+'</div>'+review+(moduleData.quickChoice?'<details class="syn-audit"><summary>快速選詞規則</summary>'+renderAudit(moduleData.quickChoice)+'</details>':'')+'<div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button>'+(total?'<button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 '+total+' 題練習')+' →</button>':'')+(moduleData.sourceFile?'<a class="syn-source-link" href="'+esc(moduleData.sourceFile)+'" download>下載完整原始教材</a>':'')+'</div></section>');
 }
 function renderFalse() {
   const cards=falseSynonyms.map((item,i)=>'<article class="syn-false-card"><span>'+String(i+1).padStart(2,'0')+'</span><div><h4>'+esc(item.word)+'</h4><p class="syn-false-description">'+esc(item.zh)+'</p><p lang="en">'+esc(item.point)+'</p></div></article>').join('');
@@ -323,6 +366,7 @@ function syncSession() {
   const snapshot=window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
   const next=snapshot?.user?.id||null;
   if(next===owner){if(owner&&snapshot.token!==token){token=snapshot.token;void loadAccount();}return;}
+  moduleLoadTicket++;
   recorderDispose?.();recorderDispose=null;recordingsEpoch++;
   for(const url of recordingUrls.splice(0))URL.revokeObjectURL(url);recordingItems.clear();
   stopVoice();for(const url of cloudAudio.values())URL.revokeObjectURL(url);cloudAudio.clear();
@@ -332,8 +376,8 @@ function syncSession() {
 window.addEventListener('edmund:learning-portal-session',syncSession);
 window.addEventListener('storage',event=>{if(owner&&event.key===progressKey()){readLocal();render();}});
 window.addEventListener('online',()=>{if(owner){if(pending.size)void syncPending();else void loadAccount();}});
-window.addEventListener('popstate',()=>{if(!owner)return;const hash=location.hash.slice(1);const separator=hash.indexOf(':');const target=separator>0?hash.slice(0,separator):'important';selectModule(modules[target]?target:'important');const part=separator>0?hash.slice(separator+1):hash;view=part==='false-synonyms'?'false':['home','module','guide','question','finish','recordings','false'].includes(part)?part:'home';if(view==='question'&&!current())view='guide';render();});
-host.addEventListener('input',event=>{if(!event.target.matches('[data-module-search]'))return;const query=event.target.value.trim().toLowerCase();host.querySelectorAll('[data-module]').forEach(card=>{card.hidden=!card.dataset.search.includes(query);});});
+window.addEventListener('popstate',()=>{void (async()=>{if(!owner)return;const hash=location.hash.slice(1);const separator=hash.indexOf(':');const target=separator>0?hash.slice(0,separator):'important';if(!(await selectModule(modules[target]?target:'important')))return;const part=separator>0?hash.slice(separator+1):hash;view=part==='false-synonyms'?'false':['home','module','guide','question','finish','recordings','false'].includes(part)?part:'home';if(view==='question'&&!current())view='guide';render();})();});
+host.addEventListener('input',event=>{if(!event.target.matches('[data-module-search]'))return;searchQuery=event.target.value.trim();visibleCount=80;renderModuleList();});
 async function playRecording(button) {
   const item=recordingItems.get(button.dataset.playRecording),card=button.closest('.syn-recording-card'),status=card?.querySelector('[role="status"]'),player=card?.querySelector('audio');
   if(!item||!player)return;
@@ -352,9 +396,10 @@ async function retryRecording(button) {
   try{await uploadRecording(item,token,window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc);if(view==='recordings')void loadRecordings();}
   catch{if(status?.isConnected)status.textContent='暫時未能上傳，裝置副本仍在。';button.disabled=false;}
 }
-host.addEventListener('click',event=>{
+host.addEventListener('click',async event=>{
   const button=event.target.closest('button');if(!button)return;
-  if(button.dataset.module){selectModule(button.dataset.module);go('module');}
+  if(button.dataset.module){button.disabled=true;const selected=await selectModule(button.dataset.module);if(selected)go('module');else if(button.isConnected)button.disabled=false;}
+  else if(button.hasAttribute('data-more-modules')){visibleCount+=80;renderModuleList();}
   else if(button.dataset.go)go(button.dataset.go);
   else if(button.hasAttribute('data-begin'))beginRound();
   else if(button.hasAttribute('data-new-round')){go('guide');beginRound(true);}

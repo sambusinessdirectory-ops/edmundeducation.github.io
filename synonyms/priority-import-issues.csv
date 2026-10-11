@@ -1,0 +1,66 @@
+rank,source_file,question,issue,disposition
+4,rather_than_synonym_teaching_material.md,07.3,rather_than_synonym_teaching_material.md: 07.3: source answer 'prefers reading the full report to relying only on the summary' does not match a supplied option,self-check
+428,combine_synonyms_3_questions_each.md,07.3,combine_synonyms_3_questions_each.md: 07.3: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,01.1,exchange_synonyms_3_questions_each.md: 01.1: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,02.2,exchange_synonyms_3_questions_each.md: 02.2: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,03.2,exchange_synonyms_3_questions_each.md: 03.2: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,04.3,exchange_synonyms_3_questions_each.md: 04.3: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,05.2,exchange_synonyms_3_questions_each.md: 05.2: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,06.2,exchange_synonyms_3_questions_each.md: 06.2: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,07.3,exchange_synonyms_3_questions_each.md: 07.3: source answer '' does not match a supplied option,self-check
+514,exchange_synonyms_3_questions_each.md,08.2,exchange_synonyms_3_questions_each.md: 08.2: source answer '' does not match a supplied option,self-check
+564,leadership_synonym_teaching_material.md,3,原始教材有重複選項,self-check
+728,art_competition_synonym_teaching_material.md,05.1,"art_competition_synonym_teaching_material.md: 05.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,05.2,"art_competition_synonym_teaching_material.md: 05.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,05.3,"art_competition_synonym_teaching_material.md: 05.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,06.1,"art_competition_synonym_teaching_material.md: 06.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,06.2,"art_competition_synonym_teaching_material.md: 06.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,06.3,"art_competition_synonym_teaching_material.md: 06.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,07.1,"art_competition_synonym_teaching_material.md: 07.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,07.2,"art_competition_synonym_teaching_material.md: 07.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,07.3,"art_competition_synonym_teaching_material.md: 07.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,08.1,"art_competition_synonym_teaching_material.md: 08.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,08.2,"art_competition_synonym_teaching_material.md: 08.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,08.3,"art_competition_synonym_teaching_material.md: 08.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,09.1,"art_competition_synonym_teaching_material.md: 09.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,09.2,"art_competition_synonym_teaching_material.md: 09.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,09.3,"art_competition_synonym_teaching_material.md: 09.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,10.1,"art_competition_synonym_teaching_material.md: 10.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,10.2,"art_competition_synonym_teaching_material.md: 10.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,10.3,"art_competition_synonym_teaching_material.md: 10.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,11.1,"art_competition_synonym_teaching_material.md: 11.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,11.2,"art_competition_synonym_teaching_material.md: 11.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,11.3,"art_competition_synonym_teaching_material.md: 11.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,12.1,"art_competition_synonym_teaching_material.md: 12.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,12.2,"art_competition_synonym_teaching_material.md: 12.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,12.3,"art_competition_synonym_teaching_material.md: 12.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,13.1,"art_competition_synonym_teaching_material.md: 13.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,13.2,"art_competition_synonym_teaching_material.md: 13.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,13.3,"art_competition_synonym_teaching_material.md: 13.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,14.1,"art_competition_synonym_teaching_material.md: 14.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,14.2,"art_competition_synonym_teaching_material.md: 14.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,14.3,"art_competition_synonym_teaching_material.md: 14.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,15.1,"art_competition_synonym_teaching_material.md: 15.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,15.2,"art_competition_synonym_teaching_material.md: 15.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,15.3,"art_competition_synonym_teaching_material.md: 15.3: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,16.1,"art_competition_synonym_teaching_material.md: 16.1: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,16.2,"art_competition_synonym_teaching_material.md: 16.2: expected 4 or 6 labelled options, got {}",self-check
+728,art_competition_synonym_teaching_material.md,16.3,"art_competition_synonym_teaching_material.md: 16.3: expected 4 or 6 labelled options, got {}",self-check
+823,Theme_Synonyms_Complete.md,01.3,Theme_Synonyms_Complete.md: 01.3: source answer '' does not match a supplied option,self-check
+823,Theme_Synonyms_Complete.md,02.3,Theme_Synonyms_Complete.md: 02.3: source answer '' does not match a supplied option,self-check
+823,Theme_Synonyms_Complete.md,04.3,Theme_Synonyms_Complete.md: 04.3: source answer '' does not match a supplied option,self-check
+1059,occasion_synonyms_3_questions_each.md,02.2,occasion_synonyms_3_questions_each.md: 02.2: source answer '' does not match a supplied option,self-check
+1242,reflection_synonyms_3_questions_each.md,06.2,reflection_synonyms_3_questions_each.md: 06.2: source answer '' does not match a supplied option,self-check
+1402,squeeze_synonyms_3_questions_each.md,03.3,squeeze_synonyms_3_questions_each.md: 03.3: source answer '' does not match a supplied option,self-check
+1402,squeeze_synonyms_3_questions_each.md,05.2,squeeze_synonyms_3_questions_each.md: 05.2: source answer '' does not match a supplied option,self-check
+1402,squeeze_synonyms_3_questions_each.md,06.2,squeeze_synonyms_3_questions_each.md: 06.2: source answer '' does not match a supplied option,self-check
+1402,squeeze_synonyms_3_questions_each.md,07.2,squeeze_synonyms_3_questions_each.md: 07.2: source answer '' does not match a supplied option,self-check
+1559,Recalls_Synonyms_Complete_MD.md,04.1,Recalls_Synonyms_Complete_MD.md: 04.1: source answer 'summons up' does not match a supplied option,self-check
+1559,Recalls_Synonyms_Complete_MD.md,07.2,Recalls_Synonyms_Complete_MD.md: 07.2: source answer 'casts her mind back to' does not match a supplied option,self-check
+1574,applicant_synonyms_3_questions_each.md,01.3,applicant_synonyms_3_questions_each.md: 01.3: source answer '' does not match a supplied option,self-check
+1584,fuss_synonyms_3_questions_each.md,01.2,fuss_synonyms_3_questions_each.md: 01.2: source answer '' does not match a supplied option,self-check
+1626,overlook_synonyms_3_questions_each.md,04.3,overlook_synonyms_3_questions_each.md: 04.3: source answer '' does not match a supplied option,self-check
+1724,linger_synonyms_3_questions_each.md,01.2,linger_synonyms_3_questions_each.md: 01.2: source answer '' does not match a supplied option,self-check
+1724,linger_synonyms_3_questions_each.md,02.2,linger_synonyms_3_questions_each.md: 02.2: source answer '' does not match a supplied option,self-check
+1724,linger_synonyms_3_questions_each.md,06.2,linger_synonyms_3_questions_each.md: 06.2: source answer '' does not match a supplied option,self-check
+1724,linger_synonyms_3_questions_each.md,07.1,linger_synonyms_3_questions_each.md: 07.1: source answer '' does not match a supplied option,self-check

@@ -2,62 +2,40 @@
 
 # Avoid
 
-**「避免」，究竟是哪一種避免？**
+**「避免／避開／躲避／防止」，有哪些真正接近、廣泛可用，或在特定語境中很自然的替代表達？**
 
-避開、躲避、預防、防止、迴避、避免接觸、克制不做、繞過問題——英文會按「避免的是人、地方、風險、行為、責任還是結果」選用不同的字。
-
-> 本課主要處理 **avoid = 避免；避開；躲避** 的常見動詞意思。  
-> `avoid` 的核心不是單純「不喜歡」，而是 **有意識地不接觸、不做、不讓某件事發生**。
-
----
-
-## 01 同義詞指南
-
-### Avoid 的 14 種更精準說法
-
----
-
-### 01 Evade
-
-**逃避；躲避；規避**
-
-指設法避開某人、責任、問題、追捕或要求，常帶有「故意逃開」的意味。
-
-**EXAMPLE · 例句**
-
-The driver tried to evade the police after the accident.
-
-事故後，司機試圖逃避警方追查。
-
-**USAGE · 用法提示**
-
-常見搭配：`evade capture`, `evade responsibility`, `evade a question`, `evade tax`.
+> 本課處理 **avoid = 避免；避開；躲避；防止發生**。
+>
+> `avoid` 是一個多義動詞。英文會按「避開的是人、地方、風險、責任、問題，還是某種行為」選不同表達。
+>
+> 主要可以分成：
+>
+> 1. **避開某人／某地方**
+> 2. **躲避某事／逃避責任**
+> 3. **防止壞事發生**
+> 4. **避開某個問題／障礙**
+> 5. **克制自己不去做某事**
+>
+> 本課只保留真正有用的近義詞、固定表達和常見搭配。
+>
+> 每個 target expression 配 **3 道完整練習題**。每題包括：
+>
+> - 原句
+> - 中文翻譯
+> - 六個選項
+> - 正確答案
+> - 完整改寫
+> - 六個選項逐一解釋
 
 ---
 
-### 02 Dodge
+# 01 同義詞指南
 
-**閃避；躲開；迴避**
+## 01 Steer clear of
 
-較口語，可指身體上迅速躲開，也可指迴避問題、責任或承諾。
+**避開；遠離**
 
-**EXAMPLE · 例句**
-
-He dodged the question by changing the subject.
-
-他透過轉移話題來迴避問題。
-
-**USAGE · 用法提示**
-
-比 `evade` 更口語，也更有「快速閃開」的感覺。
-
----
-
-### 03 Steer clear of
-
-**避開；不要接近**
-
-很自然的口語表達，指有意識地遠離某人、地方、情況或問題。
+非常自然的固定表達，表示刻意遠離某人、某地方、某事或某種風險。
 
 **EXAMPLE · 例句**
 
@@ -67,143 +45,196 @@ You should steer clear of that road during rush hour.
 
 **USAGE · 用法提示**
 
-特別適合不想接觸的地方、人物、風險或麻煩。
+常見於口語與一般寫作。
+
+**COMMON COLLOCATIONS**
+
+- steer clear of trouble
+- steer clear of danger
+- steer clear of someone
+- steer clear of certain topics
 
 ---
 
-### 04 Stay away from
+## 02 Keep away from
 
-**遠離；避開**
+**遠離；不要接近**
 
-直接表示不接近某個人、地方、物品或危險。
-
-**EXAMPLE · 例句**
-
-Children should stay away from the construction site.
-
-兒童應遠離建築工地。
-
-**USAGE · 用法提示**
-
-比 `avoid` 更有物理距離感。
-
----
-
-### 05 Keep away from
-
-**遠離；不要靠近**
-
-和 `stay away from` 類似，常用作勸告或警告。
+表示和某人、某物或某地方保持距離。
 
 **EXAMPLE · 例句**
 
 Keep away from the edge of the cliff.
 
-不要靠近懸崖邊。
+遠離懸崖邊。
 
 **USAGE · 用法提示**
 
-常見於安全指示。
+比 `avoid` 更具體地強調「保持物理或心理距離」。
 
 ---
 
-### 06 Shun
+## 03 Stay away from
 
-**刻意避開；拒絕接觸**
+**遠離；避開**
 
-指有意識地避開某人、群體、做法或社交場合，常帶有強烈拒絕或不認同。
+表示不要去某地、不要接近某人或不要接觸某事。
 
 **EXAMPLE · 例句**
 
-He shunned publicity and rarely gave interviews.
+She decided to stay away from social media for a few days.
 
-他刻意避開公眾曝光，很少接受訪問。
+她決定幾天內暫時避開社交媒體。
 
 **USAGE · 用法提示**
 
-比 `avoid` 更強，通常暗示主動排斥。
+和 `keep away from` 很接近，但更自然地用於一段時間內刻意不接觸。
 
 ---
 
-### 07 Eschew
+## 04 Shun
 
-**刻意避免；不用；棄絕**
+**避開；有意疏遠；排斥**
 
-正式用語，表示有意識地不用、不採取或不參與某事。
+表示刻意避開某人、某群體或某事，常帶較強的社會／道德意味。
 
 **EXAMPLE · 例句**
 
-The designer eschewed unnecessary decoration.
+He was shunned by former colleagues after the scandal.
 
-這名設計師刻意避免不必要的裝飾。
+醜聞之後，他被前同事疏遠。
 
 **USAGE · 用法提示**
 
-常見於正式寫作。  
-多用於做法、風格、習慣，而不是單純避開一個物理物件。
+比一般 `avoid` 強，常表示明顯拒絕接觸。
 
 ---
 
-### 08 Bypass
+## 05 Evade
 
-**繞過；避開**
+**逃避；躲避**
 
-指不經過某地、程序、系統或問題，而選擇另一條路徑。
+表示巧妙或故意地避開問題、責任、追捕、稅務、法律義務等。
 
 **EXAMPLE · 例句**
 
-The new road allows drivers to bypass the town centre.
+The company was accused of trying to evade taxes.
 
-新道路讓司機可以繞過市中心。
+該公司被指試圖逃稅。
 
 **USAGE · 用法提示**
 
-可用於實際路線，也可用於程序：`bypass a system`, `bypass a rule`.
+常見：
+
+- evade responsibility
+- evade taxes
+- evade capture
+- evade a question
 
 ---
 
-### 09 Sidestep
+## 06 Dodge
 
-**避開；迴避；不正面處理**
+**躲開；閃避；迴避**
 
-原意是向旁邊一步避開，常比喻性地指避免直接處理問題、責任或爭議。
+較口語，可指身體上閃避，也可指迴避問題、責任或義務。
 
 **EXAMPLE · 例句**
 
-The report sidestepped the most difficult question.
+He dodged the question and changed the subject.
 
-報告避而不談最棘手的問題。
+他迴避了問題，然後轉移話題。
 
 **USAGE · 用法提示**
 
-常見於問題、爭議、責任。
+比 `evade` 更口語。
 
 ---
 
-### 10 Prevent
+## 07 Sidestep
 
-**防止；預防**
+**迴避；避開；繞過**
 
-重點不是「自己避開」，而是阻止某件事發生。
+原本指向旁邊移步避開，現在常比喻迴避問題、爭議或困難。
 
 **EXAMPLE · 例句**
 
-Regular maintenance can prevent serious equipment failure.
+The minister sidestepped the question.
 
-定期維護可以防止設備出現嚴重故障。
+部長迴避了這個問題。
 
 **USAGE · 用法提示**
 
-`avoid a problem` = 避免遇上問題。  
-`prevent a problem` = 阻止問題發生。
+常見於新聞、政治、商業寫作。
 
 ---
 
-### 11 Avert
+## 08 Bypass
 
-**避免；防止（壞結果）**
+**繞過；避開；不經過**
 
-較正式，表示阻止危機、災難、危險或不良結果發生。
+表示繞過障礙、程序、系統或某一步。
+
+**EXAMPLE · 例句**
+
+The new road bypasses the town centre.
+
+新道路繞過市中心。
+
+**USAGE · 用法提示**
+
+也可比喻：
+
+- bypass a procedure
+- bypass a restriction
+- bypass the normal process
+
+---
+
+## 09 Circumvent
+
+**規避；繞過**
+
+較正式，表示設法繞過規則、限制、障礙或制度。
+
+**EXAMPLE · 例句**
+
+The company found a way to circumvent the restriction.
+
+公司找到方法規避這項限制。
+
+**USAGE · 用法提示**
+
+比 `bypass` 更正式，也常帶「利用方法繞過規則」意味。
+
+---
+
+## 10 Prevent
+
+**防止；阻止發生**
+
+當 `avoid` 表示「令壞事不發生」時，`prevent` 很接近。
+
+**EXAMPLE · 例句**
+
+Regular maintenance can prevent serious problems.
+
+定期維護可以防止嚴重問題發生。
+
+**USAGE · 用法提示**
+
+`avoid an accident` 和 `prevent an accident` 在很多語境接近，但視角不同：
+
+- avoid = 避免遇上／發生
+- prevent = 主動阻止發生
+
+---
+
+## 11 Avert
+
+**避免；防止；阻止**
+
+較正式，常指防止危機、災難、危險或壞結果發生。
 
 **EXAMPLE · 例句**
 
@@ -213,1203 +244,1622 @@ Quick action helped avert a major accident.
 
 **USAGE · 用法提示**
 
-常搭配：`avert disaster`, `avert a crisis`, `avert danger`.
+常見：
+
+- avert disaster
+- avert a crisis
+- avert danger
+- avert a strike
 
 ---
 
-### 12 Refrain from
+## 12 Refrain from
 
-**克制不做；避免做某事**
+**避免做；克制不做**
 
-表示有意識地控制自己，不去做某個行為。
+表示有意識地不去做某個行為。
 
 **EXAMPLE · 例句**
 
 Please refrain from using your phone during the performance.
 
-表演期間請勿使用手機。
+表演期間請避免使用手機。
 
 **USAGE · 用法提示**
 
-正式而常見於規則、告示、禮貌要求。
+較正式，後面接 `-ing`：
+
+> refrain from smoking  
+> refrain from commenting
 
 ---
 
-### 13 Abstain from
+## 13 Abstain from
 
-**戒除；克制；避免參與**
+**避免；戒除；不參與**
 
-指有意識地不做、不吃、不喝或不參與某事，語氣比 `refrain from` 更強或更正式。
+較正式，表示刻意不做某事，尤其飲酒、投票、某種活動或習慣。
 
 **EXAMPLE · 例句**
 
 Participants were asked to abstain from alcohol before the test.
 
-參加者被要求在測試前不要飲酒。
+參加者被要求在測試前避免飲酒。
 
 **USAGE · 用法提示**
 
-常見於飲食、投票、行為限制。
+比 `refrain from` 更強，也更常見於正式、醫療、法律、宗教語境。
 
 ---
 
-### 14 Escape
+## 14 Keep out of
 
-**逃過；避過；倖免於**
+**避開；不要捲入；不要進入**
 
-表示成功避過危險、傷害、懲罰或不良結果。
+常見固定表達，可指不要進入某地方，也可指不要捲入麻煩、爭論或衝突。
 
 **EXAMPLE · 例句**
 
-The village escaped the worst effects of the storm.
+He tries to keep out of office politics.
 
-這條村避過了暴風雨最嚴重的影響。
+他盡量避免捲入辦公室政治。
 
 **USAGE · 用法提示**
 
-`escape` 常表示「已經成功避過」，而不是事先刻意避免。
+常見：
+
+- keep out of trouble
+- keep out of arguments
+- keep out of danger
+- keep out of restricted areas
 
 ---
 
-## 02 False synonyms
+# 02 False synonyms / 容易誤選的相關詞
 
-看起來和「避免」有關，但意思不同。
-
----
-
-### 01 Ignore
+## 01 Ignore
 
 **忽略不等於避免**
 
-`ignore` = 明知存在但不理會。  
-`avoid` = 主動不接觸、不做或不讓它發生。
+`ignore` 表示知道某事存在，但選擇不理會。
+`avoid` 表示設法不接觸、不遇上或不讓某事發生。
 
 **ENGLISH COMPARISON**
 
 He ignored the warning.  
-He avoided the dangerous road.
+他無視警告。
+
+He avoided the dangerous road.  
+他避開了危險道路。
 
 ---
 
-### 02 Refuse
+## 02 Escape
+
+**逃脫不等於避免**
+
+`escape` 往往表示危險或困境已經存在，之後成功脫離。
+
+**ENGLISH COMPARISON**
+
+She avoided the fire by leaving early.  
+She escaped from the burning building.
+
+---
+
+## 03 Prevent / Avoid
+
+**相關但視角不同**
+
+`prevent` 更強調主動阻止某事發生；
+`avoid` 更強調不讓自己遇上或不讓事情發生。
+
+---
+
+## 04 Refuse
 
 **拒絕不等於避免**
 
-`refuse` = 明確說不。  
-`avoid` = 可能是不接觸、不參與或預防。
-
-**ENGLISH COMPARISON**
-
-She refused the invitation.  
-She avoided social events for several weeks.
+`refuse` 是明確說「不」；`avoid` 可以完全不需要作出拒絕行為。
 
 ---
 
-### 03 Prevent
-
-**防止不等於避開**
-
-`prevent` 是阻止事件發生；`avoid` 是避開事件、行為或後果。
-
-**ENGLISH COMPARISON**
-
-Seat belts help prevent injuries.  
-Drivers should avoid dangerous speeds.
-
----
-
-### 04 Delay
+## 05 Delay
 
 **延遲不等於避免**
 
-延遲只是晚一點發生，不代表永遠不發生。
-
-**ENGLISH COMPARISON**
-
-They delayed the decision.  
-They avoided making the decision altogether.
+把某件事推遲，並不代表最終不會發生。
 
 ---
 
-### 05 Escape
-
-**逃過不等於事先避免**
-
-`escape` 常表示事情已經發生或接近發生，但你成功脫離。
-
-**ENGLISH COMPARISON**
-
-He avoided the fight by leaving early.  
-He escaped injury when the car crashed.
-
----
-
-### 06 Cancel
+## 06 Cancel
 
 **取消不等於避免**
 
-取消是正式終止計劃；避免可以只是選擇不參與或不接觸。
-
-**ENGLISH COMPARISON**
-
-They cancelled the meeting.  
-She avoided the meeting.
+取消是正式停止一個已安排的活動；
+避免則不一定涉及取消。
 
 ---
 
-### 07 Solve
+## 07 Neglect
 
-**解決不等於避免**
+**疏忽不等於避免**
 
-`solve` = 問題已存在後處理它。  
-`avoid` = 盡量不讓問題出現。
-
-**ENGLISH COMPARISON**
-
-Good planning can help avoid problems.  
-Good analysis can help solve them.
+`neglect` 通常是沒有給予應有注意，常帶負面意味。
+`avoid` 則常是刻意做出的選擇。
 
 ---
 
-### 08 Avoid / Avoidance / Avoidable
+## 08 Avoid / Avoidance / Avoidable
 
 **詞性不同**
 
-`avoid` = 動詞  
-`avoidance` = 名詞  
-`avoidable` = 形容詞
+- avoid = 動詞，避免
+- avoidance = 名詞，避免；迴避
+- avoidable = 形容詞，可避免的
 
 **ENGLISH COMPARISON**
 
-We should avoid unnecessary risk.  
-Risk avoidance is important.  
-The mistake was avoidable.
+We should avoid unnecessary delays.  
+The delay was avoidable.  
+Careful planning can reduce avoidance behaviour.
 
 ---
 
 # 03 練習與解釋
 
-> 每個 target word / expression 兩題，共 28 題。
+> 14 個 target expressions × 每個 3 題 = **42 道完整練習題**
 
 ---
 
+# 01 Steer clear of
+
 ## 練習 01.1
 
-**Target word: Evade · 逃避；規避**
+**Target expression: Steer clear of · 避開；遠離**
 
-The suspect tried to avoid the police by changing cars.
+### READ THE CONTEXT · 閱讀語境
+
+Drivers should avoid this road during rush hour because traffic is extremely heavy.
 
 **中文翻譯**
 
-疑犯試圖透過換車逃避警方追查。
+駕駛者在繁忙時間應避開這條道路，因為交通非常擠塞。
 
-A. evade  
-B. prevent  
-C. ignore  
-D. delay  
-E. solve  
+A. steer clear of  
+B. ignore  
+C. delay  
+D. cancel  
+E. enter  
 F. approach
 
-### CORRECT ANSWER
+### CORRECT ANSWER · 正確答案
 
-The suspect tried to **evade** the police by changing cars.
+Drivers should **steer clear of** this road during rush hour.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK · 六個選項的解釋
 
-**A. evade ✓**  
-evade 很適合逃避追捕、調查或責任。
+**A. steer clear of ✓**  
+非常自然地表示刻意避開某條道路。
 
-**B. prevent**  
-不是阻止警方存在。
+**B. ignore**  
+表示不理會，並不表示不走這條路。
 
-**C. ignore**  
-忽略警方不等於成功躲避。
+**C. delay**  
+表示延遲，不能直接替代「避開道路」。
 
-**D. delay**  
-只是延遲。
+**D. cancel**  
+表示取消，不適用於 road。
 
-**E. solve**  
-完全不同。
+**E. enter**  
+表示進入，意思相反。
 
 **F. approach**  
-意思相反。
+表示接近，意思相反。
 
 ---
 
 ## 練習 01.2
 
-**Target word: Evade · 逃避；規避**
-
-He avoided answering the question directly.
+You should avoid people who repeatedly try to involve you in trouble.
 
 **中文翻譯**
 
-他迴避直接回答問題。
+你應該遠離那些反覆想把你捲入麻煩的人。
 
-A. prevented  
-B. evaded  
-C. solved  
-D. accepted  
-E. repeated  
-F. approached
+A. steer clear of  
+B. praise  
+C. approach  
+D. follow  
+E. invite  
+F. rely on
 
 ### CORRECT ANSWER
 
-He **evaded** the question.
+You should **steer clear of** people who repeatedly try to involve you in trouble.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. prevented**  
-不能說 prevent a question 來表示迴避回答。
+**A. steer clear of ✓**  
+表示主動遠離可能帶來麻煩的人。
 
-**B. evaded ✓**  
-`evade a question` 是自然搭配，表示故意不正面回答。
+**B. praise**  
+表示讚揚。
 
-**C. solved**  
-不是解決問題。
+**C. approach**  
+表示接近，方向相反。
 
-**D. accepted**  
-意思不同。
+**D. follow**  
+表示跟隨。
 
-**E. repeated**  
-不是重複。
+**E. invite**  
+表示邀請。
 
-**F. approached**  
-反而是正面處理。
+**F. rely on**  
+表示依賴。
 
 ---
 
-## 練習 02.1
+## 練習 01.3
 
-**Target word: Dodge · 閃避；迴避**
-
-She avoided the flying ball by moving quickly to one side.
+Investors are trying to avoid highly unstable markets.
 
 **中文翻譯**
 
-她迅速向一旁移動，閃避飛來的球。
+投資者正試圖避開高度不穩定的市場。
 
-A. ignored  
-B. dodged  
-C. prevented  
-D. solved  
-E. accepted  
-F. followed
+A. steer clear of  
+B. enter  
+C. support  
+D. promote  
+E. monitor only  
+F. expand into
 
 ### CORRECT ANSWER
 
-She **dodged** the flying ball.
+Investors are trying to **steer clear of** highly unstable markets.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. ignored**  
-不理會不代表身體閃避。
+**A. steer clear of ✓**  
+表示刻意遠離高風險情況。
 
-**B. dodged ✓**  
-dodge 可表示迅速閃身避開移動物體。
+**B. enter**  
+表示進入。
 
-**C. prevented**  
-不是阻止球存在。
+**C. support**  
+表示支持。
 
-**D. solved**  
-無關。
+**D. promote**  
+表示推廣。
 
-**E. accepted**  
-相反。
+**E. monitor only**  
+只是監察，不等於避開。
 
-**F. followed**  
-相反。
+**F. expand into**  
+表示進入並擴張，意思相反。
+
+---
+
+# 02 Keep away from
+
+## 練習 02.1
+
+Children should avoid the edge of the cliff.
+
+**中文翻譯**
+
+兒童應遠離懸崖邊。
+
+A. keep away from  
+B. walk toward  
+C. inspect  
+D. ignore  
+E. touch  
+F. approach
+
+### CORRECT ANSWER
+
+Children should **keep away from** the edge of the cliff.
+
+### SIX-OPTION FEEDBACK
+
+**A. keep away from ✓**  
+強調保持安全距離。
+
+**B. walk toward**  
+表示走近，意思相反。
+
+**C. inspect**  
+表示檢查。
+
+**D. ignore**  
+不是保持距離。
+
+**E. touch**  
+表示觸碰。
+
+**F. approach**  
+表示接近。
 
 ---
 
 ## 練習 02.2
 
-**Target word: Dodge · 迴避**
-
-The manager avoided the question by talking about another topic.
+Please avoid the machinery while it is operating.
 
 **中文翻譯**
 
-經理透過談另一個話題來迴避問題。
+機器運作時請保持距離。
 
-A. dodged  
-B. answered  
-C. solved  
-D. prevented  
-E. welcomed  
-F. accepted
-
-### CORRECT ANSWER
-
-The manager **dodged** the question by talking about another topic.
-
-### FEEDBACK
-
-**A. dodged ✓**  
-口語中 `dodge a question` 很常見。
-
-**B. answered**  
-意思相反。
-
-**C. solved**  
-問題不是要「解決」。
-
-**D. prevented**  
-不合。
-
-**E. welcomed**  
-相反。
-
-**F. accepted**  
-不合。
-
----
-
-## 練習 03.1
-
-**Target expression: Steer clear of · 避開**
-
-Drivers should avoid this road during rush hour.
-
-**中文翻譯**
-
-司機在繁忙時間應避開這條路。
-
-A. solve  
-B. steer clear of  
+A. keep away from  
+B. operate  
 C. approach  
-D. enter  
-E. welcome  
-F. follow
+D. inspect closely  
+E. lean against  
+F. stand beside
 
 ### CORRECT ANSWER
 
-Drivers should **steer clear of** this road during rush hour.
+Please **keep away from** the machinery while it is operating.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. solve**  
-道路不是問題本身。
+**A. keep away from ✓**  
+安全告示語境很自然。
 
-**B. steer clear of ✓**  
-很自然地表示有意識地遠離某地方或麻煩。
+**B. operate**  
+表示操作。
 
 **C. approach**  
-相反。
+表示接近。
 
-**D. enter**  
-相反。
+**D. inspect closely**  
+表示近距離檢查。
 
-**E. welcome**  
-無關。
+**E. lean against**  
+表示靠著。
 
-**F. follow**  
-不是避開。
-
----
-
-## 練習 03.2
-
-**Target expression: Steer clear of · 避開**
-
-Investors were advised to avoid highly unstable markets.
-
-**中文翻譯**
-
-投資者被建議避開高度不穩定的市場。
-
-A. enter  
-B. steer clear of  
-C. encourage  
-D. approach  
-E. support  
-F. solve
-
-### CORRECT ANSWER
-
-Investors were advised to **steer clear of** highly unstable markets.
-
-### FEEDBACK
-
-**A. enter**  
-相反。
-
-**B. steer clear of ✓**  
-適合風險、麻煩或不安全情況。
-
-**C. encourage**  
-無關。
-
-**D. approach**  
-相反。
-
-**E. support**  
-不合。
-
-**F. solve**  
-不是解決市場。
+**F. stand beside**  
+表示站在旁邊，與保持距離相反。
 
 ---
 
-## 練習 04.1
+## 練習 02.3
 
-**Target expression: Stay away from · 遠離**
-
-Children should avoid the damaged building.
+He tries to avoid people who are coughing when he is ill.
 
 **中文翻譯**
 
-兒童應遠離受損建築物。
+他生病時會盡量遠離正在咳嗽的人。
 
-A. stay away from  
-B. repair  
-C. enter  
-D. approach  
-E. inspect  
-F. follow
-
-### CORRECT ANSWER
-
-Children should **stay away from** the damaged building.
-
-### FEEDBACK
-
-**A. stay away from ✓**  
-強調保持物理距離。
-
-**B. repair**  
-不是孩子要做的事。
-
-**C. enter**  
-相反。
-
-**D. approach**  
-相反。
-
-**E. inspect**  
-不表示遠離。
-
-**F. follow**  
-無關。
-
----
-
-## 練習 04.2
-
-**Target expression: Stay away from · 遠離**
-
-Doctors told him to avoid people with contagious infections.
-
-**中文翻譯**
-
-醫生叫他遠離有傳染性感染的人。
-
-A. stay away from  
-B. approach  
-C. contact  
-D. follow  
-E. support  
+A. keep away from  
+B. sit beside  
+C. follow  
+D. greet  
+E. approach  
 F. invite
 
 ### CORRECT ANSWER
 
-Doctors told him to **stay away from** people with contagious infections.
+He tries to **keep away from** people who are coughing.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. stay away from ✓**  
-直接表示不要接近。
+**A. keep away from ✓**  
+強調保持距離。
 
-**B. approach**  
+**B. sit beside**  
+意思相反。
+
+**C. follow**  
+不合。
+
+**D. greet**  
+不等於避開。
+
+**E. approach**  
 相反。
-
-**C. contact**  
-相反。
-
-**D. follow**  
-無關。
-
-**E. support**  
-不是距離概念。
 
 **F. invite**  
 相反。
 
 ---
 
-## 練習 05.1
+# 03 Stay away from
 
-**Target expression: Keep away from · 遠離**
+## 練習 03.1
 
-Visitors should avoid the edge of the platform.
+She decided to avoid social media for a week.
 
 **中文翻譯**
 
-訪客應遠離月台邊緣。
+她決定一星期內暫時避開社交媒體。
 
-A. keep away from  
-B. approach  
-C. touch  
-D. enter  
-E. solve  
-F. follow
+A. stay away from  
+B. promote  
+C. monitor  
+D. join  
+E. post on  
+F. advertise on
 
 ### CORRECT ANSWER
 
-Visitors should **keep away from** the edge of the platform.
+She decided to **stay away from** social media for a week.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. keep away from ✓**  
-常見於安全警告。
+**A. stay away from ✓**  
+表示一段時間內刻意不接觸。
 
-**B. approach**  
+**B. promote**  
+是推廣。
+
+**C. monitor**  
+是監察。
+
+**D. join**  
+是加入。
+
+**E. post on**  
+表示在平台發文。
+
+**F. advertise on**  
+表示在平台刊登廣告。
+
+---
+
+## 練習 03.2
+
+Doctors advised him to avoid crowded places while recovering.
+
+**中文翻譯**
+
+醫生建議他康復期間遠離擁擠地方。
+
+A. stay away from  
+B. visit  
+C. enter  
+D. seek out  
+E. approach  
+F. spend time in
+
+### CORRECT ANSWER
+
+Doctors advised him to **stay away from** crowded places while recovering.
+
+### SIX-OPTION FEEDBACK
+
+**A. stay away from ✓**  
+非常自然地表示暫時不要前往。
+
+**B. visit**  
+表示前往，方向相反。
+
+**C. enter**  
+表示進入。
+
+**D. seek out**  
+表示主動尋找。
+
+**E. approach**  
+表示接近。
+
+**F. spend time in**  
+表示在那裡逗留。
+
+---
+
+## 練習 03.3
+
+The warning tells swimmers to avoid the rocks during high tide.
+
+**中文翻譯**
+
+警告提醒泳客漲潮時遠離岩石。
+
+A. stay away from  
+B. swim toward  
+C. climb onto  
+D. inspect  
+E. approach  
+F. remain beside
+
+### CORRECT ANSWER
+
+The warning tells swimmers to **stay away from** the rocks during high tide.
+
+### SIX-OPTION FEEDBACK
+
+**A. stay away from ✓**  
+安全語境自然。
+
+**B. swim toward**  
 相反。
 
-**C. touch**  
-不是遠離。
+**C. climb onto**  
+相反。
 
-**D. enter**  
-無關。
+**D. inspect**  
+不等於避開。
 
-**E. solve**  
-無關。
+**E. approach**  
+相反。
 
-**F. follow**  
-無關。
+**F. remain beside**  
+相反。
+
+---
+
+# 04 Shun
+
+## 練習 04.1
+
+After the scandal, many former friends avoided him.
+
+**中文翻譯**
+
+醜聞之後，很多昔日朋友都刻意疏遠他。
+
+A. shunned  
+B. praised  
+C. approached  
+D. supported  
+E. invited  
+F. followed
+
+### CORRECT ANSWER
+
+After the scandal, many former friends **shunned** him.
+
+### SIX-OPTION FEEDBACK
+
+**A. shunned ✓**  
+帶明顯社會排斥／疏遠意味。
+
+**B. praised**  
+是讚揚。
+
+**C. approached**  
+是接近。
+
+**D. supported**  
+是支持。
+
+**E. invited**  
+是邀請。
+
+**F. followed**  
+是跟隨。
+
+---
+
+## 練習 04.2
+
+The group avoids products made with certain materials for ethical reasons.
+
+**中文翻譯**
+
+該團體基於道德理由拒絕使用含某些材料的產品。
+
+A. shuns  
+B. advertises  
+C. purchases  
+D. recommends  
+E. distributes  
+F. produces
+
+### CORRECT ANSWER
+
+The group **shuns** products made with certain materials for ethical reasons.
+
+### SIX-OPTION FEEDBACK
+
+**A. shuns ✓**  
+帶有有意拒絕接觸／使用的意味。
+
+**B. advertises**  
+是宣傳。
+
+**C. purchases**  
+是購買，方向相反。
+
+**D. recommends**  
+是推薦。
+
+**E. distributes**  
+是分發。
+
+**F. produces**  
+是生產。
+
+---
+
+## 練習 04.3
+
+He has always avoided public attention.
+
+**中文翻譯**
+
+他一直刻意避開公眾注意。
+
+A. shunned  
+B. sought  
+C. welcomed  
+D. encouraged  
+E. promoted  
+F. attracted
+
+### CORRECT ANSWER
+
+He has always **shunned** public attention.
+
+### SIX-OPTION FEEDBACK
+
+**A. shunned ✓**  
+常見搭配 `shun publicity / attention`。
+
+**B. sought**  
+表示尋求，意思相反。
+
+**C. welcomed**  
+表示歡迎。
+
+**D. encouraged**  
+表示鼓勵。
+
+**E. promoted**  
+表示推廣。
+
+**F. attracted**  
+表示吸引。
+
+---
+
+# 05 Evade
+
+## 練習 05.1
+
+The company was accused of trying to avoid paying taxes.
+
+**中文翻譯**
+
+該公司被指試圖逃稅。
+
+A. evade  
+B. calculate  
+C. report  
+D. pay  
+E. increase  
+F. collect
+
+### CORRECT ANSWER
+
+The company was accused of trying to **evade** taxes.
+
+### SIX-OPTION FEEDBACK
+
+**A. evade ✓**  
+`evade taxes` 是固定搭配，表示非法／不當逃避納稅。
+
+**B. calculate**  
+是計算。
+
+**C. report**  
+是申報／報告。
+
+**D. pay**  
+是繳付，方向相反。
+
+**E. increase**  
+是增加。
+
+**F. collect**  
+是收取。
 
 ---
 
 ## 練習 05.2
 
-**Target expression: Keep away from · 遠離**
-
-Keep children from going near the hot surface.
+He avoided answering the question directly.
 
 **中文翻譯**
 
-不要讓兒童靠近高溫表面。
+他迴避了直接回答這個問題。
 
-A. keep away from  
-B. encourage  
-C. approach  
-D. touch  
-E. follow  
-F. inspect
+A. evaded  
+B. answered  
+C. clarified  
+D. repeated  
+E. welcomed  
+F. solved
 
 ### CORRECT ANSWER
 
-**Keep children away from** the hot surface.
+He **evaded** the question.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. keep away from ✓**  
-表示讓某人與危險物保持距離。
+**A. evaded ✓**  
+常見搭配 `evade a question`，表示刻意不直接回答。
 
-**B. encourage**  
-相反。
+**B. answered**  
+方向相反。
 
-**C. approach**  
-相反。
+**C. clarified**  
+是澄清。
 
-**D. touch**  
-相反。
+**D. repeated**  
+是重複問題。
 
-**E. follow**  
-無關。
+**E. welcomed**  
+不合。
 
-**F. inspect**  
-不表示距離。
+**F. solved**  
+問題不是「解題」語境。
 
 ---
 
-## 練習 06.1
+## 練習 05.3
 
-**Target word: Shun · 刻意避開**
-
-The actor avoided publicity and rarely attended public events.
+The suspect tried to avoid capture for several days.
 
 **中文翻譯**
 
-這名演員刻意避開公眾曝光，很少出席公開活動。
+疑犯試圖數天內躲避追捕。
 
-A. shunned  
-B. welcomed  
-C. encouraged  
-D. solved  
-E. entered  
-F. accepted
+A. evade  
+B. accept  
+C. report  
+D. invite  
+E. arrange  
+F. request
 
 ### CORRECT ANSWER
 
-The actor **shunned** publicity and rarely attended public events.
+The suspect tried to **evade** capture for several days.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. shunned ✓**  
-shun 強調有意識、持續地排斥或避開。
+**A. evade ✓**  
+`evade capture` 是自然搭配。
 
-**B. welcomed**  
-相反。
-
-**C. encouraged**  
-相反。
-
-**D. solved**  
-無關。
-
-**E. entered**  
+**B. accept**  
 不合。
 
-**F. accepted**  
-相反。
+**C. report**  
+不合。
+
+**D. invite**  
+不合。
+
+**E. arrange**  
+不合。
+
+**F. request**  
+不合。
+
+---
+
+# 06 Dodge
+
+## 練習 06.1
+
+He avoided the question and changed the subject.
+
+**中文翻譯**
+
+他迴避問題，然後轉移話題。
+
+A. dodged  
+B. answered  
+C. solved  
+D. clarified  
+E. welcomed  
+F. repeated
+
+### CORRECT ANSWER
+
+He **dodged** the question and changed the subject.
+
+### SIX-OPTION FEEDBACK
+
+**A. dodged ✓**  
+較口語地表示迴避問題。
+
+**B. answered**  
+方向相反。
+
+**C. solved**  
+不合。
+
+**D. clarified**  
+是澄清。
+
+**E. welcomed**  
+不合。
+
+**F. repeated**  
+不是迴避。
 
 ---
 
 ## 練習 06.2
 
-**Target word: Shun · 刻意避開**
-
-For years, he avoided social gatherings.
+The cyclist avoided the pothole at the last second.
 
 **中文翻譯**
 
-多年來，他刻意避開社交聚會。
+單車手在最後一刻閃過坑洞。
 
-A. joined  
-B. shunned  
-C. welcomed  
-D. organised  
-E. solved  
-F. promoted
+A. dodged  
+B. hit  
+C. approached  
+D. entered  
+E. inspected  
+F. stopped beside
 
 ### CORRECT ANSWER
 
-For years, he **shunned** social gatherings.
+The cyclist **dodged** the pothole at the last second.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. joined**  
-相反。
+**A. dodged ✓**  
+表示迅速閃避物理障礙。
 
-**B. shunned ✓**  
-表示持續而刻意地避免社交場合。
+**B. hit**  
+表示撞上，意思相反。
 
-**C. welcomed**  
-相反。
+**C. approached**  
+表示接近。
 
-**D. organised**  
-不是參與問題。
+**D. entered**  
+不合。
 
-**E. solved**  
-無關。
+**E. inspected**  
+不是閃避。
 
-**F. promoted**  
-無關。
+**F. stopped beside**  
+不合。
 
 ---
 
-## 練習 07.1
+## 練習 06.3
 
-**Target word: Eschew · 刻意避免；不用**
-
-The writer avoids complicated language whenever possible.
+She avoided taking responsibility for the mistake.
 
 **中文翻譯**
 
-這名作家盡可能避免使用複雜語言。
+她迴避為錯誤承擔責任。
 
-A. uses  
-B. eschews  
-C. encourages  
-D. develops  
-E. explains  
-F. repeats
+A. dodged  
+B. accepted  
+C. admitted  
+D. welcomed  
+E. explained  
+F. fulfilled
 
 ### CORRECT ANSWER
 
-The writer **eschews** complicated language whenever possible.
+She **dodged** responsibility for the mistake.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. uses**  
-相反。
+**A. dodged ✓**  
+`dodge responsibility` 是常見口語搭配。
 
-**B. eschews ✓**  
-正式地表示刻意不採用某種做法。
+**B. accepted**  
+表示接受責任，方向相反。
 
-**C. encourages**  
+**C. admitted**  
+是承認。
+
+**D. welcomed**  
 不合。
 
-**D. develops**  
-不是避免。
+**E. explained**  
+不一定等於承擔責任。
 
-**E. explains**  
-無關。
+**F. fulfilled**  
+表示履行。
 
-**F. repeats**  
-無關。
+---
+
+# 07 Sidestep
+
+## 練習 07.1
+
+The minister avoided the difficult question.
+
+**中文翻譯**
+
+部長迴避了這個棘手問題。
+
+A. sidestepped  
+B. answered  
+C. solved  
+D. clarified  
+E. welcomed  
+F. raised
+
+### CORRECT ANSWER
+
+The minister **sidestepped** the difficult question.
+
+### SIX-OPTION FEEDBACK
+
+**A. sidestepped ✓**  
+新聞／政治語境中非常自然。
+
+**B. answered**  
+相反。
+
+**C. solved**  
+不合。
+
+**D. clarified**  
+是澄清。
+
+**E. welcomed**  
+不合。
+
+**F. raised**  
+表示提出問題，而非迴避。
 
 ---
 
 ## 練習 07.2
 
-**Target word: Eschew · 刻意避免；不用**
-
-The company avoids unnecessary bureaucracy.
+The report avoids the most controversial issue.
 
 **中文翻譯**
 
-公司刻意避免不必要的官僚程序。
+報告迴避了最具爭議的問題。
 
-A. supports  
-B. eschews  
-C. creates  
-D. increases  
-E. repeats  
-F. welcomes
+A. sidesteps  
+B. examines  
+C. emphasizes  
+D. explains  
+E. resolves  
+F. introduces
 
 ### CORRECT ANSWER
 
-The company **eschews** unnecessary bureaucracy.
+The report **sidesteps** the most controversial issue.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. supports**  
-相反。
+**A. sidesteps ✓**  
+比喻性地表示沒有正面處理問題。
 
-**B. eschews ✓**  
-適合正式描述有意識地不採用某種做法。
+**B. examines**  
+表示檢視，方向相反。
 
-**C. creates**  
-相反。
+**C. emphasizes**  
+表示強調。
 
-**D. increases**  
-相反。
+**D. explains**  
+表示解釋。
 
-**E. repeats**  
-無關。
+**E. resolves**  
+表示解決。
 
-**F. welcomes**  
-相反。
+**F. introduces**  
+表示引入。
 
 ---
 
-## 練習 08.1
+## 練習 07.3
 
-**Target word: Bypass · 繞過**
-
-The new road allows traffic to avoid the town centre.
+Management avoided discussing who was responsible.
 
 **中文翻譯**
 
-新道路讓車流繞過市中心。
+管理層迴避討論誰應負責。
 
-A. bypass  
-B. enter  
-C. approach  
-D. stop at  
-E. inspect  
-F. support
+A. sidestepped  
+B. encouraged  
+C. completed  
+D. clarified  
+E. welcomed  
+F. resolved
 
 ### CORRECT ANSWER
 
-The new road allows traffic to **bypass** the town centre.
+Management **sidestepped** the question of who was responsible.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. bypass ✓**  
-bypass 最自然表示不經過某個地方而繞行。
+**A. sidestepped ✓**  
+正式地表示刻意不處理某個敏感問題。
 
-**B. enter**  
-相反。
-
-**C. approach**  
-不是繞過。
-
-**D. stop at**  
+**B. encouraged**  
 不合。
 
-**E. inspect**  
-無關。
+**C. completed**  
+不合。
 
-**F. support**  
-無關。
+**D. clarified**  
+表示澄清。
+
+**E. welcomed**  
+不合。
+
+**F. resolved**  
+表示解決。
+
+---
+
+# 08 Bypass
+
+## 練習 08.1
+
+The new road avoids the town centre.
+
+**中文翻譯**
+
+新道路繞過市中心。
+
+A. bypasses  
+B. enters  
+C. crosses through  
+D. stops in  
+E. approaches  
+F. connects only to
+
+### CORRECT ANSWER
+
+The new road **bypasses** the town centre.
+
+### SIX-OPTION FEEDBACK
+
+**A. bypasses ✓**  
+表示繞過某地而不經過。
+
+**B. enters**  
+表示進入。
+
+**C. crosses through**  
+表示穿過，方向相反。
+
+**D. stops in**  
+不合。
+
+**E. approaches**  
+只是接近。
+
+**F. connects only to**  
+不等於繞過。
 
 ---
 
 ## 練習 08.2
 
-**Target word: Bypass · 繞過；跳過程序**
-
-The software lets users avoid the normal approval process.
+The software avoids the normal approval process.
 
 **中文翻譯**
 
-這個軟件讓使用者繞過正常審批程序。
+這個軟件繞過正常審批程序。
 
-A. repeat  
-B. bypass  
-C. strengthen  
-D. follow  
-E. study  
-F. support
+A. bypasses  
+B. follows  
+C. completes  
+D. strengthens  
+E. documents  
+F. approves
 
 ### CORRECT ANSWER
 
-The software lets users **bypass** the normal approval process.
+The software **bypasses** the normal approval process.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. repeat**  
-不是跳過。
+**A. bypasses ✓**  
+表示不經正常程序。
 
-**B. bypass ✓**  
-可比喻性地表示繞過程序或制度。
+**B. follows**  
+表示遵循，意思相反。
 
-**C. strengthen**  
-無關。
+**C. completes**  
+表示完成。
 
-**D. follow**  
-相反。
+**D. strengthens**  
+不合。
 
-**E. study**  
-無關。
+**E. documents**  
+表示記錄。
 
-**F. support**  
-無關。
+**F. approves**  
+表示批准。
 
 ---
 
-## 練習 09.1
+## 練習 08.3
 
-**Target word: Sidestep · 迴避；不正面處理**
-
-The report avoided the most controversial issue.
+Users found a way to avoid the restriction.
 
 **中文翻譯**
 
-報告避而不談最具爭議的問題。
+使用者找到方法繞過這項限制。
 
-A. solved  
-B. sidestepped  
-C. highlighted  
-D. answered  
-E. examined  
-F. welcomed
+A. bypass  
+B. enforce  
+C. strengthen  
+D. obey  
+E. introduce  
+F. expand
 
 ### CORRECT ANSWER
 
-The report **sidestepped** the most controversial issue.
+Users found a way to **bypass** the restriction.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. solved**  
-不是解決。
+**A. bypass ✓**  
+表示繞過限制。
 
-**B. sidestepped ✓**  
-表示有意不正面處理某爭議或問題。
+**B. enforce**  
+表示執行限制。
 
-**C. highlighted**  
-相反。
+**C. strengthen**  
+表示加強限制。
 
-**D. answered**  
-相反。
+**D. obey**  
+表示遵守。
 
-**E. examined**  
-相反。
+**E. introduce**  
+表示引入。
 
-**F. welcomed**  
-無關。
+**F. expand**  
+不合。
+
+---
+
+# 09 Circumvent
+
+## 練習 09.1
+
+The company tried to avoid the legal restriction through a technical loophole.
+
+**中文翻譯**
+
+公司試圖透過技術漏洞規避法律限制。
+
+A. circumvent  
+B. enforce  
+C. obey  
+D. strengthen  
+E. publicize  
+F. simplify
+
+### CORRECT ANSWER
+
+The company tried to **circumvent** the legal restriction.
+
+### SIX-OPTION FEEDBACK
+
+**A. circumvent ✓**  
+正式地表示利用方法繞過規定。
+
+**B. enforce**  
+是執行規定。
+
+**C. obey**  
+是遵守規定。
+
+**D. strengthen**  
+是加強規定。
+
+**E. publicize**  
+是公開宣傳。
+
+**F. simplify**  
+是簡化。
 
 ---
 
 ## 練習 09.2
 
-**Target word: Sidestep · 迴避**
-
-The minister avoided taking responsibility for the failure.
+Some users attempted to avoid the system's security controls.
 
 **中文翻譯**
 
-部長迴避為失敗承擔責任。
+一些使用者試圖規避系統的安全控制。
 
-A. accepted  
-B. sidestepped  
-C. solved  
-D. welcomed  
-E. repeated  
-F. explained
+A. circumvent  
+B. activate  
+C. follow  
+D. strengthen  
+E. monitor  
+F. document
 
 ### CORRECT ANSWER
 
-The minister **sidestepped** responsibility for the failure.
+Some users attempted to **circumvent** the system's security controls.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. accepted**  
-相反。
+**A. circumvent ✓**  
+技術／制度限制語境自然。
 
-**B. sidestepped ✓**  
-常見於責任、爭議、棘手問題。
+**B. activate**  
+表示啟用。
 
-**C. solved**  
-無關。
+**C. follow**  
+表示遵守。
 
-**D. welcomed**  
-不合。
+**D. strengthen**  
+表示加強。
 
-**E. repeated**  
-無關。
+**E. monitor**  
+表示監察。
 
-**F. explained**  
-不是迴避。
+**F. document**  
+表示記錄。
 
 ---
 
-## 練習 10.1
+## 練習 09.3
 
-**Target word: Prevent · 防止**
-
-Regular maintenance helps avoid equipment failure.
+The rule was designed to stop companies from avoiding the reporting requirement.
 
 **中文翻譯**
 
-定期保養有助防止設備故障。
+這項規則旨在阻止公司規避申報要求。
 
-A. prevent  
-B. ignore  
-C. delay  
-D. approach  
-E. accept  
-F. repeat
+A. circumventing  
+B. following  
+C. meeting  
+D. documenting  
+E. explaining  
+F. announcing
 
 ### CORRECT ANSWER
 
-Regular maintenance helps **prevent** equipment failure.
+The rule was designed to stop companies from **circumventing** the reporting requirement.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
+
+**A. circumventing ✓**  
+正式地表示設法逃避制度要求。
+
+**B. following**  
+是遵守。
+
+**C. meeting**  
+是符合要求。
+
+**D. documenting**  
+是記錄。
+
+**E. explaining**  
+不合。
+
+**F. announcing**  
+不合。
+
+---
+
+# 10 Prevent
+
+## 練習 10.1
+
+Regular maintenance can help avoid serious equipment failures.
+
+**中文翻譯**
+
+定期維護可以幫助防止嚴重設備故障。
+
+A. prevent  
+B. delay  
+C. ignore  
+D. report  
+E. describe  
+F. accept
+
+### CORRECT ANSWER
+
+Regular maintenance can help **prevent** serious equipment failures.
+
+### SIX-OPTION FEEDBACK
 
 **A. prevent ✓**  
-表示令故障不發生。
+主動阻止壞結果發生。
 
-**B. ignore**  
-忽略故障風險不是防止。
+**B. delay**  
+只是延遲，故障仍可能發生。
 
-**C. delay**  
-只是延遲。
+**C. ignore**  
+是不理會。
 
-**D. approach**  
-無關。
+**D. report**  
+是報告故障。
 
-**E. accept**  
-無關。
+**E. describe**  
+是描述。
 
-**F. repeat**  
-無關。
+**F. accept**  
+是接受。
 
 ---
 
 ## 練習 10.2
 
-**Target word: Prevent · 防止**
-
-Vaccination can help avoid the spread of infection.
+Wearing a seat belt can help avoid serious injury.
 
 **中文翻譯**
 
-疫苗接種有助防止感染傳播。
+繫安全帶可以幫助防止嚴重受傷。
 
-A. encourage  
-B. prevent  
+A. prevent  
+B. postpone  
 C. ignore  
-D. repeat  
-E. accept  
-F. approach
+D. record  
+E. explain  
+F. accept
 
 ### CORRECT ANSWER
 
-Vaccination can help **prevent** the spread of infection.
+Wearing a seat belt can help **prevent** serious injury.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. encourage**  
-相反。
+**A. prevent ✓**  
+安全語境中非常自然。
 
-**B. prevent ✓**  
-重點是阻止傳播發生。
+**B. postpone**  
+不表示防止受傷。
 
 **C. ignore**  
-忽略不是防止。
+不合。
 
-**D. repeat**  
-無關。
+**D. record**  
+是記錄。
 
-**E. accept**  
-無關。
+**E. explain**  
+不合。
 
-**F. approach**  
-無關。
+**F. accept**  
+不合。
 
 ---
 
-## 練習 11.1
+## 練習 10.3
 
-**Target word: Avert · 避免；防止壞結果**
-
-Quick action helped avoid a serious accident.
+Careful planning can avoid unnecessary delays.
 
 **中文翻譯**
 
-迅速行動幫助避免了一場嚴重事故。
+仔細規劃可以防止不必要的延誤。
 
-A. avert  
-B. repeat  
-C. accept  
-D. approach  
-E. cause  
-F. ignore
+A. prevent  
+B. announce  
+C. describe  
+D. ignore  
+E. schedule  
+F. accept
 
 ### CORRECT ANSWER
 
-Quick action helped **avert** a serious accident.
+Careful planning can **prevent** unnecessary delays.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
+
+**A. prevent ✓**  
+表示使延誤不發生。
+
+**B. announce**  
+是公布。
+
+**C. describe**  
+是描述。
+
+**D. ignore**  
+不合。
+
+**E. schedule**  
+安排時間不等於防止。
+
+**F. accept**  
+不合。
+
+---
+
+# 11 Avert
+
+## 練習 11.1
+
+Quick action helped avoid a major accident.
+
+**中文翻譯**
+
+迅速行動幫助避免了一場重大事故。
+
+A. avert  
+B. announce  
+C. delay only  
+D. report  
+E. describe  
+F. accept
+
+### CORRECT ANSWER
+
+Quick action helped **avert** a major accident.
+
+### SIX-OPTION FEEDBACK
 
 **A. avert ✓**  
-常用於避免危機、災難、事故等重大壞結果。
+正式地表示防止重大壞事發生。
 
-**B. repeat**  
-無關。
+**B. announce**  
+不合。
 
-**C. accept**  
-無關。
+**C. delay only**  
+只是延遲。
 
-**D. approach**  
-無關。
+**D. report**  
+是報告事故。
 
-**E. cause**  
-相反。
+**E. describe**  
+不合。
 
-**F. ignore**  
-不是防止。
+**F. accept**  
+不合。
 
 ---
 
 ## 練習 11.2
 
-**Target word: Avert · 避免；化解**
-
-The agreement helped avoid a major political crisis.
+The agreement helped avoid a political crisis.
 
 **中文翻譯**
 
-這項協議幫助避免了一場重大政治危機。
+這項協議幫助避免了政治危機。
 
-A. cause  
-B. avert  
-C. repeat  
-D. accept  
-E. delay only  
-F. welcome
+A. avert  
+B. create  
+C. intensify  
+D. announce  
+E. document  
+F. accept
 
 ### CORRECT ANSWER
 
-The agreement helped **avert** a major political crisis.
+The agreement helped **avert** a political crisis.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. cause**  
-相反。
+**A. avert ✓**  
+`avert a crisis` 是固定自然搭配。
 
-**B. avert ✓**  
-`avert a crisis` 是非常自然的正式搭配。
+**B. create**  
+製造危機，方向相反。
 
-**C. repeat**  
-無關。
+**C. intensify**  
+加劇危機。
 
-**D. accept**  
-無關。
+**D. announce**  
+不合。
 
-**E. delay only**  
-avert 是阻止，不只是延遲。
+**E. document**  
+不合。
 
-**F. welcome**  
-相反。
+**F. accept**  
+不合。
 
 ---
 
-## 練習 12.1
+## 練習 11.3
 
-**Target expression: Refrain from · 克制不做**
+The emergency repair avoided a complete shutdown.
+
+**中文翻譯**
+
+緊急維修避免了系統完全停機。
+
+A. averted  
+B. caused  
+C. announced  
+D. described  
+E. accepted  
+F. scheduled
+
+### CORRECT ANSWER
+
+The emergency repair **averted** a complete shutdown.
+
+### SIX-OPTION FEEDBACK
+
+**A. averted ✓**  
+正式地表示防止嚴重結果發生。
+
+**B. caused**  
+方向相反。
+
+**C. announced**  
+不合。
+
+**D. described**  
+不合。
+
+**E. accepted**  
+不合。
+
+**F. scheduled**  
+不合。
+
+---
+
+# 12 Refrain from
+
+## 練習 12.1
 
 Please avoid using your phone during the performance.
 
 **中文翻譯**
 
-表演期間請勿使用手機。
+表演期間請避免使用手機。
 
 A. refrain from  
 B. continue  
-C. encourage  
-D. repeat  
-E. accept  
-F. practise
+C. begin  
+D. encourage  
+E. increase  
+F. demonstrate
 
 ### CORRECT ANSWER
 
 Please **refrain from** using your phone during the performance.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
 **A. refrain from ✓**  
-正式而禮貌地要求某人不要做某行為。
+正式地表示克制自己不做某行為。
 
 **B. continue**  
-相反。
+表示繼續。
 
-**C. encourage**  
-相反。
+**C. begin**  
+表示開始。
 
-**D. repeat**  
-無關。
+**D. encourage**  
+表示鼓勵。
 
-**E. accept**  
-無關。
+**E. increase**  
+不合。
 
-**F. practise**  
-無關。
+**F. demonstrate**  
+不合。
 
 ---
 
 ## 練習 12.2
 
-**Target expression: Refrain from · 克制不做**
-
-Passengers are asked to avoid opening the doors manually.
+Visitors should avoid touching the exhibits.
 
 **中文翻譯**
 
-乘客被要求不要手動開門。
+訪客應避免觸摸展品。
 
-A. repeat  
-B. refrain from  
+A. refrain from  
+B. continue  
 C. practise  
 D. encourage  
-E. continue  
-F. accept
+E. permit  
+F. begin
 
 ### CORRECT ANSWER
 
-Passengers are asked to **refrain from** opening the doors manually.
+Visitors should **refrain from** touching the exhibits.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. repeat**  
-不合。
+**A. refrain from ✓**  
+博物館規則語境正式自然。
 
-**B. refrain from ✓**  
-適合規則、告示、正式要求。
+**B. continue**  
+相反。
 
 **C. practise**  
 不合。
@@ -1417,415 +1867,482 @@ Passengers are asked to **refrain from** opening the doors manually.
 **D. encourage**  
 相反。
 
-**E. continue**  
-相反。
+**E. permit**  
+表示允許。
 
-**F. accept**  
-無關。
+**F. begin**  
+不合。
 
 ---
 
-## 練習 13.1
+## 練習 12.3
 
-**Target expression: Abstain from · 戒除；克制**
-
-Participants were told to avoid alcohol for twenty-four hours before the test.
+Staff were asked to avoid commenting publicly on the issue.
 
 **中文翻譯**
 
-參加者被要求在測試前二十四小時不要飲酒。
+員工被要求避免公開評論此事。
 
-A. abstain from  
-B. increase  
-C. repeat  
-D. encourage  
-E. accept  
-F. approach
+A. refrain from  
+B. continue  
+C. promote  
+D. publish  
+E. encourage  
+F. repeat
 
 ### CORRECT ANSWER
 
-Participants were told to **abstain from** alcohol for twenty-four hours before the test.
+Staff were asked to **refrain from** commenting publicly on the issue.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
+
+**A. refrain from ✓**  
+正式要求某人不要做某行為。
+
+**B. continue**  
+相反。
+
+**C. promote**  
+不合。
+
+**D. publish**  
+是發布。
+
+**E. encourage**  
+相反。
+
+**F. repeat**  
+不等於避免。
+
+---
+
+# 13 Abstain from
+
+## 練習 13.1
+
+Participants were asked to avoid alcohol before the medical test.
+
+**中文翻譯**
+
+參加者被要求在醫療測試前避免飲酒。
+
+A. abstain from  
+B. consume  
+C. purchase  
+D. recommend  
+E. serve  
+F. advertise
+
+### CORRECT ANSWER
+
+Participants were asked to **abstain from** alcohol before the medical test.
+
+### SIX-OPTION FEEDBACK
 
 **A. abstain from ✓**  
-常用於有意識地不吃、不喝或不參與某事。
+正式地表示刻意不飲酒。
 
-**B. increase**  
-相反。
+**B. consume**  
+表示飲用，意思相反。
 
-**C. repeat**  
-無關。
+**C. purchase**  
+只是購買。
 
-**D. encourage**  
-相反。
+**D. recommend**  
+表示推薦。
 
-**E. accept**  
-無關。
+**E. serve**  
+表示提供飲品。
 
-**F. approach**  
-無關。
+**F. advertise**  
+不合。
 
 ---
 
 ## 練習 13.2
 
-**Target expression: Abstain from · 不參與**
-
-Several members chose to avoid voting on the proposal.
+Some members chose to avoid voting on the proposal.
 
 **中文翻譯**
 
-幾名成員選擇不參與這項提案的投票。
+部分成員選擇不參與投票。
 
-A. approve  
-B. abstain from  
-C. repeat  
-D. encourage  
-E. support  
-F. attend
+A. abstain from  
+B. support  
+C. oppose  
+D. organize  
+E. count  
+F. announce
 
 ### CORRECT ANSWER
 
-Several members chose to **abstain from** voting on the proposal.
+Some members chose to **abstain from** voting on the proposal.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. approve**  
+**A. abstain from ✓**  
+`abstain from voting` 是固定正式搭配。
+
+**B. support**  
 表示支持。
 
-**B. abstain from ✓**  
-`abstain from voting` 是標準搭配。
+**C. oppose**  
+表示反對。
 
-**C. repeat**  
-無關。
+**D. organize**  
+不合。
 
-**D. encourage**  
-無關。
+**E. count**  
+表示點票。
 
-**E. support**  
-不一定；abstain 是不投票。
-
-**F. attend**  
-出席不等於投票。
+**F. announce**  
+表示宣布。
 
 ---
 
-## 練習 14.1
+## 練習 13.3
 
-**Target word: Escape · 逃過；避過**
-
-The town avoided the worst damage from the storm.
+The doctor advised her to avoid strenuous exercise for two weeks.
 
 **中文翻譯**
 
-這個城鎮避過了暴風雨最嚴重的破壞。
+醫生建議她兩星期內避免劇烈運動。
 
-A. caused  
-B. escaped  
-C. repeated  
-D. accepted  
-E. approached  
-F. created
+A. abstain from  
+B. increase  
+C. begin  
+D. recommend  
+E. practise more  
+F. intensify
 
 ### CORRECT ANSWER
 
-The town **escaped** the worst damage from the storm.
+The doctor advised her to **abstain from** strenuous exercise for two weeks.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. caused**  
+**A. abstain from ✓**  
+正式地表示暫時不進行某活動。
+
+**B. increase**  
 相反。
 
-**B. escaped ✓**  
-表示成功避過本來可能遭受的壞結果。
-
-**C. repeated**  
-無關。
-
-**D. accepted**  
+**C. begin**  
 不合。
 
-**E. approached**  
-無關。
+**D. recommend**  
+句法不合。
 
-**F. created**  
+**E. practise more**  
 相反。
+
+**F. intensify**  
+表示加強，方向相反。
+
+---
+
+# 14 Keep out of
+
+## 練習 14.1
+
+He tries to avoid office politics.
+
+**中文翻譯**
+
+他盡量避免捲入辦公室政治。
+
+A. keep out of  
+B. join  
+C. lead  
+D. encourage  
+E. create  
+F. discuss constantly
+
+### CORRECT ANSWER
+
+He tries to **keep out of** office politics.
+
+### SIX-OPTION FEEDBACK
+
+**A. keep out of ✓**  
+固定表達，表示不要捲入某事。
+
+**B. join**  
+表示加入，方向相反。
+
+**C. lead**  
+表示帶頭。
+
+**D. encourage**  
+表示鼓勵。
+
+**E. create**  
+表示製造。
+
+**F. discuss constantly**  
+表示持續討論，不是避免。
 
 ---
 
 ## 練習 14.2
 
-**Target word: Escape · 逃過；倖免於**
-
-He avoided serious injury in the crash.
+She advised me to avoid the argument.
 
 **中文翻譯**
 
-他在事故中幸運地沒有受到重傷。
+她建議我不要捲入這場爭論。
 
-A. escaped  
-B. caused  
-C. repeated  
-D. accepted  
-E. welcomed  
-F. increased
+A. keep out of  
+B. enter  
+C. prolong  
+D. intensify  
+E. lead  
+F. restart
 
 ### CORRECT ANSWER
 
-He **escaped** serious injury in the crash.
+She advised me to **keep out of** the argument.
 
-### FEEDBACK
+### SIX-OPTION FEEDBACK
 
-**A. escaped ✓**  
-表示危險已非常接近，但最終倖免於嚴重傷害。
+**A. keep out of ✓**  
+表示不要捲入爭論。
 
-**B. caused**  
+**B. enter**  
+表示加入爭論。
+
+**C. prolong**  
+延長爭論。
+
+**D. intensify**  
+加劇爭論。
+
+**E. lead**  
+帶頭參與。
+
+**F. restart**  
+重新開始。
+
+---
+
+## 練習 14.3
+
+The warning tells visitors to avoid restricted areas.
+
+**中文翻譯**
+
+警告提醒訪客不要進入限制區域。
+
+A. keep out of  
+B. enter  
+C. inspect  
+D. approach  
+E. remain in  
+F. cross into
+
+### CORRECT ANSWER
+
+The warning tells visitors to **keep out of** restricted areas.
+
+### SIX-OPTION FEEDBACK
+
+**A. keep out of ✓**  
+表示不要進入某區域。
+
+**B. enter**  
 相反。
 
-**C. repeated**  
-無關。
+**C. inspect**  
+不等於避開。
 
-**D. accepted**  
-不合。
+**D. approach**  
+表示接近。
 
-**E. welcomed**  
-不合。
+**E. remain in**  
+表示留在其中。
 
-**F. increased**  
-無關。
+**F. cross into**  
+表示進入。
 
 ---
 
 # 04 核心對比速查
 
-| Word / phrase | 核心概念 | 最適合回答的問題 |
+| Expression | 核心意思 | 最適合的語境 |
 |---|---|---|
-| evade | 逃避追查／責任／問題 | 是否在故意躲避某人或要求？ |
-| dodge | 快速閃避／口語迴避 | 是否身體閃開或口語上避答？ |
-| steer clear of | 主動避開 | 是否想遠離某地方、人物或風險？ |
-| stay away from | 保持距離 | 是否要明確不要接近？ |
-| keep away from | 不要靠近 | 是否是安全警告？ |
-| shun | 刻意排斥 | 是否長期、有意識地拒絕接觸？ |
-| eschew | 正式地不用／不採取 | 是否刻意不採用某種做法？ |
-| bypass | 繞過 | 是否不經過某地或程序？ |
-| sidestep | 迴避處理 | 是否避而不談問題或責任？ |
-| prevent | 阻止發生 | 是否要讓壞事不要發生？ |
-| avert | 防止重大壞結果 | 是否在避免危機、災難或事故？ |
-| refrain from | 克制不做 | 是否禮貌／正式要求不要做？ |
-| abstain from | 有意識地不參與／戒除 | 是否涉及飲酒、投票、行為限制？ |
-| escape | 成功避過 | 是否已經倖免於某個壞結果？ |
+| steer clear of | 刻意避開／遠離 | people, trouble, risky situations |
+| keep away from | 保持距離 | danger, machinery, people |
+| stay away from | 一段時間不接觸 | places, people, habits |
+| shun | 有意疏遠／拒絕接觸 | people, attention, products |
+| evade | 逃避／躲避 | taxes, capture, questions |
+| dodge | 閃避／口語迴避 | questions, responsibility, objects |
+| sidestep | 迴避敏感問題 | issues, questions, controversy |
+| bypass | 繞過 | routes, procedures, restrictions |
+| circumvent | 正式規避 | rules, controls, restrictions |
+| prevent | 防止發生 | injury, delays, failures |
+| avert | 防止重大壞結果 | crisis, disaster, accident |
+| refrain from | 克制不做 | actions, comments, behaviour |
+| abstain from | 正式不參與／戒除 | alcohol, voting, activity |
+| keep out of | 不進入／不捲入 | trouble, arguments, restricted areas |
 
 ---
 
 # 05 高階辨析補充
 
-## Avoid vs Evade
+## Avoid vs Steer clear of
 
-- **avoid**：一般「避免」。
-- **evade**：帶有刻意逃避追查、責任、問題的意味。
+- **avoid**：最中性。
+- **steer clear of**：更口語、更有「遠離風險」的感覺。
 
-> avoid a difficult situation  
-> evade responsibility
+> avoid trouble  
+> steer clear of trouble
 
 ---
 
-## Avoid vs Dodge
+## Keep away from vs Stay away from
 
-- **avoid**：中性。
-- **dodge**：較口語，常有快速閃避或巧妙避答的感覺。
-
-> avoid the question  
-> dodge the question
-
-兩者都可以，但 `dodge` 更有「故意滑開」的語感。
+- **keep away from**：強調保持距離。
+- **stay away from**：強調一段時間內不要接近／接觸。
 
 ---
 
 ## Avoid vs Shun
 
-- **avoid**：可能只是暫時或實際需要。
-- **shun**：較強，常是長期、刻意排斥。
+- **avoid**：一般避開。
+- **shun**：刻意拒絕接觸，常帶社會／價值判斷。
 
-> She avoided him at the party.  
-> She shunned him for years.
+> avoid publicity  
+> shun publicity
 
----
-
-## Avoid vs Eschew
-
-- **avoid**：日常、中性。
-- **eschew**：正式，尤其表示刻意不採用某種風格或做法。
-
-> avoid unnecessary detail  
-> eschew unnecessary detail
+後者更強。
 
 ---
 
-## Avoid vs Bypass
+## Evade vs Dodge
 
-- **avoid**：不接觸。
-- **bypass**：繞過某地、程序或系統。
+- **evade**：較正式，常見於法律、責任、追捕。
+- **dodge**：較口語，也可指身體上的閃避。
 
-> avoid the city centre  
-> bypass the city centre
-
-`bypass` 更像「走另一條路」。
+> evade taxes  
+> dodge a question
 
 ---
 
-## Avoid vs Sidestep
+## Dodge vs Sidestep
 
-- **avoid**：可以避開任何事物。
-- **sidestep**：特別常見於問題、爭議、責任。
+- **dodge**：口語、快速迴避。
+- **sidestep**：較正式，常用於問題、爭議、政治。
 
-> avoid the issue  
-> sidestep the issue
+---
+
+## Bypass vs Circumvent
+
+- **bypass**：繞過程序／地點，較中性。
+- **circumvent**：較正式，常暗示有意設法規避規則或限制。
 
 ---
 
 ## Avoid vs Prevent
 
-這是最重要的對比之一：
+- **avoid**：避免遇上／發生。
+- **prevent**：主動阻止發生。
 
-- **avoid**：避開問題／風險／結果。
-- **prevent**：阻止問題／結果發生。
+> avoid an accident  
+> prevent an accident
 
-> Careful driving helps you avoid accidents.  
-> Safety systems help prevent accidents.
+兩句可接近，但 viewpoint 不同。
 
 ---
 
 ## Prevent vs Avert
 
-- **prevent**：一般性防止。
-- **avert**：較正式，常用於重大負面結果。
+- **prevent**：一般防止。
+- **avert**：更正式，常用於重大壞結果。
 
-> prevent infection  
+> prevent injury  
 > avert disaster
 
 ---
 
 ## Refrain from vs Abstain from
 
-- **refrain from**：克制自己不要做某一行為。
-- **abstain from**：更正式／更強，常涉及飲食、酒精、投票、性行為等。
-
-> refrain from speaking  
-> abstain from alcohol
+- **refrain from**：正式地克制不做。
+- **abstain from**：更強，常用於飲酒、投票、某類活動。
 
 ---
 
-## Avoid vs Escape
+## Avoid vs Keep out of
 
-- **avoid**：通常事前不讓自己遇上。
-- **escape**：危險已經很接近，但最後倖免。
-
-> He avoided the accident by taking another road.  
-> He escaped injury in the accident.
+- **avoid trouble**：一般避免麻煩。
+- **keep out of trouble**：固定口語表達「別惹上麻煩」。
 
 ---
 
-# 06 Avoid 的常見句型
+# 06 詞性與常見結構
 
-## avoid + noun
-
-> avoid traffic  
-> avoid conflict  
-> avoid danger  
-> avoid unnecessary risk
-
----
-
-## avoid + -ing
-
-`avoid` 後面通常接 **gerund (-ing)**，不是 `to + infinitive`。
-
-> avoid making mistakes  
-> avoid using jargon  
-> avoid driving at night
-
-✅ **avoid doing**  
-❌ **avoid to do**
-
----
-
-## avoid + person/place
-
-> avoid him  
-> avoid crowded places  
-> avoid the city centre
-
----
-
-## avoid + result/problem
-
-> avoid injury  
-> avoid delays  
-> avoid confusion  
-> avoid unnecessary costs
-
----
-
-# 07 語域與搭配
-
-| Expression | Register | Common collocations |
+| Form | Part of speech | Example |
 |---|---|---|
-| avoid | neutral | avoid risk, avoid doing |
-| evade | neutral/formal | evade responsibility, evade capture |
-| dodge | informal | dodge a question, dodge traffic |
-| steer clear of | conversational | steer clear of trouble |
-| stay away from | neutral | stay away from danger |
-| keep away from | neutral | keep away from the edge |
-| shun | formal/strong | shun publicity, shun contact |
-| eschew | formal | eschew complexity, eschew convention |
-| bypass | neutral/technical | bypass traffic, bypass a system |
-| sidestep | neutral/formal | sidestep an issue |
-| prevent | neutral | prevent damage, prevent infection |
-| avert | formal | avert disaster, avert a crisis |
-| refrain from | formal/polite | refrain from smoking |
-| abstain from | formal | abstain from alcohol, abstain from voting |
-| escape | neutral | escape injury, escape punishment |
+| avoid | verb | avoid trouble |
+| avoidance | noun | avoidance of conflict |
+| avoidable | adjective | an avoidable mistake |
+| evade | verb | evade responsibility |
+| evasion | noun | tax evasion |
+| dodge | verb/noun | dodge a question |
+| bypass | verb/noun | bypass the system |
+| prevent | verb | prevent accidents |
+| prevention | noun | accident prevention |
+| refrain | verb | refrain from commenting |
+| abstain | verb | abstain from voting |
+| abstention | noun | an abstention in a vote |
 
 ---
 
-# 08 Avoid 的主要語義分支
+# 07 常見搭配與固定表達
 
-| Sense | Meaning | Example | Better alternatives |
-|---|---|---|---|
-| stay away | 避開人／地方 | avoid crowded places | steer clear of, stay away from |
-| evade | 逃避責任／問題 | avoid responsibility | evade, sidestep |
-| prevent outcome | 避免壞結果 | avoid an accident | prevent, avert |
-| refrain | 避免做某行為 | avoid speaking | refrain from, abstain from |
-| bypass | 繞過 | avoid the city centre | bypass |
-| escape result | 倖免於結果 | avoid serious injury | escape |
+| Expression | Example |
+|---|---|
+| avoid trouble | avoid unnecessary trouble |
+| avoid doing | avoid making the same mistake |
+| steer clear of | steer clear of risky investments |
+| keep away from | keep away from the machinery |
+| stay away from | stay away from crowded places |
+| shun attention | shun public attention |
+| evade taxes | evade taxes |
+| evade capture | evade capture |
+| dodge a question | dodge a difficult question |
+| dodge responsibility | dodge responsibility |
+| sidestep an issue | sidestep a controversial issue |
+| bypass a process | bypass the normal process |
+| circumvent a rule | circumvent a restriction |
+| prevent injury | prevent serious injury |
+| avert disaster | avert a disaster |
+| refrain from | refrain from commenting |
+| abstain from | abstain from alcohol |
+| keep out of trouble | keep out of trouble |
 
 ---
 
-# 09 教學核心
+# 08 教學核心
 
-**Avoid 並不是單純等於「不要」。**
+**Avoid 並不是單純等於「不要做」。**
 
-真正要先問：
+真正自然的替代表達取決於你在避開甚麼：
 
-- 是在逃避追查／責任嗎？→ **evade**
-- 是快速閃避或口語迴避嗎？→ **dodge**
-- 是主動遠離某地方或風險嗎？→ **steer clear of**
-- 是保持物理距離嗎？→ **stay away from / keep away from**
-- 是刻意排斥某人／某事嗎？→ **shun**
-- 是正式地不採用某種做法嗎？→ **eschew**
-- 是繞過某地或程序嗎？→ **bypass**
-- 是迴避問題或責任嗎？→ **sidestep**
-- 是要阻止壞事發生嗎？→ **prevent**
-- 是要避免重大危機或災難嗎？→ **avert**
-- 是克制自己不要做嗎？→ **refrain from**
-- 是戒除／不參與嗎？→ **abstain from**
-- 是最後成功倖免於壞結果嗎？→ **escape**
+- 一般遠離風險 → **steer clear of**
+- 保持距離 → **keep away from**
+- 一段時間內不接觸 → **stay away from**
+- 有意疏遠／排斥 → **shun**
+- 逃避責任、問題、追捕 → **evade**
+- 口語迴避／閃避 → **dodge**
+- 正式迴避敏感議題 → **sidestep**
+- 繞過程序／道路 → **bypass**
+- 正式規避限制 → **circumvent**
+- 防止壞事發生 → **prevent**
+- 防止重大危機／災難 → **avert**
+- 克制自己不做 → **refrain from**
+- 正式不參與／戒除 → **abstain from**
+- 不進入／不捲入 → **keep out of**
 
-學生真正要學到的不是：
+最重要的界線是：
 
-> avoid = evade = dodge = prevent
-
-而是：
-
-> **英文會根據「你是在躲什麼、為什麼躲，以及是事前預防還是事後倖免」選擇不同表達。**
+> **avoid 強調「不遇上／不做」；prevent / avert 強調「不讓事情發生」；evade / dodge / sidestep 則更偏「逃避或迴避」。**

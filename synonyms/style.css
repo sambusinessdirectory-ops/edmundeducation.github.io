@@ -124,6 +124,16 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-home h3,.syn-guide h3,.syn-false h3 { margin:0 0 8px; font-family:Georgia,"Noto Serif TC Local",serif; font-size:clamp(26px,3.4vw,38px); }
 .syn-home>p:not(.syn-kicker),.syn-guide>p:not(.syn-kicker),.syn-false>p:not(.syn-kicker) { color:#5d7a7a; line-height:1.65; }
 .syn-module-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:26px; }
+.syn-search-label { display:block; max-width:480px; margin-top:36px; font-weight:850; }
+.syn-search-label input { display:block; width:100%; margin-top:9px; padding:14px 16px; border:1px solid #92bfb8; border-radius:12px; background:#fff; color:#183d40; font:inherit; }
+.syn-more-modules { display:block; margin:26px auto 38px; }
+.syn-more-modules[hidden] { display:none; }
+.syn-self-check { margin-top:42px; padding:24px; border:1px solid #b8d9d2; border-radius:20px; background:#f5fbf8; }
+.syn-self-check h4 { margin:0 0 8px; font-size:25px; }
+.syn-self-check details { margin-top:12px; padding:14px 18px; border:1px solid #c6ded8; border-radius:12px; background:#fff; }
+.syn-self-check summary { cursor:pointer; font-weight:750; line-height:1.6; }
+.syn-self-check summary span { color:#0c7776; margin-right:10px; }
+.syn-self-check details p { margin:12px 0 6px; }
 .syn-module-card { position:relative; display:flex; align-items:flex-start; flex-direction:column; gap:13px; min-height:248px; padding:26px; overflow:hidden; border:1px solid #8acbc2; border-radius:25px; color:#f8fffb; background:linear-gradient(125deg,#0e6668,#1b8a82 62%,#2d9ca0); text-align:left; box-shadow:0 8px 0 #c2e3da,0 18px 35px #1f80702a; transition:transform .23s ease,box-shadow .23s ease; }
 .syn-module-card::after { content:""; position:absolute; top:-12px; right:13px; width:175px; height:175px; background:url('/synonyms/icons/spark.svg') center/contain no-repeat; opacity:.16; transform:rotate(-12deg); pointer-events:none; }
 .syn-module-card:hover { transform:translateY(-5px); box-shadow:0 13px 0 #c2e3da,0 23px 40px #1f807038; }
