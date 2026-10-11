@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "itemId": "classic-blue-jeans",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "pending",
+  "humanVisualAcceptance": false,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "charcoal and blue denim washes, waistband, fly, belt loops, pockets, seams and cuffs preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "white T-shirt plus jeans and Oxford top plus jeans plus botanical cap and shearling boots compatibility",
+    "garment overlay is confined to the lower-body band with zero generated upper-body, mane, tail or hoof pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/classic-blue-jeans.webp": "e0eb344e041ea2688f0c387606211b9b6b240561be8465e453b2bd9f0a8ab0d2",
+    "assets/speaking-system/cosmetics/noir/classic-blue-jeans.webp": "eaab05873abf1deb3c80360834e274e180d47060cdb9181080dbeb8e55c4027a",
+    "assets/speaking-system/cosmetics/shared/classic-blue-jeans-display.png": "8e2ae2f8c73fcdb9996d8744c237ef3506f3dea7d5206c41f89fecb118d326d9"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-classic-blue-jeans-3d-dark-open.jpg": "fd7f7f9bb5cad24318ead98bc80430ac1e25006c5ac9313d0ea32d00ad664719",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-classic-blue-jeans-3d-blink.jpg": "c702e631a30aff26e413140647ce0255a8d86f9995dd41ab888b175dc4e5cee5",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-classic-blue-jeans-3d-light-open.jpg": "ce434811e4e9a7b1bacfc4e9bd98929165783d27b671bed9fbd2c4c6bef742a5",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-classic-blue-jeans-top-3d-open.jpg": "a435193d86fcd3537a61bf329141a8b6015c18fc3d5003fde4f6a04a2f16f105",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-classic-blue-jeans-combination-3d-open.jpg": "2a712775fa5dd705469d397d413777d345f16882886c99d317712cfc226900e3",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-classic-blue-jeans-combination-3d-blink.jpg": "f01008d56e6dcbbece07f42c539717e2becaaa5c98553dfb19bfbb4a610013aa",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-3d-dark-open.jpg": "a92201bca4f24e8652df0a1c007e0954b6c9f6a64e9a3e3c0c91fd3a82afc746",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-3d-blink.jpg": "d2c1022de61e3000f09a3cb009d0d153fb602dedebb82fa9295b7b726b8f6dbc",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-3d-light-open.jpg": "8113a78fabb54f8788c964a8314db42c8dc0609619b523a5adbc9234ac00fed0",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-top-3d-open.jpg": "3f061c35c94ac02835940d7624447ee102990672d403a8abb7c9c15f14cc75b9",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-combination-3d-open.jpg": "42be0903fa5ddbfeefe330d9a854deee3a10447093104a3025dd6bdddc8f64cc",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-combination-3d-blink.jpg": "c0815ce5f9fa7681dc383156c937331f238a837a41dcbfe4f8f23a2167919dfa",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-approval-v1.jpg": "b27ec233bb3d1515d223da850fe345303156010e4906aa27ffe57c2020965795",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-detail-v1.jpg": "fc89153b02ca27439bb3d1eaba04fbd3db98e44e06c5c40d20da974bee0f1534"
+  }
+}

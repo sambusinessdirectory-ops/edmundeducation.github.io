@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "itemId": "charcoal-wash-jeans",
+  "catalogGroup": "boys",
+  "revision": "v1",
+  "status": "pending",
+  "humanVisualAcceptance": false,
+  "characters": [
+    "eddy",
+    "noir"
+  ],
+  "reviewRequirements": [
+    "all 16 directions for Eddy and Noir in the actual 3D renderer",
+    "open-eye and blink states",
+    "dark, midtone and light renderer backgrounds",
+    "independent Eddy and Noir fits with the correct front, side and rear garment construction",
+    "charcoal and blue denim washes, waistband, fly, belt loops, pockets, seams and cuffs preserve the reference design where visible",
+    "mane, tail, arms, hoof-hands, legs and identity preserve correct occlusion",
+    "white T-shirt plus jeans and Oxford top plus jeans plus botanical cap and shearling boots compatibility",
+    "garment overlay is confined to the lower-body band with zero generated upper-body, mane, tail or hoof pixels",
+    "no clipping, halos, holes, stretched shared overlay, colour contamination or stray extraction pixels"
+  ],
+  "assets": {
+    "assets/speaking-system/cosmetics/eddy/charcoal-wash-jeans.webp": "49107f4d2c2d3ecd0362991b145cf3389a0f55c09a147f34cf139806b5b4460d",
+    "assets/speaking-system/cosmetics/noir/charcoal-wash-jeans.webp": "adc190e9843815210f61300dc22a4bc6607114b189d44620aa90d7a8817b83e0",
+    "assets/speaking-system/cosmetics/shared/charcoal-wash-jeans-display.png": "374b8da8821ee33b05d4ab075688e139ea51b1c6054e6789ee9a576dbe40f450"
+  },
+  "evidence": {
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-charcoal-wash-jeans-3d-dark-open.jpg": "1a5c83782278ba45343e7203329bc9db6815a841d7b89318cb8607b210e8ebf7",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-charcoal-wash-jeans-3d-blink.jpg": "99f8909ccc4bd42a080630eb14ca62a31e4d63a26b2e1b66d2a8fabee36fcd52",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-charcoal-wash-jeans-3d-light-open.jpg": "c68b6ff5f5b92ee966228b88cfe4a552726dc1b42b93eda6be167cf475aaf610",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-charcoal-wash-jeans-top-3d-open.jpg": "12e6cee6e0d1fe8f21750963f0e7fd0a0f1162068621a5beb4c014485c255d6b",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-charcoal-wash-jeans-combination-3d-open.jpg": "8d8d4d2f1cce5d4d310f7ed49f7c1908dd1e93d1aa2290ac027f3722a7792580",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-eddy-charcoal-wash-jeans-combination-3d-blink.jpg": "ee307be3abbaee2ceea518a83382ff601a19a2b3076c7060b79c1d490a6269d9",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-charcoal-wash-jeans-3d-dark-open.jpg": "46562cf1c8916e1e9a1a65dacac6ada8e856946ade6e088e8ae64e46fc0c8482",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-charcoal-wash-jeans-3d-blink.jpg": "39871fd7969b30ba350ffdd8123b5435cfd9bca56b1ae7a88d01bf1973a26688",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-charcoal-wash-jeans-3d-light-open.jpg": "8e1ecf7c3b97265821fb96ddf832b7b2bc2658d02244bdf4ea91bed844560a82",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-charcoal-wash-jeans-top-3d-open.jpg": "3fa0e602ec56182807a5c6fca6a18a167febee452c84b51a950d6e618fba528d",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-charcoal-wash-jeans-combination-3d-open.jpg": "602e8ff98570359ef99a63479448bbf00fbc6ca4566751e4db3ef33e062b41c9",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-charcoal-wash-jeans-combination-3d-blink.jpg": "1548d60070d6377e097960b5b481d6ad58a60e595a86dc8a93e6683c5139187e",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-approval-v1.jpg": "b27ec233bb3d1515d223da850fe345303156010e4906aa27ffe57c2020965795",
+    "tools/mascot-art/wardrobe/boys-jeans-duo/qa-detail-v1.jpg": "fc89153b02ca27439bb3d1eaba04fbd3db98e44e06c5c40d20da974bee0f1534"
+  }
+}

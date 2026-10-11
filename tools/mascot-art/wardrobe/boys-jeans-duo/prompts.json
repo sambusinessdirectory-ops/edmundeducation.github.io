@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "useCase": "identity-preserve",
+  "sourceImages": ["canonical 4x4 character standing atlas", "design-reference.png"],
+  "sharedPrompt": "Edit the exact 1024x1024 transparent canonical atlas, retaining all 16 directional cells, cell order, pose, body proportions, identity, eyes, ears, face, mane, arms, hooves, tail, background transparency and registration. Dress only the lower torso and both short legs in the selected screenshot jeans, with a fitted waistband, fly, belt loops, pockets, seams, denim texture and natural shading. Cover legs to just above the dark hooves; leave hooves visible and tail outside the jeans. No shirt, jacket, hat, boots, text or watermark.",
+  "variants": [
+    {"character":"eddy","design":"left charcoal-black washed denim jeans","fit":"eddy-charcoal-wash-jeans-fit.png"},
+    {"character":"noir","design":"left charcoal-black washed denim jeans","fit":"noir-charcoal-wash-jeans-fit.png"},
+    {"character":"eddy","design":"right medium classic blue washed denim jeans","fit":"eddy-classic-blue-jeans-fit.png"},
+    {"character":"noir","design":"right medium classic blue washed denim jeans","fit":"noir-classic-blue-jeans-fit.png"}
+  ]
+}

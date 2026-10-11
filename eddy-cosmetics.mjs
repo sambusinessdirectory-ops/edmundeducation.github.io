@@ -22,6 +22,8 @@ export const COSMETICS=Object.freeze([
  {id:'white-navy-oxford',slot:'top',group:'boys',price:30,name:'White Oxford shirt with navy trim',description:'白色長袖牛津襯衫 · 海軍藍袖口與內襟',display:'shared/white-navy-oxford-display.png'},
  {id:'navy-cream-rugby',slot:'top',group:'boys',price:30,name:'Navy and cream striped rugby shirt',description:'海軍藍與奶油白橫條長袖欖球衫',display:'shared/navy-cream-rugby-display.png'},
  {id:'forest-burgundy-rugby',slot:'top',group:'boys',price:30,name:'Forest rugby shirt with burgundy stripes',description:'森林綠長袖欖球衫 · 海軍藍與酒紅橫條',display:'shared/forest-burgundy-rugby-display.png'},
+ {id:'charcoal-wash-jeans',slot:'lower',group:'boys',price:30,name:'Charcoal washed jeans',description:'炭黑色水洗牛仔褲 · 直筒長褲',display:'shared/charcoal-wash-jeans-display.png'},
+ {id:'classic-blue-jeans',slot:'lower',group:'boys',price:30,name:'Classic blue washed jeans',description:'經典藍色水洗牛仔褲 · 直筒長褲',display:'shared/classic-blue-jeans-display.png'},
  {id:'crimson-gilded-court-coat',slot:'fullBody',coverage:['top','lower'],group:'boys',price:45,name:'Crimson gilded court coat',description:'深紅絲絨金線宮廷長外套 · 全身服裝',display:'shared/crimson-gilded-court-coat-display.png'},
  {id:'shadow-thorn-robe',slot:'fullBody',coverage:['top','lower'],group:'boys',price:45,name:'Shadow thorn robe',description:'黑色銀刺繡長袍 · 酒紅腰帶 · 全身服裝',display:'shared/shadow-thorn-robe-display.png'},
  {id:'ivory-wayfarer-robe',slot:'fullBody',coverage:['top','lower'],group:'boys',price:45,name:'Ivory wayfarer robe',description:'象牙白金線連帽長袍 · 繩結腰帶 · 全身服裝',display:'shared/ivory-wayfarer-robe-display.png'},
@@ -80,7 +82,7 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261011-oxford-rugby1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20261011-jeans1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),includedWardrobe=cleanWardrobe(),equipped={},ownedCosmetics=new Set(INCLUDED_COSMETICS),revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const correctedAtlases=new WeakMap();
@@ -250,7 +252,7 @@ export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=n
  const mask=document.createElement('canvas');mask.width=canvas.width;mask.height=canvas.height;
  const maskContext=mask.getContext('2d');
  // Tailored overlays already follow the neck, cuffs and tail cutouts.
- for(const item of [rendered.top,rendered.lower,rendered.fullBody,rendered.feet].filter(Boolean)){
+ for(const item of [rendered.lower,rendered.top,rendered.fullBody,rendered.feet].filter(Boolean)){
   const layer=load(item,id);ctx.drawImage(layer,0,0,canvas.width,canvas.height);maskContext.drawImage(layer,0,0,canvas.width,canvas.height);
  }
  if(rendered.headwear){const layer=load(rendered.headwear,id);ctx.globalCompositeOperation='destination-out';ctx.drawImage(load(headwearHide,id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(layer,0,0,canvas.width,canvas.height);maskContext.drawImage(layer,0,0,canvas.width,canvas.height);}

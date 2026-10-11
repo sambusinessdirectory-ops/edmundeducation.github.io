@@ -440,3 +440,53 @@ test('Oxford and rugby migration preserves the current allowlists',async()=>{
  }
  for(const id of ['crimson-gilded-court-coat','shadow-thorn-robe','ivory-wayfarer-robe','navy-fish-bucket-hat','ivory-racecar-baseball-cap'])assert.ok(sql.includes("'"+id+"'"));
 });
+
+test('both jeans use the lower slot independently for Eddy and Noir and exclude full-body outfits',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const ids=['charcoal-wash-jeans','classic-blue-jeans'];
+ for(const id of ids){
+  const item=COSMETICS.find(x=>x.id===id);assert.equal(item?.slot,'lower');assert.equal(item?.group,'boys');
+  const hashes=[];
+  for(const character of ['eddy','noir']){
+   const bytes=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+id+'.webp',import.meta.url));
+   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.equal(bytes.toString('ascii',12,16),'VP8L');
+   const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+   assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16);hashes.push(createHash('sha256').update(bytes).digest('hex'));
+   const dressed=applyCosmeticSelection({[character+'Top']:'white-navy-oxford',[character+'Feet']:'brown-shearling-lace-boots',[character+'FullBody']:'crimson-gilded-court-coat'},item,character);
+   assert.deepEqual(dressed,{[character+'Top']:'white-navy-oxford',[character+'Feet']:'brown-shearling-lace-boots',[character+'Lower']:id});
+   assert.deepEqual(cleanEquipment(dressed),dressed);
+   const coat=COSMETICS.find(x=>x.id==='crimson-gilded-court-coat');
+   assert.equal(applyCosmeticSelection(dressed,coat,character)[character+'Lower'],undefined);
+  }
+  assert.notEqual(hashes[0],hashes[1]);
+  for(const character of ['celeste','phoebe','elsie'])assert.equal(COSMETICS.filter(x=>x.id===id&&x.group==='girls').length,0);
+ }
+});
+
+test('first boys lower-slot migration allows jeans, saves the slot and preserves older equipment',async()=>{
+ const {readFileSync}=await import('node:fs');
+ const sql=readFileSync(new URL('../supabase/migrations/20261011040000_boys_jeans_duo.sql',import.meta.url),'utf8');
+ for(const id of ['charcoal-wash-jeans','classic-blue-jeans']){
+  assert.match(sql,new RegExp("\\('"+id+"'.*,30,true\\)"));
+  for(const character of ['eddy','noir'])assert.match(sql,new RegExp("value->>'"+character+"Lower'.*'"+id+"'"));
+  for(const character of ['celeste','phoebe','elsie'])assert.doesNotMatch(sql,new RegExp("value->>'"+character+"Lower'.*'"+id+"'"));
+ }
+ assert.match(sql,/p_character\|\|'Top',p_character\|\|'Lower',p_character\|\|'FullBody'/);
+ assert.match(sql,/not\(value\?'eddyFullBody' and \(value\?'eddyTop' or value\?'eddyLower'/);
+ assert.match(sql,/not\(value\?'noirFullBody' and \(value\?'noirTop' or value\?'noirLower'/);
+ for(const id of ['white-navy-oxford','forest-burgundy-rugby','crimson-gilded-court-coat','navy-fish-bucket-hat'])assert.ok(sql.includes("'"+id+"'"));
+});
+
+test('a saved Eddy look sends jeans and a top together to the account wardrobe',async()=>{
+ let sent;
+ rpcHandler=async(method,args)=>{
+  if(method==='character_closet_sync'){sent=args;return {data:{equipped:args.p_equipped,outfits:[]}};}
+  if(method==='eddie_farm_owned_cosmetics')return {data:ownedIds};
+  return {data:{equipped:{},outfits:[]}};
+ };
+ clearCosmetics('eddy');equipCosmetic('classic-blue-jeans','eddy');equipCosmetic('white-navy-oxford','eddy');
+ await saveAvatar(undefined,'eddy');
+ assert.equal(sent.p_character,'eddy');
+ assert.deepEqual(sent.p_equipped,{eddyTop:'white-navy-oxford',eddyLower:'classic-blue-jeans'});
+ assert.equal(cosmeticsState().savedEquipment.eddyLower,'classic-blue-jeans');
+});
