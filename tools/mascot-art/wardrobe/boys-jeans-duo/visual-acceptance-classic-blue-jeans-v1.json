@@ -3,8 +3,8 @@
   "itemId": "classic-blue-jeans",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
   "characters": [
     "eddy",
     "noir"
@@ -40,5 +40,7 @@
     "tools/mascot-art/wardrobe/boys-jeans-duo/qa-noir-classic-blue-jeans-combination-3d-blink.jpg": "c0815ce5f9fa7681dc383156c937331f238a837a41dcbfe4f8f23a2167919dfa",
     "tools/mascot-art/wardrobe/boys-jeans-duo/qa-approval-v1.jpg": "b27ec233bb3d1515d223da850fe345303156010e4906aa27ffe57c2020965795",
     "tools/mascot-art/wardrobe/boys-jeans-duo/qa-detail-v1.jpg": "fc89153b02ca27439bb3d1eaba04fbd3db98e44e06c5c40d20da974bee0f1534"
-  }
+  },
+  "approvedBy": "User - explicit approval in Codex chat at 2026-10-11T03:06:49Z",
+  "approvedAt": "2026-10-11T03:06:49Z"
 }
