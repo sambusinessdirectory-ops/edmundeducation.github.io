@@ -3,8 +3,8 @@
   "itemId": "white-navy-oxford",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
   "characters": [
     "eddy",
     "noir"
@@ -37,5 +37,7 @@
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-combination-3d-open.jpg": "dfece7d511ae96e83958604725b7f67374e42bad23508c654d2394867696e5bf",
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-white-navy-oxford-combination-3d-blink.jpg": "99b1f375f24358f679af6b0359a51652d6c47c6848231ce685a0c2126b3a5dae",
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-approval-v1.jpg": "f5af0dfb2a5870bb43fda6856d4a50373aff56f8fbad774bbb24c2b5f8b49abe"
-  }
+  },
+  "approvedBy": "User - explicit approval in Codex chat at 2026-10-11T02:38:29Z",
+  "approvedAt": "2026-10-11T02:38:29Z"
 }

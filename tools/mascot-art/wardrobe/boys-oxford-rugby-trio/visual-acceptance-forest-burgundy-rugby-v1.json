@@ -3,8 +3,8 @@
   "itemId": "forest-burgundy-rugby",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
   "characters": [
     "eddy",
     "noir"
@@ -37,5 +37,7 @@
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-combination-3d-open.jpg": "5980b4845534e06faca8bb121c5a135c950890654a9d1c6ea273914f31d2514c",
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-forest-burgundy-rugby-combination-3d-blink.jpg": "040bf01e9e7bfa1d6a4caa4aa9011e08ace60370149495f0a7c00feae4571481",
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-approval-v1.jpg": "f5af0dfb2a5870bb43fda6856d4a50373aff56f8fbad774bbb24c2b5f8b49abe"
-  }
+  },
+  "approvedBy": "User - explicit approval in Codex chat at 2026-10-11T02:38:29Z",
+  "approvedAt": "2026-10-11T02:38:29Z"
 }

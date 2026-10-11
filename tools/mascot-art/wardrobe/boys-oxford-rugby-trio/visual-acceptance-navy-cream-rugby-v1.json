@@ -3,8 +3,8 @@
   "itemId": "navy-cream-rugby",
   "catalogGroup": "boys",
   "revision": "v1",
-  "status": "pending",
-  "humanVisualAcceptance": false,
+  "status": "accepted",
+  "humanVisualAcceptance": true,
   "characters": [
     "eddy",
     "noir"
@@ -37,5 +37,7 @@
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-navy-cream-rugby-combination-3d-open.jpg": "7c68952276d8a3960df27f7ad1e626c8a1f1ae180e424d772fb9ef7dabeb8b8f",
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-noir-navy-cream-rugby-combination-3d-blink.jpg": "ff23fe2d3492760eedc4712016f04348f4e86caab74c0053f528fed0e25e0f60",
     "tools/mascot-art/wardrobe/boys-oxford-rugby-trio/qa-approval-v1.jpg": "f5af0dfb2a5870bb43fda6856d4a50373aff56f8fbad774bbb24c2b5f8b49abe"
-  }
+  },
+  "approvedBy": "User - explicit approval in Codex chat at 2026-10-11T02:38:29Z",
+  "approvedAt": "2026-10-11T02:38:29Z"
 }
