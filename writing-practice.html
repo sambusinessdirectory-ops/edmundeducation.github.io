@@ -8047,7 +8047,7 @@ Device: concession 讓步
       window.alert("這部裝置暫時沒有足夠儲存空間保存本次紀錄。請先釋放瀏覽器儲存空間，然後再提交；您目前輸入的答案仍會保留。");
     }
 
-    function savePracticeResult(result) {
+    function savePracticeResult(result, { silentStorageFailure = false } = {}) {
       const studentName = currentUser?.name || "Guest";
       const cryptoApi = globalThis.crypto || window.crypto;
       const id = String(result?.id || (typeof cryptoApi?.randomUUID === "function"
@@ -8070,11 +8070,43 @@ Device: concession 讓步
       if (!saveWritingAttemptRuntimeLocally()) {
         writingPracticeResults = previousResults;
         writingAttemptOutbox = previousOutbox;
-        warnWritingAttemptStorageUnavailable();
+        if (!silentStorageFailure) warnWritingAttemptStorageUnavailable();
         return false;
       }
       queueWritingAttemptSync();
       return true;
+    }
+
+    function saveWritingResultWithoutDeviceStorage(result) {
+      const context = writingStateContext();
+      if (!context || !supabaseClient) {
+        updateSupabaseStatus("已顯示評分；本次紀錄未儲存", "warning");
+        return Promise.resolve(false);
+      }
+      const storedResult = compactWritingPracticeResult(result, context.studentName);
+      updateSupabaseStatus("已顯示評分，正在網上儲存紀錄", "warning");
+      return appendWritingAttemptRemote(context, storedResult)
+        .then(status => {
+          if (status !== "inserted" && status !== "existing") {
+            throw new Error(`Writing attempt save rejected: ${status}`);
+          }
+          if (context.accountKey === writingStateAccountKey()) {
+            writingPracticeResults = mergeWritingPracticeResults(
+              context.studentName,
+              writingPracticeResults,
+              [storedResult]
+            );
+            updateSupabaseStatus("本次紀錄已在網上儲存", "live");
+          }
+          return true;
+        })
+        .catch(error => {
+          console.warn("Could not save writing attempt without device storage:", error);
+          if (context.accountKey === writingStateAccountKey()) {
+            updateSupabaseStatus("已顯示評分；本次紀錄未儲存", "warning");
+          }
+          return false;
+        });
     }
 
     function clearPracticeResultsForExerciseIds(exerciseIds = []) {
@@ -10734,10 +10766,7 @@ Device: concession 讓步
         warnWritingAttemptOutboxFull();
         return;
       }
-      if (!writingAttemptStorageAvailable()) {
-        warnWritingAttemptStorageUnavailable();
-        return;
-      }
+      const deviceStorageAvailable = writingAttemptStorageAvailable();
 
       const mistakes = [];
       targets.forEach(target => {
@@ -10810,12 +10839,17 @@ Device: concession 讓步
         createdAt: completedAt
       };
 
-      const resultSaved = savePracticeResult({
+      const resultForStorage = {
         ...result,
         mistakes: mistakes.length,
         mistakeDetails: mistakes
-      });
-      if (!resultSaved) return;
+      };
+      const resultSaved = deviceStorageAvailable
+        ? savePracticeResult(resultForStorage, { silentStorageFailure: true })
+        : false;
+      const remoteSave = resultSaved
+        ? Promise.resolve(true)
+        : saveWritingResultWithoutDeviceStorage(resultForStorage);
       practiceState.resultIds = [...(practiceState.resultIds || []), result.id];
       if (perfectParagraphIndexes.length) {
         markWritingParagraphsMastered(exercise.id, perfectParagraphIndexes);
@@ -10832,6 +10866,7 @@ Device: concession 讓步
       };
       stopEssayAudio();
       renderExerciseView();
+      return remoteSave;
     }
 
     function startNextPracticeRound() {

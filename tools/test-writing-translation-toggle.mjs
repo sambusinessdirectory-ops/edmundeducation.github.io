@@ -1687,6 +1687,43 @@ assert.equal(appendCalls.length, 2, "A later reconnect retry must append the pre
 assert.equal(hooks.attemptOutbox().length, 0, "Only a confirmed append may acknowledge and clear the durable outbox row");
 assert.match(html, /window\.addEventListener\("online",[\s\S]*?retryWritingAttemptOutbox/, "Pending Writing attempts must retry when connectivity returns");
 
+const quotaHarness = createHarness(source, writingDataFiles);
+const quotaHooks = quotaHarness.hooks;
+const quotaRpcCalls = [];
+quotaHooks.configureAttemptSync({
+  user: syncedStudent,
+  token: syncedToken,
+  client: {
+    auth: {
+      async getSession() {
+        return { data: { session: { user: { id: "anonymous-test-user" } } }, error: null };
+      }
+    },
+    async rpc(name, args) {
+      quotaRpcCalls.push({ name, args });
+      if (name === "writing_student_append_attempt") return { data: "inserted", error: null };
+      if (name === "writing_student_upsert_state") return { data: true, error: null };
+      throw new Error(`Unexpected Writing RPC during quota fallback: ${name}`);
+    }
+  }
+});
+quotaHooks.installExercise(fixtureExercise());
+quotaHooks.startMode("blank", "standard");
+const quotaBlankId = quotaHooks.renderRound().match(/data-answer-id="([^"]+)"/)?.[1] || "";
+assert.ok(quotaBlankId, "The quota regression fixture must expose an answer field");
+quotaHarness.setTrackedAnswerInputs([{
+  value: ANSWER_SENTINEL,
+  getAttribute(name) { return name === "data-answer-id" ? quotaBlankId : ""; }
+}]);
+quotaHarness.setLocalStorageWriteFailure(true);
+const quotaSubmission = quotaHooks.submitRound();
+assert.equal(quotaHooks.state().submitted, true, "A full browser store must not prevent grading the completed round");
+await quotaSubmission;
+assert.equal(quotaRpcCalls.filter(({ name }) => name === "writing_student_append_attempt").length, 1,
+  "A full browser store should save the attempt directly online when connected");
+assert.equal(quotaHooks.progressResults().length, 1, "The online-saved result should appear in the current session");
+assert.equal(quotaHooks.attemptOutbox().length, 0, "A volatile result must not masquerade as a durable outbox entry");
+
 console.log(`Writing tests passed: safe translation, protected audio tails, speed control, continuation, ${checkedListeningConfigurations} corpus configurations, progress dashboard and attempt log.`);
 
 const resumeHarness=createHarness(source,writingDataFiles);const rh=resumeHarness.hooks;
