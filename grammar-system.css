@@ -59,6 +59,14 @@
   pointer-events: none;
 }
 
+.grammar-lesson-card--articles {
+  background:
+    radial-gradient(circle at 92% 10%, rgba(255, 229, 153, .26), transparent 36%),
+    linear-gradient(135deg, #17616d, #103e50);
+  border-color: rgba(96, 186, 178, .6);
+}
+.grammar-lesson-card--articles::after { content: "ARTICLES"; }
+
 .grammar-lesson-card__copy { position: relative; z-index: 1; }
 .grammar-lesson-card__copy h3 { margin: 0; font: 900 clamp(30px, 4vw, 50px)/1.08 Georgia, "Noto Serif TC Local", serif; }
 .grammar-lesson-card__copy p { max-width: 650px; margin: 12px 0 0; color: rgba(255, 255, 255, .78); font-weight: 700; }
@@ -360,6 +368,82 @@
 .grammar-highlight-tools button { min-height: 44px; padding: 10px 16px; border-radius: 10px; background: #e5efeb; color: #234b42; }
 .grammar-highlight-tools button[aria-pressed="true"] { background: #ffed8c; color: #544307; box-shadow: inset 0 0 0 1px #d6b743; }
 .grammar-highlight-tools span { color: #536660; font-size: .85rem; line-height: 1.5; }
+.grammar-articles-curation,
+.grammar-articles-practice { scroll-margin-top: 18px; }
+.grammar-articles-curation {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: clamp(24px, 4vw, 48px);
+  color: var(--portal-ink);
+}
+.grammar-articles-curation__head { max-width: 850px; }
+.grammar-articles-curation__head h2 {
+  margin: 20px 0 10px;
+  font: 900 clamp(31px, 4.7vw, 56px)/1.18 Georgia, "Noto Serif TC Local", serif;
+}
+.grammar-articles-curation__head > p:last-of-type {
+  margin: 0;
+  color: var(--portal-muted);
+  font-size: clamp(15px, 1.8vw, 19px);
+  line-height: 1.8;
+}
+.grammar-articles-curation__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 26px; }
+.grammar-articles-curation__actions span { color: var(--portal-accent-dark); font-weight: 850; }
+.grammar-articles-chapters { display: flex; flex-wrap: wrap; gap: 9px; margin: 30px 0 34px; }
+.grammar-articles-chapters button {
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid var(--portal-border);
+  border-radius: 999px;
+  color: var(--portal-accent-dark);
+  background: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.grammar-articles-chapters button:hover,
+.grammar-articles-chapters button:focus-visible { border-color: var(--portal-accent); background: var(--portal-wash); }
+.grammar-articles-stream { position: relative; display: grid; gap: 20px; }
+.grammar-articles-topic {
+  scroll-margin-top: 25px;
+  padding: clamp(21px, 3vw, 34px);
+  border: 1px solid var(--portal-border);
+  border-radius: 20px;
+  background: linear-gradient(150deg, #fff, hsl(var(--portal-hue) 45% 98%));
+  box-shadow: 0 10px 26px rgba(25, 50, 75, .055);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(24px) scale(.99);
+  pointer-events: none;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s .55s;
+}
+.grammar-articles-topic[data-scroll-visible="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s;
+}
+.grammar-articles-topic__head { display: flex; align-items: baseline; gap: 15px; padding-bottom: 13px; border-bottom: 1px solid var(--portal-border); }
+.grammar-articles-topic__head span { flex: none; color: var(--portal-accent-dark); font: 900 18px/1 Georgia, serif; }
+.grammar-articles-topic__head h3 { margin: 0; font: 850 clamp(19px, 2.5vw, 27px)/1.45 Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-topic__body { max-width: 100%; overflow-wrap: anywhere; font-size: clamp(14px, 1.5vw, 17px); line-height: 1.85; }
+.grammar-articles-topic__body p { margin: 14px 0 0; white-space: pre-line; }
+.grammar-articles-topic__body pre { margin: 16px 0 0; max-width: 100%; overflow-x: auto; white-space: pre-wrap; font: inherit; }
+.grammar-articles-curation__finish { margin-top: 28px; padding: clamp(22px, 3vw, 34px); border-radius: 20px; background: var(--portal-wash); }
+.grammar-articles-curation__finish h3 { margin: 0 0 8px; font: 900 25px Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-curation__finish p { line-height: 1.7; }
+.grammar-articles-practice .grammar-question__translation { white-space: pre-line; }
+.grammar-articles-practice .grammar-step p { white-space: pre-line; }
+.grammar-articles-practice .grammar-question__prompt { white-space: pre-line; }
+@media (max-width: 560px) {
+  .grammar-articles-curation { padding: 22px 16px; }
+  .grammar-articles-topic__head { align-items: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .grammar-articles-topic,
+  .grammar-articles-topic[data-scroll-visible="true"] { transition: none; transform: none; }
+}
 ::highlight(grammar-teaching) { background: #ffe680; color: #242b36; }
 mark.grammar-teaching-highlight { background: #ffe680; color: #242b36; border-radius: 2px; }
 @media (max-width: 600px) { .grammar-highlight-tools { align-items: flex-start; flex-direction: column; } }

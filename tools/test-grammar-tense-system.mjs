@@ -29,7 +29,7 @@ assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
 
-for (const asset of ["grammar-system.css?v=20261012-scroll2", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261012-scroll2"]) {
+for (const asset of ["grammar-system.css?v=20261012-articles1", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261012-articles1", "grammar-articles-data.js?v=20261012-articles1", "grammar-articles.js?v=20261012-articles1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
