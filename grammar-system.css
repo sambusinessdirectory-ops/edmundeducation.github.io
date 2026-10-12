@@ -406,11 +406,11 @@
 .grammar-articles-stream { position: relative; display: grid; gap: 20px; }
 .grammar-articles-topic {
   scroll-margin-top: 25px;
-  padding: clamp(21px, 3vw, 34px);
+  padding: clamp(24px, 3vw, 38px);
   border: 1px solid var(--portal-border);
-  border-radius: 20px;
-  background: linear-gradient(150deg, #fff, hsl(var(--portal-hue) 45% 98%));
-  box-shadow: 0 10px 26px rgba(25, 50, 75, .055);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 14px 35px rgba(25, 50, 75, .065);
   opacity: 0;
   visibility: hidden;
   transform: translateY(24px) scale(.99);
@@ -424,12 +424,89 @@
   pointer-events: auto;
   transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s;
 }
-.grammar-articles-topic__head { display: flex; align-items: baseline; gap: 15px; padding-bottom: 13px; border-bottom: 1px solid var(--portal-border); }
-.grammar-articles-topic__head span { flex: none; color: var(--portal-accent-dark); font: 900 18px/1 Georgia, serif; }
-.grammar-articles-topic__head h3 { margin: 0; font: 850 clamp(19px, 2.5vw, 27px)/1.45 Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-topic__head { display: flex; align-items: flex-start; gap: 16px; padding-bottom: 20px; }
+.grammar-articles-topic__head > span {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  color: #fff;
+  background: #234f77;
+  font: 900 18px/1 Georgia, serif;
+}
+.grammar-articles-topic__head h3 { margin: 0; max-width: 840px; font: 850 clamp(20px, 2.5vw, 29px)/1.45 Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-topic__focus {
+  padding: clamp(20px, 2.7vw, 30px);
+  border: 1px solid #b7dcd5;
+  border-left: 5px solid #168b79;
+  border-radius: 16px;
+  background: linear-gradient(110deg, #edf9f5, #f8fcfb);
+}
+.grammar-articles-topic__focus > span,
+.grammar-articles-topic__label {
+  display: block;
+  margin: 0 0 9px;
+  color: #176454;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+.grammar-articles-topic__focus p { margin: 0; max-width: 74ch; color: #173e43; font-size: clamp(18px, 2.1vw, 24px); font-weight: 850; line-height: 1.7; }
+.grammar-articles-ink { padding: .04em .24em; border-radius: .35em; color: inherit; font-weight: 900; }
+.grammar-articles-ink--indefinite { background: #ffedbf; color: #75500d; }
+.grammar-articles-ink--the { background: #dceafb; color: #194e85; }
+.grammar-articles-ink--zero { background: #d8f2eb; color: #0e6857; }
+.grammar-articles-topic__examples { margin-top: 24px; }
+.grammar-articles-topic__label { color: #647489; }
+.grammar-articles-example-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.grammar-articles-example {
+  min-width: 0;
+  padding: 17px 20px;
+  border: 1px solid #d8e2ea;
+  border-radius: 15px;
+  background: #f7fafc;
+}
+.grammar-articles-example p { margin: 0; overflow-wrap: anywhere; color: #1b314b; font: 750 clamp(17px, 1.9vw, 22px)/1.45 Georgia, serif; }
+.grammar-articles-example span { display: block; margin-top: 7px; color: #57697b; font-size: 14px; font-weight: 650; line-height: 1.5; }
+.grammar-articles-example--wrong { border-color: #edc6c7; background: #fff8f8; }
+.grammar-articles-example__warning { display: block; margin-bottom: 7px; color: #ad3c43; font-size: 11px; font-weight: 900; }
+.grammar-articles-topic__details { margin-top: 24px; border-top: 1px solid #dce5ec; }
+.grammar-articles-topic__details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 19px 0 0;
+  color: #23537a;
+  font-size: 15px;
+  font-weight: 850;
+  cursor: pointer;
+  list-style: none;
+}
+.grammar-articles-topic__details summary::-webkit-details-marker { display: none; }
+.grammar-articles-topic__details summary span { font-size: 24px; line-height: 1; transition: transform .2s ease; }
+.grammar-articles-topic__details[open] summary span { transform: rotate(45deg); }
+.grammar-articles-topic__full { margin-top: 17px; max-width: 78ch; padding: 3px 20px 12px; border-left: 3px solid #dbe9ee; color: #405268; }
+.grammar-articles-topic__full p { margin: 15px 0; white-space: pre-line; line-height: 1.75; }
 .grammar-articles-topic__body { max-width: 100%; overflow-wrap: anywhere; font-size: clamp(14px, 1.5vw, 17px); line-height: 1.85; }
 .grammar-articles-topic__body p { margin: 14px 0 0; white-space: pre-line; }
 .grammar-articles-topic__body pre { margin: 16px 0 0; max-width: 100%; overflow-x: auto; white-space: pre-wrap; font: inherit; }
+.grammar-articles-map__intro { margin: 0 0 20px; color: #506476; font-size: 17px; line-height: 1.7; }
+.grammar-articles-map__choices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.grammar-articles-map__choice { min-width: 0; padding: 20px; border: 1px solid; border-radius: 16px; }
+.grammar-articles-map__choice strong { display: block; margin-bottom: 10px; font: 900 28px/1.2 Georgia, serif; }
+.grammar-articles-map__choice p { margin: 0 0 12px; font-size: 14px; font-weight: 750; line-height: 1.65; }
+.grammar-articles-map__choice small { font-size: 12px; line-height: 1.5; }
+.grammar-articles-map__choice--indefinite { border-color: #ecd5a6; background: #fff8e8; color: #765315; }
+.grammar-articles-map__choice--definite { border-color: #bdd5ed; background: #f0f7ff; color: #214d7e; }
+.grammar-articles-map__choice--zero { border-color: #acd9c8; background: #eefaf4; color: #17624c; }
+.grammar-articles-map__checks { margin-top: 24px; padding: 22px 24px; border-radius: 17px; background: #f7fafc; }
+.grammar-articles-map__checks h4 { margin: 0 0 12px; font: 850 19px Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-map__checks ol { margin: 0; padding-left: 1.5em; display: grid; gap: 9px; line-height: 1.7; }
+.grammar-articles-topic--appendix .grammar-articles-topic__full { max-width: none; }
+.grammar-articles-topic--appendix .grammar-articles-topic__full pre { max-width: 100%; overflow-x: auto; white-space: pre-wrap; font: 600 13px/1.65 ui-monospace, Menlo, monospace; }
 .grammar-articles-curation__finish { margin-top: 28px; padding: clamp(22px, 3vw, 34px); border-radius: 20px; background: var(--portal-wash); }
 .grammar-articles-curation__finish h3 { margin: 0 0 8px; font: 900 25px Georgia, "Noto Serif TC Local", serif; }
 .grammar-articles-curation__finish p { line-height: 1.7; }
@@ -439,6 +516,10 @@
 @media (max-width: 560px) {
   .grammar-articles-curation { padding: 22px 16px; }
   .grammar-articles-topic__head { align-items: flex-start; }
+  .grammar-articles-topic__head > span { width: 35px; height: 35px; font-size: 15px; }
+  .grammar-articles-example-grid { grid-template-columns: 1fr; }
+  .grammar-articles-map__choices { grid-template-columns: 1fr; }
+  .grammar-articles-topic__full { padding-left: 14px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .grammar-articles-topic,

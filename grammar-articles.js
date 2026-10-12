@@ -12,6 +12,109 @@
   })[character]);
   const blocks = (value) => String(value ?? "").split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean);
   const renderBody = (value) => blocks(value).map((part) => `<p>${escapeHtml(part)}</p>`).join("");
+  const focusByNumber = {
+    1: "冠詞的核心：聽的人能否知道你說的是哪一個？",
+    2: "先分清一般與指定，再看名詞是單數、複數還是不可數。",
+    3: "單數可數名詞通常要有 a、an、the 或其他限定詞。",
+    4: "第一次提起常用 a / an；若已能認出是哪一個，第一次提起也可用 the。",
+    5: "a / an 可以表示某一個，但無須指出到底是哪一個。",
+    6: "說某人的職業或身份時，通常用 a / an。",
+    7: "選 a 還是 an，要聽下一個字的起首聲音，不是看字母。",
+    8: "即使中間有形容詞，也要看緊接冠詞後面的聲音。",
+    9: "a / an 直接修飾單數可數名詞，不能直接放在一般不可數名詞前。",
+    10: "a few、a little、a lot of 應作整組表達來學。",
+    11: "如果聽的人有足夠資料知道是哪一個，通常考慮 the。",
+    12: "同一個人或事物再次提起時，雙方已知道所指，通常用 the。",
+    13: "名詞後面的描述若已指出是哪一個，前面通常用 the。",
+    14: "第一次提起，也可能因為後面的資料已說清楚而用 the。",
+    15: "全世界只有一個的事物，通常用 the。",
+    16: "即使世界上不只一個，當下語境只有一個可辨認對象也可用 the。",
+    17: "最高級通常配 the，例如 the best student。",
+    18: "序數指出排列中的特定位置，通常配 the。",
+    19: "the only 和 the same 是常見的固定組合。",
+    20: "複數名詞一旦指向特定那一群，也可以用 the。",
+    21: "不可數名詞一旦指向特定那部分，也可以用 the。",
+    22: "談整類複數事物，不指定其中某些時，通常不用冠詞。",
+    23: "不可數名詞表示一般意思時，通常不用冠詞。",
+    24: "抽象概念表達一般意思時，通常用 Ø。",
+    25: "多數專有名稱本身已能指出對象，通常用 Ø。",
+    26: "人名通常直接使用，不加 a、an 或 the。",
+    27: "語言名稱通常用 Ø；若改說特定的 language，冠詞判斷也會改變。",
+    28: "科目名稱表示一般學科時，通常用 Ø。",
+    29: "運動、球類和棋類名稱通常用 Ø。",
+    30: "說演奏某種樂器，常用 play the + 樂器名稱。",
+    31: "三餐名稱表示一般用餐時常用 Ø；特定的一餐或加修飾語時可改用冠詞。",
+    34: "hospital 的無冠詞用法有英美差異，要同時看用途和語境。",
+    35: "go to work、be at work、go home 都是常見無冠詞搭配。",
+    36: "by bus、by train、by car 等交通方式通常用 Ø。",
+    37: "說 go to the beach 時，beach 通常用 the。",
+    38: "大部分城市、國家和洲的名稱不加 the。",
+    39: "河流等部分地理名稱通常用 the；不要把所有地名一概處理。",
+    40: "部分國家名稱本身帶 the，例如 the United Kingdom。",
+    41: "機構、酒店、博物館等名稱，要按實際名稱判斷是否有 the。",
+    32: "說 school、university、bed 的本來用途時，英文常常用 Ø（不加冠詞）。",
+    33: "說的是那座建築或那件家具，而非其本來用途時，通常用 the。",
+    42: "my、your、this、that 等字已指出是哪一個，前面通常不再加冠詞。",
+    43: "John's 等所有格已指出所屬對象，前面通常不再加冠詞。",
+    44: "名詞後的限定子句若指出是哪一個，前面通常用 the。",
+    45: "雙方眼前看得到、能共同辨認的東西，通常可用 the。",
+    46: "a lot of、a pair of 等是整組數量詞，不是 a 直接修飾後面的名詞。",
+    47: "同一個字的可數性可能隨意思改變，冠詞也要跟著語境判斷。",
+    48: "先問是一般事物，還是語境中已指定的事物。",
+    49: "a / an 與 the 的關鍵差別，是對方能否認出你指哪一個。",
+    50: "即使第一次提起，只要共同情境已指出是哪一個，也可以用 the。",
+    51: "the + 形容詞可代表一整群人，例如 the rich。",
+    52: "the + 複數姓氏可表示某一家人。",
+    53: "Doctor Chan、Professor Lee 這類稱銜加人名通常不用冠詞。",
+    54: "地區作名詞可用 the north；名稱中的 East Asia 和方向副詞 go north 則不用。",
+    55: "in the morning、in the afternoon、in the evening 要整組記。",
+    56: "星期和月份名稱通常直接使用，不加冠詞。",
+    57: "next week、last year 通常不用冠詞；the next day 表示特定次序中的那一天。",
+    58: "most 表示大部分；the most 則可構成最高級，意思不同。",
+    59: "表示『同一個』時，通常用 the same。",
+    60: "have a good time 等固定搭配，要連同 a 一起記。",
+    61: "疾病名稱的冠詞會因英語種類和搭配而變；不要把 a bad flu 當標準例子。",
+    62: "in hospital 與 in the hospital 都可能成立；需看英語種類和具體語境。",
+    63: "concert 本身不決定 a 或 the；關鍵是聽的人能否知道是哪一場。",
+    64: "the kitchen、the station 等用法，常因共同情境已指明是哪個地方。",
+    65: "冠詞不能與 my、this、John's 等限定詞重疊使用。",
+    66: "按意思、可數性、單複數、是否特定和固定用法逐項判斷。"
+  };
+  const genericOpening = /^(?:例如|比較|所以|不是|但要記住|最重要的問題|這(?:一|組|個|是|很)|常見|第一|B1|英式|完整句子|意思|同樣|幾乎所有)/;
+  const articleMark = (value) => escapeHtml(value).replace(/\b(?:an|the|a)\b|Ø/gi, (token) => `<mark class="grammar-articles-ink grammar-articles-ink--${token === "Ø" ? "zero" : token.toLowerCase() === "the" ? "the" : "indefinite"}">${token}</mark>`);
+  function topicFocus(topic) {
+    if (focusByNumber[topic.number]) return focusByNumber[topic.number];
+    const candidate = blocks(topic.body).find((part) => {
+      const oneLine = part.replace(/\s+/g, " ").trim();
+      return /[\u3400-\u9fff]/.test(oneLine) && oneLine.length >= 22 && oneLine.length <= 125
+        && !genericOpening.test(oneLine) && !/[\n]/.test(part.trim());
+    });
+    return candidate || topic.title;
+  }
+  function topicExamples(topic) {
+    const lines = String(topic.body).split("\n").map((line) => line.trim()).filter(Boolean);
+    const found = [];
+    const seen = new Set();
+    for (let index = 0; index < lines.length; index++) {
+      const text = lines[index].replace(/^[✓✗]\s*/, "").trim();
+      if (!/^[A-Za-zØ]/.test(text) || /[\u3400-\u9fff]/.test(text) || text.length < 4 || text.length > 120 || /^(?:first mention|second mention|general|specific|school|bed|river|country|a|an|the|Ø)$/i.test(text)) continue;
+      if (/^(?:first mention\s*=|second mention\s*=)/i.test(text) || (topic.number === 61 && text === "a bad flu")) continue;
+      if (seen.has(text.toLowerCase())) continue;
+      seen.add(text.toLowerCase());
+      const next = lines[index + 1] || "";
+      const translation = /^[\u3400-\u9fff]/.test(next) && next.length <= 44 && !/^(?:例如|比較|所以|但是|因為|如果|因此|要留意|這|不是|第一|第二|同樣)/.test(next) ? next : "";
+      found.push({ text, translation, wrong: /^[✗]/.test(lines[index]) });
+      if (found.length === (topic.number === 32 ? 5 : 3)) break;
+    }
+    return found;
+  }
+  function renderTopic(topic) {
+    const focus = topicFocus(topic);
+    const examples = topicExamples(topic);
+    const preview = examples.length ? `<div class="grammar-articles-topic__examples"><p class="grammar-articles-topic__label">看例子</p><div class="grammar-articles-example-grid">${examples.map((example) => `<div class="grammar-articles-example${example.wrong ? " grammar-articles-example--wrong" : ""}">${example.wrong ? '<small class="grammar-articles-example__warning">✗ 不建議的寫法</small>' : ""}<p lang="en">${articleMark(example.text)}</p>${example.translation ? `<span lang="zh-Hant">${escapeHtml(example.translation)}</span>` : ""}</div>`).join("")}</div></div>` : "";
+    const full = blocks(topic.body).length > 1 ? `<details class="grammar-articles-topic__details"><summary>閱讀完整講解與所有例句<span aria-hidden="true">＋</span></summary><div class="grammar-articles-topic__full">${renderBody(topic.body)}</div></details>` : "";
+    return `<article class="grammar-articles-topic" data-articles-topic="${topic.number}" id="articles-topic-${topic.number}"><div class="grammar-articles-topic__head"><span>${String(topic.number).padStart(2, "0")}</span><h3>${articleMark(topic.title)}</h3></div><div class="grammar-articles-topic__focus"><span>核心規則</span><p>${articleMark(focus)}</p></div>${preview}${full}</article>`;
+  }
   const guidanceRanges = [
     [1, 10, "一個未指定的可數名詞 · a / an"], [11, 15, "常見詞組與身份"],
     [16, 18, "再次提到同一個東西 · the"], [19, 25, "已指出是哪一個 · the"],
@@ -36,16 +139,17 @@
   card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE 02 · CURATION + 150 QUESTIONS</p><h3>Articles <span lang="zh-Hant">冠詞</span></h3><p>先從 a / an / the / Ø 的判斷方法開始，捲動閱讀完整導讀，再練習 150 題。</p></div><div class="grammar-lesson-card__stats" aria-label="Articles 練習進度"><div><strong data-articles-correct-count>0</strong><span>已答對</span></div><div><strong data-articles-attempted-count>0</strong><span>已作答</span></div><button class="grammar-button" type="button" data-articles-open>進入冠詞導讀</button></div>`;
   library.append(card);
 
-  const topics = data.topics.map((topic) => `<article class="grammar-articles-topic" data-articles-topic="${topic.number}" id="articles-topic-${topic.number}"><div class="grammar-articles-topic__head"><span>${String(topic.number).padStart(2, "0")}</span><h3>${escapeHtml(topic.title)}</h3></div><div class="grammar-articles-topic__body">${renderBody(topic.body)}</div></article>`).join("");
+  const topics = data.topics.map(renderTopic).join("");
   const chapterLinks = [
     [1, "核心與 a / an"], [11, "the：如何指明"], [22, "Ø：一般與名稱"],
     [32, "地方與地名"], [42, "辨認與語境"], [51, "進階用法"], [66, "決策次序"]
   ].map(([number, label]) => `<button type="button" data-articles-jump="${number}">${escapeHtml(label)}</button>`).join("");
+  const decisionMap = `<section class="grammar-articles-topic grammar-articles-topic--appendix" data-articles-topic="67" id="articles-topic-67"><div class="grammar-articles-topic__head"><span>MAP</span><h3>冠詞解題總表</h3></div><p class="grammar-articles-map__intro">先問「有沒有指定是哪一個」，再看名詞種類及固定用法。</p><div class="grammar-articles-map__choices"><div class="grammar-articles-map__choice grammar-articles-map__choice--indefinite"><strong>a / an</strong><p>單數可數；有一個，但不必知道是哪一個。</p><small>a dog · an elderly woman</small></div><div class="grammar-articles-map__choice grammar-articles-map__choice--definite"><strong>the</strong><p>特定對象；聽的人有資料認出是哪一個。</p><small>the dog · the book on my desk</small></div><div class="grammar-articles-map__choice grammar-articles-map__choice--zero"><strong>Ø</strong><p>一般複數、不可數、名稱或固定無冠詞用法。</p><small>music · London · go to school</small></div></div><div class="grammar-articles-map__checks"><h4>五個快速檢查</h4><ol><li>已有 my、your、this 或 John's？通常不再加冠詞。</li><li>單數可數？未指定用 a / an；特定用 the。</li><li>複數或不可數？談一般用 Ø；指特定用 the。</li><li>名稱或固定用法？先查是否有 Ø 或特別的 the。</li><li>在 a / an 之間選？聽緊接後面的起首聲音。</li></ol></div><details class="grammar-articles-topic__details"><summary>查看完整對照與例詞<span aria-hidden="true">＋</span></summary><div class="grammar-articles-topic__full"><pre>${escapeHtml(data.appendix)}</pre></div></details></section>`;
   const curation = document.createElement("section");
   curation.className = "panel grammar-articles-curation";
   curation.hidden = true;
   curation.dataset.articlesCuration = "";
-  curation.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-articles-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 02 · ARTICLES</p><h2>冠詞 · 語法導讀</h2><p>先判斷名詞在這句話中的意思、數量，以及對方能否知道是哪一個；再決定 a、an、the 或 Ø。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-articles-start>開始 150 題練習</button><span data-articles-position>導讀 1 / 66</span></div></div><nav class="grammar-articles-chapters" aria-label="冠詞導讀章節">${chapterLinks}</nav><div class="grammar-articles-stream" data-articles-stream>${topics}<section class="grammar-articles-topic grammar-articles-topic--appendix" data-articles-topic="67" id="articles-topic-67"><div class="grammar-articles-topic__head"><span>MAP</span><h3>Article Decision Map · 解題總表</h3></div><div class="grammar-articles-topic__body"><pre>${escapeHtml(data.appendix)}</pre></div></section></div><div class="grammar-articles-curation__finish"><h3>用這套判斷方法練習</h3><p>前 50 題有清楚的規則分組；其後 100 題把四種答案混合，要求逐題看語境。</p><button class="grammar-button grammar-button--primary" type="button" data-articles-start>開始 150 題練習</button></div>`;
+  curation.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-articles-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 02 · ARTICLES</p><h2>冠詞 · 語法導讀</h2><p>先判斷名詞在這句話中的意思、數量，以及對方能否知道是哪一個；再決定 a、an、the 或 Ø。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-articles-start>開始 150 題練習</button><span data-articles-position>導讀 1 / 66</span></div></div><nav class="grammar-articles-chapters" aria-label="冠詞導讀章節">${chapterLinks}</nav><div class="grammar-articles-stream" data-articles-stream>${topics}${decisionMap}</div><div class="grammar-articles-curation__finish"><h3>用這套判斷方法練習</h3><p>前 50 題有清楚的規則分組；其後 100 題把四種答案混合，要求逐題看語境。</p><button class="grammar-button grammar-button--primary" type="button" data-articles-start>開始 150 題練習</button></div>`;
   dashboard.append(curation);
 
   const practice = document.createElement("section");

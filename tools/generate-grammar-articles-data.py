@@ -42,12 +42,14 @@ def student_copy(text):
         (r"這正好解釋你 worksheet 裡：", "這可解釋以下寫法："),
         (r"你圖片中有：", "例如："),
         (r"你的圖片中有：", "例如："),
+        (r"圖片有：", "有時會見到："),
         (r"你圖片中值得特別修正的一點", "值得特別留意的一點"),
         (r"這類在你圖片裡很多，也是非常值得特別訓練的。", "這類寫法值得特別練習。"),
         (r"Golden Manual 亦特別提醒：", "要留意："),
         (r"Golden Manual 也特別強調，", "要留意，"),
         (r"\s*Grammar\s+Teaching Golden Manual", ""),
         (r"所以之後製作 exercises 時，我不建議使用", "因此不宜使用"),
+        (r"這正是之後出題時需要特別避免的 article ambiguity。", "語境不足的冠詞題，可能不只一個合理答案。"),
     ]
     for before, after in substitutions:
         text = re.sub(before, after, text)
