@@ -33,11 +33,24 @@ let answers = {};
 let submitted = {};
 let view = 'home';
 let tableVisible = true;
+let translationVisible = true;
 let saving = false;
 const player = new Audio();
 const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const key = (number) => String(number).padStart(3, '0');
 const draftKey = () => `edmund-junior-exam-${MODULE_KEY}:${owner}`;
+const translationKey = () => `edmund-junior-exam-translation:${owner}`;
+
+function translationButton() {
+  return `<button type="button" class="junior-translation-toggle" data-toggle-translation aria-pressed="${!translationVisible}">${translationVisible ? '隱藏中文翻譯' : '顯示中文翻譯'}</button>`;
+}
+function syncTranslationControls() {
+  host.dataset.translationHidden = String(!translationVisible);
+  host.querySelectorAll('[data-toggle-translation]').forEach((button) => {
+    button.textContent = translationVisible ? '隱藏中文翻譯' : '顯示中文翻譯';
+    button.setAttribute('aria-pressed', String(!translationVisible));
+  });
+}
 
 function readDraft() {
   try {
@@ -115,8 +128,9 @@ function renderModule() {
   host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · OCTOBER 2026</p><h2>S2 Exam Prep - Oct 2026</h2><p>每題填入一個詞或片語。可以先提交已填答案，或填妥 470 題後作完整提交。</p></div>
   <div class="junior-table-shell ${tableVisible ? '' : 'is-hidden'}" data-table-shell><div class="junior-table-head"><div><span class="junior-eyebrow">REFERENCE TABLE</span><h3>47 個詞形一覽</h3><p>先查看全部 47 個詞形，再開始作答。</p></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></div>
   <aside class="junior-table-float ${tableVisible ? '' : 'is-hidden'}" data-table-float hidden aria-label="浮動詞形表"><div class="junior-table-head"><strong>47 個詞形一覽</strong><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></aside>
-  <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / 470 題已填</span><label>跳至題目 <input type="number" min="1" max="470" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === 470 ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
-  <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 470 題。</small><p role="status" aria-live="polite" data-submit-status></p></div><button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === 470 ? '' : 'disabled'}>提交全部 470 題</button></div></form>`;
+  <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / 470 題已填</span>${translationButton()}<label>跳至題目 <input type="number" min="1" max="470" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === 470 ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
+  <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 470 題。</small><p role="status" aria-live="polite" data-submit-status></p></div>${translationButton()}<button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === 470 ? '' : 'disabled'}>提交全部 470 題</button></div></form>`;
+  syncTranslationControls();
   updateCounters();
   updateSticky();
 }
@@ -192,6 +206,10 @@ host.addEventListener('click', async (event) => {
     host.querySelectorAll('[data-table-shell], [data-table-float]').forEach((table) => table.classList.toggle('is-hidden', !tableVisible));
     host.querySelectorAll('[data-toggle-table]').forEach((button) => { button.textContent = tableVisible ? '隱藏詞形表' : '顯示詞形表'; button.setAttribute('aria-expanded', String(tableVisible)); });
     requestAnimationFrame(updateSticky);
+  } else if (event.target.closest('[data-toggle-translation]')) {
+    translationVisible = !translationVisible;
+    try { localStorage.setItem(translationKey(), translationVisible ? 'visible' : 'hidden'); } catch { /* The current-page toggle still works. */ }
+    syncTranslationControls();
   } else if (event.target.closest('[data-jump-button]')) {
     const number = Number(host.querySelector('[data-jump]')?.value);
     if (number >= 1 && number <= 470) host.querySelector(`#junior-q-${key(number)}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});
@@ -212,6 +230,7 @@ function syncSession() {
   owner = next; token = session?.token || '';
   player.pause(); answers = {}; submitted = {}; view = 'home';
   if (!owner) { host.replaceChildren(); return; }
+  try { translationVisible = localStorage.getItem(translationKey()) !== 'hidden'; } catch { translationVisible = true; }
   answers = readDraft();
   renderHome();
   if (owner === JAYDEN_ID) void loadSubmissions(owner);
