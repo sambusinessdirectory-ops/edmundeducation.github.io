@@ -528,3 +528,12 @@
 ::highlight(grammar-teaching) { background: #ffe680; color: #242b36; }
 mark.grammar-teaching-highlight { background: #ffe680; color: #242b36; border-radius: 2px; }
 @media (max-width: 600px) { .grammar-highlight-tools { align-items: flex-start; flex-direction: column; } }
+
+/* Module 3 shares the Articles guide and exercise layout. */
+.grammar-lesson-card--advanced-articles {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(163, 224, 211, .19), transparent 38%),
+    linear-gradient(135deg, #254a66, #173854);
+  border-color: rgba(144, 190, 212, .58);
+}
+.grammar-lesson-card--advanced-articles::after { content: "ADVANCED"; }

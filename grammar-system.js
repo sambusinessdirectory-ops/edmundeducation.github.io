@@ -300,7 +300,7 @@
     delete elements.saveStatus.dataset.state;
     renderGrid();
     const route = new URL(window.location.href);
-    if (!elements.practice.hidden || route.searchParams.get("lesson") !== "articles") {
+    if (!elements.practice.hidden || !["articles", "advanced-articles"].includes(route.searchParams.get("lesson"))) {
       route.searchParams.set("lesson", "tense");
       route.searchParams.delete("view");
       route.searchParams.set("question", String(state.current));

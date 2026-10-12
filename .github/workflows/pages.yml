@@ -84,6 +84,8 @@ jobs:
           node tools/test-grammar-tense-system.mjs
           node --check grammar-articles.js
           node tools/test-grammar-articles-system.mjs
+          node --check grammar-advanced-articles.js
+          node tools/test-grammar-advanced-articles-system.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}
@@ -548,6 +550,8 @@ jobs:
           node tools/test-learning-portal-scaffolds.mjs
           node tools/test-grammar-tense-system.mjs
           node tools/test-grammar-articles-system.mjs
+          node --check grammar-advanced-articles.js
+          node tools/test-grammar-advanced-articles-system.mjs
           node --test tools/test-apostrophe-normalizer.mjs
           node tools/test-pwa-and-brand-metadata.mjs
           node tools/test-idle-break-timer-integrations.mjs
