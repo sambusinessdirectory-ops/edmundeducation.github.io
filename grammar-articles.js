@@ -277,6 +277,7 @@
   function showCuration() {
     library.hidden = true;
     tensePractice.hidden = true;
+    dashboard.querySelectorAll('[data-advanced-articles-curation], [data-advanced-articles-practice]').forEach((section) => { section.hidden = true; });
     practice.hidden = true;
     curation.hidden = false;
     setRoute("curation");
@@ -286,6 +287,7 @@
   function showPractice(number = state.question) {
     library.hidden = true;
     tensePractice.hidden = true;
+    dashboard.querySelectorAll('[data-advanced-articles-curation], [data-advanced-articles-practice]').forEach((section) => { section.hidden = true; });
     curation.hidden = true;
     practice.hidden = false;
     showQuestion(number);
