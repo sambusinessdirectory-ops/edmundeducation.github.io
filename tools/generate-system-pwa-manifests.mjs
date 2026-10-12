@@ -33,7 +33,7 @@ const shortNames = Object.freeze({
   "english-humour-writing": "英文幽默寫作", "english-joke-collection": "英文笑話", "argument-learning": "論證學習",
   "fragmented-reading": "碎片閱讀", "song-appreciation": "英文歌聆聽", "precise-language": "精準措詞",
   "false-friends": "同形異義詞", "english-in-shows": "影視英文", "ted-talk-english": "Ted Talk 英文",
-  "poem-english": "詩句賞識", "bookmark-directory": "學生書簽總目錄", execution: "執行動力",
+  "poem-english": "詩句賞識", "junior-exam-prep": "初中考試溫習", "bookmark-directory": "學生書簽總目錄", execution: "執行動力",
   "reading-comprehension": "閱讀理解", "eddie-farm": "Eddie Farm 積分",
   "polysemy-lab": "一詞多義",
   "natural-english": "自然英文",

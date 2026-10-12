@@ -26,7 +26,8 @@
     { ordinal: 52, id: "false-friends", href: "false-friends-system.html", lines: ["False Friends", "同形異義詞", "學習系統"], dashboard: true, hideEmptyContent: true, homework: false, hue: 154 },
     { ordinal: 53, id: "english-in-shows", href: "english-in-shows-system.html", lines: ["English in Shows", "影視英文", "學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 224 },
     { ordinal: 54, id: "ted-talk-english", href: "ted-talk-english-system.html", lines: ["Ted Talk English", "Ted Talk 英文", "學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 8 },
-    { ordinal: 55, id: "poem-english", href: "poem-english-system.html", lines: ["Poem English", "詩句賞識系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 286 }
+    { ordinal: 55, id: "poem-english", href: "poem-english-system.html", lines: ["Poem English", "詩句賞識系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 286 },
+    { ordinal: 71, id: "junior-exam-prep", href: "junior-exam-prep.html", lines: ["初中考試溫習系統", "Junior Exam Preparation"], dashboard: false, hideEmptyContent: true, homework: false, hue: 204 }
   ].map((portal) => Object.freeze({
     ...portal,
     titleEn: portal.lines[0],

@@ -248,8 +248,9 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 69, "homepage must contain all 69 linked category cards, including Recall and Natural English");
+assert.equal(homepageCards.length, 71, "homepage must contain all 71 linked category cards, including Junior Exam Preparation");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
+assert.equal(homepageCardHrefs[70], "junior-exam-prep.html", "Junior Exam Preparation must be card 71");
 assert.equal(homepageCardHrefs[58], "eddie-farm.html", "Eddie Farm must be numbered card 59");
 assert.equal(homepageCardHrefs[59], "membership.html", "Membership remains available after Eddie Farm");
 assert.equal(homepageCardHrefs[63], "excellent-learning-system.html", "Excellent Learning must be numbered card 64");

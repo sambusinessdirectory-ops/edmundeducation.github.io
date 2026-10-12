@@ -433,6 +433,15 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "manifest": "/pwa-manifests/poem-english.webmanifest"
   },
   {
+    "id": "junior-exam-prep",
+    "href": "junior-exam-prep.html",
+    "zh": "初中考試溫習系統",
+    "en": "Junior Exam Preparation",
+    "name": "初中考試溫習系統｜EdmundEducation",
+    "shortName": "初中考試溫習",
+    "manifest": "/pwa-manifests/junior-exam-prep.webmanifest"
+  },
+  {
     "id": "bookmark-directory",
     "href": "bookmark-directory.html",
     "zh": "學生書簽總目錄",
