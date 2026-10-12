@@ -1,0 +1,42 @@
+:root{color-scheme:light;font-family:Arial,Helvetica,sans-serif;background:#edf4f7;color:#132334}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0}
+a{color:#17628a}
+button,input{font:inherit}
+.page{max-width:940px;margin:auto;padding:0 22px}
+.site-header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;border-bottom:1px solid #cddce4}
+.brand{font-weight:800;font-size:19px;text-decoration:none;color:#12334c}
+.card-number,.eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;color:#326f8e;text-transform:uppercase}
+.course-heading{padding:43px 0 22px}
+h1{font-size:clamp(32px,5vw,48px);line-height:1.1;margin:8px 0 12px}
+h2{font-size:29px;margin:8px 0 14px}
+h3{font-size:22px;margin:0 0 13px}
+p,li{font-size:17px;line-height:1.55}
+.course-heading p:last-child{margin:0;color:#466073}
+.panel{background:#fff;border:1px solid #d0dfe7;border-radius:14px;padding:24px;margin:0 0 18px;box-shadow:0 5px 20px rgba(26,59,75,.05)}
+.login-panel{max-width:510px}
+form{display:grid;gap:10px;margin-top:22px}
+label{font-weight:700}
+input{width:100%;padding:12px 13px;border:1px solid #9eb5c2;border-radius:7px;margin-bottom:8px;background:#fff;color:#132334}
+input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #5bacd1;outline-offset:3px}
+button{cursor:pointer}
+form button{border:0;border-radius:7px;background:#165f85;color:white;padding:13px 18px;font-weight:700}
+form button:hover{background:#0c4f72}
+form button:disabled{opacity:.65;cursor:wait}
+.message{min-height:1.5em;color:#a52525;margin:12px 0 0}
+.lesson-topbar{display:flex;justify-content:space-between;align-items:center;margin:8px 0 15px;font-size:12px;font-weight:800;letter-spacing:.1em;color:#326f8e}
+.text-button{border:0;background:transparent;color:#17628a;font-weight:700;padding:7px}
+.lesson-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.lesson-grid .panel{min-width:0}
+ol,ul{padding-left:24px;margin:8px 0 0}
+li+li{margin-top:8px}
+.terms{list-style:none;padding:0}
+.terms li{padding:8px 0;border-bottom:1px solid #e4edf1}
+.terms li:last-child{border:0}
+.note{background:#edf6fa;border-left:4px solid #5aa6c8;padding:11px 13px;color:#365366}
+.success{font-weight:700;color:#1d7150}
+pre{background:#102639;color:#e4f7ff;border-radius:9px;padding:20px;overflow:auto;white-space:pre;font-size:14px;line-height:1.55}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+footer{padding:20px 0 35px}
+@media(max-width:650px){.page{padding:0 15px}.site-header{align-items:flex-start;flex-direction:column}.course-heading{padding-top:30px}.lesson-grid{grid-template-columns:1fr}.panel{padding:19px}}
