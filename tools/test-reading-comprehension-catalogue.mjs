@@ -100,7 +100,7 @@ const context = vm.createContext({
   calculateAnswerProgress,scanningSections,BOOKMARK_LABELS,bookmarkTarget,readingBookmarkLink,
   window:{EDMUND_SUPABASE:{},scrollTo(){}},location,
   history:{replaceState(_s,_t,href){location.href=new URL(href,location.href).href;}},
-  document:{querySelector:node,querySelectorAll:s=>groups.get(s)||[],documentElement:node('html'),getElementById:()=>null},
+  document:{body:node('body'),querySelector:node,querySelectorAll:s=>groups.get(s)||[],documentElement:node('html'),getElementById:()=>null},
   matchMedia:()=>({matches:false}),getComputedStyle:()=>({position:'static'}),requestAnimationFrame:fn=>fn(),
   setTimeout:()=>1,clearTimeout(){},setInterval:()=>1,clearInterval(){},
   localStorage:{getItem(){return null;},setItem(){}},sessionStorage:{removeItem(){}},
