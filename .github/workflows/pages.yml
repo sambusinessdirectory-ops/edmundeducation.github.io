@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -75,6 +75,13 @@ jobs:
         run: |
           node --check synonyms/app.mjs
           node --check synonyms/important-data.mjs
+
+      - name: Validate focused Grammar release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[grammar-release]') }}
+        run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node --check grammar-system.js
+          node tools/test-grammar-tense-system.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}

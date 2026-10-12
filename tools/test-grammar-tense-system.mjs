@@ -59,6 +59,7 @@ assert.match(sql, /revoke all on function public\.grammar_tense_record_completio
 assert.match(sql, /grant execute on function public\.grammar_tense_record_completion[\s\S]*to authenticated/);
 assert.doesNotMatch(sql, /grant execute[\s\S]*to anon/);
 assert.match(workflow, /node tools\/test-grammar-tense-system\.mjs/);
+assert.match(workflow, /Validate focused Grammar release/);
 
 console.log("Grammar Tense system checks passed: 150 questions, feedback, explanations, and owner-scoped progress.");
 
