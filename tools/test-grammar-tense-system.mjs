@@ -29,7 +29,7 @@ assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
 
-for (const asset of ["grammar-system.css?v=20261012-scroll1", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261012-scroll1"]) {
+for (const asset of ["grammar-system.css?v=20261012-scroll2", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261012-scroll2"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -98,13 +98,31 @@ for (const native of [false, true]) {
   assert.equal(stepMode.getAttribute('aria-pressed'),'true','step mode remains the default');
   assert.equal(steps[0].hidden,false);
   assert.equal(steps[1].hidden,true,'later explanations begin hidden in step mode');
+  Object.defineProperty(w,'scrollY',{configurable:true,writable:true,value:0});
+  const stepList=d.querySelector('[data-inline-steps]');
+  stepList.getBoundingClientRect=()=>({top:200-w.scrollY});
+  steps.forEach((step,index)=>Object.defineProperty(step,'offsetTop',{configurable:true,value:index*180}));
   scrollMode.click();
   assert.equal(scrollMode.getAttribute('aria-pressed'),'true');
   assert.equal(d.querySelector('[data-inline-explanation]').dataset.mode,'scroll');
-  assert.ok(steps.every(step=>!step.hidden),'scroll mode reveals every explanation without checkboxes');
+  assert.ok(steps.every(step=>!step.hidden),'scroll mode keeps later cards in page flow');
+  assert.equal(steps[0].dataset.scrollVisible,'true');
+  assert.equal(steps[1].dataset.scrollVisible,'false','scroll mode does not reveal later explanations at once');
+  assert.equal(steps[1].getAttribute('aria-hidden'),'true');
+  w.scrollY=120;w.dispatchEvent(new w.Event('scroll'));
+  assert.equal(steps[1].dataset.scrollVisible,'true','scrolling down reveals the next step');
+  assert.equal(steps[2].dataset.scrollVisible,'false','scrolling one interval does not reveal every step');
+  w.scrollY=900;w.dispatchEvent(new w.Event('scroll'));
+  assert.ok(steps.every(step=>step.dataset.scrollVisible==='true'),'continued scrolling reaches every step');
+  w.scrollY=240;w.dispatchEvent(new w.Event('scroll'));
+  assert.equal(steps[2].dataset.scrollVisible,'true');
+  assert.equal(steps[3].dataset.scrollVisible,'false','reverse scrolling conceals only later steps');
+  w.scrollY=0;w.dispatchEvent(new w.Event('scroll'));
+  assert.equal(steps[1].dataset.scrollVisible,'false','scrolling back up conceals later steps');
   assert.equal(w.localStorage.getItem('edmund-grammar-tense-explanation-mode-v1'),'scroll');
   stepMode.click();
   assert.equal(steps[1].hidden,true,'switching back restores the progressive view');
+  assert.equal(steps[1].hasAttribute('aria-hidden'),false,'step mode restores accessibility');
   const reveal=steps[0].querySelector('[data-reveal-step]');
   reveal.checked=true;reveal.dispatchEvent(new w.Event('change',{bubbles:true}));
   assert.equal(steps[1].hidden,false,'the original checkbox still reveals the next step');

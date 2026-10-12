@@ -166,6 +166,7 @@
   let highlightTimer = 0;
   let touchSelection = false;
   let pointerSelecting = false;
+  let explanationScrollOrigin = 0;
 
   function clearGrammarHighlights({ disable = false } = {}) {
     window.clearTimeout(highlightTimer);
@@ -291,6 +292,7 @@
     delete elements.feedback.dataset.state;
     elements.explanation.hidden = true;
     elements.explanationSteps.replaceChildren();
+    elements.practice.classList.remove("grammar-practice--scroll-reading");
     updateQuestionBookmark();
     elements.previous.disabled = state.current === 1;
     elements.next.disabled = state.current === 150;
@@ -330,20 +332,53 @@
     elements.questionBookmark.textContent = active ? "★ 已收藏這題" : "☆ 收藏這題";
   }
 
+  function updateScrollReveal() {
+    if (state.explanationMode !== "scroll" || elements.explanation.hidden) return;
+    const steps = [...elements.explanationSteps.querySelectorAll("[data-step-number]")];
+    const scrollY = window.scrollY;
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight || 800;
+    const stepsTop = elements.explanationSteps.getBoundingClientRect().top + scrollY;
+    let revealed = 1;
+    steps.slice(1).forEach((step, index) => {
+      // Keep the card in the page flow, as in Reading Logic, so reversing the scroll
+      // can conceal it without shifting the position of everything below it.
+      const entrance = stepsTop + step.offsetTop - viewportHeight * 0.7;
+      const threshold = Math.max(explanationScrollOrigin + (index + 1) * 120, entrance);
+      if (scrollY >= threshold) revealed = index + 2;
+    });
+    steps.forEach((step, index) => {
+      const visible = index < revealed;
+      step.dataset.scrollVisible = String(visible);
+      step.setAttribute("aria-hidden", String(!visible));
+      if (visible) step.removeAttribute("inert");
+      else step.setAttribute("inert", "");
+    });
+    elements.explanationInstruction.textContent = `向下捲動逐步顯示解析；向上捲動會收起後續步驟。第 ${revealed} / ${steps.length} 步。`;
+  }
+
   function updateExplanationMode() {
     const scrolling = state.explanationMode === "scroll";
     for (const button of elements.explanationModeButtons) {
       button.setAttribute("aria-pressed", String(button.dataset.explanationModeOption === state.explanationMode));
     }
     elements.explanation.dataset.mode = state.explanationMode;
-    elements.explanationInstruction.textContent = scrolling
-      ? "所有步驟已展開，向下捲動即可閱讀；無需逐步勾選。"
-      : "請讀完每一步，再勾選「我已讀懂」，下一步才會顯示。";
+    elements.explanationInstruction.textContent = "請讀完每一步，再勾選「我已讀懂」，下一步才會顯示。";
+    elements.practice.classList.toggle("grammar-practice--scroll-reading", scrolling && !elements.explanation.hidden);
     if (elements.explanation.hidden) return;
     const steps = [...elements.explanationSteps.querySelectorAll("[data-step-number]")];
     steps.forEach((step, index) => {
       step.hidden = !scrolling && index > 0 && !steps[index - 1].querySelector("[data-reveal-step]").checked;
+      if (!scrolling) {
+        delete step.dataset.scrollVisible;
+        step.removeAttribute("aria-hidden");
+        step.removeAttribute("inert");
+      }
     });
+    if (scrolling) {
+      const scrollY = window.scrollY;
+      explanationScrollOrigin = elements.explanation.getBoundingClientRect().top + scrollY;
+      updateScrollReveal();
+    }
   }
 
   async function setBookmark(itemKey, title, detail, bookmarked, button) {
@@ -383,8 +418,9 @@
       return `<article class="grammar-step" data-step-number="${number}"${index ? " hidden" : ""}><div class="grammar-step__head"><h4>${escapeHtml(step.title)}</h4><button type="button" class="grammar-step__bookmark" data-step-bookmark="${number}" aria-pressed="${active}">${active ? "★ 已收藏這一步" : "☆ 收藏這一步"}</button></div>${step.paragraphs.map((text) => `<p>${escapeHtml(text)}</p>`).join("")}<label class="grammar-step__confirm"><input type="checkbox" data-reveal-step="${number}"><span>我已讀懂這一步${number < steps.length ? "，顯示下一步" : "，完成解析"}</span></label></article>`;
     }).join("");
     elements.explanation.hidden = false;
+    if (state.explanationMode === "scroll") elements.explanation.scrollIntoView({ behavior: "instant", block: "start" });
     updateExplanationMode();
-    elements.explanation.scrollIntoView({ behavior: "smooth", block: state.explanationMode === "scroll" ? "start" : "nearest" });
+    if (state.explanationMode !== "scroll") elements.explanation.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
 
   async function recordCompletion(number) {
@@ -483,6 +519,7 @@
     try { localStorage.setItem(explanationModeKey, state.explanationMode); } catch { /* Optional preference. */ }
     updateExplanationMode();
   }));
+  window.addEventListener("scroll", updateScrollReveal, { passive: true });
   elements.form.addEventListener("submit", submitAnswer);
   elements.previous.addEventListener("click", () => showQuestion(state.current - 1, true));
   elements.next.addEventListener("click", () => showQuestion(state.current + 1, true));

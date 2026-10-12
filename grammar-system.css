@@ -291,6 +291,22 @@
 .grammar-step__confirm { margin-top:14px; padding-top:13px; display:flex; align-items:center; gap:9px; border-top:1px dashed var(--portal-border); color:var(--portal-ink); font-size:12px; font-weight:800; cursor:pointer; }
 .grammar-step__confirm input { width:20px; height:20px; accent-color:var(--portal-accent-dark); }
 .grammar-explanation[data-mode="scroll"] .grammar-step__confirm { display: none; }
+.grammar-practice--scroll-reading { padding-bottom: max(65vh, 520px); }
+.grammar-explanation[data-mode="scroll"] .grammar-steps { position: relative; }
+.grammar-explanation[data-mode="scroll"] .grammar-step {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(24px) scale(.985);
+  pointer-events: none;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s .55s;
+}
+.grammar-explanation[data-mode="scroll"] .grammar-step[data-scroll-visible="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s;
+}
 
 .grammar-dialog {
   width: min(850px, calc(100% - 28px));
@@ -337,6 +353,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .grammar-progress span { transition: none; }
+  .grammar-explanation[data-mode="scroll"] .grammar-step { transition: none; transform: none; }
 }
 
 .grammar-highlight-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; margin: 18px 0; padding: 12px 16px; border: 1px solid #d5e2df; border-radius: 14px; background: #f3f8f6; }
