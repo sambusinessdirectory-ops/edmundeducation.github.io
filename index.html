@@ -445,6 +445,25 @@
       max-height: 54px;
     }
 
+    .social-link.history-link {
+      min-width: 126px;
+      min-height: 78px;
+      padding: 9px 12px;
+      gap: 2px;
+      border: 1px solid rgba(12, 83, 93, .16);
+      border-radius: 16px;
+      background: linear-gradient(135deg, #f7fbf8, #dcece9);
+      color: #135d66;
+      text-decoration: none;
+      box-shadow: 0 8px 22px rgba(18, 65, 70, .12);
+      text-align: center;
+      line-height: 1.1;
+    }
+
+    .history-link .history-icon { font-size: 21px; line-height: 1; }
+    .history-link .history-name { font-size: 12px; font-weight: 800; }
+    .history-link .history-subtitle { font-size: 9px; font-weight: 700; letter-spacing: .08em; }
+
     .category-strip {
       counter-reset: category-card;
       display: flex;
@@ -2665,6 +2684,17 @@
         max-height: 40px;
       }
 
+      .social-link.history-link {
+        min-width: 104px;
+        min-height: 58px;
+        padding: 6px 8px;
+        border-radius: 12px;
+      }
+
+      .history-link .history-icon { font-size: 16px; }
+      .history-link .history-name { font-size: 10px; }
+      .history-link .history-subtitle { font-size: 8px; }
+
       .hero-feature-stack {
         position: static;
         width: min(325px, 85vw);
@@ -2888,6 +2918,11 @@
           </a>
           <a class="social-link" href="https://www.youtube.com/@learnenglishforfreehongkong" target="_blank" rel="noopener" aria-label="YouTube">
             <img src="assets/homepage-optimized/youtube-logo.webp" alt="YouTube" width="180" height="128" decoding="async">
+          </a>
+          <a class="social-link history-link" href="past-experience/" aria-label="Past Experience: historical career profiles, starting with Winston Churchill">
+            <span class="history-icon" aria-hidden="true">▤</span>
+            <span class="history-name">歷史職場</span>
+            <span class="history-subtitle">PAST EXPERIENCE</span>
           </a>
         </div>
       </div>
