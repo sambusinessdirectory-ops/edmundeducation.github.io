@@ -1851,3 +1851,22 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) { .submission-toolbar-commands > button { transition: none; } }
 
 [data-admin-list] .submission-row.has-feedback-hidden{background:#f0edf5;border-color:#9587a5;color:#3f3650}
+
+/* Keep question artwork beside the writing field without occupying the editor. */
+.writing-image-dock{position:fixed;z-index:520;right:clamp(12px,3vw,34px);bottom:clamp(18px,3vh,34px);width:min(360px,calc(100vw - 24px));height:300px;min-width:220px;min-height:170px;display:grid;grid-template-rows:auto minmax(0,1fr) auto;overflow:visible;border:1px solid #a98b62;border-radius:15px;background:#f9f2e6;box-shadow:0 16px 44px #1b29484a,0 3px 9px #1b294826;animation:writing-dock-arrive .32s cubic-bezier(.2,.8,.2,1)}
+.writing-image-dock[hidden],.writing-image-dock-restore[hidden]{display:none!important}
+.writing-image-dock__head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 12px;border-radius:14px 14px 0 0;background:linear-gradient(135deg,#173f55,#315d69);color:#fff;font-size:13px;font-weight:800;cursor:move;touch-action:none;user-select:none}
+.writing-image-dock__head button{display:grid;place-items:center;min-width:28px;min-height:28px;border:1px solid #ffffff80;border-radius:7px;background:#ffffff1d;color:#fff;font-size:20px;line-height:1;cursor:pointer}
+.writing-image-dock__image{min-height:0;margin:8px 10px 0;overflow:auto;display:grid;place-items:center;background:#fff;border:1px solid #dfd6c7;border-radius:6px}
+.writing-image-dock__image img{display:block;max-width:100%;max-height:100%;object-fit:contain}
+.writing-image-dock__navigation{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:7px 10px;color:#41515c;font-size:10px;text-align:center}
+.writing-image-dock__navigation button{min-width:29px;min-height:29px;border:1px solid #9aaab0;border-radius:7px;background:white;color:#194757;font-size:22px;line-height:1}
+.writing-image-dock__navigation button:disabled{opacity:.35}
+.writing-image-dock__corner{position:absolute;z-index:2;width:22px;height:22px;border:0;background:transparent;touch-action:none}
+.writing-image-dock__corner:after{content:'';position:absolute;inset:7px;border:2px solid #b78748;border-radius:3px;background:#fff8eb}
+.writing-image-dock__corner.is-nw{top:-8px;left:-8px;cursor:nwse-resize}.writing-image-dock__corner.is-ne{top:-8px;right:-8px;cursor:nesw-resize}.writing-image-dock__corner.is-sw{bottom:-8px;left:-8px;cursor:nesw-resize}.writing-image-dock__corner.is-se{bottom:-8px;right:-8px;cursor:nwse-resize}
+.writing-image-dock.is-adjusting{animation:none;user-select:none}
+.writing-image-dock-restore{position:fixed;z-index:520;right:20px;bottom:20px;padding:10px 14px;border:1px solid #a98b62;border-radius:999px;background:#173f55;color:white;box-shadow:0 8px 24px #173f5540;font-weight:750}
+@keyframes writing-dock-arrive{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:620px){.writing-image-dock{width:min(280px,calc(100vw - 24px));height:240px}.writing-image-dock__navigation span{display:none}}
+@media(prefers-reduced-motion:reduce){.writing-image-dock{animation:none}}

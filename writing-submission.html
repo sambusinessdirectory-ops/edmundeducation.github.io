@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261012-feedback-hide1">
+  <link rel="stylesheet" href="writing-submission.css?v=20261013-image-dock1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -160,6 +160,19 @@
         </aside>
 
         <div class="writing-layout">
+          <aside class="writing-image-dock" data-writing-image-dock hidden aria-label="可移動的題目圖片參考視窗">
+            <div class="writing-image-dock__head" data-writing-image-drag>
+              <strong>題目圖片</strong><span data-writing-image-count></span>
+              <button type="button" data-writing-image-minimise aria-label="收起題目圖片">−</button>
+            </div>
+            <div class="writing-image-dock__image"><img data-writing-image-photo alt=""></div>
+            <div class="writing-image-dock__navigation"><button type="button" data-writing-image-previous aria-label="上一張題目圖片">‹</button><span>拖動標題移動視窗 · 拉動四角調整大小</span><button type="button" data-writing-image-next aria-label="下一張題目圖片">›</button></div>
+            <button type="button" class="writing-image-dock__corner is-nw" data-writing-image-resize="nw" aria-label="拖動左上角調整圖片視窗大小"></button>
+            <button type="button" class="writing-image-dock__corner is-ne" data-writing-image-resize="ne" aria-label="拖動右上角調整圖片視窗大小"></button>
+            <button type="button" class="writing-image-dock__corner is-sw" data-writing-image-resize="sw" aria-label="拖動左下角調整圖片視窗大小"></button>
+            <button type="button" class="writing-image-dock__corner is-se" data-writing-image-resize="se" aria-label="拖動右下角調整圖片視窗大小"></button>
+          </aside>
+          <button type="button" class="writing-image-dock-restore" data-writing-image-restore hidden>顯示題目圖片</button>
           <section class="editor-panel glass-panel">
             <div class="section-heading editor-heading">
               <div>
@@ -658,6 +671,6 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="writing-submission.js?v=20261012-feedback-hide1"></script>
+  <script type="module" src="writing-submission.js?v=20261013-image-dock1"></script>
 </body>
 </html>

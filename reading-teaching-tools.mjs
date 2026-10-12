@@ -1,18 +1,44 @@
 const workbench = document.querySelector('.reading-workbench');
 const button = document.querySelector('[data-teaching-highlight]');
 let enabled = false;
-const ranges = new Set();
+let color = 'yellow';
+const colors = ['yellow', 'green', 'blue', 'purple', 'red'];
+const ranges = new Map(colors.map(name => [name, new Set()]));
+const dialog = document.querySelector('[data-teaching-clear-dialog]');
+const status = document.querySelector('[data-teaching-status]');
+function paintRanges(name) {
+  if (globalThis.CSS?.highlights && globalThis.Highlight) {
+    CSS.highlights.set(`teaching-${name}`, new Highlight(...ranges.get(name)));
+  }
+}
 function clear() {
-  ranges.clear();
-  globalThis.CSS?.highlights?.delete('teaching');
+  for (const name of colors) {
+    ranges.get(name).clear();
+    globalThis.CSS?.highlights?.delete(`teaching-${name}`);
+  }
   workbench.querySelectorAll('mark.teaching-highlight').forEach(mark => mark.replaceWith(...mark.childNodes));
+  workbench.normalize();
 }
 button.addEventListener('click', () => {
   enabled = !enabled;
-  if (!enabled) clear();
   button.setAttribute('aria-pressed', String(enabled));
-  button.textContent = enabled ? '清除暫時螢光筆' : '🖍 暫時螢光筆';
+  button.textContent = enabled ? '停用暫時螢光筆' : '🖍 暫時螢光筆';
+  status.textContent = enabled ? '已啟用螢光筆。拖選文字即可標記。' : '螢光筆已停用；現有標記仍保留。';
 });
+document.querySelectorAll('[data-teaching-color]').forEach(choice => choice.addEventListener('click', () => {
+  color = choice.dataset.teachingColor;
+  document.querySelectorAll('[data-teaching-color]').forEach(item => item.setAttribute('aria-pressed', String(item === choice)));
+  if (!enabled) { enabled = true; button.setAttribute('aria-pressed', 'true'); button.textContent = '停用暫時螢光筆'; }
+  status.textContent = `已選擇${choice.title}螢光筆。`;
+}));
+document.querySelector('[data-teaching-clear]').addEventListener('click', () => {
+  if (typeof dialog.showModal === 'function') dialog.showModal();
+  else dialog.setAttribute('open', '');
+});
+function closeDialog() { if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); }
+dialog.querySelector('[data-teaching-clear-cancel]').addEventListener('click', closeDialog);
+dialog.querySelector('[data-teaching-clear-confirm]').addEventListener('click', () => { clear(); closeDialog(); status.textContent = '已清除全部暫時標記。'; });
+dialog.addEventListener('click', event => { if (event.target === dialog) closeDialog(); });
 function highlightSelection() {
   if (!enabled) return;
   const selection = getSelection();
@@ -20,8 +46,8 @@ function highlightSelection() {
   const range = selection.getRangeAt(0);
   if (!workbench.contains(range.startContainer) || !workbench.contains(range.endContainer)) return;
   if (globalThis.CSS?.highlights && globalThis.Highlight) {
-    ranges.add(range.cloneRange());
-    CSS.highlights.set('teaching', new Highlight(...ranges));
+    ranges.get(color).add(range.cloneRange());
+    paintRanges(color);
   } else {
     const nodes = [];
     const walker = document.createTreeWalker(workbench, NodeFilter.SHOW_TEXT);
@@ -32,14 +58,18 @@ function highlightSelection() {
       const start = node === range.startContainer ? range.startOffset : 0;
       if (end <= start) continue;
       const fragment = document.createRange(); fragment.setStart(node, start); fragment.setEnd(node, end);
-      const mark = document.createElement('mark'); mark.className = 'teaching-highlight'; fragment.surroundContents(mark);
+      const mark = document.createElement('mark'); mark.className = 'teaching-highlight'; mark.dataset.highlightColor = color; fragment.surroundContents(mark);
     }
   }
   selection.removeAllRanges();
 }
 workbench.addEventListener('pointerup', () => setTimeout(highlightSelection, 0));
 workbench.addEventListener('keyup', highlightSelection);
-new MutationObserver(() => { if ([...ranges].some(range => !range.startContainer.isConnected)) clear(); }).observe(workbench, { childList: true, subtree: true });
+new MutationObserver(() => {
+  let changed = false;
+  for (const selected of ranges.values()) for (const range of selected) if (!range.startContainer.isConnected) { selected.delete(range); changed = true; }
+  if (changed) colors.forEach(paintRanges);
+}).observe(workbench, { childList: true, subtree: true });
 const divider = document.createElement('div');
 divider.className = 'reading-divider'; divider.tabIndex = 0;
 divider.setAttribute('role', 'separator'); divider.setAttribute('aria-orientation', 'vertical');

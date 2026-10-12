@@ -48,7 +48,8 @@ assert.match(html, /--rating-from:\s*#bfe0ff/);
 assert.match(html, /--rating-to:\s*#7ed9b3/);
 assert.match(html, /\.daily-motivation-circle\s*\{[\s\S]*background:\s*linear-gradient\(145deg,[\s\S]*--rating-strength/s);
 assert.match(html, /\.daily-motivation-circle\[aria-pressed="true"\]\s*\{[\s\S]*background:\s*linear-gradient\(145deg,\s*var\(--rating-from\),\s*var\(--rating-to\)\)/s);
-assert.match(js, /createDailyMotivationPanel\(date, dayIndex, active\)/);
+assert.match(js, /createDailySelfEvaluationPanel\(definition, date, dayIndex, true\)/);
+assert.match(html, /data-self-rating-dock/);
 assert.match(js, /MOTIVATION_HIDDEN_STORAGE_PREFIX/);
 assert.match(js, /motivationHiddenStorageKey\(studentId\)/);
 assert.match(js, /function motivationVisibilityOwner\(student\)/);
@@ -58,7 +59,7 @@ assert.match(js, /localStorage\.setItem\(motivationHiddenStorageKey\(owner\), St
 assert.match(js, /const canHideMotivation = Boolean\(state\.currentUser && activeStudent\(\)\)/);
 assert.match(js, /panel\.hidden = state\.hideMotivation/);
 assert.match(js, /elements\.toggleMotivation\.addEventListener\("click", toggleMotivationVisibility\)/);
-assert.match(js, /column\.append\(header, selfRatingList, slots\)/);
+assert.match(js, /column\.append\(header, slots\)/);
 assert.match(js, /schedule_student_get_motivation_week/);
 assert.match(js, /schedule_admin_get_motivation_week/);
 assert.match(js, /schedule_student_save_motivation_rating/);

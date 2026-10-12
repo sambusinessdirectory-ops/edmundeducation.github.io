@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260930-dse-submit1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20261013-colors1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20260904-admin-source1">
 </head>
@@ -261,7 +261,18 @@
       </section>
 
       <section class="study-toolbar panel" aria-label="文章學習工具">
-        <button class="secondary-button" type="button" data-teaching-highlight aria-pressed="false">🖍 暫時螢光筆</button>
+        <div class="reading-highlight-controls" role="group" aria-label="暫時螢光筆工具">
+          <button class="secondary-button" type="button" data-teaching-highlight aria-pressed="false">🖍 暫時螢光筆</button>
+          <div class="reading-highlight-colors" role="group" aria-label="選擇螢光筆顏色">
+            <button type="button" data-teaching-color="yellow" aria-label="黃色螢光筆" aria-pressed="true" title="黃色"><span></span></button>
+            <button type="button" data-teaching-color="green" aria-label="綠色螢光筆" aria-pressed="false" title="綠色"><span></span></button>
+            <button type="button" data-teaching-color="blue" aria-label="藍色螢光筆" aria-pressed="false" title="藍色"><span></span></button>
+            <button type="button" data-teaching-color="purple" aria-label="淡紫色螢光筆" aria-pressed="false" title="淡紫色"><span></span></button>
+            <button type="button" data-teaching-color="red" aria-label="紅色螢光筆" aria-pressed="false" title="紅色"><span></span></button>
+          </div>
+          <button class="secondary-button reading-highlight-clear" type="button" data-teaching-clear>清除全部標記</button>
+          <span class="sr-only" role="status" aria-live="polite" data-teaching-status></span>
+        </div>
         <a class="secondary-button button-link" data-reading-flashcards hidden>溫習 Flash Cards</a>
         <button class="secondary-button interactive-flashcards-button" type="button" data-reading-flashcards-popup hidden>Interactive Flashcards · 互動字卡</button>
         <p class="dse-tools-notice" data-dse-tools-notice hidden>答案及分析會稍後加入。</p>
@@ -327,6 +338,12 @@
     <div class="interactive-flashcards-panel__resize" data-interactive-flashcards-resize data-resize-corner="se" role="separator" aria-label="從右下角調整互動字卡視窗大小"></div>
   </aside>
   <div class="toast" data-toast hidden role="status" aria-live="polite"></div>
+  <dialog class="reading-highlight-dialog" data-teaching-clear-dialog aria-labelledby="teaching-clear-title" aria-describedby="teaching-clear-description">
+    <div class="reading-highlight-dialog__icon" aria-hidden="true">✦</div>
+    <h2 id="teaching-clear-title">清除所有暫時標記？</h2>
+    <p id="teaching-clear-description">這會移除目前文章和題目中的所有螢光筆標記。清除後無法復原。</p>
+    <div class="reading-highlight-dialog__actions"><button type="button" data-teaching-clear-cancel>保留標記</button><button type="button" data-teaching-clear-confirm>清除全部</button></div>
+  </dialog>
   <audio data-reading-audio preload="metadata"></audio>
   <noscript><p>請啟用 JavaScript 使用閱讀理解學習系統。</p></noscript>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
@@ -338,6 +355,6 @@
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
   <script type="module" src="reading-comprehension.js?v=20261001-dse-2024-a"></script>
-<script type="module" src="reading-teaching-tools.mjs?v=20260906"></script>
+<script type="module" src="reading-teaching-tools.mjs?v=20261013-colors1"></script>
 <script type="module" src="study-support.mjs?v=20260907-study4"></script></body>
 </html>

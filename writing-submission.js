@@ -219,6 +219,10 @@ const elements = {
   floatingTopicContent: document.querySelector("[data-floating-writing-topic-content]"),
   floatingTopicText: document.querySelector("[data-floating-writing-topic-text]"),
   floatingTopicImages: document.querySelector("[data-floating-writing-topic-images]"),
+  writingImageDock: document.querySelector("[data-writing-image-dock]"),
+  writingImagePhoto: document.querySelector("[data-writing-image-photo]"),
+  writingImageCount: document.querySelector("[data-writing-image-count]"),
+  writingImageRestore: document.querySelector("[data-writing-image-restore]"),
   randomTopicOpen: document.querySelector("[data-random-topic-open]"),
   randomTopicDialog: document.querySelector("[data-random-topic-dialog]"),
   randomTopicClose: document.querySelector("[data-random-topic-close]"),
@@ -430,6 +434,9 @@ const state = {
   topicReferenceImportAttempt: 0,
   floatingTopicSignature: "",
   floatingTopicFrame: 0,
+  writingImageDockSignature: "",
+  writingImageDockIndex: 0,
+  writingImageDockDismissed: false,
   manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
@@ -592,6 +599,45 @@ function floatingWritingTopicImages() {
   return Array.isArray(resource?.questionImages) ? resource.questionImages : [];
 }
 
+function updateWritingImageDockPhoto(images = floatingWritingTopicImages()) {
+  if (!elements.writingImagePhoto || !images.length) return;
+  const index = Math.min(state.writingImageDockIndex, images.length - 1);
+  state.writingImageDockIndex = index;
+  const image = images[index];
+  if (elements.writingImagePhoto.getAttribute("src") !== image.src) elements.writingImagePhoto.src = image.src;
+  elements.writingImagePhoto.alt = image.alt || `題目圖片 ${index + 1}`;
+  elements.writingImageCount.textContent = `${index + 1} / ${images.length}`;
+  elements.writingImageDock.querySelector("[data-writing-image-previous]").disabled = index === 0;
+  elements.writingImageDock.querySelector("[data-writing-image-next]").disabled = index === images.length - 1;
+}
+
+function syncFloatingWritingImageDock() {
+  const dock = elements.writingImageDock;
+  if (!dock || !elements.writingInput) return;
+  const images = floatingWritingTopicImages();
+  const signature = JSON.stringify([state.selectedTopicResource?.id, ...images.map(image => image.src)]);
+  if (signature !== state.writingImageDockSignature) {
+    state.writingImageDockSignature = signature;
+    state.writingImageDockIndex = 0;
+    state.writingImageDockDismissed = false;
+    for (const property of ["left", "top", "right", "bottom", "width", "height"]) dock.style.removeProperty(property);
+  }
+  const writingRect = elements.writingInput.getBoundingClientRect();
+  const topicBottom = elements.topicInput.getBoundingClientRect().bottom;
+  const headerBottom = Math.max(0, document.querySelector(".edmund-system-header")?.getBoundingClientRect().bottom || 0);
+  const available = Boolean(
+    state.currentView === "workspace"
+    && state.user?.role !== "admin"
+    && images.length
+    && topicBottom <= headerBottom + 8
+    && writingRect.top < window.innerHeight * .8
+    && writingRect.bottom > headerBottom + 60
+  );
+  dock.hidden = !available || state.writingImageDockDismissed;
+  elements.writingImageRestore.hidden = !available || !state.writingImageDockDismissed;
+  if (available) updateWritingImageDockPhoto(images);
+}
+
 function syncFloatingWritingTopicContent() {
   if (!elements.floatingTopic) return;
   const topic = String(elements.topicInput?.value || "").trim();
@@ -631,6 +677,7 @@ function syncFloatingWritingTopicVisibility() {
   state.floatingTopicFrame = 0;
   if (!elements.floatingTopic || !elements.topicInput || !elements.writingForm) return;
   syncFloatingWritingTopicContent();
+  syncFloatingWritingImageDock();
   const topic = elements.topicInput.value.trim();
   const header = document.querySelector(".edmund-system-header");
   const headerBottom = Math.max(0, header?.getBoundingClientRect().bottom || 0);
@@ -651,6 +698,68 @@ function scheduleFloatingWritingTopicSync() {
   if (state.floatingTopicFrame) return;
   state.floatingTopicFrame = window.requestAnimationFrame(syncFloatingWritingTopicVisibility);
 }
+
+function installWritingImageDockControls() {
+  const dock = elements.writingImageDock;
+  if (!dock) return;
+  dock.querySelector("[data-writing-image-minimise]").addEventListener("click", () => {
+    state.writingImageDockDismissed = true;
+    syncFloatingWritingImageDock();
+  });
+  elements.writingImageRestore.addEventListener("click", () => {
+    state.writingImageDockDismissed = false;
+    syncFloatingWritingImageDock();
+  });
+  for (const [selector, offset] of [["[data-writing-image-previous]", -1], ["[data-writing-image-next]", 1]]) {
+    dock.querySelector(selector).addEventListener("click", () => {
+      state.writingImageDockIndex += offset;
+      updateWritingImageDockPhoto();
+    });
+  }
+  const startGesture = (handle, corner) => {
+    let gesture = null;
+    handle.addEventListener("pointerdown", (event) => {
+      if (event.button !== 0 || event.target.closest("button") && event.target !== handle) return;
+      const rect = dock.getBoundingClientRect();
+      gesture = { id: event.pointerId, x: event.clientX, y: event.clientY, rect };
+      handle.setPointerCapture(event.pointerId);
+      dock.classList.add("is-adjusting");
+      event.preventDefault();
+    });
+    handle.addEventListener("pointermove", (event) => {
+      if (gesture?.id !== event.pointerId) return;
+      const { rect } = gesture;
+      const dx = event.clientX - gesture.x, dy = event.clientY - gesture.y;
+      let left = rect.left, top = rect.top, width = rect.width, height = rect.height;
+      if (!corner) {
+        left = Math.max(8, Math.min(window.innerWidth - width - 8, left + dx));
+        top = Math.max(8, Math.min(window.innerHeight - height - 8, top + dy));
+      } else {
+        if (corner.includes("w")) { left = Math.max(8, Math.min(rect.right - 220, left + dx)); width = rect.right - left; }
+        if (corner.includes("e")) width = Math.max(220, Math.min(window.innerWidth - left - 8, width + dx));
+        if (corner.includes("n")) { top = Math.max(8, Math.min(rect.bottom - 170, top + dy)); height = rect.bottom - top; }
+        if (corner.includes("s")) height = Math.max(170, Math.min(window.innerHeight - top - 8, height + dy));
+      }
+      dock.style.left = `${left}px`;
+      dock.style.top = `${top}px`;
+      dock.style.right = "auto";
+      dock.style.bottom = "auto";
+      dock.style.width = `${width}px`;
+      dock.style.height = `${height}px`;
+    });
+    const finish = (event) => {
+      if (gesture?.id !== event.pointerId) return;
+      if (handle.hasPointerCapture(event.pointerId)) handle.releasePointerCapture(event.pointerId);
+      gesture = null;
+      dock.classList.remove("is-adjusting");
+    };
+    handle.addEventListener("pointerup", finish);
+    handle.addEventListener("pointercancel", finish);
+  };
+  startGesture(dock.querySelector("[data-writing-image-drag]"), "");
+  dock.querySelectorAll("[data-writing-image-resize]").forEach(handle => startGesture(handle, handle.dataset.writingImageResize));
+}
+installWritingImageDockControls();
 
 function safeDialogOpen(dialog) {
   if (!dialog) return;

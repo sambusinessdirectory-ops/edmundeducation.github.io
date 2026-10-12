@@ -359,6 +359,7 @@ const elements = {
   languageOpportunitiesStatus: document.querySelector("[data-language-opportunities-status]"),
   calendarScroll: document.querySelector("[data-calendar-scroll]"),
   weekGrid: document.querySelector("[data-week-grid]"),
+  selfRatingDock: document.querySelector("[data-self-rating-dock]"),
   calendarStatus: document.querySelector("[data-calendar-status]"),
   metricWeekGoals: document.querySelector("[data-metric-week-goals]"),
   metricTotalGoals: document.querySelector("[data-metric-total-goals]"),
@@ -465,6 +466,9 @@ const state = {
   reminderEmail: { email: "", updatedAt: null },
   reminderEmailBusy: false,
   ratingCollapsed: normalizeRatingCollapsePreferences(null),
+  selfRatingDate: null,
+  selfRatingDockOpen: false,
+  ratingPulse: null,
   learningPurpose: normalizeLearningPurposePayload(null),
   learningPurposeBusy: false,
   learningPurposeRequestId: 0,
@@ -938,6 +942,26 @@ async function createManualWritingTopicFromHomework() {
   }
 }
 
+function homeworkLinkContent(link, resource, isDownload) {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", "0 0 20 20");
+  svg.setAttribute("width", "16");
+  svg.setAttribute("height", "16");
+  svg.setAttribute("fill", "none");
+  svg.setAttribute("stroke", "currentColor");
+  svg.setAttribute("stroke-width", "1.8");
+  svg.setAttribute("stroke-linecap", "round");
+  svg.setAttribute("stroke-linejoin", "round");
+  svg.setAttribute("aria-hidden", "true");
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute("d", isDownload ? "M10 2.5v10m-4-4 4 4 4-4M3.5 15.5v2h13v-2" : "M4 16 16 4M7 4h9v9");
+  svg.append(path);
+  const label = document.createElement("span");
+  label.className = "homework-link-label";
+  label.textContent = resource.label;
+  link.replaceChildren(svg, label);
+}
+
 function renderHomeworkAttachments() {
   const resources = Array.isArray(state.editing?.resources) ? state.editing.resources : [];
   elements.homeworkAttachments.replaceChildren();
@@ -953,7 +977,7 @@ function renderHomeworkAttachments() {
     const link = document.createElement("a");
     link.href = resource.url;
     const isDownload = resource.type === "download-material" || resource.type === "model-essay-download";
-    link.textContent = `${isDownload ? "↓" : "↗"} ${resource.label}`;
+    homeworkLinkContent(link, resource, isDownload);
     link.title = resource.label;
     const remove = document.createElement("button");
     remove.type = "button";
@@ -1032,6 +1056,7 @@ function updateHomeworkAutocomplete() {
 
 function showView(name) {
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
+  if (name !== "calendar") elements.selfRatingDock.hidden = true;
   const loggedIn = Boolean(state.currentUser);
   elements.userPill.hidden = !loggedIn;
   elements.changePassword.hidden = !loggedIn;
@@ -1766,6 +1791,8 @@ function clearRenderedSchedule() {
   state.reminderEmail = { email: "", updatedAt: null };
   state.reminderEmailBusy = false;
   state.ratingCollapsed = normalizeRatingCollapsePreferences(null);
+  state.selfRatingDate = null;
+  state.selfRatingDockOpen = false;
   state.learningPurpose = normalizeLearningPurposePayload(null);
   state.learningPurposeBusy = false;
   state.learningPurposeRequestId += 1;
@@ -1789,6 +1816,8 @@ function clearRenderedSchedule() {
   clearClipboardSelection({ deactivate: true });
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
+  elements.selfRatingDock.hidden = true;
+  elements.selfRatingDock.querySelector("[data-self-rating-dock-metrics]").replaceChildren();
   elements.exportPdf.disabled = true;
   if (elements.deleteDialog.open) elements.deleteDialog.close();
   if (elements.entryDialog.open) elements.entryDialog.close();
@@ -1841,7 +1870,7 @@ function applyDisplayPreferences() {
   elements.toggleMotivation.disabled = state.mutationInFlight || !canHideMotivation;
   elements.toggleMotivation.textContent = state.hideMotivation ? "顯示動力指數" : "隱藏動力指數";
   elements.toggleMotivation.setAttribute("aria-pressed", String(state.hideMotivation));
-  elements.weekGrid.querySelectorAll(".daily-self-rating.rating-motivation").forEach((panel) => {
+  elements.selfRatingDock.querySelectorAll(".daily-self-rating.rating-motivation").forEach((panel) => {
     panel.hidden = canHideMotivation && state.hideMotivation;
   });
   elements.dailyQuote.hidden = state.hideDailyQuote;
@@ -4971,6 +5000,7 @@ async function loadWeek(focusTarget = null) {
   state.weekRequestId = requestId;
   state.weekPayload = emptyWeekPayload();
   elements.weekGrid.replaceChildren();
+  elements.selfRatingDock.hidden = true;
   renderEncouragementFromPayload("正在載入本星期的打氣說話…");
   setStatus(elements.learningPurposeStatus, "正在載入學習初心…");
   setMetricsUnavailable();
@@ -5435,12 +5465,12 @@ function motivationRecord(scheduleDate) {
 }
 
 function motivationStatusElement(scheduleDate) {
-  return elements.weekGrid.querySelector(`[data-motivation-status="${scheduleDate}"]`);
+  return elements.selfRatingDock.querySelector(`[data-motivation-status="${scheduleDate}"]`);
 }
 
 function updateMotivationPanelSelection(scheduleDate, message = "") {
   const selectedRating = normalizeMotivationRating(motivationRecord(scheduleDate)?.rating);
-  elements.weekGrid.querySelectorAll(`[data-motivation-date="${scheduleDate}"]`).forEach((button) => {
+  elements.selfRatingDock.querySelectorAll(`[data-motivation-date="${scheduleDate}"]`).forEach((button) => {
     const selected = Number(button.dataset.motivationRating) === selectedRating;
     button.setAttribute("aria-pressed", String(selected));
   });
@@ -5460,14 +5490,14 @@ function selfRatingRecord(metric, scheduleDate) {
 }
 
 function wellbeingStatusElement(metric, scheduleDate) {
-  return elements.weekGrid.querySelector(
+  return elements.selfRatingDock.querySelector(
     `[data-wellbeing-status="${metric}:${scheduleDate}"]`
   );
 }
 
 function updateWellbeingPanelSelection(metric, scheduleDate, message = "") {
   const selectedRating = normalizeMotivationRating(wellbeingRecord(metric, scheduleDate)?.rating);
-  elements.weekGrid.querySelectorAll(
+  elements.selfRatingDock.querySelectorAll(
     `[data-wellbeing-metric="${metric}"][data-wellbeing-date="${scheduleDate}"]`
   ).forEach((button) => {
     button.setAttribute("aria-pressed", String(Number(button.dataset.wellbeingRating) === selectedRating));
@@ -5484,13 +5514,13 @@ function restoreSelfRatingFocus(metric, scheduleDate, rating) {
     const selector = metric === "motivation"
       ? `[data-motivation-date="${scheduleDate}"][data-motivation-rating="${rating}"]`
       : `[data-wellbeing-metric="${metric}"][data-wellbeing-date="${scheduleDate}"][data-wellbeing-rating="${rating}"]`;
-    elements.weekGrid.querySelector(selector)?.focus();
+    elements.selfRatingDock.querySelector(selector)?.focus();
   });
 }
 
 function restoreRatingCollapseFocus(metric, scheduleDate) {
   window.requestAnimationFrame(() => {
-    elements.weekGrid.querySelector(
+    elements.selfRatingDock.querySelector(
       `[data-rating-collapse="${metric}"][data-rating-collapse-date="${scheduleDate}"]`
     )?.focus({ preventScroll: true });
   });
@@ -5549,6 +5579,7 @@ function createDailySelfEvaluationPanel(definition, scheduleDate, dayIndex, acti
       button.dataset.wellbeingRating = String(rating);
     }
     button.textContent = String(rating);
+    if (state.ratingPulse?.metric === definition.key && state.ratingPulse?.date === scheduleDate && state.ratingPulse?.rating === rating) button.classList.add("is-rating-pulsing");
     button.style.setProperty("--rating-strength", `${28 + (rating * 12)}%`);
     button.setAttribute("aria-label", `${definition.label} ${rating}`);
     button.setAttribute("aria-pressed", String(selectedRating === rating));
@@ -5629,7 +5660,9 @@ function stageDailyMotivationRating(scheduleDate, rawRating) {
     updatedAt: previous?.updatedAt || null
   };
   rememberPendingMotivationSave(student.id, scheduleDate, rating);
+  state.ratingPulse = { metric: "motivation", date: scheduleDate, rating };
   renderWeek();
+  state.ratingPulse = null;
   restoreSelfRatingFocus("motivation", scheduleDate, rating);
   updateMotivationPanelSelection(scheduleDate, "將於 2 秒後自動儲存…");
 
@@ -5733,7 +5766,9 @@ function stageDailyWellbeingRating(rawMetric, scheduleDate, rawRating) {
     updatedAt: previous?.updatedAt || null
   };
   rememberPendingWellbeingSave(student.id, scheduleDate, metric, rating);
+  state.ratingPulse = { metric, date: scheduleDate, rating };
   renderWeek();
+  state.ratingPulse = null;
   restoreSelfRatingFocus(metric, scheduleDate, rating);
   updateWellbeingPanelSelection(metric, scheduleDate, "將於 2 秒後自動儲存…");
 
@@ -5752,6 +5787,34 @@ function stageDailyWellbeingRating(rawMetric, scheduleDate, rawRating) {
   state.wellbeingSaveTimers.set(key, window.setTimeout(() => {
     runDailyWellbeingSave(context);
   }, WELLBEING_SAVE_DELAY_MS));
+}
+
+function renderSelfRatingDock(dates, today) {
+  const dock = elements.selfRatingDock;
+  const visible = Boolean(state.currentUser && activeStudent() && !document.querySelector('[data-view="calendar"]')?.hidden);
+  dock.hidden = !visible;
+  if (!visible) return;
+  if (!dates.includes(state.selfRatingDate) || !isDateInScheduleRange(state.selfRatingDate)) {
+    state.selfRatingDate = dates.includes(today) ? today : dates.find(isDateInScheduleRange);
+  }
+  const date = state.selfRatingDate;
+  const dayIndex = dates.indexOf(date);
+  dock.dataset.open = String(state.selfRatingDockOpen);
+  dock.querySelector("[data-self-rating-dock-toggle]").setAttribute("aria-expanded", String(state.selfRatingDockOpen));
+  dock.querySelector("[data-self-rating-dock-content]").inert = !state.selfRatingDockOpen;
+  dock.querySelector("[data-self-rating-dock-title]").textContent = `每日自評 · ${formatDayDate(date)}`;
+  const dateRow = dock.querySelector("[data-self-rating-dock-dates]");
+  dateRow.replaceChildren();
+  dates.forEach((day, index) => {
+    if (!isDateInScheduleRange(day)) return;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.selfRatingSelectDate = day;
+    button.textContent = `${WEEKDAY_LABELS[index]} ${formatDayDate(day)}`;
+    button.setAttribute("aria-pressed", String(day === date));
+    dateRow.append(button);
+  });
+  dock.querySelector("[data-self-rating-dock-metrics]").replaceChildren(...SELF_EVALUATION_DEFINITIONS.map(definition => createDailySelfEvaluationPanel(definition, date, dayIndex, true)));
 }
 
 function renderWeek() {
@@ -5807,14 +5870,15 @@ function renderWeek() {
       const book=document.createElement('button');book.type='button';book.className='challenge-log-book';book.title='Mistake or Challenge Logbook';book.setAttribute('aria-label',date+' · Mistake or Challenge Logbook');book.innerHTML='<span class="book-cover" aria-hidden="true">✦</span><span class="book-pages" aria-hidden="true"></span>';book.onclick=()=>openChallengeLog(date);header.append(book);
     }
 
-    const selfRatings = SELF_EVALUATION_DEFINITIONS.map((definition) => (
-      definition.key === "motivation"
-        ? createDailyMotivationPanel(date, dayIndex, active)
-        : createDailySelfEvaluationPanel(definition, date, dayIndex, active)
-    ));
-    const selfRatingList = document.createElement("div");
-    selfRatingList.className = "daily-self-rating-list";
-    selfRatingList.append(...selfRatings);
+    if (active) {
+      const selfRatingOpen = document.createElement("button");
+      selfRatingOpen.type = "button";
+      selfRatingOpen.className = "day-self-rating-open";
+      selfRatingOpen.dataset.selfRatingOpenDate = date;
+      selfRatingOpen.textContent = "每日自評";
+      selfRatingOpen.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}開啟每日自評`);
+      header.append(selfRatingOpen);
+    }
     const slots = document.createElement("div");
     slots.className = "day-slots";
     if (active) {
@@ -5872,7 +5936,7 @@ function renderWeek() {
       slots.append(note);
     }
 
-    column.append(header, selfRatingList, slots);
+    column.append(header, slots);
     if (active) {
       const spanDropZone = document.createElement("button");
       spanDropZone.type = "button";
@@ -5906,6 +5970,7 @@ function renderWeek() {
     }
     elements.weekGrid.append(column);
   });
+  renderSelfRatingDock(dates, today);
   updateSelectionControls();
   updateMassEditControls();
   applyClipboardSelectionClasses();
@@ -6068,7 +6133,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
       const linkAction = isDownload ? "下載教材" : "開啟功課";
       link.title = `${linkAction}：${resource.label}`;
       link.setAttribute("aria-label", `${linkAction}：${resource.label}`);
-      link.textContent = `${isDownload ? "↓" : "↗"} ${resource.label}`;
+      homeworkLinkContent(link, resource, isDownload);
       links.append(link);
     });
     if (entry?.spanGroupId) button.classList.add("has-homework-links");
@@ -7542,7 +7607,25 @@ window.addEventListener("pointermove", updateClipboardMarquee, { passive: false 
 window.addEventListener("pointerup", finishClipboardMarquee);
 window.addEventListener("pointercancel", finishClipboardMarquee);
 
+elements.selfRatingDock.addEventListener("click", (event) => {
+  const date = event.target.closest("[data-self-rating-select-date]");
+  if (date) { state.selfRatingDate = date.dataset.selfRatingSelectDate; renderSelfRatingDock(weekDates(state.weekStart), hongKongDayKey()); return; }
+  if (event.target.closest("[data-self-rating-dock-toggle]")) {
+    state.selfRatingDockOpen = !state.selfRatingDockOpen;
+    renderSelfRatingDock(weekDates(state.weekStart), hongKongDayKey());
+    return;
+  }
+  const collapse = event.target.closest("[data-rating-collapse]");
+  if (collapse) { toggleSelfRatingCollapse(collapse.dataset.ratingCollapse, collapse.dataset.ratingCollapseDate); return; }
+  const motivation = event.target.closest("[data-motivation-date][data-motivation-rating]");
+  if (motivation && !state.mutationInFlight) { stageDailyMotivationRating(motivation.dataset.motivationDate, motivation.dataset.motivationRating); return; }
+  const wellbeing = event.target.closest("[data-wellbeing-metric][data-wellbeing-date][data-wellbeing-rating]");
+  if (wellbeing && !state.mutationInFlight) stageDailyWellbeingRating(wellbeing.dataset.wellbeingMetric, wellbeing.dataset.wellbeingDate, wellbeing.dataset.wellbeingRating);
+});
+
 elements.weekGrid.addEventListener("click", (event) => {
+  const selfRatingOpen = event.target.closest("[data-self-rating-open-date]");
+  if (selfRatingOpen) { state.selfRatingDate = selfRatingOpen.dataset.selfRatingOpenDate; state.selfRatingDockOpen = true; renderSelfRatingDock(weekDates(state.weekStart), hongKongDayKey()); return; }
   const ratingCollapse = event.target.closest("[data-rating-collapse]");
   if (ratingCollapse) {
     toggleSelfRatingCollapse(

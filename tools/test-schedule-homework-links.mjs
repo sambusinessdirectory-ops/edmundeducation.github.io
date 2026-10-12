@@ -1004,10 +1004,11 @@ assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels mu
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261011-homework-synonyms1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261011-homework-synonyms1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261011-homework-synonyms1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261011-homework-synonyms1/, "Schedule application cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261013-self-rating-dock1/, "Schedule application cache key is stale");
 assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261011-homework-synonyms1/, "Homework Hot Keys application cache key is stale");
 assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261011-homework-synonyms1/, "Homework Hot Keys helper cache key is stale");
-assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
+assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
+assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");
