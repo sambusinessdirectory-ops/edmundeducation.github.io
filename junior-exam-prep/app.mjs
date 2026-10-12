@@ -104,7 +104,7 @@ function questionCard(question) {
   const number = key(question.number);
   const sentence = escapeHtml(question.sentence).replace('_____', `<input class="junior-answer" data-answer="${number}" name="answer-${number}" type="text" maxlength="100" autocomplete="off" spellcheck="false" aria-label="第 ${question.number} 題答案" value="${escapeHtml(answers[number] || '')}">`);
   const result = submitted[number] === undefined ? '' : `<span class="junior-result ${submitted[number] ? 'is-correct' : 'is-incorrect'}" data-result="${number}">${submitted[number] ? '✓ 正確' : '請再試一次'}</span>`;
-  return `<article class="junior-question" id="junior-q-${number}" data-question="${number}"><div class="junior-question__top"><span class="junior-question__number">${number}</span><span class="junior-question__voice">${escapeHtml(clips[number]?.voice || '')}</span><button type="button" class="junior-audio" data-play="${number}" aria-label="播放第 ${question.number} 題的英文語音">▶ 聆聽</button></div><p class="junior-question__sentence" lang="en">${sentence}</p><p class="junior-question__clue">詞族提示 · <strong lang="en">${escapeHtml(question.clue)}</strong></p><p class="junior-question__translation">${escapeHtml(question.translation)}</p><div class="junior-question__feedback" data-feedback="${number}">${result}</div></article>`;
+  return `<article class="junior-question" id="junior-q-${number}" data-question="${number}"><div class="junior-question__top"><span class="junior-question__number">${number}</span><button type="button" class="junior-audio" data-play="${number}" aria-label="播放第 ${question.number} 題的英文語音">▶ 聆聽</button></div><p class="junior-question__sentence" lang="en">${sentence}</p><p class="junior-question__translation">${escapeHtml(question.translation)}</p><div class="junior-question__feedback" data-feedback="${number}">${result}</div></article>`;
 }
 function renderModule() {
   if (!questions || !clips || !owner) return;
@@ -113,7 +113,8 @@ function renderModule() {
     groups.push(`<section class="junior-question-group" aria-labelledby="junior-group-${start + 1}"><h3 id="junior-group-${start + 1}">Questions ${String(start + 1).padStart(3, '0')}–${String(Math.min(start + 20, 470)).padStart(3, '0')}</h3>${questions.slice(start, start + 20).map(questionCard).join('')}</section>`);
   }
   host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · OCTOBER 2026</p><h2>S2 Exam Prep - Oct 2026</h2><p>每題填入一個詞或片語。可以先提交已填答案，或填妥 470 題後作完整提交。</p></div>
-  <div class="junior-table-shell ${tableVisible ? '' : 'is-hidden'}" data-table-shell><div class="junior-table-head"><div><span class="junior-eyebrow">REFERENCE TABLE</span><h3>47 個詞形一覽</h3><p>詞族提示不一定就是答案；請按句意選擇正確詞形。</p></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></div>
+  <div class="junior-table-shell ${tableVisible ? '' : 'is-hidden'}" data-table-shell><div class="junior-table-head"><div><span class="junior-eyebrow">REFERENCE TABLE</span><h3>47 個詞形一覽</h3><p>先查看全部 47 個詞形，再開始作答。</p></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></div>
+  <aside class="junior-table-float ${tableVisible ? '' : 'is-hidden'}" data-table-float hidden aria-label="浮動詞形表"><div class="junior-table-head"><strong>47 個詞形一覽</strong><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></aside>
   <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / 470 題已填</span><label>跳至題目 <input type="number" min="1" max="470" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === 470 ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
   <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 470 題。</small><p role="status" aria-live="polite" data-submit-status></p></div><button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === 470 ? '' : 'disabled'}>提交全部 470 題</button></div></form>`;
   updateCounters();
@@ -127,7 +128,10 @@ function updateCounters() {
   host.querySelector('[data-submitted-count]')?.replaceChildren(`${Object.keys(submitted).length} 題已提交`);
 }
 function updateSticky() {
-  host.querySelector('[data-table-shell]')?.classList.toggle('is-floating', window.scrollY > 220);
+  const table = host.querySelector('[data-table-shell]');
+  const floating = host.querySelector('[data-table-float]');
+  if (!table || !floating) return;
+  floating.hidden = table.getBoundingClientRect().bottom >= 76;
 }
 window.addEventListener('scroll', updateSticky, {passive: true});
 
@@ -185,10 +189,9 @@ host.addEventListener('click', async (event) => {
     void submit(event.target.closest('[data-submit-now]').dataset.submitNow === 'final');
   } else if (event.target.closest('[data-toggle-table]')) {
     tableVisible = !tableVisible;
-    const shell = host.querySelector('[data-table-shell]');
-    shell?.classList.toggle('is-hidden', !tableVisible);
-    const button = host.querySelector('[data-toggle-table]');
-    if (button) { button.textContent = tableVisible ? '隱藏詞形表' : '顯示詞形表'; button.setAttribute('aria-expanded', String(tableVisible)); }
+    host.querySelectorAll('[data-table-shell], [data-table-float]').forEach((table) => table.classList.toggle('is-hidden', !tableVisible));
+    host.querySelectorAll('[data-toggle-table]').forEach((button) => { button.textContent = tableVisible ? '隱藏詞形表' : '顯示詞形表'; button.setAttribute('aria-expanded', String(tableVisible)); });
+    requestAnimationFrame(updateSticky);
   } else if (event.target.closest('[data-jump-button]')) {
     const number = Number(host.querySelector('[data-jump]')?.value);
     if (number >= 1 && number <= 470) host.querySelector(`#junior-q-${key(number)}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});

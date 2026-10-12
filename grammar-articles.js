@@ -127,8 +127,7 @@
 
   const state = {
     userId: "", token: "", question: 1, attempts: {}, remoteCorrect: new Set(),
-    bookmarks: new Set(), startedAt: performance.now(), explanationMode: "step",
-    curationOrigin: 0, explanationOrigin: 0
+    bookmarks: new Set(), startedAt: performance.now(), explanationMode: "step"
   };
   try {
     if (localStorage.getItem("edmund-grammar-articles-explanation-mode-v1") === "scroll") state.explanationMode = "scroll";
@@ -260,14 +259,11 @@
 
   function updateCurationReveal() {
     if (curation.hidden) return;
-    const scrollY = window.scrollY;
     const height = window.innerHeight || 800;
-    const top = el.stream.getBoundingClientRect().top + scrollY;
     const sections = [...el.stream.querySelectorAll("[data-articles-topic]")];
     let revealed = 1;
     sections.forEach((section, index) => {
-      const entrance = top + section.offsetTop - height * 0.82;
-      if (index === 0 || scrollY >= Math.max(state.curationOrigin + index * 65, entrance)) revealed = index + 1;
+      if (index === 0 || section.getBoundingClientRect().top <= height * 0.88) revealed = index + 1;
     });
     sections.forEach((section, index) => {
       const visible = index < revealed;
@@ -285,7 +281,6 @@
     curation.hidden = false;
     setRoute("curation");
     curation.scrollIntoView({ behavior: "instant", block: "start" });
-    state.curationOrigin = curation.getBoundingClientRect().top + window.scrollY;
     updateCurationReveal();
   }
   function showPractice(number = state.question) {
@@ -312,14 +307,11 @@
 
   function updateExplanationScroll() {
     if (practice.hidden || el.explanation.hidden || state.explanationMode !== "scroll") return;
-    const scrollY = window.scrollY;
     const height = window.innerHeight || 800;
-    const top = el.steps.getBoundingClientRect().top + scrollY;
     const steps = [...el.steps.querySelectorAll("[data-step-number]")];
     let revealed = 1;
     steps.slice(1).forEach((step, index) => {
-      const entrance = top + step.offsetTop - height * 0.7;
-      if (scrollY >= Math.max(state.explanationOrigin + (index + 1) * 120, entrance)) revealed = index + 2;
+      if (step.getBoundingClientRect().top <= height * 0.88) revealed = index + 2;
     });
     steps.forEach((step, index) => {
       const visible = index < revealed;
@@ -346,7 +338,6 @@
       }
     });
     if (scrolling) {
-      state.explanationOrigin = el.explanation.getBoundingClientRect().top + window.scrollY;
       updateExplanationScroll();
     }
   }

@@ -299,7 +299,7 @@
 .grammar-step__confirm { margin-top:14px; padding-top:13px; display:flex; align-items:center; gap:9px; border-top:1px dashed var(--portal-border); color:var(--portal-ink); font-size:12px; font-weight:800; cursor:pointer; }
 .grammar-step__confirm input { width:20px; height:20px; accent-color:var(--portal-accent-dark); }
 .grammar-explanation[data-mode="scroll"] .grammar-step__confirm { display: none; }
-.grammar-practice--scroll-reading { padding-bottom: max(65vh, 520px); }
+.grammar-practice--scroll-reading { padding-bottom: clamp(28px, 8vh, 96px); }
 .grammar-explanation[data-mode="scroll"] .grammar-steps { position: relative; }
 .grammar-explanation[data-mode="scroll"] .grammar-step {
   opacity: 0;
