@@ -11,6 +11,7 @@
   const questions = Array.isArray(window.EDMUND_GRAMMAR_TENSE_QUESTIONS)
     ? replaceMiaWithTom(window.EDMUND_GRAMMAR_TENSE_QUESTIONS)
     : [];
+  const explanationModeKey = "edmund-grammar-tense-explanation-mode-v1";
   const portalRoot = document.querySelector('[data-learning-portal-root]');
   if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1)) {
     console.error("Tense practice data is incomplete.");
@@ -25,8 +26,12 @@
     token: "",
     questionStartedAt: performance.now(),
     loadingProgress: false,
-    bookmarks: new Set()
+    bookmarks: new Set(),
+    explanationMode: "step"
   };
+  try {
+    if (localStorage.getItem(explanationModeKey) === "scroll") state.explanationMode = "scroll";
+  } catch { /* The reading mode still works when local storage is unavailable. */ }
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"]/g, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"
@@ -105,7 +110,14 @@
     <section class="panel grammar-practice" data-grammar-practice hidden aria-labelledby="grammar-practice-title">
       <div class="grammar-practice__head">
         <div><button class="grammar-button--ghost" type="button" data-back-library>← 返回練習目錄</button><p class="eyebrow">TENSE · 時態</p><h2 id="grammar-practice-title">逐題練習</h2></div>
-        <div class="grammar-practice__summary"><strong data-practice-score>0</strong><span>/ 150<br>已答對</span></div>
+        <div class="grammar-practice__tools">
+          <div class="grammar-reading-mode" role="group" aria-label="解析閱讀模式">
+            <span class="grammar-reading-mode__label">解析模式</span>
+            <button type="button" data-explanation-mode-option="step" aria-pressed="false">逐步</button>
+            <button type="button" data-explanation-mode-option="scroll" aria-pressed="false">捲動閱讀</button>
+          </div>
+          <div class="grammar-practice__summary"><strong data-practice-score>0</strong><span>/ 150<br>已答對</span></div>
+        </div>
       </div>
       <div class="grammar-progress" role="progressbar" aria-label="答對進度" aria-valuemin="0" aria-valuemax="150" aria-valuenow="0"><span data-progress-fill></span></div>
       <div class="grammar-navigator">
@@ -125,7 +137,7 @@
         </form>
         <section class="grammar-explanation" data-inline-explanation hidden aria-labelledby="grammar-explanation-title">
           <div class="grammar-explanation__head"><div><p class="eyebrow">STEP-BY-STEP</p><h3 id="grammar-explanation-title" data-explanation-title>逐步解析</h3></div><p data-explanation-answer></p></div>
-          <p class="grammar-explanation__instruction">請讀完每一步，再勾選「我已讀懂」，下一步才會顯示。</p>
+          <p class="grammar-explanation__instruction" data-explanation-instruction>請讀完每一步，再勾選「我已讀懂」，下一步才會顯示。</p>
           <div class="grammar-steps" data-inline-steps></div>
         </section>
       </article>
@@ -142,7 +154,8 @@
     number: dashboard.querySelector("[data-question-number]"), tense: dashboard.querySelector("[data-question-tense]"), prompt: dashboard.querySelector("[data-question-prompt]"), translation: dashboard.querySelector("[data-question-translation]"),
     form: dashboard.querySelector("[data-answer-form]"), input: dashboard.querySelector('[name="answer"]'), feedback: dashboard.querySelector("[data-feedback]"),
     previous: dashboard.querySelector("[data-previous-question]"), next: dashboard.querySelector("[data-next-question]"), saveStatus: dashboard.querySelector("[data-save-status]"),
-    questionBookmark: dashboard.querySelector("[data-question-bookmark]"), explanation: dashboard.querySelector("[data-inline-explanation]"), explanationTitle: dashboard.querySelector("[data-explanation-title]"), explanationAnswer: dashboard.querySelector("[data-explanation-answer]"), explanationSteps: dashboard.querySelector("[data-inline-steps]")
+    questionBookmark: dashboard.querySelector("[data-question-bookmark]"), explanation: dashboard.querySelector("[data-inline-explanation]"), explanationTitle: dashboard.querySelector("[data-explanation-title]"), explanationAnswer: dashboard.querySelector("[data-explanation-answer]"), explanationSteps: dashboard.querySelector("[data-inline-steps]"),
+    explanationInstruction: dashboard.querySelector("[data-explanation-instruction]"), explanationModeButtons: [...dashboard.querySelectorAll("[data-explanation-mode-option]")]
   };
 
   const highlightButton = dashboard.querySelector("[data-grammar-highlight]");
@@ -317,6 +330,22 @@
     elements.questionBookmark.textContent = active ? "★ 已收藏這題" : "☆ 收藏這題";
   }
 
+  function updateExplanationMode() {
+    const scrolling = state.explanationMode === "scroll";
+    for (const button of elements.explanationModeButtons) {
+      button.setAttribute("aria-pressed", String(button.dataset.explanationModeOption === state.explanationMode));
+    }
+    elements.explanation.dataset.mode = state.explanationMode;
+    elements.explanationInstruction.textContent = scrolling
+      ? "所有步驟已展開，向下捲動即可閱讀；無需逐步勾選。"
+      : "請讀完每一步，再勾選「我已讀懂」，下一步才會顯示。";
+    if (elements.explanation.hidden) return;
+    const steps = [...elements.explanationSteps.querySelectorAll("[data-step-number]")];
+    steps.forEach((step, index) => {
+      step.hidden = !scrolling && index > 0 && !steps[index - 1].querySelector("[data-reveal-step]").checked;
+    });
+  }
+
   async function setBookmark(itemKey, title, detail, bookmarked, button) {
     if (!state.token || !window.EDMUND_LEARNING_PORTAL_CONTEXT?.rpc) {
       elements.saveStatus.textContent = "請先登入學生帳戶才可收藏。";
@@ -346,14 +375,16 @@
     elements.explanation.dataset.result = correct ? "correct" : "wrong";
     elements.explanationTitle.textContent = correct ? "答對了！逐步解析" : "再想一想：逐步解析";
     elements.explanationAnswer.textContent = `正確答案：${question.answer}`;
-    elements.explanationSteps.innerHTML = explanationSteps(question).map((step, index) => {
+    const steps = explanationSteps(question);
+    elements.explanationSteps.innerHTML = steps.map((step, index) => {
       const number = index + 1;
       const key = bookmarkKey(question.number, number);
       const active = state.bookmarks.has(key);
-      return `<article class="grammar-step" data-step-number="${number}"${index ? " hidden" : ""}><div class="grammar-step__head"><h4>${escapeHtml(step.title)}</h4><button type="button" class="grammar-step__bookmark" data-step-bookmark="${number}" aria-pressed="${active}">${active ? "★ 已收藏這一步" : "☆ 收藏這一步"}</button></div>${step.paragraphs.map((text) => `<p>${escapeHtml(text)}</p>`).join("")}<label class="grammar-step__confirm"><input type="checkbox" data-reveal-step="${number}"><span>我已讀懂這一步${number < explanationSteps(question).length ? "，顯示下一步" : "，完成解析"}</span></label></article>`;
+      return `<article class="grammar-step" data-step-number="${number}"${index ? " hidden" : ""}><div class="grammar-step__head"><h4>${escapeHtml(step.title)}</h4><button type="button" class="grammar-step__bookmark" data-step-bookmark="${number}" aria-pressed="${active}">${active ? "★ 已收藏這一步" : "☆ 收藏這一步"}</button></div>${step.paragraphs.map((text) => `<p>${escapeHtml(text)}</p>`).join("")}<label class="grammar-step__confirm"><input type="checkbox" data-reveal-step="${number}"><span>我已讀懂這一步${number < steps.length ? "，顯示下一步" : "，完成解析"}</span></label></article>`;
     }).join("");
     elements.explanation.hidden = false;
-    elements.explanation.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    updateExplanationMode();
+    elements.explanation.scrollIntoView({ behavior: "smooth", block: state.explanationMode === "scroll" ? "start" : "nearest" });
   }
 
   async function recordCompletion(number) {
@@ -447,6 +478,11 @@
   elements.start.addEventListener("click", () => { elements.library.hidden = true; elements.practice.hidden = false; showQuestion(state.current, true); });
   elements.back.addEventListener("click", () => { clearGrammarHighlights({ disable: true }); elements.practice.hidden = true; elements.library.hidden = false; elements.library.scrollIntoView({ behavior: "smooth", block: "start" }); });
   elements.range.addEventListener("change", () => showQuestion(Number(elements.range.value), true));
+  elements.explanationModeButtons.forEach((button) => button.addEventListener("click", () => {
+    state.explanationMode = button.dataset.explanationModeOption;
+    try { localStorage.setItem(explanationModeKey, state.explanationMode); } catch { /* Optional preference. */ }
+    updateExplanationMode();
+  }));
   elements.form.addEventListener("submit", submitAnswer);
   elements.previous.addEventListener("click", () => showQuestion(state.current - 1, true));
   elements.next.addEventListener("click", () => showQuestion(state.current + 1, true));
@@ -488,6 +524,7 @@
   });
 
   showQuestion(requestedQuestion() || 1);
+  updateExplanationMode();
   updateTotals();
   queueMicrotask(adoptSession);
 })();

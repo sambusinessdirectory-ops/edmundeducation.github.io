@@ -29,7 +29,7 @@ assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
 
-for (const asset of ["grammar-system.css?v=20260908-highlight1", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20260908-highlight1"]) {
+for (const asset of ["grammar-system.css?v=20261012-scroll1", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261012-scroll1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -38,6 +38,7 @@ assert.match(runtime, /dataset\.state = "wrong"/);
 assert.match(runtime, /data-inline-explanation/);
 assert.doesNotMatch(runtime, /showModal\(\)/);
 assert.match(runtime, /data-reveal-step/);
+assert.match(runtime, /data-explanation-mode-option/);
 assert.match(runtime, /learning_portal_set_bookmark/);
 assert.match(runtime, /grammar_tense_list_progress/);
 assert.match(runtime, /grammar_tense_record_completion/);
@@ -46,6 +47,7 @@ assert.match(runtime, /提交答案/);
 assert.match(css, /\.grammar-feedback\[data-state="correct"\]/);
 assert.match(css, /\.grammar-feedback\[data-state="wrong"\]/);
 assert.match(css, /\.grammar-explanation/);
+assert.match(css, /\.grammar-explanation\[data-mode="scroll"\] \.grammar-step__confirm/);
 
 assert.match(sql, /auth\.uid\(\) is null/);
 assert.match(sql, /flashcard_student_sessions/);
@@ -89,6 +91,24 @@ for (const native of [false, true]) {
   const input=d.querySelector('[name="answer"]');input.value='walks';
   d.querySelector('[data-answer-form]').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
   assert.equal(d.querySelector('[data-feedback]').dataset.state,'correct','grading still works');
+  const steps=[...d.querySelectorAll('.grammar-step')];
+  const stepMode=d.querySelector('[data-explanation-mode-option="step"]');
+  const scrollMode=d.querySelector('[data-explanation-mode-option="scroll"]');
+  assert.equal(stepMode.getAttribute('aria-pressed'),'true','step mode remains the default');
+  assert.equal(steps[0].hidden,false);
+  assert.equal(steps[1].hidden,true,'later explanations begin hidden in step mode');
+  scrollMode.click();
+  assert.equal(scrollMode.getAttribute('aria-pressed'),'true');
+  assert.equal(d.querySelector('[data-inline-explanation]').dataset.mode,'scroll');
+  assert.ok(steps.every(step=>!step.hidden),'scroll mode reveals every explanation without checkboxes');
+  assert.equal(w.localStorage.getItem('edmund-grammar-tense-explanation-mode-v1'),'scroll');
+  stepMode.click();
+  assert.equal(steps[1].hidden,true,'switching back restores the progressive view');
+  const reveal=steps[0].querySelector('[data-reveal-step]');
+  reveal.checked=true;reveal.dispatchEvent(new w.Event('change',{bubbles:true}));
+  assert.equal(steps[1].hidden,false,'the original checkbox still reveals the next step');
+  scrollMode.click();stepMode.click();
+  assert.equal(steps[1].hidden,false,'switching modes preserves completed reading steps');
   button.click();const explanation=d.querySelector('[data-explanation-answer]');
   const before=explanation.textContent;select(explanation,0,Math.min(4,before.length));paint();
   assert.ok(highlighted());assert.equal(input.value,'walks','answer input is unchanged');
