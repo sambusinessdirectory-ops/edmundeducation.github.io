@@ -80,7 +80,7 @@ const context = vm.createContext({
   calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink,
   window: { EDMUND_SUPABASE: {}, scrollTo() {} }, location,
   history: { replaceState(_state, _title, href) { location.href = new URL(href, location.href).href; } },
-  document: { querySelector: node, querySelectorAll: (selector) => groups.get(selector) || [], documentElement: node('html'), getElementById: () => null },
+  document: { querySelector: node, querySelectorAll: (selector) => groups.get(selector) || [], documentElement: node('html'), body: node('body'), getElementById: () => null },
   matchMedia: () => ({ matches: false }), getComputedStyle: () => ({ position: 'static' }),
   requestAnimationFrame: (fn) => fn(), setTimeout: () => 1, clearTimeout() {}, setInterval: () => 1, clearInterval() {},
   localStorage: { setItem: (k, v) => storage.set(k, v), getItem: (k) => storage.get(k) },
@@ -164,7 +164,7 @@ assert.match(embedCss, /\.pwa-install-button[\s\S]*?\.pwa-notice[\s\S]*?display:
 assert.match(embedCss, /\.study-layout\{display:grid;grid-template-columns:minmax\(0,1fr\) minmax\(78px,92px\)/, 'card and grading controls use separate non-overlapping columns');
 assert.match(professionalCss, /html\.theme-day \.pro-practice-heading h3\{color:#174b36!important/, 'day mode uses a dark readable practice heading');
 assert.match(professionalCss, /html\.theme-day \.pro-lesson-card button b\{color:#426400!important/, 'day mode replaces pale yellow dialogue labels');
-assert.match(professionalHtml, /professional-enhancements\.css\?v=20260922-lesson4/, 'day contrast and chart CSS is cache-busted for the current dialogue release');
+assert.match(professionalHtml, /professional-enhancements\.css\?v=20260930-lesson5/, 'day contrast and chart CSS is cache-busted for the current dialogue release');
 run('state.exerciseReady = true; state.answers = {q1:"TRUE"}; state.results = {};');
 await run(`openReadingBookmark('${id}:scanning:8')`);
 assert.equal(location.searchParams.get('view'), 'scanning');
