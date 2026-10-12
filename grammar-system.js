@@ -300,9 +300,12 @@
     delete elements.saveStatus.dataset.state;
     renderGrid();
     const route = new URL(window.location.href);
-    route.searchParams.set("lesson", "tense");
-    route.searchParams.set("question", String(state.current));
-    window.history.replaceState(null, "", `${route.pathname}${route.search}${route.hash}`);
+    if (!elements.practice.hidden || route.searchParams.get("lesson") !== "articles") {
+      route.searchParams.set("lesson", "tense");
+      route.searchParams.delete("view");
+      route.searchParams.set("question", String(state.current));
+      window.history.replaceState(null, "", `${route.pathname}${route.search}${route.hash}`);
+    }
     if (focus) elements.input.focus({ preventScroll: true });
   }
 
