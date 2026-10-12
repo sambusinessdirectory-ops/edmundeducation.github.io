@@ -110,7 +110,7 @@ for (const [index, deck] of Array.from(navigation).entries()) {
 }
 
 assert.match(html, /flashcards-government-civics-book3-data\.js\?v=20260920-1/, "Book 3 data file is not loaded");
-assert.match(html, /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260920-civics-book3-1/, "Book 3 audio manifest cache key is stale");
+assert.match(html, /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20261012-custom1/, "Book 3 audio manifest cache key is stale");
 assert.ok(html.includes('route === "government-concept-vocabulary-book-3"'), "Book 3 route handler is missing");
 assert.ok(html.includes('route: "government-concept-vocabulary-book-3"'), "Book 3 selector is missing");
 assert.ok(html.includes('addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 3)'), "Book selector aggregate must contain three books");

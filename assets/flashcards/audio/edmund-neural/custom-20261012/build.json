@@ -1,0 +1,21 @@
+{
+  "engine": "Kokoro-82M v1.0",
+  "voice": "af_heart",
+  "language": "en-us",
+  "speed": 0.96,
+  "sampleRate": 24000,
+  "format": "MP3",
+  "compressionLevel": 0.55,
+  "terms": [
+    "role model",
+    "trustworthy",
+    "shortcoming",
+    "throw a tantrum",
+    "cautionary",
+    "paid off",
+    "groundbreaking",
+    "diagnose",
+    "frustrated",
+    "stumble upon"
+  ]
+}
