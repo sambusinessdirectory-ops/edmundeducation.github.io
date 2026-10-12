@@ -1849,3 +1849,5 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 }
 @media (max-width: 380px) { .submission-toolbar-commands { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .submission-toolbar-commands > button { transition: none; } }
+
+[data-admin-list] .submission-row.has-feedback-hidden{background:#f0edf5;border-color:#9587a5;color:#3f3650}

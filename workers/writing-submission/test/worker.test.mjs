@@ -6340,3 +6340,36 @@ test("admin hide and title editing authenticate, validate and use the audited mu
  const renamed=await worker.fetch(req('PUT',ADMIN_TOKEN,{topic:'New title'}),environment());assert.equal(renamed.status,200);assert.equal((await renamed.json()).submission.topic,'New title');assert.equal(calls[0].p_admin_token,ADMIN_TOKEN);assert.equal(calls[0].p_action,'rename');
  const hidden=await worker.fetch(req('DELETE',ADMIN_TOKEN),environment());assert.equal(hidden.status,200);assert.ok((await hidden.json()).submission.deletedAt);assert.equal(calls[1].p_action,'hide');
 });
+
+test("administrator can hide and restore feedback without deleting its content", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  const changes = [];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_set_hidden") {
+      changes.push(rpc.body);
+      return jsonResponse([{
+        id: FEEDBACK_ID,
+        status: rpc.body.p_hidden ? "hidden" : "published",
+        version: rpc.body.p_expected_version + 1
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  for (const [hidden, version] of [[true, 3], [false, 4]]) {
+    const response = await worker.fetch(new Request(
+      `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+      {
+        method: "PATCH",
+        headers: { Origin: ORIGIN, Authorization: `Bearer ${ADMIN_TOKEN}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ hidden, expectedFeedbackId: FEEDBACK_ID, expectedVersion: version })
+      }
+    ), environment());
+    assert.equal(response.status, 200);
+    assert.equal((await response.json()).feedback.status, hidden ? "hidden" : "published");
+  }
+  assert.deepEqual(changes.map(change => change.p_hidden), [true, false]);
+  assert.deepEqual(changes.map(change => change.p_expected_version), [3, 4]);
+});

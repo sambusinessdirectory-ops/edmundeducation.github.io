@@ -355,6 +355,9 @@ async function route(request, env) {
   if (adminSubmissionFeedbackMatch && request.method === "PUT") {
     return putAdminSubmissionFeedback(request, env, adminSubmissionFeedbackMatch[1]);
   }
+  if (adminSubmissionFeedbackMatch && request.method === "PATCH") {
+    return setAdminSubmissionFeedbackVisibility(request, env, adminSubmissionFeedbackMatch[1]);
+  }
   if (adminSubmissionFeedbackMatch && request.method === "DELETE") {
     return deleteAdminSubmissionFeedback(request, env, adminSubmissionFeedbackMatch[1]);
   }
@@ -1434,7 +1437,7 @@ function feedbackResponse(row) {
       row.improved_formatting,
       String(row.improved_version || "").length
     ),
-    status: row.status === "published" ? "published" : "draft",
+    status: row.status === "hidden" ? "hidden" : row.status === "published" ? "published" : "draft",
     version: Number(row.version || 0),
     publishedAt: row.published_at ? String(row.published_at) : null,
     updatedAt: String(row.updated_at || ""),
@@ -3129,6 +3132,44 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
   }));
   if(row) row.extensions = await rpc(env, 'writing_feedback_extensions_get', {p_feedback_id:row.id});
   return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
+}
+
+async function setAdminSubmissionFeedbackVisibility(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-admin-feedback:${admin.id}`,
+    "Feedback visibility update is temporarily unavailable",
+    "TOO_MANY_ADMIN_WRITES",
+    "Too many administrator updates; please wait and try again"
+  );
+  const body = await readLimitedJson(request, 1024);
+  if (!hasExactKeys(body, ["hidden", "expectedFeedbackId", "expectedVersion"])
+    || typeof body.hidden !== "boolean"
+    || !UUID_RE.test(String(body.expectedFeedbackId || ""))
+    || !Number.isInteger(body.expectedVersion)
+    || body.expectedVersion < 1) {
+    throw new HttpError(400, "INVALID_FEEDBACK_VISIBILITY", "Invalid feedback visibility update");
+  }
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_set_hidden", {
+    p_admin_token: admin.token,
+    p_submission_id: submissionId.toLowerCase(),
+    p_hidden: body.hidden,
+    p_expected_feedback_id: body.expectedFeedbackId,
+    p_expected_version: body.expectedVersion
+  }, {
+    P4090: {
+      status: 409,
+      code: "FEEDBACK_VERSION_CONFLICT",
+      message: "Feedback changed in another session; reload before changing its visibility"
+    }
+  }));
+  if (!row) throw new HttpError(404, "FEEDBACK_NOT_FOUND", "Feedback not found");
+  return json({ feedback: feedbackResponse(row) }, 200, request, env);
 }
 
 async function putAdminSubmissionFeedback(request, env, submissionId) {

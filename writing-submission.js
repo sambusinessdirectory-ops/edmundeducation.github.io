@@ -6048,7 +6048,7 @@ function normalizeTeacherFeedback(value) {
       value.improvedFormatting || value.improved_formatting,
       value.improvedVersion || value.improved_version
     ),
-    status: value.status === "published" ? "published" : "draft",
+    status: value.status === "hidden" ? "hidden" : value.status === "published" ? "published" : "draft",
     version: Math.max(1, Number(value.version || 1)),
     publishedAt: String(value.publishedAt || value.published_at || ""),
     updatedAt: String(value.updatedAt || value.updated_at || ""),
@@ -7406,7 +7406,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   const heading = createElement("header", "teacher-feedback-editor-head");
   const copy = createElement("div");
   copy.append(createElement("p", "eyebrow", "STRUCTURED WRITING FEEDBACK"), createElement("h2", "", "撰寫 Edmund 評語"));
-  const badge = createElement("span", "teacher-feedback-status", feedback?.status === "published" ? "已發送至學生帳戶" : feedback ? "評語草稿" : "尚未建立評語");
+  const badge = createElement("span", "teacher-feedback-status", feedback?.status === "hidden" ? "已隱藏（學生不可見）" : feedback?.status === "published" ? "已發送至學生帳戶" : feedback ? "評語草稿" : "尚未建立評語");
   badge.dataset.feedbackStatus = "true";
   const recoveryStatus = createElement("span", "teacher-feedback-recovery-status", "此分頁自動備份已啟用");
   recoveryStatus.dataset.feedbackRecoveryStatus = "true";
@@ -7531,11 +7531,20 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   const publish = createElement("button", "primary-button", feedback?.status === "published" ? "儲存更新並發送評語" : "儲存並發送評語");
   publish.type = "button";
   publish.dataset.feedbackSave = "published";
+  const visibility = createElement("button", "secondary-button", serverFeedback?.status === "hidden" ? "恢復顯示評語" : "隱藏學生評語");
+  visibility.type = "button";
+  visibility.dataset.feedbackVisibility = serverFeedback?.status === "hidden" ? "show" : "hide";
+  visibility.hidden = !serverFeedback || serverFeedback.status === "draft";
   const remove = createElement("button", "delete-submission-button teacher-feedback-delete", "刪除整份評語");
   remove.type = "button";
   remove.dataset.feedbackDelete = "true";
   remove.hidden = !serverFeedback;
-  actions.append(saveDraft, publish, remove);
+  if (serverFeedback?.status === "hidden") {
+    quickSave.disabled = true;
+    saveDraft.disabled = true;
+    publish.disabled = true;
+  }
+  actions.append(saveDraft, publish, visibility, remove);
   const actionRegion = createElement("section", "teacher-feedback-action-region");
   actionRegion.append(createElement("p", "muted", "評語會發送至學生帳戶；已自願登記電郵的學生，亦會收到評改完成通知。"), status, actions);
   appendRegion(actionRegion, "actions");
@@ -8333,6 +8342,43 @@ async function saveAdminFeedback(status) {
   }
 }
 
+async function setAdminFeedbackVisibility(hidden) {
+  const submissionId = state.selectedAdminSubmissionId;
+  const editor = elements.adminDetail.querySelector(`[data-feedback-editor="${submissionId}"]`);
+  const current = state.selectedAdminFeedback;
+  if (!editor || !current?.id || !UUID_RE.test(submissionId)) return;
+  const statusNode = editor.querySelector("[data-feedback-save-status]");
+  const requestGeneration = state.adminSubmissionRequestGeneration;
+  editor.querySelectorAll("[data-feedback-visibility]").forEach(button => { button.disabled = true; });
+  setStatus(statusNode, hidden ? "正在隱藏評語……" : "正在恢復評語……");
+  try {
+    const response = await apiJson(`/v1/admin/submissions/${encodeURIComponent(submissionId)}/feedback`, {
+      method: "PATCH",
+      body: JSON.stringify({ hidden, expectedFeedbackId: current.id, expectedVersion: current.version })
+    });
+    const saved = normalizeTeacherFeedback(response?.feedback);
+    if (!saved || saved.status !== (hidden ? "hidden" : "published")) throw new Error("評語狀態更新失敗。");
+    const submissionIndex = state.adminSubmissions.findIndex(item => item.id === submissionId);
+    if (submissionIndex >= 0) {
+      state.adminSubmissions[submissionIndex] = {
+        ...state.adminSubmissions[submissionIndex],
+        feedbackStatus: saved.status,
+        hasPublishedFeedback: !hidden
+      };
+      renderAdminSubmissions();
+    }
+    showToast(hidden ? "評語已隱藏，學生暫時看不到。" : "評語已恢復，學生可以再次查看。", "success");
+    if (isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
+      await openAdminSubmission(submissionId);
+    }
+  } catch (error) {
+    setStatus(statusNode, error?.code === "FEEDBACK_VERSION_CONFLICT"
+      ? "評語已在另一個視窗更新，請重新載入後再試。"
+      : error?.message || "暫時未能更改評語顯示狀態。", "error");
+    editor.querySelectorAll("[data-feedback-visibility]").forEach(button => { button.disabled = false; });
+  }
+}
+
 async function deleteAdminFeedback() {
   const submissionId = state.selectedAdminSubmissionId;
   const editor = elements.adminDetail.querySelector(`[data-feedback-editor="${submissionId}"]`);
@@ -8973,14 +9019,14 @@ function renderAdminSubmissions() {
   for (const submission of submissions) {
     const button = createElement(
       "button",
-      `submission-row${readAdminFeedbackRecovery(submission.id)||submission.feedbackStatus === "draft" ? " has-feedback-draft" : submission.hasPublishedFeedback ? " has-feedback" : ""}`
+      `submission-row${submission.feedbackStatus === "hidden" ? " has-feedback-hidden" : readAdminFeedbackRecovery(submission.id)||submission.feedbackStatus === "draft" ? " has-feedback-draft" : submission.hasPublishedFeedback ? " has-feedback" : ""}`
     );
     button.type = "button";
     button.dataset.adminSubmissionId = submission.id;
     button.setAttribute("aria-current", String(state.selectedAdminSubmissionId === submission.id));
     button.append(
       createElement("strong", "", submission.topic),
-      createElement("span", "", `${submission.studentName || "學生"} · ${formatSubmissionDate(submission.submittedAt)}${submission.deletedAt ? " · 學生已刪除" : ""}`)
+      createElement("span", "", `${submission.studentName || "學生"} · ${formatSubmissionDate(submission.submittedAt)}${submission.deletedAt ? " · 學生已刪除" : ""}${submission.feedbackStatus === "hidden" ? " · 評語已隱藏" : ""}`)
     );
     fragment.append(button);
   }
@@ -10252,6 +10298,8 @@ function bindEvents() {
       scheduleAdminFeedbackRecoverySave();
       return;
     }
+    const visibilityFeedback = event.target.closest("[data-feedback-visibility]");
+    if (visibilityFeedback) return setAdminFeedbackVisibility(visibilityFeedback.dataset.feedbackVisibility === "hide").catch(handleViewError);
     const saveFeedback = event.target.closest("[data-feedback-save]");
     if (saveFeedback) return saveAdminFeedback(saveFeedback.dataset.feedbackSave).catch(handleViewError);
     if (event.target.closest("[data-feedback-delete]")) return deleteAdminFeedback().catch(handleViewError);
