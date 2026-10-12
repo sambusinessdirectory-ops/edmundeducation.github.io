@@ -23,6 +23,32 @@ const example = `module led_blinker (
 endmodule
 `;
 
+test("language switch translates the page headings and source links", () => {
+  const html = readFileSync(new URL("../chip-course.html", import.meta.url), "utf8");
+  const keys = [...html.matchAll(/data-i18n="([^"]+)"/g)].map(match => match[1]);
+  const elements = keys.map(key => ({ dataset: { i18n: key }, textContent: "" }));
+  const buttons = { "lang-en": { setAttribute() {}, addEventListener() {} }, "lang-zh": { setAttribute() {}, addEventListener() {} } };
+  const document = {
+    documentElement: { lang: "en" }, title: "",
+    querySelectorAll() { return elements; },
+    querySelector() { return { setAttribute() {} }; },
+    getElementById(id) { return buttons[id]; },
+    dispatchEvent() {}
+  };
+  const window = {};
+  vm.runInNewContext(readFileSync(new URL("../chip-course-i18n.js", import.meta.url), "utf8"), {
+    window, document, location: { search: "" }, URLSearchParams,
+    localStorage: { getItem() { return null; }, setItem() {} },
+    Event: class { constructor(type) { this.type = type; } }
+  });
+  window.ChipCourseI18n.setLanguage("zh-Hant");
+  assert.equal(document.documentElement.lang, "zh-Hant");
+  assert.equal(document.title, "晶片設計課程 | EdmundEducation");
+  assert.ok(elements.every(element => element.textContent), "every translated page element has text");
+  assert.equal(elements.find(element => element.dataset.i18n === "chipLinkTitle").textContent, "這與製造晶片有甚麼關係？");
+  assert.match(elements.find(element => element.dataset.i18n === "chipLinkBody").textContent, /邏輯綜合/);
+});
+
 test("the edited design changes the browser check", () => {
   const original = simulator.check(example);
   assert.equal(original.passed, true);
@@ -54,24 +80,34 @@ test("the course buttons run, check, restore, and clear the design", () => {
         contains(name) { return classes.has(name); }
       },
       addEventListener(name, handler) { this.handlers[name] = handler; },
+      setAttribute(name, value) { this[name] = value; },
       append(child) { this.children.push(child); },
       replaceChildren(...children) { this.children = children; },
       click() { if (this.handlers.click) this.handlers.click(); else downloads.push(this); }
     };
   }
   const document = {
+    documentElement: { lang: "en" }, handlers: {},
     getElementById(id) { if (!nodes.has(id)) nodes.set(id, element()); return nodes.get(id); },
-    createElement() { return element(); }
+    createElement() { return element(); },
+    querySelectorAll() { return []; },
+    querySelector(selector) { return this.getElementById(selector); },
+    addEventListener(name, handler) { this.handlers[name] = handler; },
+    dispatchEvent(event) { this.handlers[event.type]?.(event); }
   };
   const window = { ChipCourseSimulator: simulator };
   const urls = { createObjectURL() { return "blob:test"; }, revokeObjectURL() {} };
   const intervals = [];
-  const source = readFileSync(new URL("../chip-course-lab.js", import.meta.url), "utf8");
-  vm.runInNewContext(source, {
-    window, document, Blob, URL: urls, setTimeout() {},
+  const context = {
+    window, document, Blob, URL: urls, URLSearchParams, location: { search: "" },
+    localStorage: { getItem() { return null; }, setItem() {} }, Event: class { constructor(type) { this.type = type; } },
+    setTimeout() {},
     setInterval(handler) { intervals.push(handler); return intervals.length; },
     clearInterval() {}
-  });
+  };
+  vm.runInNewContext(readFileSync(new URL("../chip-course-i18n.js", import.meta.url), "utf8"), context);
+  const source = readFileSync(new URL("../chip-course-lab.js", import.meta.url), "utf8");
+  vm.runInNewContext(source, context);
 
   window.ChipCourseLab.load(example);
   assert.equal(nodes.get("led-state").textContent, "LED OFF");
@@ -83,6 +119,13 @@ test("the course buttons run, check, restore, and clear the design", () => {
   nodes.get("design-editor").value = example.replace("led <= ~led;", "led <= led;");
   nodes.get("check-design").click();
   assert.match(nodes.get("lab-status").textContent, /CHECK FAILED at Clock 1/);
+  window.ChipCourseI18n.setLanguage("zh-Hant");
+  assert.equal(document.documentElement.lang, "zh-Hant");
+  assert.equal(nodes.get("design-editor").value, example.replace("led <= ~led;", "led <= led;"));
+  assert.match(nodes.get("lab-status").textContent, /檢查失敗/);
+  assert.equal(nodes.get("led-state").textContent, "LED 滅");
+  assert.equal(nodes.get("lab-trace").children[1].children[0].textContent, "第 1 拍");
+  window.ChipCourseI18n.setLanguage("en");
   nodes.get("restore-design").click();
   nodes.get("check-design").click();
   assert.match(nodes.get("lab-status").textContent, /^PASS:/);

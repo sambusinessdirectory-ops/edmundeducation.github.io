@@ -7,44 +7,46 @@
   <meta name="theme-color" content="#102a42">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src https://ookkxzgpdclzrrhfmvqx.supabase.co; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
   <title>Chip Design Course | EdmundEducation</title>
-  <link rel="stylesheet" href="chip-course.css?v=20261012-lab1">
+  <meta name="description" content="A simple English and Traditional Chinese lesson on designing and checking a tiny LED blinker chip.">
+  <link rel="stylesheet" href="chip-course.css?v=20261012-i18n1">
   <script defer src="supabase-config.js"></script>
   <script defer src="chip-course-simulator.js?v=20261012-lab1"></script>
-  <script defer src="chip-course-lab.js?v=20261012-lab1"></script>
-  <script defer src="chip-course.js?v=20261012-lab1"></script>
+  <script defer src="chip-course-i18n.js?v=20261012-i18n1"></script>
+  <script defer src="chip-course-lab.js?v=20261012-i18n1"></script>
+  <script defer src="chip-course.js?v=20261012-i18n1"></script>
 </head>
 <body>
   <div class="page">
     <header class="site-header">
       <a href="index.html" class="brand">EdmundEducation</a>
-      <span class="card-number">CARD 70 · CHIP DESIGN COURSE</span>
+      <div class="header-actions"><span class="card-number" data-i18n="cardNumber">CARD 70 · CHIP DESIGN COURSE</span><div class="language-switch" role="group" aria-label="Language"><button id="lang-en" type="button" lang="en" aria-pressed="true">English</button><button id="lang-zh" type="button" lang="zh-Hant" aria-pressed="false">繁體中文</button></div></div>
     </header>
 
     <main>
       <div class="course-heading">
-        <p class="eyebrow">One small chip, one step at a time</p>
-        <h1>Chip Design Course</h1>
-        <p>Start with the smallest useful design: a low-voltage LED blinker.</p>
+        <p class="eyebrow" data-i18n="eyebrow">One small chip, one step at a time</p>
+        <h1 data-i18n="pageTitle">Chip Design Course</h1>
+        <p data-i18n="pageIntro">Start with the smallest useful design: a low-voltage LED blinker.</p>
       </div>
 
       <section id="login-screen" class="panel login-panel" aria-labelledby="login-title">
-        <p class="eyebrow">Administrator access</p>
-        <h2 id="login-title">Sign in</h2>
-        <p>Enter the course administrator username and password to open Lesson 1.</p>
+        <p class="eyebrow" data-i18n="adminAccess">Administrator access</p>
+        <h2 id="login-title" data-i18n="signIn">Sign in</h2>
+        <p data-i18n="loginHelp">Enter the course administrator username and password to open Lesson 1.</p>
         <form id="login-form">
-          <label for="username">Username</label>
+          <label for="username" data-i18n="username">Username</label>
           <input id="username" name="username" type="text" autocomplete="username" required>
-          <label for="password">Password</label>
+          <label for="password" data-i18n="password">Password</label>
           <input id="password" name="password" type="password" autocomplete="current-password" required>
-          <button id="login-button" type="submit">Open the course</button>
+          <button id="login-button" type="submit" data-i18n="openCourse">Open the course</button>
         </form>
         <p id="login-message" class="message" role="status" aria-live="polite"></p>
       </section>
 
       <section id="lesson-screen" class="lesson" hidden aria-labelledby="lesson-title">
         <div class="lesson-topbar">
-          <span>LESSON 01</span>
-          <button id="logout-button" class="text-button" type="button">Sign out</button>
+          <span data-i18n="lessonNumber">LESSON 01</span>
+          <button id="logout-button" class="text-button" type="button" data-i18n="signOut">Sign out</button>
         </div>
         <div class="panel lesson-intro">
           <h2 id="lesson-title"></h2>
@@ -54,70 +56,75 @@
 
         <div class="lesson-grid">
           <section class="panel" aria-labelledby="rules-title">
-            <h3 id="rules-title">What the chip does</h3>
+            <h3 id="rules-title" data-i18n="rulesTitle">What the chip does</h3>
             <ol id="lesson-rules"></ol>
           </section>
           <section class="panel" aria-labelledby="words-title">
-            <h3 id="words-title">Plain words</h3>
+            <h3 id="words-title" data-i18n="wordsTitle">Plain words</h3>
             <ul id="lesson-terms" class="terms"></ul>
           </section>
         </div>
 
         <section class="panel" aria-labelledby="design-title">
-          <p class="eyebrow">File 1 · led_blinker.v</p>
-          <h3 id="design-title">The chip design</h3>
+          <p class="eyebrow" data-i18n="fileOne">File 1 · led_blinker.v</p>
+          <h3 id="design-title" data-i18n="designTitle">The chip design</h3>
           <p id="design-explanation"></p>
-          <label class="editor-label" for="design-editor">Edit the design</label>
+          <label class="editor-label" for="design-editor" data-i18n="editDesign">Edit the design</label>
           <textarea id="design-editor" rows="17" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off"></textarea>
           <div class="editor-actions">
-            <button id="restore-design" class="secondary-button" type="button">Restore example</button>
-            <button id="save-design" type="button">Download design file</button>
+            <button id="restore-design" class="secondary-button" type="button" data-i18n="restoreExample">Restore example</button>
+            <button id="save-design" type="button" data-i18n="downloadDesign">Download design file</button>
           </div>
         </section>
 
         <section class="panel" aria-labelledby="lab-title">
-          <p class="eyebrow">Try it here</p>
-          <h3 id="lab-title">LED blinker tool</h3>
-          <p>This browser tool reads the design you edited above. [Simulation; a computer copy of how the chip would behave.] Try changing the last 1'b0 to 1'b1, then click Check design.</p>
-          <p class="lab-limit">This first tool understands the small set of Verilog rules used in this lesson. It does not build a physical chip.</p>
-          <p>Run 8 beats shows four full blinks in about four seconds.</p>
+          <p class="eyebrow" data-i18n="tryHere">Try it here</p>
+          <h3 id="lab-title" data-i18n="labTitle">LED blinker tool</h3>
+          <p data-i18n="labHelp">This browser tool reads the design you edited above. [Simulation; a computer copy of how the chip would behave.] Try changing the last 1'b0 to 1'b1, then click Check design.</p>
+          <p class="lab-limit" data-i18n="labLimit">This first tool understands the small set of Verilog rules used in this lesson. It does not build a physical chip.</p>
+          <p data-i18n="runEightHelp">Run 8 beats shows four full blinks in about four seconds.</p>
           <div class="lab-controls">
-            <label class="enable-control" for="enable-switch"><input id="enable-switch" type="checkbox" checked> Enable blinking</label>
-            <button id="reset-design" class="secondary-button" type="button">Reset</button>
-            <button id="step-design" type="button">One clock beat</button>
-            <button id="run-design" type="button">Run 8 beats</button>
-            <button id="check-design" type="button">Check design</button>
+            <label class="enable-control" for="enable-switch"><input id="enable-switch" type="checkbox" checked> <span data-i18n="enableBlinking">Enable blinking</span></label>
+            <button id="reset-design" class="secondary-button" type="button" data-i18n="reset">Reset</button>
+            <button id="step-design" type="button" data-i18n="oneBeat">One clock beat</button>
+            <button id="run-design" type="button" data-i18n="runEight">Run 8 beats</button>
+            <button id="check-design" type="button" data-i18n="checkDesign">Check design</button>
           </div>
           <div class="led-display"><span id="led-light" class="led-light" aria-hidden="true"></span><strong id="led-state">LED OFF</strong></div>
           <p id="lab-status" class="lab-status" role="status" aria-live="polite"></p>
           <div class="trace-wrap">
             <table>
-              <caption>What happened at each step</caption>
-              <thead><tr><th scope="col">Step</th><th scope="col">Enable</th><th scope="col">LED</th></tr></thead>
+              <caption data-i18n="traceCaption">What happened at each step</caption>
+              <thead><tr><th scope="col" data-i18n="step">Step</th><th scope="col" data-i18n="enable">Enable</th><th scope="col">LED</th></tr></thead>
               <tbody id="lab-trace"></tbody>
             </table>
           </div>
         </section>
 
         <section class="panel" aria-labelledby="test-title">
-          <p class="eyebrow">File 2 · led_blinker_tb.v</p>
-          <h3 id="test-title">The computer test</h3>
+          <p class="eyebrow" data-i18n="fileTwo">File 2 · led_blinker_tb.v</p>
+          <h3 id="test-title" data-i18n="testTitle">The computer test</h3>
           <p id="test-explanation"></p>
           <pre><code id="test-code"></code></pre>
         </section>
 
         <section class="panel" aria-labelledby="run-title">
-          <h3 id="run-title">Run the test</h3>
-          <p>The Check design button above runs the on/off checks in this browser. To run the separate test file on your computer, save the two files with the names above and use these commands:</p>
+          <h3 id="run-title" data-i18n="runTestTitle">Run the test</h3>
+          <p data-i18n="runTestHelp">The Check design button above runs the on/off checks in this browser. To run the separate test file on your computer, save the two files with the names above and use these commands:</p>
           <pre><code id="run-command"></code></pre>
           <p id="expected-result" class="success"></p>
           <p id="clock-note" class="note"></p>
         </section>
+        <section class="panel" aria-labelledby="chip-link-title">
+          <h3 id="chip-link-title" data-i18n="chipLinkTitle">How this leads to a chip</h3>
+          <p data-i18n="chipLinkBody">The code sets the LED's on and off rules. This page lets you check those rules. Later, [synthesis; software that turns the code into connected logic gates.] and [physical design; software that places and wires those gates on a chip.] prepare a design for manufacturing. This page teaches the first design and check step.</p>
+          <p class="source-links"><span data-i18n="readMore">Read more:</span> <a href="https://yosyshq.readthedocs.io/projects/yosys/en/latest/cmd_ref.html" target="_blank" rel="noopener noreferrer" data-i18n="yosysLink">Yosys: turning code into gates</a> · <a href="https://openroad.readthedocs.io/en/latest/main/README.html" target="_blank" rel="noopener noreferrer" data-i18n="openroadLink">OpenROAD: placing and wiring gates</a></p>
+        </section>
       </section>
-      <noscript><p class="panel">Please turn on JavaScript to use this course.</p></noscript>
+      <noscript><p class="panel">Please turn on JavaScript to use this course. / 請啟用 JavaScript 以使用本課程。</p></noscript>
     </main>
 
-    <footer><a href="index.html">← Back to all learning systems</a></footer>
+    <footer><a href="index.html" data-i18n="backLink">← Back to all learning systems</a></footer>
   </div>
 </body>
 </html>

@@ -2,6 +2,7 @@
   "use strict";
 
   const simulator = window.ChipCourseSimulator;
+  const i18n = window.ChipCourseI18n;
   const editor = document.getElementById("design-editor");
   const enableSwitch = document.getElementById("enable-switch");
   const light = document.getElementById("led-light");
@@ -16,6 +17,7 @@
   let beat = 0;
   let trace = [];
   let timer = null;
+  let lastStatus = null;
 
   function stopRun() {
     if (timer !== null) clearInterval(timer);
@@ -23,18 +25,44 @@
     runButton.disabled = false;
   }
 
-  function say(text, kind = "") {
-    status.textContent = text;
+  function say(key, kind = "", ...args) {
+    lastStatus = key ? { key, kind, args } : null;
+    if (key === "designError") status.textContent = i18n.t(key, i18n.t(args[0]));
+    else if (key === "checkFailed") status.textContent = i18n.t(key, rowLabel(args[0]), i18n.t(args[1] ? "on" : "off"), i18n.t(args[2] ? "on" : "off"));
+    else status.textContent = key ? i18n.t(key, ...args) : "";
     status.className = "lab-status" + (kind ? " is-" + kind : "");
+  }
+
+  function rowLabel(label) {
+    if (label === "Reset") return i18n.t("resetRow");
+    if (label === "Reset again") return i18n.t("resetAgainRow");
+    if (label === "Disabled") return i18n.t("disabledRow");
+    const match = /^Clock (\d+)$/.exec(label);
+    return match ? i18n.t("clockRow", Number(match[1])) : label;
+  }
+
+  function parserErrorKey(error) {
+    const detail = error?.message || "";
+    if (detail.startsWith("Unsupported code")) return "errorUnsupported";
+    if (detail.startsWith("Expected ")) return "errorExpected";
+    if (detail.startsWith("Use only ")) return "errorSignals";
+    if (detail.startsWith("A begin block")) return "errorBeginEnd";
+    if (detail.startsWith("This lesson supports")) return "errorOneBlock";
+    if (detail.startsWith("Keep the design under")) return "errorTooLong";
+    if (detail.startsWith("Start with module")) return "errorHeader";
+    if (detail.startsWith("Keep the four")) return "errorPins";
+    if (detail.startsWith("Use the lesson clock")) return "errorClock";
+    if (detail.startsWith("Finish the design")) return "errorFooter";
+    return "errorUnsupported";
   }
 
   function draw() {
     light.classList.toggle("is-on", led === 1);
-    lightLabel.textContent = led ? "LED ON" : "LED OFF";
+    lightLabel.textContent = i18n.t(led ? "ledOn" : "ledOff");
     traceBody.replaceChildren();
     for (const row of trace.slice(-30)) {
       const tr = document.createElement("tr");
-      for (const value of [row.label, row.enable ? "On" : "Off", row.led ? "On" : "Off"]) {
+      for (const value of [rowLabel(row.label), i18n.t(row.enable ? "on" : "off"), i18n.t(row.led ? "on" : "off")]) {
         const td = document.createElement("td");
         td.textContent = value;
         tr.append(td);
@@ -51,7 +79,7 @@
     beat = 0;
     trace = [];
     draw();
-    say("Design error: " + error.message, "error");
+    say("designError", "error", parserErrorKey(error));
   }
 
   function compileCurrent() {
@@ -72,7 +100,7 @@
     activeSource = "";
     try {
       compileCurrent();
-      say("Reset complete. Click One clock beat to move forward.");
+      say("resetComplete");
     } catch (error) {
       fail(error);
     }
@@ -91,7 +119,7 @@
     stopRun();
     try {
       for (let i = 0; i < count; i++) advanceOne();
-      say(count === 1 ? "One clock beat finished." : count + " clock beats finished.");
+      say(count === 1 ? "oneBeatFinished" : "beatsFinished", "", count);
     } catch (error) {
       fail(error);
     }
@@ -102,7 +130,7 @@
     try {
       compileCurrent();
       runButton.disabled = true;
-      say("Blinking now: two clock beats each second.");
+      say("blinkingNow");
       let remaining = 8;
       timer = setInterval(() => {
         try {
@@ -110,7 +138,7 @@
           remaining--;
           if (remaining === 0) {
             stopRun();
-            say("Eight clock beats finished.");
+            say("eightFinished");
           }
         } catch (error) {
           fail(error);
@@ -132,12 +160,10 @@
       beat = 0;
       draw();
       if (result.passed) {
-        say("PASS: the LED turns on, off, stays off when disabled, and resets.", "pass");
+        say("pass", "pass");
       } else {
         const first = result.checks.find(row => !row.passed);
-        say("CHECK FAILED at " + first.label + ": expected LED " +
-          (first.expected ? "ON" : "OFF") + ", got " +
-          (first.actual ? "ON" : "OFF") + ".", "error");
+        say("checkFailed", "error", first.label, first.expected, first.actual);
       }
     } catch (error) {
       fail(error);
@@ -183,8 +209,14 @@
   document.getElementById("check-design").addEventListener("click", runCheck);
   editor.addEventListener("input", () => {
     stopRun();
-    say("Design changed. Click Reset or Check design to run the new rules.");
+    say("designChanged");
   });
 
+  document.addEventListener("chip-course-language-change", () => {
+    draw();
+    if (lastStatus) say(lastStatus.key, lastStatus.kind, ...lastStatus.args);
+  });
+
+  draw();
   window.ChipCourseLab = { load, clear };
 })();

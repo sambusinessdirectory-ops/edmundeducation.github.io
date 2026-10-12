@@ -7,6 +7,10 @@ button,input,textarea{font:inherit}
 .page{max-width:940px;margin:auto;padding:0 22px}
 .site-header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;border-bottom:1px solid #cddce4}
 .brand{font-weight:800;font-size:19px;text-decoration:none;color:#12334c}
+.header-actions{display:flex;align-items:center;justify-content:flex-end;gap:16px;flex-wrap:wrap}
+.language-switch{display:flex;gap:3px;padding:3px;border:1px solid #a9c7d6;border-radius:8px;background:#e5f1f6}
+.language-switch button{border:0;border-radius:5px;background:transparent;color:#155373;padding:7px 10px;font-size:14px;font-weight:700}
+.language-switch button[aria-pressed="true"]{background:#165f85;color:#fff}
 .card-number,.eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;color:#326f8e;text-transform:uppercase}
 .course-heading{padding:43px 0 22px}
 h1{font-size:clamp(32px,5vw,48px);line-height:1.1;margin:8px 0 12px}
@@ -63,4 +67,6 @@ caption{text-align:left;font-weight:700;margin-bottom:9px}
 th,td{padding:9px 11px;border-bottom:1px solid #dbe7ed}
 th{background:#edf6fa}
 footer{padding:20px 0 35px}
+.source-links{font-size:14px;color:#466073}
+.source-links a{font-size:14px}
 @media(max-width:650px){.page{padding:0 15px}.site-header{align-items:flex-start;flex-direction:column}.course-heading{padding-top:30px}.lesson-grid{grid-template-columns:1fr}.panel{padding:19px}}
