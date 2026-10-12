@@ -28,6 +28,13 @@
   function showLogin(text = "") {
     loginScreen.hidden = false;
     lessonScreen.hidden = true;
+    for (const id of [
+      "lesson-title", "lesson-intro", "lesson-boundary", "design-explanation",
+      "test-explanation", "test-code", "run-command", "expected-result", "clock-note"
+    ]) put(id, "");
+    document.getElementById("lesson-rules").replaceChildren();
+    document.getElementById("lesson-terms").replaceChildren();
+    window.ChipCourseLab.clear();
     message(text);
   }
 
@@ -46,7 +53,7 @@
     put("lesson-intro", lesson.intro);
     put("lesson-boundary", lesson.boundary);
     put("design-explanation", lesson.design_explanation);
-    put("design-code", lesson.design_code);
+    window.ChipCourseLab.load(lesson.design_code);
     put("test-explanation", lesson.test_explanation);
     put("test-code", lesson.test_code);
     put("run-command", lesson.run_command);
