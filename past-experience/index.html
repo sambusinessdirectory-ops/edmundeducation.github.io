@@ -172,10 +172,13 @@
     .career-connection a{font-size:11px;font-weight:700;text-decoration:none}
     .experience-item:target{background:#f4f9ff;outline:1px solid #c8dced;border-radius:6px}
     .experience-item{scroll-margin-top:72px}
-  </style>
+
+    .language-bar{background:#fff;border-bottom:1px solid #dbe2df}.language-inner{max-width:1160px;margin:auto;padding:6px 24px;display:flex;align-items:center;justify-content:flex-end;gap:5px;flex-wrap:wrap}.language-inner>span{font-size:11px;color:#64747a;margin-right:5px}.language-inner a{border:1px solid #d5dfde;border-radius:99px;padding:4px 9px;text-decoration:none;font-size:11px;font-weight:700;color:#40545b;white-space:nowrap}.language-inner a[aria-current="page"]{background:#0a66c2;border-color:#0a66c2;color:white}.language-inner a:hover{border-color:#0a66c2}@media(max-width:600px){.language-inner{justify-content:center;padding:7px 10px}.language-inner>span{display:none}}
+</style>
 </head>
 <body>
   <header class="site-header"><div class="header-inner"><div class="header-left"><a class="brand" href="#top" aria-label="Past Experience home"><span class="brand-mark">pe</span><span>Past <em>Experience</em></span></a><form class="search-form" id="profileSearch"><span aria-hidden="true">⌕</span><input type="search" id="searchInput" placeholder="Search this profile" aria-label="Search this profile"></form><span class="search-status" id="searchStatus" role="status"></span></div><nav class="nav" aria-label="Page navigation"><a class="active" href="#top"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg></span>Home</a><a href="#about"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20v-3c0-3 2.5-5 6-5s6 2 6 5v3zm13-1v-2c0-2-1-3.3-2.5-4 3.9-2 9.5 0 9.5 4v2z"/></svg></span>About</a><a href="#experience"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18M10 12h4v3h-4z"/></svg></span>Career</a><a href="#activity"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM7 8h10M7 12h10M7 16h7"/></svg></span>Posts</a><a href="#sources"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v5h4M9 12h7M9 16h7"/></svg></span>Sources</a></nav></div></header>
+  <div class="language-bar"><nav class="language-inner" aria-label="Language / 語言"><span>Language / 語言</span><a data-language-target="en" href="./" aria-current="page" lang="en">English</a><a data-language-target="zh" href="index-zh.html" lang="zh-Hant">繁體中文</a><a data-language-target="bi" href="index-bi.html" lang="zh-Hant">雙語 / Bilingual</a></nav></div>
   <div class="intro-strip"><div class="intro-inner"><strong>A professional network for people who changed the past.</strong> The posts are imagined; the history is sourced.</div></div>
   <main class="layout" id="top">
     <div class="main-col">
@@ -1504,5 +1507,5 @@
       if(experienceFilter.value){experienceFilter.value='';experienceFilter.dispatchEvent(new Event('input'))}
     }));
   </script>
-</body>
+<script>document.querySelectorAll('[data-language-target]').forEach(link=>link.addEventListener('click',()=>{link.hash=location.hash}));</script></body>
 </html>
