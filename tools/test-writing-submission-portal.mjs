@@ -1426,4 +1426,6 @@ test("administrator feedback reads, edits and visibility changes use the submiss
   assert.match(script, /url\.searchParams\.set\("operation", "admin-feedback"\)/);
   assert.match(submissionProxy, /const adminFeedback = \["GET", "PUT", "PATCH", "DELETE"\]\.includes\(request\.method\)/);
   assert.match(submissionProxy, /if \(adminFeedback\) return relayResponse\(response, origin\)/);
+  assert.doesNotMatch(script, /if \(serverFeedback\?\.status === "hidden"\) \{\s*quickSave\.disabled = true/);
+  assert.match(script, /const saveFeedback = event\.target\.closest\("\[data-feedback-save\]"\)/);
 });

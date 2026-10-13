@@ -7663,11 +7663,6 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   remove.type = "button";
   remove.dataset.feedbackDelete = "true";
   remove.hidden = !serverFeedback;
-  if (serverFeedback?.status === "hidden") {
-    quickSave.disabled = true;
-    saveDraft.disabled = true;
-    publish.disabled = true;
-  }
   actions.append(saveDraft, publish, visibility, remove);
   const actionRegion = createElement("section", "teacher-feedback-action-region");
   actionRegion.append(createElement("p", "muted", "評語會發送至學生帳戶；已自願登記電郵的學生，亦會收到評改完成通知。"), status, actions);
