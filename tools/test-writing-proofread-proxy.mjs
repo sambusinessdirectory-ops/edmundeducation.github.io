@@ -19,6 +19,7 @@ function setup() {
       calls.push({url: String(url), options});
       if (String(url).includes('/rest/v1/rpc/writing_submission_proofread_checklist_save')) return Response.json(record);
       if (String(url).includes('/rest/v1/rpc/writing_submission_admin_get_submission_v3')) return Response.json([{proofread_checklist: record}]);
+      if (String(url).includes('/v1/admin/submissions/') && String(url).endsWith('/feedback')) return Response.json({feedback: {id, status: 'hidden'}});
       if (String(url).includes('/v1/admin/submissions/')) return Response.json({submission: {id, answer: 'Essay'}, grammarOccurrences: []});
       if (String(url).includes('/v1/submissions/')) return Response.json({submission: {id, answer: 'Essay'}});
       throw new Error(`Unexpected URL ${url}`);
@@ -59,5 +60,38 @@ test('invalid checklist never reaches either backend', async () => {
     body: JSON.stringify({topic: 'Topic', answer: 'Essay', proofreadChecklist: {...record, checkedIds: ['not-an-item']}})
   }));
   assert.equal(response.status, 400);
+  assert.equal(calls.length, 0);
+});
+
+test('admin feedback visibility and edits use the authenticated relay with no data rewrite', async () => {
+  for (const method of ['GET', 'PUT', 'PATCH', 'DELETE']) {
+    const {handler, calls} = setup();
+    const body = method === 'GET' ? undefined : JSON.stringify({hidden: true, expectedFeedbackId: id, expectedVersion: 3});
+    const response = await handler(new Request(
+      `https://project.supabase.co/functions/v1/writing-submission-proxy?operation=admin-feedback&submissionId=${id}`,
+      {method, headers: {Origin: origin, Authorization: `Bearer ${token}`, ...(body ? {'Content-Type': 'application/json'} : {})}, body}
+    ));
+    assert.equal(response.status, 200, method);
+    assert.equal(response.headers.get('Access-Control-Allow-Origin'), origin, method);
+    assert.equal(calls.length, 1, method);
+    assert.equal(calls[0].url.endsWith(`/v1/admin/submissions/${id}/feedback`), true, method);
+    assert.equal(calls[0].options.method, method);
+    assert.equal(calls[0].options.headers.Authorization, `Bearer ${token}`);
+    if (body) assert.equal(new TextDecoder().decode(calls[0].options.body), body);
+  }
+});
+
+test('admin feedback relay preflight allows restore requests but rejects missing sessions', async () => {
+  const {handler, calls} = setup();
+  const url = `https://project.supabase.co/functions/v1/writing-submission-proxy?operation=admin-feedback&submissionId=${id}`;
+  const preflight = await handler(new Request(url, {
+    method: 'OPTIONS', headers: {Origin: origin, 'Access-Control-Request-Method': 'PATCH'}
+  }));
+  assert.equal(preflight.status, 204);
+  assert.match(preflight.headers.get('Access-Control-Allow-Methods'), /PATCH/);
+  const denied = await handler(new Request(url, {
+    method: 'PATCH', headers: {Origin: origin, 'Content-Type': 'application/json'}, body: '{}'
+  }));
+  assert.equal(denied.status, 401);
   assert.equal(calls.length, 0);
 });

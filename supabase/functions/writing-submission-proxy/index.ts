@@ -11,7 +11,7 @@ const ALLOWED_ORIGINS = new Set([
 function responseHeaders(origin) {
   const headers = new Headers({
     "Access-Control-Allow-Headers": "Authorization, Content-Type",
-    "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
     "Access-Control-Expose-Headers": "Retry-After",
     "Cache-Control": "no-store",
     "Vary": "Origin",
@@ -25,6 +25,15 @@ function jsonError(origin, status, code, message) {
   const headers = responseHeaders(origin);
   headers.set("Content-Type", "application/json; charset=utf-8");
   return new Response(JSON.stringify({ code, error: message }), { status, headers });
+}
+
+function relayResponse(response, origin) {
+  const headers = responseHeaders(origin);
+  const contentType = response.headers.get("Content-Type");
+  const retryAfter = response.headers.get("Retry-After");
+  if (contentType) headers.set("Content-Type", contentType);
+  if (retryAfter) headers.set("Retry-After", retryAfter);
+  return new Response(response.body, { status: response.status, headers });
 }
 
 function validChecklist(value) {
@@ -62,7 +71,7 @@ Deno.serve(async (request) => {
   if (request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: responseHeaders(origin) });
   }
-  if (!["GET", "PUT", "POST"].includes(request.method)) {
+  if (!["GET", "PUT", "POST", "PATCH", "DELETE"].includes(request.method)) {
     return jsonError(origin, 405, "METHOD_NOT_ALLOWED", "Method is not allowed");
   }
 
@@ -71,10 +80,12 @@ Deno.serve(async (request) => {
   const operation = String(requestUrl.searchParams.get("operation") || "");
   const adminSubmission = request.method === "POST" && operation === "admin-submission";
   const adminDetail = request.method === "GET" && operation === "admin-submission-detail" && UUID_RE.test(submissionId);
+  const adminFeedback = ["GET", "PUT", "PATCH", "DELETE"].includes(request.method)
+    && operation === "admin-feedback" && UUID_RE.test(submissionId);
   const studentSubmission = request.method === "PUT" && !operation && UUID_RE.test(submissionId);
   const authorization = String(request.headers.get("Authorization") || "");
   const sessionToken = authorization.replace(/^Bearer\s+/iu, "");
-  if ((!adminSubmission && !adminDetail && !studentSubmission) || !UUID_RE.test(sessionToken)) {
+  if ((!adminSubmission && !adminDetail && !adminFeedback && !studentSubmission) || !UUID_RE.test(sessionToken)) {
     return jsonError(origin, 401, "AUTH_REQUIRED", "A valid session is required");
   }
   if (request.method !== 'GET' && !String(request.headers.get("Content-Type") || "").toLowerCase().startsWith("application/json")) {
@@ -111,6 +122,7 @@ Deno.serve(async (request) => {
     }
     const upstreamPath = adminSubmission
       ? "/v1/admin/submissions"
+      : adminFeedback ? `/v1/admin/submissions/${submissionId}/feedback`
       : adminDetail ? `/v1/admin/submissions/${submissionId}` : `/v1/submissions/${submissionId}`;
     const response = await fetch(`${UPSTREAM_ORIGIN}${upstreamPath}`, {
       method: request.method,
@@ -122,6 +134,7 @@ Deno.serve(async (request) => {
       body: upstreamBody,
       redirect: "manual"
     });
+    if (adminFeedback) return relayResponse(response, origin);
     if (!response.ok || adminSubmission || (studentSubmission && !checklist)) {
       return new Response(response.body, {status: response.status, headers: response.headers});
     }
@@ -151,7 +164,7 @@ Deno.serve(async (request) => {
     });
   } catch (error) {
     console.error("Writing Submission upstream request failed", {
-      operation: adminSubmission ? "admin-submission" : adminDetail ? "admin-detail" : "student-submission",
+      operation: adminSubmission ? "admin-submission" : adminFeedback ? "admin-feedback" : adminDetail ? "admin-detail" : "student-submission",
       submissionId: adminSubmission ? null : submissionId,
       cause: error instanceof Error ? error.message : "Unknown upstream error"
     });

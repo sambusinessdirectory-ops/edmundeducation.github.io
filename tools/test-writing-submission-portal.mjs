@@ -391,7 +391,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
   assert.match(html, /writing-submission\.js\?v=\d{8}-[a-z0-9-]+/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
-  assert.match(submissionProxy, /\["GET", "PUT", "POST"\]\.includes\(request\.method\)/);
+  assert.match(submissionProxy, /\["GET", "PUT", "POST", "PATCH", "DELETE"\]\.includes\(request\.method\)/);
   assert.match(submissionProxy, /searchParams\.get\("submissionId"\)/);
   assert.match(submissionProxy, /UUID_RE\.test\(submissionId\)[\s\S]*UUID_RE\.test\(sessionToken\)/);
   assert.match(submissionProxy, /body\.byteLength > MAX_BODY_BYTES/);
@@ -1418,4 +1418,12 @@ test("admin feedback queue and fullscreen preserve role and editor boundaries", 
   assert.match(script, /dialog.showModal\(\)/);
   assert.match(script, /dialog.addEventListener\("cancel"/);
   assert.match(css, /body.writing-feedback-fullscreen/);
+});
+
+test("administrator feedback reads, edits and visibility changes use the submission relay", () => {
+  assert.match(script, /const adminFeedbackMatch = normalizedPath\.match/);
+  assert.match(script, /\["GET", "PUT", "PATCH", "DELETE"\]\.includes\(normalizedMethod\)/);
+  assert.match(script, /url\.searchParams\.set\("operation", "admin-feedback"\)/);
+  assert.match(submissionProxy, /const adminFeedback = \["GET", "PUT", "PATCH", "DELETE"\]\.includes\(request\.method\)/);
+  assert.match(submissionProxy, /if \(adminFeedback\) return relayResponse\(response, origin\)/);
 });

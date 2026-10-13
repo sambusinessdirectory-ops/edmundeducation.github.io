@@ -2028,6 +2028,15 @@ function apiRequestUrl(path, method = "GET") {
     url.searchParams.set("operation", "admin-submission");
     return url.href;
   }
+  const adminFeedbackMatch = normalizedPath.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})\/feedback$/iu);
+  if (adminFeedbackMatch && ["GET", "PUT", "PATCH", "DELETE"].includes(normalizedMethod)) {
+    const proxyUrl = String(CONFIG.submissionProxyUrl || "").trim();
+    if (!proxyUrl.startsWith("https://")) throw new Error("評語服務尚未完成設定。");
+    const url = new URL(proxyUrl);
+    url.searchParams.set("operation", "admin-feedback");
+    url.searchParams.set("submissionId", adminFeedbackMatch[1].toLowerCase());
+    return url.href;
+  }
   const adminDetailMatch = normalizedPath.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})$/iu);
   if (normalizedMethod === 'GET' && adminDetailMatch) {
     const proxyUrl = String(CONFIG.submissionProxyUrl || '').trim();
@@ -2086,7 +2095,13 @@ async function apiJson(path, options = {}, includeAuth = true, authToken = state
     });
   } catch (cause) {
     if (cause?.name === "AbortError") throw cause;
-    const error = new Error("暫時未能送出文章；您的內容仍安全保留在此頁，請稍候再按「提交文章」。");
+    const adminFeedbackRequest = /^\/v1\/admin\/submissions\/[0-9a-f-]{36}\/feedback$/iu.test(path);
+    const feedbackRead = adminFeedbackRequest && String(options.method || "GET").toUpperCase() === "GET";
+    const error = new Error(adminFeedbackRequest
+      ? feedbackRead
+        ? "暫時未能載入評語；請稍候重試。"
+        : "暫時未能更新評語；評語仍維持原狀，請稍候重試。"
+      : "暫時未能送出文章；您的內容仍安全保留在此頁，請稍候再按「提交文章」。");
     error.code = "SUBMISSION_SERVICE_UNREACHABLE";
     error.cause = cause;
     throw error;
