@@ -52,7 +52,7 @@ assert.match(app, /junior_exam_list_responses/);
 assert.match(html, /data-learning-portal="junior-exam-prep"/);
 assert.match(config, /ordinal: 71, id: "junior-exam-prep"/);
 assert.match(homepage, /href="junior-exam-prep\.html"[^>]*aria-label="初中考試溫習系統"/);
-assert.equal([...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href=/g)].length, 71);
+assert.equal([...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href=/g)].length, 72);
 assert.match(html, /rel="manifest" href="\/pwa-manifests\/junior-exam-prep\.webmanifest"/);
 assert.equal(manifest.start_url, '/junior-exam-prep.html?source=pwa');
 assert.match(pwaCatalog, /"id": "junior-exam-prep"/);

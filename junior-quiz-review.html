@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 初中測驗溫習系統。使用現有學生帳戶登入並完成專屬溫習模組。">
+  <meta name="theme-color" content="#244e65">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="初中測驗溫習">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self' blob:">
+  <title>初中測驗溫習系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/junior-quiz-review.html">
+  <link rel="manifest" href="/pwa-manifests/junior-quiz-review.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="learning-portal-scaffold.css?v=20260908-loading1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
+  <link rel="stylesheet" href="junior-quiz-review/style.css?v=20261013-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body data-learning-portal="junior-quiz-review">
+  <img class="junior-eddy-cursor" src="assets/homepage-optimized/eddie-front-cursor.png" alt="" aria-hidden="true" width="96" height="96" decoding="async">
+  <a class="learning-portal-skip" href="#learning-portal-main">跳至主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="junior-quiz-review">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>初中測驗溫習系統</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+      </div>
+      <div class="edmund-system-header__actions"><span class="connection-pill" data-connection-status data-state="checking">正在連接</span><span class="user-pill" data-user-pill hidden></span><button class="learning-portal-header-button" type="button" data-logout hidden>登出</button></div>
+    </div>
+  </header>
+  <main class="learning-portal-shell" id="learning-portal-main" data-learning-portal-root></main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="learning-portal-config.js?v=20261012-junior1"></script>
+  <script src="shared-system-nav.js?v=20261012-junior1"></script>
+  <script src="learning-portal-scaffold.js?v=20260810-1"></script>
+  <script defer src="junior-exam-prep/cursor.js?v=20261012-s2-2"></script>
+  <script type="module" src="junior-quiz-review/app.mjs?v=20261013-1"></script>
+</body>
+</html>

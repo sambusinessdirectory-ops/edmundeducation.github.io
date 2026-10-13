@@ -114,6 +114,8 @@ jobs:
         run: |
           node --check junior-exam-prep/app.mjs
           node tools/test-junior-exam-prep.mjs
+          node --check junior-quiz-review/app.mjs
+          node tools/test-junior-quiz-review.mjs
           node tools/test-schedule-system.mjs
 
       - name: Validate focused Paper 3 curation release
