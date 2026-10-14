@@ -4,8 +4,8 @@ import vm from "node:vm";
 import { createRequire } from "node:module";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [tenseData, tenseRuntime, articlesData, articlesRuntime, css, sql, workflow] = await Promise.all([
-  read("grammar-tense-data.js"), read("grammar-system.js"), read("grammar-articles-data.js"),
+const [tenseData, tenseGuide, tenseRuntime, articlesData, articlesRuntime, css, sql, workflow] = await Promise.all([
+  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("grammar-system.js"), read("grammar-articles-data.js"),
   read("grammar-articles.js"), read("grammar-system.css"), read("supabase-grammar-articles-progress.sql"),
   read(".github/workflows/pages.yml")
 ]);
@@ -46,6 +46,7 @@ const makeDom = (url) => {
   const { window: w } = dom;
   w.HTMLElement.prototype.scrollIntoView = function () {};
   w.eval(tenseData);
+  w.eval(tenseGuide);
   w.eval(articlesData);
   w.eval(tenseRuntime);
   w.eval(articlesRuntime);

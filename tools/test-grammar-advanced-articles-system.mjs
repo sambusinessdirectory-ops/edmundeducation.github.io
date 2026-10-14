@@ -4,8 +4,8 @@ import vm from "node:vm";
 import { createRequire } from "node:module";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [tenseData, tenseRuntime, articleData, articleRuntime, advancedData, advancedRuntime, html, css, sql, workflow] = await Promise.all([
-  read("grammar-tense-data.js"), read("grammar-system.js"), read("grammar-articles-data.js"), read("grammar-articles.js"),
+const [tenseData, tenseGuide, tenseRuntime, articleData, articleRuntime, advancedData, advancedRuntime, html, css, sql, workflow] = await Promise.all([
+  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("grammar-system.js"), read("grammar-articles-data.js"), read("grammar-articles.js"),
   read("grammar-advanced-articles-data.js"), read("grammar-advanced-articles.js"), read("grammar-system.html"),
   read("grammar-system.css"), read("supabase-grammar-advanced-articles-progress.sql"), read(".github/workflows/pages.yml")
 ]);
@@ -46,7 +46,7 @@ function makeDom(url) {
   });
   const w = dom.window;
   w.HTMLElement.prototype.scrollIntoView = function () {};
-  for (const source of [tenseData, articleData, advancedData, tenseRuntime, articleRuntime, advancedRuntime]) w.eval(source);
+  for (const source of [tenseData, tenseGuide, articleData, advancedData, tenseRuntime, articleRuntime, advancedRuntime]) w.eval(source);
   return dom;
 }
 function submit(w, value) {

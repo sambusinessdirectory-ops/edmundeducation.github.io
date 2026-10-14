@@ -11,9 +11,11 @@
   const questions = Array.isArray(window.EDMUND_GRAMMAR_TENSE_QUESTIONS)
     ? replaceMiaWithTom(window.EDMUND_GRAMMAR_TENSE_QUESTIONS)
     : [];
+  const guide = Array.isArray(window.EDMUND_GRAMMAR_TENSE_CURATION)
+    ? window.EDMUND_GRAMMAR_TENSE_CURATION : [];
   const explanationModeKey = "edmund-grammar-tense-explanation-mode-v1";
   const portalRoot = document.querySelector('[data-learning-portal-root]');
-  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1)) {
+  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1) || guide.length !== 19) {
     console.error("Tense practice data is incomplete.");
     return;
   }
@@ -36,6 +38,13 @@
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"]/g, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"
   })[character]);
+
+  function renderGuideCard(item, index) {
+    const examples = item.examples.map(([english, chinese]) => `<div class="grammar-tense-example"><p lang="en">${escapeHtml(english)}</p><span lang="zh-Hant">${escapeHtml(chinese)}</span></div>`).join("");
+    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div><div class="grammar-tense-topic__check"><strong>答題時檢查</strong><p>${escapeHtml(item.check)}</p></div><p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
+  }
+
+  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"]];
 
   function normaliseAnswer(value) {
     return String(value ?? "")
@@ -99,17 +108,24 @@
         <div><p class="eyebrow">GRAMMAR PRACTICE</p><h2 id="grammar-library-title">語法練習</h2><p>先作答，再逐步理解時態選擇。</p></div>
       </div>
       <article class="grammar-lesson-card">
-        <div class="grammar-lesson-card__copy"><p class="eyebrow">EXERCISE 01 · 150 QUESTIONS</p><h3>Tense <span lang="zh-Hant">時態</span></h3><p>每題提交後即時顯示對錯，並開啟逐步解析。無需先背誦長篇規則。</p></div>
+        <div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE 01 · CURATION + 150 QUESTIONS</p><h3>Tense <span lang="zh-Hant">時態</span></h3><p>先用捲動導讀建立時間線和解題方法，再做 150 題；每題提交後仍有逐步解析。</p></div>
         <div class="grammar-lesson-card__stats" aria-label="Tense 練習進度">
           <div><strong data-correct-count>0</strong><span>已答對</span></div>
           <div><strong data-attempted-count>0</strong><span>已作答</span></div>
-          <button class="grammar-button" type="button" data-start-tense>開始練習</button>
+          <button class="grammar-button" type="button" data-open-tense-guide>進入時態導讀</button>
+          <button class="grammar-button grammar-lesson-card__secondary" type="button" data-start-tense>直接開始練習</button>
         </div>
       </article>
     </section>
+    <section class="panel grammar-articles-curation grammar-tense-curation" data-tense-curation hidden aria-labelledby="tense-curation-title">
+      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>從 150 題解析逆向整理：先抓時間點，再分清正在進行、已完成，還是已持續多久。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button><span data-tense-position>導讀 1 / 19</span></div></div>
+      <nav class="grammar-articles-chapters" aria-label="時態導讀章節">${guideChapters.map(([number, label]) => `<button type="button" data-tense-jump="${number}">${escapeHtml(label)}</button>`).join("")}</nav>
+      <div class="grammar-articles-stream grammar-tense-stream" data-tense-stream>${guide.map(renderGuideCard).join("")}</div>
+      <div class="grammar-articles-curation__finish"><h3>帶著時間線開始做題</h3><p>第 1–50 題先逐一建立各種用法；第 51–150 題混合重練。答題後的原有逐步解析會保留。</p><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button></div>
+    </section>
     <section class="panel grammar-practice" data-grammar-practice hidden aria-labelledby="grammar-practice-title">
       <div class="grammar-practice__head">
-        <div><button class="grammar-button--ghost" type="button" data-back-library>← 返回練習目錄</button><p class="eyebrow">TENSE · 時態</p><h2 id="grammar-practice-title">逐題練習</h2></div>
+        <div><div class="grammar-tense-practice__back"><button class="grammar-button--ghost" type="button" data-back-tense-guide>← 返回時態導讀</button><button class="grammar-button--ghost" type="button" data-back-library>返回練習目錄</button></div><p class="eyebrow">TENSE · 時態</p><h2 id="grammar-practice-title">逐題練習</h2></div>
         <div class="grammar-practice__tools">
           <div class="grammar-reading-mode" role="group" aria-label="解析閱讀模式">
             <span class="grammar-reading-mode__label">解析模式</span>
@@ -146,8 +162,9 @@
     </section>`;
 
   const elements = {
-    library: dashboard.querySelector("[data-grammar-library]"), practice: dashboard.querySelector("[data-grammar-practice]"),
-    start: dashboard.querySelector("[data-start-tense]"), back: dashboard.querySelector("[data-back-library]"),
+    library: dashboard.querySelector("[data-grammar-library]"), curation: dashboard.querySelector("[data-tense-curation]"), practice: dashboard.querySelector("[data-grammar-practice]"),
+    start: dashboard.querySelector("[data-start-tense]"), guideOpen: dashboard.querySelector("[data-open-tense-guide]"), guideBack: dashboard.querySelector("[data-back-tense-guide]"), back: dashboard.querySelector("[data-back-library]"),
+    guideStream: dashboard.querySelector("[data-tense-stream]"), guidePosition: dashboard.querySelector("[data-tense-position]"),
     correctCount: dashboard.querySelector("[data-correct-count]"), attemptedCount: dashboard.querySelector("[data-attempted-count]"),
     score: dashboard.querySelector("[data-practice-score]"), progress: dashboard.querySelector(".grammar-progress"), progressFill: dashboard.querySelector("[data-progress-fill]"),
     range: dashboard.querySelector("[data-question-range]"), grid: dashboard.querySelector("[data-question-grid]"),
@@ -300,9 +317,9 @@
     delete elements.saveStatus.dataset.state;
     renderGrid();
     const route = new URL(window.location.href);
-    if (!elements.practice.hidden || !["articles", "advanced-articles"].includes(route.searchParams.get("lesson"))) {
+    if (!elements.practice.hidden) {
       route.searchParams.set("lesson", "tense");
-      route.searchParams.delete("view");
+      route.searchParams.set("view", "practice");
       route.searchParams.set("question", String(state.current));
       window.history.replaceState(null, "", `${route.pathname}${route.search}${route.hash}`);
     }
@@ -312,6 +329,64 @@
   function requestedQuestion() {
     const number = Number(new URLSearchParams(window.location.search).get("question"));
     return Number.isInteger(number) && number >= 1 && number <= 150 ? number : 0;
+  }
+
+  function setTenseRoute(view, number = 0) {
+    const route = new URL(window.location.href);
+    route.searchParams.set("lesson", "tense");
+    route.searchParams.set("view", view);
+    if (number) route.searchParams.set("question", String(number));
+    else route.searchParams.delete("question");
+    window.history.replaceState(null, "", `${route.pathname}${route.search}${route.hash}`);
+  }
+
+  function updateCurationReveal() {
+    if (elements.curation.hidden) return;
+    const height = window.innerHeight || document.documentElement.clientHeight || 800;
+    const cards = [...elements.guideStream.querySelectorAll("[data-tense-topic]")];
+    let revealed = 1;
+    cards.forEach((card, index) => {
+      if (index === 0 || card.getBoundingClientRect().top <= height * 0.88) revealed = index + 1;
+    });
+    cards.forEach((card, index) => {
+      const visible = index < revealed;
+      if (card.dataset.scrollVisible === String(visible)) return;
+      card.dataset.scrollVisible = String(visible);
+      card.setAttribute("aria-hidden", String(!visible));
+      if (visible) card.removeAttribute("inert"); else card.setAttribute("inert", "");
+    });
+    elements.guidePosition.textContent = `導讀 ${revealed} / ${cards.length}`;
+  }
+
+  function showTenseGuide() {
+    clearGrammarHighlights({ disable: true });
+    elements.library.hidden = true;
+    elements.practice.hidden = true;
+    elements.curation.hidden = false;
+    setTenseRoute("curation");
+    elements.curation.scrollIntoView({ behavior: "instant", block: "start" });
+    updateCurationReveal();
+  }
+
+  function showTensePractice(number = state.current, focus = false) {
+    elements.library.hidden = true;
+    elements.curation.hidden = true;
+    elements.practice.hidden = false;
+    showQuestion(number, focus);
+    elements.practice.scrollIntoView({ behavior: "instant", block: "start" });
+  }
+
+  function showTenseMenu() {
+    clearGrammarHighlights({ disable: true });
+    elements.practice.hidden = true;
+    elements.curation.hidden = true;
+    elements.library.hidden = false;
+    const route = new URL(window.location.href);
+    route.searchParams.delete("lesson");
+    route.searchParams.delete("view");
+    route.searchParams.delete("question");
+    window.history.replaceState(null, "", `${route.pathname}${route.search}${route.hash}`);
+    elements.library.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function explanationSteps(question) {
@@ -514,8 +589,15 @@
     void loadBookmarks();
   }
 
-  elements.start.addEventListener("click", () => { elements.library.hidden = true; elements.practice.hidden = false; showQuestion(state.current, true); });
-  elements.back.addEventListener("click", () => { clearGrammarHighlights({ disable: true }); elements.practice.hidden = true; elements.library.hidden = false; elements.library.scrollIntoView({ behavior: "smooth", block: "start" }); });
+  elements.guideOpen.addEventListener("click", showTenseGuide);
+  elements.curation.querySelector("[data-tense-menu]").addEventListener("click", showTenseMenu);
+  elements.curation.querySelectorAll("[data-tense-start]").forEach((button) => button.addEventListener("click", () => showTensePractice(1)));
+  elements.curation.querySelectorAll("[data-tense-jump]").forEach((button) => button.addEventListener("click", () => {
+    elements.curation.querySelector(`#tense-topic-${button.dataset.tenseJump}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  elements.start.addEventListener("click", () => showTensePractice(state.current, true));
+  elements.guideBack.addEventListener("click", showTenseGuide);
+  elements.back.addEventListener("click", showTenseMenu);
   elements.range.addEventListener("change", () => showQuestion(Number(elements.range.value), true));
   elements.explanationModeButtons.forEach((button) => button.addEventListener("click", () => {
     state.explanationMode = button.dataset.explanationModeOption;
@@ -523,6 +605,7 @@
     updateExplanationMode();
   }));
   window.addEventListener("scroll", updateScrollReveal, { passive: true });
+  window.addEventListener("scroll", updateCurationReveal, { passive: true });
   elements.form.addEventListener("submit", submitAnswer);
   elements.previous.addEventListener("click", () => showQuestion(state.current - 1, true));
   elements.next.addEventListener("click", () => showQuestion(state.current + 1, true));
@@ -566,5 +649,10 @@
   showQuestion(requestedQuestion() || 1);
   updateExplanationMode();
   updateTotals();
+  const initialRoute = new URLSearchParams(window.location.search);
+  if (initialRoute.get("lesson") === "tense") {
+    if (requestedQuestion() && initialRoute.get("view") !== "curation") showTensePractice(requestedQuestion());
+    else showTenseGuide();
+  }
   queueMicrotask(adoptSession);
 })();

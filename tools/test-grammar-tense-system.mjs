@@ -3,15 +3,17 @@ import fs from "node:fs/promises";
 import vm from "node:vm";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [html, css, runtime, dataSource, sql, workflow] = await Promise.all([
+const [html, css, runtime, dataSource, guideSource, sql, workflow] = await Promise.all([
   read("grammar-system.html"), read("grammar-system.css"), read("grammar-system.js"),
-  read("grammar-tense-data.js"), read("supabase-grammar-tense-progress.sql"), read(".github/workflows/pages.yml")
+  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("supabase-grammar-tense-progress.sql"), read(".github/workflows/pages.yml")
 ]);
 
 const context = { window: {} };
 vm.createContext(context);
 vm.runInContext(dataSource, context);
+vm.runInContext(guideSource, context);
 const questions = context.window.EDMUND_GRAMMAR_TENSE_QUESTIONS;
+const guide = context.window.EDMUND_GRAMMAR_TENSE_CURATION;
 
 assert.equal(questions.length, 150, "Tense lesson must contain all 150 PDF questions");
 assert.deepEqual(Array.from(questions, (item) => item.number), Array.from({ length: 150 }, (_, index) => index + 1));
@@ -28,8 +30,13 @@ assert.equal(questions[50].answer, "brings");
 assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
+assert.equal(guide.length, 19, "Tense curation must teach a progressive decision sequence");
+assert.ok(guide.every((item) => item.title && item.focus && item.formula && item.examples.length === 2 && item.check && item.source));
+for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Present Continuous", "Past Continuous", "Future Continuous", "Present Perfect", "Past Perfect", "Future Perfect", "Perfect Continuous", "Modal Perfect"]) {
+  assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
+}
 
-for (const asset of ["grammar-system.css?v=20261012-advanced1", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261012-advanced1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
+for (const asset of ["grammar-system.css?v=20261014-tense-guide1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261014-tense-guide1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -72,7 +79,28 @@ for (const native of [false, true]) {
   const w=dom.window, d=w.document;
   w.HTMLElement.prototype.scrollIntoView=function(){};
   if(native){w.CSS={highlights:new Map()};w.Highlight=class extends Set{constructor(...ranges){super(ranges)}};}
-  w.eval(dataSource);w.eval(runtime);
+  w.eval(dataSource);w.eval(guideSource);w.eval(runtime);
+  const cards=[...d.querySelectorAll('[data-tense-topic]')];
+  assert.equal(cards.length,19,'all guide stages are present');
+  Object.defineProperty(w,'scrollY',{configurable:true,writable:true,value:0});
+  cards.forEach((card,index)=>{card.getBoundingClientRect=()=>({top:600+index*450-w.scrollY})});
+  d.querySelector('[data-open-tense-guide]').click();
+  assert.equal(d.querySelector('[data-tense-curation]').hidden,false);
+  assert.match(w.location.search,/lesson=tense&view=curation/);
+  assert.equal(cards[0].dataset.scrollVisible,'true');
+  assert.equal(cards[1].dataset.scrollVisible,'false','later guide cards are initially concealed');
+  w.scrollY=500;w.dispatchEvent(new w.Event('scroll'));
+  assert.equal(cards[1].dataset.scrollVisible,'true','scrolling down reveals the next concept');
+  assert.equal(cards[2].dataset.scrollVisible,'false','scrolling reveals concepts progressively');
+  w.scrollY=0;w.dispatchEvent(new w.Event('scroll'));
+  assert.equal(cards[1].dataset.scrollVisible,'false','scrolling up conceals later concepts');
+  d.querySelector('[data-tense-start]').click();
+  assert.equal(d.querySelector('[data-tense-curation]').hidden,true);
+  assert.equal(d.querySelector('[data-grammar-practice]').hidden,false);
+  d.querySelector('[data-back-tense-guide]').click();
+  assert.equal(d.querySelector('[data-tense-curation]').hidden,false,'practice can return to curation');
+  d.querySelector('[data-tense-menu]').click();
+  assert.equal(d.querySelector('[data-grammar-library]').hidden,false,'guide can return to lesson menu');
   d.querySelector('[data-start-tense]').click();
   const button=d.querySelector('[data-grammar-highlight]'), prompt=d.querySelector('[data-question-prompt]');
   const text=prompt.textContent;
@@ -98,7 +126,7 @@ for (const native of [false, true]) {
   assert.equal(stepMode.getAttribute('aria-pressed'),'true','step mode remains the default');
   assert.equal(steps[0].hidden,false);
   assert.equal(steps[1].hidden,true,'later explanations begin hidden in step mode');
-  Object.defineProperty(w,'scrollY',{configurable:true,writable:true,value:0});
+  w.scrollY=0;
   const stepList=d.querySelector('[data-inline-steps]');
   stepList.getBoundingClientRect=()=>({top:200-w.scrollY});
   steps.forEach((step,index)=>Object.defineProperty(step,'offsetTop',{configurable:true,value:index*180}));
@@ -136,3 +164,20 @@ for (const native of [false, true]) {
   dom.window.close();
 }
 console.log('Grammar highlighter: exact selection, clear, next question, explanations, grading and logout passed in native and fallback modes.');
+
+for (const [url, expectedView] of [
+  ['https://example.test/grammar-system.html?lesson=tense', 'curation'],
+  ['https://example.test/grammar-system.html?lesson=tense&question=1', 'practice'],
+  ['https://example.test/grammar-system.html?lesson=tense&view=practice&question=94', 'practice']
+]) {
+  const dom = new JSDOM('<main data-learning-portal-root><section data-view="dashboard"><div class="learning-portal-empty"></div></section></main>', { runScripts: 'outside-only', pretendToBeVisual: true, url });
+  dom.window.HTMLElement.prototype.scrollIntoView = function () {};
+  dom.window.eval(dataSource);
+  dom.window.eval(guideSource);
+  dom.window.eval(runtime);
+  const section = dom.window.document.querySelector(expectedView === 'curation' ? '[data-tense-curation]' : '[data-grammar-practice]');
+  assert.equal(section.hidden, false, `${url} should open ${expectedView}`);
+  if (url.includes('question=94')) assert.equal(dom.window.document.querySelector('.grammar-question__number').textContent, 'QUESTION 94 / 150');
+  dom.window.close();
+}
+console.log('Tense guide and direct question routes passed.');
