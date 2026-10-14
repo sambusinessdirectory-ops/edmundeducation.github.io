@@ -5,7 +5,7 @@
     { ordinal: 30, id: "quotes", href: "quotes-system.html", lines: ["Quotes", "名人英文語錄", "學習系統"], dashboard: true, hue: 24 },
     { ordinal: 31, id: "grammar", href: "grammar-system.html", lines: ["Grammar", "英文語法學習"], dashboard: true, hue: 215 },
     { ordinal: 32, id: "collocation", href: "collocation-system.html", lines: ["Collocation", "英文配詞", "學習系統"], dashboard: true, hue: 162 },
-    { ordinal: 33, id: "irregular-verb", href: "irregular-verb-system.html", lines: ["Irregular Verb", "不規則動詞", "學習系統"], dashboard: true, hue: 348 },
+    { ordinal: 33, id: "irregular-verb", href: "irregular-verb-system.html", lines: ["Irregular Verb", "不規則動詞", "學習系統"], dashboard: false, blankAfterLogin: true, hue: 202 },
     { ordinal: 34, id: "thematic-vocabulary", href: "thematic-vocabulary-system.html", lines: ["Thematic Vocabulary", "主題性生字記錄大全"], dashboard: true, hue: 278 },
     { ordinal: 35, id: "part-of-speech", href: "part-of-speech-system.html", lines: ["Part Of Speech (POS)", "詞性練習系統"], dashboard: true, hue: 42 },
     { ordinal: 36, id: "synonyms", href: "synonyms-system.html", lines: ["Synonyms", "同義詞", "學習系統"], dashboard: false, hue: 188 },
