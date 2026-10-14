@@ -98,6 +98,8 @@ jobs:
           node tools/test-natural-english-import.mjs
           npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-natural-english-modules.mjs
+          node tools/test-advanced-native.mjs
+          node tools/build-advanced-native-catalogue.mjs --check
 
       - name: Validate focused Homework export release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homework-release]') }}
