@@ -31,6 +31,9 @@ for(const lesson of lessons){
   assert.equal(lesson.questions.length,6);
   assert.equal(lesson.steps[1].style,'reply');
   assert.equal(lesson.questions[1].allCorrect,true);
+  assert.ok(lesson.questions[0].id.endsWith('-v1-audio'));
+  assert.ok(lesson.questions[2].id.endsWith('-v1-scene'));
+  assert.ok(lesson.questions[1].id.endsWith('-v2-reply'));
   assert.equal(lesson.questions[1].answers.length,4);
   assert.ok(lesson.questions[1].options.includes(lesson.questions[1].golden));
   assert.ok(lesson.steps.some(s=>s.recording==='phrase'&&s.displayModel.includes('__________________')));
@@ -41,7 +44,7 @@ for(const lesson of lessons){
   assert.equal(lesson.questions.at(-1).type,'open');
   for(const q of lesson.questions){
     assert.ok(!seen.has(q.id),`Duplicate question ${q.id}`);seen.add(q.id);
-    assert.equal(allQuestionMap.get(q.id),q);
+    assert.deepEqual(allQuestionMap.get(q.id),q);
     assert.ok(q.explanation&&q.answers.length);
     if(q.type==='mc'){
       assert.equal(q.options.length,new Set(q.options).size);

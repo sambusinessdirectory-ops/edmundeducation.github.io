@@ -1,4 +1,4 @@
-import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc} from './catalogue.mjs?v=20260929-full-redesign-v1';
+import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc} from './catalogue.mjs?v=20261014-advanced-native-v3';
 import {audioManifest} from './audio/manifest.mjs?v=20260929-full-redesign-v1';
 import {mountRecorder,listRecordings,storeRecording} from './recording.mjs?v=20260929-lesson102v4';
 const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null;const voiceUrls=new Map();

@@ -71,7 +71,9 @@ const lessons=[
 ];
 
 export default lessons.map(data=>{
-  const qid=(name)=>`${data.id}-v2-${name}`;
+  // Keep existing question IDs so students retain completed work; only the new
+  // reply step receives a new ID.
+  const qid=(name)=>`${data.id}-${name==='reply'?'v2':'v1'}-${name}`;
   const questions=[
     mc(qid('audio'),'audio','先只聽示範句。說話者想表達甚麼？',
       [data.meaning,'這句只在描述一個具體地點。','這句表示事情一定很容易。','這句的重點是準確的日期和時間。'],data.meaning,

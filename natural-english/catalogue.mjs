@@ -2,7 +2,7 @@ import * as scoop from './scoop.mjs';
 import importedLessons from './imported-lessons.mjs';
 import editorialLessons from './editorial-lessons.mjs';
 import lesson102 from './lesson-102.mjs';
-import advancedExpressions from './advanced-expressions.mjs';
+import advancedExpressions from './advanced-expressions.mjs?v=20261014-progress-v3';
 const correctedTitleEn={452:'The straw is clogged.',453:'The paper straw has gone soggy.'};
 const mc=(id,prompt,options,answer,explanation)=>({id,type:'mc',prompt,options,answers:[answer],explanation});
 const blank=(id,prompt,before,after,answers,hint)=>({id,type:'blank',prompt,before,after,answers:Array.isArray(answers)?answers:[answers],hint,explanation:`答案是 ${Array.isArray(answers)?answers[0]:answers}。${hint}`});
