@@ -2,7 +2,7 @@
   'use strict';
   let mode = document.body.dataset.logicView;
   const exactMiaToMary = (value) => String(value ?? '').replace(/\bMia\b/g, 'Mary');
-  const questions = (window.READING_LOGIC_MODULE_1_QUESTIONS || []).map((question) => ({
+  const moduleOneQuestions = (window.READING_LOGIC_MODULE_1_QUESTIONS || []).map((question) => ({
     ...question,
     promptEn: exactMiaToMary(question.promptEn),
     promptZh: exactMiaToMary(question.promptZh),
@@ -13,22 +13,33 @@
   const dashboard = document.querySelector('[data-view="dashboard"]');
   if (!dashboard || !['home', 'lesson', 'exercise'].includes(mode)) return;
   const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const lessonUrl = 'reading-logic-module-1.html';
-  const exerciseUrl = 'reading-logic-exercise-1.html';
   const homeUrl = 'reading-logic-system.html';
-  const routes = {
-    [homeUrl]: { mode: 'home', title: 'Reading Logic｜閱讀理解｜題型邏輯｜EdmundEducation' },
-    [lessonUrl]: { mode: 'lesson', title: '全稱實例化｜互動教材｜EdmundEducation' },
-    [exerciseUrl]: { mode: 'exercise', title: '全稱實例化｜40 題練習｜EdmundEducation' }
+  const moduleInfo = {
+    1: {title:'全稱實例化',english:'Universal Instantiation',short:'全體 → 個體',phases:['基礎建立','範圍、分類與方向','多重條件與隱藏陷阱','綜合與高階判斷'],practiceReady:true},
+    ...(window.READING_LOGIC_MODULE_CONTENT || {})
   };
-  const phases = ['基礎建立', '範圍、分類與方向', '多重條件與隱藏陷阱', '綜合與高階判斷'];
+  let moduleId = Number(location.pathname.match(/reading-logic-(?:module|exercise)-(\d+)\.html$/)?.[1]) || 1;
+  let info = moduleInfo[moduleId] || moduleInfo[1];
+  let questions = [];
+  let phases = [];
+  let lessonUrl = '';
+  let exerciseUrl = '';
+  const routes = { [homeUrl]: {mode:'home',module:0,title:'Reading Logic｜閱讀理解｜題型邏輯｜EdmundEducation'} };
+  for (const [id, item] of Object.entries(moduleInfo)) {
+    const lesson = `reading-logic-module-${id}.html`;
+    routes[lesson] = {mode:'lesson',module:Number(id),title:`${item.title}｜互動教材｜EdmundEducation`};
+    if (item.practiceReady !== false) {
+      const exercise = `reading-logic-exercise-${id}.html`;
+      routes[exercise] = {mode:'exercise',module:Number(id),title:`${item.title}｜練習｜EdmundEducation`};
+    }
+  }
   const state = { userId: '', stage: 0, question: 0, reverse: false, solved: new Set(), streak: 0, bestStreak: 0 };
   const companionNames = { eddy: 'Eddie', phoebe: 'Phoebe', elsie: 'Elsie', noir: 'Noir', celeste: 'Celeste' };
   let companionApi;
   let lessonObserver;
   let lessonScrollFrame = 0;
   let lessonHasMovedAway = false;
-  const stages = [
+  const moduleOneStages = [
     {name:'全體 → 個體', accent:'gold', steps:[
       '<strong>原句說「全部」</strong>，就涵蓋群體裡的每一個成員。',
       '知道某個人或物件 <strong>確實在這個群體裡</strong>，才能把規則用在它身上。',
@@ -116,13 +127,31 @@
       '全體 → 個體，就是第三層最清晰的推理。準備好後，進入 40 題練習。'
     ]}
   ];
+  let stages = moduleOneStages;
+  function activateModule(id) {
+    moduleId = moduleInfo[id] ? id : 1;
+    info = moduleInfo[moduleId];
+    stages = moduleId === 1 ? moduleOneStages : info.stages;
+    questions = moduleId === 1 ? moduleOneQuestions : (window[`READING_LOGIC_MODULE_${moduleId}_QUESTIONS`] || []);
+    phases = info.phases;
+    lessonUrl = `reading-logic-module-${moduleId}.html`;
+    exerciseUrl = `reading-logic-exercise-${moduleId}.html`;
+    state.question = 0;
+    state.reverse = false;
+    state.stage = 0;
+    state.solved = new Set();
+    state.streak = 0;
+    state.bestStreak = 0;
+    if (state.userId) loadProgress();
+  }
+  activateModule(moduleId);
 
-  function storageKey() { return `edmund-reading-logic-module-1:${state.userId}`; }
+  function storageKey() { return `edmund-reading-logic-module-${moduleId}:${state.userId}`; }
   function loadProgress() {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey()) || '{}');
       state.stage = Math.max(0, Math.min(stages.length - 1, Number(saved.stage) || 0));
-      state.solved = new Set((saved.solved || []).filter((n) => Number.isInteger(n) && n >= 1 && n <= 40));
+      state.solved = new Set((saved.solved || []).filter((n) => Number.isInteger(n) && n >= 1 && n <= questions.length));
       state.streak = Math.max(0, Number(saved.streak) || 0);
       state.bestStreak = Math.max(state.streak, Number(saved.bestStreak) || 0);
     } catch { state.stage = 0; state.solved = new Set(); state.streak = 0; state.bestStreak = 0; }
@@ -151,27 +180,37 @@
   import('../shared-companion.mjs?v=20260928-sync1').then((api) => { companionApi = api; updateStreakDisplay(); }).catch(() => { /* Eddie remains available. */ });
   function shell(inner, wide=false) {
     dashboard.innerHTML = `<div class="logic-app ${wide?'logic-app--wide':''}">
-      <div class="logic-topline"><a href="${homeUrl}">閱讀理解 · 題型邏輯</a><span>MODULE 01 / 全稱實例化</span></div>${inner}</div>`;
+      <div class="logic-topline"><a href="${homeUrl}">閱讀理解 · 題型邏輯</a><span>${mode==='home'?'READING LOGIC':`MODULE ${String(moduleId).padStart(2,'0')} / ${esc(info.title)}`}</span></div>${inner}</div>`;
   }
   function moduleNav(active) {
-    return `<div class="logic-module-heading"><p class="logic-kicker">MODULE 01</p><h1>全稱實例化 <span lang="en">Universal Instantiation</span></h1><p>全體 → 個體</p><nav aria-label="第一單元內容"><a href="${lessonUrl}" ${active==='lesson'?'aria-current="page"':''}>互動教材</a><a href="${exerciseUrl}" ${active==='exercise'?'aria-current="page"':''}>40 題練習</a></nav></div>`;
+    return `<div class="logic-module-heading"><p class="logic-kicker">MODULE ${String(moduleId).padStart(2,'0')}</p><h1>${esc(info.title)} <span lang="en">${esc(info.english)}</span></h1><p>${esc(info.short)}</p><nav aria-label="第 ${moduleId} 單元內容"><a href="${lessonUrl}" ${active==='lesson'?'aria-current="page"':''}>互動教材</a>${info.practiceReady===false?'<span class="logic-nav-pending">練習題待補全</span>':`<a href="${exerciseUrl}" ${active==='exercise'?'aria-current="page"':''}>${questions.length} 題練習</a>`}</nav></div>`;
+  }
+  function savedSolvedCount(id) {
+    if (!state.userId) return 0;
+    try {
+      const saved = JSON.parse(localStorage.getItem(`edmund-reading-logic-module-${id}:${state.userId}`) || '{}');
+      return Array.isArray(saved.solved) ? saved.solved.length : 0;
+    } catch { return 0; }
   }
   function renderHome() {
-    shell(`<section class="logic-home-intro"><p class="logic-kicker">READING LOGIC</p><h1>閱讀理解 · 題型邏輯</h1><p>一步步看懂原文，再找出一定成立的答案。</p></section>
-    <a class="logic-module-card" href="${lessonUrl}"><span class="logic-number">01</span><span><small>MODULE 01</small><strong>全稱實例化 <span lang="en">Universal Instantiation</span></strong><em>全體 → 個體</em><small>互動教材 · 40 題練習</small></span><b aria-hidden="true">↗</b></a>
-    <p class="logic-save-note">此裝置會按學生帳戶記住教材位置和已完成的練習。已完成 ${state.solved.size} / 40 題。</p>`);
+    const cards = Object.entries(moduleInfo).map(([id, item]) => {
+      const count = id === '1' ? moduleOneQuestions.length : (window[`READING_LOGIC_MODULE_${id}_QUESTIONS`] || []).length;
+      const practice = item.practiceReady === false ? '練習題待補全' : `${count} 題練習`;
+      return `<a class="logic-module-card" href="reading-logic-module-${id}.html"><span class="logic-number">${String(id).padStart(2,'0')}</span><span><small>MODULE ${String(id).padStart(2,'0')}</small><strong>${esc(item.title)} <span lang="en">${esc(item.english)}</span></strong><em>${esc(item.short)}</em><small>互動教材 · ${practice} · 已完成 ${savedSolvedCount(id)} 題</small></span><b aria-hidden="true">↗</b></a>`;
+    }).join('');
+    shell(`<section class="logic-home-intro"><p class="logic-kicker">READING LOGIC</p><h1>閱讀理解 · 題型邏輯</h1><p>先看互動教材，再練習找出原文真正支持的答案。</p></section><div class="logic-module-list">${cards}</div><p class="logic-save-note">此裝置會按學生帳戶記住各單元的教材位置和已完成練習。</p>`);
   }
   function renderLesson() {
     const resumeStage = state.stage;
     lessonHasMovedAway = false;
     const sections = stages.map((stage, index) => {
-      const ideas = stage.steps.map((step, idea) => `<article class="logic-scroll-idea logic-reveal"><span class="logic-beat__number">${String(idea+1).padStart(2,'0')}</span><p>${step}</p></article>`).join('');
+      const ideas = stage.steps.map((step, idea) => `<article class="logic-scroll-idea logic-reveal"><span class="logic-beat__number">${String(idea+1).padStart(2,'0')}</span><div class="logic-idea-copy">${step}</div></article>`).join('');
       const special = stage.special === 'fruit' ? `<div class="logic-fruit-box logic-reveal"><p>FRUIT BOX · 點一下成員</p><div><button data-fruit="apple">apple</button><button data-fruit="banana">banana</button><button data-fruit="mango">mango</button></div><strong data-fruit-result aria-live="polite">哪個水果屬於 all the fruit？</strong></div>` : stage.special === 'direction' ? `<div class="logic-mini logic-reveal"><p>選一個有根據的方向</p><button data-direction="yes">all animals → dogs</button><button data-direction="no">dogs → all animals</button><strong data-direction-result aria-live="polite"></strong></div>` : '';
       const quizOrder = index % 2 ? [1, 0] : [0, 1];
       const quiz = stage.quiz ? `<div class="logic-check logic-reveal" data-check="${index}" role="group" aria-label="第 ${index+1} 節小練習"><p class="logic-check__eyebrow">試一試 · QUICK CHECK</p><h3>${esc(stage.quiz.prompt)}</h3><div class="logic-check__choices">${quizOrder.map((answer) => `<button type="button" data-logic-check="${answer}" aria-label="${esc(stage.quiz.options[answer].label)}">${esc(stage.quiz.options[answer].label)}</button>`).join('')}</div><p class="logic-check__result" data-check-result role="status" aria-live="polite">選一個有根據的答案。</p></div>` : '';
       return `<section class="logic-scroll-stage logic-theme--${stage.accent}" data-stage-section="${index}" id="logic-stage-${index+1}" aria-labelledby="logic-stage-title-${index+1}"><div class="logic-stage-header logic-reveal"><span class="logic-piece logic-piece--small">${String(index+1).padStart(2,'0')}</span><div><p class="logic-kicker">IDEA ${String(index+1).padStart(2,'0')} / ${stages.length}</p><h2 id="logic-stage-title-${index+1}">${esc(stage.name)}</h2></div></div><div class="logic-scroll-ideas">${ideas}</div>${special}${quiz}</section>`;
     }).join('');
-    shell(`${moduleNav('lesson')}<div class="logic-lesson-layout"><aside class="logic-lesson-rail"><p class="logic-kicker">CURATION · 互動教材</p><h2>全體 <span>→</span> 個體</h2><div class="logic-rail-progress"><span data-lesson-position>第 ${state.stage+1} / ${stages.length} 節</span><span data-lesson-percent>${Math.round((state.stage+1)/stages.length*100)}%</span></div><div class="logic-progress-track"><i data-lesson-progress style="width:${(state.stage+1)/stages.length*100}%"></i></div><nav aria-label="教材章節">${stages.map((s,i)=>`<button class="logic-rail-node ${i===state.stage?'is-current':''}" data-stage="${i}" aria-current="${i===state.stage?'step':'false'}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.name)}</button>`).join('')}</nav></aside><div class="logic-lesson-stream">${sections}<div class="logic-lesson-finish"><h2>準備好練習了嗎？</h2><a class="logic-primary" href="${exerciseUrl}">開始 40 題練習 <span aria-hidden="true">→</span></a></div></div></div>`, true);
+    shell(`${moduleNav('lesson')}<div class="logic-lesson-layout"><aside class="logic-lesson-rail"><p class="logic-kicker">CURATION · 互動教材</p><h2>${esc(info.short)}</h2><div class="logic-rail-progress"><span data-lesson-position>第 ${state.stage+1} / ${stages.length} 節</span><span data-lesson-percent>${Math.round((state.stage+1)/stages.length*100)}%</span></div><div class="logic-progress-track"><i data-lesson-progress style="width:${(state.stage+1)/stages.length*100}%"></i></div><nav aria-label="教材章節">${stages.map((s,i)=>`<button class="logic-rail-node ${i===state.stage?'is-current':''}" data-stage="${i}" aria-current="${i===state.stage?'step':'false'}"><span>${String(i+1).padStart(2,'0')}</span>${esc(s.name)}</button>`).join('')}</nav></aside><div class="logic-lesson-stream">${sections}<div class="logic-lesson-finish"><h2>準備好練習了嗎？</h2>${info.practiceReady===false?'<p class="logic-pending-note">此單元練習 PDF 的第 40 題尚未提供完整選項與答案；練習會在原題補全後開放。</p>':`<a class="logic-primary" href="${exerciseUrl}">開始 ${questions.length} 題練習 <span aria-hidden="true">→</span></a>`}</div></div></div>`, true);
     observeLessonIdeas();
     requestAnimationFrame(() => {
       if (mode !== 'lesson') return;
@@ -252,23 +291,29 @@
     return `<section class="logic-streak" data-companion="${companion}" data-streak-stage="${Math.min(5,Math.floor(state.streak/5))}" aria-live="polite"><div class="logic-streak-copy"><img src="/assets/schedule/day-streak-fire.gif" alt="" aria-hidden="true"><div><strong data-streak-current>連續答對 ${state.streak} 題</strong><small data-streak-best>最高連勝 ${state.bestStreak} 題</small></div></div><div class="logic-streak-companion"><span class="logic-streak-sprite" role="img" aria-label="${companionNames[companion]} 為你的連勝打氣"></span><span class="logic-streak-cheer" data-streak-cheer>${cheerText()}</span></div></section>`;
   }
   function renderExercise() {
+    if (!questions.length || info.practiceReady === false) { renderLesson(); return; }
+    const count = questions.length;
     const q = questions[state.question];
     const solved = state.solved.has(q.number);
+    const seeksInvalid = q.taskType === 'find-unsupported';
     const groupOrder = state.reverse ? [3, 2, 1, 0] : [0, 1, 2, 3];
     const nodeGroups = groupOrder.map((group) => {
       const items = questions.slice(group*10, group*10+10);
       if (state.reverse) items.reverse();
-      return `<section class="logic-map-group"><h2>${String(group+1).padStart(2,'0')} · ${phases[group]}</h2><div class="logic-map-nodes">${items.map((item,index)=>`<button class="logic-map-node logic-color-${(index+group)%4} ${item.number===q.number?'is-current':''} ${state.solved.has(item.number)?'is-solved':''}" data-question="${item.number-1}" aria-label="第 ${item.number} 題${state.solved.has(item.number)?'，已完成':''}" aria-current="${item.number===q.number?'true':'false'}"><span>${String(item.number).padStart(2,'0')}</span></button>`).join('')}</div></section>`;
+      return `<section class="logic-map-group"><h2>${String(group+1).padStart(2,'0')} · ${esc(phases[group])}</h2><div class="logic-map-nodes">${items.map((item,index)=>`<button class="logic-map-node logic-color-${(index+group)%4} ${item.number===q.number?'is-current':''} ${state.solved.has(item.number)?'is-solved':''}" data-question="${item.number-1}" aria-label="第 ${item.number} 題${state.solved.has(item.number)?'，已完成':''}" aria-current="${item.number===q.number?'true':'false'}"><span>${String(item.number).padStart(2,'0')}</span></button>`).join('')}</div></section>`;
     }).join('');
     const optionCards = q.options.map((option) => {
       const correct = option.key === q.answer;
-      const verdict = correct ? '推理成立' : solved ? '不成立' : '再想一想';
+      const verdict = correct ? (seeksInvalid ? '符合題目' : '推理成立') : solved ? (seeksInvalid ? '不選這項' : '不成立') : '再想一想';
       const footer = solved ? '' : '<em>點此翻回選項，或試另一張卡片</em>';
       return `<button class="logic-option ${solved&&correct?'is-correct':''} ${solved?'is-flipped':''}" type="button" data-answer="${option.key}" aria-label="選項 ${option.key}: ${esc(option.en)}"><span class="logic-option-inner"><span class="logic-option-front"><b>${option.key}</b><span><strong>${esc(option.en)}</strong><small>${esc(option.zh)}</small></span></span><span class="logic-option-back"><b>${option.key}</b><span><strong><span class="logic-verdict">${verdict} ·</span><span class="logic-option-sentence">${esc(option.en)}</span></strong><small>${feedbackLines(option.feedback)}</small>${footer}</span></span></span></button>`;
     }).join('');
+    const questionEn = moduleId === 1 ? statementOnly(q.promptEn) : q.promptEn;
+    const questionZh = moduleId === 1 ? translationOnly(q.promptZh) : q.promptZh;
+    const analysis = q.analysis ? `<section class="logic-core-analysis" data-analysis ${solved?'':'hidden'} aria-label="核心邏輯分析"><span>CORE LOGIC · 核心邏輯分析</span><h3>${esc(q.analysis.title)}</h3><div class="logic-core-analysis__layers">${q.analysis.layers.map((layer) => `<div><strong>${esc(layer.title)}</strong><p>${esc(layer.text)}</p></div>`).join('')}</div><p class="logic-core-analysis__takeaway">${esc(q.analysis.takeaway)}</p></section>` : '';
     shell(`${moduleNav('exercise')}<div class="logic-exercise-head"><h1>練習時間！</h1><a class="logic-secondary" href="${lessonUrl}">返回互動教材</a></div>${streakMarkup()}
-    <div class="logic-exercise-layout"><aside class="logic-map"><div class="logic-map-top"><strong>已完成 ${state.solved.size} / 40</strong><div class="logic-progress-track"><i style="width:${state.solved.size*2.5}%"></i></div><div class="logic-order-switch" role="group" aria-label="題目順序"><button type="button" data-order="forward" aria-pressed="${!state.reverse}">1 → 40</button><button type="button" data-order="reverse" aria-pressed="${state.reverse}">40 → 1</button></div></div>${nodeGroups}</aside>
-    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / 40</span></div><div class="logic-question-heading-row"><h2 id="logic-question-heading">Which statement must be true?</h2><span lang="zh-Hant">以下哪一句一定是真的？</span></div><div class="logic-question-statement"><p class="logic-question-en">${sentenceLines(statementOnly(q.promptEn))}</p><p class="logic-question-zh">${esc(translationOnly(q.promptZh))}</p></div><div class="logic-option-grid">${optionCards}</div><p class="logic-answer-status" role="status" aria-live="polite"></p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${(state.reverse?state.question===39:state.question===0)?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${(state.reverse?state.question===0:state.question===39)?`返回第 ${state.reverse?'40':'1'} 題`:'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
+    <div class="logic-exercise-layout"><aside class="logic-map"><div class="logic-map-top"><strong>已完成 ${state.solved.size} / ${count}</strong><div class="logic-progress-track"><i style="width:${state.solved.size/count*100}%"></i></div><div class="logic-order-switch" role="group" aria-label="題目順序"><button type="button" data-order="forward" aria-pressed="${!state.reverse}">1 → ${count}</button><button type="button" data-order="reverse" aria-pressed="${state.reverse}">${count} → 1</button></div></div>${nodeGroups}</aside>
+    <section class="logic-question-wrap" aria-labelledby="logic-question-heading"><div class="logic-question-meta"><span class="logic-piece logic-piece--small logic-color-${Math.floor(state.question/10)}">${String(q.number).padStart(2,'0')}</span><span>${esc(phases[Math.floor(state.question/10)])}</span><span>QUESTION ${String(q.number).padStart(2,'0')} / ${count}</span></div><div class="logic-question-heading-row"><h2 id="logic-question-heading">${seeksInvalid?'Find the statement that goes beyond the evidence.':moduleId===1?'Which statement must be true?':'Read and choose the best-supported answer.'}</h2><span lang="zh-Hant">${seeksInvalid?'找出與原文衝突或缺乏根據的說法。':moduleId===1?'以下哪一句一定是真的？':'細讀原文，選出最有根據的答案。'}</span></div><div class="logic-question-statement"><p class="logic-question-en">${sentenceLines(questionEn)}</p><p class="logic-question-zh">${esc(questionZh)}</p></div><div class="logic-option-grid">${optionCards}</div>${analysis}<p class="logic-answer-status" role="status" aria-live="polite"></p><div class="logic-question-actions"><button class="logic-secondary" data-question-prev ${(state.reverse?state.question===count-1:state.question===0)?'disabled':''}>上一題</button><button class="logic-primary" data-question-next>${(state.reverse?state.question===0:state.question===count-1)?`返回第 ${state.reverse?count:'1'} 題`:'下一題'} <span aria-hidden="true">→</span></button></div></section></div>`, true);
     fitOptionCards();
   }
   function render() { if(mode!=='lesson')lessonObserver?.disconnect(); if(mode==='home')renderHome(); else if(mode==='lesson')renderLesson(); else renderExercise(); }
@@ -278,6 +323,7 @@
     if (replace) history.replaceState({ readingLogic: route.mode }, '', file);
     else if (location.pathname.split('/').pop() !== file) history.pushState({ readingLogic: route.mode }, '', file);
     mode = route.mode;
+    if (route.module && route.module !== moduleId) activateModule(route.module);
     document.body.dataset.logicView = mode;
     document.title = route.title;
     document.querySelector('link[rel="canonical"]')?.setAttribute('href', `https://edmundeducation.com/${file}`);
@@ -317,7 +363,7 @@
       return;
     }
     const orderButton=event.target.closest('[data-order]');
-    if(orderButton){const reverse=orderButton.dataset.order==='reverse';if(state.reverse!==reverse){state.reverse=reverse;state.question=reverse?39:0;renderExercise();}return;}
+    if(orderButton){const reverse=orderButton.dataset.order==='reverse';if(state.reverse!==reverse){state.reverse=reverse;state.question=reverse?questions.length-1:0;renderExercise();}return;}
     const node=event.target.closest('[data-question]');if(node){setQuestion(Number(node.dataset.question));return;}
     if(event.target.closest('[data-question-prev]')){setQuestion(state.question+(state.reverse?1:-1));return;}
     if(event.target.closest('[data-question-next]')){setQuestion(state.question+(state.reverse?-1:1));return;}
@@ -330,17 +376,18 @@
       state.bestStreak=Math.max(state.bestStreak,state.streak);
       saveProgress();
       updateStreakDisplay();
-      dashboard.querySelector('.logic-map-top strong').textContent=`已完成 ${state.solved.size} / 40`;
-      dashboard.querySelector('.logic-map-top .logic-progress-track i').style.width=`${state.solved.size*2.5}%`;
+      dashboard.querySelector('.logic-map-top strong').textContent=`已完成 ${state.solved.size} / ${questions.length}`;
+      dashboard.querySelector('.logic-map-top .logic-progress-track i').style.width=`${state.solved.size/questions.length*100}%`;
       dashboard.querySelector(`.logic-map-node[data-question="${state.question}"]`)?.classList.add('is-solved');
       dashboard.querySelectorAll('.logic-option').forEach((card) => {
         const isCorrect=card.dataset.answer===q.answer;
         card.classList.add('is-flipped');
         if (isCorrect) card.classList.add('is-correct');
-        else card.querySelector('.logic-verdict').textContent='不成立 ·';
+        else card.querySelector('.logic-verdict').textContent=q.taskType==='find-unsupported'?'不選這項 ·':'不成立 ·';
         card.querySelector('.logic-option-back em')?.remove();
       });
       dashboard.querySelector('.logic-answer-status').textContent='';
+      dashboard.querySelector('[data-analysis]')?.removeAttribute('hidden');
       document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:true}}));
     } else {
       const showing=option.classList.toggle('is-flipped');
@@ -362,6 +409,7 @@
     if(event.key===storageKey()){
       loadProgress();render();return;
     }
+    if(mode==='home' && event.key.startsWith('edmund-reading-logic-module-') && event.key.endsWith(`:${state.userId}`)){ renderHome(); return; }
     if(event.key===companionApi?.companionKey(state.userId)||event.key.startsWith('edmund-lesson-map-v1:')||event.key.startsWith('edmund-expression-meadow-v2:')||event.key.startsWith('writing-chess-map-v1:')) updateStreakDisplay();
   });
   window.addEventListener('resize',()=>{if(mode==='exercise'&&state.userId)fitOptionCards();});
