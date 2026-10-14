@@ -183,7 +183,7 @@
       <div class="logic-topline"><a href="${homeUrl}">閱讀理解 · 題型邏輯</a><span>${mode==='home'?'READING LOGIC':`MODULE ${String(moduleId).padStart(2,'0')} / ${esc(info.title)}`}</span></div>${inner}</div>`;
   }
   function moduleNav(active) {
-    return `<div class="logic-module-heading"><p class="logic-kicker">MODULE ${String(moduleId).padStart(2,'0')}</p><h1>${esc(info.title)} <span lang="en">${esc(info.english)}</span></h1><p>${esc(info.short)}</p><nav aria-label="第 ${moduleId} 單元內容"><a href="${lessonUrl}" ${active==='lesson'?'aria-current="page"':''}>互動教材</a>${info.practiceReady===false?'<span class="logic-nav-pending">練習題待補全</span>':`<a href="${exerciseUrl}" ${active==='exercise'?'aria-current="page"':''}>${questions.length} 題練習</a>`}</nav></div>`;
+    return `<div class="logic-module-heading"><a class="logic-back-home" href="${homeUrl}"><span aria-hidden="true">←</span> 返回閱讀邏輯目錄</a><p class="logic-kicker">MODULE ${String(moduleId).padStart(2,'0')}</p><h1>${esc(info.title)} <span lang="en">${esc(info.english)}</span></h1><p>${esc(info.short)}</p><nav aria-label="第 ${moduleId} 單元內容"><a href="${lessonUrl}" ${active==='lesson'?'aria-current="page"':''}>互動教材</a>${info.practiceReady===false?'<span class="logic-nav-pending">練習題待補全</span>':`<a href="${exerciseUrl}" ${active==='exercise'?'aria-current="page"':''}>${questions.length} 題練習</a>`}</nav></div>`;
   }
   function savedSolvedCount(id) {
     if (!state.userId) return 0;

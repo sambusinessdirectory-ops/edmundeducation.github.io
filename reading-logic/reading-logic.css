@@ -55,6 +55,9 @@ body[data-logic-view="lesson"] .learning-portal-shell,body[data-logic-view="exer
 .logic-module-card em{margin:8px 0 18px;font-size:clamp(19px,2vw,27px);font-style:normal;color:#b47742;font-weight:800}
 .logic-module-card>b{font-size:32px}
 .logic-module-heading{margin-bottom:20px;padding:clamp(25px,3vw,40px);border:1px solid #c9dfd8;border-radius:26px;background:linear-gradient(120deg,#fffaf0,#e5f4f1)}
+.logic-back-home{display:inline-flex;align-items:center;gap:9px;min-height:42px;margin:0 0 22px;padding:8px 15px;border:1px solid #a6c8c6;border-radius:999px;background:#fff;color:#245457;text-decoration:none;font-size:15px;font-weight:850;box-shadow:0 3px 0 #d5e8e5;transition:transform .2s ease,box-shadow .2s ease}
+.logic-back-home:hover{transform:translateY(-2px);box-shadow:0 5px 0 #d5e8e5}
+.logic-back-home:focus-visible{outline:3px solid #df8f37;outline-offset:3px}
 .logic-module-heading h1{margin:0;font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(32px,3.4vw,48px);line-height:1.24}
 .logic-module-heading h1 span{font-size:.57em;color:#356968;white-space:nowrap}
 .logic-module-heading>p:not(.logic-kicker){margin:10px 0 22px;font-size:clamp(19px,2vw,26px);font-weight:800;color:#ae7440}
