@@ -621,8 +621,8 @@ jobs:
             --exclude='tools' \
             --exclude='workers' \
             --exclude='supabase' \
-            --exclude='assets/speaking-system/audio/edmund-neural/part1/' \
-            --exclude='assets/speaking-system/audio/edmund-neural/part3/' \
+            --exclude='/assets/' \
+            --exclude='/eddy-carrot-patch/assets/' \
             ./ _site/
 
       - name: Publish bilingual Paper 3 source readers
@@ -635,6 +635,13 @@ jobs:
           cmp paper3/index.html _site/paper3/index.html
           cmp paper3/2013-b1/index.html _site/paper3/2013-b1/index.html
           python3 tools/add-paper3-study-support.py _site/paper3
+
+      - name: Point public media at verified R2 packs
+        run: |
+          python3 -m unittest tools/test-rewrite-pages-assets.py
+          python3 tools/rewrite-pages-assets.py _site
+          test ! -d _site/assets
+          test ! -d _site/eddy-carrot-patch/assets
 
       - name: Verify protected Song Appreciation data is absent from Pages artifact
         run: |

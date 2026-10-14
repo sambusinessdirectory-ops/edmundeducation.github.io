@@ -1,0 +1,9 @@
+{
+  "$schema": "../../work/speaking-study-tools/workers/schedule-system/node_modules/wrangler/config-schema.json",
+  "name": "edmund-site-assets",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "r2_buckets": [{ "binding": "EDMUND_ASSETS", "bucket_name": "edmund-assets" }]
+}

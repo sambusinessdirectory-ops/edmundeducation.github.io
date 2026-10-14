@@ -6,6 +6,9 @@ const HARPER_CACHE_NAME = "edmund-vendor-harper-2.7.0";
 const HARPER_PATH_PREFIX = "/assets/vendor/harper/2.7.0/";
 const SPEECH_MODEL_PATH = "/assets/speaking-system/models/english-us-0.15.tar.gz";
 const SPEECH_MODEL_CACHE = "edmund-transcription-model-v1";
+const SPEECH_MODEL_URL = new URL(SPEECH_MODEL_PATH, self.location.origin).href;
+const HARPER_URL_PREFIX = new URL(HARPER_PATH_PREFIX, self.location.origin).href;
+const ASSET_ORIGIN = new URL(SPEECH_MODEL_PATH, self.location.origin).origin;
 const OFFLINE_URL = "/offline.html";
 const SHELL_URLS = [
   "/offline.html",
@@ -21,7 +24,7 @@ const SHELL_URLS = [
   "/assets/icons/icon-maskable-192x192.png",
   "/assets/icons/icon-maskable-512x512.png"
 ];
-const SHELL_PATHS = new Set(SHELL_URLS);
+const SHELL_URL_SET = new Set(SHELL_URLS.map((path) => new URL(path, self.location.origin).href));
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_URLS)));
@@ -55,7 +58,38 @@ self.addEventListener("fetch", (event) => {
   if (request.headers.has("Authorization") || request.headers.has("Range")) return;
 
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
+
+  if (url.href === SPEECH_MODEL_URL) {
+    event.respondWith(caches.open(SPEECH_MODEL_CACHE).then(async (cache) => {
+      const cached = await cache.match(request);
+      if (cached) return cached;
+      const response = await fetch(request);
+      if (response.ok) await cache.put(request, response.clone());
+      return response;
+    }));
+    return;
+  }
+
+  // The versioned Harper bundle may be delivered from the R2 asset origin.
+  if (url.href.startsWith(HARPER_URL_PREFIX)) {
+    event.respondWith(
+      caches.open(HARPER_CACHE_NAME).then(async (cache) => {
+        const cached = await cache.match(request);
+        if (cached) return cached;
+        const response = await fetch(request);
+        if (response.ok) await cache.put(request, response.clone());
+        return response;
+      })
+    );
+    return;
+  }
+
+  if (url.origin !== self.location.origin) {
+    if (url.origin === ASSET_ORIGIN && SHELL_URL_SET.has(url.href)) {
+      event.respondWith(caches.match(request).then((cached) => cached || fetch(request)));
+    }
+    return;
+  }
 
   if (request.mode === "navigate") {
     event.respondWith(
@@ -76,34 +110,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname === SPEECH_MODEL_PATH) {
-    event.respondWith(caches.open(SPEECH_MODEL_CACHE).then(async (cache) => {
-      const cached = await cache.match(request);
-      if (cached) return cached;
-      const response = await fetch(request);
-      if (response.ok) await cache.put(request, response.clone());
-      return response;
-    }));
-    return;
-  }
-
-  // Harper is committed to this site rather than loaded from a third-party
-  // service. Keep its immutable, versioned runtime in a separate cache so a
-  // normal site release does not force students to download the engine again.
-  if (url.pathname.startsWith(HARPER_PATH_PREFIX)) {
-    event.respondWith(
-      caches.open(HARPER_CACHE_NAME).then(async (cache) => {
-        const cached = await cache.match(request);
-        if (cached) return cached;
-        const response = await fetch(request);
-        if (response.ok) await cache.put(request, response.clone());
-        return response;
-      })
-    );
-    return;
-  }
-
-  if (SHELL_PATHS.has(url.pathname)) {
+  if (SHELL_URL_SET.has(url.href)) {
     event.respondWith(caches.match(request).then((cached) => cached || fetch(request)));
   }
 });
