@@ -30,13 +30,17 @@ assert.equal(questions[50].answer, "brings");
 assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
-assert.equal(guide.length, 19, "Tense curation must teach a progressive decision sequence");
+assert.equal(guide.length, 50, "Tense curation must teach both the foundation and detailed distinctions");
 assert.ok(guide.every((item) => item.title && item.focus && item.formula && item.examples.length === 2 && item.check && item.source));
+assert.match(guide[19].title, /時間字是線索/);
+assert.match(guide[49].title, /最後檢查/);
+assert.equal(new Set(guide.map((item) => item.title)).size, 50, "Each stage should teach a distinct point");
+assert.ok(guide.slice(19).every((item) => /第 \d|全部/.test(item.source) || /綜合/.test(item.source)), "Deep-dive stages should trace back to the questions");
 for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Present Continuous", "Past Continuous", "Future Continuous", "Present Perfect", "Past Perfect", "Future Perfect", "Perfect Continuous", "Modal Perfect"]) {
   assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
 }
 
-for (const asset of ["grammar-system.css?v=20261014-tense-guide1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261014-tense-guide1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
+for (const asset of ["grammar-system.css?v=20261014-tense-guide2", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide2", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261014-tense-guide2", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -81,7 +85,8 @@ for (const native of [false, true]) {
   if(native){w.CSS={highlights:new Map()};w.Highlight=class extends Set{constructor(...ranges){super(ranges)}};}
   w.eval(dataSource);w.eval(guideSource);w.eval(runtime);
   const cards=[...d.querySelectorAll('[data-tense-topic]')];
-  assert.equal(cards.length,19,'all guide stages are present');
+  assert.equal(cards.length,50,'all foundation and deep-dive stages are present');
+  assert.equal(d.querySelectorAll('.grammar-tense-deep-dive').length,1,'deep-dive stages have a clear visual section break');
   Object.defineProperty(w,'scrollY',{configurable:true,writable:true,value:0});
   cards.forEach((card,index)=>{card.getBoundingClientRect=()=>({top:600+index*450-w.scrollY})});
   d.querySelector('[data-open-tense-guide]').click();

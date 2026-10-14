@@ -517,6 +517,10 @@
 .grammar-tense-curation { background: linear-gradient(155deg, #f9fcff 0%, #fffdf8 36%, #f9fcff 100%); }
 .grammar-tense-curation .grammar-articles-curation__head { max-width: 900px; }
 .grammar-tense-curation .grammar-articles-curation__head .eyebrow { margin-top: 20px; color: #13746d; }
+.grammar-tense-deep-dive { margin: 18px 0 4px; padding: clamp(26px, 4vw, 44px); border-radius: 22px; background: linear-gradient(125deg, #153f60, #146d70); color: #fff; }
+.grammar-tense-deep-dive span { display: block; color: #bce8d5; font-size: 12px; font-weight: 900; letter-spacing: .16em; }
+.grammar-tense-deep-dive h3 { margin: 12px 0 8px; font: 900 clamp(25px, 3vw, 35px)/1.3 Georgia, "Noto Serif TC Local", serif; }
+.grammar-tense-deep-dive p { margin: 0; max-width: 70ch; color: #dceef0; font-size: 15px; line-height: 1.75; }
 .grammar-tense-topic { position: relative; overflow: hidden; border-color: #cfdfe4; }
 .grammar-tense-topic::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: linear-gradient(#21a393, #4c71b3); }
 .grammar-tense-topic:nth-child(3n + 2)::before { background: linear-gradient(#e7a744, #e1c86e); }

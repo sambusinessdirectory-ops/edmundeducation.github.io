@@ -15,7 +15,7 @@
     ? window.EDMUND_GRAMMAR_TENSE_CURATION : [];
   const explanationModeKey = "edmund-grammar-tense-explanation-mode-v1";
   const portalRoot = document.querySelector('[data-learning-portal-root]');
-  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1) || guide.length !== 19) {
+  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1) || guide.length !== 50) {
     console.error("Tense practice data is incomplete.");
     return;
   }
@@ -44,7 +44,8 @@
     return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div><div class="grammar-tense-topic__check"><strong>答題時檢查</strong><p>${escapeHtml(item.check)}</p></div><p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
   }
 
-  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"]];
+  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"], [20, "深入細節"], [25, "時間範圍"], [30, "進行中"], [34, "回望結果"], [40, "數量與時長"], [45, "過去的推斷"], [50, "最後檢查"]];
+  const guideMarkup = guide.map((item, index) => `${index === 19 ? '<div class="grammar-tense-deep-dive"><span>PART 02 · DEEP DIVE</span><h3>把細節判斷練成直覺</h3><p>前 19 節建立時態全圖；以下 31 節拆開 150 題解析中的細微對比。每節都標出對應題目，方便回去驗證。</p></div>' : ""}${renderGuideCard(item, index)}`).join("");
 
   function normaliseAnswer(value) {
     return String(value ?? "")
@@ -118,9 +119,9 @@
       </article>
     </section>
     <section class="panel grammar-articles-curation grammar-tense-curation" data-tense-curation hidden aria-labelledby="tense-curation-title">
-      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>從 150 題解析逆向整理：先抓時間點，再分清正在進行、已完成，還是已持續多久。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button><span data-tense-position>導讀 1 / 19</span></div></div>
+      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>從 150 題解析逆向整理：先用 19 節建立時間線，再用 31 節拆開容易混淆的細節。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button><span data-tense-position>導讀 1 / ${guide.length}</span></div></div>
       <nav class="grammar-articles-chapters" aria-label="時態導讀章節">${guideChapters.map(([number, label]) => `<button type="button" data-tense-jump="${number}">${escapeHtml(label)}</button>`).join("")}</nav>
-      <div class="grammar-articles-stream grammar-tense-stream" data-tense-stream>${guide.map(renderGuideCard).join("")}</div>
+      <div class="grammar-articles-stream grammar-tense-stream" data-tense-stream>${guideMarkup}</div>
       <div class="grammar-articles-curation__finish"><h3>帶著時間線開始做題</h3><p>第 1–50 題先逐一建立各種用法；第 51–150 題混合重練。答題後的原有逐步解析會保留。</p><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button></div>
     </section>
     <section class="panel grammar-practice" data-grammar-practice hidden aria-labelledby="grammar-practice-title">
