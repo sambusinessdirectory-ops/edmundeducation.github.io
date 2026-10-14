@@ -10,6 +10,7 @@ const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const portal=fs.readFileSync(path.join(root,'advanced-native.html'),'utf8');
 const app=fs.readFileSync(path.join(root,'natural-english/app.mjs'),'utf8');
+const audioMetadata=JSON.parse(fs.readFileSync(path.join(root,'natural-english/audio/advanced-metadata.json'),'utf8'));
 assert.equal(lessons.length,5);
 assert.deepEqual(lessons.map(m=>m.titleEn),[
   'stay in their comfort zone','coast along','wake-up call',
@@ -21,6 +22,11 @@ assert.ok(!html.includes('card-74.webp'),'Card 74 stays image-free for now');
 assert.ok(portal.includes('data-course="advanced-native"'));
 assert.ok(portal.includes('advanced-native/style.css'));
 assert.ok(app.includes('visibleModules=modules.filter'));
+assert.ok(app.includes('done&&!q.allCorrect'),'all-correct replies remain selectable');
+assert.ok(app.includes('grid.dataset.layout'),'Advanced Native has a composed card layout');
+assert.ok(app.includes('class="negative-cue"'),'negative wording receives a distinct visual cue');
+assert.ok(app.includes('class="writing-glossary"'),'difficult writing prompts show a word bank');
+assert.ok(app.includes('先聽完整句子，留意空格中的表達。'),'speaking model is playable before recording');
 assert.ok(app.includes('if(!m||!inThisCourse(id))return'));
 assert.equal(modules.filter(m=>m.course==='advanced-native').length,5);
 
@@ -42,6 +48,11 @@ for(const lesson of lessons){
   assert.ok(lesson.steps.some(s=>s.recording==='phrase'&&s.speakingPrompt));
   assert.equal(lesson.steps.at(-1).questions.length,1);
   assert.equal(lesson.questions.at(-1).type,'open');
+  if([2,3].includes(lesson.number)){
+    const glossary=lesson.questions.at(-1).glossary;
+    assert.ok(glossary.length>=4,'difficult writing situation has a usable glossary');
+    assert.ok(!glossary.flat().join(' ').toLowerCase().includes(lesson.titleEn.toLowerCase()),'glossary must not reveal the target phrase');
+  }
   for(const q of lesson.questions){
     assert.ok(!seen.has(q.id),`Duplicate question ${q.id}`);seen.add(q.id);
     assert.deepEqual(allQuestionMap.get(q.id),q);
@@ -58,6 +69,8 @@ for(const lesson of lessons){
     assert.ok(url,`Missing audio for ${lesson.id}: ${text}`);
     assert.ok(fs.statSync(path.join(root,url)).size>1800,`Empty audio ${url}`);
   }
+  const spokenModel=lesson.steps.find(s=>s.style==='speak').model;
+  assert.equal(audioMetadata[lesson.id].find(clip=>clip.text===spokenModel)?.voice,'bm_fable','speaking models use the British male voice');
 }
 assert.equal(lessons[0].steps.find(s=>s.style==='speak').displayModel,'__________________ until I joined the debate club.');
 assert.equal(seen.size,30);

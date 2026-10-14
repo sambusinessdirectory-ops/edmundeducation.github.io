@@ -11,7 +11,9 @@ MODEL=Path("/Volumes/(Pro-G) Sam's Data/CodexData/workspaces/edmund-neural-model
 VOICES=MODEL.with_name('voices-v1.0.bin')
 EXPECTED_MODEL='7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5'
 EXPECTED_VOICES='bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d'
-CYCLE=[('af_heart','en-us',.96),('am_adam','en-us',1),('bm_fable','en-gb',.98),('bf_isabella','en-gb',1.05)]
+# The second clip in every lesson is the listen-then-speak model. Keep that
+# model in the British male voice used for Native English speaking practice.
+CYCLE=[('af_heart','en-us',.96),('bm_fable','en-gb',.98),('bm_fable','en-gb',.98),('bf_isabella','en-gb',1.05)]
 
 def main():
     import onnxruntime as ort
