@@ -10,6 +10,7 @@ const modeLabels = {
 };
 const hiddenIndexes = {v1:[0], v2:[1], v3:[2], v23:[1,2], all:[0,1,2]};
 const audio = new Audio();
+let soundContext = null;
 let owner = null;
 let data = null;
 let priority = null;
@@ -17,6 +18,7 @@ let view = 'table';
 let sortMode = 'alphabetical';
 let memoryMode = 'v2';
 let exampleMode = 'hint';
+let exampleChunk = 'all';
 let showChinese = true;
 let search = '';
 let order = [];
@@ -26,6 +28,7 @@ let questionAnswers = {};
 let checked = {};
 let memoryChecked = {};
 let challenge = null;
+const expandedExamples = new Set();
 let loading = false;
 const PAGE_SIZE = 20;
 const letters = 'ABCDEF';
@@ -49,8 +52,12 @@ function shuffle(items) {
   }
   return items;
 }
+const CHUNK_RANGES = [[0,30],[30,60],[60,90],[90,120],[120,150],[150,180],[180,220]];
+function activeExampleIds() {
+  return exampleChunk === 'all' ? data.entries.map(entry => entry.id) : priority.order.slice(...CHUNK_RANGES[Number(exampleChunk)]);
+}
 function shuffledQuestions() {
-  const ids = data.entries.flatMap(entry => [1, 2, 3].map(form => ({id: entry.id, form})));
+  const ids = activeExampleIds().flatMap(id => [1, 2, 3].map(form => ({id, form})));
   // Preserve a genuinely mixed order while making adjacent examples of the same verb impossible.
   for (let attempt = 0; attempt < 1000; attempt++) {
     shuffle(ids);
@@ -73,34 +80,54 @@ function showStatus(message, kind = '') {
 }
 function play(path, button) {
   audio.pause();
-  audio.src = `./irregular-verbs/audio/${path}`;
+  audio.src = `./irregular-verbs/audio/${path}${path === 'v090.mp3' ? '?v=20261014-3' : ''}`;
   audio.playbackRate = 1;
   audio.play().catch(() => showStatus('暫時未能播放語音，請再按一次。', 'error'));
   host.querySelectorAll('[data-play]').forEach(node => node.classList.remove('is-playing'));
   button?.classList.add('is-playing');
   audio.onended = () => button?.classList.remove('is-playing');
 }
+function feedbackSound(correct) {
+  try {
+    soundContext ||= new (window.AudioContext || window.webkitAudioContext)();
+    if (soundContext.state === 'suspended') void soundContext.resume();
+    const now = soundContext.currentTime;
+    const notes = correct ? [[660,0,.11],[880,.115,.16]] : [[330,0,.13],[270,.13,.18]];
+    for (const [frequency,offset,duration] of notes) {
+      const oscillator = soundContext.createOscillator();
+      const gain = soundContext.createGain();
+      oscillator.type = correct ? 'sine' : 'triangle';
+      oscillator.frequency.setValueAtTime(frequency,now+offset);
+      gain.gain.setValueAtTime(.0001,now+offset);
+      gain.gain.exponentialRampToValueAtTime(.075,now+offset+.018);
+      gain.gain.exponentialRampToValueAtTime(.0001,now+offset+duration);
+      oscillator.connect(gain).connect(soundContext.destination);
+      oscillator.start(now+offset); oscillator.stop(now+offset+duration+.01);
+    }
+  } catch { /* Visual feedback remains available when audio is blocked. */ }
+}
 function toolbar() {
   return `<header class="iv-head"><div><span class="iv-kicker">IRREGULAR VERBS · 220 WORDS</span><h2>不規則動詞練習</h2><p>先看四欄總表，再按需要遮住詞形練習。例句會打散排列，讓你從語境判斷正確形式。</p></div><div class="iv-count"><strong>220</strong><span>動詞 · 660 例句</span></div></header>
     <nav class="iv-tabs" aria-label="練習模式"><button type="button" data-view-tab="table" aria-current="${view === 'table' ? 'page' : 'false'}">四欄總表</button><button type="button" data-view-tab="memory" aria-current="${view === 'memory' ? 'page' : 'false'}">01 · 詞形記憶</button><button type="button" data-view-tab="examples" aria-current="${view === 'examples' ? 'page' : 'false'}">02 · 例句填空</button><button type="button" data-view-tab="challenge" aria-current="${view === 'challenge' ? 'page' : 'false'}">03 · 無限挑戰</button></nav>`;
 }
 function formTable(practice = false) {
-  const entries = orderedEntries().filter(entry => !search || `${entry.lemma} ${entry.meaning} ${entry.forms.join(' ')}`.toLocaleLowerCase().includes(search.toLocaleLowerCase()));
+  const entries = orderedEntries().map((entry,index) => ({entry,rank:index + 1})).filter(({entry}) => !search || `${entry.lemma} ${entry.meaning} ${entry.forms.join(' ')}`.toLocaleLowerCase().includes(search.toLocaleLowerCase()));
   const hidden = practice ? hiddenIndexes[memoryMode] : [];
-  const rows = entries.map(entry => {
-    const controls = `<span class="iv-row-actions"><button type="button" class="iv-play" data-play="v${String(entry.id).padStart(3,'0')}.mp3" aria-label="聆聽 ${escapeHtml(entry.lemma)} 三個詞形">▶<span class="sr-only">聆聽</span></button>${practice ? `<button type="button" class="iv-check" data-check-row="${entry.id}">檢查</button>` : ''}</span>`;
+  const rows = entries.map(({entry,rank}) => {
+    const controls = `<button type="button" class="iv-play iv-table-play" data-play="v${String(entry.id).padStart(3,'0')}.mp3" aria-label="聆聽 ${escapeHtml(entry.lemma)} 三個詞形">▶</button><span class="iv-meaning-text">${escapeHtml(entry.meaning)}</span><span class="iv-row-actions">${practice ? `<button type="button" class="iv-check" data-check-row="${entry.id}">檢查</button>` : ''}<button type="button" class="iv-example-toggle" data-toggle-row="${entry.id}" aria-expanded="${expandedExamples.has(entry.id)}">${expandedExamples.has(entry.id) ? '收起例句 ↑' : '顯示例句 ↓'}</button></span>`;
     const forms = entry.forms.map((form, index) => hidden.includes(index)
       ? `<td><input class="iv-form-input" data-memory="${entry.id}:${index}" aria-label="第 ${entry.id} 行的 V${index + 1}" type="text" spellcheck="false" autocomplete="off" value="${escapeHtml(memoryAnswers[`${entry.id}:${index}`] || '')}" placeholder="輸入 V${index + 1}">${memoryChecked[`${entry.id}:${index}`] === true ? '<small class="iv-cell-feedback is-correct">✓ 正確</small>' : memoryChecked[`${entry.id}:${index}`] === false ? `<small class="iv-cell-feedback is-wrong">正解：${escapeHtml(form)}</small>` : ''}</td>`
       : `<td lang="en">${escapeHtml(form)}</td>`).join('');
-    return `<tr data-row="${entry.id}"><th scope="row"><span>${escapeHtml(entry.meaning)}</span>${controls}</th>${forms}</tr>`;
+    const examples = entry.sentences.map((sample,index) => `<tr class="iv-example-row" data-example-for="${entry.id}" ${expandedExamples.has(entry.id) ? '' : 'hidden'}><td colspan="5"><div class="iv-table-example"><span class="iv-example-form">V${index + 1}</span><span lang="en">${escapeHtml(sample.english)}</span><span lang="zh-Hant">${escapeHtml(sample.chinese)}</span></div></td></tr>`).join('');
+    return `<tr data-row="${entry.id}"><td class="iv-ordinal">${String(rank).padStart(2,'0')}</td><th scope="row"><div class="iv-meaning-row">${controls}</div></th>${forms}</tr>${examples}`;
   }).join('');
   return `<div class="iv-table-tools"><label>尋找動詞 <input type="search" data-search value="${escapeHtml(search)}" placeholder="搜尋中文、V1、V2 或 V3" autocomplete="off"></label><span>${entries.length} / 220 個動詞</span></div>
-    <p class="iv-swipe-hint">← 左右滑動表格，查看 V1、V2、V3 →</p><div class="iv-table-scroll"><table class="iv-table"><thead><tr><th scope="col">中文意思</th><th scope="col">V1 原形</th><th scope="col">V2 過去式</th><th scope="col">V3 過去分詞</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    <p class="iv-swipe-hint">← 左右滑動表格，查看 V1、V2、V3 →</p><div class="iv-table-scroll"><table class="iv-table"><thead><tr><th scope="col" class="iv-ordinal">#</th><th scope="col">中文意思</th><th scope="col">V1 原形</th><th scope="col">V2 過去式</th><th scope="col">V3 過去分詞</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 function renderTable() {
   view = 'table';
   const pdf = sortMode === 'priority' ? 'learning-priority' : 'alphabetical';
-  host.innerHTML = toolbar() + `<section class="iv-panel"><div class="iv-section-head"><div><span class="iv-kicker">REFERENCE TABLE</span><h3>中文意思 · V1 · V2 · V3</h3><p>每列可聆聽英式男聲朗讀三個詞形；逗號分隔的是可接受的變體。</p></div><a class="iv-export" href="./output/pdf/irregular-verbs-${pdf}.pdf" download>匯出此排序 PDF ↓</a></div><div class="iv-sort" role="group" aria-label="參考表排序"><button type="button" data-sort="alphabetical" aria-pressed="${sortMode === 'alphabetical'}">字母順序</button><button type="button" data-sort="priority" aria-pressed="${sortMode === 'priority'}">常用優先</button></div>${sortMode === 'priority' ? '<p class="iv-source-note">常用優先按英國國家語料庫動詞詞元頻率排列；be、awake 按教學需要先列。未收錄的詞按字母排序。資料：<a href="https://ucrel.lancs.ac.uk/bncfreq/" target="_blank" rel="noopener">UCREL / BNC（CC BY-SA 2.0 UK）↗</a></p>' : ''}${formTable()}</section><p class="iv-status" data-status role="status" aria-live="polite"></p>`;
+  host.innerHTML = toolbar() + `<section class="iv-panel"><div class="iv-section-head"><div><span class="iv-kicker">REFERENCE TABLE</span><h3>中文意思 · V1 · V2 · V3</h3><p>按「顯示例句」可查看每個詞形的用法；逗號分隔的是可接受的變體。</p></div><a class="iv-export" href="./output/pdf/irregular-verbs-${pdf}.pdf" download>匯出此排序 PDF ↓</a></div><div class="iv-sort" role="group" aria-label="參考表排序"><button type="button" data-sort="alphabetical" aria-pressed="${sortMode === 'alphabetical'}">字母順序</button><button type="button" data-sort="priority" aria-pressed="${sortMode === 'priority'}">常用優先</button></div>${formTable()}</section><p class="iv-status" data-status role="status" aria-live="polite"></p>`;
 }
 function renderMemory() {
   view = 'memory';
@@ -111,7 +138,7 @@ function memoryCounts() {
   return {filled:keys.filter(key => String(memoryAnswers[key] || '').trim()).length,total:keys.length,correct:keys.filter(key => memoryChecked[key] === true).length,wrong:keys.filter(key => memoryChecked[key] === false).length};
 }
 function exampleCounts() {
-  const keys = data.entries.flatMap(entry => [1,2,3].map(form => `${entry.id}:${form}`));
+  const keys = activeExampleIds().flatMap(id => [1,2,3].map(form => `${id}:${form}`));
   return {filled:keys.filter(key => { const sample = sampleFor(key); return sample.answers.every((_,i) => String(questionAnswers[`${key}:${i}`] || '').trim()); }).length,total:keys.length,correct:keys.filter(key => checked[key] === true).length,wrong:keys.filter(key => checked[key] === false).length};
 }
 function submissionBar(kind) {
@@ -136,15 +163,27 @@ function questionCard(item, index) {
   const number = page * PAGE_SIZE + index + 1;
   const key = `${item.id}:${item.form}`;
   const blanks = sample.parts.map((part, i) => `${escapeHtml(part)}${i < sample.answers.length ? `<input class="iv-blank" data-answer="${key}:${i}" aria-label="第 ${number} 題，第 ${i + 1} 個空格" type="text" spellcheck="false" autocomplete="off" value="${escapeHtml(questionAnswers[`${key}:${i}`] || '')}" placeholder="_______">` : ''}`).join('');
-  return `<article class="iv-question" data-question="${key}"><div class="iv-question-top"><span class="iv-question-number">${String(number).padStart(3,'0')}</span><span class="iv-form-badge">V${item.form}</span><button type="button" class="iv-play" data-play="q${String(item.id).padStart(3,'0')}-${item.form}.mp3" aria-label="聆聽第 ${number} 題，不含答案">▶ 聆聽</button></div><p class="iv-english" lang="en">${blanks}${exampleMode === 'hint' ? ` <span class="iv-hint">(${escapeHtml(entry.lemma.replace(' (recline)', ''))})</span>` : ''}</p><p class="iv-chinese" lang="zh-Hant" ${showChinese ? '' : 'hidden'}>${escapeHtml(sample.chinese)}</p><div class="iv-question-foot"><button type="button" class="iv-check" data-check-question="${key}">檢查答案</button><span data-question-result="${key}" role="status">${checked[key] === true ? '✓ 正確' : checked[key] === false ? `正解：${escapeHtml(sample.answers.join('、'))}` : ''}</span></div></article>`;
+  return `<article class="iv-question ${checked[key] === true ? 'is-correct' : checked[key] === false ? 'is-wrong' : ''}" data-question="${key}"><div class="iv-question-top"><span class="iv-question-number">${String(number).padStart(3,'0')}</span><span class="iv-form-badge">V${item.form}</span><button type="button" class="iv-play" data-play="q${String(item.id).padStart(3,'0')}-${item.form}.mp3" aria-label="聆聽第 ${number} 題，不含答案">▶ 聆聽</button></div><p class="iv-english" lang="en">${blanks}${exampleMode === 'hint' ? ` <span class="iv-hint">(${escapeHtml(entry.lemma.replace(' (recline)', ''))})</span>` : ''}</p><p class="iv-chinese" lang="zh-Hant" ${showChinese ? '' : 'hidden'}>${escapeHtml(sample.chinese)}</p><div class="iv-question-foot"><button type="button" class="iv-check" data-check-question="${key}">檢查答案</button><span data-question-result="${key}" role="status">${checked[key] === true ? '✓ 正確' : checked[key] === false ? `正解：${escapeHtml(sample.answers.join('、'))}` : ''}</span></div></article>`;
 }
 function renderExamples() {
   view = 'examples';
   const start = page * PAGE_SIZE;
   const totalPages = Math.ceil(order.length / PAGE_SIZE);
-  host.innerHTML = toolbar() + `<section class="iv-panel"><div class="iv-section-head"><div><span class="iv-kicker">02 · SENTENCE PRACTICE</span><h3>在句子中填出正確詞形</h3><p>660 句已混合洗牌；可隨時提交已完成的句子，核對正解及重做錯題。</p></div><button type="button" class="iv-soft" data-reshuffle>重新洗牌</button></div><div class="iv-example-controls"><div class="iv-mode-options" role="group" aria-label="例句提示模式"><button type="button" data-example-mode="hint" aria-pressed="${exampleMode === 'hint'}">附原形提示</button><button type="button" data-example-mode="nohint" aria-pressed="${exampleMode === 'nohint'}">不附提示</button></div><button type="button" class="iv-soft" data-toggle-chinese aria-pressed="${showChinese}">${showChinese ? '隱藏中文翻譯' : '顯示中文翻譯'}</button></div><div class="iv-page-info">第 ${start + 1}–${Math.min(start + PAGE_SIZE, order.length)} / ${order.length} 句</div><div class="iv-questions">${order.slice(start, start + PAGE_SIZE).map(questionCard).join('')}</div><div class="iv-pagination"><button type="button" data-page="prev" ${page === 0 ? 'disabled' : ''}>← 上一頁</button><span>${page + 1} / ${totalPages} 頁</span><button type="button" data-page="next" ${page >= totalPages - 1 ? 'disabled' : ''}>下一頁 →</button></div></section><p class="iv-status" data-status role="status" aria-live="polite"></p>${submissionBar('examples')}`;
+  const chunkOptions = `<option value="all" ${exampleChunk === 'all' ? 'selected' : ''}>全部 220 個動詞 · 660 句</option>` + CHUNK_RANGES.map(([first,last],index) => {
+    const firstWord = data.entries[priority.order[first] - 1].lemma;
+    const lastWord = data.entries[priority.order[last - 1] - 1].lemma;
+    return `<option value="${index}" ${exampleChunk === String(index) ? 'selected' : ''}>第 ${index + 1} 組 · ${first + 1}–${last}：${escapeHtml(firstWord)}–${escapeHtml(lastWord)}</option>`;
+  }).join('');
+  host.innerHTML = toolbar() + `<section class="iv-panel"><div class="iv-section-head"><div><span class="iv-kicker">02 · SENTENCE PRACTICE</span><h3>在句子中填出正確詞形</h3><p>可選常用優先的 30 詞分組（最後一組 40 詞）；組內例句仍會隨機洗牌。</p></div><button type="button" class="iv-soft" data-reshuffle>重新洗牌</button></div><div class="iv-example-controls"><div class="iv-mode-options" role="group" aria-label="例句提示模式"><button type="button" data-example-mode="hint" aria-pressed="${exampleMode === 'hint'}">附原形提示</button><button type="button" data-example-mode="nohint" aria-pressed="${exampleMode === 'nohint'}">不附提示</button></div><button type="button" class="iv-soft" data-toggle-chinese aria-pressed="${showChinese}">${showChinese ? '隱藏中文翻譯' : '顯示中文翻譯'}</button></div><label class="iv-chunk-picker">練習範圍 <select data-example-chunk>${chunkOptions}</select></label><div class="iv-page-info">第 ${start + 1}–${Math.min(start + PAGE_SIZE, order.length)} / ${order.length} 句</div><div class="iv-questions">${order.slice(start, start + PAGE_SIZE).map(questionCard).join('')}</div><div class="iv-pagination"><button type="button" data-page="prev" ${page === 0 ? 'disabled' : ''}>← 上一頁</button><span>${page + 1} / ${totalPages} 頁</span><button type="button" data-page="next" ${page >= totalPages - 1 ? 'disabled' : ''}>下一頁 →</button></div></section><p class="iv-status" data-status role="status" aria-live="polite"></p>${submissionBar('examples')}`;
 }
-function newChallengeState() { return {attempts:0,correct:0,streak:0,pending:[],bag:shuffle(data.entries.map(entry => entry.id)),current:null}; }
+function fullChallengeBag() { return shuffle(data.entries.flatMap(entry => [0,1,2].map(formIndex => ({id:entry.id,formIndex})))); }
+function newChallengeState() { return {version:2,attempts:0,correct:0,streak:0,pending:[],bag:fullChallengeBag(),recent:[],current:null}; }
+function restoreChallenge(saved) {
+  if (!Number.isInteger(saved.attempts) || !Array.isArray(saved.pending) || !Array.isArray(saved.bag) || !saved.current?.id) return null;
+  if (saved.version === 2 && Array.isArray(saved.recent)) return saved;
+  // Keep the previous student's score while migrating the old one-form-per-verb deck.
+  return {...saved,version:2,bag:fullChallengeBag().filter(item => item.id !== saved.current.id || item.formIndex !== saved.current.formIndex),recent:[]};
+}
 function challengeItem(id, formIndex, retry = false) {
   const entry = data.entries[id - 1];
   const distractors = shuffle(data.entries.filter(other => other.id !== id && other.meaning !== entry.meaning).map(other => other.id));
@@ -158,15 +197,18 @@ function challengeItem(id, formIndex, retry = false) {
   return {id,formIndex,retry,options:shuffle(options),choice:null,inputs:{},result:null};
 }
 function nextChallenge() {
+  if (challenge.current?.result) challenge.recent = [...challenge.recent,`${challenge.current.id}:${challenge.current.formIndex}`].slice(-12);
   const turn = challenge.attempts + 1;
   const dueIndex = challenge.pending.findIndex(item => item.dueAt <= turn);
   if (dueIndex >= 0) {
     const [due] = challenge.pending.splice(dueIndex, 1);
     challenge.current = challengeItem(due.id, due.formIndex, true);
   } else {
-    if (!challenge.bag.length) challenge.bag = shuffle(data.entries.map(entry => entry.id));
-    const id = challenge.bag.pop();
-    challenge.current = challengeItem(id, randomIndex(3));
+    if (!challenge.bag.length) challenge.bag = fullChallengeBag();
+    let index = challenge.bag.length - 1;
+    while (index > 0 && challenge.recent.includes(`${challenge.bag[index].id}:${challenge.bag[index].formIndex}`)) index--;
+    const [next] = challenge.bag.splice(index, 1);
+    challenge.current = challengeItem(next.id, next.formIndex);
   }
   save('challenge', challenge);
 }
@@ -179,7 +221,7 @@ function renderChallenge() {
   const inputs = entry.forms.map((form,index) => index === item.formIndex
     ? `<div class="iv-form-given"><small>V${index + 1}</small><strong>${escapeHtml(form)}</strong></div>`
     : `<label class="iv-challenge-input"><span>V${index + 1}</span><input type="text" data-challenge-input="${index}" value="${escapeHtml(item.inputs[index] || '')}" spellcheck="false" autocomplete="off" placeholder="填寫 V${index + 1}" ${item.result ? 'disabled' : ''}><small class="${item.result?.forms[index] === false ? 'is-wrong' : 'is-correct'}">${item.result ? item.result.forms[index] ? '✓ 正確' : `正解：${escapeHtml(form)}` : ''}</small></label>`).join('');
-  host.innerHTML = toolbar() + `<section class="iv-panel iv-challenge"><div class="iv-section-head"><div><span class="iv-kicker">03 · ENDLESS CHALLENGE</span><h3>無限挑戰</h3><p>先辨認中文意思，再補上另外兩個詞形。答錯的動詞會在約 5–7 題後重現。</p></div></div><div class="iv-scoreboard"><div><strong data-attempt-count>${challenge.attempts}</strong><span>累計嘗試</span></div><div><strong>${challenge.correct}</strong><span>答對次數</span></div><div><strong>${challenge.streak}</strong><span>連續答對</span></div></div><article class="iv-challenge-card" data-challenge-id="${item.id}" data-form-index="${item.formIndex}"><div class="iv-challenge-word"><span>${item.retry ? '再挑戰' : '隨機詞形'} · V${item.formIndex + 1}</span><strong lang="en">${escapeHtml(entry.forms[item.formIndex])}</strong></div><p class="iv-challenge-example" lang="en">${escapeHtml(sample.english)}</p><fieldset class="iv-choices"><legend>這個動詞的意思是甚麼？</legend>${item.options.map((id,index) => `<button type="button" data-choice="${id}" aria-pressed="${item.choice === id}" ${item.result ? 'disabled' : ''}><span>${letters[index]}</span>${escapeHtml(data.entries[id - 1].meaning)}</button>`).join('')}</fieldset><div class="iv-form-challenge"><p>補上另外兩個詞形</p><div class="iv-form-trio">${inputs}</div></div>${item.result ? `<div class="iv-challenge-result ${item.result.all ? 'is-correct' : 'is-wrong'}" role="status">${item.result.all ? '全部正確，繼續挑戰！' : `再練幾題後，這個動詞會再出現。正確意思：${escapeHtml(entry.meaning)}。`}</div><button type="button" class="iv-challenge-next" data-challenge-next>下一題 →</button>` : '<button type="button" class="iv-challenge-submit" data-challenge-submit>提交本題</button>'}</article></section><p class="iv-status" data-status role="status" aria-live="polite"></p>`;
+  host.innerHTML = toolbar() + `<section class="iv-panel iv-challenge"><div class="iv-section-head"><div><span class="iv-kicker">03 · ENDLESS CHALLENGE</span><h3>無限挑戰</h3><p>先辨認中文意思，再補上另外兩個詞形。答錯的詞形會在約 5–7 題後重現；答對的詞形也會在後續循環再出現。</p></div><button type="button" class="iv-soft" data-reset-challenge>重設挑戰紀錄</button></div><div class="iv-scoreboard"><div><strong data-attempt-count>${challenge.attempts}</strong><span>累計嘗試</span></div><div><strong>${challenge.correct}</strong><span>答對次數</span></div><div><strong>${challenge.streak}</strong><span>連續答對</span></div></div><article class="iv-challenge-card" data-challenge-id="${item.id}" data-form-index="${item.formIndex}"><div class="iv-challenge-word"><span>${item.retry ? '再挑戰' : '隨機詞形'} · V${item.formIndex + 1}</span><strong lang="en">${escapeHtml(entry.forms[item.formIndex])}</strong><button type="button" class="iv-word-play" data-play="w${String(entry.id).padStart(3,'0')}-${item.formIndex + 1}.mp3" aria-label="聆聽 ${escapeHtml(entry.forms[item.formIndex])}">▶ 聆聽發音</button></div><p class="iv-challenge-example" lang="en">${escapeHtml(sample.english)}</p><fieldset class="iv-choices"><legend>這個動詞的意思是甚麼？</legend>${item.options.map((id,index) => `<button type="button" data-choice="${id}" aria-pressed="${item.choice === id}" ${item.result ? `data-outcome="${id === item.id ? 'correct' : item.choice === id ? 'wrong' : ''}" disabled` : ''}><span>${letters[index]}</span>${escapeHtml(data.entries[id - 1].meaning)}</button>`).join('')}</fieldset><div class="iv-form-challenge"><p>補上另外兩個詞形</p><div class="iv-form-trio">${inputs}</div></div>${item.result ? `<div class="iv-challenge-result ${item.result.all ? 'is-correct' : 'is-wrong'}" role="status">${item.result.all ? '全部正確，繼續挑戰！' : `再練幾題後，這個動詞會再出現。正確意思：${escapeHtml(entry.meaning)}。`}</div><button type="button" class="iv-challenge-next" data-challenge-next>下一題 →</button>` : '<button type="button" class="iv-challenge-submit" data-challenge-submit>提交本題</button>'}</article></section><p class="iv-status" data-status role="status" aria-live="polite"></p>`;
 }
 function submitChallenge() {
   const item = challenge.current;
@@ -193,7 +235,18 @@ function submitChallenge() {
   if (all) { challenge.correct++; challenge.streak++; }
   else { challenge.streak = 0; challenge.pending.push({id:item.id,formIndex:item.formIndex,dueAt:challenge.attempts+6+randomIndex(3)}); }
   save('challenge',challenge);
+  feedbackSound(all);
   renderChallenge();
+}
+function showResetModal() {
+  if (host.querySelector('.iv-reset-dialog')) return;
+  const dialog = document.createElement('dialog');
+  dialog.className = 'iv-reset-dialog';
+  dialog.innerHTML = '<span class="iv-reset-mark" aria-hidden="true">!</span><h3>重設無限挑戰？</h3><p>累計嘗試、答對次數、連續答對、目前題目及待重做題目都會清除。此操作無法復原。</p><div class="iv-reset-actions"><button type="button" data-cancel-reset>保留紀錄</button><button type="button" data-confirm-reset>確認重設</button></div>';
+  host.append(dialog);
+  dialog.addEventListener('close', () => dialog.remove());
+  dialog.showModal();
+  dialog.querySelector('[data-cancel-reset]')?.focus();
 }
 function render() {
   if (!owner) { host.innerHTML = ''; return; }
@@ -208,7 +261,7 @@ async function load() {
   loading = true;
   render();
   try {
-    const [response, priorityResponse] = await Promise.all([fetch('./irregular-verbs/data.json?v=20261014-2'),fetch('./irregular-verbs/priority.json?v=20261014-2')]);
+    const [response, priorityResponse] = await Promise.all([fetch('./irregular-verbs/data.json?v=20261014-3'),fetch('./irregular-verbs/priority.json?v=20261014-3')]);
     if (!response.ok || !priorityResponse.ok) throw new Error('資料暫時未能載入。');
     const [parsed, parsedPriority] = await Promise.all([response.json(), priorityResponse.json()]);
     if (parsed.entries?.length !== 220 || parsed.entries.some(entry => entry.sentences?.length !== 3)) throw new Error('教材完整性檢查失敗。');
@@ -219,7 +272,7 @@ async function load() {
     memoryAnswers = readSaved('memory');
     questionAnswers = readSaved('examples');
     const savedChallenge = readSaved('challenge');
-    challenge = Number.isInteger(savedChallenge.attempts) && Array.isArray(savedChallenge.pending) && Array.isArray(savedChallenge.bag) && savedChallenge.current?.id ? savedChallenge : null;
+    challenge = restoreChallenge(savedChallenge);
     render();
   } catch (error) {
     host.innerHTML = `<div class="iv-error" role="alert"><p>${escapeHtml(error.message)}</p><button type="button" data-retry>重新載入</button></div>`;
@@ -234,6 +287,7 @@ function checkRow(id) {
     if (String(memoryAnswers[key] || '').trim()) { memoryChecked[key] = matchesForm(memoryAnswers[key],entry.forms[index]); counted++; }
   }
   if (!counted) { showStatus('請先填寫至少一個詞形。', 'error'); return; }
+  feedbackSound(indexes.filter(index => String(memoryAnswers[`${id}:${index}`] || '').trim()).every(index => memoryChecked[`${id}:${index}`]));
   renderMemory();
 }
 function checkQuestion(key) {
@@ -243,6 +297,9 @@ function checkQuestion(key) {
   checked[key] = correct;
   const result = host.querySelector(`[data-question-result="${key}"]`);
   if (result) { result.textContent = correct ? '✓ 正確' : `正解：${sample.answers.join('、')}`; result.dataset.correct = String(correct); }
+  result?.closest('.iv-question')?.classList.toggle('is-correct',correct);
+  result?.closest('.iv-question')?.classList.toggle('is-wrong',!correct);
+  feedbackSound(correct);
   refreshSubmissionBar();
 }
 function submitMemory() {
@@ -252,11 +309,13 @@ function submitMemory() {
     if (String(memoryAnswers[key] || '').trim()) { memoryChecked[key] = matchesForm(memoryAnswers[key],entry.forms[index]); count++; }
   }
   if (!count) { showStatus('請先填寫至少一個詞形。', 'error'); return; }
+  feedbackSound(memoryCounts().wrong === 0);
   renderMemory(); showStatus(`已核對 ${count} 個已填詞形；錯題下方顯示正解。`);
 }
 function submitExamples() {
   let count = 0;
-  for (const entry of data.entries) for (const form of [1,2,3]) {
+  for (const id of activeExampleIds()) for (const form of [1,2,3]) {
+    const entry = data.entries[id - 1];
     const key = `${entry.id}:${form}`;
     const sample = sampleFor(key);
     if (!sample.answers.every((_,i) => String(questionAnswers[`${key}:${i}`] || '').trim())) continue;
@@ -264,6 +323,7 @@ function submitExamples() {
     count++;
   }
   if (!count) { showStatus('請先完成至少一句例句。', 'error'); return; }
+  feedbackSound(!activeExampleIds().some(id => [1,2,3].some(form => checked[`${id}:${form}`] === false)));
   renderExamples(); showStatus(`已核對 ${count} 句已填例句；錯題會顯示正解。`);
 }
 function redoWrong(kind) {
@@ -274,7 +334,8 @@ function redoWrong(kind) {
     save('memory', memoryAnswers); renderMemory(); showStatus(`已清空 ${wrong.length} 個錯誤詞形，可重新作答。`);
     if (wrong.length) host.querySelector(`[data-memory="${wrong[0]}"]`)?.focus();
   } else {
-    const wrong = Object.keys(checked).filter(key => checked[key] === false);
+    const active = new Set(activeExampleIds());
+    const wrong = Object.keys(checked).filter(key => checked[key] === false && active.has(Number(key.split(':')[0])));
     for (const key of wrong) { const sample = sampleFor(key); sample.answers.forEach((_,i) => delete questionAnswers[`${key}:${i}`]); delete checked[key]; }
     save('examples', questionAnswers);
     if (wrong.length) { const index = order.findIndex(item => `${item.id}:${item.form}` === wrong[0]); if (index >= 0) page = Math.floor(index / PAGE_SIZE); }
@@ -304,10 +365,18 @@ host.addEventListener('input', event => {
     delete checked[key];
     const result = target.closest('[data-question]')?.querySelector('[data-question-result]');
     if (result) { result.textContent = ''; delete result.dataset.correct; }
+    target.closest('.iv-question')?.classList.remove('is-correct','is-wrong');
     refreshSubmissionBar();
   } else if (target.matches('[data-challenge-input]')) {
     challenge.current.inputs[target.dataset.challengeInput] = target.value;
     save('challenge', challenge);
+  }
+});
+host.addEventListener('change', event => {
+  if (event.target.matches('[data-example-chunk]')) {
+    exampleChunk = event.target.value;
+    order = shuffledQuestions(); page = 0;
+    renderExamples();
   }
 });
 host.addEventListener('click', event => {
@@ -317,6 +386,15 @@ host.addEventListener('click', event => {
   if (button.dataset.play) { play(button.dataset.play, button); return; }
   if (button.dataset.viewTab) { audio.pause(); view = button.dataset.viewTab; search = ''; render(); return; }
   if (button.dataset.sort) { sortMode = button.dataset.sort; renderTable(); return; }
+  if (button.dataset.toggleRow) {
+    const id = Number(button.dataset.toggleRow);
+    const expanded = !expandedExamples.has(id);
+    if (expanded) expandedExamples.add(id); else expandedExamples.delete(id);
+    button.setAttribute('aria-expanded',String(expanded));
+    button.textContent = expanded ? '收起例句 ↑' : '顯示例句 ↓';
+    host.querySelectorAll(`[data-example-for="${id}"]`).forEach(row => { row.hidden = !expanded; });
+    return;
+  }
   if (button.dataset.memoryMode) { memoryMode = button.dataset.memoryMode; renderMemory(); return; }
   if (button.dataset.exampleMode) { exampleMode = button.dataset.exampleMode; renderExamples(); return; }
   if (button.dataset.toggleChinese !== undefined) { showChinese = !showChinese; renderExamples(); return; }
@@ -327,6 +405,9 @@ host.addEventListener('click', event => {
   if (button.dataset.choice) { challenge.current.choice = Number(button.dataset.choice); save('challenge',challenge); host.querySelectorAll('[data-choice]').forEach(node => node.setAttribute('aria-pressed',String(node === button))); return; }
   if (button.dataset.challengeSubmit !== undefined) { submitChallenge(); return; }
   if (button.dataset.challengeNext !== undefined) { nextChallenge(); renderChallenge(); return; }
+  if (button.dataset.resetChallenge !== undefined) { showResetModal(); return; }
+  if (button.dataset.cancelReset !== undefined) { host.querySelector('.iv-reset-dialog')?.close(); return; }
+  if (button.dataset.confirmReset !== undefined) { host.querySelector('.iv-reset-dialog')?.close(); challenge = newChallengeState(); nextChallenge(); renderChallenge(); return; }
   if (button.dataset.resetMemory !== undefined) { memoryAnswers = {}; memoryChecked = {}; save('memory', memoryAnswers); renderMemory(); return; }
   if (button.dataset.reshuffle !== undefined) { audio.pause(); order = shuffledQuestions(); page = 0; renderExamples(); return; }
   if (button.dataset.page) { audio.pause(); page += button.dataset.page === 'next' ? 1 : -1; renderExamples(); host.scrollIntoView({behavior:'smooth',block:'start'}); }
@@ -343,6 +424,7 @@ window.addEventListener('edmund:learning-portal-session', event => {
     checked = {};
     memoryChecked = {};
     challenge = null;
+    expandedExamples.clear();
     view = 'table';
     page = 0;
     search = '';
@@ -350,7 +432,7 @@ window.addEventListener('edmund:learning-portal-session', event => {
       memoryAnswers = readSaved('memory');
       questionAnswers = readSaved('examples');
       const savedChallenge = readSaved('challenge');
-      challenge = Number.isInteger(savedChallenge.attempts) && Array.isArray(savedChallenge.pending) && Array.isArray(savedChallenge.bag) && savedChallenge.current?.id ? savedChallenge : null;
+      challenge = restoreChallenge(savedChallenge);
       order = shuffledQuestions();
     }
   }

@@ -62,12 +62,12 @@ def build(filename, title, ordered, note):
                             topMargin=58, bottomMargin=50,
                             title=f'不規則動詞四欄參考表 - {title}',
                             author='EdmundEducation')
-    headers = ['中文意思', 'V1 原形', 'V2 過去式', 'V3 過去分詞']
+    headers = ['#', '中文意思', 'V1 原形', 'V2 過去式', 'V3 過去分詞']
     rows = [[Paragraph(escape(label), column) for label in headers]]
-    for entry in ordered:
-        rows.append([Paragraph(escape(entry['meaning']), cell),
+    for number, entry in enumerate(ordered, 1):
+        rows.append([Paragraph(str(number), cell), Paragraph(escape(entry['meaning']), cell),
                      *[Paragraph(escape(form), cell) for form in entry['forms']]])
-    table = LongTable(rows, colWidths=[225, 145, 190, 197.89], repeatRows=1,
+    table = LongTable(rows, colWidths=[34, 202, 135, 185, 201.89], repeatRows=1,
                       hAlign='LEFT', splitByRow=1)
     table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), blue),

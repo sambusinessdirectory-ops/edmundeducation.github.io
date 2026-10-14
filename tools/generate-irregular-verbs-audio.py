@@ -32,6 +32,7 @@ synth = Kokoro.from_session(ort.InferenceSession(str(MODEL), sess_options=option
                                                 providers=['CPUExecutionProvider']), str(VOICES))
 
 refresh_table = '--refresh-table' in sys.argv
+fix_read = '--fix-read' in sys.argv
 
 def make_clip(name, script, force=False):
     path = OUT / name
@@ -57,7 +58,11 @@ def make_clip(name, script, force=False):
 
 for index, entry in enumerate(data['entries'], 1):
     forms = [form.replace(',', ' or').replace(' (recline)', '') for form in entry['forms']]
-    make_clip(f'v{index:03d}.mp3', forms, force=refresh_table)
+    # Written read is /riːd/ in V1 and /rɛd/ in V2/V3. Kokoro needs the
+    # homophone spelling for the latter in isolated-word audio.
+    if entry['lemma'] == 'read':
+        forms = ['read', 'red', 'red']
+    make_clip(f'v{index:03d}.mp3', forms, force=refresh_table or (fix_read and entry['lemma'] == 'read'))
     for sample in entry['sentences']:
         # The spoken prompt includes a pause at each blank, never the answer or hint.
         script = ' ... '.join(sample['parts'])

@@ -33,12 +33,12 @@ for (const entry of data.entries) {
     assert.equal(sample.parts.reduce((sentence, part, i) => sentence + part + (sample.answers[i] || ''), ''), sample.english);
   }
   if (!process.argv.includes('--ui-only')) {
-    for (const filename of [`v${String(entry.id).padStart(3,'0')}.mp3`, ...[1,2,3].map(form => `q${String(entry.id).padStart(3,'0')}-${form}.mp3`)]) {
+    for (const filename of [`v${String(entry.id).padStart(3,'0')}.mp3`, ...[1,2,3].flatMap(form => [`q${String(entry.id).padStart(3,'0')}-${form}.mp3`,`w${String(entry.id).padStart(3,'0')}-${form}.mp3`])]) {
       assert.ok((await stat(path.join(root,'irregular-verbs/audio',filename))).size > 1000, filename);
     }
   }
 }
-console.log('220 entries and 660 example sentences verified' + (process.argv.includes('--ui-only') ? '' : '; 880 British-male Kokoro audio clips verified'));
+console.log('220 entries and 660 example sentences verified' + (process.argv.includes('--ui-only') ? '' : '; 1,540 British-male Kokoro audio clips verified'));
 if (!process.argv.includes('--browser') && !process.argv.includes('--ui-only')) process.exit(0);
 
 const {chromium} = await import(process.env.PLAYWRIGHT_MODULE || path.join(process.env.HOME,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs'));
@@ -61,12 +61,22 @@ try {
   const page = await browser.newPage({viewport:{width:1440,height:900}});
   const errors=[]; page.on('pageerror', error => errors.push(error.message));
   await page.goto(`http://127.0.0.1:${server.address().port}/irregular-preview`);
-  await page.locator('.iv-table tbody tr').first().waitFor();
+  await page.locator('.iv-table [data-row]').first().waitFor();
   if (process.argv.includes('--screenshots')) await page.screenshot({path:'/private/tmp/irregular-verbs-table.png',fullPage:false});
-  assert.equal(await page.locator('.iv-table tbody tr').count(),220);
-  assert.deepEqual(await page.locator('.iv-table thead th').allTextContents().then(x=>x.map(y=>y.trim())),['中文意思','V1 原形','V2 過去式','V3 過去分詞']);
+  assert.equal(await page.locator('.iv-table [data-row]').count(),220);
+  assert.equal(await page.locator('.iv-example-row:visible').count(),0);
+  assert.deepEqual(await page.locator('.iv-table thead th').allTextContents().then(x=>x.map(y=>y.trim())),['#','中文意思','V1 原形','V2 過去式','V3 過去分詞']);
+  assert.equal((await page.locator('[data-row]').first().locator('.iv-ordinal').textContent()).trim(),'01');
+  const playBoxes = await page.locator('.iv-table-play').evaluateAll(buttons => buttons.slice(0,3).map(button => ({x:button.getBoundingClientRect().x,width:button.getBoundingClientRect().width})));
+  assert.ok(playBoxes.every(box => Math.abs(box.x-playBoxes[0].x)<1 && box.width<=33));
+  await page.locator('[data-row]').first().locator('[data-toggle-row]').click();
+  assert.equal(await page.locator('.iv-example-row:visible').count(),3);
+  if (process.argv.includes('--screenshots')) await page.screenshot({path:'/private/tmp/irregular-verbs-table-expanded.png',fullPage:false});
+  await page.locator('[data-row]').first().locator('[data-toggle-row]').click();
+  assert.equal(await page.locator('.iv-example-row:visible').count(),0);
   await page.locator('[data-sort="priority"]').click();
-  assert.equal(await page.locator('.iv-table tbody tr').first().getAttribute('data-row'),String(priority.order[0]));
+  assert.equal(await page.locator('.iv-table [data-row]').first().getAttribute('data-row'),String(priority.order[0]));
+  assert.equal(await page.locator('.iv-source-note').count(),0);
   assert.match(await page.locator('.iv-export').getAttribute('href'),/learning-priority\.pdf$/);
   await page.locator('[data-sort="alphabetical"]').click();
   assert.match(await page.locator('.iv-export').getAttribute('href'),/alphabetical\.pdf$/);
@@ -92,6 +102,17 @@ try {
   if (process.argv.includes('--screenshots')) await page.screenshot({path:'/private/tmp/irregular-verbs-examples.png',fullPage:false});
   assert.equal(await page.locator('.iv-question').count(),20);
   assert.equal(await page.locator('.iv-hint').count(),20);
+  await page.locator('[data-example-chunk]').selectOption('0');
+  assert.match(await page.locator('.iv-page-info').textContent(),/90 句/);
+  assert.equal(await page.locator('.iv-question').first().count(),1);
+  const firstGroup = new Set(priority.order.slice(0,30));
+  assert.ok((await page.locator('.iv-question').evaluateAll(cards => cards.map(card => Number(card.dataset.question.split(':')[0])))).every(id => firstGroup.has(id)));
+  await page.locator('[data-example-chunk]').selectOption('6');
+  assert.match(await page.locator('.iv-page-info').textContent(),/120 句/);
+  const lastGroup = new Set(priority.order.slice(180));
+  assert.ok((await page.locator('.iv-question').evaluateAll(cards => cards.map(card => Number(card.dataset.question.split(':')[0])))).every(id => lastGroup.has(id)));
+  assert.equal(data.entries[priority.order[219]-1].lemma,'wring');
+  await page.locator('[data-example-chunk]').selectOption('all');
   await page.locator('[data-example-mode="nohint"]').click();
   assert.equal(await page.locator('.iv-hint').count(),0);
   await page.locator('[data-toggle-chinese]').click();
@@ -101,8 +122,13 @@ try {
   if (data.entries[Number(firstKey.split(':')[0])-1].sentences[Number(firstKey.split(':')[1])-1].answers.length > 1) await page.locator('.iv-question').first().locator('.iv-blank').nth(1).fill('wrong');
   await page.locator('[data-batch-submit="examples"]').click();
   assert.match(await page.locator(`[data-question-result="${firstKey}"]`).textContent(),/正解/);
+  assert.equal(await page.locator(`[data-question="${firstKey}"].is-wrong`).count(),1);
   await page.locator('[data-batch-redo="examples"]').click();
   assert.equal(await page.locator(`[data-question="${firstKey}"] .iv-blank`).first().inputValue(),'');
+  const sample = data.entries[Number(firstKey.split(':')[0])-1].sentences[Number(firstKey.split(':')[1])-1];
+  for (let index=0;index<sample.answers.length;index++) await page.locator(`[data-question="${firstKey}"] .iv-blank`).nth(index).fill(sample.answers[index]);
+  await page.locator(`[data-question="${firstKey}"] [data-check-question]`).click();
+  assert.equal(await page.locator(`[data-question="${firstKey}"].is-correct`).count(),1);
   const keys=[];
   for (let index=0;index<33;index++) {
     keys.push(...await page.locator('.iv-question').evaluateAll(cards => cards.map(card=>card.dataset.question)));
@@ -113,6 +139,7 @@ try {
   assert.ok(keys.every((key,index)=>!index || key.split(':')[0] !== keys[index-1].split(':')[0]));
   await page.locator('[data-view-tab="challenge"]').click();
   assert.equal(await page.locator('[data-choice]').count(),6);
+  assert.match(await page.locator('.iv-word-play').getAttribute('data-play'),/^w\d{3}-[123]\.mp3$/);
   if (process.argv.includes('--screenshots')) await page.screenshot({path:'/private/tmp/irregular-verbs-challenge.png',fullPage:false});
   const initial = await page.locator('.iv-challenge-card').getAttribute('data-challenge-id');
   const initialForm = Number(await page.locator('.iv-challenge-card').getAttribute('data-form-index'));
@@ -120,6 +147,10 @@ try {
   assert.equal(await page.locator('.iv-challenge-example').textContent(),data.entries[Number(initial)-1].sentences[initialForm].english);
   const wrongChoice = await page.locator('[data-choice]').evaluateAll((choices,id) => choices.find(button => button.dataset.choice !== id)?.dataset.choice, initial);
   await page.locator(`[data-choice="${wrongChoice}"]`).click();
+  assert.equal(await page.locator('[data-outcome]').count(),0);
+  assert.equal(await page.locator('.iv-challenge-result').count(),0);
+  const savedBefore = await page.evaluate(() => JSON.parse(localStorage.getItem('edmund-irregular-verbs:test-student:challenge')));
+  assert.ok(savedBefore.bag.some(item => item.id === Number(initial) && item.formIndex !== initialForm));
   for (const index of [0,1,2].filter(index => index !== initialForm)) await page.locator(`[data-challenge-input="${index}"]`).fill('wrong');
   await page.locator('[data-challenge-submit]').click();
   assert.equal(await page.locator('[data-attempt-count]').textContent(),'1');
@@ -141,6 +172,14 @@ try {
   await page.reload();
   await page.locator('[data-view-tab="challenge"]').click();
   assert.equal(await page.locator('[data-attempt-count]').textContent(),String(intervening+1));
+  await page.locator('[data-reset-challenge]').click();
+  assert.equal(await page.locator('.iv-reset-dialog:visible').count(),1);
+  if (process.argv.includes('--screenshots')) await page.screenshot({path:'/private/tmp/irregular-verbs-reset-modal.png',fullPage:false});
+  await page.locator('[data-cancel-reset]').click();
+  assert.equal(await page.locator('[data-attempt-count]').textContent(),String(intervening+1));
+  await page.locator('[data-reset-challenge]').click();
+  await page.locator('[data-confirm-reset]').click();
+  assert.equal(await page.locator('[data-attempt-count]').textContent(),'0');
   if (process.argv.includes('--screenshots')) {
     await page.locator('[data-view-tab="table"]').click();
     await page.setViewportSize({width:390,height:844});
@@ -149,5 +188,5 @@ try {
     await page.screenshot({path:'/private/tmp/irregular-verbs-mobile.png',fullPage:false});
   }
   assert.deepEqual(errors,[]);
-  console.log('Reference sorting/PDFs, partial submissions/redo, 660 questions, and persistent endless challenge verified');
+  console.log('Five-column table/examples, aligned audio, chunks, result styling, partial submissions, independent-form challenge, retry, and reset verified');
 } finally { await browser?.close(); server.close(); }
