@@ -9,8 +9,8 @@ const rows=lessons.map(lesson=>{
   const questions=Object.fromEntries(lesson.questions.map(q=>[q.id,{type:q.type,answers:q.answers,options:q.options||[]}]));
   return `(${sqlText(lesson.id)}, '${JSON.stringify(['phrase'])}'::jsonb, ${sqlText(JSON.stringify(questions))}::jsonb)`;
 });
-const sql=`-- Advanced Native course: five new, independent expression modules.\n-- Generated from natural-english/advanced-expressions.mjs by tools/build-advanced-native-catalogue.mjs.\ninsert into natural_english_private.catalogue(module,senses,questions) values\n${rows.join(',\n')}\non conflict (module) do update set senses=excluded.senses,questions=excluded.questions;\n`;
-const output=path.join(root,'supabase/migrations/20261014194500_advanced_native_expressions.sql');
+const sql=`-- Advanced Native revision 2: add all-correct reply questions and reset lesson question ids.\n-- Keep revision 1 questions valid for learners whose pages are still open during rollout.\n-- Generated from natural-english/advanced-expressions.mjs by tools/build-advanced-native-catalogue.mjs.\ninsert into natural_english_private.catalogue(module,senses,questions) values\n${rows.join(',\n')}\non conflict (module) do update set senses=excluded.senses,questions=natural_english_private.catalogue.questions || excluded.questions;\n`;
+const output=path.join(root,'supabase/migrations/20261014213000_advanced_native_revision_2.sql');
 fs.mkdirSync(path.dirname(output),{recursive:true});
 if(process.argv.includes('--check')){
   if(!fs.existsSync(output)||fs.readFileSync(output,'utf8')!==sql)throw Error('Advanced Native SQL catalogue is stale');

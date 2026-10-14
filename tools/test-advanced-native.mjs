@@ -17,8 +17,9 @@ assert.deepEqual(lessons.map(m=>m.titleEn),[
 ]);
 assert.ok(html.includes('href="advanced-native.html"'));
 assert.ok(html.includes('Advanced Native<br>進階學生使用<br>高級自然英文<br>學習系統'));
-assert.ok(fs.statSync(path.join(root,'assets/homepage/card-art/card-74.webp')).size>10000);
+assert.ok(!html.includes('card-74.webp'),'Card 74 stays image-free for now');
 assert.ok(portal.includes('data-course="advanced-native"'));
+assert.ok(portal.includes('advanced-native/style.css'));
 assert.ok(app.includes('visibleModules=modules.filter'));
 assert.ok(app.includes('if(!m||!inThisCourse(id))return'));
 assert.equal(modules.filter(m=>m.course==='advanced-native').length,5);
@@ -26,8 +27,13 @@ assert.equal(modules.filter(m=>m.course==='advanced-native').length,5);
 const seen=new Set();
 for(const lesson of lessons){
   assert.equal(moduleMap.get(lesson.id)?.id,lesson.id);
-  assert.equal(lesson.steps.length,6);
-  assert.equal(lesson.questions.length,5);
+  assert.equal(lesson.steps.length,7);
+  assert.equal(lesson.questions.length,6);
+  assert.equal(lesson.steps[1].style,'reply');
+  assert.equal(lesson.questions[1].allCorrect,true);
+  assert.equal(lesson.questions[1].answers.length,4);
+  assert.ok(lesson.questions[1].options.includes(lesson.questions[1].golden));
+  assert.ok(lesson.steps.some(s=>s.recording==='phrase'&&s.displayModel.includes('__________________')));
   assert.equal(lesson.steps[0].audioOnly,true);
   assert.ok(lesson.steps[0].model.length>20);
   assert.ok(lesson.steps.some(s=>s.recording==='phrase'&&s.speakingPrompt));
@@ -50,5 +56,6 @@ for(const lesson of lessons){
     assert.ok(fs.statSync(path.join(root,url)).size>1800,`Empty audio ${url}`);
   }
 }
-assert.equal(seen.size,25);
-console.log('Advanced Native: Card 74, five isolated modules, 25 questions, 20 local clips verified.');
+assert.equal(lessons[0].steps.find(s=>s.style==='speak').displayModel,'__________________ until I joined the debate club.');
+assert.equal(seen.size,30);
+console.log('Advanced Native: Card 74, five isolated modules, 30 questions, five golden replies, 20 local clips verified.');
