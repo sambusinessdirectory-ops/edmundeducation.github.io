@@ -544,6 +544,18 @@
 .grammar-tense-topic__check { display: flex; align-items: baseline; gap: 9px 16px; margin-top: 18px; padding: 13px 0 0; border-top: 1px dashed #c9d8de; }
 .grammar-tense-topic__check strong { flex: none; color: #a06923; font-size: 13px; }
 .grammar-tense-topic__check p { margin: 0; color: #4c5f6c; line-height: 1.65; }
+.grammar-tense-checkpoint { margin-top: 22px; padding: clamp(18px, 2.5vw, 25px); border: 1px solid #b8d5cf; border-radius: 17px; background: linear-gradient(145deg, #f0faf5, #f7fbff); }
+.grammar-tense-checkpoint__label { color: #146b64; font-size: 11px; font-weight: 900; letter-spacing: .14em; }
+.grammar-tense-checkpoint h4 { margin: 9px 0 13px; color: #183f49; font-size: clamp(17px, 2vw, 20px); line-height: 1.5; }
+.grammar-tense-checkpoint__choices { display: grid; gap: 8px; }
+.grammar-tense-checkpoint__choices button { width: 100%; padding: 12px 15px; border: 1px solid #cbdadf; border-radius: 11px; background: #fff; color: #25445b; font-family: inherit; font-size: 15px; font-weight: 700; line-height: 1.5; text-align: left; cursor: pointer; }
+.grammar-tense-checkpoint__choices button:hover, .grammar-tense-checkpoint__choices button:focus-visible { border-color: #258678; box-shadow: 0 0 0 3px #25867822; outline: none; }
+.grammar-tense-checkpoint__choices button[data-result="correct"] { border-color: #1c8a68; background: #dcf5e9; color: #0c6049; }
+.grammar-tense-checkpoint__choices button[data-result="retry"] { border-color: #d9a773; background: #fff4e7; color: #805325; }
+.grammar-tense-checkpoint__feedback { margin: 10px 0 0; font-weight: 750; line-height: 1.6; }
+.grammar-tense-checkpoint__feedback[data-result="correct"] { color: #0c6f50; }
+.grammar-tense-checkpoint__feedback[data-result="retry"] { color: #96632c; }
+.grammar-tense-checkpoint [data-checkpoint-why] { margin-top: 18px; padding-top: 17px; border-top: 1px dashed #b8d5cf; }
 .grammar-tense-topic__source { margin: 18px 0 0; color: #697d89; font-size: 12px; font-weight: 750; }
 @media (max-width: 650px) {
   .grammar-tense-topic__examples { grid-template-columns: 1fr; }

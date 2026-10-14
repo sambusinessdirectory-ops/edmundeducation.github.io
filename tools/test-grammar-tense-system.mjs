@@ -30,17 +30,20 @@ assert.equal(questions[50].answer, "brings");
 assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
-assert.equal(guide.length, 50, "Tense curation must teach both the foundation and detailed distinctions");
+assert.equal(guide.length, 52, "Tense curation must teach the foundation, detailed distinctions, and final form checks");
 assert.ok(guide.every((item) => item.title && item.focus && item.formula && item.examples.length === 2 && item.check && item.source));
 assert.match(guide[19].title, /時間字是線索/);
-assert.match(guide[49].title, /最後檢查/);
-assert.equal(new Set(guide.map((item) => item.title)).size, 50, "Each stage should teach a distinct point");
+assert.match(guide[49].title, /綜合檢查/);
+assert.equal(new Set(guide.map((item) => item.title)).size, 52, "Each stage should teach a distinct point");
+assert.match(guide[50].title, /問句與否定/);
+assert.match(guide[51].title, /just、ever、never/);
+assert.ok(guide.slice(50).every((item) => item.checkpoint?.choices.length === 3 && item.checkpoint?.whyChoices.length === 3));
 assert.ok(guide.slice(19).every((item) => /第 \d|全部/.test(item.source) || /綜合/.test(item.source)), "Deep-dive stages should trace back to the questions");
 for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Present Continuous", "Past Continuous", "Future Continuous", "Present Perfect", "Past Perfect", "Future Perfect", "Perfect Continuous", "Modal Perfect"]) {
   assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
 }
 
-for (const asset of ["grammar-system.css?v=20261014-tense-guide2", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide2", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261014-tense-guide2", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
+for (const asset of ["grammar-system.css?v=20261014-tense-guide3", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261014-tense-guide3", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -85,8 +88,18 @@ for (const native of [false, true]) {
   if(native){w.CSS={highlights:new Map()};w.Highlight=class extends Set{constructor(...ranges){super(ranges)}};}
   w.eval(dataSource);w.eval(guideSource);w.eval(runtime);
   const cards=[...d.querySelectorAll('[data-tense-topic]')];
-  assert.equal(cards.length,50,'all foundation and deep-dive stages are present');
-  assert.equal(d.querySelectorAll('.grammar-tense-deep-dive').length,1,'deep-dive stages have a clear visual section break');
+  assert.equal(cards.length,52,'all foundation, deep-dive, and form stages are present');
+  assert.equal(d.querySelectorAll('.grammar-tense-deep-dive').length,2,'later stages have clear visual section breaks');
+  const firstCheckpoint=cards[50].querySelector('[data-tense-checkpoint]');
+  assert.ok(firstCheckpoint,'the form stage has an interactive checkpoint');
+  assert.equal(firstCheckpoint.querySelector('[data-checkpoint-why]').hidden,true,'reason choices start hidden');
+  firstCheckpoint.querySelector('[data-tense-checkpoint-choice="form"][data-choice-index="1"]').click();
+  assert.equal(firstCheckpoint.querySelector('[data-checkpoint-why]').hidden,true,'an incorrect form does not reveal the reason choices');
+  firstCheckpoint.querySelector('[data-tense-checkpoint-choice="form"][data-choice-index="0"]').click();
+  assert.equal(firstCheckpoint.querySelector('[data-checkpoint-why]').hidden,false,'a correct form reveals the reason choices');
+  firstCheckpoint.querySelector('[data-tense-checkpoint-choice="why"][data-choice-index="0"]').click();
+  assert.match(firstCheckpoint.querySelector('[data-checkpoint-why-feedback]').textContent,/last night/,'the rationale is shown after choosing the reason');
+  assert.ok(cards[51].querySelector('[data-tense-checkpoint]'),'the word-order stage has a checkpoint');
   Object.defineProperty(w,'scrollY',{configurable:true,writable:true,value:0});
   cards.forEach((card,index)=>{card.getBoundingClientRect=()=>({top:600+index*450-w.scrollY})});
   d.querySelector('[data-open-tense-guide]').click();

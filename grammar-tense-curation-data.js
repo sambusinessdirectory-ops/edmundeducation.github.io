@@ -346,10 +346,42 @@ window.EDMUND_GRAMMAR_TENSE_CURATION = Object.freeze([
     check: "別把教材中的最佳答案誤教成其他語法形式在所有語境都錯。", source: "第 12、17、45、54、77、82–83、124、147、150 題"
   },
   {
-    chapter: "14 · 細節整合", title: "最後檢查：意思、時間線、形式、語氣",
+    chapter: "14 · 細節整合", title: "綜合檢查：意思、時間線、形式、語氣",
     focus: "先說清楚題目真正要表達甚麼，再畫出起點和檢查點；選結果或過程，最後檢查助動詞、主語及 V3 / -ing。這樣遇到混合題也不用靠關鍵字猜。",
     formula: "① 意思  →  ② 時間線  →  ③ 焦點  →  ④ 形式  →  ⑤ 語氣",
     examples: [["By six, she will have painted four rooms.", "到六時，重點是四間已完成。"], ["By six, she will have been painting for four hours.", "到六時，重點是已持續四小時。"]],
     check: "如果兩種寫法都看似可行，指出題目哪一句讓其中一種更精確。", source: "綜合 · 第 51–150 題"
+  },
+  {
+    chapter: "15 · 句型與位置", title: "問句與否定：助動詞先承擔時態",
+    focus: "一般動詞的 Simple Present / Past 用 do、does、did 組成問句和否定句；主要動詞回原形。Perfect 問句則把 have、has、had 移到主語前，主要動詞仍用 V3。",
+    formula: "Does she walk? · She doesn't walk. · Did she walk? · Has she walked?",
+    examples: [["Did you finish the homework yesterday?", "did 表示過去；finish 不再加 -ed。"], ["Have you ever ridden a horse?", "have 移到 you 前；ride 用 V3 ridden。"]],
+    check: "先找負責時態的助動詞，再檢查主要動詞。be 和情態動詞的問句通常把它們提前，不要機械地加 do。", source: "第 3、7、27–28、79、94、100、136 題",
+    checkpoint: {
+      prompt: "昨晚有沒有查電郵？選一句最合適的問句。",
+      choices: ["Did you check your email last night?", "Did you checked your email last night?", "Have you checked your email last night?"],
+      answer: 0,
+      whyPrompt: "為甚麼選這句？",
+      whyChoices: ["last night 是已結束的過去時間；did 已表示過去，check 用原形。", "所有問句都要用 have + V3。", "問句中的主要動詞必須再加 -ed。"],
+      whyAnswer: 0,
+      explanation: "先看 last night 的時間範圍，再讓 did 承擔過去式；不要寫 did checked。"
+    }
+  },
+  {
+    chapter: "15 · 句型與位置", title: "just、ever、never、already、still 放在哪裏？",
+    focus: "在這組題裏，just / never / already 常放在 Perfect 的第一個助動詞與 V3 之間；ever 在 Have you…? 的主語後。still 修飾進行中的活動時，常放在 be 與 -ing 之間。",
+    formula: "has just sent · have never flown · had already eaten · Have you ever tried? · were still dancing",
+    examples: [["Maya has just sent the file.", "has + just + V3 sent；現在看得到結果。"], ["At midnight, the guests were still dancing.", "were + still + -ing；午夜仍在跳舞。"]],
+    check: "先選對時態，再放副詞；already 也可在句末，這裏展示的是題目採用的自然位置，不是唯一位置。", source: "第 21、29、32、87、100、115、143 題",
+    checkpoint: {
+      prompt: "我們九時接到 Sam 電話前已吃完。選最自然的寫法。",
+      choices: ["We had already eaten dinner.", "We had already ate dinner.", "We were still eating dinner."],
+      answer: 0,
+      whyPrompt: "哪個理由最能支持你的選擇？",
+      whyChoices: ["電話來時晚餐已完成；had + already + V3 eaten 回望更早的事。", "看到 already，動詞一定用過去式 ate。", "九時仍在進行，所以應用 were + -ing。"],
+      whyAnswer: 0,
+      explanation: "第 87 題的焦點是『之前已吃完』；already 在 had 與 eaten 之間，eaten 是 V3。"
+    }
   }
 ]);

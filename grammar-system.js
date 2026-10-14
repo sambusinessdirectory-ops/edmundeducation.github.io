@@ -15,7 +15,7 @@
     ? window.EDMUND_GRAMMAR_TENSE_CURATION : [];
   const explanationModeKey = "edmund-grammar-tense-explanation-mode-v1";
   const portalRoot = document.querySelector('[data-learning-portal-root]');
-  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1) || guide.length !== 50) {
+  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1) || guide.length !== 52) {
     console.error("Tense practice data is incomplete.");
     return;
   }
@@ -41,11 +41,12 @@
 
   function renderGuideCard(item, index) {
     const examples = item.examples.map(([english, chinese]) => `<div class="grammar-tense-example"><p lang="en">${escapeHtml(english)}</p><span lang="zh-Hant">${escapeHtml(chinese)}</span></div>`).join("");
-    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div><div class="grammar-tense-topic__check"><strong>答題時檢查</strong><p>${escapeHtml(item.check)}</p></div><p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
+    const checkpoint = item.checkpoint ? `<div class="grammar-tense-checkpoint" data-tense-checkpoint><span class="grammar-tense-checkpoint__label">TRY IT · 選擇 + 說原因</span><h4>${escapeHtml(item.checkpoint.prompt)}</h4><div class="grammar-tense-checkpoint__choices" role="group" aria-label="選擇寫法">${item.checkpoint.choices.map((choice, choiceIndex) => `<button type="button" data-tense-checkpoint-choice="form" data-choice-index="${choiceIndex}" aria-pressed="false">${escapeHtml(choice)}</button>`).join("")}</div><p class="grammar-tense-checkpoint__feedback" data-checkpoint-form-feedback role="status" hidden></p><div data-checkpoint-why hidden><h4>${escapeHtml(item.checkpoint.whyPrompt)}</h4><div class="grammar-tense-checkpoint__choices" role="group" aria-label="選擇原因">${item.checkpoint.whyChoices.map((choice, choiceIndex) => `<button type="button" data-tense-checkpoint-choice="why" data-choice-index="${choiceIndex}" aria-pressed="false">${escapeHtml(choice)}</button>`).join("")}</div><p class="grammar-tense-checkpoint__feedback" data-checkpoint-why-feedback role="status" hidden></p></div></div>` : "";
+    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div><div class="grammar-tense-topic__check"><strong>答題時檢查</strong><p>${escapeHtml(item.check)}</p></div>${checkpoint}<p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
   }
 
-  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"], [20, "深入細節"], [25, "時間範圍"], [30, "進行中"], [34, "回望結果"], [40, "數量與時長"], [45, "過去的推斷"], [50, "最後檢查"]];
-  const guideMarkup = guide.map((item, index) => `${index === 19 ? '<div class="grammar-tense-deep-dive"><span>PART 02 · DEEP DIVE</span><h3>把細節判斷練成直覺</h3><p>前 19 節建立時態全圖；以下 31 節拆開 150 題解析中的細微對比。每節都標出對應題目，方便回去驗證。</p></div>' : ""}${renderGuideCard(item, index)}`).join("");
+  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"], [20, "深入細節"], [25, "時間範圍"], [30, "進行中"], [34, "回望結果"], [40, "數量與時長"], [45, "過去的推斷"], [50, "綜合檢查"], [51, "句型與位置"]];
+  const guideMarkup = guide.map((item, index) => `${index === 19 ? '<div class="grammar-tense-deep-dive"><span>PART 02 · DEEP DIVE</span><h3>把細節判斷練成直覺</h3><p>前 19 節建立時態全圖；以下 31 節拆開 150 題解析中的細微對比。每節都標出對應題目，方便回去驗證。</p></div>' : ""}${index === 50 ? '<div class="grammar-tense-deep-dive"><span>PART 03 · FORM & POSITION</span><h3>把句型寫對，再說出原因</h3><p>兩個簡短檢查點：先選合適的英文，再選支持它的理由。</p></div>' : ""}${renderGuideCard(item, index)}`).join("");
 
   function normaliseAnswer(value) {
     return String(value ?? "")
@@ -119,7 +120,7 @@
       </article>
     </section>
     <section class="panel grammar-articles-curation grammar-tense-curation" data-tense-curation hidden aria-labelledby="tense-curation-title">
-      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>從 150 題解析逆向整理：先用 19 節建立時間線，再用 31 節拆開容易混淆的細節。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button><span data-tense-position>導讀 1 / ${guide.length}</span></div></div>
+      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>從 150 題解析逆向整理：19 節建立時間線，31 節拆解細節，再用 2 節練習句型與副詞位置。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button><span data-tense-position>導讀 1 / ${guide.length}</span></div></div>
       <nav class="grammar-articles-chapters" aria-label="時態導讀章節">${guideChapters.map(([number, label]) => `<button type="button" data-tense-jump="${number}">${escapeHtml(label)}</button>`).join("")}</nav>
       <div class="grammar-articles-stream grammar-tense-stream" data-tense-stream>${guideMarkup}</div>
       <div class="grammar-articles-curation__finish"><h3>帶著時間線開始做題</h3><p>第 1–50 題先逐一建立各種用法；第 51–150 題混合重練。答題後的原有逐步解析會保留。</p><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button></div>
@@ -596,6 +597,32 @@
   elements.curation.querySelectorAll("[data-tense-jump]").forEach((button) => button.addEventListener("click", () => {
     elements.curation.querySelector(`#tense-topic-${button.dataset.tenseJump}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
   }));
+  elements.curation.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-tense-checkpoint-choice]");
+    if (!button || !elements.curation.contains(button)) return;
+    const card = button.closest("[data-tense-topic]");
+    const checkpoint = guide[Number(card?.dataset.tenseTopic) - 1]?.checkpoint;
+    if (!checkpoint) return;
+    const group = button.dataset.tenseCheckpointChoice;
+    const choice = Number(button.dataset.choiceIndex);
+    const box = button.closest("[data-tense-checkpoint]");
+    const correct = choice === (group === "form" ? checkpoint.answer : checkpoint.whyAnswer);
+    box.querySelectorAll(`[data-tense-checkpoint-choice="${group}"]`).forEach((option) => {
+      option.setAttribute("aria-pressed", String(option === button));
+      option.dataset.result = option === button ? (correct ? "correct" : "retry") : "";
+    });
+    const feedback = box.querySelector(group === "form" ? "[data-checkpoint-form-feedback]" : "[data-checkpoint-why-feedback]");
+    feedback.hidden = false;
+    feedback.dataset.result = correct ? "correct" : "retry";
+    feedback.textContent = correct ? (group === "form" ? "寫法正確。現在選出原因。" : checkpoint.explanation) : "再看時間範圍和助動詞，試多一次。";
+    if (group === "form") {
+      box.querySelector("[data-checkpoint-why]").hidden = !correct;
+      if (!correct) {
+        box.querySelector("[data-checkpoint-why-feedback]").hidden = true;
+        box.querySelectorAll('[data-tense-checkpoint-choice="why"]').forEach((option) => { option.setAttribute("aria-pressed", "false"); option.dataset.result = ""; });
+      }
+    }
+  });
   elements.start.addEventListener("click", () => showTensePractice(state.current, true));
   elements.guideBack.addEventListener("click", showTenseGuide);
   elements.back.addEventListener("click", showTenseMenu);
