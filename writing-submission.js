@@ -621,9 +621,11 @@ function syncFloatingWritingImageDock() {
     state.writingImageDockSignature = signature;
     state.writingImageDockIndex = 0;
     state.writingImageDockDismissed = false;
+    dock.classList.remove("has-been-adjusted");
     for (const property of ["left", "top", "right", "bottom", "width", "height"]) dock.style.removeProperty(property);
   }
   const writingRect = elements.writingInput.getBoundingClientRect();
+  const formRect = elements.writingForm.getBoundingClientRect();
   const topicBottom = elements.topicInput.getBoundingClientRect().bottom;
   const headerBottom = Math.max(0, document.querySelector(".edmund-system-header")?.getBoundingClientRect().bottom || 0);
   const available = Boolean(
@@ -632,7 +634,7 @@ function syncFloatingWritingImageDock() {
     && images.length
     && topicBottom <= headerBottom + 8
     && writingRect.top < window.innerHeight * .8
-    && writingRect.bottom > headerBottom + 60
+    && formRect.bottom > headerBottom + 60
   );
   dock.hidden = !available || state.writingImageDockDismissed;
   elements.writingImageRestore.hidden = !available || !state.writingImageDockDismissed;
@@ -703,6 +705,9 @@ function scheduleFloatingWritingTopicSync() {
 function installWritingImageDockControls() {
   const dock = elements.writingImageDock;
   if (!dock) return;
+  // Drag positions are viewport coordinates. Keep the fixed window outside the
+  // animated workspace so an ancestor cannot become its containing block.
+  document.body.append(dock, elements.writingImageRestore);
   dock.querySelector("[data-writing-image-minimise]").addEventListener("click", () => {
     state.writingImageDockDismissed = true;
     syncFloatingWritingImageDock();
@@ -721,10 +726,10 @@ function installWritingImageDockControls() {
     let gesture = null;
     handle.addEventListener("pointerdown", (event) => {
       if (event.button !== 0 || event.target.closest("button") && event.target !== handle) return;
+      dock.classList.add("has-been-adjusted", "is-adjusting");
       const rect = dock.getBoundingClientRect();
       gesture = { id: event.pointerId, x: event.clientX, y: event.clientY, rect };
       handle.setPointerCapture(event.pointerId);
-      dock.classList.add("is-adjusting");
       event.preventDefault();
     });
     handle.addEventListener("pointermove", (event) => {
