@@ -1,5 +1,5 @@
-import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc} from './catalogue.mjs?v=20261015-writing-glossary-v6';
-import {audioManifest} from './audio/manifest.mjs?v=20261014-british-speak-v1';
+import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc} from './catalogue.mjs?v=20261015-lessons-06-10';
+import {audioManifest} from './audio/manifest.mjs?v=20261015-lessons-06-10';
 import {mountRecorder,listRecordings,storeRecording} from './recording.mjs?v=20260929-lesson102v4';
 const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null;const voiceUrls=new Map();
 const advancedCourse=document.body.dataset.course==='advanced-native';
@@ -45,7 +45,20 @@ function zhPhrases(value){
  if(start<text.length)parts.push(text.slice(start));
  return parts.map(part=>`<span class="zh-phrase">${esc(part)}</span>`).join('');
 }
-function renderLibrary(){if(!user)return;const query=$('[data-module-search]').value.trim().toLocaleLowerCase();const filtered=visibleModules.filter(m=>!query||String(m.number).includes(query)||m.titleZh.toLocaleLowerCase().includes(query)||m.titleEn.toLocaleLowerCase().includes(query));const grid=$('[data-module-grid]');grid.dataset.layout=advancedCourse&&!query&&filtered.length===5?'featured':'results';grid.innerHTML=filtered.map(m=>{if(advancedCourse)return advancedCard(m);const done=moduleProgress(m),complete=done===m.questions.length;return `<button class="module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}"><span class="module-card-number">${String(m.number).padStart(2,'0')}</span><span class="module-card-copy"><strong>${esc(m.titleZh)}</strong><span>${complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習'}</span></span></button>`;}).join('');$('[data-library-count]').textContent=query?`找到 ${filtered.length} 課`:`全部 ${filtered.length} 課`;}
+function renderLibrary(){
+ if(!user)return;
+ const query=$('[data-module-search]').value.trim().toLocaleLowerCase();
+ const filtered=visibleModules.filter(m=>!query||String(m.number).includes(query)||m.titleZh.toLocaleLowerCase().includes(query)||m.titleEn.toLocaleLowerCase().includes(query));
+ const grid=$('[data-module-grid]');
+ if(advancedCourse&&!query&&filtered.length>5){
+  grid.dataset.layout='sections';
+  grid.innerHTML=`<div class="module-card-grid" data-layout="featured">${filtered.slice(0,5).map(advancedCard).join('')}</div><h2 class="advanced-library-section">繼續探索 · More expressions</h2><div class="module-card-grid" data-layout="${filtered.length===10?'featured':'results'}">${filtered.slice(5).map(advancedCard).join('')}</div>`;
+ }else{
+  grid.dataset.layout=advancedCourse&&!query&&filtered.length===5?'featured':'results';
+  grid.innerHTML=filtered.map(m=>{if(advancedCourse)return advancedCard(m);const done=moduleProgress(m),complete=done===m.questions.length;return `<button class="module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}"><span class="module-card-number">${String(m.number).padStart(2,'0')}</span><span class="module-card-copy"><strong>${esc(m.titleZh)}</strong><span>${complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習'}</span></span></button>`;}).join('');
+ }
+ $('[data-library-count]').textContent=query?`找到 ${filtered.length} 課`:`全部 ${filtered.length} 課`;
+}
 function progress(){if(!user||!run||!current)return;const done=completed(events,run,current);$('[data-count]').textContent=`本次已完成 ${done.size} / ${current.questions.length} 題`;$('[data-progress]').max=current.questions.length;$('[data-progress]').value=done.size;$('[data-steps]').innerHTML=current.steps.map((s,i)=>`<button data-step="${i}" ${i===index?'aria-current="step"':''}><span>${stepDone(s)?'✓':String(i+1).padStart(2,'0')}</span>${s.label}</button>`).join('');const next=$('[data-next]');if(next)next.disabled=!stepDone(current.steps[index]);}
 function choiceText(value){return `<span class="choice-copy">${String(value).split(/,\s+/).map(esc).join(',<br>')}</span>`;}
 function questionPrompt(q){const safe=esc(q.prompt);return advancedCourse?safe.replace(/不宜|不像|不符合|不正確|不適合|不是|不能|不應|不可/g,word=>`<strong class="negative-cue">${word}</strong>`):safe;}

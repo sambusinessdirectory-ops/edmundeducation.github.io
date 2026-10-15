@@ -1,4 +1,5 @@
 import {mc} from './editorial-question.mjs';
+import nextLessons from './advanced-expressions-part2.mjs?v=20261015-lessons-06-10';
 
 const open=(id,prompt,answers,explanation,glossary)=>({id,type:'open',style:'final',prompt,answers,explanation,glossary});
 const reply=(id,[prompt,options,golden])=>({id,type:'mc',style:'reply',prompt,options,answers:[...options],golden,allCorrect:true,explanation:'四句都能自然地回答這個問題；使用本課表達的句子會獲得金句標記。'});
@@ -79,6 +80,7 @@ const lessons=[
     takeaways:['That experience was the making of her.','The challenge was the making of me.']
   }
 ];
+lessons.push(...nextLessons);
 
 export default lessons.map(data=>{
   // Keep existing question IDs so students retain completed work; only the new
@@ -86,7 +88,7 @@ export default lessons.map(data=>{
   const qid=(name)=>`${data.id}-${name==='reply'?'v2':'v1'}-${name}`;
   const questions=[
     mc(qid('audio'),'audio','先只聽示範句。說話者想表達甚麼？',
-      [data.meaning,'這句只在描述一個具體地點。','這句表示事情一定很容易。','這句的重點是準確的日期和時間。'],data.meaning,
+      data.audioOptions||[data.meaning,'這句只在描述一個具體地點。','這句表示事情一定很容易。','這句的重點是準確的日期和時間。'],data.audioAnswer||data.meaning,
       `這是${data.kind}。${data.meaning}`),
     reply(qid('reply'),data.reply),
     mc(qid('scene'),'scene',...data.scene),

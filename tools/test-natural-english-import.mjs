@@ -5,7 +5,7 @@ import {modules} from '../natural-english/catalogue.mjs';
 import sourceLessons from '../natural-english/imported-lessons.mjs';
 import {audioManifest} from '../natural-english/audio/manifest.mjs';
 
-const imported=modules.filter(module=>module.number>=7);
+const imported=modules.filter(module=>module.course!=='advanced-native'&&module.number>=7);
 const metadata=JSON.parse(fs.readFileSync(new URL('../natural-english/audio/imported-metadata.json',import.meta.url),'utf8'));
 const audioByPath=new Map(Object.values(metadata).flat().map(row=>[row.path,row]));
 assert.equal(imported.length,460);

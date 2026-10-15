@@ -11,10 +11,11 @@ const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const portal=fs.readFileSync(path.join(root,'advanced-native.html'),'utf8');
 const app=fs.readFileSync(path.join(root,'natural-english/app.mjs'),'utf8');
 const audioMetadata=JSON.parse(fs.readFileSync(path.join(root,'natural-english/audio/advanced-metadata.json'),'utf8'));
-assert.equal(lessons.length,5);
+assert.equal(lessons.length,10);
 assert.deepEqual(lessons.map(m=>m.titleEn),[
   'stay in their comfort zone','coast along','wake-up call',
-  'life throws them in at the deep end','the making of a person'
+  'life throws them in at the deep end','the making of a person',
+  'back out','get through it','come out stronger','stepping stone','stumbling block'
 ]);
 assert.ok(html.includes('href="advanced-native.html"'));
 assert.ok(html.includes('Advanced Native<br>進階學生使用<br>高級自然英文<br>學習系統'));
@@ -28,7 +29,7 @@ assert.ok(app.includes('class="negative-cue"'),'negative wording receives a dist
 assert.ok(app.includes('class="writing-glossary"'),'writing prompts show a word bank');
 assert.ok(app.includes('先聽完整句子，留意空格中的表達。'),'speaking model is playable before recording');
 assert.ok(app.includes('if(!m||!inThisCourse(id))return'));
-assert.equal(modules.filter(m=>m.course==='advanced-native').length,5);
+assert.equal(modules.filter(m=>m.course==='advanced-native').length,10);
 
 const seen=new Set();
 for(const lesson of lessons){
@@ -52,7 +53,7 @@ for(const lesson of lessons){
   const glossary=writing.glossary;
   assert.ok(glossary.length>=4,`Lesson ${lesson.number} has a usable writing glossary`);
   const examples=writing.answers.join(' ').toLowerCase();
-  const targetPatterns=[/comfort zone/i,/coast(?:ing)? along/i,/wake-up call/i,/thrown? in at the deep end/i,/the making of/i];
+  const targetPatterns=[/comfort zone/i,/coast(?:s|ed|ing)? along/i,/wake-up call/i,/(?:throw|threw|thrown) .*deep end/i,/the making of/i,/back(?:s|ed|ing)? out/i,/(?:get|gets|got|getting) through/i,/(?:come|comes|came|coming) out stronger/i,/stepping stone/i,/stumbling block/i];
   for(const [english,chinese] of glossary){
     assert.ok(english&&chinese,`Lesson ${lesson.number} glossary entries have both languages`);
     assert.ok(examples.includes(english.toLowerCase()),`Lesson ${lesson.number} glossary wording comes from a suggested answer: ${english}`);
@@ -67,6 +68,18 @@ for(const lesson of lessons){
       assert.ok(q.options.includes(q.answers[0]));
     }else assert.ok(q.answers.length>=2);
   }
+  const targetPattern=targetPatterns[lesson.number-1];
+  const replyQuestion=lesson.questions[1];
+  assert.equal(replyQuestion.options.filter(option=>targetPattern.test(option)).length,1,`Lesson ${lesson.number} has exactly one target-bearing golden reply`);
+  assert.ok(targetPattern.test(replyQuestion.golden));
+  const speaking=lesson.steps.find(s=>s.style==='speak');
+  assert.ok(!targetPattern.test(speaking.displayModel),`Lesson ${lesson.number} speaking cloze hides the target`);
+  assert.ok(speaking.model.match(targetPattern),`Lesson ${lesson.number} full speaking model includes the target`);
+  if(lesson.number>=6){
+    assert.equal(lesson.audioOptions.length,4,'new listening tasks have tailored meaning choices');
+    assert.ok(lesson.audioOptions.includes(lesson.audioAnswer));
+    assert.ok(writing.answers.every(answer=>targetPattern.test(answer)),`Lesson ${lesson.number} suggested answers use the teaching expression`);
+  }
   const texts=[...new Set([...lesson.steps.map(s=>s.model).filter(Boolean),...lesson.takeaways])];
   assert.equal(Object.keys(audioManifest[lesson.id]).length,texts.length);
   for(const text of texts){
@@ -78,5 +91,5 @@ for(const lesson of lessons){
   assert.equal(audioMetadata[lesson.id].find(clip=>clip.text===spokenModel)?.voice,'bm_fable','speaking models use the British male voice');
 }
 assert.equal(lessons[0].steps.find(s=>s.style==='speak').displayModel,'__________________ until I joined the debate club.');
-assert.equal(seen.size,30);
-console.log('Advanced Native: Card 74, five isolated modules, 30 questions, five golden replies, 20 local clips verified.');
+assert.equal(seen.size,60);
+console.log('Advanced Native: Card 74, 10 isolated modules, 60 questions, 10 golden replies, 40 local clips verified.');
