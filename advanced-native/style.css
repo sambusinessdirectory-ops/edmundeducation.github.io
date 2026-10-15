@@ -105,6 +105,17 @@ body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .ad
 body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .advanced-module-card .module-card-copy strong.advanced-card-title-lines{font-size:clamp(1rem,1.4vw,1.4rem)}
 body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .advanced-module-card:nth-child(n+4){background:#171717;color:#fff}
 
+/* Alternate colour placement by group, keeping every lesson in source order. */
+body[data-course="advanced-native"] .module-card-grid[data-layout="sections"]>.module-card-grid+.module-card-grid{margin-top:28px}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(-n+3){background:#171717;color:#fff}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(-n+3):hover{background:#242424}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(-n+3) .module-card-copy em{color:#d8d8d8}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(-n+3) .advanced-card-bottom>span:first-child{background:#d7fb4d;color:#111}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(n+4){background:#fff;color:#111}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(n+4):hover{background:#fffef1}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(n+4) .module-card-copy em{color:#494949}
+body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .advanced-module-card:nth-child(n+4) .advanced-card-bottom>span:first-child{background:#111;color:#fff}
+
 /* Lessons use separate tiles rather than one large sheet. */
 body[data-course="advanced-native"] .stage{display:flex;flex-direction:column;gap:9px;padding:9px;background:#111;border-color:#111;border-radius:28px}
 body[data-course="advanced-native"] .stage-heading{padding:25px 29px;background:#fff;border-radius:20px}

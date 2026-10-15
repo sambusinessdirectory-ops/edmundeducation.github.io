@@ -52,7 +52,8 @@ function renderLibrary(){
  const grid=$('[data-module-grid]');
  if(advancedCourse&&!query&&filtered.length>5){
   grid.dataset.layout='sections';
-  grid.innerHTML=`<div class="module-card-grid" data-layout="featured">${filtered.slice(0,5).map(advancedCard).join('')}</div><h2 class="advanced-library-section">繼續探索 · More expressions</h2><div class="module-card-grid" data-layout="${filtered.length===10?'featured':'results'}">${filtered.slice(5).map(advancedCard).join('')}</div>`;
+  const groups=Array.from({length:Math.ceil(filtered.length/5)},(_,i)=>filtered.slice(i*5,i*5+5));
+  grid.innerHTML=groups.map((group,i)=>`${i===1?'<h2 class="advanced-library-section">繼續探索 · More expressions</h2>':''}<div class="module-card-grid" data-layout="${group.length===5?'featured':'results'}" data-palette="${i%2?'reversed':'normal'}">${group.map(advancedCard).join('')}</div>`).join('');
  }else{
   grid.dataset.layout=advancedCourse&&!query&&filtered.length===5?'featured':'results';
   grid.innerHTML=filtered.map(m=>{if(advancedCourse)return advancedCard(m);const done=moduleProgress(m),complete=done===m.questions.length;return `<button class="module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}"><span class="module-card-number">${String(m.number).padStart(2,'0')}</span><span class="module-card-copy"><strong>${esc(m.titleZh)}</strong><span>${complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習'}</span></span></button>`;}).join('');
