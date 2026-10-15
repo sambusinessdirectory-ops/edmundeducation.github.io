@@ -25,7 +25,7 @@ assert.ok(app.includes('visibleModules=modules.filter'));
 assert.ok(app.includes('done&&!q.allCorrect'),'all-correct replies remain selectable');
 assert.ok(app.includes('grid.dataset.layout'),'Advanced Native has a composed card layout');
 assert.ok(app.includes('class="negative-cue"'),'negative wording receives a distinct visual cue');
-assert.ok(app.includes('class="writing-glossary"'),'difficult writing prompts show a word bank');
+assert.ok(app.includes('class="writing-glossary"'),'writing prompts show a word bank');
 assert.ok(app.includes('先聽完整句子，留意空格中的表達。'),'speaking model is playable before recording');
 assert.ok(app.includes('if(!m||!inThisCourse(id))return'));
 assert.equal(modules.filter(m=>m.course==='advanced-native').length,5);
@@ -48,10 +48,15 @@ for(const lesson of lessons){
   assert.ok(lesson.steps.some(s=>s.recording==='phrase'&&s.speakingPrompt));
   assert.equal(lesson.steps.at(-1).questions.length,1);
   assert.equal(lesson.questions.at(-1).type,'open');
-  if([2,3].includes(lesson.number)){
-    const glossary=lesson.questions.at(-1).glossary;
-    assert.ok(glossary.length>=4,'difficult writing situation has a usable glossary');
-    assert.ok(!glossary.flat().join(' ').toLowerCase().includes(lesson.titleEn.toLowerCase()),'glossary must not reveal the target phrase');
+  const writing=lesson.questions.at(-1);
+  const glossary=writing.glossary;
+  assert.ok(glossary.length>=4,`Lesson ${lesson.number} has a usable writing glossary`);
+  const examples=writing.answers.join(' ').toLowerCase();
+  const targetPatterns=[/comfort zone/i,/coast(?:ing)? along/i,/wake-up call/i,/thrown? in at the deep end/i,/the making of/i];
+  for(const [english,chinese] of glossary){
+    assert.ok(english&&chinese,`Lesson ${lesson.number} glossary entries have both languages`);
+    assert.ok(examples.includes(english.toLowerCase()),`Lesson ${lesson.number} glossary wording comes from a suggested answer: ${english}`);
+    assert.ok(!targetPatterns[lesson.number-1].test(english),`Lesson ${lesson.number} glossary must not reveal the target phrase`);
   }
   for(const q of lesson.questions){
     assert.ok(!seen.has(q.id),`Duplicate question ${q.id}`);seen.add(q.id);

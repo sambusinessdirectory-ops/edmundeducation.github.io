@@ -13,7 +13,9 @@ const lessons=[
     contrast:['同事說 I am happy in this role. 你有甚麼需要先確定，才說他 stays in his comfort zone？',['他是否因為害怕風險而避開新機會。','他的薪金是否比你高。','他是否準時下班。'],'他是否因為害怕風險而避開新機會。','滿意現狀本身不是問題；這個比喻通常帶有因熟悉而不願嘗試的意思。'],
     branch:['朋友想報名公開演講，但總是避開。哪一句既自然又不貶低他？',["You could start with a small group if you want to step outside your comfort zone.","You are lazy because you stay in your comfort zone.","Your comfort zone is a real room you should leave."],"You could start with a small group if you want to step outside your comfort zone.",'step outside your comfort zone 是逐步嘗試新事物；提出小步驟比貼上懶惰標籤更合適。'],
     speak:'I stayed in my comfort zone until I joined the debate club.',speakCloze:'__________________ until I joined the debate club.',speakPrompt:'你以前不敢參加辯論社，後來終於加入。試用英文說出這個轉變。',
-    final:['新情境：你的朋友一直只接熟悉的設計工作，現在想接一個新項目。用一至兩句英文描述她原本的選擇，並鼓勵她嘗試。',["She has stayed in her comfort zone, but this new project could help her grow.","She usually stays in her comfort zone. Maybe this is a good chance to try something new."],'能指出她選擇熟悉工作，並用溫和的方式鼓勵新嘗試；不必與示例逐字相同。'],
+    final:['新情境：你的朋友一直只接熟悉的設計工作，現在想接一個新項目。用一至兩句英文描述她原本的選擇，並鼓勵她嘗試。',["She has stayed in her comfort zone, but this new project could help her grow.","She usually stays in her comfort zone. Maybe this is a good chance to try something new."],'能指出她選擇熟悉工作，並用溫和的方式鼓勵新嘗試；不必與示例逐字相同。',[
+      ['this new project','這個新項目'],['help her grow','幫助她成長'],['usually','通常'],['a good chance','一個好機會'],['try something new','嘗試新事物']
+    ]],
     takeaways:['They stayed in their comfort zone.','She is ready to step outside her comfort zone.']
   },
   {
@@ -27,7 +29,7 @@ const lessons=[
     branch:['經理發現團隊完成舊任務沒問題，但沒有準備下一輪工作。哪句提醒比較準確？',["We can't just coast along; let's plan for next month.","Let's coast along so we can improve faster.","We must stop the project because the team has already failed."],"We can't just coast along; let's plan for next month.",'這句承認當前仍在運作，同時指出不能一直只靠慣性。'],
     speak:'I was coasting along, so I set myself a harder goal.',speakCloze:'__________________ so I set myself a harder goal.',speakPrompt:'你發現自己只做最低限度的功課，於是訂下較難的目標。聽完示範後，自己說一句。',
     final:['新情境：你的樂隊一直演同一批歌，演出尚可，但沒有練習新曲。用一至兩句英文說明問題及下一步。',["We've been coasting along with the same songs. Let's practise a new set.","The band is coasting along, so we should learn some new material."],'表明樂隊仍能演出但缺少投入，並提出具體的新練習方向。',[
-      ['the band','樂隊'],['the same songs','同一批歌'],['perform well enough','演出尚可'],['practise new songs','練習新曲'],['the next show','下次演出']
+      ['The band','樂隊'],['the same songs','同一批歌'],['practise a new set','練習一套新曲目'],['we should','我們應該'],['learn some new material','學習一些新曲目']
     ]],
     takeaways:['We have been coasting along.','We cannot just coast along forever.']
   },
@@ -42,7 +44,7 @@ const lessons=[
     branch:['朋友說自己忘了交一份重要申請，現在開始使用日曆提醒。哪句回應自然？',["That sounds like a wake-up call; your new reminder system should help.","That was a wake-up call, so you must never apply again.","Your calendar is the wake-up call that rang at seven."],"That sounds like a wake-up call; your new reminder system should help.",'肯定這次教訓帶來了具體改變，不誇大也不誤用字面意思。'],
     speak:'The failed inspection was a wake-up call for our restaurant.',speakCloze:'The failed inspection was __________________ for our restaurant.',speakPrompt:'餐廳檢查不合格，大家開始改善衛生流程。聽完示範後，說出這次事件的作用。',
     final:['新情境：你的小組在演講前沒有彩排，結果超時。用一至兩句英文說這次經歷帶來甚麼改變。',["Running over time was a wake-up call. We will rehearse before the next presentation.","Our last presentation was a wake-up call, so we'll time our rehearsal next time."],'指出一次具體問題，以及它如何促使下一次改進。',[
-      ['the presentation','演講'],['rehearse','彩排'],['run over time','超時'],['realise the problem','意識到問題'],['time our rehearsal','為彩排計時']
+      ['Running over time','超時'],['rehearse','彩排'],['the next presentation','下次演講'],['Our last presentation','我們上次的演講'],['time our rehearsal','為彩排計時']
     ]],
     takeaways:['It was a wake-up call for the team.','That mistake was a wake-up call.']
   },
@@ -56,7 +58,9 @@ const lessons=[
     contrast:['哪個情況不符合 be thrown in at the deep end？',['他受了完整訓練，先觀察三個月，才自願接簡單任務。','她沒有帶隊經驗，突然要代替主管主持簡報。','他第一天工作就被安排獨立應付投訴。'],'他受了完整訓練，先觀察三個月，才自願接簡單任務。','充分準備、自己選擇簡單任務，缺少這個慣用語的「突然且困難」兩點。'],
     branch:['朋友第一天做義工便要應付一大群孩子。哪句回應既明白他的處境又自然？',["You were thrown in at the deep end. How did you manage?","You swam in the deep end, so the children must be wet.","You chose to avoid every difficult task."],"You were thrown in at the deep end. How did you manage?",'用被動式描述突然面對艱難任務，然後關心他如何應付。'],
     speak:'I was thrown in at the deep end when I had to host the event alone.',speakCloze:'__________________ when I had to host the event alone.',speakPrompt:'你沒有綵排，卻突然要獨自主持活動。聽完示範後，用英文說出感受。',
-    final:['新情境：你的朋友第一次在咖啡店工作，就要在繁忙時段獨自負責收銀。用一至兩句英文描述她的經歷與應對。',["She was thrown in at the deep end on her first shift, but she stayed calm.","Life threw her in at the deep end when she had to handle the rush alone."],'說清楚突然、缺少準備和任務困難；可用被動式或 life 作主語。'],
+    final:['新情境：你的朋友第一次在咖啡店工作，就要在繁忙時段獨自負責收銀。用一至兩句英文描述她的經歷與應對。',["She was thrown in at the deep end on her first shift, but she stayed calm.","Life threw her in at the deep end when she had to handle the rush alone."],'說清楚突然、缺少準備和任務困難；可用被動式或 life 作主語。',[
+      ['on her first shift','在她第一天上班時'],['stayed calm','保持冷靜'],['had to handle','不得不應付'],['the rush','繁忙時段'],['alone','獨自']
+    ]],
     takeaways:['Life threw her in at the deep end.','She was thrown in at the deep end.']
   },
   {
@@ -69,7 +73,9 @@ const lessons=[
     contrast:['哪一句的用法最恰當？',["That difficult apprenticeship was the making of him.","The apprenticeship was the making of a chair.","He was making of the apprenticeship."],"That difficult apprenticeship was the making of him.",'固定結構是經歷 + was the making of + 人；表示被磨練而成長。'],
     branch:['朋友說創業第一年很辛苦，卻學會了面對失敗。你會怎樣回應？',["It sounds like that year was the making of you.","It sounds like the year made a factory of you.","It sounds like you learned nothing at all."],"It sounds like that year was the making of you.",'對方經過艱難經歷而變得更成熟，用 be the making of you 自然。'],
     speak:'Leading that project was the making of me.',speakCloze:'Leading that project was __________________.',speakPrompt:'你第一次領導項目，雖然辛苦，卻變得更有能力。聽完示範後，自己說一句。',
-    final:['新情境：一位朋友獨自照顧社區花園一年，變得更有耐性和責任感。用一至兩句英文描述這段經歷。',["Caring for the community garden was the making of her; she became more patient and responsible.","That year in the garden was the making of her. She learned to take responsibility."],'使用 be the making of someone，並指出具體成長；不必照抄示例。'],
+    final:['新情境：一位朋友獨自照顧社區花園一年，變得更有耐性和責任感。用一至兩句英文描述這段經歷。',["Caring for the community garden was the making of her; she became more patient and responsible.","That year in the garden was the making of her. She learned to take responsibility."],'使用 be the making of someone，並指出具體成長；不必照抄示例。',[
+      ['Caring for the community garden','照顧社區花園'],['more patient','更有耐性'],['responsible','有責任感'],['That year in the garden','在花園度過的那一年'],['take responsibility','承擔責任']
+    ]],
     takeaways:['That experience was the making of her.','The challenge was the making of me.']
   }
 ];
