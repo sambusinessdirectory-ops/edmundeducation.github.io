@@ -100,7 +100,7 @@ body[data-course="advanced-native"] .advanced-card-bottom>span:first-child{max-w
 body[data-course="advanced-native"] .advanced-module-card:nth-child(n+4) .advanced-card-bottom>span:first-child{background:#d7fb4d;color:#111}
 body[data-course="advanced-native"] .advanced-card-arrow{display:grid;place-items:center;width:34px;height:34px;flex-shrink:0;border:1.5px solid currentColor;border-radius:50%;font-size:1.2rem}
 body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .advanced-module-card{min-height:270px}
-body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .advanced-card-title-lines{font-size:clamp(1rem,1.4vw,1.4rem)}
+body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .advanced-module-card .module-card-copy strong.advanced-card-title-lines{font-size:clamp(1rem,1.4vw,1.4rem)}
 body[data-course="advanced-native"] .module-card-grid[data-layout="results"] .advanced-module-card:nth-child(n+4){background:#171717;color:#fff}
 
 /* Lessons use separate tiles rather than one large sheet. */
