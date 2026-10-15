@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -125,6 +125,13 @@ jobs:
         run: |
           node --check irregular-verbs/app.mjs
           node tools/test-irregular-verbs.mjs
+
+      - name: Validate focused News Discussion release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[news-release]') }}
+        run: |
+          node --check news-discussion/app.mjs
+          node --check shared-system-nav.js
+          node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const p=fs.readFileSync('news-discussion.html','utf8'); if(!h.includes('href=\"news-discussion.html\"')||!p.includes('news-discussion/app.mjs')) throw Error('Card 75 is not linked')"
 
       - name: Validate focused Paper 3 curation release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
@@ -614,6 +621,7 @@ jobs:
             --exclude='.DS_Store' \
             --exclude='_site' \
             --exclude='*.sql' \
+            --exclude='news-discussion/*.json' \
             --exclude='natural-english/imported-lessons.json' \
             --exclude='natural-english/IMPORT-REVIEW.md' \
             --exclude='natural-english/audio/imported-metadata.json' \
@@ -655,6 +663,9 @@ jobs:
             echo 'Protected Song Appreciation source material was copied into the public Pages artifact.' >&2
             exit 1
           fi
+
+      - name: Verify News Discussion source data is absent from Pages artifact
+        run: test ! -e _site/news-discussion/news-1.json
 
       - name: Stamp PWA release
         run: |
