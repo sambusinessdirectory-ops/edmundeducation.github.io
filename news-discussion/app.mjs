@@ -7,7 +7,7 @@ const client = window.supabase?.createClient?.(config.url, config.anonKey, {
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const adminStorageKey = 'edmund-news-discussion-admin-v1';
 const studentStorageKey = 'edmund-news-discussion-student-v1';
-const state = { role: null, name: '', token: '', cards: [], article: null, progress: {}, view: 'home', question: null, argument: null, images: new Map(), structureOpen: false, structurePosition: null };
+const state = { role: null, name: '', token: '', cards: [], article: null, progress: {}, view: 'home', question: null, argument: null, pick: null, images: new Map(), structureOpen: false, structurePosition: null };
 let loginMode = 'student';
 let busy = false;
 let toastTimer;
@@ -125,7 +125,7 @@ async function logout() {
     sessionStorage.removeItem(studentStorageKey);
     window.EdmundSystemNav?.forgetStudentSession?.();
   }
-  state.role = null; state.name = ''; state.token = ''; state.article = null; state.progress = {}; state.cards = []; state.images.clear();
+  state.role = null; state.name = ''; state.token = ''; state.article = null; state.progress = {}; state.cards = []; state.pick = null; state.images.clear();
   $('#account-name').hidden = true; $('#logout').hidden = true;
   $('#app-view').hidden = true; $('#login-view').hidden = false;
   app.replaceChildren();
@@ -159,7 +159,7 @@ function hydrateImages() {
 }
 
 function renderHome() {
-  state.view = 'home'; state.article = null; state.structureOpen = false;
+  state.view = 'home'; state.article = null; state.structureOpen = false; state.pick = null;
   const admin = state.role === 'admin';
   app.innerHTML = `<div class="section-head"><div><span class="eyebrow">THE NEWS ROOM · 75</span><h1>熱議新聞討論</h1><p>選一則新聞，從事實出發比較正反立場，再收藏值得重用的論點與語句。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>
     ${admin ? `<form id="create-card" class="admin-create"><label>新增新聞卡<input name="title" required maxlength="160" placeholder="輸入新聞標題"></label><button class="primary-button" type="submit">＋ 建立卡片</button></form>` : ''}
@@ -174,9 +174,67 @@ function itemTools(id, label = '') {
 }
 
 function question() { return state.article?.content?.questions?.find(item => item.id === state.question); }
-function renderArgument(argument, side) {
+function glossaryMarkup(argument, prefix = '') {
+  return `<div class="argument-detail"><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${(argument.glossary || []).map(entry => `<li id="${esc(prefix + entry.id)}"><div class="glossary-copy"><strong>${esc(entry.english)}</strong><span>${esc(entry.chinese)}</span></div>${itemTools(entry.id, entry.english)}</li>`).join('')}</ul></div>`;
+}
+
+function renderArgument(argument, side, picker = null) {
   const open = state.argument === argument.id;
-  return `<article class="argument ${open ? 'is-open' : ''}" id="${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="${open}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure">${open ? '−' : '+'}</span></button>${itemTools(argument.id, argument.title)}</div>${open ? `<div class="argument-detail"><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map(entry => `<li id="${esc(entry.id)}"><div class="glossary-copy"><strong>${esc(entry.english)}</strong><span>${esc(entry.chinese)}</span></div>${itemTools(entry.id, entry.english)}</li>`).join('')}</ul></div>` : ''}</article>`;
+  const picked = picker !== null && state.pick?.selected[picker]?.has(argument.id);
+  return `<article class="argument ${open ? 'is-open' : ''} ${picked ? 'is-picked' : ''}" id="${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="${open}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure">${open ? '−' : '+'}</span></button>${picker !== null ? `<button class="pick-toggle ${picked ? 'is-picked' : ''}" type="button" data-pick-id="${esc(argument.id)}" aria-pressed="${Boolean(picked)}" aria-label="${picked ? '取消選取' : '選取'}：${esc(argument.title)}">${picked ? '✓ 已選' : '＋ 選取'}</button>` : ''}${itemTools(argument.id, argument.title)}</div>${open ? glossaryMarkup(argument) : ''}</article>`;
+}
+
+function renderPickedArgument(argument, index) {
+  return `<article class="argument picked-argument" id="picker-${index + 1}-${esc(argument.id)}"><div class="picked-argument__head"><div><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><h4>${esc(argument.title)}</h4></div>${itemTools(argument.id, argument.title)}</div>${glossaryMarkup(argument, `picker-${index + 1}-`)}</article>`;
+}
+
+function pickCounts(index) {
+  const q = question();
+  const selected = state.pick.selected[index];
+  return { for: (q?.for || []).filter(a => selected.has(a.id)).length, against: (q?.against || []).filter(a => selected.has(a.id)).length };
+}
+
+function renderPickPage(preserveScroll = false) {
+  const q = question();
+  if (!q || !state.pick) return;
+  const priorScroll = window.scrollY;
+  const index = state.pick.phase - 1;
+  const counts = pickCounts(index);
+  state.view = 'pick';
+  app.innerHTML = `<div class="pick-page"><div class="pick-intro"><span class="eyebrow">PICK MODE · ${state.pick.phase} / 3</span><h1>選論點 · Picker ${state.pick.phase}</h1><p>${esc(q.text)}</p><p class="pick-instruction">從正方及反方挑選想討論的論點。按論點可查看簡述和詞彙；勾選與書籤仍會儲存於您的帳戶。</p></div><div class="argument-grid pick-grid"><section class="side side--for"><header><span>FOR · 正方</span><h3>${esc(q.for_label)}</h3><small>已選 ${counts.for} / ${q.for?.length || 0}</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for', index)).join('')}</div></section><section class="side side--against"><header><span>AGAINST · 反方</span><h3>${esc(q.against_label)}</h3><small>已選 ${counts.against} / ${q.against?.length || 0}</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against', index)).join('')}</div></section></div></div><div class="pick-bottom-bar" role="navigation" aria-label="選論點步驟"><div><strong>Picker ${state.pick.phase}</strong><span>正方 ${counts.for} · 反方 ${counts.against}</span></div><div class="pick-bottom-bar__actions"><button type="button" class="outline-button" data-pick-back>${state.pick.phase === 1 ? '退出選取' : '返回 Picker 1'}</button><button type="button" class="primary-button" data-pick-next ${counts.for + counts.against ? '' : 'disabled'}>${state.pick.phase === 1 ? '下一頁 · Picker 2 →' : '查看雙人比較 →'}</button></div></div>`;
+  if (preserveScroll) window.scrollTo({ top: priorScroll, behavior: 'instant' });
+  else window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function renderComparison() {
+  const q = question();
+  if (!q || !state.pick) return;
+  state.view = 'comparison';
+  const column = index => {
+    const selected = state.pick.selected[index];
+    const side = (key, label) => {
+      const args = (q[key] || []).filter(a => selected.has(a.id));
+      return `<section class="side side--${key}"><header><span>${key === 'for' ? 'FOR · 正方' : 'AGAINST · 反方'}</span><h3>${esc(label)}</h3><small>${args.length} 個已選論點</small></header><div>${args.map(a => renderPickedArgument(a, index)).join('') || '<p class="pick-empty">沒有選取此方論點。</p>'}</div></section>`;
+    };
+    return `<section class="comparison-picker"><h2>Picker ${index + 1}</h2>${side('for', q.for_label)}${side('against', q.against_label)}</section>`;
+  };
+  app.innerHTML = `<div class="comparison-page"><div class="pick-top-bar" role="navigation" aria-label="結束選論點練習"><div><span class="eyebrow">PICK MODE · 3 / 3</span><strong>雙人論點比較</strong></div><button type="button" class="outline-button" data-pick-back>← 返回選取</button><button type="button" class="primary-button" data-pick-end>結束練習</button></div><div class="comparison-intro"><h1>雙人論點比較</h1><p>${esc(q.text)}</p></div><div class="comparison-grid">${column(0)}${column(1)}</div></div>`;
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function startPickMode() {
+  if (!state.question) state.question = state.article?.content?.questions?.[0]?.id || null;
+  if (!question()) return;
+  state.pick = { phase: 1, selected: [new Set(), new Set()] };
+  state.argument = null;
+  state.structureOpen = false;
+  renderPickPage();
+}
+
+function endPickMode() {
+  state.pick = null;
+  state.argument = null;
+  renderArticle(true);
 }
 
 function renderQuestion() {
@@ -198,7 +256,7 @@ function renderArticle(scroll = false) {
   state.view = 'article';
   const priorScroll = window.scrollY;
   const hasQ = Boolean(question());
-  app.innerHTML = `<div class="article-top"><button type="button" class="back-button" data-home>← 返回新聞</button><button type="button" class="outline-button" data-bookmarks>☆ 我的書籤</button></div><article class="article-shell"><div class="article-hero"><div class="article-hero__text"><span class="eyebrow">NEWS DISCUSSION · ${esc(article.created_at?.slice(0,10) || '')}</span><h1>${esc(article.title)}</h1><span class="source-chip">原文與討論素材</span></div>${article.has_image ? `<img data-image-id="${esc(article.id)}" alt="${esc(article.title)}">` : ''}</div><div class="source-row"><strong>新聞原文</strong>${article.source_url ? `<a href="${esc(article.source_url)}" target="_blank" rel="noopener noreferrer">${esc(article.source_url)} <span aria-hidden="true">↗</span></a>` : '<span>原文連結稍後補上</span>'}</div><section class="brief"><span class="eyebrow">BRIEF NEWS CONTENT · 新聞摘要</span><p>${esc(article.brief || '新聞摘要稍後補上。')}</p></section><section class="questions"><div class="section-title"><span class="eyebrow">DISCUSSION QUESTIONS</span><h2>討論問題</h2></div>${(article.content?.questions || []).length ? article.content.questions.map((q, index) => `<button class="question-button ${state.question === q.id ? 'is-active' : ''}" type="button" data-question="${esc(q.id)}" aria-expanded="${state.question === q.id}"><span>${String(index + 1).padStart(2, '0')}</span><strong>${esc(q.text)}</strong><span aria-hidden="true">${state.question === q.id ? '−' : '+'}</span></button>`).join('') : '<p class="empty-state">這則新聞的討論內容稍後加入。</p>'}</section>${hasQ ? renderQuestion() : ''}</article>${renderStructures()}`;
+  app.innerHTML = `<div class="article-top"><button type="button" class="back-button" data-home>← 返回新聞</button><div class="article-top__actions">${(article.content?.questions || []).length ? `<button type="button" class="primary-button" data-start-pick>Pick Mode · 選論點</button>` : ''}<button type="button" class="outline-button" data-bookmarks>☆ 我的書籤</button></div></div><article class="article-shell"><div class="article-hero"><div class="article-hero__text"><span class="eyebrow">NEWS DISCUSSION · ${esc(article.created_at?.slice(0,10) || '')}</span><h1>${esc(article.title)}</h1><span class="source-chip">原文與討論素材</span></div>${article.has_image ? `<img data-image-id="${esc(article.id)}" alt="${esc(article.title)}">` : ''}</div><div class="source-row"><strong>新聞原文</strong>${article.source_url ? `<a href="${esc(article.source_url)}" target="_blank" rel="noopener noreferrer">${esc(article.source_url)} <span aria-hidden="true">↗</span></a>` : '<span>原文連結稍後補上</span>'}</div><section class="brief"><span class="eyebrow">BRIEF NEWS CONTENT · 新聞摘要</span><p>${esc(article.brief || '新聞摘要稍後補上。')}</p></section><section class="questions"><div class="section-title"><span class="eyebrow">DISCUSSION QUESTIONS</span><h2>討論問題</h2></div>${(article.content?.questions || []).length ? article.content.questions.map((q, index) => `<button class="question-button ${state.question === q.id ? 'is-active' : ''}" type="button" data-question="${esc(q.id)}" aria-expanded="${state.question === q.id}"><span>${String(index + 1).padStart(2, '0')}</span><strong>${esc(q.text)}</strong><span aria-hidden="true">${state.question === q.id ? '−' : '+'}</span></button>`).join('') : '<p class="empty-state">這則新聞的討論內容稍後加入。</p>'}</section>${hasQ ? renderQuestion() : ''}</article>${renderStructures()}`;
   hydrateImages();
   if (scroll) $('.questions')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   else window.scrollTo({ top: priorScroll, behavior: 'auto' });
@@ -211,7 +269,7 @@ async function openArticle(id) {
       rpc('news_discussion_get', { p_article_id: id, ...tokens() }),
       rpc('news_discussion_state', { p_article_id: id, ...tokens() })
     ]);
-    state.article = article; state.progress = progress || {}; state.question = null; state.argument = null; state.structureOpen = false; state.structurePosition = null;
+    state.article = article; state.progress = progress || {}; state.question = null; state.argument = null; state.pick = null; state.structureOpen = false; state.structurePosition = null;
     renderArticle();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   } catch (error) { toast(`無法開啟新聞：${error.message}`, true); await loadCards(); }
@@ -374,9 +432,31 @@ app.addEventListener('click', async event => {
     renderArticle();
     return;
   }
+  if (button.matches('[data-start-pick]')) { startPickMode(); return; }
+  if (button.matches('[data-pick-id]') && state.pick?.phase < 3) {
+    const selected = state.pick.selected[state.pick.phase - 1];
+    const id = button.dataset.pickId;
+    if (selected.has(id)) selected.delete(id); else selected.add(id);
+    renderPickPage(true);
+    app.querySelector(`[data-pick-id="${CSS.escape(id)}"]`)?.focus({ preventScroll: true });
+    return;
+  }
+  if (button.matches('[data-pick-next]') && state.pick) {
+    if (state.pick.selected[state.pick.phase - 1].size === 0) return;
+    state.argument = null;
+    state.pick.phase += 1;
+    if (state.pick.phase === 3) renderComparison(); else renderPickPage();
+    return;
+  }
+  if (button.matches('[data-pick-back]') && state.pick) {
+    if (state.pick.phase === 1) endPickMode();
+    else { state.pick.phase -= 1; state.argument = null; renderPickPage(); }
+    return;
+  }
+  if (button.matches('[data-pick-end]') && state.pick) { endPickMode(); return; }
   if (button.matches('[data-argument]')) {
     state.argument = state.argument === button.dataset.argument ? null : button.dataset.argument;
-    renderArticle();
+    if (state.pick && state.view === 'pick') renderPickPage(true); else renderArticle();
     return;
   }
   if (button.matches('[data-star]')) return saveItem(button.dataset.star, { bookmarked: !itemState(button.dataset.star).bookmarked });
