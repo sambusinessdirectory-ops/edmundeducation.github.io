@@ -38,7 +38,7 @@ function advancedCard(m){
  const done=moduleProgress(m),complete=done===m.questions.length;
  const state=complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習';
  const title=m.cardTitleLines?.length?`<strong class="advanced-card-title-lines">${m.cardTitleLines.map(line=>`<span>${esc(line)}</span>`).join('')}</strong>`:`<strong>${esc(m.titleZh)}</strong>`;
- return `<button class="module-card advanced-module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}，${esc(state)}"><span class="advanced-card-top"><span>LESSON ${String(m.number).padStart(2,'0')}</span><span>${esc(m.kind.split(' · ')[1]||m.kind)}</span></span><span class="module-card-copy">${title}<em lang="en">${esc(m.titleEn)}</em></span><span class="advanced-card-bottom"><span>${esc(state)}</span><span class="advanced-card-arrow" aria-hidden="true">↗</span></span></button>`;
+ return `<button class="module-card advanced-module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}，${esc(state)}"><span class="advanced-card-top"><span>LESSON ${String(m.number).padStart(2,'0')}</span><span>${esc(m.kind.split(' · ')[1]||m.kind)}</span></span><span class="module-card-copy">${title}<em lang="en">${englishText(m.titleEn)}</em></span><span class="advanced-card-bottom"><span>${esc(state)}</span><span class="advanced-card-arrow" aria-hidden="true">↗</span></span></button>`;
 }
 function zhPhrases(value){return chineseText(value);}
 function renderLibrary(){
@@ -67,7 +67,7 @@ function openQuestionHtml(q){
  const saved=[...events].reverse().find(e=>e.kind==='answer'&&e.module===current.id&&e.run===run&&e.question===q.id)?.choice||'';
  const value=inputs[key]??saved;
  const revealed=done||reviewing;
- const glossary=q.glossary?.length?`<div class="writing-glossary"><strong>小詞庫 · 試用這些詞組寫句子</strong><p>詞庫不提供本課表達，請自己想想怎樣用它。</p><table><thead><tr><th scope="col">English</th><th scope="col">中文</th></tr></thead><tbody>${q.glossary.map(([en,zh])=>`<tr><td lang="en">${esc(en)}</td><td>${esc(zh)}</td></tr>`).join('')}</tbody></table></div>`:'';
+ const glossary=q.glossary?.length?`<div class="writing-glossary"><strong>${zhPhrases('小詞庫 · 試用這些詞組寫句子')}</strong><p>${zhPhrases('詞庫不提供本課表達，請自己想想怎樣用它。')}</p><table><thead><tr><th scope="col">English</th><th scope="col">中文</th></tr></thead><tbody>${q.glossary.map(([en,zh])=>`<tr><td lang="en">${englishText(en)}</td><td>${zhPhrases(zh)}</td></tr>`).join('')}</tbody></table></div>`:'';
  return `<article class="question open-question" data-question="${q.id}"><h3>${questionPrompt(q)}</h3>${glossary}<form data-open="${q.id}"><label for="open-${q.id}">你的英文回應</label><textarea id="open-${q.id}" name="answer" maxlength="400" spellcheck="true" ${done?'disabled':''}>${esc(value)}</textarea><p data-open-status role="status"></p>${revealed?'':`<button type="button" data-open-reveal="${q.id}">寫好後對照示例</button>`}</form>${revealed?`<div class="open-review"><strong>可行示例</strong><ul>${q.answers.slice(0,3).map(example=>`<li lang="en"><span>${advancedCourse?englishText(example,current.id,'yellow'):esc(example)}</span>${sentenceTranslation(q.answersZh?.[example])}</li>`).join('')}</ul><p>${advancedCourse?zhPhrases(q.explanation):esc(q.explanation)}</p>${done?'<strong>✓ 已完成自我檢查</strong>':`<button class="primary" data-open-complete="${q.id}">我已對照，完成本題</button>`}</div>`:''}</article>`;
 }
 function questionHtml(q){

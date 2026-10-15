@@ -211,4 +211,6 @@ body[data-course="advanced-native"] .module-card-grid[data-palette="reversed"] .
 body[data-course="advanced-native"] .stage .question{padding:18px 12px}
 body[data-course="advanced-native"] .open-review{padding:14px 10px}
 body[data-course="advanced-native"] .open-review ul{padding-left:1em}
+body[data-course="advanced-native"] .writing-glossary{padding:14px 10px}
+body[data-course="advanced-native"] .writing-glossary :is(th,td){padding:9px 7px}
 }
