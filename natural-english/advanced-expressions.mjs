@@ -4,7 +4,7 @@ const open=(id,prompt,answers,explanation,glossary)=>({id,type:'open',style:'fin
 const reply=(id,[prompt,options,golden])=>({id,type:'mc',style:'reply',prompt,options,answers:[...options],golden,allCorrect:true,explanation:'四句都能自然地回答這個問題；使用本課表達的句子會獲得金句標記。'});
 const lessons=[
   {
-    id:'advanced-native-001',number:1,titleZh:'走出熟悉的範圍',titleEn:'stay in their comfort zone',kind:'比喻用法 · Figurative use',
+    id:'advanced-native-001',number:1,titleZh:'走出熟悉的範圍',cardTitleLines:['走出熟悉的範圍'],titleEn:'stay in their comfort zone',kind:'比喻用法 · Figurative use',
     summary:'分清「熟悉而安全」與「懶惰」；學會在適當的語境使用 comfort zone。',
     audio:'The new role seemed risky, so they stayed in their comfort zone.',audioZh:'新職位看來有風險，所以他們留在熟悉的範圍。',
     meaning:'留在熟悉、安全的做法或環境；不一定表示懶惰。',
@@ -47,7 +47,7 @@ const lessons=[
     takeaways:['It was a wake-up call for the team.','That mistake was a wake-up call.']
   },
   {
-    id:'advanced-native-004',number:4,titleZh:'毫無準備就要應付難事',titleEn:'life throws them in at the deep end',kind:'慣用語 · Idiom or set phrase',
+    id:'advanced-native-004',number:4,titleZh:'毫無準備就要應付難事',cardTitleLines:['毫無準備就要','應付難事'],titleEn:'life throws them in at the deep end',kind:'慣用語 · Idiom or set phrase',
     summary:'掌握 be thrown in at the deep end：在缺少準備時被迫處理難題。',
     audio:'On her first day, she had to lead a meeting. Life threw her in at the deep end.',audioZh:'上班第一天，她就要主持會議；人生一下子把她推進難關。',
     meaning:'未有充分準備，就被迫應付困難的工作或處境；借用泳池深水區的意象。',
