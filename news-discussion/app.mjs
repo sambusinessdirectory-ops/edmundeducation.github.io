@@ -176,20 +176,20 @@ function itemTools(id, label = '') {
 function question() { return state.article?.content?.questions?.find(item => item.id === state.question); }
 function renderArgument(argument, side) {
   const open = state.argument === argument.id;
-  return `<article class="argument ${open ? 'is-open' : ''}" id="${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="${open}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure">${open ? '−' : '+'}</span></button>${itemTools(argument.id, argument.title)}</div>${open ? `<div class="argument-detail"><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map(entry => `<li id="${esc(entry.id)}"><button type="button" data-gloss="${esc(entry.id)}" class="glossary-copy"><strong>${esc(entry.english)}</strong><span>${esc(entry.chinese)}</span></button>${itemTools(entry.id, entry.english)}</li>`).join('')}</ul></div>` : ''}</article>`;
+  return `<article class="argument ${open ? 'is-open' : ''}" id="${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="${open}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure">${open ? '−' : '+'}</span></button>${itemTools(argument.id, argument.title)}</div>${open ? `<div class="argument-detail"><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map(entry => `<li id="${esc(entry.id)}"><div class="glossary-copy"><strong>${esc(entry.english)}</strong><span>${esc(entry.chinese)}</span></div>${itemTools(entry.id, entry.english)}</li>`).join('')}</ul></div>` : ''}</article>`;
 }
 
 function renderQuestion() {
   const q = question();
   if (!q) return '';
-  return `<section class="question-panel"><div class="question-panel__top"><div><span class="eyebrow">DISCUSSION DESK</span><h2>${esc(q.text)}</h2><p>選擇一個論點，展開簡述及詞彙；點選項目即可標記已讀，勾選與書籤也可獨立調整。</p></div><button class="structure-launch" type="button" data-structures>句式表 <span>↗</span></button></div><div class="argument-grid"><section class="side side--for"><header><span>FOR · 正方</span><h3>${esc(q.for_label)}</h3><small>${q.for?.length || 0} 個論點</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for')).join('')}</div></section><section class="side side--against"><header><span>AGAINST · 反方</span><h3>${esc(q.against_label)}</h3><small>${q.against?.length || 0} 個論點</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against')).join('')}</div></section></div></section>`;
+  return `<section class="question-panel"><div class="question-panel__top"><div><span class="eyebrow">DISCUSSION DESK</span><h2>${esc(q.text)}</h2><p>選擇一個論點，展開簡述及詞彙；展開內容不會自動勾選；請自行勾選已學習的項目，或按星號收藏。</p></div><button class="structure-launch" type="button" data-structures>句式表 <span>↗</span></button></div><div class="argument-grid"><section class="side side--for"><header><span>FOR · 正方</span><h3>${esc(q.for_label)}</h3><small>${q.for?.length || 0} 個論點</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for')).join('')}</div></section><section class="side side--against"><header><span>AGAINST · 反方</span><h3>${esc(q.against_label)}</h3><small>${q.against?.length || 0} 個論點</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against')).join('')}</div></section></div></section>`;
 }
 
 function renderStructures() {
   const q = question();
   if (!q || !state.structureOpen) return '';
   const style = state.structurePosition ? `style="left:${state.structurePosition.x}px;top:${state.structurePosition.y}px"` : '';
-  return `<aside class="structure-float" id="structure-float" ${style} aria-label="討論句式浮動視窗"><div class="structure-handle" data-drag-handle><div><span class="eyebrow">SENTENCE STRUCTURE</span><h3>討論句式 · ${q.structures?.length || 0}</h3></div><button type="button" data-close-structures aria-label="關閉句式表">×</button></div><div class="structure-content">${(q.structures || []).map(item => `<div class="structure-row" id="${esc(item.id)}"><button type="button" data-structure="${esc(item.id)}"><small>${String(item.number).padStart(2, '0')}</small><strong lang="en">${esc(item.english)}</strong><span>${esc(item.purpose)}</span></button>${itemTools(item.id, item.english)}</div>`).join('')}</div><div class="resize-note">拖動上方標題列移動 · 拖動右下角調整大小</div></aside>`;
+  return `<aside class="structure-float" id="structure-float" ${style} aria-label="討論句式浮動視窗"><div class="structure-handle" data-drag-handle><div><span class="eyebrow">SENTENCE STRUCTURE</span><h3>討論句式 · ${q.structures?.length || 0}</h3></div><button type="button" data-close-structures aria-label="關閉句式表">×</button></div><div class="structure-content">${(q.structures || []).map(item => `<div class="structure-row" id="${esc(item.id)}"><div class="structure-row__copy"><small>${String(item.number).padStart(2, '0')}</small><strong lang="en">${esc(item.english)}</strong><span>${esc(item.purpose)}</span></div>${itemTools(item.id, item.english)}</div>`).join('')}</div><div class="resize-note">拖動上方標題列移動 · 拖動右下角調整大小</div></aside>`;
 }
 
 function renderArticle(scroll = false) {
@@ -372,17 +372,13 @@ app.addEventListener('click', async event => {
     state.question = state.question === button.dataset.question ? null : button.dataset.question;
     state.argument = null; state.structureOpen = false;
     renderArticle();
-    if (state.question) void saveItem(`q:${state.question}`, { checked: true });
     return;
   }
   if (button.matches('[data-argument]')) {
     state.argument = state.argument === button.dataset.argument ? null : button.dataset.argument;
     renderArticle();
-    if (state.argument) void saveItem(state.argument, { checked: true });
     return;
   }
-  if (button.matches('[data-gloss]')) return saveItem(button.dataset.gloss, { checked: true });
-  if (button.matches('[data-structure]')) return saveItem(button.dataset.structure, { checked: true });
   if (button.matches('[data-star]')) return saveItem(button.dataset.star, { bookmarked: !itemState(button.dataset.star).bookmarked });
   if (button.matches('[data-structures]')) { state.structureOpen = true; renderArticle(); return; }
   if (button.matches('[data-close-structures]')) { state.structureOpen = false; renderArticle(); return; }
