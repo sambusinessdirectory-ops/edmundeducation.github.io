@@ -13,6 +13,7 @@ import {
   newlyCompletedWritingSegments,
   normalizeWritingSubmissionEntryLink,
   normalizeVocabularyMatchText,
+  safeWritingPromptImage,
   vocabularyEntryUsed,
   writingSubmissionArticlePath,
   writingSubmissionNotificationMessage,
@@ -131,6 +132,25 @@ test("article notifications use strict owner-scoped deep links", () => {
   assert.equal(normalizeWritingSubmissionEntryLink("?exercise=good&student=someone"), null);
   assert.match(workerSource, /writing_submission_get_v3[\s\S]*?p_student_id:\s*student\.id/);
   assert.match(enhancementMigration, /where submission\.student_id = p_student_id[\s\S]*?and submission\.id = p_id[\s\S]*?and submission\.deleted_at is null/i);
+});
+
+test("writing question images survive the public R2 asset migration", () => {
+  const questionImages = HOMEWORK_RESOURCE_CATALOG
+    .filter((resource) => resource.type === "fill-blanks")
+    .flatMap((resource) => resource.questionImages || []);
+  assert.ok(questionImages.length > 0);
+  const mediaPrefix = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/";
+  for (const image of questionImages) {
+    assert.ok(safeWritingPromptImage(image.src));
+    assert.equal(
+      safeWritingPromptImage(mediaPrefix + image.src),
+      mediaPrefix + image.src
+    );
+  }
+  assert.equal(safeWritingPromptImage("https://example.com/assets/question.webp"), "");
+  assert.equal(safeWritingPromptImage("https://edmund-site-assets.edmundeducation.workers.dev/other/question.webp"), "");
+  assert.equal(safeWritingPromptImage("data:image/svg+xml;base64,abcd"), "");
+  assert.match(script, /\.map\(\(image\) => \{[\s\S]*?safeWritingPromptImage\(/);
 });
 
 test("admin manual topics use authenticated storage, safe deep links and an editable catalogue", () => {

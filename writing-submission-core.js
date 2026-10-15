@@ -6,6 +6,27 @@ const COMMON_ABBREVIATIONS = new Set([
 const WRITING_SUBMISSION_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu;
 const WRITING_EXERCISE_ID_RE = /^[a-z0-9][a-z0-9._~-]{0,239}$/iu;
 
+export function safeWritingPromptImage(value) {
+  const source = String(value || "").trim();
+  if (!source || source.length > 500 || source.includes("\\")) return "";
+  if (source.includes("://")) {
+    try {
+      const url = new URL(source);
+      return url.protocol === "https:"
+        && url.hostname === "edmund-site-assets.edmundeducation.workers.dev"
+        && url.pathname.startsWith("/site-assets/v1/assets/")
+        && url.pathname.length > "/site-assets/v1/assets/".length
+        && !url.username && !url.password && !url.search && !url.hash
+        ? source : "";
+    } catch {
+      return "";
+    }
+  }
+  if (source.startsWith("//") || source.startsWith("data:")) return "";
+  return source.startsWith("/") || source.startsWith("./") || /^[a-z0-9][a-z0-9_./%()' -]*$/i.test(source)
+    ? source : "";
+}
+
 export function normalizeWritingSubmissionEntryLink(value) {
   let parameters;
   try {

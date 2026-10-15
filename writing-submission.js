@@ -17,10 +17,11 @@ import {
   isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments,
   normalizeWritingSubmissionEntryLink,
+  safeWritingPromptImage,
   vocabularyEntryUsed,
   writingSubmissionNotificationMessage,
   writingTopicResourceForTransport
-} from "./writing-submission-core.js?v=20260820-manual-topics1";
+} from "./writing-submission-core.js?v=20261015-writing-images1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -94,7 +95,7 @@ const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
 const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
-const TOPIC_CATALOG_VERSION = "20260911-dse-part-b";
+const TOPIC_CATALOG_VERSION = "20261015-writing-images1";
 const TOPIC_REFERENCE_VERSION = "20260911-dse-part-b";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
@@ -2368,22 +2369,6 @@ function newDocumentId() {
     hex.slice(8, 10).join(""),
     hex.slice(10, 16).join("")
   ].join("-");
-}
-
-function safeWritingPromptImage(value) {
-  const source = String(value || "").trim();
-  if (
-    !source
-    || source.length > 500
-    || source.includes("://")
-    || source.startsWith("//")
-    || source.includes("\\")
-    || source.startsWith("data:")
-  ) return "";
-  if (source.startsWith("/") || source.startsWith("./") || /^[a-z0-9][a-z0-9_./%()' -]*$/i.test(source)) {
-    return source;
-  }
-  return "";
 }
 
 function normalizeWritingTopicResource(value) {
