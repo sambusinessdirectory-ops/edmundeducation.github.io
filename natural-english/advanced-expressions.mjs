@@ -1,5 +1,5 @@
 import {mc} from './editorial-question.mjs';
-import nextLessons from './advanced-expressions-part2.mjs?v=20261015-lessons-06-10';
+import nextLessons from './advanced-expressions-part2.mjs?v=20261015-lessons-06-10-v2';
 
 const open=(id,prompt,answers,explanation,glossary)=>({id,type:'open',style:'final',prompt,answers,explanation,glossary});
 const reply=(id,[prompt,options,golden])=>({id,type:'mc',style:'reply',prompt,options,answers:[...options],golden,allCorrect:true,explanation:'四句都能自然地回答這個問題；使用本課表達的句子會獲得金句標記。'});

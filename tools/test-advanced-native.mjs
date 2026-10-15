@@ -76,6 +76,7 @@ for(const lesson of lessons){
   assert.ok(!targetPattern.test(speaking.displayModel),`Lesson ${lesson.number} speaking cloze hides the target`);
   assert.ok(speaking.model.match(targetPattern),`Lesson ${lesson.number} full speaking model includes the target`);
   if(lesson.number>=6){
+    assert.equal(lesson.speakCloze,lesson.speak.replace(lesson.speakTarget,'__________________'),'speaking blanks remove only the teaching expression');
     assert.equal(lesson.audioOptions.length,4,'new listening tasks have tailored meaning choices');
     assert.ok(lesson.audioOptions.includes(lesson.audioAnswer));
     assert.ok(writing.answers.every(answer=>targetPattern.test(answer)),`Lesson ${lesson.number} suggested answers use the teaching expression`);
