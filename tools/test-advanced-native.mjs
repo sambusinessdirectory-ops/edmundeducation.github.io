@@ -66,13 +66,22 @@ for(const lesson of lessons){
     if(q.type==='mc'){
       assert.equal(q.options.length,new Set(q.options).size);
       assert.ok(q.options.includes(q.answers[0]));
-    }else assert.ok(q.answers.length>=2);
+      for(const option of q.options){
+        if(/[A-Za-z]{2}/.test(option)&&!/[\u3400-\u9fff]/.test(option))assert.match(q.optionZh?.[option]||'',/[\u3400-\u9fff]/,`${q.id}: every English option has its paired Chinese translation`);
+      }
+      if(q.style==='reply')assert.match(q.promptZh||'',/[\u3400-\u9fff]/,'English reply questions have Chinese translations');
+    }else{
+      assert.ok(q.answers.length>=2);
+      for(const answer of q.answers)assert.match(q.answersZh?.[answer]||'',/[\u3400-\u9fff]/,'suggested answers have Chinese translations');
+    }
   }
   const targetPattern=targetPatterns[lesson.number-1];
   const replyQuestion=lesson.questions[1];
   assert.equal(replyQuestion.options.filter(option=>targetPattern.test(option)).length,1,`Lesson ${lesson.number} has exactly one target-bearing golden reply`);
   assert.ok(targetPattern.test(replyQuestion.golden));
   const speaking=lesson.steps.find(s=>s.style==='speak');
+  assert.match(speaking.zh,/[\u3400-\u9fff]/,'speaking sentence has a Chinese translation');
+  for(const takeaway of lesson.takeaways)assert.match(lesson.takeawaysZh[takeaway]||'',/[\u3400-\u9fff]/,'completion sentences have Chinese translations');
   assert.ok(!targetPattern.test(speaking.displayModel),`Lesson ${lesson.number} speaking cloze hides the target`);
   assert.ok(speaking.model.match(targetPattern),`Lesson ${lesson.number} full speaking model includes the target`);
   if(lesson.number>=6){

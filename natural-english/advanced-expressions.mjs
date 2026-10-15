@@ -1,5 +1,6 @@
 import {mc} from './editorial-question.mjs';
 import nextLessons from './advanced-expressions-part2.mjs?v=20261015-lessons-06-10-v2';
+import translations from './advanced-translations.mjs?v=20261015-bilingual-v1';
 
 const open=(id,prompt,answers,explanation,glossary)=>({id,type:'open',style:'final',prompt,answers,explanation,glossary});
 const reply=(id,[prompt,options,golden])=>({id,type:'mc',style:'reply',prompt,options,answers:[...options],golden,allCorrect:true,explanation:'四句都能自然地回答這個問題；使用本課表達的句子會獲得金句標記。'});
@@ -83,6 +84,7 @@ const lessons=[
 lessons.push(...nextLessons);
 
 export default lessons.map(data=>{
+  const translated=translations[data.id];
   // Keep existing question IDs so students retain completed work; only the new
   // reply step receives a new ID.
   const qid=(name)=>`${data.id}-${name==='reply'?'v2':'v1'}-${name}`;
@@ -96,16 +98,25 @@ export default lessons.map(data=>{
     mc(qid('branch'),'branch',...data.branch),
     open(qid('final'),...data.final)
   ];
+  for(const question of questions){
+    question.promptZh=translated.prompts?.[question.style];
+    if(question.type==='mc'&&translated[question.style]){
+      question.optionZh=Object.fromEntries(data[question.style][1].map((english,i)=>[english,translated[question.style][i]]));
+    }else if(question.type==='open'){
+      question.answersZh=Object.fromEntries(question.answers.map((english,i)=>[english,translated.final[i]]));
+    }
+  }
   const steps=[
     {id:qid('audio'),style:'audio',label:'先聽意思',title:'聽懂情境',intro:'先只聽英文，不看逐字稿；判斷說話者的意思。',model:data.audio,zh:data.audioZh,audioOnly:true,questions:[qid('audio')]},
     {id:qid('reply'),style:'reply',label:'回應提問',title:'四種回答，都說得通',intro:'有人問你一個問題。四個回應都正確；選出使用本課表達的回應，會得到金句標記。',questions:[qid('reply')]},
     {id:qid('scene'),style:'scene',label:'選對情境',title:'甚麼時候會這樣說？',intro:'讀一個新情境，判斷表達是否合適。',questions:[qid('scene')]},
     {id:qid('contrast'),style:'contrast',label:'分清界線',title:'避免用得太闊',intro:'辨別相似但意思不同的情況。',questions:[qid('contrast')]},
     {id:qid('branch'),style:'branch',label:'接續對話',title:'把表達放入對話',intro:'既要自然，也要照顧對方的語境。',questions:[qid('branch')]},
-    {id:qid('speak'),style:'speak',label:'聽後開口',title:'先聽示範，再自己說',intro:'先聽完整示範，再看保留空格的句子說出本課表達；錄音屬選做，也可跳過。',model:data.speak,displayModel:data.speakCloze,zh:data.meaning,speakingPrompt:data.speakPrompt,recording:'phrase',questions:[]},
+    {id:qid('speak'),style:'speak',label:'聽後開口',title:'先聽示範，再自己說',intro:'先聽完整示範，再看保留空格的句子說出本課表達；錄音屬選做，也可跳過。',model:data.speak,displayModel:data.speakCloze,zh:translated.speak,speakingPrompt:data.speakPrompt,recording:'phrase',questions:[]},
     {id:qid('final'),style:'final',label:'換境應用',title:'在新情境自己寫',intro:'先寫自己的英文，再對照多個自然示例。這是自我檢查，不會按字面一致評分。',questions:[qid('final')]}
   ];
   return {...data,course:'advanced-native',slug:data.id,heading:data.titleEn,
     surpriseLabel:'',steps,questions,takeaways:data.takeaways,
+    takeawaysZh:Object.fromEntries(data.takeaways.map((english,i)=>[english,translated.takeaways[i]])),
     completionTitle:`你已能在新情境中使用 ${data.titleEn}！`};
 });
