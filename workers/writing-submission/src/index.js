@@ -1168,16 +1168,31 @@ function boundedDraftString(value, label, maximumCharacters, { allowEmpty = fals
 }
 
 function safeWritingPromptImage(value) {
-  const source = String(value || "").trim();
+  let source = String(value || "").trim();
   if (
     !source
     || source.length > 500
-    || source.includes("://")
     || source.startsWith("//")
     || source.includes("\\")
     || source.startsWith("data:")
     || CONTROL_RE.test(source)
   ) return "";
+  if (source.includes("://")) {
+    try {
+      const url = new URL(source);
+      const prefix = "/site-assets/v1/";
+      if (
+        url.origin !== "https://edmund-site-assets.edmundeducation.workers.dev"
+        || !url.pathname.startsWith(`${prefix}assets/`)
+        || url.username || url.password || url.search || url.hash
+      ) return "";
+      // Pages rewrites the public URL, while the Worker catalogue retains the
+      // repository path. Compare and store only that canonical path.
+      source = url.pathname.slice(prefix.length);
+    } catch {
+      return "";
+    }
+  }
   return source.startsWith("/")
     || source.startsWith("./")
     || /^[a-z0-9][a-z0-9_./%()' -]*$/i.test(source)

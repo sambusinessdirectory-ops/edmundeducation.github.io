@@ -5547,6 +5547,66 @@ test("student drafts round-trip only through their authenticated owner", async t
     .every(call => call.body.p_token === STUDENT_TOKEN));
 });
 
+test("trusted R2 question images save as canonical paths in drafts and submissions", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  const calls = [];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    calls.push(rpc);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_save_draft") {
+      return jsonResponse([{ id: SUBMISSION_ID, topic: rpc.body.p_topic, topic_resource: rpc.body.p_topic_resource }]);
+    }
+    if (rpc.name === "writing_submission_submit_v4") {
+      return jsonResponse([{
+        id: SUBMISSION_ID, topic: rpc.body.p_topic, word_count: rpc.body.p_word_count,
+        topic_resource: rpc.body.p_topic_resource
+      }]);
+    }
+    if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const prefix = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/";
+  const publicTopic = {
+    ...CANONICAL_DSE_TOPIC,
+    questionImages: CANONICAL_DSE_TOPIC.questionImages.map(image => ({
+      ...image, src: prefix + image.src
+    }))
+  };
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${STUDENT_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  const draft = await worker.fetch(new Request(`https://worker.example/v1/drafts/${SUBMISSION_ID}`, {
+    method: "PUT", headers,
+    body: JSON.stringify({
+      topic: "Describe the picture.", answer: "A work in progress.",
+      topicResource: publicTopic, imageZoom: 1,
+      countdown: {
+        status: "idle", durationSeconds: 0, remainingSeconds: 0, endsAt: 0,
+        forceSubmit: false, autoSubmitAttemptedAt: 0, autoSubmitError: ""
+      },
+      stopwatch: { status: "idle", accumulatedMilliseconds: 0, startedAt: 0 },
+      durationSeconds: 0
+    })
+  }), environment());
+  assert.equal(draft.status, 200, await draft.clone().text());
+  assert.deepEqual(calls.find(call => call.name === "writing_submission_save_draft").body.p_topic_resource, CANONICAL_DSE_TOPIC);
+
+  const submission = await worker.fetch(new Request(`https://worker.example/v1/submissions/${SUBMISSION_ID}`, {
+    method: "PUT", headers,
+    body: JSON.stringify({
+      topic: "Describe the picture.", answer: "The graph shows a clear change.",
+      durationSeconds: 30, topicResource: publicTopic
+    })
+  }), environment());
+  assert.equal(submission.status, 200, await submission.clone().text());
+  assert.deepEqual(calls.find(call => call.name === "writing_submission_submit_v4").body.p_topic_resource, CANONICAL_DSE_TOPIC);
+});
+
 test("draft topic images reject remote and embedded sources before storage", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -5559,7 +5619,13 @@ test("draft topic images reject remote and embedded sources before storage", asy
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
-  for (const src of ["https://private.example/prompt.png", "data:image/png;base64,AA==", "//private.example/prompt.png"]) {
+  for (const src of [
+    "https://private.example/prompt.png",
+    "data:image/png;base64,AA==",
+    "//private.example/prompt.png",
+    "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/eddy-carrot-patch/assets/prompt.png",
+    "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/prompt.png?token=unsafe"
+  ]) {
     const response = await worker.fetch(new Request(
       `https://worker.example/v1/drafts/${SUBMISSION_ID}`,
       {
