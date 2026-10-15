@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import lessons from '../natural-english/advanced-expressions.mjs';
 import {modules,moduleMap,allQuestionMap} from '../natural-english/catalogue.mjs';
 import {audioManifest} from '../natural-english/audio/manifest.mjs';
+import {targetPatterns as displayTargetPatterns,englishText,chineseText,promptText} from '../natural-english/advanced-display.mjs';
 
 const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
@@ -25,7 +26,10 @@ assert.ok(portal.includes('advanced-native/style.css'));
 assert.ok(app.includes('visibleModules=modules.filter'));
 assert.ok(app.includes('done&&!q.allCorrect'),'all-correct replies remain selectable');
 assert.ok(app.includes('grid.dataset.layout'),'Advanced Native has a composed card layout');
-assert.ok(app.includes('class="negative-cue"'),'negative wording receives a distinct visual cue');
+assert.ok(promptText('哪個情況不宜說 coast along？').includes('class="negative-cue"'),'negative wording receives a distinct visual cue');
+assert.ok(!chineseText('（他們運用學到的教訓，作出更周詳的規劃。）').includes('class="zh-phrase">）'),'closing bracket stays with its sentence');
+assert.ok(promptText('背景情境。哪句最能表達「因此變得更有能力」？').includes('class="question-ask"'),'final question starts a new line');
+assert.ok(app.includes("new CustomEvent('edmund:answer-result'"),'marked answers emit the shared sound event');
 assert.ok(app.includes('class="writing-glossary"'),'writing prompts show a word bank');
 assert.ok(app.includes('先聽完整句子，留意空格中的表達。'),'speaking model is playable before recording');
 assert.ok(app.includes('if(!m||!inThisCourse(id))return'));
@@ -50,6 +54,12 @@ for(const lesson of lessons){
   assert.equal(lesson.steps.at(-1).questions.length,1);
   assert.equal(lesson.questions.at(-1).type,'open');
   const writing=lesson.questions.at(-1);
+  for(const sentence of [lesson.audio,lesson.speak,...writing.answers]){
+    assert.ok(new RegExp(displayTargetPatterns[lesson.id],'i').test(sentence),`${lesson.id}: target forms cover the model and suggested answers`);
+    assert.ok(englishText(sentence,lesson.id,'yellow').includes('target-yellow'));
+    assert.ok(englishText(sentence,lesson.id,'green').includes('target-green'));
+  }
+  assert.ok(!englishText(lesson.speakCloze,lesson.id,'green').includes('<mark'),'speaking blank does not reveal its answer through a highlight');
   const glossary=writing.glossary;
   assert.ok(glossary.length>=4,`Lesson ${lesson.number} has a usable writing glossary`);
   const examples=writing.answers.join(' ').toLowerCase();
