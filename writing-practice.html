@@ -5961,6 +5961,41 @@ Device: concession 讓步
       languageStorage.setItem(key, JSON.stringify(value));
     }
 
+    function readSessionValue(key, fallback = null) {
+      try {
+        const value = window.sessionStorage.getItem(key);
+        if (value !== null) return key === ADMIN_SESSION_PASSWORD_KEY ? value : JSON.parse(value);
+      } catch (error) {
+        console.warn("Could not read Writing Practice tab session:", error);
+      }
+      if (key === ADMIN_SESSION_PASSWORD_KEY) {
+        try { return languageStorage.getItem(key) || fallback; } catch { return fallback; }
+      }
+      return readJson(key, fallback);
+    }
+
+    function saveSessionValue(key, value) {
+      const serialized = key === ADMIN_SESSION_PASSWORD_KEY ? String(value) : JSON.stringify(value);
+      try {
+        languageStorage.setItem(key, serialized);
+        window.sessionStorage.removeItem(key);
+        return;
+      } catch (error) {
+        console.warn("Writing Practice device storage is full; using tab session:", error);
+      }
+      try {
+        window.sessionStorage.setItem(key, serialized);
+      } catch (error) {
+        // The authenticated account remains usable in this tab even when both stores are unavailable.
+        console.warn("Could not persist Writing Practice tab session:", error);
+      }
+    }
+
+    function clearSessionValue(key) {
+      try { languageStorage.removeItem(key); } catch (error) { console.warn("Could not clear Writing Practice device session:", error); }
+      try { window.sessionStorage.removeItem(key); } catch (error) { console.warn("Could not clear Writing Practice tab session:", error); }
+    }
+
     function writingStateAccountKey(user = currentUser) {
       if (!user?.name || user.role !== "student") return "";
       if (user.id) return `id:${String(user.id)}`;
@@ -11031,18 +11066,18 @@ Device: concession 讓步
 
     function setSession(user) {
       currentUser = user;
-      writeJson(SESSION_KEY, user);
+      saveSessionValue(SESSION_KEY, user);
       if (user?.role === "admin" && adminPasswordForSession) {
-        languageStorage.setItem(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
+        saveSessionValue(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
       }
     }
 
     function restoreSession() {
-      const session = readJson(SESSION_KEY, null);
+      const session = readSessionValue(SESSION_KEY);
       if (!session?.name || !session?.role) return false;
       currentUser = session;
       if (session.role === "admin" || session.impersonatedByAdmin) {
-        adminPasswordForSession = languageStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+        adminPasswordForSession = readSessionValue(ADMIN_SESSION_PASSWORD_KEY, "") || "";
       }
       if (session.role === "student") {
         studentSessionToken = session.sessionToken || "";
@@ -11277,8 +11312,8 @@ Device: concession 讓步
       currentExerciseSectionKey = "";
       currentWritingUtilityView = "";
       practiceState = null;
-      languageStorage.removeItem(SESSION_KEY);
-      languageStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
+      clearSessionValue(SESSION_KEY);
+      clearSessionValue(ADMIN_SESSION_PASSWORD_KEY);
       document.body.classList.remove("app-active", "admin-background-active", "dashboard-background-active");
       document.querySelector("[data-login-view]")?.classList.remove("hidden");
       document.querySelector("[data-app-view]")?.classList.add("hidden");
@@ -12904,7 +12939,7 @@ Device: concession 讓步
         resetWritingPersonalState();
         currentUser = null;
         studentSessionToken = "";
-        languageStorage.removeItem(SESSION_KEY);
+        clearSessionValue(SESSION_KEY);
         restored = false;
       }
       await initSupabaseState();
@@ -12919,7 +12954,7 @@ Device: concession 讓步
           resetWritingPersonalState();
           currentUser = null;
           studentSessionToken = "";
-          languageStorage.removeItem(SESSION_KEY);
+          clearSessionValue(SESSION_KEY);
           window.EdmundSystemNav?.forgetStudentSession();
           restored = false;
         }

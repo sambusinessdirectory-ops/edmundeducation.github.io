@@ -82,6 +82,12 @@ function createHarness(applicationSource, dataFiles) {
     },
     removeItem(key) { localValues.delete(key); }
   };
+  const sessionValues = new Map();
+  const sessionStorage = {
+    getItem(key) { return sessionValues.has(key) ? sessionValues.get(key) : null; },
+    setItem(key, value) { sessionValues.set(key, String(value)); },
+    removeItem(key) { sessionValues.delete(key); }
+  };
   const animationFrames = new Map();
   let nextAnimationFrame = 1;
   const requestAnimationFrame = callback => {
@@ -209,6 +215,7 @@ function createHarness(applicationSource, dataFiles) {
   const window = {
     document,
     localStorage,
+    sessionStorage,
     EDMUND_IELTS_WRITING_EXERCISES: {},
     EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES: {},
     EDMUND_IELTS_WRITING_ADVANTAGE_2_30_EXERCISES: {},
@@ -349,6 +356,13 @@ function createHarness(applicationSource, dataFiles) {
       selectedProgressDay: () => selectedWritingProgressDayKey,
       selectedTimeDay: () => selectedWritingTimeDayKey,
       setCurrentStudent(user) { currentUser = { ...user, role: "student" }; },
+      setSession: user => setSession(user),
+      restoreSession: () => restoreSession(),
+      clearSessionValue: key => clearSessionValue(key),
+      sessionValue: key => readSessionValue(key),
+      saveSessionValue: (key, value) => saveSessionValue(key, value),
+      setSupabaseClient: client => { supabaseClient = client; },
+      login: (name, password) => login(name, password),
       setRawWritingState(value) { localStorage.setItem(WRITING_STATE_KEY, JSON.stringify(value)); },
       rawWritingState: () => readJson(WRITING_STATE_KEY, {}),
       accountKey: () => writingStateAccountKey(),
@@ -396,6 +410,7 @@ function createHarness(applicationSource, dataFiles) {
     window,
     document,
     localStorage,
+    sessionStorage,
     console,
     setTimeout,
     clearTimeout,
@@ -424,6 +439,8 @@ function createHarness(applicationSource, dataFiles) {
   vm.runInContext(injectedSource, context, { filename: "writing-practice.html" });
   return {
     hooks: window.__EDMUND_WRITING_TRANSLATION_TEST__,
+    localStorage,
+    sessionStorage,
     panel,
     documentListeners,
     createdAudios,
@@ -1734,3 +1751,67 @@ assert.ok(Object.keys(rh.resumeRows()).length,'unfinished round is persisted');r
 assert.equal(rh.state().round,3);assert.equal(rh.state().answers['p0-s0-b0'],'my third-round answer');assert.equal(rh.state().targetBlankIds[0],'p0-s0-b0');
 rh.setCurrentStudent({id:'different-student',name:'Different Student',access:{'ielts-writing':true}});assert.equal(Object.keys(rh.resumeRows()).length,0,'round drafts are isolated by account');
 console.log('Writing third-round recovery preserves answers and remedial targets; account isolation passed.');
+
+const sessionKey = "edmundWritingSession";
+const fullStorageHarness = createHarness(source, writingDataFiles);
+const fullStorageHooks = fullStorageHarness.hooks;
+fullStorageHarness.localStorage.setItem(sessionKey, JSON.stringify({ name: "Previous Student", role: "student" }));
+fullStorageHarness.setLocalStorageWriteFailure(true);
+const previousQuotaWarning = console.warn;
+console.warn = () => {};
+try {
+  assert.doesNotThrow(() => fullStorageHooks.setSession({ name: "Current Student", role: "student" }));
+} finally {
+  console.warn = previousQuotaWarning;
+}
+assert.equal(JSON.parse(fullStorageHarness.sessionStorage.getItem(sessionKey)).name, "Current Student",
+  "A full device store must save the authenticated session in tab storage");
+assert.equal(fullStorageHooks.restoreSession(), true);
+assert.equal(fullStorageHooks.sessionValue(sessionKey).name, "Current Student",
+  "The current tab session must take priority over a stale device session");
+fullStorageHooks.clearSessionValue(sessionKey);
+assert.equal(fullStorageHarness.localStorage.getItem(sessionKey), null);
+assert.equal(fullStorageHarness.sessionStorage.getItem(sessionKey), null);
+const adminSessionKey = "edmundWritingAdminPassword";
+fullStorageHarness.setLocalStorageWriteFailure(false);
+fullStorageHarness.localStorage.setItem(adminSessionKey, "legacy-admin-secret");
+assert.equal(fullStorageHooks.sessionValue(adminSessionKey), "legacy-admin-secret",
+  "Existing admin sessions stored as plain strings must remain readable");
+fullStorageHarness.setLocalStorageWriteFailure(true);
+console.warn = () => {};
+try {
+  fullStorageHooks.saveSessionValue(adminSessionKey, "current-admin-secret");
+} finally {
+  console.warn = previousQuotaWarning;
+}
+assert.equal(fullStorageHooks.sessionValue(adminSessionKey), "current-admin-secret");
+fullStorageHooks.clearSessionValue(adminSessionKey);
+console.log("Writing login session remains usable when device storage is full.");
+
+const loginHarness = createHarness(source, writingDataFiles);
+const loginHooks = loginHarness.hooks;
+loginHooks.setSupabaseClient({
+  auth: { async getSession() { return { data: { session: { user: { id: "test-auth-user" } } } }; } },
+  async rpc(name) {
+    if (name === "writing_student_login") return { data: [{
+      id: "test-writing-student",
+      name: "Quota Student",
+      access: { "ielts-writing": true },
+      created_at: "2026-10-16T00:00:00Z",
+      session_token: "test-writing-token"
+    }], error: null };
+    return { data: [], error: null };
+  }
+});
+loginHarness.setLocalStorageWriteFailure(true);
+const loginQuotaWarning = console.warn;
+console.warn = () => {};
+let loginSucceeded;
+try {
+  loginSucceeded = await loginHooks.login("Quota Student", "example-password");
+} finally {
+  console.warn = loginQuotaWarning;
+}
+assert.equal(loginSucceeded, true, "A valid student login must succeed despite full device storage");
+assert.equal(loginHooks.sessionValue(sessionKey).name, "Quota Student");
+console.log("Writing student login succeeds despite full device storage.");
