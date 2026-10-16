@@ -83,9 +83,13 @@ function createHarness(applicationSource, dataFiles) {
     removeItem(key) { localValues.delete(key); }
   };
   const sessionValues = new Map();
+  let failSessionStorageWrites = false;
   const sessionStorage = {
     getItem(key) { return sessionValues.has(key) ? sessionValues.get(key) : null; },
-    setItem(key, value) { sessionValues.set(key, String(value)); },
+    setItem(key, value) {
+      if (failSessionStorageWrites) throw new Error("Simulated sessionStorage quota failure");
+      sessionValues.set(key, String(value));
+    },
     removeItem(key) { sessionValues.delete(key); }
   };
   const animationFrames = new Map();
@@ -363,6 +367,7 @@ function createHarness(applicationSource, dataFiles) {
       saveSessionValue: (key, value) => saveSessionValue(key, value),
       setSupabaseClient: client => { supabaseClient = client; },
       login: (name, password) => login(name, password),
+      authStorage: writingAuthStorage,
       setRawWritingState(value) { localStorage.setItem(WRITING_STATE_KEY, JSON.stringify(value)); },
       rawWritingState: () => readJson(WRITING_STATE_KEY, {}),
       accountKey: () => writingStateAccountKey(),
@@ -446,6 +451,9 @@ function createHarness(applicationSource, dataFiles) {
     createdAudios,
     setLocalStorageWriteFailure(value) {
       failLocalStorageWrites = Boolean(value);
+    },
+    setSessionStorageWriteFailure(value) {
+      failSessionStorageWrites = Boolean(value);
     },
     runAnimationFrames() {
       const callbacks = [...animationFrames.values()];
@@ -1815,3 +1823,43 @@ try {
 assert.equal(loginSucceeded, true, "A valid student login must succeed despite full device storage");
 assert.equal(loginHooks.sessionValue(sessionKey).name, "Quota Student");
 console.log("Writing student login succeeds despite full device storage.");
+
+const draftHarness = createHarness(source, writingDataFiles);
+const draftHooks = draftHarness.hooks;
+draftHooks.setCurrentStudent({ id: "draft-student", name: "Draft Student", access: { "ielts-writing": true } });
+draftHooks.taskOnePathSnapshot("model-essay-1-ielts-task1-bar-charts");
+draftHooks.useExercise("model-essay-1-ielts-task1-bar-charts");
+draftHooks.startMode("blank");
+draftHooks.state().screen = "practice";
+draftHooks.state().round = 2;
+draftHooks.state().answers = { "p0-s0-b0": "unfinished answer" };
+draftHarness.setLocalStorageWriteFailure(true);
+const draftQuotaWarning = console.warn;
+console.warn = () => {};
+try {
+  draftHooks.saveUnfinished();
+} finally {
+  console.warn = draftQuotaWarning;
+}
+assert.ok(draftHarness.sessionStorage.getItem("edmund-writing-unfinished-v1:id:draft-student"),
+  "An unfinished round must survive in tab storage when device storage is full");
+draftHooks.clearPractice();
+draftHooks.resumeAttempt("model-essay-1-ielts-task1-bar-charts", "", Object.keys(draftHooks.resumeRows())[0]);
+assert.equal(draftHooks.state().answers["p0-s0-b0"], "unfinished answer");
+console.log("Writing drafts remain resumable in the current tab despite full device storage.");
+
+const authHarness = createHarness(source, writingDataFiles);
+const authStore = authHarness.hooks.authStorage;
+authStore.setItem("test-auth-storage-key", "original-token");
+assert.equal(authHarness.localStorage.getItem("test-auth-storage-key"), "original-token");
+authHarness.setLocalStorageWriteFailure(true);
+authStore.setItem("test-auth-storage-key", "tab-token");
+assert.equal(authStore.getItem("test-auth-storage-key"), "tab-token",
+  "Supabase Auth must read the fresh tab token ahead of a stale device token");
+authHarness.setSessionStorageWriteFailure(true);
+authStore.setItem("test-auth-storage-key", "memory-token");
+assert.equal(authStore.getItem("test-auth-storage-key"), "memory-token",
+  "Supabase Auth must stay usable in the current page if both stores reject writes");
+authStore.removeItem("test-auth-storage-key");
+assert.equal(authStore.getItem("test-auth-storage-key"), null);
+console.log("Supabase Auth storage falls back safely through tab and in-memory storage.");

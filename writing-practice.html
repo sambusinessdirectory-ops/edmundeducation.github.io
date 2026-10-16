@@ -5835,8 +5835,38 @@ Device: concession 讓步
       for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'?editionLessons.map(lesson=>lesson.exercise.id):[]}]};
       window.EDMUND_WRITING_AUDIO=editionWritingAudio;
     }
+    const writingAuthMemoryStorage = new Map();
+    const writingAuthStorage = {
+      getItem(key) {
+        if (writingAuthMemoryStorage.has(key)) return writingAuthMemoryStorage.get(key);
+        try {
+          const value = window.sessionStorage.getItem(key);
+          if (value !== null) return value;
+        } catch {}
+        try { return languageStorage.getItem(key); } catch { return null; }
+      },
+      setItem(key, value) {
+        try {
+          languageStorage.setItem(key, value);
+          writingAuthMemoryStorage.delete(key);
+          try { window.sessionStorage.removeItem(key); } catch {}
+          return;
+        } catch {}
+        try {
+          window.sessionStorage.setItem(key, value);
+          writingAuthMemoryStorage.delete(key);
+          return;
+        } catch {}
+        writingAuthMemoryStorage.set(key, value);
+      },
+      removeItem(key) {
+        writingAuthMemoryStorage.delete(key);
+        try { window.sessionStorage.removeItem(key); } catch {}
+        try { languageStorage.removeItem(key); } catch {}
+      }
+    };
     const supabaseClient = window.supabase?.createClient
-      ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+      ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { storage: writingAuthStorage } })
       : null;
 
     let currentUser = null;
@@ -5974,20 +6004,26 @@ Device: concession 讓步
       return readJson(key, fallback);
     }
 
+    let writingDeviceStorageWarningShown = false;
     function saveSessionValue(key, value) {
       const serialized = key === ADMIN_SESSION_PASSWORD_KEY ? String(value) : JSON.stringify(value);
       try {
         languageStorage.setItem(key, serialized);
-        window.sessionStorage.removeItem(key);
-        return;
+        try { window.sessionStorage.removeItem(key); } catch {}
+        return true;
       } catch (error) {
-        console.warn("Writing Practice device storage is full; using tab session:", error);
+        if (!writingDeviceStorageWarningShown) {
+          writingDeviceStorageWarningShown = true;
+          console.warn("Writing Practice device storage is full; using tab storage:", error);
+        }
       }
       try {
         window.sessionStorage.setItem(key, serialized);
+        return true;
       } catch (error) {
-        // The authenticated account remains usable in this tab even when both stores are unavailable.
+        // Keep the current page usable even when neither browser store can persist it.
         console.warn("Could not persist Writing Practice tab session:", error);
+        return false;
       }
     }
 
@@ -7961,7 +7997,7 @@ Device: concession 讓步
     }
 
     function writingResumeKey() { return 'edmund-writing-unfinished-v1:'+writingStateAccountKey(); }
-    function writingResumeRows() { const rows=readJson(writingResumeKey(),{});return rows && typeof rows==='object' ? rows : {}; }
+    function writingResumeRows() { const rows=readSessionValue(writingResumeKey(),{});return rows && typeof rows==='object' ? rows : {}; }
     function saveUnfinishedWritingPractice() {
       if(!writingStateAccountKey() || !currentExercise()?.id || practiceState?.screen!=='practice')return;
       practiceState.resumeId ||= crypto.randomUUID();
@@ -7970,7 +8006,7 @@ Device: concession 讓步
       // Completed history already lives in the account's progress log.
       const completed=Object.keys(rows).filter(id=>rows[id].state?.lastResult?.completed).sort((a,b)=>rows[b].savedAt-rows[a].savedAt);
       completed.slice(50).forEach(id=>delete rows[id]);
-      if(!tryWriteJson(writingResumeKey(),rows)) console.warn('Unfinished writing round could not be saved');
+      if(!saveSessionValue(writingResumeKey(),rows)) console.warn('Unfinished writing round could not be saved');
     }
     function resumeWritingAttempt(exerciseId,resultId='',resumeId='') {
       const section=sectionKeyForWritingExercise(exerciseId);if(!section||!canAccess(section))return;
