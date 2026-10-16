@@ -1,0 +1,2396 @@
+{
+  "schemaVersion": 1,
+  "batchId": "author-1966-1975",
+  "lessons": [
+    {
+      "id": "advanced-native-1966",
+      "number": 1966,
+      "inventoryId": "expr-1966",
+      "contentRevision": 1,
+      "titleEn": "wander into places they are not ready for",
+      "titleZh": "進入尚未準備好面對的領域",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwander(?:s|ed|ing)? into places (?:they are|we are|you are|he is|she is|I am) not ready for\\b",
+        "glossaryForbidden": [
+          "\\bwander(?:s|ed|ing)? into\\b",
+          "\\bnot ready for\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Encounter unfamiliar material or situations without being prepared to handle them, using movement into places as a contextual image.",
+        "meaningZh": "以走進陌生地方比喻，接觸到尚未準備好理解或處理的內容或情況。",
+        "grammar": "may wander into places they are not ready for; wandered/wandering. The places may be online areas or unfamiliar activities. Name the material and relevant preparation rather than assume a universal age rule.",
+        "register": "Contextual navigation metaphor, not a fixed whole-clause idiom or an empirical claim that every unfamiliar link is harmful. May and not ready need their actual context.",
+        "boundaryZh": "未有準備不等於永久不能了解，也不表示每個陌生地方都危險；應說明缺少哪種理解或支援。",
+        "misconceptionZh": "進入一個區域，不保證已理解內容；有指引也不能單靠名稱就保證每次經驗相同。",
+        "outcomeZh": "能交代接觸到甚麼及缺少哪些準備，避免把可能性寫成已發生的傷害。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p246-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 246,
+          "book": 9,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "32–33",
+          "expression": "wander into places they are not ready for",
+          "sentence": "Without filters, children may wander into places they are not ready for.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page246, table2, row6; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "New volunteers may wander into places they are not ready for: archive links open technical notes before they have learnt the terms. We offer an introduction rather than assume access makes the notes clear.",
+        "zh": "新義工可能走進尚未準備好面對的領域：還未學術語，檔案連結就開啟技術筆記。我們提供介紹，不假定能開筆記就能理解。",
+        "promptEn": "",
+        "promptZh": "這裏缺少的是甚麼準備？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An introduction to the technical terms needed for the notes.",
+            "zh": "理解筆記所需的技術術語介紹。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Confirmation that the volunteers have already mastered the technical terminology.",
+            "zh": "確認義工已精通所需的技術術語。"
+          },
+          {
+            "id": "choice-3",
+            "en": "A guide to finding the links after the technical terms have already been explained.",
+            "zh": "已經解釋技術術語之後，用來尋找連結的指南。"
+          },
+          {
+            "id": "choice-4",
+            "en": "More specialist notes to replace an introductory explanation of the vocabulary.",
+            "zh": "用更多專業筆記取代入門詞彙說明。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "義工還未學所需術語，因此需要入門介紹；不是已學懂後只需找連結，也不是用更多專業內容代替詞彙解釋。"
+      },
+      "reply": {
+        "promptEn": "Why do you offer an introduction before the specialist notes?",
+        "promptZh": "你們為甚麼在專業筆記之前提供介紹？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "People may wander into places they are not ready for when they open technical notes without knowing the terms.",
+            "zh": "未懂術語就開專業筆記，人們可能進入尚未準備好面對的領域。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Access to the page does not supply the knowledge needed to understand it.",
+            "zh": "能開頁面，不等於已有理解所需的知識。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The link can lead newcomers beyond the vocabulary they have learnt so far.",
+            "zh": "連結可能帶新成員接觸超出目前已學詞彙的內容。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We want to connect the available material with the preparation it actually requires.",
+            "zh": "我們想把現有材料，與理解它實際需要的準備連起來。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都解釋準備與接觸機會的分別，不把不熟悉說成永久排除。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "學生雖第一次用檔案網站，卻已熟悉其中術語，也說明能讀懂筆記；評論只因他是新用戶，就斷定他未準備好。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Being new to the site does not establish that he will wander into places he is not ready for; his relevant knowledge also matters.",
+            "zh": "網站新用戶身份，不足以確定他會進入未準備好面對的領域；相關知識也重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account says he has not yet learnt the key terms in the notes.",
+            "zh": "敘述說，他仍未學過筆記的主要術語。"
+          },
+          {
+            "id": "choice-3",
+            "en": "His first visit establishes that the material is beyond his understanding.",
+            "zh": "首次到訪，足以確定材料超出他的理解能力。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "準備要看相關知識及支援，不能單從網站使用次數判斷。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「They may wander into places they are not ready for」推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他們可能接觸尚未準備好處理的內容。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們已受到某種具體且永久的傷害。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以再問準備不足具體指甚麼。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "may保留可能，未準備好也沒有直接報告傷害或永久後果。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "伙伴說：「既然是義工，就把專業筆記直接當成人人讀得懂吧？」新成員還未學術語。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They may wander into places they are not ready for, so let us explain the terms before treating access as understanding.",
+            "zh": "他們可能進入未準備好面對的領域，所以把能接觸當成能理解之前，我們先解釋術語。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed being given the link meant the vocabulary had already been taught.",
+            "zh": "我以為拿到連結，就表示詞彙已經教過。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would start with the specialist examples and leave the unfamiliar terms for newcomers to work out on their own.",
+            "zh": "我會先用專業例子，把陌生術語留給新人自行推斷。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "連結及身份不會代替術語準備，先提供實際介紹才回應已知缺口。"
+      },
+      "speaking": {
+        "en": "We do not want learners to wander into places they are not ready for, but we should ask what preparation they already have.",
+        "zh": "我們不想學員進入未準備好面對的領域，但應先問他們已有甚麼準備。",
+        "promptZh": "先聽，再分清關注準備與先替所有人判定能力。",
+        "targetSpan": {
+          "start": 27,
+          "end": 68
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：讀書會邀你主持下一場已有分歧的作品討論，但你還不了解現行發言規則，也沒聽過各方想處理的問題。你願意學，想先旁聽一場，向現任主持了解程序後，再確認是否接下責任。用一至兩句英文直接回覆邀請，不把目前準備不足說成自己永久不適合主持。",
+        "examples": [
+          {
+            "en": "I could wander into places I am not ready for if I take the chair before understanding the discussion rules and the concerns involved. Could I observe one session and speak with the current chair before confirming the role?",
+            "zh": "如果還未了解討論規則及相關問題就接任主持，我可能進入尚未準備好面對的領域。我可否先旁聽一場，跟現任主持談過後，再確認接下這個角色？"
+          },
+          {
+            "en": "I would like to learn, but I do not want to wander into places I am not ready for by accepting this responsibility before I know the procedure. Please let me observe a discussion and ask the chair about the different concerns before I decide.",
+            "zh": "我願意學習，但不想還未了解程序便接下責任，進入尚未準備好面對的領域。請讓我先旁聽討論，向主持了解各方關注的問題，再作決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the discussion rules",
+            "zh": "討論規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 107
+            }
+          },
+          {
+            "en": "the concerns involved",
+            "zh": "相關的關注問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 133
+            }
+          },
+          {
+            "en": "observe one session",
+            "zh": "旁聽一場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 162
+            }
+          },
+          {
+            "en": "the current chair",
+            "zh": "現任主持",
+            "exampleIndex": 0,
+            "span": {
+              "start": 178,
+              "end": 195
+            }
+          },
+          {
+            "en": "accepting this responsibility",
+            "zh": "接下這項責任",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 114
+            }
+          }
+        ],
+        "selfCheckZh": "直接回覆邀請，交代目前欠缺的規則及問題背景，提出先旁聽和了解程序的步驟，保留稍後決定與繼續學習的可能。"
+      },
+      "takeaways": [
+        {
+          "en": "The curator worried that visitors might wander into places they are not ready for if the first page assumed specialist knowledge.",
+          "zh": "策展人擔心，首頁若假定專業知識，訪客可能進入尚未準備好面對的領域。"
+        },
+        {
+          "en": "The story shows how we can wander into places we are not ready for, then seek the explanation needed to understand them.",
+          "zh": "故事展示，我們怎樣可能進入未準備好面對的領域，再尋找理解所需的說明。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Exact online navigation source preserved; expanded whole clause taught as contextual metaphor, not fixed age/safety rule. Main terms-and-access preparation, scene site-newcomer with existing expertise, final fictional development from admitted confusion to active learning support."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      }
+    },
+    {
+      "id": "advanced-native-1967",
+      "number": 1967,
+      "inventoryId": "expr-1967",
+      "contentRevision": 1,
+      "titleEn": "look over someone's shoulder",
+      "titleZh": "持續緊盯別人的做法",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\blook(?:s|ed|ing)? over (?:my|your|his|her|their|our|the learner[’\\x27]s|the trainee[’\\x27]s) shoulders?\\b",
+        "glossaryForbidden": [
+          "\\blook(?:s|ed|ing)? over\\b",
+          "\\bshoulders?\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Watch closely what someone is doing, often with a sense of continuous supervision.",
+        "meaningZh": "仔細看着別人在做甚麼，常帶持續監督的意思。",
+        "grammar": "look over someone’s shoulder; looking/looked. The watched person’s possessive follows over. Distinguish someone watching over my shoulder from my looking over my own shoulder for danger. Forever in the source adds duration, not a new idiom.",
+        "register": "Familiar monitoring image, usable literally beside a worker or figuratively for close oversight. The learner form uses a clear singular person or matching plural shoulders; source wording is retained exactly in provenance.",
+        "boundaryZh": "持續監督不等於對方已學會獨立做，也不代表完全不能問問題；減少監督可仍保留約定檢查及求助方法。",
+        "misconceptionZh": "不要混淆「別人緊盯我的工作」與「我回頭留意威脅」；要看誰在看、看誰的肩旁。",
+        "outcomeZh": "能交代監督程度及分工，並提出具體交接界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p246-t2-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 246,
+          "book": 9,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "expression": "look over their children's shoulder forever",
+          "sentence": "Parents cannot look over their children's shoulder forever.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page246, table2, row8; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "The tutor used to look over my shoulder while I entered every catalogue record. Now I draft a page independently, mark the uncertain entries and review those with her at the end, rather than needing approval for each word.",
+        "zh": "導師以前會緊盯我輸入每筆目錄記錄。現在我先獨立起草一頁，標出未確定項目，最後再跟她覆核，不用每個字都先獲批准。",
+        "promptEn": "",
+        "promptZh": "監督方式怎樣改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Continuous observation was replaced by independent drafting and a review of marked uncertainties.",
+            "zh": "持續旁看改為獨立起草，再覆核已標記的不確定項目。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The tutor stopped allowing questions as soon as independent drafting began.",
+            "zh": "獨立起草一開始，導師便不再容許提問。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The learner still needed approval for every word before entering it.",
+            "zh": "學員輸入每個字前，仍須先獲批准。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The review happened before the learner had identified any uncertain entry.",
+            "zh": "學員還未找出未確定項目，覆核就已進行。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "現在仍有具體覆核，但不再逐字盯着輸入；獨立與求助並不互相排斥。"
+      },
+      "reply": {
+        "promptEn": "How has your work with the tutor changed?",
+        "promptZh": "你跟導師的工作方式怎樣改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She no longer needs to look over my shoulder for every record; I bring marked questions to a later review.",
+            "zh": "她不再需要緊盯我每筆記錄，我會把已標記問題帶到稍後覆核。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I produce a draft first and discuss the uncertain parts afterwards.",
+            "zh": "我先完成初稿，再討論未確定部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We have separated my initial work from the tutor’s review.",
+            "zh": "我們把我的初步工作與導師覆核分開。"
+          },
+          {
+            "id": "choice-4",
+            "en": "There is still support, but not approval before each word I enter.",
+            "zh": "仍有支援，但不用輸入每個字前都先獲批准。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句各自說明由持續旁看轉向先做後核，不聲稱已取消所有支援。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一篇故事寫人物擔心被跟蹤，不時回頭看身後；他不是在監督別人的工作。讀者把「He looked over his shoulder」解成他盯着學員。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Here he checks behind himself; that is different from a tutor looking over another person’s shoulder to monitor the work.",
+            "zh": "這裏是他留意自己身後，與導師從別人肩旁緊盯工作不同。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account says he stood beside a trainee and checked each entry.",
+            "zh": "敘述說他站在學員旁，核對每項輸入。"
+          },
+          {
+            "id": "choice-3",
+            "en": "His concern is described as another person’s unfinished work, rather than someone following him.",
+            "zh": "敘述說他擔心別人未完成的工作，不是有人跟着他。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "自己回頭與盯着別人工作，人物關係及上下文不同，不能只看肩膀字眼。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只因導師不再「look over my shoulder」便推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她不再逐步緊盯我正在做的工作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她已拒絕在任何情況下再提供協助。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以問我們改用了甚麼覆核方式。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "減少持續監督，不等於支援完全終止；題目可以另有檢查安排。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「不再逐字批准，就把不懂的項目也直接當正確吧？」你們已約好標記問題後覆核。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She need not look over my shoulder continuously for me to mark uncertainty and ask at the agreed review.",
+            "zh": "她不必一直緊盯，我也可以標出不確定之處，在約定覆核時詢問。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed working alone meant uncertain entries no longer needed to be marked.",
+            "zh": "我以為獨立工作，就表示不用再標記不確定項目。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would ask for approval before every word again, rather than use the review arrangement we agreed.",
+            "zh": "我會重新每字先問批准，不使用已議定的覆核安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "交接後仍有清楚的問題記錄及覆核，不能把獨立當成不用確認或全面回到逐字監督。"
+      },
+      "speaking": {
+        "en": "You do not need to look over my shoulder throughout the task, but could we agree when I should bring you the unresolved questions?",
+        "zh": "你不用全程緊盯我的工作，但我們可否議定，甚麼時候把未解問題帶來請教？",
+        "promptZh": "先聽，再把監督程度與清楚求助安排連起來。",
+        "targetSpan": {
+          "start": 19,
+          "end": 40
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你正在共用工作室起草一段私人的家庭回憶，還沒決定是否公開。同事站在你身旁讀着每一行，說這樣可以隨時給建議。你想禮貌地請對方先留一點私密空間，等你選好願意分享的段落才請他看。用一至兩句英文直接提出這個界線，不否定對方的好意。",
+        "examples": [
+          {
+            "en": "I appreciate the offer to help, but I would rather you did not look over my shoulder while I write this private memory. Could I choose a passage to share with you once I have decided what I want others to read?",
+            "zh": "謝謝你願意幫忙，但我寫這段私人回憶時，寧願你先不要從旁逐行看。等我決定想讓別人讀甚麼，再選一段給你看，好嗎？"
+          },
+          {
+            "en": "Please give me some privacy instead of looking over my shoulder as I draft this family account. I value your advice and will ask for it on a passage I am comfortable sharing.",
+            "zh": "我起草這段家庭敘述時，請先給我一點私密空間，不要從旁一直看。我重視你的建議，會挑一段自己願意分享的內容再請教你。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the offer to help",
+            "zh": "願意幫忙的提議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "this private memory",
+            "zh": "這段私人回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 118
+            }
+          },
+          {
+            "en": "choose a passage to share",
+            "zh": "選一段可以分享的內容",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 153
+            }
+          },
+          {
+            "en": "some privacy",
+            "zh": "一點私密空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 15,
+              "end": 27
+            }
+          },
+          {
+            "en": "a passage I am comfortable sharing",
+            "zh": "自己願意分享的一段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 173
+            }
+          }
+        ],
+        "selfCheckZh": "寫實際而禮貌的私密界線，肯定好意，請對方暫停從旁閱讀，再由自己選擇願意分享的段落。"
+      },
+      "takeaways": [
+        {
+          "en": "The trainee asked to try one record without someone looking over her shoulder, then brought her questions to the scheduled review.",
+          "zh": "學員想先試一筆記錄，不讓人從旁緊盯，再把問題帶到排定的覆核。"
+        },
+        {
+          "en": "He explained that he could help at agreed points without looking over their shoulders through the entire process.",
+          "zh": "他解釋，可以在議定環節幫忙，不必整個過程都緊盯他們。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Exact source plural-children/singular-shoulder wording and forever retained in provenance; reusable learner form normalises to clear person/possessive monitoring frame, not a new forever idiom. Monitoring others distinguished own-shoulder threat vigilance. Main record drafting/review; final actual learner-facing trial handover with nearby support. Author self-review revised the final task into a different communicative purpose; the canonical final writing task is authoritative."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      },
+      "editorialCorrection": {
+        "sourceAlias": "look over their children's shoulder forever",
+        "teachingForm": "look over someone's shoulder",
+        "reason": "Exact source plural-children/singular-shoulder wording and forever retained in provenance; reusable learner form normalises to clear person/possessive monitoring frame, not a new forever idiom. Monitoring others distinguished own-shoulder threat vigilance. Main record drafting/review; final actual learner-facing trial handover with nearby support."
+      }
+    },
+    {
+      "id": "advanced-native-1968",
+      "number": 1968,
+      "inventoryId": "expr-1968",
+      "contentRevision": 1,
+      "titleEn": "a steady hand is better than a heavy hand",
+      "titleZh": "穩定指引勝於強硬控制的比喻",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba steady hand is better than a heavy hand\\b",
+        "glossaryForbidden": [
+          "\\bsteady hand\\b",
+          "\\bheavy hand\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "A contextual comparison favouring calm, consistent guidance over harsh or excessive control.",
+        "meaningZh": "在特定情境中，用手作比喻，主張冷靜持續的指引勝過嚴厲或過度控制。",
+        "grammar": "A steady hand is better than a heavy hand is a complete comparative judgement; identify the speaker and context rather than present it as a universal finding. Steady here concerns reliable guidance, heavy harsh control.",
+        "register": "Creative contrast built from familiar hand metaphors. The whole sentence is not presented as an established proverb; it does not mean practical rules or firm boundaries should disappear.",
+        "boundaryZh": "這是有範圍的主張，不是任何情況都已證明某種做法有效；也不是把耐心等同毫無要求。",
+        "misconceptionZh": "不要把steady只解成手不震，或把heavy只解成體重；這裏談引導方式而非身體測量。",
+        "outcomeZh": "能用具體對待方式解釋比較，也能保留清楚要求及詢問空間。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p247-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 247,
+          "book": 9,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "32–33",
+          "expression": "a steady hand is better than a heavy hand",
+          "sentence": "With teenagers, a steady hand is better than a heavy hand.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page247, table1, row2; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "In her account of coaching, a steady hand is better than a heavy hand: she repeats the agreed drill calmly and asks what confused the beginners, instead of shaming them for a missed cue. The practice still has clear rules.",
+        "zh": "在她對教練工作的敘述裏，穩定指引勝於強硬控制：她平靜重說議定的練習，也問新手哪裏不明白，不因漏了提示便羞辱他們。練習仍有清楚規則。",
+        "promptEn": "",
+        "promptZh": "這個比較主張怎樣引導，又保留甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Calm explanation and questions, while keeping clear rules for the practice.",
+            "zh": "平靜解釋及提問，同時保留練習的清楚規則。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Removing the agreed drill so nobody needs to learn the cue.",
+            "zh": "取消議定練習，讓人不用學提示。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Using embarrassment as the main way to explain the drill.",
+            "zh": "主要靠讓人難堪來解釋練習。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Postponing the explanation until the beginners can perform the cue without help.",
+            "zh": "等新手不用幫忙也能做出提示動作，才提供解釋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "文中具體對比平靜了解與羞辱，沒有把指引或規則取消。"
+      },
+      "reply": {
+        "promptEn": "What does the coach mean by preferring steadiness to harsh control?",
+        "promptZh": "教練說偏向穩定指引而非強硬控制，是甚麼意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "For this practice, a steady hand is better than a heavy hand because clear explanation can accompany the rules.",
+            "zh": "對這次練習，穩定指引勝於強硬控制，因為清楚解釋可以與規則並行。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She wants to find the misunderstanding rather than shame the learner for it.",
+            "zh": "她想找出誤解，不是因誤解讓學員難堪。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The instructions stay clear, while the response to mistakes becomes less humiliating.",
+            "zh": "指示仍清楚，但回應錯誤的方式不再羞辱人。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She distinguishes firm practice requirements from an unnecessarily harsh reaction.",
+            "zh": "她分清明確練習要求與不必要的嚴厲反應。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都解釋引導方式的比較，沒有把耐心誤讀為沒有要求。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "導師耐心讓學生試做，也明確交代器材不能自行帶走，借用要先登記。旁人說這些界線讓她的做法必定不再溫和。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Saying a steady hand is better than a heavy hand does not rule out clear borrowing limits explained without humiliation.",
+            "zh": "主張穩定指引勝於強硬控制，不會排除以不羞辱人的方式解釋借用界線。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The limits establish that the tutor used shame instead of an explanation.",
+            "zh": "有界線，足以確定導師用羞辱代替解釋。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes the borrowing conditions being left for learners to work out after taking equipment away.",
+            "zh": "敘述說，借用條件留待學員帶走器材後自行推斷。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "清楚界線與尊重的引導可以並存，不能只從有規定就判為強硬控制。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由這句steady hand與heavy hand的比較確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者在當時情境偏向穩定引導。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者已比較兩種指引方式的實測後續成效。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以看上下文解釋兩種做法有何不同。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "語境化的比較主張，不等於已提供兩種方式後續成效的實測比較。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「你不想嚴厲，就別告訴新手練習要求吧？」你仍想把提示說清楚。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A steady hand is better than a heavy hand here: I can explain the cue clearly and ask what is unclear without shaming anyone.",
+            "zh": "在這裏，穩定指引勝於強硬控制：我可以清楚解釋提示，也問哪裏不明白，不羞辱任何人。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought a patient response meant leaving the drill requirements for beginners to guess.",
+            "zh": "我以為耐心回應，就表示把練習要求留給新手猜。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would judge the guidance only by whether everyone obeyed immediately, without asking if they understood.",
+            "zh": "我會只看每人是否立即服從來判斷指引，不問他們是否理解。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "耐心不取消具體解釋，立即服從也不能單獨證明理解。"
+      },
+      "speaking": {
+        "en": "In this rehearsal, a steady hand is better than a heavy hand: clear reminders help us correct the cue without attacking the performer.",
+        "zh": "在這次排練，穩定指引勝於強硬控制：清楚提醒有助修正提示，不攻擊表演者本人。",
+        "promptZh": "先聽，再以具體做法說明這個比較。",
+        "targetSpan": {
+          "start": 19,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為一頁歷史日記寫展覽圖說。日記作者比較兩位帶她入行的前輩：一位會冷靜解釋失誤，另一位會公開責罵；作者認為前者較好。日記沒有記錄兩人後來的教學成效。用一至兩句英文交代這個有歸屬的看法，並說明展品提供的是個人經驗，不是通用效果證據。",
+        "examples": [
+          {
+            "en": "The diarist argues that a steady hand is better than a heavy hand, contrasting a patient explanation with public blame in her own training. This page records her judgement, not a comparison of the mentors’ later results.",
+            "zh": "日記作者主張穩定指引勝於強硬控制，以自己受訓時的耐心解釋與公開責罵作比較。這一頁記錄她的判斷，並非兩位前輩往後成效的比較。"
+          },
+          {
+            "en": "For the writer of this diary, a steady hand is better than a heavy hand: she values the mentor who explained a mistake calmly. The exhibit presents that personal experience without claiming to establish which approach always produces better outcomes.",
+            "zh": "對這位日記作者而言，穩定指引勝於強硬控制：她重視那位平靜解釋失誤的前輩。展品呈現這段個人經驗，沒有宣稱已證明哪種方式總會有較好成效。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The diarist argues",
+            "zh": "日記作者主張",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "public blame",
+            "zh": "公開責罵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 118
+            }
+          },
+          {
+            "en": "her judgement",
+            "zh": "她的判斷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 171
+            }
+          },
+          {
+            "en": "the mentors’ later results",
+            "zh": "兩位前輩往後的成效",
+            "exampleIndex": 0,
+            "span": {
+              "start": 193,
+              "end": 219
+            }
+          },
+          {
+            "en": "that personal experience",
+            "zh": "那段個人經驗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 148,
+              "end": 172
+            }
+          }
+        ],
+        "selfCheckZh": "交付可用圖說，清楚把比較歸於日記作者，以已描述的對待方式作根據，不虛構後續成效或通用研究結論。"
+      },
+      "takeaways": [
+        {
+          "en": "The organiser felt that a steady hand is better than a heavy hand when a missed instruction calls for explanation rather than blame.",
+          "zh": "統籌人覺得，漏聽指示需要解釋而非責怪時，穩定指引勝於強硬控制。"
+        },
+        {
+          "en": "Her proposal says a steady hand is better than a heavy hand, pairing firm deadlines with room to ask how the task should be done.",
+          "zh": "她的建議主張穩定指引勝於強硬控制，把明確期限與詢問工作方法的空間配合。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Creative complete comparative sentence, not a fixed maxim or empirical parenting claim. Collins primary heavy-hand phrase https://www.collinsdictionary.com/us/dictionary/english/a-heavy-hand supports harsh/severe treatment. Main clear sports guidance versus shame; scene boundaries can be respectful; final actual form-training redesign retains accuracy. Author self-review revised the final task into a different communicative purpose; the canonical final writing task is authoritative."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      }
+    },
+    {
+      "id": "advanced-native-1969",
+      "number": 1969,
+      "inventoryId": "expr-1969",
+      "contentRevision": 1,
+      "titleEn": "get lost in something",
+      "titleZh": "沉浸其中而忘了周遭",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:get|gets|getting|got|gotten) lost in (?:it|the story|the music|the browsing)\\b",
+        "glossaryForbidden": [
+          "\\blost in\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Become so absorbed in an activity that attention to the surroundings, time or original purpose fades.",
+        "meaningZh": "投入某項活動到周遭、時間或原本目的暫時淡出注意力。",
+        "grammar": "get/got/getting lost in it; give it a clear antecedent. Be lost in describes the absorbed state. Context can make the absorption enjoyable or show it displacing another intention.",
+        "register": "Established absorbed-attention image, not necessarily physical disorientation or a diagnosis. In the source browsing context it distracts from purpose; that negative judgement is not compulsory in every use.",
+        "boundaryZh": "沉浸可以愉快，也可以干擾原定事情；要看情境，不把任何專注都說成有問題。",
+        "misconceptionZh": "不等於物品檔案被刪除，也不表示當事人真的不知道身在何處。",
+        "outcomeZh": "能描述注意力與原定目的的變化，並按需要清楚表達界線。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p247-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 247,
+          "book": 9,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "expression": "getting lost in it",
+          "sentence": "Limit browsing before getting lost in it.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page247, table2, row2; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "I opened the music archive to find one song, then got lost in it as I followed recordings from one performer to another. I enjoyed listening, but only noticed the time when my friend called about the meeting I had meant to prepare for.",
+        "zh": "我打開音樂檔案想找一首歌，後來跟着不同表演者的錄音，沉浸其中。我很享受聆聽，但朋友打來問原本要準備的會議時，我才留意時間。",
+        "promptEn": "",
+        "promptZh": "沉浸帶來甚麼體驗，又影響了甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The listening was enjoyable, but it displaced the planned meeting preparation until a call drew attention to the time.",
+            "zh": "聆聽很愉快，但取代了原定會議準備，直到電話令說話者留意時間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The call interrupted the speaker before any enjoyable listening had begun.",
+            "zh": "說話者還未開始享受聆聽，電話便打斷了他。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The browsing stayed focused on the single song throughout, with no shift in attention.",
+            "zh": "整段瀏覽一直集中在原本那首歌，注意力沒有轉移。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The speaker finished the meeting preparation before opening any recording.",
+            "zh": "說話者開任何錄音前，已完成會議準備。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "說話者已享受了一段錄音，也由原本的一首歌轉到其他表演者；電話才令他想起被擱下的準備。享受與受影響可以同時存在。"
+      },
+      "reply": {
+        "promptEn": "What happened after you found the music archive?",
+        "promptZh": "找到音樂檔案後，你怎樣了？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I got lost in it, enjoying the recordings while losing track of the preparation I had intended.",
+            "zh": "我沉浸其中，享受錄音，也忘了原本想做的準備。"
+          },
+          {
+            "id": "choice-2",
+            "en": "One recording led me to another until the call reminded me about the time.",
+            "zh": "一段錄音帶到另一段，直到電話提醒時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The listening held my attention more than my original plan did.",
+            "zh": "聆聽比原定計劃更佔據我的注意力。"
+          },
+          {
+            "id": "choice-4",
+            "en": "I enjoyed the exploration but had not done the meeting preparation when my friend called.",
+            "zh": "我享受探索，但朋友打來時，還未做會議準備。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代投入的過程或對原定目的的影響，不把愉快體驗與分心誤作互斥。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "讀者形容自己一個下午投入小說，忘了注意房外聲音；那天下午本來就是她預留的閱讀時間，也沒有錯過安排。有人說這必定是有害失控。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She can get lost in the story during chosen reading time without the account establishing that she neglected another commitment.",
+            "zh": "她可以在自己選的閱讀時間沉浸故事，而敘述沒有確定她忽略了其他承諾。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account reports that she missed a meeting because she could not stop reading.",
+            "zh": "敘述表示，她因無法停下閱讀而錯過會議。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her absorbed reading is described as an attempt to avoid an arrangement she had already made.",
+            "zh": "她投入閱讀，被描述為想避開已約好的安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "這個意象本身不作傷害判斷，需要看原定時間及實際影響。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「I got lost in it」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "需要先知道it指甚麼活動或內容。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "單憑這句便可確定，當事人錯過了一個已約定的會議。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "上下文可能描述高度投入。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "沉浸義與實際迷路不同，也不自行報告所有後果。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然聽得開心，就不可能忘記原先要準備的事。」你想把體驗與影響分開。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I got lost in it and enjoyed the music, but that is also why I failed to notice the time for preparing the meeting.",
+            "zh": "我沉浸其中，也享受音樂，但這亦令我沒有留意準備會議的時間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought the delay to the meeting preparation had been a conscious choice made before I started listening.",
+            "zh": "我以為延後會議準備，是我開始聆聽之前已經有意作出的選擇。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I assumed the reminder call caused the delay, rather than drawing my attention to preparation I had already neglected.",
+            "zh": "我以為是提醒電話造成延誤，而不是它讓我留意到自己已忽略的準備。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "說話者享受錄音，卻因沉浸而忘了原定準備；沒有說已預先同意延後，也不是提醒電話才造成早已發生的疏忽。"
+      },
+      "speaking": {
+        "en": "I can get lost in the music and enjoy it, but I want to notice when I am choosing to listen rather than postponing another task.",
+        "zh": "我可以沉浸音樂並享受其中，但想留意自己何時是選擇聆聽，何時在延後另一件事。",
+        "promptZh": "先聽，再分清主動選擇與原定事情被擱置。",
+        "targetSpan": {
+          "start": 6,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友邀你今晚一直聽新發現的錄音，直到所有片段都播完。你很有興趣，但已答應九時跟家人通話，所以想提議先選三段，之後改天再聽，不責怪朋友的興趣。用一至兩句英文直接回覆，交代喜歡與今晚的界線。",
+        "examples": [
+          {
+            "en": "I could easily get lost in it, and I would love to hear the recordings, but I have promised a family call at nine. Could we choose three excerpts tonight and arrange another evening for the rest?",
+            "zh": "我很容易沉浸其中，也很想聽那些錄音，但已答應九時跟家人通話。我們可否今晚先選三段，其餘另約一晚？"
+          },
+          {
+            "en": "I enjoy getting lost in the music, though tonight I need to stop for my nine o’clock call. Let us pick three recordings now and decide together when to continue, rather than try to finish the whole collection.",
+            "zh": "我喜歡沉浸音樂，但今晚要停下來，按九時約定通話。我們現在先選三段，再一起決定何時繼續，不必設法播完整個收藏。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a family call at nine",
+            "zh": "九時與家人通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 113
+            }
+          },
+          {
+            "en": "three excerpts tonight",
+            "zh": "今晚的三段片段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 153
+            }
+          },
+          {
+            "en": "another evening for the rest",
+            "zh": "另一晚聽其餘部分",
+            "exampleIndex": 0,
+            "span": {
+              "start": 166,
+              "end": 194
+            }
+          },
+          {
+            "en": "my nine o’clock call",
+            "zh": "我九時的通話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 89
+            }
+          },
+          {
+            "en": "the whole collection",
+            "zh": "整個收藏",
+            "exampleIndex": 1,
+            "span": {
+              "start": 188,
+              "end": 208
+            }
+          }
+        ],
+        "selfCheckZh": "直接表示興趣並提出今晚三段及改天繼續的安排，清楚保留九時承諾，不把朋友的興趣說成問題或假裝已答應整晚。"
+      },
+      "takeaways": [
+        {
+          "en": "He got lost in the story during the afternoon he had set aside for reading.",
+          "zh": "他在特意預留閱讀的下午沉浸故事。"
+        },
+        {
+          "en": "I noticed I was getting lost in it when another suggested recording led me away from the song I had opened the archive to find.",
+          "zh": "另一段推薦錄音讓我離開原本要找的歌時，我留意到自己正沉浸其中。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Oxford primary lost adjective https://www.oxfordlearnersdictionaries.com/us/definition/english/lost_1 and Cambridge https://dictionary.cambridge.org/dictionary/english/be-lost-in support absorbed attention, including enjoyable reading/music. Source browsing-purpose cost contextual rather than universal. Final actual invitation reply negotiates an existing time commitment, not a diagnosis."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      },
+      "editorialCorrection": {
+        "sourceAlias": "getting lost in it",
+        "teachingForm": "get lost in something",
+        "reason": "Oxford primary lost adjective https://www.oxfordlearnersdictionaries.com/us/definition/english/lost_1 and Cambridge https://dictionary.cambridge.org/dictionary/english/be-lost-in support absorbed attention, including enjoyable reading/music. Source browsing-purpose cost contextual rather than universal. Final actual invitation reply negotiates an existing time commitment, not a diagnosis."
+      }
+    },
+    {
+      "id": "advanced-native-1970",
+      "number": 1970,
+      "inventoryId": "expr-1970",
+      "contentRevision": 1,
+      "titleEn": "the internet is a huge city",
+      "titleZh": "把互聯網比作龐大而難導航的城市",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe internet (?:is|can feel like) a huge city\\b",
+        "glossaryForbidden": [
+          "\\bthe internet\\b",
+          "\\ba huge city\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Compare the internet with a large, varied place that offers possibilities while requiring ways to find a route.",
+        "meaningZh": "把互聯網比作龐大、多樣的地方：有可探索之處，也需要方法尋找路向。",
+        "grammar": "The internet is a huge city; the internet can feel like a huge city. The metaphor or explicit comparison needs an actual navigation difficulty and useful opportunities, not a literal city description.",
+        "register": "Extended contextual city metaphor. The source fragment is part of a complete comparison with useful/exciting yet hard to navigate; it is not a fixed idiom or evidence that every user has the same experience.",
+        "boundaryZh": "機會多與容易找到所需資料不同；也不表示每頁可靠、每個地方危險，或一定需要同一套導覽。",
+        "misconceptionZh": "保留比喻中的不同部分，不只因龐大就否定用途，也不因有用就否認入門需要。",
+        "outcomeZh": "能用具體頁面及路向說明比喻，並配合新使用者目標。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p247-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 247,
+          "book": 9,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "expression": "a huge city: useful and exciting",
+          "sentence": "To a beginner, the internet is a huge city: useful and exciting, yet hard to navigate.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page247, table2, row4; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "For our first research group, the internet is a huge city: there are useful archives and lively discussions, but we need a way to tell where to begin. We chose one question and compared two named archives before opening more links.",
+        "zh": "對我們初次研究的小組，互聯網像一座大城市：有實用檔案及活躍討論，但需要方法知道從哪裏開始。我們先選一個問題，比較兩個具名檔案，再開更多連結。",
+        "promptEn": "",
+        "promptZh": "這個城市比喻同時保留哪兩面？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Useful possibilities and a need to choose a route towards the group’s question.",
+            "zh": "實用的可能性，以及按小組問題選路向的需要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The group treated the lively discussion itself as the answer, without checking the named archives.",
+            "zh": "小組把活躍討論本身當成答案，沒有查核具名檔案。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Useful discussion spaces that the group considered a substitute for defining a research question.",
+            "zh": "小組認為有用的討論空間可以代替訂立研究問題。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The group began by opening every suggested link before choosing a question.",
+            "zh": "小組先開每個推薦連結，之後才選問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "比喻保留實用資源與選路需要；小組先定問題並比較兩個具名檔案，不是把討論當成結論，也不是先把全部推薦連結開完。"
+      },
+      "reply": {
+        "promptEn": "Why compare the internet with a huge city for this group?",
+        "promptZh": "你為甚麼為這個小組把互聯網比作大城市？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The internet is a huge city in the image: varied opportunities still leave us needing a route for our question.",
+            "zh": "在這個意象中，互聯網像大城市：機會多樣，但仍需要按問題選路。"
+          },
+          {
+            "id": "choice-2",
+            "en": "There is more to explore than we can use without first deciding what we want to find.",
+            "zh": "可探索的內容很多，我們要先決定想找甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The useful archives do not remove the need to compare where a search should begin.",
+            "zh": "有用的檔案，不會取消比較搜尋起點的需要。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The image connects valuable material with the practical difficulty of finding a relevant starting point.",
+            "zh": "意象把有價值的材料，與尋找相關起點的實際困難連起來。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都解釋機會與導航需要的並存，不把比喻化成全好或全壞。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "網站指南把三條入口分成「找地方照片」「聽居民故事」「查舊地名」，讓讀者按自己問題選。有人說有導覽就表示內容不再多樣。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The internet can feel like a huge city even with useful signposts; the three routes help readers choose among different resources.",
+            "zh": "即使有有用指示，互聯網仍可像大城市；三條路幫讀者在不同資源中選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The routes show that all readers must use the same source regardless of their question.",
+            "zh": "路線顯示，每位讀者都必須使用同一來源，不論問題是甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The guide is described as removing the photographs and stories rather than organising entry points.",
+            "zh": "指南被描述為刪除照片及故事，而不是整理入口。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有導覽可以幫人使用多樣內容，不等於把差異刪掉或強迫同一目的。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "這個「互聯網像龐大城市」的比喻，最不能直接支持哪項？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可以有多種資源及探索路線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每一個頁面都已獲確認可靠。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "新使用者可能需要按目的選入口。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "城市意象沒有完成每頁查證，也不保證所有資源適合同一需要。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然內容有用，就把第一個連結當唯一入口吧？」你們有不同研究問題。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The internet is a huge city in this comparison, so a useful link can be one starting point without being the right route for every question.",
+            "zh": "在這個比喻中，互聯網像大城市，所以有用連結可以是一個起點，不一定適合每個問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought a useful first link established that every member should follow the same search.",
+            "zh": "我以為首個連結有用，就足以確定每位成員應作相同搜尋。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would judge a route only by how many pages it opens, rather than whether it answers the question.",
+            "zh": "我只會按路線開到多少頁判斷，不看能否回答問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "入口應配合具體問題，內容有用或數量多，都不等於所有人要用相同路線。"
+      },
+      "speaking": {
+        "en": "The internet can feel like a huge city, so I would begin by asking which question the learner wants the next link to answer.",
+        "zh": "互聯網可以像一座大城市，所以我會先問，學員想讓下一個連結回答甚麼問題。",
+        "promptZh": "先聽，再用具體目的決定探索起點。",
+        "targetSpan": {
+          "start": 0,
+          "end": 38
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你整理兩位參與者的網上研究回饋。阿慧很熟悉照片館，順利找到老街照片；阿文想查一首地方歌曲的來源，打開多個網站仍不知道如何比較。用一至兩句英文寫實際回饋摘要，保留兩人的不同經驗，不把一人的熟悉或困難當成所有人的情況。",
+        "examples": [
+          {
+            "en": "The internet can feel like a huge city to a researcher seeking a new route, as Ah Man found when trying to trace the song. Ah Wai’s success in a familiar photograph archive shows a different experience, not proof that every search is straightforward.",
+            "zh": "對尋找新路向的研究者而言，互聯網可以像一座大城市，阿文追查歌曲來源時便有這種體會。阿慧在熟悉的照片館找到資料，顯示另一種經驗，並非每次搜尋都容易的證明。"
+          },
+          {
+            "en": "For Ah Man, the internet is a huge city with several possible routes but no clear way to compare the song sources yet. Ah Wai already knows her way around the photograph archive, so our summary should preserve their different starting points.",
+            "zh": "對阿文而言，互聯網像一座大城市，有幾條可能的路，卻仍未有清楚方法比較歌曲來源。阿慧已熟悉照片館的路向，所以摘要應保留兩人不同的起點。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "trace the song",
+            "zh": "追查歌曲來源",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 121
+            }
+          },
+          {
+            "en": "a familiar photograph archive",
+            "zh": "熟悉的照片檔案館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 172
+            }
+          },
+          {
+            "en": "a different experience",
+            "zh": "另一種經驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 179,
+              "end": 201
+            }
+          },
+          {
+            "en": "compare the song sources",
+            "zh": "比較歌曲來源",
+            "exampleIndex": 1,
+            "span": {
+              "start": 89,
+              "end": 113
+            }
+          },
+          {
+            "en": "their different starting points",
+            "zh": "兩人不同的起點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 210,
+              "end": 241
+            }
+          }
+        ],
+        "selfCheckZh": "寫實際回饋摘要，交代阿文新任務的導航困難及阿慧熟悉資源的經驗，不由其中一人推論全部搜尋都難或都容易。"
+      },
+      "takeaways": [
+        {
+          "en": "For the new class, the internet is a huge city with many promising routes, and the teacher asks what each learner hopes to find.",
+          "zh": "對新班級，互聯網像有多條可探索路線的大城市，老師便問每位學員想找甚麼。"
+        },
+        {
+          "en": "The internet can feel like a huge city when a useful search opens more paths than the beginner knows how to compare.",
+          "zh": "一個有用搜尋開出太多路，新手還不懂比較時，互聯網就可能像一座大城市。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Exact supplied fragment preserved in full original example. Learner-facing complete internet/city frame makes the metaphor reusable; no claim original sentence is wrong or a fixed idiom. Main question-led research route, scene signposts do not erase variety, final actual three-entry diagram design avoids single compulsory path. Author self-review revised the final task into a different communicative purpose; the canonical final writing task is authoritative."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      },
+      "editorialCorrection": {
+        "sourceAlias": "a huge city: useful and exciting",
+        "teachingForm": "the internet is a huge city",
+        "reason": "Exact supplied fragment preserved in full original example. Learner-facing complete internet/city frame makes the metaphor reusable; no claim original sentence is wrong or a fixed idiom. Main question-led research route, scene signposts do not erase variety, final actual three-entry diagram design avoids single compulsory path."
+      }
+    },
+    {
+      "id": "advanced-native-1971",
+      "number": 1971,
+      "inventoryId": "expr-1971",
+      "contentRevision": 1,
+      "titleEn": "wander through without a map",
+      "titleZh": "沒有指引便在複雜環境中摸索",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwander(?:s|ed|ing)? through without a map\\b",
+        "glossaryForbidden": [
+          "\\bwander(?:s|ed|ing)? through\\b",
+          "\\bwithout a map\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Explore a complicated environment without a framework or guidance for finding a way through it.",
+        "meaningZh": "沒有幫助辨認路向的架構或指引，便在複雜環境中自行摸索。",
+        "grammar": "wander through without a map; wandered/wandering. Establish the environment before through, and explain what a figurative map would provide, such as an index or a sequence of questions.",
+        "register": "A contextual navigation image. Map may mean guidance, not necessarily a printed street map. The image alone does not prove that independent exploration must fail or that a guide should supply every answer.",
+        "boundaryZh": "沒有指引與沒有能力不同；需要的可以是看目錄的方法，不是別人直接給出結論。",
+        "misconceptionZh": "不要把map限定為紙本地圖，也不要只因已有搜尋欄就假定已懂資料如何分類。",
+        "outcomeZh": "能說明需要哪種引導，並把尋路方法與代替別人決定答案分開。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p247-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 247,
+          "book": 9,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "34–35",
+          "expression": "wander through without a map",
+          "sentence": "Children should not wander through without a map.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page247, table2, row5; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "The archive has a search box, but the newcomers do not know how its records are grouped. If they wander through without a map, they may miss relevant collections. We begin by explaining the index, not by choosing their conclusions.",
+        "zh": "檔案館有搜尋欄，但新成員不知道記錄如何分類。如果沒有指引便摸索，他們可能漏看相關收藏。我們先解釋目錄，不替他們決定結論。",
+        "promptEn": "",
+        "promptZh": "這裏的map主要指甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An explanation of the index that helps newcomers find relevant collections.",
+            "zh": "解釋目錄，幫新成員找到相關收藏的指引。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A set of final conclusions that newcomers are expected to copy.",
+            "zh": "一套要求新成員抄寫的最終結論。"
+          },
+          {
+            "id": "choice-3",
+            "en": "A search box that the newcomers have not yet been given access to.",
+            "zh": "一個新成員仍未獲准使用的搜尋欄。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A review of why the newcomers rejected the relevant collections after reading them.",
+            "zh": "覆核新成員讀過相關收藏後為甚麼拒絕使用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已有搜尋欄，缺的是理解分類及尋找收藏的方法；文中未說他們已讀過並拒絕材料，也不要求抄結論。"
+      },
+      "reply": {
+        "promptEn": "Why begin with an explanation of the archive index?",
+        "promptZh": "為甚麼先解釋檔案目錄？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Otherwise newcomers may wander through without a map, unsure which collections relate to their question.",
+            "zh": "否則，新成員可能沒有指引便摸索，不知道哪些收藏與問題相關。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The search box does not explain how the records are grouped.",
+            "zh": "搜尋欄沒有解釋記錄如何分類。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Knowing the structure can help them notice relevant collections before drawing conclusions.",
+            "zh": "了解結構，可以幫他們在下結論前留意相關收藏。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We want to support their search without deciding what they should conclude.",
+            "zh": "我們想支援他們搜尋，但不替他們決定結論。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句各自解釋分類指引的用途或它與代答的分別，都不要求放棄自主思考。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "研究者沒有紙本地圖，但已看過數碼目錄、清楚收藏分類，也知道下一步查哪組記錄。評論只因沒有印出的地圖便說他毫無指引。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Not carrying a printed map does not mean he must wander through without a map in the figurative sense; he already understands the index.",
+            "zh": "沒有帶紙本地圖，不表示他在比喻義上必定毫無指引地摸索；他已了解目錄。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account establishes that he has no way to identify a relevant collection.",
+            "zh": "敘述確定他沒有方法辨認相關收藏。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Knowing the collection names is described as replacing his research question with somebody else’s conclusion.",
+            "zh": "敘述把了解收藏名稱，說成用別人的結論取代他的研究問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "比喻中的指引可以是數碼目錄及分類知識，不只限於手持紙張；也不等於代替他下結論。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「They might wander through without a map」推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者認為，他們可能缺少辨認路向的指引。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們已經搜尋失敗，並決定放棄研究。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要看上下文，確認through所指的環境。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "might保留可能，沒有直接報告搜尋結果或放棄的決定。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「要提供指引，就把標準結論給他們抄吧？」你想讓新成員自己判斷材料。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They need not wander through without a map, but our map can explain the index rather than prescribe their conclusions.",
+            "zh": "他們不必毫無指引地摸索，但我們的指引可以解釋目錄，不必指定結論。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought explaining the index meant telling them which interpretation to accept.",
+            "zh": "我以為解釋目錄，就表示告訴他們應接受哪個解讀。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would leave the categories unexplained until they submit a conclusion, so the first search tests their independence.",
+            "zh": "我會等他們交出結論後才解釋分類，讓首次搜尋測試他們的獨立能力。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可以支援尋路方法而保留判斷空間；指定結論或把所需架構延至提交後才說，都沒回應已知需要。"
+      },
+      "speaking": {
+        "en": "We should not let newcomers wander through without a map when a short explanation of the categories would help them find their own evidence.",
+        "zh": "如果簡單解釋分類能幫新成員找到自己的證據，我們就不應讓他們毫無指引地摸索。",
+        "promptZh": "先聽，再說明指引怎樣幫助自主尋找證據。",
+        "targetSpan": {
+          "start": 28,
+          "end": 56
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：讀書會要討論一篇結構複雜的長篇小說。你已選好自己想追查的角色線索，但主持人還沒提供章節與敘事時間的對照。你想請他先分享這份架構資料，而不是先告訴你人物動機的標準答案。用一至兩句英文直接提出請求。",
+        "examples": [
+          {
+            "en": "Could you share the chapter timeline before our discussion, so I do not wander through without a map? I have chosen a character to investigate and would like the structure to help me test my own interpretation.",
+            "zh": "討論前可否分享章節時間線，讓我不用毫無指引地摸索？我已選好想研究的角色，希望用結構資料檢驗自己的解讀。"
+          },
+          {
+            "en": "I do not want to wander through without a map of this novel’s changing narrative times. Could we have the chapter guide while leaving the character’s motives open for us to discuss?",
+            "zh": "我不想在小說變動的敘事時間中毫無指引地摸索。我們可否先看章節指南，同時把角色動機留待大家討論？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the chapter timeline",
+            "zh": "章節時間線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 16,
+              "end": 36
+            }
+          },
+          {
+            "en": "a character to investigate",
+            "zh": "想研究的角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 142
+            }
+          },
+          {
+            "en": "test my own interpretation",
+            "zh": "檢驗自己的解讀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 183,
+              "end": 209
+            }
+          },
+          {
+            "en": "changing narrative times",
+            "zh": "變動的敘事時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 86
+            }
+          },
+          {
+            "en": "the character’s motives",
+            "zh": "角色的動機",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 157
+            }
+          }
+        ],
+        "selfCheckZh": "直接請求章節與時間的架構資料，交代已有的閱讀問題，把支持自己解讀的方法與預先給定答案分開。"
+      },
+      "takeaways": [
+        {
+          "en": "The class did not have to wander through without a map once the librarian explained how the collections were arranged.",
+          "zh": "圖書館員解釋收藏的編排後，班上同學就不用毫無指引地摸索。"
+        },
+        {
+          "en": "She asked for a guide to the sections so that she would not wander through without a map while developing her own argument.",
+          "zh": "她索取各部分的指南，讓自己形成論點時不必毫無指引地摸索。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Exact through-without-map guide sentence retained; contextual guidance metaphor with through antecedent supplied in original practice. Distinct from preparation-content1966 and entire internet-city1970. Main index access, scene digital guidance qualifies literal-paper assumption, final direct literary structure request preserves open interpretation."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      }
+    },
+    {
+      "id": "advanced-native-1973",
+      "number": 1973,
+      "inventoryId": "expr-1973",
+      "contentRevision": 1,
+      "titleEn": "born into a wired world",
+      "titleZh": "生於數碼連結已普及的環境",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bborn into a wired world\\b",
+        "glossaryForbidden": [
+          "\\bborn into\\b",
+          "\\ba wired world\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Born into an environment in which digital connections and devices are already part of everyday life.",
+        "meaningZh": "出生時，所處環境已把數碼連結及裝置納入日常生活。",
+        "grammar": "be born into a wired world; were/are born into. Wired modifies world figuratively as connected by digital technology. Name the community or account rather than infer identical access or skills for every child.",
+        "register": "A contextual description of the digital environment, not an assertion that digital ability is biologically inborn. Separate the setting from any particular person’s competence or consent to use a service.",
+        "boundaryZh": "生活背景有數碼科技，不代表每人都能處理每個程式，也不保證每個家庭有相同設備。",
+        "misconceptionZh": "不要把born into誤作天生精通，也不要把wired解成孩子身上裝有電線。",
+        "outcomeZh": "能描述背景並另行詢問實際經驗，避免按年齡替別人判定能力。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p248-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 248,
+          "book": 9,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "35–39",
+          "expression": "born into a wired world",
+          "sentence": "Today's children are born into a wired world.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page248, table2, row2; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "The report describes these pupils as born into a wired world: connected devices were already common around them. It still asks each pupil which tools they have used, rather than assume that a shared setting gives everyone the same skills.",
+        "zh": "報告把這些學生描述為生於數碼連結已普及的環境：他們周圍本來就常見聯網裝置。報告仍逐一詢問用過哪些工具，不假定相同背景會給每人相同技能。",
+        "promptEn": "",
+        "promptZh": "報告把哪兩件事分開？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The surrounding digital environment and each pupil’s actual experience with tools.",
+            "zh": "周圍的數碼環境，以及每位學生實際使用工具的經驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The pupils’ tested skills and a later decision to introduce connected devices around them.",
+            "zh": "學生已測試的技能，以及後來才在周圍引進聯網裝置的決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "A common environment and a conclusion that asking about individual experience is unnecessary.",
+            "zh": "共同環境，以及無須詢問個人經驗的結論。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Access to the same device model and a comparison of pupils’ scores on that model.",
+            "zh": "使用同一型號裝置的機會，以及學生在該型號上的分數比較。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "報告先交代環境，再另問個別經驗；沒有提及同款設備、測試分數，或把環境當作不用再問的理由。"
+      },
+      "reply": {
+        "promptEn": "Why ask these pupils which tools they have used?",
+        "promptZh": "為甚麼要問這些學生實際用過哪些工具？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Being born into a wired world describes their setting, not identical experience with every tool.",
+            "zh": "生於數碼連結已普及的環境，描述的是背景，不是每種工具的相同使用經驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Connected devices being common around them does not tell us what each pupil has practised.",
+            "zh": "周圍常見聯網裝置，不會告訴我們每位學生實際練習過甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The report needs individual experience as well as a description of the environment.",
+            "zh": "報告除了描述環境，還需要了解個人經驗。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We should base the support offered on what they have actually used, rather than on age alone.",
+            "zh": "所提供的支援應按他們實際用過的工具，而不單看年齡。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明環境與個別經驗的差別，沒有否認數碼背景，也沒有替學生假定能力。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "課程介紹說，新成員成長的社區常見聯網裝置；其中一人卻從未使用這次要教的剪接程式。有人因此說，她不可能來自這種環境。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She can have been born into a wired world without having learnt this particular editing program.",
+            "zh": "她可以生於數碼連結已普及的環境，卻未學過這個特定剪接程式。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her unfamiliarity establishes that the community introduced digital devices only after she joined the course.",
+            "zh": "她不熟悉程式，足以確定社區在她入讀課程後才引進數碼裝置。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The description says she had practised the editing program before the course began.",
+            "zh": "描述表示，她在開課前已練習過這個剪接程式。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "某個程式的使用經驗與整個成長環境不同；前者未有，並不推翻後者。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「They were born into a wired world」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者把數碼連結視為他們出生時已有的環境部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每人已精通這次課程會用的特定工具。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可另外了解他們的設備及使用經驗。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "環境描述沒有完成個人技能評估，也沒有指定某項工具的熟練程度。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "伙伴說：「他們年輕，直接跳過剪接程式的使用經驗調查吧？」你知道有新成員從未用過。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They may be born into a wired world, but we should still ask about this program before deciding where the lesson starts.",
+            "zh": "他們可能生於數碼連結已普及的環境，但決定課程從哪裏開始前，仍應問這個程式的使用經驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed growing up around devices meant the introductory editing steps had already been practised.",
+            "zh": "我以為在裝置旁長大，就表示已練過入門剪接步驟。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would ask only about the devices they own, then use that answer as their editing-skill assessment.",
+            "zh": "我只會問他們擁有哪些裝置，再用答案作為剪接技能評估。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "應直接問相關工具的經驗；年齡或擁有設備，都不等於已練過剪接步驟。"
+      },
+      "speaking": {
+        "en": "They were born into a wired world, but the lesson begins by asking how each person has actually used the tools we plan to discuss.",
+        "zh": "他們生於數碼連結已普及的環境，但課程先問每人實際怎樣用過我們打算討論的工具。",
+        "promptZh": "先聽，再把環境背景與實際使用經驗分開。",
+        "targetSpan": {
+          "start": 10,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為一場祖孫口述訪問寫主持人開場。孫女從出生起，家中便常見聯網裝置，祖父則記得家中第一部電視帶來的改變；你希望邀請兩人分享各自第一次學會某種工具的經驗，不把訪問寫成一代必定勝過另一代。用一至兩句英文寫實際開場白。",
+        "examples": [
+          {
+            "en": "You were born into a wired world, while your grandfather remembers the arrival of the family’s first television. Could each of you tell us about learning a tool for the first time, so we can hear your own experiences rather than rank the generations?",
+            "zh": "你生於數碼連結已普及的環境，而祖父仍記得家中第一部電視出現。你們可否各自談第一次學會一種工具的經驗，讓我們聽個人的故事，不為兩代排名？"
+          },
+          {
+            "en": "One of you was born into a wired world, and the other recalls a home before its first television. I would like to begin with a question for both of you: what was it like to learn a new tool, and who helped?",
+            "zh": "你們一人生於數碼連結已普及的環境，另一人記得家中還沒有第一部電視的日子。我想先問兩位同一個問題：學一種新工具時有甚麼體驗，又是誰幫忙？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the family’s first television",
+            "zh": "家中第一部電視",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 111
+            }
+          },
+          {
+            "en": "learning a tool for the first time",
+            "zh": "第一次學會一種工具",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 179
+            }
+          },
+          {
+            "en": "your own experiences",
+            "zh": "你們各自的經驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 196,
+              "end": 216
+            }
+          },
+          {
+            "en": "rank the generations",
+            "zh": "為不同世代排名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 229,
+              "end": 249
+            }
+          },
+          {
+            "en": "who helped",
+            "zh": "是誰幫忙",
+            "exampleIndex": 1,
+            "span": {
+              "start": 195,
+              "end": 205
+            }
+          }
+        ],
+        "selfCheckZh": "交付自然的主持開場，準確交代已知背景，邀請兩位各談學習及支援經驗，不按世代預設高下。"
+      },
+      "takeaways": [
+        {
+          "en": "The pupils were born into a wired world, yet their accounts revealed different opportunities to practise with particular devices.",
+          "zh": "學生生於數碼連結已普及的環境，但他們的敘述顯示，各自練習特定裝置的機會不同。"
+        },
+        {
+          "en": "She was born into a wired world and still needed someone to explain the unfamiliar editing controls.",
+          "zh": "她生於數碼連結已普及的環境，仍需要別人解釋陌生的剪接控制功能。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Exact born-into digital-setting source retained, figurative wired environment not innate skill or universal device access. Distinct hard-wired disposition unit. Final actual intergenerational oral-history introduction invites personal learning accounts without ranking generations."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      }
+    },
+    {
+      "id": "advanced-native-1974",
+      "number": 1974,
+      "inventoryId": "expr-1974",
+      "contentRevision": 1,
+      "titleEn": "surrounded by it from the very beginning",
+      "titleZh": "從一開始便置身其中",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bsurrounded by (?:it|the technology) from the very beginning\\b",
+        "glossaryForbidden": [
+          "\\bsurrounded by\\b",
+          "\\bfrom the very beginning\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Have something present around one from the earliest relevant stage of an experience or period.",
+        "meaningZh": "從所談經歷或時期的最早階段開始，周圍便已有某種事物。",
+        "grammar": "be surrounded by it from the very beginning; was/were. Give it an explicit antecedent and identify what beginning means. The technology can replace it when clarity is needed.",
+        "register": "Natural descriptive construction, not a fixed idiom. Surrounded by can describe a pervasive environment without literal enclosure or uninterrupted personal use. The relevant start may be childhood or a named project.",
+        "boundaryZh": "周圍常見某事物，不代表時刻親自使用；起點也須由上下文交代，不能自行補上所有科技同日出現。",
+        "misconceptionZh": "不要由早期接觸推論已完全掌握，也不要讓it失去清楚所指。",
+        "outcomeZh": "能清楚交代所指事物、起點及已知接觸方式，避免把環境寫成連續行為。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p248-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 248,
+          "book": 9,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "35–39",
+          "expression": "surrounded by it from the very beginning",
+          "sentence": "They were surrounded by it from the very beginning.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page248, table2, row3; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "This account concerns connected screen technology at home. The children were surrounded by it from the very beginning of childhood. The writer separates that environment from the time each child actually used a screen.",
+        "zh": "這段敘述談家中的聯網屏幕科技。孩子從童年一開始便置身其中。作者把這種環境，與每個孩子實際使用屏幕的時間分開。",
+        "promptEn": "",
+        "promptZh": "作者把甚麼分開？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Screens being present in the home and the children’s actual screen use.",
+            "zh": "家中有屏幕，以及孩子實際使用屏幕的情況。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A shared environment and a claim that it explains the differences in individual screen use.",
+            "zh": "共同環境，以及它能解釋個別屏幕使用差異的主張。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The children’s continuous use and the writer’s measurement of every hour.",
+            "zh": "孩子持續使用屏幕，以及作者逐小時進行的量度。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The first recorded use of a screen as the date when the home environment began.",
+            "zh": "把首次使用屏幕的記錄，當作家中環境開始的日期。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "作者把早期的科技環境與個別使用情況分開，沒有逐時測量、用環境解釋全部差異，或以首次操作改定環境的起點。"
+      },
+      "reply": {
+        "promptEn": "What does the account say about the children’s early environment?",
+        "promptZh": "這段敘述對孩子早期環境說了甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They were surrounded by it from the very beginning, with networked screens already present in the family home.",
+            "zh": "他們從一開始便置身其中，家裏本來就有聯網屏幕。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Screens were part of the home environment from the start of their childhood.",
+            "zh": "從童年開始，屏幕便是家居環境的一部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The writer places the technology around them early, without equating that with continuous use.",
+            "zh": "作者交代他們很早便身處科技周圍，但沒有把這等同持續使用。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Their early surroundings included connected screens, though individual use is discussed separately.",
+            "zh": "他們早期的周圍環境有聯網屏幕，但個別使用情況另外討論。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都描述早期周圍環境，沒有把環境存在改成每人不間斷操作。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "展覽籌備第一天，工作室已放着掃描設備，成員一直可見它；但某位成員直到第二週才第一次操作。旁人說他既未用過，設備就不算從起初在他周圍。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He could be surrounded by the technology from the very beginning of the project without operating it on the first day.",
+            "zh": "他可以從項目一開始便置身這些科技周圍，卻沒有在第一天操作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "His first use in the second week establishes that the equipment arrived only then.",
+            "zh": "他第二週才首次使用，足以確定設備也是那時才運到。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes him operating the scanner from the first morning, rather than merely seeing it.",
+            "zh": "敘述說他從第一天早上便操作掃描器，不只是看見它。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "設備在場及本人首次操作的日期不同，不能把操作時間當作運到時間。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「She was surrounded by it from the very beginning」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "需要從上下文確認it及所談的起點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她從起初每一刻都親自操作那件事物。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者描述了早期的周圍環境。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "surrounded by描述周圍存在，沒有單憑這句報告每一刻的個人行為。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "伙伴說：「既然孩子從小在聯網屏幕旁，就把周圍有屏幕的時間，全算成他們使用的時間吧？」你要保留原文區分。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They were surrounded by it from the very beginning, but we still need separate evidence of when they actually used a screen.",
+            "zh": "他們從一開始便置身其中，但仍需要另外的證據，才知道何時實際使用屏幕。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed a device being in the room meant the child was using it whenever it was there.",
+            "zh": "我以為裝置在房間裏，就表示孩子在裝置在場時一直使用它。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would date the start of the home environment from the first recorded use, rather than the account of screens already being there.",
+            "zh": "我會按首次使用記錄來定家中環境的起點，不採用屏幕本來已在場的敘述。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "環境存在與個人操作要分開記錄，不能互相代替，也不能用首次操作改寫已知在場時間。"
+      },
+      "speaking": {
+        "en": "She was surrounded by the technology from the very beginning of the project, although her first chance to use it came later.",
+        "zh": "她從項目一開始便置身這些科技周圍，但第一次有機會使用，是後來的事。",
+        "promptZh": "先聽，再分清周圍在場與親自使用的時間。",
+        "targetSpan": {
+          "start": 8,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為一個村落的聲音展覽寫圖說。村民阿玲自小住在鐘樓旁，自己說很早便聽到鐘聲；訪問沒有記錄她每次是否留意，也不知道她是否學過敲鐘。用一至兩句英文寫實際圖說，先清楚指出it指鐘聲，再保留未有的資料。",
+        "examples": [
+          {
+            "en": "The sound of the village bells was part of Ah Ling’s early surroundings: she was surrounded by it from the very beginning of her childhood beside the tower. Her account does not tell us whether she ever learnt to ring the bells or how often she paid attention.",
+            "zh": "村鐘聲構成阿玲早期周圍環境的一部分：她住在鐘樓旁，從童年一開始便置身鐘聲之中。她的敘述沒有告訴我們，是否曾學會敲鐘，或多常留意鐘聲。"
+          },
+          {
+            "en": "Ah Ling recalls the sound of the bells around her childhood home and says she was surrounded by it from the very beginning. This memory describes an early environment, without establishing whether she ever learnt to ring the bells.",
+            "zh": "阿玲記得童年家旁的鐘聲，說自己從一開始便置身其中。這段記憶描述早期環境，沒有確定她是否曾學過敲鐘。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the village bells",
+            "zh": "村落的鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 13,
+              "end": 30
+            }
+          },
+          {
+            "en": "Ah Ling’s early surroundings",
+            "zh": "阿玲早期的周圍環境",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 71
+            }
+          },
+          {
+            "en": "beside the tower",
+            "zh": "在鐘樓旁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 155
+            }
+          },
+          {
+            "en": "paid attention",
+            "zh": "留意",
+            "exampleIndex": 0,
+            "span": {
+              "start": 245,
+              "end": 259
+            }
+          },
+          {
+            "en": "whether she ever learnt to ring the bells",
+            "zh": "她是否曾學會敲鐘",
+            "exampleIndex": 1,
+            "span": {
+              "start": 189,
+              "end": 230
+            }
+          }
+        ],
+        "selfCheckZh": "交付聲音展覽圖說，先把it連到鐘聲，再交代童年在場的回憶，不補寫敲鐘技能或每次留意的頻率。"
+      },
+      "takeaways": [
+        {
+          "en": "The new volunteer was surrounded by the technology from the very beginning of the project, but learned to operate the equipment a week later.",
+          "zh": "新義工從項目一開始便置身這些科技周圍，但一週後才學會操作設備。"
+        },
+        {
+          "en": "She remembered the music in the family shop and said she had been surrounded by it from the very beginning of her childhood.",
+          "zh": "她記得家中店舖的音樂，說自己從童年一開始便置身其中。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Source guide idiom label corrected to natural descriptive construction; exact sentence and it ambiguity retained as provenance, clear antecedents supplied in original exercises. Early environmental presence is distinct from continuous use or mastery. Final actual sound-exhibit caption shifts to recalled bells and limits of an oral account."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      }
+    },
+    {
+      "id": "advanced-native-1975",
+      "number": 1975,
+      "inventoryId": "expr-1975",
+      "contentRevision": 1,
+      "titleEn": "as natural to them as turning on the TV",
+      "titleZh": "像開電視般熟悉自然",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bas natural to (?:them|us|me|you|her|him) as turning on the TV\\b",
+        "glossaryForbidden": [
+          "\\bas natural to\\b",
+          "\\bturning on the TV\\b"
+        ]
+      },
+      "brief": {
+        "meaningEn": "Compare an activity’s familiar, unremarkable ease for someone with switching on a television.",
+        "meaningZh": "把某項活動對某人的熟悉、順手程度，比作開電視這種日常動作。",
+        "grammar": "as natural to someone as turning on the TV; be/feel/seem. Specify the activity and whose familiarity is described. Natural in the comparison does not mean biologically inborn or never learnt.",
+        "register": "A productive everyday-action simile, not a fixed whole sentence or a claim about all children. Familiarity can be learnt, and ease with one action need not cover more complex related tasks.",
+        "boundaryZh": "熟悉不等於從未學習，也不等於能應付任何相關難題；比較須指明是哪個動作及哪個人。",
+        "misconceptionZh": "不要把順手推成零失誤，或把開電視這個比較對象當成真正的電視課題。",
+        "outcomeZh": "能描述具體、已形成的熟悉感，同時保留較複雜操作的範圍。"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p248-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 248,
+          "book": 9,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "35–39",
+          "expression": "as natural to them as turning on the TV",
+          "sentence": "For many children, using a tablet is as natural to them as turning on the TV.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page248, table2, row4; unknown locators remain null."
+        }
+      ],
+      "listening": {
+        "en": "The Chen family have practised choosing a saved song on their tablet. It is now as natural to them as turning on the TV, though they still ask for help when a download fails.",
+        "zh": "陳家人一起練過在平板選已儲存歌曲的程序。現在，這對他們像開電視般熟悉自然，但下載失敗時，他們仍會求助。",
+        "promptEn": "",
+        "promptZh": "這個比較描述哪個範圍？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A practised song-selection routine, not every problem involving the tablet.",
+            "zh": "已練習過的選歌程序，不是平板涉及的每個問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A repair procedure that they can already perform without help.",
+            "zh": "他們已能不用幫忙自行完成的修復程序。"
+          },
+          {
+            "id": "choice-3",
+            "en": "An action they have never needed to learn or practise.",
+            "zh": "他們從未需要學習或練習的動作。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Selecting a different unfamiliar playlist each day rather than practising a saved-song routine.",
+            "zh": "每天選不同而陌生的播放清單，而不是練習選已儲存歌曲的程序。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "比喻把已練習的選歌程序寫成熟悉順手；文中另說下載修復不熟悉，沒有說他們從未練過或每天都換陌生清單。"
+      },
+      "reply": {
+        "promptEn": "How familiar are they with the tablet routine?",
+        "promptZh": "他們對平板的這個程序有多熟悉？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Choosing the saved song is as natural to them as turning on the TV, though repairing a failed download still needs help.",
+            "zh": "選已儲存的歌，對他們像開電視般熟悉自然，但修復下載失敗仍要幫忙。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They have practised selecting a song until it feels ordinary and easy.",
+            "zh": "他們把選歌練到覺得平常而順手。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The familiar selection task is separate from the download problem they cannot yet fix alone.",
+            "zh": "熟悉的選歌任務，與他們還未能獨自修復的下載問題不同。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They know this routine well, while asking for support with a more difficult related task.",
+            "zh": "他們很熟悉這個程序，遇上較難的相關任務仍會求助。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代熟悉的是選歌，沒有把某一程序的順手寫成整部裝置的全面專業能力。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一位女學員順利按完新程序的按鍵，但她說剛才是照着提示做，每一步仍要刻意思考。旁觀者只看見一次流暢操作，就說這程序對她已像開電視般自然。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "One smooth attempt does not establish that the routine is as natural to her as turning on the TV, especially when she describes thinking through each step.",
+            "zh": "一次流暢操作，不足以確定這個程序對她已像開電視般熟悉自然，尤其是她說每一步仍須刻意思考。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her account describes completing the sequence without referring to any prompts or thinking about the steps.",
+            "zh": "她的敘述表示，整段程序不用參考提示，也不用思考步驟。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The observer can determine how familiar the routine feels to her from that one successful attempt alone.",
+            "zh": "旁觀者單憑這次成功操作，就能判定這個程序對她有多熟悉。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "觀察到操作成功，與當事人已覺得熟悉自然不同；這裏她還明說依靠提示並逐步思考，不能只按外表推斷熟悉感。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由這個as natural比較確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某個動作對所指的人已很熟悉順手。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "那個人從未學過或練過這個動作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要知道比喻指的是哪一個活動。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "natural在這裏描述熟悉程度，不是提供能力從未經學習的證據。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然選歌很順手，下載失敗也一定能自己修吧？」你想保留任務範圍。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Song selection is as natural to them as turning on the TV, but that does not establish that they can repair a failed download.",
+            "zh": "選歌對他們像開電視般熟悉自然，但這不能確定他們能修復下載失敗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed practising the selection screen also meant they had practised the repair controls.",
+            "zh": "我以為練過選歌畫面，就表示也練過修復控制功能。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would describe the selection routine as unfamiliar simply because the repair step still needs help.",
+            "zh": "我會只因修復步驟仍需幫忙，就把選歌程序也說成不熟悉。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "兩種操作要分開看；不能由簡單程序的熟悉推論修復能力，也不能反過來否定已知熟悉感。"
+      },
+      "speaking": {
+        "en": "Using the booking shortcut is as natural to her as turning on the TV after months of practice, though she still checks the guide for unusual changes.",
+        "zh": "練習幾個月後，使用預約捷徑對她像開電視般熟悉自然，但遇到不尋常的更改，她仍會查指南。",
+        "promptZh": "先聽，再指出熟悉的是哪個動作，以及學習後形成的順手程度。",
+        "targetSpan": {
+          "start": 30,
+          "end": 68
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你替社區故事集寫人物介紹。何伯退休後才學拍照，現在每天開手機相機拍同一棵樹，已經很順手；他特別說，是孫女耐心陪他練出來的。用一至兩句英文寫可刊出的介紹，呈現日常熟悉感，也保留他想感謝的學習過程，不把它寫成天生的能力。",
+        "examples": [
+          {
+            "en": "Opening the phone camera for his daily photograph of the tree is as natural to him as turning on the TV now. Mr Ho credits his granddaughter’s patient practice sessions, which began after his retirement.",
+            "zh": "現在，為每天的樹照打開手機相機，對何伯像開電視般熟悉自然。他把這份熟悉歸功於退休後，孫女耐心陪他一次次練習。"
+          },
+          {
+            "en": "Taking his usual tree photograph has become as natural to him as turning on the TV, Mr Ho says. He wants the story to remember the granddaughter who helped him learn, not to make the skill seem something he had always possessed.",
+            "zh": "何伯說，拍日常那張樹照，已變得像開電視般熟悉自然。他想讓故事記得幫他學會的孫女，不把這項技能寫成他一直本來就有。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "his daily photograph of the tree",
+            "zh": "他每天拍的樹照",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 61
+            }
+          },
+          {
+            "en": "patient practice sessions",
+            "zh": "耐心的練習過程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 168
+            }
+          },
+          {
+            "en": "after his retirement",
+            "zh": "他退休之後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 182,
+              "end": 202
+            }
+          },
+          {
+            "en": "his usual tree photograph",
+            "zh": "他日常那張樹照",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 32
+            }
+          },
+          {
+            "en": "the granddaughter who helped him learn",
+            "zh": "幫他學會的孫女",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 165
+            }
+          }
+        ],
+        "selfCheckZh": "寫可用人物介紹，以固定的樹照呈現熟悉感，保留退休後學習及孫女協助的歸功，不推成天生或全方位拍攝專業。"
+      },
+      "takeaways": [
+        {
+          "en": "After weeks of practice, using the new sign-in screen was as natural to her as turning on the TV.",
+          "zh": "練習幾週後，使用新的登入畫面，對她已像開電視般熟悉自然。"
+        },
+        {
+          "en": "Selecting their saved music is as natural to them as turning on the TV, but they still ask for help with the unfamiliar repair menu.",
+          "zh": "選已儲存的音樂，對他們像開電視般熟悉自然，但遇到陌生修復選單，他們仍會求助。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author author_0011_0025",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Exact tablet/TV source retained, productive familiar-action simile not innate ability or age ranking. Main bounded saved-song routine versus repair; final actual biographical introduction credits a grandfather’s learned daily practice and granddaughter support."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author author_0011_0025",
+          "evidence": "Every learner-facing Traditional Chinese field individually checked as complete natural prose against English subjects, tense, negation, degree and modality; independent review remains pending."
+        },
+        "note": "Original individual author draft; separate independent editorial/media/browser/publication checks remain pending."
+      }
+    }
+  ]
+}

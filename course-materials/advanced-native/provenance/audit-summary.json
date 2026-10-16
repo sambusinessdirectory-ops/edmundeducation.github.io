@@ -1,0 +1,52 @@
+{
+  "snapshot": {
+    "sourceLabelsSha256": "7aa2b3ceb03ae68f0d20caa19ba8b0163501383e18f5b60a29b95ae9e7bda3aa",
+    "sourceOccurrencesSha256": "8f0a083d9d0ef9b96d60919e2f390e094d37ef077f9c8aea7fe912869ed9b07c",
+    "canonicalRecordsSha256": "a412a58bc6aae4d99feb04c09ef02ddda8f091596c52fae87726c4b7248abdb4",
+    "resolvedAssignmentSha256": "0a434fcc085e7ff5d6d8bd90a8febdcddaf87f1f3cb33fd4dc81250998730cd2",
+    "aliasMapSha256": "57c6fa876d8491bdadfa01628fa04ffe88478cb5a29a9ad3382faa69bf0de33e",
+    "senseSplitSha256": "3d6db522ed5528e6536e79edd45b363c1f71a1329580ac129bd7fb0c25f30544"
+  },
+  "sourceReconciliation": {
+    "sourceLabels": 2110,
+    "sourceOccurrences": 3185,
+    "activeDrafts": 1883,
+    "mappedAliases": 218,
+    "splitOccurrences": 2,
+    "existingBaselineOccurrences": 30,
+    "attachedDraftOccurrences": 3155,
+    "pendingOccurrences": 0,
+    "errors": 0,
+    "warnings": 0,
+    "complete": true
+  },
+  "sourceOriginality": {
+    "lessons": 1883,
+    "teachingTextsChecked": 11298,
+    "flags": [],
+    "method": "Exact whole-text equality after punctuation/apostrophe/case normalisation; source sentences of at least five words.",
+    "limitations": "Does not detect every copied subsection or prove original wording, contextual diversity, rights clearance or semantic quality."
+  },
+  "nearDuplicates": {
+    "lessons": 1883,
+    "threshold": 0.62,
+    "flags": [],
+    "method": "Rare English four-word and Chinese three-character shingles; Sorensen-Dice similarity; generic task instructions excluded.",
+    "limitations": "Lexical screening only. No flag is not semantic approval; each lesson has separate editorial review."
+  },
+  "sensitivityComparison": {
+    "threshold": 0.45,
+    "flags": [
+      {
+        "field": "dialogue",
+        "lessonA": "advanced-native-226",
+        "lessonB": "advanced-native-228",
+        "score": 0.4615,
+        "decision": "retain-distinct-grammar-tasks",
+        "rationale": "The prompts share an editing-question scaffold. The far-beyond lesson asks for an omitted comparison boundary; the bring-it-back lesson asks for a recoverable pronoun referent in a restoration context. The required complements and evidence differ. This is a targeted comparison, not certification of all unflagged pairs."
+      }
+    ],
+    "scope": "Actual flagged prompts, options, explanations, meanings and source contexts individually compared."
+  },
+  "approvalScope": "Provenance reconciliation and lexical-screening proposal only. No human approval, audio-hearing approval, browser approval, deployment or database state is certified."
+}

@@ -1,0 +1,4235 @@
+[
+  {
+    "id": "advanced-native-011",
+    "number": 11,
+    "inventoryId": "expr-0011",
+    "titleEn": "do more harm than good",
+    "titleZh": "弊多於利",
+    "category": "idiom",
+    "target": {
+      "pattern": "\\b(?:do|does|did|doing|done) more harm than good\\b",
+      "glossaryForbidden": [
+        "\\bharm\\b",
+        "\\bgood\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Have more harmful effects than beneficial ones overall.",
+      "meaningZh": "整體而言，帶來的壞處比好處更多。",
+      "grammar": "do more harm than good; inflect do for tense and agreement; often with may/can.",
+      "register": "Neutral spoken and written English; useful for evaluating a well-intended action.",
+      "boundaryZh": "比較整體壞處與好處；不是指完全沒有好處，也不一定涉及身體傷害。",
+      "misconceptionZh": "出於好意不代表結果一定有幫助；也不能只因一個小缺點便斷定弊多於利。",
+      "outcomeZh": "能解釋為何某種幫忙方法反而造成更大問題。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 2,
+        "expression": "do more harm than good",
+        "sentence": "That said, I also think the challenge needs to be manageable, because too much pressure can do more harm than good.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 2, table 2, row 2; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p002-t2-r02"
+      }
+    ],
+    "listening": {
+      "en": "Giving Ella every answer did more harm than good because she stopped trying problems herself.",
+      "zh": "把所有答案都告訴 Ella，結果弊多於利，因為她不再自己嘗試解題。",
+      "promptZh": "說話者怎樣評價這種幫忙方法？",
+      "options": [
+        {
+          "id": "a",
+          "en": "It made Ella less independent overall.",
+          "zh": "整體而言，這令 Ella 更欠缺獨立解題能力。"
+        },
+        {
+          "id": "b",
+          "en": "It caused Ella a physical injury.",
+          "zh": "這令 Ella 身體受傷。"
+        },
+        {
+          "id": "c",
+          "en": "It helped Ella learn without any drawbacks.",
+          "zh": "這幫助 Ella 學習，而且沒有任何壞處。"
+        },
+        {
+          "id": "d",
+          "en": "It was harmful only because the answers were incorrect.",
+          "zh": "這種做法有害，唯一原因是答案不正確。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "線索是她不再自行嘗試。這裏比較整體影響，沒有說答案錯誤或身體受傷。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼你不直接替他改完整份功課？",
+      "promptEn": "Why not just correct all his homework for him?",
+      "options": [
+        {
+          "id": "a",
+          "en": "He needs a chance to spot his own mistakes.",
+          "zh": "他需要有機會自己找出錯誤。"
+        },
+        {
+          "id": "b",
+          "en": "Doing everything for him could do more harm than good.",
+          "zh": "替他包辦一切可能會弊多於利。"
+        },
+        {
+          "id": "c",
+          "en": "I want to help him learn to work independently.",
+          "zh": "我想幫他學會獨立完成工作。"
+        },
+        {
+          "id": "d",
+          "en": "He might rely on me instead of learning the skill.",
+          "zh": "他可能會依賴我，而不是學會這項技巧。"
+        }
+      ],
+      "explanationZh": "四個回應都能解釋不包辦功課的理由；金句指出這樣幫忙可能整體弊多於利。",
+      "goldenId": "b"
+    },
+    "scene": {
+      "promptZh": "同學擔心朋友考試，把朋友每晚的休息時間也排滿練習。朋友反而更累，成績下降。哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The extra practice may do more harm than good.",
+          "zh": "額外練習可能會弊多於利。"
+        },
+        {
+          "id": "b",
+          "en": "The practice has only brought benefits.",
+          "zh": "練習只有帶來好處。"
+        },
+        {
+          "id": "c",
+          "en": "The plan cannot affect her performance.",
+          "zh": "這個計劃不可能影響她的表現。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "練習原本為了幫忙，卻令她過度疲勞、成績下降，支持整體負面評價。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不宜用 do more harm than good 來評價結果？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A shortcut saves five minutes but regularly loses important files.",
+          "zh": "一個捷徑能省五分鐘，卻經常令重要檔案遺失。"
+        },
+        {
+          "id": "b",
+          "en": "A quiet study group helps everyone understand the work and causes no problems.",
+          "zh": "一個安靜的溫習小組讓大家理解功課，而且沒有造成問題。"
+        },
+        {
+          "id": "c",
+          "en": "Repeated reminders make a nervous speaker panic and forget her notes.",
+          "zh": "反覆提醒令緊張的演講者慌亂，忘掉筆記內容。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "第二個情況只有明確好處，沒有壞處大於好處的證據。"
+    },
+    "dialogue": {
+      "promptZh": "同學說：「我想在群組公開指出他的每一個錯誤，這樣他才會進步。」哪個回應最合宜？",
+      "options": [
+        {
+          "id": "a",
+          "en": "That could do more harm than good. Could you speak to him privately instead?",
+          "zh": "這樣可能會弊多於利。你可以改為私下跟他談嗎？"
+        },
+        {
+          "id": "b",
+          "en": "Correcting every mistake publicly is the best way to help him improve.",
+          "zh": "公開糾正每個錯誤是幫他進步的最佳方法。"
+        },
+        {
+          "id": "c",
+          "en": "I would wait until the group has finished the project before raising any of the problems.",
+          "zh": "我會等小組完成專題後，才提出任何問題。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "先提醒做法可能有反效果，再提出私下溝通；比公開逐一批評或拖至完成後才提出，更能及時幫助對方。"
+    },
+    "speaking": {
+      "en": "Checking my messages all night did more harm than good before the exam.",
+      "zh": "考試前整晚查看訊息，結果對我弊多於利。",
+      "promptZh": "先聽示範，再說明考試前整晚查看訊息的整體影響。",
+      "targetSpan": {
+        "start": 31,
+        "end": 54
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：朋友想幫妹妹準備演出，卻不斷在她練習時打斷她，令她更緊張。用一至兩句英文評價這種幫忙，並提出下一步。",
+      "selfCheckZh": "指出幫忙的整體負面影響，並提出具體替代方法；may 或 could 表示審慎判斷，不需要照抄示例。",
+      "examples": [
+        {
+          "en": "Constant interruptions may do more harm than good. Let her finish the song first.",
+          "zh": "不斷打斷她可能會弊多於利。先讓她唱完整首歌吧。"
+        },
+        {
+          "en": "Your advice could do more harm than good if it makes her nervous. Try giving feedback after practice.",
+          "zh": "如果你的建議令她緊張，可能會弊多於利。試試在練習後才給意見。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "Constant interruptions",
+          "zh": "不斷的打斷",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 22
+          }
+        },
+        {
+          "en": "finish the song",
+          "zh": "唱完整首歌",
+          "exampleIndex": 0,
+          "span": {
+            "start": 59,
+            "end": 74
+          }
+        },
+        {
+          "en": "makes her nervous",
+          "zh": "令她緊張",
+          "exampleIndex": 1,
+          "span": {
+            "start": 47,
+            "end": 64
+          }
+        },
+        {
+          "en": "giving feedback",
+          "zh": "給予意見",
+          "exampleIndex": 1,
+          "span": {
+            "start": 70,
+            "end": 85
+          }
+        },
+        {
+          "en": "after practice",
+          "zh": "練習後",
+          "exampleIndex": 1,
+          "span": {
+            "start": 86,
+            "end": 100
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "Too much advice can do more harm than good.",
+        "zh": "太多建議可能會弊多於利。"
+      },
+      {
+        "en": "Doing the whole task for her may do more harm than good.",
+        "zh": "替她完成整個任務可能會弊多於利。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-012",
+    "number": 12,
+    "inventoryId": "expr-0012",
+    "titleEn": "being stretched and being crushed",
+    "titleZh": "挑戰成長與不堪重負",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\b[Bb]eing stretched and being crushed\\b",
+      "glossaryForbidden": [
+        "\\bstretch(?:ed|ing)?\\b",
+        "\\bcrush(?:ed|ing)?\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "A metaphorical contrast between being challenged constructively and being overwhelmed.",
+      "meaningZh": "比喻適量挑戰帶來成長，與過大壓力令人不堪重負的分別。",
+      "grammar": "Parallel -ing forms being stretched and being crushed can follow between; an explanatory contrast, not a fixed idiom.",
+      "register": "Reflective discussion about learning or workload; explain the metaphor through context.",
+      "boundaryZh": "stretched 在此是能力受到挑戰，crushed 是壓力令人難以承受；不是身體被拉長或壓扁。",
+      "misconceptionZh": "不舒服不一定等於受到傷害；要看任務是否可應付、有支援和恢復時間。",
+      "outcomeZh": "能分辨有助成長的挑戰與令人承受不了的壓力。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 2,
+        "expression": "being stretched and being crushed",
+        "sentence": "There is a big difference between being stretched and being crushed.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 2, table 2, row 3; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p002-t2-r03"
+      }
+    ],
+    "listening": {
+      "en": "There is a difference between being stretched and being crushed: this project is difficult, but we have time and support.",
+      "zh": "受到挑戰與不堪重負是有分別的：這個專題很難，但我們有時間和支援。",
+      "promptZh": "說話者怎樣看待目前的專題？",
+      "options": [
+        {
+          "id": "a",
+          "en": "It is demanding but manageable with support.",
+          "zh": "它要求較高，但有支援便能應付。"
+        },
+        {
+          "id": "b",
+          "en": "It has already become too much for the students to manage.",
+          "zh": "它已經超出學生能應付的程度。"
+        },
+        {
+          "id": "c",
+          "en": "Its difficulty guarantees that everyone will improve.",
+          "zh": "它的難度保證每個人都會進步。"
+        },
+        {
+          "id": "d",
+          "en": "The students have no time or support.",
+          "zh": "學生沒有時間，也沒有支援。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "後半句明確給出時間與支援，說明這是可應付的挑戰，而非把人壓垮。"
+    },
+    "reply": {
+      "promptZh": "同事問：這項新任務很難，我怎樣知道壓力是否過大？",
+      "promptEn": "This new task is hard. How do I know if the pressure is too much?",
+      "options": [
+        {
+          "id": "a",
+          "en": "Check whether you have enough support and time to recover.",
+          "zh": "看看你是否有足夠支援和恢復精神的時間。"
+        },
+        {
+          "id": "b",
+          "en": "Notice whether the challenge helps you learn or stops you functioning.",
+          "zh": "留意挑戰是在幫你學習，還是令你連日常工作也做不到。"
+        },
+        {
+          "id": "c",
+          "en": "There is a difference between being stretched and being crushed; ask for help if you cannot cope.",
+          "zh": "受到挑戰與不堪重負是有分別的；如果你應付不了，便要求助。"
+        },
+        {
+          "id": "d",
+          "en": "Talk to your manager if the workload feels too heavy.",
+          "zh": "如果工作量令你覺得負擔太重，便跟主管談談。"
+        }
+      ],
+      "explanationZh": "四個回應都提供合理判斷或求助方法；金句用平行比喻區分兩種壓力。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "一名學生做難題時需要思考，但老師會提示，她也有足夠休息。另一名學生每天做到深夜，沒有支援，已無法集中。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Only the amount of work matters; support makes no difference.",
+          "zh": "只有工作量重要；支援不會帶來分別。"
+        },
+        {
+          "id": "b",
+          "en": "The contrast illustrates being stretched and being crushed.",
+          "zh": "這個對比說明了受到挑戰與不堪重負的分別。"
+        },
+        {
+          "id": "c",
+          "en": "Both students are simply adjusting to a challenge they can handle.",
+          "zh": "兩名學生都只是在適應一個應付得到的挑戰。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "是否有支援、休息和應付能力，是兩個情況的關鍵分別。"
+    },
+    "contrast": {
+      "promptZh": "哪個理解最不符合 being stretched and being crushed 在這裏的比喻？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A demanding task can help someone develop.",
+          "zh": "要求較高的任務可以幫助一個人成長。"
+        },
+        {
+          "id": "b",
+          "en": "Too much pressure can overwhelm someone.",
+          "zh": "太大壓力可以令人不堪重負。"
+        },
+        {
+          "id": "c",
+          "en": "The phrase means that all pressure is equally harmful.",
+          "zh": "這個表達是指所有壓力都同樣有害。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "這組比喻正是要區分兩種情況，不是把所有壓力一概視為有害。"
+    },
+    "dialogue": {
+      "promptZh": "組員說：「這份工作有點難，但我正在學新技巧。」你想確認他是否應付得到。哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "There is a difference between being stretched and being crushed. Do you have the support you need?",
+          "zh": "受到挑戰與不堪重負是有分別的。你有足夠支援嗎？"
+        },
+        {
+          "id": "b",
+          "en": "If anything is difficult, it must already be crushing you.",
+          "zh": "只要有困難，就一定已經把你壓垮。"
+        },
+        {
+          "id": "c",
+          "en": "Because you are learning, the workload cannot be too much.",
+          "zh": "因為你正在學習，工作量就不可能過多。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "先承認挑戰可以有益，再詢問支援，沒有替對方武斷下結論。"
+    },
+    "speaking": {
+      "en": "Our tutor explained the difference between being stretched and being crushed.",
+      "zh": "我們的導師解釋了受到挑戰與不堪重負的分別。",
+      "promptZh": "先聽示範，再說出導師比較的兩種情況。",
+      "targetSpan": {
+        "start": 43,
+        "end": 76
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你帶領義工設計活動。他們希望學新技巧，但目前每晚都工作至深夜。用一至兩句英文說明你會怎樣判斷及調整安排。",
+      "selfCheckZh": "區分有益挑戰與過大負擔，並提出工作量、培訓或休息上的調整；不要把任何困難都稱為有害。",
+      "examples": [
+        {
+          "en": "We need to recognise the difference between being stretched and being crushed. Let's reduce the late-night work.",
+          "zh": "我們需要認清受到挑戰與不堪重負的分別。減少深夜工作吧。"
+        },
+        {
+          "en": "Being stretched and being crushed are not the same. We should offer training and allow more rest.",
+          "zh": "受到挑戰與不堪重負並不相同。我們應提供培訓，並讓大家有更多休息。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "recognise the difference",
+          "zh": "認清分別",
+          "exampleIndex": 0,
+          "span": {
+            "start": 11,
+            "end": 35
+          }
+        },
+        {
+          "en": "reduce",
+          "zh": "減少",
+          "exampleIndex": 0,
+          "span": {
+            "start": 85,
+            "end": 91
+          }
+        },
+        {
+          "en": "late-night work",
+          "zh": "深夜工作",
+          "exampleIndex": 0,
+          "span": {
+            "start": 96,
+            "end": 111
+          }
+        },
+        {
+          "en": "offer training",
+          "zh": "提供培訓",
+          "exampleIndex": 1,
+          "span": {
+            "start": 62,
+            "end": 76
+          }
+        },
+        {
+          "en": "allow more rest",
+          "zh": "讓大家有更多休息",
+          "exampleIndex": 1,
+          "span": {
+            "start": 81,
+            "end": 96
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "There is a difference between being stretched and being crushed.",
+        "zh": "受到挑戰與不堪重負是有分別的。"
+      },
+      {
+        "en": "Our manager understands the difference between being stretched and being crushed.",
+        "zh": "我們的主管了解受到挑戰與不堪重負的分別。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Contextual contrast of metaphors, not a fixed idiom.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-013",
+    "number": 13,
+    "inventoryId": "expr-0013",
+    "titleEn": "drain their energy",
+    "titleZh": "消耗人的精力",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\bdrain(?:s|ed|ing)? (?:my|your|his|her|its|our|their) energy\\b",
+      "glossaryForbidden": [
+        "\\bdrain(?:s|ed|ing)?\\b",
+        "\\benergy\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Make someone very tired by using up their mental or physical energy.",
+      "meaningZh": "消耗某人的體力或精神，令人疲憊。",
+      "grammar": "drain + possessive adjective + energy; drain is transitive and can change tense.",
+      "register": "Neutral everyday metaphor for tiring work, worry, noise or demands.",
+      "boundaryZh": "通常形容逐漸消耗精力，不是從身體抽出真正的液體，也不表示一定失去興趣。",
+      "misconceptionZh": "事情可以很有意義，同時令人疲累；消耗精力並不等於討厭那件事。",
+      "outcomeZh": "能描述甚麼持續消耗精力，並提出恢復或調整的方法。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 2,
+        "expression": "drain their energy",
+        "sentence": "But if the pressure is constant, overwhelming, or unrealistic, it can drain their energy and damage their mental health.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 2, table 2, row 4; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p002-t2-r04"
+      }
+    ],
+    "listening": {
+      "en": "The constant noise drains my energy, even when I am doing work I enjoy.",
+      "zh": "即使正在做喜歡的工作，持續的噪音也令我精力耗盡。",
+      "promptZh": "說話者主要想表達甚麼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The speaker has lost interest in the job itself.",
+          "zh": "說話者對工作本身失去了興趣。"
+        },
+        {
+          "id": "b",
+          "en": "The noise leaves the speaker feeling tired.",
+          "zh": "噪音令說話者感到疲累。"
+        },
+        {
+          "id": "c",
+          "en": "The speaker is mainly worried about making a poor impression.",
+          "zh": "說話者主要擔心給人留下壞印象。"
+        },
+        {
+          "id": "d",
+          "en": "The speaker feels busier but just as refreshed.",
+          "zh": "說話者覺得更忙，但精神仍然一樣充沛。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "even when 說明喜歡工作與感到疲累可以同時存在；重點是噪音消耗精力。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼你每天開完那幾個會議都那麼累？",
+      "promptEn": "Why are you so tired after those meetings every day?",
+      "options": [
+        {
+          "id": "a",
+          "en": "They go on for hours without a break.",
+          "zh": "那些會議持續幾小時，沒有休息。"
+        },
+        {
+          "id": "b",
+          "en": "Following several discussions at once is exhausting.",
+          "zh": "同時跟上幾場討論很累人。"
+        },
+        {
+          "id": "c",
+          "en": "I spend the whole afternoon focusing on the talks.",
+          "zh": "我整個下午都要集中精神聽會議上的討論。"
+        },
+        {
+          "id": "d",
+          "en": "The long meetings drain my energy.",
+          "zh": "漫長的會議消耗了我的精力。"
+        }
+      ],
+      "explanationZh": "四個回應都能解釋疲累；金句概括持續消耗精力的影響。",
+      "goldenId": "d"
+    },
+    "scene": {
+      "promptZh": "你連續幾晚一邊照顧年幼弟弟，一邊完成報告，感到筋疲力盡。哪句最自然？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The late nights are draining my energy.",
+          "zh": "連續熬夜正在消耗我的精力。"
+        },
+        {
+          "id": "b",
+          "en": "I have lost interest in my report and do not want to finish it.",
+          "zh": "我對報告失去興趣，不想完成它。"
+        },
+        {
+          "id": "c",
+          "en": "I am mainly frustrated because my brother ignores my advice.",
+          "zh": "我主要因為弟弟不理會我的建議而感到挫敗。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "連續熬夜造成精力消耗，情境沒有說你對報告失去興趣，也沒有說弟弟不理會建議。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不像 drain their energy？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Volunteers feel worn out after answering calls for six hours.",
+          "zh": "義工連續接聽電話六小時後感到疲憊。"
+        },
+        {
+          "id": "b",
+          "en": "Repeated arguments leave the team mentally exhausted.",
+          "zh": "反覆爭吵令團隊精神疲累。"
+        },
+        {
+          "id": "c",
+          "en": "A short walk leaves the students refreshed and ready to study.",
+          "zh": "短暫散步令學生精神一振，準備好溫習。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "精神一振與精力受到消耗相反。不能只因有活動便使用這個表達。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「我很喜歡這個義工項目，但已經連續十天沒有休息。」哪個回應最體貼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "If you enjoy it, it cannot possibly make you tired.",
+          "zh": "如果你喜歡它，就絕不可能令你疲累。"
+        },
+        {
+          "id": "b",
+          "en": "It may still drain your energy. Could you take a day off?",
+          "zh": "它仍可能消耗你的精力。你可以休息一天嗎？"
+        },
+        {
+          "id": "c",
+          "en": "Feeling tired proves that the project is pointless.",
+          "zh": "感到疲累證明這個項目毫無意義。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "承認有意義的事情也會令人疲累，再提出休息的可能性。"
+    },
+    "speaking": {
+      "en": "Answering messages during every break drained my energy.",
+      "zh": "每次休息都回覆訊息，消耗了我的精力。",
+      "promptZh": "先聽示範，再說明這種休息習慣對精力有甚麼影響。",
+      "targetSpan": {
+        "start": 38,
+        "end": 55
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你的同學連續幾天晚上都在吵鬧的客廳溫習，現在很疲倦。用一至兩句英文描述問題，並提出改善方法。",
+      "selfCheckZh": "描述噪音如何令人疲累，並提出一項可行改變；不用把疲累誤寫成不喜歡學習。",
+      "examples": [
+        {
+          "en": "Studying in a noisy room drains her energy. She could try the library tomorrow.",
+          "zh": "在吵鬧的房間溫習消耗她的精力。她明天可以試試去圖書館。"
+        },
+        {
+          "en": "The constant noise is draining her energy, so she should find a quieter place to study.",
+          "zh": "持續的噪音正在消耗她的精力，所以她應找一個較安靜的地方溫習。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "a noisy room",
+          "zh": "吵鬧的房間",
+          "exampleIndex": 0,
+          "span": {
+            "start": 12,
+            "end": 24
+          }
+        },
+        {
+          "en": "the library",
+          "zh": "圖書館",
+          "exampleIndex": 0,
+          "span": {
+            "start": 58,
+            "end": 69
+          }
+        },
+        {
+          "en": "tomorrow",
+          "zh": "明天",
+          "exampleIndex": 0,
+          "span": {
+            "start": 70,
+            "end": 78
+          }
+        },
+        {
+          "en": "The constant noise",
+          "zh": "持續的噪音",
+          "exampleIndex": 1,
+          "span": {
+            "start": 0,
+            "end": 18
+          }
+        },
+        {
+          "en": "a quieter place",
+          "zh": "較安靜的地方",
+          "exampleIndex": 1,
+          "span": {
+            "start": 62,
+            "end": 77
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "Constant interruptions can drain your energy.",
+        "zh": "不斷受到打擾會消耗你的精力。"
+      },
+      {
+        "en": "A long argument can drain my energy even when the issue matters to me.",
+        "zh": "即使事情對我很重要，長時間爭論仍會消耗我的精力。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-014",
+    "number": 14,
+    "inventoryId": "expr-0014",
+    "titleEn": "like exercise",
+    "titleZh": "像鍛鍊一樣的比喻",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\blike exercise\\b",
+      "glossaryForbidden": [
+        "\\bexercise\\b",
+        "\\blike\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "An explicit comparison with physical training; context supplies the shared quality.",
+      "meaningZh": "把某件事比作體能鍛鍊；相似之處要由上下文說明。",
+      "grammar": "X is (a bit) like exercise: followed by the reason. Exercise is uncountable in this general sense.",
+      "register": "Explanatory simile, not a fixed idiom.",
+      "boundaryZh": "可以比較循序漸進、持續練習或適量休息，但不能把所有運動特點硬套進去。",
+      "misconceptionZh": "明喻不表示被比較的事情真的是體育活動，也不是只限於挑戰的慣用語。",
+      "outcomeZh": "能用清楚的共同點，把抽象的學習過程比作鍛鍊。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "like exercise",
+        "sentence": "To me, challenge is a bit like exercise: the right amount makes you stronger, but too much can leave you injured.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 1, row 2; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t1-r02"
+      }
+    ],
+    "listening": {
+      "en": "Building confidence is like exercise: small, regular efforts matter more than one huge effort.",
+      "zh": "建立自信就像鍛鍊一樣：持續的小努力，比一次極大的努力更重要。",
+      "promptZh": "這個比較強調甚麼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Confidence grows mainly through physical fitness.",
+          "zh": "自信主要透過體能提升而建立。"
+        },
+        {
+          "id": "b",
+          "en": "One enormous effort always replaces regular practice.",
+          "zh": "一次極大的努力總能取代持續練習。"
+        },
+        {
+          "id": "c",
+          "en": "Repeated manageable efforts help confidence grow.",
+          "zh": "持續而可應付的努力有助建立自信。"
+        },
+        {
+          "id": "d",
+          "en": "Taking on the hardest challenge immediately is the fastest route.",
+          "zh": "立即接受最難的挑戰是最快的方法。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "冒號後說明相似點是持續的小努力；比較不等於兩件事在每方面都一樣。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼每天練五分鐘演講，而不是每月才練一次很久？",
+      "promptEn": "Why practise speaking for five minutes every day instead of one long session a month?",
+      "options": [
+        {
+          "id": "a",
+          "en": "It is like exercise: a little regular practice helps me improve.",
+          "zh": "這就像鍛鍊一樣：持續練習一點點，有助我進步。"
+        },
+        {
+          "id": "b",
+          "en": "Short daily sessions are easier for me to maintain.",
+          "zh": "每天短時間練習較容易持續。"
+        },
+        {
+          "id": "c",
+          "en": "I remember the skills better when I use them often.",
+          "zh": "經常運用這些技巧，我會記得更牢。"
+        },
+        {
+          "id": "d",
+          "en": "A steady routine helps me build confidence gradually.",
+          "zh": "穩定的習慣幫我逐漸建立自信。"
+        }
+      ],
+      "explanationZh": "四個回應都說明持續練習的價值；金句用有解釋的明喻作比較。",
+      "goldenId": "a"
+    },
+    "scene": {
+      "promptZh": "老師想解釋學習解難需要由簡入深，不能第一天就做最難任務。哪句比喻最清楚？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Problem-solving is like exercise: start gently and increase the difficulty gradually.",
+          "zh": "解難就像鍛鍊一樣：先從輕量開始，再逐漸增加難度。"
+        },
+        {
+          "id": "b",
+          "en": "Problem-solving is like exercise: you should begin with the hardest task to make faster progress.",
+          "zh": "解難就像鍛鍊一樣：你應從最難的任務開始，以便更快進步。"
+        },
+        {
+          "id": "c",
+          "en": "Problem-solving is like exercise: natural talent matters more than guided practice.",
+          "zh": "解難就像鍛鍊一樣：天分比有指導的練習更重要。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "循序漸進是語境中兩件事的共同點；示範比較的重點是有系統地累積技巧。"
+    },
+    "contrast": {
+      "promptZh": "哪個說法最不符合這種明喻的用法？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Both activities may need regular practice.",
+          "zh": "兩種活動都可能需要持續練習。"
+        },
+        {
+          "id": "b",
+          "en": "Every feature of physical training must also apply to learning.",
+          "zh": "體能鍛鍊的每個特點都必須適用於學習。"
+        },
+        {
+          "id": "c",
+          "en": "The writer should explain the similarity.",
+          "zh": "作者應解釋相似之處。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "明喻選取相關的相似點，不能據此推論所有特點完全相同。"
+    },
+    "dialogue": {
+      "promptZh": "同學說：「我練寫作兩天，為甚麼還未很厲害？」哪句最能鼓勵他並解釋原因？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Writing is like exercise: regular practice builds skill over time.",
+          "zh": "寫作就像鍛鍊一樣：持續練習會隨時間建立能力。"
+        },
+        {
+          "id": "b",
+          "en": "Writing is like exercise: one very long session should replace a regular habit.",
+          "zh": "寫作就像鍛鍊一樣：一次很長的練習應取代固定習慣。"
+        },
+        {
+          "id": "c",
+          "en": "Writing improves as soon as you buy the right equipment.",
+          "zh": "只要買對工具，寫作便會立即進步。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "以長期練習這個共同點作解釋，也避免不切實際的保證。"
+    },
+    "speaking": {
+      "en": "Learning to listen carefully is like exercise: regular practice makes a difference.",
+      "zh": "學習用心聆聽就像鍛鍊一樣：持續練習會帶來改變。",
+      "promptZh": "先聽示範，再用明喻說明用心聆聽需要持續練習。",
+      "targetSpan": {
+        "start": 32,
+        "end": 45
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：朋友只在比賽前一天練習記憶，卻希望立刻進步。用一至兩句英文，以鍛鍊作比較，建議他建立日常練習。",
+      "selfCheckZh": "說明明確共同點，例如持續、循序漸進；不要只有比較而沒有解釋。",
+      "examples": [
+        {
+          "en": "Training your memory is like exercise: short daily sessions help you improve gradually.",
+          "zh": "訓練記憶就像鍛鍊一樣：每天短時間練習，有助你逐漸進步。"
+        },
+        {
+          "en": "Memory training is like exercise. Try a little practice every day rather than one long session.",
+          "zh": "記憶訓練就像鍛鍊一樣。試試每天練一點，而不是只作一次長時間練習。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "Training your memory",
+          "zh": "訓練你的記憶",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 20
+          }
+        },
+        {
+          "en": "short daily sessions",
+          "zh": "每天短時間練習",
+          "exampleIndex": 0,
+          "span": {
+            "start": 39,
+            "end": 59
+          }
+        },
+        {
+          "en": "improve gradually",
+          "zh": "逐漸進步",
+          "exampleIndex": 0,
+          "span": {
+            "start": 69,
+            "end": 86
+          }
+        },
+        {
+          "en": "every day",
+          "zh": "每天",
+          "exampleIndex": 1,
+          "span": {
+            "start": 56,
+            "end": 65
+          }
+        },
+        {
+          "en": "one long session",
+          "zh": "一次長時間練習",
+          "exampleIndex": 1,
+          "span": {
+            "start": 78,
+            "end": 94
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "Learning a skill can be like exercise: regular practice helps.",
+        "zh": "學習技巧可以像鍛鍊一樣：持續練習會有幫助。"
+      },
+      {
+        "en": "Improving your memory is like exercise: small, regular sessions can help.",
+        "zh": "改善記憶就像鍛鍊一樣：持續作短時間練習會有幫助。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Source labels Natural English but explicitly identifies a simile. Editorial category figurative preserves that explicit simile distinction; not a fixed idiom.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-015",
+    "number": 15,
+    "inventoryId": "expr-0015",
+    "titleEn": "leave you injured",
+    "titleZh": "造成傷害的結果句式",
+    "category": "natural",
+    "target": {
+      "pattern": "\\b(?:leave|leaves|leaving|left) (?:me|you|him|her|us|them) injured\\b",
+      "glossaryForbidden": [
+        "\\binjured\\b",
+        "\\b(?:leave|leaves|leaving|left)\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Cause someone to be injured as a result; physical injury in exercise, with a possible metaphorical extension to serious harm in other contexts.",
+      "meaningZh": "造成某人受傷的結果；運動中通常指身體傷害，在明確比喻中也可延伸為嚴重傷害。",
+      "grammar": "leave + object + injured; past tense left. The adjective describes the resulting state, not a location.",
+      "register": "Natural literal resultative construction. Figurative use requires a clear comparison; hurt is often plainer for emotional effects.",
+      "boundaryZh": "原文用運動可能受傷，比喻過量挑戰的傷害。教學先確立自然的字面句式，再解釋比喻；一般疲累不等於受傷。",
+      "misconceptionZh": "leave 不是離開，也不代表故意傷人；injured 與 tired 的程度和意思不同。",
+      "outcomeZh": "能理解造成傷害的結果句式，並區分身體受傷、一般疲累與上下文支持的比喻。",
+      "sourceClassificationNote": "Source classified the exercise/challenge analogy as figurative. The dominant taught construction leave + object + injured is a natural literal resultative; an explicit just-as comparison preserves and explains the original figurative extension."
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "leave you injured",
+        "sentence": "To me, challenge is a bit like exercise: the right amount makes you stronger, but too much can leave you injured.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 1, row 3; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t1-r03"
+      }
+    ],
+    "listening": {
+      "en": "A demanding training plan can leave you injured rather than simply tired if it pushes you beyond your limits.",
+      "zh": "如果高要求的訓練計劃把你推至極限之外，可能令你受傷，而不只是疲累。",
+      "promptZh": "說話者如何區分受傷與一般疲累？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The plan could cause harm beyond ordinary tiredness.",
+          "zh": "計劃可能造成超出一般疲累程度的傷害。"
+        },
+        {
+          "id": "b",
+          "en": "Feeling tired always proves that an injury has occurred.",
+          "zh": "感到疲累永遠證明已經受傷。"
+        },
+        {
+          "id": "c",
+          "en": "The plan is described as completely safe for everyone.",
+          "zh": "計劃被形容為對每個人都完全安全。"
+        },
+        {
+          "id": "d",
+          "en": "The person has already decided to leave the team.",
+          "zh": "那個人已決定離開團隊。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "rather than simply tired 區分兩種結果；can 表示可能，沒有斷言已經發生傷勢。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼你想調整這個要求過高的訓練計劃？",
+      "promptEn": "Why do you want to change this overly demanding training plan?",
+      "options": [
+        {
+          "id": "a",
+          "en": "It gives beginners no time to recover.",
+          "zh": "它沒有給初學者恢復的時間。"
+        },
+        {
+          "id": "b",
+          "en": "I am concerned that the workload is beyond their limits.",
+          "zh": "我擔心訓練量超出他們能承受的程度。"
+        },
+        {
+          "id": "c",
+          "en": "It could leave you injured instead of helping you improve.",
+          "zh": "它可能令你受傷，而不是幫助你進步。"
+        },
+        {
+          "id": "d",
+          "en": "We need a safer plan that beginners can manage.",
+          "zh": "我們需要一個初學者應付得到、較安全的計劃。"
+        }
+      ],
+      "explanationZh": "四個回應都解釋調整計劃的合理理由；金句表達可能造成受傷的結果，不是離開地方。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "文章已把過量工作比作過度運動。哪句最清楚延續這個比喻，同時避免把普通疲累說成真的受傷？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Just as excessive training can leave you injured, an impossible workload can cause lasting harm.",
+          "zh": "正如過度訓練可能令你受傷，不可能完成的工作量也可能造成持續傷害。"
+        },
+        {
+          "id": "b",
+          "en": "Being tired after any task proves that you have been injured.",
+          "zh": "做完任何任務後疲累，就證明你已受傷。"
+        },
+        {
+          "id": "c",
+          "en": "Every challenge causes exactly the same harm as a physical accident.",
+          "zh": "每個挑戰都會造成跟身體意外完全相同的傷害。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "just as 明示比較，can 表示可能；這樣描述共同的受傷風險，沒有把疲累當成傷勢。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不宜用 leave you injured 來形容？",
+      "options": [
+        {
+          "id": "a",
+          "en": "An accident during a match causes a physical injury.",
+          "zh": "比賽中的意外造成身體受傷。"
+        },
+        {
+          "id": "b",
+          "en": "A writer explicitly compares lasting emotional harm with a wound.",
+          "zh": "作者明確把持續的情緒傷害比作傷口。"
+        },
+        {
+          "id": "c",
+          "en": "A short rehearsal makes you slightly tired, with no harm or injury described.",
+          "zh": "短暫排練令你稍微疲累，沒有描述傷害或傷勢。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "一般疲累不等於受傷。比喻義需要清楚語境，不能把 injured 當作 tired 的普通替換字。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「練習後有點累，就是 injured 嗎？」哪個回應最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Not necessarily. A task can make you tired without leaving you injured.",
+          "zh": "不一定。任務可以令你疲累，但沒有令你受傷。"
+        },
+        {
+          "id": "b",
+          "en": "Yes. Injured and tired mean exactly the same thing.",
+          "zh": "對。injured 和 tired 意思完全相同。"
+        },
+        {
+          "id": "c",
+          "en": "Injured means that you decided to leave the place.",
+          "zh": "injured 表示你決定離開那個地方。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "清楚區分疲累與受傷；leave + object + injured 表達結果，不是地點。"
+    },
+    "speaking": {
+      "en": "An unrealistic training plan could leave you injured rather than help you improve.",
+      "zh": "不切實際的訓練計劃可能令你受傷，而不是幫助你進步。",
+      "promptZh": "先聽示範，再說明不切實際訓練計劃可能造成的結果。",
+      "targetSpan": {
+        "start": 35,
+        "end": 52
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：舞蹈小組安排新手每天作遠超能力的訓練，而且沒有休息時間。你想提醒組長：這不只是令人疲累。用一至兩句英文指出可能的傷害，並建議調整計劃。",
+      "examples": [
+        {
+          "en": "This excessive training could leave you injured, not just tired. We need a safer plan.",
+          "zh": "這種過量訓練可能令你受傷，不只是疲累。我們需要一個較安全的計劃。"
+        },
+        {
+          "en": "Pushing beginners beyond their limits may leave them injured. The group should review the plan with a qualified instructor.",
+          "zh": "把初學者推至極限之外可能令他們受傷。小組應與合資格導師一起檢視計劃。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "excessive training",
+          "zh": "過量訓練",
+          "exampleIndex": 0,
+          "span": {
+            "start": 5,
+            "end": 23
+          }
+        },
+        {
+          "en": "not just tired",
+          "zh": "不只是疲累",
+          "exampleIndex": 0,
+          "span": {
+            "start": 49,
+            "end": 63
+          }
+        },
+        {
+          "en": "a safer plan",
+          "zh": "一個較安全的計劃",
+          "exampleIndex": 0,
+          "span": {
+            "start": 73,
+            "end": 85
+          }
+        },
+        {
+          "en": "beginners",
+          "zh": "初學者",
+          "exampleIndex": 1,
+          "span": {
+            "start": 8,
+            "end": 17
+          }
+        },
+        {
+          "en": "a qualified instructor",
+          "zh": "合資格導師",
+          "exampleIndex": 1,
+          "span": {
+            "start": 100,
+            "end": 122
+          }
+        }
+      ],
+      "selfCheckZh": "表達可能造成的傷害，區分 injured 與 tired；提出檢視或調整安排，不要聲稱已經發生未經確認的傷勢。"
+    },
+    "takeaways": [
+      {
+        "en": "Excessive training can leave you injured rather than simply tired.",
+        "zh": "過量訓練可能令你受傷，而不只是疲累。"
+      },
+      {
+        "en": "An excessive workload is like training that can leave you injured: the challenge can become harmful.",
+        "zh": "過量工作就像可能令你受傷的訓練：挑戰可以變成傷害。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "The source links literal injury in exercise to harm from excessive challenge. Natural literal models anchor the construction; explicit just as comparison teaches its figurative extension without forced injured emotionally collocations. This is language teaching, not diagnosis or an individual training prescription.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-016",
+    "number": 16,
+    "inventoryId": "expr-0016",
+    "titleEn": "raise their game",
+    "titleZh": "提升表現",
+    "category": "idiom",
+    "target": {
+      "pattern": "\\b(?:raise|raises|raised|raising) (?:my|your|his|her|our|their) game\\b",
+      "glossaryForbidden": [
+        "\\b(?:raise|raises|raised|raising)\\b",
+        "\\bgame\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Improve the standard of your performance.",
+      "meaningZh": "把自己的表現提升至更高水平。",
+      "grammar": "raise + possessive adjective + game; raise changes tense, game remains singular.",
+      "register": "Informal to neutral; from sport, also used in study, work and performance.",
+      "boundaryZh": "重點是提高表現，不只是參加更多比賽，也不是單純抬高遊戲物件。",
+      "misconceptionZh": "可以用於運動以外的情境；但單是努力而沒有提高標準，不一定已經 raised your game。",
+      "outcomeZh": "能描述面對更高要求時提升技巧或表現。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "raise their game",
+        "sentence": "For instance, giving a student a demanding but realistic project can help them raise their game.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 1, row 4; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t1-r04"
+      },
+      {
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 97,
+        "expression": "raise their game",
+        "sentence": "The players must raise their game before the final.",
+        "referenceSentenceKind": "guide_original_example",
+        "book": 4,
+        "question": 17,
+        "sample": "S2",
+        "locatorNote": "PDF page 97, table 2, row 10; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-2-p097-t2-r10"
+      },
+      {
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 117,
+        "expression": "raise their game",
+        "sentence": "The players must raise their game before the final.",
+        "referenceSentenceKind": "guide_original_example",
+        "book": 5,
+        "question": 20,
+        "sample": "S2",
+        "locatorNote": "PDF page 117, table 1, row 5; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-2-p117-t1-r05"
+      },
+      {
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 118,
+        "expression": "raise their game",
+        "sentence": "The players must raise their game before the final.",
+        "referenceSentenceKind": "guide_original_example",
+        "book": 5,
+        "question": 22,
+        "sample": "S1",
+        "locatorNote": "PDF page 118, table 2, row 6; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-2-p118-t2-r06"
+      },
+      {
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 119,
+        "expression": "raise their game",
+        "sentence": "The players must raise their game before the final.",
+        "referenceSentenceKind": "guide_original_example",
+        "book": 5,
+        "question": 23,
+        "sample": "S1",
+        "locatorNote": "PDF page 119, table 2, row 2; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-2-p119-t2-r02"
+      },
+      {
+        "occurrenceId": "pdf-1-p010-t2-r09",
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 10,
+        "book": 1,
+        "question": 5,
+        "sample": "S2",
+        "locatorNote": "",
+        "sentence": "Constructive feedback raises their game before the final performance.",
+        "expression": "raises their game",
+        "referenceSentenceKind": "guide_original_example",
+        "sourceCategory": "Idiom or set phrase"
+      },
+      {
+        "occurrenceId": "pdf-2-p118-t2-r05",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 118,
+        "book": 5,
+        "question": 22,
+        "sample": "S1",
+        "locatorNote": "",
+        "sentence": "Constructive feedback raises their game before the final performance.",
+        "expression": "raises their game",
+        "referenceSentenceKind": "guide_original_example",
+        "sourceCategory": "Idiom or set phrase"
+      }
+    ],
+    "listening": {
+      "en": "After the first concert, the choir raised their game by practising their timing together.",
+      "zh": "第一次音樂會後，合唱團一起練習節奏配合，提升了表現。",
+      "promptZh": "合唱團有甚麼改變？",
+      "options": [
+        {
+          "id": "a",
+          "en": "They improved the quality of their singing together.",
+          "zh": "他們提高了一起演唱的表現。"
+        },
+        {
+          "id": "b",
+          "en": "They added more concerts without improving their performance.",
+          "zh": "他們增加了音樂會場次，卻沒有改善表現。"
+        },
+        {
+          "id": "c",
+          "en": "They stopped practising after the concert.",
+          "zh": "他們在音樂會後停止練習。"
+        },
+        {
+          "id": "d",
+          "en": "They entered more contests without changing their singing.",
+          "zh": "他們參加更多比賽，但演唱沒有改變。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "練習配合節奏是具體改善方法；game 比喻表現水平。"
+    },
+    "reply": {
+      "promptZh": "朋友問：你們的餐廳怎樣準備迎接更高要求的客人？",
+      "promptEn": "How is your restaurant preparing for more demanding guests?",
+      "options": [
+        {
+          "id": "a",
+          "en": "We are training staff to respond more quickly.",
+          "zh": "我們正在培訓員工加快回應。"
+        },
+        {
+          "id": "b",
+          "en": "We have checked the menu and improved the service.",
+          "zh": "我們檢查了菜單，也改善了服務。"
+        },
+        {
+          "id": "c",
+          "en": "We need to raise our game and make every visit better.",
+          "zh": "我們需要提升表現，令每次到訪的體驗更好。"
+        },
+        {
+          "id": "d",
+          "en": "We are working on the details that guests notice.",
+          "zh": "我們正在改善客人會留意的細節。"
+        }
+      ],
+      "explanationZh": "四個回應都合理；金句概括提升整體表現，不是只增加工作量。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "辯論隊發現新對手很強，於是改善論據和回應技巧，下場表現明顯進步。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "They raised their game against stronger competition.",
+          "zh": "面對更強競爭，他們提升了表現。"
+        },
+        {
+          "id": "b",
+          "en": "They raised the number of debates without improving their arguments.",
+          "zh": "他們增加了辯論場次，卻沒有改善論據。"
+        },
+        {
+          "id": "c",
+          "en": "They lowered their standards because the opponents were strong.",
+          "zh": "因為對手很強，他們降低了標準。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "有具體技巧改善及進步證據，符合提高表現的比喻。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不像 raise their game？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A design team produces clearer work after training.",
+          "zh": "設計團隊培訓後做出更清晰的作品。"
+        },
+        {
+          "id": "b",
+          "en": "A team repeats the same mistakes and accepts a lower standard.",
+          "zh": "團隊重複同樣錯誤，並接受更低標準。"
+        },
+        {
+          "id": "c",
+          "en": "A player improves her accuracy before the final.",
+          "zh": "一名球員在決賽前提高了準確度。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "接受更低標準與提升表現相反。"
+    },
+    "dialogue": {
+      "promptZh": "同事說：「新的服務標準比以前高，我們怎麼辦？」哪句最有建設性？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Let's raise our game by practising difficult customer situations.",
+          "zh": "我們練習處理棘手的顧客情況，提升表現吧。"
+        },
+        {
+          "id": "b",
+          "en": "Let's keep the same routine and wait until someone complains.",
+          "zh": "我們維持原來的做法，等有人投訴再說吧。"
+        },
+        {
+          "id": "c",
+          "en": "Let us book more tables without changing how we serve them.",
+          "zh": "我們多接幾枱預訂，但不用改變服務方法。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "針對較高的服務標準，練習處理棘手情況能提升表現；單純增加客人數目或等人投訴，都沒有改善服務。"
+    },
+    "speaking": {
+      "en": "I raised my game by asking for detailed feedback on each presentation.",
+      "zh": "我每次演講後都尋求詳細意見，藉此提升表現。",
+      "promptZh": "先聽示範，再說明你如何提升演講表現。",
+      "targetSpan": {
+        "start": 2,
+        "end": 16
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：學校報刊收到讀者意見，指出文章不夠清晰。編輯小組決定加強校對及標題設計。用一至兩句英文說明他們的改變。",
+      "selfCheckZh": "以具體改善說明表現水平提高，不只說工作更多；可改變時態及代名詞。",
+      "examples": [
+        {
+          "en": "The editors need to raise their game by checking each article carefully.",
+          "zh": "編輯需要仔細檢查每篇文章，提升表現。"
+        },
+        {
+          "en": "They are raising their game with clearer headlines and better proofreading.",
+          "zh": "他們正透過更清晰的標題和更好的校對，提升表現。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "The editors",
+          "zh": "編輯",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 11
+          }
+        },
+        {
+          "en": "checking each article",
+          "zh": "檢查每篇文章",
+          "exampleIndex": 0,
+          "span": {
+            "start": 40,
+            "end": 61
+          }
+        },
+        {
+          "en": "carefully",
+          "zh": "仔細地",
+          "exampleIndex": 0,
+          "span": {
+            "start": 62,
+            "end": 71
+          }
+        },
+        {
+          "en": "clearer headlines",
+          "zh": "更清晰的標題",
+          "exampleIndex": 1,
+          "span": {
+            "start": 33,
+            "end": 50
+          }
+        },
+        {
+          "en": "better proofreading",
+          "zh": "更好的校對",
+          "exampleIndex": 1,
+          "span": {
+            "start": 55,
+            "end": 74
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "We need to raise our game before the next performance.",
+        "zh": "我們需要在下次演出前提升表現。"
+      },
+      {
+        "en": "The new challenge encouraged us to raise our game.",
+        "zh": "新的挑戰鼓勵我們提升表現。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "All source occurrences reviewed as the same performance-improvement sense; provenance retained.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-017",
+    "number": 17,
+    "inventoryId": "expr-0017",
+    "titleEn": "knock the wind out of them",
+    "titleZh": "突然受到重挫",
+    "category": "idiom",
+    "target": {
+      "pattern": "\\b(?:knock|knocks|knocked|knocking) the wind out of (?:me|you|him|her|us|them)\\b",
+      "glossaryForbidden": [
+        "\\bknock(?:s|ed|ing)?\\b",
+        "\\bwind\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Suddenly take away someone’s confidence or enthusiasm; literally, make someone unable to breathe briefly after an impact.",
+      "meaningZh": "突然打擊某人的信心或幹勁；字面上可指受到撞擊後一時喘不過氣。",
+      "grammar": "knock the wind out of + object pronoun/name; past knocked.",
+      "register": "Vivid conversational idiom; context distinguishes emotional setback from physical impact.",
+      "boundaryZh": "比喻用法通常有突然的壞消息或挫折，不只是逐漸感到疲累。",
+      "misconceptionZh": "不一定真的發生撞擊，也不表示受挫後永遠無法恢復。",
+      "outcomeZh": "能形容突如其來的挫折如何打擊信心。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "knock the wind out of them",
+        "sentence": "By contrast, giving them an impossible workload with no support may simply knock the wind out of them.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 1, row 5; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t1-r05"
+      }
+    ],
+    "listening": {
+      "en": "Having our proposal rejected without explanation knocked the wind out of us for a while.",
+      "zh": "我們的建議在沒有獲得解釋的情況下被拒絕，令我們一時大受打擊。",
+      "promptZh": "說話者主要描述甚麼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A sudden loss of confidence after disappointing news.",
+          "zh": "失望消息帶來的突然信心打擊。"
+        },
+        {
+          "id": "b",
+          "en": "A long period of routine work had gradually tired them out.",
+          "zh": "一段漫長的例行工作逐漸令他們疲累。"
+        },
+        {
+          "id": "c",
+          "en": "A slow improvement in the proposal.",
+          "zh": "建議逐漸得到改善。"
+        },
+        {
+          "id": "d",
+          "en": "A decision never to work together again.",
+          "zh": "永遠不再合作的決定。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "沒有身體撞擊；被拒絕的消息令團隊一時受挫，for a while 也沒有說永遠放棄。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼收到拒絕通知後，你突然那麼沉默？",
+      "promptEn": "Why did you suddenly go quiet after the rejection arrived?",
+      "options": [
+        {
+          "id": "a",
+          "en": "I was disappointed because I had worked so hard on it.",
+          "zh": "我很失望，因為我為此付出很多努力。"
+        },
+        {
+          "id": "b",
+          "en": "The rejection knocked the wind out of me, and I needed a moment.",
+          "zh": "被拒絕令我大受打擊，需要一點時間緩過來。"
+        },
+        {
+          "id": "c",
+          "en": "I had expected a different result and did not know what to say.",
+          "zh": "我原本期待不同結果，一時不知道說甚麼。"
+        },
+        {
+          "id": "d",
+          "en": "I was trying to take in the disappointing news.",
+          "zh": "我在嘗試消化這個令人失望的消息。"
+        }
+      ],
+      "explanationZh": "四個回應都解釋沉默；金句強調突如其來的信心打擊。",
+      "goldenId": "b"
+    },
+    "scene": {
+      "promptZh": "學生辛苦準備的作品突然被取消參賽資格，她一時失去幹勁。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The news knocked the wind out of her.",
+          "zh": "這個消息令她大受打擊。"
+        },
+        {
+          "id": "b",
+          "en": "The news proves she will never recover.",
+          "zh": "這個消息證明她永遠無法恢復。"
+        },
+        {
+          "id": "c",
+          "en": "She felt relieved because the competition was no longer important.",
+          "zh": "她鬆了一口氣，因為比賽不再重要。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "突如其來的失望和幹勁下降支持比喻用法，卻不足以判斷長期結果。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不像比喻中的 knock the wind out of them？",
+      "options": [
+        {
+          "id": "a",
+          "en": "An unexpected cancellation leaves performers stunned and discouraged.",
+          "zh": "演出突然取消，令表演者震驚和氣餒。"
+        },
+        {
+          "id": "b",
+          "en": "A harsh rejection suddenly shakes the team's confidence.",
+          "zh": "嚴厲拒絕突然打擊團隊信心。"
+        },
+        {
+          "id": "c",
+          "en": "A familiar walk gradually makes the group pleasantly tired.",
+          "zh": "熟悉的散步令大家逐漸有點舒適的疲倦。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "逐漸疲倦沒有突然挫折及信心打擊的意思。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「落選真的令我很難受，我現在甚麼也不想做。」哪句最體貼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "I can see it knocked the wind out of you. Would you like some time before we talk?",
+          "zh": "我看得出這令你大受打擊。你想先休息一下再談嗎？"
+        },
+        {
+          "id": "b",
+          "en": "You will feel better only if you start another entry immediately.",
+          "zh": "你只有立即開始另一份參賽作品才會好受一點。"
+        },
+        {
+          "id": "c",
+          "en": "It means nothing, so stop feeling disappointed.",
+          "zh": "這毫無意義，別再失望了。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "承認受挫感受並給予空間，不誇大為永遠失敗，也不否定感受。"
+    },
+    "speaking": {
+      "en": "The sudden cancellation knocked the wind out of me, but I made another plan.",
+      "zh": "突然取消的消息令我大受打擊，但我另訂了計劃。",
+      "promptZh": "先聽示範，再說明消息如何突然打擊你。",
+      "targetSpan": {
+        "start": 24,
+        "end": 50
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你和朋友準備多月的展覽因場地關閉而突然取消。用一至兩句英文說明消息對你們的打擊，以及一個可行的下一步。",
+      "selfCheckZh": "交代突然受挫與幹勁下降，並寫出實際下一步；不用暗示永遠無法恢復。",
+      "examples": [
+        {
+          "en": "The cancellation knocked the wind out of us. We could look for another venue next week.",
+          "zh": "取消的消息令我們大受打擊。我們下星期可以找另一個場地。"
+        },
+        {
+          "en": "Losing the exhibition space knocked the wind out of us, but we will contact a local library.",
+          "zh": "失去展覽場地令我們大受打擊，但我們會聯絡一間區內圖書館。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "The cancellation",
+          "zh": "取消的消息",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 16
+          }
+        },
+        {
+          "en": "another venue",
+          "zh": "另一個場地",
+          "exampleIndex": 0,
+          "span": {
+            "start": 63,
+            "end": 76
+          }
+        },
+        {
+          "en": "next week",
+          "zh": "下星期",
+          "exampleIndex": 0,
+          "span": {
+            "start": 77,
+            "end": 86
+          }
+        },
+        {
+          "en": "the exhibition space",
+          "zh": "展覽場地",
+          "exampleIndex": 1,
+          "span": {
+            "start": 7,
+            "end": 27
+          }
+        },
+        {
+          "en": "contact a local library",
+          "zh": "聯絡一間區內圖書館",
+          "exampleIndex": 1,
+          "span": {
+            "start": 68,
+            "end": 91
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "The rejection knocked the wind out of me for a moment.",
+        "zh": "被拒絕令我一時大受打擊。"
+      },
+      {
+        "en": "The cancellation knocked the wind out of us, but we found another venue.",
+        "zh": "取消的消息令我們大受打擊，但我們找到了另一個場地。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-018",
+    "number": 18,
+    "inventoryId": "expr-0018",
+    "titleEn": "stretch them, not break them",
+    "titleZh": "給予挑戰而非壓垮",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\bstretch (?:me|you|him|her|us|them),? not break (?:me|you|him|her|us|them)\\b",
+      "glossaryForbidden": [
+        "\\bstretch\\b",
+        "\\bbreak\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Challenge someone enough to develop without overwhelming or harming them.",
+      "meaningZh": "給人足以成長的挑戰，而不是把人壓垮。",
+      "grammar": "stretch + object, not break + matching object; a contextual metaphorical contrast, not a fixed idiom.",
+      "register": "Encouraging discussion of teaching, coaching or workload.",
+      "boundaryZh": "不是保證任務輕鬆；要保留挑戰，同時有合理難度與支援。",
+      "misconceptionZh": "not break 不等於完全不讓人遇到困難，也不是把人的身體當成物件。",
+      "outcomeZh": "能提出有挑戰但可應付的學習或工作安排。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "stretch them, not break them",
+        "sentence": "Overall, I do believe people need to be challenged, but the challenge should stretch them, not break them.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 1, row 6; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t1-r06"
+      }
+    ],
+    "listening": {
+      "en": "The new assignments should stretch them, not break them, so we are adding support sessions.",
+      "zh": "新功課應給他們挑戰，而不是把他們壓垮，所以我們會加設支援時段。",
+      "promptZh": "說話者希望怎樣安排功課？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Remove every demanding task.",
+          "zh": "取消所有有要求的任務。"
+        },
+        {
+          "id": "b",
+          "en": "Keep the challenge but provide enough support.",
+          "zh": "保留挑戰，但提供足夠支援。"
+        },
+        {
+          "id": "c",
+          "en": "Make the tasks impossible to complete.",
+          "zh": "令任務不可能完成。"
+        },
+        {
+          "id": "d",
+          "en": "Increase the workload until students stop asking questions.",
+          "zh": "增加工作量，直到學生不再提問。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "加設支援時段，說明仍保留挑戰，但避免過度負荷。"
+    },
+    "reply": {
+      "promptZh": "同事問：這項培訓應該有多難？",
+      "promptEn": "How difficult should this training be?",
+      "options": [
+        {
+          "id": "a",
+          "en": "It should give beginners a challenge they can manage.",
+          "zh": "它應給初學者一個應付得到的挑戰。"
+        },
+        {
+          "id": "b",
+          "en": "We should build in guidance and time to practise.",
+          "zh": "我們應安排指導和練習時間。"
+        },
+        {
+          "id": "c",
+          "en": "It should stretch them, not break them.",
+          "zh": "它應給他們挑戰，而不是把他們壓垮。"
+        },
+        {
+          "id": "d",
+          "en": "The difficulty should increase as their skills develop.",
+          "zh": "難度應隨他們的技巧進步而增加。"
+        }
+      ],
+      "explanationZh": "四個回應都描述合理培訓；金句以對比說明挑戰與過度負荷的界線。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "舞蹈老師設計稍有難度的新動作，分段教學並安排休息，目的是讓學生進步而不超出負荷。哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The lessons should stretch them, not break them.",
+          "zh": "課堂應給他們挑戰，而不是把他們壓垮。"
+        },
+        {
+          "id": "b",
+          "en": "The lessons should contain no new skills at all.",
+          "zh": "課堂完全不應有新技巧。"
+        },
+        {
+          "id": "c",
+          "en": "Support would prevent all improvement.",
+          "zh": "支援會阻止所有進步。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "新技巧有挑戰，分段教學和休息提供支援，符合比喻的兩面。"
+    },
+    "contrast": {
+      "promptZh": "哪個安排最不符合 stretch them, not break them？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A difficult task with coaching and a realistic deadline.",
+          "zh": "有指導和合理限期的困難任務。"
+        },
+        {
+          "id": "b",
+          "en": "A gradual increase in responsibility with regular check-ins.",
+          "zh": "逐步增加責任，並定期了解情況。"
+        },
+        {
+          "id": "c",
+          "en": "An impossible deadline, no guidance and punishment for asking questions.",
+          "zh": "不可能完成的限期、沒有指導，提問還要受罰。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "第三個安排只增加負擔而不提供應付條件，違反避免壓垮人的原則。"
+    },
+    "dialogue": {
+      "promptZh": "導師說：「我想幫新組員成長，但他們剛入門。」哪句最有用？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Give them every difficult task at once and offer no help.",
+          "zh": "立刻把所有難題交給他們，也不要幫忙。"
+        },
+        {
+          "id": "b",
+          "en": "Choose tasks that stretch them, not break them, and check in regularly.",
+          "zh": "選擇能挑戰他們而不把他們壓垮的任務，並定期了解情況。"
+        },
+        {
+          "id": "c",
+          "en": "Avoid teaching anything they do not already know.",
+          "zh": "不要教任何他們還未懂的東西。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "兼顧成長、合理難度與持續支援，不落入毫無挑戰或過度負荷的兩端。"
+    },
+    "speaking": {
+      "en": "These projects should stretch us, not break us, and we can ask for guidance.",
+      "zh": "這些專題應給我們挑戰，而不是把我們壓垮，而且我們可以尋求指導。",
+      "promptZh": "先聽示範，再以對比說明專題應達到的效果。",
+      "targetSpan": {
+        "start": 22,
+        "end": 46
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你安排新義工第一次主持活動，想讓他們練習，但不想一次交給他們太多責任。用一至兩句英文說明原則及支援方法。",
+      "selfCheckZh": "同時保留挑戰與可應付的條件；用具體支援方法解釋，不能只說不要有困難。",
+      "examples": [
+        {
+          "en": "The role should stretch them, not break them. An experienced volunteer can help with difficult moments.",
+          "zh": "這個角色應給他們挑戰，而不是把他們壓垮。有經驗的義工可以協助處理困難時刻。"
+        },
+        {
+          "en": "We want to stretch them, not break them, so we will start with a short activity and provide guidance.",
+          "zh": "我們想給他們挑戰，而不是把他們壓垮，所以會先安排短活動，並提供指導。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "An experienced volunteer",
+          "zh": "有經驗的義工",
+          "exampleIndex": 0,
+          "span": {
+            "start": 46,
+            "end": 70
+          }
+        },
+        {
+          "en": "difficult moments",
+          "zh": "困難時刻",
+          "exampleIndex": 0,
+          "span": {
+            "start": 85,
+            "end": 102
+          }
+        },
+        {
+          "en": "start with",
+          "zh": "先從……開始",
+          "exampleIndex": 1,
+          "span": {
+            "start": 52,
+            "end": 62
+          }
+        },
+        {
+          "en": "a short activity",
+          "zh": "一個短活動",
+          "exampleIndex": 1,
+          "span": {
+            "start": 63,
+            "end": 79
+          }
+        },
+        {
+          "en": "provide guidance",
+          "zh": "提供指導",
+          "exampleIndex": 1,
+          "span": {
+            "start": 84,
+            "end": 100
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "A good challenge should stretch you, not break you.",
+        "zh": "好的挑戰應讓你成長，而不是把你壓垮。"
+      },
+      {
+        "en": "We choose projects that stretch them, not break them.",
+        "zh": "我們選擇能給他們挑戰、卻不會把他們壓垮的專題。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Contextual metaphorical contrast, not a fixed idiom. Target pronouns match within every authored sentence.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-019",
+    "number": 19,
+    "inventoryId": "expr-0019",
+    "titleEn": "bring out the best in people",
+    "titleZh": "激發人的最佳一面",
+    "category": "idiom",
+    "target": {
+      "pattern": "\\b(?:bring|brings|bringing|brought) out the best in (?:me|you|him|her|us|them|people|everyone|a team|the team)\\b",
+      "glossaryForbidden": [
+        "\\b(?:bring|brings|bringing|brought)\\b",
+        "\\bbest\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Encourage someone’s strongest qualities or abilities to become apparent.",
+      "meaningZh": "激發一個人最好的特質或能力。",
+      "grammar": "bring out the best in + person/group; past brought. Keep out the best in in that order. A team is also a natural group object; the expression is not limited to an individual.",
+      "register": "Positive everyday and professional expression.",
+      "boundaryZh": "不是保證每個結果完美，也不是只稱讚外貌；要有特質或能力得到展現的意思。",
+      "misconceptionZh": "bring out the best in someone 與把物件拿到外面不同，也不表示強迫人與別人競爭。",
+      "outcomeZh": "能描述甚麼環境或人能讓別人展現優點。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "bring out the best in people",
+        "sentence": "When it is balanced properly, it can bring out the best in people.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 1, row 7; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t1-r07"
+      },
+      {
+        "occurrenceId": "pdf-2-p029-t1-r03",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 29,
+        "book": 2,
+        "question": 28,
+        "sample": "S2",
+        "sourceBookPages": "78–80",
+        "expression": "bring out the best",
+        "sentence": "A supportive coach can bring out the best in a team.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "PDF page 29, table 1, row 3"
+      },
+      {
+        "occurrenceId": "pdf-2-p119-t2-r06",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 119,
+        "book": 5,
+        "question": 23,
+        "sample": "S1",
+        "sourceBookPages": "64–65",
+        "expression": "bring out the best",
+        "sentence": "A supportive coach can bring out the best in a team.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "PDF page 119, table 2, row 6"
+      },
+      {
+        "occurrenceId": "pdf-2-p257-t1-r03",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 257,
+        "book": 9,
+        "question": 22,
+        "sample": "S1",
+        "sourceBookPages": "59–61",
+        "expression": "bring out the best",
+        "sentence": "A supportive coach can bring out the best in a team.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "PDF page 257, table 1, row 3"
+      }
+    ],
+    "listening": {
+      "en": "The patient mentor brought out the best in the team by making everyone feel safe to share ideas.",
+      "zh": "有耐性的導師令大家放心分享想法，激發了團隊最好的能力。",
+      "promptZh": "導師帶來甚麼影響？",
+      "options": [
+        {
+          "id": "a",
+          "en": "She made the team compete without sharing.",
+          "zh": "她令團隊互相競爭，不再分享。"
+        },
+        {
+          "id": "b",
+          "en": "She praised every idea equally without listening to the team.",
+          "zh": "她沒有聆聽團隊，便同樣稱讚每個想法。"
+        },
+        {
+          "id": "c",
+          "en": "She helped the team show its strengths.",
+          "zh": "她幫助團隊展現長處。"
+        },
+        {
+          "id": "d",
+          "en": "She selected the strongest members and ignored the quieter ones.",
+          "zh": "她挑選最強的組員，忽略較安靜的組員。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "安全分享的環境讓團隊展現能力；沒有保證每個想法完美。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼大家都喜歡跟那位導師合作？",
+      "promptEn": "Why does everyone enjoy working with that mentor?",
+      "options": [
+        {
+          "id": "a",
+          "en": "She listens carefully and encourages useful ideas.",
+          "zh": "她用心聆聽，也鼓勵有用的想法。"
+        },
+        {
+          "id": "b",
+          "en": "She helps quiet people feel confident enough to contribute.",
+          "zh": "她幫助安靜的人建立信心參與。"
+        },
+        {
+          "id": "c",
+          "en": "People can show their strengths around her.",
+          "zh": "大家在她身邊能展現長處。"
+        },
+        {
+          "id": "d",
+          "en": "She brings out the best in people.",
+          "zh": "她能激發人們最好的特質。"
+        }
+      ],
+      "explanationZh": "四個回應都合理解釋受歡迎的原因；金句概括她激發別人優點的作用。",
+      "goldenId": "d"
+    },
+    "scene": {
+      "promptZh": "原本不敢發言的組員，在組長耐心鼓勵後提出很好的方案，其他人也更願意合作。哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The leader brought out the best in the team.",
+          "zh": "組長激發了團隊最好的能力。"
+        },
+        {
+          "id": "b",
+          "en": "The leader made everyone compete for attention instead of sharing.",
+          "zh": "組長令大家爭取注意，而不是分享。"
+        },
+        {
+          "id": "c",
+          "en": "The leader gave praise without creating chances for anyone to contribute.",
+          "zh": "組長只給予稱讚，沒有讓任何人有機會參與。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "具體優點得到展現，包括提出方案與合作，支持這個正面表達。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不符合 bring out the best in people？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A tutor's encouragement helps students think independently.",
+          "zh": "導師的鼓勵幫助學生獨立思考。"
+        },
+        {
+          "id": "b",
+          "en": "A manager's insults make capable staff hide their ideas.",
+          "zh": "主管辱罵員工，令有能力的員工不敢提出想法。"
+        },
+        {
+          "id": "c",
+          "en": "A friendly team helps a shy member share her expertise.",
+          "zh": "友善的團隊幫助害羞的成員分享專長。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "第二個情況壓抑長處，與激發最佳一面相反。"
+    },
+    "dialogue": {
+      "promptZh": "同事說：「她換了組別後變得很積極，也主動幫人。」哪句自然回應？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The supportive team seems to bring out the best in her.",
+          "zh": "這個有支援的團隊似乎激發了她最好的一面。"
+        },
+        {
+          "id": "b",
+          "en": "That proves she never had any strengths before.",
+          "zh": "這證明她以前完全沒有長處。"
+        },
+        {
+          "id": "c",
+          "en": "Her improvement means the team no longer needs to support her.",
+          "zh": "她有所進步，就表示團隊不用再支援她。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "seems to 保留合理推斷，指出環境讓原有長處展現，不否定以前的能力。"
+    },
+    "speaking": {
+      "en": "Working with thoughtful classmates brings out the best in me.",
+      "zh": "跟體貼的同學合作，能激發我最好的一面。",
+      "promptZh": "先聽示範，再說明合作環境如何讓你的優點展現。",
+      "targetSpan": {
+        "start": 35,
+        "end": 60
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：一名很安靜的同學加入友善的戲劇小組後，開始提出創意，也願意幫助其他人。用一至兩句英文描述小組的影響。",
+      "selfCheckZh": "指出優點或能力如何展現，避免只說她很開心或保證一切完美。",
+      "examples": [
+        {
+          "en": "The welcoming group brings out the best in her. She now shares creative ideas and helps other members.",
+          "zh": "這個友善接納她的小組激發了她最好的一面。她現在會分享創意，也會幫助其他組員。"
+        },
+        {
+          "en": "Working with supportive people has brought out the best in her, giving her the confidence to contribute.",
+          "zh": "跟有支援態度的人合作，激發了她最好的一面，給了她參與的信心。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "The welcoming group",
+          "zh": "友善接納她的小組",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 19
+          }
+        },
+        {
+          "en": "creative ideas",
+          "zh": "創意",
+          "exampleIndex": 0,
+          "span": {
+            "start": 63,
+            "end": 77
+          }
+        },
+        {
+          "en": "other members",
+          "zh": "其他組員",
+          "exampleIndex": 0,
+          "span": {
+            "start": 88,
+            "end": 101
+          }
+        },
+        {
+          "en": "supportive people",
+          "zh": "願意支持別人的人",
+          "exampleIndex": 1,
+          "span": {
+            "start": 13,
+            "end": 30
+          }
+        },
+        {
+          "en": "the confidence to contribute",
+          "zh": "參與的信心",
+          "exampleIndex": 1,
+          "span": {
+            "start": 75,
+            "end": 103
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "A supportive teacher can bring out the best in people.",
+        "zh": "願意支持學生的老師能激發人們最好的一面。"
+      },
+      {
+        "en": "Working with patient colleagues brings out the best in me.",
+        "zh": "跟有耐性的同事合作，能激發我最好的一面。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-020",
+    "number": 20,
+    "inventoryId": "expr-0020",
+    "titleEn": "shape",
+    "titleZh": "塑造想法與選擇",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\bshap(?:e|es|ed|ing)\\b",
+      "glossaryForbidden": [
+        "\\bshap(?:e|es|ed|ing)\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Influence how something develops or how someone thinks or behaves.",
+      "meaningZh": "影響某件事的發展，或一個人的想法與行為。",
+      "grammar": "shape + object, such as choices, attitudes or expectations; shaped, shaping.",
+      "register": "Neutral spoken and written metaphor.",
+      "boundaryZh": "影響不等於完全控制，也不保證是唯一原因；此處不是把實物捏成形狀。",
+      "misconceptionZh": "不能因廣告有影響便說觀眾沒有選擇；shape 可指多種因素逐漸形成看法。",
+      "outcomeZh": "能解釋經歷或資訊如何影響想法與選擇。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "shapes",
+        "sentence": "The main reason is that advertising shapes what people notice, remember, and feel drawn to.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 2, row 2; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t2-r02"
+      },
+      {
+        "occurrenceId": "pdf-2-p163-t1-r05",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 163,
+        "book": 6,
+        "question": 30,
+        "sample": "S2",
+        "locatorNote": "",
+        "sentence": "Stories can shape how people feel about history.",
+        "expression": "shape how people feel",
+        "referenceSentenceKind": "guide_original_example",
+        "sourceCategory": "Figurative use"
+      }
+    ],
+    "listening": {
+      "en": "Stories from her grandparents shaped the way Mina thought about the city.",
+      "zh": "祖父母的故事影響了 Mina 看待這座城市的方式。",
+      "promptZh": "故事產生了甚麼作用？",
+      "options": [
+        {
+          "id": "a",
+          "en": "They settled every question Mina had about the city.",
+          "zh": "它們解決了 Mina 對城市的每個疑問。"
+        },
+        {
+          "id": "b",
+          "en": "They influenced Mina's view of the city.",
+          "zh": "它們影響了 Mina 對城市的看法。"
+        },
+        {
+          "id": "c",
+          "en": "They forced every resident to think the same way.",
+          "zh": "它們迫使所有居民有相同想法。"
+        },
+        {
+          "id": "d",
+          "en": "They had no connection with her opinions.",
+          "zh": "它們跟她的看法毫無關係。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "受影響的是她思考城市的方式；不是實際城市形狀，也不是完全控制所有人。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼你現在那麼重視無障礙設計？",
+      "promptEn": "Why do you care so much about accessible design now?",
+      "options": [
+        {
+          "id": "a",
+          "en": "Helping my neighbour changed what I notice in public spaces.",
+          "zh": "幫助鄰居改變了我在公共空間會留意的事情。"
+        },
+        {
+          "id": "b",
+          "en": "I learned how difficult everyday journeys can be.",
+          "zh": "我了解到日常出行也可能很困難。"
+        },
+        {
+          "id": "c",
+          "en": "That experience shaped my understanding of accessibility.",
+          "zh": "那次經歷塑造了我對無障礙設計的理解。"
+        },
+        {
+          "id": "d",
+          "en": "I began to see the barriers that I had overlooked.",
+          "zh": "我開始看見以前忽略的障礙。"
+        }
+      ],
+      "explanationZh": "四個回應都解釋看法的來源；金句表達經歷對理解的影響。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "學生長期聽到同學談升學，以往沒考慮過的科目也開始進入他的選擇。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Those conversations helped shape his choices.",
+          "zh": "那些對話有助塑造他的選擇。"
+        },
+        {
+          "id": "b",
+          "en": "Those conversations removed his ability to choose.",
+          "zh": "那些對話令他失去選擇能力。"
+        },
+        {
+          "id": "c",
+          "en": "Those conversations left him with no interests.",
+          "zh": "那些對話令他變得毫無興趣。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "談話是影響因素之一；helped shape 不聲稱完全控制他的選擇。"
+    },
+    "contrast": {
+      "promptZh": "哪句最清楚使用 shape 的「影響想法或發展」比喻義？",
+      "options": [
+        {
+          "id": "a",
+          "en": "She shaped the clay into a bowl.",
+          "zh": "她把陶土塑造成碗。"
+        },
+        {
+          "id": "b",
+          "en": "Her first job shaped her attitude towards teamwork.",
+          "zh": "她的第一份工作塑造了她對團隊合作的態度。"
+        },
+        {
+          "id": "c",
+          "en": "The artist shaped a piece of wire into a circle.",
+          "zh": "藝術家把一段金屬線彎成圓形。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "態度是抽象對象；陶土和金屬線是實際改變形狀的字面用法。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「你的看法是家庭影響的，所以你完全沒有自己的選擇。」哪句最準確回應？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Family experiences can shape my views without deciding everything for me.",
+          "zh": "家庭經歷可以影響我的看法，但不會替我決定一切。"
+        },
+        {
+          "id": "b",
+          "en": "If something shapes my views, I cannot think independently.",
+          "zh": "只要有事情影響我的看法，我就不能獨立思考。"
+        },
+        {
+          "id": "c",
+          "en": "Family experiences only matter if I agree with everything I hear.",
+          "zh": "只有我贊同聽到的一切，家庭經歷才會有影響。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "承認影響，同時區分影響與決定一切，符合這個動詞的比喻義。"
+    },
+    "speaking": {
+      "en": "My first volunteer project shaped my ideas about responsibility.",
+      "zh": "我的第一個義工項目塑造了我對責任的看法。",
+      "promptZh": "先聽示範，再說明義工經歷如何影響你的看法。",
+      "targetSpan": {
+        "start": 27,
+        "end": 33
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你曾跟年長鄰居一起參加社區活動，現在更重視耐心聆聽。用一至兩句英文說明那次經歷對你看法的影響。",
+      "selfCheckZh": "說明經歷與現在想法的連結；不必聲稱這是唯一影響，也不要誤寫成實物改變形狀。",
+      "examples": [
+        {
+          "en": "Working with my older neighbour shaped my view of good communication. I now listen more patiently.",
+          "zh": "跟年長鄰居合作，塑造了我對良好溝通的看法。我現在會更耐心聆聽。"
+        },
+        {
+          "en": "That community project shaped the way I think about listening, because I learned to give people time.",
+          "zh": "那個社區項目影響了我看待聆聽的方式，因為我學會給別人時間。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "my older neighbour",
+          "zh": "我年長的鄰居",
+          "exampleIndex": 0,
+          "span": {
+            "start": 13,
+            "end": 31
+          }
+        },
+        {
+          "en": "good communication",
+          "zh": "良好溝通",
+          "exampleIndex": 0,
+          "span": {
+            "start": 50,
+            "end": 68
+          }
+        },
+        {
+          "en": "listen more patiently",
+          "zh": "更耐心聆聽",
+          "exampleIndex": 0,
+          "span": {
+            "start": 76,
+            "end": 97
+          }
+        },
+        {
+          "en": "community project",
+          "zh": "社區項目",
+          "exampleIndex": 1,
+          "span": {
+            "start": 5,
+            "end": 22
+          }
+        },
+        {
+          "en": "give people time",
+          "zh": "給別人時間",
+          "exampleIndex": 1,
+          "span": {
+            "start": 84,
+            "end": 100
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "Our experiences shape the way we see the world.",
+        "zh": "我們的經歷塑造了我們看待世界的方式。"
+      },
+      {
+        "en": "The people we meet can shape our expectations.",
+        "zh": "我們遇到的人可以塑造我們的期望。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Source surface form shapes normalized to lemma shape, source spelling preserved in provenance.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-021",
+    "number": 21,
+    "inventoryId": "expr-0021",
+    "titleEn": "feel drawn to",
+    "titleZh": "感到被吸引",
+    "category": "natural",
+    "target": {
+      "pattern": "\\b(?:feel|feels|felt|feeling) drawn to\\b",
+      "glossaryForbidden": [
+        "\\bdrawn\\b",
+        "\\bdraw(?:s|ing)?\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Feel attracted to someone or something.",
+      "meaningZh": "感到被某人或某事吸引，想更接近或了解。",
+      "grammar": "feel + drawn + to + noun/-ing form; felt drawn to in the past.",
+      "register": "Neutral, reflective English for interests, places, people or activities.",
+      "boundaryZh": "表示吸引力，不表示真的被拉走，也不等於已經決定採取行動。",
+      "misconceptionZh": "drawn 在這裏不是畫畫；被吸引不保證購買、加入或贊同。",
+      "outcomeZh": "能描述自己的興趣與吸引力，同時保留是否行動的分別。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 3,
+        "expression": "feel drawn to",
+        "sentence": "The main reason is that advertising shapes what people notice, remember, and feel drawn to.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 3, table 2, row 3; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p003-t2-r03"
+      }
+    ],
+    "listening": {
+      "en": "I felt drawn to the photography club because the members noticed beauty in ordinary places.",
+      "zh": "我被攝影學會吸引，因為會員能在平凡地方看見美。",
+      "promptZh": "說話者對攝影學會有甚麼感覺？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The speaker felt obliged to join despite having no interest.",
+          "zh": "說話者雖然沒有興趣，仍覺得有義務加入。"
+        },
+        {
+          "id": "b",
+          "en": "The speaker disliked everything about the club.",
+          "zh": "說話者不喜歡學會的一切。"
+        },
+        {
+          "id": "c",
+          "en": "The speaker felt interested in the club's approach.",
+          "zh": "說話者被學會看事物的方式吸引。"
+        },
+        {
+          "id": "d",
+          "en": "The speaker had already become the club president.",
+          "zh": "說話者已經成為學會主席。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "因為會員的觀察方式而感興趣，不代表已加入或擔任職位。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼你一直留意那個設計課程？",
+      "promptEn": "Why do you keep looking at that design course?",
+      "options": [
+        {
+          "id": "a",
+          "en": "The practical projects really interest me.",
+          "zh": "那些實用專題令我很感興趣。"
+        },
+        {
+          "id": "b",
+          "en": "I feel drawn to its focus on everyday problems.",
+          "zh": "它重視日常問題這一點令我感到被吸引。"
+        },
+        {
+          "id": "c",
+          "en": "I like the way students test their ideas.",
+          "zh": "我喜歡學生測試想法的方式。"
+        },
+        {
+          "id": "d",
+          "en": "It looks like a good chance to explore my interests.",
+          "zh": "它看來是探索自己興趣的好機會。"
+        }
+      ],
+      "explanationZh": "四個回應都能解釋興趣；金句使用 feel drawn to，但不聲稱已報名。",
+      "goldenId": "b"
+    },
+    "scene": {
+      "promptZh": "你瀏覽幾個義工計劃，對陪長者聊天的項目特別感興趣，但還未報名。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "I feel drawn to the project, though I have not signed up yet.",
+          "zh": "我被這個項目吸引，但還未報名。"
+        },
+        {
+          "id": "b",
+          "en": "I have already committed to the project and no longer need to decide.",
+          "zh": "我已經承諾參加項目，不用再作決定。"
+        },
+        {
+          "id": "c",
+          "en": "I only considered the project because someone required me to.",
+          "zh": "我只是因為有人要求，才考慮這個項目。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "感到吸引與實際報名是不同階段。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不符合 feel drawn to 的意思？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A student wants to explore a subject that fascinates her.",
+          "zh": "學生想探索令她着迷的科目。"
+        },
+        {
+          "id": "b",
+          "en": "A visitor is interested in a quiet garden and wants to look around.",
+          "zh": "訪客對安靜的花園感興趣，想四處看看。"
+        },
+        {
+          "id": "c",
+          "en": "A worker has no interest in a task and does it only because it is compulsory.",
+          "zh": "員工對任務毫無興趣，只因是強制安排才做。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "第三個情況只有義務，沒有吸引力。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「你對那所學校有興趣，就表示你已經決定入讀吧？」哪個回應最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "I feel drawn to it, but I still need to compare the courses.",
+          "zh": "我對它感到興趣，但仍需要比較課程。"
+        },
+        {
+          "id": "b",
+          "en": "Feeling drawn to something always means you have made a final decision.",
+          "zh": "感到被吸引永遠表示已作最終決定。"
+        },
+        {
+          "id": "c",
+          "en": "I cannot be interested until I have already enrolled.",
+          "zh": "我必須已經入讀，才可以感興趣。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "承認吸引力，同時清楚表達尚未決定。"
+    },
+    "speaking": {
+      "en": "I feel drawn to work that lets me help people solve practical problems.",
+      "zh": "能讓我幫助別人解決實際問題的工作，令我感到被吸引。",
+      "promptZh": "先聽示範，再說明甚麼類型的工作吸引你。",
+      "targetSpan": {
+        "start": 2,
+        "end": 15
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你看到一個週末陶藝課程，喜歡親手製作實用品，但尚未決定報名。用一至兩句英文描述興趣及下一步。",
+      "selfCheckZh": "描述真實吸引力及原因，並清楚區分感興趣與已作決定。",
+      "examples": [
+        {
+          "en": "I feel drawn to the pottery course because I enjoy making useful things. I will check the timetable first.",
+          "zh": "我被陶藝課程吸引，因為我喜歡製作實用品。我會先查看時間表。"
+        },
+        {
+          "en": "I am feeling drawn to pottery, but I want to try a short workshop before I sign up.",
+          "zh": "我開始被陶藝吸引，但想先試一個短工作坊，再決定報名。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "the pottery course",
+          "zh": "陶藝課程",
+          "exampleIndex": 0,
+          "span": {
+            "start": 16,
+            "end": 34
+          }
+        },
+        {
+          "en": "making useful things",
+          "zh": "製作實用品",
+          "exampleIndex": 0,
+          "span": {
+            "start": 51,
+            "end": 71
+          }
+        },
+        {
+          "en": "check the timetable",
+          "zh": "查看時間表",
+          "exampleIndex": 0,
+          "span": {
+            "start": 80,
+            "end": 99
+          }
+        },
+        {
+          "en": "a short workshop",
+          "zh": "一個短工作坊",
+          "exampleIndex": 1,
+          "span": {
+            "start": 49,
+            "end": 65
+          }
+        },
+        {
+          "en": "sign up",
+          "zh": "報名",
+          "exampleIndex": 1,
+          "span": {
+            "start": 75,
+            "end": 82
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "I feel drawn to projects that connect people.",
+        "zh": "能連繫人與人的項目令我感到被吸引。"
+      },
+      {
+        "en": "She felt drawn to the course but wanted more information before enrolling.",
+        "zh": "她被課程吸引，但想先了解更多資料再報名。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-022",
+    "number": 22,
+    "inventoryId": "expr-0022",
+    "titleEn": "plant a seed in their mind",
+    "titleZh": "在心中種下想法",
+    "category": "idiom",
+    "target": {
+      "pattern": "\\b(?:plant|plants|planted|planting) (?:a|the) seed(?: in (?:my|your|his|her|our|their) minds?)?\\b",
+      "glossaryForbidden": [
+        "\\bplant(?:s|ed|ing)?\\b",
+        "\\bseed\\b",
+        "\\bminds?\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Introduce an idea or interest that may develop later.",
+      "meaningZh": "讓某人初次產生一個想法或興趣，日後可能發展。",
+      "grammar": "plant a/the seed, optionally followed by of + an idea/interest or in + possessive adjective + mind/minds; tense varies. The idea/interest-growth metaphor remains the same; the definite article can refer to the beginning of a specified later interest.",
+      "register": "Conventional metaphor in conversation and reflective writing.",
+      "boundaryZh": "強調想法的開始與日後可能發展，不保證馬上改變或一定採取行動。",
+      "misconceptionZh": "不是實際種植，也不必有操控或惡意；一次正面談話也能啟發想法。",
+      "outcomeZh": "能描述某次接觸如何引發日後的興趣或計劃。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 4,
+        "expression": "plant a seed in their mind",
+        "sentence": "Even if people do not buy something immediately, a good advertisement can plant a seed in their mind and keep a product at the front of their mind.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 4, table 1, row 2; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p004-t1-r02"
+      },
+      {
+        "occurrenceId": "pdf-1-p019-t2-r04",
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 19,
+        "expression": "plant a seed",
+        "sentence": "A single story may plant a seed that later changes someone’s view.",
+        "referenceSentenceKind": "guide_original_example",
+        "book": 1,
+        "question": 14,
+        "sample": "S1",
+        "locatorNote": "PDF page 19, table 2, row 4; source book/question/sample not stated where null."
+      },
+      {
+        "occurrenceId": "pdf-2-p112-t2-r07",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 112,
+        "expression": "plant a seed",
+        "sentence": "A single story may plant a seed that later changes someone’s view.",
+        "referenceSentenceKind": "guide_original_example",
+        "book": 5,
+        "question": 15,
+        "sample": "S2",
+        "locatorNote": "PDF page 112, table 2, row 7; source book/question/sample not stated where null."
+      },
+      {
+        "occurrenceId": "pdf-2-p108-t1-r02",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 108,
+        "book": 5,
+        "question": 9,
+        "sample": "S2",
+        "expression": "plant the seed of",
+        "sentence": "A school visit can plant the seed of a lasting interest.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "PDF page 108, table 1, row 2"
+      }
+    ],
+    "listening": {
+      "en": "A visit to the repair café planted a seed in my mind, and months later I started learning to fix things.",
+      "zh": "一次到維修咖啡室的參觀，在我心中種下了想法；幾個月後，我開始學習修理物品。",
+      "promptZh": "參觀與後來學習有甚麼關係？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The visit introduced an idea that developed later.",
+          "zh": "參觀引發了一個後來才發展的想法。"
+        },
+        {
+          "id": "b",
+          "en": "The speaker immediately became an expert repairer.",
+          "zh": "說話者立即成為維修專家。"
+        },
+        {
+          "id": "c",
+          "en": "The visit confirmed a long-standing plan rather than introducing an idea.",
+          "zh": "參觀只是確認早已有的計劃，並非帶來新想法。"
+        },
+        {
+          "id": "d",
+          "en": "The speaker forgot the visit and saw no link to learning repairs.",
+          "zh": "說話者忘了參觀，也不認為它與學習維修有關。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "months later 顯示這是想法的開端，後來才付諸學習。"
+    },
+    "reply": {
+      "promptZh": "朋友問：你怎麼開始考慮開設社區書角？",
+      "promptEn": "How did you start thinking about a community book corner?",
+      "options": [
+        {
+          "id": "a",
+          "en": "A neighbour's story gave me the initial idea.",
+          "zh": "鄰居的故事給了我最初的想法。"
+        },
+        {
+          "id": "b",
+          "en": "Seeing an unused shelf made me think about sharing books.",
+          "zh": "看見閒置書架，令我想到分享書本。"
+        },
+        {
+          "id": "c",
+          "en": "A conversation planted a seed in my mind, and I kept thinking about it.",
+          "zh": "一次談話在我心中種下想法，之後我一直想着它。"
+        },
+        {
+          "id": "d",
+          "en": "The idea began with a small discussion at our meeting.",
+          "zh": "這個想法源於會議上一段簡短討論。"
+        }
+      ],
+      "explanationZh": "四個回應都能交代想法的開始；金句加入種子的比喻。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "小學生聽過天文學家的分享，當時只覺得有趣；多年後選修天文學，想起那次分享。哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The talk planted a seed in her mind.",
+          "zh": "那次分享在她心中種下了想法。"
+        },
+        {
+          "id": "b",
+          "en": "The talk forced an immediate final career decision.",
+          "zh": "那次分享迫使她立即作出最終職業決定。"
+        },
+        {
+          "id": "c",
+          "en": "The talk completed a course of training she had already begun.",
+          "zh": "那次分享完成了她早已開始的培訓課程。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "最初的啟發在多年後發展，符合種子慢慢成長的比喻。"
+    },
+    "contrast": {
+      "promptZh": "哪個說法最不符合 plant a seed in their mind？",
+      "options": [
+        {
+          "id": "a",
+          "en": "An idea may begin before it turns into action.",
+          "zh": "想法可以先出現，之後才變成行動。"
+        },
+        {
+          "id": "b",
+          "en": "The expression guarantees an immediate decision.",
+          "zh": "這個表達保證對方立即作決定。"
+        },
+        {
+          "id": "c",
+          "en": "An encouraging conversation can introduce a possibility.",
+          "zh": "鼓勵性的談話可以帶出一種可能性。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "種子比喻只說明開始與發展的可能，不保證即時決定。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「我提議辦讀書會，但她沒有立刻答應，是不是完全沒用？」哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "You may have planted a seed in her mind. Give her time to think.",
+          "zh": "你可能已在她心中種下想法。給她一點時間思考吧。"
+        },
+        {
+          "id": "b",
+          "en": "If she did not agree immediately, she cannot consider it later.",
+          "zh": "如果她沒有立即答應，以後就不可能考慮。"
+        },
+        {
+          "id": "c",
+          "en": "Planting a seed guarantees she will organise the group tomorrow.",
+          "zh": "種下想法就保證她明天會籌辦小組。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "may 保留可能性，鼓勵耐心，不替對方保證結果。"
+    },
+    "speaking": {
+      "en": "That conversation planted a seed in my mind about studying abroad.",
+      "zh": "那次談話在我心中種下了到外地升學的想法。",
+      "promptZh": "先聽示範，再說明一次談話如何引發想法。",
+      "targetSpan": {
+        "start": 18,
+        "end": 43
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：朋友介紹屋頂種植，你當時沒有行動，幾星期後卻開始研究在家種植，並想付諸實行。用一至兩句英文交代最初的啟發與後來的行動。",
+      "selfCheckZh": "連結最初的想法與較後的發展；不要把植入想法誤當保證立即行動。",
+      "examples": [
+        {
+          "en": "Her story planted a seed in my mind. A few weeks later, I began researching vegetables I could grow at home.",
+          "zh": "她的故事在我心中種下了想法。幾星期後，我開始研究可以在家種甚麼蔬菜。"
+        },
+        {
+          "en": "The chat about rooftop gardens planted a seed in my mind, and I eventually tried growing herbs on the balcony.",
+          "zh": "那次關於屋頂花園的聊天，在我心中種下想法；後來我終於嘗試在露台種香草。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "A few weeks later",
+          "zh": "幾星期後",
+          "exampleIndex": 0,
+          "span": {
+            "start": 37,
+            "end": 54
+          }
+        },
+        {
+          "en": "researching vegetables",
+          "zh": "研究蔬菜",
+          "exampleIndex": 0,
+          "span": {
+            "start": 64,
+            "end": 86
+          }
+        },
+        {
+          "en": "at home",
+          "zh": "在家",
+          "exampleIndex": 0,
+          "span": {
+            "start": 100,
+            "end": 107
+          }
+        },
+        {
+          "en": "rooftop gardens",
+          "zh": "屋頂花園",
+          "exampleIndex": 1,
+          "span": {
+            "start": 15,
+            "end": 30
+          }
+        },
+        {
+          "en": "on the balcony",
+          "zh": "在露台",
+          "exampleIndex": 1,
+          "span": {
+            "start": 95,
+            "end": 109
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "A simple question can plant a seed in your mind.",
+        "zh": "一個簡單問題也能在你心中種下想法。"
+      },
+      {
+        "en": "The exhibition planted a seed in my mind about studying design.",
+        "zh": "展覽在我心中種下了修讀設計的想法。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending.",
+        "Root-approved source alias expr-0170 merged; exact occurrence preserved. No audio text changed. Canonical target22 now also recognises bare plant a seed with optional in-mind adjunct."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-023",
+    "number": 23,
+    "inventoryId": "expr-0023",
+    "titleEn": "at the forefront of their minds",
+    "titleZh": "在心中佔重要位置",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\bat the forefront of (?:my|your|his|her|our|their) minds?\\b",
+      "glossaryForbidden": [
+        "\\bforefront\\b",
+        "\\bminds?\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Among the most important things someone is actively thinking about.",
+      "meaningZh": "是某人當下最重視、最常想到的事情之一。",
+      "grammar": "at/in the forefront of + possessive adjective + mind/minds; use mind for one person and normally minds for several people.",
+      "register": "Neutral to formal. The taught wording is the more established alternative to the source’s at the front of their mind.",
+      "boundaryZh": "表示受到重視或正在思考，不代表唯一的想法，也不是物件實際位於腦部前面。",
+      "misconceptionZh": "事情可以很重要而非令人焦慮；不必把這個表達一律翻成擔心。",
+      "outcomeZh": "能說明某個考慮因素如何持續受到重視。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 4,
+        "expression": "at the front of their mind",
+        "sentence": "Even if people do not buy something immediately, a good advertisement can plant a seed in their mind and keep a product at the front of their mind.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 4, table 1, row 3; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p004-t1-r03"
+      }
+    ],
+    "listening": {
+      "en": "With the school trip approaching, the pupils’ safety was at the forefront of our minds.",
+      "zh": "學校旅行將近，學生安全是我們最重視的事情之一。",
+      "promptZh": "說話者籌備旅行時最重視甚麼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Safety was a minor detail to be considered only after the trip.",
+          "zh": "安全是次要細節，只需旅行後才考慮。"
+        },
+        {
+          "id": "b",
+          "en": "Keeping pupils safe while planning the trip.",
+          "zh": "籌備旅行時確保學生安全。"
+        },
+        {
+          "id": "c",
+          "en": "The teachers had stopped considering every other part of the trip.",
+          "zh": "老師已停止考慮旅行的所有其他事項。"
+        },
+        {
+          "id": "d",
+          "en": "Forgetting that the trip was approaching.",
+          "zh": "忘記旅行快要來臨。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "安全在籌備時受到高度重視；不是學生站在最前，也不表示沒有其他考慮。"
+    },
+    "reply": {
+      "promptZh": "朋友問：你們設計新圖書館時，最重視甚麼？",
+      "promptEn": "What matters most while you design the new library?",
+      "options": [
+        {
+          "id": "a",
+          "en": "We want everyone to be able to use the space easily.",
+          "zh": "我們希望每個人都能方便使用這個空間。"
+        },
+        {
+          "id": "b",
+          "en": "Accessibility is at the forefront of our minds.",
+          "zh": "無障礙使用是我們最重視的事情之一。"
+        },
+        {
+          "id": "c",
+          "en": "We are paying close attention to different visitors' needs.",
+          "zh": "我們正仔細考慮不同訪客的需要。"
+        },
+        {
+          "id": "d",
+          "en": "Making the building welcoming is a major priority.",
+          "zh": "讓大樓親切易用是我們的重要優先事項。"
+        }
+      ],
+      "explanationZh": "四個回應都合理回答設計重點；金句表明一個持續受到重視的考慮因素。",
+      "goldenId": "b"
+    },
+    "scene": {
+      "promptZh": "社區中心每次安排活動都先檢查輪椅通道，並聽取行動不便訪客的意見。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Access is at the forefront of their minds.",
+          "zh": "無障礙使用是他們最重視的事情之一。"
+        },
+        {
+          "id": "b",
+          "en": "Access never enters their thinking.",
+          "zh": "他們從不考慮無障礙使用。"
+        },
+        {
+          "id": "c",
+          "en": "Access matters only when someone makes a complaint.",
+          "zh": "只有當有人投訴，無障礙使用才重要。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "重複檢查與徵詢意見，顯示這個因素在計劃中受到高度重視。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不符合 at the forefront of their minds？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A team checks safety at every planning meeting.",
+          "zh": "團隊每次籌備會議都檢查安全。"
+        },
+        {
+          "id": "b",
+          "en": "A family regularly considers cost before making plans.",
+          "zh": "家庭制定計劃前經常考慮費用。"
+        },
+        {
+          "id": "c",
+          "en": "Organisers repeatedly forget a need and never discuss it.",
+          "zh": "主辦者反覆忘記某項需要，從未討論它。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "經常忘記、從不討論，與持續重視相反。"
+    },
+    "dialogue": {
+      "promptZh": "同事說：「我們一直重視成本，難道代表只考慮錢？」哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "Cost can be at the forefront of our minds without being our only concern.",
+          "zh": "成本可以是我們最重視的因素之一，但不是唯一考慮。"
+        },
+        {
+          "id": "b",
+          "en": "Anything at the forefront excludes every other concern.",
+          "zh": "只要某件事最受重視，就會排除所有其他考慮。"
+        },
+        {
+          "id": "c",
+          "en": "If cost is a priority, we cannot reconsider our plans.",
+          "zh": "如果成本是優先考慮，我們就不能重新考慮計劃。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "重要程度高，不等於唯一因素；這是思考與重視的比喻。"
+    },
+    "speaking": {
+      "en": "Fairness is at the forefront of my mind when I divide the work.",
+      "zh": "分配工作時，公平是我最重視的事情之一。",
+      "promptZh": "先聽示範，再說明分工時最重視的因素。",
+      "targetSpan": {
+        "start": 12,
+        "end": 39
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你的小組準備戶外義賣，天氣很熱，大家每次討論都先考慮義工是否有水和遮蔭。用一至兩句英文說明你們的重點與安排。",
+      "selfCheckZh": "指出持續受到重視的因素，再用實際安排支持；不要聲稱這是唯一可考慮的事情。",
+      "examples": [
+        {
+          "en": "The volunteers' comfort is at the forefront of our minds. We will provide water and a shaded rest area.",
+          "zh": "義工是否舒適是我們最重視的事情之一。我們會提供飲用水和有遮蔭的休息區。"
+        },
+        {
+          "en": "With the hot weather approaching, safety is at the forefront of our minds, so we are planning regular breaks.",
+          "zh": "炎熱天氣將至，安全是我們最重視的事情之一，所以我們正在安排定時休息。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "The volunteers' comfort",
+          "zh": "義工的舒適程度",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 23
+          }
+        },
+        {
+          "en": "provide water",
+          "zh": "提供飲用水",
+          "exampleIndex": 0,
+          "span": {
+            "start": 66,
+            "end": 79
+          }
+        },
+        {
+          "en": "a shaded rest area",
+          "zh": "有遮蔭的休息區",
+          "exampleIndex": 0,
+          "span": {
+            "start": 84,
+            "end": 102
+          }
+        },
+        {
+          "en": "hot weather",
+          "zh": "炎熱天氣",
+          "exampleIndex": 1,
+          "span": {
+            "start": 9,
+            "end": 20
+          }
+        },
+        {
+          "en": "regular breaks",
+          "zh": "定時休息",
+          "exampleIndex": 1,
+          "span": {
+            "start": 94,
+            "end": 108
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "Safety should be at the forefront of our minds when we plan the event.",
+        "zh": "籌備活動時，安全應是我們最重視的事情之一。"
+      },
+      {
+        "en": "The needs of new visitors are at the forefront of their minds.",
+        "zh": "新訪客的需要是他們最重視的事情之一。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Editorial normalization approved by root: exact source at the front of their mind retained in sources; taught at the forefront of their minds. Cambridge: https://dictionary.cambridge.org/dictionary/english/at-the-forefront-of ; Oxford collocation: https://www.oxfordlearnersdictionaries.com/definition/english/forefront . Cambridge defines the mind expression as one of the most important things thought about; no copied example sentence used.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-024",
+    "number": 24,
+    "inventoryId": "expr-0024",
+    "titleEn": "it starts to feel",
+    "titleZh": "開始讓人覺得",
+    "category": "natural",
+    "target": {
+      "pattern": "\\b(?:it|they|he|she|the (?:[a-z]+ )?[a-z]+) (?:start|starts|started|starting) to feel\\b",
+      "glossaryForbidden": [
+        "\\bstart(?:s|ed|ing)?\\b",
+        "\\bfeel\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Begin to seem or be experienced in a particular way.",
+      "meaningZh": "開始令人覺得如何，或開始產生某種感受。",
+      "grammar": "it starts to feel + adjective/like + noun; tense and subject can change. Feel can express perception rather than touch.",
+      "register": "Common natural sentence pattern, not an idiom.",
+      "boundaryZh": "感覺的改變不等於客觀事實已改變；feels safe 不保證真的安全。",
+      "misconceptionZh": "feel 不只指用手觸摸；也不要把 starts to feel 誤解成已經一直如此。",
+      "outcomeZh": "能描述熟悉感或其他感受逐漸出現。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 4,
+        "expression": "it starts to feel",
+        "sentence": "When people see the same brand again and again, whether on social media, in videos, or on billboards, it starts to feel familiar and trustworthy.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 4, table 1, row 4; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p004-t1-r04"
+      }
+    ],
+    "listening": {
+      "en": "After a few friendly conversations, the new office started to feel less intimidating.",
+      "zh": "幾次友善交談後，新辦公室開始讓人覺得沒那麼令人畏懼。",
+      "promptZh": "說話者描述了甚麼變化？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The office had become objectively safe in every possible way.",
+          "zh": "辦公室已經在每個可能方面都客觀地安全。"
+        },
+        {
+          "id": "b",
+          "en": "The office had always felt exactly the same.",
+          "zh": "辦公室給人的感覺一直完全相同。"
+        },
+        {
+          "id": "c",
+          "en": "Friendly contact began to make the place seem less frightening.",
+          "zh": "友善接觸開始令這個地方感覺沒那麼可怕。"
+        },
+        {
+          "id": "d",
+          "en": "The office felt welcoming before any of the friendly conversations took place.",
+          "zh": "友善交談發生前，辦公室已經令人覺得親切。"
+        }
+      ],
+      "answerId": "c",
+      "explanationZh": "started 標示感覺開始改變；沒有說建築物改變或證明完全無風險。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼你每天來這裏後，沒那麼緊張了？",
+      "promptEn": "Why are you less nervous after coming here every day?",
+      "options": [
+        {
+          "id": "a",
+          "en": "I know a few people here now.",
+          "zh": "我現在認識這裏幾個人了。"
+        },
+        {
+          "id": "b",
+          "en": "The routine is becoming familiar.",
+          "zh": "這個日常安排正變得熟悉。"
+        },
+        {
+          "id": "c",
+          "en": "I have learned where things are and who to ask.",
+          "zh": "我已知道東西在哪裏，也知道可以問誰。"
+        },
+        {
+          "id": "d",
+          "en": "It starts to feel more welcoming when I see familiar faces.",
+          "zh": "看見熟悉面孔時，這裏開始讓人覺得更親切。"
+        }
+      ],
+      "explanationZh": "四個回應都能解釋緊張減少；金句描述地方帶來的感覺開始改變。",
+      "goldenId": "d"
+    },
+    "scene": {
+      "promptZh": "剛搬家時你覺得房間很陌生，放好書本和照片後，開始有家的感覺。哪句最合適？",
+      "options": [
+        {
+          "id": "a",
+          "en": "It started to feel like home after I unpacked.",
+          "zh": "我整理行李後，這裏開始有家的感覺。"
+        },
+        {
+          "id": "b",
+          "en": "It felt exactly the same before and after everything changed.",
+          "zh": "一切改變前後，它的感覺完全一樣。"
+        },
+        {
+          "id": "c",
+          "en": "I had finished every change to the room and would never alter it again.",
+          "zh": "我已完成房間的所有改動，永遠不會再改。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "句子描述感受開始轉變，而不是法律擁有權。"
+    },
+    "contrast": {
+      "promptZh": "哪句最清楚區分感覺與事實？",
+      "options": [
+        {
+          "id": "a",
+          "en": "If it starts to feel trustworthy, it must be trustworthy.",
+          "zh": "只要它開始讓人覺得可靠，就一定可靠。"
+        },
+        {
+          "id": "b",
+          "en": "It starts to feel familiar, but I still need to check the facts.",
+          "zh": "它開始讓人覺得熟悉，但我仍要查證事實。"
+        },
+        {
+          "id": "c",
+          "en": "It must have been familiar from the beginning if it feels familiar now.",
+          "zh": "既然現在感覺熟悉，它一定從一開始就很熟悉。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "熟悉感與可靠程度不同；這個句式只交代感受，不自動證明事實。"
+    },
+    "dialogue": {
+      "promptZh": "朋友說：「這個網站我看過很多次，現在覺得可信，可以不用查資料吧？」哪句最合宜？",
+      "options": [
+        {
+          "id": "a",
+          "en": "It starts to feel familiar with repetition, but familiarity is not proof.",
+          "zh": "反覆接觸會開始令它感覺熟悉，但熟悉感不是證據。"
+        },
+        {
+          "id": "b",
+          "en": "If it feels familiar, every claim on it must be true.",
+          "zh": "只要感覺熟悉，網站上每個說法就一定是真的。"
+        },
+        {
+          "id": "c",
+          "en": "Seeing it often means I have already checked all its claims.",
+          "zh": "經常看見它，就表示我已查證它的所有說法。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "承認重複接觸會改變感受，同時提醒仍要查證。"
+    },
+    "speaking": {
+      "en": "After a few visits, it starts to feel like a place where I belong.",
+      "zh": "去過幾次後，這裏開始讓我覺得有歸屬感。",
+      "promptZh": "先聽示範，再描述到訪幾次後逐漸出現的感覺。",
+      "targetSpan": {
+        "start": 20,
+        "end": 37
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：你初次參加社區合唱團時很緊張，但幾次排練後，大家記得你的名字，也會跟你聊天。用一至兩句英文描述感覺的改變。",
+      "selfCheckZh": "用具體互動支持感受改變；句式後接形容詞或 like 加名詞，不要誤寫成客觀保證。",
+      "examples": [
+        {
+          "en": "It started to feel more welcoming after a few rehearsals. People remembered my name and chatted with me.",
+          "zh": "幾次排練後，這裏開始讓人覺得更親切。大家記得我的名字，也會跟我聊天。"
+        },
+        {
+          "en": "Now that I know the other singers, it starts to feel like a friendly community.",
+          "zh": "現在我認識了其他歌手，這裏開始讓人覺得像個友善的社群。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "more welcoming",
+          "zh": "更親切",
+          "exampleIndex": 0,
+          "span": {
+            "start": 19,
+            "end": 33
+          }
+        },
+        {
+          "en": "a few rehearsals",
+          "zh": "幾次排練",
+          "exampleIndex": 0,
+          "span": {
+            "start": 40,
+            "end": 56
+          }
+        },
+        {
+          "en": "remembered my name",
+          "zh": "記得我的名字",
+          "exampleIndex": 0,
+          "span": {
+            "start": 65,
+            "end": 83
+          }
+        },
+        {
+          "en": "the other singers",
+          "zh": "其他歌手",
+          "exampleIndex": 1,
+          "span": {
+            "start": 16,
+            "end": 33
+          }
+        },
+        {
+          "en": "a friendly community",
+          "zh": "一個友善的社群",
+          "exampleIndex": 1,
+          "span": {
+            "start": 58,
+            "end": 78
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "With practice, it starts to feel less unfamiliar.",
+        "zh": "隨着練習，它開始讓人覺得沒那麼陌生。"
+      },
+      {
+        "en": "After several rehearsals, it starts to feel more natural.",
+        "zh": "經過幾次排練後，它開始讓人覺得更自然。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  },
+  {
+    "id": "advanced-native-025",
+    "number": 25,
+    "inventoryId": "expr-0025",
+    "titleEn": "nudge people in a certain direction",
+    "titleZh": "輕輕推動選擇方向",
+    "category": "figurative",
+    "target": {
+      "pattern": "\\bnudg(?:e|es|ed|ing) (?:people|me|you|him|her|us|them|students|customers) in (?:a certain|that|this|a particular) direction\\b|\\bnudged in (?:a certain|that|this|a particular) direction\\b",
+      "glossaryForbidden": [
+        "\\bnudg(?:e|es|ed|ing)\\b",
+        "\\bdirection\\b"
+      ]
+    },
+    "brief": {
+      "meaningEn": "Gently or subtly influence someone towards a choice or course of action.",
+      "meaningZh": "以輕微或不明顯的方式，影響某人的選擇方向。",
+      "grammar": "nudge + object + in a certain/particular direction; be nudged in a certain direction is the passive form, with the influenced person as subject. The image is based on a gentle physical push.",
+      "register": "Neutral discussion of choices, design and persuasion.",
+      "boundaryZh": "表示影響而非強迫；受影響的人仍可能作不同選擇，也不一定完全沒察覺。",
+      "misconceptionZh": "不等於把人實際推向某處，也不保證影響一定成功。",
+      "outcomeZh": "能辨認輕微提示或安排如何影響決定。"
+    },
+    "sources": [
+      {
+        "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+        "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+        "page": 4,
+        "expression": "nudges people in a certain direction",
+        "sentence": "In other words, advertising often nudges people in a certain direction before they even realise it.",
+        "referenceSentenceKind": "source_sentence",
+        "book": null,
+        "question": null,
+        "sample": null,
+        "locatorNote": "PDF page 4, table 1, row 5; source book/question/sample not stated where null.",
+        "occurrenceId": "pdf-1-p004-t1-r05"
+      },
+      {
+        "occurrenceId": "pdf-2-p020-t1-r04",
+        "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+        "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+        "page": 20,
+        "book": 2,
+        "question": 20,
+        "sample": "S2",
+        "expression": "nudged in a certain direction",
+        "sentence": "Children may be nudged in a certain direction by advertising.",
+        "referenceSentenceKind": "guide_original_example",
+        "locatorNote": "PDF page 20, table 1, row 4"
+      }
+    ],
+    "listening": {
+      "en": "Putting the healthier meals first can nudge customers in a certain direction without removing the other choices.",
+      "zh": "先展示較健康的餐點，可以輕微引導顧客的選擇，而不用取消其他選項。",
+      "promptZh": "這種安排的作用是甚麼？",
+      "options": [
+        {
+          "id": "a",
+          "en": "It gently encourages one choice while keeping alternatives.",
+          "zh": "它輕微鼓勵某種選擇，同時保留其他選項。"
+        },
+        {
+          "id": "b",
+          "en": "It forces every customer to order the same meal.",
+          "zh": "它迫使每位顧客點同一餐。"
+        },
+        {
+          "id": "c",
+          "en": "It guarantees that healthier meals will become a favourite for everyone.",
+          "zh": "它保證較健康餐點會成為每個人的最愛。"
+        },
+        {
+          "id": "d",
+          "en": "It hides the healthier meals so customers consider them last.",
+          "zh": "它把較健康餐點藏起來，讓顧客最後才考慮。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "沒有取消選擇，只用展示次序影響選擇傾向，符合輕微引導。"
+    },
+    "reply": {
+      "promptZh": "朋友問：為甚麼網站把節能選項放在最上面？",
+      "promptEn": "Why does the website put the energy-saving option at the top?",
+      "options": [
+        {
+          "id": "a",
+          "en": "It makes that option easier to notice.",
+          "zh": "這令那個選項較容易被留意。"
+        },
+        {
+          "id": "b",
+          "en": "It may encourage visitors to consider it first.",
+          "zh": "這可能鼓勵訪客先考慮它。"
+        },
+        {
+          "id": "c",
+          "en": "The layout can nudge people in a certain direction while leaving the choice open.",
+          "zh": "版面可以輕微引導人們的選擇方向，同時保留選擇自由。"
+        },
+        {
+          "id": "d",
+          "en": "The designers want to make the lower-energy choice more visible.",
+          "zh": "設計者想讓較節能的選項更顯眼。"
+        }
+      ],
+      "explanationZh": "四個回應都解釋版面影響；金句清楚區分引導與強制。",
+      "goldenId": "c"
+    },
+    "scene": {
+      "promptZh": "圖書館把推薦書放在入口，仍讓讀者自由選其他書。哪句最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "The display may nudge people in a certain direction.",
+          "zh": "陳列方式可能會輕微引導人們的選擇方向。"
+        },
+        {
+          "id": "b",
+          "en": "The display removes every reader's choice.",
+          "zh": "陳列方式令每位讀者都失去選擇。"
+        },
+        {
+          "id": "c",
+          "en": "The display guarantees that everyone will borrow the same book.",
+          "zh": "陳列方式保證每個人都借同一本書。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "增加顯眼程度是輕微影響，不等於限制選擇或保證結果。"
+    },
+    "contrast": {
+      "promptZh": "哪個情況最不像 nudge people in a certain direction？",
+      "options": [
+        {
+          "id": "a",
+          "en": "A gentle reminder encourages students to bring reusable bottles.",
+          "zh": "溫和提醒鼓勵學生帶可重用水瓶。"
+        },
+        {
+          "id": "b",
+          "en": "An organiser removes every alternative and requires everyone to make the same choice.",
+          "zh": "主辦者取消所有其他選項，要求每人作同一選擇。"
+        },
+        {
+          "id": "c",
+          "en": "A clear label makes a lower-cost option more noticeable.",
+          "zh": "清晰標籤令較便宜的選項更顯眼。"
+        }
+      ],
+      "answerId": "b",
+      "explanationZh": "取消選項並強制同一選擇，超出了輕微引導的意思。"
+    },
+    "dialogue": {
+      "promptZh": "同事說：「只要把這個選項放前面，人人都會選它。」哪句回應最準確？",
+      "options": [
+        {
+          "id": "a",
+          "en": "It may nudge people in that direction, but it will not decide for everyone.",
+          "zh": "這可能輕微引導人們朝那個方向選擇，但不會替每個人作決定。"
+        },
+        {
+          "id": "b",
+          "en": "A nudge guarantees the same decision from every person.",
+          "zh": "輕微引導保證每個人作相同決定。"
+        },
+        {
+          "id": "c",
+          "en": "The order of options can never influence anyone.",
+          "zh": "選項次序絕不可能影響任何人。"
+        }
+      ],
+      "answerId": "a",
+      "explanationZh": "may 和不保證人人相同，準確表達影響程度。"
+    },
+    "speaking": {
+      "en": "A friendly reminder can nudge us in a certain direction without forcing a decision.",
+      "zh": "友善提醒可以輕微引導我們的選擇方向，而不強迫作決定。",
+      "promptZh": "先聽示範，再說明提醒與強迫的分別。",
+      "targetSpan": {
+        "start": 24,
+        "end": 55
+      }
+    },
+    "writing": {
+      "promptZh": "新情境：學校想鼓勵學生多用樓梯，在樓梯旁放上友善提示，但仍開放升降機。用一至兩句英文描述提示的作用，並保留學生的選擇。",
+      "selfCheckZh": "說明輕微引導及具體方法，並保留其他選擇；不用保證所有人都照做。",
+      "examples": [
+        {
+          "en": "The signs may nudge students in a certain direction by making the stairs more noticeable. The lift remains available.",
+          "zh": "提示牌把樓梯變得更顯眼，可能會輕微引導學生的選擇。升降機仍然開放。"
+        },
+        {
+          "en": "A friendly message can nudge people in a certain direction, but students should still be free to choose the lift.",
+          "zh": "友善訊息可以輕微引導人們的選擇方向，但學生仍應可自由選擇乘升降機。"
+        }
+      ],
+      "glossary": [
+        {
+          "en": "The signs",
+          "zh": "提示牌",
+          "exampleIndex": 0,
+          "span": {
+            "start": 0,
+            "end": 9
+          }
+        },
+        {
+          "en": "the stairs",
+          "zh": "樓梯",
+          "exampleIndex": 0,
+          "span": {
+            "start": 62,
+            "end": 72
+          }
+        },
+        {
+          "en": "more noticeable",
+          "zh": "更顯眼",
+          "exampleIndex": 0,
+          "span": {
+            "start": 73,
+            "end": 88
+          }
+        },
+        {
+          "en": "remains available",
+          "zh": "仍然開放",
+          "exampleIndex": 0,
+          "span": {
+            "start": 99,
+            "end": 116
+          }
+        },
+        {
+          "en": "free to choose the lift",
+          "zh": "可自由選擇乘升降機",
+          "exampleIndex": 1,
+          "span": {
+            "start": 89,
+            "end": 112
+          }
+        }
+      ]
+    },
+    "takeaways": [
+      {
+        "en": "A small change can nudge people in a certain direction.",
+        "zh": "一個小改變可以輕微引導人們的選擇方向。"
+      },
+      {
+        "en": "A clear label can nudge people in a certain direction without removing alternatives.",
+        "zh": "清晰的標籤可以輕微引導人們的選擇方向，而不用取消其他選項。"
+      }
+    ],
+    "review": {
+      "state": "drafted",
+      "english": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Read every model, option and example for sense, grammar, contextual fit and target morphology; not independent human approval."
+      },
+      "chinese": {
+        "status": "passed",
+        "reviewer": "AI author self-review",
+        "evidence": "Traditional Chinese translations checked against each English sentence; not independent human approval."
+      },
+      "media": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "qa": {
+        "status": "pending",
+        "reviewer": "",
+        "evidence": ""
+      },
+      "notes": [
+        "Source nudges people in a certain direction normalized to base-form nudge; complete exact occurrence retained.",
+        "Second AI author review replaced literal toy or nonsensical distractors with fluent nearby meaning or inference errors where identified. Independent review and media checks remain pending."
+      ]
+    },
+    "contentRevision": 1
+  }
+]

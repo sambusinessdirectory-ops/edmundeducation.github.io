@@ -138,9 +138,11 @@ body[data-course="advanced-native"] .stage .reply-question .choices button.golde
 body[data-course="advanced-native"] .negative-cue{color:#c21f27;font-weight:950;background:#fff0ef;border-radius:4px;padding:0 .12em}
 body[data-course="advanced-native"] .sentence-translation{display:block;margin-top:8px;color:#444;font-size:.95rem;line-height:1.65;font-weight:500;letter-spacing:0;line-break:strict;text-wrap:balance}
 body[data-course="advanced-native"] .sentence-translation .zh-phrase{display:inline-block;max-width:100%;text-wrap:balance}
-body[data-course="advanced-native"] .text-tail{display:inline-block;max-width:100%;white-space:normal;text-wrap:balance}
+body[data-course="advanced-native"] .text-tail{display:inline-block;max-width:100%;white-space:nowrap}
+/* Cards are image-free: give their text the full available content width. */
+body[data-course="advanced-native"] .module-card-grid[data-layout="featured"] .advanced-module-card:nth-child(n) .module-card-copy{max-width:100%}
 body[data-course="advanced-native"] .zh-phrase{display:inline-block;max-width:100%;line-break:strict;text-wrap:balance}
-body[data-course="advanced-native"] .choices{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+body[data-course="advanced-native"] .choices{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
 body[data-course="advanced-native"] .stage .question{min-width:0}
 body[data-course="advanced-native"] :is(.choice-original,.model-sentence,.open-review li>span:first-child){word-break:normal;overflow-wrap:normal;text-wrap:pretty}
 body[data-course="advanced-native"] .choices .choice-copy{overflow-wrap:normal;word-break:normal}
@@ -214,3 +216,29 @@ body[data-course="advanced-native"] .open-review ul{padding-left:1em}
 body[data-course="advanced-native"] .writing-glossary{padding:14px 10px}
 body[data-course="advanced-native"] .writing-glossary :is(th,td){padding:9px 7px}
 }
+@media(max-width:460px){
+/* Full-width text keeps long glossary pairs legible on narrow phones. */
+body[data-course="advanced-native"] .writing-glossary :is(table,tbody){display:block;width:100%}
+body[data-course="advanced-native"] .writing-glossary td{display:block;min-width:0}
+body[data-course="advanced-native"] .open-review ul{padding-left:0;list-style:none}
+}
+@media(max-width:380px){
+/* Move the answer badge above its copy instead of squeezing the sentence. */
+body[data-course="advanced-native"] .choices button{flex-direction:column;gap:8px}
+body[data-course="advanced-native"] .choices button>.choice-copy{width:100%}
+body[data-course="advanced-native"] .dashboard-panel>summary{flex-wrap:wrap;gap:10px}
+body[data-course="advanced-native"] .dashboard-panel>summary>span:first-child{flex:1 1 100%;min-width:0}
+body[data-course="advanced-native"] .dashboard-panel>summary>span:last-child{margin-left:auto;white-space:nowrap}
+}
+@media(max-width:460px){
+/* Give each bilingual glossary pair a full line without reducing its font. */
+body[data-course="advanced-native"] .writing-glossary thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+body[data-course="advanced-native"] .writing-glossary tr{display:grid;grid-template-columns:minmax(0,1fr)}
+body[data-course="advanced-native"] .writing-glossary td:first-child{border-bottom:0;padding-bottom:3px}
+body[data-course="advanced-native"] .writing-glossary td:last-child{padding-top:0;color:#42483a}
+}
+
+/* Keep Advanced Native controls usable by touch without changing other systems. */
+body[data-course="advanced-native"] :is(button,input,select,summary){min-width:44px;min-height:44px}
+body[data-course="advanced-native"] .edmund-system-header a{min-width:44px;min-height:44px}
+body[data-course="advanced-native"] .header-actions>a{display:inline-flex;align-items:center;justify-content:center}

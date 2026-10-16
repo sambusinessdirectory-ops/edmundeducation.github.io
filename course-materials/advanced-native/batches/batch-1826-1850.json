@@ -1,0 +1,4521 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1826-1850",
+  "lessons": [
+    {
+      "id": "advanced-native-1826",
+      "number": 1826,
+      "inventoryId": "expr-1826",
+      "contentRevision": 1,
+      "titleEn": "pack activities into a few days",
+      "titleZh": "把多項活動塞進幾天",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bpack(?:s|ed|ing)? (?:ten|six|eight|several|too many) activities into (?:three|two|a few) days\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p224-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 224,
+          "book": 8,
+          "question": 19,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "We regretted packing ten activities into three days.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "packing ten activities into three days",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Schedule many activities within a short period, often suggesting an overfull timetable when the context shows insufficient time.",
+        "meaningZh": "在短時間內排入很多活動；若情境顯示時間不足，常帶有行程太滿的意思。",
+        "grammar": "pack six activities into two days; packing ten activities into three days; pack + quantity of activities + into + period is productive, so the numbers are contextual details",
+        "register": "neutral",
+        "boundaryZh": "活動數量多不自動證明不合理，仍要看活動長度、交通和是否全部必須參加；不能把選項清單當每人已排滿的時間表。",
+        "misconceptionZh": "活動數量多不自動證明不合理，仍要看活動長度、交通和是否全部必須參加；不能把選項清單當每人已排滿的時間表。",
+        "outcomeZh": "理解「把多項活動塞進幾天」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A vivid scheduling use of pack, not a fixed idiom requiring exactly ten activities or three days."
+      },
+      "listening": {
+        "en": "I had packed six activities into two days, leaving no time for the conversation I most wanted with my aunt; by the second evening, I wished I had chosen fewer stops.",
+        "zh": "我把六項活動塞進兩天，沒有留時間跟姨母進行自己最想要的談話；到了第二晚，我希望當初少選幾個行程。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者的行程太滿，犧牲了自己珍惜的談話時間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "六項活動只是可選清單，說話者只選了一項。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者已預留整個晚上談話，活動沒有佔去那段時間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "姨母在出發前已要求取消所有探訪，所以沒有談話。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "leaving no time 與 wished fewer stops 交代為何這次排得太滿，不是單憑數字判斷。"
+      },
+      "reply": {
+        "promptEn": "Why did you wish you had chosen fewer stops?",
+        "promptZh": "你為甚麼希望當初少選幾個行程？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I had packed six activities into two days and left no time to talk properly with my aunt.",
+            "zh": "我把六項活動塞進兩天，沒有時間好好跟姨母談話。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The schedule crowded out the conversation I valued most.",
+            "zh": "時間表擠走了我最珍惜的談話。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The full schedule left too little room for the conversation I had hoped to have with her.",
+            "zh": "排滿的時間表，令我原想跟她進行的談話沒有足夠空間。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The number of stops did not match what I actually wanted from the visit.",
+            "zh": "行程數量跟我真正想從探訪得到的東西不相配。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "活動冊在兩天內提供六個自選工作坊，每人只需選一個，時間也分開。有人只看見六個名稱，就說每位參加者都被塞滿兩天。哪句最謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The list alone does not show that each person is packing six activities into two days, because participants choose only one.",
+            "zh": "單憑清單，不能說每人都把六項活動塞進兩天，因為參加者只選一個。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The six titles establish that every participant has agreed to attend all the sessions.",
+            "zh": "六個名稱已足以證明每位參加者都答應出席全部時段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choosing one workshop means the other five have been cancelled for everyone.",
+            "zh": "選一個工作坊，表示其餘五個已為所有人取消。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先分清選項與個人承諾；有六個選擇，不代表每人必須全做，也不代表未選的已取消。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜只憑 pack activities into a short period 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "很多活動被排進較短時段。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "無論活動長短和參與方式，安排一定不可行。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可再查看交通、休息和實際想達成的目的。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "是否過密要看具體安排，不能只憑數量下結論。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說你只要走快一點，就可保留全部行程和長談；你想把探訪重點改回陪姨母。哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I packed six activities into two days, but speed was not what I wanted from the visit; could we leave some stops out and keep time to talk?",
+            "zh": "我把六項活動塞進兩天，但探訪不是為了求快；可否刪去一些行程，留下談話時間？"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would shorten the conversation first so that the number of completed stops stays the same.",
+            "zh": "我會先縮短談話，保留完成相同行程數量。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought reaching each stop mattered more than leaving unhurried time with my aunt, even though the conversation was what I had most wanted.",
+            "zh": "我原以為到達每個行程比留下從容陪姨母的時間重要，即使那段談話才是我最想要的事。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "回應自己珍惜的共處時間，不把完成行程數量當唯一目的。"
+      },
+      "speaking": {
+        "en": "We are packing too many activities into three days if nobody has time to finish the project the visit is meant to support.",
+        "zh": "如果大家都沒有時間完成這次到訪原想支援的項目，我們就是在三天內塞入太多活動。",
+        "targetSpan": {
+          "start": 7,
+          "end": 50
+        },
+        "promptZh": "先聽示範，再說行程數量如何影響真正目的。"
+      },
+      "writing": {
+        "promptZh": "新情境：你參加三天藝術營，需完成一件小作品，但草擬安排同時要求每人參加十個活動。你要向籌委提出先確認哪些活動對作品最有用，保留製作時間，不只要求所有人做得更快。用一至兩句英文提出調整。",
+        "examples": [
+          {
+            "en": "We are packing ten activities into three days while also asking everyone to finish a piece of work. Could we agree which sessions support that goal and leave enough time for making?",
+            "zh": "我們把十項活動塞進三天，卻又要求每人完成一件作品。可否先議哪些時段支援這個目標，並留下足夠製作時間？"
+          },
+          {
+            "en": "Packing ten activities into three days may leave the project without the attention it needs. I would like us to choose the most relevant sessions before setting the making timetable.",
+            "zh": "把十項活動塞進三天，可能令作品得不到所需時間與專注。我希望先選最相關的時段，再訂製作時間表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a piece of work",
+            "zh": "一件作品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 98
+            }
+          },
+          {
+            "en": "enough time for making",
+            "zh": "足夠製作時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 180
+            }
+          },
+          {
+            "en": "the attention it needs",
+            "zh": "它所需的專注",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 91
+            }
+          },
+          {
+            "en": "the most relevant sessions",
+            "zh": "最相關的時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 145
+            }
+          },
+          {
+            "en": "the making timetable",
+            "zh": "製作時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 181
+            }
+          }
+        ],
+        "selfCheckZh": "把時間需要連到藝術營的作品目標，提出選擇與製作安排；不單憑數字判所有活動無用，也不以加快代替取捨。"
+      },
+      "takeaways": [
+        {
+          "en": "The organisers packed eight activities into three days, then realised that participants needed time between them to travel and compare their notes.",
+          "zh": "主辦者把八項活動塞進三天，後來才發現參加者需要活動之間的交通和比較筆記時間。"
+        },
+        {
+          "en": "She did not want to pack several activities into a few days just to fill the brochure; she asked what visitors actually hoped to do.",
+          "zh": "她不想只為填滿小冊，就把多項活動塞進幾天，所以先問訪客真正希望做甚麼。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1828",
+      "number": 1828,
+      "inventoryId": "expr-1828",
+      "contentRevision": 1,
+      "titleEn": "somewhere that fits me",
+      "titleZh": "選擇真正適合自己的地方",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsomewhere that fits (?:me|you|him|her|us|them)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p224-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 224,
+          "book": 8,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "She cared more about going somewhere that fits me than travelling far.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "going somewhere that fits me",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A place whose qualities suit a person’s preferences or present needs.",
+        "meaningZh": "一個在特點上配合當事人喜好或當前需要的地方。",
+        "grammar": "go/choose to go somewhere that fits me/her/us; somewhere takes singular fits, while the object pronoun agrees with the person concerned",
+        "register": "neutral",
+        "boundaryZh": "適合自己不是宣稱所有人都喜歡，也不保證地方每項條件都理想；應說明哪些特點配合需要。",
+        "misconceptionZh": "適合自己不是宣稱所有人都喜歡，也不保證地方每項條件都理想；應說明哪些特點配合需要。",
+        "outcomeZh": "理解「選擇真正適合自己的地方」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A transparent fit-as-suitability metaphor; the pronoun names whose needs or preferences matter."
+      },
+      "listening": {
+        "en": "I chose somewhere that fits me rather than the farthest destination: the small town had a library, short walks and time to read, which was what I wanted after the busy term.",
+        "zh": "我選了一個適合自己的地方，不是最遠的目的地；小鎮有圖書館、短途散步和閱讀時間，正是忙碌學期後我想要的。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者按閱讀與從容活動的需要選地方，不以距離為首要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者認為最遠的地方才可能有圖書館。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者選了最密集的行程，只因它比其他地方遠。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "小鎮是全班統一選擇，說話者沒有說自己的喜好。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "library/short walks/read 提供個人配合的依據，rather than farthest 排除只按距離。"
+      },
+      "reply": {
+        "promptEn": "Why did you choose the small town?",
+        "promptZh": "你為甚麼選那個小鎮？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I wanted somewhere that fits me, with books and room for a slower day.",
+            "zh": "我想找適合自己的地方，有書，也容許慢一些過一天。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Its library and short walks matched what I wanted after term.",
+            "zh": "那裏的圖書館和短途散步，配合我學期後的需要。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I was looking for time to read rather than the longest journey.",
+            "zh": "我想要閱讀時間，不是最長的旅程。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The choice reflected my current preferences, not a claim that it would suit everyone.",
+            "zh": "選擇反映我目前的喜好，不是說它適合每個人。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩位朋友看同一旅程介紹，一人想熱鬧夜市，另一人想安靜讀書；他們尚未談可否分開活動。有人只因一人喜歡，就替兩人訂下。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We should ask whether it is somewhere that fits us both before booking a shared plan.",
+            "zh": "預訂共同安排前，我們應先問這是否適合兩人的地方。"
+          },
+          {
+            "id": "choice-2",
+            "en": "One friend’s enthusiasm confirms that the other person wants the same evenings.",
+            "zh": "一位朋友很興奮，已足以確認另一人也想要同樣的晚上安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The different preferences show that neither friend has any interest in travelling.",
+            "zh": "喜好不同，顯示兩人都沒有旅行興趣。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "個人配合需逐一了解；偏好不同不等於不想旅行，也不能由一人代表兩人。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 somewhere that fits me 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "地方某些特點配合我的喜好或需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "它已被證明是適合所有人的最佳目的地。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可說明哪些條件配合自己，以及哪些要再查。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "個人適合是有範圍的判斷，不是人人一致的排名。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「小鎮近得多，你是不是只是放棄較好的地方？」你原本重視閱讀及短途散步。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I chose somewhere that fits me; the distance does not tell us whether it offers the kind of day I want.",
+            "zh": "我選了適合自己的地方；距離不能告訴我們它是否提供我想要的一天。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed a longer journey would necessarily give me more time to read once I arrived.",
+            "zh": "我以為旅程較長，到埗後就一定有更多閱讀時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would rank the places by distance first and consider the library only if the journeys were equal.",
+            "zh": "我會先按距離排地方，只有路程相同才考慮圖書館。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "按所需活動評配合，不把距離當品質或可閱讀時間的證據。"
+      },
+      "speaking": {
+        "en": "I am looking for somewhere that fits me at this point, with time to read rather than a timetable I have to rush through.",
+        "zh": "我正在找配合自己當前需要的地方，有時間閱讀，不是必須趕完的時間表。",
+        "targetSpan": {
+          "start": 17,
+          "end": 39
+        },
+        "promptZh": "先聽示範，再指出自己的當前需要。"
+      },
+      "writing": {
+        "promptZh": "新情境：你寫給朋友的旅後回信。你原推薦安靜村莊，朋友卻說那裏不適合自己，較想聽現場音樂。你想承認自己把個人喜好當成對方需要，說下次會先了解他想怎度過晚上，不堅持距離近或景色美就足夠。用一至兩句英文回覆。",
+        "examples": [
+          {
+            "en": "I recommended somewhere that fits me without first asking what you wanted from the evenings. Next time I will listen to your interest in live music rather than assume my quiet village is the right choice for you.",
+            "zh": "我沒先問你晚上想做甚麼，就推薦了適合自己的地方。下次我會先聽你對現場音樂的興趣，不假定自己喜歡的安靜村莊也適合你。"
+          },
+          {
+            "en": "I should have helped you find somewhere that fits you, not simply repeated my own preference for quiet. Thank you for explaining the difference; I would like to ask about your plans before recommending another place.",
+            "zh": "我本應幫你找適合你的地方，不只是重複自己喜歡安靜。謝謝你解釋分別；再推薦其他地方前，我想先問你的打算。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "what you wanted from the evenings",
+            "zh": "你想從晚上得到甚麼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 91
+            }
+          },
+          {
+            "en": "live music",
+            "zh": "現場音樂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 147
+            }
+          },
+          {
+            "en": "my quiet village",
+            "zh": "我喜歡的安靜村莊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 183
+            }
+          },
+          {
+            "en": "my own preference for quiet",
+            "zh": "我自己喜歡安靜的偏好",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 102
+            }
+          },
+          {
+            "en": "before recommending another place",
+            "zh": "再推薦其他地方之前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 182,
+              "end": 215
+            }
+          }
+        ],
+        "selfCheckZh": "承認推薦未有先了解朋友需要，提出下次先問的改變；不否定任何一方的喜好，也不把自己的適合當別人的答案。"
+      },
+      "takeaways": [
+        {
+          "en": "She wanted somewhere that fits her, so she compared the reading spaces rather than count the attractions on each brochure.",
+          "zh": "她想找適合自己的地方，所以比較閱讀空間，不只數每本小冊有多少景點。"
+        },
+        {
+          "en": "We agreed to ask what each person needed before choosing somewhere that fits us for the shared weekend.",
+          "zh": "選擇適合兩人共度周末的地方前，我們同意先問各自需要甚麼。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      },
+      "sourceCuration": {
+        "note": "Exact guide example retains its original She/fits me pronoun mismatch; learner practice uses internally consistent first-person or third-person references without silently changing provenance.",
+        "originalSourcePreserved": true
+      }
+    },
+    {
+      "id": "advanced-native-1829",
+      "number": 1829,
+      "inventoryId": "expr-1829",
+      "contentRevision": 1,
+      "titleEn": "wrung out",
+      "titleZh": "感到筋疲力盡",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwrung out\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p224-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 224,
+          "book": 8,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "After the rushed trip, we felt wrung out.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "wrung out",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Completely exhausted or drained of energy.",
+        "meaningZh": "非常疲累，像精力被耗盡。",
+        "grammar": "feel/be/look wrung out after + demanding experience; wrung is the past participle of wring, and the adjective uses the image of liquid squeezed from cloth",
+        "register": "neutral",
+        "boundaryZh": "這裏描述當時的疲倦，不自動表示厭惡活動或從此不再參與；需分清疲累與興趣。",
+        "misconceptionZh": "這裏描述當時的疲倦，不自動表示厭惡活動或從此不再參與；需分清疲累與興趣。",
+        "outcomeZh": "理解「感到筋疲力盡」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "After the festival’s long final day, I felt wrung out and left the messages until morning; I had loved the performances, but I did not have the energy for another late conversation.",
+        "zh": "節慶最後一天很長，我感到筋疲力盡，把訊息留到早上；我很喜歡那些演出，但沒有精力再談到深夜。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者喜歡演出，同時已很疲累，暫不回訊息。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者因討厭所有演出而決定不再參加節慶。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者仍很有精力，想再加入一場深夜談話。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者把訊息刪掉，從此不再跟朋友聯絡。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "loved 與 no energy 可並存；until morning 是延後，不是永久斷聯。"
+      },
+      "reply": {
+        "promptEn": "Why did you leave the messages until morning?",
+        "promptZh": "你為甚麼把訊息留到早上？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I felt wrung out after the long festival day.",
+            "zh": "漫長的節慶一天後，我感到筋疲力盡。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I did not have enough energy for another late conversation.",
+            "zh": "我沒有足夠精力再談到深夜。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I wanted to answer after resting, rather than struggle to follow the messages that night.",
+            "zh": "我想休息後才回覆，不是在那晚勉強跟着訊息。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Enjoying the performances had not stopped the day from being tiring.",
+            "zh": "即使享受演出，那天仍然令人疲累。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物完成一次很喜歡的義工活動後說累極，但仍想下月再來；朋友把疲倦讀成已失去興趣。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She can feel wrung out now and still want to volunteer again next month.",
+            "zh": "她現在可以筋疲力盡，同時仍想下月再做義工。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Feeling tired establishes that she no longer values the activity.",
+            "zh": "感到疲倦，已足以確立她不再重視活動。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her plan to return means she cannot be describing present exhaustion.",
+            "zh": "她打算再來，表示她不可能在描述目前的疲累。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "現在的精力與之後的參與願望是兩個層面，不能互相抹去。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 feeling wrung out 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "當事人現在非常疲累。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當事人必定討厭剛做過的活動。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可需要休息後再決定下一步。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "疲累不直接決定喜愛程度或長遠選擇。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說你既很喜歡演出，就應立即再談一晚；你想保留興趣，也說清現在需要休息。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I loved it, but I feel wrung out; could we talk tomorrow when I can give the conversation more attention?",
+            "zh": "我很喜歡，但現在筋疲力盡；可否明天談，讓我更專注？"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would keep talking tonight to prove that I enjoyed the performances.",
+            "zh": "我會今晚繼續談，證明自己享受演出。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought wanting to rest meant there was no point asking me about the performances later.",
+            "zh": "我以為想休息，表示之後也不用再問我演出的事。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "延後談話可以保留興趣與注意力，不需用繼續硬撐證明喜歡。"
+      },
+      "speaking": {
+        "en": "I feel wrung out after today, so I would like to rest before deciding whether I can help with another session.",
+        "zh": "今天過後我感到筋疲力盡，所以想先休息，再決定能否幫另一個時段。",
+        "targetSpan": {
+          "start": 7,
+          "end": 16
+        },
+        "promptZh": "先聽示範，再分當下精力與之後承諾。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友邀你今晚再替展覽佈置兩小時，你已連續處理一整天的接待，感到精力耗盡。你仍重視展覽，但不想先答應再做不到；你可交代已完成的事，明早休息後再回覆是否能幫下一更。用一至兩句英文回覆邀請。",
+        "examples": [
+          {
+            "en": "I care about the exhibition, but I feel wrung out after the full day on reception and cannot promise two more hours tonight. I can send you the handover notes now and let you know about tomorrow’s shift after I have rested.",
+            "zh": "我重視展覽，但接待一整天後已筋疲力盡，不能答應今晚再做兩小時。我可現在傳交接筆記，休息後再回覆明天那一更。"
+          },
+          {
+            "en": "Feeling wrung out is why I need to stop for tonight, not a sign that I have lost interest in the exhibition. Please do not count me in for the extra hours; I will review what I can offer in the morning.",
+            "zh": "筋疲力盡是我今晚需要停下的原因，不是對展覽失去興趣。請別先把我算進額外時數；我會早上再看自己能提供甚麼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the full day on reception",
+            "zh": "接待一整天",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 81
+            }
+          },
+          {
+            "en": "two more hours tonight",
+            "zh": "今晚再做兩小時",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 123
+            }
+          },
+          {
+            "en": "the handover notes",
+            "zh": "交接筆記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 158
+            }
+          },
+          {
+            "en": "tomorrow’s shift",
+            "zh": "明天那一更",
+            "exampleIndex": 0,
+            "span": {
+              "start": 186,
+              "end": 202
+            }
+          },
+          {
+            "en": "the extra hours",
+            "zh": "額外時數",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 154
+            }
+          }
+        ],
+        "selfCheckZh": "說清目前精力與不能承諾的範圍，交代可交接及何時再答；不以疲累否定興趣，也不先接受做不到的安排。"
+      },
+      "takeaways": [
+        {
+          "en": "She felt wrung out after answering questions all afternoon and asked to read the remaining notes the next day.",
+          "zh": "她回答問題一整個下午後筋疲力盡，便請求翌日再讀其餘筆記。"
+        },
+        {
+          "en": "He was wrung out by the time the visitors left, although he was pleased that the long-planned gathering had happened.",
+          "zh": "訪客離開時他已筋疲力盡，卻也高興籌備已久的聚會終於舉行。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1830",
+      "number": 1830,
+      "inventoryId": "expr-1830",
+      "contentRevision": 1,
+      "titleEn": "step out of their usual bubble",
+      "titleZh": "走出自己熟悉的小圈子",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bstep(?:s|ped|ping)? out of (?:my|your|his|her|our|their) usual bubble\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p224-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 224,
+          "book": 8,
+          "question": 20,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Travelling helps people step out of their usual bubble.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "step out of their usual bubble",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Move beyond familiar surroundings, contacts or assumptions to encounter other experiences or perspectives.",
+        "meaningZh": "走出熟悉環境、人際圈或想法，接觸其他經驗和觀點。",
+        "grammar": "step/stepped/stepping out of my/their usual bubble; bubble metaphorically encloses a familiar social or mental world",
+        "register": "neutral",
+        "boundaryZh": "不單憑去遠方就證明觀點已擴闊；需有實際接觸、聆聽或重新看待假設，也不要求放棄原有關係。",
+        "misconceptionZh": "不單憑去遠方就證明觀點已擴闊；需有實際接觸、聆聽或重新看待假設，也不要求放棄原有關係。",
+        "outcomeZh": "理解「走出自己熟悉的小圈子」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "At the local storytelling workshop, I stepped out of my usual bubble by listening to parents whose school experiences differed from mine; I began to question what I had assumed everyone found easy.",
+        "zh": "在本地故事工作坊，我聽家長說與自己不同的求學經驗，走出了熟悉小圈子，開始反思自己原先以為人人都覺容易的事。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者透過聽不同求學經驗，重新檢視自己的假設。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者只是換了城市，整段活動仍只談自己原有經驗。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者為保留原有想法，沒有聽其他家長發言。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家長分享的求學經驗與說話者相同，沒有呈現不同觀點。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "listening differed/question assumed 說明實際超出熟悉觀點；活動在本地也可以發生。"
+      },
+      "reply": {
+        "promptEn": "What changed at the storytelling workshop?",
+        "promptZh": "故事工作坊中有甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I stepped out of my usual bubble by hearing experiences unlike my own.",
+            "zh": "我透過聽跟自己不同的經驗，走出熟悉的小圈子。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I began questioning whether the same parts of school had been easy for everyone.",
+            "zh": "我開始問自己，是否每個人都覺同樣的求學部分容易。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Other parents’ accounts gave me questions about my own expectations.",
+            "zh": "其他家長的敘述，令我對自己的預期產生問題。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A local conversation brought me into contact with a perspective I had not considered.",
+            "zh": "一次本地談話，讓我接觸到從未考慮的角度。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生去了外地，但只跟原本朋友相處、只看原本群組新聞，也說沒聽到不同看法。有人只因路程遠，就稱他已走出熟悉圈子。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The distance alone does not show that he stepped out of his usual bubble in contacts or perspective.",
+            "zh": "距離本身，不能顯示他在人際接觸或觀點上已走出熟悉圈子。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Going abroad confirms that he has already reconsidered the views he held before leaving.",
+            "zh": "出國已足以確認他重新檢視了出發前的看法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He has described seeking out local voices that challenged his familiar assumptions.",
+            "zh": "他已描述主動尋找挑戰原有假設的當地聲音。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "看實際接觸與反思，不用路程代替；題目明說仍留在原有聯絡與資訊。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 step out of your usual bubble 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可能開始接觸不熟悉的經驗或觀點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一定要去另一國家，並與原本朋友斷聯。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要具體線索說明熟悉圈子以外的接觸。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "跨出熟悉圈子不只關地理，也不表示必須否定原有關係。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說工作坊在本區，所以不算跨出圈子；你卻第一次聽見不同家長經驗。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I stepped out of my usual bubble through the experiences I heard, even though the workshop was close to home.",
+            "zh": "即使工作坊很近，我也透過所聽經驗走出熟悉的小圈子。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would judge it by the distance from home rather than by who we heard.",
+            "zh": "我會按離家距離判斷，不看我們聽了誰。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought joining a local event meant the speakers would share the same background as me.",
+            "zh": "我以為參加本地活動，便表示講者跟我有相同背景。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "圈子可由接觸的經驗界定，本地不等於相同背景，距離也不代觀點。"
+      },
+      "speaking": {
+        "en": "I want to step out of my usual bubble by listening to an account that challenges what I have taken for granted.",
+        "zh": "我想聽一段能挑戰自己理所當然想法的敘述，走出熟悉的小圈子。",
+        "targetSpan": {
+          "start": 10,
+          "end": 37
+        },
+        "promptZh": "先聽示範，再說想接觸哪種不同角度。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們校刊專頁一直只訪問常發言的學生領袖，現在要寫「放學後的學校」，你想邀平常較少被問到的圖書館助理、清潔員或留校同學自願分享，先說清主題與可不回答的選擇。用一至兩句英文向編輯建議擴大聆聽範圍，不假定一人代表整類人。",
+        "examples": [
+          {
+            "en": "Could we step out of our usual bubble by inviting people we rarely hear from to discuss the school after lessons? We should explain the topic and let each person choose whether to share an experience.",
+            "zh": "可否邀請平常較少聽見的人談放學後的學校，讓我們走出熟悉圈子？我們應先解釋主題，讓各人自行選擇是否分享經驗。"
+          },
+          {
+            "en": "To step out of our usual bubble, I would ask for volunteers beyond the student leaders we normally interview. Their individual accounts could broaden the feature without being presented as everyone’s view.",
+            "zh": "要走出熟悉圈子，我會在平常訪問的學生領袖以外徵求自願受訪者。他們的個別敘述可擴闊專頁，不必被當作所有人的看法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "people we rarely hear from",
+            "zh": "平常較少聽到其聲音的人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 76
+            }
+          },
+          {
+            "en": "the school after lessons",
+            "zh": "放學後的學校",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 112
+            }
+          },
+          {
+            "en": "explain the topic",
+            "zh": "解釋主題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 141
+            }
+          },
+          {
+            "en": "ask for volunteers",
+            "zh": "徵求自願參與者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 41,
+              "end": 59
+            }
+          },
+          {
+            "en": "Their individual accounts",
+            "zh": "他們的個別敘述",
+            "exampleIndex": 1,
+            "span": {
+              "start": 110,
+              "end": 135
+            }
+          }
+        ],
+        "selfCheckZh": "提出具體擴大聆聽的對象、主題及自願方式，讓個人敘述保留範圍；不把受訪身份當全體代表，也不要求透露不願分享的事。"
+      },
+      "takeaways": [
+        {
+          "en": "She stepped out of her usual bubble when she asked the evening staff how they experienced the same building after visitors left.",
+          "zh": "她詢問晚班職員在訪客離開後如何經歷同一大樓，走出了熟悉的小圈子。"
+        },
+        {
+          "en": "We stepped out of our usual bubble when the night-shift volunteers showed us why the daytime timetable did not serve them.",
+          "zh": "晚班義工向我們說明白天時間表為甚麼不適合他們時，我們走出了熟悉的小圈子。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1832",
+      "number": 1832,
+      "inventoryId": "expr-1832",
+      "contentRevision": 1,
+      "titleEn": "a fuller mind",
+      "titleZh": "帶着更豐富的理解回來",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba fuller mind\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p224-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 224,
+          "book": 8,
+          "question": 20,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "She returned with a fuller mind.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a fuller mind",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A mind enriched by added knowledge, broader experience, understanding or questions, using fullness as an image.",
+        "meaningZh": "以充實作比喻，指知識、經驗、理解或問題變得更豐富。",
+        "grammar": "return/come home with a fuller mind; fuller compares with an earlier state. New facts can contribute, but a copied list or a count alone does not show what someone has learned.",
+        "register": "neutral",
+        "boundaryZh": "較豐富的知識或理解不等於知道一切；可包括新事實、關聯或問題，但不能只憑未讀清單的長度判斷學到了甚麼。",
+        "misconceptionZh": "較豐富的知識或理解不等於知道一切；可包括新事實、關聯或問題，但不能只憑未讀清單的長度判斷學到了甚麼。",
+        "outcomeZh": "理解「帶着更豐富的理解回來」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative reflective fullness image, not a fixed idiom or a cognitive measurement. It can include better questions rather than completed answers."
+      },
+      "listening": {
+        "en": "I came home from the garden visit with a fuller mind: the growers had shown how weather, time and family routines affected their choices, leaving me with more thoughtful questions about the food we buy.",
+        "zh": "參觀園圃後，我帶着更豐富的理解回家；種植者展示天氣、時間與家庭作息如何影響選擇，讓我對所買食物多了更深入的問題。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者看見更多影響選擇的關聯，也多了問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者只記下所有植物名稱，沒有考慮種植者選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "參觀已令說話者不需再問任何食物來源問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "種植者只給購物清單，沒有解釋天氣或生活安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "showed how 及 questions 說理解變豐富，不是只存名稱或所有答案已定。"
+      },
+      "reply": {
+        "promptEn": "What did you gain from the garden visit?",
+        "promptZh": "參觀園圃讓你得到甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I returned with a fuller mind about the different pressures behind ordinary food choices.",
+            "zh": "我回來時，對平常食物選擇背後的不同限制有更豐富理解。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I could connect the growers’ decisions with weather and family routines.",
+            "zh": "我能把種植者的決定連到天氣與家庭作息。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The visit gave me better questions, rather than just another list of names.",
+            "zh": "參觀給我更好的問題，不只是另一張名稱清單。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I could now relate the food we buy to specific pressures the growers described.",
+            "zh": "我現在能把所買的食物，連到種植者描述的具體限制。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生從網站複製了五十個展品名稱，卻說尚未讀過清單，也未看內容；同伴只按複製數量，就稱他已學得更多。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The unread list alone does not establish a fuller mind; we need to hear what knowledge, understanding or questions the student has developed.",
+            "zh": "單憑未讀清單，不能確立頭腦已更充實；我們需要聽學生增加了甚麼知識、理解或問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Copying fifty names establishes that the student has already learned the information on the unread list.",
+            "zh": "複製五十個名稱，足以確立學生已學會未讀清單上的資料。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The student has described learning new facts from the list, rather than only copying it without reading.",
+            "zh": "學生已描述從清單學到新事實，而不只是未讀便複製。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新事實也可讓頭腦更充實，但題目只有未讀複製的數量，未有學到知識、理解或問題的線索。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 returning with a fuller mind 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "回來後的經驗或理解比先前豐富。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "已經掌握相關主題的一切答案。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可有新問題，以及需要進一步了解的地方。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "充實的比喻不代表全知，提出更好問題也可表現學習。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「你現在問題更多，怎能說理解變豐富？」你想說明參觀後的新關聯。哪句回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A fuller mind can include better questions; I can now ask how the growers’ routines affect choices I used to see only as prices.",
+            "zh": "理解更豐富，也可以包括更好的問題；我現在能問種植者作息如何影響那些原只看價錢的選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would count the questions as evidence that nothing from the visit has connected with my earlier thinking.",
+            "zh": "我會把問題數量當成證據，說參觀沒有任何內容連到原有想法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought learning more should leave me with fewer questions, regardless of what new connections I can explain.",
+            "zh": "我以為學得更多就應問題更少，不管我能解釋哪些新關聯。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "看問題內容及可說出的關聯，不單以問題多少判理解有否變豐富。"
+      },
+      "speaking": {
+        "en": "I returned with a fuller mind, able to see more connections even though I still had questions to explore.",
+        "zh": "我帶着更豐富的理解回來，能看見更多關聯，即使仍有問題需要探索。",
+        "targetSpan": {
+          "start": 16,
+          "end": 29
+        },
+        "promptZh": "先聽示範，再分理解變豐富與答案已齊全。"
+      },
+      "writing": {
+        "promptZh": "新情境：你改一段成長小說的結尾。主角原只想知道祖父當年為何離鄉，讀過不同家書後，理解到選擇涉及工作、親人與責任，但仍有一封信未找到。你想讓結尾呈現理解變豐富，而非突然解開所有謎。用一至兩句英文寫旁白。",
+        "examples": [
+          {
+            "en": "She returned to the letters with a fuller mind, seeing a choice shaped by work, family and responsibility rather than a single reason. The missing letter was still a question, but no longer the only thing she could see.",
+            "zh": "她帶着更豐富的理解重讀家書，看見選擇受到工作、家人與責任影響，不是只有一個原因。缺失的信仍是問題，但已不是她唯一看見的事。"
+          },
+          {
+            "en": "The search had left her with a fuller mind, not a final answer to every mystery. She could now hold the different letters beside one another and recognise what each helped her understand.",
+            "zh": "這次尋找讓她的理解更豐富，不是每個謎都已得出最後答案。她現在能把不同信件並列，看出每封幫她理解甚麼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the letters",
+            "zh": "那些信件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 16,
+              "end": 27
+            }
+          },
+          {
+            "en": "work, family and responsibility",
+            "zh": "工作、家人與責任",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 105
+            }
+          },
+          {
+            "en": "The missing letter",
+            "zh": "缺失的信",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 153
+            }
+          },
+          {
+            "en": "every mystery",
+            "zh": "每個謎",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 79
+            }
+          },
+          {
+            "en": "beside one another",
+            "zh": "彼此並列",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 140
+            }
+          }
+        ],
+        "selfCheckZh": "讓主角用多封信看見較豐富原因與關聯，保留未找到的信；不把開放問題當完全沒學到，也不突然補成所有謎已解。"
+      },
+      "takeaways": [
+        {
+          "en": "The exchange left him with a fuller mind about the town, because he could now connect the buildings with people’s memories of using them.",
+          "zh": "交流讓他對城鎮有更豐富理解，因為他現在能把建築與人們使用它們的回憶連起來。"
+        },
+        {
+          "en": "She hoped to return with a fuller mind, carrying a few carefully considered questions rather than a bag of unexamined brochures.",
+          "zh": "她希望帶着更豐富理解回來，帶的是幾個仔細想過的問題，不是一袋未看清的小冊。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1835",
+      "number": 1835,
+      "inventoryId": "expr-1835",
+      "contentRevision": 1,
+      "titleEn": "a change of world or simply a change of pace",
+      "titleZh": "換一個世界，還是換個步調",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba change of world or (?:simply )?a change of pace\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p225-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 225,
+          "book": 8,
+          "question": 20,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Choose between a change of world or simply a change of pace.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a change of world or simply a change of pace",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A contrast between a substantially different environment and a change in the usual rhythm or activity.",
+        "meaningZh": "對比明顯不同的生活環境，與日常節奏或活動方式的改變。",
+        "grammar": "choose a change of world or simply a change of pace; use choose between X and Y to name two alternatives. Change of pace need not always mean slower.",
+        "register": "neutral",
+        "boundaryZh": "先弄清想改變的是環境還是節奏，兩者也可重疊；不把遠近當唯一判準，也不假定每人都需要同樣程度的改變。",
+        "misconceptionZh": "先弄清想改變的是環境還是節奏，兩者也可重疊；不把遠近當唯一判準，也不假定每人都需要同樣程度的改變。",
+        "outcomeZh": "理解「換一個世界，還是換個步調」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative paired contrast, not a fixed whole idiom. Change of world evokes a substantially different setting; the conventional change-of-pace expression describes variation in usual activity or rhythm."
+      },
+      "listening": {
+        "en": "We asked whether we wanted a change of world or simply a change of pace; this time, an unhurried weekend in our own town mattered more to us than an unfamiliar destination.",
+        "zh": "我們先問想換個世界，還是只換步調；這一次，在自己城鎮從容過周末，比陌生目的地更重要。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這次兩人較想改變日常節奏，不以陌生地點為首要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩人已決定只有出國才可能改變生活節奏。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩人想保留趕急行程，首要是看最多陌生地方。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "兩人尚未談需要，只按最遠地點訂下旅程。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "this time 保留個別選擇；unhurried own town 指這次重視的節奏改變。"
+      },
+      "reply": {
+        "promptEn": "Why did you choose to stay in your own town that weekend?",
+        "promptZh": "那周末你們為甚麼選擇留在自己的城鎮？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We wanted a change of world or a change of pace, and realised the second mattered more this time.",
+            "zh": "我們想換環境或換步調，後來發現這次較重視後者。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We wanted an unhurried interval more than an unfamiliar destination.",
+            "zh": "我們較想有一段從容時間，不是去陌生目的地。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Changing how we spent the day could meet the need without a long journey.",
+            "zh": "改變度日方式，已可回應需要，不一定要長途旅行。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Our aim was a different rhythm for the weekend, not distance for its own sake.",
+            "zh": "我們的目的是周末步調不同，不是只追求距離。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友說自己只是想暫停每日趕車、趕會議，並不介意在熟悉地方讀書。伙伴卻只比較航程遠近。哪句最能回應他已說的需要？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Before choosing a change of world or a change of pace, we should notice that he has asked for a less rushed rhythm.",
+            "zh": "選擇換環境或換步調之前，我們應留意他已說想不再那麼趕急。"
+          },
+          {
+            "id": "choice-2",
+            "en": "His request is mainly for the place least like home, regardless of its timetable.",
+            "zh": "他的主要要求是不管時間表，先去最不像家的地方。"
+          },
+          {
+            "id": "choice-3",
+            "en": "A longer flight is enough to show that the day will have fewer scheduled demands.",
+            "zh": "較長航程已足以顯示每天會少些指定安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "實際需要是節奏，陌生程度和飛行長短未必直接回應。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解最不符合這個環境與步調的對比？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可以先分清想改變生活中的哪個層面。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只按目的地有多遠，就已知道當事人需要哪種改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "環境與節奏可以同時變，也可以只變其中一項。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "需要從當事人目標了解，不由距離直接代答。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說留在本城就沒有任何改變，你想解釋這次沒有排會議、可慢慢走的安排。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We considered a change of world or a change of pace, and the different rhythm here is the point of this weekend.",
+            "zh": "我們在換環境或換步調之間作選擇，這周末的重點正是在這裏換節奏。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would add more visits so that staying nearby feels as full as a working day.",
+            "zh": "我會再加探訪，讓留在附近也像工作日一樣排滿。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought a familiar address meant the schedule had to remain the same too.",
+            "zh": "我以為地址熟悉，就表示時間表也必須照舊。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "熟悉地點仍可有不同活動節奏；不需為證明有改變而重填日程。"
+      },
+      "speaking": {
+        "en": "I want to ask whether I need a change of world or a change of pace before choosing where to spend the break.",
+        "zh": "選擇在哪裏休息前，我想先問自己需要換環境，還是換步調。",
+        "targetSpan": {
+          "start": 29,
+          "end": 66
+        },
+        "promptZh": "先聽示範，再說想改變哪個層面。"
+      },
+      "writing": {
+        "promptZh": "新情境：你比較兩篇回憶文字，一位作者移居新國家、學習陌生生活方式，另一位仍住原區，只把周末留給慢慢煮飯和散步。你想在書評說明兩篇改變的層面不同，不按距離判哪一篇較有價值。用一至兩句英文寫比較。",
+        "examples": [
+          {
+            "en": "The two accounts explore a change of world or a change of pace as different kinds of change, not competing achievements. One writer learns an unfamiliar daily life, while the other changes the rhythm of weekends in a familiar place.",
+            "zh": "兩篇敘述把換環境或換步調寫成不同類型的改變，而不是互相比高下的成就。一位作者學習陌生的日常生活，另一位在熟悉地方改變周末節奏。"
+          },
+          {
+            "en": "A change of world or a change of pace can each matter in these memoirs. I would compare what the writers actually change, rather than rank the writers by the distance they travel.",
+            "zh": "在這兩篇回憶裏，換環境或換步調都可以重要。我會比較作者實際改變甚麼，不按路程遠近為作者排名。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The two accounts",
+            "zh": "兩篇敘述",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "different kinds of change",
+            "zh": "不同類型的改變",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 91
+            }
+          },
+          {
+            "en": "an unfamiliar daily life",
+            "zh": "陌生的日常生活",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 163
+            }
+          },
+          {
+            "en": "these memoirs",
+            "zh": "這些回憶文字",
+            "exampleIndex": 1,
+            "span": {
+              "start": 57,
+              "end": 70
+            }
+          },
+          {
+            "en": "rank the writers",
+            "zh": "為作者排名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 150
+            }
+          }
+        ],
+        "selfCheckZh": "以具體生活層面比較兩篇文字，承認不同改變各有意義；不把遠行自動說成較深刻，也不假定換步調只可在原區發生。"
+      },
+      "takeaways": [
+        {
+          "en": "She asked for a change of world or a change of pace, then realised she first needed a week without the usual early meetings.",
+          "zh": "她想過換環境或換步調，後來發現首先需要一周不用照常趕早會。"
+        },
+        {
+          "en": "The letter asked whether its writer wanted a change of world or a change of pace after hearing two friends’ very different summer plans.",
+          "zh": "聽過兩位朋友很不同的暑期計劃後，寫信的人問自己想換環境，還是換步調。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1836",
+      "number": 1836,
+      "inventoryId": "expr-1836",
+      "contentRevision": 1,
+      "titleEn": "stop feeling like a break and start feeling like a test",
+      "titleZh": "從休息變成一場考驗",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bstop(?:s|ped|ping)? feeling like a break and start(?:s|ed|ing)? feeling like a test\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p225-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 225,
+          "book": 8,
+          "question": 21,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "With repeated delays, the trip can stop feeling like a break and start feeling like a test.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stop feeling like a break and start feeling like a test",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Change in someone’s experience from something restful into something demanding or stressful.",
+        "meaningZh": "對當事人而言，原本可休息的經歷逐漸變成費力或有壓力的事。",
+        "grammar": "the visit stopped feeling like a break and started feeling like a test; parallel stop/start forms contrast the earlier and later experience; test is a demanding challenge here",
+        "register": "neutral",
+        "boundaryZh": "描述感受的轉變，不必有正式考試，也不由一次延誤替所有人判整趟壓力；需交代哪種累積要求改變了體驗。",
+        "misconceptionZh": "描述感受的轉變，不必有正式考試，也不由一次延誤替所有人判整趟壓力；需交代哪種累積要求改變了體驗。",
+        "outcomeZh": "理解「從休息變成一場考驗」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Productive parallel contrast, not a fixed whole idiom. Like a test uses a challenge metaphor rather than asserting an actual examination."
+      },
+      "listening": {
+        "en": "After the third booking problem, the weekend stopped feeling like a break and started feeling like a test: I spent each evening solving the next day’s arrangements instead of resting.",
+        "zh": "第三次訂位出問題後，周末不再像休息，反而像一場考驗；我每晚都在處理翌日安排，沒有休息。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "反覆安排問題令說話者的休息感變成壓力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者只在描述正式考試的科目與分數。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "訂位問題在出發前已解決，晚上一直可以休息。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者認為所有旅客都必定討厭相同地方。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "after third/each evening solving 說反覆要求如何改變自己的感受，不是正式考試或所有人的評價。"
+      },
+      "reply": {
+        "promptEn": "What changed your feeling about the weekend?",
+        "promptZh": "甚麼改變了你對周末的感受？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It stopped feeling like a break and started feeling like a test as the booking problems kept coming.",
+            "zh": "訂位問題不斷出現，令它不再像休息，反而像一場考驗。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Each evening became preparation for another unresolved arrangement.",
+            "zh": "每晚都變成處理另一個未解安排的準備。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The repeated decisions used the time I had expected to rest.",
+            "zh": "反覆作決定，佔去了我原想休息的時間。"
+          },
+          {
+            "id": "reply-4",
+            "en": "One problem followed another, so the visit became demanding rather than restful for me.",
+            "zh": "一個問題接着一個，令這次到訪對我而言費力而不是休息。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩位朋友遇到同一次短暫延誤，一位很緊張，另一位說正好有時間聊天、仍感到輕鬆。你想保留兩人不同感受。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The delay alone does not show that the visit stopped feeling like a break and started feeling like a test for both of them.",
+            "zh": "單憑延誤，不能說兩人的探訪都從休息變成了考驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The second friend’s relaxed conversation means the first friend cannot have felt anxious.",
+            "zh": "第二位朋友輕鬆聊天，表示第一位不可能焦慮。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The first friend’s anxiety establishes that the second friend experienced the delay in the same way.",
+            "zh": "第一位焦慮，已足以證明第二位也有相同體驗。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同一事情可有不同感受，不能用一人替另一人作結論。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由這個休息轉成考驗的描述得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "當事人感到原本想休息的經歷變得費力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當事人一定參加了有分數和試卷的正式考試。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍需說明哪些要求及何時改變了體驗。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "like a test 可以是挑戰的比喻，不報告正式考試。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說只要晚上仍在旅館，就一定算休息；你卻一直在重排訂位。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It stopped feeling like a break and started feeling like a test because those evenings were spent fixing arrangements, not recovering from the day.",
+            "zh": "那些晚上用來修補安排，不是從一天中休息，所以它不再像休息，反而像考驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would count the hotel hours as rest without looking at what we had to do during them.",
+            "zh": "我會直接把旅館時數算作休息，不看那段時間需要做甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the difficulty was only the room’s appearance, rather than the repeated decisions.",
+            "zh": "我以為難處只在房間外觀，不在反覆作決定。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "休息需看實際活動及感受，不單按身在旅館計算，也不把安排壓力錯放成外觀。"
+      },
+      "speaking": {
+        "en": "The afternoon stopped feeling like a break and started feeling like a test when every game became another performance to be judged.",
+        "zh": "每個遊戲都變成另一項要被評價的表現時，那下午不再像休息，反而像一場考驗。",
+        "targetSpan": {
+          "start": 14,
+          "end": 74
+        },
+        "promptZh": "先聽示範，再說哪種要求改變了原本的休息感。"
+      },
+      "writing": {
+        "promptZh": "新情境：你替朋友準備生日聚會，本來想讓大家輕鬆相處，卻排了每人都要上台、評分和比較的遊戲。有朋友說開始緊張。你想回覆籌備伙伴，承認聚會可能從休息變成考驗，提議讓參與自選，先問壽星想怎樣相聚。用一至兩句英文提出修改。",
+        "examples": [
+          {
+            "en": "The party could stop feeling like a break and start feeling like a test if everyone has to perform for a score. Could we make the games optional and ask what kind of time together our friend actually wants?",
+            "zh": "若每人都要表演取分，聚會可能不再像休息，反而像考驗。可否把遊戲改為自選，先問朋友真正想怎樣共處？"
+          },
+          {
+            "en": "I worry the evening will stop feeling like a break and start feeling like a test with so many compulsory turns on stage. Let us offer a quieter way to join in rather than assume everyone enjoys being judged.",
+            "zh": "我擔心那麼多必須上台的環節，會令晚上不再像休息，反而像考驗。我們提供較安靜的參與方法，不假定人人都享受被評價。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "perform for a score",
+            "zh": "表演取分",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 110
+            }
+          },
+          {
+            "en": "make the games optional",
+            "zh": "把遊戲改為自選",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 144
+            }
+          },
+          {
+            "en": "time together",
+            "zh": "共處時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 166,
+              "end": 179
+            }
+          },
+          {
+            "en": "compulsory turns on stage",
+            "zh": "必須輪流上台的環節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 119
+            }
+          },
+          {
+            "en": "a quieter way to join in",
+            "zh": "較安靜的參與方式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 134,
+              "end": 158
+            }
+          }
+        ],
+        "selfCheckZh": "承認設計可能帶來的壓力，提出自選參與及先問壽星；不替所有人定相同感受，也不把一項擔心說成聚會已失敗。"
+      },
+      "takeaways": [
+        {
+          "en": "The walk stopped feeling like a break and started feeling like a test when we kept checking whether we had beaten yesterday’s time.",
+          "zh": "我們不停核對有否比昨天快，令散步不再像休息，反而像考驗。"
+        },
+        {
+          "en": "For her, the visit stopped feeling like a break and started feeling like a test after each meal brought another argument to manage.",
+          "zh": "每餐都要處理另一場爭論後，這次探訪對她而言不再像休息，反而像考驗。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1839",
+      "number": 1839,
+      "inventoryId": "expr-1839",
+      "contentRevision": 1,
+      "titleEn": "takes the shine off the trip",
+      "titleZh": "令旅程少了些光彩",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\btak(?:e|es|en|ing) the shine off the trip\\b|\\btook the shine off the trip\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p226-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A missed flight takes the shine off the trip.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "takes the shine off the trip",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Reduce the pleasure, excitement or positive impression of a journey.",
+        "meaningZh": "減少旅程的樂趣、興奮或原有好印象。",
+        "grammar": "a problem takes/took/has taken the shine off the trip; shine is the attraction or pleasure, not a surface needing polish",
+        "register": "neutral",
+        "boundaryZh": "樂趣減少不等於整趟完全沒有好處，也不自動決定誰有責任；需說是哪件事影響哪種感受。",
+        "misconceptionZh": "樂趣減少不等於整趟完全沒有好處，也不自動決定誰有責任；需說是哪件事影響哪種感受。",
+        "outcomeZh": "理解「令旅程少了些光彩」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The cancelled boat ride took the shine off the trip because it was the outing I had most looked forward to, though the evening meal with our cousins was still a highlight.",
+        "zh": "遊船取消，令旅程少了些光彩，因那是我最期待的外出；不過跟表親的晚餐仍是亮點。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "失去最期待的活動減少了樂趣，但旅程仍有珍惜的部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "遊船照常舉行，只有晚餐取消。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者認為晚餐沒有任何值得記住的地方。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "主要失望來自晚餐時間表，而不是取消遊船。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "most looked forward 與 still highlight 留下不同部分的感受，不把影響說成一切皆無。"
+      },
+      "reply": {
+        "promptEn": "Why were you disappointed about the cancelled boat ride?",
+        "promptZh": "遊船取消為甚麼令你失望？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It took the shine off the trip because that was the outing I had most wanted.",
+            "zh": "它令旅程少了些光彩，因那是我最想參加的外出。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I had been looking forward to that part more than the other outings.",
+            "zh": "比起其他外出，我更期待那一項。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Losing it changed my excitement about the visit, even though the meal was still special.",
+            "zh": "失去它改變了我對探訪的興奮，即使晚餐仍很特別。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The cancelled plan mattered to me rather than being a minor item I had no interest in.",
+            "zh": "取消的安排對我重要，不是我沒興趣的小項目。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物收到遊船可能取消的消息，但仍在等最終確認，也未說自己會否失望；朋友直接寫旅程樂趣已減。哪句最謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The possibility might take the shine off the trip, but the account has not yet reported either a cancellation or the traveller’s reaction.",
+            "zh": "這可能令旅程少些光彩，但敘述尚未報告取消已定或旅客的反應。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The warning is already a confirmed cancellation and a description of the traveller’s disappointment.",
+            "zh": "提醒已等於確認取消，也已描述旅客失望。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The traveller has said that the boat ride was the only part worth keeping.",
+            "zh": "旅客已說遊船是唯一值得保留的部分。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可能情況、確定取消和實際感受要分開，不能由提醒自行補出。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 took the shine off the trip 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "旅程原有的樂趣或吸引力受了影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "整趟旅程的每個部分都完全失去價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可有令人珍惜的其他經歷。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "減少樂趣不等於所有部分都被抹去。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問你既失望，為甚麼還提那頓好晚餐；你想保留兩種感受。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The cancellation took the shine off the trip, but that does not erase what the meal meant to me.",
+            "zh": "取消令旅程少了些光彩，但不抹去那頓晚餐對我的意義。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought mentioning the disappointment meant I should leave the enjoyable evening out of my account.",
+            "zh": "我以為提了失望，就應不再寫那個愉快晚上。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would use the good meal to conclude that the cancelled ride did not affect me after all.",
+            "zh": "我會用那頓好晚餐作結論，說遊船取消其實沒有影響我。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不同部分的感受可並存，不用其中一項代替另一項。"
+      },
+      "speaking": {
+        "en": "I worry that leaving the argument unresolved could take the shine off the trip, so I would like us to talk before we go.",
+        "zh": "我擔心爭論未解會令旅程少些光彩，所以想在出發前先談。",
+        "targetSpan": {
+          "start": 51,
+          "end": 78
+        },
+        "promptZh": "先聽示範，再分預期擔心與已發生的影響。"
+      },
+      "writing": {
+        "promptZh": "新情境：你跟同行朋友因誰負責訂車票而爭執，旅行尚未開始。你仍想一起去，但怕不談清楚會一直尷尬。你想提出出發前比較各自原以為的分工，再議一個雙方可接受的安排，不把擔心說成旅程已被毀。用一至兩句英文邀請談話。",
+        "examples": [
+          {
+            "en": "I still want to go together, but I worry this unresolved argument could take the shine off the trip. Could we compare what each of us thought we had agreed and settle the ticket arrangements before leaving?",
+            "zh": "我仍想一起去，但擔心未解爭論會令旅程少些光彩。離開前，可否比較各自以為議好了甚麼，再定車票安排？"
+          },
+          {
+            "en": "The disagreement need not take the shine off the trip if we are willing to discuss it now. I would like to hear what you expected me to handle before we agree how to share the booking work.",
+            "zh": "若願意現在談，分歧未必要令旅程少些光彩。我想先聽你以為我負責甚麼，再議怎分訂票工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "this unresolved argument",
+            "zh": "這場未解的爭論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 65
+            }
+          },
+          {
+            "en": "the ticket arrangements",
+            "zh": "車票安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 190
+            }
+          },
+          {
+            "en": "before leaving",
+            "zh": "離開之前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 191,
+              "end": 205
+            }
+          },
+          {
+            "en": "discuss it now",
+            "zh": "現在討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 89
+            }
+          },
+          {
+            "en": "the booking work",
+            "zh": "預訂工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 188
+            }
+          }
+        ],
+        "selfCheckZh": "保留想同行的目標，以可能影響邀請先談分工；不補成旅程已失敗，也不在未聽前判定全是對方責任。"
+      },
+      "takeaways": [
+        {
+          "en": "The long wait took the shine off the trip for him, although he still enjoyed seeing his old school friend.",
+          "zh": "長時間等候令旅程對他少了些光彩，但他仍享受跟舊同學見面。"
+        },
+        {
+          "en": "She hoped the dispute would not take the shine off the trip and asked to clarify the shared plans before departure.",
+          "zh": "她希望爭議不會令旅程少些光彩，便請求出發前釐清共同安排。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1840",
+      "number": 1840,
+      "inventoryId": "expr-1840",
+      "contentRevision": 1,
+      "titleEn": "slow build-up of discomfort",
+      "titleZh": "不自在一點一點累積",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:a )?slow build-up of discomfort\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p226-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Homesickness can be a slow build-up of discomfort.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "slow build-up of discomfort",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "An unpleasant or uneasy feeling that accumulates gradually rather than arriving all at once.",
+        "meaningZh": "不愉快或不自在的感受逐漸累積，而不是一次突然出現。",
+        "grammar": "a slow build-up of discomfort; build-up is a hyphenated noun, while build up is the verb; discomfort needs contextual explanation and is not a diagnosis",
+        "register": "neutral",
+        "boundaryZh": "逐漸累積不必有單一確定原因，也不能把一次突然尷尬直接改成長期過程；應按時間線及具體感受說。",
+        "misconceptionZh": "逐漸累積不必有單一確定原因，也不能把一次突然尷尬直接改成長期過程；應按時間線及具體感受說。",
+        "outcomeZh": "理解「不自在一點一點累積」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "There was a slow build-up of discomfort during the shared stay: at first I missed one familiar meal, then I began avoiding the noisy evenings, without yet knowing how to explain what felt wrong.",
+        "zh": "共同住宿期間，不自在一點一點累積；起初我只想念一頓熟悉飯菜，後來開始避開吵鬧晚上，仍未知道怎解釋哪裏不對勁。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "不自在有逐步變化的線索，說話者仍未清楚解釋原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有不自在都在第一刻突然出現，之後沒有改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者已證實噪音是全部感受的唯一原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者在避開活動後，才第一次感到想念熟悉飯菜。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "at first/then 說時間變化，without knowing 保留原因與表達尚不清楚。"
+      },
+      "reply": {
+        "promptEn": "Why do you describe the discomfort as a gradual process?",
+        "promptZh": "你為甚麼把不自在形容為逐漸出現的過程？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It was a slow build-up of discomfort, from missing a meal to avoiding the evenings.",
+            "zh": "那是不自在逐漸累積的過程，從想念一頓飯到避開晚上的活動。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The signs appeared at different points rather than in one sudden moment.",
+            "zh": "線索在不同時點出現，不是集中在一個突然時刻。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I could trace a change in what I wanted to join over the stay.",
+            "zh": "我看得出住宿期間，自己想參與甚麼有了變化。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The later withdrawal followed a smaller earlier feeling I had not yet explained.",
+            "zh": "後來退開，之前已有一種較小、仍未解釋的感受。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小說人物在一場突然公開點名後立刻尷尬，之前一直說自己很自在，也沒有較早不安線索。哪句最超出這段資料？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The scene establishes a slow build-up of discomfort over the preceding weeks.",
+            "zh": "這一幕已確立此前數周有不自在逐漸累積。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The passage reports a sudden embarrassed reaction to being named.",
+            "zh": "段落報告被點名後突然尷尬的反應。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Earlier gradual unease would need additional evidence from the story.",
+            "zh": "若要說較早已有逐漸不安，仍需要故事中的其他線索。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "目前只有突然反應，不能自行補出之前數周的累積過程。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a slow build-up of discomfort 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "不自在是逐漸累積的。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "已經確認全部感受只來自一個原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可再問何時出現哪些線索及仍有甚麼未知。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "時間過程與原因確認是不同問題。"
+      },
+      "dialogue": {
+        "promptZh": "朋友想把你的住宿感受簡化成「第一晚就討厭所有人」，你其實描述了前後變化。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was a slow build-up of discomfort, not a judgement about everyone on the first night; I am still trying to explain the change.",
+            "zh": "那是不自在逐漸累積，不是第一晚就評斷所有人；我仍在試着解釋變化。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought the later avoidance showed I had felt that way from the first evening.",
+            "zh": "我以為後來避開活動，就表示自己第一晚已經有同樣感受。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the gradual pattern meant we already knew exactly which person caused it.",
+            "zh": "我以為既有逐漸變化，就表示已知道確切是哪一人造成。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留實際時間線及未知原因，不把後期反應倒推最初或直接歸責某人。"
+      },
+      "speaking": {
+        "en": "The diary suggests a slow build-up of discomfort, but I would like to understand the separate moments before naming a cause.",
+        "zh": "日記顯示不自在可能逐漸累積，但我想先理解各個時刻，再說原因。",
+        "targetSpan": {
+          "start": 19,
+          "end": 48
+        },
+        "promptZh": "先聽示範，再分時間線與原因判斷。"
+      },
+      "writing": {
+        "promptZh": "新情境：你替作者讀一段故事，人物原本自在參與家庭晚飯，結尾卻突然不想再去。你想建議加入幾個不同日子的細節，例如少說話、提早離開，再讓人物自己試着說明，而不是用一句旁白斷定某位親人有錯。用一至兩句英文給寫作建議。",
+        "examples": [
+          {
+            "en": "Could you show a slow build-up of discomfort through different dinners, such as shorter replies and an earlier departure? Let the character try to explain the change rather than have the narrator assign one person all the blame.",
+            "zh": "可否透過不同晚飯的較短回應、提早離開等細節，展示不自在逐漸累積？讓人物試着解釋變化，不由旁白把全部責任交給一人。"
+          },
+          {
+            "en": "A slow build-up of discomfort would make the ending easier to follow if we saw small changes before the refusal. I would keep those moments specific and leave room for the character’s uncertain explanation.",
+            "zh": "若拒絕之前能看見小變化，不自在逐漸累積的過程會讓結尾較容易理解。我會把各時刻寫具體，並留空間給人物仍不確定的解釋。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "different dinners",
+            "zh": "不同的晚飯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 70
+            }
+          },
+          {
+            "en": "shorter replies",
+            "zh": "較短的回應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 95
+            }
+          },
+          {
+            "en": "an earlier departure",
+            "zh": "較早離開",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 120
+            }
+          },
+          {
+            "en": "before the refusal",
+            "zh": "拒絕之前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 111
+            }
+          },
+          {
+            "en": "the character’s uncertain explanation",
+            "zh": "人物仍不確定的解釋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 168,
+              "end": 205
+            }
+          }
+        ],
+        "selfCheckZh": "建議以不同時間的具體細節支撐感受轉變，保留人物說明的空間；不由過程自動判一人有錯，也不把突然標籤當已展示累積。"
+      },
+      "takeaways": [
+        {
+          "en": "The letters reveal a slow build-up of discomfort as the writer becomes less willing to discuss the shared plans.",
+          "zh": "信件顯示作者越來越不願討論共同計劃，不自在正逐漸累積。"
+        },
+        {
+          "en": "She noticed a slow build-up of discomfort over the rehearsals and asked for time to describe what was changing for her.",
+          "zh": "她留意排練期間不自在逐漸累積，便請求時間說明自己的感受怎樣變。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1841",
+      "number": 1841,
+      "inventoryId": "expr-1841",
+      "contentRevision": 1,
+      "titleEn": "cast a shadow over the whole experience",
+      "titleZh": "為整段經歷蒙上陰影",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcast(?:s|ing)? a shadow over the whole experience\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p226-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Illness can cast a shadow over the whole experience.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "cast a shadow over the whole experience",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make an experience as a whole feel less positive through a troubling event or continuing concern.",
+        "meaningZh": "因令人不安的事件或持續顧慮，令整段經歷的感受較為負面。",
+        "grammar": "a concern casts/cast a shadow over the whole experience; cast has the same base and past form; shadow is a negative emotional influence, not necessarily literal darkness",
+        "register": "neutral",
+        "boundaryZh": "整體蒙陰影不等於每個好時刻都不存在，也不單憑此知道誰有責任；應指出顧慮及實際感受。",
+        "misconceptionZh": "整體蒙陰影不等於每個好時刻都不存在，也不單憑此知道誰有責任；應指出顧慮及實際感受。",
+        "outcomeZh": "理解「為整段經歷蒙上陰影」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The unanswered question about our friend’s absence cast a shadow over the whole experience; even during the lively reunion, we kept wondering why nobody had heard from her.",
+        "zh": "朋友為何缺席仍未有答案，為整段經歷蒙上陰影；即使重聚很熱鬧，我們仍一直想為何沒人收到她消息。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "朋友的缺席與未知消息，持續影響大家對重聚的感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "大家到聚會結束後，才第一次得知朋友沒有回覆消息。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "朋友已解釋缺席原因，大家不再有疑問。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "大家只擔心朋友錯過節目，並沒有因聯絡不到她而感到不安。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "unanswered/kept wondering 表示持續顧慮，even lively 保留活動中仍有熱鬧部分。"
+      },
+      "reply": {
+        "promptEn": "What affected the feeling of the reunion?",
+        "promptZh": "甚麼影響了重聚的感受？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The unanswered question cast a shadow over the whole experience.",
+            "zh": "那個未有答案的問題，為整段經歷蒙上陰影。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We were still worried about why nobody had heard from our friend.",
+            "zh": "我們仍擔心為何沒人收到朋友消息。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Her unexplained absence remained in our thoughts throughout the gathering.",
+            "zh": "她未有解釋的缺席，一直留在聚會中大家的心裏。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The lively moments did not remove the concern that had come with the missing news.",
+            "zh": "熱鬧時刻沒有消除缺乏消息帶來的顧慮。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物說演出大致愉快，只有開場一分鐘因找座位稍煩，之後已忘記，也不再介意；朋友想把這說成整段經歷都蒙陰影。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "This account does not show the brief seating problem casting a shadow over the whole experience.",
+            "zh": "這份敘述未顯示短暫找座位問題為整段經歷蒙上陰影。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The initial irritation has been described as a concern that continued throughout the performance.",
+            "zh": "最初的煩躁已被描述為貫穿整場演出的顧慮。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The pleasant later moments were only expectations before the performance began.",
+            "zh": "之後愉快的時刻，只是演出開始前的期待。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需保留實際影響範圍；這裏已說短暫並放下，不能擴成持續籠罩。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 cast a shadow over the whole experience 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某種不安影響了整體感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有愉快時刻都不曾發生。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可描述具體的好時刻與持續顧慮並存。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "整體負面影響不抹去其他實際經歷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說聚會既很熱鬧，就不該提那個未有消息的擔心；你想把實際感受說清。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It cast a shadow over the whole experience because the concern stayed with us, even while we enjoyed seeing one another.",
+            "zh": "顧慮一直跟着我們，即使享受見面，仍為整段經歷蒙上陰影。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would take the laughter as evidence that nobody was still wondering about the absence.",
+            "zh": "我會把笑聲當作證據，說沒人再想那次缺席。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought describing a shadow meant we should recount only the unanswered question and no other moments.",
+            "zh": "我以為說蒙上陰影，就應只敘述那個未答問題，不寫其他時刻。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "感受可以並存，不把笑聲當沒有顧慮，也不讓整體影響抹去具體經歷。"
+      },
+      "speaking": {
+        "en": "The unresolved disagreement could cast a shadow over the whole experience if we leave it unspoken before the event.",
+        "zh": "若活動前一直不談，未解分歧可能為整段經歷蒙上陰影。",
+        "targetSpan": {
+          "start": 34,
+          "end": 73
+        },
+        "promptZh": "先聽示範，再分可能影響與已發生的感受。"
+      },
+      "writing": {
+        "promptZh": "新情境：展覽結束後，你寫信感謝籌委的用心，但入口找不到事前答應提供的字幕平板，令同行的女同學 Ada 難以跟上，你整段參觀也一直掛心。你想如實交代混合感受並請對方了解設備為何未到位，不猜測是否故意。用一至兩句英文寫事後回應。",
+        "examples": [
+          {
+            "en": "Thank you for the care in the displays, but the missing caption tablet cast a shadow over the whole experience because I kept worrying about Ada following the tour. Could you check why it was not available as promised?",
+            "zh": "謝謝你們用心安排展品，但未有提供字幕平板，令我一直擔心 Ada 能否跟上導覽，為整段經歷蒙上陰影。你可否了解為甚麼沒有按事前答應提供？"
+          },
+          {
+            "en": "I appreciated the exhibition, yet the lack of the promised captions cast a shadow over the whole experience for me as I watched Ada struggle to follow. I would welcome an explanation of what happened, without assuming it was deliberate.",
+            "zh": "我欣賞這次展覽，但看見 Ada 難以跟上時，未有提供事前答應的字幕，為我的整段經歷蒙上陰影。我希望了解事情經過，不先假定這是故意的。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the displays",
+            "zh": "展品陳列",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 38
+            }
+          },
+          {
+            "en": "the missing caption tablet",
+            "zh": "未有提供的字幕平板",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 70
+            }
+          },
+          {
+            "en": "following the tour",
+            "zh": "跟上導覽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 145,
+              "end": 163
+            }
+          },
+          {
+            "en": "as promised",
+            "zh": "按事前所答應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 206,
+              "end": 217
+            }
+          },
+          {
+            "en": "an explanation",
+            "zh": "一個解釋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 168,
+              "end": 182
+            }
+          }
+        ],
+        "selfCheckZh": "以事後實際經驗同時表達感謝與持續顧慮，交代影響並要求了解原因；不把蒙陰影說成沒有任何好處，也不由未有提供設備推定對方故意。"
+      },
+      "takeaways": [
+        {
+          "en": "The unexplained change in the agreement cast a shadow over the whole experience, even though the visitors praised the finished display.",
+          "zh": "協議改變卻沒有解釋，為整段經歷蒙上陰影，即使訪客讚賞完成的展品。"
+        },
+        {
+          "en": "She feared that leaving the apology unheard would cast a shadow over the whole experience of returning to the club.",
+          "zh": "她擔心若道歉一直沒被聽到，重返社團的整段經歷會蒙上陰影。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1842",
+      "number": 1842,
+      "inventoryId": "expr-1842",
+      "contentRevision": 1,
+      "titleEn": "life outgrows the space they are living in",
+      "titleZh": "生活需要超出原有空間",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\blife outgrows the space (?:they|we) are living in\\b|\\bour life (?:has )?outgrown (?:the|this) space\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p226-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 22,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "When children arrive, life outgrows the space they are living in.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life outgrows the space they are living in",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Changing household needs make the existing living space feel insufficient or unsuitable.",
+        "meaningZh": "家庭生活需要改變，令原有住所的空間變得不足或不再合用。",
+        "grammar": "life outgrows the space they are living in; our life has outgrown this space; outgrow figuratively compares developing needs with an unchanged physical limit",
+        "register": "neutral",
+        "boundaryZh": "不只看人數或住了多久，也不自動表示必須搬家；需說具體需要怎超出現有安排及哪些選項仍待商量。",
+        "misconceptionZh": "不只看人數或住了多久，也不自動表示必須搬家；需說具體需要怎超出現有安排及哪些選項仍待商量。",
+        "outcomeZh": "理解「生活需要超出原有空間」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative life-and-space growth metaphor. It concerns changing practical needs, not literal walls shrinking or a judgement that a small home lacks value."
+      },
+      "listening": {
+        "en": "Our life has outgrown this space in one important way: the table we once used only for dinner now has to hold two people’s work throughout the day, leaving nowhere to eat together.",
+        "zh": "我們的生活需要在一個重要方面超出了這個空間：原本只吃飯的桌子，現在整天放着兩人的工作用品，沒有地方一起用餐。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "同一張桌子承擔了新增工作用途，影響原有用餐需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這張桌子原本只用來工作，現在才第一次被用來吃飯。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩人只在晚飯後工作，吃飯時間完全沒有受影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "住所只是住得較久，沒有任何用途或需要的改變。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "once only dinner/now two work 指具體生活用途改變，不是單憑年期，也不是把原本工作用途改成首次用餐。"
+      },
+      "reply": {
+        "promptEn": "Why does the flat feel less suitable now?",
+        "promptZh": "這個住所現在為甚麼感到較不合用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Our life has outgrown this space because the dinner table now has to accommodate both people’s work as well as meals.",
+            "zh": "因為餐桌現在既要容納兩人的工作，也要用來吃飯，我們的生活需要已超出這個空間。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The same table has competing uses we did not previously need to manage.",
+            "zh": "同一張桌子出現了以前不用處理的用途衝突。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We no longer have a clear place to eat together while the work is laid out.",
+            "zh": "工作用品放着時，我們已沒有清楚可一起用餐的位置。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The difficulty comes from changed daily needs rather than the length of time we have lived here.",
+            "zh": "難處來自日常需要改變，不只是住了多久。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一個家庭搬進較大住所，但新增加的照顧及工作安排仍需要同時使用唯一安靜房間；有人只按面積增加就說空間問題已解決。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Life outgrows the space they are living in when the actual needs still exceed how the rooms can be used, even if the floor area is larger.",
+            "zh": "即使面積較大，只要實際需要仍超出房間可用方式，生活需要仍可能超出現有空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The larger floor area establishes that the competing uses of the quiet room have been resolved.",
+            "zh": "面積增加，已足以確立安靜房間的用途衝突已解決。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The new work and care arrangements use the room at separate times, so there is no simultaneous demand.",
+            "zh": "新的工作與照顧安排在不同時段使用房間，所以沒有同時用房的衝突。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "面積與需要配合不同；資料說同時爭用安靜空間，不是已解決，也不是不同時段使用。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由生活需要超出原有空間的描述得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "需要與空間使用方式可能出現落差。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "唯一可行選擇已確定是立即搬走。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可先了解實際用途、時段和可商量的安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "描述落差，不直接替家庭定唯一解決方法。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說既然不合用，就表示以前喜歡這住所都是假的；你想說清改變的是生活需要。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Our life has outgrown this space, but that does not change how well it served us before our working routines changed.",
+            "zh": "我們的生活需要超出了這個空間，但不改變它在工作作息改變前曾很合用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought a place that once suited us should remain suitable regardless of new uses.",
+            "zh": "我以為一個地方以前適合，就應不管新增用途都一直合適。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would judge the present problem only by how long we have lived here, without comparing the old and new uses.",
+            "zh": "我只會按住了多久判斷目前問題，不比較以前和現在的用途。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "合用程度可隨需要改變，不否定過去，也不只按年期判斷。"
+      },
+      "speaking": {
+        "en": "Our life has outgrown this space, so I would like us to describe the competing needs before deciding what to change.",
+        "zh": "我們的生活需要超出了這個空間，所以我想先說清互相衝突的需要，再決定改甚麼。",
+        "targetSpan": {
+          "start": 0,
+          "end": 32
+        },
+        "promptZh": "先聽示範，再說具體需要而不先定唯一方案。"
+      },
+      "writing": {
+        "promptZh": "新情境：故事中的一家人想向房東申請改變兩個房間的用途，因新工作需要安靜時段，原共用安排已不合。你替他們寫一段說明，先描述生活需要與空間的落差，再詢問是否容許調整，不把提出申請當已獲批准或立即要搬。用一至兩句英文寫申請。",
+        "examples": [
+          {
+            "en": "Our life has outgrown this space as it is currently arranged, because the new work requires quiet time while the shared room is in use. May we discuss changing the uses of the two rooms before deciding whether a move is necessary?",
+            "zh": "按目前安排，我們的生活需要已超出這個空間，因為新工作需要安靜時段，共用房間卻同時被使用。我們可否先討論調整兩房用途，再決定是否需要搬家？"
+          },
+          {
+            "en": "We feel that our life has outgrown the space in its present form, rather than that the flat has no value to us. Could you tell us whether a different room arrangement would be permitted?",
+            "zh": "我們覺得按目前形式，生活需要已超出這個空間，不是說這住所對我們沒有價值。可否告訴我們是否容許改變房間安排？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "currently arranged",
+            "zh": "目前的安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 60
+            }
+          },
+          {
+            "en": "quiet time",
+            "zh": "安靜時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 102
+            }
+          },
+          {
+            "en": "the two rooms",
+            "zh": "兩個房間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 172,
+              "end": 185
+            }
+          },
+          {
+            "en": "a move is necessary",
+            "zh": "有需要搬家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 210,
+              "end": 229
+            }
+          },
+          {
+            "en": "would be permitted",
+            "zh": "是否會獲准",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 185
+            }
+          }
+        ],
+        "selfCheckZh": "具體說用途落差，詢問可否調整並保留之後評估；不把舊住所全盤貶低，也不把申請當成已批准。"
+      },
+      "takeaways": [
+        {
+          "en": "Our life has outgrown this space since the evening lessons and family meals began needing the same room at the same time.",
+          "zh": "晚課與家庭用餐開始同時需要同一房間後，我們的生活需要已超出這個空間。"
+        },
+        {
+          "en": "I wrote that our life has outgrown the space now used for both the twins’ drawing lessons and their grandmother’s afternoon rest.",
+          "zh": "我寫道，我們的生活需要已超出這個空間，因為它現在同時要供雙胞胎學畫和祖母下午休息。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1843",
+      "number": 1843,
+      "inventoryId": "expr-1843",
+      "contentRevision": 1,
+      "titleEn": "once felt like a nest",
+      "titleZh": "曾經像溫暖的窩一樣",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bonce felt like a nest\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p226-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 22,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The tiny flat was what once felt like a nest.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "what once felt like a nest",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Previously felt like a sheltered, comforting home, using a nest as the image.",
+        "meaningZh": "曾像一個可安歇、有溫暖感的家，以鳥窩作比喻。",
+        "grammar": "the flat once felt like a nest; what once felt like a nest can introduce a place remembered that way; once marks the earlier feeling, while context explains any later change",
+        "register": "neutral",
+        "boundaryZh": "回憶舒適感不等於所有條件都完美，也不必表示現在完全討厭；需分清過去感受與今天用途。",
+        "misconceptionZh": "回憶舒適感不等於所有條件都完美，也不必表示現在完全討厭；需分清過去感受與今天用途。",
+        "outcomeZh": "理解「曾經像溫暖的窩一樣」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative home-as-nest metaphor. Once supplies a time contrast; nest here evokes shelter and familiarity rather than literal nesting."
+      },
+      "listening": {
+        "en": "The flat once felt like a nest, with our books beside the lamp and room for two quiet evenings a week; I still loved those memories, even as the new working hours changed how we used it.",
+        "zh": "那住所曾像溫暖的窩，燈旁有書，每周有兩晚安靜共處；即使新工作時間改變了用途，我仍珍惜那些回憶。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者珍惜過去的安歇感，也承認現在使用方式有變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者把安歇感只歸於較大的面積，沒有提到書本或共處日常。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "人物只在回憶裝修風格，沒有提及房間裏的生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "過去每周都沒有共處時間，安靜晚上只是未來計劃。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "once/books/quiet evenings 給過去感受的細節，still loved 保留記憶與現在改變。"
+      },
+      "reply": {
+        "promptEn": "What do you remember about the flat before the working hours changed?",
+        "promptZh": "工作時間改變前，你記得那住所甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It once felt like a nest, with books, lamplight and some quiet time together.",
+            "zh": "它曾像溫暖的窩，有書、燈光和一些安靜共處時間。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I remember a place where we could settle into familiar evenings.",
+            "zh": "我記得一個可安歇、過熟悉晚上的地方。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The small routines made it comforting to us at that time.",
+            "zh": "那些小習慣，令它當時對我們有安慰感。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Its earlier meaning is still valuable, even though our use of the rooms has changed.",
+            "zh": "即使房間用途改變，它過去的意義仍然珍貴。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物寫舊居「曾像溫暖的窩」，另說冬天窗邊冷，卻很珍惜一家人吃飯的習慣。有人以為舒適比喻表示沒有任何缺點。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Saying it once felt like a nest can preserve the comfort of family routines without denying the cold window.",
+            "zh": "說它曾像溫暖的窩，可保留家庭習慣帶來的安慰感，不必否認窗邊冷。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The nest image establishes that every part of the room was physically comfortable in winter.",
+            "zh": "窩的比喻，已足以證明冬天房間每部分都舒適。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The cold window is described as the reason the family never enjoyed eating together.",
+            "zh": "窗邊冷被描述為一家人從不享受共餐的原因。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "整體感受可來自關係和習慣，不把比喻當所有實際條件都無缺點。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 once felt like a nest 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "地方曾帶來安歇或熟悉感。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當時每項實際條件都必定完美。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可同時記得缺點及珍惜的日常。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "比喻描述感受，不是對所有設施的完整評估。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說你現在要改房間用途，就不應再把舊時光寫得溫暖；你想保留回憶與改變。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It once felt like a nest, and those memories can stay true even when our present needs are different.",
+            "zh": "它曾像溫暖的窩，即使現在需要不同，那些回憶仍可真實。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought a warm memory required us to keep every room in the same use.",
+            "zh": "我以為溫暖回憶表示每個房間都必須保留相同用途。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would evaluate the earlier evenings only by how useful the flat is for our work today.",
+            "zh": "我只會按住所今天對工作多有用，評價以前的晚上。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "過去感受與目前需要可各自成立，不以保留用途或今天效率決定記憶真偽。"
+      },
+      "speaking": {
+        "en": "The old room once felt like a nest to me, and I want to describe the small routines that made it comforting.",
+        "zh": "舊房間對我曾像溫暖的窩，我想寫出那些帶來安慰感的小習慣。",
+        "targetSpan": {
+          "start": 13,
+          "end": 34
+        },
+        "promptZh": "先聽示範，再給感受的具體日常細節。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為祖母的舊屋相簿寫前言，屋子已改成別人的店舖。你想說明它對家人曾有安歇意義，舉一個下雨時一起喝茶的回憶，不把今天用途改變當作別人破壞了你的記憶。用一至兩句英文寫前言。",
+        "examples": [
+          {
+            "en": "This house once felt like a nest to our family, especially on rainy afternoons when Grandma made tea and we gathered at the table. Its new use does not take away what those hours meant to us.",
+            "zh": "這屋子對我們家曾像溫暖的窩，尤其下雨下午，祖母泡茶，大家圍桌而坐。今天的新用途，不會奪走那些時光對我們的意義。"
+          },
+          {
+            "en": "What once felt like a nest to us now has another purpose, but the album can keep the memory of those shared cups of tea. I want to remember our time there without claiming the building must remain unchanged.",
+            "zh": "那地方對我們曾像一個溫暖的窩，如今有了另一用途，但相簿仍可保留一起喝茶的回憶。我想記住那段時光，不宣稱建築必須保持原樣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "rainy afternoons",
+            "zh": "下雨的下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 78
+            }
+          },
+          {
+            "en": "Grandma made tea",
+            "zh": "祖母泡茶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 100
+            }
+          },
+          {
+            "en": "gathered at the table",
+            "zh": "圍坐在桌旁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 129
+            }
+          },
+          {
+            "en": "Its new use",
+            "zh": "它的新用途",
+            "exampleIndex": 0,
+            "span": {
+              "start": 131,
+              "end": 142
+            }
+          },
+          {
+            "en": "those shared cups of tea",
+            "zh": "那些一起喝的茶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 119
+            }
+          }
+        ],
+        "selfCheckZh": "用具體家庭回憶說明過去的安歇感，也承認今天用途不同；不把相簿回憶當對現使用者的要求或指責。"
+      },
+      "takeaways": [
+        {
+          "en": "The tiny kitchen once felt like a nest during winter evenings when everyone brought a story to the table.",
+          "zh": "冬夜裏大家帶故事到餐桌時，那小廚房曾像一個溫暖的窩。"
+        },
+        {
+          "en": "The room once felt like a nest, though she could remember the narrow doorway as clearly as the welcome inside.",
+          "zh": "房間曾像溫暖的窩，但她同樣清楚記得窄門與裏面的歡迎。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1844",
+      "number": 1844,
+      "inventoryId": "expr-1844",
+      "contentRevision": 1,
+      "titleEn": "turn the page",
+      "titleZh": "翻開人生的新一頁",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bturn(?:s|ed|ing)? the page\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 22,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "After the move, she was ready to turn the page.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turn the page",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Move on from a previous situation or stage towards a new one.",
+        "meaningZh": "從先前的情況或階段向前走，開始新的一頁。",
+        "grammar": "be ready to turn the page on something; turn/turned/turning the page. In this figurative use the page marks a life or project stage, not a sheet of paper.",
+        "register": "neutral",
+        "boundaryZh": "向前走不等於抹去過去、拒絕責任或所有感受已解；需看正在結束甚麼與下一步。",
+        "misconceptionZh": "向前走不等於抹去過去、拒絕責任或所有感受已解；需看正在結束甚麼與下一步。",
+        "outcomeZh": "理解「翻開人生的新一頁」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "After the cancelled project, we were ready to turn the page by planning a smaller event, while still sending the promised explanation to the people who had helped with the first one.",
+        "zh": "項目取消後，我們準備規劃較小活動，翻開新一頁，同時仍向幫過首個項目的人送上已承諾的解釋。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小組開始新的安排，也保留對舊項目的交代責任。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "小組想原樣重做已取消的同一活動，不考慮規模改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "小組已決定不再舉行任何活動，沒有下一步。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "新的活動已完成，所以不再需要向原來幫手交代。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "planning smaller event 是下一頁，still sending 解釋保留過去責任。"
+      },
+      "reply": {
+        "promptEn": "How did you want to respond after the project was cancelled?",
+        "promptZh": "項目取消後，你們想怎樣回應？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We wanted to turn the page with a smaller event, without leaving the earlier helpers uninformed.",
+            "zh": "我們想以較小活動翻開新一頁，也不把先前幫手留在不知情狀態。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We hoped to begin something new while explaining what had happened before.",
+            "zh": "我們希望開始新安排，同時解釋之前發生了甚麼。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The cancellation did not have to be the end of our work together.",
+            "zh": "取消不一定要成為我們共同工作的終點。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A new plan seemed possible, alongside the explanation we had promised.",
+            "zh": "在履行已承諾解釋的同時，新計劃看來仍可行。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物完成上一任務的交代，正期待新角色，卻仍偶爾想念舊同伴。朋友說有想念就不能算翻新一頁。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She can turn the page and still miss people from the earlier stage.",
+            "zh": "她可以翻開新一頁，同時仍想念前一階段的人。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Missing an old colleague establishes that she has not begun the new role.",
+            "zh": "想念舊同伴，已足以證明她尚未開始新角色。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The new role means she should describe the earlier team as having no lasting importance.",
+            "zh": "有新角色，表示她應把舊團隊描述為沒有持續意義。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新階段與保留感受可並存，不把想念當沒有行動，也不需貶低過去。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 turn the page on a difficult stage 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "當事人想向新的階段前進。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "先前承諾及需要交代的事已自動取消。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可帶着學到的經驗開始下一步。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "新一頁不自動免除尚未履行的責任。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說既有新活動，就可先不理答應舊幫手的解釋；你想保留下一步也完成交代。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can turn the page and still send the explanation; a new plan does not replace what we promised those helpers.",
+            "zh": "我們可以翻開新一頁，同時送上解釋；新計劃不能代替答應幫手的事。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would wait until the new event is over before telling the earlier helpers what happened.",
+            "zh": "我會等新活動完結，才告訴先前幫手發生了甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought turning the page meant focusing only on new participants rather than replying to the original group.",
+            "zh": "我以為翻新一頁就表示只看新參加者，不用回覆原來小組。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "向前走與履行交代可以並行，不因新活動延後或忽略已承諾回覆。"
+      },
+      "speaking": {
+        "en": "I am ready to turn the page, while keeping the lessons and responsibilities that still belong to me.",
+        "zh": "我準備翻開新一頁，同時保留自己學到的經驗與仍需承擔的責任。",
+        "targetSpan": {
+          "start": 14,
+          "end": 27
+        },
+        "promptZh": "先聽示範，再分向前走與抹去責任。"
+      },
+      "writing": {
+        "promptZh": "新情境：你自願完成兩年社團隊長任期，準備把角色交給新人，想在告別訊息感謝舊團隊，也說自己會翻新一頁、先做普通成員。你已答應交接筆記，不想把新階段說成舊團隊沒有價值或自己永不再參與。用一至兩句英文告別。",
+        "examples": [
+          {
+            "en": "I am ready to turn the page after two rewarding years as captain, and I am grateful for what we built together. I will finish the handover notes, then look forward to taking part as an ordinary member.",
+            "zh": "做隊長兩年很有收穫，我準備翻開新一頁，也感謝大家一起建立的成果。我會完成交接筆記，之後期待以普通成員身份參與。"
+          },
+          {
+            "en": "Turning the page means letting someone else lead while I find a new place in the club, not forgetting our shared work. Thank you for these two years; I will make sure the promised notes reach the new captain.",
+            "zh": "翻新一頁是讓別人帶領、自己在社團找新位置，不是忘掉共同工作。謝謝這兩年；我會確保新隊長收到已答應的筆記。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "two rewarding years",
+            "zh": "很有收穫的兩年",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 53
+            }
+          },
+          {
+            "en": "what we built together",
+            "zh": "我們一起建立的成果",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 110
+            }
+          },
+          {
+            "en": "the handover notes",
+            "zh": "交接筆記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 126,
+              "end": 144
+            }
+          },
+          {
+            "en": "an ordinary member",
+            "zh": "普通成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 182,
+              "end": 200
+            }
+          },
+          {
+            "en": "the new captain",
+            "zh": "新隊長",
+            "exampleIndex": 1,
+            "span": {
+              "start": 192,
+              "end": 207
+            }
+          }
+        ],
+        "selfCheckZh": "感謝已完成的階段，說清新參與身份並履行交接；不把向前走說成忘記舊成果或永遠離開社團。"
+      },
+      "takeaways": [
+        {
+          "en": "She turned the page after the rejected application and began preparing a different proposal, using the feedback she had received.",
+          "zh": "申請被拒後，她翻開新一頁，用收到的回饋準備另一提案。"
+        },
+        {
+          "en": "We hoped to turn the page on the disagreement by listening to the explanation rather than pretending it had never happened.",
+          "zh": "我們希望先聽解釋，為分歧翻開新一頁，而不是裝作事情從未發生。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1845",
+      "number": 1845,
+      "inventoryId": "expr-1845",
+      "contentRevision": 1,
+      "titleEn": "start over",
+      "titleZh": "重新開始",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bstart(?:s|ed|ing)? over\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 22,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "She wanted to start over in another district.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "start over",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Begin again, either from the beginning of a task or in a new situation.",
+        "meaningZh": "重新開始一項工作，或在新情況中重新起步。",
+        "grammar": "start over; start over with a new plan; start over in another place. The context shows how much is restarted and what can still be used.",
+        "register": "neutral",
+        "boundaryZh": "重新開始不表示所有經驗和關係都要丟棄，也不因一個局部問題就必須全部重做；需先看需要重啟的範圍。",
+        "misconceptionZh": "重新開始不表示所有經驗和關係都要丟棄，也不因一個局部問題就必須全部重做；需先看需要重啟的範圍。",
+        "outcomeZh": "理解「重新開始」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "When the recording file was lost, we had to start over with the interview, but the questions and notes from the first conversation helped us prepare a clearer second session.",
+        "zh": "錄音檔遺失後，我們要重新做訪問，但首段談話留下的問題和筆記，幫我們準備了更清楚的第二次訪談。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "訪問要再做，但仍可運用先前留下的問題與筆記。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "小組只改了檔案名稱，原錄音內容仍在。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "準備第二次時，小組刻意不用先前筆記，以免再問舊問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "小組認為筆記已可直接取代錄音，所以不需要第二次訪談。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "file lost/second session 說訪問重啟，notes helped 說經驗仍可使用。"
+      },
+      "reply": {
+        "promptEn": "What helped when you had to record the interview again?",
+        "promptZh": "要重新錄訪問時，甚麼幫到了你們？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We had to start over, but the earlier questions and notes gave us a useful starting point.",
+            "zh": "我們要重新開始，但先前的問題和筆記給了有用起點。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The first conversation had left material we could still learn from.",
+            "zh": "第一次談話留下了我們仍可運用的材料。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Our notes helped us make the second session clearer.",
+            "zh": "筆記幫我們把第二次訪談安排得更清楚。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Losing the audio did not mean losing every insight from the conversation.",
+            "zh": "失去錄音，不等於失去那段談話帶來的每一項理解。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "編輯只要求改一個標點，其餘段落都可保留；作者已改好該處，沒有重寫或重新規劃。哪句最超出實際改動？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The author started over with the whole piece.",
+            "zh": "作者把整篇文章重新開始。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The author made a local correction while keeping the existing text.",
+            "zh": "作者保留原文，只作局部更正。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account does not describe beginning the writing process again.",
+            "zh": "這份敘述沒有描述重新展開寫作過程。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "局部標點更正與整篇重新開始不同，應按實際範圍描述。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 start over 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某項工作或階段要重新起步。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有先前經驗都已沒有用途。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍需交代重做範圍，以及哪些材料可保留。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "重新起步可保留經驗，不等於全面抹除。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說重錄就應丟掉原筆記，讓第二次「真正從頭開始」；你們已發現筆記有幫助。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can start over with the recording and still use the notes; they help us ask better questions, rather than replace the new interview.",
+            "zh": "我們可以重新錄音，也運用筆記；它們幫我們問得更好，不是代替新訪問。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would avoid looking at the notes until after the second session, even where they identify a question we missed.",
+            "zh": "我會等第二次訪談後才看筆記，即使它們指出了漏問的問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought a new recording required us to act as though we had never heard the first conversation.",
+            "zh": "我以為重新錄音，就必須當作從未聽過第一次談話。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新錄音仍可用已學到的內容準備，不需故意放下有用問題或經驗。"
+      },
+      "speaking": {
+        "en": "Before we start over, I would like to identify which part needs rebuilding and which earlier work we can still use.",
+        "zh": "重新開始前，我想先找出哪部分需要重建，以及哪些先前工作仍可使用。",
+        "targetSpan": {
+          "start": 10,
+          "end": 20
+        },
+        "promptZh": "先聽示範，再說重新開始的範圍。"
+      },
+      "writing": {
+        "promptZh": "新情境：原來的戲劇社結束後，你想加入另一社協助服裝。你知道要重新熟悉新團隊的流程，也想帶來已有的縫紉經驗，並保持舊團員聯絡。用一至兩句英文向新團隊介紹自己想如何參與，不把重新起步寫成過去一筆勾銷。",
+        "examples": [
+          {
+            "en": "I would like to start over with your costume team while bringing the sewing skills I learned in my former drama group. I know I will need to learn your routines, and I hope to keep in touch with the old team too.",
+            "zh": "我想在你們的服裝團隊重新起步，也帶來以前戲劇社學到的縫紉技術。我知道需要學習你們的流程，也希望繼續跟舊團隊保持聯絡。"
+          },
+          {
+            "en": "Since my old group closed, I am hoping to start over in costume work with a new team. Could I help with a small sewing task first, using my earlier experience while learning how you organise the work?",
+            "zh": "原來團體結束後，我希望在新團隊的服裝工作重新起步。我可否先幫一項小縫紉任務，運用以前經驗，同時學習你們怎樣安排工作？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "your costume team",
+            "zh": "你們的服裝團隊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 32,
+              "end": 49
+            }
+          },
+          {
+            "en": "the sewing skills",
+            "zh": "縫紉技術",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 82
+            }
+          },
+          {
+            "en": "my former drama group",
+            "zh": "我以前的戲劇社",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 117
+            }
+          },
+          {
+            "en": "your routines",
+            "zh": "你們的流程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 147,
+              "end": 160
+            }
+          },
+          {
+            "en": "a small sewing task",
+            "zh": "一項小縫紉任務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 123
+            }
+          }
+        ],
+        "selfCheckZh": "向新團隊提出具體參與方式，承認需學新流程並保留已有經驗與關係；不把重新起步當所有過去都無用，也不聲稱新團隊已接受。"
+      },
+      "takeaways": [
+        {
+          "en": "They started over with a new outline after discovering that the interviews did not support the original question.",
+          "zh": "發現訪問不支持原問題後，他們用新大綱重新開始。"
+        },
+        {
+          "en": "Starting over at the new workshop felt less daunting once she found a role that used the skills from her earlier team.",
+          "zh": "她在新工作坊找到一個可用上舊團隊所學技巧的角色後，重新開始就沒那麼令人畏懼。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1847",
+      "number": 1847,
+      "inventoryId": "expr-1847",
+      "contentRevision": 1,
+      "titleEn": "at bottom",
+      "titleZh": "根本上；說到底",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bat bottom\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 22,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "At bottom, the move was about safety.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "at bottom",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "At the most basic or fundamental level, beneath the apparent details.",
+        "meaningZh": "在最基本或根本的層面，透過表面細節看核心所在。",
+        "grammar": "At bottom, the argument is about...; it is, at bottom, a question of... . This adverbial phrase identifies a fundamental explanation, not necessarily the only contributing detail.",
+        "register": "neutral",
+        "boundaryZh": "說核心原因仍需依據，不能只憑自己偏好替別人定動機；細節也不因找到核心就全無價值。",
+        "misconceptionZh": "說核心原因仍需依據，不能只憑自己偏好替別人定動機；細節也不因找到核心就全無價值。",
+        "outcomeZh": "理解「根本上；說到底」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The argument sounded as if it was about chairs, but at bottom it was about whether newcomers could join the discussion without asking for special permission each time.",
+        "zh": "爭論聽來像在談椅子，但說到底，是新成員能否不用每次特別請准，就參與討論。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "表面的椅子問題，牽涉新成員能否平等參與的核心。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "爭論只在比較椅子木材，沒有參與方式的問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "新成員已被禁止所有討論，所以雙方不再爭論。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者只想增加椅子數量，沒有關心誰可加入討論。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "sounded chairs/but at bottom whether join 對比表面事項與根本參與問題。"
+      },
+      "reply": {
+        "promptEn": "Why did the question about chairs become so important?",
+        "promptZh": "椅子的問題為甚麼變得那麼重要？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "At bottom, it was about newcomers being able to join without repeated special permission.",
+            "zh": "說到底，那是新成員能否不用反覆特別請准便參與的問題。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The seating arrangement carried a larger question about access to the discussion.",
+            "zh": "座位安排帶着一個更大的問題：誰可參與討論。"
+          },
+          {
+            "id": "reply-3",
+            "en": "People were not only choosing furniture; they were deciding how newcomers would be included.",
+            "zh": "大家不只在選傢俬，也在決定怎樣讓新人加入。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The practical detail affected whether participation felt open in the first place.",
+            "zh": "這個實際細節，影響參與本身是否讓人感到開放。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物明說自己提搬家是因每天回程太晚、無法趕及接家人；朋友卻只因見過他看新裝修照片，就定核心原因是想炫耀。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The stated timing problem gives a basis for asking what matters at bottom; the photographs alone do not establish a wish to impress.",
+            "zh": "已說明的時間問題，讓人有依據問核心是甚麼；照片本身不能確立他想炫耀。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The photographs are enough to identify impressing others as the fundamental reason.",
+            "zh": "單憑照片，就已足以認定希望給別人留下好印象是根本原因。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says he has no difficulty with the timing of the journey home.",
+            "zh": "這份敘述說他的回程時間沒有難處。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "核心判斷要按已述需要及其他證據，不由一項表面興趣直接猜動機。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 at bottom 的用法得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者正在指出較根本的問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要說了這個片語，所指核心便不需任何依據。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "表面細節仍可幫助理解根本問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "片語標出解釋層次，不替解釋本身提供證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說既核心是新人成員的參與，就不用再談座位細節；座位卻正影響他們能否加入。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "At bottom it is about participation, and the seating details matter because they help put that principle into practice.",
+            "zh": "說到底是參與的問題，而座位細節重要，因它們幫這個原則實際落地。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would keep the general statement about welcome and leave the arrangements until after newcomers arrive.",
+            "zh": "我會先保留歡迎的原則說法，待新人到場後才處理安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought identifying a fundamental aim meant the smaller practical choices no longer contributed to it.",
+            "zh": "我以為找到根本目標，就表示較小的實際選擇不再對它有作用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "核心與實作細節可以相連，不因原則清楚就延後必要安排。"
+      },
+      "speaking": {
+        "en": "At bottom, I want people to understand the choice they are being asked to make, not simply sign the form quickly.",
+        "zh": "說到底，我想大家明白自己被要求作甚麼選擇，不只是快快簽表。",
+        "targetSpan": {
+          "start": 0,
+          "end": 9
+        },
+        "promptZh": "先聽示範，再說表面行動背後的根本目的。"
+      },
+      "writing": {
+        "promptZh": "新情境：你向活動籌委提出字體、行距和投影位置等幾項修改，有人以為你只在挑設計。你想解釋核心是讓後排參加者也看清要作的選擇，並邀先試一張投影片，不把自己的每個設計偏好都說成必須。用一至兩句英文說明。",
+        "examples": [
+          {
+            "en": "At bottom, my concern is whether people at the back can read the choices, not whether the slides match my taste. Could we test one slide from those seats before deciding which changes are needed?",
+            "zh": "說到底，我關心的是後排的人能否讀清選項，不是投影片是否合我口味。可否先從那些座位試看一張，再定需要哪些修改？"
+          },
+          {
+            "en": "These design questions are, at bottom, about making the information usable for the whole room. I would like to try the projected text from the back rather than insist on every detail of my preferred layout.",
+            "zh": "這些設計問題，說到底，是要讓全場都用得到資料。我想先在後排試看投影文字，不堅持自己偏好版面的每個細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "people at the back",
+            "zh": "坐在後排的人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 51
+            }
+          },
+          {
+            "en": "read the choices",
+            "zh": "讀清選項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 72
+            }
+          },
+          {
+            "en": "my taste",
+            "zh": "我的口味",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 111
+            }
+          },
+          {
+            "en": "test one slide",
+            "zh": "試看一張投影片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 136
+            }
+          },
+          {
+            "en": "the projected text",
+            "zh": "投影出來的文字",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 133
+            }
+          }
+        ],
+        "selfCheckZh": "把多項要求連到可理解資料的核心目的，提出實際試看；不把個人設計偏好自動升格成唯一方法，也不捨去相關細節。"
+      },
+      "takeaways": [
+        {
+          "en": "The disagreement was, at bottom, about who had been included in the decision rather than the colour of the notice.",
+          "zh": "這場分歧說到底關乎誰曾參與決定，不是公告顏色。"
+        },
+        {
+          "en": "At bottom, she wanted a chance to explain her work in her own words before others summarised it for her.",
+          "zh": "說到底，她想在別人替她總結之前，有機會用自己的話解釋作品。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1848",
+      "number": 1848,
+      "inventoryId": "expr-1848",
+      "contentRevision": 1,
+      "titleEn": "starting a chapter with the map missing",
+      "titleZh": "新一章開始，卻還沒有地圖",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bstarting a chapter with the map missing\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Moving abroad can feel like starting a chapter with the map missing.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "starting a chapter with the map missing",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Beginning a new stage without knowing the practical systems or routes needed to navigate it.",
+        "meaningZh": "開始新階段時，還不熟悉應付日常所需的制度、方法或途徑。",
+        "grammar": "it felt like starting a chapter with the map missing; a mixed book-and-navigation image, where chapter is a life stage and map is practical orientation",
+        "register": "neutral",
+        "boundaryZh": "不熟悉不等於注定失敗，也不表示完全沒有任何幫助；需說哪部分實際資訊或經驗仍欠缺。",
+        "misconceptionZh": "不熟悉不等於注定失敗，也不表示完全沒有任何幫助；需說哪部分實際資訊或經驗仍欠缺。",
+        "outcomeZh": "理解「新一章開始，卻還沒有地圖」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative combined metaphor, not a fixed idiom. Both images contribute: the stage is new, and the person lacks orientation within it."
+      },
+      "listening": {
+        "en": "My first week at the workshop felt like starting a chapter with the map missing: I knew the tools, but not who approved the orders or where the shared materials were recorded.",
+        "zh": "工作坊第一周像新一章開始、卻還沒有地圖：我認識工具，卻不知道誰批核訂單，也不知道共用材料記在哪裏。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者有工具知識，但仍欠日常程序與責任位置的認識。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者不認識任何工具，也未有任何既有能力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者已會一般工作流程，只是第一份訂單還未批核。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者熟悉訂單程序，卻不懂工具使用。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "knew tools/but not approvals records 說部分能力已有、實際導向仍欠，不是全無能力也不是只差首份訂單批准。"
+      },
+      "reply": {
+        "promptEn": "What felt unfamiliar during the first week?",
+        "promptZh": "第一周有哪些事讓你感到陌生？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It felt like starting a chapter with the map missing because I did not know the approval and record systems.",
+            "zh": "因為不熟悉批核與記錄制度，我覺得像新一章開始、卻還沒有地圖。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I knew how to use the tools, but not how the workshop organised the work.",
+            "zh": "我知道怎用工具，卻不熟悉工作坊怎安排工作。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The missing knowledge concerned who did what and where information was kept.",
+            "zh": "欠缺的認識是誰負責甚麼，以及資料放在哪裏。"
+          },
+          {
+            "id": "reply-4",
+            "en": "My practical skills did not yet give me a route through the local procedures.",
+            "zh": "我的實作技巧，還不足以讓我熟悉這裏的辦事程序。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新人已拿到一本手冊，讀懂日常登記，卻仍不知例外申請要找誰；朋友只因有手冊便說他再沒有任何摸索。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can still feel like starting a chapter with the map missing in that specific area, even though the routine guidance is useful.",
+            "zh": "即使日常指引有用，在那個具體範圍，他仍可能感到新一章開始、卻還沒有地圖。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The handbook’s existence establishes that he already knows who approves the exceptions.",
+            "zh": "有手冊，已足以證明他知道誰批核例外。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He has described being unable to understand the ordinary registration as well as the exceptions.",
+            "zh": "他已說自己連日常登記和例外都不明白。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有部分指引與仍有局部缺口可並存，不因一本手冊就推全部熟悉，也不抹去已懂的日常程序。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 starting a chapter with the map missing 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "新階段缺乏某些實際導向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當事人已注定無法適應，也沒有任何既有能力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以問清缺的是資訊、聯絡人還是本地經驗。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "缺乏導向不是失敗判決，仍可有能力和可尋求的支援。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說你既懂工具，就應不用問工作坊程序；你想分清技能與當地做法。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It still felt like starting a chapter with the map missing; knowing the tools did not tell me who approved an order here.",
+            "zh": "我仍覺得像新一章開始、卻還沒有地圖；懂工具，不會直接告訴我這裏誰批核訂單。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would rely on the approval process from my previous workplace before asking whether this one differs.",
+            "zh": "我會先依以前工作地點的批核程序，不問這裏是否不同。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought asking where the records were kept would mean admitting I could not use the tools.",
+            "zh": "我以為問記錄放在哪裏，就表示承認自己不懂用工具。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "技能與本地程序不同，求資訊不否定能力，也不應未查就套舊制度。"
+      },
+      "speaking": {
+        "en": "It feels like starting a chapter with the map missing, so I want to ask which local procedures I need to learn first.",
+        "zh": "這像新一章開始、卻還沒有地圖，所以我想問應先學哪些本地程序。",
+        "targetSpan": {
+          "start": 14,
+          "end": 53
+        },
+        "promptZh": "先聽示範，再指出缺少哪種實際導向。"
+      },
+      "writing": {
+        "promptZh": "新情境：搬到新區一年後，你想寫謝卡給一位鄰居。最初你不熟悉借書、找社區活動的方法，對方陪你做過一次，也讓你之後自己試；現在你已可獨立安排。用一至兩句英文回顧當初缺少導向的感受，並感謝具體幫助，不說對方替你處理了全部生活。",
+        "examples": [
+          {
+            "en": "Arriving here felt like starting a chapter with the map missing, especially when I did not know how to find local books and activities. Thank you for showing me once and leaving room for me to try; I can now make those arrangements myself.",
+            "zh": "剛到這裏像新一章開始、卻還沒有地圖，尤其我不知道如何找本地書籍和活動。謝謝你先示範一次，再留空間讓我試；現在我能自己安排。"
+          },
+          {
+            "en": "What once felt like starting a chapter with the map missing now feels more manageable, as I can find the services I need myself. Thank you for going to the library with me and showing me how to borrow before letting me try on my own.",
+            "zh": "當初像新一章開始卻還沒有地圖的經歷，現在感到較能應付，因為我能自己找到所需服務。謝謝你陪我去圖書館，先教我借閱，再讓我自行嘗試。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "local books and activities",
+            "zh": "本地書籍與活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 134
+            }
+          },
+          {
+            "en": "showing me once",
+            "zh": "先示範一次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 165
+            }
+          },
+          {
+            "en": "make those arrangements myself",
+            "zh": "自己作那些安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 208,
+              "end": 238
+            }
+          },
+          {
+            "en": "more manageable",
+            "zh": "較能應付",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          },
+          {
+            "en": "going to the library with me",
+            "zh": "陪我去圖書館",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 171
+            }
+          }
+        ],
+        "selfCheckZh": "比較初到時的具體資訊缺口與現在能自己安排的轉變，感謝示範而保留自主；不把缺導向當沒有能力，也不說鄰居包辦全部生活。"
+      },
+      "takeaways": [
+        {
+          "en": "The new role felt like starting a chapter with the map missing until she learned where questions about the rota should go.",
+          "zh": "她學會輪值問題應找誰之前，新角色像新一章開始、卻還沒有地圖。"
+        },
+        {
+          "en": "For us, joining the shared studio was like starting a chapter with the map missing: the tools were familiar, but the booking rules were not.",
+          "zh": "對我們而言，加入共用工作室像新一章開始、卻還沒有地圖：工具熟悉，預約規則卻不熟。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1849",
+      "number": 1849,
+      "inventoryId": "expr-1849",
+      "contentRevision": 1,
+      "titleEn": "work out",
+      "titleZh": "想出解決辦法或安排",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bwork(?:s|ed|ing)? (?:out|(?:it|them) out)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "They will work out a fair schedule together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "work out",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Find a solution, explanation or workable arrangement through thought or discussion.",
+        "meaningZh": "透過思考或討論，找出解決辦法、解釋或可行安排。",
+        "grammar": "work out a fair schedule; work out what happened; work it out. This lesson focuses on the transitive solution/planning use; work out well means develop successfully in a different intransitive pattern.",
+        "register": "neutral",
+        "boundaryZh": "找出安排不等於實行已成功，也不一定一個人完成；需說解決了甚麼，以及哪些條件仍待確認。",
+        "misconceptionZh": "找出安排不等於實行已成功，也不一定一個人完成；需說解決了甚麼，以及哪些條件仍待確認。",
+        "outcomeZh": "理解「想出解決辦法或安排」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The planning/solution pattern takes an object or a clause. An intransitive outcome such as work out well requires a different sentence structure."
+      },
+      "listening": {
+        "en": "We worked out a fair rota by comparing the hours each helper could actually offer; the first draft was agreed, but we still needed to check whether the room was available for those sessions.",
+        "zh": "我們比較各幫手實際可提供的時數，想出公平輪值；初稿已議定，但仍要查那些時段房間是否可用。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小組已透過比較可用時數議出輪值，場地仍待確認。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "房間已確認所有時段，幫手的時間卻未曾比較。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "小組只是把原表重印，沒有討論或得出新安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "第一輪活動已完成，輪值效果也已作過檢討。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "comparing/agreed draft 說解決安排的過程；still check venue 保留未定條件，不當成已實施成功。"
+      },
+      "reply": {
+        "promptEn": "How did you arrive at the first rota?",
+        "promptZh": "你們怎樣得出首份輪值？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We worked out a fair rota by comparing the hours people could actually offer.",
+            "zh": "我們比較大家實際能提供的時數，想出公平輪值。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Each helper’s availability gave us information to build the arrangement around.",
+            "zh": "各幫手可用的時間，給我們依據去安排。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We discussed the real hours rather than divide the sessions without asking.",
+            "zh": "我們討論實際時數，不是在未問之前就分時段。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The first draft came from matching the tasks with the time people said they had.",
+            "zh": "首稿來自把工作與大家說可提供的時間配合。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組已議定可接受的初稿，但其中一個時段場地未批；有人把「已想出安排」直接寫成活動全程已成功。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They have worked out a draft arrangement, but its remaining venue condition still needs confirmation.",
+            "zh": "他們已想出初步安排，但剩下的場地條件仍需確認。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The agreed draft is a report of an event that has already run successfully.",
+            "zh": "議定初稿，是活動已成功舉行的報告。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They have not yet discussed any helper’s availability or proposed a schedule.",
+            "zh": "他們尚未談任何幫手時間，也未提出時間表。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "方案階段與實行結果不同，不能把已討論初稿說成已辦活動，或反過來說未談。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 work out a solution 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "已透過思考或討論找出一個辦法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "辦法已在實際執行中證明完全成功。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可需要試行、確認條件或再作調整。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "解決方案的形成與實際驗證是不同步驟。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說輪值既議好了，就可先不查房間；你們已知道場地批覆仍未收到。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We have worked out the rota, but let us confirm the room before telling everyone the sessions are ready to run.",
+            "zh": "我們已想出輪值，但告訴大家時段可實行前，先確認房間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would send the rota as final and look for a different room only if people arrive to find this one unavailable.",
+            "zh": "我會先把輪值當定稿發出，等大家到場發現房間不可用才找另一間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the helpers’ agreement was also confirmation from the person responsible for the venue.",
+            "zh": "我以為幫手同意，也等於場地負責人已確認。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "幫手協議與場地批准是不同來源，不能由其中一方代另一方或留到現場才處理。"
+      },
+      "speaking": {
+        "en": "We need to work out which detail is missing before we decide whether to change the whole plan.",
+        "zh": "決定是否改整個計劃前，我們需要先找出缺的是哪項細節。",
+        "targetSpan": {
+          "start": 11,
+          "end": 19
+        },
+        "promptZh": "先聽示範，再說想解決哪個具體問題。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們整理舊照片，只知道一張在禮堂啟用前、另一張在新校徽推出後；兩件地標事件的日期都尚未查到，也未知道誰先。你想請伙伴先查那些日期，再判斷線索是否足以確定照片先後，不為排版方便便補年份。用一至兩句英文提出查證步驟。",
+        "examples": [
+          {
+            "en": "Could we work out when the hall opened and the new badge appeared before trying to order the photos? We should then check whether those dates actually establish a sequence, rather than assume the clues are enough.",
+            "zh": "嘗試排列照片前，我們可否先查清禮堂何時啟用、新校徽何時出現？之後應檢查那些日期是否真正確立先後，而不是假定線索已足夠。"
+          },
+          {
+            "en": "Let us work out the dates of the two landmarks first, then see what limits they place on each photo. If those limits still overlap, we should mark the order as uncertain rather than invent a year for the display.",
+            "zh": "我們先查清兩件地標事件的日期，再看它們為各張照片帶來甚麼時間界限。如果界限仍有重疊，我們應標明先後未確定，而不是為展板編一個年份。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the hall opened",
+            "zh": "禮堂啟用",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 38
+            }
+          },
+          {
+            "en": "the new badge appeared",
+            "zh": "新校徽出現",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 65
+            }
+          },
+          {
+            "en": "order the photos",
+            "zh": "排列照片先後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 99
+            }
+          },
+          {
+            "en": "establish a sequence",
+            "zh": "確立先後次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 171
+            }
+          },
+          {
+            "en": "those limits still overlap",
+            "zh": "那些界限仍有重疊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 104,
+              "end": 130
+            }
+          }
+        ],
+        "selfCheckZh": "先核實地標日期，再問時間界限是否足夠確立照片先後；若仍重疊便保留不確定，不把兩個未定日期的線索直接當成已知順序或年份。"
+      },
+      "takeaways": [
+        {
+          "en": "They worked out why the two totals differed after noticing that one list included visitors and the other counted members only.",
+          "zh": "他們留意到一份名單包括訪客、另一份只計會員後，找出了兩個總數不同的原因。"
+        },
+        {
+          "en": "She asked us to work out a possible route through the exhibition before deciding where the first explanation should go.",
+          "zh": "她請我們先想出展覽內一條可能路線，再決定首段解說應放在哪裏。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    },
+    {
+      "id": "advanced-native-1850",
+      "number": 1850,
+      "inventoryId": "expr-1850",
+      "contentRevision": 1,
+      "titleEn": "everyday life becomes harder before it becomes easier",
+      "titleZh": "適應初期先難，後來才容易",
+      "category": "natural",
+      "target": {
+        "pattern": "\\beveryday life (?:(?:can|may) become|becomes|became) harder before it (?:becomes|became) easier\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p227-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "After a move, everyday life becomes harder before it becomes easier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "everyday life becomes harder before it becomes easier",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Daily adjustment can involve an initially more difficult period followed by greater ease as familiarity and workable routines develop.",
+        "meaningZh": "日常適應可以先經歷較困難的時期，再隨熟悉程度及可行習慣建立而較容易。",
+        "grammar": "everyday life became harder before it became easier reports a sequence; can/may become leaves it possible rather than guaranteed. The full contrast is productive, not a fixed proverb promising improvement.",
+        "register": "neutral",
+        "boundaryZh": "不能以可能適應為由忽略實際困難，也不從最初不順就保證後來一定改善；要看已發生的變化或可提供甚麼支援。",
+        "misconceptionZh": "不能以可能適應為由忽略實際困難，也不從最初不順就保證後來一定改善；要看已發生的變化或可提供甚麼支援。",
+        "outcomeZh": "理解「適應初期先難，後來才容易」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Natural temporal contrast about adjustment, not a universal rule. Practice distinguishes a documented before-and-after sequence from a prediction."
+      },
+      "listening": {
+        "en": "For us, everyday life became harder before it became easier after the move: the new opening hours first disrupted our errands, then a shared list helped us plan them without repeated wasted journeys.",
+        "zh": "搬家後，日常生活對我們先變難，後來才容易；新開放時間起初打亂辦事安排，之後共用清單幫我們計劃，不再反覆白走。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "敘述有先遇困難、再用具體方法改善的前後證據。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者只預測以後必改善，沒有提過已發生的轉變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "清單在搬家前已完整適用，所以一開始沒有任何困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "開放時間從未改變，所有白走都只是未發生的假設。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "first disrupted/then list helped 說已見時間序列，改善有方法，不是保證人人自然變好。"
+      },
+      "reply": {
+        "promptEn": "What made the errands easier after the first difficulties?",
+        "promptZh": "最初遇到困難後，甚麼讓辦事較容易？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Everyday life became harder before it became easier, and the shared list helped us understand the new hours.",
+            "zh": "日常生活先變難，後來才容易；共用清單幫我們理解新的開放時間。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We began planning with the actual opening hours instead of making repeated unsuccessful trips.",
+            "zh": "我們開始按實際開放時間安排，不再反覆白走。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The shared list gave us a way to fit the errands into the new routine.",
+            "zh": "共用清單給我們方法，把辦事安排放進新作息。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We turned what we had learned from the early problems into a practical planning aid.",
+            "zh": "我們把最初遇問題所學的事，變成實際規劃工具。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "故事只寫搬家首兩周很費力，尚未交代後來情況或任何改善；你要保留目前知道的範圍。哪句不宜寫成已確定的事實？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Everyday life became harder before it became easier, and the later improvement is already documented.",
+            "zh": "日常生活先變難、後來才容易，而且後來改善已有記錄。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The first two weeks are described as difficult, while the later outcome is still unknown.",
+            "zh": "首兩周被描述為困難，後來結果仍未知。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We would need more of the account before describing a completed adjustment.",
+            "zh": "要描述已完成的適應，仍需更多後續敘述。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "目前只有初段，不能補出後來改善已發生；可以保留未知及需要更多內容。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜只憑最初適應困難得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某些日常安排暫時較難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "後來一定會自行改善，所以現在不用聽任何支援需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以查看困難在哪裏，以及哪些方法或幫助可能有用。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "時間本身不是改善保證，可能適應也不取消眼前需要。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說初期辛苦很正常，所以不需看你們為何白走；你想解釋清單的實際作用。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Everyday life became harder before it became easier for us because we learned the new hours and changed how we planned, not because we ignored the problem.",
+            "zh": "對我們而言，日常生活先變難、後來才容易，是因學會新時間並改計劃方式，不是因忽略問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would keep making the same trips and wait for the opening hours to become familiar without recording them.",
+            "zh": "我會繼續照原樣去，等開放時間自然熟悉，不把它們記下來。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought describing an early difficult period meant we no longer needed to ask what caused the failed errands.",
+            "zh": "我以為說是初期困難，就表示不用再問為甚麼辦事白走。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "看具體學習及調整，不用「初期正常」取代了解與方法。"
+      },
+      "speaking": {
+        "en": "Everyday life may become harder before it becomes easier with a new routine, but I still want to ask for the help I need now.",
+        "zh": "新作息下，日常生活可能先變難、後來才容易，但我仍想提出現在所需的幫助。",
+        "targetSpan": {
+          "start": 0,
+          "end": 56
+        },
+        "promptZh": "先聽示範，再保留可能適應與目前支援。"
+      },
+      "writing": {
+        "promptZh": "新情境：你開始新的晚班工作，回家時間與室友做飯時間錯開，首周很混亂。室友說過一陣就好，你也希望適應，但想先商量一周的共用廚房時間，之後再檢視，不要求他永久按你安排。用一至兩句英文提出暫時支援。",
+        "examples": [
+          {
+            "en": "Everyday life may become harder before it becomes easier with these new shifts, but I need a workable kitchen arrangement during the first week. Could we agree on some shared times and review them next weekend?",
+            "zh": "新輪班可能令日常生活先變難、後來才容易，但首周我仍需要可行的廚房安排。我們可否先議一些共用時間，下周末再檢視？"
+          },
+          {
+            "en": "I know everyday life can become harder before it becomes easier when routines change, but waiting alone will not settle our meal times. I would like to try a one-week kitchen plan with you before deciding what should stay.",
+            "zh": "我知道作息改變時，日常生活可以先變難、後來才容易，但只等下去不能定好我們的用餐時間。我想跟你試一周廚房安排，再決定哪些值得保留。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "these new shifts",
+            "zh": "這些新輪班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 78
+            }
+          },
+          {
+            "en": "a workable kitchen arrangement",
+            "zh": "可行的廚房安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 91,
+              "end": 121
+            }
+          },
+          {
+            "en": "the first week",
+            "zh": "首周",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 143
+            }
+          },
+          {
+            "en": "review them next weekend",
+            "zh": "下周末檢視那些安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 185,
+              "end": 209
+            }
+          },
+          {
+            "en": "a one-week kitchen plan",
+            "zh": "一周的廚房計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 179
+            }
+          }
+        ],
+        "selfCheckZh": "承認可能的適應過程，也提出具體暫時安排和再檢視時間；不把等待當唯一方法，不要求室友永久服從。"
+      },
+      "takeaways": [
+        {
+          "en": "Everyday life became harder before it became easier when we changed schools; a clear list of the new bus times eventually made the mornings less rushed.",
+          "zh": "轉校時，日常生活先變難、後來才容易；清楚列出新巴士時間，終於讓早晨不再那麼趕急。"
+        },
+        {
+          "en": "In her account, everyday life became harder before it became easier after the new timetable, as she gradually found a way to combine lessons and family meals.",
+          "zh": "她記述新時間表後，日常生活先變難、後來才容易，因她逐漸找到兼顧課堂與家庭用餐的方法。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author full bilingual self-review plus structure/source/span checks complete. Independent editorial, human, listening, browser and release approval remain separate."
+      }
+    }
+  ],
+  "authoringComplete": true
+}

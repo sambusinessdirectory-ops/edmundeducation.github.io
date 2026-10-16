@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "artifact": "advanced-native-authoritative-course-materials",
+  "state": "tracked-source-candidate",
+  "counts": {
+    "authoritativeBatchFiles": 87,
+    "authoredRecords": 1883,
+    "preservedBaselineModules": 10,
+    "totalCanonicalModules": 1893,
+    "sourceLabels": 2110,
+    "sourceOccurrences": 3185,
+    "aliases": 218,
+    "supplementaryMeaningRecords": 1,
+    "newAssessedQuestions": 11298,
+    "newAudioRoles": 7532
+  },
+  "canonicalInputFiles": [
+    "batches/batch-0011-0025.json",
+    "batches/batch-0026-0050.json",
+    "batches/batch-0051-0075.json",
+    "batches/batch-0076-0100.json",
+    "batches/batch-0101-0125.json",
+    "batches/batch-0126-0150.json",
+    "batches/batch-0151-0175.json",
+    "batches/batch-0176-0200.json",
+    "batches/batch-0201-0225.json",
+    "batches/batch-0226-0250.json",
+    "batches/batch-0251-0275.json",
+    "batches/batch-0276-0300.json",
+    "batches/batch-0301-0325.json",
+    "batches/batch-0326-0350.json",
+    "batches/batch-0351-0375.json",
+    "batches/batch-0376-0400.json",
+    "batches/batch-0401-0425.json",
+    "batches/batch-0426-0450.json",
+    "batches/batch-0451-0475.json",
+    "batches/batch-0476-0500.json",
+    "batches/batch-0501-0525.json",
+    "batches/batch-0526-0550.json",
+    "batches/batch-0551-0575.json",
+    "batches/batch-0576-0600.json",
+    "batches/batch-0601-0625.json",
+    "batches/batch-0626-0650.json",
+    "batches/batch-0651-0675.json",
+    "batches/batch-0676-0700.json",
+    "batches/batch-0701-0725.json",
+    "batches/batch-0726-0750.json",
+    "batches/batch-0751-0775.json",
+    "batches/batch-0776-0800.json",
+    "batches/batch-0801-0825.json",
+    "batches/batch-0826-0850.json",
+    "batches/batch-0851-0875.json",
+    "batches/batch-0876-0900.json",
+    "batches/batch-0901-0925.json",
+    "batches/batch-0926-0950.json",
+    "batches/batch-0951-0975.json",
+    "batches/batch-0976-1000.json",
+    "batches/batch-1001-1025.json",
+    "batches/batch-1026-1050.json",
+    "batches/batch-1051-1075.json",
+    "batches/batch-1076-1100.json",
+    "batches/batch-1101-1125.json",
+    "batches/batch-1126-1150.json",
+    "batches/batch-1151-1175.json",
+    "batches/batch-1176-1200.json",
+    "batches/batch-1201-1225.json",
+    "batches/batch-1226-1250.json",
+    "batches/batch-1251-1275.json",
+    "batches/batch-1276-1300.json",
+    "batches/batch-1301-1325.json",
+    "batches/batch-1326-1350.json",
+    "batches/batch-1351-1375.json",
+    "batches/batch-1376-1400.json",
+    "batches/batch-1401-1425.json",
+    "batches/batch-1426-1450.json",
+    "batches/batch-1451-1475.json",
+    "batches/batch-1476-1500.json",
+    "batches/batch-1501-1525.json",
+    "batches/batch-1526-1550.json",
+    "batches/batch-1551-1575.json",
+    "batches/batch-1576-1600.json",
+    "batches/batch-1601-1625.json",
+    "batches/batch-1626-1650.json",
+    "batches/batch-1651-1675.json",
+    "batches/batch-1676-1700.json",
+    "batches/batch-1701-1725.json",
+    "batches/batch-1726-1750.json",
+    "batches/batch-1751-1775.json",
+    "batches/batch-1776-1800.json",
+    "batches/batch-1801-1825.json",
+    "batches/batch-1826-1850.json",
+    "batches/batch-1851-1875.json",
+    "batches/batch-1876-1900.json",
+    "batches/batch-1901-1925.json",
+    "batches/batch-1926-1950.json",
+    "batches/batch-1951-1975.json",
+    "batches/batch-1966-1975.json",
+    "batches/batch-1976-2000.json",
+    "batches/batch-2001-2025.json",
+    "batches/batch-2026-2050.json",
+    "batches/batch-2051-2075.json",
+    "batches/batch-2076-2100.json",
+    "batches/batch-2101-2110.json",
+    "batches/batch-2111-2111.json"
+  ],
+  "sourceProvenanceManifest": "provenance/manifest.json",
+  "reviewRegister": "review-register.json",
+  "files": [
+    {
+      "file": "batches/batch-0011-0025.json",
+      "sha256": "97a446e1afdcaf1b82e16698fec7bea6e55b457736ad686ade303b6351a87366",
+      "bytes": 164438,
+      "records": 15
+    },
+    {
+      "file": "batches/batch-0026-0050.json",
+      "sha256": "b741fec78270a7c54dfa58c4a043d2324bb68c6815d6e17a82496038d1c2a569",
+      "bytes": 336367,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0051-0075.json",
+      "sha256": "11dd39f84080028f6df553d22d6a0c455ae32fac3e7bd7532828f38a32903afc",
+      "bytes": 247920,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0076-0100.json",
+      "sha256": "f69fd7b26c4b6cb8546dbb5d3018709bd5c50e66b946501792ad25b004399a82",
+      "bytes": 278579,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-0101-0125.json",
+      "sha256": "2c64e84e63cdc84a09cc887d72c81658ef982a251e47c3cc5bec5c825fad7f7d",
+      "bytes": 249551,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0126-0150.json",
+      "sha256": "452d821b7b862d0de400cf44348a941aea3a799324447584e9fa1dcd1fe97759",
+      "bytes": 278191,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0151-0175.json",
+      "sha256": "5851ae2626878df7c10eea2bec927d7411fbcb9bae002f732545e52940b2c901",
+      "bytes": 241313,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0176-0200.json",
+      "sha256": "859301eee7525244baf32da6970f53acf7bbfe8a5084e371317e2b2965bd50bd",
+      "bytes": 262851,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0201-0225.json",
+      "sha256": "5cfceca626f3514b4c5a7889a8aa2f97855bf0e7c35b1b28f707329399466a32",
+      "bytes": 258509,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0226-0250.json",
+      "sha256": "97b68a93c3fe04d3a294f02d3171805960bc37ebab8acc6076cb8ceeeed260fd",
+      "bytes": 262449,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0251-0275.json",
+      "sha256": "1938f9655f8d5af78cc40f32857a1fd87203d4d2c858665dfd571654d9f59212",
+      "bytes": 240275,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0276-0300.json",
+      "sha256": "59ae8302894566ef9e000d1d6f78c6b34a278c44ea4147ef92aa322709c1ec08",
+      "bytes": 267037,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0301-0325.json",
+      "sha256": "690ff06dd8ed8a885461e2848e83353ae120f8c1d0b852466482fec38fc3578c",
+      "bytes": 259868,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-0326-0350.json",
+      "sha256": "05b312f7ffa8dcab9092f97d87c80f6eb8173828a8d17a1c4199b5568b6d4e76",
+      "bytes": 253798,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-0351-0375.json",
+      "sha256": "a966c02c6778fbca2eca22572fa08aadb7aedc5688aec069ac5d77d51ab92171",
+      "bytes": 276953,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0376-0400.json",
+      "sha256": "046312feda48d8defc6b7dd6533ec51d21c49a0bbaed83694a5bfd4aa28456a3",
+      "bytes": 248368,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-0401-0425.json",
+      "sha256": "cabb0eb7c28ea65d18a420406df9341f3ffad84094f1cd75d5c2ee94bf0a3d4f",
+      "bytes": 267468,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-0426-0450.json",
+      "sha256": "5e5733e6596ccd723e9ff883053c35bbf2cf2da89eed9cf85647105dd85e8c0d",
+      "bytes": 290474,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0451-0475.json",
+      "sha256": "54adfd7d41ef6fd3f30685771f8a762781cae9cc150b6a8ef823406581b0724e",
+      "bytes": 238540,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-0476-0500.json",
+      "sha256": "2f39a50aeaf9cf63450b56d4ec8edf6877fc488f12959e114682c33cb6bd0c33",
+      "bytes": 247634,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0501-0525.json",
+      "sha256": "8b6bd8174b16a6a3318d9eff26dd501aad20c8086a697825489457c3d5971f43",
+      "bytes": 248966,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0526-0550.json",
+      "sha256": "969c9324eae126454122a75d3fd89b54a2395e9c5d013cc5b317c8bf1b657e4f",
+      "bytes": 264623,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0551-0575.json",
+      "sha256": "98a01c44d8bfcd3a4c1e36a684ef561dea31adc4febe6abd0afc321b14139bc6",
+      "bytes": 313110,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0576-0600.json",
+      "sha256": "33c6da2ee23743afab320c6fddb0577e069466dd3192f14c7bf146c669d0e837",
+      "bytes": 264083,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0601-0625.json",
+      "sha256": "90a5fff3ea8de0ac3bf22b14b987ab191c36ad05cd7d6263d4203a5295305523",
+      "bytes": 277217,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-0626-0650.json",
+      "sha256": "d8ca4ba7f27b89354f3f61fcee14a4d97088a98440d5cfaf1a9f3e27b260764f",
+      "bytes": 296683,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0651-0675.json",
+      "sha256": "581672263430bc0bc00fe16c57173a2cfe950474f7c5ffa089e0c37ef5a2c945",
+      "bytes": 277577,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0676-0700.json",
+      "sha256": "c078731a53bd68e41e8e4e5e345ede4e5feac145338540d5addcd9c9bc0144fe",
+      "bytes": 296875,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-0701-0725.json",
+      "sha256": "16a06447f7850f85fa14781b785c11d910cb29daabedb7f1d12ca9c89d3f1a29",
+      "bytes": 281472,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0726-0750.json",
+      "sha256": "ab30d027546b89e4418d84265105797911990152d3ecb90aac63c91bb804e452",
+      "bytes": 238215,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-0751-0775.json",
+      "sha256": "acaf787802b7b0a415f9bd91ed5f9e46d063f7eb424ba6b0756de6764313ce85",
+      "bytes": 268701,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0776-0800.json",
+      "sha256": "aef8b5341826399517b3d38d3a7fe6a48d139328d6b602ca71f0a043d95824dd",
+      "bytes": 253341,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0801-0825.json",
+      "sha256": "5adb5e90111a3d625dc459d51b7d09adbdd78506b7522632cbab4bee729cded4",
+      "bytes": 243055,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-0826-0850.json",
+      "sha256": "525ec001114d61eb80ba81bdecc7a5a6a192331b852739efb87f2c8a6424544b",
+      "bytes": 299551,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0851-0875.json",
+      "sha256": "44e05283e1f3c0e15f155a78f185c4816f1ac7c5442d82297e99f4b045a66695",
+      "bytes": 281663,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0876-0900.json",
+      "sha256": "2f16703b753eeacbebf5ca380430e525ed4ea043be4bfa4d92292ed6b24e2779",
+      "bytes": 279492,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-0901-0925.json",
+      "sha256": "ebbd19644bd1c74991b22ae5bd976fc393a218f4e37d2f715de845014e7ddec1",
+      "bytes": 261474,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0926-0950.json",
+      "sha256": "458e53060262a9c39735651fe38d9504628fa141465fab49afeb547dd6a55da6",
+      "bytes": 272229,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-0951-0975.json",
+      "sha256": "1927cf862092525fe7447abb54e2e421fe99f5f1d1fb7d894d264b8d800bb8c1",
+      "bytes": 297086,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-0976-1000.json",
+      "sha256": "0d5948ebc90c8b6daa9c329e04cdf0cbb62f0b81297d7f2d33e2d7b50c9bf636",
+      "bytes": 282203,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1001-1025.json",
+      "sha256": "53c6de9caa935e137e891d9d9ada6da076c0bc562aca1520808cbfe3eab8ecd2",
+      "bytes": 253859,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-1026-1050.json",
+      "sha256": "258ab39215ffc5d2d792de7cd6b26c6a0ced623203a78b5ea31a391d9823969c",
+      "bytes": 289187,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-1051-1075.json",
+      "sha256": "89bd2e4ff1cb6a5c6809bac37aa5becc29b89383c3a839cfb426dad2ef56e4d9",
+      "bytes": 276692,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1076-1100.json",
+      "sha256": "46d5d1b7291498a54851b85c717c265a6944bae1c4566e38272064d5ddf9a930",
+      "bytes": 283967,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1101-1125.json",
+      "sha256": "41542efcbba5e0bac1b394fca8f8d3b66184784f04249755ab86ba8196c8b010",
+      "bytes": 286396,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1126-1150.json",
+      "sha256": "87fa865a7b37225192d4faaadfa43fc5071a49a214cddd561e579a8608502a43",
+      "bytes": 244181,
+      "records": 19
+    },
+    {
+      "file": "batches/batch-1151-1175.json",
+      "sha256": "db0476cb10421e3179d4befcc529c1b7f853654d1c64051a33fbccd255ae03d9",
+      "bytes": 290100,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1176-1200.json",
+      "sha256": "eb2624ef3763063cbfd7856c46df27bd9e5a2dccde315b16d0c23c8f9b99823f",
+      "bytes": 283810,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1201-1225.json",
+      "sha256": "edea0c3ef47a4ffc535acda8c25737ceb01208e18d6b80e6d96cdbea48422329",
+      "bytes": 269047,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1226-1250.json",
+      "sha256": "7e2dbe51287a3c62ca189975b91f2a89a3698233dbd0490b11d09cb825e94571",
+      "bytes": 258718,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1251-1275.json",
+      "sha256": "855da08de5c447e17d22fc9c2f5ff7c9b393bb2d1a9d81070d3bc60d9de8f78e",
+      "bytes": 257206,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-1276-1300.json",
+      "sha256": "977cc22d53bdd3463543cb061f930dbb65592b778de9a0b0c03ee17f555eab9b",
+      "bytes": 213632,
+      "records": 16
+    },
+    {
+      "file": "batches/batch-1301-1325.json",
+      "sha256": "3682b34e1e46ea0dd151f50b9e90b89f22dd9db25c2b65ad437ba25ff40d84e9",
+      "bytes": 239200,
+      "records": 19
+    },
+    {
+      "file": "batches/batch-1326-1350.json",
+      "sha256": "eb22211f9e1363f09bda4af607c5ab05deb1232a68ee994a34c888aae86fa6df",
+      "bytes": 269868,
+      "records": 20
+    },
+    {
+      "file": "batches/batch-1351-1375.json",
+      "sha256": "892cc4d158497385839e2189591cf47fed2002c60ab4e0bf5728e0cc888e89e4",
+      "bytes": 278851,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-1376-1400.json",
+      "sha256": "4ce2040d0846922df0253e47cbf904e91b03f6d6e7b39e05072bf0a3476bf211",
+      "bytes": 272048,
+      "records": 20
+    },
+    {
+      "file": "batches/batch-1401-1425.json",
+      "sha256": "b0f46ba9cc414f4c71195683e483018fce4cb39d4f8ddf45ad264518792142c6",
+      "bytes": 230071,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1426-1450.json",
+      "sha256": "fe993c2895702c88023487effc7707f6e1147ec4b8444451b136f867f43b0e82",
+      "bytes": 221282,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-1451-1475.json",
+      "sha256": "3b133aa46d16377d5bfea0f5a7589208fffc103f29d2fa293405f8de86fa2d5a",
+      "bytes": 245449,
+      "records": 25
+    },
+    {
+      "file": "batches/batch-1476-1500.json",
+      "sha256": "3d5d7386d7821e2478d695698bd04cfe56a29896d60e9849285833a3f121e08c",
+      "bytes": 236589,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1501-1525.json",
+      "sha256": "a5950561268ef6196787f09215f8ba03b548f67ea298d5d1d30a1b63bbff6594",
+      "bytes": 237657,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1526-1550.json",
+      "sha256": "2bb8e267715a9739e24102cffae84bb402f101aefeac269467e9773bb89d2a1c",
+      "bytes": 223725,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-1551-1575.json",
+      "sha256": "2de007b82c2d0e2105f4f3c20368dfe7ce8ad6b689ab3774cdb0bbab0a074fb0",
+      "bytes": 233922,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-1576-1600.json",
+      "sha256": "10f0c23f076f07a6163496c718523b653953f5cd95271a57b4548d1a41cc3f78",
+      "bytes": 242758,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1601-1625.json",
+      "sha256": "8c54eaba73315ec6e0301917d8da32b4e35589c9e5453fa8556fcfb0a11960b3",
+      "bytes": 260675,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1626-1650.json",
+      "sha256": "22ef53eb54a038024226c6e8dbd3ac1fce33d956c00a9dc561f5e472b2e161fa",
+      "bytes": 240591,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1651-1675.json",
+      "sha256": "38e8ac5f341b7b7ba2cc1f0edd4bb0695056af49dd389479eb41b81f137f1c56",
+      "bytes": 243401,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1676-1700.json",
+      "sha256": "e0a98caf3a0a5307f84361d22bd993e8afcee90b9d4eb5cc91a25ee367b53d84",
+      "bytes": 267468,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1701-1725.json",
+      "sha256": "12298dac0d6e4f7afc3f21640d67ef856eb8b7d443fc99a266af7f90a9ae776f",
+      "bytes": 268112,
+      "records": 24
+    },
+    {
+      "file": "batches/batch-1726-1750.json",
+      "sha256": "e4c132ac50a4390489688327745035e61a70150a2cdaf22b2977117503872401",
+      "bytes": 260946,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-1751-1775.json",
+      "sha256": "d4e2e93d70defb1a8622b2c9c7dd585a5ea36d1ecbec2c50438235799f794f90",
+      "bytes": 237266,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-1776-1800.json",
+      "sha256": "f48b01c19163a91df7a9ba3d66e797b4b9adac72826e1c458384f9fc04a1a1b8",
+      "bytes": 219228,
+      "records": 19
+    },
+    {
+      "file": "batches/batch-1801-1825.json",
+      "sha256": "7ea89c39c93c21b0e9ebcd7f08998eb13f8c6ecc1771f8becdb76e4b30e546de",
+      "bytes": 258777,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1826-1850.json",
+      "sha256": "f797ce72575f81d431a74e61bddc16c9315ce44a2aa867c91ffad49333f216aa",
+      "bytes": 212851,
+      "records": 18
+    },
+    {
+      "file": "batches/batch-1851-1875.json",
+      "sha256": "6b3686ef92d742ac0290817755bf177be6004c6967109d21869b8a58dac907e1",
+      "bytes": 263419,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-1876-1900.json",
+      "sha256": "6f21ac5ffee8abbdd5b7f5f07b84a4dd7d4bca608bec666fa34cc989f5a086fc",
+      "bytes": 238050,
+      "records": 20
+    },
+    {
+      "file": "batches/batch-1901-1925.json",
+      "sha256": "3c9859a166b43ef53f36094209e1e7df45304a78867616d2f0a2c541f5593ff7",
+      "bytes": 253616,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-1926-1950.json",
+      "sha256": "fd55cb4558d350a13a39ab444f1d84e31b989ab40e4e061ef2c6cabb803e8656",
+      "bytes": 244066,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-1951-1975.json",
+      "sha256": "7155e1b3e5739f227b66e610cc7c547a1a1406df0e8b93c1768a9d0e0c405a5b",
+      "bytes": 153934,
+      "records": 12
+    },
+    {
+      "file": "batches/batch-1966-1975.json",
+      "sha256": "5d01fc8a5b435d6bdf358b407fdd9cae99e898da371d600601bc438126075d0c",
+      "bytes": 123880,
+      "records": 9
+    },
+    {
+      "file": "batches/batch-1976-2000.json",
+      "sha256": "a6cc9c0512f09a7efc1761971d62995583628e60073d896cacadeb0b9677ebf1",
+      "bytes": 262022,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-2001-2025.json",
+      "sha256": "4e0393f3204597fa51021a365f93a08646b80346e742b44864e6c12e5f167154",
+      "bytes": 293868,
+      "records": 22
+    },
+    {
+      "file": "batches/batch-2026-2050.json",
+      "sha256": "93b3796263224f7e3664dac0cb7ca5553ab1c34607bda3786386dc81d64531ec",
+      "bytes": 315290,
+      "records": 23
+    },
+    {
+      "file": "batches/batch-2051-2075.json",
+      "sha256": "d37dc77b26d96e4b07a567afa66e52ca7844e293586736b7c28c30bccbb5d4bd",
+      "bytes": 287600,
+      "records": 21
+    },
+    {
+      "file": "batches/batch-2076-2100.json",
+      "sha256": "5a65333ae746e22f0baed48bac26b70995bd92e914e824bd04c1a1c5ff2f5bf9",
+      "bytes": 254661,
+      "records": 19
+    },
+    {
+      "file": "batches/batch-2101-2110.json",
+      "sha256": "64f3b0d2dff886a76057affadecac4dea90f36d0d85be9bba14c6d26151c7bb2",
+      "bytes": 129165,
+      "records": 10
+    },
+    {
+      "file": "batches/batch-2111-2111.json",
+      "sha256": "66d1a32daf28832f987d5a202725e39f11de6e8625bdb9b5a169b669efa043fa",
+      "bytes": 13541,
+      "records": 1
+    },
+    {
+      "file": "provenance/documents.json",
+      "sha256": "c1c2192cfd51090f5eb5ddc7a9847aed5531fe1b93f5a5ef37d969a2c3dd9c2d",
+      "bytes": 411
+    },
+    {
+      "file": "provenance/source-labels.json",
+      "sha256": "be94e717c8b219780996279c50c362b44f6bc53abc7a737052aa9b7e9b633989",
+      "bytes": 933477
+    },
+    {
+      "file": "provenance/source-occurrences.json",
+      "sha256": "c37a3664b4afde2c29bfae7bc431868a394ec3d55325c88821534dd9ae73b7ce",
+      "bytes": 2947213
+    },
+    {
+      "file": "provenance/aliases.json",
+      "sha256": "85ceae4fefae2cf3acd3c0a5d406a238b322003c8e9f85ea0c8199879682111a",
+      "bytes": 60583
+    },
+    {
+      "file": "provenance/supplementary-senses.json",
+      "sha256": "5e3d881e9d62eb380c0a365c38e95585dde1b661b3b3e14a8c0bcb793408538b",
+      "bytes": 828
+    },
+    {
+      "file": "provenance/curated-module-index.json",
+      "sha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+      "bytes": 1114741
+    },
+    {
+      "file": "provenance/audit-summary.json",
+      "sha256": "7f6f0407814e52094224f6fd4cc1f2c938588c982d99e8e07c017c9ffa9037fc",
+      "bytes": 2595
+    },
+    {
+      "file": "provenance/manifest.json",
+      "sha256": "2daad045d24007b3e1f45b8e108a4a9159cbe7ae2d42b07478aab67f13a1ba3f",
+      "bytes": 2522
+    },
+    {
+      "file": "review-register.json",
+      "sha256": "6a945f80e5c92db616f34d9bdd28e8fb24c10b6545f45b93f256a2c01e893eef",
+      "bytes": 868753
+    }
+  ],
+  "reproducibility": {
+    "canonicalRecords": "Use the canonicalInputFiles as build.mjs inputs. All canonical bytes and recursively sorted record hashes are preserved.",
+    "buildTool": "tools/advanced-native-bulk/build.mjs",
+    "sourceAuditFunction": "tools/advanced-native-bulk/source-audit.mjs#auditSources",
+    "sourceInputs": "All labels, occurrences, documents, direct/resolved aliases and the additional2111 sense assignments are available in provenance/. No temporary workspace is required to recover them.",
+    "baseline": "The existing first10 remain in the repository runtime source and are not duplicated or modified here.",
+    "baselineFiles": [
+      "natural-english/advanced-expressions.mjs",
+      "natural-english/advanced-expressions-part2.mjs",
+      "natural-english/advanced-translations.mjs"
+    ]
+  },
+  "approvalScope": "Current AI editorial evidence and source preservation only. No human, audio-hearing, public deployment or database approval is asserted."
+}

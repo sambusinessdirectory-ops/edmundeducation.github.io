@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "batchId": "source-inventory-2111-distinct-sense",
+  "lessons": [
+    {
+      "id": "advanced-native-2111",
+      "number": 2111,
+      "inventoryId": "expr-0046-sense-2",
+      "titleEn": "break someone down",
+      "titleZh": "逐漸打擊人的信心",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:break|breaks|broke|broken|breaking) (?:me|you|him|her|us|them|someone|the trainees) down\\b",
+        "glossaryForbidden": [
+          "\\b(?:break|breaks|broke|broken|breaking)\\b",
+          "\\bdown\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p120-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 120,
+          "book": 5,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "64–65",
+          "sentence": "Harsh criticism may be breaking them down.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "breaking them down"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Gradually weaken someone’s confidence, resolve or emotional strength.",
+        "meaningZh": "逐漸削弱某人的信心、意志或心理承受力。",
+        "grammar": "break someone down; breaking them down; personal object between verb and down; past broke, participle broken.",
+        "register": "Strong negative interpersonal description; distinct from dividing a task and from intransitive breaking down in tears.",
+        "boundaryZh": "不是任何批評都屬打擊人；要有持續削弱的意思，也不能據此診斷特定疾病。",
+        "misconceptionZh": "不要把有用而尊重的回饋、普通失望與逐漸摧弱人混為一談，更不能把傷害合理化為成長。",
+        "outcomeZh": "能辨別傷害信心的做法，與有建設性回饋及拆解工作作區分。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "說話者描述了甚麼影響？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The attacks were gradually weakening their confidence.",
+            "zh": "攻擊逐漸削弱他們的信心。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The comments were dividing a long assignment into manageable parts.",
+            "zh": "評語正在把長作業拆成可處理部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The attacks had made their confidence stronger without any harm.",
+            "zh": "攻擊沒有傷害，反而令他們信心更強。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They were receiving specific, respectful suggestions and becoming more willing to try.",
+            "zh": "他們正收到具體尊重的建議，變得更願意嘗試。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反覆人身攻擊加上不再信任判斷，支持削弱人的意思；不是把作業拆小或有建設性回饋。",
+        "en": "The repeated personal attacks were breaking them down; they stopped trusting their own judgment.",
+        "zh": "反覆的人身攻擊逐漸打擊他們，令他們不再信任自己的判斷。"
+      },
+      "reply": {
+        "promptEn": "What could repeated public ridicule do to new trainees?",
+        "promptZh": "反覆公開嘲笑可能對新學員有甚麼影響？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It could break them down rather than help them learn.",
+            "zh": "這可能逐漸打擊他們，而非幫助學習。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They might lose confidence in asking questions.",
+            "zh": "他們可能失去提問的信心。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Some might become afraid to admit a mistake.",
+            "zh": "有些人可能害怕承認錯誤。"
+          },
+          {
+            "id": "choice-4",
+            "en": "It could make them less willing to take part.",
+            "zh": "這可能令他們較不願參與。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都描述合理的可能負面影響；金句用本課動詞片語，不把傷害說成必然有益。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一名學生長期受到針對個人的羞辱，開始懷疑所有能力，不敢再發言。哪句準確描述這種影響？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The repeated humiliation is breaking her down.",
+            "zh": "反覆羞辱正逐漸打擊她。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The comments are giving her clear, respectful steps for improvement.",
+            "zh": "評語正給她清楚、尊重的改善步驟。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The feedback is simply organising a task into shorter stages.",
+            "zh": "回饋只是把工作整理成較短階段。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "長期羞辱加上信心和參與下降，支持削弱人的意思；另外兩項是不同、可能有用的做法。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "按本課「逐漸削弱人」的意思，哪個情況不宜用 break someone down？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Personal insults repeatedly undermine a learner’s confidence.",
+            "zh": "人身侮辱反覆削弱學習者信心。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A mentor respectfully identifies one error and helps the learner practise a better method.",
+            "zh": "導師尊重地指出一個錯誤，並幫學生練習更好方法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Persistent intimidation leaves a worker less able to trust their own judgment.",
+            "zh": "持續恐嚇令員工越來越不能相信自己的判斷。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "具體而尊重、配合練習的回饋，不等同持續打擊人；不能把所有指出錯誤都貼上此標籤。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「小組做報告時，他們一直羞辱我，說是為了令我更強，但我越來越不敢開口。」哪句回應最有支持？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "That sounds as if it may be breaking you down, not giving useful feedback. Could we speak to someone you trust about support?",
+            "zh": "聽來這可能正逐漸打擊你，而非提供有用回饋。我們可以與你信任的人談談支援嗎？"
+          },
+          {
+            "id": "choice-2",
+            "en": "Practise your project presentation more before asking anyone to address the repeated mockery.",
+            "zh": "先多練項目報告，之後才請人處理反覆嘲笑。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Wait until the group project is over before mentioning how the comments are affecting you.",
+            "zh": "等小組項目結束後，才提那些評語怎樣影響你。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "小組的反覆羞辱已影響開口信心，應承認影響並討論可信任的支援；只加練報告或押後談嘲笑，都未處理當下問題。"
+      },
+      "speaking": {
+        "en": "Constant criticism was breaking me down, so I asked for support.",
+        "zh": "不斷批評逐漸打擊我，所以我尋求支援。",
+        "promptZh": "你想描述持續批評對信心的影響，以及求助行動。先聽完整示範，再自己說。",
+        "targetSpan": {
+          "start": 23,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你的朋友在合唱團反覆被人公開嘲笑，開始不敢唱。用一至兩句英文指出這種影響，並提議陪她向信任的導師尋求支援。",
+        "examples": [
+          {
+            "en": "The repeated mockery is breaking her down, and she is afraid to sing. I could go with her to speak to a trusted tutor.",
+            "zh": "反覆嘲笑正逐漸打擊她，她已不敢唱。我可以陪她向信任的導師說明情況。"
+          },
+          {
+            "en": "Those public insults may be breaking her down rather than helping her improve. We should ask what support she wants and offer to accompany her.",
+            "zh": "那些公開侮辱可能正逐漸打擊她，而非幫她改善。我們應問她想要甚麼支援，並提出陪同。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The repeated mockery",
+            "zh": "反覆嘲笑",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "afraid to sing",
+            "zh": "不敢唱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 68
+            }
+          },
+          {
+            "en": "a trusted tutor",
+            "zh": "信任的導師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 117
+            }
+          },
+          {
+            "en": "public insults",
+            "zh": "公開侮辱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 20
+            }
+          },
+          {
+            "en": "offer to accompany her",
+            "zh": "提出陪同她",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 142
+            }
+          }
+        ],
+        "selfCheckZh": "把反覆嘲笑與信心及參與受影響相連，再提供尊重她選擇的支援；不診斷疾病，也不把傷害說成必要成長。"
+      },
+      "takeaways": [
+        {
+          "en": "Repeated humiliation can break someone down rather than help them improve.",
+          "zh": "反覆羞辱可能打擊一個人，而非幫助改善。"
+        },
+        {
+          "en": "The constant personal attacks were breaking her down, and she asked for support.",
+          "zh": "不斷的人身攻擊逐漸打擊她，她因而尋求支援。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Supplementary distinct personal-object sense split from expr-0046. Oxford break-down distinguishes dividing tasks from weakening/destroying feelings or attitudes; Oxford break verb records weakening a person and destroying confidence. Supplied source explicitly uses harsh criticism breaking them down. Not a diagnosis, not an instruction to harm, not a claim that all criticism is harmful."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      },
+      "editorialCorrection": {
+        "sourceAlias": "breaking them down",
+        "teachingForm": "break someone down",
+        "reason": "Supplementary distinct personal-object sense split from expr-0046. Oxford break-down distinguishes dividing tasks from weakening/destroying feelings or attitudes; Oxford break verb records weakening a person and destroying confidence. Supplied source explicitly uses harsh criticism breaking them down. Not a diagnosis, not an instruction to harm, not a claim that all criticism is harmful."
+      },
+      "sourceInventoryId": "expr-0046",
+      "senseId": "weaken-person-confidence",
+      "relatedModuleIds": [
+        "advanced-native-046"
+      ],
+      "supplementarySense": true,
+      "languageReferences": [
+        {
+          "title": "Oxford Advanced Learner’s Dictionary: break down",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/break-down",
+          "checkedOn": "2026-10-16",
+          "scope": "Separates transitive division-into-parts sense from destruction or removal of feelings/attitudes; not quoted as an exact personal-object definition."
+        },
+        {
+          "title": "Oxford Advanced Learner’s Dictionary: break",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/break_1",
+          "checkedOn": "2026-10-16",
+          "scope": "Destroy/be destroyed sense supports weakening a person or confidence. Together with supplied emotional-object sentence, informs the author’s sense analysis."
+        }
+      ]
+    }
+  ]
+}

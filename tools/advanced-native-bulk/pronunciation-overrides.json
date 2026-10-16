@@ -1,0 +1,20 @@
+{
+  "version": "curveball-lexeme-v1",
+  "textPattern": "\\bcurveballs?\\b",
+  "phonemeSeparators": " \t\r\n\f\u000b.,;:!?…\"'()[]{}—–-",
+  "languages": {
+    "en-gb": {
+      "curveball": {"before": "kˈɜːvɪbˌɔːl", "after": "kˈɜːvbˌɔːl"},
+      "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːvbˌɔːlz"}
+    },
+    "en-us": {
+      "curveball": {"before": "kˈɜːvɪbˌɔːl", "after": "kˈɜːɹvbˌɔːl"},
+      "curveballs": {"before": "kˈɜːvɪbˌɔːlz", "after": "kˈɜːɹvbˌɔːlz"}
+    }
+  },
+  "evidence": [
+    "https://dictionary.cambridge.org/pronunciation/english/curveball",
+    "https://www.oxfordlearnersdictionaries.com/definition/english/curveball"
+  ],
+  "note": "Pinned G2P inserts a spurious vowel in the whole lexeme. Correct only exact singular/plural lexemes after full-sentence phonemization; retain all display text, language, voice and speed pins. This configuration does not claim audio hearing approval."
+}

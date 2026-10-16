@@ -1,0 +1,2629 @@
+{
+  "schemaVersion": 1,
+  "batchId": "source-inventory-2101-2110",
+  "lessons": [
+    {
+      "id": "advanced-native-2101",
+      "number": 2101,
+      "inventoryId": "expr-2101",
+      "titleEn": "living on top of one another",
+      "titleZh": "擠在一起生活而缺乏私人空間",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:liv(?:e|es|ed|ing)) on top of (?:one another|each other)\\b",
+        "glossaryForbidden": [
+          "\\bon top of one another\\b",
+          "\\bon top of each other\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p268-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 268,
+          "book": 9,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "84–86",
+          "sentence": "The flat felt cramped with everyone living on top of one another.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "living on top of one another"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Live in crowded conditions with very little personal space or privacy.",
+        "meaningZh": "在擠迫環境中生活，個人空間或私隱很少。",
+        "grammar": "live/lived/living on top of one another; each other is an ordinary variant. This residential idiom describes close crowded conditions, not the literal vertical position of one flat above another.",
+        "register": "An informal crowded-living idiom. It does not itself mean people dislike one another or that any particular housing arrangement is wrong for everyone.",
+        "boundaryZh": "擠迫與關係差不同；要由空間及生活經驗支持，不能只看同住人數便判定每人的感受。",
+        "misconceptionZh": "不要把樓上樓下的地址當成擠迫的充分證據，也不把需要私隱當成不關心家人。",
+        "outcomeZh": "能描述擠迫的實際影響，並把空間需要與感情評價分開。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "他們的主要困難是甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Shared space had competing uses and offered little quiet privacy.",
+            "zh": "共用空間有互相衝突的用途，安靜私隱很少。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They disliked spending any time with one another.",
+            "zh": "他們不喜歡一起度過任何時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They occupied separate floors and rarely met.",
+            "zh": "他們各住不同樓層，很少碰面。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The table was reserved for study and never used for meals.",
+            "zh": "桌子只供讀書，從不用來吃飯。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "困難是用途衝突與私隱少，不是彼此不喜歡或實際住在上下層。",
+        "en": "The siblings felt they were living on top of one another because the only table served as a desk, dining space and storage area; they liked being together but struggled to find quiet time alone.",
+        "zh": "兄弟姊妹覺得生活擠在一起，因為唯一桌子同時用作書桌、飯桌及儲物處；他們喜歡相處，卻難以找到獨處的安靜時間。"
+      },
+      "reply": {
+        "promptEn": "What did they mean about the living conditions?",
+        "promptZh": "他們怎樣形容居住情況？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They felt they were living on top of one another, with the same small space needed for several activities.",
+            "zh": "他們覺得擠在一起生活，多項活動都需要同一小空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The household had little room for quiet time alone.",
+            "zh": "家中很少有安靜獨處的空間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The table’s competing uses made personal space difficult to protect.",
+            "zh": "桌子的用途互相衝突，令個人空間難以保留。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They enjoyed company while still needing more privacy.",
+            "zh": "他們喜歡有人相伴，同時仍需要更多私隱。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都保留擠迫與私隱的意思，不把它改成感情疏遠。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "兩位朋友住同一幢樓的不同單位，各有獨立房間，也說自己有足夠私隱。評論只因單位一上一下，就套用這個居住成語。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A vertical address alone does not show that they live on top of one another in the crowded-living sense.",
+            "zh": "單是上下層的地址，不足以顯示他們在擠迫生活的意思上住得太密。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Living in flats one above the other is enough to describe them as crowded together, even though each reports adequate privacy.",
+            "zh": "即使各人說有足夠私隱，只要單位一上一下，就足以形容他們擠在一起。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says they cannot find private space in either flat.",
+            "zh": "敘述說兩個單位都找不到私人空間。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "成語描述擠迫，不是建築中的上下位置；不能忽略已明說的足夠私隱。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「We are living on top of one another」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker feels the living space is crowded.",
+            "zh": "說話者感到居住空間擠迫。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The residents dislike or reject one another.",
+            "zh": "住戶彼此不喜歡或排斥。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Personal space may be difficult to find.",
+            "zh": "個人空間可能難以找到。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "空間擠迫不是感情結論。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「他們想有獨處時間，是不是不再想見彼此？」你知道他們仍喜歡一起生活。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They can enjoy one another’s company and still feel they are living on top of one another; wanting quiet space is not the same as rejecting the relationship.",
+            "zh": "他們可以喜歡彼此相伴，同時仍覺得擠在一起生活；想要安靜空間，不等於拒絕這段關係。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would read the request for privacy as a decision to stop sharing meals or talking.",
+            "zh": "我會把要求私隱理解為已決定不再一起吃飯或談話。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought enjoying company meant the shared table could not cause any practical difficulty.",
+            "zh": "我以為喜歡相伴，就表示共用桌子不可能造成實際困難。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "感情與實際空間需要可並存。"
+      },
+      "speaking": {
+        "en": "We enjoy sharing the flat, but living on top of one another makes a quiet hour alone difficult to arrange.",
+        "zh": "我們喜歡合住，但擠在一起生活，令安排一小時安靜獨處變得困難。",
+        "promptZh": "先聽示範，再分清感情與空間需要。",
+        "targetSpan": {
+          "start": 31,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和室友仍相處愉快，但同住空間令你難以得到需要的私隱。你已決定下月搬到另一間房，希望當面說清這不是拒絕友誼，也提議如果對方願意，可繼續每周一起吃飯。用一至兩句英文實際寫訊息；不要替對方答應固定聚會。",
+        "examples": [
+          {
+            "en": "I have decided to take a separate room next month because living on top of one another has made privacy difficult, not because I no longer value our friendship. If you would like to, could we keep having a meal together each week?",
+            "zh": "我已決定下月搬到另一間房，因為擠在一起生活令私隱難以保留，不是因為我不再重視友誼。如果你願意，我們可否繼續每周一起吃飯？"
+          },
+          {
+            "en": "I am moving to another room next month, since we have been living on top of one another and I need more private space. I will miss the company, and I would love to arrange a weekly meal if that suits you.",
+            "zh": "我下月會搬到另一間房，因為我們一直擠在一起生活，而我需要更多私人空間。我會想念有人相伴的時光；如果對你合適，我很想安排每周一起吃飯。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a separate room",
+            "zh": "另一間獨立房間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 38
+            }
+          },
+          {
+            "en": "next month",
+            "zh": "下個月",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 49
+            }
+          },
+          {
+            "en": "value our friendship",
+            "zh": "重視我們的友誼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 159
+            }
+          },
+          {
+            "en": "more private space",
+            "zh": "更多私人空間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 117
+            }
+          },
+          {
+            "en": "a weekly meal",
+            "zh": "每周一起吃的一頓飯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 185
+            }
+          }
+        ],
+        "selfCheckZh": "訊息須清楚說已決定的搬遷及私隱需要，同時保留友誼與自願聯絡的空間；不把另住當成嫌棄對方，也不替他承諾固定出席。"
+      },
+      "takeaways": [
+        {
+          "en": "During the renovation, they were living on top of one another in two rooms and agreed when each person could have a little privacy.",
+          "zh": "裝修期間，他們擠在兩個房間生活，並商定每人何時能有一點私隱。"
+        },
+        {
+          "en": "The cousins liked their shared meals but felt they were living on top of one another when study, sleep and work all needed the same room.",
+          "zh": "表親們喜歡一起吃飯，但讀書、睡眠及工作都需要同一房間時，覺得生活太擠迫。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Established crowded-living idiom; publisher on-top-of entry supports close/crowded meaning. Main competing uses plus affection; inverse literal vertical flats with privacy does not establish crowding; final negotiates bounded recording access rather than judging affection. Final revised to actual move-out message preserving friendship and offering voluntary continuing contact, not another shared-table time allocation."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2102",
+      "number": 2102,
+      "inventoryId": "expr-2102",
+      "titleEn": "feel stifled",
+      "titleZh": "感到表達或發展受到壓抑",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bfeel(?:s|ing)? stifled\\b|\\bfelt stifled\\b",
+        "glossaryForbidden": [
+          "\\bstifled\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p268-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 268,
+          "book": 9,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "84–86",
+          "sentence": "A young adult may feel stifled by constant questions.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "feel stifled"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Feel constrained or prevented from expressing ideas or developing freely in the stated context.",
+        "meaningZh": "在所述情境中，感到想法表達或自由發展受到限制與壓抑。",
+        "grammar": "feel/felt/feeling stifled by a rule, questioning or environment; stifled is a participial adjective after feel. The figurative constraint sense is distinct from literal lack of air.",
+        "register": "A natural figurative adjective pattern, not an opaque fixed whole idiom. Describe the person’s reported experience without assuming every question or limit has the same effect.",
+        "boundaryZh": "感到壓抑不自動證明提問者有惡意，也不表示任何界限都應取消；要看具體頻率、內容及回應。",
+        "misconceptionZh": "不要把某人的感受改成所有人相同，也不把日常壓抑感當成醫療判斷。",
+        "outcomeZh": "能具體描述受限的經驗，提出較清楚的表達或選擇空間。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "她希望甚麼有所改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She wanted room to try her ideas while still receiving useful feedback.",
+            "zh": "她想有空間試自己的想法，同時仍得到有用回饋。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She wanted to stop receiving any teaching or comments.",
+            "zh": "她想不再接受任何教學或意見。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She found the requirement helpful because it encouraged different designs.",
+            "zh": "她覺得要求有幫助，因為它鼓勵不同設計。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She had already received permission to replace the example with her own plan.",
+            "zh": "她已獲准以自己的計劃取代範例。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "她受限的是試想法的空間，不是要取消所有回饋。",
+        "en": "She began to feel stifled when every sketch had to match the tutor’s example, leaving no room to test her own idea; she wanted feedback on her work, not the removal of all teaching.",
+        "zh": "每張草圖都必須照導師範例，沒有空間試自己的想法，她開始感到受壓抑；她想得到作品回饋，不是取消全部教學。"
+      },
+      "reply": {
+        "promptEn": "Why did she feel restricted in the drawing class?",
+        "promptZh": "她在繪畫課為甚麼感到受限？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She felt stifled because every sketch had to follow the example rather than explore her own idea.",
+            "zh": "她感到受壓抑，因為每張草圖都要照範例，不能探索自己的想法。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The rule left no room for her to try a different design.",
+            "zh": "規則沒有留下讓她試不同設計的空間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She wanted creative feedback but had to copy the model each time.",
+            "zh": "她想要創作回饋，卻每次都要複製範本。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The constraint concerned her ability to explore rather than the existence of teaching itself.",
+            "zh": "限制關乎她探索的空間，不是教學本身存在。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代具體受限原因，而非只重述不開心。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "另一班學生可自選設計，導師只問一次想表達甚麼；學生本人說問題有助釐清想法。評論只因有提問，就斷言她感到壓抑。哪句謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A question alone does not establish that she feels stifled; her account describes useful clarification and room to choose.",
+            "zh": "單是一個問題，不足以確立她感到受壓抑；她的敘述描述了有用的釐清及選擇空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her account says the tutor prevented her from choosing a design.",
+            "zh": "她的敘述說導師阻止她選設計。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The question proves that she wanted the tutor to stop giving any feedback.",
+            "zh": "那個問題證明她希望導師停止所有回饋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要尊重所述感受及實際空間，不能把任何提問都等同壓抑。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「I feel stifled by the rules」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker experiences the rules as restrictive.",
+            "zh": "說話者感到規則具有壓抑性。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The rule-maker intentionally wants to harm the speaker.",
+            "zh": "訂規則的人故意想傷害說話者。"
+          },
+          {
+            "id": "choice-3",
+            "en": "More context can identify which restrictions are involved.",
+            "zh": "更多情境可以指出涉及哪些限制。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "感受沒有自動確立另一人的動機。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「她不想每次照樣畫，是不是就拒絕學習？」你知道她仍想要作品回饋。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She can feel stifled by copying every example and still want to learn; she is asking for room to test an idea and receive feedback on it.",
+            "zh": "她可以因每次照範例而感到壓抑，同時仍想學習；她想有空間試想法並得到回饋。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would count any request for a different design as a refusal to learn from the tutor.",
+            "zh": "我會把任何不同設計的要求，都當成拒絕向導師學習。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought wanting feedback meant she was comfortable with copying every sketch.",
+            "zh": "我以為想得到回饋，就表示她對每張照抄都感到自在。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "想學習與希望更多自主空間並不矛盾。"
+      },
+      "speaking": {
+        "en": "I feel stifled when the discussion allows only one answer, and I would like a chance to explain a different approach.",
+        "zh": "討論只容許一個答案時，我感到受壓抑，希望有機會解釋另一種做法。",
+        "promptZh": "先聽示範，再把感受連到具體限制。",
+        "targetSpan": {
+          "start": 2,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你想在讀書會分享一首與多數人解讀不同的詩，但主持人每次在你說完前就回到標準答案。你要寫一至兩句英文實際請求下一次的討論方式：提出具體影響，要求先給兩分鐘說明文本依據，再讓別人回應；不是要求別人必須同意你。",
+        "examples": [
+          {
+            "en": "I feel stifled when we return to the standard answer before I can explain my reading. Could I have two minutes next time to show the lines behind my interpretation, followed by others’ responses?",
+            "zh": "我還未能解釋自己的閱讀方式，大家就回到標準答案，令我感到受壓抑。下次我可否先用兩分鐘指出支持解讀的詩句，再讓其他人回應？"
+          },
+          {
+            "en": "I have felt stifled by being interrupted, but I am not asking everyone to accept my interpretation. Could we let each speaker finish a brief explanation of the text before discussing disagreements?",
+            "zh": "被打斷令我感到受壓抑，但我不是要求每人接受我的解讀。我們可否讓每位說話者先完成一段簡短的文本解說，再討論分歧？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the standard answer",
+            "zh": "標準答案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 52
+            }
+          },
+          {
+            "en": "two minutes next time",
+            "zh": "下次的兩分鐘",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 120
+            }
+          },
+          {
+            "en": "my interpretation",
+            "zh": "我的解讀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 146,
+              "end": 163
+            }
+          },
+          {
+            "en": "being interrupted",
+            "zh": "被打斷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 23,
+              "end": 40
+            }
+          },
+          {
+            "en": "discussing disagreements",
+            "zh": "討論分歧",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 196
+            }
+          }
+        ],
+        "selfCheckZh": "請求須給出具體互動問題與可行時段，保留他人回應及不同意的空間；不把表達權當成要求認同。"
+      },
+      "takeaways": [
+        {
+          "en": "He felt stifled by the ban on trying alternative endings, even though he welcomed comments on the structure of his story.",
+          "zh": "他歡迎別人評論故事結構，卻因不能嘗試其他結尾的禁令而感到壓抑。"
+        },
+        {
+          "en": "The designer began to feel stifled when each proposal was replaced before she could explain the problem it addressed.",
+          "zh": "設計師每次尚未解釋提議要處理的問題，提議就被換掉，開始感到壓抑。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Cambridge stifle PREVENT-HAPPENING supports ordinary figurative adjective, source taxonomy corrected transparently in curator intake. Main no creative trial despite desired feedback; inverse useful question does not prove restriction; final negotiates turn-taking/text-evidence discussion, not a demand for agreement."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2103",
+      "number": 2103,
+      "inventoryId": "expr-2103",
+      "titleEn": "a blessing and a challenge",
+      "titleZh": "既有益處也有困難",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\ba blessing and a challenge\\b",
+        "glossaryForbidden": [
+          "\\ba blessing\\b",
+          "\\ba challenge\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p268-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 268,
+          "book": 9,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "84–86",
+          "sentence": "Shared housing can be a blessing and a challenge.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a blessing and a challenge"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Something that brings a valued benefit while also creating difficulty or demands.",
+        "meaningZh": "某件事帶來值得珍惜的益處，同時也有困難或要求。",
+        "grammar": "be/can be a blessing and a challenge; the repeated article coordinates two different evaluations of the same situation. Neither half cancels the other.",
+        "register": "A natural positive-and-difficult pairing, not an opaque whole idiom. Blessing here means a welcome benefit rather than necessarily a religious claim.",
+        "boundaryZh": "需要分別指出益處及難處；兩面並存不代表各佔一半，也不等於總結必須接受或拒絕。",
+        "misconceptionZh": "不要把承認困難寫成不知感恩，也不把有益處寫成問題不需處理。",
+        "outcomeZh": "能平衡描述同一安排的實際價值與成本，提出有針對性的調整。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "這個安排的兩面是甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Shared equipment costs helped, while overlapping evening preferences needed resolving.",
+            "zh": "分擔器材費有幫助，但晚間時段偏好重疊需要處理。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The groups had already resolved the timetable before buying any equipment.",
+            "zh": "買器材前，兩組已解決時間表問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The better equipment removed the need to discuss room access.",
+            "zh": "較好的器材消除了討論房間使用的需要。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The groups decided that sharing had no financial benefit.",
+            "zh": "兩組決定共用沒有財務益處。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "益處是共同負擔器材，難處是時段重疊；兩者並存。",
+        "en": "Sharing the rehearsal room was a blessing and a challenge: the groups could afford better equipment together, but their preferred evening times overlapped and still needed agreement.",
+        "zh": "共用排練室既有益處也有困難：兩組一起負擔得起較好的器材，但喜歡的晚間時段重疊，仍需商定。"
+      },
+      "reply": {
+        "promptEn": "How did sharing the room affect the groups?",
+        "promptZh": "共用房間怎樣影響兩組？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was a blessing and a challenge, with better equipment but a timetable to negotiate.",
+            "zh": "它既有益處也有困難：器材較好，但時間表要協商。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They gained affordable equipment while facing competing time preferences.",
+            "zh": "他們得到負擔得起的器材，同時面對時段偏好衝突。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The financial benefit came with a practical scheduling problem.",
+            "zh": "財務益處伴隨實際排程問題。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They valued sharing but still needed an agreement about evenings.",
+            "zh": "他們重視共用，但仍需就晚間時段達成協議。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都保留兩面，不以一面抹去另一面。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一位新團員獲借樂器，因而能參加，但每次都要跨區領取，影響時間。有人說只要感激就不該提交通難處。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The loan can be a blessing and a challenge; gratitude does not remove the collection difficulty or prevent discussing it.",
+            "zh": "借樂器可以既有益處也有困難；感激不會消除領取難處，也不妨礙討論。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Mentioning the journey means the player has found no benefit in the loan.",
+            "zh": "提到路程，表示團員認為借樂器沒有益處。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The loan includes delivery to the player, so cross-district collection is not part of the arrangement.",
+            "zh": "借用服務包括送到團員手上，所以跨區領取不在安排之內。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可感謝機會，也實際處理交通。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「It is a blessing and a challenge」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It has both a valued aspect and a difficult aspect.",
+            "zh": "它有值得珍惜的一面，也有困難的一面。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker has decided that the arrangement must end.",
+            "zh": "說話者已決定這個安排必須結束。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Context can identify the benefits and demands.",
+            "zh": "情境可以指出益處及要求。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "兩面評價不是已作出的去留決定。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「既然有排程問題，是否表示共用完全沒價值？」兩組仍重視器材。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can remain a blessing and a challenge; the equipment is useful, and the overlapping times need a separate agreement.",
+            "zh": "它仍可以既有益處也有困難；器材有用，重疊時段則需要另外協議。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I took the timetable problem to mean the groups had already decided to stop sharing the room.",
+            "zh": "我把時間表問題理解為，兩組已決定不再共用房間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought recognising the benefit meant neither group could ask for a clearer timetable.",
+            "zh": "我以為承認益處，就表示兩組都不能要求較清楚的時間表。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "時段問題仍需處理，但沒有已停止共用的決定；器材價值與商定時間的需要可以並存。"
+      },
+      "speaking": {
+        "en": "The new role is a blessing and a challenge: I value the chance to learn, and I need to discuss the hours before accepting extra work.",
+        "zh": "新角色既有益處也有困難：我重視學習機會，也需要先討論工時再接額外工作。",
+        "promptZh": "先聽示範，再交代益處與具體要求。",
+        "targetSpan": {
+          "start": 16,
+          "end": 42
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你第一次替社區刊物訪問鄰居，很高興聽到豐富故事，卻發現錄音整理超出你原先估計。你想向編輯實際更新進度，先交兩段已核對引文，請求把其餘部分延至下周；不要把受訪者說成麻煩，也不聲稱整篇已完成。用一至兩句英文寫訊息。",
+        "examples": [
+          {
+            "en": "This first interview has been a blessing and a challenge: I value the stories, but checking the recording has taken longer than I expected. I can send two verified quotations now; could we move the remaining section to next week?",
+            "zh": "這次首次訪問既有益處也有困難：我珍惜那些故事，但核對錄音比預期花更久。我現在可先交兩段已核對引文；餘下部分可否延至下周？"
+          },
+          {
+            "en": "The interview is a blessing and a challenge for me, with rich material and more transcription work than I planned. Here are the two checked quotations; may I agree a new date with you for the rest rather than rush unchecked words into print?",
+            "zh": "訪問對我既有益處也有困難，材料豐富，謄寫工作卻比計劃多。先交上兩段已核對引文；我可否跟你另約餘下部分的日期，而不匆忙刊登未核對的話？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "checking the recording",
+            "zh": "核對錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 105
+            }
+          },
+          {
+            "en": "two verified quotations",
+            "zh": "兩段已核對引文",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 174
+            }
+          },
+          {
+            "en": "the remaining section",
+            "zh": "餘下部分",
+            "exampleIndex": 0,
+            "span": {
+              "start": 194,
+              "end": 215
+            }
+          },
+          {
+            "en": "transcription work",
+            "zh": "謄寫工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 98
+            }
+          },
+          {
+            "en": "unchecked words",
+            "zh": "未核對的話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 214,
+              "end": 229
+            }
+          }
+        ],
+        "selfCheckZh": "更新要珍惜材料並清楚交代實際進度、餘下工作及改期請求；承認工作量不等於責怪受訪者。"
+      },
+      "takeaways": [
+        {
+          "en": "The archive donation was a blessing and a challenge for the small team, bringing valuable letters and a need for more cataloguing time.",
+          "zh": "捐贈給小團隊的檔案既有益處也有困難，帶來有價值的信件，也需要更多編目時間。"
+        },
+        {
+          "en": "For the new organiser, a larger audience was a blessing and a challenge because the welcome was encouraging but seating needed careful planning.",
+          "zh": "對新主辦者而言，更多觀眾既有益處也有困難：熱烈反應令人鼓舞，但座位需要仔細安排。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Natural coordinated evaluation, not opaque whole idiom. Main affordable shared equipment plus unresolved times; scene gratitude coexists with practical difficulty; final honest partial interview delivery and negotiated deadline rather than another shared-room timetable."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2104",
+      "number": 2104,
+      "inventoryId": "expr-2104",
+      "titleEn": "walking on eggshells",
+      "titleZh": "怕惹人不快而小心翼翼",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bwalk(?:s|ed|ing)? on eggshells\\b",
+        "glossaryForbidden": [
+          "\\bon eggshells\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p268-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 268,
+          "book": 9,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "84–86",
+          "sentence": "No one should feel like they are walking on eggshells at home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "walking on eggshells"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Behave very carefully to avoid offending or upsetting someone.",
+        "meaningZh": "為免冒犯或惹某人不快，在言行上非常小心。",
+        "grammar": "walk/walked/walking on eggshells around someone; feel like you are walking on eggshells. The fragile surface is figurative. Context should establish fear of upsetting someone, not careful movement alone.",
+        "register": "An established informal idiom. It reports an uneasy interaction, without by itself identifying a diagnosis, proving an intention or requiring literal eggshells.",
+        "boundaryZh": "小心翼翼是因怕惹人不快，不只是禮貌或避免吵醒別人；也不能單憑成語斷定對方動機。",
+        "misconceptionZh": "不要把所有體貼都叫作戰戰兢兢，也不把某人的沉默當成已同意。",
+        "outcomeZh": "能辨認因擔心反應而自我限制的互動，並具體說明需要的談話空間。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "助手為甚麼小心翼翼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She feared another angry response even to an ordinary question.",
+            "zh": "她怕連普通問題也再次惹來怒斥。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She was trying not to wake someone sleeping in the next room.",
+            "zh": "她怕吵醒隔壁睡覺的人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She had decided that there were no questions left to ask.",
+            "zh": "她已決定沒有任何問題要問。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The director had explained a plan to make her stop asking questions.",
+            "zh": "導演已解釋計劃，想令她不再提問。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已知的是她因先前反應而害怕，不是沒有問題或已知道導演的內心計劃。",
+        "en": "In the story, the assistant felt she was walking on eggshells around the director, avoiding ordinary questions because earlier small queries had drawn angry replies; the passage does not tell us the director’s intentions.",
+        "zh": "故事中，助手覺得在導演身邊得小心翼翼，因為以前小問題曾惹來怒斥，她連普通問題也不敢問；段落沒有交代導演的意圖。"
+      },
+      "reply": {
+        "promptEn": "What made the exchange feel uneasy for her?",
+        "promptZh": "甚麼令這段互動讓她不安？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She felt she was walking on eggshells because she expected ordinary questions to provoke anger.",
+            "zh": "她預期普通問題也會惹怒對方，覺得得小心翼翼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Earlier angry replies made her hold back questions.",
+            "zh": "先前的怒斥令她不敢提問。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She was cautious about upsetting the director, rather than simply lacking anything to ask.",
+            "zh": "她小心避免惹導演不快，不是單純沒甚麼可問。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The discomfort came from anticipating a harsh reaction.",
+            "zh": "不安來自預期會有嚴厲反應。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代對反應的擔心，沒有替導演指定動機。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "人物輕聲說話以免吵醒嬰兒，並說自己與同伴相處放鬆，沒有怕對方生氣。評論只因聲音輕，就套用這個成語。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Quiet consideration alone does not establish walking on eggshells; this account gives no fear of upsetting the companion.",
+            "zh": "單是安靜體貼，不足以確立小心翼翼怕惹人不快；敘述沒有對同伴反應的擔心。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account describes the companion responding angrily to small questions.",
+            "zh": "敘述描述同伴因小問題發怒。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Speaking softly establishes that the character is afraid to disagree with the companion.",
+            "zh": "輕聲說話確立了角色害怕反對同伴。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "體貼嬰兒與怕同伴生氣不同。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「I am walking on eggshells around him」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker is very careful about upsetting him.",
+            "zh": "說話者很小心避免惹他不快。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The sentence establishes why he gave the earlier angry reply.",
+            "zh": "這句確立了他先前怒斥的原因。"
+          },
+          {
+            "id": "choice-3",
+            "en": "More context can show which interactions led to that feeling.",
+            "zh": "更多情境可以交代哪些互動帶來這種感覺。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "感到需要小心，不等於已知道對方全部動機。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「她沒再問，就是全都明白了嗎？」故事說她擔心普通問題也會惹怒導演。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She may be walking on eggshells rather than fully informed; silence does not show that her questions have been answered.",
+            "zh": "她可能因怕惹人不快而小心翼翼，不是全都清楚；沉默沒有顯示問題已獲回答。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would take the lack of questions as confirmation that the instructions were clear.",
+            "zh": "我會把沒有提問當成指示已清楚的確認。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought she had stopped asking because she no longer had any role in the production.",
+            "zh": "我以為她因不再參與製作而停止提問。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要依已說明的擔心理解沉默，不能自行補成明白或已離職。"
+      },
+      "speaking": {
+        "en": "I do not want our discussion to feel like walking on eggshells; I need to be able to ask an ordinary question without expecting an angry reply.",
+        "zh": "我不想我們的討論像怕惹人不快般小心翼翼；我需要能問普通問題，而不預期會被怒斥。",
+        "promptZh": "先聽示範，再說清需要甚麼互動空間。",
+        "targetSpan": {
+          "start": 42,
+          "end": 62
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你替劇本排演寫表演筆記。角色剛在上一場因一個普通問題被喝斥，這一場仍有疑問，但猶豫、改口，怕再惹同伴發怒。演員卻演成完全沒有問題、毫不在意。用一至兩句英文實際建議怎樣呈現未說出口的疑問，不要求演員把每句都演成恐懼。",
+        "examples": [
+          {
+            "en": "The character is walking on eggshells after the earlier angry reply, not simply without questions. Could you begin the question and then hesitate, so the audience sees what is being held back?",
+            "zh": "角色在先前被怒斥後，正小心翼翼怕惹人不快，不是單純沒有問題。你可否先開口問，再猶豫，讓觀眾看見甚麼被忍住了？"
+          },
+          {
+            "en": "To suggest walking on eggshells here, try a small change of wording when the character approaches the unresolved question. That would show caution about the companion’s reaction without turning every line into fear.",
+            "zh": "為了在此呈現怕惹人不快的小心翼翼，角色接近未解問題時，可試着稍微改口。這樣能表達對同伴反應的顧慮，又不用把每句都演成恐懼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the earlier angry reply",
+            "zh": "先前的怒斥回應",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 67
+            }
+          },
+          {
+            "en": "begin the question",
+            "zh": "開始提出問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 127
+            }
+          },
+          {
+            "en": "what is being held back",
+            "zh": "甚麼被忍住了",
+            "exampleIndex": 0,
+            "span": {
+              "start": 168,
+              "end": 191
+            }
+          },
+          {
+            "en": "a small change of wording",
+            "zh": "稍微改變措辭",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 67
+            }
+          },
+          {
+            "en": "the unresolved question",
+            "zh": "未解的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 121
+            }
+          }
+        ],
+        "selfCheckZh": "筆記須連到已知前一場反應與仍有的疑問，提出可試的表演動作；不把沉默演成毫不在意，也不誇大每句情緒。"
+      },
+      "takeaways": [
+        {
+          "en": "He described walking on eggshells around the organiser after even minor questions had been met with irritation.",
+          "zh": "連小問題都遭主辦者不耐煩回應後，他形容自己在對方面前得小心翼翼。"
+        },
+        {
+          "en": "The actor showed the character walking on eggshells by starting a question and quietly changing it when the other character frowned.",
+          "zh": "演員先讓角色開口問，再在另一角色皺眉時悄悄改口，表現怕惹人不快的小心翼翼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Cambridge established careful-not-to-upset idiom. Main inferred self-censorship from reported angry replies not motives; inverse quiet kindness to sleeping infant is not fear; final actual performance direction renders an unspoken question with bounded visible action."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2105",
+      "number": 2105,
+      "inventoryId": "expr-2105",
+      "titleEn": "one-person job",
+      "titleZh": "一個人負責的工作",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:a )?one-person job\\b",
+        "glossaryForbidden": [
+          "\\bone-person job\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p269-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 269,
+          "book": 9,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "87–88",
+          "sentence": "Parenting is not a one-person job.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one-person job"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A task intended for or manageable by one person; saying it is not a one-person job indicates that shared work or help is needed.",
+        "meaningZh": "由一個人負責或一人能應付的工作；說它不是一人工作，才表示需要分工或幫忙。",
+        "grammar": "a one-person job; one-person is a hyphenated compound modifier before job. Not a one-person job reverses the positive description. Do not build the negative meaning into the noun phrase itself.",
+        "register": "A natural compound-noun description, not an opaque idiom. Context establishes whether one person can reasonably manage the task; the phrase does not rank that person’s ability or worth.",
+        "boundaryZh": "要看有沒有否定詞與實際工作範圍；需要幫助不等於無能力，一人能做也不表示必須拒絕支援。",
+        "misconceptionZh": "one-person job 本身指一人負責或能應付的工作；加上 not 才否定一人能處理，不能忽略肯定與否定的差別。",
+        "outcomeZh": "能準確理解肯定與否定，並依工作內容提出合理分工。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "為甚麼要分工？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Receiving the cases and checking the inventory required separate people at the same time.",
+            "zh": "接收箱子與核對清單，同一時間需要不同人處理。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Mina had already agreed to complete both tasks alone.",
+            "zh": "Mina 已答應獨自完成兩項工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The organiser described the move as a task designed for one person.",
+            "zh": "主辦者把搬運描述為專供一人完成的工作。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The inventory check had been removed from the move.",
+            "zh": "清單核對已從搬運工作中刪除。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "not 否定一人能處理，而接收與核對同時需要不同角色，具體說明了分工需要。",
+        "en": "The organiser said the exhibition move was not a one-person job: someone needed to receive the cases while another checked the inventory, so the team agreed separate roles rather than leave both tasks to Mina.",
+        "zh": "主辦者說展覽搬運不是一人能做的工作：需要有人接收箱子，同時另一人核對清單，因此團隊議定分工，而不把兩項都留給 Mina。"
+      },
+      "reply": {
+        "promptEn": "What did the organiser mean about the move?",
+        "promptZh": "主辦者怎樣看這次搬運？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was not a one-person job because receiving and checking needed separate roles.",
+            "zh": "它不是一人能做的工作，因為接收與核對需要不同角色。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The work needed agreed help rather than being left entirely to Mina.",
+            "zh": "工作需要議定幫忙，而不是全留給 Mina。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Two simultaneous duties were divided between team members.",
+            "zh": "兩項同時進行的職責分配給不同成員。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The team recognised a practical reason to share the tasks.",
+            "zh": "團隊認清了需要分工的實際理由。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明分工原因，不把需要幫助當成個人能力低。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一份標籤工作只需一人按清單列印，安排者明確說它是 a one-person job。有人卻把沒有 not 的詞組也解成必須兩人。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Calling it a one-person job describes work for one person here; it does not mean the task is too large for one person.",
+            "zh": "這裏稱它為一人工作，是說工作由一人負責；不是說一人做不了。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The phrase itself means that at least two people must do the printing.",
+            "zh": "詞組本身表示至少兩人必須一起列印。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says the organiser rejected the one-person arrangement.",
+            "zh": "敘述說安排者否決了一人處理的安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "肯定與否定不能混在一起；要按實際句子讀。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪句明確表示需要多人分擔？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The move is not a one-person job.",
+            "zh": "搬運不是一人能做的工作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The label task is a one-person job.",
+            "zh": "標籤任務由一人負責。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We are checking whether it is a one-person job.",
+            "zh": "我們正在確認它是否能由一人負責。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "not 明確否定一人工作；確認中的問題尚未有結論。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「說不是一人工作，是不是在批評 Mina 無能力？」你知道接收與核對要同時進行。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It is not a one-person job because the duties overlap in time, not because the phrase judges Mina’s ability; we need an agreed division of roles.",
+            "zh": "它不是一人工作，是因為職責時間重疊，不是詞組在評價 Mina 的能力；我們需要議定分工。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed needing two people meant Mina could not perform either task, rather than that the duties had to happen at the same time.",
+            "zh": "我以為需要兩人就表示 Mina 兩項都做不來，而不是兩項職責必須同時進行。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought accepting help meant Mina had given up responsibility for her own part.",
+            "zh": "我以為接受幫忙，就表示 Mina 已放棄自己部分的責任。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "工作結構與個人評價不同；分工仍可保留各自責任。"
+      },
+      "speaking": {
+        "en": "This is not a one-person job, so let us agree who will handle each part instead of assuming one volunteer can do everything.",
+        "zh": "這不是一人能做的工作，所以我們商定各部分由誰處理，不要假定一位義工能做完全部。",
+        "promptZh": "先聽示範，再把否定連到實際分工。",
+        "targetSpan": {
+          "start": 12,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你替短篇小說修改旁白。人物獨自完成一張只有三個名字的邀請名單，沒有同時照顧其他工作。原稿為了誇張，卻寫「這不是一人工作」，又沒有交代難處。用一至兩句英文實際給作者回饋，保留人物完成事情的事實，建議刪去不合證據的否定，或補足真正需要分工的情節。",
+        "examples": [
+          {
+            "en": "The scene currently presents a one-person job that the character completes alone, so the negative description is not supported. Could you remove it, or show a genuine second duty that needs someone else at the same time?",
+            "zh": "目前場景呈現的是人物獨自完成的一人工作，所以否定描述沒有依據。你可否刪去它，或展示確有另一項同時需要別人的職責？"
+          },
+          {
+            "en": "If you want to say this is not a one-person job, the story needs more than a short list that one person has already finished. I suggest either keeping the simple achievement or adding a concrete reason for shared work.",
+            "zh": "若想說這不是一人工作，故事需要的不只是已由一人完成的短名單。我建議保留這個簡單成果，或加入需要分工的具體理由。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the negative description",
+            "zh": "否定描述",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 109
+            }
+          },
+          {
+            "en": "a genuine second duty",
+            "zh": "確實存在的第二項職責",
+            "exampleIndex": 0,
+            "span": {
+              "start": 157,
+              "end": 178
+            }
+          },
+          {
+            "en": "at the same time",
+            "zh": "同一時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 203,
+              "end": 219
+            }
+          },
+          {
+            "en": "the simple achievement",
+            "zh": "這個簡單成果",
+            "exampleIndex": 1,
+            "span": {
+              "start": 151,
+              "end": 173
+            }
+          },
+          {
+            "en": "a concrete reason for shared work",
+            "zh": "需要分工的具體理由",
+            "exampleIndex": 1,
+            "span": {
+              "start": 184,
+              "end": 217
+            }
+          }
+        ],
+        "selfCheckZh": "回饋須依已寫出的工作量及完成情節判斷，給作者具體修訂選擇；不要只因想誇張就扭轉肯定與否定。"
+      },
+      "takeaways": [
+        {
+          "en": "The packing was not a one-person job, so the organiser assigned one person to label boxes while another checked their contents.",
+          "zh": "包裝不是一人能做的工作，所以主辦者派一人貼標籤，另一人核對內容。"
+        },
+        {
+          "en": "The short index was a one-person job, but its editor still asked a colleague to check the finished dates.",
+          "zh": "短索引是一人能做的工作，但編輯仍請同事核對完成後的日期。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Guide glossary incorrectly builds too-large-for-one into positive one-person job; exact negated source retained, positive compound meaning and polarity taught transparently. Main simultaneous roles require sharing; inverse simple task illustrates positive noun; final actual literary evidence/wording feedback rather than another allocation plan."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2106",
+      "number": 2106,
+      "inventoryId": "expr-2106",
+      "titleEn": "carry the whole load",
+      "titleZh": "獨力承擔全部責任或工作",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bcarry the whole load\\b|\\bcarr(?:ies|ied|ying) the whole load\\b",
+        "glossaryForbidden": [
+          "\\bthe whole load\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p269-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 269,
+          "book": 9,
+          "question": 33,
+          "sample": "S1",
+          "sourceBookPages": "87–88",
+          "sentence": "One parent should not carry the whole load.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "carry the whole load"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Take all the work or responsibility in the situation, pictured as carrying a complete burden.",
+        "meaningZh": "把全部負擔比作一整個重擔，形容獨力承擔所述情況中的所有工作或責任。",
+        "grammar": "carry/carries/carried/carrying the whole load; whole covers the relevant workload in context, not every duty in a person’s life. A negative or should-not statement does not prove the burden has already been shared.",
+        "register": "A conventional figurative load-carrying frame, related to burden-relief expressions. Identify actual work and avoid treating a task count alone as a measure of effort.",
+        "boundaryZh": "全部負擔的範圍須清楚；需要分擔的意見，不等於已有分工，也不表示本人完全沒有決定權。",
+        "misconceptionZh": "不要只按任務數量判定公平，也不把一項有人幫忙寫成全部已分擔。",
+        "outcomeZh": "能指出具體工作量及分工狀態，不把願望當已完成安排。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "目前與應有安排有甚麼差距？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "One person is doing the listed work, while the suggested sharing is not yet agreed.",
+            "zh": "一人正處理列出的工作，提議中的分擔仍未議定。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The volunteers have already taken over the booking and preparation.",
+            "zh": "義工已接手預訂及準備。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The organiser has stopped all festival work while waiting.",
+            "zh": "主辦者等候時已停止全部閱讀節工作。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The message says she is responsible for messages only.",
+            "zh": "訊息說她只負責回覆訊息。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "should not 表示不應如此，不等於負擔已分擔；提議角色仍未答應。",
+        "en": "The organiser should not carry the whole load of the reading festival: she was booking rooms, answering messages and preparing materials, while the proposed volunteer roles had not yet been accepted.",
+        "zh": "主辦者不應獨力承擔閱讀節全部工作：她正在訂房間、回訊息及備材料，提議中的義工角色卻尚未有人答應。"
+      },
+      "reply": {
+        "promptEn": "Why did the account call for more support?",
+        "promptZh": "敘述為甚麼提出需要更多支援？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She should not carry the whole load while several festival duties are still on her alone.",
+            "zh": "幾項閱讀節職責仍在她一人身上，她不應獨力承擔全部。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The listed booking, messages and preparation have not yet been shared with confirmed volunteers.",
+            "zh": "列出的預訂、訊息及準備工作，尚未與已答應的義工分擔。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The proposed roles have not yet reduced the work she is doing.",
+            "zh": "提議中的角色尚未減輕她正做的工作。"
+          },
+          {
+            "id": "choice-4",
+            "en": "There is a practical gap between suggesting help and having people agree to it.",
+            "zh": "提議幫忙與有人答應之間，仍有實際差距。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都連到目前工作與未落實的支援。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "三人按已議定範圍分別處理預訂、訊息及材料，工作記錄也確認各自完成。介紹卻只因一人負責最後簽名，就說他獨力做了全部。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A final signature alone does not show that he carried the whole load; the account documents work shared among three people.",
+            "zh": "單是最後簽名，不顯示他獨力承擔全部；敘述記錄三人已分擔工作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The signature establishes that the other two people did no preparation.",
+            "zh": "簽名確立了另外兩人沒有作任何準備。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The record says the proposed roles are still unaccepted.",
+            "zh": "記錄說提議中的角色仍未有人接受。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "簽署角色與全部工作不同；不能抹去已記錄的貢獻。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「She should not carry the whole load」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker thinks all the relevant work should not rest on her alone.",
+            "zh": "說話者認為相關工作不應全落在她一人身上。"
+          },
+          {
+            "id": "choice-2",
+            "en": "An effective division of work has already been agreed and completed.",
+            "zh": "有效分工已議定並完成。"
+          },
+          {
+            "id": "choice-3",
+            "en": "More context can identify the workload being discussed.",
+            "zh": "更多情境可以指出所談的工作量。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "應該分擔的意見，不是已完成分工的證據。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「既然寫了義工角色，是否可以說她已不用獨力承擔？」義工尚未答覆，也尚未有人接受角色。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She may still carry the whole load until people agree to specific tasks; writing a role list is not the same as confirmed help.",
+            "zh": "在有人答應具體任務前，她可能仍獨力承擔全部；寫出角色表不等於已有確認幫忙。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would count each proposed role as work already removed from her list.",
+            "zh": "我會把每項提議角色都算成已從她的清單移走的工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I took the unanswered role list as an explicit refusal from the volunteers, rather than an arrangement still awaiting replies.",
+            "zh": "我把尚未回覆的角色表理解為義工已明確拒絕，而不是安排仍在等回覆。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "寫出角色不是有人答應，尚未答覆也不等於已拒絕；需要具體確認，才能知道負擔是否真正分擔。"
+      },
+      "speaking": {
+        "en": "I cannot carry the whole load this month, so I need to say which tasks I can finish and ask who can agree to the others.",
+        "zh": "這個月我不能獨力承擔全部，所以需要說清能完成哪些任務，再問誰能答應其餘工作。",
+        "promptZh": "先聽示範，再區分本人範圍與需要協商的部分。",
+        "targetSpan": {
+          "start": 9,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友共同策劃聚會。你一直拒絕讓他決定邀請名單，卻又抱怨自己做了全部；他已表示願意接手名單並自行聯絡客人。用一至兩句英文實際道歉，承認自己把控制留在手上，再提出讓他完整負責這部分、你負責食物，另約時間互通進度；不要一面交工作一面要求逐項批准。",
+        "examples": [
+          {
+            "en": "I said I had to carry the whole load, but I kept the guest list under my control even when you offered to handle it, and I am sorry. If you still agree, please take charge of the invitations while I arrange the food, and let us check in on Friday.",
+            "zh": "我說自己要獨力承擔全部，卻在你提出幫忙時仍把賓客名單控制在手，對不起。如果你仍願意，請你負責邀請，我安排食物，我們周五再互通進度。"
+          },
+          {
+            "en": "I should not complain that I carry the whole load while refusing your offer to manage the invitations. I am sorry; would you take responsibility for that part, including contacting guests yourself, while I handle food and we share an update on Friday?",
+            "zh": "我拒絕讓你處理邀請，卻抱怨自己獨力承擔全部，並不恰當。對不起；你是否願意負責那部分，包括自行聯絡客人，而我處理食物，我們周五互通進度？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the guest list",
+            "zh": "賓客名單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 63
+            }
+          },
+          {
+            "en": "take charge of the invitations",
+            "zh": "負責邀請",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 190
+            }
+          },
+          {
+            "en": "arrange the food",
+            "zh": "安排食物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 199,
+              "end": 215
+            }
+          },
+          {
+            "en": "check in on Friday",
+            "zh": "周五互通進度",
+            "exampleIndex": 0,
+            "span": {
+              "start": 228,
+              "end": 246
+            }
+          },
+          {
+            "en": "contacting guests yourself",
+            "zh": "自行聯絡客人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 170,
+              "end": 196
+            }
+          }
+        ],
+        "selfCheckZh": "道歉要承認自己拒絕分享控制，並讓伙伴自願完整接手一項範圍；以互通進度代替逐項批准，不把分工變成只交任務卻不給決定空間。"
+      },
+      "takeaways": [
+        {
+          "en": "The coordinator carried the whole load for the first week, then agreed a specific handover of bookings and messages with two volunteers.",
+          "zh": "第一周協調員獨力承擔全部，之後與兩位義工商定具體交接預訂及訊息。"
+        },
+        {
+          "en": "The caption did not let the person on stage appear to carry the whole load when the rehearsal notes showed a wider team’s work.",
+          "zh": "排練筆記顯示更多團隊成員的工作，因此圖說沒有讓台上的人看似獨力承擔全部。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Conventional burden-carry frame, whole scoped to actual relevant work. Main normative request not completed help; inverse signature not totalwork; final apology recognises self-retained control and negotiates genuine delegated ownership with a check-in rather than merely asking for more hands."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2107",
+      "number": 2107,
+      "inventoryId": "expr-2107",
+      "titleEn": "not a rigid fifty-fifty split on paper",
+      "titleZh": "不只是紙面上僵硬地各分一半",
+      "category": "natural",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bnot a rigid fifty-fifty split on paper\\b",
+        "glossaryForbidden": [
+          "\\bfifty-fifty split\\b",
+          "\\bon paper\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p269-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 269,
+          "book": 9,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "sentence": "Shared parenting is not a rigid fifty-fifty split on paper.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not a rigid fifty-fifty split on paper"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Not merely an inflexible numerical division into equal halves written in a plan; actual needs and responsibilities also matter in context.",
+        "meaningZh": "不只是計劃上寫成兩等份而僵化執行；按情境，實際需要及責任也重要。",
+        "grammar": "be not a rigid fifty-fifty split on paper; normally use is not/was not. Fifty-fifty means equal halves; rigid criticises inflexibility and on paper contrasts the stated arrangement with practice.",
+        "register": "A productive contrast phrase, not an opaque fixed whole idiom. It does not reject equality or establish a universal allocation rule; describe the particular agreed responsibilities and circumstances.",
+        "boundaryZh": "批評僵硬數字，不等於一人可自行不參與，也不表示任何不均都公平；要看實際投入、同意及調整。",
+        "misconceptionZh": "不要只按任務數量下結論，也不把彈性當成不用確認誰負責甚麼。",
+        "outcomeZh": "能區分相同數目與實際分擔，並提出可查的安排及檢視方法。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "這個對比強調甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Their agreed responsibilities responded to actual shifts and could be reviewed.",
+            "zh": "議定責任配合實際輪班，也可以再檢視。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The parents decided that one person need not participate in care.",
+            "zh": "父母決定其中一人不用參與照顧。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The written task count alone was treated as the final measure of fairness.",
+            "zh": "只有書面任務數目，被當成公平的最後標準。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The arrangement kept the original tasks unchanged after the work hours changed.",
+            "zh": "工時改變後，安排仍保留原任務不變。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不是只看紙面數字，而是商定並按實際情況檢視；不是取消任何一方參與。",
+        "en": "In the fictional household, shared care was not a rigid fifty-fifty split on paper: the parents agreed different tasks around their shifts and reviewed the arrangement when those hours changed.",
+        "zh": "在虛構家庭中，共同照顧不是紙面上僵硬地各分一半：父母按輪班商定不同任務，工時改變時再檢視安排。"
+      },
+      "reply": {
+        "promptEn": "How did the fictional parents organise shared care?",
+        "promptZh": "虛構父母怎樣安排共同照顧？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was not a rigid fifty-fifty split on paper; they agreed tasks around shifts and reviewed changes.",
+            "zh": "它不是紙面上僵硬地各分一半；他們按輪班商定任務並檢視變化。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They used actual work hours to inform a flexible agreement.",
+            "zh": "他們以實際工時為根據，作出有彈性的協議。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Different tasks could still be shared responsibilities when both people agreed and reviewed them.",
+            "zh": "不同任務仍可以是共同責任，前提是雙方同意並檢視。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The plan was linked to practice rather than left as an unchanged count.",
+            "zh": "計劃連到實際運作，而不是留下不變的數目。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都保留實際情況、協議與檢視，不把彈性說成單方放棄責任。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "合作名單列每人各做四項，但一人的四項每天需兩小時，另一人的只需每周十分鐘；大家尚未討論這個差別。有人只數四對四便稱已足夠公平。哪句謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A workable agreement is not a rigid fifty-fifty split on paper; equal task counts alone do not address the difference in time here.",
+            "zh": "可行協議不只是紙面上僵硬地各分一半；相同任務數量本身，沒有處理這裏的時間差別。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Four tasks each confirms that both people spend the same time on the work.",
+            "zh": "各四項任務，確認了雙方花相同時間工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says both people have already discussed and accepted the time difference.",
+            "zh": "敘述說雙方已討論並接受時間差別。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "數目相同與時間負擔相同不同，也沒有已同意的資料。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能由「It is not a rigid fifty-fifty split on paper」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker rejects judging the arrangement only by an inflexible written half-and-half division.",
+            "zh": "說話者反對只按僵硬的書面各半分配判斷安排。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Any unequal arrangement must be fair even without discussion.",
+            "zh": "任何不均安排即使未經討論也必然公平。"
+          },
+          {
+            "id": "choice-3",
+            "en": "More context should explain how responsibilities work in practice.",
+            "zh": "更多情境應說明責任實際怎樣分擔。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "不是僵硬各半，不等於為任何不均自動背書。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「既然不是各半，就不用再說誰做甚麼了吧？」故事中的安排本來有雙方協議。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It is not a rigid fifty-fifty split on paper, but people still need clear agreed responsibilities and a way to review whether it works.",
+            "zh": "它不是紙面上僵硬地各分一半，但大家仍需清楚議定責任，以及檢視是否有效的方法。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would leave the tasks unassigned because flexibility means nobody needs a specific commitment.",
+            "zh": "我會不分派任務，因為彈性表示沒有人需作具體承諾。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I assumed a different number of tasks meant one person had withdrawn from the agreement.",
+            "zh": "我以為任務數目不同，就表示一人已退出協議。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "彈性與清楚責任可以並存，也不能單看數目判定退出。"
+      },
+      "speaking": {
+        "en": "A fair arrangement is not a rigid fifty-fifty split on paper; we need to discuss the actual time, effort and responsibilities before agreeing it.",
+        "zh": "公平安排不只是紙面上僵硬地各分一半；我們需先討論實際時間、心力及責任，再作協議。",
+        "promptZh": "先聽示範，再把數目與實際投入分開。",
+        "targetSpan": {
+          "start": 22,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和伙伴已完成一本社區小冊。起初打算統一寫「各佔一半」，現在雙方已同意改為具體角色署名：Leena 完成訪問，Noor 整理舊照片並核對說明。用一至兩句英文實際寫致謝或署名說明，按已同意的工作列出各自貢獻，不計算未有依據的百分比，也不把不同工作寫成其中一人沒有貢獻。",
+        "examples": [
+          {
+            "en": "Our shared credit is not a rigid fifty-fifty split on paper: Leena conducted the interviews, while Noor organised the old photographs and verified their captions. We have agreed to acknowledge those distinct contributions rather than invent percentages for them.",
+            "zh": "我們的共同署名不只是紙面上僵硬地各分一半：Leena 完成訪問，Noor 整理舊照片並核對說明。我們已同意肯定這些不同貢獻，不替它們編造百分比。"
+          },
+          {
+            "en": "This acknowledgement is not a rigid fifty-fifty split on paper, but the role description we have agreed together. It credits Leena for the interviews and Noor for organising the photographs and checking their captions, without ranking one contribution above the other.",
+            "zh": "這份致謝不只是紙面上僵硬地各分一半，而是我們共同同意的角色說明。它肯定 Leena 的訪問，以及 Noor 整理照片和核對說明的工作，不把一項貢獻排在另一項之上。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "conducted the interviews",
+            "zh": "進行訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 91
+            }
+          },
+          {
+            "en": "the old photographs",
+            "zh": "舊照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 133
+            }
+          },
+          {
+            "en": "verified their captions",
+            "zh": "核對照片說明",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 161
+            }
+          },
+          {
+            "en": "those distinct contributions",
+            "zh": "那些不同的貢獻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 193,
+              "end": 221
+            }
+          },
+          {
+            "en": "the role description",
+            "zh": "角色說明",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 88
+            }
+          }
+        ],
+        "selfCheckZh": "署名要按雙方已同意、實際完成的角色寫出貢獻，不把各半數字當作唯一描述，也不由不同角色自動推算高低或百分比。"
+      },
+      "takeaways": [
+        {
+          "en": "For this team, cooperation was not a rigid fifty-fifty split on paper; members recorded preparation and follow-up work before reviewing the allocation.",
+          "zh": "對這個團隊而言，合作不是紙面上僵硬地各分一半；成員先記錄準備及後續工作，再檢視分配。"
+        },
+        {
+          "en": "Their agreement is not a rigid fifty-fifty split on paper, because a changed shift prompts a discussion of who can cover the next collection.",
+          "zh": "他們的協議不是紙面上僵硬地各分一半，因為輪班改變時，就會討論誰能負責下一次接送。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Productive contextual numerical-equality contrast, not fixed universal parenting formula. Main fictional agreed shift-sensitive care; scene equalcounts unequaltime unreviewed; final proposes evidence-based assessment of distinct project stages rather than another household allocation. Final revised to actual agreed role-credit publication, replacing unworkable interview-count grading and recognising completed distinct contributions without invented percentages."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2108",
+      "number": 2108,
+      "inventoryId": "expr-2108",
+      "titleEn": "checks out altogether",
+      "titleZh": "完全不再投入或參與",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bcheck(?:s|ed|ing)? out altogether\\b",
+        "glossaryForbidden": [
+          "\\bcheck(?:s|ed|ing)? out\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p269-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 269,
+          "book": 9,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "sentence": "The arrangement fails if one parent checks out altogether.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "checks out altogether"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Withdraw attention or engagement completely in the stated activity or relationship.",
+        "meaningZh": "在所述活動或關係中，完全抽離注意力或不再投入。",
+        "grammar": "check/checks/checked/checking out altogether; intransitive figurative use. Altogether intensifies the extent of withdrawal. This sense differs from paying for goods, leaving a hotel or checking information.",
+        "register": "Informal disengagement use. Describe evidence and scope; it is not a diagnosis, and a brief quiet period, absence or delayed reply alone does not prove complete withdrawal.",
+        "boundaryZh": "不投入與人在別處、休息或正式離任不同；需要實際語境，不能從一次安靜便斷定動機或感情。",
+        "misconceptionZh": "不要把有限休息叫完全抽離，也不把不在現場但仍積極回應的人說成不關心。",
+        "outcomeZh": "能辨認投入程度及證據，並把情緒狀態、實際參與及正式安排分開。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "這裏的抽離有甚麼支持？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "His stated wish to stop and his withdrawal from decisions and agreed work support that description.",
+            "zh": "他明說不想繼續，並退出決定及已答應工作，支持這個描述。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He has arranged a short break and confirmed how his pages will be covered.",
+            "zh": "他已安排短暫休息，並確認頁面由誰暫代。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He has left a hotel and returned its key.",
+            "zh": "他已離開酒店並交回鎖匙。"
+          },
+          {
+            "id": "choice-4",
+            "en": "His only action is one delayed reply while continuing the project.",
+            "zh": "他唯一行動是在繼續項目時，遲了一次回覆。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "這裏有明說退出及實際停止投入，不只是一次延遲或酒店退房。",
+        "en": "In the story, he checks out altogether from the shared magazine project: he says he no longer wants to take part, stops responding to decisions and leaves his agreed pages for others without arranging a handover.",
+        "zh": "故事中，他完全抽離共同刊物項目：他說不再想參加，不回應決定，也把已答應的頁面留給別人，沒有安排交接。"
+      },
+      "reply": {
+        "promptEn": "What happened to his involvement in the project?",
+        "promptZh": "他對項目的投入發生甚麼變化？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He checks out altogether, saying he no longer wants to participate and leaving agreed work without a handover.",
+            "zh": "他完全不再投入，說不想參加，也留下已答應工作而沒有交接。"
+          },
+          {
+            "id": "choice-2",
+            "en": "His stated withdrawal is reflected in decisions he no longer answers and pages he leaves undone.",
+            "zh": "他明說抽離，也反映在不再回應決定及留下未完成頁面。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes disengagement rather than a planned temporary break.",
+            "zh": "敘述描述不再投入，不是有計劃的短暫休息。"
+          },
+          {
+            "id": "choice-4",
+            "en": "He stops participating without settling what will happen to his agreed contribution.",
+            "zh": "他停止參與，卻沒有安排已答應的貢獻怎樣處理。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都按明說意願及實際行動理解，不從單一表現猜測。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "另一位成員不在現場，但已按期寄頁面、回覆問題並參與線上決定。有人只因沒見到她，就說她完全抽離。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Being absent from the room does not show that she has checked out altogether; her contributions and responses show continuing involvement.",
+            "zh": "不在房內，不表示她完全抽離；她的貢獻及回應顯示仍在參與。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account says she has stopped responding to project decisions.",
+            "zh": "敘述說她已停止回應項目決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her physical absence is enough to establish that she no longer cares about the project.",
+            "zh": "她實際缺席，已足以確立不再關心項目。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要看投入而非單看位置，已有貢獻不能忽略。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「He checked out altogether during that discussion」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He disengaged from that discussion.",
+            "zh": "他在那段討論中完全不再投入。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He has formally resigned from every role he holds.",
+            "zh": "他已正式辭去所有角色。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Context can clarify what the withdrawal looked like.",
+            "zh": "情境可以說明抽離的實際表現。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "討論中的不投入，不是所有角色正式辭任的紀錄。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「她沒來房間，就是已完全抽離嗎？」你知道她按期寄頁面並參與線上決定。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I would not say she has checked out altogether when she is still contributing and answering decisions; absence and disengagement are different.",
+            "zh": "她仍在貢獻並回應決定，我不會說她已完全抽離；缺席與不投入不同。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would use attendance in the room as the only measure of whether she is involved.",
+            "zh": "我會只用房內出席判斷她是否投入。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I assumed the submitted pages were old work because she was not present to discuss them in person.",
+            "zh": "我因她沒有親身到場討論，就假定所交頁面是舊工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已有持續行動，不能由位置補出抽離或舊作假設。"
+      },
+      "speaking": {
+        "en": "I do not want to check out altogether from the project, but I need to discuss a smaller role that I can genuinely fulfil.",
+        "zh": "我不想完全抽離項目，但需要商量一個自己真正能履行的較小角色。",
+        "promptZh": "先聽示範，再把投入意願與實際承諾分開。",
+        "targetSpan": {
+          "start": 17,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小說角色已確認自己不再想參與讀書會編輯工作，也決定離開，卻一直含糊答應新任務。請替他寫一至兩句實際告別訊息，誠實說明已失去投入、不能再承諾新頁面，並提出星期四交回現有檔案；不把交回舊資料當成繼續接新工作。",
+        "examples": [
+          {
+            "en": "I have checked out altogether from the editing work and need to be honest that I cannot promise new pages. I am stepping down, and I can return the existing files by Thursday so you can arrange the next stage without relying on me.",
+            "zh": "我已完全不再投入編輯工作，需要誠實說自己不能承諾新頁面。我會卸任，也可在星期四前交回現有檔案，讓你們安排下一階段，不再依靠我。"
+          },
+          {
+            "en": "I have checked out altogether, but my vague promises have left you expecting more work from me. I am sorry; I will leave the role and hand back the current files on Thursday, rather than accept another assignment I will not complete.",
+            "zh": "我已完全不再投入，但含糊承諾令你們仍期待我繼續工作。對不起；我會離開角色，星期四交回現有檔案，而不再接受自己不會完成的新任務。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "new pages",
+            "zh": "新頁面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 105
+            }
+          },
+          {
+            "en": "the existing files",
+            "zh": "現有檔案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 162
+            }
+          },
+          {
+            "en": "the next stage",
+            "zh": "下一階段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 194,
+              "end": 208
+            }
+          },
+          {
+            "en": "my vague promises",
+            "zh": "我含糊的承諾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 52
+            }
+          },
+          {
+            "en": "another assignment",
+            "zh": "另一項任務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 194,
+              "end": 212
+            }
+          }
+        ],
+        "selfCheckZh": "告別要把故事已明說的失去投入與正式離開連到清楚承諾及交接；不能繼續含糊答應新工作，也不把比喻本身當成辭任手續。"
+      },
+      "takeaways": [
+        {
+          "en": "The narrator says he checked out altogether from the planning discussion, even though he remained seated at the table.",
+          "zh": "敘述者說，他雖仍坐在桌邊，卻已完全抽離籌備討論。"
+        },
+        {
+          "en": "She worried she was beginning to check out altogether from the committee work, so she asked to discuss her role instead of offering another vague promise.",
+          "zh": "她擔心自己開始完全抽離委員會工作，所以要求討論角色，而不是再給含糊承諾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Informal mental/participation withdrawal phrasal use verified by primary APA usage, not falsely attributed to Cambridge/Collins displayed definitions and not clinical diagnosis. Main explicit stated disengagement; inverse remote active member; final honest role exit plus finite legacy-file handover."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2109",
+      "number": 2109,
+      "inventoryId": "expr-2109",
+      "titleEn": "split down the middle",
+      "titleZh": "平均分成兩半或兩邊",
+      "category": "idiom",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bsplit down the middle\\b",
+        "glossaryForbidden": [
+          "\\bsplit down the middle\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p269-t1-r13",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 269,
+          "book": 9,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "sentence": "The vote was split down the middle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "split down the middle"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Divided equally into two halves or, for a group or vote, two equal sides.",
+        "meaningZh": "平均分成兩半；用於群體或投票時，指兩邊數目相同。",
+        "grammar": "be split down the middle; split is both base and past participle. Specify what is divided. An even division of votes does not itself settle a decision; an equal division of a cost does not mean payment has occurred.",
+        "register": "An established equal-division expression. In informal accounts it can suggest a sharp balanced division, but exact numerical claims should follow the stated figures.",
+        "boundaryZh": "有兩邊不等於兩邊一樣多；分配方法與已付款、已接受結果也不同。",
+        "misconceptionZh": "不要把任何分歧都說成恰好各半，也不由平票自行補出誰勝出或後續規則。",
+        "outcomeZh": "能按數字及語境準確描述平均分配，保留尚未決定的程序。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "數字支持甚麼結論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The votes were equal, and neither date was announced as the winner.",
+            "zh": "票數相同，也沒有宣布哪個日期勝出。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Friday received more votes than Saturday.",
+            "zh": "周五比周六多票。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The chair used an extra vote to settle the date.",
+            "zh": "主席以額外一票決定日期。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Only five members expressed a preference.",
+            "zh": "只有五位成員表達偏好。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "五對五是平均兩邊；沒有額外一票或結果公告。",
+        "en": "The ten members were split down the middle over the event date: five chose Friday and five Saturday, so the chair recorded the tie rather than announce either date as the winner.",
+        "zh": "十位成員對活動日期的選擇各半：五位選周五，五位選周六，所以主席記下平票，沒有宣布任何日期勝出。"
+      },
+      "reply": {
+        "promptEn": "How were the members divided over the date?",
+        "promptZh": "成員對日期怎樣分歧？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They were split down the middle, with five votes for each date.",
+            "zh": "他們剛好各半，每個日期五票。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Friday and Saturday each received half of the ten votes.",
+            "zh": "周五與周六各得十票中的一半。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The vote was tied rather than giving either date a majority.",
+            "zh": "投票是平票，沒有任何日期取得多數。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Five members preferred one date and the other five preferred the alternative.",
+            "zh": "五位成員喜歡一個日期，其餘五位喜歡另一個。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都準確描述五對五，不加入勝方。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "另一組十人中，七人選周五，三人選周六。簡介只因有兩種意見，就稱票數平均各半。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The group has two preferences, but seven to three is not split down the middle in the numerical sense.",
+            "zh": "小組有兩種偏好，但七對三在數字上不是平均各半。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The presence of two options establishes five votes for each.",
+            "zh": "有兩個選項，就確立了各有五票。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says the preferences were not counted.",
+            "zh": "敘述說沒有點算偏好。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "兩邊與兩等份不同，已知數字是七對三。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「The vote was split down the middle」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The two sides were evenly divided.",
+            "zh": "兩邊平均各半。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A particular side has won under a stated tie-breaking rule.",
+            "zh": "某一邊已按明說的破平票規則勝出。"
+          },
+          {
+            "id": "choice-3",
+            "en": "More context can explain what happens after the tie.",
+            "zh": "更多情境可以交代平票後怎樣處理。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "平均分票不自動交代後續規則或勝方。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「五對五，那就替大家選你喜歡的周五吧？」主席尚未說後續程序。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The vote is split down the middle, so I can report the tie, but we need the agreed next step before declaring a date.",
+            "zh": "票數平均各半，所以我可以報告平票，但宣布日期前需要按議定的下一步處理。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought getting half the votes was enough for Friday to win, even though Saturday received the other half.",
+            "zh": "我以為得到一半票數就足以讓周五勝出，雖然另一半都投了周六。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I assumed the first listed date was the default in a tie, but I have not checked whether that rule was agreed.",
+            "zh": "我以為平票時默認選最先列出的日期，但尚未查過有沒有議定這條規則。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "五對五沒有較多票的一方；若要依破平票程序選日期，必須確認已議定規則，不能只因各半或排列先後便宣布勝方。"
+      },
+      "speaking": {
+        "en": "The committee was split down the middle, so the minutes record both counts and leave the outcome open pending the agreed procedure.",
+        "zh": "委員會的票數各半，所以會議紀錄列出兩邊數字，並按議定程序處理前保留結果未定。",
+        "promptZh": "先聽示範，再分清票數與決定。",
+        "targetSpan": {
+          "start": 18,
+          "end": 39
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友已同意把一次共同印製海報的總費一百二十元平均分擔，兩人都尚未付款。你要實際確認各付六十元，請對方核對帳單與付款方式；不要把商定分法寫成錢已收齊。用一至兩句英文寫訊息。",
+        "examples": [
+          {
+            "en": "As agreed, the poster cost will be split down the middle, so we each owe sixty of the total one hundred and twenty. Please check the invoice and confirm your preferred payment method; I will mark each share as received only after the money arrives.",
+            "zh": "按已同意的安排，海報費平均分擔，所以總共一百二十元，我們各付六十。請核對帳單並確認你希望的付款方式；只有款項實際收到後，我才會把各份記作已收到。"
+          },
+          {
+            "en": "We have agreed that the bill is split down the middle: sixty each, with neither payment received yet. Please check the total with me and let me know your preferred payment method so the record stays accurate.",
+            "zh": "我們已同意帳單平均分擔：各六十，目前兩筆都尚未收到。請跟我核對總額，並告訴我你希望怎樣付款，讓記錄準確。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the poster cost",
+            "zh": "海報費",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 26
+            }
+          },
+          {
+            "en": "check the invoice",
+            "zh": "核對帳單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          {
+            "en": "mark each share as received",
+            "zh": "把各份記作已收到",
+            "exampleIndex": 0,
+            "span": {
+              "start": 191,
+              "end": 218
+            }
+          },
+          {
+            "en": "neither payment received yet",
+            "zh": "兩筆都尚未收到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 100
+            }
+          },
+          {
+            "en": "your preferred payment method",
+            "zh": "你希望的付款方式",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 178
+            }
+          }
+        ],
+        "selfCheckZh": "訊息須把同意的平均分法、各人金額及未付款狀態分開；可問付款方式，不能把分配當成已收到款項。"
+      },
+      "takeaways": [
+        {
+          "en": "The bill was split down the middle between the two organisers, but they recorded the payments only when each share arrived.",
+          "zh": "兩位主辦者平均分擔帳單，但每份款項收到後才記作已付。"
+        },
+        {
+          "en": "The panel was split down the middle, with equal support for the two designs and no final selection announced.",
+          "zh": "評審對兩種設計的支持各半，也沒有宣布最後選擇。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Established equal-division expression. Main exact five-five vote with no announced winner; inverse seven-three not numerical half; final actual equal-cost confirmation distinguishes allocation from receipt, a new accounting communication goal."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    },
+    {
+      "id": "advanced-native-2110",
+      "number": 2110,
+      "inventoryId": "expr-2110",
+      "titleEn": "stand on the same side",
+      "titleZh": "在共同目標上互相支持",
+      "category": "figurative",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\bstand(?:s|ing)? on the same side\\b|\\bstood on the same side\\b",
+        "glossaryForbidden": [
+          "\\bon the same side\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p270-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 270,
+          "book": 9,
+          "question": 33,
+          "sample": "S2",
+          "sourceBookPages": "87–88",
+          "sentence": "Despite their disagreement, the parents tried to stand on the same side when speaking to their child.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stand on the same side"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Support a shared aim or act as allies in the stated matter, even if some views or preferences differ.",
+        "meaningZh": "在所談事情上支持共同目標或互作同伴，即使部分看法或偏好不同。",
+        "grammar": "stand/stood/standing on the same side; same side is figurative alignment rather than necessarily a physical position. Identify the shared matter and do not extend agreement beyond it.",
+        "register": "A natural unity or alliance metaphor. Cooperation does not require identical opinions or conceal every disagreement.",
+        "boundaryZh": "同一陣線要有共同目標或行動支持；站在同一地方不充分，局部合作也不等於已批准所有條件。",
+        "misconceptionZh": "不要把意見不同當成不能合作，也不把一起提出問題當成已同意答案。",
+        "outcomeZh": "能說清在哪件事上合作，同時保留分歧、角色及未定事項。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "他們在哪件事上合作？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They shared an access request while retaining different layout preferences.",
+            "zh": "他們共同提出進出需要，同時保留不同佈局偏好。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They had agreed to one final layout before making the request.",
+            "zh": "提出請求前，他們已同意一個最後佈局。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their only connection was standing together in a photograph.",
+            "zh": "他們唯一連結是在照片中站在一起。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They withdrew the access request because their layouts differed.",
+            "zh": "他們因佈局偏好不同，撤回進出需要的請求。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "合作範圍是入口需要，不是已選定整個設計。",
+        "en": "The two organisers preferred different exhibition layouts but chose to stand on the same side when asking for accessible entrances; their joint request did not mean they had agreed on the final design.",
+        "zh": "兩位主辦者喜歡不同展覽佈局，但要求方便進出的入口時，選擇站在同一陣線；共同請求不表示他們已同意最後設計。"
+      },
+      "reply": {
+        "promptEn": "What did their cooperation show?",
+        "promptZh": "他們的合作顯示甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They could stand on the same side about access without agreeing on every design choice.",
+            "zh": "他們可在進出需要上站在同一陣線，不需每項設計都一致。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A shared request coexisted with different layout preferences.",
+            "zh": "共同請求與不同佈局偏好同時存在。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They supported one practical goal while leaving the wider design open.",
+            "zh": "他們支持一項實際目標，同時保留整體設計未定。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Their agreement had a clear scope rather than covering the whole proposal.",
+            "zh": "他們的共識有清楚範圍，沒有涵蓋整份提議。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都描述有限而真實的合作，不把共同目標擴成全部一致。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "兩人只是排隊時恰好站同一邊，沒有討論或支持任何共同事項。圖說卻從位置判定他們已聯手支持提案。哪句謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Their position in the queue does not show that they stand on the same side of the proposal in the figurative sense.",
+            "zh": "排隊的位置，沒有顯示他們在比喻意思上共同支持提案。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The queue establishes that they have jointly approved the proposal.",
+            "zh": "隊伍位置確立了他們已共同批准提案。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account records them agreeing a common response to the proposal.",
+            "zh": "敘述記錄他們已同意共同回應提案。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "實際位置與立場合作不同，需有相關行動或意見。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「They stand on the same side on this issue」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They support a shared position on the stated issue.",
+            "zh": "他們在所說議題上支持共同立場。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They agree with each other about every other question.",
+            "zh": "他們在其他每個問題上也彼此同意。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Context can identify the scope of their cooperation.",
+            "zh": "情境可以指出合作範圍。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "this issue 限定所談事項，不能擴成所有議題一致。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「一起要求入口方便進出，是否就不用再討論佈局？」兩位主辦者仍有不同偏好。哪個回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They stand on the same side about access, but the layout still needs discussion; one shared goal does not settle the whole design.",
+            "zh": "他們在進出需要上站在同一陣線，但佈局仍需討論；一項共同目標不會定下整個設計。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed agreement on accessible entrances also meant they had approved the entrance positions in the draft layout.",
+            "zh": "我以為同意入口須方便進出，就表示他們也已批准草稿佈局中的入口位置。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I assumed different layouts meant they could not genuinely support the same access request.",
+            "zh": "我以為佈局不同，就表示他們不可能真心支持同一進出請求。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "對入口需要有共同目標，不等於已批准草稿的具體位置；不同佈局偏好也不會使共同請求失去真實性。"
+      },
+      "speaking": {
+        "en": "We can stand on the same side in asking for clear information, while still taking time to decide which option each of us supports.",
+        "zh": "我們可以在要求清楚資料上站在同一陣線，同時仍花時間決定各自支持哪個選項。",
+        "promptZh": "先聽示範，再說清合作範圍。",
+        "targetSpan": {
+          "start": 7,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和朋友對一場活動的主題投了不同票，你當時錯怪他不支持你。後來他與你一起替被漏名的義工提出更正，主辦者也已補回名字。用一至兩句英文實際道歉並致謝，具體肯定這次共同維護準確署名的行動，也承認主題意見不同不等於不願合作；不要說他已改投你的主題。",
+        "examples": [
+          {
+            "en": "I was wrong to say you were against me just because we preferred different themes; we stood on the same side when the volunteers’ names were missing. Thank you for asking for the correction with me and helping them receive the credit they had earned.",
+            "zh": "我只因我們喜歡不同主題就說你反對我，是我不對；義工名字被漏掉時，我們站在同一陣線。謝謝你與我一起要求更正，幫他們得到應有肯定。"
+          },
+          {
+            "en": "Thank you for standing on the same side in getting the omitted volunteers credited, even while we disagreed about the theme. I am sorry I treated that disagreement as a refusal to cooperate; your action showed the shared commitment clearly.",
+            "zh": "謝謝你在爭取補回被漏名義工的署名上，與我站在同一陣線，儘管我們對主題仍有分歧。對不起，我把那個分歧當成不願合作；你的行動清楚顯示了共同承諾。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "different themes",
+            "zh": "不同主題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 81
+            }
+          },
+          {
+            "en": "the volunteers’ names",
+            "zh": "義工的名字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 135
+            }
+          },
+          {
+            "en": "asking for the correction",
+            "zh": "要求更正",
+            "exampleIndex": 0,
+            "span": {
+              "start": 164,
+              "end": 189
+            }
+          },
+          {
+            "en": "the omitted volunteers",
+            "zh": "被漏名的義工",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 73
+            }
+          },
+          {
+            "en": "a refusal to cooperate",
+            "zh": "不願合作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 167,
+              "end": 189
+            }
+          }
+        ],
+        "selfCheckZh": "訊息須承認自己的誤解，並感謝已發生的具體共同更正；不要把合作擴成主題看法已一致，也不只空泛說對方很好。"
+      },
+      "takeaways": [
+        {
+          "en": "The neighbours stood on the same side when asking for a readable notice, although they still preferred different dates for the meeting.",
+          "zh": "鄰居要求易讀通知時站在同一陣線，雖然仍喜歡不同的聚會日期。"
+        },
+        {
+          "en": "The two editors stand on the same side in defending accurate quotations, while continuing to debate the order of the chapters.",
+          "zh": "兩位編輯在維護準確引文上站在同一陣線，同時繼續討論章節次序。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI author source_inventory",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Productive alignment metaphor; same-side scope does not imply total agreement. Main joint access request despite layout differences; inverse physical queue location insufficient; final actual invitation divides voluntary questions on credit/time before commitments rather than another design decision. Final revised to actual apology and thanks after a documented joint credit correction despite a theme disagreement, not another shared precommitment information request."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI author source_inventory",
+          "evidence": "Traditional Chinese checked against English subjects, negation, tense and modality; no independent human approval claimed."
+        },
+        "note": "Draft content only; media, independent editorial review and browser QA are not yet signed off."
+      }
+    }
+  ]
+}

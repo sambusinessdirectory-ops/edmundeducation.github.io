@@ -2,7 +2,8 @@ import * as scoop from './scoop.mjs';
 import importedLessons from './imported-lessons.mjs';
 import editorialLessons from './editorial-lessons.mjs';
 import lesson102 from './lesson-102.mjs';
-import advancedExpressions from './advanced-expressions.mjs?v=20261015-bilingual-v1';
+import advancedExpressions from './advanced-expressions.mjs?v=20261016-full-course-v1';
+import {loadAdvancedExpression} from './advanced-loader.mjs?v=20261016-full-course-v1';
 const correctedTitleEn={452:'The straw is clogged.',453:'The paper straw has gone soggy.'};
 const mc=(id,prompt,options,answer,explanation)=>({id,type:'mc',prompt,options,answers:[answer],explanation});
 const blank=(id,prompt,before,after,answers,hint)=>({id,type:'blank',prompt,before,after,answers:Array.isArray(answers)?answers:[answers],hint,explanation:`答案是 ${Array.isArray(answers)?answers[0]:answers}。${hint}`});
@@ -127,6 +128,25 @@ export const modules=[
 ];
 export const moduleMap=new Map(modules.map(m=>[m.id,m]));
 export const allQuestionMap=new Map(modules.flatMap(m=>m.questions.map(q=>[q.id,q])));
+const hydratingModules=new Map();
+export async function hydrateModule(id){
+ const module=moduleMap.get(id);if(!module||!module.advancedLazy)return module;
+ if(hydratingModules.has(id))return hydratingModules.get(id);
+ const task=(async()=>{
+  const full=await loadAdvancedExpression(id);
+  if(!full||full.id!==id||full.questions.length!==module.questions.length)throw Error('Advanced Native lesson does not match its index.');
+  for(const question of module.questions){
+   const loaded=full.questions.find(q=>q.id===question.id);
+   if(!loaded||loaded.type!==question.type||question.type!=='open'&&JSON.stringify(loaded.answers)!==JSON.stringify(question.answers))throw Error('Advanced Native grading index is stale.');
+  }
+  // Preserve the objects already referenced by moduleMap, library and progress.
+  Object.assign(module,full,{advancedLazy:false,questionMap:new Map(full.questions.map(q=>[q.id,q]))});
+  for(const question of full.questions)allQuestionMap.set(question.id,question);
+  return module;
+ })();
+ hydratingModules.set(id,task);
+ try{return await task;}finally{hydratingModules.delete(id);}
+}
 export const normalise=s=>String(s??'').trim().toLowerCase().replace(/[’]/g,"'").replace(/[.!?]+$/,'').trim().replace(/\s+/g,' ');
 export const correct=(q,value)=>q.type==='open'?String(value??'').trim().length>=3:q.answers.some(a=>normalise(a)===normalise(value));
 export const hkDate=at=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));

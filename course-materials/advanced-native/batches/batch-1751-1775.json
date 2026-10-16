@@ -1,0 +1,5300 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1751-1775",
+  "lessons": [
+    {
+      "id": "advanced-native-1751",
+      "number": 1751,
+      "inventoryId": "expr-1751",
+      "contentRevision": 1,
+      "titleEn": "a living story",
+      "titleZh": "可感受人的歷史故事",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba living story\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p212-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 212,
+          "book": 8,
+          "question": 8,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The guide presented history as a living story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a living story",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "An account of the past that feels connected to human experience and continuing life.",
+        "meaningZh": "讓人感受到人的經歷及延續生活的歷史敘述。",
+        "grammar": "present history as a living story; living contrasts with detached or lifeless information, not with factual accuracy",
+        "register": "neutral",
+        "boundaryZh": "生動人情不等於可杜撰事件或沒日期；需以實際人物選擇、感受及前後連接支持。",
+        "misconceptionZh": "生動人情不等於可杜撰事件或沒日期；需以實際人物選擇、感受及前後連接支持。",
+        "outcomeZh": "理解「可感受人的歷史故事」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative living-story metaphor, not a claim that historical events are happening again or that an account is literally alive."
+      },
+      "listening": {
+        "en": "The guide made the old ferry service feel like a living story by reading a worker’s account of the last crossing and showing how families planned their journeys around it.",
+        "zh": "導賞員讀一位工人寫最後一程的敘述，也展示家庭怎圍繞渡輪安排行程，令舊渡輪服務像可感受人的歷史故事。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "人物敘述及生活安排，讓舊服務的歷史有人的經歷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "導賞員只按年份報渡輪數量，沒提人的生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "渡輪現仍以完全相同路線及安排運作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "工人敘述被當成導賞員可自行加造事件的許可。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "worker’s account 及 families planned journeys 把資料連人，不等於服務至今相同或可杜撰。"
+      },
+      "reply": {
+        "promptEn": "How did the guide make the ferry’s history engaging?",
+        "promptZh": "導賞員怎令渡輪歷史吸引人？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She presented it as a living story through the worker’s account and the families’ journeys.",
+            "zh": "她透過工人敘述及家庭行程，把它呈現為可感受人的歷史故事。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She connected the service with the lives of people who used it.",
+            "zh": "她把服務與曾用它的人的生活連起。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The last crossing became something we could understand through one worker’s experience.",
+            "zh": "透過一位工人經歷，我們能理解最後一程。"
+          },
+          {
+            "id": "reply-4",
+            "en": "She showed what the timetable meant for ordinary journeys, not just when boats ran.",
+            "zh": "她展示時間表對平常行程的意義，不只船何時開。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小展覽用市場賬簿中的一日，配合有來源的買賣者信件，解釋人們怎應付下雨停市；不是只列價格。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It presents the market as a living story through people’s decisions on that day.",
+            "zh": "它透過當天人們的決定，把市場呈現為可感受人的歷史故事。"
+          },
+          {
+            "id": "choice-2",
+            "en": "It replaces the day’s human accounts with prices alone.",
+            "zh": "它把當天人的敘述換成只有價格。"
+          },
+          {
+            "id": "choice-3",
+            "en": "It claims that the old market day is taking place again unchanged.",
+            "zh": "它聲稱舊市場那一天正在原樣重演。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "人的有來源決定讓歷史有生命感，非抹去經歷或聲稱重演。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a living story 的歷史比喻得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "把資料連到人的實際經歷，讓敘述較可感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要故事有感染力，就可把想像對話直接當史實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "日期及證據仍可支持生動的人物敘述。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "生動不取消史實與想像的區分。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「工人一封生動的信，就夠知道平常乘客都怎經歷渡輪吧？」信寫的是他親歷的最後一程。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can be a living story through one person’s recorded experience without establishing the usual experience of all passengers.",
+            "zh": "一人有記錄經歷可成為生動歷史故事，卻不確立所有乘客的通常經歷。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The worker’s moving account establishes the usual passenger experience, rather than one person’s view.",
+            "zh": "工人感人敘述確立乘客通常經歷，不只是一人角度。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account is mainly a list of sailing times rather than a record of someone’s last crossing.",
+            "zh": "敘述主要是開船時間清單，而不是某人最後一程的記錄。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有記錄的具體經歷可令歷史有生命感，但一人敘述不自動代表乘客通常經歷；這封信也不只是時間表。"
+      },
+      "speaking": {
+        "en": "The letters turn the old workshop into a living story of people learning a trade and helping one another through busy weeks.",
+        "zh": "信件把舊工場變成可感受人的故事，寫人們學手藝、忙碌周裏互相幫忙。",
+        "targetSpan": {
+          "start": 39,
+          "end": 53
+        },
+        "promptZh": "先聽示範，再找人的經歷怎令歷史可感受。"
+      },
+      "writing": {
+        "promptZh": "新情境：你要向家人提議保留一本舊食譜，不只掃描菜名，也錄下長輩記得誰一起做、甚麼場合吃；你想邀先選一頁問故事，並標清不確定記憶。用一至兩句英文提出家族記錄做法。",
+        "examples": [
+          {
+            "en": "Could we preserve the recipe book as a living story, with memories of who cooked together beside the ingredient lists? Let us start with one page and mark anything the family is unsure about.",
+            "zh": "可否把食譜保留為可感受人的故事，在材料清單旁加誰曾一起做的回憶？先選一頁，標家人不確定之處吧。"
+          },
+          {
+            "en": "I would like this book to become a living story for the next generation, not just a scan of recipe names. Could we ask about one shared meal and keep the remembered details separate from guesses?",
+            "zh": "我想這書為下一代成為可感受人的故事，不只掃描食譜名字。可否問一頓共膳，區分記得細節及猜測？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the recipe book",
+            "zh": "那本食譜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 33
+            }
+          },
+          {
+            "en": "who cooked together",
+            "zh": "誰曾一起做菜",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 89
+            }
+          },
+          {
+            "en": "the ingredient lists",
+            "zh": "材料清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 117
+            }
+          },
+          {
+            "en": "one shared meal",
+            "zh": "一頓一起吃的飯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 125,
+              "end": 140
+            }
+          },
+          {
+            "en": "the remembered details",
+            "zh": "記得的細節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 150,
+              "end": 172
+            }
+          }
+        ],
+        "selfCheckZh": "邀家人開始具體一頁人情記錄，區分記憶及猜測，不把有生命感當可任添事實或只掃名字。"
+      },
+      "takeaways": [
+        {
+          "en": "The apprentice’s letters made the school’s early years a living story of effort, friendship and unfinished hopes.",
+          "zh": "學徒信件讓學校早年成為努力、友誼及未完希望的生動故事。"
+        },
+        {
+          "en": "We wanted a living story of the street, so we paired the shop records with residents’ accounts of ordinary mornings.",
+          "zh": "我們想有可感受人的街道故事，所以把商店記錄與居民平常早晨的敘述並列。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1752",
+      "number": 1752,
+      "inventoryId": "expr-1752",
+      "contentRevision": 1,
+      "titleEn": "a graveyard of dates",
+      "titleZh": "只剩僵硬日期的歷史",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba graveyard of dates\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p212-t1-r13",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 212,
+          "book": 8,
+          "question": 8,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "History should not become a graveyard of dates.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a graveyard of dates",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A lifeless collection of historical dates without meaningful connections or human experience.",
+        "meaningZh": "缺少有意義連接或人的經歷，只剩死板歷史日期。",
+        "grammar": "history becomes/feels like a graveyard of dates; graveyard is a critical metaphor for disconnected, lifeless presentation",
+        "register": "neutral",
+        "boundaryZh": "不是說日期沒用或應全刪；批評的是只列不解釋，需指出缺的連接。",
+        "misconceptionZh": "不是說日期沒用或應全刪；批評的是只列不解釋，需指出缺的連接。",
+        "outcomeZh": "理解「只剩僵硬日期的歷史」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative graveyard/date metaphor. Retain its critical tone without presenting the full phrase as an established dictionary idiom."
+      },
+      "listening": {
+        "en": "For me, the first worksheet was a graveyard of dates: it listed openings and closures but never explained who used the buildings or why the changes mattered to the neighbourhood.",
+        "zh": "對我，首份工作紙只剩死板日期：它列開幕及關閉，卻不解釋誰用建築或改變為何對社區重要。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "工作紙只列日期，沒連到使用者及改變意義。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "工作紙已用人物故事清楚解釋每次改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者反對歷史敘述包含任何年份。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "工作紙主要比較哪次改變對路程影響較大，而非列日期。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "listed but never explained 指孤立日期，沒有連誰使用及改變意義；不等於反對所有年份，也不是已比較生活影響。"
+      },
+      "reply": {
+        "promptEn": "What was missing from the worksheet?",
+        "promptZh": "工作紙欠甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It felt like a graveyard of dates because it did not connect the changes with people’s lives.",
+            "zh": "它沒把改變與人的生活連起，所以像只有死板日期。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We were given the years without an explanation of why the events mattered.",
+            "zh": "我們得到年份，卻沒解釋事件為何重要。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The buildings’ users and the effects of the changes were left out.",
+            "zh": "建築使用者及改變影響被漏掉。"
+          },
+          {
+            "id": "reply-4",
+            "en": "There was no connection between the list and the neighbourhood’s experience.",
+            "zh": "清單與社區經歷沒有連接。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社團史有成立與搬遷年份，也逐一說明搬遷怎令新人較易搭車到場；同伴只見年份就稱它 a graveyard of dates。哪句判斷較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The dates do not make it a graveyard of dates when the account explains what the moves changed for newcomers.",
+            "zh": "敘述已解釋搬遷改變新人甚麼，有年份不令它只剩死板日期。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The presence of years is enough to show that the report contains no meaningful connections.",
+            "zh": "只要有年份，就足以顯示報告沒有有意義連接。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes only personal feelings and supplies no sequence for the club’s moves.",
+            "zh": "敘述只有個人感受，沒有社團搬遷順序。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "年份已連到新人交通與參與的改變；不能只因有日期就說死板，也不是只有感受而無時序。"
+      },
+      "contrast": {
+        "promptZh": "哪種建議最不符合 a graveyard of dates 所批評的問題？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "保留必要年份，加入人物及因果連接。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "刪掉全部年份，卻仍只列互不相連的事件名字。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "問某個改變對當時的人有何意義。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "只刪日期未修缺連接；批評不是日期本身。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你嫌日期死板，我就全刪，只剩事件名吧？」哪句回應較有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I want to avoid a graveyard of dates by explaining the connections, not by removing every useful year.",
+            "zh": "我想解釋連接，避免只剩死板日期，不是刪每個有用年份。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep only the event names in the same order and leave out who was affected.",
+            "zh": "只按原序留事件名，不提誰受影響。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Replace each year with a longer number list before asking why any change mattered.",
+            "zh": "未問改變意義，就把每年換更長數字清單。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需補意義連接，不只去年份或加數字。"
+      },
+      "speaking": {
+        "en": "The display need not be a graveyard of dates if each important year helps explain a change in people’s lives.",
+        "zh": "若每個重要年份都幫解釋人的生活改變，展示不必只剩死板日期。",
+        "targetSpan": {
+          "start": 24,
+          "end": 44
+        },
+        "promptZh": "先聽示範，再分清有用年代與孤立清單。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友看一本地方史的開頭年表後想放棄，說像一堆死板日期；你知道後面有工人寫改工時怎影響家飯的信。你想先承認開頭欠連接，邀一起用信件問一個問題，再決定是否繼續讀，不只叫他背更多年。用一至兩句英文回覆。",
+        "examples": [
+          {
+            "en": "The opening does feel like a graveyard of dates, but could we try the worker’s letter before giving up on the book? I would like to see how the change in hours affected family meals, not just memorise another year.",
+            "zh": "開頭確像只有死板日期，但放棄整書前，可否試讀工人的信？我想看改工時怎影響家飯，不只再背一年。"
+          },
+          {
+            "en": "I understand why that timeline feels like a graveyard of dates without any connections. Shall we read the letter together and ask what one of those dates changed for the writer before deciding whether to continue?",
+            "zh": "我明白沒連接的年表為何像只有死板日期。可否一起讀信、問其中一年改了作者甚麼，再決定讀不讀下去？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the worker’s letter",
+            "zh": "工人的信",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 85
+            }
+          },
+          {
+            "en": "giving up on the book",
+            "zh": "放棄那本書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 114
+            }
+          },
+          {
+            "en": "the change in hours",
+            "zh": "工時改變",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 159
+            }
+          },
+          {
+            "en": "family meals",
+            "zh": "家人的飯聚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 169,
+              "end": 181
+            }
+          },
+          {
+            "en": "whether to continue",
+            "zh": "是否繼續",
+            "exampleIndex": 1,
+            "span": {
+              "start": 193,
+              "end": 212
+            }
+          }
+        ],
+        "selfCheckZh": "承認閱讀受阻並邀以具體人的經驗試一個問題，保留朋友再決定，不只要求背年或把開頭評語當全書無用。"
+      },
+      "takeaways": [
+        {
+          "en": "The introduction became a graveyard of dates when every year appeared without a person, question or consequence attached.",
+          "zh": "每年都沒連人物、問題或後果時，介紹只剩死板日期。"
+        },
+        {
+          "en": "She kept the founding year but added the reason for the move, so the club history no longer felt like a graveyard of dates.",
+          "zh": "她留成立年、加搬遷原因，社團史不再像只有死板日期。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1753",
+      "number": 1753,
+      "inventoryId": "expr-1753",
+      "contentRevision": 1,
+      "titleEn": "with their eyes open",
+      "titleZh": "明白情況與風險才作選擇",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwith (?:their|our|my|your|his|her) eyes open\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p212-t1-r14",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 212,
+          "book": 8,
+          "question": 8,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Students can face the future with their eyes open.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "with their eyes open",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "With awareness of relevant facts, difficulties or risks rather than in ignorance of them.",
+        "meaningZh": "對相關事實、困難或風險有認識，而非未知便作選擇。",
+        "grammar": "go into/accept/decide with one’s eyes open; possessive agrees with the decision-maker; not literal eyesight",
+        "register": "neutral",
+        "boundaryZh": "知道風險不等於控制結果、必然接受或不用再問；需交代知道哪些實際條件。",
+        "misconceptionZh": "知道風險不等於控制結果、必然接受或不用再問；需交代知道哪些實際條件。",
+        "outcomeZh": "理解「明白情況與風險才作選擇」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The volunteers accepted the weekend project with their eyes open: they had read the tasks, asked about the time needed and knew the outdoor part might have to change if it rained.",
+        "zh": "義工明白情況才接周末項目：他們讀過工作、問所需時間，也知道下雨時戶外部分可能要改。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他們了解工作、時間及天氣可能造成的改動才接。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們只看到活動名稱，還不知道工作或時間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他們已確定周末不會下雨，戶外安排不需再看。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他們知道有困難，所以已拒絕參與項目。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "read/asked/knew 交代具體認識，accepted 非拒絕，might 保留不確定。"
+      },
+      "reply": {
+        "promptEn": "What helped the volunteers make an informed decision?",
+        "promptZh": "甚麼幫義工作有認識的決定？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They accepted with their eyes open after checking the tasks, time and possible changes.",
+            "zh": "他們核工作、時間及可能改動，明白情況才接。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They knew what the role involved instead of relying on its title.",
+            "zh": "他們知道角色涉及甚麼，而非只看名稱。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They asked how much time it would take and considered the weather plan.",
+            "zh": "他們問需多少時間，也考慮天氣安排。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The possibility of a changed outdoor activity was part of what they understood.",
+            "zh": "他們的理解包括戶外活動可能改動。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "女編輯已問清週末工作時數，發現與固定照顧家人的時間衝突，於是婉拒這次邀請；不是沒讀要求。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She considered the offer with her eyes open and declined because the actual hours conflicted with her commitments.",
+            "zh": "她明白情況才考慮邀請，因實際時數與已有責任衝突而婉拒。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She declined before finding out what time the role would require.",
+            "zh": "她未查角色需甚麼時間就婉拒。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She accepted the role after deciding that the weekend hours would fit her existing commitments.",
+            "zh": "她決定週末時數合已有責任後，接受角色。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已查實際時數才婉拒也可知情；不是沒查，也不把知道條件等於必接。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 with their eyes open 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "相關條件及困難是作決定時已考慮的。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "知情就代表日後結果已能保證。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "理解後仍可按條件選接受或拒絕。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "知情與結果保證不同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「知道可能下雨，就不能說樂意參加吧？」義工已問後備安排。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They can accept with their eyes open, understanding the possible change while still choosing to join.",
+            "zh": "他們可明白情況才接受，知道可能改動仍選加入。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat their weather question as a refusal before asking what arrangement they accepted.",
+            "zh": "未問接受甚麼安排，就把天氣問題當拒絕。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use their enthusiasm as a reason to stop explaining the outdoor plan.",
+            "zh": "把他們熱心當不用再解釋戶外計劃的理由。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "知情可與願意並存，不把問風險當拒絕或熱心當不用交代。"
+      },
+      "speaking": {
+        "en": "I would like to make the choice with my eyes open, so could we discuss the time commitment before I say yes?",
+        "zh": "我想明白情況才選擇，所以答應前可否談需投入的時間？",
+        "targetSpan": {
+          "start": 32,
+          "end": 49
+        },
+        "promptZh": "先聽示範，再交代決定者知道哪些條件。"
+      },
+      "writing": {
+        "promptZh": "新情境：你原已問清每周一次的道具小組安排才答應加入；現在主辦者加了另一個周末，你未必有空。你想禮貌說原是知情加入，但新安排需再談，提出可維持原有部分，不指責對方有惡意。用一至兩句英文更新自己能做的事。",
+        "examples": [
+          {
+            "en": "I joined with my eyes open about the weekly session, but the added weekend is a change we have not discussed. I can still do the original part, so could we talk about who can cover the extra time?",
+            "zh": "我明白每周活動安排才加入，但新增周末是未談的改動。我仍可做原部分，可否談誰能接額外時間？"
+          },
+          {
+            "en": "I accepted with my eyes open after checking the first timetable, rather than agreeing to every later addition. I would like to keep helping on that basis while we discuss what the new weekend needs.",
+            "zh": "我核最初時間表、明白才答應，不是同意日後每項追加。我想按原安排繼續幫，也談新周末需甚麼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the weekly session",
+            "zh": "每周一次的活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 51
+            }
+          },
+          {
+            "en": "the added weekend",
+            "zh": "新增的周末",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 74
+            }
+          },
+          {
+            "en": "the original part",
+            "zh": "原有的部分",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 142
+            }
+          },
+          {
+            "en": "the extra time",
+            "zh": "額外時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 181,
+              "end": 195
+            }
+          },
+          {
+            "en": "the first timetable",
+            "zh": "最初的時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 63
+            }
+          }
+        ],
+        "selfCheckZh": "說清原知情決定與後來條件改動，提出仍可做及需另談部分，不把知情當無限追加或預判惡意。"
+      },
+      "takeaways": [
+        {
+          "en": "She joined the long rehearsal with her eyes open after the organiser explained the breaks and finishing time.",
+          "zh": "主辦者解釋休息及結束時間後，她明白情況才參加長排練。"
+        },
+        {
+          "en": "We went into the joint exhibition with our eyes open about the shared work, and reviewed the arrangement after the first week.",
+          "zh": "我們明白共同工作才開始合辦展覽，首周後再檢視安排。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1755",
+      "number": 1755,
+      "inventoryId": "expr-1755",
+      "contentRevision": 1,
+      "titleEn": "a map behind the map",
+      "titleZh": "現有地圖背後的歷史脈絡",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba map behind the map\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A city's past is a map behind the map.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a map behind the map",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Historical context that helps explain the visible geography or social arrangement of a place.",
+        "meaningZh": "幫助解釋現有地理或社會安排的歷史脈絡。",
+        "grammar": "the past is a map behind the map; the second map is the visible present, and the first names an interpretive layer of earlier causes",
+        "register": "neutral",
+        "boundaryZh": "不是必有一張藏起來的紙圖，也不表示已解釋一切；需說現有特徵與哪項過去相連。",
+        "misconceptionZh": "不是必有一張藏起來的紙圖，也不表示已解釋一切；需說現有特徵與哪項過去相連。",
+        "outcomeZh": "理解「現有地圖背後的歷史脈絡」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative layered-map metaphor for historical context that explains present geography or community life. It names a way of reading the present, not a fixed dictionary idiom or proof of one complete historical cause."
+      },
+      "listening": {
+        "en": "In the essay, the old river crossings were a map behind the map: they helped explain why three present streets met at an apparently awkward angle, even though the riverbank had since changed.",
+        "zh": "文章裏，舊渡河點是現圖背後的歷史脈絡：它們幫解釋為何三條現街道以看似彆扭的角度交會，儘管河岸後來改了。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "早年渡河點幫解釋現在街道角度。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "目前街角與過去渡河點被描述為毫無關係。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "文章只給現在街名，沒有較早的安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "河岸至今未改，所以現圖足以顯示全部早年環境。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "helped explain 與 since changed 連現街及舊渡口，不是過去環境全原樣。"
+      },
+      "reply": {
+        "promptEn": "Why did the essay return to the old crossings?",
+        "promptZh": "文章為甚麼回到舊渡河點？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They were a map behind the map, helping explain the shape of the streets today.",
+            "zh": "它們是現圖背後的歷史脈絡，幫解釋今天街道形狀。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The present junction made more sense once we knew the earlier routes.",
+            "zh": "知道較早路線後，現在交會位置更易理解。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The crossings connected a visible street pattern with an older use of the place.",
+            "zh": "渡河點把可見街道模式與地方舊用途連起。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They offered context the modern street names alone did not provide.",
+            "zh": "它們給現代街名本身沒提供的脈絡。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "舊校舍平面把某門畫成側門，研究者找到早年正面廣場位置，明白建築曾朝另一邊迎賓；你要說歷史幫讀現在布局。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The earlier square offers a map behind the map of the building we see now.",
+            "zh": "較早廣場提供讀目前建築布局的歷史脈絡。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The side entrance shows that the building always faced the same public space as now.",
+            "zh": "側門顯示建築一直面向與現在相同公共空間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The current side-door label alone establishes the building’s original entrance, without comparison with the earlier square.",
+            "zh": "現有側門標籤本身就確立原入口，不需比早年廣場。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "早年廣場與朝向幫解現布局；不宜只看現標籤推原入口，亦不是一直同向。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a map behind the map 的比喻得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "較早歷史可幫解釋現有位置與安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "看到舊地名就可不經核對地確定目前布局的全部原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需交代目前特徵與過去的具體連接。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "歷史角度仍需具體證據連接，不能只見舊名稱便當完整原因。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「地圖已畫街道，不需再看舊渡河點吧？」你要解釋街角為何如此。哪句回應較有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The past can be a map behind the map, explaining a pattern the current names merely locate.",
+            "zh": "過去可作現圖背後的脈絡，解釋目前名字只標位置的模式。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Replace the cause question with a list of current street names alone.",
+            "zh": "把原因問題改成只列現街名。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the present riverbank as evidence that the earlier crossing must have been in the same place.",
+            "zh": "把現河岸當早年渡河點必在同處的證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "現在圖標位置，歷史可解模式；不宜以現河岸硬定舊處或只列名字。"
+      },
+      "speaking": {
+        "en": "The former market offers a map behind the map, helping us understand why the narrow lanes still lead towards the same square.",
+        "zh": "舊市場提供現圖背後的歷史脈絡，幫我們明白為何窄巷仍朝同一廣場。",
+        "targetSpan": {
+          "start": 25,
+          "end": 45
+        },
+        "promptZh": "先聽示範，再說歷史怎幫讀現有位置。"
+      },
+      "writing": {
+        "promptZh": "新情境：同伴替導賞圖寫「公園彎路必定沿舊果園水渠」，目前卻只有口述傳聞，還沒有舊圖。你想承認過去可幫讀現圖，但先問來源、把說法標為待查，不讓漂亮解釋先變定論。用一至兩句英文給編輯回饋。",
+        "examples": [
+          {
+            "en": "The orchard may offer a map behind the map, but we have not yet traced the channels. Could we check the source of that account and mark the connection as a possibility before printing it as fact?",
+            "zh": "果園可能提供現圖背後的歷史脈絡，但我們尚未追到水渠。印成事實前，可否核敘述來源，把連接標可能性？"
+          },
+          {
+            "en": "I like the idea of a map behind the map, yet the curved paths alone do not establish where the old channels ran. Let us look for earlier evidence rather than give the guide a certain answer too soon.",
+            "zh": "我喜歡現圖背後歷史脈絡的想法，但彎路本身不確立舊渠在哪。我們找較早證據，不太早給導賞確定答案吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The orchard",
+            "zh": "那果園",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "traced the channels",
+            "zh": "追溯水渠的位置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 83
+            }
+          },
+          {
+            "en": "the source of that account",
+            "zh": "那敘述的來源",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 126
+            }
+          },
+          {
+            "en": "a possibility",
+            "zh": "一種可能性",
+            "exampleIndex": 0,
+            "span": {
+              "start": 154,
+              "end": 167
+            }
+          },
+          {
+            "en": "earlier evidence",
+            "zh": "較早的證據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 145
+            }
+          }
+        ],
+        "selfCheckZh": "作編輯回饋時分好解釋與已查證連接，提出核來源及標待查，不單憑現彎路或傳聞硬定舊渠。"
+      },
+      "takeaways": [
+        {
+          "en": "The old tram route became a map behind the map of the shopping street, explaining the unusual gap between the buildings.",
+          "zh": "舊電車線成為購物街現圖背後的歷史脈絡，解釋樓宇間不尋常空隙。"
+        },
+        {
+          "en": "She read the town’s earlier meeting places as a map behind the map of its present community life.",
+          "zh": "她把城鎮早年聚會地方，讀成目前社區生活背後的歷史脈絡。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1756",
+      "number": 1756,
+      "inventoryId": "expr-1756",
+      "contentRevision": 1,
+      "titleEn": "come into focus",
+      "titleZh": "逐漸變得清晰可理解",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcom(?:e|es|ing) into focus\\b|\\bcame into focus\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The bigger picture began to come into focus.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "come into focus",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Become clearer or easier to understand as information or relationships become apparent.",
+        "meaningZh": "資料或關係明朗後，逐漸變得較清楚、易理解。",
+        "grammar": "the reason/pattern begins to come into focus; came/coming; figurative clarity, not necessarily a camera or complete certainty",
+        "register": "neutral",
+        "boundaryZh": "較清楚不等於已知每個細節或從此不需核；需交代甚麼變清楚及哪個新連接帶來理解。",
+        "misconceptionZh": "較清楚不等於已知每個細節或從此不需核；需交代甚麼變清楚及哪個新連接帶來理解。",
+        "outcomeZh": "理解「逐漸變得清晰可理解」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The reason for the cancelled meeting came into focus when we compared the organiser’s note with the timetable: the last bus had stopped running before the planned finish, leaving several members without a way home.",
+        "zh": "比較主辦者便條與時間表後，取消聚會的原因變清楚：計劃結束前，尾班車已停，幾位成員沒法回家。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "比較資料後，回家交通問題解釋取消原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新增資料令取消原因更難辨認，沒有任何連接。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "聚會因人太少而取消，時間表被證與決定無關。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "原定結束時間早於尾班車，交通因此沒限制。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "note+ timetable 及 bus before finish 形成原因連接，不是只多資料卻不理解或時序倒轉。"
+      },
+      "reply": {
+        "promptEn": "What became clearer after you compared the two records?",
+        "promptZh": "比較兩份記錄後，甚麼較清楚？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The cancellation came into focus once we saw the problem with the last bus.",
+            "zh": "看到尾班車問題後，取消的原因較清楚。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We could connect the meeting’s finish with the members’ journey home.",
+            "zh": "我們能把聚會結束與成員回家路程連起。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The timetable gave the practical reason behind the organiser’s note.",
+            "zh": "時間表給了主辦者便條背後的實際原因。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It became easier to understand why continuing with the original time would not work for several people.",
+            "zh": "較易理解為何原時間對幾人不可行。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你原不懂短篇主角為何留在車站；讀到他早前答應等妹妹的信，選擇與承諾連起，仍有部分結局未知。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "His reason for waiting begins to come into focus through the earlier promise.",
+            "zh": "透過早前承諾，他等候的原因開始清楚。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The new passage leaves us with less idea why he is at the station.",
+            "zh": "新段落令我們更不懂他為何在車站。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The letter explains the later ending in full rather than the reason for this wait.",
+            "zh": "信件完整解釋後來結局，而不是今次等候原因。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "承諾連等候讓局部原因清楚，未等於結局已全明。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 come into focus 的理解比喻得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某個理由或模式變得較清楚。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有剩餘疑問都已解決，不需再看資料。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "新資料可令原先不明的關係易理解。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "局部變清楚不保證每事全明。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「便條提取消，時間表只是多一張紙，沒幫吧？」你已看到尾班車問題。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The reason came into focus because the two records connected the finishing time with the journey home.",
+            "zh": "兩份記錄把結束時間與回家路程連起，所以原因變清楚。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Count the two documents without considering whether their details explain the decision.",
+            "zh": "只數兩份文件，不看細節是否解釋決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the timetable as a replacement for the note rather than compare their dates and times.",
+            "zh": "把時間表當代替便條，不比日期時間。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "關鍵是資料連接帶來理解，不是張數或一份取代另一份。"
+      },
+      "speaking": {
+        "en": "The pattern began to come into focus when we placed the interviews beside the dates of the changes.",
+        "zh": "把訪談放改變日期旁比較時，模式開始清楚。",
+        "targetSpan": {
+          "start": 21,
+          "end": 36
+        },
+        "promptZh": "先聽示範，再交代理解因甚麼連接變清楚。"
+      },
+      "writing": {
+        "promptZh": "新情境：你幫同伴排練一段對話，幾次停頓總聽來奇怪；把停頓與人物正隱瞞的消息連起後，較懂那不安。你想寫排練筆記，提出下次試較短停頓比較效果，不宣稱已找到唯一演法。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The hesitation began to come into focus when we connected it with the news the character was hiding. Could we try a shorter pause next time and compare how much tension it carries?",
+            "zh": "把猶豫與人物隱瞞的消息連起後，它開始易理解。下次可否試短停頓，比較帶多少張力？"
+          },
+          {
+            "en": "The reason for the pauses has started to come into focus, rather than feeling like empty space in the conversation. I would test a briefer version before deciding how to perform the exchange.",
+            "zh": "停頓原因開始清楚，不再像對話空白。我會在決定怎演前先試較短版本。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The hesitation",
+            "zh": "那猶豫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "the news the character was hiding",
+            "zh": "人物隱瞞的消息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 99
+            }
+          },
+          {
+            "en": "a shorter pause",
+            "zh": "較短停頓",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 129
+            }
+          },
+          {
+            "en": "how much tension it carries",
+            "zh": "它帶多少張力",
+            "exampleIndex": 0,
+            "span": {
+              "start": 152,
+              "end": 179
+            }
+          },
+          {
+            "en": "a briefer version",
+            "zh": "較短版本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 146
+            }
+          }
+        ],
+        "selfCheckZh": "用人物秘密解釋停頓的新理解，提出比較演法的下一步，保留詮釋可試，不把清晰等於唯一正解。"
+      },
+      "takeaways": [
+        {
+          "en": "The route change came into focus after an old photograph showed the bridge that had once linked the two lanes.",
+          "zh": "舊相顯示曾連兩巷的橋後，改路原因變清楚。"
+        },
+        {
+          "en": "Her question about the missing evening class began to come into focus when two interviewees mentioned the last bus.",
+          "zh": "兩位受訪者提尾班車後，她對消失夜課的問題開始清楚。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1757",
+      "number": 1757,
+      "inventoryId": "expr-1757",
+      "contentRevision": 1,
+      "titleEn": "heavy going",
+      "titleZh": "讀下去或做下去很吃力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bheavy going\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The first chapter was heavy going for beginners.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "heavy going",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Difficult or tiring to follow or continue, especially reading or an activity.",
+        "meaningZh": "尤其指閱讀或某活動難跟上、做下去吃力。",
+        "grammar": "find the chapter heavy going; it was heavy going; going is the experience/progress of continuing, not a separate movement instruction",
+        "register": "informal",
+        "boundaryZh": "吃力可因背景、寫法或難度，不代表內容無價值或每人都難；需交代誰及甚麼部分吃力。",
+        "misconceptionZh": "吃力可因背景、寫法或難度，不代表內容無價值或每人都難；需交代誰及甚麼部分吃力。",
+        "outcomeZh": "理解「讀下去或做下去很吃力」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "I found the opening chapter heavy going because it introduced six unfamiliar terms without examples, though the later interview helped me understand why the subject mattered.",
+        "zh": "開頭一章沒有例子便引六個陌生術語，我讀得吃力，儘管後來訪談幫我明白題目為何重要。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者因術語缺例而難跟，仍可看出題目價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者已熟悉術語，開章比後來訪談容易。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者主要因不贊成結論而不喜歡開章，並不是術語難懂。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "後來訪談又加同樣術語，沒有增理解。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "unfamiliar/no examples 指對此讀者的吃力，later helped 不支持全無價值。"
+      },
+      "reply": {
+        "promptEn": "What made the opening difficult for you?",
+        "promptZh": "開頭甚麼令你吃力？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It was heavy going because the unfamiliar terms came without examples.",
+            "zh": "陌生術語沒有例子，所以讀下去吃力。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I had to work through several new terms before seeing what they referred to.",
+            "zh": "我還未看見所指，就需處理幾個新術語。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The chapter expected background knowledge I did not yet have.",
+            "zh": "那章預期我有尚未有的背景知識。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I could not connect the new vocabulary with a concrete case until the later interview.",
+            "zh": "直到後來訪談，我才把新詞與具體例子連起。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "有背景的讀者明白文章用詞、能清楚重述論證，但不贊成結論；她沒有說難跟或疲累。有人因此就稱文章對她是 heavy going。哪句判斷較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Disagreeing with the conclusion does not by itself make the article heavy going for her.",
+            "zh": "不贊成結論本身，不等於文章對她難讀下去。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her disagreement is enough to establish that she struggled to follow the argument.",
+            "zh": "她不贊成已足以確立她難跟論證。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She needs the unfamiliar terms explained before she can say what the argument means.",
+            "zh": "她需先獲解釋陌生術語，才能說論證意思。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已懂詞及能重述論證，只有意見不同；不宜把不同意直接當理解吃力，未給需補術語的線索。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 I found it heavy going 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這位讀者或參與者繼續下去較吃力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "內容對所有人都沒價值，不值得再解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可再查是用詞、背景或結構令跟進困難。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "個人難跟不等於全無價值或人人相同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你讀得吃力，評語就寫『題目沒用』吧？」你主要不懂開章術語。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I found it heavy going because of the terms, so I would ask for examples rather than dismiss the subject.",
+            "zh": "我因術語讀得吃力，會請加例，而非否定題目。"
+          },
+          {
+            "id": "choice-2",
+            "en": "If I struggle with the opening, the subject probably is not worth spending more time on.",
+            "zh": "若開頭令我吃力，那主題大概不值得再花時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Ask for more terms in the opening before explaining the ones already there.",
+            "zh": "未解釋已有術語，就請開頭再加更多。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "難在術語及缺例，回應應指出具體障礙；不能直接由開頭難推主題沒價值，也不只是再加術語。"
+      },
+      "speaking": {
+        "en": "The first section was heavy going for me, but a worked example helped me follow the next part.",
+        "zh": "首部分我讀得吃力，但一個示範例子幫我跟到下一部分。",
+        "targetSpan": {
+          "start": 22,
+          "end": 33
+        },
+        "promptZh": "先聽示範，再區分難跟與內容無價值。"
+      },
+      "writing": {
+        "promptZh": "新情境：你答應和朋友整理一箱混了年代的社團照片，以為一晚能做完；看到每張都需核背面姓名，才發現比想像吃力。你想坦白調整今晚範圍，先核一小批、一起記下未明者，並約下次，不草率猜名。用一至兩句英文協調。",
+        "examples": [
+          {
+            "en": "This sorting is harder than I expected, and I am finding the mixed-up names heavy going tonight. Could we check one small batch carefully and leave a clear note of what needs another session?",
+            "zh": "整理比想像困難，今晚混亂姓名我覺難處理下去。可否先仔細核一小批，清楚記哪些需另一次？"
+          },
+          {
+            "en": "The photograph box is heavy going because the dates and names need checking, so I cannot finish it responsibly in one evening. I would rather agree a smaller part now and arrange another time than guess the missing details.",
+            "zh": "相片箱因日期姓名需核而難處理，我不能負責任地一晚做完。我寧願現議較小部分、另約時間，不猜缺細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the mixed-up names",
+            "zh": "混亂的姓名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 75
+            }
+          },
+          {
+            "en": "one small batch",
+            "zh": "一小批",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 127
+            }
+          },
+          {
+            "en": "another session",
+            "zh": "另一次整理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 175,
+              "end": 190
+            }
+          },
+          {
+            "en": "the dates and names",
+            "zh": "日期及姓名",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 61
+            }
+          },
+          {
+            "en": "a smaller part",
+            "zh": "較小一部分",
+            "exampleIndex": 1,
+            "span": {
+              "start": 148,
+              "end": 162
+            }
+          }
+        ],
+        "selfCheckZh": "坦白原預估不足、具體協調今晚範圍及下次，保留待核資料，不把吃力當無價值或用猜測充完成。"
+      },
+      "takeaways": [
+        {
+          "en": "The dense introduction was heavy going for a first-time reader, so the tutor began with one familiar case.",
+          "zh": "密集介紹讓初讀者吃力，所以導師先從一個熟悉例子開始。"
+        },
+        {
+          "en": "Sorting the conflicting notes was heavy going, but the two interviews eventually helped us separate the events.",
+          "zh": "整理互相矛盾的筆記很吃力，但兩次訪談最後幫我們分清事件。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1758",
+      "number": 1758,
+      "inventoryId": "expr-1758",
+      "contentRevision": 1,
+      "titleEn": "dry facts",
+      "titleZh": "缺乏脈絡與吸引力的事實",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bdry facts\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The lesson was more than dry facts.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "dry facts",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Facts presented in an unengaging way without context or a sense of why they matter.",
+        "meaningZh": "呈現得沒趣、欠脈絡或意義連接的事實。",
+        "grammar": "more than dry facts; turn a list of dry facts into an explanation; dry is an evaluative adjective, not a claim the facts are false",
+        "register": "neutral",
+        "boundaryZh": "枯燥是呈現及感受，不等於資料錯，也不表示故事可取代必要證據。",
+        "misconceptionZh": "枯燥是呈現及感受，不等於資料錯，也不表示故事可取代必要證據。",
+        "outcomeZh": "理解「缺乏脈絡與吸引力的事實」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Common dry+facts collocation with a figurative adjective. The source idiom label is retained as provenance; learner category identifies natural lexical wording, not an opaque whole-unit idiom."
+      },
+      "listening": {
+        "en": "The speaker moved beyond dry facts about the bridge’s length and opening year by explaining how it changed the daily journey to school, while keeping the measurements on the slide.",
+        "zh": "講者保留投影片上的數據，但解釋橋怎改每天上學路程，不再只講橋長與開幕年的枯燥事實。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她保留數據，也加入對生活的意義。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她為了有趣而把橋長數字換成未查的猜測。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她只重複長度與年份，沒有說使用者。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她認為只有人物故事可用，任何測量都應刪。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "keeping measurements 及 changed journey 指資料加脈絡，不是刪證據或改猜測。"
+      },
+      "reply": {
+        "promptEn": "How did the speaker make the bridge information meaningful?",
+        "promptZh": "講者怎讓橋的資料有意義？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She went beyond dry facts by showing what the bridge changed in people’s daily journeys.",
+            "zh": "她展示橋怎改每天路程，不只講枯燥事實。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The measurements stayed, but she connected them with the trip to school.",
+            "zh": "測量仍在，但她把它們與上學路程連起。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She explained why the bridge mattered to people who used it.",
+            "zh": "她解釋橋對使用者為何重要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The numbers supported an account of everyday change instead of standing alone.",
+            "zh": "數字支持日常改變的敘述，不再孤立。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組介紹舊車站，不只列月台數，也說不同時段怎讓工人返家，且列資料來源。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The account is more than dry facts because the details explain how people used the station.",
+            "zh": "敘述不只枯燥事實，因細節解釋人們怎用車站。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account leaves every figure detached from the passengers’ experience.",
+            "zh": "敘述讓每個數字都與乘客經驗分離。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account gives only the new timetable and leaves the earlier workers’ journeys unexplained.",
+            "zh": "敘述只給新時間表，沒解釋早年工人路程。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不同時段與工人返家的關係，為車站資料加使用意義；不是數字孤立或只給新時間表。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 dry facts 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "資料呈現較枯燥，可能欠意義連接。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "資料一定錯誤，所以只要改數字便能解決問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可保留準確事實並補人與脈絡。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "dry 不表示 false，改數字不能代呈現改善。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「加更長的數字表，導賞稿就自然不枯燥吧？」你想解釋橋對人的意義。哪句回應較有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us connect the dry facts with people’s journeys; more figures alone will not explain why the bridge mattered.",
+            "zh": "我們把枯燥事實與人的路程連起；只加數字不會解釋橋為何重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Add another table of lengths before asking whose daily journey the bridge changed.",
+            "zh": "未問橋改誰的每天路程，就先加另一份長度表。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Read every measurement aloud and leave the users’ experience out of the explanation.",
+            "zh": "朗讀每項測量，卻不在解釋提使用者經歷。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要補資料與人的用途連接，不只是加長數表或逐項朗讀。"
+      },
+      "speaking": {
+        "en": "The figures need not remain dry facts if we explain which choices they helped people make.",
+        "zh": "若解釋數字幫人作哪些選擇，它們不必仍是枯燥事實。",
+        "targetSpan": {
+          "start": 28,
+          "end": 37
+        },
+        "promptZh": "先聽示範，再把呈現枯燥與資料錯誤分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：同伴說展板只要有數字就一定是 dry facts，想刪掉原本清楚連到巴士使用者選擇的比較圖。你看見訪客能用圖理解哪個時段較難回家，想保留它，說數字已有脈絡，不只按有無數字判。用一至兩句英文給編輯回饋。",
+        "examples": [
+          {
+            "en": "I would not dismiss this chart as dry facts, because it shows visitors which journey home was harder at each time. Could we keep that connection rather than remove the figures simply because they are numbers?",
+            "zh": "我不會把這圖一概當枯燥事實，因它讓訪客看各時段哪種回家路程較難。可否留那連接，不只因是數字就刪？"
+          },
+          {
+            "en": "These are not just dry facts when the explanation links them to the passengers’ choices. I would keep the comparison and its clear caption, since visitors are already using them to understand the difference.",
+            "zh": "解釋把數字連到乘客選擇時，它們不只枯燥事實。我會留比較及清楚圖說，因訪客已用它們理解差別。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "this chart",
+            "zh": "這幅圖表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 30
+            }
+          },
+          {
+            "en": "the figures",
+            "zh": "那些數字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 164,
+              "end": 175
+            }
+          },
+          {
+            "en": "the passengers’ choices",
+            "zh": "乘客的選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 87
+            }
+          },
+          {
+            "en": "the comparison",
+            "zh": "那項比較",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 116
+            }
+          },
+          {
+            "en": "its clear caption",
+            "zh": "它清楚的圖說",
+            "exampleIndex": 1,
+            "span": {
+              "start": 121,
+              "end": 138
+            }
+          }
+        ],
+        "selfCheckZh": "據訪客已能使用圖表的證據保留有脈絡數字，區分單有數字與枯燥呈現，不一律刪數或否定同伴。"
+      },
+      "takeaways": [
+        {
+          "en": "The report’s dry facts became easier to follow once the writer connected the figures with one family’s weekly journey.",
+          "zh": "作者把數字與一家的每周路程連起後，報告的枯燥事實較易理解。"
+        },
+        {
+          "en": "She kept the dry facts on the handout but used the talk to explain the choices behind the final design.",
+          "zh": "她把原本枯燥的事實留在講義，談話則解釋最終設計背後的選擇。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1759",
+      "number": 1759,
+      "inventoryId": "expr-1759",
+      "contentRevision": 1,
+      "titleEn": "a conversation with the past",
+      "titleZh": "主動與過去對話",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba conversation with the past\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The exhibition felt like a conversation with the past.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a conversation with the past",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Active engagement with historical evidence through questions, interpretation and response.",
+        "meaningZh": "透過提問、理解及回應，主動與歷史資料交流。",
+        "grammar": "the exhibition feels like a conversation with the past; conversation personifies the relationship between present questions and surviving accounts",
+        "register": "neutral",
+        "boundaryZh": "不是過去人物真能回答，也不准把自己的回答當他們原話；需說問甚麼、哪些記錄帶來回應或新問題。",
+        "misconceptionZh": "不是過去人物真能回答，也不准把自己的回答當他們原話；需說問甚麼、哪些記錄帶來回應或新問題。",
+        "outcomeZh": "理解「主動與過去對話」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative conversation/history metaphor, not a fixed idiom or a claim of direct access to historical people’s minds."
+      },
+      "listening": {
+        "en": "The exhibition became a conversation with the past for me: I asked why the family had moved, read their letters and then reconsidered my first assumption that they had simply wanted a larger house.",
+        "zh": "對我，展覽變成與過去對話：我問家人為何搬遷、讀他們信件，再重看原先以為只是想更大房子的假設。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "現在的問題與舊信連起，令最初假設被重看。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "參觀者只背展板文字，沒有提出問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "參觀者把最初猜想當已查證結論，不看信件。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "參觀者只把自己目前家庭需要當舊搬遷原因，沒有重讀信件。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "asked、read、reconsidered 指以舊信重看原假設，不是只背文字、只信原猜，或把目前家庭需要投射為舊原因。"
+      },
+      "reply": {
+        "promptEn": "What made the exhibition feel like active engagement?",
+        "promptZh": "甚麼令展覽像主動交流？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It became a conversation with the past as my question led me to the letters and changed my first view.",
+            "zh": "我的問題引向信件、改原看法，展覽變成與過去對話。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I used the family’s words to test why I thought they had moved.",
+            "zh": "我用家人原話檢驗自己對搬遷原因的想法。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Reading the evidence gave me a reason to rethink rather than just repeat the label.",
+            "zh": "讀證據給我重想的理由，不只重複標籤。"
+          },
+          {
+            "id": "reply-4",
+            "en": "My own question and the surviving account began to inform one another.",
+            "zh": "我的問題與留下的敘述開始互相補充。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生看舊工場照片先問誰不在畫面，再查輪班簿，發現沒入鏡者當時在另一房工作，於是改人物介紹。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The investigation becomes a conversation with the past through questions and surviving records.",
+            "zh": "探究透過問題及留下記錄，成為與過去對話。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The photograph is treated as the whole story, with no need to consult the rota.",
+            "zh": "照片被當全部故事，不需查更表。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The student leaves the original account unchanged after learning who was working elsewhere.",
+            "zh": "知道誰在別處工作後，學生仍讓原敘述不變。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "問題引查記錄再修改，是主動交流，不是一圖定全部或忽略所得。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a conversation with the past 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "現在的問題可促使重讀舊資料。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "自己想像的回答可直接算歷史人物的原話。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "資料可能改變第一個假設或引出新問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "比喻不取消原話與想像的區別。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「過去的人不能親自回話，讀信就不算有交流價值吧？」你正用舊信重看搬遷假設。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A conversation with the past can happen through questions and surviving records, even when some questions remain unanswered.",
+            "zh": "透過問題及留下記錄，即使有些仍未答，也可與過去對話。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Ask only people living now and leave the older letters unread, even though they concern the move.",
+            "zh": "只問現在活着的人，不讀與搬遷相關舊信。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the first guess about the larger house without testing it against the family’s account.",
+            "zh": "不與家人敘述核對，直接保留想更大房子的原猜。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "資料可令現在問題更好或改原猜，不需假裝舊人親答，也不必放棄相關信件。"
+      },
+      "speaking": {
+        "en": "Reading the diaries felt like a conversation with the past because each answer led me to a better question.",
+        "zh": "讀日記像與過去對話，因每個答案都引我到更好的問題。",
+        "targetSpan": {
+          "start": 30,
+          "end": 58
+        },
+        "promptZh": "先聽示範，再說問題與資料怎互相推進。"
+      },
+      "writing": {
+        "promptZh": "新情境：你讀舊劇院節目單後，想問策展者為何有兩個不同入口，但現有展板未解；你想建議保留這條開放問題及可查的資料，不急着替當年觀眾編答案。用一至兩句英文寫展覽回饋。",
+        "examples": [
+          {
+            "en": "Could the display invite a conversation with the past by asking why the theatre had two entrances? We could name the records still worth checking rather than offer an answer the surviving programme does not establish.",
+            "zh": "展示可否問劇院為何有兩入口，邀與過去對話？可列仍值得查的記錄，不給節目單未確立的答案。"
+          },
+          {
+            "en": "A conversation with the past can include a question we cannot yet answer. I would keep the entrance question on the label and show visitors what evidence we would need to explore it.",
+            "zh": "與過去對話可包含暫不能答的問題。我會在標籤留入口問題，讓訪客看需哪些證據才能探索。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the theatre",
+            "zh": "那間劇院",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 79
+            }
+          },
+          {
+            "en": "two entrances",
+            "zh": "兩個入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 97
+            }
+          },
+          {
+            "en": "the surviving programme",
+            "zh": "留下的節目單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 174,
+              "end": 197
+            }
+          },
+          {
+            "en": "the entrance question",
+            "zh": "入口的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 87,
+              "end": 108
+            }
+          },
+          {
+            "en": "what evidence we would need",
+            "zh": "我們會需要哪些證據",
+            "exampleIndex": 1,
+            "span": {
+              "start": 140,
+              "end": 167
+            }
+          }
+        ],
+        "selfCheckZh": "以展覽回饋保留有根據的未答問題及研究方向，不急編答案，也不因未知就停與資料交流。"
+      },
+      "takeaways": [
+        {
+          "en": "The old recipe notes opened a conversation with the past about who did the work behind each family meal.",
+          "zh": "舊食譜筆記開啟與過去的對話，問每頓家飯背後誰做工作。"
+        },
+        {
+          "en": "Her questions turned the town walk into a conversation with the past, linking the street signs with older residents’ accounts.",
+          "zh": "她的問題把城鎮散步變成與過去對話，把街牌與年長居民敘述連起。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1760",
+      "number": 1760,
+      "inventoryId": "expr-1760",
+      "contentRevision": 1,
+      "titleEn": "a dusty shelf of dead facts",
+      "titleZh": "蒙塵架上無生命的零碎史料",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba dusty shelf of (?:dead facts|dates)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "It should not be a dusty shelf of dead facts.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a dusty shelf of dead facts",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "pdf-2-p216-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 216,
+          "book": 8,
+          "question": 13,
+          "sample": "S1",
+          "locatorNote": "Actual guide example and question context inspected; no locator inferred.",
+          "sentence": "History is more than a dusty shelf of dates.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a dusty shelf of dates",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A disengaging presentation of historical information stored without meaningful human or causal connections.",
+        "meaningZh": "歷史資料像被擱置、缺少人的經歷或因果連接，呈現得沒生命。",
+        "grammar": "history should not be a dusty shelf of dead facts; shelf/dead form a critical metaphor for passive disconnected knowledge. A dusty shelf of dates uses the same stored-but-lifeless image with dates as the information; the criticism concerns disconnected presentation, not the value of a checked year.",
+        "register": "neutral",
+        "boundaryZh": "比喻不評實際書架乾淨與否，也不否定舊檔案價值；需交代怎把事實用來理解問題。",
+        "misconceptionZh": "比喻不評實際書架乾淨與否，也不否定舊檔案價值；需交代怎把事實用來理解問題。",
+        "outcomeZh": "理解「蒙塵架上無生命的零碎史料」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Creative extended shelf/dead-facts metaphor, emphasising information stored but not used to build understanding. It does not make old records intrinsically worthless."
+      },
+      "listening": {
+        "en": "The local history room need not be a dusty shelf of dead facts, the tutor said; its records could help us ask why the public garden moved and whose walking routes were affected.",
+        "zh": "導師說，地方歷史室不必只像蒙塵架上無生命的零碎史料；記錄可幫我們問公園為何搬、誰的步行路線受影響。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可用記錄問原因及人的影響，讓資料不只被擱置。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "導師只叫學生抄完整目錄，沒問記錄可解甚麼問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "導師只叫學生按目前路線推算，不需再查舊資料。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "導師已給完整搬遷原因，無需學生再查記錄。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "could help us ask 指用舊記錄探原因及人的影響，不只是抄目錄、按目前路線猜或已有全答案。"
+      },
+      "reply": {
+        "promptEn": "What did the tutor want students to do with the records?",
+        "promptZh": "導師想學生怎用記錄？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Use them for questions about change, rather than leave them as a dusty shelf of dead facts.",
+            "zh": "用來問改變，而非讓它們只像蒙塵架上的死板資料。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Connect the garden’s move with the routes people actually used.",
+            "zh": "把公園搬遷與人們實際路線連起。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Look for reasons and effects instead of only copying the catalogue.",
+            "zh": "找原因及影響，不只抄目錄。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Bring the old information into a present investigation.",
+            "zh": "把舊資料帶進現在的探究。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生已用百年前節慶記錄比較下雨時怎調節目，據此解釋今年展覽的歷史問題；有人只因記錄很舊便稱它們 a dusty shelf of dead facts。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are not merely a dusty shelf of dead facts when students are using them to explain the changes.",
+            "zh": "學生正用它們解釋改變時，它們不只是蒙塵架上的死板資料。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The records’ age establishes that the students cannot use them to investigate a question.",
+            "zh": "記錄年代久已確立學生不能用來探究問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The students have only copied the catalogue and have not connected any records with a question.",
+            "zh": "學生只抄目錄，沒有把任何記錄與問題連起。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已有具體比較及解釋用途，不能單按舊就判無生命，也不是資料仍只停在目錄。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a dusty shelf of dead facts 的比喻得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "批評資料沒有被用來建立理解。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "存得較久的記錄就必沒有研究價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以用新的問題重看舊資料。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "欠活用不等於舊資料本身沒價值。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「只把檔案號重新排好，就已避免歷史像一堆死板資料吧？」你們想理解公園搬遷。哪句回應較有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To avoid a dusty shelf of dead facts, we need to use the records to investigate the move, not only renumber them.",
+            "zh": "避免只像蒙塵架上死板資料，需用記錄查搬遷，不只重編號。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Replace the archive list with a new list but keep it detached from the garden question.",
+            "zh": "用新清單代舊清單，仍不連公園問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Copy every entry in date order without relating any entry to the garden question.",
+            "zh": "把每項按日期抄好，卻不連任何一項與公園問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "整序可有用，但需資料與探究問題連接；換清單或抄順序本身不提供解釋。"
+      },
+      "speaking": {
+        "en": "The archive was no longer a dusty shelf of dead facts once we used the records to trace a change in ordinary working lives.",
+        "zh": "我們用記錄追平常工作生活的改變後，檔案不再像蒙塵架上的死板資料。",
+        "targetSpan": {
+          "start": 26,
+          "end": 53
+        },
+        "promptZh": "先聽示範，再說舊資料被用來理解甚麼。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們剛完成校史研究，擔心報告交功課後就只被收藏，日後同學找不到可用來源。你想提議把研究問題、資料位置及尚未解決處做成短索引，邀下一組接續，不只把報告多印一本。用一至兩句英文提出保存與分享做法。",
+        "examples": [
+          {
+            "en": "Our research need not become a dusty shelf of dead facts after we hand it in. Could we make a short index of the questions, source locations and open gaps so the next group can use it?",
+            "zh": "研究交後不必只像蒙塵架上死板資料。可否做問題、來源位置及未解處的短索引，讓下一組可用？"
+          },
+          {
+            "en": "I would like to keep the school history from becoming a dusty shelf of dead facts by leaving a guide for future students. It could show which records answer each question and where another investigation might begin.",
+            "zh": "我想留指南給日後學生，避免校史只像蒙塵架上死板資料。可展示各問題由哪些記錄回答、另一次探究可從哪開始。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our research",
+            "zh": "我們的研究",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "a short index",
+            "zh": "短索引",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 105
+            }
+          },
+          {
+            "en": "source locations",
+            "zh": "來源位置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 140
+            }
+          },
+          {
+            "en": "the next group",
+            "zh": "下一組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 172
+            }
+          },
+          {
+            "en": "future students",
+            "zh": "日後學生",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 120
+            }
+          }
+        ],
+        "selfCheckZh": "提出讓後來學生實際接續研究的可用索引，保留來源及未解問題，不只加印或整理外觀當活用。"
+      },
+      "takeaways": [
+        {
+          "en": "The museum avoided becoming a dusty shelf of dead facts by asking visitors to trace who could enter the old school.",
+          "zh": "博物館邀訪客追誰可進舊學校，避免只像蒙塵架上的死板資料。"
+        },
+        {
+          "en": "A cupboard of records became more than a dusty shelf of dead facts when the class used it to explain the lost bus route.",
+          "zh": "班級用記錄解釋失去的巴士線後，一櫃資料不再只像蒙塵架上的死板事實。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      },
+      "aliasInventoryIds": [
+        "expr-1785"
+      ]
+    },
+    {
+      "id": "advanced-native-1762",
+      "number": 1762,
+      "inventoryId": "expr-1762",
+      "contentRevision": 1,
+      "titleEn": "power goes unchecked",
+      "titleZh": "權力缺乏監察與制衡",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bpower (?:goes|went|is going|has gone|had gone) unchecked\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Problems grow when power goes unchecked.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "power goes unchecked",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Authority is exercised without effective oversight, challenge or limits.",
+        "meaningZh": "權力在缺少有效監察、質疑或限制下被行使。",
+        "grammar": "power goes/went/has gone unchecked; unchecked is not examined or restrained, not simply unused or unrecorded",
+        "register": "neutral",
+        "boundaryZh": "不表示有領導者就必有濫用，也不等於任何不同意都能否決；需交代誰可查、質疑及限制決定。",
+        "misconceptionZh": "不表示有領導者就必有濫用，也不等於任何不同意都能否決；需交代誰可查、質疑及限制決定。",
+        "outcomeZh": "理解「權力缺乏監察與制衡」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "In the story, the chair alone changed the entry rules and judged complaints about his own decisions; power went unchecked because the members had no independent way to question or review either choice.",
+        "zh": "故事中，主席獨自改入場規則，也評自己決定的投訴；成員沒獨立方法質疑或覆核，權力缺乏制衡。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "同一人作決定及評投訴，沒有獨立覆核。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "成員已能交獨立小組審查主席的決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "主席只是按大家已通過的規則記錄出席。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "主席沒作任何決定，權力完全未被使用。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "alone 及 judged own decisions 配 no independent review 指無制衡，不是沒用權或已有覆核。"
+      },
+      "reply": {
+        "promptEn": "Why was the chair’s authority described as a problem?",
+        "promptZh": "主席權力為甚麼被描述為問題？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Power went unchecked because he judged complaints about the rules he alone had changed.",
+            "zh": "他評自己獨改規則的投訴，權力缺乏制衡。"
+          },
+          {
+            "id": "reply-2",
+            "en": "There was no independent route for members to question the decisions.",
+            "zh": "成員沒有獨立途徑質疑決定。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The same person controlled both the rule change and its review.",
+            "zh": "同一人控制改規則及覆核。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The members could not ask another body to examine what he had done.",
+            "zh": "成員無法請另一機構審查他所做。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小說中委員會作了不受歡迎的決定，但獨立小組實際聽取申訴、推翻其中一項並公布理由；有人仍不喜歡餘下結果。哪句判斷較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An unpopular result does not show that power goes unchecked when independent review has actually changed part of the decision.",
+            "zh": "獨立覆核已實際改部分決定時，結果不受歡迎不表示權力缺乏制衡。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The remaining dissatisfaction is enough to describe the authority as lacking independent review.",
+            "zh": "仍有不滿，已足以把權力描述為沒有獨立覆核。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The original committee retained sole control of the appeal and left every part of its decision unchanged.",
+            "zh": "原委員會仍獨控申訴，決定每部分都原封不動。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "覆核由獨立小組實際改動，顯示有制衡；不受歡迎不能抹去審查，也不是原委員會獨控不變。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以支持 power goes unchecked？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "負責人自己定規則，也可拒絕讓別人覆核。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "決定有理由記錄，另有可實際質疑及覆核的獨立途徑。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "受影響的人沒有可用方式審查掌權者決定。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "有實際獨立審查並非無制衡，不能只因存在負責人就說 unchecked。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「小組有主席，就一定是 power goes unchecked 吧？」你想查實際制度。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We need to ask who can review the decisions before saying power goes unchecked; a title alone does not answer that.",
+            "zh": "說權力缺乏制衡前，要問誰可覆核決定；單看頭銜不能回答。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Judge oversight only from the chair’s title, without looking at the appeal process.",
+            "zh": "只按主席頭銜評監察，不看申訴過程。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Count how often the chair speaks instead of asking whether decisions can be challenged.",
+            "zh": "只數主席說話次數，不問決定能否被質疑。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "看實際問責及覆核，不以頭銜或發言量代制度。"
+      },
+      "speaking": {
+        "en": "In the novel, power goes unchecked when the ruler can silence the complaints and decide whether his own actions deserve review.",
+        "zh": "小說裏，統治者可壓投訴、決定自己行動需否覆核時，權力缺乏制衡。",
+        "targetSpan": {
+          "start": 14,
+          "end": 34
+        },
+        "promptZh": "先聽示範，再找實際覆核或限制是否存在。"
+      },
+      "writing": {
+        "promptZh": "新情境：你想邀讀書會比較兩位小說領袖：一位必須向議會解釋決定，另一位能親自壓下所有申訴。你想以這差別討論權力怎影響人物，不只按誰說話較大聲分好壞。用一至兩句英文提出閱讀問題。",
+        "examples": [
+          {
+            "en": "Could we compare what happens when power goes unchecked with what happens when the council can question a leader? I would like to trace how that difference shapes the characters’ choices, rather than judge them only by their speeches.",
+            "zh": "可否比較權力缺乏制衡與議會可質疑領袖時會怎樣？我想追那差異怎塑造人物選擇，不只按演說評他們。"
+          },
+          {
+            "en": "In one story, power goes unchecked because the leader can dismiss complaints about his own actions. Let us compare that arrangement with the other novel’s council and ask what each character is allowed to challenge.",
+            "zh": "一個故事中，領袖可壓對自己行動的申訴，權力缺乏制衡。我們比另一小說的議會，問各人物獲准質疑甚麼吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the council",
+            "zh": "議會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 90
+            }
+          },
+          {
+            "en": "question a leader",
+            "zh": "質疑領袖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 112
+            }
+          },
+          {
+            "en": "the characters’ choices",
+            "zh": "人物的選擇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 186
+            }
+          },
+          {
+            "en": "dismiss complaints",
+            "zh": "壓下申訴",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 76
+            }
+          },
+          {
+            "en": "the other novel",
+            "zh": "另一部小說",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 152
+            }
+          }
+        ],
+        "selfCheckZh": "提出跨小說比較的具體閱讀目標，看覆核能否實際運作及怎影響選擇，不只按頭銜或聲量判。"
+      },
+      "takeaways": [
+        {
+          "en": "Power went unchecked in the fictional town because the official could block every request to examine his own decision.",
+          "zh": "虛構城鎮中，官員可擋每項審自己決定的請求，權力缺乏制衡。"
+        },
+        {
+          "en": "The new appeals panel mattered in the story because power had gone unchecked under the former organiser.",
+          "zh": "故事中新申訴小組重要，因前主辦者任內權力曾缺乏制衡。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1763",
+      "number": 1763,
+      "inventoryId": "expr-1763",
+      "contentRevision": 1,
+      "titleEn": "a rear-view mirror",
+      "titleZh": "用後望鏡理解過去，再向前選擇",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba rear-view mirror\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "History can be a rear-view mirror for policy.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a rear-view mirror",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A way to learn from earlier events while making choices about what comes next.",
+        "meaningZh": "在向前作選擇時，用來了解過去經驗的方法。",
+        "grammar": "history/the earlier report is a rear-view mirror for a new decision; explicit vehicle metaphor, not a complete plan for the future",
+        "register": "neutral",
+        "boundaryZh": "回看可揭盲點，不代表照抄舊方案或保證結果；需同時看當前哪些條件已改。",
+        "misconceptionZh": "回看可揭盲點，不代表照抄舊方案或保證結果；需同時看當前哪些條件已改。",
+        "outcomeZh": "理解「用後望鏡理解過去，再向前選擇」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The previous event report was a rear-view mirror for our new plan: it reminded us that the late finish had excluded bus passengers, while this year’s timetable still needed a fresh check.",
+        "zh": "上次活動報告是新計劃的後望鏡：它提醒我們太晚結束曾令搭巴士的人不能參與，而今年時間表仍需重新查。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "舊報告提醒以前的問題，今次仍需核新條件。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "舊報告已確定今年每班車仍與以前相同。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "大家只按今年活動名稱選時間，沒有看先前經驗。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "報告提供今次活動已完成的結果，而非舊經驗。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "reminded previous exclusion 與 fresh check 分清回看教訓及重查現在，不是照抄時刻。"
+      },
+      "reply": {
+        "promptEn": "How did the earlier report help the new plan?",
+        "promptZh": "舊報告怎幫新計劃？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It was a rear-view mirror that reminded us why the finish time had mattered.",
+            "zh": "它是後望鏡，提醒我們結束時間以前為何重要。"
+          },
+          {
+            "id": "reply-2",
+            "en": "It brought an earlier access problem back into the discussion.",
+            "zh": "它把早前參與機會問題帶回討論。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We used the previous experience to decide what to check this year.",
+            "zh": "我們用早前經驗決定今年要查甚麼。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It warned us not to overlook bus passengers again, without supplying the new timetable itself.",
+            "zh": "它提醒別再漏搭巴士的人，卻沒直接給新時間表。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社團準備新作品徵集，先讀上次新人看不懂規格的回饋，再讓今次新讀者試讀；不是原封重印舊稿。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The old feedback is a rear-view mirror for improving the new invitation.",
+            "zh": "舊回饋是改善新邀請的後望鏡。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The old invitation is being reused unchanged because no new reader test is needed.",
+            "zh": "因不需新讀者測試，舊邀請原封重用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The feedback tells the group only what will happen next year, without referring to an earlier experience.",
+            "zh": "回饋只說明年會怎樣，沒指早前經驗。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先前回饋引今次測試，是回看再改，不是照抄或確定未來。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a rear-view mirror 的歷史比喻得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "過去經驗可幫發現今天需注意的問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只看過去，就不需檢查目前條件有否改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "回看與向前作新選擇可同時進行。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "後望鏡不是全部前路資訊。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有上次報告，就把時間照抄，不用查巴士吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The report is a rear-view mirror, not this year’s timetable; it tells us why a fresh check matters.",
+            "zh": "報告是後望鏡，不是今年時間表；它告訴我們重新核對為何重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the old finish time simply because it appears in the earlier report.",
+            "zh": "只因舊報告寫過，就保留舊結束時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the earlier access problem from planning because only new information can be relevant.",
+            "zh": "只有新資料才相關，所以規劃時不提先前參與問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "舊問題幫定需查何事，不是照抄舊時間，也不需排除過去。"
+      },
+      "speaking": {
+        "en": "The old meeting notes served as a rear-view mirror when we planned the next discussion, showing which voices we had missed before.",
+        "zh": "規劃下次討論時，舊會議筆記像後望鏡，顯示以前漏了哪些聲音。",
+        "targetSpan": {
+          "start": 32,
+          "end": 50
+        },
+        "promptZh": "先聽示範，再說回看提醒甚麼、現在仍需查甚麼。"
+      },
+      "writing": {
+        "promptZh": "新情境：你替新讀者設計小刊封面，翻舊草圖才記得上一版太多內部笑話令新人不懂。你想把草圖作後望鏡，先試一個不需背景知識的畫面，不照抄最熟讀者喜歡的舊版。用一至兩句英文寫設計日記。",
+        "examples": [
+          {
+            "en": "My old sketchbook is a rear-view mirror: it reminds me how the inside jokes left new readers out. I will try one image that needs no background story before testing the cover again.",
+            "zh": "舊草圖簿是後望鏡，提醒內部笑話怎把新讀者排除。我會先試一個不需背景故事的畫面，再試封面。"
+          },
+          {
+            "en": "I want to use the earlier cover as a rear-view mirror, not a pattern to copy for a different audience. The new trial should show whether a first-time reader can understand the image without our explanation.",
+            "zh": "我想用舊封面作後望鏡，不是給不同讀者照抄的樣式。新試讀應看初讀者不用我們解釋能否懂畫面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "My old sketchbook",
+            "zh": "我的舊草圖簿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "the inside jokes",
+            "zh": "內部笑話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 75
+            }
+          },
+          {
+            "en": "new readers",
+            "zh": "新讀者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 92
+            }
+          },
+          {
+            "en": "a different audience",
+            "zh": "不同的讀者群",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 101
+            }
+          },
+          {
+            "en": "our explanation",
+            "zh": "我們的解釋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 190,
+              "end": 205
+            }
+          }
+        ],
+        "selfCheckZh": "以舊設計揭示排除新讀者的盲點，提出新畫面測試，不把回看當照抄舊受眾版本。"
+      },
+      "takeaways": [
+        {
+          "en": "The cancelled exhibition became a rear-view mirror for the next team, reminding them to confirm the room before printing invitations.",
+          "zh": "取消的展覽成為下一隊的後望鏡，提醒印邀請前先確認地方。"
+        },
+        {
+          "en": "She used the old consultation as a rear-view mirror when deciding which questions the new survey had failed to ask.",
+          "zh": "她用舊諮詢作後望鏡，判斷新問卷漏問哪些問題。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1764",
+      "number": 1764,
+      "inventoryId": "expr-1764",
+      "contentRevision": 1,
+      "titleEn": "hit harder",
+      "titleZh": "帶來更強的情緒衝擊",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bhit(?:s|ting)? harder\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A real example can hit harder than a warning.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hit harder",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Have a stronger emotional impact than something else or than before.",
+        "meaningZh": "比另一事物或以前帶來更強情緒衝擊。",
+        "grammar": "a real account hits harder than a general warning; hit past has the same spelling; figurative emotional impact, not a physical blow",
+        "register": "neutral",
+        "boundaryZh": "衝擊較強不保證資料較準確、每人同感或直接帶行動；需交代比較對象及感受。",
+        "misconceptionZh": "衝擊較強不保證資料較準確、每人同感或直接帶行動；需交代比較對象及感受。",
+        "outcomeZh": "理解「帶來更強的情緒衝擊」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The short letter hit harder than the list of losses because it described one child waiting for a parent to come home; I could understand the figures more personally after reading it.",
+        "zh": "短信比損失清單更觸動我，因它描述一個孩子等家長回家；讀後我較能從人的角度理解數字。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "具體孩子經歷令清單背後的損失較有情緒份量。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "信件只重列相同數字，沒有人的經歷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "信件情緒強就已證每項數字都必正確。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者主要在比較哪一版列最多數據，沒有提人的感受。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "child waiting 及 personally 說情緒更深，不以感受代查數字。"
+      },
+      "reply": {
+        "promptEn": "Why did the letter affect you more than the list?",
+        "promptZh": "信件為甚麼比清單更觸動你？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It hit harder because the child’s waiting gave the losses a personal meaning.",
+            "zh": "孩子等候讓損失有人的意義，所以信更觸動我。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I could imagine one person’s experience behind the figures.",
+            "zh": "我能想像數字背後一個人的經歷。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The account connected the information with a familiar human hope.",
+            "zh": "敘述把資料與熟悉的人的盼望連起。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It made the losses feel like something lived, not only counted.",
+            "zh": "它令損失像有人經歷，不只被計數。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物先聽泛泛的失物提醒，後讀一封朋友說失去祖母字條有多難過的信，後者令他停下想很久。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The personal account hit harder than the general reminder.",
+            "zh": "個人敘述比一般提醒帶來更強情緒衝擊。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The reminder was more emotionally powerful, and the letter left him unmoved.",
+            "zh": "提醒情緒力更強，信沒令他感動。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The letter establishes the exact value of every lost object, rather than showing this person’s feeling.",
+            "zh": "信確立每件失物確切價值，而不是展示此人感受。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "後者令停下想支持較觸動，不是先者較深或由感受定所有價值。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 hit harder 的情緒意思得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某個敘述比另一種說法更觸動當事人。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "較感人就必比別的資料更準確。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍需分開評情緒影響與事實依據。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "情緒力度與準確性不同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「那信最感人，就不必核數據來源吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It may hit harder emotionally, but we still need to check what the figures actually support.",
+            "zh": "它情緒上可能更觸動，但仍需核數字實際支持甚麼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose the most moving version as the complete factual account without comparing the records.",
+            "zh": "不比記錄，直接選最感人版本當完整事實。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the personal account merely because it makes readers feel something.",
+            "zh": "只因個人敘述令讀者有感受就刪去。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留有來源人情也查事實，不用情緒取代查證或反向排除。"
+      },
+      "speaking": {
+        "en": "The remembered conversation hit harder than the formal announcement because I could hear what the change meant to one person.",
+        "zh": "記得的對話比正式公告更觸動我，因我能感受到改變對一個人的意義。",
+        "targetSpan": {
+          "start": 28,
+          "end": 38
+        },
+        "promptZh": "先聽示範，再說哪個比較令情緒較深。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為離任導師寫謝卡，想不用獎項清單，而是提他曾在你第一次朗讀卡住時耐心等的短片段。你想向同伴解釋這細節為何對你更有份量，也承認別人可能選不同回憶。用一至兩句英文說明選材。",
+        "examples": [
+          {
+            "en": "That quiet moment hits harder for me than a list of awards because it reminds me how he waited during my first reading. I would put it in the card, while leaving space for everyone else’s memories too.",
+            "zh": "那安靜時刻比獎項清單更觸動我，因它提醒我首次朗讀時他怎等待。我會放謝卡，也留空間給別人的回憶。"
+          },
+          {
+            "en": "The memory of his patience would hit harder for me than another formal title. Could we use that short scene to explain my thanks without assuming it is the moment everyone else would choose?",
+            "zh": "他耐心的回憶對我會比另一正式頭銜更有份量。可否用短片段解釋我的謝意，不假定人人都會選它？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a list of awards",
+            "zh": "獎項清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 42,
+              "end": 58
+            }
+          },
+          {
+            "en": "my first reading",
+            "zh": "我首次朗讀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 118
+            }
+          },
+          {
+            "en": "in the card",
+            "zh": "在謝卡中",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 146
+            }
+          },
+          {
+            "en": "everyone else’s memories",
+            "zh": "其他人的回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 172,
+              "end": 196
+            }
+          },
+          {
+            "en": "another formal title",
+            "zh": "另一正式頭銜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 76
+            }
+          }
+        ],
+        "selfCheckZh": "用個人具體回憶解釋謝卡選材的情緒份量，清楚是自己的比較，不把影響較深當人人同選或事實更真。"
+      },
+      "takeaways": [
+        {
+          "en": "Her account of the empty chair hit harder than the attendance total because it showed whose voice the group missed.",
+          "zh": "她寫空椅的敘述比出席總數更觸動人，因它展示小組少了誰的聲音。"
+        },
+        {
+          "en": "The familiar street name hit harder in the farewell letter than it had in the ordinary address list.",
+          "zh": "同一熟悉街名在告別信裏，比在普通地址清單中更觸動我。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1765",
+      "number": 1765,
+      "inventoryId": "expr-1765",
+      "contentRevision": 1,
+      "titleEn": "through the lens of yesterday",
+      "titleZh": "透過過去的經驗看今天",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthrough the lens of yesterday\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "We view current choices through the lens of yesterday.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "through the lens of yesterday",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Interpret present choices by considering earlier experiences and historical conditions.",
+        "meaningZh": "考慮早前經驗與歷史情況，理解目前選擇。",
+        "grammar": "view/read present choices through the lens of yesterday; yesterday metaphorically names the past, not only the previous calendar day",
+        "register": "neutral",
+        "boundaryZh": "過去是理解角度，不是唯一原因或當前事情必重演；需說哪段過去及目前何事相連。",
+        "misconceptionZh": "過去是理解角度，不是唯一原因或當前事情必重演；需說哪段過去及目前何事相連。",
+        "outcomeZh": "理解「透過過去的經驗看今天」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The essay reads the town’s caution about closing the hall through the lens of yesterday: an earlier closure had left several groups without a meeting place, so residents now asked what would replace it.",
+        "zh": "文章透過過去經驗看城鎮對關會堂的謹慎：以前關閉曾令幾小組失聚會地方，所以居民現在問會用甚麼代替。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "較早失去地方的經歷，幫解釋現在問替代安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "居民已接受新替代地方，只在重述安排，沒有問新問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "早前關閉的結果，已保證今次結局完全一樣。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "文章把目前問題視為沒過去背景的全新反應。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "earlier closure→now asked 交代歷史角度，yesterday 非只前一天，也不定新結果。"
+      },
+      "reply": {
+        "promptEn": "Why were residents asking about a replacement place?",
+        "promptZh": "居民為甚麼問替代地方？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Through the lens of yesterday, their caution reflects an earlier loss of meeting space.",
+            "zh": "透過過去經驗看，他們的謹慎反映早前失聚會地方。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They remembered what the previous closure had meant for local groups.",
+            "zh": "他們記得上次關閉對本地小組的意義。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The older experience made the practical question about replacement important now.",
+            "zh": "舊經驗令替代安排的實際問題在現在重要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Their response had a history, rather than coming only from this announcement’s wording.",
+            "zh": "他們回應有歷史，不只來自今次公告措辭。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物家人以前搬屋時失去可聚餐空間，現選新家時先問大家能否同桌；作者把今天偏好與舊經驗連起。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Through the lens of yesterday, the preference reflects the family’s earlier experience of losing a place to eat together.",
+            "zh": "透過過去看，那偏好反映家人以前失去一起吃飯地方的經歷。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The preference is explained only by the newest furniture design, with no earlier connection.",
+            "zh": "偏好只由最新家具設計解釋，沒早前連接。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The earlier move tells us exactly which new house the family must choose.",
+            "zh": "早前搬遷告訴我們家人必須選哪一新家。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "歷史幫理解偏好，不是沒連接或已定唯一選擇。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 through the lens of yesterday 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "用較早經驗理解當前反應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "過去已足以決定今次所有選擇，不需看新條件。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需指出過去與今天的具體關係。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "理解角度不是全部決定因素。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「既然上次關會堂不好，今次一定完全一樣，不需看替代吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can read the concern through the lens of yesterday while still checking what is different about the new proposal.",
+            "zh": "我們可透過過去看關注，也核新提案有何不同。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the old result as the new conclusion before reading the replacement plan.",
+            "zh": "未讀替代安排，就把舊結果當新結論。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Ignore the earlier groups’ experience because it happened before the current announcement.",
+            "zh": "早前經驗在目前公告前發生，所以不理。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "過去提示重要問題，現在替代仍需查；不照推也不全刪舊經驗。"
+      },
+      "speaking": {
+        "en": "Looking at the decision through the lens of yesterday helped me understand the concern, without settling what we should choose today.",
+        "zh": "透過過去經驗看決定，幫我理解關注，卻未定今天應選甚麼。",
+        "targetSpan": {
+          "start": 24,
+          "end": 53
+        },
+        "promptZh": "先聽示範，再說歷史是理解角度而非全部答案。"
+      },
+      "writing": {
+        "promptZh": "新情境：你錄家庭播客，弟弟嫌每次遠行前都要一起整理聯絡卡很麻煩；長輩提以前曾因地址錯過重逢。你想邀他先聽那段經驗，理解現在習慣，再討論今天可否用較簡單方法，不只照搬舊卡。用一至兩句英文提出下一集主題。",
+        "examples": [
+          {
+            "en": "Could we look at the contact-card habit through the lens of yesterday and hear why the missed reunion mattered? Then we could discuss a simpler way to keep in touch today, rather than copy the old method without asking.",
+            "zh": "可否透過過去看聯絡卡習慣，聽為何錯過重逢重要？之後可談今天較簡單聯絡方法，而非沒問就照舊。"
+          },
+          {
+            "en": "I would read the family’s habit through the lens of yesterday before calling it pointless. The next episode could connect that old experience with a discussion of what still helps us stay in touch now.",
+            "zh": "說家族習慣沒用前，我會透過過去經驗看。下集可把舊經歷與今天甚麼仍幫保持聯絡的討論連起。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the contact-card habit",
+            "zh": "聯絡卡習慣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 17,
+              "end": 39
+            }
+          },
+          {
+            "en": "the missed reunion",
+            "zh": "錯過的重逢",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 101
+            }
+          },
+          {
+            "en": "keep in touch today",
+            "zh": "今天保持聯絡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 170
+            }
+          },
+          {
+            "en": "The next episode",
+            "zh": "下一集",
+            "exampleIndex": 1,
+            "span": {
+              "start": 91,
+              "end": 107
+            }
+          },
+          {
+            "en": "that old experience",
+            "zh": "那段舊經驗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 122,
+              "end": 141
+            }
+          }
+        ],
+        "selfCheckZh": "邀播客先理解習慣來由再談今天方法，既不未聽就判沒用，也不把理解歷史當必須照搬。"
+      },
+      "takeaways": [
+        {
+          "en": "Through the lens of yesterday, her record of each translator’s contribution reflected the old booklet that had left her name out.",
+          "zh": "透過過去經驗看，她記每位譯者貢獻的做法，反映舊小刊漏她名字的經歷。"
+        },
+        {
+          "en": "We read the school’s present welcome through the lens of yesterday, comparing it with the older rules about who could join.",
+          "zh": "我們透過過去看學校現在的歡迎方式，與舊參與規則比較。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1766",
+      "number": 1766,
+      "inventoryId": "expr-1766",
+      "contentRevision": 1,
+      "titleEn": "one chapter in a much longer story",
+      "titleZh": "更長歷史故事中的一章",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bone chapter in a much longer story\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Our era is one chapter in a much longer story.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one chapter in a much longer story",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "One period or generation within a broader continuing history.",
+        "meaningZh": "較廣而延續的歷史中，一個時期或一代人。",
+        "grammar": "our era/the present project is one chapter in a much longer story; story is continuing history, not necessarily a written novel",
+        "register": "neutral",
+        "boundaryZh": "一章不代表無足輕重，也不等於已知結局；需交代前後連繫，不把當前當全部歷史。",
+        "misconceptionZh": "一章不代表無足輕重，也不等於已知結局；需交代前後連繫，不把當前當全部歷史。",
+        "outcomeZh": "理解「更長歷史故事中的一章」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The new library was one chapter in a much longer story: earlier residents had exchanged books in kitchens, and the current volunteers hoped later groups would adapt the collection again.",
+        "zh": "新圖書室是更長故事中的一章：早年居民曾在廚房交換書，目前義工也希望後來小組再調整藏書。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "目前圖書室連較早交換及可能日後發展，不是整段歷史。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新圖書室被描述為從沒早前閱讀活動的唯一開始。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "往後小組的決定已全部確定，無可再改。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "既是一章，目前義工工作就沒任何意義。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "earlier 及 hoped later 連前後，未定未來也不否定現在價值。"
+      },
+      "reply": {
+        "promptEn": "How did the narrator place the new library in context?",
+        "promptZh": "敘事者怎把新圖書室放在脈絡中？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It was one chapter in a much longer story of people sharing books.",
+            "zh": "它是人們分享書的更長故事中的一章。"
+          },
+          {
+            "id": "reply-2",
+            "en": "There had been earlier exchanges before the room opened.",
+            "zh": "房間開門前已有早前交換。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The current volunteers were continuing something that future groups might change again.",
+            "zh": "目前義工延續某事，後來小組也可能再改。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The opening mattered without being the whole history of local reading.",
+            "zh": "開門很重要，卻不是本地閱讀的整段歷史。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社團把今年新刊放在二十年互讀稿的背景裡，也留空間給下一批人改形式；你想說現在這次的歷史位置。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "This issue is one chapter in a much longer story, with earlier work and room for what comes next.",
+            "zh": "這期是更長故事中的一章，有早前工作，也留後續空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "This issue is the complete history, so earlier shared drafts no longer belong in the account.",
+            "zh": "這期是全部歷史，早前互讀稿不再屬敘述。"
+          },
+          {
+            "id": "choice-3",
+            "en": "This issue settles the exact form every later group will use.",
+            "zh": "這期定了後來每組必用的確切形式。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "前後連接支持一章位置，不是全史或已定未來。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 one chapter in a much longer story 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "當前是更長發展中的一部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當前工作既不是全部，就沒有值得記錄的作用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以同時承認早期貢獻及目前改變。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "部分仍可有重要作用，不是全部不等於無意義。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「既然只是一章，圖書室開幕就不值得記吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "One chapter in a much longer story can still matter; we can record this opening alongside the earlier exchanges.",
+            "zh": "更長故事中的一章仍可重要；我們可記開幕，也記早前交換。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Leave the opening out because only the earliest event deserves a place.",
+            "zh": "只有最早事件值得有位置，所以不記開幕。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Replace the earlier exchanges with the opening so the history has only one clear beginning.",
+            "zh": "用開幕取代早前交換，讓歷史只有一個清楚開始。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可記每階段作用，不需只留最早或抹早期。"
+      },
+      "speaking": {
+        "en": "Our time here is one chapter in a much longer story, and I want to leave a record that the next group can question and build on.",
+        "zh": "我們在這裏的時期是更長故事中的一章，我想留記錄給下一組質疑並延續。",
+        "targetSpan": {
+          "start": 17,
+          "end": 51
+        },
+        "promptZh": "先聽示範，再把目前重要性與前後脈絡並存。"
+      },
+      "writing": {
+        "promptZh": "新情境：你把帶領多年的合唱小組交給新統籌，想寫交接信，感謝早期成員，也說自己任內不是唯一正確版本；附排練筆記供下一組參考而非強制照用。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "My time as coordinator is one chapter in a much longer story, following the people who first brought us together. I am leaving the rehearsal notes as a starting point for your choices, not instructions that must remain unchanged.",
+            "zh": "我當統籌的時期是更長故事中的一章，接續最初把大家聚起的人。我留排練筆記作你選擇的起點，不是必須原樣的指示。"
+          },
+          {
+            "en": "We have written one chapter in a much longer story, and I am grateful to the earlier singers as well as this group. Please use the notes to understand our decisions while making room for your own approach.",
+            "zh": "我們寫了更長故事中的一章，我感謝早期歌者及這組。請用筆記理解我們決定，也留你自己方法的空間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "My time as coordinator",
+            "zh": "我擔任統籌的時期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 22
+            }
+          },
+          {
+            "en": "the rehearsal notes",
+            "zh": "排練筆記",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 146
+            }
+          },
+          {
+            "en": "a starting point",
+            "zh": "一個起點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 166
+            }
+          },
+          {
+            "en": "the earlier singers",
+            "zh": "早期的歌者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          },
+          {
+            "en": "your own approach",
+            "zh": "你自己的方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 187,
+              "end": 204
+            }
+          }
+        ],
+        "selfCheckZh": "寫有感謝及自主空間的交接信，承認前後各章作用，不把自己的版本定為唯一或因只一章就抹貢獻。"
+      },
+      "takeaways": [
+        {
+          "en": "The first exhibition was one chapter in a much longer story, connecting earlier sketches with work the new class had yet to imagine.",
+          "zh": "首展是更長故事中的一章，連早前草圖與新班還未想出的作品。"
+        },
+        {
+          "en": "She described the community garden as one chapter in a much longer story of residents finding ways to share the space.",
+          "zh": "她把社區園圃描述為居民尋找共用空間方法的更長故事中的一章。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1767",
+      "number": 1767,
+      "inventoryId": "expr-1767",
+      "contentRevision": 1,
+      "titleEn": "hard won",
+      "titleZh": "經多番努力才贏得",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bhard[ -]won\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Those rights were hard won.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hard won",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Achieved or gained only after considerable effort or difficulty.",
+        "meaningZh": "經相當努力或困難才取得。",
+        "grammar": "the agreement was hard won; a hard-won agreement before a noun commonly takes a hyphen; gained result plus effort, not merely a wish",
+        "register": "neutral",
+        "boundaryZh": "難得不代表永久不能改、從無代價或只一人功勞；需有實際取得及努力過程。",
+        "misconceptionZh": "難得不代表永久不能改、從無代價或只一人功勞；需有實際取得及努力過程。",
+        "outcomeZh": "理解「經多番努力才贏得」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The weekend opening was hard won: members had gathered feedback, revised the staffing plan twice and reached an agreement after several meetings, so they wanted the work behind it recorded.",
+        "zh": "周末開放是努力才贏得：成員收回饋、兩改人手計劃，幾次會議後議成，所以想記背後工作。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "已有協議成果，之前有收回饋及反覆修改的努力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "開放只是尚未討論的願望，沒有議成。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "開放在未有人提議或修改前已一直固定實行。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "結果既難取得，就已證任何後續評估都不該有。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "reached agreement 結合 feedback/revised/meetings 指努力獲得，不是願望或不准再評。"
+      },
+      "reply": {
+        "promptEn": "Why did the members want to record the process?",
+        "promptZh": "成員為甚麼想記過程？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The opening was hard won through feedback, revisions and several meetings.",
+            "zh": "開放經回饋、修改及幾次會議才努力贏得。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They wanted the work behind the agreement to remain visible.",
+            "zh": "他們想協議背後工作仍可見。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The result had required more than a simple first request.",
+            "zh": "成果不只需最初簡單請求。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The final plan reflected repeated effort by the members.",
+            "zh": "最終計劃反映成員反覆努力。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組多次試不同排練安排，調整時間及曲目後才成功讓兩代成員同場演出，想寫合作成果來之不易。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Their shared performance was hard won after several attempts to make the arrangements work.",
+            "zh": "幾次嘗試令安排可行後，共同演出是努力才贏得。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their shared performance is still only an idea nobody has tried to arrange.",
+            "zh": "共同演出仍只是沒人試安排的想法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The first timetable worked without any attempt to adjust the arrangements.",
+            "zh": "最初時間表已可行，沒有嘗試調安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "實際演出在多次調時間曲目後取得，不是只構想或首次未調就成功。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 hard won 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "成果經相當努力或困難才取得。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一旦難得取得，之後就不需維持或檢視安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可記錄修改及共同投入，讓過程可見。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "取得不保證往後自動維持。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「開放協議好難才議成，之後不必再看人手吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was hard won, which is a reason to value the work and keep the arrangement workable, not to stop reviewing it.",
+            "zh": "它經努力才贏得，更應珍惜工作、維持可行，不是停檢視。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the effort already spent as a reason to avoid asking whether the staffing still works.",
+            "zh": "用已花努力作不再問人手是否可行的理由。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Describe the agreement as only a hope because it took several meetings to reach.",
+            "zh": "因議了幾次會，就把已成協議說成只有希望。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "承認成果及努力，也續看可行性，不固化或抹已成事。"
+      },
+      "speaking": {
+        "en": "The trust was hard won through many small promises kept over time, and she wanted to protect it by being clear about the next task.",
+        "zh": "信任經長期守住許多小承諾才贏得，她想說清下個任務來珍惜它。",
+        "targetSpan": {
+          "start": 14,
+          "end": 22
+        },
+        "promptZh": "先聽示範，再交代已取得的成果與努力。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們共寫小刊時花幾次改稿才議成清楚的作者致謝，如今同伴為版面簡潔想把整欄刪掉。你想提醒這個公平安排是努力才贏得，提議找短一點的寫法仍保留貢獻，不說原措辭永不能改。用一至兩句英文給編輯回饋。",
+        "examples": [
+          {
+            "en": "Our clear credit agreement was hard won through several revisions, so I would not remove the whole acknowledgement. Could we find a more compact layout that still names the contributions?",
+            "zh": "清楚署名協議經幾次修改才努力贏得，我不會刪整段致謝。可否找較精簡布局，仍指出貢獻？"
+          },
+          {
+            "en": "The fair acknowledgement was hard won, but that does not mean every word must stay unchanged. Let us shorten it without losing the contributions we worked to make visible.",
+            "zh": "公平致謝是努力才贏得，但不表示每個字必不變。我們縮短它，卻不失去曾努力讓人看見的貢獻吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our clear credit agreement",
+            "zh": "我們清楚的署名協議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 26
+            }
+          },
+          {
+            "en": "several revisions",
+            "zh": "幾次修改",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 65
+            }
+          },
+          {
+            "en": "the whole acknowledgement",
+            "zh": "整段致謝",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 114
+            }
+          },
+          {
+            "en": "a more compact layout",
+            "zh": "較精簡的布局",
+            "exampleIndex": 0,
+            "span": {
+              "start": 130,
+              "end": 151
+            }
+          },
+          {
+            "en": "The fair acknowledgement",
+            "zh": "公平的致謝",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          }
+        ],
+        "selfCheckZh": "指出經努力已取得的公平安排，協商保留貢獻而可改布局，不因難得就全凍結或為簡潔全部刪。"
+      },
+      "takeaways": [
+        {
+          "en": "The reading room’s late opening was hard won after residents explained their needs and helped revise the plan.",
+          "zh": "居民解釋需要、幫改計劃後，閱覽室晚間開放是努力才贏得。"
+        },
+        {
+          "en": "Her hard-won understanding of the school’s closure came from comparing two letters and asking who could still reach another classroom.",
+          "zh": "她比較兩信、問誰仍可到另一課室後，努力才得以理解學校關閉。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1761",
+      "number": 1761,
+      "inventoryId": "expr-1761",
+      "contentRevision": 1,
+      "titleEn": "give history a human pulse",
+      "titleZh": "讓歷史有人的脈動",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:give|gives|giving|gave) (?:history|the past|the account|the lesson|it) a human pulse\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p213-t1-r13",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 213,
+          "book": 8,
+          "question": 9,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Compare the methods: one gives you a pulse, while the other gives you a number.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one gives you a pulse",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make a historical account feel connected with human life and experience rather than only numerical information.",
+        "meaningZh": "讓歷史敘述連到人的生活經歷，不只剩數字資料。",
+        "grammar": "letters/accounts give history a human pulse; gave/giving; pulse is an explicit heartbeat metaphor for human liveliness, not a separate dictionary idiom",
+        "register": "neutral",
+        "boundaryZh": "人情細節可與數字並用，不表示數字無用或有感染力就正確；需交代哪些經歷帶來人的感受。",
+        "misconceptionZh": "人情細節可與數字並用，不表示數字無用或有感染力就正確；需交代哪些經歷帶來人的感受。",
+        "outcomeZh": "理解「讓歷史有人的脈動」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A creative contrast between human experience and numerical summary. The learner frame makes the historical subject explicit; the original elliptical wording remains in the source record, rather than being treated as a fixed give-you-a-pulse idiom."
+      },
+      "listening": {
+        "en": "The family’s account of waiting through the station’s final evening gave history a human pulse beside the passenger totals: I could see why the last train mattered to people planning their way home.",
+        "zh": "家人寫在車站最後一晚等候的敘述，與乘客總數並列，讓歷史有人的脈動：我能看見尾班車對安排回家的人為何重要。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "人的等候及回家需要，為乘客數字添生活感。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家人敘述只改乘客總數，沒有人的經歷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "乘客數字已描述每個家庭的等候感受，不需其他敘述。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "尾班車只是未來計劃，與那晚已發生經歷無關。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "waiting/planning home 配 totals 給人情，非改數字、總數已包每人感受或未來虛計。"
+      },
+      "reply": {
+        "promptEn": "What did the family’s account add to the passenger figures?",
+        "promptZh": "家人敘述替乘客數字增甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It gave history a human pulse by showing what the last train meant for one family.",
+            "zh": "它展示尾班車對一家意義，讓歷史有人的脈動。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We could understand the evening as something people experienced, not just a total.",
+            "zh": "我們能把那晚理解為有人經歷，不只是總數。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The figures gained a connection with the practical worry of getting home.",
+            "zh": "數字與回家的實際擔心連起。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The waiting family made the effect of the timetable easier to feel.",
+            "zh": "等候的一家讓時間表影響較能感受。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "展覽先列工場有多少學徒，再讀一位新人初日怕問問題、後來遇耐心師傅的記錄，想補人的經歷。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The apprentice’s account gives history a human pulse beside the totals.",
+            "zh": "學徒敘述在總數旁，讓歷史有人的脈動。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account only repeats the number of apprentices without describing a person’s experience.",
+            "zh": "敘述只重學徒數量，沒有人的經歷。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The individual account is being used only to calculate a new total, not to describe a learner’s day.",
+            "zh": "個人敘述只被用來計新總數，不是描述學習者的一天。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新人首日感受替總數添人的經歷，不只是重總數或用來算新數量。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 give history a human pulse 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "以人的具體經歷令歷史較可感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "有人的故事就不再需任何數據或來源。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "數字可與人的敘述互補。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "人情不替代資料依據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有人情就把乘客數字刪，信也不用核來源吧？」哪句回應較合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The letters can give history a human pulse while the figures and checked sources still help us understand the event.",
+            "zh": "信可讓歷史有人的脈動，數字及核過來源仍幫理解事件。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the moving lines without asking who wrote them or what evening they describe.",
+            "zh": "只留感人句，不問誰寫或描述哪晚。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the totals alone and leave the family’s experience out because it concerns only one household.",
+            "zh": "只留總數，因只關一家就刪家人經歷。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可核來源並保留不同尺度互補，不只感動或只總數。"
+      },
+      "speaking": {
+        "en": "The diary gives the past a human pulse through the apprentice’s ordinary hopes and uncertain first attempts.",
+        "zh": "日記透過學徒平常希望及不確定的首次嘗試，讓過去有人的脈動。",
+        "targetSpan": {
+          "start": 10,
+          "end": 38
+        },
+        "promptZh": "先聽示範，再找哪些人的經歷令過去較可感受。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為學校成立紀念錄編一頁，已有入學人數圖；想邀舊生說一件初來時被幫助的小事，為數字補人的經歷，但先請對方核准引用範圍。用一至兩句英文寫編輯邀請。",
+        "examples": [
+          {
+            "en": "Your memory of being welcomed could give history a human pulse beside the enrolment chart. Would you share one small moment and check the quotation before we print it?",
+            "zh": "你被歡迎的回憶，可在入學人數圖旁讓歷史有人的脈動。你願分享一個小時刻，印前核引文嗎？"
+          },
+          {
+            "en": "We hope your first-day account will give the past a human pulse, rather than replace the figures we already have. Could you choose one experience you are comfortable letting us quote?",
+            "zh": "我們希望你的首日敘述讓過去有人的脈動，而非取代已有數字。可否選一件你願讓我們引用的經歷？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the enrolment chart",
+            "zh": "入學人數圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 89
+            }
+          },
+          {
+            "en": "one small moment",
+            "zh": "一個小時刻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 123
+            }
+          },
+          {
+            "en": "check the quotation",
+            "zh": "核對引文",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 147
+            }
+          },
+          {
+            "en": "your first-day account",
+            "zh": "你的首日敘述",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 30
+            }
+          },
+          {
+            "en": "the figures we already have",
+            "zh": "我們已有的數字",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 112
+            }
+          }
+        ],
+        "selfCheckZh": "以編輯邀請說人情與圖表互補，請對方選事及核引文，不以感染力代來源或擅用私人回憶。"
+      },
+      "takeaways": [
+        {
+          "en": "The worker’s letter gave history a human pulse when it described sharing the first pay packet with her family.",
+          "zh": "工人信描述把首份薪金與家人分享，讓歷史有人的脈動。"
+        },
+        {
+          "en": "The recorded welcome gave the account a human pulse beside the official list of arrivals.",
+          "zh": "記錄下的歡迎在正式到達名單旁，讓敘述有人的脈動。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1768",
+      "number": 1768,
+      "inventoryId": "expr-1768",
+      "contentRevision": 1,
+      "titleEn": "hand us all the answers",
+      "titleZh": "不費心便奉上全部答案",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bhand(?:s|ed|ing)? (?:us|them|me|you|him|her) all the answers\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p214-t2-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 214,
+          "book": 8,
+          "question": 10,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "History cannot hand us all the answers.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "hand us all the answers",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Provide every needed solution ready-made, with the receiver doing no further reasoning.",
+        "meaningZh": "把所需解答全都現成提供，接收者不用再思考。",
+        "grammar": "history cannot hand us all the answers; pronoun names the receiver; often a negated reminder that learning still needs interpretation",
+        "register": "neutral",
+        "boundaryZh": "沒有全部現成答案不等於毫無幫助；需分過去可提示的問題及今天仍需自己判斷的部分。",
+        "misconceptionZh": "沒有全部現成答案不等於毫無幫助；需分過去可提示的問題及今天仍需自己判斷的部分。",
+        "outcomeZh": "理解「不費心便奉上全部答案」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The older housing debate could not hand us all the answers for the new community room, but it showed why we needed to ask who would use the space at different times before choosing a layout.",
+        "zh": "早前住屋辯論不能現成給新社區室全部答案，但它顯示選布局前，需問不同時間誰用地方。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "舊討論提示重要問題，新布局仍要按目前需要決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "舊討論已給新室每個使用者及布局的完整定案。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "因不能給全部答案，舊討論便沒有任何相關資訊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "新室布局已完成，說話者只在宣布已知結果。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "could not all 配 showed why ask 指有限但有用，非全解或全無。"
+      },
+      "reply": {
+        "promptEn": "How could the older debate still help?",
+        "promptZh": "舊辯論仍可怎幫忙？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It could not hand us all the answers, but it helped us ask who would use the room.",
+            "zh": "它不能給全部現成答案，卻幫我們問誰用房。"
+          },
+          {
+            "id": "reply-2",
+            "en": "It highlighted a question we needed to answer with present users.",
+            "zh": "它指出需與目前使用者一起答的問題。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We learned what to investigate without inheriting a finished layout.",
+            "zh": "我們學要查甚麼，卻沒直接繼承完成布局。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It gave us a useful starting point for our own decision.",
+            "zh": "它給自己決定的有用起點。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "人物讀前人旅行記，知道何種問題要問，但現有交通及自己時間不同，仍需另查；不能照抄前人行程。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The account cannot hand her all the answers, but it helps her plan what to check.",
+            "zh": "敘述不能給她全部現成答案，卻幫計劃要核甚麼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account supplies her current transport connections without any further checking.",
+            "zh": "敘述不用另核就提供她目前交通接駁。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account is being rejected as useless because its itinerary cannot be copied exactly.",
+            "zh": "因不能照抄行程，敘述被當無用而拒絕。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可提示核問而非新交通定案，也不因不可照抄就無用。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 cannot hand us all the answers 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "接收者仍需做部分理解及判斷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "來源既不全答，就不可能有任何可用線索。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "來源可提示下一步要問甚麼。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "部分解答或線索仍有用。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「舊討論沒給新室完整布局，就不值得看吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It need not hand us all the answers to help; it can show which questions the new layout must address.",
+            "zh": "它不需給全部答案才有幫；可指出新布局要回應甚麼問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Measure its value only by whether we can copy a finished plan unchanged.",
+            "zh": "只按能否原樣抄完成計劃評價值。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choose a layout before asking the people whose needs the old debate tells us to consider.",
+            "zh": "未問舊辯論提醒要考慮的人，就選布局。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "來源價值可在提示好問題，不只照抄或跳過使用者。"
+      },
+      "speaking": {
+        "en": "The mentor’s story did not hand me all the answers, but it helped me see which part of the choice I had been avoiding.",
+        "zh": "導師故事沒給我全部現成答案，但幫我看自己避談選擇的哪部分。",
+        "targetSpan": {
+          "start": 27,
+          "end": 50
+        },
+        "promptZh": "先聽示範，再分有限啟發與完全沒用。"
+      },
+      "writing": {
+        "promptZh": "新情境：你與同伴共寫故事，讀完同類小說後，他希望直接套舊結尾；你覺可借它問角色想要甚麼，但兩人的人物選擇不同。用一至兩句英文提出討論自己的結尾，不說讀別人作品無用。",
+        "examples": [
+          {
+            "en": "The novel cannot hand us all the answers for our ending, but it can help us ask what our character is choosing. Could we discuss that choice before borrowing the final scene?",
+            "zh": "小說不能給我們結尾的全部現成答案，但可幫問自己人物在選甚麼。借最後一場前，可否談那選擇？"
+          },
+          {
+            "en": "I do not expect another writer to hand us all the answers, yet I found the ending useful as a question about loyalty. Let us decide what loyalty means for our own characters instead of copying the outcome.",
+            "zh": "我不預期另一作者給全部答案，但覺結尾作忠誠問題很有用。我們決定忠誠對自己人物的意思，而非抄結果吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our ending",
+            "zh": "我們的結尾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 55
+            }
+          },
+          {
+            "en": "our character",
+            "zh": "我們的人物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 98
+            }
+          },
+          {
+            "en": "the final scene",
+            "zh": "最後一場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 158,
+              "end": 173
+            }
+          },
+          {
+            "en": "a question about loyalty",
+            "zh": "關於忠誠的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 116
+            }
+          },
+          {
+            "en": "copying the outcome",
+            "zh": "照抄結果",
+            "exampleIndex": 1,
+            "span": {
+              "start": 185,
+              "end": 204
+            }
+          }
+        ],
+        "selfCheckZh": "在共寫中提出用作品促問而非代作結尾的具體討論，承認啟發價值，也保留自己角色的選擇。"
+      },
+      "takeaways": [
+        {
+          "en": "The archive did not hand them all the answers, but the old rota showed whom they needed to interview next.",
+          "zh": "檔案沒給他們全部答案，但舊更表顯示下步需訪誰。"
+        },
+        {
+          "en": "Her advice could not hand me all the answers for the exhibition, so I used it to design a trial display for visitors.",
+          "zh": "她的建議不能給展覽全部答案，所以我用來設計供訪客試看的展示。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1770",
+      "number": 1770,
+      "inventoryId": "expr-1770",
+      "contentRevision": 1,
+      "titleEn": "flesh and blood",
+      "titleZh": "為資料添上具體人的生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bflesh and blood\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p215-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 215,
+          "book": 8,
+          "question": 11,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Personal accounts give the lesson flesh and blood.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "flesh and blood",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Concrete human detail that makes an account feel populated by real lives and experiences.",
+        "meaningZh": "讓敘述有人的生活經歷、較具體可感的細節。",
+        "grammar": "personal accounts give the lesson flesh and blood; explicit human-detail metaphor here; distinguish ordinary flesh-and-blood people and my own flesh and blood meaning relatives",
+        "register": "neutral",
+        "boundaryZh": "這裏補人的具體感，不表示必知每人內心或人物敘述自動更真；要看實際經驗及來源。",
+        "misconceptionZh": "這裏補人的具體感，不表示必知每人內心或人物敘述自動更真；要看實際經驗及來源。",
+        "outcomeZh": "理解「為資料添上具體人的生活」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The source gives a creative give-the-lesson-flesh-and-blood extension. This lesson labels that contextual human-detail use as figurative, rather than claiming it is the same fixed meaning as blood relatives."
+      },
+      "listening": {
+        "en": "The apprentice’s notes gave the lesson flesh and blood: beside the workshop dates, we could read about his first failed joint, the help he asked for and the pride he felt when the repair held.",
+        "zh": "學徒筆記替課堂添具體人的生活：工場日期旁，我們可讀他首次接合失手、怎求助，以及修好穩固後的自豪。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "個人嘗試及感受，替日期資料添人的經驗。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "筆記只記工場日期，沒有個人行動或感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "學徒被介紹為導師親屬，這是整段核心意思。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "筆記已代表工場每位學徒完全相同的經歷。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "failed joint/help/pride 說具體人情，非只有日期、親屬或每人相同。"
+      },
+      "reply": {
+        "promptEn": "What did the apprentice’s notes add to the lesson?",
+        "promptZh": "學徒筆記替課堂增甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They gave it flesh and blood through one person’s attempts, help and pride.",
+            "zh": "它們以一人的嘗試、求助及自豪，添具體人的生活。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We could follow a learner’s experience beside the workshop dates.",
+            "zh": "工場日期旁，我們能跟一位學習者經歷。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The subject became connected with someone trying and learning.",
+            "zh": "題目與一個正在嘗試學習的人連起。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The details showed what the work felt like for that apprentice.",
+            "zh": "細節展示工作對那位學徒的感受。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "展覽先列搬遷戶數，再引一戶記得鄰居幫找失落相簿的有來源訪談；編者想給統計人的生活感。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The interview gives the account flesh and blood through a particular household’s experience.",
+            "zh": "訪談以一戶具體經歷，替敘述添人的生活。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The interview only restates the total number of households without an experience attached.",
+            "zh": "訪談只重述總戶數，沒連經歷。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The expression here identifies every household as the interviewer’s relatives.",
+            "zh": "這裏表達把每戶定為訪談者親屬。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "相簿及鄰里幫助補人的具體感，非重數或親屬意思。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解最不符合 give the lesson flesh and blood 的這裏用法？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "用人的具體經歷補抽象資料。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這句必在說課堂人物都是講者的血親。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍需核人物敘述與較廣資料的關係。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "此處是人情細節，不是 my own flesh and blood 的血親語境。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「一戶人的故事不能代表全部，就完全不應留吧？」你已保留總戶數。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can give the account flesh and blood as one clearly identified experience beside the wider figures.",
+            "zh": "它可作一項清楚指明的經歷，在較廣數據旁添人的生活感。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Present that household as the experience of every resident without checking other accounts.",
+            "zh": "不查其他敘述，就把該戶當每位居民的經歷。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep only the totals and exclude the account solely because it is personal.",
+            "zh": "只因是個人經歷，就只留總數、刪敘述。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "局部人情與整體資料可互補，不冒充全部，也不只因個人就排除。"
+      },
+      "speaking": {
+        "en": "The remembered conversation gave the account flesh and blood, showing how one ordinary decision felt to the people involved.",
+        "zh": "記得的對話替敘述添人的生活感，展示一項平常決定對當事人的感受。",
+        "targetSpan": {
+          "start": 45,
+          "end": 60
+        },
+        "promptZh": "先聽示範，再辨此處的人情細節與親屬意思。"
+      },
+      "writing": {
+        "promptZh": "新情境：你替戲劇小組做人物研究，已有角色年表，想訪問一位曾做相似工作的自願者，問一次普通交接的經歷；你要向同伴說這可添人的生活感，但記錄只供啟發表演，不把受訪者當原角色本人。用一至兩句英文寫研究提議。",
+        "examples": [
+          {
+            "en": "A volunteer’s account of an ordinary handover could give our research flesh and blood beside the character’s timeline. Could we ask for one experience they are comfortable sharing, and keep it distinct from the fictional role?",
+            "zh": "自願者一段普通交接敘述，可在角色年表旁替研究添人的生活感。可否問一件對方願分享的經歷，並與虛構角色區分？"
+          },
+          {
+            "en": "I would like the interview to add flesh and blood to our preparation, not to turn one person into a model for every detail of the role. Let us use the account to ask better questions about the character’s work.",
+            "zh": "我想訪談替準備添人的生活感，不把一個人變成角色每細節的樣板。我們用敘述問角色工作更好的問題吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "an ordinary handover",
+            "zh": "一次普通交接",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 45
+            }
+          },
+          {
+            "en": "the character’s timeline",
+            "zh": "角色年表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 117
+            }
+          },
+          {
+            "en": "the fictional role",
+            "zh": "虛構角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 207,
+              "end": 225
+            }
+          },
+          {
+            "en": "our preparation",
+            "zh": "我們的準備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 68
+            }
+          },
+          {
+            "en": "the character’s work",
+            "zh": "角色的工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 189,
+              "end": 209
+            }
+          }
+        ],
+        "selfCheckZh": "提議有同意及界限的研究訪談，讓表演理解較有人情，不把受訪者直接當角色或聲稱一人代表全部。"
+      },
+      "takeaways": [
+        {
+          "en": "The diary gave the school history flesh and blood through the pupil’s worries about her first public reading.",
+          "zh": "日記以學生對首次公開朗讀的擔心，替校史添人的生活感。"
+        },
+        {
+          "en": "Their letters added flesh and blood to the route records by describing the conversations that made each journey memorable.",
+          "zh": "信件描述讓每程難忘的對話，替路線記錄添人的生活。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1771",
+      "number": 1771,
+      "inventoryId": "expr-1771",
+      "contentRevision": 1,
+      "titleEn": "the bones of history",
+      "titleZh": "歷史的基本事實骨架",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe bones of history\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p215-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 215,
+          "book": 8,
+          "question": 11,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Dates provide the bones of history.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the bones of history",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The basic factual framework of the past, such as dates, sequence and key events.",
+        "meaningZh": "例如日期、順序及主要事件等過去的基本事實結構。",
+        "grammar": "dates/events provide the bones of history; bones metaphorically support the fuller account, rather than replace human experience",
+        "register": "neutral",
+        "boundaryZh": "骨架重要但不是全部敘述；沒有基本事實也不能靠感人故事補真確性，需分框架與細節。",
+        "misconceptionZh": "骨架重要但不是全部敘述；沒有基本事實也不能靠感人故事補真確性，需分框架與細節。",
+        "outcomeZh": "理解「歷史的基本事實骨架」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The timeline gave us the bones of history by showing when the school opened, moved and closed; the former pupils’ accounts then helped explain what those changes meant in daily life.",
+        "zh": "年表顯示學校何時開、搬及關，給歷史的事實骨架；舊生敘述再幫解釋改變對每天生活的意思。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "日期順序提供基本框架，人物敘述補生活意義。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "年表主要收學生每天生活的回憶，而非事件順序。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "人物敘述用來取代日期，事件順序不再需查。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "開、搬、關的順序尚完全不知，年表沒給框架。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "timeline when 是基本結構，then accounts explain 是補意義，不是日期全包或可刪順序。"
+      },
+      "reply": {
+        "promptEn": "What part did the timeline play in the account?",
+        "promptZh": "年表在敘述起甚麼作用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It supplied the bones of history through the key dates and sequence.",
+            "zh": "它透過主要日期及順序，提供歷史事實骨架。"
+          },
+          {
+            "id": "reply-2",
+            "en": "It established the order before the personal accounts added experience.",
+            "zh": "人物敘述補經驗前，它先定順序。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We could place the opening, move and closure in relation to one another.",
+            "zh": "我們能看開、搬、關互相時序關係。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It gave a framework that the pupils’ memories could help explain.",
+            "zh": "它給可由舊生回憶幫解釋的框架。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生已核社團成立、合併及換地方的三個年份，正準備訪談問其影響；你要說目前已有哪些材料。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They have the bones of history and are now seeking the experiences around that framework.",
+            "zh": "他們有歷史的基本事實骨架，現在找框架周圍的經驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The interviews have established the experiences, but the main dates still need checking.",
+            "zh": "訪談已確立經歷，但主要日期仍需核。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They have decided the interviews must replace the checked dates rather than explain them.",
+            "zh": "他們已決定訪談必須取代核過日期，而非解釋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已核年份是框架，訪談影響尚在後，不是反向或必取代。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 the bones of history 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "基本日期及事件關係可支持較完整敘述。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "有了年份順序，就已知道每個人的經歷與感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "還可補人物敘述及因果理解。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "骨架不等於全部人情細節。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「有年表就已全懂舊校，不必訪問人吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We have the bones of history, but interviews can show what the changes meant to people who experienced them.",
+            "zh": "我們有歷史骨架，但訪談可展示改變對當事人的意義。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat the three dates as a complete account of every pupil’s experience.",
+            "zh": "把三個日期當每位學生經歷的完整交代。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Leave the dates out of the interviews because a personal account cannot be compared with a timeline.",
+            "zh": "個人敘述不能與年表比較，所以訪談時不提日期。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "框架及經驗可互補比較，不定三日期全知，也不排比較。"
+      },
+      "speaking": {
+        "en": "The catalogue supplied the bones of history, while the letters helped us connect those dates with choices people had made.",
+        "zh": "目錄提供歷史骨架，信件則幫把日期與人們作過的選擇連起。",
+        "targetSpan": {
+          "start": 23,
+          "end": 43
+        },
+        "promptZh": "先聽示範，再把框架與完整理解分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：你和同伴做一段地方廣播，對方先寫了很感人的搬遷故事，卻把兩次搬遷順序混了。你想請先核基本年份，再把人物回憶放回正確階段，不說要刪掉所有回憶。用一至兩句英文給編輯回饋。",
+        "examples": [
+          {
+            "en": "Could we check the bones of history before recording the account? Once the two moves are in the right order, we can place the personal memories where they belong rather than remove them.",
+            "zh": "錄敘述前可否核歷史的基本骨架？兩次搬遷順序正確後，可把個人回憶放回所屬位置，而非刪掉。"
+          },
+          {
+            "en": "The memories are valuable, but the bones of history need checking because the moves are reversed. Let us correct the sequence and then see how each recollection fits that stage.",
+            "zh": "回憶有價值，但兩次搬遷倒轉，歷史骨架需核。我們改順序，再看各回憶怎合那階段吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the two moves",
+            "zh": "兩次搬遷",
+            "exampleIndex": 0,
+            "span": {
+              "start": 71,
+              "end": 84
+            }
+          },
+          {
+            "en": "the right order",
+            "zh": "正確順序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 107
+            }
+          },
+          {
+            "en": "the personal memories",
+            "zh": "個人回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 143
+            }
+          },
+          {
+            "en": "correct the sequence",
+            "zh": "更正順序",
+            "exampleIndex": 1,
+            "span": {
+              "start": 105,
+              "end": 125
+            }
+          },
+          {
+            "en": "each recollection",
+            "zh": "各段回憶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 160
+            }
+          }
+        ],
+        "selfCheckZh": "指出錄音前要核的時序問題，再保留回憶並校位置，不以感人代框架，也不把核事實當刪人情。"
+      },
+      "takeaways": [
+        {
+          "en": "The old minutes gave us the bones of history before we interviewed the volunteers about the first shared room.",
+          "zh": "訪問義工談首個共用地方前，舊會議記錄給我們歷史骨架。"
+        },
+        {
+          "en": "She checked the bones of history against two dated letters before describing the disagreement in the exhibition.",
+          "zh": "在展覽描述異議前，她先用兩封有日期信核歷史骨架。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1773",
+      "number": 1773,
+      "inventoryId": "expr-1773",
+      "contentRevision": 1,
+      "titleEn": "the lives behind those facts",
+      "titleZh": "事實背後真實人的生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe lives behind (?:those|the) facts\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p215-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 215,
+          "book": 8,
+          "question": 11,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "We should remember the lives behind those facts.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the lives behind those facts",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The human experiences and circumstances underlying factual information.",
+        "meaningZh": "事實資料背後的人們經歷與生活處境。",
+        "grammar": "remember/explore the lives behind those facts; facts needs an identified referent such as totals or dated events; behind names underlying human context",
+        "register": "neutral",
+        "boundaryZh": "人的經歷不可由總數直接猜出；需核來源及分清一例與全部，不把人情或統計當只能二選一。",
+        "misconceptionZh": "人的經歷不可由總數直接猜出；需核來源及分清一例與全部，不把人情或統計當只能二選一。",
+        "outcomeZh": "理解「事實背後真實人的生活」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The report counted how many families changed schools, but the interviews helped us see the lives behind those facts: children described learning new routes and keeping in touch with old friends.",
+        "zh": "報告計多少家庭轉校，訪談則幫看那些事實背後的生活：孩子描述學新路線、與舊朋友保持聯絡。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "訪談補總數沒展示的轉校生活經歷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "訪談主要核對家庭總數，沒有補轉校生活經歷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "孩子只談轉校以前的路線，沒有新地方的適應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "孩子經歷與報告的轉校問題沒有關係。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "routes/friends 是資料背後經歷，非總數已全知或訪談無關。"
+      },
+      "reply": {
+        "promptEn": "What did the interviews add to the report?",
+        "promptZh": "訪談替報告增甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They showed the lives behind those facts through the children’s changing routes and friendships.",
+            "zh": "它們以孩子改路及友誼，展示事實背後的生活。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We could understand some of the daily experience behind the school-change total.",
+            "zh": "我們能理解轉校總數背後部分日常經歷。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The count gained a connection with people adapting to a new place.",
+            "zh": "數量與適應新地方的人連起。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The interviews explained concerns the total alone did not describe.",
+            "zh": "訪談解釋總數本身沒描述的關注。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "展板寫工場有八十人，旁邊列兩位工人核准的日常敘述，談輪班後怎照顧家人；編者清楚說只是兩個例子。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The accounts help visitors consider the lives behind the facts without claiming to speak for all eighty workers.",
+            "zh": "敘述幫訪客想事實背後生活，不聲稱代表八十人全部。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The accounts are used only to check the total of eighty workers, not to describe household arrangements.",
+            "zh": "敘述只用來核八十人總數，不是描述家人照顧安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The two accounts are presented as the usual routine of the workforce rather than as identified examples.",
+            "zh": "兩敘述被當全體的通常作息，而不是清楚指明的例子。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "兩人核准的具體例子補家人照顧經歷，不只是核總數，也沒有被當全體通常模式。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 the lives behind those facts 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "資料所涉及的人有值得理解的經歷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "知道總數就能不經查問地寫出每人感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "個人敘述可與較廣數據並用並標範圍。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "不能由總數憑空推出所有個人經歷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「知道有多少家庭轉校，就可替每家寫同樣失落故事吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To understand the lives behind those facts, we need people’s accounts rather than assume the same feeling from a total.",
+            "zh": "理解事實背後生活需人的敘述，不能從總數假定同感。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Give every household the same reaction because it makes the report easier to narrate.",
+            "zh": "因較易敘述，就給每戶同一反應。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Exclude all interviews because a total and a personal experience cannot appear in one report.",
+            "zh": "總數與個人經驗不能在同報告，所以刪所有訪談。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需問來源及保留差異，數據與人情可並用。"
+      },
+      "speaking": {
+        "en": "I wanted to understand the lives behind those facts, so I asked whose experience the summary left unexplained.",
+        "zh": "我想理解事實背後的生活，所以問摘要沒解釋誰的經歷。",
+        "targetSpan": {
+          "start": 23,
+          "end": 51
+        },
+        "promptZh": "先聽示範，再說那些 facts 指哪些已提及資料。"
+      },
+      "writing": {
+        "promptZh": "新情境：你已取得兩位新住戶談初來怎交朋友的自願訪談，但他們只同意匿名引用；同伴想把姓名連所有細節公開，說這樣才有人情。你想保留事實背後人的生活，也遵守引用範圍，先請本人核可片段。用一至兩句英文給編輯回覆。",
+        "examples": [
+          {
+            "en": "We can show the lives behind those facts without publishing names the speakers did not agree to share. Could we keep the accounts anonymous and ask them to check the selected passages before printing?",
+            "zh": "我們可展示事實背後生活，不公開講者未同意分享的名字。可否保留匿名、印前請他們核選段？"
+          },
+          {
+            "en": "I want readers to understand the lives behind the facts, but that does not require every personal detail. Let us use only the anonymous excerpts the residents are comfortable approving.",
+            "zh": "我想讀者理解事實背後生活，但不需每項私人細節。我們只用住戶願核准的匿名選段吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "publishing names",
+            "zh": "公開姓名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 65
+            }
+          },
+          {
+            "en": "the speakers",
+            "zh": "講述者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 78
+            }
+          },
+          {
+            "en": "the selected passages",
+            "zh": "選取的段落",
+            "exampleIndex": 0,
+            "span": {
+              "start": 162,
+              "end": 183
+            }
+          },
+          {
+            "en": "anonymous excerpts",
+            "zh": "匿名選段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 126,
+              "end": 144
+            }
+          },
+          {
+            "en": "the residents",
+            "zh": "那些住戶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 145,
+              "end": 158
+            }
+          }
+        ],
+        "selfCheckZh": "在編輯回覆中同時保留人的經歷及已同意匿名界限，提出本人核選段，不把有人情誤成可公開每項細節。"
+      },
+      "takeaways": [
+        {
+          "en": "The letters revealed some of the lives behind those facts, showing how families adjusted after the factory changed its hours.",
+          "zh": "信件展示事實背後部分生活，說家庭怎在工場改工時後調整。"
+        },
+        {
+          "en": "She placed two checked interviews beside the totals so readers could approach the lives behind the facts.",
+          "zh": "她把兩次核過訪談放總數旁，讓讀者接近事實背後的生活。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      }
+    },
+    {
+      "id": "advanced-native-1775",
+      "number": 1775,
+      "inventoryId": "expr-1775",
+      "contentRevision": 1,
+      "titleEn": "connect the dots emotionally",
+      "titleZh": "把分散線索連成理解",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bconnect(?:s|ed|ing)? the dots(?: emotionally)?\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p215-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 215,
+          "book": 8,
+          "question": 11,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Her story helped me connect the dots emotionally.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "connect the dots emotionally",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p217-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 217,
+          "book": 8,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "Exact guide context inspected, including technology/maps explanatory frame.",
+          "sentence": "Maps helped students connect the dots.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "connect the dots",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Understand how separate pieces of information relate, with emotionally specifying a human feeling or meaning in context.",
+        "meaningZh": "理解分散資料怎互相關連；emotionally 在情境中強調人的感受或意義。",
+        "grammar": "connect the dots; connected/connecting; connect the dots emotionally adds a manner or human dimension, not a different fixed sense",
+        "register": "neutral",
+        "boundaryZh": "需說哪些線索及關係被理解，不只是感動或任意猜因果；看出連接不保證已解全部。",
+        "misconceptionZh": "需說哪些線索及關係被理解，不只是感動或任意猜因果；看出連接不保證已解全部。",
+        "outcomeZh": "理解「把分散線索連成理解」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The emotional modifier makes a contextual application of the conventional connect-the-dots idiom. A map may help connect events spatially, while a personal account may add why the connection matters to someone."
+      },
+      "listening": {
+        "en": "Her account helped me connect the dots emotionally: she left her seat before her sister’s final song because the last bus home was about to leave, and she told me how much she had wanted to stay.",
+        "zh": "她的敘述幫我從感受連起線索：因回家的尾班車快開，她在妹妹最後一首歌前離座；她告訴我自己多想留下。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "離座及匆忙告別連到尾班車限制，也顯示她仍想支持妹妹。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "尾班車在演出結束很久後才開，她是因不想聽妹妹而早走。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者只覺感動，仍不明白細節怎互相關連。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "聽敘述前，說話者已明白路程與告別的關係，沒有新增理解。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "尾班車快開而最後一歌未唱，解釋空座及匆忙告別；她親自說仍想留下，讓感受與交通限制一併理解。"
+      },
+      "reply": {
+        "promptEn": "What changed when you heard her account?",
+        "promptZh": "聽她敘述後，甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I could connect the dots emotionally between the journey, the empty seat and her wish to support her sister.",
+            "zh": "我能從感受連起路程、空座及想支持妹妹的心。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The details became parts of one evening rather than isolated images.",
+            "zh": "細節變成同一晚的部分，不再孤立意象。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I understood why leaving early had mattered to her.",
+            "zh": "我理解提早離開對她為何重要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The account connected the fixed departure time with her wish to remain for the performance.",
+            "zh": "敘述把固定開車時間與她想留下聽演出的心連起。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生比較兩張有日期地圖及車站記錄，理解道路封閉後巴士為何改道；不是只看到相似顏色。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The records help them connect the dots between the closure and the changed route.",
+            "zh": "記錄幫他們連起封路與改道的線索。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They notice the dates but still treat the route change as unrelated to the closure.",
+            "zh": "他們留意日期，仍把改道當與封路無關。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They infer the cause only from the map colours without comparing the records.",
+            "zh": "他們沒比記錄，只按地圖顏色推原因。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "日期及記錄建立事件關係，不只外觀相似或仍當無關。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 connect the dots emotionally？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "把多個細節連起，理解對當事人的意義。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只被一句話感動，仍不知道它與其他細節有何關係。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "分清哪些關係有資料支持，哪些仍未明。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "此處需連起線索，不只情緒反應。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你哭了，就表示每個細節都已理解吧？」你仍在重看她說的路程。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Feeling moved is not enough to connect the dots; I still need to see how the journey and goodbye fit together.",
+            "zh": "感動本身不足以連線索；我仍需看路程與告別怎相連。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Judge why she left only from my sadness instead of checking the journey she described.",
+            "zh": "只按我的難過判她為何離開，不核她描述的路程。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Skip the journey details because only the final feeling matters to understanding the sequence.",
+            "zh": "只最後感受重要，所以跳過理解順序的路程細節。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "仍需把她的路程與告別連起，不以自己的情緒代她離開的原因，也不跳過順序。"
+      },
+      "speaking": {
+        "en": "The letters helped us connect the dots between the postponed meeting and the decision to change the route.",
+        "zh": "信件幫我們連起延期聚會與改路決定的線索。",
+        "targetSpan": {
+          "start": 22,
+          "end": 38
+        },
+        "promptZh": "先聽示範，再指出分散資料之間的具體關係。"
+      },
+      "writing": {
+        "promptZh": "新情境：你曾把朋友留的一疊小畫說成雜物；看他補上的便條才知道，是孤單一年裏與筆友每周交換的畫。你想道歉，說現在連起畫、日期及友誼的意義，若他歡迎可一起按原次序整理，而不代他丟棄。用一至兩句英文發訊息。",
+        "examples": [
+          {
+            "en": "Your notes helped me connect the dots emotionally between the sketches and those weekly exchanges with your friend. I am sorry I called them clutter; would you like help keeping them in their original order?",
+            "zh": "你的便條幫我從感受連起小畫與每周跟朋友的交換。對不起，我說它們是雜物；你想我幫保留原序嗎？"
+          },
+          {
+            "en": "I can now connect the dots between the dates on the drawings and the friendship that supported you that year. I would like to apologise for dismissing them and ask whether you would welcome help organising them your way.",
+            "zh": "我現能連起畫上的日期及那年支持你的友誼。我想為輕視它們道歉，也問你是否歡迎按自己方式整理的幫忙。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the sketches",
+            "zh": "那些小畫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 70
+            }
+          },
+          {
+            "en": "those weekly exchanges",
+            "zh": "那些每周的交換",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 97
+            }
+          },
+          {
+            "en": "called them clutter",
+            "zh": "說它們是雜物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 148
+            }
+          },
+          {
+            "en": "their original order",
+            "zh": "它們的原來次序",
+            "exampleIndex": 0,
+            "span": {
+              "start": 186,
+              "end": 206
+            }
+          },
+          {
+            "en": "the dates on the drawings",
+            "zh": "畫上的日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 60
+            }
+          }
+        ],
+        "selfCheckZh": "承認舊判斷並以便條、日期及交換關係說新增理解，先問本人是否歡迎整理，不以感動代連接或代作丟棄決定。"
+      },
+      "takeaways": [
+        {
+          "en": "The diary helped her connect the dots between the shortened visits and the extra journey her friend had been making.",
+          "zh": "日記幫她連起探訪縮短與朋友一直多走的路程。"
+        },
+        {
+          "en": "I began to connect the dots emotionally when the letter explained why the small present had been kept for so many years.",
+          "zh": "信解釋小禮物為何保存多年後，我開始從感受連起線索。"
+        }
+      ],
+      "review": {
+        "state": "self-reviewed",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "Full AI author self-review completed. Independent editorial, human, audio-hearing, browser and release approvals remain separate and pending."
+      },
+      "aliasInventoryIds": [
+        "expr-1791"
+      ]
+    }
+  ],
+  "authoringComplete": true
+}

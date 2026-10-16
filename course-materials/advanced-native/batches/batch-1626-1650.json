@@ -1,0 +1,5532 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1626-1650",
+  "lessons": [
+    {
+      "id": "advanced-native-1626",
+      "number": 1626,
+      "inventoryId": "expr-1626",
+      "contentRevision": 1,
+      "titleEn": "move the needle",
+      "titleZh": "帶來實質改變",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bmov(?:e|es|ed|ing) the needle\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p191-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 191,
+          "book": 7,
+          "question": 19,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Small habits can move the needle over time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "move the needle",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p198-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 198,
+          "book": 7,
+          "question": 25,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Small habits can move the needle over time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "move the needle",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make a noticeable or meaningful difference to a situation or result.",
+        "meaningZh": "對某個情況或結果帶來看得出的實質改變。",
+        "grammar": "move the needle on + issue; moved in past; name the outcome and compare evidence",
+        "register": "neutral",
+        "boundaryZh": "量錶指針的比喻，不一定是巨大突破，也不把付出本身當成已有改善；要交代改變在哪裏。",
+        "misconceptionZh": "量錶指針的比喻，不一定是巨大突破，也不把付出本身當成已有改善；要交代改變在哪裏。",
+        "outcomeZh": "理解「帶來實質改變」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Adding clear labels moved the needle on returns at our tool library: fewer borrowers left items on the wrong shelf during the trial.",
+        "zh": "加上清楚標籤，對工具圖書館的歸還安排帶來實質改變：試行期間，較少借用者把物品放錯架。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "標籤改善了一項具體歸還結果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "標籤只改外觀，放錯架的情況並沒有變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "試行已證明借用者更喜歡所有工具。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "改善是由增加借用者人數衡量，而非放錯架的情況。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "fewer wrong-shelf returns 是具體變化；句子未談整體喜好或借用人數。"
+      },
+      "reply": {
+        "promptEn": "How did the labels help the tool library?",
+        "promptZh": "標籤怎樣幫到工具圖書館？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They moved the needle on returns by making the correct shelves easier to identify.",
+            "zh": "它們讓正確物架較易辨認，對歸還安排帶來實質改變。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Fewer items ended up on the wrong shelf during the trial.",
+            "zh": "試行期間，較少物品被放錯架。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Borrowers could see more clearly where each tool belonged.",
+            "zh": "借用者較清楚看見工具應放哪裏。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The trial showed an improvement in shelving accuracy.",
+            "zh": "試行顯示放回正確物架的情況改善。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "義工電話常漏寫回電時間，新留言欄試行後，漏寫個案少了，但還沒解決所有通訊問題。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The new field moved the needle on recording callback times.",
+            "zh": "新欄位對記下回電時間帶來實質改善。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The field changed the appearance of the form but left the missing-time problem unchanged.",
+            "zh": "欄位改了表格外觀，漏寫時間的問題卻沒變。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The improvement mainly shows that callers waited longer before phoning again.",
+            "zh": "改善主要顯示來電者等更久才再次致電。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "漏寫減少支持指定記錄改善，不是只有外觀改變或來電時間改變。"
+      },
+      "contrast": {
+        "promptZh": "哪項最不足以支持 moved the needle 的成效說法？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "比較前後同一項結果，發現有實際改善。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只記錄製作新表格花了多少時間，未看使用結果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "試用後，原本常見的漏寫情況減少。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "付出多少不等於結果改變多少，需要觀察實際成效。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「新標籤很漂亮，可以只憑這點說歸還安排改善了吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us check the shelving errors; appearance alone does not show whether we moved the needle on returns.",
+            "zh": "先查放錯架的情況吧；只憑外觀，不能知道歸還安排是否有實質改善。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The visual change is enough evidence, so we can leave the return records out.",
+            "zh": "視覺改變已有足夠證據，所以可不看歸還記錄。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We should measure success by how long the labels took to design.",
+            "zh": "我們應按設計標籤花了多久衡量成功。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "把判斷連到實際歸還結果，而非美觀或製作時間。"
+      },
+      "speaking": {
+        "en": "We need to see whether the change moves the needle on the problem we actually set out to solve.",
+        "zh": "我們要看看這項改變，是否對原本想解決的問題帶來實質改善。",
+        "targetSpan": {
+          "start": 34,
+          "end": 50
+        },
+        "promptZh": "先聽示範，再把改動連到具體結果。"
+      },
+      "writing": {
+        "promptZh": "新情境：你幫同學試一種背台詞方法：先記大意再分段排練。試過三次後，漏句少了，卻仍要練習語氣。你要向導演簡短報告這項方法改善了哪部分，並保留下一步。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The new rehearsal method has moved the needle on missed lines, though we still need to work on expression. I suggest keeping it for the next practice.",
+            "zh": "新的排練方法對漏句情況帶來實質改善，儘管我們仍要練習語氣。我建議下次練習繼續用。"
+          },
+          {
+            "en": "We missed fewer lines in all three trials, so the method seems to move the needle on recall. It is not a replacement for working on the delivery.",
+            "zh": "三次試行都漏少了句子，所以這方法似乎對記憶帶來實質改善。它不能取代演繹練習。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the new rehearsal method",
+            "zh": "新的排練方法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "missed lines",
+            "zh": "漏掉的台詞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 61
+            }
+          },
+          {
+            "en": "work on expression",
+            "zh": "練習語氣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 105
+            }
+          },
+          {
+            "en": "the next practice",
+            "zh": "下次練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 132,
+              "end": 149
+            }
+          },
+          {
+            "en": "all three trials",
+            "zh": "三次試行",
+            "exampleIndex": 1,
+            "span": {
+              "start": 25,
+              "end": 41
+            }
+          }
+        ],
+        "selfCheckZh": "指出漏句減少這項結果，同時保留演繹練習，不把一項改善說成整場已準備好。"
+      },
+      "takeaways": [
+        {
+          "en": "The revised directions moved the needle on how easily visitors found the entrance.",
+          "zh": "修訂指引對訪客找到入口的便利程度帶來實質改善。"
+        },
+        {
+          "en": "A small change can move the needle when it addresses the obstacle people actually face.",
+          "zh": "小改變若針對人們實際面對的障礙，也可帶來實質改善。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1627",
+      "number": 1627,
+      "inventoryId": "expr-1627",
+      "contentRevision": 1,
+      "titleEn": "chasing miracle cures",
+      "titleZh": "追求不切實際的神奇解方",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bchas(?:e|es|ed|ing) miracle cures\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p191-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 191,
+          "book": 7,
+          "question": 19,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Good health takes more than chasing miracle cures.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "chasing miracle cures",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Keep seeking supposedly extraordinary or instant solutions, often with unrealistic expectations.",
+        "meaningZh": "不斷尋找據稱神奇或即時見效的解方，往往抱不切實際的期望。",
+        "grammar": "chase miracle cures; chasing drops e; can be used critically beyond literal health contexts",
+        "register": "neutral",
+        "boundaryZh": "是帶批評意味的搭配，不代表每個新方法都無用；本課用比喻談學習捷徑，不能從廣告承諾推斷結果。",
+        "misconceptionZh": "是帶批評意味的搭配，不代表每個新方法都無用；本課用比喻談學習捷徑，不能從廣告承諾推斷結果。",
+        "outcomeZh": "理解「追求不切實際的神奇解方」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The supplied guide labels the wording a set phrase. Chase plus miracle cures is a transparent critical collocation, not an indivisible idiom; no medical claim is taught."
+      },
+      "listening": {
+        "en": "Tom kept chasing miracle cures for his pronunciation, buying each app that promised a perfect accent overnight instead of using the feedback from his recordings.",
+        "zh": "湯姆不斷追求改善發音的神奇解方，每個承諾一夜有完美口音的程式都買，卻不用自己錄音的回饋。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他不斷追逐誇大承諾，沒有按具體回饋練習。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他正比較錄音，選一個可持續練習的具體目標。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他選擇先分析錄音回饋，暫時沒有再試新程式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他已用錄音證實每個程式都帶來相同改善。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不斷購買承諾一夜完美的程式，卻沒用錄音回饋，支持追逐不切實際捷徑；不是按回饋暫緩換工具，也未驗證各程式效果。"
+      },
+      "reply": {
+        "promptEn": "Why was Tom not making good use of his recordings?",
+        "promptZh": "湯姆為甚麼沒好好利用自己的錄音？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "He was chasing miracle cures instead of working with the feedback he already had.",
+            "zh": "他在追求神奇解方，而非運用已有回饋。"
+          },
+          {
+            "id": "reply-2",
+            "en": "He kept buying apps that promised an instant perfect accent.",
+            "zh": "他不斷買承諾即時有完美口音的程式。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The promises of overnight change distracted him from specific practice.",
+            "zh": "一夜改變的承諾讓他分心，沒有具體練習。"
+          },
+          {
+            "id": "reply-4",
+            "en": "He looked for a shortcut rather than listen closely to what needed work.",
+            "zh": "他在找捷徑，而非仔細聽哪些地方要練。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組常換「一鍵寫好論文」工具，卻沒讀老師對論點的評語。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are chasing miracle cures rather than addressing the feedback on their argument.",
+            "zh": "他們在追求神奇解方，而非處理論點回饋。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are using the comments to choose one specific revision to test.",
+            "zh": "他們正用評語選一項具體修改來測試。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their main difficulty is refusing any new tool, even one they have tested.",
+            "zh": "他們主要困難是拒絕任何新工具，即使已試過也拒絕。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反覆追逐一鍵完成及不看回饋，才是這裏的問題；不是有根據試用或一概拒絕。"
+      },
+      "contrast": {
+        "promptZh": "哪個做法最不像 chasing miracle cures？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "每見即時成功的宣傳就改買新工具，不看實際困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "試一個有具體用途的新方法，再按結果及回饋判斷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只比較誰承諾最快完成，不查看方法怎樣幫忙。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "願試新方法與盲追神奇承諾不同，重點是具體用途與驗證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「又有程式保證一夜學會，我是否先放下現有練習？」哪句回應最有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Before chasing miracle cures, let us identify what you need to practise and what evidence the new tool offers.",
+            "zh": "追神奇解方前，先找出你需練甚麼，以及新工具有甚麼證據吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose whichever advert promises the shortest learning time.",
+            "zh": "選承諾學習時間最短的廣告就好。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Buy the next app first and leave your recording feedback until you have tried several more.",
+            "zh": "先買下一個程式，等再試幾個後才看錄音回饋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先釐清需要及證據，不按承諾速度或不斷換工具作決定。"
+      },
+      "speaking": {
+        "en": "We should stop chasing miracle cures and choose a practical way to work on the problem.",
+        "zh": "我們應停止追逐神奇解方，選一個實際方法處理問題。",
+        "targetSpan": {
+          "start": 15,
+          "end": 36
+        },
+        "promptZh": "先聽示範，再把不切實際捷徑與具體行動分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：義工小組常買聲稱能立刻吸引大批報名者的宣傳服務，卻沒問附近居民為甚麼沒來。你想向組員提議先聽居民需要，再試一項小改動。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Instead of chasing miracle cures for low attendance, let us ask residents what prevents them from coming. We can test one change based on their answers.",
+            "zh": "與其追求改善低出席率的神奇解方，不如先問居民甚麼阻礙他們前來。我們可按答案試一項改動。"
+          },
+          {
+            "en": "We keep chasing miracle cures in the adverts, but we have not listened to local residents. I suggest a short conversation before we buy another promotion package.",
+            "zh": "我們一直追逐廣告中的神奇解方，卻未聽本地居民意見。我建議再買宣傳套餐前先作簡短交談。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "low attendance",
+            "zh": "低出席率",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 51
+            }
+          },
+          {
+            "en": "ask residents",
+            "zh": "問居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 73
+            }
+          },
+          {
+            "en": "test one change",
+            "zh": "試一項改動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 128
+            }
+          },
+          {
+            "en": "a short conversation",
+            "zh": "簡短交談",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 121
+            }
+          },
+          {
+            "en": "another promotion package",
+            "zh": "另一個宣傳套餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 136,
+              "end": 161
+            }
+          }
+        ],
+        "selfCheckZh": "說清誇大承諾與未了解需要的問題，再提出可做及可檢視的一步，不把全部宣傳工具都判為無用。"
+      },
+      "takeaways": [
+        {
+          "en": "She stopped chasing miracle cures for her writing and began revising one paragraph with clear feedback.",
+          "zh": "她停止追求改善寫作的神奇解方，開始按清楚回饋修改一段。"
+        },
+        {
+          "en": "Chasing miracle cures can distract a team from understanding the problem it needs to solve.",
+          "zh": "追逐神奇解方可讓小組分心，沒有理解要解決的問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1628",
+      "number": 1628,
+      "inventoryId": "expr-1628",
+      "contentRevision": 1,
+      "titleEn": "kicking the can down the road",
+      "titleZh": "把問題一再拖到以後",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bkick(?:s|ed|ing)? the can down the road\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p191-t2-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 191,
+          "book": 7,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Ignoring symptoms is like kicking the can down the road.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "kicking the can down the road",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Delay dealing with a problem rather than take responsibility for addressing it.",
+        "meaningZh": "把處理問題的責任拖到以後，而沒有着手應對。",
+        "grammar": "kick the can down the road; kicked/kicking; commonly critical of repeated postponement",
+        "register": "neutral",
+        "boundaryZh": "拖延問題不等於每個延後都不合理；有清楚資料需要及跟進日期的等候，可不同於只轉交下一次會議。",
+        "misconceptionZh": "拖延問題不等於每個延後都不合理；有清楚資料需要及跟進日期的等候，可不同於只轉交下一次會議。",
+        "outcomeZh": "理解「把問題一再拖到以後」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The committee kept kicking the can down the road by putting the same unresolved booking clash on next month’s agenda without asking either group about alternatives.",
+        "zh": "委員會不問兩組有甚麼替代安排，只把同一個未解決的預約衝突放到下月議程，一再把問題拖後。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "委員會反覆延後，沒有作必要跟進。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "委員會已向兩組取得替代時段，正等一個已定的確認日期。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩組已改時間，議程只是記錄結果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "拖延來自兩組拒絕全部替代安排，而非委員會沒有查問。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同一問題反覆放下月議程，且未問替代時段，支持未處理的拖延。"
+      },
+      "reply": {
+        "promptEn": "Why are you worried about the committee’s response to the booking clash?",
+        "promptZh": "你為甚麼擔心委員會處理預約衝突的方式？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They keep kicking the can down the road without asking about alternatives.",
+            "zh": "他們不問替代安排，一直把問題拖後。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The same unresolved issue returns to the next agenda without action.",
+            "zh": "同一未解問題反覆回到下次議程，沒有行動。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Neither group has been asked what other times could work.",
+            "zh": "兩組都未被問還有哪些時間可行。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Postponing the discussion has not helped the groups find a workable arrangement.",
+            "zh": "延後討論沒有幫兩組找到可行安排。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "排練噪音令鄰室難上課，負責人每次只說下周再談，既未查時段，也未聯絡鄰室。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The organiser is kicking the can down the road rather than addressing the clash.",
+            "zh": "負責人把問題拖後，而非處理衝突。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The organiser is waiting for a response after proposing quieter hours to the neighbouring class.",
+            "zh": "負責人已向鄰班提議較安靜時段，正等回覆。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The classes have agreed a trial schedule and need only to review it.",
+            "zh": "各班已同意試行時間表，只需檢視效果。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "沒有查問或試行，只說再談，是延後處理而非等已採取行動的結果。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不像 kicking the can down the road？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "每次開會都把同一問題轉到下次，沒指定跟進人。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "先查兩組空檔，約定星期五確認替代時段，並通知相關人。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "因討論麻煩而一直不聯絡受影響的人。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "有具體跟進、責任及期限的等候，與逃避處理不同。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「這個衝突難談，不如又放下月議程？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "That would keep kicking the can down the road; let us ask both groups about alternatives before Friday.",
+            "zh": "那會繼續把問題拖後；星期五前先問兩組替代安排吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Moving the heading to next month should be enough for now, without contacting anyone.",
+            "zh": "目前只把標題移到下月就夠，不用聯絡人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Let us wait until one group complains again before choosing someone to follow up.",
+            "zh": "等某一組再投訴，才選人跟進吧。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要由轉議程改為具體跟進，而非等問題再次逼近。"
+      },
+      "speaking": {
+        "en": "We are kicking the can down the road if we postpone the discussion without planning any follow-up.",
+        "zh": "若只延後討論而不安排跟進，我們就是把問題拖後。",
+        "targetSpan": {
+          "start": 7,
+          "end": 36
+        },
+        "promptZh": "先聽示範，再把拖延與有目的等候分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：你答應幫朋友退回一件借來的展覽道具，卻每周只說「遲些再約」，一直沒問取件時間。你想寫訊息承認拖延，並主動提出兩個可交還時段。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "I have been kicking the can down the road over returning the prop, and I am sorry. Could I bring it back on Tuesday evening or Saturday morning?",
+            "zh": "我一直拖着沒有交還道具，對不起。星期二晚上或星期六早上帶回來，可以嗎？"
+          },
+          {
+            "en": "I do not want to keep kicking the can down the road, so let us fix a return time. I can bring the borrowed prop on Tuesday or Saturday.",
+            "zh": "我不想繼續把問題拖後，所以一起定交還時間吧。星期二或星期六我都可帶回借來的道具。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "returning the prop",
+            "zh": "交還道具",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 65
+            }
+          },
+          {
+            "en": "Tuesday evening",
+            "zh": "星期二晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 123
+            }
+          },
+          {
+            "en": "Saturday morning",
+            "zh": "星期六早上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 143
+            }
+          },
+          {
+            "en": "a return time",
+            "zh": "交還時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 80
+            }
+          },
+          {
+            "en": "the borrowed prop",
+            "zh": "借來的道具",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          }
+        ],
+        "selfCheckZh": "承認沒有約定交還的拖延，提出可選時段並請對方確認，不只再說遲些處理。"
+      },
+      "takeaways": [
+        {
+          "en": "We cannot keep kicking the can down the road while both groups wait for a decision.",
+          "zh": "兩組都等決定時，我們不能一直把問題拖後。"
+        },
+        {
+          "en": "Putting the unresolved question on another agenda is just kicking the can down the road unless someone follows it up.",
+          "zh": "若沒人跟進，把未解問題放到另一份議程只是繼續拖延。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1629",
+      "number": 1629,
+      "inventoryId": "expr-1629",
+      "contentRevision": 1,
+      "titleEn": "catch problems before they grow teeth",
+      "titleZh": "在問題變棘手前察覺",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:catch|caught) problems before they (?:grow|grew) teeth\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p192-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 192,
+          "book": 7,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Regular checks can catch problems before they grow teeth.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catch problems before they grow teeth",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Notice emerging difficulties before they become more threatening or harder to handle.",
+        "meaningZh": "在問題變得更具威脅或更難處理之前，察覺初起的困難。",
+        "grammar": "catch problems before they grow teeth; they refers to problems; teeth personifies growing threat",
+        "register": "neutral",
+        "boundaryZh": "是問題長牙的創意比喻，不是固定醫學用語，也不保證能預見所有問題；重點是早察覺及及時應對。",
+        "misconceptionZh": "是問題長牙的創意比喻，不是固定醫學用語，也不保證能預見所有問題；重點是早察覺及及時應對。",
+        "outcomeZh": "理解「在問題變棘手前察覺」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Guide-original health example retained as provenance. Practice uses nonmedical practical situations, and identifies the whole wording as an extended metaphor rather than a fixed idiom."
+      },
+      "listening": {
+        "en": "The rehearsal notes helped us catch problems before they grew teeth: we spotted a confusing entrance cue while there was still time to adjust it.",
+        "zh": "排練筆記幫我們在問題變棘手前察覺：我們發現一個易混淆的出場提示，當時仍有時間調整。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小組及早察覺可能擴大的提示問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "小組等到正式演出後才知道提示有誤。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "筆記只記已順利完成的部分，沒提困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "小組已測試修改後提示，並確認出場段落運作順暢。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "筆記讓小組及早發現含糊提示，仍有時間修改；不是已試妥修改版本、只記順利部分或到正式演出才發現。"
+      },
+      "reply": {
+        "promptEn": "How did the rehearsal notes help?",
+        "promptZh": "排練筆記有甚麼幫助？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They helped us catch problems before they grew teeth, while we could still adjust the cue.",
+            "zh": "它們幫我們在問題變棘手前察覺，當時仍能調整提示。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We noticed the confusing entrance cue early enough to change it.",
+            "zh": "我們及早留意到易混淆的出場提示，來得及修改。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The notes made a small warning visible before the performance.",
+            "zh": "筆記在演出前讓一項小警號浮現。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We had time to act on the confusion rather than discover it on stage.",
+            "zh": "我們有時間處理困惑，而非到台上才發現。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "展覽布展前試走路線，發現兩組會同時卡在入口，仍可改時段。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The trial can help us catch problems before they grow teeth.",
+            "zh": "試行可幫我們在問題變棘手前察覺。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The trial concerned the readability of the entrance signs, rather than overlapping arrivals.",
+            "zh": "試行關注入口路牌是否易讀，而非到達時間重疊。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Both groups have already confirmed new arrival times, and the trial merely records that agreement.",
+            "zh": "兩組已確認新到達時間，試行只在記錄那項協議。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "試走及早顯示兩組同時到入口的問題，仍可調整時段；不是路牌易讀程度，也未說兩組已確認新安排。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 catch problems before they grow teeth 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在困難擴大前先察覺它。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "已能預見這次活動所有尚未出現的問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍需按發現的線索決定怎樣跟進。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "及早留意一項困難不代表知道所有未知情況。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「這提示只是小小含糊，等正式演出再看吧。」哪句回應最有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us catch problems before they grow teeth and test the cue while we still have rehearsal time.",
+            "zh": "趁仍有排練時間，先試提示，在問題變棘手前察覺並處理吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We should leave the cue unchanged until the audience shows where it goes wrong.",
+            "zh": "應等觀眾反應顯示哪裏出錯，才改提示。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the remaining rehearsal time for the music and ask about the uncertain cue on performance day.",
+            "zh": "餘下排練時間先練音樂，到演出當天才問含糊的提示。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "現有試行機會能讓困難及早顯露並調整，不必等正式場合。"
+      },
+      "speaking": {
+        "en": "A small trial can help us catch problems before they grow teeth, giving us time to respond.",
+        "zh": "小型試行可幫我們在問題變棘手前察覺，讓我們有時間應對。",
+        "targetSpan": {
+          "start": 26,
+          "end": 63
+        },
+        "promptZh": "先聽示範，再保留早察覺與後續處理。"
+      },
+      "writing": {
+        "promptZh": "新情境：兩位義工都以為對方會向嘉賓確認時間，目前還未造成失約。你想寫給統籌，提醒這項責任不清的早期線索，並請大家當天議定由誰聯絡。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "We should catch problems before they grow teeth: both volunteers think the other is confirming the guest’s time. Could we agree today who will make the call?",
+            "zh": "我們應在問題變棘手前察覺：兩位義工都以為對方會確認嘉賓時間。今天可否議定誰致電？"
+          },
+          {
+            "en": "To catch problems before they grow teeth, let us clear up the responsibility for contacting our guest now, while no appointment has yet been missed.",
+            "zh": "趁尚未失約，現在先釐清聯絡嘉賓的責任，以便在問題變棘手前察覺及處理。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "both volunteers",
+            "zh": "兩位義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 64
+            }
+          },
+          {
+            "en": "the guest’s time",
+            "zh": "嘉賓的時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 111
+            }
+          },
+          {
+            "en": "agree today",
+            "zh": "今天議定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 122,
+              "end": 133
+            }
+          },
+          {
+            "en": "make the call",
+            "zh": "打電話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 156
+            }
+          },
+          {
+            "en": "the responsibility",
+            "zh": "那項責任",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 76
+            }
+          }
+        ],
+        "selfCheckZh": "用雙方對責任的不同假設作早期線索，提出及時釐清，不把尚未失約寫成已發生事故。"
+      },
+      "takeaways": [
+        {
+          "en": "We check the route in advance to catch problems before they grow teeth.",
+          "zh": "我們預先檢查路線，在問題變棘手前察覺。"
+        },
+        {
+          "en": "The first trial helped us catch problems before they grew teeth, while changes were still manageable.",
+          "zh": "首次試行幫我們在問題變棘手前察覺，當時修改仍容易處理。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1630",
+      "number": 1630,
+      "inventoryId": "expr-1630",
+      "contentRevision": 1,
+      "titleEn": "pay off",
+      "titleZh": "付出得到有用成果",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:pay|pays|paying|paid) off\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p192-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 192,
+          "book": 7,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Months of practice should pay off.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pay off",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Produce a useful or successful result after a plan, action or effort.",
+        "meaningZh": "計劃、行動或付出帶來有用或成功的結果。",
+        "grammar": "the effort pays off; paid off in past; intransitive in this result sense, unlike pay off a debt",
+        "register": "neutral",
+        "boundaryZh": "本課是努力見效，不是償清債務或付錢給某人；有成果不一定是金錢、獎項或每方面成功。",
+        "misconceptionZh": "本課是努力見效，不是償清債務或付錢給某人；有成果不一定是金錢、獎項或每方面成功。",
+        "outcomeZh": "理解「付出得到有用成果」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The careful sound checks paid off when the recording captured every speaker clearly, even though the team still needed to edit the pauses.",
+        "zh": "仔細檢查聲音的付出見效：錄音清楚收錄每位說話者，儘管小組仍需剪輯停頓。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "檢查帶來清楚收音的具體成果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "小組已完成錄音後的所有剪輯。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "每位說話者因參與錄音而得到酬金。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "音響檢查沒有改變收音，小組只讚賞付出時間。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "captured clearly 是成果，still edit保留後續工作；這裏不是支付酬金。"
+      },
+      "reply": {
+        "promptEn": "How did the careful sound checks help the recording?",
+        "promptZh": "仔細檢查聲音怎樣幫到錄音？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They paid off by helping us capture each speaker clearly.",
+            "zh": "它們帶來成果，幫我們清楚收錄每位說話者。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The final recording did not lose anyone’s voice.",
+            "zh": "最後錄音沒有漏掉任何人的聲音。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We got clear voices rather than having to guess what someone had said.",
+            "zh": "我們取得清楚聲音，不用猜某人說了甚麼。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The preparation gave us usable sound before the editing stage.",
+            "zh": "準備讓我們在剪輯前取得可用聲音。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你每天練讀陌生地名，實際帶團時能清楚介紹，不再卡住；仍會問本地人如何讀新遇到的名字。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The pronunciation practice paid off during the tour.",
+            "zh": "發音練習在帶團時見效。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The practice had no practical effect on the introductions.",
+            "zh": "練習對介紹沒有實際作用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The improved introductions mean there are no unfamiliar names left to check.",
+            "zh": "介紹改善，表示已沒有陌生名字要核對。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "清楚介紹顯示練習成果，但不表示從此沒有要問的名字。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最符合本課 pay off？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "投入很多排練時間，但還未觀察效果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "練習後，在需要時更清楚完成原本易錯的部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "因課程費用較高，就推定練習一定有效。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "要有有用結果，不能只憑時間或價格判斷。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「我們練了很久，所以可以說已見效，即使還沒試演。」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us see how the scene works in rehearsal before saying the effort has paid off.",
+            "zh": "先看看排練時那幕的效果，再說付出是否見效吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The hours alone are enough to show the audience will follow the scene.",
+            "zh": "單憑時數，已足以知道觀眾會跟得上那幕。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We can judge the result from the number of pages in the practice notes.",
+            "zh": "可按練習筆記頁數判斷結果。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "投入是過程，效果需在相關任務中觀察，不只數時數或筆記。"
+      },
+      "speaking": {
+        "en": "The preparation paid off when we could explain the route clearly to the new visitors.",
+        "zh": "當我們能向新訪客清楚解釋路線時，準備的付出見效了。",
+        "targetSpan": {
+          "start": 16,
+          "end": 24
+        },
+        "promptZh": "先聽示範，再把付出連到可觀察的成果。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為同學做一份共同借用器材的清單，先試記一周，發現大家能在輪到自己前找到物品；仍需補一項遺失的歸還時間。你要回覆問你清單是否有用的同伴。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The shared list has paid off: people can find the equipment before their turn. We still need to add the missing return time.",
+            "zh": "共用清單已見效：大家能在輪到自己前找到器材。我們仍需補上缺少的歸還時間。"
+          },
+          {
+            "en": "Our trial paid off by making the equipment easier to locate, so I would keep the list. Let us finish the one incomplete entry as well.",
+            "zh": "試行讓器材較容易找到，帶來成果，所以我會保留清單。也一起補完那項未完整記錄吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the shared list",
+            "zh": "共用清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "before their turn",
+            "zh": "輪到他們之前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 77
+            }
+          },
+          {
+            "en": "the missing return time",
+            "zh": "缺少的歸還時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 123
+            }
+          },
+          {
+            "en": "easier to locate",
+            "zh": "較容易找到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 43,
+              "end": 59
+            }
+          },
+          {
+            "en": "the one incomplete entry",
+            "zh": "那項未完整記錄",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 125
+            }
+          }
+        ],
+        "selfCheckZh": "用找到器材這項結果回答有用與否，同時保留補資料，不把有成果說成工作全部完結。"
+      },
+      "takeaways": [
+        {
+          "en": "Her careful preparation paid off when she could answer the visitors’ practical questions.",
+          "zh": "她能回答訪客的實際問題時，仔細準備的付出見效。"
+        },
+        {
+          "en": "The trial will pay off if it gives us information we can use in the next version.",
+          "zh": "若試行給我們下一版本可用的資料，付出就會帶來成果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1631",
+      "number": 1631,
+      "inventoryId": "expr-1631",
+      "contentRevision": 1,
+      "titleEn": "look after you in return",
+      "titleZh": "回過來照顧或支持你",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\blook(?:s|ed|ing)? after (?:you|me|us|them|him|her) in return\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p192-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 192,
+          "book": 7,
+          "question": 19,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Care for your body and it may look after you in return.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "look after you in return",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Care for or support someone reciprocally after receiving care or support.",
+        "meaningZh": "得到照顧或支持後，回過來照顧或支持對方。",
+        "grammar": "look after you in return; look after + object, in return marks reciprocal action; name the participants",
+        "register": "neutral",
+        "boundaryZh": "look after 是照顧，in return 是回報；不保證付出必換同等回報。來源把身體擬人化，本課也練人際間的自然回應，不把比喻當健康承諾。",
+        "misconceptionZh": "look after 是照顧，in return 是回報；不保證付出必換同等回報。來源把身體擬人化，本課也練人際間的自然回應，不把比喻當健康承諾。",
+        "outcomeZh": "理解「回過來照顧或支持你」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The body caring for its owner is personification in the supplied guide example, not a separate medical definition or guarantee. Reciprocal human care supplies clear practice contexts."
+      },
+      "listening": {
+        "en": "After I helped my neighbour settle into the building, she looked after me in return by collecting my parcels while I was away.",
+        "zh": "我幫鄰居適應大廈生活後，她在我外出時幫忙收包裹，回過來照顧我。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "鄰居回應先前得到的幫助，替說話者收包裹。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者收包裹，作為適應大廈的先決條件。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "鄰居只口頭道謝，沒有提供實際幫助。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "兩人按同一份有價目表的合約交換服務。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "after I helped、in return、collecting parcels 交代互相支持的先後及行動，未提合約。"
+      },
+      "reply": {
+        "promptEn": "How did your neighbour help you after you helped her settle in?",
+        "promptZh": "你幫鄰居適應後，她怎樣幫回你？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She looked after me in return by collecting my parcels while I was away.",
+            "zh": "她在我外出時收包裹，回過來照顧我。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She made sure my deliveries were collected during my absence.",
+            "zh": "她確保我不在時有人代收送來的物品。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She returned the kindness with practical help when I could not be there.",
+            "zh": "我無法在場時，她以實際幫忙回應善意。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The support went both ways; she took care of my parcels after I had helped her settle.",
+            "zh": "支持是雙向的；我幫她適應後，她照看我的包裹。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你曾陪同學練口頭報告；你忙於比賽時，他主動替你整理課堂通知，作為回應。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He looked after me in return by keeping the class notices organised.",
+            "zh": "他替我整理課堂通知，回過來支持我。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He organised the notices before I helped with his presentation, rather than as a return for that help.",
+            "zh": "我幫他練報告前，他已整理通知，並非回應那次幫忙。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He received my help but did not offer anything when I was busy.",
+            "zh": "他接受我的幫忙，但我忙時沒提供支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "你先幫他練報告，他在你忙時再整理通知，支持先後互助；不是幫報告前已做，也不是只接受而沒提供支持。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 looked after me in return 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有人以照顧或支援回應先前的幫助。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每次付出都必定得到完全同等的回報。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需看前後行動，才知道雙方怎樣互相支持。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "這次回報不建立普遍等價交換規則。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「她幫我收包裹，是不是表示我每次幫人都一定有回報？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She looked after you in return on this occasion, but that is not a promise about every future exchange.",
+            "zh": "這次她回過來照顧你，但這不是往後每次交往的承諾。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Assume she will collect the parcels next time without asking, because you helped her once.",
+            "zh": "因為你幫過她一次，下次就不問而假定她會收包裹。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her help only counts as a return if it repeats exactly the task you did for her.",
+            "zh": "她的幫忙只有完全重做你替她做過的事情，才算回報。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "這次回報是具體互助，不等於下次不用問就可假定幫忙，也不要求雙方做完全相同的事。"
+      },
+      "speaking": {
+        "en": "She looked after me in return when I needed someone to collect the deliveries.",
+        "zh": "我需要有人代收物品時，她回過來照顧我。",
+        "targetSpan": {
+          "start": 4,
+          "end": 29
+        },
+        "promptZh": "先聽示範，再把回報連到具體支持。"
+      },
+      "writing": {
+        "promptZh": "新情境：你以前替朋友的地方刊物校對，如今你要首次主持訪問，他主動幫你試問題及看時間。你想在謝卡中說明互相支持的意義，不把友情寫成計較欠款。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "You looked after me in return by helping me rehearse my first interview, after I had helped with your newsletter. I really value the way we support each other.",
+            "zh": "我幫過你的刊物後，你幫我排練首次訪問，回過來支持我。我很珍惜我們互相幫忙的方式。"
+          },
+          {
+            "en": "I once checked your newsletter, and you have looked after me in return with thoughtful questions and timing advice. Thank you for making my first interview feel less daunting.",
+            "zh": "我曾校對你的刊物，而你以細心的問題及時間建議回過來支持我。謝謝你讓首次訪問感覺沒那麼令人卻步。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "my first interview",
+            "zh": "我的首次訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 71
+            }
+          },
+          {
+            "en": "your newsletter",
+            "zh": "你的刊物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 112
+            }
+          },
+          {
+            "en": "support each other",
+            "zh": "互相支持",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 158
+            }
+          },
+          {
+            "en": "thoughtful questions",
+            "zh": "細心的問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 96
+            }
+          },
+          {
+            "en": "timing advice",
+            "zh": "時間建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 114
+            }
+          }
+        ],
+        "selfCheckZh": "具體說明前後互助及感謝，不暗示每次友情付出都應按價目回收。"
+      },
+      "takeaways": [
+        {
+          "en": "They looked after us in return when our own team needed help with the event.",
+          "zh": "我們團隊需要活動支援時，他們回過來照顧我們。"
+        },
+        {
+          "en": "He looked after her in return by checking the arrangements while she was away.",
+          "zh": "她不在時，他幫忙核對安排，回過來支持她。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1633",
+      "number": 1633,
+      "inventoryId": "expr-1633",
+      "contentRevision": 1,
+      "titleEn": "one of the strongest cards people can play",
+      "titleZh": "其中一個最有力的選項",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bone of the strongest cards (?:people|we|they|you) can play\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p192-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 192,
+          "book": 7,
+          "question": 20,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Prevention is one of the strongest cards people can play.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "one of the strongest cards people can play",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "One of the most useful available actions or advantages in a situation.",
+        "meaningZh": "某個情況中可採取的最有力行動或優勢之一。",
+        "grammar": "one of the strongest cards we/people can play; plural cards after one of; card is a strategic resource metaphor",
+        "register": "neutral",
+        "boundaryZh": "one of 表示其中之一，不是唯一辦法或保證勝利；要交代它在指定情況有何用途。",
+        "misconceptionZh": "one of 表示其中之一，不是唯一辦法或保證勝利；要交代它在指定情況有何用途。",
+        "outcomeZh": "理解「其中一個最有力的選項」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The card strategy image is conventional, while this full superlative sentence frame is productive rather than an indivisible fixed idiom. The supplied prevention example is not used to claim a medical ranking."
+      },
+      "listening": {
+        "en": "For a small festival team, clear communication is one of the strongest cards we can play: it helps performers plan around the same times and changes.",
+        "zh": "對小型節慶團隊來說，清楚溝通是我們可採取的最有力行動之一：它幫演出者按一致時段及改動作安排。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "清楚溝通是這團隊一項有力的實際做法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這團隊認為只有溝通重要，場地安排可不做。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "團隊只是比較不同海報顏色，沒有談安排資訊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "演出者已各自決定不同時間，不需共享更新。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "one of 保留其他做法；same times and changes 交代溝通的實際用途。"
+      },
+      "reply": {
+        "promptEn": "Why are you putting so much effort into a clear update for performers?",
+        "promptZh": "你為甚麼花工夫把給演出者的更新寫清楚？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Clear communication is one of the strongest cards we can play because performers need the same times and updates to coordinate.",
+            "zh": "清楚溝通是我們可採取的最有力做法之一，因演出者需要一致時段及更新來互相協調。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Everyone needs the same times and changes to plan their part.",
+            "zh": "大家要有一致時段及改動，才能安排自己的部分。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It reduces the confusion caused by different versions of the schedule.",
+            "zh": "它減少時間表版本不同造成的混亂。"
+          },
+          {
+            "id": "reply-4",
+            "en": "An understandable update helps us coordinate the people we already have.",
+            "zh": "易懂更新幫我們協調現有成員。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小書店無法大幅加預算，但店員熟悉讀者需要，能作貼切介紹；你想說這是重要優勢之一。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Knowing the readers is one of the strongest cards we can play.",
+            "zh": "了解讀者是我們可運用的最有力優勢之一。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Knowing the readers means stock availability is no longer part of the decision.",
+            "zh": "了解讀者表示選書時不再需考慮存貨。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The strongest advantage here is the larger budget the shop has just received.",
+            "zh": "這裏最強優勢是書店剛取得的較大預算。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "題目給熟悉讀者而非新增預算，one of 也不取消其他實際條件。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 one of the strongest cards we can play 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這是當前可用的一項有力做法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這是唯一值得做的事，其他安排都可省去。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "應具體解釋這做法怎樣幫到目前目標。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "其中一項強項不等於唯一辦法。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「既然清楚溝通最有用，是否可先不核對場地時間？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It is one of the strongest cards we can play, but the update still needs accurate venue times.",
+            "zh": "它是我們最有力做法之一，但更新仍需準確場地時間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Send the message first and use the organiser’s confidence in place of checking the times.",
+            "zh": "先發訊息，用主辦者的信心代替核對時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Reuse the old update because its format was clear, without checking the new booking times.",
+            "zh": "舊更新格式清楚，所以不查新預約時間便再用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有力溝通需要可靠內容，不能把表達清楚當資料準確。"
+      },
+      "speaking": {
+        "en": "Careful listening is one of the strongest cards we can play when the group needs to understand different concerns.",
+        "zh": "小組需要理解不同顧慮時，細心聆聽是我們可採取的最有力做法之一。",
+        "targetSpan": {
+          "start": 21,
+          "end": 59
+        },
+        "promptZh": "先聽示範，再保留其中之一的範圍。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們要替地方史展覽找可靠的舊照片說明，附近長者能指出人物及場合，但仍需核對日期。你想向組員建議邀請他們參與，說明這項優勢與後續查證。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Inviting long-time residents is one of the strongest cards we can play when identifying the people in these photographs. We should still check the dates against the archive.",
+            "zh": "辨認這些照片的人物時，邀請長住居民是我們可採取的最有力做法之一。我們仍應以檔案核對日期。"
+          },
+          {
+            "en": "Local knowledge is one of the strongest cards we can play, so let us ask the residents about the occasions shown. Their memories can guide the next stage of research.",
+            "zh": "本地知識是我們可運用的最有力優勢之一，所以問居民照片中的場合吧。他們的回憶可引導下一步研究。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "long-time residents",
+            "zh": "長住居民",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 28
+            }
+          },
+          {
+            "en": "these photographs",
+            "zh": "這些照片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 119
+            }
+          },
+          {
+            "en": "check the dates",
+            "zh": "核對日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 137,
+              "end": 152
+            }
+          },
+          {
+            "en": "the occasions shown",
+            "zh": "圖中場合",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 112
+            }
+          },
+          {
+            "en": "the next stage of research",
+            "zh": "下一步研究",
+            "exampleIndex": 1,
+            "span": {
+              "start": 139,
+              "end": 165
+            }
+          }
+        ],
+        "selfCheckZh": "指出居民知識的具體用途，保留其他查證，不把一項強項說成已完成全部考證。"
+      },
+      "takeaways": [
+        {
+          "en": "A clear question is one of the strongest cards we can play when a discussion loses focus.",
+          "zh": "討論失焦時，清楚問題是我們可採取的最有力做法之一。"
+        },
+        {
+          "en": "Local experience is one of the strongest cards people can play when planning a useful neighbourhood guide.",
+          "zh": "規劃實用社區指南時，本地經驗是人們可運用的最有力優勢之一。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1634",
+      "number": 1634,
+      "inventoryId": "expr-1634",
+      "contentRevision": 1,
+      "titleEn": "a magic shield",
+      "titleZh": "像魔法般完全保護的屏障",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba magic shield\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p192-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 192,
+          "book": 7,
+          "question": 20,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Exercise is helpful but not a magic shield.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a magic shield",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "An imagined source of complete protection, often mentioned to deny that a helpful measure can prevent every difficulty.",
+        "meaningZh": "想像中能完全保護的屏障，常用於否定某項有用措施可擋住每種困難。",
+        "grammar": "X is helpful, but not a magic shield against + difficulty; shield is figurative protection",
+        "register": "neutral",
+        "boundaryZh": "常見於 not a magic shield，既承認有幫助，也保留限制；不是說有幫助就能保證，或沒有保證就毫無用途。",
+        "misconceptionZh": "常見於 not a magic shield，既承認有幫助，也保留限制；不是說有幫助就能保證，或沒有保證就毫無用途。",
+        "outcomeZh": "理解「像魔法般完全保護的屏障」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The rehearsal helped me feel prepared, but it was not a magic shield against nerves; I still paused before the opening line.",
+        "zh": "排練讓我覺得有準備，但不是完全擋住緊張的魔法屏障；我在首句前仍停了一下。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "排練有幫助，但沒有完全除去緊張。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者因緊張認為先前排練沒有任何作用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "排練的主要目的是讓開場故意多一次停頓。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者已沒有緊張，只在等其他演員開口。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "helped feel prepared 及 still paused 並存，顯示有幫助而非完全保護。"
+      },
+      "reply": {
+        "promptEn": "Did rehearsing mean you were no longer nervous?",
+        "promptZh": "排練是否表示你不再緊張？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "No, it helped, but it was not a magic shield against nerves.",
+            "zh": "不是，它有幫助，但不是完全擋住緊張的魔法屏障。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I felt prepared and still needed a moment before the first line.",
+            "zh": "我覺得有準備，但首句前仍需要片刻。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The practice made a difference without removing every nervous feeling.",
+            "zh": "練習有作用，但沒有除去所有緊張感。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I could value the preparation while acknowledging that I was still nervous.",
+            "zh": "我可重視準備，同時承認仍緊張。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你有登台提示卡，能提醒次序，但臨場仍要聽同伴的接話；不能只盯卡。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The cards are useful, but not a magic shield against losing the thread.",
+            "zh": "提示卡有用，但不是完全擋住失去思路的魔法屏障。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Having the cards makes listening to the other speaker unnecessary.",
+            "zh": "有提示卡，就不需要聽另一位說話者。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Because the cards do not cover every exchange, they cannot help with the order.",
+            "zh": "提示卡未涵蓋每次對話，所以不能幫助記次序。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可幫次序，同時仍需聽接話，符合有幫助但有限。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解最符合 helpful but not a magic shield？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某項措施有用途，但不能完全擋住所說的困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要仍有困難，該措施的任何用途都應被否定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "既有幫助，就可省去其他相關準備。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有用與完全保護是不同程度，不應把有限幫助改成無用或全保證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我帶了提示卡，是不是不用再聽搭檔怎樣接話？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The cards are not a magic shield; use them for the order while still listening to your partner.",
+            "zh": "提示卡不是魔法屏障；用來記次序，同時仍要聽搭檔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep your attention on the card even if your partner changes the question.",
+            "zh": "即使搭檔改問題，也一直只看提示卡。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Leave the cards behind because they cannot predict the exact next sentence.",
+            "zh": "提示卡不能預測下一句原話，所以不要帶。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提示卡支援而非取代互動，也不因不能預測原話就失去用途。"
+      },
+      "speaking": {
+        "en": "Preparation can help without being a magic shield against every difficulty we may meet.",
+        "zh": "準備可以有幫助，同時不是能擋住每種困難的魔法屏障。",
+        "targetSpan": {
+          "start": 35,
+          "end": 49
+        },
+        "promptZh": "先聽示範，再分清幫助與完全保護。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為小組活動整理一份互相尊重的討論守則，朋友卻以為有守則便毋須在出現誤會時澄清。你想寫給大家，肯定守則用途，同時提出真正遇到分歧要怎樣做。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Our discussion rules can help, but they are not a magic shield against misunderstanding. If a comment is unclear, we should ask what the speaker meant.",
+            "zh": "討論守則可有幫助，但不是完全擋住誤會的魔法屏障。若意見不清楚，我們應問說話者的意思。"
+          },
+          {
+            "en": "The rules give us a shared starting point rather than a magic shield, so we still need to listen and clarify when we disagree.",
+            "zh": "守則給我們共同起點，而非魔法屏障，所以意見不同時仍需聆聽及澄清。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our discussion rules",
+            "zh": "我們的討論守則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "against misunderstanding",
+            "zh": "針對誤會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 87
+            }
+          },
+          {
+            "en": "a comment is unclear",
+            "zh": "一項意見不清楚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 112
+            }
+          },
+          {
+            "en": "a shared starting point",
+            "zh": "共同起點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 41
+            }
+          },
+          {
+            "en": "when we disagree",
+            "zh": "意見不同時",
+            "exampleIndex": 1,
+            "span": {
+              "start": 109,
+              "end": 125
+            }
+          }
+        ],
+        "selfCheckZh": "肯定守則作用，保留聆聽及澄清的實際責任，不由守則存在推定不會有誤會。"
+      },
+      "takeaways": [
+        {
+          "en": "The checklist was helpful, but it was not a magic shield against a change in the weather.",
+          "zh": "清單有幫助，但不是能完全擋住天氣變化的魔法屏障。"
+        },
+        {
+          "en": "She saw the practice as preparation, not a magic shield that would remove all her nerves.",
+          "zh": "她把練習看成準備，而非除去所有緊張的魔法屏障。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1635",
+      "number": 1635,
+      "inventoryId": "expr-1635",
+      "contentRevision": 1,
+      "titleEn": "the hard truth of it",
+      "titleZh": "不得不面對的難受事實",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bthe hard truth of it\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p193-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 193,
+          "book": 7,
+          "question": 20,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The hard truth of it is that some illnesses cannot be prevented.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the hard truth of it",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The unwelcome reality of a situation that must be acknowledged.",
+        "meaningZh": "某個情況中令人難受、卻需要承認的現實。",
+        "grammar": "the hard truth of it is that + clause; it refers to the situation just described",
+        "register": "neutral",
+        "boundaryZh": "hard 指難以接受，不是資料已充分的證明；應交代可支持的現實，不把個人悲觀或不喜歡當事實。",
+        "misconceptionZh": "hard 指難以接受，不是資料已充分的證明；應交代可支持的現實，不把個人悲觀或不喜歡當事實。",
+        "outcomeZh": "理解「不得不面對的難受事實」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A conventional hard-truth collocation with a productive of-it frame. Source health statement retained as provenance; no learner medical prediction is required."
+      },
+      "listening": {
+        "en": "The hard truth of it was that our rehearsals had started too late for this opening date; we needed to postpone the show or present a shorter programme.",
+        "zh": "難受的現實是，我們開始排練得太遲，趕不上這個首演日期；我們需延期或演較短節目。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小組需承認目前排練不足以趕上原定日期。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "小組不喜歡短節目，所以斷定沒人會看。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "原定日期已延期，句子只是報告已完成的更改。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "排練已完成，小組只在選宣傳字句。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "started too late 及 needed to 交代未能如期及需作選擇，不是已完成延期或觀眾評價。"
+      },
+      "reply": {
+        "promptEn": "Why are you considering a shorter programme?",
+        "promptZh": "你們為甚麼考慮較短節目？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The hard truth of it is that we started rehearsing too late for the original date.",
+            "zh": "難受的現實是，我們開始排練得太遲，趕不上原定日期。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We cannot prepare the full show in the time that remains.",
+            "zh": "餘下時間不足以準備全場。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A shorter programme is one way to respond to the rehearsal time we actually have.",
+            "zh": "較短節目是回應實際排練時間的一個方法。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Keeping the date would require us to reduce what we present.",
+            "zh": "若保留日期，就需減少演出內容。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "刊物截稿前一晚，仍有一半訪問未做，編輯要承認這期不能包括原定全部內容。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The hard truth of it is that we cannot include all the planned interviews in this issue.",
+            "zh": "難受的現實是，我們這期不能放入全部原定訪問。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The unfinished interviews show that the completed ones are not worth publishing.",
+            "zh": "未做完訪問，顯示已做完的也不值得刊登。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The editor has already collected all the material and is choosing its order.",
+            "zh": "編輯已收齊全部材料，正在選次序。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "未完成的數量限制這期內容，不否定已完成材料，也不是只排序。"
+      },
+      "contrast": {
+        "promptZh": "哪種說法最不宜只靠 the hard truth of it 這措辭成立？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "承認已有資料顯示的時間限制。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "因為語氣沉重，就把未核實的猜測當成事實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "交代目前困難，再考慮可行下一步。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "措辭難受不代替證據，也不要求放棄所有選項。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「承認趕不上原定全場，就是甚麼都不能做了吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The hard truth of it concerns the full programme and date; we can still consider a shorter show.",
+            "zh": "難受的現實關乎全場內容及日期；仍可考慮較短演出。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Cancel the completed scenes too, since the original programme is out of reach.",
+            "zh": "原定節目趕不上，所以連已準備好的幕也取消。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The completed scenes should fit the original evening without another running-time check.",
+            "zh": "已完成的幕應可放進原定晚上，不需再核演出長度。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "全場趕不上原定日期，仍可考慮短節目；不能因此全取消，也不應未核長度就認定現有片段一定配合時段。"
+      },
+      "speaking": {
+        "en": "The hard truth of it is that we need to change the plan, not pretend the missing work is finished.",
+        "zh": "難受的現實是，我們需要改計劃，而非假裝未完成工作已做好。",
+        "targetSpan": {
+          "start": 0,
+          "end": 20
+        },
+        "promptZh": "先聽示範，再把現實與可行下一步連起來。"
+      },
+      "writing": {
+        "promptZh": "新情境：你原答應整理家人的錄音作生日禮物，檢查後才發現幾段重要檔案已遺失。你想寫給一起準備的家人，承認無法重建完整故事，提出用現有錄音加上清楚標示的回憶文字，不假造原話。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The hard truth of it is that we cannot recreate the missing recordings. We can use the surviving clips and clearly label the written memories that connect them.",
+            "zh": "難受的現實是，我們不能重建遺失錄音。我們可用現存片段，並清楚標示連接它們的回憶文字。"
+          },
+          {
+            "en": "Several files are gone, and the hard truth of it is that the complete audio story is out of reach. Let us make an honest collection from what remains.",
+            "zh": "幾個檔案已遺失，難受的現實是無法製作完整錄音故事。我們用剩下材料製作一份誠實的合輯吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the missing recordings",
+            "zh": "遺失錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 70
+            }
+          },
+          {
+            "en": "the surviving clips",
+            "zh": "現存片段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 102
+            }
+          },
+          {
+            "en": "the written memories",
+            "zh": "回憶文字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 141
+            }
+          },
+          {
+            "en": "an honest collection",
+            "zh": "誠實的合輯",
+            "exampleIndex": 1,
+            "span": {
+              "start": 111,
+              "end": 131
+            }
+          },
+          {
+            "en": "what remains",
+            "zh": "剩下的材料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 149
+            }
+          }
+        ],
+        "selfCheckZh": "承認不能還原遺失原聲，保留現有材料及可行替代，不把回憶文字偽裝成錄音原話。"
+      },
+      "takeaways": [
+        {
+          "en": "The hard truth of it was that the hall could not hold the audience we had invited.",
+          "zh": "難受的現實是，禮堂容不下我們已邀請的觀眾。"
+        },
+        {
+          "en": "The hard truth of it is that we need more evidence before telling that story as fact.",
+          "zh": "難受的現實是，我們需更多證據，才能把那故事當事實講。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1636",
+      "number": 1636,
+      "inventoryId": "expr-1636",
+      "contentRevision": 1,
+      "titleEn": "comes with a lifetime guarantee",
+      "titleZh": "附帶終身不變的保證",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bcom(?:e|es|ing) with a lifetime guarantee\\b|\\bcame with a lifetime guarantee\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p193-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 193,
+          "book": 7,
+          "question": 20,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "No human body comes with a lifetime guarantee.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "comes with a lifetime guarantee",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Be assured of lasting or working for life; often used figuratively to deny permanent certainty.",
+        "meaningZh": "被保證可持續一生或終身運作；比喻使用時常否定永遠確定不變。",
+        "grammar": "X does not come with a lifetime guarantee; comes/came with; a commercial promise used figuratively",
+        "register": "neutral",
+        "boundaryZh": "比喻的保證不是真實合約；沒有終身保證不等於當前無價值。區分現在的支持與對往後不變的承諾。",
+        "misconceptionZh": "比喻的保證不是真實合約；沒有終身保證不等於當前無價值。區分現在的支持與對往後不變的承諾。",
+        "outcomeZh": "理解「附帶終身不變的保證」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The source applies commercial guarantee wording to the human body. Practice extends the transparent metaphor to shared projects and relationships without asserting medical outcomes."
+      },
+      "listening": {
+        "en": "A successful first exhibition does not come with a lifetime guarantee of support; the gallery still needs to listen to local artists before planning the next season.",
+        "zh": "首次展覽成功，不附帶支持會持續終身的保證；畫廊規劃下季前仍需聽本地藝術家意見。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "首次成功不保證日後支持一直不變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "藝術家已承諾在接下來兩季繼續參與，並非只對首展有好評。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "首展成功表示下季題目已全部議定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "未有永久支持承諾，表示首次展覽並不成功。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不保證日後不變，仍承認首次成功並需繼續聆聽。"
+      },
+      "reply": {
+        "promptEn": "Why should the gallery keep talking to local artists after a successful first show?",
+        "promptZh": "畫廊首展成功後，為甚麼仍應與本地藝術家交談？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "That success does not come with a lifetime guarantee of support.",
+            "zh": "那次成功沒有附帶支持持續終身的保證。"
+          },
+          {
+            "id": "reply-2",
+            "en": "People’s needs and interests can change before the next season.",
+            "zh": "下季前，大家的需要及興趣可能改變。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The first show is useful evidence, but not a permanent promise from the artists.",
+            "zh": "首展是有用資料，但不是藝術家的永久承諾。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Listening helps the gallery understand whether its next plans still fit the local community.",
+            "zh": "聆聽幫畫廊了解新計劃是否仍配合本地社群。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你與朋友合辦讀書會，第一年很合拍；大家仍想每季談一次各自時間及目標，不把最初同意當作永不改變。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A good beginning does not come with a lifetime guarantee that our schedules will stay compatible.",
+            "zh": "好的開始，沒有附帶大家時間表終身相合的保證。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Because our first year went well, later changes to availability can be left out of the discussion.",
+            "zh": "首年順利，所以往後可出席時間的改變可不討論。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Reviewing the schedule means the first year was never enjoyable.",
+            "zh": "重談時間表表示首年從未愉快。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "現在合拍與日後安排可能改變可並存，不必否定過去。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 does not come with a lifetime guarantee 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "沒有承諾目前情況會終身維持。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "由於沒有永久保證，目前成果就沒有價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "往後仍可能需要留意變化並作調整。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "不確定往後，不抹去現在的實際價值。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「首年大家很投入，明年可直接沿用原時段，不問了吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A good first year does not come with a lifetime guarantee, so let us check whether the time still works.",
+            "zh": "首年順利沒有附帶終身保證，所以確認時段是否仍合適吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat last year’s attendance as everyone’s consent to next year’s timetable.",
+            "zh": "把去年出席當成大家同意明年時間表。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Wait until several people miss the first meetings before asking whether their schedules changed.",
+            "zh": "等幾人錯過最初幾次聚會，才問時間表是否改了。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "沿用前確認現在需要，不把過去出席當未來同意，也不等到實際缺席才查問。"
+      },
+      "speaking": {
+        "en": "A strong beginning does not come with a lifetime guarantee; we still need to care for the partnership.",
+        "zh": "良好開始沒有附帶終身保證；我們仍需用心維繫合作關係。",
+        "targetSpan": {
+          "start": 28,
+          "end": 58
+        },
+        "promptZh": "先聽示範，再分清現有成果與永久承諾。"
+      },
+      "writing": {
+        "promptZh": "新情境：你想寫一段畢業冊留言，珍惜目前友誼，也知道離校後生活及見面時間會變。你想提出繼續聯絡的實際心意，不承諾從此每周見面。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Friendship does not come with a lifetime guarantee, but I value what we have and want to keep in touch. Let’s make room for a call as our new routines settle.",
+            "zh": "友誼沒有附帶終身保證，但我珍惜我們的關係，也想繼續聯絡。新日常漸定時，找時間通電話吧。"
+          },
+          {
+            "en": "Our easy days together do not come with a lifetime guarantee, so I do not want to take the friendship for granted. I will write when we begin our new courses.",
+            "zh": "一起相處自在的日子沒有附帶終身保證，所以我不想把友誼當理所當然。新課程開始時，我會寫信。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "keep in touch",
+            "zh": "繼續聯絡",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 102
+            }
+          },
+          {
+            "en": "make room for a call",
+            "zh": "騰時間通電話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 130
+            }
+          },
+          {
+            "en": "our new routines",
+            "zh": "新的日常",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 150
+            }
+          },
+          {
+            "en": "take the friendship for granted",
+            "zh": "把友誼當理所當然",
+            "exampleIndex": 1,
+            "span": {
+              "start": 82,
+              "end": 113
+            }
+          },
+          {
+            "en": "our new courses",
+            "zh": "我們的新課程",
+            "exampleIndex": 1,
+            "span": {
+              "start": 142,
+              "end": 157
+            }
+          }
+        ],
+        "selfCheckZh": "珍惜現有友誼並提出可做聯絡，不因沒有永遠保證就否定關係，也不作無法核實的永久承諾。"
+      },
+      "takeaways": [
+        {
+          "en": "A popular idea does not come with a lifetime guarantee of interest from the audience.",
+          "zh": "受歡迎的構思沒有附帶觀眾終身感興趣的保證。"
+        },
+        {
+          "en": "No partnership comes with a lifetime guarantee, but continued attention can still matter.",
+          "zh": "合作沒有附帶終身保證，但持續用心仍有意義。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1638",
+      "number": 1638,
+      "inventoryId": "expr-1638",
+      "contentRevision": 1,
+      "titleEn": "a sharp mind and a steady hand",
+      "titleZh": "思路敏銳而操作沉穩",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba sharp mind and a steady hand\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p193-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 193,
+          "book": 7,
+          "question": 21,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "An emergency doctor needs a sharp mind and a steady hand.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a sharp mind and a steady hand",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Clear, quick judgement together with calm, controlled practical skill.",
+        "meaningZh": "清晰敏銳的判斷，配合沉着而有控制的實際操作能力。",
+        "grammar": "need/show a sharp mind and a steady hand; parallel body images for judgement and practical control",
+        "register": "neutral",
+        "boundaryZh": "不是只要想得快或手不動，也不等於永不出錯；需有判斷及動手兩方面的具體線索。",
+        "misconceptionZh": "不是只要想得快或手不動，也不等於永不出錯；需有判斷及動手兩方面的具體線索。",
+        "outcomeZh": "理解「思路敏銳而操作沉穩」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A patterned combination of familiar body descriptions, not a fixed proverb or a guarantee of expertise. The medical guide example is retained as provenance only."
+      },
+      "listening": {
+        "en": "Restoring the tiny model called for a sharp mind and a steady hand: Jo worked out which joint had shifted, then adjusted the small pieces without disturbing the rest.",
+        "zh": "修復小模型需要敏銳思路及沉穩操作：喬找出哪個接位移了，再調整小零件而不弄亂其他部分。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "喬既判斷問題，也有控制地處理小零件。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "喬只靠快速動手，沒有判斷接位問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "喬保持雙手不動，讓其他人完成修復。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "喬換走整個模型，沒有處理原來零件。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "worked out 是判斷，adjusted without disturbing 是操作，兩方面並存。"
+      },
+      "reply": {
+        "promptEn": "What made Jo suited to restoring the tiny model?",
+        "promptZh": "甚麼令喬適合修復小模型？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Jo showed a sharp mind and a steady hand in identifying and adjusting the shifted joint.",
+            "zh": "喬找出並調整移位接點，展現敏銳思路及沉穩操作。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Jo understood the problem and handled the small pieces carefully.",
+            "zh": "喬明白問題，也小心處理小零件。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The repair combined sound judgement with controlled movements.",
+            "zh": "修復結合良好判斷及有控制的動作。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Jo could work out what had moved without disturbing the surrounding parts.",
+            "zh": "喬能找出哪裏移位，又不弄亂周邊部分。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你手繪一張給新訪客的精細地圖，先決定比例及路線怎樣清楚呈現，再穩定畫出狹窄通道。哪句最能概括所需的兩方面能力？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Drawing this map calls for a sharp mind and a steady hand.",
+            "zh": "畫這張地圖需要敏銳思路及沉穩操作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Neat lines are enough, even if the scale makes the route misleading.",
+            "zh": "線條整齊就夠，即使比例令路線誤導也沒關係。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Once the route is understood, precise line placement is no longer relevant.",
+            "zh": "明白路線後，準確放置線條就不再相關。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "比例及呈現需要判斷，細通道的線條需要穩定控制；兩方面不能互相取代。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 a sharp mind and a steady hand 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "判斷及實際控制都很重要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要手部動作穩定，就不需理解任務。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需看實際表現，而不只憑這句稱讚認定專業程度。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "這個組合保留思考與操作，不能刪去判斷。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「他動作很穩，所以不用先看哪個零件出了問題吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A steady hand helps, but this needs a sharp mind as well; he should identify the problem before changing the pieces.",
+            "zh": "操作穩定有幫助，但也需要敏銳思路；改動零件前應先辨認問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose the first loose-looking piece and let careful movements replace checking the fault.",
+            "zh": "選第一個看來鬆的零件，用小心動作代替核對問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choose him for his neat handling of the tools without asking how he identified the fault.",
+            "zh": "只看他整齊用工具便選他，不問他怎樣辨認問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "穩定操作需要配合先辨認問題，不能只看用工具整齊而省去判斷。"
+      },
+      "speaking": {
+        "en": "The delicate work needs a sharp mind and a steady hand, with judgement guiding each careful movement.",
+        "zh": "精細工作需要敏銳思路及沉穩操作，由判斷引導每個小心動作。",
+        "targetSpan": {
+          "start": 24,
+          "end": 54
+        },
+        "promptZh": "先聽示範，再保留思考及操作兩方面。"
+      },
+      "writing": {
+        "promptZh": "新情境：你請美術社推薦一人，在義賣會即席寫客人要求的名字。他需先看準拼法及安排字距，再穩定運筆。你想在邀請訊息說明所需能力，並請對方提供相關作品例子。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "We need a sharp mind and a steady hand for the live lettering, with care over spelling, spacing and brush control. Could you recommend someone and share an example of their work?",
+            "zh": "即席寫字需要敏銳思路及沉穩操作，細心處理拼法、字距及運筆。可否推薦一人，並分享作品例子？"
+          },
+          {
+            "en": "Please look for a sharp mind and a steady hand rather than speed alone. We want a volunteer who can plan each name clearly and form the letters with control.",
+            "zh": "請找有敏銳思路及沉穩操作的人，而不只看速度。我們想找能清楚安排每個名字並有控制地寫字的義工。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the live lettering",
+            "zh": "即席寫字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 61
+            }
+          },
+          {
+            "en": "brush control",
+            "zh": "運筆控制",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 113
+            }
+          },
+          {
+            "en": "recommend someone",
+            "zh": "推薦一人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 142
+            }
+          },
+          {
+            "en": "an example of their work",
+            "zh": "他們的作品例子",
+            "exampleIndex": 0,
+            "span": {
+              "start": 153,
+              "end": 177
+            }
+          },
+          {
+            "en": "speed alone",
+            "zh": "只有速度",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 70
+            }
+          }
+        ],
+        "selfCheckZh": "用拼法、字距及運筆交代思考與操作，提出有依據的推薦請求，不只憑快或籠統稱讚。"
+      },
+      "takeaways": [
+        {
+          "en": "The restorer brought a sharp mind and a steady hand to the fragile model.",
+          "zh": "修復者以敏銳思路及沉穩操作處理脆弱模型。"
+        },
+        {
+          "en": "Designing that small mechanism required a sharp mind and a steady hand at different stages.",
+          "zh": "設計那小裝置，在不同階段都需要敏銳思路及沉穩操作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1639",
+      "number": 1639,
+      "inventoryId": "expr-1639",
+      "contentRevision": 1,
+      "titleEn": "not amount to much",
+      "titleZh": "實際作用有限",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bnot amount to much\\b|\\b(?:doesn't|don't|didn't) amount to much\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p193-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 193,
+          "book": 7,
+          "question": 21,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Good intentions may not amount to much without skill.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not amount to much",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Have little practical value, effect or significance in the stated context.",
+        "meaningZh": "在所說情境中，實際價值、作用或意義有限。",
+        "grammar": "may not amount to much; does not amount to much; amount to + result/value, with negation in this lesson",
+        "register": "neutral",
+        "boundaryZh": "談指定行動的實際作用，不是評論一個人的價值；little 不一定是完全零，也要交代為何不足。",
+        "misconceptionZh": "談指定行動的實際作用，不是評論一個人的價值；little 不一定是完全零，也要交代為何不足。",
+        "outcomeZh": "理解「實際作用有限」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Our promise to welcome new members might not amount to much if the meeting details remained in a private chat they could not see.",
+        "zh": "若聚會細節仍放在新成員看不到的私人群組，我們歡迎他們的承諾，實際作用可能有限。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "承諾若未配合可取得的資訊，實際幫助有限。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新成員已取得聚會細節，承諾不再需要解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "私人群組只用來保存舊照片，沒有影響聚會資訊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者在衡量每位新成員本身的價值。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "if they could not see 限定承諾的作用，不是評價人的價值。"
+      },
+      "reply": {
+        "promptEn": "Why is a welcoming promise not enough here?",
+        "promptZh": "在這裏，為甚麼只承諾歡迎仍不足夠？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It may not amount to much if new members cannot see the meeting details.",
+            "zh": "若新成員看不到聚會細節，承諾實際作用可能有限。"
+          },
+          {
+            "id": "reply-2",
+            "en": "People need access to the information before they can join us.",
+            "zh": "大家要先取得資訊，才可加入活動。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Friendly words need to be supported by details newcomers can actually read.",
+            "zh": "友善說話需配合新人實際看得到的資料。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The promise has limited practical value while the arrangements remain hidden from them.",
+            "zh": "安排對新人仍不可見時，承諾實際價值有限。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "義工說會幫忙，但未確認負責哪項工作，活動在明天；你想說只有好意未必有實際支援。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The offer may not amount to much until we agree what help is needed.",
+            "zh": "未議定需要甚麼幫忙前，提議的實際作用可能有限。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The offer already tells us which tasks will be covered tomorrow.",
+            "zh": "提議已告訴我們明天哪些工作有人負責。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We should wait until the event has started before deciding what the volunteer can do.",
+            "zh": "我們應等活動開始後，才決定義工可做甚麼。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "好意尚未配對實際工作，因此支援仍有限；不能當作已確定有人負責，也不宜等活動開始才議定。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 the offer may not amount to much 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這項提議在目前情況未必有多大實效。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "提出幫忙的人本身沒有價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍可把提議具體化，看看能怎樣發揮作用。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "評的是當前提議作用，不是人的價值。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「他有說願意幫忙，就把明天的工作全寫作已有人負責吧。」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The offer may not amount to much until we match it to a task; let us ask what he can take on.",
+            "zh": "未把提議配對工作前，實際作用可能有限；先問他能負責甚麼吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the task list blank because asking would make the friendly offer less sincere.",
+            "zh": "問工作會令友善提議顯得不真誠，所以把工作清單留白。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the offer as confirmation that the particular tasks we need are covered.",
+            "zh": "把提議當成我們所需具體工作已有安排的確認。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "把善意轉為清楚任務，既不拒絕好意，也不把未定內容當確認。"
+      },
+      "speaking": {
+        "en": "Good intentions may not amount to much unless we turn them into help that people can use.",
+        "zh": "若不把好意轉成大家用得上的幫助，實際作用可能有限。",
+        "targetSpan": {
+          "start": 20,
+          "end": 38
+        },
+        "promptZh": "先聽示範，再把意圖與實效分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：你錯過與朋友一起練訪問的約定，想寫道歉訊息。只說「之後會幫忙」不足以讓他準備，所以你提出星期四晚補練，也讓他選其他時間。用一至兩句英文承認失約並提出具體補救。",
+        "examples": [
+          {
+            "en": "I am sorry I missed our practice; a vague promise may not amount to much when your interview is so close. Could we rehearse on Thursday evening, or at another time that suits you?",
+            "zh": "對不起，我錯過練習；訪問這麼近，含糊承諾實際作用可能有限。星期四晚補練，或另選你合適時間，可以嗎？"
+          },
+          {
+            "en": "Saying I will help later might not amount to much, so I would like to agree a real practice time with you. I am free on Thursday evening and can adjust if needed.",
+            "zh": "只說之後幫忙，實際作用可能有限，所以我想與你議定真正練習時間。我星期四晚有空，有需要可調整。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our practice",
+            "zh": "我們的練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 32
+            }
+          },
+          {
+            "en": "a vague promise",
+            "zh": "含糊承諾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 49
+            }
+          },
+          {
+            "en": "Thursday evening",
+            "zh": "星期四晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 127,
+              "end": 143
+            }
+          },
+          {
+            "en": "another time that suits you",
+            "zh": "另一個你合適的時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 151,
+              "end": 178
+            }
+          },
+          {
+            "en": "a real practice time",
+            "zh": "實際練習時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 96
+            }
+          }
+        ],
+        "selfCheckZh": "承認失約並把含糊好意轉成可確認的補練安排，不用空泛承諾代替實際幫忙。"
+      },
+      "takeaways": [
+        {
+          "en": "A vague promise may not amount to much when the team needs a clear next step.",
+          "zh": "小組需要清楚下一步時，含糊承諾實際作用可能有限。"
+        },
+        {
+          "en": "The extra page did not amount to much without the explanation readers needed.",
+          "zh": "沒有讀者所需解釋，額外一頁實際作用不大。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1640",
+      "number": 1640,
+      "inventoryId": "expr-1640",
+      "contentRevision": 1,
+      "titleEn": "place their trust in",
+      "titleZh": "把信任交託給某人",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bplac(?:e|es|ed|ing) (?:their|my|your|our|his|her) trust in\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p194-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 194,
+          "book": 7,
+          "question": 21,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Patients need a doctor they can place their trust in.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "place their trust in",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Rely on someone or something with confidence in their reliability or ability.",
+        "meaningZh": "因相信可靠性或能力，而信賴某人或某事。",
+        "grammar": "place their trust in + person/system; placed in past; in introduces the trusted party",
+        "register": "neutral",
+        "boundaryZh": "信任是願意倚靠，不等於證實永不失誤；可有具體理由，也可保留詢問及檢視。",
+        "misconceptionZh": "信任是願意倚靠，不等於證實永不失誤；可有具體理由，也可保留詢問及檢視。",
+        "outcomeZh": "理解「把信任交託給某人」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The volunteers placed their trust in Maya to handle the rota because she checked people’s availability and explained every change instead of making quiet assumptions.",
+        "zh": "義工信任瑪雅處理輪值表，因為她核對大家空檔並解釋每項改動，而非默默作假設。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "信任來自她核對時間及清楚說明的做法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "大家信任她，只因她比其他人說話更快。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她已不用再問空檔，因義工把信任交給她。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "義工不知輪值有改動，也沒有得到解釋。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "because 指出可靠行動，信任並沒有取消核對及說明。"
+      },
+      "reply": {
+        "promptEn": "Why do the volunteers rely on Maya with the rota?",
+        "promptZh": "義工為甚麼願意讓瑪雅處理輪值表？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They place their trust in her because she checks availability and explains changes.",
+            "zh": "他們信任她，因她核對空檔及解釋改動。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She makes the arrangements clear instead of assuming what people can do.",
+            "zh": "她把安排說清，而非假定大家能做甚麼。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Her careful communication gives them a reason to rely on her.",
+            "zh": "她細心溝通，給大家信賴她的理由。"
+          },
+          {
+            "id": "reply-4",
+            "en": "She has shown that she takes their actual schedules seriously.",
+            "zh": "她展現認真看待大家實際時間表。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你選同伴保管小組訪問錄音，因他會先問用途、清楚標記來源及按約定交回，不只是熟朋友。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We place our trust in him because he handles the recordings responsibly.",
+            "zh": "我們信任他，因他負責任地處理錄音。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Being a familiar face is the only reason we have given for the choice.",
+            "zh": "我們給出的選擇理由只有他是熟人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Trust means we should stop discussing how the recordings may be used.",
+            "zh": "信任表示應停止談錄音可怎樣使用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "具體處理行動支持信任，不是只憑熟悉，也不取消用途約定。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 place our trust in her 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "我們願意信賴她處理相關事情。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她往後的決定不再需要解釋或詢問。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "信任理由可來自以往可靠的處理方式。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "信任不免除溝通或有需要時的檢視。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「大家都信任我，所以改輪值不用先問他們吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They place their trust in you partly because you check with them; keep that communication.",
+            "zh": "他們部分因你會先核對才信任你；保持這種溝通吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat their trust as agreement to any new hours you choose.",
+            "zh": "把他們的信任當成同意你選的任何新時段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Last season’s availability should be enough for the new rota, so we can ask about changes later.",
+            "zh": "上季空檔應足以排新輪值表，所以稍後再問改動便可。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "信任來自先核對及說明，不是把信任當無條件同意，或假定上季時間仍適用。"
+      },
+      "speaking": {
+        "en": "We place our trust in people who explain their decisions and take our concerns seriously.",
+        "zh": "我們信任願意解釋決定、認真看待我們顧慮的人。",
+        "targetSpan": {
+          "start": 3,
+          "end": 21
+        },
+        "promptZh": "先聽示範，再用具體行為說明信任。"
+      },
+      "writing": {
+        "promptZh": "新情境：你第一次參加社區導賞，想選一位會承認不確定資料、願意查來源的帶領者，而非只講得很肯定的人。你要回覆朋友問你為何作此選擇。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "I would place my trust in a guide who checks uncertain details rather than presenting every story as fact. Being clear about the sources matters to me.",
+            "zh": "我會信任願意核對不確定細節的導賞員，而非把每個故事都當事實講。清楚交代來源對我很重要。"
+          },
+          {
+            "en": "I place my trust in her because she admits what she does not know and offers to check it. That gives me more confidence than a forceful answer without a source.",
+            "zh": "我信任她，因她承認不知道的部分，並願意查證。這比沒有來源卻很肯定的答案更讓我放心。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a guide",
+            "zh": "導賞員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 26,
+              "end": 33
+            }
+          },
+          {
+            "en": "uncertain details",
+            "zh": "不確定細節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 62
+            }
+          },
+          {
+            "en": "the sources",
+            "zh": "那些來源",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 136
+            }
+          },
+          {
+            "en": "offers to check it",
+            "zh": "願意查證它",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 88
+            }
+          },
+          {
+            "en": "a forceful answer",
+            "zh": "語氣很肯定的答案",
+            "exampleIndex": 1,
+            "span": {
+              "start": 125,
+              "end": 142
+            }
+          }
+        ],
+        "selfCheckZh": "以承認不確定及查來源作信任理由，不把語氣肯定等同準確，也不聲稱信任保證永不出錯。"
+      },
+      "takeaways": [
+        {
+          "en": "They placed their trust in the organiser who kept them informed when the plan changed.",
+          "zh": "計劃改變時仍讓大家知情的主辦者，得到他們信任。"
+        },
+        {
+          "en": "I place my trust in her judgement because she listens before reaching a decision.",
+          "zh": "我信任她的判斷，因她決定前會先聆聽。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1641",
+      "number": 1641,
+      "inventoryId": "expr-1641",
+      "contentRevision": 1,
+      "titleEn": "the person behind the symptoms",
+      "titleZh": "看見症狀背後的人",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe person behind the symptoms\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p194-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 194,
+          "book": 7,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Good care sees the person behind the symptoms.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the person behind the symptoms",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The individual with a life, concerns and identity beyond the symptoms being discussed.",
+        "meaningZh": "除了正在談的症狀以外，仍有自身生活、顧慮及身分的個人。",
+        "grammar": "see/remember the person behind the symptoms; behind is a perspective metaphor, not physical position",
+        "register": "neutral",
+        "boundaryZh": "看見整個人不等於忽略症狀，也不憑個人故事推斷診斷。",
+        "misconceptionZh": "看見整個人不等於忽略症狀，也不憑個人故事推斷診斷。",
+        "outcomeZh": "理解「看見症狀背後的人」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The supplied health-care frame is practised through fictional narrative and attributed interview language; the lesson assesses perspective and meaning, not clinical decisions."
+      },
+      "listening": {
+        "en": "In the story, the nurse sees the person behind the symptoms when she asks Nora what worries her about missing the school play, while still recording what Nora has described.",
+        "zh": "故事中，護士問諾拉對錯過校劇有甚麼擔心，同時仍記下她描述的情況，展現看見症狀背後的人。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "護士既留意諾拉的個人顧慮，也保留相關記錄。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "護士以校劇擔心取代記錄諾拉描述的情況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "諾拉只是護士用來解釋校劇內容的一個名字。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "護士已按諾拉的愛好決定她的病因。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "asks worries 加 still recording 顯示個人關懷與記錄並存，沒有作病因判斷。"
+      },
+      "reply": {
+        "promptEn": "How does the story show the nurse treating Nora as an individual?",
+        "promptZh": "故事怎樣展現護士把諾拉看作個人？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She sees the person behind the symptoms by asking about Nora’s own concern.",
+            "zh": "她問諾拉自身的顧慮，看見症狀背後的人。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She notices that missing the play matters to Nora.",
+            "zh": "她留意到錯過校劇對諾拉很重要。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She listens to Nora’s life as well as recording what Nora describes.",
+            "zh": "她既記下諾拉的描述，也聽她生活中的事。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Her question gives room for the concern that matters to this particular character.",
+            "zh": "她的問題讓這個角色在意的顧慮有表達空間。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你編一份健康經歷訪問展覽的介紹，受訪者不只是症狀清單上的姓名；她也談自己修補舊書及與孫兒講故事的生活。哪句最貼切地概括這種人物介紹？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The introduction should help visitors see the person behind the symptoms.",
+            "zh": "介紹應幫訪客看見症狀背後的人。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her book-mending hobby tells us the medical cause of the symptoms.",
+            "zh": "她修補書本的愛好告訴我們症狀的醫學原因。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The symptom list alone already conveys the personal relationships described in the interview.",
+            "zh": "單憑症狀清單，已傳達訪問描述的個人關係。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "書本及家人生活補充個人身分，讓介紹不只停在症狀；它們不證明病因，症狀清單也不能代替這些關係。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 the person behind the symptoms 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "角色有症狀以外的生活及個人顧慮。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要談個人故事，就可不再理會症狀描述。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "作品可透過對話讓角色不只是一份病例。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "視角擴大不等於刪去症狀，也不提供診療結論。"
+      },
+      "dialogue": {
+        "promptZh": "同伴評論小說：「護士問校劇，就表示症狀不重要了吧？」哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The story keeps both in view: she sees the person behind the symptoms while recording what Nora describes.",
+            "zh": "故事同時保留兩方面：她看見症狀背後的人，也記下諾拉的描述。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We should remove the recording detail from the review because it does not concern Nora’s hobby.",
+            "zh": "記錄細節不關諾拉愛好，所以評論中應刪去。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Mentioning the play is enough to tell us why Nora has those symptoms.",
+            "zh": "提校劇已足以告訴我們諾拉為何有那些症狀。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "尊重個人與留意症狀可同時存在，愛好不證明病因。"
+      },
+      "speaking": {
+        "en": "The dialogue lets us see the person behind the symptoms, with a life that matters beyond this one scene.",
+        "zh": "對話讓我們看見症狀背後的人，其生活的重要性不只限於這一幕。",
+        "targetSpan": {
+          "start": 25,
+          "end": 55
+        },
+        "promptZh": "先聽示範，再把人物視角與忽略症狀分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：你替一齣短劇準備角色筆記，角色在診所等候，劇本另外提到他是喜歡教孩子畫畫的祖父。你想向演員說明這個細節如何令角色完整，而非只表演不舒服。用一至兩句英文寫表演討論筆記。",
+        "examples": [
+          {
+            "en": "Remember the person behind the symptoms: he is also a grandfather who loves teaching children to draw. That detail can shape the way he speaks about the afternoon he is missing.",
+            "zh": "記住症狀背後的人：他也是喜歡教孩子畫畫的祖父。這細節可影響他怎樣談起自己錯過的下午。"
+          },
+          {
+            "en": "The character notes should reveal the person behind the symptoms, including his patience with young artists. We need more than a general expression of discomfort to understand him.",
+            "zh": "角色筆記應呈現症狀背後的人，包括他對年幼畫畫者的耐性。要理解他，不能只有籠統的不舒服表情。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a grandfather",
+            "zh": "祖父",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 65
+            }
+          },
+          {
+            "en": "teaching children to draw",
+            "zh": "教孩子畫畫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 101
+            }
+          },
+          {
+            "en": "the afternoon he is missing",
+            "zh": "他錯過的下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 149,
+              "end": 176
+            }
+          },
+          {
+            "en": "his patience",
+            "zh": "他的耐性",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 88
+            }
+          },
+          {
+            "en": "a general expression of discomfort",
+            "zh": "籠統的不舒服表情",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 161
+            }
+          }
+        ],
+        "selfCheckZh": "用祖父與孩子的具體關係支持角色完整性，不把愛好當病因，也不把症狀表現全刪去。"
+      },
+      "takeaways": [
+        {
+          "en": "The diary reveals the person behind the symptoms through her hopes for the coming week.",
+          "zh": "日記透過她對下周的期盼，呈現症狀背後的人。"
+        },
+        {
+          "en": "The scene remembers the person behind the symptoms without pretending that her discomfort does not matter.",
+          "zh": "這一幕記得症狀背後的人，沒有假裝她的不適不重要。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1642",
+      "number": 1642,
+      "inventoryId": "expr-1642",
+      "contentRevision": 1,
+      "titleEn": "easing fear",
+      "titleZh": "減輕恐懼",
+      "category": "natural",
+      "target": {
+        "pattern": "\\beas(?:e|es|ed|ing) (?:the |their |my |our |his |her )?fears?\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p194-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 194,
+          "book": 7,
+          "question": 21,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A clear explanation helps with easing fear.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "easing fear",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make fear less strong or make someone less afraid.",
+        "meaningZh": "讓恐懼程度減輕，或讓某人沒那麼害怕。",
+        "grammar": "ease fear/ease their fears; easing drops e; reduced intensity need not mean no fear remains",
+        "register": "neutral",
+        "boundaryZh": "減輕不等於立刻消除，也不證明擔心的事已不可能發生；要分清感受變化與實際安排。",
+        "misconceptionZh": "減輕不等於立刻消除，也不證明擔心的事已不可能發生；要分清感受變化與實際安排。",
+        "outcomeZh": "理解「減輕恐懼」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide calls this figurative; the lesson teaches a natural emotion-reduction collocation, without a clinical claim."
+      },
+      "listening": {
+        "en": "Explaining where the quiet room was helped ease fear among the visitors who worried about getting overwhelmed, although they still wanted to see the route before the event.",
+        "zh": "說明安靜房間在哪裏，有助減輕訪客對難以承受環境的擔心，雖然他們仍想在活動前看路線。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "解釋減輕擔心，但訪客仍希望先看路線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "訪客已完全不擔心，也不想知道房間位置。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者認為只要講得親切，就不用提供真實路線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "訪客拒絕解釋，恐懼一直維持原有程度。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "helped ease 與 still wanted 並存，顯示減輕並未取消實際需要。"
+      },
+      "reply": {
+        "promptEn": "What did explaining the quiet room’s location achieve?",
+        "promptZh": "解釋安靜房間的位置有甚麼作用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It helped ease their fears, though they still wanted to check the route.",
+            "zh": "它有助減輕他們的恐懼，但他們仍想看路線。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They felt less worried about finding somewhere to step away.",
+            "zh": "他們對能否找到地方暫時離開的擔心減少。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The explanation made the arrangement less uncertain for them.",
+            "zh": "解釋讓安排對他們沒那麼不確定。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It offered some reassurance without removing their wish to see the route.",
+            "zh": "它提供一些安心，沒有消除他們看路線的意願。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新同學怕首次報告時忘詞，老師解釋可先看提示卡及停下再說；他稍安心，仍想練開場。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The explanation eased his fear, but he still wanted to rehearse the opening.",
+            "zh": "解釋減輕他的恐懼，但他仍想練開場。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The explanation showed that rehearsal would no longer be useful to him.",
+            "zh": "解釋顯示排練對他不再有用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He felt just as afraid and agreed to rehearse only to satisfy the teacher.",
+            "zh": "他仍同樣害怕，只為滿足老師才答應排練。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "題目明說稍安心，表示恐懼減輕；仍想練開場不等於沒變化，也不表示不需練習。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 eased her fears 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她的恐懼程度減輕。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她所擔心的事情已被證實不可能發生。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍要看情境，才知道恐懼減少到甚麼程度。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "感受減輕與外在風險不存在，是不同說法。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「他安心一點，就不用再帶他看路線了吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Easing fear does not remove his request; let us show him the route he still wants to check.",
+            "zh": "減輕恐懼不取消他的請求；帶他看仍想核對的路線吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use his calmer expression as consent to cancel the route visit.",
+            "zh": "把他較平靜的表情當成同意取消看路線。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Send another reassuring message instead of arranging the route visit he asked for.",
+            "zh": "再寄一段安慰訊息，代替安排他要求的看路線。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "感受稍安不代替已提出的實際確認，需保留請求。"
+      },
+      "speaking": {
+        "en": "A clear explanation can ease fear while leaving room for questions and practical checks.",
+        "zh": "清楚解釋可減輕恐懼，同時保留提問及實際核對。",
+        "targetSpan": {
+          "start": 24,
+          "end": 33
+        },
+        "promptZh": "先聽示範，再把感受改善與仍需確認的事分開。"
+      },
+      "writing": {
+        "promptZh": "新情境：你評論一齣短片，小女孩找不到寵物，鄰居答應陪她等候，令她稍沒那麼害怕；片尾仍未找到寵物。你要說明陪伴的情感作用，而不把安心寫成寵物已安全回家。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The neighbour’s company helps ease her fear while she waits for news of her pet. The ending offers companionship rather than a confirmed homecoming.",
+            "zh": "她等寵物消息時，鄰居陪伴有助減輕恐懼。結尾給予陪伴，而非確認寵物已回家。"
+          },
+          {
+            "en": "We can see the conversation easing fear, even though the pet remains missing. The scene changes how alone the girl feels without settling what has happened.",
+            "zh": "我們看見交談減輕恐懼，儘管寵物仍未找到。這一幕改變女孩的孤單感，沒有確定寵物發生了甚麼事。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The neighbour’s company",
+            "zh": "鄰居的陪伴",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "news of her pet",
+            "zh": "寵物消息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 79
+            }
+          },
+          {
+            "en": "a confirmed homecoming",
+            "zh": "已確認回家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 147
+            }
+          },
+          {
+            "en": "the pet remains missing",
+            "zh": "寵物仍未找到",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 76
+            }
+          },
+          {
+            "en": "how alone the girl feels",
+            "zh": "女孩有多孤單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 120
+            }
+          }
+        ],
+        "selfCheckZh": "區分恐懼減輕與寵物去向未明，按片尾資料評論陪伴，不虛構安全回家。"
+      },
+      "takeaways": [
+        {
+          "en": "Knowing who would meet her at the entrance helped ease her fears about the first visit.",
+          "zh": "知道誰會在入口接她，有助減輕她對首次到訪的恐懼。"
+        },
+        {
+          "en": "The explanation eased their fears without answering every practical question they still had.",
+          "zh": "解釋減輕他們的恐懼，但未答完他們仍有的每個實際問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1644",
+      "number": 1644,
+      "inventoryId": "expr-1644",
+      "contentRevision": 1,
+      "titleEn": "closing one door only to find another one opening",
+      "titleZh": "解決一個難題又遇上另一個",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bclosing one door only to find another one opening\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p194-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 194,
+          "book": 7,
+          "question": 22,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "It felt like closing one door only to find another one opening.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "closing one door only to find another one opening",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "In a difficulty-focused context, dealing with one problem while a different problem appears.",
+        "meaningZh": "在明確談困難的情境中，處理了一個問題，卻又出現另一個。",
+        "grammar": "feel like closing one door only to find another one opening: + explicit new difficulty; only to marks an unexpected result",
+        "register": "neutral",
+        "boundaryZh": "開門也常比喻新機會，不能只看 door opening 就一律判為壞事；本課需由前後內容明說另一個難題。",
+        "misconceptionZh": "開門也常比喻新機會，不能只看 door opening 就一律判為壞事；本課需由前後內容明說另一個難題。",
+        "outcomeZh": "理解「解決一個難題又遇上另一個」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide calls this a fixed idiom and glosses new difficulties. The whole sentence is instead treated as a creative door metaphor whose negative reading needs explicit context; opportunity-opening uses are not erased."
+      },
+      "listening": {
+        "en": "For the organisers, it felt like closing one door only to find another one opening: once they secured a rehearsal room, they discovered that the piano could not be moved there.",
+        "zh": "對主辦者來說，像解決一個難題又遇上另一個：找到排練房後，才發現鋼琴不能搬到那裏。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "場地問題之後，又出現鋼琴搬運問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "找到房間後，他們已得到另一個理想演出機會。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "同一間房被同時預約兩次，是句中唯一的問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他們仍未找到房間，所以還沒考慮樂器安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "冒號後明說新困難，令開門在這裏不是機會；房間已找到。"
+      },
+      "reply": {
+        "promptEn": "Why did the organisers feel another difficulty had appeared?",
+        "promptZh": "主辦者為甚麼覺得又出現另一個困難？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It was like closing one door only to find another one opening: the piano could not go into the room they had found.",
+            "zh": "像解決一個難題又遇上另一個：鋼琴不能搬進剛找到的房間。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Securing the room did not settle how to get the piano there.",
+            "zh": "找到房間，沒有解決怎樣把鋼琴放進去。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The room was available, but the instrument arrangement created a new obstacle.",
+            "zh": "房間可用，但樂器安排帶來新障礙。"
+          },
+          {
+            "id": "reply-4",
+            "en": "One problem had been dealt with when a different practical problem emerged.",
+            "zh": "一個問題處理好時，又浮現另一個實際問題。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "刊物終於取得相片使用許可，卻發現檔案太小無法清楚印刷。你明說這是接連不同難題。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It feels like closing one door only to find another one opening: permission is settled, but image quality is now the obstacle.",
+            "zh": "像解決一個難題又遇上另一個：許可已定，但圖像質素成為新障礙。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The new issue is still only whether the photographer has given permission.",
+            "zh": "新問題仍只是攝影者有沒有給許可。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The low-resolution file gives the team a new publishing opportunity with no practical obstacle mentioned.",
+            "zh": "低解像檔案帶來新出版機會，敘述沒有提實際障礙。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "許可與解像度是不同問題，後者在題目明說為印刷障礙。"
+      },
+      "contrast": {
+        "promptZh": "對 closing one door only to find another one opening，哪種理解不宜脫離上下文套用？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在本課明說困難的例子，可指另一個問題出現。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "凡是門打開，都必定是壞事，不能指新機會。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "要看新出現的是困難、機會還是其他事情。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "門的比喻有不同方向，本課負面意思由具體困難支持。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「這裏 another door opening 應該是好機會吧？」但後文說鋼琴搬不進新房間。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "In this account it is another obstacle; the piano detail tells us how to read the door image.",
+            "zh": "在這段敘述中，它是另一個障礙；鋼琴細節告訴我們怎樣理解門的意象。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The piano detail means the organisers have gained an extra musical opportunity in the new room.",
+            "zh": "鋼琴細節表示主辦者在新房間得到額外音樂機會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the image as the same problem continuing, since the rehearsal room has not been secured.",
+            "zh": "把意象當原問題延續，因排練房還未取得。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "房間已取得，但鋼琴搬不進去是新障礙；不是增加演出機會，也不是仍未取得房間。"
+      },
+      "speaking": {
+        "en": "It felt like closing one door only to find another one opening: the venue was ready, but our transport had fallen through.",
+        "zh": "像解決一個難題又遇上另一個：場地準備好，但交通安排落空。",
+        "targetSpan": {
+          "start": 13,
+          "end": 62
+        },
+        "promptZh": "先聽示範，再用後文判斷開門比喻的方向。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們的社區食譜小冊終於補齊缺頁，卻發現不同作者用了不同份量單位，讀者難以比較。你要寫給編輯，交代已解決及新出現的兩項不同問題，並提出統一說明單位。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "It feels like closing one door only to find another one opening: the pages are complete, but the measurements are inconsistent. Let’s add a clear guide to the units.",
+            "zh": "像解決一個難題又遇上另一個：頁面已齊，但份量標示不一致。加一份清楚的單位說明吧。"
+          },
+          {
+            "en": "We are closing one door only to find another one opening, with the missing pages restored but a new problem in the measurements. I suggest checking the units with each contributor.",
+            "zh": "我們補回缺頁，卻遇到份量標示的新問題，像解決一個難題又遇上另一個。我建議向每位作者核對單位。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the pages are complete",
+            "zh": "頁面已齊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 87
+            }
+          },
+          {
+            "en": "the measurements are inconsistent",
+            "zh": "份量標示不一致",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 126
+            }
+          },
+          {
+            "en": "the units",
+            "zh": "那些單位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 164
+            }
+          },
+          {
+            "en": "the missing pages",
+            "zh": "缺少的頁面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 80
+            }
+          },
+          {
+            "en": "each contributor",
+            "zh": "每位作者",
+            "exampleIndex": 1,
+            "span": {
+              "start": 163,
+              "end": 179
+            }
+          }
+        ],
+        "selfCheckZh": "清楚區分缺頁已解與單位新問題，讓負面開門意象有依據，並提出實際跟進。"
+      },
+      "takeaways": [
+        {
+          "en": "The project felt like closing one door only to find another one opening: the files arrived, but several could not be read.",
+          "zh": "計劃像解決一個難題又遇上另一個：檔案送到了，但幾個無法讀取。"
+        },
+        {
+          "en": "They described it as closing one door only to find another one opening, because a new timetable clash appeared after the room was booked.",
+          "zh": "他們形容為解決一個難題又遇上另一個，因訂房後出現新的時間衝突。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1645",
+      "number": 1645,
+      "inventoryId": "expr-1645",
+      "contentRevision": 1,
+      "titleEn": "healthier for longer",
+      "titleZh": "在更長日子裏保持較好健康",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bhealthier for longer\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p194-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 194,
+          "book": 7,
+          "question": 22,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Better habits may help people stay healthier for longer.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "healthier for longer",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "In better health for a longer period, often expressed as a hope or aim.",
+        "meaningZh": "在較長一段日子裏，保持較好的健康狀態，常用來表達期望或目標。",
+        "grammar": "hope/aim to stay healthier for longer; comparative adjective plus comparative duration; retain may/hope where stated",
+        "register": "neutral",
+        "boundaryZh": "是健康程度與持續時間，不是身高、壽命保證或永不生病；本課分辨人物目標與已證實成果，不由句型推定某方法有效。",
+        "misconceptionZh": "是健康程度與持續時間，不是身高、壽命保證或永不生病；本課分辨人物目標與已證實成果，不由句型推定某方法有效。",
+        "outcomeZh": "理解「在更長日子裏保持較好健康」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "In her diary, the character says she hopes to stay healthier for longer so she can keep joining ordinary family activities; she is describing an aim, not reporting a proven result.",
+        "zh": "角色在日記說，希望在更長日子裏保持較好健康，以繼續參與平常家庭活動；她說的是目標，而非報告已證實成果。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "角色表達較長期保持較好健康的期望。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "角色已證明自己往後不會生病。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "角色只希望每次家庭活動時間更長，沒有談健康。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "日記是在報告她過去已保持較好健康的時間，而非表達往後的目標。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "hopes 及 aim 指往後期望，並非已證實終身結果、活動長度或過去健康表現報告。"
+      },
+      "reply": {
+        "promptEn": "What is the character hoping for in her diary?",
+        "promptZh": "角色在日記希望甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She hopes to stay healthier for longer and keep taking part in family activities.",
+            "zh": "她希望在更長日子裏保持較好健康，繼續參與家庭活動。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Her aim concerns a longer period of better health, not a competition result.",
+            "zh": "她的目標關乎較長時間有較好健康，而非競賽成績。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She wants to remain well enough to enjoy ordinary time with her family.",
+            "zh": "她希望維持足以享受平常家庭時光的健康。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The diary expresses a hope about health over time rather than a claim that it is guaranteed.",
+            "zh": "日記表達健康隨時間維持的期望，而非聲稱已有保證。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社區展覽要為退休老師的錄音加簡介。她談到希望在較長日子裏保持較好健康，以繼續帶領每月故事會；錄音沒有報告任何方法已見效。哪句簡介忠於她的意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She hopes to stay healthier for longer so that she can continue leading the monthly story group.",
+            "zh": "她希望在更長日子裏保持較好健康，以繼續帶領每月故事小組。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She has demonstrated that leading the group guarantees lifelong health.",
+            "zh": "她已證明帶小組可保證終身健康。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her only wish is to make each monthly meeting longer, not to discuss her health over time.",
+            "zh": "她唯一願望是讓每月聚會更長，不是在談健康隨時間維持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "簡介要保留希望、較長期健康及繼續帶故事會的目的，不把它改成方法成果或單次聚會長度。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 hopes to be healthier for longer 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "人物有較長期健康方面的期望。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "人物已證實某方法能保證自己永不生病。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "這句話的期望與日後實際結果需分開。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "期望不提供方法成效或終身結果證據。"
+      },
+      "dialogue": {
+        "promptZh": "同伴想把角色的 hopes to stay healthier for longer 改成「已保證永遠健康」。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Keep it as her hope for a longer period of better health, not a guarantee of permanent health.",
+            "zh": "保留為她對較長時間較好健康的期望，而非永久健康保證。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the confident wording as evidence that her aim has already been achieved.",
+            "zh": "以肯定措辭作為她已達目標的證據。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the health comparison and describe only how long the family outing lasts.",
+            "zh": "刪去健康比較，只描述家庭外出活動有多長。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "hope、健康程度、持續期都要保留，不能改成結果或另一個時間對象。"
+      },
+      "speaking": {
+        "en": "She hopes to stay healthier for longer, but the diary presents this as a personal aim rather than a guaranteed outcome.",
+        "zh": "她希望在更長日子裏保持較好健康，但日記把這寫成個人目標，而非保證成果。",
+        "targetSpan": {
+          "start": 18,
+          "end": 38
+        },
+        "promptZh": "先聽示範，再保留比較及期望的程度。"
+      },
+      "writing": {
+        "promptZh": "新情境：英語故事中的年長角色想加入社區花園。他的願望是長期保持較好健康、繼續參與，不是要承諾每次都能來。你替他寫給組員的訊息，說明願望並問可否彈性安排參與。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "I hope to stay healthier for longer, and I would like to remain involved in the garden. Could we discuss a flexible role rather than promise that I will attend every session?",
+            "zh": "我希望在更長日子裏保持較好健康，也想繼續參與花園。可否談一個彈性角色，而非承諾每節都出席？"
+          },
+          {
+            "en": "Being healthier for longer is a personal hope, not something I can guarantee in this letter. I would value a way to take part as my availability changes.",
+            "zh": "在更長日子裏有較好健康是個人期望，不是這封信能保證的事。我希望可有一種隨空檔改變仍能參與的方式。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "remain involved",
+            "zh": "繼續參與",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 72
+            }
+          },
+          {
+            "en": "the garden",
+            "zh": "那個花園",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 86
+            }
+          },
+          {
+            "en": "a flexible role",
+            "zh": "彈性角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 120
+            }
+          },
+          {
+            "en": "every session",
+            "zh": "每節活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 173
+            }
+          },
+          {
+            "en": "my availability changes",
+            "zh": "我的空檔改變",
+            "exampleIndex": 1,
+            "span": {
+              "start": 129,
+              "end": 152
+            }
+          }
+        ],
+        "selfCheckZh": "用願望及參與請求表達長期健康目標，保留彈性，不承諾永久健康、每次出席或花園活動必然改善健康。"
+      },
+      "takeaways": [
+        {
+          "en": "The character’s wish is to be healthier for longer, so she can remain involved in everyday life.",
+          "zh": "角色的願望是在更長日子裏有較好健康，以繼續參與日常生活。"
+        },
+        {
+          "en": "She talks about being healthier for longer because she hopes to keep sharing ordinary days with her family.",
+          "zh": "她談起在更長日子裏保持較好健康，因她希望繼續與家人分享平常日子。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1646",
+      "number": 1646,
+      "inventoryId": "expr-1646",
+      "contentRevision": 1,
+      "titleEn": "catch problems earlier",
+      "titleZh": "更早察覺問題",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:catch|catches|catching|caught) problems earlier\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p194-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 194,
+          "book": 7,
+          "question": 22,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Regular checks can catch problems earlier.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catch problems earlier",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Notice or identify difficulties at an earlier stage than otherwise.",
+        "meaningZh": "比原本情況在較早階段留意或辨認困難。",
+        "grammar": "catch problems earlier; caught in past; earlier needs a clear comparison in the situation",
+        "register": "neutral",
+        "boundaryZh": "earlier 指察覺時點提前，不代表當時問題已解、已知全部或不需跟進；要交代相較甚麼更早。",
+        "misconceptionZh": "earlier 指察覺時點提前，不代表當時問題已解、已知全部或不需跟進；要交代相較甚麼更早。",
+        "outcomeZh": "理解「更早察覺問題」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A natural figurative catch-plus-problems collocation. It is related to the teeth metaphor in1629 but does not teach that extended wording or invent a separate medical sense."
+      },
+      "listening": {
+        "en": "Reading the captions before printing helped us catch problems earlier, while a wrong name could still be corrected in the file rather than on hundreds of finished pages.",
+        "zh": "印刷前讀圖說，幫我們更早察覺問題；當時仍可在檔案改錯名，而非在數百張已印頁上修改。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "檢查把發現錯名的時間提前到印刷前。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "送印前已完成改名，之後讀圖說只是在回顧修改。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "小組是在頁面全印好後才第一次讀圖說。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "小組檢查的是紙張數量，沒有談圖說內容。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "讀圖說讓小組在送印前發現錯名，當時仍可修改；不是已改好才回顧，也不是印好後或只點紙張。"
+      },
+      "reply": {
+        "promptEn": "Why did you read the captions before sending the pages to print?",
+        "promptZh": "你為甚麼送印前先讀圖說？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We wanted to catch problems earlier, while changes were easier to make.",
+            "zh": "我們想更早察覺問題，當時修改較容易。"
+          },
+          {
+            "id": "reply-2",
+            "en": "A wrong name is easier to correct in the file than on finished pages.",
+            "zh": "在檔案改錯名，比在印好頁面改容易。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The check gave us a chance to fix the wording before many copies existed.",
+            "zh": "檢查給我們機會，在大量副本出現前改措辭。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We preferred finding an error before printing rather than afterwards.",
+            "zh": "我們寧願在印刷前發現錯誤，而非之後。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "義工改為出發前一天核對帶備物品，過往常到場才發現缺少展示卡。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The earlier check can help them catch problems earlier.",
+            "zh": "提早核對可幫他們更早察覺問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The check changes only where the missing cards are stored, not when a shortage is noticed.",
+            "zh": "核對只改缺少展示卡的存放處，沒改發現短缺時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The earlier check showed that spare display cards were already packed, rather than revealing a shortage.",
+            "zh": "提早核對顯示後備展示卡已放好，而非發現短缺。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "出發前與到場後相比，提早核對能把發現短缺的時間提前；不是只改存放處，也不表示後備卡已準備好。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 catch problems earlier 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "比原本或其他做法更早留意到困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "察覺的問題在發現那刻已自動解決。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "較早發現可能給後續處理多些時間。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "察覺與解決是不同步驟。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「既然提早發現錯名，就不用再安排人改檔案吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Catching problems earlier gives us time to act; someone still needs to correct the name.",
+            "zh": "更早察覺給我們時間行動；仍需有人改名字。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Leave the edit for the next edition because the pre-print check is already complete.",
+            "zh": "印前檢查已完成，所以留待下版才修改。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Wait until the printed copies arrive before deciding who can make the edit.",
+            "zh": "等印好副本送到，才決定誰可修改。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提早察覺的作用是留出處理機會，不是取代處理。"
+      },
+      "speaking": {
+        "en": "Checking the details in advance helps us catch problems earlier, before a small correction becomes a large reprint.",
+        "zh": "預先核對細節幫我們更早察覺問題，避免小修改變成大批重印。",
+        "targetSpan": {
+          "start": 41,
+          "end": 63
+        },
+        "promptZh": "先聽示範，再分清提前察覺與後續處理。"
+      },
+      "writing": {
+        "promptZh": "新情境：你安排朋友的驚喜聚餐，想提早問代訂座的人哪些參加者仍未確認，而非到當晚才發現人數不合。你要有禮請他在星期三回覆，說明提早核對的目的。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Could you tell me by Wednesday who still needs to confirm? I want us to catch problems earlier rather than discover a seating mismatch on the evening itself.",
+            "zh": "星期三前可告訴我誰仍要確認嗎？我想讓我們更早察覺問題，而非當晚才發現座位人數不合。"
+          },
+          {
+            "en": "A midweek update will help us catch problems earlier, while we can still adjust the table plan. Please mark any unconfirmed guests clearly.",
+            "zh": "周中更新會幫我們更早察覺問題，當時仍可調整座位安排。請清楚標示未確認的客人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "by Wednesday",
+            "zh": "星期三前",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 30
+            }
+          },
+          {
+            "en": "who still needs to confirm",
+            "zh": "誰仍要確認",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 57
+            }
+          },
+          {
+            "en": "a seating mismatch",
+            "zh": "座位人數不合",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 134
+            }
+          },
+          {
+            "en": "a midweek update",
+            "zh": "周中更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "unconfirmed guests",
+            "zh": "未確認的客人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 130
+            }
+          }
+        ],
+        "selfCheckZh": "用周中與當晚的對比交代 earlier，請求具體資料並保留調整，不把核對當已處理所有安排。"
+      },
+      "takeaways": [
+        {
+          "en": "The first read-through helped us catch problems earlier than the final rehearsal would have.",
+          "zh": "首次讀稿幫我們比到最後排練才檢查更早察覺問題。"
+        },
+        {
+          "en": "We caught problems earlier by asking new users to try the instructions before publication.",
+          "zh": "我們在刊登前請新使用者試指引，因而更早察覺問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1647",
+      "number": 1647,
+      "inventoryId": "expr-1647",
+      "contentRevision": 1,
+      "titleEn": "outrun it",
+      "titleZh": "甩開或逃過它的影響",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:outrun|outruns|outrunning|outran) (?:it|them)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p195-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 195,
+          "book": 7,
+          "question": 22,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "We may fight disease, but we cannot always outrun it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "outrun it",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Escape or get beyond the reach or effects of a difficulty, using a race image.",
+        "meaningZh": "用賽跑意象，表達逃過或甩開某個困難的影響。",
+        "grammar": "outrun it; it must refer to a named problem; outran in past, outrun as past participle",
+        "register": "neutral",
+        "boundaryZh": "比喻不要求真的跑步，不能把換名稱、換地方直接當問題已消失；也不把來源 cannot always 改成永遠不可能。",
+        "misconceptionZh": "比喻不要求真的跑步，不能把換名稱、換地方直接當問題已消失；也不把來源 cannot always 改成永遠不可能。",
+        "outcomeZh": "理解「甩開或逃過它的影響」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The supplied it refers to illness in its health context. Original nonmedical practice names other problems explicitly, while retaining the escape metaphor rather than giving a medical claim."
+      },
+      "listening": {
+        "en": "The unresolved disagreement followed the club into its new season; changing the event’s name had not helped them outrun it.",
+        "zh": "未解分歧延續到社團新一季；改活動名稱，沒有幫他們甩開它的影響。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "改名沒有消除仍未解決的分歧。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "活動的新名字是分歧最初出現的唯一原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "社團已談妥分歧，只是在回憶舊問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "新一季的主要爭議是活動名稱本身，而非原有未解的安排分歧。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "it 指原有未解分歧，改活動名稱沒有甩開其影響；不是名稱本身成為爭議，也未說分歧已談妥。"
+      },
+      "reply": {
+        "promptEn": "Why did the disagreement still matter in the new season?",
+        "promptZh": "分歧為甚麼到新一季仍有影響？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Changing the event’s name did not help them outrun it.",
+            "zh": "改活動名稱沒有幫他們甩開它的影響。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The underlying disagreement had not been resolved.",
+            "zh": "根本分歧仍未解決。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A new title did not change what the members still disagreed about.",
+            "zh": "新標題沒有改變成員仍有分歧的事情。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The issue carried over because the club had changed the label rather than addressed it.",
+            "zh": "社團只改標籤而未處理問題，所以問題延續。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小說角色想搬到另一城就不用處理對朋友失約的事，但朋友的訊息仍在問他如何補救。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He cannot simply outrun it by moving; the broken promise still needs a response.",
+            "zh": "他不能只靠搬走就甩開它；失約仍需回應。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The move was an agreed part of rescheduling, and the friend has already accepted the replacement arrangement.",
+            "zh": "搬遷是已議定改期的一部分，朋友已接受替代安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The messages concern a new practical problem in the city rather than the earlier broken promise.",
+            "zh": "訊息關乎新城市的一項實際問題，而非先前失約。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "朋友仍問如何補救失約，表示原問題未因搬走消失；未有接受改期，也不是新城市的另一項問題。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由這裏的 outrun it 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "試圖甩開已指明問題的影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要用了這個字，人物一定正在實際賽跑。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "代詞需要前文問題，才知道要逃過甚麼。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "比喻用法可沒有實際跑步，需由上下文判斷。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「換新標題後，就不用再回應成員對原有安排的分歧吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We will not outrun it by changing the title; let us discuss the arrangement people still question.",
+            "zh": "只改標題甩不開它；談談大家仍有疑問的安排吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the new title as confirmation that the members agreed to the old arrangement.",
+            "zh": "把新標題當成成員同意舊安排的確認。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Send the same timetable under a new name and wait for the disagreement to be forgotten.",
+            "zh": "把同一時間表換名寄出，等大家忘記分歧。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需處理實際爭點，換名不建立同意，也未解問題。"
+      },
+      "speaking": {
+        "en": "The disagreement is still with us, and we cannot outrun it simply by renaming the project.",
+        "zh": "分歧仍在，不能只靠替計劃改名就甩開它的影響。",
+        "targetSpan": {
+          "start": 49,
+          "end": 58
+        },
+        "promptZh": "先聽示範，再找清楚代詞所指的問題。"
+      },
+      "writing": {
+        "promptZh": "新情境：小組接受的工作不斷增加，同伴以為每次再做快一點，就不用談哪些可延後。你想寫訊息指出這種持續增加的負擔仍在，並請大家選出這周最重要的工作。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The workload keeps growing, and we cannot outrun it just by rushing through each task. Could we agree what matters most this week and what can wait?",
+            "zh": "工作量不斷增加，不能只靠每項做快點就甩開它。可否議定這周最重要的是甚麼，以及哪些可等？"
+          },
+          {
+            "en": "We keep accepting more tasks than we can finish, creating a growing backlog. We cannot outrun it just by working faster, so let us review our commitments.",
+            "zh": "我們一直接受超出可完成的工作，形成不斷增加的積壓。不能只靠做快點就甩開它，所以先檢視承諾吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The workload",
+            "zh": "工作量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "rushing through each task",
+            "zh": "匆匆做每項工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 85
+            }
+          },
+          {
+            "en": "this week",
+            "zh": "這周",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 129
+            }
+          },
+          {
+            "en": "what can wait",
+            "zh": "哪些可等",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 147
+            }
+          },
+          {
+            "en": "review our commitments",
+            "zh": "檢視我們的承諾",
+            "exampleIndex": 1,
+            "span": {
+              "start": 131,
+              "end": 153
+            }
+          }
+        ],
+        "selfCheckZh": "先指明增加的工作負擔，讓 it 有依據，請求取捨優先，不把單次加速說成已逃過持續問題。"
+      },
+      "takeaways": [
+        {
+          "en": "The old conflict remained, and a new meeting place did not help us outrun it.",
+          "zh": "舊衝突仍在，換開會地點沒有幫我們甩開它的影響。"
+        },
+        {
+          "en": "She wanted to forget the mistake, but she could not outrun it without responding to the people affected.",
+          "zh": "她想忘記錯誤，但未回應受影響的人，就無法甩開它的影響。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1648",
+      "number": 1648,
+      "inventoryId": "expr-1648",
+      "contentRevision": 1,
+      "titleEn": "spiral into serious ones",
+      "titleZh": "逐步惡化成嚴重問題",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bspiral(?:s|led|ling|ed|ing)? into serious (?:ones|problems)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p195-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 195,
+          "book": 7,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Small issues can spiral into serious ones.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "spiral into serious ones",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Develop in an increasingly uncontrolled way into more serious problems.",
+        "meaningZh": "以越來越難控制的方式，惡化成更嚴重的問題。",
+        "grammar": "small issues spiral into serious ones; ones refers to issues/problems; British spiralled/spiralling doubles l",
+        "register": "neutral",
+        "boundaryZh": "spiral 強調惡化及擴大，不是任何改變，也不表示每個小問題必定嚴重；需有情境因果及程度線索。",
+        "misconceptionZh": "spiral 強調惡化及擴大，不是任何改變，也不表示每個小問題必定嚴重；需有情境因果及程度線索。",
+        "outcomeZh": "理解「逐步惡化成嚴重問題」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "In the case study, small misunderstandings about shift changes began to spiral into serious ones when missed messages led to an unstaffed session and then angry complaints.",
+        "zh": "個案中，輪值改動的小誤會開始惡化成嚴重問題：漏看訊息導致一節活動沒人當值，接着出現憤怒投訴。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "誤會引發連鎖影響，問題程度擴大。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "訊息更清楚後，誤會逐步減少。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "敘述只列幾項互不相干的小問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "投訴由另一項無關的活動改動引起，並不是輪值混淆的後果。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "missed messages、unstaffed session、complaints 顯示連鎖惡化，不是單純變化或無關清單。"
+      },
+      "reply": {
+        "promptEn": "How did the shift misunderstandings become more serious?",
+        "promptZh": "輪值誤會怎樣變得更嚴重？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They began to spiral into serious ones when missed messages left a session unstaffed.",
+            "zh": "漏看訊息令一節活動沒人當值時，小誤會開始惡化成嚴重問題。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The missed updates led to a staffing gap and then complaints.",
+            "zh": "漏看的更新導致人手空缺，再引發投訴。"
+          },
+          {
+            "id": "reply-3",
+            "en": "One communication problem triggered a more difficult practical problem.",
+            "zh": "一項溝通問題引發更棘手的實際問題。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The effects grew beyond the original confusion over the rota.",
+            "zh": "影響擴大，超出原本輪值表的混淆。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組未釐清誰訂場，兩人都以為對方會做；到最後一周才知沒場地，連帶要改嘉賓及宣傳安排。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The small problems could spiral into serious ones as the missing booking affects the rest of the event.",
+            "zh": "未訂場影響活動其他部分，小問題可能惡化成嚴重問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The new arrangements concern unrelated improvements rather than consequences of the missing booking.",
+            "zh": "新安排關乎互不相干的改善，而非沒訂場的後果。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The late discovery shows that the original responsibility was clear to everyone.",
+            "zh": "遲來發現顯示原本責任大家都清楚。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "場地問題連帶嘉賓及宣傳，顯示擴大影響，並非原責任清楚。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 small issues can spiral into serious ones 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小問題可能因連鎖影響變得更嚴重。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要是小問題，無論情況都必定惡化。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "提早澄清可能有助截斷擴大過程，但仍需看實際情況。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "can 是可能，並非每次必然結果。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「只是輪值訊息有點亂，等投訴出現再整理吧。」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Those small issues could spiral into serious ones; let us confirm who is covering each session now.",
+            "zh": "那些小問題可能惡化成嚴重問題；現在先確認每節由誰當值吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the first complaint as the starting point for checking whether anyone is assigned.",
+            "zh": "等第一宗投訴才開始查有沒有人當值。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep both versions of the rota in use without telling the volunteers which one applies.",
+            "zh": "兩個輪值表版本都繼續用，不告訴義工哪個才適用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "釐清責任可應對連鎖風險，不是等影響出現或保持版本混亂。"
+      },
+      "speaking": {
+        "en": "Small issues can spiral into serious ones if we leave the confusion to affect later decisions.",
+        "zh": "若任由混淆影響後續決定，小問題可能惡化成嚴重問題。",
+        "targetSpan": {
+          "start": 17,
+          "end": 41
+        },
+        "promptZh": "先聽示範，再把 ones 連回已提到的問題。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們編一個合作故事，兩位作者對角色關係的理解不同；若不先談清，後面幾章都可能要重寫。你想有禮請他們短談一次，趁分歧仍小先對齊設定。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "These small differences could spiral into serious ones if we build later chapters on conflicting assumptions. Could we agree the relationship before writing further?",
+            "zh": "若後面章節建立在互相衝突的假設上，這些小分歧可能惡化成嚴重問題。繼續寫前，可否先議定角色關係？"
+          },
+          {
+            "en": "Let us have a short conversation now, before the small story issues spiral into serious ones that require several chapters to be rewritten.",
+            "zh": "趁故事小問題未惡化成需要重寫幾章的嚴重問題，現在先簡短談一次吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "These small differences",
+            "zh": "這些小分歧",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 23
+            }
+          },
+          {
+            "en": "later chapters",
+            "zh": "後面章節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 81
+            }
+          },
+          {
+            "en": "conflicting assumptions",
+            "zh": "互相衝突的假設",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 108
+            }
+          },
+          {
+            "en": "a short conversation",
+            "zh": "簡短交談",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 32
+            }
+          },
+          {
+            "en": "to be rewritten",
+            "zh": "需要重寫",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 138
+            }
+          }
+        ],
+        "selfCheckZh": "說清設定分歧怎樣影響後文，提出先談的請求，不把所有意見不同都判為必然災難。"
+      },
+      "takeaways": [
+        {
+          "en": "Unanswered questions about responsibility can spiral into serious problems when several deadlines depend on them.",
+          "zh": "幾個期限都依賴責任分配時，未解答的責任問題可能惡化成嚴重問題。"
+        },
+        {
+          "en": "The minor issues spiralled into serious ones after the team kept using incompatible plans.",
+          "zh": "小組一直用互不相容的計劃後，小問題惡化成嚴重問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1649",
+      "number": 1649,
+      "inventoryId": "expr-1649",
+      "contentRevision": 1,
+      "titleEn": "fend for themselves",
+      "titleZh": "在沒有外來支援下自行應付",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfend(?:s|ed|ing)? for (?:themselves|ourselves|yourself|yourselves|himself|herself|myself)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p195-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 195,
+          "book": 7,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Sick people should not be left to fend for themselves.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "fend for themselves",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Manage one’s own needs or difficulties without the relevant outside help.",
+        "meaningZh": "在沒有相關外來幫助下，自行處理需要或困難。",
+        "grammar": "fend for themselves; left to fend for themselves can criticise lack of support; plural group members may help each other",
+        "register": "neutral",
+        "boundaryZh": "自行應付不必是一個人隔絕，也不自動表示很樂意或很有能力；需看誰沒提供哪種支援，以及群體內是否合作。",
+        "misconceptionZh": "自行應付不必是一個人隔絕，也不自動表示很樂意或很有能力；需看誰沒提供哪種支援，以及群體內是否合作。",
+        "outcomeZh": "理解「在沒有外來支援下自行應付」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The new volunteers were left to fend for themselves at the busy desk, with no briefing on where the forms were or whom to ask about unusual requests.",
+        "zh": "繁忙服務枱的新義工被留着自行應付，沒有人簡介表格在哪裏或遇到特別要求應問誰。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "新人在缺少所需簡介下，自行應付工作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新人已熟悉安排，只選擇不看現成簡介。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "義工之間不得互相說話，是片語本身的意思。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "主辦者正逐一示範如何處理特別要求。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "no briefing 說明缺少外來支援，沒有說自願、已有經驗或不能互助。"
+      },
+      "reply": {
+        "promptEn": "Why was the first shift difficult for the new volunteers?",
+        "promptZh": "新義工首次當值為甚麼困難？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They were left to fend for themselves without a briefing.",
+            "zh": "他們沒得到簡介，就被留着自行應付。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Nobody explained where the forms were or whom they could ask.",
+            "zh": "沒人解釋表格在哪裏或可問誰。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They had to manage unfamiliar requests without the support they expected.",
+            "zh": "他們要在缺少預期支持下處理陌生要求。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The desk was busy, and the basic guidance had not been provided.",
+            "zh": "服務枱繁忙，基本指引卻沒提供。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "旅行小說中的少年小隊與大人失散後，自行找路及分配物資，也互相幫忙。你想說他們沒有大人支援，不是彼此隔絕。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They had to fend for themselves, working together without the adults’ help.",
+            "zh": "他們要在沒大人幫忙下自行應付，並互相合作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Fending for themselves means none of the young people can help another member.",
+            "zh": "自行應付表示少年之間不能互相幫忙。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group received step-by-step instructions from the adults throughout the journey.",
+            "zh": "小隊全程得到大人的逐步指示。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "群體自行應付可包含內部合作，缺的是大人支援。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 left to fend for themselves 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "相關外來支援沒有提供，當事人要自行應付。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當事人必定樂意，也必定已有足夠能力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "要看具體處境，才知道缺的是指引、人手還是其他支持。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "片語說支援情況，不保證意願或能力。"
+      },
+      "dialogue": {
+        "promptZh": "同伴說：「新人都在問基本問題，讓他們自己摸索就好吧？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We should give them the briefing instead of leaving them to fend for themselves at a busy desk.",
+            "zh": "應給他們簡介，而非讓他們在繁忙服務枱自行應付。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the contact list with the organisers and ask the newcomers to discover who is available.",
+            "zh": "把聯絡清單留給主辦者，讓新人自己找誰可幫忙。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the lack of questions after a busy hour as proof that the briefing was unnecessary.",
+            "zh": "把忙了一小時後沒再問問題，當成不需要簡介的證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先提供已有的基本支持，不把沉默當能力已足，也不把找支援本身留給新人。"
+      },
+      "speaking": {
+        "en": "The team had to fend for themselves, but they could still share information and help one another.",
+        "zh": "小隊要自行應付，但仍可互通資訊及互相幫忙。",
+        "targetSpan": {
+          "start": 16,
+          "end": 35
+        },
+        "promptZh": "先聽示範，再分清外來支援與群體內合作。"
+      },
+      "writing": {
+        "promptZh": "新情境：你與朋友周五晚到訪另一位朋友家，主人擔心趕不及回家煮飯。你想有禮說你們可自行處理晚餐，不需他趕回，只請他寄地址及入屋安排。用一至兩句英文回覆。",
+        "examples": [
+          {
+            "en": "We can fend for ourselves on Friday evening, so please do not rush home to cook. Just send us the address and the arrival arrangements.",
+            "zh": "周五晚我們可自行應付，所以請別趕回家煮飯。只需寄地址及抵達安排給我們。"
+          },
+          {
+            "en": "Please finish your work without worrying about our dinner; we can fend for ourselves. We only need to know where to meet you later.",
+            "zh": "請安心做完工作，不用擔心我們晚餐；我們可自行應付。只需知道之後在哪裏與你會合。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Friday evening",
+            "zh": "星期五晚上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 43
+            }
+          },
+          {
+            "en": "rush home to cook",
+            "zh": "趕回家煮飯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 79
+            }
+          },
+          {
+            "en": "the arrival arrangements",
+            "zh": "抵達安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 134
+            }
+          },
+          {
+            "en": "our dinner",
+            "zh": "我們的晚餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 47,
+              "end": 57
+            }
+          },
+          {
+            "en": "where to meet you later",
+            "zh": "之後在哪裏與你會合",
+            "exampleIndex": 1,
+            "span": {
+              "start": 107,
+              "end": 130
+            }
+          }
+        ],
+        "selfCheckZh": "清楚表達可自行處理晚餐並保留所需會合資訊，不把自行應付寫成拒絕所有聯絡或獨自隔絕。"
+      },
+      "takeaways": [
+        {
+          "en": "The visitors were left to fend for themselves when the promised directions failed to arrive.",
+          "zh": "承諾的指引沒送到，訪客被留着自行應付。"
+        },
+        {
+          "en": "The young team could fend for themselves while still sharing the skills of its members.",
+          "zh": "年輕小隊可自行應付，同時仍互相分享成員技能。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1650",
+      "number": 1650,
+      "inventoryId": "expr-1650",
+      "contentRevision": 1,
+      "titleEn": "choose between their health and their wallet",
+      "titleZh": "在健康與負擔能力之間兩難",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bchoos(?:e|es|ing) between (?:their|your|our|my|his|her) health and (?:their|your|our|my|his|her) wallet\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p195-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 195,
+          "book": 7,
+          "question": 23,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Nobody should choose between their health and their wallet.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "choose between their health and their wallet",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Face a difficult trade-off between healthcare needs and what one can afford, with wallet standing for finances.",
+        "meaningZh": "面對照顧健康需要與能否負擔費用的兩難，以錢包代表財務能力。",
+        "grammar": "choose between their health and their wallet; wallet is metonymy for money available, not the physical object",
+        "register": "neutral",
+        "boundaryZh": "表達費用造成的艱難取捨，不是在比錢包款式，也不提供應選哪一邊的個人建議；需保留人物及政策討論的範圍。",
+        "misconceptionZh": "表達費用造成的艱難取捨，不是在比錢包款式，也不提供應選哪一邊的個人建議；需保留人物及政策討論的範圍。",
+        "outcomeZh": "理解「在健康與負擔能力之間兩難」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The fictional speaker says people should not have to choose between their health and their wallet; her concern is that the cost may stop someone from seeking the care they need.",
+        "zh": "虛構說話者說，人們不應被迫在健康與負擔能力之間兩難；她擔心費用可能阻止某人尋求所需照顧。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她關注費用造成的健康照顧取捨。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她認為不尋求照顧主要反映個人不願意談私事，而非費用障礙。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她已報告一位角色的所需費用獲支付，而非表達顧慮。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她只在評論一家人的已作選擇，沒有表達對被迫取捨的一般立場。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "她說 people should not have to 並關注 cost，是反對費用造成兩難的一般立場；不是隱私動機、已付費結果或只評論一個既成選擇。"
+      },
+      "reply": {
+        "promptEn": "What concern is the fictional speaker expressing?",
+        "promptZh": "虛構說話者表達甚麼顧慮？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She does not want people to have to choose between their health and their wallet.",
+            "zh": "她不想人們被迫在健康與負擔能力之間兩難。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She worries that cost could keep someone from seeking needed care.",
+            "zh": "她擔心費用可能令某人不尋求所需照顧。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The issue is a financial barrier to care, not a preference for a particular wallet.",
+            "zh": "問題是照顧的財務障礙，而非偏好某款錢包。"
+          },
+          {
+            "id": "reply-4",
+            "en": "She is describing a difficult trade-off that she thinks people should not be forced to make.",
+            "zh": "她在描述一種認為不應逼人作出的艱難取捨。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小說人物看着預約單及家用帳單，說不想讓需要照顧的人只因費用而放棄；你要概括她的立場。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She argues that people should not have to choose between their health and their wallet.",
+            "zh": "她主張人們不應被迫在健康與負擔能力之間兩難。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She sees the missed care as a matter of personal taste rather than an affordability problem.",
+            "zh": "她把沒取得照顧看成個人喜好，而非負擔能力問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her statement reports that every cost mentioned has already been covered.",
+            "zh": "她的說法報告所有提及費用都已有人承擔。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "題目強調費用阻礙所需照顧，對應健康與負擔能力的取捨；不是單純喜好，也不是費用已付。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 choose between their health and their wallet 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "費用與健康照顧需要構成艱難取捨。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "句子本身已告訴每位讀者應作哪個個人決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "錢包在這裏代表能負擔的資源，而非物件款式。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "片語描述困境，不替每個人提供決定或結果保證。"
+      },
+      "dialogue": {
+        "promptZh": "同伴把小說人物的話譯成「她不喜歡自己的錢包款式」。哪句澄清最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Here wallet means financial resources; she is concerned about choosing between needed care and affordability.",
+            "zh": "這裏 wallet 指財務資源；她關注所需照顧與負擔能力之間的取捨。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She is talking about choosing optional purchases, not a cost barrier to needed care.",
+            "zh": "她在談選購非必要物品，而非取得所需照顧的費用障礙。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Translate her concern as confirmation that the care has already been paid for.",
+            "zh": "把她的顧慮譯成照顧費用已付的確認。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "wallet 在上下文是能負擔所需照顧的資源，不只是選購非必要物品，也不能把顧慮改成已付款結果。"
+      },
+      "speaking": {
+        "en": "The character objects to making people choose between their health and their wallet; she is describing a cost barrier.",
+        "zh": "角色反對迫人於健康與負擔能力之間兩難；她在描述費用障礙。",
+        "targetSpan": {
+          "start": 39,
+          "end": 83
+        },
+        "promptZh": "先聽示範，再把 wallet 連到上下文的財務意思。"
+      },
+      "writing": {
+        "promptZh": "新情境：讀書會同伴說小說人物 Leo 沒去預約，是因為不在乎健康；但章節明說他擔心費用擠壓家用。你想有禮指出這項資料，請評論分清不在乎與負擔上的兩難。用一至兩句英文回應。",
+        "examples": [
+          {
+            "en": "Leo feels forced to choose between his health and his wallet; the chapter describes a cost barrier, not indifference. Let us keep that distinction in our review.",
+            "zh": "Leo 覺得被迫在健康與負擔能力之間兩難；章節描述費用障礙，而非不在乎。我們在評論保留這個區別吧。"
+          },
+          {
+            "en": "The family bills help explain why he feels he must choose between his health and his wallet. Calling him careless leaves out the financial conflict the novel actually gives us.",
+            "zh": "家用帳單幫助解釋他為何覺得必須在健康與負擔能力之間兩難。稱他不在乎，忽略了小說實際提供的財務衝突。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a cost barrier",
+            "zh": "費用障礙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 98
+            }
+          },
+          {
+            "en": "indifference",
+            "zh": "不在乎",
+            "exampleIndex": 0,
+            "span": {
+              "start": 104,
+              "end": 116
+            }
+          },
+          {
+            "en": "our review",
+            "zh": "我們的評論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 160
+            }
+          },
+          {
+            "en": "The family bills",
+            "zh": "家用帳單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "the financial conflict",
+            "zh": "財務衝突",
+            "exampleIndex": 1,
+            "span": {
+              "start": 125,
+              "end": 147
+            }
+          }
+        ],
+        "selfCheckZh": "按章節費用線索糾正不在乎的推斷，分清角色的困境與讀者的評價，不聲稱問題已有解決。"
+      },
+      "takeaways": [
+        {
+          "en": "In the debate, she argues that no one should have to choose between their health and their wallet.",
+          "zh": "辯論中，她主張沒有人應被迫在健康與負擔能力之間兩難。"
+        },
+        {
+          "en": "The cost in the story makes him feel he must choose between his health and his wallet.",
+          "zh": "故事中的費用讓他覺得必須在健康與負擔能力之間兩難。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    }
+  ]
+}

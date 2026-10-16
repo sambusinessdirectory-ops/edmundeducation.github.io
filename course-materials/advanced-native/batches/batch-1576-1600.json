@@ -1,0 +1,5558 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1576-1600",
+  "lessons": [
+    {
+      "id": "advanced-native-1576",
+      "number": 1576,
+      "inventoryId": "expr-1576",
+      "contentRevision": 1,
+      "titleEn": "open up to",
+      "titleZh": "向信任的人坦誠心事",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bopen(?:s|ed|ing)?\\s+up\\s+to\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p184-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 184,
+          "book": 7,
+          "question": 11,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "It is easier to open up to a close friend.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "open up to",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Speak more honestly to someone about private feelings or experiences.",
+        "meaningZh": "向某人更坦誠地談自己的私下感受或經歷。",
+        "grammar": "open up to + person; opened up to; the person chooses what and when to share",
+        "register": "neutral",
+        "boundaryZh": "不只是開始一般交談，也不要求交代所有秘密；信任與是否分享由當事人決定。",
+        "misconceptionZh": "不只是開始一般交談，也不要求交代所有秘密；信任與是否分享由當事人決定。",
+        "outcomeZh": "理解「向信任的人坦誠心事」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "After keeping her worries about the audition to herself, Maya began to open up to a trusted friend who listened without interrupting.",
+        "zh": "Maya 一直把試音的擔憂藏在心裏，後來開始向一位不打斷、用心聆聽的可信朋友坦誠心事。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她開始向信任的朋友分享原先沒有說出的擔憂。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她只向朋友詢問試音的集合地點，沒有談感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她在試音前已向所有同學公開同一段心事。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "朋友一開口便替她決定試音選曲，她沒有機會說自己的想法。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "keeping worries to herself 與 began to open up 形成分享前後變化；listened 說明朋友提供聆聽，不是代作選擇。"
+      },
+      "reply": {
+        "promptEn": "Why did Maya choose to talk to that friend about her audition worries?",
+        "promptZh": "Maya 為甚麼選那位朋友談試音擔憂？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She felt able to open up to someone who would listen.",
+            "zh": "她覺得能向會聆聽的人坦誠心事。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She trusted the friend to hear her worries without interrupting.",
+            "zh": "她信任朋友會聽她的擔憂而不打斷。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She wanted to share feelings she had been keeping private.",
+            "zh": "她想分享一直私下藏着的感受。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Talking with a patient friend felt more comfortable than keeping it all to herself.",
+            "zh": "與耐心的朋友交談，比一直獨自藏着感受更安心。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新生平常只說功課，今天主動告訴一位信任同學自己很掛念家人，並請對方先聽。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He is opening up to a trusted classmate about missing home.",
+            "zh": "他正向可信同學坦誠說出掛念家的感受。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He is asking only for the homework page numbers, without discussing anything personal.",
+            "zh": "他只問功課頁數，沒有談個人感受。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He is asking the classmate to tell everyone his private news before he has decided what to share.",
+            "zh": "他請同學在自己未決定分享甚麼前，把私事告訴所有人。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "主動分享掛念家人的感受，是坦誠心事；不同於功課資料，也不是授權公開全部私事。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法不符合尊重對方 open up to you 的意願？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "先聆聽，讓對方選擇分享多少。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "對方只願說一部分時，仍追問尚未想公開的私事。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "承認對方可能需要時間才願意談。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "坦誠分享不是必須交代所有事情，應尊重當事人界線。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我有件私事想談，但還沒準備說全部。」你想讓他安心表達。哪個回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You can open up to me at your own pace; I will listen to what you feel ready to share.",
+            "zh": "你可以按自己的步伐向我坦誠心事；我會聽你準備好分享的部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Start with the details you have said you are not ready to share, so I can decide the rest.",
+            "zh": "先說你尚未準備分享的細節，讓我決定餘下事情。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I will ask the group about it first, before hearing what you want kept private.",
+            "zh": "我會先問小組其他人，再聽你想把哪些事保密。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "按對方步伐聆聽回應了尚未準備說全部，不是逼問或先擴散消息。"
+      },
+      "speaking": {
+        "en": "I can open up to my mentor about feeling overwhelmed by the new role.",
+        "zh": "我可以向導師坦誠說出新角色令我難以應付的感受。",
+        "targetSpan": {
+          "start": 6,
+          "end": 16
+        },
+        "promptZh": "你想向信任的人表達原先藏着的感受。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你負責義工排班，最近覺得工作量太多，卻一直裝作應付得來。你決定私下向協調員坦誠感受，再商量可調整的工作。用一至兩句英文提出談話。",
+        "examples": [
+          {
+            "en": "I would like to open up to the coordinator about feeling overloaded. Could we discuss which duties I can realistically manage?",
+            "zh": "我想向協調員坦誠說出工作量令我難以應付的感受。我們可以商量哪些職責是我實際能承擔的嗎？"
+          },
+          {
+            "en": "I have been keeping the pressure to myself, but I am ready to open up to our coordinator and ask for a review of my duties.",
+            "zh": "我一直把壓力藏在心裏，但已準備向協調員坦誠心事，並要求檢視職責。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the coordinator",
+            "zh": "協調員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 42
+            }
+          },
+          {
+            "en": "feeling overloaded",
+            "zh": "感到工作量過多",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 67
+            }
+          },
+          {
+            "en": "which duties",
+            "zh": "哪些職責",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 98
+            }
+          },
+          {
+            "en": "keeping the pressure to myself",
+            "zh": "把壓力藏在心裏",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 42
+            }
+          },
+          {
+            "en": "a review of my duties",
+            "zh": "檢視我的職責",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 122
+            }
+          }
+        ],
+        "selfCheckZh": "說清原先藏着的感受及選擇向誰坦誠，再提出實際談話目的，不把分享當作要求公開所有私事。"
+      },
+      "takeaways": [
+        {
+          "en": "She opened up to her sister about the pressure of organising the concert.",
+          "zh": "她向姊妹坦誠說出籌辦音樂會的壓力。"
+        },
+        {
+          "en": "A patient listener can make it easier to open up to someone you trust.",
+          "zh": "耐心的聆聽者能讓你較容易向信任的人坦誠心事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1577",
+      "number": 1577,
+      "inventoryId": "expr-1577",
+      "contentRevision": 1,
+      "titleEn": "speak the same emotional language",
+      "titleZh": "容易理解彼此的感受",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bspeak\\s+the\\s+same\\s+emotional\\s+language\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p184-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 184,
+          "book": 7,
+          "question": 11,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Long-time friends often speak the same emotional language.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "speak the same emotional language",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Understand and respond to one another’s feelings in a familiar, compatible way.",
+        "meaningZh": "以熟悉、互相配合的方式理解及回應彼此感受。",
+        "grammar": "friends / partners speak the same emotional language; a metaphor for emotional understanding rather than spoken-language identity",
+        "register": "neutral",
+        "boundaryZh": "不表示讀心或永遠不用解釋，也不要求說同一種母語；仍需確認對方當下需要。",
+        "misconceptionZh": "不表示讀心或永遠不用解釋，也不要求說同一種母語；仍需確認對方當下需要。",
+        "outcomeZh": "理解「容易理解彼此的感受」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Although their first languages differ, the two friends speak the same emotional language: each knows when the other needs quiet company rather than quick advice.",
+        "zh": "雖然母語不同，兩位朋友卻容易理解彼此感受：各自知道對方何時需要安靜陪伴，而不是急着給意見。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "兩人理解彼此所需的情緒支持，雖然母語不同。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩人只有在改用相同母語後才能理解對方。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩人把安靜一律當作需要立即給建議的訊號。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "兩人的親近只在交換字詞翻譯，不涉及感受。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "first languages differ 排除同母語要求；quiet company rather than advice 顯示理解支持方式。"
+      },
+      "reply": {
+        "promptEn": "Why does quiet company work well for those two friends?",
+        "promptZh": "為甚麼安靜陪伴對那兩位朋友很合適？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They speak the same emotional language and recognise what comfort each other needs.",
+            "zh": "他們容易理解彼此感受，也知道對方需要怎樣的安慰。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Each understands that the other sometimes wants company before advice.",
+            "zh": "各自明白對方有時想先有人陪伴，而非意見。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Their familiar way of responding helps them feel understood.",
+            "zh": "熟悉的回應方式讓他們覺得被理解。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They notice the difference between wanting a listener and wanting a quick solution.",
+            "zh": "他們留意到想有人聽與想立即找解決方法的分別。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "比賽後，一位隊員想先冷靜，再談失誤；朋友理解這個需要，安靜陪他一會，稍後才一起檢討。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They speak the same emotional language in the way they offer support.",
+            "zh": "他們提供支持的方式反映彼此容易理解感受。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their friendship depends on discussing every mistake immediately, before either feels ready.",
+            "zh": "他們的友誼依靠在任何一人準備好前，立即討論每個失誤。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Sharing a first language is the only reason the support works.",
+            "zh": "同一母語是支持有效的唯一原因。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "朋友配合先冷靜再檢討的情緒需要，不是只看母語或強行立即分析。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 speak the same emotional language 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "彼此對支持方式有熟悉的理解。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要熟悉，就不用再確認對方這次想怎樣被支持。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "即使母語不同，也可能理解彼此感受。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "熟悉不等於自動知道每次需要，仍可直接確認。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「你知道我通常想先有人聽，但今天我其實想一起想辦法。」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We may speak the same emotional language, but I should still ask what would help you today.",
+            "zh": "我們或許容易理解彼此感受，但我仍應問今天怎樣才有幫助。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I will keep listening silently because the response you usually prefer must also be right today.",
+            "zh": "我會繼續默默聽，因為你平常偏好的回應今天也必定合適。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Let us change the language we speak before discussing the kind of support you want.",
+            "zh": "先改變交談語言，再討論你想要哪種支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "承認今天需要可能不同，才真正回應朋友要求一起想辦法。"
+      },
+      "speaking": {
+        "en": "Good friends can speak the same emotional language and still ask what would help today.",
+        "zh": "好友可以容易理解彼此感受，同時仍問今天甚麼才有幫助。",
+        "targetSpan": {
+          "start": 17,
+          "end": 50
+        },
+        "promptZh": "先聽示範，再說明熟悉理解也需要確認。"
+      },
+      "writing": {
+        "promptZh": "新情境：好友 Maya 要搬到遠方開始新工作，你們都替她高興，也因不能常見面而難過；你們能理解這份混合感受，想用安靜的小聚餐告別，而不勉強裝作只有興奮。用一至兩句英文說明彼此理解及告別安排。",
+        "examples": [
+          {
+            "en": "Maya and I speak the same emotional language: we can share our pride in her new role and sadness about living far apart. A quiet farewell meal feels right for us.",
+            "zh": "Maya 和我容易理解彼此感受：我們可分享對她新角色的驕傲，也承認將分隔兩地的難過。安靜的告別聚餐對我們很合適。"
+          },
+          {
+            "en": "As Maya prepares to move, we speak the same emotional language about feeling both happy and sad, so we are planning a small farewell rather than a loud party.",
+            "zh": "Maya 準備搬遷時，我們容易理解彼此既高興又難過的感受，所以計劃小型告別聚會，而非喧鬧派對。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "her new role",
+            "zh": "她的新角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 84
+            }
+          },
+          {
+            "en": "living far apart",
+            "zh": "分隔兩地生活",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 119
+            }
+          },
+          {
+            "en": "A quiet farewell meal",
+            "zh": "安靜的告別聚餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 142
+            }
+          },
+          {
+            "en": "both happy and sad",
+            "zh": "既高興又難過",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 95
+            }
+          },
+          {
+            "en": "a small farewell",
+            "zh": "小型告別聚會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 132
+            }
+          }
+        ],
+        "selfCheckZh": "用共享及承認混合感受說明彼此理解，再連到合適的告別安排，不把理解說成只有一種情緒或不需交談。"
+      },
+      "takeaways": [
+        {
+          "en": "Two people can speak the same emotional language without sharing a first language.",
+          "zh": "兩人即使母語不同，也可以容易理解彼此感受。"
+        },
+        {
+          "en": "We speak the same emotional language, yet we still tell each other when our needs change.",
+          "zh": "我們容易理解彼此感受，但需要改變時仍會告訴對方。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1578",
+      "number": 1578,
+      "inventoryId": "expr-1578",
+      "contentRevision": 1,
+      "titleEn": "give you a sense of immediacy",
+      "titleZh": "帶來貼近當下的感受",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bgive\\s+you\\s+a\\s+sense\\s+of\\s+immediacy\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p184-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 184,
+          "book": 7,
+          "question": 11,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A classmate can give you immediacy when a problem happens at school.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "give you immediacy",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make an account or interaction feel direct, close and connected to what is happening now.",
+        "meaningZh": "讓敘述或交流帶來直接、貼近當下情況的感受。",
+        "grammar": "a direct account / live exchange can give you a sense of immediacy; formal explanatory wording, not a fixed idiom",
+        "register": "formal explanatory English",
+        "boundaryZh": "是貼近當下的感受，不等於資訊一定正確、建議一定專業；即時感與已驗證的準確度要分開。",
+        "misconceptionZh": "是貼近當下的感受，不等於資訊一定正確、建議一定專業；即時感與已驗證的準確度要分開。",
+        "outcomeZh": "理解「帶來貼近當下的感受」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Source fragment give you immediacy and its original school example are preserved exactly as provenance. Learner frame adds a sense of, an attested collocation, to avoid teaching the awkward bare fragment as a fixed everyday phrase. Oxford immediacy covers direct present involvement and speed; this lesson selects present involvement, not guaranteed quick expert understanding. Evidence: https://www.oxfordlearnersdictionaries.com/definition/english/immediacy and https://dictionary.cambridge.org/example/english/sense-of-immediacy."
+      },
+      "listening": {
+        "en": "A live conversation with a classmate who is at the event can give you a sense of immediacy, because you hear their reactions as the situation unfolds.",
+        "zh": "與身在活動現場的同學即時交談，可以帶來貼近當下的感受，因為你在事情展開時聽到對方的反應。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "現場即時反應讓交談有貼近當下的感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "同學只在多年後整理已結束活動的歷史紀錄。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "同學主要提供活動開始前已寫好的資料，沒有當下回應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "交談的重點是刻意拉開與當下活動的距離，不提現場反應。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "live、at the event、as unfolds 說明直接當下感；這不使未查核細節自動可靠。"
+      },
+      "reply": {
+        "promptEn": "Why would you include a live conversation in your account of the event?",
+        "promptZh": "你為甚麼想在活動報道中加入即時交談？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It can give you a sense of immediacy through the participant’s current reactions.",
+            "zh": "它可透過參加者的當下反應，帶來貼近當下的感受。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Hearing someone respond while it happens can make the account feel more direct.",
+            "zh": "事情發生時聽到別人回應，可讓報道感覺更直接。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It lets listeners connect with the experience as it unfolds.",
+            "zh": "它讓聽眾在經驗展開時與之連結。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I want the audience to feel closer to what is happening now.",
+            "zh": "我想讓觀眾感到較貼近正在發生的事。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "展覽透過現場視像讓觀眾聽見工匠正在工作時的反應，而非只讀事後摘要。你想描述貼近當下的感受。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The live exchange can give you a sense of immediacy.",
+            "zh": "即時交流可帶來貼近當下的感受。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The exchange is valuable mainly because it removes the participants’ present reactions.",
+            "zh": "交流的主要價值是移除參加者的當下反應。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Being live means the account needs no checking against other information.",
+            "zh": "即時進行表示敘述毋須與其他資訊核對。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "正在工作時的回應帶來當下感；它不等於移除反應或取消查核。"
+      },
+      "contrast": {
+        "promptZh": "哪種判斷不宜只憑 a sense of immediacy 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "聽眾覺得較貼近當下情況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "感受直接，所以敘述每個細節都已核實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "貼近當下的呈現方式仍可能需要背景資料。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "呈現的直接感與事實是否經核實是兩個問題。"
+      },
+      "dialogue": {
+        "promptZh": "同學說：「即時交談很有臨場感，是否可以省去活動時間及數字的核對？」哪句回應最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can give you a sense of immediacy, but we should still check the times and figures before publishing.",
+            "zh": "它可帶來貼近當下的感受，但刊登前仍應核對時間及數字。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the participant’s excitement in place of checking the schedule and attendance figures.",
+            "zh": "用參加者的興奮感代替核對時間表及出席數字。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We should remove the participant’s reactions entirely and publish only dates and figures.",
+            "zh": "我們應完全刪去參加者的反應，只刊登時間及數字。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留直接感，也保留刊登前查核，沒有把感受當成準確度證明。"
+      },
+      "speaking": {
+        "en": "The speaker’s live reactions can give you a sense of immediacy, even while some details need checking.",
+        "zh": "說話者的即時反應可帶來貼近當下的感受，即使有些細節仍需核對。",
+        "targetSpan": {
+          "start": 33,
+          "end": 62
+        },
+        "promptZh": "你想描述當下感，同時分清準確度。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你製作河畔步行路線的聲音導覽，想加入自己邊走邊觀察的錄音，讓之後的聽眾覺得貼近那次經驗，也清楚說明錄音日期，避免當作現在路況。用一至兩句英文解釋選擇。",
+        "examples": [
+          {
+            "en": "My recorded observations can give you a sense of immediacy as you follow the riverside route. I will state the recording date so they are not mistaken for current conditions.",
+            "zh": "沿河畔路線走時，我錄下的觀察可帶來貼近當時經驗的感受。我會註明錄音日期，避免被誤當現時路況。"
+          },
+          {
+            "en": "The sounds and first-person observations give you a sense of immediacy, although the guide records one earlier walk rather than a live update.",
+            "zh": "聲音及第一身觀察帶來貼近當時經驗的感受，但導覽記錄的是較早一次步行，而非即時更新。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "My recorded observations",
+            "zh": "我錄下的觀察",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "the riverside route",
+            "zh": "河畔路線",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          },
+          {
+            "en": "the recording date",
+            "zh": "錄音日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 125
+            }
+          },
+          {
+            "en": "current conditions",
+            "zh": "目前情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 155,
+              "end": 173
+            }
+          },
+          {
+            "en": "a live update",
+            "zh": "即時更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 128,
+              "end": 141
+            }
+          }
+        ],
+        "selfCheckZh": "說明聲音呈現如何帶來直接感，也保留錄音日期與過往經驗的界線，不把臨場感當作現時路況保證。"
+      },
+      "takeaways": [
+        {
+          "en": "A first-person account can give you a sense of immediacy without proving every detail correct.",
+          "zh": "第一身敘述可帶來直接感，卻不證明每項細節都正確。"
+        },
+        {
+          "en": "Hearing the debate unfold can give you a sense of immediacy that a short summary may lack.",
+          "zh": "聽辯論逐步展開，可帶來簡短摘要可能缺少的貼近當下感受。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1580",
+      "number": 1580,
+      "inventoryId": "expr-1580",
+      "contentRevision": 1,
+      "titleEn": "take the weight off",
+      "titleZh": "減輕某人的負擔",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:take|takes|taking|took|taken)\\s+(?:some\\s+of\\s+)?the\\s+weight\\s+off\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p184-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 184,
+          "book": 7,
+          "question": 11,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Clear instructions can take the weight off new staff.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "take the weight off",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Reduce the worry, pressure or responsibility that someone is carrying.",
+        "meaningZh": "減輕某人承受的擔憂、壓力或責任。",
+        "grammar": "take the weight off + person; took/taken; explain the burden and what reduces it",
+        "register": "neutral",
+        "boundaryZh": "與 take a weight off someone’s shoulders 同屬負擔比喻；本課保留直接 off + person 的框架，不表示實際搬重物或所有工作已完成。",
+        "misconceptionZh": "與 take a weight off someone’s shoulders 同屬負擔比喻；本課保留直接 off + person 的框架，不表示實際搬重物或所有工作已完成。",
+        "outcomeZh": "理解「減輕某人的負擔」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Source labels this idiom/set phrase. Bare take the weight off + person is retained as a related productive burden-relief frame, rather than a separate established dictionary idiom. A first-party StaffPro Workforce outsourcing page search result attests take the weight off your team; the full-page fetch timed out, so this is limited usage attestation, not a dictionary-sense claim. https://staffproworkforce.com/outsourcing-solution/ Related canonical801 retains the conventional shoulders frame."
+      },
+      "listening": {
+        "en": "A clear checklist took the weight off the new volunteers, because they no longer had to guess which jobs needed doing first.",
+        "zh": "清楚的檢查清單減輕新義工的負擔，因為他們不用再猜哪些工作要先做。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "清單減少工作次序的不確定，讓義工壓力減輕。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新人先自行排好次序，清單只是事後記錄他們的決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "清單令義工更難知道先做甚麼。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "清單把有經驗義工的任務交給新人，增加了他們的負擔。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "no longer guess 是減輕負擔的原因；清單提供先後次序，不是事後抄寫已作決定或增加任務。"
+      },
+      "reply": {
+        "promptEn": "Why was the checklist helpful to the new volunteers?",
+        "promptZh": "檢查清單為甚麼對新義工有幫助？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It took the weight off them by making the priorities clear.",
+            "zh": "它把先後次序說清，減輕了他們的負擔。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They did not have to guess which task came first.",
+            "zh": "他們不用猜哪項工作先做。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It reduced the uncertainty they felt at the start of the shift.",
+            "zh": "它減少他們值班開始時的不確定。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Having clear priorities made the work feel more manageable.",
+            "zh": "清楚的先後次序讓工作感覺較能應付。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "組長向新人示範如何記錄資料，並留下可查的步驟；新人不用一直擔心做錯程序，仍需自己完成紀錄。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The demonstration took the weight off the new assistant.",
+            "zh": "示範減輕了新助理的負擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The demonstration gave the new assistant several extra reporting duties.",
+            "zh": "示範給新助理增加了幾項報告職責。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The assistant’s records had all been completed before the demonstration began.",
+            "zh": "示範開始前，助理的紀錄已全完成。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "程序變清楚可減壓，但工作仍需完成，並非增加職責或已全部做完。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 took the weight off the new staff 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某種幫助減輕新人負擔。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新人已毋須再負任何職責。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "仍應交代是甚麼令壓力減輕。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "減輕負擔與免除全部職責不同，需看上下文。"
+      },
+      "dialogue": {
+        "promptZh": "新同事說：「有人教我分清先後次序，我安心些，但還有工作未做。」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "That guidance can take the weight off you while you work through the remaining tasks.",
+            "zh": "你處理餘下工作時，那些指引能減輕你的負擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Would it be simpler to leave the priorities unclear and let you work them out?",
+            "zh": "讓先後次序維持不清楚，由你自己摸索，會否較簡單？"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would count the guidance as unhelpful because you still have tasks to do.",
+            "zh": "既然你還有工作要做，我會把那些指引當作沒有幫助。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "承認減壓，同時保留未完成工作，才符合對方描述。"
+      },
+      "speaking": {
+        "en": "Sharing the booking calls can take the weight off the organiser.",
+        "zh": "分擔預訂電話可減輕籌辦者的負擔。",
+        "targetSpan": {
+          "start": 30,
+          "end": 49
+        },
+        "promptZh": "你想說明具體分擔如何減負。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友獨自照料社區花園，還要追問每人的澆水時間，覺得安排很吃力。你想提議共用時間表及輪流更新，減輕他追問的負擔，不替他決定所有種植事宜。用一至兩句英文提出建議。",
+        "examples": [
+          {
+            "en": "A shared watering timetable could take the weight off the garden organiser. Each volunteer can update their own slot instead of waiting to be asked.",
+            "zh": "共用澆水時間表可減輕花園籌辦者的負擔。每位義工可自行更新時段，不用等人逐一追問。"
+          },
+          {
+            "en": "We could take some of the weight off the organiser by sharing the timetable updates, while leaving planting decisions with the gardening team.",
+            "zh": "我們可分擔更新時間表，減輕籌辦者部分負擔，同時把種植決定留給園藝小組。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A shared watering timetable",
+            "zh": "共用澆水時間表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 27
+            }
+          },
+          {
+            "en": "Each volunteer",
+            "zh": "每位義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          },
+          {
+            "en": "their own slot",
+            "zh": "自己的時段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 116
+            }
+          },
+          {
+            "en": "the timetable updates",
+            "zh": "時間表更新",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 83
+            }
+          },
+          {
+            "en": "planting decisions",
+            "zh": "種植決定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 99,
+              "end": 117
+            }
+          }
+        ],
+        "selfCheckZh": "把分擔安排連到具體負擔減輕，保留仍需完成的工作與小組決定。"
+      },
+      "takeaways": [
+        {
+          "en": "A clear handover took the weight off the colleague covering the next shift.",
+          "zh": "清楚的交接減輕了接下一班同事的負擔。"
+        },
+        {
+          "en": "Sharing the preparation can take the weight off the event leader.",
+          "zh": "分擔準備工作可減輕活動負責人的負擔。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1581",
+      "number": 1581,
+      "inventoryId": "expr-1581",
+      "contentRevision": 1,
+      "titleEn": "a safe place to land",
+      "titleZh": "困難時可安心依靠之處",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba\\s+safe\\s+place\\s+to\\s+land\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p184-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 184,
+          "book": 7,
+          "question": 12,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Her friend was a safe place to land.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a safe place to land",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p264-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 264,
+          "book": 9,
+          "question": 29,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Her friend was a safe place to land.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a safe place to land",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A person or setting that offers emotional security when someone is having difficulty.",
+        "meaningZh": "在有困難時，提供情感安全感、讓人安心依靠的人或環境。",
+        "grammar": "a friend / relationship / group is a safe place to land; landing is an emotional metaphor",
+        "register": "neutral",
+        "boundaryZh": "不指實際降落場，也不表示替對方決定一切；安心支持可以包含聆聽及幫助整理下一步。",
+        "misconceptionZh": "不指實際降落場，也不表示替對方決定一切；安心支持可以包含聆聽及幫助整理下一步。",
+        "outcomeZh": "理解「困難時可安心依靠之處」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide classifies this as an idiom/set phrase. This lesson labels the conventional landing image figurative rather than treating every full context as an opaque idiom."
+      },
+      "listening": {
+        "en": "After a discouraging first week at work, Maya found a safe place to land in her aunt’s calm company, where she could speak without having to pretend everything was easy.",
+        "zh": "第一周工作令 Maya 灰心，阿姨平靜的陪伴讓她有安心依靠之處，可以坦誠說話，不用假裝一切輕鬆。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "阿姨的陪伴給她安全感，讓她能坦誠談困難。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "阿姨要求她先證明工作毫無困難才願意聽。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "阿姨主要教她工作程序，沒有讓她談那周的感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她已決定不談自己的經驗，只請阿姨代她處理上班事情。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "calm company 與 could speak 說明情感上的安心，不是程序訓練或代做工作。"
+      },
+      "reply": {
+        "promptEn": "What did Maya value about spending time with her aunt after that week?",
+        "promptZh": "那一周後，Maya 為甚麼珍惜與阿姨相處？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Her aunt offered a safe place to land after a difficult start.",
+            "zh": "艱難的開始後，阿姨給她安心依靠之處。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She could talk honestly without pretending the week had been easy.",
+            "zh": "她能坦誠談話，不用假裝那周輕鬆。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The calm company helped her feel accepted while she explained what happened.",
+            "zh": "平靜陪伴讓她說明經過時覺得被接納。"
+          },
+          {
+            "id": "reply-4",
+            "en": "She had someone willing to listen before suggesting what to do next.",
+            "zh": "她有人願意先聆聽，再建議下一步。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生失去比賽資格，導師先安靜聽他說感受，沒有羞辱或急着代他作決定。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The conversation was a safe place to land after the disappointment.",
+            "zh": "失望後，那段交談是讓他安心依靠的支持。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The mentor asked him to hide the disappointment before starting the conversation.",
+            "zh": "導師要求他先藏起失望才開始交談。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The mentor made a complete repair plan a condition of hearing how he felt.",
+            "zh": "導師要求先有完整補救計劃，才聽他的感受。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先聆聽及不羞辱提供情感安全感；不是要求先藏起感受或先完成補救計劃。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 a safe place to land 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "對方能在困難時較安心地說話。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "支持者必須代替對方作每個決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "安心依靠可以與自己承擔下一步並存。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "情感依靠不是把全部選擇交給支持者。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「這次失誤令我很羞愧，我想先有人聽，再想怎樣補救。」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I hope this can be a safe place to land. Tell me what happened, and we can think about the next step when you are ready.",
+            "zh": "希望這裏能讓你安心依靠。告訴我經過，等你準備好再一起想下一步。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Let us begin by announcing the mistake to the whole group before hearing how you feel.",
+            "zh": "先向全組宣布失誤，再聽你的感受吧。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Explain the repair plan first; we can discuss your feelings only after you have finished it.",
+            "zh": "先交代補救計劃，等你完成後才談感受。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "朋友要求先聆聽再想補救，安心支持應配合這個順序及私隱。"
+      },
+      "speaking": {
+        "en": "The weekly check-in became a safe place to land when the new project felt confusing.",
+        "zh": "新項目令人困惑時，每周的交流成為讓人安心依靠的支持。",
+        "targetSpan": {
+          "start": 27,
+          "end": 47
+        },
+        "promptZh": "你想形容能坦誠談困難的支持。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你主持一個新手寫作小組，成員不敢分享未完成稿，怕只收到嘲笑。你想寫一段歡迎詞，說明這裏可以安心分享草稿，回饋先從作者想問的問題開始。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "I want this writing group to be a safe place to land with an unfinished draft. We will begin with the questions the writer wants to explore.",
+            "zh": "我希望這個寫作小組讓大家帶着未完成稿也能安心依靠。我們會先從作者想探討的問題開始。"
+          },
+          {
+            "en": "Our group can offer a safe place to land when sharing early work, with respectful feedback guided by what each writer asks for.",
+            "zh": "分享初稿時，我們小組可以提供安心依靠之處，按每位作者提出的需要給尊重的回饋。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "this writing group",
+            "zh": "這個寫作小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 25
+            }
+          },
+          {
+            "en": "an unfinished draft",
+            "zh": "未完成稿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 58,
+              "end": 77
+            }
+          },
+          {
+            "en": "the questions",
+            "zh": "那些問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 111
+            }
+          },
+          {
+            "en": "respectful feedback",
+            "zh": "尊重的回饋",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 90
+            }
+          },
+          {
+            "en": "each writer asks for",
+            "zh": "每位作者提出的需要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 106,
+              "end": 126
+            }
+          }
+        ],
+        "selfCheckZh": "把安心支持連到草稿分享及尊重回饋，不把安全感說成保證沒有改進需要或由別人代寫。"
+      },
+      "takeaways": [
+        {
+          "en": "A trusted friendship can be a safe place to land after an unsettling change.",
+          "zh": "令人不安的改變後，可信友誼可讓人安心依靠。"
+        },
+        {
+          "en": "The small group offered a safe place to land while she worked out how to continue.",
+          "zh": "她整理如何繼續時，小組給她安心依靠之處。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1583",
+      "number": 1583,
+      "inventoryId": "expr-1583",
+      "contentRevision": 1,
+      "titleEn": "trapped in their own thoughts",
+      "titleZh": "困在反覆的思緒裏",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btrapped\\s+in\\s+(?:my|your|his|her|our|their)\\s+own\\s+thoughts\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A conversation helped him feel less trapped in their own thoughts.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "trapped in their own thoughts",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Caught up in repeating one’s thoughts so that it is hard to see beyond them.",
+        "meaningZh": "被自己反覆的思緒纏住，難以跳出原有想法。",
+        "grammar": "feel / be trapped in + possessive + own thoughts; match the possessive to the person",
+        "register": "neutral",
+        "boundaryZh": "是思緒反覆的比喻，不是實際被關，也不是任何獨處思考都算困住；新資料或交流可幫助換角度，但不保證立即解決。",
+        "misconceptionZh": "是思緒反覆的比喻，不是實際被關，也不是任何獨處思考都算困住；新資料或交流可幫助換角度，但不保證立即解決。",
+        "outcomeZh": "理解「困在反覆的思緒裏」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The original guide example says him but their own thoughts. The exact source remains unchanged; new examples use a clear matching referent, e.g. him/his. Figurative label avoids claiming this entire flexible description is an opaque fixed idiom."
+      },
+      "listening": {
+        "en": "Replaying the awkward conversation left Ben trapped in his own thoughts until a friend asked what had actually been said, rather than what he feared it meant.",
+        "zh": "Ben 反覆回想那段尷尬對話，困在自己的思緒裏，直到朋友問實際說了甚麼，而非他擔心那些話代表甚麼。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他反覆想像對話的含意，朋友幫他分清原話與推測。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他只是平靜地列出對話原話，沒有反覆困擾。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "朋友鼓勵他把每個擔心都當成對方已說出的事實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他已取得對方明確解釋，所以沒有再猜測對話意思。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "replaying 與 feared it meant 表示反覆推想；actual words 是幫助換角度，不是證實每個猜測。"
+      },
+      "reply": {
+        "promptEn": "Why did Ben find his friend’s question useful?",
+        "promptZh": "Ben 為甚麼覺得朋友的問題有用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "He had felt trapped in his own thoughts and needed another way to examine the conversation.",
+            "zh": "他原先覺得困在自己的思緒裏，需要另一角度檢視對話。"
+          },
+          {
+            "id": "reply-2",
+            "en": "It helped him separate the words he heard from meanings he had imagined.",
+            "zh": "問題幫他分清聽到的原話與想像的意思。"
+          },
+          {
+            "id": "reply-3",
+            "en": "He had been replaying the same worry without checking the details.",
+            "zh": "他一直反覆想同一個擔憂，沒有核對細節。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A fresh question interrupted the loop and brought him back to what had happened.",
+            "zh": "新問題打斷反覆思緒，讓他回到實際發生的事。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "Lena 反覆想老師一句簡短評語，越想越覺得作品全錯，卻還未看旁邊的具體建議。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Lena seems trapped in her own thoughts about the comment.",
+            "zh": "Lena 似乎困在自己對評語的反覆思緒裏。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Lena has calmly compared every suggestion and reached a supported conclusion.",
+            "zh": "Lena 已平靜比較每項建議，得出有根據的結論。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The teacher has explicitly said that every part of the work must be discarded.",
+            "zh": "老師已明確說作品每部分都必須棄掉。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反覆猜想而未看具體建議，支持思緒困住；不是已檢視全部資料或老師已明言全錯。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不像 trapped in their own thoughts？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "一直重播同一擔憂，未能留意新資料。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "安靜整理筆記，能比較不同證據，也可停下來聽新建議。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "把自己的反覆推測當成唯一可能解釋。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "獨處及思考本身不等於困住；能換角度及回應資料與反覆纏繞不同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我一直猜那句評語代表甚麼，卻越想越糟。」你想幫他整理已知及猜測。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You sound trapped in your own thoughts; shall we look at the exact comment and the suggestions beside it?",
+            "zh": "你聽來困在自己的思緒裏；一起看看原評語及旁邊的建議好嗎？"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep replaying your worst interpretation before looking at the rest of the feedback.",
+            "zh": "先繼續重播最壞解讀，再看其餘回饋。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the feeling that it is all wrong as the teacher’s full written judgement.",
+            "zh": "把感覺全部都錯，當作老師完整寫下的判斷。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "核對原話和建議能加入新角度；重播最壞解讀或把感受當原話，仍停在同一圈。"
+      },
+      "speaking": {
+        "en": "I felt trapped in my own thoughts about the reply, so I asked what the sender meant.",
+        "zh": "我困在自己對回覆的思緒裏，所以直接問發訊者的意思。",
+        "targetSpan": {
+          "start": 7,
+          "end": 33
+        },
+        "promptZh": "先聽示範，再分清反覆猜想與查問。"
+      },
+      "writing": {
+        "promptZh": "新情境：你改演講稿時一直把同一段重寫，越改越不確定，卻沒有讓人試聽。你想向同伴提出讀一遍，請他指出哪部分難懂。用一至兩句英文描述反覆思緒及具體求助。",
+        "examples": [
+          {
+            "en": "I am trapped in my own thoughts about this paragraph. Could I read it to you so you can tell me which part is unclear?",
+            "zh": "我困在自己對這段的反覆思緒裏。我可以讀給你聽，讓你告訴我哪部分不清楚嗎？"
+          },
+          {
+            "en": "Rewriting the same paragraph has left me trapped in my own thoughts, so I would like a listener’s view before changing it again.",
+            "zh": "反覆重寫同一段令我困在自己的思緒裏，所以再改之前，我想先聽聽聆聽者的看法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "this paragraph",
+            "zh": "這一段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 52
+            }
+          },
+          {
+            "en": "read it to you",
+            "zh": "讀給你聽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 76
+            }
+          },
+          {
+            "en": "which part is unclear",
+            "zh": "哪部分不清楚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 96,
+              "end": 117
+            }
+          },
+          {
+            "en": "a listener’s view",
+            "zh": "聆聽者的看法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 102
+            }
+          }
+        ],
+        "selfCheckZh": "交代反覆而未能換角度的情況，再提出明確回饋要求，不把安靜修改本身都說成有問題。"
+      },
+      "takeaways": [
+        {
+          "en": "After replaying the disagreement, she felt trapped in her own thoughts and asked for another perspective.",
+          "zh": "反覆回想爭論後，她覺得困在自己的思緒裏，於是尋求另一角度。"
+        },
+        {
+          "en": "He was less trapped in his own thoughts once he separated the facts from his assumptions.",
+          "zh": "分清事實與假設後，他較少困在自己的反覆思緒裏。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1584",
+      "number": 1584,
+      "inventoryId": "expr-1584",
+      "contentRevision": 1,
+      "titleEn": "mean well",
+      "titleZh": "本意是好的",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:mean|means|meant)\\s+well\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Friends may mean well but lack expertise.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "mean well",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Have kind or helpful intentions, whether or not the action has a good result.",
+        "meaningZh": "有善意、想幫忙，但行動未必帶來好結果。",
+        "grammar": "someone means/meant well; often followed by but + unintended problem",
+        "register": "neutral",
+        "boundaryZh": "本意好與做法合適是兩回事；不是隱含對方有惡意，也不能單靠善意取消受影響者的需要。",
+        "misconceptionZh": "本意好與做法合適是兩回事；不是隱含對方有惡意，也不能單靠善意取消受影響者的需要。",
+        "outcomeZh": "理解「本意是好的」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The classmate meant well when he rewrote my introduction, but he did not ask first and removed the personal detail I wanted to keep.",
+        "zh": "同學重寫我的引言時本意是好的，但他沒有先問，也刪掉了我想保留的個人細節。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "同學想幫忙，但未問便修改，造成不合作者意願的結果。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "同學先確認作者選擇，再保留所有想要的細節。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者指同學的主要目的就是故意損害文章。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "因為做法造成問題，所以句子已否定同學原來的善意。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "meant well 談善意；but 談做法及影響，兩者可同時成立。"
+      },
+      "reply": {
+        "promptEn": "Why do you want to discuss the changes with your classmate?",
+        "promptZh": "你為甚麼想與同學談那些修改？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "He meant well, but I want him to ask before changing my personal details.",
+            "zh": "他本意是好的，但我想他修改個人細節前先問我。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I appreciate the intention while wanting a say in my own introduction.",
+            "zh": "我感謝他的用意，同時希望自己的引言由我參與決定。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The help removed something important to me without checking.",
+            "zh": "那份幫忙未確認就刪去了對我重要的內容。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I want us to agree how to offer feedback without taking over each other’s writing.",
+            "zh": "我想大家議定怎樣給回饋，而不接管對方的寫作。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友想鼓勵你，卻當眾提起你原想私下處理的失誤，令你尷尬。你知道他原想支持。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He meant well, but mentioning it publicly made me uncomfortable.",
+            "zh": "他本意是好的，但公開提起令我不舒服。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He checked my preference and kept the matter private as requested.",
+            "zh": "他先問我的意願，按要求把事情保密。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Feeling uncomfortable establishes that he intended to embarrass me.",
+            "zh": "我覺得不舒服便證明他本來想令我尷尬。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "善意與不舒服的影響可並存，不能倒推出已獲同意或必定存心尷尬人。"
+      },
+      "contrast": {
+        "promptZh": "哪種說法把 mean well 的意思理解錯了？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可以承認善意，同時要求改變做法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要本意好，對方就不應再提出任何界線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "善意不一定讓每種幫忙都合適。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "善意不取消界線，也不讓受影響者失去表達需要的權利。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我只是想幫忙，為甚麼還要先問你能否公開那件事？」你想承認善意也說清界線。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I know you mean well, but please ask before sharing something I told you privately.",
+            "zh": "我知道你本意是好的，但分享我私下說的事前，請先問我。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Since you wanted to help, I should stop telling you which things I want kept private.",
+            "zh": "既然你想幫忙，我就應停止說明哪些事想保密。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Because I felt embarrassed, I must describe your intention as deliberately unkind.",
+            "zh": "因為我覺得尷尬，就必須把你的用意說成故意不友善。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "回應同時保留善意與私隱需要，不要求取消界線，也不把影響等同惡意。"
+      },
+      "speaking": {
+        "en": "I know you mean well, but please check with me before editing the personal parts.",
+        "zh": "我知道你本意是好的，但修改個人部分前，請先問我。",
+        "targetSpan": {
+          "start": 11,
+          "end": 20
+        },
+        "promptZh": "先聽示範，再用善意加界線的方式回應。"
+      },
+      "writing": {
+        "promptZh": "新情境：鄰居想支持你種植物，送來很多大型花盆，但你的露台空間有限；你想道謝，同時請他下次先問尺寸及需要。用一至兩句英文表達，不把好意說成故意為難。",
+        "examples": [
+          {
+            "en": "I know you mean well, and I appreciate the pots, but my balcony has limited space. Please ask about the size before bringing more.",
+            "zh": "我知道你本意是好的，也感謝那些花盆，但我的露台空間有限。再帶來之前，請先問尺寸。"
+          },
+          {
+            "en": "You meant well by bringing the large pots, but I cannot fit them all on the balcony. Could we check what I need next time?",
+            "zh": "你送來大型花盆本意是好的，但我的露台放不下全部。下次可以先確認我需要甚麼嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the pots",
+            "zh": "那些花盆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 47
+            }
+          },
+          {
+            "en": "my balcony",
+            "zh": "我的露台",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 63
+            }
+          },
+          {
+            "en": "limited space",
+            "zh": "有限空間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 81
+            }
+          },
+          {
+            "en": "the size",
+            "zh": "尺寸",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 108
+            }
+          },
+          {
+            "en": "next time",
+            "zh": "下次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 121
+            }
+          }
+        ],
+        "selfCheckZh": "感謝善意並說明具體限制，提出下次先問的界線，不把困擾當成惡意證明。"
+      },
+      "takeaways": [
+        {
+          "en": "The volunteer meant well, but the extra announcements interrupted the discussion.",
+          "zh": "義工本意是好的，但額外廣播打斷了討論。"
+        },
+        {
+          "en": "You can mean well and still need to ask what kind of help is wanted.",
+          "zh": "你可以本意是好的，同時仍需要問清對方想要哪種幫助。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1585",
+      "number": 1585,
+      "inventoryId": "expr-1585",
+      "contentRevision": 1,
+      "titleEn": "warm but blurry",
+      "titleZh": "態度溫暖但說法含糊",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwarm\\s+but\\s+blurry\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Their advice was warm but blurry.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "warm but blurry",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Kind and reassuring in tone but lacking clear detail or useful direction.",
+        "meaningZh": "語氣親切、令人安心，但缺乏清楚細節或可用方向。",
+        "grammar": "advice / feedback can be warm but blurry; warm describes kindness, blurry describes lack of clarity",
+        "register": "neutral",
+        "boundaryZh": "是兩個形容詞的創意對比，不是固定成語；親切不等於清楚，指出含糊也不表示說話者不關心。",
+        "misconceptionZh": "是兩個形容詞的創意對比，不是固定成語；親切不等於清楚，指出含糊也不表示說話者不關心。",
+        "outcomeZh": "理解「態度溫暖但說法含糊」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Source figurative wording retained as a reusable descriptive contrast, not a claim that the whole string has a separate dictionary idiom meaning."
+      },
+      "listening": {
+        "en": "My friend’s advice was warm but blurry: she said she believed in my project, yet I still did not know which part of the plan needed work.",
+        "zh": "朋友的建議親切卻含糊：她說相信我的項目，但我仍不知道計劃哪部分需要改善。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "建議帶來鼓勵，但缺少具體改善方向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "朋友清楚列出每個需要修改的部分及原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "朋友的語氣冷淡，直接否定項目值得做。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者只在感謝鼓勵，沒有指出任何尚未解答的實際問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "believed in project 是溫暖；still did not know which part 是含糊，兩個特點並存。"
+      },
+      "reply": {
+        "promptEn": "Why are you asking for more specific feedback after your friend encouraged you?",
+        "promptZh": "朋友鼓勵後，你為甚麼還想要較具體的回饋？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The advice was warm but blurry, so I still need to know what to improve.",
+            "zh": "建議親切卻含糊，所以我仍需知道改善甚麼。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The encouragement helped, but it did not identify the part that needs work.",
+            "zh": "鼓勵有幫助，但沒有指出哪部分需改善。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I want to turn the supportive response into a clear next step.",
+            "zh": "我想把支持性的回應變成清楚下一步。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Kind words alone have not answered my practical question about the plan.",
+            "zh": "只有親切說話，還未回答我對計劃的實際問題。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "評審說你的提案很有潛力、很欣賞努力，卻沒有說評分準則或下一步需改甚麼。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The feedback was warm but blurry about what I should revise.",
+            "zh": "回饋態度親切，但對應修改甚麼說得含糊。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The feedback gave a precise revision list with clear reasons.",
+            "zh": "回饋提供了附清楚原因的精確修改清單。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The supportive tone shows that the judge had no interest in my work.",
+            "zh": "支持的語氣顯示評審對作品毫無興趣。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "稱讚可有真誠支持，但沒有準則及修改方向仍不清楚。"
+      },
+      "contrast": {
+        "promptZh": "哪個判斷不宜由 warm but blurry advice 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可以感謝支持，再問具體意思。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "既然說法含糊，原來的友善也必定是假裝。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "同一回應可親切卻未能回答實際問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "內容不清楚不證明友善是假；兩個形容詞本來就在分開語氣及清晰度。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「我都說你的計劃很棒，為甚麼你還問哪裏要改？」你想保留友善，也求清楚方向。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Your response feels warm but blurry to me; could you point to one part that needs more detail?",
+            "zh": "你的回應讓我感到親切，但有點含糊；可以指出一個需要更多細節的部分嗎？"
+          },
+          {
+            "id": "choice-2",
+            "en": "Repeat that the whole plan is great, so we can avoid looking at any specific part.",
+            "zh": "再說整個計劃很棒，這樣便可避免看任何具體部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "If you cannot give a revision list immediately, I will assume you do not care about the project.",
+            "zh": "若你不能立即列修改清單，我就會假設你不關心項目。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "具體追問把鼓勵轉成可用資料；重複籠統稱讚或懷疑用心都未解決清晰度問題。"
+      },
+      "speaking": {
+        "en": "The response was warm but blurry, so I asked what the first practical step should be.",
+        "zh": "回應親切卻含糊，所以我問第一個實際步驟應是甚麼。",
+        "targetSpan": {
+          "start": 17,
+          "end": 32
+        },
+        "promptZh": "先聽示範，再分清友善語氣與具體方向。"
+      },
+      "writing": {
+        "promptZh": "新情境：你協助修改活動歡迎頁，文字親切地說所有人都受歡迎，卻沒交代無台階入口在哪裏、可聯絡誰問問題。用一至兩句英文向籌辦者提出友善而具體的修改建議。",
+        "examples": [
+          {
+            "en": "The welcome page feels warm but blurry about access. Could we add the step-free entrance location and a contact for questions?",
+            "zh": "歡迎頁語氣親切，但對進入場地的安排說得含糊。可以加上無台階入口位置及查詢聯絡人嗎？"
+          },
+          {
+            "en": "Our message is warm but blurry unless visitors can find the entrance details. Let us keep the friendly tone and add clear directions.",
+            "zh": "若訪客找不到入口資料，我們的訊息雖親切卻含糊。一起保留友善語氣，再加清楚指示吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The welcome page",
+            "zh": "歡迎頁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "the step-free entrance",
+            "zh": "無台階入口",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 88
+            }
+          },
+          {
+            "en": "a contact for questions",
+            "zh": "查詢聯絡人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 125
+            }
+          },
+          {
+            "en": "the entrance details",
+            "zh": "入口資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 76
+            }
+          },
+          {
+            "en": "clear directions",
+            "zh": "清楚指示",
+            "exampleIndex": 1,
+            "span": {
+              "start": 116,
+              "end": 132
+            }
+          }
+        ],
+        "selfCheckZh": "分清親切語氣與欠缺的實際資料，提出入口及聯絡方式等具體改進，不把含糊等同不關心。"
+      },
+      "takeaways": [
+        {
+          "en": "The advice sounded warm but blurry until we asked for a concrete example.",
+          "zh": "那些建議聽來親切卻含糊，直到我們要求一個具體例子。"
+        },
+        {
+          "en": "A welcome can be warm but blurry if newcomers cannot tell where to go.",
+          "zh": "若新人不知道該去哪裏，歡迎說話可以親切卻含糊。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1586",
+      "number": 1586,
+      "inventoryId": "expr-1586",
+      "contentRevision": 1,
+      "titleEn": "friends can hold your hand",
+      "titleZh": "朋友可陪伴並給予安慰",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bfriends\\s+can\\s+hold\\s+your\\s+hand\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Friends can hold your hand through a difficult week.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "friends can hold your hand",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Friends can offer reassuring companionship or guidance during a difficult experience.",
+        "meaningZh": "朋友可以在困難經驗中陪伴，給予安慰或引導。",
+        "grammar": "friends can hold your hand through + difficult period / task; hand-holding is figurative in these contexts",
+        "register": "neutral",
+        "boundaryZh": "本課用於陪伴與安慰，不要求真正牽手；具體能提供多少指導要看朋友的知識，不能把情感支持當成包辦。",
+        "misconceptionZh": "本課用於陪伴與安慰，不要求真正牽手；具體能提供多少指導要看朋友的知識，不能把情感支持當成包辦。",
+        "outcomeZh": "理解「朋友可陪伴並給予安慰」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Friends can hold your hand through a nervous first exhibition by listening, visiting your display and reminding you that a hesitant start is not the whole story.",
+        "zh": "首次展覽令你緊張時，朋友可以透過聆聽、到場看作品，並提醒你起步猶豫不代表全部經歷，給你陪伴與安慰。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "朋友可用聆聽及到場支持，陪伴緊張的開始。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "朋友的支持只指必須一直實際牽着你的手。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "朋友要接管作品介紹，你不需再向觀眾說話。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "朋友只會在你已毫不緊張後才願意來。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "listening、visiting、reminding 都說明支持方式；不要求實際牽手或接管展覽。"
+      },
+      "reply": {
+        "promptEn": "What kind of help can friends offer before your first exhibition?",
+        "promptZh": "首次展覽前，朋友可以提供哪種幫助？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Friends can hold your hand through the nervous start.",
+            "zh": "朋友可以陪伴你度過緊張的開始。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They can listen while you explain what feels difficult.",
+            "zh": "他們可以聽你說哪些地方難應付。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Having familiar people visit can make the first day feel less lonely.",
+            "zh": "熟悉的人到場，可讓第一天較不孤單。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They can offer encouragement while you keep responsibility for your own work.",
+            "zh": "他們可以鼓勵你，同時讓作品仍由你負責。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你首次參加詩歌朗讀，朋友陪你在場外練一遍、聽你說緊張，再讓你自己上台。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Friends can hold your hand through a daunting first performance.",
+            "zh": "朋友可以陪伴你度過令人膽怯的首次演出。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The friends have agreed to go on stage and read your whole piece instead.",
+            "zh": "朋友已答應上台代你讀完整篇。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The support counts only if someone physically holds your hand throughout the reading.",
+            "zh": "只有整段朗讀都有人實際牽手，支持才算數。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先練習及聆聽屬陪伴支持，表演仍由你完成，不要求真的牽手。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 friends can hold your hand 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "朋友能透過陪伴讓開始較容易面對。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "朋友應具備每一種專門技能，代你處理所有細節。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要專門指導時，可以在朋友支持以外再找合適的人。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "支持與專門知識不同，不能把陪伴擴大成包辦所有技能。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我可以陪你去第一次排練，但不懂那份樂譜。」你想接納他的支持並保留自己的學習。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Friends can hold your hand without knowing every technical detail; your company helps, and I can ask the tutor about the score.",
+            "zh": "朋友毋須懂每項技術細節，也能陪伴支持；你在場有幫助，樂譜可再問導師。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Your company is useful only if you can also teach every section of the score.",
+            "zh": "只有你也能教樂譜每段，你的陪伴才有用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Please answer the tutor’s musical questions for me, even though you have not learned the piece.",
+            "zh": "即使你未學那首樂曲，也請代我回答導師的音樂問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "接納陪伴，同時向導師問專門問題，沒有貶低支持或要求朋友假裝懂技術。"
+      },
+      "speaking": {
+        "en": "Friends can hold your hand through the first session while you learn to take the next step yourself.",
+        "zh": "朋友可以陪伴你度過第一節，讓你學習自己踏出下一步。",
+        "targetSpan": {
+          "start": 0,
+          "end": 26
+        },
+        "promptZh": "先聽示範，再說明支持與自己行動可以並存。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友剛搬到陌生地區，感到孤單，也正在選擇適合自己的日常。你想提議固定通話、聽他說適應的感受，但住處及活動安排仍由他決定。用一至兩句英文寫支持訊息，不把陪伴變成接管。",
+        "examples": [
+          {
+            "en": "Friends can hold your hand while you settle into a new place. I can make time for a regular call and listen as you work out your own routines.",
+            "zh": "適應新地方時，朋友可以陪伴支持。我可以安排固定通話，聽你說怎樣找出自己的日常。"
+          },
+          {
+            "en": "Friends can hold your hand through the lonely early days by staying in touch, while you decide which local activities and routines feel right for you.",
+            "zh": "初到埗感到孤單時，朋友可透過保持聯絡陪伴支持，同時由你決定哪些本地活動及日常適合自己。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "settle into a new place",
+            "zh": "適應新地方",
+            "exampleIndex": 0,
+            "span": {
+              "start": 37,
+              "end": 60
+            }
+          },
+          {
+            "en": "a regular call",
+            "zh": "固定通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 96
+            }
+          },
+          {
+            "en": "your own routines",
+            "zh": "你自己的日常",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 141
+            }
+          },
+          {
+            "en": "staying in touch",
+            "zh": "保持聯絡",
+            "exampleIndex": 1,
+            "span": {
+              "start": 60,
+              "end": 76
+            }
+          },
+          {
+            "en": "local activities",
+            "zh": "本地活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 117
+            }
+          }
+        ],
+        "selfCheckZh": "把支持連到保持聯絡及聆聽適應感受，同時保留朋友自行選擇日常的空間，不把陪伴當成代作生活決定。"
+      },
+      "takeaways": [
+        {
+          "en": "Friends can hold your hand through a difficult beginning while you decide what to do next.",
+          "zh": "朋友可以陪伴你度過困難開始，讓你自己決定下一步。"
+        },
+        {
+          "en": "Friends can hold your hand with encouragement, even when a tutor provides the specialist guidance.",
+          "zh": "即使專門指導由導師提供，朋友仍可以透過鼓勵陪伴支持。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1587",
+      "number": 1587,
+      "inventoryId": "expr-1587",
+      "contentRevision": 1,
+      "titleEn": "bringing a torch when what you really need is a map",
+      "titleZh": "給了安慰卻欠所需指引",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bbringing\\s+a\\s+torch\\s+when\\s+what\\s+you\\s+really\\s+need\\s+is\\s+a\\s+map\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Only asking a friend can be like bringing a torch when what you really need is a map.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "bringing a torch when what you really need is a map",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Providing useful reassurance that does not supply the specific guidance needed to find a way forward.",
+        "meaningZh": "給予有用的安慰，卻未提供前進真正需要的具體指引。",
+        "grammar": "asking only for reassurance can be like bringing a torch when what you really need is a map; extended comparison, not a fixed idiom",
+        "register": "neutral",
+        "boundaryZh": "torch 比喻一些幫助或安慰，map 比喻方向及專門指引；不是說朋友毫無用處，而是幫助種類未完全配合需要。",
+        "misconceptionZh": "torch 比喻一些幫助或安慰，map 比喻方向及專門指引；不是說朋友毫無用處，而是幫助種類未完全配合需要。",
+        "outcomeZh": "理解「給了安慰卻欠所需指引」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The source explains this as comfort versus skilled guidance. Retained as a creative extended comparison, not a conventional fixed saying; new contexts explicitly ground the two kinds of support."
+      },
+      "listening": {
+        "en": "When the editing software kept rejecting my file, encouragement alone felt like bringing a torch when what you really need is a map: I also needed someone who understood the export settings.",
+        "zh": "剪輯軟件一直拒收我的檔案時，只有鼓勵就像有電筒卻缺少真正需要的地圖：我也需要懂匯出設定的人。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "鼓勵有價值，但此刻還需要懂設定的具體指引。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "鼓勵已詳細列出哪個匯出設定需要修改。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者認為任何朋友的陪伴都沒有價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者已有清楚技術指引，現在缺少的是鼓勵而非方法。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "encouragement alone 與 also needed export knowledge 顯示幫助種類不足，不是安慰毫無價值。"
+      },
+      "reply": {
+        "promptEn": "Why are you asking the media tutor as well as talking to your friend?",
+        "promptZh": "你為甚麼除了與朋友談，也去問媒體導師？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Encouragement alone is like bringing a torch when what you really need is a map; I need help with the settings too.",
+            "zh": "只有鼓勵就像有電筒卻缺少真正需要的地圖；我也需要設定方面的幫助。"
+          },
+          {
+            "id": "reply-2",
+            "en": "My friend can reassure me, but the tutor knows how to investigate the export problem.",
+            "zh": "朋友可以安慰我，但導師懂得怎樣查匯出問題。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The support helps me keep trying, while the technical question still needs an informed answer.",
+            "zh": "支持幫我繼續嘗試，但技術問題仍需有知識的回答。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I need both encouragement and practical guidance from someone familiar with the software.",
+            "zh": "我既需要鼓勵，也需要熟悉軟件的人給實際指引。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你要學會讀一份陌生的合唱樂譜，朋友給很多鼓勵，但仍不知道怎樣找出聲部；你另約導師解說。哪種比喻貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Relying on encouragement alone is like bringing a torch when what you really need is a map.",
+            "zh": "只依靠鼓勵，就像有電筒卻缺少真正需要的地圖。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The encouragement already explains how to follow every part of the score.",
+            "zh": "鼓勵已解釋怎樣讀樂譜的每個聲部。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Asking the tutor shows that the friend’s support could not have mattered at all.",
+            "zh": "問導師顯示朋友的支持根本不可能有價值。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "朋友鼓勵與導師指引可互補，需補上方向而非否定安慰。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由這個 torch/map 比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "需要配合問題種類選擇幫助。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要仍需專門指引，所有情感支持都應棄掉。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "安慰可與懂得實際方法的人提供的指引並存。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "比喻指出所需種類不齊，沒有要求棄掉已存在的支持。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我能鼓勵你，但不懂怎樣修那個匯出錯誤。是不是我幫不上忙？」你想感謝他，也補找合適指引。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Your support matters; relying on it alone would be like bringing a torch when what you really need is a map, so I will ask the tutor about the settings too.",
+            "zh": "你的支持很重要；只靠它就像有電筒卻缺少真正需要的地圖，所以我也會問導師設定的事。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Please choose settings at random so I can avoid asking anyone with relevant experience.",
+            "zh": "請隨意選設定，讓我不用問有相關經驗的人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "If you cannot solve the export problem, I should treat the encouragement as worthless.",
+            "zh": "若你不能解決匯出問題，我就應把鼓勵視為毫無價值。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先感謝支持，再找相關知識，符合不同幫助互補；不是隨便猜或貶低朋友。"
+      },
+      "speaking": {
+        "en": "For this unfamiliar task, reassurance alone is like bringing a torch when what you really need is a map.",
+        "zh": "對這項陌生任務而言，只有安慰就像有電筒卻缺少真正需要的地圖。",
+        "targetSpan": {
+          "start": 52,
+          "end": 103
+        },
+        "promptZh": "先聽示範，再說明安慰與所需方向的分別。"
+      },
+      "writing": {
+        "promptZh": "新情境：你規劃新生迎新支援，現有學生很願意聽大家擔憂，卻不熟悉選科流程。你想向籌辦者提議保留同伴支持，同時加入熟悉流程的職員答問。用一至兩句英文解釋兩種幫助。",
+        "examples": [
+          {
+            "en": "Peer reassurance alone would be like bringing a torch when what you really need is a map. Let us keep the listeners and invite staff who can explain course selection.",
+            "zh": "只有同伴安慰，就像有電筒卻缺少真正需要的地圖。一起保留聆聽者，也邀請能解釋選科流程的職員吧。"
+          },
+          {
+            "en": "Without guidance on course selection, our welcome desk risks bringing a torch when what you really need is a map; trained staff can complement the peer support.",
+            "zh": "若沒有選科流程指引，我們的迎新服務台可能就像有電筒卻缺少真正需要的地圖；受過訓練的職員可補足同伴支持。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Peer reassurance",
+            "zh": "同伴安慰",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "invite staff",
+            "zh": "邀請職員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 132
+            }
+          },
+          {
+            "en": "course selection",
+            "zh": "選科",
+            "exampleIndex": 0,
+            "span": {
+              "start": 149,
+              "end": 165
+            }
+          },
+          {
+            "en": "our welcome desk",
+            "zh": "我們的迎新服務台",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 54
+            }
+          },
+          {
+            "en": "the peer support",
+            "zh": "同伴支持",
+            "exampleIndex": 1,
+            "span": {
+              "start": 143,
+              "end": 159
+            }
+          }
+        ],
+        "selfCheckZh": "明確對應安慰及流程指引兩種需要，提出互補安排，不把同伴支持說成沒有價值。"
+      },
+      "takeaways": [
+        {
+          "en": "With no guidance on the next step, reassurance can feel like bringing a torch when what you really need is a map.",
+          "zh": "沒有下一步指引時，安慰可能就像有電筒卻缺少真正需要的地圖。"
+        },
+        {
+          "en": "Offering encouragement without the requested instructions is like bringing a torch when what you really need is a map.",
+          "zh": "給鼓勵卻沒有對方所求的指示，就像有電筒卻缺少真正需要的地圖。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1588",
+      "number": 1588,
+      "inventoryId": "expr-1588",
+      "contentRevision": 1,
+      "titleEn": "when the problem runs deep",
+      "titleZh": "問題有較深層成因時",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwhen\\s+the\\s+problem\\s+runs\\s+deep\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Seek specialist advice when the problem runs deep.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "when the problem runs deep",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "When an issue has serious or underlying causes that a surface change will not address.",
+        "meaningZh": "問題有較嚴重或深層成因，不能只靠表面改動處理時。",
+        "grammar": "when the problem runs deep, + response; depth is a metaphor for underlying causes",
+        "register": "neutral",
+        "boundaryZh": "不指實際深度，也不等於永遠無法改善；應看原因及所需幫助，不單憑一次小失誤就判成深層問題。",
+        "misconceptionZh": "不指實際深度，也不等於永遠無法改善；應看原因及所需幫助，不單憑一次小失誤就判成深層問題。",
+        "outcomeZh": "理解「問題有較深層成因時」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "When the problem runs deep in the booking process, correcting one misspelt name is not enough; the team needs to examine why information keeps getting lost between stages.",
+        "zh": "預訂流程的問題若有深層成因，只改一個錯字姓名並不足夠；小組需要檢視資料為何一直在不同階段之間遺失。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "反覆遺失資料可能涉及流程成因，需要超過一次表面修正。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "句子說唯一問題是一個名字拼錯，資料沒有反覆遺失。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "更改姓名的顯示字體便是小組已找到的根本原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者要在未看記錄前，把每次小錯都判定為嚴重流程問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "keeps getting lost 指反覆模式；examine why 表示查原因，不是先斷定每件小錯都嚴重。"
+      },
+      "reply": {
+        "promptEn": "Why does the team want to review the booking process rather than only correct that name?",
+        "promptZh": "小組為甚麼想檢視預訂流程，而不只改姓名？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "When the problem runs deep, a surface correction may leave the cause untouched.",
+            "zh": "問題有深層成因時，表面修正可能未觸及原因。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Information has been lost repeatedly between stages.",
+            "zh": "資料在不同階段之間反覆遺失。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They need to understand the recurring pattern, not just one visible mistake.",
+            "zh": "他們需理解反覆模式，而非只看一個可見錯誤。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A process review may show where the handover is failing.",
+            "zh": "流程檢視可能顯示交接在哪裏出問題。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組表面在爭會議時間，但數次交談都顯示成員不信任決定過程；組長想檢視參與方式，而不只換時間。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When the problem runs deep, changing the meeting time alone may not address it.",
+            "zh": "問題有深層成因時，只改開會時間未必能處理。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The repeated concern about the decision process is irrelevant because the timetable is the only issue.",
+            "zh": "對決定過程的反覆憂慮不相關，因為唯一問題只是時間表。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group should postpone hearing about the decision process until every meeting time is settled.",
+            "zh": "小組應先把每次會議時間定好，才聽成員對決定過程的想法。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反覆提到決定過程，顯示時間以外的原因，不能把它當作無關或一再押後聆聽。"
+      },
+      "contrast": {
+        "promptZh": "只憑一次小失誤，就斷定 the problem runs deep，哪種判斷不恰當？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "應先看是否有重複模式及深層原因。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "未了解原因，就把單一拼字錯當成整個流程已嚴重失效的證明。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "表面改動未必足以處理已確認的根本原因。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "深層程度需有語境及證據，不應由一個小錯直接放大。"
+      },
+      "dialogue": {
+        "promptZh": "同事說：「又有資料在交接時遺失，我們再改一個表格名稱就好了嗎？」你想先找反覆原因。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When the problem runs deep, a new label may not be enough; let us trace how the information passes between teams.",
+            "zh": "問題有深層成因時，新名稱未必足夠；一起追查資料怎樣在小組間傳遞吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat each missing record separately and avoid comparing where the losses occur.",
+            "zh": "把每次遺失分開處理，避免比較遺失發生在哪個環節。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Because the last error was corrected, treat the earlier losses as unrelated without checking them.",
+            "zh": "因為上次錯誤已改，就在未核對前把早前遺失當作無關。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "追查傳遞過程才回應反覆問題；不比較遺失環節或未查就排除模式，都未處理所問原因。"
+      },
+      "speaking": {
+        "en": "When the problem runs deep, we need to understand the cause before choosing a quick fix.",
+        "zh": "問題有深層成因時，我們需先理解原因，再選快捷修正。",
+        "targetSpan": {
+          "start": 0,
+          "end": 26
+        },
+        "promptZh": "先聽示範，再說明深層原因與表面修正的分別。"
+      },
+      "writing": {
+        "promptZh": "新情境：社區活動一再安排在部分照顧者無法出席的時段，主辦方每次只補發摘要。你想在檢討信中提出查問參與者需要，重新檢視訂時間的方法，而不把某一位職員當成唯一原因。用一至兩句英文提出建議。",
+        "examples": [
+          {
+            "en": "When the problem runs deep in how we choose activity times, another summary will not improve participation. We should ask carers about their availability.",
+            "zh": "若問題深植於活動時間的選擇方法，多發一份摘要也不會改善參與。我們應問照顧者何時有空。"
+          },
+          {
+            "en": "We need to review the scheduling method when the problem runs deep, rather than rely on summaries for people who repeatedly cannot attend.",
+            "zh": "問題有深層成因時，我們需檢視排期方法，而不只為反覆無法出席的人提供摘要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "activity times",
+            "zh": "活動時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 58
+            }
+          },
+          {
+            "en": "another summary",
+            "zh": "另一份摘要",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 75
+            }
+          },
+          {
+            "en": "their availability",
+            "zh": "他們何時有空",
+            "exampleIndex": 0,
+            "span": {
+              "start": 135,
+              "end": 153
+            }
+          },
+          {
+            "en": "the scheduling method",
+            "zh": "排期方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 39
+            }
+          },
+          {
+            "en": "cannot attend",
+            "zh": "無法出席",
+            "exampleIndex": 1,
+            "span": {
+              "start": 124,
+              "end": 137
+            }
+          }
+        ],
+        "selfCheckZh": "把反覆參與困難連到可查的安排方法，提出問需要及檢視流程，不憑一次事件或未查證就怪單一人物。"
+      },
+      "takeaways": [
+        {
+          "en": "When the problem runs deep, a fresh coat of publicity may not restore trust in the service.",
+          "zh": "問題有深層成因時，換一套宣傳未必能恢復對服務的信任。"
+        },
+        {
+          "en": "A team should examine the recurring cause when the problem runs deep, rather than repeat the same surface fix.",
+          "zh": "問題有深層成因時，小組應檢視反覆原因，而非重複同一表面修正。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1589",
+      "number": 1589,
+      "inventoryId": "expr-1589",
+      "contentRevision": 1,
+      "titleEn": "first line of support",
+      "titleZh": "最先可求助的支持來源",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfirst\\s+line\\s+of\\s+support\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Friends may be the first line of support.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "first line of support",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The initial people or service to turn to for help, with further support available when needed.",
+        "meaningZh": "最先可以求助的人或服務，有需要時仍可尋求進一步支援。",
+        "grammar": "be the first line of support for + group / issue; first marks an initial point, not the only or most expert source",
+        "register": "neutral",
+        "boundaryZh": "最先接觸不等於唯一幫助或最高專業程度；可以聆聽、回答基本問題，再指向合適支援。",
+        "misconceptionZh": "最先接觸不等於唯一幫助或最高專業程度；可以聆聽、回答基本問題，再指向合適支援。",
+        "outcomeZh": "理解「最先可求助的支持來源」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Student mentors are the first line of support during orientation: they answer everyday questions and help newcomers find the right staff member for more detailed advice.",
+        "zh": "迎新時，學生導師是最先可求助的支持來源：他們回答日常問題，也幫新生找到適合提供詳細建議的職員。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "學生導師先提供基本幫助，也能轉介進一步支援。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "學生導師只在職員已回答全部問題後才接觸新生。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "學生導師被要求獨自處理每個專門問題，不可再找職員。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "學生導師只負責檢查課室設備，沒有接待新生或指路的角色。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "everyday questions 與 find right staff 說明先接觸、再引導，而非唯一或最後一關。"
+      },
+      "reply": {
+        "promptEn": "Why are student mentors useful during orientation?",
+        "promptZh": "學生導師在迎新時為甚麼有用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They are a first line of support for everyday questions.",
+            "zh": "他們是日常問題最先可求助的支持來源。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They help newcomers work out where to ask for more detailed advice.",
+            "zh": "他們幫新生找出哪裏可問較詳細建議。"
+          },
+          {
+            "id": "reply-3",
+            "en": "New students can approach them before knowing which staff member is responsible.",
+            "zh": "新生未知道哪位職員負責時，也可先問他們。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They offer an accessible starting point rather than leaving people to search alone.",
+            "zh": "他們提供容易接觸的起點，而非讓人獨自搜尋。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社團電腦出現登入問題，值班同學先問錯誤訊息、檢查基本步驟，若仍有問題再找技術職員。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The student helpers act as the first line of support.",
+            "zh": "學生助手擔任最先可求助的支持來源。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The helpers are only contacted after the technicians have finished every possible check.",
+            "zh": "只有技術員做完所有可能檢查後，才聯絡助手。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Asking the helpers prevents anyone from contacting the technical staff later.",
+            "zh": "問助手就會阻止任何人稍後聯絡技術職員。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先基本檢查、再找職員的流程支持 initial help，不是最後才問或阻止轉介。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不宜由 first line of support 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "是較先接觸的幫助來源。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "必須獨自回答所有深入問題，不可以請別人接手。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "有時主要作用是幫求助者找到合適下一步。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "first 說接觸次序，不等於包辦全部或不可轉介。"
+      },
+      "dialogue": {
+        "promptZh": "新生問：「我不知道負責選科的是哪位職員，可以先問你嗎？」你是學生導師。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Yes, we are a first line of support; I can help you find the right person for the detailed requirements.",
+            "zh": "可以，我們是最先可求助的支持來源；我可幫你找負責詳細要求的人。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Please identify the exact staff member yourself before asking us where to start.",
+            "zh": "請先自行確定哪位職員負責，再問我們從哪裏開始。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I will guess the detailed requirements rather than direct you to the responsible staff member.",
+            "zh": "我會猜詳細要求，不會指你去找負責職員。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "接納初步求助並引向正確職員，才符合起點角色；不是把起點留給新生獨自解決或猜專門要求。"
+      },
+      "speaking": {
+        "en": "The help desk is a first line of support, not a replacement for specialist advice.",
+        "zh": "服務台是最先可求助的支持來源，而非專門建議的替代品。",
+        "targetSpan": {
+          "start": 19,
+          "end": 40
+        },
+        "promptZh": "先聽示範，再分清初步幫助與專門支援。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為社區圖書館安排新讀者接待，義工先協助找書及說明借閱步驟，遇到特殊帳戶問題則帶讀者找職員。用一至兩句英文向義工說明角色及轉介。",
+        "examples": [
+          {
+            "en": "Our volunteers will be the first line of support for new readers, helping with book searches and borrowing steps before referring account questions to staff.",
+            "zh": "義工會是新讀者最先可求助的支持來源，幫忙找書及說明借閱步驟，再把帳戶問題轉介職員。"
+          },
+          {
+            "en": "As the first line of support, please welcome readers and identify what they need; a librarian can handle the more detailed account issues.",
+            "zh": "作為最先可求助的支持來源，請歡迎讀者並了解他們的需要；較詳細的帳戶問題可由圖書館職員處理。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our volunteers",
+            "zh": "我們的義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "new readers",
+            "zh": "新讀者",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 64
+            }
+          },
+          {
+            "en": "book searches",
+            "zh": "找書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 92
+            }
+          },
+          {
+            "en": "borrowing steps",
+            "zh": "借閱步驟",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 112
+            }
+          },
+          {
+            "en": "account issues",
+            "zh": "帳戶問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 137
+            }
+          }
+        ],
+        "selfCheckZh": "清楚交代先接待及基本協助，再轉介較深入問題，不把義工說成所有問題的唯一負責人。"
+      },
+      "takeaways": [
+        {
+          "en": "A friendly reception team can be the first line of support for visitors who do not know where to begin.",
+          "zh": "友善接待小組可成為不知從哪裏開始的訪客最先可求助的支持來源。"
+        },
+        {
+          "en": "Being the first line of support includes knowing when to refer a question to someone else.",
+          "zh": "擔任最先可求助的支持來源，也包括知道何時把問題轉介別人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1590",
+      "number": 1590,
+      "inventoryId": "expr-1590",
+      "contentRevision": 1,
+      "titleEn": "broaden your mind",
+      "titleZh": "拓闊理解與眼界",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bbroaden(?:s|ed|ing)?\\s+(?:my|your|his|her|our|their)\\s+minds?\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p185-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 185,
+          "book": 7,
+          "question": 13,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Travel can broaden your mind.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "broaden your mind",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Expand one’s understanding by encountering ideas or experiences beyond what is familiar.",
+        "meaningZh": "透過接觸熟悉範圍以外的想法或經驗，拓闊理解及眼界。",
+        "grammar": "travel / reading / discussion can broaden your mind; broadened; plural minds when referring to multiple people",
+        "register": "neutral",
+        "boundaryZh": "拓闊理解不等於必須同意每個新觀點，也不能把短暫接觸當成了解整個群體；需願意聆聽及反思。",
+        "misconceptionZh": "拓闊理解不等於必須同意每個新觀點，也不能把短暫接觸當成了解整個群體；需願意聆聽及反思。",
+        "outcomeZh": "理解「拓闊理解與眼界」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Talking with stallholders about how they organised the market broadened my mind; I began to question assumptions I had made from the tourist brochure alone.",
+        "zh": "與攤販談市場怎樣運作拓闊了我的眼界；我開始反思自己只憑旅遊冊作出的假設。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "新交流讓說話者反思原先有限的理解。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者只是再次確認旅遊冊已解釋每位攤販的經驗。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者現在認為一次市場訪問足以代表整個國家。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "交流後，說話者決定不再考慮與原有看法不同的資訊。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "question assumptions 顯示接觸新角度後反思，不是有限資料已涵蓋全部或拒絕新想法。"
+      },
+      "reply": {
+        "promptEn": "Why did you value talking with the stallholders?",
+        "promptZh": "你為甚麼珍惜與攤販交談？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It broadened my mind beyond the brochure’s view of the market.",
+            "zh": "它拓闊我的眼界，超出旅遊冊對市場的描述。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I heard how the people working there understood the place.",
+            "zh": "我聽到在那裏工作的人怎樣理解那個地方。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Their accounts gave me reasons to question my earlier assumptions.",
+            "zh": "他們的敘述給我理由反思早前假設。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I discovered that my first impression had missed important experiences.",
+            "zh": "我發現第一印象漏掉了重要經驗。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生讀了一部從不同家庭角度講同一事件的小說，開始理解自己原先未考慮的處境，仍會比較各方理由。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Reading the novel helped broaden her mind.",
+            "zh": "讀那部小說幫她拓闊理解。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Reading different perspectives requires her to agree with every character’s decision.",
+            "zh": "讀不同角度要求她同意每位角色的決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She used the unfamiliar perspectives as a reason to avoid considering any of them.",
+            "zh": "她因那些角度陌生，就避免考慮任何一個。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "理解新處境及比較理由符合拓闊眼界，不要求全盤同意，也不是拒絕陌生角度。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 broaden your mind 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "接觸新角度後更了解原先未考慮的處境。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "必須放棄判斷，接受每個聽到的主張。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以更理解別人的理由，同時仍有不同意見。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "擴展理解不是取消判斷或自動同意。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「若我參加不同立場的討論，是不是就要同意他們？」你想鼓勵聆聽也保留判斷。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It may broaden your mind by helping you understand their reasons; you can still evaluate the arguments for yourself.",
+            "zh": "它可能透過幫你理解對方理由而拓闊眼界；你仍可自己評估論點。"
+          },
+          {
+            "id": "choice-2",
+            "en": "You should accept every claim before asking why anyone holds it.",
+            "zh": "你應先接受每個主張，再問為甚麼有人這樣想。"
+          },
+          {
+            "id": "choice-3",
+            "en": "If you expect to disagree, listening cannot add anything to your understanding.",
+            "zh": "若你預期不同意，聆聽就不可能增加任何理解。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可理解而不同意，正是拓闊理解與判斷並存；預期有分歧也不代表聆聽無用。"
+      },
+      "speaking": {
+        "en": "Hearing a different explanation can broaden your mind without making you agree with it.",
+        "zh": "聽到不同解釋可拓闊眼界，而不必讓你同意。",
+        "targetSpan": {
+          "start": 36,
+          "end": 53
+        },
+        "promptZh": "先聽示範，再分清理解與同意。"
+      },
+      "writing": {
+        "promptZh": "新情境：你邀同學參加辯論小組，目的不是說服他立即改變立場，而是練習先理解對方最強的理由，再決定怎樣回應。用一至兩句英文寫邀請。",
+        "examples": [
+          {
+            "en": "The debate group could broaden your mind by asking you to understand the strongest opposing argument before replying. You do not have to change your position immediately.",
+            "zh": "辯論小組可讓你先理解最強的反方論點再回應，從而拓闊眼界。你毋須立即改變立場。"
+          },
+          {
+            "en": "Come and broaden your mind through careful listening; we will examine the reasons behind different views rather than demand agreement.",
+            "zh": "來透過仔細聆聽拓闊眼界吧；我們會檢視不同看法背後的理由，而非要求同意。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The debate group",
+            "zh": "辯論小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "the strongest opposing argument",
+            "zh": "最強的反方論點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 100
+            }
+          },
+          {
+            "en": "your position",
+            "zh": "你的立場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 144,
+              "end": 157
+            }
+          },
+          {
+            "en": "careful listening",
+            "zh": "仔細聆聽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 52
+            }
+          },
+          {
+            "en": "demand agreement",
+            "zh": "要求同意",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 133
+            }
+          }
+        ],
+        "selfCheckZh": "提出理解陌生理由的具體方法，保留評估與不同意的空間，不把拓闊眼界寫成一律接受。"
+      },
+      "takeaways": [
+        {
+          "en": "Learning how another community solves a problem can broaden your mind.",
+          "zh": "了解另一社區怎樣解決問題，可拓闊你的眼界。"
+        },
+        {
+          "en": "The interviews broadened her mind by showing experiences missing from her usual sources.",
+          "zh": "訪問展示她慣常資料來源缺少的經驗，拓闊了她的理解。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1592",
+      "number": 1592,
+      "inventoryId": "expr-1592",
+      "contentRevision": 1,
+      "titleEn": "the world starts to feel a little less foreign",
+      "titleZh": "世界開始少一點陌生感",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe\\s+world\\s+starts\\s+to\\s+feel\\s+a\\s+little\\s+less\\s+foreign\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p186-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 13,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Through conversation, the world starts to feel a little less foreign.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the world starts to feel a little less foreign",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The wider world begins to feel slightly more familiar through contact or understanding.",
+        "meaningZh": "透過接觸及理解，較廣闊的世界開始帶來少一點陌生感。",
+        "grammar": "as / through + growing contact, the world starts to feel a little less foreign; starts and a little mark modest change",
+        "register": "neutral",
+        "boundaryZh": "foreign 在此指陌生感，不是人的價值或是否值得接納；少一點陌生不等於已熟悉所有文化，starts 也不表示完成。",
+        "misconceptionZh": "foreign 在此指陌生感，不是人的價值或是否值得接納；少一點陌生不等於已熟悉所有文化，starts 也不表示完成。",
+        "outcomeZh": "理解「世界開始少一點陌生感」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "A productive extended description, not an opaque fixed idiom. Keep the modest subjective shift expressed by starts, feel and a little."
+      },
+      "listening": {
+        "en": "As I learn why my neighbours mark different holidays, the world starts to feel a little less foreign, though I still have much to ask about their experiences.",
+        "zh": "隨着我了解鄰居為甚麼慶祝不同節日，世界開始少一點陌生感，雖然我仍有很多關於他們經驗的事想問。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "了解不同節日帶來初步熟悉感，但理解仍有限。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者覺得已足夠熟悉，不打算再問鄰居的經驗。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "新了解令所有人必須改為慶祝同一節日。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者認為鄰居的經驗愈來愈難以理解，沒有開始熟悉。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "a little less 與 still much to ask 保留有限、初步的主觀變化，不代表全部熟悉或要求文化一樣。"
+      },
+      "reply": {
+        "promptEn": "What changes when you learn about the holidays your neighbours celebrate?",
+        "promptZh": "了解鄰居慶祝的節日時，會有甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The world starts to feel a little less foreign.",
+            "zh": "世界開始少一點陌生感。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Some things that once puzzled me begin to make more sense.",
+            "zh": "有些以前令我困惑的事，開始較容易理解。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I feel more familiar with their experiences while still having questions.",
+            "zh": "我對他們的經驗較熟悉，同時仍有問題。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Understanding the reasons helps me approach unfamiliar customs with more curiosity.",
+            "zh": "理解原因讓我更願意帶着好奇接觸陌生習俗。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你開始與另一地區的同學交換日常故事，原本難理解的生活方式逐漸較熟悉，但你不聲稱了解全部。哪句保留這個程度？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Through those stories, the world starts to feel a little less foreign.",
+            "zh": "透過那些故事，世界開始少一點陌生感。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Those stories leave me with no further questions about that region’s daily life.",
+            "zh": "那些故事讓我對該地日常不再有進一步問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I feel more distant from their daily lives than before, with no new understanding.",
+            "zh": "我比以前更遠離他們的日常，沒有新的理解。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "題目是開始有一點熟悉，不是全部了解或更陌生。"
+      },
+      "contrast": {
+        "promptZh": "哪種翻譯沒有保留 starts to feel a little less foreign 的程度？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "開始感到少一點陌生。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "已經很熟悉當地生活，不需繼續了解。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "對原本陌生的經驗多了一點熟悉感。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "starts、feel、a little 都限制變化的完成程度及範圍。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「聽過這個故事，那我是否已很了解那個地方，不用再問？」你想肯定開始理解，也保留限度。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The world starts to feel a little less foreign through such stories, but I would keep asking about people’s own experiences.",
+            "zh": "透過那些故事，世界開始少一點陌生感，但我仍會繼續問大家各自的經驗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Yes, that story gives you enough background; you can skip asking about their individual experiences.",
+            "zh": "對，那個故事已給你足夠背景；可以省去問大家個別經驗。"
+          },
+          {
+            "id": "choice-3",
+            "en": "If you still have questions, I do not think the story has made things any more familiar.",
+            "zh": "若你仍有問題，我覺得那個故事並沒有讓事情較熟悉。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有新理解仍可有問題，繼續問個人經驗能避免把單一故事當成已足夠；有疑問也不抹去初步熟悉感。"
+      },
+      "speaking": {
+        "en": "Through listening to different lives, the world starts to feel a little less foreign, even as new questions arise.",
+        "zh": "透過聆聽不同人生，世界開始少一點陌生感，同時仍會出現新問題。",
+        "targetSpan": {
+          "start": 38,
+          "end": 84
+        },
+        "promptZh": "先聽示範，再保留初步、有限的熟悉感。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友想退出跨地區讀書會，因第一本小說的生活背景很陌生；幾次討論後，你已較理解故事中的日常，但仍會查問。用一至兩句英文邀他再參與一次，不聲稱一本書代表整個地方。",
+        "examples": [
+          {
+            "en": "After our discussions, the world starts to feel a little less foreign to me. Join us once more; we can ask about the unfamiliar details together.",
+            "zh": "討論後，世界開始讓我少一點陌生感。再參加一次吧；我們可以一起問那些不熟悉的細節。"
+          },
+          {
+            "en": "In this reading group, the world starts to feel a little less foreign as we compare our questions, though one novel cannot represent a whole region.",
+            "zh": "在這個讀書會，隨着我們交流問題，世界開始少一點陌生感，但一部小說不能代表整個地區。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our discussions",
+            "zh": "我們的討論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 21
+            }
+          },
+          {
+            "en": "Join us once more",
+            "zh": "再參加一次",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 94
+            }
+          },
+          {
+            "en": "the unfamiliar details",
+            "zh": "不熟悉的細節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 135
+            }
+          },
+          {
+            "en": "this reading group",
+            "zh": "這個讀書會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 3,
+              "end": 21
+            }
+          },
+          {
+            "en": "a whole region",
+            "zh": "整個地區",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 147
+            }
+          }
+        ],
+        "selfCheckZh": "用討論帶來的初步理解寫邀請，保留繼續問及作品代表範圍的限度。"
+      },
+      "takeaways": [
+        {
+          "en": "With each shared story, the world starts to feel a little less foreign, rather than fully explained.",
+          "zh": "每分享一個故事，世界開始少一點陌生感，而不是已被完全解釋。"
+        },
+        {
+          "en": "As we learn about unfamiliar routines, the world starts to feel a little less foreign to us.",
+          "zh": "隨着我們了解陌生日常，世界開始讓我們少一點陌生感。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1593",
+      "number": 1593,
+      "inventoryId": "expr-1593",
+      "contentRevision": 1,
+      "titleEn": "a bridge rather than just a bond",
+      "titleZh": "不只連結兩人也連起群體",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba\\s+bridge\\s+rather\\s+than\\s+just\\s+a\\s+bond\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p186-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 13,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Their partnership became a bridge rather than just a bond.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a bridge rather than just a bond",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A relationship that connects wider groups or experiences, beyond linking only the people directly involved.",
+        "meaningZh": "一段關係不只連結當事人，也把較廣闊的群體或經驗連起來。",
+        "grammar": "a friendship / partnership becomes a bridge rather than just a bond; just limits the narrower pair connection",
+        "register": "neutral",
+        "boundaryZh": "bridge 比喻跨越群體的交流，bond 指直接關係；不是否定兩人親近，也不表示已代表或消除兩個群體全部差異。",
+        "misconceptionZh": "bridge 比喻跨越群體的交流，bond 指直接關係；不是否定兩人親近，也不表示已代表或消除兩個群體全部差異。",
+        "outcomeZh": "理解「不只連結兩人也連起群體」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The friendship became a bridge rather than just a bond when the two students helped their classes exchange stories about different school routines.",
+        "zh": "兩位學生幫各自班級交流不同校園日常故事時，友誼不只連結他們兩人，也成為連起群體的橋樑。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "友誼把交流由兩人延伸到兩個班級。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩人因開始交流而決定阻止班級之間接觸。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩人之間的親近必須先結束，才可能有班級交流。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "兩個班的生活已變得相同，所以毋須再交換故事。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "classes exchange 顯示關係延伸；rather than just 不是取消 bond，而是超出只有兩人。"
+      },
+      "reply": {
+        "promptEn": "Why do you describe those students’ friendship as helping more than just the two of them?",
+        "promptZh": "你為甚麼說那段友誼不只幫到兩位學生？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It became a bridge rather than just a bond by bringing their classes into conversation.",
+            "zh": "它讓班級開始交談，不只連結兩人，也成為橋樑。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Their connection opened a way for more classmates to hear each other’s stories.",
+            "zh": "他們的關係為更多同學開出聆聽彼此故事的途徑。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The exchange reached beyond the original pair.",
+            "zh": "交流超出原本兩人。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Other students could learn about different routines through the contact they created.",
+            "zh": "其他學生可透過他們建立的聯絡，了解不同日常。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩位園藝同好不只私下分享，也安排不同社區種植小組互訪，讓更多人交換經驗。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Their friendship is a bridge rather than just a bond.",
+            "zh": "他們的友誼不只連結兩人，也成為橋樑。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The friendship stays entirely between the pair, with no contact involving the groups.",
+            "zh": "友誼完全只在兩人之間，沒有涉及小組的接觸。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Opening the exchange means their own friendship no longer has any importance.",
+            "zh": "開放交流表示他們本身的友誼不再有任何重要性。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "安排小組互訪使關係超出個人層面，但沒有否定原本友誼。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 a bridge rather than just a bond 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "關係可把兩人以外的群體連起來。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "既然成為橋樑，兩人本身的友誼就必須不再重要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以保留個人親近，同時創造較廣泛交流。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "rather than just 是超出單一範圍，不是取消原來關係。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們兩人認識不同小組，可以只保留私下聯絡嗎？還是幫大家一起交流？」你想提出尊重各組意願的延伸。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Our friendship could be a bridge rather than just a bond; shall we ask whether the groups would like a joint exchange?",
+            "zh": "我們的友誼可以不只連結兩人，也成為橋樑；先問各組是否想共同交流，好嗎？"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the groups from meeting, but describe the friendship as already connecting them.",
+            "zh": "阻止各組見面，卻把友誼說成已把它們連起來。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Arrange the exchange in both groups’ names before asking whether anyone wants it.",
+            "zh": "未問是否有人想參與，就以兩組名義安排交流。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提出並確認共同交流，能延伸關係而不代整個小組作決定。"
+      },
+      "speaking": {
+        "en": "The partnership can be a bridge rather than just a bond if it opens space for both groups to meet.",
+        "zh": "若合作讓兩組有空間見面，它就不只連結當事人，也可成為橋樑。",
+        "targetSpan": {
+          "start": 23,
+          "end": 55
+        },
+        "promptZh": "先聽示範，再說明個人關係如何延伸。"
+      },
+      "writing": {
+        "promptZh": "新情境：你與一位畢業生一起策劃學校職涯分享，不想只讓自己得到建議；你希望把學弟妹的問題帶給多位畢業生，再讓雙方自願交流。用一至兩句英文向伙伴提出計劃。",
+        "examples": [
+          {
+            "en": "Our partnership could be a bridge rather than just a bond if we bring younger students’ questions to the alumni group and invite a shared discussion.",
+            "zh": "若我們把學弟妹的問題帶到畢業生小組，並邀請共同討論，合作就可不只連結兩人，也成為橋樑。"
+          },
+          {
+            "en": "Let us make this a bridge rather than just a bond between us: we can ask students and alumni what they would like to discuss together.",
+            "zh": "讓這次合作不只連結我們兩人，也成為橋樑吧：我們可問學生及畢業生希望一起討論甚麼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our partnership",
+            "zh": "我們的合作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "younger students’ questions",
+            "zh": "學弟妹的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 97
+            }
+          },
+          {
+            "en": "the alumni group",
+            "zh": "畢業生小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 117
+            }
+          },
+          {
+            "en": "a shared discussion",
+            "zh": "共同討論",
+            "exampleIndex": 0,
+            "span": {
+              "start": 129,
+              "end": 148
+            }
+          },
+          {
+            "en": "students and alumni",
+            "zh": "學生及畢業生",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 92
+            }
+          }
+        ],
+        "selfCheckZh": "把兩人合作連到較廣泛、自願的交流，說清對象及方法，不聲稱兩人可自動代表整個群體。"
+      },
+      "takeaways": [
+        {
+          "en": "A cross-school friendship can become a bridge rather than just a bond when it creates wider exchanges.",
+          "zh": "跨校友誼創造較廣泛交流時，可以不只連結兩人，也成為橋樑。"
+        },
+        {
+          "en": "Their collaboration was a bridge rather than just a bond, helping both neighbourhood groups share ideas.",
+          "zh": "他們的合作不只連結當事人，也成為橋樑，幫兩個鄰里小組交流想法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1594",
+      "number": 1594,
+      "inventoryId": "expr-1594",
+      "contentRevision": 1,
+      "titleEn": "the passport",
+      "titleZh": "以護照代指國籍背景",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe\\s+passport\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p186-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 13,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "In friendship, the passport matters less than kindness.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the passport",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A passport used as a shorthand for nationality or national background in a discussion about people.",
+        "meaningZh": "在談人的語境中，以護照代指國籍或國家背景。",
+        "grammar": "look beyond the passport / the passport matters less than + personal quality; metonymy, with context showing nationality rather than the physical booklet",
+        "register": "neutral",
+        "boundaryZh": "本課談建立友誼及日常合作的看人標準，不把國籍當成個性；不能只由護照推斷一個人的善意、興趣或行為。",
+        "misconceptionZh": "本課談建立友誼及日常合作的看人標準，不把國籍當成個性；不能只由護照推斷一個人的善意、興趣或行為。",
+        "outcomeZh": "理解「以護照代指國籍背景」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Passport is metonymic in the supplied friendship example: a document stands for national background. New models keep the interpersonal context explicit; this is not a claim about the document’s practical travel function."
+      },
+      "listening": {
+        "en": "When choosing people for our friendship exchange, we look beyond the passport and ask how each person listens, cooperates and treats others.",
+        "zh": "為友誼交流選參加者時，我們不只看國籍背景，也問每個人怎樣聆聽、合作及待人。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "護照代指國籍背景，但選擇更看重實際待人方式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "主辦者只要國籍相同，就不再考慮合作及聆聽。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "主辦者主要按海外旅行經驗多少選人，略去實際合作方式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "只憑一個人的國籍，便已知道他平常怎樣待人。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "listens、cooperates、treats 說明看人的具體行為；passport 在這裏代指國籍，句子並非按旅行次數選人，也不是個性證明。"
+      },
+      "reply": {
+        "promptEn": "What matters when you choose someone for the friendship exchange?",
+        "promptZh": "選友誼交流伙伴時，你重視甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We look beyond the passport and consider how the person treats others.",
+            "zh": "我們不只看國籍背景，也考慮對方怎樣待人。"
+          },
+          {
+            "id": "reply-2",
+            "en": "A willingness to listen matters more to me than sharing a nationality.",
+            "zh": "對我來說，願意聆聽比國籍相同更重要。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I want to know how we would cooperate, rather than assume it from background alone.",
+            "zh": "我想知道我們會怎樣合作，而非只憑背景假設。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Kindness and curiosity help create a good exchange.",
+            "zh": "友善及好奇有助建立良好交流。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩位活動伙伴國籍不同，卻會守約、互相聆聽；你想說個人行為比國籍標籤更值得了解。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We should look beyond the passport and notice how they work together.",
+            "zh": "我們應不只看國籍背景，也留意他們怎樣合作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their different nationalities tell us enough to conclude that they cannot cooperate.",
+            "zh": "他們國籍不同，已足夠讓我們斷定他們不能合作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Sharing a nationality would make checking how they treat others unnecessary.",
+            "zh": "若國籍相同，就毋須了解他們怎樣待人。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "守約及聆聽是可見行為，不應被國籍標籤取代。"
+      },
+      "contrast": {
+        "promptZh": "在這個友誼語境，哪種推論不宜只憑 the passport 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "國籍是人的背景之一。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "國籍已決定這個人是否友善及可靠。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要聽個人經驗及看實際行為。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "代指國籍不等於國籍能證明個性或可靠程度。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們國籍不同，也許不用問他怎樣參與小組了。」你想鼓勵了解個人。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us look beyond the passport and ask what interests and working habits we share.",
+            "zh": "一起不只看國籍背景，問問彼此有甚麼共同興趣及做事習慣吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose only people with the same nationality before asking how anyone cooperates.",
+            "zh": "先只選國籍相同的人，再問大家怎樣合作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use nationality as the full answer to whether someone will listen respectfully.",
+            "zh": "用國籍完整回答一個人是否會尊重地聆聽。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "直接問興趣及習慣可認識個人，不把國籍代替行為及交流。"
+      },
+      "speaking": {
+        "en": "In this friendship project, the passport tells us less than the way someone listens and responds.",
+        "zh": "在這個友誼項目，國籍背景不如一個人怎樣聆聽及回應那樣能讓我們了解他。",
+        "targetSpan": {
+          "start": 28,
+          "end": 40
+        },
+        "promptZh": "先聽示範，再說明此處護照代指背景。"
+      },
+      "writing": {
+        "promptZh": "新情境：你讀到一位虛構角色的日記，當中既提到國籍，也記下她準時歸還借來的工具及履行答應鄰居的事。你要寫人物短評，想用實際行為說明可靠，而不是把國籍當成個性證明。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "In my review, I would look beyond the passport and cite the character’s habit of keeping promises as evidence of reliability.",
+            "zh": "在我的短評，我會不只看國籍背景，並以角色履行承諾的習慣作為可靠的證據。"
+          },
+          {
+            "en": "The passport identifies her national background, but the diary’s account of returning borrowed tools tells us more about how she treats other people.",
+            "zh": "護照代指她的國籍背景，但日記中歸還借用工具的記述，更能讓我們了解她怎樣待人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "In my review",
+            "zh": "在我的短評",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "keeping promises",
+            "zh": "履行承諾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          },
+          {
+            "en": "evidence of reliability",
+            "zh": "可靠的證據",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 124
+            }
+          },
+          {
+            "en": "national background",
+            "zh": "國籍背景",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 47
+            }
+          },
+          {
+            "en": "returning borrowed tools",
+            "zh": "歸還借用工具",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 100
+            }
+          }
+        ],
+        "selfCheckZh": "把護照代指的國籍與日記中的具體行為分清，以履行承諾或歸還工具支持人物評價，不把個人行為推成整個國家的共同個性。"
+      },
+      "takeaways": [
+        {
+          "en": "Looking beyond the passport can help a group notice the individual rather than assume a national stereotype.",
+          "zh": "不只看國籍背景，可幫小組留意個人，而非假設國家刻板印象。"
+        },
+        {
+          "en": "For this exchange, the passport matters less than curiosity and respectful cooperation.",
+          "zh": "在這次交流，國籍背景不如好奇心及尊重合作重要。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1595",
+      "number": 1595,
+      "inventoryId": "expr-1595",
+      "contentRevision": 1,
+      "titleEn": "the opportunity comes your way",
+      "titleZh": "機會來到你面前",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+opportunity\\s+comes?\\s+(?:my|your|his|her|our|their)\\s+way\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p186-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 13,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Say yes if the opportunity comes your way.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the opportunity comes your way",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A particular chance becomes available to someone.",
+        "meaningZh": "某個機會向某人開放，來到他面前。",
+        "grammar": "if / when the opportunity comes your way; change the possessive to match the person; comes describes availability, not guaranteed success",
+        "register": "neutral",
+        "boundaryZh": "機會出現不等於已得到成果，也不要求每個機會都接受；可先了解條件及作準備。",
+        "misconceptionZh": "機會出現不等於已得到成果，也不要求每個機會都接受；可先了解條件及作準備。",
+        "outcomeZh": "理解「機會來到你面前」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "If the opportunity comes your way to help at the local radio station, ask what the role involves before deciding whether you can prepare for it.",
+        "zh": "若有機會到本地電台幫忙，先問角色包括甚麼，再決定自己能否作準備。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有機會開放時，先了解工作及準備需要再決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "職責已完全列明，說話者只需考慮是否喜歡節目，不需再了解工作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者要求不看職責就接受任何角色。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者已接受角色並議定工作時間，句子是在回顧那項承諾。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "if 表條件，ask before deciding 保留了解及選擇，並非成果已完成。"
+      },
+      "reply": {
+        "promptEn": "What would you do if a chance to help at the radio station became available?",
+        "promptZh": "若有機會到電台幫忙，你會怎樣做？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "If the opportunity comes my way, I will ask about the role and prepare before deciding.",
+            "zh": "若機會來到我面前，我會先問角色及作準備，再決定。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I would find out what tasks and time commitments it involves.",
+            "zh": "我會了解包括哪些工作及時間承諾。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I would check whether I could learn what the team needs.",
+            "zh": "我會確認自己能否學會小組需要的事。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I would consider the chance carefully instead of accepting without details.",
+            "zh": "我會仔細考慮機會，而非沒有細節就接受。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "老師說下月可能邀你帶一節同伴練習，還未確認；你願先了解要求。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "If the opportunity comes my way, I will check what preparation is needed.",
+            "zh": "若機會來到我面前，我會確認需準備甚麼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The invitation is confirmed, and I am already choosing the session’s topic.",
+            "zh": "邀請已確認，我已在選那節練習的題目。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The possible invitation removes the need to ask about the session.",
+            "zh": "可能發出的邀請讓我毋須再問練習內容。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可能邀請仍需條件句及準備，不是已確認或不用了解。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不宜由 the opportunity comes your way 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某個機會變得可供你考慮。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只有自己主動創造的機會，才可以說 comes your way。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以了解要求後再決定是否參與。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "comes your way 說機會變得可供你參與，不限定必須由自己主動創造。"
+      },
+      "dialogue": {
+        "promptZh": "朋友問：「可能有機會主持一節節目，我是否應未看內容就答應？」哪句回應最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "If the opportunity comes your way, ask about the format and preparation before saying yes.",
+            "zh": "若機會來到你面前，先問形式及準備要求，再答應。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Accept before reading the brief because asking about the role would waste the chance.",
+            "zh": "先接受再讀簡介，因為問角色內容會浪費機會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Ask only how impressive the title sounds and leave the actual duties out of the decision.",
+            "zh": "只問職銜聽來多有吸引力，把實際職責排除在決定之外。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "開放的機會仍需了解及準備，沒有要求未查就答應，也不應只看職銜而忽略職責。"
+      },
+      "speaking": {
+        "en": "If the opportunity comes your way, find out what it asks of you before you commit.",
+        "zh": "若機會來到你面前，先了解要求你甚麼，再作承諾。",
+        "targetSpan": {
+          "start": 3,
+          "end": 33
+        },
+        "promptZh": "先聽示範，再說明機會與作決定的分別。"
+      },
+      "writing": {
+        "promptZh": "新情境：老朋友可能短暫經過你住的城市，你想鼓勵同伴在有機會重聚時，先看現有承諾，再提議一個應付得來的小聚，而不是勉強空出整個下午。用一至兩句英文提出建議。",
+        "examples": [
+          {
+            "en": "If the opportunity comes your way to see your old friend, check your current commitments and suggest a short coffee rather than promise the whole afternoon.",
+            "zh": "若有機會見老朋友，先看現有承諾，再提議簡短喝杯咖啡，而非承諾整個下午。"
+          },
+          {
+            "en": "If the opportunity comes your way while your friend is passing through, a modest meeting could help you reconnect without abandoning the plans you already have.",
+            "zh": "朋友短暫經過時，若機會來到你面前，一個小聚可幫你們重拾聯絡，而不用放棄已有計劃。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "your old friend",
+            "zh": "你的老朋友",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 56
+            }
+          },
+          {
+            "en": "your current commitments",
+            "zh": "你現有的承諾",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 88
+            }
+          },
+          {
+            "en": "a short coffee",
+            "zh": "短暫喝杯咖啡的小聚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 115
+            }
+          },
+          {
+            "en": "the whole afternoon",
+            "zh": "整個下午",
+            "exampleIndex": 0,
+            "span": {
+              "start": 136,
+              "end": 155
+            }
+          },
+          {
+            "en": "passing through",
+            "zh": "短暫經過",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 70
+            }
+          }
+        ],
+        "selfCheckZh": "把機會出現連到重聚的可能，提出配合現有承諾的小聚，不把機會當成必須放棄其他安排。"
+      },
+      "takeaways": [
+        {
+          "en": "If the opportunity comes her way, she plans to ask how the workshop is organised.",
+          "zh": "若機會來到她面前，她打算問工作坊怎樣安排。"
+        },
+        {
+          "en": "When the opportunity comes your way, you can weigh it against the commitments you already have.",
+          "zh": "機會來到你面前時，你可以衡量它與現有承諾的關係。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1596",
+      "number": 1596,
+      "inventoryId": "expr-1596",
+      "contentRevision": 1,
+      "titleEn": "turn an empty space into a livable one",
+      "titleZh": "把空地方變成可生活之處",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bturn\\s+an\\s+empty\\s+space\\s+into\\s+a\\s+liv(?:e)?able\\s+one\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p186-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A table helped turn an empty space into a livable one.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "turn an empty space into a livable one",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make an unused or unfurnished space suitable for everyday living.",
+        "meaningZh": "把未使用或未佈置的地方變成適合日常生活的空間。",
+        "grammar": "turn an empty space into a livable/liveable one; one stands for space; British spelling liveable is also accepted",
+        "register": "neutral",
+        "boundaryZh": "重點是實際生活需要，不只是佈置好看；不同住戶的需要可不同，不能只由一件裝飾就說全部需要已滿足。",
+        "misconceptionZh": "重點是實際生活需要，不只是佈置好看；不同住戶的需要可不同，不能只由一件裝飾就說全部需要已滿足。",
+        "outcomeZh": "理解「把空地方變成可生活之處」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "Source spelling livable preserved. This is a transparent change/result pattern, not an idiom. Model tasks distinguish practical use from appearance without asserting a universal furnishing checklist."
+      },
+      "listening": {
+        "en": "For the short stay, a bed, a place to eat and some storage helped turn an empty space into a livable one for the visiting student.",
+        "zh": "短住期間，一張床、可吃飯的地方及一些儲物位置，幫忙把空地方變成適合來訪學生生活的空間。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "基本生活用途讓空地方變得可供那位學生短住。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "房間只增加牆上圖案，沒有安排睡覺或吃飯的地方。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "句子只是說房間看起來更適合拍照，不談日常使用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "來訪學生要把空間維持未使用狀態，不想在那裏生活。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "bed、eat、storage 交代日常用途，for student 限定具體需要，不只是外觀。"
+      },
+      "reply": {
+        "promptEn": "What made the empty room useful for the visiting student?",
+        "promptZh": "甚麼讓空房間對來訪學生有用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The basic furniture helped turn an empty space into a livable one.",
+            "zh": "基本傢俬幫忙把空地方變成可生活的空間。"
+          },
+          {
+            "id": "reply-2",
+            "en": "There was somewhere to sleep, eat and put belongings.",
+            "zh": "那裏有地方睡覺、吃飯及放物品。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The arrangements matched the practical needs of the short stay.",
+            "zh": "安排配合短住的實際需要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The room became usable for daily routines rather than only attractive to look at.",
+            "zh": "房間變得可供日常使用，而非只看起來好看。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "住戶先了解新房間怎樣睡覺、煮食及收納，再安排可用傢俬，不只挑照片好看的裝飾。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They want to turn an empty space into a livable one.",
+            "zh": "他們想把空地方變成可生活的空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are arranging a display room that nobody will use for daily living.",
+            "zh": "他們在佈置沒有人作日常生活之用的展示房。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their only goal is to keep the room empty and unused.",
+            "zh": "他們唯一目的是讓房間維持空置未用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "睡覺、煮食及收納指日常生活用途，不是只供展示或保持空置。"
+      },
+      "contrast": {
+        "promptZh": "哪種做法最忽略了這個表達強調的日常生活需要？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "按使用者需要安排休息及日常活動位置。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只放好看的裝飾，未處理住戶怎樣睡覺及放物品。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "先問短住者實際會怎樣使用空間。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "外觀改善不必然滿足日常生活需要，需看使用者及用途。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「房間拍照很好看，但住客還不知睡哪裏、物品放哪裏。」你想回到生活用途。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To turn an empty space into a livable one, we should ask about the guest’s routines and arrange the practical areas first.",
+            "zh": "要把空地方變成可生活的空間，應先問住客日常，再安排實際使用區域。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep adding decorations and leave the sleeping arrangement until after the guest moves in.",
+            "zh": "繼續加裝飾，等住客搬入後才處理睡覺安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat good photographs as enough evidence that the guest’s daily needs are covered.",
+            "zh": "把照片好看當作住客日常需要已被滿足的足夠證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "住客提出的是實際使用問題，應確認需要並安排，不能只靠照片判斷。"
+      },
+      "speaking": {
+        "en": "We can turn an empty space into a livable one by planning around the resident’s daily routines.",
+        "zh": "我們可按住戶日常作規劃，把空地方變成可生活的空間。",
+        "targetSpan": {
+          "start": 7,
+          "end": 45
+        },
+        "promptZh": "先聽示範，再把轉變連到實際使用需要。"
+      },
+      "writing": {
+        "promptZh": "新情境：你整理臨時家庭住宿的試住回饋。方案 A 留有一起吃飯、儲物及有基本私隱的休息位置，住戶認為較方便；方案 B 主要佈置漂亮拍照背景，未交代生活位置。用一至兩句英文比較兩方案如何滿足生活需要。",
+        "examples": [
+          {
+            "en": "The trial feedback shows why plan A can turn an empty space into a livable one: it leaves room for shared meals, storage and some privacy.",
+            "zh": "試住回饋顯示方案 A 為甚麼能把空地方變成可生活的空間：它留有一起吃飯、儲物及一些私隱的位置。"
+          },
+          {
+            "en": "To turn an empty space into a livable one, plan A responds to the residents’ daily experience, while plan B offers a photogenic backdrop without clear living areas.",
+            "zh": "為把空地方變成可生活的空間，方案 A 回應住戶日常經驗；方案 B 則提供適合拍照的背景，卻未有清楚生活區域。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The trial feedback",
+            "zh": "試住回饋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "plan A",
+            "zh": "方案 A",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 35
+            }
+          },
+          {
+            "en": "shared meals",
+            "zh": "一起吃飯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 111
+            }
+          },
+          {
+            "en": "some privacy",
+            "zh": "一些私隱",
+            "exampleIndex": 0,
+            "span": {
+              "start": 125,
+              "end": 137
+            }
+          },
+          {
+            "en": "a photogenic backdrop",
+            "zh": "適合拍照的背景",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 136
+            }
+          },
+          {
+            "en": "clear living areas",
+            "zh": "清楚的生活區域",
+            "exampleIndex": 1,
+            "span": {
+              "start": 145,
+              "end": 163
+            }
+          }
+        ],
+        "selfCheckZh": "用試住回饋及兩方案的具體用途作比較，分清可生活與只好看，不把自己偏好當成住戶已有體驗。"
+      },
+      "takeaways": [
+        {
+          "en": "Simple practical arrangements can turn an empty space into a livable one for a short stay.",
+          "zh": "簡單而實用的安排，可把空地方變成適合短住生活的空間。"
+        },
+        {
+          "en": "Understanding daily needs helps us turn an empty space into a livable one, not merely a good photograph.",
+          "zh": "理解日常需要，有助把空地方變成可生活的空間，而非只適合拍照的地方。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1597",
+      "number": 1597,
+      "inventoryId": "expr-1597",
+      "contentRevision": 1,
+      "titleEn": "start a new chapter",
+      "titleZh": "展開人生新階段",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bstart(?:s|ed|ing)?\\s+a\\s+new\\s+chapter\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p186-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 186,
+          "book": 7,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "They will start a new chapter in a smaller home.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "start a new chapter",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Begin a new stage in life or an ongoing activity, pictured as the next part of a book.",
+        "meaningZh": "把人生或持續事情的新階段比作書的新一章。",
+        "grammar": "start a new chapter in + life / career / an activity; started, starting; not necessarily a complete break with the past",
+        "register": "neutral",
+        "boundaryZh": "新階段可以承接以前的經驗，並不要求抹掉過去，也不保證之後沒有困難；要交代甚麼轉變構成新階段。",
+        "misconceptionZh": "新階段可以承接以前的經驗，並不要求抹掉過去，也不保證之後沒有困難；要交代甚麼轉變構成新階段。",
+        "outcomeZh": "理解「展開人生新階段」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "After completing her apprenticeship, Maya started a new chapter as a paid workshop assistant, using what she had learned while adjusting to new responsibilities.",
+        "zh": "完成學徒訓練後，Maya 成為受薪工作坊助理，展開新階段，一邊運用所學，一邊適應新責任。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她由學徒轉為受薪助理，開始新階段並承接所學。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她仍在同一訓練階段，角色及責任沒有變化。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她開始新工作後，已不容許使用以前學過的方法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子只說她開始讀一本書的下一章，沒有角色轉變。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "after apprenticeship 與 paid assistant 提供轉變，using learned 保留過往經驗，不是把過去清除。"
+      },
+      "reply": {
+        "promptEn": "What changed for Maya after her apprenticeship?",
+        "promptZh": "Maya 完成學徒訓練後有甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She started a new chapter as a paid workshop assistant.",
+            "zh": "她成為受薪工作坊助理，展開新階段。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She took on a new role with different responsibilities.",
+            "zh": "她承擔了有不同責任的新角色。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Her training led into paid work where she could use her experience.",
+            "zh": "訓練接續成能運用經驗的受薪工作。"
+          },
+          {
+            "id": "reply-4",
+            "en": "She began adjusting to work beyond the apprentice role.",
+            "zh": "她開始適應超出學徒角色的工作。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "經營者結束日常咖啡店工作，開始每周教授烘焙，仍運用多年經驗，也在學新教法。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She is starting a new chapter as a baking tutor.",
+            "zh": "她正以烘焙導師的新身份展開新階段。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She has to forget her café experience before teaching can count as a new stage.",
+            "zh": "她必須忘掉咖啡店經驗，教學才算新階段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Nothing about her role has changed; she is still doing the same daily café shift.",
+            "zh": "她的角色沒有改變，仍在做相同的每日咖啡店輪班。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "由日常店務轉教學是新階段，仍可運用舊經驗。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 start a new chapter 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某個角色或生活階段開始有轉變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "以往的經驗及關係都必須被抹掉。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "新階段可能既有承接，也有新學習。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "書章節比喻新的部分，沒有要求刪掉以前所有部分。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「新角色一定要把以前所學全丟掉，才算重新開始嗎？」哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You can start a new chapter while drawing on what you learned before; the new responsibilities give you something different to grow into.",
+            "zh": "你可運用以前所學，同時展開新階段；新責任讓你有不同的成長方向。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the old role completely unchanged and call the same routine a new stage without explaining any difference.",
+            "zh": "把舊角色完全維持不變，不說明差異就把同一日常叫作新階段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Avoid using any earlier skill, even when it would help with the new responsibilities.",
+            "zh": "即使舊技能有助應付新責任，也避免使用。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新階段需有實際轉變，但可承接既有能力，不必刻意棄用。"
+      },
+      "speaking": {
+        "en": "Returning to study after years at work can start a new chapter without erasing the experience you bring.",
+        "zh": "工作多年後重返學習，可展開新階段，而不用抹去你帶來的經驗。",
+        "targetSpan": {
+          "start": 43,
+          "end": 62
+        },
+        "promptZh": "先聽示範，再說明新階段與過往經驗可並存。"
+      },
+      "writing": {
+        "promptZh": "新情境：你與手足將離開成長的家庭住所，第一次一起安排自己的新家。你想寫訊息給家人，承認生活展開新階段，也希望保留星期日通話及熟悉家常菜等連結，而不是說從此與過往無關。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "As we leave our childhood home, we are starting a new chapter together. We want to build our own routines while keeping Sunday calls with the family.",
+            "zh": "離開成長的家時，我們一起展開新階段。我們想建立自己的日常，同時保留與家人星期日通話的習慣。"
+          },
+          {
+            "en": "We hope to start a new chapter in our first shared flat without leaving our family memories behind; familiar recipes can be part of the life we build there.",
+            "zh": "我們希望在第一個共同住的單位展開新階段，而不把家庭回憶丟下；熟悉食譜可以成為在那裏建立的生活的一部分。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our childhood home",
+            "zh": "我們成長的家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 30
+            }
+          },
+          {
+            "en": "our own routines",
+            "zh": "我們自己的日常",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 105
+            }
+          },
+          {
+            "en": "Sunday calls",
+            "zh": "星期日通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 132
+            }
+          },
+          {
+            "en": "our first shared flat",
+            "zh": "第一個共同住的單位",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 55
+            }
+          },
+          {
+            "en": "familiar recipes",
+            "zh": "熟悉食譜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          }
+        ],
+        "selfCheckZh": "說明離開成長住所、建立共同生活的新階段，也寫出想保留的家庭連結，不把開始新階段等同抹去過往。"
+      },
+      "takeaways": [
+        {
+          "en": "Moving into teaching helped her start a new chapter while using her practical experience.",
+          "zh": "轉做教學幫她展開新階段，同時運用實務經驗。"
+        },
+        {
+          "en": "Starting a new chapter can involve keeping valuable lessons as well as learning new routines.",
+          "zh": "展開新階段可以既保留有用經驗，也學習新日常。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1598",
+      "number": 1598,
+      "inventoryId": "expr-1598",
+      "contentRevision": 1,
+      "titleEn": "four walls",
+      "titleZh": "只有住屋結構而未有家的感覺",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfour\\s+walls\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p187-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 187,
+          "book": 7,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The flat had four walls but needed warmth.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "four walls",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p233-t2-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 233,
+          "book": 8,
+          "question": 29,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The flat had four walls but needed warmth.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "four walls",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The physical enclosure of a home, especially contrasted with the warmth or meaning of living there.",
+        "meaningZh": "住所的實際外殼，常用來對比在其中生活的溫暖或意義。",
+        "grammar": "more than four walls / four walls but + missing human quality; context distinguishes this shorthand from a literal wall count",
+        "register": "neutral",
+        "boundaryZh": "本課不是數牆壁；指出住屋外殼不足以代表家的感覺，也不否定實際住所及生活設備的重要性。",
+        "misconceptionZh": "本課不是數牆壁；指出住屋外殼不足以代表家的感覺，也不否定實際住所及生活設備的重要性。",
+        "outcomeZh": "理解「只有住屋結構而未有家的感覺」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "At first the room felt like four walls and a bed; shared meals and familiar voices gradually made it feel like home to the new resident.",
+        "zh": "起初那房間感覺只是住所外殼和一張床；共同用餐及熟悉聲音漸漸讓新住戶有家的感覺。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "實際房間原已存在，人際日常逐漸增加家的感覺。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "句子只在量度房間有幾面牆，不談生活感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "新住戶有熟悉聲音前，實際上沒有任何可住的房間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "有了共同用餐，房間就不再需要基本生活設備。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "felt like 與 feel like home 對比外殼及感受，不是量度牆數或取消實際需要。"
+      },
+      "reply": {
+        "promptEn": "What helped the room feel more like home to the new resident?",
+        "promptZh": "甚麼幫那房間讓新住戶較有家的感覺？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Shared routines made it feel like more than four walls.",
+            "zh": "共同日常讓它感覺不只是住所外殼。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Familiar voices and meals together added a sense of belonging.",
+            "zh": "熟悉聲音及一起用餐增加歸屬感。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The resident began to connect the space with people and daily experiences.",
+            "zh": "住戶開始把空間與人及日常經驗連起來。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It was the life within the room, not only its physical shape.",
+            "zh": "關鍵是房內的生活，而不只是實際形狀。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友的新居基本設備齊全，卻仍覺得冷清；開始與家人煮飯聊天後，才覺得有生活溫度。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The flat became more than four walls as they built shared routines.",
+            "zh": "他們建立共同日常後，單位變得不只是住所外殼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The flat already felt emotionally familiar before they spent any time together there.",
+            "zh": "他們未在那裏共處前，單位已讓他們感到情感上熟悉。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The main change was a move to a larger flat with more rooms.",
+            "zh": "主要改變是搬到房間更多的大單位。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "是原有單位中共同日常帶來的感受變化，不是早已熟悉或又搬到更大單位。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 more than four walls？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "家可能包含關係、記憶及日常。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要有溫暖關係，就可以不理實際居住需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "外殼及設備與家的感受是相關但不同的層面。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "感情層面不取代實際需要，比喻是指出還有更多意義。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「房間設備都有，為甚麼我還覺得不像家？」你想分清外殼與熟悉日常，不否定他的感受。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Home can be more than four walls; familiar routines and connections may take time to develop.",
+            "zh": "家可以不只是住所外殼；熟悉日常及連結可能需時間建立。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Since the furniture is in place, there is no reason to ask how you feel about living there.",
+            "zh": "既然傢俬齊全，就沒有理由再問你住在那裏的感受。"
+          },
+          {
+            "id": "choice-3",
+            "en": "You should replace all your familiar routines before trying to feel at home in the room.",
+            "zh": "你應先把所有熟悉日常換掉，再嘗試在房間建立家的感覺。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "承認基本設備之外還有感受及日常，沒有把齊備等同必然有歸屬，也沒有要求棄掉熟悉日常。"
+      },
+      "speaking": {
+        "en": "Our home is more than four walls; it holds the ordinary routines we have built together.",
+        "zh": "我們的家不只是住所外殼，也承載一起建立的平常日常。",
+        "targetSpan": {
+          "start": 22,
+          "end": 32
+        },
+        "promptZh": "先聽示範，再說明外殼以外的生活意義。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為家庭回憶冊寫舊居介紹，不想只列房間尺寸，而想記下廚房裏每周一起煮飯的片段。用一至兩句英文說明為甚麼要保留這些日常，不說所有人的家都必須一樣。",
+        "examples": [
+          {
+            "en": "For our family, the old home was more than four walls; the weekly cooking in its kitchen is part of what we want to remember.",
+            "zh": "對我們一家而言，舊居不只是住所外殼；廚房裏每周一起煮飯的片段，是我們想記住的一部分。"
+          },
+          {
+            "en": "I want the memory book to show more than four walls and room sizes, including the ordinary meals that gave this place meaning for us.",
+            "zh": "我想回憶冊展示的不只住所外殼及房間尺寸，也包括讓這地方對我們有意義的平常飯餐。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our family",
+            "zh": "我們一家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 14
+            }
+          },
+          {
+            "en": "the old home",
+            "zh": "舊居",
+            "exampleIndex": 0,
+            "span": {
+              "start": 16,
+              "end": 28
+            }
+          },
+          {
+            "en": "the weekly cooking",
+            "zh": "每周煮飯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 73
+            }
+          },
+          {
+            "en": "the memory book",
+            "zh": "回憶冊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 7,
+              "end": 22
+            }
+          },
+          {
+            "en": "room sizes",
+            "zh": "房間尺寸",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 66
+            }
+          }
+        ],
+        "selfCheckZh": "把住屋外殼與這家人的具體記憶分清，說明回憶冊目的，不把個人歸屬方式當成人人規則。"
+      },
+      "takeaways": [
+        {
+          "en": "Four walls provide an enclosure, but the life inside gives this home its personal meaning.",
+          "zh": "住屋外殼圍出空間，裏面的生活則給這個家個人意義。"
+        },
+        {
+          "en": "For her, moving home meant carrying memories as well as finding another set of four walls.",
+          "zh": "對她而言，搬家既是找到一處新的住所外殼，也要帶着回憶繼續生活。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1599",
+      "number": 1599,
+      "inventoryId": "expr-1599",
+      "contentRevision": 1,
+      "titleEn": "setting up a new home",
+      "titleZh": "安排建立可生活的新家",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:set|sets|setting)\\s+up\\s+a\\s+new\\s+home\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p187-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 187,
+          "book": 7,
+          "question": 14,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "They are setting up a new home this month.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "setting up a new home",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Arrange and prepare a new place for everyday living.",
+        "meaningZh": "安排及準備新的住處，讓日常生活可以開始。",
+        "grammar": "set up a new home; setting up describes the ongoing preparation; set is unchanged in the past",
+        "register": "neutral",
+        "boundaryZh": "不一定自己蓋房，也不要求每件物品到齊才算開始；可以在逐步安排中建立生活，需看語境所指的準備工作。",
+        "misconceptionZh": "不一定自己蓋房，也不要求每件物品到齊才算開始；可以在逐步安排中建立生活，需看語境所指的準備工作。",
+        "outcomeZh": "理解「安排建立可生活的新家」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "They are setting up a new home in the rented flat, arranging deliveries and deciding where everyday things will go before the first full week there.",
+        "zh": "他們正在租來的單位安排新家，首個完整星期開始前，處理送貨並決定日常物品放哪裏。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他們在準備新住處的日常安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們只在建造新的房屋外牆，沒有安排室內生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "所有物品位置早已確定，他們現在只計劃搬走。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他們已結束那裏的生活，正把日常物品全部清走。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "rented flat 與 deliveries、everyday things 說明入住準備，不是蓋房或結束生活。"
+      },
+      "reply": {
+        "promptEn": "What are they busy with before their first full week in the flat?",
+        "promptZh": "在單位度過首個完整星期前，他們在忙甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They are setting up a new home and organising the everyday essentials.",
+            "zh": "他們正在安排新家，整理日常所需。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They are working out where things should go and arranging deliveries.",
+            "zh": "他們在想物品放哪裏及安排送貨。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They are preparing the rented place for their daily routines.",
+            "zh": "他們在準備租來的地方，以開始日常生活。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They are making practical arrangements before settling into the week.",
+            "zh": "他們在開始那一周生活前作實際安排。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友搬入現成公寓，正在安排床、煮食物品及帳單聯絡方法，不是自己建屋。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are setting up a new home in the apartment.",
+            "zh": "他們正在公寓安排新家。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are constructing the apartment building from its foundations.",
+            "zh": "他們正在從地基建造整座公寓。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They are ending their stay and removing the things they need for daily life.",
+            "zh": "他們正在結束居住，搬走日常所需物品。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "已存在的公寓中準備日常用品及安排，符合建立新家，不是蓋樓或搬離。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 setting up a new home 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可能包括安排物品及生活程序。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "必定由住戶自己從地基興建房屋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "過程可能分階段完成，而不是一天安排完畢。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "set up 在此是安排準備，不要求建造房屋。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「公寓已建好，但我還在安排用品，可以說 setting up a new home 嗎？」哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Yes, setting up a new home can mean preparing an existing place for everyday life.",
+            "zh": "可以，安排新家可指為已有住處準備日常生活。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use it only after you have built the apartment walls yourself.",
+            "zh": "只有你自己建了公寓牆壁後才用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use it to say you are leaving the flat and ending the routines you had there.",
+            "zh": "用它來說你正搬離單位、結束那裏原有日常。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "語境是現成住處的安排，不必親自蓋房，也不是離開。"
+      },
+      "speaking": {
+        "en": "We are setting up a new home gradually, beginning with the things we need each day.",
+        "zh": "我們逐步安排新家，先從每天需要的東西開始。",
+        "targetSpan": {
+          "start": 7,
+          "end": 28
+        },
+        "promptZh": "先聽示範，再說明逐步準備日常生活。"
+      },
+      "writing": {
+        "promptZh": "新情境：你與室友將一起搬入宿舍單位，想在群組訊息中分工，而不是各自買重複用品。用一至兩句英文提出先列共有物品及分配採購，不列特定品牌或價格。",
+        "examples": [
+          {
+            "en": "As we are setting up a new home together, let us list the shared items and agree who will bring each one before buying anything twice.",
+            "zh": "我們一起安排新家，先列共有物品，議定各人帶甚麼，避免重複購買。"
+          },
+          {
+            "en": "We can set up a new home more smoothly if we coordinate the everyday essentials instead of making separate, overlapping shopping lists.",
+            "zh": "若協調日常必需品，而非各自列重複購物清單，我們便可較順利安排新家。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the shared items",
+            "zh": "共有物品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 70
+            }
+          },
+          {
+            "en": "who will bring each one",
+            "zh": "各人帶甚麼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 81,
+              "end": 104
+            }
+          },
+          {
+            "en": "buying anything twice",
+            "zh": "重複購買",
+            "exampleIndex": 0,
+            "span": {
+              "start": 112,
+              "end": 133
+            }
+          },
+          {
+            "en": "the everyday essentials",
+            "zh": "日常必需品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 79
+            }
+          },
+          {
+            "en": "shopping lists",
+            "zh": "購物清單",
+            "exampleIndex": 1,
+            "span": {
+              "start": 120,
+              "end": 134
+            }
+          }
+        ],
+        "selfCheckZh": "把安排新家連到具體協調及日常準備，不把 set up 當成自己蓋屋或只在搬走時使用。"
+      },
+      "takeaways": [
+        {
+          "en": "Setting up a new home involves coordinating daily needs as well as choosing where furniture goes.",
+          "zh": "安排新家既包括協調日常需要，也包括決定傢俬位置。"
+        },
+        {
+          "en": "They set up a new home in an existing flat, bringing the essentials first and adding other things later.",
+          "zh": "他們在現成單位安排新家，先帶必需品，其他物件稍後再加。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1600",
+      "number": 1600,
+      "inventoryId": "expr-1600",
+      "contentRevision": 1,
+      "titleEn": "needs do not stand still",
+      "titleZh": "需要會隨時間改變",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bneeds\\s+(?:do\\s+not|don[’']t)\\s+stand\\s+still\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p187-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 187,
+          "book": 7,
+          "question": 14,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Our needs do not stand still as the family grows.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "needs do not stand still",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p226-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 226,
+          "book": 8,
+          "question": 22,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Our needs do not stand still as the family grows.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "needs do not stand still",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "What people require changes over time rather than remaining fixed.",
+        "meaningZh": "人所需要的事物會隨時間改變，而非固定不變。",
+        "grammar": "our / people’s needs do not stand still as circumstances change; still describes a lack of movement figuratively",
+        "register": "neutral",
+        "boundaryZh": "不表示需要每一刻都完全不同，也不直接要求不停買新物；應看具體生活變化，再檢視合適安排。",
+        "misconceptionZh": "不表示需要每一刻都完全不同，也不直接要求不停買新物；應看具體生活變化，再檢視合適安排。",
+        "outcomeZh": "理解「需要會隨時間改變」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The source uses a conventional movement image. Figurative classification makes clear that the full needs clause is transparent rather than an opaque idiom."
+      },
+      "listening": {
+        "en": "Our needs do not stand still as the children grow: the corner once used for toys now also needs room for homework and shared reading.",
+        "zh": "隨孩子長大，我們的需要會改變：原本放玩具的角落，現在也要容納功課及一起閱讀。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "孩子成長讓同一空間需要增加不同用途。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "孩子長大後，家中每項需要仍與幼兒時完全相同。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只需增加玩具收納，不需為功課及閱讀留位置。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "閱讀已成為角落唯一用途，不再需要放玩具。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "as children grow 交代變化；now also 表示功課及閱讀加入原有玩具用途，不是只有玩具或只剩閱讀。"
+      },
+      "reply": {
+        "promptEn": "Why are you reviewing how the family uses that corner?",
+        "promptZh": "你為甚麼重新檢視家人怎樣用那個角落？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Our needs do not stand still as the children grow.",
+            "zh": "孩子長大時，我們的需要會改變。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The children now use it for homework as well as toys.",
+            "zh": "孩子現在除了放玩具，也會在那裏做功課。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The old arrangement no longer covers every activity we want to fit there.",
+            "zh": "舊安排已未能涵蓋想在那裏進行的每種活動。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We want the space to match the family’s changing routines.",
+            "zh": "我們希望空間配合家人改變中的日常。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "居民中心原本主要辦晚間課，現在多了日間讀書小組，管理員先問使用情況再檢視空間時段。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Users’ needs do not stand still, so it makes sense to review the arrangements.",
+            "zh": "使用者需要會改變，所以檢視安排有道理。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The timetable should be based only on the original evening classes.",
+            "zh": "時間表應只按原有晚間課程安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The new groups can be fitted in without checking when they meet.",
+            "zh": "不用確認新小組何時聚會，也可把它們排進時段。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "多了日間小組，需問實際使用時間再檢視，不能只看原有晚間課或不查便排。"
+      },
+      "contrast": {
+        "promptZh": "哪種推論不宜由 needs do not stand still 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "生活改變時，可重新確認需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每次出現新需要，都應先購買器材，而不用檢視現有安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "有些安排仍適用，另一些可能需調整。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "需要改變不直接等於購物指令，應先看哪些安排仍合用。"
+      },
+      "dialogue": {
+        "promptZh": "同事問：「現在多了日間小組，我們先看舊問卷，還是再問大家的時間需要？」你想建議按實際變化檢視。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Needs do not stand still, but let us ask what has changed and adjust the parts that no longer fit.",
+            "zh": "需要會改變，但先問甚麼變了，再調整不合用的部分吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use only the old evening-class survey, without asking the new groups when they meet.",
+            "zh": "只用舊晚間課問卷，不問新小組何時聚會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Buy new equipment before asking which activities and times the groups need.",
+            "zh": "先買新器材，再問小組需要哪些活動及時段。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先問實際變化及新小組需要，才可有針對性調整；舊資料可參考，但不足以代替新需求，也不是先購買再問。"
+      },
+      "speaking": {
+        "en": "Our needs do not stand still, so we should review what still works before deciding what to change.",
+        "zh": "我們的需要會改變，所以決定改甚麼前，應先檢視哪些仍合用。",
+        "targetSpan": {
+          "start": 4,
+          "end": 28
+        },
+        "promptZh": "先聽示範，再把改變連到有針對性的檢視。"
+      },
+      "writing": {
+        "promptZh": "新情境：小組原本只分享文字，現在要一起剪短片，但未清楚哪些工具或分工真的不夠用。你想寫檢討建議，先列新工作需求，再決定保留及調整甚麼，而非立刻更換所有工具。用一至兩句英文提出。",
+        "examples": [
+          {
+            "en": "Our needs do not stand still as we begin editing videos together. Let us identify the new tasks before deciding which tools and roles need to change.",
+            "zh": "開始一起剪片時，我們的需要會改變。先列出新工作，再決定哪些工具及角色需調整吧。"
+          },
+          {
+            "en": "Team needs do not stand still, but we should keep what works and review the gaps in our video-editing process before replacing the whole system.",
+            "zh": "小組需要會改變，但整套系統更換前，應先保留合用部分，檢視剪片流程的缺口。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "editing videos together",
+            "zh": "一起剪片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 64
+            }
+          },
+          {
+            "en": "the new tasks",
+            "zh": "新工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 95
+            }
+          },
+          {
+            "en": "tools and roles",
+            "zh": "工具及角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 133
+            }
+          },
+          {
+            "en": "keep what works",
+            "zh": "保留合用部分",
+            "exampleIndex": 1,
+            "span": {
+              "start": 45,
+              "end": 60
+            }
+          },
+          {
+            "en": "the whole system",
+            "zh": "整套系統",
+            "exampleIndex": 1,
+            "span": {
+              "start": 127,
+              "end": 143
+            }
+          }
+        ],
+        "selfCheckZh": "說明新工作怎樣帶來需要變化，提出先查缺口再調整，不把變化當成必須全面購置或永遠原樣。"
+      },
+      "takeaways": [
+        {
+          "en": "People’s needs do not stand still when their routines and responsibilities change.",
+          "zh": "日常及責任改變時，人的需要也會改變。"
+        },
+        {
+          "en": "Needs do not stand still, yet some familiar arrangements may remain useful.",
+          "zh": "需要會改變，但有些熟悉安排可能仍有用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "artifact": "advanced-native-verification-summary",
+  "state": "content-media-local-browser-and-production-data-evidence-complete-publication-pending",
+  "counts": {
+    "sourceLabels": 2110,
+    "sourceOccurrences": 3185,
+    "aliases": 218,
+    "newAuthoredModules": 1883,
+    "preservedBaselineModules": 10,
+    "advancedModules": 1893,
+    "supplementaryMeaningRecords": 1,
+    "currentIndependentAIReviewHashes": 1883,
+    "newAssessedQuestions": 11298,
+    "currentHostedAudioClips": 7532
+  },
+  "sourceAndEditorial": {
+    "authoritativeBatchFiles": 87,
+    "currentRecordHashesRecomputed": 1883,
+    "directIndependentAIReviewEvidence": 1879,
+    "verifiedSourceOnlyReviewInheritance": 4,
+    "sourcePending": 0,
+    "sourceReconciliationErrors": 0,
+    "splitSense": "Source label expr-0046 retains two explicitly assigned meanings: divide tasks and weaken a person; the additional meaning has stable module number 2111.",
+    "originalityScreen": {
+      "textsChecked": 11298,
+      "exactSourceMatches": 0,
+      "lexicalSimilarityFlagsAt062": 0,
+      "lowerThreshold045FlagsIndividuallyCompared": 1,
+      "lowerThresholdDecision": "Retain distinct complement/reference learning tasks in modules 226 and 228.",
+      "scope": "Exact and lexical screening plus individual flag inspection; this does not prove semantic originality, complete contextual diversity or rights clearance."
+    }
+  },
+  "audio": {
+    "currentRoleIdentities": 7532,
+    "publicByteAndHeaderVerified": 7532,
+    "publicVerificationInheritance": {
+      "exactImmutableURLVoiceFileHashRows": 7437,
+      "freshFinalGETRows": 95
+    },
+    "fullDecodeAndSignalVerified": 7532,
+    "signalFailures": 0,
+    "ASRScreened": 7532,
+    "flaggedClipsIndividuallyMachineTriaged": 104,
+    "twoModelComparisons": 104,
+    "triageCategories": {
+      "oneModelDisagreement": 50,
+      "retainedLexicalOrSegmentationDisagreement": 46,
+      "boundedOrthographyOrExactSecondary": 8
+    },
+    "newDeterministicG2PDefectsProvedByFinalTriage": 0,
+    "originalFlagsPreserved": true,
+    "humanListeningReviews": 0,
+    "scope": "Machine signal, text-alignment and pronunciation-generation evidence only. Forty-six disagreements remain explicitly recorded; no human hearing, pronunciation or accent approval is asserted."
+  },
+  "browser": {
+    "engines": [
+      "chromium",
+      "webkit"
+    ],
+    "freshLessonsPerEngine": 130,
+    "freshStepsPerEngine": 910,
+    "exactUnchangedImportedRecordsWithInheritedCoverage": 1753,
+    "preservedBaselineLessonsWithInheritedCoverage": 10,
+    "totalLessonsCovered": 1893,
+    "freshWholeLibraryCards": 1893,
+    "widths": [
+      1280,
+      1024,
+      768,
+      600,
+      390,
+      320
+    ],
+    "resilienceAndAccessibilitySyntheticCases": 40,
+    "lazyLoadingCases": 6,
+    "remainingActualIssues": 0,
+    "scope": "All current library cards were freshly checked at six widths. The final 130 lessons received full seven-step checks per engine; 1753 exact unchanged records and baseline 10 inherit documented earlier coverage with shared-runtime regression. This is not a fresh full-step rerun of all 1893 lessons.",
+    "webkitActivation": "12 lessons used ordinary pointer activation and 118 used native keyboard focus and Enter; the original pointer timeout remains documented, with separate pointer reproduction checks.",
+    "mockAudioAndSyntheticAccounts": true,
+    "physicalDeviceReview": false
+  },
+  "productionDatabase": {
+    "passed": true,
+    "actualCatalogueRows": 2359,
+    "advancedModules": 1893,
+    "nativeModules": 466,
+    "newModuleDefinitionsCompared": 1883,
+    "comparison": "Actual production PostgreSQL JSONB MD5 versus independent expected module definitions, including six questions and four accepted replies per new module.",
+    "mismatches": 0,
+    "scope": "Confirms the 1883 new module definitions in a 2359-row production catalogue; it does not assert human review, public frontend deployment or real student-flow acceptance."
+  },
+  "checklist": {
+    "total": 55,
+    "checks": [
+      {
+        "id": "SRC01",
+        "status": "passed-source-audit"
+      },
+      {
+        "id": "SRC02",
+        "status": "passed-source-audit"
+      },
+      {
+        "id": "SRC03",
+        "status": "passed-source-audit"
+      },
+      {
+        "id": "SRC04",
+        "status": "passed-source-audit"
+      },
+      {
+        "id": "SRC05",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR01",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR02",
+        "status": "passed-schema-runtime-and-ai-editorial"
+      },
+      {
+        "id": "CUR03",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR04",
+        "status": "passed-schema-runtime-and-ai-editorial"
+      },
+      {
+        "id": "CUR05",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR06",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR07",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR08",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "CUR09",
+        "status": "passed-schema-runtime-and-ai-editorial"
+      },
+      {
+        "id": "CUR10",
+        "status": "passed-schema-runtime-and-ai-editorial"
+      },
+      {
+        "id": "CUR11",
+        "status": "passed-schema-runtime-and-ai-editorial"
+      },
+      {
+        "id": "CUR12",
+        "status": "passed-screening-and-ai-editorial"
+      },
+      {
+        "id": "ZH01",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "ZH02",
+        "status": "passed-independent-ai-editorial"
+      },
+      {
+        "id": "ZH03",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI01",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI02",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI03",
+        "status": "passed-pinned-data-and-local-flow"
+      },
+      {
+        "id": "UI04",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI05",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI06",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI07",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "UI08",
+        "status": "passed-automated-regression"
+      },
+      {
+        "id": "UI09",
+        "status": "passed-local-order-and-layout"
+      },
+      {
+        "id": "UI10",
+        "status": "passed-local-partial-group-regression"
+      },
+      {
+        "id": "UI11",
+        "status": "passed-local-browser-with-bounded-inheritance"
+      },
+      {
+        "id": "A11Y01",
+        "status": "partial-browser-emulation"
+      },
+      {
+        "id": "SND01",
+        "status": "passed-local-event-and-mute-logic"
+      },
+      {
+        "id": "SND02",
+        "status": "pending-human-and-physical-device"
+      },
+      {
+        "id": "AUD01",
+        "status": "passed-pinned-generation-and-runtime"
+      },
+      {
+        "id": "AUD02",
+        "status": "passed-generation-and-upload"
+      },
+      {
+        "id": "AUD03",
+        "status": "passed-public-byte-and-header-verification"
+      },
+      {
+        "id": "AUD04",
+        "status": "passed-full-decode-and-signal"
+      },
+      {
+        "id": "AUD05",
+        "status": "passed-machine-screen-and-explicit-triage"
+      },
+      {
+        "id": "AUD06",
+        "status": "pending-human-listening"
+      },
+      {
+        "id": "AUD07",
+        "status": "partial-synthetic-playback-flow"
+      },
+      {
+        "id": "DAT01",
+        "status": "passed-isolated-regression"
+      },
+      {
+        "id": "DAT02",
+        "status": "passed-isolated-regression"
+      },
+      {
+        "id": "DAT03",
+        "status": "passed-synthetic-failure-recovery"
+      },
+      {
+        "id": "SCL01",
+        "status": "passed-local-lazy-runtime"
+      },
+      {
+        "id": "SCL02",
+        "status": "partial-measurement-with-explicit-scope"
+      },
+      {
+        "id": "SCL03",
+        "status": "passed-artifact-retention"
+      },
+      {
+        "id": "REL01",
+        "status": "pending-live-reconciliation"
+      },
+      {
+        "id": "REL02",
+        "status": "partial-final-local-closure"
+      },
+      {
+        "id": "REL03",
+        "status": "passed-production-definition-comparison"
+      },
+      {
+        "id": "REL04",
+        "status": "pending-selected-publication-diff"
+      },
+      {
+        "id": "REL05",
+        "status": "passed-local-release-gates"
+      },
+      {
+        "id": "REL06",
+        "status": "pending-push-and-deployment"
+      },
+      {
+        "id": "REL07",
+        "status": "pending-live-verification"
+      },
+      {
+        "id": "REL08",
+        "status": "pending-owner-acceptance"
+      }
+    ],
+    "statusCounts": {
+      "passed-source-audit": 4,
+      "passed-independent-ai-editorial": 9,
+      "passed-schema-runtime-and-ai-editorial": 5,
+      "passed-screening-and-ai-editorial": 1,
+      "passed-local-browser-with-bounded-inheritance": 8,
+      "passed-pinned-data-and-local-flow": 1,
+      "passed-automated-regression": 1,
+      "passed-local-order-and-layout": 1,
+      "passed-local-partial-group-regression": 1,
+      "partial-browser-emulation": 1,
+      "passed-local-event-and-mute-logic": 1,
+      "pending-human-and-physical-device": 1,
+      "passed-pinned-generation-and-runtime": 1,
+      "passed-generation-and-upload": 1,
+      "passed-public-byte-and-header-verification": 1,
+      "passed-full-decode-and-signal": 1,
+      "passed-machine-screen-and-explicit-triage": 1,
+      "pending-human-listening": 1,
+      "partial-synthetic-playback-flow": 1,
+      "passed-isolated-regression": 2,
+      "passed-synthetic-failure-recovery": 1,
+      "passed-local-lazy-runtime": 1,
+      "partial-measurement-with-explicit-scope": 1,
+      "passed-artifact-retention": 1,
+      "pending-live-reconciliation": 1,
+      "partial-final-local-closure": 1,
+      "passed-production-definition-comparison": 1,
+      "pending-selected-publication-diff": 1,
+      "passed-local-release-gates": 1,
+      "pending-push-and-deployment": 1,
+      "pending-live-verification": 1,
+      "pending-owner-acceptance": 1
+    },
+    "currentOverride": {
+      "id": "REL03",
+      "snapshotStatus": "pending-production-backend-verification",
+      "currentStatus": "passed-production-definition-comparison",
+      "evidence": "reviews/backend-production-catalogue-verification.json"
+    },
+    "scopedSummary": [
+      "Source reconciliation and exact current independent AI editorial review cover all 1883 new records.",
+      "Schema, runtime grading, local layout, sound-event logic and machine media checks have documented automated or AI scopes.",
+      "Browser evidence combines fresh final lessons, exact inherited content and synthetic runtime regressions; accessibility remains browser emulation.",
+      "Synthetic playback checks are not actual human hearing or physical-device listening.",
+      "Production module definitions now match; the earlier checklist REL03 pending status is superseded only for this comparison.",
+      "Selected publication diff, push/deployment, live reconciliation, live verification and owner acceptance remain publication-stage checks."
+    ],
+    "requiredWorkflowGatesPassed": 10,
+    "additionalTargetedGatesPassed": 5,
+    "humanApprovalClaimed": false,
+    "humanListeningReviewClaimed": false,
+    "physicalDeviceReviewClaimed": false,
+    "publicFrontendDeploymentVerified": false,
+    "overallOwnerAcceptanceClaimed": false
+  },
+  "artifactIdentities": {
+    "releaseIndex": {
+      "file": "course-materials/advanced-native/release-index.json",
+      "sha256": "0b6401077d1820e826c69d8d8838ff1d2f7b309bb853ff25100ad25e62ddc49f",
+      "bytes": 22390
+    },
+    "reviewRegister": {
+      "file": "course-materials/advanced-native/review-register.json",
+      "sha256": "6a945f80e5c92db616f34d9bdd28e8fb24c10b6545f45b93f256a2c01e893eef",
+      "bytes": 868753
+    },
+    "provenanceManifest": {
+      "file": "course-materials/advanced-native/provenance/manifest.json",
+      "sha256": "2daad045d24007b3e1f45b8e108a4a9159cbe7ae2d42b07478aab67f13a1ba3f",
+      "bytes": 2522
+    },
+    "canonicalBatchManifestSha256": "f8ddc66545c89b7beed4bfcfd726253994d87bf802251a16f3bf62350776db64",
+    "canonicalBatchManifestHashMethod": "SHA256 of UTF-8 compact sorted-key JSON array in release-index canonicalInputFiles order; each row has repository-relative file, raw-byte sha256 and bytes.",
+    "runtime": [
+      {
+        "file": "natural-english/advanced-imported.generated.mjs",
+        "sha256": "6d5f278dd230bf2ab49b04a0aa4254c4337a3fa72c54110e202d0e950778c1bb",
+        "bytes": 5193424
+      },
+      {
+        "file": "natural-english/app.mjs",
+        "sha256": "b61e71c7c0c05f2a4caa2a7ee635d63c14870b0b8ee4bbecde0245c90662efd2",
+        "bytes": 38637
+      },
+      {
+        "file": "natural-english/catalogue.mjs",
+        "sha256": "062439d96a2509a0e5d42f166ef2a07eee525027c8a383c226a33c0369671618",
+        "bytes": 23560
+      },
+      {
+        "file": "natural-english/advanced-display.mjs",
+        "sha256": "281b8570686371a1de9999da0cb4b05437d8ec2939453c5f855b5c1c6ae545ee",
+        "bytes": 4288
+      },
+      {
+        "file": "natural-english/advanced-targets.generated.mjs",
+        "sha256": "47a1b90b6f1ab3676e5cddc5bb53730784f8145b461b3a5c7b821e4d938fafa5",
+        "bytes": 148961
+      },
+      {
+        "file": "advanced-native/style.css",
+        "sha256": "67d7796b7c237492465e785ded363db2c625b4de96e4dcfbbbe7eea7cd8f8c55",
+        "bytes": 32225
+      }
+    ],
+    "canonicalSelectionSha256": "99aab2b5e226724457613be02ebc28594267d7f5574e820c9e45c3d591b0acda"
+  },
+  "evidence": [
+    {
+      "file": "reviews/final-release-checklist.json",
+      "sha256": "eb40705ca66e644cd18be42cb26900148b9005de52e271bbaa7560b548b0291b",
+      "bytes": 54088
+    },
+    {
+      "file": "reviews/backend-production-catalogue-verification.json",
+      "sha256": "6ac921dc8f6f22a5e54682f5f4c3e3bdbc17066da4d35a8d3fbd413398f550c8",
+      "bytes": 327
+    },
+    {
+      "file": "reviews/tracked-source-candidate-validation.json",
+      "sha256": "1551f7dfd323eeb1d85b6d09aba2e9dfff2b64bd195d0f9b6a4bc2cd89f3edbb",
+      "bytes": 975
+    },
+    {
+      "file": "reviews/final-source-originality-provenance-proposal-review.json",
+      "sha256": "a1a57e076f4549daf611fe4be027045230d4c74d2d93da2b7388917101219709",
+      "bytes": 4561
+    },
+    {
+      "file": "reviews/browser-1893-combined-coverage.json",
+      "sha256": "43f6b95bca80788d1ab5915a1d40f2ba1b882a4724242243bd2ef27117a57396",
+      "bytes": 517240
+    },
+    {
+      "file": "qa/resilience-a11y-audio/final-1893/summary.json",
+      "sha256": "9740766440048e98f4d003e6d24cebba30251c0322aad970447804c6cba146f2",
+      "bytes": 3578
+    },
+    {
+      "file": "reviews/lazy-browser-1893.json",
+      "sha256": "aca474e0a8abcd9d1474abffa9ca2d99cc4413e0d0f6abeb6efa7ad797e783c4",
+      "bytes": 1617
+    },
+    {
+      "file": "reviews/public-audio-7532.json",
+      "sha256": "c70b43a32717515cbab6cdcb9b2a1f8e264776de37ade121e5bee4a2ee7655d2",
+      "bytes": 3816056
+    },
+    {
+      "file": "reviews/audio-signal-7532.json",
+      "sha256": "7e46148ec662c900ab0f7981ac68b6735baf599b8ce71f8839c5bae4bf4cb8cd",
+      "bytes": 2323619
+    },
+    {
+      "file": "reviews/audio-asr-7532.json",
+      "sha256": "4f679f97628182489147ebe0d83949fd7a9a97802b225becac6002c1cbbd7481",
+      "bytes": 4594051
+    },
+    {
+      "file": "reviews/audio-asr-7532-independent-final-triage.json",
+      "sha256": "7345d8ca2ee04db0cbdcd1c61d50e16f6e17f311f2f8945619ed2de019122ef8",
+      "bytes": 428289
+    },
+    {
+      "file": "reviews/audio-asr-7532-full-g2p-triage.json",
+      "sha256": "b9ea323baf60d962eaaa4df64fc65b3d49e553a7658ca93c869722cd5691fdae",
+      "bytes": 145998
+    },
+    {
+      "file": "reviews/independent-final-native-release-gates.json",
+      "sha256": "79d56ef08d5469ede3220f60c541dc4438d0471caab467f477c5d4754256962c",
+      "bytes": 69197
+    }
+  ],
+  "reproducibility": {
+    "inputs": "release-index.json canonicalInputFiles and provenance/; existing baseline runtime source remains in the repository.",
+    "command": "node tools/advanced-native-bulk/build.mjs course-materials/advanced-native/batches/batch-????-????.json --out-dir .advanced-native-build",
+    "checkCommand": "node tools/advanced-native-bulk/build.mjs course-materials/advanced-native/batches/batch-????-????.json --out-dir .advanced-native-build --check",
+    "sourceManifestUnchanged": true,
+    "verificationManifestRelationship": "This separately hashed summary supplements release-index.json; it is intentionally not inserted into that existing hash manifest.",
+    "evidenceRetention": "Compact evidence filenames and hashes identify retained detailed QA reports; the tracked review register contains exact per-record review hashes without reviewer scratch."
+  },
+  "publicationExclusions": [
+    "Canonical authoring records, provenance, review register and this verification summary are tracked curator materials, excluded from public site asset export.",
+    "Build scratch, raw source PDFs, generated local audio, model files, credentials and detailed reviewer scratch are excluded from the public release."
+  ],
+  "approvalScope": "Independent AI editorial, automated local browser/media and production-definition evidence only; no human approval or public frontend live verification is claimed."
+}

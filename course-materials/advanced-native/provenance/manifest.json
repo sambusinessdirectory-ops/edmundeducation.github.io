@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "artifact": "advanced-native-curator-provenance",
+  "publicationState": "proposal-only",
+  "counts": {
+    "sourceDocuments": 2,
+    "sourceLabels": 2110,
+    "sourceOccurrences": 3185,
+    "aliases": 218,
+    "canonicalModules": 1893,
+    "authoredRecords": 1883,
+    "existingBaselineModules": 10,
+    "supplementaryMeaningRecords": 1
+  },
+  "snapshot": {
+    "sourceLabelsSha256": "7aa2b3ceb03ae68f0d20caa19ba8b0163501383e18f5b60a29b95ae9e7bda3aa",
+    "sourceOccurrencesSha256": "8f0a083d9d0ef9b96d60919e2f390e094d37ef077f9c8aea7fe912869ed9b07c",
+    "canonicalRecordsSha256": "a412a58bc6aae4d99feb04c09ef02ddda8f091596c52fae87726c4b7248abdb4",
+    "resolvedAssignmentSha256": "0a434fcc085e7ff5d6d8bd90a8febdcddaf87f1f3cb33fd4dc81250998730cd2",
+    "aliasMapSha256": "57c6fa876d8491bdadfa01628fa04ffe88478cb5a29a9ad3382faa69bf0de33e",
+    "senseSplitSha256": "3d6db522ed5528e6536e79edd45b363c1f71a1329580ac129bd7fb0c25f30544"
+  },
+  "files": [
+    {
+      "fileName": "documents.json",
+      "sha256": "c1c2192cfd51090f5eb5ddc7a9847aed5531fe1b93f5a5ef37d969a2c3dd9c2d",
+      "bytes": 411
+    },
+    {
+      "fileName": "source-labels.json",
+      "sha256": "be94e717c8b219780996279c50c362b44f6bc53abc7a737052aa9b7e9b633989",
+      "bytes": 933477
+    },
+    {
+      "fileName": "source-occurrences.json",
+      "sha256": "c37a3664b4afde2c29bfae7bc431868a394ec3d55325c88821534dd9ae73b7ce",
+      "bytes": 2947213
+    },
+    {
+      "fileName": "aliases.json",
+      "sha256": "85ceae4fefae2cf3acd3c0a5d406a238b322003c8e9f85ea0c8199879682111a",
+      "bytes": 60583
+    },
+    {
+      "fileName": "supplementary-senses.json",
+      "sha256": "5e3d881e9d62eb380c0a365c38e95585dde1b661b3b3e14a8c0bcb793408538b",
+      "bytes": 828
+    },
+    {
+      "fileName": "curated-module-index.json",
+      "sha256": "54bbf40d5a780657f78e46127f5307a0260fb6a13894d50b9a5a49212fbfe393",
+      "bytes": 1114741
+    },
+    {
+      "fileName": "audit-summary.json",
+      "sha256": "7f6f0407814e52094224f6fd4cc1f2c938588c982d99e8e07c017c9ffa9037fc",
+      "bytes": 2595
+    }
+  ],
+  "omitted": "Local filesystem paths, reviewer identities, scratch reports, author scripts, raw PDF/page images, generation timestamps and media credentials are excluded. Original source labels, meanings, sentences, locators, document checksums and all occurrence assignments are retained.",
+  "scope": "Curator/provenance JSON for parent review; does not stage public runtime, publish assets, mutate Git or write a database."
+}

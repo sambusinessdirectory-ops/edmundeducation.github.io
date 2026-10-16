@@ -1,0 +1,5792 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1476-1500",
+  "lessons": [
+    {
+      "id": "advanced-native-1476",
+      "number": 1476,
+      "inventoryId": "expr-1476",
+      "contentRevision": 1,
+      "titleEn": "capture attention",
+      "titleZh": "吸引注意力",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcaptur(?:e|es|ed|ing)\\s+attention\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p169-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 169,
+          "book": 6,
+          "question": 36,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Bright displays capture attention.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "capture attention",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Attract notice or interest.",
+        "meaningZh": "吸引別人留意或產生興趣。",
+        "grammar": "a display / opening / example captures attention; captured attention",
+        "register": "neutral",
+        "boundaryZh": "被注意不等於被理解、認同或記得；要區分引人看一眼與持續投入。",
+        "misconceptionZh": "被注意不等於被理解、認同或記得；要區分引人看一眼與持續投入。",
+        "outcomeZh": "理解「吸引注意力」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The unusual opening captured attention, but several listeners still needed the main point explained.",
+        "zh": "不尋常的開場吸引了注意，但幾位聽眾仍需要有人解釋重點。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "開場讓人留意，但理解仍需解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "聽眾已明白重點，所以不用再講解。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "開場與一般做法相似，沒有引起留意。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "開場只幫聽眾回想已理解的內容，沒有先吸引他們留意。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "but 後保留理解需要，captured attention 只說引起留意，不表示已理解。"
+      },
+      "reply": {
+        "promptEn": "Why did you begin the talk with an unexpected question?",
+        "promptZh": "你為甚麼用出人意料的問題開始演講？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I wanted to capture attention before explaining the issue.",
+            "zh": "我想先吸引注意，再解釋問題。"
+          },
+          {
+            "id": "reply-2",
+            "en": "A question gives listeners a reason to think about the topic.",
+            "zh": "問題讓聽眾有理由思考課題。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It connects the subject with something people may have experienced.",
+            "zh": "它把課題與大家可能有的經驗連起來。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I hoped it would make people curious about the answer.",
+            "zh": "我希望它讓大家好奇答案。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "展板的特別標題令路人停下來看，但他們尚未讀內容。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The title captured attention.",
+            "zh": "標題吸引了注意。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The title had already explained the whole exhibition to them.",
+            "zh": "標題已向他們解釋整個展覽。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The visitors understood the message before noticing the title.",
+            "zh": "訪客未留意標題就已明白訊息。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "停下來看顯示被注意，尚未讀內容則不能說已理解全部。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以支持 capture attention？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "一個提問令原本分心的觀眾轉過來看。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "展示與周圍相近，路人經過時沒有留意。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "明顯的對比令讀者停下來看標題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "需要有人留意或產生興趣；完全未被注意與本課意思不同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說標題吸引到目光，讀者就已理解重點。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A title can capture attention, but the explanation still needs to make the point clear.",
+            "zh": "標題能吸引注意，但解釋仍要把重點說清。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the number of glances as the main test of whether readers understand the message.",
+            "zh": "主要以多少人看一眼，測試讀者是否理解訊息。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the supporting explanation now that the heading has made people look.",
+            "zh": "標題既已令大家看過來，就移除輔助解釋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "注意與理解不同；觀看數量及引人看的標題，都不能代替清楚內容。"
+      },
+      "speaking": {
+        "en": "A short question can capture attention at the start of a talk.",
+        "zh": "簡短問題能在演講開始時吸引注意。",
+        "targetSpan": {
+          "start": 21,
+          "end": 38
+        },
+        "promptZh": "你想說明開場提問的作用。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為回收活動設計海報，用有趣問題讓同學停下來看，再清楚說明分類方法。用一至兩句英文描述安排。",
+        "examples": [
+          {
+            "en": "A surprising question can capture attention on our recycling poster. We still need clear sorting instructions.",
+            "zh": "出人意料的問題能在回收海報上吸引注意。我們仍需要清楚分類指示。"
+          },
+          {
+            "en": "We hope to capture attention with a playful heading, then explain how to sort the waste.",
+            "zh": "我們希望用有趣標題吸引注意，再解釋怎樣分類廢物。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A surprising question",
+            "zh": "出人意料的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 21
+            }
+          },
+          {
+            "en": "our recycling poster",
+            "zh": "我們的回收海報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 67
+            }
+          },
+          {
+            "en": "clear sorting instructions",
+            "zh": "清楚分類指示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 109
+            }
+          },
+          {
+            "en": "a playful heading",
+            "zh": "有趣標題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 51
+            }
+          }
+        ],
+        "selfCheckZh": "讓吸引目光與清楚解釋各有角色，不把被注意當成已理解。"
+      },
+      "takeaways": [
+        {
+          "en": "The opening question captured attention.",
+          "zh": "開場問題吸引了注意。"
+        },
+        {
+          "en": "Good examples can capture attention and make an explanation easier to follow.",
+          "zh": "好例子能吸引注意，讓解釋較容易跟隨。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1477",
+      "number": 1477,
+      "inventoryId": "expr-1477",
+      "contentRevision": 1,
+      "titleEn": "lose ground",
+      "titleZh": "逐漸失去優勢",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:lose|loses|lost|losing)\\s+ground\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p169-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 169,
+          "book": 6,
+          "question": 36,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Small shops may lose ground to large chains.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "lose ground",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Become less successful, influential or prominent relative to others.",
+        "meaningZh": "與其他人或事物相比，逐漸失去優勢、影響力或突出程度。",
+        "grammar": "lose ground to + competitor; lose ground in + field; past lost ground",
+        "register": "neutral",
+        "boundaryZh": "是相對地位減弱，不表示完全消失，也不一定是本身數量下降；對手增長較快也可令自己失去優勢。",
+        "misconceptionZh": "是相對地位減弱，不表示完全消失，也不一定是本身數量下降；對手增長較快也可令自己失去優勢。",
+        "outcomeZh": "理解「逐漸失去優勢」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Local shops were losing ground to the new chain as more customers chose its lower prices.",
+        "zh": "更多顧客選擇新連鎖店的較低價錢，本地商店正逐漸失去優勢。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "本地商店相對連鎖店的地位減弱。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "本地商店正吸引比連鎖店更多的新顧客。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩者的相對競爭地位維持不變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "商店透過配合連鎖店價格，提高了自己的相對份額。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "顧客轉向新連鎖店，支持競爭地位變弱，而不是自己份額提高。"
+      },
+      "reply": {
+        "promptEn": "Why is the small shop reviewing its service?",
+        "promptZh": "小店為甚麼檢視服務？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It is losing ground to larger competitors.",
+            "zh": "它正逐漸失去對大型對手的優勢。"
+          },
+          {
+            "id": "reply-2",
+            "en": "More regular customers have started shopping elsewhere.",
+            "zh": "更多熟客開始在其他地方購物。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The owner wants to understand why fewer people return.",
+            "zh": "店主想明白為甚麼回頭客減少。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Other shops now offer a convenience it has not matched.",
+            "zh": "其他店現在提供了它還未追上的便利。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩個品牌都有增長，但對手增長快得多，你的品牌市場佔比逐漸變小。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Our brand is losing ground to its rival.",
+            "zh": "我們的品牌正逐漸失去對對手的優勢。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Our brand is growing faster than its rival.",
+            "zh": "我們的品牌比對手增長更快。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The two brands are keeping the same relative share.",
+            "zh": "兩個品牌維持相同相對佔比。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "自己仍可增長，但相對佔比下降，仍屬 lose ground。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 lose ground 的競爭比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "對手擴張較快，自己的相對份額減少。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩方保持相同相對位置，沒有一方退步。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "自己的支持者逐漸轉向另一選擇。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "需要相對地位減弱；穩定維持相同位置不符合。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說店舖仍在營業，就不可能正在 lose ground。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A shop can lose ground while staying open if competitors attract a growing share of customers.",
+            "zh": "即使仍營業，對手吸引的顧客份額上升，也會令商店失去優勢。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Judge its competitive position only by whether the door is still open.",
+            "zh": "只按店門是否仍開着，判斷競爭地位。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Wait until the shop closes before comparing its customer share with its rivals.",
+            "zh": "等店舖結業後，才與對手比較顧客份額。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "營業狀態和相對份額不同；不必等結業才觀察優勢減弱。"
+      },
+      "speaking": {
+        "en": "The local shop is losing ground to bigger rivals.",
+        "zh": "本地小店正逐漸失去對大型對手的優勢。",
+        "targetSpan": {
+          "start": 18,
+          "end": 31
+        },
+        "promptZh": "你想說明小店的相對競爭位置變弱。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：社團仍有會員，但其他活動吸引更多學生，你們在校內的參與份額逐漸變小。用一至兩句英文描述並建議查問原因。",
+        "examples": [
+          {
+            "en": "Our club is losing ground to other activities, so we should ask students what they want.",
+            "zh": "我們的社團正逐漸失去對其他活動的優勢，所以應問學生想要甚麼。"
+          },
+          {
+            "en": "We may lose ground even while keeping some members. A short survey could help us understand the change.",
+            "zh": "即使保留一些會員，我們也可能失去優勢。簡短調查能幫我們理解變化。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our club",
+            "zh": "我們的社團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 8
+            }
+          },
+          {
+            "en": "other activities",
+            "zh": "其他活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 45
+            }
+          },
+          {
+            "en": "ask students what they want",
+            "zh": "問學生想要甚麼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 60,
+              "end": 87
+            }
+          },
+          {
+            "en": "A short survey",
+            "zh": "簡短調查",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 66
+            }
+          }
+        ],
+        "selfCheckZh": "描述相對參與份額及查問方法，不把優勢減弱寫成已完全消失。"
+      },
+      "takeaways": [
+        {
+          "en": "Small firms may lose ground to larger rivals.",
+          "zh": "小公司可能逐漸失去對大型對手的優勢。"
+        },
+        {
+          "en": "We lost ground even though our total sales rose slightly.",
+          "zh": "雖然總銷售額略升，我們仍失去了相對優勢。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1478",
+      "number": 1478,
+      "inventoryId": "expr-1478",
+      "contentRevision": 1,
+      "titleEn": "the spotlight is not always equally shared",
+      "titleZh": "注意力未必平均分配",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe\\s+spotlight\\s+is\\s+not\\s+always\\s+equally\\s+shared\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p169-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 169,
+          "book": 6,
+          "question": 36,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The spotlight is not always equally shared among festivals.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the spotlight is not always equally shared",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Public attention is not distributed evenly on every occasion.",
+        "meaningZh": "公眾注意力並非在每個場合都平均分配。",
+        "grammar": "the spotlight is not always equally shared among + groups/events",
+        "register": "neutral",
+        "boundaryZh": "not always 是否定每次都一樣，不是說從來沒有平均；spotlight 比喻注意，不只舞台燈，也不直接量度活動本身價值。",
+        "misconceptionZh": "not always 是否定每次都一樣，不是說從來沒有平均；spotlight 比喻注意，不只舞台燈，也不直接量度活動本身價值。",
+        "outcomeZh": "理解「注意力未必平均分配」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The spotlight is not always equally shared: the city’s famous parade gets more coverage than smaller neighbourhood events.",
+        "zh": "注意力並非總是平均分配：城市著名巡遊比小型鄰里活動得到更多報道。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這次公眾報道較集中在著名巡遊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有活動在每次報道都佔同樣篇幅。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "鄰里活動因報道較少而已停止舉行。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "小型活動得到的宣傳，已比巡遊更多。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "coverage 提供公眾注意的語境；報道差異不等於活動已停止。"
+      },
+      "reply": {
+        "promptEn": "Why include smaller community events in the guide?",
+        "promptZh": "為甚麼要在指南加入較小型社區活動？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The spotlight is not always equally shared, so readers may miss them.",
+            "zh": "注意力並非總是平均分配，讀者可能忽略它們。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The best-known parade already receives plenty of publicity.",
+            "zh": "最有名巡遊已得到很多宣傳。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Residents might enjoy events that rarely reach the headlines.",
+            "zh": "居民可能也喜歡很少成為新聞焦點的活動。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A broader guide can help people discover local gatherings.",
+            "zh": "較廣泛的指南能幫大家發現本地聚會。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "城市報紙用了數頁介紹大巡遊，只用幾行提社區聚會。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The spotlight is not always equally shared.",
+            "zh": "注意力並非總是平均分配。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The newspaper gives every event the same amount of space.",
+            "zh": "報紙給每項活動相同篇幅。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The smaller gathering has no participants because its article is short.",
+            "zh": "小聚會因文章短而沒有參加者。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "篇幅不同顯示注意失衡；短報道不能證明沒人參加。"
+      },
+      "contrast": {
+        "promptZh": "哪個改述不符合 the spotlight is not always equally shared？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有時某些活動得到更多公眾注意。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每個場合的公眾注意都平均分配。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "報道較少的活動仍可對參與者重要。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "not always 正是否定「每個場合都平均」，不是否定小活動價值。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說小活動報道少，就表示它對居民不重要。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The spotlight is not always equally shared, so we should ask residents what matters to them.",
+            "zh": "注意力並非總是平均分配，所以應問居民重視甚麼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use newspaper space as the main measure of how much residents value each gathering.",
+            "zh": "主要用報紙篇幅，衡量居民多重視每項聚會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Select only the most publicised events before asking which gatherings local families attend.",
+            "zh": "未問本地家庭參加哪些聚會，就只選宣傳最多的活動。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "公眾曝光與居民價值不同，需了解當事人而非只按報道排序。"
+      },
+      "speaking": {
+        "en": "The spotlight is not always equally shared among local festivals.",
+        "zh": "本地節慶之間，注意力並非總是平均分配。",
+        "targetSpan": {
+          "start": 0,
+          "end": 42
+        },
+        "promptZh": "你想提醒大家報道篇幅可能不平均。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：校刊大篇幅介紹運動隊，較少提辯論和義工小組，但各組都有人投入。用一至兩句英文指出注意力差異並建議多了解其他組別。",
+        "examples": [
+          {
+            "en": "The spotlight is not always equally shared in our school magazine. We could interview the debating and volunteer groups too.",
+            "zh": "校刊的注意力並非總是平均分配。我們也可以訪問辯論和義工小組。"
+          },
+          {
+            "en": "The spotlight is not always equally shared, so we should learn about the less publicised clubs before judging their value.",
+            "zh": "注意力並非總是平均分配，所以評價之前，應了解較少宣傳的社團。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our school magazine",
+            "zh": "我們的校刊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 65
+            }
+          },
+          {
+            "en": "interview",
+            "zh": "訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 85
+            }
+          },
+          {
+            "en": "the less publicised clubs",
+            "zh": "較少宣傳的社團",
+            "exampleIndex": 1,
+            "span": {
+              "start": 69,
+              "end": 94
+            }
+          },
+          {
+            "en": "judging their value",
+            "zh": "評價其價值",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 121
+            }
+          }
+        ],
+        "selfCheckZh": "指出具體曝光差異，保留其他組別的意義，不把 not always 譯作從來不平均。"
+      },
+      "takeaways": [
+        {
+          "en": "The spotlight is not always equally shared among community events.",
+          "zh": "社區活動之間，注意力並非總是平均分配。"
+        },
+        {
+          "en": "The spotlight is not always equally shared, but a small audience can still value an event.",
+          "zh": "注意力並非總是平均分配，但少量觀眾仍可重視一項活動。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1479",
+      "number": 1479,
+      "inventoryId": "expr-1479",
+      "contentRevision": 1,
+      "titleEn": "adds another rhythm to the calendar",
+      "titleZh": "為日曆添一種慶祝節奏",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\badd(?:s|ed|ing)?\\s+another\\s+rhythm\\s+to\\s+the\\s+calendar\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p169-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 169,
+          "book": 6,
+          "question": 36,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The new holiday adds another rhythm to the calendar.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "adds another rhythm to the calendar",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Introduce another recurring occasion into the pattern of the year.",
+        "meaningZh": "為一年原有的活動規律，增添另一個定期時刻。",
+        "grammar": "a yearly event adds another rhythm to the calendar",
+        "register": "neutral",
+        "boundaryZh": "這是把重複活動比作節奏的創意比喻，不是固定成語；新增不必取代舊活動，也不表示每個人都同樣參加。",
+        "misconceptionZh": "這是把重複活動比作節奏的創意比喻，不是固定成語；新增不必取代舊活動，也不表示每個人都同樣參加。",
+        "outcomeZh": "理解「為日曆添一種慶祝節奏」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The annual neighbourhood meal adds another rhythm to the calendar alongside our older festivals.",
+        "zh": "每年鄰里聚餐在舊節慶之外，為日曆增添另一種活動節奏。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "一年中多了一個定期聚會。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "鄰里聚餐已取代全部舊節慶。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "聚餐只是一個尚未安排的偶然想法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "聚餐改變了舊節慶每次活動的實際時長。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "annual 及 alongside 支持定期新增而不取代；不是改變舊活動時長。"
+      },
+      "reply": {
+        "promptEn": "What does the new yearly neighbourhood picnic add to community life?",
+        "promptZh": "新的年度鄰里野餐，為社區生活增添甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It adds another rhythm to the calendar.",
+            "zh": "它為日曆增添另一種定期活動節奏。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Neighbours now have another occasion to meet.",
+            "zh": "鄰居現在多一個見面時刻。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It gives families a shared event to look forward to each year.",
+            "zh": "它讓家庭每年多一項可期待的共同活動。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The repeated gathering may help people stay in touch.",
+            "zh": "定期聚會可能幫大家保持聯絡。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社區保留原有節慶，也開始每年夏天辦故事晚會。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The story evening adds another rhythm to the calendar.",
+            "zh": "故事晚會為日曆增添另一種定期活動節奏。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The story evening has replaced the entire festival programme.",
+            "zh": "故事晚會取代了整個節慶節目。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The story evening is an unplanned one-off with no recurring place in the year.",
+            "zh": "故事晚會是未經安排的一次活動，在一年中沒有定期位置。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "每年夏天是新增規律；保留原節慶表示不是全部取代。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持 adds another rhythm to the calendar 的本課比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "每年多一個鄰里團聚日。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "新年度活動與舊節慶並存。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "一個偶然會面結束後沒有任何重複安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "本課 rhythm 指重複出現的規律，單次偶遇沒有這個依據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說新增年度聚會，就一定會把舊節慶擠走。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can add another rhythm to the calendar while the familiar celebrations keep their place.",
+            "zh": "它能為日曆添另一種節奏，同時讓熟悉慶祝保留位置。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Cancel the old gathering before checking whether the two dates can coexist.",
+            "zh": "先取消舊聚會，再查兩個日期能否並存。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Describe the new event as a replacement even though the older dates remain unchanged.",
+            "zh": "即使舊日期不變，也把新活動稱為取代。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "定期新增可與舊安排並存，不能未查便當作取代。"
+      },
+      "speaking": {
+        "en": "The new festival adds another rhythm to the calendar.",
+        "zh": "新節慶為日曆增添另一種定期活動節奏。",
+        "targetSpan": {
+          "start": 17,
+          "end": 52
+        },
+        "promptZh": "你想用節奏比喻年度活動增多。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學校保留運動日和文化日，新增每年春天的校友故事會。用一至兩句英文描述這種定期新增。",
+        "examples": [
+          {
+            "en": "The annual alumni story evening adds another rhythm to the calendar alongside sports day and culture day.",
+            "zh": "每年校友故事晚會在運動日和文化日之外，為日曆添另一種活動節奏。"
+          },
+          {
+            "en": "Our new spring gathering adds another rhythm to the calendar without replacing the familiar school events.",
+            "zh": "新的春季聚會為日曆添另一種活動節奏，沒有取代熟悉校內活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The annual alumni story evening",
+            "zh": "每年校友故事晚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 31
+            }
+          },
+          {
+            "en": "sports day and culture day",
+            "zh": "運動日和文化日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 104
+            }
+          },
+          {
+            "en": "Our new spring gathering",
+            "zh": "我們新的春季聚會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "the familiar school events",
+            "zh": "熟悉校內活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 105
+            }
+          }
+        ],
+        "selfCheckZh": "交代年度重複和新增關係，不把節奏比喻寫成實際音樂。"
+      },
+      "takeaways": [
+        {
+          "en": "A yearly gathering adds another rhythm to the calendar.",
+          "zh": "年度聚會為日曆增添另一種活動節奏。"
+        },
+        {
+          "en": "The new community day added another rhythm to the calendar.",
+          "zh": "新的社區日為日曆增添了另一種活動節奏。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1480",
+      "number": 1480,
+      "inventoryId": "expr-1480",
+      "contentRevision": 1,
+      "titleEn": "grow up completely disconnected",
+      "titleZh": "成長時與文化承傳疏離",
+      "category": "natural",
+      "target": {
+        "pattern": "\\b(?:grow|grows|grew|grown|growing)\\s+up\\s+completely\\s+disconnected\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p170-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 170,
+          "book": 6,
+          "question": 37,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Children should not grow up completely disconnected from their heritage.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow up completely disconnected",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Develop towards adulthood with no meaningful link to a specified background or community.",
+        "meaningZh": "在成長過程中，與某種背景或社群沒有實質連繫。",
+        "grammar": "grow up completely disconnected from + heritage/community; past grew up",
+        "register": "neutral",
+        "boundaryZh": "需說明 from 甚麼；completely 語氣很強，不能只因少懂一項習俗就斷言完全疏離，也不由血統推定個人的感受。",
+        "misconceptionZh": "需說明 from 甚麼；completely 語氣很強，不能只因少懂一項習俗就斷言完全疏離，也不由血統推定個人的感受。",
+        "outcomeZh": "理解「成長時與文化承傳疏離」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide labels the full wording an idiom or set phrase. This lesson teaches the natural grow up + adjective pattern and the conventional figurative adjective disconnected, without claiming the full sentence is a fixed idiom."
+      },
+      "listening": {
+        "en": "We share family stories so the children do not grow up completely disconnected from their heritage.",
+        "zh": "我們分享家族故事，免得孩子成長時與文化承傳完全失去連繫。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "家人希望故事能維持孩子與文化承傳的連結。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家人想讓孩子避免聽到任何家族故事。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "孩子已完全明白每項習俗，所以不再需要交流。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家人希望孩子照做每項承傳習俗，而不提出問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "so...do not 表示避免文化疏離的目的；維持連結不等於要求照做每項習俗或已完全了解承傳。"
+      },
+      "reply": {
+        "promptEn": "Why do you invite children to hear relatives’ stories?",
+        "promptZh": "你為甚麼邀請孩子聽親人的故事？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I do not want them to grow up completely disconnected from their family history.",
+            "zh": "我不想他們成長時與家族歷史完全疏離。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The stories give them a way to ask about earlier generations.",
+            "zh": "故事讓他們有方法問以前世代的事。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They may discover why certain customs matter to their relatives.",
+            "zh": "他們可能發現某些習俗為何對親人重要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It helps them recognise experiences beyond their own childhood.",
+            "zh": "這幫他們認識自己童年以外的經驗。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一位成人說自己童年從未接觸家族故事，也無從了解家庭背景，長大後才想建立連結。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I grew up completely disconnected from my family history.",
+            "zh": "我成長時與家族歷史完全疏離。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I grew up hearing our family history regularly.",
+            "zh": "我成長時經常聽家族歷史。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I had occasional gaps in one recipe, but knew the wider family history well.",
+            "zh": "我偶爾不熟悉一道食譜，但很了解整體家族歷史。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情境明示缺少接觸及了解，支持 completely 的強烈程度；不是經常聽故事，也不只是單一道食譜的缺漏。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以說 grow up completely disconnected from their heritage？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "孩子完全沒有接觸承傳，也沒有可理解背景的途徑。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "孩子只不熟悉一項習俗，但經常分享家族故事並與親人交流。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "某人描述整個童年缺少與文化背景的實質連結。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "不懂一項內容不等於完全疏離，已有持續故事和交流便不能如此概括。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說孩子不知道一道節日菜，就等於完全失去文化連結。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "That one gap is not enough to say they are growing up completely disconnected from their heritage; ask what stories and customs they do know.",
+            "zh": "單一缺漏不足以說孩子在成長過程中正與文化承傳完全疏離；先問他們知道哪些故事和習俗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use that missing recipe as the main measure before asking about their other family connections.",
+            "zh": "先用那份欠缺的食譜作主要衡量，再問其他家庭連結。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Arrange a test of that dish before allowing them to join the family story gathering.",
+            "zh": "先測驗那道菜，才讓他們參加家族故事聚會。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要了解整體連結，不宜用單一道菜作強烈斷言或參與門檻。"
+      },
+      "speaking": {
+        "en": "Stories help children avoid growing up completely disconnected from their heritage.",
+        "zh": "故事幫孩子避免在成長時與文化承傳完全疏離。",
+        "targetSpan": {
+          "start": 28,
+          "end": 62
+        },
+        "promptZh": "你想說明故事可維持與文化背景的連繫。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：在海外生活的孩子少有機會聽家族往事，你建議定期與長輩視像聊天，幫助維持連繫。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Regular video calls can help children avoid growing up completely disconnected from their family history.",
+            "zh": "固定視像通話能幫孩子避免在成長時與家族歷史完全疏離。"
+          },
+          {
+            "en": "We can share older relatives’ stories so the children do not grow up completely disconnected from their heritage.",
+            "zh": "我們能分享長輩故事，免得孩子成長時與文化承傳完全疏離。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Regular video calls",
+            "zh": "固定視像通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "their family history",
+            "zh": "他們的家族歷史",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 104
+            }
+          },
+          {
+            "en": "older relatives’ stories",
+            "zh": "長輩故事",
+            "exampleIndex": 1,
+            "span": {
+              "start": 13,
+              "end": 37
+            }
+          },
+          {
+            "en": "their heritage",
+            "zh": "他們的文化承傳",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 112
+            }
+          }
+        ],
+        "selfCheckZh": "以維持連繫為目的，不只因住海外就斷言所有孩子完全疏離，也不把一項不熟悉當作全部。"
+      },
+      "takeaways": [
+        {
+          "en": "Children need not grow up completely disconnected from their family history.",
+          "zh": "孩子不必在成長時與家族歷史完全疏離。"
+        },
+        {
+          "en": "Sharing stories can help young people avoid growing up completely disconnected from their heritage.",
+          "zh": "分享故事能幫年輕人避免在成長時與文化承傳完全疏離。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1481",
+      "number": 1481,
+      "inventoryId": "expr-1481",
+      "contentRevision": 1,
+      "titleEn": "part of a child's roots",
+      "titleZh": "孩子文化根源的一部分",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bpart\\s+of\\s+a\\s+child[’']s\\s+roots\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p170-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 170,
+          "book": 6,
+          "question": 37,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Stories are part of a child's roots.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "part of a child's roots",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "One element connecting a child with family history or cultural origins.",
+        "meaningZh": "連繫孩子與家族歷史或文化來源的其中一部分。",
+        "grammar": "stories / language / customs are part of a child’s roots",
+        "register": "neutral",
+        "boundaryZh": "根源可有多種，不把家庭背景當命運或要求孩子只有一種身分；part of 也不是全部來源。",
+        "misconceptionZh": "根源可有多種，不把家庭背景當命運或要求孩子只有一種身分；part of 也不是全部來源。",
+        "outcomeZh": "理解「孩子文化根源的一部分」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "A grandmother’s stories can be part of a child’s roots, alongside the languages and places in the family’s history.",
+        "zh": "祖母故事能與家族歷史中的語言和地方一樣，成為孩子文化根源的一部分。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "故事是連繫背景的其中一種來源。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "故事代替了孩子經歷中的其他全部來源。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "故事主要被當作日期測驗，而不是了解家族背景的連繫。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家族故事已為孩子選定將來要做的工作。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "alongside 和 part of 都保留多種來源；roots 在此指背景連繫，不是記日期測驗或預定人生。"
+      },
+      "reply": {
+        "promptEn": "Why do you share old family stories with the children?",
+        "promptZh": "你為甚麼與孩子分享舊家族故事？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They can become part of a child’s roots.",
+            "zh": "它們能成為孩子文化根源的一部分。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They connect the children with earlier family experiences.",
+            "zh": "它們把孩子與以前的家庭經驗連起來。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The children can ask how relatives lived in other places.",
+            "zh": "孩子可以問親人以前在其他地方怎樣生活。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It gives familiar customs a background they can understand.",
+            "zh": "這讓熟悉習俗有他們可理解的背景。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "孩子透過長輩故事認識家族遷居歷史，也保留自己現在的生活經驗。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Those stories are part of a child’s roots.",
+            "zh": "那些故事是孩子文化根源的一部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Those stories replace the child’s present experiences.",
+            "zh": "那些故事取代孩子現在的經驗。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Those stories tell the child which single career to follow.",
+            "zh": "那些故事告訴孩子要走哪個唯一職業。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "故事連繫來源，但 part of 不表示取代現在經驗或規定職業。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 part of a child’s roots 的本課意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "故事可以連繫孩子與家族背景。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家庭來源只是身分經驗的一部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家庭來源已決定孩子必須如何選擇人生。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "根源是連繫與背景，不是決定每項未來選擇的規則。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為孩子在兩種文化中成長，就不能保留家族根源。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Family stories can be part of a child’s roots alongside experiences from more than one culture.",
+            "zh": "家族故事能與多種文化經驗並存，成為孩子根源的一部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose one set of experiences to discuss and leave the other family background unexplored.",
+            "zh": "只選一組經驗討論，把另一部分家庭背景留着不探索。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the family’s earlier home as the main test of which new interests the child should keep.",
+            "zh": "主要用家族以前居住的地方，判斷孩子應保留哪些新興趣。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "根源可以多元並存，不必只留一組背景，也不應用來源限制新興趣。"
+      },
+      "speaking": {
+        "en": "Family stories can be part of a child’s roots.",
+        "zh": "家族故事能成為孩子文化根源的一部分。",
+        "targetSpan": {
+          "start": 22,
+          "end": 45
+        },
+        "promptZh": "你想說明故事與家庭背景的連繫。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：孩子訪問家人以前住過的地方，把故事與自己的多元成長經驗放進相簿。用一至兩句英文描述這種連繫。",
+        "examples": [
+          {
+            "en": "These memories are part of a child’s roots, alongside the places and languages in everyday life.",
+            "zh": "這些回憶與日常生活中的地方和語言並存，是孩子文化根源的一部分。"
+          },
+          {
+            "en": "A family album can be part of a child’s roots without deciding which interests the child must follow.",
+            "zh": "家庭相簿能成為孩子文化根源的一部分，而不決定孩子必須追隨哪些興趣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "These memories",
+            "zh": "這些回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "the places and languages",
+            "zh": "地方和語言",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 78
+            }
+          },
+          {
+            "en": "everyday life",
+            "zh": "日常生活",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 95
+            }
+          },
+          {
+            "en": "A family album",
+            "zh": "家庭相簿",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          }
+        ],
+        "selfCheckZh": "連結多種家庭經驗，保留孩子選擇，不把根源當單一固定命運。"
+      },
+      "takeaways": [
+        {
+          "en": "Stories can be part of a child’s roots.",
+          "zh": "故事能成為孩子文化根源的一部分。"
+        },
+        {
+          "en": "The family’s shared language is part of a child’s roots.",
+          "zh": "家庭共同語言是孩子文化根源的一部分。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1482",
+      "number": 1482,
+      "inventoryId": "expr-1482",
+      "contentRevision": 1,
+      "titleEn": "the heart can easily go out of it",
+      "titleZh": "真摯心意可能流失",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+heart\\s+can\\s+easily\\s+go\\s+out\\s+of\\s+it\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p170-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 170,
+          "book": 6,
+          "question": 37,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "If the event feels forced, the heart can easily go out of it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the heart can easily go out of it",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The genuine feeling or spirit of an activity may readily disappear.",
+        "meaningZh": "活動中的真摯感情或精神，可能很容易流失。",
+        "grammar": "name the activity first, then: the heart can easily go out of it",
+        "register": "neutral",
+        "boundaryZh": "heart 指活動的感情或精神，it 必須有清楚前文；不只是出席少，也不是每次照程序都有問題。",
+        "misconceptionZh": "heart 指活動的感情或精神，it 必須有清楚前文；不只是出席少，也不是每次照程序都有問題。",
+        "outcomeZh": "理解「真摯心意可能流失」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "If the family gathering becomes only a duty, the heart can easily go out of it.",
+        "zh": "如果家庭聚會變成純粹責任，當中的真摯心意可能很容易流失。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "聚會可能保留形式，卻失去真實感情。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只要聚會出席人數減少，就表示家人已不再關心。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只要按程序完成聚會，就已足以證明家人真心投入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者認為聚會人數增加就已恢復親近。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "only a duty 指出形式仍在而感情流失的風險；人數不直接量度關心，完成程序也不等於真心投入。"
+      },
+      "reply": {
+        "promptEn": "Why do you want people to help choose the reunion activities?",
+        "promptZh": "你為甚麼想讓大家一起選團聚活動？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "If the reunion feels forced, the heart can easily go out of it.",
+            "zh": "團聚若令人覺得被迫，當中的真摯心意可能很容易流失。"
+          },
+          {
+            "id": "reply-2",
+            "en": "A choice gives people a reason to become personally involved.",
+            "zh": "選擇讓大家有理由親自投入。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I want the meeting to feel warm rather than like a duty.",
+            "zh": "我想聚會有溫暖感，而非只是責任。"
+          },
+          {
+            "id": "reply-4",
+            "en": "People may care more when the plan reflects what they enjoy together.",
+            "zh": "計劃反映共同喜好時，大家可能更用心。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "聚會仍照常舉行，但大家只為完成責任，不再互相關心。哪句較準確地指出這種風險？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When a gathering becomes a duty, the heart can easily go out of it.",
+            "zh": "聚會變成責任時，當中的真摯心意可能很容易流失。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The gathering still feels warm simply because everyone attends.",
+            "zh": "只因每人都出席，聚會就仍有溫暖感。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Everyone is already sharing personal memories with renewed enthusiasm.",
+            "zh": "每人都已重新熱情地分享個人回憶。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "出席及照常舉行不直接證明互相關心；情境明示只為交差，才有心意流失的風險。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以支持 the heart can easily go out of it？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "活動只剩勉強完成的形式，參與者不再投入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "活動規模較小，但大家仍真誠分享並珍惜相聚。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "聚會變成責任，家人開始失去交流的意願。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "規模不直接決定真摯程度；小活動仍有投入便不能由此推斷感情流失。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為只要每年照程序聚會，就能保留當中的心意。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A reunion can keep its routine while the heart can easily go out of it if nobody feels involved.",
+            "zh": "聚會可以保留程序，但若沒人感到投入，真摯心意仍可能流失。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the completed programme as the main evidence that people still feel close.",
+            "zh": "主要用節目已完成，證明大家仍感親近。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Add more compulsory activities before asking which parts family members value.",
+            "zh": "先增加強制活動，再問家人重視哪部分。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "程序完成和真實投入不同，要了解心意，不只加形式或要求。"
+      },
+      "speaking": {
+        "en": "If a celebration feels forced, the heart can easily go out of it.",
+        "zh": "慶祝若令人覺得被迫，當中的真摯心意可能很容易流失。",
+        "targetSpan": {
+          "start": 31,
+          "end": 64
+        },
+        "promptZh": "你想提醒形式需要配合真實投入。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學會每年辦紀念晚會，但會員只被要求照固定稿讀，沒有機會分享自己的回憶。你建議加入自願分享。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "If the anniversary evening becomes only a duty, the heart can easily go out of it. We could invite members to share their own memories.",
+            "zh": "紀念晚會若只變成責任，當中的真摯心意可能流失。我們可以邀請會員分享自己的回憶。"
+          },
+          {
+            "en": "The evening needs personal involvement, or the heart can easily go out of it. A voluntary story session could help.",
+            "zh": "晚會需要個人投入，否則真摯心意可能流失。自願故事分享環節可能有幫助。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the anniversary evening",
+            "zh": "紀念晚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 3,
+              "end": 26
+            }
+          },
+          {
+            "en": "share their own memories",
+            "zh": "分享自己的回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 134
+            }
+          },
+          {
+            "en": "personal involvement",
+            "zh": "個人投入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 18,
+              "end": 38
+            }
+          },
+          {
+            "en": "A voluntary story session",
+            "zh": "自願故事分享環節",
+            "exampleIndex": 1,
+            "span": {
+              "start": 78,
+              "end": 103
+            }
+          }
+        ],
+        "selfCheckZh": "先交代 it 指晚會，說明心意與投入，不只建議增加強制形式。"
+      },
+      "takeaways": [
+        {
+          "en": "When a festival feels forced, the heart can easily go out of it.",
+          "zh": "節慶若令人覺得被迫，當中的真摯心意可能流失。"
+        },
+        {
+          "en": "A gathering needs genuine care, or the heart can easily go out of it.",
+          "zh": "聚會需要真實關心，否則當中的心意可能流失。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1483",
+      "number": 1483,
+      "inventoryId": "expr-1483",
+      "contentRevision": 1,
+      "titleEn": "a bridge, not a burden",
+      "titleZh": "連繫而不是負擔",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba\\s+bridge,?\\s+not\\s+a\\s+burden\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p170-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 170,
+          "book": 6,
+          "question": 37,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Tradition should be a bridge, not a burden.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a bridge, not a burden",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A supportive connection rather than an oppressive obligation.",
+        "meaningZh": "成為有幫助的連繫，而非令人感到壓迫的責任。",
+        "grammar": "tradition / a shared practice should be a bridge, not a burden",
+        "register": "neutral",
+        "boundaryZh": "bridge 比喻連繫，burden 比喻壓力；不是要求毫無努力或完全不作安排，要看是否幫助理解和參與。",
+        "misconceptionZh": "bridge 比喻連繫，burden 比喻壓力；不是要求毫無努力或完全不作安排，要看是否幫助理解和參與。",
+        "outcomeZh": "理解「連繫而不是負擔」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "We want the family custom to be a bridge, not a burden, so we explain its meaning and offer a choice of ways to join.",
+        "zh": "我們希望家庭習俗成為連繫而非負擔，所以解釋意義，提供不同參與方式。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "習俗應幫助連結，而不是只帶壓力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "習俗應按相同方式強制參與，毋須解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家人已決定停止任何跨代交流。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家人想取消習俗，尚未考慮其他連繫方式。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "解釋及選擇讓人連結，而非維持強制角色或直接取消交流。"
+      },
+      "reply": {
+        "promptEn": "How could we help younger relatives engage with the family custom?",
+        "promptZh": "我們可以怎樣幫年輕親人參與家庭習俗？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Make it a bridge, not a burden, by explaining it and allowing a manageable role.",
+            "zh": "解釋習俗並提供可應付角色，讓它成為連繫而非負擔。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Ask which parts they are curious about.",
+            "zh": "問他們對哪些部分好奇。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Let them begin with a small task alongside an older relative.",
+            "zh": "讓他們先與長輩一起做小任務。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Offer different ways to contribute rather than insisting on one fixed role.",
+            "zh": "提供不同貢獻方式，而非堅持一個固定角色。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "長輩解釋做法由來，讓孩子選一項小工作一起做，沒有用責罵強迫。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The custom can become a bridge, not a burden.",
+            "zh": "習俗能成為連繫，而非負擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The custom is being used mainly to pressure the children into one role.",
+            "zh": "習俗主要被用來迫孩子接受一種角色。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The custom is being kept separate from any contact between generations.",
+            "zh": "習俗被保持與任何跨代接觸分開。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "解釋、選擇及共同小任務，讓習俗支持連繫而非施壓。"
+      },
+      "contrast": {
+        "promptZh": "哪個安排不符合 a bridge, not a burden 的方向？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "解釋由來，讓新人逐步參與。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "用羞辱逼孩子承擔不理解的大量責任。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "容許不同而可應付的方式一起參與。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "羞辱和不明大量責任增加壓力，未提供有助理解及連結的參與。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說減少壓迫，就表示不用解釋或安排參與。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A tradition can be a bridge, not a burden, when we give helpful guidance without forcing one role.",
+            "zh": "提供有用指引而不強迫一種角色，傳統可成為連繫而非負擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Leave newcomers to work out the unfamiliar custom alone so nobody has to guide them.",
+            "zh": "讓新人獨自理解陌生習俗，免得有人要指引。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the small shared task before asking whether participants would enjoy doing it together.",
+            "zh": "未問參與者是否喜歡一起做，就先取消共同小任務。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "減少壓迫不等於不支援；合適指引和共同小任務仍可促進連繫。"
+      },
+      "speaking": {
+        "en": "Our reunion meal should be a bridge, not a burden, so let us agree a cost everyone can manage.",
+        "zh": "我們的團聚飯餐應成為連繫而非負擔，所以一起議定大家能應付的費用吧。",
+        "targetSpan": {
+          "start": 27,
+          "end": 49
+        },
+        "promptZh": "你想概括傳統應支持理解及參與。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：社區想邀新人參與節慶，打算提供簡短介紹和可選的小任務，而非強迫他們承擔整天工作。用一至兩句英文說明原則。",
+        "examples": [
+          {
+            "en": "The festival should be a bridge, not a burden. A short introduction and small optional tasks can help newcomers join.",
+            "zh": "節慶應成為連繫，而非負擔。簡短介紹和可選小任務能幫新人參與。"
+          },
+          {
+            "en": "We can make the custom a bridge, not a burden, by offering guidance and a choice of manageable tasks.",
+            "zh": "我們能提供指引和可選、可應付的任務，讓習俗成為連繫而非負擔。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A short introduction",
+            "zh": "簡短介紹",
+            "exampleIndex": 0,
+            "span": {
+              "start": 47,
+              "end": 67
+            }
+          },
+          {
+            "en": "small optional tasks",
+            "zh": "可選小任務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 72,
+              "end": 92
+            }
+          },
+          {
+            "en": "help newcomers join",
+            "zh": "幫新人參與",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 116
+            }
+          },
+          {
+            "en": "offering guidance",
+            "zh": "提供指引",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 67
+            }
+          }
+        ],
+        "selfCheckZh": "提出理解及有範圍的參與，不把減少負擔誤作完全沒有支援或交流。"
+      },
+      "takeaways": [
+        {
+          "en": "A shared custom can be a bridge, not a burden.",
+          "zh": "共同習俗可成為連繫，而非負擔。"
+        },
+        {
+          "en": "Helpful guidance makes tradition a bridge, not a burden.",
+          "zh": "有用指引讓傳統成為連繫，而非負擔。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1485",
+      "number": 1485,
+      "inventoryId": "expr-1485",
+      "contentRevision": 1,
+      "titleEn": "culturally adrift",
+      "titleZh": "失去文化方向感",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bculturally\\s+adrift\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Without family stories, he felt culturally adrift.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "culturally adrift",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Feeling disconnected from cultural reference points or a sense of belonging.",
+        "meaningZh": "感到與文化參照或歸屬連結疏離，缺少方向感。",
+        "grammar": "feel / seem culturally adrift",
+        "register": "neutral",
+        "boundaryZh": "是個人感受的航行比喻，不由居住地或多元背景直接判斷；可以建立多種歸屬，不表示只有一種正確文化身分。",
+        "misconceptionZh": "是個人感受的航行比喻，不由居住地或多元背景直接判斷；可以建立多種歸屬，不表示只有一種正確文化身分。",
+        "outcomeZh": "理解「失去文化方向感」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Unable to ask about the stories behind the customs, he felt culturally adrift even among relatives.",
+        "zh": "無法問到習俗背後故事時，即使在親人之中，他仍感到文化上失去方向。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他對文化背景缺少理解和歸屬連結。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他了解習俗，但對其中一條規則有不同意見。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他與親人有緊密歸屬，只需要幫忙安排活動。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他了解傳統意義後，已決定不再參與。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "故事與習俗提供文化參照語境；即使親人在旁，也可能主觀感到疏離。"
+      },
+      "reply": {
+        "promptEn": "Why might family storytelling matter to someone unsure about their background?",
+        "promptZh": "對一位不太了解自己背景的人，家族故事可能為甚麼重要？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It may help if they feel culturally adrift.",
+            "zh": "如果他感到文化上失去方向，故事可能有幫助。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Stories can give unfamiliar customs a context.",
+            "zh": "故事能為陌生習俗提供背景。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They may find connections that were missing from everyday conversation.",
+            "zh": "他可能找到日常交談缺少的連繫。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It gives them questions to explore with relatives.",
+            "zh": "這讓他有可與親人一起探索的問題。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一位青年參與家庭活動卻不理解故事和做法，覺得找不到自己的文化位置，想多問長輩。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He feels culturally adrift.",
+            "zh": "他感到文化上失去方向。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He understands the custom but prefers a different way to celebrate.",
+            "zh": "他理解習俗，但較喜歡另一種慶祝方式。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He is only unsure which task he has been assigned at the gathering.",
+            "zh": "他只是不確定聚會分配給他哪項工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不理解及找不到位置，支持文化歸屬的疏離感，不只是偏好不同或分工不清。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以認定 culturally adrift？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某人描述自己不了解文化背景，感到沒有歸屬方向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "某人有多元家庭背景，並自在地與兩邊親人分享故事。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "某人參與活動卻不知由來，主觀感到與背景疏離。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "多元背景本身不等於疏離；自在連結兩邊反而提供歸屬證據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為搬到海外的孩子一定失去文化方向。哪句較審慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Ask how they feel before calling them culturally adrift; they may have strong connections in more than one place.",
+            "zh": "先問感受，再說他們文化上失去方向；他們可能與多個地方都有強連繫。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use their address as the main measure before asking about family stories and friendships.",
+            "zh": "主要按地址判斷，再問家族故事和友誼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choose one cultural label for them before hearing which connections matter to them.",
+            "zh": "先替他們選一個文化標籤，再聽哪些連繫對他們重要。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "文化歸屬要了解個人經驗，不只按住址或預設單一標籤推定。"
+      },
+      "speaking": {
+        "en": "He felt culturally adrift and wanted to learn the stories behind the customs.",
+        "zh": "他感到文化上失去方向，想了解習俗背後的故事。",
+        "targetSpan": {
+          "start": 8,
+          "end": 25
+        },
+        "promptZh": "你想描述當事人的疏離感與探索需要。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友不理解家庭聚會中提到的往事，覺得與背景疏離。你想陪他問長輩，而非替他決定身分。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "He feels culturally adrift because the family stories are unfamiliar. I could join him in asking older relatives about them.",
+            "zh": "家族故事很陌生，他感到文化上失去方向。我可以陪他問長輩。"
+          },
+          {
+            "en": "If he feels culturally adrift, listening to family memories may help him explore his own connections.",
+            "zh": "如果他感到文化上失去方向，聽家族回憶可能幫他探索自己的連繫。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the family stories",
+            "zh": "家族故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 53
+            }
+          },
+          {
+            "en": "asking older relatives",
+            "zh": "問年長親人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 112
+            }
+          },
+          {
+            "en": "listening to family memories",
+            "zh": "聽家族回憶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 31,
+              "end": 59
+            }
+          },
+          {
+            "en": "his own connections",
+            "zh": "他自己的連繫",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 100
+            }
+          }
+        ],
+        "selfCheckZh": "以當事人感受及具體不理解為依據，提供探索支援，不把多元背景或搬遷直接當作疏離。"
+      },
+      "takeaways": [
+        {
+          "en": "She felt culturally adrift without the stories that explained her family’s customs.",
+          "zh": "缺少解釋家族習俗的故事，她感到文化上失去方向。"
+        },
+        {
+          "en": "Someone who feels culturally adrift may want to explore different sources of belonging.",
+          "zh": "感到文化上失去方向的人，可能想探索不同歸屬來源。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1486",
+      "number": 1486,
+      "inventoryId": "expr-1486",
+      "contentRevision": 1,
+      "titleEn": "washed away by time",
+      "titleZh": "隨時間逐漸流失",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwashed\\s+away\\s+by\\s+time\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Customs may be washed away by time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "washed away by time",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Gradually lost or forgotten as years pass.",
+        "meaningZh": "隨年月過去而逐漸失去或被遺忘。",
+        "grammar": "customs / details may be washed away by time",
+        "register": "neutral",
+        "boundaryZh": "是時間如水的比喻，不表示必然流失或一夕消失；能交代少了甚麼及過程，比抽象聲稱所有舊事都會消失準確。",
+        "misconceptionZh": "是時間如水的比喻，不表示必然流失或一夕消失；能交代少了甚麼及過程，比抽象聲稱所有舊事都會消失準確。",
+        "outcomeZh": "理解「隨時間逐漸流失」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Without anyone retelling the stories, the meaning of the custom risked being washed away by time.",
+        "zh": "沒有人再講故事，習俗的意義可能隨時間逐漸流失。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "習俗意義可能因缺少傳述而逐漸被忘記。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "習俗故事正透過更頻繁傳述而變清楚。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "習俗只改了聚會日期，原有故事仍被詳細保存。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "習俗意義在開始傳述之前就已被仔細記錄。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "沒有再傳述，加上 risked，表示意義流失的風險，不是已有完整保存的證據。"
+      },
+      "reply": {
+        "promptEn": "Why are you recording older relatives’ stories now?",
+        "promptZh": "你為甚麼現在記錄長輩故事？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I do not want the details to be washed away by time.",
+            "zh": "我不想細節隨時間逐漸流失。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Some memories are rarely mentioned in everyday conversation.",
+            "zh": "有些回憶在日常交談很少被提起。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A recording can give younger relatives something to return to.",
+            "zh": "錄音能讓年輕親人有可回頭重聽的資料。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I would like to ask questions while the storytellers can still explain.",
+            "zh": "我想在講故事的人仍能解釋時提問。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "幾十年沒有傳述後，家人逐漸忘記某種做法的原因，只剩名稱。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Some of its meaning has been washed away by time.",
+            "zh": "部分意義已隨時間逐漸流失。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Its meaning has become clearer through regular explanation.",
+            "zh": "其意義透過定期解釋變得更清楚。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Only the meeting place changed, while every reason was carefully retold.",
+            "zh": "只有聚會地點改變，所有原因仍仔細傳述。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "逐漸忘記原因支持意義流失，不只是改地點或透過解釋而更清楚。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持 washed away by time 的記憶比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "多年沒再提起，部分故事細節漸被忘記。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家人持續記錄和傳述，原有故事的細節保持清楚。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "習俗仍有名字，但很少人記得由來。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "細節持續清楚與流失方向不同；這個比喻不是每段時間經過都必定適用。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說既然年代久遠，記錄故事也沒有用。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Details may be washed away by time, but recording and sharing them can help preserve what is still remembered.",
+            "zh": "細節可能隨時間流失，但記錄和分享能幫保存仍記得的內容。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Wait until the details become harder to recall before asking the relatives who remember them.",
+            "zh": "等細節更難記起，才問仍記得的親人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep only the story title and leave the reasons and experiences unrecorded.",
+            "zh": "只留故事名稱，不記錄原因和經驗。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "仍可保存現有記憶，無須等更難回想，也不宜只留名稱而略過內容。"
+      },
+      "speaking": {
+        "en": "Important details can be washed away by time if nobody shares them.",
+        "zh": "若沒有人分享，重要細節可能隨時間逐漸流失。",
+        "targetSpan": {
+          "start": 25,
+          "end": 44
+        },
+        "promptZh": "你想提醒家人及早保存故事。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：舊社團歷史只剩幾張照片，長期會員仍記得故事。你想現在訪問及錄音，免得細節流失。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The club’s history could be washed away by time, so we should record the stories of long-standing members.",
+            "zh": "社團歷史可能隨時間流失，所以應記錄長期會員的故事。"
+          },
+          {
+            "en": "Before the details are washed away by time, we can interview people who remember the early events.",
+            "zh": "在細節隨時間流失前，我們能訪問記得早期活動的人。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The club’s history",
+            "zh": "社團歷史",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "long-standing members",
+            "zh": "長期會員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 105
+            }
+          },
+          {
+            "en": "interview people",
+            "zh": "訪問人們",
+            "exampleIndex": 1,
+            "span": {
+              "start": 51,
+              "end": 67
+            }
+          },
+          {
+            "en": "the early events",
+            "zh": "早期活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          }
+        ],
+        "selfCheckZh": "指出要保存的內容及可做的方法，不把時間流失當作只能放棄的必然。"
+      },
+      "takeaways": [
+        {
+          "en": "Memories can be washed away by time without regular sharing.",
+          "zh": "若不經常分享，回憶可能隨時間逐漸流失。"
+        },
+        {
+          "en": "We recorded the stories before more details were washed away by time.",
+          "zh": "更多細節隨時間流失前，我們記錄了故事。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1487",
+      "number": 1487,
+      "inventoryId": "expr-1487",
+      "contentRevision": 1,
+      "titleEn": "switch off straight away",
+      "titleZh": "立即失去興趣不再留心",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bswitch(?:es|ed|ing)?\\s+off\\s+straight\\s+away\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Some students switch off straight away when the lecture feels irrelevant.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "switch off straight away",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Stop paying attention or engaging almost immediately.",
+        "meaningZh": "幾乎立即不再留心或投入。",
+        "grammar": "listeners / students switch off straight away when + reason",
+        "register": "neutral",
+        "boundaryZh": "本課指注意力而非關閉器材；不應只因有人安靜就判定沒留心，也不是說任何難題都應逃避。",
+        "misconceptionZh": "本課指注意力而非關閉器材；不應只因有人安靜就判定沒留心，也不是說任何難題都應逃避。",
+        "outcomeZh": "理解「立即失去興趣不再留心」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Some students switch off straight away when a talk begins with unexplained jargon they cannot follow.",
+        "zh": "講座一開始就用沒有解釋、他們聽不懂的術語時，有些學生會立即不再留心。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "部分學生很快失去投入，因為無法跟上術語。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "學生雖安靜但正仔細記錄術語的解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "學生已跟上術語，只在最後一段感到疲累。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "學生先聽完整段講解，再討論不同看法。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "straight away 強調很快，unexplained jargon 交代跟不上的原因；不由安靜本身推定。"
+      },
+      "reply": {
+        "promptEn": "Why are you explaining the key terms before the lecture?",
+        "promptZh": "你為甚麼在講座前先解釋關鍵詞？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Some listeners may switch off straight away if the opening feels impossible to follow.",
+            "zh": "開場若難以跟上，部分聽眾可能立即不再留心。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I want people to understand the examples from the start.",
+            "zh": "我想大家從開始就明白例子。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A short explanation can make the later discussion easier.",
+            "zh": "簡短解釋能讓後面的討論較容易。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It gives newcomers a useful starting point.",
+            "zh": "這給新人一個有用起點。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生一開始聽到陌生術語便不再跟着內容，隨即轉去想其他事。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They switch off straight away.",
+            "zh": "他們立即不再留心。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They remain engaged and ask for an explanation.",
+            "zh": "他們保持投入，並要求解釋。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They follow the opening but lose focus only near the end.",
+            "zh": "他們跟上開場，只在接近結束時失去專注。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "一開始隨即走神，兼具 switch off 的失去投入與 straight away 的時間。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不宜只憑它說 switch off straight away？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "開場後立即走神，不再跟內容。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "學生安靜地做筆記，之後提出相關問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "聽眾一聽到不明術語就不再投入。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "安靜但有相關筆記和問題，支持仍投入，不是立即失去注意。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說學生沒有即時回應，就一定不再留心。哪句較審慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They may be thinking; check understanding before saying they switch off straight away.",
+            "zh": "他們可能正在思考；先檢查理解，再說他們立即不再留心。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the pause alone to decide that the students have stopped following the lesson.",
+            "zh": "單憑停頓，就判定學生已不再跟課堂。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Speed up the explanation before checking whether they need time to process it.",
+            "zh": "未查他們是否需要思考時間，就先加快解釋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先核對理解，不把停頓等同走神，也不未問需要就加快。"
+      },
+      "speaking": {
+        "en": "Listeners may switch off straight away if the opening is hard to follow.",
+        "zh": "開場若難以跟上，聽眾可能立即不再留心。",
+        "targetSpan": {
+          "start": 14,
+          "end": 38
+        },
+        "promptZh": "你想提醒講者先建立可理解的起點。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你向新生介紹電腦社，開場有很多陌生縮寫，擔心他們很快不再留心。用一至兩句英文指出風險並建議先解釋。",
+        "examples": [
+          {
+            "en": "New students may switch off straight away if we start with unfamiliar abbreviations. Let us explain the key terms first.",
+            "zh": "若用陌生縮寫開始，新生可能立即不再留心。我們先解釋關鍵詞吧。"
+          },
+          {
+            "en": "If the introduction is hard to follow, newcomers could switch off straight away. A simple example may help them stay engaged.",
+            "zh": "介紹若難以跟上，新人可能立即不再留心。簡單例子可能幫他們保持投入。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "unfamiliar abbreviations",
+            "zh": "陌生縮寫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 59,
+              "end": 83
+            }
+          },
+          {
+            "en": "the key terms",
+            "zh": "關鍵詞",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 113
+            }
+          },
+          {
+            "en": "A simple example",
+            "zh": "簡單例子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 81,
+              "end": 97
+            }
+          },
+          {
+            "en": "stay engaged",
+            "zh": "保持投入",
+            "exampleIndex": 1,
+            "span": {
+              "start": 112,
+              "end": 124
+            }
+          }
+        ],
+        "selfCheckZh": "指出早期失去注意的具體風險及理解支援，不只用安靜或慢回應作判斷。"
+      },
+      "takeaways": [
+        {
+          "en": "Students may switch off straight away when they cannot follow the opening.",
+          "zh": "學生無法跟上開場時，可能立即不再留心。"
+        },
+        {
+          "en": "We explained the terms so newcomers would not switch off straight away.",
+          "zh": "我們解釋術語，免得新人立即不再留心。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1488",
+      "number": 1488,
+      "inventoryId": "expr-1488",
+      "contentRevision": 1,
+      "titleEn": "not every tradition ages well",
+      "titleZh": "並非每項傳統都歷久適用",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bnot\\s+every\\s+tradition\\s+ages\\s+well\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "We should admit that not every tradition ages well.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "not every tradition ages well",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Some inherited practices become less suitable or acceptable as circumstances change.",
+        "meaningZh": "情況改變時，有些承傳做法會變得不那麼合適或可接受。",
+        "grammar": "not every tradition ages well; not every means some do not, not none do",
+        "register": "neutral",
+        "boundaryZh": "本課評價做法與現在需要的配合，不是按年齡定好壞；not every 不等於所有傳統都不好，要逐項檢視。",
+        "misconceptionZh": "本課評價做法與現在需要的配合，不是按年齡定好壞；not every 不等於所有傳統都不好，要逐項檢視。",
+        "outcomeZh": "理解「並非每項傳統都歷久適用」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Not every tradition ages well; a custom that once fitted family life may now put unfair pressure on younger members.",
+        "zh": "並非每項傳統都歷久適用；以前配合家庭生活的習俗，現在可能令年輕家人承受不公平壓力。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有些舊做法需要按現在影響重新評估。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "句子說所有傳統目前都毫無價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只要習俗夠久，就表示現在仍適合參與者。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者只在比較傳統已存在多少年，沒有談適合程度。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "not every 只否定全部都合適；後文的不公平壓力提供重新檢視的理由。"
+      },
+      "reply": {
+        "promptEn": "Why should a family review how it practises an old custom?",
+        "promptZh": "家庭為甚麼應檢視實踐舊習俗的方法？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Not every tradition ages well when people’s circumstances change.",
+            "zh": "情況改變時，並非每項傳統都歷久適用。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The same arrangement may place a different burden on people now.",
+            "zh": "相同安排現在可能給人不同負擔。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We can ask which parts still serve the family’s needs.",
+            "zh": "我們可以問哪些部分仍配合家庭需要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A small adjustment may preserve the meaning while reducing pressure.",
+            "zh": "小調整可能保留意義，同時減少壓力。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一項舊做法要求某位家人獨自整天準備，現在與他的工作安排衝突，家人想檢視。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Not every tradition ages well.",
+            "zh": "並非每項傳統都歷久適用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The custom’s age is enough evidence that the present arrangement is fair.",
+            "zh": "習俗歷史已足以證明現在安排公平。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Reviewing one custom shows that the family has rejected its entire history.",
+            "zh": "檢視一項習俗就表示家人已否定整段歷史。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "實際影響和負擔值得檢查；既不只憑歷史認定公平，也不把檢視一項變成否定全部。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 not every tradition ages well？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有些舊做法可能需要調整。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每項傳統都必定隨時間變得更差。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可按現在需要和影響逐項檢視。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "not every 不等於 every tradition fails；不是判斷所有傳統同一下場。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說檢視一項傳統，就是背棄全部文化。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Not every tradition ages well, and reviewing one practice can help us preserve what still matters.",
+            "zh": "並非每項傳統都歷久適用；檢視一種做法能幫我們保留仍重要的部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the demanding arrangement unchanged until younger members can reorganise their work around it.",
+            "zh": "先維持高要求安排，等年輕家人把工作改到能配合。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Stop the whole festival before asking whether the workload could be shared differently.",
+            "zh": "先停辦整個節慶，再問工作能否重新分擔。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可具體調整負擔，不必單向要求後輩遷就，也不用先取消整體。"
+      },
+      "speaking": {
+        "en": "Not every tradition ages well, so we should consider its effect on people today.",
+        "zh": "並非每項傳統都歷久適用，所以應考慮它對今天人們的影響。",
+        "targetSpan": {
+          "start": 0,
+          "end": 29
+        },
+        "promptZh": "你想提議按現在影響檢視習俗。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學會沿用舊規矩，要求新人每次獨自收拾，現在想改成公平輪值，同時保留年度聚會。用一至兩句英文說明。",
+        "examples": [
+          {
+            "en": "Not every tradition ages well. We can share the cleaning fairly while keeping the annual gathering.",
+            "zh": "並非每項傳統都歷久適用。我們能公平分擔清潔，同時保留年度聚會。"
+          },
+          {
+            "en": "Not every tradition ages well, so we should review the rule that leaves all the cleaning to newcomers.",
+            "zh": "並非每項傳統都歷久適用，所以應檢視把所有清潔留給新人的規則。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "share the cleaning fairly",
+            "zh": "公平分擔清潔",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 63
+            }
+          },
+          {
+            "en": "the annual gathering",
+            "zh": "年度聚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 78,
+              "end": 98
+            }
+          },
+          {
+            "en": "review the rule",
+            "zh": "檢視規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 59
+            }
+          },
+          {
+            "en": "newcomers",
+            "zh": "新人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 92,
+              "end": 101
+            }
+          }
+        ],
+        "selfCheckZh": "針對一項具體不公平做法提出調整，不把部分問題擴大成全部傳統沒有價值。"
+      },
+      "takeaways": [
+        {
+          "en": "Not every tradition ages well.",
+          "zh": "並非每項傳統都歷久適用。"
+        },
+        {
+          "en": "Not every tradition ages well, but careful changes can preserve useful meaning.",
+          "zh": "並非每項傳統都歷久適用，但仔細調整能保留有用意義。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1489",
+      "number": 1489,
+      "inventoryId": "expr-1489",
+      "contentRevision": 1,
+      "titleEn": "a chain around people's ankles",
+      "titleZh": "限制選擇的沉重束縛",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba\\s+chain\\s+around\\s+people[’']s\\s+ankles\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A custom should never become a chain around people's ankles.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a chain around people's ankles",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A practice or expectation that restricts people’s freedom to act or choose.",
+        "meaningZh": "限制人們行動或選擇自由的做法或期望。",
+        "grammar": "a custom / rule becomes a chain around people’s ankles",
+        "register": "neutral",
+        "boundaryZh": "這是強烈束縛的比喻，要有實際限制的依據；不是任何責任或短暫不便，也不須把人真的綁住。",
+        "misconceptionZh": "這是強烈束縛的比喻，要有實際限制的依據；不是任何責任或短暫不便，也不須把人真的綁住。",
+        "outcomeZh": "理解「限制選擇的沉重束縛」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "When the old rule blocked reasonable choices about work, it felt like a chain around people’s ankles.",
+        "zh": "舊規則阻擋合理工作選擇時，令人感到像被沉重束縛。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "規則限制了合理選擇和行動空間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "規則只是提醒一項可自由選擇的活動。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "規則提供更多彈性，讓大家選合適工作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "規則仍在討論，尚未影響任何人的選擇。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "blocked reasonable choices 提供束縛依據，不只是提醒、提供彈性或未有影響。"
+      },
+      "reply": {
+        "promptEn": "Why are members asking to review that old rule?",
+        "promptZh": "組員為甚麼要求檢視那條舊規則？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It has become a chain around people’s ankles by limiting reasonable choices.",
+            "zh": "它限制合理選擇，已成為人們的沉重束縛。"
+          },
+          {
+            "id": "reply-2",
+            "en": "People cannot choose a workable schedule under the current arrangement.",
+            "zh": "在現有安排下，大家不能選可行時間表。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The rule leaves little room for different circumstances.",
+            "zh": "規則很少容許不同情況。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They want to keep the purpose but remove an unnecessary restriction.",
+            "zh": "他們想保留目的，移除不必要限制。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "規則要求每人同一時段到場，即使可用其他方式完成任務，也拒絕合理彈性，阻礙就業安排。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The rule has become a chain around people’s ankles.",
+            "zh": "規則已成為人們的沉重束縛。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The rule offers several workable options for different schedules.",
+            "zh": "規則為不同時間表提供幾個可行選項。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The rule is only a suggestion that members can freely decline.",
+            "zh": "規則只是組員可自由拒絕的建議。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "合理替代被拒並影響生活選擇，支持強烈限制比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以稱為 a chain around people’s ankles？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "固定規則阻擋合理替代及工作選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "參與者理解一項短任務，也可選合適時段，只有輕微不便。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "某期望壓縮選擇空間，使人無法接受合適機會。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "輕微不便而仍有合理選擇，未達本課強烈束縛的程度。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為任何責任都可以稱作腳上的鎖鏈。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A chain around people’s ankles suggests serious restriction; check whether reasonable choices are being blocked.",
+            "zh": "腳上的鎖鏈表示嚴重限制；先查合理選擇是否被阻擋。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the metaphor for a short optional task simply because it takes some effort.",
+            "zh": "只因要花一點力氣，就用這比喻形容短而可選的任務。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Judge the burden only by how old the rule is before asking how it affects choices.",
+            "zh": "先只按規則多舊判斷負擔，再問它如何影響選擇。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要看實際限制及程度，不只看需要努力或規則年代。"
+      },
+      "speaking": {
+        "en": "A custom should not become a chain around people’s ankles.",
+        "zh": "習俗不應成為限制選擇的沉重束縛。",
+        "targetSpan": {
+          "start": 27,
+          "end": 57
+        },
+        "promptZh": "你想提醒人們檢視習俗是否過度限制合理選擇。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：舊社團規則要求每人固定整天到場，不接受分時參與，令有工作的人難以加入。你想建議彈性。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The old rule has become a chain around people’s ankles because it leaves no room for work commitments.",
+            "zh": "舊規則沒有容納工作責任的空間，已成為人們的沉重束縛。"
+          },
+          {
+            "en": "We should avoid making the rule a chain around people’s ankles. Flexible shifts could let more members take part.",
+            "zh": "我們應避免讓規則成為人們的沉重束縛。彈性時段能讓更多組員參與。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The old rule",
+            "zh": "舊規則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "work commitments",
+            "zh": "工作責任",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 101
+            }
+          },
+          {
+            "en": "Flexible shifts",
+            "zh": "彈性時段",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 79
+            }
+          },
+          {
+            "en": "more members",
+            "zh": "更多組員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 90,
+              "end": 102
+            }
+          }
+        ],
+        "selfCheckZh": "用具體合理選擇被阻及彈性改善支撐強烈比喻，不把所有責任都當壓迫。"
+      },
+      "takeaways": [
+        {
+          "en": "An inflexible rule can become a chain around people’s ankles.",
+          "zh": "缺少彈性的規則可能成為人們的沉重束縛。"
+        },
+        {
+          "en": "Tradition should offer belonging, not a chain around people’s ankles.",
+          "zh": "傳統應提供歸屬，而非限制選擇的沉重束縛。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1490",
+      "number": 1490,
+      "inventoryId": "expr-1490",
+      "contentRevision": 1,
+      "titleEn": "a living thread",
+      "titleZh": "延續世代的活紐帶",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba\\s+living\\s+thread\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The old song remains a living thread in our family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a living thread",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A continuing connection linking people, generations or shared history.",
+        "meaningZh": "持續連繫人們、世代或共同歷史的紐帶。",
+        "grammar": "a song / story / practice remains a living thread between generations",
+        "register": "neutral",
+        "boundaryZh": "這是線的創意比喻，不是固定成語；living 強調仍被使用或分享，不只封存名稱，也不表示彼此經歷相同。",
+        "misconceptionZh": "這是線的創意比喻，不是固定成語；living 強調仍被使用或分享，不只封存名稱，也不表示彼此經歷相同。",
+        "outcomeZh": "理解「延續世代的活紐帶」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The song remains a living thread in our family because each generation sings it and adds its own memories.",
+        "zh": "每代人都唱那首歌，加入自己的回憶，所以它仍是家中的持續紐帶。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "歌曲透過持續分享連起不同世代。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "歌曲只保留名稱，已沒有人再接觸。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "歌曲讓每代人的生活經驗變成一樣。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "歌曲最近才首次創作，尚無家庭分享歷史。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "每代唱及加入回憶，使連繫持續存在，不是封存或經驗完全相同。"
+      },
+      "reply": {
+        "promptEn": "Why does that old song still matter to your family?",
+        "promptZh": "那首舊歌為甚麼對你家仍重要？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It is a living thread between the generations.",
+            "zh": "它是世代之間持續的紐帶。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Singing it brings back stories about earlier gatherings.",
+            "zh": "唱它會帶回以前聚會的故事。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Younger relatives learn it alongside the people who sang it before.",
+            "zh": "年輕親人與以前唱過的人一起學。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Each performance connects old memories with something happening now.",
+            "zh": "每次演唱都把舊回憶與現在發生的事連起來。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家人仍一起做祖傳菜，長輩邊教邊講故事，孩子也加入新回憶。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The recipe remains a living thread between generations.",
+            "zh": "食譜仍是連繫世代的活紐帶。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The recipe is only a forgotten title that nobody uses.",
+            "zh": "食譜只是已被遺忘、沒人使用的名稱。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The recipe has removed the differences between the relatives’ experiences.",
+            "zh": "食譜已消除親人經驗的差別。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "持續做、教、分享和加新回憶，讓連繫是活着而非只封存。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持 a living thread 的世代連繫比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "共同歌曲仍由長輩教給孩子。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "故事被分享並連到現在生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只存下一個名字，沒有人接觸、分享或理解它。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "本課 living 強調仍持續連結，只有未使用名稱不足以支持。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說只保存一個習俗名字，就足以形成活紐帶。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A living thread needs a continuing connection, such as sharing the story or practising the custom together.",
+            "zh": "活紐帶需要持續連繫，例如分享故事或一起實踐習俗。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Store the name and leave its story unexplained so the next generation can start from the label alone.",
+            "zh": "存好名稱但不解釋故事，讓下一代只從標籤開始。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Replace the shared activity with a list of dates before asking whether anyone can explain the memories.",
+            "zh": "先用日期清單取代共同活動，再問是否有人能解釋回憶。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要有持續使用及理解，名稱或日期資料可輔助，但不能自動代替活連繫。"
+      },
+      "speaking": {
+        "en": "The old song is a living thread between generations.",
+        "zh": "舊歌是世代之間持續的紐帶。",
+        "targetSpan": {
+          "start": 16,
+          "end": 31
+        },
+        "promptZh": "你想形容仍在分享的歌曲連繫世代。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學校畢業歌每年由高年級教新生，大家唱時分享過去和現在的校園故事。用一至兩句英文描述連繫。",
+        "examples": [
+          {
+            "en": "The school song is a living thread between generations of students. Older pupils teach it and share their memories.",
+            "zh": "校歌是不同世代學生之間持續的紐帶。高年級學生教歌並分享回憶。"
+          },
+          {
+            "en": "Singing together keeps the song a living thread, linking earlier school stories with new experiences.",
+            "zh": "一起唱讓歌曲保留持續連繫，把以前校園故事與新經驗連起來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The school song",
+            "zh": "校歌",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "Older pupils",
+            "zh": "高年級學生",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 80
+            }
+          },
+          {
+            "en": "share their memories",
+            "zh": "分享他們的回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 114
+            }
+          },
+          {
+            "en": "new experiences",
+            "zh": "新經驗",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 100
+            }
+          }
+        ],
+        "selfCheckZh": "說明持續分享和不同世代，不只說東西很舊，也不要求各代經驗一樣。"
+      },
+      "takeaways": [
+        {
+          "en": "The story remains a living thread in our family.",
+          "zh": "故事仍是家中持續的紐帶。"
+        },
+        {
+          "en": "A shared song can be a living thread between past and present.",
+          "zh": "共同歌曲可以是過去與現在之間持續的紐帶。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1491",
+      "number": 1491,
+      "inventoryId": "expr-1491",
+      "contentRevision": 1,
+      "titleEn": "going through the motions",
+      "titleZh": "只做表面而沒有投入",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go|goes|went|gone|going)\\s+through\\s+the\\s+motions\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p171-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 171,
+          "book": 6,
+          "question": 38,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The students were going through the motions.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "going through the motions",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Perform the expected actions without genuine interest, effort or involvement.",
+        "meaningZh": "照做預期動作，但缺乏真正興趣、努力或投入。",
+        "grammar": "be going through the motions; go through the motions of + gerund",
+        "register": "neutral",
+        "boundaryZh": "不是只因步驟重複就算敷衍；熟悉程序仍可認真。要有缺少投入的依據，也不是所有安靜參與者都如此。",
+        "misconceptionZh": "不是只因步驟重複就算敷衍；熟悉程序仍可認真。要有缺少投入的依據，也不是所有安靜參與者都如此。",
+        "outcomeZh": "理解「只做表面而沒有投入」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "He attended the meetings but was going through the motions, agreeing without reading or considering the proposals.",
+        "zh": "他有出席會議，卻只是做表面，沒讀或考慮建議就同意。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他有做預期動作，但沒有認真考慮內容。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他安靜地仔細閱讀，之後提出具體問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他反對建議，是因為已詳細比較證據。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "他還在學習會議程序，並認真查問不熟悉的部分。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "沒讀或考慮便同意，是缺少投入的證據，不是從安靜或不熟程序推定。"
+      },
+      "reply": {
+        "promptEn": "Why do you want members to discuss the proposals in their own words?",
+        "promptZh": "你為甚麼希望組員用自己的話討論建議？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I want real engagement, not people going through the motions.",
+            "zh": "我想大家真正投入，而不是只做表面。"
+          },
+          {
+            "id": "reply-2",
+            "en": "It helps us see whether they have considered the details.",
+            "zh": "這幫我們看見他們是否考慮過細節。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A discussion gives people room to raise concerns.",
+            "zh": "討論讓大家有空間提出疑慮。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I would rather hear a thoughtful question than an automatic agreement.",
+            "zh": "我寧願聽到經思考的問題，而非不假思索的同意。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生交齊反思表，但每次照抄同一句，沒有回想經驗或考慮改善。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are going through the motions.",
+            "zh": "他們只是在做表面。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are carefully connecting each reflection with that week’s experience.",
+            "zh": "他們正仔細把每次反思連到該週經驗。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They are asking for help to understand the reflection questions.",
+            "zh": "他們正求助以理解反思問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "照抄且未思考，才是形式存在而投入不足的意思。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不宜只憑它說 going through the motions？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "照例簽名同意，沒有讀內容。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "反覆做同樣檢查，但每次都留意結果並處理差異。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "完成表格只為交差，內容與實際經驗無關。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "程序重複仍可有認真投入，不應把熟悉等同敷衍。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說自己每次用相同步驟，所以一定只在做表面。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Repeating a routine is not the same as going through the motions if you still pay attention to the results.",
+            "zh": "重複程序不等於只做表面，只要你仍留意結果。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Change the order mainly to make the work look different, without checking its purpose.",
+            "zh": "主要為了讓工作看來不同而改次序，不查目的。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use a different form each week as the main evidence that the reflection is thoughtful.",
+            "zh": "主要用每週不同表格，證明反思經過思考。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "真正投入看是否留意及思考，不只是程序或表格有沒有變。"
+      },
+      "speaking": {
+        "en": "I want to contribute, not just be going through the motions.",
+        "zh": "我想作出貢獻，而不只是做表面。",
+        "targetSpan": {
+          "start": 34,
+          "end": 59
+        },
+        "promptZh": "你想區分真實參與和完成形式。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：小組每週填檢討表，卻一直複製舊句，沒有看這週活動。你想改成討論一個具體發現。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "We are going through the motions by copying the old comments. Let us discuss one thing we noticed this week.",
+            "zh": "我們照抄舊評語，只是在做表面。我們討論這週一個發現吧。"
+          },
+          {
+            "en": "Instead of going through the motions, we should connect the review with the actual event and choose one improvement.",
+            "zh": "我們應把檢討連到實際活動，選一項改善，而非只做表面。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "copying the old comments",
+            "zh": "照抄舊評語",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 60
+            }
+          },
+          {
+            "en": "this week",
+            "zh": "這週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 98,
+              "end": 107
+            }
+          },
+          {
+            "en": "the actual event",
+            "zh": "實際活動",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 88
+            }
+          },
+          {
+            "en": "choose one improvement",
+            "zh": "選一項改善",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 115
+            }
+          }
+        ],
+        "selfCheckZh": "提供缺少思考的具體證據，再提出真正投入的方法，不把重複步驟本身當作敷衍。"
+      },
+      "takeaways": [
+        {
+          "en": "They were going through the motions without considering the proposals.",
+          "zh": "他們未考慮建議，只是在做表面。"
+        },
+        {
+          "en": "A familiar routine can still be thoughtful rather than going through the motions.",
+          "zh": "熟悉程序仍可以經過思考，而非只做表面。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1492",
+      "number": 1492,
+      "inventoryId": "expr-1492",
+      "contentRevision": 1,
+      "titleEn": "roots while still leaving room to grow",
+      "titleZh": "有根源也有成長空間",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\broots\\s+while\\s+still\\s+leaving\\s+room\\s+to\\s+grow\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 38,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Good teaching gives children roots while still leaving room to grow.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "roots while still leaving room to grow",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Provide grounding and belonging while allowing freedom to develop.",
+        "meaningZh": "提供基礎和歸屬，同時保留自由發展的空間。",
+        "grammar": "give children roots while still leaving room to grow",
+        "register": "neutral",
+        "boundaryZh": "這是兩個植物意象相連的語境比喻，不是固定成語；基礎與自由可並存，不等於完全不指引，也不強迫相同人生。",
+        "misconceptionZh": "這是兩個植物意象相連的語境比喻，不是固定成語；基礎與自由可並存，不等於完全不指引，也不強迫相同人生。",
+        "outcomeZh": "理解「有根源也有成長空間」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The programme gives children roots while still leaving room to grow: they hear family stories and choose how to respond creatively.",
+        "zh": "計劃讓孩子有根源也有成長空間：他們聽家族故事，再自行選創作回應方式。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "孩子得到背景連繫，也保留自己的發展選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "孩子只重複預先指定的回應，沒有創作選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "計劃只教創作技巧，刻意不讓孩子接觸家族故事。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "計劃先替孩子選定未來方向，再讓他們填寫相同回應。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "故事提供基礎，choose 提供自主；兩者都需要，不是單向控制或只留技巧。"
+      },
+      "reply": {
+        "promptEn": "How can a family share its history without deciding a child’s whole future?",
+        "promptZh": "家庭可以怎樣分享歷史，又不替孩子決定整個未來？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Offer roots while still leaving room to grow through stories and open choices.",
+            "zh": "透過故事和開放選擇，提供根源也保留成長空間。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Explain the background and invite the child’s own questions.",
+            "zh": "解釋背景，邀請孩子提出自己的問題。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Let familiar customs be a starting point rather than a fixed life plan.",
+            "zh": "讓熟悉習俗作起點，而非固定人生計劃。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Discuss what the family values while listening to new interests.",
+            "zh": "討論家庭重視甚麼，同時聽新興趣。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "老師介紹文化故事，再讓學生選不同媒介與個人經驗連結，而非規定同一人生方向。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The lesson offers roots while still leaving room to grow.",
+            "zh": "課堂提供根源也保留成長空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The lesson uses inherited stories to prescribe one fixed response.",
+            "zh": "課堂用承傳故事規定一種固定回應。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The lesson avoids discussing any background before the creative work.",
+            "zh": "課堂在創作前避免討論背景。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "承傳背景和自主回應各有角色，構成有基礎且可發展的平衡。"
+      },
+      "contrast": {
+        "promptZh": "哪個安排不符合 roots while still leaving room to grow 的平衡？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "解釋由來，並讓孩子選擇探索方向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "提供家庭故事作起點，接納新的想法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "用家族來源預先規定孩子唯一可接受的職業。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "以來源限定唯一人生路線，沒有留下發展空間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說要讓孩子自由，就不能提家族背景。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can offer roots while still leaving room to grow by sharing history without prescribing every choice.",
+            "zh": "分享歷史而不規定每個選擇，能提供根源也保留成長空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the family history unexplained until the child has settled every future plan.",
+            "zh": "等孩子定好未來計劃後，才解釋家族歷史。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the family story to choose a preferred career before asking the child’s interests.",
+            "zh": "未問孩子興趣，就用家族故事選定偏好職業。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "背景可作自由思考的資源，不必延後提供，也不必轉成代選職業。"
+      },
+      "speaking": {
+        "en": "We can offer roots while still leaving room to grow.",
+        "zh": "我們能提供根源，也保留成長空間。",
+        "targetSpan": {
+          "start": 13,
+          "end": 51
+        },
+        "promptZh": "你想說明背景連繫和自由發展可以並存。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：藝術班介紹本地傳統圖案，再讓學生選自己的主題創作，不強迫照抄。用一至兩句英文描述教學平衡。",
+        "examples": [
+          {
+            "en": "The art class offers roots while still leaving room to grow. Students learn traditional patterns and choose their own themes.",
+            "zh": "藝術班提供根源也保留成長空間。學生學傳統圖案，再選自己的主題。"
+          },
+          {
+            "en": "We can give learners roots while still leaving room to grow by explaining the patterns and welcoming new interpretations.",
+            "zh": "我們能解釋圖案並歡迎新解讀，讓學習者有根源也有成長空間。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The art class",
+            "zh": "藝術班",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "traditional patterns",
+            "zh": "傳統圖案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 96
+            }
+          },
+          {
+            "en": "choose their own themes",
+            "zh": "選自己的主題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 101,
+              "end": 124
+            }
+          },
+          {
+            "en": "new interpretations",
+            "zh": "新解讀",
+            "exampleIndex": 1,
+            "span": {
+              "start": 101,
+              "end": 120
+            }
+          }
+        ],
+        "selfCheckZh": "同時說明基礎和自主，不只給自由而不解釋，也不把背景變成固定答案。"
+      },
+      "takeaways": [
+        {
+          "en": "Good teaching offers roots while still leaving room to grow.",
+          "zh": "良好教學提供根源，也保留成長空間。"
+        },
+        {
+          "en": "Stories can provide roots while still leaving room to grow.",
+          "zh": "故事能提供根源，也保留成長空間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1493",
+      "number": 1493,
+      "inventoryId": "expr-1493",
+      "contentRevision": 1,
+      "titleEn": "an invisible script",
+      "titleZh": "未明說的行為劇本",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:an|the)\\s+invisible\\s+script\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 39,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "She felt pressured by an invisible script.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "an invisible script",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Unspoken expectations that influence how people are supposed to behave.",
+        "meaningZh": "沒有明說，卻影響人們應如何行事的期望。",
+        "grammar": "follow / feel pressure from an invisible script",
+        "register": "neutral",
+        "boundaryZh": "不是正式寫下的指示，也不代表人毫無選擇；要指出具體未明說的期待，不由一次相似選擇便推定被控制。",
+        "misconceptionZh": "不是正式寫下的指示，也不代表人毫無選擇；要指出具體未明說的期待，不由一次相似選擇便推定被控制。",
+        "outcomeZh": "理解「未明說的行為劇本」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Nobody told her to choose that career, but the family’s praise made an invisible script feel clear.",
+        "zh": "沒有人叫她選那個職業，但家人的讚賞讓未明說的人生劇本顯得清楚。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "讚賞傳達了沒有直接說出的期待。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家人已寫好正式職業指引並交給她。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她已逐一比較課程，與家人的評價無關。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家人明確表示對她的職業毫無偏好。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "nobody told 和 family praise 對比直接命令與暗示期待。"
+      },
+      "reply": {
+        "promptEn": "Why did you feel pressure even though nobody gave you an order?",
+        "promptZh": "沒有人下命令，你為甚麼仍覺得有壓力？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "There seemed to be an invisible script about what a successful child should do.",
+            "zh": "大家似乎有一套未明說的劇本，規定成功孩子應做甚麼。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The same choices were praised every time the family discussed the future.",
+            "zh": "家人每次談未來，都讚賞同樣的選擇。"
+          },
+          {
+            "id": "reply-3",
+            "en": "I rarely heard encouragement for the route I was considering.",
+            "zh": "我很少聽到對自己考慮的路線有鼓勵。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It was hard to separate my own interests from what seemed expected.",
+            "zh": "我很難分清自己的興趣與看來被期待的事。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "同事沒有人明說要加班，但每次只有留到最晚的人被讚賞，令新人覺得應照做。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An invisible script is shaping the expectation.",
+            "zh": "未明說的劇本正塑造期望。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The newcomers have received a written rule requiring that exact schedule.",
+            "zh": "新人已收到要求那個確切時間表的書面規則。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The praise is being given equally to several different working arrangements.",
+            "zh": "讚賞正同等給予幾種不同工作安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "沒有明說卻透過讚賞形成預期，是此處 script 的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以支持 an invisible script？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "沒有明文，反覆讚賞暗示大家應走同一路線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "有人了解多種路線後按興趣自行選擇，未見外在期望的證據。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "大家感到某種角色被默認為唯一值得肯定的選項。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "相似或熱門選擇本身不證明隱性期待，需要語境支持。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說只要沒有人直接下命令，就不會有期待壓力。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An invisible script can emerge through repeated praise or assumptions, even without a direct order.",
+            "zh": "即使沒有直接命令，反覆讚賞或假設也能形成未明說的劇本。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Look only for a written instruction before asking which choices people reward.",
+            "zh": "先只找書面指示，再問哪些選擇受到肯定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat each repeated compliment as unrelated before checking the wider pattern.",
+            "zh": "先把每次反覆出現的讚賞視為無關，再查整體模式。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可檢查反覆出現的肯定和假設，不只找直接命令，也不把模式拆散而忽略。"
+      },
+      "speaking": {
+        "en": "Family expectations can feel like an invisible script.",
+        "zh": "家庭期望可以令人感到像未明說的人生劇本。",
+        "targetSpan": {
+          "start": 34,
+          "end": 53
+        },
+        "promptZh": "你想形容沒有直接說出的行為期待。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學會沒有規定只有做主席才算成功，但公開表揚總只提主席，令其他成員感到壓力。用一至兩句英文指出隱性期待，並建議肯定不同貢獻。",
+        "examples": [
+          {
+            "en": "An invisible script suggests that only becoming chair counts as success. We should recognise different contributions.",
+            "zh": "未明說的劇本暗示只有當主席才算成功。我們應肯定不同貢獻。"
+          },
+          {
+            "en": "The repeated praise creates an invisible script, even without a written rule. We can highlight useful work in other roles.",
+            "zh": "即使沒有書面規定，反覆讚賞也形成未明說的劇本。我們能突出其他角色的有用工作。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "becoming chair",
+            "zh": "當主席",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 53
+            }
+          },
+          {
+            "en": "different contributions",
+            "zh": "不同貢獻",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 116
+            }
+          },
+          {
+            "en": "a written rule",
+            "zh": "書面規定",
+            "exampleIndex": 1,
+            "span": {
+              "start": 62,
+              "end": 76
+            }
+          },
+          {
+            "en": "useful work in other roles",
+            "zh": "其他角色的有用工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 121
+            }
+          }
+        ],
+        "selfCheckZh": "指出反覆訊號及可改善的肯定方式，不由一次選擇就推定人人受操控。"
+      },
+      "takeaways": [
+        {
+          "en": "Repeated assumptions can create an invisible script.",
+          "zh": "反覆假設能形成未明說的行為劇本。"
+        },
+        {
+          "en": "She questioned the invisible script, then made her own choice.",
+          "zh": "她質疑未明說的行為劇本，再自行選擇。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1494",
+      "number": 1494,
+      "inventoryId": "expr-1494",
+      "contentRevision": 1,
+      "titleEn": "deeply ingrained",
+      "titleZh": "根深而難改的習慣",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bdeeply\\s+ingrained\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 39,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Some assumptions remain deeply ingrained.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "deeply ingrained",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Firmly established in habits, beliefs or ways of responding and therefore difficult to change.",
+        "meaningZh": "在習慣、信念或反應方式中牢固建立，因此較難改變。",
+        "grammar": "a deeply ingrained habit / assumption; be deeply ingrained in + person/system",
+        "register": "neutral",
+        "boundaryZh": "難改不等於不能改，也不是某做法歷史久就必定合理；可用反覆自動出現的行為作依據。",
+        "misconceptionZh": "難改不等於不能改，也不是某做法歷史久就必定合理；可用反覆自動出現的行為作依據。",
+        "outcomeZh": "理解「根深而難改的習慣」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide calls this an idiom or set phrase. The lesson treats deeply + the established adjective ingrained as a natural collocation for firmly established habits or beliefs, retaining the conventional embedded-image explanation."
+      },
+      "listening": {
+        "en": "Checking messages at every pause was a deeply ingrained habit, so I needed reminders to change it.",
+        "zh": "每次稍停就查訊息，是根深的習慣，所以我需要提醒來改變。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "習慣已很牢固，改變需要有意識的支援。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這是剛試第一次的新做法，還未形成習慣。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者在每次停頓前都重新比較是否查看。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "查看訊息只是他按工作表臨時安排的一次任務。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "每次稍停就做及需要提醒，表示自動而牢固的習慣，不是剛試或單次安排。"
+      },
+      "reply": {
+        "promptEn": "Why are you changing the routine gradually rather than expecting an immediate change?",
+        "promptZh": "你為甚麼逐步改程序，而不預期立即改好？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The old habit is deeply ingrained and needs repeated practice to change.",
+            "zh": "舊習慣根深，需要反覆練習改變。"
+          },
+          {
+            "id": "reply-2",
+            "en": "People often return to the familiar response when they are busy.",
+            "zh": "忙碌時，大家常回到熟悉反應。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Small reminders can help people notice the pattern.",
+            "zh": "小提醒能幫大家察覺模式。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A clear replacement routine gives them something concrete to practise.",
+            "zh": "清楚的替代程序讓大家有具體可練的方法。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "組員多年來一遇問題就先責怪，雖已同意先查資料，忙時仍不自覺回到舊反應。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The old response is deeply ingrained.",
+            "zh": "舊反應已根深。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The old response was invented only after the new agreement.",
+            "zh": "舊反應在新協議後才創出。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Members carefully choose that response afresh after comparing alternatives each time.",
+            "zh": "組員每次仔細比較替代方法後，才重新選那反應。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "忙時不自覺重現，支持牢固習慣，而不是新創或每次重新衡量。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不能單憑 deeply ingrained 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "習慣可能難以改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "反應可能經常自動出現。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "舊做法因為根深，所以已證明現在合理。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "牢固描述習慣程度，不判定正確或合理。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說習慣根深，就沒有必要嘗試改變。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A deeply ingrained habit may need time and a clear alternative, rather than being beyond change.",
+            "zh": "根深習慣可能需要時間和清楚替代方法，而不是無法改變。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Wait for the habit to feel unfamiliar before trying a replacement routine.",
+            "zh": "等舊習慣變得陌生後，才嘗試替代程序。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat agreeing once as enough, then remove the reminders before checking what people actually do.",
+            "zh": "把同意一次當作足夠，未查實際行為就移除提醒。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可用時間、練習和提醒處理牢固模式，不只等待或把一次同意當成已改好。"
+      },
+      "speaking": {
+        "en": "The habit is deeply ingrained, but small changes can help.",
+        "zh": "習慣根深，但小改變能有幫助。",
+        "targetSpan": {
+          "start": 13,
+          "end": 29
+        },
+        "promptZh": "你想承認習慣難改，同時保留逐步改善。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你溫習時一停下就查手機，已成多年習慣。你想用把手機收好和紙上提醒逐步改善。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "Checking my phone at every pause is deeply ingrained, so I will put it away and use a written reminder.",
+            "zh": "每次稍停就查手機的習慣根深，所以我會收好手機，使用文字提醒。"
+          },
+          {
+            "en": "The habit is deeply ingrained, but a new study routine can help me change it gradually.",
+            "zh": "習慣根深，但新溫習程序能幫我逐步改變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Checking my phone",
+            "zh": "查看手機",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "at every pause",
+            "zh": "每次稍停",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 32
+            }
+          },
+          {
+            "en": "a written reminder",
+            "zh": "文字提醒",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 102
+            }
+          },
+          {
+            "en": "a new study routine",
+            "zh": "新溫習程序",
+            "exampleIndex": 1,
+            "span": {
+              "start": 35,
+              "end": 54
+            }
+          }
+        ],
+        "selfCheckZh": "寫出反覆習慣及替代方法，不把根深等同合理或不可改。"
+      },
+      "takeaways": [
+        {
+          "en": "Some assumptions are deeply ingrained.",
+          "zh": "有些假設根深。"
+        },
+        {
+          "en": "A deeply ingrained habit can take time to change.",
+          "zh": "根深習慣可能需要時間改變。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1495",
+      "number": 1495,
+      "inventoryId": "expr-1495",
+      "contentRevision": 1,
+      "titleEn": "double standard",
+      "titleZh": "對相似情況採雙重標準",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bdouble\\s+standards?\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 39,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "That criticism reveals a double standard.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "double standard",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "An unfair difference in how comparable people or cases are judged.",
+        "meaningZh": "對可比較的人或情況，用不公平的不同準則評判。",
+        "grammar": "apply / reveal / challenge a double standard; use double standards",
+        "register": "neutral",
+        "boundaryZh": "要先確定情況可比較且差別缺少合理理由；不同需要、角色或事實可支持不同安排，並非任何差異都是雙重標準。",
+        "misconceptionZh": "要先確定情況可比較且差別缺少合理理由；不同需要、角色或事實可支持不同安排，並非任何差異都是雙重標準。",
+        "outcomeZh": "理解「對相似情況採雙重標準」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Praising one member for questioning the plan but criticising another for the same respectful question revealed a double standard.",
+        "zh": "一位組員禮貌提問受到讚賞，另一位提出相同禮貌問題卻受批評，顯示雙重標準。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "相同而可比較的提問被不公平地分別評價。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩人用了不同語氣，因而得到不同回應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "評價者對兩人採用相同準則並同樣解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "其中一人負責評估計劃，另一人沒有提出問題。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "the same respectful question 說明行為可比較；評價相反又無其他理由，支持不公平差別。"
+      },
+      "reply": {
+        "promptEn": "Why did the members question how the two suggestions were judged?",
+        "promptZh": "組員為甚麼質疑兩項建議的評價方式？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They thought a double standard was being applied to comparable cases.",
+            "zh": "他們認為可比較的情況被用上雙重標準。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The reasons given for accepting one also applied to the other.",
+            "zh": "接受其中一項的理由，也適用於另一項。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They wanted the criteria to be explained consistently.",
+            "zh": "他們想評價準則得到一致解釋。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The different reactions seemed to depend on who had spoken.",
+            "zh": "不同反應看來取決於誰發言。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩名組員的期限、理由和遲交時間相同，負責人只因與其中一人較熟便免責，卻責罵另一人。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The organiser is applying a double standard.",
+            "zh": "負責人正採用雙重標準。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The different responses are based on different agreed deadlines.",
+            "zh": "不同回應建基於不同的議定期限。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The organiser has explained a relevant difference between the two cases.",
+            "zh": "負責人已解釋兩例的相關差別。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情況相同而只因熟悉程度有不同對待，沒有相關理由支持。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以認定 double standard？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "相同情況只因偏愛某人而採不同準則。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩人角色及需要不同，安排按清楚而相關的準則作調整。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可比較行為一個被讚賞、一個被責怪，理由只是發言者身分。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "合理且相關的差異可支持不同安排，不能只見不同結果就判定不公平。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說兩個人得到不同安排，就一定是雙重標準。哪句較審慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Before calling it a double standard, check whether the cases and the reasons are genuinely comparable.",
+            "zh": "稱它為雙重標準之前，先查情況和理由是否真正可比較。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Judge it from the different outcomes before asking about the agreed responsibilities.",
+            "zh": "先按結果不同判斷，再問議定責任。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use identical arrangements even when a relevant need has been clearly explained.",
+            "zh": "即使相關需要已清楚解釋，也採完全相同安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "一致準則不一定要求相同安排；要先查相關事實、責任及需要。"
+      },
+      "speaking": {
+        "en": "We should use consistent criteria rather than a double standard.",
+        "zh": "我們應使用一致準則，而非雙重標準。",
+        "targetSpan": {
+          "start": 46,
+          "end": 63
+        },
+        "promptZh": "你想要求可比較情況有公平評價。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：兩名組員的期限、理由和遲交時間相同，社團只接受朋友的遲交，卻責罵另一人。你希望先核對事實，再用公平準則。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "This may be a double standard if the deadlines and reasons are the same. We should check the facts and explain one fair criterion.",
+            "zh": "若期限和理由相同，這可能是雙重標準。我們應查事實，解釋一個公平準則。"
+          },
+          {
+            "en": "We need to avoid a double standard by judging comparable cases consistently, not by friendship.",
+            "zh": "我們需要一致評價可比較情況，而非按友誼，避免雙重標準。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the deadlines and reasons",
+            "zh": "期限和理由",
+            "exampleIndex": 0,
+            "span": {
+              "start": 33,
+              "end": 58
+            }
+          },
+          {
+            "en": "check the facts",
+            "zh": "查事實",
+            "exampleIndex": 0,
+            "span": {
+              "start": 83,
+              "end": 98
+            }
+          },
+          {
+            "en": "one fair criterion",
+            "zh": "一個公平準則",
+            "exampleIndex": 0,
+            "span": {
+              "start": 111,
+              "end": 129
+            }
+          },
+          {
+            "en": "comparable cases",
+            "zh": "可比較情況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 62
+            }
+          }
+        ],
+        "selfCheckZh": "先核對可比較事實，再指出是否有不公平差別，不把任何不同安排都當雙重標準。"
+      },
+      "takeaways": [
+        {
+          "en": "The same behaviour should not be judged by a double standard.",
+          "zh": "相同行為不應用雙重標準評判。"
+        },
+        {
+          "en": "Different outcomes do not by themselves prove a double standard.",
+          "zh": "單憑結果不同，不能證明存在雙重標準。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1496",
+      "number": 1496,
+      "inventoryId": "expr-1496",
+      "contentRevision": 1,
+      "titleEn": "a measuring stick",
+      "titleZh": "評價事物的衡量準則",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+measuring\\s+stick\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t2-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Marriage should not be a measuring stick for success.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a measuring stick",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A standard or point of comparison used to judge something.",
+        "meaningZh": "用來評價某事的標準或比較依據。",
+        "grammar": "use X as a measuring stick for Y; be a measuring stick of success",
+        "register": "neutral",
+        "boundaryZh": "本課是評價準則的比喻，不是實際量尺；準則可有用也可過窄，要看與目的是否相關，不宜把一項成果當整個人的價值。",
+        "misconceptionZh": "本課是評價準則的比喻，不是實際量尺；準則可有用也可過窄，要看與目的是否相關，不宜把一項成果當整個人的價值。",
+        "outcomeZh": "理解「評價事物的衡量準則」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "For this project, usefulness to residents is a measuring stick, not the size of the display.",
+        "zh": "對這個項目，對居民的用處才是衡量準則，而不是展示大小。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "項目按對居民是否有用來評價。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "項目主要按展示尺寸評價成效。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "項目只按居民是否喜歡展示外觀來評價。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "團隊還未選擇任何評價依據。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "usefulness 明示實際用處是判斷依據，不是展示尺寸或外觀喜好；團隊並非尚未選擇依據。"
+      },
+      "reply": {
+        "promptEn": "How could we judge whether the community workshop helped?",
+        "promptZh": "我們可以怎樣判斷社區工作坊有沒有幫助？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Use what participants can do afterwards as a measuring stick.",
+            "zh": "用參與者之後能做甚麼作衡量準則。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We could ask people to try one useful task before and after.",
+            "zh": "我們可以讓大家在前後嘗試一項有用任務。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Their questions may show which parts still need explanation.",
+            "zh": "他們的問題可能顯示哪些部分仍需解釋。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It would help to compare the results with the purpose we agreed on.",
+            "zh": "把結果與議定目的比較會有幫助。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "評審把居民能否獨立使用新工具，作為工作坊成效的主要準則。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "That practical ability is a measuring stick for the workshop’s success.",
+            "zh": "那項實作能力是工作坊成效的衡量準則。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The workshop is judged mainly by the size of its promotional poster.",
+            "zh": "工作坊主要按宣傳海報大小評價。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The ability is recorded only as background, not used in judging the workshop.",
+            "zh": "能力只記作背景，沒有用來評價工作坊。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情境明說用它評價成效，並非僅作背景或按展示判斷。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不能單憑 a measuring stick 的評價意思得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某項指標被用作比較依據。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所選指標已自動涵蓋每個人的全部價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "準則是否合適仍要看評價目的。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "評價一件事的準則不等於個人整體價值，也不自動涵蓋所有面向。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說使用衡量準則就一定是在貶低人。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A measuring stick can help evaluate a task if it fits the purpose; it need not define someone’s whole worth.",
+            "zh": "衡量準則若配合目的，可幫助評價任務，不必定義一個人的全部價值。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Avoid stating the project’s criteria and let each judge rely on an unexplained impression.",
+            "zh": "不要說明項目準則，讓每位評審依未解釋的印象判斷。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use one test result to decide which unrelated opportunities a learner should receive.",
+            "zh": "用一次測試結果，決定學習者可得哪些不相關機會。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可透明評價具體任務，同時避免把單一結果擴張到整個人或無關機會。"
+      },
+      "speaking": {
+        "en": "Use the agreed goal as a measuring stick for the project.",
+        "zh": "用議定目標作項目的衡量準則。",
+        "targetSpan": {
+          "start": 23,
+          "end": 40
+        },
+        "promptZh": "你想讓評價依據與項目目的配合。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們做指路地圖，想按新生能否找到教室評價，而不只看設計有多漂亮。用一至兩句英文提出準則。",
+        "examples": [
+          {
+            "en": "We should use students’ ability to find the classroom as a measuring stick for our map.",
+            "zh": "我們應用學生能否找到教室，作地圖的衡量準則。"
+          },
+          {
+            "en": "A clear route is a measuring stick for success, so we can test the map with new students.",
+            "zh": "清楚路線是成效的衡量準則，所以可讓新生試用地圖。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "find the classroom",
+            "zh": "找到教室",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 53
+            }
+          },
+          {
+            "en": "our map",
+            "zh": "我們的地圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 86
+            }
+          },
+          {
+            "en": "A clear route",
+            "zh": "清楚路線",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 13
+            }
+          },
+          {
+            "en": "test the map",
+            "zh": "試用地圖",
+            "exampleIndex": 1,
+            "span": {
+              "start": 58,
+              "end": 70
+            }
+          }
+        ],
+        "selfCheckZh": "按找路目的選合適準則，不把美觀等無關特點或單一結果當全部價值。"
+      },
+      "takeaways": [
+        {
+          "en": "The goal provides a measuring stick for progress.",
+          "zh": "目標提供衡量進展的準則。"
+        },
+        {
+          "en": "One score should not be a measuring stick for someone’s whole worth.",
+          "zh": "一個分數不應作某人全部價值的衡量準則。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1497",
+      "number": 1497,
+      "inventoryId": "expr-1497",
+      "contentRevision": 1,
+      "titleEn": "values harden into narrow expectations",
+      "titleZh": "價值觀變成狹窄要求",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bvalues\\s+harden\\s+into\\s+narrow\\s+expectations\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t2-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Family values harden into narrow expectations when choice is ignored.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "values harden into narrow expectations",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Broad guiding principles become rigid demands that allow little individual choice.",
+        "meaningZh": "原本較廣的指導原則，變成很少容許個人選擇的僵硬要求。",
+        "grammar": "values harden into narrow expectations when + limiting condition",
+        "register": "neutral",
+        "boundaryZh": "這是變硬的語境比喻，不說所有價值都會如此；重點是原則變成狹窄而僵化的具體要求，不只是價值仍被重視。",
+        "misconceptionZh": "這是變硬的語境比喻，不說所有價值都會如此；重點是原則變成狹窄而僵化的具體要求，不只是價值仍被重視。",
+        "outcomeZh": "理解「價值觀變成狹窄要求」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Family values harden into narrow expectations when caring about education becomes insisting on one particular career.",
+        "zh": "重視教育變成堅持一個指定職業時，家庭價值觀就硬化成狹窄要求。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "廣泛原則被收窄成不容個別選擇的要求。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家人正以多種可行路線實踐重視教育的原則。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家人只在討論一項可自由拒絕的課程建議。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家人不再重視教育，改以不相關活動作主要目標。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "從重視教育收窄至指定職業，才是 harden into narrow expectations 的轉變。"
+      },
+      "reply": {
+        "promptEn": "Why should we ask how our family values are being put into practice?",
+        "promptZh": "我們為甚麼要問家庭價值觀如何落實？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Values harden into narrow expectations if we turn them into one fixed route for everyone.",
+            "zh": "若把原則變成每人同一固定路線，價值觀會硬化成狹窄要求。"
+          },
+          {
+            "id": "reply-2",
+            "en": "A broad principle can be interpreted in different practical ways.",
+            "zh": "廣泛原則可以有不同實踐方式。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It helps us see whether people still have meaningful choices.",
+            "zh": "這幫我們看大家是否仍有實質選擇。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We may need to distinguish the shared aim from one preferred method.",
+            "zh": "我們可能要分清共同目的與一個偏好方法。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家庭本來重視責任，後來把它定義成孩子必須走唯一職業，不聽其他可行計劃。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Values harden into narrow expectations when responsibility is reduced to that single route.",
+            "zh": "責任被縮成唯一途徑時，價值觀硬化成狹窄要求。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The family is offering several ways to show responsibility.",
+            "zh": "家人正提供幾種展現責任的方法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The career is only one option that the child may freely compare with others.",
+            "zh": "該職業只是孩子可與其他路線自由比較的一個選項。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "唯一途徑和不聽替代方案，顯示原則變得狹窄，不是只提供選項。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不支持 values harden into narrow expectations？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "同一價值被解作人人必須同一職業。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "共同原則仍容許不同而合理的實踐方式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "一種偏好做法被當作證明重視家人的唯一途徑。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "容許多種合理實踐，沒有狹窄硬化的關鍵特點。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說要避免僵化，就應放棄原本重視的責任感。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can keep the principle but should notice when values harden into narrow expectations that rule out other worthwhile routes.",
+            "zh": "我們可以保留原則，但應留意價值觀何時硬化成狹窄要求，排除其他有價值的路線。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Remove the shared principle before exploring other ways to put it into practice.",
+            "zh": "先移除共同原則，再探索其他實踐方式。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the single career route but describe it with a broader value word.",
+            "zh": "保留唯一職業路線，只改用較廣泛價值字眼描述。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可保留原則並改實踐方式；只刪原則或換標籤，都未處理真正選擇空間。"
+      },
+      "speaking": {
+        "en": "Values harden into narrow expectations when one method becomes the only accepted choice.",
+        "zh": "一種方法成為唯一可接受選擇時，價值觀硬化成狹窄要求。",
+        "targetSpan": {
+          "start": 0,
+          "end": 38
+        },
+        "promptZh": "你想指出廣泛原則變成固定單一路線。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學會重視服務，卻規定只有當幹事才算有貢獻，不承認可靠的幕後工作。用一至兩句英文指出收窄，並建議多種貢獻。",
+        "examples": [
+          {
+            "en": "Values harden into narrow expectations when only holding office counts as service. We should recognise reliable work behind the scenes.",
+            "zh": "只有當幹事才算服務時，價值觀硬化成狹窄要求。我們應肯定可靠幕後工作。"
+          },
+          {
+            "en": "Our values harden into narrow expectations if we accept just one kind of contribution. Different roles can support the same purpose.",
+            "zh": "若只接受一種貢獻，我們的價值觀會硬化成狹窄要求。不同角色能支持同一目的。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "holding office",
+            "zh": "擔任幹事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 63
+            }
+          },
+          {
+            "en": "reliable work behind the scenes",
+            "zh": "可靠幕後工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 134
+            }
+          },
+          {
+            "en": "one kind of contribution",
+            "zh": "一種貢獻",
+            "exampleIndex": 1,
+            "span": {
+              "start": 61,
+              "end": 85
+            }
+          },
+          {
+            "en": "the same purpose",
+            "zh": "同一目的",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 131
+            }
+          }
+        ],
+        "selfCheckZh": "指出價值與單一做法被混同，提出同一目的的多種可行貢獻。"
+      },
+      "takeaways": [
+        {
+          "en": "Values harden into narrow expectations when choice is ignored.",
+          "zh": "選擇被忽略時，價值觀硬化成狹窄要求。"
+        },
+        {
+          "en": "We should notice when values harden into narrow expectations instead of guiding different choices.",
+          "zh": "價值觀若由引導不同選擇變成狹窄要求，我們應留意。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1498",
+      "number": 1498,
+      "inventoryId": "expr-1498",
+      "contentRevision": 1,
+      "titleEn": "tradition can be a root",
+      "titleZh": "傳統可以是支持的根源",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\btradition\\s+can\\s+be\\s+a\\s+root\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p172-t2-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 172,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Tradition can be a root without controlling every choice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "tradition can be a root",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Tradition can provide grounding, belonging or strength.",
+        "meaningZh": "傳統能提供基礎、歸屬或力量。",
+        "grammar": "tradition can be a root that + supportive effect",
+        "register": "neutral",
+        "boundaryZh": "這是植物根的語境比喻，不是固定成語；can 表可能，不保證每項做法有幫助，也不表示來源應控制所有選擇。",
+        "misconceptionZh": "這是植物根的語境比喻，不是固定成語；can 表可能，不保證每項做法有幫助，也不表示來源應控制所有選擇。",
+        "outcomeZh": "理解「傳統可以是支持的根源」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Tradition can be a root that gives children belonging while they explore new interests.",
+        "zh": "傳統能像根一樣給孩子歸屬，同時讓他們探索新興趣。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "傳統可提供支持，也容許新的發展。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "傳統被用來替孩子預選興趣，取代探索。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "孩子只在學全新活動，沒有接觸任何承傳。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家人正放棄所有共同做法，不再尋找歸屬。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "belonging 與 explore new interests 同時出現，說明基礎支持不必限制成長。"
+      },
+      "reply": {
+        "promptEn": "What positive role could tradition play for a young person?",
+        "promptZh": "傳統對年輕人可以有甚麼正面作用？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Tradition can be a root that offers belonging without fixing the whole future.",
+            "zh": "傳統可以是提供歸屬的根源，而不固定整個未來。"
+          },
+          {
+            "id": "reply-2",
+            "en": "It can connect personal questions with family experience.",
+            "zh": "它能把個人問題與家庭經驗連起來。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Shared customs may offer a familiar place to begin exploring.",
+            "zh": "共同習俗可能提供熟悉的探索起點。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Stories can give context for choices without making those choices for them.",
+            "zh": "故事能提供選擇背景，而不代他們決定。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家人分享習俗由來，孩子得到歸屬，也能自行選新的學習方向。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Tradition can be a root while leaving space for new choices.",
+            "zh": "傳統可以是根源，同時保留新選擇的空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The family has used its history to choose one required path for the child.",
+            "zh": "家人已用家族歷史替孩子選定一條必走路線。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The child is exploring without any connection to family stories.",
+            "zh": "孩子探索時沒有連結家族故事。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "歸屬和自主共存，是此處根的支持作用，不是指定路線或沒有背景連結。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不能由 tradition can be a root 得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "傳統可能提供歸屬及基礎。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每項承傳要求都應不經檢視照做。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "孩子可在有基礎的同時探索新方向。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "can 的可能支持不等於一律服從，要看具體做法和影響。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為傳統若能提供根源，就該決定孩子的未來。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Tradition can be a root without being a complete plan for someone else’s life.",
+            "zh": "傳統可以是根源，而不成為替別人寫好的完整人生計劃。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose the career that best matches the old family occupation before discussing the child’s interests.",
+            "zh": "先選最配合家族舊職業的工作，再討論孩子興趣。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the family’s past as the main test of whether a new interest is worth exploring.",
+            "zh": "主要用家族過去，判斷新興趣是否值得探索。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "來源可作支持，不應自動變成預定職業或審批新興趣的唯一依據。"
+      },
+      "speaking": {
+        "en": "Tradition can be a root for our family while leaving each person room to choose a different path.",
+        "zh": "傳統可以是我們家庭的根源，同時讓每個人有空間選擇不同道路。",
+        "targetSpan": {
+          "start": 0,
+          "end": 23
+        },
+        "promptZh": "你想分清歸屬支持與代作選擇。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：孩子從家庭節慶得到安全感，也想參加新的科學社團。你希望兩者並存，而非用傳統限制興趣。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "Tradition can be a root that gives her belonging while she explores the science club.",
+            "zh": "傳統可以是給她歸屬的根源，同時讓她探索科學社團。"
+          },
+          {
+            "en": "Tradition can be a root, not a fixed plan for her future. We can share family customs and encourage her new interests.",
+            "zh": "傳統可以是根源，而非固定的未來計劃。我們能分享家庭習俗，也鼓勵她的新興趣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "gives her belonging",
+            "zh": "給她歸屬",
+            "exampleIndex": 0,
+            "span": {
+              "start": 29,
+              "end": 48
+            }
+          },
+          {
+            "en": "the science club",
+            "zh": "科學社團",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 84
+            }
+          },
+          {
+            "en": "a fixed plan for her future",
+            "zh": "固定的未來計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 56
+            }
+          },
+          {
+            "en": "her new interests",
+            "zh": "她的新興趣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 117
+            }
+          }
+        ],
+        "selfCheckZh": "以具體歸屬及探索共存說明根的比喻，不把支持變成指定人生。"
+      },
+      "takeaways": [
+        {
+          "en": "Tradition can be a root that supports new growth.",
+          "zh": "傳統可以是支持新成長的根源。"
+        },
+        {
+          "en": "Tradition can be a root without deciding a child’s whole future.",
+          "zh": "傳統可以是根源，而不決定孩子整個未來。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1499",
+      "number": 1499,
+      "inventoryId": "expr-1499",
+      "contentRevision": 1,
+      "titleEn": "become a cage",
+      "titleZh": "變成限制發展的框架",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:become|becomes|became|becoming)\\s+a\\s+cage\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A custom should never become a cage.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "become a cage",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Turn into a restriction that prevents freedom or development.",
+        "meaningZh": "變成阻礙自由或發展的限制。",
+        "grammar": "a custom / expectation can become a cage",
+        "register": "neutral",
+        "boundaryZh": "強烈的籠子比喻要有被限制的依據，不是所有安排或界線；同一做法也可透過調整重新支持人。",
+        "misconceptionZh": "強烈的籠子比喻要有被限制的依據，不是所有安排或界線；同一做法也可透過調整重新支持人。",
+        "outcomeZh": "理解「變成限制發展的框架」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The family expectation became a cage when it stopped her considering any course outside the approved list.",
+        "zh": "家庭期望阻止她考慮核准名單以外的課程時，就變成限制發展的框架。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "期望限制了她探索其他可行路線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "期望只是提供幾個可自由比較的例子。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家人已根據她的新需要擴大選擇名單。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她先比較各種路線，再自行選定名單上的課程。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "stopped her considering 表明限制，並非自由比較後選相同路線。"
+      },
+      "reply": {
+        "promptEn": "What is the risk of making one route the only acceptable choice for a child?",
+        "promptZh": "把一條路線當作孩子唯一可接受選擇，有甚麼風險？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The expectation may become a cage rather than useful guidance.",
+            "zh": "期望可能變成限制發展的框架，而非有用指引。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The child may struggle to explore a suitable alternative.",
+            "zh": "孩子可能難以探索合適替代路線。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It can make it harder to discuss changing interests honestly.",
+            "zh": "這可能讓坦誠討論興趣轉變更難。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A fixed plan may overlook new strengths that appear later.",
+            "zh": "固定計劃可能忽略後來出現的新長處。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學會原本訂規則幫新人，後來拒絕讓人按技能改分工，讓新長處難以發展。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The rules have become a cage.",
+            "zh": "規則已變成限制發展的框架。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The rules have opened several new ways to contribute.",
+            "zh": "規則已開放幾種新的貢獻方式。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Members have chosen the fixed roles after freely trying alternatives.",
+            "zh": "組員自由試過替代方案後，才選固定角色。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不容調整和限制新長處，提供籠子的發展限制語境。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不足以說 become a cage 的本課比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "規則阻擋合理替代方案。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "指引提供清楚起點，也容許按需要調整。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "期望令一個人不敢探索適合自己的新方向。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "有指引又有合理彈性，不足以稱為限制自由的籠子。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說要避免規則像籠子，就不能有共同要求。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A shared requirement need not become a cage if people have reasonable ways to meet it.",
+            "zh": "只要有合理達標方式，共同要求不必變成限制發展的框架。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Remove the common goal before asking whether several methods could meet it.",
+            "zh": "未問能否用多種方法達標，就先移除共同目標。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep one fixed method and rename it a choice without allowing alternatives.",
+            "zh": "保留固定方法，只把它改稱選擇，卻不容替代方案。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "共同目的可容許多種方法；取消目的或只換標籤，都未處理合理彈性。"
+      },
+      "speaking": {
+        "en": "A helpful rule should not become a cage.",
+        "zh": "有幫助的規則不應變成限制發展的框架。",
+        "targetSpan": {
+          "start": 26,
+          "end": 39
+        },
+        "promptZh": "你想提醒人們保留合理選擇空間。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：藝術班只接受同一構圖，學生無法在達成基本要求下嘗試自己的想法。你建議容許不同方法。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The fixed layout has become a cage for new ideas. We should allow different designs that meet the basic requirements.",
+            "zh": "固定構圖已變成限制新想法的框架。我們應容許符合基本要求的不同設計。"
+          },
+          {
+            "en": "The class rule should not become a cage. Students need room to test their own ideas while keeping the shared goal.",
+            "zh": "課堂規則不應變成限制發展的框架。學生需要空間試自己的想法，同時保留共同目標。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The fixed layout",
+            "zh": "固定構圖",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "different designs",
+            "zh": "不同設計",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 83
+            }
+          },
+          {
+            "en": "the basic requirements",
+            "zh": "基本要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 116
+            }
+          },
+          {
+            "en": "test their own ideas",
+            "zh": "試自己的想法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 83
+            }
+          }
+        ],
+        "selfCheckZh": "指出具體阻礙和可行替代，不把所有共同要求都當作限制。"
+      },
+      "takeaways": [
+        {
+          "en": "A custom can become a cage when it blocks reasonable choices.",
+          "zh": "習俗阻擋合理選擇時，可能變成限制發展的框架。"
+        },
+        {
+          "en": "Guidance should help people develop, not become a cage.",
+          "zh": "指引應幫人發展，而非變成限制發展的框架。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1500",
+      "number": 1500,
+      "inventoryId": "expr-1500",
+      "contentRevision": 1,
+      "titleEn": "box them in",
+      "titleZh": "限制他們的選擇",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bbox(?:es|ed|ing)?\\s+(?:me|you|him|her|us|them|someone)\\s+in\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The old rules can box them in.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "box them in",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Restrict a person’s choices or freedom to act.",
+        "meaningZh": "限制某人的選擇或行動空間。",
+        "grammar": "box someone in; box them in; boxed her in; boxing us in",
+        "register": "neutral",
+        "boundaryZh": "本課是選擇受限的意思，與提供可選建議不同；代詞要有清楚前文，也不由一項共同要求就推定全部受控制。",
+        "misconceptionZh": "本課是選擇受限的意思，與提供可選建議不同；代詞要有清楚前文，也不由一項共同要求就推定全部受控制。",
+        "outcomeZh": "理解「限制他們的選擇」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The students had different interests, but the fixed course list boxed them in before they could explore alternatives.",
+        "zh": "學生興趣不同，但固定課程名單在他們探索替代路線前，就限制了選擇。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "固定名單壓縮了學生探索其他路線的空間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "名單只是可自由拒絕的參考，其他路線仍開放。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "學生已自由試過多條路線，才選名單上的課程。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "老師根據新興趣增加選項，擴闊學生選擇。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "fixed list 先限制探索，並非自由選過、提供參考或增加選項。"
+      },
+      "reply": {
+        "promptEn": "How might a fixed career plan affect students whose interests are still developing?",
+        "promptZh": "固定職業計劃可能怎樣影響興趣仍在發展的學生？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It could box them in before they discover other strengths.",
+            "zh": "它可能在他們發現其他長處前，就限制選擇。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They may find it harder to consider a new direction.",
+            "zh": "他們可能更難考慮新方向。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The plan might leave too little space for changing interests.",
+            "zh": "計劃可能給興趣轉變留下太少空間。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It could make an alternative route feel unavailable even when it is suitable.",
+            "zh": "即使替代路線合適，它也可能讓人覺得沒有那個選項。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家人替孩子訂唯一職涯，不容試其他合適課程，孩子的選擇因此受限。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The fixed plan can box them in.",
+            "zh": "固定計劃可能限制他們的選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The plan leaves several suitable routes open for comparison.",
+            "zh": "計劃留下幾條合適路線供比較。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The children chose the route after freely exploring different courses.",
+            "zh": "孩子自由探索不同課程後，才選那條路線。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "唯一而不容嘗試替代，是限制選擇，不是提供開放選項或自主選定。"
+      },
+      "contrast": {
+        "promptZh": "按本課「限制選擇」的意思，哪個情況不足以說 box them in？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "名單固定且拒絕合理替代。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "提供幾個建議，也認真聽取及容許其他合適方案。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "已定路線阻止學生探索後來出現的新長處。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "有建議同時保留真正可選替代，不是限制選擇的依據。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為提出課程建議，就等於限制學生。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Suggestions need not box them in if students can compare alternatives and make a real choice.",
+            "zh": "只要學生能比較替代方案並真正選擇，建議不必限制他們。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Offer the preferred route first and discuss alternatives only after enrolment is complete.",
+            "zh": "先提供偏好路線，報讀完成後才討論替代方案。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Call the list optional but discourage students from considering anything outside it.",
+            "zh": "把名單稱為可選，卻阻止學生考慮名單以外的東西。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "真正選擇需要在決定前容許比較，不只是把名單改稱可選。"
+      },
+      "speaking": {
+        "en": "Students need guidance that does not box them in.",
+        "zh": "學生需要不會限制選擇的指引。",
+        "targetSpan": {
+          "start": 37,
+          "end": 48
+        },
+        "promptZh": "你想區分支持選擇與限制路線。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：新義工有不同技能，你想給任務建議，同時讓他們提出其他可行貢獻，而非一加入就固定角色。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "New volunteers have different strengths, so we should not box them in with one fixed role.",
+            "zh": "新義工有不同長處，所以不應用單一固定角色限制他們。"
+          },
+          {
+            "en": "We can guide the volunteers without boxing them in. Let us discuss other useful tasks before assigning roles.",
+            "zh": "我們能指引義工，而不限制選擇。分角色前，我們討論其他有用任務吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "New volunteers",
+            "zh": "新義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "different strengths",
+            "zh": "不同長處",
+            "exampleIndex": 0,
+            "span": {
+              "start": 20,
+              "end": 39
+            }
+          },
+          {
+            "en": "one fixed role",
+            "zh": "單一固定角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 89
+            }
+          },
+          {
+            "en": "other useful tasks",
+            "zh": "其他有用任務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          }
+        ],
+        "selfCheckZh": "交代 them 指新義工，提供決定前可比較的任務，不只把固定限制改稱建議。"
+      },
+      "takeaways": [
+        {
+          "en": "Young people need support that does not box them in.",
+          "zh": "年輕人需要不會限制選擇的支援。"
+        },
+        {
+          "en": "The new members had varied skills, but the fixed roles boxed them in.",
+          "zh": "新組員技能不同，但固定角色限制了他們的選擇。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    }
+  ]
+}

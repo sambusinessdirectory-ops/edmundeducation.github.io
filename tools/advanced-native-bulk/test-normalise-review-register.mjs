@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {normalisedVerdicts} from './normalise-review-register.mjs';
+const hash='a'.repeat(64),row={id:'advanced-native-011',canonicalContentSha256:hash,status:'editorial-passed'};
+assert.equal(normalisedVerdicts('author-self-review.json',{records:[row]}).length,0);
+assert.equal(normalisedVerdicts('independent-followup.json',{records:[row]})[0].canonicalContentSha256,hash);
+assert.equal(normalisedVerdicts('independent-review.json',{records:[{...row,state:'requires-revision'}]}).length,0);
+assert.equal(normalisedVerdicts('independent-review.json',{records:[{...row,findings:[{severity:'required'}]}]}).length,0);
+assert.equal(normalisedVerdicts('independent-review.json',{records:[{...row,canonicalContentSha256:'invalid'}]}).length,0);
+assert.equal(normalisedVerdicts('independent-family.json',{records:[{...row,status:'scoped_editorial_passed'}]}).length,0,'A scoped change review alone is not translated into a full review.');
+assert.equal(normalisedVerdicts('independent-followup.json',{state:'passed-independent-AI-editorial-review',recordHashes:{'advanced-native-011':hash}}).length,1);
+assert.equal(normalisedVerdicts('independent-followup.json',{lessons:[{id:'advanced-native-011',hash,state:'independent-AI-editorial-pass'}]})[0].canonicalContentSha256,hash);
+assert.equal(normalisedVerdicts('independent-review.json',{state:'revisions-requested',recordHashes:{'advanced-native-011':hash}}).length,0);
+console.log('Saved-verdict translation preserves exact hashes and rejects author, pending, scoped-only and unresolved-required findings.');

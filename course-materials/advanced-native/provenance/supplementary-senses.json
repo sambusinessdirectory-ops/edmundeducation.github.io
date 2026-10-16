@@ -1,0 +1,25 @@
+[
+  {
+    "sourceInventoryId": "expr-0046",
+    "sourcePhrase": "breaking them down",
+    "inventoryLabelPreserved": true,
+    "assignments": [
+      {
+        "occurrenceId": "pdf-1-p007-t1-r02",
+        "canonicalModuleId": "advanced-native-046",
+        "senseId": "divide-task-into-smaller-parts",
+        "meaning": "Divide a task into smaller manageable parts."
+      },
+      {
+        "occurrenceId": "pdf-2-p120-t1-r07",
+        "canonicalModuleId": "advanced-native-2111",
+        "senseId": "weaken-person-confidence",
+        "meaning": "Gradually weaken a person’s confidence or emotional strength."
+      }
+    ],
+    "publicReferences": [
+      "https://www.oxfordlearnersdictionaries.com/definition/english/break-down",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/break_1"
+    ]
+  }
+]

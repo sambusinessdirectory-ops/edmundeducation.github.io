@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "batchId": "calibration-007",
+  "lessons": [
+    {
+      "id": "advanced-native-007",
+      "number": 7,
+      "titleEn": "get through it",
+      "titleZh": "撐過困難",
+      "category": "phrasal-verb",
+      "contentRevision": 1,
+      "target": {
+        "pattern": "\\b(?:get|gets|got|getting)\\s+through\\s+(?:it|this)\\b",
+        "glossaryForbidden": [
+          "\\b(?:get|gets|got|getting)\\s+through\\b"
+        ]
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-1-p002-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Book 1 Part 3.docx.pdf",
+          "sha256": "46cf6f8928603e7482fc1f1a43c363ac2dc7034b40b59c56b5e66b1ec045e21f",
+          "page": 2,
+          "book": null,
+          "question": null,
+          "sample": null,
+          "locatorNote": "The extracted source table does not identify its book, question or sample answer. Actual PDF page is retained; these unknown fields are not inferred.",
+          "sentence": "However, once they prepare properly and get through it, they often come out stronger, more confident, and more articulate.",
+          "referenceSentenceKind": "source_sentence",
+          "expression": "get through it"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Complete or endure a difficult experience.",
+        "meaningZh": "熬過或完成一段困難經歷；並不表示過程輕鬆。",
+        "grammar": "get through + difficult experience; common reference form: get through it",
+        "register": "neutral conversational English",
+        "boundaryZh": "熬過或完成困難經歷，不表示過程輕鬆，也不一定表示因此變得更強。",
+        "misconceptionZh": "不要把單純完成或忍受困難等同於成長或毫不費力。",
+        "outcomeZh": "get through it 表示熬過或完成困難的一段經歷；不表示過程輕鬆。"
+      },
+      "listening": {
+        "promptEn": "",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "option-1",
+            "en": "他們合力撐過艱難的第一週。",
+            "zh": ""
+          },
+          {
+            "id": "option-2",
+            "en": "他們在訓練開始前退出。",
+            "zh": ""
+          },
+          {
+            "id": "option-3",
+            "en": "訓練從頭到尾都很輕鬆。",
+            "zh": ""
+          },
+          {
+            "id": "option-4",
+            "en": "他們在一週內變得比別人強。",
+            "zh": ""
+          }
+        ],
+        "explanationZh": "這是動詞片語 · Phrasal verb。熬過或完成一段困難經歷；並不表示過程輕鬆。",
+        "answerId": "option-1",
+        "en": "The first week of training was exhausting, but we got through it together.",
+        "zh": "第一週訓練令人筋疲力盡，但我們一起撐過來了。"
+      },
+      "reply": {
+        "promptEn": "朋友問：How did your group cope with the difficult first week?",
+        "promptZh": "你們的小組是怎樣應付艱難的第一週的？",
+        "options": [
+          {
+            "id": "option-1",
+            "en": "We got through it by helping one another.",
+            "zh": "我們互相幫助，撐過了那段時間。"
+          },
+          {
+            "id": "option-2",
+            "en": "We shared the work when it became too much.",
+            "zh": "工作太多時，我們會分擔。"
+          },
+          {
+            "id": "option-3",
+            "en": "We kept going even though we were tired.",
+            "zh": "雖然很累，我們仍然堅持下去。"
+          },
+          {
+            "id": "option-4",
+            "en": "We asked for help and finished the week.",
+            "zh": "我們尋求協助，完成了那一週的工作。"
+          }
+        ],
+        "explanationZh": "四句都能自然地回答這個問題；使用本課表達的句子會獲得金句標記。",
+        "goldenId": "option-1"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一群學生連續數天處理突發的校園活動，雖然疲憊，最後完成了。哪句最貼切？",
+        "options": [
+          {
+            "id": "option-1",
+            "en": "They dropped out before it was over.",
+            "zh": "他們在事情結束前就退出了。"
+          },
+          {
+            "id": "option-2",
+            "en": "They got through it.",
+            "zh": "他們撐過了那段困難的經歷。"
+          },
+          {
+            "id": "option-3",
+            "en": "They put it off until the following week.",
+            "zh": "他們把事情延至下一週才做。"
+          }
+        ],
+        "explanationZh": "困難確實發生了，而他們堅持到最後；不是延期或中途放棄。",
+        "answerId": "option-2"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "按本課「撐過困難」的意思，哪個情況最不適合說 get through it？",
+        "options": [
+          {
+            "id": "option-1",
+            "en": "他在朋友協助下熬過艱難的康復期。",
+            "zh": ""
+          },
+          {
+            "id": "option-2",
+            "en": "他們頂着壓力完成連續三天的考試。",
+            "zh": ""
+          },
+          {
+            "id": "option-3",
+            "en": "她輕鬆走過一段平常的短走廊，沒有困難或壓力。",
+            "zh": ""
+          }
+        ],
+        "explanationZh": "這裏沒有需要熬過的困難經歷；本課練習的是應付困難的用法。",
+        "answerId": "option-3"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友還有三天繁重的排練，已經很累。哪句鼓勵既自然又沒有假裝問題很容易？",
+        "options": [
+          {
+            "id": "option-1",
+            "en": "It sounds hard, but you can get through it one day at a time. Ask us for help if you need it.",
+            "zh": "聽起來很辛苦，但你可以一天一天地撐過去。有需要就找我們幫忙。"
+          },
+          {
+            "id": "option-2",
+            "en": "You have already got through it, so the next three days are over.",
+            "zh": "你已經撐過去了，所以接下來三天已經結束了。"
+          },
+          {
+            "id": "option-3",
+            "en": "If you get through it, that means the rehearsals were never difficult.",
+            "zh": "如果你能撐過去，就表示那些排練從來都不困難。"
+          }
+        ],
+        "explanationZh": "承認過程艱難，給出具體支持；仍未完結的排練不能說成已經熬過。",
+        "answerId": "option-1"
+      },
+      "speaking": {
+        "en": "The interview was stressful, but I got through it.",
+        "zh": "面試很有壓力，但我終於完成了。",
+        "promptZh": "面試很緊張，但你終於完成了。先聽示範，再用英文說出結果。",
+        "targetSpan": {
+          "start": 35,
+          "end": 49
+        },
+        "cloze": "The interview was stressful, but I __________________."
+      },
+      "writing": {
+        "promptZh": "新情境：你的朋友在搬家的一週內還要應付考試。她最後在朋友幫助下完成兩件事。用一至兩句英文描述。",
+        "selfCheckZh": "指出困難和如何熬過；get through it 不表示她過程中毫不費力。",
+        "examples": [
+          {
+            "en": "It was a stressful week of moving and exams, but she got through it with help from her friends.",
+            "zh": "那是搬家和考試撞在一起、壓力很大的一週，但她在朋友幫助下撐過去了。"
+          },
+          {
+            "en": "She had a hard week of exams and moving, yet she got through it by making a simple plan with her friends.",
+            "zh": "她經歷了考試和搬家的艱難一週，但透過與朋友一起訂立簡單計劃，還是撐過去了。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a stressful week",
+            "zh": "充滿壓力的一週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 23
+            }
+          },
+          {
+            "en": "moving and exams",
+            "zh": "搬家和考試",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 43
+            }
+          },
+          {
+            "en": "help from her friends",
+            "zh": "朋友的幫助",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 94
+            }
+          },
+          {
+            "en": "a hard week",
+            "zh": "艱難的一週",
+            "exampleIndex": 1,
+            "span": {
+              "start": 8,
+              "end": 19
+            }
+          },
+          {
+            "en": "making a simple plan",
+            "zh": "訂立簡單計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 87
+            }
+          }
+        ]
+      },
+      "takeaways": [
+        {
+          "en": "It was difficult, but we got through it.",
+          "zh": "雖然很困難，但我們撐過去了。"
+        },
+        {
+          "en": "You can get through it with support.",
+          "zh": "有支持，你就能撐過這段困難。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "calibration": {
+          "module": "advanced-native-007",
+          "origin": "Existing repository module; converted without changing its authored English, translations, answer keys, glossary, or speaking cue.",
+          "independentHumanApproval": false
+        },
+        "note": "Canonical migration example only. Automated structural validation does not certify language quality or a production release."
+      }
+    }
+  ]
+}

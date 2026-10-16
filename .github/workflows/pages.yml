@@ -625,6 +625,7 @@ jobs:
             --exclude='natural-english/imported-lessons.json' \
             --exclude='natural-english/IMPORT-REVIEW.md' \
             --exclude='natural-english/audio/imported-metadata.json' \
+            --exclude='/course-materials/' \
             --exclude='song-appreciation-data.js' \
             --exclude='tools' \
             --exclude='workers' \

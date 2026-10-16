@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {auditSources} from './source-audit.mjs';
+const source={path:'/private/input.pdf',document_sha256:'abc',pdf_page:1,book:1,question:2,sample:'S1'};
+const occurrence=(id,phrase)=>({occurrence_id:id,phrase,reference_sentence:'A reference.',reference_sentence_kind:'guide_original_example',source});
+const occurrences=[occurrence('a','repeat'),occurrence('b','repeated'),occurrence('c','break down')];
+const expressions=[{inventory_id:'expr-0011',occurrence_ids:['a']},{inventory_id:'expr-0012',occurrence_ids:['b']},{inventory_id:'expr-0013',occurrence_ids:['c']}];
+const claim=o=>({occurrenceId:o.occurrence_id,file:'input.pdf',sha256:'abc',page:1,book:1,question:2,sample:'S1',expression:o.phrase,sentence:o.reference_sentence,referenceSentenceKind:o.reference_sentence_kind});
+const records=[{id:'advanced-native-011',sources:occurrences.slice(0,2).map(claim)},{id:'advanced-native-2111',sources:[claim(occurrences[2])]}];
+const aliases=[{sourceInventoryId:'expr-0012',targetModuleId:'advanced-native-011'}],splits=[{assignments:[{occurrenceId:'c',moduleId:'advanced-native-2111'}]}];
+const audit=overrides=>auditSources({expressions,occurrences,records,aliases,splits,...overrides});
+assert.equal(audit().summary.complete,true);assert.equal(audit().summary.attachedDraftOccurrences,3);
+assert.ok(audit({records:records.slice(0,1)}).summary.pendingOccurrences===1);
+const bad=structuredClone(records);bad[0].sources[0].referenceSentenceKind='source_sentence';assert.ok(audit({records:bad}).errors.some(e=>e.code==='source-field-mismatch'));
+assert.ok(audit({records:[...records,{id:'advanced-native-012',sources:[claim(occurrences[1])]}]}).errors.some(e=>e.code==='alias-still-has-active-draft'));
+assert.ok(audit({aliases:[...aliases,{sourceInventoryId:'expr-0011',targetModuleId:'advanced-native-012'}]}).errors.some(e=>e.code==='alias-cycle'));
+console.log('Source reconciliation verifies aliases, exact provenance, split senses and missing coverage.');

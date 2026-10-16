@@ -12,8 +12,8 @@ const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const portal=fs.readFileSync(path.join(root,'advanced-native.html'),'utf8');
 const app=fs.readFileSync(path.join(root,'natural-english/app.mjs'),'utf8');
 const audioMetadata=JSON.parse(fs.readFileSync(path.join(root,'natural-english/audio/advanced-metadata.json'),'utf8'));
-assert.equal(lessons.length,10);
-assert.deepEqual(lessons.map(m=>m.titleEn),[
+assert.ok(lessons.length>=10);
+assert.deepEqual(lessons.slice(0,10).map(m=>m.titleEn),[
   'stay in their comfort zone','coast along','wake-up call',
   'life throws them in at the deep end','the making of a person',
   'back out','get through it','come out stronger','stepping stone','stumbling block'
@@ -27,16 +27,21 @@ assert.ok(app.includes('visibleModules=modules.filter'));
 assert.ok(app.includes('done&&!q.allCorrect'),'all-correct replies remain selectable');
 assert.ok(app.includes('grid.dataset.layout'),'Advanced Native has a composed card layout');
 assert.ok(promptText('哪個情況不宜說 coast along？').includes('class="negative-cue"'),'negative wording receives a distinct visual cue');
+for(const negative of ['不足以','不屬於','未必','沒有','不支持','不恰當','理解錯了','未完整呈現','不充分支持','不利於','不合適','不由','忽略'])assert.ok(promptText(`哪個情況${negative}支持這個說法？`).includes(`class="negative-cue">${negative}</strong>`),'negative forms used by later lessons remain visually explicit');
+assert.ok(promptText('已讀清楚情境，哪種推論不宜由這句得出？').includes('class="question-ask"'),'question prompts with 哪種 can wrap separately from their scenario');
+assert.ok(englishText('The neighbourhood’s __________________.').includes('neighbourhood’s <span class="text-tail">__________________.</span>'),'final cloze cues do not bind to a long preceding word');
+assert.ok(englishText('tug-of-war over control / plans').includes('<span class="text-tail">control / plans</span>'),'a standalone separator does not count as a word in an English tail');
+assert.ok(promptText('哪項最不足以支持 saved the day？').includes('class="text-tail">the day？</span>'),'mixed-language questions protect the final English word pair');
 assert.ok(!chineseText('（他們運用學到的教訓，作出更周詳的規劃。）').includes('class="zh-phrase">）'),'closing bracket stays with its sentence');
 assert.ok(promptText('背景情境。哪句最能表達「因此變得更有能力」？').includes('class="question-ask"'),'final question starts a new line');
 assert.ok(app.includes("new CustomEvent('edmund:answer-result'"),'marked answers emit the shared sound event');
 assert.ok(app.includes('class="writing-glossary"'),'writing prompts show a word bank');
 assert.ok(app.includes('先聽完整句子，留意空格中的表達。'),'speaking model is playable before recording');
 assert.ok(app.includes('if(!m||!inThisCourse(id))return'));
-assert.equal(modules.filter(m=>m.course==='advanced-native').length,10);
+assert.equal(modules.filter(m=>m.course==='advanced-native').length,lessons.length);
 
 const seen=new Set();
-for(const lesson of lessons){
+for(const lesson of lessons.slice(0,10)){
   assert.equal(moduleMap.get(lesson.id)?.id,lesson.id);
   assert.equal(lesson.steps.length,7);
   assert.equal(lesson.questions.length,6);
@@ -112,4 +117,6 @@ for(const lesson of lessons){
 }
 assert.equal(lessons[0].steps.find(s=>s.style==='speak').displayModel,'__________________ until I joined the debate club.');
 assert.equal(seen.size,60);
-console.log('Advanced Native: Card 74, 10 isolated modules, 60 questions, 10 golden replies, 40 local clips verified.');
+await import('./advanced-native-bulk/test-lazy.mjs');
+await import('./advanced-native-bulk/test-imported.mjs');
+console.log(`Advanced Native: Card 74, ${lessons.length} isolated modules; 10 legacy modules, 60 legacy questions, 10 legacy golden replies and 40 legacy local clips preserved.`);

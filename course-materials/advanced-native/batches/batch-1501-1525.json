@@ -1,0 +1,5880 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1501-1525",
+  "lessons": [
+    {
+      "id": "advanced-native-1501",
+      "number": 1501,
+      "inventoryId": "expr-1501",
+      "contentRevision": 1,
+      "titleEn": "thrown out altogether",
+      "titleZh": "完全摒棄",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bthrown\\s+out\\s+altogether\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The tradition need not be thrown out altogether.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "thrown out altogether",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Rejected or discarded completely.",
+        "meaningZh": "完全拒絕或摒棄。",
+        "grammar": "be thrown out altogether; need not be thrown out altogether means complete rejection is not necessary",
+        "register": "neutral",
+        "boundaryZh": "本課是摒棄做法或想法，不是把實物扔出；need not 表示不必，不等於必須保留原樣。",
+        "misconceptionZh": "本課是摒棄做法或想法，不是把實物扔出；need not 表示不必，不等於必須保留原樣。",
+        "outcomeZh": "理解「完全摒棄」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The old custom need not be thrown out altogether; we can keep the gathering and share the work more fairly.",
+        "zh": "舊習俗不必完全摒棄；我們可以保留聚會，更公平地分擔工作。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可以調整有問題的部分，保留聚會。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "習俗每個部分都必須照舊，不能調整。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "聚會和分工已全部取消，不再保留。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者只建議延後聚會，沒有考慮分工。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "need not 否定完全摒棄的必要；保留聚會與改變分工可以同時發生。"
+      },
+      "reply": {
+        "promptEn": "Why are you keeping part of the old club routine?",
+        "promptZh": "你為甚麼保留部分舊社團做法？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It need not be thrown out altogether if some parts still help members.",
+            "zh": "如果部分做法仍幫到組員，就不必完全摒棄。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The welcome gathering still helps newcomers meet people.",
+            "zh": "迎新聚會仍幫新人認識大家。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We can change the workload without losing the useful meeting.",
+            "zh": "我們可以改變工作量，而不失去有用的聚會。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Keeping the helpful part gives us something to build on.",
+            "zh": "保留有幫助的部分，讓我們有基礎繼續改善。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "舊活動只有分工不公平，聚會本身仍有用。組員想保留聚會並重新分工。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The activity need not be thrown out altogether.",
+            "zh": "活動不必完全摒棄。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The group has decided to keep every arrangement unchanged.",
+            "zh": "小組決定每項安排都維持原樣。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group has rejected the gathering as well as the unfair workload.",
+            "zh": "小組已把聚會和不公平工作量一起否定。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留有用部分、調整分工，與完全摒棄不同，也不是全部照舊。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最符合 thrown out altogether 的比喻用法？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "提案中的一個時間安排被修改。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "整份提案被否決，不再用作計劃基礎。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "提案暫緩一週，仍等待討論。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "altogether 強調整體摒棄，不是局部修改或尚待考慮。"
+      },
+      "dialogue": {
+        "promptZh": "同學說只要舊計劃有問題，就要完全摒棄。你想先評估有用部分。哪句合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It need not be thrown out altogether; let us check which parts still work.",
+            "zh": "它不必完全摒棄；我們先看看哪些部分仍可行。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Reject the whole plan before comparing the useful parts with the problems.",
+            "zh": "先否決整個計劃，再比較有用部分與問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the troublesome arrangement because changing one part would abandon the whole plan.",
+            "zh": "保留有問題的安排，因為改一部分就等於放棄整個計劃。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "評估部分是否仍有用，能區分調整與整體摒棄，不必先全盤否定或全盤保留。"
+      },
+      "speaking": {
+        "en": "The old plan need not be thrown out altogether.",
+        "zh": "舊計劃不必完全摒棄。",
+        "targetSpan": {
+          "start": 25,
+          "end": 46
+        },
+        "promptZh": "你想建議保留計劃中仍有用的部分。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學校舊節水計劃的監察紀錄太費工，但漏水報告仍有幫助。你想簡化查核時間表並保留報告部分。用一至兩句英文提出調整。",
+        "examples": [
+          {
+            "en": "The old water-saving plan need not be thrown out altogether. We can reduce the monitoring workload and keep the useful leak reports.",
+            "zh": "舊節水計劃不必完全摒棄。我們可以減少監察工作量，保留有用的漏水報告。"
+          },
+          {
+            "en": "The plan need not be thrown out altogether because reporting leaks still helps. A simpler checking schedule could reduce the workload.",
+            "zh": "計劃不必完全摒棄，因為報告漏水仍有幫助。較簡單查核時間表可以減少工作量。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the old water-saving plan",
+            "zh": "舊節水計劃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 25
+            }
+          },
+          {
+            "en": "the monitoring workload",
+            "zh": "監察工作量",
+            "exampleIndex": 0,
+            "span": {
+              "start": 75,
+              "end": 98
+            }
+          },
+          {
+            "en": "the useful leak reports",
+            "zh": "有用的漏水報告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 131
+            }
+          },
+          {
+            "en": "A simpler checking schedule",
+            "zh": "較簡單查核時間表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 80,
+              "end": 107
+            }
+          }
+        ],
+        "selfCheckZh": "說明保留有用的漏水報告、簡化費工監察，不把不必全棄寫成全部照舊。"
+      },
+      "takeaways": [
+        {
+          "en": "The proposal was thrown out altogether after the review.",
+          "zh": "提案在檢視後被完全否決。"
+        },
+        {
+          "en": "A useful custom need not be thrown out altogether.",
+          "zh": "有用的習俗不必完全摒棄。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1502",
+      "number": 1502,
+      "inventoryId": "expr-1502",
+      "contentRevision": 1,
+      "titleEn": "breathe with the times",
+      "titleZh": "隨時代調整",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bbreathe\\s+with\\s+the\\s+times\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 6,
+          "question": 39,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A useful custom should breathe with the times.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "breathe with the times",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Adapt a practice so that it remains responsive to changing circumstances.",
+        "meaningZh": "調整做法，使其繼續回應時代及生活情況的改變。",
+        "grammar": "a custom should / can breathe with the times",
+        "register": "neutral",
+        "boundaryZh": "這是呼吸的創意比喻，並非固定成語；調整可保留意義，不等於追逐每項新潮流或全部換掉。",
+        "misconceptionZh": "這是呼吸的創意比喻，並非固定成語；調整可保留意義，不等於追逐每項新潮流或全部換掉。",
+        "outcomeZh": "理解「隨時代調整」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "A family custom can breathe with the times by keeping its purpose while allowing people to join online.",
+        "zh": "家庭習俗可以保留目的，同時讓人網上參與，從而隨時代調整。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "保留目的，改用配合現在情況的參與方式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "習俗只保留原來參與方式，不接受網上加入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家人已放棄習俗的目的，改辦不相關活動。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子只說參與人數增加，沒有說做法調整。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留目的與新增參與方式一起呈現適應，不是全棄或只增加人數。"
+      },
+      "reply": {
+        "promptEn": "Why let relatives join the gathering online?",
+        "promptZh": "為甚麼讓親人網上參與聚會？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The custom can breathe with the times while keeping people connected.",
+            "zh": "習俗可以隨時代調整，同時保持大家的連繫。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Some relatives now live too far away to attend in person.",
+            "zh": "部分親人現在住得太遠，不能親身出席。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The purpose is to share time together, even from different places.",
+            "zh": "目的是一起分享時間，即使身處不同地方。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A flexible format can help more people take part.",
+            "zh": "彈性形式能幫更多人參與。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "節慶仍分享家族故事，但讓在海外的人用視像加入，以配合現在生活。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The custom can breathe with the times.",
+            "zh": "習俗可以隨時代調整。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The custom remains unchanged in both purpose and format.",
+            "zh": "習俗的目的和形式都維持原樣。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The family has replaced its shared stories with an unrelated event.",
+            "zh": "家人用不相關活動取代共同故事。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "形式適應新情況，目的仍保留，符合本課比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解最不符合 breathe with the times？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "調整參與方式，讓習俗繼續有用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只因一種做法很新，就在未考慮目的前採用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "檢視現在需要，保留意義並改良安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "隨時代調整需要回應實際情況，不等於因新而採用。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說習俗要隨時代調整，就應換掉所有內容。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A custom can breathe with the times through useful changes while keeping its main purpose.",
+            "zh": "習俗可以透過有用改變隨時代調整，同時保留主要目的。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Replace the shared purpose first and decide later whether the new format serves the family.",
+            "zh": "先換掉共同目的，稍後才決定新形式是否幫到家人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the format unchanged until distant relatives can attend in person again.",
+            "zh": "等遠方親人能再親身參與之前，維持原形式不變。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "適應可針對具體需要，既不用先放棄目的，也不用等待生活回到舊狀態。"
+      },
+      "speaking": {
+        "en": "If we want young people to join the ceremony, its arrangements need to breathe with the times.",
+        "zh": "若想年輕人參與儀式，安排就需要隨時代調整。",
+        "targetSpan": {
+          "start": 71,
+          "end": 93
+        },
+        "promptZh": "你想建議習俗配合現在生活。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學校頒獎禮重視表揚努力，但舊規定要求昂貴正裝，令部分學生難以參與。你建議容許整潔便服，保留表揚環節。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "The ceremony can breathe with the times by allowing smart casual clothes while keeping the awards.",
+            "zh": "頒獎禮可容許整潔便服，同時保留獎項，從而隨時代調整。"
+          },
+          {
+            "en": "We want the ceremony to breathe with the times. A flexible dress rule could help students take part without losing the celebration of effort.",
+            "zh": "我們希望頒獎禮隨時代調整。彈性服裝規則能幫學生參與，而不失去表揚努力的意義。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The ceremony",
+            "zh": "頒獎禮",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "smart casual clothes",
+            "zh": "整潔便服",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 72
+            }
+          },
+          {
+            "en": "A flexible dress rule",
+            "zh": "彈性服裝規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 48,
+              "end": 69
+            }
+          },
+          {
+            "en": "the celebration of effort",
+            "zh": "表揚努力",
+            "exampleIndex": 1,
+            "span": {
+              "start": 115,
+              "end": 140
+            }
+          }
+        ],
+        "selfCheckZh": "針對服裝費用造成的參與困難提出調整，保留表揚目的。"
+      },
+      "takeaways": [
+        {
+          "en": "A custom can breathe with the times without losing its purpose.",
+          "zh": "習俗可以隨時代調整，而不失去目的。"
+        },
+        {
+          "en": "We want the tradition to breathe with the times.",
+          "zh": "我們希望傳統能隨時代調整。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1503",
+      "number": 1503,
+      "inventoryId": "expr-1503",
+      "contentRevision": 1,
+      "titleEn": "woven into daily routines / daily life",
+      "titleZh": "融入日常習慣",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwoven\\s+into\\s+(?:daily\\s+routines|(?:ordinary\\s+)?daily\\s+life)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 7,
+          "question": 1,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Tea is woven into daily routines in many homes.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "woven into daily routines",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "pdf-2-p152-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 152,
+          "book": 6,
+          "question": 20,
+          "sample": "S1",
+          "locatorNote": "PDF page 152, table 1, row 4; exact guide source.",
+          "sentence": "Small favours are woven into ordinary daily life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "woven into ordinary daily life",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Integrated into ordinary repeated activities.",
+        "meaningZh": "融入平常重複進行的生活活動。",
+        "grammar": "be woven into daily routines / ordinary daily life; woven is the past participle of weave. Daily routines and ordinary daily life name everyday integration, with ordinary emphasising the unexceptional setting; the image does not require an actual fabric object.",
+        "register": "neutral",
+        "boundaryZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
+        "misconceptionZh": "weave 是融入的比喻；每天有自然位置，不是只在特別場合展示，也不表示人人做法相同。",
+        "outcomeZh": "理解「融入日常習慣」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "A short walk is woven into daily routines in this household: they walk together after dinner.",
+        "zh": "這家人晚飯後一起散步，短程散步已融入日常習慣。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "散步成為平常生活的一部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "家人只在一年一度活動時散步。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家人打算開始散步，但尚未付諸實行。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子重點是一次散步比原定路程長。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "晚飯後一起走的重複安排，支持融入平日生活，不是偶發或未實行。"
+      },
+      "reply": {
+        "promptEn": "Why do the children know those family stories so well?",
+        "promptZh": "孩子為甚麼那麼熟悉那些家庭故事？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Storytelling is woven into daily routines at home.",
+            "zh": "講故事已融入家中的日常習慣。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They often hear the stories while helping with dinner.",
+            "zh": "他們幫忙準備晚餐時常聽到故事。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Relatives connect the stories with things that happen each day.",
+            "zh": "親人把故事與每天發生的事連起來。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The stories come up naturally in ordinary conversations.",
+            "zh": "平常交談自然會提起那些故事。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一家人在平日晚飯時輪流講當天經歷，已成慣常安排。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Sharing stories is woven into daily routines.",
+            "zh": "分享故事已融入日常習慣。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Sharing stories is reserved for the annual reunion.",
+            "zh": "分享故事只留待年度聚會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Sharing stories is an idea the family has not tried yet.",
+            "zh": "分享故事是這家人尚未試過的想法。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "平日重複做，與只限年度活動或尚未開始不同。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不像 woven into daily routines？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "每晚收拾後花幾分鐘讀書。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只在一次特別展覽當天試做活動，之後沒有再做。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "平日早餐時自然聊當天安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "本課需要普通生活中的重複位置，一次特別體驗未足以支持。"
+      },
+      "dialogue": {
+        "promptZh": "同學把只在展覽日做一次的活動稱為融入日常。哪句提醒準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To be woven into daily routines, it needs a place in ordinary repeated activities.",
+            "zh": "要融入日常習慣，它需要在平常重複活動中有位置。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the size of the one-day event to decide how regular the activity has become.",
+            "zh": "按那天活動的規模，判斷它已變得多有規律。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Describe the activity as a daily habit now and plan its next use later.",
+            "zh": "現在先把活動寫成日常習慣，稍後再計劃下次做。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "一次活動的規模及未來計劃，均不能代替已融入平日的證據。"
+      },
+      "speaking": {
+        "en": "Reading is woven into daily routines in our home.",
+        "zh": "閱讀已融入我們家的日常習慣。",
+        "targetSpan": {
+          "start": 11,
+          "end": 36
+        },
+        "promptZh": "你想形容閱讀在平日生活中有固定位置。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：學校小花園不再只在開放日展示；學生每天午間輪流澆水並記錄葉片變化，把照顧融入校園生活。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "Caring for the school garden is woven into daily routines. Students water the plants and record changes at lunchtime.",
+            "zh": "照顧學校花園已融入日常習慣。學生午間澆水並記錄變化。"
+          },
+          {
+            "en": "Garden care is now woven into daily routines rather than saved for open days. Each group has a regular lunchtime task.",
+            "zh": "花園照顧現在已融入日常習慣，不再留待開放日。每組都有固定午間任務。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the school garden",
+            "zh": "學校花園",
+            "exampleIndex": 0,
+            "span": {
+              "start": 11,
+              "end": 28
+            }
+          },
+          {
+            "en": "water the plants",
+            "zh": "給植物澆水",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 84
+            }
+          },
+          {
+            "en": "record changes",
+            "zh": "記錄變化",
+            "exampleIndex": 0,
+            "span": {
+              "start": 89,
+              "end": 103
+            }
+          },
+          {
+            "en": "a regular lunchtime task",
+            "zh": "固定午間任務",
+            "exampleIndex": 1,
+            "span": {
+              "start": 93,
+              "end": 117
+            }
+          }
+        ],
+        "selfCheckZh": "用持續校園任務支持日常融入，不只描述一次展示。"
+      },
+      "takeaways": [
+        {
+          "en": "Shared meals are woven into daily routines.",
+          "zh": "一起吃飯已融入日常習慣。"
+        },
+        {
+          "en": "Small acts of kindness can be woven into daily routines.",
+          "zh": "小小善意可以融入日常習慣。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1504",
+      "number": 1504,
+      "inventoryId": "expr-1504",
+      "contentRevision": 1,
+      "titleEn": "the Cantonese thread still runs through it",
+      "titleZh": "仍貫穿廣東文化影響",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe\\s+Cantonese\\s+thread\\s+still\\s+runs\\s+through\\s+it\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 7,
+          "question": 1,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Even the new menu is global, but the Cantonese thread still runs through it.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the Cantonese thread still runs through it",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A Cantonese influence continues to connect parts of something with varied influences.",
+        "meaningZh": "某事物雖有多種影響，廣東文化元素仍持續貫穿其中。",
+        "grammar": "a menu / collection has varied influences, but the Cantonese thread still runs through it; it must refer to an explicit subject",
+        "register": "neutral",
+        "boundaryZh": "thread 是貫穿影響的比喻，不是說每道菜都相同或完全沒有外來元素；it 必須有清楚先行詞。",
+        "misconceptionZh": "thread 是貫穿影響的比喻，不是說每道菜都相同或完全沒有外來元素；it 必須有清楚先行詞。",
+        "outcomeZh": "理解「仍貫穿廣東文化影響」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "來源練習句以 Even...but 連接不自然；保留來源原文作證據，新例句用 although 或 but 組成清楚結構。"
+      },
+      "listening": {
+        "en": "Although the menu includes dishes from several countries, the Cantonese thread still runs through it in its familiar broths and seasonings.",
+        "zh": "雖然餐牌有來自幾個國家的菜式，熟悉的湯底和調味仍讓廣東文化影響貫穿其中。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "餐牌很多元，但仍有連貫的廣東飲食影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "餐牌已移除廣東湯底與調味。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "餐牌只有廣東菜，沒有其他地方的菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子只說餐牌用廣東話印製，沒有談味道。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "broths and seasonings 指飲食影響；although 保留其他國家菜式的存在。"
+      },
+      "reply": {
+        "promptEn": "Why does this international menu still feel familiar to local diners?",
+        "promptZh": "這份國際餐牌為甚麼仍讓本地食客感到熟悉？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The Cantonese thread still runs through it in the broths and seasonings.",
+            "zh": "廣東文化影響仍透過湯底和調味貫穿其中。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Several dishes use flavours they know from home.",
+            "zh": "幾道菜用了他們在家熟悉的味道。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The chef has kept some familiar cooking methods.",
+            "zh": "廚師保留了一些熟悉的烹調方法。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The local touches connect the dishes despite their varied origins.",
+            "zh": "菜式來源雖不同，本地元素仍把它們連起來。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "餐牌加入多國菜式，但幾道主菜持續使用熟悉廣東湯底，形成連貫影響。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The Cantonese thread still runs through it.",
+            "zh": "廣東文化影響仍貫穿其中。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The menu has abandoned its Cantonese cooking influences.",
+            "zh": "餐牌已放棄廣東烹調影響。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The menu contains Cantonese dishes to the exclusion of other cuisines.",
+            "zh": "餐牌只包含廣東菜，排除了其他菜系。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "廣東影響持續存在，也與其他菜系並存。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以支持 the Cantonese thread still runs through it 的飲食比喻？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "多道菜仍採用熟悉廣東湯底。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "有廣東話菜名，但烹調、味道和設計未見廣東元素。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "多元菜式中可辨認共同的廣東調味方法。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "本課談貫穿的文化飲食影響，僅有語言標籤尚不足以顯示烹調影響。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說餐牌加入外國菜，就不再可能有廣東文化線索。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An international menu can change while the Cantonese thread still runs through it.",
+            "zh": "國際餐牌可以改變，同時仍有廣東文化影響貫穿其中。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Classify the menu only by its newest foreign dish before examining the shared cooking methods.",
+            "zh": "先只按最新外國菜分類餐牌，再看共同烹調方法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Count the Cantonese names without checking whether the flavours carry the same influence.",
+            "zh": "只數廣東菜名，不查看味道是否帶有相同影響。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要看實際持續影響，多元來源不會自動取消本地元素，名稱數量也不能代替檢視。"
+      },
+      "speaking": {
+        "en": "The menu is international, but the Cantonese thread still runs through it.",
+        "zh": "餐牌很多元，但廣東文化影響仍貫穿其中。",
+        "targetSpan": {
+          "start": 31,
+          "end": 73
+        },
+        "promptZh": "你想形容多元餐牌仍保留連貫廣東元素。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為一本文集寫簡介。作者分享多地飲食故事，但反覆提到廣東家常烹調及家庭記憶。用一至兩句英文描述貫穿的文化影響。",
+        "examples": [
+          {
+            "en": "The collection includes food stories from many places, but the Cantonese thread still runs through it in memories of family cooking.",
+            "zh": "文集有多地飲食故事，但家庭烹調記憶仍讓廣東文化影響貫穿其中。"
+          },
+          {
+            "en": "The authors explore different cuisines in this collection, yet the Cantonese thread still runs through it, linking the stories through familiar family recipes.",
+            "zh": "作者在這本文集探索不同菜系，但廣東文化影響仍貫穿其中，以熟悉家常食譜連繫各篇故事。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The collection",
+            "zh": "文集",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "food stories",
+            "zh": "飲食故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 36
+            }
+          },
+          {
+            "en": "memories of family cooking",
+            "zh": "家庭烹調記憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 131
+            }
+          },
+          {
+            "en": "familiar family recipes",
+            "zh": "熟悉家常食譜",
+            "exampleIndex": 1,
+            "span": {
+              "start": 135,
+              "end": 158
+            }
+          }
+        ],
+        "selfCheckZh": "先交代 it 指文集，提供多篇故事共享的廣東文化線索，不只改菜名。"
+      },
+      "takeaways": [
+        {
+          "en": "The menu has changed, but the Cantonese thread still runs through it.",
+          "zh": "餐牌改變了，但廣東文化影響仍貫穿其中。"
+        },
+        {
+          "en": "The collection is diverse, yet the Cantonese thread still runs through it in its food stories.",
+          "zh": "文集很多元，但廣東文化影響仍透過飲食故事貫穿其中。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1505",
+      "number": 1505,
+      "inventoryId": "expr-1505",
+      "contentRevision": 1,
+      "titleEn": "the backbone of ...",
+      "titleZh": "日常生活或飲食的核心支柱",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+backbone\\s+of\\s+(?:local\\s+eating\\s+habits|everyday\\s+life)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 7,
+          "question": 1,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Rice remains the backbone of local eating habits.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the backbone of local eating habits",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p142-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 142,
+          "book": 6,
+          "question": 11,
+          "sample": "S1",
+          "locatorNote": "PDF page 142, table 2, row 4; absent metadata remains unstated.",
+          "sentence": "Neighbours can be the backbone of everyday life.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the backbone of everyday life",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A central supporting element of a system or ordinary life, such as a staple in local food routines or neighbours in everyday life.",
+        "meaningZh": "一個制度或日常生活中的核心支柱，例如本地飲食的主糧，或日常生活裏的鄰里支持。",
+        "grammar": "be/remain/form the backbone of + activity or area of life; rice remains the backbone of local eating habits, while neighbours can be the backbone of everyday life. The noun construction names central support; the complement specifies its domain.",
+        "register": "neutral",
+        "boundaryZh": "backbone 是核心支柱的比喻；要有慣常中心作用的依據，不等於唯一食物或唯一支持者，也不只是一次幫忙或偶爾受歡迎的菜式。",
+        "misconceptionZh": "核心支持不表示其他部分都無用；要有持續作用的線索，而非只因一次受歡迎或被提及便斷定中心地位。",
+        "outcomeZh": "能以具體持續作用描述日常生活或飲食的核心支柱，不把中心支持等同唯一來源。"
+      },
+      "listening": {
+        "en": "In this village, rice remains the backbone of local eating habits because most everyday meals are planned around it.",
+        "zh": "在這個村落，平常大部分飯餐都以米飯為中心，所以它仍是本地飲食的核心支柱。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "米飯在平日飲食安排中有核心地位。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "村民只在年度宴會才吃米飯。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "句子說村民完全不吃其他食物。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "米飯只是剛試過、尚未成習慣的新菜式。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "most everyday meals 支持中心地位，但 most 不等於只能吃米飯。"
+      },
+      "reply": {
+        "promptEn": "Why does the village food guide begin with rice?",
+        "promptZh": "村落飲食指南為甚麼從米飯開始？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Rice is the backbone of local eating habits here.",
+            "zh": "米飯是這裏本地飲食的核心支柱。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Most everyday meals are organised around it.",
+            "zh": "平常大部分飯餐都圍繞它安排。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It provides a useful starting point for explaining common meals.",
+            "zh": "它是解釋常見飯餐的有用起點。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Many of the side dishes are usually served with it.",
+            "zh": "很多配菜通常都與它一起供應。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "訪問顯示，某地家庭的平日飯餐大多以一種主食為中心，再配不同菜式。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "That staple is the backbone of local eating habits.",
+            "zh": "那種主食是本地飲食的核心支柱。"
+          },
+          {
+            "id": "choice-2",
+            "en": "That staple is mainly an occasional festival treat.",
+            "zh": "那種主食主要是偶爾享用的節慶食品。"
+          },
+          {
+            "id": "choice-3",
+            "en": "That staple has only just appeared and has no established place in meals.",
+            "zh": "那種主食剛出現，在飯餐中尚未建立位置。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "大部分平日飯餐以它為中心，與偶爾吃或剛出現不同。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以支持 the backbone of local eating habits？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "長期觀察顯示平常飯餐多以該主食為中心。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一場試食會有人喜歡一道新甜品，但未見日常食用情況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家庭訪問反覆提到該主食是安排飯餐的基礎。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "一次活動的喜愛，未建立日常飲食中心地位。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把一次人氣甜品直接稱為本地飲食支柱。哪句提醒準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To call it the backbone of local eating habits, check its role in ordinary meals over time.",
+            "zh": "要稱它為本地飲食核心支柱，應查看它長期在平常飯餐中的角色。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the queue at one tasting event as the main evidence of its everyday role.",
+            "zh": "主要用一次試食會的人龍，證明它的日常角色。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Rank the dishes by their prices before checking how often households eat them.",
+            "zh": "先按價格排菜式，再查看家庭多久吃一次。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "核心支柱涉及平日安排及持續地位，不只一次人氣或價格。"
+      },
+      "speaking": {
+        "en": "Rice is the backbone of local eating habits in this village.",
+        "zh": "米飯是這個村落本地飲食的核心支柱。",
+        "targetSpan": {
+          "start": 8,
+          "end": 43
+        },
+        "promptZh": "你想形容觀察到的日常主食角色。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：虛構小鎮的博物館介紹把年度節慶甜點寫成日常主食；訪問卻顯示家庭平日大多吃麵。你要更正文案，用一至兩句英文說明真正核心。",
+        "examples": [
+          {
+            "en": "Noodles, rather than the festival sweet, are the backbone of local eating habits in this fictional town. The museum text should reflect everyday meals.",
+            "zh": "在這虛構小鎮，麵而非節慶甜點才是本地飲食核心支柱。博物館文案應反映平日飯餐。"
+          },
+          {
+            "en": "Our interviews suggest that noodles are the backbone of local eating habits. We should not confuse a yearly treat with an everyday staple.",
+            "zh": "訪問顯示麵是本地飲食核心支柱。我們不應混淆年度食品與日常主食。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Noodles",
+            "zh": "麵",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 7
+            }
+          },
+          {
+            "en": "the festival sweet",
+            "zh": "節慶甜點",
+            "exampleIndex": 0,
+            "span": {
+              "start": 21,
+              "end": 39
+            }
+          },
+          {
+            "en": "The museum text",
+            "zh": "博物館文案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 105,
+              "end": 120
+            }
+          },
+          {
+            "en": "an everyday staple",
+            "zh": "日常主食",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 137
+            }
+          }
+        ],
+        "selfCheckZh": "用日常主食與年度食品的差別更正文案，以虛構小鎮訪問為依據。"
+      },
+      "takeaways": [
+        {
+          "en": "Rice remains the backbone of local eating habits in the village.",
+          "zh": "米飯仍是該村落本地飲食的核心支柱。"
+        },
+        {
+          "en": "The guide explains why that staple is the backbone of local eating habits.",
+          "zh": "指南解釋那種主食為甚麼是本地飲食的核心支柱。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1506",
+      "number": 1506,
+      "inventoryId": "expr-1506",
+      "contentRevision": 1,
+      "titleEn": "a real melting pot",
+      "titleZh": "多元文化交匯之地",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+real\\s+melting\\s+pot\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p173-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 173,
+          "book": 7,
+          "question": 1,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The city's dining scene is a real melting pot.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a real melting pot",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A place where people or influences from varied backgrounds mix.",
+        "meaningZh": "不同背景的人或文化影響交匯融合的地方。",
+        "grammar": "a city / neighbourhood / dining scene is a real melting pot",
+        "register": "neutral",
+        "boundaryZh": "本課談多種影響互相接觸，不等於所有差異消失；real 加強語氣，不是說真的熔化食物。",
+        "misconceptionZh": "本課談多種影響互相接觸，不等於所有差異消失；real 加強語氣，不是說真的熔化食物。",
+        "outcomeZh": "理解「多元文化交匯之地」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The neighbourhood is a real melting pot, with cooks from several traditions sharing ingredients and ideas.",
+        "zh": "這個社區有來自幾種傳統的廚師分享食材和想法，是多元文化交匯之地。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "多種飲食傳統在社區接觸交流。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "社區只保留一種飲食傳統，排除其他影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "廚師來自不同地方，但彼此從不接觸。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "分享之後，廚師已不再保留各自傳統特色。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "多種背景加上分享，支持交匯；沒有說所有特色消失。"
+      },
+      "reply": {
+        "promptEn": "Why does the neighbourhood food festival offer such varied dishes?",
+        "promptZh": "社區美食節為甚麼提供那麼多元的菜式？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The neighbourhood is a real melting pot.",
+            "zh": "這個社區是多元文化交匯之地。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Families bring recipes from several traditions.",
+            "zh": "家庭帶來幾種傳統的食譜。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Local cooks exchange ideas with people from different backgrounds.",
+            "zh": "本地廚師與不同背景的人交流想法。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The menu reflects the mix of communities living nearby.",
+            "zh": "餐牌反映附近不同群體的組合。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "社區食物市場讓不同背景廚師互相分享做法，形成多元菜式。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The market is a real melting pot.",
+            "zh": "市場是多元文化交匯之地。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The market specialises in one tradition and keeps other influences out.",
+            "zh": "市場專注單一傳統，排除其他影響。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The stalls follow separate traditions without exchanging ideas.",
+            "zh": "攤檔各依自己的傳統，沒有交流想法。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "多種影響相遇並交流，符合交匯比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解最不符合 a real melting pot？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "不同背景的影響相遇，形成多元組合。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "融合必然要求每種文化的特色完全消失。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "一個地方可同時有交流與可辨認的不同傳統。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "融合不要求完全抹平差異；可以交流並保留特色。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說文化交匯後，食物應全部變成同一種味道。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A real melting pot can combine influences while still keeping recognisable differences.",
+            "zh": "多元文化交匯之地可以結合影響，同時保留可辨認差異。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Judge the mix mainly by whether every stall serves the same flavour.",
+            "zh": "主要按每攤是否供應相同味道判斷融合。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the cooks apart so their traditions will count as a shared mix.",
+            "zh": "讓廚師互不接觸，以便把各傳統算成共同融合。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "交匯需要接觸，卻不要求同味；既不是完全同化，也不是隔離排列。"
+      },
+      "speaking": {
+        "en": "Our neighbourhood is a real melting pot.",
+        "zh": "我們的社區是多元文化交匯之地。",
+        "targetSpan": {
+          "start": 21,
+          "end": 39
+        },
+        "promptZh": "你想形容社區不同背景的人互相交流。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：校園藝術日讓不同背景學生分享音樂傳統，互相學習節奏，合作演出仍保留可辨認特色。用一至兩句英文描述交匯。",
+        "examples": [
+          {
+            "en": "Our arts day is a real melting pot of musical traditions. Students share rhythms and create performances together.",
+            "zh": "藝術日是音樂傳統交匯之地。學生分享節奏，一起創作演出。"
+          },
+          {
+            "en": "The arts day feels like a real melting pot, bringing different backgrounds together while keeping distinctive musical styles.",
+            "zh": "藝術日像多元文化交匯之地，把不同背景帶在一起，同時保留特色音樂風格。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our arts day",
+            "zh": "我們的藝術日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "musical traditions",
+            "zh": "音樂傳統",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 56
+            }
+          },
+          {
+            "en": "share rhythms",
+            "zh": "分享節奏",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 80
+            }
+          },
+          {
+            "en": "distinctive musical styles",
+            "zh": "特色音樂風格",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 124
+            }
+          }
+        ],
+        "selfCheckZh": "用交流和共同創作支持交匯，不把不同音樂風格說成完全一樣。"
+      },
+      "takeaways": [
+        {
+          "en": "The dining scene is a real melting pot.",
+          "zh": "這裏的飲食環境是多元文化交匯之地。"
+        },
+        {
+          "en": "Our community is a real melting pot of traditions and ideas.",
+          "zh": "我們的社區是傳統與想法交匯之地。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1507",
+      "number": 1507,
+      "inventoryId": "expr-1507",
+      "contentRevision": 1,
+      "titleEn": "eating across cultures",
+      "titleZh": "品嘗不同文化菜式",
+      "category": "natural",
+      "target": {
+        "pattern": "\\beating\\s+across\\s+cultures\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 1,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The students enjoy eating across cultures.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "eating across cultures",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Eating dishes associated with different cultural traditions.",
+        "meaningZh": "品嘗來自不同文化傳統的菜式。",
+        "grammar": "enjoy / be interested in eating across cultures; across marks several cultural traditions",
+        "register": "neutral",
+        "boundaryZh": "這是自然搭配，不是旅行的必要條件；在同一城市也可品嘗不同菜式，不代表已了解整個文化。",
+        "misconceptionZh": "這是自然搭配，不是旅行的必要條件；在同一城市也可品嘗不同菜式，不代表已了解整個文化。",
+        "outcomeZh": "理解「品嘗不同文化菜式」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The students enjoy eating across cultures, trying dishes from different traditions at restaurants near their school.",
+        "zh": "學生喜歡品嘗不同文化菜式，在學校附近餐廳嘗試不同傳統的食物。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他們在附近品嘗不同文化傳統的菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們只在出國時才接觸不同菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他們每次都選相同傳統的同一道菜。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子主要說他們已全面掌握每種文化的歷史。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "different traditions 是核心；地點在附近，品嘗不等於全面文化知識。"
+      },
+      "reply": {
+        "promptEn": "Why do you try restaurants with such different menus?",
+        "promptZh": "你為甚麼嘗試餐牌那麼不同的餐廳？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I enjoy eating across cultures and discovering unfamiliar dishes.",
+            "zh": "我喜歡品嘗不同文化菜式，發現不熟悉的食物。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Different recipes give me new flavours to explore.",
+            "zh": "不同食譜讓我探索新味道。"
+          },
+          {
+            "id": "reply-3",
+            "en": "My friends introduce me to dishes their families enjoy.",
+            "zh": "朋友介紹他們家人喜歡的菜式給我。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I like comparing how cooks use similar ingredients in different ways.",
+            "zh": "我喜歡比較廚師怎樣以不同方式用相似食材。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "同學留在同一城市，輪流嘗試幾種文化傳統的菜式。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They enjoy eating across cultures.",
+            "zh": "他們喜歡品嘗不同文化菜式。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They have to travel abroad before they can try those dishes.",
+            "zh": "他們必須先出國才能品嘗那些菜式。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their meals stay within a single cooking tradition.",
+            "zh": "他們的飯餐局限於同一烹調傳統。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "重點在不同文化菜式，不要求跨越國境。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 eating across cultures？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在同一城市品嘗不同文化菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "到不同地方，但每餐仍只吃自己熟悉的同一種菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "與朋友分享各自家庭傳統的食物。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "地理移動本身不代表品嘗多元菜式。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說只有旅行才算品嘗不同文化菜式。哪句回應貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Eating across cultures can happen locally when we try dishes from different traditions.",
+            "zh": "我們在本地嘗試不同傳統菜式，也可以品嘗不同文化飲食。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Count the countries visited rather than looking at which dishes were tried.",
+            "zh": "只數到過多少國家，不看嘗過甚麼菜式。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choose the same familiar meal throughout the trip and use travel itself as evidence of varied eating.",
+            "zh": "旅程一直選同一熟悉飯餐，只用旅行本身證明飲食多元。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "本課看菜式的文化來源，不只看旅行里程。"
+      },
+      "speaking": {
+        "en": "I enjoy eating across cultures with my friends.",
+        "zh": "我喜歡與朋友品嘗不同文化菜式。",
+        "targetSpan": {
+          "start": 8,
+          "end": 30
+        },
+        "promptZh": "你想分享探索不同菜式的興趣。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：家庭想在家探索多元菜式，每週輪流選一份不同文化的食譜，一起買材料烹調，並請朋友介紹背景。用一至兩句英文說明計劃。",
+        "examples": [
+          {
+            "en": "We want to try eating across cultures at home by cooking dishes from different traditions each week.",
+            "zh": "我們想每週在家煮不同傳統的菜式，嘗試跨文化飲食。"
+          },
+          {
+            "en": "Eating across cultures can become a shared cooking project for our family. Friends can explain the dishes before we try the recipes.",
+            "zh": "品嘗不同文化菜式可成為家庭共同烹調計劃。朋友可在我們試食譜前介紹菜式。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "at home",
+            "zh": "在家",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 45
+            }
+          },
+          {
+            "en": "cooking dishes",
+            "zh": "烹調菜式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 49,
+              "end": 63
+            }
+          },
+          {
+            "en": "different traditions",
+            "zh": "不同傳統",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 89
+            }
+          },
+          {
+            "en": "a shared cooking project",
+            "zh": "共同烹調計劃",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 58
+            }
+          }
+        ],
+        "selfCheckZh": "用在家選食譜及烹調的安排說明多元品嘗，不要求一定到餐廳或旅行。"
+      },
+      "takeaways": [
+        {
+          "en": "Eating across cultures can begin in your own neighbourhood.",
+          "zh": "品嘗不同文化菜式可從自己的社區開始。"
+        },
+        {
+          "en": "We enjoy eating across cultures and learning about the dishes we try.",
+          "zh": "我們喜歡品嘗不同文化菜式，了解所嘗的食物。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1508",
+      "number": 1508,
+      "inventoryId": "expr-1508",
+      "contentRevision": 1,
+      "titleEn": "without batting an eyelid",
+      "titleZh": "面不改容地",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bwithout\\s+batting\\s+an\\s+eyelid\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 1,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "She solved the puzzle without batting an eyelid.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "without batting an eyelid",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Without showing surprise, shock or concern.",
+        "meaningZh": "沒有表露驚訝、震驚或介意。",
+        "grammar": "accept / respond / pay without batting an eyelid; British English eyelid, American English eye",
+        "register": "neutral",
+        "boundaryZh": "說的是沒有表露反應，不保證內心毫不驚訝，也不直接表示任務容易；要有值得驚訝或介意的背景。",
+        "misconceptionZh": "說的是沒有表露反應，不保證內心毫不驚訝，也不直接表示任務容易；要有值得驚訝或介意的背景。",
+        "outcomeZh": "理解「面不改容地」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "When asked to speak to the large audience at short notice, Maya agreed without batting an eyelid.",
+        "zh": "臨時被要求向大批觀眾發言時，Maya 面不改容地答應了。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Maya 答應時沒有表露驚訝或介意。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "Maya 明顯驚慌，要求很久後才再回答。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "Maya 拒絕了發言邀請，沒有答應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子證明 Maya 心裏完全沒有任何緊張。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "表達關於可見反應，不能據此確定她所有內心感受。"
+      },
+      "reply": {
+        "promptEn": "How did Maya react when asked to speak at short notice?",
+        "promptZh": "Maya 臨時被要求發言時，有甚麼反應？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She agreed without batting an eyelid.",
+            "zh": "她面不改容地答應了。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She stayed calm and said she could do it.",
+            "zh": "她保持鎮定，說自己可以。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She showed no obvious sign of surprise.",
+            "zh": "她沒有表露明顯驚訝。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Her reply was steady despite the unexpected request.",
+            "zh": "要求出乎意料，她的回應仍很穩定。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "同事突然要代主持大型會議，聽到要求時神情平靜，立即答應。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She accepted without batting an eyelid.",
+            "zh": "她面不改容地接受了。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She showed clear alarm before accepting.",
+            "zh": "她先表露明顯驚慌才接受。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She declined because the request surprised her.",
+            "zh": "她因要求出乎意料而拒絕。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "突然要求加上鎮定接受，支持沒有表露驚訝。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 without batting an eyelid 直接推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "當事人沒有表露驚訝。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "當事人內心一定完全沒有緊張。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "當事人面對意外要求仍顯得鎮定。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "外在反應不能完整證明內心感受。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說面不改容接受任務，就證明任務很容易。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Without batting an eyelid describes the reaction, not how difficult the task really is.",
+            "zh": "面不改容描述反應，不是任務實際有多難。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use her calm expression as the main evidence that she needs no preparation.",
+            "zh": "主要用她鎮定的表情，證明她不用準備。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Assume that accepting quickly means she had expected the request.",
+            "zh": "把快速答應當成她早已預料要求的證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "固定語關乎沒有表露驚訝，不證明早已預料要求或不需準備。"
+      },
+      "speaking": {
+        "en": "She accepted the unexpected request without batting an eyelid.",
+        "zh": "她面不改容地接受了出乎意料的要求。",
+        "targetSpan": {
+          "start": 36,
+          "end": 61
+        },
+        "promptZh": "你想形容面對突然要求仍沒有表露驚訝。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：小說人物聽到出乎意料的高昂維修報價時，神情鎮定地接受，之後仍仔細讀書面細節。用一至兩句英文描述反應，不推斷毫無擔心。",
+        "examples": [
+          {
+            "en": "He accepted the surprisingly high repair quote without batting an eyelid, then read the written details carefully.",
+            "zh": "他面不改容地接受出乎意料的高昂維修報價，再仔細讀書面細節。"
+          },
+          {
+            "en": "The character agreed without batting an eyelid when he heard the price. His calm reaction does not tell us everything he felt.",
+            "zh": "人物聽到價錢時面不改容地答應。他的鎮定反應沒有完整顯示內心感受。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the surprisingly high repair quote",
+            "zh": "出乎意料的高昂維修報價",
+            "exampleIndex": 0,
+            "span": {
+              "start": 12,
+              "end": 46
+            }
+          },
+          {
+            "en": "the written details",
+            "zh": "書面細節",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 103
+            }
+          },
+          {
+            "en": "heard the price",
+            "zh": "聽到價錢",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 70
+            }
+          },
+          {
+            "en": "His calm reaction",
+            "zh": "他的鎮定反應",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 89
+            }
+          }
+        ],
+        "selfCheckZh": "描述可見鎮定與意外價錢，不以反應證明沒有顧慮或不用查看細節。"
+      },
+      "takeaways": [
+        {
+          "en": "She agreed without batting an eyelid.",
+          "zh": "她面不改容地答應了。"
+        },
+        {
+          "en": "He paid the surprisingly high bill without batting an eyelid.",
+          "zh": "帳單高得出乎意料，他仍面不改容地付款。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1509",
+      "number": 1509,
+      "inventoryId": "expr-1509",
+      "contentRevision": 1,
+      "titleEn": "stuck in one lane",
+      "titleZh": "局限於單一路向",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bstuck\\s+in\\s+one\\s+lane\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 1,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "His reading is no longer stuck in one lane.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "stuck in one lane",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Limited to one type of activity or approach instead of exploring alternatives.",
+        "meaningZh": "局限於一種類型或方法，沒有探索其他選擇。",
+        "grammar": "reading / thinking / a programme is stuck in one lane; no longer stuck in one lane means the range has broadened",
+        "register": "neutral",
+        "boundaryZh": "lane 是路向的創意比喻；專注一次任務不等於長期受限，no longer 表示已改變而不是仍局限。",
+        "misconceptionZh": "lane 是路向的創意比喻；專注一次任務不等於長期受限，no longer 表示已改變而不是仍局限。",
+        "outcomeZh": "理解「局限於單一路向」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Her reading is no longer stuck in one lane: she now chooses poetry and history as well as crime novels.",
+        "zh": "她的閱讀不再局限於單一路向：除了犯罪小說，她現在也選詩歌和歷史。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她的閱讀範圍已比以前廣。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她現在仍只讀犯罪小說。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她已完全放棄犯罪小說，不再接觸。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她只改變閱讀時間，類型沒有增加。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "no longer 加新增類型表示範圍拓展；as well as 保留原有類型。"
+      },
+      "reply": {
+        "promptEn": "Why did you add different genres to the reading club?",
+        "promptZh": "你為甚麼在讀書會加入不同文類？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I did not want our reading to stay stuck in one lane.",
+            "zh": "我不想我們的閱讀一直局限於單一路向。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Members wanted to discover books outside their usual choices.",
+            "zh": "會員想發現平常選擇以外的書。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Different genres give us new kinds of questions to discuss.",
+            "zh": "不同文類讓我們有新種類問題可討論。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We can keep favourites while exploring unfamiliar writing.",
+            "zh": "我們可以保留喜愛作品，同時探索不熟悉的寫作。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "讀書會以前只讀偵探小說，現在仍讀這類書，也加入詩歌與傳記。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Its reading is no longer stuck in one lane.",
+            "zh": "它的閱讀不再局限於單一路向。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Its reading remains limited to detective novels.",
+            "zh": "它的閱讀仍局限於偵探小說。"
+          },
+          {
+            "id": "choice-3",
+            "en": "It has replaced detective novels rather than broadened the selection.",
+            "zh": "它只是取代偵探小說，而非擴大選擇。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留舊類型並加其他類型，是拓寬而非只換掉一種。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以稱為 stuck in one lane？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "長期只接受一種方法，未考慮其他可行選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "團隊本週專心完成一項任務，但平常會比較多種方法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "閱讀選擇一直局限同一類，想拓展卻沒有嘗試。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "暫時專注某任務不等於整體方法或興趣受限。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說拓展閱讀就要丟掉原來喜歡的類型。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can avoid being stuck in one lane by adding new genres while keeping some favourites.",
+            "zh": "我們可以保留部分喜愛作品，並加入新文類，避免局限於單一路向。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Replace one favourite genre with another and keep the range equally narrow.",
+            "zh": "用另一種喜愛文類取代原來的一種，範圍仍同樣窄。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Change the meeting time before considering whether the reading choices need broadening.",
+            "zh": "先改聚會時間，再考慮閱讀選擇是否要擴大。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "本課看選擇範圍；只換同樣窄的一類或改時間，未回應拓展需要。"
+      },
+      "speaking": {
+        "en": "Our reading should not be stuck in one lane.",
+        "zh": "我們的閱讀不應局限於單一路向。",
+        "targetSpan": {
+          "start": 26,
+          "end": 43
+        },
+        "promptZh": "你想建議讀書會拓展文類。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：攝影社以前只拍風景，現在保留風景攝影，也學拍人物與街景。用一至兩句英文描述範圍改變。",
+        "examples": [
+          {
+            "en": "Our photography is no longer stuck in one lane. We still enjoy landscapes, but now we also try portraits and street scenes.",
+            "zh": "我們的攝影不再局限於單一路向。我們仍喜歡風景，現在也嘗試人像與街景。"
+          },
+          {
+            "en": "We do not want to stay stuck in one lane, so we are adding portraits to our usual landscape work.",
+            "zh": "我們不想一直局限於單一路向，所以在慣常風景作品之外加入人像。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our photography",
+            "zh": "我們的攝影",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "landscapes",
+            "zh": "風景",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 73
+            }
+          },
+          {
+            "en": "portraits and street scenes",
+            "zh": "人像與街景",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 122
+            }
+          },
+          {
+            "en": "our usual landscape work",
+            "zh": "我們慣常的風景作品",
+            "exampleIndex": 1,
+            "span": {
+              "start": 72,
+              "end": 96
+            }
+          }
+        ],
+        "selfCheckZh": "寫出增加的選擇與保留的興趣，不只是改時間或完全換一類。"
+      },
+      "takeaways": [
+        {
+          "en": "Our reading is no longer stuck in one lane.",
+          "zh": "我們的閱讀不再局限於單一路向。"
+        },
+        {
+          "en": "The programme felt stuck in one lane until we added new activities.",
+          "zh": "節目本來感覺局限於單一路向，直到我們加入新活動。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1510",
+      "number": 1510,
+      "inventoryId": "expr-1510",
+      "contentRevision": 1,
+      "titleEn": "an open palate",
+      "titleZh": "願意嘗試不同味道",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ban\\s+open\\s+palate\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 1,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Her travels gave her an open palate.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "an open palate",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A willingness to try and appreciate a range of flavours.",
+        "meaningZh": "願意嘗試並欣賞不同味道的態度。",
+        "grammar": "have / develop an open palate; palate refers to taste, open suggests receptiveness",
+        "register": "neutral",
+        "boundaryZh": "願意嘗試不等於每樣都喜歡或必須吃；尊重過敏、飲食限制與個人選擇，不用食量大小衡量。",
+        "misconceptionZh": "願意嘗試不等於每樣都喜歡或必須吃；尊重過敏、飲食限制與個人選擇，不用食量大小衡量。",
+        "outcomeZh": "理解「願意嘗試不同味道」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Maya has an open palate: she is willing to try unfamiliar flavours, though she does not enjoy every dish.",
+        "zh": "Maya 願意嘗試不同味道：她願試陌生風味，但並非每道菜都喜歡。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她樂於嘗試，仍可以有不喜歡的菜。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她只願吃完全熟悉的菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她必須喜歡每道菜，才算願意嘗試。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子重點是她比別人吃得更多。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "willing to try 與 not every dish 同時成立；開放不是毫無喜惡。"
+      },
+      "reply": {
+        "promptEn": "Why do you let Maya suggest a new restaurant?",
+        "promptZh": "你為甚麼讓 Maya 提議新餐廳？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She has an open palate and enjoys exploring unfamiliar flavours.",
+            "zh": "她願意嘗試不同味道，喜歡探索陌生風味。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She is curious about dishes she has not tried before.",
+            "zh": "她對尚未嘗過的菜式很好奇。"
+          },
+          {
+            "id": "reply-3",
+            "en": "She can help us choose something beyond our usual meals.",
+            "zh": "她能幫我們選慣常飯餐以外的菜。"
+          },
+          {
+            "id": "reply-4",
+            "en": "She asks about ingredients and enjoys discovering different tastes.",
+            "zh": "她會問食材，也喜歡發現不同味道。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友願意先了解陌生食材並試合適份量，但試過後可以說不喜歡。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She has an open palate.",
+            "zh": "她願意嘗試不同味道。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She chooses familiar flavours and declines unfamiliar ones without asking about them.",
+            "zh": "她只選熟悉風味，沒有先了解就拒絕陌生味道。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She treats liking every dish as a condition of trying new food.",
+            "zh": "她把喜歡每道菜當成嘗試新食物的條件。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "開放體現在願意探索，不要求每樣都喜歡。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜用來界定 an open palate？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "願意了解及嘗試不同味道。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "即使有飲食限制，也必須吃所有食物來證明開放。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "嘗試後仍可以有個人喜惡。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "開放不是越過身體需要或強迫食用；本課測態度，不是吃多少種類。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說試過後不喜歡一道菜，就不能算口味開放。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An open palate means being willing to explore, not having to like every dish.",
+            "zh": "口味開放是願意探索，不是必須喜歡每道菜。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Judge willingness only by the number of dishes the person finishes.",
+            "zh": "只按吃完多少道菜判斷願意程度。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choose the safest familiar dish at each tasting so she will not need to express a dislike.",
+            "zh": "每次試食都選最穩妥熟悉的菜，讓她不用表達不喜歡。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "真實探索可伴隨偏好，不必用吃光證明，刻意只選熟悉菜式也不等於探索。"
+      },
+      "speaking": {
+        "en": "An open palate can help us discover new flavours.",
+        "zh": "願意嘗試不同味道，能幫我們發現新風味。",
+        "targetSpan": {
+          "start": 0,
+          "end": 14
+        },
+        "promptZh": "你想分享探索食物的開放態度。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為美食日寫邀請，鼓勵來賓了解陌生味道，也容許他們按需要選合適菜式，不必假裝每樣都喜歡。用一至兩句英文表達開放而尊重選擇的態度。",
+        "examples": [
+          {
+            "en": "An open palate can help guests explore new dishes at our food fair. They can still choose food that suits their needs.",
+            "zh": "願意嘗試不同味道，能幫來賓在美食日探索新菜式。他們仍可選配合需要的食物。"
+          },
+          {
+            "en": "We welcome an open palate at the food fair, without asking guests to enjoy every dish or ignore their own preferences.",
+            "zh": "我們歡迎來賓在美食日以開放態度探索味道，不要求他們喜歡每道菜或忽略個人喜好。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "guests",
+            "zh": "來賓",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 30
+            }
+          },
+          {
+            "en": "our food fair",
+            "zh": "我們的美食日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 66
+            }
+          },
+          {
+            "en": "explore new dishes",
+            "zh": "探索新菜式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 49
+            }
+          },
+          {
+            "en": "their own preferences",
+            "zh": "他們自己的喜好",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 117
+            }
+          }
+        ],
+        "selfCheckZh": "以邀請語氣鼓勵探索，保留飲食需要及喜惡，不強迫食用。"
+      },
+      "takeaways": [
+        {
+          "en": "Travel helped her develop an open palate.",
+          "zh": "旅行幫她培養願意嘗試不同味道的態度。"
+        },
+        {
+          "en": "You can have an open palate and still dislike some dishes.",
+          "zh": "你可以願意嘗試不同味道，同時不喜歡某些菜式。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1511",
+      "number": 1511,
+      "inventoryId": "expr-1511",
+      "contentRevision": 1,
+      "titleEn": "wins people over",
+      "titleZh": "贏得別人認同",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:win|wins|won|winning)\\s+(?:people|them|us|her|him|customers|diners)\\s+over\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 2,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The chef wins people over with fresh flavours.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "wins people over",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Gain someone’s approval, support or affection.",
+        "meaningZh": "贏得別人的認同、支持或好感。",
+        "grammar": "win people over with / by + attractive quality or action; pronoun between win and over: win them over",
+        "register": "neutral",
+        "boundaryZh": "獲得支持是態度轉變，不只是讓人注意或迫使同意；不是競賽擊敗對手的 win。",
+        "misconceptionZh": "獲得支持是態度轉變，不只是讓人注意或迫使同意；不是競賽擊敗對手的 win。",
+        "outcomeZh": "理解「贏得別人認同」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The new cook won people over with patient explanations and carefully prepared dishes, even though some diners were doubtful at first.",
+        "zh": "一些食客起初有疑慮，但新廚師以耐心解釋及用心菜式贏得大家好感。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "原有疑慮的食客逐漸產生好感。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "廚師只是吸引目光，食客態度未有改善。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "食客被要求表面同意，仍不支持廚師。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子主要說廚師在烹飪比賽擊敗其他選手。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "doubtful at first 配合 won people over，指從疑慮轉向支持，而不是比賽勝負。"
+      },
+      "reply": {
+        "promptEn": "Why are diners warming to the new cook?",
+        "promptZh": "食客為甚麼逐漸喜歡新廚師？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "She wins people over with carefully prepared dishes and friendly explanations.",
+            "zh": "她以精心準備的菜式及友善解釋，贏得大家好感。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She listens to questions and explains the unfamiliar ingredients.",
+            "zh": "她聆聽問題，解釋陌生食材。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The dishes show care, and customers feel welcome.",
+            "zh": "菜式顯示用心，顧客也感到受歡迎。"
+          },
+          {
+            "id": "reply-4",
+            "en": "People appreciate the attention she gives to their feedback.",
+            "zh": "大家欣賞她重視他們的回饋。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新計劃起初受質疑，負責人聆聽問題並改善安排，成員後來支持。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She won them over by responding to their concerns.",
+            "zh": "她回應大家的關注，贏得他們支持。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She drew attention to the plan, but their support did not change.",
+            "zh": "她令計劃受注意，但大家支持程度沒有改變。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She secured agreement mainly by pressuring them to stay quiet.",
+            "zh": "她主要施壓令他們不發言，取得表面同意。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "疑慮得到回應，態度轉為支持，才是贏得認同。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不足以稱為 win people over？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "耐心解釋後，原有疑慮者開始支持。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "人們因怕被責怪而沉默，但私下仍反對。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可靠表現令顧客逐漸信任新服務。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "受壓沉默不是由好感、認同而支持。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說讓人閉口不反對，就等於贏得支持。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To win people over, we need genuine support rather than silence caused by pressure.",
+            "zh": "要贏得認同，需要真正支持，而不只是壓力造成的沉默。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the lack of public complaints as the main sign that doubts have been resolved.",
+            "zh": "主要用沒有公開投訴，判斷疑慮已解決。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Stop asking for feedback once people no longer object in the meeting.",
+            "zh": "大家在會議不再反對後，就停止詢問回饋。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "真正態度改變需要更可靠證據，沉默及停止提問都不能確認。"
+      },
+      "speaking": {
+        "en": "She wins people over by listening to their concerns.",
+        "zh": "她透過聆聽大家的關注，贏得認同。",
+        "targetSpan": {
+          "start": 4,
+          "end": 20
+        },
+        "promptZh": "你想形容聆聽如何贏得支持。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：店舖推出陌生解謎遊戲，顧客起初有疑慮；清楚示範規則及有趣試玩回合後，他們產生興趣並想再玩。用一至兩句英文描述如何贏得認同。",
+        "examples": [
+          {
+            "en": "The new puzzle game won people over with clear instructions and an engaging trial round. Shoppers who were doubtful began asking to play again.",
+            "zh": "新解謎遊戲以清楚指示及有趣試玩回合贏得大家好感。原有疑慮的顧客開始要求再玩。"
+          },
+          {
+            "en": "The customers were unsure about the puzzle game, but a short demonstration won them over by making the rules easy to follow.",
+            "zh": "顧客起初對解謎遊戲不確定，但簡短示範讓規則容易跟上，贏得他們認同。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The new puzzle game",
+            "zh": "新解謎遊戲",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 19
+            }
+          },
+          {
+            "en": "clear instructions",
+            "zh": "清楚指示",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 59
+            }
+          },
+          {
+            "en": "an engaging trial round",
+            "zh": "有趣試玩回合",
+            "exampleIndex": 0,
+            "span": {
+              "start": 64,
+              "end": 87
+            }
+          },
+          {
+            "en": "a short demonstration",
+            "zh": "簡短示範",
+            "exampleIndex": 1,
+            "span": {
+              "start": 53,
+              "end": 74
+            }
+          }
+        ],
+        "selfCheckZh": "用清楚規則與試玩回合說明顧客由疑慮轉向好感，不只說有人注意產品。"
+      },
+      "takeaways": [
+        {
+          "en": "She wins people over by taking their concerns seriously.",
+          "zh": "她認真看待大家的關注，贏得認同。"
+        },
+        {
+          "en": "Patient explanations won people over after their initial doubts.",
+          "zh": "耐心解釋讓起初有疑慮的人轉為支持。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1512",
+      "number": 1512,
+      "inventoryId": "expr-1512",
+      "contentRevision": 1,
+      "titleEn": "punchy mix",
+      "titleZh": "鮮明有力的味道組合",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bpunchy\\s+mix\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 2,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The sauce has a punchy mix of heat and sweetness.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "punchy mix",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A combination of flavours with a strong, lively impact.",
+        "meaningZh": "味道鮮明有力的組合。",
+        "grammar": "a punchy mix of + flavours, such as heat and sweetness",
+        "register": "neutral",
+        "boundaryZh": "punchy 形容鮮明衝擊，不只表示辣，也不表示對每個人都好吃；mix 是幾種味道的組合。",
+        "misconceptionZh": "punchy 形容鮮明衝擊，不只表示辣，也不表示對每個人都好吃；mix 是幾種味道的組合。",
+        "outcomeZh": "理解「鮮明有力的味道組合」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "來源列為 Idiom or set phrase，但解釋本身稱 natural food collocation；本課採自然搭配，punchy 為有力、鮮明的引申義。"
+      },
+      "listening": {
+        "en": "The sauce has a punchy mix of chilli, lime and sweetness, so its flavours stand out even in a small amount.",
+        "zh": "醬汁有辣椒、青檸與甜味的鮮明組合，即使用少量，味道仍很突出。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "幾種味道組合起來，帶來鮮明感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "醬汁味道很淡，很難察覺各種風味。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "醬汁只用辣味，沒有酸甜部分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子說每位食客都一定喜歡這個醬汁。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "列出辣椒、青檸及甜味，並說 flavours stand out；沒有對人人喜好作保證。"
+      },
+      "reply": {
+        "promptEn": "Why do you use only a little of that sauce?",
+        "promptZh": "你為甚麼只用少量那個醬汁？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It has a punchy mix of sharp and sweet flavours.",
+            "zh": "它有酸爽與甜味的鮮明組合。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The flavours are strong enough to notice in a small amount.",
+            "zh": "少量已能察覺它強烈的味道。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Too much could cover the gentler flavours in the dish.",
+            "zh": "用太多可能蓋過菜式較柔和的味道。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I want the sauce to add contrast without dominating the meal.",
+            "zh": "我希望醬汁增加對比，而不主導整頓飯。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "少量醬汁已帶來清楚酸甜與辣味，讓菜式有鮮明對比。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The sauce has a punchy mix of flavours.",
+            "zh": "醬汁有鮮明有力的味道組合。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The sauce is so mild that its flavours are difficult to notice.",
+            "zh": "醬汁很淡，味道難以察覺。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The sauce relies on a single taste without any contrast.",
+            "zh": "醬汁只靠單一味道，沒有對比。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "多種味道鮮明而有對比，符合 mix 與 punchy。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 punchy mix 的食物用法？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "味道組合鮮明突出。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "punchy 必須只指辣椒的辣度，不包括酸或其他強烈味道。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "少量已可帶來明顯味道對比。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "punchy 是有力鮮明，不只等於辣；可以形容不同味道組合。"
+      },
+      "dialogue": {
+        "promptZh": "朋友把 punchy mix 解作加更多辣椒就行，不用考慮其他味道。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A punchy mix can use several strong flavours; think about their contrast as well as the heat.",
+            "zh": "鮮明組合可用幾種強烈味道；除了辣度，也要考慮對比。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Increase the chilli first and use the amount of heat as the only description of the mix.",
+            "zh": "先增加辣椒，只用辣度描述這個組合。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the lime and sweetness before deciding whether the combination has enough contrast.",
+            "zh": "先移除青檸與甜味，再判斷組合有沒有足夠對比。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "mix 包括味道間關係；只量辣度或先刪掉對比，未回應完整意思。"
+      },
+      "speaking": {
+        "en": "Try a little of this dressing first; its punchy mix of chilli and lime may be stronger than you expect.",
+        "zh": "先試少量這款沙律汁吧；辣椒與青檸的鮮明組合可能比你預期強烈。",
+        "targetSpan": {
+          "start": 41,
+          "end": 51
+        },
+        "promptZh": "你想描述味道組合鮮明。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：美食節文案把一款果仁小食寫成味道溫和，但你試到青檸酸味、濃香草與辛香料，少量已很鮮明。用一至兩句英文更正味道描述，不宣稱人人喜歡。",
+        "examples": [
+          {
+            "en": "The snack has a punchy mix of lime, herbs and spices, rather than a mild flavour. The menu should make that contrast clear.",
+            "zh": "小食有青檸、香草與香料的鮮明組合，而非溫和味道。餐牌應把這個對比說清。"
+          },
+          {
+            "en": "We should describe the punchy mix of herbs and spices so guests know to expect a strong flavour.",
+            "zh": "我們應描述香草與香料的鮮明組合，讓來賓知道預期會有強烈味道。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The snack",
+            "zh": "小食",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "lime, herbs and spices",
+            "zh": "青檸、香草與香料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 52
+            }
+          },
+          {
+            "en": "a mild flavour",
+            "zh": "溫和味道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 80
+            }
+          },
+          {
+            "en": "a strong flavour",
+            "zh": "強烈味道",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 95
+            }
+          }
+        ],
+        "selfCheckZh": "用具體味道更正文案，表達鮮明組合，不把 punchy 只等同辣。"
+      },
+      "takeaways": [
+        {
+          "en": "The dressing has a punchy mix of sharp and sweet flavours.",
+          "zh": "沙律醬有酸爽與甜味的鮮明組合。"
+        },
+        {
+          "en": "A punchy mix of flavours can stand out in a small portion.",
+          "zh": "少量的鮮明味道組合也可以很突出。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1513",
+      "number": 1513,
+      "inventoryId": "expr-1513",
+      "contentRevision": 1,
+      "titleEn": "that usually says it all",
+      "titleZh": "通常已很能說明問題",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthat\\s+usually\\s+says\\s+it\\s+all\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 2,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The long queue stretched around the corner, and that usually says it all.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "that usually says it all",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "That fact or reaction is usually very revealing about the point being discussed.",
+        "meaningZh": "那個事實或反應通常已很能說明正在談的重點。",
+        "grammar": "state a meaningful fact, then that usually says it all; that requires an explicit preceding fact",
+        "register": "neutral",
+        "boundaryZh": "usually 是保留語氣，不是邏輯上證明所有事情；要交代 that 指甚麼，並可承認其他解釋。",
+        "misconceptionZh": "usually 是保留語氣，不是邏輯上證明所有事情；要交代 that 指甚麼，並可承認其他解釋。",
+        "outcomeZh": "理解「通常已很能說明問題」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Most guests asked for the recipe after dinner; that usually says it all about how much they enjoyed the dish.",
+        "zh": "晚飯後大部分客人都問食譜；這通常已很能說明他們多喜歡那道菜。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "詢問食譜通常顯示喜歡，但語氣保留可能性。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "句子已嚴格證明每位客人都喜歡每道菜。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "客人問食譜主要被解讀為拒絕那道菜。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子沒有交代甚麼行為支持食客的反應。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "that 指問食譜，usually 保留概括程度；不是每人每菜的確證。"
+      },
+      "reply": {
+        "promptEn": "Why do you think guests enjoyed the soup?",
+        "promptZh": "你為甚麼覺得客人喜歡那個湯？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They asked for the recipe; that usually says it all.",
+            "zh": "他們問食譜；這通常已很能說明問題。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Several guests came back for another bowl.",
+            "zh": "幾位客人再回來添一碗。"
+          },
+          {
+            "id": "reply-3",
+            "en": "People asked how we made the broth.",
+            "zh": "大家問我們怎樣煮湯底。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The positive comments focused on its flavour.",
+            "zh": "正面評語集中在它的味道。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "多位食客吃完後問做法，你想把這當作通常很能顯示喜歡的線索，保留例外。哪句合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They asked for the recipe; that usually says it all.",
+            "zh": "他們問食譜；這通常已很能說明問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their questions prove that every guest liked every course equally.",
+            "zh": "他們的問題證明每位客人同樣喜歡每道菜。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their questions tell us only when dinner ended, not how they reacted.",
+            "zh": "他們的問題只告訴我們晚飯何時結束，沒有顯示反應。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "問食譜是相關反應，usually 不把線索誇大成無例外證明。"
+      },
+      "contrast": {
+        "promptZh": "哪個用法最不宜？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "先說客人主動問做法，再指出這通常已很能說明喜愛。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "沒有交代 that 指甚麼，便單獨用 that usually says it all 作完整解釋。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說這是通常有意義的線索，同時保留其他可能原因。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "that 需要有可辨識的前文事實；句子不是萬用的無內容結論。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說一條長隊已證明餐廳所有方面都完美。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A long queue can be revealing; that usually says it all about demand, but not every aspect of quality.",
+            "zh": "長隊可以很能說明情況；它通常顯示需求，但不是品質每個方面。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the queue as the full evaluation and skip checking service or food.",
+            "zh": "用長隊代替完整評估，不再查看服務或食物。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the queue only as a record of opening hours rather than considering what it suggests about demand.",
+            "zh": "只把長隊當作營業時間紀錄，不考慮它顯示的需求。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可從相關線索作保留判斷，不必誇大，也不用否定它與需求的關係。"
+      },
+      "speaking": {
+        "en": "The guests asked for the recipe; that usually says it all.",
+        "zh": "客人問食譜；這通常已很能說明問題。",
+        "targetSpan": {
+          "start": 33,
+          "end": 57
+        },
+        "promptZh": "你想以清楚事實支持食客喜歡菜式的推斷。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：同學看完社團表演後，主動問下一場何時舉行。你把這視為通常很能顯示興趣的線索，但不說人人都一樣。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "Several students asked when the next performance would be; that usually says it all about their interest.",
+            "zh": "幾位同學問下一場何時舉行；這通常已很能說明他們的興趣。"
+          },
+          {
+            "en": "They wanted tickets for another show, and that usually says it all. It suggests that they enjoyed the performance.",
+            "zh": "他們想要另一場的門票，這通常已很能說明問題。這顯示他們應該喜歡表演。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Several students asked",
+            "zh": "幾位同學詢問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 22
+            }
+          },
+          {
+            "en": "the next performance",
+            "zh": "下一場表演",
+            "exampleIndex": 0,
+            "span": {
+              "start": 28,
+              "end": 48
+            }
+          },
+          {
+            "en": "tickets for another show",
+            "zh": "另一場的門票",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 36
+            }
+          },
+          {
+            "en": "their interest",
+            "zh": "他們的興趣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 90,
+              "end": 104
+            }
+          }
+        ],
+        "selfCheckZh": "先提供 that 的明確指向，保留 usually 的推斷程度。"
+      },
+      "takeaways": [
+        {
+          "en": "Guests asked for another bowl; that usually says it all.",
+          "zh": "客人要求再添一碗；這通常已很能說明問題。"
+        },
+        {
+          "en": "They wanted to join again, and that usually says it all about their interest.",
+          "zh": "他們想再次參加，這通常已很能說明他們的興趣。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1514",
+      "number": 1514,
+      "inventoryId": "expr-1514",
+      "contentRevision": 1,
+      "titleEn": "going back for more",
+      "titleZh": "喜歡得再回來享用",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bgoing\\s+back\\s+for\\s+more\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p174-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 174,
+          "book": 7,
+          "question": 2,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The noodles kept us going back for more.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "going back for more",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Returning to have more of something enjoyable.",
+        "meaningZh": "因為喜歡某事物而再回來享用更多。",
+        "grammar": "keep someone going back for more; be going back for more",
+        "register": "neutral",
+        "boundaryZh": "本課是享受後想再有更多的自然說法；不只指為取回遺失物而回去，more 不一定是同一餐加食，也可下次再體驗。",
+        "misconceptionZh": "本課是享受後想再有更多的自然說法；不只指為取回遺失物而回去，more 不一定是同一餐加食，也可下次再體驗。",
+        "outcomeZh": "理解「喜歡得再回來享用」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "來源列為 Idiom or set phrase；本課按透明、可重用的自然搭配教授，不把整句當作不透明成語。"
+      },
+      "listening": {
+        "en": "The café’s warm welcome and fresh bread kept us going back for more during our stay.",
+        "zh": "咖啡店的熱情招待與新鮮麵包，令我們逗留期間喜歡得一再回去享用。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "我們因喜歡招待及食物而再回去。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "我們只是回去拿遺下的物品，沒有再享用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "我們只去過一次，之後沒有再光顧。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "我們回去主要是投訴先前的服務。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "kept us 加值得享受的原因，表示再光顧，而非取物或投訴。"
+      },
+      "reply": {
+        "promptEn": "Why did you visit that café several times?",
+        "promptZh": "你為甚麼去那間咖啡店好幾次？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The fresh bread kept us going back for more.",
+            "zh": "新鮮麵包令我們喜歡得一再回去享用。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We enjoyed the food each time and wanted another visit.",
+            "zh": "我們每次都喜歡食物，想再去。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The friendly service made it a comfortable place to return to.",
+            "zh": "友善服務讓它成為適合再去的地方。"
+          },
+          {
+            "id": "reply-4",
+            "en": "There were more dishes we were curious to try.",
+            "zh": "還有更多菜式讓我們想試。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "你吃過店裏麵包後很喜歡，逗留期間再去幾次買來吃。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The bread kept me going back for more.",
+            "zh": "麵包令我喜歡得一再回去享用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I returned only to collect the bag I had left behind.",
+            "zh": "我回去只是拿遺下的袋。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I enjoyed the bread but made no further visits.",
+            "zh": "我喜歡麵包，但沒有再去。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "喜歡並再享用是核心，不是任何一次回去都算。"
+      },
+      "contrast": {
+        "promptZh": "哪種回去的理由最不像 going back for more 的享受意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "喜歡食物，想再吃一次。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "回店只為拿遺失外套，沒有打算再享用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "喜歡展覽，隔天再來看尚未細看的作品。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "本課的 more 指再有享受，不是單純返回地點。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說只要返回餐廳，不論原因都能用這表達。哪句提醒準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Going back for more suggests wanting another enjoyable experience, not simply returning for a lost item.",
+            "zh": "再回來享用更多，表示想再體驗喜歡的事物，不只是回去取失物。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Describe a complaint-only visit as another enjoyable serving before asking why the customer returned.",
+            "zh": "先把只為投訴的回訪寫成再享用，再問客人回去的原因。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Count visits without considering whether the person wanted more of the food or experience.",
+            "zh": "只數回訪次數，不考慮對方是否想再享用食物或體驗。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "回訪的原因決定這個語境是否適合，單純次數不足。"
+      },
+      "speaking": {
+        "en": "The fresh bread kept us going back for more.",
+        "zh": "新鮮麵包令我們喜歡得一再回去享用。",
+        "targetSpan": {
+          "start": 24,
+          "end": 43
+        },
+        "promptZh": "你想形容喜歡得再次光顧。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們參觀互動科學展覽，喜歡親自操作的小實驗；第一次未看完，之後幾次再來試其他展品。用一至兩句英文描述吸引重訪的原因。",
+        "examples": [
+          {
+            "en": "The hands-on experiments kept us going back for more. Each visit gave us another interesting challenge to try.",
+            "zh": "親手操作的小實驗令我們喜歡得一再回去體驗。每次到訪都有另一個有趣挑戰可試。"
+          },
+          {
+            "en": "We were going back for more because the interactive exhibition made learning enjoyable.",
+            "zh": "我們一再回去體驗更多，因為互動展覽讓學習很有趣。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The hands-on experiments",
+            "zh": "親手操作的小實驗",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 24
+            }
+          },
+          {
+            "en": "Each visit",
+            "zh": "每次到訪",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 64
+            }
+          },
+          {
+            "en": "another interesting challenge",
+            "zh": "另一個有趣挑戰",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 102
+            }
+          },
+          {
+            "en": "the interactive exhibition",
+            "zh": "互動展覽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 36,
+              "end": 62
+            }
+          }
+        ],
+        "selfCheckZh": "把再訪與享受實驗及學習連起來，不只是重返地點取物。"
+      },
+      "takeaways": [
+        {
+          "en": "The café’s freshly baked rolls had us going back for more throughout the week.",
+          "zh": "咖啡店新鮮出爐的小麵包令我們整星期一再回去享用。"
+        },
+        {
+          "en": "We kept going back for more because the music was so enjoyable.",
+          "zh": "音樂很悅耳，令我們一再回去欣賞更多。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1515",
+      "number": 1515,
+      "inventoryId": "expr-1515",
+      "contentRevision": 1,
+      "titleEn": "firm favourites",
+      "titleZh": "長期深受喜愛的選擇",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bfirm\\s+favourites\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 2,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Those dishes are firm favourites with locals.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "firm favourites",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Things that have an established and strong place among people’s preferred choices.",
+        "meaningZh": "在人們喜愛的選擇中有穩固地位的事物。",
+        "grammar": "be / remain firm favourites with + group; British spelling favourites",
+        "register": "neutral",
+        "boundaryZh": "firm 修飾受喜愛地位穩固，不是食物硬度；要有持續喜愛依據，不只一次新鮮感，也不代表人人首選。",
+        "misconceptionZh": "firm 修飾受喜愛地位穩固，不是食物硬度；要有持續喜愛依據，不只一次新鮮感，也不代表人人首選。",
+        "outcomeZh": "理解「長期深受喜愛的選擇」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "來源稱 Idiom or set phrase；這是透明的慣常搭配，本課以 Natural English 教授。"
+      },
+      "listening": {
+        "en": "The two noodle dishes remain firm favourites with regular customers, who have ordered them for years.",
+        "zh": "熟客多年來一直點那兩道麵食，它們仍是長期深受喜愛的選擇。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "兩道菜在熟客偏好中有穩固地位。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩道菜因口感很硬才得到這個稱呼。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩道菜剛推出，尚未知道顧客是否會再點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子說每位顧客都把它們列作唯一首選。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "remain 及 for years 提供持續喜愛依據，不談硬度或每人唯一選擇。"
+      },
+      "reply": {
+        "promptEn": "Why keep those old dishes on the updated menu?",
+        "promptZh": "餐牌更新後為甚麼仍保留那些舊菜式？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They are firm favourites with our regular customers.",
+            "zh": "它們是熟客長期深受喜愛的選擇。"
+          },
+          {
+            "id": "reply-2",
+            "en": "People have returned for them for years.",
+            "zh": "人們多年來都為它們再來。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Customers often ask whether they are still available.",
+            "zh": "顧客常問是否仍有供應。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The dishes still hold a strong place among the familiar options.",
+            "zh": "那些菜仍在熟悉選項中佔重要位置。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "菜式多年來常被熟客點選，更新餐牌後仍很受歡迎。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They remain firm favourites.",
+            "zh": "它們仍是長期深受喜愛的選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are untested additions whose popularity is not yet known.",
+            "zh": "它們是尚未試過的新菜，人氣仍未知。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their appeal has faded and regular customers now avoid ordering them.",
+            "zh": "它們的吸引力已退，熟客現在避開不點。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "多年喜愛並仍受歡迎，支持穩固偏好地位。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以支持 firm favourites？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "顧客多年來重複點選某些菜式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一道新菜只推出一天，有人試過，尚未知道會否再點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "餐牌更新後，熟客仍經常詢問並點舊菜。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "一次嘗試未能建立穩固受喜愛地位。"
+      },
+      "dialogue": {
+        "promptZh": "朋友見新菜首天有人試，便稱它為長期人氣菜。哪句提醒準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Firm favourites suggests established appeal; we need more than a single day of curiosity.",
+            "zh": "長期受喜愛的選擇表示穩固吸引力；一天好奇嘗試還不足。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the number of first-day samples as a substitute for repeat demand.",
+            "zh": "用首天試食數量代替重複需求。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Describe the dish as an established favourite now and check later whether diners return for it.",
+            "zh": "現在先把菜式寫成長期人氣菜，稍後才查看食客會否再來點。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "初期興趣與已建立的持續喜愛要分開，應按證據使用搭配。"
+      },
+      "speaking": {
+        "en": "These dishes remain firm favourites with regular customers.",
+        "zh": "這些菜式仍是熟客長期深受喜愛的選擇。",
+        "targetSpan": {
+          "start": 20,
+          "end": 35
+        },
+        "promptZh": "你想描述有持續人氣依據的菜式。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：讀書小組多年來仍常要求重讀兩篇故事，新書加入後也沒有減少喜愛。用一至兩句英文向新成員介紹這些持續人氣作品。",
+        "examples": [
+          {
+            "en": "These two stories remain firm favourites with our reading group. Members still ask to read them again after several years.",
+            "zh": "這兩篇故事仍是讀書小組長期深受喜愛的選擇。幾年後，成員仍要求重讀。"
+          },
+          {
+            "en": "The stories are firm favourites rather than a passing curiosity. New books have joined the list, but members still return to them.",
+            "zh": "故事是長期受喜愛的選擇，而非短暫好奇。新書加入清單後，成員仍會重讀。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "These two stories",
+            "zh": "這兩篇故事",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "our reading group",
+            "zh": "我們的讀書小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 63
+            }
+          },
+          {
+            "en": "after several years",
+            "zh": "幾年後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 121
+            }
+          },
+          {
+            "en": "a passing curiosity",
+            "zh": "短暫好奇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 44,
+              "end": 63
+            }
+          }
+        ],
+        "selfCheckZh": "以多年重讀需求支持穩固偏好，把新鮮感與長期喜愛分開。"
+      },
+      "takeaways": [
+        {
+          "en": "The old dishes remain firm favourites with locals.",
+          "zh": "舊菜式仍是本地人長期深受喜愛的選擇。"
+        },
+        {
+          "en": "These stories have become firm favourites with the reading group.",
+          "zh": "這些故事已成為讀書小組長期深受喜愛的選擇。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1516",
+      "number": 1516,
+      "inventoryId": "expr-1516",
+      "contentRevision": 1,
+      "titleEn": "an international menu with a local accent",
+      "titleZh": "國際菜式帶本地風味",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ban\\s+international\\s+menu\\s+with\\s+a\\s+local\\s+accent\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Our food fair felt like an international menu with a local accent.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "an international menu with a local accent",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A varied international selection of food shaped by recognisable local tastes.",
+        "meaningZh": "多元國際菜式中，帶有可辨認的本地口味影響。",
+        "grammar": "offer / create an international menu with a local accent; accent is a metaphor for local influence",
+        "register": "neutral",
+        "boundaryZh": "accent 在此不是說話口音；有本地影響不等於外國來源消失，也不能只靠本地語言菜名證明。",
+        "misconceptionZh": "accent 在此不是說話口音；有本地影響不等於外國來源消失，也不能只靠本地語言菜名證明。",
+        "outcomeZh": "理解「國際菜式帶本地風味」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The café offers an international menu with a local accent, adapting dishes from abroad with familiar local seasonings.",
+        "zh": "咖啡店提供帶本地風味的國際餐牌，以熟悉本地調味改良外國菜式。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "國際菜式仍有可辨認本地口味影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "餐牌只有本地菜，沒有外國菜式來源。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "本地元素只在服務員說話口音，未影響食物。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "菜式完全照外國食譜做，沒有本地調整。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "國際來源與本地調味同時存在，accent 比喻食物影響。"
+      },
+      "reply": {
+        "promptEn": "Why do these foreign dishes still taste familiar?",
+        "promptZh": "這些外國菜式為甚麼仍有熟悉味道？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The café has an international menu with a local accent.",
+            "zh": "咖啡店的國際餐牌帶有本地風味。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The cook adapts some seasonings to flavours people know here.",
+            "zh": "廚師把部分調味改成這裏熟悉的味道。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The dishes combine overseas ideas with local ingredients.",
+            "zh": "菜式結合外地想法與本地食材。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Familiar touches remain even when the original recipes come from abroad.",
+            "zh": "原食譜雖來自外地，仍保留熟悉元素。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學校美食日有外國菜式，學生用本地熟悉調味作適度改良，仍能辨認原菜式。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It offers an international menu with a local accent.",
+            "zh": "它提供帶本地風味的國際餐牌。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Its dishes follow overseas recipes without any local adaptation.",
+            "zh": "菜式完全依照外地食譜，沒有本地調整。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Its dishes all come from one local tradition rather than several international sources.",
+            "zh": "菜式全來自一種本地傳統，而非幾種國際來源。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "既有國際來源又有本地影響，才符合完整比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪項證據最不足以支持 an international menu with a local accent？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "外地菜式使用本地熟悉調味。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "餐牌只翻譯成本地語言，菜式味道與做法未見本地影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "幾種國際菜式加入本地食材與熟悉配搭。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "語言標籤未必反映食物的本地調整。"
+      },
+      "dialogue": {
+        "promptZh": "朋友只因餐牌用本地語言，便稱它帶本地風味。哪句提醒較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An international menu with a local accent should show local influence in the food, not only in its labels.",
+            "zh": "帶本地風味的國際餐牌，應在食物中顯示本地影響，不只在標籤。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Translate the names first and treat the language alone as evidence of adapted flavours.",
+            "zh": "先翻譯菜名，只用語言證明味道已調整。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the international dishes so the menu will show a stronger local accent.",
+            "zh": "移除國際菜式，讓餐牌顯示更強本地風味。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需要國際來源與食物本身的本地影響；移除國際部分或只改名稱都不充分。"
+      },
+      "speaking": {
+        "en": "The café offers an international menu with a local accent.",
+        "zh": "咖啡店提供帶本地風味的國際餐牌。",
+        "targetSpan": {
+          "start": 16,
+          "end": 57
+        },
+        "promptZh": "你想形容國際菜式仍有本地口味影響。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你為到訪交流生規劃晚餐，希望保留他們熟悉的國際菜式，也配上本地熟悉醬汁；不是只翻譯菜名。用一至兩句英文向籌委提出具體方案。",
+        "examples": [
+          {
+            "en": "For the exchange dinner, we could create an international menu with a local accent by pairing overseas dishes with familiar local sauces.",
+            "zh": "交流晚餐可以把外國菜配上熟悉本地醬汁，設計帶本地風味的國際餐牌。"
+          },
+          {
+            "en": "An international menu with a local accent could welcome the visiting students while introducing local flavours through the sauces.",
+            "zh": "帶本地風味的國際餐牌可以歡迎到訪學生，同時透過醬汁介紹本地味道。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the exchange dinner",
+            "zh": "交流晚餐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 4,
+              "end": 23
+            }
+          },
+          {
+            "en": "overseas dishes",
+            "zh": "外國菜式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 94,
+              "end": 109
+            }
+          },
+          {
+            "en": "familiar local sauces",
+            "zh": "熟悉本地醬汁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 136
+            }
+          },
+          {
+            "en": "the visiting students",
+            "zh": "到訪學生",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 77
+            }
+          }
+        ],
+        "selfCheckZh": "以具體菜式與醬汁搭配提出接待方案，保留國際來源與本地味道，不只換語言標籤。"
+      },
+      "takeaways": [
+        {
+          "en": "The food fair has an international menu with a local accent.",
+          "zh": "美食日有帶本地風味的國際餐牌。"
+        },
+        {
+          "en": "Local flavours give the café an international menu with a local accent.",
+          "zh": "本地味道讓咖啡店的國際餐牌帶有本地風味。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1517",
+      "number": 1517,
+      "inventoryId": "expr-1517",
+      "contentRevision": 1,
+      "titleEn": "the city's rhythm",
+      "titleZh": "城市生活的步伐",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe\\s+city[’']s\\s+rhythm\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Street food fits the city's rhythm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the city's rhythm",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The recurring pattern and pace of life in a city.",
+        "meaningZh": "城市生活反覆出現的模式與步伐。",
+        "grammar": "fit / reflect / follow the city’s rhythm; rhythm is a metaphor for daily timing and pace",
+        "register": "neutral",
+        "boundaryZh": "不是音樂節拍；需要以具體生活安排說明，不假設城市每個人的速度相同。",
+        "misconceptionZh": "不是音樂節拍；需要以具體生活安排說明，不假設城市每個人的速度相同。",
+        "outcomeZh": "理解「城市生活的步伐」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The early breakfast stalls fit the city’s rhythm in this district, where many workers start before sunrise.",
+        "zh": "這區很多工人日出前開工，早開的早餐攤檔配合城市生活步伐。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "早餐供應時間配合這區居民的工作模式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "句子主要談城市樂隊演奏的節拍。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "攤檔時間與工人的作息完全不相配。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子認定全城每人的作息都完全相同。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "early 與 start before sunrise 交代作息；this district 限定觀察，未概括每個人。"
+      },
+      "reply": {
+        "promptEn": "Why does the breakfast stall open before sunrise?",
+        "promptZh": "早餐攤檔為甚麼日出前就開？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It fits the city’s rhythm in this area, where many people work early.",
+            "zh": "它配合這區的城市生活步伐，這裏很多人早開工。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Workers need food before their early shifts.",
+            "zh": "工人早班前需要食物。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The owner follows the hours when regular customers pass by.",
+            "zh": "店主依照熟客經過的時間營業。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Opening early makes the service useful to people on their way to work.",
+            "zh": "早開門讓上班途中有需要的人用得上服務。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "調查發現這區多人早上六點前出門，早餐服務相應提前。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The service fits the city’s rhythm in this district.",
+            "zh": "服務配合這區的城市生活步伐。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The service follows a musical beat played at the stall.",
+            "zh": "服務依照攤檔播放的音樂節拍。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The service opens later despite customers needing breakfast earlier.",
+            "zh": "顧客更早需要早餐，服務卻延遲開門。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "服務時間配合具體生活模式，rhythm 在此是比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪種說法不宜由 the city’s rhythm 直接推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "某種服務配合觀察到的作息。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "城市裏每個人都必須按完全相同速度生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以用工時、交通與用餐時間說明生活步伐。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "城市模式可以有差異，不是規定每個人同速。"
+      },
+      "dialogue": {
+        "promptZh": "朋友只用城市很忙就推定全體居民都早起。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "To describe the city’s rhythm, look at actual routines and allow for different schedules.",
+            "zh": "要描述城市生活步伐，應看實際作息，也容許不同時間表。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use one busy street at rush hour as the complete picture of every resident’s day.",
+            "zh": "用繁忙時間的一條街，代表所有居民整天的生活。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Set the service hours first and assume residents will adjust to the pattern we prefer.",
+            "zh": "先定服務時間，假設居民會配合我們喜歡的模式。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "生活模式要以具體觀察支持，不能以單一場景或希望代替。"
+      },
+      "speaking": {
+        "en": "The early breakfast service fits the city’s rhythm.",
+        "zh": "早開的早餐服務配合城市生活步伐。",
+        "targetSpan": {
+          "start": 33,
+          "end": 50
+        },
+        "promptZh": "你想把服務安排與觀察到的作息連起來。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：社區訪問顯示，一區不少輪班工人晚間才回家，希望有稍後開放的圖書交換活動。你建議試辦夜間場，也保留日間選項。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "A late book exchange could fit the city’s rhythm in this district. Our interviews show that many shift workers return home in the evening.",
+            "zh": "夜間圖書交換活動可配合這區的城市生活步伐。訪問顯示很多輪班工人晚上才回家。"
+          },
+          {
+            "en": "The city’s rhythm includes different schedules, so we could offer an evening book exchange as well as a daytime session.",
+            "zh": "城市生活步伐包含不同時間表，所以我們可在日間場之外，也提供夜間圖書交換活動。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "A late book exchange",
+            "zh": "夜間圖書交換活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "Our interviews",
+            "zh": "我們的訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 81
+            }
+          },
+          {
+            "en": "many shift workers",
+            "zh": "很多輪班工人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 110
+            }
+          },
+          {
+            "en": "a daytime session",
+            "zh": "日間場",
+            "exampleIndex": 1,
+            "span": {
+              "start": 102,
+              "end": 119
+            }
+          }
+        ],
+        "selfCheckZh": "用訪問及不同作息支持文化服務時間，不把全城居民說成同一生活步伐。"
+      },
+      "takeaways": [
+        {
+          "en": "Local services can reflect the city’s rhythm.",
+          "zh": "本地服務可以反映城市生活步伐。"
+        },
+        {
+          "en": "The city’s rhythm changes as working hours and travel habits change.",
+          "zh": "工時與交通習慣改變時，城市生活步伐也會改變。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1518",
+      "number": 1518,
+      "inventoryId": "expr-1518",
+      "contentRevision": 1,
+      "titleEn": "grab a sandwich",
+      "titleZh": "趕快買個三文治吃",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bgrab\\s+a\\s+sandwich\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "I will grab a sandwich before the meeting.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grab a sandwich",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Get a sandwich to eat, often quickly or informally.",
+        "meaningZh": "買或拿個三文治來吃，通常帶有趕快、隨便吃點的語氣。",
+        "grammar": "grab a sandwich before / after + event; informal spoken English",
+        "register": "informal spoken English",
+        "boundaryZh": "grab 在此是自然口語的買或吃，不是搶走別人食物；可暗示時間不多，但不提供確切分鐘數。",
+        "misconceptionZh": "grab 在此是自然口語的買或吃，不是搶走別人食物；可暗示時間不多，但不提供確切分鐘數。",
+        "outcomeZh": "理解「趕快買個三文治吃」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "來源列為 Idiom or set phrase，其解釋稱 natural spoken collocation；本課採自然口語搭配。"
+      },
+      "listening": {
+        "en": "We have a short break before the meeting, so let us grab a sandwich at the café nearby.",
+        "zh": "會議前有一小段休息時間，我們去附近咖啡店趕快買個三文治吃吧。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "利用短休息時間買點三文治吃。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "安排一頓長時間正式聚餐。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "先買三文治留待會後吃，現在不用餐。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子已訂明只能花整整五分鐘吃完。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "短休息及附近咖啡店支持方便用餐；不涉及搶奪或確切時限。"
+      },
+      "reply": {
+        "promptEn": "What shall we do for lunch before the meeting?",
+        "promptZh": "開會前午餐吃甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Let us grab a sandwich at the café nearby.",
+            "zh": "我們去附近咖啡店買個三文治吃吧。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Something quick would fit the short break.",
+            "zh": "簡便食物配合這段短休息。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We could buy a light lunch on the way.",
+            "zh": "我們可以途中買份輕便午餐。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The café near the office has food we can get quickly.",
+            "zh": "辦公室附近咖啡店有可以很快買到的食物。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "距離會議不久，你想提議附近買簡便午餐。哪句自然？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us grab a sandwich before the meeting.",
+            "zh": "我們開會前買個三文治吃吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Let us book a long tasting menu that runs through the meeting.",
+            "zh": "我們預訂一頓會延續到開會時間的長時間試食餐。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Let us order sandwiches for delivery after the meeting.",
+            "zh": "我們訂三文治在開會後送來吧。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要在會議前方便用餐，grab a sandwich 合乎時機與語氣。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解不宜由 grab a sandwich 直接推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "以口語提議買或吃個簡便三文治。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "已精確保證買和吃合共只花五分鐘。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "在短休息時間安排方便午餐。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "表達可以暗示快，但本身沒有精確時間保證。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說用了 grab a sandwich 就不必再考慮排隊時間。哪句較實際？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Grab a sandwich suggests a quick meal, but we still need to check whether there is time to buy it.",
+            "zh": "買個三文治吃暗示簡便用餐，但仍要看有沒有時間買。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the word quick as enough evidence and leave without checking the queue.",
+            "zh": "只用簡便這個字作依據，不看人龍就出發。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Assume that choosing a sandwich matters more than how long the café takes to serve it.",
+            "zh": "假定選三文治比咖啡店出餐需時更重要。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "語氣不等於實際時間保證，仍要看距離與排隊等條件。"
+      },
+      "speaking": {
+        "en": "Let us grab a sandwich before the meeting.",
+        "zh": "我們開會前買個三文治吃吧。",
+        "targetSpan": {
+          "start": 7,
+          "end": 22
+        },
+        "promptZh": "你想提議簡便午餐。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們周末步行遊覽，不想花很久堂食，希望買三文治到公園坐下吃，再慢慢繼續行程。用一至兩句自然英文提議。",
+        "examples": [
+          {
+            "en": "Let us grab a sandwich and eat in the park instead of having a long restaurant lunch. We can continue the walk afterwards.",
+            "zh": "我們買個三文治到公園吃，不用花很久在餐廳午膳。之後可繼續散步。"
+          },
+          {
+            "en": "We could grab a sandwich for a relaxed picnic during our walking tour.",
+            "zh": "步行遊覽期間，我們可以買個三文治，輕鬆野餐。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "eat in the park",
+            "zh": "在公園吃",
+            "exampleIndex": 0,
+            "span": {
+              "start": 27,
+              "end": 42
+            }
+          },
+          {
+            "en": "a long restaurant lunch",
+            "zh": "長時間餐廳午膳",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 84
+            }
+          },
+          {
+            "en": "continue the walk afterwards",
+            "zh": "之後繼續散步",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 121
+            }
+          },
+          {
+            "en": "a relaxed picnic",
+            "zh": "輕鬆野餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 29,
+              "end": 45
+            }
+          }
+        ],
+        "selfCheckZh": "用口語提議簡便飲食安排，目的可方便郊遊，不只趕工作會議。"
+      },
+      "takeaways": [
+        {
+          "en": "We can grab a sandwich before the train leaves.",
+          "zh": "我們可以火車開出前買個三文治吃。"
+        },
+        {
+          "en": "Let us grab a sandwich during the break.",
+          "zh": "我們休息時買個三文治吃吧。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1519",
+      "number": 1519,
+      "inventoryId": "expr-1519",
+      "contentRevision": 1,
+      "titleEn": "worth coming back for",
+      "titleZh": "值得為它再來",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bworth\\s+coming\\s+back\\s+for\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 2,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The soup is worth coming back for.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "worth coming back for",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Good or valuable enough to justify another visit.",
+        "meaningZh": "好或有價值到值得為它再次到訪。",
+        "grammar": "the food / service is worth coming back for; for refers to the reason for returning",
+        "register": "neutral",
+        "boundaryZh": "這是評價，不代表已經再來過，也不是人人相同喜好；worth 後用 coming，不用 to come。",
+        "misconceptionZh": "這是評價，不代表已經再來過，也不是人人相同喜好；worth 後用 coming，不用 to come。",
+        "outcomeZh": "理解「值得為它再來」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The soup is worth coming back for, although this is our first visit to the café.",
+        "zh": "雖然這是第一次來咖啡店，這個湯已值得我們為它再來。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者認為湯值得再來，但尚未重訪。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "說話者已多次重訪，句子以此為必要條件。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "說話者只覺得湯便宜，沒有表達是否值得重訪。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "說話者覺得湯不合口味，不想再來。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "worth 表值得，first visit 清楚說尚未再訪；評價與已發生行動不同。"
+      },
+      "reply": {
+        "promptEn": "Would you return to this café?",
+        "promptZh": "你會再來這間咖啡店嗎？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Yes, the soup is worth coming back for.",
+            "zh": "會，這個湯值得為它再來。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I would like another chance to enjoy that broth.",
+            "zh": "我想再有機會享用那個湯底。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The food gave me a good reason for another visit.",
+            "zh": "食物給了我再來一次的好理由。"
+          },
+          {
+            "id": "reply-4",
+            "en": "I enjoyed it enough to plan another lunch here.",
+            "zh": "我很喜歡，願意安排再來這裏吃午餐。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "第一次看展覽，你覺得作品值得再細看，打算改天再來。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The exhibition is worth coming back for.",
+            "zh": "展覽值得為它再來。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The exhibition mainly reminds me of visits I made before today.",
+            "zh": "展覽主要讓我想起今天以前的到訪。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The exhibition offers no reason for another visit.",
+            "zh": "展覽沒有值得再來的理由。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "值得再訪可在第一次體驗後判斷，不要求已重訪。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 worth coming back for？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "認為某事物足以成為重訪理由。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這表達只陳述已經重訪的事實，沒有評價值不值得。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以先作值得再來的評價，之後才安排。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "worth 是價值判斷，不設定重訪次數門檻。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說第一次來就不能說值得再來。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Worth coming back for expresses a reason to return, so we can say it after a first visit.",
+            "zh": "值得為它再來表達重訪理由，所以首次到訪後也可這樣說。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Reserve the phrase for a completed return visit rather than a reason to plan another one.",
+            "zh": "只把這表達留給已完成的重訪，不用作計劃再來的理由。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat a plan to return as proof that the return visit has already happened.",
+            "zh": "把計劃重訪當作已經重訪的證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "評價、計劃與已完成行動不同，表達本身不設次數限制。"
+      },
+      "speaking": {
+        "en": "The museum’s thoughtful audio guide is worth coming back for when we have more time.",
+        "zh": "等我們有多些時間，博物館用心製作的語音導覽值得為它再來。",
+        "targetSpan": {
+          "start": 39,
+          "end": 60
+        },
+        "promptZh": "你想表達第一次享用後覺得值得重訪。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你首次到社區維修咖啡館，義工耐心解釋問題，讓你覺得實用。下次有另一項目想請教，你願意再來。用一至兩句英文說明重訪理由，不寫實際維修步驟。",
+        "examples": [
+          {
+            "en": "The practical advice at the community repair café is worth coming back for. I would like to ask the volunteers about another project next time.",
+            "zh": "社區維修咖啡館的實用建議值得為它再來。我希望下次再向義工請教另一個項目。"
+          },
+          {
+            "en": "The helpful explanations are worth coming back for when I have another repair question, even though I have only visited once.",
+            "zh": "即使我只到過一次，下次有其他維修問題時，這些有幫助的解釋仍值得為它再來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The practical advice",
+            "zh": "實用建議",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          {
+            "en": "the community repair café",
+            "zh": "社區維修咖啡館",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 49
+            }
+          },
+          {
+            "en": "ask the volunteers",
+            "zh": "向義工請教",
+            "exampleIndex": 0,
+            "span": {
+              "start": 92,
+              "end": 110
+            }
+          },
+          {
+            "en": "another repair question",
+            "zh": "另一個維修問題",
+            "exampleIndex": 1,
+            "span": {
+              "start": 63,
+              "end": 86
+            }
+          }
+        ],
+        "selfCheckZh": "以耐心實用解釋支持值得再來，保留目前只到訪一次與將來意願的分別。"
+      },
+      "takeaways": [
+        {
+          "en": "The friendly service is worth coming back for.",
+          "zh": "友善服務值得為它再來。"
+        },
+        {
+          "en": "That exhibition is worth coming back for, even after a full afternoon there.",
+          "zh": "即使已逗留整個下午，那個展覽仍值得為它再來。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1521",
+      "number": 1521,
+      "inventoryId": "expr-1521",
+      "contentRevision": 1,
+      "titleEn": "catching up",
+      "titleZh": "聊聊近況",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bcatch(?:ing)?\\s+up\\b|\\bcaught\\s+up\\b|\\bcatches\\s+up\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The sisters spent dinner catching up.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catching up",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p180-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 180,
+          "book": 7,
+          "question": 8,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The sisters spent dinner catching up.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "catching up",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Talk and share recent news after time apart.",
+        "meaningZh": "分開一段時間後交談，分享彼此近況。",
+        "grammar": "catch up with + person; spend time catching up; past caught up",
+        "register": "neutral",
+        "boundaryZh": "本課是人際近況交流，不是補功課、追上進度或追趕走在前面的人；需要交談背景。",
+        "misconceptionZh": "本課是人際近況交流，不是補功課、追上進度或追趕走在前面的人；需要交談背景。",
+        "outcomeZh": "理解「聊聊近況」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The sisters spent dinner catching up, telling each other what had happened since their last visit.",
+        "zh": "姊妹晚飯時聊近況，告訴彼此上次見面後發生的事。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她們交流分開期間的近況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她們在補做欠交功課，沒有聊生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她們正加快腳步追上前面的人。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她們只重複早已知道的家庭規則，沒有分享新消息。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "telling each other what had happened 明示本課的人際近況意思。"
+      },
+      "reply": {
+        "promptEn": "What did you and your sister talk about at dinner after months apart?",
+        "promptZh": "你和姊妹分開幾個月後，晚飯時談甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We spent the evening catching up on each other’s news.",
+            "zh": "我們整晚聊彼此近況。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She told me about her new course, and I shared news from work.",
+            "zh": "她告訴我新課程，我分享工作消息。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We talked about what had changed since our last visit.",
+            "zh": "我們聊上次見面後有甚麼改變。"
+          },
+          {
+            "id": "reply-4",
+            "en": "It was a chance to hear how life had been for both of us.",
+            "zh": "這讓我們有機會知道彼此最近生活如何。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩位朋友久未見面，坐下來互相分享新工作和最近家庭消息。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are catching up over a meal.",
+            "zh": "他們邊吃邊聊近況。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are catching up on overdue homework rather than talking about recent life.",
+            "zh": "他們是在補欠交功課，而非聊近況。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They are rushing to catch a friend who is walking ahead.",
+            "zh": "他們正在趕上走在前面的朋友。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "分享新工作和家庭消息限定社交交流意思，其他用法不配此情境。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不屬於本課 catch up 的近況交流意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "久未見面的朋友分享最近生活。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "學生補做漏交作業，沒有與人分享近況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩位親人談彼此上次見面後的經歷。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "同一片語有多義，本課需分清社交交流與補進度。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說聊天氣才算聊天，分享久未見面的近況不能用 catch up。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Catching up can mean sharing recent news after time apart.",
+            "zh": "catching up 可以指分開一段時間後分享近況。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use catch up only when one person is behind with a deadline.",
+            "zh": "只在某人進度落後時用 catch up。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep the talk to a familiar topic and leave recent changes out of the conversation.",
+            "zh": "談話只限熟悉話題，不談最近變化。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "人際分享近況是本課意思；補進度不是唯一用法，刻意排除近況也沒有回應情境。"
+      },
+      "speaking": {
+        "en": "We spent dinner catching up on each other’s news.",
+        "zh": "我們晚飯時聊彼此近況。",
+        "targetSpan": {
+          "start": 16,
+          "end": 27
+        },
+        "promptZh": "你想描述久別後分享生活消息。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你與以前的藝術拍檔很久沒合作，準備新項目前先通話，分享最近學到的技巧及興趣改變，再決定合作方向。用一至兩句英文描述這段交流。",
+        "examples": [
+          {
+            "en": "Before planning our next art project, we had a short call to catch up and share the new techniques we had learned.",
+            "zh": "規劃下一個藝術項目前，我們先通簡短電話聊近況，分享最近學到的技巧。"
+          },
+          {
+            "en": "Catching up helped the former partners understand how their interests had changed before choosing a new project.",
+            "zh": "聊近況幫以前的拍檔在選新項目前，了解彼此興趣有甚麼改變。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our next art project",
+            "zh": "我們下一個藝術項目",
+            "exampleIndex": 0,
+            "span": {
+              "start": 16,
+              "end": 36
+            }
+          },
+          {
+            "en": "a short call",
+            "zh": "簡短通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 57
+            }
+          },
+          {
+            "en": "the new techniques",
+            "zh": "新技巧",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 98
+            }
+          },
+          {
+            "en": "their interests had changed",
+            "zh": "他們的興趣改變了",
+            "exampleIndex": 1,
+            "span": {
+              "start": 54,
+              "end": 81
+            }
+          }
+        ],
+        "selfCheckZh": "寫出近況交流如何支援重新合作，不把 catch up 混成補交功課。"
+      },
+      "takeaways": [
+        {
+          "en": "We enjoyed catching up over dinner.",
+          "zh": "我們很享受晚飯時聊近況。"
+        },
+        {
+          "en": "I caught up with an old friend and heard about her new job.",
+          "zh": "我和舊朋友聊近況，聽她說新工作。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1522",
+      "number": 1522,
+      "inventoryId": "expr-1522",
+      "contentRevision": 1,
+      "titleEn": "checking in",
+      "titleZh": "問候近況與需要",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bcheck(?:ing|s|ed)?\\s+in\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A shared meal is a chance for checking in.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "checking in",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p206-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 206,
+          "book": 8,
+          "question": 4,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A shared meal is a chance for checking in.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "checking in",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p209-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 209,
+          "book": 8,
+          "question": 6,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "A shared meal is a chance for checking in.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "checking in",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Contact someone to ask how they are doing.",
+        "meaningZh": "聯絡某人，問候對方近況或是否需要幫助。",
+        "grammar": "check in with + person; checking in to see how someone is doing",
+        "register": "neutral",
+        "boundaryZh": "本課是關心式聯絡，不是酒店登記；問候要尊重對方，不等於要求完整匯報或監控。",
+        "misconceptionZh": "本課是關心式聯絡，不是酒店登記；問候要尊重對方，不等於要求完整匯報或監控。",
+        "outcomeZh": "理解「問候近況與需要」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Maya is checking in with her brother after his first week away, asking how he is settling in and whether he needs anything.",
+        "zh": "弟弟離家一週後，Maya 聯絡問候，問他適應得如何，以及有沒有需要。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她聯絡弟弟，關心適應情況與需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她正在替弟弟辦酒店入住登記。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她只核對弟弟功課有沒有完成，沒有問近況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她要求弟弟交代每小時行蹤，句子以此為問候重點。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "asking how...whether he needs anything 定義關心式問候，不是住宿登記或逐時監控。"
+      },
+      "reply": {
+        "promptEn": "Why are you calling your brother after his first week away?",
+        "promptZh": "弟弟離家一週後，你為甚麼打電話給他？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "I am checking in to see how he is settling in.",
+            "zh": "我聯絡問候，看看他適應得如何。"
+          },
+          {
+            "id": "reply-2",
+            "en": "I want to know whether he needs any help.",
+            "zh": "我想知道他有沒有需要幫忙。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It is a chance to let him know I am available to listen.",
+            "zh": "這讓他知道我願意聆聽。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A short call can help us stay connected while he adjusts.",
+            "zh": "他適應期間，簡短電話能幫我們保持連繫。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友搬走一週，你發訊息問適應如何，說有需要可以聊。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I am checking in to see how you are doing.",
+            "zh": "我聯絡問候，看看你近況如何。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I am checking you into a hotel for the night.",
+            "zh": "我正替你登記入住酒店。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I am asking for a full hourly report before offering any support.",
+            "zh": "我先要求每小時完整匯報，才提供支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "問適應並提供聆聽是本課問候，不是住宿手續或監控。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不屬於本課 checking in 的關心意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "發訊息問朋友新環境適應如何。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "旅客在酒店櫃枱辦入住手續。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "打簡短電話問親人是否需要幫助。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "酒店登記是另一意思，與本課人際關心語境不同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說問候必須要求對方完整交代每小時行蹤。哪句較合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Checking in can be a brief, respectful way to ask how someone is doing and offer support.",
+            "zh": "問候可以是簡短而尊重地詢問近況，並提供支持。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Make support depend on receiving a detailed report of the person’s whole day.",
+            "zh": "把提供支持建基於收到對方整天詳細匯報。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Focus on collecting times and locations before asking how the person feels.",
+            "zh": "先集中收集時間地點，再問對方感受。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "本課中心是關心與需要，不是把支持設為監控條件。"
+      },
+      "speaking": {
+        "en": "I am checking in to see how you are doing.",
+        "zh": "我聯絡問候，看看你近況如何。",
+        "targetSpan": {
+          "start": 5,
+          "end": 16
+        },
+        "promptZh": "你想自然關心朋友近況。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友剛完成忙碌的社區活動，你想簡短聯絡，問這週感受如何及是否想聊，不要求逐項工作匯報。用一至兩句英文問候。",
+        "examples": [
+          {
+            "en": "I am checking in after the busy community event. How has the week been for you?",
+            "zh": "忙碌社區活動後，我聯絡問候。你這週過得如何？"
+          },
+          {
+            "en": "Just checking in to see how you are doing after the event. I am here if you want to talk.",
+            "zh": "活動後簡單問候，看看你近況如何。如果你想聊，我願意聆聽。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the busy community event",
+            "zh": "忙碌的社區活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 47
+            }
+          },
+          {
+            "en": "the week",
+            "zh": "這一週",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 65
+            }
+          },
+          {
+            "en": "after the event",
+            "zh": "活動後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 57
+            }
+          },
+          {
+            "en": "want to talk",
+            "zh": "想聊",
+            "exampleIndex": 1,
+            "span": {
+              "start": 76,
+              "end": 88
+            }
+          }
+        ],
+        "selfCheckZh": "關心對方感受並提供聆聽，不把問候變成活動績效或行蹤匯報。"
+      },
+      "takeaways": [
+        {
+          "en": "I am checking in to see how you are settling in.",
+          "zh": "我聯絡問候，看看你適應得如何。"
+        },
+        {
+          "en": "Thank you for checking in after my first week.",
+          "zh": "謝謝你在我第一週後聯絡問候。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1523",
+      "number": 1523,
+      "inventoryId": "expr-1523",
+      "contentRevision": 1,
+      "titleEn": "keep relationships / family ties warm",
+      "titleZh": "維繫關係的溫度",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:keep(?:ing|s)?|kept)\\s+(?:their\\s+relationships|family\\s+ties)\\s+warm\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p175-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 175,
+          "book": 7,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Weekly calls help with keeping their relationships warm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeping their relationships warm",
+          "sourceCategory": "Figurative use"
+        },
+        {
+          "occurrenceId": "pdf-2-p142-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 142,
+          "book": 6,
+          "question": 10,
+          "sample": "S2",
+          "locatorNote": "PDF page 142, table 1, row 8; exact source metadata, no inference.",
+          "sentence": "A weekly call helps with keeping family ties warm.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "keeping family ties warm",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Maintain affection or emotional closeness in personal relationships, including family ties.",
+        "meaningZh": "維持人際關係中的情感親近，包括家庭連繫。",
+        "grammar": "people keep their relationships warm through calls or shared time; keeping family ties warm names the family scope explicitly. Keep + relationship/tie object + warm uses warmth for affectionate connection; name whose relationships before their.",
+        "register": "neutral",
+        "boundaryZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
+        "misconceptionZh": "warm 是親近的比喻，不是室溫；聯絡能幫助維繫，仍須真誠聆聽，不只是訊息數量，也不保證沒有分歧。",
+        "outcomeZh": "理解「維繫關係的溫度」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The cousins are keeping their relationships warm through regular calls in which they listen to one another’s news.",
+        "zh": "表親們定期通話並聆聽彼此近況，維繫關係的溫度。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他們透過有聆聽的聯絡維持親近。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們主要調高房間溫度，沒有談關係。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他們只記錄通話次數，不在意對方說甚麼。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "句子說定期通話已令親人不再有任何分歧。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "regular calls 加 listen 指情感維繫，不是物理溫度或沒有分歧的保證。"
+      },
+      "reply": {
+        "promptEn": "Why do the cousins make time for regular calls?",
+        "promptZh": "表親們為甚麼抽時間定期通話？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They are keeping their relationships warm despite living far apart.",
+            "zh": "雖住得遠，他們仍在維繫關係的溫度。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They want to hear what matters in one another’s lives.",
+            "zh": "他們想聽彼此生活中重要的事。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Sharing small updates helps them feel connected.",
+            "zh": "分享小近況，幫他們感到彼此有連繫。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The calls give them time to listen and offer support.",
+            "zh": "通話讓他們有時間聆聽和支持對方。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "朋友住得遠，仍定期真心聊生活並聆聽需要，保持親近。哪句貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are keeping their relationships warm.",
+            "zh": "他們正在維繫關係的溫度。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are only increasing the number of messages without engaging with them.",
+            "zh": "他們只是增加訊息數量，沒有投入交流。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They have left the friendship unattended until the next annual event.",
+            "zh": "他們把友誼擱置，直到下一次年度活動。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有投入的定期交流支持維繫，不是只數訊息或長期不理。"
+      },
+      "contrast": {
+        "promptZh": "哪種理解最不符合 keeping their relationships warm？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "有聆聽的交流能維持情感親近。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "訊息數目增加便足夠，不需理會對方內容或感受。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "住得遠也能透過真誠交流維繫。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "親近不只靠數量；回應和投入同樣重要。"
+      },
+      "dialogue": {
+        "promptZh": "朋友只想用自動訊息數量判斷親密程度。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Keeping their relationships warm takes meaningful contact, not only a higher message count.",
+            "zh": "維繫關係的溫度需要有意義交流，不只更多訊息數量。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Increase the scheduled messages before checking whether anyone feels heard.",
+            "zh": "先增加預設訊息，再看是否有人感到被聆聽。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat a regular notification as a substitute for responding to personal news.",
+            "zh": "把定期通知當作回應個人近況的替代品。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "自動頻率可提醒聯絡，不能直接代替有投入的回應。"
+      },
+      "speaking": {
+        "en": "Regular calls help the cousins keep their relationships warm.",
+        "zh": "定期通話幫表親們維繫關係的溫度。",
+        "targetSpan": {
+          "start": 31,
+          "end": 60
+        },
+        "promptZh": "你想形容真誠聯絡的維繫作用。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：社團成員住得近但工作繁忙，大型聚會不常有；他們仍安排短散步，真心聆聽彼此生活。用一至兩句英文描述日常維繫。",
+        "examples": [
+          {
+            "en": "The club members are keeping their relationships warm through short walks between the larger gatherings. They make time to listen to one another.",
+            "zh": "社團成員在大型聚會之間透過短散步維繫關係的溫度。他們抽時間聆聽彼此。"
+          },
+          {
+            "en": "Shared walks help the busy members keep their relationships warm, even when there is no large event.",
+            "zh": "即使沒有大型活動，一起散步仍幫忙碌成員維繫關係的溫度。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The club members",
+            "zh": "社團成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "short walks",
+            "zh": "短散步",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 73
+            }
+          },
+          {
+            "en": "the larger gatherings",
+            "zh": "大型聚會",
+            "exampleIndex": 0,
+            "span": {
+              "start": 82,
+              "end": 103
+            }
+          },
+          {
+            "en": "make time to listen",
+            "zh": "抽時間聆聽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 110,
+              "end": 129
+            }
+          }
+        ],
+        "selfCheckZh": "指明 their 是成員的關係，以面對面小互動說明維繫，不只靠年度大聚會。"
+      },
+      "takeaways": [
+        {
+          "en": "The friends are keeping their relationships warm through regular conversations.",
+          "zh": "朋友們透過定期交談維繫關係的溫度。"
+        },
+        {
+          "en": "The cousins kept their relationships warm while living in different cities.",
+          "zh": "表親們住在不同城市時，仍維繫關係的溫度。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1524",
+      "number": 1524,
+      "inventoryId": "expr-1524",
+      "contentRevision": 1,
+      "titleEn": "family bonds are quietly strengthened",
+      "titleZh": "家人連繫默默加深",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bfamily\\s+bonds\\s+are\\s+quietly\\s+strengthened\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p176-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 176,
+          "book": 7,
+          "question": 3,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "During those dinners, family bonds are quietly strengthened.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "family bonds are quietly strengthened",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Family relationships become closer through small, often unobtrusive acts.",
+        "meaningZh": "家庭關係透過細小而不張揚的互動逐漸加深。",
+        "grammar": "family bonds are quietly strengthened through / when + meaningful interactions",
+        "register": "neutral",
+        "boundaryZh": "bonds 是情感連繫；quietly 不一定指完全無聲，而是常在平凡互動中發生。並非只要一起出席就必定親近。",
+        "misconceptionZh": "bonds 是情感連繫；quietly 不一定指完全無聲，而是常在平凡互動中發生。並非只要一起出席就必定親近。",
+        "outcomeZh": "理解「家人連繫默默加深」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Family bonds are quietly strengthened when relatives share small worries over dinner and listen with care.",
+        "zh": "親人晚飯時分享小煩惱並用心聆聽，家人的連繫就默默加深。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "平凡而有關心的交流讓關係加深。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "quietly 表示家人不可交談才能親近。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "句子只保證坐在同一桌便足夠，不需互動。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "親人主要在比較誰講得最久，以決定關係親疏。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "分享和用心聆聽是具體過程；quietly 描述不張揚，不禁止說話。"
+      },
+      "reply": {
+        "promptEn": "Why does your family value ordinary dinners together?",
+        "promptZh": "你的家人為甚麼重視平常一起吃晚飯？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Family bonds are quietly strengthened when we listen to each other.",
+            "zh": "我們聆聽彼此時，家人的連繫默默加深。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Small conversations give us a chance to notice one another’s needs.",
+            "zh": "簡短交談讓我們有機會注意彼此需要。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It is time to share worries before they become harder to discuss.",
+            "zh": "這是分享煩惱的時間，免得日後更難開口。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The familiar routine makes room for care and attention.",
+            "zh": "熟悉安排騰出關心與留意對方的空間。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家人晚餐分享小事，仔細聽彼此困難並提供適當幫助，關係逐漸親近。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Family bonds are quietly strengthened through these conversations.",
+            "zh": "家人連繫透過這些交談默默加深。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Family closeness comes from staying silent rather than sharing those concerns.",
+            "zh": "家人親近來自保持沉默，而非分享那些關注。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The main change is a longer meal, with no effect on how relatives understand each other.",
+            "zh": "主要變化只是飯餐更長，未影響家人互相理解。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情境明示聆聽及逐漸親近，quietly 不排除有聲交流。"
+      },
+      "contrast": {
+        "promptZh": "哪種情況最不足以支持 family bonds are quietly strengthened？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "親人透過小對話理解彼此需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "大家同桌卻持續忽視對方的話與需要，未見親近改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "平常互相幫忙，逐漸增加信任。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "單是同桌出席未證明情感加深，要看互動。"
+      },
+      "dialogue": {
+        "promptZh": "朋友只按一起出席多少次，斷定家人必定越來越親近。哪句較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Family bonds are quietly strengthened through caring interaction, so we should consider what happens during that time.",
+            "zh": "家人連繫透過關心互動默默加深，所以應看看相處時間實際發生甚麼。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Count attendance as enough evidence and leave out whether people listen to each other.",
+            "zh": "只以出席次數為足夠證據，不考慮大家有沒有互相聆聽。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Extend the meal before asking whether relatives feel understood.",
+            "zh": "先延長用餐時間，再問親人是否感到被理解。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "時間與出席可提供機會，但有關心的互動才支持此處變化。"
+      },
+      "speaking": {
+        "en": "Family bonds are quietly strengthened through small acts of care.",
+        "zh": "家人的連繫透過小小關心默默加深。",
+        "targetSpan": {
+          "start": 0,
+          "end": 37
+        },
+        "promptZh": "你想形容平凡關心如何累積親近。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：孩子與長輩一起照顧陽台植物，長輩耐心示範，孩子也主動幫忙；合作幾週後彼此更信任。用一至兩句英文描述平凡合作的關係作用。",
+        "examples": [
+          {
+            "en": "Family bonds are quietly strengthened when the children and their grandparents care for the balcony plants together. Patient teaching and small acts of help build trust.",
+            "zh": "孩子和祖父母一起照顧陽台植物時，家人連繫默默加深。耐心教導和小小幫助建立信任。"
+          },
+          {
+            "en": "Through shared gardening, family bonds are quietly strengthened over time. Both generations learn to notice what the other needs.",
+            "zh": "透過一起種植，家人連繫隨時間默默加深。兩代人都學會留意對方需要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the balcony plants",
+            "zh": "陽台植物",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 106
+            }
+          },
+          {
+            "en": "Patient teaching",
+            "zh": "耐心教導",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 133
+            }
+          },
+          {
+            "en": "small acts of help",
+            "zh": "小小幫助",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 156
+            }
+          },
+          {
+            "en": "Both generations",
+            "zh": "兩代人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 75,
+              "end": 91
+            }
+          }
+        ],
+        "selfCheckZh": "以合作、耐心與互助支持感情加深，不把一起做事自動當成親近保證。"
+      },
+      "takeaways": [
+        {
+          "en": "Family bonds are quietly strengthened through everyday kindness.",
+          "zh": "家人的連繫透過日常善意默默加深。"
+        },
+        {
+          "en": "Family bonds are quietly strengthened when people feel heard.",
+          "zh": "大家感到被聆聽時，家人的連繫默默加深。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1525",
+      "number": 1525,
+      "inventoryId": "expr-1525",
+      "contentRevision": 1,
+      "titleEn": "emotional thread from wearing thin",
+      "titleZh": "避免情感紐帶逐漸變弱",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bemotional\\s+thread\\s+from\\s+wearing\\s+thin\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p176-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 176,
+          "book": 7,
+          "question": 3,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Regular calls keep the emotional thread from wearing thin.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "emotional thread from wearing thin",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "In the pattern keep the emotional thread from wearing thin, prevent an emotional connection from gradually weakening.",
+        "meaningZh": "在 keep...from... 結構中，避免情感紐帶逐漸變弱。",
+        "grammar": "keep + the emotional thread + from + wearing thin; the marked fragment needs keep before it to express prevention",
+        "register": "neutral",
+        "boundaryZh": "來源標記只截取 emotional thread from wearing thin，完整結構是 keep...from...，意思是防止變弱，不是已變弱。thread 是情感連繫的創意比喻。",
+        "misconceptionZh": "來源標記只截取 emotional thread from wearing thin，完整結構是 keep...from...，意思是防止變弱，不是已變弱。thread 是情感連繫的創意比喻。",
+        "outcomeZh": "理解「避免情感紐帶逐漸變弱」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide glosses the highlighted fragment as a connection gradually weakening. Its actual reference sentence says Regular calls keep the emotional thread from wearing thin, so the full clause expresses preventing that weakening. New models preserve the preventive grammar rather than treating the fragment as a standalone idiom."
+      },
+      "listening": {
+        "en": "Regular calls help the siblings keep the emotional thread from wearing thin while they live far apart.",
+        "zh": "兄弟姊妹住得遠時，定期通話幫他們避免情感紐帶逐漸變弱。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "通話有助維持連繫，避免逐漸疏遠。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "通話正令關係變弱，句子在批評聯絡。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他們的情感已完全消失，沒有任何連繫。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "只要沒有爭執，即使很少交流也已足以證明一直親近。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "keep...from wearing thin 是避免變弱，不是造成變弱或已完全失去連繫。"
+      },
+      "reply": {
+        "promptEn": "Why do the siblings make time for calls while living apart?",
+        "promptZh": "兄弟姊妹分開居住時，為甚麼抽時間通話？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The calls help keep the emotional thread from wearing thin.",
+            "zh": "通話有助避免情感紐帶逐漸變弱。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They want to stay involved in each other’s lives.",
+            "zh": "他們想繼續參與彼此生活。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Regular conversations make it easier to notice when someone needs support.",
+            "zh": "定期交談更容易讓人察覺誰需要支持。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Sharing ordinary news helps them feel less distant.",
+            "zh": "分享平常消息，幫他們減少距離感。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "住得遠的家人安排真誠交談，希望維持親近，防止日漸疏離。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Their calls help keep the emotional thread from wearing thin.",
+            "zh": "通話有助避免他們的情感紐帶逐漸變弱。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their calls cause the emotional connection to weaken.",
+            "zh": "他們的通話導致情感連繫變弱。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their connection has already disappeared completely before they make any calls.",
+            "zh": "通話之前，他們的連繫已完全消失。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情境談維持及防止，與造成變弱或斷言已完全消失不同。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 keep the emotional thread from wearing thin？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "用有意義交流減少逐漸疏遠的風險。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "keep...from 表示使連繫變弱，而非防止。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "from 後用 wearing，完整句要有前面的 keep。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "keep something from doing something 是防止，不是促使；這裏是避免紐帶變薄。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說：「我們住得遠，現在只傳行程訊息；我想重新聽聽彼此真實近況。」哪個回應最配合維持情感連結的目的？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Let us keep the emotional thread from wearing thin by setting aside a little time to listen to each other.",
+            "zh": "我們抽一點時間聆聽彼此，避免情感紐帶逐漸變弱吧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Let us count reactions on old photos instead of making space for personal replies.",
+            "zh": "我們數數舊照片的反應，不用騰出個人回應空間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Postpone personal conversation until we both have a whole weekend free.",
+            "zh": "等大家都有整個週末空閒，才談個人近況。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "朋友想恢復真實交流，簡短而有聆聽的聯絡直接配合；數反應或一定等完整週末，未回應現在維繫的需要。"
+      },
+      "speaking": {
+        "en": "Short messages about ordinary days help keep the emotional thread from wearing thin between our regular calls.",
+        "zh": "定期通話之間，關於平常日子的簡短訊息有助避免情感紐帶逐漸變弱。",
+        "targetSpan": {
+          "start": 49,
+          "end": 83
+        },
+        "promptZh": "你想描述定期交流的維繫作用，保留句中 keep the。先聽，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：合唱團畢業成員沒有常見面，仍每月分享舊演出錄音與新練習片段，認真回應彼此，希望保持共同回憶與連結。用一至兩句英文說明目的。",
+        "examples": [
+          {
+            "en": "Sharing recordings helps the former choir members keep the emotional thread from wearing thin. They respond to one another’s memories and new practice clips.",
+            "zh": "分享錄音幫以前合唱團成員避免情感紐帶逐漸變弱。他們回應彼此回憶與新練習片段。"
+          },
+          {
+            "en": "The former singers make time to share music so they can keep the emotional thread from wearing thin after graduation.",
+            "zh": "以前的歌手畢業後仍抽時間分享音樂，避免情感紐帶逐漸變弱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Sharing recordings",
+            "zh": "分享錄音",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "the former choir members",
+            "zh": "以前的合唱團成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 49
+            }
+          },
+          {
+            "en": "new practice clips",
+            "zh": "新練習片段",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 156
+            }
+          },
+          {
+            "en": "after graduation",
+            "zh": "畢業後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 116
+            }
+          }
+        ],
+        "selfCheckZh": "保留 keep...from 的防止意思，以共同音樂和認真回應支持維繫，而非只報上傳次數。"
+      },
+      "takeaways": [
+        {
+          "en": "Shared conversations keep the emotional thread from wearing thin.",
+          "zh": "彼此交談能避免情感紐帶逐漸變弱。"
+        },
+        {
+          "en": "We make time to listen and keep the emotional thread from wearing thin.",
+          "zh": "我們抽時間聆聽，避免情感紐帶逐漸變弱。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    }
+  ]
+}

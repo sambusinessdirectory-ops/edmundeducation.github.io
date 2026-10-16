@@ -1,0 +1,5021 @@
+{
+  "schemaVersion": 1,
+  "batchId": "root-1301-1325",
+  "lessons": [
+    {
+      "id": "advanced-native-1301",
+      "number": 1301,
+      "inventoryId": "expr-1301",
+      "contentRevision": 1,
+      "titleEn": "move out",
+      "titleZh": "搬離原來住所",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bmov(?:e|es|ed|ing) out\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p143-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 143,
+          "book": 6,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "31–32",
+          "expression": "move out",
+          "sentence": "Their youngest child will move out next month.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page143, table1, row9; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p146-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 146,
+          "book": 6,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "40–41",
+          "expression": "move out",
+          "sentence": "Their youngest child will move out next month.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page146, table1, row4; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p227-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 227,
+          "book": 8,
+          "question": 22,
+          "sample": "S2",
+          "sourceBookPages": "62–63",
+          "expression": "move out",
+          "sentence": "Their youngest child will move out next month.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page227, table1, row4; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p232-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 232,
+          "book": 8,
+          "question": 28,
+          "sample": "S1",
+          "sourceBookPages": "76–78",
+          "expression": "move out",
+          "sentence": "Their youngest child will move out next month.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page232, table2, row3; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p233-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 233,
+          "book": 8,
+          "question": 28,
+          "sample": "S2",
+          "sourceBookPages": "76–78",
+          "expression": "move out",
+          "sentence": "Their youngest child will move out next month.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page233, table1, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Leave the home or accommodation where one has been living.",
+        "meaningZh": "搬離自己原本居住的住所。",
+        "grammar": "move out; move out of a flat; moved out last month. An arranged future move is not a completed departure.",
+        "register": "Common everyday housing expression. Leaving the family home is one frequent context, not the only one.",
+        "boundaryZh": "搬離住所不等於與家人斷絕關係；短期出遊也不一定是搬家。",
+        "misconceptionZh": "須分清搬走的打算、實際離開，以及仍保留原來住所的短暫旅行。",
+        "outcomeZh": "能清楚交代搬離的時間，並商量實際交接。"
+      },
+      "listening": {
+        "en": "Jo moved out of her parents’ flat when she rented a room near college. They still meet for dinner on Sundays; the change shortened her journey, rather than ending her contact with the family.",
+        "zh": "Jo 在學院附近租了房間，搬離父母的單位。她仍每周日與家人吃飯；這次改變縮短了路程，並不是不再與家人聯絡。",
+        "promptEn": "",
+        "promptZh": "Jo 作了甚麼改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She began living elsewhere while keeping regular family contact.",
+            "zh": "她開始在別處居住，同時定期與家人聯絡。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She stayed in the family flat and changed only her college timetable.",
+            "zh": "她仍住在父母的單位，只改了學院時間表。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She stopped meeting her parents after renting the room.",
+            "zh": "租房後，她不再與父母見面。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She rented the room for a Sunday dinner but continued sleeping at home.",
+            "zh": "她只為周日聚餐租用房間，仍在原來的家過夜。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "moved out 說的是居住地改變；周日聚餐說明聯絡仍然繼續。"
+      },
+      "reply": {
+        "promptEn": "What changed when Jo rented the room near college?",
+        "promptZh": "Jo 在學院附近租房後有甚麼改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She moved out of her parents’ flat and had a shorter journey to college.",
+            "zh": "她搬離父母的單位，上學路程縮短了。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her new room became her home during term.",
+            "zh": "那個新房間成為她學期中的住所。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She began living closer to her classes while still seeing her family.",
+            "zh": "她開始住在較近上課地點的地方，仍與家人見面。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She no longer lived in the family flat, although Sunday dinners continued.",
+            "zh": "她不再住在父母的單位，但周日聚餐仍然繼續。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代新的居住安排；只有一句用了本課表達。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "Rafi 帶行李到朋友家住兩晚，自己的床、租約和日常住所都保留，周一回家。有人只看見行李就說他已搬離原居所。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He is staying away briefly, rather than moving out of his current home.",
+            "zh": "他只是短暫在外住宿，並不是搬離現有住所。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He has ended his tenancy and made the friend’s home his new residence.",
+            "zh": "他已終止租約，把朋友家當成新住所。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He has agreed to leave the old home permanently on Monday.",
+            "zh": "他已同意周一永久離開原來的家。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "兩晚暫住而保留原住所，不能只憑行李推斷已搬家。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項不宜由「她 moved out」直接推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她不再以原來的地方作住所。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她已與原來同住的人斷絕聯絡。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她可能需要交還鑰匙或安排取回物品。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "居住改變不代表人際關係已終止；是否聯絡需要另外的資料。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「Jo 搬走後，是不是不想再見家人？」你知道她仍每周日回去吃飯。哪句回應最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She moved out to be closer to college, but she still sees them for Sunday dinner.",
+            "zh": "她搬走是為了住近學院，但仍與家人吃周日晚飯。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I took the new address as a sign that the Sunday dinners had stopped.",
+            "zh": "我把新地址理解成周日聚餐已停止的訊號。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought renting a room meant she was only visiting it during the day.",
+            "zh": "我以為租房表示她只是白天去那裏坐坐。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "用已知的上學及聚餐安排回應，不由新地址猜測家人的關係。"
+      },
+      "speaking": {
+        "en": "I plan to move out at the end of the month; could we agree when I should return the keys?",
+        "zh": "我打算月底搬離；我們可以商量何時交還鑰匙嗎？",
+        "promptZh": "先聽示範，再說明搬離時間及要協商的交接。",
+        "targetSpan": {
+          "start": 10,
+          "end": 18
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你與室友合租，已議定你周五搬離，但搬運公司只能周日取走書架。你想請室友同意暫放兩天，並明確說你不會因書架未運走便繼續使用房間。用一至兩句英文提出安排。",
+        "examples": [
+          {
+            "en": "I will move out on Friday as agreed, but could I leave the bookcase until the movers collect it on Sunday? I will return the room keys on Friday and will not use the room over the weekend.",
+            "zh": "我會按議定安排周五搬離，但可否把書架暫放到搬運公司周日來取？我會周五交還房間鑰匙，周末也不會使用房間。"
+          },
+          {
+            "en": "Although I am moving out on Friday, the bookcase cannot be collected until Sunday. Would you be comfortable keeping it for two days if I hand back the keys and leave the room available to you?",
+            "zh": "雖然我周五搬離，書架卻要到周日才能運走。如果我交還鑰匙，把房間留給你使用，你願意讓書架暫放兩天嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the movers collect it",
+            "zh": "搬運公司來取它",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 95
+            }
+          },
+          {
+            "en": "return the room keys",
+            "zh": "交還房間鑰匙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 134
+            }
+          },
+          {
+            "en": "over the weekend",
+            "zh": "周末期間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 171,
+              "end": 187
+            }
+          },
+          {
+            "en": "for two days",
+            "zh": "兩天",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 131
+            }
+          },
+          {
+            "en": "leave the room available to you",
+            "zh": "把房間留給你使用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 160,
+              "end": 191
+            }
+          }
+        ],
+        "selfCheckZh": "提出暫放物品的請求及清楚的交接條件，讓室友有權同意或拒絕；不把物品未運走當作仍可佔用房間。"
+      },
+      "takeaways": [
+        {
+          "en": "She moved out of the shared house after finding a flat closer to work.",
+          "zh": "找到較近工作的單位後，她搬離了合租屋。"
+        },
+        {
+          "en": "We agreed to photograph the empty room before I moved out, so we had a record of its condition.",
+          "zh": "我們同意在我搬離前拍下空房，記錄房間的狀況。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "All five exact move-out source occurrences preserved; broader ordinary accommodation sense includes family-home use. Distinct final act negotiates residual belongings and possession, not another relocation description."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1303",
+      "number": 1303,
+      "inventoryId": "expr-1303",
+      "contentRevision": 1,
+      "titleEn": "where the heart goes first",
+      "titleZh": "內心最先想投靠的地方",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwhere (?:my|your|his|her|our|their|the) heart goes first\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p143-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 143,
+          "book": 6,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "31–32",
+          "expression": "where the heart goes first",
+          "sentence": "In a crisis, home is where the heart goes first.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page143, table1, row11; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "The person or place instinctively sought for emotional connection or support.",
+        "meaningZh": "心裏最先想尋求情感連繫或支持的人或地方。",
+        "grammar": "X is where my/the heart goes first; first describes an instinctive emotional priority, not a measured arrival time.",
+        "register": "Expressive, understandable heart metaphor, not a separately fixed dictionary idiom.",
+        "boundaryZh": "心中最先想到，不表示對方能解決全部問題，也不是說身體真的移到那裏。",
+        "misconceptionZh": "情感上先想投靠的人，未必是最適合提供每一種專業協助的人。",
+        "outcomeZh": "能分清情感依靠與實際協助，並表達關心而不代對方作決定。"
+      },
+      "listening": {
+        "en": "My aunt’s kitchen is where my heart goes first for comfort. When the rejection letter arrived, I called her for someone to listen; the course adviser was still the person to ask about another application.",
+        "zh": "需要安慰時，姨母的廚房是我心裏最先想去的地方。收到拒絕信後，我打電話給她，是想有人聆聽；至於再次申請的事，我仍需要問課程顧問。",
+        "promptEn": "",
+        "promptZh": "說話者為甚麼先想到姨母？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The aunt offered emotional comfort, while application advice remained a separate need.",
+            "zh": "姨母能提供情感安慰，申請上的建議則是另一項需要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The aunt had already promised a place on the course.",
+            "zh": "姨母已答應提供一個課程學位。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The adviser had asked the speaker to deliver the letter to the kitchen.",
+            "zh": "顧問請說話者把信送到廚房。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The speaker decided not to make any further application.",
+            "zh": "說話者決定不再申請任何課程。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先想找姨母是為了有人聆聽，並未把她當成負責申請的人。"
+      },
+      "reply": {
+        "promptEn": "Why did you call your aunt before speaking to the adviser?",
+        "promptZh": "為甚麼你先打給姨母，再找顧問？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Her kitchen is where my heart goes first when I need someone to listen.",
+            "zh": "需要有人聆聽時，她的廚房是我心裏最先想去的地方。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I wanted a little comfort before discussing another application.",
+            "zh": "討論再次申請之前，我想先得到一點安慰。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She is someone I trust with disappointing news.",
+            "zh": "遇到令人失望的消息時，她是我願意傾訴的人。"
+          },
+          {
+            "id": "choice-4",
+            "en": "I needed to talk about how I felt, as well as work out the next practical step.",
+            "zh": "除了想下一步怎樣做，我也需要談談自己的感受。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明先尋求情感支持，沒有把姨母說成申請顧問。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "旅人說家是自己內心最先想去的地方，但夜機抵達後，因交通停駛，實際先在機場酒店過夜。評論只因她先去酒店，便說那句情感描述一定是假的。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Home can be where her heart goes first even if practical circumstances take her to a hotel before she gets there.",
+            "zh": "即使實際情況令她先住酒店，家仍可以是她內心最先想去的地方。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The hotel stay establishes that she wanted its company and comfort more than she wanted to return home.",
+            "zh": "在酒店過夜，確立了她想要那裏的陪伴和安慰，多於想回家。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says she reached home first and only later decided to stay at the hotel.",
+            "zh": "敘述說，她先回到家，之後才決定住酒店。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "比喻中的first是情感上最先想到，不是實際行程必須先抵達；交通限制不能自行改寫她的感受。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜由 where my heart goes first 推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這是我本能想尋求情感連繫的人或地方。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這個人一定能替我解決所有實際問題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "我也可能需要向別人尋求專業協助。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "比喻說的是情感上的優先，不保證對方的能力或責任。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「你找姨母，是因為她會替你處理下一次申請嗎？」你只是想有人聆聽，仍會找顧問。哪句回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "No, she is where my heart goes first for comfort; I will ask the adviser about applying again.",
+            "zh": "不是，她是我想尋求安慰時最先想到的人；再次申請的事我會問顧問。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Yes, I have asked her to make the application decision for me.",
+            "zh": "是的，我已請她替我決定申請的事。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I meant that I went straight to her kitchen before making any calls.",
+            "zh": "我的意思是，我在打任何電話前，先直接去了她的廚房。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "分清傾訴與申請的需要，回應朋友誤會，沒有改動已知安排。"
+      },
+      "speaking": {
+        "en": "Home is where my heart goes first when I need comfort, even when I must look elsewhere for practical advice.",
+        "zh": "需要安慰時，家是我內心最先想去的地方，即使實際建議仍要到別處尋求。",
+        "promptZh": "先聽示範，再分清情感依靠和實際建議。",
+        "targetSpan": {
+          "start": 8,
+          "end": 33
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你獲得寫作獎後，第一個想通知的是已退休的老師，因為她一直願意讀你的初稿。校刊問能否刊登你寫給她的感謝短句。用一至兩句英文說明這份連繫，並請編輯先取得老師同意才公開她的名字。",
+        "examples": [
+          {
+            "en": "My former teacher is where my heart goes first with good news because she always made time for my early drafts. Please ask her permission before printing her name in the school magazine.",
+            "zh": "有好消息時，昔日老師是我心裏最先想通知的人，因為她總願意抽時間讀我的初稿。請先取得她的同意，才在校刊刊登她的名字。"
+          },
+          {
+            "en": "The teacher who read my first stories is where my heart goes first when something wonderful happens. I would love to thank her in print, but could you check that she is happy for us to use her name?",
+            "zh": "當美好的事發生時，讀過我最初故事的老師是我心裏最先想到的人。我很想刊出對她的感謝，但你可以先問她是否願意讓我們使用她的名字嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "My former teacher",
+            "zh": "我以前的老師",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "good news",
+            "zh": "好消息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 61
+            }
+          },
+          {
+            "en": "my early drafts",
+            "zh": "我的早期初稿",
+            "exampleIndex": 0,
+            "span": {
+              "start": 95,
+              "end": 110
+            }
+          },
+          {
+            "en": "ask her permission",
+            "zh": "取得她的同意",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 137
+            }
+          },
+          {
+            "en": "thank her in print",
+            "zh": "以刊物公開感謝她",
+            "exampleIndex": 1,
+            "span": {
+              "start": 117,
+              "end": 135
+            }
+          }
+        ],
+        "selfCheckZh": "以具體的過往支持解釋情感連繫，並提出公開姓名前徵得同意的實際請求；不假定老師已答應。"
+      },
+      "takeaways": [
+        {
+          "en": "The little courtyard is where her heart goes first when she thinks of the neighbours who raised her.",
+          "zh": "想到看着自己長大的鄰居時，她心裏最先浮現的是那個小庭院。"
+        },
+        {
+          "en": "His sister is where his heart goes first with difficult news, although she cannot make every decision for him.",
+          "zh": "有難以接受的消息時，妹妹是他心裏最先想傾訴的人，但她不能替他作每一個決定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Creative heart-priority frame preserved honestly; final positive-news attribution/privacy act differs from comfort/help allocation, not another crisis with renamed relatives."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1304",
+      "number": 1304,
+      "inventoryId": "expr-1304",
+      "contentRevision": 1,
+      "titleEn": "the emotional thread still runs deep",
+      "titleZh": "深厚的情感連繫仍在",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe emotional thread still runs deep\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p143-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 143,
+          "book": 6,
+          "question": 11,
+          "sample": "S2",
+          "sourceBookPages": "31–32",
+          "expression": "the emotional thread still runs deep",
+          "sentence": "Despite the distance, the emotional thread still runs deep.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page143, table1, row12; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A continuing emotional connection is felt strongly, despite changes in contact or circumstances.",
+        "meaningZh": "即使聯絡或生活情況有變，仍深深感受到彼此的情感連繫。",
+        "grammar": "the emotional thread still runs deep between/among people; still marks continuity.",
+        "register": "An expressive combination of connection-as-thread and depth-as-strength images; not a fixed dictionary idiom. Emotional ties run deep is a more ordinary alternative.",
+        "boundaryZh": "深厚連繫不等於時刻能聯絡，也不代表大家在所有事情上意見一致。",
+        "misconceptionZh": "要以互相關心等具體線索說明連繫；不能只按見面次數判斷是否在乎。",
+        "outcomeZh": "能描述持續的情感連繫，也尊重彼此可提供支持的界限。"
+      },
+      "listening": {
+        "en": "The emotional thread still runs deep between our old choir members. We rarely rehearse together now, but they remembered my father’s illness and sent recordings when I could not visit.",
+        "zh": "舊合唱團員之間的情感連繫仍然深厚。我們現在很少一起排練，但他們記得父親生病的事，在我無法到訪時寄來錄音。",
+        "promptEn": "",
+        "promptZh": "甚麼顯示舊團員仍互相關心？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They remembered a difficult family situation and offered a thoughtful form of contact.",
+            "zh": "他們記得家中的困難，並以體貼的方式保持聯絡。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They had resumed daily rehearsals at the speaker’s home.",
+            "zh": "他們已恢復每天在說話者家中排練。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They sent recordings without knowing anything about the father’s illness.",
+            "zh": "他們完全不知道父親生病，只是寄來錄音。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They agreed to stop communicating until everyone could visit in person.",
+            "zh": "他們同意等到人人都能親自到訪，才再聯絡。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "記得家事並主動寄錄音，是具體關心的線索；沒有頻密排練不等於沒有連繫。"
+      },
+      "reply": {
+        "promptEn": "What makes you feel close to the old choir members?",
+        "promptZh": "甚麼令你覺得與舊團員仍然親近？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The emotional thread still runs deep; their recordings showed that they remembered what my family was facing.",
+            "zh": "情感連繫仍然深厚；他們的錄音顯示他們記得我家中面對的事。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They found a caring way to stay in touch when I could not visit.",
+            "zh": "我無法到訪時，他們找到了體貼的聯絡方法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their response to my father’s illness made me feel remembered.",
+            "zh": "他們對父親生病一事的回應，令我覺得仍被記掛。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The contact was less frequent, but it still felt personal and supportive.",
+            "zh": "聯絡少了，但仍讓我感到個人的關心和支持。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都以實際的關心說明情感連繫；金句用了本課的完整比喻。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "兩人以前從未見面，首次在節慶攤位相遇便談得投契。記者想以「深厚的情感連繫仍在」描述這段；目前沒有他們以前的共同經歷。哪句評論最謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A warm first meeting may begin a connection, but does not by itself show that the emotional thread still runs deep across time.",
+            "zh": "熱情的初次見面可以開始一段連繫，但本身不足以顯示深厚情感連繫隨時間仍然延續。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They renewed a long-standing connection after years of being apart.",
+            "zh": "他們在分開多年後，重新接上長久以來的連繫。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes two people who avoided conversation and found nothing they wanted to share.",
+            "zh": "敘述描述兩人避開談話，也找不到任何想分享的事。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "still表示原有連繫繼續存在；首次投契可作開始，不能只憑這一刻便補出長久以前的情感歷史。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜由 the emotional thread still runs deep 推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "彼此仍有強烈的情感連繫。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "其中一人每次來電，另一人都必定能即時接聽。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "這種連繫可以在生活安排改變後延續。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "關心的深度與每一刻是否有空不同，不能由情感連繫保證即時回應。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「你們已不再一起排練，所以他們應該不在乎了吧？」你想起父親生病時他們寄來錄音。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The emotional thread still runs deep; sending those recordings was their way of showing care when I could not visit.",
+            "zh": "情感連繫仍然深厚；我不能到訪時，寄錄音是他們表達關心的方法。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I read the recordings as a request to stop sharing news about my family.",
+            "zh": "我把那些錄音理解成他們要求我不要再分享家中近況。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I think only our old rehearsal timetable could tell us whether they cared.",
+            "zh": "我認為只有以前的排練時間表，才能判斷他們是否關心。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "回到已知的關心行動，不只按活動時間表或猜測作結論。"
+      },
+      "speaking": {
+        "en": "The emotional thread still runs deep, even though we cannot always be available at the same time.",
+        "zh": "雖然我們不一定總在同一時間有空，情感連繫仍然深厚。",
+        "promptZh": "先聽示範，再描述關心與時間限制可以並存。",
+        "targetSpan": {
+          "start": 0,
+          "end": 36
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和表哥替家族錄音計劃寫介紹，卻對一次童年聚餐有不同回憶。他擔心兩個版本不同，便表示你們已不再親近。你想肯定連繫，同時保留兩人的回憶，請他把版本各自署名，而不是勉強寫成同一個。用一至兩句英文回覆。",
+        "examples": [
+          {
+            "en": "The emotional thread still runs deep, even though we remember that evening differently. Could we include both accounts with our names, so neither of us has to replace a personal memory with the other’s version?",
+            "zh": "雖然我們對那晚的記憶不同，情感連繫仍然深厚。我們可以把兩個版本各自署名收錄，讓雙方都不用以對方的版本取代自己的回憶嗎？"
+          },
+          {
+            "en": "The emotional thread still runs deep between us; remembering the dinner differently does not undo that connection. Let us keep both memories and say who recalled each one, rather than pretend we remember the same details.",
+            "zh": "我們之間的情感連繫仍然深厚；對聚餐有不同記憶，不會抹去這份連繫。我們保留兩人的回憶，說明各由誰憶述，不要假裝記得同樣的細節。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "remember that evening differently",
+            "zh": "對那晚有不同記憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 53,
+              "end": 86
+            }
+          },
+          {
+            "en": "include both accounts",
+            "zh": "收錄兩個版本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 97,
+              "end": 118
+            }
+          },
+          {
+            "en": "with our names",
+            "zh": "附上我們各自的名字",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 133
+            }
+          },
+          {
+            "en": "a personal memory",
+            "zh": "個人的回憶",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 184
+            }
+          },
+          {
+            "en": "who recalled each one",
+            "zh": "各由誰憶述",
+            "exampleIndex": 1,
+            "span": {
+              "start": 149,
+              "end": 170
+            }
+          }
+        ],
+        "selfCheckZh": "直接肯定與表哥的連繫，提出可保留不同記憶的介紹方法；不把親近當成必須記得相同細節，也不未經查證便把其中一人的版本宣稱為唯一事實。"
+      },
+      "takeaways": [
+        {
+          "en": "The emotional thread still runs deep among the cousins, even when they disagree about the old house.",
+          "zh": "即使對舊屋的安排意見不同，表親之間的情感連繫仍然深厚。"
+        },
+        {
+          "en": "The emotional thread still runs deep; her letters are full of details that show she remembers the people she left behind.",
+          "zh": "情感連繫仍然深厚；她信中的細節，顯示她仍記掛離開的那些人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Exact expressive mixed thread/depth imagery retained as figurative wording, not fixed idiom. Listening continuing choir care; scene first meeting versus established continuity; final attributed contrasting childhood recollections, not response-speed or availability advice. All original source text preserved."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1305",
+      "number": 1305,
+      "inventoryId": "expr-1305",
+      "contentRevision": 1,
+      "titleEn": "carry the whole burden",
+      "titleZh": "獨自承擔全部重擔",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:carry|carries|carried|carrying) the whole burden\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p144-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 144,
+          "book": 6,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "33–36",
+          "expression": "carry the whole burden",
+          "sentence": "One carer should not carry the whole burden.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page144, table1, row3; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Take all the difficult responsibility or work involved in a situation.",
+        "meaningZh": "承擔一件事全部艱巨的責任或工作。",
+        "grammar": "carry the whole burden of + noun/-ing; carry the whole burden alone/on one’s own. Whole describes the entire responsibility, not simply a large contribution.",
+        "register": "Conventional responsibility-as-weight wording. Unlike carrying the world on one’s shoulders, it need not exaggerate every worry in life.",
+        "boundaryZh": "工作有領導者，不代表其他人沒有承擔；要看實際分工，不能只按誰公開發言判斷。",
+        "misconceptionZh": "全份重擔與重要的一部分不同；承認某人的投入，不必抹去別人的工作。",
+        "outcomeZh": "能準確分辨全部與部分責任，並公平交代貢獻。"
+      },
+      "listening": {
+        "en": "Mina carried the whole burden of organising the reading event: she booked the room, contacted every reader and dealt with changes herself. The other members arrived to watch, but had not taken on any of the preparation.",
+        "zh": "Mina 獨自承擔了朗讀活動的全部籌備：訂場、聯絡每位朗讀者和處理改動，都由她親自完成。其他成員到場觀看，沒有承擔準備工作。",
+        "promptEn": "",
+        "promptZh": "Mina 與其他成員的工作有甚麼分別？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She handled all the organising, while the others attended without preparing it.",
+            "zh": "她處理了全部籌備，其他人只到場參與，沒有協助準備。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She introduced the event after other members had arranged it.",
+            "zh": "其他成員先安排好活動，她只負責開場介紹。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She booked the room while another member contacted the readers.",
+            "zh": "她訂場，另一位成員聯絡朗讀者。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She watched the event but had no part in its preparation.",
+            "zh": "她觀看活動，沒有參與準備。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "三項工作和臨時改動都由 Mina 處理，其他人沒有分擔籌備。"
+      },
+      "reply": {
+        "promptEn": "Why do you say Mina did all the organising?",
+        "promptZh": "為甚麼你說全部籌備都由 Mina 做？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She carried the whole burden, from booking the room to handling changes.",
+            "zh": "從訂場到處理改動，全部重擔都由她承擔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "No other member had taken responsibility for any part of the preparation.",
+            "zh": "沒有其他成員負責任何一部分準備工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Every organising task mentioned was left to her.",
+            "zh": "提到的每項籌備工作都留給她處理。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The others attended as an audience rather than helping to arrange it.",
+            "zh": "其他人以觀眾身份到場，並沒有幫忙安排。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都符合已交代的實際分工，沒有把觀眾到場當成協助籌備。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "三位同學合辦展覽，一人借場、一人整理作品、一人設計標籤，最後只有借場的人上台致辭。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker made an important contribution, but did not carry the whole burden of preparing the exhibition.",
+            "zh": "致辭者有重要貢獻，但沒有獨自承擔展覽的全部準備。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker arranged the exhibition without any preparation by the other two students.",
+            "zh": "致辭者獨自安排展覽，另外兩位沒有做任何準備。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The labels and artwork were prepared only after the opening speech.",
+            "zh": "標籤和作品都是開場致辭之後才準備的。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "公開發言不能抹去另外兩人已完成的具體工作。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪種說法最不宜僅因某人負責一項重要工作便使用？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She made an important contribution.",
+            "zh": "她作了重要貢獻。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She carried the whole burden.",
+            "zh": "她承擔了全部重擔。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She was responsible for that part of the preparation.",
+            "zh": "她負責那一部分準備。"
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "whole 是全部；只知道一項重要工作，仍不足以判斷其餘全部也由她承擔。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「其他人有來看，Mina 就不算一個人做吧？」你知道他們沒有參與準備。哪句回應最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They attended, but Mina carried the whole burden of organising; watching did not share the preparation.",
+            "zh": "他們有到場，但籌備的全部重擔仍由 Mina 承擔；觀看不等於分擔準備。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would count being in the audience as taking responsibility for the room booking.",
+            "zh": "我會把坐在觀眾席視為承擔了訂場責任。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the readers had arranged their own invitations without Mina’s help.",
+            "zh": "我以為朗讀者自行安排了邀請，沒有 Mina 幫忙。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "把到場支持與承擔籌備分清楚，並依據已知工作回應。"
+      },
+      "speaking": {
+        "en": "She did a great deal, but she did not carry the whole burden; we should also acknowledge the work done by the others.",
+        "zh": "她做了很多，但並沒有獨自承擔全部重擔；我們也應肯定其他人的工作。",
+        "promptZh": "先聽示範，再分清大量投入與全部責任。",
+        "targetSpan": {
+          "start": 38,
+          "end": 60
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為校刊修改一段義賣活動鳴謝。初稿只稱讚台上主持，寫成所有事都由他做；實際上，另有同學核對捐款和安排運送。用一至兩句英文向編輯提出公平而具體的修改，不貶低主持的貢獻。",
+        "examples": [
+          {
+            "en": "The host deserves our thanks, but he did not carry the whole burden of the sale. Could we also name the students who checked the donations and arranged transport?",
+            "zh": "主持值得我們感謝，但義賣的全部重擔不是由他一人承擔。我們可以也列出核對捐款及安排運送的同學嗎？"
+          },
+          {
+            "en": "Rather than say the host carried the whole burden, I would thank him for presenting and acknowledge the donation checks and transport work separately. That would recognise everyone’s contribution without taking away his credit.",
+            "zh": "與其說主持承擔全部重擔，我會感謝他主持活動，並另外肯定核對捐款和運送的工作。這樣可以承認每人的貢獻，也不減去他應得的肯定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "deserves our thanks",
+            "zh": "值得我們感謝",
+            "exampleIndex": 0,
+            "span": {
+              "start": 9,
+              "end": 28
+            }
+          },
+          {
+            "en": "checked the donations",
+            "zh": "核對捐款",
+            "exampleIndex": 0,
+            "span": {
+              "start": 117,
+              "end": 138
+            }
+          },
+          {
+            "en": "arranged transport",
+            "zh": "安排運送",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 161
+            }
+          },
+          {
+            "en": "thank him for presenting",
+            "zh": "感謝他主持",
+            "exampleIndex": 1,
+            "span": {
+              "start": 59,
+              "end": 83
+            }
+          },
+          {
+            "en": "everyone’s contribution",
+            "zh": "每個人的貢獻",
+            "exampleIndex": 1,
+            "span": {
+              "start": 172,
+              "end": 195
+            }
+          }
+        ],
+        "selfCheckZh": "實際提出修改鳴謝的方式，按具體工作分配肯定；不把補上幕後同學變成否定主持。"
+      },
+      "takeaways": [
+        {
+          "en": "She carried the whole burden of the booking after the other organiser withdrew.",
+          "zh": "另一位籌辦者退出後，預訂工作的全部重擔由她承擔。"
+        },
+        {
+          "en": "He carried the whole burden for the first week, then agreed a division of duties with the team.",
+          "zh": "第一周的全部重擔由他承擔，之後他與團隊議定分工。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Distinguish all responsibility from merely large or visible contribution; retain conventional carry-burden unit without claiming a new sense of the world-on-shoulders idiom. Final produces an actual fair acknowledgement edit rather than another workload allocation."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1306",
+      "number": 1306,
+      "inventoryId": "expr-1306",
+      "contentRevision": 1,
+      "titleEn": "stretched thin",
+      "titleZh": "忙於應付多項要求",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bstretched thin\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p144-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 144,
+          "book": 6,
+          "question": 12,
+          "sample": "S1",
+          "sourceBookPages": "33–36",
+          "expression": "stretched thin",
+          "sentence": "Working parents can feel stretched thin.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page144, table1, row4; unreported locators remain null."
+        },
+        {
+          "occurrenceId": "pdf-2-p195-t2-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 195,
+          "book": 7,
+          "question": 23,
+          "sample": "S2",
+          "sourceBookPages": "55–56",
+          "expression": "stretched thin",
+          "sentence": "Working parents can feel stretched thin.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page195, table2, row8; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Having time, energy or resources spread across more demands than can comfortably be met.",
+        "meaningZh": "時間、精力或資源被分散到太多要求，難以從容應付。",
+        "grammar": "be/feel stretched thin; stretched thin by commitments; stretched thin across several tasks. Usually describes limited capacity, not a judgement of character.",
+        "register": "Conventional stretch metaphor, often about people or teams. Related stretched is broader; thin stresses resources spread across demands.",
+        "boundaryZh": "忙得應付不來，不等於不願幫忙或沒有能力；也不能單憑工作數目判斷負擔。",
+        "misconceptionZh": "要看時間、精力和實際支援，不把暫時有空當成可持續承諾。",
+        "outcomeZh": "能以具體的資源限制解釋負荷，並評估下一步安排。"
+      },
+      "listening": {
+        "en": "I felt stretched thin while tutoring twice a week, rehearsing in the evenings and collecting my brother after school. I enjoyed each activity, but there was little time left to prepare properly or rest.",
+        "zh": "我每周補習兩次、晚上排練，又要放學後接弟弟，感到忙得應付不來。我喜歡每項活動，但幾乎沒有時間好好準備或休息。",
+        "promptEn": "",
+        "promptZh": "說話者的主要困難是甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Several commitments left too little time for preparation and rest.",
+            "zh": "多項承諾令準備和休息的時間不足。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker disliked every activity and wanted to avoid all contact.",
+            "zh": "說話者討厭每項活動，想避開所有聯絡。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Tutoring had ended, leaving the speaker with nothing to do.",
+            "zh": "補習已結束，說話者沒有事情可做。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The brother was collecting the speaker after every rehearsal.",
+            "zh": "每次排練後，都是弟弟來接說話者。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "說話者喜歡活動，困難在於多項要求佔滿時間，不是完全不願參與。"
+      },
+      "reply": {
+        "promptEn": "Why was it difficult to prepare and rest?",
+        "promptZh": "為甚麼難以準備和休息？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I was stretched thin by the commitments I was trying to fit into the week.",
+            "zh": "我想把各項承諾擠進一周，忙得應付不來。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The activities I enjoyed were competing for the same limited hours.",
+            "zh": "我喜歡的活動都在爭取有限的時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "There was very little room between tutoring, rehearsals and collecting my brother.",
+            "zh": "補習、排練和接弟弟之間，幾乎沒有空檔。"
+          },
+          {
+            "id": "choice-4",
+            "en": "I had taken on more than I could comfortably manage alongside proper rest.",
+            "zh": "承諾太多，我難以一邊從容應付，一邊得到足夠休息。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都解釋時間和要求之間的落差，沒有把負荷問題說成不喜歡活動。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "圖書小組只有一項本周工作，但舊藏書須逐本修補，三位義工連續數晚仍未完成；他們也要處理正常借還。只按「一項工作」便說他們很輕鬆，哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They may be stretched thin because the repair work is intensive and must fit around their usual duties.",
+            "zh": "修補工作繁重，還要配合日常職務，他們可能忙得應付不來。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The repairs have already been completed, so the volunteers are waiting for new duties.",
+            "zh": "修補已全部完成，義工正在等新工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group has stopped normal lending to give everyone several free evenings.",
+            "zh": "小組已停止正常借還，讓每人有幾個空閒晚上。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "一項工作也可以耗時；須看實際投入和同時存在的職務。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜由「她感到 stretched thin」直接推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她可能需要重新檢視時間或支援。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她一定不重視已答應的事情。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她的精力可能被多項要求分散。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "負荷說明資源與要求的關係，不能直接當作不在乎的證據。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問你可否再每周教他一次。你想幫忙，但現有補習、排練和接弟弟的安排，已令準備和休息不足。哪句回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I am stretched thin already, so I cannot promise another weekly session without changing one of my current commitments.",
+            "zh": "我現在已忙得應付不來；如果現有承諾沒有調整，就不能再答應每周一次。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I can promise a weekly session now and decide later whether I have time to prepare for it.",
+            "zh": "我可以先答應每周一次，之後才決定有沒有時間準備。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I assumed the evening rehearsals had finished, so this would replace them rather than add another commitment.",
+            "zh": "我以為晚間排練已結束，所以這會取代原有安排，而不是再加一項承諾。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "誠實交代承諾的限制，而不是先保證再忽略準備需要。"
+      },
+      "speaking": {
+        "en": "Our team is stretched thin, so we should check what support is available before promising a longer opening time.",
+        "zh": "團隊已忙得應付不來，所以答應延長開放時間前，應先了解可得到甚麼支援。",
+        "promptZh": "先聽示範，再以具體資源評估新的承諾。",
+        "targetSpan": {
+          "start": 12,
+          "end": 26
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：學校問手作室能否新增周六課堂。三位義工原來就要輪流處理工具維修和現有課堂，過去兩周已有準備未完成。你要寫一段意見，說明目前不宜立即開班，但願意在額外義工及準備時間確認後再評估。用一至兩句英文回覆。",
+        "examples": [
+          {
+            "en": "The team is already stretched thin by repairs and the existing classes, with preparation left unfinished in the past two weeks. I would delay the Saturday course until extra volunteers and preparation time are confirmed.",
+            "zh": "維修和現有課堂已令團隊忙得應付不來，過去兩周還有準備未完成。我會先延後周六課程，直到額外義工及準備時間得到確認。"
+          },
+          {
+            "en": "Given the unfinished preparation, I think we would be stretched thin if we added Saturday classes now. I would be happy to review the proposal once we know who can help and when the preparation can be done.",
+            "zh": "考慮到尚未完成的準備，我認為現在加開周六班會令我們忙得應付不來。知道誰能幫忙及何時可完成準備後，我很願意再評估建議。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the existing classes",
+            "zh": "現有課堂",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 70
+            }
+          },
+          {
+            "en": "preparation left unfinished",
+            "zh": "尚未完成的準備",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 104
+            }
+          },
+          {
+            "en": "extra volunteers",
+            "zh": "額外義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 168,
+              "end": 184
+            }
+          },
+          {
+            "en": "review the proposal",
+            "zh": "再評估建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 123,
+              "end": 142
+            }
+          },
+          {
+            "en": "who can help",
+            "zh": "誰可以幫忙",
+            "exampleIndex": 1,
+            "span": {
+              "start": 156,
+              "end": 168
+            }
+          }
+        ],
+        "selfCheckZh": "以已觀察到的未完成準備支持判斷，提出再評估所需的具體條件；不是因不喜歡周六課程便拒絕，也不假定額外支援已到位。"
+      },
+      "takeaways": [
+        {
+          "en": "The small team felt stretched thin when two members were away and the usual requests kept arriving.",
+          "zh": "兩位成員不在、日常要求仍不斷送到時，小團隊感到忙得應付不來。"
+        },
+        {
+          "en": "She enjoyed helping with the festival but felt stretched thin when there was no evening left for her own work.",
+          "zh": "她喜歡協助節慶，但沒有一個晚上能留給自己的工作時，便感到忙得應付不來。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Both exact source occurrences preserved. Distinguish capacity from indifference and task count; final is an evidence-based service-feasibility recommendation with explicit reopening conditions, not another personal diary or reply to a friend."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1307",
+      "number": 1307,
+      "inventoryId": "expr-1307",
+      "contentRevision": 1,
+      "titleEn": "family tree",
+      "titleZh": "展示世代親屬關係的家族樹",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bfamily tree\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p145-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 145,
+          "book": 6,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "37–39",
+          "expression": "the family tree",
+          "sentence": "The family tree has branches across four cities.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page145, table1, row5; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A diagram or account showing family relationships across generations.",
+        "meaningZh": "展示不同世代之間親屬關係的圖表或記錄。",
+        "grammar": "draw/research/add someone to a family tree; a branch of the family tree. A diagram needs clear conventions for different connections.",
+        "register": "Conventional family-as-tree expression. It describes relationships, not a geographical map or a requirement that relatives live together.",
+        "boundaryZh": "相同姓氏或住在同一地方，不足以證明親屬關係；圖表也可能只展示家族的一部分。",
+        "misconceptionZh": "要分清記錄的關係、圖例的意思及展示範圍，不能把省略的人當成不存在。",
+        "outcomeZh": "能準確說明家族圖的關係及範圍，並提出合適的呈現方式。"
+      },
+      "listening": {
+        "en": "The family tree shows that Ana and Leon are siblings, although they now live in different countries. A label identifies their mother; the chart does not record where every relative currently lives.",
+        "zh": "家族樹顯示 Ana 和 Leon 是手足，雖然他們現居不同國家。圖上的標籤指出他們的母親，但沒有記錄每位親屬目前的住處。",
+        "promptEn": "",
+        "promptZh": "這張圖主要提供甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Family relationships, with some information about generations rather than a complete address list.",
+            "zh": "親屬關係及部分世代資料，而不是完整地址名單。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A route between the siblings’ current homes.",
+            "zh": "兩人現居住所之間的路線。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Evidence that the siblings now live with their mother.",
+            "zh": "兩人現在與母親同住的證據。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A record showing that Ana and Leon are married to each other.",
+            "zh": "顯示 Ana 和 Leon 互為配偶的記錄。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "圖表交代的是手足及母親的關係，沒有把住處或行程當成主要資料。"
+      },
+      "reply": {
+        "promptEn": "What did you learn from the diagram?",
+        "promptZh": "你從圖中了解到甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The family tree identifies Ana and Leon as siblings and shows who their mother is.",
+            "zh": "家族樹指出 Ana 和 Leon 是手足，也顯示誰是他們的母親。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The labels explain how those three people are related.",
+            "zh": "標籤解釋了這三人的親屬關係。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I could see a connection across two generations, rather than everyone’s current address.",
+            "zh": "我看到兩個世代之間的關係，而不是每人的現居地址。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The chart tells us about kinship even though the siblings live in different places.",
+            "zh": "即使兩人住在不同地方，圖表仍能交代親屬關係。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都描述圖表提供的關係資料，不增添同住或婚姻關係。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "舊街道名錄把相同姓氏的店主排在一起，沒有父母、子女或婚姻的資料。有人只憑排列，就稱它是一張已核實的家族樹。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The list is not by itself a verified family tree; a shared surname does not establish the relationships.",
+            "zh": "名單本身不是已核實的家族樹；同姓不足以確立親屬關係。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The alphabetical grouping records which shopkeeper was the parent of each person.",
+            "zh": "按字母排列的分組，記錄了哪位店主是每人的父母。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The list confirms that every shop was passed from a parent to a child.",
+            "zh": "名單確認了每間店都由父母傳給子女。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "姓名排列沒有提供所需的親屬證據，不能補出父母子女或傳承關係。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜只因某人沒有出現在一張 family tree 上便推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這張圖可能沒有展示全部親屬。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "那個人必定不是家族成員。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要查清圖表原本涵蓋的世代和分支。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "一張圖可能有限定範圍；沒有列出，不等於關係不存在。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「Ana 和 Leon 住得那麼遠，圖上怎會仍是手足？」你想澄清圖表的用途。哪句回應最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The family tree records their relationship, not a requirement that they share an address.",
+            "zh": "家族樹記錄親屬關係，不是要求他們住在同一地址。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought the country labels meant they were no longer related.",
+            "zh": "我以為國家標籤表示他們已不再有親屬關係。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would read the connecting line as their travel route rather than a family relationship.",
+            "zh": "我會把連線看成旅行路線，而不是親屬關係。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "住處可以改變，圖表仍可記錄親屬關係；連線要按圖例理解。"
+      },
+      "speaking": {
+        "en": "This family tree shows only three generations, so we should explain its scope before calling it a complete record.",
+        "zh": "這張家族樹只展示三代，所以稱它為完整記錄前，應先解釋範圍。",
+        "promptZh": "先聽示範，再清楚說明圖表的展示範圍。",
+        "targetSpan": {
+          "start": 0,
+          "end": 16
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：聚會小冊只有一頁可放家族樹，完整版本有八十個名字，縮得太小便難以閱讀。你想建議本頁只展示最近三代，另附可閱讀完整版本的頁面，不把節錄稱為全家族的完整記錄。用一至兩句英文寫給編輯。",
+        "examples": [
+          {
+            "en": "Could we show three generations of the family tree here and provide the full version on a separate page? That would keep the names readable without presenting this extract as a complete record of the family.",
+            "zh": "我們可以在這裏展示家族樹的三代，另用一頁提供完整版本嗎？這樣可讓名字容易閱讀，也不會把節錄當成家族的完整記錄。"
+          },
+          {
+            "en": "I suggest using this page for a shorter family tree, clearly labelled as the most recent three generations. We can add a reference to the full version rather than make all eighty names too small to read.",
+            "zh": "我建議這頁用較短的家族樹，清楚標明只展示最近三代。我們可以附上完整版本的查閱位置，不必把八十個名字縮得太小。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "three generations",
+            "zh": "三代",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 31
+            }
+          },
+          {
+            "en": "the full version",
+            "zh": "完整版本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 84
+            }
+          },
+          {
+            "en": "on a separate page",
+            "zh": "在另外一頁",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 103
+            }
+          },
+          {
+            "en": "keep the names readable",
+            "zh": "讓名字容易閱讀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 116,
+              "end": 139
+            }
+          },
+          {
+            "en": "a complete record of the family",
+            "zh": "家族的完整記錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 175,
+              "end": 206
+            }
+          }
+        ],
+        "selfCheckZh": "向編輯提出具體的節錄及查閱安排，同時保留可讀性與完整性之間的分別；不因版面有限便把未列的人當成不存在。"
+      },
+      "takeaways": [
+        {
+          "en": "She added the newly verified relationship to the family tree and kept a note of where the information came from.",
+          "zh": "她把新核實的關係加入家族樹，並記下資料來源。"
+        },
+        {
+          "en": "Their family tree includes relatives in several countries, with the same symbols used consistently for each type of connection.",
+          "zh": "他們的家族樹包括多個國家的親屬，各類關係都用一致的符號表示。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Exact source retained. Relationship diagram is not a residence map; final negotiates readable abridgement and explicit scope, not another weak-evidence inference."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1308",
+      "number": 1308,
+      "inventoryId": "expr-1308",
+      "contentRevision": 1,
+      "titleEn": "branch in different directions",
+      "titleZh": "朝不同方向發展",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bbranch(?:es|ed|ing)? in different directions\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p145-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 145,
+          "book": 6,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "37–39",
+          "expression": "branch in different directions",
+          "sentence": "Our family may branch in different directions over time.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page145, table1, row6; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Develop into different forms, interests or paths from a shared origin.",
+        "meaningZh": "從共同起點發展出不同形式、興趣或路向。",
+        "grammar": "a group/family/project branches in different directions; branched/branching. Different paths can retain a common origin or shared resources.",
+        "register": "A productive tree-branching image. Related branch out describes entering new activities; this wording emphasises divergence among developing paths.",
+        "boundaryZh": "發展路向不同，不等於彼此敵對、每人獨立行事或所有連繫已中斷。",
+        "misconceptionZh": "要指出實際活動或方向的變化，不能只看名稱或外觀不同。",
+        "outcomeZh": "能描述共同起點與不同發展，避免把多樣化一律說成分裂。"
+      },
+      "listening": {
+        "en": "Our craft group began with one shared workshop, then branched in different directions as some members explored weaving and others made paper models. We still borrowed tools from the same cupboard and met for occasional demonstrations.",
+        "zh": "手作小組原本只有一個共同工作坊，後來有成員研究編織，有成員做紙模型，逐漸朝不同方向發展。我們仍從同一工具櫃借用器具，偶爾也一起作示範。",
+        "promptEn": "",
+        "promptZh": "小組怎樣改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Different interests developed while some shared resources and meetings continued.",
+            "zh": "發展出不同興趣，同時保留部分共用資源及聚會。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every member stopped making things and the workshop closed.",
+            "zh": "所有成員都停止手作，工作坊也關閉了。"
+          },
+          {
+            "id": "choice-3",
+            "en": "All members changed to the same paper project and abandoned weaving.",
+            "zh": "所有成員都改做同一紙藝項目，放棄了編織。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The new activities had no connection with the original workshop.",
+            "zh": "新活動與原本工作坊沒有任何關係。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "編織與紙模型是不同發展；共用器具及示範則顯示並非全部分開。"
+      },
+      "reply": {
+        "promptEn": "Why do you describe the group’s development as varied?",
+        "promptZh": "為甚麼你說小組的發展變得多樣？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It branched in different directions as members explored weaving and paper models.",
+            "zh": "成員探索編織和紙模型，小組朝不同方向發展。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The original workshop gave rise to more than one kind of activity.",
+            "zh": "原本的工作坊發展出不止一種活動。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Members followed different interests while still sharing some resources.",
+            "zh": "成員沿不同興趣發展，仍共用部分資源。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We could trace the new projects back to one starting group without treating them as identical.",
+            "zh": "我們可以追溯新項目的共同起點，而不用把它們當成完全相同。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都描述由共同起點到不同活動的發展，沒有把差異變成敵對。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "三組學生獲派完全相同的研究題、步驟及結論格式，只是文件夾顏色不同。評論只憑顏色，說課程已朝不同方向發展。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Different folder colours do not show that the course has branched in different directions when the actual work remains the same.",
+            "zh": "如果實際工作仍一樣，不同顏色文件夾不足以顯示課程已朝不同方向發展。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Each group has chosen a separate research question and method.",
+            "zh": "每組都選了不同研究問題及方法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes students developing their own new courses from the original one.",
+            "zh": "敘述描述學生從原有課程發展出各自的新課程。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "外觀分組不同不等於實際內容或發展方向不同。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜由 branched in different directions 直接推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可以追溯不同發展的共同起點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有成員必定已停止聯絡或合作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "實際活動或路向變得不同。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "分支可以保留聯繫和共用資源，比喻不會自行取消合作。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說：「既然有編織和紙模型兩種方向，就不能再共用工具櫃吧？」小組一直在共用。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We have branched in different directions, but sharing tools can still support both kinds of work.",
+            "zh": "我們朝不同方向發展，但共用工具仍可支援兩類工作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I thought the cupboard had already been removed when the second activity began.",
+            "zh": "我以為第二種活動開始時，工具櫃已搬走。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought using the same tools meant the two groups were still following the same creative interests.",
+            "zh": "我以為使用相同工具，就表示兩組仍在發展相同的創作興趣。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留不同活動與共用資源兩項事實，不把其中一項抹去另一項。"
+      },
+      "speaking": {
+        "en": "The project has branched in different directions, so its history should show both the shared beginning and the later choices.",
+        "zh": "項目已朝不同方向發展，所以它的歷史應同時展示共同起點與後來的選擇。",
+        "promptZh": "先聽示範，再連起共同起點與不同發展。",
+        "targetSpan": {
+          "start": 16,
+          "end": 48
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為社團十周年展寫一段歷史。社團最初辦校園報，後來有人建立聲音訪問庫，有人整理花園觀察冊；兩者都源於當初記錄校園生活的興趣。用一至兩句英文寫實際展板文字，不把其中一支稱為其他人的失敗。",
+        "examples": [
+          {
+            "en": "The society branched in different directions from its first campus newspaper, creating an audio archive and a garden notebook. Both grew from the wish to record school life, though each found a different way to do it.",
+            "zh": "社團從最初的校園報朝不同方向發展，建立了聲音資料庫和花園觀察冊。兩者都源於記錄校園生活的願望，只是採用了不同方法。"
+          },
+          {
+            "en": "Our interest in recording school life has branched in different directions over ten years. The interviews and garden observations show two paths from that common beginning, rather than one replacing a failed version of the other.",
+            "zh": "十年間，我們記錄校園生活的興趣朝不同方向發展。訪問和花園觀察展示了共同起點後的兩條路，而不是其中一支取代另一個失敗版本。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its first campus newspaper",
+            "zh": "最初的校園報",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 76
+            }
+          },
+          {
+            "en": "an audio archive",
+            "zh": "聲音資料庫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 87,
+              "end": 103
+            }
+          },
+          {
+            "en": "a garden notebook",
+            "zh": "花園觀察冊",
+            "exampleIndex": 0,
+            "span": {
+              "start": 108,
+              "end": 125
+            }
+          },
+          {
+            "en": "the wish to record school life",
+            "zh": "記錄校園生活的願望",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 172
+            }
+          },
+          {
+            "en": "that common beginning",
+            "zh": "那個共同起點",
+            "exampleIndex": 1,
+            "span": {
+              "start": 150,
+              "end": 171
+            }
+          }
+        ],
+        "selfCheckZh": "寫可直接展示的歷史，點出共通動機及具體的不同產物；不用同一路向當作成功的唯一標準。"
+      },
+      "takeaways": [
+        {
+          "en": "The family’s interests branched in different directions, although everyone still helped care for the old garden.",
+          "zh": "家人的興趣朝不同方向發展，但大家仍一起照顧舊花園。"
+        },
+        {
+          "en": "The original reading project branched in different directions as members began collecting songs and local stories.",
+          "zh": "成員開始收集歌曲及地方故事後，原本的閱讀項目朝不同方向發展。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Exact source retained. Distinguish varied actual paths from appearance labels and from independent branch-out construction543. Final exhibition history explains common origin and diverse cultural records without ranking paths."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1309",
+      "number": 1309,
+      "inventoryId": "expr-1309",
+      "contentRevision": 1,
+      "titleEn": "scattered across different cities",
+      "titleZh": "分散居於不同城市",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bscattered across different cities\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p145-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 145,
+          "book": 6,
+          "question": 13,
+          "sample": "S1",
+          "sourceBookPages": "37–39",
+          "expression": "scattered across different cities",
+          "sentence": "The cousins are scattered across different cities.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page145, table1, row7; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Distributed among several cities rather than all being in one place.",
+        "meaningZh": "分布在多個城市，而不是全部在同一地方。",
+        "grammar": "be scattered across different cities; people remain/are now scattered. Scattered describes the distribution, not necessarily a disorderly or accidental move.",
+        "register": "Common figurative spatial description of people or things in separated locations. It does not by itself describe the quality of their relationships.",
+        "boundaryZh": "城市不同不等於國家一定不同，也不表示已失去聯絡；要看實際地點與互動。",
+        "misconceptionZh": "不同地址可能仍在同一城市，分散居住也可能是有意選擇，不能自行補出原因。",
+        "outcomeZh": "能準確描述分布，並提出配合各人位置的實際安排。"
+      },
+      "listening": {
+        "en": "Our former debating team is scattered across different cities after graduation. We chose an online reunion so everyone could join without travelling back, and asked each person which evenings were possible.",
+        "zh": "畢業後，昔日辯論隊成員分散在不同城市。我們選擇網上重聚，讓大家不用專程回來，也先問每人哪些晚上有空。",
+        "promptEn": "",
+        "promptZh": "地點分布怎樣影響安排？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The group planned a remote reunion and checked availability instead of assuming everyone could travel back.",
+            "zh": "小組安排網上重聚並查問時間，而不是假定每人都能回來。"
+          },
+          {
+            "id": "choice-2",
+            "en": "All members had returned to one city before choosing an in-person dinner.",
+            "zh": "所有成員已回到同一城市，才選了實體聚餐。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group had lost all contact and could not ask about anyone’s evenings.",
+            "zh": "小組已完全失聯，無法詢問任何人的時間。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Each member was living at a different address in the same building.",
+            "zh": "每位成員住在同一幢樓的不同地址。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不同城市令交通成為考慮，但小組仍可聯絡及協商時間。"
+      },
+      "reply": {
+        "promptEn": "Why did the team choose an online reunion?",
+        "promptZh": "隊伍為甚麼選網上重聚？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We are scattered across different cities, so it avoids asking everyone to travel back.",
+            "zh": "我們分散在不同城市，這樣便不用要求大家專程回來。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The members no longer live close enough for a simple local meeting.",
+            "zh": "成員已不再住得很近，不能當作普通本地聚會來安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remote contact lets people take part from the places where they now live.",
+            "zh": "網上聯絡讓大家從現居地方參與。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We wanted a meeting that did not depend on everyone making the same journey.",
+            "zh": "我們想安排不需要每人都作同一趟旅程的聚會。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都以地理分布及交通需要解釋，沒有把分散當成失聯。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "四位作者住在同一城市的不同街區，編者只看見四個地址，就說他們分散在不同城市。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They have different addresses, but are not scattered across different cities on the information given.",
+            "zh": "按目前資料，他們有不同地址，但不是分散在不同城市。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The four addresses confirm that each writer lives in a separate city.",
+            "zh": "四個地址確認了每位作者住在不同城市。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The writers share a single address, with only their names listed separately.",
+            "zh": "作者共用一個地址，只是名字分開列出。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "地址不同與城市不同是兩個層次，題目已說同一城市。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜只由 scattered across different cities 推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "人物分布在多個城市。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "分散一定由意外或彼此不和造成。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "安排實體聚會時可能需要考慮交通。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "片語描述位置分布，不會自行交代搬遷原因或人際關係。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「大家在不同城市，重聚一定安排不了。」成員仍能聯絡，也願意查看時間。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We are scattered across different cities, but we can still ask about times and meet online.",
+            "zh": "我們分散在不同城市，但仍可查問時間，在網上見面。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would book our usual local room before checking whether the people in other cities could get there.",
+            "zh": "我會先預訂平日的本地房間，再查其他城市的人能否到場。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Different cities mean we should use one person’s free evening without checking the others.",
+            "zh": "城市不同，表示我們應直接採用一人的空閒晚上，不用問其他人。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "用仍可聯絡及查問的事實提出可行方法，不把分布變成無法協商。"
+      },
+      "speaking": {
+        "en": "The members are scattered across different cities, so we should ask how each person would like to receive the documents.",
+        "zh": "成員分散在不同城市，所以應先問每人想怎樣收取文件。",
+        "promptZh": "先聽示範，再按不同位置詢問實際的接收安排。",
+        "targetSpan": {
+          "start": 16,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你要把舊隊員的實體紀念證書交還本人。大家已分居不同城市，主辦者想把全部交給一人，假定他們經常見面。用一至兩句英文提出先私下詢問每人想領取或郵寄的方式，不代別人公開住址或答應轉交。",
+        "examples": [
+          {
+            "en": "The former members are scattered across different cities, so handing every certificate to one person may not get it to its owner. Could we ask each person privately whether they prefer collection or post?",
+            "zh": "舊成員分散在不同城市，把全部證書交給一人，不一定能送到本人手上。我們可以私下問每人想親取還是郵寄嗎？"
+          },
+          {
+            "en": "Since the team is scattered across different cities, I would check individual delivery preferences before choosing someone to pass everything on. We should ask for any postal address privately rather than put it in the group message.",
+            "zh": "隊員分散在不同城市，所以選人轉交全部文件前，我會先問各自的收取方式。我們應私下查問郵寄地址，不要放在群組訊息中。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "every certificate",
+            "zh": "每張證書",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 86
+            }
+          },
+          {
+            "en": "its owner",
+            "zh": "它的主人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 119,
+              "end": 128
+            }
+          },
+          {
+            "en": "ask each person privately",
+            "zh": "私下問每人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 164
+            }
+          },
+          {
+            "en": "collection or post",
+            "zh": "親取還是郵寄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 185,
+              "end": 203
+            }
+          },
+          {
+            "en": "individual delivery preferences",
+            "zh": "各人的收取方式偏好",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 98
+            }
+          }
+        ],
+        "selfCheckZh": "提出先詢問本人再安排交收的做法，配合實際分布並保留私隱；不假定一位隊員已願意或能夠轉交全部證書。"
+      },
+      "takeaways": [
+        {
+          "en": "The writers are scattered across different cities, but their shared archive records where each interview took place.",
+          "zh": "作者分散在不同城市，但共用資料庫記錄了每次訪問在哪裏進行。"
+        },
+        {
+          "en": "Our cousins were scattered across different cities, so the invitation offered more than one way to take part.",
+          "zh": "表親分散在不同城市，所以邀請提供了不止一種參與方法。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Exact guide source retained. Different-city distribution is not different-address or lost-contact equivalence; final physical certificate delivery and private preference collection differs from reunion feasibility."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1310",
+      "number": 1310,
+      "inventoryId": "expr-1310",
+      "contentRevision": 1,
+      "titleEn": "handed down from the top",
+      "titleZh": "由上層直接下達",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bhand(?:s|ed|ing)? down from the top\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p145-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 145,
+          "book": 6,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "37–39",
+          "expression": "handed down from the top",
+          "sentence": "Rules were handed down from the top.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page145, table1, row9; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Communicate a decision from those in authority to others lower in the organisation.",
+        "meaningZh": "把決定由組織上層傳達給下層人員。",
+        "grammar": "a decision is handed down from the top; rules handed down from the top. The passive pattern names the receiving process; top refers to authority, not a physical floor.",
+        "register": "Hierarchical use of hand down with a top-down image. It can contrast with consultation, but the wording alone does not prove a decision is unreasonable.",
+        "boundaryZh": "由上層下達與決定好壞是不同問題；也不能只因由主席宣布，就推斷先前沒有諮詢。",
+        "misconceptionZh": "要分清決定由誰制定、如何傳達，以及是否曾收集意見，不把三件事混在一起。",
+        "outcomeZh": "能準確交代決定來源，並詢問仍可參與或調整的部分。"
+      },
+      "listening": {
+        "en": "The festival timetable was handed down from the top: the committee chose the hours before asking the volunteers. The closing time fitted the venue booking, but volunteers still wanted a chance to explain problems with the shifts.",
+        "zh": "節慶時間表由上層直接下達：委員會先選時段，之後才詢問義工。結束時間配合場地預訂，但義工仍想有機會說明輪值的問題。",
+        "promptEn": "",
+        "promptZh": "資料怎樣說明決定的來源與實際條件？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The committee set the hours first; one practical reason existed, but volunteer input had not shaped that choice.",
+            "zh": "委員會先定時段；其中有實際原因，但義工意見沒有參與形成那項選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Volunteers agreed all the shifts before sending their decision to the committee.",
+            "zh": "義工先議定全部更次，才把決定送交委員會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The venue had no connection with the chosen closing time.",
+            "zh": "場地安排與選定的結束時間沒有關係。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The committee had already changed the timetable after hearing every volunteer’s concern.",
+            "zh": "委員會已聽完每位義工的顧慮，再更改了時間表。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先定後問顯示由上層下達；配合場地的理由不會自行變成已諮詢義工。"
+      },
+      "reply": {
+        "promptEn": "Why did volunteers describe the timetable as a decision from above?",
+        "promptZh": "義工為甚麼說時間表是由上而下的決定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was handed down from the top before they were asked about the shifts.",
+            "zh": "他們還未被問及輪值，時間表已由上層下達。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The committee had chosen the hours without first hearing their concerns.",
+            "zh": "委員會未先聽他們的顧慮，便選定了時段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They received an existing timetable rather than helping to shape the first version.",
+            "zh": "他們收到的是既定時間表，而不是參與制定初稿。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Their opportunity to comment came after the main hours had been chosen.",
+            "zh": "主要時段選定後，他們才有機會提出意見。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代先後與參與方式，沒有只因委員會宣布便下判斷。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "主席先向每組收集方案，再按大家議定的準則整合時間表，最後由她發電郵宣布。旁人只因寄件人是主席，便說全表未經諮詢而直接下達。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "An announcement by the chair does not by itself show that the timetable was handed down from the top without consultation.",
+            "zh": "由主席宣布，本身不足以顯示時間表是未經諮詢而由上層直接下達。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The chair chose the hours before any group had been invited to offer a proposal.",
+            "zh": "各組還未獲邀提出方案，主席已選定時段。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The agreed criteria were introduced only after the announcement, with no earlier discussion.",
+            "zh": "宣布之後才提出共同準則，先前沒有討論。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "制定時已收集方案並議定準則，不能只憑宣布者的職位抹去過程。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜只因決定 handed down from the top 便推論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "決定由上層向其他人傳達。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "決定的內容必定完全不合理。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "可以再詢問下層是否有提出意見的機會。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "來源不會自行證明內容好壞；理由、影響及諮詢過程仍要分別了解。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然時間表由上層定，一定連場地時間都沒考慮。」你知道結束時間配合預訂，但仍希望義工可提輪值問題。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The timetable was handed down from the top, but the closing time had a practical reason; we can still ask for volunteer feedback on the shifts.",
+            "zh": "時間表由上層下達，但結束時間有實際理由；我們仍可要求收集義工對輪值的意見。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I assumed that a committee-issued timetable was based only on senior preferences, rather than a venue constraint.",
+            "zh": "我以為委員會下達的時間表只按高層喜好，而不是場地限制。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought fitting the venue meant that every volunteer had already accepted a shift.",
+            "zh": "我以為配合場地，就表示每位義工已接受更次。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留實際理由，也保留仍需了解的義工意見，不把兩者互相取代。"
+      },
+      "speaking": {
+        "en": "Which parts of the plan were handed down from the top, and which parts can the people doing the work still help to shape?",
+        "zh": "計劃哪些部分由上層直接下達，哪些部分仍可讓實際工作的人參與制定？",
+        "promptZh": "先聽示範，再詢問決定來源和仍可參與的範圍。",
+        "targetSpan": {
+          "start": 29,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你替校刊訪問新圖書室負責人。你知道開放時間由管理委員會定好，卻還未知道學生能否參與安排借閱活動。用一至兩句英文寫實際訪問問題，先確認決定範圍，再問學生可以怎樣參與，不預先指責全部安排都沒有諮詢。",
+        "examples": [
+          {
+            "en": "The opening hours were handed down from the top, but does that also apply to the borrowing activities? Could you explain which choices students can still help to make?",
+            "zh": "開放時間由上層下達，但借閱活動也一樣嗎？你可以說明學生仍可參與哪些選擇嗎？"
+          },
+          {
+            "en": "We understand that the opening hours were handed down from the top. What room is there for students to propose activities within those hours, and how should they put their ideas forward?",
+            "zh": "我們知道開放時間由上層下達。在那些時段內，學生還有多少提出活動建議的空間，應怎樣提交想法？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The opening hours",
+            "zh": "開放時間",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "the borrowing activities",
+            "zh": "借閱活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 77,
+              "end": 101
+            }
+          },
+          {
+            "en": "which choices students can still help to make",
+            "zh": "學生仍可參與哪些選擇",
+            "exampleIndex": 0,
+            "span": {
+              "start": 121,
+              "end": 166
+            }
+          },
+          {
+            "en": "propose activities",
+            "zh": "提出活動建議",
+            "exampleIndex": 1,
+            "span": {
+              "start": 103,
+              "end": 121
+            }
+          },
+          {
+            "en": "put their ideas forward",
+            "zh": "提出他們的想法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 162,
+              "end": 185
+            }
+          }
+        ],
+        "selfCheckZh": "寫具體且開放的訪問問題，清楚標示已知時段及尚未了解的活動參與方式；不先替受訪者回答或把所有部分一概而論。"
+      },
+      "takeaways": [
+        {
+          "en": "The new seating plan was handed down from the top, and staff asked where they could explain the problems it caused.",
+          "zh": "新座位安排由上層下達，職員便詢問可在哪裏說明它帶來的問題。"
+        },
+        {
+          "en": "The decision was handed down from the top, although its reasons were later explained to the people carrying it out.",
+          "zh": "決定由上層下達，但之後向執行的人解釋了理由。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Exact hierarchy source retained; not conflated with inherited-family pass-down frame. Final actual interview questions investigate fixed versus participatory scope rather than merely classify another announcement."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1311",
+      "number": 1311,
+      "inventoryId": "expr-1311",
+      "contentRevision": 1,
+      "titleEn": "keep the whole ship steady",
+      "titleZh": "讓整體繼續穩定運作",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:keep|keeps|kept|keeping) the whole ship steady\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p145-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 145,
+          "book": 6,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "37–39",
+          "expression": "keep the whole ship steady",
+          "sentence": "The parents worked together to keep the whole ship steady.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page145, table1, row10; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Help a group or shared undertaking continue functioning with stability through change or difficulty.",
+        "meaningZh": "在轉變或困難中，讓一個群體或共同事情繼續穩定運作。",
+        "grammar": "keep the whole ship steady; kept/keeping. Whole ship represents the shared undertaking; identify the practical functioning being maintained.",
+        "register": "Productive ship-as-group image. Unlike steer the ship, the focus is maintaining steadiness, not necessarily having authority to choose the direction.",
+        "boundaryZh": "穩定運作不等於沒有任何變動、人人同意或表面安靜；仍須看實際需要是否得到處理。",
+        "misconceptionZh": "可用不同方法維持重要功能；沒有聽見投訴，也不足以證明大家都應付得到。",
+        "outcomeZh": "能指出維持整體運作的具體行動，並查問仍被忽略的困難。"
+      },
+      "listening": {
+        "en": "When Dad’s working hours changed, we shared the evening jobs to keep the whole ship steady. Dinner was later on Tuesdays, but someone still collected my sister and checked that her school bag was ready.",
+        "zh": "爸爸的工作時間改變後，我們分擔晚間工作，讓全家繼續穩定運作。周二較遲吃飯，但仍有人接妹妹，也會檢查她的書包是否準備好。",
+        "promptEn": "",
+        "promptZh": "這裏的穩定主要指甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Important daily needs continued to be covered even though one part of the routine changed.",
+            "zh": "雖然部分日常安排改了，重要需要仍有人照顧。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every evening remained exactly the same as before the work change.",
+            "zh": "工作時間改變後，每個晚上的安排仍與以前完全一樣。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Dad took over all the evening jobs so nobody else had a role.",
+            "zh": "爸爸接手全部晚間工作，其他人都沒有角色。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The family stopped collecting the sister and preparing for school.",
+            "zh": "家人停止接妹妹，也不再準備上學物品。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "接送及準備仍有安排；穩定不是把每項細節固定不變。"
+      },
+      "reply": {
+        "promptEn": "How did the family manage the change in working hours?",
+        "promptZh": "家人怎樣應付工作時間的改變？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We shared the evening jobs to keep the whole ship steady.",
+            "zh": "我們分擔晚間工作，讓整體繼續穩定運作。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We changed part of the routine while making sure the necessary jobs were covered.",
+            "zh": "我們改了部分日常安排，同時確保必要工作有人做。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Someone still handled the school collection and preparation, even on the later dinner day.",
+            "zh": "即使較遲吃飯的那天，仍有人處理放學接送及準備。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The practical needs gave us a basis for sharing the work instead of leaving everything uncertain.",
+            "zh": "實際需要讓我們有依據分工，不把每件事都留在未定狀態。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都指出實際維持運作的安排，不把穩定等同完全不變。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "圖書會原本在周三見面，場地維修後改到周四；借還、討論和通知會員的安排仍正常。有人只因改了一天，就說整體已失去穩定。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Changing the meeting day can help keep the whole ship steady if the group’s essential activities still work.",
+            "zh": "如果重要活動仍運作，改聚會日也可以幫助整體保持穩定。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account says the borrowing arrangements and member notices have stopped.",
+            "zh": "敘述說借還安排及會員通知已停止。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group has cancelled its discussion programme instead of adapting to the repairs.",
+            "zh": "小組已取消討論活動，沒有配合維修調整。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "時間改動可以是維持功能的方法；要看實際活動，不能只看是否與以前相同。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜直接當成「已 keep the whole ship steady」的充分證據？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "重要工作有人接手，參與者能說明怎樣繼續。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "現場沒有人公開投訴，卻還未問過大家是否應付得到。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "安排改變後，原定需要仍有人跟進。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "沒有公開投訴不等於沒有困難；穩定需要實際功能及人的經驗作支持。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「周二晚飯遲了，就不算維持穩定。」你知道接送和上學準備仍有安排。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We kept the whole ship steady by covering the important jobs, even though Tuesday dinner moved later.",
+            "zh": "雖然周二晚飯遲了，我們仍透過處理重要工作讓整體保持穩定。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would keep the old dinner time even if it left nobody to collect my sister.",
+            "zh": "即使沒有人接妹妹，我也會保留舊晚飯時間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought moving dinner later also meant leaving the school preparation until the next morning.",
+            "zh": "我以為晚飯改遲，也表示上學準備要留到翌日早上。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "用重要需要仍有照顧來說明，不把單一時間當成所有功能的代替。"
+      },
+      "speaking": {
+        "en": "We need to keep the whole ship steady by finding out which important jobs are being missed, not just waiting for a complaint.",
+        "zh": "我們需要了解哪些重要工作被漏掉，讓整體繼續穩定運作，而不只是等有人投訴。",
+        "promptZh": "先聽示範，再指出需要主動了解的實際情況。",
+        "targetSpan": {
+          "start": 11,
+          "end": 37
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：社區廚房換了召集人後，會議表面安靜，但已有兩次輪值無人到場；大家還未私下談過原因。你想寫給召集人，建議先詢問義工遇到甚麼困難及誰能接手必要工作，不把沒人公開投訴當成一切順利。用一至兩句英文提出做法。",
+        "examples": [
+          {
+            "en": "To keep the whole ship steady, we should ask volunteers privately why the two shifts were missed and which essential jobs need cover. A quiet meeting is not enough to tell us that everyone can manage the new arrangement.",
+            "zh": "為了讓整體繼續穩定運作，我們應私下問義工兩次輪值為何缺席，以及哪些必要工作需要人接手。會議安靜，不足以顯示每人都能應付新安排。"
+          },
+          {
+            "en": "We may need a private check-in to keep the whole ship steady, especially after two uncovered shifts. Could we find out what support people need before describing the silence as a sign that everything is working?",
+            "zh": "兩次輪值無人接手後，我們可能需要私下了解情況，讓整體保持穩定。把安靜形容為一切正常之前，可先了解大家需要甚麼支持嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "ask volunteers privately",
+            "zh": "私下詢問義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 65
+            }
+          },
+          {
+            "en": "the two shifts were missed",
+            "zh": "兩次輪值缺席",
+            "exampleIndex": 0,
+            "span": {
+              "start": 70,
+              "end": 96
+            }
+          },
+          {
+            "en": "essential jobs need cover",
+            "zh": "必要工作需要有人接手",
+            "exampleIndex": 0,
+            "span": {
+              "start": 107,
+              "end": 132
+            }
+          },
+          {
+            "en": "a private check-in",
+            "zh": "私下了解情況",
+            "exampleIndex": 1,
+            "span": {
+              "start": 12,
+              "end": 30
+            }
+          },
+          {
+            "en": "what support people need",
+            "zh": "大家需要甚麼支持",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 143
+            }
+          }
+        ],
+        "selfCheckZh": "提出主動了解缺席原因及必要工作的人手安排；不從沉默推斷順利，也不未經了解便把缺席歸咎於不在乎。"
+      },
+      "takeaways": [
+        {
+          "en": "The volunteers kept the whole ship steady by explaining the handover clearly to the next group.",
+          "zh": "義工向下一組清楚交接，讓整體繼續穩定運作。"
+        },
+        {
+          "en": "Keeping the whole ship steady meant changing one routine before it left the team without a way to contact each other.",
+          "zh": "維持整體穩定，意味在團隊失去互相聯絡的方法前，先改一項日常安排。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Exact ship-stability source retained; related508 steering focuses direction/leadership rather than steadiness. Final actively investigates missed shifts and silent difficulty instead of simply praising unchanged routines."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1312",
+      "number": 1312,
+      "inventoryId": "expr-1312",
+      "contentRevision": 1,
+      "titleEn": "when life gets rough",
+      "titleZh": "生活變得艱難的時候",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bwhen life gets rough\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p145-t1-r12",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 145,
+          "book": 6,
+          "question": 13,
+          "sample": "S2",
+          "sourceBookPages": "37–39",
+          "expression": "when life gets rough",
+          "sentence": "Friends matter most when life gets rough.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page145, table1, row12; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "At a time when circumstances become difficult or distressing.",
+        "meaningZh": "生活情況變得艱難或令人難受的時候。",
+        "grammar": "when life gets rough introduces a difficult period; rough is figurative, not a description of surface texture. The present form can describe a general recurring situation.",
+        "register": "Common informal wording about difficulties; it does not define a specific illness or require a dramatic crisis.",
+        "boundaryZh": "困難程度要由情境交代；尋求支援不等於能力不足，也不保證朋友能解決所有問題。",
+        "misconceptionZh": "不能只憑一次小改動，就推斷別人的整體生活陷入危機。",
+        "outcomeZh": "能在生活艱難時提出有界限的具體支援請求。"
+      },
+      "listening": {
+        "en": "When life gets rough, I sometimes need a friend to listen before offering solutions. During the week our landlord gave us notice, Mai let me explain my worries and then helped me list the calls I needed to make.",
+        "zh": "生活變得艱難時，我有時需要朋友先聆聽，再提供辦法。業主通知我們搬走的那一周，Mai 先讓我說出擔憂，再幫我列出需要打的電話。",
+        "promptEn": "",
+        "promptZh": "Mai 的支持怎樣配合說話者的需要？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She listened to the worries before helping with the practical next steps.",
+            "zh": "她先聆聽擔憂，再協助整理實際下一步。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She made the housing calls before allowing the speaker to explain the worries.",
+            "zh": "她先處理住房電話，才讓說話者交代擔憂。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She advised the speaker to avoid discussing the notice with anyone.",
+            "zh": "她勸說話者不要跟任何人談搬遷通知。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She decided that only finding a new home could count as support.",
+            "zh": "她認為只有找到新住所，才算提供支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "艱難的處境包括搬遷壓力；先聆聽與整理行動都可以是支持，不必代替對方處理全部事情。"
+      },
+      "reply": {
+        "promptEn": "What helped during that difficult housing week?",
+        "promptZh": "住房安排困難的那一周，甚麼幫上了忙？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When life gets rough, being heard before planning can help me take the next step.",
+            "zh": "生活變得艱難時，先有人聆聽再作規劃，能幫我踏出下一步。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Mai gave me space to explain what was worrying me.",
+            "zh": "Mai 給我空間，讓我交代擔心甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We made a manageable list after talking through the notice.",
+            "zh": "我們談清搬遷通知後，列出一張應付得來的清單。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Her listening and practical help worked together.",
+            "zh": "她的聆聽與實際幫忙互相配合。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都符合已有的支持過程；金句用了本課表達。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "朋友同時面對工作不穩和家人住院，說自己最近很難集中。他請你陪他整理這周最急的安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When life gets rough, we can work out which jobs need attention first.",
+            "zh": "生活變得艱難時，我們可以一起找出哪些事要先處理。"
+          },
+          {
+            "id": "choice-2",
+            "en": "His difficulty concentrating means he has decided to leave his job.",
+            "zh": "他難以集中，表示他已決定辭職。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He is asking us to choose a new job for him before discussing which tasks are urgent this week.",
+            "zh": "他在請我們先替他選一份新工作，再討論這周哪些事最急。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "困難來自工作及家庭壓力；幫忙排序能回應請求，不能自行加上辭職決定。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪種回應最不宜只憑「when life gets rough」這句話就作出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "問對方現在希望有人聆聽，還是需要實際幫忙。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "先了解對方說的困難是甚麼。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "斷定對方已失去處理任何日常事情的能力。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "表達指向艱難時期，不足以判斷對方所有能力；需要了解具體情況。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「我知道你最近很辛苦，但我只有二十分鐘，可以幫甚麼？」你今晚只想有人聆聽。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When life gets rough, a short listening conversation can help; could I tell you what happened today?",
+            "zh": "生活變得艱難時，短暫有人聆聽也有幫助；我可以說說今天發生的事嗎？"
+          },
+          {
+            "id": "choice-2",
+            "en": "Please start by listing housing options for me rather than hearing which part of today I wanted to talk about.",
+            "zh": "請先替我列住房選項，不必聽我今天想談哪部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Let us use the twenty minutes to settle my next housing decision rather than spend it on how today felt.",
+            "zh": "我們用這二十分鐘決定我下一個住房選擇，不花時間談今天的感受吧。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "此刻的請求是有限時間內有人聆聽；先給辦法或直接定下一步，未能配合當事人現在想談的感受。"
+      },
+      "speaking": {
+        "en": "When life gets rough, I can ask for a little help without expecting someone else to take over every decision.",
+        "zh": "生活變得艱難時，我可以請人幫一點忙，不必期望別人接手每項決定。",
+        "promptZh": "先聽，再說明可以怎樣提出有界限的請求。",
+        "targetSpan": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：同學最近照顧家人，又要準備考試。他說謝謝你的關心，但不想在班群交代家事。你想私下提出明天替他取講義，也讓他可以拒絕，不要求知道詳情。用一至兩句英文寫實際訊息。",
+        "examples": [
+          {
+            "en": "When life gets rough, a small practical offer may be more useful than another public question. I could collect your notes tomorrow if you would like, and you do not need to explain your family situation.",
+            "zh": "生活變得艱難時，一點實際幫忙可能比再次公開追問更有用。如果你願意，我明天可以替你取講義，你不必交代家中情況。"
+          },
+          {
+            "en": "When life gets rough, you should still be able to choose what to share. Would you like me to pick up your notes tomorrow, with no need to discuss anything in the class chat?",
+            "zh": "生活變得艱難時，你仍應能選擇分享甚麼。你想我明天替你取講義嗎？不需要在班群談任何詳情。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a small practical offer",
+            "zh": "一點實際幫忙",
+            "exampleIndex": 0,
+            "span": {
+              "start": 22,
+              "end": 45
+            }
+          },
+          {
+            "en": "collect your notes tomorrow",
+            "zh": "明天替你取講義",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 130
+            }
+          },
+          {
+            "en": "your family situation",
+            "zh": "你家中的情況",
+            "exampleIndex": 0,
+            "span": {
+              "start": 181,
+              "end": 202
+            }
+          },
+          {
+            "en": "choose what to share",
+            "zh": "選擇分享甚麼",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 70
+            }
+          },
+          {
+            "en": "the class chat",
+            "zh": "班群",
+            "exampleIndex": 1,
+            "span": {
+              "start": 158,
+              "end": 172
+            }
+          }
+        ],
+        "selfCheckZh": "提供能拒絕的具體幫忙，尊重不公開家事的界限；不要把支援變成要求交代詳情。"
+      },
+      "takeaways": [
+        {
+          "en": "When life gets rough, our neighbour offers to collect the shopping rather than guessing what we need.",
+          "zh": "生活變得艱難時，鄰居會問是否需要代購，而不是猜測我們的需要。"
+        },
+        {
+          "en": "When life gets rough, I find it easier to ask for one clear favour than to explain everything at once.",
+          "zh": "生活變得艱難時，我覺得提出一項清楚的請求，比一次交代所有事情容易。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Everyday rough-difficulty clause, not a medical diagnosis. Final privacy-preserving optional practical offer differs from main listening-before-planning support."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1313",
+      "number": 1313,
+      "inventoryId": "expr-1313",
+      "contentRevision": 1,
+      "titleEn": "move towards smaller households",
+      "titleZh": "家庭住戶規模縮小的趨勢",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bmove towards smaller households\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p146-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 146,
+          "book": 6,
+          "question": 14,
+          "sample": "S1",
+          "sourceBookPages": "40–41",
+          "expression": "move towards smaller households",
+          "sentence": "The census records a move towards smaller households.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page146, table1, row3; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A shift in the distribution of households towards fewer people living in each.",
+        "meaningZh": "住戶的分布朝每戶居住人數較少的方向改變。",
+        "grammar": "a move towards smaller households: move is a countable noun meaning shift or trend. Towards does not by itself specify a size threshold, cause or completion. Household counts people sharing a home, not necessarily relatives.",
+        "register": "Natural demographic collocation; compare like definitions and dates rather than assume a cause.",
+        "boundaryZh": "住戶變小不等於親屬關係較疏遠，也不代表每戶都縮小；與家庭成員數目不能不加分辨地互換。",
+        "misconceptionZh": "趨勢是整體分布改變，不能用一個搬家例子代替，也不能直接推論感情或照顧意願。",
+        "outcomeZh": "能準確描述住戶規模趨勢，並指出資料未支持的結論。"
+      },
+      "listening": {
+        "en": "The town report records a move towards smaller households: one- and two-person homes form a larger share than ten years ago. It does not tell us whether relatives now visit less often.",
+        "zh": "城鎮報告記錄住戶規模縮小的趨勢：一人及二人住戶所佔比例，比十年前增加。報告沒有說明親屬是否較少探望。",
+        "promptEn": "",
+        "promptZh": "報告支持哪個結論？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Smaller households account for a larger share, but visiting frequency is not established.",
+            "zh": "人數較少的住戶所佔比例增加，但探望次數仍未確定。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every household now has fewer people than it had ten years ago.",
+            "zh": "每一戶的人數都比十年前減少。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Relatives visit less often because the smaller-home share has increased.",
+            "zh": "較小住戶比例增加，所以親屬較少探望。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The report measures only the floor area of homes.",
+            "zh": "報告只量度住宅的樓面面積。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "一人及二人住戶的比例是人數分布；不是每戶變化、住宅面積或感情資料。"
+      },
+      "reply": {
+        "promptEn": "What change does the town report describe?",
+        "promptZh": "城鎮報告描述甚麼變化？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It records a move towards smaller households.",
+            "zh": "它記錄住戶規模縮小的趨勢。"
+          },
+          {
+            "id": "choice-2",
+            "en": "One- and two-person homes make up more of the total than before.",
+            "zh": "一人及二人住戶佔總數的比例比以前增加。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The distribution has shifted towards homes with fewer residents.",
+            "zh": "住戶分布轉向居住人數較少的類型。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The share of homes with only one or two residents has increased compared with ten years ago.",
+            "zh": "與十年前相比，只有一至二位住客的住戶比例增加了。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都與報告的人數分布相符；只有一句用了本課完整表達。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "兩次調查使用相同的住戶定義：較近期的一至二人住戶比例上升，五人以上比例下降。記者想概括這個方向。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The comparable figures suggest a move towards smaller households.",
+            "zh": "可比較的數字顯示，住戶規模朝較小的方向發展。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The comparison establishes that family members feel less close.",
+            "zh": "這項比較證明，家人感情較疏遠。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The figures describe smaller rooms rather than fewer residents.",
+            "zh": "數字描述房間較小，而不是住客較少。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同一定義下的人數分布支持趨勢描述，沒有量度情感或房間面積。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪種資料最不宜直接用來判斷「a move towards smaller households」？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "兩個年份按相同定義列出的每戶人數分布。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一位朋友搬到較小單位，但同住人數沒有改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "同一地區多年一人、二人及多人住戶的比例。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "單位面積及個別搬屋經歷，不足以描述每戶人數的整體趨勢。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說：「既然小住戶增加，標題就寫家人不再互相關心吧。」你要保留資料的實際範圍。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The report shows a move towards smaller households, but it does not measure how much relatives care for one another.",
+            "zh": "報告顯示住戶規模縮小，但沒有量度親屬有多關心彼此。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We can replace the household figures with an account of one family’s feelings.",
+            "zh": "我們可以用一個家庭的感受，代替住戶數字。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The numbers prove that all residents prefer living alone.",
+            "zh": "數字證明，所有居民都較喜歡獨居。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留觀察到的趨勢，另外指出沒有量度的情感問題。"
+      },
+      "speaking": {
+        "en": "The report describes a move towards smaller households, not a measure of how often relatives support one another.",
+        "zh": "報告描述住戶規模縮小的趨勢，並沒有量度親屬互相支持的次數。",
+        "promptZh": "先聽示範，再說清資料量度的範圍。",
+        "targetSpan": {
+          "start": 23,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為社區中心審閱一張長者服務圖表。舊調查把所有同住者算作一戶，新調查卻把同一住所中的分租房客分開計；同伴想直接用兩組數字證明住戶縮小，再決定服務數量。用一至兩句英文提醒先處理定義差異，並提出可行下一步。",
+        "examples": [
+          {
+            "en": "We cannot establish a move towards smaller households from these figures until the household definitions are comparable. Could we ask for both years to be counted on the same basis before using the chart to plan services?",
+            "zh": "兩次住戶定義可以比較之前，我們不能用這些數字確定住戶規模縮小。用圖表規劃服務前，可先要求兩個年份按同一標準計算嗎？"
+          },
+          {
+            "en": "Before presenting this as a move towards smaller households, we should check how lodgers were counted in each survey. Let us request a comparable series rather than set service numbers from the mixed definitions.",
+            "zh": "把這形容為住戶規模縮小的趨勢前，我們應先核對每次調查如何計算分租房客。我們要求一組可比較的資料，而不是根據混合定義決定服務數量。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the household definitions",
+            "zh": "住戶定義",
+            "exampleIndex": 0,
+            "span": {
+              "start": 79,
+              "end": 104
+            }
+          },
+          {
+            "en": "on the same basis",
+            "zh": "按同一標準",
+            "exampleIndex": 0,
+            "span": {
+              "start": 163,
+              "end": 180
+            }
+          },
+          {
+            "en": "plan services",
+            "zh": "規劃服務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 207,
+              "end": 220
+            }
+          },
+          {
+            "en": "how lodgers were counted",
+            "zh": "如何計算分租房客",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 101
+            }
+          },
+          {
+            "en": "a comparable series",
+            "zh": "一組可比較的資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 152
+            }
+          }
+        ],
+        "selfCheckZh": "指出定義差異會影響比較，要求按同一標準處理；不要直接宣稱趨勢不存在，也不要從不可比較數字決定服務數量。"
+      },
+      "takeaways": [
+        {
+          "en": "A move towards smaller households can change the kinds of housing residents ask about.",
+          "zh": "住戶規模縮小的趨勢，可以改變居民查詢的住宅類型。"
+        },
+        {
+          "en": "The researcher checked the survey definitions before reporting a move towards smaller households.",
+          "zh": "研究者先核對調查定義，才報告住戶規模縮小的趨勢。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Household demographic unit not kinship-family unit1314. Final methodological comparability gate and service-planning decision differs from main observed distribution versus emotional inference."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1314",
+      "number": 1314,
+      "inventoryId": "expr-1314",
+      "contentRevision": 1,
+      "titleEn": "smaller family units",
+      "titleZh": "人數較少的家庭單位",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bsmaller family units\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p146-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 146,
+          "book": 6,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "40–41",
+          "expression": "smaller family units",
+          "sentence": "Smaller family units are common in the city.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page146, table1, row5; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Family groupings with fewer members than a relevant comparison group.",
+        "meaningZh": "與所比較的群體相比，成員人數較少的家庭組合。",
+        "grammar": "smaller family units: plural count noun with a comparative adjective; specify the comparison and statistical definition where relevant. Family unit and household can overlap, but unrelated co-residents may belong to a household without forming a family unit.",
+        "register": "Natural social-description collocation, not an idiom. Family-unit and household definitions can differ, so use the definition stated in the relevant report.",
+        "boundaryZh": "家庭單位人數較少，不等於缺少照顧、成員較年輕或住所較小；家庭與住戶的分類也可能不同。",
+        "misconceptionZh": "不要把家庭人數直接當成感情、生活質素或關係合法性的判斷。",
+        "outcomeZh": "能描述家庭人數的比較，同時核對統計分類及服務需要。"
+      },
+      "listening": {
+        "en": "The visitor centre offers smaller family units a table they can share without booking the large room. This means fewer relatives attending together; it does not mean their relationships are less important.",
+        "zh": "遊客中心讓人數較少的家庭一起使用一張桌子，不必預訂大房間。這指一同出席的親屬較少，不表示他們的關係較不重要。",
+        "promptEn": "",
+        "promptZh": "這裏的 smaller 說明甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Fewer relatives attend together, so a smaller seating arrangement may suit them.",
+            "zh": "一同出席的親屬較少，因此較小的座位安排可能適合。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The centre has assessed these families as less close emotionally.",
+            "zh": "中心已判定這些家庭的感情較疏遠。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Every family member is younger than the large-room visitors.",
+            "zh": "每位成員都比大房間的訪客年輕。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The families have been asked to attend without their relatives.",
+            "zh": "這些家庭被要求不與親屬一起出席。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "人數與座位需求有關；沒有對年齡、感情或誰可一同參與作出判斷。"
+      },
+      "reply": {
+        "promptEn": "Who might find the table useful?",
+        "promptZh": "哪些人可能覺得這張桌子實用？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Smaller family units can sit together without booking the large room.",
+            "zh": "人數較少的家庭可以同坐，不必預訂大房間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A family attending with fewer relatives may not need the larger space.",
+            "zh": "出席親屬較少的家庭，可能不需要較大的空間。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The arrangement gives a small group of relatives a place to sit together.",
+            "zh": "這個安排讓一小群親屬有地方同坐。"
+          },
+          {
+            "id": "choice-4",
+            "en": "It suits families whose seating needs are below the large room’s capacity.",
+            "zh": "它適合座位需求少於大房間容量的家庭。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明人數與座位的關係，沒有把家庭價值排高低。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "報告把共同生活的一對伴侶及其子女列為家庭單位，並比較各組成員人數。有人想把「兩位無親屬關係的室友」直接加入同一家庭統計。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Smaller family units and small households may overlap, but the report’s family definition must be checked before adding the roommates.",
+            "zh": "小家庭單位與小住戶可能重疊，但加入室友前，須先核對報告的家庭定義。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Any two people sharing an address necessarily form a family unit under this report’s definition.",
+            "zh": "按這份報告的定義，任何兩位同址居住的人，都必然構成家庭單位。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Once the roommates share an address, the report should treat each of them as a relative of the others.",
+            "zh": "室友共用地址後，報告就應把每人當成其他人的親屬。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同住人數與家庭分類是兩個問題，不能只憑地址相同就交換定義。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪個結論最不宜只由「smaller family units」推出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在指定比較下，家庭成員人數較少。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這些家庭一定沒有足夠情感支持。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "訂座前仍應問清實際出席人數。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "人數不足以量度情感支持；訂座仍要按實際需求了解。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說：「家庭較小，就直接安排最少支援吧。」你負責活動報名，還未問過無障礙及照顧需要。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Smaller family units may need fewer seats, but we still need to ask what support each group requires.",
+            "zh": "人數較少的家庭可能需要較少座位，但我們仍要問每組需要甚麼支援。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We should decide the support entirely from the number of names on the form.",
+            "zh": "我們應只按表格上的姓名數目決定支援。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The phrase confirms that every person can manage without assistance.",
+            "zh": "這個詞組確認，每個人都能不用協助。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "座位數可以與人數相關，具體支援則要另外了解。"
+      },
+      "speaking": {
+        "en": "Smaller family units may use less seating, but their access needs still deserve a direct conversation.",
+        "zh": "人數較少的家庭可能使用較少座位，但無障礙需要仍值得直接了解。",
+        "promptZh": "先聽，再說清人數與支援需要的分別。",
+        "targetSpan": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你修改家庭工作坊報名表。表格原本只准填兩位成人及子女，單親家庭、成年手足及祖孫同行都無法準確填寫。你想請設計者讓人按實際出席者填寫，另問座位與支援需要，不預設一種家庭形式。用一至兩句英文寫修改建議。",
+        "examples": [
+          {
+            "en": "Smaller family units should be able to list the relatives who are actually attending, rather than fit the two-adult template. Could we add open participant fields and ask separately about seating and support?",
+            "zh": "人數較少的家庭應能列出實際出席親屬，不必符合兩位成人的範本。我們可加入可自由填寫的參加者欄位，再另外詢問座位及支援嗎？"
+          },
+          {
+            "en": "The form should let smaller family units describe their actual group without assuming two adults and children. Please provide flexible participant fields, then collect access and seating needs separately.",
+            "zh": "表格應讓人數較少的家庭描述實際組合，不預設兩位成人及子女。請提供可靈活填寫的參加者欄位，再另行收集無障礙及座位需要。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the relatives who are actually attending",
+            "zh": "實際出席的親屬",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 84
+            }
+          },
+          {
+            "en": "the two-adult template",
+            "zh": "兩位成人的範本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 124
+            }
+          },
+          {
+            "en": "open participant fields",
+            "zh": "可自由填寫的參加者欄位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 139,
+              "end": 162
+            }
+          },
+          {
+            "en": "their actual group",
+            "zh": "實際的參加組合",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 68
+            }
+          },
+          {
+            "en": "access and seating needs",
+            "zh": "無障礙及座位需要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 168,
+              "end": 192
+            }
+          }
+        ],
+        "selfCheckZh": "提出讓不同家庭組合準確填寫的實際改動，另行了解支援；不要把較小家庭自動當成某一種成員組合。"
+      },
+      "takeaways": [
+        {
+          "en": "The venue kept a few shared tables for smaller family units attending the open day.",
+          "zh": "場地為開放日中人數較少的家庭，保留了幾張共用桌子。"
+        },
+        {
+          "en": "The report states its definition before comparing smaller family units across the two surveys.",
+          "zh": "報告先交代定義，才比較兩次調查中人數較少的家庭單位。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Source gloss loosely equates families and households; brief transparently distinguishes statistical definitions, no normative nuclear-family requirement. Final repairs exclusionary form fields, not another table allocation. The source guide uses a household gloss; curator distinction between household and kinship unit is explained in the semantic brief rather than learner-facing editorial history."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1315",
+      "number": 1315,
+      "inventoryId": "expr-1315",
+      "contentRevision": 1,
+      "titleEn": "living together while living apart",
+      "titleZh": "分居不同住所仍共同生活",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bliving together while living apart\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p146-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 146,
+          "book": 6,
+          "question": 14,
+          "sample": "S2",
+          "sourceBookPages": "40–41",
+          "expression": "living together while living apart",
+          "sentence": "Our family is living together while living apart in nearby flats.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page146, table1, row7; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Maintaining a shared or closely connected life while living in separate homes.",
+        "meaningZh": "分住不同住所，同時維持互相連繫及共同生活的安排。",
+        "grammar": "living together while living apart is a deliberate contextual contrast; the first together can mean shared life or mutual involvement, while apart concerns separate homes. Explain the actual arrangement.",
+        "register": "Productive figurative contrast in the supplied family context, not a universal formal relationship category.",
+        "boundaryZh": "不同住所不自動代表疏遠，也不自動證明關係密切；要交代聯絡、照顧及雙方意願。",
+        "misconceptionZh": "不能只因住得近，就假定彼此會分擔日常事情或同意隨時被探訪。",
+        "outcomeZh": "能說清分住而互相參與的生活方式，同時尊重各自界限。"
+      },
+      "listening": {
+        "en": "Our relatives describe themselves as living together while living apart. They have separate flats in the same neighbourhood, but share some evening meals and agree in advance who can help with shopping.",
+        "zh": "我們的親屬形容自己分住不同住所，卻仍共同生活。他們各自在同一區有單位，會一起吃部分晚飯，也事先商量誰能幫忙買東西。",
+        "promptEn": "",
+        "promptZh": "together 與 apart 在這裏怎樣並存？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They share parts of everyday life while keeping separate homes.",
+            "zh": "他們分享部分日常生活，同時保留各自住所。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They all sleep in one flat but describe its rooms as separate homes.",
+            "zh": "他們都在同一單位睡覺，只把不同房間稱為不同住所。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They have separate flats and have stopped making any shared arrangements.",
+            "zh": "他們有不同單位，並已停止所有共同安排。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The phrase means they have agreed that anyone may enter any flat at any time.",
+            "zh": "這個表達表示，大家已同意任何人可隨時進入任何單位。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "共同生活的部分由聚餐及事先商量交代；分住則是住所不同，沒有無限進出權。"
+      },
+      "reply": {
+        "promptEn": "How does the family combine closeness with separate homes?",
+        "promptZh": "這個家庭怎樣兼顧親近與各自住所？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are living together while living apart, sharing some meals and planning help in advance.",
+            "zh": "他們分住不同住所卻仍共同生活，一起吃部分晚飯，也事先安排幫忙。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their separate flats do not prevent them from sharing parts of the week.",
+            "zh": "不同單位沒有妨礙他們分享一周中的部分生活。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They keep their own homes while agreeing on meals and practical support.",
+            "zh": "他們保留各自住所，同時商量聚餐及實際支援。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Their shared routines depend on agreement rather than one shared address.",
+            "zh": "共同安排靠彼此同意，不是靠一個共同地址。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都符合已商量的安排；金句保留刻意的語意對照。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "兩位親屬各住同區不同單位，也在同一工場上班；報告只交代地址及工作地點，沒有談他們是否分享私人生活或互相照顧。編輯想直接用本課對照句描述。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Nearby homes and a shared workplace do not yet show what living together while living apart would mean in their personal lives.",
+            "zh": "附近住所及共同工作地點，還未顯示分住不同住所卻共同生活，在他們的私人生活中有甚麼實際意思。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would use the shared workplace as sufficient evidence that they already share their family routines outside work.",
+            "zh": "我會把共同工作地點當成充分證據，認為他們工作以外也已分享家庭日常。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The nearby addresses tell us which private responsibilities the two relatives have agreed to share.",
+            "zh": "附近的地址，能告訴我們兩位親屬已同意分擔哪些私人責任。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "地理接近及共同工作，不足以交代 together 在這裏所指的共同私人生活；應先了解有沒有互相參與的實際安排。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不足以單獨支持「living together while living apart」這種家庭描述？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "分住不同住所，但雙方同意定期聚餐及互相幫忙。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "分住附近單位，卻完全未了解是否有共同生活或聯絡。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "各自保留私人空間，同時協商日常分工。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "住得近只是地理資料，未交代 together 所指的共同生活。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然叫一起生活，我就不用先問，直接進她家幫忙吧？」對方平日仍希望先收到訊息。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Living together while living apart still leaves room for privacy; send a message before visiting.",
+            "zh": "分住不同住所卻仍共同生活，仍可以保留私隱；到訪前先傳訊息。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The phrase means the usual request for a message no longer applies.",
+            "zh": "這個表達表示，平日先傳訊息的要求不再適用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would treat an unanswered message as permission to enter.",
+            "zh": "我會把未獲回覆的訊息當成進入許可。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "共同參與生活不會自動取消明確的私人界限。"
+      },
+      "speaking": {
+        "en": "Living together while living apart works for us when shared plans still leave each person room to say no.",
+        "zh": "只要共同安排仍容許每人拒絕，分住不同住所卻仍共同生活，就適合我們。",
+        "promptZh": "先聽，再說明安排需要保留雙方意願。",
+        "targetSpan": {
+          "start": 0,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：兩位親屬原本住附近，現在其中一位搬到另一區。原定每天臨時互送飯菜不再可行，但兩人仍想互相參與生活。你想提議改為每周先確認一次可聚餐的日子，另留一晚通話，不要求對方維持舊頻率。用一至兩句英文寫實際提議。",
+        "examples": [
+          {
+            "en": "We can keep living together while living apart, but the move means our old daily meal arrangement needs to change. Could we agree on one meal day each week and another evening for a call, instead of expecting you to travel over every day?",
+            "zh": "我們可以繼續分住不同住所卻共同生活，但搬家後，原本每天送飯的安排需要改變。我們可每周商量一次聚餐日，再留另一晚通話，不期望你每天往返嗎？"
+          },
+          {
+            "en": "Living together while living apart need not mean keeping the same daily visits after your move. Let us check each week when a shared meal suits us and choose a separate evening to talk.",
+            "zh": "搬家後，分住不同住所卻共同生活，不必表示維持每天探訪。我們每周先確認甚麼時候適合聚餐，再選另一晚談話吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "our old daily meal arrangement",
+            "zh": "原本每天的飯食安排",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 97
+            }
+          },
+          {
+            "en": "one meal day each week",
+            "zh": "每周一天聚餐日",
+            "exampleIndex": 0,
+            "span": {
+              "start": 133,
+              "end": 155
+            }
+          },
+          {
+            "en": "another evening for a call",
+            "zh": "另一晚通話",
+            "exampleIndex": 0,
+            "span": {
+              "start": 160,
+              "end": 186
+            }
+          },
+          {
+            "en": "after your move",
+            "zh": "你搬家之後",
+            "exampleIndex": 1,
+            "span": {
+              "start": 79,
+              "end": 94
+            }
+          },
+          {
+            "en": "when a shared meal suits us",
+            "zh": "甚麼時候適合我們聚餐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 119,
+              "end": 146
+            }
+          }
+        ],
+        "selfCheckZh": "因距離改變而重訂可行的共同生活方式，保留雙方意願；不要把減少頻率直接當成關係終止。"
+      },
+      "takeaways": [
+        {
+          "en": "Living together while living apart lets us share Sunday lunch without giving up our separate homes.",
+          "zh": "分住不同住所卻仍共同生活，讓我們可以共進周日午餐，同時保留各自住所。"
+        },
+        {
+          "en": "The family explained what living together while living apart meant in their own weekly routine.",
+          "zh": "這個家庭用自己一周的安排，解釋分住不同住所卻仍共同生活的意思。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Creative contrast contextualised as mutual involvement, not a formal diagnosis/category. Final renegotiates changing travel feasibility rather than repeating entry-permission boundary."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1316",
+      "number": 1316,
+      "inventoryId": "expr-1316",
+      "contentRevision": 1,
+      "titleEn": "one simple script",
+      "titleZh": "單一簡化的人生模式",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bone simple script\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p146-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 146,
+          "book": 6,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "42–44",
+          "expression": "one simple script",
+          "sentence": "Family life no longer follows one simple script.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page146, table2, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "One prescribed or simplified pattern for how events or a life should develop.",
+        "meaningZh": "對事情或人生應如何發展，預設的一套簡化模式。",
+        "grammar": "follow/fit one simple script; script figuratively suggests an expected sequence or set of roles. One and simple describe this context, not a separate fixed idiom.",
+        "register": "Productive script metaphor. In family discussion it questions a single expected path, without claiming every shared routine is restrictive.",
+        "boundaryZh": "可有共同慣例而不要求所有人依循同一人生次序；要分清模式、個人選擇及實際條件。",
+        "misconceptionZh": "不應把偏離預設路線當成失敗，也不把任何計劃都說成強迫。",
+        "outcomeZh": "能辨認過度單一的預設，並實際詢問不同需要。"
+      },
+      "listening": {
+        "en": "The adviser used to describe adulthood through one simple script: finish training, get a permanent job, and buy a home. Meeting students with caring duties led her to offer several routes rather than assume the same order suited everyone.",
+        "zh": "導師曾用一套簡單模式描述成年生活：完成訓練、取得長工，再置業。接觸有照顧責任的學生後，她改為提供不同路徑，不再假定同一次序適合所有人。",
+        "promptEn": "",
+        "promptZh": "導師怎樣改變建議方式？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She stopped assuming one sequence suited everyone and offered several possible routes.",
+            "zh": "她不再假定同一次序適合所有人，改為提供不同可能路徑。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She required caring students to postpone all decisions until they could follow the original order.",
+            "zh": "她要求有照顧責任的學生延後所有決定，直至能遵從原來次序。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She replaced the old sequence with one compulsory route designed around caring responsibilities for all students.",
+            "zh": "她以一條所有學生都必須依從、圍繞照顧責任設計的路徑，取代舊次序。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She removed job and housing decisions from the advice rather than offering alternative ways to approach them.",
+            "zh": "她把就業及住房決定從建議中刪去，而不是提供不同處理途徑。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "script 是預設發展模式的比喻；改為多種路徑，不等於取消所有計劃。"
+      },
+      "reply": {
+        "promptEn": "What assumption did the adviser reconsider?",
+        "promptZh": "導師重新考慮了哪項假設？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She reconsidered the idea that adulthood should follow one simple script.",
+            "zh": "她重新考慮了成年生活應遵從單一簡單模式的想法。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She questioned whether the same order of milestones suited every student.",
+            "zh": "她質疑同一重要階段次序，是否適合每位學生。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She began allowing for caring duties and different practical routes.",
+            "zh": "她開始考慮照顧責任及不同實際路徑。"
+          },
+          {
+            "id": "choice-4",
+            "en": "She replaced a single expected sequence with more flexible advice.",
+            "zh": "她以較靈活的建議，取代單一期望次序。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都符合建議方式的改變；金句用了本課比喻。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "招生活動把所有成熟學生畫成「先辭職，再全日制上課」。策劃人想加入兼讀及繼續工作的途徑。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Their lives need not follow one simple script; the display should show more than one route into study.",
+            "zh": "他們的人生不必依循單一簡單模式；展示應呈現不只一條升學路徑。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The display establishes that every mature student has already left work.",
+            "zh": "展示證明，每位成熟學生都已離職。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The purpose is to give every visitor an identical timetable after enrolment.",
+            "zh": "目的是讓每位訪客入學後都使用相同時間表。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "加入其他途徑，是回應單一預設；並不是替全部訪客決定同一生活安排。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜直接當成「被要求遵從 one simple script」？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "諮詢者未了解個人情況，就只准對方選同一人生次序。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "活動表格讓參加者選兼讀、全日制或暫不決定，並解釋各項需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "宣傳把偏離單一路徑的人一概描寫成失敗。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "有多種可理解選項及暫緩決定的空間，不等於要求單一模式。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「既然不想人生只有一條路，我就不提供任何資料了。」你想讓學生仍能作有根據的選擇。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Avoiding one simple script does not mean withholding information; we can explain several routes and their practical demands.",
+            "zh": "避免單一簡單模式，不表示扣起資訊；我們可以交代不同路徑及各自的實際要求。"
+          },
+          {
+            "id": "choice-2",
+            "en": "We should leave students to infer the requirements without any guidance.",
+            "zh": "我們應讓學生在沒有指引下，自行猜測要求。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would replace the old sequence with another compulsory sequence for everyone.",
+            "zh": "我會用另一套人人必須遵從的次序，取代舊次序。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "真正的選擇仍需要資訊；多路徑不等於不提供支援。"
+      },
+      "speaking": {
+        "en": "Family life does not have to follow one simple script, but people still need clear information when they choose a different route.",
+        "zh": "家庭生活不必依循單一簡單模式，但選另一條路的人仍需要清楚資訊。",
+        "promptZh": "先聽，再說明靈活選擇與具體資訊可以並存。",
+        "targetSpan": {
+          "start": 36,
+          "end": 53
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你訪問了一位多次轉行的校友。她說每次轉變都有猶豫和家人協助，但編輯想把報道改成「從小知道目標，一路直達成功」。你想保留她的實際經歷，提議把轉折及支援寫清楚，而不把人生整理成必然路線。用一至兩句英文寫給編輯。",
+        "examples": [
+          {
+            "en": "Could we keep the changes of direction and the help she described, rather than fit her life into one simple script? Showing those uncertain decisions would give readers a more faithful account than claiming she knew the outcome from childhood.",
+            "zh": "我們可以保留她交代的轉向及協助，而不是把人生套進單一簡單模式嗎？呈現那些未能確定結果的決定，比聲稱她自小知道結局，更忠於實際經歷。"
+          },
+          {
+            "en": "Her interview does not support one simple script leading straight from a childhood goal to success. Please retain the career changes and family support so readers can see how she actually made her decisions.",
+            "zh": "她的訪問不支持一條從童年目標直達成功的簡單模式。請保留轉行及家人支援，讓讀者了解她實際怎樣作決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the changes of direction",
+            "zh": "方向的轉變",
+            "exampleIndex": 0,
+            "span": {
+              "start": 14,
+              "end": 38
+            }
+          },
+          {
+            "en": "the help she described",
+            "zh": "她交代的協助",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 65
+            }
+          },
+          {
+            "en": "those uncertain decisions",
+            "zh": "那些結果未定的決定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 124,
+              "end": 149
+            }
+          },
+          {
+            "en": "the career changes",
+            "zh": "轉行的經歷",
+            "exampleIndex": 1,
+            "span": {
+              "start": 114,
+              "end": 132
+            }
+          },
+          {
+            "en": "family support",
+            "zh": "家人支援",
+            "exampleIndex": 1,
+            "span": {
+              "start": 137,
+              "end": 151
+            }
+          }
+        ],
+        "selfCheckZh": "提出忠於訪問內容的具體保留項目；不要替受訪者加上從小注定成功的認知，也不要抹掉她作決定的主動性。"
+      },
+      "takeaways": [
+        {
+          "en": "The exhibition avoids one simple script by letting residents explain their different paths in their own words.",
+          "zh": "展覽讓居民用自己的話交代不同路徑，避免只剩一套簡單模式。"
+        },
+        {
+          "en": "One simple script could not capture the family’s changes of plan over the years.",
+          "zh": "一套簡單模式，無法概括這個家庭多年來的計劃轉變。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Productive script metaphor contextualised, not attributed a fixed dictionary entry. Final editorial fidelity to retrospective uncertainty differs from prospective route advising."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1318",
+      "number": 1318,
+      "inventoryId": "expr-1318",
+      "contentRevision": 1,
+      "titleEn": "a one-man show",
+      "titleZh": "一人包辦或主導的事情",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba one-man show\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p146-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 146,
+          "book": 6,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "42–44",
+          "expression": "a one-man show",
+          "sentence": "Parenting should never be a one-man show.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page146, table2, row4; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "An activity largely carried out or controlled by one person.",
+        "meaningZh": "主要由一人執行或主導的活動。",
+        "grammar": "become/run something as a one-man show; figurative alongside literal solo performance. One-person operation is a possible gender-neutral alternative; the expression does not identify someone’s gender.",
+        "register": "Informal established expression; context determines whether independence is useful or the concentration of work/control is a concern.",
+        "boundaryZh": "可以聚焦工作一人做，也可以聚焦決策一人控制；有人幫忙不代表決策已分享。",
+        "misconceptionZh": "不能把所有獨立工作都說成問題，也不能只看名義上有幾位成員。",
+        "outcomeZh": "能分清工作量與決策權，商量具體分工或授權。"
+      },
+      "listening": {
+        "en": "The newsletter has become a one-man show: Ren chooses every topic and approves every final line. Other members still proofread, but they cannot change the content without asking Ren first.",
+        "zh": "通訊已變成由一人主導：Ren 選每個題目，也批准每行最後文字。其他成員仍幫忙校對，但未先問 Ren，就不能改內容。",
+        "promptEn": "",
+        "promptZh": "這裏主要集中在哪一方面？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "One person controls the editorial decisions even though others help with proofreading.",
+            "zh": "雖然其他人幫忙校對，編輯決策仍由一人控制。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Ren personally performs every task without any help from other members.",
+            "zh": "Ren 沒有任何成員協助，親自完成全部工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "All members can approve final wording independently.",
+            "zh": "所有成員都能獨立批准最後措辭。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Ren delegated topic choices to the members and kept control only of final punctuation.",
+            "zh": "Ren 把題目選擇交給成員，只控制最後標點。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "句子明確提到有人校對；one-man show 在這裏指決策集中，而不是完全沒有幫手。"
+      },
+      "reply": {
+        "promptEn": "Why do members describe the newsletter this way?",
+        "promptZh": "成員為何這樣形容通訊？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It is a one-man show because Ren retains the final say over all content.",
+            "zh": "它由一人主導，因為 Ren 保留全部內容的最後決定權。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Proofreading is shared, but editorial approval stays with Ren.",
+            "zh": "校對有人分擔，但編輯批准權仍在 Ren 手上。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Other members can suggest changes without having authority to approve them.",
+            "zh": "其他成員可以提修改，但沒有批准權。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The group has helpers while keeping decisions in one person’s hands.",
+            "zh": "小組有幫手，但決策仍掌握在一人手上。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都分清協助工作與批准權；只有一句用了本課完整表達。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "活動策劃有五位義工，但場地、節目及支出全部由同一人決定，其餘人只按指示執行。有人只因有五個名字，就說決策一定共享。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It may still be a one-man show in decision-making, even with several people helping to carry out the plans.",
+            "zh": "即使多人協助執行，決策方面仍可能由一人主導。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Five names on the list show that each volunteer has equal authority over spending.",
+            "zh": "名單有五個名字，顯示每位義工都有同等支出決定權。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The description says that no volunteer has performed any work.",
+            "zh": "敘述說，沒有義工做過任何工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "成員數目與決策分布不是同一件事；要看實際權限。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪個情況最不像把協作項目變成「a one-man show」？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "同一人要求所有小改動也須由自己批准。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "各人可在已商量的範圍內自行決定，超出範圍才一起討論。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "大家只負責執行，所有方向都由一人定下。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "明確授權範圍讓決策可分擔，與所有事情集中一人不同。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說：「既然不想一人主導，就讓每人改任何支出吧。」你們仍有共同預算。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can avoid a one-man show by sharing defined decisions, while still agreeing on who approves spending beyond the budget.",
+            "zh": "我們可以分擔已界定的決策，避免一人主導，同時商量超出預算的支出由誰批准。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Sharing decisions means nobody needs to consider the agreed budget.",
+            "zh": "共享決策表示，沒有人需要考慮已同意的預算。"
+          },
+          {
+            "id": "choice-3",
+            "en": "We should let everyone advise but keep every actual decision with the same person.",
+            "zh": "我們應讓每人提建議，但所有實際決定仍交給同一人。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "共享權限可以有清楚界限；不必在全面集中與毫無約束之間二選一。"
+      },
+      "speaking": {
+        "en": "It need not be a one-man show if we agree which decisions each person can make without waiting for approval.",
+        "zh": "只要商量清楚每人哪些決定可不用等批准，就不必由一人主導。",
+        "promptZh": "先聽示範，再說明具體授權如何改變合作。",
+        "targetSpan": {
+          "start": 15,
+          "end": 29
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你獨自經營一個小修補攤位，平日一人接單、修理及交貨。你要休假三天，朋友願意代接單但不會修理；你想向顧客預告期間只接收物品，修理及交貨日要等你回來確認。用一至兩句英文寫通知，不把朋友寫成能代做全部工作。",
+        "examples": [
+          {
+            "en": "The stall is usually a one-man show, so repairs will pause during my three-day break. My friend can receive items, but I will confirm repair and collection dates when I return.",
+            "zh": "攤位平日由我一人包辦，所以休假三天期間會暫停修理。朋友可以代收物品，但修理及取貨日期會由我回來後確認。"
+          },
+          {
+            "en": "As this is normally a one-man show, my friend will only take in items while I am away for three days. Please wait for me to confirm when the repairs and collections can be completed.",
+            "zh": "由於平日是一人包辦，我離開三天期間，朋友只會代收物品。請等我確認何時能完成修理及安排取貨。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "repairs will pause",
+            "zh": "修理會暫停",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 58
+            }
+          },
+          {
+            "en": "my three-day break",
+            "zh": "我三天的假期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 84
+            }
+          },
+          {
+            "en": "receive items",
+            "zh": "接收物品",
+            "exampleIndex": 0,
+            "span": {
+              "start": 100,
+              "end": 113
+            }
+          },
+          {
+            "en": "repair and collection dates",
+            "zh": "修理及取貨日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 134,
+              "end": 161
+            }
+          },
+          {
+            "en": "while I am away",
+            "zh": "我離開期間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 70,
+              "end": 85
+            }
+          }
+        ],
+        "selfCheckZh": "向顧客清楚交代暫停及代收界限，不把一人經營本身一概批評，也不作朋友無法履行的修理承諾。"
+      },
+      "takeaways": [
+        {
+          "en": "The archive became a one-man show when all the access decisions moved to one volunteer.",
+          "zh": "當所有查閱決策轉由一位義工負責，檔案項目便變成由一人主導。"
+        },
+        {
+          "en": "The small repair stall is a one-man show, so Jo posts the opening dates before taking a break.",
+          "zh": "小修補攤位由一人經營，所以 Jo 休假前會先公布營業日期。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Established figurative one-man show distinguished task monopoly from control monopoly; no gender inference. Final bounded business continuity notice contrasts main collaborative editorial authority."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1320",
+      "number": 1320,
+      "inventoryId": "expr-1320",
+      "contentRevision": 1,
+      "titleEn": "boxed into roles",
+      "titleZh": "被限制在指定角色之中",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bboxed into (?:different |fixed )?roles\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p147-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 147,
+          "book": 6,
+          "question": 15,
+          "sample": "S1",
+          "sourceBookPages": "42–44",
+          "expression": "boxed into different roles",
+          "sentence": "No partner should be boxed into different roles by tradition.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page147, table1, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Restricted to roles that others define, leaving little room to choose or develop different responsibilities.",
+        "meaningZh": "受限於他人訂定的角色，缺少選擇或發展不同責任的空間。",
+        "grammar": "be boxed into roles; different may describe contrasting assigned roles, while fixed emphasises rigidity. Box someone into a role is a productive enclosure metaphor; normal voluntary task division is not enough.",
+        "register": "Figurative construction, even though the guide groups the expanded wording under idioms. The exact source remains available as an example, not a claim that every word is a fixed unit.",
+        "boundaryZh": "要有角色限制或選擇空間不足，不能只因大家工作不同就說被困住；重新分工也要詢問意願及能力。",
+        "misconceptionZh": "不能把任何分工都說成壓迫，也不能只把工作對調就假定已有自由選擇。",
+        "outcomeZh": "能指出限制來源，並提出可選擇及可調整的分工。"
+      },
+      "listening": {
+        "en": "At home, we were boxed into different roles: I was expected to arrange every appointment, while my brother was only asked to repair things. When either of us wanted to learn the other task, the answer was always no.",
+        "zh": "在家中，我們被限制在不同角色：大家期望我安排所有預約，卻只叫我的兄弟修理東西。只要我們其中一人想學對方的工作，答案總是否定。",
+        "promptEn": "",
+        "promptZh": "這裏為何不只是普通分工？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The roles could not be changed even when either person wanted to learn another task.",
+            "zh": "即使有人想學其他工作，角色也不容改變。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Both people freely chose their tasks and could revise the arrangement.",
+            "zh": "兩人自由選擇工作，也能修改安排。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says neither person was ever asked to do any work.",
+            "zh": "敘述說，兩人從未被要求做任何工作。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They could try another responsibility whenever they wished, but both preferred to keep the original jobs.",
+            "zh": "他們隨時可以嘗試另一項責任，只是兩人都較喜歡保留原有工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "想學其他工作卻總被拒絕，才顯出限制；工作種類不同本身不足以判斷。"
+      },
+      "reply": {
+        "promptEn": "What made the arrangement restrictive?",
+        "promptZh": "甚麼使這個安排帶有限制？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They were boxed into different roles with no room to learn each other’s tasks.",
+            "zh": "他們被困在不同角色，沒有學習彼此工作的空間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their requests to try another responsibility were repeatedly refused.",
+            "zh": "他們嘗試其他責任的請求，一再被拒絕。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The assigned jobs could not be reconsidered when their interests changed.",
+            "zh": "即使興趣改變，原有工作也不容重新考慮。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The problem was the lack of choice, rather than simply having different jobs.",
+            "zh": "問題在於缺少選擇，不只是大家工作不同。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都指出不能調整的限制；沒有自行加上任何一方不願做事的判斷。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "社團讓成員按興趣選攝影或主持，活動後可重新申請轉組，也有學習機會。有人只因工作不同，就稱大家被 boxed into roles。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Different tasks do not mean people are boxed into roles when they can choose and reconsider them.",
+            "zh": "如果大家能選擇及重新考慮，不同工作不表示被限制在角色之中。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Having different task names establishes that every member was refused a choice.",
+            "zh": "工作名稱不同，就能證明每位成員都被拒絕選擇。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The description says members must stay in the first group permanently.",
+            "zh": "敘述說，成員必須永久留在第一組。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情境已提供選擇、轉組及學習機會，不能只從工作不同推斷限制。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜直接視為已解決「boxed into different roles」的問題？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "問清兩人的意願，提供學習及重新商量分工的機會。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "不詢問意願，直接命令兩人永久交換所有工作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "安排可先試做的新任務，之後一起檢視是否合適。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "強制交換仍沒有選擇空間；只是換了被指定的角色。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說：「他們嫌角色太固定，就直接交換吧。」兩人其實想學部分新工作，仍保留原本擅長的部分。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They need not be boxed into fixed roles; we can ask which tasks they want to try rather than order a complete swap.",
+            "zh": "他們不必被限制在固定角色；我們可以問想試哪些工作，不必命令全部交換。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A complete compulsory swap would tell us what each person freely prefers.",
+            "zh": "強制全部交換，會讓我們知道每人自由選擇的喜好。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their interest in learning means they have agreed to take over every task immediately.",
+            "zh": "他們有興趣學習，表示已同意立即接手全部工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "學習部分新工作不等於同意全部接手；應把意願及試做範圍問清楚。"
+      },
+      "speaking": {
+        "en": "We do not have to stay boxed into different roles, but changing them should involve a choice rather than another instruction.",
+        "zh": "我們不必一直被限制在不同角色，但改變角色應讓人選擇，而不是另一項命令。",
+        "promptZh": "先聽，再說明改變安排仍要尊重選擇。",
+        "targetSpan": {
+          "start": 23,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：同學在展覽中一直只被派搬器材，想學採訪，但不願立即獨立主持。他擔心一提出轉變，就被要求負責整場訪問。你想向負責人建議先讓他跟資深同學準備兩個問題，再由本人決定是否逐步加工作。用一至兩句英文寫具體方案。",
+        "examples": [
+          {
+            "en": "He should not stay boxed into roles based only on his earlier equipment work, but he has not agreed to lead the whole interview. Could he prepare two questions with an experienced student first and then choose whether to take on more?",
+            "zh": "他不應只因以前搬器材，就一直被限制在指定角色，但他未同意主持整場訪問。他可以先跟資深同學準備兩個問題，再選擇是否增加工作嗎？"
+          },
+          {
+            "en": "Rather than leave him boxed into fixed roles or make him host immediately, let us offer a supported first step. He could help prepare two interview questions and review with us what he wants to try next.",
+            "zh": "與其讓他受限於固定角色，或立即叫他主持，我們提供一個有人支援的起步機會吧。他可以幫忙準備兩條訪問題目，再跟我們檢視下一步想試甚麼。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "his earlier equipment work",
+            "zh": "他以往搬器材的工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 76
+            }
+          },
+          {
+            "en": "lead the whole interview",
+            "zh": "主持整場訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 103,
+              "end": 127
+            }
+          },
+          {
+            "en": "prepare two questions",
+            "zh": "準備兩條問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 138,
+              "end": 159
+            }
+          },
+          {
+            "en": "an experienced student",
+            "zh": "資深同學",
+            "exampleIndex": 0,
+            "span": {
+              "start": 165,
+              "end": 187
+            }
+          },
+          {
+            "en": "a supported first step",
+            "zh": "有人支援的起步機會",
+            "exampleIndex": 1,
+            "span": {
+              "start": 88,
+              "end": 110
+            }
+          }
+        ],
+        "selfCheckZh": "提出具體、有支援且能選擇的起步方式；不把想學習誤當成已接受全部責任，也不只用永久交換角色代替選擇。"
+      },
+      "takeaways": [
+        {
+          "en": "The volunteers felt boxed into fixed roles until the group introduced a chance to try another task.",
+          "zh": "小組提供嘗試其他工作的機會之前，義工一直覺得受限於固定角色。"
+        },
+        {
+          "en": "Nobody should be boxed into different roles solely because of assumptions about what they ought to enjoy.",
+          "zh": "不應只按他人對喜好的假設，就把人限制在不同角色。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Guide expanded different-roles wording taught transparently as productive box-into construction, not a whole fixed idiom. Final scaffolded training with consent contrasts main household prohibitions."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      },
+      "editorialCorrection": {
+        "sourceAlias": "boxed into different roles",
+        "teachingForm": "boxed into roles",
+        "reason": "Guide expanded different-roles wording taught transparently as productive box-into construction, not a whole fixed idiom. Final scaffolded training with consent contrasts main household prohibitions. Brother age in original was not specified; Chinese brother rendered哥哥 authorwillnormalise手足inselfreview."
+      }
+    },
+    {
+      "id": "advanced-native-1324",
+      "number": 1324,
+      "inventoryId": "expr-1324",
+      "contentRevision": 1,
+      "titleEn": "keepers of family tradition",
+      "titleZh": "保存家庭傳統的人",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bkeepers? of family tradition\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p147-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 147,
+          "book": 6,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "45–46",
+          "expression": "keepers of family tradition",
+          "sentence": "Grandparents are often keepers of family tradition.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page147, table2, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "People who preserve and pass on customs, practices or memories associated with a family.",
+        "meaningZh": "保存並傳承家庭習俗、做法或記憶的人。",
+        "grammar": "keepers of family tradition; a keeper of family tradition. Keeper figuratively concerns preservation and transmission, not ownership of every interpretation or a right to compel participation.",
+        "register": "Natural preservation metaphor. Any family member may take this role; the source’s grandparents are an example, not a necessary age or gender.",
+        "boundaryZh": "保存可以包括記錄不同版本及解釋背景；不等於要求所有人照同一方式參與，也不保證記憶只有一個版本。",
+        "misconceptionZh": "不能把長輩自動視為唯一有資格傳承的人，也不能因調整做法就斷定傳統已消失。",
+        "outcomeZh": "能辨認實際保存行動，並讓傳承保留來源及不同聲音。"
+      },
+      "listening": {
+        "en": "In our family, two cousins became keepers of family tradition by recording how relatives prepared the festival meal. They kept the different recipes and the stories behind them rather than choosing one version as the only proper way.",
+        "zh": "在我們家，兩位表親記錄親屬準備節慶飯食的方法，成為保存家庭傳統的人。他們保留不同食譜及背後故事，沒有把某一版定成唯一正確做法。",
+        "promptEn": "",
+        "promptZh": "兩位表親怎樣保存傳統？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They recorded different family recipes and their histories without declaring one the only proper version.",
+            "zh": "他們記錄不同家庭食譜及來歷，沒有宣告只有一版正確。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They removed every variation before letting relatives describe the meal.",
+            "zh": "他們先刪去所有變化，才讓親屬描述飯食。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They required each relative to cook the same version at every festival.",
+            "zh": "他們要求每位親屬在每個節日煮同一版本。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They decided that cousins were too young to record any family customs.",
+            "zh": "他們認為表親太年輕，不能記錄任何家庭習俗。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留版本及故事，是實際的保存行動；不需要壓成唯一做法。"
+      },
+      "reply": {
+        "promptEn": "Why are the cousins described as keepers?",
+        "promptZh": "為何這樣形容兩位表親？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are keepers of family tradition because they preserve the recipes and their stories.",
+            "zh": "他們保存食譜及故事，因此是家庭傳統的保存者。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Their recordings let later relatives hear how the meal was prepared.",
+            "zh": "他們的記錄讓後來的親屬了解飯食怎樣準備。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They kept several versions instead of claiming one was the only authentic account.",
+            "zh": "他們保留幾個版本，沒有聲稱只有一個真實說法。"
+          },
+          {
+            "id": "choice-4",
+            "en": "They helped pass on the customs through actual documentation.",
+            "zh": "他們透過實際記錄，幫忙傳承習俗。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都有實際保存及傳承的根據；金句用了本課表達。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一位家人整理舊節慶歌錄音，標明演唱者及年份，並教有興趣的晚輩唱。他不要求所有人都學。哪句最合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He acts as a keeper of family tradition by preserving the recordings and sharing the songs.",
+            "zh": "他保存錄音並分享歌曲，發揮家庭傳統保存者的作用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He can preserve tradition only if every relative is required to sing.",
+            "zh": "只有要求每位親屬唱歌，他才算保存傳統。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The dates show which remembered lyrics were used at those times, so the other family versions can be left out of the record.",
+            "zh": "日期顯示當時使用哪些記憶中的歌詞，因此記錄可以不保留其他家庭版本。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有保存及自願分享的實際行動；強制參與及壟斷解釋不是必要條件。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不像「keepers of family tradition」本身就賦予的權利？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "邀請有興趣的人學習保存下來的做法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "在分享記錄時交代資料從誰而來。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "未經同意，把所有親屬的私人回憶公開上網。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "保存者的角色不等於獲得私人資料的公開許可。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "同伴說：「我幫忙存了錄音，就可以替所有人決定怎樣用吧？」部分人只同意家庭內聆聽。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Being a keeper of family tradition does not replace consent; keep those recordings within the agreed family audience.",
+            "zh": "作為家庭傳統保存者，不會取代同意；那些錄音應只讓已約定的家庭成員聆聽。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Preserving the file means every person in it has agreed to public use.",
+            "zh": "保存檔案，表示錄音中的每個人都已同意公開使用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought permission for family listening also covered using the same recording in a public exhibition.",
+            "zh": "我以為同意家庭內聆聽，也包括在公開展覽使用同一錄音。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "家庭內聆聽與公開展覽的使用範圍不同；保存檔案本身不會取代明確的同意。"
+      },
+      "speaking": {
+        "en": "Keepers of family tradition can preserve more than one version while respecting who has agreed to share a story.",
+        "zh": "家庭傳統的保存者可以保留不只一個版本，同時尊重誰已同意分享故事。",
+        "promptZh": "先聽，再說明保存不同版本與取得分享同意可以並行。",
+        "targetSpan": {
+          "start": 0,
+          "end": 27
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為家族小冊整理一首節慶歌。兩位親屬記得的歌詞不同，另一位希望不署名。編輯想選一版當成唯一真本，並列出所有名字。你想提出分別標示版本及年代，只按同意範圍署名，不自行裁定誰記錯。用一至兩句英文給實際編輯建議。",
+        "examples": [
+          {
+            "en": "As keepers of family tradition, we can label the two remembered versions and their dates instead of presenting one as the only authentic text. Please credit people only as they have agreed, including keeping one contributor unnamed.",
+            "zh": "作為家庭傳統保存者，我們可以標示兩個記憶版本及年代，不把其中一版當成唯一真本。請只按已同意方式署名，包括不公開一位提供者的姓名。"
+          },
+          {
+            "en": "Keepers of family tradition need not settle every difference by choosing a winner. Let us show both versions with their context and leave the contributor who requested privacy unnamed.",
+            "zh": "家庭傳統保存者不必把每個差異都裁定成一方勝出。我們呈現兩個版本及背景，並讓要求保密的提供者不具名吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the two remembered versions",
+            "zh": "兩個記憶中的版本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 45,
+              "end": 72
+            }
+          },
+          {
+            "en": "the only authentic text",
+            "zh": "唯一真本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 118,
+              "end": 141
+            }
+          },
+          {
+            "en": "keeping one contributor unnamed",
+            "zh": "不公開一位提供者姓名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 200,
+              "end": 231
+            }
+          },
+          {
+            "en": "both versions with their context",
+            "zh": "兩個版本及背景",
+            "exampleIndex": 1,
+            "span": {
+              "start": 95,
+              "end": 127
+            }
+          },
+          {
+            "en": "requested privacy",
+            "zh": "要求保密",
+            "exampleIndex": 1,
+            "span": {
+              "start": 158,
+              "end": 175
+            }
+          }
+        ],
+        "selfCheckZh": "提出版本標示及按意願署名的具體做法，不從記憶差異直接宣稱誰說謊，也不把保存權當成公開許可。"
+      },
+      "takeaways": [
+        {
+          "en": "The cousins became keepers of family tradition by recording the stories in the speakers’ own words.",
+          "zh": "兩位表親用講述者自己的話記錄故事，成為家庭傳統的保存者。"
+        },
+        {
+          "en": "A keeper of family tradition asked permission before including a private letter in the booklet.",
+          "zh": "一位家庭傳統保存者把私人信件收入小冊前，先取得了許可。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Preservation metaphor not age/gender entitlement. Final concrete attribution, competing versions and anonymous consent differ from main documentation of recipes."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1325",
+      "number": 1325,
+      "inventoryId": "expr-1325",
+      "contentRevision": 1,
+      "titleEn": "the steady centre of the home",
+      "titleZh": "家中穩定可靠的核心",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe steady centre of (?:the|our|their) home\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p147-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 147,
+          "book": 6,
+          "question": 16,
+          "sample": "S1",
+          "sourceBookPages": "45–46",
+          "expression": "the steady centre of the home",
+          "sentence": "Grandparents can be the steady centre of the home.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page147, table2, row3; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A reliably supportive presence around which family life feels stable.",
+        "meaningZh": "讓家庭生活感到穩定、可靠的支持核心。",
+        "grammar": "be the steady centre of the home; our/their home changes the reference. Steady modifies the figurative centre, not a geographic point or an obligation to handle every task.",
+        "register": "Appreciative contextual metaphor. The source says grandparents can provide this presence; it is neither universal nor restricted to a particular age.",
+        "boundaryZh": "可靠支持不等於永遠不累、不需要別人，或對所有事情都有決定權；應以具體行動交代。",
+        "misconceptionZh": "不能只因某人常在家，就推斷其提供所有支持；讚賞也不應變成無限責任。",
+        "outcomeZh": "能具體肯定支持，同時尊重提供者的需要與界限。"
+      },
+      "listening": {
+        "en": "We call Asha the steady centre of our home because she listens carefully and makes room for us to talk after a difficult day. She still asks for quiet evenings when she needs rest, and we respect that.",
+        "zh": "我們說 Asha 是家中穩定可靠的核心，因為她細心聆聽，讓我們在辛苦一天後有空間談話。她需要休息時，仍會要求安靜的晚上，我們也尊重這點。",
+        "promptEn": "",
+        "promptZh": "這裏的讚賞包括甚麼界限？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Her reliable support matters, and her need for rest is still respected.",
+            "zh": "她可靠的支持很重要，同時休息需要仍獲尊重。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She has agreed to listen at any hour without asking for a break.",
+            "zh": "她已同意任何時間都聆聽，不要求休息。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Being central means she makes every household decision alone.",
+            "zh": "身為核心，表示她獨自決定家中所有事情。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The description concerns the exact place where she sits in the house.",
+            "zh": "這個描述關乎她在屋內坐的準確位置。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "具體行動是聆聽及容許談話；休息界限明確存在，不是地理位置或全面控制。"
+      },
+      "reply": {
+        "promptEn": "Why does the family value Asha’s presence?",
+        "promptZh": "家人為何重視 Asha 的陪伴？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She is the steady centre of our home, offering dependable support while keeping time to rest.",
+            "zh": "她是家中穩定可靠的核心，提供可靠支持，同時保留休息時間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her careful listening gives us somewhere to begin a difficult conversation.",
+            "zh": "她細心聆聽，讓我們有機會展開難以啟齒的談話。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She helps us feel supported without having to be available every evening.",
+            "zh": "她讓我們感到有支持，不必每晚都有空。"
+          },
+          {
+            "id": "choice-4",
+            "en": "We value her reliability and respect the quiet time she requests.",
+            "zh": "我們重視她可靠，也尊重她要求的安靜時間。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都兼顧可靠陪伴及休息；金句用了本課完整比喻。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一位家人改為在家工作，報道只記錄他每天留在家多久，沒有交代與家人的互動。有人想只按在家時間，就稱他是家中穩定可靠的核心。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Time spent at home does not by itself establish that he is the steady centre of the home; we need to know how he supports or relates to the family.",
+            "zh": "單看在家時間，不足以確定他是家中穩定可靠的核心；仍需了解他怎樣支持家人或與家人互動。"
+          },
+          {
+            "id": "choice-2",
+            "en": "His remote-working hours are enough to identify him as the person who provides the family’s dependable support.",
+            "zh": "他的在家工作時數，足以認定他就是為家人提供可靠支持的人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would infer that he now coordinates the family’s daily needs from the change to home working.",
+            "zh": "我會從改為在家工作，推斷他現在統籌家人的日常需要。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "在家時間提供地點及作息資料，並未說明支持行動；要了解實際互動，不能由身處家中直接判定這個角色。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不宜只因某人被稱為「the steady centre of the home」就要求他做？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在他願意時，一起商量日常需要。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "謝謝他提供過的具體支持。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "放棄自己的休息，隨時處理所有人的困難。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "這是對支持的肯定，不是取消個人需要或獲得無限服務的理由。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「大家都靠她穩住，還是叫她取消自己的旅行吧？」其他家人其實能輪流陪伴需要支持的人。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She has been the steady centre of the home, but we can share the support while she takes her planned break.",
+            "zh": "她一直是家中穩定可靠的核心，但她按計劃休假時，我們可以分擔支持。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The description means her own plans must always come last.",
+            "zh": "這個描述表示，她自己的計劃永遠要排最後。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I would keep her as the first contact during the trip, rather than use the relatives who have offered to take over this week.",
+            "zh": "我會在旅行期間仍先聯絡她，而不用已提出這周接手的親屬。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可以肯定她的可靠支持，也安排別人接手，讓她真正休假；不應只因原本常找她，就繼續讓她承擔旅行中的主要聯絡。"
+      },
+      "speaking": {
+        "en": "You have been the steady centre of our home, and we want to support you as carefully as you have supported us.",
+        "zh": "你一直是我們家中穩定可靠的核心，我們也想像你支持我們那樣，細心支持你。",
+        "promptZh": "先聽，再說出互相支持的謝意。",
+        "targetSpan": {
+          "start": 14,
+          "end": 43
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你整理給家人的感謝卡，草稿寫「你從不累，永遠都在，沒有你我們甚麼也做不了」。對方最近說想休息。你想保留對細心聆聽的感謝，刪去不切實際的絕對說法，並承諾這周自己安排晚飯，不再交給他統籌。用一至兩句英文寫實際卡片。",
+        "examples": [
+          {
+            "en": "You have been the steady centre of our home through your patient listening, and I am grateful for that care. You deserve rest too, so I will organise this week’s dinners without leaving the planning to you.",
+            "zh": "你耐心聆聽，一直是家中穩定可靠的核心，我很感謝這份關心。你也值得休息，所以這周晚飯由我安排，不再把統籌留給你。"
+          },
+          {
+            "en": "Thank you for being the steady centre of our home and giving us space to talk when we struggled. I do not want that thanks to become another demand, so I will take responsibility for dinner arrangements this week while you rest.",
+            "zh": "謝謝你成為家中穩定可靠的核心，在我們困難時留出談話空間。我不想讓感謝變成另一項要求，所以你休息時，這周晚飯安排由我負責。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "your patient listening",
+            "zh": "你耐心聆聽",
+            "exampleIndex": 0,
+            "span": {
+              "start": 52,
+              "end": 74
+            }
+          },
+          {
+            "en": "You deserve rest too",
+            "zh": "你也值得休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 109,
+              "end": 129
+            }
+          },
+          {
+            "en": "this week’s dinners",
+            "zh": "這周的晚飯",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 169
+            }
+          },
+          {
+            "en": "another demand",
+            "zh": "另一項要求",
+            "exampleIndex": 1,
+            "span": {
+              "start": 133,
+              "end": 147
+            }
+          },
+          {
+            "en": "take responsibility for dinner arrangements",
+            "zh": "負責晚飯安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 159,
+              "end": 202
+            }
+          }
+        ],
+        "selfCheckZh": "寫出具體感謝及自己承擔的安排，刪去從不累、永遠在場等絕對要求；不要表面說休息，仍把規劃留給對方。"
+      },
+      "takeaways": [
+        {
+          "en": "They described their aunt as the steady centre of the home because she listened without rushing them.",
+          "zh": "他們形容姨姨是家中穩定可靠的核心，因為她聆聽時不催促他們。"
+        },
+        {
+          "en": "Being the steady centre of the home did not mean that Jo never needed someone to listen in return.",
+          "zh": "作為家中穩定可靠的核心，不表示 Jo 從不需要別人反過來聆聽。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Steady personal supportive presence, related1311whole-ship operational continuity but not same source pattern. No grandparent/age/gender necessity. Final rewrites gratitude and commits actual planning labour instead of simply recommending another rota."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    }
+  ]
+}

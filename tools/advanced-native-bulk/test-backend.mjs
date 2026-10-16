@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {backendArtifacts} from './backend.mjs';
+const calibration=JSON.parse(fs.readFileSync(new URL('./calibration-007.json',import.meta.url))).lessons[0];
+const result=backendArtifacts([calibration]);
+assert.equal(result.summary.questions,6);assert.equal(result.summary.applied,false);
+assert.ok(result.sql.includes("'advanced-native-007'"));
+assert.ok(result.sql.includes('questions=natural_english_private.catalogue.questions || excluded.questions'));
+assert.ok(!/delete from|truncate|drop table/i.test(result.sql));
+assert.ok(result.verify.includes("'-v2-reply'"));
+const copy=structuredClone(calibration);copy.reply.options.find(option=>option.id!==copy.reply.goldenId).en="I'd share the work.";
+const changed=backendArtifacts([copy]);assert.ok(changed.sql.includes("I''d share the work."),'SQL literal escaping retains apostrophes without terminating the string.');
+assert.throws(()=>backendArtifacts([]),/empty/);
+console.log('Backend generation preserves prior definitions, reply acceptance and SQL literal boundaries.');

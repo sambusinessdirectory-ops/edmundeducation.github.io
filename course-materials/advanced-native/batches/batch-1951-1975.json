@@ -1,0 +1,3126 @@
+{
+  "schemaVersion": 1,
+  "batchId": "root-1951-1975",
+  "lessons": [
+    {
+      "id": "advanced-native-1951",
+      "number": 1951,
+      "inventoryId": "expr-1951",
+      "contentRevision": 1,
+      "titleEn": "the shop assistant whispering in people's ears",
+      "titleZh": "像店員在耳邊低聲游說",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the) shop assistant whispering in (?:people[’\\x27]s|our|your|my|her|his|their) ears?\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p243-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 243,
+          "book": 9,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "expression": "the shop assistant whispering in people's ears",
+          "sentence": "Advertising can be the shop assistant whispering in people's ears.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page243, table2, row7; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A sales-guidance image for a message or influence that quietly directs attention towards a purchase.",
+        "meaningZh": "用低聲推介的店員作意象，形容悄悄把注意力引向購買的訊息或影響。",
+        "grammar": "like/be a shop assistant whispering in someone’s ear; plural people’s ears. The assistant is an analogy, not proof of a human speaker, actual audio, data collection or a completed purchase.",
+        "register": "Creative personification in the advertising example; the mechanism and effect need context. It is not an established technical description of an algorithm.",
+        "boundaryZh": "推介可能影響注意力，不代表能控制每人選擇；也不能由意象斷定平台蒐集了甚麼資料。",
+        "misconceptionZh": "低聲游說與實際有人說話不同；反覆出現的建議也不等於買家已同意。",
+        "outcomeZh": "能以具體推介說明影響，同時保留誰作決定及未知的技術部分。"
+      },
+      "listening": {
+        "en": "In the story, the advert is a shop assistant whispering in my ear: each visit brings another reason to buy the lamp. That image describes the steady sales nudge, not an actual voice or a purchase I have already made.",
+        "zh": "故事中，廣告像在我耳邊低聲游說的店員：每次到訪，都多一個買燈的理由。這意象說的是持續推介，不是實際聲音，也不是我已買了燈。",
+        "promptEn": "",
+        "promptZh": "店員的意象描述甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The advert repeatedly nudges the narrator towards buying, without establishing a voice or completed sale.",
+            "zh": "廣告反覆把敘述者推向購買，但未確立有聲音或已完成交易。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A member of staff has been speaking through an audio link on every visit.",
+            "zh": "每次到訪，都有一位店員透過語音連線說話。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The narrator has bought the lamp and is explaining why it has stopped being advertised.",
+            "zh": "敘述者已買燈，正在解釋為何不再有相關廣告。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The image describes the narrator giving other customers advice about lighting.",
+            "zh": "意象描述敘述者向其他顧客提供照明建議。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "意象連到每次到訪都有推介；沒有提供聲音、已買或敘述者當店員的資料。"
+      },
+      "reply": {
+        "promptEn": "What does the sales-assistant image add to the description?",
+        "promptZh": "店員意象為描述加上甚麼意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It makes the advert seem like a shop assistant whispering in my ear with another reason to buy.",
+            "zh": "它讓廣告像在我耳邊低聲游說的店員，再提供一個購買理由。"
+          },
+          {
+            "id": "choice-2",
+            "en": "It presents the repeated suggestions as quiet persuasion.",
+            "zh": "它把重複建議寫成低調游說。"
+          },
+          {
+            "id": "choice-3",
+            "en": "It draws attention to how each visit brings a fresh buying nudge.",
+            "zh": "它讓人留意，每次到訪都多一次購買推介。"
+          },
+          {
+            "id": "choice-4",
+            "en": "It personifies the advert while leaving the decision with the narrator.",
+            "zh": "它把廣告擬人化，同時決定仍由敘述者作出。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明意象如何描寫推介，不補成真正有店員或敘述者已購買。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "通知只提醒你已借用的書明天到期，沒有推薦商品、加購或勸買內容。有人單憑手機顯示這則通知，就套用耳邊店員的意象。哪句最有依據？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A due-date reminder alone does not establish the image of a shop assistant whispering in your ear; this message makes no sales appeal.",
+            "zh": "單是到期提醒，不足以確立耳邊店員游說的意象；這則訊息沒有勸買內容。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The reminder is another attempt to persuade the reader to add an item to a purchase.",
+            "zh": "提醒又在嘗試說服讀者加購商品。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes a bookseller personally recommending a new title.",
+            "zh": "敘述描述一位書商親自推薦新書。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需要有勸買或推介的證據，不能只因訊息出現在手機上，就套用游說的意象。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能由「the shop assistant whispering in people’s ears」這個廣告意象直接確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "廣告被描寫成低調游說。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "敘述者想讓人留意購買推介的影響。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "平台實際使用了哪類私人資料。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "意象不是資料處理紀錄；技術及私隱細節需要另外證據。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「你說它像耳邊店員，是不是已知道有人在即時跟你說話？」故事只寫重複推介。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I mean it is like a shop assistant whispering in my ear; the image describes persuasion, not evidence of a live speaker.",
+            "zh": "我是說它像在我耳邊低聲游說的店員；意象描述游說，不是有即時說話者的證據。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would treat the metaphor as enough evidence that an employee has joined a voice call.",
+            "zh": "我會把比喻當成足夠證據，認為有職員加入了語音通話。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I understood the passage as the narrator recommending the lamp to other customers.",
+            "zh": "我把段落理解為，敘述者正在向其他顧客推介那盞燈。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先釐清自己的比喻用意，不補上故事沒有交代的即時語音功能。"
+      },
+      "speaking": {
+        "en": "The advert feels like a shop assistant whispering in my ear, but that image does not tell us what information the service has used.",
+        "zh": "廣告感覺像在我耳邊低聲游說的店員，但意象沒有告訴我們，服務使用了甚麼資料。",
+        "promptZh": "先聽示範，再分清游說意象與需要證據的技術細節。",
+        "targetSpan": {
+          "start": 22,
+          "end": 59
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友知道你想找一門手作課，卻每天傳「最後機會」連結，讓你感到被催促。你知道他想幫忙，但仍未決定是否報讀。用一至兩句英文寫實際回覆，形容反覆勸選的感受，並請他先給一張清單，留時間讓你自己比較。",
+        "examples": [
+          {
+            "en": "Those daily links feel like a shop assistant whispering in my ear when I am still deciding, though I know you want to help. Could you send me one list and give me time to compare the courses without more reminders?",
+            "zh": "我仍在決定時，那些每天傳來的連結，感覺像店員在耳邊低聲游說，雖然我知道你想幫忙。你可以給我一張清單，再留時間讓我比較課程，先不追加提醒嗎？"
+          },
+          {
+            "en": "I appreciate your help, but the repeated last-chance messages are like a shop assistant whispering in my ear. Please put the options in one list so I can decide at my own pace rather than answer another prompt each day.",
+            "zh": "我感謝你幫忙，但反覆的最後機會訊息，像店員在耳邊低聲游說。請把選項放在一張清單，讓我按自己的步伐決定，不必每天再回應一次催促。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Those daily links",
+            "zh": "那些每天傳來的連結",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 17
+            }
+          },
+          {
+            "en": "still deciding",
+            "zh": "仍在決定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 76,
+              "end": 90
+            }
+          },
+          {
+            "en": "one list",
+            "zh": "一張清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 150
+            }
+          },
+          {
+            "en": "compare the courses",
+            "zh": "比較課程",
+            "exampleIndex": 0,
+            "span": {
+              "start": 171,
+              "end": 190
+            }
+          },
+          {
+            "en": "at my own pace",
+            "zh": "按自己的步伐",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 175
+            }
+          }
+        ],
+        "selfCheckZh": "承認朋友的用意，也說清催促的感受及希望改變的訊息安排；不要替自己寫成已報讀，也不把比喻當成朋友真的成為店員。"
+      },
+      "takeaways": [
+        {
+          "en": "The description turns the advert into a shop assistant whispering in our ears while we browse the catalogue.",
+          "zh": "這個描述把廣告化成我們瀏覽目錄時，在耳邊低聲游說的店員。"
+        },
+        {
+          "en": "She compared the sales message to a shop assistant whispering in her ear, then paused before choosing whether to buy.",
+          "zh": "她把銷售訊息比作在耳邊低聲游說的店員，再停下來決定是否購買。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Creative sales-personification not evidence of algorithmic mechanism. Final actual interpersonal boundary on repeated course links differs from analysis of a fictional advert."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1952",
+      "number": 1952,
+      "inventoryId": "expr-1952",
+      "contentRevision": 1,
+      "titleEn": "keeps popping up",
+      "titleZh": "持續反覆出現",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:keep(?:s|ing)?|kept) popping up\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p243-t2-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 243,
+          "book": 9,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "expression": "keeps popping up",
+          "sentence": "The advert keeps popping up on her screen.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page243, table2, row9; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Continue to appear repeatedly, sometimes unexpectedly, in a place or discussion.",
+        "meaningZh": "在某處或討論中反覆出現，有時帶突然冒出的感覺。",
+        "grammar": "keep/keeps/kept popping up; pop up means appear, and keep stresses repetition. Appearance does not establish truth, importance, endorsement or a particular cause.",
+        "register": "Common informal phrasal-verb pattern, used for screen items, questions and other things that appear. Repetition may become predictable, so unexpected is not a necessary condition every time.",
+        "boundaryZh": "出現次數與可靠性、受歡迎程度不同，也不能只按反覆出現就確定背後原因。",
+        "misconceptionZh": "不要把彈出訊息當成使用者已點選或同意；需要另外看實際互動。",
+        "outcomeZh": "能描述反覆出現的現象，同時分清來源、原因及人的回應。"
+      },
+      "listening": {
+        "en": "The same advert keeps popping up beside the review, even though I have not opened it. I can describe its repeated appearance, but that does not tell me whether the reviewer recommends the product.",
+        "zh": "同一廣告反覆出現在評論旁，即使我沒有打開它。我可以描述它重複出現，但這不會告訴我，評論者是否推薦產品。",
+        "promptEn": "",
+        "promptZh": "甚麼反覆出現？甚麼仍不能確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The advert appears repeatedly, without establishing that the reviewer endorses it.",
+            "zh": "廣告反覆出現，但未確立評論者認同它。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The reviewer has repeatedly opened the advert and recommended the product.",
+            "zh": "評論者反覆打開廣告，並推薦產品。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The speaker has stopped seeing the advert after opening it once.",
+            "zh": "說話者打開廣告一次後，已不再看到它。"
+          },
+          {
+            "id": "choice-4",
+            "en": "A new review appears each time, while the advert is no longer beside it.",
+            "zh": "每次出現的是新評論，廣告已不在旁邊。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反覆出現的是廣告，沒有點開或推薦的資料；旁邊位置不等於評論者認同。"
+      },
+      "reply": {
+        "promptEn": "What can you say about the advert beside the review?",
+        "promptZh": "你能怎樣描述評論旁的廣告？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It keeps popping up even though I have not opened it.",
+            "zh": "即使我沒有打開，它仍反覆出現。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I have seen the same advert there repeatedly.",
+            "zh": "我反覆在那裏看到相同廣告。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Its appearances have continued without my clicking through.",
+            "zh": "即使我沒有點進去，它仍持續出現。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The repeated appearance does not tell me what the reviewer thinks of it.",
+            "zh": "反覆出現，沒有告訴我評論者怎樣看它。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都準確描述出現情況及已知範圍；金句用了本課表達。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "讀書會每次談結尾，都有人提出同一個關於敘述者的問題；大家還未得出共同答案。哪句準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The same question keeps popping up, but the group has not yet settled on an answer.",
+            "zh": "同一問題反覆出現，但小組仍未定出共同答案。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The group has agreed a final answer and is now discussing a different question each time.",
+            "zh": "小組已同意最終答案，現在每次都討論不同問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The repeated question tells us which answer every member has chosen.",
+            "zh": "反覆提出的問題，能告訴我們每位成員選了哪個答案。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反覆出現的是問題，不是答案已達成共識的證據。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「The claim keeps popping up」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "那個說法反覆出現。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "那個說法已獲獨立核實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "要另查來源，才知道為何反覆出現。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "頻率與核實不同；同一說法多次出現，也可能來自同一來源。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「廣告每次都在評論旁，一定就是評論者在推介吧？」你只觀察到出現位置。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It keeps popping up beside the review, but I would check the reviewer’s own words before treating it as a recommendation.",
+            "zh": "它反覆出現在評論旁，但把它當成推介之前，我會先看評論者自己的話。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would use the repeated placement as the recommendation without reading what the reviewer wrote.",
+            "zh": "我會不讀評論者寫甚麼，直接把反覆出現的位置當成推介。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the account said I had opened the advert on every visit.",
+            "zh": "我以為敘述說，我每次到訪都打開廣告。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "用實際發言核對推介，不由出現位置替人表態。"
+      },
+      "speaking": {
+        "en": "The same question keeps popping up, so I want to record what people are asking before deciding which explanation would help.",
+        "zh": "同一問題反覆出現，所以決定甚麼解釋有用之前，我想先記下大家在問甚麼。",
+        "promptZh": "先聽示範，再分清反覆出現的問題與仍需了解的原因。",
+        "targetSpan": {
+          "start": 18,
+          "end": 34
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你替戲劇小組記錄排練。不同演員反覆問同一個換場位置，但有人想在會議記錄中只寫「演員不專心」。你想先整理實際問題，請導演用走位示範核對，而不從提問次數直接判態度。用一至兩句英文提出實際記錄與跟進。",
+        "examples": [
+          {
+            "en": "The same question keeps popping up about where the scene change begins, so I would record that point rather than label the actors inattentive. Could we ask the director to demonstrate the movement and check what remains unclear?",
+            "zh": "同一個關於從哪裏開始換場的問題反覆出現，所以我會記下那點，不把演員標成不專心。我們可以請導演示範走位，再核對哪些地方仍不清楚嗎？"
+          },
+          {
+            "en": "Questions about the changeover keep popping up from different actors, but their frequency alone does not explain the cause. Let us note the actual confusion and request a walk-through before making a judgement about attention.",
+            "zh": "不同演員反覆提出換場問題，但次數本身沒有解釋原因。我們先記下實際不清楚之處，請人帶着走一次，再判斷注意力問題吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "where the scene change begins",
+            "zh": "從哪裏開始換場",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 70
+            }
+          },
+          {
+            "en": "label the actors inattentive",
+            "zh": "把演員標成不專心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 141
+            }
+          },
+          {
+            "en": "demonstrate the movement",
+            "zh": "示範走位",
+            "exampleIndex": 0,
+            "span": {
+              "start": 172,
+              "end": 196
+            }
+          },
+          {
+            "en": "what remains unclear",
+            "zh": "哪些地方仍不清楚",
+            "exampleIndex": 0,
+            "span": {
+              "start": 207,
+              "end": 227
+            }
+          },
+          {
+            "en": "request a walk-through",
+            "zh": "請人帶着走一次",
+            "exampleIndex": 1,
+            "span": {
+              "start": 161,
+              "end": 183
+            }
+          }
+        ],
+        "selfCheckZh": "記錄實際問題及可核對的示範，不把反覆提問直接當成態度證據；也不要未經了解便斷定一定是指示有錯。"
+      },
+      "takeaways": [
+        {
+          "en": "Her name keeps popping up in the interviews, so the editor wants to check which events each speaker actually witnessed.",
+          "zh": "訪問反覆出現她的名字，所以編輯想核對，每位講述者實際目睹了哪些事。"
+        },
+        {
+          "en": "The same timing question keeps popping up while the group plans the handover between scenes.",
+          "zh": "小組安排兩幕之間的交接時，同一時間問題反覆出現。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Keep stresses recurrence; pop-up appearance does not prove endorsement. Final evidence-preserving minutes and physical walk-through differs from advert recommendation inference."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1953",
+      "number": 1953,
+      "inventoryId": "expr-1953",
+      "contentRevision": 1,
+      "titleEn": "the wallet opens before the mind fully catches up",
+      "titleZh": "還未想清楚就先付錢",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bthe wallet opens before the mind fully catches up\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p244-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 244,
+          "book": 9,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "expression": "the wallet opens before the mind fully catches up",
+          "sentence": "With impulse shopping, the wallet opens before the mind fully catches up.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page244, table1, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Spending takes place before the person has fully reflected on the choice.",
+        "meaningZh": "當事人還未充分考慮選擇，就先付出金錢。",
+        "grammar": "the wallet opens before the mind fully catches up is a personifying sequence: wallet represents spending and mind reflection. The exact expanded image is creative, not a fixed diagnostic label for a person.",
+        "register": "A vivid impulse-shopping image. It describes the order of action and reflection in context, not every quick purchase or a literal wallet mechanism.",
+        "boundaryZh": "要有付錢早於充分思考的先後，不能只按付款快或物件不合別人喜好就判斷；後悔與否也需另外交代。",
+        "misconceptionZh": "不能把熟悉需要後的快速購買，與未了解便衝動付款混為一談。",
+        "outcomeZh": "能用實際先後描述衝動選擇，並提出自己希望保留的思考空間。"
+      },
+      "listening": {
+        "en": "In the scene, the wallet opens before the mind fully catches up: Ana pays for the lamp, then asks herself whether it will fit the desk. The point is that the space question came after the purchase, not that she regrets it already.",
+        "zh": "場景中，Ana 還未想清楚就先付錢：她買下燈後，才問自己能否放在書桌。重點是空間問題在購買後才出現，不是她已感到後悔。",
+        "promptEn": "",
+        "promptZh": "意象所指的先後是甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Ana pays before considering whether the lamp fits, without a stated decision that she regrets it.",
+            "zh": "Ana 先付款，才考慮燈是否放得下，未有說她已後悔。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Ana checks the desk space and then pays for a lamp she has selected to fit it.",
+            "zh": "Ana 先核對書桌空間，再買下一盞已選好、放得下的燈。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Ana decides the lamp does not fit and cancels the purchase before payment.",
+            "zh": "Ana 在付款前已決定燈放不下，並取消購買。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The scene follows Ana asking the shop to refund a lamp she already regrets buying.",
+            "zh": "場景描述 Ana 要求退款，因為她已後悔買燈。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "付錢先於空間考慮，構成意象；敘述沒有交代已退貨或後悔。"
+      },
+      "reply": {
+        "promptEn": "What does the wallet-and-mind image tell us about Ana’s choice?",
+        "promptZh": "錢包與思考的意象，說明 Ana 的選擇有甚麼特點？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The wallet opens before the mind fully catches up: she pays before asking whether the lamp fits.",
+            "zh": "她還未想清楚就先付錢，買了才問燈能否放下。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The practical space question follows the payment rather than guiding it.",
+            "zh": "實際空間問題出現在付款後，沒有先引導選擇。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The order suggests that reflection did not keep pace with the buying action.",
+            "zh": "先後顯示，思考未有跟上購買行動。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Her payment is complete before she considers one relevant need.",
+            "zh": "付款完成後，她才考慮其中一項相關需要。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明先行動後思考的次序，不額外斷言她已後悔。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "人物熟悉自己要的墨水型號，出門前已核對存量及用途，到店後很快付款。評論只因買得快，就套用本課意象。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The account gives preparation before payment, so it does not establish that the wallet opens before the mind fully catches up.",
+            "zh": "敘述有付款前的準備，因此未能確立她還未想清楚就先付錢。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The quick payment shows that she had not checked what she needed before visiting the shop.",
+            "zh": "快速付款顯示，到店前她未核對需要甚麼。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account places the stock check after payment rather than before the visit.",
+            "zh": "敘述把存量核對放在付款後，而不是到店前。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "速度本身不等於缺乏考慮；這裏已交代事前核對。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「the wallet opens before the mind fully catches up」得出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "付款先於充分思考的意象。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "需要按情境交代當事人漏想甚麼。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "當事人已確定後悔並成功退貨。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "意象沒有自行交代之後的感受或退貨結果。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「她買了才想尺寸，所以故事已說她後悔了？」你只知道先後。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The wallet opens before the mind fully catches up, but the scene has not told us whether she regrets the purchase or what she does next.",
+            "zh": "她還未想清楚就先付錢，但場景還未告訴我們，她是否後悔，以及下一步會怎樣。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would read the late space question as confirmation that she has already asked for a refund.",
+            "zh": "我會把較遲才問空間，理解為已確認她要求退款。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the account said she had measured the desk before choosing the lamp.",
+            "zh": "我以為敘述說，她選燈前已量度書桌。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留已知次序，讓之後結果維持未定；不把考慮問題直接改成已退貨。"
+      },
+      "speaking": {
+        "en": "The wallet opens before the mind fully catches up: I paid for the lamp before checking whether it would fit on my desk.",
+        "zh": "我還未想清楚就先付錢：未查燈能否放在書桌上，便已付款。",
+        "promptZh": "先聽示範，再交代付款與核對的先後。",
+        "targetSpan": {
+          "start": 0,
+          "end": 49
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你跟朋友一起為舞台買材料，剛才沒先核對共用清單，就自行訂了一批布。你還不知道能否取消，也不想把責任推給優惠提示。用一至兩句英文寫實際訊息，承認自己先買後想，請暫停重複訂購，並說會先查訂單狀態再商量。",
+        "examples": [
+          {
+            "en": "Here, the wallet opens before the mind fully catches up: I bought the fabric before checking our shared list, and that was my decision. Please hold off on ordering the same material while I check the order status and bring the details back to the group.",
+            "zh": "這次我還未想清楚就先付錢：未查共用清單便買布，是我自己的決定。請先不要重複訂同一材料，讓我查訂單狀態，再把資料帶回小組商量。"
+          },
+          {
+            "en": "The image “the wallet opens before the mind fully catches up” describes my ordering the fabric without checking the list. I will confirm the order status before proposing what to do, so could we pause any duplicate purchase for now?",
+            "zh": "還未想清楚就先付錢的意象，描述了我未查清單便訂布的做法。我會先確認訂單狀態，再提出怎樣處理；目前可以先暫停重複購買嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the fabric",
+            "zh": "那批布",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 76
+            }
+          },
+          {
+            "en": "our shared list",
+            "zh": "我們的共用清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 108
+            }
+          },
+          {
+            "en": "the order status",
+            "zh": "訂單狀態",
+            "exampleIndex": 0,
+            "span": {
+              "start": 196,
+              "end": 212
+            }
+          },
+          {
+            "en": "bring the details back to the group",
+            "zh": "把資料帶回小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 217,
+              "end": 252
+            }
+          },
+          {
+            "en": "any duplicate purchase",
+            "zh": "任何重複購買",
+            "exampleIndex": 1,
+            "span": {
+              "start": 201,
+              "end": 223
+            }
+          }
+        ],
+        "selfCheckZh": "承認自己的先後及責任，提出先查狀態及避免重複購買的做法；不預先承諾可取消或退費，也不把選擇全推給提示。"
+      },
+      "takeaways": [
+        {
+          "en": "The wallet opens before the mind fully catches up in her account of buying a ticket before checking the date.",
+          "zh": "她描述未查日期便買票時，用了還未想清楚就先付錢的意象。"
+        },
+        {
+          "en": "He used the image “the wallet opens before the mind fully catches up” to describe buying the set before considering where to store it.",
+          "zh": "他用還未想清楚就先付錢的意象，形容買下套裝後才考慮放在哪裏。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Creative personifying sequence not diagnosis. Final accountable group communication and duplicate-order coordination differs from narrator chronology or general impulse advice."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1954",
+      "number": 1954,
+      "inventoryId": "expr-1954",
+      "contentRevision": 1,
+      "titleEn": "easier to sway",
+      "titleZh": "較容易被說服或影響",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\beasier to sway\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p244-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 244,
+          "book": 9,
+          "question": 8,
+          "sample": "S2",
+          "sourceBookPages": "24–25",
+          "expression": "easier to sway",
+          "sentence": "Repeated adverts make buyers easier to sway.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page244, table1, row3; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "More readily influenced or persuaded than in the relevant comparison.",
+        "meaningZh": "與所比較的情況相比，較容易被影響或說服。",
+        "grammar": "be/make someone easier to sway; sway is figurative influence, easier is comparative. Specify the comparison where useful. Susceptibility does not establish that persuasion has already succeeded.",
+        "register": "A transparent comparative using the influence sense of sway; the entire wording is not an opaque fixed idiom. Context can concern advertising, preferences or an argument.",
+        "boundaryZh": "較容易受影響不等於沒有主見，也不表示每人都會受同樣影響；要有具體比較及仍保留的選擇。",
+        "misconceptionZh": "不能把重複看到訊息當成已同意，也不能只因別人與自己不同意就說他易受擺布。",
+        "outcomeZh": "能描述影響的可能與比較依據，不替當事人預定選擇。"
+      },
+      "listening": {
+        "en": "I am easier to sway about a rehearsal plan when I have not read the details, because a confident summary can fill the gaps for me. That is a reason to check the schedule, not a claim that I have already agreed.",
+        "zh": "未看排練詳情時，我較容易被說服，因為有信心的摘要可能替我填補空白。這是需要查時間表的理由，不是說我已同意。",
+        "promptEn": "",
+        "promptZh": "比較的是甚麼？決定是否已作出？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The speaker is more open to influence before reading the details, but has not reported agreeing.",
+            "zh": "說話者未讀詳情前較易受影響，但未有說已同意。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker has already accepted the plan after checking every rehearsal date.",
+            "zh": "說話者已核對每個排練日期，並接受計劃。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Reading the details is described as making the speaker more dependent on a confident summary.",
+            "zh": "閱讀詳情被描述成，令說話者更依賴有信心的摘要。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The speaker had already read the timetable and was asking only how to announce an agreed plan.",
+            "zh": "說話者已讀時間表，只在問怎樣宣布已同意的計劃。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "sway 這裏指說服；比較的是是否讀過詳情，未交代已同意。"
+      },
+      "reply": {
+        "promptEn": "When do you feel more open to someone else’s influence on the plan?",
+        "promptZh": "甚麼時候，你覺得自己較容易受別人對計劃的影響？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I am easier to sway before I have checked the rehearsal details.",
+            "zh": "核對排練詳情前，我較容易被說服。"
+          },
+          {
+            "id": "choice-2",
+            "en": "A confident summary has more influence when I have not filled the information gaps myself.",
+            "zh": "我未自己補足資料時，有信心的摘要較有影響。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I feel less able to assess the suggestion before reading the schedule.",
+            "zh": "未讀時間表前，我覺得較難評估建議。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Not knowing the practical details leaves me more reliant on how another person presents it.",
+            "zh": "不清楚實際詳情，讓我較依賴別人怎樣介紹。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都回應相對較易受影響的情況，不把它寫成已同意。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "委員看過兩份場地報價和交通安排後，迅速選了較合適的一份。敘述沒有比較她在不同條件下多容易受影響。評論卻只因決定快，就說她較易被說服。哪句謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A quick decision after comparing the details does not by itself show that she was easier to sway; we would need evidence of greater susceptibility to influence.",
+            "zh": "比較詳情後迅速決定，本身不足以顯示她較易被說服；還需要她更容易受影響的證據。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account says she accepted the first confident recommendation without looking at either quotation.",
+            "zh": "敘述說，她沒有看任何報價，就接受了第一個充滿信心的推薦。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The speed of her choice is enough to establish that another person decided for her.",
+            "zh": "單是選擇速度，就足以確立另一個人替她作決定。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "迅速且有依據的選擇，不等於較容易被左右；比較級需要比較條件或相關證據。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「The repeated message makes him easier to sway」推論出來？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "訊息被說成增加他受影響的可能。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他已同意訊息中的每項建議。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "情境應說明與哪種情況比較。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "比較說的是受影響程度，不等於具體建議已全部被接受。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「你說自己較易被說服，是不是已答應那份時間表？」你仍未核對詳情。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I may be easier to sway before reading it, but I have not agreed; I want to check the actual dates first.",
+            "zh": "未讀之前，我可能較易被說服，但我還未同意；我想先核對實際日期。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would let the person who sounds most confident decide my availability without showing me the dates.",
+            "zh": "我會讓聽來最有信心的人決定我能否出席，不用向我展示日期。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought my concern about being influenced meant I had already rejected the plan.",
+            "zh": "我以為擔心受影響，就表示我已拒絕計劃。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "直接分清自己的可能傾向與尚未作出的決定，再提出需要的資料。"
+      },
+      "speaking": {
+        "en": "I may be easier to sway when I do not know the details, so I want time to read them before giving my answer.",
+        "zh": "不清楚詳情時，我可能較容易被說服，所以答覆前想先有時間閱讀。",
+        "promptZh": "先聽示範，再說明作答前需要的資料與時間。",
+        "targetSpan": {
+          "start": 9,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你要帶領小組比較兩個展覽提案。你知道自己較容易被精彩口述吸引，但其中一位成員不喜歡即場推銷自己的想法。用一至兩句英文寫開場，承認自己的傾向，提議先讓每人安靜讀同樣長度的摘要，再按共同問題討論，不聲稱這一定能消除所有偏好。",
+        "examples": [
+          {
+            "en": "I am easier to sway by a lively presentation, so I suggest that we first read an equally short summary of each proposal in silence. We can then discuss the same questions for both, giving the quieter contributor a fairer chance to explain the idea.",
+            "zh": "精彩介紹較容易說服我，所以我建議先安靜閱讀兩個提案同樣簡短的摘要。之後用相同問題討論，讓較安靜的成員有較公平的機會說明想法。"
+          },
+          {
+            "en": "I can be easier to sway when an idea is presented with confidence, and I do not want that to decide our discussion before we read. Let us give both written summaries the same space and compare them against the questions we agreed.",
+            "zh": "有信心的介紹較容易說服我，我不想未讀便由這點定下討論。我們給兩份書面摘要相同篇幅，再按已同意的問題比較吧。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a lively presentation",
+            "zh": "精彩的介紹",
+            "exampleIndex": 0,
+            "span": {
+              "start": 23,
+              "end": 44
+            }
+          },
+          {
+            "en": "each proposal",
+            "zh": "每個提案",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 119
+            }
+          },
+          {
+            "en": "in silence",
+            "zh": "安靜地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 120,
+              "end": 130
+            }
+          },
+          {
+            "en": "the quieter contributor",
+            "zh": "較安靜的成員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 188,
+              "end": 211
+            }
+          },
+          {
+            "en": "the same space",
+            "zh": "相同篇幅",
+            "exampleIndex": 1,
+            "span": {
+              "start": 166,
+              "end": 180
+            }
+          }
+        ],
+        "selfCheckZh": "承認自己的傾向，提出公平比較的具體步驟，不把安靜成員寫成想法較弱，也不聲稱一套流程能消除所有影響。"
+      },
+      "takeaways": [
+        {
+          "en": "She felt easier to sway when she had only heard one version of the story.",
+          "zh": "只聽過故事其中一個版本時，她覺得自己較容易被說服。"
+        },
+        {
+          "en": "He asked whether tired readers might be easier to sway, treating it as a question for the discussion rather than a proven result.",
+          "zh": "他問疲倦讀者是否可能較易受影響，把它當成討論問題，而不是已證實結果。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Guide fixed-phrase category clarified to transparent comparative+figurative sway. Final facilitation process addresses presentation bias and quieter contribution rather than another personal date-checking request."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1956",
+      "number": 1956,
+      "inventoryId": "expr-1956",
+      "contentRevision": 1,
+      "titleEn": "a whole shopping street around in your pocket",
+      "titleZh": "口袋裏像帶着整條購物街",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba whole shopping street around in (?:your|my|our|their|her|his) pocket\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p244-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 244,
+          "book": 9,
+          "question": 9,
+          "sample": "S1",
+          "sourceBookPages": "26–27",
+          "expression": "a whole shopping street around in your pocket",
+          "sentence": "Online shopping can feel like carrying a whole shopping street around in your pocket.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page244, table2, row5; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A portable device gives access to a broad range of shops or goods, pictured as carrying a shopping street.",
+        "meaningZh": "透過隨身裝置接觸廣泛商店或商品，就像帶着一整條購物街。",
+        "grammar": "carry/have a whole shopping street around in your pocket. Whole intensifies perceived range; the street is figurative access, not every shop in existence or goods physically stored on the device.",
+        "register": "Creative portability-and-choice image from online shopping. Access to listings does not establish availability, delivery to a location, quality or a completed purchase.",
+        "boundaryZh": "選擇看來廣泛，與實際可買、可送或適合自己不同；也不代表每人都有相同裝置及使用條件。",
+        "misconceptionZh": "不能把看得到清單當成已擁有商品，也不把意象中的 whole 讀成可核實的全世界所有商店。",
+        "outcomeZh": "能說清便攜瀏覽的好處，同時保留實際交易條件的未知範圍。"
+      },
+      "listening": {
+        "en": "Browsing the catalogue felt like carrying a whole shopping street around in my pocket: I could compare many sellers on the bus. I still had to check which items were available and whether any seller delivered to my area.",
+        "zh": "在巴士上瀏覽目錄、比較多個賣家，感覺像口袋裏帶着整條購物街。我仍需核對哪些商品有貨，以及有沒有賣家送到我的地區。",
+        "promptEn": "",
+        "promptZh": "意象說明哪種方便？甚麼仍要查？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Many sellers could be browsed on the move, but availability and delivery still needed checking.",
+            "zh": "移動時能瀏覽多個賣家，但仍需核對有貨及送貨安排。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every listed item had already been delivered to the speaker’s address.",
+            "zh": "每項列出商品，都已送到說話者地址。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The catalogue could be used only inside the shopping street’s buildings.",
+            "zh": "目錄只能在購物街的建築物內使用。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The comparison took place after all sellers had confirmed stock and delivery.",
+            "zh": "比較是在所有賣家確認有貨及送貨後進行。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "方便在隨身瀏覽及比較；不會自行完成有貨及送貨核對。"
+      },
+      "reply": {
+        "promptEn": "What made the catalogue feel portable and useful?",
+        "promptZh": "目錄怎樣讓人感到方便隨身使用？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It felt like carrying a whole shopping street around in my pocket while I compared sellers on the bus.",
+            "zh": "我在巴士上比較賣家時，像口袋裏帶着整條購物街。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I could look through many sellers without visiting their shops in person.",
+            "zh": "我不必親到店舖，就能瀏覽多個賣家。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The journey became a chance to compare listings on a device I carried.",
+            "zh": "旅程成為利用隨身裝置比較清單的機會。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The range was available to browse away from a shop counter.",
+            "zh": "即使不在櫃枱前，仍可瀏覽多種選擇。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明隨身瀏覽，不把它寫成已完成交易或持有商品。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "人物看到外地商店清單，想替劇組找布料，但尚未查是否能送到本地。有人說既然看到，就已確定可用於下周排練。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Carrying a whole shopping street around in your pocket suggests access to choices, not confirmation that a listed fabric can arrive in time.",
+            "zh": "口袋裏像帶着整條購物街，表示能接觸多種選項，不是確認清單上的布能準時送到。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The listings establish that every fabric can reach the local rehearsal next week.",
+            "zh": "清單確立了，每種布都能在下周本地排練前送到。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says the group has already received the fabric and checked it against the plan.",
+            "zh": "敘述說，小組已收到布料，並與計劃核對。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "看得到的選項與實際交付是不同狀態；仍需查時間及範圍。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能由「a whole shopping street around in your pocket」這個意象直接確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "隨身瀏覽的選擇很多。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "Every listed item has already been purchased and belongs to the person browsing.",
+            "zh": "每件列出商品都已買下，並屬於正在瀏覽的人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "口袋意象帶出便攜的感覺。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "商品清單可隨身瀏覽，不等於實體商品在裝置或口袋裏。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友說：「有這麼多清單，就不用問能否送貨了吧？」你仍需材料按時到場。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It may feel like carrying a whole shopping street around in my pocket, but I still need the seller to confirm delivery before I rely on the material.",
+            "zh": "這可能像口袋裏帶着整條購物街，但依靠那批材料之前，我仍需賣家確認送貨。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would put the fabric into the rehearsal plan based on the listing alone, and ask about delivery after the plan is fixed.",
+            "zh": "我會只按清單把布料放進排練計劃，定好後才問送貨。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought comparing the listing meant that the order had already been accepted.",
+            "zh": "我以為比較清單，就表示訂單已獲接受。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "先確認會影響可行性的條件，再依靠材料安排；瀏覽不等於已接單。"
+      },
+      "speaking": {
+        "en": "Carrying a whole shopping street around in your pocket lets you compare choices wherever you are, but it does not tell you when an order will arrive.",
+        "zh": "口袋裏像帶着整條購物街，讓你隨處比較選項，但不會告訴你訂單何時送到。",
+        "promptZh": "先聽示範，再分清看得到選項與已確定交易條件。",
+        "targetSpan": {
+          "start": 9,
+          "end": 54
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你和鄰居想一起比較社區活動所需的物品。你有手機目錄，鄰居沒有智能手機，也不想把是否參加討論變成必須買裝置。用一至兩句英文實際邀請他一起選，提出印出幾個選項，約好共同討論後才決定是否訂購。",
+        "examples": [
+          {
+            "en": "Using my phone feels like carrying a whole shopping street around in my pocket, but we do not need separate devices to choose together. I can print a shortlist for us to discuss before we decide whether to order anything.",
+            "zh": "使用手機讓我覺得像在口袋裏帶着整條購物街，但我們一起選，不需要各自有裝置。我可以印出候選清單，讓我們先討論，再決定是否訂購。"
+          },
+          {
+            "en": "Having this catalogue is like carrying a whole shopping street around in your pocket, and I would like to share the choices with you. Shall I bring a few printed options so we can compare them together before either of us places an order?",
+            "zh": "有這份目錄，像在口袋裏帶着整條購物街；我想跟你分享這些選項。我帶幾個印好的選項來，讓我們先一起比較，再由任何一方下單，好嗎？"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "separate devices",
+            "zh": "各自的裝置",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 115
+            }
+          },
+          {
+            "en": "print a shortlist",
+            "zh": "印出候選清單",
+            "exampleIndex": 0,
+            "span": {
+              "start": 142,
+              "end": 159
+            }
+          },
+          {
+            "en": "whether to order anything",
+            "zh": "是否訂購任何東西",
+            "exampleIndex": 0,
+            "span": {
+              "start": 195,
+              "end": 220
+            }
+          },
+          {
+            "en": "a few printed options",
+            "zh": "幾個印好的選項",
+            "exampleIndex": 1,
+            "span": {
+              "start": 148,
+              "end": 169
+            }
+          },
+          {
+            "en": "compare them together",
+            "zh": "一起比較它們",
+            "exampleIndex": 1,
+            "span": {
+              "start": 180,
+              "end": 201
+            }
+          }
+        ],
+        "selfCheckZh": "實際邀請對方一起作選擇，提出不用另買裝置的參與方式，並保留共同討論及是否訂購的決定。"
+      },
+      "takeaways": [
+        {
+          "en": "She felt as though she were carrying a whole shopping street around in her pocket while comparing designs during the journey.",
+          "zh": "她在旅途中比較設計，覺得自己彷彿在口袋裏帶着整條購物街。"
+        },
+        {
+          "en": "Carrying a whole shopping street around in your pocket does not decide which purchase, if any, fits what you need.",
+          "zh": "即使口袋裏像帶着整條購物街，也不會替你決定是否有任何商品配合需要。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Creative shopping-street portability metaphor not a literal inventory/ownership claim. Final rewrites misleading introduction for novices, not simply another delivery confirmation request."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1957",
+      "number": 1957,
+      "inventoryId": "expr-1957",
+      "contentRevision": 1,
+      "titleEn": "gone down a rabbit hole",
+      "titleZh": "不知不覺深入一連串探索",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:go(?:ne|ing)?|went) down a rabbit hole\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p244-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 244,
+          "book": 9,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "expression": "gone down a rabbit hole",
+          "sentence": "I have gone down a rabbit hole of product reviews.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page244, table2, row7; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Become drawn into an extended chain of exploration that goes beyond the original purpose.",
+        "meaningZh": "被一連串探索吸引，逐步深入，超出原來目的。",
+        "grammar": "go down a rabbit hole of reviews/references; went/gone/going. Explain where the chain led and whether it was useful, distracting or both; the idiom does not automatically condemn research.",
+        "register": "Established informal exploration metaphor. A long planned investigation is not necessarily an unplanned detour; absorbing discoveries may still be valuable.",
+        "boundaryZh": "要看原來問題、接續探索及實際影響；深入本身不等於浪費，也不能只按時間長就推論失去方向。",
+        "misconceptionZh": "不要把所有延伸閱讀都批評成無用，也不因找到有趣內容就忽略原定任務。",
+        "outcomeZh": "能交代探索的路線與取捨，並安排怎樣保留支線及回到目標。"
+      },
+      "listening": {
+        "en": "I went down a rabbit hole of lamp reviews: I began by checking the size, then followed discussions of finishes and old workshop designs. I found interesting details, but had not answered the size question when the library closed.",
+        "zh": "我不知不覺深入一連串燈具評論：先查尺寸，再跟着讀表面處理及舊工作室設計的討論。細節有趣，但圖書館關門時，我還未回答尺寸問題。",
+        "promptEn": "",
+        "promptZh": "探索怎樣偏離原來問題？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It moved from size to other details, leaving the original question unanswered at closing time.",
+            "zh": "探索從尺寸轉向其他細節，關門時原問題仍未答到。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker completed the size check first and then began a separately planned design project.",
+            "zh": "說話者先完成尺寸核對，才開始另一項已計劃的設計項目。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The speaker stayed with size information and found no other subject interesting.",
+            "zh": "說話者一直只看尺寸資料，對其他主題沒有興趣。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The library had closed before the speaker began reading any of the reviews.",
+            "zh": "說話者開始讀任何評論之前，圖書館已關門。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "連續跟讀帶來有趣支線，但原問題未完成；不是所有細節都無價值，也不是先完成才另外研究。"
+      },
+      "reply": {
+        "promptEn": "How did the review reading develop?",
+        "promptZh": "閱讀評論的過程怎樣發展？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I went down a rabbit hole from a size check into finishes and workshop history.",
+            "zh": "我從尺寸核對，不知不覺深入表面處理及工作室歷史。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Each discussion led me towards another subject beyond the original size question.",
+            "zh": "每段討論都把我引向原尺寸問題以外的另一主題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The reading produced interesting detours while leaving the practical check unfinished.",
+            "zh": "閱讀帶來有趣的支線，但實際核對仍未完成。"
+          },
+          {
+            "id": "choice-4",
+            "en": "I followed a chain of related material without completing the question I started with.",
+            "zh": "我跟着讀一連串相關資料，卻未完成最初問題。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都交代探索的延伸與原任務未完；只有一句用了本課慣用語。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "研究者事先列出要追查的三段地方歷史，按計劃讀了一下午並回答了問題。報道只因讀得久，就稱她偏離原目的。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A long planned investigation does not by itself show that she has gone down a rabbit hole beyond her purpose.",
+            "zh": "按計劃作長時間調查，本身不表示她已超出目的、不知不覺深入支線。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She used the three questions only as a starting point and then followed other subjects instead of answering them.",
+            "zh": "她只把三個問題當成起點，之後跟讀其他主題，沒有回答原問題。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says she began with a size check and never reached the local history questions.",
+            "zh": "敘述說，她從尺寸核對開始，一直未到地方歷史問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要看原定目的及實際路線，不只看時間長短；情境已說按計劃回答了問題。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「She has gone down a rabbit hole of references」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她深入了一連串接續的資料。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她讀到的每項內容都毫無價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "更多情境可交代它怎樣影響原定任務。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "延伸探索可能有價值，也可能妨礙當前目標；不能一概抹去內容。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「那些設計細節有趣，所以你原本的尺寸核對也完成了吧？」你還未答到。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I went down a rabbit hole and found useful ideas, but the size check is still unfinished; I need to separate those two results.",
+            "zh": "我不知不覺深入支線，也找到有用想法，但尺寸核對仍未完成；我需要把兩項結果分開。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would use the interesting design material as the answer to the size question without checking the measurements.",
+            "zh": "我會不查尺寸，直接把有趣設計資料當成尺寸問題的答案。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the original task was to collect finishes rather than find the lamp’s size.",
+            "zh": "我以為原任務是收集表面處理資料，而不是找燈的尺寸。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "肯定發現與承認原問題未完可以並存；有趣不等於答對了另一項問題。"
+      },
+      "speaking": {
+        "en": "I have gone down a rabbit hole of references, so I want to save the new questions separately before returning to the one I need to answer today.",
+        "zh": "我已不知不覺深入一連串資料，所以想先另外保存新問題，再回到今天需要回答的那題。",
+        "promptZh": "先聽示範，再說清如何保留發現並回到目前目標。",
+        "targetSpan": {
+          "start": 7,
+          "end": 30
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你為社區展覽核對一張照片的年份，意外找到一段值得另做訪問的工場故事，但明天要先交確定的照片資料。用一至兩句英文寫給伙伴，交代自己深入了支線，提議把新問題列成後續訪問清單，而不把未核實故事寫進明天圖說。",
+        "examples": [
+          {
+            "en": "I have gone down a rabbit hole of workshop stories while checking the photograph’s date, and there may be a separate interview project here. Could we save those questions for follow-up and keep tomorrow’s caption to the details we have actually confirmed?",
+            "zh": "核對照片日期時，我不知不覺深入工場故事，這裏可能值得另做訪問項目。我們可把那些問題留作跟進，明天圖說只用實際已確認的細節嗎？"
+          },
+          {
+            "en": "The workshop references made me go down a rabbit hole beyond the date check, so I suggest keeping a separate interview list. I will distinguish the confirmed photograph details from those new questions before we submit the caption tomorrow.",
+            "zh": "工場資料令我超出日期核對，不知不覺深入支線，所以我建議另存一張訪問清單。明天交圖說前，我會分清已確認的照片資料及那些新問題。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the photograph’s date",
+            "zh": "照片日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 66,
+              "end": 87
+            }
+          },
+          {
+            "en": "a separate interview project",
+            "zh": "另一個訪問項目",
+            "exampleIndex": 0,
+            "span": {
+              "start": 106,
+              "end": 134
+            }
+          },
+          {
+            "en": "save those questions",
+            "zh": "保存那些問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 150,
+              "end": 170
+            }
+          },
+          {
+            "en": "tomorrow’s caption",
+            "zh": "明天的圖說",
+            "exampleIndex": 0,
+            "span": {
+              "start": 194,
+              "end": 212
+            }
+          },
+          {
+            "en": "the confirmed photograph details",
+            "zh": "已確認的照片資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 144,
+              "end": 176
+            }
+          }
+        ],
+        "selfCheckZh": "保留支線作後續訪問，準確交付當前可確認資料；不把新問題當成已核實故事，也不因未能立即使用就刪去有價值的方向。"
+      },
+      "takeaways": [
+        {
+          "en": "The footnote made her go down a rabbit hole of local maps, which she later turned into a separate project.",
+          "zh": "註腳令她不知不覺深入一連串本地地圖，後來另成一個項目。"
+        },
+        {
+          "en": "He had gone down a rabbit hole of costume references before noticing that the meeting needed only a simple colour decision.",
+          "zh": "他不知不覺深入一連串服裝資料，才留意到會議只需要簡單定一個顏色。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Unplanned chain distinct from lengthalone or allresearchbad. Final separates verified caption deadline from a potentially useful future interview project, not another generic stop-browsing rule."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1958",
+      "number": 1958,
+      "inventoryId": "expr-1958",
+      "contentRevision": 1,
+      "titleEn": "itchy fingers",
+      "titleZh": "按捺不住想立即行動",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bitchy fingers\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p245-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 245,
+          "book": 9,
+          "question": 9,
+          "sample": "S2",
+          "sourceBookPages": "26–27",
+          "expression": "itchy fingers",
+          "sentence": "Shop with clear eyes rather than itchy fingers.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page245, table1, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "In the shopping image, a restless urge to click or buy before taking time to consider.",
+        "meaningZh": "在購物意象中，按捺不住想立即點選或購買，未先留時間考慮。",
+        "grammar": "have/with itchy fingers; context can link the fingers to a particular action. The urge is not proof that the action has occurred, and the figurative reading must be distinguished from an actual skin sensation.",
+        "register": "Informal action-urge image, used here for the temptation to click or buy. Context matters: the expression does not automatically report an action, a physical condition or a wish to steal.",
+        "boundaryZh": "想按下去與已下單不同，也不自動代表盜竊或身體不適；要按實際上下文理解。",
+        "misconceptionZh": "不能把出現念頭當成已做，也不能只按他人動作快就替他判定衝動。",
+        "outcomeZh": "能說清想行動的衝動與仍保留的選擇，提出自己需要的停頓。"
+      },
+      "listening": {
+        "en": "I had itchy fingers when the limited-edition print appeared, but I had not ordered it. I closed the page to check which size I actually wanted, rather than treat the urge to click as a decision already made.",
+        "zh": "限量版畫出現時，我按捺不住想按下去，但還未下單。我關掉頁面，核對自己真正想要哪個尺寸，不把想點選當成已作決定。",
+        "promptEn": "",
+        "promptZh": "說話者已有甚麼感受？有沒有完成購買？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "There was an urge to click, but no order had been made before the size check.",
+            "zh": "已有想點選的衝動，但核對尺寸前仍未下單。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The speaker had bought the print and was checking how to exchange it for another size.",
+            "zh": "說話者已買版畫，正在查怎樣換另一尺寸。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The speaker had asked a friend to place the order while the size was being checked.",
+            "zh": "說話者核對尺寸時，已請朋友代為下單。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The speaker had chosen the size in advance and felt no temptation when the print appeared.",
+            "zh": "說話者事先已選尺寸，版畫出現時沒有感到心動。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "這裏以手指描寫想點選的衝動，但仍未下單；沒有身體症狀或已完成交易。"
+      },
+      "reply": {
+        "promptEn": "What happened when the print appeared?",
+        "promptZh": "版畫出現時發生了甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I had itchy fingers, but I paused before ordering to check the size I wanted.",
+            "zh": "我按捺不住想點選，但下單前先停下來核對想要的尺寸。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I felt tempted to click without yet completing a purchase.",
+            "zh": "我想按下去，但尚未完成購買。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The urge was present, while the decision still needed a practical check.",
+            "zh": "衝動已出現，但決定仍需實際核對。"
+          },
+          {
+            "id": "choice-4",
+            "en": "I closed the page instead of treating the first impulse as my final choice.",
+            "zh": "我關掉頁面，沒有把第一個念頭當成最後選擇。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都保留衝動與行動的分別；金句使用本課意象。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "人物出門前已決定買一支指定墨水，核對了存量和預算，到店就按清單付款。評論只因動作快，就說他按捺不住想買。哪句最有依據？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A quick planned purchase does not by itself show itchy fingers; the account gives preparation rather than a restless urge to buy.",
+            "zh": "迅速完成計劃好的購買，本身不足以顯示按捺不住想買；敘述交代的是準備，不是急切購買的衝動。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account describes him abandoning the list because an unexpected display tempted him.",
+            "zh": "敘述描述他受意外看到的陳列吸引，放棄原來清單。"
+          },
+          {
+            "id": "choice-3",
+            "en": "His speed shows that he had not considered the cost before arriving at the shop.",
+            "zh": "動作快，顯示他到店前未考慮價錢。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需要急切想做的線索；有準備且迅速的行動，不能單憑速度當成衝動。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由這個購物情境中的「itchy fingers」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "人物很想立即點選或購買。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "人物已完成每個想買的訂單。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "上下文可說明手指意象指向甚麼動作。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "衝動沒有自行完成訂單，也沒有交代有多少次行動。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「你既然手癢想買，是否已經下單？」你只是先查尺寸。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "I had itchy fingers, but I have not ordered; I am checking the size before deciding whether to go ahead.",
+            "zh": "我按捺不住想點選，但還未下單；我正在查尺寸，再決定是否繼續。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The print must already be on its way, then; I will clear a space for its delivery.",
+            "zh": "那版畫一定已在運送途中；我會騰出空間收貨。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought closing the page meant the shop had cancelled an order I had placed.",
+            "zh": "我以為關掉頁面，就表示店方取消了我已下的訂單。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "把感受、查詢及交易分開說清，不自行補出已付款或店方取消。"
+      },
+      "speaking": {
+        "en": "Itchy fingers can describe my urge to click, but I still want to check what I need before making the choice.",
+        "zh": "手癢想按下去，可以描述我的衝動，但作選擇前，我仍想核對自己需要甚麼。",
+        "promptZh": "先聽示範，再分清想做與已做。",
+        "targetSpan": {
+          "start": 0,
+          "end": 13
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你跟朋友共用一個手作帳戶，他先前已請你不要替他報名新班。你看到一個吸引的限時班，很想按下去，但仍未報。用一至兩句英文傳訊息，承認自己的衝動，詢問他是否想看資料，並清楚保留由他決定，不把分享當成代他接受。",
+        "examples": [
+          {
+            "en": "I have itchy fingers over this workshop, but I remember you asked me not to enrol you. Would you like the details to look at yourself, with the decision entirely yours and no booking made on your behalf?",
+            "zh": "這個工作坊讓我手癢想按下去，但我記得你請我不要代報。你想自己看資料嗎？決定完全由你作出，我沒有代你預訂。"
+          },
+          {
+            "en": "These itchy fingers are mine, not permission to use the shared account for your place. I can send the course details if you want, but I will leave any decision to enrol with you.",
+            "zh": "這份按捺不住的衝動是我的，不是用共用帳戶替你報名的許可。如果你想看，我可以傳課程資料，但是否報名由你決定。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "not to enrol you",
+            "zh": "不要替你報名",
+            "exampleIndex": 0,
+            "span": {
+              "start": 69,
+              "end": 85
+            }
+          },
+          {
+            "en": "the details",
+            "zh": "資料",
+            "exampleIndex": 0,
+            "span": {
+              "start": 102,
+              "end": 113
+            }
+          },
+          {
+            "en": "the decision entirely yours",
+            "zh": "決定完全由你作出",
+            "exampleIndex": 0,
+            "span": {
+              "start": 140,
+              "end": 167
+            }
+          },
+          {
+            "en": "the shared account",
+            "zh": "共用帳戶",
+            "exampleIndex": 1,
+            "span": {
+              "start": 52,
+              "end": 70
+            }
+          },
+          {
+            "en": "the course details",
+            "zh": "課程資料",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 116
+            }
+          }
+        ],
+        "selfCheckZh": "說清沒有代報及是否想收資料，尊重已提出的界限；自己的衝動不是替別人作決定的許可。"
+      },
+      "takeaways": [
+        {
+          "en": "She described her itchy fingers when the new paints appeared, then checked the list of materials she already had.",
+          "zh": "新顏料出現時，她形容自己手癢想買，然後核對已有材料清單。"
+        },
+        {
+          "en": "His itchy fingers did not become an order; he saved the details and asked which model the group actually needed.",
+          "zh": "他手癢想買，但沒有下單；他先存資料，再問小組實際需要哪個型號。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Primary checks: https://www.oxfordlearnersdictionaries.com/us/definition/english/itch_2 (desire sense), https://dictionary.cambridge.org/example/english/itchy (spending/betting corpus use). No copied examples; source shopping urge context honoured. Final consent over sharedaccount differs from personal product-size impulse."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1959",
+      "number": 1959,
+      "inventoryId": "expr-1959",
+      "contentRevision": 1,
+      "titleEn": "a library without walls",
+      "titleZh": "不受單一建築限制的知識資源",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\b(?:a|the) library without walls\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p245-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 245,
+          "book": 9,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "28–31",
+          "expression": "a library without walls",
+          "sentence": "The internet feels like a library without walls.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page245, table2, row3; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A collection or route to knowledge that can be accessed beyond a single library building.",
+        "meaningZh": "可以在單一圖書館建築以外接觸的知識資源或途徑。",
+        "grammar": "describe something as a library without walls; walls represents a physical location limit. Name the resources and the actual means of access. The image does not establish that every source is available or reliable.",
+        "register": "A productive library metaphor often applied to online learning or distributed collections. It can recognise wider access without claiming that buildings or librarians have no value.",
+        "boundaryZh": "範圍擴大與內容全齊、全部正確不同；也不能假定每人都有相同設備、連線或閱讀支援。",
+        "misconceptionZh": "不要把「沒有圍牆」讀成不需任何安排，也不由可找到材料就說已理解或核實。",
+        "outcomeZh": "能說明跨地點接觸資源的方式，並指出仍需的來源判斷及支援。"
+      },
+      "listening": {
+        "en": "The archive became a library without walls when residents could read selected letters from home. They could discuss them at the centre, where volunteers still explained dates and gaps in the collection.",
+        "zh": "居民可以在家讀選定信件時，檔案像沒有圍牆的圖書館。他們可以到中心討論，義工仍會解釋日期及資料缺漏。",
+        "promptEn": "",
+        "promptZh": "資源怎樣擴展？義工的作用是否消失？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Some letters became readable from home, while volunteers still helped explain the collection.",
+            "zh": "部分信件可在家閱讀，義工仍幫忙解釋資料。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The archive made every letter available and no longer needed anyone to explain its gaps.",
+            "zh": "檔案公開了每封信，也不再需要有人解釋缺漏。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Residents had to visit the centre before they could read any selected letter.",
+            "zh": "居民必須先到中心，才能讀任何選定信件。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The online copies replaced the letters with a summary that omitted their dates.",
+            "zh": "網上副本用沒有日期的摘要，取代了原信。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "擴展來自可在家讀選定信件；義工仍有解釋作用，也沒有說全部資料已上網。"
+      },
+      "reply": {
+        "promptEn": "Why did residents use the library image for the archive?",
+        "promptZh": "居民為何用圖書館意象形容檔案？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It became a library without walls by letting them read selected materials beyond the building.",
+            "zh": "它讓人可在建築物以外閱讀選定資料，像沒有圍牆的圖書館。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The reading resources could reach people at home as well as at the centre.",
+            "zh": "閱讀資源可以到達家中及中心的人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Access to part of the collection no longer depended on being in that room.",
+            "zh": "接觸部分資料，不再只靠身處那個房間。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The physical centre and the online copies offered connected ways to read the letters.",
+            "zh": "實體中心與網上副本，提供互相連接的讀信途徑。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都指出跨地點接觸資源，沒有抹去實體中心或義工的作用。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "小組在不同村落設流動閱讀箱，居民可借同一批口述歷史小冊，並透過電話問資料員問題。它沒有網頁，卻把資源帶到單一館舍以外。哪句適合？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The shared boxes and support can form a library without walls even though the access route is not a website.",
+            "zh": "即使途徑不是網站，共用閱讀箱及支援也可以形成沒有圍牆的圖書館。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Without a website, the account describes resources available only inside one library building.",
+            "zh": "沒有網站，敘述就只是在說單一圖書館建築內的資源。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The boxes remove the need to know who can answer questions about the material.",
+            "zh": "閱讀箱免除了了解誰能回答資料問題的需要。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "跨地點資源不只靠網站；實際閱讀箱及電話支援也能支持這個意象。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只由「a library without walls」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "資源被形容為不受單一建築限制。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每份材料都已核實，而且每人都能同樣容易使用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "更多情境可交代資源怎樣到達讀者。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "意象沒有自行核實內容或保證相同使用條件。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「既然網上也可讀，就把義工的說明刪掉吧？」有些信件日期不全。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A library without walls can still need guides; the copies give access, but the volunteers help readers understand the missing dates.",
+            "zh": "沒有圍牆的圖書館仍可需要指引；副本讓人接觸資料，義工則幫人理解日期缺漏。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would leave readers to infer the dates because putting the copies online should provide that explanation.",
+            "zh": "我會讓讀者自行推斷日期，因為把副本上網應該就提供了解釋。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the archive had published a complete collection with every date confirmed.",
+            "zh": "我以為檔案已公開完整資料，每個日期都確定。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "接觸與理解是相關但不同的需要；有缺漏時，指引仍有實際用途。"
+      },
+      "speaking": {
+        "en": "A library without walls can widen access, but readers still need to know what the collection contains and where its limits lie.",
+        "zh": "沒有圍牆的圖書館可以擴大使用範圍，但讀者仍需要知道資料包含甚麼，以及限制在哪裏。",
+        "promptZh": "先聽示範，再把擴大接觸與交代範圍一起說清。",
+        "targetSpan": {
+          "start": 0,
+          "end": 23
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你設計一張給長者的社區檔案介紹卡。有人想只放「沒有圍牆的圖書館」及二維碼，但部分讀者不用手機。用一至兩句英文寫實際卡片，保留這個意象，交代可在中心取紙本或請義工協助，不假定所有人都會掃碼。",
+        "examples": [
+          {
+            "en": "Our archive is a library without walls, and you can explore it in a way that works for you. Visit the centre for a printed selection or ask a volunteer to help you find the letters, instead of needing to use the code on your own.",
+            "zh": "我們的檔案像沒有圍牆的圖書館，你可以用適合自己的方法探索。歡迎到中心取選印紙本，或請義工幫忙找信件，不必獨自使用二維碼。"
+          },
+          {
+            "en": "A library without walls should offer more than one doorway into its collection. You can collect printed copies at the centre or speak to a volunteer for help; a phone is not the only way to begin.",
+            "zh": "沒有圍牆的圖書館應有不只一條接觸資料的途徑。你可到中心取紙本，或向義工求助；手機不是唯一的起步方法。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a printed selection",
+            "zh": "選印的紙本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 113,
+              "end": 132
+            }
+          },
+          {
+            "en": "ask a volunteer",
+            "zh": "請一位義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 136,
+              "end": 151
+            }
+          },
+          {
+            "en": "find the letters",
+            "zh": "找信件",
+            "exampleIndex": 0,
+            "span": {
+              "start": 164,
+              "end": 180
+            }
+          },
+          {
+            "en": "printed copies",
+            "zh": "紙本副本",
+            "exampleIndex": 1,
+            "span": {
+              "start": 96,
+              "end": 110
+            }
+          },
+          {
+            "en": "the only way to begin",
+            "zh": "唯一的起步方法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 174,
+              "end": 195
+            }
+          }
+        ],
+        "selfCheckZh": "寫給讀者的具體行動及可用替代途徑，不只留下比喻與二維碼；不把不用手機的人排除於資源之外。"
+      },
+      "takeaways": [
+        {
+          "en": "The travelling book boxes made the project feel like a library without walls for readers in the smaller villages.",
+          "zh": "流動書箱讓小村落的讀者覺得，項目像沒有圍牆的圖書館。"
+        },
+        {
+          "en": "She welcomed the idea of a library without walls while asking who would help readers understand the unfamiliar records.",
+          "zh": "她歡迎沒有圍牆的圖書館這個構想，同時問誰會幫讀者理解陌生記錄。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Productive distributed-access metaphor not allsourcesfree/true/everyuserconnected. Final actual inclusive introductory copy offers paper and human routes rather than simply describing digital availability."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1962",
+      "number": 1962,
+      "inventoryId": "expr-1962",
+      "contentRevision": 1,
+      "titleEn": "stuck inside one classroom",
+      "titleZh": "學習受限於單一課室",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bstuck inside one classroom\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p245-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 245,
+          "book": 9,
+          "question": 10,
+          "sample": "S1",
+          "sourceBookPages": "28–31",
+          "expression": "stuck inside one classroom",
+          "sentence": "Online lessons mean students are not stuck inside one classroom.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page245, table2, row7; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Limited to a single classroom setting, often used to contrast access to a wider range of learning experiences.",
+        "meaningZh": "受限於單一課室環境，常用來與可接觸更多學習經驗作對照。",
+        "grammar": "be/not be stuck inside one classroom; stuck conveys an unwanted limitation, not merely attending class. A negative can describe wider options without saying the physical classroom is worthless.",
+        "register": "A productive confinement image in the guide’s online-learning contrast. The restriction might concern setting or access to people and activities; specify which one.",
+        "boundaryZh": "坐在課室與學習選擇受限不同；線上或外出活動也不自動代表質素較好或人人都能參與。",
+        "misconceptionZh": "不要只看有沒有出門，就判定有沒有接觸外部經驗；也不把實體課堂一概說成阻礙。",
+        "outcomeZh": "能交代學習的實際限制及怎樣擴展，不只按場地或工具貼標籤。"
+      },
+      "listening": {
+        "en": "The students were not stuck inside one classroom: from their usual room, they questioned a remote curator and compared local objects with the collection. Their desks stayed put, but their sources of evidence widened.",
+        "zh": "學生沒有受限於單一課室：他們在平日房間向遠方策展人提問，把本地物件與館藏比較。桌子沒有移動，但證據來源的範圍擴大了。",
+        "promptEn": "",
+        "promptZh": "哪項限制有所改變，而不是哪項物理動作？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The range of people and evidence widened even though the students remained in their usual room.",
+            "zh": "可接觸的人及證據範圍擴大，即使學生仍在平日房間。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They left their classroom and completed the project entirely inside the curator’s museum.",
+            "zh": "他們離開課室，全部項目都在策展人的博物館完成。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The project kept them from asking anyone outside their class about the objects.",
+            "zh": "項目阻止他們向班外人士查問物件。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Moving the desks was described as the only change in their learning experience.",
+            "zh": "搬桌子被描述為，學習經驗中的唯一改變。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不是桌子是否搬走，而是可接觸的人、資料及提問機會有沒有擴展。"
+      },
+      "reply": {
+        "promptEn": "How did the project reach beyond the usual class setting?",
+        "promptZh": "項目怎樣超出平日課堂的範圍？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They were not stuck inside one classroom because they could question someone and examine evidence from beyond it.",
+            "zh": "他們能向課室以外的人提問及查看證據，沒有受限於單一課室。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The remote curator added a perspective the class could consult directly.",
+            "zh": "遠方策展人提供了可直接諮詢的觀點。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The students compared local objects with material from another collection.",
+            "zh": "學生把本地物件與另一個館藏的資料比較。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The room stayed the same while the sources available for their questions changed.",
+            "zh": "房間沒有改變，但可用來回答問題的來源有變。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都指出實際擴展，不把留在房間讀成完全沒有新接觸。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "班級外出到附近空地，卻仍只能抄寫原來工作紙，沒有接觸新資料或觀察任務。宣傳只因人在室外，就稱學習選擇已大幅擴展。哪句較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The class is physically outdoors, but the unchanged worksheet offers no new source or question; being stuck inside one classroom is not just about location.",
+            "zh": "全班人在室外，但不變的工作紙沒有提供新來源或問題；受限於單一課室，不只是地點問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account gives the students direct access to a remote specialist and another collection.",
+            "zh": "敘述讓學生直接接觸遠方專家及另一個館藏。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The outdoor location establishes that the worksheet now asks different questions.",
+            "zh": "室外地點確立了，工作紙現在提出不同問題。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "外出本身不是新學習內容的證據；要說明新增了甚麼觀察、來源或選擇。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「They are not stuck inside one classroom」推論出來？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者在否定某種單一課室的限制。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他們所做的每項活動都比原有課堂更好。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要情境說明實際可接觸甚麼。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "沒有某種限制，不會自動評定所有活動的質素。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「他們沒有搬桌子，怎會接觸課室以外的人？」學生已跟遠方策展人對話。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They need not be stuck inside one classroom just because the desks stay there; their questions can reach the curator and the other collection.",
+            "zh": "桌子留在那裏，不代表他們必須受限於單一課室；他們的問題可以接觸策展人及另一個館藏。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would describe the conversation as entirely within the class because the students did not travel to the museum.",
+            "zh": "我會因學生未到博物館，就把對話說成完全只在班內。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the only change was where the desks were placed in the room.",
+            "zh": "我以為唯一改變，是桌子在房內的位置。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "直接回應人與證據的範圍，不把物理座位當成唯一界線。"
+      },
+      "speaking": {
+        "en": "We need not be stuck inside one classroom, but I want to know which new people, questions or evidence the wider plan would actually bring.",
+        "zh": "我們不必受限於單一課室，但我想知道，更廣的計劃實際會帶來哪些新人物、問題或證據。",
+        "promptZh": "先聽示範，再具體說清擴展了甚麼。",
+        "targetSpan": {
+          "start": 15,
+          "end": 41
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：小組計劃訪問修補店，但一位組員當天無法出席，擔心只能抄別人筆記。老師可協助傳送問題，師傅也願意回覆一個事先整理的問題。用一至兩句英文實際提議公平的參與方式，讓該組員先選問題、取得回覆，並參與回班後的共同分析；不要假定有直播設備。",
+        "examples": [
+          {
+            "en": "Missing the visit need not leave our groupmate stuck inside one classroom: could they choose a question for the teacher to pass on and receive the repairer’s reply? We can include their interpretation when we analyse the visit together.",
+            "zh": "錯過訪問，不一定讓組員受限於單一課室：可否由他選一個問題，請老師轉交，再讓他收到師傅的回覆？我們一起分析訪問時，可以納入他的解讀。"
+          },
+          {
+            "en": "Let us avoid leaving anyone stuck inside one classroom just because they cannot attend that day. I suggest asking our groupmate to prepare the question, sharing the reply with them and giving everyone a part in the follow-up discussion.",
+            "zh": "別因有人當天不能出席，就讓他受限於單一課室。我建議請那位組員準備問題，把回覆分享給他，並讓每個人在跟進討論中都有參與部分。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "choose a question",
+            "zh": "選一個問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 86,
+              "end": 103
+            }
+          },
+          {
+            "en": "a question for the teacher to pass on",
+            "zh": "一個請老師轉交的問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 93,
+              "end": 130
+            }
+          },
+          {
+            "en": "the repairer’s reply",
+            "zh": "師傅的回覆",
+            "exampleIndex": 0,
+            "span": {
+              "start": 143,
+              "end": 163
+            }
+          },
+          {
+            "en": "their interpretation",
+            "zh": "他的解讀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 180,
+              "end": 200
+            }
+          },
+          {
+            "en": "the follow-up discussion",
+            "zh": "跟進討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 211,
+              "end": 235
+            }
+          }
+        ],
+        "selfCheckZh": "提出不能到場者也可實際選問題、取得回覆及參與分析的安排；不要只給現成筆記，也不自行假定可直播。"
+      },
+      "takeaways": [
+        {
+          "en": "They were not stuck inside one classroom once the project included questions to people who used the public garden each day.",
+          "zh": "項目加入向每天使用公園的人提問後，他們便沒有受限於單一課室。"
+        },
+        {
+          "en": "She asked whether the new programme really changed the experience of being stuck inside one classroom, or merely replaced the worksheet with a screen.",
+          "zh": "她問新課程是否真正改變受限於單一課室的經驗，還是只把工作紙換成螢幕。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Confinement metaphor not automatic online superiority. Final field-enquiry proposal with prior questions and explicit return comparison differs from the main remote-curator event."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1963",
+      "number": 1963,
+      "inventoryId": "expr-1963",
+      "contentRevision": 1,
+      "titleEn": "turbocharge education",
+      "titleZh": "大幅加強或加快學習",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bturbocharge education\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p246-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 246,
+          "book": 9,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "28–31",
+          "expression": "turbocharge education",
+          "sentence": "Good tools can turbocharge education.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page246, table1, row2; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Give a substantial boost to the speed or effectiveness of learning, using an engine-power image.",
+        "meaningZh": "用引擎加力的意象，形容大幅提升學習速度或成效。",
+        "grammar": "tools/methods may/can turbocharge education. The verb is a strong figurative evaluation; state the mechanism, evidence and limits rather than assume any new tool produces the effect.",
+        "register": "Vivid, often promotional wording. Education concerns learning, not just faster output or more completed screens; a possibility is different from an observed broad result.",
+        "boundaryZh": "速度、產量及理解是不同資料；一個班的局部試行也不保證所有學生或學科同樣受益。",
+        "misconceptionZh": "不要只按工具新或按得快便肯定學習大幅改善，也不把工具取代練習及回饋的需要。",
+        "outcomeZh": "能準確區分強烈預期、實際觀察及尚需核對的學習結果。"
+      },
+      "listening": {
+        "en": "The teacher hoped the quick feedback could turbocharge education by letting pairs revise an explanation during the lesson. The trial showed more revisions, but she still needed to check whether the students understood the idea better.",
+        "zh": "老師希望即時回饋能讓學生在課內兩人一組修改解釋，大幅加強學習。試行顯示修改次數增加，但她仍需核對學生是否更理解概念。",
+        "promptEn": "",
+        "promptZh": "哪項已有觀察？哪項仍是待核對的學習成效？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "There were more revisions, while improved understanding still needed checking.",
+            "zh": "修改次數增加，但理解是否改善仍需核對。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The trial had confirmed better understanding in every subject taught at the school.",
+            "zh": "試行已確認，學校每個學科的理解都改善。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The teacher wanted fewer opportunities for pairs to revise their explanations.",
+            "zh": "老師想讓學生兩人一組修改解釋的機會減少。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The trial had already shown that immediate feedback prevented students from revising.",
+            "zh": "試行已顯示，即時回饋阻止學生修改。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "觀察到的是更多修改，仍未證實理解；強烈動力意象不能自行把過程數量改成學習成果。"
+      },
+      "reply": {
+        "promptEn": "What would you still need to know before making the strong learning claim?",
+        "promptZh": "作出強烈的學習成效聲稱之前，仍需知道甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Whether the feedback can turbocharge education through better understanding, rather than only more revisions.",
+            "zh": "回饋能否透過更好理解大幅加強學習，而不只是增加修改次數。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Whether students can explain the idea better after revising.",
+            "zh": "學生修改後，是否更能解釋概念。"
+          },
+          {
+            "id": "choice-3",
+            "en": "What the additional revisions changed in the students’ understanding.",
+            "zh": "新增的修改，為學生理解帶來甚麼改變。"
+          },
+          {
+            "id": "choice-4",
+            "en": "Whether the observed activity connects to the learning aim the teacher set.",
+            "zh": "觀察到的活動，是否連到老師所定的學習目標。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都回應仍需核對的理解與目標，不把修改數量當成完整成果。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "一項課程讓學生更快按完頁面，卻未檢查是否能運用概念。報告只按完成速度，就稱大幅改善學習。哪句較謹慎？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Faster page completion alone does not show that the programme can turbocharge education through stronger learning.",
+            "zh": "完成頁面更快，本身不顯示課程能透過更好學習，大幅加強教育。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The completion timer already measures whether students can apply the concept in a new task.",
+            "zh": "完成計時已量度了，學生能否在新任務運用概念。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account describes a successful application task rather than only faster page completion.",
+            "zh": "敘述描述成功運用的任務，而不只是更快完成頁面。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "完成速度與能否運用概念不同，不能把計時當成未量度過的理解。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「This tool can turbocharge education」確定？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "說話者認為工具有大幅加強學習的可能。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "工具已在每個情境證實能改善所有學生的理解。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "需要知道它透過甚麼方式影響學習。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "can 表可能及能力，沒有提供每個情境、每位學生的普遍成果。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「修改次數增加，就可以說理解已證實大幅改善吧？」老師還未檢查理解。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We hope it can turbocharge education, but we should report the extra revisions as observed and check understanding separately.",
+            "zh": "我們希望它能大幅加強學習，但應把新增修改如實報告，再另查理解。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would use the revision total as the measure of understanding without asking what the changes meant.",
+            "zh": "我會不問修改帶來甚麼，就把次數當成理解指標。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the trial had already tested how students applied the idea in a different task.",
+            "zh": "我以為試行已測試學生怎樣在另一任務運用概念。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "把已觀察與仍待核對分開；不需抹去活動增加，也不誇大成已證實理解。"
+      },
+      "speaking": {
+        "en": "A tool may turbocharge education when it supports useful practice and feedback, but the learning outcome still needs evidence.",
+        "zh": "工具支援有用練習及回饋時，可能大幅加強學習，但成果仍需要證據。",
+        "promptZh": "先聽示範，再保留可能作用與成果證據的分別。",
+        "targetSpan": {
+          "start": 11,
+          "end": 32
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你要替科技試行設計一次跟進活動。現有資料只量度完成頁面多快，你想知道學生一周後能否把概念用在新題，並解釋理由。用一至兩句英文實際建議活動與判斷證據，保留工具可能有幫助的期望，但不要預先保證結果。",
+        "examples": [
+          {
+            "en": "If we want to know whether this tool can turbocharge education, let us give students a new problem a week later and ask them to explain their reasoning. Their answers would give us evidence of applying the idea, rather than just finishing pages quickly.",
+            "zh": "若想知道這工具能否大幅加強學習，就讓學生一周後做一道新題，並解釋推理吧。他們的答案會提供運用概念的證據，而不只是完成頁面快。"
+          },
+          {
+            "en": "The tool may help turbocharge education, but our follow-up should test what students can do without the original example. I suggest a new task next week, with time for students to explain why their chosen approach fits.",
+            "zh": "工具可能幫助大幅加強學習，但跟進應測試學生沒有原例時能做到甚麼。我建議下周做一項新任務，讓學生有時間解釋所選方法為何合適。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a new problem",
+            "zh": "一道新題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 98
+            }
+          },
+          {
+            "en": "a week later",
+            "zh": "一周後",
+            "exampleIndex": 0,
+            "span": {
+              "start": 99,
+              "end": 111
+            }
+          },
+          {
+            "en": "explain their reasoning",
+            "zh": "解釋他們的推理",
+            "exampleIndex": 0,
+            "span": {
+              "start": 128,
+              "end": 151
+            }
+          },
+          {
+            "en": "applying the idea",
+            "zh": "運用概念",
+            "exampleIndex": 0,
+            "span": {
+              "start": 193,
+              "end": 210
+            }
+          },
+          {
+            "en": "the original example",
+            "zh": "原來的例子",
+            "exampleIndex": 1,
+            "span": {
+              "start": 100,
+              "end": 120
+            }
+          }
+        ],
+        "selfCheckZh": "提出具體的新任務、時間及解釋理由的證據；區分應用能力與點頁速度，不能先當所有學生都已改善。"
+      },
+      "takeaways": [
+        {
+          "en": "The project aimed to turbocharge education by giving learners a chance to compare explanations and revise them during the same session.",
+          "zh": "項目希望讓學習者在同一節比較並修改解釋，大幅加強學習。"
+        },
+        {
+          "en": "She questioned the claim that the display alone would turbocharge education and asked how it would change what learners could do.",
+          "zh": "她質疑單靠顯示畫面便能大幅加強學習的說法，並問它會改變學習者能做甚麼。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Engine boost metaphor calibrated against actual learning not activitymetrics. Final faithful interview rewrite with scope/modal evidence differs from teacher interpreting trial revisions, though next editorial pass must judge transfer strength."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1964",
+      "number": 1964,
+      "inventoryId": "expr-1964",
+      "contentRevision": 1,
+      "titleEn": "a sea of noise",
+      "titleZh": "令人難以分辨重點的大量雜訊",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\ba sea of noise\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p246-t1-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 246,
+          "book": 9,
+          "question": 10,
+          "sample": "S2",
+          "sourceBookPages": "28–31",
+          "expression": "a sea of noise",
+          "sentence": "Without guidance, the feed is a sea of noise.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page246, table1, row3; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "A large, overwhelming amount of competing material that makes useful or relevant information difficult to distinguish.",
+        "meaningZh": "大量互相競逐的訊息，讓有用或相關資訊難以辨認。",
+        "grammar": "a sea of noise; sea is figurative abundance and noise can be irrelevant or distracting information. It need not all be false, nor be audible. State what the person is trying to find.",
+        "register": "Productive mass-and-interference metaphor. Related to a sea of people through the abundance image, but the noise describes competition for attention or meaning.",
+        "boundaryZh": "難分重點不等於每則訊息都錯，也不能只用聲量大小判斷資料價值；需要按當前目的理解。",
+        "misconceptionZh": "不要把無關當成虛假，也不以安靜房間證明畫面中的資訊已清楚。",
+        "outcomeZh": "能交代甚麼被大量訊息掩蓋，並保留其他內容可能有不同用途。"
+      },
+      "listening": {
+        "en": "The club feed had become a sea of noise for me: jokes, old photos and repeated notices hid the one message about rehearsal time. Some posts mattered to other members, but I could not quickly find the detail I needed.",
+        "zh": "對我而言，社團動態像大量雜訊：笑話、舊照片及重複通知，把排練時間那則訊息掩蓋了。有些貼文對其他會員重要，但我未能很快找到所需細節。",
+        "promptEn": "",
+        "promptZh": "雜訊是相對於甚麼目的？是否所有貼文都沒價值？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The volume made the rehearsal time hard to find, while some posts could still matter to others.",
+            "zh": "訊息量令排練時間難找，但有些貼文仍可對其他人重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every post had been checked and found false by the club.",
+            "zh": "社團已核對每則貼文，發現全部虛假。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The speaker found the rehearsal detail immediately and was describing only loud sounds in the room.",
+            "zh": "說話者立即找到排練資料，只在描述房間的大聲聲響。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The old photographs were the only information the speaker had been looking for.",
+            "zh": "說話者一直只想找舊照片資料。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "判斷與找排練時間的目的相關；沒有把其他內容一概判成虛假或無價值。"
+      },
+      "reply": {
+        "promptEn": "Why was the feed difficult to use for that particular purpose?",
+        "promptZh": "為那個特定目的使用動態時，為何有困難？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was a sea of noise around the rehearsal detail I needed to find.",
+            "zh": "我需要找排練細節時，周圍像大量雜訊。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Many competing posts made one practical message hard to locate.",
+            "zh": "許多互相競逐的貼文，讓一則實際訊息難找。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The useful detail was present but did not stand out for me.",
+            "zh": "有用細節在那裏，但對我不夠突出。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The difficulty was finding the relevant time among material serving different interests.",
+            "zh": "困難在於，從服務不同興趣的內容中找相關時間。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都按當前目的說明干擾，沒有把其他會員的興趣一概否定。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "人物在安靜房間讀一份充滿未分類便條的活動記錄，仍找不到誰答應開門。有人只因周圍沒聲音，就說不可能有雜訊。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The notes can still feel like a sea of noise if the relevant commitment is hard to distinguish, even in a quiet room.",
+            "zh": "即使房間安靜，只要相關承諾難分辨，便條仍可令人覺得像大量雜訊。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The term applies only to audible speech, so written notes cannot be described as a sea of noise.",
+            "zh": "這個詞只適用於可聽見的說話，因此不能把文字便條形容為大量雜訊。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The account says the difficulty is hearing the person speaking at the door.",
+            "zh": "敘述說，困難是聽清站在門口的人說話。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "noise 可指資訊干擾，不只聲音；要看記錄有沒有讓人辨認相關承諾。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「The page is a sea of noise to me」推論出來？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "頁面內容令說話者難以分辨重點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每則內容對每位讀者都必定虛假且沒有用途。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "更多情境可說明說話者想找甚麼。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "個人找重點的困難，不會把所有內容及所有讀者一次定案。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「你說笑話和照片是雜訊，是不是認為它們都是假消息？」你只知道它們妨礙當前查找排練時間。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They made the feed a sea of noise for my time check, but irrelevant to that question does not mean false or useless to everyone.",
+            "zh": "它們令動態對我的時間查找像大量雜訊，但與這題無關，不等於虛假或對每人無用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would use the difficulty of finding the time as evidence that the old photos are inaccurate.",
+            "zh": "我會把找時間的困難，當成舊照片不準確的證據。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the speaker’s purpose was to judge which photograph had the best composition.",
+            "zh": "我以為說話者的目的是判斷哪張照片構圖最好。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "說清自己的查找目的與訊息作用，不把相關性判斷變成未核實的真偽判斷。"
+      },
+      "speaking": {
+        "en": "A sea of noise can hide the detail I need without making every other message false or unimportant to its reader.",
+        "zh": "大量雜訊可以掩蓋我需要的細節，而不令其他每則訊息都變成虛假，或對讀者不重要。",
+        "promptZh": "先聽示範，再以具體查找目的說明雜訊。",
+        "targetSpan": {
+          "start": 0,
+          "end": 14
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：朋友在群組中寫了一則認真求助，你只看見周圍表情符號，未讀清就回了一個笑臉，令他覺得你沒當回事。用一至兩句英文寫實際道歉，承認訊息被大量內容淹沒，但不以此推卸自己未細讀的責任，並問他是否願意私下再談。",
+        "examples": [
+          {
+            "en": "Your message was lost to me in a sea of noise, but I am sorry that I replied without reading it properly and made your concern feel dismissed. Would you be willing to talk privately, so I can listen to what you actually wanted to say?",
+            "zh": "大量內容讓我沒看清你的訊息，但我很抱歉，未好好讀便回覆，令你的擔心像被忽略。你願意私下談嗎，讓我聽清你實際想說甚麼？"
+          },
+          {
+            "en": "I treated the thread as a sea of noise instead of noticing that you were asking for help, and the smiling reply was my mistake. I am sorry; if you want to talk privately, I would like to hear you without rushing another response.",
+            "zh": "我只把討論當成大量雜訊，沒有留意你在求助，回笑臉是我的錯。對不起；如果你想私下談，我想好好聽，不再急着回另一句。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "reading it properly",
+            "zh": "好好閱讀它",
+            "exampleIndex": 0,
+            "span": {
+              "start": 85,
+              "end": 104
+            }
+          },
+          {
+            "en": "your concern",
+            "zh": "你的擔心",
+            "exampleIndex": 0,
+            "span": {
+              "start": 114,
+              "end": 126
+            }
+          },
+          {
+            "en": "talk privately",
+            "zh": "私下談",
+            "exampleIndex": 0,
+            "span": {
+              "start": 167,
+              "end": 181
+            }
+          },
+          {
+            "en": "asking for help",
+            "zh": "尋求幫助",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 88
+            }
+          },
+          {
+            "en": "the smiling reply",
+            "zh": "回笑臉的回覆",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 111
+            }
+          }
+        ],
+        "selfCheckZh": "直接承認未細讀及回覆造成的影響，提出能拒絕的私下聆聽；不要只怪訊息太多，也不要求朋友立即接受道歉。"
+      },
+      "takeaways": [
+        {
+          "en": "The draft became a sea of noise when quotations and the writer’s own notes were mixed without clear labels.",
+          "zh": "引文與作者筆記沒有標示就混在一起時，草稿變成令人難分重點的大量雜訊。"
+        },
+        {
+          "en": "She found the deadline in a sea of noise, then asked whether future notices could identify that detail more clearly.",
+          "zh": "她從大量雜訊中找到期限，再問以後通知能否把那點標得更清楚。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Noise is relevance/attention competition, not necessarily falsehood or audible sound. Final apology and relational repair differs from main locating a logistical detail or decluttering a feed."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    },
+    {
+      "id": "advanced-native-1965",
+      "number": 1965,
+      "inventoryId": "expr-1965",
+      "contentRevision": 1,
+      "titleEn": "putting up guardrails",
+      "titleZh": "設立保護性的界限",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bput(?:ting)? up guardrails\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p246-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 246,
+          "book": 9,
+          "question": 11,
+          "sample": "S1",
+          "sourceBookPages": "32–33",
+          "expression": "putting up guardrails",
+          "sentence": "Parents can start by putting up guardrails online.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "Actual PDF page246, table2, row4; unreported locators remain null."
+        }
+      ],
+      "brief": {
+        "meaningEn": "Create practical boundaries intended to reduce risk while leaving some room to act.",
+        "meaningZh": "設立實際界限，旨在減低風險，同時保留一些行動空間。",
+        "grammar": "put/putting up guardrails around an activity; guardrails are figurative limits or safeguards. Name what the boundary does and how people know it; it does not guarantee that nothing can go wrong.",
+        "register": "A productive protective-barrier metaphor, common in discussion of processes and access. The specific fair or useful limits depend on the task and people; the phrase does not approve every rule.",
+        "boundaryZh": "保護界限與全面禁止不同，也不表示任何規則都有用；要交代風險、範圍及實際作用。",
+        "misconceptionZh": "不要只因寫了規則，就說人人已理解或所有問題已防止；也不把需要調整當成完全不應有界限。",
+        "outcomeZh": "能提出與具體風險相連的清楚限制，並安排了解及檢視。"
+      },
+      "listening": {
+        "en": "The group was putting up guardrails for the shared photo collection: contributors could choose a family-only audience, and public display needed a separate check. They still planned to ask whether people understood those choices.",
+        "zh": "小組為共用照片集設立保護界限：提供者可選只限家庭閱覽，公開展示需要另外核對。他們仍打算問，大家是否明白那些選擇。",
+        "promptEn": "",
+        "promptZh": "界限具體保護甚麼？還要確認甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Audience choices were separated, while contributors’ understanding still needed checking.",
+            "zh": "不同閱覽對象的選擇被分開，但仍需核對提供者是否理解。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choosing family-only sharing automatically approved public display as well.",
+            "zh": "選家庭內分享，也自動批准公開展示。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The group had already confirmed that every contributor understood all the choices.",
+            "zh": "小組已確認，每位提供者都明白所有選擇。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The project had stopped accepting photos for any form of shared viewing.",
+            "zh": "項目已停止接收照片，不作任何形式共同閱覽。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "界限在分開閱覽範圍及另行核對；尚未確認理解，也不是全面停止分享。"
+      },
+      "reply": {
+        "promptEn": "How did the group limit the use of the shared photographs?",
+        "promptZh": "小組怎樣限制共用照片的使用？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It was putting up guardrails by separating family-only viewing from public display.",
+            "zh": "它把家庭內閱覽與公開展示分開，設立保護界限。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Contributors could choose a narrower audience without also approving public use.",
+            "zh": "提供者可選較小閱覽範圍，不等於同時批准公開使用。"
+          },
+          {
+            "id": "choice-3",
+            "en": "A separate check was needed before photographs could be displayed publicly.",
+            "zh": "照片公開展示前，需要另外核對。"
+          },
+          {
+            "id": "choice-4",
+            "en": "The choices defined who could see the material, while their clarity still needed review.",
+            "zh": "選項界定誰可看資料，同時仍需檢視是否清楚。"
+          }
+        ],
+        "goldenId": "choice-1",
+        "explanationZh": "四句都說明具體界限，沒有把保護意圖當成所有人已理解的證據。"
+      },
+      "scene": {
+        "promptEn": "",
+        "promptZh": "借用錄音器材的小組訂明誰可取用、怎樣記錄交接及何時歸還，讓成員仍可輪流使用。有人把任何界限都叫成完全禁止。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They can put up guardrails for shared use without banning borrowing; these rules define access and handover.",
+            "zh": "他們可以為共用設立保護界限，而不禁止借用；這些規則界定取用及交接。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The account describes a decision to keep the equipment unused by every member.",
+            "zh": "敘述描述一項決定，讓每位成員都不能使用器材。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The record is only for the final return, so intermediate handovers between members do not need to be recorded.",
+            "zh": "記錄只供最後歸還使用，所以成員之間的中途交接不用記下。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "規則支持共用，不是全面禁止借用；這裏也要求記下交接，不只最後歸還。"
+      },
+      "contrast": {
+        "promptEn": "",
+        "promptZh": "哪項最不能只從「We are putting up guardrails」推論出來？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小組正在設立某種保護界限。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每項風險都已消失，無須再了解使用情況。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "要用情境交代保護甚麼及怎樣限制。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "界限有目的及範圍，不能自行保證零風險或不需檢視。"
+      },
+      "dialogue": {
+        "promptEn": "",
+        "promptZh": "朋友問：「有了分享選項，就不用再問人是否明白吧？」小組還未查過理解。哪句最好？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Putting up guardrails is a start, but we still need to ask whether contributors understand the audience choices before relying on them.",
+            "zh": "設立保護界限是起步，但依靠選項之前，仍需問提供者是否明白閱覽對象的選擇。"
+          },
+          {
+            "id": "choice-2",
+            "en": "I would treat the presence of the choices as confirmation that every contributor has understood them.",
+            "zh": "我會把選項已出現，當成每位提供者都已理解的確認。"
+          },
+          {
+            "id": "choice-3",
+            "en": "I thought the group had replaced all sharing choices with a ban on submitting photographs.",
+            "zh": "我以為小組已用禁止投稿照片，取代所有分享選擇。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有選項與人理解選項不同；檢視能支持保護作用，而不是多餘步驟。"
+      },
+      "speaking": {
+        "en": "We are putting up guardrails for the photo project by asking each contributor to choose who may see their images before we share them.",
+        "zh": "我們正為照片計劃設立保護界限，分享前先請每位提供者選擇誰可看見他們的照片。",
+        "promptZh": "先聽示範，再交代這次保護界限的實際做法。",
+        "targetSpan": {
+          "start": 7,
+          "end": 28
+        }
+      },
+      "writing": {
+        "promptZh": "新情境：你們讓新成員試做舞台燈光設計，但正式演出前，只有已受訓的人可修改現場設定。新成員仍可在副本提出方案並獲回饋。你要寫歡迎訊息，清楚說明這項界限及練習途徑，不把它寫成不讓新人學。用一至兩句英文實際說明。",
+        "examples": [
+          {
+            "en": "We are putting up guardrails around the live settings, so only trained operators change them before the performance. You can still develop a plan in the practice copy and ask for feedback, which gives you a way to learn without changing the live setup.",
+            "zh": "我們為現場設定設立保護界限，所以演出前只由已受訓操作員修改。你仍可在練習副本發展方案並尋求回饋，不改現場設定也有學習途徑。"
+          },
+          {
+            "en": "Putting up guardrails here means keeping live changes with trained operators, not closing off your ideas. Please try your design in the separate practice copy, then we can discuss the choices before anything is considered for the performance.",
+            "zh": "這裏設立保護界限，是把現場修改留給已受訓操作員，不是關閉你的想法。請先在獨立練習副本嘗試設計，再一起討論選擇，之後才考慮是否用於演出。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the live settings",
+            "zh": "現場設定",
+            "exampleIndex": 0,
+            "span": {
+              "start": 36,
+              "end": 53
+            }
+          },
+          {
+            "en": "trained operators",
+            "zh": "已受訓操作員",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 80
+            }
+          },
+          {
+            "en": "the practice copy",
+            "zh": "練習副本",
+            "exampleIndex": 0,
+            "span": {
+              "start": 149,
+              "end": 166
+            }
+          },
+          {
+            "en": "ask for feedback",
+            "zh": "尋求回饋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 171,
+              "end": 187
+            }
+          },
+          {
+            "en": "your ideas",
+            "zh": "你的想法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 94,
+              "end": 104
+            }
+          }
+        ],
+        "selfCheckZh": "訊息要分清正式設定的限制及新人可用的練習途徑，說出實際下一步；不要把安全限制說成禁止學習，也不替未經討論方案保證正式採用。"
+      },
+      "takeaways": [
+        {
+          "en": "The group was putting up guardrails by defining a trial period and asking each participant how the arrangement affected them.",
+          "zh": "小組界定試行時段，並問每位參與者安排帶來甚麼影響，藉此設立保護界限。"
+        },
+        {
+          "en": "They put up guardrails for the shared draft without preventing contributors from suggesting a different ending.",
+          "zh": "他們為共用草稿設立保護界限，同時沒有阻止提供者建議另一個結尾。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": "AI root",
+        "independentHumanApproval": false,
+        "english": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Protective-road metaphor not automatic fairness/zero-risk. Final actual newcomer welcome distinguishes live-authority scope from a usable practice route, rather than another photo-consent check."
+        },
+        "chinese": {
+          "status": "self-reviewed",
+          "reviewer": "AI root",
+          "evidence": "Traditional Chinese personally compared against each English subject, polarity, qualification and referent; no human approval claimed."
+        },
+        "note": "Individual author draft; separate independent editorial, media, QA and publication checks pending."
+      }
+    }
+  ]
+}

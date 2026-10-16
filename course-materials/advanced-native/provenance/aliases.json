@@ -1,0 +1,2127 @@
+[
+  {
+    "sourceInventoryId": "expr-0065",
+    "sourcePhrase": "come out of the experience stronger",
+    "sourceOccurrenceIds": [
+      "pdf-1-p008-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-008",
+    "resolvedTargetModuleId": "advanced-native-008"
+  },
+  {
+    "sourceInventoryId": "expr-0084",
+    "sourcePhrase": "raises their game",
+    "sourceOccurrenceIds": [
+      "pdf-1-p010-t2-r09",
+      "pdf-2-p118-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-016",
+    "resolvedTargetModuleId": "advanced-native-016"
+  },
+  {
+    "sourceInventoryId": "expr-0091",
+    "sourcePhrase": "standing out individually",
+    "sourceOccurrenceIds": [
+      "pdf-1-p011-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-080",
+    "resolvedTargetModuleId": "advanced-native-080"
+  },
+  {
+    "sourceInventoryId": "expr-0102",
+    "sourcePhrase": "meet each other halfway",
+    "sourceOccurrenceIds": [
+      "pdf-1-p012-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-092",
+    "resolvedTargetModuleId": "advanced-native-092"
+  },
+  {
+    "sourceInventoryId": "expr-0109",
+    "sourcePhrase": "pulling their weight",
+    "sourceOccurrenceIds": [
+      "pdf-1-p013-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-090",
+    "resolvedTargetModuleId": "advanced-native-090"
+  },
+  {
+    "sourceInventoryId": "expr-0111",
+    "sourcePhrase": "drops the ball",
+    "sourceOccurrenceIds": [
+      "pdf-1-p013-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-079",
+    "resolvedTargetModuleId": "advanced-native-079"
+  },
+  {
+    "sourceInventoryId": "expr-0168",
+    "sourcePhrase": "stick in their minds",
+    "sourceOccurrenceIds": [
+      "pdf-1-p019-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-131",
+    "resolvedTargetModuleId": "advanced-native-131"
+  },
+  {
+    "sourceInventoryId": "expr-0170",
+    "sourcePhrase": "plant a seed",
+    "sourceOccurrenceIds": [
+      "pdf-1-p019-t2-r04",
+      "pdf-2-p112-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-022",
+    "resolvedTargetModuleId": "advanced-native-022"
+  },
+  {
+    "sourceInventoryId": "expr-0174",
+    "sourcePhrase": "get under their skin",
+    "sourceOccurrenceIds": [
+      "pdf-1-p019-t2-r08",
+      "pdf-2-p243-t2-r08"
+    ],
+    "directTargetModuleId": "advanced-native-166",
+    "resolvedTargetModuleId": "advanced-native-166"
+  },
+  {
+    "sourceInventoryId": "expr-0197",
+    "sourcePhrase": "a role to play",
+    "sourceOccurrenceIds": [
+      "pdf-1-p021-t2-r10",
+      "pdf-2-p007-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-112",
+    "resolvedTargetModuleId": "advanced-native-112"
+  },
+  {
+    "sourceInventoryId": "expr-0222",
+    "sourcePhrase": "plays a part",
+    "sourceOccurrenceIds": [
+      "pdf-1-p024-t2-r02",
+      "pdf-2-p030-t1-r13",
+      "pdf-2-p152-t2-r02",
+      "pdf-2-p160-t1-r03",
+      "pdf-2-p269-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-112",
+    "resolvedTargetModuleId": "advanced-native-112"
+  },
+  {
+    "sourceInventoryId": "expr-0260",
+    "sourcePhrase": "play a limited role",
+    "sourceOccurrenceIds": [
+      "pdf-1-p028-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-112",
+    "resolvedTargetModuleId": "advanced-native-112"
+  },
+  {
+    "sourceInventoryId": "expr-0262",
+    "sourcePhrase": "a stepping stone",
+    "sourceOccurrenceIds": [
+      "pdf-1-p028-t2-r03",
+      "pdf-2-p068-t2-r08",
+      "pdf-2-p126-t2-r11",
+      "pdf-2-p131-t1-r06",
+      "pdf-2-p258-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-009",
+    "resolvedTargetModuleId": "advanced-native-009"
+  },
+  {
+    "sourceInventoryId": "expr-0265",
+    "sourcePhrase": "leaves a bad taste in my mouth",
+    "sourceOccurrenceIds": [
+      "pdf-1-p029-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-158",
+    "resolvedTargetModuleId": "advanced-native-158"
+  },
+  {
+    "sourceInventoryId": "expr-0302",
+    "sourcePhrase": "meets them halfway",
+    "sourceOccurrenceIds": [
+      "pdf-2-p004-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-092",
+    "resolvedTargetModuleId": "advanced-native-092"
+  },
+  {
+    "sourceInventoryId": "expr-0303",
+    "sourcePhrase": "go hand in hand",
+    "sourceOccurrenceIds": [
+      "pdf-2-p004-t1-r11",
+      "pdf-2-p041-t1-r07",
+      "pdf-2-p053-t1-r11",
+      "pdf-2-p077-t2-r07",
+      "pdf-2-p245-t2-r10"
+    ],
+    "directTargetModuleId": "advanced-native-034",
+    "resolvedTargetModuleId": "advanced-native-034"
+  },
+  {
+    "sourceInventoryId": "expr-0347",
+    "sourcePhrase": "end up",
+    "sourceOccurrenceIds": [
+      "pdf-2-p010-t1-r05",
+      "pdf-2-p011-t2-r04",
+      "pdf-2-p021-t2-r02",
+      "pdf-2-p040-t1-r05",
+      "pdf-2-p063-t2-r05",
+      "pdf-2-p067-t1-r06",
+      "pdf-2-p077-t1-r05",
+      "pdf-2-p084-t2-r10",
+      "pdf-2-p087-t1-r05",
+      "pdf-2-p087-t2-r05",
+      "pdf-2-p089-t1-r08",
+      "pdf-2-p093-t1-r04",
+      "pdf-2-p102-t1-r07",
+      "pdf-2-p103-t1-r02",
+      "pdf-2-p104-t2-r03",
+      "pdf-2-p115-t1-r02",
+      "pdf-2-p116-t2-r04",
+      "pdf-2-p125-t2-r10",
+      "pdf-2-p126-t2-r08",
+      "pdf-2-p127-t1-r11",
+      "pdf-2-p135-t1-r08",
+      "pdf-2-p171-t1-r04",
+      "pdf-2-p178-t2-r05",
+      "pdf-2-p188-t1-r06",
+      "pdf-2-p203-t1-r13",
+      "pdf-2-p212-t1-r02",
+      "pdf-2-p217-t1-r06",
+      "pdf-2-p218-t1-r10",
+      "pdf-2-p220-t2-r02",
+      "pdf-2-p225-t2-r04",
+      "pdf-2-p232-t2-r05",
+      "pdf-2-p243-t2-r10",
+      "pdf-2-p246-t2-r05",
+      "pdf-2-p251-t2-r06",
+      "pdf-2-p252-t1-r04",
+      "pdf-2-p254-t1-r10",
+      "pdf-2-p265-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-041",
+    "resolvedTargetModuleId": "advanced-native-041"
+  },
+  {
+    "sourceInventoryId": "expr-0350",
+    "sourcePhrase": "locked behind a velvet rope",
+    "sourceOccurrenceIds": [
+      "pdf-2-p010-t1-r09"
+    ],
+    "directTargetModuleId": "advanced-native-324",
+    "resolvedTargetModuleId": "advanced-native-324"
+  },
+  {
+    "sourceInventoryId": "expr-0369",
+    "sourcePhrase": "adds up to",
+    "sourceOccurrenceIds": [
+      "pdf-2-p012-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-200",
+    "resolvedTargetModuleId": "advanced-native-200"
+  },
+  {
+    "sourceInventoryId": "expr-0392",
+    "sourcePhrase": "getting in the way",
+    "sourceOccurrenceIds": [
+      "pdf-2-p015-t1-r05",
+      "pdf-2-p073-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-277",
+    "resolvedTargetModuleId": "advanced-native-277"
+  },
+  {
+    "sourceInventoryId": "expr-0396",
+    "sourcePhrase": "do more of the heavy lifting",
+    "sourceOccurrenceIds": [
+      "pdf-2-p015-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-252",
+    "resolvedTargetModuleId": "advanced-native-252"
+  },
+  {
+    "sourceInventoryId": "expr-0397",
+    "sourcePhrase": "bring the world to life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p015-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-327",
+    "resolvedTargetModuleId": "advanced-native-327"
+  },
+  {
+    "sourceInventoryId": "expr-0399",
+    "sourcePhrase": "a window into",
+    "sourceOccurrenceIds": [
+      "pdf-2-p016-t2-r02",
+      "pdf-2-p062-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-305",
+    "resolvedTargetModuleId": "advanced-native-305"
+  },
+  {
+    "sourceInventoryId": "expr-0417",
+    "sourcePhrase": "read between the lines",
+    "sourceOccurrenceIds": [
+      "pdf-2-p018-t2-r05",
+      "pdf-2-p182-t2-r08"
+    ],
+    "directTargetModuleId": "advanced-native-416",
+    "resolvedTargetModuleId": "advanced-native-416"
+  },
+  {
+    "sourceInventoryId": "expr-0420",
+    "sourcePhrase": "a double-edged sword",
+    "sourceOccurrenceIds": [
+      "pdf-2-p019-t1-r03",
+      "pdf-2-p028-t1-r04",
+      "pdf-2-p054-t1-r07",
+      "pdf-2-p055-t2-r05",
+      "pdf-2-p060-t1-r04",
+      "pdf-2-p102-t1-r05",
+      "pdf-2-p104-t2-r06",
+      "pdf-2-p120-t1-r04",
+      "pdf-2-p177-t1-r02",
+      "pdf-2-p196-t2-r06",
+      "pdf-2-p218-t1-r03",
+      "pdf-2-p229-t1-r02",
+      "pdf-2-p237-t1-r04",
+      "pdf-2-p244-t1-r04",
+      "pdf-2-p244-t2-r06",
+      "pdf-2-p245-t2-r08",
+      "pdf-2-p248-t2-r09",
+      "pdf-2-p254-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-081",
+    "resolvedTargetModuleId": "advanced-native-081"
+  },
+  {
+    "sourceInventoryId": "expr-0432",
+    "sourcePhrase": "nudged in a certain direction",
+    "sourceOccurrenceIds": [
+      "pdf-2-p020-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-025",
+    "resolvedTargetModuleId": "advanced-native-025"
+  },
+  {
+    "sourceInventoryId": "expr-0454",
+    "sourcePhrase": "switch off from work",
+    "sourceOccurrenceIds": [
+      "pdf-2-p022-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-375",
+    "resolvedTargetModuleId": "advanced-native-375"
+  },
+  {
+    "sourceInventoryId": "expr-0456",
+    "sourcePhrase": "clear their head",
+    "sourceOccurrenceIds": [
+      "pdf-2-p023-t1-r02",
+      "pdf-2-p047-t1-r04",
+      "pdf-2-p076-t2-r04",
+      "pdf-2-p178-t1-r02",
+      "pdf-2-p185-t1-r02",
+      "pdf-2-p221-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-380",
+    "resolvedTargetModuleId": "advanced-native-380"
+  },
+  {
+    "sourceInventoryId": "expr-0469",
+    "sourcePhrase": "all the heavy lifting",
+    "sourceOccurrenceIds": [
+      "pdf-2-p024-t1-r07",
+      "pdf-2-p105-t1-r04",
+      "pdf-2-p269-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-252",
+    "resolvedTargetModuleId": "advanced-native-252"
+  },
+  {
+    "sourceInventoryId": "expr-0470",
+    "sourcePhrase": "play an important role",
+    "sourceOccurrenceIds": [
+      "pdf-2-p024-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-112",
+    "resolvedTargetModuleId": "advanced-native-112"
+  },
+  {
+    "sourceInventoryId": "expr-0481",
+    "sourcePhrase": "stand out from the crowd",
+    "sourceOccurrenceIds": [
+      "pdf-2-p026-t1-r02",
+      "pdf-2-p057-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-080",
+    "resolvedTargetModuleId": "advanced-native-080"
+  },
+  {
+    "sourceInventoryId": "expr-0493",
+    "sourcePhrase": "make all the difference",
+    "sourceOccurrenceIds": [
+      "pdf-2-p027-t1-r02",
+      "pdf-2-p144-t1-r05",
+      "pdf-2-p164-t1-r02",
+      "pdf-2-p210-t2-r05",
+      "pdf-2-p239-t1-r12"
+    ],
+    "directTargetModuleId": "advanced-native-361",
+    "resolvedTargetModuleId": "advanced-native-361"
+  },
+  {
+    "sourceInventoryId": "expr-0500",
+    "sourcePhrase": "being thrown in at the deep end",
+    "sourceOccurrenceIds": [
+      "pdf-2-p027-t2-r07",
+      "pdf-2-p065-t2-r04",
+      "pdf-2-p129-t1-r04",
+      "pdf-2-p232-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-004",
+    "resolvedTargetModuleId": "advanced-native-004"
+  },
+  {
+    "sourceInventoryId": "expr-0503",
+    "sourcePhrase": "raise the bar",
+    "sourceOccurrenceIds": [
+      "pdf-2-p027-t2-r10",
+      "pdf-2-p256-t1-r09"
+    ],
+    "directTargetModuleId": "advanced-native-502",
+    "resolvedTargetModuleId": "advanced-native-502"
+  },
+  {
+    "sourceInventoryId": "expr-0505",
+    "sourcePhrase": "see the bigger picture",
+    "sourceOccurrenceIds": [
+      "pdf-2-p028-t2-r02",
+      "pdf-2-p086-t2-r07",
+      "pdf-2-p183-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-218",
+    "resolvedTargetModuleId": "advanced-native-218"
+  },
+  {
+    "sourceInventoryId": "expr-0512",
+    "sourcePhrase": "bring out the best",
+    "sourceOccurrenceIds": [
+      "pdf-2-p029-t1-r03",
+      "pdf-2-p119-t2-r06",
+      "pdf-2-p257-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-019",
+    "resolvedTargetModuleId": "advanced-native-019"
+  },
+  {
+    "sourceInventoryId": "expr-0528",
+    "sourcePhrase": "play a key role",
+    "sourceOccurrenceIds": [
+      "pdf-2-p031-t1-r05",
+      "pdf-2-p098-t2-r09"
+    ],
+    "directTargetModuleId": "advanced-native-112",
+    "resolvedTargetModuleId": "advanced-native-112"
+  },
+  {
+    "sourceInventoryId": "expr-0544",
+    "sourcePhrase": "call the shots",
+    "sourceOccurrenceIds": [
+      "pdf-2-p033-t1-r07"
+    ],
+    "directTargetModuleId": "advanced-native-1441",
+    "resolvedTargetModuleId": "advanced-native-1441"
+  },
+  {
+    "sourceInventoryId": "expr-0545",
+    "sourcePhrase": "not a walk in the park",
+    "sourceOccurrenceIds": [
+      "pdf-2-p033-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-374",
+    "resolvedTargetModuleId": "advanced-native-374"
+  },
+  {
+    "sourceInventoryId": "expr-0557",
+    "sourcePhrase": "stand on their own two feet",
+    "sourceOccurrenceIds": [
+      "pdf-2-p035-t2-r03",
+      "pdf-2-p232-t2-r08",
+      "pdf-2-p261-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-419",
+    "resolvedTargetModuleId": "advanced-native-419"
+  },
+  {
+    "sourceInventoryId": "expr-0580",
+    "sourcePhrase": "open the door to",
+    "sourceOccurrenceIds": [
+      "pdf-2-p038-t1-r06",
+      "pdf-2-p118-t2-r07",
+      "pdf-2-p136-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-028",
+    "resolvedTargetModuleId": "advanced-native-028"
+  },
+  {
+    "sourceInventoryId": "expr-0582",
+    "sourcePhrase": "broaden their horizons",
+    "sourceOccurrenceIds": [
+      "pdf-2-p038-t1-r08",
+      "pdf-2-p065-t2-r08"
+    ],
+    "directTargetModuleId": "advanced-native-554",
+    "resolvedTargetModuleId": "advanced-native-554"
+  },
+  {
+    "sourceInventoryId": "expr-0598",
+    "sourcePhrase": "play their part",
+    "sourceOccurrenceIds": [
+      "pdf-2-p041-t1-r08",
+      "pdf-2-p144-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-112",
+    "resolvedTargetModuleId": "advanced-native-112"
+  },
+  {
+    "sourceInventoryId": "expr-0613",
+    "sourcePhrase": "build up",
+    "sourceOccurrenceIds": [
+      "pdf-2-p043-t2-r03",
+      "pdf-2-p080-t2-r03",
+      "pdf-2-p110-t2-r03",
+      "pdf-2-p114-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1415",
+    "resolvedTargetModuleId": "advanced-native-1415"
+  },
+  {
+    "sourceInventoryId": "expr-0625",
+    "sourcePhrase": "a forest of concrete",
+    "sourceOccurrenceIds": [
+      "pdf-2-p045-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-616",
+    "resolvedTargetModuleId": "advanced-native-616"
+  },
+  {
+    "sourceInventoryId": "expr-0661",
+    "sourcePhrase": "tell the whole story",
+    "sourceOccurrenceIds": [
+      "pdf-2-p050-t2-r05",
+      "pdf-2-p062-t1-r03",
+      "pdf-2-p159-t1-r06",
+      "pdf-2-p200-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-032",
+    "resolvedTargetModuleId": "advanced-native-032"
+  },
+  {
+    "sourceInventoryId": "expr-0663",
+    "sourcePhrase": "social shorthand",
+    "sourceOccurrenceIds": [
+      "pdf-2-p050-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-726",
+    "resolvedTargetModuleId": "advanced-native-726"
+  },
+  {
+    "sourceInventoryId": "expr-0671",
+    "sourcePhrase": "woven into the cultural fabric",
+    "sourceOccurrenceIds": [
+      "pdf-2-p051-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-271",
+    "resolvedTargetModuleId": "advanced-native-271"
+  },
+  {
+    "sourceInventoryId": "expr-0684",
+    "sourcePhrase": "take one thing off their plate",
+    "sourceOccurrenceIds": [
+      "pdf-2-p054-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1012",
+    "resolvedTargetModuleId": "advanced-native-1012"
+  },
+  {
+    "sourceInventoryId": "expr-0694",
+    "sourcePhrase": "a uniform speaks before the person does",
+    "sourceOccurrenceIds": [
+      "pdf-2-p055-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-667",
+    "resolvedTargetModuleId": "advanced-native-667"
+  },
+  {
+    "sourceInventoryId": "expr-0728",
+    "sourcePhrase": "blessing in disguise",
+    "sourceOccurrenceIds": [
+      "pdf-2-p059-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-106",
+    "resolvedTargetModuleId": "advanced-native-106"
+  },
+  {
+    "sourceInventoryId": "expr-0733",
+    "sourcePhrase": "rub people up the wrong way",
+    "sourceOccurrenceIds": [
+      "pdf-2-p060-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-134",
+    "resolvedTargetModuleId": "advanced-native-134"
+  },
+  {
+    "sourceInventoryId": "expr-0741",
+    "sourcePhrase": "a kind of personal language",
+    "sourceOccurrenceIds": [
+      "pdf-2-p061-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-706",
+    "resolvedTargetModuleId": "advanced-native-706"
+  },
+  {
+    "sourceInventoryId": "expr-0746",
+    "sourcePhrase": "a badge of identity",
+    "sourceOccurrenceIds": [
+      "pdf-2-p062-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-732",
+    "resolvedTargetModuleId": "advanced-native-732"
+  },
+  {
+    "sourceInventoryId": "expr-0769",
+    "sourcePhrase": "stepping stones",
+    "sourceOccurrenceIds": [
+      "pdf-2-p066-t1-r05",
+      "pdf-2-p085-t2-r10"
+    ],
+    "directTargetModuleId": "advanced-native-009",
+    "resolvedTargetModuleId": "advanced-native-009"
+  },
+  {
+    "sourceInventoryId": "expr-0784",
+    "sourcePhrase": "carries a lot of weight",
+    "sourceOccurrenceIds": [
+      "pdf-2-p068-t1-r05",
+      "pdf-2-p235-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-767",
+    "resolvedTargetModuleId": "advanced-native-767"
+  },
+  {
+    "sourceInventoryId": "expr-0790",
+    "sourcePhrase": "a wider horizon",
+    "sourceOccurrenceIds": [
+      "pdf-2-p069-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-554",
+    "resolvedTargetModuleId": "advanced-native-554"
+  },
+  {
+    "sourceInventoryId": "expr-0794",
+    "sourcePhrase": "leave a bad taste in the mouth",
+    "sourceOccurrenceIds": [
+      "pdf-2-p069-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-158",
+    "resolvedTargetModuleId": "advanced-native-158"
+  },
+  {
+    "sourceInventoryId": "expr-0811",
+    "sourcePhrase": "drop the ball",
+    "sourceOccurrenceIds": [
+      "pdf-2-p071-t2-r08"
+    ],
+    "directTargetModuleId": "advanced-native-079",
+    "resolvedTargetModuleId": "advanced-native-079"
+  },
+  {
+    "sourceInventoryId": "expr-0821",
+    "sourcePhrase": "a heavy weight off people's shoulders",
+    "sourceOccurrenceIds": [
+      "pdf-2-p073-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-801",
+    "resolvedTargetModuleId": "advanced-native-801"
+  },
+  {
+    "sourceInventoryId": "expr-0823",
+    "sourcePhrase": "looks good on paper",
+    "sourceOccurrenceIds": [
+      "pdf-2-p074-t1-r04",
+      "pdf-2-p113-t2-r05",
+      "pdf-2-p231-t2-r06",
+      "pdf-2-p259-t1-r12"
+    ],
+    "directTargetModuleId": "advanced-native-567",
+    "resolvedTargetModuleId": "advanced-native-567"
+  },
+  {
+    "sourceInventoryId": "expr-0824",
+    "sourcePhrase": "not the whole story",
+    "sourceOccurrenceIds": [
+      "pdf-2-p074-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-032",
+    "resolvedTargetModuleId": "advanced-native-032"
+  },
+  {
+    "sourceInventoryId": "expr-0853",
+    "sourcePhrase": "make a mountain out of a molehill",
+    "sourceOccurrenceIds": [
+      "pdf-2-p077-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-239",
+    "resolvedTargetModuleId": "advanced-native-239"
+  },
+  {
+    "sourceInventoryId": "expr-0898",
+    "sourcePhrase": "go round in circles",
+    "sourceOccurrenceIds": [
+      "pdf-2-p084-t2-r04",
+      "pdf-2-p266-t1-r09"
+    ],
+    "directTargetModuleId": "advanced-native-058",
+    "resolvedTargetModuleId": "advanced-native-058"
+  },
+  {
+    "sourceInventoryId": "expr-0903",
+    "sourcePhrase": "carry some weight",
+    "sourceOccurrenceIds": [
+      "pdf-2-p085-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-767",
+    "resolvedTargetModuleId": "advanced-native-767"
+  },
+  {
+    "sourceInventoryId": "expr-0906",
+    "sourcePhrase": "carry real weight",
+    "sourceOccurrenceIds": [
+      "pdf-2-p085-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-767",
+    "resolvedTargetModuleId": "advanced-native-767"
+  },
+  {
+    "sourceInventoryId": "expr-0920",
+    "sourcePhrase": "lose sight of",
+    "sourceOccurrenceIds": [
+      "pdf-2-p087-t2-r04",
+      "pdf-2-p120-t1-r06",
+      "pdf-2-p208-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-078",
+    "resolvedTargetModuleId": "advanced-native-078"
+  },
+  {
+    "sourceInventoryId": "expr-0936",
+    "sourcePhrase": "go a long way",
+    "sourceOccurrenceIds": [
+      "pdf-2-p089-t1-r10",
+      "pdf-2-p122-t1-r08",
+      "pdf-2-p153-t1-r02",
+      "pdf-2-p161-t1-r07",
+      "pdf-2-p190-t2-r06",
+      "pdf-2-p192-t1-r04",
+      "pdf-2-p195-t1-r02",
+      "pdf-2-p211-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-359",
+    "resolvedTargetModuleId": "advanced-native-359"
+  },
+  {
+    "sourceInventoryId": "expr-0945",
+    "sourcePhrase": "the picture is broader",
+    "sourceOccurrenceIds": [
+      "pdf-2-p090-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-295",
+    "resolvedTargetModuleId": "advanced-native-295"
+  },
+  {
+    "sourceInventoryId": "expr-0946",
+    "sourcePhrase": "the heart of it",
+    "sourceOccurrenceIds": [
+      "pdf-2-p090-t1-r09",
+      "pdf-2-p173-t2-r02",
+      "pdf-2-p221-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-826",
+    "resolvedTargetModuleId": "advanced-native-826"
+  },
+  {
+    "sourceInventoryId": "expr-0998",
+    "sourcePhrase": "a head start",
+    "sourceOccurrenceIds": [
+      "pdf-2-p097-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-832",
+    "resolvedTargetModuleId": "advanced-native-832"
+  },
+  {
+    "sourceInventoryId": "expr-1005",
+    "sourcePhrase": "bring learning to life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p098-t2-r08"
+    ],
+    "directTargetModuleId": "advanced-native-327",
+    "resolvedTargetModuleId": "advanced-native-327"
+  },
+  {
+    "sourceInventoryId": "expr-1007",
+    "sourcePhrase": "carving out a bigger space",
+    "sourceOccurrenceIds": [
+      "pdf-2-p099-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-480",
+    "resolvedTargetModuleId": "advanced-native-480"
+  },
+  {
+    "sourceInventoryId": "expr-1016",
+    "sourcePhrase": "looking after",
+    "sourceOccurrenceIds": [
+      "pdf-2-p100-t1-r07",
+      "pdf-2-p148-t2-r02",
+      "pdf-2-p149-t1-r07",
+      "pdf-2-p202-t2-r05",
+      "pdf-2-p267-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-935",
+    "resolvedTargetModuleId": "advanced-native-935"
+  },
+  {
+    "sourceInventoryId": "expr-1018",
+    "sourcePhrase": "slip into daily life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p100-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-280",
+    "resolvedTargetModuleId": "advanced-native-280"
+  },
+  {
+    "sourceInventoryId": "expr-1029",
+    "sourcePhrase": "slipped through their fingers",
+    "sourceOccurrenceIds": [
+      "pdf-2-p102-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-879",
+    "resolvedTargetModuleId": "advanced-native-879"
+  },
+  {
+    "sourceInventoryId": "expr-1035",
+    "sourcePhrase": "at the heart of",
+    "sourceOccurrenceIds": [
+      "pdf-2-p103-t2-r02",
+      "pdf-2-p242-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-826",
+    "resolvedTargetModuleId": "advanced-native-826"
+  },
+  {
+    "sourceInventoryId": "expr-1064",
+    "sourcePhrase": "open a window onto",
+    "sourceOccurrenceIds": [
+      "pdf-2-p107-t2-r04",
+      "pdf-2-p186-t1-r02",
+      "pdf-2-p219-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-305",
+    "resolvedTargetModuleId": "advanced-native-305"
+  },
+  {
+    "sourceInventoryId": "expr-1068",
+    "sourcePhrase": "plant the seed of",
+    "sourceOccurrenceIds": [
+      "pdf-2-p108-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-022",
+    "resolvedTargetModuleId": "advanced-native-022"
+  },
+  {
+    "sourceInventoryId": "expr-1074",
+    "sourcePhrase": "left behind",
+    "sourceOccurrenceIds": [
+      "pdf-2-p108-t2-r06",
+      "pdf-2-p114-t1-r06",
+      "pdf-2-p263-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-045",
+    "resolvedTargetModuleId": "advanced-native-045"
+  },
+  {
+    "sourceInventoryId": "expr-1085",
+    "sourcePhrase": "creep into everyday life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p110-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-588",
+    "resolvedTargetModuleId": "advanced-native-588"
+  },
+  {
+    "sourceInventoryId": "expr-1086",
+    "sourcePhrase": "out of thin air",
+    "sourceOccurrenceIds": [
+      "pdf-2-p110-t3-r02"
+    ],
+    "directTargetModuleId": "advanced-native-342",
+    "resolvedTargetModuleId": "advanced-native-342"
+  },
+  {
+    "sourceInventoryId": "expr-1093",
+    "sourcePhrase": "the tide could turn",
+    "sourceOccurrenceIds": [
+      "pdf-2-p111-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-963",
+    "resolvedTargetModuleId": "advanced-native-963"
+  },
+  {
+    "sourceInventoryId": "expr-1107",
+    "sourcePhrase": "the lungs of a city",
+    "sourceOccurrenceIds": [
+      "pdf-2-p114-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-595",
+    "resolvedTargetModuleId": "advanced-native-595"
+  },
+  {
+    "sourceInventoryId": "expr-1108",
+    "sourcePhrase": "shoot through the roof",
+    "sourceOccurrenceIds": [
+      "pdf-2-p114-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-033",
+    "resolvedTargetModuleId": "advanced-native-033"
+  },
+  {
+    "sourceInventoryId": "expr-1110",
+    "sourcePhrase": "adds up over time",
+    "sourceOccurrenceIds": [
+      "pdf-2-p114-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-200",
+    "resolvedTargetModuleId": "advanced-native-200"
+  },
+  {
+    "sourceInventoryId": "expr-1130",
+    "sourcePhrase": "tie their self-worth to results",
+    "sourceOccurrenceIds": [
+      "pdf-2-p117-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-817",
+    "resolvedTargetModuleId": "advanced-native-817"
+  },
+  {
+    "sourceInventoryId": "expr-1134",
+    "sourcePhrase": "light a fire under them",
+    "sourceOccurrenceIds": [
+      "pdf-2-p118-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1129",
+    "resolvedTargetModuleId": "advanced-native-1129"
+  },
+  {
+    "sourceInventoryId": "expr-1141",
+    "sourcePhrase": "wear them down",
+    "sourceOccurrenceIds": [
+      "pdf-2-p120-t1-r05",
+      "pdf-2-p158-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-569",
+    "resolvedTargetModuleId": "advanced-native-569"
+  },
+  {
+    "sourceInventoryId": "expr-1146",
+    "sourcePhrase": "money can slip through your fingers",
+    "sourceOccurrenceIds": [
+      "pdf-2-p121-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-879",
+    "resolvedTargetModuleId": "advanced-native-879"
+  },
+  {
+    "sourceInventoryId": "expr-1147",
+    "sourcePhrase": "piling up",
+    "sourceOccurrenceIds": [
+      "pdf-2-p121-t2-r04",
+      "pdf-2-p210-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1078",
+    "resolvedTargetModuleId": "advanced-native-1078"
+  },
+  {
+    "sourceInventoryId": "expr-1150",
+    "sourcePhrase": "chipped away",
+    "sourceOccurrenceIds": [
+      "pdf-2-p122-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-178",
+    "resolvedTargetModuleId": "advanced-native-178"
+  },
+  {
+    "sourceInventoryId": "expr-1158",
+    "sourcePhrase": "steering a ship",
+    "sourceOccurrenceIds": [
+      "pdf-2-p123-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-508",
+    "resolvedTargetModuleId": "advanced-native-508"
+  },
+  {
+    "sourceInventoryId": "expr-1166",
+    "sourcePhrase": "stay grounded",
+    "sourceOccurrenceIds": [
+      "pdf-2-p124-t1-r12"
+    ],
+    "directTargetModuleId": "advanced-native-798",
+    "resolvedTargetModuleId": "advanced-native-798"
+  },
+  {
+    "sourceInventoryId": "expr-1172",
+    "sourcePhrase": "fade away",
+    "sourceOccurrenceIds": [
+      "pdf-2-p125-t2-r06",
+      "pdf-2-p160-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-674",
+    "resolvedTargetModuleId": "advanced-native-674"
+  },
+  {
+    "sourceInventoryId": "expr-1188",
+    "sourcePhrase": "hidden heart of an event",
+    "sourceOccurrenceIds": [
+      "pdf-2-p127-t1-r13"
+    ],
+    "directTargetModuleId": "advanced-native-826",
+    "resolvedTargetModuleId": "advanced-native-826"
+  },
+  {
+    "sourceInventoryId": "expr-1191",
+    "sourcePhrase": "looked more secure on paper",
+    "sourceOccurrenceIds": [
+      "pdf-2-p128-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-567",
+    "resolvedTargetModuleId": "advanced-native-567"
+  },
+  {
+    "sourceInventoryId": "expr-1198",
+    "sourcePhrase": "out of my comfort zone",
+    "sourceOccurrenceIds": [
+      "pdf-2-p129-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-551",
+    "resolvedTargetModuleId": "advanced-native-551"
+  },
+  {
+    "sourceInventoryId": "expr-1209",
+    "sourcePhrase": "not a black-and-white issue",
+    "sourceOccurrenceIds": [
+      "pdf-2-p130-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-309",
+    "resolvedTargetModuleId": "advanced-native-309"
+  },
+  {
+    "sourceInventoryId": "expr-1211",
+    "sourcePhrase": "spark ideas",
+    "sourceOccurrenceIds": [
+      "pdf-2-p130-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-1066",
+    "resolvedTargetModuleId": "advanced-native-1066"
+  },
+  {
+    "sourceInventoryId": "expr-1213",
+    "sourcePhrase": "line becomes blurry",
+    "sourceOccurrenceIds": [
+      "pdf-2-p131-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-709",
+    "resolvedTargetModuleId": "advanced-native-709"
+  },
+  {
+    "sourceInventoryId": "expr-1230",
+    "sourcePhrase": "bigger buzz",
+    "sourceOccurrenceIds": [
+      "pdf-2-p133-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-627",
+    "resolvedTargetModuleId": "advanced-native-627"
+  },
+  {
+    "sourceInventoryId": "expr-1235",
+    "sourcePhrase": "take on",
+    "sourceOccurrenceIds": [
+      "pdf-2-p134-t1-r08",
+      "pdf-2-p136-t1-r09",
+      "pdf-2-p145-t1-r13",
+      "pdf-2-p147-t1-r04",
+      "pdf-2-p233-t2-r07",
+      "pdf-2-p269-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-558",
+    "resolvedTargetModuleId": "advanced-native-558"
+  },
+  {
+    "sourceInventoryId": "expr-1248",
+    "sourcePhrase": "miss out on",
+    "sourceOccurrenceIds": [
+      "pdf-2-p136-t1-r05",
+      "pdf-2-p170-t1-r04",
+      "pdf-2-p229-t1-r03",
+      "pdf-2-p269-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1023",
+    "resolvedTargetModuleId": "advanced-native-1023"
+  },
+  {
+    "sourceInventoryId": "expr-1254",
+    "sourcePhrase": "holding other people back",
+    "sourceOccurrenceIds": [
+      "pdf-2-p137-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-1003",
+    "resolvedTargetModuleId": "advanced-native-1003"
+  },
+  {
+    "sourceInventoryId": "expr-1255",
+    "sourcePhrase": "self-consciousness creeps in",
+    "sourceOccurrenceIds": [
+      "pdf-2-p137-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-588",
+    "resolvedTargetModuleId": "advanced-native-588"
+  },
+  {
+    "sourceInventoryId": "expr-1260",
+    "sourcePhrase": "pick something up",
+    "sourceOccurrenceIds": [
+      "pdf-2-p137-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-441",
+    "resolvedTargetModuleId": "advanced-native-441"
+  },
+  {
+    "sourceInventoryId": "expr-1273",
+    "sourcePhrase": "at the last minute",
+    "sourceOccurrenceIds": [
+      "pdf-2-p139-t2-r06",
+      "pdf-2-p221-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-1821",
+    "resolvedTargetModuleId": "advanced-native-1821"
+  },
+  {
+    "sourceInventoryId": "expr-1277",
+    "sourcePhrase": "lean on",
+    "sourceOccurrenceIds": [
+      "pdf-2-p140-t1-r06",
+      "pdf-2-p143-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-1210",
+    "resolvedTargetModuleId": "advanced-native-1210"
+  },
+  {
+    "sourceInventoryId": "expr-1280",
+    "sourcePhrase": "get through",
+    "sourceOccurrenceIds": [
+      "pdf-2-p140-t1-r09",
+      "pdf-2-p151-t1-r05",
+      "pdf-2-p211-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-007",
+    "resolvedTargetModuleId": "advanced-native-007"
+  },
+  {
+    "sourceInventoryId": "expr-1285",
+    "sourcePhrase": "does most of the heavy lifting",
+    "sourceOccurrenceIds": [
+      "pdf-2-p141-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-252",
+    "resolvedTargetModuleId": "advanced-native-252"
+  },
+  {
+    "sourceInventoryId": "expr-1286",
+    "sourcePhrase": "carry more weight",
+    "sourceOccurrenceIds": [
+      "pdf-2-p141-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-767",
+    "resolvedTargetModuleId": "advanced-native-767"
+  },
+  {
+    "sourceInventoryId": "expr-1288",
+    "sourcePhrase": "pours money into",
+    "sourceOccurrenceIds": [
+      "pdf-2-p141-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-1103",
+    "resolvedTargetModuleId": "advanced-native-1103"
+  },
+  {
+    "sourceInventoryId": "expr-1289",
+    "sourcePhrase": "calls for it",
+    "sourceOccurrenceIds": [
+      "pdf-2-p141-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-670",
+    "resolvedTargetModuleId": "advanced-native-670"
+  },
+  {
+    "sourceInventoryId": "expr-1292",
+    "sourcePhrase": "soak up the atmosphere",
+    "sourceOccurrenceIds": [
+      "pdf-2-p142-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-630",
+    "resolvedTargetModuleId": "advanced-native-630"
+  },
+  {
+    "sourceInventoryId": "expr-1295",
+    "sourcePhrase": "keeping family ties warm",
+    "sourceOccurrenceIds": [
+      "pdf-2-p142-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-1523",
+    "resolvedTargetModuleId": "advanced-native-1523"
+  },
+  {
+    "sourceInventoryId": "expr-1297",
+    "sourcePhrase": "the backbone of everyday life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p142-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1505",
+    "resolvedTargetModuleId": "advanced-native-1505"
+  },
+  {
+    "sourceInventoryId": "expr-1302",
+    "sourcePhrase": "turn back to family",
+    "sourceOccurrenceIds": [
+      "pdf-2-p143-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-676",
+    "resolvedTargetModuleId": "advanced-native-676"
+  },
+  {
+    "sourceInventoryId": "expr-1317",
+    "sourcePhrase": "out of step with modern life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p146-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-617",
+    "resolvedTargetModuleId": "advanced-native-617"
+  },
+  {
+    "sourceInventoryId": "expr-1319",
+    "sourcePhrase": "give-and-take",
+    "sourceOccurrenceIds": [
+      "pdf-2-p146-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-937",
+    "resolvedTargetModuleId": "advanced-native-937"
+  },
+  {
+    "sourceInventoryId": "expr-1321",
+    "sourcePhrase": "grows out of choice and practicality",
+    "sourceOccurrenceIds": [
+      "pdf-2-p147-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-957",
+    "resolvedTargetModuleId": "advanced-native-957"
+  },
+  {
+    "sourceInventoryId": "expr-1322",
+    "sourcePhrase": "a tug of war",
+    "sourceOccurrenceIds": [
+      "pdf-2-p147-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-1453",
+    "resolvedTargetModuleId": "advanced-native-1453"
+  },
+  {
+    "sourceInventoryId": "expr-1323",
+    "sourcePhrase": "carrying the whole world on their shoulders",
+    "sourceOccurrenceIds": [
+      "pdf-2-p147-t1-r07",
+      "pdf-2-p209-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-059",
+    "resolvedTargetModuleId": "advanced-native-059"
+  },
+  {
+    "sourceInventoryId": "expr-1329",
+    "sourcePhrase": "hold onto traditions",
+    "sourceOccurrenceIds": [
+      "pdf-2-p148-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-1474",
+    "resolvedTargetModuleId": "advanced-native-1474"
+  },
+  {
+    "sourceInventoryId": "expr-1337",
+    "sourcePhrase": "taking over everything",
+    "sourceOccurrenceIds": [
+      "pdf-2-p149-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-395",
+    "resolvedTargetModuleId": "advanced-native-395"
+  },
+  {
+    "sourceInventoryId": "expr-1339",
+    "sourcePhrase": "an anchor",
+    "sourceOccurrenceIds": [
+      "pdf-2-p150-t1-r04",
+      "pdf-2-p175-t2-r06",
+      "pdf-2-p230-t2-r04",
+      "pdf-2-p264-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-186",
+    "resolvedTargetModuleId": "advanced-native-186"
+  },
+  {
+    "sourceInventoryId": "expr-1341",
+    "sourcePhrase": "emotionally grounded",
+    "sourceOccurrenceIds": [
+      "pdf-2-p150-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-798",
+    "resolvedTargetModuleId": "advanced-native-798"
+  },
+  {
+    "sourceInventoryId": "expr-1346",
+    "sourcePhrase": "take some weight off elderly people's shoulders",
+    "sourceOccurrenceIds": [
+      "pdf-2-p151-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-801",
+    "resolvedTargetModuleId": "advanced-native-801"
+  },
+  {
+    "sourceInventoryId": "expr-1351",
+    "sourcePhrase": "stay in touch with",
+    "sourceOccurrenceIds": [
+      "pdf-2-p151-t1-r10",
+      "pdf-2-p251-t2-r05",
+      "pdf-2-p254-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1033",
+    "resolvedTargetModuleId": "advanced-native-1033"
+  },
+  {
+    "sourceInventoryId": "expr-1352",
+    "sourcePhrase": "quiet safety net",
+    "sourceOccurrenceIds": [
+      "pdf-2-p151-t1-r13"
+    ],
+    "directTargetModuleId": "advanced-native-227",
+    "resolvedTargetModuleId": "advanced-native-227"
+  },
+  {
+    "sourceInventoryId": "expr-1354",
+    "sourcePhrase": "woven into ordinary daily life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p152-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1503",
+    "resolvedTargetModuleId": "advanced-native-1503"
+  },
+  {
+    "sourceInventoryId": "expr-1360",
+    "sourcePhrase": "defeats the purpose",
+    "sourceOccurrenceIds": [
+      "pdf-2-p153-t1-r09"
+    ],
+    "directTargetModuleId": "advanced-native-348",
+    "resolvedTargetModuleId": "advanced-native-348"
+  },
+  {
+    "sourceInventoryId": "expr-1380",
+    "sourcePhrase": "think on their feet",
+    "sourceOccurrenceIds": [
+      "pdf-2-p156-t2-r08",
+      "pdf-2-p226-t1-r09",
+      "pdf-2-p263-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1378",
+    "resolvedTargetModuleId": "advanced-native-1378"
+  },
+  {
+    "sourceInventoryId": "expr-1384",
+    "sourcePhrase": "emotions and attitudes are often surprisingly contagious",
+    "sourceOccurrenceIds": [
+      "pdf-2-p157-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-628",
+    "resolvedTargetModuleId": "advanced-native-628"
+  },
+  {
+    "sourceInventoryId": "expr-1390",
+    "sourcePhrase": "ripple outward",
+    "sourceOccurrenceIds": [
+      "pdf-2-p157-t2-r10"
+    ],
+    "directTargetModuleId": "advanced-native-772",
+    "resolvedTargetModuleId": "advanced-native-772"
+  },
+  {
+    "sourceInventoryId": "expr-1391",
+    "sourcePhrase": "see through it in a heartbeat",
+    "sourceOccurrenceIds": [
+      "pdf-2-p158-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-157",
+    "resolvedTargetModuleId": "advanced-native-157"
+  },
+  {
+    "sourceInventoryId": "expr-1399",
+    "sourcePhrase": "take for granted",
+    "sourceOccurrenceIds": [
+      "pdf-2-p159-t1-r03",
+      "pdf-2-p203-t1-r12",
+      "pdf-2-p208-t1-r09"
+    ],
+    "directTargetModuleId": "advanced-native-1398",
+    "resolvedTargetModuleId": "advanced-native-1398"
+  },
+  {
+    "sourceInventoryId": "expr-1411",
+    "sourcePhrase": "sweeping them under the carpet",
+    "sourceOccurrenceIds": [
+      "pdf-2-p160-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-812",
+    "resolvedTargetModuleId": "advanced-native-812"
+  },
+  {
+    "sourceInventoryId": "expr-1426",
+    "sourcePhrase": "shape how people feel",
+    "sourceOccurrenceIds": [
+      "pdf-2-p163-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-020",
+    "resolvedTargetModuleId": "advanced-native-020"
+  },
+  {
+    "sourceInventoryId": "expr-1428",
+    "sourcePhrase": "in a vacuum",
+    "sourceOccurrenceIds": [
+      "pdf-2-p163-t2-r02",
+      "pdf-2-p265-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1401",
+    "resolvedTargetModuleId": "advanced-native-1401"
+  },
+  {
+    "sourceInventoryId": "expr-1484",
+    "sourcePhrase": "grow into it",
+    "sourceOccurrenceIds": [
+      "pdf-2-p170-t1-r10",
+      "pdf-2-p248-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1435",
+    "resolvedTargetModuleId": "advanced-native-1435"
+  },
+  {
+    "sourceInventoryId": "expr-1520",
+    "sourcePhrase": "pulled in different directions",
+    "sourceOccurrenceIds": [
+      "pdf-2-p175-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-841",
+    "resolvedTargetModuleId": "advanced-native-841"
+  },
+  {
+    "sourceInventoryId": "expr-1534",
+    "sourcePhrase": "cut off from the world",
+    "sourceOccurrenceIds": [
+      "pdf-2-p177-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1347",
+    "resolvedTargetModuleId": "advanced-native-1347"
+  },
+  {
+    "sourceInventoryId": "expr-1542",
+    "sourcePhrase": "a change of scenery is half the battle",
+    "sourceOccurrenceIds": [
+      "pdf-2-p178-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-720",
+    "resolvedTargetModuleId": "advanced-native-720"
+  },
+  {
+    "sourceInventoryId": "expr-1551",
+    "sourcePhrase": "not their cup of tea",
+    "sourceOccurrenceIds": [
+      "pdf-2-p180-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-274",
+    "resolvedTargetModuleId": "advanced-native-274"
+  },
+  {
+    "sourceInventoryId": "expr-1560",
+    "sourcePhrase": "leave their mark on",
+    "sourceOccurrenceIds": [
+      "pdf-2-p181-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-283",
+    "resolvedTargetModuleId": "advanced-native-283"
+  },
+  {
+    "sourceInventoryId": "expr-1579",
+    "sourcePhrase": "talk it through",
+    "sourceOccurrenceIds": [
+      "pdf-2-p184-t1-r07"
+    ],
+    "directTargetModuleId": "advanced-native-095",
+    "resolvedTargetModuleId": "advanced-native-095"
+  },
+  {
+    "sourceInventoryId": "expr-1582",
+    "sourcePhrase": "take a weight off your shoulders",
+    "sourceOccurrenceIds": [
+      "pdf-2-p184-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-801",
+    "resolvedTargetModuleId": "advanced-native-801"
+  },
+  {
+    "sourceInventoryId": "expr-1591",
+    "sourcePhrase": "chip away at stereotypes",
+    "sourceOccurrenceIds": [
+      "pdf-2-p186-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-178",
+    "resolvedTargetModuleId": "advanced-native-178"
+  },
+  {
+    "sourceInventoryId": "expr-1608",
+    "sourcePhrase": "steering the ship",
+    "sourceOccurrenceIds": [
+      "pdf-2-p188-t1-r07"
+    ],
+    "directTargetModuleId": "advanced-native-508",
+    "resolvedTargetModuleId": "advanced-native-508"
+  },
+  {
+    "sourceInventoryId": "expr-1632",
+    "sourcePhrase": "wear the body down",
+    "sourceOccurrenceIds": [
+      "pdf-2-p192-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-569",
+    "resolvedTargetModuleId": "advanced-native-569"
+  },
+  {
+    "sourceInventoryId": "expr-1637",
+    "sourcePhrase": "throws a curveball",
+    "sourceOccurrenceIds": [
+      "pdf-2-p193-t1-r07"
+    ],
+    "directTargetModuleId": "advanced-native-1162",
+    "resolvedTargetModuleId": "advanced-native-1162"
+  },
+  {
+    "sourceInventoryId": "expr-1643",
+    "sourcePhrase": "a human touch",
+    "sourceOccurrenceIds": [
+      "pdf-2-p194-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-574",
+    "resolvedTargetModuleId": "advanced-native-574"
+  },
+  {
+    "sourceInventoryId": "expr-1662",
+    "sourcePhrase": "turning your life upside down",
+    "sourceOccurrenceIds": [
+      "pdf-2-p197-t1-r09"
+    ],
+    "directTargetModuleId": "advanced-native-555",
+    "resolvedTargetModuleId": "advanced-native-555"
+  },
+  {
+    "sourceInventoryId": "expr-1666",
+    "sourcePhrase": "glued to a screen",
+    "sourceOccurrenceIds": [
+      "pdf-2-p198-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-847",
+    "resolvedTargetModuleId": "advanced-native-847"
+  },
+  {
+    "sourceInventoryId": "expr-1675",
+    "sourcePhrase": "the lines are getting a little blurrier",
+    "sourceOccurrenceIds": [
+      "pdf-2-p200-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-709",
+    "resolvedTargetModuleId": "advanced-native-709"
+  },
+  {
+    "sourceInventoryId": "expr-1681",
+    "sourcePhrase": "a box to tick",
+    "sourceOccurrenceIds": [
+      "pdf-2-p201-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1362",
+    "resolvedTargetModuleId": "advanced-native-1362"
+  },
+  {
+    "sourceInventoryId": "expr-1705",
+    "sourcePhrase": "vanished into thin air",
+    "sourceOccurrenceIds": [
+      "pdf-2-p205-t1-r02",
+      "pdf-2-p206-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-355",
+    "resolvedTargetModuleId": "advanced-native-355"
+  },
+  {
+    "sourceInventoryId": "expr-1726",
+    "sourcePhrase": "real kindness should have a backbone",
+    "sourceOccurrenceIds": [
+      "pdf-2-p208-t1-r11"
+    ],
+    "directTargetModuleId": "advanced-native-539",
+    "resolvedTargetModuleId": "advanced-native-539"
+  },
+  {
+    "sourceInventoryId": "expr-1736",
+    "sourcePhrase": "lighten the load",
+    "sourceOccurrenceIds": [
+      "pdf-2-p211-t1-r05",
+      "pdf-2-p256-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-1694",
+    "resolvedTargetModuleId": "advanced-native-1694"
+  },
+  {
+    "sourceInventoryId": "expr-1754",
+    "sourcePhrase": "brought to life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p213-t1-r02",
+      "pdf-2-p217-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-327",
+    "resolvedTargetModuleId": "advanced-native-327"
+  },
+  {
+    "sourceInventoryId": "expr-1769",
+    "sourcePhrase": "bring the past to life",
+    "sourceOccurrenceIds": [
+      "pdf-2-p215-t1-r02",
+      "pdf-2-p215-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-327",
+    "resolvedTargetModuleId": "advanced-native-327"
+  },
+  {
+    "sourceInventoryId": "expr-1772",
+    "sourcePhrase": "the history tends to stick",
+    "sourceOccurrenceIds": [
+      "pdf-2-p215-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-131",
+    "resolvedTargetModuleId": "advanced-native-131"
+  },
+  {
+    "sourceInventoryId": "expr-1774",
+    "sourcePhrase": "pass down",
+    "sourceOccurrenceIds": [
+      "pdf-2-p215-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-1050",
+    "resolvedTargetModuleId": "advanced-native-1050"
+  },
+  {
+    "sourceInventoryId": "expr-1781",
+    "sourcePhrase": "fill in the gaps",
+    "sourceOccurrenceIds": [
+      "pdf-2-p216-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-424",
+    "resolvedTargetModuleId": "advanced-native-424"
+  },
+  {
+    "sourceInventoryId": "expr-1785",
+    "sourcePhrase": "a dusty shelf of dates",
+    "sourceOccurrenceIds": [
+      "pdf-2-p216-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1760",
+    "resolvedTargetModuleId": "advanced-native-1760"
+  },
+  {
+    "sourceInventoryId": "expr-1791",
+    "sourcePhrase": "connect the dots",
+    "sourceOccurrenceIds": [
+      "pdf-2-p217-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1775",
+    "resolvedTargetModuleId": "advanced-native-1775"
+  },
+  {
+    "sourceInventoryId": "expr-1793",
+    "sourcePhrase": "black-and-white stories",
+    "sourceOccurrenceIds": [
+      "pdf-2-p218-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-309",
+    "resolvedTargetModuleId": "advanced-native-309"
+  },
+  {
+    "sourceInventoryId": "expr-1794",
+    "sourcePhrase": "digging deeper",
+    "sourceOccurrenceIds": [
+      "pdf-2-p218-t1-r07"
+    ],
+    "directTargetModuleId": "advanced-native-403",
+    "resolvedTargetModuleId": "advanced-native-403"
+  },
+  {
+    "sourceInventoryId": "expr-1798",
+    "sourcePhrase": "running on a treadmill",
+    "sourceOccurrenceIds": [
+      "pdf-2-p219-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-638",
+    "resolvedTargetModuleId": "advanced-native-638"
+  },
+  {
+    "sourceInventoryId": "expr-1808",
+    "sourcePhrase": "do wonders",
+    "sourceOccurrenceIds": [
+      "pdf-2-p220-t2-r10"
+    ],
+    "directTargetModuleId": "advanced-native-462",
+    "resolvedTargetModuleId": "advanced-native-462"
+  },
+  {
+    "sourceInventoryId": "expr-1812",
+    "sourcePhrase": "no tug-of-war over plans",
+    "sourceOccurrenceIds": [
+      "pdf-2-p221-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1453",
+    "resolvedTargetModuleId": "advanced-native-1453"
+  },
+  {
+    "sourceInventoryId": "expr-1816",
+    "sourcePhrase": "pressing reset",
+    "sourceOccurrenceIds": [
+      "pdf-2-p222-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1806",
+    "resolvedTargetModuleId": "advanced-native-1806"
+  },
+  {
+    "sourceInventoryId": "expr-1827",
+    "sourcePhrase": "one-size-fits-all package tours",
+    "sourceOccurrenceIds": [
+      "pdf-2-p224-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-548",
+    "resolvedTargetModuleId": "advanced-native-548"
+  },
+  {
+    "sourceInventoryId": "expr-1831",
+    "sourcePhrase": "widening your horizons",
+    "sourceOccurrenceIds": [
+      "pdf-2-p224-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-554",
+    "resolvedTargetModuleId": "advanced-native-554"
+  },
+  {
+    "sourceInventoryId": "expr-1833",
+    "sourcePhrase": "a real reset",
+    "sourceOccurrenceIds": [
+      "pdf-2-p225-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1806",
+    "resolvedTargetModuleId": "advanced-native-1806"
+  },
+  {
+    "sourceInventoryId": "expr-1834",
+    "sourcePhrase": "cross a border to clear your head",
+    "sourceOccurrenceIds": [
+      "pdf-2-p225-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-380",
+    "resolvedTargetModuleId": "advanced-native-380"
+  },
+  {
+    "sourceInventoryId": "expr-1837",
+    "sourcePhrase": "throw people in at the deep end",
+    "sourceOccurrenceIds": [
+      "pdf-2-p225-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-004",
+    "resolvedTargetModuleId": "advanced-native-004"
+  },
+  {
+    "sourceInventoryId": "expr-1838",
+    "sourcePhrase": "communication breaks down",
+    "sourceOccurrenceIds": [
+      "pdf-2-p225-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-501",
+    "resolvedTargetModuleId": "advanced-native-501"
+  },
+  {
+    "sourceInventoryId": "expr-1846",
+    "sourcePhrase": "life pushes them to",
+    "sourceOccurrenceIds": [
+      "pdf-2-p227-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-067",
+    "resolvedTargetModuleId": "advanced-native-067"
+  },
+  {
+    "sourceInventoryId": "expr-1855",
+    "sourcePhrase": "an extension of who you are",
+    "sourceOccurrenceIds": [
+      "pdf-2-p228-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-740",
+    "resolvedTargetModuleId": "advanced-native-740"
+  },
+  {
+    "sourceInventoryId": "expr-1859",
+    "sourcePhrase": "find your feet again",
+    "sourceOccurrenceIds": [
+      "pdf-2-p229-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-063",
+    "resolvedTargetModuleId": "advanced-native-063"
+  },
+  {
+    "sourceInventoryId": "expr-1867",
+    "sourcePhrase": "up in the air",
+    "sourceOccurrenceIds": [
+      "pdf-2-p230-t2-r09"
+    ],
+    "directTargetModuleId": "advanced-native-1170",
+    "resolvedTargetModuleId": "advanced-native-1170"
+  },
+  {
+    "sourceInventoryId": "expr-1879",
+    "sourcePhrase": "a valuable turning point",
+    "sourceOccurrenceIds": [
+      "pdf-2-p232-t2-r10"
+    ],
+    "directTargetModuleId": "advanced-native-1195",
+    "resolvedTargetModuleId": "advanced-native-1195"
+  },
+  {
+    "sourceInventoryId": "expr-1881",
+    "sourcePhrase": "an extension of yourself",
+    "sourceOccurrenceIds": [
+      "pdf-2-p233-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-740",
+    "resolvedTargetModuleId": "advanced-native-740"
+  },
+  {
+    "sourceInventoryId": "expr-1891",
+    "sourcePhrase": "a practical stepping stone",
+    "sourceOccurrenceIds": [
+      "pdf-2-p234-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-009",
+    "resolvedTargetModuleId": "advanced-native-009"
+  },
+  {
+    "sourceInventoryId": "expr-1896",
+    "sourcePhrase": "leave a deep mark",
+    "sourceOccurrenceIds": [
+      "pdf-2-p235-t2-r04"
+    ],
+    "directTargetModuleId": "advanced-native-283",
+    "resolvedTargetModuleId": "advanced-native-283"
+  },
+  {
+    "sourceInventoryId": "expr-1900",
+    "sourcePhrase": "plant the roots",
+    "sourceOccurrenceIds": [
+      "pdf-2-p236-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-117",
+    "resolvedTargetModuleId": "advanced-native-117"
+  },
+  {
+    "sourceInventoryId": "expr-1902",
+    "sourcePhrase": "broaden young people's horizons",
+    "sourceOccurrenceIds": [
+      "pdf-2-p236-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-554",
+    "resolvedTargetModuleId": "advanced-native-554"
+  },
+  {
+    "sourceInventoryId": "expr-1906",
+    "sourcePhrase": "sink in",
+    "sourceOccurrenceIds": [
+      "pdf-2-p236-t2-r05",
+      "pdf-2-p242-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-1731",
+    "resolvedTargetModuleId": "advanced-native-1731"
+  },
+  {
+    "sourceInventoryId": "expr-1908",
+    "sourcePhrase": "the lesson lands",
+    "sourceOccurrenceIds": [
+      "pdf-2-p237-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-135",
+    "resolvedTargetModuleId": "advanced-native-135"
+  },
+  {
+    "sourceInventoryId": "expr-1923",
+    "sourcePhrase": "the strongest pull",
+    "sourceOccurrenceIds": [
+      "pdf-2-p239-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-1903",
+    "resolvedTargetModuleId": "advanced-native-1903"
+  },
+  {
+    "sourceInventoryId": "expr-1927",
+    "sourcePhrase": "a tug-of-war between the digital world and the human one",
+    "sourceOccurrenceIds": [
+      "pdf-2-p239-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-1453",
+    "resolvedTargetModuleId": "advanced-native-1453"
+  },
+  {
+    "sourceInventoryId": "expr-1930",
+    "sourcePhrase": "puts another person on too high a pedestal",
+    "sourceOccurrenceIds": [
+      "pdf-2-p240-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-983",
+    "resolvedTargetModuleId": "advanced-native-983"
+  },
+  {
+    "sourceInventoryId": "expr-1933",
+    "sourcePhrase": "leaves its mark",
+    "sourceOccurrenceIds": [
+      "pdf-2-p240-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-283",
+    "resolvedTargetModuleId": "advanced-native-283"
+  },
+  {
+    "sourceInventoryId": "expr-1936",
+    "sourcePhrase": "throw them off course",
+    "sourceOccurrenceIds": [
+      "pdf-2-p241-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1251",
+    "resolvedTargetModuleId": "advanced-native-1251"
+  },
+  {
+    "sourceInventoryId": "expr-1955",
+    "sourcePhrase": "a lifesaver",
+    "sourceOccurrenceIds": [
+      "pdf-2-p244-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1617",
+    "resolvedTargetModuleId": "advanced-native-1617"
+  },
+  {
+    "sourceInventoryId": "expr-1960",
+    "sourcePhrase": "a game-changer",
+    "sourceOccurrenceIds": [
+      "pdf-2-p245-t2-r05"
+    ],
+    "directTargetModuleId": "advanced-native-495",
+    "resolvedTargetModuleId": "advanced-native-495"
+  },
+  {
+    "sourceInventoryId": "expr-1961",
+    "sourcePhrase": "the idea finally clicks",
+    "sourceOccurrenceIds": [
+      "pdf-2-p245-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-1203",
+    "resolvedTargetModuleId": "advanced-native-1203"
+  },
+  {
+    "sourceInventoryId": "expr-1972",
+    "sourcePhrase": "a sensible middle ground",
+    "sourceOccurrenceIds": [
+      "pdf-2-p247-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-1541",
+    "resolvedTargetModuleId": "advanced-native-1541"
+  },
+  {
+    "sourceInventoryId": "expr-1978",
+    "sourcePhrase": "opening the door for them",
+    "sourceOccurrenceIds": [
+      "pdf-2-p248-t2-r07"
+    ],
+    "directTargetModuleId": "advanced-native-028",
+    "resolvedTargetModuleId": "advanced-native-028"
+  },
+  {
+    "sourceInventoryId": "expr-1987",
+    "sourcePhrase": "rolls conversation, entertainment, and information into one",
+    "sourceOccurrenceIds": [
+      "pdf-2-p250-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1181",
+    "resolvedTargetModuleId": "advanced-native-1181"
+  },
+  {
+    "sourceInventoryId": "expr-1997",
+    "sourcePhrase": "cut off from the digital world",
+    "sourceOccurrenceIds": [
+      "pdf-2-p251-t2-r03"
+    ],
+    "directTargetModuleId": "advanced-native-1347",
+    "resolvedTargetModuleId": "advanced-native-1347"
+  },
+  {
+    "sourceInventoryId": "expr-2019",
+    "sourcePhrase": "glued to their phone",
+    "sourceOccurrenceIds": [
+      "pdf-2-p255-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-847",
+    "resolvedTargetModuleId": "advanced-native-847"
+  },
+  {
+    "sourceInventoryId": "expr-2022",
+    "sourcePhrase": "taking over repetitive tasks",
+    "sourceOccurrenceIds": [
+      "pdf-2-p255-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-395",
+    "resolvedTargetModuleId": "advanced-native-395"
+  },
+  {
+    "sourceInventoryId": "expr-2025",
+    "sourcePhrase": "doing the groundwork",
+    "sourceOccurrenceIds": [
+      "pdf-2-p256-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-415",
+    "resolvedTargetModuleId": "advanced-native-415"
+  },
+  {
+    "sourceInventoryId": "expr-2034",
+    "sourcePhrase": "get left behind",
+    "sourceOccurrenceIds": [
+      "pdf-2-p258-t1-r03"
+    ],
+    "directTargetModuleId": "advanced-native-045",
+    "resolvedTargetModuleId": "advanced-native-045"
+  },
+  {
+    "sourceInventoryId": "expr-2041",
+    "sourcePhrase": "shoulder the transition",
+    "sourceOccurrenceIds": [
+      "pdf-2-p258-t1-r10"
+    ],
+    "directTargetModuleId": "advanced-native-542",
+    "resolvedTargetModuleId": "advanced-native-542"
+  },
+  {
+    "sourceInventoryId": "expr-2053",
+    "sourcePhrase": "eat into their time and energy",
+    "sourceOccurrenceIds": [
+      "pdf-2-p260-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-1149",
+    "resolvedTargetModuleId": "advanced-native-1149"
+  },
+  {
+    "sourceInventoryId": "expr-2059",
+    "sourcePhrase": "the shine can wear off",
+    "sourceOccurrenceIds": [
+      "pdf-2-p261-t1-r05"
+    ],
+    "directTargetModuleId": "advanced-native-568",
+    "resolvedTargetModuleId": "advanced-native-568"
+  },
+  {
+    "sourceInventoryId": "expr-2060",
+    "sourcePhrase": "get their life off the ground",
+    "sourceOccurrenceIds": [
+      "pdf-2-p261-t1-r06"
+    ],
+    "directTargetModuleId": "advanced-native-482",
+    "resolvedTargetModuleId": "advanced-native-482"
+  },
+  {
+    "sourceInventoryId": "expr-2072",
+    "sourcePhrase": "calm things down",
+    "sourceOccurrenceIds": [
+      "pdf-2-p262-t2-r06"
+    ],
+    "directTargetModuleId": "advanced-native-518",
+    "resolvedTargetModuleId": "advanced-native-518"
+  },
+  {
+    "sourceInventoryId": "expr-2077",
+    "sourcePhrase": "the door is opening wider",
+    "sourceOccurrenceIds": [
+      "pdf-2-p263-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-028",
+    "resolvedTargetModuleId": "advanced-native-028"
+  },
+  {
+    "sourceInventoryId": "expr-2084",
+    "sourcePhrase": "the polished version they show the outside world",
+    "sourceOccurrenceIds": [
+      "pdf-2-p264-t2-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1567",
+    "resolvedTargetModuleId": "advanced-native-1567"
+  },
+  {
+    "sourceInventoryId": "expr-2094",
+    "sourcePhrase": "a small ecosystem",
+    "sourceOccurrenceIds": [
+      "pdf-2-p267-t1-r04"
+    ],
+    "directTargetModuleId": "advanced-native-766",
+    "resolvedTargetModuleId": "advanced-native-766"
+  },
+  {
+    "sourceInventoryId": "expr-2095",
+    "sourcePhrase": "a logistical headache",
+    "sourceOccurrenceIds": [
+      "pdf-2-p267-t1-r08"
+    ],
+    "directTargetModuleId": "advanced-native-1039",
+    "resolvedTargetModuleId": "advanced-native-1039"
+  },
+  {
+    "sourceInventoryId": "expr-2097",
+    "sourcePhrase": "pass on experience and tradition",
+    "sourceOccurrenceIds": [
+      "pdf-2-p268-t1-r02"
+    ],
+    "directTargetModuleId": "advanced-native-1326",
+    "resolvedTargetModuleId": "advanced-native-1326"
+  },
+  {
+    "sourceInventoryId": "expr-2100",
+    "sourcePhrase": "rub someone else up the wrong way",
+    "sourceOccurrenceIds": [
+      "pdf-2-p268-t1-r07"
+    ],
+    "directTargetModuleId": "advanced-native-134",
+    "resolvedTargetModuleId": "advanced-native-134"
+  }
+]

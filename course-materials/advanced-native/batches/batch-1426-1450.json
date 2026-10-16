@@ -1,0 +1,5695 @@
+{
+  "schemaVersion": 1,
+  "batchId": "advanced-native-drafts-1426-1450",
+  "lessons": [
+    {
+      "id": "advanced-native-1427",
+      "number": 1427,
+      "inventoryId": "expr-1427",
+      "contentRevision": 1,
+      "titleEn": "bring different gifts to the table",
+      "titleZh": "各自貢獻不同才能",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:bring|brings|brought|bringing)\\s+different\\s+gifts\\s+to\\s+the\\s+table\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p163-t1-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 163,
+          "book": 6,
+          "question": 30,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Every volunteer can bring different gifts to the table.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "bring different gifts to the table",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Contribute varied talents or useful abilities to a shared task.",
+        "meaningZh": "為共同任務帶來不同才能或有用的能力。",
+        "grammar": "people bring different gifts to the table",
+        "register": "neutral",
+        "boundaryZh": "gifts 在此是才能，不是實物禮物；不同不代表每人價值高低，才能也可後天培養。",
+        "misconceptionZh": "gifts 在此是才能，不是實物禮物；不同不代表每人價值高低，才能也可後天培養。",
+        "outcomeZh": "理解「各自貢獻不同才能」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The volunteers bring different gifts to the table, from patient listening to careful planning.",
+        "zh": "義工各自貢獻不同才能，從耐心聆聽到仔細計劃都有。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "義工以不同能力共同貢獻。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每位義工只會完全相同的工作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只有最顯眼的義工才有價值。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "才能一定全部是天生，不能學習。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "例子列出不同能力，強調互補的貢獻而非實物禮物或價值排名。"
+      },
+      "reply": {
+        "promptEn": "Why do we want people with different backgrounds in the team?",
+        "promptZh": "我們為甚麼希望團隊有不同背景的人？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They bring different gifts to the table.",
+            "zh": "他們各自貢獻不同才能。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Their experiences can help us notice different problems.",
+            "zh": "他們的經驗能幫我們留意不同問題。"
+          },
+          {
+            "id": "reply-3",
+            "en": "One person’s strength may complement another’s.",
+            "zh": "一人的長處可能與另一人的互補。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Different abilities can make the group more capable overall.",
+            "zh": "不同能力能令小組整體更有能力。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "小組一人擅寫作、一人善整理資料、一人會設計，共同完成作品。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They bring different gifts to the table.",
+            "zh": "他們各自貢獻不同才能。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They all contribute exactly the same ability.",
+            "zh": "他們全都只貢獻完全相同的能力。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Their different strengths prevent any shared work.",
+            "zh": "他們不同的長處令共同工作完全不可能。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不同能力在同一任務互補，符合帶來不同才能的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 bring different gifts to the table？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "貢獻各自不同的能力。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "不同長處可以互補。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它表示只有出生就有的能力才有價值，學來的技能不算。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "gifts 在此形容有用才能，不必排除後天培養的技能。"
+      },
+      "dialogue": {
+        "promptZh": "朋友擔心自己不擅設計，加入團隊沒有作用。哪句回應最體貼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We bring different gifts to the table; your careful research is useful too.",
+            "zh": "我們各自貢獻不同才能；你仔細的研究也有用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Wait until you can design the final slides before taking a role in the team.",
+            "zh": "等你能設計最終投影片後，才在團隊擔任角色。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the research only as practice for yourself rather than adding it to the project.",
+            "zh": "只把研究當作自己的練習，不加入項目。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "仔細研究本身可互補團隊；等到會設計或不分享研究，未承認現有可用貢獻。"
+      },
+      "speaking": {
+        "en": "We bring different gifts to the table and learn from one another.",
+        "zh": "我們各自貢獻不同才能，並互相學習。",
+        "targetSpan": {
+          "start": 3,
+          "end": 37
+        },
+        "promptZh": "你想說團隊成員的長處互補。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你們籌辦展覽，有人畫畫、有人訪問、有人安排場地。用一至兩句英文說明每人的貢獻。",
+        "examples": [
+          {
+            "en": "We bring different gifts to the table: drawing, interviewing and organising the venue.",
+            "zh": "我們各自貢獻不同才能：繪畫、訪問及安排場地。"
+          },
+          {
+            "en": "The team members bring different gifts to the table, so our exhibition benefits from several strengths.",
+            "zh": "組員各自貢獻不同才能，所以展覽能受惠於多種長處。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "drawing",
+            "zh": "繪畫",
+            "exampleIndex": 0,
+            "span": {
+              "start": 39,
+              "end": 46
+            }
+          },
+          {
+            "en": "interviewing",
+            "zh": "訪問",
+            "exampleIndex": 0,
+            "span": {
+              "start": 48,
+              "end": 60
+            }
+          },
+          {
+            "en": "organising the venue",
+            "zh": "安排場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 65,
+              "end": 85
+            }
+          },
+          {
+            "en": "several strengths",
+            "zh": "多種長處",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 102
+            }
+          }
+        ],
+        "selfCheckZh": "列出互補的能力，不把 gifts 寫成帶來物品，也不需要排名誰較有價值。"
+      },
+      "takeaways": [
+        {
+          "en": "Team members bring different gifts to the table.",
+          "zh": "組員各自貢獻不同才能。"
+        },
+        {
+          "en": "People with varied experience bring different gifts to the table.",
+          "zh": "有不同經驗的人各自貢獻不同才能。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1429",
+      "number": 1429,
+      "inventoryId": "expr-1429",
+      "contentRevision": 1,
+      "titleEn": "feel seen, guided, and trusted",
+      "titleZh": "感到被重視、引導與信任",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bfeel\\s+seen,\\s+guided,?\\s+and\\s+trusted\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p163-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 163,
+          "book": 6,
+          "question": 31,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Young artists need to feel seen, guided, and trusted.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "feel seen, guided, and trusted",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Experience recognition, constructive help and confidence from others.",
+        "meaningZh": "感受到被重視、得到指引，以及被他人信任。",
+        "grammar": "people feel seen, guided, and trusted; parallel participial adjectives",
+        "register": "neutral",
+        "boundaryZh": "seen 指自己的需要或努力被認識，不只是被望見；trusted 不代表沒有限制或不用任何指導。",
+        "misconceptionZh": "seen 指自己的需要或努力被認識，不只是被望見；trusted 不代表沒有限制或不用任何指導。",
+        "outcomeZh": "理解「感到被看見引導及信任」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The mentor listens and offers choices so that students feel seen, guided, and trusted.",
+        "zh": "導師聆聽並提供選擇，讓學生感到被重視、得到指引和信任。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "學生感到受到重視，也有指引和選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "學生被完全放任，沒有任何協助。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "導師替每個學生決定所有事情。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "學生只因有人望着他們就已得到所有支援。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "聆聽、指引和選擇共同支撐三部分感受，不是放任或完全代決。"
+      },
+      "reply": {
+        "promptEn": "What do students need from a supportive mentor?",
+        "promptZh": "學生需要支持自己的導師提供甚麼？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They need to feel seen, guided, and trusted.",
+            "zh": "他們需要感到被重視、得到指引和信任。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They need someone to listen to their concerns.",
+            "zh": "他們需要有人聆聽疑慮。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They benefit from clear guidance without every choice being taken away.",
+            "zh": "清楚指引而非剝奪每個選擇，能讓他們受益。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They need room to try while knowing help is available.",
+            "zh": "他們需要有嘗試空間，也知道可獲協助。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "老師記得學生的努力，說明下一步，也讓他自己選研究方向。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The student can feel seen, guided, and trusted.",
+            "zh": "學生可以感到被重視、得到指引和信任。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The student has no guidance and no one notices his work.",
+            "zh": "學生沒有指引，也沒有人留意他的努力。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The teacher has removed every opportunity for the student to decide.",
+            "zh": "老師取消了學生作任何決定的機會。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "留意努力、說明下一步和保留選擇，分別回應三種需要。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 feel seen, guided, and trusted？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "努力和需要得到認識。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "有建設性的指引，也有嘗試空間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "因為被信任，所以永遠不應有任何界線或協助。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "被信任可與合理界線及指引並存，不代表放任。"
+      },
+      "dialogue": {
+        "promptZh": "導師怕給指引就表示不信任學生。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Students can feel seen, guided, and trusted when advice leaves room for their own choices.",
+            "zh": "建議保留自主選擇時，學生可以感到被重視、得到指引和信任。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Show trust by waiting until the final deadline before offering any guidance.",
+            "zh": "等到最後期限才提供指引，以此顯示信任。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Demonstrate support by selecting the topic and method before asking for the student’s views.",
+            "zh": "先選定課題和方法，再問學生意見，以此表達支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "信任可與及時指引並存；延後幫助或預先代選，都未兼顧需要與自主。"
+      },
+      "speaking": {
+        "en": "Young learners should feel seen, guided, and trusted.",
+        "zh": "年輕學習者應感到被重視、得到指引和信任。",
+        "targetSpan": {
+          "start": 22,
+          "end": 52
+        },
+        "promptZh": "你想描述有支援又有自主空間的學習感受。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你帶領新義工，先聽他們的擔心，示範工作，再讓他們選一項任務試做。用一至兩句英文描述你希望他們有的感受。",
+        "examples": [
+          {
+            "en": "I want the volunteers to feel seen, guided, and trusted as they try their first tasks.",
+            "zh": "我希望義工嘗試第一批任務時，感到被重視、得到指引和信任。"
+          },
+          {
+            "en": "Listening and offering a choice can help new volunteers feel seen, guided, and trusted.",
+            "zh": "聆聽和提供選擇，能幫新義工感到被重視、得到指引和信任。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the volunteers",
+            "zh": "義工",
+            "exampleIndex": 0,
+            "span": {
+              "start": 7,
+              "end": 21
+            }
+          },
+          {
+            "en": "their first tasks",
+            "zh": "他們最初的任務",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 85
+            }
+          },
+          {
+            "en": "Listening",
+            "zh": "聆聽",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "offering a choice",
+            "zh": "提供選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 31
+            }
+          }
+        ],
+        "selfCheckZh": "用聆聽、示範及自主選擇說明三部分感受，而不是把信任寫成放任。"
+      },
+      "takeaways": [
+        {
+          "en": "Students need to feel seen, guided, and trusted.",
+          "zh": "學生需要感到被重視、得到指引和信任。"
+        },
+        {
+          "en": "A supportive group can help newcomers feel seen, guided, and trusted.",
+          "zh": "有支援的小組能幫新加入的人感到被重視、得到指引和信任。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1430",
+      "number": 1430,
+      "inventoryId": "expr-1430",
+      "contentRevision": 1,
+      "titleEn": "squeeze every young person into the same mould",
+      "titleZh": "不要強把人人塑成一樣",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bsqueeze\\s+every\\s+young\\s+person\\s+into\\s+the\\s+same\\s+mould\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p163-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 163,
+          "book": 6,
+          "question": 31,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Schools should not squeeze every young person into the same mould.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "squeeze every young person into the same mould",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Force different young people to fit one identical model.",
+        "meaningZh": "不顧年輕人的差異，強迫他們符合單一模式。",
+        "grammar": "try to / do not squeeze every young person into the same mould",
+        "register": "neutral",
+        "boundaryZh": "批評忽視差異的強迫模式，不代表所有共通規則或基本要求都不合理；mould 為英式拼法。",
+        "misconceptionZh": "批評忽視差異的強迫模式，不代表所有共通規則或基本要求都不合理；mould 為英式拼法。",
+        "outcomeZh": "理解「不要強把人人塑成一樣」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "A flexible course should not squeeze every young person into the same mould.",
+        "zh": "有彈性的課程不應把每位年輕人都強行塑造成同一模式。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "課程應容納學生之間的差異。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "課程必須取消所有基本規則。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "所有學生都應有完全相同興趣。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "彈性代表完全沒有學習目標。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "反對強迫相同模式不等於沒有目標或基本規則。"
+      },
+      "reply": {
+        "promptEn": "Why should the school offer different project options?",
+        "promptZh": "學校為甚麼應提供不同項目選項？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It should not squeeze every young person into the same mould.",
+            "zh": "它不應把每位年輕人都強行塑造成同一模式。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Students have different interests and strengths.",
+            "zh": "學生有不同興趣和長處。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Some choice can help them find a suitable way to learn.",
+            "zh": "一些選擇能幫他們找到合適的學習方式。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A shared goal can be reached through different kinds of work.",
+            "zh": "共同目標可以透過不同種類的工作達到。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學校只容許一種成功路線，要求每位學生放棄不同興趣，照同一模式發展。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It tries to squeeze every young person into the same mould.",
+            "zh": "它試圖把每位年輕人都強行塑造成同一模式。"
+          },
+          {
+            "id": "choice-2",
+            "en": "It recognises different strengths through several pathways.",
+            "zh": "它透過幾種路徑承認不同長處。"
+          },
+          {
+            "id": "choice-3",
+            "en": "It keeps a few basic safety rules while offering flexible projects.",
+            "zh": "它保留幾項基本安全規則，同時提供彈性項目。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "強迫單一路線且不容差異，才符合這個批評性比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個安排不應單憑它稱為 squeeze every young person into the same mould？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "不准任何不同興趣，只接受一種成功模式。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "保留基本安全規則，同時讓學生選擇不同項目。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "要求每位學生不理自身長處，完全照同一路線發展。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "共通安全規則不等於抹去差異；保留共同安全要求，仍可容許多種發展。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為不強迫學生一樣，就代表完全不能有基本要求。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "We can keep shared standards without trying to squeeze every young person into the same mould.",
+            "zh": "我們可以保留共同標準，而不試圖把每位年輕人都塑造成同一模式。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Give everyone the same career target so the shared standard is easier to measure.",
+            "zh": "給每人相同職業目標，讓共同標準更容易量度。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Remove the common quality criteria before considering ways students can meet them differently.",
+            "zh": "先移除共同質素準則，再考慮學生可怎樣以不同方法達標。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可保留合理準則並容許不同路徑，不必統一人生目標或先取消質素標準。"
+      },
+      "speaking": {
+        "en": "We should not squeeze every young person into the same mould.",
+        "zh": "我們不應把每位年輕人都強行塑造成同一模式。",
+        "targetSpan": {
+          "start": 14,
+          "end": 60
+        },
+        "promptZh": "你希望學校容納學生的不同長處。聽完示範，再說出原則。"
+      },
+      "writing": {
+        "promptZh": "新情境：職涯活動只推介一種職業，忽略有些同學喜歡藝術、有些喜歡技術。用一至兩句英文提出更開放的安排。",
+        "examples": [
+          {
+            "en": "The event should not squeeze every young person into the same mould. It could introduce several career paths.",
+            "zh": "活動不應把每位年輕人都強行塑造成同一模式。它可以介紹幾種職涯路徑。"
+          },
+          {
+            "en": "We must not squeeze every young person into the same mould; students need to explore careers that match their strengths.",
+            "zh": "我們不能把每位年輕人都強行塑造成同一模式；學生需要探索符合自身長處的職業。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The event",
+            "zh": "活動",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "several career paths",
+            "zh": "幾種職涯路徑",
+            "exampleIndex": 0,
+            "span": {
+              "start": 88,
+              "end": 108
+            }
+          },
+          {
+            "en": "explore careers",
+            "zh": "探索職業",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 92
+            }
+          },
+          {
+            "en": "match their strengths",
+            "zh": "符合他們的長處",
+            "exampleIndex": 1,
+            "span": {
+              "start": 98,
+              "end": 119
+            }
+          }
+        ],
+        "selfCheckZh": "指出單一模式的限制，並提出多種探索可能；不用取消所有共同要求。"
+      },
+      "takeaways": [
+        {
+          "en": "Do not squeeze every young person into the same mould.",
+          "zh": "不要把每位年輕人都強行塑造成同一模式。"
+        },
+        {
+          "en": "Schools can offer choices rather than squeeze every young person into the same mould.",
+          "zh": "學校可以提供選擇，而非把每位年輕人都強行塑造成同一模式。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1431",
+      "number": 1431,
+      "inventoryId": "expr-1431",
+      "contentRevision": 1,
+      "titleEn": "begins to shine",
+      "titleZh": "優點開始展現",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bbegin(?:s|ning)?\\s+to\\s+shine\\b|\\bbegan\\s+to\\s+shine\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p163-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 163,
+          "book": 6,
+          "question": 31,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Her confidence begins to shine with practice.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "begins to shine",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Start to become noticeable or impressive, especially an ability or quality.",
+        "meaningZh": "能力或特質開始變得明顯、令人欣賞。",
+        "grammar": "a talent / quality begins to shine",
+        "register": "neutral",
+        "boundaryZh": "本課不是實際發光；優點開始被看見，不表示已完美或一切沒有困難。",
+        "misconceptionZh": "本課不是實際發光；優點開始被看見，不表示已完美或一切沒有困難。",
+        "outcomeZh": "理解「優點開始展現」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Once she had time to explain her idea, her creativity began to shine.",
+        "zh": "她有時間解釋想法後，創意開始展現。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她的創意開始被看見。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她已沒有任何需要改進的地方。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她的創意完全消失。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她只是在重複別人的想法，沒有個人貢獻。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有機會解釋後，原有創意變得明顯；begin 不等於已完全發展。"
+      },
+      "reply": {
+        "promptEn": "What changed when the quiet student joined the design team?",
+        "promptZh": "安靜的學生加入設計團隊後，有甚麼改變？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Her talent began to shine.",
+            "zh": "她的才華開始展現。"
+          },
+          {
+            "id": "reply-2",
+            "en": "She found a way to show her ideas.",
+            "zh": "她找到展示想法的方式。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The others began to notice her careful observations.",
+            "zh": "其他人開始留意她仔細的觀察。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Her confidence became more visible in discussions.",
+            "zh": "討論中，她的信心變得更明顯。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "組員起初很少發言，後來在熟悉的任務中提出巧妙方案，大家開始看見他的能力。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "His ability began to shine.",
+            "zh": "他的能力開始展現。"
+          },
+          {
+            "id": "choice-2",
+            "en": "His ability became less visible in every task.",
+            "zh": "他的能力在每項任務中都變得更不明顯。"
+          },
+          {
+            "id": "choice-3",
+            "en": "His contribution showed that he had no ideas of his own.",
+            "zh": "他的貢獻顯示他沒有自己的想法。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "具體方案令能力被看見，符合 shine 的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 begins to shine 的本課用法？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "長處開始變得明顯。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "能力在適合的機會中被看見。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它保證一個人已完美而且從不犯錯。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "開始展現優點與完美不同，仍可有發展空間。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為同學現在表現好，就表示以前完全沒有能力。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Her talent begins to shine when the setting gives her room to contribute.",
+            "zh": "環境讓她有貢獻空間時，她的才華便開始展現。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the recent success to assume she did not have the ability in the earlier setting.",
+            "zh": "用最近成功來假定她在以前環境沒有那能力。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep future opportunities unchanged and judge her mainly by the earlier quiet performance.",
+            "zh": "保持以後機會不變，主要按以前安靜的表現評價她。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "展示條件可影響才華是否被看見，不能由最近表現否定既有能力或固定早期判斷。"
+      },
+      "speaking": {
+        "en": "Her confidence begins to shine during group discussions.",
+        "zh": "小組討論時，她的信心開始展現。",
+        "targetSpan": {
+          "start": 15,
+          "end": 30
+        },
+        "promptZh": "你留意到同學在討論中較有信心。先聽示範，再用比喻描述。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友剛加入戲劇組很少說話，幾次排練後演喜劇很自然，大家開始欣賞她的幽默。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "After a few rehearsals, her sense of humour began to shine.",
+            "zh": "幾次排練後，她的幽默感開始展現。"
+          },
+          {
+            "en": "Her comic talent begins to shine as she grows more comfortable with the group.",
+            "zh": "她與小組相處更自在時，喜劇才華開始展現。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "a few rehearsals",
+            "zh": "幾次排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 6,
+              "end": 22
+            }
+          },
+          {
+            "en": "her sense of humour",
+            "zh": "她的幽默感",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 43
+            }
+          },
+          {
+            "en": "Her comic talent",
+            "zh": "她的喜劇才華",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 16
+            }
+          },
+          {
+            "en": "more comfortable with the group",
+            "zh": "與小組相處更自在",
+            "exampleIndex": 1,
+            "span": {
+              "start": 46,
+              "end": 77
+            }
+          }
+        ],
+        "selfCheckZh": "以具體被欣賞的特質作主語，描述開始展現而非保證完美。"
+      },
+      "takeaways": [
+        {
+          "en": "His talent begins to shine with the right opportunity.",
+          "zh": "有合適機會，他的才華開始展現。"
+        },
+        {
+          "en": "Her patience began to shine during the project.",
+          "zh": "項目期間，她的耐性開始展現。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1432",
+      "number": 1432,
+      "inventoryId": "expr-1432",
+      "contentRevision": 1,
+      "titleEn": "pushed down a path that does not fit",
+      "titleZh": "被逼走不合適的路",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bpushed\\s+down\\s+a\\s+path\\s+that\\s+does\\s+not\\s+fit\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p163-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 163,
+          "book": 6,
+          "question": 31,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "No student should be pushed down a path that does not fit.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "pushed down a path that does not fit",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Pressured towards a direction that does not suit someone’s needs or strengths.",
+        "meaningZh": "被迫走向不適合自身需要或長處的方向。",
+        "grammar": "be pushed down a path that does not fit someone / their interests",
+        "register": "neutral",
+        "boundaryZh": "比喻不合適的發展路線；指引和建議不一定是強迫，應看是否容許選擇及是否適合。",
+        "misconceptionZh": "比喻不合適的發展路線；指引和建議不一定是強迫，應看是否容許選擇及是否適合。",
+        "outcomeZh": "理解「被逼走不合適的路」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "She felt pushed down a path that does not fit her interests when only one career was allowed.",
+        "zh": "只容許選一種職業時，她覺得自己被逼走向不適合興趣的路。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她感到被迫接受不合適的職涯方向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她已自由比較並選了最合適的方向。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "所有建議必定都是強迫。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她認為只要短期有點吃力，就表示所有相關職涯都不適合。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "only one career was allowed 與 does not fit 共同說明強迫及不合適。"
+      },
+      "reply": {
+        "promptEn": "Why is he unhappy with the career plan others chose for him?",
+        "promptZh": "他為甚麼不滿別人替他選的職涯計劃？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "He feels pushed down a path that does not fit his strengths.",
+            "zh": "他覺得自己被逼走向不適合長處的路。"
+          },
+          {
+            "id": "reply-2",
+            "en": "He was not given a chance to explain his interests.",
+            "zh": "他沒有機會說明自己的興趣。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The plan ignores the kind of work he enjoys.",
+            "zh": "計劃忽略他喜歡哪種工作。"
+          },
+          {
+            "id": "reply-4",
+            "en": "He wants room to explore a more suitable option.",
+            "zh": "他希望有空間探索更合適的選擇。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生喜歡實作設計，但家人不讓他探索，只准選他不喜歡也不擅長的路線。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "He is being pushed down a path that does not fit him.",
+            "zh": "他正被逼走向不適合自己的路。"
+          },
+          {
+            "id": "choice-2",
+            "en": "He has freely selected the route that suits him best.",
+            "zh": "他已自由選擇最適合自己的路線。"
+          },
+          {
+            "id": "choice-3",
+            "en": "He is being offered several choices that reflect his strengths.",
+            "zh": "他正獲提供幾個符合長處的選擇。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "不准探索且忽略興趣長處，構成被逼走不合適方向的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不應單憑它稱為 pushed down a path that does not fit？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在了解學生興趣後提出建議，並保留最終選擇。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "不理學生長處，只准他走唯一不合適路線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "禁止探索其他可能，強迫接受不適合的職涯。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "尊重需要並保留選擇的建議，不必是強迫。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為任何成人的建議都等於強迫。哪句回應較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Advice is different from being pushed down a path that does not fit; choice and suitability matter.",
+            "zh": "建議與被逼走不合適的路不同；選擇和適合程度很重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Treat the recommendation as pressure before asking whether the student can decline it.",
+            "zh": "未問學生能否拒絕，就把建議當作壓力。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Accept the route on the adviser’s experience alone and review its fit after enrolling.",
+            "zh": "單憑建議者經驗接受路線，報讀後才檢視是否適合。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "要檢查選擇空間和適合程度，不宜先把建議當強迫，也不宜延後了解需要。"
+      },
+      "speaking": {
+        "en": "I do not want to be pushed down a path that does not fit my interests.",
+        "zh": "我不想被逼走向不適合自己興趣的路。",
+        "targetSpan": {
+          "start": 20,
+          "end": 56
+        },
+        "promptZh": "你希望職涯探索能考慮自己的興趣。聽完示範，再描述顧慮。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友喜歡照護工作，但家人只准他讀商科，沒有聽他的想法。用一至兩句英文描述他的處境並建議對話。",
+        "examples": [
+          {
+            "en": "He feels pushed down a path that does not fit his interests. His family should hear what he wants to explore.",
+            "zh": "他覺得被逼走向不適合自己興趣的路。家人應聽聽他想探索甚麼。"
+          },
+          {
+            "en": "Being pushed down a path that does not fit him is frustrating, so a conversation about his strengths could help.",
+            "zh": "被逼走不合適的路令他沮喪，所以討論他的長處可能有幫助。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "his interests",
+            "zh": "他的興趣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 59
+            }
+          },
+          {
+            "en": "His family",
+            "zh": "他的家人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 61,
+              "end": 71
+            }
+          },
+          {
+            "en": "what he wants to explore",
+            "zh": "他想探索甚麼",
+            "exampleIndex": 0,
+            "span": {
+              "start": 84,
+              "end": 108
+            }
+          },
+          {
+            "en": "a conversation about his strengths",
+            "zh": "關於他長處的對話",
+            "exampleIndex": 1,
+            "span": {
+              "start": 66,
+              "end": 100
+            }
+          }
+        ],
+        "selfCheckZh": "同時指出被迫與不合適，提出尊重選擇的討論，不把所有建議一概當強迫。"
+      },
+      "takeaways": [
+        {
+          "en": "No learner should be pushed down a path that does not fit.",
+          "zh": "不應把任何學生逼上不合適的路。"
+        },
+        {
+          "en": "She felt pushed down a path that does not fit her strengths.",
+          "zh": "她覺得被逼走向不適合長處的路。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1433",
+      "number": 1433,
+      "inventoryId": "expr-1433",
+      "contentRevision": 1,
+      "titleEn": "life knocks them sideways",
+      "titleZh": "生活突變令人受創",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\blife\\s+knock(?:s|ed|ing)?\\s+(?:me|you|him|her|us|them)\\s+sideways\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p164-t1-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 164,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Resilience helps when life knocks them sideways.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "life knocks them sideways",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Unexpected trouble seriously disrupts or shocks someone.",
+        "meaningZh": "生活中的意外困難突然打亂一個人，令人受打擊。",
+        "grammar": "life knocks / knocked someone sideways",
+        "register": "neutral",
+        "boundaryZh": "這是突然受打擊的比喻，不表示真的被撞，也不代表永遠無法恢復。",
+        "misconceptionZh": "這是突然受打擊的比喻，不表示真的被撞，也不代表永遠無法恢復。",
+        "outcomeZh": "理解「生活突變令人受創」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "When life knocked her sideways with an unexpected job loss, her friends helped her make a new plan.",
+        "zh": "突然失業令她大受打擊、生活被打亂時，朋友幫她另訂計劃。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "意外失業打亂生活，朋友提供了支援。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她從來沒有遇到任何挫折。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "失業保證她永遠不能恢復。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "朋友要求她獨自處理所有事。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "unexpected job loss 說明突變，new plan 保留恢復可能，沒有永久失敗的意思。"
+      },
+      "reply": {
+        "promptEn": "Why might people need support even when they usually cope well?",
+        "promptZh": "平常應付得好的人為甚麼仍可能需要支援？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Life knocks them sideways sometimes.",
+            "zh": "生活有時會突然把他們打得措手不及。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Unexpected changes can overwhelm anyone for a while.",
+            "zh": "意外改變可能令任何人一時難以承受。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A difficult event can disrupt familiar routines.",
+            "zh": "困難事件可能打亂熟悉的生活。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Being capable does not remove every possible setback.",
+            "zh": "有能力不表示所有可能挫折都會消失。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家裏突然失去主要收入，原有安排全被打亂，當事人一時不知所措。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Life knocked them sideways.",
+            "zh": "生活突變令他們大受打擊。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Nothing unexpected affected their plans.",
+            "zh": "沒有任何意外影響他們的計劃。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They had already solved every possible future difficulty.",
+            "zh": "他們已解決所有可能的未來困難。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "突然且重大的變化打亂生活，符合 sideways 的受打擊比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 life knocks them sideways？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "突發事件令生活失去原來的穩定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "能力強的人也可能一時受衝擊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它保證受打擊的人永遠無法恢復。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "比喻描述衝擊，不預定永久結果。"
+      },
+      "dialogue": {
+        "promptZh": "朋友遇到重大突變後覺得需要幫忙很丟臉。哪句回應體貼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "When life knocks us sideways, support can help us find our footing again.",
+            "zh": "生活突變令我們受打擊時，支援能幫我們重新站穩。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Wait until you feel settled before telling anyone what practical help you need.",
+            "zh": "等你感到安定後，才告訴別人需要甚麼實際幫助。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Focus on keeping your usual appearance so others do not notice the disruption.",
+            "zh": "專注保持平常外表，免得別人看出生活被打亂。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "遇重大衝擊時可及早說明需要；等待完全安定或只隱藏影響，可能妨礙支援。"
+      },
+      "speaking": {
+        "en": "Life knocked me sideways, but I did not have to face it alone.",
+        "zh": "生活突變令我大受打擊，但我不用獨自面對。",
+        "targetSpan": {
+          "start": 0,
+          "end": 24
+        },
+        "promptZh": "你想描述突變的衝擊，也承認有人支援。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友的主要工作突然取消，日常安排被打亂，你陪他重新規劃。用一至兩句英文描述衝擊和支援。",
+        "examples": [
+          {
+            "en": "Life knocked him sideways when the work disappeared. We helped him plan the next step.",
+            "zh": "工作突然消失時，生活突變令他大受打擊。我們幫他計劃下一步。"
+          },
+          {
+            "en": "When life knocks him sideways, he can ask friends for support while rebuilding his routine.",
+            "zh": "生活突變令他受打擊時，他可以在重建日常安排的同時，向朋友尋求支援。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the work disappeared",
+            "zh": "工作消失了",
+            "exampleIndex": 0,
+            "span": {
+              "start": 31,
+              "end": 51
+            }
+          },
+          {
+            "en": "plan the next step",
+            "zh": "計劃下一步",
+            "exampleIndex": 0,
+            "span": {
+              "start": 67,
+              "end": 85
+            }
+          },
+          {
+            "en": "ask friends for support",
+            "zh": "向朋友求助",
+            "exampleIndex": 1,
+            "span": {
+              "start": 38,
+              "end": 61
+            }
+          },
+          {
+            "en": "rebuilding his routine",
+            "zh": "重建日常安排",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 90
+            }
+          }
+        ],
+        "selfCheckZh": "指出突然改變的衝擊及可用支援，不必保證立即康復或永久失敗。"
+      },
+      "takeaways": [
+        {
+          "en": "They may need support when life knocks them sideways.",
+          "zh": "生活突變令他們受打擊時，他們可能需要支援。"
+        },
+        {
+          "en": "When life knocks us sideways, asking for help is reasonable.",
+          "zh": "生活突變令我們受打擊時，求助是合理的。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1434",
+      "number": 1434,
+      "inventoryId": "expr-1434",
+      "contentRevision": 1,
+      "titleEn": "a fighting chance",
+      "titleZh": "困難中仍有實際機會",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+fighting\\s+chance\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p164-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 164,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Good mentoring gives them a fighting chance.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a fighting chance",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A real opportunity to succeed despite difficulties.",
+        "meaningZh": "即使有困難，仍有實際成功的機會。",
+        "grammar": "give someone / have a fighting chance of doing something",
+        "register": "neutral",
+        "boundaryZh": "不是成功保證，也不表示需要打架；通常承認本來有難度。",
+        "misconceptionZh": "不是成功保證，也不表示需要打架；通常承認本來有難度。",
+        "outcomeZh": "理解「困難中仍有實際機會」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Extra tutoring gave the students a fighting chance of passing the demanding exam.",
+        "zh": "額外補習讓學生在困難考試中有了實際合格機會。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "支援改善了機會，但沒有保證合格。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每個學生已獲保證滿分。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "考試因此不再有任何難度。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "學生已放棄參加考試。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "fighting chance 表示困難中仍有機會，而非已保證結果。"
+      },
+      "reply": {
+        "promptEn": "What difference could a mentor make for a beginner entering a demanding competition?",
+        "promptZh": "導師能為參加高難度比賽的初學者帶來甚麼分別？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "A mentor could give them a fighting chance.",
+            "zh": "導師可以讓他們有實際爭取成功的機會。"
+          },
+          {
+            "id": "reply-2",
+            "en": "They could learn what the judges expect.",
+            "zh": "他們可以學到評判有甚麼要求。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Useful feedback may help them avoid common mistakes.",
+            "zh": "有用的回饋可能幫他們避免常見錯誤。"
+          },
+          {
+            "id": "reply-4",
+            "en": "They would have support while preparing.",
+            "zh": "準備期間，他們會有支援。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生原本缺乏必要工具，獲借器材後終於能認真完成參賽作品，但仍有強勁對手。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The equipment gives her a fighting chance.",
+            "zh": "器材讓她有實際爭取成功的機會。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The equipment guarantees she will win.",
+            "zh": "器材保證她會贏。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The equipment means she does not need to prepare.",
+            "zh": "器材表示她不需要準備。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "必要器材令參賽更可行，但強勁對手及準備需要仍存在。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 a fighting chance？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "困難中仍有真實的可能。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "支援可以改善原本不足的機會。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它表示成功已完全確定，沒有任何風險。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "機會不等於保證；fighting 反而保留困難和努力的意思。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說既有 fighting chance，就不用再準備。哪句回應準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A fighting chance is an opportunity, not a guarantee; preparation still matters.",
+            "zh": "實際機會是機會，不是保證；準備仍很重要。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the current preparation unchanged because having a chance means it is already sufficient.",
+            "zh": "保持現有準備不變，因為有機會就表示已準備足夠。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the chance as evidence that the difficult parts of the task have already been dealt with.",
+            "zh": "把有機會當作任務中困難部分已處理好的證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "機會仍需要轉成行動；不能由機會本身判定準備足夠或難點已完成。"
+      },
+      "speaking": {
+        "en": "Clear guidance gives us a fighting chance of completing the project.",
+        "zh": "清楚指引讓我們有實際機會完成項目。",
+        "targetSpan": {
+          "start": 24,
+          "end": 41
+        },
+        "promptZh": "你想說指引改善了成功機會，但未保證結果。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：小組比賽準備時間很短，導師借出工具並說明規則，讓你們終於能認真參賽。用一至兩句英文說明幫助。",
+        "examples": [
+          {
+            "en": "The borrowed tools give us a fighting chance, though we still need to practise.",
+            "zh": "借來的工具讓我們有實際機會，雖然仍需要練習。"
+          },
+          {
+            "en": "Clear rules and the right equipment give our group a fighting chance in the competition.",
+            "zh": "清楚規則和合適器材，讓我們的小組在比賽中有實際機會。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The borrowed tools",
+            "zh": "借來的工具",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "still need to practise",
+            "zh": "仍需要練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 78
+            }
+          },
+          {
+            "en": "Clear rules",
+            "zh": "清楚規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 0,
+              "end": 11
+            }
+          },
+          {
+            "en": "the right equipment",
+            "zh": "合適器材",
+            "exampleIndex": 1,
+            "span": {
+              "start": 16,
+              "end": 35
+            }
+          }
+        ],
+        "selfCheckZh": "說明條件改善帶來機會，同時保留困難和準備需要。"
+      },
+      "takeaways": [
+        {
+          "en": "Good support gives learners a fighting chance.",
+          "zh": "良好支援讓學生有實際機會。"
+        },
+        {
+          "en": "We have a fighting chance if we prepare carefully.",
+          "zh": "如果仔細準備，我們有實際爭取成功的機會。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1435",
+      "number": 1435,
+      "inventoryId": "expr-1435",
+      "contentRevision": 1,
+      "titleEn": "grow into",
+      "titleZh": "逐漸勝任新的角色",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\b(?:grow|grows|grew|grown|growing)\\s+into\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p164-t1-r08",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 164,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "With support, she can grow into the leadership role.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow into",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p167-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 167,
+          "book": 6,
+          "question": 34,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "With support, she can grow into the leadership role.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow into",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p208-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 208,
+          "book": 8,
+          "question": 5,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "With support, she can grow into the leadership role.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow into",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p170-t1-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 170,
+          "book": 6,
+          "question": 37,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Children can grow into it at their own pace.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow into it",
+          "sourceCategory": "Phrasal verb"
+        },
+        {
+          "occurrenceId": "pdf-2-p248-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 248,
+          "book": 9,
+          "question": 12,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Children can grow into it at their own pace.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "grow into it",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Gradually become suited to a role or develop into a new state.",
+        "meaningZh": "逐步適應並勝任某角色，或發展成新的狀態。",
+        "grammar": "grow into + role / responsibility / practice; name the role or activity before using the pronoun grow into it",
+        "register": "neutral",
+        "boundaryZh": "本課指角色、能力或參與習慣的逐步發展，不表示第一天已勝任，也不保證時間本身足夠。節慶語境可延伸至逐漸適應參與，但不是固定等於開始喜歡；it 必須清楚指向前文角色或活動。",
+        "misconceptionZh": "本課指角色和能力的逐步發展，不代表第一天就已勝任，也不保證時間本身必定足夠。",
+        "outcomeZh": "理解「逐漸勝任新的角色」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide glosses grow into it as gradually developing appreciation. In the festival-participation context this extends the core sense of gradually becoming comfortable or capable in a practice; it is not a separate fixed synonym of like. The pronoun it needs an explicit role or activity as its antecedent. Both original guide examples and their source locations are retained. Inventory1484 is consolidated here as a grammatical/contextual variant, not a separate lesson."
+      },
+      "listening": {
+        "en": "With coaching, Daniel grew into the team leader’s role over the term.",
+        "zh": "在指導下，Daniel 在一學期中逐漸勝任隊長角色。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "他在支援下逐步適應領導角色。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "他第一天已完全掌握所有責任。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "他拒絕任何指導並立即離隊。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "只要時間過去，每個人就保證勝任。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "with coaching 和 over the term 說明支援下的漸進發展，不是立即或自動成功。"
+      },
+      "reply": {
+        "promptEn": "Will I need to be fully confident on my first day as a team leader?",
+        "promptZh": "當隊長第一天，我就需要完全有信心嗎？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "No; you can grow into the role with support and practice.",
+            "zh": "不需要；你可以在支援和練習下逐漸勝任角色。"
+          },
+          {
+            "id": "reply-2",
+            "en": "No; learning the responsibilities takes time.",
+            "zh": "不需要；學會責任需要時間。"
+          },
+          {
+            "id": "reply-3",
+            "en": "No; start by asking what you need to learn first.",
+            "zh": "不需要；先問清楚最初要學甚麼。"
+          },
+          {
+            "id": "reply-4",
+            "en": "No; confidence can develop as you gain experience.",
+            "zh": "不需要；累積經驗時，信心可以發展。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新主持起初依賴提示，幾次活動後開始能獨立協調和回應突發問題。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She is growing into the role.",
+            "zh": "她正逐漸勝任角色。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She has never had any responsibilities to learn.",
+            "zh": "她從來沒有需要學的責任。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She was fully experienced before her first event.",
+            "zh": "第一次活動前，她已經驗十足。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "由依賴提示到較能獨立處理，是逐步適應角色的證據。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 grow into 的本課角色用法？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "能力和經驗逐步符合角色要求。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "支援和練習可能幫助適應。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它必定表示第一天已完全勝任，沒有發展過程。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "grow into 強調過程，不是從第一天便已完成發展。"
+      },
+      "dialogue": {
+        "promptZh": "朋友剛開始帶隊，因仍要請教而擔心不適合。哪句回應較有幫助？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You can grow into the role; ask for feedback as you gain experience.",
+            "zh": "你可以逐漸勝任角色；累積經驗時，也尋求回饋。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Delay asking questions until you can perform the new role without help.",
+            "zh": "等到能獨自完成新角色的工作後，才提問。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Judge your suitability mainly by how independent you were during the first shift.",
+            "zh": "主要按第一次當值多獨立，判斷你是否適合。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "新角色可透過經驗和回饋逐步勝任；延後請教或過重看首次獨立程度，忽略發展過程。"
+      },
+      "speaking": {
+        "en": "I am growing into the role as I gain experience.",
+        "zh": "隨着經驗增加，我正逐漸勝任這個角色。",
+        "targetSpan": {
+          "start": 5,
+          "end": 17
+        },
+        "promptZh": "你剛開始承擔新角色，能力逐步提升。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你第一次做校刊編輯，起初不熟流程，在老師回饋下逐步能協調截稿。用一至兩句英文描述成長。",
+        "examples": [
+          {
+            "en": "I am growing into the editor’s role with feedback from my teacher.",
+            "zh": "在老師回饋下，我正逐漸勝任編輯角色。"
+          },
+          {
+            "en": "As I learn to coordinate deadlines, I am growing into the role and becoming more confident.",
+            "zh": "學習協調截稿時，我正逐漸勝任角色，並更有信心。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "the editor’s role",
+            "zh": "編輯角色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 35
+            }
+          },
+          {
+            "en": "feedback from my teacher",
+            "zh": "老師的回饋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 41,
+              "end": 65
+            }
+          },
+          {
+            "en": "coordinate deadlines",
+            "zh": "協調截稿日期",
+            "exampleIndex": 1,
+            "span": {
+              "start": 14,
+              "end": 34
+            }
+          },
+          {
+            "en": "becoming more confident",
+            "zh": "變得更有信心",
+            "exampleIndex": 1,
+            "span": {
+              "start": 67,
+              "end": 90
+            }
+          }
+        ],
+        "selfCheckZh": "描述漸進適應及具體學習，不說成第一天便已精通或只靠時間必成。"
+      },
+      "takeaways": [
+        {
+          "en": "With practice, she can grow into the role.",
+          "zh": "透過練習，她可以逐漸勝任角色。"
+        },
+        {
+          "en": "He grew into the responsibility with patient support.",
+          "zh": "在耐心支援下，他逐漸能承擔這項責任。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      },
+      "aliasInventoryIds": [
+        "expr-1484"
+      ]
+    },
+    {
+      "id": "advanced-native-1436",
+      "number": 1436,
+      "inventoryId": "expr-1436",
+      "contentRevision": 1,
+      "titleEn": "burst onto the scene",
+      "titleZh": "突然受到公眾矚目",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bburst(?:s|ing)?\\s+onto\\s+the\\s+scene\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p164-t1-r09",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 164,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Some talent does not burst onto the scene immediately.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "burst onto the scene",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Appear or become known suddenly and strikingly in a field.",
+        "meaningZh": "在某領域突然出現或以引人注目的方式受到認識。",
+        "grammar": "a person / group bursts onto the scene",
+        "register": "neutral",
+        "boundaryZh": "強調迅速獲注意，不保證長期成功，也不表示之前完全沒有準備。",
+        "misconceptionZh": "強調迅速獲注意，不保證長期成功，也不表示之前完全沒有準備。",
+        "outcomeZh": "理解「突然受到公眾矚目」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The young novelist burst onto the scene with a debut that attracted national attention.",
+        "zh": "年輕小說家以一本首作突然受到全國矚目。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這位小說家以首作迅速進入公眾視野。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "這位小說家已保證往後每本書都成功。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "這位小說家從未花時間練習寫作。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "這位小說家受到公眾注意的過程緩慢而毫不顯眼。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "debut 和 national attention 指首次引人注目的公開成功；不說明準備時間或未來結果。"
+      },
+      "reply": {
+        "promptEn": "How did the new band become so widely known?",
+        "promptZh": "新樂隊怎樣變得那麼有名？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They burst onto the scene with a striking first album.",
+            "zh": "他們以令人注目的首張專輯突然受到矚目。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Their debut attracted attention very quickly.",
+            "zh": "他們的首作很快引起注意。"
+          },
+          {
+            "id": "reply-3",
+            "en": "A widely shared performance introduced them to a larger audience.",
+            "zh": "一場廣泛流傳的演出把他們介紹給更多觀眾。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Critics began discussing their music soon after its release.",
+            "zh": "音樂推出後不久，評論者就開始討論。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "新設計師的首個公開系列短時間獲廣泛報道，大家突然開始認識她。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She burst onto the scene.",
+            "zh": "她突然受到矚目。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She remained unknown and avoided all public work.",
+            "zh": "她仍默默無聞，避開所有公開作品。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her public recognition developed so slowly that no one noticed a change.",
+            "zh": "她受到認識的過程慢得沒有人留意到變化。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "短時間的廣泛注意符合突然引人注目的出現。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 burst onto the scene？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "突然在某領域引起注意。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一個引人注目的公開起點。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它保證以後永遠成功，而且以前完全沒有練習。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "公開成名快不等於沒有準備，也不保證未來表現。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說某作家突然走紅，所以一定從未努力。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Someone can burst onto the scene after years of quiet preparation.",
+            "zh": "一個人可以在多年默默準備後，突然受到矚目。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Use the first public review as the date the writer began learning the craft.",
+            "zh": "用首次公開評論的日期，當作作家開始學習技藝的日期。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Focus the biography only on the successful launch and leave the earlier work unexplored.",
+            "zh": "傳記只集中成功推出作品，略過未研究的早期工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "突然受公眾注意不等於才剛開始準備，仍須了解幕後累積。"
+      },
+      "speaking": {
+        "en": "The artist burst onto the scene with her first exhibition.",
+        "zh": "藝術家以首次展覽突然受到矚目。",
+        "targetSpan": {
+          "start": 11,
+          "end": 31
+        },
+        "promptZh": "你想說藝術家第一次公開展覽便引起廣泛注意。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：一個學生動畫團隊的首套短片在影展引起大量報道，但他們已私下練習多年。用一至兩句英文描述公開出現及準備。",
+        "examples": [
+          {
+            "en": "The team burst onto the scene with its first short film after years of practice.",
+            "zh": "團隊練習多年後，以首套短片突然受到矚目。"
+          },
+          {
+            "en": "They burst onto the scene at the festival, though their preparation had begun long before.",
+            "zh": "他們在影展突然受到矚目，不過準備早已開始。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "its first short film",
+            "zh": "它的首套短片",
+            "exampleIndex": 0,
+            "span": {
+              "start": 35,
+              "end": 55
+            }
+          },
+          {
+            "en": "years of practice",
+            "zh": "多年的練習",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 79
+            }
+          },
+          {
+            "en": "at the festival",
+            "zh": "在影展",
+            "exampleIndex": 1,
+            "span": {
+              "start": 26,
+              "end": 41
+            }
+          },
+          {
+            "en": "their preparation",
+            "zh": "他們的準備",
+            "exampleIndex": 1,
+            "span": {
+              "start": 50,
+              "end": 67
+            }
+          }
+        ],
+        "selfCheckZh": "描述突然受到公眾注意，同時可交代長期準備；不保證往後必定成功。"
+      },
+      "takeaways": [
+        {
+          "en": "The writer burst onto the scene with a remarkable debut.",
+          "zh": "作家以非凡首作突然受到矚目。"
+        },
+        {
+          "en": "They may burst onto the scene after years of preparation.",
+          "zh": "他們可能在多年準備後突然受到矚目。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1437",
+      "number": 1437,
+      "inventoryId": "expr-1437",
+      "contentRevision": 1,
+      "titleEn": "unfolds quietly",
+      "titleZh": "不張揚地逐漸發展",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bunfold(?:s|ed|ing)?\\s+quietly\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p164-t1-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 164,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Other talent unfolds quietly over time.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "unfolds quietly",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Develop gradually without great publicity or a dramatic moment.",
+        "meaningZh": "沒有轟動場面或大量宣傳，逐漸發展。",
+        "grammar": "a story / process / talent unfolds quietly",
+        "register": "neutral",
+        "boundaryZh": "quietly 不一定指完全沒有聲音或秘密進行；低調發展也可有實質進步。",
+        "misconceptionZh": "quietly 不一定指完全沒有聲音或秘密進行；低調發展也可有實質進步。",
+        "outcomeZh": "理解「不張揚地逐漸發展」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Her progress unfolded quietly through months of patient work rather than one dramatic breakthrough.",
+        "zh": "她的進步透過幾個月耐心工作低調地展開，而非一次轟動突破。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "進步是逐漸累積，沒有轟動時刻。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她完全沒有任何進步。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她的全部成果在一天內突然完成。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "只要沒有宣傳，事情就必定是秘密。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "months 與 rather than one breakthrough 對比漸進發展和突然突破。"
+      },
+      "reply": {
+        "promptEn": "Does every learner need a dramatic breakthrough to make real progress?",
+        "promptZh": "每位學生都需要轟動突破，才算真正進步嗎？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "No; development often unfolds quietly.",
+            "zh": "不需要；發展常常低調地逐漸展開。"
+          },
+          {
+            "id": "reply-2",
+            "en": "No; small improvements can build over time.",
+            "zh": "不需要；小改善可以隨時間累積。"
+          },
+          {
+            "id": "reply-3",
+            "en": "No; regular work may matter more than a public success.",
+            "zh": "不需要；定期投入可能比公開成功更重要。"
+          },
+          {
+            "id": "reply-4",
+            "en": "No; progress can be meaningful without attracting attention.",
+            "zh": "不需要；進步不受矚目也可以有意義。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生每天學一點，幾個月後能力明顯改善，卻沒有一次特別的成名時刻。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Her development unfolded quietly.",
+            "zh": "她的發展低調地逐漸展開。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her development happened entirely in one sudden moment.",
+            "zh": "她的發展完全在一個突然時刻發生。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Her lack of publicity proves no development occurred.",
+            "zh": "沒有宣傳證明她完全沒有發展。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "持續累積而不張揚，與突然一刻或完全沒進展不同。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解最不符合 unfolds quietly？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "發展可以漸進而不引人注目。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "低調不代表沒有實質改變。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它必定表示完全沒有發展，因為沒有人宣傳。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "quietly 描述展開方式，不否定發展本身。"
+      },
+      "dialogue": {
+        "promptZh": "朋友因沒有公開獎項而覺得幾個月練習都沒用。哪句回應較合適？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Progress can unfold quietly; compare what you can do now with what you could do before.",
+            "zh": "進步可以低調地逐漸展開；比較現在和以前能做到的事。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Wait for a public award before comparing what you can do now with your early work.",
+            "zh": "等到有公開獎項，才比較現在能力與早期作品。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Measure the progress mainly by how many people have heard about the practice.",
+            "zh": "主要以多少人聽說過練習，量度進步。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "進步可低調展開，應比較實際能力，不以獎項或知名度作主要證據。"
+      },
+      "speaking": {
+        "en": "Her development unfolded quietly over several months.",
+        "zh": "她的發展在幾個月內低調地逐漸展開。",
+        "targetSpan": {
+          "start": 16,
+          "end": 32
+        },
+        "promptZh": "你想說進步是慢慢累積，而不是突然成名。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：同學每天練習閱讀，沒有得獎或受到關注，但半年後能理解更長文章。用一至兩句英文描述這種進步。",
+        "examples": [
+          {
+            "en": "Her progress unfolded quietly through daily reading, and she can now understand longer articles.",
+            "zh": "她的進步透過每天閱讀低調地展開，現在能理解更長文章。"
+          },
+          {
+            "en": "Learning can unfold quietly over time, as her steady reading habit shows.",
+            "zh": "正如她穩定的閱讀習慣所顯示，學習可以隨時間低調地展開。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "daily reading",
+            "zh": "每天閱讀",
+            "exampleIndex": 0,
+            "span": {
+              "start": 38,
+              "end": 51
+            }
+          },
+          {
+            "en": "longer articles",
+            "zh": "更長文章",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 95
+            }
+          },
+          {
+            "en": "over time",
+            "zh": "隨着時間",
+            "exampleIndex": 1,
+            "span": {
+              "start": 28,
+              "end": 37
+            }
+          },
+          {
+            "en": "her steady reading habit",
+            "zh": "她穩定的閱讀習慣",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 66
+            }
+          }
+        ],
+        "selfCheckZh": "以能力逐步改善作證據，別把 quietly 誤解為沒有進步或必定秘密。"
+      },
+      "takeaways": [
+        {
+          "en": "Learning often unfolds quietly through regular practice.",
+          "zh": "學習常透過定期練習低調地逐漸展開。"
+        },
+        {
+          "en": "Her talent unfolded quietly before anyone noticed.",
+          "zh": "在別人留意前，她的才華已低調地逐漸發展。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1438",
+      "number": 1438,
+      "inventoryId": "expr-1438",
+      "contentRevision": 1,
+      "titleEn": "support them, not suffocate them",
+      "titleZh": "支持而不過度控制",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bsupport\\s+(them|us|me|you|him|her),?\\s+not\\s+suffocate\\s+\\1\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p164-t1-r13",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 164,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Good teachers support them, not suffocate them.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "support them, not suffocate them",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Help people develop while avoiding excessive control.",
+        "meaningZh": "提供成長支援，同時避免過度控制。",
+        "grammar": "support someone, not suffocate the same person",
+        "register": "neutral",
+        "boundaryZh": "suffocate 比喻控制過多，並非真正窒息；不表示支援必須沒有任何界線或指引。",
+        "misconceptionZh": "suffocate 比喻控制過多，並非真正窒息；不表示支援必須沒有任何界線或指引。",
+        "outcomeZh": "理解「支持而不過度控制」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "When teenagers choose courses, parents can support them, not suffocate them, by offering advice and room to decide.",
+        "zh": "青少年選課時，家長可以提供建議和決定空間，支持他們，而不是過度控制。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "家長可提供建議，同時保留自主空間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "任何建議都等於過度控制。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "支持孩子必須取消所有界線。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "家長應替孩子決定每個細節。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "advice 配合 room for choices，展示支援與過度控制的分別。"
+      },
+      "reply": {
+        "promptEn": "How can adults help teenagers without taking over?",
+        "promptZh": "成人可以怎樣幫助青少年，而不全面接管？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "They can support them, not suffocate them.",
+            "zh": "他們可以支持青少年，而不是過度控制。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Offer guidance and let them make some decisions.",
+            "zh": "提供指引，並讓他們作一些決定。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Ask what help they need before stepping in.",
+            "zh": "介入前先問他們需要甚麼幫助。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Keep reasonable boundaries while allowing room to try.",
+            "zh": "保留合理界線，同時容許嘗試空間。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "導師示範安全步驟，之後讓學生選設計方法，也願意隨時解答。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She aims to support them, not suffocate them.",
+            "zh": "她希望支持他們，而不是過度控制。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She has removed every opportunity for their own ideas.",
+            "zh": "她已取消他們提出自己想法的所有機會。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She offers no guidance or help of any kind.",
+            "zh": "她完全不提供任何指引或協助。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "示範和答疑提供支援，自選設計保留自主，不是全面控制或完全放任。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 support them, not suffocate them？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "可提供指引而保留自主空間。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "避免為別人決定每個細節。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "任何界線或安全說明都必定是過度控制。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "合理界線不必取消自主；比喻批評的是過度控制。"
+      },
+      "dialogue": {
+        "promptZh": "家長擔心讓孩子選課就等於完全不管。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You can support them, not suffocate them, by discussing options without making every choice.",
+            "zh": "你可以討論選項但不代作每個選擇，支持他們而不過度控制。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Leave the course choices entirely unexplained so the children can decide without discussion.",
+            "zh": "完全不解釋課程選擇，讓孩子不經討論便決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Choose the preferred course for them first, then ask whether they feel supported.",
+            "zh": "先替他們選好較喜歡的課程，再問是否感到被支持。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提供資訊與保留自主可配合；不討論或先代選，都未兼顧兩者。"
+      },
+      "speaking": {
+        "en": "As students learn, we should support them, not suffocate them.",
+        "zh": "學生學習時，我們應支持他們，而不是過度控制。",
+        "targetSpan": {
+          "start": 29,
+          "end": 61
+        },
+        "promptZh": "你希望提供支援又保留學生的選擇空間。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你指導新組員做海報，先說明尺寸和安全要求，再讓他們自己選構圖。用一至兩句英文說明原則。",
+        "examples": [
+          {
+            "en": "New members need guidance; we should support them, not suffocate them, by explaining the requirements and allowing their own ideas.",
+            "zh": "新組員需要指引；我們應說明要求並容許他們自己的想法，支持他們而不是過度控制。"
+          },
+          {
+            "en": "The new members can choose the layout after we discuss the basic rules. I want to support them, not suffocate them.",
+            "zh": "我們討論基本規則後，新組員可以自行選版面。我想支持他們，而不是過度控制。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "explaining the requirements",
+            "zh": "說明要求",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 101
+            }
+          },
+          {
+            "en": "their own ideas",
+            "zh": "他們自己的想法",
+            "exampleIndex": 0,
+            "span": {
+              "start": 115,
+              "end": 130
+            }
+          },
+          {
+            "en": "choose the layout",
+            "zh": "選擇版面",
+            "exampleIndex": 1,
+            "span": {
+              "start": 20,
+              "end": 37
+            }
+          },
+          {
+            "en": "the basic rules",
+            "zh": "基本規則",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 70
+            }
+          }
+        ],
+        "selfCheckZh": "具體說明支援及自主空間，不把合理要求寫成一定有害。"
+      },
+      "takeaways": [
+        {
+          "en": "When students need guidance, good mentors support them, not suffocate them.",
+          "zh": "學生需要指引時，好的導師支持他們，而不是過度控制。"
+        },
+        {
+          "en": "As teenagers gain independence, we try to support them, not suffocate them.",
+          "zh": "青少年逐漸獨立時，我們努力支持他們，而不是過度控制。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1439",
+      "number": 1439,
+      "inventoryId": "expr-1439",
+      "contentRevision": 1,
+      "titleEn": "script their lives",
+      "titleZh": "預先替別人安排人生",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bscript(?:s|ed|ing)?\\s+(?:my|your|his|her|our|their)\\s+li(?:fe|ves)\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 31,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Parents cannot script their lives for them.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "script their lives",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Try to predetermine someone’s life choices as if writing a script.",
+        "meaningZh": "像寫劇本般預先替人決定人生選擇。",
+        "grammar": "script someone’s life / their lives",
+        "register": "neutral",
+        "boundaryZh": "本課是控制選擇的比喻，不是寫傳記；提出建議不一定等於替人寫好人生。",
+        "misconceptionZh": "本課是控制選擇的比喻，不是寫傳記；提出建議不一定等於替人寫好人生。",
+        "outcomeZh": "理解「預先替別人安排人生」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The adviser wanted to help students explore options, not script their lives.",
+        "zh": "顧問想幫學生探索選擇，而不是預先替他們安排人生。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "顧問希望支援選擇，而非代決人生。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "顧問要替每個學生定下唯一職涯。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "顧問認為學生不能有任何意見。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "任何建議都必然奪走人生選擇。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "explore options 與 not script 對比幫助探索及預定所有選擇。"
+      },
+      "reply": {
+        "promptEn": "What is the difference between career guidance and control?",
+        "promptZh": "職涯指引與控制有甚麼分別？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Guidance helps people choose; it should not script their lives.",
+            "zh": "指引幫人選擇，不應預先替他們安排人生。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Useful advice leaves room for the person’s own decision.",
+            "zh": "有用的建議保留本人決定的空間。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Control removes alternatives rather than discussing them.",
+            "zh": "控制會取消其他選擇，而不是討論。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Good guidance listens to the person’s interests.",
+            "zh": "好的指引會聆聽本人的興趣。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家長從孩子選科到職業都定好唯一安排，不容討論其他方向。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are trying to script her life.",
+            "zh": "他們正試圖預先替她安排人生。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are exploring several options with her before she decides.",
+            "zh": "他們正和她探索幾個選項，再由她決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They are asking what support she wants.",
+            "zh": "他們正詢問她希望得到甚麼支援。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "預定唯一選擇並拒絕討論，符合把人生寫成劇本的比喻。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不應單憑它稱為 script their lives？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "替別人決定每個主要選擇，不容更改。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "提供資訊並詢問對方興趣，最後由對方決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "不理對方意願，強迫照既定人生路線走。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "提供資訊並保留決定權是指引，不必是控制人生。"
+      },
+      "dialogue": {
+        "promptZh": "朋友擔心任何幫孩子計劃未來都等於操控。哪句回應較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You can discuss the future without trying to script their lives.",
+            "zh": "你可以討論未來，而不試圖替他們安排整個人生。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Present the complete future plan before asking which parts the child wants to choose.",
+            "zh": "先提出完整未來計劃，再問孩子想自己選哪些部分。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Avoid discussing course information until the child has made the final choice alone.",
+            "zh": "等孩子獨自作最後選擇後，才討論課程資訊。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "可在決定前分享資訊並聽取想法，不必先安排完整人生，也不必等選定才給資料。"
+      },
+      "speaking": {
+        "en": "We should guide young people, not script their lives.",
+        "zh": "我們應指引年輕人，而不是替他們安排整個人生。",
+        "targetSpan": {
+          "start": 34,
+          "end": 52
+        },
+        "promptZh": "你想區分提供指引和控制人生選擇。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：同學想選技術課程，家人卻要求照他們預定的職業路線。你想建議家人先聽興趣、討論選項。用一至兩句英文表達。",
+        "examples": [
+          {
+            "en": "His family should discuss the options, not script his life. They need to listen to his interests.",
+            "zh": "家人應討論選項，而不是替他安排人生。他們需要聆聽他的興趣。"
+          },
+          {
+            "en": "Parents can guide young people without trying to script their lives or remove every alternative.",
+            "zh": "家長可以指引年輕人，而不試圖替他們安排人生或取消所有其他選擇。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "discuss the options",
+            "zh": "討論選項",
+            "exampleIndex": 0,
+            "span": {
+              "start": 18,
+              "end": 37
+            }
+          },
+          {
+            "en": "His family",
+            "zh": "他的家人",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 10
+            }
+          },
+          {
+            "en": "listen to his interests",
+            "zh": "聆聽他的興趣",
+            "exampleIndex": 0,
+            "span": {
+              "start": 73,
+              "end": 96
+            }
+          },
+          {
+            "en": "remove every alternative",
+            "zh": "取消所有其他選擇",
+            "exampleIndex": 1,
+            "span": {
+              "start": 71,
+              "end": 95
+            }
+          }
+        ],
+        "selfCheckZh": "用具體自主或替代方案區分指引和代決，不把任何建議都當控制。"
+      },
+      "takeaways": [
+        {
+          "en": "We can guide people without trying to script their lives.",
+          "zh": "我們可以指引人，而不試圖替他們安排人生。"
+        },
+        {
+          "en": "She wanted advice, not someone to script her life.",
+          "zh": "她想要建議，而不是有人替她安排人生。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1440",
+      "number": 1440,
+      "inventoryId": "expr-1440",
+      "contentRevision": 1,
+      "titleEn": "the head of the family",
+      "titleZh": "家中被視為領導的人",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+head\\s+of\\s+the\\s+family\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The eldest aunt was treated as the head of the family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the head of the family",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p165-t2-r11",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The eldest aunt was treated as the head of the family.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the head of the family",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The person regarded as the leader or principal decision-maker of a family.",
+        "meaningZh": "在某個家庭中被視為領導或主要決策的人。",
+        "grammar": "be regarded as / act as the head of the family",
+        "register": "neutral",
+        "boundaryZh": "不必是男性、最年長者或最高收入者；描述角色不等於認同其有權忽視其他家人。",
+        "misconceptionZh": "不必是男性、最年長者或最高收入者；描述角色不等於認同其有權忽視其他家人。",
+        "outcomeZh": "理解「家中被視為領導的人」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "In their household, the aunt is seen as the head of the family, but major decisions are discussed together.",
+        "zh": "在他們家中，姨媽被視為家中領導，但重大決定會一起討論。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "家人把姨媽視為領導，同時仍會共同討論。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她一定是家中唯一有意見權的人。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "家中領導必定是男性。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她的角色只取決於收入最高。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "aunt 說明角色不必是男性，but 後清楚保留共同討論。"
+      },
+      "reply": {
+        "promptEn": "Who is regarded as the leader in their household?",
+        "promptZh": "他們家中誰被視為領導的人？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Their grandmother is regarded as the head of the family.",
+            "zh": "他們的祖母被視為家中領導。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Their grandmother usually coordinates the big discussions.",
+            "zh": "通常由祖母協調重大討論。"
+          },
+          {
+            "id": "reply-3",
+            "en": "They often turn to their grandmother for the main family decisions.",
+            "zh": "重大家庭決定時，他們常找祖母商量。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Their grandmother is the person they recognise in that role.",
+            "zh": "祖母是他們認同擔任這個角色的人。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "家人普遍找姐姐協調重大決定，並把她視作家庭領導。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She is regarded as the head of the family.",
+            "zh": "她被視為家中領導。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Her leadership role proves no one else may be consulted.",
+            "zh": "她的領導角色證明不能諮詢其他人。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She must earn the most money because she leads discussions.",
+            "zh": "因為她帶領討論，所以她一定收入最高。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "角色是被視為領導，不自動決定收入或排除其他人。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不由 the head of the family 本身保證？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "那人在家庭中被視為領導。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "那人一定是男性，而且一定收入最高。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它可以描述某家庭認可的角色。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "性別和收入不是這個角色名稱本身的必要條件。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說家中有領導者，其他人就不能表達意見。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Being the head of the family does not have to exclude discussion with others.",
+            "zh": "擔任家中領導不必排除與其他人討論。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Gather the other family members’ views only after the decision has been announced.",
+            "zh": "宣佈決定後，才收集其他家人的意見。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Use the title to settle a disagreement before hearing what the others need.",
+            "zh": "未聽其他人需要，就用領導頭銜解決分歧。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "家庭領導仍可在決定前聆聽，頭銜不取代了解需要與商量。"
+      },
+      "speaking": {
+        "en": "She is regarded as the head of the family.",
+        "zh": "她被視為家中領導。",
+        "targetSpan": {
+          "start": 19,
+          "end": 41
+        },
+        "promptZh": "你想描述某家庭認可的領導角色。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：家庭聚會通常由祖母帶領商量安排，但每位家人都可發表意見。用一至兩句英文描述她的角色及共同討論。",
+        "examples": [
+          {
+            "en": "Our grandmother is seen as the head of the family, but everyone can share an opinion.",
+            "zh": "祖母被視為家中領導，但每個人都可以分享意見。"
+          },
+          {
+            "en": "The head of the family is our grandmother, who brings everyone into the discussion.",
+            "zh": "家中領導是祖母，她會讓每個人參與討論。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Our grandmother",
+            "zh": "我們的祖母",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 15
+            }
+          },
+          {
+            "en": "everyone can share",
+            "zh": "每個人都可以分享",
+            "exampleIndex": 0,
+            "span": {
+              "start": 55,
+              "end": 73
+            }
+          },
+          {
+            "en": "an opinion",
+            "zh": "意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 84
+            }
+          },
+          {
+            "en": "the discussion",
+            "zh": "討論",
+            "exampleIndex": 1,
+            "span": {
+              "start": 68,
+              "end": 82
+            }
+          }
+        ],
+        "selfCheckZh": "描述這個家庭的角色，並保留其他人的聲音，不作普遍性別或收入推論。"
+      },
+      "takeaways": [
+        {
+          "en": "The head of the family can still invite everyone’s views.",
+          "zh": "家中領導仍可邀請每個人表達意見。"
+        },
+        {
+          "en": "Their aunt is regarded as the head of the family.",
+          "zh": "他們的姨媽被視為家中領導。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1441",
+      "number": 1441,
+      "inventoryId": "expr-1441",
+      "contentRevision": 1,
+      "titleEn": "calling the shots",
+      "titleZh": "掌握主要決定權",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bcall(?:s|ed|ing)?\\s+the\\s+shots\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The board is calling the shots on spending.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "calling the shots",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p265-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 265,
+          "book": 9,
+          "question": 30,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "The board is calling the shots on spending.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "calling the shots",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p033-t1-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 33,
+          "book": 2,
+          "question": 32,
+          "sample": "S2",
+          "sourceBookPages": "90–92",
+          "expression": "call the shots",
+          "sentence": "The owner can call the shots in her own shop.",
+          "referenceSentenceKind": "guide_original_example",
+          "locatorNote": "PDF page 33, table 1, row 7"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Make the important decisions or be in control of an activity.",
+        "meaningZh": "作出主要決定，或掌握事情的控制權。",
+        "grammar": "someone calls / is calling the shots",
+        "register": "neutral",
+        "boundaryZh": "說明誰掌握決策，不表示此人一定最有錢、最年長，或每個決定都正確。",
+        "misconceptionZh": "說明誰掌握決策，不表示此人一定最有錢、最年長，或每個決定都正確。",
+        "outcomeZh": "理解「掌握主要決定權」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Although the team discusses ideas, the producer is calling the shots on the final edit.",
+        "zh": "雖然團隊會討論想法，但製作人掌握最後剪接的主要決定權。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "製作人作最後剪接的主要決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "團隊完全沒有討論任何想法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "製作人的每個決定都必定正確。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "職位最高者必須親自完成所有剪接工作。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "discusses ideas 與 calling the shots 區分參與討論和掌握決策。"
+      },
+      "reply": {
+        "promptEn": "Who decides the main direction of the project?",
+        "promptZh": "誰決定項目的主要方向？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The project leader is calling the shots.",
+            "zh": "項目負責人掌握主要決定權。"
+          },
+          {
+            "id": "reply-2",
+            "en": "The project leader makes the final choices.",
+            "zh": "項目負責人作最後選擇。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We give suggestions, but the leader decides what goes ahead.",
+            "zh": "我們提出建議，但負責人決定實行甚麼。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The leader is responsible for the key decisions.",
+            "zh": "負責人負責主要決定。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "設計小組可提出建議，但一位負責人決定用哪個版本及何時發布。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The person in charge is calling the shots.",
+            "zh": "負責人掌握主要決定權。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every suggestion automatically becomes a final decision.",
+            "zh": "每項建議都自動成為最後決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "No one has authority to choose a version.",
+            "zh": "沒有人有權選版本。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "負責人決定版本和時間，顯示主要控制權，而非每個建議都直接生效。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 calling the shots？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "掌握主要決定權。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "可先聆聽建議，再作決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "保證作決定的人每次都對，而且一定收入最高。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "決策角色不自動證明正確性或收入。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說主管掌握決策，所以聽意見沒有意義。哪句回應較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Someone can call the shots and still listen carefully before deciding.",
+            "zh": "一個人可以掌握決策，同時在決定前用心聆聽。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Ask for opinions only after telling the team which option has already been selected.",
+            "zh": "先告訴團隊已選哪個方案，再徵求意見。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the final decision-maker’s first preference as the agreed team view.",
+            "zh": "把最後決策者最初的喜好，當作團隊已同意的意見。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "最後權限不取消事前聆聽；已選定才問或把個人初步喜好當共識，都混淆輸入與決定。"
+      },
+      "speaking": {
+        "en": "Our coordinator is calling the shots on the schedule.",
+        "zh": "我們的協調員掌握時間表的主要決定權。",
+        "targetSpan": {
+          "start": 19,
+          "end": 36
+        },
+        "promptZh": "你想說誰負責決定時間表。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：校劇組先討論海報設計，最後由導演選版本，但她會先聽學生意見。用一至兩句英文描述決策方式。",
+        "examples": [
+          {
+            "en": "The director is calling the shots on the poster, but she listens to the students first.",
+            "zh": "導演掌握海報的主要決定權，但她會先聽學生意見。"
+          },
+          {
+            "en": "The students offer ideas, while the director calls the shots on the final design.",
+            "zh": "學生提出想法，而導演掌握最後設計的主要決定權。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The director",
+            "zh": "導演",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 12
+            }
+          },
+          {
+            "en": "on the poster",
+            "zh": "在海報方面",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 47
+            }
+          },
+          {
+            "en": "listens to the students",
+            "zh": "聽學生意見",
+            "exampleIndex": 0,
+            "span": {
+              "start": 57,
+              "end": 80
+            }
+          },
+          {
+            "en": "the final design",
+            "zh": "最後設計",
+            "exampleIndex": 1,
+            "span": {
+              "start": 64,
+              "end": 80
+            }
+          }
+        ],
+        "selfCheckZh": "指出主要決策者，同時可保留討論和聆聽，不把角色說成必定專斷。"
+      },
+      "takeaways": [
+        {
+          "en": "Who is calling the shots on this project?",
+          "zh": "誰掌握這個項目的主要決定權？"
+        },
+        {
+          "en": "She calls the shots after listening to the team.",
+          "zh": "她聽取團隊意見後作主要決定。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1442",
+      "number": 1442,
+      "inventoryId": "expr-1442",
+      "contentRevision": 1,
+      "titleEn": "structured more like a ladder than a circle",
+      "titleZh": "層級式而非平等並列",
+      "category": "figurative",
+      "target": {
+        "pattern": "\\bstructured\\s+more\\s+like\\s+a\\s+ladder\\s+than\\s+a\\s+circle\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r04",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "That household was structured more like a ladder than a circle.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "structured more like a ladder than a circle",
+          "sourceCategory": "Figurative use"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Organised by ranks or levels rather than equal standing.",
+        "meaningZh": "比喻按上下層級組織，而不是以平等地位並列。",
+        "grammar": "an organisation is structured more like a ladder than a circle",
+        "register": "neutral",
+        "boundaryZh": "描述組織形態，不自動證明公平、不公平、效率或每人不能發言；需額外語境判斷。",
+        "misconceptionZh": "描述組織形態，不自動證明公平、不公平、效率或每人不能發言；需額外語境判斷。",
+        "outcomeZh": "理解「層級式而非平等並列」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The committee is structured more like a ladder than a circle: decisions pass through several ranks.",
+        "zh": "委員會的結構較像梯子而非圓圈：決定會經過幾個層級。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "委員會有上下層級的決策安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "所有成員都具有完全相同的權限。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "決定由所有成員同時直接批准，不經任何層級。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "層級只代表工作年資，與決策途徑無關。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "several ranks 解釋梯子意象是層級；不能單憑比喻判斷公平。"
+      },
+      "reply": {
+        "promptEn": "How would you describe an organisation with clear ranks?",
+        "promptZh": "你會怎樣描述有明確層級的組織？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It is structured more like a ladder than a circle.",
+            "zh": "它的結構較像梯子而非圓圈。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Authority is divided into several levels.",
+            "zh": "權限分成幾個層級。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Some decisions must go to a higher level.",
+            "zh": "有些決定必須交到較高層。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Members have different decision-making responsibilities.",
+            "zh": "成員有不同的決策責任。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "機構中職員向主管匯報，主管再向總監匯報，並非人人有相同權限。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It is structured more like a ladder than a circle.",
+            "zh": "它的結構較像梯子而非圓圈。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Every member has identical authority in every matter.",
+            "zh": "每位成員在每件事上都有完全相同權限。"
+          },
+          {
+            "id": "choice-3",
+            "en": "There are no reporting levels in the organisation.",
+            "zh": "機構中沒有任何匯報層級。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "多個匯報層級支持梯子的比較，與權限完全相同不同。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論超出了 structured more like a ladder than a circle 的本身意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "組織有明確上下層級。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "權限並非完全並列。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "有層級就證明每個決定都不公平。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "結構形態本身不足以決定所有決定是否公平。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說層級式機構必定不能聽基層意見。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It can be structured more like a ladder than a circle and still have channels for feedback.",
+            "zh": "它可以是較像梯子而非圓圈的結構，同時仍有回饋渠道。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep feedback within each rank so no concern can reach the level above it.",
+            "zh": "把回饋留在各自級別，不讓疑慮傳到上一層。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Describe a feedback form as proof that staff already have equal decision-making authority.",
+            "zh": "把回饋表當作員工已享同等決策權的證據。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "層級可有跨層回饋，但有回饋也不等於決策權相同；結構與意見渠道須分清。"
+      },
+      "speaking": {
+        "en": "The organisation is structured more like a ladder than a circle.",
+        "zh": "這個機構的結構較像梯子而非圓圈。",
+        "targetSpan": {
+          "start": 20,
+          "end": 63
+        },
+        "promptZh": "你想以梯子和圓圈比較組織的層級。先聽完整示範，再說一次。"
+      },
+      "writing": {
+        "promptZh": "新情境：一個青年團體有組員、組長及總負責人三層，重要建議依序提交，但設有意見箱。用一至兩句英文描述結構及回饋。",
+        "examples": [
+          {
+            "en": "The group is structured more like a ladder than a circle, with three levels of responsibility.",
+            "zh": "這個小組的結構較像梯子而非圓圈，有三個責任層級。"
+          },
+          {
+            "en": "It is structured more like a ladder than a circle, but members can still use the suggestion box.",
+            "zh": "它的結構較像梯子而非圓圈，但組員仍可使用意見箱。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The group",
+            "zh": "這個小組",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "three levels of responsibility",
+            "zh": "三個責任層級",
+            "exampleIndex": 0,
+            "span": {
+              "start": 63,
+              "end": 93
+            }
+          },
+          {
+            "en": "members can still use",
+            "zh": "組員仍可使用",
+            "exampleIndex": 1,
+            "span": {
+              "start": 55,
+              "end": 76
+            }
+          },
+          {
+            "en": "the suggestion box",
+            "zh": "意見箱",
+            "exampleIndex": 1,
+            "span": {
+              "start": 77,
+              "end": 95
+            }
+          }
+        ],
+        "selfCheckZh": "以層級解釋比較，並保留題目的意見渠道；不由結構直接推斷公平或專斷。"
+      },
+      "takeaways": [
+        {
+          "en": "The department is structured more like a ladder than a circle.",
+          "zh": "這個部門的結構較像梯子而非圓圈。"
+        },
+        {
+          "en": "A team structured more like a ladder than a circle may still encourage discussion.",
+          "zh": "結構較像梯子而非圓圈的團隊，仍可能鼓勵討論。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1443",
+      "number": 1443,
+      "inventoryId": "expr-1443",
+      "contentRevision": 1,
+      "titleEn": "the final say",
+      "titleZh": "最後決定權",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+final\\s+say\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Both parents should have the final say together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the final say",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p181-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 181,
+          "book": 7,
+          "question": 9,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Both parents should have the final say together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the final say",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p188-t1-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 188,
+          "book": 7,
+          "question": 15,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Both parents should have the final say together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the final say",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The authority to make the ultimate decision.",
+        "meaningZh": "作出最終決定的權力。",
+        "grammar": "have / get / give someone the final say on or in something",
+        "register": "neutral",
+        "boundaryZh": "不是最後一個開口的人，也不代表一定不聽意見或每次決定正確。",
+        "misconceptionZh": "不是最後一個開口的人，也不代表一定不聽意見或每次決定正確。",
+        "outcomeZh": "理解「最後決定權」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The team shares ideas, but the editor has the final say on the headline.",
+        "zh": "團隊會分享想法，但編輯擁有標題的最後決定權。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "編輯決定最後採用哪個標題。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "團隊中最後開口的人一定有權。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "分享想法表示沒有人能決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "編輯的每個選擇必定正確。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "has the final say 指權限，不是誰說最後一句或必然正確。"
+      },
+      "reply": {
+        "promptEn": "Who decides which version we publish?",
+        "promptZh": "誰決定我們發布哪個版本？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "The editor has the final say.",
+            "zh": "編輯有最後決定權。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We send our suggestions to the editor, who makes the decision.",
+            "zh": "我們把建議交給編輯，由她決定。"
+          },
+          {
+            "id": "reply-3",
+            "en": "The final choice belongs to the editor.",
+            "zh": "最後選擇由編輯作出。"
+          },
+          {
+            "id": "reply-4",
+            "en": "The editor is responsible for approving the published version.",
+            "zh": "編輯負責批准發布版本。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "學生討論活動日期，老師聽完意見後有權批准最後安排。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The teacher has the final say.",
+            "zh": "老師有最後決定權。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The person who speaks last automatically controls the decision.",
+            "zh": "最後開口的人自動控制決定。"
+          },
+          {
+            "id": "choice-3",
+            "en": "No one is authorised to approve the date.",
+            "zh": "沒有人有權批准日期。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "批准最終安排是決策權；與發言次序不同。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 the final say？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "最後決定權。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "可在聽取建議後行使的權限。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只要最後開口，不論職責或授權，就自動有決定權。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "say 在此不是按說話先後來分權。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說既然組長有最後決定權，就不用問同學。哪句回應較周全？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Having the final say does not prevent the leader from listening first.",
+            "zh": "擁有最後決定權，不會阻止組長先聽意見。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Collect classmates’ views after the final decision so the leader’s authority stays clear.",
+            "zh": "最後決定後才收集同學意見，讓組長權限保持清楚。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Treat the first suggestion from the leader as the final choice before discussion begins.",
+            "zh": "討論開始前，就把組長第一個建議當作最後選擇。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "保留最後決定權仍可先聽意見；延後聆聽或把初步建議當定案，都沒有善用討論。"
+      },
+      "speaking": {
+        "en": "Our editor has the final say on the title.",
+        "zh": "我們的編輯有標題的最後決定權。",
+        "targetSpan": {
+          "start": 15,
+          "end": 28
+        },
+        "promptZh": "你想說明誰有權批准標題。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：舞台組討論布景顏色，每人都可提意見，最後由設計主管批准。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "Everyone can suggest colours, but the design leader has the final say.",
+            "zh": "每個人都可以建議顏色，但設計主管有最後決定權。"
+          },
+          {
+            "en": "The design leader has the final say after hearing the team’s ideas about the scenery.",
+            "zh": "聽取團隊對布景的想法後，設計主管有最後決定權。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "Everyone can suggest colours",
+            "zh": "每個人都可建議顏色",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 28
+            }
+          },
+          {
+            "en": "the design leader",
+            "zh": "設計主管",
+            "exampleIndex": 0,
+            "span": {
+              "start": 34,
+              "end": 51
+            }
+          },
+          {
+            "en": "hearing the team’s ideas",
+            "zh": "聽取團隊想法",
+            "exampleIndex": 1,
+            "span": {
+              "start": 42,
+              "end": 66
+            }
+          },
+          {
+            "en": "the scenery",
+            "zh": "布景",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 84
+            }
+          }
+        ],
+        "selfCheckZh": "區分提意見與批准最後方案，不把最後決定權等同於發言次序。"
+      },
+      "takeaways": [
+        {
+          "en": "Who has the final say on the plan?",
+          "zh": "誰有計劃的最後決定權？"
+        },
+        {
+          "en": "She has the final say after consulting the team.",
+          "zh": "她諮詢團隊後，有最後決定權。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1444",
+      "number": 1444,
+      "inventoryId": "expr-1444",
+      "contentRevision": 1,
+      "titleEn": "a chain of command",
+      "titleZh": "分層的指揮及匯報架構",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\ba\\s+chain\\s+of\\s+command\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r06",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "A family need not operate as a chain of command.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "a chain of command",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "A hierarchy through which authority, instructions and reporting pass.",
+        "meaningZh": "權限、指示及匯報按層級傳遞的架構。",
+        "grammar": "follow / have / establish a chain of command",
+        "register": "neutral",
+        "boundaryZh": "不只軍隊可用；有層級不等於所有意見被禁止，也不自動保證效率或公平。",
+        "misconceptionZh": "不只軍隊可用；有層級不等於所有意見被禁止，也不自動保證效率或公平。",
+        "outcomeZh": "理解「分層的指揮及匯報架構」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The organisers set up a chain of command so volunteers knew whom to contact when a problem arose.",
+        "zh": "主辦者建立分層匯報架構，讓義工遇到問題時知道找誰。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "義工知道問題應按甚麼層級聯絡。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "每位義工都有完全相同的決策權。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "只有軍隊才可能有這種架構。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "有匯報架構就保證沒有任何錯誤。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "whom to contact 說明清楚的匯報關係；沒有保證零錯誤。"
+      },
+      "reply": {
+        "promptEn": "How can a large event make responsibility clearer?",
+        "promptZh": "大型活動可以怎樣讓責任更清楚？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "It can establish a chain of command.",
+            "zh": "它可以建立分層指揮及匯報架構。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Tell volunteers who handles each level of problem.",
+            "zh": "告訴義工誰負責各層次問題。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Make it clear who can approve urgent changes.",
+            "zh": "說明誰有權批准緊急改動。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Give each team a named contact for escalation.",
+            "zh": "為每隊指定遇到更大問題時的聯絡人。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "活動中義工先找隊長，隊長再把重大問題交總負責人。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The event has a chain of command.",
+            "zh": "活動有分層指揮及匯報架構。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Everyone has the same authority in every matter.",
+            "zh": "每個人在每件事上都有相同權限。"
+          },
+          {
+            "id": "choice-3",
+            "en": "There is no agreed route for reporting problems.",
+            "zh": "沒有議定的匯報問題途徑。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "隊長與總負責人的層級聯絡，構成權限及匯報鏈。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解最不符合 a chain of command？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "權限和匯報可分成不同層級。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "大型活動也可有這種架構。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它只可能出現在軍隊，任何其他機構都不能使用。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "這個表達也常用於其他有層級的機構和活動。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說建立層級就表示義工不能提出問題。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "A chain of command can clarify where to raise a concern, not forbid every concern.",
+            "zh": "分層匯報架構可以說明向哪裏反映疑慮，而不是禁止所有疑慮。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Save concerns for the end of the event so they do not interrupt the reporting route.",
+            "zh": "把疑慮留到活動結束才提，免得打斷匯報路線。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Send a routine concern straight to every senior person instead of checking the agreed contact.",
+            "zh": "不查議定聯絡人，把例行疑慮直接寄給每位高層。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "架構可提供及時而清楚的反映路線，並非延後提出或跳過議定聯絡人廣發訊息。"
+      },
+      "speaking": {
+        "en": "We need a chain of command for urgent decisions.",
+        "zh": "緊急決定需要有分層指揮架構。",
+        "targetSpan": {
+          "start": 8,
+          "end": 26
+        },
+        "promptZh": "你想讓大型活動的緊急決策責任更清楚。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：校慶義工不知道音響出問題要找誰，你建議先指定隊長，再由隊長聯絡總協調員。用一至兩句英文說明安排。",
+        "examples": [
+          {
+            "en": "We need a chain of command so volunteers know whom to contact about sound problems.",
+            "zh": "我們需要分層匯報架構，讓義工知道音響問題應聯絡誰。"
+          },
+          {
+            "en": "Major issues can move through a chain of command from the team leader to the main coordinator.",
+            "zh": "重大問題可循分層匯報架構，由隊長交給總協調員。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "volunteers know",
+            "zh": "義工知道",
+            "exampleIndex": 0,
+            "span": {
+              "start": 30,
+              "end": 45
+            }
+          },
+          {
+            "en": "whom to contact",
+            "zh": "應聯絡誰",
+            "exampleIndex": 0,
+            "span": {
+              "start": 46,
+              "end": 61
+            }
+          },
+          {
+            "en": "sound problems",
+            "zh": "音響問題",
+            "exampleIndex": 0,
+            "span": {
+              "start": 68,
+              "end": 82
+            }
+          },
+          {
+            "en": "the main coordinator",
+            "zh": "總協調員",
+            "exampleIndex": 1,
+            "span": {
+              "start": 73,
+              "end": 93
+            }
+          }
+        ],
+        "selfCheckZh": "交代清楚層級及聯絡責任，不把架構說成保證零錯誤或禁止提問。"
+      },
+      "takeaways": [
+        {
+          "en": "A chain of command can clarify responsibility.",
+          "zh": "分層匯報架構能釐清責任。"
+        },
+        {
+          "en": "The organisers agreed on a chain of command before the event.",
+          "zh": "活動前，主辦者議定了分層指揮及匯報架構。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1445",
+      "number": 1445,
+      "inventoryId": "expr-1445",
+      "contentRevision": 1,
+      "titleEn": "meet in the middle",
+      "titleZh": "雙方各退一步",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\b(?:meet|meets|meeting|met)\\s+in\\s+the\\s+middle\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r07",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The family agreed to meet in the middle on the schedule.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "meet in the middle",
+          "sourceCategory": "Idiom or set phrase"
+        },
+        {
+          "occurrenceId": "pdf-2-p199-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 199,
+          "book": 7,
+          "question": 27,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The family agreed to meet in the middle on the schedule.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "meet in the middle",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Reach a compromise by both sides adjusting their original positions.",
+        "meaningZh": "雙方調整原來立場，各退一步達成折衷。",
+        "grammar": "meet in the middle on an issue",
+        "register": "neutral",
+        "boundaryZh": "不是字面中間地點，也不要求數字恰好一半；若只有一方完全讓步，未必是雙方折衷。",
+        "misconceptionZh": "不是字面中間地點，也不要求數字恰好一半；若只有一方完全讓步，未必是雙方折衷。",
+        "outcomeZh": "理解「雙方各退一步」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "They met in the middle: one agreed to a shorter event and the other accepted a slightly larger budget.",
+        "zh": "他們各退一步：一方同意活動短一點，另一方接受預算稍高。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "雙方都調整了原來要求。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "只有一方完全接受對方所有要求。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "預算和活動長度必須剛好減半。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "雙方都拒絕任何改動。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "兩方各有調整，符合折衷；不必是數字上的正中點。"
+      },
+      "reply": {
+        "promptEn": "How could we resolve our different plans for the event?",
+        "promptZh": "我們可以怎樣解決對活動的不同計劃？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We could meet in the middle.",
+            "zh": "我們可以各退一步。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Each of us could adjust one part of the proposal.",
+            "zh": "我們各自可以調整方案的一部分。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We could look for a compromise that addresses both concerns.",
+            "zh": "我們可以找兼顧雙方疑慮的折衷。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Let us identify which points are flexible.",
+            "zh": "我們找出哪些地方可調整吧。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一人想兩小時活動，另一人想一小時，最後雙方同意九十分鐘。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They met in the middle.",
+            "zh": "他們各退一步。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Neither side changed its original position.",
+            "zh": "雙方都沒有改變原來立場。"
+          },
+          {
+            "id": "choice-3",
+            "en": "One side accepted every demand without any adjustment from the other.",
+            "zh": "一方接受所有要求，另一方完全沒有調整。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "雙方由原來要求調整到共同方案，是具體折衷。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 meet in the middle 的本課意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "雙方都調整部分要求。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一方完全照另一方要求做，另一方毫不調整。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "找出兼顧兩邊主要疑慮的方案。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "只有一方完全讓步，不同於雙方折衷。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為折衷一定是所有數字都剛好除二。哪句回應準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Meeting in the middle means both sides adjust, not necessarily splitting every number equally.",
+            "zh": "各退一步表示雙方調整，不一定把每個數字平均分半。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Choose the numerical midpoint before asking which constraints each side can change.",
+            "zh": "未問雙方哪些限制可調整，就先選數字中點。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Keep one side’s plan unchanged and ask the other side to make the adjustment.",
+            "zh": "保持一方計劃不變，要求另一方調整。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "折衷需理解可調部分並互相讓步；機械取中點或只讓一方改，未反映這個過程。"
+      },
+      "speaking": {
+        "en": "We can meet in the middle on the event schedule.",
+        "zh": "我們可以在活動時間表上各退一步。",
+        "targetSpan": {
+          "start": 7,
+          "end": 25
+        },
+        "promptZh": "你想邀請對方一起調整原來方案。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你想週六排練，朋友想整天休息，最後你們同意只早上短練，下午休息。用一至兩句英文描述雙方調整。",
+        "examples": [
+          {
+            "en": "We met in the middle by rehearsing briefly in the morning and resting in the afternoon.",
+            "zh": "我們各退一步，早上短時間排練，下午休息。"
+          },
+          {
+            "en": "Let us meet in the middle: a short morning session will leave the afternoon free.",
+            "zh": "我們各退一步吧：早上短練習，下午便能空出來。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "rehearsing briefly",
+            "zh": "短時間排練",
+            "exampleIndex": 0,
+            "span": {
+              "start": 24,
+              "end": 42
+            }
+          },
+          {
+            "en": "in the morning",
+            "zh": "在早上",
+            "exampleIndex": 0,
+            "span": {
+              "start": 43,
+              "end": 57
+            }
+          },
+          {
+            "en": "resting in the afternoon",
+            "zh": "下午休息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 62,
+              "end": 86
+            }
+          },
+          {
+            "en": "leave the afternoon free",
+            "zh": "把下午空出來",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 80
+            }
+          }
+        ],
+        "selfCheckZh": "指出雙方都有調整，不必把 compromise 說成固定平分每個數字。"
+      },
+      "takeaways": [
+        {
+          "en": "We should try to meet in the middle.",
+          "zh": "我們應試着各退一步。"
+        },
+        {
+          "en": "They met in the middle after discussing both concerns.",
+          "zh": "討論雙方疑慮後，他們各退一步。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1446",
+      "number": 1446,
+      "inventoryId": "expr-1446",
+      "contentRevision": 1,
+      "titleEn": "the main breadwinner",
+      "titleZh": "家庭主要經濟支柱",
+      "category": "idiom",
+      "target": {
+        "pattern": "\\bthe\\s+main\\s+breadwinner\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p165-t2-r10",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 165,
+          "book": 6,
+          "question": 32,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "Her mother became the main breadwinner.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "the main breadwinner",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "The person who earns the largest share of a household’s income.",
+        "meaningZh": "提供家庭收入中最大部分的人。",
+        "grammar": "be / become the main breadwinner",
+        "register": "neutral",
+        "boundaryZh": "主要收入者不必是男性、唯一有收入的人或家庭領導；收入角色不決定人的價值。",
+        "misconceptionZh": "主要收入者不必是男性、唯一有收入的人或家庭領導；收入角色不決定人的價值。",
+        "outcomeZh": "理解「家庭主要經濟支柱」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Her mother is the main breadwinner, although her father also has a part-time job.",
+        "zh": "她的母親是家庭主要經濟支柱，父親也有兼職。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "母親提供較大部分收入，父親也有收入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "父親完全沒有任何收入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "母親必定獨自作所有家庭決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "只有男性可以是家庭主要經濟支柱。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "main 指主要而非唯一；although 明確說父親也工作。"
+      },
+      "reply": {
+        "promptEn": "Who provides most of the income in that household?",
+        "promptZh": "那個家庭大部分收入由誰提供？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "Their mother is the main breadwinner.",
+            "zh": "母親是家庭主要經濟支柱。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Their mother earns the largest share of the household income.",
+            "zh": "母親賺取最大部分的家庭收入。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Most of their regular income comes from their mother’s job.",
+            "zh": "大部分固定收入來自母親的工作。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Their mother contributes more financially, while others also help.",
+            "zh": "母親在經濟上貢獻較多，其他人也有幫忙。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "一個家庭母親收入較高，父親有少量兼職收入，兩人共同商量開支。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The mother is the main breadwinner.",
+            "zh": "母親是家庭主要經濟支柱。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The father has no income at all.",
+            "zh": "父親完全沒有收入。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The mother’s income means she must make every decision alone.",
+            "zh": "母親的收入表示她必須獨自作所有決定。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "主要收入來源與唯一收入或全部決策權不同。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論不由 the main breadwinner 本身保證？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "這個人賺取較大部分家庭收入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "其他家人仍可能有收入。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "這個人一定是男性，而且必定控制每個家庭決定。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "角色說明收入貢獻，不指定性別或全部權力。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說收入較少就代表對家庭沒有貢獻。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Being the main breadwinner describes income, not the value of every kind of family work.",
+            "zh": "主要經濟支柱描述收入，不是衡量所有家庭工作的價值。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Compare contributions using the income figures before asking who provides care at home.",
+            "zh": "未問誰在家照顧家人，就先用收入數字比較貢獻。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Give the higher earner priority over discussions about household responsibilities.",
+            "zh": "討論家務責任時，先讓高收入者的意見優先。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "收入角色不直接衡量照顧和家務，也不自動決定討論權重。"
+      },
+      "speaking": {
+        "en": "My mother is the main breadwinner in our household.",
+        "zh": "母親是我們家的主要經濟支柱。",
+        "targetSpan": {
+          "start": 13,
+          "end": 33
+        },
+        "promptZh": "你想描述家中提供最多收入的人。先聽示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：姐姐工作收入最多，弟弟有兼職，而其他家人分擔照顧工作。用一至兩句英文描述收入角色並保留其他貢獻。",
+        "examples": [
+          {
+            "en": "My sister is the main breadwinner, while my brother earns some money from part-time work.",
+            "zh": "姐姐是主要經濟支柱，而弟弟也透過兼職賺一些錢。"
+          },
+          {
+            "en": "The main breadwinner is my sister, but other family members also contribute through care and paid work.",
+            "zh": "主要經濟支柱是姐姐，但其他家人也透過照顧和有薪工作作貢獻。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "My sister",
+            "zh": "我的姐姐",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 9
+            }
+          },
+          {
+            "en": "part-time work",
+            "zh": "兼職工作",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 88
+            }
+          },
+          {
+            "en": "other family members",
+            "zh": "其他家人",
+            "exampleIndex": 1,
+            "span": {
+              "start": 39,
+              "end": 59
+            }
+          },
+          {
+            "en": "care and paid work",
+            "zh": "照顧和有薪工作",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 102
+            }
+          }
+        ],
+        "selfCheckZh": "指出主要收入者而非唯一有價值的人，並尊重題目的其他收入或照顧貢獻。"
+      },
+      "takeaways": [
+        {
+          "en": "She became the main breadwinner for the household.",
+          "zh": "她成為家中的主要經濟支柱。"
+        },
+        {
+          "en": "The main breadwinner is not always the only person earning money.",
+          "zh": "主要經濟支柱不一定是唯一賺錢的人。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1447",
+      "number": 1447,
+      "inventoryId": "expr-1447",
+      "contentRevision": 1,
+      "titleEn": "working things out together",
+      "titleZh": "共同商量解決問題",
+      "category": "phrasal-verb",
+      "target": {
+        "pattern": "\\bwork(?:s|ed|ing)?\\s+things\\s+out\\s+together\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p166-t1-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 166,
+          "book": 6,
+          "question": 32,
+          "sample": "S2",
+          "locatorNote": "",
+          "sentence": "The couple are working things out together.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "working things out together",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Resolve problems or decisions cooperatively through discussion and adjustment.",
+        "meaningZh": "透過共同討論和調整，解決問題或作安排。",
+        "grammar": "work things out together; separable work out with object things",
+        "register": "neutral",
+        "boundaryZh": "表示合作解決，不保證立即意見一致；只同處一室卻不交流，不足以構成共同商量。",
+        "misconceptionZh": "表示合作解決，不保證立即意見一致；只同處一室卻不交流，不足以構成共同商量。",
+        "outcomeZh": "理解「共同商量解決問題」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "Rather than blaming one another, the neighbours began working things out together.",
+        "zh": "鄰居沒有互相指責，而是開始共同商量解決問題。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "鄰居開始合作找辦法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "鄰居已保證以後沒有任何分歧。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "鄰居只是同處一室，沒有討論。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "鄰居決定讓一人不理其他意見地處理一切。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "rather than blaming 與 together 對比指責和合作，沒有保證不再有分歧。"
+      },
+      "reply": {
+        "promptEn": "How can our group deal with the disagreement about duties?",
+        "promptZh": "小組可以怎樣處理分工上的分歧？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We could start working things out together.",
+            "zh": "我們可以開始共同商量解決。"
+          },
+          {
+            "id": "reply-2",
+            "en": "Let us explain what each person can manage.",
+            "zh": "我們說清楚每人能應付甚麼吧。"
+          },
+          {
+            "id": "reply-3",
+            "en": "We can compare the workload before changing the rota.",
+            "zh": "改輪值表前，可以先比較工作量。"
+          },
+          {
+            "id": "reply-4",
+            "en": "A calm discussion may help us find a fair arrangement.",
+            "zh": "平靜討論可能幫我們找到公平安排。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "室友各自說明時間限制，一起修改家務表，找到大家可接受的安排。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are working things out together.",
+            "zh": "他們正共同商量解決問題。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are ignoring one another’s needs.",
+            "zh": "他們正忽略彼此需要。"
+          },
+          {
+            "id": "choice-3",
+            "en": "One person is deciding every duty without discussion.",
+            "zh": "一人沒有討論就決定所有家務。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "互相說明和共同修改安排，構成合作解決而非單方決定。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況不符合 working things out together？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "各方說明需要，再共同調整安排。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "一人完全不聽其他人，獨自強制所有決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "討論不同方案，尋找彼此可接受的做法。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "單方面強制而不交流，缺少 together 的合作。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說只要需要共同商量，就表示團隊一定已失敗。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Working things out together can be part of a healthy team, even when views differ.",
+            "zh": "即使看法不同，共同商量解決也可以是良好團隊的一部分。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Hide the different views until the team has settled on a plan, then discuss them.",
+            "zh": "等團隊定好計劃後，才討論先隱藏的不同看法。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Ask one member to choose the solution first so the group can avoid working through the disagreement.",
+            "zh": "先請一位組員選解法，讓小組不用共同處理分歧。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "共同商量可在有分歧時運作；延後說明或先由一人決定，未真正一起處理。"
+      },
+      "speaking": {
+        "en": "We are working things out together instead of blaming each other.",
+        "zh": "我們正在共同商量解決，而不是互相指責。",
+        "targetSpan": {
+          "start": 7,
+          "end": 34
+        },
+        "promptZh": "你們遇到分歧，決定合作調整。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：朋友和室友對清潔安排有分歧，兩人說明作息後一起修改輪值表。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "They are working things out together by discussing their schedules and changing the cleaning rota.",
+            "zh": "他們正透過討論作息和修改清潔輪值表，共同商量解決問題。"
+          },
+          {
+            "en": "After explaining their needs, they started working things out together and agreed on a new rota.",
+            "zh": "說明需要後，他們開始共同商量解決，並議定新輪值表。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "discussing their schedules",
+            "zh": "討論各自作息",
+            "exampleIndex": 0,
+            "span": {
+              "start": 40,
+              "end": 66
+            }
+          },
+          {
+            "en": "the cleaning rota",
+            "zh": "清潔輪值表",
+            "exampleIndex": 0,
+            "span": {
+              "start": 80,
+              "end": 97
+            }
+          },
+          {
+            "en": "explaining their needs",
+            "zh": "說明各自需要",
+            "exampleIndex": 1,
+            "span": {
+              "start": 6,
+              "end": 28
+            }
+          },
+          {
+            "en": "a new rota",
+            "zh": "新輪值表",
+            "exampleIndex": 1,
+            "span": {
+              "start": 85,
+              "end": 95
+            }
+          }
+        ],
+        "selfCheckZh": "以雙向討論和共同調整作證據，不只是說兩人同在一處。"
+      },
+      "takeaways": [
+        {
+          "en": "Working things out together takes listening and patience.",
+          "zh": "共同商量解決問題需要聆聽和耐性。"
+        },
+        {
+          "en": "They worked things out together after a calm discussion.",
+          "zh": "平靜討論後，他們共同解決了問題。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1448",
+      "number": 1448,
+      "inventoryId": "expr-1448",
+      "contentRevision": 1,
+      "titleEn": "clear-headed",
+      "titleZh": "思路冷靜清晰",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bclear[- ]headed\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p166-t2-r02",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 166,
+          "book": 6,
+          "question": 33,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "She stayed clear-headed in the emergency.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "clear-headed",
+          "sourceCategory": "Idiom or set phrase"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Able to think calmly, clearly and sensibly.",
+        "meaningZh": "能冷靜、清晰而合理地思考。",
+        "grammar": "be / stay / remain clear-headed; a clear-headed response",
+        "register": "neutral",
+        "boundaryZh": "不表示沒有情緒或每次都對；本課是思考質素，不是頭部外觀。",
+        "misconceptionZh": "不表示沒有情緒或每次都對；本課是思考質素，不是頭部外觀。",
+        "outcomeZh": "理解「思路冷靜清晰」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide labels this an idiom or set phrase. This lesson teaches the established compound adjective as natural English describing clear thinking; it is not presented as an opaque idiom."
+      },
+      "listening": {
+        "en": "Even during the disagreement, she stayed clear-headed and checked the facts before deciding.",
+        "zh": "即使有分歧，她仍保持冷靜清晰，先查證再決定。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "她冷靜考慮證據後作決定。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "她完全沒有任何情緒。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "她拒絕查看任何事實。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "她的每個決定都已保證正確。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "checked the facts 說明清晰合理的思考；不必代表沒有情緒或不會犯錯。"
+      },
+      "reply": {
+        "promptEn": "What kind of response would help during this tense meeting?",
+        "promptZh": "這場緊張會議中，哪種回應會有幫助？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "A clear-headed response would help us examine the facts.",
+            "zh": "冷靜清晰的回應能幫我們檢視事實。"
+          },
+          {
+            "id": "reply-2",
+            "en": "We should pause before drawing conclusions.",
+            "zh": "下結論前應先停一停。"
+          },
+          {
+            "id": "reply-3",
+            "en": "It would help to separate the evidence from assumptions.",
+            "zh": "分開證據與假設會有幫助。"
+          },
+          {
+            "id": "reply-4",
+            "en": "We need calm reasoning rather than immediate blame.",
+            "zh": "我們需要冷靜推理，而不是立即指責。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "組長雖感失望，仍先整理證據、比較方案，再回應。哪句最貼切？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "She remained clear-headed.",
+            "zh": "她仍保持冷靜清晰。"
+          },
+          {
+            "id": "choice-2",
+            "en": "She made every decision without looking at the facts.",
+            "zh": "她作每個決定時都不看事實。"
+          },
+          {
+            "id": "choice-3",
+            "en": "She had no reason to consider any alternative.",
+            "zh": "她沒有理由考慮任何其他方案。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "有情緒仍能清楚推理，符合 clear-headed，而非完全沒有感受。"
+      },
+      "contrast": {
+        "promptZh": "哪個理解不符合 clear-headed？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "能冷靜合理地思考。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "可以有情緒，同時仔細判斷。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "它保證永遠沒有感受，而且每次決定都正確。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "清晰思考不等於沒有情緒或不會犯錯。"
+      },
+      "dialogue": {
+        "promptZh": "朋友說自己難過就不可能理性。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "You can feel upset and still take a clear-headed look at the facts.",
+            "zh": "你可以難過，同時冷靜清晰地看事實。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Make the decision while the feeling is strongest so you do not have to revisit it.",
+            "zh": "在感受最強時決定，免得之後重看。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Set the facts aside until you no longer have any personal reaction to the situation.",
+            "zh": "等你對情況不再有個人反應，才處理事實。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "情緒可與冷靜檢視並存；即時決定或等完全沒感受才查資料，都不是必要條件。"
+      },
+      "speaking": {
+        "en": "We need a clear-headed discussion before choosing a response.",
+        "zh": "選擇回應前，我們需要冷靜清晰的討論。",
+        "targetSpan": {
+          "start": 10,
+          "end": 22
+        },
+        "promptZh": "你希望小組先查證，不急着責怪。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：報告被批評後，你雖失望，仍先讀評語、核對資料，再決定怎樣修改。用一至兩句英文描述做法。",
+        "examples": [
+          {
+            "en": "I was disappointed, but I took a clear-headed look at the feedback before revising the report.",
+            "zh": "我雖失望，但修改報告前，仍冷靜清晰地看回饋。"
+          },
+          {
+            "en": "A clear-headed response helped me check the evidence and choose the next revision step.",
+            "zh": "冷靜清晰的回應幫我查證，並選擇下一步修改。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "I was disappointed",
+            "zh": "我很失望",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 18
+            }
+          },
+          {
+            "en": "the feedback",
+            "zh": "回饋",
+            "exampleIndex": 0,
+            "span": {
+              "start": 54,
+              "end": 66
+            }
+          },
+          {
+            "en": "revising the report",
+            "zh": "修改報告",
+            "exampleIndex": 0,
+            "span": {
+              "start": 74,
+              "end": 93
+            }
+          },
+          {
+            "en": "check the evidence",
+            "zh": "查證",
+            "exampleIndex": 1,
+            "span": {
+              "start": 34,
+              "end": 52
+            }
+          }
+        ],
+        "selfCheckZh": "描述整理資料和判斷的行動，不需假裝完全沒有感受。"
+      },
+      "takeaways": [
+        {
+          "en": "She stayed clear-headed under pressure.",
+          "zh": "她在壓力下仍思路冷靜清晰。"
+        },
+        {
+          "en": "A clear-headed review can help us choose the next step.",
+          "zh": "冷靜清晰的檢視能幫我們選下一步。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1449",
+      "number": 1449,
+      "inventoryId": "expr-1449",
+      "contentRevision": 1,
+      "titleEn": "every bit as practical",
+      "titleZh": "同樣實用毫不遜色",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bevery\\s+bit\\s+as\\s+practical\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p166-t2-r03",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 166,
+          "book": 6,
+          "question": 33,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Her solution was every bit as practical as his.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "every bit as practical",
+          "sourceCategory": "Natural English"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Equally practical, with emphasis that it is not less useful.",
+        "meaningZh": "強調同樣實用，並不較遜色。",
+        "grammar": "A is every bit as practical as B; comparator may be supplied by context",
+        "register": "neutral",
+        "boundaryZh": "比較實用程度，不代表價錢、外觀及所有功能完全相同；every bit 是強調，不是實際逐小塊計算。",
+        "misconceptionZh": "比較實用程度，不代表價錢、外觀及所有功能完全相同；every bit 是強調，不是實際逐小塊計算。",
+        "outcomeZh": "理解「同樣實用毫不遜色」的語境及用法，並在新情境寫出自然句子。"
+      },
+      "listening": {
+        "en": "The smaller bag is every bit as practical as the larger one for our short trips.",
+        "zh": "在短途旅行中，小袋和大袋同樣實用。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小袋在短途旅行中與大袋同樣實用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "兩個袋的大小和價錢完全相同。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "小袋在每種用途都必定更好。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "大袋完全沒有任何用處。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "as practical as 比較特定用途的實用程度，不是所有特點相同。"
+      },
+      "reply": {
+        "promptEn": "Is the simpler notebook less useful for our field notes?",
+        "promptZh": "較簡單的筆記簿用來記實地筆記，會較不好用嗎？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "No; it is every bit as practical as the expensive one.",
+            "zh": "不會；它和昂貴那本同樣實用。"
+          },
+          {
+            "id": "reply-2",
+            "en": "No; it has enough space for the notes we need.",
+            "zh": "不會；它有足夠空間記我們需要的筆記。"
+          },
+          {
+            "id": "reply-3",
+            "en": "No; the simpler design works well for this task.",
+            "zh": "不會；較簡單的設計很適合這項工作。"
+          },
+          {
+            "id": "reply-4",
+            "en": "No; the extra decoration does not help us record the data.",
+            "zh": "不會；額外裝飾沒有幫助記錄資料。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "兩種工具在這項工作上都方便有效，便宜的並不遜色。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "The cheaper tool is every bit as practical as the costly one.",
+            "zh": "便宜工具和昂貴那件同樣實用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "The cheaper tool is identical in every possible feature.",
+            "zh": "便宜工具在每項可能特點都完全相同。"
+          },
+          {
+            "id": "choice-3",
+            "en": "The costly tool cannot be used for any task.",
+            "zh": "昂貴工具不能用於任何工作。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "題目只比較實用程度，不能推論全部特點相同或另一件全無用處。"
+      },
+      "contrast": {
+        "promptZh": "哪個推論超出了 every bit as practical 的意思？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在相關用途上同樣實用。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "較簡單或便宜的選擇也可能毫不遜色。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "兩者的價格、外觀及所有性能都必須完全相同。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-3",
+        "explanationZh": "實用程度相同不等於所有特徵相同。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為便宜的方案一定不實用。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "It may be every bit as practical for our needs, even if the features differ.",
+            "zh": "即使功能有不同，對我們需要而言，它可能同樣實用。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Rank the options by price first and use the higher price as the main evidence of usefulness.",
+            "zh": "先按價錢排名，主要用較高價證明實用性。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Compare the number of extra features before checking which ones this task needs.",
+            "zh": "先比較額外功能數量，再查任務需要哪些功能。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "同樣實用要按具體需要比較，不能只靠價格或功能數量判斷。"
+      },
+      "speaking": {
+        "en": "The simpler plan is every bit as practical as the detailed one.",
+        "zh": "較簡單的計劃和詳細那個同樣實用。",
+        "targetSpan": {
+          "start": 20,
+          "end": 42
+        },
+        "promptZh": "你想強調簡單方案在實用性上不遜色。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：校外活動只需簡單記錄，便宜的紙本表格和昂貴應用程式都能完成任務。用一至兩句英文比較實用性，不必說功能相同。",
+        "examples": [
+          {
+            "en": "The paper form is every bit as practical as the app for this simple record.",
+            "zh": "對這項簡單紀錄，紙本表格和應用程式同樣實用。"
+          },
+          {
+            "en": "For our needs, the cheaper paper form is every bit as practical, even though it has fewer features.",
+            "zh": "對我們的需要而言，較便宜的紙本表格同樣實用，雖然功能較少。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "The paper form",
+            "zh": "紙本表格",
+            "exampleIndex": 0,
+            "span": {
+              "start": 0,
+              "end": 14
+            }
+          },
+          {
+            "en": "the app",
+            "zh": "應用程式",
+            "exampleIndex": 0,
+            "span": {
+              "start": 44,
+              "end": 51
+            }
+          },
+          {
+            "en": "this simple record",
+            "zh": "這項簡單紀錄",
+            "exampleIndex": 0,
+            "span": {
+              "start": 56,
+              "end": 74
+            }
+          },
+          {
+            "en": "fewer features",
+            "zh": "較少功能",
+            "exampleIndex": 1,
+            "span": {
+              "start": 84,
+              "end": 98
+            }
+          }
+        ],
+        "selfCheckZh": "把比較限定於題目的用途，不由同樣實用推成所有特點相同。"
+      },
+      "takeaways": [
+        {
+          "en": "The simpler option is every bit as practical.",
+          "zh": "較簡單的選擇同樣實用。"
+        },
+        {
+          "en": "This small tool is every bit as practical as the larger one.",
+          "zh": "這件小工具和較大那件同樣實用。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    },
+    {
+      "id": "advanced-native-1450",
+      "number": 1450,
+      "inventoryId": "expr-1450",
+      "contentRevision": 1,
+      "titleEn": "planning ahead",
+      "titleZh": "為將來提早作安排",
+      "category": "natural",
+      "target": {
+        "pattern": "\\bplan(?:s|ned|ning)?\\s+ahead\\b"
+      },
+      "sources": [
+        {
+          "occurrenceId": "pdf-2-p166-t2-r05",
+          "file": "Idiomatic and Natural English Expressions Books 2 to 9 Part 3.docx.pdf",
+          "sha256": "8467d8af3e05ceef7a34b72d97ab1a05b1403d6ad234c7c3dd2ed8705ab657d9",
+          "page": 166,
+          "book": 6,
+          "question": 33,
+          "sample": "S1",
+          "locatorNote": "",
+          "sentence": "Planning ahead helped the family save.",
+          "referenceSentenceKind": "guide_original_example",
+          "expression": "planning ahead",
+          "sourceCategory": "Phrasal verb"
+        }
+      ],
+      "brief": {
+        "meaningEn": "Prepare or make arrangements for future needs before they arise.",
+        "meaningZh": "在未來需要發生之前，提早準備或安排。",
+        "grammar": "plan ahead for something; plan is an ordinary verb and ahead specifies future preparation",
+        "register": "neutral",
+        "boundaryZh": "預先安排不保證完全沒有意外，也可在新資訊出現後調整；不是只描述事後補救。",
+        "misconceptionZh": "預先安排不保證完全沒有意外，也可在新資訊出現後調整；不是只描述事後補救。",
+        "outcomeZh": "理解「為將來提早作安排」的語境及用法，並在新情境寫出自然句子。",
+        "sourceClassificationNote": "The guide calls plan ahead a phrasal verb. This lesson treats it as a transparent natural verb-adverb pattern: plan retains its ordinary meaning and ahead specifies future preparation."
+      },
+      "listening": {
+        "en": "By planning ahead for the busy week, we reserved a room before all the spaces were taken.",
+        "zh": "為繁忙一週提早安排，我們在所有空間訂滿前預留了房間。",
+        "promptZh": "先只聽示範句。說話者想表達甚麼？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "小組在需要之前作準備。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "小組等到沒有房間才開始補救。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "預先安排保證以後永遠沒有改動。",
+            "zh": ""
+          },
+          {
+            "id": "choice-4",
+            "en": "預訂房間表示其他任何準備都不必做。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "before spaces were taken 顯示提前準備，而不是事後處理或保證零意外。"
+      },
+      "reply": {
+        "promptEn": "How can we avoid a last-minute rush before the event?",
+        "promptZh": "活動前，我們可以怎樣避免最後一刻趕忙？",
+        "options": [
+          {
+            "id": "reply-1",
+            "en": "We can start planning ahead now.",
+            "zh": "我們可以現在開始提早安排。"
+          },
+          {
+            "id": "reply-2",
+            "en": "List the bookings we need before the deadlines.",
+            "zh": "在限期前列出需要的預訂。"
+          },
+          {
+            "id": "reply-3",
+            "en": "Reserve the equipment while it is still available.",
+            "zh": "器材仍可借用時先預留。"
+          },
+          {
+            "id": "reply-4",
+            "en": "Give each task enough time before the event day.",
+            "zh": "活動日前，為每項任務留足時間。"
+          }
+        ],
+        "goldenId": "reply-1",
+        "explanationZh": "四種回應都能回答這個問題；含有本課表達的回應另外獲得金句標記。"
+      },
+      "scene": {
+        "promptZh": "校隊在賽前一個月核對交通、器材和報名限期。哪句最準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "They are planning ahead.",
+            "zh": "他們正在提早安排。"
+          },
+          {
+            "id": "choice-2",
+            "en": "They are only reacting after every deadline has passed.",
+            "zh": "他們只是在所有限期過後才反應。"
+          },
+          {
+            "id": "choice-3",
+            "en": "They no longer need to check any changes.",
+            "zh": "他們不再需要查看任何改動。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "需要前先核對和預備，符合 planning ahead，但仍可能需留意變化。"
+      },
+      "contrast": {
+        "promptZh": "哪個情況最不符合 planning ahead？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "在出發前預留交通及器材。",
+            "zh": ""
+          },
+          {
+            "id": "choice-2",
+            "en": "等到活動當天發現沒有場地才開始找補救方法。",
+            "zh": ""
+          },
+          {
+            "id": "choice-3",
+            "en": "在限期前列清要完成的工作。",
+            "zh": ""
+          }
+        ],
+        "answerId": "choice-2",
+        "explanationZh": "只在問題發生後補救，不是為未來需要提早準備。"
+      },
+      "dialogue": {
+        "promptZh": "朋友以為計劃好了，就不能因新資訊改動。哪句回應較準確？",
+        "options": [
+          {
+            "id": "choice-1",
+            "en": "Planning ahead can include backup options and later adjustments.",
+            "zh": "提早安排也可以包括後備方案和後來調整。"
+          },
+          {
+            "id": "choice-2",
+            "en": "Keep the first plan unchanged when the new information arrives so the earlier work is preserved.",
+            "zh": "新資訊來到時仍維持初稿，保留以前投入的工作。"
+          },
+          {
+            "id": "choice-3",
+            "en": "Put every uncertain detail aside and wait until the day itself before making any arrangements.",
+            "zh": "把不確定細節都擱下，到當天才作安排。"
+          }
+        ],
+        "answerId": "choice-1",
+        "explanationZh": "提早安排可包含後備及調整；固定原計劃或延後整體安排，都未兼顧準備與彈性。"
+      },
+      "speaking": {
+        "en": "Planning ahead gives us time to check the details.",
+        "zh": "提早安排讓我們有時間核對細節。",
+        "targetSpan": {
+          "start": 0,
+          "end": 14
+        },
+        "promptZh": "你想說提前準備有助核對安排。聽完示範，再說一句。"
+      },
+      "writing": {
+        "promptZh": "新情境：你下月辦小型展覽，現在先確認場地、印刷和後備器材，避免臨時趕忙。用一至兩句英文描述。",
+        "examples": [
+          {
+            "en": "We are planning ahead by confirming the venue and printing dates now.",
+            "zh": "我們正在提早安排，現在先確認場地和印刷日期。"
+          },
+          {
+            "en": "Planning ahead gives us time to reserve spare equipment before the exhibition.",
+            "zh": "提早安排讓我們有時間在展覽前預留後備器材。"
+          }
+        ],
+        "glossary": [
+          {
+            "en": "confirming the venue",
+            "zh": "確認場地",
+            "exampleIndex": 0,
+            "span": {
+              "start": 25,
+              "end": 45
+            }
+          },
+          {
+            "en": "printing dates",
+            "zh": "印刷日期",
+            "exampleIndex": 0,
+            "span": {
+              "start": 50,
+              "end": 64
+            }
+          },
+          {
+            "en": "reserve spare equipment",
+            "zh": "預留後備器材",
+            "exampleIndex": 1,
+            "span": {
+              "start": 32,
+              "end": 55
+            }
+          },
+          {
+            "en": "before the exhibition",
+            "zh": "展覽前",
+            "exampleIndex": 1,
+            "span": {
+              "start": 56,
+              "end": 77
+            }
+          }
+        ],
+        "selfCheckZh": "指出未來需要發生前的具體準備，同時保留後續調整可能。"
+      },
+      "takeaways": [
+        {
+          "en": "Planning ahead can reduce last-minute pressure.",
+          "zh": "提早安排可以減少最後一刻的壓力。"
+        },
+        {
+          "en": "We plan ahead while leaving room for changes.",
+          "zh": "我們提早安排，同時保留改動空間。"
+        }
+      ],
+      "review": {
+        "state": "drafted",
+        "author": {
+          "kind": "AI",
+          "agent": "scale_runtime",
+          "method": "Individually authored bilingual lesson draft; structural validation is separate from editorial approval."
+        },
+        "independentHumanApproval": false,
+        "note": "AI author self-review only. No independent human, listening, device, or release sign-off is claimed."
+      }
+    }
+  ]
+}
