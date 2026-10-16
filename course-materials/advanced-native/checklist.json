@@ -1,0 +1,882 @@
+{
+  "recordedAt": "2026-10-16T09:30:45.448487+00:00",
+  "reviewer": {
+    "kind": "AI",
+    "agent": "author_0011_0025"
+  },
+  "sop": "Advanced_Native_Complete_Golden_SOP_2026-10-16.docx",
+  "state": "published-and-scoped-automated-verification-complete",
+  "scope": "All2110supplied expressionlabels/3185occurrences;1893canonical modules including10preservedbaseline and1883new modules, with218aliases and one explicitly supplementary meaning record.",
+  "counts": {
+    "requirements": 55,
+    "suppliedSourceLabels": 2110,
+    "sourceOccurrences": 3185,
+    "canonicalTotal": 1893,
+    "baseline": 10,
+    "newAuthored": 1883,
+    "newIndependentlyAIReviewedExactCurrentHashes": 1883,
+    "aliases": 218,
+    "sourcePending": 0,
+    "sourceErrors": 0,
+    "heldFinalSelection": 0,
+    "currentNewAudioFiles": 7532,
+    "cumulativeGeneratedAudioFilesIncludingSuperseded": 7661,
+    "humanListeningReviewedCurrentNewAudio": 0,
+    "ASRScreenedCurrentNewAudio": 7532,
+    "originalASRFlagsIndividuallyMachineTriaged": 104,
+    "signalFailures": 0,
+    "publicByteHeaderFailures": 0,
+    "requiredWorkflowGatesPassed": 10,
+    "additionalTargetedGatesPassed": 5,
+    "boundedMigrationSuccessEntriesAtSnapshot": 38,
+    "productionCatalogueRows": 2359,
+    "productionAdvancedModules": 1893,
+    "productionNativeModules": 466,
+    "productionNewModulesExactMd5Compared": 1883,
+    "productionCatalogueComparisonErrors": 0
+  },
+  "browserCoverageProof": {
+    "priorCanonicalSelection": "staging/reviewed-preview-016/canonical-selection.json",
+    "exactlyUnchangedPriorAuthoredRecords": 1753,
+    "finalAddedRecordsTestedBothEngines": 130,
+    "addedIdsExactlyMatchBothEngineCompletedSets": true,
+    "baselineModulesSeparatelyGuarded": 10,
+    "sixWidths": [
+      1280,
+      1024,
+      768,
+      600,
+      390,
+      320
+    ],
+    "syntheticAccountOnly": true,
+    "WebKitCaveat": "Originalbatchmouseactivationtimedout at078;12mouse+118keyboardordinaryactivationcontentcoverage passes, originalfailure preserved. Final pointer/engine behavior remains explicitly documented.",
+    "finalBrowserAggregation": "reviews/browser-1893-combined-coverage.json",
+    "finalLazyCasesPassed": 6,
+    "freshWholeLibrarySixWidths": true
+  },
+  "statusCounts": {
+    "passed-source-audit": 4,
+    "passed-independent-ai-editorial": 9,
+    "passed-schema-runtime-and-ai-editorial": 5,
+    "passed-screening-and-ai-editorial": 1,
+    "passed-local-browser-with-bounded-inheritance": 8,
+    "passed-pinned-data-and-local-flow": 1,
+    "passed-automated-regression": 1,
+    "passed-local-order-and-layout": 1,
+    "passed-local-partial-group-regression": 1,
+    "partial-browser-emulation": 1,
+    "passed-local-event-and-mute-logic": 1,
+    "pending-human-and-physical-device": 1,
+    "passed-pinned-generation-and-runtime": 1,
+    "passed-generation-and-upload": 1,
+    "passed-public-byte-and-header-verification": 1,
+    "passed-full-decode-and-signal": 1,
+    "passed-machine-screen-and-explicit-triage": 1,
+    "pending-human-listening": 1,
+    "passed-real-public-browser-playback-with-explicit-scope": 1,
+    "passed-isolated-regression": 2,
+    "passed-synthetic-failure-recovery": 1,
+    "passed-local-lazy-runtime": 1,
+    "passed-actual-public-client-measurement-with-explicit-scope": 1,
+    "passed-artifact-retention": 1,
+    "passed-complete-live-payload-reconciliation": 1,
+    "partial-final-local-closure": 1,
+    "passed-production-catalogue-verification": 1,
+    "passed-exact-committed-publication-diff": 1,
+    "passed-local-release-gates": 1,
+    "passed-production-push-deployment-release-marker": 1,
+    "passed-public-browser-and-native-regression-with-explicit-scope": 1,
+    "passed-authorization-and-ai-review-recording": 1
+  },
+  "checks": [
+    {
+      "id": "SRC01",
+      "requirement": "Reconcile every supplied PDF page, expression and occurrence.",
+      "status": "passed-source-audit",
+      "evidence": [
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json"
+      ],
+      "verifiedScope": "All2110 supplied labels/3185occurrences reconciled, zero pending/error/warning; exact document checksums, locators, source/example kinds and218alias provenance retained. One additional meaning record is explicitly separate from the original label inventory. Individual contextual decisions remain AI curation, not human approval."
+    },
+    {
+      "id": "SRC02",
+      "requirement": "Preserve exact source sentence, complete expression, document checksum, real page, book/question/S1–S2 and honest missing locators.",
+      "status": "passed-source-audit",
+      "evidence": [
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json"
+      ],
+      "verifiedScope": "All2110 supplied labels/3185occurrences reconciled, zero pending/error/warning; exact document checksums, locators, source/example kinds and218alias provenance retained. One additional meaning record is explicitly separate from the original label inventory. Individual contextual decisions remain AI curation, not human approval."
+    },
+    {
+      "id": "SRC03",
+      "requirement": "Distinguish original sample sentences from guide-written practice examples.",
+      "status": "passed-source-audit",
+      "evidence": [
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json"
+      ],
+      "verifiedScope": "All2110 supplied labels/3185occurrences reconciled, zero pending/error/warning; exact document checksums, locators, source/example kinds and218alias provenance retained. One additional meaning record is explicitly separate from the original label inventory. Individual contextual decisions remain AI curation, not human approval."
+    },
+    {
+      "id": "SRC04",
+      "requirement": "Merge exact variants without losing provenance; split genuine senses and retain useful related constructions.",
+      "status": "passed-source-audit",
+      "evidence": [
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json"
+      ],
+      "verifiedScope": "All2110 supplied labels/3185occurrences reconciled, zero pending/error/warning; exact document checksums, locators, source/example kinds and218alias provenance retained. One additional meaning record is explicitly separate from the original label inventory. Individual contextual decisions remain AI curation, not human approval."
+    },
+    {
+      "id": "SRC05",
+      "requirement": "Resolve doubtful meaning, grammar, register and taxonomy against primary language references.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json",
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883current authored records have separate current-hash AI editorial evidence. Identified doubtful constructions/senses/normalisations retain primary-reference decisions and exact guide wording; this does not claim every phrase was independently dictionary-certified or human-approved."
+    },
+    {
+      "id": "CUR01",
+      "requirement": "Write one complete meaning/grammar/register/boundary/misconception/outcome brief per canonical lesson.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "CUR02",
+      "requirement": "Provide seven ordered actions and six assessed questions with optional, unscored speaking.",
+      "status": "passed-schema-runtime-and-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "All1883new records compile to7ordered actions/6assessed questions,4valid replies/1target+golden,2writing examples,4–6exact answer-derived non-target glossary rows and target-only speaking blanks. Final default database test exercises every current MC choice/all4replies/once-only completion; writing remains self-reviewed and speaking unscored. AI editorial evidence supplements structural checks."
+    },
+    {
+      "id": "CUR03",
+      "requirement": "Tailor listening context, four meaning choices, one key and specific feedback.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "CUR04",
+      "requirement": "Make all four reply options naturally valid, exactly one target-bearing and golden.",
+      "status": "passed-schema-runtime-and-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "All1883new records compile to7ordered actions/6assessed questions,4valid replies/1target+golden,2writing examples,4–6exact answer-derived non-target glossary rows and target-only speaking blanks. Final default database test exercises every current MC choice/all4replies/once-only completion; writing remains self-reviewed and speaking unscored. AI editorial evidence supplements structural checks."
+    },
+    {
+      "id": "CUR05",
+      "requirement": "Write a new concrete scene, one defensible best answer and plausible alternatives.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "CUR06",
+      "requirement": "Test a real boundary without inventing a restriction or rejecting a valid meaning.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "CUR07",
+      "requirement": "Write a natural next turn with consistent speaker, tone and purpose; do not mark legitimate clarification questions wrong.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "CUR08",
+      "requirement": "Make final writing change the setting/task/communicative goal; reject name swaps.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "CUR09",
+      "requirement": "Supply two complete appropriate writing answers and useful self-check criteria; no exact-match or mastery claim.",
+      "status": "passed-schema-runtime-and-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "All1883new records compile to7ordered actions/6assessed questions,4valid replies/1target+golden,2writing examples,4–6exact answer-derived non-target glossary rows and target-only speaking blanks. Final default database test exercises every current MC choice/all4replies/once-only completion; writing remains self-reviewed and speaking unscored. AI editorial evidence supplements structural checks."
+    },
+    {
+      "id": "CUR10",
+      "requirement": "Extract 4–6 useful glossary rows as exact contiguous answer spans; exclude target and revealing fragments.",
+      "status": "passed-schema-runtime-and-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "All1883new records compile to7ordered actions/6assessed questions,4valid replies/1target+golden,2writing examples,4–6exact answer-derived non-target glossary rows and target-only speaking blanks. Final default database test exercises every current MC choice/all4replies/once-only completion; writing remains self-reviewed and speaking unscored. AI editorial evidence supplements structural checks."
+    },
+    {
+      "id": "CUR11",
+      "requirement": "Preserve natural tense/person/passive/article forms in target regex and exact target-only speaking span.",
+      "status": "passed-schema-runtime-and-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "All1883new records compile to7ordered actions/6assessed questions,4valid replies/1target+golden,2writing examples,4–6exact answer-derived non-target glossary rows and target-only speaking blanks. Final default database test exercises every current MC choice/all4replies/once-only completion; writing remains self-reviewed and speaking unscored. AI editorial evidence supplements structural checks."
+    },
+    {
+      "id": "CUR12",
+      "requirement": "Write original models and diverse scenarios, screening exact/near duplication without treating similarity as automatic deletion.",
+      "status": "passed-screening-and-ai-editorial",
+      "evidence": [
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json",
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "Final1883-record exact source-equality screen checked11298teaching texts with0flags; near-duplicate threshold0.62 found0flags; sole exploratory0.45pair226/228 was individually read and retained for distinct grammar tasks. Lexical screens cannot prove semantic originality, diverse goals, subsection originality or rights clearance."
+    },
+    {
+      "id": "ZH01",
+      "requirement": "Translate every English question, option, model, writing answer and takeaway in Traditional Chinese.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "ZH02",
+      "requirement": "Preserve subject, tense, uncertainty, negation, modality and the wrong meaning of each distractor.",
+      "status": "passed-independent-ai-editorial",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json"
+      ],
+      "verifiedScope": "All1883exact current records independently AI-reviewed after repairs, including English/TraditionalChinese scope, plausible choices, actual conversational perspective and genuine final-task transfer. All current hashes rechecked against final selection:0mismatches. Human editorial approval is not claimed."
+    },
+    {
+      "id": "ZH03",
+      "requirement": "Pair translations by stable content identity after shuffling; bracket beneath English with no orphan closing bracket.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI01",
+      "requirement": "Conceal first-listening transcript/translation until correct; keep wrong attempts retryable.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI02",
+      "requirement": "Keep four-valid replies reselectable, correct sounding, golden after selection and credited once.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI03",
+      "requirement": "Play full British male model before optional recording/skip; preserve exact blank cue.",
+      "status": "passed-pinned-data-and-local-flow",
+      "evidence": [
+        "audio-state-frozen-7532/summary.json",
+        "audio-state-frozen-7532/metadata.json",
+        "audio-state-frozen-7532/r2-uploaded.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "All1883speaking roles pinned bm_fable/en-gb/.98; exact full model/cloze/optional recording-slot semantics validated. Mocked browser playback/skip/microphone-denial flow passes in both engines. This is not a real-device microphone or audible-accent review."
+    },
+    {
+      "id": "UI04",
+      "requirement": "Show glossary before typing; reveal examples only after an attempt and complete through explicit self-review.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI05",
+      "requirement": "Use yellow target marks/glow in examples and green in revealed models, never in unanswered choices or Chinese.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI06",
+      "requirement": "Show negative cues red and start final Chinese question on a sensible new line.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI07",
+      "requirement": "Prevent orphan final English word, lone CJK character, closing punctuation/bracket, split word, clipping and overflow.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "UI08",
+      "requirement": "Keep Card74 exact four-line identity, image-free cards and quiet background with no beams/spheres.",
+      "status": "passed-automated-regression",
+      "evidence": [
+        "reviews/independent-final-native-release-gates.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json"
+      ],
+      "verifiedScope": "Final1893 Advanced Native/Card74 guard passes;10baseline IDs/60legacy questions/10golden replies/40local clips preserved. Header identity, quiet background and image-free cards checked by existing guard; shared focus/touch patch has separate baseline regression."
+    },
+    {
+      "id": "UI09",
+      "requirement": "Keep full groups of five: odd3white+2black, even2black+3white; preserve DOM/data order.",
+      "status": "passed-local-order-and-layout",
+      "evidence": [
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/capacity-2110.json",
+        "qa/partial-groups/result.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Actual1893stage has consecutive visible lesson numbers while retaining immutable source IDs; all lessons discoverable. Existing2110-card fixture specifically tests alternating3white+2black /2black+3white groups without data/DOM reorder. Its synthetic nature is explicit; it is not2110authored lessons."
+    },
+    {
+      "id": "UI10",
+      "requirement": "Review partial final groups without fake lessons, hidden cards or reordered content.",
+      "status": "passed-local-partial-group-regression",
+      "evidence": [
+        "qa/partial-groups/result.json",
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "All16partial1–4card/palette/engine combinations checked at6widths; no fake lessons, hidden cards or reordered modules. Final actual1893has a partial final group; no physical-device approval."
+    },
+    {
+      "id": "UI11",
+      "requirement": "Use readable white completion, dark copy, completed count, bilingual takeaways and working actions.",
+      "status": "passed-local-browser-with-bounded-inheritance",
+      "evidence": [
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893combined browser report:130newly staged records fully checked at7steps/6widths perengine (910steps each), exact1753prior canonical identities inherit earlier content coverage; baseline10preserved, scoped cache/focus44px/40interaction checks and1893whole-library6width checks pass. This is not fresh full-step testing of every1893lesson. WebKit12mouse+118keyboard activation content coverage and original pointer timeout are explicitly retained. No physical-device/hearing/live acceptance."
+    },
+    {
+      "id": "A11Y01",
+      "requirement": "Verify keyboard, visible focus, touch targets, reduced motion, live status and microphone denial on supported devices.",
+      "status": "partial-browser-emulation",
+      "evidence": [
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json"
+      ],
+      "verifiedScope": "Both engines20/20strengthened synthetic checks (40total); visible focus, keyboard/Space/Enter, dialogEscape/focusreturn, labels/status, reduced motion, mic denial/skip;144header/lesson controls measured perviewport at least44×44.",
+      "remaining": "Physical desktop/phone/tablet assistive/hardware acceptance has not been performed."
+    },
+    {
+      "id": "SND01",
+      "requirement": "Emit one shared answer-result event after marking only, respecting mute; no false objective sound for open writing.",
+      "status": "passed-local-event-and-mute-logic",
+      "evidence": [
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json"
+      ],
+      "verifiedScope": "Answer-result events and WebAudio/mute logic checked in synthetic browser context; no objective correct/wrong event for self-reviewed writing. Rapid interaction/interruption exercised.",
+      "remaining": "Real acoustic cue loudness/quality is covered by SND02 and remains pending."
+    },
+    {
+      "id": "SND02",
+      "requirement": "Listen to correct/wrong cues, mute/unmute and rapid taps on real supported desktop and phone/tablet.",
+      "status": "pending-human-and-physical-device",
+      "evidence": [
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json"
+      ],
+      "verifiedScope": "No real audible correct/wrong-cue review, physicalphone/tablet or device-volume/mute confirmation is claimed.",
+      "remaining": "Actual audible cue/device review remains unperformed and must be reported as such. This is a factual coverage limitation, not a new authorization or confirmation request."
+    },
+    {
+      "id": "AUD01",
+      "requirement": "Pin Kokoro/voice hashes, four explicit roles, exact text/settings identities and British male speaking role.",
+      "status": "passed-pinned-generation-and-runtime",
+      "evidence": [
+        "audio-state-frozen-7532/summary.json",
+        "audio-state-frozen-7532/metadata.json",
+        "audio-state-frozen-7532/r2-uploaded.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "Exactly7532current roles=1883×4, each exact text/voice/lang/speed/synthesis identity retained; model/voice hashes pinned. Curveball(s)-only phoneme correction/version/cache gates tested without changing unaffected keys. No accent approval implied."
+    },
+    {
+      "id": "AUD02",
+      "requirement": "Generate and upload only missing/changed clips with resumable checkpoints; keep MP3 binaries out of Git.",
+      "status": "passed-generation-and-upload",
+      "evidence": [
+        "audio-state-frozen-7532/summary.json",
+        "audio-state-frozen-7532/metadata.json",
+        "audio-state-frozen-7532/r2-uploaded.json",
+        "reviews/public-audio-7532.json"
+      ],
+      "verifiedScope": "All7532current roles generated/cached with resumable exact-key checkpoints and uploadedSHA proof. Cumulative7661files include superseded immutable objects and are not confused with7532currentclips. Audio binaries remain outside staged application files; final selected-Git exclusion is separately pending REL04."
+    },
+    {
+      "id": "AUD03",
+      "requirement": "Verify every final public clip by exact bytes, MIME, CORS, immutable cache and range support.",
+      "status": "passed-public-byte-and-header-verification",
+      "evidence": [
+        "reviews/public-audio-7532.json",
+        "reviews/public-audio-7532-delta.json",
+        "reviews/public-audio-final-inheritance.json",
+        "qa/final-native-release-independent/12-audio-host.log"
+      ],
+      "verifiedScope": "7532current exact role identities checked:7437same immutable URL/voice/SHA rows inherit prior actualGET/header proof and95fresh actualGET rows pass;0failures/all public bytes match. Shared worker GET/HEAD/Range/CORS/MIME/cache/missing-path regression passes. Not a claim of7532fresh Range requests or human hearing."
+    },
+    {
+      "id": "AUD04",
+      "requirement": "Fully decode every clip and reject corrupt, silent or non-finite audio.",
+      "status": "passed-full-decode-and-signal",
+      "evidence": [
+        "reviews/audio-signal-7532.json"
+      ],
+      "verifiedScope": "All7532current MP3s verified by exact file hash/full decode/non-finite/silence statistics;0failed. Signal validity does not certify wording, phonemes or accent."
+    },
+    {
+      "id": "AUD05",
+      "requirement": "Run speech-content screening, inspect flags and never confuse ASR with pronunciation/accent certification.",
+      "status": "passed-machine-screen-and-explicit-triage",
+      "evidence": [
+        "reviews/audio-asr-7532.json",
+        "reviews/audio-asr-7532-independent-final-triage.json",
+        "reviews/audio-asr-7532-full-g2p-triage.json",
+        "reviews/audio-asr-final-thirteen-independent-triage.json"
+      ],
+      "verifiedScope": "All7532current clips ASR-screened;104original flags preserved and individually compared with2models, exact clipSHA/signal evidence and pinned full-sentence G2P. Categories:50one-model disagreements,8bounded representation-only,46retained lexical/segmentation disagreements. No new deterministic G2P defect established;257numeral suffix timestamps lie wholly beyond actual file duration. No automatic orthographic collapse of tense/homophones/names/negation;4new bounded-normaliser unit tests pass.",
+      "remaining": "All actual hearing remains pending AUD06; a machine triage is not pronunciation/accent certification."
+    },
+    {
+      "id": "AUD06",
+      "requirement": "Listen to every new/changed clip for wording, pronunciation, accent, pacing and clipping; record actual reviewer.",
+      "status": "pending-human-listening",
+      "evidence": [
+        "audio-state-frozen-7532/summary.json",
+        "audio-state-frozen-7532/metadata.json",
+        "audio-state-frozen-7532/r2-uploaded.json",
+        "reviews/audio-asr-7532-independent-final-triage.json"
+      ],
+      "verifiedScope": "Actual human listening reviewed0of7532current new clips. No claim of wording/pronunciation/accent/pacing/clipping acceptance by hearing.",
+      "remaining": "Actual hearing of every new/changed clip remains unperformed; retain the46machine disagreements as review targets and report the limitation. Do not infer a new mandatory confirmation flow or claim human acceptance."
+    },
+    {
+      "id": "AUD07",
+      "requirement": "Check normal/slow playback, replay, repeated taps, interruption and lesson switching on desktop and phone/tablet.",
+      "status": "passed-real-public-browser-playback-with-explicit-scope",
+      "evidence": [
+        "qa/live-public-smoke-final/report.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json"
+      ],
+      "verifiedScope": "Four actual public Chromium/WebKit desktop/mobile contexts completed100per-play source+timestamp-attributed nativeAudio timeupdate checks,0limited/0mediaerrors.20sampled MP3s match frozenpins. Normal/slow/listening/speaking/takeaway playback covered. Retry/overlap/background fault-injection proof remains separately synthetic; neither is human hearing or physical-device approval."
+    },
+    {
+      "id": "DAT01",
+      "requirement": "Preserve existing ten lessons, stable IDs, legacy questions/options, Native course and student history.",
+      "status": "passed-isolated-regression",
+      "evidence": [
+        "reviews/independent-final-native-release-gates.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json"
+      ],
+      "verifiedScope": "Default no-PREVIEW PGlite gate passes466Native+1893Advanced modules, all current options and4valid replies, once-only completion, owner isolation, self-reviewed writing, unscored speaking, recordings and Scoop/legacy compatibility. Synthetic fixtures only; no real student records manufactured.",
+      "remaining": "Production catalogue identity comparison is separately pending REL03; live regression pending REL07."
+    },
+    {
+      "id": "DAT02",
+      "requirement": "Keep writing self-reviewed, speaking unscored, one completion per question/run and owner-scoped recordings.",
+      "status": "passed-isolated-regression",
+      "evidence": [
+        "reviews/independent-final-native-release-gates.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json"
+      ],
+      "verifiedScope": "Default no-PREVIEW PGlite gate passes466Native+1893Advanced modules, all current options and4valid replies, once-only completion, owner isolation, self-reviewed writing, unscored speaking, recordings and Scoop/legacy compatibility. Synthetic fixtures only; no real student records manufactured.",
+      "remaining": "Production catalogue identity comparison is separately pending REL03; live regression pending REL07."
+    },
+    {
+      "id": "DAT03",
+      "requirement": "Verify outbox/reload/retry/storage-failure handling preserves typed input and does not claim an unsaved cloud record.",
+      "status": "passed-synthetic-failure-recovery",
+      "evidence": [
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json"
+      ],
+      "verifiedScope": "Both engines exercise failedRPC outbox/reload, concurrent localStorage quota/networkwarning and in-page recovery; typed input/local/cloud status expectations checked with controlled mocks. This is not a live student/network/hardware recovery audit."
+    },
+    {
+      "id": "SCL01",
+      "requirement": "Keep all lessons discoverable with sharded lazy content, stable partitions, cache retry and stale-account/selection cancellation.",
+      "status": "passed-local-lazy-runtime",
+      "evidence": [
+        "reviews/independent-final-native-release-gates.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/lazy-browser-816.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Final1893stage lazy browser6/6PASS: concurrent/cached shard selection, fetch failure/retry, latest selection, Back/search/logout/owner cancellation under synthetic sessions. Final unit gates also verify fixed50-source-number partitions and indexed/full progress parity. Current1893-card library freshly checked at6widths; no real-account/physical-device claim."
+    },
+    {
+      "id": "SCL02",
+      "requirement": "Measure real index/full content bytes, initial requests, render/search time and hosting usage.",
+      "status": "passed-actual-public-client-measurement-with-explicit-scope",
+      "evidence": [
+        "reviews/production-client-performance.json",
+        "reviews/final-content-payload-metrics.json",
+        "reviews/current-audio-storage-footprint.json"
+      ],
+      "verifiedScope": "Actual1893-card public Chromium desktop/mobile-viewport render measured413.9/390.8msafter syntheticlogin; exactconditions/cache/resourcebytes/search samples recorded.29JSresources2,828,217transfer/12,462,331decodedbytes,0fullshardsinitially. Current7532audio objects409,585,552bytes. Existingbucket/freeallowance review and explicit user overallowance approval retained. These measurements exclude realbackendlatency/physicaldevice throttling and are not a futureperformance guarantee."
+    },
+    {
+      "id": "SCL03",
+      "requirement": "Retain canonical content, exact review hashes, source-only transformation proof, audio keys and reproducible batch snapshots.",
+      "status": "passed-artifact-retention",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "audio-state-frozen-7532/summary.json",
+        "audio-state-frozen-7532/metadata.json",
+        "audio-state-frozen-7532/r2-uploaded.json",
+        "reviews/final-source-originality-provenance-proposal-review.json",
+        "source-reconciliation.json",
+        "reviews/independent-final-native-release-gates.json"
+      ],
+      "verifiedScope": "Canonical1883records, current editorial hashes, exact source-family before/after proofs, frozen0024 audio identities and final-preview017 selections persist.469runtime/data/migration hashes remained unchanged during all10required+5additional local release checks. Stale author helpers are explicitly excluded from regeneration."
+    },
+    {
+      "id": "REL01",
+      "requirement": "Reconcile all source labels/occurrences to live canonical records, aliases or explicitly resolved holds.",
+      "status": "passed-complete-live-payload-reconciliation",
+      "evidence": [
+        "reviews/production-public-payload-identity.json",
+        "source-reconciliation.json"
+      ],
+      "verifiedScope": "All60 actual public responses (43lesson shards/17supporting files) exactly match committed Pages-rewritten output; all1883new records plus10baseline publicly indexed, all2110labels/3185occurrences/218curated aliases resolve to actual public canonical IDs; no missing targets. Provenance mapping remains in retained authoring records, not public learner downloads."
+    },
+    {
+      "id": "REL02",
+      "requirement": "Close all blocking editorial, media, interaction and typography defects on exact final revision.",
+      "status": "partial-final-local-closure",
+      "evidence": [
+        "editorial-coverage.json",
+        "staging/final-preview-017/selection-evidence.json",
+        "validation-current.json",
+        "reviews/browser-1763-combined-coverage.json",
+        "qa/final-1893-chromium/batches.json",
+        "qa/final-1893-webkit-combined.json",
+        "qa/resilience-a11y-audio/final-1893/summary.json",
+        "qa/resilience-a11y-audio/final-1893/chromium/report.json",
+        "qa/resilience-a11y-audio/final-1893/webkit/report.json",
+        "reviews/audio-asr-7532-independent-final-triage.json",
+        "reviews/browser-1893-combined-coverage.json",
+        "reviews/lazy-browser-1893.json"
+      ],
+      "verifiedScope": "Current authored content independently AI-reviewed; full local release gates pass; automated browser/content/signal/ASRtriage evidence recorded. No new deterministic synthesis defect established.",
+      "remaining": "Human hearing and physical-device acceptance are unperformed. All scoped automated editorial/media/software/production checks are complete; no unresolved actual software defect was established. Do not label machine screening as human pronunciation/accent approval."
+    },
+    {
+      "id": "REL03",
+      "requirement": "Create formal Supabase migration with CLI; apply compatible catalogue before frontend; verify all valid replies and old progress.",
+      "status": "passed-production-catalogue-verification",
+      "evidence": [
+        "reviews/backend-bounded-migration-manifest.json",
+        "reviews/backend-bounded-migration-results.json",
+        "reviews/backend-compatibility-application.json",
+        "reviews/backend-expected-catalogue-hashes.json",
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/backend-production-catalogue-verification.json",
+        "reviews/backend-production-catalogue-rows.json"
+      ],
+      "verifiedScope": "All38bounded data migrations have successful recorded production applications. Actual production2359catalogue rows=1893Advanced+466Native; all1883new PostgreSQL question/sense MD5 rows exactly match the independently generated local expected dictionaries, with6questions and4accepted replies each,0errors. This agent independently re-compared raw production rows against all1883expected rows. Baseline legacy keys remain preserved; the initial oversized5MBMCP attempt is not counted as success.",
+      "remaining": "Signed-in live client regression follows frontend publication under REL07; no further production-catalogue import or hash comparison remains from this checklist snapshot."
+    },
+    {
+      "id": "REL04",
+      "requirement": "Fetch/reconcile current main, inspect selected diff, exclude private scratch/student data/secrets and audio binaries.",
+      "status": "passed-exact-committed-publication-diff",
+      "evidence": [
+        "reviews/final-staged-publication-diff.json",
+        "reviews/final-git-selected-paths.json"
+      ],
+      "verifiedScope": "All243 committed text files inspected; no private work directory, student data or MP3 binaries included. Current main65bd storage fix preserved. Source97JSON plus verification and current43payloads retained."
+    },
+    {
+      "id": "REL05",
+      "requirement": "Version every changed entrypoint and nested cached dependency; run complete focused release gates.",
+      "status": "passed-local-release-gates",
+      "evidence": [
+        "reviews/independent-final-native-release-gates.json",
+        "reviews/cache-version-chain.json"
+      ],
+      "verifiedScope": "All10exact focused-native workflow commands plus5targeted additional checks pass on final1893stage with no PREVIEWenvironment;469hashed files unchanged during tests. Full entrypoint+nested index/target/audio/catalogue/loader/progress cache versions agree; content/audio paths immutable. After the later HTML-only obsolete-ten-expression copy correction, this agent reran test-advanced-native.mjs and build-advanced-native-catalogue.mjs --check:bothPASS on1883new+10baseline; current HTML hashes recorded below. The earlier469unchanged-hash statement remains bounded to the original gate run.",
+      "remaining": "Any later semantic runtime/data edit invalidates the affected proof and requires targeted rerun."
+    },
+    {
+      "id": "REL06",
+      "requirement": "Commit/push, wait for successful Pages deployment and verify public release.json contains intended change.",
+      "status": "passed-production-push-deployment-release-marker",
+      "evidence": [
+        "reviews/publication-state.json",
+        "reviews/final-staged-publication-diff.json"
+      ],
+      "verifiedScope": "Actual production main and public release.json both ad91de42cd41c81d679a287083847198da287b6f; Pages run38878480588 completed success. Full public course smoke verification is separate."
+    },
+    {
+      "id": "REL07",
+      "requirement": "Open live signed-in test lessons, verify assets and standard Native regression, record URLs/screenshots/commit and rollback plan.",
+      "status": "passed-public-browser-and-native-regression-with-explicit-scope",
+      "evidence": [
+        "qa/live-public-smoke-final/report.json",
+        "reviews/production-public-payload-identity.json",
+        "reviews/publication-state.json"
+      ],
+      "verifiedScope": "Actual deployed code/assets exercised through20lesson runs/140steps across Chromium/WebKit desktop/mobile viewport:baselines1/10,new11/1027/2111. Each context confirmedNative466/Advanced1893exactorder,translations/glossary/greenlistening/yellowexamples/reselection/soundevents/targetclozes/completion.39publicasset hashes recorded,15sampled assets exactly match their expected Pages bytes, and20MP3pins match; separate60-response fullpublic identity audit passed;100nativeAudio timeupdates;0issues/pageerrors. Auth/RPC/headeridentity were synthetic intercepts; productiondefinitions separately queried/read-only. No actualstudentrecords created. URLs/screenshots/commit/non-destructive rollback retained."
+    },
+    {
+      "id": "REL08",
+      "requirement": "Record actual owner/reviewer acceptance and exceptions separately; never label push, compilation or this checklist as completion.",
+      "status": "passed-authorization-and-ai-review-recording",
+      "evidence": [
+        "reviews/final-release-checklist.json",
+        "reviews/publication-state.json",
+        "editorial-coverage.json"
+      ],
+      "verifiedScope": "Actual prior human instructions authorize allsourceexpressions,doeverything,publishing,subagents andCloudflarestorageabovefreeallowance. SeparatecurrenthashAIeditorial reviews/rootrelease verification are recorded; this does not fabricate human finalacceptance, listening orphysicaldevice approval. Those reviewlimits remain explicit inAUD06/SND02/A11Y01/REL02. Noadditionalmandatory confirmation was inferred."
+    }
+  ],
+  "evidenceSha256": {
+    "audio-state-frozen-7532/metadata.json": "e392eb9d23e9bc4e395022db800cab4d256206e376ff1e4f6cbef8390b03149f",
+    "audio-state-frozen-7532/r2-uploaded.json": "92aee8c8e6acb34fd10a19b5d8c1510254720f9cd0da9a707b2d5dd618fbc56e",
+    "audio-state-frozen-7532/summary.json": "2754d749be0a7e86c3b1e65403c26835053c6aade101c322b57d3f543b6b3f08",
+    "editorial-coverage.json": "8dfa96a4299ef165383d98e65ba1c2a5dc4f8e5890065ea88384ce21d9732551",
+    "qa/final-1893-chromium/batches.json": "e65befddfa7f0a147db36ff3ecb82e50b321c288ad7c9e0ebdf5f9563d8917c8",
+    "qa/final-1893-webkit-combined.json": "18a062846f2b4ebe092eaae444b93f4e5ab7468f8132f77cb2df078fd9253943",
+    "qa/final-native-release-independent/12-audio-host.log": "ec665e1bb8acfbeb31f0fd344c5c710d2252121b41c11e761420dcf9613763e6",
+    "qa/partial-groups/result.json": "021f1740260548988a23d649a3cfb8784cbe441519fcdecba59ef5b60e61d982",
+    "qa/resilience-a11y-audio/final-1893/chromium/report.json": "b95818978c151acdd8762572bdde211db076eb03aaa0a254c5f500c2b607c0f0",
+    "qa/resilience-a11y-audio/final-1893/summary.json": "9740766440048e98f4d003e6d24cebba30251c0322aad970447804c6cba146f2",
+    "qa/resilience-a11y-audio/final-1893/webkit/report.json": "9159641c3b91ed0d93d0d4400a4ef26a57cec63f26bc1896d1715c1f5c03c9d7",
+    "reviews/audio-asr-7532-full-g2p-triage.json": "b9ea323baf60d962eaaa4df64fc65b3d49e553a7658ca93c869722cd5691fdae",
+    "reviews/audio-asr-7532-independent-final-triage.json": "7345d8ca2ee04db0cbdcd1c61d50e16f6e17f311f2f8945619ed2de019122ef8",
+    "reviews/audio-asr-7532.json": "4f679f97628182489147ebe0d83949fd7a9a97802b225becac6002c1cbbd7481",
+    "reviews/audio-asr-final-thirteen-independent-triage.json": "028b8e4320fc60738687994edc95d4cc2d7de9ebb3b1a272738230b0bcc0d9b5",
+    "reviews/audio-signal-7532.json": "7e46148ec662c900ab0f7981ac68b6735baf599b8ce71f8839c5bae4bf4cb8cd",
+    "reviews/backend-bounded-migration-manifest.json": "7b4b6752035615450e7352fbb552edf347eae6c318a28341300918f5a37bb067",
+    "reviews/backend-bounded-migration-results.json": "1845fffeeba30966e5ba7c9e913edb4fea2abe266b68fc715addf7a780e0a9b5",
+    "reviews/backend-compatibility-application.json": "42ffd9b6ce8d48a55e0902ee481b1011000163981b066901d73578db14732d39",
+    "reviews/backend-expected-catalogue-hashes.json": "0658c4f2af26cbac2f62b6d69048c1aebc74ff55fd2be49feee988faaa2d685b",
+    "reviews/backend-production-catalogue-rows.json": "b13781764f41ab81501f7d23e4f8ad65dcfed4966f2ae16d53ad46b09f7bdf48",
+    "reviews/backend-production-catalogue-verification.json": "6ac921dc8f6f22a5e54682f5f4c3e3bdbc17066da4d35a8d3fbd413398f550c8",
+    "reviews/browser-1763-combined-coverage.json": "ee341cf23abe0cc4c1d6de4dd4be5fb95f6497779b5265d96f775c1a8449be6b",
+    "reviews/browser-1893-combined-coverage.json": "43f6b95bca80788d1ab5915a1d40f2ba1b882a4724242243bd2ef27117a57396",
+    "reviews/cache-version-chain.json": "a3fc9f4c51caa5d0b1c1100812dd3ec1882afd7289e845966b54f08817a1f1ec",
+    "reviews/capacity-2110.json": "4e7383c37323db892c2b839fe63f36e1f5fb0badb453b5904b21b3098a855cc3",
+    "reviews/final-content-payload-metrics.json": "a375c8241931ab7a3088cd5f5e904831047bd4232613077301e3ae4df7cd74ba",
+    "reviews/final-git-selected-paths.json": "a49ded51f07f06452b4fd455115bc2b4dae26f8419c3f95a4eabb6b3b921eb3a",
+    "reviews/final-source-originality-provenance-proposal-review.json": "a1a57e076f4549daf611fe4be027045230d4c74d2d93da2b7388917101219709",
+    "reviews/independent-final-native-release-gates.json": "79d56ef08d5469ede3220f60c541dc4438d0471caab467f477c5d4754256962c",
+    "reviews/lazy-browser-1893.json": "aca474e0a8abcd9d1474abffa9ca2d99cc4413e0d0f6abeb6efa7ad797e783c4",
+    "reviews/lazy-browser-816.json": "4b38408b5bc993e28b4bedb9c02e6bb0d67f12d8e373d5d3966cce7966952bdc",
+    "reviews/public-audio-7532-delta.json": "b26a88e094ee911f1ae398b970c0f089efd225f6a6b303df76ccca6518c27d38",
+    "reviews/public-audio-7532.json": "c70b43a32717515cbab6cdcb9b2a1f8e264776de37ade121e5bee4a2ee7655d2",
+    "reviews/public-audio-final-inheritance.json": "cfc438349e0cea126140f43b757fc2ba4c8a1afa032d262b78487523b9cbcc8d",
+    "source-reconciliation.json": "2025349beb528457d0808757c3381cabe92fdfc1b43baad72e6f19505e448f95",
+    "staging/final-preview-017/selection-evidence.json": "9ea7152b2210060eeec227835c668c6e43efd79f03ae82028a7e7a977d8a71f6",
+    "validation-current.json": "e0c2924b0cf38903b5cc04c6b7491eb4acbcdfb846f4563bd1fe20d4953aff75",
+    "reviews/production-public-payload-identity.json": "b02324c66d9944c57e9355e7f6f3b12ec3d13639ceb425559aa2df83dbcd2140",
+    "reviews/production-client-performance.json": "712358bd9fd121293675026aa98f5c789916f7aebd01818609641063483621e9",
+    "reviews/current-audio-storage-footprint.json": "480559b0333381c8fcde9a1e5ae1b72da80a5eb8f020f56cf54777829c9518ca",
+    "reviews/backend-production-sync-function-verification.json": "5c033f768de1b72499dd1dbfba945c412b910f51c4944a05134072956c7e69d1",
+    "qa/live-public-smoke-final/report.json": "97c6fc7242527b0273955d20d7b3be3837ca8f1a7377b6d0e4e82f63821c2056",
+    "reviews/publication-state.json": "ca288f53be0b69e904f5c25fa0acf78b26bfcc0dbbf5912550aa9eb8390f22d7"
+  },
+  "completionApproved": false,
+  "humanApprovalClaimed": false,
+  "humanListeningReviewClaimed": false,
+  "physicalDeviceReviewClaimed": false,
+  "newLivePublicationClaimed": true,
+  "rootRemaining": [],
+  "authorizationAndAcceptance": {
+    "existingHumanAuthorizationPersists": true,
+    "authorizedScope": [
+      "all expressions and everything necessary",
+      "subagents",
+      "propagation/publication",
+      "approved hosting usage over free allowance"
+    ],
+    "additionalMandatoryConfirmationInferred": false,
+    "actualHumanListeningAcceptanceRecorded": false,
+    "actualPhysicalDeviceAcceptanceRecorded": false,
+    "finalLiveOwnerAcceptanceRecorded": false
+  },
+  "laterHtmlOnlyChange": {
+    "scope": "Obsolete ten-expression marketing copy removed after the full15gate run; no lesson/runtime semantics changed.",
+    "currentSha256": {
+      "advanced-native.html": "c779f23129532a7f750fadea726c3d896e4d34b00b41c413af64159b91c811f1",
+      "natural-english.html": "7be22a25ef7627cca05959daa89940784742676c852db3b4ee58326488c3c392"
+    },
+    "independentTargetedRerun": {
+      "node tools/test-advanced-native.mjs": "PASS1883new+10baseline; legacyIDs/questions/replies/clips preserved",
+      "node tools/build-advanced-native-catalogue.mjs --check": "PASS10baselineSQLcurrent"
+    }
+  },
+  "productionPublicationVerified": true,
+  "automatedProductionVerificationComplete": true,
+  "unperformedReviewLimits": [
+    "Human listening/pronunciation/accent acceptance across14.16hours of newaudio.",
+    "Physical-device/speaker/microphone/accessibility acceptance; headlessbrowser viewportemulation is recorded separately."
+  ]
+}

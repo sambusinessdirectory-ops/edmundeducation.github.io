@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "artifact": "advanced-native-verification-summary",
-  "state": "content-media-local-browser-and-production-data-evidence-complete-publication-pending",
+  "state": "published-and-scoped-automated-verification-complete",
   "counts": {
     "sourceLabels": 2110,
     "sourceOccurrences": 3185,
@@ -51,7 +51,9 @@
     "newDeterministicG2PDefectsProvedByFinalTriage": 0,
     "originalFlagsPreserved": true,
     "humanListeningReviews": 0,
-    "scope": "Machine signal, text-alignment and pronunciation-generation evidence only. Forty-six disagreements remain explicitly recorded; no human hearing, pronunciation or accent approval is asserted."
+    "scope": "Machine signal, text-alignment and pronunciation-generation evidence only. Forty-six disagreements remain explicitly recorded; no human hearing, pronunciation or accent approval is asserted.",
+    "currentBytes": 409585552,
+    "durationSeconds": 50976.0
   },
   "browser": {
     "engines": [
@@ -78,7 +80,29 @@
     "scope": "All current library cards were freshly checked at six widths. The final 130 lessons received full seven-step checks per engine; 1753 exact unchanged records and baseline 10 inherit documented earlier coverage with shared-runtime regression. This is not a fresh full-step rerun of all 1893 lessons.",
     "webkitActivation": "12 lessons used ordinary pointer activation and 118 used native keyboard focus and Enter; the original pointer timeout remains documented, with separate pointer reproduction checks.",
     "mockAudioAndSyntheticAccounts": true,
-    "physicalDeviceReview": false
+    "physicalDeviceReview": false,
+    "publicLiveSmoke": {
+      "passed": true,
+      "contexts": 4,
+      "engines": [
+        "chromium",
+        "webkit"
+      ],
+      "desktopAndMobileViewport": true,
+      "lessonRuns": 20,
+      "steps": 140,
+      "publicAssetsHashed": 39,
+      "sampledExpectedAssetMatches": 15,
+      "independentlyAllPublicPayloadResponsesMatched": 60,
+      "pinnedMP3s": 20,
+      "strictNativeAudioTimeupdateChecks": 100,
+      "limitedMediaChecks": 0,
+      "pageErrors": 0,
+      "issues": 0,
+      "authAndRpc": "Synthetic intercepted fixtures; no real student writes",
+      "humanHearingClaimed": false,
+      "physicalDeviceReviewClaimed": false
+    }
   },
   "productionDatabase": {
     "passed": true,
@@ -88,10 +112,16 @@
     "newModuleDefinitionsCompared": 1883,
     "comparison": "Actual production PostgreSQL JSONB MD5 versus independent expected module definitions, including six questions and four accepted replies per new module.",
     "mismatches": 0,
-    "scope": "Confirms the 1883 new module definitions in a 2359-row production catalogue; it does not assert human review, public frontend deployment or real student-flow acceptance."
+    "scope": "Confirms the 1883 new module definitions in a 2359-row production catalogue; it does not assert human review, public frontend deployment or real student-flow acceptance.",
+    "functionBodyAndSecuritySettingsMatch": true
   },
   "checklist": {
     "total": 55,
+    "passedWithinRecordedScope": 51,
+    "partialHumanOrDeviceScope": 2,
+    "pendingHumanChecks": 2,
+    "file": "checklist.json",
+    "sha256": "b2c58e53cccf09ff44eb92ebb38cbd2aad7c11772365309a2a85e4614d556043",
     "checks": [
       {
         "id": "SRC01",
@@ -255,7 +285,7 @@
       },
       {
         "id": "AUD07",
-        "status": "partial-synthetic-playback-flow"
+        "status": "passed-real-public-browser-playback-with-explicit-scope"
       },
       {
         "id": "DAT01",
@@ -275,7 +305,7 @@
       },
       {
         "id": "SCL02",
-        "status": "partial-measurement-with-explicit-scope"
+        "status": "passed-actual-public-client-measurement-with-explicit-scope"
       },
       {
         "id": "SCL03",
@@ -283,7 +313,7 @@
       },
       {
         "id": "REL01",
-        "status": "pending-live-reconciliation"
+        "status": "passed-complete-live-payload-reconciliation"
       },
       {
         "id": "REL02",
@@ -291,11 +321,11 @@
       },
       {
         "id": "REL03",
-        "status": "passed-production-definition-comparison"
+        "status": "passed-production-catalogue-verification"
       },
       {
         "id": "REL04",
-        "status": "pending-selected-publication-diff"
+        "status": "passed-exact-committed-publication-diff"
       },
       {
         "id": "REL05",
@@ -303,72 +333,21 @@
       },
       {
         "id": "REL06",
-        "status": "pending-push-and-deployment"
+        "status": "passed-production-push-deployment-release-marker"
       },
       {
         "id": "REL07",
-        "status": "pending-live-verification"
+        "status": "passed-public-browser-and-native-regression-with-explicit-scope"
       },
       {
         "id": "REL08",
-        "status": "pending-owner-acceptance"
+        "status": "passed-authorization-and-ai-review-recording"
       }
     ],
-    "statusCounts": {
-      "passed-source-audit": 4,
-      "passed-independent-ai-editorial": 9,
-      "passed-schema-runtime-and-ai-editorial": 5,
-      "passed-screening-and-ai-editorial": 1,
-      "passed-local-browser-with-bounded-inheritance": 8,
-      "passed-pinned-data-and-local-flow": 1,
-      "passed-automated-regression": 1,
-      "passed-local-order-and-layout": 1,
-      "passed-local-partial-group-regression": 1,
-      "partial-browser-emulation": 1,
-      "passed-local-event-and-mute-logic": 1,
-      "pending-human-and-physical-device": 1,
-      "passed-pinned-generation-and-runtime": 1,
-      "passed-generation-and-upload": 1,
-      "passed-public-byte-and-header-verification": 1,
-      "passed-full-decode-and-signal": 1,
-      "passed-machine-screen-and-explicit-triage": 1,
-      "pending-human-listening": 1,
-      "partial-synthetic-playback-flow": 1,
-      "passed-isolated-regression": 2,
-      "passed-synthetic-failure-recovery": 1,
-      "passed-local-lazy-runtime": 1,
-      "partial-measurement-with-explicit-scope": 1,
-      "passed-artifact-retention": 1,
-      "pending-live-reconciliation": 1,
-      "partial-final-local-closure": 1,
-      "passed-production-definition-comparison": 1,
-      "pending-selected-publication-diff": 1,
-      "passed-local-release-gates": 1,
-      "pending-push-and-deployment": 1,
-      "pending-live-verification": 1,
-      "pending-owner-acceptance": 1
-    },
-    "currentOverride": {
-      "id": "REL03",
-      "snapshotStatus": "pending-production-backend-verification",
-      "currentStatus": "passed-production-definition-comparison",
-      "evidence": "reviews/backend-production-catalogue-verification.json"
-    },
-    "scopedSummary": [
-      "Source reconciliation and exact current independent AI editorial review cover all 1883 new records.",
-      "Schema, runtime grading, local layout, sound-event logic and machine media checks have documented automated or AI scopes.",
-      "Browser evidence combines fresh final lessons, exact inherited content and synthetic runtime regressions; accessibility remains browser emulation.",
-      "Synthetic playback checks are not actual human hearing or physical-device listening.",
-      "Production module definitions now match; the earlier checklist REL03 pending status is superseded only for this comparison.",
-      "Selected publication diff, push/deployment, live reconciliation, live verification and owner acceptance remain publication-stage checks."
-    ],
-    "requiredWorkflowGatesPassed": 10,
-    "additionalTargetedGatesPassed": 5,
-    "humanApprovalClaimed": false,
-    "humanListeningReviewClaimed": false,
-    "physicalDeviceReviewClaimed": false,
-    "publicFrontendDeploymentVerified": false,
-    "overallOwnerAcceptanceClaimed": false
+    "humanReviewLimits": [
+      "Human listening/pronunciation/accent acceptance across14.16hours of newaudio.",
+      "Physical-device/speaker/microphone/accessibility acceptance; headlessbrowser viewportemulation is recorded separately."
+    ]
   },
   "artifactIdentities": {
     "releaseIndex": {
@@ -487,6 +466,31 @@
       "file": "reviews/independent-final-native-release-gates.json",
       "sha256": "79d56ef08d5469ede3220f60c541dc4438d0471caab467f477c5d4754256962c",
       "bytes": 69197
+    },
+    {
+      "file": "production-public-payload-identity.json",
+      "sha256": "b02324c66d9944c57e9355e7f6f3b12ec3d13639ceb425559aa2df83dbcd2140",
+      "scope": "Retained production evidence; full private scratch artifacts are excluded from website publication."
+    },
+    {
+      "file": "production-client-performance.json",
+      "sha256": "712358bd9fd121293675026aa98f5c789916f7aebd01818609641063483621e9",
+      "scope": "Retained production evidence; full private scratch artifacts are excluded from website publication."
+    },
+    {
+      "file": "backend-production-sync-function-verification.json",
+      "sha256": "5c033f768de1b72499dd1dbfba945c412b910f51c4944a05134072956c7e69d1",
+      "scope": "Retained production evidence; full private scratch artifacts are excluded from website publication."
+    },
+    {
+      "file": "live-public-smoke-summary.json",
+      "sha256": "cd468f5d9db55790526f7c1ba3d1c913a6be4958e400be051747b7ec88088dae",
+      "scope": "Retained production evidence; full private scratch artifacts are excluded from website publication."
+    },
+    {
+      "file": "final-release-checklist.json",
+      "sha256": "b2c58e53cccf09ff44eb92ebb38cbd2aad7c11772365309a2a85e4614d556043",
+      "scope": "Retained production evidence; full private scratch artifacts are excluded from website publication."
     }
   ],
   "reproducibility": {
@@ -501,5 +505,15 @@
     "Canonical authoring records, provenance, review register and this verification summary are tracked curator materials, excluded from public site asset export.",
     "Build scratch, raw source PDFs, generated local audio, model files, credentials and detailed reviewer scratch are excluded from the public release."
   ],
-  "approvalScope": "Independent AI editorial, automated local browser/media and production-definition evidence only; no human approval or public frontend live verification is claimed."
+  "approvalScope": "Existing human authorization to create/publish everything and exceed Cloudflare free storage is retained. All scoped independent AI editorial, automated browser/media, production-definition and actual public deployment checks are recorded. Human hearing/accent, physical-device acceptance and human final acceptance are not claimed.",
+  "publication": {
+    "courseCommit": "ad91de42cd41c81d679a287083847198da287b6f",
+    "pagesRun": "https://github.com/sambusinessdirectory-ops/edmundeducation.github.io/actions/runs/38878480588",
+    "pagesConclusion": "success",
+    "publicCourse": "https://edmundeducation.com/advanced-native.html",
+    "publicReleaseMatchedCourseCommit": true,
+    "sourceLabelsResolvedToPublicCanonicalIds": 2110,
+    "currentImportedShardsVerified": 43,
+    "supportingFilesVerified": 17
+  }
 }

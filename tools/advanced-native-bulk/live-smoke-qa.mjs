@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import index from '../../natural-english/advanced-expressions.mjs';
 import {hydrateModule} from '../../natural-english/catalogue.mjs';
@@ -18,9 +19,15 @@ const samples=await Promise.all([index.find(l=>l.id==='advanced-native-001'),ind
 const metadata=JSON.parse(await fs.readFile(path.join(root,'natural-english/audio/advanced-metadata.json'),'utf8'));
 const hash=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
 const watched=['advanced-native.html','natural-english.html','natural-english/app.mjs','natural-english/catalogue.mjs','natural-english/advanced-expressions.mjs','natural-english/advanced-loader.mjs','natural-english/advanced-imported.generated.mjs','natural-english/advanced-targets.generated.mjs','natural-english/advanced-display.mjs','natural-english/style.css','advanced-native/style.css','natural-english/audio/manifest.mjs'];
-const expected=Object.fromEntries(await Promise.all(watched.map(async f=>[f,hash(await fs.readFile(path.join(root,f)))])));
+const helper='tools/advanced-native-bulk/pages-expected-assets.py';
+const expectedFiles=[...new Set([...watched,...newPicks.map(l=>path.posix.normalize('natural-english/'+l.contentShard))])];
+const publicationExpected=JSON.parse(execFileSync('python3',[path.join(root,helper),'--root',root,'--files-json',JSON.stringify(expectedFiles)],{cwd:root,encoding:'utf8',maxBuffer:8*1024*1024}));
+const expected=Object.fromEntries(Object.entries(publicationExpected.files).map(([f,proof])=>[f,proof.pagesSha256]));
+const rawExpected=Object.fromEntries(Object.entries(publicationExpected.files).map(([f,proof])=>[f,proof.rawSha256]));
+const toolRelative='tools/advanced-native-bulk/live-smoke-qa.mjs',toolVersion={commit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),executedToolSha256:hash(await fs.readFile(fileURLToPath(import.meta.url))),committedToolSha256:hash(execFileSync('git',['show','HEAD:'+toolRelative],{cwd:root})),helperSha256:hash(await fs.readFile(path.join(root,helper)))};
+toolVersion.executedToolMatchesCommitted=toolVersion.executedToolSha256===toolVersion.committedToolSha256;
 await fs.mkdir(output,{recursive:true});
-const report={origin,started:new Date().toISOString(),expectedIndexedLessons:index.length,expectedStandardNativeLessons:466,sampledNewLessons:newPicks.map(l=>({id:l.id,number:l.number,title:l.titleEn})),baselineSamples:['advanced-native-001','advanced-native-010'],scope:'Actual public HTML/runtime/index/shards/MP3 retrieval and native audio events; synthetic Supabase Auth/RPC and header identity only. No real student sign-in/writes; no human hearing or physical-device claim.',expectedLocalSha256:expected,runs:[],assets:[],media:[],issues:[],physicalDeviceReviewClaimed:false,humanHearingClaimed:false,realStudentWrites:false};
+const report={origin,started:new Date().toISOString(),expectedIndexedLessons:index.length,expectedStandardNativeLessons:466,sampledNewLessons:newPicks.map(l=>({id:l.id,number:l.number,title:l.titleEn})),baselineSamples:['advanced-native-001','advanced-native-010'],scope:'Actual public HTML/runtime/index/shards/MP3 retrieval and native audio events; synthetic Supabase Auth/RPC and header identity only. No real student sign-in/writes; no human hearing or physical-device claim.',toolVersion,expectedPublishedSha256:expected,expectedLocalRawSha256:rawExpected,publicationExpected,runs:[],assets:[],media:[],issues:[],physicalDeviceReviewClaimed:false,humanHearingClaimed:false,realStudentWrites:false};
 const assetMap=new Map(),mediaMap=new Map(),requestedAssetUrls=new Set();let activePage=null;
 async function checkpoint(){await fs.writeFile(path.join(output,'report.json'),JSON.stringify(report,null,2)+'\n');}
 function localPathFor(url){const u=new URL(url);return u.origin===new URL(origin).origin?decodeURIComponent(u.pathname).replace(/^\//,''):null;}
@@ -36,11 +43,12 @@ async function login(page,url){await page.goto(url,{waitUntil:'networkidle'});if
 async function open(page,lesson,mobile){await click(page,page.locator(`[data-module="${lesson.id}"]`),mobile);await page.waitForFunction(label=>document.querySelector('[data-lesson-kicker]')?.textContent===label,`第 ${lesson.number} 課`);assert.ok(await page.locator('[data-lesson-view]').isVisible());}
 async function actualPlayback(page,context,lesson,text,locator,mobile,label,availability){
  const url=new URL(audioManifest[lesson.id]?.[text]||'',origin+'/').href;assert.ok(audioManifest[lesson.id]?.[text],'Missing frozen media mapping');await checkedAudio(context,url,lesson,text);
+ const since=await page.evaluate(()=>performance.now());
  await click(page,locator,mobile);
- const observation={label,lesson:lesson.id,url,slow:await locator.getAttribute('data-slow')!==null,nativeMetadata:false,nativeTimeupdate:false};
+ const observation={label,lesson:lesson.id,url,slow:await locator.getAttribute('data-slow')!==null,playObservationSince:since,nativeMetadata:false,nativeTimeupdate:false};
  try{
   await page.waitForFunction(src=>window.__liveAudio.some(a=>(a.el.currentSrc||a.el.src)===src&&a.el.readyState>=1&&a.el.duration>0),url,{timeout:12000});observation.nativeMetadata=true;
-  if(!availability.nativePlaybackUnavailable){await page.waitForFunction(src=>window.__liveAudio.some(a=>(a.el.currentSrc||a.el.src)===src&&a.el.currentTime>.05&&a.events.some(e=>e.type==='timeupdate')),url,{timeout:10000});observation.nativeTimeupdate=true;}else observation.limitation='Native progression was unavailable earlier in this same context; not repeatedly awaited.';
+  if(!availability.nativePlaybackUnavailable){await page.waitForFunction(({src,since})=>window.__liveAudio.some(a=>(a.el.currentSrc||a.el.src)===src&&a.el.currentTime>.05&&a.events.some(e=>e.type==='timeupdate'&&e.at>=since&&e.src===src&&e.time>.05)),{src:url,since},{timeout:10000});observation.nativeTimeupdate=true;}else observation.limitation='Native progression was unavailable earlier in this same context; not repeatedly awaited.';
  }catch(e){observation.limitation=e.message.split('\n')[0];availability.nativePlaybackUnavailable=true;}
  const state=await page.evaluate(src=>{const a=window.__liveAudio.find(a=>(a.el.currentSrc||a.el.src)===src);return a?{duration:a.el.duration,currentTime:a.el.currentTime,rate:a.el.playbackRate,paused:a.el.paused,error:a.el.error?{code:a.el.error.code,message:a.el.error.message}:null,events:a.events.slice(-12)}:null;},url);observation.state=state;
  if(state?.error)throw Error('Native public media element error: '+JSON.stringify(state.error));
@@ -56,7 +64,7 @@ try{
    await context.route('**/rest/v1/rpc/**',route=>{run.interceptedNetwork.push({url:route.request().url(),method:route.request().method(),kind:'synthetic-RPC-no-production-write'});return route.fulfill({status:200,contentType:'application/json',body:'[]'});});
    await context.addInitScript(()=>{
     window.__answerResults=[];window.__notes=0;window.__liveAudio=[];window.__syntheticRpc=[];window.__identityIntercepts=0;
-    const NativeAudio=window.Audio;function ObservedAudio(...args){const el=new NativeAudio(...args),entry={el,events:[]};window.__liveAudio.push(entry);for(const type of ['loadedmetadata','canplay','playing','timeupdate','pause','ended','error'])el.addEventListener(type,()=>entry.events.push({type,time:el.currentTime,rate:el.playbackRate}));return el;}ObservedAudio.prototype=NativeAudio.prototype;window.Audio=ObservedAudio;
+    const NativeAudio=window.Audio;function ObservedAudio(...args){const el=new NativeAudio(...args),entry={el,events:[]};window.__liveAudio.push(entry);for(const type of ['loadedmetadata','canplay','playing','timeupdate','pause','ended','error'])el.addEventListener(type,()=>entry.events.push({type,time:el.currentTime,rate:el.playbackRate,at:performance.now(),src:el.currentSrc||el.src}));return el;}ObservedAudio.prototype=NativeAudio.prototype;window.Audio=ObservedAudio;
     document.addEventListener('edmund:answer-result',e=>window.__answerResults.push(e.detail.correct));const ac=window.AudioContext||window.webkitAudioContext;if(ac){const create=ac.prototype.createOscillator;ac.prototype.createOscillator=function(...args){window.__notes++;return create.apply(this,args);};}
     const nativeFetch=window.fetch;window.fetch=function(input,init){const url=typeof input==='string'?input:input?.url;if(url?.includes('/v1/learning-hub/identity')){window.__identityIntercepts++;return Promise.resolve(new Response('null',{status:200,headers:{'Content-Type':'application/json'}}));}return nativeFetch.call(this,input,init);};
     const id='346f7621-f726-42ae-93e7-efb9a3c654d4',token='8e6877b4-f899-460c-bb50-d55a1a7db3c5',events=new Map();
@@ -66,7 +74,7 @@ try{
     Object.defineProperty(window,'supabase',{configurable:true,get:()=>stub,set:()=>{}});
    });
    const page=await context.newPage();activePage=page;page.setDefaultTimeout(20000);page.on('pageerror',e=>run.pageErrors.push(e.message));
-   page.on('response',response=>{const url=response.url(),relative=localPathFor(url);if(!relative||!(/\.(mjs|js|css|html)$/.test(new URL(url).pathname))||requestedAssetUrls.has(url))return;requestedAssetUrls.add(url);const job=(async()=>{const bytes=await response.body(),item={url,status:response.status(),bytes:bytes.length,sha256:hash(bytes),expectedSha256:expected[relative]||null,path:relative};if(relative.startsWith('natural-english/advanced-content/')){try{item.expectedSha256=hash(await fs.readFile(path.join(root,relative)));}catch{}}
+   page.on('response',response=>{const url=response.url(),relative=localPathFor(url);if(!relative||!(/\.(mjs|js|css|html)$/.test(new URL(url).pathname))||requestedAssetUrls.has(url))return;requestedAssetUrls.add(url);const job=(async()=>{const bytes=await response.body(),item={url,status:response.status(),bytes:bytes.length,sha256:hash(bytes),expectedSha256:expected[relative]||null,path:relative};if(relative.startsWith('natural-english/advanced-content/'))assert.ok(item.expectedSha256,'Unexpected content shard was not included in the frozen sample: '+relative);
     item.matchesExpected=item.expectedSha256?item.sha256===item.expectedSha256:null;assetMap.set(url,item);if(item.expectedSha256)assert.ok(item.matchesExpected,'Deployed asset differs from frozen local version: '+url);})();pending.push(job.catch(error=>assetErrors.push({url,message:error.message})));});
    await login(page,origin+'/natural-english.html');assert.equal(await page.locator('[data-module]').count(),466);assert.equal(await page.locator('[data-module="advanced-native-001"]').count(),0);run.checks.push('Standard Native retains466cards and course separation.');
    await login(page,origin+'/advanced-native.html');const ids=await page.locator('[data-module-grid] [data-module]').evaluateAll(es=>es.map(e=>e.dataset.module));assert.deepEqual(ids,index.map(l=>l.id));run.checks.push('All1893Advancedcards match exact frozen order and IDs.');
@@ -77,7 +85,17 @@ try{
      await page.mouse.move(0,0);await page.keyboard.press('Escape');await click(page,page.locator(`[data-step="${n}"]`),mobile);
      if(n===0){run.audio.push(await actualPlayback(page,context,lesson,step.model,page.locator('[data-stage] [data-say]:not([data-slow])'),mobile,'listening normal',run));run.audio.push(await actualPlayback(page,context,lesson,step.model,page.locator('[data-stage] [data-slow]'),mobile,'listening slow',run));}
      const q=lesson.questions.find(q=>step.questions.includes(q.id));
-     if(!q){run.audio.push(await actualPlayback(page,context,lesson,step.model,page.locator('[data-stage] [data-say]:not([data-slow])'),mobile,'speaking normal',run));await click(page,page.locator('[data-skip]'),mobile);assert.ok(await page.locator('.model .target-green').count());continue;}
+     if(!q){
+      const expectedDisplay=step.displayModel||step.model,clean=value=>value.replace(/[\u200b\u2060]/g,'').replace(/\s+/g,' ').trim();
+      const speakingSnapshot=async()=>({text:await page.locator('.model .model-sentence').textContent(),greenTargets:await page.locator('.model .target-green').count(),heading:await page.locator('.model .eyebrow').textContent()});
+      row.speakingBeforeSkip=await speakingSnapshot();assert.equal(clean(row.speakingBeforeSkip.text),clean(expectedDisplay),'Speaking display differs from authored cloze/model.');
+      run.audio.push(await actualPlayback(page,context,lesson,step.model,page.locator('[data-stage] [data-say]:not([data-slow])'),mobile,'speaking normal',run));
+      if(lesson.id==='advanced-native-001')await page.locator('.model').screenshot({path:path.join(output,`${engine}-${mobile?'mobile':'desktop'}-baseline1-speaking-before-skip.png`)});
+      await click(page,page.locator('[data-skip]'),mobile);row.speakingAfterSkip=await speakingSnapshot();assert.equal(clean(row.speakingAfterSkip.text),clean(expectedDisplay),'Skip changed the authored speaking display.');
+      if(expectedDisplay.includes('_')){assert.equal(row.speakingBeforeSkip.greenTargets,0,'Masked speaking cloze leaks the target before skip.');assert.equal(row.speakingAfterSkip.greenTargets,0,'Masked speaking cloze leaks the target after skip.');}else assert.ok(row.speakingAfterSkip.greenTargets,'Visible full speaking target is not highlighted.');
+      if(lesson.id==='advanced-native-001')await page.locator('.model').screenshot({path:path.join(output,`${engine}-${mobile?'mobile':'desktop'}-baseline1-speaking-after-skip.png`)});
+      continue;
+     }
      if(q.promptZh){assert.equal(await page.locator('h3 .sentence-translation').textContent(),`（${q.promptZh}）`);row.translations++;}
      if(q.type==='mc'){
       for(const [i,choice] of q.options.entries()){if(q.optionZh?.[choice]){assert.equal(await page.locator(`[data-q="${q.id}"][data-choice="${i}"] .sentence-translation`).textContent(),`（${q.optionZh[choice]}）`);row.translations++;}}
