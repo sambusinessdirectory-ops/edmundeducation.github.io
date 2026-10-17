@@ -75,6 +75,7 @@
     { id: "junior-exam-prep", href: "junior-exam-prep.html", zh: "初中考試溫習系統", en: "Junior Exam Preparation", homepageCard: 71 },
     { id: "junior-quiz-review", href: "junior-quiz-review.html", zh: "初中測驗溫習系統", en: "Junior Quiz Review", homepageCard: 72 },
     { id: "news-discussion", href: "news-discussion.html", zh: "熱議新聞討論", en: "News Discussion", homepageCard: 75 },
+    { id: "dse-argument-bank", href: "dse-argument-bank.html", zh: "DSE 論點大全", en: "DSE Speaking Argument Bank", homepageCard: 76 },
     { id: "excellent-learning", href: "excellent-learning-system.html", zh: "英文口音學習系統", en: "English Accent Learning System" },
     { id: "polysemy-lab", href: "polysemy-lab.html", zh: "一詞多義學習室", en: "Polysemy Lab" },
     { id: "natural-english", href: "natural-english.html", zh: "自然英文學習系統", en: "Native speakers 怎麼說?" }
@@ -128,7 +129,8 @@
     "reading-comprehension": "edmund-reading-comprehension-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession",
-    "excellent-learning": "edmund-excellent-learning-session-v1"
+    "excellent-learning": "edmund-excellent-learning-session-v1",
+    "dse-argument-bank": "edmund-dse-argument-bank-student-v1"
   });
 
   const LEARNING_PORTAL_IDS = Object.freeze([
@@ -285,6 +287,12 @@
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
+      },
+      "dse-argument-bank"() {
+        const value = storageJson(storage, SESSION_KEYS["dse-argument-bank"]);
+        return value?.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
       }
     };
 
@@ -317,6 +325,7 @@
       || candidates.schedule()
       || candidates.downloads()
       || candidates["excellent-learning"]()
+      || candidates["dse-argument-bank"]()
       || candidates["common-expression-speaking"]()
       || candidates["common-expression-written"]()
       || candidates["common-expression-rhetorical-speaking"]()

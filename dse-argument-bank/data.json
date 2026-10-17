@@ -1,0 +1,5681 @@
+{
+  "id": "2025-1-2-photo-taking-visitors",
+  "title": "2025 1.2 Photo-taking visitors not welcomed by everyone",
+  "context": [
+    {
+      "place": "Vermont, USA",
+      "point": "秋季賞葉遊客在住宅附近泊車、損壞財物及與居民爭執；道路封閉凸顯景點吸引力與社區承載力的衝突。"
+    },
+    {
+      "place": "Mount Fuji, Japan",
+      "point": "富士山附近小鎮因拍照遊客亂拋垃圾、泊車不當及不守規則，在 2024 年 5 月設置遮擋景觀的牆。"
+    },
+    {
+      "place": "Berlin, Germany",
+      "point": "餐廳 N&S 要求訪客不拍照或拍片，以照顧其他食客私隱及用餐體驗。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "A1",
+      "question": "Why people might not like others taking photos in public places.",
+      "angles": [
+        "個人私隱、同意與數碼風險",
+        "居民生活質素、公共空間與人身安全",
+        "文化、經濟、互動尊重與較少見的角度",
+        "反向視角：為何反對拍照也不應一概而論"
+      ],
+      "arguments": [
+        {
+          "id": "A1-01",
+          "title": "未經同意成為照片主角",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "路人雖身處公共地方，也未必願意被陌生人近距離拍攝或放上網。當鏡頭刻意對準某人的臉或私人活動，當事人可能失去選擇如何呈現自己的空間；這與無意間出現在遠景中不同。",
+          "glossary": [
+            {
+              "english": "photograph strangers",
+              "chinese": "拍攝陌生人"
+            },
+            {
+              "english": "seek consent",
+              "chinese": "徵求同意"
+            },
+            {
+              "english": "identifiable face",
+              "chinese": "可辨認的臉孔"
+            },
+            {
+              "english": "unwanted attention",
+              "chinese": "不受歡迎的關注"
+            },
+            {
+              "english": "personal boundaries",
+              "chinese": "個人界線"
+            }
+          ]
+        },
+        {
+          "id": "A1-02",
+          "title": "兒童難以理解網上曝光的長遠後果",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "小朋友可能不知道照片一旦公開便會被截圖、轉載或辨認；家長也未必在場給予同意。拍攝陌生兒童特寫並公開分享，比普通街景更需要審慎，以減少他們將來面對的私隱風險。",
+          "glossary": [
+            {
+              "english": "children's privacy",
+              "chinese": "兒童私隱"
+            },
+            {
+              "english": "informed consent",
+              "chinese": "知情同意"
+            },
+            {
+              "english": "online exposure",
+              "chinese": "網上曝光"
+            },
+            {
+              "english": "digital footprint",
+              "chinese": "數碼足跡"
+            },
+            {
+              "english": "protect minors",
+              "chinese": "保護未成年人"
+            }
+          ]
+        },
+        {
+          "id": "A1-03",
+          "title": "住宅窗口可能暴露私人生活",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "即使拍攝者站在街上，高角度鏡頭或長焦鏡頭仍可能拍到住戶室內、陽台和日常作息。居民難以在自己家中避開鏡頭，持續拍攝會削弱本應在家享有的安寧。",
+          "glossary": [
+            {
+              "english": "residential windows",
+              "chinese": "住宅窗戶"
+            },
+            {
+              "english": "private living spaces",
+              "chinese": "私人生活空間"
+            },
+            {
+              "english": "telephoto lens",
+              "chinese": "長焦鏡頭"
+            },
+            {
+              "english": "household routines",
+              "chinese": "家庭日常作息"
+            },
+            {
+              "english": "intrusion into privacy",
+              "chinese": "侵犯私隱"
+            }
+          ]
+        },
+        {
+          "id": "A1-04",
+          "title": "影像連同位置資訊可能暴露行蹤",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "照片除了人像，還可能包含拍攝時間、地點標籤和背景線索。若在社交平台即時發布，陌生人可能推斷某人的位置或慣常路線，因此分享方式有時比按快門本身更敏感。",
+          "glossary": [
+            {
+              "english": "location tags",
+              "chinese": "地點標籤"
+            },
+            {
+              "english": "reveal someone's whereabouts",
+              "chinese": "暴露某人的行蹤"
+            },
+            {
+              "english": "geolocation data",
+              "chinese": "地理位置資料"
+            },
+            {
+              "english": "real-time posting",
+              "chinese": "即時發布"
+            },
+            {
+              "english": "personal security",
+              "chinese": "人身安全"
+            }
+          ]
+        },
+        {
+          "id": "A1-05",
+          "title": "照片可能被斷章取義",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "一張相片只捕捉瞬間，未必反映事件前因後果。例如路人可能因不知情被拍成看似爭吵或失禮，之後受到網民批評；拍攝者的標題和剪裁方式足以改變觀眾理解。",
+          "glossary": [
+            {
+              "english": "misleading captions",
+              "chinese": "誤導性圖片說明"
+            },
+            {
+              "english": "lack of context",
+              "chinese": "缺乏背景脈絡"
+            },
+            {
+              "english": "distorted impression",
+              "chinese": "失真的印象"
+            },
+            {
+              "english": "reputational harm",
+              "chinese": "聲譽損害"
+            },
+            {
+              "english": "selective framing",
+              "chinese": "選擇性取景"
+            }
+          ]
+        },
+        {
+          "id": "A1-06",
+          "title": "惡意轉載可能導致網絡欺凌",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "一名學生或路人的尷尬表情若被拍下並製成迷因，可能迅速在群組流傳。即使攝影者原先只想開玩笑，持續轉發也可能令當事人承受羞辱和社交壓力。",
+          "glossary": [
+            {
+              "english": "online harassment",
+              "chinese": "網上騷擾"
+            },
+            {
+              "english": "cyberbullying",
+              "chinese": "網絡欺凌"
+            },
+            {
+              "english": "viral circulation",
+              "chinese": "病毒式傳播"
+            },
+            {
+              "english": "embarrassing images",
+              "chinese": "令人尷尬的照片"
+            },
+            {
+              "english": "emotional distress",
+              "chinese": "精神困擾"
+            }
+          ]
+        },
+        {
+          "id": "A1-07",
+          "title": "人像可能遭人工智能濫用",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "清晰的面部照片有機會被他人用於冒認身分、製作深度偽造影像或虛假帳戶。不能說每張照片都會造成這些傷害，但當可辨認影像大量公開時，濫用材料便更容易取得。",
+          "glossary": [
+            {
+              "english": "facial images",
+              "chinese": "面部影像"
+            },
+            {
+              "english": "identity impersonation",
+              "chinese": "冒認身分"
+            },
+            {
+              "english": "AI-generated deepfakes",
+              "chinese": "人工智能深度偽造影像"
+            },
+            {
+              "english": "image misuse",
+              "chinese": "影像濫用"
+            },
+            {
+              "english": "online impersonation",
+              "chinese": "網上冒充他人"
+            }
+          ]
+        },
+        {
+          "id": "A1-08",
+          "title": "拍攝與公開發布是兩個不同決定",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "拍攝私人紀念照片與向大量網民發佈他人肖像，造成的曝光程度不同。一個人容許朋友拍照，不等於同意相片用於廣告、公開直播或永久保存，因此分享前應再次考慮用途。",
+          "glossary": [
+            {
+              "english": "private keepsake",
+              "chinese": "私人紀念照"
+            },
+            {
+              "english": "publish online",
+              "chinese": "在網上公開"
+            },
+            {
+              "english": "secondary use",
+              "chinese": "二次使用"
+            },
+            {
+              "english": "audience reach",
+              "chinese": "接觸的觀眾範圍"
+            },
+            {
+              "english": "consent to publication",
+              "chinese": "同意公開發布"
+            }
+          ]
+        },
+        {
+          "id": "A1-09",
+          "title": "文化或宗教場合需要保持莊重",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "在寺廟、悼念活動或傳統儀式中，參與者可能重視寧靜及尊重多於照片。若遊客不斷要求他人擺姿勢或使用閃光燈，活動可能被當成表演，令參與者感到不受尊重。",
+          "glossary": [
+            {
+              "english": "religious ceremonies",
+              "chinese": "宗教儀式"
+            },
+            {
+              "english": "cultural sensitivity",
+              "chinese": "文化敏感度"
+            },
+            {
+              "english": "solemn atmosphere",
+              "chinese": "莊重氣氛"
+            },
+            {
+              "english": "intrusive photography",
+              "chinese": "造成干擾的拍攝"
+            },
+            {
+              "english": "show respect",
+              "chinese": "表示尊重"
+            }
+          ]
+        },
+        {
+          "id": "A1-10",
+          "title": "患者或悲傷人士可能處於脆弱狀態",
+          "angle": "個人私隱、同意與數碼風險",
+          "description": "醫院、意外現場或喪禮附近的人，可能正在經歷焦慮或悲痛。即使事件發生於某些對外開放的區域，隨意拍攝特寫亦可能令當事人感到被消費，與一般旅遊照片的倫理不同。",
+          "glossary": [
+            {
+              "english": "vulnerable individuals",
+              "chinese": "處境脆弱人士"
+            },
+            {
+              "english": "emotional vulnerability",
+              "chinese": "情緒脆弱"
+            },
+            {
+              "english": "distressing circumstances",
+              "chinese": "令人難受的處境"
+            },
+            {
+              "english": "insensitive behaviour",
+              "chinese": "欠缺體諒的行為"
+            },
+            {
+              "english": "respect dignity",
+              "chinese": "尊重尊嚴"
+            }
+          ]
+        },
+        {
+          "id": "A1-11",
+          "title": "打卡人潮阻塞出入口",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "當數十人同時站在住宅大門前拍照，住戶可能需要繞路，送貨員及輪椅使用者也可能難以通行。問題不一定在於照片本身，而在於群體佔用了原本供日常出入的空間。",
+          "glossary": [
+            {
+              "english": "block entrances",
+              "chinese": "堵塞出入口"
+            },
+            {
+              "english": "pedestrian access",
+              "chinese": "行人通道"
+            },
+            {
+              "english": "daily inconvenience",
+              "chinese": "日常不便"
+            },
+            {
+              "english": "wheelchair users",
+              "chinese": "輪椅使用者"
+            },
+            {
+              "english": "crowd congestion",
+              "chinese": "人群擠塞"
+            }
+          ]
+        },
+        {
+          "id": "A1-12",
+          "title": "為拍好照片站在馬路上",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "部分人可能為了取得完整背景而走出行人路、在彎位停下，甚至要求車輛等待。這會使駕駛者和行人需要臨時避讓，增加碰撞或交通混亂的可能性。",
+          "glossary": [
+            {
+              "english": "step into traffic",
+              "chinese": "走進車流"
+            },
+            {
+              "english": "road safety",
+              "chinese": "道路安全"
+            },
+            {
+              "english": "obstruct vehicles",
+              "chinese": "阻礙車輛"
+            },
+            {
+              "english": "dangerous positioning",
+              "chinese": "危險站位"
+            },
+            {
+              "english": "traffic disruption",
+              "chinese": "交通受阻"
+            }
+          ]
+        },
+        {
+          "id": "A1-13",
+          "title": "佔用行人路增加跌倒風險",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "三腳架、補光燈和背包若散放在狹窄行人路，其他市民可能絆倒或被迫走到車道。拍攝器材佔地不大時未必有問題，但在人多、地窄的地方便需要作出限制。",
+          "glossary": [
+            {
+              "english": "camera tripod",
+              "chinese": "相機三腳架"
+            },
+            {
+              "english": "trip hazards",
+              "chinese": "絆倒危險"
+            },
+            {
+              "english": "narrow pavements",
+              "chinese": "狹窄行人路"
+            },
+            {
+              "english": "obstruct the walkway",
+              "chinese": "阻塞通道"
+            },
+            {
+              "english": "public safety",
+              "chinese": "公共安全"
+            }
+          ]
+        },
+        {
+          "id": "A1-14",
+          "title": "高危自拍可能引發救援風險",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "有人為取得驚險照片而靠近懸崖、越過圍欄或登上不穩固位置。若發生意外，不只拍攝者受傷，救援人員也可能要在惡劣地形中承擔額外風險。",
+          "glossary": [
+            {
+              "english": "risky selfies",
+              "chinese": "高危自拍"
+            },
+            {
+              "english": "cliff edges",
+              "chinese": "懸崖邊緣"
+            },
+            {
+              "english": "cross safety barriers",
+              "chinese": "越過安全圍欄"
+            },
+            {
+              "english": "rescue operations",
+              "chinese": "救援行動"
+            },
+            {
+              "english": "avoid unnecessary risks",
+              "chinese": "避免不必要的風險"
+            }
+          ]
+        },
+        {
+          "id": "A1-15",
+          "title": "閃光燈與補光設備令人不適",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "在安靜的餐廳、演出場地或夜間居住區，突然閃光可能分散他人注意力。對部分對強光敏感的人來說，頻繁補光更會造成不適，所以即使沒有觸犯正式禁令亦應克制。",
+          "glossary": [
+            {
+              "english": "camera flash",
+              "chinese": "相機閃光燈"
+            },
+            {
+              "english": "bright lighting",
+              "chinese": "強光照明"
+            },
+            {
+              "english": "distract others",
+              "chinese": "分散他人注意力"
+            },
+            {
+              "english": "light sensitivity",
+              "chinese": "對光敏感"
+            },
+            {
+              "english": "minimise disturbance",
+              "chinese": "減少干擾"
+            }
+          ]
+        },
+        {
+          "id": "A1-16",
+          "title": "直播和長時間拍攝製造噪音",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "直播主可能多次重拍開場白、播放音樂或大聲指揮同伴。當拍攝時間延長至深夜，噪音會直接影響附近家庭休息，居民自然可能對此類訪客反感。",
+          "glossary": [
+            {
+              "english": "live streaming",
+              "chinese": "網上直播"
+            },
+            {
+              "english": "repeated retakes",
+              "chinese": "反覆重拍"
+            },
+            {
+              "english": "excessive noise",
+              "chinese": "過量噪音"
+            },
+            {
+              "english": "disturb residents",
+              "chinese": "滋擾居民"
+            },
+            {
+              "english": "peaceful surroundings",
+              "chinese": "寧靜環境"
+            }
+          ]
+        },
+        {
+          "id": "A1-17",
+          "title": "為了拍照把其他人趕出畫面",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "拍攝者若要求正在用餐、散步或運動的人立即移開，便把共享空間誤當成自己的攝影棚。其他市民同樣有使用場地的權利，不應因為別人想拍出空曠背景而讓步。",
+          "glossary": [
+            {
+              "english": "clear the background",
+              "chinese": "清空背景"
+            },
+            {
+              "english": "shared public space",
+              "chinese": "共用公共空間"
+            },
+            {
+              "english": "entitlement",
+              "chinese": "自以為有權優先的心態"
+            },
+            {
+              "english": "equal access",
+              "chinese": "平等使用權"
+            },
+            {
+              "english": "inconvenience bystanders",
+              "chinese": "妨礙旁觀者"
+            }
+          ]
+        },
+        {
+          "id": "A1-18",
+          "title": "聚集拍攝可能妨礙緊急通道",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "熱門景點若同時出現人龍和大型拍攝器材，緊急出口或消防通道可能變得狹窄。即使平日只是小不便，一旦需要迅速疏散，阻塞造成的後果可能更嚴重。",
+          "glossary": [
+            {
+              "english": "emergency access",
+              "chinese": "緊急通道"
+            },
+            {
+              "english": "evacuation routes",
+              "chinese": "疏散路線"
+            },
+            {
+              "english": "emergency vehicles",
+              "chinese": "緊急車輛"
+            },
+            {
+              "english": "overcrowded hotspots",
+              "chinese": "過度擠擁的熱門地點"
+            },
+            {
+              "english": "maintain clear access",
+              "chinese": "保持通道暢通"
+            }
+          ]
+        },
+        {
+          "id": "A1-19",
+          "title": "不當泊車破壞社區交通",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "自駕遊客可能為拍攝一棵樹、一條街而臨時泊在路邊或住宅附近。車輛集中會影響垃圾車和居民出入，亦可能令道路擠塞；這正呼應試題美國小鎮的例子。",
+          "glossary": [
+            {
+              "english": "illegal parking",
+              "chinese": "違例泊車"
+            },
+            {
+              "english": "roadside congestion",
+              "chinese": "路邊擠塞"
+            },
+            {
+              "english": "residential streets",
+              "chinese": "住宅街道"
+            },
+            {
+              "english": "obstruct local traffic",
+              "chinese": "阻礙區內交通"
+            },
+            {
+              "english": "seasonal influx",
+              "chinese": "季節性湧入的人潮"
+            }
+          ]
+        },
+        {
+          "id": "A1-20",
+          "title": "追求最佳景觀造成土地或設施損壞",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "若遊客踩入花圃、踏上脆弱的草地或倚靠歷史建築，只為取得更好的角度，可能破壞環境和設施。單次損害看似輕微，頻繁重複後卻會增加維修負擔。",
+          "glossary": [
+            {
+              "english": "trample vegetation",
+              "chinese": "踐踏植物"
+            },
+            {
+              "english": "damage property",
+              "chinese": "損壞財物"
+            },
+            {
+              "english": "fragile habitats",
+              "chinese": "脆弱生境"
+            },
+            {
+              "english": "maintenance costs",
+              "chinese": "維修成本"
+            },
+            {
+              "english": "off-limits areas",
+              "chinese": "禁止進入的區域"
+            }
+          ]
+        },
+        {
+          "id": "A1-21",
+          "title": "拍攝活動可能伴隨垃圾問題",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "一些人帶着飲品、食物包裝及即棄道具到景點，離開時若未妥善清理，便增加清潔人員工作。問題源於缺乏公德心而非拍照的必然結果，因此規管應集中處理亂拋垃圾行為。",
+          "glossary": [
+            {
+              "english": "leave litter behind",
+              "chinese": "留下垃圾"
+            },
+            {
+              "english": "disposable props",
+              "chinese": "即棄道具"
+            },
+            {
+              "english": "environmental damage",
+              "chinese": "環境損害"
+            },
+            {
+              "english": "clean-up costs",
+              "chinese": "清潔成本"
+            },
+            {
+              "english": "responsible behaviour",
+              "chinese": "負責任的行為"
+            }
+          ]
+        },
+        {
+          "id": "A1-22",
+          "title": "輪候拍照可能侵佔活動空間",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "球場、樓梯或觀景台原本供居民運動和通行，但打卡人群有時會長時間輪候熱門角度。當正常使用者反而無法進入，景點便出現旅遊用途與生活用途之間的資源衝突。",
+          "glossary": [
+            {
+              "english": "photo queues",
+              "chinese": "拍照人龍"
+            },
+            {
+              "english": "recreational facilities",
+              "chinese": "康樂設施"
+            },
+            {
+              "english": "competing uses",
+              "chinese": "互相競爭的用途"
+            },
+            {
+              "english": "local amenities",
+              "chinese": "社區設施"
+            },
+            {
+              "english": "crowd management",
+              "chinese": "人潮管理"
+            }
+          ]
+        },
+        {
+          "id": "A1-23",
+          "title": "旺季人流令原有社區節奏改變",
+          "angle": "居民生活質素、公共空間與人身安全",
+          "description": "一處地方在網上突然爆紅後，居民可能每天面對陌生人聚集、道路擠塞與商戶排隊。即使每名遊客只停留數分鐘，持續人潮仍可能累積成生活質素問題。",
+          "glossary": [
+            {
+              "english": "viral destination",
+              "chinese": "網上爆紅景點"
+            },
+            {
+              "english": "visitor influx",
+              "chinese": "訪客湧入"
+            },
+            {
+              "english": "cumulative impact",
+              "chinese": "累積影響"
+            },
+            {
+              "english": "quality of life",
+              "chinese": "生活質素"
+            },
+            {
+              "english": "neighbourhood character",
+              "chinese": "社區特色"
+            }
+          ]
+        },
+        {
+          "id": "A1-24",
+          "title": "把居民住宅當作觀光佈景",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "有些訪客只把密集住宅和晾衫架視為富有特色的背景，卻忽略每個窗口背後都有人生活。若為了構圖而直拍住戶或闖入私人範圍，居民容易感到被物化和不受尊重。",
+          "glossary": [
+            {
+              "english": "residential backdrop",
+              "chinese": "住宅背景"
+            },
+            {
+              "english": "objectify residents",
+              "chinese": "把居民物化"
+            },
+            {
+              "english": "everyday lives",
+              "chinese": "日常生活"
+            },
+            {
+              "english": "respect private property",
+              "chinese": "尊重私人財產"
+            },
+            {
+              "english": "lived-in neighbourhood",
+              "chinese": "有人居住的社區"
+            }
+          ]
+        },
+        {
+          "id": "A1-25",
+          "title": "文化活動可能被表演化",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "遊客若只關心在節慶中自拍，可能忽略活動的宗教、歷史或社群意義。對參與者而言，頻繁打斷儀式要求合照，會把原本的文化交流變成消費式觀看。",
+          "glossary": [
+            {
+              "english": "cultural traditions",
+              "chinese": "文化傳統"
+            },
+            {
+              "english": "reduce something to a spectacle",
+              "chinese": "把某事物變成供人觀賞的表演"
+            },
+            {
+              "english": "authentic experience",
+              "chinese": "真實體驗"
+            },
+            {
+              "english": "cultural appreciation",
+              "chinese": "文化欣賞"
+            },
+            {
+              "english": "respectful participation",
+              "chinese": "尊重地參與"
+            }
+          ]
+        },
+        {
+          "id": "A1-26",
+          "title": "商業攝影可能無償利用社區資源",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "品牌或網紅若佔用街角、樓梯及公共設施作拍攝場景，相關收入可能主要由拍攝者取得，清潔和秩序成本卻由居民承擔。這令商業用途與一般私人留念有不同的公平問題。",
+          "glossary": [
+            {
+              "english": "commercial photoshoots",
+              "chinese": "商業攝影活動"
+            },
+            {
+              "english": "private profit",
+              "chinese": "私人盈利"
+            },
+            {
+              "english": "public resources",
+              "chinese": "公共資源"
+            },
+            {
+              "english": "unequal distribution of costs",
+              "chinese": "成本分配不均"
+            },
+            {
+              "english": "commercial use",
+              "chinese": "商業用途"
+            }
+          ]
+        },
+        {
+          "id": "A1-27",
+          "title": "拍攝人員可能對服務業員工缺乏尊重",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "有些顧客為了取景而要求餐廳員工反覆上菜、延後清潔或避開鏡頭。員工的工作流程因此受干擾，其他顧客也可能等候更久，令影像創作凌駕於基本服務之上。",
+          "glossary": [
+            {
+              "english": "hospitality staff",
+              "chinese": "餐飲服務員工"
+            },
+            {
+              "english": "interrupt service",
+              "chinese": "打斷服務"
+            },
+            {
+              "english": "unreasonable demands",
+              "chinese": "不合理要求"
+            },
+            {
+              "english": "service delays",
+              "chinese": "服務延誤"
+            },
+            {
+              "english": "treat staff respectfully",
+              "chinese": "尊重員工"
+            }
+          ]
+        },
+        {
+          "id": "A1-28",
+          "title": "過度拍照令人無法投入當下",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "在演唱會、餐廳或旅行中，人若一直安排構圖和修改濾鏡，注意力便可能由真實體驗轉移到手機。這不代表所有拍照都破壞樂趣，但過量拍攝確實可能減少交流和感官享受。",
+          "glossary": [
+            {
+              "english": "live in the moment",
+              "chinese": "投入當下"
+            },
+            {
+              "english": "constant documentation",
+              "chinese": "不斷記錄"
+            },
+            {
+              "english": "divided attention",
+              "chinese": "注意力分散"
+            },
+            {
+              "english": "sensory experience",
+              "chinese": "感官體驗"
+            },
+            {
+              "english": "meaningful interaction",
+              "chinese": "有意義的互動"
+            }
+          ]
+        },
+        {
+          "id": "A1-29",
+          "title": "社交媒體比較造成拍照壓力",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "當旅遊照片被用來衡量生活是否精彩，有些人可能不斷重拍並模仿網絡潮流。同行者或會感到疲累，旅行變成滿足外界期待而不是個人興趣。",
+          "glossary": [
+            {
+              "english": "social comparison",
+              "chinese": "社交比較"
+            },
+            {
+              "english": "peer pressure",
+              "chinese": "同儕壓力"
+            },
+            {
+              "english": "picture-perfect image",
+              "chinese": "完美照片形象"
+            },
+            {
+              "english": "social expectations",
+              "chinese": "社交期望"
+            },
+            {
+              "english": "performance pressure",
+              "chinese": "表現壓力"
+            }
+          ]
+        },
+        {
+          "id": "A1-30",
+          "title": "偷拍與正常街頭攝影容易被混淆",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "街頭攝影可能有藝術或紀錄價值，但若鏡頭持續追着特定陌生人拍攝，便可能構成騷擾。缺少清晰分界時，善意攝影者可能遭不合理指責，而真正侵犯他人的行為亦難被界定。",
+          "glossary": [
+            {
+              "english": "candid photography",
+              "chinese": "抓拍／自然街拍"
+            },
+            {
+              "english": "artistic expression",
+              "chinese": "藝術表達"
+            },
+            {
+              "english": "persistent filming",
+              "chinese": "持續跟拍"
+            },
+            {
+              "english": "distinguish intent",
+              "chinese": "區分意圖"
+            },
+            {
+              "english": "respectful distance",
+              "chinese": "保持尊重的距離"
+            }
+          ]
+        },
+        {
+          "id": "A1-31",
+          "title": "照片可用來公開羞辱弱勢人士",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "若拍攝者把露宿者、清潔工或街頭表演者當成獵奇對象，並加入嘲諷文字，便可能加深偏見。即使拍攝發生在公開地方，當事人的尊嚴也不應被當成吸引流量的工具。",
+          "glossary": [
+            {
+              "english": "vulnerable communities",
+              "chinese": "弱勢社群"
+            },
+            {
+              "english": "sensationalise hardship",
+              "chinese": "把困境獵奇化"
+            },
+            {
+              "english": "public humiliation",
+              "chinese": "公開羞辱"
+            },
+            {
+              "english": "social stigma",
+              "chinese": "社會污名"
+            },
+            {
+              "english": "human dignity",
+              "chinese": "人的尊嚴"
+            }
+          ]
+        },
+        {
+          "id": "A1-32",
+          "title": "創作者與居民對「公共」的理解不同",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "攝影者可能認為只要身處公眾可達之處便能自由拍攝，居民則可能把住宅通道視為日常私人空間。雙方對空間的期待不一致，就容易發生爭執；明確告示與溝通比互相指責更有用。",
+          "glossary": [
+            {
+              "english": "public accessibility",
+              "chinese": "公眾可達性"
+            },
+            {
+              "english": "private expectations",
+              "chinese": "私隱期待"
+            },
+            {
+              "english": "residential courtyards",
+              "chinese": "住宅庭院"
+            },
+            {
+              "english": "conflicting expectations",
+              "chinese": "互相衝突的期待"
+            },
+            {
+              "english": "mutual understanding",
+              "chinese": "互相理解"
+            }
+          ]
+        },
+        {
+          "id": "A1-33",
+          "title": "過度觀光可能使地方失去原有特色",
+          "angle": "文化、經濟、互動尊重與較少見的角度",
+          "description": "某條街成為拍照熱點後，原本服務居民的小店可能更傾向銷售紀念品，而傳統生活活動逐漸減少。這只是特定條件下的可能結果，不能單靠攝影人數就推斷所有社區都會發生相同改變。",
+          "glossary": [
+            {
+              "english": "commercialisation",
+              "chinese": "商業化"
+            },
+            {
+              "english": "local character",
+              "chinese": "本地特色"
+            },
+            {
+              "english": "tourist-oriented businesses",
+              "chinese": "以遊客為主的商店"
+            },
+            {
+              "english": "changing neighbourhood",
+              "chinese": "變遷中的社區"
+            },
+            {
+              "english": "cultural identity",
+              "chinese": "文化身分"
+            }
+          ]
+        },
+        {
+          "id": "A1-34",
+          "title": "普通街景中的偶然入鏡不等於騷擾",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "在多人使用的海濱或街道，拍攝城市景觀可能無可避免地攝入路人。若要求所有攝影者先取得畫面中每人的同意，日常旅遊紀念和街頭藝術可能難以實行，因此要區分偶然入鏡與刻意侵犯。",
+          "glossary": [
+            {
+              "english": "incidental appearance",
+              "chinese": "偶然入鏡"
+            },
+            {
+              "english": "street photography",
+              "chinese": "街頭攝影"
+            },
+            {
+              "english": "reasonable expectations",
+              "chinese": "合理期望"
+            },
+            {
+              "english": "impractical requirements",
+              "chinese": "不切實際的要求"
+            },
+            {
+              "english": "proportionate response",
+              "chinese": "合乎比例的應對"
+            }
+          ]
+        },
+        {
+          "id": "A1-35",
+          "title": "攝影亦能記錄社區歷史",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "老店、舊街景和傳統習俗可能隨時間改變，影像有助後人了解城市如何發展。只要不擾民、不進入私人地方，居民的珍貴回憶與攝影者的紀錄價值未必互相排斥。",
+          "glossary": [
+            {
+              "english": "visual records",
+              "chinese": "影像紀錄"
+            },
+            {
+              "english": "urban heritage",
+              "chinese": "城市文化遺產"
+            },
+            {
+              "english": "document change",
+              "chinese": "記錄變遷"
+            },
+            {
+              "english": "collective memory",
+              "chinese": "集體回憶"
+            },
+            {
+              "english": "historical value",
+              "chinese": "歷史價值"
+            }
+          ]
+        },
+        {
+          "id": "A1-36",
+          "title": "拍照可能支持旅遊與小店生意",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "優質照片能吸引人認識較少人知道的特色商店或景點，令附近餐廳和零售店受惠。關鍵是人流規模與行為是否可管理，而非所有帶相機的旅客都應被視為麻煩。",
+          "glossary": [
+            {
+              "english": "promote tourism",
+              "chinese": "推廣旅遊"
+            },
+            {
+              "english": "local businesses",
+              "chinese": "本地商戶"
+            },
+            {
+              "english": "visitor spending",
+              "chinese": "旅客消費"
+            },
+            {
+              "english": "economic benefits",
+              "chinese": "經濟利益"
+            },
+            {
+              "english": "manageable tourism",
+              "chinese": "可管理的旅遊活動"
+            }
+          ]
+        },
+        {
+          "id": "A1-37",
+          "title": "藝術創作不應被單一標準扼殺",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "街頭攝影可能呈現公共生活、城市矛盾或弱勢故事，讓社會看見容易被忽略的現象。一刀切禁止在公共空間拍照，可能不合理地限制藝術表達與公眾討論。",
+          "glossary": [
+            {
+              "english": "freedom of expression",
+              "chinese": "表達自由"
+            },
+            {
+              "english": "artistic creativity",
+              "chinese": "藝術創作"
+            },
+            {
+              "english": "documentary value",
+              "chinese": "紀錄價值"
+            },
+            {
+              "english": "blanket ban",
+              "chinese": "一刀切禁令"
+            },
+            {
+              "english": "public debate",
+              "chinese": "公共討論"
+            }
+          ]
+        },
+        {
+          "id": "A1-38",
+          "title": "照片也可以成為公共問責證據",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "市民拍攝危險駕駛、設施損壞或不當行為，有時可保留時間與現場證據。若過度限制拍攝，可能令有需要的人難以記錄問題，因此公共利益例外值得仔細設計。",
+          "glossary": [
+            {
+              "english": "record evidence",
+              "chinese": "記錄證據"
+            },
+            {
+              "english": "public accountability",
+              "chinese": "公共問責"
+            },
+            {
+              "english": "safety violations",
+              "chinese": "安全違規"
+            },
+            {
+              "english": "evidence preservation",
+              "chinese": "證據保存"
+            },
+            {
+              "english": "public interest",
+              "chinese": "公共利益"
+            }
+          ]
+        },
+        {
+          "id": "A1-39",
+          "title": "不少衝突源於行為而非攝影",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "阻塞、亂拋垃圾和擅闖私人物業即使沒有相機也可能發生。若直接禁止所有拍照，或許未能針對真正問題；規範危險或滋擾行為可能更精準。",
+          "glossary": [
+            {
+              "english": "target harmful behaviour",
+              "chinese": "針對有害行為"
+            },
+            {
+              "english": "blanket restrictions",
+              "chinese": "一刀切限制"
+            },
+            {
+              "english": "root cause",
+              "chinese": "根本原因"
+            },
+            {
+              "english": "tailored measures",
+              "chinese": "針對性措施"
+            },
+            {
+              "english": "avoid overregulation",
+              "chinese": "避免過度規管"
+            }
+          ]
+        },
+        {
+          "id": "A1-40",
+          "title": "適度拍照可促進文化交流",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "旅客向本地人請教景點故事，再以尊重方式拍攝，有機會令不同背景的人互相認識。若雙方願意溝通，攝影可以成為交流媒介，而不一定代表消費或打擾。",
+          "glossary": [
+            {
+              "english": "cross-cultural exchange",
+              "chinese": "跨文化交流"
+            },
+            {
+              "english": "respectful curiosity",
+              "chinese": "帶有尊重的好奇心"
+            },
+            {
+              "english": "engage with locals",
+              "chinese": "與本地居民交流"
+            },
+            {
+              "english": "cultural understanding",
+              "chinese": "文化理解"
+            },
+            {
+              "english": "positive encounters",
+              "chinese": "正面交流"
+            }
+          ]
+        },
+        {
+          "id": "A1-41",
+          "title": "不應因「遊客身分」作出差別對待",
+          "angle": "反向視角：為何反對拍照也不應一概而論",
+          "description": "若本地人可以在海濱拍照、外地訪客卻被無故禁止，規則便可能引起公平疑問。合理政策應按拍攝行為、場地和風險區分，而不是單純按國籍或身份劃線。",
+          "glossary": [
+            {
+              "english": "equal treatment",
+              "chinese": "平等待遇"
+            },
+            {
+              "english": "discriminatory rules",
+              "chinese": "歧視性規則"
+            },
+            {
+              "english": "visitor status",
+              "chinese": "訪客身分"
+            },
+            {
+              "english": "behaviour-based standards",
+              "chinese": "按行為訂定的標準"
+            },
+            {
+              "english": "fair enforcement",
+              "chinese": "公平執法"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "question": "Places in Hong Kong that are popular for taking photos.",
+      "angles": [
+        "海港、天際線與現代都市景觀",
+        "建築、街道文化與有人居住的社區",
+        "自然生態、宗教文化與離島風景",
+        "跨景點的分析：甚麼地方較適合拍照"
+      ],
+      "arguments": [
+        {
+          "id": "A2-01",
+          "title": "太平山頂：高處俯瞰城市與海港",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "太平山頂可從較高位置看到香港島、九龍和維多利亞港的城市輪廓，因此很適合談論香港密集而壯觀的建築景觀。傍晚光線改變時畫面尤其有層次，但拍攝者應遵守觀景設施及排隊安排。",
+          "glossary": [
+            {
+              "english": "panoramic views",
+              "chinese": "全景景觀"
+            },
+            {
+              "english": "skyline",
+              "chinese": "城市天際線"
+            },
+            {
+              "english": "elevated viewpoint",
+              "chinese": "高處觀景位置"
+            },
+            {
+              "english": "city lights",
+              "chinese": "城市燈光"
+            },
+            {
+              "english": "sunset photography",
+              "chinese": "日落攝影"
+            }
+          ]
+        },
+        {
+          "id": "A2-02",
+          "title": "尖沙咀海濱及星光大道：經典維港夜景",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "從尖沙咀海濱望向港島，高樓、海面倒影及渡輪都容易成為照片主角。位置具代表性，適合第一次來港的旅客；惟熱門時段應避免在欄杆旁長時間霸位。",
+          "glossary": [
+            {
+              "english": "waterfront promenade",
+              "chinese": "海濱長廊"
+            },
+            {
+              "english": "harbour reflections",
+              "chinese": "海港倒影"
+            },
+            {
+              "english": "iconic skyline",
+              "chinese": "標誌性天際線"
+            },
+            {
+              "english": "night photography",
+              "chinese": "夜景攝影"
+            },
+            {
+              "english": "viewing railings",
+              "chinese": "觀景欄杆"
+            }
+          ]
+        },
+        {
+          "id": "A2-03",
+          "title": "中環海濱：都市發展與公共空間",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "中環海濱兼有商業大樓、開闊草地和海港景色，可拍出高樓與休憩空間並存的畫面。相比住宅打卡熱點，這類開放式場所通常較適合一般觀景攝影，但仍不能妨礙其他使用者。",
+          "glossary": [
+            {
+              "english": "open waterfront",
+              "chinese": "開闊的海濱"
+            },
+            {
+              "english": "commercial district",
+              "chinese": "商業區"
+            },
+            {
+              "english": "urban landscape",
+              "chinese": "都市景觀"
+            },
+            {
+              "english": "public open space",
+              "chinese": "公共休憩空間"
+            },
+            {
+              "english": "skyline contrast",
+              "chinese": "天際線對比"
+            }
+          ]
+        },
+        {
+          "id": "A2-04",
+          "title": "西九文化區：建築、藝術和日落",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "西九文化區的海濱與文化建築提供不同拍攝主題，既可以拍朋友聚會，也可以拍海港日落。這是一個討論「設計良好的公共空間能否分散熱門景點人潮」的好例子。",
+          "glossary": [
+            {
+              "english": "cultural district",
+              "chinese": "文化區"
+            },
+            {
+              "english": "contemporary architecture",
+              "chinese": "當代建築"
+            },
+            {
+              "english": "sunset views",
+              "chinese": "日落景色"
+            },
+            {
+              "english": "leisure activities",
+              "chinese": "休閒活動"
+            },
+            {
+              "english": "disperse crowds",
+              "chinese": "分散人群"
+            }
+          ]
+        },
+        {
+          "id": "A2-05",
+          "title": "天星小輪及碼頭一帶：移動中的香港",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "天星小輪航線把海港交通與城市景觀連在一起，從岸邊拍攝渡輪可呈現香港日常生活。若在船上或碼頭拍攝，應先看現場規則，亦要避免阻塞乘客上落。",
+          "glossary": [
+            {
+              "english": "harbour crossing",
+              "chinese": "橫渡海港"
+            },
+            {
+              "english": "iconic ferry",
+              "chinese": "具標誌性的渡輪"
+            },
+            {
+              "english": "maritime transport",
+              "chinese": "海上交通"
+            },
+            {
+              "english": "capture movement",
+              "chinese": "捕捉動態"
+            },
+            {
+              "english": "passenger flow",
+              "chinese": "乘客流動"
+            }
+          ]
+        },
+        {
+          "id": "A2-06",
+          "title": "灣仔海濱：多角度拍攝港島景觀",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "灣仔海濱一帶提供開闊的海港視野，適合拍攝城市建築與海面活動。不同海濱區各有取景方向，可讓學生解釋景點吸引力不單是「漂亮」，還包括可達性和空間感。",
+          "glossary": [
+            {
+              "english": "coastal viewpoint",
+              "chinese": "海濱觀景點"
+            },
+            {
+              "english": "accessible promenade",
+              "chinese": "容易到達的海濱長廊"
+            },
+            {
+              "english": "varied perspectives",
+              "chinese": "不同視角"
+            },
+            {
+              "english": "open sightlines",
+              "chinese": "開闊視線"
+            },
+            {
+              "english": "urban recreation",
+              "chinese": "城市康樂活動"
+            }
+          ]
+        },
+        {
+          "id": "A2-07",
+          "title": "堅尼地城海旁：海岸與密集樓宇的對比",
+          "angle": "海港、天際線與現代都市景觀",
+          "description": "堅尼地城一帶能讓人同時拍到海景、電車街道和住宅樓宇，突顯舊區與都市交通特色。拍攝路面景觀必須站在安全位置，不能為了獨特角度闖進車道。",
+          "glossary": [
+            {
+              "english": "coastal streetscape",
+              "chinese": "海邊街景"
+            },
+            {
+              "english": "tram tracks",
+              "chinese": "電車路軌"
+            },
+            {
+              "english": "dense buildings",
+              "chinese": "密集樓宇"
+            },
+            {
+              "english": "old neighbourhood",
+              "chinese": "舊社區"
+            },
+            {
+              "english": "photograph safely",
+              "chinese": "安全地拍照"
+            }
+          ]
+        },
+        {
+          "id": "A2-08",
+          "title": "中環街道：現代與傳統建築交錯",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "中環既有玻璃幕牆的現代大樓，也有舊街道和歷史建築，適合拍攝新舊並置的城市特色。學生可利用它討論城市發展如何與保育並存，而不是只形容「高樓很多」。",
+          "glossary": [
+            {
+              "english": "old-and-new contrast",
+              "chinese": "新舊對比"
+            },
+            {
+              "english": "architectural diversity",
+              "chinese": "建築多樣性"
+            },
+            {
+              "english": "urban development",
+              "chinese": "城市發展"
+            },
+            {
+              "english": "historical streets",
+              "chinese": "歷史街道"
+            },
+            {
+              "english": "visual storytelling",
+              "chinese": "視覺敘事"
+            }
+          ]
+        },
+        {
+          "id": "A2-09",
+          "title": "中環至半山自動扶手電梯：動感城市生活",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "這條著名的行人交通系統貫穿繁忙街道、樓梯和商舖，能呈現香港立體而緊湊的城市特色。因為本身是交通設施，攝影者尤其不應站在上落位置阻礙人流。",
+          "glossary": [
+            {
+              "english": "pedestrian escalator",
+              "chinese": "行人自動扶手電梯"
+            },
+            {
+              "english": "vertical city",
+              "chinese": "立體城市"
+            },
+            {
+              "english": "urban mobility",
+              "chinese": "都市流動"
+            },
+            {
+              "english": "busy junctions",
+              "chinese": "繁忙交界處"
+            },
+            {
+              "english": "keep pathways clear",
+              "chinese": "保持通道暢通"
+            }
+          ]
+        },
+        {
+          "id": "A2-10",
+          "title": "大館：活化歷史建築",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "大館結合歷史建築與藝術文化活動，適合拍建築線條、庭院和古蹟細節。它也讓學生談論拍照如何提高文物認識，同時須配合場館的拍攝及活動規定。",
+          "glossary": [
+            {
+              "english": "heritage conservation",
+              "chinese": "文物保育"
+            },
+            {
+              "english": "revitalised buildings",
+              "chinese": "活化建築"
+            },
+            {
+              "english": "architectural details",
+              "chinese": "建築細節"
+            },
+            {
+              "english": "historical complex",
+              "chinese": "歷史建築群"
+            },
+            {
+              "english": "venue regulations",
+              "chinese": "場地規則"
+            }
+          ]
+        },
+        {
+          "id": "A2-11",
+          "title": "元創方（PMQ）：創意設計與歷史空間",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "PMQ 的走廊、樓梯及設計商店可呈現香港的創意產業，適合拍攝建築與手作產品。若拍到設計作品、店員或店內空間，應先了解商戶是否歡迎攝影，以尊重創作者與經營者。",
+          "glossary": [
+            {
+              "english": "creative industries",
+              "chinese": "創意產業"
+            },
+            {
+              "english": "design studios",
+              "chinese": "設計工作室"
+            },
+            {
+              "english": "adaptive reuse",
+              "chinese": "活化再利用"
+            },
+            {
+              "english": "handmade products",
+              "chinese": "手作產品"
+            },
+            {
+              "english": "ask for permission",
+              "chinese": "徵求許可"
+            }
+          ]
+        },
+        {
+          "id": "A2-12",
+          "title": "灣仔藍屋：社區保育的故事",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "藍屋的彩色外牆是容易辨認的城市特色，更重要的是它代表有居民生活的歷史社區。討論時要指出可從街道拍攝建築，但不應任意進入住宅範圍或把住戶當成觀光道具。",
+          "glossary": [
+            {
+              "english": "Blue House",
+              "chinese": "藍屋"
+            },
+            {
+              "english": "living heritage",
+              "chinese": "活的文化遺產"
+            },
+            {
+              "english": "preserved tenements",
+              "chinese": "保育的唐樓"
+            },
+            {
+              "english": "residential privacy",
+              "chinese": "住宅私隱"
+            },
+            {
+              "english": "community conservation",
+              "chinese": "社區保育"
+            }
+          ]
+        },
+        {
+          "id": "A2-13",
+          "title": "旺角彌敦道一帶：霓虹、招牌與街頭活力",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "旺角的商業街道、招牌和人潮能拍出繁忙、充滿節奏感的香港城市形象。街拍有吸引力，但拍攝者應留在行人空間，不應要求街上商販或路人為取景而停下。",
+          "glossary": [
+            {
+              "english": "bustling streets",
+              "chinese": "繁忙街道"
+            },
+            {
+              "english": "shop signs",
+              "chinese": "店舖招牌"
+            },
+            {
+              "english": "street atmosphere",
+              "chinese": "街頭氣氛"
+            },
+            {
+              "english": "urban energy",
+              "chinese": "都市活力"
+            },
+            {
+              "english": "candid street scenes",
+              "chinese": "自然街景"
+            }
+          ]
+        },
+        {
+          "id": "A2-14",
+          "title": "廟街夜市：傳統市集與夜間燈光",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "廟街一帶的攤檔、燈光和街頭活動呈現香港夜市文化，是談攝影與地方特色的實用例子。拍攝攤主或近距離拍商品時，先徵求同意更能避免影響做生意。",
+          "glossary": [
+            {
+              "english": "night market",
+              "chinese": "夜市"
+            },
+            {
+              "english": "market stalls",
+              "chinese": "市集攤檔"
+            },
+            {
+              "english": "local culture",
+              "chinese": "本地文化"
+            },
+            {
+              "english": "warm street lighting",
+              "chinese": "溫暖的街道燈光"
+            },
+            {
+              "english": "respect stallholders",
+              "chinese": "尊重攤主"
+            }
+          ]
+        },
+        {
+          "id": "A2-15",
+          "title": "深水埗街市與老街：日常生活的真實面貌",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "深水埗的街市、舊樓及小店能呈現不同於金融中心的香港生活景象。街頭攝影若只把基層社區當成獵奇對象，可能缺乏尊重，因此宜強調故事與人情而非刻板印象。",
+          "glossary": [
+            {
+              "english": "local markets",
+              "chinese": "本地街市"
+            },
+            {
+              "english": "traditional shops",
+              "chinese": "傳統商店"
+            },
+            {
+              "english": "everyday life",
+              "chinese": "日常生活"
+            },
+            {
+              "english": "authentic streetscape",
+              "chinese": "真實街景"
+            },
+            {
+              "english": "avoid stereotypes",
+              "chinese": "避免刻板印象"
+            }
+          ]
+        },
+        {
+          "id": "A2-16",
+          "title": "彩虹邨：鮮明色彩與公共屋邨建築",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "彩虹邨的彩色住宅外牆曾使它成為常見攝影題材，學生可用來分析社交媒體如何使普通住所變成景點。無論場地是否容許訪客逗留，都應遵從現場安排，不能妨礙居民使用球場或通道。",
+          "glossary": [
+            {
+              "english": "colourful facades",
+              "chinese": "色彩鮮明的外牆"
+            },
+            {
+              "english": "public housing estate",
+              "chinese": "公共屋邨"
+            },
+            {
+              "english": "social-media hotspot",
+              "chinese": "社交媒體熱門景點"
+            },
+            {
+              "english": "residents' facilities",
+              "chinese": "居民設施"
+            },
+            {
+              "english": "obey posted signs",
+              "chinese": "遵守現場告示"
+            }
+          ]
+        },
+        {
+          "id": "A2-17",
+          "title": "鰂魚涌「怪獸大廈」外觀：密集住宅的幾何美感",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "鰂魚涌部分住宅群因高密度的窗戶與重複線條而受到攝影者關注，但它們首先是私人生活空間。可討論由合法公共道路觀賞建築的視覺特色；不應假設私人內庭可供訪客進入拍攝。",
+          "glossary": [
+            {
+              "english": "Monster Building",
+              "chinese": "怪獸大廈"
+            },
+            {
+              "english": "geometric patterns",
+              "chinese": "幾何圖案"
+            },
+            {
+              "english": "urban density",
+              "chinese": "城市密度"
+            },
+            {
+              "english": "private courtyards",
+              "chinese": "私人內庭"
+            },
+            {
+              "english": "access restrictions",
+              "chinese": "進出限制"
+            }
+          ]
+        },
+        {
+          "id": "A2-18",
+          "title": "牛頭角偉業街行人天橋：電影感的光影",
+          "angle": "建築、街道文化與有人居住的社區",
+          "description": "偉業街行人天橋以特別的光影和橋身幾何線條著稱，適合喜歡城市構圖的攝影愛好者。橋的基本作用仍是供行人通過，所以取景時須維持通行空間。",
+          "glossary": [
+            {
+              "english": "pedestrian footbridge",
+              "chinese": "行人天橋"
+            },
+            {
+              "english": "cinematic atmosphere",
+              "chinese": "電影感氣氛"
+            },
+            {
+              "english": "light and shadow",
+              "chinese": "光與影"
+            },
+            {
+              "english": "geometric lines",
+              "chinese": "幾何線條"
+            },
+            {
+              "english": "pedestrian priority",
+              "chinese": "行人優先"
+            }
+          ]
+        },
+        {
+          "id": "A2-19",
+          "title": "南蓮園池與志蓮淨苑：園林與傳統美學",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "南蓮園池和毗鄰的志蓮淨苑富有傳統建築與園林景觀，適合談論寧靜、構圖和文化欣賞。不同區域可能有不同拍攝限制，尊重宗教活動和場地告示比取得照片更重要。",
+          "glossary": [
+            {
+              "english": "traditional garden",
+              "chinese": "傳統園林"
+            },
+            {
+              "english": "classical architecture",
+              "chinese": "古典建築"
+            },
+            {
+              "english": "peaceful setting",
+              "chinese": "寧靜環境"
+            },
+            {
+              "english": "cultural aesthetics",
+              "chinese": "文化美學"
+            },
+            {
+              "english": "restricted areas",
+              "chinese": "受限制區域"
+            }
+          ]
+        },
+        {
+          "id": "A2-20",
+          "title": "上環文武廟：香火與歷史氣氛",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "文武廟的傳統建築和香火能呈現香港宗教文化的特色，吸引對歷史有興趣的訪客。然而，拍攝不應妨礙參拜者，更要遵守現場禁用閃光燈或個別區域的限制。",
+          "glossary": [
+            {
+              "english": "incense coils",
+              "chinese": "盤香"
+            },
+            {
+              "english": "historic temple",
+              "chinese": "歷史廟宇"
+            },
+            {
+              "english": "worshippers",
+              "chinese": "參拜人士"
+            },
+            {
+              "english": "no-flash photography",
+              "chinese": "禁止閃光燈攝影"
+            },
+            {
+              "english": "sacred space",
+              "chinese": "宗教神聖空間"
+            }
+          ]
+        },
+        {
+          "id": "A2-21",
+          "title": "大嶼山天壇大佛與昂坪：宗教地標和山景",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "天壇大佛和昂坪周邊兼具宗教文化與山巒背景，能拍出與市區高樓截然不同的香港。由於遊客和參拜者的目的不完全一樣，攝影時應讓出通道並尊重他人的活動。",
+          "glossary": [
+            {
+              "english": "religious landmark",
+              "chinese": "宗教地標"
+            },
+            {
+              "english": "mountain backdrop",
+              "chinese": "山巒背景"
+            },
+            {
+              "english": "spiritual significance",
+              "chinese": "宗教意義"
+            },
+            {
+              "english": "tourist attraction",
+              "chinese": "旅遊景點"
+            },
+            {
+              "english": "visitor etiquette",
+              "chinese": "訪客禮儀"
+            }
+          ]
+        },
+        {
+          "id": "A2-22",
+          "title": "大澳：棚屋、水道與漁村文化",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "大澳的水道、棚屋及漁村生活展現香港較少見的傳統沿海社區。居民的屋前空間和漁業作業不是免費攝影棚，訪客應保持距離，不阻礙工作和船隻通行。",
+          "glossary": [
+            {
+              "english": "stilt houses",
+              "chinese": "棚屋"
+            },
+            {
+              "english": "fishing village",
+              "chinese": "漁村"
+            },
+            {
+              "english": "waterways",
+              "chinese": "水道"
+            },
+            {
+              "english": "coastal heritage",
+              "chinese": "沿海文化遺產"
+            },
+            {
+              "english": "respect livelihoods",
+              "chinese": "尊重居民生計"
+            }
+          ]
+        },
+        {
+          "id": "A2-23",
+          "title": "西貢海岸：海島與藍色海景",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "西貢一帶以海灣、島嶼和戶外風光吸引拍攝自然景色的人。討論時可補充自然景點的美感不應以踩踏植物或留下垃圾為代價，否則攝影熱潮反而損害照片中的環境。",
+          "glossary": [
+            {
+              "english": "coastal scenery",
+              "chinese": "海岸景色"
+            },
+            {
+              "english": "offshore islands",
+              "chinese": "離岸島嶼"
+            },
+            {
+              "english": "turquoise water",
+              "chinese": "碧藍海水"
+            },
+            {
+              "english": "outdoor photography",
+              "chinese": "戶外攝影"
+            },
+            {
+              "english": "environmental stewardship",
+              "chinese": "環境保育責任"
+            }
+          ]
+        },
+        {
+          "id": "A2-24",
+          "title": "龍脊遠足徑：開闊山脊和海景",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "龍脊的山徑與高處海景能拍出香港山海相連的自然特色，顛覆「香港只有摩天大樓」的印象。山徑較窄的路段應讓路給其他行山人士，更不可為自拍越過安全邊界。",
+          "glossary": [
+            {
+              "english": "hiking trail",
+              "chinese": "遠足徑"
+            },
+            {
+              "english": "ridge views",
+              "chinese": "山脊景觀"
+            },
+            {
+              "english": "coastal panorama",
+              "chinese": "海岸全景"
+            },
+            {
+              "english": "trail safety",
+              "chinese": "山徑安全"
+            },
+            {
+              "english": "yield to hikers",
+              "chinese": "讓路給行山人士"
+            }
+          ]
+        },
+        {
+          "id": "A2-25",
+          "title": "鶴咀：岩岸與地質景觀",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "鶴咀的岩岸和海邊景觀讓攝影者觀察大自然的形狀、紋理和海浪。由於部分路段受天氣、海況和場地限制影響，不能為了取景靠近危險海浪或擅闖限制區。",
+          "glossary": [
+            {
+              "english": "rocky coastline",
+              "chinese": "岩石海岸"
+            },
+            {
+              "english": "geological features",
+              "chinese": "地質特色"
+            },
+            {
+              "english": "rough seas",
+              "chinese": "洶湧海浪"
+            },
+            {
+              "english": "coastal hazards",
+              "chinese": "海岸危險"
+            },
+            {
+              "english": "observe warning signs",
+              "chinese": "留意警告標誌"
+            }
+          ]
+        },
+        {
+          "id": "A2-26",
+          "title": "石澳海灘：沙灘與悠閒假日",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "石澳的沙灘、色彩和海岸線適合拍攝朋友、家人與夏日活動。影像宜以風景和同行者為主，避免未經同意近距離拍攝泳客，以免侵犯他人的身體與私隱界線。",
+          "glossary": [
+            {
+              "english": "sandy beach",
+              "chinese": "沙灘"
+            },
+            {
+              "english": "seaside leisure",
+              "chinese": "海濱消閒"
+            },
+            {
+              "english": "holiday atmosphere",
+              "chinese": "假日氣氛"
+            },
+            {
+              "english": "beachgoers",
+              "chinese": "泳客／到沙灘的人"
+            },
+            {
+              "english": "respectful framing",
+              "chinese": "尊重他人的構圖方式"
+            }
+          ]
+        },
+        {
+          "id": "A2-27",
+          "title": "長洲：小島街巷與傳統節慶",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "長洲的巷弄、碼頭、海邊和傳統節慶能讓人記錄不一樣的社區節奏。節慶期間較多人流，遊客應讓居民與工作人員正常通行，不為自拍阻礙儀式或路線。",
+          "glossary": [
+            {
+              "english": "island community",
+              "chinese": "離島社區"
+            },
+            {
+              "english": "narrow lanes",
+              "chinese": "狹窄街巷"
+            },
+            {
+              "english": "traditional festivals",
+              "chinese": "傳統節慶"
+            },
+            {
+              "english": "local customs",
+              "chinese": "本地習俗"
+            },
+            {
+              "english": "festive crowds",
+              "chinese": "節慶人潮"
+            }
+          ]
+        },
+        {
+          "id": "A2-28",
+          "title": "大美督與船灣淡水湖：水面與單車郊遊",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "大美督一帶有水面、山巒和單車活動，適合拍攝家庭郊遊及開闊景色。它也提醒學生攝影者要與踩單車和步行人士共用路徑，拍照時不應突然停在車道中央。",
+          "glossary": [
+            {
+              "english": "reservoir views",
+              "chinese": "水塘景觀"
+            },
+            {
+              "english": "cycling route",
+              "chinese": "單車路線"
+            },
+            {
+              "english": "open landscape",
+              "chinese": "開闊景觀"
+            },
+            {
+              "english": "outdoor recreation",
+              "chinese": "戶外康樂活動"
+            },
+            {
+              "english": "shared paths",
+              "chinese": "共用路徑"
+            }
+          ]
+        },
+        {
+          "id": "A2-29",
+          "title": "香港濕地公園：拍攝自然與野生動物",
+          "angle": "自然生態、宗教文化與離島風景",
+          "description": "香港濕地公園適合對鳥類、生態和自然教育有興趣的攝影者，但觀察野生動物應保持距離。若因追求特寫而驚擾動物或離開指定步道，便與保育的目的背道而馳；並須遵守園方規則。",
+          "glossary": [
+            {
+              "english": "wildlife photography",
+              "chinese": "野生動物攝影"
+            },
+            {
+              "english": "birdwatching",
+              "chinese": "觀鳥"
+            },
+            {
+              "english": "wetland habitat",
+              "chinese": "濕地生境"
+            },
+            {
+              "english": "disturb wildlife",
+              "chinese": "驚擾野生動物"
+            },
+            {
+              "english": "conservation ethics",
+              "chinese": "保育倫理"
+            }
+          ]
+        },
+        {
+          "id": "A2-30",
+          "title": "景觀獨特與照片辨識度",
+          "angle": "跨景點的分析：甚麼地方較適合拍照",
+          "description": "地標的輪廓、鮮明顏色或文化故事能讓觀眾即時認出一個地方，因此特別容易吸引攝影者。像維港和傳統漁村吸引人的原因不同，不能只用「美麗」概括。",
+          "glossary": [
+            {
+              "english": "recognisable landmark",
+              "chinese": "容易辨認的地標"
+            },
+            {
+              "english": "visual identity",
+              "chinese": "視覺特色"
+            },
+            {
+              "english": "distinctive scenery",
+              "chinese": "獨特景色"
+            },
+            {
+              "english": "iconic features",
+              "chinese": "標誌性特徵"
+            },
+            {
+              "english": "location appeal",
+              "chinese": "地點吸引力"
+            }
+          ]
+        },
+        {
+          "id": "A2-31",
+          "title": "光線與季節令同一地方有不同面貌",
+          "angle": "跨景點的分析：甚麼地方較適合拍照",
+          "description": "一處景點在日出、黃昏或夜間可能呈現不同顏色與氣氛，使攝影者願意多次造訪。討論時應指出這是拍攝時間的選擇，不必為了夜景而在住宅區製造噪音。",
+          "glossary": [
+            {
+              "english": "golden hour",
+              "chinese": "日出後或日落前的柔和光線時段"
+            },
+            {
+              "english": "changing light",
+              "chinese": "變化中的光線"
+            },
+            {
+              "english": "seasonal colours",
+              "chinese": "季節色彩"
+            },
+            {
+              "english": "atmospheric conditions",
+              "chinese": "環境氣氛條件"
+            },
+            {
+              "english": "revisit a location",
+              "chinese": "重遊同一地點"
+            }
+          ]
+        },
+        {
+          "id": "A2-32",
+          "title": "交通便利增加攝影熱點的人流",
+          "angle": "跨景點的分析：甚麼地方較適合拍照",
+          "description": "方便乘搭港鐵、巴士或步行到達的地點，通常比偏遠山徑更容易被遊客納入短途行程。方便亦可能帶來高密度人流，因此交通接駁和行人管理值得一併討論。",
+          "glossary": [
+            {
+              "english": "transport accessibility",
+              "chinese": "交通便利程度"
+            },
+            {
+              "english": "easy access",
+              "chinese": "容易到達"
+            },
+            {
+              "english": "short itinerary",
+              "chinese": "短途行程"
+            },
+            {
+              "english": "visitor concentration",
+              "chinese": "訪客集中"
+            },
+            {
+              "english": "peak visiting hours",
+              "chinese": "到訪高峰時段"
+            }
+          ]
+        },
+        {
+          "id": "A2-33",
+          "title": "社交平台會集中放大個別景點",
+          "angle": "跨景點的分析：甚麼地方較適合拍照",
+          "description": "當某個構圖反覆出現在短片和相片中，其他人可能跟着到同一地點模仿，使普通住宅或小街突然爆紅。這是網絡推薦的連鎖效應，並不代表地方本身能承受無限人流。",
+          "glossary": [
+            {
+              "english": "social-media trends",
+              "chinese": "社交媒體潮流"
+            },
+            {
+              "english": "viral photographs",
+              "chinese": "爆紅相片"
+            },
+            {
+              "english": "imitate a shot",
+              "chinese": "模仿構圖"
+            },
+            {
+              "english": "recommendation algorithms",
+              "chinese": "推薦演算法"
+            },
+            {
+              "english": "overtourism",
+              "chinese": "過度旅遊"
+            }
+          ]
+        },
+        {
+          "id": "A2-34",
+          "title": "適合拍攝不等於適合大規模聚集",
+          "angle": "跨景點的分析：甚麼地方較適合拍照",
+          "description": "有些地方很上鏡，卻有狹窄樓梯、私人住宅或自然生境等限制。評估景點時除了美感，還要考慮居民、可容納人數與安全，因此未必應鼓勵所有訪客到同一位置拍照。",
+          "glossary": [
+            {
+              "english": "photogenic location",
+              "chinese": "上鏡地點"
+            },
+            {
+              "english": "carrying capacity",
+              "chinese": "環境可承載量"
+            },
+            {
+              "english": "site sensitivity",
+              "chinese": "場地敏感程度"
+            },
+            {
+              "english": "crowding risks",
+              "chinese": "擠擁風險"
+            },
+            {
+              "english": "responsible recommendations",
+              "chinese": "負責任的景點推薦"
+            }
+          ]
+        },
+        {
+          "id": "A2-35",
+          "title": "官方設計的觀景空間可減少衝突",
+          "angle": "跨景點的分析：甚麼地方較適合拍照",
+          "description": "觀景台、海濱長廊和寬闊公共花園通常較容易配合人流安排，可成為住宅打卡熱點的替代選擇。透過介紹不同風景，城市可以在滿足拍攝興趣的同時，減輕居民出入口的壓力。",
+          "glossary": [
+            {
+              "english": "designated viewpoints",
+              "chinese": "指定觀景點"
+            },
+            {
+              "english": "alternative locations",
+              "chinese": "替代地點"
+            },
+            {
+              "english": "purpose-built facilities",
+              "chinese": "專門設計的設施"
+            },
+            {
+              "english": "spread visitor demand",
+              "chinese": "分散訪客需求"
+            },
+            {
+              "english": "reduce neighbourhood pressure",
+              "chinese": "減少社區壓力"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "question": "Whether Hong Kong needs to have rules for photo-taking in public places.",
+      "angles": [
+        "支持訂立規則：保障私隱、秩序與公共利益",
+        "反對一刀切禁令：自由、公共利益及執行成本",
+        "折衷方案：以場地、行為和後果設計可行規則"
+      ],
+      "arguments": [
+        {
+          "id": "A3-S01",
+          "title": "保護被刻意拍攝者的個人尊嚴",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "攝影者若反覆對準一名陌生人、無視其要求停止，可能令對方感到被侵犯。規則可以優先針對持續跟拍及滋擾，而不是把所有街景中偶然入鏡的人都視為受害者。",
+          "glossary": [
+            {
+              "english": "targeted photography",
+              "chinese": "針對特定人士的拍攝"
+            },
+            {
+              "english": "individual dignity",
+              "chinese": "個人尊嚴"
+            },
+            {
+              "english": "persistent harassment",
+              "chinese": "持續騷擾"
+            },
+            {
+              "english": "stop filming",
+              "chinese": "停止拍攝"
+            },
+            {
+              "english": "protect personal boundaries",
+              "chinese": "保障個人界線"
+            }
+          ]
+        },
+        {
+          "id": "A3-S02",
+          "title": "未成年人的影像值得額外保護",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "年幼兒童通常難以評估照片在網上傳播的後果，因此學校、兒童活動與遊樂區更需要明確的拍攝指引。可要求正式活動取得合適授權，並教導攝影者避免未經同意公開兒童特寫。",
+          "glossary": [
+            {
+              "english": "minors",
+              "chinese": "未成年人"
+            },
+            {
+              "english": "parental permission",
+              "chinese": "家長許可"
+            },
+            {
+              "english": "school activities",
+              "chinese": "學校活動"
+            },
+            {
+              "english": "safeguarding children",
+              "chinese": "保障兒童"
+            },
+            {
+              "english": "public sharing",
+              "chinese": "公開分享"
+            }
+          ]
+        },
+        {
+          "id": "A3-S03",
+          "title": "住宅出入口需要不受阻擋",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "居民每天都需要進出大門、運送物資或接送家人，不能因為地方在網上爆紅便失去通行權。針對阻塞入口的規則能處理直接傷害，而不必禁止從遠處拍攝整座建築。",
+          "glossary": [
+            {
+              "english": "residential entrances",
+              "chinese": "住宅出入口"
+            },
+            {
+              "english": "right of access",
+              "chinese": "出入權"
+            },
+            {
+              "english": "prevent obstruction",
+              "chinese": "防止阻塞"
+            },
+            {
+              "english": "residents' daily needs",
+              "chinese": "居民日常需要"
+            },
+            {
+              "english": "narrowly tailored rules",
+              "chinese": "範圍精準的規則"
+            }
+          ]
+        },
+        {
+          "id": "A3-S04",
+          "title": "交通要道應禁止危險站位拍照",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "道路、路口和鐵路附近的意外後果可能十分嚴重，拍照不應成為危險行為的藉口。相關安排可以把「禁止站在車道」與「禁止合法位置拍攝」分清，讓執法集中處理安全問題。",
+          "glossary": [
+            {
+              "english": "traffic hazards",
+              "chinese": "交通危險"
+            },
+            {
+              "english": "road junctions",
+              "chinese": "道路交界處"
+            },
+            {
+              "english": "hazardous positioning",
+              "chinese": "危險站位"
+            },
+            {
+              "english": "roadside photography",
+              "chinese": "路邊攝影"
+            },
+            {
+              "english": "preventive enforcement",
+              "chinese": "預防性執法"
+            }
+          ]
+        },
+        {
+          "id": "A3-S05",
+          "title": "大型攝影器材應受到空間限制",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "三腳架、燈架和反光板可能在狹窄通道形成障礙，尤其在人多的旅遊區。規則可按器材所佔面積與實際阻塞風險管理，而不是因為使用專業相機就自動認為不當。",
+          "glossary": [
+            {
+              "english": "bulky equipment",
+              "chinese": "大型器材"
+            },
+            {
+              "english": "lighting stands",
+              "chinese": "燈架"
+            },
+            {
+              "english": "pedestrian obstruction",
+              "chinese": "行人通道阻塞"
+            },
+            {
+              "english": "space restrictions",
+              "chinese": "空間限制"
+            },
+            {
+              "english": "equipment footprint",
+              "chinese": "器材佔用面積"
+            }
+          ]
+        },
+        {
+          "id": "A3-S06",
+          "title": "保護宗教場所的莊嚴氣氛",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "寺廟及宗教儀式並非專為拍照而設，閃光和喧嘩可能打斷參拜。管理者若能標明哪些地方允許攝影、哪些時間應保持安靜，便可兼顧文化欣賞與活動尊重。",
+          "glossary": [
+            {
+              "english": "sacred atmosphere",
+              "chinese": "神聖氣氛"
+            },
+            {
+              "english": "worship activities",
+              "chinese": "參拜活動"
+            },
+            {
+              "english": "no-flash zones",
+              "chinese": "禁用閃光燈區域"
+            },
+            {
+              "english": "religious sensitivity",
+              "chinese": "宗教敏感度"
+            },
+            {
+              "english": "respectful conduct",
+              "chinese": "尊重的行為"
+            }
+          ]
+        },
+        {
+          "id": "A3-S07",
+          "title": "限制滋擾病人及處境脆弱人士的拍攝",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "醫療和緊急救援環境經常涉及痛苦、焦慮或敏感資料。即使有人聲稱「只是拍照紀念」，亦可能影響病人尊嚴及工作人員處理事務，故這類場景較有理由訂立嚴格限制。",
+          "glossary": [
+            {
+              "english": "sensitive settings",
+              "chinese": "敏感場所"
+            },
+            {
+              "english": "patient confidentiality",
+              "chinese": "病人資料保密"
+            },
+            {
+              "english": "vulnerable people",
+              "chinese": "處境脆弱人士"
+            },
+            {
+              "english": "privacy safeguards",
+              "chinese": "私隱保障"
+            },
+            {
+              "english": "emergency response",
+              "chinese": "緊急應變"
+            }
+          ]
+        },
+        {
+          "id": "A3-S08",
+          "title": "維護野生動物與自然生境",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "野生動物攝影若造成追逐、餵食或偏離步道，可能驚擾動物及破壞生境。場地管理可訂明保持距離、不得破壞棲息地等行為標準；限制的是侵害行為，而非單純欣賞自然。",
+          "glossary": [
+            {
+              "english": "wildlife disturbance",
+              "chinese": "滋擾野生動物"
+            },
+            {
+              "english": "habitat protection",
+              "chinese": "生境保護"
+            },
+            {
+              "english": "keep a safe distance",
+              "chinese": "保持安全距離"
+            },
+            {
+              "english": "designated trails",
+              "chinese": "指定步道"
+            },
+            {
+              "english": "environmental rules",
+              "chinese": "環保規則"
+            }
+          ]
+        },
+        {
+          "id": "A3-S09",
+          "title": "防止文物遭過度觸摸或攀爬",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "有些歷史建築及展品無法承受遊客反覆觸摸、倚靠或爬上去拍照。明確規則能保護無法輕易修復的文物，亦有助後來的參觀者繼續欣賞原貌。",
+          "glossary": [
+            {
+              "english": "heritage sites",
+              "chinese": "文物景點"
+            },
+            {
+              "english": "fragile artefacts",
+              "chinese": "脆弱文物"
+            },
+            {
+              "english": "physical damage",
+              "chinese": "實際損壞"
+            },
+            {
+              "english": "preservation work",
+              "chinese": "保育工作"
+            },
+            {
+              "english": "prohibited climbing",
+              "chinese": "禁止攀爬"
+            }
+          ]
+        },
+        {
+          "id": "A3-S10",
+          "title": "餐廳可以設立合乎比例的用餐攝影規則",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "餐廳是顧客用餐與交流的地方，大型燈具、直播或長時間重拍可能打擾其他食客。店方可以訂立清晰的場地守則，但仍應解釋理由，避免把一般拍食物與滋擾性拍攝混為一談。",
+          "glossary": [
+            {
+              "english": "dining atmosphere",
+              "chinese": "用餐氣氛"
+            },
+            {
+              "english": "house rules",
+              "chinese": "場地守則"
+            },
+            {
+              "english": "food photography",
+              "chinese": "食物攝影"
+            },
+            {
+              "english": "disrupt diners",
+              "chinese": "滋擾食客"
+            },
+            {
+              "english": "reasonable restrictions",
+              "chinese": "合理限制"
+            }
+          ]
+        },
+        {
+          "id": "A3-S11",
+          "title": "商業拍攝應有較高的責任標準",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "大型品牌拍攝可能涉及多名工作人員、器材與長時間佔用場地，影響比私人手機自拍大。政策可按活動規模和公共空間佔用程度提出額外要求，而不只是根據攝影者是否賺錢作判斷。",
+          "glossary": [
+            {
+              "english": "professional film crew",
+              "chinese": "專業攝製團隊"
+            },
+            {
+              "english": "commercial production",
+              "chinese": "商業製作"
+            },
+            {
+              "english": "occupy public space",
+              "chinese": "佔用公共空間"
+            },
+            {
+              "english": "impact assessment",
+              "chinese": "影響評估"
+            },
+            {
+              "english": "additional conditions",
+              "chinese": "額外條件"
+            }
+          ]
+        },
+        {
+          "id": "A3-S12",
+          "title": "遏止以拍照為藉口的擅闖",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "拍攝私人住宅內庭或封閉天台不應因為「網上很多人去過」便被合理化。清楚標明進出權限及處理擅闖行為，可保障居民財產和安全，同時讓旅客知道哪些角度可以合法使用。",
+          "glossary": [
+            {
+              "english": "unauthorised entry",
+              "chinese": "未經許可進入"
+            },
+            {
+              "english": "trespass on private property",
+              "chinese": "擅闖私人物業"
+            },
+            {
+              "english": "restricted access",
+              "chinese": "限制進入"
+            },
+            {
+              "english": "boundary signs",
+              "chinese": "界線告示"
+            },
+            {
+              "english": "property rights",
+              "chinese": "財產權"
+            }
+          ]
+        },
+        {
+          "id": "A3-S13",
+          "title": "防止旅遊熱點形成難以承受的人潮",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "當某個住宅或海邊小路每天迎來大量拍照訪客，居民和原有使用者可能被擠出空間。人潮管理可以考慮場地容量和高峰時段，減低旅遊利益由居民單方面承擔成本的問題。",
+          "glossary": [
+            {
+              "english": "visitor management",
+              "chinese": "訪客管理"
+            },
+            {
+              "english": "overcrowding",
+              "chinese": "過度擠擁"
+            },
+            {
+              "english": "local residents",
+              "chinese": "本地居民"
+            },
+            {
+              "english": "site capacity",
+              "chinese": "場地容量"
+            },
+            {
+              "english": "neighbourhood pressure",
+              "chinese": "社區壓力"
+            }
+          ]
+        },
+        {
+          "id": "A3-S14",
+          "title": "減少亂拋垃圾與不當使用道具",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "拍攝野餐、食品或活動短片的人，可能留下杯子、包裝和塑膠裝飾。場地規則應要求自行清理並避免傷害自然環境，讓拍攝者承擔自己的使用成本。",
+          "glossary": [
+            {
+              "english": "littering",
+              "chinese": "亂拋垃圾"
+            },
+            {
+              "english": "filming props",
+              "chinese": "拍攝道具"
+            },
+            {
+              "english": "clean-up responsibility",
+              "chinese": "清理責任"
+            },
+            {
+              "english": "environmental impact",
+              "chinese": "環境影響"
+            },
+            {
+              "english": "leave no trace",
+              "chinese": "不留痕跡原則"
+            }
+          ]
+        },
+        {
+          "id": "A3-S15",
+          "title": "保障店員和街頭小販正常工作",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "商舖員工未必願意在忙碌時間被反覆拍攝，攤販更可能因人龍阻擋顧客而損失生意。規則或指引可鼓勵先詢問店主、保持距離及不要干擾交易，讓攝影興趣不凌駕別人生計。",
+          "glossary": [
+            {
+              "english": "business operations",
+              "chinese": "商業運作"
+            },
+            {
+              "english": "shopkeepers",
+              "chinese": "店主"
+            },
+            {
+              "english": "stallholders",
+              "chinese": "攤主"
+            },
+            {
+              "english": "customer access",
+              "chinese": "顧客通道"
+            },
+            {
+              "english": "disruption to trade",
+              "chinese": "妨礙做生意"
+            }
+          ]
+        },
+        {
+          "id": "A3-S16",
+          "title": "有明確規則可減少口角與誤會",
+          "angle": "支持訂立規則：保障私隱、秩序與公共利益",
+          "description": "若場地只靠居民、保安和遊客臨時爭辯，很容易出現互相指責。清楚的告示和一致的處理方式能在衝突發生前設定共同期待，對守規矩的攝影者也比較公平。",
+          "glossary": [
+            {
+              "english": "clear guidelines",
+              "chinese": "清晰指引"
+            },
+            {
+              "english": "conflict prevention",
+              "chinese": "預防衝突"
+            },
+            {
+              "english": "consistent enforcement",
+              "chinese": "一致執行"
+            },
+            {
+              "english": "shared expectations",
+              "chinese": "共同期待"
+            },
+            {
+              "english": "avoid confrontation",
+              "chinese": "避免對立"
+            }
+          ]
+        },
+        {
+          "id": "A3-O01",
+          "title": "公共空間應容許合理的藝術創作",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "公共街道不只供交通使用，也承載文化和創作活動。若連不妨礙他人的街頭攝影都禁止，可能令城市失去記錄人文風貌的途徑，因此規則不宜超出實際風險。",
+          "glossary": [
+            {
+              "english": "freedom of expression",
+              "chinese": "表達自由"
+            },
+            {
+              "english": "artistic freedom",
+              "chinese": "藝術自由"
+            },
+            {
+              "english": "legitimate photography",
+              "chinese": "合理合法的攝影"
+            },
+            {
+              "english": "excessive restrictions",
+              "chinese": "過度限制"
+            },
+            {
+              "english": "creative expression",
+              "chinese": "創意表達"
+            }
+          ]
+        },
+        {
+          "id": "A3-O02",
+          "title": "攝影可以監察公共安全與不當行為",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "有人可能需要拍下設施損壞、危險行車或公共事故，以便向相關機構反映。若禁止一切攝錄，可能阻礙保存重要證據；針對妨礙救援或侵犯私隱的規則則更合理。",
+          "glossary": [
+            {
+              "english": "document incidents",
+              "chinese": "記錄事故"
+            },
+            {
+              "english": "report wrongdoing",
+              "chinese": "舉報不當行為"
+            },
+            {
+              "english": "preserve evidence",
+              "chinese": "保存證據"
+            },
+            {
+              "english": "civic oversight",
+              "chinese": "公民監察"
+            },
+            {
+              "english": "public-interest reporting",
+              "chinese": "符合公共利益的報道"
+            }
+          ]
+        },
+        {
+          "id": "A3-O03",
+          "title": "街景攝影難以逐一取得所有路人同意",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "在旺角或尖沙咀拍攝廣角街景時，畫面可能同時出現很多人。要求攝影者逐一取得批准往往無法操作，所以規則必須區分偶然入鏡和追拍某人。",
+          "glossary": [
+            {
+              "english": "wide-angle photographs",
+              "chinese": "廣角照片"
+            },
+            {
+              "english": "incidental bystanders",
+              "chinese": "偶然入鏡的路人"
+            },
+            {
+              "english": "impractical consent",
+              "chinese": "難以逐一取得的同意"
+            },
+            {
+              "english": "distinguish cases",
+              "chinese": "區分情況"
+            },
+            {
+              "english": "realistic rules",
+              "chinese": "切合現實的規則"
+            }
+          ]
+        },
+        {
+          "id": "A3-O04",
+          "title": "規定過於含糊容易產生不公平",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "「令人不舒服的照片」或「不適合的拍攝」若沒有具體定義，管理者可能按個人好惡作決定。攝影者不知道何時違規，居民也不知道何時可投訴，反而增加爭議。",
+          "glossary": [
+            {
+              "english": "vague restrictions",
+              "chinese": "含糊限制"
+            },
+            {
+              "english": "subjective judgment",
+              "chinese": "主觀判斷"
+            },
+            {
+              "english": "inconsistent treatment",
+              "chinese": "不一致待遇"
+            },
+            {
+              "english": "legal clarity",
+              "chinese": "規則清晰度"
+            },
+            {
+              "english": "arbitrary decisions",
+              "chinese": "武斷決定"
+            }
+          ]
+        },
+        {
+          "id": "A3-O05",
+          "title": "執行攝影限制需要人手與成本",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "若每個公園、街市和海旁都需要額外職員檢查誰在拍照，公共資源可能被大量行政工作佔用。相對之下，針對已造成阻塞、擅闖或噪音的行為執法可能更有效率。",
+          "glossary": [
+            {
+              "english": "enforcement resources",
+              "chinese": "執法資源"
+            },
+            {
+              "english": "staffing costs",
+              "chinese": "人手成本"
+            },
+            {
+              "english": "administrative burden",
+              "chinese": "行政負擔"
+            },
+            {
+              "english": "targeted enforcement",
+              "chinese": "針對性執法"
+            },
+            {
+              "english": "efficient allocation",
+              "chinese": "有效分配"
+            }
+          ]
+        },
+        {
+          "id": "A3-O06",
+          "title": "禁拍不一定能解決人潮問題",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "遊客可能因美食、購物或其他活動而聚集，不全是為了拍照。若地方本身承載力不足，只禁相機仍可能無法減少擠迫；改善交通、垃圾收集和人流安排更重要。",
+          "glossary": [
+            {
+              "english": "underlying causes",
+              "chinese": "根本成因"
+            },
+            {
+              "english": "crowding problems",
+              "chinese": "擠迫問題"
+            },
+            {
+              "english": "transport planning",
+              "chinese": "交通規劃"
+            },
+            {
+              "english": "visitor behaviour",
+              "chinese": "訪客行為"
+            },
+            {
+              "english": "ineffective measures",
+              "chinese": "無效措施"
+            }
+          ]
+        },
+        {
+          "id": "A3-O07",
+          "title": "限制過嚴可能影響小店曝光",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "小商戶未必有充足廣告預算，客人自發拍照分享可能帶來新顧客。若連不騷擾他人的店面或食物照片都被禁止，政策可能意外削弱本地經濟與文化推廣。",
+          "glossary": [
+            {
+              "english": "word-of-mouth promotion",
+              "chinese": "口碑推廣"
+            },
+            {
+              "english": "free publicity",
+              "chinese": "免費宣傳"
+            },
+            {
+              "english": "small businesses",
+              "chinese": "小型商戶"
+            },
+            {
+              "english": "unintended economic effects",
+              "chinese": "意外經濟影響"
+            },
+            {
+              "english": "customer recommendations",
+              "chinese": "顧客推薦"
+            }
+          ]
+        },
+        {
+          "id": "A3-O08",
+          "title": "禁令可能使攝影者轉移到更危險的地方",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "假如安全的正式觀景台禁止拍照，一些人可能尋找非正式山坡、天台或偏僻位置取景。政策若沒有提供可行替代地點，可能把風險移走而不是消除。",
+          "glossary": [
+            {
+              "english": "displacement effect",
+              "chinese": "風險轉移效應"
+            },
+            {
+              "english": "unsafe alternatives",
+              "chinese": "不安全替代地點"
+            },
+            {
+              "english": "rooftop access",
+              "chinese": "天台出入"
+            },
+            {
+              "english": "unintended consequences",
+              "chinese": "意料之外的後果"
+            },
+            {
+              "english": "safer options",
+              "chinese": "較安全的選擇"
+            }
+          ]
+        },
+        {
+          "id": "A3-O09",
+          "title": "私人場地權限不能自動延伸至所有街道",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "居民希望住宅內庭保持安靜可以理解，但這不等於他們能單方面禁止公眾在所有附近道路拍攝。規則須清楚區分私人管理範圍、公共通道及依法授權的限制。",
+          "glossary": [
+            {
+              "english": "private premises",
+              "chinese": "私人物業範圍"
+            },
+            {
+              "english": "public right of way",
+              "chinese": "公眾通行權"
+            },
+            {
+              "english": "scope of authority",
+              "chinese": "權限範圍"
+            },
+            {
+              "english": "legitimate boundaries",
+              "chinese": "合理界線"
+            },
+            {
+              "english": "overreach",
+              "chinese": "越權干預"
+            }
+          ]
+        },
+        {
+          "id": "A3-O10",
+          "title": "新聞攝影與旅遊自拍用途不同",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "一些攝影具有新聞採訪或揭示公共問題的功能，所涉及的社會利益與一般娛樂拍攝不同。若政策不作區分，可能連有公共價值的記錄都受到不必要的限制。",
+          "glossary": [
+            {
+              "english": "photojournalism",
+              "chinese": "新聞攝影"
+            },
+            {
+              "english": "news gathering",
+              "chinese": "新聞採訪"
+            },
+            {
+              "english": "legitimate public interest",
+              "chinese": "正當公共利益"
+            },
+            {
+              "english": "editorial use",
+              "chinese": "編輯報道用途"
+            },
+            {
+              "english": "distinguish purposes",
+              "chinese": "區分用途"
+            }
+          ]
+        },
+        {
+          "id": "A3-O11",
+          "title": "一張相片的危害未必由拍攝動作造成",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "某些傷害來自之後的惡意標題、網上起底或深度偽造，而非最初按下快門。只禁止拍攝可能錯過後續濫用的核心問題，應同時討論平台責任、移除機制和私隱教育。",
+          "glossary": [
+            {
+              "english": "image distribution",
+              "chinese": "影像散播"
+            },
+            {
+              "english": "malicious editing",
+              "chinese": "惡意修改"
+            },
+            {
+              "english": "misuse after publication",
+              "chinese": "發布後濫用"
+            },
+            {
+              "english": "content moderation",
+              "chinese": "內容管理"
+            },
+            {
+              "english": "complaint mechanisms",
+              "chinese": "投訴機制"
+            }
+          ]
+        },
+        {
+          "id": "A3-O12",
+          "title": "以外貌或裝備判斷誰違規可能造成偏見",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "使用大型相機的人不一定比手機使用者更滋擾；反過來，手機直播也可能造成長時間干擾。公平標準應看實際行為和場地影響，而不是攝影器材、服裝或遊客身分。",
+          "glossary": [
+            {
+              "english": "equipment bias",
+              "chinese": "器材偏見"
+            },
+            {
+              "english": "appearance-based judgments",
+              "chinese": "按外表判斷"
+            },
+            {
+              "english": "smartphone filming",
+              "chinese": "手機拍攝"
+            },
+            {
+              "english": "behaviour-based rules",
+              "chinese": "按行為訂定規則"
+            },
+            {
+              "english": "equal treatment",
+              "chinese": "平等待遇"
+            }
+          ]
+        },
+        {
+          "id": "A3-O13",
+          "title": "過度打擊拍攝可能削弱文化保存",
+          "angle": "反對一刀切禁令：自由、公共利益及執行成本",
+          "description": "舊街道、傳統行業及歷史活動可能迅速轉變，攝影能留下珍貴的影像紀錄。如果過多限制令市民不敢拍攝，有價值的民間紀錄可能逐漸減少。",
+          "glossary": [
+            {
+              "english": "cultural documentation",
+              "chinese": "文化紀錄"
+            },
+            {
+              "english": "disappearing traditions",
+              "chinese": "逐漸消失的傳統"
+            },
+            {
+              "english": "community archives",
+              "chinese": "社區檔案"
+            },
+            {
+              "english": "historical preservation",
+              "chinese": "歷史保存"
+            },
+            {
+              "english": "chilling effect",
+              "chinese": "寒蟬效應"
+            }
+          ]
+        },
+        {
+          "id": "A3-M01",
+          "title": "把「拍照、跟拍、公開發布」分開規範",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "一般拍攝風景、持續追着陌生人拍攝、把他人身份及位置上載網絡，所帶來的風險並不相同。較精準的做法是按照行為和傳播範圍制定不同保障，避免把三者混作同一件事。",
+          "glossary": [
+            {
+              "english": "capture an image",
+              "chinese": "拍攝影像"
+            },
+            {
+              "english": "follow someone with a camera",
+              "chinese": "持續跟拍某人"
+            },
+            {
+              "english": "distribute online",
+              "chinese": "在網上傳播"
+            },
+            {
+              "english": "risk-based distinctions",
+              "chinese": "按風險作區分"
+            },
+            {
+              "english": "tailored safeguards",
+              "chinese": "針對性保障"
+            }
+          ]
+        },
+        {
+          "id": "A3-M02",
+          "title": "劃定私人物業與公共通道的清晰界線",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "熱門住宅附近可透過告示說明哪些內庭或樓梯屬私人範圍，哪些公眾通道仍可正常使用。這可防止遊客誤闖，也避免管理者無理擴大禁拍區域。",
+          "glossary": [
+            {
+              "english": "access boundaries",
+              "chinese": "出入界線"
+            },
+            {
+              "english": "private property",
+              "chinese": "私人物業"
+            },
+            {
+              "english": "public pathways",
+              "chinese": "公共通道"
+            },
+            {
+              "english": "explanatory signs",
+              "chinese": "說明告示"
+            },
+            {
+              "english": "avoid misunderstandings",
+              "chinese": "避免誤解"
+            }
+          ]
+        },
+        {
+          "id": "A3-M03",
+          "title": "限制阻塞行為，而非一概限制相機",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "任何人只要阻塞樓梯、車道或緊急出口都需要被處理，即使他沒有拍照亦然。以行為為本的規則可以同時保護公眾安全與一般攝影自由。",
+          "glossary": [
+            {
+              "english": "conduct-based restrictions",
+              "chinese": "按行為施加限制"
+            },
+            {
+              "english": "obstruct access",
+              "chinese": "阻礙通行"
+            },
+            {
+              "english": "proportionate controls",
+              "chinese": "合乎比例的管制"
+            },
+            {
+              "english": "enforce existing rules",
+              "chinese": "執行既有規則"
+            },
+            {
+              "english": "legitimate use",
+              "chinese": "合理使用"
+            }
+          ]
+        },
+        {
+          "id": "A3-M04",
+          "title": "在人流高峰設立合理拍攝安排",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "某些狹窄景點可在最擠擁的時段安排排隊、短暫停留或改用較寬闊觀景區。這可減少人群集中，但若時段限制太嚴，亦可能造成新的不公平，所以應先觀察實際問題。",
+          "glossary": [
+            {
+              "english": "peak-hour management",
+              "chinese": "高峰時段管理"
+            },
+            {
+              "english": "time slots",
+              "chinese": "時段安排"
+            },
+            {
+              "english": "queue control",
+              "chinese": "排隊管理"
+            },
+            {
+              "english": "limited dwell time",
+              "chinese": "有限停留時間"
+            },
+            {
+              "english": "monitor crowd levels",
+              "chinese": "監察人流"
+            }
+          ]
+        },
+        {
+          "id": "A3-M05",
+          "title": "推廣指定觀景位置作為替代",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "當私人物業外的狹窄路段經常擠滿攝影者，管理者可以介紹附近較安全、合法的觀景位置。替代方案若同樣有吸引力，更可能得到攝影者配合，減少單靠禁止所產生的衝突。",
+          "glossary": [
+            {
+              "english": "designated photo spots",
+              "chinese": "指定拍照位置"
+            },
+            {
+              "english": "alternative viewpoints",
+              "chinese": "替代觀景點"
+            },
+            {
+              "english": "visitor guidance",
+              "chinese": "訪客指引"
+            },
+            {
+              "english": "safer surroundings",
+              "chinese": "較安全的環境"
+            },
+            {
+              "english": "voluntary compliance",
+              "chinese": "自願遵守"
+            }
+          ]
+        },
+        {
+          "id": "A3-M06",
+          "title": "用清晰多語告示告知訪客",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "外地遊客未必明白本地住宅、宗教場所和活動區域的規矩。告示若用簡明中英文字與圖像標明原因和界線，通常比只寫「禁止」更容易減少無心之失。",
+          "glossary": [
+            {
+              "english": "bilingual signage",
+              "chinese": "中英雙語告示"
+            },
+            {
+              "english": "visual symbols",
+              "chinese": "視覺符號"
+            },
+            {
+              "english": "accessible instructions",
+              "chinese": "容易理解的指示"
+            },
+            {
+              "english": "explain the reasons",
+              "chinese": "解釋理由"
+            },
+            {
+              "english": "visitor awareness",
+              "chinese": "訪客認知"
+            }
+          ]
+        },
+        {
+          "id": "A3-M07",
+          "title": "在餐廳推行有彈性的攝影指引",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "例如容許顧客簡單拍下自己的食物，但要求不用閃光燈、不拍到其他食客特寫及不用大型燈架。這種分層方式比全面禁止手機更能維持用餐體驗，亦保留顧客分享的自由。",
+          "glossary": [
+            {
+              "english": "flexible policy",
+              "chinese": "具彈性的政策"
+            },
+            {
+              "english": "discreet photography",
+              "chinese": "低調拍攝"
+            },
+            {
+              "english": "photograph one's own food",
+              "chinese": "拍自己的食物"
+            },
+            {
+              "english": "protect diners' privacy",
+              "chinese": "保護食客私隱"
+            },
+            {
+              "english": "non-disruptive use",
+              "chinese": "不造成滋擾的使用"
+            }
+          ]
+        },
+        {
+          "id": "A3-M08",
+          "title": "在兒童及敏感場所採用較高私隱門檻",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "在一般海濱偶然拍到路人與在兒童活動、醫療環境刻意拍特寫，風險相差很大。規則可按場景敏感度要求更多事前同意或拍攝限制，而不是以一套標準處理所有公共地方。",
+          "glossary": [
+            {
+              "english": "sensitive locations",
+              "chinese": "敏感地點"
+            },
+            {
+              "english": "heightened safeguards",
+              "chinese": "較嚴格的保障"
+            },
+            {
+              "english": "prior permission",
+              "chinese": "事前許可"
+            },
+            {
+              "english": "identify the risk",
+              "chinese": "識別風險"
+            },
+            {
+              "english": "context-specific rules",
+              "chinese": "因應場景的規則"
+            }
+          ]
+        },
+        {
+          "id": "A3-M09",
+          "title": "以警告與教育處理初次輕微違規",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "第一次站錯位置拍照的人可能只是看不懂現場規矩，直接重罰未必最有效。先提醒、解釋及要求改善，只有在持續或嚴重違規時才考慮較強措施，更能體現比例原則。",
+          "glossary": [
+            {
+              "english": "verbal warning",
+              "chinese": "口頭警告"
+            },
+            {
+              "english": "first-time offence",
+              "chinese": "初次違規"
+            },
+            {
+              "english": "educational approach",
+              "chinese": "教育性方法"
+            },
+            {
+              "english": "repeat violations",
+              "chinese": "重複違規"
+            },
+            {
+              "english": "escalating response",
+              "chinese": "逐級加強的應對"
+            }
+          ]
+        },
+        {
+          "id": "A3-M10",
+          "title": "針對商業團隊訂立場地佔用標準",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "大型攝影團隊若需要封閉區域、設置燈光或長時間阻擋路人，便應先與場地管理者商討安排。重點是是否實際佔用資源和妨礙他人，而不是硬性把所有付費拍攝視為相同風險。",
+          "glossary": [
+            {
+              "english": "commercial crews",
+              "chinese": "商業攝影團隊"
+            },
+            {
+              "english": "temporary occupation",
+              "chinese": "暫時佔用"
+            },
+            {
+              "english": "advance coordination",
+              "chinese": "事前協調"
+            },
+            {
+              "english": "pedestrian diversion",
+              "chinese": "行人改道"
+            },
+            {
+              "english": "permit conditions",
+              "chinese": "許可條件"
+            }
+          ]
+        },
+        {
+          "id": "A3-M11",
+          "title": "設立居民可使用的快速投訴渠道",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "若居民被跟拍或住宅出入口長期受阻，應能向物業管理、場地營運者或合適部門反映具體問題。投訴機制亦應核查事實，避免只憑單方指控就懲罰守規矩的攝影者。",
+          "glossary": [
+            {
+              "english": "reporting channel",
+              "chinese": "通報渠道"
+            },
+            {
+              "english": "resident complaints",
+              "chinese": "居民投訴"
+            },
+            {
+              "english": "evidence-based review",
+              "chinese": "按證據覆核"
+            },
+            {
+              "english": "prompt response",
+              "chinese": "迅速回應"
+            },
+            {
+              "english": "procedural fairness",
+              "chinese": "程序公平"
+            }
+          ]
+        },
+        {
+          "id": "A3-M12",
+          "title": "由社區共同討論熱點管理方法",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "居民、商戶、攝影愛好者及場地管理者的需要不同。若能共同討論拍攝位置、人流高峰和受影響範圍，較有機會設計既可操作又獲得認同的安排。",
+          "glossary": [
+            {
+              "english": "community consultation",
+              "chinese": "社區諮詢"
+            },
+            {
+              "english": "stakeholder engagement",
+              "chinese": "持份者參與"
+            },
+            {
+              "english": "local shopkeepers",
+              "chinese": "本地商戶"
+            },
+            {
+              "english": "collaborative rules",
+              "chinese": "共同制定的規則"
+            },
+            {
+              "english": "social acceptance",
+              "chinese": "社會接受程度"
+            }
+          ]
+        },
+        {
+          "id": "A3-M13",
+          "title": "教育旅客尊重居民比單純罰款更長遠",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "旅遊網站、學校和攝影團體可提供基本指引：先留意告示、不要阻塞、尊重拒拍要求並帶走垃圾。這類教育未必能處理蓄意違規者，但可減少大量因不知情引起的衝突。",
+          "glossary": [
+            {
+              "english": "responsible tourism",
+              "chinese": "負責任旅遊"
+            },
+            {
+              "english": "photography etiquette",
+              "chinese": "攝影禮儀"
+            },
+            {
+              "english": "public education",
+              "chinese": "公眾教育"
+            },
+            {
+              "english": "voluntary cooperation",
+              "chinese": "自願合作"
+            },
+            {
+              "english": "long-term awareness",
+              "chinese": "長遠認知"
+            }
+          ]
+        },
+        {
+          "id": "A3-M14",
+          "title": "鼓勵網上分享前遮蓋無關人像",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "若照片主題是建築或食物，拍攝者可考慮裁剪畫面、模糊可辨認路人面孔或不公開位置資料。這些做法不需要完全停止攝影，也能減少不必要的個人曝光。",
+          "glossary": [
+            {
+              "english": "blur faces",
+              "chinese": "模糊面孔"
+            },
+            {
+              "english": "crop an image",
+              "chinese": "裁剪相片"
+            },
+            {
+              "english": "remove location data",
+              "chinese": "移除位置資料"
+            },
+            {
+              "english": "privacy-friendly sharing",
+              "chinese": "保障私隱的分享方式"
+            },
+            {
+              "english": "minimise exposure",
+              "chinese": "減少曝光"
+            }
+          ]
+        },
+        {
+          "id": "A3-M15",
+          "title": "慎重使用無人機並考慮額外風險",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "無人機與手持手機在噪音、空中安全及拍到私人窗口方面存在不同風險，不能完全依賴同一套場地守則。具體飛行是否合法及需否許可須按適用法規核實；課堂可討論為何需要分開管理。",
+          "glossary": [
+            {
+              "english": "drone photography",
+              "chinese": "無人機攝影"
+            },
+            {
+              "english": "airspace safety",
+              "chinese": "空域安全"
+            },
+            {
+              "english": "aerial footage",
+              "chinese": "空中影像"
+            },
+            {
+              "english": "noise disturbance",
+              "chinese": "噪音滋擾"
+            },
+            {
+              "english": "separate requirements",
+              "chinese": "分開的要求"
+            }
+          ]
+        },
+        {
+          "id": "A3-M16",
+          "title": "對敏感生境採取保育優先的管理",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "自然保護區的管理目標不應只看遊客的拍攝需求，還要考慮野生動物繁殖和植物承受能力。若特定時段或區域特別脆弱，可考慮臨時限制進入，同時提供不滋擾生態的觀察路線。",
+          "glossary": [
+            {
+              "english": "breeding season",
+              "chinese": "繁殖季節"
+            },
+            {
+              "english": "ecological sensitivity",
+              "chinese": "生態敏感度"
+            },
+            {
+              "english": "temporary closure",
+              "chinese": "暫時關閉"
+            },
+            {
+              "english": "wildlife protection",
+              "chinese": "野生動物保護"
+            },
+            {
+              "english": "sustainable access",
+              "chinese": "可持續使用"
+            }
+          ]
+        },
+        {
+          "id": "A3-M17",
+          "title": "定期檢討規則的實際成效",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "設立限制後，管理者應留意居民投訴是否減少、通道是否更暢通及遊客是否被轉移到危險地方。若規則只增加爭執而沒有處理原本問題，就應按證據作出調整。",
+          "glossary": [
+            {
+              "english": "policy evaluation",
+              "chinese": "政策評估"
+            },
+            {
+              "english": "measure outcomes",
+              "chinese": "衡量成效"
+            },
+            {
+              "english": "unintended effects",
+              "chinese": "意料之外的影響"
+            },
+            {
+              "english": "review periodically",
+              "chinese": "定期檢討"
+            },
+            {
+              "english": "evidence-based adjustments",
+              "chinese": "按證據調整"
+            }
+          ]
+        },
+        {
+          "id": "A3-M18",
+          "title": "先處理嚴重危害再處理輕微不便",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "擅闖、危險路邊拍攝與堵塞救援通道的風險，高於一般旅客短暫拍下風景。若管理資源有限，應以傷害程度排序，避免為微不足道的拍照問題投入過多執法力量。",
+          "glossary": [
+            {
+              "english": "risk prioritisation",
+              "chinese": "風險優先次序"
+            },
+            {
+              "english": "serious hazards",
+              "chinese": "嚴重危害"
+            },
+            {
+              "english": "minor inconvenience",
+              "chinese": "輕微不便"
+            },
+            {
+              "english": "efficient enforcement",
+              "chinese": "有效執法"
+            },
+            {
+              "english": "proportionality",
+              "chinese": "比例原則"
+            }
+          ]
+        },
+        {
+          "id": "A3-M19",
+          "title": "避免把攝影者和居民塑造成敵人",
+          "angle": "折衷方案：以場地、行為和後果設計可行規則",
+          "description": "公眾討論容易分成「旅客破壞生活」與「居民反對所有遊客」兩個極端，卻忽略雙方的合理需要。若容許不滋擾的拍攝並嚴肅處理侵擾，能減少標籤化和敵對氣氛。",
+          "glossary": [
+            {
+              "english": "mutual respect",
+              "chinese": "互相尊重"
+            },
+            {
+              "english": "competing interests",
+              "chinese": "互相衝突的利益"
+            },
+            {
+              "english": "polarised debate",
+              "chinese": "兩極化討論"
+            },
+            {
+              "english": "constructive compromise",
+              "chinese": "建設性折衷"
+            },
+            {
+              "english": "shared responsibility",
+              "chinese": "共同責任"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": "B1",
+      "question": "Do you like taking photos?",
+      "angles": [
+        "喜歡：保存個人回憶",
+        "不太喜歡或有條件喜歡"
+      ],
+      "arguments": [
+        {
+          "id": "B1-01",
+          "title": "照片能保存難忘時刻",
+          "angle": "喜歡：保存個人回憶",
+          "description": "朋友聚會或旅行中的小細節容易隨時間被忘記，而相片可以幫助自己日後回想當時的氣氛。喜歡拍照的人可以強調「紀錄回憶」而非「追求網絡讚好」。",
+          "glossary": [
+            {
+              "english": "capture memories",
+              "chinese": "捕捉回憶"
+            },
+            {
+              "english": "unforgettable moments",
+              "chinese": "難忘時刻"
+            },
+            {
+              "english": "look back on",
+              "chinese": "回顧"
+            },
+            {
+              "english": "personal keepsakes",
+              "chinese": "私人紀念照"
+            },
+            {
+              "english": "meaningful experiences",
+              "chinese": "有意義的經歷"
+            }
+          ]
+        },
+        {
+          "id": "B1-02",
+          "title": "攝影使自己更留意細節",
+          "angle": "喜歡：保存個人回憶",
+          "description": "尋找構圖時，人可能更留意光線、建築和身邊容易被忽略的景物。若拍攝節奏適中，攝影不一定分散注意力，反而能鼓勵仔細觀察。",
+          "glossary": [
+            {
+              "english": "pay attention to details",
+              "chinese": "留意細節"
+            },
+            {
+              "english": "composition",
+              "chinese": "構圖"
+            },
+            {
+              "english": "appreciate surroundings",
+              "chinese": "欣賞周遭環境"
+            },
+            {
+              "english": "visual awareness",
+              "chinese": "視覺觀察力"
+            },
+            {
+              "english": "notice small details",
+              "chinese": "留意微小細節"
+            }
+          ]
+        },
+        {
+          "id": "B1-03",
+          "title": "攝影是低門檻的創作活動",
+          "angle": "喜歡：保存個人回憶",
+          "description": "手機讓人不需要昂貴的器材也能試驗角度、顏色和故事敘述。對學生來說，拍照既是休閒活動，也可以讓他們透過影像表達個人想法。",
+          "glossary": [
+            {
+              "english": "creative outlet",
+              "chinese": "創作途徑"
+            },
+            {
+              "english": "experiment with angles",
+              "chinese": "嘗試不同角度"
+            },
+            {
+              "english": "smartphone camera",
+              "chinese": "智能手機相機"
+            },
+            {
+              "english": "visual storytelling",
+              "chinese": "視覺敘事"
+            },
+            {
+              "english": "artistic expression",
+              "chinese": "藝術表達"
+            }
+          ]
+        },
+        {
+          "id": "B1-04",
+          "title": "我不想讓手機分散注意力",
+          "angle": "不太喜歡或有條件喜歡",
+          "description": "如果每次出門都忙着選濾鏡和重拍，可能錯過與朋友真正交流的時間。較少拍照的人可以說自己寧願欣賞景色，只在特別時刻拍一兩張留念。",
+          "glossary": [
+            {
+              "english": "put the phone away",
+              "chinese": "收起手機"
+            },
+            {
+              "english": "stay present",
+              "chinese": "專注當下"
+            },
+            {
+              "english": "distraction",
+              "chinese": "分心"
+            },
+            {
+              "english": "enjoy the atmosphere",
+              "chinese": "享受氣氛"
+            },
+            {
+              "english": "occasional snapshots",
+              "chinese": "偶爾拍下的照片"
+            }
+          ]
+        },
+        {
+          "id": "B1-05",
+          "title": "我更重視拍攝時對他人的尊重",
+          "angle": "不太喜歡或有條件喜歡",
+          "description": "即使自己喜歡攝影，也不代表可以隨便拍陌生人。較平衡的回應是喜歡拍風景及食物，但會避免拍到他人的私人活動，尤其不會未經考慮便放上網。",
+          "glossary": [
+            {
+              "english": "respect privacy",
+              "chinese": "尊重私隱"
+            },
+            {
+              "english": "ask first",
+              "chinese": "先徵求同意"
+            },
+            {
+              "english": "scenery and food",
+              "chinese": "風景與食物"
+            },
+            {
+              "english": "avoid intrusive shots",
+              "chinese": "避免侵犯他人的特寫"
+            },
+            {
+              "english": "think before posting",
+              "chinese": "發布前先想清楚"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "Personally, I quite enjoy taking photos, especially when I travel or spend time with friends. Pictures help me remember small details that I might otherwise forget. I also like experimenting with different angles and lighting. However, I try not to spend the whole day looking at my phone. I think the best approach is to take a few meaningful pictures and then enjoy the experience itself."
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "question": "Do you like to share photos with friends?",
+      "angles": [
+        "樂於分享：溝通與回憶",
+        "有限度分享：選擇與私隱"
+      ],
+      "arguments": [
+        {
+          "id": "B2-01",
+          "title": "分享照片有助與朋友保持聯繫",
+          "angle": "樂於分享：溝通與回憶",
+          "description": "好友未必經常見面，傳送旅行或活動照片可以讓大家知道彼此近況。若只在私人聊天群組分享，曝光範圍一般比公開社交平台小，但仍應尊重他人意願。",
+          "glossary": [
+            {
+              "english": "keep in touch",
+              "chinese": "保持聯繫"
+            },
+            {
+              "english": "share updates",
+              "chinese": "分享近況"
+            },
+            {
+              "english": "private group chat",
+              "chinese": "私人群組聊天"
+            },
+            {
+              "english": "strengthen friendships",
+              "chinese": "增進友誼"
+            },
+            {
+              "english": "selective sharing",
+              "chinese": "選擇性分享"
+            }
+          ]
+        },
+        {
+          "id": "B2-02",
+          "title": "集體照片能讓朋友重溫共同經歷",
+          "angle": "樂於分享：溝通與回憶",
+          "description": "畢業典禮、班際比賽或生日會的合照，會讓參與者一起回想趣事。若有人不喜歡某張照片，先詢問再分享能令友誼更互相尊重。",
+          "glossary": [
+            {
+              "english": "group photographs",
+              "chinese": "團體合照"
+            },
+            {
+              "english": "shared memories",
+              "chinese": "共同回憶"
+            },
+            {
+              "english": "school events",
+              "chinese": "學校活動"
+            },
+            {
+              "english": "relive moments",
+              "chinese": "重溫時刻"
+            },
+            {
+              "english": "respect preferences",
+              "chinese": "尊重喜好"
+            }
+          ]
+        },
+        {
+          "id": "B2-03",
+          "title": "照片比長篇文字更容易表達場景",
+          "angle": "樂於分享：溝通與回憶",
+          "description": "有時一張日落或食物照片能迅速讓朋友了解現場氣氛，不必打很多字。這種溝通方式方便而親切，但照片仍需要適當背景說明，避免誤解。",
+          "glossary": [
+            {
+              "english": "visual communication",
+              "chinese": "視覺溝通"
+            },
+            {
+              "english": "convey the atmosphere",
+              "chinese": "傳達氣氛"
+            },
+            {
+              "english": "quick updates",
+              "chinese": "簡短近況"
+            },
+            {
+              "english": "descriptive captions",
+              "chinese": "描述性說明"
+            },
+            {
+              "english": "communicate efficiently",
+              "chinese": "有效溝通"
+            }
+          ]
+        },
+        {
+          "id": "B2-04",
+          "title": "公開上載不等於向朋友分享",
+          "angle": "有限度分享：選擇與私隱",
+          "description": "把照片傳送給幾位朋友與設定成任何人都可觀看，私隱風險差距很大。學生可以說自己樂意分享，但會控制觀看對象和相片內容。",
+          "glossary": [
+            {
+              "english": "privacy settings",
+              "chinese": "私隱設定"
+            },
+            {
+              "english": "limited audience",
+              "chinese": "有限觀眾"
+            },
+            {
+              "english": "public account",
+              "chinese": "公開帳戶"
+            },
+            {
+              "english": "control access",
+              "chinese": "控制存取權"
+            },
+            {
+              "english": "personal information",
+              "chinese": "個人資料"
+            }
+          ]
+        },
+        {
+          "id": "B2-05",
+          "title": "不願意令朋友因意外曝光而尷尬",
+          "angle": "有限度分享：選擇與私隱",
+          "description": "一張看似有趣的合照可能令其中一人感到不好看或不自在。發送前徵求同意及讓朋友選擇合適照片，可以減少誤會和不必要的爭拗。",
+          "glossary": [
+            {
+              "english": "unintended embarrassment",
+              "chinese": "意外造成的尷尬"
+            },
+            {
+              "english": "mutual consent",
+              "chinese": "雙方同意"
+            },
+            {
+              "english": "choose carefully",
+              "chinese": "小心挑選"
+            },
+            {
+              "english": "remove a photo",
+              "chinese": "移除照片"
+            },
+            {
+              "english": "considerate sharing",
+              "chinese": "體貼的分享方式"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "Yes, I like sharing photos with my close friends because we can look back on our memories together. For example, after a school activity, sharing a few group photos can make everyone feel connected. That said, I don't post every picture publicly. If a photo clearly shows another person, I would check whether they are comfortable with it before sharing it."
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "question": "Is taking photos a popular hobby among teenagers?",
+      "angles": [
+        "支持「普遍」的觀察角度",
+        "反向與條件性角度"
+      ],
+      "arguments": [
+        {
+          "id": "B3-01",
+          "title": "手機普及降低攝影門檻",
+          "angle": "支持「普遍」的觀察角度",
+          "description": "不少青少年隨身有智能手機，可以隨時拍食物、朋友或旅行見聞，毋須額外購買相機。這使攝影成為容易開始的休閒活動，但不能因此斷言每個青少年都喜歡拍照。",
+          "glossary": [
+            {
+              "english": "widespread smartphones",
+              "chinese": "智能手機普及"
+            },
+            {
+              "english": "accessible hobby",
+              "chinese": "容易參與的興趣"
+            },
+            {
+              "english": "everyday photography",
+              "chinese": "日常攝影"
+            },
+            {
+              "english": "low entry barrier",
+              "chinese": "低門檻"
+            },
+            {
+              "english": "casual snapshots",
+              "chinese": "隨手拍的照片"
+            }
+          ]
+        },
+        {
+          "id": "B3-02",
+          "title": "社交媒體鼓勵創作與分享",
+          "angle": "支持「普遍」的觀察角度",
+          "description": "短片平台與相片社交平台讓青少年有機會展示攝影作品、獲取意見和學習技巧。這有助培養興趣，但流行程度亦可能受平台趨勢改變。",
+          "glossary": [
+            {
+              "english": "social-media platforms",
+              "chinese": "社交媒體平台"
+            },
+            {
+              "english": "post creative work",
+              "chinese": "發表創作"
+            },
+            {
+              "english": "receive feedback",
+              "chinese": "取得回饋"
+            },
+            {
+              "english": "online trends",
+              "chinese": "網上潮流"
+            },
+            {
+              "english": "digital creativity",
+              "chinese": "數碼創意"
+            }
+          ]
+        },
+        {
+          "id": "B3-03",
+          "title": "攝影能記錄學校和朋友活動",
+          "angle": "支持「普遍」的觀察角度",
+          "description": "班級活動、畢業、旅行或運動比賽都會自然產生拍照需求。即使不是認真的攝影愛好者，部分青少年仍會經常拍攝來保存共同回憶。",
+          "glossary": [
+            {
+              "english": "school memories",
+              "chinese": "校園回憶"
+            },
+            {
+              "english": "extracurricular activities",
+              "chinese": "課外活動"
+            },
+            {
+              "english": "graduation photos",
+              "chinese": "畢業照片"
+            },
+            {
+              "english": "everyday moments",
+              "chinese": "日常時刻"
+            },
+            {
+              "english": "document experiences",
+              "chinese": "記錄經歷"
+            }
+          ]
+        },
+        {
+          "id": "B3-04",
+          "title": "使用相機不等於把攝影當作興趣",
+          "angle": "反向與條件性角度",
+          "description": "有些人只為傳訊或完成學校作業而拍照，並沒有學習構圖或欣賞攝影的興趣。答題時可區分「很多人會拍照」與「很多人熱愛攝影」兩個不同說法。",
+          "glossary": [
+            {
+              "english": "take pictures casually",
+              "chinese": "隨意拍照"
+            },
+            {
+              "english": "serious hobby",
+              "chinese": "認真的興趣"
+            },
+            {
+              "english": "distinguish habits",
+              "chinese": "區分習慣"
+            },
+            {
+              "english": "genuine interest",
+              "chinese": "真正興趣"
+            },
+            {
+              "english": "oversimplification",
+              "chinese": "過度簡化"
+            }
+          ]
+        },
+        {
+          "id": "B3-05",
+          "title": "不同青少年的興趣差異很大",
+          "angle": "反向與條件性角度",
+          "description": "部分人較喜歡運動、音樂、遊戲或閱讀，對拍照沒有特別熱情。因此「流行」只能表示有一定程度的普遍性，而不能概括全部青少年。",
+          "glossary": [
+            {
+              "english": "diverse interests",
+              "chinese": "多元興趣"
+            },
+            {
+              "english": "individual preferences",
+              "chinese": "個人喜好"
+            },
+            {
+              "english": "generalise about teenagers",
+              "chinese": "概括青少年"
+            },
+            {
+              "english": "popular pastime",
+              "chinese": "熱門消閒活動"
+            },
+            {
+              "english": "avoid stereotypes",
+              "chinese": "避免刻板印象"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "I think taking photos is fairly common among teenagers, mainly because smartphones are so convenient. Many young people take pictures of meals, friends or places they visit, and some enjoy posting them online. However, I wouldn't say everyone regards photography as a serious hobby. Taking occasional snapshots is quite different from spending time learning camera skills and composition. It really depends on personal interests."
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "question": "Have you ever gone to a place just to take photos?",
+      "angles": [
+        "曾經特意去拍照：真實經驗可採用的角度",
+        "從未特意去拍照：同樣合理的角度"
+      ],
+      "arguments": [
+        {
+          "id": "B4-01",
+          "title": "專程去維港拍夜景",
+          "angle": "曾經特意去拍照：真實經驗可採用的角度",
+          "description": "你若真的有相關經歷，可以說因為想記錄海港燈光和城市輪廓，曾與朋友到尖沙咀海濱拍照。論點應補充拍攝帶來甚麼感受，例如發現夜景與白天截然不同，而非只說景色很美。",
+          "glossary": [
+            {
+              "english": "make a special trip",
+              "chinese": "專程前往"
+            },
+            {
+              "english": "night skyline",
+              "chinese": "夜間天際線"
+            },
+            {
+              "english": "Victoria Harbour",
+              "chinese": "維多利亞港"
+            },
+            {
+              "english": "capture reflections",
+              "chinese": "拍攝倒影"
+            },
+            {
+              "english": "memorable outing",
+              "chinese": "難忘外出活動"
+            }
+          ]
+        },
+        {
+          "id": "B4-02",
+          "title": "為了拍自然風景而到郊外",
+          "angle": "曾經特意去拍照：真實經驗可採用的角度",
+          "description": "如果曾經為觀賞山景或日出而行山，可說拍照讓自己更願意探索城市以外的自然景觀。也可以補充自己會以安全及保育為先，不為罕見角度冒險。",
+          "glossary": [
+            {
+              "english": "landscape photography",
+              "chinese": "風景攝影"
+            },
+            {
+              "english": "explore the countryside",
+              "chinese": "探索郊野"
+            },
+            {
+              "english": "scenic viewpoint",
+              "chinese": "優美觀景點"
+            },
+            {
+              "english": "safety first",
+              "chinese": "安全第一"
+            },
+            {
+              "english": "nature appreciation",
+              "chinese": "欣賞自然"
+            }
+          ]
+        },
+        {
+          "id": "B4-03",
+          "title": "為了特別建築而安排短途行程",
+          "angle": "曾經特意去拍照：真實經驗可採用的角度",
+          "description": "若曾參觀大館、南蓮園池或城市建築，可以解釋自己喜歡對稱、線條和文化故事，故特地帶着手機拍照。這類回應能顯示興趣比單純打卡更有深度。",
+          "glossary": [
+            {
+              "english": "architectural photography",
+              "chinese": "建築攝影"
+            },
+            {
+              "english": "symmetrical patterns",
+              "chinese": "對稱圖案"
+            },
+            {
+              "english": "cultural background",
+              "chinese": "文化背景"
+            },
+            {
+              "english": "visual composition",
+              "chinese": "視覺構圖"
+            },
+            {
+              "english": "plan an outing",
+              "chinese": "安排外出行程"
+            }
+          ]
+        },
+        {
+          "id": "B4-04",
+          "title": "我通常先選活動，拍照只是附帶",
+          "angle": "從未特意去拍照：同樣合理的角度",
+          "description": "如果你從未純粹為拍照出門，可以解釋自己一般為了見朋友、行山或參觀展覽而外出。拍照只是記錄活動的方式，不是決定去哪裏的主要原因。",
+          "glossary": [
+            {
+              "english": "main purpose",
+              "chinese": "主要目的"
+            },
+            {
+              "english": "spontaneous pictures",
+              "chinese": "即興照片"
+            },
+            {
+              "english": "enjoy the activity",
+              "chinese": "享受活動"
+            },
+            {
+              "english": "secondary benefit",
+              "chinese": "附帶好處"
+            },
+            {
+              "english": "everyday outings",
+              "chinese": "日常外出活動"
+            }
+          ]
+        },
+        {
+          "id": "B4-05",
+          "title": "不會為網上流行而擠進住宅區",
+          "angle": "從未特意去拍照：同樣合理的角度",
+          "description": "有些人可能因模仿社交媒體而到人多的住宅景點，但你可以選擇不跟風，避免打擾居民。這個答案可以自然連結試題材料的核心衝突。",
+          "glossary": [
+            {
+              "english": "follow online trends",
+              "chinese": "跟隨網上潮流"
+            },
+            {
+              "english": "residential hotspot",
+              "chinese": "住宅打卡熱點"
+            },
+            {
+              "english": "avoid crowding",
+              "chinese": "避免擠迫"
+            },
+            {
+              "english": "prioritise residents",
+              "chinese": "優先顧及居民"
+            },
+            {
+              "english": "independent choice",
+              "chinese": "獨立選擇"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "Yes, I have visited [a place you actually visited] mainly because I wanted to take photographs there. I was attracted by [the specific scenery or architecture], and I enjoyed looking for different angles. Still, I made sure I didn't block anyone's way. For me, photography was a reason to explore the place, but I also wanted to appreciate the surroundings rather than just take pictures."
+        },
+        {
+          "label": "如果真實答案是 No，可改用",
+          "text": "No, I haven't gone somewhere solely to take photos. I usually choose a place because I want to meet friends, go hiking or learn something new. If I see a beautiful scene, I'll probably take a picture, but it's not the reason for my trip. I also prefer avoiding crowded residential photo spots if visitors might disturb the people living there."
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "question": "Is taking photos an important part of travelling?",
+      "angles": [
+        "攝影對旅遊的正面價值",
+        "旅行不應被照片主導"
+      ],
+      "arguments": [
+        {
+          "id": "B5-01",
+          "title": "照片能令旅程回憶更持久",
+          "angle": "攝影對旅遊的正面價值",
+          "description": "旅行通常有不少新鮮事物，過了一段時間容易忘記某些細節。相片能讓旅客再次看到當時的風景和同行者，並回想旅途中的感受。",
+          "glossary": [
+            {
+              "english": "lasting memories",
+              "chinese": "持久回憶"
+            },
+            {
+              "english": "travel highlights",
+              "chinese": "旅遊精彩時刻"
+            },
+            {
+              "english": "revisit a journey",
+              "chinese": "重溫旅程"
+            },
+            {
+              "english": "personal photo album",
+              "chinese": "私人相簿"
+            },
+            {
+              "english": "preserve moments",
+              "chinese": "保存時刻"
+            }
+          ]
+        },
+        {
+          "id": "B5-02",
+          "title": "旅遊相片可以與家人朋友分享",
+          "angle": "攝影對旅遊的正面價值",
+          "description": "旅行者可以利用照片介紹當地食物、文化與景觀，使沒有同行的人也能了解旅程。若分享方式尊重當地人，照片亦可能激發別人對地方文化的興趣。",
+          "glossary": [
+            {
+              "english": "travel updates",
+              "chinese": "旅行近況"
+            },
+            {
+              "english": "share experiences",
+              "chinese": "分享經歷"
+            },
+            {
+              "english": "local customs",
+              "chinese": "本地習俗"
+            },
+            {
+              "english": "cultural curiosity",
+              "chinese": "文化好奇心"
+            },
+            {
+              "english": "inspire others",
+              "chinese": "啟發他人"
+            }
+          ]
+        },
+        {
+          "id": "B5-03",
+          "title": "攝影促使旅客主動觀察地方特色",
+          "angle": "攝影對旅遊的正面價值",
+          "description": "要拍出有故事的照片，旅客可能會留意老店、建築細節和自然光線，而不是匆忙到此一遊。適當拍照可以深化文化欣賞，前提是旅行者願意真正理解地方。",
+          "glossary": [
+            {
+              "english": "observe details",
+              "chinese": "觀察細節"
+            },
+            {
+              "english": "local character",
+              "chinese": "本地特色"
+            },
+            {
+              "english": "cultural immersion",
+              "chinese": "深入體驗文化"
+            },
+            {
+              "english": "meaningful travel",
+              "chinese": "有意義的旅行"
+            },
+            {
+              "english": "explore beyond landmarks",
+              "chinese": "探索地標以外的地方"
+            }
+          ]
+        },
+        {
+          "id": "B5-04",
+          "title": "過度拍攝會分散旅途注意力",
+          "angle": "旅行不應被照片主導",
+          "description": "若整天只在尋找網紅取景點，旅行者可能忽略味道、聲音和與當地人的交流。相片固然珍貴，但記錄體驗應服務於旅行，而非取代旅行本身。",
+          "glossary": [
+            {
+              "english": "overlook the experience",
+              "chinese": "忽略體驗"
+            },
+            {
+              "english": "chase photo spots",
+              "chinese": "追逐打卡景點"
+            },
+            {
+              "english": "sensory memories",
+              "chinese": "感官回憶"
+            },
+            {
+              "english": "travel enjoyment",
+              "chinese": "旅遊樂趣"
+            },
+            {
+              "english": "strike a balance",
+              "chinese": "取得平衡"
+            }
+          ]
+        },
+        {
+          "id": "B5-05",
+          "title": "尊重地方與居民比漂亮照片更重要",
+          "angle": "旅行不應被照片主導",
+          "description": "不能為了拍到獨特畫面而阻塞道路、闖入私人住宅或驚擾野生動物。旅行的價值也包括尊重目的地，所以好的攝影者應知道何時放下相機。",
+          "glossary": [
+            {
+              "english": "responsible traveller",
+              "chinese": "負責任的旅客"
+            },
+            {
+              "english": "local residents",
+              "chinese": "本地居民"
+            },
+            {
+              "english": "respect boundaries",
+              "chinese": "尊重界線"
+            },
+            {
+              "english": "environmental care",
+              "chinese": "愛護環境"
+            },
+            {
+              "english": "put the camera down",
+              "chinese": "放下相機"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "I would say photography is an important part of travelling, but it should never be the main purpose of every trip. Photos allow us to remember beautiful places and share our experiences with family members who couldn't join us. On the other hand, constantly stopping for pictures can make a trip tiring. I prefer taking a few good photos and spending the rest of the time enjoying the local culture."
+        }
+      ]
+    },
+    {
+      "id": "B6",
+      "question": "Who likes taking photos more: younger people or older people?",
+      "angles": [
+        "為何有人認為年輕人拍得更多",
+        "為何長者同樣可能熱愛攝影"
+      ],
+      "arguments": [
+        {
+          "id": "B6-01",
+          "title": "年輕人可能更習慣即時拍照分享",
+          "angle": "為何有人認為年輕人拍得更多",
+          "description": "不少青少年熟悉手機和社交平台，容易把自拍、食物和活動照片作為日常溝通的一部分。這只能解釋某些數碼習慣，不能證明所有年輕人都比長者拍更多照片。",
+          "glossary": [
+            {
+              "english": "digital habits",
+              "chinese": "數碼使用習慣"
+            },
+            {
+              "english": "instant sharing",
+              "chinese": "即時分享"
+            },
+            {
+              "english": "selfies",
+              "chinese": "自拍照"
+            },
+            {
+              "english": "mobile photography",
+              "chinese": "手機攝影"
+            },
+            {
+              "english": "general trend",
+              "chinese": "一般趨勢"
+            }
+          ]
+        },
+        {
+          "id": "B6-02",
+          "title": "社交圈與網上活動可能增加拍攝次數",
+          "angle": "為何有人認為年輕人拍得更多",
+          "description": "學校活動、朋友聚會及社交平台更新，會給部分年輕人更多拍照動機。討論時可以指出「拍得頻繁」與「拍得有技巧」是不同標準，不應混淆。",
+          "glossary": [
+            {
+              "english": "frequency of photography",
+              "chinese": "拍照頻率"
+            },
+            {
+              "english": "peer networks",
+              "chinese": "同儕社交圈"
+            },
+            {
+              "english": "online updates",
+              "chinese": "網上近況"
+            },
+            {
+              "english": "photographic skills",
+              "chinese": "攝影技巧"
+            },
+            {
+              "english": "social motivation",
+              "chinese": "社交動機"
+            }
+          ]
+        },
+        {
+          "id": "B6-03",
+          "title": "長者可能更重視家庭回憶",
+          "angle": "為何長者同樣可能熱愛攝影",
+          "description": "不少成年人或長者喜歡拍攝家庭聚會、孫兒成長與旅行，以建立家庭相簿。拍照目的可能不同於社交平台打卡，但不代表熱情或參與程度較低。",
+          "glossary": [
+            {
+              "english": "family milestones",
+              "chinese": "家庭重要時刻"
+            },
+            {
+              "english": "family albums",
+              "chinese": "家庭相簿"
+            },
+            {
+              "english": "record grandchildren's growth",
+              "chinese": "記錄孫兒成長"
+            },
+            {
+              "english": "sentimental value",
+              "chinese": "情感價值"
+            },
+            {
+              "english": "personal motivation",
+              "chinese": "個人動機"
+            }
+          ]
+        },
+        {
+          "id": "B6-04",
+          "title": "有閒暇與資源的人可以投入專業攝影",
+          "angle": "為何長者同樣可能熱愛攝影",
+          "description": "部分退休人士可能有更多時間學習攝影、參加興趣班或研究相機器材。比較年齡時應考慮時間、收入與興趣，不能只從社交平台可見的照片判斷。",
+          "glossary": [
+            {
+              "english": "retirement hobbies",
+              "chinese": "退休興趣"
+            },
+            {
+              "english": "photography courses",
+              "chinese": "攝影課程"
+            },
+            {
+              "english": "dedicated equipment",
+              "chinese": "專用攝影器材"
+            },
+            {
+              "english": "leisure time",
+              "chinese": "閒暇時間"
+            },
+            {
+              "english": "photographic expertise",
+              "chinese": "攝影專業知識"
+            }
+          ]
+        },
+        {
+          "id": "B6-05",
+          "title": "兩個年齡群體差異未必能簡單比較",
+          "angle": "為何長者同樣可能熱愛攝影",
+          "description": "有人習慣使用手機，有人喜歡相機；有人拍大量照片，有人拍得少但花更多時間構圖。若沒有可靠調查，較準確的答案是拍照方式與目的可能因人而異。",
+          "glossary": [
+            {
+              "english": "individual variation",
+              "chinese": "個體差異"
+            },
+            {
+              "english": "different purposes",
+              "chinese": "不同目的"
+            },
+            {
+              "english": "reliable evidence",
+              "chinese": "可靠證據"
+            },
+            {
+              "english": "avoid age stereotypes",
+              "chinese": "避免年齡刻板印象"
+            },
+            {
+              "english": "nuanced comparison",
+              "chinese": "細緻比較"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "It's difficult to say which age group likes photography more. Younger people may take and share photos more frequently because they are familiar with smartphones and social media. However, older people may enjoy photographing family gatherings or spending time learning photography as a hobby. I think the main difference is often the purpose and method of taking photos, rather than how much people like it."
+        }
+      ]
+    },
+    {
+      "id": "B7",
+      "question": "Can taking photos spoil an experience?",
+      "angles": [
+        "拍照可能破壞體驗",
+        "也可以提升體驗"
+      ],
+      "arguments": [
+        {
+          "id": "B7-01",
+          "title": "不停檢查照片使人錯過眼前景色",
+          "angle": "拍照可能破壞體驗",
+          "description": "當觀眾忙於調整亮度、角度和濾鏡，便可能忽略眼前的演出、日落或重要時刻。一次簡單拍攝問題不大，但反覆重拍會改變活動的焦點。",
+          "glossary": [
+            {
+              "english": "constant retakes",
+              "chinese": "不斷重拍"
+            },
+            {
+              "english": "screen distraction",
+              "chinese": "螢幕分心"
+            },
+            {
+              "english": "miss the moment",
+              "chinese": "錯過當下"
+            },
+            {
+              "english": "adjust camera settings",
+              "chinese": "調整相機設定"
+            },
+            {
+              "english": "be fully present",
+              "chinese": "全情投入"
+            }
+          ]
+        },
+        {
+          "id": "B7-02",
+          "title": "同行者可能因等待拍照而感到厭煩",
+          "angle": "拍照可能破壞體驗",
+          "description": "如果一個人要求朋友反覆拍同一姿勢，其他人可能需要延後吃飯或改變行程。長時間等待可造成壓力，令原本輕鬆的旅行變得不愉快。",
+          "glossary": [
+            {
+              "english": "delay the itinerary",
+              "chinese": "拖慢行程"
+            },
+            {
+              "english": "repeated posing",
+              "chinese": "反覆擺姿勢"
+            },
+            {
+              "english": "group frustration",
+              "chinese": "團體不滿"
+            },
+            {
+              "english": "unnecessary pressure",
+              "chinese": "不必要的壓力"
+            },
+            {
+              "english": "spoil the mood",
+              "chinese": "破壞氣氛"
+            }
+          ]
+        },
+        {
+          "id": "B7-03",
+          "title": "鏡頭可能干擾其他觀眾或食客",
+          "angle": "拍照可能破壞體驗",
+          "description": "在餐廳、表演或博物館，舉起手機、使用閃光或不斷移動位置都可能阻擋他人視線。即使拍攝者自己很開心，也應考慮共享空間中的其他人。",
+          "glossary": [
+            {
+              "english": "obstruct the view",
+              "chinese": "遮擋視線"
+            },
+            {
+              "english": "camera flash",
+              "chinese": "相機閃光燈"
+            },
+            {
+              "english": "shared experience",
+              "chinese": "共同體驗"
+            },
+            {
+              "english": "disturb other guests",
+              "chinese": "打擾其他客人"
+            },
+            {
+              "english": "considerate behaviour",
+              "chinese": "體貼的行為"
+            }
+          ]
+        },
+        {
+          "id": "B7-04",
+          "title": "為求完美相片可能使活動失去自然感",
+          "angle": "拍照可能破壞體驗",
+          "description": "若朋友聚會變成安排站位、服裝和濾鏡的拍攝任務，大家可能更關心畫面而非交流。照片仍可保存回憶，但過度導演式拍攝可能削弱自發互動。",
+          "glossary": [
+            {
+              "english": "staged photographs",
+              "chinese": "刻意安排的照片"
+            },
+            {
+              "english": "artificial atmosphere",
+              "chinese": "不自然氣氛"
+            },
+            {
+              "english": "spontaneous interaction",
+              "chinese": "自發互動"
+            },
+            {
+              "english": "appearance pressure",
+              "chinese": "外貌壓力"
+            },
+            {
+              "english": "genuine enjoyment",
+              "chinese": "真實樂趣"
+            }
+          ]
+        },
+        {
+          "id": "B7-05",
+          "title": "適量拍照可以令記憶更完整",
+          "angle": "也可以提升體驗",
+          "description": "有些人喜歡在活動結束後翻看相片，細想當天的趣事；這可能延長快樂而不是破壞它。關鍵是拍攝是否短暫和自願，而非要求所有人都不准使用相機。",
+          "glossary": [
+            {
+              "english": "moderate photography",
+              "chinese": "適量拍攝"
+            },
+            {
+              "english": "enhance memories",
+              "chinese": "增強回憶"
+            },
+            {
+              "english": "relive happy moments",
+              "chinese": "重溫快樂時刻"
+            },
+            {
+              "english": "personal choice",
+              "chinese": "個人選擇"
+            },
+            {
+              "english": "healthy balance",
+              "chinese": "健康平衡"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "Yes, I think it can, especially when people become too focused on getting the perfect picture. Imagine going to a concert but watching the whole performance through your phone screen. You might miss the atmosphere and even block someone else's view. Of course, taking a few photos can help us remember the event. The problem is excessive photography, not photography itself."
+        }
+      ]
+    },
+    {
+      "id": "B8",
+      "question": "Do you think tourism causes disruption to local people?",
+      "angles": [
+        "旅遊可能給居民帶來實際困擾",
+        "旅遊亦可能帶來好處與解決方向"
+      ],
+      "arguments": [
+        {
+          "id": "B8-01",
+          "title": "人潮和車流可能干擾日常生活",
+          "angle": "旅遊可能給居民帶來實際困擾",
+          "description": "大量遊客同時到訪狹窄住宅街道，可能令居民難以出入，並帶來泊車與安全問題。美國小鎮及富士山附近的試題例子，都可用來支持這個有條件的主張。",
+          "glossary": [
+            {
+              "english": "tourist crowds",
+              "chinese": "旅遊人潮"
+            },
+            {
+              "english": "traffic congestion",
+              "chinese": "交通擠塞"
+            },
+            {
+              "english": "residential disruption",
+              "chinese": "住宅區滋擾"
+            },
+            {
+              "english": "daily routines",
+              "chinese": "日常作息"
+            },
+            {
+              "english": "quality of life",
+              "chinese": "生活質素"
+            }
+          ]
+        },
+        {
+          "id": "B8-02",
+          "title": "亂拋垃圾或破壞設施會增加公共成本",
+          "angle": "旅遊可能給居民帶來實際困擾",
+          "description": "若訪客不遵守垃圾處理或場地規則，政府、商戶或居民可能需要負擔額外清潔及維修工作。批評應針對具體不當行為，而不是把所有旅客都視為不負責任。",
+          "glossary": [
+            {
+              "english": "littering problems",
+              "chinese": "亂拋垃圾問題"
+            },
+            {
+              "english": "property damage",
+              "chinese": "財物損壞"
+            },
+            {
+              "english": "cleaning costs",
+              "chinese": "清潔開支"
+            },
+            {
+              "english": "responsible visitors",
+              "chinese": "負責任的訪客"
+            },
+            {
+              "english": "community burden",
+              "chinese": "社區負擔"
+            }
+          ]
+        },
+        {
+          "id": "B8-03",
+          "title": "住宅打卡可能侵犯居民安寧",
+          "angle": "旅遊可能給居民帶來實際困擾",
+          "description": "當普通屋邨成為網上熱點，居民可能遇到近距離拍窗戶、霸佔球場或堵塞出入口的情況。這類困擾解釋了為甚麼有些居民即使不反對旅遊，也會反對某些拍攝方式。",
+          "glossary": [
+            {
+              "english": "residential hotspots",
+              "chinese": "住宅打卡熱點"
+            },
+            {
+              "english": "unwanted photography",
+              "chinese": "不受歡迎的拍攝"
+            },
+            {
+              "english": "neighbourhood peace",
+              "chinese": "社區安寧"
+            },
+            {
+              "english": "block entrances",
+              "chinese": "堵塞出入口"
+            },
+            {
+              "english": "respect residents",
+              "chinese": "尊重居民"
+            }
+          ]
+        },
+        {
+          "id": "B8-04",
+          "title": "旅遊消費可支持本地就業",
+          "angle": "旅遊亦可能帶來好處與解決方向",
+          "description": "遊客在餐廳、商店、交通和住宿方面消費，可能創造收入與工作機會。若旅遊管理得宜，居民不一定只承擔負擔；問題是收益與成本如何分配。",
+          "glossary": [
+            {
+              "english": "tourism revenue",
+              "chinese": "旅遊收益"
+            },
+            {
+              "english": "employment opportunities",
+              "chinese": "就業機會"
+            },
+            {
+              "english": "local economy",
+              "chinese": "本地經濟"
+            },
+            {
+              "english": "visitor spending",
+              "chinese": "旅客消費"
+            },
+            {
+              "english": "distribution of benefits",
+              "chinese": "利益分配"
+            }
+          ]
+        },
+        {
+          "id": "B8-05",
+          "title": "跨文化接觸可增加地方認識",
+          "angle": "旅遊亦可能帶來好處與解決方向",
+          "description": "有禮貌的遊客可能透過參觀和交流，更了解香港文化和社區故事。居民亦可能從中獲得分享本地文化的機會，因此旅遊的影響既有可能正面，也可能負面。",
+          "glossary": [
+            {
+              "english": "cultural exchange",
+              "chinese": "文化交流"
+            },
+            {
+              "english": "mutual understanding",
+              "chinese": "互相理解"
+            },
+            {
+              "english": "local heritage",
+              "chinese": "本地文化遺產"
+            },
+            {
+              "english": "meaningful encounters",
+              "chinese": "有意義的接觸"
+            },
+            {
+              "english": "positive tourism",
+              "chinese": "正面旅遊"
+            }
+          ]
+        },
+        {
+          "id": "B8-06",
+          "title": "精準管理可減少負面影響而保留好處",
+          "angle": "旅遊亦可能帶來好處與解決方向",
+          "description": "政府、場地管理者與遊客可以透過交通安排、清晰告示、垃圾管理及保護住宅空間減少摩擦。與其說「所有旅遊都不好」，較有說服力的是主張負責任及可持續旅遊。",
+          "glossary": [
+            {
+              "english": "sustainable tourism",
+              "chinese": "可持續旅遊"
+            },
+            {
+              "english": "crowd control",
+              "chinese": "人潮管制"
+            },
+            {
+              "english": "clear signage",
+              "chinese": "清晰告示"
+            },
+            {
+              "english": "community consultation",
+              "chinese": "社區諮詢"
+            },
+            {
+              "english": "balanced approach",
+              "chinese": "平衡做法"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "label": "英文個人回應示範（按真實意見修改）",
+          "text": "Yes, tourism can sometimes disrupt local people, particularly when too many visitors arrive in a small residential area. Crowds, litter and careless parking may make everyday life difficult. The examples in the reading material show why residents can become frustrated. However, tourism also supports shops and jobs. Instead of banning visitors altogether, I think places should manage crowds, protect residential spaces and encourage more responsible behaviour."
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "number": 1,
+      "english": "Shall we start by discussing ...?",
+      "purpose": "主動展開小組討論"
+    },
+    {
+      "number": 2,
+      "english": "One reason people may feel this way is that ...",
+      "purpose": "解釋他人看法背後的原因"
+    },
+    {
+      "number": 3,
+      "english": "From the perspective of ..., ...",
+      "purpose": "轉換至不同持份者角度"
+    },
+    {
+      "number": 4,
+      "english": "The key issue here is whether ...",
+      "purpose": "指出核心爭議"
+    },
+    {
+      "number": 5,
+      "english": "If we take ... as an example, ...",
+      "purpose": "引入具體例子"
+    },
+    {
+      "number": 6,
+      "english": "What concerns me most is that ...",
+      "purpose": "強調最重要的憂慮"
+    },
+    {
+      "number": 7,
+      "english": "I agree with ... to some extent because ...",
+      "purpose": "有條件認同他人觀點"
+    },
+    {
+      "number": 8,
+      "english": "I see your point about ..., but ...",
+      "purpose": "有禮貌地提出不同意見"
+    },
+    {
+      "number": 9,
+      "english": "Building on that point, ...",
+      "purpose": "承接並擴展他人論點"
+    },
+    {
+      "number": 10,
+      "english": "Could you explain what you mean by ...?",
+      "purpose": "要求澄清以促進互動"
+    },
+    {
+      "number": 11,
+      "english": "We shouldn't overlook the fact that ...",
+      "purpose": "補充容易被忽略的觀點"
+    },
+    {
+      "number": 12,
+      "english": "Another angle we could consider is ...",
+      "purpose": "引入新角度避免討論停滯"
+    },
+    {
+      "number": 13,
+      "english": "If ..., this could lead to ...",
+      "purpose": "指出條件及可能後果"
+    },
+    {
+      "number": 14,
+      "english": "That may be true in some cases, but ...",
+      "purpose": "限定對方論點的適用範圍"
+    },
+    {
+      "number": 15,
+      "english": "The difference between ... and ... is that ...",
+      "purpose": "區分容易混淆的概念"
+    },
+    {
+      "number": 16,
+      "english": "Rather than ..., we could ...",
+      "purpose": "提出取代方案"
+    },
+    {
+      "number": 17,
+      "english": "The difficulty with that suggestion is that ...",
+      "purpose": "評估建議的實際限制"
+    },
+    {
+      "number": 18,
+      "english": "We need to strike a balance between ... and ...",
+      "purpose": "權衡互相衝突的利益"
+    },
+    {
+      "number": 19,
+      "english": "What do the rest of you think about ...?",
+      "purpose": "邀請其他組員參與"
+    },
+    {
+      "number": 20,
+      "english": "So, can we agree that ...?",
+      "purpose": "整理共識並嘗試收結"
+    }
+  ],
+  "synonyms": [
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "photo / photograph",
+      "chinese": "相片",
+      "alternatives": [
+        "picture",
+        "image",
+        "snapshot",
+        "shot",
+        "still photograph"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "take photos",
+      "chinese": "拍照",
+      "alternatives": [
+        "take pictures",
+        "take photographs",
+        "snap pictures",
+        "capture images",
+        "take snapshots"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "photography",
+      "chinese": "攝影",
+      "alternatives": [
+        "picture-taking",
+        "image-making",
+        "photographic work",
+        "taking photographs",
+        "camera work"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "photographer",
+      "chinese": "攝影者",
+      "alternatives": [
+        "photography enthusiast",
+        "amateur photographer",
+        "professional photographer",
+        "camera user",
+        "image-maker"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "camera equipment",
+      "chinese": "攝影器材",
+      "alternatives": [
+        "photographic gear",
+        "camera kit",
+        "filming equipment",
+        "recording devices",
+        "shooting accessories"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "scenery",
+      "chinese": "風景",
+      "alternatives": [
+        "landscape",
+        "view",
+        "vista",
+        "surroundings",
+        "picturesque setting"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "photogenic",
+      "chinese": "上鏡的",
+      "alternatives": [
+        "picturesque",
+        "visually striking",
+        "camera-friendly",
+        "picture-perfect",
+        "visually appealing"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "beautiful",
+      "chinese": "美麗的",
+      "alternatives": [
+        "stunning",
+        "attractive",
+        "breathtaking",
+        "picturesque",
+        "scenic"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "landmark",
+      "chinese": "地標",
+      "alternatives": [
+        "iconic site",
+        "recognisable attraction",
+        "notable monument",
+        "signature sight",
+        "famous location"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "tourist attraction",
+      "chinese": "旅遊景點",
+      "alternatives": [
+        "visitor attraction",
+        "place of interest",
+        "sightseeing spot",
+        "popular destination",
+        "notable landmark"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "preserve memories",
+      "chinese": "保存回憶",
+      "alternatives": [
+        "capture moments",
+        "document experiences",
+        "keep visual mementoes",
+        "record special occasions",
+        "create lasting reminders"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "memories",
+      "chinese": "回憶",
+      "alternatives": [
+        "recollections",
+        "cherished moments",
+        "remembered experiences",
+        "personal reminders",
+        "fond remembrances"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "capture",
+      "chinese": "捕捉／記錄",
+      "alternatives": [
+        "record",
+        "photograph",
+        "document",
+        "frame",
+        "take a shot of"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "share",
+      "chinese": "分享",
+      "alternatives": [
+        "send",
+        "show",
+        "post",
+        "circulate",
+        "upload"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "post online",
+      "chinese": "在網上發布",
+      "alternatives": [
+        "upload",
+        "share publicly",
+        "publish on social media",
+        "put online",
+        "make publicly available"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "social media",
+      "chinese": "社交媒體",
+      "alternatives": [
+        "social platforms",
+        "social networking sites",
+        "online networks",
+        "photo-sharing platforms",
+        "digital social channels"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "popular",
+      "chinese": "受歡迎的",
+      "alternatives": [
+        "well-liked",
+        "widely visited",
+        "sought-after",
+        "trendy",
+        "in demand"
+      ]
+    },
+    {
+      "category": "相片、拍攝與記憶",
+      "keyword": "viral",
+      "chinese": "網上爆紅的",
+      "alternatives": [
+        "widely shared",
+        "trending online",
+        "rapidly circulated",
+        "internet-famous",
+        "widely reposted"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "public places",
+      "chinese": "公共地方",
+      "alternatives": [
+        "public spaces",
+        "public areas",
+        "shared spaces",
+        "communal areas",
+        "publicly accessible locations"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "local residents",
+      "chinese": "本地居民",
+      "alternatives": [
+        "neighbourhood residents",
+        "inhabitants",
+        "people living nearby",
+        "local people",
+        "community members"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "tourists",
+      "chinese": "遊客",
+      "alternatives": [
+        "visitors",
+        "sightseers",
+        "holidaymakers",
+        "travellers",
+        "day-trippers"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "bystanders",
+      "chinese": "旁觀者／路人",
+      "alternatives": [
+        "passers-by",
+        "onlookers",
+        "people nearby",
+        "members of the public",
+        "incidental observers"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "neighbourhood",
+      "chinese": "社區／街區",
+      "alternatives": [
+        "local area",
+        "residential district",
+        "community",
+        "surrounding streets",
+        "locality"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "community",
+      "chinese": "社區",
+      "alternatives": [
+        "neighbourhood",
+        "local population",
+        "residents",
+        "local society",
+        "community network"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "crowd",
+      "chinese": "人群",
+      "alternatives": [
+        "gathering",
+        "throng",
+        "group of people",
+        "mass of visitors",
+        "cluster of people"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "crowded",
+      "chinese": "擠擁的",
+      "alternatives": [
+        "packed",
+        "busy",
+        "congested",
+        "overcrowded",
+        "full of people"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "congestion",
+      "chinese": "擠塞",
+      "alternatives": [
+        "overcrowding",
+        "bottlenecks",
+        "heavy traffic",
+        "crowding",
+        "a build-up of people"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "local businesses",
+      "chinese": "本地商戶",
+      "alternatives": [
+        "neighbourhood shops",
+        "independent retailers",
+        "small enterprises",
+        "local traders",
+        "community businesses"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "cultural heritage",
+      "chinese": "文化遺產",
+      "alternatives": [
+        "historic legacy",
+        "local traditions",
+        "heritage assets",
+        "cultural inheritance",
+        "historical heritage"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "authentic",
+      "chinese": "真實／自然的",
+      "alternatives": [
+        "genuine",
+        "true-to-life",
+        "unposed",
+        "natural",
+        "real-life"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "experience",
+      "chinese": "體驗",
+      "alternatives": [
+        "occasion",
+        "encounter",
+        "activity",
+        "visit",
+        "lived experience"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "enjoy",
+      "chinese": "享受",
+      "alternatives": [
+        "take pleasure in",
+        "appreciate",
+        "savour",
+        "make the most of",
+        "have fun with"
+      ]
+    },
+    {
+      "category": "人、地方與社區",
+      "keyword": "appreciate",
+      "chinese": "欣賞／珍惜",
+      "alternatives": [
+        "value",
+        "admire",
+        "recognise the significance of",
+        "take in",
+        "develop an understanding of"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "privacy",
+      "chinese": "私隱",
+      "alternatives": [
+        "personal privacy",
+        "the right to privacy",
+        "a private life",
+        "personal boundaries",
+        "freedom from intrusion"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "consent",
+      "chinese": "同意",
+      "alternatives": [
+        "permission",
+        "agreement",
+        "approval",
+        "authorisation",
+        "informed consent"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "disturbance",
+      "chinese": "滋擾",
+      "alternatives": [
+        "disruption",
+        "nuisance",
+        "interference",
+        "annoyance",
+        "inconvenience"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "intrusive",
+      "chinese": "侵擾性的",
+      "alternatives": [
+        "invasive",
+        "unwelcome",
+        "interfering",
+        "prying",
+        "overly personal"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "disruptive",
+      "chinese": "造成干擾的",
+      "alternatives": [
+        "disturbing",
+        "obstructive",
+        "distracting",
+        "interfering",
+        "inconvenient"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "litter",
+      "chinese": "垃圾",
+      "alternatives": [
+        "rubbish",
+        "waste",
+        "discarded packaging",
+        "refuse",
+        "trash"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "damage",
+      "chinese": "損壞",
+      "alternatives": [
+        "harm",
+        "impair",
+        "ruin",
+        "spoil",
+        "destroy"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "safety",
+      "chinese": "安全",
+      "alternatives": [
+        "personal safety",
+        "public safety",
+        "physical protection",
+        "security",
+        "freedom from harm"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "dangerous",
+      "chinese": "危險的",
+      "alternatives": [
+        "unsafe",
+        "hazardous",
+        "risky",
+        "perilous",
+        "potentially harmful"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "risk",
+      "chinese": "風險",
+      "alternatives": [
+        "danger",
+        "hazard",
+        "threat",
+        "possibility of harm",
+        "exposure to danger"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "protect",
+      "chinese": "保護",
+      "alternatives": [
+        "safeguard",
+        "defend",
+        "shield",
+        "preserve",
+        "look after"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "prevent",
+      "chinese": "防止",
+      "alternatives": [
+        "avert",
+        "stop",
+        "guard against",
+        "reduce the likelihood of",
+        "head off"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "respect",
+      "chinese": "尊重",
+      "alternatives": [
+        "show consideration for",
+        "honour",
+        "show regard for",
+        "take account of",
+        "treat with dignity"
+      ]
+    },
+    {
+      "category": "私隱、滋擾與安全",
+      "keyword": "peaceful",
+      "chinese": "寧靜的",
+      "alternatives": [
+        "quiet",
+        "calm",
+        "tranquil",
+        "undisturbed",
+        "serene"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "rules",
+      "chinese": "規則",
+      "alternatives": [
+        "regulations",
+        "guidelines",
+        "requirements",
+        "codes of conduct",
+        "ground rules"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "ban",
+      "chinese": "禁止",
+      "alternatives": [
+        "prohibit",
+        "forbid",
+        "disallow",
+        "bar",
+        "outlaw"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "restrict",
+      "chinese": "限制",
+      "alternatives": [
+        "limit",
+        "control",
+        "regulate",
+        "curb",
+        "impose conditions on"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "enforce",
+      "chinese": "執行（規則）",
+      "alternatives": [
+        "implement",
+        "apply",
+        "uphold",
+        "police",
+        "ensure compliance with"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "fair",
+      "chinese": "公平的",
+      "alternatives": [
+        "equitable",
+        "impartial",
+        "even-handed",
+        "just",
+        "reasonable"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "excessive",
+      "chinese": "過度的",
+      "alternatives": [
+        "disproportionate",
+        "unreasonable",
+        "unnecessary",
+        "heavy-handed",
+        "overly strict"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "appropriate",
+      "chinese": "恰當的",
+      "alternatives": [
+        "suitable",
+        "reasonable",
+        "proportionate",
+        "fitting",
+        "context-sensitive"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "alternative",
+      "chinese": "替代方案",
+      "alternatives": [
+        "another option",
+        "substitute",
+        "different approach",
+        "replacement",
+        "other possibility"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "balance",
+      "chinese": "平衡／權衡",
+      "alternatives": [
+        "weigh up",
+        "reconcile",
+        "strike a compromise",
+        "accommodate both sides",
+        "consider competing interests"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "important",
+      "chinese": "重要的",
+      "alternatives": [
+        "significant",
+        "crucial",
+        "essential",
+        "vital",
+        "key"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "beneficial",
+      "chinese": "有益的",
+      "alternatives": [
+        "helpful",
+        "valuable",
+        "advantageous",
+        "worthwhile",
+        "positive"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "harmful",
+      "chinese": "有害的",
+      "alternatives": [
+        "damaging",
+        "detrimental",
+        "negative",
+        "adverse",
+        "injurious"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "responsible",
+      "chinese": "負責任的",
+      "alternatives": [
+        "considerate",
+        "accountable",
+        "conscientious",
+        "reliable",
+        "mindful of others"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "freedom",
+      "chinese": "自由",
+      "alternatives": [
+        "liberty",
+        "autonomy",
+        "personal choice",
+        "independence",
+        "self-determination"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "impact",
+      "chinese": "影響",
+      "alternatives": [
+        "effect",
+        "consequence",
+        "influence",
+        "implication",
+        "outcome"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "cause",
+      "chinese": "造成",
+      "alternatives": [
+        "lead to",
+        "result in",
+        "trigger",
+        "bring about",
+        "contribute to"
+      ]
+    },
+    {
+      "category": "規管、價值取捨與論證",
+      "keyword": "solution",
+      "chinese": "解決方法",
+      "alternatives": [
+        "remedy",
+        "response",
+        "practical measure",
+        "way forward",
+        "corrective action"
+      ]
+    }
+  ]
+}

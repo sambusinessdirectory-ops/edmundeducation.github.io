@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -132,6 +132,15 @@ jobs:
           node --check news-discussion/app.mjs
           node --check shared-system-nav.js
           node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const p=fs.readFileSync('news-discussion.html','utf8'); if(!h.includes('href=\"news-discussion.html\"')||!p.includes('news-discussion/app.mjs')) throw Error('Card 75 is not linked')"
+
+      - name: Validate focused DSE Argument Bank release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[dse-arguments-release]') }}
+        run: |
+          node --check dse-argument-bank/app.mjs
+          node --check shared-system-nav.js
+          python3 tools/build-dse-argument-bank.py
+          git diff --exit-code -- dse-argument-bank/data.json
+          node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('dse-argument-bank/data.json')); const h=fs.readFileSync('index.html','utf8'); if(!h.includes('href=\"dse-argument-bank.html\"') || d.groups.length!==3 || d.responses.length!==8 || d.synonyms.length!==64 || d.groups.concat(d.responses).reduce((n,s)=>n+s.arguments.length,0)!==165 || d.groups.concat(d.responses).some(s=>s.arguments.some(a=>a.glossary.length!==5))) throw Error('Card 76 content is incomplete')"
 
       - name: Validate focused Paper 3 curation release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
@@ -622,6 +631,7 @@ jobs:
             --exclude='_site' \
             --exclude='*.sql' \
             --exclude='news-discussion/*.json' \
+            --exclude='dse-argument-bank/source.md' \
             --exclude='natural-english/imported-lessons.json' \
             --exclude='natural-english/IMPORT-REVIEW.md' \
             --exclude='natural-english/audio/imported-metadata.json' \
@@ -667,6 +677,9 @@ jobs:
 
       - name: Verify News Discussion source data is absent from Pages artifact
         run: test ! -e _site/news-discussion/news-1.json
+
+      - name: Verify DSE source manuscript is absent from Pages artifact
+        run: test ! -e _site/dse-argument-bank/source.md
 
       - name: Stamp PWA release
         run: |
