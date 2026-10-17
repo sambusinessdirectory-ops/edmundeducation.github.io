@@ -7,7 +7,7 @@ let prepared;
 export function trainPositions(){return Array.from({length:30},(_,i)=>{const row=Math.floor(i/6),col=row%2?5-i%6:i%6;const left=row===0?520:row===1?420:210,right=1330;return {order:i+31,x:left+(right-left)*col/5,y:TRAIN_TOP+560+row*135};});}
 export const TRAIN_WINDOWS=Object.freeze({large:{left:37,top:19,right:480,bottom:410},small:{left:1180,top:65,right:1256,bottom:255}});
 export function trainTravel(seconds,width){return ((seconds%180)+180)%180/180*width;}
-const image=async url=>{const img=new Image();img.src=url;await img.decode();return img;};
+const image=async url=>{const img=new Image();img.crossOrigin='anonymous';img.src=url;await img.decode();return img;};
 export async function prepareTrain(){
   if(prepared)return prepared;
   prepared=Promise.all([image(ART+'carriage-v1.jpg'),image(ART+'winter-panorama-v1.jpg'),image(ART+'curtains-v1.png')]).then(([background,landscape,atlas])=>{

@@ -7,7 +7,7 @@ export function starfishMotion(t,index){return {x:Math.sin(t*.23+index)*7,y:Math
 export const BLACK_SEA='M0 320H1160L1100 365L1035 410L965 450L870 485L760 519L645 549L510 575L440 580L445 540L425 505L350 475L240 453L105 430L0 413Z';
 const POOLS=['M0 862L100 845L275 859L311 884L266 953L183 984L31 977L0 955Z','M1470 1301L1550 1269L1600 1274V1450L1527 1442L1447 1400L1437 1355Z'];
 let prepared;
-async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
+async function image(url){const img=new Image();img.crossOrigin='anonymous';img.src=url;await img.decode();return img;}
 export function prepareBlackSand(){return prepared ||= Promise.all([image(ART+'background-v1.jpg'),image(SHORE+'clouds.webp'),image(SHORE+'wildlife.webp'),image(ART+'starfish-v2.png')]).then(([source,clouds,wildlife,starfish])=>{const background=document.createElement('canvas');background.width=1600;background.height=1950;background.getContext('2d').drawImage(source,0,0,1600,1950);return {background,clouds,starfish,rig:createShoreWildlife(wildlife)};}).catch(e=>{prepared=null;throw e;});}
 // Classify the painted water inside conservative shore boundaries, then inset the
 // mask farther than the maximum texture displacement. Rocks cannot enter samples.

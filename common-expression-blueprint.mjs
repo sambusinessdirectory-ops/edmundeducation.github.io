@@ -1,5 +1,5 @@
 import {BLUEPRINT_WIDTH,BLUEPRINT_HEIGHT,BLUEPRINT_CAPTIONS,blueprintPositions,blueprintRoute,blueprintNavigation} from './common-expression-blueprint-geometry.mjs';
-import {loadBlueprintArtwork,paintBlueprintPlatform} from './common-expression-blueprint-artwork.mjs';
+import {loadBlueprintArtwork,paintBlueprintPlatform} from './common-expression-blueprint-artwork.mjs?v=20261017-r2-maps1';
 import {mountBlueprintEffects} from './common-expression-blueprint-effects.mjs';
 let artwork;
 export async function prepareBlueprint(){artwork=await loadBlueprintArtwork();return artwork;}

@@ -1,5 +1,5 @@
-import {PROVERB_BLACK_SAND} from './proverb-black-sand.mjs?v=20260915-black3';
-import { createExpressionMap } from './common-expression-map.mjs?v=20261011-girls-autumn-trio1';
+import {PROVERB_BLACK_SAND} from './proverb-black-sand.mjs?v=20261017-r2-maps1';
+import { createExpressionMap } from './common-expression-map.mjs?v=20261017-r2-cors2';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 /*

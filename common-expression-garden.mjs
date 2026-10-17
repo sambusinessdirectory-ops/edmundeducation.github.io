@@ -1,6 +1,6 @@
 // Artwork and layout only. Lesson state and navigation belong to the shared map.
 import { gardenPath, gardenStep } from './common-expression-garden-navigation.mjs?v=20260912-garden1';
-import { mountGardenDucks } from './common-expression-garden-ducks.mjs?v=20260912-garden1';
+import { mountGardenDucks } from './common-expression-garden-ducks.mjs?v=20261017-r2-maps1';
 const ART = './assets/common-expression-written/garden/';
 
 function terrain(nodes, lessons) {

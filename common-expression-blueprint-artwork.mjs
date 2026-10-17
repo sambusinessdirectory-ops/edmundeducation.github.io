@@ -8,7 +8,7 @@ export const BLUEPRINT_SPRITES={
  pencil:{rect:[1047,505,463,441],pivot:[5,435]}
 };
 function canvas(w,h){const c=document.createElement('canvas');c.width=w;c.height=h;return c;}
-const load=key=>new Promise((resolve,reject)=>{const image=new Image();image.decoding='async';image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`Blueprint artwork unavailable: ${key}`));image.src=new URL(key+'.webp',ART).href;});
+const load=key=>new Promise((resolve,reject)=>{const image=new Image();image.crossOrigin='anonymous';image.decoding='async';image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`Blueprint artwork unavailable: ${key}`));image.src=new URL(key+'.webp',ART).href;});
 // The original masters remain RGB. Cache chroma compositing once, preserving
 // fine brass details and open spaces in the divider and set square.
 function removeScreen(image){

@@ -20,7 +20,7 @@ export function duckPose(time, offset = 0, reduced = false) {
 
 export function mountGardenDucks(root, reduced) {
   const ducks=[...root.querySelectorAll('.garden-duck')].map(node=>({node,canvas:node.querySelector('canvas'),offset:Number(node.dataset.duckPhase)}));
-  const image=new Image(); let disposed=false;
+  const image=new Image(); image.crossOrigin='anonymous'; let disposed=false;
   function draw(time) {
     if(disposed || !image.complete || !image.naturalWidth) return;
     for(const {node,canvas,offset} of ducks) {

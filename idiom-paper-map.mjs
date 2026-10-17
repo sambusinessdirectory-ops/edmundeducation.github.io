@@ -1,5 +1,5 @@
-import {createExpressionMap} from './common-expression-map.mjs?v=20261011-girls-autumn-trio1';
-import {IDIOM_PAPER_THEME} from './idiom-paper-theme.mjs?v=20260913-paper4';
+import {createExpressionMap} from './common-expression-map.mjs?v=20261017-r2-cors2';
+import {IDIOM_PAPER_THEME} from './idiom-paper-theme.mjs?v=20261017-r2-maps1';
 export const IDIOM_MAP_LIMIT=30;
 export function idiomMapLessons(lessons) {
   return lessons.slice(0,IDIOM_MAP_LIMIT).map((lesson,index)=>({

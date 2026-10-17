@@ -10,7 +10,7 @@ export function liquidSurface(type,seconds){
  return {cx:martini?285:1184,cy:martini?145:245,rx:martini?52:43,ry:martini?12:10,bottom:martini?195:299,tilt:liquidTilt(seconds,martini?0:1.3)*.48};
 }
 let prepared;
-async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
+async function image(url){const img=new Image();img.crossOrigin='anonymous';img.src=url;await img.decode();return img;}
 export function preparePoker(){return prepared ||= Promise.all([image(ART+'table-v1.jpg'),image(ART+'counters-v1.png'),image(ART+'green-chip-cap-v1.png')]).then(([background,atlas,cap])=>{
  const source=document.createElement('canvas');source.width=atlas.width;source.height=atlas.height;const ctx=source.getContext('2d',{willReadFrequently:true});ctx.drawImage(atlas,0,0);const counters=[];
  for(let i=0;i<8;i++){const x0=Math.floor((i%4)*atlas.width/4),y0=Math.floor(Math.floor(i/4)*atlas.height/2),w=Math.floor(atlas.width/4),h=Math.floor(atlas.height/2),pixels=ctx.getImageData(x0,y0,w,h).data;let l=w,r=0,t=h,b=0;

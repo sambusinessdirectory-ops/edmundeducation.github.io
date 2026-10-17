@@ -1,8 +1,8 @@
-import {LOUNGE_TOP,prepareLounge,loungePositions,loungeTerrain,mountLounge} from './common-expression-lounge.mjs?v=20260915-lounge3';
-import {POOL_TOP,preparePool,poolPositions,poolTerrain,mountPool} from './common-expression-pool.mjs?v=20260915-lounge3';
-import {POKER_TOP,preparePoker,pokerPositions,pokerTerrain,mountPoker} from './common-expression-poker.mjs?v=20260915-pool1';
-import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20260915-poker1';
-import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-poker1';
+import {LOUNGE_TOP,prepareLounge,loungePositions,loungeTerrain,mountLounge} from './common-expression-lounge.mjs?v=20261017-r2-maps1';
+import {POOL_TOP,preparePool,poolPositions,poolTerrain,mountPool} from './common-expression-pool.mjs?v=20261017-r2-maps1';
+import {POKER_TOP,preparePoker,pokerPositions,pokerTerrain,mountPoker} from './common-expression-poker.mjs?v=20261017-r2-maps1';
+import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20261017-r2-maps1';
+import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20261017-r2-maps1';
 // Airport artwork and motion only; the shared map owns lesson/account state.
 const ART='./assets/common-expression-business/airport/';
 const W=1600,H=1200;
@@ -30,7 +30,7 @@ export function departureText(seconds,row) {
 const PLANTS=[{x:303,y:470,h:160},{x:1297,y:465,h:155},{x:66,y:690,h:175},{x:1532,y:685,h:165}];
 const LAMPS=[{x:135,y:400,h:82,kind:'lamp'},{x:1484,y:400,h:60,kind:'candle'},{x:185,y:1003,h:103,kind:'candle'},{x:1433,y:1008,h:135,kind:'lamp'}];
 export const AIRPORT_INVENTORY={planes:2,runwayLights:30,plants:PLANTS,lamps:LAMPS,platforms:30};
-async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
+async function image(url){const img=new Image();img.crossOrigin='anonymous';img.src=url;await img.decode();return img;}
 export async function prepareAirport() {
   if(assets)return assets;
   assets=Promise.all([image(ART+'lounge-v1.jpg'),image(ART+'sprites-v1.png'),prepareTrain(),prepareDining(),preparePoker(),preparePool(),prepareLounge()]).then(([background,atlas])=>{

@@ -4,7 +4,7 @@ export const DINING_TOP=2400;
 export function diningPositions(){return Array.from({length:30},(_,i)=>{const row=Math.floor(i/6),col=row%2?5-i%6:i%6;return {order:i+61,x:400+col*186,y:DINING_TOP+610+row*92};});}
 export function diningTravel(seconds,width){return ((seconds%210)+210)%210/210*width;}
 let prepared;
-async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
+async function image(url){const img=new Image();img.crossOrigin='anonymous';img.src=url;await img.decode();return img;}
 export function prepareDining(){
  return prepared ||= Promise.all([image(ART+'table-v1.jpg'),image(ART+'moonlit-lake-v1.jpg'),image(ART+'rose-v1.png'),image(ART+'tableware-v1.png'),image(ART+'plate-napkin-v2.png'),image(ART+'plate-single-v1.png')]).then(([background,landscape,rose,tableware,cleanPlate,singlePlate])=>{
   const raw=document.createElement('canvas');raw.height=300;raw.width=1400;raw.getContext('2d').drawImage(landscape,0,0,1400,300);

@@ -4,7 +4,7 @@ export function loungePositions(){return Array.from({length:30},(_,i)=>{const ro
 export const LOUNGE_PLANTS=[{x:120,y:655,h:315},{x:1460,y:765,h:300}];
 export function loungeMotion(seconds){const phase=seconds%9;return {bassAngle:Math.sin(seconds*.68)*.018,stringAmplitude:phase<3.6?Math.sin(Math.PI*phase/3.6)*1.35:0};}
 let prepared;
-async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
+async function image(url){const img=new Image();img.crossOrigin='anonymous';img.src=url;await img.decode();return img;}
 export function prepareLounge(){return prepared ||= Promise.all([image(ART+'room-v2.jpg'),image(ART+'sprites-v1.png'),image(ART+'bar-mic-v1.png')]).then(([background,atlas,props])=>{const c=document.createElement('canvas');c.width=atlas.width;c.height=atlas.height;const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(atlas,0,0);const sprites={};
  for(const [i,key] of ['bass','plant'].entries()){const x0=i*Math.floor(atlas.width/2),w=Math.floor(atlas.width/2),h=atlas.height,p=ctx.getImageData(x0,0,w,h).data;let l=w,r=0,t=h,b=0;for(let y=0;y<h;y++)for(let x=0;x<w;x++)if(p[(y*w+x)*4+3]>80){l=Math.min(l,x);r=Math.max(r,x);t=Math.min(t,y);b=Math.max(b,y);}const s=document.createElement('canvas');s.width=r-l+1;s.height=b-t+1;s.getContext('2d').drawImage(atlas,x0+l,t,s.width,s.height,0,0,s.width,s.height);sprites[key]=s;}
  const pc=document.createElement('canvas');pc.width=props.width;pc.height=props.height;const px=pc.getContext('2d',{willReadFrequently:true});px.drawImage(props,0,0);

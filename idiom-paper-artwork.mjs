@@ -11,7 +11,7 @@ export const PAPER_SPRITES={
   redFlag:{sheet:'flags',rect:[139,301,543,377]},goldFlag:{sheet:'flags',rect:[866,301,551,380]}
 };
 let ready;
-const load=src=>new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`Paper artwork failed: ${src}`));image.src=src;});
+const load=src=>new Promise((resolve,reject)=>{const image=new Image();image.crossOrigin='anonymous';image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`Paper artwork failed: ${src}`));image.src=src;});
 // The generated masters stay intact. This is a cached runtime chroma composite,
 // just as a video renderer removes its chroma screen before scene placement.
 function compositeScreen(image) {

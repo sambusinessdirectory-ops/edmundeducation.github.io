@@ -5,7 +5,7 @@ export function poolPositions(){return Array.from({length:30},(_,i)=>{const row=
 export const POOL_DECORATIONS=[{x:640,y:205,r:25,color:'#f1ead2',number:0},{x:1030,y:238,r:25,color:POOL_COLORS[1],number:10},{x:145,y:685,r:24,color:POOL_COLORS[2],number:3},{x:1440,y:812,r:25,color:POOL_COLORS[5],number:14}];
 export function decorativeBallPosition(ball,index,seconds){const phase=index*1.7;return {x:ball.x+Math.sin(seconds*.22+phase)*9,y:ball.y+Math.sin(seconds*.16+phase)*5};}
 let prepared;
-export function preparePool(){return prepared ||= (async()=>{const background=new Image();background.src=ART+'table-v1.jpg';await background.decode();return {background};})().catch(e=>{prepared=null;throw e;});}
+export function preparePool(){return prepared ||= (async()=>{const background=new Image();background.crossOrigin='anonymous';background.src=ART+'table-v1.jpg';await background.decode();return {background};})().catch(e=>{prepared=null;throw e;});}
 export function poolTerrain(){const nodes=poolPositions();
  return `<section class="pool-realm" style="top:${POOL_TOP}px" aria-label="桌球旅程，平台 121 至 150"><img class="pool-background" src="${ART}table-v1.jpg" width="1600" height="1200" draggable="false" alt="胡桃木框綠絨桌球檯，球桿、三角球架與彩色桌球"><canvas class="pool-motion" width="1600" height="1200" aria-hidden="true"></canvas>${nodes.map(p=>`<button type="button" class="pool-platform${p.striped?' is-striped':''}" data-pool-platform="${p.order}" style="left:${p.x}px;top:${p.y-POOL_TOP}px;--ball-color:${p.color}" aria-label="平台 ${p.order}，課題準備中"><span class="pool-ball"><span class="pool-ball-number">${p.order}</span></span><small>課題準備中</small></button>`).join('')}</section>`;
 }

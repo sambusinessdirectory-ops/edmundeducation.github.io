@@ -1,6 +1,6 @@
 import {PAPER_WIDTH,PAPER_HEIGHT,paperPositions,paperTrailPath,paperPath,paperStep,PAPER_APPROACHES,PAPER_BRIDGE_SILHOUETTES} from './idiom-paper-geometry.mjs?v=20260913-paper4';
 import {createPaperEffects} from './idiom-paper-effects.mjs?v=20260913-paper4';
-import {loadPaperArtwork,drawPaperPlatform} from './idiom-paper-artwork.mjs?v=20260913-paper4';
+import {loadPaperArtwork,drawPaperPlatform} from './idiom-paper-artwork.mjs?v=20261017-r2-maps1';
 const ART='./assets/idiom-system/paper/v2/';
 function terrain(nodes) {
   const d=paperTrailPath(nodes);
