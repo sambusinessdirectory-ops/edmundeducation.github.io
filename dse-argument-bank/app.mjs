@@ -3,8 +3,12 @@ const app = $('#app');
 const config = window.EDMUND_SUPABASE || {};
 const authMemory = new Map();
 const resilientStorage = {
-  getItem(key) { try { return sessionStorage.getItem(key) ?? authMemory.get(key) ?? null; } catch { return authMemory.get(key) ?? null; } },
-  setItem(key, value) { try { sessionStorage.setItem(key, value); } catch { authMemory.set(key, value); } },
+  getItem(key) { if (authMemory.has(key)) return authMemory.get(key); try { return sessionStorage.getItem(key); } catch { return null; } },
+  setItem(key, value) {
+    authMemory.set(key, value);
+    try { sessionStorage.setItem(key, value); }
+    catch { try { sessionStorage.removeItem(key); } catch { /* Keep the current session in memory. */ } }
+  },
   removeItem(key) { authMemory.delete(key); try { sessionStorage.removeItem(key); } catch { /* Continue in memory. */ } }
 };
 const client = window.supabase?.createClient?.(config.url, config.anonKey, {
@@ -19,8 +23,7 @@ let toastTimer;
 async function rpc(name, args = {}) {
   if (!client) throw new Error('登入服務暫時無法載入，請重新整理頁面。');
   const current = await client.auth.getSession();
-  if (current.error) throw current.error;
-  if (!current.data.session?.user?.id) {
+  if (current.error || !current.data.session?.user?.id) {
     const result = await client.auth.signInAnonymously();
     if (result.error) throw result.error;
   }
@@ -139,10 +142,10 @@ async function save(id, patch) {
   syncItem(id);
   try {
     await rpc('dse_argument_save_state', { p_student_token: state.token, p_module_id: state.data.id, p_item_id: id, p_checked: after.checked, p_bookmarked: after.bookmarked });
-  } catch {
+  } catch (error) {
     state.progress[id] = before;
     syncItem(id);
-    toast('未能儲存；請稍後重試。', true);
+    toast(`未能儲存：${error.message || '請稍後重試。'}`, true);
   }
 }
 function syncItem(id) {
