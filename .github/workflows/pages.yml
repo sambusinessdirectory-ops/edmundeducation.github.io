@@ -140,8 +140,11 @@ jobs:
           node --check shared-system-nav.js
           python3 tools/build-dse-argument-bank.py
           python3 tools/build-dse-driving-bank.py
-          git diff --exit-code -- dse-argument-bank/data.json dse-argument-bank/driving-data.json
+          python3 tools/build-dse-self-care-bank.py
+          python3 tools/build-dse-mario-bank.py
+          git diff --exit-code -- dse-argument-bank/data.json dse-argument-bank/driving-data.json dse-argument-bank/self-care-data.json dse-argument-bank/mario-data.json
           node tools/test-dse-argument-bank.mjs
+          node tools/test-dse-argument-auth.mjs
 
       - name: Validate focused Paper 3 curation release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
@@ -633,7 +636,7 @@ jobs:
             --exclude='*.sql' \
             --exclude='news-discussion/*.json' \
             --exclude='dse-argument-bank/source.md' \
-            --exclude='dse-argument-bank/driving-source.md' \
+            --exclude='dse-argument-bank/*-source.md' \
             --exclude='natural-english/imported-lessons.json' \
             --exclude='natural-english/IMPORT-REVIEW.md' \
             --exclude='natural-english/audio/imported-metadata.json' \
@@ -681,7 +684,9 @@ jobs:
         run: test ! -e _site/news-discussion/news-1.json
 
       - name: Verify DSE source manuscript is absent from Pages artifact
-        run: test ! -e _site/dse-argument-bank/source.md && test ! -e _site/dse-argument-bank/driving-source.md
+        run: |
+          test ! -e _site/dse-argument-bank/source.md
+          test -z "$(find _site/dse-argument-bank -maxdepth 1 -name '*-source.md' -print -quit)"
 
       - name: Stamp PWA release
         run: |

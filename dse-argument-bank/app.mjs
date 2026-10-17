@@ -56,7 +56,7 @@ function account(name, token, id) {
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261017d`)));
+    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018a`)));
     if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
     state.modules = await Promise.all(responses.map(response => response.json()));
     state.moduleIndex = 0;
@@ -196,7 +196,8 @@ function groupPrompt(section, index) {
 }
 function renderGroup() {
   const plan = state.data.studyPlan?.length ? `<details class="study-plan"><summary>四星期 Self-Care Month 活動示例 <span>展開參考方案</span></summary><p>以下是供小組討論的教學方案，並非試題已安排的活動。實際安排須視乎學校資源、安全及學生意願。</p><div class="study-plan__grid">${state.data.studyPlan.map(week => `<article><small>${esc(week.week)}</small><h3>${esc(week.theme)}</h3><p><strong>建議活動</strong>${esc(week.activity)}</p><p><strong>鼓勵參與</strong>${esc(week.participation)}</p><p><strong>顧及需要</strong>${esc(week.care)}</p></article>`).join('')}</div></details>` : '';
-  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div>${plan}<div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
+  const project = state.data.projectPlan?.outline?.length ? `<details class="study-plan"><summary>班級專題 · 展示大綱與互動方案 <span>展開參考方案</span></summary><p>以下是原創教學示例，並非試題規定的研究格式。使用遊戲畫面時須取得授權並標明來源；班內投票不應被寫成全港統計。</p><div class="study-plan__grid">${state.data.projectPlan.outline.map(item => `<article><small>PART ${esc(item.part)}</small><h3>${esc(item.theme)}</h3><p><strong>可用素材</strong>${esc(item.material)}</p><p><strong>關鍵問題</strong>${esc(item.question)}</p></article>`).join('')}</div><h3>互動展示方案</h3><div class="study-plan__grid">${state.data.projectPlan.activities.map(item => `<article><h3>${esc(item.idea)}</h3><p><strong>用途</strong>${esc(item.benefit)}</p><p><strong>操作與注意事項</strong>${esc(item.care)}</p></article>`).join('')}</div><h3>建議分工</h3><div class="study-plan__grid">${state.data.projectPlan.roles.map(item => `<article><h3>${esc(item.role)}</h3><p>${esc(item.task)}</p></article>`).join('')}</div></details>` : '';
+  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div>${plan}${project}<div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
 }
 function responseQuestion(section, index) {
   const open = state.response === section.id;
