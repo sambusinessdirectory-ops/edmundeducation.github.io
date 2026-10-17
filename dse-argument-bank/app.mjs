@@ -53,7 +53,7 @@ function account(name, token, id) {
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const responses = await Promise.all(['data.json', 'driving-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261017b`)));
+    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261017d`)));
     if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
     state.modules = await Promise.all(responses.map(response => response.json()));
     state.moduleIndex = 0;
@@ -166,7 +166,7 @@ function angleSections(section, picker = false) {
   return section.angles.map((angle, index) => {
     const argumentsForAngle = section.arguments.filter(argument => argument.angle === angle);
     const selected = state.pick?.selected[state.pick.phase - 1] || new Set();
-    return `<section class="angle-section ${section.id === 'A3' ? ['tone-support','tone-against','tone-middle'][index] : ''}"><header><span class="eyebrow">ANGLE ${String(index + 1).padStart(2, '0')}</span><h3>${esc(angle)}</h3><small>${argumentsForAngle.length} 個論點</small></header><div class="angle-arguments">${argumentsForAngle.map(argument => argumentCard(argument, picker, selected.has(argument.id))).join('')}</div></section>`;
+    return `<section class="angle-section ${state.data.id === '2025-1-2-photo-taking-visitors' && section.id === 'A3' ? ['tone-support','tone-against','tone-middle'][index] : ''}"><header><span class="eyebrow">ANGLE ${String(index + 1).padStart(2, '0')}</span><h3>${esc(angle)}</h3><small>${argumentsForAngle.length} 個論點</small></header><div class="angle-arguments">${argumentsForAngle.map(argument => argumentCard(argument, picker, selected.has(argument.id))).join('')}</div></section>`;
   }).join('');
 }
 
@@ -182,17 +182,18 @@ function renderHome() {
 function renderModule() {
   const groupCount = state.data.groups.reduce((count, group) => count + group.arguments.length, 0);
   const responseCount = state.data.responses.reduce((count, response) => count + response.arguments.length, 0);
-  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><em>小組討論</em><small>${state.data.groups.length} 條指定討論方向 · ${groupCount} 個論點 · 句式表與雙人選論點</small><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><em>個人回應</em><small>${state.data.responses.length} 題考官提問 · ${responseCount} 個論點 · 可改寫示範回應</small><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><em>主題同義詞</em><small>${state.data.synonyms.length} 組主題關鍵詞 · ${state.data.synonyms.length * 5} 個語境替代表達</small><b>${arrow}</b></button></div><section class="context-panel"><span class="eyebrow">THE SOURCE SCENARIO · 題目背景</span><h2>${esc(state.data.contextTitle || '三個材料案例')}</h2><div class="context-grid">${state.data.context.map(item => `<article><strong>${esc(item.place)}</strong><p>${esc(item.point)}</p></article>`).join('')}</div><p class="context-caveat">${esc(state.data.contextCaveat || '以下論點是供課堂辯論的分析與建議；政策主張並非香港已實施的法律。')}</p></section>`;
+  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><em>小組討論</em><small>${state.data.groups.length} 條指定討論方向 · ${groupCount} 個論點 · 句式表與單人／雙人選論點</small><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><em>個人回應</em><small>${state.data.responses.length} 題考官提問 · ${responseCount} 個論點 · 可改寫示範回應</small><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><em>主題同義詞</em><small>${state.data.synonyms.length} 組主題關鍵詞 · ${state.data.synonyms.length * 5} 個語境替代表達</small><b>${arrow}</b></button></div><section class="context-panel"><span class="eyebrow">THE SOURCE SCENARIO · 題目背景</span><h2>${esc(state.data.contextTitle || '三個材料案例')}</h2><div class="context-grid">${state.data.context.map(item => `<article><strong>${esc(item.place)}</strong><p>${esc(item.point)}</p></article>`).join('')}</div><p class="context-caveat">${esc(state.data.contextCaveat || '以下論點是供課堂辯論的分析與建議；政策主張並非香港已實施的法律。')}</p></section>`;
 }
 function modeNav(active) {
   return `<nav class="mode-nav" aria-label="模組練習選單"><button type="button" data-mode="group" ${active === 'group' ? 'aria-current="page"' : ''}>Group Discussion</button><button type="button" data-mode="response" ${active === 'response' ? 'aria-current="page"' : ''}>Individual Response</button><button type="button" data-mode="synonym" ${active === 'synonym' ? 'aria-current="page"' : ''}>Synonym</button></nav>`;
 }
 function groupPrompt(section, index) {
   const open = state.prompt === section.id;
-  return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-prompt="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><div class="prompt-actions"><p>點開論點閱讀解釋與五項英中詞彙。展開不會自動勾選。</p><div><button class="outline-button" type="button" data-structures>句式表</button><button class="primary-button" type="button" data-start-pick>Pick Mode · 雙人選論點</button></div></div><div class="angle-grid">${angleSections(section)}</div></div>` : ''}</section>`;
+  return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-prompt="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><div class="prompt-actions"><p>點開論點閱讀解釋與五項英中詞彙。展開不會自動勾選。</p><div><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-start-pick="solo">Pick Mode · 單人練習</button><button class="primary-button" type="button" data-start-pick="pair">Pick Mode · 雙人選論點</button></div></div><div class="angle-grid">${angleSections(section)}</div></div>` : ''}</section>`;
 }
 function renderGroup() {
-  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div><div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
+  const plan = state.data.studyPlan?.length ? `<details class="study-plan"><summary>四星期 Self-Care Month 活動示例 <span>展開參考方案</span></summary><p>以下是供小組討論的教學方案，並非試題已安排的活動。實際安排須視乎學校資源、安全及學生意願。</p><div class="study-plan__grid">${state.data.studyPlan.map(week => `<article><small>${esc(week.week)}</small><h3>${esc(week.theme)}</h3><p><strong>建議活動</strong>${esc(week.activity)}</p><p><strong>鼓勵參與</strong>${esc(week.participation)}</p><p><strong>顧及需要</strong>${esc(week.care)}</p></article>`).join('')}</div></details>` : '';
+  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div>${plan}<div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
 }
 function responseQuestion(section, index) {
   const open = state.response === section.id;
@@ -215,20 +216,30 @@ function currentGroup() { return state.data.groups.find(group => group.id === st
 function pickBar() {
   const index = state.pick.phase - 1;
   const count = state.pick.selected[index].size;
-  return `<div class="pick-bottom-bar" role="navigation" aria-label="選論點步驟"><div><strong>Picker ${state.pick.phase}</strong><span>已選 ${count} 個論點</span></div><div class="pick-bottom-bar__actions"><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-pick-back>${state.pick.phase === 1 ? '退出選取' : '返回 Picker 1'}</button><button class="primary-button" type="button" data-pick-next ${count ? '' : 'disabled'}>${state.pick.phase === 1 ? '下一頁 · Picker 2' : '查看雙人比較'}</button></div></div>`;
+  const solo = state.pick.mode === 'solo';
+  const next = solo ? '查看我的論點' : state.pick.phase === 1 ? '下一頁 · Picker 2' : '查看雙人比較';
+  return `<div class="pick-bottom-bar" role="navigation" aria-label="選論點步驟"><div><strong>${solo ? '單人練習' : `Picker ${state.pick.phase}`}</strong><span>已選 ${count} 個論點</span></div><div class="pick-bottom-bar__actions"><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-pick-back>${state.pick.phase === 1 ? '退出選取' : '返回 Picker 1'}</button><button class="primary-button" type="button" data-pick-next ${count ? '' : 'disabled'}>${next}</button></div></div>`;
 }
 function renderPick() {
   const section = currentGroup();
   if (!section) return;
-  app.innerHTML = `<div class="pick-page"><div class="pick-intro"><span class="eyebrow">PICK MODE · ${state.pick.phase} / 3</span><h1>選論點 · Picker ${state.pick.phase}</h1><p lang="en">${esc(section.question)}</p><p class="pick-instruction">從各角度選擇想討論的論點。兩位 Picker 可以選相同論點；勾選學習紀錄與選論點是兩個獨立動作。</p></div><div class="angle-grid">${angleSections(section, true)}</div></div>${pickBar()}${structureWindow()}`;
+  const solo = state.pick.mode === 'solo';
+  app.innerHTML = `<div class="pick-page"><div class="pick-intro"><span class="eyebrow">PICK MODE · ${solo ? '單人練習 · 1 / 2' : `${state.pick.phase} / 3`}</span><h1>${solo ? '選擇我的論點' : `選論點 · Picker ${state.pick.phase}`}</h1><p lang="en">${esc(section.question)}</p><p class="pick-instruction">${solo ? '從各角度選擇想練習的論點，完成後檢視自己的選擇。' : '從各角度選擇想討論的論點。兩位 Picker 可以選相同論點；'}勾選學習紀錄與選論點是兩個獨立動作。</p></div><div class="angle-grid">${angleSections(section, true)}</div></div>${pickBar()}${structureWindow()}`;
 }
-function renderCompare() {
+function pickedColumn(index, heading) {
   const section = currentGroup();
-  const column = index => `<section class="comparison-picker"><h2>Picker ${index + 1}</h2>${section.angles.map(angle => {
+  return `<section class="comparison-picker"><h2>${heading}</h2>${section.angles.map(angle => {
     const chosen = section.arguments.filter(item => item.angle === angle && state.pick.selected[index].has(item.id));
     return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => `<li><div class="glossary-copy"><strong>${esc(term.english)}</strong><span>${esc(term.chinese)}</span></div>${tools(`gloss:${item.id}:${i}`, term.english)}</li>`).join('')}</ul></div>`}</article>`).join('')}</div>` : '';
   }).join('') || '<p>沒有選取論點。</p>'}</section>`;
-  app.innerHTML = `<div class="comparison-page"><div class="pick-top-bar"><div><span class="eyebrow">PICK MODE · 3 / 3</span><strong>雙人論點比較</strong></div><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-pick-back>返回選取</button><button class="primary-button" type="button" data-pick-end>結束練習</button></div><div class="comparison-intro"><h1>雙人論點比較</h1><p lang="en">${esc(section.question)}</p></div><div class="comparison-grid">${column(0)}${column(1)}</div></div>${structureWindow()}`;
+}
+function renderCompare() {
+  const section = currentGroup();
+  app.innerHTML = `<div class="comparison-page"><div class="pick-top-bar"><div><span class="eyebrow">PICK MODE · 3 / 3</span><strong>雙人論點比較</strong></div><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-pick-back>返回選取</button><button class="primary-button" type="button" data-pick-end>結束練習</button></div><div class="comparison-intro"><h1>雙人論點比較</h1><p lang="en">${esc(section.question)}</p></div><div class="comparison-grid">${pickedColumn(0, 'Picker 1')}${pickedColumn(1, 'Picker 2')}</div></div>${structureWindow()}`;
+}
+function renderSingleReview() {
+  const section = currentGroup();
+  app.innerHTML = `<div class="comparison-page single-review"><div class="pick-top-bar"><div><span class="eyebrow">PICK MODE · 單人練習 · 2 / 2</span><strong>我的論點</strong></div><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-pick-back>返回選取</button><button class="primary-button" type="button" data-pick-end>結束練習</button></div><div class="comparison-intro"><h1>我的論點</h1><p lang="en">${esc(section.question)}</p></div><div class="single-review__content">${pickedColumn(0, '已選論點')}</div></div>${structureWindow()}`;
 }
 
 function bookmarkIndex() {
@@ -257,6 +268,7 @@ function render() {
     case 'synonym': renderSynonym(); break;
     case 'pick': renderPick(); break;
     case 'compare': renderCompare(); break;
+    case 'single-review': renderSingleReview(); break;
     case 'bookmarks': renderBookmarks(); break;
     default: renderHome();
   }
@@ -301,7 +313,7 @@ app.addEventListener('click', event => {
   }
   if (button.hasAttribute('data-close-structures')) { state.structureOpen = false; $('#structure-float')?.remove(); return; }
   if (button.hasAttribute('data-start-pick')) {
-    state.pick = { phase: 1, selected: [new Set(), new Set()], collapsed: [new Set(), new Set()] };
+    state.pick = { mode: button.dataset.startPick === 'solo' ? 'solo' : 'pair', phase: 1, selected: [new Set(), new Set()], collapsed: [new Set(), new Set()] };
     state.structureOpen = false;
     navigate('pick'); return;
   }
@@ -318,13 +330,15 @@ app.addEventListener('click', event => {
     return;
   }
   if (button.hasAttribute('data-pick-back')) {
-    if (state.view === 'compare') { state.pick.phase = 2; navigate('pick'); }
+    if (state.view === 'single-review') { navigate('pick'); }
+    else if (state.view === 'compare') { state.pick.phase = 2; navigate('pick'); }
     else if (state.pick.phase === 2) { state.pick.phase = 1; navigate('pick'); }
     else { state.pick = null; navigate('group'); }
     return;
   }
   if (button.hasAttribute('data-pick-next')) {
-    if (state.pick.phase === 1) { state.pick.phase = 2; navigate('pick'); }
+    if (state.pick.mode === 'solo') { navigate('single-review'); }
+    else if (state.pick.phase === 1) { state.pick.phase = 2; navigate('pick'); }
     else navigate('compare');
     return;
   }
@@ -334,7 +348,8 @@ app.addEventListener('click', event => {
     const collapsed = state.pick.collapsed[index];
     collapsed.has(button.dataset.compareToggle) ? collapsed.delete(button.dataset.compareToggle) : collapsed.add(button.dataset.compareToggle);
     const previous = window.scrollY;
-    renderCompare(); window.scrollTo({ top: previous, behavior: 'instant' });
+    if (state.view === 'single-review') renderSingleReview(); else renderCompare();
+    window.scrollTo({ top: previous, behavior: 'instant' });
     return;
   }
   if (button.dataset.bookmarkOpen) { openBookmark(button.dataset.bookmarkOpen); }

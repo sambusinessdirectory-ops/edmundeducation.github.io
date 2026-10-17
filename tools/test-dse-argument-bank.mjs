@@ -5,6 +5,7 @@ const read = file => JSON.parse(readFileSync(`dse-argument-bank/${file}`, 'utf8'
 const modules = [
   { data: read('data.json'), groupCounts: [41, 35, 48], responseCount: 41, synonyms: 64 },
   { data: read('driving-data.json'), groupCounts: [45, 41, 42], responseCount: 67, synonyms: 101 },
+  { data: read('self-care-data.json'), groupCounts: [45, 45, 43], responseCount: 73, synonyms: 120 },
 ];
 
 assert.equal(new Set(modules.map(({ data }) => data.id)).size, modules.length);
@@ -31,6 +32,7 @@ for (const { data, groupCounts, responseCount, synonyms } of modules) {
   });
   assert.equal(new Set(argumentsInModule.map(item => item.id)).size, argumentsInModule.length, `${data.id}: duplicate arguments`);
   assert.ok(data.synonyms.every(item => item.category && item.keyword && item.chinese && item.alternatives.length === 5 && item.alternatives.every(Boolean)), `${data.id}: synonym alternatives`);
+  if (data.studyPlan) assert.equal(data.studyPlan.length, 4, `${data.id}: four-week study plan`);
 }
 
 console.log('DSE modules: complete bilingual arguments, speaking structures, and synonyms.');
