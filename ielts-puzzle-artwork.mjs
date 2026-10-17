@@ -14,7 +14,7 @@ export const PUZZLE_SPRITES={
  cloudLong:{sheet:'nature',rect:[1003,661,521,307]}
 };
 const load=key=>new Promise((resolve,reject)=>{
- const image=new Image();image.decoding='async';
+ const image=new Image();image.crossOrigin='anonymous';image.decoding='async';
  image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`Missing puzzle artwork: ${key}`));
  image.src=new URL(key+'.webp',ART).href;
 });
