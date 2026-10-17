@@ -144,7 +144,7 @@
       </div>
       <div class="grammar-highlight-tools"><button type="button" class="grammar-button--ghost" data-grammar-highlight aria-pressed="false">🖍 暫時螢光筆</button><span>開啟後拖選題目或解析文字；再按一次清除。</span></div>
       <article class="grammar-question">
-        <div class="grammar-question__meta"><span class="grammar-question__number" data-question-number></span><span class="grammar-question__tense" data-question-tense></span><button class="grammar-bookmark" type="button" data-question-bookmark aria-pressed="false">☆ 收藏這題</button></div>
+        <div class="grammar-question__meta"><span class="grammar-question__number" data-question-number></span><button class="grammar-bookmark" type="button" data-question-bookmark aria-pressed="false">☆ 收藏這題</button></div>
         <p class="grammar-question__prompt" data-question-prompt></p>
         <p class="grammar-question__translation" data-question-translation></p>
         <form class="grammar-answer" data-answer-form novalidate>
@@ -170,7 +170,7 @@
     correctCount: dashboard.querySelector("[data-correct-count]"), attemptedCount: dashboard.querySelector("[data-attempted-count]"),
     score: dashboard.querySelector("[data-practice-score]"), progress: dashboard.querySelector(".grammar-progress"), progressFill: dashboard.querySelector("[data-progress-fill]"),
     range: dashboard.querySelector("[data-question-range]"), grid: dashboard.querySelector("[data-question-grid]"),
-    number: dashboard.querySelector("[data-question-number]"), tense: dashboard.querySelector("[data-question-tense]"), prompt: dashboard.querySelector("[data-question-prompt]"), translation: dashboard.querySelector("[data-question-translation]"),
+    number: dashboard.querySelector("[data-question-number]"), prompt: dashboard.querySelector("[data-question-prompt]"), translation: dashboard.querySelector("[data-question-translation]"),
     form: dashboard.querySelector("[data-answer-form]"), input: dashboard.querySelector('[name="answer"]'), feedback: dashboard.querySelector("[data-feedback]"),
     previous: dashboard.querySelector("[data-previous-question]"), next: dashboard.querySelector("[data-next-question]"), saveStatus: dashboard.querySelector("[data-save-status]"),
     questionBookmark: dashboard.querySelector("[data-question-bookmark]"), explanation: dashboard.querySelector("[data-inline-explanation]"), explanationTitle: dashboard.querySelector("[data-explanation-title]"), explanationAnswer: dashboard.querySelector("[data-explanation-answer]"), explanationSteps: dashboard.querySelector("[data-inline-steps]"),
@@ -301,7 +301,6 @@
     const question = questions[state.current - 1];
     elements.range.value = String(rangeStart());
     elements.number.textContent = `QUESTION ${question.number} / 150`;
-    elements.tense.textContent = question.tense;
     elements.prompt.textContent = question.prompt;
     elements.translation.textContent = question.translation;
     elements.input.value = state.attempts[state.current]?.answer || "";

@@ -209,8 +209,7 @@
 }
 
 .grammar-question__meta { justify-content: flex-start; flex-wrap: wrap; }
-.grammar-question__number,
-.grammar-question__tense {
+.grammar-question__number {
   display: inline-flex;
   align-items: center;
   min-height: 34px;
@@ -220,7 +219,6 @@
   font-weight: 900;
 }
 .grammar-question__number { color: #fff; background: var(--portal-accent-dark); }
-.grammar-question__tense { color: var(--portal-accent-dark); background: var(--portal-wash); }
 .grammar-bookmark {
   margin-left: auto;
   min-height: 36px;

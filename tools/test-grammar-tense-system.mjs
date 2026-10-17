@@ -43,7 +43,7 @@ for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Pre
   assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
 }
 
-for (const asset of ["grammar-system.css?v=20261014-tense-guide3", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261014-tense-guide3", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
+for (const asset of ["grammar-system.css?v=20261017-tense-no-hints1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261017-tense-no-hints1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -120,6 +120,7 @@ for (const native of [false, true]) {
   d.querySelector('[data-tense-menu]').click();
   assert.equal(d.querySelector('[data-grammar-library]').hidden,false,'guide can return to lesson menu');
   d.querySelector('[data-start-tense]').click();
+  assert.equal(d.querySelector('[data-question-tense]'),null,'practice does not reveal the answer tense before submission');
   const button=d.querySelector('[data-grammar-highlight]'), prompt=d.querySelector('[data-question-prompt]');
   const text=prompt.textContent;
   const select=(element,start,end)=>{const range=d.createRange();range.setStart(element.firstChild,start);range.setEnd(element.firstChild,end);w.getSelection().removeAllRanges();w.getSelection().addRange(range);};
