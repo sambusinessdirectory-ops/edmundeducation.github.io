@@ -108,6 +108,8 @@ for i, line in enumerate(lines):
 data = {
     'id': '2025-1-2-photo-taking-visitors',
     'title': '2025 1.2 Photo-taking visitors not welcomed by everyone',
+    'heroTitle': 'Photo-taking visitors not welcomed by everyone',
+    'synonymWarning': '用詞須按句意、搭配和語域選擇；例如 rules、guidelines、laws 的效力不同，take a photo 與 publish an image 也不是同一動作。',
     'context': [
         {'place': 'Vermont, USA', 'point': '秋季賞葉遊客在住宅附近泊車、損壞財物及與居民爭執；道路封閉凸顯景點吸引力與社區承載力的衝突。'},
         {'place': 'Mount Fuji, Japan', 'point': '富士山附近小鎮因拍照遊客亂拋垃圾、泊車不當及不守規則，在 2024 年 5 月設置遮擋景觀的牆。'},

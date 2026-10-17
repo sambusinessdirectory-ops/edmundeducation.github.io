@@ -139,8 +139,9 @@ jobs:
           node --check dse-argument-bank/app.mjs
           node --check shared-system-nav.js
           python3 tools/build-dse-argument-bank.py
-          git diff --exit-code -- dse-argument-bank/data.json
-          node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('dse-argument-bank/data.json')); const h=fs.readFileSync('index.html','utf8'); if(!h.includes('href=\"dse-argument-bank.html\"') || d.groups.length!==3 || d.responses.length!==8 || d.synonyms.length!==64 || d.groups.concat(d.responses).reduce((n,s)=>n+s.arguments.length,0)!==165 || d.groups.concat(d.responses).some(s=>s.arguments.some(a=>a.glossary.length!==5))) throw Error('Card 76 content is incomplete')"
+          python3 tools/build-dse-driving-bank.py
+          git diff --exit-code -- dse-argument-bank/data.json dse-argument-bank/driving-data.json
+          node tools/test-dse-argument-bank.mjs
 
       - name: Validate focused Paper 3 curation release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
@@ -632,6 +633,7 @@ jobs:
             --exclude='*.sql' \
             --exclude='news-discussion/*.json' \
             --exclude='dse-argument-bank/source.md' \
+            --exclude='dse-argument-bank/driving-source.md' \
             --exclude='natural-english/imported-lessons.json' \
             --exclude='natural-english/IMPORT-REVIEW.md' \
             --exclude='natural-english/audio/imported-metadata.json' \
@@ -679,7 +681,7 @@ jobs:
         run: test ! -e _site/news-discussion/news-1.json
 
       - name: Verify DSE source manuscript is absent from Pages artifact
-        run: test ! -e _site/dse-argument-bank/source.md
+        run: test ! -e _site/dse-argument-bank/source.md && test ! -e _site/dse-argument-bank/driving-source.md
 
       - name: Stamp PWA release
         run: |

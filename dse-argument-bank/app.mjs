@@ -13,7 +13,7 @@ const client = window.supabase?.createClient?.(config.url, config.anonKey, {
 const sessionKey = 'edmund-dse-argument-bank-student-v1';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const arrow = '<svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg>';
-const state = { token: '', name: '', data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null };
+const state = { token: '', name: '', modules: [], moduleIndex: 0, data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null };
 let toastTimer;
 
 async function rpc(name, args = {}) {
@@ -53,14 +53,35 @@ function account(name, token, id) {
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const response = await fetch('dse-argument-bank/data.json');
-    if (!response.ok) throw new Error('教材暫時未能載入。');
-    state.data = await response.json();
+    const responses = await Promise.all(['data.json', 'driving-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261017b`)));
+    if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
+    state.modules = await Promise.all(responses.map(response => response.json()));
+    state.moduleIndex = 0;
+    state.data = state.modules[0];
     state.progress = await rpc('dse_argument_state', { p_student_token: state.token, p_module_id: state.data.id }) || {};
     state.view = 'home';
     render();
   } catch (error) {
     app.innerHTML = `<div class="error-card" role="alert">${esc(error.message)} <button type="button" data-retry>重試</button></div>`;
+  }
+}
+
+async function selectModule(index) {
+  const module = state.modules[index];
+  if (!module) return;
+  app.innerHTML = '<div class="loading" role="status"><span></span>正在載入模組…</div>';
+  try {
+    const progress = await rpc('dse_argument_state', { p_student_token: state.token, p_module_id: module.id }) || {};
+    state.moduleIndex = index;
+    state.data = module;
+    state.progress = progress;
+    state.prompt = null;
+    state.response = null;
+    state.pick = null;
+    navigate('module');
+  } catch (error) {
+    renderHome();
+    toast(error.message || '暫時無法載入模組，請重試。', true);
   }
 }
 
@@ -150,17 +171,18 @@ function angleSections(section, picker = false) {
 }
 
 function top() {
-  return `<div class="dse-top"><button class="back-button" type="button" data-home>← 返回模組</button><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>`;
+  return `<div class="dse-top"><button class="back-button" type="button" data-home><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> 返回主頁</button><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>`;
 }
 function hero() {
-  return `<div class="dse-hero"><span class="eyebrow">2025 · HKDSE ENGLISH LANGUAGE PAPER 4</span><h1>Photo-taking visitors<br>not welcomed by everyone</h1><p>從三條小組討論方向及八條個人回應題目，挑選切題論點；再用詞彙與句式建立自己的答案。</p><div class="dse-stats"><span><b>165</b> 論點</span><span><b>825</b> 詞彙</span><span><b>20</b> 互動句式</span><span><b>64</b> 同義詞組</span></div></div>`;
+  return `<div class="dse-hero"><span class="eyebrow">2025 · HKDSE ENGLISH LANGUAGE PAPER 4</span><h1>${esc(state.data.heroTitle || state.data.title)}</h1></div>`;
 }
 function renderHome() {
-  const d = state.data;
-  app.innerHTML = `<div class="section-head"><div><span class="eyebrow">DSE SPEAKING · CARD 76</span><h1>DSE 論點大全</h1><p>按模組進入，選擇適合你的練習入口。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><button class="module-card" type="button" data-module><span class="module-card__number">MODULE 01 · 2025 PAPER 4</span><strong>${esc(d.title)}</strong><span>Group Discussion · Individual Response · Synonym</span><span class="module-card__foot">進入模組 ${arrow}</span></button>`;
+  app.innerHTML = `<div class="section-head"><div><span class="eyebrow">DSE SPEAKING · CARD 76</span><h1>DSE 論點大全</h1><p>按模組進入，選擇適合你的練習入口。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><div class="module-list">${state.modules.map((module, index) => `<button class="module-card" type="button" data-module="${index}"><span class="module-card__number">MODULE ${String(index + 1).padStart(2, '0')} · 2025 PAPER 4</span><strong>${esc(module.title)}</strong><span>Group Discussion · Individual Response · Synonym</span><span class="module-card__foot">進入模組 ${arrow}</span></button>`).join('')}</div>`;
 }
 function renderModule() {
-  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><em>小組討論</em><small>三條指定討論方向 · 124 個論點 · 句式表與雙人選論點</small><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><em>個人回應</em><small>八題考官提問 · 41 個論點 · 可改寫示範回應</small><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><em>主題同義詞</em><small>64 組主題關鍵詞 · 320 個語境替代表達</small><b>${arrow}</b></button></div><section class="context-panel"><span class="eyebrow">THE SOURCE SCENARIO · 題目背景</span><h2>三個材料案例</h2><div class="context-grid">${state.data.context.map(item => `<article><strong>${esc(item.place)}</strong><p>${esc(item.point)}</p></article>`).join('')}</div><p class="context-caveat">以下論點是供課堂辯論的分析與建議；政策主張並非香港已實施的法律。</p></section><div class="source-note"><strong>作答提醒</strong><p>討論時先說明立場、原因及可能結果，再邀請組員回應。個人回應中的經歷應按真實情況修改；同義詞和近義詞須按語境選用，不能機械式逐字替換。</p></div>`;
+  const groupCount = state.data.groups.reduce((count, group) => count + group.arguments.length, 0);
+  const responseCount = state.data.responses.reduce((count, response) => count + response.arguments.length, 0);
+  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><em>小組討論</em><small>${state.data.groups.length} 條指定討論方向 · ${groupCount} 個論點 · 句式表與雙人選論點</small><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><em>個人回應</em><small>${state.data.responses.length} 題考官提問 · ${responseCount} 個論點 · 可改寫示範回應</small><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><em>主題同義詞</em><small>${state.data.synonyms.length} 組主題關鍵詞 · ${state.data.synonyms.length * 5} 個語境替代表達</small><b>${arrow}</b></button></div><section class="context-panel"><span class="eyebrow">THE SOURCE SCENARIO · 題目背景</span><h2>${esc(state.data.contextTitle || '三個材料案例')}</h2><div class="context-grid">${state.data.context.map(item => `<article><strong>${esc(item.place)}</strong><p>${esc(item.point)}</p></article>`).join('')}</div><p class="context-caveat">${esc(state.data.contextCaveat || '以下論點是供課堂辯論的分析與建議；政策主張並非香港已實施的法律。')}</p></section>`;
 }
 function modeNav(active) {
   return `<nav class="mode-nav" aria-label="模組練習選單"><button type="button" data-mode="group" ${active === 'group' ? 'aria-current="page"' : ''}>Group Discussion</button><button type="button" data-mode="response" ${active === 'response' ? 'aria-current="page"' : ''}>Individual Response</button><button type="button" data-mode="synonym" ${active === 'synonym' ? 'aria-current="page"' : ''}>Synonym</button></nav>`;
@@ -181,7 +203,7 @@ function renderResponse() {
 }
 function renderSynonym() {
   const sections = [...new Set(state.data.synonyms.map(item => item.category))];
-  app.innerHTML = `${top()}${modeNav('synonym')}<div class="section-head dse-section-head"><div><span class="eyebrow">LANGUAGE BANK · 64 GROUPS</span><h1>Synonym</h1><p>每組有五個可在本題語境中使用的同義詞、近義詞或改寫方式。</p></div></div><div class="synonym-search"><label for="syn-search">搜尋關鍵詞、中文或替代表達</label><input id="syn-search" type="search" placeholder="Search keywords or alternatives…" autocomplete="off"></div><p class="synonym-warning">用詞須按句意、搭配和語域選擇；例如 rules、guidelines、laws 的效力不同，take a photo 與 publish an image 也不是同一動作。</p><div class="synonym-categories">${sections.map(category => `<section class="synonym-category"><h2>${esc(category)}</h2><div class="synonym-rows">${state.data.synonyms.map((entry, index) => entry.category === category ? `<article class="synonym-row" id="syn-item-${index}" data-search-text="${esc(`${entry.keyword} ${entry.chinese} ${entry.alternatives.join(' ')}`.toLowerCase())}"><div><strong lang="en">${esc(entry.keyword)}</strong><span>${esc(entry.chinese)}</span></div><ol lang="en">${entry.alternatives.map(word => `<li>${esc(word)}</li>`).join('')}</ol>${tools(`syn:${index}`, entry.keyword)}</article>` : '').join('')}</div></section>`).join('')}</div><p class="empty-state" id="syn-empty" hidden>沒有找到相符的詞組。</p>`;
+  app.innerHTML = `${top()}${modeNav('synonym')}<div class="section-head dse-section-head"><div><span class="eyebrow">LANGUAGE BANK · ${state.data.synonyms.length} GROUPS</span><h1>Synonym</h1><p>每組有五個可在本題語境中使用的同義詞、近義詞或改寫方式。</p></div></div><div class="synonym-search"><label for="syn-search">搜尋關鍵詞、中文或替代表達</label><input id="syn-search" type="search" placeholder="Search keywords or alternatives…" autocomplete="off"></div><p class="synonym-warning">${esc(state.data.synonymWarning)}</p><div class="synonym-categories">${sections.map(category => `<section class="synonym-category"><h2>${esc(category)}</h2><div class="synonym-rows">${state.data.synonyms.map((entry, index) => entry.category === category ? `<article class="synonym-row" id="syn-item-${index}" data-search-text="${esc(`${entry.keyword} ${entry.chinese} ${entry.alternatives.join(' ')}`.toLowerCase())}"><div><strong lang="en">${esc(entry.keyword)}</strong><span>${esc(entry.chinese)}</span></div><ol lang="en">${entry.alternatives.map(word => `<li>${esc(word)}</li>`).join('')}</ol>${tools(`syn:${index}`, entry.keyword)}</article>` : '').join('')}</div></section>`).join('')}</div><p class="empty-state" id="syn-empty" hidden>沒有找到相符的詞組。</p>`;
 }
 function structureWindow() {
   if (!state.structureOpen) return '';
@@ -245,8 +267,8 @@ app.addEventListener('click', event => {
   const button = event.target.closest('button');
   if (!button) return;
   if (button.hasAttribute('data-retry')) { start(); return; }
-  if (button.hasAttribute('data-home')) { state.pick = null; navigate('module'); return; }
-  if (button.hasAttribute('data-module')) { navigate('module'); return; }
+  if (button.hasAttribute('data-home')) { state.pick = null; navigate('home'); return; }
+  if (button.hasAttribute('data-module')) { selectModule(Number(button.dataset.module)); return; }
   if (button.hasAttribute('data-bookmarks')) { navigate('bookmarks'); return; }
   if (button.dataset.mode) { state.pick = null; navigate(button.dataset.mode); return; }
   if (button.dataset.prompt) {
@@ -378,7 +400,7 @@ app.addEventListener('pointerdown', event => {
 
 $('#login-form').addEventListener('submit', login);
 $('#logout').addEventListener('click', () => {
-  state.token = ''; state.name = ''; state.data = null; state.progress = {}; state.pick = null;
+  state.token = ''; state.name = ''; state.modules = []; state.moduleIndex = 0; state.data = null; state.progress = {}; state.pick = null;
   try { sessionStorage.removeItem(sessionKey); } catch { /* Ignore full or blocked storage. */ }
   try { window.EdmundSystemNav?.forgetStudentSession?.(); } catch { /* Full storage must not prevent logout. */ }
   $('#account-name').hidden = true; $('#logout').hidden = true;
