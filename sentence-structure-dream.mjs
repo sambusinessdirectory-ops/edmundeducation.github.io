@@ -24,6 +24,6 @@ export function mountDream(root,reduced){
  const flag=root.querySelector('.expression-map-flag');flag.insertAdjacentHTML('beforeend','<path class="dream-flag-emblem" d="m31 16 3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1z" fill="#fff6cb"/>');
  function update(){flag.classList.toggle('is-dream',Number(flag.dataset.flagLevel?.slice(2))>90&&Number(flag.dataset.flagLevel?.slice(2))<=120);}
  function paint(force=false){const t=reduced.matches?0:elapsed;if(force||t-lastPaint>=1/30||reduced.matches){scenery?.paint(t,reduced.matches);trainRig.paint(t);flags.forEach((el,i)=>el.setAttribute('d',flagShape(t,i,DREAM_FLAGS[i][2],DREAM_FLAGS[i][3])));canvas.dataset.breath=String(dreamBreath(t));lastPaint=t;}update();}
- const img=new Image();images.push(img);img.onload=()=>{if(!disposed){scenery=createDreamScenery(canvas,img);paint(true);}};img.src=new URL(ART+'background-normal.webp',import.meta.url).href;
+ const img=new Image();img.crossOrigin='anonymous';images.push(img);img.onload=()=>{if(!disposed){scenery=createDreamScenery(canvas,img);paint(true);}};img.src=new URL(ART+'background-normal.webp',import.meta.url).href;
  return {update,draw(now){const scale=Number(root.dataset.scale)||1,top=DREAM_OFFSET*scale-viewport.scrollTop,inView=top<viewport.clientHeight&&top+DREAM_HEIGHT*scale>0;if(last&&inView)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;if(inView)paint();else update();},destroy(){disposed=true;images.forEach(i=>i.onload=null);scenery?.destroy();trainRig.destroy();}};
 }

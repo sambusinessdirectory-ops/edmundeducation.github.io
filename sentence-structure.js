@@ -1,7 +1,7 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260928-wrapped1";
-import { createExpressionMap } from "./common-expression-map.mjs?v=20261011-girls-autumn-trio1";
-import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
+import { createExpressionMap } from "./common-expression-map.mjs?v=20261017-r2-cors2";
+import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20261017-r2-cors2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
 import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-autumn-log1";

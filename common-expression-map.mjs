@@ -1,6 +1,6 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
 import { companionKey, selectedCompanion, selectCompanion } from './shared-companion.mjs?v=20260928-sync1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20261011-girls-autumn-trio1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20261017-r2-cors2';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 
@@ -160,6 +160,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     if (!source) return null;
     if (images.has(key)) return images.get(key);
     const img = new Image();
+    img.crossOrigin = 'anonymous';
     img.src = new URL(`./assets/speaking-system/mascots/${data.folder||"v2"}/${source}`, import.meta.url).href;
     images.set(key, img);
     img.addEventListener('load', () => { if (built) { drawAvatar(id); drawHorse(performance.now(), false); } });

@@ -9,6 +9,6 @@ export function mountToy(root,reduced){let disposed=false,elapsed=0,last=0,lastP
  flag.insertAdjacentHTML('beforeend','<g class="toy-flag-emblem"><rect x="20" y="17" width="23" height="23" rx="4" fill="#f6db9e"/><path d="M25 23h13v12H25z" fill="none" stroke="#597886" stroke-width="2"/></g>');
  function update(){const level=Number(flag.dataset.flagLevel?.slice(2));flag.classList.toggle('is-toy',level>120&&level<=150);}
  function paint(force=false){const t=reduced.matches?0:elapsed;if(force||t-lastPaint>=1/30||reduced.matches){effects.paint(t,reduced.matches);dog?.paint(dogCanvas,t,reduced.matches);lastPaint=t;}update();}
- const img=new Image();img.onload=()=>{if(!disposed){dog=createToyDog(img);paint(true);}};img.src=new URL(ART+'dog.webp',import.meta.url).href;
+ const img=new Image();img.crossOrigin='anonymous';img.onload=()=>{if(!disposed){dog=createToyDog(img);paint(true);}};img.src=new URL(ART+'dog.webp',import.meta.url).href;
  return {update,draw(now){const scale=Number(root.dataset.scale)||1,top=TOY_OFFSET*scale-viewport.scrollTop,inView=top<viewport.clientHeight&&top+TOY_HEIGHT*scale>0;if(last&&inView)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;if(inView)paint();else update();},destroy(){disposed=true;img.onload=null;dog?.destroy();effects.destroy();}};
 }

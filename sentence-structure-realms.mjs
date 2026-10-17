@@ -1,15 +1,15 @@
 import {HOTEL_OFFSET,HOTEL_HEIGHT,hotelPositions,hotelArrivalIndex,hotelJourneyDuration} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b';
-import {hotelTerrain,decorateHotelDoors,mountHotel} from './sentence-structure-hotel.mjs?v=20260914-hotel3b';
+import {hotelTerrain,decorateHotelDoors,mountHotel} from './sentence-structure-hotel.mjs?v=20261017-r2-cors2';
 import {TOY_OFFSET,TOY_HEIGHT,toyPositions} from './sentence-structure-toy-geometry.mjs?v=20260912-toy1';
-import {toyTerrain,decorateToyStones,mountToy} from './sentence-structure-toy.mjs?v=20260912-toy1';
-import { levelPositions } from './common-expression-map.mjs?v=20261011-girls-autumn-trio1';
-import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20260912-autumn1';
+import {toyTerrain,decorateToyStones,mountToy} from './sentence-structure-toy.mjs?v=20261017-r2-cors2';
+import { levelPositions } from './common-expression-map.mjs?v=20261017-r2-cors2';
+import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20261017-r2-cors2';
 import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260914-hotel3b';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';
 import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
-import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-garden-normal';
+import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20261017-r2-cors2';
 import { DREAM_OFFSET,DREAM_HEIGHT,dreamPositions } from './sentence-structure-dream-geometry.mjs?v=20260912-dream-normal';
-import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20260912-toy1';
+import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20261017-r2-cors2';
 const ART='./assets/sentence-structure/autumn/';
 export const AUTUMN_LAYOUT={startX:160,columnGap:205,rowYs:[520,1010,1250,1490,1710]};
 export function sentenceRealmPositions(lessons){return [
@@ -62,7 +62,7 @@ function mount(root,reduced){
  const zen=mountZen(root,reduced),dream=mountDream(root,reduced),toy=mountToy(root,reduced),hotel=mountHotel(root,reduced);
  const flag=root.querySelector('.expression-map-flag');flag.insertAdjacentHTML('beforeend',`<g class="autumn-flag-emblem" transform="translate(30 28) scale(.43)"><path d="${leafPath}" fill="#fff3cb"/><path d="M0 20L1-16" stroke="#866443" stroke-width="1.5"/></g>`);
  const canvas=root.querySelector('.autumn-rabbit'),viewport=root.querySelector('.expression-map-viewport'),leaves=root.querySelector('.autumn-leaves');
- const image=new Image();let rig,disposed=false,elapsed=0,last=0;
+ const image=new Image();image.crossOrigin='anonymous';let rig,disposed=false,elapsed=0,last=0;
  image.onload=()=>{if(!disposed){rig=createAutumnRabbit(image);rig.paint(canvas,rabbitMotion(reduced.matches?0:elapsed));}};image.src=new URL(ART+'rabbit.webp',import.meta.url).href;
  function update(){
   const scale=Number(root.dataset.scale)||1,top=AUTUMN_OFFSET*scale-viewport.scrollTop;

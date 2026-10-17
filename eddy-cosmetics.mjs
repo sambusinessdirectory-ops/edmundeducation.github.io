@@ -238,7 +238,7 @@ export async function toggleOutfitFavorite(name,character='eddy'){
  wardrobe=mergeIncluded(result);try{localStorage.setItem(key(owner),JSON.stringify(wardrobe));}catch{}notify();return wardrobe;
  }finally{saving--;}
 }
-function load(id,character='eddy'){const key=character+':'+id;if(images.has(key))return images.get(key);const img=new Image();images.set(key,img);img.onload=()=>{atlases.clear();for(const fn of listeners)fn();};img.src=cosmeticAsset(id,character);return img;}
+function load(id,character='eddy'){const key=character+':'+id;if(images.has(key))return images.get(key);const img=new Image();img.crossOrigin='anonymous';images.set(key,img);img.onload=()=>{atlases.clear();for(const fn of listeners)fn();};img.src=cosmeticAsset(id,character);return img;}
 // One composite per equipment/base combination, never one per animation frame.
 export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=null}={}){
  const selected=groupEquipment(wardrobeOverride|| (preview?equipped:wardrobe.equipped),id);

@@ -28,7 +28,7 @@ export function mountZen(root,reduced){
  const viewport=root.querySelector('.expression-map-viewport'),canvas=root.querySelector('.zen-living-scenery'),cat=root.querySelector('.zen-sleeping-cat'),leaves=root.querySelector('.zen-falling-leaves');
  const fish=[...root.querySelectorAll('.zen-koi-position')].map(el=>({el,heading:el.firstElementChild,canvas:el.querySelector('canvas')}));
  const lotuses=[...root.querySelectorAll('.zen-lotus')],rigs=[],images=[];
- const load=(name,done)=>{const img=new Image();images.push(img);img.onload=()=>{if(!disposed){done(img);paint(true);}};img.src=new URL(ART+name+'.webp',import.meta.url).href;};
+ const load=(name,done)=>{const img=new Image();img.crossOrigin='anonymous';images.push(img);img.onload=()=>{if(!disposed){done(img);paint(true);}};img.src=new URL(ART+name+'.webp',import.meta.url).href;};
  const flag=root.querySelector('.expression-map-flag');flag.insertAdjacentHTML('beforeend',`<g class="zen-flag-emblem" transform="translate(32 27)"><circle r="8.5" fill="none" stroke="#fff8dd" stroke-width="1.1"/>${Array.from({length:5},(_,i)=>`<ellipse cx="0" cy="-3.5" rx="2.5" ry="3" transform="rotate(${i*72})" fill="#fff8dd"/>`).join('')}</g>`);
  const catPosition=artPoint([CAT.x,CAT.y]);cat.style.cssText=`left:${catPosition.x-CAT.width/2}px;top:${catPosition.y-CAT.width*235/360+17}px;width:${CAT.width}px;height:${CAT.width*235/360}px`;
  const shadow=root.querySelector('.zen-cat-shadow');shadow.style.cssText=`left:${catPosition.x-CAT.width*.36}px;top:${catPosition.y+8}px;width:${CAT.width*.72}px;height:15px`;

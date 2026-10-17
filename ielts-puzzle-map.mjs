@@ -1,4 +1,4 @@
-import {createExpressionMap} from './common-expression-map.mjs?v=20261011-girls-autumn-trio1';
+import {createExpressionMap} from './common-expression-map.mjs?v=20261017-r2-cors2';
 import {loadPuzzleArtwork,drawPuzzlePlatform,drawPuzzleRoad} from './ielts-puzzle-artwork.mjs?v=20261017-map-cors1';
 import {puzzlePositions,createPuzzleNavigation,PUZZLE_LIMIT} from './ielts-puzzle-geometry.mjs';
 import {mountPuzzleEffects} from './ielts-puzzle-effects.mjs';
