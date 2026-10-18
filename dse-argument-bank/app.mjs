@@ -56,7 +56,7 @@ function account(name, token, id) {
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018a`)));
+    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018b`)));
     if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
     state.modules = await Promise.all(responses.map(response => response.json()));
     state.moduleIndex = 0;
@@ -160,9 +160,15 @@ function syncItem(id) {
   });
 }
 
+function englishDemo(markdown) {
+  if (!markdown) return '';
+  const marked = String(markdown).split(/(\*\*.*?\*\*)/g).map(part => part.startsWith('**') && part.endsWith('**') ? `<strong>${esc(part.slice(2, -2))}</strong>` : esc(part)).join('');
+  return `<div class="english-demo"><span>ENGLISH DEMONSTRATION · 英語示範</span><p lang="en">${marked}</p></div>`;
+}
+
 function argumentCard(argument, picker = false, selected = false) {
   const id = `arg:${argument.id}`;
-  const detail = `<div class="argument-detail" hidden><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map((g, i) => `<li><div class="glossary-copy"><strong lang="en">${esc(g.english)}</strong><span>${esc(g.chinese)}</span></div>${tools(`gloss:${argument.id}:${i}`, g.english)}</li>`).join('')}</ul></div>`;
+  const detail = `<div class="argument-detail" hidden><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map((g, i) => `<li><div class="glossary-copy"><strong lang="en">${esc(g.english)}</strong><span>${esc(g.chinese)}</span></div>${tools(`gloss:${argument.id}:${i}`, g.english)}</li>`).join('')}</ul>${englishDemo(argument.englishDemo)}</div>`;
   return `<article class="argument dse-argument ${selected ? 'is-picked' : ''}" id="item-${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="false"><small>${esc(argument.id)} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure" aria-hidden="true">+</span></button>${picker ? `<button type="button" class="pick-toggle ${selected ? 'is-picked' : ''}" data-pick="${esc(argument.id)}" aria-pressed="${selected}">${selected ? '✓ 已選' : '＋ 選取'}</button>` : ''}${tools(id, argument.title)}</div>${detail}</article>`;
 }
 function angleSections(section, picker = false) {
@@ -197,7 +203,8 @@ function groupPrompt(section, index) {
 function renderGroup() {
   const plan = state.data.studyPlan?.length ? `<details class="study-plan"><summary>四星期 Self-Care Month 活動示例 <span>展開參考方案</span></summary><p>以下是供小組討論的教學方案，並非試題已安排的活動。實際安排須視乎學校資源、安全及學生意願。</p><div class="study-plan__grid">${state.data.studyPlan.map(week => `<article><small>${esc(week.week)}</small><h3>${esc(week.theme)}</h3><p><strong>建議活動</strong>${esc(week.activity)}</p><p><strong>鼓勵參與</strong>${esc(week.participation)}</p><p><strong>顧及需要</strong>${esc(week.care)}</p></article>`).join('')}</div></details>` : '';
   const project = state.data.projectPlan?.outline?.length ? `<details class="study-plan"><summary>班級專題 · 展示大綱與互動方案 <span>展開參考方案</span></summary><p>以下是原創教學示例，並非試題規定的研究格式。使用遊戲畫面時須取得授權並標明來源；班內投票不應被寫成全港統計。</p><div class="study-plan__grid">${state.data.projectPlan.outline.map(item => `<article><small>PART ${esc(item.part)}</small><h3>${esc(item.theme)}</h3><p><strong>可用素材</strong>${esc(item.material)}</p><p><strong>關鍵問題</strong>${esc(item.question)}</p></article>`).join('')}</div><h3>互動展示方案</h3><div class="study-plan__grid">${state.data.projectPlan.activities.map(item => `<article><h3>${esc(item.idea)}</h3><p><strong>用途</strong>${esc(item.benefit)}</p><p><strong>操作與注意事項</strong>${esc(item.care)}</p></article>`).join('')}</div><h3>建議分工</h3><div class="study-plan__grid">${state.data.projectPlan.roles.map(item => `<article><h3>${esc(item.role)}</h3><p>${esc(item.task)}</p></article>`).join('')}</div></details>` : '';
-  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div>${plan}${project}<div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
+  const campus = state.data.campusPlan?.programmes?.length ? `<details class="study-plan"><summary>Campus TV · 字幕試行方案 <span>展開參考方案</span></summary><p>${esc(state.data.campusPlan.policy)}</p><div class="study-plan__grid">${state.data.campusPlan.programmes.map(item => `<article><h3>${esc(item.type)}</h3><p><strong>優先做法</strong>${esc(item.approach)}</p><p><strong>避免的問題</strong>${esc(item.avoid)}</p><p><strong>例外／替代</strong>${esc(item.alternative)}</p></article>`).join('')}</div><h3>四週試行</h3><div class="study-plan__grid">${state.data.campusPlan.timeline.map(item => `<article><small>${esc(item.week)}</small><p><strong>工作</strong>${esc(item.task)}</p><p><strong>可觀察結果</strong>${esc(item.result)}</p></article>`).join('')}</div><h3>組員分工</h3><div class="study-plan__grid">${state.data.campusPlan.roles.map(item => `<article><h3>${esc(item.role)}</h3><p>${esc(item.task)}</p></article>`).join('')}</div><p><strong>可達成的共識：</strong>${esc(state.data.campusPlan.consensus)}</p></details>` : '';
+  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div>${plan}${project}${campus}<div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
 }
 function responseQuestion(section, index) {
   const open = state.response === section.id;
@@ -234,7 +241,7 @@ function pickedColumn(index, heading) {
   const section = currentGroup();
   return `<section class="comparison-picker"><h2>${heading}</h2>${section.angles.map(angle => {
     const chosen = section.arguments.filter(item => item.angle === angle && state.pick.selected[index].has(item.id));
-    return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => `<li><div class="glossary-copy"><strong>${esc(term.english)}</strong><span>${esc(term.chinese)}</span></div>${tools(`gloss:${item.id}:${i}`, term.english)}</li>`).join('')}</ul></div>`}</article>`).join('')}</div>` : '';
+    return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => `<li><div class="glossary-copy"><strong>${esc(term.english)}</strong><span>${esc(term.chinese)}</span></div>${tools(`gloss:${item.id}:${i}`, term.english)}</li>`).join('')}</ul>${englishDemo(item.englishDemo)}</div>`}</article>`).join('')}</div>` : '';
   }).join('') || '<p>沒有選取論點。</p>'}</section>`;
 }
 function renderCompare() {

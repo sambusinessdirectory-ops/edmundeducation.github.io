@@ -142,7 +142,8 @@ jobs:
           python3 tools/build-dse-driving-bank.py
           python3 tools/build-dse-self-care-bank.py
           python3 tools/build-dse-mario-bank.py
-          git diff --exit-code -- dse-argument-bank/data.json dse-argument-bank/driving-data.json dse-argument-bank/self-care-data.json dse-argument-bank/mario-data.json
+          python3 tools/build-dse-subtitles-bank.py
+          git diff --exit-code -- dse-argument-bank/data.json dse-argument-bank/driving-data.json dse-argument-bank/self-care-data.json dse-argument-bank/mario-data.json dse-argument-bank/subtitles-data.json
           node tools/test-dse-argument-bank.mjs
           node tools/test-dse-argument-auth.mjs
 
