@@ -127,6 +127,37 @@ def validate(item):
         word['exercises'] = keep
     return reasons
 
+def weak_feedback(value):
+    value = (value or '').strip()
+    return (not value or value in {'---', '—', '-'}
+            or '原始教材未提供' in value
+            or '本題教材沒有為此選項提供' in value
+            or value.startswith('語域：'))
+
+def restore_from_source(item, parsed):
+    """Repair import losses without replacing existing edited lesson answers."""
+    fresh = {(word['order'], ex['number'], ex['original'].strip().casefold()): ex
+             for word in parsed['words'] for ex in word['exercises']}
+    recovered_feedback = recovered_rewrites = 0
+    for word in item['words']:
+        for ex in word['exercises']:
+            source = fresh.get((word['order'], ex['number'], ex['original'].strip().casefold()))
+            if not source:
+                continue
+            source_options = {choice['letter']: choice for choice in source['options']}
+            for choice in ex['options']:
+                replacement = source_options.get(choice['letter'])
+                if (replacement and choice['text'].casefold() == replacement['text'].casefold()
+                        and weak_feedback(choice.get('explanation'))
+                        and not weak_feedback(replacement.get('explanation'))):
+                    choice['explanation'] = replacement['explanation']
+                    recovered_feedback += 1
+            if (re.match(r'^[A-F]\.\s', ex.get('upgrade', ''))
+                    and source.get('upgrade') and not re.match(r'^[A-F]\.\s', source['upgrade'])):
+                ex['upgrade'] = source['upgrade']
+                recovered_rewrites += 1
+    return recovered_feedback, recovered_rewrites
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--source', type=Path, default=Path('/Users/sammak/Desktop/Synonym Exercise Scaling'))
@@ -141,6 +172,7 @@ def main():
     LESSONS.mkdir(exist_ok=True)
     SOURCE_OUT.mkdir(exist_ok=True)
     catalog, audit, issues = [], [], []
+    recovered_feedback = recovered_rewrites = 0
     for row in ranked:
         path = args.source / row['file']
         if not path.is_file():
@@ -150,6 +182,10 @@ def main():
         parsed = legacy.parse(path)
         # Retain every existing graded-question ID while still auditing its source.
         item = old.get(path.name, parsed)
+        if item is not parsed:
+            feedback_count, rewrite_count = restore_from_source(item, parsed)
+            recovered_feedback += feedback_count
+            recovered_rewrites += rewrite_count
         item['moduleNumber'] = int(row['rank'])
         item['priorityRank'] = int(row['rank'])
         if not item.get('id'):
@@ -213,12 +249,12 @@ def main():
                        + 'export const legacyCatalog = ' + json.dumps(legacy_catalog, ensure_ascii=False, separators=(',', ':')) + ';\n',
                        encoding='utf-8')
     with AUDIT.open('w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, lineterminator='\n')
         writer.writerow(['rank','headword','source_file','lesson_id','guide_entries','graded_questions',
                          'self_check_questions','source_issues','quarantined_questions','json_bytes'])
         writer.writerows(audit)
     with ISSUES.open('w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, lineterminator='\n')
         writer.writerow(['rank','source_file','question','issue','disposition'])
         writer.writerows(issues)
     print('lessons', len(catalog), 'prior_uploads', len(old), 'legacy_extras', len(legacy_catalog),
@@ -226,7 +262,9 @@ def main():
           'self_check', sum(item[6] for item in audit),
           'source_issues', len(issues),
           'data_mib', round(sum(item[9] for item in audit)/1048576, 2))
-    print('dispositions', Counter(item[4] for item in issues))
+    print('dispositions', Counter(item[4] for item in issues),
+          'legacy_feedback_restored', recovered_feedback,
+          'legacy_rewrites_restored', recovered_rewrites)
 
 if __name__ == '__main__':
     main()

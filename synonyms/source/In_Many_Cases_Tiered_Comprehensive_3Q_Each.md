@@ -254,7 +254,7 @@ Often, a brief explanation is enough.
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
-- **A.** **Often ✓** — frequently; on many occasions。這句的決定性線索是 **the sentence makes a general frequency observation**。因此 **Often** 最準確表達這種 *in many cases*。
+- **A.** **Often ✓** — frequently; on many occasions。原句只說「簡短說明在很多情況下已足夠」。**Often** 可自然作句首頻率副詞；**Frequently** 也可，原句沒有數字可把兩者分成唯一對錯。
 - **B.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
 - **C.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
@@ -291,7 +291,7 @@ Often, users solve the problem by restarting the device.
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
 - **A.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
-- **B.** **Often ✓** — frequently; on many occasions。這句的決定性線索是 **repeated occurrence is central**。因此 **Often** 最準確表達這種 *in many cases*。
+- **B.** **Often ✓** — frequently; on many occasions。原句描述用戶重新啟動裝置便能解決問題的多次情況；**Often** 能概括這種反覆出現的現象，沒有暗示「每次」都如此。
 - **C.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
@@ -328,7 +328,7 @@ Often, the first option turns out to be the simplest.
 
 - **A.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
 - **B.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
-- **C.** **Often ✓** — frequently; on many occasions。這句的決定性線索是 **ordinary frequency rather than case-count precision**。因此 **Often** 最準確表達這種 *in many cases*。
+- **C.** **Often ✓** — frequently; on many occasions。原句說第一個選項在不少情況下最簡單；**Often** 保留「常常」之意，不把它擴大成毫無例外或確定過半。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
@@ -365,7 +365,7 @@ In many situations, direct communication prevents confusion.
 - **A.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **B.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
-- **D.** **In many situations ✓** — across a large number of situations or circumstances。這句的決定性線索是 **different real-life contexts are central**。因此 **In many situations** 最準確表達這種 *in many cases*。
+- **D.** **In many situations ✓** — across a large number of situations or circumstances。原句說直接溝通在不少情況下能避免混亂；**In many situations** 保留「很多情況」的框架。句中沒有列出不同場合，不能聲稱已證明跨多種環境。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 
@@ -402,7 +402,7 @@ In many situations, working from home is practical.
 - **B.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
-- **E.** **In many situations ✓** — across a large number of situations or circumstances。這句的決定性線索是 **situational applicability is the focus**。因此 **In many situations** 最準確表達這種 *in many cases*。
+- **E.** **In many situations ✓** — across a large number of situations or circumstances。原句只說在不少情況下居家工作可行；**In many situations** 是貼近原意的說法，但沒有具體背景讓我們判斷哪些情況可行。
 - **F.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 
 ---
@@ -439,7 +439,7 @@ In many situations, a flexible approach works better than a fixed rule.
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **E.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
-- **F.** **In many situations ✓** — across a large number of situations or circumstances。這句的決定性線索是 **multiple circumstances rather than repeated events**。因此 **In many situations** 最準確表達這種 *in many cases*。
+- **F.** **In many situations ✓** — across a large number of situations or circumstances。原句比較彈性方式與固定規則在很多情況下的效果；**In many situations** 可保留這個條件性，不必假設句子列出了多種場合。
 
 ---
 
@@ -470,7 +470,7 @@ In numerous instances, the same pattern appeared in different departments.
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
-- **A.** **In numerous instances ✓** — in a large number of individual examples or occurrences。這句的決定性線索是 **formal analysis of individual examples**。因此 **In numerous instances** 最準確表達這種 *in many cases*。
+- **A.** **In numerous instances ✓** — in a large number of individual examples or occurrences。**different departments** 明確給出多個部門的個別觀察；**In numerous instances** 適合較正式地描述這些多次出現的例子。
 - **B.** **In a large number of cases** — in many individual cases within a set or group。這個表達強調案例數量多；如果重點是不同類型／不同情境，wide range / situations 更貼切。
 - **C.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
@@ -507,7 +507,7 @@ In numerous instances, the complaint involved delayed communication.
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
 - **A.** **In a large number of cases** — in many individual cases within a set or group。這個表達強調案例數量多；如果重點是不同類型／不同情境，wide range / situations 更貼切。
-- **B.** **In numerous instances ✓** — in a large number of individual examples or occurrences。這句的決定性線索是 **countable documented cases are central**。因此 **In numerous instances** 最準確表達這種 *in many cases*。
+- **B.** **In numerous instances ✓** — in a large number of individual examples or occurrences。原句談多宗涉及溝通延誤的投訴；**In numerous instances** 可把每宗投訴當作一個例子，但原句沒有提供精確宗數。
 - **C.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
@@ -544,7 +544,7 @@ In numerous instances, researchers observed the same response.
 
 - **A.** **In a large number of cases** — in many individual cases within a set or group。這個表達強調案例數量多；如果重點是不同類型／不同情境，wide range / situations 更貼切。
 - **B.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
-- **C.** **In numerous instances ✓** — in a large number of individual examples or occurrences。這句的決定性線索是 **formal research reporting of multiple instances**。因此 **In numerous instances** 最準確表達這種 *in many cases*。
+- **C.** **In numerous instances ✓** — in a large number of individual examples or occurrences。**researchers observed the same response** 說的是研究中反覆記錄到的結果；**In numerous instances** 適合描述多個觀察例子。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
@@ -581,7 +581,7 @@ In a large number of cases, missing documents caused the delay.
 - **A.** **In numerous instances** — in a large number of individual examples or occurrences。這個表達正式而 case-based；如果句子只是日常頻率或一般情況，會顯得偏正式。
 - **B.** **In most cases** — in the majority of cases。**in most cases** 明確表示『大多數個案』，比 many 強。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
-- **D.** **In a large number of cases ✓** — in many individual cases within a set or group。這句的決定性線索是 **high case count is explicitly foregrounded**。因此 **In a large number of cases** 最準確表達這種 *in many cases*。
+- **D.** **In a large number of cases ✓** — in many individual cases within a set or group。原句說多宗個案因缺文件而延誤；**In a large number of cases** 明說個案數量多，沒有額外推斷比例。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
 
@@ -618,7 +618,7 @@ In a large number of cases, patients improved within two weeks.
 - **B.** **In most cases** — in the majority of cases。**in most cases** 明確表示『大多數個案』，比 many 強。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
-- **E.** **In a large number of cases ✓** — in many individual cases within a set or group。這句的決定性線索是 **many individual cases are being counted**。因此 **In a large number of cases** 最準確表達這種 *in many cases*。
+- **E.** **In a large number of cases ✓** — in many individual cases within a set or group。**patients improved** 指多名病人的個別情況；**In a large number of cases** 強調記錄到的個案數多，而非每名病人都改善。
 - **F.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
 
 ---
@@ -655,7 +655,7 @@ In a large number of cases, the application was rejected because information was
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **E.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
-- **F.** **In a large number of cases ✓** — in many individual cases within a set or group。這句的決定性線索是 **case-based administrative analysis is central**。因此 **In a large number of cases** 最準確表達這種 *in many cases*。
+- **F.** **In a large number of cases ✓** — in many individual cases within a set or group。**the application was rejected** 指多宗申請個案；**In a large number of cases** 強調申請個案數量，不暗示全部申請都遭拒。
 
 ---
 
@@ -686,7 +686,7 @@ The error frequently occurs after the update.
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
-- **A.** **Frequently ✓** — often; many times or on many occasions。這句的決定性線索是 **frequency of occurrence is central**。因此 **Frequently** 最準確表達這種 *in many cases*。
+- **A.** **Frequently ✓** — often; many times or on many occasions。**the error occurs after the update** 描述錯誤反覆出現的時間；**Frequently** 可表達發生頻率，原句沒有給出精確次數。
 - **B.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **C.** **Commonly** — in a way that is usual or widespread across many cases。**commonly** 強調普遍／常見；如果句子只是某事件反覆發生，不完全等同。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
@@ -723,7 +723,7 @@ Users frequently report the same symptom.
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
 - **A.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
-- **B.** **Frequently ✓** — often; many times or on many occasions。這句的決定性線索是 **repeated reporting is central**。因此 **Frequently** 最準確表達這種 *in many cases*。
+- **B.** **Frequently ✓** — often; many times or on many occasions。**users report the same symptom** 描述多次回報；**Frequently** 可突出回報的頻率，但原句沒有量化到「大多數用戶」。
 - **C.** **Commonly** — in a way that is usual or widespread across many cases。**commonly** 強調普遍／常見；如果句子只是某事件反覆發生，不完全等同。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
@@ -760,7 +760,7 @@ The issue frequently disappears after restarting the system.
 
 - **A.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **B.** **Commonly** — in a way that is usual or widespread across many cases。**commonly** 強調普遍／常見；如果句子只是某事件反覆發生，不完全等同。
-- **C.** **Frequently ✓** — often; many times or on many occasions。這句的決定性線索是 **repeated event frequency is the focus**。因此 **Frequently** 最準確表達這種 *in many cases*。
+- **C.** **Frequently ✓** — often; many times or on many occasions。**the issue disappears after restarting** 描述同一結果反覆出現；**Frequently** 可強調發生頻率，不代表每次重新啟動都有效。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
@@ -797,7 +797,7 @@ This feature is commonly seen in older buildings.
 - **A.** **Frequently** — often; many times or on many occasions。**frequently** 聚焦頻率；如果句子要保留『多個個案／情境』的框架，會少一層 case-based 意味。
 - **B.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
-- **D.** **Commonly ✓** — in a way that is usual or widespread across many cases。這句的決定性線索是 **widespread prevalence is central**。因此 **Commonly** 最準確表達這種 *in many cases*。
+- **D.** **Commonly ✓** — 「常見地」。原句只說這種特徵在不少舊建築中出現，並沒有提供跨地區的普及率。**commonly seen in older buildings** 是自然搭配；**often seen** 也可以，不能說原句獨有「廣泛流行」這個線索。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 
@@ -834,7 +834,7 @@ This method is commonly used in beginner classes.
 - **B.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
-- **E.** **Commonly ✓** — in a way that is usual or widespread across many cases。這句的決定性線索是 **usual practice is the focus**。因此 **Commonly** 最準確表達這種 *in many cases*。
+- **E.** **Commonly ✓** — 「常見地」。原句描述這種方法在不少初級課堂中使用；**commonly used in beginner classes** 是自然搭配。**often used** 也說得通，原句沒有證明兩者只能選其一。
 - **F.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 
 ---
@@ -871,7 +871,7 @@ Fatigue is commonly associated with poor sleep.
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **E.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
-- **F.** **Commonly ✓** — in a way that is usual or widespread across many cases。這句的決定性線索是 **a common association is being described**。因此 **Commonly** 最準確表達這種 *in many cases*。
+- **F.** **Commonly ✓** — 「常見地」。原句談疲勞與睡眠不足的關聯；**commonly associated with** 是自然搭配。**often associated with** 也可以，不能從原句推斷更精確的流行率。
 
 ---
 
@@ -902,7 +902,7 @@ The approach works in a wide range of cases across different age groups and sett
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
-- **A.** **In a wide range of cases ✓** — across many different kinds of cases。這句的決定性線索是 **breadth and diversity of cases are explicit**。因此 **In a wide range of cases** 最準確表達這種 *in many cases*。
+- **A.** **In a wide range of cases ✓** — across many different kinds of cases。**different age groups and settings** 明確提及不同年齡和場合；**In a wide range of cases** 保留「適用情況種類多」的重點。
 - **B.** **In a large number of cases** — in many individual cases within a set or group。這個表達強調案例數量多；如果重點是不同類型／不同情境，wide range / situations 更貼切。
 - **C.** **In many situations** — across a large number of situations or circumstances。這個表達強調不同情況，不等於統計或個案數量很多。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
@@ -939,7 +939,7 @@ The rule can be applied in a wide range of cases, from simple to complex dispute
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
 - **A.** **In a large number of cases** — in many individual cases within a set or group。這個表達強調案例數量多；如果重點是不同類型／不同情境，wide range / situations 更貼切。
-- **B.** **In a wide range of cases ✓** — across many different kinds of cases。這句的決定性線索是 **variety of case types is central**。因此 **In a wide range of cases** 最準確表達這種 *in many cases*。
+- **B.** **In a wide range of cases ✓** — across many different kinds of cases。**both simple and complex disputes** 明確列出兩類不同爭議；**In a wide range of cases** 強調適用範圍廣，而非只計個案數。
 - **C.** **In many situations** — across a large number of situations or circumstances。這個表達強調不同情況，不等於統計或個案數量很多。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
@@ -976,7 +976,7 @@ The same design principle works in a wide range of cases, including homes, offic
 
 - **A.** **In a large number of cases** — in many individual cases within a set or group。這個表達強調案例數量多；如果重點是不同類型／不同情境，wide range / situations 更貼切。
 - **B.** **In many situations** — across a large number of situations or circumstances。這個表達強調不同情況，不等於統計或個案數量很多。
-- **C.** **In a wide range of cases ✓** — across many different kinds of cases。這句的決定性線索是 **coverage across varied settings is central**。因此 **In a wide range of cases** 最準確表達這種 *in many cases*。
+- **C.** **In a wide range of cases ✓** — across many different kinds of cases。**homes, offices and public spaces** 列出不同使用場景；**In a wide range of cases** 概括這種跨場景的適用性。
 - **D.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
@@ -989,10 +989,10 @@ The same design principle works in a wide range of cases, including homes, offic
 
 **READ THE CONTEXT · 閱讀語境**
 
-In many cases, a short conversation solves the problem.
+In many cases (about 70% in this survey), a short conversation solves the problem.
 
 **中文翻譯**  
-多數時候，一次簡短對話便能解決問題。
+在這項調查中，約七成情況下，一次簡短對話便能解決問題。
 
 - A. Usually
 - B. Often
@@ -1006,14 +1006,14 @@ In many cases, a short conversation solves the problem.
 **D. More often than not** · 多數時候；往往
 
 **Correct rewrite · 正確改寫**  
-More often than not, a short conversation solves the problem.
+More often than not, a short conversation solves the problem (about 70% in this survey).
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
 - **A.** **Usually** — in most cases or on most occasions。**usually** 往往暗示『大多數情況』，強度通常比 in many cases 更高。
 - **B.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
-- **D.** **More often than not ✓** — in most cases or on most occasions。這句的決定性線索是 **the meaning is closer to a majority of occasions**。因此 **More often than not** 最準確表達這種 *in many cases*。
+- **D.** **More often than not ✓** — in most cases or on most occasions。這道改寫題另給了約七成的調查結果，明確超過一半；**more often than not** 表示「多數時候」。單獨的 **in many cases** 並不保證過半。
 - **E.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **F.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
 
@@ -1025,10 +1025,10 @@ More often than not, a short conversation solves the problem.
 
 **READ THE CONTEXT · 閱讀語境**
 
-In many cases, the simplest answer is the correct one.
+In many cases (about 60% in these observations), the simplest answer is the correct one.
 
 **中文翻譯**  
-多數時候，最簡單的答案就是正確答案。
+在這些觀察中，約六成情況下，最簡單的答案就是正確答案。
 
 - A. Usually
 - B. Often
@@ -1042,7 +1042,7 @@ In many cases, the simplest answer is the correct one.
 **E. More often than not** · 多數時候；往往
 
 **Correct rewrite · 正確改寫**  
-More often than not, the simplest answer is the correct one.
+More often than not, the simplest answer is the correct one (about 60% in these observations).
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
@@ -1050,7 +1050,7 @@ More often than not, the simplest answer is the correct one.
 - **B.** **Often** — frequently; on many occasions。**often** 是自然廣義替代，但若題目明確強調 formal instances、case count、breadth of case types 或 majority，另有更精準詞。
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
-- **E.** **More often than not ✓** — in most cases or on most occasions。這句的決定性線索是 **the statement makes a majority-pattern claim**。因此 **More often than not** 最準確表達這種 *in many cases*。
+- **E.** **More often than not ✓** — in most cases or on most occasions。題目另外指出約六成的觀察結果，才足以支持 **more often than not** 的「過半」意思；原來的 **in many cases** 本身沒有這個保證。
 - **F.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
 
 ---
@@ -1061,10 +1061,10 @@ More often than not, the simplest answer is the correct one.
 
 **READ THE CONTEXT · 閱讀語境**
 
-In many cases, people choose convenience over cost.
+In many cases (about two-thirds of the survey responses), people choose convenience over cost.
 
 **中文翻譯**  
-多數時候，人們會選擇方便而不是成本。
+在這項調查中，約三分之二的人會選擇方便而不是低成本。
 
 - A. Usually
 - B. Often
@@ -1078,7 +1078,7 @@ In many cases, people choose convenience over cost.
 **F. More often than not** · 多數時候；往往
 
 **Correct rewrite · 正確改寫**  
-More often than not, people choose convenience over cost.
+More often than not, people choose convenience over cost (about two-thirds of the survey responses).
 
 **SIX-OPTION FEEDBACK · 六個選項的詳細解釋**
 
@@ -1087,7 +1087,7 @@ More often than not, people choose convenience over cost.
 - **C.** **Always** — on every occasion without exception。**always** 表示毫無例外，明顯太強。
 - **D.** **Sometimes** — on some occasions but not often。**sometimes** 只表示有時，通常比 in many cases 弱很多。
 - **E.** **Generally** — in most respects or as a broad generalisation。**generally** 是整體概括，不一定表示有很多個具體案例。
-- **F.** **More often than not ✓** — in most cases or on most occasions。這句的決定性線索是 **a majority tendency is intended**。因此 **More often than not** 最準確表達這種 *in many cases*。
+- **F.** **More often than not ✓** — in most cases or on most occasions。題目提供了約三分之二的調查比例，明確是多數；因此可用 **more often than not**。若沒有這個比例，**in many cases** 不一定等於「多數」。
 
 ---
 

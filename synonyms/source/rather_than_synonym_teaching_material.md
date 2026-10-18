@@ -1149,7 +1149,7 @@ She reads the full report rather than relying only on the summary.
 
 她較傾向閱讀完整報告，而不是只依賴摘要。
 
-A. prefers the full report over relying only on the summary  
+A. prefers reading the full report to relying only on the summary
 B. reads the report together with ignoring the summary  
 C. avoids the report because of the summary  
 D. compares the report to the summary without choosing  
@@ -1167,8 +1167,8 @@ She **prefers reading the full report to relying only on the summary**.
 
 ### SIX-OPTION FEEDBACK · 六個選項的解釋
 
-**A. prefers the full report over relying only on the summary**  
-語義接近，但平行性稍差：`the full report` 是名詞，而 `relying` 是動名詞。自然英文應改成 `prefers reading the full report to relying...`。
+**A. prefers reading the full report to relying only on the summary ✓**
+`reading` 與 `relying` 是平行的 -ing 結構；`prefer A to B` 明確表達閱讀完整報告而非只依賴摘要的偏好。
 
 **B. reads the report together with ignoring the summary**  
 結構不自然，而且不是二選一偏好。

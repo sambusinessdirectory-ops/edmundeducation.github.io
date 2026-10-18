@@ -158,6 +158,13 @@ def extract_feedback(block):
         if ' = ' in label:
             label, note = label.split(' = ', 1)
             inline = note + ' ' + inline
+        # Some lessons put both the choice and its feedback inside one bold span:
+        # ``- **A. since — 也可，但語氣不同。**``.  The old parser treated the
+        # whole span as a choice label and silently dropped the explanation.
+        embedded = re.split(r'\s+[—–]\s+', label, maxsplit=1)
+        if len(embedded) == 2:
+            label, note = embedded
+            inline = note + ' ' + inline
         label = clean(label.replace('✓', ''))
         tail = block[hit.end():hits[i + 1].start() if i + 1 < len(hits) else len(block)]
         tail = re.split(r'^#{1,3}\s+|^\*\*[A-F][–-][A-F]\.\*\*', tail, maxsplit=1, flags=re.M)[0]
@@ -231,11 +238,21 @@ def extract_exercise(block, number, target, file):
         context = next((clean(x) for x in lines if clean(x) and not x.startswith(('#', '**', '-', '|')) and not re.match(r'^[A-F]\. ', x.strip()) and re.search('[A-Za-z]', x)), '')
     zh = after_label(block, r'^\s*(?:#{2,3}\s*)?(?:\*\*)?中文翻譯(?:\*\*)?\s*$')
     if zh.startswith('A.'): zh = ''
-    upgrade = after_label(block, r'^\s*(?:#{2,3}\s*)?(?:\*\*)?(?:Rewritten sentence:|CORRECT ANSWER[^\n]*|答案：)(?:\*\*)?\s*$')
+    upgrade = after_label(block, r'^\s*\*\*Correct rewrite[^\n]*\*\*\s*$')
+    if not upgrade:
+        upgrade = after_label(block, r'^\s*(?:#{2,3}\s*)?(?:\*\*)?(?:Rewritten sentence:|CORRECT ANSWER[^\n]*|答案：)(?:\*\*)?\s*$')
+    if re.match(r'^[A-F]\.\s', upgrade):
+        answer_section = re.search(r'CORRECT ANSWER[^\n]*\n(.*?)(?:SIX-OPTION FEEDBACK|FEEDBACK|\Z)', block, re.S | re.I)
+        if answer_section:
+            rewritten = next((clean(line) for line in answer_section.group(1).splitlines()
+                              if len(clean(line).split()) >= 4
+                              and clean(line).endswith(('.', '!', '?'))
+                              and not re.match(r'^[A-F]\.\s', clean(line))), '')
+            upgrade = rewritten
     if upgrade and not re.search('[A-Za-z]', upgrade): upgrade = ''
     if not context:
         raise ValueError(f'{file.name}: {number}: no sentence context')
-    return {'number': number, 'original': context, 'zh': zh, 'upgrade': upgrade or context,
+    return {'number': number, 'original': context, 'zh': zh, 'upgrade': upgrade,
             'answer': answer, 'options': [{'letter': letter, 'text': options[letter],
                                           'explanation': feedback[letter]['explanation']} for letter in options]}
 

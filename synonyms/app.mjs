@@ -1,6 +1,6 @@
 import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
-import { catalog, legacyCatalog } from './lesson-catalog.mjs?v=20261011-priority1';
+import { catalog, legacyCatalog } from './lesson-catalog.mjs?v=20261019-curation1';
 import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
@@ -55,7 +55,9 @@ async function selectModule(id) {
   if (!data.words) {
     try {
       if (!loadedLessons.has(id)) {
-        const response = await fetch(new URL(data.dataFile, import.meta.url), {cache:'force-cache'});
+        const lessonUrl = new URL(data.dataFile, import.meta.url);
+        lessonUrl.searchParams.set('v', '20261019-curation1');
+        const response = await fetch(lessonUrl, {cache:'force-cache'});
         if (!response.ok) throw new Error('Lesson unavailable');
         const lesson = await response.json();
         if (lesson.id !== id || !Array.isArray(lesson.words)) throw new Error('Invalid lesson');

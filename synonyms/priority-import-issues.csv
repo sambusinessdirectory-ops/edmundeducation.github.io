@@ -1,5 +1,4 @@
 rank,source_file,question,issue,disposition
-4,rather_than_synonym_teaching_material.md,07.3,rather_than_synonym_teaching_material.md: 07.3: source answer 'prefers reading the full report to relying only on the summary' does not match a supplied option,self-check
 428,combine_synonyms_3_questions_each.md,07.3,combine_synonyms_3_questions_each.md: 07.3: source answer '' does not match a supplied option,self-check
 514,exchange_synonyms_3_questions_each.md,01.1,exchange_synonyms_3_questions_each.md: 01.1: source answer '' does not match a supplied option,self-check
 514,exchange_synonyms_3_questions_each.md,02.2,exchange_synonyms_3_questions_each.md: 02.2: source answer '' does not match a supplied option,self-check
