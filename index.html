@@ -2860,6 +2860,36 @@
       text-shadow: 0 1px 2px rgba(5,16,26,.55);
     }
 
+    .category.portal-illustrated-card.ted-talk-card,
+    .category.portal-illustrated-card.ted-talk-card:hover,
+    .category.portal-illustrated-card.ted-talk-card:focus-visible {
+      background-color: #fbf8ef;
+      background-image: url('homepage-ted-talk-card.webp');
+      background-size: cover;
+      background-position: center;
+      --category-key-lip: #b66a28;
+    }
+
+    .category.portal-illustrated-card.ted-talk-card::before {
+      top: auto;
+      right: 10px;
+      bottom: 10px;
+      color: #20313b;
+      background: rgba(255, 255, 255, .91);
+    }
+
+    .category.portal-illustrated-card.ted-talk-card .category-name {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
     .category.advanced-native-card .category-name {
       font: 900 clamp(16px, .98vw, 20px)/1.12 Arial,"PingFang TC",sans-serif;
       margin-top: 58px;
@@ -3218,7 +3248,7 @@
           <span class="category-name">English in Shows<br>影視英文<br>學習系統</span>
         </a>
 
-        <a class="category portal-illustrated-card learning-portal-card" href="ted-talk-english-system.html" aria-label="Ted Talk English Ted Talk 英文 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-54.webp');--portal-card-hue:8">
+        <a class="category portal-illustrated-card learning-portal-card ted-talk-card" href="ted-talk-english-system.html" aria-label="Ted Talk English Ted Talk 英文 學習系統">
           <span class="category-name">Ted Talk English<br>Ted Talk 英文<br>學習系統</span>
         </a>
 
