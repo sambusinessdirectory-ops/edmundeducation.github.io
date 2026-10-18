@@ -110,27 +110,6 @@ structures = [
     for number, english, purpose in table_rows(structure_start, 3)
 ]
 
-programme_start = next(i for i, line in enumerate(lines) if line.startswith('| 節目類別 | 優先做法 |'))
-policy = next(plain(line) for line in lines if line.startswith('**原創示範方案（不是任何學校現有制度）：**'))
-programmes = [
-    {'type': plain(kind), 'approach': plain(approach), 'avoid': plain(avoid), 'alternative': plain(alternative)}
-    for kind, approach, avoid, alternative in table_rows(programme_start, 4)
-]
-timeline_start = next(i for i, line in enumerate(lines) if line.startswith('| 週次 | 工作 |'))
-timeline = [
-    {'week': plain(week), 'task': plain(task), 'result': plain(result)}
-    for week, task, result in table_rows(timeline_start, 3)
-]
-roles = []
-consensus = ''
-for line in lines[timeline_start:structure_start]:
-    match = re.match(r'^- \*\*(.+?：)\*\*(.+)$', line)
-    if match:
-        if '共識' in match[1]:
-            consensus = plain(match[2])
-        else:
-            roles.append({'role': match[1], 'task': plain(match[2])})
-
 synonyms = []
 category = ''
 in_synonyms = False
@@ -158,7 +137,7 @@ data = {
     'heroTitle': 'Young people love subtitles; older people, not so much',
     'synonymWarning': '同義詞、近義詞和改寫須按語境使用；subtitles、captions、closed captions、translated subtitles 和 same-language subtitles 並非完全相同。',
     'contextTitle': '閱讀材料與 Campus TV 任務',
-    'contextCaveat': '英國受訪者的年齡組數據不代表所有英國人或香港學生；字幕形式、四週試行和工作分工均屬原創課堂提案，並非學校現行制度。',
+    'contextCaveat': '英國受訪者的年齡組數據不代表所有英國人或香港學生；討論中的建議並非學校現行制度。',
     'context': [
         {'place': '閱讀文章 · Young people love subtitles', 'point': '文章介紹字幕的翻譯與無障礙用途，並引用英國兩個年齡組的使用情況；原題未提供調查樣本量與方法。'},
         {'place': 'Part A · Campus TV Team', 'point': '小組須討論是否在校園電視加入英文和中文字幕：好處、學生接受程度，以及哪些節目或字幕安排可能不適合。'},
@@ -166,7 +145,6 @@ data = {
     ],
     'groups': groups, 'responses': responses,
     'structures': structures, 'synonyms': synonyms,
-    'campusPlan': {'policy': policy, 'programmes': programmes, 'timeline': timeline, 'roles': roles, 'consensus': consensus},
 }
 
 assert [len(group['arguments']) for group in groups] == [43, 39, 37]
@@ -176,7 +154,6 @@ assert all(item['description'] and len(item['glossary']) == 5 and item['englishD
            for section in groups + responses for item in section['arguments'])
 assert all(len(section['samples']) == 2 for section in responses)
 assert len(structures) == 20 and len(synonyms) == 120
-assert len(programmes) == 6 and len(timeline) == 4 and len(roles) == 4 and consensus
 assert all(len(entry['alternatives']) == 5 for entry in synonyms)
 DEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(f'{DEST}: {sum(len(s["arguments"]) for s in groups + responses)} arguments with English demonstrations')

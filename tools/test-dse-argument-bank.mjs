@@ -47,11 +47,8 @@ for (const { data, groupCounts, responseCount, synonyms } of modules) {
     assert.equal(data.projectPlan.activities.length, 5, `${data.id}: project activities`);
     assert.equal(data.projectPlan.roles.length, 5, `${data.id}: project roles`);
   }
-  if (data.campusPlan) {
-    assert.equal(data.campusPlan.programmes.length, 6, `${data.id}: programme choices`);
-    assert.equal(data.campusPlan.timeline.length, 4, `${data.id}: four-week trial`);
-    assert.equal(data.campusPlan.roles.length, 4, `${data.id}: team roles`);
-    assert.ok(data.campusPlan.policy && data.campusPlan.consensus, `${data.id}: campus plan context`);
+  if (data.id === '2025-subtitles-campus-tv') {
+    assert.equal(data.campusPlan, undefined, 'removed Campus TV trial panel stays absent');
   }
 }
 
