@@ -2880,7 +2880,8 @@
 
     .category.portal-illustrated-card.ted-talk-card .category-name,
     .category.portal-illustrated-card.spelling-card .category-name,
-    .category.portal-illustrated-card.business-english-card .category-name {
+    .category.portal-illustrated-card.business-english-card .category-name,
+    .category.portal-illustrated-card.jokes-collection-card .category-name {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -2912,6 +2913,16 @@
       background-position: center;
       background-repeat: no-repeat;
       --category-key-lip: #5b3425;
+    }
+
+    .category.portal-illustrated-card.jokes-collection-card,
+    .category.portal-illustrated-card.jokes-collection-card:hover,
+    .category.portal-illustrated-card.jokes-collection-card:focus-visible {
+      background-color: #f1eee8;
+      background-image: url('homepage-jokes-collection-card.webp');
+      background-size: cover;
+      background-position: center;
+      --category-key-lip: #ae7c54;
     }
 
     .category.portal-illustrated-card.complex-questions-card,
@@ -3365,7 +3376,7 @@
           <span class="category-name">English Humour<br>Writing<br>英文幽默寫作系統</span>
         </a>
 
-        <a class="category portal-illustrated-card learning-portal-card" href="english-joke-collection.html" aria-label="English Joke Collection 英文笑話收集站" style="--portal-card-image:url('assets/homepage/card-art/card-47.webp');--portal-card-hue:202">
+        <a class="category portal-illustrated-card learning-portal-card jokes-collection-card" href="english-joke-collection.html" aria-label="English Joke Collection 英文笑話收集站" style="--portal-card-hue:202">
           <span class="category-name">English Joke<br>Collection<br>英文笑話收集站</span>
         </a>
 
