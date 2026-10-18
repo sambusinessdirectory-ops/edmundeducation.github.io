@@ -2890,6 +2890,28 @@
       border: 0;
     }
 
+    .category.portal-illustrated-card.synonyms-card,
+    .category.portal-illustrated-card.synonyms-card:hover,
+    .category.portal-illustrated-card.synonyms-card:focus-visible {
+      background-color: #f4f2e9;
+      background-image: url('homepage-synonyms-card.webp');
+      background-size: cover;
+      background-position: center;
+      --category-key-lip: #243969;
+    }
+
+    .category.portal-illustrated-card.synonyms-card .category-name {
+      color: #fff;
+      -webkit-text-stroke: 1.25px #14243d;
+      paint-order: stroke fill;
+      text-shadow:
+        -1px -1px 0 #14243d,
+         1px -1px 0 #14243d,
+        -1px  1px 0 #14243d,
+         1px  1px 0 #14243d,
+         0 2px 4px rgba(10, 20, 38, .68);
+    }
+
     .category.advanced-native-card .category-name {
       font: 900 clamp(16px, .98vw, 20px)/1.12 Arial,"PingFang TC",sans-serif;
       margin-top: 58px;
@@ -3176,7 +3198,7 @@
           <span class="category-name">Part Of Speech (POS)<br>詞性練習系統</span>
         </a>
 
-        <a class="category portal-illustrated-card learning-portal-card" href="synonyms-system.html" aria-label="Synonyms 同義詞 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-36.webp');--portal-card-hue:188">
+        <a class="category portal-illustrated-card learning-portal-card synonyms-card" href="synonyms-system.html" aria-label="Synonyms 同義詞 學習系統" style="--portal-card-hue:188">
           <span class="category-name">Synonyms<br>同義詞<br>學習系統</span>
         </a>
 
