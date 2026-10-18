@@ -2914,6 +2914,28 @@
       --category-key-lip: #5b3425;
     }
 
+    .category.portal-illustrated-card.complex-questions-card,
+    .category.portal-illustrated-card.complex-questions-card:hover,
+    .category.portal-illustrated-card.complex-questions-card:focus-visible {
+      background-color: #fbf8ef;
+      background-image: url('homepage-complex-questions-card.webp');
+      background-size: cover;
+      background-position: center 47%;
+      --category-key-lip: #82546f;
+    }
+
+    .category.portal-illustrated-card.complex-questions-card .category-name {
+      color: #1f3540;
+      -webkit-text-stroke: 1.3px #d9e3f2;
+      paint-order: stroke fill;
+      text-shadow:
+        -1px -1px 0 #d9e3f2,
+         1px -1px 0 #d9e3f2,
+        -1px  1px 0 #d9e3f2,
+         1px  1px 0 #d9e3f2,
+         0 0 8px rgba(121, 165, 191, .72);
+    }
+
     .category.portal-illustrated-card.error-identifier-card,
     .category.portal-illustrated-card.error-identifier-card:hover,
     .category.portal-illustrated-card.error-identifier-card:focus-visible {
@@ -3327,7 +3349,7 @@
           <span class="category-name">Business School<br>商學院英文訓練系統</span>
         </a>
 
-        <a class="category portal-illustrated-card learning-portal-card" href="complex-questions-system.html" aria-label="Complex Questions 英文複雜問句" style="--portal-card-image:url('assets/homepage/card-art/card-43.webp');--portal-card-hue:316">
+        <a class="category portal-illustrated-card learning-portal-card complex-questions-card" href="complex-questions-system.html" aria-label="Complex Questions 英文複雜問句" style="--portal-card-hue:316">
           <span class="category-name">Complex Questions<br>英文複雜問句</span>
         </a>
 
