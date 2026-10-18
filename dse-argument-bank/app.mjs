@@ -17,8 +17,10 @@ const client = window.supabase?.createClient?.(config.url, config.anonKey, {
 const sessionKey = 'edmund-dse-argument-bank-student-v1';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const arrow = '<svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg>';
-const state = { token: '', name: '', modules: [], moduleIndex: 0, data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null, selectedYear: 2025, yearOrder: 'newest' };
+const starIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.7 2.86 5.8 6.4.93-4.63 4.52 1.09 6.38L12 17.32l-5.72 3.01 1.09-6.38L2.74 9.43l6.4-.93L12 2.7Z"/></svg>';
+const state = { token: '', name: '', modules: [], moduleIndex: 0, data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null, selectedYear: 2025, yearOrder: 'newest', searchQuery: '', searchIndex: [], searchMatches: [], searchLimit: 40, selectedGlossary: new Set(), selectedSynonyms: new Set() };
 let toastTimer;
+let modeTransitionTimer;
 
 async function rpc(name, args = {}) {
   if (!client) throw new Error('登入服務暫時無法載入，請重新整理頁面。');
@@ -56,9 +58,10 @@ function account(name, token, id) {
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018d`)));
+    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018e`)));
     if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
     state.modules = await Promise.all(responses.map(response => response.json()));
+    buildSearchIndex();
     state.moduleIndex = 0;
     state.data = state.modules[0];
     state.progress = await rpc('dse_argument_state', { p_student_token: state.token, p_module_id: state.data.id }) || {};
@@ -69,7 +72,7 @@ async function start() {
   }
 }
 
-async function selectModule(index) {
+async function selectModule(index, destination = null) {
   const module = state.modules[index];
   if (!module) return;
   app.innerHTML = '<div class="loading" role="status"><span></span>正在載入模組…</div>';
@@ -81,7 +84,23 @@ async function selectModule(index) {
     state.prompt = null;
     state.response = null;
     state.pick = null;
-    navigate('module');
+    state.selectedGlossary.clear();
+    state.selectedSynonyms.clear();
+    if (!destination || destination.view === 'module') { navigate('module'); return; }
+    state.prompt = destination.view === 'group' ? destination.sectionId : null;
+    state.response = destination.view === 'response' ? destination.sectionId : null;
+    navigate(destination.view);
+    if (destination.view === 'group' && destination.structureNumber) {
+      state.structureOpen = true;
+      renderGroup();
+      setTimeout(() => $(`#structure-item-${destination.structureNumber}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+    } else if (destination.argumentId) {
+      const card = [...app.querySelectorAll('.dse-argument')].find(node => node.id === `item-${destination.argumentId}`);
+      card?.querySelector('[data-argument]')?.click();
+      setTimeout(() => card?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+    } else if (destination.synonymIndex != null) {
+      setTimeout(() => $(`#syn-item-${destination.synonymIndex}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+    }
   } catch (error) {
     renderHome();
     toast(error.message || '暫時無法載入模組，請重試。', true);
@@ -133,7 +152,7 @@ async function restore() {
 function itemState(id) { return state.progress[id] || { checked: false, bookmarked: false }; }
 function tools(id, label) {
   const value = itemState(id);
-  return `<span class="item-tools"><label class="check-tool" title="標記已學習"><input type="checkbox" data-check="${esc(id)}" ${value.checked ? 'checked' : ''} aria-label="標記已學習：${esc(label)}"><span aria-hidden="true"></span></label><button class="star-tool ${value.bookmarked ? 'is-on' : ''}" type="button" data-star="${esc(id)}" data-label="${esc(label)}" aria-label="${value.bookmarked ? '移除書籤' : '加入書籤'}：${esc(label)}" aria-pressed="${value.bookmarked}">${value.bookmarked ? '★' : '☆'}</button></span>`;
+  return `<span class="item-tools"><label class="check-tool" title="標記已學習"><input type="checkbox" data-check="${esc(id)}" ${value.checked ? 'checked' : ''} aria-label="標記已學習：${esc(label)}"><span aria-hidden="true"></span></label><button class="star-tool ${value.bookmarked ? 'is-on' : ''}" type="button" data-star="${esc(id)}" data-label="${esc(label)}" aria-label="${value.bookmarked ? '移除書籤' : '加入書籤'}：${esc(label)}" aria-pressed="${value.bookmarked}">${starIcon}</button></span>`;
 }
 async function save(id, patch) {
   const before = itemState(id);
@@ -153,7 +172,6 @@ function syncItem(id) {
   app.querySelectorAll('[data-check]').forEach(node => { if (node.dataset.check === id) node.checked = value.checked; });
   app.querySelectorAll('[data-star]').forEach(node => {
     if (node.dataset.star !== id) return;
-    node.textContent = value.bookmarked ? '★' : '☆';
     node.classList.toggle('is-on', value.bookmarked);
     node.setAttribute('aria-pressed', String(value.bookmarked));
     node.setAttribute('aria-label', `${value.bookmarked ? '移除書籤' : '加入書籤'}：${node.dataset.label || ''}`);
@@ -165,17 +183,22 @@ function englishDemo(markdown) {
   const marked = String(markdown).split(/(\*\*.*?\*\*)/g).map(part => part.startsWith('**') && part.endsWith('**') ? `<strong>${esc(part.slice(2, -2))}</strong>` : esc(part)).join('');
   return `<div class="english-demo"><span>ENGLISH DEMONSTRATION · 英語示範</span><p lang="en">${marked}</p></div>`;
 }
+function glossaryRow(term, id) {
+  const selected = state.selectedGlossary.has(id);
+  return `<li class="${selected ? 'is-selected' : ''}"><button type="button" class="glossary-copy" data-glossary-select="${esc(id)}" aria-pressed="${selected}"><strong lang="en">${esc(term.english)}</strong><span>${esc(term.chinese)}</span></button>${tools(id, term.english)}</li>`;
+}
 
 function argumentCard(argument, picker = false, selected = false) {
   const id = `arg:${argument.id}`;
-  const detail = `<div class="argument-detail" hidden><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map((g, i) => `<li><div class="glossary-copy"><strong lang="en">${esc(g.english)}</strong><span>${esc(g.chinese)}</span></div>${tools(`gloss:${argument.id}:${i}`, g.english)}</li>`).join('')}</ul>${englishDemo(argument.englishDemo)}</div>`;
+  const detail = `<div class="argument-detail" hidden><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${argument.glossary.map((g, i) => glossaryRow(g, `gloss:${argument.id}:${i}`)).join('')}</ul>${englishDemo(argument.englishDemo)}</div>`;
   return `<article class="argument dse-argument ${selected ? 'is-picked' : ''}" id="item-${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="false"><small>${esc(argument.id)} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure" aria-hidden="true">+</span></button>${picker ? `<button type="button" class="pick-toggle ${selected ? 'is-picked' : ''}" data-pick="${esc(argument.id)}" aria-pressed="${selected}">${selected ? '✓ 已選' : '＋ 選取'}</button>` : ''}${tools(id, argument.title)}</div>${detail}</article>`;
 }
 function angleSections(section, picker = false) {
   return section.angles.map((angle, index) => {
     const argumentsForAngle = section.arguments.filter(argument => argument.angle === angle);
     const selected = state.pick?.selected[state.pick.phase - 1] || new Set();
-    return `<section class="angle-section ${state.data.id === '2025-1-2-photo-taking-visitors' && section.id === 'A3' ? ['tone-support','tone-against','tone-middle'][index] : ''}"><header><span class="eyebrow">ANGLE ${String(index + 1).padStart(2, '0')}</span><h3>${esc(angle)}</h3><small>${argumentsForAngle.length} 個論點</small></header><div class="angle-arguments">${argumentsForAngle.map(argument => argumentCard(argument, picker, selected.has(argument.id))).join('')}</div></section>`;
+    const tone = angle.includes('反向視角') ? 'tone-against' : state.data.id === '2025-1-2-photo-taking-visitors' && section.id === 'A3' ? ['tone-support', 'tone-against', 'tone-middle'][index] || '' : '';
+    return `<section class="angle-section ${tone}"><header><span class="eyebrow">ANGLE ${String(index + 1).padStart(2, '0')}</span><h3>${esc(angle)}</h3><small>${argumentsForAngle.length} 個論點</small></header><div class="angle-arguments">${argumentsForAngle.map(argument => argumentCard(argument, picker, selected.has(argument.id))).join('')}</div></section>`;
   }).join('');
 }
 
@@ -183,7 +206,7 @@ function top() {
   return `<div class="dse-top"><button class="back-button" type="button" data-home><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> 返回主頁</button><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>`;
 }
 function hero() {
-  return `<div class="dse-hero"><span class="eyebrow">${moduleYear(state.data) || ''} · HKDSE ENGLISH LANGUAGE PAPER 4</span><h1>${esc(state.data.heroTitle || state.data.title)}</h1></div>`;
+  return `<div class="dse-hero"><h1>${esc(state.data.heroTitle || moduleDisplayTitle(state.data))}</h1></div>`;
 }
 function moduleYear(module) {
   const year = Number(module.year || String(module.title).match(/\b20\d{2}\b/)?.[0]);
@@ -192,25 +215,70 @@ function moduleYear(module) {
 function moduleDisplayTitle(module) {
   return String(module.title).replace(/^\s*20\d{2}\s*(?:[·.]\s*)?/, '');
 }
+function normalizeSearch(value) { return String(value ?? '').normalize('NFKC').toLocaleLowerCase(); }
+function buildSearchIndex() {
+  const records = [];
+  const add = (moduleIndex, type, label, preview, view, destination = {}, more = '') => {
+    records.push({ moduleIndex, type, label, preview, view, ...destination, text: normalizeSearch([label, preview, more].join(' ')) });
+  };
+  state.modules.forEach((module, moduleIndex) => {
+    const moduleLabel = moduleDisplayTitle(module);
+    add(moduleIndex, '模組', moduleLabel, module.heroTitle || '', 'module', {}, module.title);
+    for (const [view, sections] of [['group', module.groups], ['response', module.responses]]) {
+      for (const section of sections) {
+        add(moduleIndex, view === 'group' ? '小組討論' : '個人回應', section.question, moduleLabel, view, { sectionId: section.id }, section.angles.join(' '));
+        for (const argument of section.arguments) {
+          const glossary = argument.glossary.map(term => `${term.english} ${term.chinese}`).join(' ');
+          add(moduleIndex, '論點與詞彙', argument.title, `${section.question} · ${argument.angle}`, view,
+            { sectionId: section.id, argumentId: argument.id }, `${argument.description} ${glossary} ${argument.englishDemo || ''}`);
+        }
+        for (const sample of section.samples || []) {
+          add(moduleIndex, '示範回應', section.question, sample.text, view, { sectionId: section.id }, sample.label);
+        }
+      }
+    }
+    for (const structure of module.structures) {
+      add(moduleIndex, '討論句式', structure.english, structure.purpose, 'group',
+        { sectionId: module.groups[0].id, structureNumber: structure.number });
+    }
+    module.synonyms.forEach((entry, synonymIndex) => {
+      add(moduleIndex, '同義詞', entry.keyword, `${entry.chinese} · ${entry.alternatives.join(' · ')}`, 'synonym',
+        { synonymIndex }, entry.category);
+    });
+  });
+  state.searchIndex = records;
+}
+function renderSearchResults() {
+  const browser = $('#year-browser');
+  const panel = $('#search-results');
+  if (!browser || !panel) return;
+  const query = normalizeSearch(state.searchQuery).trim();
+  browser.hidden = Boolean(query);
+  panel.hidden = !query;
+  if (!query) { state.searchMatches = []; return; }
+  const tokens = query.split(/\s+/).filter(Boolean);
+  state.searchMatches = state.searchIndex.filter(record => tokens.every(token => record.text.includes(token)));
+  const shown = state.searchMatches.slice(0, state.searchLimit);
+  panel.innerHTML = `<div class="search-results__head"><span class="eyebrow">SEARCH RESULTS</span><strong>${state.searchMatches.length} 項結果</strong></div>${shown.length ? `<div class="search-results__list">${shown.map((record, index) => `<button type="button" class="search-result" data-search-result="${index}"><span class="search-result__meta">${esc(moduleDisplayTitle(state.modules[record.moduleIndex]))} · ${esc(record.type)}</span><strong>${esc(record.label)}</strong><small>${esc(record.preview.slice(0, 132))}</small></button>`).join('')}</div>` : '<p class="search-empty">沒有找到相符內容。請試試其他英文或中文關鍵詞。</p>'}${state.searchMatches.length > shown.length ? `<button class="search-more" type="button" data-search-more>顯示更多結果（尚有 ${state.searchMatches.length - shown.length} 項）</button>` : ''}`;
+}
 function renderHome() {
   const years = Array.from({ length: 15 }, (_, index) => state.yearOrder === 'newest' ? 2026 - index : 2012 + index);
   const modules = state.modules.map((module, index) => ({ module, index })).filter(({ module }) => moduleYear(module) === state.selectedYear);
-  app.innerHTML = `<div class="library-shell"><div class="section-head library-head"><div><span class="eyebrow">DSE SPEAKING · CARD 76</span><h1>DSE 論點大全</h1><p>選擇年份，探索練習模組。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><div class="year-toolbar"><div><span class="eyebrow">PAPER 4 · ARCHIVE</span><h2>按年份選擇</h2></div><button class="year-order" type="button" data-year-order aria-label="切換年份排序">${state.yearOrder === 'newest' ? '2026 → 2012' : '2012 → 2026'} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h12l-3-3m3 3-3 3M17 17H5l3-3m-3 3 3 3"/></svg></button></div><nav class="year-filter" aria-label="選擇 DSE 年份">${years.map(year => { const count = state.modules.filter(module => moduleYear(module) === year).length; return `<button type="button" data-year="${year}" aria-pressed="${year === state.selectedYear}" class="year-button ${year === state.selectedYear ? 'is-active' : ''}"><strong>${year}</strong>${count ? `<small>${count} 個模組</small>` : '<small>—</small>'}</button>`; }).join('')}</nav><section class="year-results" aria-labelledby="selected-year-title"><div class="year-results__head"><div><span class="eyebrow">SELECTED YEAR</span><h2 id="selected-year-title">${state.selectedYear}</h2></div><span>${modules.length} 個模組</span></div>${modules.length ? `<div class="module-list">${modules.map(({ module, index }) => `<button class="module-card" type="button" data-module="${index}" aria-label="開啟 ${esc(module.title)}"><span class="module-card__number">MODULE ${String(index + 1).padStart(2, '0')} · PAPER 4</span><strong>${esc(moduleDisplayTitle(module))}</strong><span class="module-card__arrow">${arrow}</span></button>`).join('')}</div>` : '<p class="year-empty">此年份暫未加入練習模組。</p>'}</section></div>`;
+  app.innerHTML = `<div class="library-shell"><div class="section-head library-head"><div><h1>DSE 論點大全</h1><label class="library-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><span class="visually-hidden">搜尋所有模組內容</span><input id="global-search" type="search" value="${esc(state.searchQuery)}" placeholder="搜尋所有模組、論點、詞彙、句式…" autocomplete="off"></label></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><section class="search-results" id="search-results" aria-live="polite" hidden></section><div id="year-browser"><div class="year-toolbar"><div><h2>按年份選擇</h2></div><button class="year-order" type="button" data-year-order aria-label="切換年份排序">${state.yearOrder === 'newest' ? '2026 → 2012' : '2012 → 2026'} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h12l-3-3m3 3-3 3M17 17H5l3-3m-3 3 3 3"/></svg></button></div><nav class="year-filter" aria-label="選擇 DSE 年份">${years.map(year => { const count = state.modules.filter(module => moduleYear(module) === year).length; return `<button type="button" data-year="${year}" aria-pressed="${year === state.selectedYear}" class="year-button ${year === state.selectedYear ? 'is-active' : ''}"><strong>${year}</strong>${count ? `<small>${count} 個模組</small>` : '<small>—</small>'}</button>`; }).join('')}</nav><section class="year-results" aria-labelledby="selected-year-title"><div class="year-results__head"><div><span class="eyebrow">SELECTED YEAR</span><h2 id="selected-year-title">${state.selectedYear}</h2></div><span>${modules.length} 個模組</span></div>${modules.length ? `<div class="module-list">${modules.map(({ module, index }) => `<button class="module-card" type="button" data-module="${index}" aria-label="開啟 ${esc(module.title)}"><strong>${esc(moduleDisplayTitle(module))}</strong><span class="module-card__arrow">${arrow}</span></button>`).join('')}</div>` : '<p class="year-empty">此年份暫未加入練習模組。</p>'}</section></div></div>`;
+  renderSearchResults();
 }
 function renderModule() {
-  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><b>${arrow}</b></button></div>`;
+  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong></button></div>`;
 }
 function modeNav(active) {
-  return `<nav class="mode-nav" aria-label="模組練習選單"><button type="button" data-mode="group" ${active === 'group' ? 'aria-current="page"' : ''}>Group Discussion</button><button type="button" data-mode="response" ${active === 'response' ? 'aria-current="page"' : ''}>Individual Response</button><button type="button" data-mode="synonym" ${active === 'synonym' ? 'aria-current="page"' : ''}>Synonym</button></nav>`;
+  return `<nav class="mode-nav active-${['group', 'response', 'synonym'].indexOf(active)}" aria-label="模組練習選單"><button type="button" data-mode="group" ${active === 'group' ? 'aria-current="page"' : ''}>Group Discussion</button><button type="button" data-mode="response" ${active === 'response' ? 'aria-current="page"' : ''}>Individual Response</button><button type="button" data-mode="synonym" ${active === 'synonym' ? 'aria-current="page"' : ''}>Synonym</button></nav>`;
 }
 function groupPrompt(section, index) {
   const open = state.prompt === section.id;
-  return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-prompt="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><div class="prompt-actions"><p>點開論點閱讀解釋與五項英中詞彙。展開不會自動勾選。</p><div><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-start-pick="solo">Pick Mode · 單人練習</button><button class="primary-button" type="button" data-start-pick="pair">Pick Mode · 雙人選論點</button></div></div><div class="angle-grid">${angleSections(section)}</div></div>` : ''}</section>`;
+  return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-prompt="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><div class="prompt-actions"><div><button class="outline-button" type="button" data-structures>句式表</button><button class="outline-button" type="button" data-start-pick="solo">Pick Mode · 單人練習</button><button class="primary-button" type="button" data-start-pick="pair">Pick Mode · 雙人選論點</button></div></div><div class="angle-grid">${angleSections(section)}</div></div>` : ''}</section>`;
 }
 function renderGroup() {
-  const plan = state.data.studyPlan?.length ? `<details class="study-plan"><summary>四星期 Self-Care Month 活動示例 <span>展開參考方案</span></summary><p>以下是供小組討論的教學方案，並非試題已安排的活動。實際安排須視乎學校資源、安全及學生意願。</p><div class="study-plan__grid">${state.data.studyPlan.map(week => `<article><small>${esc(week.week)}</small><h3>${esc(week.theme)}</h3><p><strong>建議活動</strong>${esc(week.activity)}</p><p><strong>鼓勵參與</strong>${esc(week.participation)}</p><p><strong>顧及需要</strong>${esc(week.care)}</p></article>`).join('')}</div></details>` : '';
-  const project = state.data.projectPlan?.outline?.length ? `<details class="study-plan"><summary>班級專題 · 展示大綱與互動方案 <span>展開參考方案</span></summary><p>以下是原創教學示例，並非試題規定的研究格式。使用遊戲畫面時須取得授權並標明來源；班內投票不應被寫成全港統計。</p><div class="study-plan__grid">${state.data.projectPlan.outline.map(item => `<article><small>PART ${esc(item.part)}</small><h3>${esc(item.theme)}</h3><p><strong>可用素材</strong>${esc(item.material)}</p><p><strong>關鍵問題</strong>${esc(item.question)}</p></article>`).join('')}</div><h3>互動展示方案</h3><div class="study-plan__grid">${state.data.projectPlan.activities.map(item => `<article><h3>${esc(item.idea)}</h3><p><strong>用途</strong>${esc(item.benefit)}</p><p><strong>操作與注意事項</strong>${esc(item.care)}</p></article>`).join('')}</div><h3>建議分工</h3><div class="study-plan__grid">${state.data.projectPlan.roles.map(item => `<article><h3>${esc(item.role)}</h3><p>${esc(item.task)}</p></article>`).join('')}</div></details>` : '';
-  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div>${plan}${project}<div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
+  app.innerHTML = `${top()}${modeNav('group')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART A · GROUP INTERACTION</span><h1>Group Discussion</h1><p>三個可展開的指定方向。每個角度都附有獨立論點、解釋及五項英中詞彙。</p></div><button type="button" class="outline-button" data-structures>20 個討論句式</button></div><div class="prompt-list">${state.data.groups.map(groupPrompt).join('')}</div>${structureWindow()}`;
 }
 function responseQuestion(section, index) {
   const open = state.response === section.id;
@@ -221,12 +289,21 @@ function renderResponse() {
 }
 function renderSynonym() {
   const sections = [...new Set(state.data.synonyms.map(item => item.category))];
-  app.innerHTML = `${top()}${modeNav('synonym')}<div class="section-head dse-section-head"><div><span class="eyebrow">LANGUAGE BANK · ${state.data.synonyms.length} GROUPS</span><h1>Synonym</h1><p>每組有五個可在本題語境中使用的同義詞、近義詞或改寫方式。</p></div></div><div class="synonym-search"><label for="syn-search">搜尋關鍵詞、中文或替代表達</label><input id="syn-search" type="search" placeholder="Search keywords or alternatives…" autocomplete="off"></div><p class="synonym-warning">${esc(state.data.synonymWarning)}</p><div class="synonym-categories">${sections.map(category => `<section class="synonym-category"><h2>${esc(category)}</h2><div class="synonym-rows">${state.data.synonyms.map((entry, index) => entry.category === category ? `<article class="synonym-row" id="syn-item-${index}" data-search-text="${esc(`${entry.keyword} ${entry.chinese} ${entry.alternatives.join(' ')}`.toLowerCase())}"><div><strong lang="en">${esc(entry.keyword)}</strong><span>${esc(entry.chinese)}</span></div><ol lang="en">${entry.alternatives.map(word => `<li>${esc(word)}</li>`).join('')}</ol>${tools(`syn:${index}`, entry.keyword)}</article>` : '').join('')}</div></section>`).join('')}</div><p class="empty-state" id="syn-empty" hidden>沒有找到相符的詞組。</p>`;
+  app.innerHTML = `${top()}${modeNav('synonym')}<div class="section-head dse-section-head"><div><span class="eyebrow">LANGUAGE BANK · ${state.data.synonyms.length} GROUPS</span><h1>Synonym</h1><p>每組有五個可在本題語境中使用的同義詞、近義詞或改寫方式。</p></div></div><div class="synonym-search"><label for="syn-search">搜尋關鍵詞、中文或替代表達</label><input id="syn-search" type="search" placeholder="Search keywords or alternatives…" autocomplete="off"></div><p class="synonym-warning">${esc(state.data.synonymWarning)}</p><div class="synonym-categories">${sections.map(category => `<section class="synonym-category"><h2>${esc(category)}</h2><div class="synonym-rows">${state.data.synonyms.map((entry, index) => entry.category === category ? `<article class="synonym-row ${state.selectedSynonyms.has(index) ? 'is-selected' : ''}" id="syn-item-${index}" data-search-text="${esc(`${entry.keyword} ${entry.chinese} ${entry.alternatives.join(' ')}`.toLowerCase())}"><button class="synonym-row__select" type="button" data-synonym-select="${index}" aria-pressed="${state.selectedSynonyms.has(index)}"><span class="synonym-term"><strong lang="en">${esc(entry.keyword)}</strong><span>${esc(entry.chinese)}</span></span><span class="synonym-alternatives" lang="en">${entry.alternatives.map(word => `<span>${esc(word)}</span>`).join('')}</span></button>${tools(`syn:${index}`, entry.keyword)}</article>` : '').join('')}</div></section>`).join('')}</div><p class="empty-state" id="syn-empty" hidden>沒有找到相符的詞組。</p>`;
 }
 function structureWindow() {
   if (!state.structureOpen) return '';
-  const position = state.structurePosition ? `style="left:${state.structurePosition.x}px;top:${state.structurePosition.y}px"` : '';
-  return `<aside class="structure-float" id="structure-float" ${position} aria-label="小組討論句式浮動視窗"><div class="structure-handle" data-drag-handle><div><span class="eyebrow">SENTENCE STRUCTURE</span><h3>小組討論句式 · 20</h3></div><button type="button" data-close-structures aria-label="關閉句式表">×</button></div><div class="structure-content">${state.data.structures.map(item => `<div class="structure-row" id="structure-item-${item.number}"><div class="structure-row__copy"><small>${String(item.number).padStart(2, '0')}</small><strong lang="en">${esc(item.english)}</strong><span>${esc(item.purpose)}</span></div>${tools(`structure:${item.number}`, item.english)}</div>`).join('')}</div><div class="resize-note">拖動標題列移動 · 拖動右下角調整大小</div></aside>`;
+  requestAnimationFrame(() => {
+    const panel = $('#structure-float');
+    const position = state.structurePosition;
+    if (!panel || !position) return;
+    panel.style.left = `${position.x}px`;
+    panel.style.top = `${position.y}px`;
+    panel.style.width = `${position.width}px`;
+    panel.style.height = `${position.height}px`;
+    panel.style.right = 'auto';
+  });
+  return `<aside class="structure-float" id="structure-float" aria-label="小組討論句式浮動視窗"><button type="button" class="structure-resize structure-resize--nw" data-resize-corner="nw" aria-label="拖動左上角調整視窗大小"></button><button type="button" class="structure-resize structure-resize--ne" data-resize-corner="ne" aria-label="拖動右上角調整視窗大小"></button><div class="structure-handle" data-drag-handle><div><span class="eyebrow">SENTENCE STRUCTURE</span><h3>小組討論句式 · 20</h3></div><button type="button" data-close-structures aria-label="關閉句式表">×</button></div><div class="structure-content">${state.data.structures.map(item => `<div class="structure-row" id="structure-item-${item.number}"><div class="structure-row__copy"><small>${String(item.number).padStart(2, '0')}</small><strong lang="en">${esc(item.english)}</strong><span>${esc(item.purpose)}</span></div>${tools(`structure:${item.number}`, item.english)}</div>`).join('')}</div><div class="resize-note">拖動標題列移動 · 拖動任意一角調整大小</div><button type="button" class="structure-resize structure-resize--sw" data-resize-corner="sw" aria-label="拖動左下角調整視窗大小"></button><button type="button" class="structure-resize structure-resize--se" data-resize-corner="se" aria-label="拖動右下角調整視窗大小"></button></aside>`;
 }
 
 function currentGroup() { return state.data.groups.find(group => group.id === state.prompt); }
@@ -247,7 +324,7 @@ function pickedColumn(index, heading) {
   const section = currentGroup();
   return `<section class="comparison-picker"><h2>${heading}</h2>${section.angles.map(angle => {
     const chosen = section.arguments.filter(item => item.angle === angle && state.pick.selected[index].has(item.id));
-    return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => `<li><div class="glossary-copy"><strong>${esc(term.english)}</strong><span>${esc(term.chinese)}</span></div>${tools(`gloss:${item.id}:${i}`, term.english)}</li>`).join('')}</ul>${englishDemo(item.englishDemo)}</div>`}</article>`).join('')}</div>` : '';
+    return chosen.length ? `<div class="comparison-angle"><h3>${esc(angle)}</h3>${chosen.map(item => `<article class="comparison-entry ${state.pick.collapsed[index].has(item.id) ? '' : 'is-open'}"><div class="comparison-entry__head"><button type="button" data-compare-toggle="${esc(item.id)}" data-picker-index="${index}" aria-expanded="${!state.pick.collapsed[index].has(item.id)}"><span>${esc(item.id)}</span><strong>${esc(item.title)}</strong><b aria-hidden="true">${state.pick.collapsed[index].has(item.id) ? '+' : '−'}</b></button>${tools(`arg:${item.id}`, item.title)}</div>${state.pick.collapsed[index].has(item.id) ? '' : `<div class="comparison-entry__detail"><p>${esc(item.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${item.glossary.map((term, i) => glossaryRow(term, `gloss:${item.id}:${i}`)).join('')}</ul>${englishDemo(item.englishDemo)}</div>`}</article>`).join('')}</div>` : '';
   }).join('') || '<p>沒有選取論點。</p>'}</section>`;
 }
 function renderCompare() {
@@ -290,18 +367,32 @@ function render() {
     default: renderHome();
   }
 }
-function navigate(view) { state.view = view; state.structureOpen = false; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+function navigate(view) { clearTimeout(modeTransitionTimer); state.view = view; state.structureOpen = false; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
 
 app.addEventListener('click', event => {
   const button = event.target.closest('button');
   if (!button) return;
   if (button.hasAttribute('data-retry')) { start(); return; }
   if (button.hasAttribute('data-home')) { state.pick = null; navigate('home'); return; }
+  if (button.hasAttribute('data-search-more')) { state.searchLimit += 40; renderSearchResults(); return; }
+  if (button.hasAttribute('data-search-result')) { const result = state.searchMatches[Number(button.dataset.searchResult)]; if (result) selectModule(result.moduleIndex, result); return; }
   if (button.hasAttribute('data-year-order')) { state.yearOrder = state.yearOrder === 'newest' ? 'oldest' : 'newest'; renderHome(); return; }
   if (button.hasAttribute('data-year')) { state.selectedYear = Number(button.dataset.year); renderHome(); return; }
   if (button.hasAttribute('data-module')) { selectModule(Number(button.dataset.module)); return; }
   if (button.hasAttribute('data-bookmarks')) { navigate('bookmarks'); return; }
-  if (button.dataset.mode) { state.pick = null; navigate(button.dataset.mode); return; }
+  if (button.dataset.mode) {
+    const nav = button.closest('.mode-nav');
+    if (nav && button.getAttribute('aria-current') !== 'page' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      clearTimeout(modeTransitionTimer);
+      nav.classList.remove('active-0', 'active-1', 'active-2');
+      nav.classList.add(`active-${['group', 'response', 'synonym'].indexOf(button.dataset.mode)}`);
+      nav.querySelectorAll('[data-mode]').forEach(item => item.removeAttribute('aria-current'));
+      button.setAttribute('aria-current', 'page');
+      modeTransitionTimer = setTimeout(() => { state.pick = null; navigate(button.dataset.mode); }, 350);
+      return;
+    }
+    state.pick = null; navigate(button.dataset.mode); return;
+  }
   if (button.dataset.prompt) {
     state.prompt = state.prompt === button.dataset.prompt ? null : button.dataset.prompt;
     renderGroup(); buttonScroll('data-prompt', state.prompt);
@@ -322,7 +413,34 @@ app.addEventListener('click', event => {
     $('.disclosure', button).textContent = open ? '−' : '+';
     return;
   }
-  if (button.dataset.star) { save(button.dataset.star, { bookmarked: !itemState(button.dataset.star).bookmarked }); return; }
+  if (button.dataset.glossarySelect) {
+    const id = button.dataset.glossarySelect;
+    state.selectedGlossary.has(id) ? state.selectedGlossary.delete(id) : state.selectedGlossary.add(id);
+    app.querySelectorAll('[data-glossary-select]').forEach(item => {
+      if (item.dataset.glossarySelect !== id) return;
+      item.setAttribute('aria-pressed', String(state.selectedGlossary.has(id)));
+      item.closest('li').classList.toggle('is-selected', state.selectedGlossary.has(id));
+    });
+    return;
+  }
+  if (button.dataset.synonymSelect) {
+    const index = Number(button.dataset.synonymSelect);
+    state.selectedSynonyms.has(index) ? state.selectedSynonyms.delete(index) : state.selectedSynonyms.add(index);
+    button.setAttribute('aria-pressed', String(state.selectedSynonyms.has(index)));
+    button.closest('.synonym-row').classList.toggle('is-selected', state.selectedSynonyms.has(index));
+    return;
+  }
+  if (button.dataset.star) {
+    const turnOn = !itemState(button.dataset.star).bookmarked;
+    save(button.dataset.star, { bookmarked: turnOn });
+    if (turnOn) {
+      button.classList.remove('sparkle');
+      void button.offsetWidth;
+      button.classList.add('sparkle');
+      setTimeout(() => button.classList.remove('sparkle'), 720);
+    }
+    return;
+  }
   if (button.hasAttribute('data-structures')) {
     if (!state.structureOpen) {
       state.structureOpen = true;
@@ -406,6 +524,12 @@ app.addEventListener('change', event => {
   if (event.target?.dataset.check) save(event.target.dataset.check, { checked: event.target.checked });
 });
 app.addEventListener('input', event => {
+  if (event.target?.id === 'global-search') {
+    state.searchQuery = event.target.value;
+    state.searchLimit = 40;
+    renderSearchResults();
+    return;
+  }
   if (event.target?.id !== 'syn-search') return;
   const query = event.target.value.trim().toLocaleLowerCase();
   let count = 0;
@@ -413,23 +537,57 @@ app.addEventListener('input', event => {
   app.querySelectorAll('.synonym-category').forEach(section => { section.hidden = !section.querySelector('.synonym-row:not([hidden])'); });
   $('#syn-empty').hidden = count > 0;
 });
+app.addEventListener('keydown', event => {
+  if (event.target?.id === 'global-search' && event.key === 'Enter') {
+    event.preventDefault();
+    const first = state.searchMatches[0];
+    if (first) selectModule(first.moduleIndex, first);
+  }
+});
 
 app.addEventListener('pointerdown', event => {
+  const corner = event.target.closest('[data-resize-corner]');
   const handle = event.target.closest('[data-drag-handle]');
-  if (!handle || event.target.closest('button')) return;
+  if (!corner && (!handle || event.target.closest('button'))) return;
   const panel = $('#structure-float');
   if (!panel) return;
   const rect = panel.getBoundingClientRect();
-  const origin = { x: event.clientX, y: event.clientY, left: rect.left, top: rect.top };
-  handle.setPointerCapture(event.pointerId);
+  const control = corner || handle;
+  const clamp = (value, low, high) => Math.min(Math.max(value, low), Math.max(low, high));
+  const minWidth = Math.min(330, window.innerWidth - 16);
+  const minHeight = Math.min(220, window.innerHeight - 90);
+  const startX = event.clientX;
+  const startY = event.clientY;
+  event.preventDefault();
+  control.setPointerCapture(event.pointerId);
   const move = moveEvent => {
-    const left = Math.max(8, Math.min(window.innerWidth - panel.offsetWidth - 8, origin.left + moveEvent.clientX - origin.x));
-    const top = Math.max(65, Math.min(window.innerHeight - 75, origin.top + moveEvent.clientY - origin.y));
-    panel.style.left = `${left}px`; panel.style.top = `${top}px`; panel.style.right = 'auto';
-    state.structurePosition = { x: left, y: top };
+    const dx = moveEvent.clientX - startX;
+    const dy = moveEvent.clientY - startY;
+    let left = rect.left;
+    let right = rect.right;
+    let top = rect.top;
+    let bottom = rect.bottom;
+    if (corner) {
+      const direction = corner.dataset.resizeCorner;
+      if (direction.includes('w')) left = clamp(rect.left + dx, 8, rect.right - minWidth);
+      else right = clamp(rect.right + dx, rect.left + minWidth, window.innerWidth - 8);
+      if (direction.includes('n')) top = clamp(rect.top + dy, 72, rect.bottom - minHeight);
+      else bottom = clamp(rect.bottom + dy, rect.top + minHeight, window.innerHeight - 8);
+    } else {
+      left = clamp(rect.left + dx, 8, window.innerWidth - rect.width - 8);
+      top = clamp(rect.top + dy, 72, window.innerHeight - rect.height - 8);
+      right = left + rect.width;
+      bottom = top + rect.height;
+    }
+    panel.style.left = `${left}px`;
+    panel.style.top = `${top}px`;
+    panel.style.width = `${right - left}px`;
+    panel.style.height = `${bottom - top}px`;
+    panel.style.right = 'auto';
+    state.structurePosition = { x: left, y: top, width: right - left, height: bottom - top };
   };
-  const stop = () => { handle.removeEventListener('pointermove', move); handle.removeEventListener('pointerup', stop); handle.removeEventListener('pointercancel', stop); };
-  handle.addEventListener('pointermove', move); handle.addEventListener('pointerup', stop); handle.addEventListener('pointercancel', stop);
+  const stop = () => { control.removeEventListener('pointermove', move); control.removeEventListener('pointerup', stop); control.removeEventListener('pointercancel', stop); };
+  control.addEventListener('pointermove', move); control.addEventListener('pointerup', stop); control.addEventListener('pointercancel', stop);
 });
 
 $('#login-form').addEventListener('submit', login);

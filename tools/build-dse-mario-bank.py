@@ -16,10 +16,6 @@ GROUP_TITLES = [
 ]
 
 
-def plain(value):
-    return value.replace('**', '').replace('`', '').strip()
-
-
 def table_rows(start, columns):
     rows = []
     for line in lines[start:]:
@@ -101,22 +97,6 @@ structures = [
     for number, english, purpose in table_rows(structure_start, 3)
 ]
 
-plan_start = next(i for i, line in enumerate(lines) if line.startswith('| 部分 | 主題／展示目標 |'))
-project_outline = [
-    {'part': part, 'theme': plain(theme), 'material': plain(material), 'question': plain(question)}
-    for part, theme, material, question in table_rows(plan_start, 4)
-]
-activity_start = next(i for i, line in enumerate(lines) if line.startswith('| 方案 | 為何有用 |'))
-project_activities = [
-    {'idea': plain(idea), 'benefit': plain(benefit), 'care': plain(care)}
-    for idea, benefit, care in table_rows(activity_start, 3)
-]
-project_roles = [
-    {'role': match[1], 'task': plain(match[2])}
-    for line in lines[activity_start:next(i for i, text in enumerate(lines) if text.startswith('## 五、'))]
-    if (match := re.match(r'^\d\. \*\*(.+?：)\*\*(.+)$', line))
-]
-
 synonyms = []
 category = ''
 in_synonyms = False
@@ -152,7 +132,6 @@ data = {
     ],
     'groups': groups, 'responses': responses,
     'structures': structures, 'synonyms': synonyms,
-    'projectPlan': {'outline': project_outline, 'activities': project_activities, 'roles': project_roles},
 }
 
 assert [len(group['arguments']) for group in groups] == [38, 45, 45]
@@ -162,8 +141,6 @@ assert all(item['description'] and len(item['glossary']) == 5
            for section in groups + responses for item in section['arguments'])
 assert all(section['samples'] for section in responses)
 assert len(structures) == 20 and len(synonyms) == 120
-assert len(project_outline) == 5 and len(project_activities) == 5
-assert len(project_roles) == 5
 assert all(len(entry['alternatives']) == 5 for entry in synonyms)
 DEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(f'{DEST}: {sum(len(s["arguments"]) for s in groups + responses)} arguments, {len(synonyms)} synonym groups')

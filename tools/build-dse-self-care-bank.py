@@ -97,12 +97,6 @@ structures = [
     for number, english, purpose in table_rows(structure_start, 3)
 ]
 
-plan_start = next(i for i, line in enumerate(lines) if line.startswith('| 星期 | 主題 |'))
-study_plan = [
-    {'week': week, 'theme': theme, 'activity': activity, 'participation': participation, 'care': care}
-    for week, theme, activity, participation, care in table_rows(plan_start, 5)
-]
-
 synonyms = []
 category = ''
 in_synonyms = False
@@ -137,7 +131,7 @@ data = {
         {'place': '概念界線', 'point': '知道健康重要未必做得到；活動安排與參與方法應分開討論，並顧及自願參與、私隱、安全及不同學生的需要。'},
     ],
     'groups': groups, 'responses': responses,
-    'structures': structures, 'synonyms': synonyms, 'studyPlan': study_plan,
+    'structures': structures, 'synonyms': synonyms,
 }
 
 assert [len(group['arguments']) for group in groups] == [45, 45, 43]
@@ -147,7 +141,6 @@ assert all(item['description'] and len(item['glossary']) == 5
            for section in groups + responses for item in section['arguments'])
 assert all(section['samples'] for section in responses)
 assert len(structures) == 20 and len(synonyms) == 120
-assert len(study_plan) == 4
 assert all(len(entry['alternatives']) == 5 for entry in synonyms)
 DEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(f'{DEST}: {sum(len(s["arguments"]) for s in groups + responses)} arguments, {len(synonyms)} synonym groups')

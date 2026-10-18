@@ -7519,35 +7519,5 @@
         "practical advice"
       ]
     }
-  ],
-  "studyPlan": [
-    {
-      "week": "Week 1",
-      "theme": "Exercise & Movement（活動與運動）",
-      "activity": "午間步行、溫和伸展、非競賽性活動試玩",
-      "participation": "十分鐘體驗、朋友可同行、獨自參加也受歡迎",
-      "care": "無障礙路線、替代活動、適當場地監督"
-    },
-    {
-      "week": "Week 2",
-      "theme": "Sleep & Rest（睡眠與休息）",
-      "activity": "睡眠習慣講座、自願的私人作息反思、午間安靜角落",
-      "participation": "不需公開數據；短場次與多個時段",
-      "care": "不強制上載睡眠紀錄；尊重個人差異"
-    },
-    {
-      "week": "Week 3",
-      "theme": "Diet & Daily Care（飲食與日常照顧）",
-      "activity": "實惠早餐示範、食品標籤遊戲、補水資訊攤位",
-      "participation": "免費材料、簡單可行的建議",
-      "care": "食物過敏與文化需要；避免身材羞辱"
-    },
-    {
-      "week": "Week 4",
-      "theme": "Emotional Well-being & Connection（情緒與人際）",
-      "activity": "藝術／音樂放鬆、壓力管理情境卡、支援資訊展板",
-      "participation": "自選形式、匿名提問、朋輩邀請",
-      "care": "個人私隱、輔導及轉介安排、危機支援"
-    }
   ]
 }

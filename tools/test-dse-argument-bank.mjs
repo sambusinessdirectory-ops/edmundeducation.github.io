@@ -41,12 +41,8 @@ for (const { data, groupCounts, responseCount, synonyms } of modules) {
   });
   assert.equal(new Set(argumentsInModule.map(item => item.id)).size, argumentsInModule.length, `${data.id}: duplicate arguments`);
   assert.ok(data.synonyms.every(item => item.category && item.keyword && item.chinese && item.alternatives.length === 5 && item.alternatives.every(Boolean)), `${data.id}: synonym alternatives`);
-  if (data.studyPlan) assert.equal(data.studyPlan.length, 4, `${data.id}: four-week study plan`);
-  if (data.projectPlan) {
-    assert.equal(data.projectPlan.outline.length, 5, `${data.id}: project outline`);
-    assert.equal(data.projectPlan.activities.length, 5, `${data.id}: project activities`);
-    assert.equal(data.projectPlan.roles.length, 5, `${data.id}: project roles`);
-  }
+  assert.equal(data.studyPlan, undefined, `${data.id}: unrelated study plan stays absent`);
+  assert.equal(data.projectPlan, undefined, `${data.id}: unrelated project plan stays absent`);
   if (data.id === '2025-subtitles-campus-tv') {
     assert.equal(data.campusPlan, undefined, 'removed Campus TV trial panel stays absent');
   }
