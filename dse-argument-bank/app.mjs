@@ -17,7 +17,7 @@ const client = window.supabase?.createClient?.(config.url, config.anonKey, {
 const sessionKey = 'edmund-dse-argument-bank-student-v1';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const arrow = '<svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg>';
-const state = { token: '', name: '', modules: [], moduleIndex: 0, data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null };
+const state = { token: '', name: '', modules: [], moduleIndex: 0, data: null, progress: {}, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null, selectedYear: 2025, yearOrder: 'newest' };
 let toastTimer;
 
 async function rpc(name, args = {}) {
@@ -56,7 +56,7 @@ function account(name, token, id) {
 async function start() {
   app.innerHTML = '<div class="loading" role="status"><span></span>正在整理 DSE 論點…</div>';
   try {
-    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018c`)));
+    const responses = await Promise.all(['data.json', 'driving-data.json', 'self-care-data.json', 'mario-data.json', 'subtitles-data.json'].map(file => fetch(`dse-argument-bank/${file}?v=20261018d`)));
     if (responses.some(response => !response.ok)) throw new Error('教材暫時未能載入。');
     state.modules = await Promise.all(responses.map(response => response.json()));
     state.moduleIndex = 0;
@@ -183,15 +183,22 @@ function top() {
   return `<div class="dse-top"><button class="back-button" type="button" data-home><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg> 返回主頁</button><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>`;
 }
 function hero() {
-  return `<div class="dse-hero"><span class="eyebrow">2025 · HKDSE ENGLISH LANGUAGE PAPER 4</span><h1>${esc(state.data.heroTitle || state.data.title)}</h1></div>`;
+  return `<div class="dse-hero"><span class="eyebrow">${moduleYear(state.data) || ''} · HKDSE ENGLISH LANGUAGE PAPER 4</span><h1>${esc(state.data.heroTitle || state.data.title)}</h1></div>`;
+}
+function moduleYear(module) {
+  const year = Number(module.year || String(module.title).match(/\b20\d{2}\b/)?.[0]);
+  return year >= 2012 && year <= 2026 ? year : null;
+}
+function moduleDisplayTitle(module) {
+  return String(module.title).replace(/^\s*20\d{2}\s*(?:[·.]\s*)?/, '');
 }
 function renderHome() {
-  app.innerHTML = `<div class="section-head"><div><span class="eyebrow">DSE SPEAKING · CARD 76</span><h1>DSE 論點大全</h1><p>按模組進入，選擇適合你的練習入口。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><div class="module-list">${state.modules.map((module, index) => `<button class="module-card" type="button" data-module="${index}"><span class="module-card__number">MODULE ${String(index + 1).padStart(2, '0')} · 2025 PAPER 4</span><strong>${esc(module.title)}</strong><span>Group Discussion · Individual Response · Synonym</span><span class="module-card__foot">進入模組 ${arrow}</span></button>`).join('')}</div>`;
+  const years = Array.from({ length: 15 }, (_, index) => state.yearOrder === 'newest' ? 2026 - index : 2012 + index);
+  const modules = state.modules.map((module, index) => ({ module, index })).filter(({ module }) => moduleYear(module) === state.selectedYear);
+  app.innerHTML = `<div class="library-shell"><div class="section-head library-head"><div><span class="eyebrow">DSE SPEAKING · CARD 76</span><h1>DSE 論點大全</h1><p>選擇年份，探索練習模組。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div><div class="year-toolbar"><div><span class="eyebrow">PAPER 4 · ARCHIVE</span><h2>按年份選擇</h2></div><button class="year-order" type="button" data-year-order aria-label="切換年份排序">${state.yearOrder === 'newest' ? '2026 → 2012' : '2012 → 2026'} <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h12l-3-3m3 3-3 3M17 17H5l3-3m-3 3 3 3"/></svg></button></div><nav class="year-filter" aria-label="選擇 DSE 年份">${years.map(year => { const count = state.modules.filter(module => moduleYear(module) === year).length; return `<button type="button" data-year="${year}" aria-pressed="${year === state.selectedYear}" class="year-button ${year === state.selectedYear ? 'is-active' : ''}"><strong>${year}</strong>${count ? `<small>${count} 個模組</small>` : '<small>—</small>'}</button>`; }).join('')}</nav><section class="year-results" aria-labelledby="selected-year-title"><div class="year-results__head"><div><span class="eyebrow">SELECTED YEAR</span><h2 id="selected-year-title">${state.selectedYear}</h2></div><span>${modules.length} 個模組</span></div>${modules.length ? `<div class="module-list">${modules.map(({ module, index }) => `<button class="module-card" type="button" data-module="${index}" aria-label="開啟 ${esc(module.title)}"><span class="module-card__number">MODULE ${String(index + 1).padStart(2, '0')} · PAPER 4</span><strong>${esc(moduleDisplayTitle(module))}</strong><span class="module-card__arrow">${arrow}</span></button>`).join('')}</div>` : '<p class="year-empty">此年份暫未加入練習模組。</p>'}</section></div>`;
 }
 function renderModule() {
-  const groupCount = state.data.groups.reduce((count, group) => count + group.arguments.length, 0);
-  const responseCount = state.data.responses.reduce((count, response) => count + response.arguments.length, 0);
-  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><em>小組討論</em><small>${state.data.groups.length} 條指定討論方向 · ${groupCount} 個論點 · 句式表與單人／雙人選論點</small><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><em>個人回應</em><small>${state.data.responses.length} 題考官提問 · ${responseCount} 個論點 · 可改寫示範回應</small><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><em>主題同義詞</em><small>${state.data.synonyms.length} 組主題關鍵詞 · ${state.data.synonyms.length * 5} 個語境替代表達</small><b>${arrow}</b></button></div><section class="context-panel"><span class="eyebrow">THE SOURCE SCENARIO · 題目背景</span><h2>${esc(state.data.contextTitle || '三個材料案例')}</h2><div class="context-grid">${state.data.context.map(item => `<article><strong>${esc(item.place)}</strong><p>${esc(item.point)}</p></article>`).join('')}</div><p class="context-caveat">${esc(state.data.contextCaveat || '以下論點是供課堂辯論的分析與建議；政策主張並非香港已實施的法律。')}</p></section>`;
+  app.innerHTML = `${top()}${hero()}<div class="mode-grid"><button type="button" data-mode="group"><span>01 · PART A</span><strong>Group Discussion</strong><b>${arrow}</b></button><button type="button" data-mode="response"><span>02 · PART B</span><strong>Individual Response</strong><b>${arrow}</b></button><button type="button" data-mode="synonym"><span>03 · LANGUAGE</span><strong>Synonym</strong><b>${arrow}</b></button></div>`;
 }
 function modeNav(active) {
   return `<nav class="mode-nav" aria-label="模組練習選單"><button type="button" data-mode="group" ${active === 'group' ? 'aria-current="page"' : ''}>Group Discussion</button><button type="button" data-mode="response" ${active === 'response' ? 'aria-current="page"' : ''}>Individual Response</button><button type="button" data-mode="synonym" ${active === 'synonym' ? 'aria-current="page"' : ''}>Synonym</button></nav>`;
@@ -210,7 +217,7 @@ function responseQuestion(section, index) {
   return `<section class="prompt-section ${open ? 'is-open' : ''}"><button type="button" class="prompt-trigger" data-response="${section.id}" aria-expanded="${open}"><span>${String(index + 1).padStart(2, '0')}</span><span><strong lang="en">${esc(section.question)}</strong><small>${section.arguments.length} 個論點 · ${section.angles.length} 個角度</small></span><b aria-hidden="true">${open ? '−' : '+'}</b></button>${open ? `<div class="prompt-body"><p class="response-reminder">示範答覆只供練習；如涉及個人經歷，請按自己的真實情況修改。</p><div class="angle-grid">${angleSections(section)}</div><section class="sample-section"><span class="eyebrow">PRACTISE · ADAPT TO YOUR EXPERIENCE</span><h3>英文示範回應</h3>${section.samples.map(sample => `<div class="sample-card"><small>${esc(sample.label)}</small><p lang="en">${esc(sample.text)}</p></div>`).join('')}</section></div>` : ''}</section>`;
 }
 function renderResponse() {
-  app.innerHTML = `${top()}${modeNav('response')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART B · INDIVIDUAL RESPONSE</span><h1>Individual Response</h1><p>八條考官提問。先選你真正認同的方向，再組織直接回答、理由、例子和簡短收結。</p></div></div><div class="prompt-list">${state.data.responses.map(responseQuestion).join('')}</div>`;
+  app.innerHTML = `${top()}${modeNav('response')}<div class="section-head dse-section-head"><div><span class="eyebrow">PART B · INDIVIDUAL RESPONSE</span><h1>Individual Response</h1></div></div><div class="prompt-list">${state.data.responses.map(responseQuestion).join('')}</div>`;
 }
 function renderSynonym() {
   const sections = [...new Set(state.data.synonyms.map(item => item.category))];
@@ -290,6 +297,8 @@ app.addEventListener('click', event => {
   if (!button) return;
   if (button.hasAttribute('data-retry')) { start(); return; }
   if (button.hasAttribute('data-home')) { state.pick = null; navigate('home'); return; }
+  if (button.hasAttribute('data-year-order')) { state.yearOrder = state.yearOrder === 'newest' ? 'oldest' : 'newest'; renderHome(); return; }
+  if (button.hasAttribute('data-year')) { state.selectedYear = Number(button.dataset.year); renderHome(); return; }
   if (button.hasAttribute('data-module')) { selectModule(Number(button.dataset.module)); return; }
   if (button.hasAttribute('data-bookmarks')) { navigate('bookmarks'); return; }
   if (button.dataset.mode) { state.pick = null; navigate(button.dataset.mode); return; }
