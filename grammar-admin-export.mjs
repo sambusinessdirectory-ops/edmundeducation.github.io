@@ -2,13 +2,29 @@
 const text = value => String(value ?? '');
 const escape = value => text(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const displayedTense = value => JSON.parse(JSON.stringify(value).replace(/\bMia\b/g,'Tom').replaceAll('米婭','湯姆'));
-export function grammarModules(source) {
+export function grammarModules(source, document) {
   const tense = displayedTense(source.EDMUND_GRAMMAR_TENSE_QUESTIONS || []);
-  return [
+  const modules = [
     {id:'tense',title:'Tense · 時態',questions:tense,topics:displayedTense(source.EDMUND_GRAMMAR_TENSE_CURATION || []),appendix:''},
     {id:'articles',title:'Articles · 冠詞',...source.EDMUND_GRAMMAR_ARTICLES_DATA,id:'articles'},
     {id:'advanced-articles',title:'Advanced Articles · 進階冠詞',...source.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA,id:'advanced-articles'}
   ].filter(m => m.questions?.length);
+  // Keep the on-screen editorial summaries as well as the complete imported text.
+  if (document) for (const module of modules) {
+    const selector = module.id === 'articles' ? '[data-articles-stream]' : module.id === 'advanced-articles' ? '[data-advanced-articles-stream]' : '';
+    if (!selector) continue;
+    const stream = document.querySelector(selector);
+    if (!stream) continue;
+    module.topics = module.topics.map(topic => {
+      const card = [...stream.querySelectorAll('.grammar-articles-topic')].find(el => el.id.endsWith(`topic-${topic.number}`));
+      const focus = card?.querySelector('.grammar-articles-topic__focus p')?.textContent;
+      return focus ? {...topic, body:`核心規則\n${focus}\n\n完整講解與所有例句\n${topic.body}`} : topic;
+    });
+    const map = stream.querySelector('.grammar-articles-topic--appendix');
+    const summary = map ? [...map.querySelectorAll('.grammar-articles-map__intro,.grammar-articles-map__choice,.grammar-articles-map__checks li')].map(el => [...el.querySelectorAll('strong,p,small')].map(part => part.textContent).join('\n') || el.textContent).join('\n\n') : '';
+    if (summary) module.appendix = `畫面上的解題總表\n${summary}\n\n完整原文\n${module.appendix}`;
+  }
+  return modules;
 }
 function answer(q) { return q.answer || (q.answers || q.acceptedAnswers || []).join(' / '); }
 function explanation(q) { return q.steps?.map(s=>`${s.title}\n${s.body}`).join('\n\n') || (q.explanation || []).join('\n'); }

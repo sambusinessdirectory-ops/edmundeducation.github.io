@@ -1,4 +1,4 @@
-import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-admin1';
+import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-admin2';
 const root=document.querySelector('[data-learning-portal-root]');
 const context=window.EDMUND_LEARNING_PORTAL_CONTEXT;
 if(root && context?.rpc) {
@@ -40,7 +40,7 @@ if(root && context?.rpc) {
     const previous=token;clear('已登出管理員。');
     try{await context.rpc('grammar_admin_logout',{p_token:previous});}catch{status.textContent='本機已登出。連線中斷，伺服器登入將於到期後失效。';}
   });
-  const modules=grammarModules(window);
+  const modules=grammarModules(window,document);
   for(const module of modules){
     const card=document.createElement('article');card.className='grammar-admin__module';
     const title=document.createElement('h2');title.textContent=module.title;card.append(title);

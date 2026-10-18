@@ -24,3 +24,14 @@ assert.ok(!exportText(modules[0],'exercises',true).includes('Mia'));
 const injection={title:'<script>x</script>',id:'safe',questions:[{number:1,prompt:'<img onerror=x>',translation:'中文'}]};assert.ok(exportHtml(injection,'exercises').includes('&lt;img onerror=x&gt;'));
 assert.throws(()=>exportText(modules[0],'bad'));
 console.log(`Grammar exports: 3 modules, 400 exercises, 145 curation topics and 2 appendices, ${checks} content checks passed.`);
+
+const {createRequire}=await import('node:module');
+const require=createRequire(new URL('./email-qa/package.json',import.meta.url));
+const {JSDOM}=require('jsdom');
+const doc=new JSDOM(`<div data-articles-stream><article class="grammar-articles-topic" id="articles-topic-1"><div class="grammar-articles-topic__focus"><p>On-screen editorial focus</p></div></article><section class="grammar-articles-topic--appendix"><p class="grammar-articles-map__intro">Map intro</p><div class="grammar-articles-map__checks"><ol><li>Map check</li></ol></div></section></div>`).window.document;
+const withDisplay=grammarModules(scope.window,doc);
+assert.ok(exportText(withDisplay[1],'curation').includes('On-screen editorial focus'));
+assert.ok(exportText(withDisplay[1],'curation').includes('Map intro'));
+assert.ok(exportText(withDisplay[1],'curation').includes('Map check'));
+assert.ok(exportText(withDisplay[1],'curation').includes(scope.window.EDMUND_GRAMMAR_ARTICLES_DATA.topics[0].body));
+console.log('On-screen summaries and complete source curation are both retained.');
