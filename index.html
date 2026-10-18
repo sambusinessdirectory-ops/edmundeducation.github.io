@@ -2914,6 +2914,44 @@
       --category-key-lip: #5b3425;
     }
 
+    .category.portal-illustrated-card.error-identifier-card,
+    .category.portal-illustrated-card.error-identifier-card:hover,
+    .category.portal-illustrated-card.error-identifier-card:focus-visible {
+      background-color: #f2eee5;
+      background-image: url('homepage-error-identifier-card.webp');
+      background-size: cover;
+      background-position: center;
+      --category-key-lip: #714634;
+    }
+
+    .category.portal-illustrated-card.error-identifier-card .category-name {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      width: auto;
+      max-width: 100%;
+      margin-top: 0;
+      padding: 6px 10px 7px;
+      border: 1px solid rgba(78, 52, 38, .15);
+      border-radius: 2px;
+      background: rgba(250, 248, 242, .94);
+      color: #241c19;
+      box-shadow: 0 2px 8px rgba(54, 39, 30, .11);
+      text-shadow: none;
+    }
+
+    .error-identifier-card .error-card-title-en {
+      font: 400 clamp(17px, 1.07vw, 21px)/1 "Didot", "Bodoni 72", "Times New Roman", serif;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .error-identifier-card .error-card-title-zh {
+      font: 400 clamp(16px, .95vw, 19px)/1.16 "Songti TC", "Noto Serif TC Local", "Noto Serif TC", "PMingLiU", serif;
+      letter-spacing: .13em;
+    }
+
     .category.portal-illustrated-card.synonyms-card,
     .category.portal-illustrated-card.synonyms-card:hover,
     .category.portal-illustrated-card.synonyms-card:focus-visible {
@@ -3265,8 +3303,8 @@
           <span class="category-name">Synonyms<br>同義詞<br>學習系統</span>
         </a>
 
-        <a class="category portal-illustrated-card learning-portal-card" href="error-identifier-system.html" aria-label="Error Identifier 錯因分析系統" style="--portal-card-image:url('assets/homepage/card-art/card-37.webp');--portal-card-hue:4">
-          <span class="category-name">Error Identifier<br>錯因分析系統</span>
+        <a class="category portal-illustrated-card learning-portal-card error-identifier-card" href="error-identifier-system.html" aria-label="Error Identifier 錯因分析系統" style="--portal-card-hue:4">
+          <span class="category-name"><span class="error-card-title-en">Error Identifier</span><span class="error-card-title-zh">錯因分析系統</span></span>
         </a>
 
         <a class="category portal-illustrated-card learning-portal-card" href="learning-roadmap.html" aria-label="Learning Roadmap 英文學習路線圖" style="--portal-card-image:url('assets/homepage/card-art/card-38.webp');--portal-card-hue:228">
