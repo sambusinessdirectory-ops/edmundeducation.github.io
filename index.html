@@ -2942,8 +2942,12 @@
       background-size: cover;
     }
 
-    .category.portal-illustrated-card.humour-pen-card {
+    .category.portal-illustrated-card.humour-pen-card,
+    .category.portal-illustrated-card.humour-pen-card:hover,
+    .category.portal-illustrated-card.humour-pen-card:focus-visible {
       --humour-card-art: url('homepage-humour-writing-card.webp');
+      background-size: 94% auto;
+      background-position: center top;
     }
 
     .category.portal-illustrated-card.humour-art-card .category-name {
@@ -3282,7 +3286,7 @@
         </a>
 
         <a class="category portal-illustrated-card learning-portal-card humour-art-card humour-face-card" href="english-humour-speaking.html" aria-label="English Humour Speaking 英文幽默會話系統" style="--portal-card-hue:52">
-          <span class="category-name">English Humour<br>Speaking<br>英文幽默會話系統</span>
+          <span class="category-name">英文幽默會話系統</span>
         </a>
 
         <a class="category portal-illustrated-card learning-portal-card humour-art-card humour-pen-card" href="english-humour-writing.html" aria-label="English Humour Writing 英文幽默寫作系統" style="--portal-card-hue:332">
