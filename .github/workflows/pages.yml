@@ -81,6 +81,8 @@ jobs:
         run: |
           npm ci --prefix tools/email-qa --ignore-scripts
           node --check grammar-system.js
+          node --check grammar-admin.js
+          node tools/test-grammar-admin-export.mjs
           node tools/test-grammar-tense-system.mjs
           node --check grammar-articles.js
           node tools/test-grammar-articles-system.mjs
