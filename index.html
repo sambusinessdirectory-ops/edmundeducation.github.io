@@ -2884,6 +2884,7 @@
     .category.portal-illustrated-card.jokes-collection-card .category-name,
     .category.portal-illustrated-card.reading-logic-card .category-name,
     .category.portal-illustrated-card.argument-learning-card .category-name,
+    .category.portal-illustrated-card.poem-english-card .category-name,
     .category.portal-illustrated-card.membership-card .category-name {
       position: absolute;
       width: 1px;
@@ -2927,6 +2928,26 @@
       background-position: center;
       background-repeat: no-repeat;
       --category-key-lip: #a97622;
+    }
+
+    .category.portal-illustrated-card.poem-english-card,
+    .category.portal-illustrated-card.poem-english-card:hover,
+    .category.portal-illustrated-card.poem-english-card:focus-visible {
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background-color: transparent;
+      background-image: url('homepage-poem-english-card.webp');
+      background-size: auto 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: none;
+      overflow: visible;
+    }
+
+    .category.portal-illustrated-card.poem-english-card:focus-visible {
+      outline: 2px solid #35434a;
+      outline-offset: 4px;
     }
 
     .category.portal-illustrated-card.business-english-card,
@@ -3442,7 +3463,7 @@
           <span class="category-name">Ted Talk English<br>Ted Talk 英文<br>學習系統</span>
         </a>
 
-        <a class="category portal-illustrated-card learning-portal-card" href="poem-english-system.html" aria-label="Poem English 詩句賞識系統" style="--portal-card-image:url('assets/homepage/card-art/card-55.webp');--portal-card-hue:286">
+        <a class="category portal-illustrated-card learning-portal-card poem-english-card" href="poem-english-system.html" aria-label="Poem English 詩句賞識系統">
           <span class="category-name">Poem English<br>詩句賞識系統</span>
         </a>
 
