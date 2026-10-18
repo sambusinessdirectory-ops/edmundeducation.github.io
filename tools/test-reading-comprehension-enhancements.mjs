@@ -67,7 +67,7 @@ function node(selector) {
   if (!nodes.has(selector)) nodes.set(selector, {
     textContent: '', innerHTML: '', hidden: false, disabled: false, value: '', dataset: {}, attributes: {}, offsetHeight: 70,
     classList: { add() {}, remove() {}, toggle() {} }, style: { setProperty() {} },
-    setAttribute(key, value) { this.attributes[key] = value; }, getAttribute(key) { return this.attributes[key]; },
+    setAttribute(key, value) { this.attributes[key] = value; }, removeAttribute(key) { delete this.attributes[key]; }, getAttribute(key) { return this.attributes[key]; },
     querySelector: node, querySelectorAll: (key) => groups.get(key) || [], pause() {}, focus() {}, scrollIntoView() {}
   });
   return nodes.get(selector);
@@ -122,6 +122,21 @@ assert.equal(run('state.bookmarks.has(readingBookmarkItem("paragraph", 3).key)')
 await run('toggleReadingBookmark(readingBookmarkItem("paragraph", 3))');
 assert.equal(calls.at(-1).args.p_bookmarked, false);
 assert.equal(run('state.bookmarkItems.size'), 0);
+run(`state.bookmarkItems.set('word:${id}:p3:w2', {key:'word:${id}:p3:w2', title:'[閱讀重點] council', detail:'Plain English Campaign · 第 1 段 · 點選字詞', created_at:'2026-10-18T00:00:00Z'}); renderBookmarkLibrary();`);
+assert.match(node('[data-reading-bookmark-list]').innerHTML, /<h3>council<\/h3>/);
+assert.match(node('[data-reading-bookmark-list]').innerHTML, /出處：Plain English Campaign · 第 1 段/);
+assert.doesNotMatch(node('[data-reading-bookmark-list]').innerHTML, /點選字詞/);
+run(`state.bookmarkItems.clear(); renderBookmarkLibrary();`);
+const removalCancelled = run('confirmWordRemoval("council")');
+run('finishWordRemoval(false)');
+assert.equal(await removalCancelled, false, 'cancelling the dialog cannot remove a word');
+const removalConfirmed = run('confirmWordRemoval("council")');
+run('finishWordRemoval(true)');
+assert.equal(await removalConfirmed, true, 'removal requires explicit confirmation');
+run('state.system = "dse";');
+await run('loadDashboard()');
+assert.equal(calls.at(-1).name, 'dse_reading_student_dashboard', 'DSE progress uses DSE records');
+run('state.system = "ielts";');
 run('rpc = async () => { throw new Error("offline test"); };');
 const oldWarn = console.warn; console.warn = () => {};
 try { await run('toggleReadingBookmark(readingBookmarkItem("question", 2))'); }

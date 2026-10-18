@@ -108,10 +108,28 @@ function questionTypeArticleCount(typeKey) { return questionTypeArticles.reduce(
 function setConnection(text, status) { el.connection.textContent = text; el.connection.dataset.state = status; }
 function setStatus(text = "", status = "") { el.loginStatus.textContent = text; el.loginStatus.dataset.state = status; }
 function showToast(message) { clearTimeout(state.toastHandle); el.toast.textContent = message; el.toast.hidden = false; state.toastHandle = setTimeout(() => { el.toast.hidden = true; }, 3600); }
+const dseActivity = { ms: 0, started: 0 };
+function pauseDseActivity() {
+  if (dseActivity.started) dseActivity.ms += Date.now() - dseActivity.started;
+  dseActivity.started = 0;
+}
+function resumeDseActivity() {
+  if (state.system === 'dse' && state.view === 'exercise' && !state.dseSubmitted && !document.hidden && !dseActivity.started) dseActivity.started = Date.now();
+}
+function dsePracticeDuration() { return Math.min(86400000, Math.round(dseActivity.ms + (dseActivity.started ? Date.now() - dseActivity.started : 0))); }
 function showView(view) {
   deepReader?.close();
   if (view !== 'exercise') closeInteractiveFlashcards({ clearFrame: true });
+  pauseDseActivity();
+  const sharedDestination = view === 'dse-dashboard' ? $('[data-view="dse-dashboard"] [data-dse-year-grid]') : view === 'dashboard' ? $('[data-view="dashboard"] .mock-exam-panel') : null;
+  if (typeof sharedDestination?.before === 'function') {
+    sharedDestination.before(el.progressToggle, el.progressPanel);
+    const library = $('[data-bookmark-library]')?.closest('.bookmark-library');
+    const libraryDestination = view === 'dashboard' ? $('[data-view="dashboard"] .catalogue-tools') : sharedDestination;
+    if (library && typeof libraryDestination?.before === 'function') libraryDestination.before(library);
+  }
   state.view = view; el.views.forEach((node) => { node.hidden = node.dataset.view !== view; });
+  resumeDseActivity();
   const signedIn = Boolean(state.user && state.token); el.user.hidden = !signedIn; el.logout.hidden = !signedIn; el.home.hidden = !signedIn || view === "login" || view === "reading-home";
   if (signedIn) el.user.textContent = `${state.user.name} · 學生`;
   window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
@@ -536,7 +554,9 @@ function renderChart(container, days, metric, formatter) {
   container.innerHTML = rows.map((row) => { const value = Number(row[metric] || 0); const date = String(row.date || row.activity_date || "").slice(5); return `<span class="chart-bar" title="${escapeHtml(String(row.date || ""))} · ${escapeHtml(formatter(value))}"><i style="--height:${Math.max(value ? 6 : 0, Math.round(value / max * 155))}px"></i><small>${escapeHtml(date)}</small></span>`; }).join("");
 }
 async function loadDashboard() {
-  try { state.dashboard = await rpc("reading_comprehension_student_dashboard", { p_token: state.token }); }
+  const isDse = state.system === 'dse';
+  $('[data-dse-progress-note]').hidden = !isDse;
+  try { state.dashboard = await rpc(isDse ? "dse_reading_student_dashboard" : "reading_comprehension_student_dashboard", { p_token: state.token }); }
   catch (error) { console.warn("Reading dashboard unavailable", error); state.dashboard = { attempts: [], activityDays: [], timeDays: [], totals: {} }; }
   const snapshot = state.dashboard || {}; const activity = snapshot.activityDays || snapshot.activity_days || []; const time = snapshot.timeDays || snapshot.time_days || [];
   renderChart(el.questionChart, activity, "questions", (v) => `${v} 題`); renderChart(el.timeChart, time, "duration_ms", formatDuration);
@@ -649,7 +669,7 @@ function renderDseCatalogue() {
       const label = entry ? `${year.year} Part ${section}：${entry.title}` : `${year.year} Part ${section} 尚未加入`;
       return `<button class="dse-section-button${entry ? ' is-ready' : ''}" type="button" data-open-dse-exercise="${escapeHtml(entry?.id || '')}" aria-label="${escapeHtml(label)}"${entry ? '' : ' disabled'}>${section}</button>`;
     }).join('');
-    return `<section class="dse-year-card${readyCount ? ' is-ready' : ''}"><div class="dse-year-card-header"><h2>${year.year}</h2><span class="dse-year-card-badge">${readyCount ? `${readyCount} 份已加入` : '稍後加入'}</span></div><div class="dse-section-buttons">${sections}</div></section>`;
+    return `<section class="dse-year-card${readyCount ? ' is-ready' : ''}"><div class="dse-year-card-header"><h2>${year.year}</h2></div><div class="dse-section-buttons">${sections}</div></section>`;
   }).join('');
   const readyParts = years.reduce((total, year) => total + Object.values(year.sections || {}).filter(Boolean).length, 0);
   el.dseCatalogueStatus.textContent = `2012–2026 · 共 ${years.length} 個年份 · ${readyParts} 份試卷現已開放`;
@@ -666,6 +686,7 @@ async function openDseDashboard() {
   renderDseExamYears();
   document.title = 'DSE 閱讀理解｜EdmundEducation';
   showView('dse-dashboard');
+  await Promise.all([loadDashboard(), loadBookmarks()]);
   void refreshFullExamLaunch();
 }
 async function enterIeltsReading() {
@@ -1022,9 +1043,10 @@ async function saveDseAttempt(action = 'save', silent = false) {
   const paperId = ARTICLE_ID;
   const revision = state.data.questionRevision || 'v1';
   const answers = { ...state.answers };
-  const task = rpc('dse_reading_attempt', {
+  const task = rpc('dse_reading_timed_attempt', {
     p_token: state.token, p_paper_id: paperId, p_revision: revision,
-    p_action: action, p_attempt_id: state.dseAttemptId, p_answers: answers
+    p_action: action, p_attempt_id: state.dseAttemptId, p_answers: answers,
+    p_duration_ms: dsePracticeDuration()
   });
   state.dseSavePromise = task;
   try {
@@ -1032,6 +1054,7 @@ async function saveDseAttempt(action = 'save', silent = false) {
     if (state.system !== 'dse' || ARTICLE_ID !== paperId) return true;
     state.dseAttemptId = result.attempt_id;
     if (action === 'submit') {
+      pauseDseActivity();
       state.dseSubmitted = true;
       showDseAttemptState();
       el.submissionStatus.textContent = '試卷已正式提交並儲存到帳戶。此卷暫未提供自動評分；可在已有解析的題目查看參考答案。';
@@ -1054,11 +1077,13 @@ async function loadDseAttempt() {
   let localUpdated = 0;
   try { localUpdated = Date.parse(localStorage.getItem(dseDraftKey() + ':updated') || '') || 0; } catch {}
   try {
-    const result = await rpc('dse_reading_attempt', {
-      p_token: state.token, p_paper_id: paperId, p_revision: revision, p_action: 'get'
+    const result = await rpc('dse_reading_timed_attempt', {
+      p_token: state.token, p_paper_id: paperId, p_revision: revision,
+      p_action: 'get', p_attempt_id: null, p_answers: null, p_duration_ms: 0
     });
     if (ARTICLE_ID !== paperId || state.system !== 'dse') return;
     state.dseAttemptId = result?.attempt_id || null;
+    dseActivity.ms = Number(result?.duration_ms || 0); dseActivity.started = 0;
     state.dseSubmitted = result?.status === 'submitted';
     if (result && (state.dseSubmitted || Date.parse(result.updated_at || '') >= localUpdated)) {
       state.answers = result.answers || {};
@@ -1088,12 +1113,14 @@ async function loadDseAttempt() {
 async function startNewDseAttempt() {
   if (!state.dseSubmitted) return;
   try {
-    const result = await rpc('dse_reading_attempt', {
+    const result = await rpc('dse_reading_timed_attempt', {
       p_token: state.token, p_paper_id: ARTICLE_ID,
-      p_revision: state.data.questionRevision || 'v1', p_action: 'new'
+      p_revision: state.data.questionRevision || 'v1', p_action: 'new',
+      p_attempt_id: null, p_answers: null, p_duration_ms: 0
     });
     state.dseAttemptId = result.attempt_id;
     state.dseSubmitted = false;
+    dseActivity.ms = 0; dseActivity.started = 0; resumeDseActivity();
     state.answers = {};
     $$('[data-answer-part]', el.questionForm).forEach((control) => {
       if (control.type === 'radio' || control.type === 'checkbox') control.checked = false;
@@ -1273,7 +1300,7 @@ function setBookmarkLibraryOpen(open) {
 }
 function renderBookmarkLibrary() {
   $('[data-bookmark-count]').textContent = String(state.bookmarkItems.size);
-  $('[data-bookmark-status]').textContent = state.bookmarkError ? '未能同步最新書簽，請按「重新整理書簽」再試。' : '全部 Passage 的書簽 · 按收藏日期排列';
+  $('[data-bookmark-status]').textContent = state.bookmarkError ? '未能同步最新書簽，請按「重新整理書簽」再試。' : 'DSE 與 IELTS 閱讀書簽 · 按收藏日期排列';
   const filter = $('[data-bookmark-filter]').value;
   const items = [...state.bookmarkItems.values()].sort((a, b) => String(b.created_at || '').localeCompare(String(a.created_at || ''))).filter((item) => {
     const kind = bookmarkTarget(item.key)?.kind; return filter === 'all' || kind === filter || (filter === 'analysis' && kind === 'section');
@@ -1282,7 +1309,8 @@ function renderBookmarkLibrary() {
     const target = bookmarkTarget(item.key); const pending = state.pendingBookmarks.has(item.key);
     const word = target?.kind === 'word';
     const title = word ? String(item.title || '').replace(/^\[閱讀重點\]\s*/, '').trim() : item.title;
-    return `<article class="reading-bookmark-card${word ? ' is-word' : ''}"><div><span class="reading-bookmark-type">${escapeHtml(BOOKMARK_LABELS[target?.kind] || '閱讀書簽')}</span><h3>${escapeHtml(title)}</h3>${word ? '' : `<p>${escapeHtml(item.detail)}</p>`}</div><div class="reading-bookmark-actions"><button type="button" class="primary-button" data-open-reading-bookmark="${escapeHtml(item.key)}"${target ? '' : ' disabled'}>開啟書簽 →</button><button type="button" class="secondary-button" data-remove-reading-bookmark="${escapeHtml(item.key)}"${pending ? ' disabled' : ''}>${pending ? '儲存中…' : '移除'}</button></div></article>`;
+    const detail = word ? String(item.detail || '').replace(/\s*·\s*點選字詞\s*$/, '') : item.detail;
+    return `<article class="reading-bookmark-card${word ? ' is-word' : ''}"><div><span class="reading-bookmark-type">${escapeHtml(BOOKMARK_LABELS[target?.kind] || '閱讀書簽')}</span><h3>${escapeHtml(title)}</h3>${detail ? `<p${word ? ' class="reading-bookmark-source"' : ''}>${word ? '出處：' : ''}${escapeHtml(detail)}</p>` : ''}</div><div class="reading-bookmark-actions"><button type="button" class="primary-button" data-open-reading-bookmark="${escapeHtml(item.key)}"${target ? '' : ' disabled'}>開啟書簽 →</button><button type="button" class="secondary-button" data-remove-reading-bookmark="${escapeHtml(item.key)}"${pending ? ' disabled' : ''}>${pending ? '儲存中…' : '移除'}</button></div></article>`;
   }).join('') : `<p class="empty-state">${state.bookmarkError ? '連線恢復後即可顯示已收藏的內容。' : state.bookmarkItems.size ? '此類型暫未有書簽。' : '尚未有閱讀書簽。在文章、段落、題目或提示旁按 ☆ 即可收藏。'}</p>`;
 }
 async function openReadingBookmark(key) {
@@ -1295,9 +1323,29 @@ async function openReadingBookmark(key) {
   history.replaceState({}, '', readingBookmarkLink(target));
   await openExercise(target.article);
 }
+const wordRemoveDialog = $('[data-word-remove-dialog]');
+let pendingWordRemoval = null;
+function confirmWordRemoval(label) {
+  if (pendingWordRemoval) return Promise.resolve(false);
+  $('[data-word-remove-description]').textContent = `確定移除「${label}」？移除後，這個字詞將不再出現在我的閱讀書簽。`;
+  return new Promise((resolve) => {
+    pendingWordRemoval = resolve;
+    if (typeof wordRemoveDialog.showModal === 'function') wordRemoveDialog.showModal();
+    else wordRemoveDialog.setAttribute('open', '');
+  });
+}
+function finishWordRemoval(confirmed) {
+  if (!pendingWordRemoval) return;
+  const resolve = pendingWordRemoval; pendingWordRemoval = null;
+  if (typeof wordRemoveDialog.close === 'function' && wordRemoveDialog.open) wordRemoveDialog.close();
+  else wordRemoveDialog.removeAttribute('open');
+  resolve(confirmed);
+}
 async function toggleWordBookmark(word) {
   if (word.classList.contains('is-pending')) return;
-  const key = word.dataset.wordKey; const bookmarked = !state.bookmarks.has(key); const context = word.dataset.wordContext; const label = word.textContent.trim(); word.classList.toggle("is-pending", true);
+  const key = word.dataset.wordKey; const bookmarked = !state.bookmarks.has(key); const context = word.dataset.wordContext; const label = word.textContent.trim();
+  if (!bookmarked && !await confirmWordRemoval(label)) return;
+  word.classList.toggle("is-pending", true);
   const paragraphNumber = context.startsWith("p") ? Number(context.slice(1)) : 0;
   const questionNumber = context.startsWith("q") ? Number(context.slice(1)) : 0;
   const paragraph = state.data.paragraphs.find(item => Number(item.number) === paragraphNumber);
@@ -1569,6 +1617,7 @@ function setupInteractiveFlashcardsPanel() {
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
   try {
+    pauseDseActivity();
     const requestedHash = new URL(location.href).hash;
     if (state.system === 'dse' && state.view === 'exercise') {
       saveDseDraft();
@@ -1676,6 +1725,11 @@ async function openInitialView({ afterLogin = false } = {}) {
 }
 
 el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openReadingHome); $('[data-back-dashboard]').addEventListener("click", () => state.system === 'dse' ? openDseDashboard() : openDashboard()); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
+document.addEventListener('visibilitychange', () => { if (document.hidden) pauseDseActivity(); else resumeDseActivity(); });
+$('[data-word-remove-cancel]').addEventListener('click', () => finishWordRemoval(false));
+$('[data-word-remove-confirm]').addEventListener('click', () => finishWordRemoval(true));
+wordRemoveDialog.addEventListener('cancel', (event) => { event.preventDefault(); finishWordRemoval(false); });
+wordRemoveDialog.addEventListener('click', (event) => { if (event.target === wordRemoveDialog) finishWordRemoval(false); });
 $('[data-enter-ielts]').addEventListener('click', enterIeltsReading);
 $('[data-enter-dse]').addEventListener('click', openDseDashboard);
 $$('[data-back-reading-home]').forEach((button) => button.addEventListener('click', openReadingHome));
@@ -1712,7 +1766,13 @@ document.addEventListener("click", (event) => {
   const passageButton = event.target.closest('[data-passage-bookmark]'); if (passageButton) return togglePassageBookmark();
   const button = event.target.closest('[data-bookmark-kind]'); if (button) return toggleReadingBookmark(readingBookmarkItem(button.dataset.bookmarkKind, Number(button.dataset.bookmarkNumber || 0), button.dataset.bookmarkSection || ''));
   const openButton = event.target.closest('[data-open-reading-bookmark]'); if (openButton) return openReadingBookmark(openButton.dataset.openReadingBookmark);
-  const removeButton = event.target.closest('[data-remove-reading-bookmark]'); if (removeButton) return toggleReadingBookmark(state.bookmarkItems.get(removeButton.dataset.removeReadingBookmark), true);
+  const removeButton = event.target.closest('[data-remove-reading-bookmark]'); if (removeButton) {
+    const item = state.bookmarkItems.get(removeButton.dataset.removeReadingBookmark);
+    if (!item) return;
+    if (bookmarkTarget(item.key)?.kind !== 'word') return toggleReadingBookmark(item, true);
+    const label = String(item.title || '').replace(/^\[閱讀重點\]\s*/, '').trim();
+    return confirmWordRemoval(label).then((confirmed) => { if (confirmed) return toggleReadingBookmark(item, true); });
+  }
 });
 $('[data-catalogue-search]').addEventListener('input', () => { state.cataloguePage = 0; renderCatalogue(); });
 $('[data-catalogue-previous]').addEventListener('click', () => { state.cataloguePage--; renderCatalogue(); });
@@ -1763,7 +1823,16 @@ el.audioToggle.addEventListener("click", () => { state.audioStopAt = null; if (e
 $$('[data-close-popover]').forEach((button) => button.addEventListener("click", () => closePopover(button.closest('[role="dialog"]'))));
 document.addEventListener("pointerdown", (event) => { [el.skimmingDialog, el.analysisDialog].forEach((popover) => { if (!popover.hidden && !popover.contains(event.target) && !event.target.closest('[data-skimming],[data-reveal],[data-scanning-tip]')) closePopover(popover); }); });
 document.addEventListener("keydown", (event) => { if (event.key === "Escape") closePopovers(); });
-document.addEventListener("visibilitychange", () => { if (document.hidden) { if (isFullExamOpen()) void saveFullExam(); else { pauseTimer(); saveAttempt(false, false, true); } } }); window.addEventListener("pagehide", () => { if (isFullExamOpen()) void saveFullExam(); else { pauseTimer(); saveAttempt(false, false, true); } });
+function saveWhenLeavingPage() {
+  if (isFullExamOpen()) { void saveFullExam(); return; }
+  pauseTimer();
+  if (state.system === 'dse' && state.view === 'exercise') {
+    pauseDseActivity();
+    if (!state.dseSubmitted) void saveDseAttempt('save', true);
+  } else void saveAttempt(false, false, true);
+}
+document.addEventListener("visibilitychange", () => { if (document.hidden) saveWhenLeavingPage(); });
+window.addEventListener("pagehide", saveWhenLeavingPage);
 window.addEventListener('popstate', () => { if (state.user && state.token) void openInitialView(); });
 
 (async function init() {

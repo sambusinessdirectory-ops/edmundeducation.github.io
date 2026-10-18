@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20261018-reading-polish1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20261018-reading-followup2">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20260904-admin-source1">
 </head>
@@ -134,6 +134,7 @@
       <section class="progress-panel panel" id="reading-progress-panel" data-progress-panel hidden>
         <article><p class="eyebrow">QUESTIONS BY DATE</p><h2>每日完成題目</h2><div class="chart" data-question-chart><p class="empty-state">完成練習後，圖表會在這裡顯示。</p></div><p class="chart-total">累計：<strong data-question-total>0</strong> 題</p></article>
         <article><p class="eyebrow">TIME BY DATE</p><h2>每日練習時間</h2><div class="chart" data-time-chart><p class="empty-state">開始練習後，時間會在這裡顯示。</p></div><p class="chart-total">累計：<strong data-time-total>0 分 00 秒</strong></p></article>
+        <p class="reading-dse-progress-note" data-dse-progress-note hidden>舊版 DSE 作答沒有計時紀錄；時間圖表從新版練習及完整試卷開始計算。</p>
       </section>
       <section class="mock-exam-panel panel" aria-labelledby="mock-exam-title">
         <div class="mock-exam-intro">
@@ -269,6 +270,7 @@
             <button type="button" data-teaching-color="blue" aria-label="藍色螢光筆" aria-pressed="false" title="藍色"><span></span></button>
             <button type="button" data-teaching-color="purple" aria-label="淡紫色螢光筆" aria-pressed="false" title="淡紫色"><span></span></button>
             <button type="button" data-teaching-color="red" aria-label="紅色螢光筆" aria-pressed="false" title="紅色"><span></span></button>
+            <button type="button" data-teaching-color="hide" aria-label="隱藏所選文字" aria-pressed="false" title="隱藏文字"><span aria-hidden="true"></span></button>
           </div>
           <button class="secondary-button reading-highlight-clear" type="button" data-teaching-clear>清除全部標記</button>
           <span class="sr-only" role="status" aria-live="polite" data-teaching-status></span>
@@ -341,8 +343,14 @@
   <dialog class="reading-highlight-dialog" data-teaching-clear-dialog aria-labelledby="teaching-clear-title" aria-describedby="teaching-clear-description">
     <div class="reading-highlight-dialog__icon" aria-hidden="true">✦</div>
     <h2 id="teaching-clear-title">清除所有暫時標記？</h2>
-    <p id="teaching-clear-description">這會移除目前文章和題目中的所有螢光筆標記。清除後無法復原。</p>
+    <p id="teaching-clear-description">這會移除目前文章和題目中的所有螢光筆標記，並顯示已隱藏的文字。</p>
     <div class="reading-highlight-dialog__actions"><button type="button" data-teaching-clear-cancel>保留標記</button><button type="button" data-teaching-clear-confirm>清除全部</button></div>
+  </dialog>
+  <dialog class="reading-highlight-dialog" data-word-remove-dialog aria-labelledby="word-remove-title" aria-describedby="word-remove-description">
+    <div class="reading-highlight-dialog__icon" aria-hidden="true">!</div>
+    <h2 id="word-remove-title">移除這個字詞書簽？</h2>
+    <p id="word-remove-description">移除後，這個字詞將不再出現在我的閱讀書簽。</p>
+    <div class="reading-highlight-dialog__actions"><button type="button" data-word-remove-cancel>保留書簽</button><button type="button" data-word-remove-confirm>確認移除</button></div>
   </dialog>
   <audio data-reading-audio preload="metadata"></audio>
   <noscript><p>請啟用 JavaScript 使用閱讀理解學習系統。</p></noscript>
@@ -354,7 +362,8 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
-  <script type="module" src="reading-comprehension.js?v=20261018-dse-word-bookmarks1"></script>
-<script type="module" src="reading-teaching-tools.mjs?v=20261013-colors1"></script>
+  <script type="module" src="reading-comprehension.js?v=20261018-reading-followup2"></script>
+<script type="module" src="reading-teaching-tools.mjs?v=20261018-hide-words1"></script>
+<script type="module" src="reading-exam-selects.mjs?v=20261018-glass-selects1"></script>
 <script type="module" src="study-support.mjs?v=20260907-study4"></script></body>
 </html>
