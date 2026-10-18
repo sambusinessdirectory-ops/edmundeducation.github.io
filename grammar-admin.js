@@ -1,13 +1,14 @@
+import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261019-admin3';
 import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-admin2';
 const root=document.querySelector('[data-learning-portal-root]');
-const context=window.EDMUND_LEARNING_PORTAL_CONTEXT;
+const context=grammarAdminConnection();
 if(root && context?.rpc) {
   const key='edmund-grammar-admin-session-v1';
   let token='',busy=false;
   const panel=document.createElement('main');
   panel.className='learning-portal-shell grammar-admin';
   panel.hidden=true;
-  panel.innerHTML=`<section class="panel"><div class="grammar-admin__head"><div><p class="eyebrow">GRAMMAR ADMIN</p><h1>語法系統管理員</h1></div><button type="button" class="grammar-button--ghost" data-admin-close>返回學生入口</button></div><form data-admin-login><label>管理員用戶名稱<input name="username" autocomplete="username" maxlength="160" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label><button class="grammar-button" type="submit">管理員登入</button></form><p data-admin-status role="status" aria-live="polite"></p><div data-admin-content hidden><p data-admin-name></p><p>選擇模組後匯出完整內容。PDF 會開啟列印頁；請在列印目的地選擇「儲存為 PDF」。</p><label class="grammar-admin__answers"><input type="checkbox" data-admin-answers> 練習匯出包括參考答案及逐步解析</label><div data-admin-modules></div><button class="grammar-button--ghost" type="button" data-admin-logout>登出管理員</button></div></section>`;
+  panel.innerHTML=`<section class="panel"><div class="grammar-admin__head"><div><p class="eyebrow">GRAMMAR ADMIN</p><h1>語法系統管理員</h1></div><button type="button" class="grammar-button--ghost" data-admin-close>返回學生入口</button></div><form data-admin-login><label>管理員用戶名稱<input name="username" autocomplete="username" maxlength="160" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label><label class="grammar-admin__answers"><input type="checkbox" data-admin-show-password> 顯示密碼</label><button class="grammar-button" type="submit">管理員登入</button></form><p data-admin-status role="status" aria-live="polite"></p><div data-admin-content hidden><p data-admin-name></p><p>選擇模組後匯出完整內容。PDF 會開啟列印頁；請在列印目的地選擇「儲存為 PDF」。</p><label class="grammar-admin__answers"><input type="checkbox" data-admin-answers> 練習匯出包括參考答案及逐步解析</label><div data-admin-modules></div><button class="grammar-button--ghost" type="button" data-admin-logout>登出管理員</button></div></section>`;
   root.after(panel);
   const find=s=>panel.querySelector(s);
   const status=find('[data-admin-status]'),form=find('form'),content=find('[data-admin-content]');
@@ -23,9 +24,10 @@ if(root && context?.rpc) {
     try { const rows=await context.rpc('grammar_admin_profile',{p_token:token});
       if(!rows?.[0]?.session_token){clear('管理員登入已過期，請重新登入。');return false;}
       return rows[0];
-    }catch{clear('未能驗證管理員登入，請重新登入。');return false;}
+    }catch(error){status.textContent=loginError(error);return false;}
   }
   function signedIn(row){token=row.session_token;store(token);form.hidden=true;content.hidden=false;find('[data-admin-name]').textContent=`已登入：${row.name}`;status.textContent='';}
+  find('[data-admin-show-password]').addEventListener('change',event=>{find('[name=password]').type=event.target.checked?'text':'password';});
   entry.addEventListener('click',open);
   find('[data-admin-close]').addEventListener('click',close);
   form.addEventListener('submit',async event=>{
@@ -33,8 +35,8 @@ if(root && context?.rpc) {
     const button=form.querySelector('button');button.disabled=true;status.textContent='正在驗證管理員…';
     try{const data=new FormData(form);const rows=await context.rpc('grammar_admin_login',{p_name:String(data.get('username')).trim(),p_password:String(data.get('password'))});
       if(!rows?.[0]?.session_token)throw new Error('管理員用戶名稱或密碼不正確。');
-      signedIn(rows[0]);form.reset();
-    }catch(error){clear(error.message || '登入失敗，請重試。');}finally{busy=false;button.disabled=false;}
+      signedIn(rows[0]);form.reset();find('[name=password]').type='password';
+    }catch(error){clear(loginError(error));}finally{busy=false;button.disabled=false;}
   });
   find('[data-admin-logout]').addEventListener('click',async()=>{
     const previous=token;clear('已登出管理員。');
