@@ -11,17 +11,16 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  # Finish the active release, then deploy only the latest queued commit.
-  # Every main commit includes earlier changes, so intermediate deployments add delay.
-  queue: single
-  cancel-in-progress: false
-
 jobs:
   deploy:
+    # Simple homepage artwork updates use pages-fast.yml instead.
+    if: ${{ !contains(github.event.head_commit.message, '[site-fast]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    concurrency:
+      group: pages
+      queue: single
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: https://edmundeducation.com/
@@ -672,7 +671,7 @@ jobs:
       - name: Point public media at verified R2 packs
         run: |
           python3 -m unittest tools/test-rewrite-pages-assets.py
-          python3 tools/rewrite-pages-assets.py _site
+          python3 tools/rewrite-pages-assets.py _site --fast-scan
           test ! -d _site/assets
           test ! -d _site/eddy-carrot-patch/assets
 
