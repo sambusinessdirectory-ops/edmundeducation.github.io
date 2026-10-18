@@ -1,9 +1,12 @@
+import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs';
+
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
 const MODULE_KEY = 'the-last-train-2026';
 const host = document.createElement('section');
 host.className = 'quiz-app';
 host.setAttribute('aria-label', '初中測驗溫習內容');
 document.querySelector('[data-view="dashboard"]')?.append(host);
+const highlighter = mountJuniorHighlighter(host, '.quiz-paragraph p', 'quiz');
 
 let owner = null;
 let token = '';
@@ -103,10 +106,12 @@ function renderStory() {
   sentencePlayer.pause();
   host.innerHTML = `<div class="quiz-story-head"><button type="button" class="quiz-back" data-home>← 所有模組</button><p class="quiz-eyebrow">${escapeHtml(story.category)}</p><h2>${escapeHtml(story.title)}</h2><p>${escapeHtml(story.introduction)}</p><div class="quiz-story-actions">${translationButton()}<button type="button" class="quiz-button" data-start>進入聆聽默寫 →</button></div></div>
   <section class="quiz-listening" aria-label="聆聽全篇"><div><span class="quiz-eyebrow">LISTEN TO THE STORY</span><h3>聆聽全文</h3><p>英式女聲朗讀。可調整播放位置及速度。</p></div><audio controls preload="metadata" src="./${escapeHtml(audio.full)}" aria-label="The Last Train 全文朗讀"></audio>${speedButtons()}</section>
+  ${juniorHighlightToolbar()}
   <div class="quiz-paragraphs" data-translation-visible="${showTranslation}">${story.paragraphs.map(paragraph => `<article class="quiz-paragraph"><span>${String(paragraph.number).padStart(2, '0')}</span><p lang="en">${escapeHtml(paragraph.sentences.join(' '))}</p><p class="quiz-paragraph__zh" lang="zh-Hant">${escapeHtml(paragraph.zh)}</p></article>`).join('')}</div>
   <div class="quiz-story-bottom"><button type="button" class="quiz-button" data-start>開始聆聽默寫</button></div>`;
   const full = host.querySelector('audio');
   full.playbackRate = speed;
+  highlighter.syncToolbar();
 }
 function renderExercise() {
   if (!story || !audio) return;

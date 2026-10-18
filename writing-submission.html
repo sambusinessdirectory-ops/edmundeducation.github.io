@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261015-image-dock2">
+  <link rel="stylesheet" href="writing-submission.css?v=20261019-admin-archive1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -444,6 +444,18 @@
           </div>
         </form>
       </section>
+      <section class="admin-archive-export glass-panel" data-admin-archive aria-labelledby="admin-archive-title">
+        <div class="section-heading"><div><p class="eyebrow">ADMIN PDF ARCHIVE</p><h2 id="admin-archive-title">匯出學生寫作 ZIP</h2></div><span class="count-badge" data-archive-count>0 篇</span></div>
+        <p>每篇文章各自製成 PDF，再合併為 ZIP。只有已發布的評語會收錄在 PDF 中。</p>
+        <div class="admin-archive-filters">
+          <label>學生 <select data-archive-student><option value="">所有學生</option></select></label>
+          <label>搜尋文章 <input type="search" data-archive-search placeholder="學生或題目"></label>
+          <label class="admin-archive-check"><input type="checkbox" data-archive-graded> 只匯出已有已發布評語的文章</label>
+        </div>
+        <div class="admin-archive-actions"><button class="small-button" type="button" data-archive-refresh>重新載入清單</button><button class="small-button" type="button" data-archive-select-visible>選取顯示的文章</button><span data-archive-selected-count>已選 0 篇</span><button class="primary-button" type="button" data-archive-export-selected disabled>匯出已選 ZIP</button><button class="primary-button" type="button" data-archive-export-matching disabled>匯出符合條件全部 ZIP</button></div>
+        <div class="admin-archive-list" data-archive-list></div>
+        <p class="form-status" data-archive-status role="status" aria-live="polite"></p>
+      </section>
       <div class="admin-student-layout">
         <section class="admin-student-panel glass-panel">
           <div class="section-heading"><div><p class="eyebrow">STUDENT ACCOUNTS</p><h2>學生帳戶</h2></div><span class="count-badge" data-admin-student-count>0</span></div>
@@ -671,6 +683,7 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="writing-submission.js?v=20261015-image-dock2"></script>
+  <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
+  <script type="module" src="writing-submission.js?v=20261019-admin-archive1"></script>
 </body>
 </html>

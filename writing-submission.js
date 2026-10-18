@@ -1,4 +1,5 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
+import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
@@ -88,6 +89,7 @@ import {
 } from "./writing-submission-proofreading.mjs?v=20260814-1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
+let adminArchiveController = null;
 const emailPreferences = createWritingEmailPreferences({ host: document.querySelector('[data-writing-email-preferences]'), request: (...args) => apiJson(...args), accountKey: () => state.user?.role === 'student' ? state.authToken : null, preferenceOwner: () => state.user?.id || '' });
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
@@ -2229,6 +2231,7 @@ function clearSession() {
   state.grammarProblems = [];
   state.adminSubmissions = [];
   state.adminStudents = [];
+  adminArchiveController?.reset();
   state.selectedAdminStudentId = "";
   state.adminGrammarProblems = [];
   state.adminManualTopics = [];
@@ -9614,6 +9617,16 @@ async function openAdminDashboard() {
     : [];
   renderAdminProxyStudentOptions();
   renderAdminStudents();
+  if (!adminArchiveController) adminArchiveController = createWritingAdminArchive({
+    root: document.querySelector('[data-admin-archive]'),
+    api: apiJson,
+    getAdminKey: () => state.user?.role === 'admin' ? state.authToken : '',
+    getStudents: () => state.adminStudents,
+    normalizeSubmission,
+    normalizeFeedback: normalizeTeacherFeedback
+  });
+  adminArchiveController.setStudents();
+  void adminArchiveController.refresh();
   const selected = state.adminStudents.some(student => student.id === state.selectedAdminStudentId)
     ? state.selectedAdminStudentId
     : state.adminStudents[0]?.id;

@@ -1,9 +1,12 @@
+import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs';
+
 const MODULE_KEY = 's2-exam-prep-oct-2026';
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
 const host = document.createElement('section');
 host.className = 'junior-app';
 host.setAttribute('aria-label', '初中考試溫習內容');
 document.querySelector('[data-view="dashboard"]')?.append(host);
+const highlighter = mountJuniorHighlighter(host, '.junior-table-shell td, .junior-table-shell th, .junior-question__sentence, .junior-question__translation', 'exam');
 
 const FORM_GROUPS = [
   ['role model', [['role model','榜樣；單數名詞'],['role models','榜樣；複數名詞']]],
@@ -126,11 +129,13 @@ function renderModule() {
     groups.push(`<section class="junior-question-group" aria-labelledby="junior-group-${start + 1}"><h3 id="junior-group-${start + 1}">Questions ${String(start + 1).padStart(3, '0')}–${String(Math.min(start + 20, 470)).padStart(3, '0')}</h3>${questions.slice(start, start + 20).map(questionCard).join('')}</section>`);
   }
   host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · OCTOBER 2026</p><h2>S2 Exam Prep - Oct 2026</h2><p>每題填入一個詞或片語。可以先提交已填答案，或填妥 470 題後作完整提交。</p></div>
+  ${juniorHighlightToolbar()}
   <div class="junior-table-shell ${tableVisible ? '' : 'is-hidden'}" data-table-shell><div class="junior-table-head"><div><span class="junior-eyebrow">REFERENCE TABLE</span><h3>47 個詞形一覽</h3><p>先查看全部 47 個詞形，再開始作答。</p></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></div>
   <aside class="junior-table-float ${tableVisible ? '' : 'is-hidden'}" data-table-float hidden aria-label="浮動詞形表"><div class="junior-table-head"><strong>47 個詞形一覽</strong><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div></aside>
   <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / 470 題已填</span>${translationButton()}<label>跳至題目 <input type="number" min="1" max="470" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === 470 ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
   <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 470 題。</small><p role="status" aria-live="polite" data-submit-status></p></div>${translationButton()}<button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === 470 ? '' : 'disabled'}>提交全部 470 題</button></div></form>`;
   syncTranslationControls();
+  highlighter.syncToolbar();
   updateCounters();
   updateSticky();
 }
