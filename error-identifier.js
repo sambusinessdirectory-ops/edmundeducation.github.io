@@ -7,7 +7,7 @@
 
   const escaped = value => String(value ?? "").replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   const words = new Map(questions.map(q => [q.number, q.sentence.match(/\S+/g) || []]));
-  const state = { answers: {}, userId: "", loading: false, submitting: false, submittedAt: "", stamp: 0 };
+  const state = { answers: {}, submittedAnswers: {}, feedback: {}, userId: "", loading: false, submitting: false, submittedAt: "", stamp: 0 };
   const key = () => `edmund-error-identifier-draft-v1:${state.userId}`;
   const answer = number => state.answers[number] || {};
   const selectedText = (number, a) => {
@@ -30,13 +30,40 @@
 
   dashboard.insertAdjacentHTML("beforeend", `<section class="error-id-workspace panel" aria-labelledby="error-id-heading">
     <div class="error-id-intro"><div><p class="eyebrow">PROOFREADING · 60 SENTENCES</p><h2 id="error-id-heading">找出錯誤，寫出改法</h2><p>逐句選擇 ✓ 正確或 ✕ 錯誤。選擇錯誤後，點選句子中的字；如需選取連續多字，再點選最後一字，然後輸入改法。</p></div><span class="error-id-total">共 60 題</span></div>
+    <div class="error-id-feedback-summary" data-error-id-feedback-summary hidden></div>
     <div class="error-id-list" data-error-id-list></div>
   </section>
   <div class="error-id-submit-bar" data-error-id-bar><div class="error-id-submit-bar__inner"><div><strong data-error-id-count>0 / 60 已完成</strong><small data-error-id-status role="status" aria-live="polite">可以提交部分答案，稍後繼續。</small></div><button type="button" class="error-id-submit" data-error-id-submit disabled>提交部分答案</button></div></div>`);
   const list = dashboard.querySelector("[data-error-id-list]");
+  const summary = dashboard.querySelector("[data-error-id-feedback-summary]");
   const count = dashboard.querySelector("[data-error-id-count]");
   const status = dashboard.querySelector("[data-error-id-status]");
   const submit = dashboard.querySelector("[data-error-id-submit]");
+
+  function renderFeedback(number) {
+    const reference = state.feedback[number];
+    const submitted = state.submittedAnswers[number];
+    if (!reference || !submitted) return "";
+    const sameJudgment = submitted.mark === reference.mark;
+    const referenceAnswer = reference.mark === "tick"
+      ? "✓ 原句正確，無須修改。"
+      : `✕ ${escaped(reference.wrong)} → ${escaped(reference.fix)}`;
+    const studentAnswer = submitted.mark === "tick" ? "✓ 正確" : `✕ ${escaped(submitted.selected)} → ${submitted.remove ? "刪除" : escaped(submitted.correction)}`;
+    return `<section class="error-id-feedback" aria-label="第 ${number} 題參考答案">
+      <div class="error-id-feedback__heading"><strong>參考答案</strong><span class="${sameJudgment ? "is-match" : "is-different"}">${sameJudgment ? "判斷吻合" : "判斷需修正"}</span></div>
+      <p><b>你的提交：</b><span lang="en">${studentAnswer}</span></p>
+      <p><b>正確答案：</b><span lang="en">${referenceAnswer}</span></p>
+      ${reference.correct_sentence ? `<p><b>完整句子：</b><span lang="en">${escaped(reference.correct_sentence)}</span></p>` : ""}
+      <p><b>${escaped(reference.topic)}：</b>${escaped(reference.reason)}</p>
+      <details><summary>記憶提示</summary><p>${escaped(reference.tip)}</p></details>
+    </section>`;
+  }
+
+  function renderSummary() {
+    const revealed = Object.keys(state.feedback).length;
+    summary.hidden = revealed === 0;
+    summary.innerHTML = revealed ? `<strong>已顯示 ${revealed} 題的參考答案</strong><span>答案及解說顯示在每道已提交題目的下方；未提交的題目暫不顯示。</span>` : "";
+  }
 
   function renderQuestion(q) {
     const a = answer(q.number);
@@ -48,6 +75,7 @@
       <div class="error-id-question__main"><span class="error-id-number">${String(q.number).padStart(2, "0")}</span><div class="error-id-sentence" lang="en">${sentence}</div></div>
       <div class="error-id-choice" role="group" aria-label="第 ${q.number} 題判斷"><button type="button" data-mark="tick" data-number="${q.number}" class="${a.mark === "tick" ? "is-active" : ""}" aria-pressed="${a.mark === "tick"}">✓ <span>正確</span></button><button type="button" data-mark="cross" data-number="${q.number}" class="${a.mark === "cross" ? "is-active" : ""}" aria-pressed="${a.mark === "cross"}">✕ <span>錯誤</span></button></div>
       ${a.mark === "cross" ? `<div class="error-id-correction"><span>錯誤字詞：<strong>${selectedText(q.number, a) ? escaped(selectedText(q.number, a)) : "請點選上方句子"}</strong></span><label for="error-id-correction-${q.number}">應改為</label><input id="error-id-correction-${q.number}" data-correction="${q.number}" type="text" autocomplete="off" maxlength="180" value="${escaped(a.correction || "")}" placeholder="輸入正確字詞或片語" ${a.remove ? "disabled" : ""}><label class="error-id-remove"><input type="checkbox" data-remove="${q.number}" ${a.remove ? "checked" : ""}> 刪除所選字詞</label></div>` : ""}
+      ${renderFeedback(q.number)}
     </article>`;
   }
   function refreshCounter() {
@@ -57,6 +85,7 @@
     submit.disabled = state.loading || state.submitting || done === 0;
   }
   function render() {
+    renderSummary();
     list.innerHTML = questions.map(renderQuestion).join("");
     refreshCounter();
   }
@@ -122,8 +151,16 @@
     try {
       const result = await portal.rpc("error_identifier_submission", { p_token: session.token, p_action: "submit", p_answers: answers });
       state.submittedAt = result.submitted_at || new Date().toISOString();
-      status.textContent = `${result.answered_count} 題已提交並儲存。${result.is_complete ? "全部完成！" : "可以繼續作答並再次提交。"}`;
+      state.submittedAnswers = result.answers || answers;
       saveDraft();
+      try {
+        state.feedback = await portal.rpc("error_identifier_feedback", { p_token: session.token });
+        render();
+        status.textContent = `${result.answered_count} 題已提交並儲存，參考答案已顯示。`;
+        summary.scrollIntoView({ behavior: "smooth", block: "center" });
+      } catch {
+        status.textContent = `${result.answered_count} 題已提交並儲存，參考答案暫時無法載入。請重新整理頁面。`;
+      }
     } catch (error) {
       status.textContent = `提交失敗：${error.message || "請稍後再試"}`;
     } finally {
@@ -134,7 +171,7 @@
 
   async function onSession() {
     const session = portal.getSession();
-    if (!session.user || !session.token) { state.userId = ""; state.answers = {}; state.submittedAt = ""; render(); return; }
+    if (!session.user || !session.token) { state.userId = ""; state.answers = {}; state.submittedAnswers = {}; state.feedback = {}; state.submittedAt = ""; render(); return; }
     if (state.userId === session.user.id) return;
     state.userId = session.user.id;
     state.loading = true;
@@ -148,8 +185,16 @@
       if (state.userId !== session.user.id) return;
       const remoteStamp = remote.submitted_at ? Date.parse(remote.submitted_at) : 0;
       if (remoteStamp > state.stamp && remote.answers) state.answers = remote.answers;
+      state.submittedAnswers = remote.answers || {};
       state.submittedAt = remote.submitted_at || "";
-      status.textContent = remote.submitted_at ? `${remote.answered_count} 題已提交。可以繼續作答。` : "可以提交部分答案，稍後繼續。";
+      if (remote.submitted_at) {
+        try {
+          state.feedback = await portal.rpc("error_identifier_feedback", { p_token: session.token });
+          status.textContent = `${remote.answered_count} 題已提交，參考答案顯示在題目下方。`;
+        } catch {
+          status.textContent = `${remote.answered_count} 題已提交，參考答案暫時無法載入。請重新整理頁面。`;
+        }
+      } else status.textContent = "可以提交部分答案，稍後繼續。";
     } catch (error) {
       status.textContent = `暫時無法載入已提交答案：${error.message || "請稍後再試"}`;
     } finally {
