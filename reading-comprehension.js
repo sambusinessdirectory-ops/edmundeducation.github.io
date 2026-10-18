@@ -1,4 +1,4 @@
-import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20260904-dse-audio1';
+import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20261018-dse-word-bookmarks1';
 
 import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20260904-admin-source1';
 let deepReader;
@@ -889,10 +889,6 @@ function updateFloatingOffsets() {
 function interactiveWords(text, context, spoken = false) {
   let html = ""; let last = 0; let localIndex = 0; const regex = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu; let match;
   while ((match = regex.exec(text))) {
-    if (state.system === 'dse' && spoken) {
-      html += escapeHtml(text.slice(last, match.index)) + `<span class="spoken-word" data-word-index="${state.wordIndex++}">${escapeHtml(match[0])}</span>`;
-      last = regex.lastIndex; continue;
-    }
     const key = `word:${ARTICLE_ID}:${context}:w${localIndex++}`; const classes = ["interactive-word", spoken ? "spoken-word" : "", state.bookmarks.has(key) ? "is-bookmarked" : ""].filter(Boolean).join(" ");
     html += escapeHtml(text.slice(last, match.index)); html += `<span class="${classes}" data-word-key="${escapeHtml(key)}" data-word-context="${escapeHtml(context)}"${spoken ? ` data-word-index="${state.wordIndex++}"` : ""}>${escapeHtml(match[0])}</span>`; last = regex.lastIndex;
   }
@@ -1284,11 +1280,18 @@ function renderBookmarkLibrary() {
   });
   $('[data-reading-bookmark-list]').innerHTML = items.length ? items.map((item) => {
     const target = bookmarkTarget(item.key); const pending = state.pendingBookmarks.has(item.key);
-    return `<article class="reading-bookmark-card"><div><span class="reading-bookmark-type">${escapeHtml(BOOKMARK_LABELS[target?.kind] || '閱讀書簽')}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.detail)}</p></div><div class="reading-bookmark-actions"><button type="button" class="primary-button" data-open-reading-bookmark="${escapeHtml(item.key)}"${target ? '' : ' disabled'}>開啟書簽 →</button><button type="button" class="secondary-button" data-remove-reading-bookmark="${escapeHtml(item.key)}"${pending ? ' disabled' : ''}>${pending ? '儲存中…' : '移除'}</button></div></article>`;
+    const word = target?.kind === 'word';
+    const title = word ? String(item.title || '').replace(/^\[閱讀重點\]\s*/, '').trim() : item.title;
+    return `<article class="reading-bookmark-card${word ? ' is-word' : ''}"><div><span class="reading-bookmark-type">${escapeHtml(BOOKMARK_LABELS[target?.kind] || '閱讀書簽')}</span><h3>${escapeHtml(title)}</h3>${word ? '' : `<p>${escapeHtml(item.detail)}</p>`}</div><div class="reading-bookmark-actions"><button type="button" class="primary-button" data-open-reading-bookmark="${escapeHtml(item.key)}"${target ? '' : ' disabled'}>開啟書簽 →</button><button type="button" class="secondary-button" data-remove-reading-bookmark="${escapeHtml(item.key)}"${pending ? ' disabled' : ''}>${pending ? '儲存中…' : '移除'}</button></div></article>`;
   }).join('') : `<p class="empty-state">${state.bookmarkError ? '連線恢復後即可顯示已收藏的內容。' : state.bookmarkItems.size ? '此類型暫未有書簽。' : '尚未有閱讀書簽。在文章、段落、題目或提示旁按 ☆ 即可收藏。'}</p>`;
 }
 async function openReadingBookmark(key) {
-  const target = bookmarkTarget(key); if (!target || !state.catalogue.some((item) => item.id === target.article)) return showToast('這篇練習暫未開放。');
+  const target = bookmarkTarget(key); if (!target) return showToast('這篇練習暫未開放。');
+  if (target.article.startsWith('dse-')) {
+    history.replaceState({}, '', readingBookmarkLink(target));
+    return openDseExercise(target.article);
+  }
+  if (!state.catalogue.some((item) => item.id === target.article)) return showToast('這篇練習暫未開放。');
   history.replaceState({}, '', readingBookmarkLink(target));
   await openExercise(target.article);
 }
@@ -1312,7 +1315,7 @@ async function toggleWordBookmark(word) {
       href,
       bookmarked
     });
-    await setBookmark({ key, title: `[閱讀重點] ${label}`, detail: `${state.data.title} · ${paragraphNumber ? `第 ${paragraphNumber} 段` : `第 ${questionNumber} 題`} · 點選字詞`, href }, bookmarked);
+    await setBookmark({ key, title: label, detail: `${state.data.title} · ${paragraphNumber ? `第 ${paragraphNumber} 段` : `第 ${questionNumber} 題`}`, href }, bookmarked);
     word.classList.toggle("is-bookmarked", bookmarked);
     showToast(bookmarked ? `已收藏「${label}」，並加入「寫作系統生字」。` : `已移除重點字詞「${label}」。`);
   } catch (error) { console.warn(error); showToast("字詞書簽暫時未能儲存。"); }
@@ -1566,6 +1569,7 @@ function setupInteractiveFlashcardsPanel() {
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
   try {
+    const requestedHash = new URL(location.href).hash;
     if (state.system === 'dse' && state.view === 'exercise') {
       saveDseDraft();
       clearTimeout(state.dseSaveTimer);
@@ -1594,8 +1598,10 @@ async function openDseExercise(id) {
     $('.questions-panel .pane-heading > .eyebrow').textContent = `QUESTIONS ${entry.questionStart}–${entry.questionEnd}`;
     const url = clearReadingRoute(new URL(location.href));
     url.searchParams.set('view', 'dse'); url.searchParams.set('year', String(state.data.year)); url.searchParams.set('section', state.data.section); url.searchParams.set('article', id);
+    if (requestedHash && /^#(?:paragraph|question)-\d+$/.test(requestedHash)) url.hash = requestedHash;
     history.replaceState({}, '', url); document.title = `${entry.title}｜DSE 閱讀理解`;
     showView('exercise'); updateTimer(); updateFloatingOffsets();
+    if (url.hash) requestAnimationFrame(() => document.getElementById(url.hash.slice(1))?.scrollIntoView({ block: 'start' }));
   } catch (error) {
     console.warn('Could not open DSE Reading exercise', error); showToast(error.message || '未能載入 DSE 練習，請稍後再試。');
     await openDseDashboard();

@@ -42,6 +42,10 @@ export function bookmarkTarget(key) {
 
 export function readingBookmarkLink(target) {
   const params = new URLSearchParams({ passage: /^p([123])-/.exec(target.article)?.[1] || '1', article: target.article });
+  if (target.article.startsWith('dse-')) {
+    params.delete('passage');
+    params.set('view', 'dse');
+  }
   const paragraph = ['paragraph', 'skimming'].includes(target.kind) || (target.kind === 'word' && target.context === 'p');
   if (['skimming', 'scanning', 'analysis', 'section'].includes(target.kind)) {
     params.set('view', target.kind === 'section' ? 'analysis' : target.kind);
