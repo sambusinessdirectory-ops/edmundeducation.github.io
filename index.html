@@ -2881,7 +2881,8 @@
     .category.portal-illustrated-card.ted-talk-card .category-name,
     .category.portal-illustrated-card.spelling-card .category-name,
     .category.portal-illustrated-card.business-english-card .category-name,
-    .category.portal-illustrated-card.jokes-collection-card .category-name {
+    .category.portal-illustrated-card.jokes-collection-card .category-name,
+    .category.portal-illustrated-card.membership-card .category-name {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -2923,6 +2924,16 @@
       background-size: cover;
       background-position: center;
       --category-key-lip: #ae7c54;
+    }
+
+    .category.portal-illustrated-card.membership-card,
+    .category.portal-illustrated-card.membership-card:hover,
+    .category.portal-illustrated-card.membership-card:focus-visible {
+      background-color: #633b25;
+      background-image: url('homepage-membership-card.webp');
+      background-size: cover;
+      background-position: center;
+      --category-key-lip: #624026;
     }
 
     .category.portal-illustrated-card.complex-questions-card,
@@ -3428,7 +3439,7 @@
           <span class="category-name">Edmund Coin System<br>金幣系統</span>
         </a>
 
-        <a class="category portal-illustrated-card membership-card" href="membership.html" aria-label="Edmund 學習系統 會員計劃" style="--portal-card-image:url('assets/homepage/card-art/card-60.webp');--category-gradient:linear-gradient(135deg,#173d3b 0%,#42715b 58%,#b8a371 100%);--category-gradient-hover:linear-gradient(135deg,#12312f 0%,#355f4b 58%,#a58e5d 100%);--category-key-lip:#214b3c;--category-key-shadow:rgba(26,62,47,.25)">
+        <a class="category portal-illustrated-card membership-card" href="membership.html" aria-label="Edmund 學習系統 會員計劃" style="--category-key-shadow:rgba(67,35,18,.28)">
           <span class="category-name">Edmund 學習系統<br>會員計劃</span>
         </a>
         <a class="category portal-illustrated-card learning-portal-card background-music-card" href="background-music.html" aria-label="Background Music System 背景音樂系統" style="--portal-card-image:url('assets/homepage/card-art/card-61.webp');--portal-card-hue:265"><span class="category-name">Background Music<br>背景音樂系統</span></a>
