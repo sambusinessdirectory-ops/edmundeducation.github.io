@@ -1,6 +1,6 @@
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20261018-dse-word-bookmarks1';
 
-import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20260904-admin-source1';
+import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20261018-analysis-batch1';
 let deepReader;
 
 const CONFIG = window.EDMUND_SUPABASE || {};

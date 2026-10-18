@@ -12,6 +12,9 @@
 @media(max-width:480px){.deep-compare-grid{grid-template-columns:1fr}.deep-header button span{display:none}.deep-modes{width:100%;display:grid;grid-template-columns:repeat(3,1fr)}.deep-modes button{font-size:.76rem}.deep-categories{grid-template-columns:repeat(3,1fr)}.deep-search{min-width:140px}.deep-toolbar{gap:8px}.deep-page{padding:17px}.deep-source-body{font-size:var(--deep-font);line-height:1.85}}
 @media(prefers-reduced-motion:reduce){.deep-reader *{scroll-behavior:auto!important}}
 
+/* Reserve room for enlarged hanging punctuation within the source panel. */
+.deep-source-body{padding-inline-end:1.2em}
+
 /* Source emphasis is independent of search highlighting and survives all text modes. */
 .deep-rich-line{line-height:1.95;overflow-wrap:anywhere}
 .deep-source-run{font-weight:400;line-height:1.6}
@@ -19,6 +22,7 @@
 .deep-hanging-stop{display:inline-block;width:0;overflow:visible;white-space:nowrap}
 .deep-source-run strong{font-weight:800}
 .deep-source-run em{font-style:italic}
+.deep-source-figure{margin:1rem 0;max-width:100%}.deep-source-figure img{display:block;max-width:100%;height:auto;margin:auto}.deep-source-figure figcaption{font-size:.75rem;color:#617867;text-align:center;margin-top:.4rem}
 .source-highlight{box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:2px;padding:.04em .09em;color:#24332d}
 .source-highlight-yellow{background:#fff075}
 .source-highlight-pink{background:#ffc5cd}

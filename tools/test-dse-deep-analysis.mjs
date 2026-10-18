@@ -28,7 +28,7 @@ assert.ok(findPages(data.pages,'unless').length>10);
 assert.ok(findPages(data.pages,'常見誤讀').length>1);
 assert.equal(findPages(data.pages,'nonexistent-text-string-abc').length,0);
 assert.equal(findPages(data.pages,'').length,322);
-assert.ok(DEEP_ANALYSIS_ARTICLES.has('dse-2023-a'));assert.ok(!DEEP_ANALYSIS_ARTICLES.has('dse-2023-b1'));
+assert.ok(DEEP_ANALYSIS_ARTICLES.has('dse-2023-a'));assert.ok(DEEP_ANALYSIS_ARTICLES.has('dse-2023-b1'));assert.equal(DEEP_ANALYSIS_ARTICLES.size,9);assert.ok(!DEEP_ANALYSIS_ARTICLES.has('dse-2026-a'));
 assert.match(data.pages[279].text,/Not a good example/);
 for(const [number,color] of [[173,'cyan'],[220,'pink'],[223,'yellow'],[248,'pink']]){
   const page=data.pages[number-1];

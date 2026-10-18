@@ -163,6 +163,8 @@ jobs:
           node tools/test-dse-native-paper-view.mjs
           node tools/test-dse-reading-question-audit.mjs
           node tools/test-dse-reading-translations.mjs
+          node tools/test-dse-deep-analysis.mjs
+          node tools/test-dse-analysis-batch.mjs
 
       - name: Validate focused DSE Listening release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[listening-release]') }}
@@ -359,6 +361,7 @@ jobs:
         run: |
           node tools/test-reading-comprehension-system.mjs
           node tools/test-dse-deep-analysis.mjs
+          node tools/test-dse-analysis-batch.mjs
           node tools/test-reading-comprehension-enhancements.mjs
           node tools/test-reading-comprehension-catalogue.mjs
           node tools/test-reading-comprehension-audio.mjs
