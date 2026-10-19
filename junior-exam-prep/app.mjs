@@ -65,8 +65,12 @@ async function loadSubmissions(module, expectedOwner) {
   }
   progress[module.key] = Object.keys(serverResults).length;
   if (active?.key === module.key) {
-    answers = {...serverAnswers, ...readDraft(module)};
-    submitted = serverResults;
+    const draft = readDraft(module);
+    answers = {...serverAnswers, ...draft};
+    submitted = {...serverResults};
+    for (const [number, value] of Object.entries(draft)) {
+      if (serverAnswers[number] !== undefined && canonicalAnswer(value).toLowerCase() !== canonicalAnswer(serverAnswers[number]).toLowerCase()) delete submitted[number];
+    }
     renderModule();
   } else if (!active) renderHome();
 }
@@ -174,7 +178,8 @@ host.addEventListener('click', (event) => {
       try {
         data = await loadData(module);
         renderModule();
-        await loadSubmissions(module, owner);
+        try { await loadSubmissions(module, owner); }
+        catch { host.querySelector('[data-toolbar-status]')?.replaceChildren('暫時未能讀取帳戶紀錄；已載入本機草稿。'); }
       } catch (error) {
         if (active?.key === module.key) host.innerHTML = `<p class="junior-error" role="alert">${escapeHtml(error.message)}</p><button type="button" data-back>返回模組</button>`;
       }
