@@ -107,6 +107,7 @@
   curation.hidden = true;
   curation.dataset.advancedArticlesCuration = "";
   curation.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-advanced-articles-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 03 · ADVANCED ARTICLES</p><h2>進階冠詞 · 語法導讀</h2><p>把名詞的意思、前後文與固定表達連起來看；每條規則只先顯示重點，向下捲動才逐條展開。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-advanced-articles-start>開始 ${questionCount} 題練習</button><span data-advanced-articles-position>導讀 1 / ${guideCount}</span></div></div><nav class="grammar-articles-chapters" aria-label="進階冠詞導讀章節">${chapterLinks}</nav><div class="grammar-articles-stream" data-advanced-articles-stream>${topics}${decisionMap}</div><div class="grammar-articles-curation__finish"><h3>用這套判斷方法練習</h3><p>151–200 題應用本章規則；201–250 題延伸綜合判斷；251–262 題應用新增第 94–97 節，263–270 題混合重練。</p><button class="grammar-button grammar-button--primary" type="button" data-advanced-articles-start>開始 ${questionCount} 題練習</button></div>`;
+  window.EDMUND_GRAMMAR_FORMAT_CURATION(curation);
   dashboard.append(curation);
 
   const practice = document.createElement("section");

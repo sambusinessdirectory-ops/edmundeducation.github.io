@@ -40,10 +40,27 @@
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"
   })[character]);
 
+  // Apply sentence breaks only to curation, preserving inline marks and controls.
+  window.EDMUND_GRAMMAR_FORMAT_CURATION = (root) => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const node of nodes) {
+      const formatted = node.data.replace(/。([）)」』】”’]*)[ \t]*(?:\r?\n[ \t]*)?(?=[^\s）)」』】”’])/gu, "。$1\u0000");
+      if (!formatted.includes("\u0000")) continue;
+      const fragment = document.createDocumentFragment();
+      formatted.split("\u0000").forEach((part, index) => {
+        if (index) fragment.append(document.createElement("br"));
+        fragment.append(document.createTextNode(part));
+      });
+      node.replaceWith(fragment);
+    }
+  };
+
   function renderGuideCard(item, index) {
     const examples = item.examples.map(([english, chinese]) => `<div class="grammar-tense-example"><p lang="en">${escapeHtml(english)}</p><span lang="zh-Hant">${escapeHtml(chinese)}</span></div>`).join("");
     const checkpoint = item.checkpoint ? `<div class="grammar-tense-checkpoint" data-tense-checkpoint><span class="grammar-tense-checkpoint__label">TRY IT · 選擇 + 說原因</span><h4>${escapeHtml(item.checkpoint.prompt)}</h4><div class="grammar-tense-checkpoint__choices" role="group" aria-label="選擇寫法">${item.checkpoint.choices.map((choice, choiceIndex) => `<button type="button" data-tense-checkpoint-choice="form" data-choice-index="${choiceIndex}" aria-pressed="false">${escapeHtml(choice)}</button>`).join("")}</div><p class="grammar-tense-checkpoint__feedback" data-checkpoint-form-feedback role="status" hidden></p><div data-checkpoint-why hidden><h4>${escapeHtml(item.checkpoint.whyPrompt)}</h4><div class="grammar-tense-checkpoint__choices" role="group" aria-label="選擇原因">${item.checkpoint.whyChoices.map((choice, choiceIndex) => `<button type="button" data-tense-checkpoint-choice="why" data-choice-index="${choiceIndex}" aria-pressed="false">${escapeHtml(choice)}</button>`).join("")}</div><p class="grammar-tense-checkpoint__feedback" data-checkpoint-why-feedback role="status" hidden></p></div></div>` : "";
-    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div><div class="grammar-tense-topic__check"><strong>答題時檢查</strong><p>${escapeHtml(item.check)}</p></div>${checkpoint}${item.questionNumbers ? `<div class="grammar-articles-curation__actions" aria-label="本節配套練習">${item.questionNumbers.map(number => `<button class="grammar-button--ghost" type="button" data-tense-practice-question="${number}">練習第 ${number} 題</button>`).join("")}</div>` : ""}<p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
+    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div>${checkpoint}${item.questionNumbers ? `<div class="grammar-articles-curation__actions" aria-label="本節配套練習">${item.questionNumbers.map(number => `<button class="grammar-button--ghost" type="button" data-tense-practice-question="${number}">練習第 ${number} 題</button>`).join("")}</div>` : ""}<p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
   }
 
   const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"], [20, "深入細節"], [25, "時間範圍"], [30, "進行中"], [34, "回望結果"], [40, "數量與時長"], [45, "過去的推斷"], [50, "綜合檢查"], [51, "句型與位置"], [53, "補充時態規則"], [60, "搭配與假設延伸"]];
@@ -164,6 +181,8 @@
       <nav class="grammar-nav" aria-label="題目導覽"><button type="button" data-previous-question>← 上一題</button><button type="button" data-next-question>下一題 →</button></nav>
       <p class="grammar-save-status" data-save-status aria-live="polite"></p>
     </section>`;
+
+  window.EDMUND_GRAMMAR_FORMAT_CURATION(dashboard.querySelector("[data-tense-curation]"));
 
   const elements = {
     library: dashboard.querySelector("[data-grammar-library]"), curation: dashboard.querySelector("[data-tense-curation]"), practice: dashboard.querySelector("[data-grammar-practice]"),
@@ -621,6 +640,7 @@
     feedback.hidden = false;
     feedback.dataset.result = correct ? "correct" : "retry";
     feedback.textContent = correct ? (group === "form" ? "寫法正確。現在選出原因。" : checkpoint.explanation) : "再看時間範圍和助動詞，試多一次。";
+    window.EDMUND_GRAMMAR_FORMAT_CURATION(feedback);
     if (group === "form") {
       box.querySelector("[data-checkpoint-why]").hidden = !correct;
       if (!correct) {

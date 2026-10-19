@@ -29,12 +29,13 @@ export function grammarModules(source, document) {
 function answer(q) { return q.answer || (q.answers || q.acceptedAnswers || []).join(' / '); }
 function explanation(q) { return q.steps?.map(s=>`${s.title}\n${s.body}`).join('\n\n') || (q.explanation || []).join('\n'); }
 function checkpointText(c) {return [c.prompt,...c.choices.map((v,i)=>`${String.fromCharCode(65+i)}. ${v}`),`答案：${String.fromCharCode(65+c.answer)}`,c.whyPrompt,...c.whyChoices.map((v,i)=>`${String.fromCharCode(65+i)}. ${v}`),`原因答案：${String.fromCharCode(65+c.whyAnswer)}`,c.explanation].join('\n');}
+export const curationLines = value => text(value).replace(/。([）)」』】”’]*)[ \t]*(?:\r?\n[ \t]*)?(?=[^\s）)」』】”’])/gu, '。$1\n');
 export function exportSections(module, kind) {
   if (!['curation','exercises'].includes(kind)) throw new Error('Unknown export type');
   if (kind === 'curation') {
-    const topics = (module.topics || []).map((t,i)=>({title:`${t.number || i+1}. ${t.title}`,body:t.body || [t.chapter,t.focus,t.formula,...(t.examples || []).map(e=>e.join('\n')),t.check,t.source,t.checkpoint ? checkpointText(t.checkpoint) : ''].filter(Boolean).join('\n\n')}));
+    const topics = (module.topics || []).map((t,i)=>({title:`${t.number || i+1}. ${t.title}`,body:t.body || [t.chapter,t.focus,t.formula,...(t.examples || []).map(e=>e.join('\n')),t.source,t.checkpoint ? checkpointText(t.checkpoint) : ''].filter(Boolean).join('\n\n')}));
     if (module.appendix) topics.push({title:'附錄 · Decision Map',body:module.appendix});
-    if (topics.length) return topics;
+    if (topics.length) return topics.map(section => ({title:curationLines(section.title),body:curationLines(section.body)}));
     return module.questions.map(q=>({title:`第 ${q.number} 題 · ${q.tense || ''}`,body:`${q.prompt}\n${q.translation}\n\n答案：${answer(q)}\n\n${explanation(q)}`}));
   }
   return module.questions.map(q=>({title:`第 ${q.number} 題`,body:[q.instructionEn,q.instruction,q.context,q.passage,q.prompt,q.translation,...(q.options || []).map(o=>typeof o==='string'?o:JSON.stringify(o)), '答案：________________________________',`參考答案：${answer(q)}${q.completeSentence?'\n'+q.completeSentence:''}\n\n本題完整解析\n${explanation(q)}`].filter(Boolean).join('\n\n')}));

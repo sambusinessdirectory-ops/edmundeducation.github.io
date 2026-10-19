@@ -31,7 +31,7 @@ for (const question of lesson.questions) {
   assert.ok(question.steps.every(({ title, body }) => title && body));
 }
 assert.match(html, /grammar-advanced-articles-data\.js\?v=20261012-advanced1/);
-assert.match(html, /grammar-advanced-articles\.js\?v=20261019-grammar-extension1/);
+assert.match(html, /grammar-advanced-articles\.js\?v=20261019-curation-lines1/);
 assert.match(css, /\.grammar-lesson-card--advanced-articles::after/);
 assert.match(sql, /p_question_number not between 151 and 270/);
 assert.match(sql, /auth\.uid\(\) is null/);

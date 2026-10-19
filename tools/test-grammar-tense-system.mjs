@@ -44,7 +44,7 @@ for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Pre
   assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
 }
 
-for (const asset of ["grammar-system.css?v=20261019-tense-extension1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261019-tense-extension1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261019-grammar-extension1"]) {
+for (const asset of ["grammar-system.css?v=20261019-tense-extension1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261019-curation-lines1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261019-curation-lines1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261019-curation-lines1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -89,6 +89,8 @@ for (const native of [false, true]) {
   if(native){w.CSS={highlights:new Map()};w.Highlight=class extends Set{constructor(...ranges){super(ranges)}};}
   w.eval(dataSource);w.eval(guideSource);w.eval(extensionSource);w.eval(runtime);
   const cards=[...d.querySelectorAll('[data-tense-topic]')];
+  assert.equal(d.querySelectorAll('.grammar-tense-topic__check').length,0,'answer-check blocks are removed');
+  assert.ok(!d.querySelector('[data-tense-curation]').textContent.includes('答題時檢查'));
   assert.equal(cards.length,61,'all foundation, deep-dive, and form stages are present');
   assert.equal(d.querySelectorAll('.grammar-tense-deep-dive').length,3,'later stages have clear visual section breaks');
   const firstCheckpoint=cards[50].querySelector('[data-tense-checkpoint]');
@@ -98,6 +100,7 @@ for (const native of [false, true]) {
   assert.equal(firstCheckpoint.querySelector('[data-checkpoint-why]').hidden,true,'an incorrect form does not reveal the reason choices');
   firstCheckpoint.querySelector('[data-tense-checkpoint-choice="form"][data-choice-index="0"]').click();
   assert.equal(firstCheckpoint.querySelector('[data-checkpoint-why]').hidden,false,'a correct form reveals the reason choices');
+  assert.equal(firstCheckpoint.querySelector('[data-checkpoint-form-feedback]').innerHTML,'寫法正確。<br>現在選出原因。','dynamic curation feedback also breaks after Chinese full stops');
   firstCheckpoint.querySelector('[data-tense-checkpoint-choice="why"][data-choice-index="0"]').click();
   assert.match(firstCheckpoint.querySelector('[data-checkpoint-why-feedback]').textContent,/last night/,'the rationale is shown after choosing the reason');
   assert.ok(cards[51].querySelector('[data-tense-checkpoint]'),'the word-order stage has a checkpoint');
