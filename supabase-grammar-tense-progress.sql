@@ -84,7 +84,7 @@ begin
   if auth.uid() is null or p_token is null then
     raise exception 'Student authentication is required' using errcode = '42501';
   end if;
-  if p_question_number is null or p_question_number not between 1 and 150 then
+  if p_question_number is null or p_question_number not between 1 and 195 then
     raise exception 'Question number is invalid' using errcode = '22023';
   end if;
   if p_duration_ms is null or p_duration_ms not between 0 and 1800000 then

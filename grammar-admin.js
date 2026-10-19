@@ -1,5 +1,5 @@
 import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261019-admin3';
-import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-admin4';
+import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-tense-extension1';
 const root=document.querySelector('[data-learning-portal-root]');
 const context=grammarAdminConnection();
 if(root && context?.rpc) {

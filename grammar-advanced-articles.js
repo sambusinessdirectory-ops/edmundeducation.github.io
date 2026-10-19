@@ -5,8 +5,11 @@
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   const library = dashboard?.querySelector('[data-grammar-library]');
   const tensePractice = dashboard?.querySelector('[data-grammar-practice]');
-  if (!dashboard || !library || !tensePractice || data?.topics?.length !== 27 || data?.questions?.length !== 100) return;
+  if (!dashboard || !library || !tensePractice || !Array.isArray(data?.topics) || !Array.isArray(data?.questions) || data.topics.length < 27 || data.questions.length < 100) return;
 
+  const lastQuestion = data.questions.at(-1).number;
+  const questionCount = data.questions.length;
+  const guideCount = data.topics.length + 1;
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   })[character]);
@@ -44,6 +47,7 @@
   const genericOpening = /^(?:例如|比較|所以|不是|但要記住|最重要的問題|這(?:一|組|個|是|很)|常見|第一|B1|英式|完整句子|意思|同樣|幾乎所有)/;
   const articleMark = (value) => escapeHtml(value).replace(/\b(?:an|the|a)\b|Ø/gi, (token) => `<mark class="grammar-articles-ink grammar-articles-ink--${token === "Ø" ? "zero" : token.toLowerCase() === "the" ? "the" : "indefinite"}">${token}</mark>`);
   function topicFocus(topic) {
+    if (topic.focus) return topic.focus;
     if (focusByNumber[topic.number]) return focusByNumber[topic.number];
     const candidate = blocks(topic.body).find((part) => {
       const oneLine = part.replace(/\s+/g, " ").trim();
@@ -53,6 +57,7 @@
     return candidate || topic.title;
   }
   function topicExamples(topic) {
+    if (topic.examples) return topic.examples;
     const lines = String(topic.body).split("\n").map((line) => line.trim()).filter(Boolean);
     const found = [];
     const seen = new Set();
@@ -74,10 +79,9 @@
     const examples = topicExamples(topic);
     const preview = examples.length ? `<div class="grammar-articles-topic__examples"><p class="grammar-articles-topic__label">看例子</p><div class="grammar-articles-example-grid">${examples.map((example) => `<div class="grammar-articles-example${example.wrong ? " grammar-articles-example--wrong" : ""}">${example.wrong ? '<small class="grammar-articles-example__warning">✗ 不建議的寫法</small>' : ""}<p lang="en">${articleMark(example.text)}</p>${example.translation ? `<span lang="zh-Hant">${escapeHtml(example.translation)}</span>` : ""}</div>`).join("")}</div></div>` : "";
     const full = blocks(topic.body).length > 1 ? `<details class="grammar-articles-topic__details"><summary>閱讀完整講解與所有例句<span aria-hidden="true">＋</span></summary><div class="grammar-articles-topic__full">${renderBody(topic.body)}</div></details>` : "";
-    return `<article class="grammar-articles-topic" data-advanced-articles-topic="${topic.number}" id="advanced-articles-topic-${topic.number}"><div class="grammar-articles-topic__head"><span>${String(topic.number).padStart(2, "0")}</span><h3>${articleMark(topic.title)}</h3></div><div class="grammar-articles-topic__focus"><span>核心規則</span><p>${articleMark(focus)}</p></div>${preview}${full}</article>`;
+    return `<article class="grammar-articles-topic" data-advanced-articles-topic="${topic.number}" id="advanced-articles-topic-${topic.number}"><div class="grammar-articles-topic__head"><span>${String(topic.number).padStart(2, "0")}</span><h3>${articleMark(topic.title)}</h3></div><div class="grammar-articles-topic__focus"><span>核心規則</span><p>${articleMark(focus)}</p></div>${preview}${full}${topic.questionNumbers ? `<div class="grammar-articles-curation__actions" aria-label="本節配套練習">${topic.questionNumbers.map(number => `<button class="grammar-button--ghost" type="button" data-advanced-articles-practice-question="${number}">練習第 ${number} 題</button>`).join("")}</div>` : ""}</article>`;
   }
-  const guideLabel = (number) => number <= 200
-    ? "進階規則應用 · 第 151–200 題" : "延伸綜合練習 · 第 201–250 題";
+  const guideLabel = (number) => number <= 200 ? "進階規則應用 · 第 151–200 題" : number <= 250 ? "延伸綜合練習 · 第 201–250 題" : number <= 262 ? "補充分組練習 · 第 251–262 題" : "補充混合練習 · 第 263–270 題";
 
   const state = {
     userId: "", token: "", question: 151, attempts: {}, remoteCorrect: new Set(),
@@ -89,27 +93,27 @@
 
   const card = document.createElement("article");
   card.className = "grammar-lesson-card grammar-lesson-card--articles grammar-lesson-card--advanced-articles";
-  card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE 03 · ADVANCED CURATION + 100 QUESTIONS</p><h3>Advanced Articles <span lang="zh-Hant">進階冠詞</span></h3><p>先讀 27 項進階規則與決策總表，再練習 151–250 題；包括故事語境、固定搭配和限定詞。</p></div><div class="grammar-lesson-card__stats" aria-label="進階冠詞練習進度"><div><strong data-advanced-articles-correct-count>0</strong><span>已答對</span></div><div><strong data-advanced-articles-attempted-count>0</strong><span>已作答</span></div><button class="grammar-button" type="button" data-advanced-articles-open>進入進階冠詞導讀</button></div>`;
+  card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE 03 · ADVANCED CURATION + ${questionCount} QUESTIONS</p><h3>Advanced Articles <span lang="zh-Hant">進階冠詞</span></h3><p>先讀 ${data.topics.length} 項進階規則與決策總表，再練習 151–${lastQuestion} 題；包括故事語境、固定搭配和限定詞。</p></div><div class="grammar-lesson-card__stats" aria-label="進階冠詞練習進度"><div><strong data-advanced-articles-correct-count>0</strong><span>已答對</span></div><div><strong data-advanced-articles-attempted-count>0</strong><span>已作答</span></div><button class="grammar-button" type="button" data-advanced-articles-open>進入進階冠詞導讀</button></div>`;
   library.append(card);
 
   const topics = data.topics.map(renderTopic).join("");
   const chapterLinks = [
     [67, "Ø 與數量詞"], [70, "part 與固定搭配"], [78, "休息、康復與醫院"],
-    [83, "語境與故事中的 the"], [87, "整體與部分"], [90, "限定詞與決策次序"]
+    [83, "語境與故事中的 the"], [87, "整體與部分"], [90, "限定詞與決策次序"], [94, "運河、縮寫與 history"]
   ].map(([number, label]) => `<button type="button" data-advanced-articles-jump="${number}">${escapeHtml(label)}</button>`).join("");
-  const decisionMap = `<section class="grammar-articles-topic grammar-articles-topic--appendix" data-advanced-articles-topic="94" id="advanced-articles-topic-94"><div class="grammar-articles-topic__head"><span>MAP</span><h3>進階冠詞解題總表</h3></div><p class="grammar-articles-map__intro">先看意思與語境，再核對前文、限定詞及固定表達。</p><div class="grammar-articles-map__choices"><div class="grammar-articles-map__choice grammar-articles-map__choice--indefinite"><strong>a / an</strong><p>單數可數；有一個，但不必知道是哪一個。</p><small>a dog · an elderly woman</small></div><div class="grammar-articles-map__choice grammar-articles-map__choice--definite"><strong>the</strong><p>特定對象；聽的人有資料認出是哪一個。</p><small>the dog · the book on my desk</small></div><div class="grammar-articles-map__choice grammar-articles-map__choice--zero"><strong>Ø</strong><p>一般複數、不可數、名稱或固定無冠詞用法。</p><small>music · London · go to school</small></div></div><div class="grammar-articles-map__checks"><h4>五組快速檢查</h4><ol><li>先確定名詞在這句的意思和可數性。</li><li>判斷一般、未指定或已指定。</li><li>讀前文：是否已經介紹過或能由情境辨認？</li><li>檢查整體與部分，以及前面的限定詞。</li><li>把固定表達當整組判斷；最後才選 a 或 an。</li></ol></div><details class="grammar-articles-topic__details"><summary>查看完整十步決策次序與例詞<span aria-hidden="true">＋</span></summary><div class="grammar-articles-topic__full"><pre>${escapeHtml(data.appendix)}</pre></div></details></section>`;
+  const decisionMap = `<section class="grammar-articles-topic grammar-articles-topic--appendix" data-advanced-articles-topic="map" id="advanced-articles-decision-map"><div class="grammar-articles-topic__head"><span>MAP</span><h3>進階冠詞解題總表</h3></div><p class="grammar-articles-map__intro">先看意思與語境，再核對前文、限定詞及固定表達。</p><div class="grammar-articles-map__choices"><div class="grammar-articles-map__choice grammar-articles-map__choice--indefinite"><strong>a / an</strong><p>單數可數；有一個，但不必知道是哪一個。</p><small>a dog · an elderly woman</small></div><div class="grammar-articles-map__choice grammar-articles-map__choice--definite"><strong>the</strong><p>特定對象；聽的人有資料認出是哪一個。</p><small>the dog · the book on my desk</small></div><div class="grammar-articles-map__choice grammar-articles-map__choice--zero"><strong>Ø</strong><p>一般複數、不可數、名稱或固定無冠詞用法。</p><small>music · London · go to school</small></div></div><div class="grammar-articles-map__checks"><h4>五組快速檢查</h4><ol><li>先確定名詞在這句的意思和可數性。</li><li>判斷一般、未指定或已指定。</li><li>讀前文：是否已經介紹過或能由情境辨認？</li><li>檢查整體與部分，以及前面的限定詞。</li><li>把固定表達當整組判斷；最後才選 a 或 an。</li></ol></div><details class="grammar-articles-topic__details"><summary>查看完整十步決策次序與例詞<span aria-hidden="true">＋</span></summary><div class="grammar-articles-topic__full"><pre>${escapeHtml(data.appendix)}</pre></div></details></section>`;
   const curation = document.createElement("section");
   curation.className = "panel grammar-articles-curation";
   curation.hidden = true;
   curation.dataset.advancedArticlesCuration = "";
-  curation.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-advanced-articles-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 03 · ADVANCED ARTICLES</p><h2>進階冠詞 · 語法導讀</h2><p>把名詞的意思、前後文與固定表達連起來看；每條規則只先顯示重點，向下捲動才逐條展開。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-advanced-articles-start>開始 100 題練習</button><span data-advanced-articles-position>導讀 1 / 28</span></div></div><nav class="grammar-articles-chapters" aria-label="進階冠詞導讀章節">${chapterLinks}</nav><div class="grammar-articles-stream" data-advanced-articles-stream>${topics}${decisionMap}</div><div class="grammar-articles-curation__finish"><h3>用這套判斷方法練習</h3><p>151–200 題應用本章規則；201–250 題加入原有冠詞規則的延伸綜合判斷。</p><button class="grammar-button grammar-button--primary" type="button" data-advanced-articles-start>開始 100 題練習</button></div>`;
+  curation.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-advanced-articles-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 03 · ADVANCED ARTICLES</p><h2>進階冠詞 · 語法導讀</h2><p>把名詞的意思、前後文與固定表達連起來看；每條規則只先顯示重點，向下捲動才逐條展開。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-advanced-articles-start>開始 ${questionCount} 題練習</button><span data-advanced-articles-position>導讀 1 / ${guideCount}</span></div></div><nav class="grammar-articles-chapters" aria-label="進階冠詞導讀章節">${chapterLinks}</nav><div class="grammar-articles-stream" data-advanced-articles-stream>${topics}${decisionMap}</div><div class="grammar-articles-curation__finish"><h3>用這套判斷方法練習</h3><p>151–200 題應用本章規則；201–250 題延伸綜合判斷；251–262 題應用新增第 94–97 節，263–270 題混合重練。</p><button class="grammar-button grammar-button--primary" type="button" data-advanced-articles-start>開始 ${questionCount} 題練習</button></div>`;
   dashboard.append(curation);
 
   const practice = document.createElement("section");
   practice.className = "panel grammar-practice grammar-articles-practice";
   practice.hidden = true;
   practice.dataset.advancedArticlesPractice = "";
-  practice.innerHTML = `<div class="grammar-practice__head"><div><button class="grammar-button--ghost" type="button" data-advanced-articles-back-curation>← 返回進階冠詞導讀</button><p class="eyebrow">ADVANCED ARTICLES · 進階冠詞</p><h2>逐題練習</h2></div><div class="grammar-practice__tools"><div class="grammar-reading-mode" role="group" aria-label="解析閱讀模式"><span class="grammar-reading-mode__label">解析模式</span><button type="button" data-advanced-articles-mode="step" aria-pressed="false">逐步</button><button type="button" data-advanced-articles-mode="scroll" aria-pressed="false">捲動閱讀</button></div><div class="grammar-practice__summary"><strong data-advanced-articles-score>0</strong><span>/ 100<br>已答對</span></div></div></div><div class="grammar-progress" role="progressbar" aria-label="進階冠詞答對進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span data-advanced-articles-progress></span></div><div class="grammar-navigator"><div class="grammar-navigator__bar"><label><span class="sr-only">題目範圍</span><select class="grammar-range-select" data-advanced-articles-range aria-label="選擇題目範圍"></select></label><span class="grammar-navigator__legend">綠色：答對 · 紅色：需再試</span></div><div class="grammar-number-grid" data-advanced-articles-grid aria-label="選擇進階冠詞題目"></div></div><div class="grammar-highlight-tools"><button type="button" class="grammar-button--ghost" data-advanced-articles-highlight aria-pressed="false">🖍 暫時螢光筆</button><span>開啟後拖選題目或解析文字；再按一次清除。</span></div><article class="grammar-question"><div class="grammar-question__meta"><span class="grammar-question__number" data-advanced-articles-number></span><span class="grammar-question__tense" data-advanced-articles-guide></span><button class="grammar-bookmark" type="button" data-advanced-articles-bookmark aria-pressed="false">☆ 收藏這題</button></div><p class="grammar-question__prompt" data-advanced-articles-prompt></p><p class="grammar-question__translation" data-advanced-articles-translation></p><form class="grammar-answer" data-advanced-articles-form novalidate><label>您的答案<input name="answer" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="advanced-articles-answer-hint advanced-articles-feedback"></label><p class="grammar-answer__hint" id="advanced-articles-answer-hint">請填 a、an、the；不用冠詞填 Ø 或 x。兩格題按次序以 / 分隔；也可輸入完整句子。</p><div class="grammar-answer__actions"><button class="grammar-button grammar-button--primary" type="submit">提交答案</button></div><div class="grammar-feedback" id="advanced-articles-feedback" data-advanced-articles-feedback hidden aria-live="polite"></div></form><section class="grammar-explanation" data-advanced-articles-explanation hidden aria-labelledby="advanced-articles-explanation-title"><div class="grammar-explanation__head"><div><p class="eyebrow">STEP-BY-STEP</p><h3 id="advanced-articles-explanation-title" data-advanced-articles-explanation-title>進階冠詞 · 逐步解析</h3></div><p data-advanced-articles-answer></p></div><p class="grammar-explanation__instruction" data-advanced-articles-instruction></p><div class="grammar-steps" data-advanced-articles-steps></div></section></article><nav class="grammar-nav" aria-label="進階冠詞題目導覽"><button type="button" data-advanced-articles-previous>← 上一題</button><button type="button" data-advanced-articles-next>下一題 →</button></nav><p class="grammar-save-status" data-advanced-articles-save-status aria-live="polite"></p>`;
+  practice.innerHTML = `<div class="grammar-practice__head"><div><button class="grammar-button--ghost" type="button" data-advanced-articles-back-curation>← 返回進階冠詞導讀</button><p class="eyebrow">ADVANCED ARTICLES · 進階冠詞</p><h2>逐題練習</h2></div><div class="grammar-practice__tools"><div class="grammar-reading-mode" role="group" aria-label="解析閱讀模式"><span class="grammar-reading-mode__label">解析模式</span><button type="button" data-advanced-articles-mode="step" aria-pressed="false">逐步</button><button type="button" data-advanced-articles-mode="scroll" aria-pressed="false">捲動閱讀</button></div><div class="grammar-practice__summary"><strong data-advanced-articles-score>0</strong><span>/ ${questionCount}<br>已答對</span></div></div></div><div class="grammar-progress" role="progressbar" aria-label="進階冠詞答對進度" aria-valuemin="0" aria-valuemax="${questionCount}" aria-valuenow="0"><span data-advanced-articles-progress></span></div><div class="grammar-navigator"><div class="grammar-navigator__bar"><label><span class="sr-only">題目範圍</span><select class="grammar-range-select" data-advanced-articles-range aria-label="選擇題目範圍"></select></label><span class="grammar-navigator__legend">綠色：答對 · 紅色：需再試</span></div><div class="grammar-number-grid" data-advanced-articles-grid aria-label="選擇進階冠詞題目"></div></div><div class="grammar-highlight-tools"><button type="button" class="grammar-button--ghost" data-advanced-articles-highlight aria-pressed="false">🖍 暫時螢光筆</button><span>開啟後拖選題目或解析文字；再按一次清除。</span></div><article class="grammar-question"><div class="grammar-question__meta"><span class="grammar-question__number" data-advanced-articles-number></span><span class="grammar-question__tense" data-advanced-articles-guide></span><button class="grammar-bookmark" type="button" data-advanced-articles-bookmark aria-pressed="false">☆ 收藏這題</button></div><p class="grammar-question__prompt" data-advanced-articles-prompt></p><p class="grammar-question__translation" data-advanced-articles-translation></p><form class="grammar-answer" data-advanced-articles-form novalidate><label>您的答案<input name="answer" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="advanced-articles-answer-hint advanced-articles-feedback"></label><p class="grammar-answer__hint" id="advanced-articles-answer-hint">請填 a、an、the；不用冠詞填 Ø 或 x。兩格題按次序以 / 分隔；也可輸入完整句子。</p><div class="grammar-answer__actions"><button class="grammar-button grammar-button--primary" type="submit">提交答案</button></div><div class="grammar-feedback" id="advanced-articles-feedback" data-advanced-articles-feedback hidden aria-live="polite"></div></form><section class="grammar-explanation" data-advanced-articles-explanation hidden aria-labelledby="advanced-articles-explanation-title"><div class="grammar-explanation__head"><div><p class="eyebrow">STEP-BY-STEP</p><h3 id="advanced-articles-explanation-title" data-advanced-articles-explanation-title>進階冠詞 · 逐步解析</h3></div><p data-advanced-articles-answer></p></div><p class="grammar-explanation__instruction" data-advanced-articles-instruction></p><div class="grammar-steps" data-advanced-articles-steps></div></section></article><nav class="grammar-nav" aria-label="進階冠詞題目導覽"><button type="button" data-advanced-articles-previous>← 上一題</button><button type="button" data-advanced-articles-next>下一題 →</button></nav><p class="grammar-save-status" data-advanced-articles-save-status aria-live="polite"></p>`;
   dashboard.append(practice);
 
   const $ = (selector) => dashboard.querySelector(selector);
@@ -126,8 +130,8 @@
     steps: $("[data-advanced-articles-steps]"), saveStatus: $("[data-advanced-articles-save-status]"),
     bookmark: $("[data-advanced-articles-bookmark]"), highlight: $("[data-advanced-articles-highlight]")
   };
-  for (let first = 151; first <= 250; first += 25) {
-    el.range.append(new Option(`第 ${first}–${Math.min(250, first + 24)} 題`, String(first)));
+  for (let first = 151; first <= lastQuestion; first += 25) {
+    el.range.append(new Option(`第 ${first}–${Math.min(lastQuestion, first + 24)} 題`, String(first)));
   }
 
   const localKey = () => `edmund-grammar-advanced-articles-v1:${state.userId || "guest"}`;
@@ -136,11 +140,11 @@
     state.attempts = {};
     try {
       const saved = JSON.parse(localStorage.getItem(localKey()) || "null");
-      if (Number.isInteger(saved?.question) && saved.question >= 151 && saved.question <= 250) state.question = saved.question;
+      if (Number.isInteger(saved?.question) && saved.question >= 151 && saved.question <= lastQuestion) state.question = saved.question;
       if (saved?.attempts && typeof saved.attempts === "object") {
         state.attempts = Object.fromEntries(Object.entries(saved.attempts).filter(([key, value]) => {
           const number = Number(key);
-          return Number.isInteger(number) && number >= 151 && number <= 250 && ["correct", "wrong"].includes(value?.status);
+          return Number.isInteger(number) && number >= 151 && number <= lastQuestion && ["correct", "wrong"].includes(value?.status);
         }));
       }
     } catch { /* Local progress is optional. */ }
@@ -163,13 +167,13 @@
     el.correct.textContent = el.score.textContent = String(correct);
     el.attempted.textContent = String(attempted);
     el.progress.setAttribute("aria-valuenow", String(correct));
-    el.progressFill.style.width = `${correct / 100 * 100}%`;
+    el.progressFill.style.width = `${correct / questionCount * 100}%`;
   }
   function renderGrid() {
     const first = Math.floor((state.question - 151) / 25) * 25 + 151;
     el.range.value = String(first);
     el.grid.replaceChildren();
-    for (let number = first; number <= Math.min(250, first + 24); number++) {
+    for (let number = first; number <= Math.min(lastQuestion, first + 24); number++) {
       const button = document.createElement("button");
       button.type = "button";
       button.textContent = String(number);
@@ -187,11 +191,11 @@
   }
   function showQuestion(number, focus = false) {
     clearHighlight();
-    state.question = Math.min(250, Math.max(151, Number(number) || 151));
+    state.question = Math.min(lastQuestion, Math.max(151, Number(number) || 151));
     state.startedAt = performance.now();
     saveLocal();
     const question = data.questions[state.question - 151];
-    el.number.textContent = `QUESTION ${question.number} / 250`;
+    el.number.textContent = `QUESTION ${question.number} / ${lastQuestion}`;
     el.guide.textContent = guideLabel(question.number);
     el.prompt.textContent = question.prompt;
     el.translation.textContent = question.translation;
@@ -203,7 +207,7 @@
     el.steps.replaceChildren();
     practice.classList.remove("grammar-practice--scroll-reading");
     $("[data-advanced-articles-previous]").disabled = state.question === 151;
-    $("[data-advanced-articles-next]").disabled = state.question === 250;
+    $("[data-advanced-articles-next]").disabled = state.question === lastQuestion;
     el.saveStatus.textContent = "";
     renderGrid();
     updateBookmark();
@@ -226,7 +230,7 @@
       section.setAttribute("aria-hidden", String(!visible));
       if (visible) section.removeAttribute("inert"); else section.setAttribute("inert", "");
     });
-    el.position.textContent = `導讀 ${Math.min(revealed, 28)} / 28`;
+    el.position.textContent = `導讀 ${Math.min(revealed, guideCount)} / ${guideCount}`;
   }
   function showCuration() {
     library.hidden = true;
@@ -321,7 +325,12 @@
   function normalize(value) {
     return String(value ?? "").normalize("NFKC").toLowerCase().replace(/[‘’]/g, "'").replace(/[.!?]+$/g, "").replace(/\s+/g, " ").trim();
   }
+  function contextualAnswer(question, value) {
+    const answer = normalize(value);
+    return (question.contextualAnswers || []).some(candidate => answer === normalize(candidate) || answer === normalize(question.prompt.replace(/_+/,candidate)));
+  }
   function correctAnswer(question, value) {
+    if (contextualAnswer(question,value)) return true;
     const answer = normalize(value);
     if (answer === normalize(filledSentence(question))) return true;
     const choices = question.answers.length === 1 ? [answer] : answer.split(/\s*[/,，、;；]\s*/);
@@ -400,6 +409,7 @@
   }
 
   card.querySelector("[data-advanced-articles-open]").addEventListener("click", showCuration);
+  curation.querySelectorAll("[data-advanced-articles-practice-question]").forEach(button => button.addEventListener("click", () => showPractice(Number(button.dataset.advancedArticlesPracticeQuestion))));
   curation.querySelector("[data-advanced-articles-menu]").addEventListener("click", showMenu);
   curation.querySelectorAll("[data-advanced-articles-start]").forEach((button) => button.addEventListener("click", () => showPractice(151)));
   curation.querySelectorAll("[data-advanced-articles-jump]").forEach((button) => button.addEventListener("click", () => {
@@ -429,11 +439,12 @@
     const correct = correctAnswer(question, value);
     state.attempts[state.question] = { answer: value, status: correct ? "correct" : "wrong" };
     saveLocal();
-    el.feedback.textContent = correct ? "✓ 答案正確！以下逐步解析會說明原因。" : "答案未正確。請按以下步驟看清語境，再試一次。";
+    el.feedback.textContent = contextualAnswer(question,value) ? `✓ ${question.contextualFeedback}` : correct ? "✓ 答案正確！以下逐步解析會說明原因。" : "答案未正確。請按以下步驟看清語境，再試一次。";
     el.feedback.dataset.state = correct ? "correct" : "wrong";
     el.feedback.hidden = false;
     el.input.setAttribute("aria-invalid", String(!correct));
     showExplanation(question, correct);
+    if (contextualAnswer(question,value)) el.answer.textContent = `本題重點答案：${question.answer}；${question.contextualFeedback}`;
     updateTotals();
     renderGrid();
     if (correct) void recordCompletion(state.question);
@@ -483,7 +494,7 @@
     if (changed) readLocal();
     try {
       const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("grammar_advanced_articles_list_progress", { p_token: state.token });
-      state.remoteCorrect = new Set((Array.isArray(rows) ? rows : []).map((row) => Number(row.question_number)).filter((number) => number >= 151 && number <= 250));
+      state.remoteCorrect = new Set((Array.isArray(rows) ? rows : []).map((row) => Number(row.question_number)).filter((number) => number >= 151 && number <= lastQuestion));
     } catch (error) { console.warn("Advanced Articles progress load failed", error); }
     try {
       const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("learning_portal_list_bookmarks", { p_token: state.token, p_system_key: "grammar" });
@@ -513,7 +524,7 @@
   const route = new URLSearchParams(window.location.search);
   if (route.get("lesson") === "advanced-articles") {
     const requested = Number(route.get("question"));
-    if (route.get("view") === "practice" && Number.isInteger(requested) && requested >= 151 && requested <= 250) showPractice(requested);
+    if (route.get("view") === "practice" && Number.isInteger(requested) && requested >= 151 && requested <= lastQuestion) showPractice(requested);
     else showCuration();
   }
   queueMicrotask(adoptSession);

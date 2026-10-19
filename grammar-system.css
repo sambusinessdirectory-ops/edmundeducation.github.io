@@ -587,3 +587,5 @@ mark.grammar-teaching-highlight { background: #ffe680; color: #242b36; border-ra
   border-color: rgba(144, 190, 212, .58);
 }
 .grammar-lesson-card--advanced-articles::after { content: "ADVANCED"; }
+
+.grammar-question__focus{margin:0 0 20px;padding:16px 20px;border-left:4px solid #37669c;background:#eef4fc;border-radius:8px;line-break:strict;overflow-wrap:anywhere}.grammar-question__focus p{margin:8px 0 0;line-height:1.7}.grammar-question__focus[hidden]{display:none}

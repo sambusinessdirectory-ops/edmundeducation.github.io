@@ -3,21 +3,22 @@ import fs from "node:fs/promises";
 import vm from "node:vm";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [html, css, runtime, dataSource, guideSource, sql, workflow] = await Promise.all([
+const [html, css, runtime, dataSource, guideSource, extensionSource, sql, workflow] = await Promise.all([
   read("grammar-system.html"), read("grammar-system.css"), read("grammar-system.js"),
-  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("supabase-grammar-tense-progress.sql"), read(".github/workflows/pages.yml")
+  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("grammar-tense-extension-data.js"), read("supabase-grammar-tense-progress.sql"), read(".github/workflows/pages.yml")
 ]);
 
 const context = { window: {} };
 vm.createContext(context);
 vm.runInContext(dataSource, context);
 vm.runInContext(guideSource, context);
+vm.runInContext(extensionSource, context);
 const questions = context.window.EDMUND_GRAMMAR_TENSE_QUESTIONS;
 const guide = context.window.EDMUND_GRAMMAR_TENSE_CURATION;
 
-assert.equal(questions.length, 150, "Tense lesson must contain all 150 PDF questions");
-assert.deepEqual(Array.from(questions, (item) => item.number), Array.from({ length: 150 }, (_, index) => index + 1));
-assert.equal(new Set(questions.map((item) => item.id)).size, 150);
+assert.equal(questions.length, 195, "Tense lesson must contain all 195 questions");
+assert.deepEqual(Array.from(questions, (item) => item.number), Array.from({ length: 195 }, (_, index) => index + 1));
+assert.equal(new Set(questions.map((item) => item.id)).size, 195);
 for (const item of questions) {
   assert.match(item.id, /^tense-\d{3}$/);
   assert.ok(item.prompt && item.translation && item.answer && item.tense);
@@ -30,20 +31,20 @@ assert.equal(questions[50].answer, "brings");
 assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
-assert.equal(guide.length, 52, "Tense curation must teach the foundation, detailed distinctions, and final form checks");
+assert.equal(guide.length, 61, "Tense curation must teach the foundation, detailed distinctions, and final form checks");
 assert.ok(guide.every((item) => item.title && item.focus && item.formula && item.examples.length === 2 && item.check && item.source));
 assert.match(guide[19].title, /時間字是線索/);
 assert.match(guide[49].title, /綜合檢查/);
-assert.equal(new Set(guide.map((item) => item.title)).size, 52, "Each stage should teach a distinct point");
+assert.equal(new Set(guide.map((item) => item.title)).size, 61, "Each stage should teach a distinct point");
 assert.match(guide[50].title, /問句與否定/);
 assert.match(guide[51].title, /just、ever、never/);
-assert.ok(guide.slice(50).every((item) => item.checkpoint?.choices.length === 3 && item.checkpoint?.whyChoices.length === 3));
-assert.ok(guide.slice(19).every((item) => /第 \d|全部/.test(item.source) || /綜合/.test(item.source)), "Deep-dive stages should trace back to the questions");
+assert.ok(guide.slice(50,52).every((item) => item.checkpoint?.choices.length === 3 && item.checkpoint?.whyChoices.length === 3));
+assert.ok(guide.slice(19,52).every((item) => /第 \d|全部/.test(item.source) || /綜合/.test(item.source)), "Deep-dive stages should trace back to the questions");
 for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Present Continuous", "Past Continuous", "Future Continuous", "Present Perfect", "Past Perfect", "Future Perfect", "Perfect Continuous", "Modal Perfect"]) {
   assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
 }
 
-for (const asset of ["grammar-system.css?v=20261017-tense-no-hints1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261017-tense-no-hints1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261012-advanced1"]) {
+for (const asset of ["grammar-system.css?v=20261019-tense-extension1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261019-tense-extension1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261012-advanced1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261019-grammar-extension1"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
@@ -65,7 +66,7 @@ assert.match(css, /\.grammar-explanation\[data-mode="scroll"\] \.grammar-step__c
 
 assert.match(sql, /auth\.uid\(\) is null/);
 assert.match(sql, /flashcard_student_sessions/);
-assert.match(sql, /p_question_number not between 1 and 150/);
+assert.match(sql, /p_question_number not between 1 and 195/);
 assert.match(sql, /p_duration_ms not between 0 and 1800000/);
 assert.match(sql, /system_key,\s*event_key/);
 assert.match(sql, /on conflict \(student_id, system_key, event_key\) do nothing/);
@@ -75,7 +76,7 @@ assert.doesNotMatch(sql, /grant execute[\s\S]*to anon/);
 assert.match(workflow, /node tools\/test-grammar-tense-system\.mjs/);
 assert.match(workflow, /Validate focused Grammar release/);
 
-console.log("Grammar Tense system checks passed: 150 questions, feedback, explanations, and owner-scoped progress.");
+console.log("Grammar Tense system checks passed: 195 questions, feedback, explanations, and owner-scoped progress.");
 
 // Exercise the real Grammar UI in both native Highlight and mark fallback modes.
 const { createRequire } = await import('node:module');
@@ -86,10 +87,10 @@ for (const native of [false, true]) {
   const w=dom.window, d=w.document;
   w.HTMLElement.prototype.scrollIntoView=function(){};
   if(native){w.CSS={highlights:new Map()};w.Highlight=class extends Set{constructor(...ranges){super(ranges)}};}
-  w.eval(dataSource);w.eval(guideSource);w.eval(runtime);
+  w.eval(dataSource);w.eval(guideSource);w.eval(extensionSource);w.eval(runtime);
   const cards=[...d.querySelectorAll('[data-tense-topic]')];
-  assert.equal(cards.length,52,'all foundation, deep-dive, and form stages are present');
-  assert.equal(d.querySelectorAll('.grammar-tense-deep-dive').length,2,'later stages have clear visual section breaks');
+  assert.equal(cards.length,61,'all foundation, deep-dive, and form stages are present');
+  assert.equal(d.querySelectorAll('.grammar-tense-deep-dive').length,3,'later stages have clear visual section breaks');
   const firstCheckpoint=cards[50].querySelector('[data-tense-checkpoint]');
   assert.ok(firstCheckpoint,'the form stage has an interactive checkpoint');
   assert.equal(firstCheckpoint.querySelector('[data-checkpoint-why]').hidden,true,'reason choices start hidden');
@@ -193,10 +194,11 @@ for (const [url, expectedView] of [
   dom.window.HTMLElement.prototype.scrollIntoView = function () {};
   dom.window.eval(dataSource);
   dom.window.eval(guideSource);
+  dom.window.eval(extensionSource);
   dom.window.eval(runtime);
   const section = dom.window.document.querySelector(expectedView === 'curation' ? '[data-tense-curation]' : '[data-grammar-practice]');
   assert.equal(section.hidden, false, `${url} should open ${expectedView}`);
-  if (url.includes('question=94')) assert.equal(dom.window.document.querySelector('.grammar-question__number').textContent, 'QUESTION 94 / 150');
+  if (url.includes('question=94')) assert.equal(dom.window.document.querySelector('.grammar-question__number').textContent, 'QUESTION 94 / 195');
   dom.window.close();
 }
 console.log('Tense guide and direct question routes passed.');

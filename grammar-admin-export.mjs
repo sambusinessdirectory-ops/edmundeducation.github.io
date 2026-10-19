@@ -37,7 +37,7 @@ export function exportSections(module, kind) {
     if (topics.length) return topics;
     return module.questions.map(q=>({title:`第 ${q.number} 題 · ${q.tense || ''}`,body:`${q.prompt}\n${q.translation}\n\n答案：${answer(q)}\n\n${explanation(q)}`}));
   }
-  return module.questions.map(q=>({title:`第 ${q.number} 題`,body:[q.context,q.passage,q.prompt,q.translation,...(q.options || []).map(o=>typeof o==='string'?o:JSON.stringify(o)), '答案：________________________________',`參考答案：${answer(q)}${q.completeSentence?'\n'+q.completeSentence:''}\n\n本題完整解析\n${explanation(q)}`].filter(Boolean).join('\n\n')}));
+  return module.questions.map(q=>({title:`第 ${q.number} 題`,body:[q.instructionEn,q.instruction,q.context,q.passage,q.prompt,q.translation,...(q.options || []).map(o=>typeof o==='string'?o:JSON.stringify(o)), '答案：________________________________',`參考答案：${answer(q)}${q.completeSentence?'\n'+q.completeSentence:''}\n\n本題完整解析\n${explanation(q)}`].filter(Boolean).join('\n\n')}));
 }
 export function exportText(module,kind) {
   const label=kind==='curation'?'教學內容 / Curation':'全部練習 / All exercises';

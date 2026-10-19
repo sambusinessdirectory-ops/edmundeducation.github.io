@@ -1,0 +1,58 @@
+{
+  "sourceHashes": {
+    "exercises": "2372069891e4210530aafc2f5983e668550a36def8d8b39cb7de95490b56bc70",
+    "curation": "7f48d0b001c1c751a072f699f4000d2ed12ead7d9006ac34cb7b4c859902daf3"
+  },
+  "coverage": [
+    {
+      "number": 94,
+      "title": "有名稱的運河通常用 the",
+      "questionNumbers": [
+        251,
+        252,
+        253,
+        263,
+        267
+      ]
+    },
+    {
+      "number": 95,
+      "title": "縮寫要讀出聲音，才選 a 或 an",
+      "questionNumbers": [
+        254,
+        255,
+        256,
+        264,
+        268
+      ]
+    },
+    {
+      "number": 96,
+      "title": "the UK：縮寫沿用該國名稱的 the",
+      "questionNumbers": [
+        257,
+        258,
+        259,
+        265,
+        269
+      ]
+    },
+    {
+      "number": 97,
+      "title": "study history 與 the history of 某件事",
+      "questionNumbers": [
+        260,
+        261,
+        262,
+        266,
+        270
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Original 27 advanced rules and 100 questions remain unchanged.",
+    "All 20 supplied questions, translations, primary answers and 140 explanation steps are retained.",
+    "IPA /y/ for the initial consonant in university/USB is corrected to /j/.",
+    "The supplied a history of ... interpretation is accepted with explicit contextual feedback for Q261, Q262 and Q266."
+  ]
+}

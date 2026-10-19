@@ -1,0 +1,25 @@
+// Usage: node tools/import-grammar-articles-extension.mjs exercises.txt curation.txt
+import fs from 'node:fs';import assert from 'node:assert/strict';import crypto from 'node:crypto';
+const [exerciseFile,curationFile]=process.argv.slice(2);if(!exerciseFile||!curationFile)throw new Error('Provide both supplied TXT files');
+const exercises=fs.readFileSync(exerciseFile,'utf8').replace(/\r\n/g,'\n'),curation=fs.readFileSync(curationFile,'utf8').replace(/\r\n/g,'\n');
+const range=s=>s.split('、').flatMap(p=>{const m=p.match(/^(\d+)(?:[–-](\d+))?$/);assert.ok(m);return Array.from({length:Number(m[2]||m[1])-Number(m[1])+1},(_,i)=>Number(m[1])+i);});
+const topics=curation.split(/^={10,}\s*$/m).map(s=>s.trim()).filter(s=>/^\d+\. /.test(s)).map(block=>{
+ const p=block.split(/\n\s*\n/);assert.equal(p.length,5);const first=p[0].indexOf('\n');const head=p[0].slice(0,first).match(/^(\d+)\. (.+)$/);const focus=p[0].slice(first+1);const example=p[2].split('\n');assert.equal(example.length,2);
+ const refs=p[4].match(/^來源：(.*?)。原有連結：(.*?)。練習：(.*?)。$/);assert.ok(refs);
+ return {number:Number(head[1]),title:head[2],focus:focus.replaceAll('/y/','/j/'),body:[focus,p[1],p[2],p[3],`相關已學規則：${refs[2]}。`].join('\n\n').replaceAll('/y/','/j/'),examples:[{text:example[0],translation:example[1],wrong:false}],sourceLine:curation.slice(0,curation.indexOf(block)).split('\n').length,sourceReference:refs[1],questionNumbers:range(refs[3])};
+});
+assert.deepEqual(topics.map(t=>t.number),[94,95,96,97]);const conceptFor=new Map();for(const t of topics){assert.equal(t.questionNumbers.length,5);for(const n of t.questionNumbers){assert.ok(!conceptFor.has(n));conceptFor.set(n,t.number);}}
+const prompts=new Map([...exercises.matchAll(/^第 (\d+) 題\n([^\n]+)\n([^\n]+)/gm)].map(m=>[Number(m[1]),[m[2],m[3]]]));
+const questions=[...curation.matchAll(/^第 (\d+) 題\n([\s\S]*?)(?=^第 \d+ 題\n|$(?![\s\S]))/gm)].map(m=>{
+ const number=Number(m[1]);const lines=m[2].split('\n').map(s=>s.trim()).filter(s=>s&&!/^-{5,}$/.test(s));assert.ok(lines.length===11||lines.length===12);
+ const [prompt,translation,answerLine,completeLine,...tail]=lines;const explanation=tail.filter(line=>line.startsWith('步驟'));const extra=tail.filter(line=>!line.startsWith('步驟'));assert.equal(explanation.length,7);assert.deepEqual([prompt,translation],prompts.get(number));const answer=answerLine.replace(/^答案：/,''),completeSentence=completeLine.replace(/^完整句：/,'');
+ assert.equal(prompt.replace(/_+/,answer==='Ø'?'':answer).replace(/ {2,}/g,' '),completeSentence);
+ const steps=explanation.map((line,i)=>{assert.ok(line.startsWith(`步驟${'一二三四五六七'[i]}：`));const split=line.indexOf('。');return {title:line.slice(0,split+1),body:line.slice(split+1).replaceAll('/y/','/j/')};});
+ if(extra.length)steps[6].body+='\n\n'+extra.join('\n');
+ const contextualAnswers=[261,262,266].includes(number)?['a']:[];
+ return {number,conceptNumber:conceptFor.get(number),stage:number<=262?'extension-guided':'extension-mixed',prompt,translation,answer,answers:[answer],completeSentence,steps,sourceLine:exercises.slice(0,exercises.indexOf(`第 ${number} 題\n`)).split('\n').length,answerSourceLine:curation.slice(0,m.index).split('\n').length,...(contextualAnswers.length?{contextualAnswers,contextualFeedback:'a history of ... 可以指其中一份歷史敘述或著作；這個讀法可以成立。本題示範 the，着重該事物本身及其整段已指出的歷史發展。'}:{})};
+});
+assert.deepEqual(questions.map(q=>q.number),Array.from({length:20},(_,i)=>i+251));assert.equal(prompts.size,20);
+fs.writeFileSync('grammar-advanced-articles-extension-data.js',`// Supplied extension: rules 94–97, exercises 251–270.\nwindow.EDMUND_GRAMMAR_ADVANCED_ARTICLES_EXTENSION = ${JSON.stringify({topics,questions},null,2)};\nif (window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA?.topics?.length === 27 && window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA?.questions?.length === 100) {\n const original=window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA;\n window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA={...original,topics:[...original.topics,...window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_EXTENSION.topics],questions:[...original.questions,...window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_EXTENSION.questions]};\n} else { console.error('Load original Advanced Articles before its extension.'); }\n`);
+const hash=s=>crypto.createHash('sha256').update(s).digest('hex');fs.writeFileSync('tools/grammar-articles-extension-manifest.json',JSON.stringify({sourceHashes:{exercises:hash(exercises),curation:hash(curation)},coverage:topics.map(({number,title,questionNumbers})=>({number,title,questionNumbers})),editorialNotes:['Original 27 advanced rules and 100 questions remain unchanged.','All 20 supplied questions, translations, primary answers and 140 explanation steps are retained.','IPA /y/ for the initial consonant in university/USB is corrected to /j/.','The supplied a history of ... interpretation is accepted with explicit contextual feedback for Q261, Q262 and Q266.']},null,2)+'\n');
+console.log('Imported 4 Advanced Articles rules, 20 questions and 140 explanation steps; both sources reconcile.');

@@ -85,6 +85,7 @@ jobs:
           node tools/test-grammar-admin-connection.mjs
           node tools/test-grammar-admin-export.mjs
           node tools/test-grammar-tense-system.mjs
+          node tools/test-grammar-tense-extension.mjs
           node --check grammar-articles.js
           node tools/test-grammar-articles-system.mjs
           node --check grammar-advanced-articles.js
@@ -586,6 +587,7 @@ jobs:
           node tools/test-shared-system-nav.mjs
           node tools/test-learning-portal-scaffolds.mjs
           node tools/test-grammar-tense-system.mjs
+          node tools/test-grammar-tense-extension.mjs
           node tools/test-grammar-articles-system.mjs
           node --check grammar-advanced-articles.js
           node tools/test-grammar-advanced-articles-system.mjs
