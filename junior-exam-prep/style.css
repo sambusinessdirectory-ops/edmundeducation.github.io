@@ -12,6 +12,7 @@ body[data-learning-portal="junior-exam-prep"] { --portal-hue: 204; background: #
 .junior-back { margin: 0 0 23px; border: 0; background: none; color: #0f7189; font: inherit; font-weight: 800; cursor: pointer; }
 .junior-back:hover { text-decoration: underline; }
 .junior-module-card { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; gap: 22px; width: 100%; padding: 28px; border: 1px solid #c6d6d6; border-radius: 22px; background: linear-gradient(135deg,#fffdf8,#e9f2f0); color: #173e51; box-shadow: 0 20px 45px rgba(37,64,67,.11); text-align: left; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease; }
+.junior-module-card[href] { text-decoration: none; }
 .junior-module-card:hover { transform: translateY(-3px); box-shadow: 0 26px 54px rgba(37,64,67,.16); }
 .junior-module-card__number { color: #b5804b; font: 700 50px Georgia,serif; }
 .junior-module-card strong, .junior-module-card small, .junior-module-card em { display: block; }

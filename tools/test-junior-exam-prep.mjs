@@ -9,10 +9,20 @@ const read = (name) => readFile(path.join(root, name), 'utf8');
 const app = await read('junior-exam-prep/app.mjs');
 const style = await read('junior-exam-prep/style.css');
 const html = await read('junior-exam-prep.html');
+const legacyHtml = await read('junior-exam-prep-legacy.html');
+const legacyApp = await read('junior-exam-prep/legacy.mjs');
 const sql = await read('supabase-junior-advanced-exams-20261019.sql');
 const old = JSON.parse(await read('junior-exam-prep/s2-oct-2026-questions.json'));
 
 assert.equal(old.questions.length, 470, 'the earlier exercise data must remain available');
+assert.match(app, /s2-exam-prep-oct-2026/);
+assert.match(app, /junior-exam-prep-legacy\.html#module/);
+assert.match(app, /module\.total \|\| 50/);
+assert.match(legacyHtml, /junior-exam-prep\/legacy\.mjs/);
+assert.match(legacyApp, /s2-oct-2026-questions\.json/);
+assert.match(legacyApp, /audio-manifest\.json/);
+assert.match(legacyApp, /junior_exam_list_responses/);
+assert.match(legacyApp, /junior_exam_submit/);
 assert.match(html, /data-learning-portal="junior-exam-prep"/);
 assert.match(html, /junior-exam-prep\/app\.mjs\?v=20261019-advanced/);
 assert.match(app, /junior_exam_list_responses/);
@@ -53,4 +63,4 @@ for (const [type, key, title] of modules) {
   }
 }
 assert.equal((sql.match(/'s2-exam-prep-advanced-[^']+', \d+, '[0-9a-f]{64}'/g) || []).length, 150);
-console.log('Jayden advanced exam verified: three modules, 15 passages, 150 answers, seven-step explanations, and account-scoped checks.');
+console.log('Jayden exam verified: restored 470-question module plus three advanced modules, 15 passages, 150 new answers, and account-scoped checks.');

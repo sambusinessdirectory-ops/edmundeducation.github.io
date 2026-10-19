@@ -2,6 +2,7 @@ import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-hig
 
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
 const MODULES = [
+  {key: 's2-exam-prep-oct-2026', type: 'legacy', title: 'S2 Exam Prep - Oct 2026', subtitle: 'Word Form Challenge · 47 forms × 10 questions', total: 470, href: './junior-exam-prep-legacy.html#module'},
   {key: 's2-exam-prep-advanced-tense', type: 'tense', title: 'S2 Exam Prep - Advanced - Tense', subtitle: '5 passages · 50 tense questions', file: 'advanced-tense.json', instructions: 'Read each complete passage. Write the full verb form shown by the context; some answers have several words.'},
   {key: 's2-exam-prep-advanced-articles', type: 'articles', title: 'S2 Exam Prep - Advanced - Articles', subtitle: '5 passages · 50 article and plural questions', file: 'advanced-articles.json', instructions: 'For each marked phrase, enter TICK if correct, X to remove its article, a/an/the to insert or replace an article, or PLURAL: word where requested.'},
   {key: 's2-exam-prep-advanced-non-tense-non-articles', type: 'other', title: 'S2 Exam Prep - Advanced - Non-Tense & Non-Articles', subtitle: '5 passages · 50 grammar and word-form questions', file: 'advanced-other.json', instructions: 'Use the word or choice in brackets. Change its form when needed. Some answers contain more than one word.'}
@@ -40,8 +41,11 @@ function renderHome() {
     host.innerHTML = '<article class="junior-empty"><p class="junior-eyebrow">YOUR LEARNING SPACE</p><h2>已成功登入</h2><p>目前沒有分配給您的考試溫習模組。</p></article>';
     return;
   }
-  host.innerHTML = `<div class="junior-home-heading"><p class="junior-eyebrow">YOUR EXAM PREPARATION</p><h2>您的溫習模組</h2><p>每個專題有五篇文章和 50 題。可只提交已填答案，立即查看答案及七步解析。</p></div>
-    <div class="junior-advanced-grid">${MODULES.map((module, index) => `<button class="junior-module-card" type="button" data-open-module="${module.key}"><span class="junior-module-card__number">0${index + 1}</span><span><strong>${escapeHtml(module.title)}</strong><small>${escapeHtml(module.subtitle)}</small><em data-home-progress="${module.key}">${progress[module.key]} / 50 題已提交</em></span><span aria-hidden="true">↗</span></button>`).join('')}</div>`;
+  host.innerHTML = `<div class="junior-home-heading"><p class="junior-eyebrow">YOUR EXAM PREPARATION</p><h2>您的溫習模組</h2><p>先選擇專題。所有模組都可分段提交；三個進階專題另附答案與七步解析。</p></div>
+    <div class="junior-advanced-grid">${MODULES.map((module, index) => {
+      const content = `<span class="junior-module-card__number">0${index + 1}</span><span><strong>${escapeHtml(module.title)}</strong><small>${escapeHtml(module.subtitle)}</small><em data-home-progress="${module.key}">${progress[module.key]} / ${module.total || 50} 題已提交</em></span><span aria-hidden="true">↗</span>`;
+      return module.href ? `<a class="junior-module-card" href="${module.href}">${content}</a>` : `<button class="junior-module-card" type="button" data-open-module="${module.key}">${content}</button>`;
+    }).join('')}</div>`;
 }
 async function loadData(module) {
   const response = await fetch(`./junior-exam-prep/${module.file}?v=20261019-advanced2`);
@@ -59,7 +63,7 @@ async function loadSubmissions(module, expectedOwner) {
   const serverResults = {};
   for (const row of rows) {
     const number = Number(row.question_number);
-    if (number < 1 || number > 50) continue;
+    if (number < 1 || number > (module.total || 50)) continue;
     serverAnswers[numberKey(number)] = String(row.answer || '');
     serverResults[numberKey(number)] = Boolean(row.correct);
   }
