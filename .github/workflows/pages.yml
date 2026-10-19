@@ -108,6 +108,12 @@ jobs:
       - name: Validate focused Homework export release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homework-release]') }}
         run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node --check error-identifier.js
+          node --check error-identifier-passage.js
+          node --check junior-exam-prep/app.mjs
+          node tools/test-homework-course-links.mjs
+          node tools/test-junior-exam-prep.mjs
           node --check schedule-system.js
           node --check schedule-homework-export.mjs
           node tools/test-schedule-homework-export.mjs

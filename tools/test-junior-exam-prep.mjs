@@ -6,7 +6,8 @@ import {fileURLToPath} from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (name) => readFile(path.join(root, name), 'utf8');
-const app = await read('junior-exam-prep/app.mjs');
+const runtime = await read('junior-exam-prep/app.mjs');
+const app = runtime + '\n' + await read('junior-exam-prep/modules.mjs');
 const style = await read('junior-exam-prep/style.css');
 const html = await read('junior-exam-prep.html');
 const legacyHtml = await read('junior-exam-prep-legacy.html');
@@ -24,7 +25,7 @@ assert.match(legacyApp, /audio-manifest\.json/);
 assert.match(legacyApp, /junior_exam_list_responses/);
 assert.match(legacyApp, /junior_exam_submit/);
 assert.match(html, /data-learning-portal="junior-exam-prep"/);
-assert.match(html, /junior-exam-prep\/app\.mjs\?v=20261019-advanced/);
+assert.match(html, /junior-exam-prep\/app\.mjs\?v=20261019-homework-courses1/);
 assert.match(app, /junior_exam_list_responses/);
 assert.match(app, /junior_exam_submit/);
 assert.match(app, /p_final: final/);

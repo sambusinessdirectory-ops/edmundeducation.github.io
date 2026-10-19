@@ -45,7 +45,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 9509, "the Homework/Schedule catalogue should include every current learning resource and Synonym module");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 10353, "the Homework/Schedule catalogue should include every current learning resource and Synonym module");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -1001,12 +1001,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261011-homework-synonyms1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261011-homework-synonyms1/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261011-homework-synonyms1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261013-self-rating-dock1/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261011-homework-synonyms1/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261011-homework-synonyms1/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261019-homework-courses1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261019-homework-courses1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261019-homework-courses1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261019-homework-courses1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261019-homework-courses1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261019-homework-courses1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
 assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

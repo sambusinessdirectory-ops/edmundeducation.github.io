@@ -1,0 +1,6 @@
+export const MODULES = [
+  {key: 's2-exam-prep-oct-2026', type: 'legacy', title: 'S2 Exam Prep - Oct 2026', subtitle: 'Word Form Challenge · 47 forms × 10 questions', total: 470, href: './junior-exam-prep-legacy.html#module'},
+  {key: 's2-exam-prep-advanced-tense', type: 'tense', title: 'S2 Exam Prep - Advanced - Tense', subtitle: '5 passages · 50 tense questions', file: 'advanced-tense.json', instructions: 'Read each complete passage. Write the full verb form shown by the context; some answers have several words.'},
+  {key: 's2-exam-prep-advanced-articles', type: 'articles', title: 'S2 Exam Prep - Advanced - Articles', subtitle: '5 passages · 50 article and plural questions', file: 'advanced-articles.json', instructions: 'For each marked phrase, enter TICK if correct, X to remove its article, a/an/the to insert or replace an article, or PLURAL: word where requested.'},
+  {key: 's2-exam-prep-advanced-non-tense-non-articles', type: 'other', title: 'S2 Exam Prep - Advanced - Non-Tense & Non-Articles', subtitle: '5 passages · 50 grammar and word-form questions', file: 'advanced-other.json', instructions: 'Use the word or choice in brackets. Change its form when needed. Some answers contain more than one word.'}
+];

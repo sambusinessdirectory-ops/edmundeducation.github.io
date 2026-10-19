@@ -1,4 +1,4 @@
-import { HOMEWORK_HOT_KEY_REFERENCE } from "./schedule-homework-links.mjs?v=20261011-homework-synonyms1";
+import { HOMEWORK_HOT_KEY_REFERENCE } from "./schedule-homework-links.mjs?v=20261019-homework-courses1";
 
 const SESSION_KEY = "edmund-schedule-session-v1";
 const settings = window.EDMUND_SUPABASE || {};

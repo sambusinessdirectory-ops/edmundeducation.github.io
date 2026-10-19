@@ -1,12 +1,7 @@
 import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs';
 
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
-const MODULES = [
-  {key: 's2-exam-prep-oct-2026', type: 'legacy', title: 'S2 Exam Prep - Oct 2026', subtitle: 'Word Form Challenge · 47 forms × 10 questions', total: 470, href: './junior-exam-prep-legacy.html#module'},
-  {key: 's2-exam-prep-advanced-tense', type: 'tense', title: 'S2 Exam Prep - Advanced - Tense', subtitle: '5 passages · 50 tense questions', file: 'advanced-tense.json', instructions: 'Read each complete passage. Write the full verb form shown by the context; some answers have several words.'},
-  {key: 's2-exam-prep-advanced-articles', type: 'articles', title: 'S2 Exam Prep - Advanced - Articles', subtitle: '5 passages · 50 article and plural questions', file: 'advanced-articles.json', instructions: 'For each marked phrase, enter TICK if correct, X to remove its article, a/an/the to insert or replace an article, or PLURAL: word where requested.'},
-  {key: 's2-exam-prep-advanced-non-tense-non-articles', type: 'other', title: 'S2 Exam Prep - Advanced - Non-Tense & Non-Articles', subtitle: '5 passages · 50 grammar and word-form questions', file: 'advanced-other.json', instructions: 'Use the word or choice in brackets. Change its form when needed. Some answers contain more than one word.'}
-];
+import {MODULES} from './modules.mjs?v=20261019-homework1';
 const host = document.createElement('section');
 host.className = 'junior-app junior-advanced-app';
 host.setAttribute('aria-label', '初中考試溫習內容');
@@ -23,6 +18,7 @@ let submitted = {};
 let progress = Object.fromEntries(MODULES.map((module) => [module.key, 0]));
 let saving = false;
 let showExplanations = true;
+let openVersion = 0;
 const draftKey = (module) => `edmund-junior-exam-${module.key}:${owner}`;
 function readDraft(module) {
   try {
@@ -168,27 +164,45 @@ host.addEventListener('submit', (event) => {
   event.preventDefault();
   void submit(event.submitter?.value === 'final');
 });
+function setHomeworkRoute(module, question = 0) {
+  const route = new URL(location.href);
+  if (module) route.searchParams.set('module', module.key); else route.searchParams.delete('module');
+  if (question) route.searchParams.set('question', question); else route.searchParams.delete('question');
+  history.replaceState(null, '', route);
+}
+function requestedHomework() {
+  const route = new URLSearchParams(location.search);
+  const module = MODULES.find(item => item.key === route.get('module'));
+  const value = route.get('question');
+  if (!module || (module.href && value !== null) || (value !== null && (!/^[1-9]\d*$/.test(value) || Number(value) > 50))) return null;
+  return {module, question: Number(value) || 0};
+}
+async function openModule(module, question = 0) {
+  if (owner !== JAYDEN_ID || !token || !MODULES.includes(module)) return;
+  if (module.href) { location.assign(module.href); return; }
+  const expectedOwner = owner, version = ++openVersion;
+  active = module; data = null; answers = readDraft(module); submitted = {};
+  setHomeworkRoute(module, question);
+  host.innerHTML = '<p class="junior-loading" role="status">正在載入五篇文章…</p>';
+  try {
+    const loaded = await loadData(module);
+    if (owner !== expectedOwner || version !== openVersion || active?.key !== module.key) return;
+    data = loaded;
+    renderModule();
+    try { await loadSubmissions(module, expectedOwner); }
+    catch { if (owner === expectedOwner && version === openVersion) host.querySelector('[data-toolbar-status]')?.replaceChildren('暫時未能讀取帳戶紀錄；已載入本機草稿。'); }
+    if (owner === expectedOwner && version === openVersion && question) host.querySelector(`#junior-q-${numberKey(question)}`)?.scrollIntoView({behavior: 'instant', block: 'center'});
+  } catch (error) {
+    if (owner === expectedOwner && version === openVersion) host.innerHTML = `<p class="junior-error" role="alert">${escapeHtml(error.message)}</p><button type="button" data-back>返回模組</button>`;
+  }
+}
 host.addEventListener('click', (event) => {
   const open = event.target.closest('[data-open-module]');
   if (open) {
     const module = MODULES.find((item) => item.key === open.dataset.openModule);
-    if (!module) return;
-    active = module;
-    data = null;
-    answers = readDraft(module);
-    submitted = {};
-    host.innerHTML = '<p class="junior-loading" role="status">正在載入五篇文章…</p>';
-    void (async () => {
-      try {
-        data = await loadData(module);
-        renderModule();
-        try { await loadSubmissions(module, owner); }
-        catch { host.querySelector('[data-toolbar-status]')?.replaceChildren('暫時未能讀取帳戶紀錄；已載入本機草稿。'); }
-      } catch (error) {
-        if (active?.key === module.key) host.innerHTML = `<p class="junior-error" role="alert">${escapeHtml(error.message)}</p><button type="button" data-back>返回模組</button>`;
-      }
-    })();
+    if (module) void openModule(module);
   } else if (event.target.closest('[data-back]')) {
+    openVersion++; setHomeworkRoute(null);
     active = null; data = null; answers = {}; submitted = {}; renderHome();
   } else if (event.target.closest('[data-submit-now]')) {
     void submit(event.target.closest('[data-submit-now]').dataset.submitNow === 'final');
@@ -201,11 +215,16 @@ function syncSession() {
   const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
   const next = session?.user?.id || null;
   if (next === owner) { token = session?.token || ''; return; }
+  openVersion++;
   owner = next; token = session?.token || '';
   active = null; data = null; answers = {}; submitted = {};
   progress = Object.fromEntries(MODULES.map((module) => [module.key, 0]));
   renderHome();
-  if (owner === JAYDEN_ID) for (const module of MODULES) void loadSubmissions(module, owner).catch(() => {});
+  if (owner === JAYDEN_ID) {
+    for (const module of MODULES) void loadSubmissions(module, owner).catch(() => {});
+    const requested = requestedHomework();
+    if (requested) void openModule(requested.module, requested.question);
+  }
 }
 window.addEventListener('edmund:learning-portal-session', syncSession);
 syncSession();

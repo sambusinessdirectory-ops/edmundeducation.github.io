@@ -69,8 +69,27 @@
   const position = dashboard.querySelector("[data-error-id-position]");
   const status = dashboard.querySelector("[data-error-id-status]");
 
+  function setHomeworkRoute() {
+    const route = new URL(location.href);
+    if (state.mode) route.searchParams.set("mode", state.mode); else route.searchParams.delete("mode");
+    if (state.mode === "single") route.searchParams.set("question", state.current); else route.searchParams.delete("question");
+    if (state.mode !== "passage") route.searchParams.delete("passage");
+    history.replaceState(null, "", route);
+  }
+  function applyHomeworkRoute() {
+    const route = new URLSearchParams(location.search);
+    const mode = route.get("mode");
+    if (mode === "single") {
+      const raw = route.get("question"), number = Number(raw);
+      if (raw !== null && (!/^[1-9]\d*$/.test(raw) || number > questions.length)) return;
+      state.current = raw === null ? firstIncomplete(1, questions.length) : number;
+      state.range = state.current <= 60 ? "core" : "new"; state.view = "one";
+      setMode("single");
+    } else if (mode === "passage") setMode("passage");
+  }
   function setMode(mode) {
     state.mode = mode;
+    setHomeworkRoute();
     modes.hidden = !!mode;
     single.hidden = mode !== "single";
     passage.hidden = mode !== "passage";
@@ -166,6 +185,7 @@
     if (!Number.isInteger(number) || number < 1 || number > questions.length) return;
     state.current = number;
     state.range = number <= 60 ? "core" : "new";
+    setHomeworkRoute();
     render();
     list.scrollIntoView({ behavior: "smooth", block: "center" });
   }
@@ -314,6 +334,7 @@
       state.current = firstIncomplete(1, 60);
       state.loading = false;
       render();
+      if (state.userId === session.user.id) applyHomeworkRoute();
       if (Object.keys(payload()).length && JSON.stringify(payload()) !== state.syncedSignature) scheduleSync(500);
     }
   }

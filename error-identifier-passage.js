@@ -101,33 +101,37 @@
     refreshReader();
   }
   async function openPassage(id) {
-    if (!passages.some(item => item.id === id)) return;
+    const expectedOwner = state.userId;
+    const session = portal.getSession();
+    if (!passages.some(item => item.id === id) || !expectedOwner || !session.token || session.user?.id !== expectedOwner) return;
+    const route = new URL(location.href); route.searchParams.set("mode", "passage"); route.searchParams.set("passage", id); route.searchParams.delete("question"); history.replaceState(null, "", route);
     state.passageId = id;
     state.answers = {}; state.submitted = {}; state.feedback = {}; state.loading = true; state.status = "正在載入練習…";
     const draft = readDraft(id);
     state.answers = draft?.answers || {};
     state.stamp = draft?.stamp || 0;
     renderReader();
-    const session = portal.getSession();
-    if (!session.token) { state.loading = false; state.status = "請先登入。"; refreshReader(); return; }
+
     try {
       const remote = await portal.rpc("error_identifier_passage_action", { p_token: session.token, p_passage_id: id, p_action: "get", p_answers: {} });
-      if (state.passageId !== id) return;
+      if (state.passageId !== id || state.userId !== expectedOwner) return;
       const remoteStamp = remote.submitted_at ? Date.parse(remote.submitted_at) : 0;
       if (remoteStamp > state.stamp) state.answers = remote.answers || {};
       state.submitted = remote.answers || {};
       if (remote.submitted_at) {
-        state.feedback = await portal.rpc("error_identifier_passage_feedback", { p_token: session.token, p_passage_id: id });
+        const feedback = await portal.rpc("error_identifier_passage_feedback", { p_token: session.token, p_passage_id: id });
+        if (state.passageId !== id || state.userId !== expectedOwner) return;
+        state.feedback = feedback;
         state.status = `${remote.answered_count} 行已提交；可在各行下方查看解說。`;
       } else state.status = "完成一行後可繼續；提交時可保留未完成的行。";
-    } catch (error) { state.status = `載入失敗：${error.message || "請稍後再試"}`; }
-    finally { state.loading = false; if (state.passageId === id) renderReader(); }
+    } catch (error) { if (state.passageId !== id || state.userId !== expectedOwner) return; state.status = `載入失敗：${error.message || "請稍後再試"}`; }
+    finally { if (state.passageId === id && state.userId === expectedOwner) { state.loading = false; renderReader(); } }
   }
 
   root.addEventListener("click", event => {
     const open = event.target.closest("[data-passage-open]");
     if (open) { openPassage(Number(open.dataset.passageOpen)); return; }
-    if (event.target.closest("[data-passage-library]")) { state.passageId = 0; renderLibrary(); return; }
+    if (event.target.closest("[data-passage-library]")) { state.passageId = 0; const route = new URL(location.href); route.searchParams.delete("passage"); history.replaceState(null, "", route); renderLibrary(); return; }
     const mark = event.target.closest("[data-passage-mark]");
     if (mark) { mutate(Number(mark.dataset.line), a => { a.mark = mark.dataset.passageMark; }); return; }
     const word = event.target.closest("[data-passage-word]");
@@ -173,8 +177,13 @@
     finally { state.saving = false; if (state.passageId === id) renderReader(); }
   }
 
+  function applyHomeworkPassage() {
+    const route = new URLSearchParams(location.search), raw = route.get("passage");
+    const id = Number(raw);
+    if (route.get("mode") === "passage" && /^[1-9]\d*$/.test(raw || "") && passages.some(p => p.id === id) && state.userId && state.passageId !== id) void openPassage(id);
+  }
   window.addEventListener("edmund:error-id-mode", event => {
-    if (event.detail?.mode === "passage" && !state.passageId) renderLibrary();
+    if (event.detail?.mode === "passage") { if (!state.passageId) renderLibrary(); applyHomeworkPassage(); }
   });
   window.addEventListener("edmund:learning-portal-session", () => {
     const session = portal.getSession();
@@ -184,7 +193,9 @@
     state.passageId = 0;
     state.answers = {}; state.submitted = {}; state.feedback = {};
     renderLibrary();
+    applyHomeworkPassage();
   });
   state.userId = portal.getSession().user?.id || "";
   renderLibrary();
+  applyHomeworkPassage();
 })();
