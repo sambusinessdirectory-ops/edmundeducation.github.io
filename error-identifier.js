@@ -7,10 +7,10 @@
 
   const escaped = value => String(value ?? "").replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   const words = new Map(questions.map(q => [q.number, q.sentence.match(/\S+/g) || []]));
-  const state = { answers: {}, submittedAnswers: {}, feedback: {}, userId: "", loading: false, submitting: false, submittedAt: "", stamp: 0, mode: "", range: "core", current: 1 };
+  const state = { answers: {}, submittedAnswers: {}, feedback: {}, userId: "", loading: false, submitting: false, submittedAt: "", stamp: 0, mode: "", range: "core", view: "one", current: 1, syncTimer: null, syncedSignature: "" };
   const key = () => `edmund-error-identifier-draft-v1:${state.userId}`;
   const answer = number => state.answers[number] || {};
-  const rangeBounds = () => state.range === "core" ? [1, 60] : [61, questions.length];
+  const rangeBounds = () => state.range === "core" ? [1, 60] : state.range === "new" ? [61, questions.length] : [1, questions.length];
   const selectedText = (number, a) => {
     if (!Number.isInteger(a.start) || !Number.isInteger(a.end)) return "";
     return words.get(number).slice(Math.min(a.start, a.end), Math.max(a.start, a.end) + 1).join(" ");
@@ -38,24 +38,24 @@
   };
 
   dashboard.insertAdjacentHTML("beforeend", `<section class="error-id-mode-page" data-error-id-modes aria-labelledby="error-id-mode-heading">
-    <div class="error-id-mode-intro"><p class="eyebrow">ERROR IDENTIFIER · PROOFREADING STUDIO</p><h2 id="error-id-mode-heading">選擇你的校對方式</h2><p>先選擇練習模式，再按自己的節奏完成。單句練習可以隨時提交部分答案。</p></div>
+    <div class="error-id-mode-intro"><p class="eyebrow">ERROR IDENTIFIER · PROOFREADING STUDIO</p><h2 id="error-id-mode-heading">選擇你的校對方式</h2></div>
     <div class="error-id-mode-grid">
-      <button class="error-id-mode-card" type="button" data-open-mode="single"><span class="error-id-mode-card__icon" aria-hidden="true">Aa</span><span class="error-id-mode-card__eyebrow">MODE 01 · SINGLE SENTENCE</span><strong>單句模式</strong><span class="error-id-mode-card__copy">逐句判斷、找出字詞並寫出修正。包含原有 60 題與新增 284 題。</span><span class="error-id-mode-card__foot"><b>共 ${questions.length} 題</b><span>開始練習 ↗</span></span></button>
-      <button class="error-id-mode-card error-id-mode-card--passage" type="button" data-open-mode="passage"><span class="error-id-mode-card__icon" aria-hidden="true">¶</span><span class="error-id-mode-card__eyebrow">MODE 02 · PASSAGE</span><strong>文章模式</strong><span class="error-id-mode-card__copy">在完整段落中練習校對。文章會在提供後加入這個模式。</span><span class="error-id-mode-card__foot"><b>待加入文章</b><span>查看模式 ↗</span></span></button>
+      <button class="error-id-mode-card" type="button" data-open-mode="single"><span class="error-id-mode-card__icon" aria-hidden="true">Aa</span><span class="error-id-mode-card__eyebrow">MODE 01 · SINGLE SENTENCE</span><strong>單句模式</strong><span class="error-id-mode-card__foot"><b>共 ${questions.length} 題</b><span>開始練習 ↗</span></span></button>
+      <button class="error-id-mode-card error-id-mode-card--passage" type="button" data-open-mode="passage"><span class="error-id-mode-card__icon" aria-hidden="true">¶</span><span class="error-id-mode-card__eyebrow">MODE 02 · PASSAGE</span><strong>文章模式</strong><span class="error-id-mode-card__foot"><b>11 篇文章</b><span>開始練習 ↗</span></span></button>
     </div>
   </section>
   <section class="error-id-workspace" data-error-id-single hidden aria-labelledby="error-id-heading">
     <div class="error-id-workspace__top"><button type="button" class="error-id-back" data-back-modes>← 返回模式選擇</button><span class="error-id-workspace__label">MODE 01 · 單句模式</span></div>
     <div class="error-id-intro"><div><p class="eyebrow">ONE SENTENCE AT A TIME</p><h2 id="error-id-heading">細看一句，改好一處</h2><p>選擇 ✓ 或 ✕。若句子有錯，點選錯誤字詞；要選連續多字，再點最後一字。</p></div><div class="error-id-progress"><strong data-error-id-range-count>0 / 60</strong><span>本組已完成</span></div></div>
-    <div class="error-id-range-tabs" role="group" aria-label="選擇單句題組"><button type="button" data-range="core">基礎 60 題 <span>01–60</span></button><button type="button" data-range="new">新增 284 題 <span>61–344</span></button></div>
+    <div class="error-id-controls"><div class="error-id-range-tabs" role="group" aria-label="選擇單句題組"><button type="button" data-range="core">基礎 60 題 <span>01–60</span></button><button type="button" data-range="new">新增 284 題 <span>61–344</span></button><button type="button" data-range="all">全部 ${questions.length} 題</button></div><div class="error-id-view-tabs" role="group" aria-label="題目顯示方式"><button type="button" data-view-mode="one">單題</button><button type="button" data-view-mode="list">列表</button></div></div>
     <div class="error-id-progress-track" aria-hidden="true"><span data-error-id-progress-fill></span></div>
     <div class="error-id-feedback-summary" data-error-id-feedback-summary hidden></div>
     <div class="error-id-list" data-error-id-list></div>
     <nav class="error-id-navigation" aria-label="題目導覽"><button type="button" data-navigate="previous">← 上一題</button><div class="error-id-navigation__center"><span data-error-id-position>01 / 60</span><label>跳至第 <input type="number" min="1" max="${questions.length}" data-jump-input aria-label="題號"> 題</label><button type="button" data-jump>前往</button></div><button type="button" data-navigate="next">下一題 →</button></nav>
     <button class="error-id-next-open" type="button" data-next-open>前往本組下一題未完成題目 ↗</button>
   </section>
-  <section class="error-id-passage-page" data-error-id-passage hidden aria-labelledby="error-id-passage-heading"><button type="button" class="error-id-back" data-back-modes>← 返回模式選擇</button><div class="error-id-passage-card"><span class="error-id-passage-card__symbol" aria-hidden="true">¶</span><p class="eyebrow">MODE 02 · PASSAGE</p><h2 id="error-id-passage-heading">文章模式</h2><p>這個模式的位置已準備好。文章練習會在內容提供後加入；目前可先使用單句模式。</p><button type="button" data-open-mode="single">前往單句模式 ↗</button></div></section>
-  <div class="error-id-submit-bar" data-error-id-bar hidden><div class="error-id-submit-bar__inner"><div><strong data-error-id-count>0 / ${questions.length} 已完成</strong><small data-error-id-status role="status" aria-live="polite">可以提交部分答案，稍後繼續。</small></div><button type="button" class="error-id-submit" data-error-id-submit disabled>提交部分答案</button></div></div>`);
+  <section class="error-id-passage-page" data-error-id-passage hidden aria-labelledby="error-id-passage-heading"><button type="button" class="error-id-back" data-back-modes>← 返回模式選擇</button><div data-passage-root></div></section>
+  <div class="error-id-submit-bar" data-error-id-bar hidden><div class="error-id-submit-bar__inner"><div><strong data-error-id-count>0 / ${questions.length} 已完成</strong><small data-error-id-status role="status" aria-live="polite">完成作答後自動顯示參考答案。</small></div></div></div>`);
 
   const modes = dashboard.querySelector("[data-error-id-modes]");
   const single = dashboard.querySelector("[data-error-id-single]");
@@ -68,7 +68,6 @@
   const progressFill = dashboard.querySelector("[data-error-id-progress-fill]");
   const position = dashboard.querySelector("[data-error-id-position]");
   const status = dashboard.querySelector("[data-error-id-status]");
-  const submit = dashboard.querySelector("[data-error-id-submit]");
 
   function setMode(mode) {
     state.mode = mode;
@@ -77,6 +76,7 @@
     passage.hidden = mode !== "passage";
     bar.hidden = mode !== "single";
     render();
+    window.dispatchEvent(new CustomEvent("edmund:error-id-mode", { detail: { mode } }));
     (mode === "single" ? single : mode === "passage" ? passage : modes).scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -87,7 +87,7 @@
     const sameJudgment = submitted.mark === reference.mark;
     const referenceAnswer = reference.mark === "tick" ? "✓ 原句正確，無須修改。" : `✕ ${escaped(reference.wrong)} → ${escaped(reference.fix)}`;
     const studentAnswer = submitted.mark === "tick" ? "✓ 正確" : `✕ ${escaped(submitted.selected)} → ${submitted.remove ? "刪除" : escaped(submitted.correction)}`;
-    return `<section class="error-id-feedback" aria-label="第 ${number} 題參考答案"><div class="error-id-feedback__heading"><div><p class="eyebrow">AFTER SUBMISSION</p><h3>參考答案與解說</h3></div><span class="${sameJudgment ? "is-match" : "is-different"}">${sameJudgment ? "判斷吻合" : "判斷需修正"}</span></div>
+    return `<section class="error-id-feedback" aria-label="第 ${number} 題參考答案"><div class="error-id-feedback__heading"><div><p class="eyebrow">REFERENCE ANSWER</p><h3>參考答案與解說</h3></div><span class="${sameJudgment ? "is-match" : "is-different"}">${sameJudgment ? "判斷吻合" : "判斷需修正"}</span></div>
       <div class="error-id-feedback__compare"><div><small>你的提交</small><p lang="en">${studentAnswer}</p></div><div><small>參考改法</small><p lang="en">${referenceAnswer}</p></div></div>
       ${reference.correct_sentence ? `<p class="error-id-feedback__sentence"><b>完整句子</b><span lang="en">${escaped(reference.correct_sentence)}</span></p>` : ""}
       <div class="error-id-feedback__reason"><span>${escaped(reference.topic)}</span><p>${escaped(reference.reason)}</p></div>
@@ -98,7 +98,7 @@
   function renderSummary() {
     const revealed = Object.keys(state.feedback).length;
     summary.hidden = revealed === 0;
-    summary.innerHTML = revealed ? `<span class="error-id-feedback-summary__dot"></span><strong>${revealed} 題參考答案已解鎖</strong><span>切換至已提交的題目，即可查看改法與解說。</span>` : "";
+    summary.innerHTML = revealed ? `<span class="error-id-feedback-summary__dot"></span><strong>${revealed} 題參考答案已顯示</strong>` : "";
   }
 
   function renderQuestion(q) {
@@ -112,7 +112,7 @@
       <div class="error-id-sentence" lang="en">${sentence}</div>
       <div class="error-id-choice"><span>這句正確嗎？</span><div role="group" aria-label="第 ${q.number} 題判斷"><button type="button" data-mark="tick" data-number="${q.number}" class="${a.mark === "tick" ? "is-active" : ""}" aria-pressed="${a.mark === "tick"}">✓ 正確</button><button type="button" data-mark="cross" data-number="${q.number}" class="${a.mark === "cross" ? "is-active" : ""}" aria-pressed="${a.mark === "cross"}">✕ 錯誤</button></div></div>
       ${a.mark === "cross" ? `<div class="error-id-correction"><div><span class="error-id-correction__step">01</span><div><b>選出錯誤字詞</b><p>${selectedText(q.number, a) ? escaped(selectedText(q.number, a)) : "點選上方句子；連續多字可點選起點與終點。"}</p></div></div><div><span class="error-id-correction__step">02</span><div><label for="error-id-correction-${q.number}">寫出正確改法</label><input id="error-id-correction-${q.number}" data-correction="${q.number}" type="text" autocomplete="off" maxlength="180" value="${escaped(a.correction || "")}" placeholder="例如：were / the United Kingdom" ${a.remove ? "disabled" : ""}><label class="error-id-remove"><input type="checkbox" data-remove="${q.number}" ${a.remove ? "checked" : ""}> 刪除所選字詞</label></div></div></div>` : ""}
-      ${renderFeedback(q.number)}
+      <div data-feedback-slot="${q.number}">${renderFeedback(q.number)}</div>
     </article>`;
   }
 
@@ -124,14 +124,13 @@
     rangeCountLabel.textContent = `${inRange} / ${last - first + 1}`;
     progressFill.style.width = `${Math.round(inRange / (last - first + 1) * 100)}%`;
     position.textContent = `${String(state.current).padStart(3, "0")} / ${questions.length}`;
-    submit.textContent = done === questions.length ? "提交全部答案" : "提交部分答案";
-    submit.disabled = state.loading || state.submitting || done === 0;
   }
   function render() {
     if (state.mode !== "single") return;
     renderSummary();
-    list.innerHTML = renderQuestion(questions[state.current - 1]);
     const [first, last] = rangeBounds();
+    list.classList.toggle("is-list-view", state.view === "list");
+    list.innerHTML = state.view === "list" ? questions.slice(first - 1, last).map(renderQuestion).join("") : renderQuestion(questions[state.current - 1]);
     dashboard.querySelectorAll("[data-range]").forEach(button => {
       const active = button.dataset.range === state.range;
       button.classList.toggle("is-active", active);
@@ -139,6 +138,13 @@
     });
     dashboard.querySelector('[data-navigate="previous"]').disabled = state.current <= first;
     dashboard.querySelector('[data-navigate="next"]').disabled = state.current >= last;
+    dashboard.querySelector(".error-id-navigation").hidden = state.view === "list";
+    dashboard.querySelector("[data-next-open]").hidden = state.view === "list";
+    dashboard.querySelectorAll("[data-view-mode]").forEach(button => {
+      const active = button.dataset.viewMode === state.view;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
     refreshCounter();
   }
   function mutate(number, updater, rerender = true) {
@@ -146,8 +152,15 @@
     updater(a);
     state.answers[number] = a;
     saveDraft();
-    if (rerender) render(); else refreshCounter();
-    if (state.submittedAt) status.textContent = "有未提交的修改。";
+    if (rerender) {
+      if (state.view === "list") {
+        const card = list.querySelector(`[data-question="${number}"]`);
+        if (card) card.outerHTML = renderQuestion(questions[number - 1]);
+        renderSummary();
+        refreshCounter();
+      } else render();
+    } else refreshCounter();
+    if (complete(number, a)) scheduleSync(a.mark === "tick" ? 0 : 850);
   }
   function goTo(number) {
     if (!Number.isInteger(number) || number < 1 || number > questions.length) return;
@@ -175,6 +188,8 @@
       render();
       return;
     }
+    const view = event.target.closest("[data-view-mode]");
+    if (view) { state.view = view.dataset.viewMode; render(); return; }
     const navigate = event.target.closest("[data-navigate]");
     if (navigate) { goTo(state.current + (navigate.dataset.navigate === "next" ? 1 : -1)); return; }
     if (event.target.closest("[data-jump]")) { goTo(Number(dashboard.querySelector("[data-jump-input]").value)); return; }
@@ -223,40 +238,49 @@
     });
     return result;
   }
-  submit.addEventListener("click", async () => {
+  function scheduleSync(delay) {
+    clearTimeout(state.syncTimer);
+    state.syncTimer = setTimeout(syncAnswers, delay);
+  }
+  async function syncAnswers() {
     const session = portal.getSession();
-    if (!session.token || state.submitting) return;
+    if (!session.token || state.loading) return;
+    if (state.submitting) { scheduleSync(400); return; }
     const answers = payload();
+    const signature = JSON.stringify(answers);
+    if (!Object.keys(answers).length || signature === state.syncedSignature) return;
     state.submitting = true;
-    refreshCounter();
-    status.textContent = "正在提交…";
+    let saved = false;
+    status.textContent = "正在儲存並載入參考答案…";
     try {
       const result = await portal.rpc("error_identifier_submission", { p_token: session.token, p_action: "submit", p_answers: answers });
       state.submittedAt = result.submitted_at || new Date().toISOString();
       state.submittedAnswers = result.answers || answers;
+      state.syncedSignature = signature;
+      saved = true;
       saveDraft();
       try {
         state.feedback = await portal.rpc("error_identifier_feedback", { p_token: session.token });
-        if (!answers[state.current]) state.current = Number(Object.keys(answers)[0]);
-        state.range = state.current <= 60 ? "core" : "new";
-        render();
-        status.textContent = `${result.answered_count} 題已提交，參考答案已解鎖。`;
-        list.scrollIntoView({ behavior: "smooth", block: "center" });
+        renderSummary();
+        list.querySelectorAll("[data-feedback-slot]").forEach(slot => { slot.innerHTML = renderFeedback(Number(slot.dataset.feedbackSlot)); });
+        status.textContent = `${result.answered_count} 題已儲存；參考答案已顯示。`;
       } catch {
-        status.textContent = `${result.answered_count} 題已提交，但參考答案暫時無法載入。請重新整理頁面。`;
+        status.textContent = `${result.answered_count} 題已儲存；參考答案暫時無法載入。`;
       }
     } catch (error) {
-      status.textContent = `提交失敗：${error.message || "請稍後再試"}`;
+      status.textContent = `儲存失敗：${error.message || "請稍後再試"}`;
     } finally {
       state.submitting = false;
       refreshCounter();
+      if (saved && JSON.stringify(payload()) !== state.syncedSignature) scheduleSync(850);
     }
-  });
+  }
 
   async function onSession() {
     const session = portal.getSession();
     if (!session.user || !session.token) {
-      state.userId = ""; state.mode = ""; state.answers = {}; state.submittedAnswers = {}; state.feedback = {}; state.submittedAt = "";
+      clearTimeout(state.syncTimer);
+      state.userId = ""; state.mode = ""; state.answers = {}; state.submittedAnswers = {}; state.feedback = {}; state.submittedAt = ""; state.syncedSignature = "";
       modes.hidden = false; single.hidden = true; passage.hidden = true; bar.hidden = true;
       return;
     }
@@ -274,21 +298,23 @@
       const remoteStamp = remote.submitted_at ? Date.parse(remote.submitted_at) : 0;
       if (remoteStamp > state.stamp && remote.answers) state.answers = remote.answers;
       state.submittedAnswers = remote.answers || {};
+      state.syncedSignature = JSON.stringify(remote.answers || {});
       state.submittedAt = remote.submitted_at || "";
       if (remote.submitted_at) {
         try {
           state.feedback = await portal.rpc("error_identifier_feedback", { p_token: session.token });
-          status.textContent = `${remote.answered_count} 題已提交，切換題目可查看參考答案。`;
+          status.textContent = `${remote.answered_count} 題已儲存；完成新題目會自動顯示參考答案。`;
         } catch {
-          status.textContent = `${remote.answered_count} 題已提交，參考答案暫時無法載入。請重新整理頁面。`;
+          status.textContent = `${remote.answered_count} 題已儲存；參考答案暫時無法載入。`;
         }
-      } else status.textContent = "可以提交部分答案，稍後繼續。";
+      } else status.textContent = "完成作答後自動顯示參考答案。";
     } catch (error) {
       status.textContent = `暫時無法載入已提交答案：${error.message || "請稍後再試"}`;
     } finally {
       state.current = firstIncomplete(1, 60);
       state.loading = false;
       render();
+      if (Object.keys(payload()).length && JSON.stringify(payload()) !== state.syncedSignature) scheduleSync(500);
     }
   }
   window.addEventListener("edmund:learning-portal-session", onSession);
