@@ -44,7 +44,7 @@ function renderHome() {
     <div class="junior-advanced-grid">${MODULES.map((module, index) => `<button class="junior-module-card" type="button" data-open-module="${module.key}"><span class="junior-module-card__number">0${index + 1}</span><span><strong>${escapeHtml(module.title)}</strong><small>${escapeHtml(module.subtitle)}</small><em data-home-progress="${module.key}">${progress[module.key]} / 50 題已提交</em></span><span aria-hidden="true">↗</span></button>`).join('')}</div>`;
 }
 async function loadData(module) {
-  const response = await fetch(`./junior-exam-prep/${module.file}?v=20261019-advanced1`);
+  const response = await fetch(`./junior-exam-prep/${module.file}?v=20261019-advanced2`);
   if (!response.ok) throw new Error('教材暫時未能載入，請稍後再試。');
   const parsed = await response.json();
   if (parsed.module !== module.key || parsed.passages?.length !== 5 || parsed.questions?.length !== 50 || parsed.questions.some((question, index) => question.number !== index + 1 || question.steps?.length !== 7)) {
@@ -85,7 +85,7 @@ function renderPassageText(passage) {
     const number = numberKey(data.type === 'articles' ? marker : (passage.number - 1) * 10 + local);
     const printed = match[2];
     const label = data.type === 'articles' ? `第 ${Number(number)} 題：${printed} 的改正` : `第 ${Number(number)} 題：${printed} 的正確詞形`;
-    html += `<span class="junior-advanced-blank" id="junior-q-${number}"><span class="junior-advanced-prompt">${data.type === 'articles' ? `[${local}: ${escapeHtml(printed)}]` : `[${local}] _____ (${escapeHtml(printed)})`}</span><input class="junior-answer" data-answer="${number}" type="text" maxlength="100" autocomplete="off" spellcheck="false" aria-label="${escapeHtml(label)}" value="${escapeHtml(answers[number] || '')}"><span class="junior-advanced-feedback" data-feedback="${number}">${feedbackHtml(number)}</span></span>`;
+    html += `<span class="junior-advanced-blank" id="junior-q-${number}"><span class="junior-advanced-prompt">${data.type === 'articles' ? `[${local}: ${escapeHtml(printed)}]` : `[${local}]`}</span><input class="junior-answer" data-answer="${number}" type="text" maxlength="100" autocomplete="off" spellcheck="false" aria-label="${escapeHtml(label)}" value="${escapeHtml(answers[number] || '')}">${data.type === 'articles' ? '' : `<span class="junior-advanced-hint">(${escapeHtml(printed)})</span>`}<span class="junior-advanced-feedback" data-feedback="${number}">${feedbackHtml(number)}</span></span>`;
     last = match.index + match[0].length;
   }
   html += escapeHtml(passage.text.slice(last));

@@ -103,3 +103,4 @@ body[data-learning-portal="junior-exam-prep"] { --portal-hue: 204; background: #
 .junior-advanced-review ol { margin: 13px 0 0; padding-left: 23px; color: #365562; line-height: 1.7; }
 .junior-advanced-review li { margin-bottom: 8px; }
 @media (max-width: 720px) { .junior-advanced-passage-group { padding: 16px; } .junior-advanced-passage { line-height: 2.3; } .junior-advanced-blank .junior-answer { width: min(165px,44vw); } }
+.junior-advanced-hint { color: #607985; font-size: .82em; }
