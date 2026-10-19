@@ -17,6 +17,11 @@
     const a = answer(line);
     return a.mark === "tick" || (a.mark === "cross" && selectedText(line, a) && (a.remove || String(a.correction || "").trim()));
   };
+  const needsWordSelection = line => {
+    const a = answer(line);
+    return a.mark === "cross" && !selectedText(line, a) && !!(a.remove || String(a.correction || "").trim());
+  };
+  const firstMissingWord = () => Array.from({ length: 16 }, (_, i) => i + 1).find(needsWordSelection);
   const completedCount = () => Array.from({ length: 16 }, (_, i) => i + 1).filter(complete).length;
   const readDraft = id => {
     try { return JSON.parse(localStorage.getItem(storageKey(id)) || "null"); } catch { return null; }
@@ -61,13 +66,13 @@
     const low = Math.min(a.start ?? -1, a.end ?? -1);
     const high = Math.max(a.start ?? -1, a.end ?? -1);
     const sentence = words(line).map((word, i) => `<button type="button" data-passage-word="${i}" data-line="${line}" class="error-id-passage-word${a.mark === "cross" && low >= 0 && i >= low && i <= high ? " is-selected" : ""}" ${a.mark === "cross" ? "" : "disabled"} aria-label="選取 ${esc(word)}">${esc(word)}</button>`).join(" ");
-    return `<section class="error-id-passage-line${complete(line) ? " is-complete" : ""}" data-passage-line="${line}"><div class="error-id-passage-line__main"><span class="error-id-passage-line__number">${String(line).padStart(2, "0")}</span><p lang="en">${sentence}</p><div class="error-id-passage-line__choices" role="group" aria-label="第 ${line} 行判斷"><button type="button" data-passage-mark="tick" data-line="${line}" class="${a.mark === "tick" ? "is-active" : ""}" aria-pressed="${a.mark === "tick"}">✓</button><button type="button" data-passage-mark="cross" data-line="${line}" class="${a.mark === "cross" ? "is-active" : ""}" aria-pressed="${a.mark === "cross"}">✕</button></div></div>${a.mark === "cross" ? `<div class="error-id-passage-correction"><span>${selectedText(line, a) ? `錯誤字詞：<b lang="en">${esc(selectedText(line, a))}</b>` : "點選句子中的錯誤字詞；連續多字可點選起點與終點。"}</span><label for="passage-correction-${line}">改為</label><input id="passage-correction-${line}" data-passage-correction="${line}" type="text" maxlength="180" autocomplete="off" value="${esc(a.correction || "")}" ${a.remove ? "disabled" : ""}><label class="error-id-passage-correction__remove"><input type="checkbox" data-passage-remove="${line}" ${a.remove ? "checked" : ""}> 刪除所選字詞</label></div>` : ""}${renderFeedback(line)}</section>`;
+    return `<section class="error-id-passage-line${complete(line) ? " is-complete" : ""}${needsWordSelection(line) ? " needs-word-selection" : ""}" data-passage-line="${line}"><div class="error-id-passage-line__main"><span class="error-id-passage-line__number">${String(line).padStart(2, "0")}</span><p lang="en">${sentence}</p><div class="error-id-passage-line__choices" role="group" aria-label="第 ${line} 行判斷"><button type="button" data-passage-mark="tick" data-line="${line}" class="${a.mark === "tick" ? "is-active" : ""}" aria-pressed="${a.mark === "tick"}">✓</button><button type="button" data-passage-mark="cross" data-line="${line}" class="${a.mark === "cross" ? "is-active" : ""}" aria-pressed="${a.mark === "cross"}">✕</button></div></div>${a.mark === "cross" ? `<div class="error-id-passage-correction"><span>${selectedText(line, a) ? `錯誤字詞：<b lang="en">${esc(selectedText(line, a))}</b>` : "點選句子中的錯誤字詞；連續多字可點選起點與終點。"}</span><label for="passage-correction-${line}">改為</label><input id="passage-correction-${line}" data-passage-correction="${line}" type="text" maxlength="180" autocomplete="off" value="${esc(a.correction || "")}" ${a.remove ? "disabled" : ""}><label class="error-id-passage-correction__remove"><input type="checkbox" data-passage-remove="${line}" ${a.remove ? "checked" : ""}> 刪除所選字詞</label></div><p class="error-id-passage-word-hint" data-passage-word-hint="${line}" role="status" ${needsWordSelection(line) ? "" : "hidden"}>請先點選句子中的錯誤字詞。</p>` : ""}${renderFeedback(line)}</section>`;
   }
 
   function renderReader() {
     const item = passage();
     if (!item) { renderLibrary(); return; }
-    root.innerHTML = `<div class="error-id-passage-reader"><div class="error-id-passage-reader__top"><button type="button" class="error-id-back" data-passage-library>← 返回文章列表</button><span>PASSAGE ${String(item.id).padStart(2, "0")} / 11</span></div><header><p class="eyebrow">READ THE WHOLE STORY FIRST</p><h2 id="error-id-passage-heading" lang="en">${esc(item.title)}</h2><p>逐行選擇 ✓ 或 ✕。若有錯，點選字詞並填寫改法。</p></header><div class="error-id-passage-lines">${item.lines.map((_, i) => renderLine(i + 1)).join("")}</div><div class="error-id-passage-submit"><div><strong data-passage-count>${completedCount()} / 16 已作答</strong><small data-passage-status role="status" aria-live="polite">${esc(state.status)}</small></div><button type="button" data-passage-submit ${completedCount() && !state.saving ? "" : "disabled"}>提交${completedCount() === 16 ? "全部" : "已完成"}答案</button></div></div>`;
+    root.innerHTML = `<div class="error-id-passage-reader"><div class="error-id-passage-reader__top"><button type="button" class="error-id-back" data-passage-library>← 返回文章列表</button><span>PASSAGE ${String(item.id).padStart(2, "0")} / 11</span></div><header><p class="eyebrow">READ THE WHOLE STORY FIRST</p><h2 id="error-id-passage-heading" lang="en">${esc(item.title)}</h2><p>逐行選擇 ✓ 或 ✕。若有錯，點選字詞並填寫改法。</p></header><div class="error-id-passage-lines">${item.lines.map((_, i) => renderLine(i + 1)).join("")}</div><div class="error-id-passage-submit"><div><strong data-passage-count>${completedCount()} / 16 已作答</strong><small data-passage-status role="status" aria-live="polite">${esc(state.status)}</small></div><button type="button" data-passage-submit ${(completedCount() || firstMissingWord()) && !state.saving ? "" : "disabled"}>${completedCount() === 16 ? "提交全部答案" : completedCount() ? "提交已完成答案" : "提交答案"}</button></div></div>`;
   }
   function refreshReader() {
     if (!passage()) return;
@@ -76,7 +81,7 @@
     const button = root.querySelector("[data-passage-submit]");
     if (count) count.textContent = `${completedCount()} / 16 已作答`;
     if (status) status.textContent = state.status;
-    if (button) { button.disabled = !completedCount() || state.saving || state.loading; button.textContent = `提交${completedCount() === 16 ? "全部" : "已完成"}答案`; }
+    if (button) { button.disabled = !(completedCount() || firstMissingWord()) || state.saving || state.loading; button.textContent = completedCount() === 16 ? "提交全部答案" : completedCount() ? "提交已完成答案" : "提交答案"; }
   }
   function mutate(line, updater, rerender = true) {
     const a = { ...answer(line) };
@@ -87,6 +92,11 @@
     if (rerender) {
       const section = root.querySelector(`[data-passage-line="${line}"]`);
       if (section) section.outerHTML = renderLine(line);
+    } else {
+      const section = root.querySelector(`[data-passage-line="${line}"]`);
+      if (section) section.classList.toggle("needs-word-selection", needsWordSelection(line));
+      const hint = root.querySelector(`[data-passage-word-hint="${line}"]`);
+      if (hint) hint.hidden = !needsWordSelection(line);
     }
     refreshReader();
   }
@@ -143,6 +153,13 @@
   async function submitPassage() {
     const id = state.passageId;
     const session = portal.getSession();
+    const missingWord = firstMissingWord();
+    if (missingWord) {
+      state.status = `第 ${String(missingWord).padStart(2, "0")} 行：請先點選句子中的錯誤字詞。`;
+      refreshReader();
+      root.querySelector(`[data-passage-line="${missingWord}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+      return;
+    }
     const answers = payload();
     if (!session.token || !id || !Object.keys(answers).length || state.saving) return;
     state.saving = true; state.status = "正在提交…"; refreshReader();

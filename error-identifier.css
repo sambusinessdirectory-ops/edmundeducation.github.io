@@ -158,6 +158,10 @@ body[data-learning-portal="error-identifier"] .learning-portal-dashboard { paddi
 .error-id-passage-correction > span { flex-basis: 100%; }
 .error-id-passage-correction > input[type="text"] { flex: 1 1 180px; min-width: 0; padding: 10px 12px; border: 1px solid #bfd2d4; border-radius: 8px; background: #fff; color: #173348; font: 15px system-ui,sans-serif; }
 .error-id-passage-correction__remove { display: inline-flex; align-items: center; gap: 5px; }
+.error-id-passage-line.needs-word-selection .error-id-passage-correction { box-shadow: inset 0 0 0 1px #dfae90; }
+.error-id-passage-line.needs-word-selection .error-id-passage-word:not(:disabled) { text-decoration: underline dotted #b56847; text-underline-offset: 4px; }
+.error-id-passage-word-hint { margin: 8px 0 0 48px; color: #a45432; font-size: 13px; font-weight: 800; }
+.error-id-passage-word-hint[hidden] { display: none; }
 .error-id-passage-feedback { margin: 14px 0 0 48px; padding: 16px; border: 1px solid #d4e5d8; border-radius: 12px; background: #f5faf5; color: #3b5b49; }
 .error-id-passage-feedback__top { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
 .error-id-passage-feedback__top > span { padding: 4px 8px; border-radius: 99px; font-size: 11px; font-weight: 800; }
@@ -175,5 +179,5 @@ body[data-learning-portal="error-identifier"] .learning-portal-dashboard { paddi
 .error-id-passage-submit small { display: block; margin-top: 3px; color: #62767a; }
 .error-id-passage-submit button { flex: none; padding: 11px 17px; border: 0; border-radius: 9px; background: #98654e; color: #fff; font-weight: 800; cursor: pointer; }
 .error-id-passage-submit button:disabled { opacity: .5; cursor: default; }
-@media(max-width:760px) { .error-id-controls { grid-template-columns: 1fr; } .error-id-passage-library { grid-template-columns: 1fr; } .error-id-passage-line__main { grid-template-columns: 27px minmax(0,1fr); } .error-id-passage-line__choices { grid-column: 2; justify-content: end; } .error-id-passage-correction,.error-id-passage-feedback { margin-left: 41px; } }
-@media(max-width:520px) { .error-id-passage-page { padding: 17px; } .error-id-passage-line { padding: 14px 12px; } .error-id-passage-line__main { gap: 8px; } .error-id-passage-correction,.error-id-passage-feedback { margin-left: 35px; } .error-id-passage-feedback__pair { grid-template-columns: 1fr; } .error-id-passage-submit { flex-wrap: wrap; } .error-id-passage-submit button { width: 100%; } }
+@media(max-width:760px) { .error-id-controls { grid-template-columns: 1fr; } .error-id-passage-library { grid-template-columns: 1fr; } .error-id-passage-line__main { grid-template-columns: 27px minmax(0,1fr); } .error-id-passage-line__choices { grid-column: 2; justify-content: end; } .error-id-passage-correction,.error-id-passage-feedback,.error-id-passage-word-hint { margin-left: 41px; } }
+@media(max-width:520px) { .error-id-passage-page { padding: 17px; } .error-id-passage-line { padding: 14px 12px; } .error-id-passage-line__main { gap: 8px; } .error-id-passage-correction,.error-id-passage-feedback,.error-id-passage-word-hint { margin-left: 35px; } .error-id-passage-feedback__pair { grid-template-columns: 1fr; } .error-id-passage-submit { flex-wrap: wrap; } .error-id-passage-submit button { width: 100%; } }
