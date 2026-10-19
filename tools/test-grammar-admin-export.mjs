@@ -18,7 +18,21 @@ for(const m of modules){
  if(m.appendix)assert.ok(c.includes(m.appendix));
  assert.equal(exportSections(m,'exercises').length,m.questions.length);
  assert.ok(exportHtml(m,'curation').includes('lang="zh-Hant"'));
- assert.ok(!e.includes('參考答案：'));
+ assert.ok(e.includes('參考答案：'));
+ const sections=exportSections(m,'exercises');
+ const html=exportHtml(m,'exercises');
+ for(const [index,q] of m.questions.entries()){
+  const section=sections[index];
+  assert.equal(section.title,`第 ${q.number} 題`);
+  assert.ok(section.body.includes(q.prompt));
+  assert.ok(section.body.includes(`參考答案：${q.answer}`));
+  assert.ok(section.body.includes('本題完整解析'));
+  for(const item of q.steps || [])for(const value of [item.title,item.body])assert.ok(section.body.includes(value),`${m.id} Q${q.number}: explanation must stay with its own question`);
+  for(const value of q.explanation || [])assert.ok(section.body.includes(value),`${m.id} Q${q.number}: complete explanation`);
+  if(q.completeSentence)assert.ok(section.body.includes(q.completeSentence));
+ }
+ assert.ok(html.includes('本題完整解析'));
+ assert.equal((e.match(/本題完整解析/g)||[]).length,m.questions.length);
 }
 assert.ok(!exportText(modules[0],'exercises',true).includes('Mia'));
 const injection={title:'<script>x</script>',id:'safe',questions:[{number:1,prompt:'<img onerror=x>',translation:'中文'}]};assert.ok(exportHtml(injection,'exercises').includes('&lt;img onerror=x&gt;'));
@@ -35,3 +49,12 @@ assert.ok(exportText(withDisplay[1],'curation').includes('Map intro'));
 assert.ok(exportText(withDisplay[1],'curation').includes('Map check'));
 assert.ok(exportText(withDisplay[1],'curation').includes(scope.window.EDMUND_GRAMMAR_ARTICLES_DATA.topics[0].body));
 console.log('On-screen summaries and complete source curation are both retained.');
+
+for(const module of modules){
+ const sections=exportSections(module,'exercises');
+ const document=new JSDOM(exportHtml(module,'exercises')).window.document;
+ const printed=[...document.querySelectorAll('section')];
+ assert.equal(printed.length,module.questions.length);
+ for(const [index,section] of sections.entries())assert.equal(printed[index].querySelector('p').textContent,section.body,`${module.id} Q${module.questions[index].number}: printable PDF contains every explanation character`);
+}
+console.log('All 400 default TXT/PDF exercise sections retain their own complete answers and explanations.');

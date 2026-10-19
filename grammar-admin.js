@@ -1,5 +1,5 @@
 import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261019-admin3';
-import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-admin2';
+import {grammarModules, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-admin4';
 const root=document.querySelector('[data-learning-portal-root]');
 const context=grammarAdminConnection();
 if(root && context?.rpc) {
@@ -8,7 +8,7 @@ if(root && context?.rpc) {
   const panel=document.createElement('main');
   panel.className='learning-portal-shell grammar-admin';
   panel.hidden=true;
-  panel.innerHTML=`<section class="panel"><div class="grammar-admin__head"><div><p class="eyebrow">GRAMMAR ADMIN</p><h1>語法系統管理員</h1></div><button type="button" class="grammar-button--ghost" data-admin-close>返回學生入口</button></div><form data-admin-login><label>管理員用戶名稱<input name="username" autocomplete="username" maxlength="160" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label><label class="grammar-admin__answers"><input type="checkbox" data-admin-show-password> 顯示密碼</label><button class="grammar-button" type="submit">管理員登入</button></form><p data-admin-status role="status" aria-live="polite"></p><div data-admin-content hidden><p data-admin-name></p><p>選擇模組後匯出完整內容。PDF 會開啟列印頁；請在列印目的地選擇「儲存為 PDF」。</p><label class="grammar-admin__answers"><input type="checkbox" data-admin-answers> 練習匯出包括參考答案及逐步解析</label><div data-admin-modules></div><button class="grammar-button--ghost" type="button" data-admin-logout>登出管理員</button></div></section>`;
+  panel.innerHTML=`<section class="panel"><div class="grammar-admin__head"><div><p class="eyebrow">GRAMMAR ADMIN</p><h1>語法系統管理員</h1></div><button type="button" class="grammar-button--ghost" data-admin-close>返回學生入口</button></div><form data-admin-login><label>管理員用戶名稱<input name="username" autocomplete="username" maxlength="160" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label><label class="grammar-admin__answers"><input type="checkbox" data-admin-show-password> 顯示密碼</label><button class="grammar-button" type="submit">管理員登入</button></form><p data-admin-status role="status" aria-live="polite"></p><div data-admin-content hidden><p data-admin-name></p><p>選擇模組後匯出完整內容。PDF 會開啟列印頁；請在列印目的地選擇「儲存為 PDF」。</p><p>每份練習匯出均包括全部題目、每題參考答案及完整逐步解析。</p><div data-admin-modules></div><button class="grammar-button--ghost" type="button" data-admin-logout>登出管理員</button></div></section>`;
   root.after(panel);
   const find=s=>panel.querySelector(s);
   const status=find('[data-admin-status]'),form=find('form'),content=find('[data-admin-content]');
@@ -58,14 +58,14 @@ if(root && context?.rpc) {
         if(popup){popup.opener=null;popup.document.body.textContent='正在驗證管理員…';}
         try{
           if(!await validate()){popup?.close();return;}
-          const includeAnswers=find('[data-admin-answers]').checked;
+
           if(format==='txt'){
-            const url=URL.createObjectURL(new Blob(['\uFEFF',exportText(module,kind,includeAnswers)],{type:'text/plain;charset=utf-8'}));
-            const link=document.createElement('a');link.href=url;link.download=`grammar-${module.id}-${kind}${kind==='exercises'&&includeAnswers?'-with-answers':''}.txt`;link.click();setTimeout(()=>URL.revokeObjectURL(url),60000);
+            const url=URL.createObjectURL(new Blob(['\uFEFF',exportText(module,kind)],{type:'text/plain;charset=utf-8'}));
+            const link=document.createElement('a');link.href=url;link.download=`grammar-${module.id}-${kind}${kind==='exercises'?'-with-explanations':''}.txt`;link.click();setTimeout(()=>URL.revokeObjectURL(url),60000);
             status.textContent='文字檔已匯出。';
           }else{
             if(!popup)throw new Error('請允許此網站開啟彈出視窗，再匯出 PDF。');
-            popup.document.open();popup.document.write(exportHtml(module,kind,includeAnswers));popup.document.close();
+            popup.document.open();popup.document.write(exportHtml(module,kind));popup.document.close();
             status.textContent='PDF 列印頁已開啟。請按「列印 / 儲存為 PDF」。';
           }
         }catch(error){popup?.close();status.textContent=error.message || '匯出失敗，請重試。';}finally{busy=false;button.disabled=false;}
