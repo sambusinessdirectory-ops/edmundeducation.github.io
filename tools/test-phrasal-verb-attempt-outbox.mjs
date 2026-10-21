@@ -8,6 +8,37 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const app = fs.readFileSync(path.join(root, "phrasal-verb-system.js"), "utf8");
 
+test("the repaired schema retries only known blocked revisions without losing queued progress", async () => {
+  const start = app.indexOf("async function adoptAttemptOutboxForContext(");
+  const end = app.indexOf("function renderAttemptOutboxStatus(", start);
+  assert.ok(start >= 0 && end > start);
+  const blocked = {
+    schemaVersion: 1, studentId: "student-1", accountKey: "account-1", ownerKey: "old-owner",
+    status: "blocked", lastError: "result has an invalid shape", payload: { correctCount: 2 }
+  };
+  const unrelated = { ...blocked, ownerKey: "old-owner-2", lastError: "A claimed correct answer does not match the lesson catalog" };
+  const saved = [];
+  const context = {
+    ATTEMPT_OUTBOX_SCHEMA_VERSION: 1,
+    ATTEMPT_SCHEMA_RECOVERY_VERSION: 1,
+    ATTEMPT_OUTBOX_LEASE_MS: 1000,
+    ATTEMPT_OUTBOX_STORE: "attempts",
+    openAttemptOutboxDatabase: async () => ({ transaction: () => ({ objectStore: () => ({
+      index: () => ({ getAll: () => [blocked, unrelated] }),
+      put: (record) => saved.push(record)
+    }) }) }),
+    attemptOutboxRequest: async (value) => value,
+    attemptOutboxTransactionComplete: async () => {}
+  };
+  vm.createContext(context);
+  vm.runInContext(app.slice(start, end), context);
+  await context.adoptAttemptOutboxForContext({ accountKey: "account-1", ownerKey: "new-owner", studentId: "student-1", tokenFingerprint: "new-token", syncEpoch: "new-epoch", studentName: "Student" });
+  assert.equal(saved[0].status, "queued");
+  assert.equal(saved[0].schemaRecoveryVersion, 1);
+  assert.equal(saved[0].payload.correctCount, 2);
+  assert.equal(saved[1].status, "blocked");
+});
+
 function functionSource(name, nextName) {
   const start = app.indexOf(`function ${name}(`);
   const end = app.indexOf(`function ${nextName}(`, start + 1);

@@ -1698,3 +1698,54 @@ body > .site-header.edmund-system-header {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Teaching pages only: English expressions and examples are twice their former size. */
+.info-page .formula-display { font-size: clamp(44px, 6.6vw, 78px); overflow-wrap: anywhere; }
+.info-page .formula-display small { font-size: 20px; }
+.info-page .formula-display small span { font-size: .9em; }
+.info-page .example-block .english-secondary { font-size: 30px; }
+.info-page .meaning-block .english-secondary { font-size: 28px; }
+.info-page .english-secondary { font-size: 28px; }
+.info-page .bilingual-list small { font-size: 24px; }
+.info-page .teaching-mini-grid .english-secondary { font-size: 24px; }
+.info-page .teaching-example { font-size: 26px; }
+.info-page .grammar-token-list code { font-size: 24px; }
+.info-page .form-table th small { font-size: 20px; }
+.info-page .specific-form-card code { font-size: 30px; }
+.info-page .benefit-card .english,
+.info-page .rule-card .english,
+.info-page .benefit-card .examples .english-example,
+.info-page .rule-card .examples .english-example { font-size: 28px; }
+.info-page .benefit-card .examples code,
+.info-page .rule-card .examples code { font-size: 30px; }
+.info-page .lesson-detail-heading h3 small { font-size: .96em; }
+.info-page .lesson-prose-card h3 small,
+.info-page .origin-card h3 small,
+.info-page .teaching-mini-grid h4 small,
+.info-page .specific-form-card h3 small,
+.info-page .benefit-card h3 small,
+.info-page .rule-card h3 small { font-size: 22px; }
+.info-page :is(.example-block, .meaning-block) h3 small { font-size: 22px; }
+.info-page :is(.lesson-prose-card, .origin-card) [lang="en"] { overflow-wrap: anywhere; }
+
+.phrasal-choice-page .choice-instruction { margin: 18px 0 8px; color: var(--accent-text); font-size: 14px; font-weight: 800; }
+.phrasal-choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.phrasal-choice {
+  min-height: 58px;
+  border: 1px solid rgba(45, 126, 82, .28);
+  border-radius: 14px;
+  padding: 11px 15px;
+  color: var(--navy-deep);
+  background: linear-gradient(155deg, #fff, #edf8f1);
+  box-shadow: 0 4px 0 rgba(35, 103, 67, .12);
+  cursor: pointer;
+  font: 800 clamp(16px, 1.7vw, 20px)/1.35 Georgia, "Times New Roman", serif;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.phrasal-choice:hover:not(:disabled), .phrasal-choice:focus-visible:not(:disabled) { border-color: var(--green); background: #e8f7ed; transform: translateY(-1px); }
+.phrasal-choice.is-wrong { border-color: var(--coral); color: #9d4539; background: #fff0ec; }
+.phrasal-choice.is-correct { border-color: var(--green); color: #fff; background: var(--green); }
+.phrasal-choice:disabled { cursor: default; opacity: 1; }
+.phrasal-choice-page .answer-reveal .english-answer { font-size: clamp(20px, 2vw, 25px); color: var(--navy-deep); }
+@media (max-width: 640px) { .phrasal-choice-grid { grid-template-columns: 1fr; } }

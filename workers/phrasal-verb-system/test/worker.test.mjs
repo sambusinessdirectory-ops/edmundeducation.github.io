@@ -375,6 +375,29 @@ test("a canonical answer reaches the Phrasal Verb attempt RPC unchanged", async 
   );
 });
 
+test("attempt control revisions survive Worker validation and reject invalid values", async t => {
+  let upsertPayload = null;
+  installFetch(t, async (input, init = {}) => {
+    const functionName = rpcName(input);
+    if (functionName === "phrasal_verb_system_student_profile") return jsonResponse(studentProfile());
+    if (functionName === "phrasal_verb_system_upsert_attempt") {
+      upsertPayload = JSON.parse(String(init.body || "{}"));
+      return jsonResponse(attemptRow(upsertPayload));
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+  const valid = attemptPayload();
+  valid.result.controlRevision = 3;
+  const response = await worker.fetch(attemptRequest(valid), environment());
+  assert.equal(response.status, 200);
+  assert.equal(upsertPayload.p_result.controlRevision, 3);
+  const invalid = attemptPayload();
+  invalid.result.controlRevision = -1;
+  const rejected = await worker.fetch(attemptRequest(invalid), environment());
+  assert.equal(rejected.status, 400);
+  assert.equal((await rejected.json()).code, "INVALID_ATTEMPT");
+});
+
 test("attempt state conflicts remain 409 so the browser can reload and merge", async t => {
   installFetch(t, async input => {
     const functionName = rpcName(input);
