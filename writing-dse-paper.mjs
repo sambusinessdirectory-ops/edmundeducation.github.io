@@ -9,7 +9,7 @@ export function mountWritingPaperSkin(stack,input,functionHelper){
  for(let n=2;n<=9;n++){const item=document.createElement('label'),box=document.createElement('input');box.type='checkbox';box.addEventListener('change',()=>{if(box.checked)head.querySelectorAll('[data-dse-question]').forEach(other=>{if(other!==box)other.checked=false;});});box.name='dse-paper-question';box.value=n;box.dataset.dseQuestion='';item.append(document.createTextNode(String(n)),box);head.querySelector('.dse-question-boxes').append(item);}
  controls.after(head);
  const guides=document.createElement('div');guides.className='dse-paper-guides';guides.setAttribute('aria-hidden','true');stack.prepend(guides);
- const footer=document.createElement('small');footer.className='dse-paper-footer';footer.textContent='Answers written in the margins will not be marked.';footer.hidden=true;stack.parentElement.after(footer);
+ const footer=document.createElement('small');footer.className='dse-paper-footer';footer.textContent='Answers written in the margins will not be marked.';footer.hidden=true;(functionHelper||stack.parentElement).after(footer);
  const mirror=document.createElement('div');mirror.className='dse-paper-measure';mirror.setAttribute('aria-hidden','true');document.body.append(mirror);
  const oldHeight=input.style.height;
  let frame=0;

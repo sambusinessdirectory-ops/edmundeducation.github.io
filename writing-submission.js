@@ -7,7 +7,7 @@ import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProo
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
-import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20261021-function-helper3';
+import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20261021-function-helper4';
 import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
