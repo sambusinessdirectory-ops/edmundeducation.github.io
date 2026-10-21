@@ -116,3 +116,7 @@
 .curation-active #page-4 .curation-no-orphan{white-space:nowrap}
 
 .curation-active #page-4 .curation-short-phrase{white-space:nowrap}
+
+.curation-stage-count{font-size:10px;line-height:1;font-weight:800;color:#3b7063;min-height:10px}
+.curation-stage-item.active .curation-stage-count{color:#8a640d}
+.curation-local-progress{padding-bottom:7px}
