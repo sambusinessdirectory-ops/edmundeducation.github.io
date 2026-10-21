@@ -1,4 +1,4 @@
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-latest1';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress3';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
 import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-4';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
@@ -11127,24 +11127,37 @@ const referencePocket = mountReferencePocket({
  getGlossary:async(onProgress)=>{onProgress?.({phase:'catalog',completed:0});const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList){onProgress?.({phase:'catalog',completed:1});return [{english:resource.wordList,chinese:''}];}const route=selectedTopicReferenceRoute();if(!route){onProgress?.({phase:'catalog',completed:1});return [];}const catalog=await loadTopicReferenceCatalog();onProgress?.({phase:'catalog',completed:1});return catalog[route.exerciseId]?.vocabulary||[];},
  getHistory:async(onProgress)=>{
   const token=state.authToken;const submissions=[];
+  const boundedRequest=async(path,limitMs)=>{
+   const controller=new AbortController();
+   const timer=setTimeout(()=>controller.abort(),limitMs);
+   try{return await apiJson(path,{signal:controller.signal},true,token);}
+   finally{clearTimeout(timer);}
+  };
   for(let page=1;;page++){
    if(state.authToken!==token||state.user?.role!=='student')return [];
-   const payload=await apiJson(`/v1/submissions?page=${page}&pageSize=100`,{},true,token);
+   const payload=await boundedRequest(`/v1/submissions?page=${page}&pageSize=100`,15000);
    submissions.push(...submissionArray(payload));onProgress?.({phase:'list',pages:page});if(!payload?.hasMore)break;
   }
-  const results=[];let index=0,completed=0;
+  const results=[];let index=0,completed=0,failed=0;
   onProgress?.({phase:'feedback',completed,total:submissions.length});
   await Promise.all(Array.from({length:Math.min(3,submissions.length)},async()=>{
    while(index<submissions.length){
     if(state.authToken!==token||state.user?.role!=='student')return;
     const submission=submissions[index++];
-    const payload=await apiJson(`/v1/submissions/${encodeURIComponent(submission.id)}/feedback`,{},true,token);
-    const feedback=normalizeTeacherFeedback(payload?.feedback);
-    if(feedback?.status==='published')results.push({...submission,feedback});
-    completed++;onProgress?.({phase:'feedback',completed,total:submissions.length});
+    try{
+     const payload=await boundedRequest(`/v1/submissions/${encodeURIComponent(submission.id)}/feedback`,15000);
+     const feedback=normalizeTeacherFeedback(payload?.feedback);
+     if(feedback?.status==='published')results.push({...submission,feedback});
+    }catch(error){
+     if(state.authToken!==token||state.user?.role!=='student')return;
+     failed++;
+     console.warn('Writing Pocket feedback unavailable',error?.code||error?.name||'REQUEST_FAILED');
+    }finally{
+     completed++;onProgress?.({phase:'feedback',completed,total:submissions.length});
+    }
    }
   }));
-  return state.authToken===token?results:[];
+  return state.authToken===token?{items:results,failed}:[];
  },appendRich:appendFeedbackRichText
 });
 async function initialise() {

@@ -29,7 +29,7 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
  const loading=node('div','reference-pocket-loading'),track=node('div','reference-pocket-progress-track'),fill=node('span','reference-pocket-progress-fill'),meter=document.createElement('progress'),percent=node('strong','reference-pocket-loading-percent','0%');
  track.append(fill);meter.max=100;meter.value=0;meter.setAttribute('aria-label','Writing Pocket loading progress');loading.hidden=true;loading.append(track,meter,percent);
  host.append(head,controls,status,loading,content);
- let sequence=0,owner='',history=null,historyPromise=null,floating=false,category='glossary',reportHistoryProgress=()=>{};
+ let sequence=0,owner='',history=null,historyPromise=null,historyFailures=0,floating=false,category='glossary';
  const dockMarker=document.createComment('Writing Pocket dock');
  const workspace=host.closest('.view');
  function refreshGlossaryUsage(){
@@ -47,7 +47,7 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
  function openMenu(index=SECTIONS.findIndex(section=>section[0]===category)){const rect=trigger.getBoundingClientRect(),below=window.innerHeight-rect.bottom-12,above=rect.top-12,up=below<Math.min(420,window.innerHeight*.45)&&above>below;picker.classList.toggle('opens-up',up);menu.style.maxHeight=`${Math.max(150,Math.min(440,up?above:below))}px`;menu.hidden=false;picker.classList.add('is-open');trigger.setAttribute('aria-expanded','true');optionButtons[index].focus();optionButtons[index].scrollIntoView({block:'nearest'});}
  function selectCategory(index){category=SECTIONS[index][0];syncPicker();closeMenu(true);render();}
  syncPicker();
- function reset(){sequence++;owner='';history=null;historyPromise=null;category='glossary';closeMenu();syncPicker();content.replaceChildren();status.textContent='';loading.hidden=true;if(floating)toggleFloat();}
+ function reset(){sequence++;owner='';history=null;historyPromise=null;historyFailures=0;category='glossary';closeMenu();syncPicker();content.replaceChildren();status.textContent='';loading.hidden=true;if(floating)toggleFloat();}
  async function render(force=false){
   const account=getOwner();if(!account){reset();return;}
   if(owner!==account){reset();owner=account;}
@@ -63,8 +63,8 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
     updateProgress(100,'詞彙載入完成');finishLoading();
     status.textContent=vocabulary.length?`${vocabulary.length} words · 詞彙`:'此題暫無主題詞彙 · No glossary available for this topic.';
    }else{
-    reportHistoryProgress=event=>{if(event?.phase==='list')updateProgress(Math.min(10,Math.max(2,(event.pages||0)*2)),'正在讀取文章清單…');else if(event?.phase==='feedback'){const total=Math.max(1,event.total||0);updateProgress(10+85*(event.completed||0)/total,`正在讀取評語 ${event.completed||0} / ${event.total||0}…`);}};
-    if(!history||force){if(!historyPromise||force)historyPromise=getHistory(event=>reportHistoryProgress(event));const loaded=await historyPromise;if(!current())return;history=loaded;historyPromise=null;}if(!current())return;
+    const reportHistoryProgress=event=>{if(event?.phase==='list')updateProgress(Math.min(10,Math.max(2,(event.pages||0)*2)),'正在讀取文章清單…');else if(event?.phase==='feedback'){const total=Math.max(1,event.total||0);updateProgress(10+85*(event.completed||0)/total,`正在讀取評語 ${event.completed||0} / ${event.total||0}…`);}};
+    if(!history||force){if(!historyPromise||force)historyPromise=getHistory(reportHistoryProgress);const loaded=await historyPromise;if(!current())return;history=Array.isArray(loaded)?loaded:Array.isArray(loaded?.items)?loaded.items:[];historyFailures=Array.isArray(loaded)?0:Number(loaded?.failed)||0;historyPromise=null;}if(!current())return;
     updateProgress(95,'正在整理寫作參考…');
     const key=SECTIONS.find(x=>x[0]===category)[3];let count=0;
     const sorted=[...history].sort((a,b)=>String(b.submittedAt).localeCompare(String(a.submittedAt))||String(b.id).localeCompare(String(a.id)));
@@ -83,7 +83,9 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
      content.append(group);
     }
     updateProgress(100,'寫作參考載入完成');finishLoading();
-    status.textContent=count?`${count} suggestions · 建議`:'尚無已發布的相關建議 · No published suggestions yet.';
+    status.textContent=historyFailures
+      ? `${count} suggestions · 建議；${historyFailures} 篇評語暫時未能載入，按「更新」重試。`
+      : count?`${count} suggestions · 建議`:'尚無已發布的相關建議 · No published suggestions yet.';
    }
   }catch{if(current()){loading.hidden=true;status.textContent='未能載入，請按更新重試 · Could not load. Please refresh.';history=null;historyPromise=null;}}
  }
