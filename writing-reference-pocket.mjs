@@ -26,8 +26,11 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
  const order=node('button','small-button','Earliest → latest · 最早優先');order.type='button';
  const refresh=node('button','small-button','Refresh · 更新');refresh.type='button';controls.append(picker,order,refresh);
  const content=node('div','reference-pocket-content');content.tabIndex=0;content.setAttribute('aria-label','Writing reference items');
- const status=node('p','reference-pocket-status');status.setAttribute('role','status');host.append(head,controls,status,content);
- let sequence=0,owner='',history=null,historyPromise=null,reverse=false,floating=false,category='glossary';
+ const status=node('p','reference-pocket-status');status.setAttribute('role','status');
+ const loading=node('div','reference-pocket-loading'),meter=document.createElement('progress'),percent=node('strong','reference-pocket-loading-percent','0%');
+ meter.max=100;meter.value=0;meter.setAttribute('aria-label','Writing Pocket loading progress');loading.hidden=true;loading.append(meter,percent);
+ host.append(head,controls,status,loading,content);
+ let sequence=0,owner='',history=null,historyPromise=null,reverse=false,floating=false,category='glossary',reportHistoryProgress=()=>{};
  const dockMarker=document.createComment('Writing Pocket dock');
  const workspace=host.closest('.view');
  function refreshGlossaryUsage(){
@@ -45,20 +48,24 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
  function openMenu(index=SECTIONS.findIndex(section=>section[0]===category)){const rect=trigger.getBoundingClientRect(),below=window.innerHeight-rect.bottom-12,above=rect.top-12,up=below<Math.min(420,window.innerHeight*.45)&&above>below;picker.classList.toggle('opens-up',up);menu.style.maxHeight=`${Math.max(150,Math.min(440,up?above:below))}px`;menu.hidden=false;picker.classList.add('is-open');trigger.setAttribute('aria-expanded','true');optionButtons[index].focus();optionButtons[index].scrollIntoView({block:'nearest'});}
  function selectCategory(index){category=SECTIONS[index][0];syncPicker();closeMenu(true);render();}
  syncPicker();
- function reset(){sequence++;owner='';history=null;historyPromise=null;category='glossary';closeMenu();syncPicker();content.replaceChildren();status.textContent='';if(floating)toggleFloat();}
+ function reset(){sequence++;owner='';history=null;historyPromise=null;category='glossary';closeMenu();syncPicker();content.replaceChildren();status.textContent='';loading.hidden=true;if(floating)toggleFloat();}
  async function render(force=false){
   const account=getOwner();if(!account){reset();return;}
   if(owner!==account){reset();owner=account;}
   const ticket=++sequence;const current=()=>ticket===sequence&&getOwner()===account;
-  order.hidden=category==='glossary';status.textContent='Loading · 正在載入…';content.replaceChildren();
+  function updateProgress(value,label){if(!current())return;const amount=Math.max(0,Math.min(100,Math.round(value)));meter.value=amount;percent.textContent=`${amount}%`;status.textContent=label;}
+  order.hidden=category==='glossary';loading.hidden=false;updateProgress(0,'Loading · 正在載入帳戶資源…');content.replaceChildren();
   try{
    if(category==='glossary'){
-    const vocabulary=await getGlossary();if(!current())return;
+    const vocabulary=await getGlossary(event=>{if(event?.phase==='catalog')updateProgress(event.completed?90:5,'正在載入題目詞彙…');});if(!current())return;
     for(const row of vocabulary){const card=node('article','reference-vocabulary');card.dataset.referenceVocabulary=row.english||'';const english=node('strong','',row.english),chinese=node('span','reference-vocabulary-translation',row.chinese||''),usage=node('span','sr-only');usage.dataset.referenceVocabularyStatus='';card.append(english);if(row.chinese)card.append(chinese);card.append(usage);content.append(card);}
     refreshGlossaryUsage();
+    updateProgress(100,'詞彙載入完成');loading.hidden=true;
     status.textContent=vocabulary.length?`${vocabulary.length} words · 詞彙`:'此題暫無主題詞彙 · No glossary available for this topic.';
    }else{
-    if(!history||force){if(!historyPromise||force)historyPromise=getHistory();const loaded=await historyPromise;if(!current())return;history=loaded;historyPromise=null;}if(!current())return;
+    reportHistoryProgress=event=>{if(event?.phase==='list')updateProgress(Math.min(10,Math.max(2,(event.pages||0)*2)),'正在讀取文章清單…');else if(event?.phase==='feedback'){const total=Math.max(1,event.total||0);updateProgress(10+85*(event.completed||0)/total,`正在讀取評語 ${event.completed||0} / ${event.total||0}…`);}};
+    if(!history||force){if(!historyPromise||force)historyPromise=getHistory(event=>reportHistoryProgress(event));const loaded=await historyPromise;if(!current())return;history=loaded;historyPromise=null;}if(!current())return;
+    updateProgress(95,'正在整理寫作參考…');
     const key=SECTIONS.find(x=>x[0]===category)[3];let count=0;
     const sorted=[...history].sort((a,b)=>String(a.submittedAt).localeCompare(String(b.submittedAt))||a.id.localeCompare(b.id));if(reverse)sorted.reverse();
     for(const submission of sorted){
@@ -75,9 +82,10 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
      }
      content.append(group);
     }
+    updateProgress(100,'寫作參考載入完成');loading.hidden=true;
     status.textContent=count?`${count} suggestions · 建議`:'尚無已發布的相關建議 · No published suggestions yet.';
    }
-  }catch{if(current()){status.textContent='未能載入，請按更新重試 · Could not load. Please refresh.';history=null;historyPromise=null;}}
+  }catch{if(current()){loading.hidden=true;status.textContent='未能載入，請按更新重試 · Could not load. Please refresh.';history=null;historyPromise=null;}}
  }
  function clampPosition(){if(!floating)return;const r=host.getBoundingClientRect();host.style.left=`${Math.max(8,Math.min(r.left,window.innerWidth-r.width-8))}px`;host.style.top=`${Math.max(8,Math.min(r.top,window.innerHeight-80))}px`;}
  function toggleFloat(){floating=!floating;if(floating){host.before(dockMarker);document.body.append(host);}else if(dockMarker.isConnected){dockMarker.replaceWith(host);}host.classList.toggle('is-floating',floating);float.textContent=floating?'Dock · 放回':'Float · 浮動';float.setAttribute('aria-pressed',String(floating));if(floating){host.style.left=`${Math.max(8,window.innerWidth-Math.min(420,window.innerWidth-16)-24)}px`;host.style.top='120px';clampPosition();}else{host.style.left='';host.style.top='';}}

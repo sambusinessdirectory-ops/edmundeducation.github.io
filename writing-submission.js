@@ -1,4 +1,4 @@
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress1';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
@@ -6,7 +6,7 @@ import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProo
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
-import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing2';
+import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20261021-function-helper3';
 import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
@@ -11099,15 +11099,16 @@ const referencePocket = mountReferencePocket({
  getOwner:()=>state.user?.role==='student'?state.authToken:'',
  getEssayText:()=>elements.writingInput?.value||'',
  entryUsed:vocabularyEntryUsed,
- getGlossary:async()=>{const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList)return [{english:resource.wordList,chinese:''}];const route=selectedTopicReferenceRoute();if(!route)return [];const catalog=await loadTopicReferenceCatalog();return catalog[route.exerciseId]?.vocabulary||[];},
- getHistory:async()=>{
+ getGlossary:async(onProgress)=>{onProgress?.({phase:'catalog',completed:0});const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList){onProgress?.({phase:'catalog',completed:1});return [{english:resource.wordList,chinese:''}];}const route=selectedTopicReferenceRoute();if(!route){onProgress?.({phase:'catalog',completed:1});return [];}const catalog=await loadTopicReferenceCatalog();onProgress?.({phase:'catalog',completed:1});return catalog[route.exerciseId]?.vocabulary||[];},
+ getHistory:async(onProgress)=>{
   const token=state.authToken;const submissions=[];
   for(let page=1;;page++){
    if(state.authToken!==token||state.user?.role!=='student')return [];
    const payload=await apiJson(`/v1/submissions?page=${page}&pageSize=100`,{},true,token);
-   submissions.push(...submissionArray(payload));if(!payload?.hasMore)break;
+   submissions.push(...submissionArray(payload));onProgress?.({phase:'list',pages:page});if(!payload?.hasMore)break;
   }
-  const results=[];let index=0;
+  const results=[];let index=0,completed=0;
+  onProgress?.({phase:'feedback',completed,total:submissions.length});
   await Promise.all(Array.from({length:Math.min(3,submissions.length)},async()=>{
    while(index<submissions.length){
     if(state.authToken!==token||state.user?.role!=='student')return;
@@ -11115,6 +11116,7 @@ const referencePocket = mountReferencePocket({
     const payload=await apiJson(`/v1/submissions/${encodeURIComponent(submission.id)}/feedback`,{},true,token);
     const feedback=normalizeTeacherFeedback(payload?.feedback);
     if(feedback?.status==='published')results.push({...submission,feedback});
+    completed++;onProgress?.({phase:'feedback',completed,total:submissions.length});
    }
   }));
   return state.authToken===token?results:[];
@@ -11287,6 +11289,6 @@ let articleDeliveryVersion="0",articleDeliveryBusy=false;
 async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden||state.user?.role==='admin'||!state.authToken)return;articleDeliveryBusy=true;try{const result=await apiJson('/v1/submissions/delivery-version');if(articleDeliveryVersion!==null&&articleDeliveryVersion!==result.version&&state.currentView==='submissions')await loadSubmissions({selectId:state.selectedSubmissionId||''});articleDeliveryVersion=result.version;}catch{}finally{articleDeliveryBusy=false;}}
 setInterval(refreshArticleDelivery,30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshArticleDelivery();});
 
-mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"));
+mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"),document.querySelector("[data-function-helper]"));
 
 async function manageAdminArticle(id,method,body){if(state.user?.role!=="admin")return;persistAdminFeedbackRecovery({force:true});const token=state.authToken;const response=await apiJson(`/v1/admin/submissions/${encodeURIComponent(id)}`,{method,...(body?{body:JSON.stringify(body)}:{})});if(token!==state.authToken||state.user?.role!=="admin")return;state.adminSubmissions=state.adminSubmissions.map(item=>item.id===id?{...item,...response.submission}:item);renderAdminSubmissions();await openAdminSubmission(id);showToast(method==="DELETE"?"已從學生帳戶隱藏；管理員仍可查看。":"文章題目已更新。","success");}

@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-function-helper2">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-function-helper3">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -176,9 +176,15 @@
           <button type="button" class="writing-image-dock-restore" data-writing-image-restore hidden>顯示題目圖片</button>
           <section class="editor-panel glass-panel">
             <div class="section-heading editor-heading">
-              <div>
-                <p class="eyebrow">WRITING AREA</p>
-                <h2 class="writing-editor-title">文章內容 <em data-proofreading-label hidden>校對時間</em></h2>
+              <div class="editor-heading-summary">
+                <div>
+                  <p class="eyebrow">WRITING AREA</p>
+                  <h2 class="writing-editor-title">文章內容 <em data-proofreading-label hidden>校對時間</em></h2>
+                </div>
+                <div class="editor-metrics" aria-live="polite">
+                  <strong data-word-count>0</strong>
+                  <span>words</span>
+                </div>
               </div>
               <div class="editor-heading-tools">
                 <button class="writing-timer-toggle" type="button" data-writing-timer-toggle aria-expanded="false" aria-controls="writing-timer-panel">
@@ -197,10 +203,6 @@
                     <button type="button" data-writing-stopwatch-pause disabled>暫停</button>
                     <button type="button" data-writing-stopwatch-reset disabled>重設</button>
                   </div>
-                </div>
-                <div class="editor-metrics" aria-live="polite">
-                  <strong data-word-count>0</strong>
-                  <span>words</span>
                 </div>
               </div>
             </div>
@@ -710,6 +712,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-function-helper2"></script>
+  <script type="module" src="writing-submission.js?v=20261021-function-helper3"></script>
 </body>
 </html>
