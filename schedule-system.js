@@ -209,8 +209,8 @@ const elements = {
   announcementForm: document.querySelector("[data-announcement-form]"),
   announcementMessage: document.querySelector("[data-announcement-message]"),
   announcementImage: document.querySelector("[data-announcement-image]"),
-  announcementImageActionField: document.querySelector("[data-announcement-image-action-field]"),
-  announcementImageAction: document.querySelector("[data-announcement-image-action]"),
+  announcementImagePreview: document.querySelector("[data-announcement-image-preview]"),
+  announcementColor: document.querySelector("[data-announcement-color]"),
   announcementActive: document.querySelector("[data-announcement-active]"),
   announcementActiveLabel: document.querySelector("[data-announcement-active-label]"),
   announcementSubmit: document.querySelector("[data-announcement-submit]"),
@@ -3394,58 +3394,99 @@ function announcementBeingEdited() {
   return state.announcements.find((announcement) => announcement.id === state.editingAnnouncementId) || null;
 }
 
-function syncAnnouncementImageControls() {
-  const announcement = announcementBeingEdited();
-  const editing = Boolean(announcement);
-  elements.announcementImageActionField.hidden = !editing;
-  if (!editing) {
-    elements.announcementImage.disabled = state.announcementMutationInFlight;
-    elements.announcementImage.required = false;
-    return;
-  }
-  const keepOption = elements.announcementImageAction.querySelector('option[value="keep"]');
-  const removeOption = elements.announcementImageAction.querySelector('option[value="remove"]');
-  keepOption.textContent = announcement.hasImage ? "保留目前圖片" : "維持沒有圖片";
-  removeOption.disabled = !announcement.hasImage;
-  if (!announcement.hasImage && elements.announcementImageAction.value === "remove") {
-    elements.announcementImageAction.value = "keep";
-  }
-  const replacing = elements.announcementImageAction.value === "replace";
-  elements.announcementImage.disabled = state.announcementMutationInFlight || !replacing;
-  elements.announcementImage.required = replacing;
-  if (!replacing) elements.announcementImage.value = "";
+const announcementRich = window.EdmundAnnouncementRich;
+let announcementPendingImages = [];
+let announcementRemovedImageIds = new Set();
+let announcementPreviewUrls = new Map();
+let announcementSavedRange = null;
+
+function releaseAnnouncementPreviews() {
+  for (const url of announcementPreviewUrls.values()) URL.revokeObjectURL(url);
+  announcementPreviewUrls = new Map();
+}
+
+async function renderAnnouncementImagePreviews() {
+  const container = elements.announcementImagePreview;
+  if (!container) return;
+  const edited = announcementBeingEdited();
+  container.replaceChildren();
+  const existing = (edited?.images || []).filter((image) => !announcementRemovedImageIds.has(image.id));
+  const entries = [...existing.map((image, index) => ({ id: image.id, label: `現有圖片 ${index + 1}`, existing: true })),
+    ...announcementPendingImages.map((file, index) => ({ id: String(index), label: file.name, file }))];
+  entries.forEach((entry) => {
+    const tile = document.createElement("div");
+    tile.className = "announcement-image-tile";
+    const picture = document.createElement("img");
+    picture.alt = entry.label;
+    if (entry.file) {
+      const url = announcementPreviewUrls.get(entry.file) || URL.createObjectURL(entry.file);
+      announcementPreviewUrls.set(entry.file, url);
+      picture.src = url;
+    } else {
+      const cached = announcementPreviewUrls.get(entry.id);
+      if (cached) picture.src = cached;
+    }
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.textContent = "移除";
+    if (entry.existing) remove.dataset.announcementRemoveExistingImage = entry.id;
+    else remove.dataset.announcementRemovePendingImage = entry.id;
+    remove.disabled = state.announcementMutationInFlight;
+    const caption = document.createElement("small");
+    caption.textContent = entry.label;
+    tile.append(picture, remove, caption);
+    container.append(tile);
+    if (entry.existing && !announcementPreviewUrls.has(entry.id)) {
+      fetch(`${String(scheduleSettings.workerBaseUrl || "").replace(/\/+$/, "")}/v1/admin/announcements/${encodeURIComponent(edited.id)}/images/${encodeURIComponent(entry.id)}`, {
+        headers: { Authorization: `Bearer ${state.currentUser.adminToken}` }, cache: "no-store"
+      }).then((response) => response.ok ? response.blob() : null).then((blob) => {
+        if (!blob || !picture.isConnected) return;
+        const url = URL.createObjectURL(blob);
+        announcementPreviewUrls.set(entry.id, url);
+        picture.src = url;
+      }).catch(() => {});
+    }
+  });
+  elements.announcementImage.disabled = state.announcementMutationInFlight || entries.length >= 5;
 }
 
 function setAnnouncementMutationInFlight(busy) {
   state.announcementMutationInFlight = Boolean(busy);
-  elements.announcementForm?.querySelectorAll("textarea, input, select, button").forEach((control) => {
+  elements.announcementForm?.querySelectorAll("input, select, button").forEach((control) => {
     control.disabled = state.announcementMutationInFlight;
   });
+  elements.announcementMessage.contentEditable = state.announcementMutationInFlight ? "false" : "true";
   elements.announcementList?.querySelectorAll("button").forEach((button) => {
     button.disabled = state.announcementMutationInFlight;
   });
-  syncAnnouncementImageControls();
+  renderAnnouncementImagePreviews();
 }
 
 function announcementEditHasUnsavedChanges() {
   const announcement = announcementBeingEdited();
   if (!announcement) return false;
-  return elements.announcementMessage.value.trim() !== announcement.message
+  const runs = announcementRich.serialize(elements.announcementMessage);
+  const normalized = (values) => values.map((run) => [run.text, Boolean(run.bold), Boolean(run.italic), Boolean(run.underline), run.color, run.size]);
+  return runs.map((run) => run.text).join("") !== announcement.message
+    || JSON.stringify(normalized(runs)) !== JSON.stringify(normalized(announcement.contentRuns?.length ? announcement.contentRuns : [{ text: announcement.message, ...announcementRich.defaultStyle() }]))
     || elements.announcementActive.checked !== announcement.isActive
-    || elements.announcementImageAction.value !== "keep"
-    || Boolean(elements.announcementImage.files?.length);
+    || announcementRemovedImageIds.size > 0 || announcementPendingImages.length > 0;
 }
 
 function resetAnnouncementForm() {
+  releaseAnnouncementPreviews();
+  announcementSavedRange = null;
+  announcementPendingImages = [];
+  announcementRemovedImageIds = new Set();
   state.editingAnnouncementId = null;
   state.editingAnnouncementVersion = null;
   elements.announcementForm.reset();
+  elements.announcementMessage.replaceChildren();
   elements.announcementActive.checked = true;
-  elements.announcementImageAction.value = "keep";
   elements.announcementActiveLabel.textContent = "建立後立即顯示";
   elements.announcementSubmit.textContent = "建立公告";
   elements.announcementCancelEdit.hidden = true;
-  syncAnnouncementImageControls();
+  renderAnnouncementImagePreviews();
 }
 
 function beginAnnouncementEdit(id) {
@@ -3461,16 +3502,19 @@ function beginAnnouncementEdit(id) {
     && !window.confirm("目前的公告修改尚未儲存。確定要捨棄修改並重新載入所選公告嗎？")
   ) return;
   elements.announcementForm.reset();
+  releaseAnnouncementPreviews();
+  announcementSavedRange = null;
+  announcementPendingImages = [];
+  announcementRemovedImageIds = new Set();
   state.editingAnnouncementId = announcement.id;
   state.editingAnnouncementVersion = announcement.version;
-  elements.announcementMessage.value = announcement.message;
+  announcementRich.render(elements.announcementMessage, announcement.contentRuns, announcement.message);
   elements.announcementActive.checked = announcement.isActive;
-  elements.announcementImageAction.value = "keep";
   elements.announcementActiveLabel.textContent = "修改後顯示此公告";
   elements.announcementSubmit.textContent = "儲存修改";
   elements.announcementCancelEdit.hidden = false;
-  syncAnnouncementImageControls();
-  setStatus(elements.announcementStatus, "正在修改公告；可保留、取代或移除現有圖片。");
+  renderAnnouncementImagePreviews();
+  setStatus(elements.announcementStatus, "正在修改公告；可新增或逐張移除圖片。");
   elements.announcementForm.scrollIntoView({ behavior: "smooth", block: "center" });
   window.setTimeout(() => elements.announcementMessage.focus(), 250);
 }
@@ -3490,12 +3534,12 @@ function renderAnnouncements() {
     row.className = "announcement-admin-row";
     const copy = document.createElement("div");
     const status = document.createElement("span");
-    status.className = `announcement-admin-badge${announcement.isActive ? " is-active" : ""}`;
-    status.textContent = announcement.isActive ? "顯示中" : "已停用";
+    status.className = `announcement-admin-badge${announcement.isArchived ? " is-archived" : announcement.isActive ? " is-active" : ""}`;
+    status.textContent = announcement.isArchived ? "已封存" : announcement.isActive ? "顯示中" : "已停用";
     const message = document.createElement("p");
     message.textContent = announcement.message;
     const meta = document.createElement("small");
-    meta.textContent = `${formatAdminDateTime(announcement.updatedAt)}${announcement.hasImage ? " · 附有圖片" : ""}`;
+    meta.textContent = `${formatAdminDateTime(announcement.updatedAt)}${announcement.images?.length ? ` · ${announcement.images.length} 張圖片` : ""}`;
     copy.append(status, message, meta);
     const actions = document.createElement("div");
     actions.className = "announcement-admin-actions";
@@ -3511,14 +3555,22 @@ function renderAnnouncements() {
     toggle.dataset.announcementVersion = String(announcement.version);
     toggle.dataset.announcementNextActive = String(!announcement.isActive);
     toggle.textContent = announcement.isActive ? "停用" : "重新啟用";
+    toggle.hidden = announcement.isArchived;
+    const archive = document.createElement("button");
+    archive.type = "button";
+    archive.className = "student-card-action";
+    archive.dataset.announcementArchive = announcement.id;
+    archive.dataset.announcementVersion = String(announcement.version);
+    archive.dataset.announcementNextArchived = String(!announcement.isArchived);
+    archive.textContent = announcement.isArchived ? "還原封存" : "封存";
     const remove = document.createElement("button");
     remove.type = "button";
     remove.className = "student-card-action danger";
     remove.dataset.announcementDelete = announcement.id;
     remove.dataset.announcementVersion = String(announcement.version);
     remove.textContent = "永久刪除";
-    actions.append(edit, toggle, remove);
-    [edit, toggle, remove].forEach((button) => {
+    actions.append(edit, toggle, archive, remove);
+    [edit, toggle, archive, remove].forEach((button) => {
       button.disabled = state.announcementMutationInFlight;
     });
     row.append(copy, actions);
@@ -3542,52 +3594,75 @@ async function loadAnnouncements() {
 async function saveAnnouncement(event) {
   event.preventDefault();
   if (state.currentUser?.role !== "admin") return;
-  const message = elements.announcementMessage.value.trim();
-  const image = elements.announcementImage.files?.[0] || null;
+  const contentRuns = announcementRich.serialize(elements.announcementMessage);
+  const message = contentRuns.map((run) => run.text).join("");
   const editing = announcementBeingEdited();
   if (state.editingAnnouncementId && !editing) {
     setStatus(elements.announcementStatus, "公告已在其他頁面移除；請重新載入後再試。", "error");
     return;
   }
-  const imageAction = editing ? elements.announcementImageAction.value : "replace";
   if (!message) {
     setStatus(elements.announcementStatus, "請先輸入公告內容。", "error");
     return;
   }
-  if (image && (!/^image\/(?:jpeg|png|webp|gif)$/i.test(image.type) || image.size > 5 * 1024 * 1024)) {
-    setStatus(elements.announcementStatus, "圖片只接受 JPG、PNG、WebP 或 GIF，大小不可超過 5 MB。", "error");
-    return;
-  }
-  if (editing && imageAction === "replace" && !image) {
-    setStatus(elements.announcementStatus, "請先選擇要取代現有圖片的新圖片。", "error");
-    return;
-  }
-  if (editing && !["keep", "replace", "remove"].includes(imageAction)) {
-    setStatus(elements.announcementStatus, "請選擇如何處理現有圖片。", "error");
+  if (message.length > 4000) {
+    setStatus(elements.announcementStatus, "公告內容最多 4,000 字。", "error");
     return;
   }
   setAnnouncementMutationInFlight(true);
   setStatus(elements.announcementStatus, editing ? "正在儲存公告修改…" : "正在建立公告…");
   try {
-    const body = new FormData();
-    body.set("message", message);
-    body.set("isActive", String(elements.announcementActive.checked));
+    let current;
+    const requestedActive = elements.announcementActive.checked && !editing?.isArchived;
     if (editing) {
-      body.set("expectedVersion", String(state.editingAnnouncementVersion));
-      body.set("imageAction", imageAction);
-      if (imageAction === "replace" && image) body.set("image", image, image.name);
-      await announcementApi(`/v1/admin/announcements/${encodeURIComponent(editing.id)}`, {
+      const saved = await announcementApi(`/v1/admin/announcements/${encodeURIComponent(editing.id)}`, {
         method: "PATCH",
-        body
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ expectedVersion: state.editingAnnouncementVersion, message, contentRuns, isActive: requestedActive })
       });
+      current = saved.announcement;
+      state.editingAnnouncementVersion = current.version;
     } else {
-      if (image) body.set("image", image, image.name);
-      await announcementApi("/v1/admin/announcements", { method: "POST", body });
+      const saved = await announcementApi("/v1/admin/announcements", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message, contentRuns, isActive: requestedActive && announcementPendingImages.length === 0 })
+      });
+      current = saved.announcement;
+      state.editingAnnouncementId = current.id;
+      state.editingAnnouncementVersion = current.version;
+      state.announcements.unshift(current);
+    }
+    for (const imageId of announcementRemovedImageIds) {
+      const saved = await announcementApi(`/v1/admin/announcements/${encodeURIComponent(current.id)}/images/${encodeURIComponent(imageId)}`, {
+        method: "DELETE", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ expectedVersion: current.version })
+      });
+      current = saved.announcement;
+      state.editingAnnouncementVersion = current.version;
+      announcementRemovedImageIds.delete(imageId);
+    }
+    while (announcementPendingImages.length) {
+      const file = announcementPendingImages[0];
+      const body = new FormData();
+      body.set("expectedVersion", String(current.version));
+      body.set("image", file, file.name);
+      const saved = await announcementApi(`/v1/admin/announcements/${encodeURIComponent(current.id)}/images`, { method: "POST", body });
+      current = saved.announcement;
+      state.editingAnnouncementVersion = current.version;
+      announcementPendingImages.shift();
+    }
+    if (!editing && requestedActive && !current.isActive) {
+      const saved = await announcementApi(`/v1/admin/announcements/${encodeURIComponent(current.id)}`, {
+        method: "PATCH", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ expectedVersion: current.version, isActive: true })
+      });
+      current = saved.announcement;
     }
     resetAnnouncementForm();
     showToast(editing ? "全站公告修改已儲存。" : "全站公告已建立。", "success");
     await loadAnnouncements();
   } catch (error) {
+    if (state.editingAnnouncementId) await loadAnnouncements();
     setStatus(elements.announcementStatus, error.message || (editing ? "未能儲存公告修改。" : "未能建立公告。"), "error");
   } finally {
     setAnnouncementMutationInFlight(false);
@@ -3607,6 +3682,25 @@ async function toggleAnnouncement(id, version, isActive) {
     await loadAnnouncements();
   } catch (error) {
     setStatus(elements.announcementStatus, error.message || "未能更新公告。", "error");
+  } finally {
+    setAnnouncementMutationInFlight(false);
+  }
+}
+
+async function archiveAnnouncement(id, version, isArchived) {
+  if (state.announcementMutationInFlight) return;
+  setAnnouncementMutationInFlight(true);
+  try {
+    await announcementApi(`/v1/admin/announcements/${encodeURIComponent(id)}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expectedVersion: Number(version), isArchived })
+    });
+    resetAnnouncementForm();
+    showToast(isArchived ? "公告已封存，訪客不會再看到。" : "公告已還原為停用狀態。", "success");
+    await loadAnnouncements();
+  } catch (error) {
+    setStatus(elements.announcementStatus, error.message || "未能更新封存狀態。", "error");
   } finally {
     setAnnouncementMutationInFlight(false);
   }
@@ -8129,7 +8223,64 @@ elements.entryTags?.addEventListener("change", (event) => {
   if (input.checked) state.editing.tags.push(input.value);
 });
 elements.announcementForm?.addEventListener("submit", saveAnnouncement);
-elements.announcementImageAction?.addEventListener("change", syncAnnouncementImageControls);
+elements.announcementMessage?.addEventListener("paste", (event) => {
+  event.preventDefault();
+  document.execCommand("insertText", false, event.clipboardData?.getData("text/plain") || "");
+});
+document.addEventListener("selectionchange", () => {
+  const selection = window.getSelection();
+  if (selection?.rangeCount && elements.announcementMessage?.contains(selection.anchorNode)) {
+    announcementSavedRange = selection.getRangeAt(0).cloneRange();
+  }
+});
+elements.announcementForm?.querySelectorAll("[data-announcement-command], [data-announcement-size]").forEach((button) => {
+  button.addEventListener("mousedown", (event) => event.preventDefault());
+  button.addEventListener("click", () => {
+    if (announcementSavedRange) {
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(announcementSavedRange);
+    }
+    elements.announcementMessage.focus();
+    const command = button.dataset.announcementCommand || "fontSize";
+    document.execCommand(command, false, command === "fontSize" ? (button.dataset.announcementSize === "large" ? "5" : "3") : undefined);
+  });
+});
+elements.announcementColor?.addEventListener("change", (event) => {
+  if (announcementSavedRange) {
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(announcementSavedRange);
+  }
+  elements.announcementMessage.focus();
+  document.execCommand("foreColor", false, event.target.value);
+});
+elements.announcementImage?.addEventListener("change", (event) => {
+  const files = Array.from(event.target.files || []);
+  const existing = (announcementBeingEdited()?.images || []).filter((image) => !announcementRemovedImageIds.has(image.id)).length;
+  if (existing + announcementPendingImages.length + files.length > 5) {
+    setStatus(elements.announcementStatus, "每則公告最多附加 5 張圖片。", "error");
+  } else if (files.some((file) => !/^image\/(?:jpeg|png|webp|gif)$/i.test(file.type) || file.size > 5 * 1024 * 1024)) {
+    setStatus(elements.announcementStatus, "每張圖片必須是 JPG、PNG、WebP 或 GIF，且不超過 5 MB。", "error");
+  } else {
+    announcementPendingImages.push(...files);
+    renderAnnouncementImagePreviews();
+  }
+  event.target.value = "";
+});
+elements.announcementImagePreview?.addEventListener("click", (event) => {
+  const existing = event.target.closest("[data-announcement-remove-existing-image]");
+  const pending = event.target.closest("[data-announcement-remove-pending-image]");
+  if (existing) announcementRemovedImageIds.add(existing.dataset.announcementRemoveExistingImage);
+  if (pending) {
+    const index = Number(pending.dataset.announcementRemovePendingImage);
+    const [file] = announcementPendingImages.splice(index, 1);
+    const url = announcementPreviewUrls.get(file);
+    if (url) URL.revokeObjectURL(url);
+    announcementPreviewUrls.delete(file);
+  }
+  renderAnnouncementImagePreviews();
+});
 elements.announcementCancelEdit?.addEventListener("click", () => {
   resetAnnouncementForm();
   setStatus(elements.announcementStatus, "已取消修改公告。");
@@ -8147,6 +8298,12 @@ elements.announcementList?.addEventListener("click", (event) => {
       toggle.dataset.announcementVersion,
       toggle.dataset.announcementNextActive === "true"
     );
+    return;
+  }
+  const archive = event.target.closest("[data-announcement-archive]");
+  if (archive) {
+    archiveAnnouncement(archive.dataset.announcementArchive, archive.dataset.announcementVersion,
+      archive.dataset.announcementNextArchived === "true");
     return;
   }
   const remove = event.target.closest("[data-announcement-delete]");

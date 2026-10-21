@@ -185,6 +185,22 @@ async function route(request, env) {
     return deleteAdminAnnouncement(request, env, announcementMatch[1]);
   }
 
+  const adminAnnouncementImageMatch = url.pathname.match(/^\/v1\/admin\/announcements\/([0-9a-f-]{36})\/images\/([0-9a-f-]{36})$/i);
+  if (adminAnnouncementImageMatch && request.method === "GET") {
+    return getAnnouncementGalleryImage(request, env, adminAnnouncementImageMatch[1], adminAnnouncementImageMatch[2], true);
+  }
+  if (adminAnnouncementImageMatch && request.method === "DELETE") {
+    return removeAnnouncementGalleryImage(request, env, adminAnnouncementImageMatch[1], adminAnnouncementImageMatch[2]);
+  }
+  const adminAnnouncementImagesMatch = url.pathname.match(/^\/v1\/admin\/announcements\/([0-9a-f-]{36})\/images$/i);
+  if (adminAnnouncementImagesMatch && request.method === "POST") {
+    return addAnnouncementGalleryImage(request, env, adminAnnouncementImagesMatch[1]);
+  }
+  const galleryImageMatch = url.pathname.match(/^\/v1\/announcements\/([0-9a-f-]{36})\/images\/([0-9a-f-]{36})$/i);
+  if (galleryImageMatch && request.method === "GET") {
+    return getAnnouncementGalleryImage(request, env, galleryImageMatch[1], galleryImageMatch[2], false);
+  }
+
   const announcementImageMatch = url.pathname.match(/^\/v1\/announcements\/([0-9a-f-]{36})\/image$/i);
   if (announcementImageMatch && request.method === "GET") {
     return getAnnouncementImage(request, env, announcementImageMatch[1]);
@@ -295,15 +311,27 @@ function bearerToken(request) {
 }
 
 function announcementResponse(row, { admin = false } = {}) {
+  const gallery = Array.isArray(row.images) ? row.images : [];
   const response = {
     id: String(row.id || ""),
     message: String(row.message || ""),
-    hasImage: Boolean(row.has_image),
-    imageUrl: row.has_image ? `/v1/announcements/${String(row.id || "")}/image?v=${Number(row.version || 1)}` : "",
+    contentRuns: Array.isArray(row.content_runs) ? row.content_runs : [],
+    images: gallery.map((image) => ({
+      id: String(image.id || ""),
+      url: `/v1/announcements/${String(row.id || "")}/images/${String(image.id || "")}?v=${Number(row.version || 1)}`
+    })),
+    hasImage: gallery.length > 0 || Boolean(row.has_image),
+    imageUrl: gallery.length
+      ? `/v1/announcements/${String(row.id || "")}/images/${String(gallery[0].id || "")}?v=${Number(row.version || 1)}`
+      : row.has_image ? `/v1/announcements/${String(row.id || "")}/image?v=${Number(row.version || 1)}` : "",
     updatedAt: String(row.updated_at || ""),
     version: Number(row.version || 1)
   };
-  if (admin) response.isActive = row.is_active === true;
+  if (admin) {
+    response.isActive = row.is_active === true;
+    response.isArchived = row.is_archived === true;
+    response.archivedAt = row.archived_at || null;
+  }
   return response;
 }
 
@@ -336,6 +364,23 @@ function imageContentTypeFromBytes(bytes) {
     if (signature === "GIF87a" || signature === "GIF89a") return "image/gif";
   }
   return "";
+}
+
+function validAnnouncementContent(message, runs) {
+  if (typeof message !== "string" || !message.trim() || message.length > 4000
+    || /[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/.test(message)
+    || !Array.isArray(runs) || runs.length > 1000) return false;
+  let reconstructed = "";
+  for (const run of runs) {
+    if (!run || typeof run !== "object" || Array.isArray(run)
+      || typeof run.text !== "string" || run.text.length > 4000
+      || /[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/.test(run.text)
+      || typeof run.bold !== "boolean" || typeof run.italic !== "boolean"
+      || typeof run.underline !== "boolean" || !["normal", "large"].includes(run.size)
+      || !/^#[0-9a-fA-F]{6}$/.test(run.color)) return false;
+    reconstructed += run.text;
+  }
+  return reconstructed === message && JSON.stringify(runs).length <= 100000;
 }
 
 async function rpc(env, name, body, {timeoutMs=25000}={}) {
@@ -380,20 +425,33 @@ async function authenticateAdmin(request, env) {
 }
 
 async function listPublicAnnouncements(request, env) {
-  const rows = await rpc(env, "schedule_announcement_public_list", {});
+  const rows = await rpc(env, "schedule_announcement_v2_public_list", {});
   return json({ announcements: (Array.isArray(rows) ? rows : []).map(announcementResponse) }, 200, request, env);
 }
 
 async function listAdminAnnouncements(request, env) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
-  const rows = await rpc(env, "schedule_announcement_admin_list", { p_admin_token: admin.token });
+  const rows = await rpc(env, "schedule_announcement_v2_admin_list", { p_admin_token: admin.token });
   return json({ announcements: (Array.isArray(rows) ? rows : []).map((row) => announcementResponse(row, { admin: true })) }, 200, request, env);
 }
 
 async function createAdminAnnouncement(request, env) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
+  if (String(request.headers.get("Content-Type") || "").toLowerCase().startsWith("application/json")) {
+    let payload;
+    try { payload = await readLimitedJson(request, 110000); } catch { return json({ error: "Invalid announcement" }, 400, request, env); }
+    if (!validAnnouncementContent(payload?.message, payload?.contentRuns) || typeof payload?.isActive !== "boolean") {
+      return json({ error: "Invalid announcement content" }, 400, request, env);
+    }
+    const row = await rpc(env, "schedule_announcement_v2_create", {
+      p_admin_token: admin.token, p_message: payload.message,
+      p_content_runs: payload.contentRuns, p_is_active: payload.isActive
+    });
+    return row ? json({ announcement: announcementResponse(row, { admin: true }) }, 201, request, env)
+      : json({ error: "Announcement could not be created" }, 409, request, env);
+  }
   let form;
   try {
     const bytes = await readLimitedBytes(request, 5_300_000);
@@ -440,6 +498,30 @@ async function updateAdminAnnouncement(request, env, id) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
   const contentType = String(request.headers.get("Content-Type") || "").toLowerCase();
+  if (contentType.startsWith("application/json")) {
+    let payload;
+    try { payload = await readLimitedJson(request, 110000); } catch { return json({ error: "Invalid announcement update" }, 400, request, env); }
+    if (!Number.isInteger(payload?.expectedVersion) || payload.expectedVersion < 1) {
+      return json({ error: "Invalid announcement version" }, 400, request, env);
+    }
+    let name;
+    let body;
+    if (typeof payload.isArchived === "boolean" && Object.keys(payload).every((key) => ["expectedVersion", "isArchived"].includes(key))) {
+      name = "schedule_announcement_v2_set_archived";
+      body = { p_is_archived: payload.isArchived };
+    } else if (typeof payload.isActive === "boolean" && Object.keys(payload).every((key) => ["expectedVersion", "isActive"].includes(key))) {
+      name = "schedule_announcement_v2_set_active";
+      body = { p_is_active: payload.isActive };
+    } else if (validAnnouncementContent(payload.message, payload.contentRuns) && typeof payload.isActive === "boolean") {
+      name = "schedule_announcement_v2_update";
+      body = { p_message: payload.message, p_content_runs: payload.contentRuns, p_is_active: payload.isActive };
+    } else return json({ error: "Invalid announcement update" }, 400, request, env);
+    const row = await rpc(env, name, {
+      p_admin_token: admin.token, p_id: id.toLowerCase(), p_expected_version: payload.expectedVersion, ...body
+    });
+    return row ? json({ announcement: announcementResponse(row, { admin: true }) }, 200, request, env)
+      : json({ error: "Announcement changed elsewhere; reload and try again" }, 409, request, env);
+  }
   if (contentType.startsWith("multipart/form-data")) {
     let form;
     try {
@@ -553,6 +635,79 @@ async function getAnnouncementImage(request, env, id) {
   headers.set("Cache-Control", "no-store");
   headers.set("X-Content-Type-Options", "nosniff");
   return new Response(imageBytes, { status: 200, headers });
+}
+
+async function getAnnouncementGalleryImage(request, env, id, imageId, adminOnly) {
+  let row;
+  if (adminOnly) {
+    const admin = await authenticateAdmin(request, env);
+    if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
+    const rows = await rpc(env, "schedule_announcement_v2_admin_image", {
+      p_admin_token: admin.token, p_id: id.toLowerCase(), p_image_id: imageId.toLowerCase()
+    });
+    row = Array.isArray(rows) ? rows[0] : null;
+  } else {
+    const rows = await rpc(env, "schedule_announcement_v2_public_image", {
+      p_id: id.toLowerCase(), p_image_id: imageId.toLowerCase()
+    });
+    row = Array.isArray(rows) ? rows[0] : null;
+  }
+  if (!row?.image_content || !/^image\/(?:jpeg|png|webp|gif)$/i.test(String(row.image_content_type || ""))) {
+    return json({ error: "Image not found" }, 404, request, env);
+  }
+  const bytes = base64ToBytes(row.image_content);
+  const headers = corsHeaders(request.headers.get("Origin") || "", env);
+  headers.set("Content-Type", row.image_content_type);
+  headers.set("Content-Length", String(bytes.byteLength));
+  headers.set("Cache-Control", "no-store");
+  headers.set("X-Content-Type-Options", "nosniff");
+  return new Response(bytes, { status: 200, headers });
+}
+
+async function addAnnouncementGalleryImage(request, env, id) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
+  let form;
+  try {
+    const bytes = await readLimitedBytes(request, 5_300_000);
+    form = await new Request("https://worker.invalid/form", {
+      method: "POST", headers: { "Content-Type": request.headers.get("Content-Type") || "" }, body: bytes
+    }).formData();
+  } catch (error) {
+    return json({ error: error?.message === "BODY_TOO_LARGE" ? "Image request is too large" : "Invalid image request" },
+      error?.message === "BODY_TOO_LARGE" ? 413 : 400, request, env);
+  }
+  const image = form.get("image");
+  const expectedVersion = Number(form.get("expectedVersion"));
+  if (!(image instanceof File) || !Number.isInteger(expectedVersion) || expectedVersion < 1
+    || image.size < 1 || image.size > 5 * 1024 * 1024) {
+    return json({ error: "Invalid image request" }, 400, request, env);
+  }
+  const bytes = new Uint8Array(await image.arrayBuffer());
+  const type = imageContentTypeFromBytes(bytes);
+  if (!type || type !== image.type.toLowerCase()) return json({ error: "Invalid image type" }, 400, request, env);
+  const row = await rpc(env, "schedule_announcement_v2_add_image", {
+    p_admin_token: admin.token, p_id: id.toLowerCase(), p_expected_version: expectedVersion,
+    p_image_content: bytesToBase64(bytes), p_image_content_type: type
+  });
+  return row ? json({ announcement: announcementResponse(row, { admin: true }) }, 201, request, env)
+    : json({ error: "Image limit reached or announcement changed elsewhere" }, 409, request, env);
+}
+
+async function removeAnnouncementGalleryImage(request, env, id, imageId) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
+  let payload;
+  try { payload = await readLimitedJson(request, 2048); } catch { return json({ error: "Invalid image removal" }, 400, request, env); }
+  if (!Number.isInteger(payload?.expectedVersion) || payload.expectedVersion < 1) {
+    return json({ error: "Invalid image removal" }, 400, request, env);
+  }
+  const row = await rpc(env, "schedule_announcement_v2_remove_image", {
+    p_admin_token: admin.token, p_id: id.toLowerCase(), p_image_id: imageId.toLowerCase(),
+    p_expected_version: payload.expectedVersion
+  });
+  return row ? json({ announcement: announcementResponse(row, { admin: true }) }, 200, request, env)
+    : json({ error: "Image changed elsewhere; reload and try again" }, 409, request, env);
 }
 
 function bytesToBase64(bytes) {
