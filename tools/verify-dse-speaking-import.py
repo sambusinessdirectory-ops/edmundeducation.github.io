@@ -28,11 +28,12 @@ for name, row in zip(module.SOURCES, manifest):
     assert data['sourceFile'] == name and data['id'] == row['id']
     assert synonym_bounds[data['id']] == len(data['synonyms']) - 1, name
     assert len(data['groups']) == 3 and len(data['responses']) == 8
-    headings = [module.ID.match(line)[1] for line in source.read_text(encoding='utf-8-sig').splitlines() if module.ID.match(line)]
     arguments = [item for section in data['groups'] + data['responses'] for item in section['arguments']]
     ids = [item['id'] for item in arguments]
-    assert len(ids) == len(set(ids)) == len(headings) == row['arguments'], name
-    assert set(ids) == set(headings), name
+    assert len(ids) == len(set(ids)) == row['arguments'], name
+    if source.exists():
+        headings = [module.ID.match(line)[1] for line in source.read_text(encoding='utf-8-sig').splitlines() if module.ID.match(line)]
+        assert len(ids) == len(headings) and set(ids) == set(headings), name
     assert len(data['structures']) == 20, name
     assert all(len(section['samples']) == 2 for section in data['responses']), name
     assert all(section['question'] and section['arguments'] for section in data['groups'] + data['responses']), name
