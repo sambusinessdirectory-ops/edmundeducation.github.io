@@ -159,6 +159,12 @@ async function route(request, env) {
   if (url.pathname === "/v1/preferences" && request.method === "PUT") {
     return putPreferences(request, env);
   }
+  if (url.pathname === "/v1/structure-progress" && request.method === "GET") {
+    return getStructureProgress(request, env);
+  }
+  if (url.pathname === "/v1/structure-progress" && request.method === "PUT") {
+    return putStructureProgress(request, env);
+  }
   if (url.pathname === "/v1/email-notifications" && ["GET", "PUT"].includes(request.method)) {
     return writingEmailNotifications(request, env);
   }
@@ -1029,6 +1035,41 @@ async function putPreferences(request, env) {
       updatedAt: row.updated_at ? String(row.updated_at) : null
     }
   }, 200, request, env);
+}
+
+async function getStructureProgress(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const rows = await rpc(env, "writing_submission_structure_progress_get", {
+    p_student_id: student.id
+  });
+  if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Structure progress returned an invalid response");
+  return json({ structures: rows.map(row => String(row.structure_id || "")) }, 200, request, env);
+}
+
+async function putStructureProgress(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-structure-progress:${student.id}`,
+    "Structure progress is temporarily unavailable",
+    "TOO_MANY_PROGRESS_WRITES",
+    "Too many progress updates; please wait and try again"
+  );
+  const payload = await readLimitedJson(request, 16000);
+  if (!hasExactKeys(payload, ["structures"]) || !Array.isArray(payload.structures)
+    || payload.structures.length > 789
+    || new Set(payload.structures).size !== payload.structures.length
+    || payload.structures.some(id => typeof id !== "string" || !/^S(?:00[1-9]|0[1-9][0-9]|[1-6][0-9]{2}|7[0-8][0-9])$/.test(id))) {
+    throw new HttpError(400, "INVALID_STRUCTURE_PROGRESS", "Structure progress payload is invalid");
+  }
+  const rows = await rpc(env, "writing_submission_structure_progress_replace", {
+    p_student_id: student.id,
+    p_structures: payload.structures
+  });
+  if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Structure progress returned an invalid response");
+  return json({ structures: rows.map(row => String(row.structure_id || "")) }, 200, request, env);
 }
 
 function isPlainObject(value) {

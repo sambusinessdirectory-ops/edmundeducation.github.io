@@ -56,8 +56,9 @@ function exampleHtml(formula, example) {
   return output + escapeHtml(text.slice(position));
 }
 
-export function mountSentenceSupport(root, writingFunctions, getOwner = () => '') {
+export function mountSentenceSupport(root, writingFunctions, options = {}) {
   if (!root) return { open() {}, close() {} };
+  const getOwner = options.getOwner || (() => '');
   const toggle = root.querySelector('[data-structure-toggle]');
   const panel = root.querySelector('[data-structure-panel]');
   const select = root.querySelector('[data-structure-function]');
@@ -75,7 +76,16 @@ export function mountSentenceSupport(root, writingFunctions, getOwner = () => ''
   let visibleCount = 30;
   let owner = '';
   let mastered = new Set();
+  let progressPending = false;
+  let saveTimer = null;
+  let saving = false;
   let geometry = null;
+
+  function writeLocalProgress() {
+    if (!owner) return;
+    try { localStorage.setItem(progressKey(owner), JSON.stringify({ ids: [...mastered], pending: progressPending })); }
+    catch { /* Keep the current selections in memory. */ }
+  }
 
   function readProgress() {
     const nextOwner = String(getOwner() || '');
@@ -83,13 +93,57 @@ export function mountSentenceSupport(root, writingFunctions, getOwner = () => ''
     owner = nextOwner;
     try {
       const saved = JSON.parse(localStorage.getItem(progressKey(owner)) || '[]');
-      mastered = new Set(Array.isArray(saved) ? saved.filter(id => /^S\d{3}$/.test(id)) : []);
-    } catch { mastered = new Set(); }
+      const ids = Array.isArray(saved) ? saved : saved?.ids;
+      mastered = new Set(Array.isArray(ids) ? ids.filter(id => /^S\d{3}$/.test(id)) : []);
+      progressPending = Array.isArray(saved) ? mastered.size > 0 : saved?.pending === true;
+    } catch { mastered = new Set(); progressPending = false; }
   }
 
   function saveProgress() {
-    if (!owner) return;
-    try { localStorage.setItem(progressKey(owner), JSON.stringify([...mastered])); } catch { /* Session still works without local storage. */ }
+    progressPending = true;
+    writeLocalProgress();
+    scheduleRemoteSave();
+  }
+
+  function scheduleRemoteSave(delay = 2500) {
+    if (!options.saveProgress || !owner) return;
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(async () => {
+      if (String(getOwner() || '') !== owner) return;
+      if (saving || !progressPending) return;
+      const requestedOwner = owner;
+      const requestedIds = [...mastered].sort();
+      saving = true;
+      try {
+        await options.saveProgress(requestedIds, requestedOwner);
+        if (owner === requestedOwner && JSON.stringify([...mastered].sort()) === JSON.stringify(requestedIds)) {
+          progressPending = false;
+          writeLocalProgress();
+          if (!panel.hidden) updateCount();
+        }
+      } catch (error) {
+        if (owner === requestedOwner && progressPending && error?.status !== 400) {
+          scheduleRemoteSave(Math.max(5000, error?.retryAfterMs || 30000));
+        }
+      }
+      finally {
+        saving = false;
+        if (owner === requestedOwner && progressPending && JSON.stringify([...mastered].sort()) !== JSON.stringify(requestedIds)) scheduleRemoteSave();
+      }
+    }, 600);
+  }
+
+  async function loadRemoteProgress() {
+    if (!options.loadProgress || !owner) return;
+    const requestedOwner = owner;
+    try {
+      const ids = await options.loadProgress(requestedOwner);
+      if (owner !== requestedOwner || !Array.isArray(ids)) return;
+      if (progressPending) { scheduleRemoteSave(); return; }
+      mastered = new Set(ids.filter(id => /^S\d{3}$/.test(id)));
+      writeLocalProgress();
+      if (!panel.hidden) render();
+    } catch { /* The local copy remains usable while offline. */ }
   }
 
   function fitGeometry(value) {
@@ -128,13 +182,17 @@ export function mountSentenceSupport(root, writingFunctions, getOwner = () => ''
     )).sort((left, right) => right.sourceRows - left.sourceRows || left.id.localeCompare(right.id));
   };
 
+  function updateCount(items = matches()) {
+    count.textContent = `${items.length} 個適用句型 · ${items.filter(item => mastered.has(item.id)).length} 個已能使用${progressPending ? ' · 待同步' : ''}`;
+  }
+
   function render() {
     const current = writingFunctions.find(item => item.id === active) || generalFunction;
     heading.textContent = `${current.title} · ${current.titleZh}`;
     select.value = current.id;
     if (!catalog) return;
     const items = matches();
-    count.textContent = `${items.length} 個適用句型 · ${items.filter(item => mastered.has(item.id)).length} 個已能使用`;
+    updateCount(items);
     results.innerHTML = items.length ? items.slice(0, visibleCount).map(item => {
       const example = item.example
         ? `<p lang="en">${exampleHtml(item.formula, item.example)}</p><small>${escapeHtml(item.source)}</small>${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">在 Writing Practice 查看來源 ↗</a>` : ''}`
@@ -173,7 +231,7 @@ export function mountSentenceSupport(root, writingFunctions, getOwner = () => ''
     results.innerHTML = '<p class="writing-structure-empty">正在載入句型…</p>';
     heading.textContent = (writingFunctions.find(item => item.id === active) || generalFunction).title;
     count.textContent = '';
-    try { await load(); render(); }
+    try { await load(); render(); void loadRemoteProgress(); }
     catch { results.innerHTML = '<p class="writing-structure-empty">暫時未能載入句型，請關閉後重試。</p>'; }
   }
 
@@ -202,8 +260,8 @@ export function mountSentenceSupport(root, writingFunctions, getOwner = () => ''
     if (input.checked) mastered.add(input.dataset.structureMastered);
     else mastered.delete(input.dataset.structureMastered);
     input.closest('.writing-structure-card').classList.toggle('is-mastered', input.checked);
-    count.textContent = `${matches().length} 個適用句型 · ${matches().filter(item => mastered.has(item.id)).length} 個已能使用`;
     saveProgress();
+    updateCount();
   });
 
   function beginPointerMove(event, corner = '') {

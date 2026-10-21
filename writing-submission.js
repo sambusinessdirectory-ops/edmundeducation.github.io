@@ -1,6 +1,6 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress1';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
-import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-2';
+import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-3';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
@@ -374,7 +374,17 @@ const elements = {
   toast: document.querySelector("[data-toast]")
 };
 
-const sentenceSupport = mountSentenceSupport(document.querySelector('[data-structure-support]'), WRITING_FUNCTIONS, () => state.user?.role === 'student' ? state.user.id : '');
+const sentenceSupport = mountSentenceSupport(document.querySelector('[data-structure-support]'), WRITING_FUNCTIONS, {
+  getOwner: () => state.user?.role === 'student' ? state.user.id : '',
+  loadProgress: async owner => {
+    if (state.user?.id !== owner) throw new Error('Student session changed');
+    return (await apiJson('/v1/structure-progress')).structures;
+  },
+  saveProgress: async (structures, owner) => {
+    if (state.user?.id !== owner) throw new Error('Student session changed');
+    return apiJson('/v1/structure-progress', { method: 'PUT', body: JSON.stringify({ structures }) });
+  }
+});
 
 const state = {
   supabase: null,
