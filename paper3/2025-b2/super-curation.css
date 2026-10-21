@@ -182,3 +182,11 @@
 .curation-active .page[data-kind="data"] .sentence-item:is([data-curation-type="5"],[data-curation-type="6"]):hover{background:transparent!important;box-shadow:none!important;outline:none!important}
 /* The active sentence outline must remain visible during hover and without spotlight. */
 .curation-active .sentence-item.curation-target,.curation-active .curation-transcript-sentence.curation-target{outline-width:3px!important;outline-style:solid!important}
+/* Keep every reading control grouped on the left, including Curation. */
+.toolbar{justify-content:flex-start}
+.toolbar .translation-control{margin-left:0}
+
+/* The pen sits on an inner inline layer so the current-sentence outline cannot erase it. */
+.curation-pen-line{background-image:linear-gradient(90deg,#c7222c,#c7222c);background-repeat:no-repeat;background-position:left 56%;background-size:0 3px;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background-size .85s cubic-bezier(.2,.8,.2,1)}
+.curation-active .curation-strike.is-revealed .curation-pen-line{background-size:100% 3px}
+@media(prefers-reduced-motion:reduce){.curation-pen-line{transition:none}}

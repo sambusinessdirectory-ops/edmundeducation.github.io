@@ -11,7 +11,7 @@
     {id:'boss', name:'1 · Boss letter', short:'任務指示', description:'先找寫作身分、文類、讀者、內容要求和指定來源。'},
     {id:'categorize', name:'2 · Data categorization', short:'資料分類', description:'先按題目與文件標題作暫定分類，再在閱讀後修正。'},
     {id:'podcast', name:'3 · Podcast', short:'聆聽錄音', description:'聽到經核對的關鍵段落開端時暫停，先記筆記，再看逐句稿。'},
-    {id:'data', name:'4 · Data File / Fact file', short:'逐句取證', description:'依 Task A → B → C 閱讀，不按頁碼機械地讀。'},
+    {id:'data', name:'4 · Data File / Fact file', short:'逐句取證', description:'按資料頁連續閱讀；讀到跨任務線索，就換相應顏色並追加標記。'},
     {id:'writing', name:'5 · Three writing tasks', short:'三篇寫作', description:'先組織自己的內容與草稿，再按任務要求校對。'}
   ];
   const labels = {1:'Task A · 可用內容',2:'Task B · 可用內容',3:'Task C · 可用內容',4:'語義相關 / 語氣',5:'提示 / 更新線索',6:'噪音 / 不採用'};
@@ -32,14 +32,15 @@
   };
   const pageSections = {4:'boss-letter',5:'duncan-henley-emails',6:'wellness-poster',7:'student-interview',8:'whatsapp-chat',9:'duncan-singh-emails',10:'influator-blog',11:'sports-article'};
   const categoryPages = [
-    {page:5,title:'Duncan ↔ Henley 電郵',initial:'Boss letter 指向這串電郵，先標 Task A；只把它當來源路線，未讀完前別抄活動名。',revision:'從最早一封往最新一封讀。Task A 的舊活動要受最新決定約束；新活動的線索則留給 Task B。',tasks:['A','B']},
-    {page:6,title:'2024 健康月海報',initial:'標 Task A 的候選資料。這是 2024 年海報，不能假定每項活動在 2025 年都再辦。',revision:'逐項和第 5 頁最新電郵及錄音核對。保留獲確認活動，刪除取消或改動的細節。',tasks:['A']},
-    {page:7,title:'校園電視訪問',initial:'Boss letter 要 student feedback；先標 Task A，留意訪談的說話者。',revision:'學生的評價支援 Task A；家長義工與親子互動的經驗可轉給 Task C。分類可在讀到後半段時追加。',tasks:['A','C']},
-    {page:8,title:'WhatsApp 對話',initial:'Boss letter 指向 WhatsApp 作 proposal 起點，先標 Task B。',revision:'圈出活動目的與運動篩選條件；校長仍待看 proposal，不能寫成已批准。',tasks:['B']},
-    {page:9,title:'Duncan ↔ Singh 電郵',initial:'Boss letter 指向 Singh 電郵處理家長義工，先標 Task C。',revision:'讀下去才會發現交通與海灘選擇也支援 Task B；將資料分別存入兩個任務。',tasks:['C','B']},
-    {page:10,title:'網誌、圖表與運動電郵',initial:'先看各文件標題：家長參與網誌指向 Task C，運動電郵指向 Task B。',revision:'網誌的社會／氣氛理由須轉述；運動電郵提供排除條件。圖表不要不加解釋地當成健康月校內數據。',tasks:['C','B']},
-    {page:11,title:'運動雜誌文章',initial:'按 WhatsApp 的選項條件，先標 Task B；不是所有介紹的運動都合適。',revision:'把每項運動與新鮮感、活動量、初學者難度、水上風險和交通條件逐一對照，排除不合者。',tasks:['B']}
+    {page:5,title:'活動篩選電郵',initial:'Boss letter 指向這串電郵，先標 Task A；只把它當來源路線，未讀完前別抄活動名。',revision:'從最早一封往最新一封讀。Task A 的舊活動要受最新決定約束；新活動的線索則留給 Task B。',tasks:['A','B']},
+    {page:6,title:'2024 健康月原海報',initial:'標 Task A 的候選資料。這是 2024 年海報，不能假定每項活動在 2025 年都再辦。',revision:'逐項和第 5 頁最新電郵及錄音核對。保留獲確認活動，刪除取消或改動的細節。',tasks:['A']},
+    {page:7,title:'校園電視完整訪問',initial:'Boss letter 要 student feedback；先標 Task A，留意訪談的說話者。',revision:'學生的評價支援 Task A；家長義工與親子互動的經驗可轉給 Task C。分類可在讀到後半段時追加。',tasks:['A','C']},
+    {page:8,title:'WhatsApp 完整對話',initial:'Boss letter 指向 WhatsApp 作 proposal 起點，先標 Task B。',revision:'圈出活動目的與運動篩選條件；校長仍待看 proposal，不能寫成已批准。',tasks:['B']},
+    {page:9,title:'家長職責與交通安排',initial:'Boss letter 指向 Singh 電郵處理家長義工，先標 Task C。',revision:'讀下去才會發現交通與海灘選擇也支援 Task B；將資料分別存入兩個任務。',tasks:['C','B']},
+    {page:10,title:'網誌、原圖表與運動電郵',initial:'先看各文件標題：家長參與網誌指向 Task C，運動電郵指向 Task B。',revision:'網誌的社會／氣氛理由須轉述；運動電郵提供排除條件。圖表不要不加解釋地當成健康月校內數據。',tasks:['C','B']},
+    {page:11,title:'運動雜誌完整文章',initial:'按 WhatsApp 的選項條件，先標 Task B；不是所有介紹的運動都合適。',revision:'把每項運動與新鮮感、活動量、初學者難度、水上風險和交通條件逐一對照，排除不合者。',tasks:['B']}
   ];
+  const categoryInitialTasks=entry=>entry.page===10?['B','C']:[entry.tasks[0]];
   // Word onsets were aligned against the supplied 8:37.5 meeting recording and checked against the reader transcript.
   const podcastCues = [
     {id:'july',at:169.2,page:14,quote:'Wellness Month starts in July',title:'先抓年份與月份',task:'A',help:'健康月在七月，亞運週在十月。不要把兩件活動的日期合併。'},
@@ -123,22 +124,38 @@
   categoryPages.forEach((entry,index)=>steps.categorize.push({id:`category-${entry.page}`,chapter:'categorize',title:entry.title,page:entry.page,quote:entry.title,target:$(`#page-${entry.page} .page-heading h2`),entry,order:index}));
   podcastCues.forEach((cue,index)=>{const target=transcriptSentences.find(item=>item.page===cue.page&&normalize(item.span.textContent).includes(normalize(cue.quote)))?.span;steps.podcast.push({id:`cue-${cue.id}`,chapter:'podcast',title:cue.title,page:cue.page,quote:target?.textContent.trim()||cue.quote,target:target||$(`#page-${cue.page} .page-heading h2`),cue:{...cue,from:Math.max(0,cue.at-18)},bankTask:cue.task,order:index});});
   for(const task of ['A','B','C']) writingPrompts[task].forEach(([title,lead,hint],index)=>steps.writing.push({id:`writing-${task}-${index}`,chapter:'writing',title:`Task ${task} · ${title}`,quote:title,lead,hint,task,order:index,target:$('#practice')}));
+  // Preserve the old order only to migrate existing save-slot positions.
   const pageRank={A:[5,6,7,8,9,10,11],B:[8,9,10,11,5,6,7],C:[9,10,7,5,6,8,11]};
-  steps.data.sort((a,b)=>{
+  const legacyTaskOrder=(a,b)=>{
     if(a.task!==b.task)return 'ABC'.indexOf(a.task)-'ABC'.indexOf(b.task);
-    const pages=pageRank[a.task];const pd=pages.indexOf(a.page)-pages.indexOf(b.page);if(pd)return pd;
+    const pd=pageRank[a.task].indexOf(a.page)-pageRank[b.task].indexOf(b.page);if(pd)return pd;
     if([5,9].includes(a.page)){
       const emails=$$(`#page-${a.page} .email`);
       const ai=emails.indexOf(a.target.closest('.email')),bi=emails.indexOf(b.target.closest('.email'));
-      if(ai>=0&&bi>=0&&ai!==bi)return bi-ai; // read an email chain from the oldest message upwards
+      if(ai>=0&&bi>=0&&ai!==bi)return bi-ai;
+    }
+    return a.order-b.order;
+  };
+  const candidateIds=new Set(['duncan-henley-emails-9','duncan-henley-emails-11','duncan-henley-emails-12','duncan-henley-emails-19']);
+  const legacyDataSteps=steps.data.slice().sort(legacyTaskOrder);
+  const legacyConfirmed=legacyDataSteps.filter(step=>step.task==='A'&&step.page===5&&candidateIds.has(step.record?.id)).map(step=>({...step,id:`${step.id}-confirmed`}));
+  const legacyLastA=legacyDataSteps.findLastIndex(step=>step.task==='A'&&step.page===5);
+  if(legacyLastA>=0)legacyDataSteps.splice(legacyLastA+1,0,...legacyConfirmed);
+  const legacyDataIds=legacyDataSteps.map(step=>step.id);
+  // Keep reading the current page when its evidence changes task; only email threads run oldest to newest.
+  steps.data.sort((a,b)=>{
+    if(a.page!==b.page)return a.page-b.page;
+    if([5,9].includes(a.page)){
+      const emails=$$(`#page-${a.page} .email`);
+      const ai=emails.indexOf(a.target.closest('.email')),bi=emails.indexOf(b.target.closest('.email'));
+      if(ai>=0&&bi>=0&&ai!==bi)return bi-ai;
     }
     return a.order-b.order;
   });
-  // Revisit earlier suggestions only after the newest reply has confirmed the three returning events.
-  const candidateIds=new Set(['duncan-henley-emails-9','duncan-henley-emails-11','duncan-henley-emails-12','duncan-henley-emails-19']);
-  const confirmed=steps.data.filter(step=>step.task==='A'&&step.page===5&&candidateIds.has(step.record?.id)).map(step=>({...step,id:`${step.id}-confirmed`,title:'回看舊電郵 · 核對後才取證',provisional:false,confirmed:true}));
-  const lastAEmail=steps.data.findLastIndex(step=>step.task==='A'&&step.page===5);
-  if(lastAEmail>=0)steps.data.splice(lastAEmail+1,0,...confirmed);
+  // Revisit earlier proposals at the end of page 5 after the newest email confirms the choices.
+  const confirmed=steps.data.filter(step=>step.page===5&&candidateIds.has(step.record?.id)).map(step=>({...step,id:`${step.id}-confirmed`,title:'回看舊電郵 · 核對後才取證',provisional:false,confirmed:true}));
+  const lastPageFive=steps.data.findLastIndex(step=>step.page===5);
+  if(lastPageFive>=0)steps.data.splice(lastPageFive+1,0,...confirmed);
   // After the guided answer pauses, every transcript sentence has its own optional review step.
   transcriptSentences.forEach(({span,page,speaker},index)=>{
     const quote=span.textContent.trim();
@@ -147,7 +164,7 @@
     if((page===16||page===17)&&/attend a briefing session|through the school app/i.test(quote))bankTask='C';
     steps.podcast.push({id:`transcript-${page}-${index}`,chapter:'podcast',title:`逐句錄音稿 · ${speaker}`,page,quote,target:span,transcript:true,bankTask,order:index,speaker});
   });
-  for(const ch of chapters)steps[ch.id].forEach((step,index)=>{step.index=index;step.total=steps[ch.id].length;});
+  const legacyBossIds=steps.boss.map(step=>step.id);
   const bossAnnotations=[
     {find:'draft an article',marks:[['an article','A'],['the Wellness Month','A']]},
     {find:'The article should give',marks:[['basic information about the three events from 2024','A','1'],['decided to include again','A']]},
@@ -185,9 +202,10 @@
     return false;
   }
   function syncDataMarks(){
-    const seen=new Set(steps.data.filter(step=>state.visited.includes(step.id)).map(step=>step.target));
+    const seen=new Set(steps.data.slice(0,progressCutoff('data')+1).map(step=>step.target));
     $$('.curation-source-mark').forEach(mark=>mark.classList.toggle('is-revealed',seen.has(mark.closest('.sentence-item'))));
     $$('.curation-source-fallback').forEach(sentence=>sentence.classList.toggle('is-revealed',seen.has(sentence)));
+    $$('.curation-strike').forEach(sentence=>sentence.classList.toggle('is-revealed',seen.has(sentence)));
   }
   function protectBossTail(root){
     const match=root.textContent.match(/(?:[A-Za-z][\w’'-]*\s+){2}[A-Za-z][\w’'-]*[.!?]?$/);
@@ -219,8 +237,26 @@
     protectBossTail(step.target);
     const paragraph=step.target.closest('p[lang="en"]');if(paragraph&&step.task)paragraph.dataset.curationTask=step.task;
   }
+  // A green source cue is followed immediately by a visit to that source, then the next boss sentence.
+  const bossRoutes=[
+    {find:'refer to the emails between',page:5,task:'A',name:'Duncan ↔ Henley 電郵',note:'Boss letter 指向這串電郵。立即在第 5 頁標 Task A；稍後逐封核對才取內容點。'},
+    {find:'brand-new event',page:8,task:'B',name:'WhatsApp 對話',note:'新活動仍待 Dr Chan 批准。先把相關對話暫標 Task B，不可當成已獲批准。'},
+    {find:'included screenshots of a WhatsApp',page:8,task:'B',name:'WhatsApp 對話',note:'這句直接指定 WhatsApp 作 proposal 起點；在第 8 頁標 Task B。'},
+    {find:'discussing this over email with Mr Singh',page:9,task:'C',name:'Duncan ↔ Singh 電郵',note:'Boss letter 指向 Singh 電郵。先在第 9 頁標 Task C，後續讀到交通線索再追加 Task B。'},
+    {find:'sent you this exchange',page:9,task:'C',name:'Duncan ↔ Singh 電郵',note:'這封往來電郵是家長信的來源線索。確認第 9 頁已有 Task C 標記。'},
+    {find:'recording of our meeting',page:3,task:null,name:'會議錄音',note:'這句指定會議錄音。立即找到第 3 頁的播放器；錄音會在 Podcast 章節逐段處理。'}
+  ];
+  for(let i=steps.boss.length-1;i>=0;i--){
+    const cue=steps.boss[i],route=bossRoutes.find(item=>cue.quote.includes(item.find));if(!route)continue;
+    const target=route.page===3?$('#page-3 .notes-audio')||$('#page-3 .page-heading h2'):$(`#page-${route.page} .page-heading h2`);
+    steps.boss.splice(i+1,0,{id:`source-route-${cue.id}`,chapter:'boss',sourceJump:true,sourceFrom:cue.id,title:`即時標記來源 · ${route.name}`,page:route.page,tagTask:route.task,quote:route.note,target});
+  }
+  for(const ch of chapters)steps[ch.id].forEach((step,index)=>{step.index=index;step.total=steps[ch.id].length;});
   // Preserve the PDF's exact phrase colors, then fill Type 1–4 gaps from the author's bullet points.
-  for(const step of steps.data)step.target.dataset.curationType=String(step.type);
+  for(const step of steps.data){
+    step.target.dataset.curationType=String(step.type);
+    if(step.type===5&&step.record?.blocks?.some(block=>block.startsWith('類型：')&&/淘汰線索|不應直接採用/.test(block))&&!step.target.classList.contains('curation-strike')){const ink=el('span','curation-pen-line');while(step.target.firstChild)ink.append(step.target.firstChild);step.target.append(ink);step.target.classList.add('curation-strike');}
+  }
   const markedTargets=new WeakSet();
   function wrapSourcePhrase(root,id,phrase,color){
     const canonical=value=>value.replace(/[’‘]/g,"'");
@@ -247,17 +283,26 @@
       }
     }
   }
+  function progressCutoff(chapter){
+    const active=chapters.findIndex(item=>item.id===state.chapter),target=chapters.findIndex(item=>item.id===chapter);
+    return active<target?-1:active>target?steps[chapter].length-1:state.positions[chapter];
+  }
   function syncBossMarks(){
-    const visited=new Set(state.visited);
-    $$('#page-4 .curation-mark').forEach(mark=>mark.classList.toggle('is-revealed',visited.has(mark.dataset.stepId)));
+    const visible=new Set(steps.boss.slice(0,progressCutoff('boss')+1).map(step=>step.id));
+    $$('#page-4 .curation-mark').forEach(mark=>mark.classList.toggle('is-revealed',visible.has(mark.dataset.stepId)));
     $$('#page-4 [data-curation-task]').forEach(paragraph=>paragraph.classList.toggle('curation-task-revealed',!!$('.curation-mark.is-revealed',paragraph)));
   }
   const allIds=new Set(chapters.flatMap(ch=>steps[ch.id].map(step=>step.id)));
-  const blank=()=>({chapter:'boss',visited:[],positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},spotlight:true,dialogue:false,updated:Date.now()});
+  const blank=()=>({sequenceVersion:2,chapter:'boss',visited:[],positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},spotlight:true,dialogue:false,updated:Date.now()});
   const sanitize=raw=>{
     const state=blank();if(!raw||typeof raw!=='object')return state;
     if(chapters.some(ch=>ch.id===raw.chapter))state.chapter=raw.chapter;
-    for(const ch of chapters)state.positions[ch.id]=Math.min(Math.max(Number(raw.positions?.[ch.id])||0,0),Math.max(0,steps[ch.id].length-1));
+    for(const ch of chapters){
+      const previous=Math.max(Number(raw.positions?.[ch.id])||0,0);
+      const oldIds=ch.id==='boss'?legacyBossIds:ch.id==='data'?legacyDataIds:null;
+      const migrated=raw.sequenceVersion===2||!oldIds?previous:steps[ch.id].findIndex(step=>step.id===oldIds[Math.min(previous,oldIds.length-1)]);
+      state.positions[ch.id]=Math.min(Math.max(migrated,0),Math.max(0,steps[ch.id].length-1));
+    }
     state.completed=[...new Set((Array.isArray(raw.completed)?raw.completed:[]).filter(id=>allIds.has(id)))];
     state.visited=[...new Set((Array.isArray(raw.visited)?raw.visited:state.completed).filter(id=>allIds.has(id)))];
     state.bookmarks=[...new Set((Array.isArray(raw.bookmarks)?raw.bookmarks:[]).filter(id=>allIds.has(id)))];
@@ -286,11 +331,14 @@
   let open=false;let helpOpen=false;let animation=null;let cueArmed=false;
   const audio=$('#page-3 .notes-audio audio');
   const current=()=>steps[state.chapter][state.positions[state.chapter]];
-  const pageLabel=step=>step.page?`Data File ${step.page<=11?`第 ${step.page} 頁`:`附加錄音稿 ${step.page-11}`} · ${step.chapter==='data'&&step.type>=4?`類型 ${step.type} · ${step.type===4?'語氣':step.type===5?'提示':'噪音'}`:step.task?`Task ${step.task}`:step.chapter==='podcast'?'Podcast':''}`:'寫作練習';
+  const pageLabel=step=>step.sourceJump?(step.page===3?'錄音來源 · 第 3 頁':`Data File 第 ${step.page} 頁 · 暫標 Task ${step.tagTask}`):step.page?`Data File ${step.page<=11?`第 ${step.page} 頁`:`附加錄音稿 ${step.page-11}`} · ${step.chapter==='data'&&step.type>=4?`類型 ${step.type} · ${step.type===4?'語氣':step.type===5?'提示':'噪音'}`:step.task?`Task ${step.task}`:step.chapter==='podcast'?'Podcast':''}`:'寫作練習';
   function explanation(step){
     const box=$('#curation-explanation');box.replaceChildren();$('#curation-step-actions').replaceChildren();
     const add=(text,cls='')=>{const sentences=cls==='curation-translation'?[String(text)]:String(text).split(/(?<=。)(?![」』\]])/u).filter(Boolean);for(const sentence of sentences){const p=el('p',cls,sentence);box.append(p);}};
-    if(step.chapter==='boss'){
+    if(step.sourceJump){
+      add(step.quote,'curation-process');
+      add(step.page===3?'先找到會議錄音；下一步返回 Boss letter，稍後在 Podcast 章節仔細聆聽。':`看清第 ${step.page} 頁的標題，在左上角加 Task ${step.tagTask}。這是來源分類，尚未抄入任何內容點。下一步返回 Boss letter。`);
+    }else if(step.chapter==='boss'){
       add('讀 boss letter 時，先辨認文類、讀者、指定內容與來源提示，再分類 Data File。這句是你目前真正可知道的資料。','curation-process');
       if(step.task)add(`Task ${step.task} 需記錄 ${({A:2,B:4,C:3})[step.task]} 類內容要求；原文上的圈號逐項對應。`,'curation-requirement-summary');
       if(step.record)for(const block of step.record.blocks){if(block==='分析：'||block.startsWith('[')||(step.task&&block.startsWith('類型：')))continue;add(block,block.startsWith('類型：')?`curation-type curation-type-${step.type}`:'');}
@@ -323,7 +371,7 @@
     const extra=$('#curation-step-actions');extra.replaceChildren();
     if(step.chapter==='categorize'){
       const b=el('button','curation-small','顯示讀後修正');b.type='button';b.addEventListener('click',()=>{helpOpen=!helpOpen;explanation(step);});extra.append(b);
-      const choices=el('fieldset','curation-category-choices');choices.append(el('legend','',`你會先標哪個任務？`));for(const t of 'ABC'){const label=el('label');const input=el('input');input.type='checkbox';input.value=t;input.checked=(state.categories?.[step.id]||[]).includes(t);input.addEventListener('change',()=>{state.categories||={};state.categories[step.id]=$$('input:checked',choices).map(x=>x.value);syncFileStamps(input.checked?{page:step.page,task:t}:null);persist();});label.append(input,document.createTextNode(` Task ${t}`));choices.append(label);}extra.append(choices);const line=el('p','',`讀後分類：${step.entry.tasks.map(t=>`Task ${t}`).join(' + ')}`);if(helpOpen)extra.append(line);
+      const choices=el('fieldset','curation-category-choices');choices.append(el('legend','',`你會先標哪個任務？`));for(const t of 'ABC'){const label=el('label');const input=el('input');input.type='checkbox';input.value=t;input.checked=(Object.hasOwn(state.categories,step.id)?state.categories[step.id]:categoryInitialTasks(step.entry)).includes(t);input.addEventListener('change',()=>{state.categories||={};state.categories[step.id]=$$('input:checked',choices).map(x=>x.value);syncFileStamps(input.checked?{page:step.page,task:t}:null);persist();});label.append(input,document.createTextNode(` Task ${t}`));choices.append(label);}extra.append(choices);const line=el('p','',`讀後分類：${step.entry.tasks.map(t=>`Task ${t}`).join(' + ')}`);if(helpOpen)extra.append(line);
     }
     if(step.cue && audio){const b=el('button','curation-small',`▶ 播放至 ${Math.floor(step.cue.at/60)}:${String(Math.floor(step.cue.at%60)).padStart(2,'0')} 關鍵段落`);b.type='button';b.addEventListener('click',()=>{const play=()=>{audio.currentTime=step.cue.from;cueArmed=true;audio.play().catch(()=>{$('#curation-save-status').textContent='未能播放錄音；請按原播放器重試。';});};if(audio.readyState>=1)play();else{audio.addEventListener('loadedmetadata',play,{once:true});audio.load();}});extra.append(b);}
     if(step.chapter==='writing'){
@@ -331,35 +379,31 @@
     }
   }
   function renderBank(){for(const t of 'ABC'){const group=$(`.curation-bank-${t}`);const list=$('ol',group);list.replaceChildren();for(const id of state.evidence[t]){const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(!s)continue;const li=el('li');const b=el('button','',s.quote);b.type='button';b.addEventListener('click',()=>{state.chapter='data';state.positions.data=s.index;render();});li.append(b,el('small','',s.chapter==='podcast'?`錄音稿 ${s.page-11}`:`Data File ${s.page}`));if(s.record?.id==='duncan-henley-emails-12')li.append(el('small','curation-bank-note','營養師講座已取消；只保留嘉年華其他已確認內容。'));if(s.record?.id==='duncan-singh-emails-5')li.append(el('small','curation-bank-note','這句用來釐清分工：準備學生的是老師。'));list.append(li);} $('[data-count]',group).textContent=`${state.evidence[t].length} 句`;}}
-  function bossSourceFile(step){
-    if(step.chapter!=='boss')return null;
-    if(step.quote.includes('refer to the emails between Ms Henley'))return {page:5,task:'A'};
-    if(step.quote.includes('included screenshots of a WhatsApp'))return {page:8,task:'B'};
-    if(step.quote.includes('discussing this over email with Mr Singh')||step.quote.includes('sent you this exchange'))return {page:9,task:'C'};
+  function bossSourceFile(step){return step.sourceJump&&step.tagTask?{page:step.page,task:step.tagTask}:null;}
+  function discoveredPageTask(step){
+    if(step.chapter!=='data')return null;
+    if(step.page===7&&step.record?.id==='student-interview-5')return {page:7,task:'C'};
+    if(step.type>=1&&step.type<=3)return {page:step.page,task:'ABC'[step.type-1]};
     return null;
   }
   function stampFromStep(step){
-    if(step.chapter==='data'&&step.type>=1&&step.type<=3)return {page:step.page,task:'ABC'[step.type-1]};
-    return bossSourceFile(step);
+    if(step.chapter==='categorize')return {page:step.page,tasks:categoryInitialTasks(step.entry)};
+    return bossSourceFile(step)||discoveredPageTask(step);
   }
   function syncFileStamps(animate=null){
-    const seen=new Set(state.visited);
-    const inferred=new Map(categoryPages.map(entry=>[entry.page,[]]));
-    for(const step of steps.boss){
-      if(!seen.has(step.id))continue;
-      const link=bossSourceFile(step);if(link)inferred.get(link.page)?.push(link.task);
-    }
-    for(const step of steps.data){
-      if(seen.has(step.id)&&step.type>=1&&step.type<=3)inferred.get(step.page)?.push('ABC'[step.type-1]);
-    }
+    const bossLimit=progressCutoff('boss'),categoryLimit=progressCutoff('categorize'),dataLimit=progressCutoff('data');
     for(const entry of categoryPages){
       const header=$(`#page-${entry.page} .page-heading`);if(!header)continue;
       let holder=$('.curation-file-stamps',header);
       if(!holder){holder=el('div','curation-file-stamps');holder.setAttribute('aria-label','這頁的暫定任務標記');header.prepend(holder);}
-      const selected=[...new Set([...(state.categories[`category-${entry.page}`]||[]),...inferred.get(entry.page)].filter(t=>'ABC'.includes(t)))].sort();
+      let selected=steps.boss.slice(0,bossLimit+1).map(bossSourceFile).filter(link=>link?.page===entry.page).map(link=>link.task);
+      const categoryStep=steps.categorize.find(step=>step.page===entry.page);
+      if(categoryStep?.index<=categoryLimit)selected=Object.hasOwn(state.categories,categoryStep.id)?state.categories[categoryStep.id].slice():categoryInitialTasks(entry);
+      selected.push(...steps.data.slice(0,dataLimit+1).map(discoveredPageTask).filter(link=>link?.page===entry.page).map(link=>link.task));
+      selected=[...new Set(selected.filter(task=>'ABC'.includes(task)))].sort();
       if($$('[data-task]',holder).map(x=>x.dataset.task).join('')!==selected.join('')){
         holder.replaceChildren();
-        for(const task of selected){const badge=el('span',`curation-file-stamp curation-file-stamp-${task}`,task);badge.dataset.task=task;badge.setAttribute('role','img');badge.setAttribute('aria-label',`暫定標記：Task ${task}`);if(animate?.page===entry.page&&animate.task===task)badge.classList.add('curation-file-stamp-enter');holder.append(badge);}
+        for(const task of selected){const badge=el('span',`curation-file-stamp curation-file-stamp-${task}`,task);badge.dataset.task=task;badge.setAttribute('role','img');badge.setAttribute('aria-label',`暫定標記：Task ${task}`);if(animate?.page===entry.page&&(animate.task===task||animate.tasks?.includes(task)))badge.classList.add('curation-file-stamp-enter');holder.append(badge);}
       }
       header.classList.toggle('curation-has-file-stamps',selected.length>0);
     }
@@ -371,7 +415,7 @@
   }
   function setMaskRect(mask,top,left,width,height){Object.assign(mask.style,{top:`${Math.max(0,top)}px`,left:`${Math.max(0,left)}px`,width:`${Math.max(0,width)}px`,height:`${Math.max(0,height)}px`});}
   function spotlight(){const step=current();const target=step?.target;if(!open||!state.spotlight||!shouldHighlight(step)||!target?.isConnected){masks.forEach(m=>m.hidden=true);return;}const r=target.getBoundingClientRect();if(!r.width||!r.height){masks.forEach(m=>m.hidden=true);return;}const pad=9,w=innerWidth,h=innerHeight,l=Math.max(0,r.left-pad),t=Math.max(0,r.top-pad),right=Math.min(w,r.right+pad),bottom=Math.min(h,r.bottom+pad);masks.forEach(m=>m.hidden=false);setMaskRect(masks[0],0,0,w,t);setMaskRect(masks[1],t,0,l,bottom-t);setMaskRect(masks[2],t,right,w-right,bottom-t);setMaskRect(masks[3],bottom,0,w,h-bottom);}
-  function focusSource(step){if(!step?.target)return;const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
+  function focusSource(step){if(!step?.target)return;const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=step.sourceJump||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(step.sourceJump){const r=step.target.getBoundingClientRect();window.scrollTo({top:Math.max(0,window.scrollY+r.top-(innerWidth<=620?160:180)),behavior:'instant'});}else if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
   let lastRenderedStepId='';
   function render(focus=true){if(!open)return;const step=current();if(!step)return;const stepChanged=lastRenderedStepId!==step.id;helpOpen=false;
     if((state.chapter==='boss'||state.chapter==='data')&&!state.visited.includes(step.id))state.visited.push(step.id);
@@ -387,7 +431,7 @@
     const taskJump=$('#curation-task-jump');taskJump.replaceChildren();taskJump.hidden=!['data','writing'].includes(state.chapter);if(!taskJump.hidden)for(const t of 'ABC'){const first=steps[state.chapter].find(x=>x.task===t);if(!first)continue;const b=el('button','',`Task ${t}`);b.type='button';b.dataset.step=String(first.index);b.addEventListener('click',()=>go(first.index));taskJump.append(b);}
     $('#curation-step-count').textContent=`${state.positions[state.chapter]+1} / ${steps[state.chapter].length} · ${state.completed.filter(id=>steps[state.chapter].some(s=>s.id===id)).length} 已完成`;
     $('#curation-source').textContent=pageLabel(step);$('#curation-title').textContent=step.title;$('#curation-quote').textContent=step.quote;
-    $('#curation-quote').hidden=step.chapter==='categorize';
+    $('#curation-quote').hidden=step.chapter==='categorize'||step.sourceJump;
     $('#curation-bookmark').textContent=state.bookmarks.includes(step.id)?'★':'☆';$('#curation-bookmark').setAttribute('aria-pressed',String(state.bookmarks.includes(step.id)));
     $('#curation-prev').disabled=step.index===0;$('#curation-next').textContent=step.index===steps[state.chapter].length-1?(stageIndex===chapters.length-1?'返回第一章 ↺':'完成本章 ✓'):'下一步 →';
     $('#curation-spotlight').checked=state.spotlight;$('#curation-dialogue').checked=state.dialogue;dock.classList.toggle('dialogue',state.dialogue);$('.curation-character').hidden=!state.dialogue;
