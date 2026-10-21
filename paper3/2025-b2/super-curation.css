@@ -114,3 +114,5 @@
 .curation-active #page-4 .bilingual p[lang="en"]{text-wrap:pretty;word-break:normal;orphans:3;widows:3}
 
 .curation-active #page-4 .curation-no-orphan{white-space:nowrap}
+
+.curation-active #page-4 .curation-short-phrase{white-space:nowrap}

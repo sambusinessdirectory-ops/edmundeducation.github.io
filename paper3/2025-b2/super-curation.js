@@ -169,7 +169,7 @@
     const first=nodes.find(n=>n.end>at),last=nodes.find(n=>n.end>=at+phrase.length);
     if(!first||!last)return;
     const range=document.createRange();range.setStart(first.node,at-first.start);range.setEnd(last.node,at+phrase.length-last.start);
-    const mark=el('mark',`curation-mark curation-mark-${kind}`);mark.dataset.stepId=stepId;if(point)mark.dataset.point=point;
+    const mark=el('mark',`curation-mark curation-mark-${kind}`);if(phrase.length<=25)mark.classList.add('curation-short-phrase');mark.dataset.stepId=stepId;if(point)mark.dataset.point=point;
     mark.append(range.extractContents());range.insertNode(mark);
   }
   function protectBossTail(root){
