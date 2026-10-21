@@ -510,7 +510,7 @@ window.EDMUND_B2_SENTENCE_ANALYSIS = {
         "[這活動上次很受歡迎，而且對學生有用。]",
         "類型：5 提示",
         "分析：",
-        "這句是在解釋為何保留 Wellness Fair。 但它是老師判斷，不是 student feedback。 主要 所以可作保留理由，不宜當 Task 1 的 feedback。"
+        "這句是在解釋為何保留 Wellness Fair。 但它是老師判斷，不是 student feedback。 所以可作保留理由，不宜當 Task 1 的主要 feedback。"
       ]
     },
     {
