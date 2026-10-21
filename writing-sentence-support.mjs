@@ -17,6 +17,18 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character =>
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 }[character]));
 const generalFunction = { id: 'across-sections', title: 'Across sections', titleZh: '跨段落通用句型' };
+export const FUNCTION_TAGS = Object.freeze([
+  ['F-EG', 'Example or evidence', '舉例或證據'],
+  ['F-CA', 'Cause and effect', '因果關係'],
+  ['F-CT', 'Contrast or concession', '對比或讓步'],
+  ['F-CD', 'Condition or hypothetical', '條件或假設'],
+  ['F-CM', 'Comparison', '比較'],
+  ['F-QL', 'Qualification or cautious claim', '限定或審慎表述'],
+  ['F-DF', 'Definition or reframing', '界定或重新理解'],
+  ['F-SQ', 'Addition or sequence', '補充或順序'],
+  ['F-PR', 'Purpose or means', '目的或方法'],
+  ['F-AC', 'Recommendation or action', '建議或行動']
+].map(([id, title, titleZh]) => Object.freeze({ id, title, titleZh, group: 'Function tagging', groupZh: '跨段落功能標籤' })));
 const panelLayoutKey = 'edmund-writing-structure-panel-layout-v1';
 const progressKey = owner => `edmund-writing-structure-progress-v1:${owner}`;
 const clamp = (value, minimum, maximum) => Math.min(Math.max(value, minimum), maximum);
@@ -75,7 +87,12 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   if (!root) return { open() {}, close() {} };
   const getOwner = options.getOwner || (() => '');
   const toggle = root.querySelector('[data-structure-toggle]');
+  const tagToggle = root.querySelector('[data-function-tag-toggle]');
   const panel = root.querySelector('[data-structure-panel]');
+  const panelEyebrow = panel.querySelector('[data-structure-panel-eyebrow]');
+  const panelTitle = panel.querySelector('[data-structure-panel-title]');
+  const modeNote = panel.querySelector('[data-structure-mode-note]');
+  const functionLabel = panel.querySelector('[data-structure-function-label]');
   const functionPicker = root.querySelector('.writing-structure-select');
   const functionTrigger = root.querySelector('[data-structure-function-trigger]');
   const functionValue = root.querySelector('[data-structure-function-value]');
@@ -91,6 +108,8 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   let catalog = null;
   let loading = null;
   let active = writingFunctions[0]?.id || '';
+  let lastPlacement = active;
+  let lastTag = FUNCTION_TAGS[0].id;
   let visibleCount = 30;
   let owner = '';
   let mastered = new Set();
@@ -186,7 +205,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
 
   let group = '';
   let groupNode = null;
-  for (const item of [...writingFunctions, generalFunction]) {
+  for (const item of [...writingFunctions, generalFunction, ...FUNCTION_TAGS]) {
     const groupLabel = item.group ? `${item.group} · ${item.groupZh}` : '跨段落';
     if (groupLabel !== group) {
       group = groupLabel;
@@ -207,7 +226,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
     option.setAttribute('aria-selected', 'false');
     option.dataset.structureFunctionOption = item.id;
     option.tabIndex = -1;
-    option.innerHTML = `<strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.titleZh)}</small>`;
+    option.innerHTML = `<strong>${escapeHtml(item.id.startsWith('F-') ? `${item.id} · ${item.title}` : item.title)}</strong><small>${escapeHtml(item.titleZh)}</small>`;
     groupNode.append(option);
   }
   const functionOptions = [...functionMenu.querySelectorAll('[data-structure-function-option]')];
@@ -232,6 +251,8 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
 
   function chooseFunction(id) {
     active = id;
+    if (id.startsWith('F-')) lastTag = id;
+    else lastPlacement = id;
     visibleCount = 30;
     search.value = '';
     closeFunctionMenu(true);
@@ -239,7 +260,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   }
 
   const matches = () => {
-    const tag = placementByFunction[active];
+    const tag = active.startsWith('F-') ? active : placementByFunction[active];
     const query = search.value.trim().toLocaleLowerCase();
     return (catalog || []).filter(item => (active === generalFunction.id
       ? item.tags.some(value => value.startsWith('F-')) : item.tags.includes(tag)) && (
@@ -252,9 +273,17 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   }
 
   function render() {
-    const current = writingFunctions.find(item => item.id === active) || generalFunction;
-    heading.textContent = `${current.title} · ${current.titleZh}`;
-    functionValue.textContent = `${current.title} · ${current.titleZh}`;
+    const isTag = active.startsWith('F-');
+    const current = [...writingFunctions, generalFunction, ...FUNCTION_TAGS].find(item => item.id === active) || generalFunction;
+    const label = `${isTag ? `${current.id} · ` : ''}${current.title} · ${current.titleZh}`;
+    heading.textContent = label;
+    functionValue.textContent = label;
+    panelEyebrow.textContent = isTag ? 'FUNCTION TAGGING' : 'SENTENCE STRUCTURES';
+    panelTitle.textContent = isTag ? '寫作功能標籤' : '句子結構支援';
+    functionLabel.textContent = isTag ? '跨段落功能' : '句子功能';
+    modeNote.hidden = !isTag;
+    toggle.setAttribute('aria-expanded', String(!panel.hidden && !isTag));
+    tagToggle.setAttribute('aria-expanded', String(!panel.hidden && isTag));
     functionOptions.forEach(option => {
       const selected = option.dataset.structureFunctionOption === current.id;
       option.setAttribute('aria-selected', String(selected));
@@ -264,10 +293,11 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
     const items = matches();
     updateCount(items);
     results.innerHTML = items.length ? items.slice(0, visibleCount).map(item => {
+      const tags = isTag ? `<div class="writing-structure-tag-list">${item.tags.filter(tag => tag.startsWith('F-')).map(tag => `<span>${escapeHtml(tag)}</span>`).join('')}</div>` : '';
       const example = item.example
         ? `<p lang="en">${exampleHtml(item.formula, item.example)}</p><small>${escapeHtml(item.source)}</small>${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">在 Writing Practice 查看來源 ↗</a>` : ''}`
         : '<p>目前的 Writing Practice 題庫未收錄這條來源原句。</p>';
-      return `<article class="writing-structure-card${mastered.has(item.id) ? ' is-mastered' : ''}"><div class="writing-structure-card-top"><button type="button" class="writing-structure-formula" data-structure-preview aria-expanded="false"><span>${escapeHtml(item.id)} · ${item.sourceRows} 筆來源</span><strong>${formulaHtml(item.formula)}</strong></button><label class="writing-structure-mastered"><input type="checkbox" data-structure-mastered="${escapeHtml(item.id)}" ${mastered.has(item.id) ? 'checked' : ''}><span>已能使用</span></label></div><p class="writing-structure-meaning">${escapeHtml(item.meaning)}</p><p class="writing-structure-usage">${escapeHtml(item.usage)}</p><div class="writing-structure-example"><strong>Writing Practice 原文例句</strong>${example}</div></article>`;
+      return `<article class="writing-structure-card${mastered.has(item.id) ? ' is-mastered' : ''}"><div class="writing-structure-card-top"><button type="button" class="writing-structure-formula" data-structure-preview aria-expanded="false"><span>${escapeHtml(item.id)} · ${item.sourceRows} 筆來源</span><strong>${formulaHtml(item.formula)}</strong></button><label class="writing-structure-mastered"><input type="checkbox" data-structure-mastered="${escapeHtml(item.id)}" ${mastered.has(item.id) ? 'checked' : ''}><span>已能使用</span></label></div><p class="writing-structure-meaning">${escapeHtml(item.meaning)}</p><p class="writing-structure-usage">${escapeHtml(item.usage)}</p>${tags}<div class="writing-structure-example"><strong>Writing Practice 原文例句</strong>${example}</div></article>`;
     }).join('') : '<p class="writing-structure-empty">這個句子功能暫無已標註的句型。可在上方選擇另一個功能。</p>';
     more.hidden = items.length <= visibleCount;
   }
@@ -290,7 +320,9 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   }
 
   async function open(id = active) {
-    if (placementByFunction[id] || id === generalFunction.id) active = id;
+    if (placementByFunction[id] || id === generalFunction.id || FUNCTION_TAGS.some(tag => tag.id === id)) active = id;
+    if (active.startsWith('F-')) lastTag = active;
+    else lastPlacement = active;
     closeFunctionMenu();
     readProgress();
     setGeometry(geometry);
@@ -298,9 +330,8 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
     search.value = '';
     panel.hidden = false;
     root.dataset.open = 'true';
-    toggle.setAttribute('aria-expanded', 'true');
     results.innerHTML = '<p class="writing-structure-empty">正在載入句型…</p>';
-    heading.textContent = (writingFunctions.find(item => item.id === active) || generalFunction).title;
+    render();
     count.textContent = '';
     try { await load(); render(); void loadRemoteProgress(); }
     catch { results.innerHTML = '<p class="writing-structure-empty">暫時未能載入句型，請關閉後重試。</p>'; }
@@ -311,9 +342,11 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
     panel.hidden = true;
     root.dataset.open = 'false';
     toggle.setAttribute('aria-expanded', 'false');
+    tagToggle.setAttribute('aria-expanded', 'false');
   }
 
-  toggle.addEventListener('click', () => panel.hidden ? void open() : close());
+  toggle.addEventListener('click', () => panel.hidden || active.startsWith('F-') ? void open(lastPlacement) : close());
+  tagToggle.addEventListener('click', () => panel.hidden || !active.startsWith('F-') ? void open(lastTag) : close());
   closeButton.addEventListener('click', close);
   functionTrigger.addEventListener('click', () => functionMenu.hidden ? openFunctionMenu() : closeFunctionMenu(true));
   functionTrigger.addEventListener('keydown', event => {

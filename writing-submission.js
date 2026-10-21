@@ -1,6 +1,6 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress3';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
-import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-4';
+import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-function-tags1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';

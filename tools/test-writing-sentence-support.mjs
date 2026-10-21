@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import test from 'node:test';
-import { exampleHtml } from '../writing-sentence-support.mjs';
+import { exampleHtml, FUNCTION_TAGS } from '../writing-sentence-support.mjs';
 
 test('example sentences distinguish fixed wording from bracketed substitutions', () => {
   const first = exampleHtml(
@@ -20,4 +21,13 @@ test('example sentences distinguish fixed wording from bracketed substitutions',
 
 test('unmatched wording remains escaped without guessed substitutions', () => {
   assert.equal(exampleHtml('Unrelated [內容]', '<script>alert(1)</script>'), '&lt;script&gt;alert(1)&lt;/script&gt;');
+});
+
+test('all ten PDF function codes filter real catalogued structures', () => {
+  const rows = JSON.parse(fs.readFileSync(new URL('../writing-sentence-support-data.json', import.meta.url), 'utf8'));
+  assert.deepEqual(FUNCTION_TAGS.map(tag => tag.id), ['F-EG', 'F-CA', 'F-CT', 'F-CD', 'F-CM', 'F-QL', 'F-DF', 'F-SQ', 'F-PR', 'F-AC']);
+  for (const tag of FUNCTION_TAGS) {
+    assert.ok(tag.title && tag.titleZh, `${tag.id} needs bilingual labels`);
+    assert.ok(rows.some(row => row.tags.includes(tag.id)), `${tag.id} needs matching structures`);
+  }
 });

@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-structure-polish1">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-function-tags1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -61,13 +61,7 @@
         <article class="login-hero glass-panel">
           <div class="night-orbit night-orbit-one" aria-hidden="true"></div>
           <div class="night-orbit night-orbit-two" aria-hidden="true"></div>
-          <div class="hero-parchment" aria-hidden="true">
-            <span class="hero-quill"></span>
-            <span class="hero-seal">E</span>
-            <span class="hero-ink-line hero-ink-line-one"></span>
-            <span class="hero-ink-line hero-ink-line-two"></span>
-            <span class="hero-ink-line hero-ink-line-three"></span>
-          </div>
+          <img class="hero-parchment-art" src="assets/writing/parchment-quill-realistic.png" width="1536" height="1024" alt="" aria-hidden="true" fetchpriority="high" decoding="async">
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>Edmund Sir<br><span>Writing</span><br>交文系統</h1>
@@ -161,17 +155,21 @@
         </aside>
 
         <div class="writing-layout">
-          <aside class="writing-structure-support" data-structure-support aria-label="句子結構支援">
+          <aside class="writing-structure-support" data-structure-support aria-label="句子結構與寫作功能標籤支援">
             <button class="writing-structure-launcher" type="button" data-structure-toggle aria-expanded="false" aria-controls="writing-structure-panel">
               <small>SENTENCE STRUCTURES</small><strong>句子結構支援</strong><span>按句子功能查看適用句型</span>
             </button>
+            <button class="writing-function-tag-launcher" type="button" data-function-tag-toggle aria-expanded="false" aria-controls="writing-structure-panel">
+              <small>FUNCTION TAGGING</small><strong>寫作功能標籤</strong><span>按跨段落論證作用尋找句型</span>
+            </button>
             <div class="writing-structure-panel" id="writing-structure-panel" data-structure-panel hidden>
-              <div class="writing-structure-head" data-structure-drag><div><small>SENTENCE STRUCTURES</small><h3>句子結構支援</h3></div><button type="button" data-structure-close aria-label="關閉句子結構支援">×</button></div>
+              <div class="writing-structure-head" data-structure-drag><div><small data-structure-panel-eyebrow>SENTENCE STRUCTURES</small><h3 data-structure-panel-title>句子結構支援</h3></div><button type="button" data-structure-close aria-label="關閉句型支援面板">×</button></div>
               <p class="writing-structure-heading" data-structure-heading></p>
+              <p class="writing-structure-mode-note" data-structure-mode-note hidden>功能標籤顯示句型可用的論證作用；請按題目與語境選用。</p>
               <div class="writing-structure-select">
-                <span id="writing-structure-function-label">句子功能</span>
+                <span id="writing-structure-function-label" data-structure-function-label>句子功能</span>
                 <button class="writing-structure-select-trigger" type="button" data-structure-function-trigger aria-haspopup="listbox" aria-expanded="false" aria-controls="writing-structure-function-menu" aria-labelledby="writing-structure-function-label writing-structure-function-value"><span id="writing-structure-function-value" data-structure-function-value></span></button>
-                <div class="writing-structure-select-menu" id="writing-structure-function-menu" data-structure-function-menu role="listbox" aria-label="選擇句子功能" hidden></div>
+                <div class="writing-structure-select-menu" id="writing-structure-function-menu" data-structure-function-menu role="listbox" aria-label="選擇句子或跨段落功能" hidden></div>
               </div>
               <label class="writing-structure-search">搜尋句型 <input type="search" data-structure-search placeholder="英文句型或中文用途"></label>
               <p class="writing-structure-count" data-structure-count aria-live="polite"></p>
@@ -734,6 +732,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-structure-polish2"></script>
+  <script type="module" src="writing-submission.js?v=20261021-function-tags1"></script>
 </body>
 </html>
