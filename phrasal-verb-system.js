@@ -2942,7 +2942,7 @@ function suggestedAnswerHtml(question, studentAnswer = null) {
 }
 
 function usesPhrasalChoices(lesson = getLesson()) {
-  return lesson?.order === 1 || lesson?.order === 10;
+  return Number(lesson?.order) >= 1 && Number(lesson?.order) <= 10;
 }
 
 function phrasalChoiceScore(value) {
@@ -2957,7 +2957,7 @@ function phrasalChoiceScore(value) {
 function phrasalChoices(lesson, question, attemptId = state.exercise?.id || "") {
   const correct = String(question.targetForm || "").trim();
   const forms = [...new Set((lesson.questions || []).map((item) => String(item.targetForm || "").trim()).filter(Boolean))];
-  if (!correct || forms.length < 6) return [];
+  if (!correct) return [];
   const meaningsByForm = new Map();
   for (const item of lesson.questions || []) {
     const form = String(item.targetForm || "").trim();
@@ -2970,9 +2970,19 @@ function phrasalChoices(lesson, question, attemptId = state.exercise?.id || "") 
   const correctMeanings = meaningsByForm.get(correct) || new Set();
   const seed = `${attemptId}:${question.id}`;
   const score = (form) => phrasalChoiceScore(`${seed}:${form}`);
-  const distractors = forms.filter((form) => form !== correct && ![...(meaningsByForm.get(form) || [])].some((meaning) => correctMeanings.has(meaning)))
-    .sort((left, right) => score(left) - score(right) || left.localeCompare(right))
-    .slice(0, 5);
+  const sameModule = forms.filter((form) => form !== correct && ![...(meaningsByForm.get(form) || [])].some((meaning) => correctMeanings.has(meaning)))
+    .sort((left, right) => score(left) - score(right) || left.localeCompare(right));
+  const distractors = sameModule.slice(0, 5);
+  if (distractors.length < 5) {
+    const otherPilotForms = [...new Set(CONTENT.lessons
+      .filter((item) => item.id !== lesson.id && usesPhrasalChoices(item))
+      .flatMap((item) => (item.questions || []).map((part) => String(part.targetForm || "").trim()))
+      .filter(Boolean))];
+    distractors.push(...otherPilotForms
+      .filter((form) => form !== correct && !distractors.includes(form))
+      .sort((left, right) => score(left) - score(right) || left.localeCompare(right))
+      .slice(0, 5 - distractors.length));
+  }
   return [correct, ...distractors]
     .sort((left, right) => score(`position:${left}`) - score(`position:${right}`) || left.localeCompare(right));
 }

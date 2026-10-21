@@ -15,6 +15,7 @@ function sourceBetween(start, end) {
 
 function choiceContext(lesson) {
   const context = {
+    CONTENT: { lessons },
     state: { exercise: { id: "pilot-attempt-1", lessonId: lesson.id, correctIds: [], drafts: {}, questionState: {}, rounds: [], collapsedCorrectIds: [], correctionIds: [], round: 1, controlRevision: 0 }, lessonPage: 8 },
     getLesson: () => lesson,
     EXERCISE_PAGE: 8,
@@ -30,7 +31,7 @@ function choiceContext(lesson) {
   return context;
 }
 
-for (const lessonNumber of [1, 10]) {
+for (const lessonNumber of Array.from({ length: 10 }, (_, index) => index + 1)) {
   test(`module ${lessonNumber} offers six stable unique choices and only reveals after the correct click`, () => {
     const lesson = lessons[lessonNumber - 1];
     const context = choiceContext(lesson);
@@ -61,6 +62,6 @@ for (const lessonNumber of [1, 10]) {
 }
 
 test("modules outside the pilot retain sentence-input mode", () => {
-  const context = choiceContext(lessons[1]);
-  assert.equal(context.usesPhrasalChoices(lessons[1]), false);
+  const context = choiceContext(lessons[10]);
+  assert.equal(context.usesPhrasalChoices(lessons[10]), false);
 });
