@@ -3489,17 +3489,17 @@ function resetAnnouncementForm() {
 }
 
 function beginAnnouncementEdit(id) {
-  if (state.announcementMutationInFlight) return;
+  if (state.announcementMutationInFlight) return false;
   const announcement = state.announcements.find((candidate) => candidate.id === id);
   if (!announcement) {
     setStatus(elements.announcementStatus, "公告已更新，請重新載入後再試。", "error");
-    return;
+    return false;
   }
   if (
     state.editingAnnouncementId
     && announcementEditHasUnsavedChanges()
     && !window.confirm("目前的公告修改尚未儲存。確定要捨棄修改並重新載入所選公告嗎？")
-  ) return;
+  ) return false;
   elements.announcementForm.reset();
   releaseAnnouncementPreviews();
   announcementSavedRange = null;
@@ -3515,6 +3515,7 @@ function beginAnnouncementEdit(id) {
   setStatus(elements.announcementStatus, "正在修改公告；可新增或逐張移除圖片。");
   elements.announcementForm.scrollIntoView({ behavior: "smooth", block: "center" });
   window.setTimeout(() => { if (!elements.announcementPreviewDialog.open) elements.announcementMessage.focus(); }, 250);
+  return true;
 }
 
 function renderAnnouncements() {
@@ -8353,8 +8354,7 @@ elements.announcementList?.addEventListener("click", (event) => {
   const toggle = event.target.closest("[data-announcement-toggle]");
   if (toggle) {
     if (toggle.dataset.announcementNextActive === "true") {
-      beginAnnouncementEdit(toggle.dataset.announcementToggle);
-      previewAnnouncement();
+      if (beginAnnouncementEdit(toggle.dataset.announcementToggle)) previewAnnouncement();
       return;
     }
     toggleAnnouncement(
