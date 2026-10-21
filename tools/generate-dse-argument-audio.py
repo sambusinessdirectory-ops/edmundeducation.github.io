@@ -100,6 +100,8 @@ def main() -> None:
     parser.add_argument("--output-root", type=Path, default=Path("/private/tmp/dse-argument-kokoro"))
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--limit", type=int)
+    parser.add_argument("--voice", choices=("af_heart", "bm_fable", "bf_isabella"),
+                        help="Generate only one voice while retaining the complete manifest")
     parser.add_argument("--manifest-only", action="store_true")
     args = parser.parse_args()
     for path, expected in ((MODEL, EXPECTED_MODEL), (VOICES, EXPECTED_VOICES)):
@@ -113,6 +115,8 @@ def main() -> None:
     if args.manifest_only:
         return
     todo = [(key, path, str(args.output_root)) for key, path in sorted(mapping.items())]
+    if args.voice:
+        todo = [row for row in todo if row[0].startswith(f"{args.voice}\x00")]
     if args.limit:
         todo = todo[:args.limit]
     done = 0
