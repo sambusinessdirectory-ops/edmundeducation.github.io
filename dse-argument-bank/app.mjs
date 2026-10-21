@@ -267,7 +267,8 @@ function audioControls(text, type, label = text, recordType = type) {
 function englishDemo(markdown, type = 'group', id = '') {
   if (!markdown) return '';
   const marked = String(markdown).split(/(\*\*.*?\*\*)/g).map(part => part.startsWith('**') && part.endsWith('**') ? `<strong>${esc(part.slice(2, -2))}</strong>` : esc(part)).join('');
-  return `<div class="english-demo"><span>ENGLISH DEMONSTRATION · 英語示範</span>${audioControls(markdown, type, `English demonstration · ${id}`, 'demonstration')}<p lang="en">${marked}</p></div>`;
+  const preview = String(markdown).replace(/\*\*/g, '').trim().slice(0, 100);
+  return `<div class="english-demo"><span>ENGLISH DEMONSTRATION · 英語示範</span>${audioControls(markdown, type, `English demonstration · ${id}: ${preview}`, 'demonstration')}<p lang="en">${marked}</p></div>`;
 }
 function glossaryRow(term, id) {
   const selected = state.selectedGlossary.has(id);
