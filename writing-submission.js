@@ -1,11 +1,13 @@
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress3';
+import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
+import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-function-tags1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
-import { SPEAKING_TOPIC_CATEGORIES, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack } from './writing-speaking-topics.mjs?v=20261021-1';
+import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
-import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing2';
+import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20261021-function-helper4';
 import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
@@ -99,6 +101,28 @@ const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
 const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const TOPIC_CATALOG_VERSION = "20261015-writing-images1";
+const TOPIC_PICKER_TRACKS = Object.freeze({
+  dse: Object.freeze([
+    { id: 'dse-writing-a', label: 'Writing Part A', category: 'dse-writing-a' },
+    { id: 'dse-writing-b', label: 'Writing Part B', category: 'dse-writing-b' },
+    { id: 'dse-speaking', label: 'Speaking' },
+    { id: 'dse-integrated', label: 'Integrated Skills' }
+  ]),
+  ielts: Object.freeze([
+    { id: 'ielts-writing', label: 'Writing' },
+    { id: 'ielts-speaking', label: 'Speaking' }
+  ]),
+  'non-exam': Object.freeze([
+    { id: 'manual', label: '我建立的題目', category: 'manual' },
+    { id: 'nonexam-other', label: '其他練習', category: 'nonexam-other' }
+  ])
+});
+const TOPIC_PICKER_LEAVES = Object.freeze({
+  'dse-speaking': Object.freeze([{ id: 'dse-group', label: '小組討論' }, { id: 'dse-individual', label: '個人回應' }]),
+  'dse-integrated': Object.freeze([{ id: 'dse-integrated-b1', label: 'Part B · B1' }, { id: 'dse-integrated-b2', label: 'Part B · B2' }]),
+  'ielts-writing': Object.freeze([{ id: 'ielts-task-1', label: 'Task 1' }, { id: 'ielts-task-2', label: 'Task 2' }]),
+  'ielts-speaking': Object.freeze([{ id: 'ielts-1', label: 'Part 1' }, { id: 'ielts-2', label: 'Part 2' }, { id: 'ielts-3', label: 'Part 3' }])
+});
 const TOPIC_REFERENCE_VERSION = "20260911-dse-part-b";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
@@ -214,7 +238,6 @@ const elements = {
   password: document.querySelector("#writing-submission-password"),
   passwordToggle: document.querySelector("[data-password-toggle]"),
   workspaceWelcome: document.querySelector("[data-workspace-welcome]"),
-  harperStatus: document.querySelector("[data-harper-status]"),
   writingForm: document.querySelector("[data-writing-form]"),
   topicInput: document.querySelector("[data-topic-input]"),
   floatingTopic: document.querySelector("[data-floating-writing-topic]"),
@@ -222,10 +245,13 @@ const elements = {
   floatingTopicPreview: document.querySelector("[data-floating-writing-topic-preview]"),
   floatingTopicContent: document.querySelector("[data-floating-writing-topic-content]"),
   floatingTopicText: document.querySelector("[data-floating-writing-topic-text]"),
+  floatingSpeakingDetails: document.querySelector("[data-floating-speaking-details]"),
   floatingTopicImages: document.querySelector("[data-floating-writing-topic-images]"),
   writingImageDock: document.querySelector("[data-writing-image-dock]"),
   writingImagePhoto: document.querySelector("[data-writing-image-photo]"),
   writingImageCount: document.querySelector("[data-writing-image-count]"),
+  writingImageTopic: document.querySelector("[data-writing-image-topic]"),
+  writingImageTopicText: document.querySelector("[data-writing-image-topic-text]"),
   writingImageRestore: document.querySelector("[data-writing-image-restore]"),
   randomTopicOpen: document.querySelector("[data-random-topic-open]"),
   randomTopicDialog: document.querySelector("[data-random-topic-dialog]"),
@@ -241,11 +267,23 @@ const elements = {
   topicPickerResults: document.querySelector("[data-topic-picker-results]"),
   topicPickerCount: document.querySelector("[data-topic-picker-count]"),
   topicPickerMore: document.querySelector("[data-topic-picker-more]"),
-  topicPickerCategories: [...document.querySelectorAll("[data-topic-picker-category]")],
+  topicPickerPrevious: document.querySelector("[data-topic-picker-previous]"),
+  topicPickerExams: [...document.querySelectorAll("[data-topic-picker-exam]")],
+  topicPickerTracks: document.querySelector("[data-topic-picker-tracks]"),
+  topicPickerTrackOptions: document.querySelector("[data-topic-picker-track-options]"),
+  topicPickerLeaves: document.querySelector("[data-topic-picker-leaves]"),
+  topicPickerLeafOptions: document.querySelector("[data-topic-picker-leaf-options]"),
   removeWritingTopic: document.querySelector("[data-remove-writing-topic]"),
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
   topicReferenceArea: document.querySelector("[data-topic-reference-area]"),
   writingInput: document.querySelector("[data-writing-input]"),
+  draftHelperToggle: document.querySelector("[data-draft-helper-toggle]"),
+  draftHelper: document.querySelector("[data-draft-helper]"),
+  brainstormInput: document.querySelector("[data-brainstorm-input]"),
+  functionHelperToggle: document.querySelector("[data-function-helper-toggle]"),
+  functionHelper: document.querySelector("[data-function-helper]"),
+  functionFields: document.querySelector("[data-function-fields]"),
+  phoebeWritingToggle: document.querySelector("[data-phoebe-writing-toggle]"),
   proofreadingLabel: document.querySelector("[data-proofreading-label]"),
   writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
   writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
@@ -364,6 +402,18 @@ const elements = {
   toast: document.querySelector("[data-toast]")
 };
 
+const sentenceSupport = mountSentenceSupport(document.querySelector('[data-structure-support]'), WRITING_FUNCTIONS, {
+  getOwner: () => state.user?.role === 'student' ? state.user.id : '',
+  loadProgress: async owner => {
+    if (state.user?.id !== owner) throw new Error('Student session changed');
+    return (await apiJson('/v1/structure-progress')).structures;
+  },
+  saveProgress: async (structures, owner) => {
+    if (state.user?.id !== owner) throw new Error('Student session changed');
+    return apiJson('/v1/structure-progress', { method: 'PUT', body: JSON.stringify({ structures }) });
+  }
+});
+
 const state = {
   supabase: null,
   user: null,
@@ -394,6 +444,8 @@ const state = {
   dismissedIssueIds: new Set(),
   documentId: "",
   previousWriting: "",
+  draftHelperOpen: false,
+  functionHelper: normalizeFunctionHelper(null),
   pendingOccurrences: new Map(),
   reportedFingerprints: new Set(),
   occurrenceFlushTimer: null,
@@ -433,11 +485,18 @@ const state = {
   topicCatalog: [],
   topicCatalogPromise: null,
   topicPickerTarget: "student",
-  topicPickerCategory: "all",
-  topicPickerVisibleCount: 40,
-  speakingTopicCatalog: [],
+  topicPickerExam: "",
+  topicPickerTrack: "",
+  topicPickerCategory: "",
+  topicPickerPage: 0,
+  topicPickerLoadGeneration: 0,
+  topicPickerSearchTimer: 0,
+  speakingTopicCatalogByCategory: Object.create(null),
   speakingTopicContexts: {},
-  speakingTopicCatalogPromise: null,
+  speakingTopicContextSearch: Object.create(null),
+  speakingTopicCatalogPromises: new Map(),
+  speakingTopicCounts: Object.create(null),
+  speakingTopicManifestPromise: null,
   homeworkResourceCatalog: null,
   homeworkResourceCatalogPromise: null,
   randomTopicGeneration: 0,
@@ -619,8 +678,14 @@ function updateWritingImageDockPhoto(images = floatingWritingTopicImages()) {
   if (elements.writingImagePhoto.getAttribute("src") !== image.src) elements.writingImagePhoto.src = image.src;
   elements.writingImagePhoto.alt = image.alt || `題目圖片 ${index + 1}`;
   elements.writingImageCount.textContent = `${index + 1} / ${images.length}`;
-  elements.writingImageDock.querySelector("[data-writing-image-previous]").disabled = index === 0;
-  elements.writingImageDock.querySelector("[data-writing-image-next]").disabled = index === images.length - 1;
+  const previous = elements.writingImageDock.querySelector("[data-writing-image-previous]");
+  const next = elements.writingImageDock.querySelector("[data-writing-image-next]");
+  const singleImage = images.length === 1;
+  previous.hidden = singleImage;
+  next.hidden = singleImage;
+  previous.disabled = index === 0;
+  next.disabled = index === images.length - 1;
+  elements.writingImageDock.querySelector(".writing-image-dock__navigation").classList.toggle("is-single", singleImage);
 }
 
 function syncFloatingWritingImageDock() {
@@ -659,8 +724,27 @@ function syncFloatingWritingTopicContent() {
   const signature = JSON.stringify([topic, ...images.map(image => [image.src, image.alt])]);
   if (state.floatingTopicSignature === signature) return;
   state.floatingTopicSignature = signature;
-  elements.floatingTopicPreview.textContent = topic.replace(/\s+/gu, " ");
-  elements.floatingTopicText.textContent = topic;
+  const speaking = parseSpeakingTopicPrompt(topic);
+  elements.floatingTopic.classList.toggle('is-speaking-topic', Boolean(speaking));
+  elements.floatingTopicPreview.textContent = (speaking?.question || topic).replace(/\s+/gu, " ");
+  elements.floatingTopicText.textContent = speaking?.question || topic;
+  if (elements.writingImageTopic && elements.writingImageTopicText) {
+    elements.writingImageTopicText.textContent = speaking?.question || topic;
+    elements.writingImageTopic.hidden = !images.length || !topic;
+  }
+  if (elements.floatingSpeakingDetails) {
+    elements.floatingSpeakingDetails.replaceChildren();
+    if (speaking?.hints) {
+      const details = createElement('details', 'selected-speaking-topic-details');
+      details.append(createElement('summary', '', '查看 IELTS 提示要點'), createElement('p', '', speaking.hints));
+      elements.floatingSpeakingDetails.append(details);
+    }
+    if (speaking?.source) {
+      const details = createElement('details', 'selected-speaking-topic-details');
+      details.append(createElement('summary', '', '查看 DSE 來源材料'), createElement('p', '', speaking.source));
+      elements.floatingSpeakingDetails.append(details);
+    }
+  }
   elements.floatingTopicImages.replaceChildren();
   for (const image of images) {
     const viewport = createElement("div", "floating-writing-topic-image-viewport");
@@ -704,8 +788,9 @@ function syncFloatingWritingTopicVisibility() {
     && topicBottom <= headerBottom + 8
     && formBottom > headerBottom + 62
   );
-  elements.floatingTopic.hidden = !visible;
-  if (!visible) setFloatingWritingTopicExpanded(false);
+  const topicIsInImageDock = floatingWritingTopicImages().length > 0 && !elements.writingImageDock.hidden;
+  elements.floatingTopic.hidden = !visible || topicIsInImageDock;
+  if (elements.floatingTopic.hidden) setFloatingWritingTopicExpanded(false);
 }
 
 function scheduleFloatingWritingTopicSync() {
@@ -722,10 +807,12 @@ function installWritingImageDockControls() {
   dock.querySelector("[data-writing-image-minimise]").addEventListener("click", () => {
     state.writingImageDockDismissed = true;
     syncFloatingWritingImageDock();
+    scheduleFloatingWritingTopicSync();
   });
   elements.writingImageRestore.addEventListener("click", () => {
     state.writingImageDockDismissed = false;
     syncFloatingWritingImageDock();
+    scheduleFloatingWritingTopicSync();
   });
   for (const [selector, offset] of [["[data-writing-image-previous]", -1], ["[data-writing-image-next]", 1]]) {
     dock.querySelector(selector).addEventListener("click", () => {
@@ -1994,6 +2081,7 @@ function formatCompactDuration(secondsValue) {
 }
 
 function showView(name) {
+  if (name !== 'workspace') sentenceSupport.close();
   if(name === "workspace") void referencePocket.refresh();
   else referencePocket.reset();
   if (name === "login" || state.user?.role === "admin") emailPreferences.reset();
@@ -3009,31 +3097,53 @@ async function loadWritingTopicCatalog() {
   return state.topicCatalogPromise;
 }
 
-async function loadWritingSpeakingTopics() {
-  if (state.speakingTopicCatalog.length) return state.speakingTopicCatalog;
-  if (!state.speakingTopicCatalogPromise) {
-    state.speakingTopicCatalogPromise = fetch('writing-speaking-topics.json?v=20261021-1')
+async function loadWritingSpeakingManifest() {
+  if (Object.keys(state.speakingTopicCounts).length) return state.speakingTopicCounts;
+  if (!state.speakingTopicManifestPromise) {
+    state.speakingTopicManifestPromise = fetch('writing-speaking-topics-manifest.json?v=20261021-2')
+      .then(async response => {
+        if (!response.ok) throw new Error(`Speaking categories: HTTP ${response.status}`);
+        const manifest = await response.json();
+        if (manifest?.schemaVersion !== 1 || !manifest.counts) throw new Error('Invalid speaking categories');
+        state.speakingTopicCounts = manifest.counts;
+        return state.speakingTopicCounts;
+      })
+      .finally(() => { state.speakingTopicManifestPromise = null; });
+  }
+  return state.speakingTopicManifestPromise;
+}
+
+async function loadWritingSpeakingTopics(category) {
+  if (!SPEAKING_TOPIC_CATEGORIES.some(item => item.id === category)) return;
+  if (state.speakingTopicCatalogByCategory[category]) return state.speakingTopicCatalogByCategory[category];
+  if (!state.speakingTopicCatalogPromises.has(category)) {
+    const promise = fetch(`writing-speaking-topics-${category}.json?v=20261021-2`)
       .then(async response => {
         if (!response.ok) throw new Error(`Speaking questions: HTTP ${response.status}`);
         const catalog = await response.json();
-        if (catalog?.schemaVersion !== 1 || !Array.isArray(catalog.questions) || !catalog.contexts) {
-          throw new Error('Invalid speaking question catalog');
+        if (catalog?.schemaVersion !== 1 || catalog.category !== category
+          || !Array.isArray(catalog.questions) || !catalog.contexts) {
+          throw new Error('Invalid speaking question category');
         }
-        const categories = new Set(SPEAKING_TOPIC_CATEGORIES.map(item => item.id));
-        const ids = new Set();
-        state.speakingTopicContexts = catalog.contexts;
-        state.speakingTopicCatalog = catalog.questions.map(item => {
-          if (!categories.has(item.category) || !item.question || ids.has(item.id)) {
-            throw new Error(`Invalid speaking question: ${item.id}`);
+        for (const [id, context] of Object.entries(catalog.contexts)) {
+          state.speakingTopicContexts[id] = context;
+          if (!state.speakingTopicContextSearch[id]) {
+            state.speakingTopicContextSearch[id] = speakingTopicSearchText(context);
           }
-          ids.add(item.id);
-          return { ...item, searchText: speakingTopicSearchHaystack(item, catalog.contexts) };
-        });
-        return state.speakingTopicCatalog;
+        }
+        for (const item of catalog.questions) {
+          if (item.category !== category || !item.id || !item.question) throw new Error('Invalid speaking question');
+          // Keep the long DSE source searchable once per set, rather than
+          // copying it into all eleven questions in the set.
+          item.searchText = speakingTopicSearchHaystack(item);
+        }
+        state.speakingTopicCatalogByCategory[category] = catalog.questions;
+        return catalog.questions;
       })
-      .finally(() => { state.speakingTopicCatalogPromise = null; });
+      .finally(() => { state.speakingTopicCatalogPromises.delete(category); });
+    state.speakingTopicCatalogPromises.set(category, promise);
   }
-  return state.speakingTopicCatalogPromise;
+  return state.speakingTopicCatalogPromises.get(category);
 }
 
 function renderSelectedTopicPreview() {
@@ -3046,11 +3156,11 @@ function renderSelectedTopicPreview() {
   loadModelEssayReference().catch((error) => {
     console.warn("Model essay reference load failed", error);
   });
-  if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !resource;
+  if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !resource && !parseSpeakingTopicPrompt(elements.topicInput.value);
   if (!elements.selectedTopicPreview) return;
+  if (resource?.questionImages.length) elements.topicInput.closest('.prompt-panel')?.classList.remove('has-speaking-topic');
   if (!resource?.questionImages.length) {
-    elements.selectedTopicPreview.hidden = true;
-    elements.selectedTopicPreview.replaceChildren();
+    renderSelectedSpeakingTopicPreview();
     renderSelectedTopicReferences();
     return;
   }
@@ -3091,6 +3201,34 @@ function renderSelectedTopicPreview() {
   renderSelectedTopicReferences();
 }
 
+function renderSelectedSpeakingTopicPreview() {
+  if (!elements.selectedTopicPreview) return;
+  const speaking = parseSpeakingTopicPrompt(elements.topicInput.value);
+  elements.topicInput.closest('.prompt-panel')?.classList.toggle('has-speaking-topic', Boolean(speaking));
+  if (!speaking) {
+    elements.selectedTopicPreview.hidden = true;
+    elements.selectedTopicPreview.replaceChildren();
+    return;
+  }
+  const panel = createElement('section', 'selected-speaking-topic');
+  panel.append(
+    createElement('small', 'selected-speaking-topic-meta', speaking.label),
+    createElement('h3', 'selected-speaking-topic-question', speaking.question)
+  );
+  if (speaking.hints) {
+    const details = createElement('details', 'selected-speaking-topic-details');
+    details.append(createElement('summary', '', '查看 IELTS 提示要點'), createElement('p', '', speaking.hints));
+    panel.append(details);
+  }
+  if (speaking.source) {
+    const details = createElement('details', 'selected-speaking-topic-details');
+    details.append(createElement('summary', '', '查看 DSE 來源材料'), createElement('p', '', speaking.source));
+    panel.append(details);
+  }
+  elements.selectedTopicPreview.replaceChildren(panel);
+  elements.selectedTopicPreview.hidden = false;
+}
+
 function removeSelectedWritingTopic() {
   state.selectedTopicResource = null;
   elements.topicInput.value = "";
@@ -3111,46 +3249,90 @@ function writingTopicResultHaystack(resource) {
   ].join(" "));
 }
 
+function writingTopicInPickerCategory(resource, category) {
+  const section = resource.sectionKey;
+  const detail = resource.detail || '';
+  if (category === 'manual') return resource.type === 'manual-writing-topic';
+  if (category === 'nonexam-other') return resource.type !== 'manual-writing-topic'
+    && !['dse-writing', 'dse-paper3', 'ielts-writing'].includes(section);
+  if (category === 'dse-writing-a') return section === 'dse-writing' && /\bPart A\b/i.test(detail);
+  if (category === 'dse-writing-b') return section === 'dse-writing' && /\bPart B\b/i.test(detail);
+  if (category === 'dse-integrated-b1') return section === 'dse-paper3' && /\bB1\b/i.test(detail);
+  if (category === 'dse-integrated-b2') return section === 'dse-paper3' && /\bB2\b/i.test(detail);
+  if (category === 'ielts-task-1') return section === 'ielts-writing' && /\bTask 1\b/i.test(detail);
+  if (category === 'ielts-task-2') return section === 'ielts-writing' && /\bTask 2\b/i.test(detail);
+  return false;
+}
+
 function renderWritingTopicResults(query = "") {
   if (!elements.topicPickerResults) return;
   const tokens = writingTopicSearchTokens(query);
   const category = state.topicPickerCategory;
-  const writing = category === 'all' || category === 'writing'
-    ? (state.topicPickerTarget === 'admin' ? adminProxyTopicCatalog() : state.topicCatalog.filter(canAccessWritingTopic))
-      .filter(resource => !tokens.length || tokens.every(token => writingTopicResultHaystack(resource).includes(token)))
-      .map(resource => ({ type: 'writing', resource }))
-    : [];
-  const speaking = category !== 'writing'
-    ? state.speakingTopicCatalog
-      .filter(item => (category === 'all' || item.category === category)
-        && (!tokens.length || tokens.every(token => item.searchText.includes(token))))
-      .map(resource => ({ type: 'speaking', resource }))
-    : [];
-  const matches = [...writing, ...speaking];
-  if (elements.topicPickerCount) elements.topicPickerCount.textContent = `${matches.length} 條題目${matches.length > state.topicPickerVisibleCount ? ` · 顯示首 ${state.topicPickerVisibleCount} 條` : ''}`;
-  if (elements.topicPickerMore) elements.topicPickerMore.hidden = matches.length <= state.topicPickerVisibleCount;
-  if (!matches.length) {
-    elements.topicPickerResults.replaceChildren(emptyState("找不到符合的題目；請試其他關鍵字或類別。"));
+  if (!category) {
+    if (elements.topicPickerCount) elements.topicPickerCount.textContent = '';
+    if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = true;
+    if (elements.topicPickerMore) elements.topicPickerMore.hidden = true;
+    const message = state.topicPickerTrack ? '請先選擇部分，再查看題目。'
+      : state.topicPickerExam ? '請先選擇練習種類，再查看題目。'
+        : '請先選擇 DSE、IELTS 或 Non-exam。';
+    elements.topicPickerResults.replaceChildren(emptyState(message));
+    return;
+  }
+  const pageSize = 20;
+  const pageStart = state.topicPickerPage * pageSize;
+  const page = [];
+  let total = 0;
+  const addMatch = (type, resource) => {
+    if (total >= pageStart && page.length < pageSize) page.push({ type, resource });
+    total += 1;
+  };
+  const speakingCategory = SPEAKING_TOPIC_CATEGORIES.some(item => item.id === category);
+  if (!speakingCategory) {
+    const writing = state.topicPickerTarget === 'admin'
+      ? adminProxyTopicCatalog()
+      : state.topicCatalog.filter(canAccessWritingTopic);
+    for (const resource of writing) {
+      if (writingTopicInPickerCategory(resource, category)
+        && (!tokens.length || tokens.every(token => writingTopicResultHaystack(resource).includes(token)))) {
+        addMatch('writing', resource);
+      }
+    }
+  }
+  if (speakingCategory) {
+    for (const item of state.speakingTopicCatalogByCategory[category] || []) {
+      if (!tokens.length || tokens.every(token => item.searchText.includes(token)
+        || (state.speakingTopicContextSearch[item.contextId] || '').includes(token))) {
+        addMatch('speaking', item);
+      }
+    }
+  }
+  if (elements.topicPickerCount) {
+    elements.topicPickerCount.textContent = total
+      ? `第 ${pageStart + 1}–${Math.min(pageStart + pageSize, total)} / ${total} 條題目`
+      : '0 條題目';
+  }
+  if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = state.topicPickerPage === 0;
+  if (elements.topicPickerMore) elements.topicPickerMore.hidden = pageStart + pageSize >= total;
+  if (!total) {
+    const message = category === 'manual' && !tokens.length
+      ? '尚未建立自訂題目。建立後會在這裡顯示。'
+      : '找不到符合的題目；請試其他關鍵字或類別。';
+    elements.topicPickerResults.replaceChildren(emptyState(message));
     return;
   }
   const fragment = document.createDocumentFragment();
-  for (const match of matches.slice(0, state.topicPickerVisibleCount)) {
+  for (const match of page) {
     const resource = match.resource;
-    const button = createElement("button", "topic-picker-result");
+    const button = createElement("button", `topic-picker-result${match.type === 'speaking' ? ' topic-picker-speaking-result' : ''}`);
     button.type = "button";
     if (match.type === 'speaking') {
       button.dataset.selectSpeakingTopic = resource.id;
       button.append(
-        createElement('strong', '', speakingTopicLabel(resource)),
-        createElement('small', '', resource.questionZh || resource.titleZh || resource.question),
+        createElement('small', 'topic-picker-speaking-meta', speakingTopicLabel(resource)),
+        createElement('strong', 'topic-picker-speaking-question', resource.question),
         createElement('em', '', '選擇')
       );
-      const preview = createElement('div', 'topic-picker-result-preview');
-      preview.append(createElement('p', '', resource.question));
-      if (resource.category === 'ielts-2' && resource.hints?.length) {
-        preview.append(createElement('p', '', `You should say: ${resource.hints.join(' · ')}`));
-      }
-      button.append(preview);
+      if (resource.questionZh) button.append(createElement('span', 'topic-picker-speaking-translation', resource.questionZh));
       fragment.append(button);
       continue;
     }
@@ -3184,8 +3366,13 @@ function renderWritingTopicResults(query = "") {
 
 async function openWritingTopicPicker({ target = "student" } = {}) {
   state.topicPickerTarget = target === "admin" && state.user?.role === "admin" ? "admin" : "student";
-  state.topicPickerCategory = 'all';
-  state.topicPickerVisibleCount = 40;
+  state.topicPickerExam = '';
+  state.topicPickerTrack = '';
+  state.topicPickerCategory = '';
+  state.topicPickerPage = 0;
+  const generation = ++state.topicPickerLoadGeneration;
+  window.clearTimeout(state.topicPickerSearchTimer);
+  elements.topicPickerSearch.value = '';
   syncWritingTopicPickerCategory();
   if (elements.topicPickerTitle) {
     elements.topicPickerTitle.textContent = state.topicPickerTarget === "admin"
@@ -3200,34 +3387,86 @@ async function openWritingTopicPicker({ target = "student" } = {}) {
   elements.topicPickerResults.replaceChildren(loadingState("正在載入寫作練習題目…"));
   if (typeof elements.topicPicker.showModal === "function") elements.topicPicker.showModal();
   else elements.topicPicker.setAttribute("open", "");
+  elements.topicPicker.scrollTop = 0;
   try {
-    const results = await Promise.allSettled([loadWritingTopicCatalog(), loadWritingSpeakingTopics()]);
+    const results = await Promise.allSettled([loadWritingTopicCatalog(), loadWritingSpeakingManifest()]);
+    if (generation !== state.topicPickerLoadGeneration) return;
     if (results.every(result => result.status === 'rejected')) throw results[0].reason;
     for (const result of results) if (result.status === 'rejected') console.warn('Writing topic source failed', result.reason);
     syncWritingTopicPickerCategory();
     renderWritingTopicResults(elements.topicPickerSearch.value);
-    window.setTimeout(() => elements.topicPickerSearch.focus(), 0);
+    window.setTimeout(() => elements.topicPickerExams[0]?.focus(), 0);
   } catch (error) {
     console.warn("Writing topic catalog failed", error);
     elements.topicPickerResults.replaceChildren(emptyState("暫時未能載入寫作練習題目。您仍可自行輸入題目。"));
   }
 }
 
-function syncWritingTopicPickerCategory() {
-  for (const button of elements.topicPickerCategories) {
-    const selected = button.dataset.topicPickerCategory === state.topicPickerCategory;
-    button.classList.toggle('is-selected', selected);
-    button.setAttribute('aria-pressed', String(selected));
-    if (button.dataset.topicPickerCategory?.startsWith('dse-') || button.dataset.topicPickerCategory?.startsWith('ielts-')) {
-      const category = SPEAKING_TOPIC_CATEGORIES.find(item => item.id === button.dataset.topicPickerCategory);
-      const count = state.speakingTopicCatalog.filter(item => item.category === category?.id).length;
-      if (category) button.textContent = count ? `${category.label} · ${count}` : category.label;
+async function activateWritingTopicPickerCategory(category) {
+  state.topicPickerCategory = category;
+  state.topicPickerPage = 0;
+  const generation = ++state.topicPickerLoadGeneration;
+  window.clearTimeout(state.topicPickerSearchTimer);
+  syncWritingTopicPickerCategory();
+  elements.topicPickerResults.replaceChildren(loadingState('正在載入這個類別的題目…'));
+  elements.topicPickerResults.scrollTop = 0;
+  if (elements.topicPickerCount) elements.topicPickerCount.textContent = '';
+  if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = true;
+  if (elements.topicPickerMore) elements.topicPickerMore.hidden = true;
+  try {
+    if (SPEAKING_TOPIC_CATEGORIES.some(item => item.id === category)) {
+      await loadWritingSpeakingTopics(category);
+    } else if (category) {
+      await loadWritingTopicCatalog();
     }
+    if (generation !== state.topicPickerLoadGeneration) return;
+    syncWritingTopicPickerCategory();
+    renderWritingTopicResults(elements.topicPickerSearch.value);
+  } catch (error) {
+    if (generation !== state.topicPickerLoadGeneration) return;
+    console.warn('Writing question category failed', error);
+    elements.topicPickerResults.replaceChildren(emptyState('暫時未能載入這個題目類別；請稍後再試。'));
   }
 }
 
+function syncWritingTopicPickerCategory() {
+  for (const button of elements.topicPickerExams) {
+    const selected = button.dataset.topicPickerExam === state.topicPickerExam;
+    button.classList.toggle('is-selected', selected);
+    button.setAttribute('aria-pressed', String(selected));
+  }
+  const tracks = TOPIC_PICKER_TRACKS[state.topicPickerExam] || [];
+  elements.topicPickerTracks.hidden = !tracks.length;
+  elements.topicPickerTrackOptions.replaceChildren(...tracks.map(item => {
+    const button = createElement('button', 'small-button', item.label);
+    button.type = 'button';
+    button.dataset.topicPickerTrack = item.id;
+    button.classList.toggle('is-selected', item.id === state.topicPickerTrack);
+    button.setAttribute('aria-pressed', String(item.id === state.topicPickerTrack));
+    return button;
+  }));
+  const leaves = TOPIC_PICKER_LEAVES[state.topicPickerTrack] || [];
+  elements.topicPickerLeaves.hidden = !leaves.length;
+  elements.topicPickerLeafOptions.replaceChildren(...leaves.map(item => {
+    const button = createElement('button', 'small-button', item.label);
+    button.type = 'button';
+    button.dataset.topicPickerLeaf = item.id;
+    button.classList.toggle('is-selected', item.id === state.topicPickerCategory);
+    button.setAttribute('aria-pressed', String(item.id === state.topicPickerCategory));
+    return button;
+  }));
+  elements.topicPickerSearch.disabled = !state.topicPickerCategory;
+  elements.topicPickerSearch.placeholder = state.topicPickerCategory
+    ? '搜尋目前類別的題目或關鍵字'
+    : '先選擇題目類別';
+}
+
 function selectSpeakingTopic(topicId) {
-  const topic = state.speakingTopicCatalog.find(item => item.id === topicId);
+  let topic;
+  for (const category of SPEAKING_TOPIC_CATEGORIES) {
+    topic = state.speakingTopicCatalogByCategory[category.id]?.find(item => item.id === topicId);
+    if (topic) break;
+  }
   if (!topic) return;
   const prompt = speakingTopicPrompt(topic, state.speakingTopicContexts).slice(0, 4000);
   if (state.topicPickerTarget === 'admin') {
@@ -3250,6 +3489,8 @@ function selectSpeakingTopic(topicId) {
 }
 
 function closeWritingTopicPicker() {
+  state.topicPickerLoadGeneration += 1;
+  window.clearTimeout(state.topicPickerSearchTimer);
   if (typeof elements.topicPicker.close === "function") elements.topicPicker.close();
   else elements.topicPicker.removeAttribute("open");
   state.topicPickerTarget = "student";
@@ -3395,6 +3636,9 @@ function readDraft() {
       documentId: String(value.documentId),
       topic: String(value.topic || ""),
       answer: String(value.answer || ""),
+      brainstorm: String(value.brainstorm || '').slice(0, 20000),
+      draftHelperOpen: value.draftHelperOpen === true,
+      functionHelper: normalizeFunctionHelper(value.functionHelper),
       durationSeconds: Math.max(0, Math.min(31536000, Number(value.durationSeconds || 0))),
       submissionDurationSeconds: Number.isSafeInteger(submissionDurationSeconds)
         && submissionDurationSeconds >= 0
@@ -3432,6 +3676,9 @@ function persistDraft() {
       documentId: state.documentId,
       topic: elements.topicInput.value,
       answer: elements.writingInput.value,
+      brainstorm: elements.brainstormInput.value,
+      draftHelperOpen: state.draftHelperOpen,
+      functionHelper: state.functionHelper,
       durationSeconds: Math.round(state.draftDurationSeconds),
       submissionDurationSeconds: state.submissionDurationSeconds,
       directPaste: state.directPaste,
@@ -3508,9 +3755,168 @@ function autosizeTextarea(textarea, minimum = 0) {
   textarea.style.height = `${Math.max(minimum, textarea.scrollHeight)}px`;
 }
 
+const FUNCTION_PARAGRAPHS = [
+  { id: 'introduction', label: '引言', groups: ['Introduction'] },
+  { id: 'body-1', label: '正文段落一', groups: ['Body paragraph 1'] },
+  { id: 'body-2', label: '正文段落二', groups: ['Body paragraph 2'] },
+  { id: 'rebuttal', label: '反駁段', groups: ['Rebuttal - Opponent', 'Rebuttal - Your view'] },
+  { id: 'conclusion', label: '結論', groups: ['Conclusion'] }
+];
+
+function initialisePhoebeWritingToggle() {
+  const button = elements.phoebeWritingToggle;
+  if (!button) return;
+  const image = button.querySelector('img');
+  const gifSrc = image.getAttribute('src');
+  const stillSrc = 'writing-phoebe-writing-still.png';
+  const storageKey = 'edmund-writing-phoebe-visible';
+  let visible = true;
+  try { visible = localStorage.getItem(storageKey) !== 'false'; } catch { /* Storage may be unavailable. */ }
+  const render = () => {
+    button.dataset.visible = String(visible);
+    button.setAttribute('aria-pressed', String(visible));
+    button.setAttribute('aria-label', visible ? '隱藏 Phoebe 寫字動畫' : '顯示 Phoebe 寫字動畫');
+    button.title = visible ? '點擊隱藏 Phoebe 寫字動畫；再點擊可顯示' : '點擊顯示 Phoebe 寫字動畫';
+    image.setAttribute('src', visible ? gifSrc : stillSrc);
+  };
+  button.addEventListener('click', () => {
+    visible = !visible;
+    try { localStorage.setItem(storageKey, String(visible)); } catch { /* Keep the toggle usable without storage. */ }
+    render();
+  });
+  render();
+}
+
+function renderFunctionHelper() {
+  const helper = state.functionHelper;
+  const enabled = new Set(helper.enabled);
+  elements.functionHelper.hidden = !helper.active;
+  elements.writingInput.closest('.writing-field-main').hidden = helper.active;
+  elements.functionHelperToggle.setAttribute('aria-pressed', String(helper.active));
+  if (!helper.active) return;
+  const fields = document.createDocumentFragment();
+  let currentGroup = '';
+  let groupNode = null;
+  if (helper.unassigned) {
+    const card = createElement('div', 'writing-function-card is-unassigned');
+    const label = createElement('label', '', '已有文章內容');
+    const textarea = document.createElement('textarea');
+    textarea.value = helper.unassigned;
+    textarea.setAttribute('aria-label', '已有文章內容');
+    textarea.addEventListener('input', () => {
+      helper.unassigned = textarea.value;
+      syncFunctionHelperAnswer();
+    });
+    textarea.addEventListener('paste', handleWritingPaste);
+    textarea.addEventListener('focus', resumeWritingClockForEditor);
+    textarea.addEventListener('blur', () => pauseWritingClockOutsideEditor());
+    card.append(label, textarea);
+    fields.append(card);
+  }
+  const paragraphSwitches = createElement('div', 'writing-function-paragraph-switches');
+  paragraphSwitches.append(createElement('p', 'writing-function-paragraph-label', '整段開關'));
+  for (const paragraph of FUNCTION_PARAGRAPHS) {
+    const ids = WRITING_FUNCTIONS.filter(item => paragraph.groups.includes(item.group)).map(item => item.id);
+    const selected = ids.filter(id => enabled.has(id)).length;
+    const label = createElement('label', 'writing-function-paragraph-toggle');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = selected === ids.length;
+    checkbox.indeterminate = selected > 0 && selected < ids.length;
+    checkbox.dataset.functionParagraph = paragraph.id;
+    checkbox.setAttribute('aria-label', `使用整個${paragraph.label}，共 ${ids.length} 項`);
+    label.append(checkbox, createElement('span', '', paragraph.label));
+    paragraphSwitches.append(label);
+  }
+  fields.append(paragraphSwitches);
+  for (const item of WRITING_FUNCTIONS) {
+    if (item.group !== currentGroup) {
+      currentGroup = item.group;
+      groupNode = createElement('div', 'writing-function-group');
+      groupNode.append(createElement('h4', '', `${item.group} · ${item.groupZh}`));
+      fields.append(groupNode);
+    }
+    const card = createElement('div', `writing-function-card${enabled.has(item.id) ? '' : ' is-disabled'}`);
+    const head = createElement('div', 'writing-function-card-head');
+    const title = createElement('div', 'writing-function-title');
+    title.append(createElement('strong', '', item.title), createElement('small', '', item.titleZh));
+    const toggle = createElement('label', 'writing-function-row-toggle');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = enabled.has(item.id);
+    checkbox.dataset.functionOption = item.id;
+    checkbox.setAttribute('aria-label', `使用 ${item.group} · ${item.title} · ${item.titleZh}`);
+    toggle.append(checkbox, createElement('span', '', '使用'));
+    head.append(title, toggle);
+    card.append(head);
+    if (!enabled.has(item.id)) {
+      groupNode.append(card);
+      continue;
+    }
+    const textarea = document.createElement('textarea');
+    textarea.rows = 3;
+    textarea.maxLength = 100000;
+    textarea.value = helper.values[item.id];
+    textarea.dataset.functionField = item.id;
+    textarea.setAttribute('aria-label', `${item.group} · ${item.title} · ${item.titleZh}`);
+    textarea.addEventListener('input', () => {
+      helper.values[item.id] = textarea.value;
+      syncFunctionHelperAnswer();
+    });
+    textarea.addEventListener('paste', handleWritingPaste);
+    textarea.addEventListener('focus', resumeWritingClockForEditor);
+    textarea.addEventListener('focus', () => { void sentenceSupport.open(item.id); });
+    textarea.addEventListener('blur', () => pauseWritingClockOutsideEditor());
+    card.append(textarea);
+    groupNode.append(card);
+  }
+  elements.functionFields.replaceChildren(fields);
+}
+
+function syncFunctionHelperAnswer() {
+  elements.writingInput.value = composeFunctionAnswer(state.functionHelper);
+  handleWritingInput();
+}
+
+function setFunctionHelperActive(active) {
+  const helper = state.functionHelper;
+  if (helper.active === active) return;
+  if (active) {
+    const current = elements.writingInput.value.trim();
+    if (current !== composeFunctionAnswer(helper)) {
+      helper.unassigned = current;
+      for (const item of WRITING_FUNCTIONS) helper.values[item.id] = '';
+    }
+  } else {
+    elements.writingInput.value = composeFunctionAnswer(helper);
+    handleWritingInput();
+  }
+  helper.active = active;
+  renderFunctionHelper();
+  persistDraft();
+  if (!active) elements.writingInput.focus();
+}
+
+function setDraftHelperOpen(open) {
+  state.draftHelperOpen = Boolean(open);
+  elements.draftHelper.hidden = !state.draftHelperOpen;
+  elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
+  persistDraft();
+  if (open) elements.brainstormInput.focus();
+}
+
+function reconcileFunctionHelperFromAnswer() {
+  const helper = state.functionHelper;
+  if (!helper.active || composeFunctionAnswer(helper) === elements.writingInput.value) return;
+  helper.unassigned = elements.writingInput.value;
+  for (const item of WRITING_FUNCTIONS) helper.values[item.id] = '';
+  renderFunctionHelper();
+  persistDraft();
+}
+
 function updateEditorMetrics() {
   elements.wordCount.textContent = String(countEnglishWords(elements.writingInput.value));
-  const changed = Boolean(elements.topicInput.value.trim() || elements.writingInput.value.trim());
+  const changed = Boolean(elements.topicInput.value.trim() || elements.writingInput.value.trim() || elements.brainstormInput.value.trim());
   elements.draftState.textContent = changed ? "正在編輯" : "尚未提交";
   autosizeTextarea(elements.topicInput, 108);
   autosizeTextarea(elements.writingInput, 480);
@@ -3896,6 +4302,12 @@ function startNewDraft({ preserveView = false } = {}) {
   state.dismissedIssueIds.clear();
   elements.topicInput.value = "";
   elements.writingInput.value = "";
+  elements.brainstormInput.value = '';
+  state.draftHelperOpen = false;
+  state.functionHelper = normalizeFunctionHelper(null);
+  elements.draftHelper.hidden = true;
+  elements.draftHelperToggle.setAttribute('aria-pressed', 'false');
+  renderFunctionHelper();
   state.selectedTopicResource = null;
   clearModelEssayState();
   renderSelectedTopicPreview();
@@ -3944,6 +4356,12 @@ async function restoreDraft() {
   state.appliedCorrections = [];
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
+  elements.brainstormInput.value = draft?.brainstorm || '';
+  state.draftHelperOpen = draft?.draftHelperOpen === true || Boolean(elements.brainstormInput.value);
+  elements.draftHelper.hidden = !state.draftHelperOpen;
+  elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
+  state.functionHelper = normalizeFunctionHelper(draft?.functionHelper);
+  renderFunctionHelper();
   state.selectedTopicResource = selectedTopicResource;
   renderSelectedTopicPreview();
   await loadModelEssayReference({ force: true });
@@ -3970,13 +4388,8 @@ async function restoreDraft() {
   }
 }
 
-function updateHarperStatus(status, title, detail) {
+function updateHarperStatus(status) {
   state.checkerState = status;
-  elements.harperStatus.dataset.state = status;
-  const strong = elements.harperStatus.querySelector("strong");
-  const small = elements.harperStatus.querySelector("small");
-  if (strong) strong.textContent = title;
-  if (small) small.textContent = detail;
 }
 
 async function prepareGrammarChecker() {
@@ -5220,6 +5633,7 @@ function applyGrammarIssue(issueId) {
   );
   state.dismissedIssueIds.clear();
   elements.writingInput.value = next;
+  reconcileFunctionHelperFromAnswer();
   state.previousWriting = next;
   updateEditorMetrics();
   refreshVocabularyUsage();
@@ -5248,6 +5662,7 @@ function normalizeSubmission(value) {
     studentName: String(value?.studentName || value?.student_name || ""),
     topic: String(value?.topic || "未命名題目"),
     answer: String(value?.answer || value?.content || ""),
+    brainstorm: String(value?.brainstorm || '').slice(0, 20000),
     wordCount: Number(value?.wordCount ?? value?.word_count ?? countEnglishWords(value?.answer || value?.content || "")),
     durationSeconds: Number(value?.durationSeconds ?? value?.duration_seconds ?? 0),
     submittedAt: String(value?.submittedAt || value?.submitted_at || value?.createdAt || value?.created_at || ""),
@@ -5907,6 +6322,9 @@ function normalizeServerDraft(value) {
     id: String(draft.id || ""),
     topic: String(draft.topic || ""),
     answer: String(draft.answer || ""),
+    brainstorm: String(draft.brainstorm || '').slice(0, 20000),
+    functionHelper: normalizeFunctionHelper(draft.functionHelper),
+    draftHelperOpen: draft.draftHelperOpen === true,
     answerPreview: String(draft.answerPreview || ""),
     wordCount: Number(draft.wordCount || 0),
     durationSeconds: Math.max(0, Number(draft.durationSeconds || 0)),
@@ -5924,6 +6342,9 @@ function currentServerDraftPayload() {
   return {
     topic: elements.topicInput.value,
     answer: elements.writingInput.value,
+    brainstorm: elements.brainstormInput.value,
+    functionHelper: state.functionHelper,
+    draftHelperOpen: state.draftHelperOpen,
     topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
     imageZoom: state.writingImageZoom,
     countdown: normalizeWritingTimer(state.writingTimer),
@@ -5940,6 +6361,9 @@ function storedDraftServerPayload(draft) {
   return {
     topic: String(draft?.topic || ""),
     answer: String(draft?.answer || ""),
+    brainstorm: String(draft?.brainstorm || '').slice(0, 20000),
+    functionHelper: normalizeFunctionHelper(draft?.functionHelper),
+    draftHelperOpen: draft?.draftHelperOpen === true,
     topicResource: canonicalWritingTopicResourceForTransport(draft?.selectedTopicResource),
     imageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(draft?.writingImageZoom))
       ? Number(draft.writingImageZoom)
@@ -5953,7 +6377,7 @@ function storedDraftServerPayload(draft) {
 async function archiveStoredDraftBeforeEntryLink(draft) {
   if (!UUID_RE.test(String(draft?.documentId || ""))) return false;
   const payload = storedDraftServerPayload(draft);
-  if (!payload.topic.trim() && !payload.answer.trim()) return false;
+  if (!payload.topic.trim() && !payload.answer.trim() && !payload.brainstorm.trim()) return false;
   const response = await apiJson(`/v1/drafts/${encodeURIComponent(draft.documentId)}`, {
     method: "PUT",
     body: JSON.stringify(payload)
@@ -5969,8 +6393,8 @@ async function archiveStoredDraftBeforeEntryLink(draft) {
 async function saveCurrentProgress() {
   if (state.user?.role !== "student" || !UUID_RE.test(state.documentId)) return;
   const payload = currentServerDraftPayload();
-  if (!payload.topic.trim() && !payload.answer.trim()) {
-    setStatus(elements.submissionStatus, "請先輸入寫作題目或文章內容。", "error");
+  if (!payload.topic.trim() && !payload.answer.trim() && !payload.brainstorm.trim()) {
+    setStatus(elements.submissionStatus, "請先輸入寫作題目、文章內容或構思草稿。", "error");
     return;
   }
   elements.saveProgress.disabled = true;
@@ -6010,7 +6434,7 @@ function renderDraftList() {
     copy.append(
       createElement("strong", "", draft.topic.trim() || "未命名草稿"),
       createElement("span", "", `${formatSubmissionDate(draft.updatedAt)} · ${draft.wordCount} words · ${formatCompactDuration(draft.durationSeconds)}`),
-      createElement("p", "", draft.answerPreview || "（尚未輸入文章內容）")
+      createElement("p", "", draft.answerPreview || (draft.brainstorm ? '已有構思草稿' : '（尚未輸入文章內容）'))
     );
     const actions = createElement("div", "draft-row-actions");
     const resume = createElement("button", "small-button", "繼續寫作");
@@ -6061,6 +6485,12 @@ async function loadDraftIntoWorkspace(draft) {
   state.dismissedIssueIds.clear();
   elements.topicInput.value = draft.topic;
   elements.writingInput.value = draft.answer;
+  elements.brainstormInput.value = draft.brainstorm;
+  state.draftHelperOpen = draft.draftHelperOpen || Boolean(draft.brainstorm);
+  elements.draftHelper.hidden = !state.draftHelperOpen;
+  elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
+  state.functionHelper = normalizeFunctionHelper(draft.functionHelper);
+  renderFunctionHelper();
   state.selectedTopicResource = selectedTopicResource;
   await loadModelEssayReference({ force: true });
   renderSelectedTopicPreview();
@@ -6078,7 +6508,11 @@ async function loadDraftIntoWorkspace(draft) {
   if (state.grammarDetectionEnabled && completedSegments.length) {
     enqueueSegmentsForCheck(completedSegments, { remote: false });
   }
-  window.setTimeout(() => elements.writingInput.focus(), 0);
+  window.setTimeout(() => {
+    if (state.functionHelper.active) elements.functionFields.querySelector('textarea')?.focus();
+    else if (state.draftHelperOpen && !draft.answer.trim()) elements.brainstormInput.focus();
+    else elements.writingInput.focus();
+  }, 0);
 }
 
 async function resumeServerDraft(id) {
@@ -6151,6 +6585,12 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   actions.replaceChildren(displayTools, articleTools);
   if (manageTools.childElementCount) actions.append(manageTools);
   container.replaceChildren(header, content);
+  if (submission.brainstorm.trim()) {
+    const planning = createElement('details', 'submission-brainstorm');
+    planning.append(createElement('summary', '', '構思草稿 · Draft helper'));
+    planning.append(createElement('div', 'submission-brainstorm-text', submission.brainstorm));
+    container.append(planning);
+  }
   if (admin && submission.proofreadChecklist) {
     const record = submission.proofreadChecklist;
     const section = createElement('section', 'admin-proofread-record');
@@ -8833,6 +9273,7 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
       body: JSON.stringify({
         topic,
         answer,
+        brainstorm: elements.brainstormInput.value,
         durationSeconds: submittedDurationSeconds,
         topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
         proofreadChecklist: proofreadChecklist.getRecord()
@@ -9887,6 +10328,15 @@ async function openAdminExplanationReview() {
   await loadAdminExplanationReviews({ reset: true });
 }
 
+function studentGreeting(date = new Date()) {
+  const hour = date.getHours();
+  return hour >= 5 && hour < 12 ? "早晨" : hour >= 12 && hour < 18 ? "午安" : "晚安";
+}
+
+function studentWelcome(name) {
+  return `${studentGreeting()}，${name}！先輸入寫作題目，再專心完成文章。`;
+}
+
 async function handleLogin(event) {
   event.preventDefault();
   const username = elements.username.value.trim();
@@ -9923,14 +10373,14 @@ async function handleLogin(event) {
       showToast("管理員登入成功。", "success");
     } else {
       await loadWritingPreferences();
-      elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
+      elements.workspaceWelcome.textContent = studentWelcome(state.user.name);
       const openedEntryLink = await openStudentEntryLink();
       if (!openedEntryLink) {
         await restoreDraft();
         showView("workspace");
       }
       if (state.grammarDetectionEnabled) prepareGrammarChecker();
-      if (!openedEntryLink) showToast(`您好，${state.user.name}！`, "success");
+      if (!openedEntryLink) showToast(`${studentGreeting()}，${state.user.name}！`, "success");
     }
   } catch (error) {
     console.warn("Writing Submission login failed", error);
@@ -10187,6 +10637,10 @@ function bindEvents() {
   elements.topicInput.addEventListener("input", () => {
     markWritingActivity();
     updateEditorMetrics();
+    if (!state.selectedTopicResource) {
+      renderSelectedSpeakingTopicPreview();
+      if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !parseSpeakingTopicPrompt(elements.topicInput.value);
+    }
     scheduleDraftSave();
   });
   elements.floatingTopicToggle?.addEventListener("click", () => {
@@ -10206,23 +10660,72 @@ function bindEvents() {
   elements.topicPickerOpen.addEventListener("click", () => openWritingTopicPicker({ target: "student" }));
   elements.topicPickerClose.addEventListener("click", closeWritingTopicPicker);
   elements.topicPickerSearch.addEventListener("input", () => {
-    state.topicPickerVisibleCount = 40;
-    renderWritingTopicResults(elements.topicPickerSearch.value);
+    state.topicPickerPage = 0;
+    window.clearTimeout(state.topicPickerSearchTimer);
+    state.topicPickerSearchTimer = window.setTimeout(() => renderWritingTopicResults(elements.topicPickerSearch.value), 140);
   });
-  for (const button of elements.topicPickerCategories) button.addEventListener('click', () => {
-    state.topicPickerCategory = button.dataset.topicPickerCategory;
-    state.topicPickerVisibleCount = 40;
-    syncWritingTopicPickerCategory();
-    renderWritingTopicResults(elements.topicPickerSearch.value);
+  for (const button of elements.topicPickerExams) button.addEventListener('click', () => {
+    const exam = button.dataset.topicPickerExam;
+    state.topicPickerExam = exam;
+    state.topicPickerTrack = exam === 'non-exam' ? 'manual' : '';
+    elements.topicPickerSearch.value = '';
+    void activateWritingTopicPickerCategory(exam === 'non-exam' ? 'manual' : '');
+  });
+  elements.topicPickerTrackOptions.addEventListener('click', event => {
+    const button = event.target.closest('[data-topic-picker-track]');
+    if (!button) return;
+    const track = (TOPIC_PICKER_TRACKS[state.topicPickerExam] || [])
+      .find(item => item.id === button.dataset.topicPickerTrack);
+    if (!track) return;
+    state.topicPickerTrack = track.id;
+    elements.topicPickerSearch.value = '';
+    void activateWritingTopicPickerCategory(track.category || '');
+  });
+  elements.topicPickerLeafOptions.addEventListener('click', event => {
+    const button = event.target.closest('[data-topic-picker-leaf]');
+    if (!button || !(TOPIC_PICKER_LEAVES[state.topicPickerTrack] || []).some(item => item.id === button.dataset.topicPickerLeaf)) return;
+    elements.topicPickerSearch.value = '';
+    void activateWritingTopicPickerCategory(button.dataset.topicPickerLeaf);
   });
   elements.topicPickerMore?.addEventListener('click', () => {
-    state.topicPickerVisibleCount += 40;
+    state.topicPickerPage += 1;
     renderWritingTopicResults(elements.topicPickerSearch.value);
+    elements.topicPickerResults.scrollTop = 0;
+  });
+  elements.topicPickerPrevious?.addEventListener('click', () => {
+    state.topicPickerPage = Math.max(0, state.topicPickerPage - 1);
+    renderWritingTopicResults(elements.topicPickerSearch.value);
+    elements.topicPickerResults.scrollTop = 0;
   });
   elements.topicPicker.addEventListener("click", (event) => {
     if (event.target === elements.topicPicker) closeWritingTopicPicker();
   });
   elements.grammarToggle.addEventListener("change", () => handleGrammarDetectionToggle());
+  elements.draftHelperToggle.addEventListener('click', () => setDraftHelperOpen(!state.draftHelperOpen));
+  elements.functionHelperToggle.addEventListener('click', () => setFunctionHelperActive(!state.functionHelper.active));
+  elements.functionFields.addEventListener('change', event => {
+    const id = event.target.dataset.functionOption;
+    const paragraphId = event.target.dataset.functionParagraph;
+    if (!id && !paragraphId) return;
+    const enabled = new Set(state.functionHelper.enabled);
+    const ids = paragraphId
+      ? WRITING_FUNCTIONS.filter(item => FUNCTION_PARAGRAPHS.find(paragraph => paragraph.id === paragraphId)?.groups.includes(item.group)).map(item => item.id)
+      : [id];
+    for (const key of ids) {
+      if (event.target.checked) enabled.add(key);
+      else enabled.delete(key);
+    }
+    state.functionHelper.enabled = WRITING_FUNCTIONS.map(item => item.id).filter(key => enabled.has(key));
+    renderFunctionHelper();
+    syncFunctionHelperAnswer();
+  });
+  elements.brainstormInput.addEventListener('input', () => {
+    markWritingActivity();
+    updateEditorMetrics();
+    scheduleDraftSave();
+  });
+  elements.brainstormInput.addEventListener('focus', resumeWritingClockForEditor);
+  elements.brainstormInput.addEventListener('blur', () => pauseWritingClockOutsideEditor());
   elements.writingInput.addEventListener("input", handleWritingInput);
   elements.writingInput.addEventListener("paste", handleWritingPaste);
   elements.writingInput.addEventListener("scroll", syncModelEssayOverlayScroll);
@@ -10745,31 +11248,47 @@ const referencePocket = mountReferencePocket({
  getOwner:()=>state.user?.role==='student'?state.authToken:'',
  getEssayText:()=>elements.writingInput?.value||'',
  entryUsed:vocabularyEntryUsed,
- getGlossary:async()=>{const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList)return [{english:resource.wordList,chinese:''}];const route=selectedTopicReferenceRoute();if(!route)return [];const catalog=await loadTopicReferenceCatalog();return catalog[route.exerciseId]?.vocabulary||[];},
- getHistory:async()=>{
+ getGlossary:async(onProgress)=>{onProgress?.({phase:'catalog',completed:0});const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList){onProgress?.({phase:'catalog',completed:1});return [{english:resource.wordList,chinese:''}];}const route=selectedTopicReferenceRoute();if(!route){onProgress?.({phase:'catalog',completed:1});return [];}const catalog=await loadTopicReferenceCatalog();onProgress?.({phase:'catalog',completed:1});return catalog[route.exerciseId]?.vocabulary||[];},
+ getHistory:async(onProgress)=>{
   const token=state.authToken;const submissions=[];
+  const boundedRequest=async(path,limitMs)=>{
+   const controller=new AbortController();
+   const timer=setTimeout(()=>controller.abort(),limitMs);
+   try{return await apiJson(path,{signal:controller.signal},true,token);}
+   finally{clearTimeout(timer);}
+  };
   for(let page=1;;page++){
    if(state.authToken!==token||state.user?.role!=='student')return [];
-   const payload=await apiJson(`/v1/submissions?page=${page}&pageSize=100`,{},true,token);
-   submissions.push(...submissionArray(payload));if(!payload?.hasMore)break;
+   const payload=await boundedRequest(`/v1/submissions?page=${page}&pageSize=100`,15000);
+   submissions.push(...submissionArray(payload));onProgress?.({phase:'list',pages:page});if(!payload?.hasMore)break;
   }
-  const results=[];let index=0;
+  const results=[];let index=0,completed=0,failed=0;
+  onProgress?.({phase:'feedback',completed,total:submissions.length});
   await Promise.all(Array.from({length:Math.min(3,submissions.length)},async()=>{
    while(index<submissions.length){
     if(state.authToken!==token||state.user?.role!=='student')return;
     const submission=submissions[index++];
-    const payload=await apiJson(`/v1/submissions/${encodeURIComponent(submission.id)}/feedback`,{},true,token);
-    const feedback=normalizeTeacherFeedback(payload?.feedback);
-    if(feedback?.status==='published')results.push({...submission,feedback});
+    try{
+     const payload=await boundedRequest(`/v1/submissions/${encodeURIComponent(submission.id)}/feedback`,15000);
+     const feedback=normalizeTeacherFeedback(payload?.feedback);
+     if(feedback?.status==='published')results.push({...submission,feedback});
+    }catch(error){
+     if(state.authToken!==token||state.user?.role!=='student')return;
+     failed++;
+     console.warn('Writing Pocket feedback unavailable',error?.code||error?.name||'REQUEST_FAILED');
+    }finally{
+     completed++;onProgress?.({phase:'feedback',completed,total:submissions.length});
+    }
    }
   }));
-  return state.authToken===token?results:[];
+  return state.authToken===token?{items:results,failed}:[];
  },appendRich:appendFeedbackRichText
 });
 async function initialise() {
   preserveTextareaParagraphs(elements.writingInput);
   preserveTextareaParagraphs(elements.adminProxyAnswer);
   bindEvents();
+  initialisePhoebeWritingToggle();
   initializeStudentFeedbackWordBrush();
   ensureFeedbackSelectionToolbar();
   initializeAdminManualTopicSlots();
@@ -10795,7 +11314,7 @@ async function initialise() {
     await openAdminDashboard();
   } else {
     await loadWritingPreferences();
-    elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
+    elements.workspaceWelcome.textContent = studentWelcome(state.user.name);
     const openedEntryLink = await openStudentEntryLink();
     if (!openedEntryLink) {
       await restoreDraft();
@@ -10927,12 +11446,11 @@ document.querySelector('[data-admin-questions-button]').addEventListener('click'
 document.querySelector('[data-refresh-questions]').addEventListener('click',()=>openFeedbackInbox());
 document.querySelector('[data-more-questions]').addEventListener('click',()=>openFeedbackInbox(true));
 
-document.querySelectorAll('[data-paper3-topic-category]').forEach(button=>button.addEventListener('click',()=>{state.topicPickerCategory='writing';state.topicPickerVisibleCount=40;syncWritingTopicPickerCategory();elements.topicPickerSearch.value='DSE Integrated '+button.dataset.paper3TopicCategory;renderWritingTopicResults(elements.topicPickerSearch.value);}));
 
 let articleDeliveryVersion="0",articleDeliveryBusy=false;
 async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden||state.user?.role==='admin'||!state.authToken)return;articleDeliveryBusy=true;try{const result=await apiJson('/v1/submissions/delivery-version');if(articleDeliveryVersion!==null&&articleDeliveryVersion!==result.version&&state.currentView==='submissions')await loadSubmissions({selectId:state.selectedSubmissionId||''});articleDeliveryVersion=result.version;}catch{}finally{articleDeliveryBusy=false;}}
 setInterval(refreshArticleDelivery,30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshArticleDelivery();});
 
-mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"));
+mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"),document.querySelector("[data-function-helper]"));
 
 async function manageAdminArticle(id,method,body){if(state.user?.role!=="admin")return;persistAdminFeedbackRecovery({force:true});const token=state.authToken;const response=await apiJson(`/v1/admin/submissions/${encodeURIComponent(id)}`,{method,...(body?{body:JSON.stringify(body)}:{})});if(token!==state.authToken||state.user?.role!=="admin")return;state.adminSubmissions=state.adminSubmissions.map(item=>item.id===id?{...item,...response.submission}:item);renderAdminSubmissions();await openAdminSubmission(id);showToast(method==="DELETE"?"已從學生帳戶隱藏；管理員仍可查看。":"文章題目已更新。","success");}

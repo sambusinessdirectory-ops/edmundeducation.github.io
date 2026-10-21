@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-speaking-topics1">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-phoebe-paragraph-toggle">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -40,6 +40,13 @@
         </button>
       </div>
       <div class="header-actions edmund-system-header__actions">
+        <button class="phoebe-writing-toggle" type="button" data-phoebe-writing-toggle data-visible="true" aria-label="隱藏 Phoebe 寫字動畫" aria-pressed="true" title="點擊隱藏 Phoebe 寫字動畫；再點擊可顯示">
+          <picture class="phoebe-writing-art">
+            <source media="(prefers-reduced-motion: reduce)" srcset="writing-phoebe-writing-still.png">
+            <img src="writing-phoebe-writing.gif" width="64" height="64" alt="Phoebe 在燈旁寫字">
+          </picture>
+          <span class="phoebe-writing-restore" aria-hidden="true">✎</span>
+        </button>
         <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
         <button class="header-button" type="button" data-workspace-button hidden>交文首頁</button>
@@ -61,13 +68,7 @@
         <article class="login-hero glass-panel">
           <div class="night-orbit night-orbit-one" aria-hidden="true"></div>
           <div class="night-orbit night-orbit-two" aria-hidden="true"></div>
-          <div class="hero-parchment" aria-hidden="true">
-            <span class="hero-quill"></span>
-            <span class="hero-seal">E</span>
-            <span class="hero-ink-line hero-ink-line-one"></span>
-            <span class="hero-ink-line hero-ink-line-two"></span>
-            <span class="hero-ink-line hero-ink-line-three"></span>
-          </div>
+          <img class="hero-parchment-art" src="writing-parchment-quill-realistic.png" width="1536" height="1024" alt="" aria-hidden="true" fetchpriority="high" decoding="async">
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>Edmund Sir<br><span>Writing</span><br>交文系統</h1>
@@ -111,11 +112,6 @@
           <h1>Edmund Sir Writing 交文系統</h1>
           <p data-workspace-welcome>先輸入寫作題目，再專心完成文章。</p>
         </div>
-        <div class="local-checker-pill" data-harper-status data-state="loading">
-          <span aria-hidden="true"></span>
-          <strong>正在準備文法偵測</strong>
-          <small>只會安全傳送已完成的單句；題目及整篇草稿不會送出</small>
-        </div>
       </section>
 
       <section class="glass-panel" data-writing-email-preferences></section>
@@ -155,16 +151,46 @@
           </button>
           <div class="floating-writing-topic-content" id="floating-writing-topic-content" data-floating-writing-topic-content hidden>
             <p data-floating-writing-topic-text></p>
+            <div data-floating-speaking-details></div>
             <div class="floating-writing-topic-images" data-floating-writing-topic-images hidden></div>
           </div>
         </aside>
 
         <div class="writing-layout">
+          <aside class="writing-structure-support" data-structure-support aria-label="句子結構與寫作功能標籤支援">
+            <button class="writing-structure-launcher" type="button" data-structure-toggle aria-expanded="false" aria-controls="writing-structure-panel">
+              <small>SENTENCE STRUCTURES</small><strong>句子結構支援</strong><span>按句子功能查看適用句型</span>
+            </button>
+            <button class="writing-function-tag-launcher" type="button" data-function-tag-toggle aria-expanded="false" aria-controls="writing-structure-panel">
+              <small>FUNCTION TAGGING</small><strong>寫作功能標籤</strong><span>按跨段落論證作用尋找句型</span>
+            </button>
+            <div class="writing-structure-panel" id="writing-structure-panel" data-structure-panel hidden>
+              <div class="writing-structure-head" data-structure-drag><div><small data-structure-panel-eyebrow>SENTENCE STRUCTURES</small><h3 data-structure-panel-title>句子結構支援</h3></div><button type="button" data-structure-close aria-label="關閉句型支援面板">×</button></div>
+              <div class="writing-structure-scroll" data-structure-scroll>
+                <p class="writing-structure-heading" data-structure-heading></p>
+                <p class="writing-structure-mode-note" data-structure-mode-note hidden>功能標籤顯示句型可用的論證作用；請按題目與語境選用。</p>
+                <div class="writing-structure-select">
+                  <span id="writing-structure-function-label" data-structure-function-label>句子功能</span>
+                  <button class="writing-structure-select-trigger" type="button" data-structure-function-trigger aria-haspopup="listbox" aria-expanded="false" aria-controls="writing-structure-function-menu" aria-labelledby="writing-structure-function-label writing-structure-function-value"><span id="writing-structure-function-value" data-structure-function-value></span></button>
+                  <div class="writing-structure-select-menu" id="writing-structure-function-menu" data-structure-function-menu role="listbox" aria-label="選擇句子或跨段落功能" hidden></div>
+                </div>
+                <label class="writing-structure-search">搜尋句型 <input type="search" data-structure-search placeholder="英文句型或中文用途"></label>
+                <p class="writing-structure-count" data-structure-count aria-live="polite"></p>
+                <div class="writing-structure-results" data-structure-results></div>
+                <button class="writing-structure-more" type="button" data-structure-more hidden>顯示更多句型</button>
+              </div>
+              <span class="writing-structure-resize writing-structure-resize-nw" data-structure-resize="nw" role="separator" tabindex="0" aria-label="調整視窗左上角大小"></span>
+              <span class="writing-structure-resize writing-structure-resize-ne" data-structure-resize="ne" role="separator" tabindex="0" aria-label="調整視窗右上角大小"></span>
+              <span class="writing-structure-resize writing-structure-resize-sw" data-structure-resize="sw" role="separator" tabindex="0" aria-label="調整視窗左下角大小"></span>
+              <span class="writing-structure-resize writing-structure-resize-se" data-structure-resize="se" role="separator" tabindex="0" aria-label="調整視窗右下角大小"></span>
+            </div>
+          </aside>
           <aside class="writing-image-dock" data-writing-image-dock hidden aria-label="可移動的題目圖片參考視窗">
             <div class="writing-image-dock__head" data-writing-image-drag>
               <strong>題目圖片</strong><span data-writing-image-count></span>
               <button type="button" data-writing-image-minimise aria-label="收起題目圖片">−</button>
             </div>
+            <div class="writing-image-dock__topic" data-writing-image-topic hidden><small>WRITING TOPIC · 寫作題目</small><p data-writing-image-topic-text></p></div>
             <div class="writing-image-dock__image"><img data-writing-image-photo alt=""></div>
             <div class="writing-image-dock__navigation"><button type="button" data-writing-image-previous aria-label="上一張題目圖片">‹</button><span>拖動標題移動視窗 · 拉動四角調整大小</span><button type="button" data-writing-image-next aria-label="下一張題目圖片">›</button></div>
             <button type="button" class="writing-image-dock__corner is-nw" data-writing-image-resize="nw" aria-label="拖動左上角調整圖片視窗大小"></button>
@@ -175,9 +201,15 @@
           <button type="button" class="writing-image-dock-restore" data-writing-image-restore hidden>顯示題目圖片</button>
           <section class="editor-panel glass-panel">
             <div class="section-heading editor-heading">
-              <div>
-                <p class="eyebrow">WRITING AREA</p>
-                <h2 class="writing-editor-title">文章內容 <em data-proofreading-label hidden>校對時間</em></h2>
+              <div class="editor-heading-summary">
+                <div>
+                  <p class="eyebrow">WRITING AREA</p>
+                  <h2 class="writing-editor-title">文章內容 <em data-proofreading-label hidden>校對時間</em></h2>
+                </div>
+                <div class="editor-metrics" aria-live="polite">
+                  <strong data-word-count>0</strong>
+                  <span>words</span>
+                </div>
               </div>
               <div class="editor-heading-tools">
                 <button class="writing-timer-toggle" type="button" data-writing-timer-toggle aria-expanded="false" aria-controls="writing-timer-panel">
@@ -185,7 +217,6 @@
                   <span>Timer 計時器</span>
                   <strong data-writing-timer-toggle-display>00:00:00</strong>
                 </button>
-                <button class="small-button model-essay-toggle" type="button" data-model-essay-toggle hidden><span data-model-essay-toggle-label>顯示範文底字</span> <span data-model-essay-open-count></span></button>
                 <div class="writing-stopwatch" data-writing-stopwatch data-status="idle" aria-label="寫作秒錶">
                   <span aria-hidden="true">◷</span>
                   <span class="writing-stopwatch-copy"><small>Stopwatch 秒錶</small><strong data-writing-stopwatch-display>00:00:00</strong></span>
@@ -195,10 +226,9 @@
                     <button type="button" data-writing-stopwatch-reset disabled>重設</button>
                   </div>
                 </div>
-                <div class="editor-metrics" aria-live="polite">
-                  <strong data-word-count>0</strong>
-                  <span>words</span>
-                </div>
+                <button class="writing-helper-toggle" type="button" data-draft-helper-toggle aria-pressed="false" aria-controls="writing-draft-helper">Draft helper · 構思草稿</button>
+                <button class="writing-helper-toggle" type="button" data-function-helper-toggle aria-pressed="false" aria-controls="writing-function-helper">By-function Helper · 句子功能</button>
+                <button class="small-button model-essay-toggle" type="button" data-model-essay-toggle hidden><span data-model-essay-toggle-label>顯示範文底字</span> <span data-model-essay-open-count></span></button>
               </div>
             </div>
             <section class="model-essay-mini-panel" data-model-essay-mini-panel hidden aria-label="範文底字段落選擇">
@@ -238,6 +268,10 @@
               </div>
               <p class="writing-timer-status" data-writing-timer-status role="status" aria-live="polite">尚未開始倒數。</p>
             </section>
+            <section class="writing-draft-helper" id="writing-draft-helper" data-draft-helper hidden>
+              <div class="writing-helper-head"><div><p class="eyebrow">DRAFT HELPER</p><h3>構思與邏輯草稿</h3></div><small>構思會與文章一同保存；不計入正式文章字數。</small></div>
+              <textarea data-brainstorm-input rows="7" maxlength="20000" spellcheck="true" aria-label="構思與邏輯草稿" placeholder="先記下立場、論點、例子與段落次序……"></textarea>
+            </section>
             <label class="writing-field writing-field-main">
               <span class="sr-only">文章內容</span>
               <div class="writing-editor-stack" data-writing-editor-stack>
@@ -245,6 +279,11 @@
                 <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" aria-label="文章內容"></textarea>
               </div>
             </label>
+            <section class="writing-function-helper" id="writing-function-helper" data-function-helper hidden aria-label="按句子功能寫作">
+              <div class="writing-helper-head"><div><p class="eyebrow">BY-FUNCTION HELPER</p><h3>按句子功能寫作</h3></div></div>
+              <p class="writing-function-note">可一次開關整個段落，也可逐行調整；收起後已輸入的文字會保留。</p>
+              <div class="writing-function-fields" data-function-fields></div>
+            </section>
             <div class="editor-note">
               <span aria-hidden="true">✦</span>
               <p>完成一句後才檢查：系統不會在您仍然構思或輸入句子時打斷您。</p>
@@ -258,6 +297,7 @@
           </section>
 
           <div class="writing-reference-sidebar">
+          <section data-writing-reference-pocket aria-label="Writing reference pocket"></section>
           <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
             <div class="grammar-panel-heading">
               <div>
@@ -282,7 +322,6 @@
               </div>
             </div>
           </aside>
-          <section data-writing-reference-pocket aria-label="Writing reference pocket"></section>
           </div>
         </div>
       </form>
@@ -537,24 +576,35 @@
         <div><p class="eyebrow">WRITING PRACTICE QUESTIONS</p><h2 id="topic-picker-title" data-topic-picker-title>選擇寫作練習題目</h2></div>
         <button class="dialog-close" type="button" data-topic-picker-close aria-label="關閉題目選擇器">×</button>
       </header>
-      <div class="topic-picker-categories" aria-label="題目類別">
-        <button type="button" class="small-button" data-topic-picker-category="all">全部題目</button>
-        <button type="button" class="small-button" data-topic-picker-category="writing">寫作題目</button>
-        <button type="button" class="small-button" data-topic-picker-category="dse-group">DSE 小組討論</button>
-        <button type="button" class="small-button" data-topic-picker-category="dse-individual">DSE 個人回應</button>
-        <button type="button" class="small-button" data-topic-picker-category="ielts-1">IELTS Speaking Part 1</button>
-        <button type="button" class="small-button" data-topic-picker-category="ielts-2">IELTS Speaking Part 2</button>
-        <button type="button" class="small-button" data-topic-picker-category="ielts-3">IELTS Speaking Part 3</button>
-      </div>
-      <div class="topic-picker-categories topic-picker-subcategories"><button type="button" class="small-button" data-paper3-topic-category="B1">DSE Integrated Skills (Part B) · B1</button><button type="button" class="small-button" data-paper3-topic-category="B2">DSE Integrated Skills (Part B) · B2</button></div>
+      <nav class="topic-picker-hierarchy" aria-label="題目類別">
+        <section class="topic-picker-level">
+          <h3><span>01</span> 選擇考試類別</h3>
+          <div class="topic-picker-categories" data-topic-picker-exams>
+            <button type="button" class="small-button" data-topic-picker-exam="dse">DSE</button>
+            <button type="button" class="small-button" data-topic-picker-exam="ielts">IELTS</button>
+            <button type="button" class="small-button" data-topic-picker-exam="non-exam">Non-exam · 非考試</button>
+          </div>
+        </section>
+        <section class="topic-picker-level" data-topic-picker-tracks hidden>
+          <h3><span>02</span> 選擇練習種類</h3>
+          <div class="topic-picker-categories" data-topic-picker-track-options></div>
+        </section>
+        <section class="topic-picker-level" data-topic-picker-leaves hidden>
+          <h3><span>03</span> 選擇部分</h3>
+          <div class="topic-picker-categories" data-topic-picker-leaf-options></div>
+        </section>
+      </nav>
       <label class="topic-picker-search">
-        <span>搜尋題目、考試、類型或關鍵字</span>
-        <input type="search" data-topic-picker-search autocomplete="off" placeholder="例如：DSE speaking、IELTS Part 2、2025、environment">
+        <span>搜尋目前類別的題目或關鍵字</span>
+        <input type="search" data-topic-picker-search autocomplete="off" placeholder="先選擇題目類別" disabled>
       </label>
       <p class="topic-picker-note" data-topic-picker-note>選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。</p>
       <p class="topic-picker-count" data-topic-picker-count aria-live="polite"></p>
       <div class="topic-picker-results" data-topic-picker-results aria-live="polite"></div>
-      <button class="secondary-button topic-picker-more" type="button" data-topic-picker-more hidden>顯示更多題目</button>
+      <div class="topic-picker-pager">
+        <button class="secondary-button" type="button" data-topic-picker-previous hidden>上一頁</button>
+        <button class="secondary-button" type="button" data-topic-picker-more hidden>下一頁</button>
+      </div>
     </div>
   </dialog>
 
@@ -695,6 +745,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-speaking-topics1"></script>
+  <script type="module" src="writing-submission.js?v=20261021-phoebe-paragraph-toggle"></script>
 </body>
 </html>

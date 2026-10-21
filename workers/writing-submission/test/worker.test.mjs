@@ -2939,12 +2939,13 @@ test("a valid submission derives its owner and word count on the Worker", async 
       assert.equal(rpc.body.p_token, STUDENT_TOKEN);
       return jsonResponse(studentProfile());
     }
-    if (rpc.name === "writing_submission_submit_v4") {
+    if (rpc.name === "writing_submission_submit_v5") {
       submittedPayload = rpc.body;
       return jsonResponse([{
         id: rpc.body.p_id,
         topic: rpc.body.p_topic,
         answer: rpc.body.p_answer,
+        brainstorm: rpc.body.p_brainstorm,
         word_count: rpc.body.p_word_count,
         duration_seconds: rpc.body.p_duration_seconds,
         submitted_at: "2026-07-31T00:00:00.000Z"
@@ -2966,6 +2967,7 @@ test("a valid submission derives its owner and word count on the Worker", async 
       body: JSON.stringify({
         topic: "Should companies require uniforms?",
         answer: "Many companies require staff to wear uniforms.",
+        brainstorm: "Uniforms may build a shared identity.",
         durationSeconds: 725
       })
     }
@@ -2977,8 +2979,10 @@ test("a valid submission derives its owner and word count on the Worker", async 
   assert.equal(submittedPayload.p_id, SUBMISSION_ID);
   assert.equal(submittedPayload.p_word_count, 7);
   assert.equal(submittedPayload.p_duration_seconds, 725);
+  assert.equal(submittedPayload.p_brainstorm, 'Uniforms may build a shared identity.');
   assert.equal(JSON.parse(responseText).submission.wordCount, 7);
   assert.equal(JSON.parse(responseText).submission.durationSeconds, 725);
+  assert.equal(JSON.parse(responseText).submission.brainstorm, 'Uniforms may build a shared identity.');
 });
 
 test("submission payloads cannot choose a student ID or add unknown fields", async t => {
@@ -2988,7 +2992,7 @@ test("submission payloads cannot choose a student ID or add unknown fields", asy
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit_v4") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v5") submitCalled = true;
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3021,7 +3025,7 @@ test("submission writes require JSON and are bounded before the storage RPC", as
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit_v4") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v5") submitCalled = true;
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3046,7 +3050,7 @@ test("submission topic resources must be canonical and available to the authenti
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile({ access }));
-    if (rpc.name === "writing_submission_submit_v4") {
+    if (rpc.name === "writing_submission_submit_v5") {
       submitCalled = true;
       assert.deepEqual(rpc.body.p_topic_resource, CANONICAL_DSE_TOPIC);
       return jsonResponse([{
@@ -3130,6 +3134,7 @@ test("student history is paginated and full detail includes grammar occurrences"
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
+    if (rpc.name === 'writing_submission_brainstorm_get') return jsonResponse('Outline before writing.');
     if (rpc.name === "writing_submission_list_occurrences") {
       return jsonResponse([{
         ...occurrence(),
@@ -3163,6 +3168,7 @@ test("student history is paginated and full detail includes grammar occurrences"
   assert.equal(detailResponse.status, 200);
   const detailBody = await detailResponse.json();
   assert.equal(detailBody.submission.answer, "Full answer.");
+  assert.equal(detailBody.submission.brainstorm, 'Outline before writing.');
   assert.equal(detailBody.submission.durationSeconds, 360);
   assert.equal(detailBody.grammarOccurrences[0].ruleId, "SubjectVerbAgreement");
   assert.equal(detailBody.grammarOccurrences[0].correctedSentence, "More companies require staff.");
@@ -3623,6 +3629,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
+    if (rpc.name === 'writing_submission_admin_brainstorm_get') return jsonResponse('Student notes.');
     if (rpc.name === "writing_submission_admin_list_occurrences") return jsonResponse([]);
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
@@ -3651,7 +3658,9 @@ test("administrator list and detail routes use only the dedicated admin token", 
     { headers: authHeaders }
   ), environment());
   assert.equal(detailResponse.status, 200);
-  assert.equal((await detailResponse.json()).submission.answer, "Full answer");
+  const adminDetail = (await detailResponse.json()).submission;
+  assert.equal(adminDetail.answer, "Full answer");
+  assert.equal(adminDetail.brainstorm, 'Student notes.');
 });
 
 test("administrator proxy submissions are authenticated, normalized and audited through one RPC", async t => {
@@ -5482,9 +5491,10 @@ test("student drafts round-trip only through their authenticated owner", async t
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_save_draft") return jsonResponse([draftRow]);
+    if (rpc.name === "writing_submission_save_draft_v2") return jsonResponse([draftRow]);
     if (rpc.name === "writing_submission_list_drafts") return jsonResponse([draftRow]);
     if (rpc.name === "writing_submission_get_draft") return jsonResponse([draftRow]);
+    if (rpc.name === 'writing_submission_draft_planning_get') return jsonResponse([{brainstorm:'Plan first.',function_helper:{active:false,enabled:[],values:{},unassigned:''},draft_helper_open:true}]);
     if (rpc.name === "writing_submission_delete_draft") return jsonResponse(1);
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
@@ -5493,6 +5503,9 @@ test("student drafts round-trip only through their authenticated owner", async t
   const draftPayload = {
     topic: draftRow.topic,
     answer: draftRow.answer,
+    brainstorm: 'Plan first.',
+    functionHelper: { active: true, enabled: ['intro-stance'], values: { 'intro-stance': 'I agree.' }, unassigned: '' },
+    draftHelperOpen: true,
     topicResource: draftRow.topic_resource,
     imageZoom: 3,
     countdown: draftRow.countdown_state,
@@ -5512,12 +5525,22 @@ test("student drafts round-trip only through their authenticated owner", async t
     }
   ), environment());
   assert.equal(putResponse.status, 200, await putResponse.clone().text());
-  const savedCall = calls.find(call => call.name === "writing_submission_save_draft");
+  const savedCall = calls.find(call => call.name === "writing_submission_save_draft_v2");
   assert.equal(savedCall.body.p_student_id, STUDENT_ID);
   assert.equal(savedCall.body.p_id, SUBMISSION_ID);
   assert.equal(savedCall.body.p_image_zoom_tenths, 30);
   assert.deepEqual(savedCall.body.p_topic_resource, draftRow.topic_resource);
+  assert.equal(savedCall.body.p_brainstorm, 'Plan first.');
+  assert.equal(savedCall.body.p_function_helper.values['intro-stance'], 'I agree.');
   assert.deepEqual((await putResponse.json()).draft.stopwatch, draftRow.stopwatch_state);
+
+  const planningOnly = await worker.fetch(new Request(`https://worker.example/v1/drafts/${SUBMISSION_ID}`, {
+    method: 'PUT',
+    headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ...draftPayload, topic: '', answer: '', brainstorm: 'A preliminary outline.' })
+  }), environment());
+  assert.equal(planningOnly.status, 200, await planningOnly.clone().text());
+  assert.equal(calls.filter(call => call.name === 'writing_submission_save_draft_v2').at(-1).body.p_brainstorm, 'A preliminary outline.');
 
   const listResponse = await worker.fetch(new Request(
     "https://worker.example/v1/drafts?page=1&pageSize=20",
@@ -5555,10 +5578,10 @@ test("trusted R2 question images save as canonical paths in drafts and submissio
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_save_draft") {
+    if (rpc.name === "writing_submission_save_draft_v2") {
       return jsonResponse([{ id: SUBMISSION_ID, topic: rpc.body.p_topic, topic_resource: rpc.body.p_topic_resource }]);
     }
-    if (rpc.name === "writing_submission_submit_v4") {
+    if (rpc.name === "writing_submission_submit_v5") {
       return jsonResponse([{
         id: SUBMISSION_ID, topic: rpc.body.p_topic, word_count: rpc.body.p_word_count,
         topic_resource: rpc.body.p_topic_resource
@@ -5594,7 +5617,7 @@ test("trusted R2 question images save as canonical paths in drafts and submissio
     })
   }), environment());
   assert.equal(draft.status, 200, await draft.clone().text());
-  assert.deepEqual(calls.find(call => call.name === "writing_submission_save_draft").body.p_topic_resource, CANONICAL_DSE_TOPIC);
+  assert.deepEqual(calls.find(call => call.name === "writing_submission_save_draft_v2").body.p_topic_resource, CANONICAL_DSE_TOPIC);
 
   const submission = await worker.fetch(new Request(`https://worker.example/v1/submissions/${SUBMISSION_ID}`, {
     method: "PUT", headers,
@@ -5604,7 +5627,7 @@ test("trusted R2 question images save as canonical paths in drafts and submissio
     })
   }), environment());
   assert.equal(submission.status, 200, await submission.clone().text());
-  assert.deepEqual(calls.find(call => call.name === "writing_submission_submit_v4").body.p_topic_resource, CANONICAL_DSE_TOPIC);
+  assert.deepEqual(calls.find(call => call.name === "writing_submission_submit_v5").body.p_topic_resource, CANONICAL_DSE_TOPIC);
 });
 
 test("draft topic images reject remote and embedded sources before storage", async t => {
@@ -5614,7 +5637,7 @@ test("draft topic images reject remote and embedded sources before storage", asy
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_save_draft") saveCalled = true;
+    if (rpc.name === "writing_submission_save_draft_v2") saveCalled = true;
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };

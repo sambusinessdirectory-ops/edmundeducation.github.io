@@ -2942,7 +2942,29 @@ function suggestedAnswerHtml(question, studentAnswer = null) {
 }
 
 function usesPhrasalChoices(lesson = getLesson()) {
-  return lesson?.order === 1 || lesson?.order === 10;
+  return Boolean(lesson?.questions?.length);
+}
+
+let phrasalChoiceCatalog = null;
+
+function getPhrasalChoiceCatalog() {
+  if (phrasalChoiceCatalog) return phrasalChoiceCatalog;
+  const formsByLesson = new Map();
+  const meaningsByForm = new Map();
+  for (const lesson of CONTENT.lessons) {
+    const forms = new Set();
+    for (const question of lesson.questions || []) {
+      const form = String(question.targetForm || "").trim();
+      if (!form) continue;
+      forms.add(form);
+      if (!meaningsByForm.has(form)) meaningsByForm.set(form, new Set());
+      const meaning = String(question.targetMeaningZh || "").trim();
+      if (meaning) meaningsByForm.get(form).add(meaning);
+    }
+    formsByLesson.set(lesson.id, [...forms]);
+  }
+  phrasalChoiceCatalog = { formsByLesson, meaningsByForm, allForms: [...meaningsByForm.keys()] };
+  return phrasalChoiceCatalog;
 }
 
 function phrasalChoiceScore(value) {
@@ -2954,36 +2976,64 @@ function phrasalChoiceScore(value) {
   return hash >>> 0;
 }
 
+function lowestScoringForms(forms, count, score, eligible) {
+  const ranked = [];
+  for (const form of forms) {
+    if (!eligible(form)) continue;
+    const value = score(form);
+    let index = 0;
+    while (index < ranked.length && (ranked[index].value < value
+      || (ranked[index].value === value && ranked[index].form.localeCompare(form) < 0))) index += 1;
+    if (index >= count) continue;
+    ranked.splice(index, 0, { form, value });
+    if (ranked.length > count) ranked.pop();
+  }
+  return ranked.map((item) => item.form);
+}
+
 function phrasalChoices(lesson, question, attemptId = state.exercise?.id || "") {
   const correct = String(question.targetForm || "").trim();
-  const forms = [...new Set((lesson.questions || []).map((item) => String(item.targetForm || "").trim()).filter(Boolean))];
-  if (!correct || forms.length < 6) return [];
-  const meaningsByForm = new Map();
-  for (const item of lesson.questions || []) {
-    const form = String(item.targetForm || "").trim();
-    const meaning = String(item.targetMeaningZh || "").trim();
-    if (form && meaning) {
-      if (!meaningsByForm.has(form)) meaningsByForm.set(form, new Set());
-      meaningsByForm.get(form).add(meaning);
-    }
-  }
+  if (!correct) return [];
+  const { formsByLesson, meaningsByForm, allForms } = getPhrasalChoiceCatalog();
+  const forms = formsByLesson.get(lesson.id) || [];
   const correctMeanings = meaningsByForm.get(correct) || new Set();
+  const distinctMeaning = (form) => {
+    if (form === correct) return false;
+    for (const meaning of meaningsByForm.get(form) || []) {
+      if (correctMeanings.has(meaning)) return false;
+    }
+    return true;
+  };
   const seed = `${attemptId}:${question.id}`;
   const score = (form) => phrasalChoiceScore(`${seed}:${form}`);
-  const distractors = forms.filter((form) => form !== correct && ![...(meaningsByForm.get(form) || [])].some((meaning) => correctMeanings.has(meaning)))
-    .sort((left, right) => score(left) - score(right) || left.localeCompare(right))
-    .slice(0, 5);
+  const distractors = lowestScoringForms(forms, 5, score, distinctMeaning);
+  if (distractors.length < 5) {
+    // A deterministic draw keeps choices fixed after a wrong tap without sorting
+    // the entire catalog for every question in a small-form module.
+    for (let draw = 0; distractors.length < 5 && draw < allForms.length * 2; draw += 1) {
+      const index = phrasalChoiceScore(`${seed}:fallback:${draw}`) % allForms.length;
+      const form = allForms[index];
+      if (distinctMeaning(form) && !distractors.includes(form)) distractors.push(form);
+    }
+    if (distractors.length < 5) {
+      for (const form of allForms) {
+        if (distinctMeaning(form) && !distractors.includes(form)) distractors.push(form);
+        if (distractors.length === 5) break;
+      }
+    }
+  }
   return [correct, ...distractors]
     .sort((left, right) => score(`position:${left}`) - score(`position:${right}`) || left.localeCompare(right));
 }
 
 function phrasalChoiceQuestionHtml(lesson, question) {
   const correct = state.exercise.correctIds.includes(question.id);
-  const selected = correct ? String(question.targetForm || "") : String(state.exercise.drafts[question.id] || "");
+  const choices = phrasalChoices(lesson, question);
+  const draft = String(state.exercise.drafts[question.id] || "");
+  const selected = correct ? String(question.targetForm || "") : choices.includes(draft) ? draft : "";
   const wrong = Boolean(selected) && !correct;
   const collapsed = correct && state.exercise.collapsedCorrectIds.includes(question.id);
   const bookmarked = isBookmarked(lesson.id, question.id);
-  const choices = phrasalChoices(lesson, question);
   return `<article class="question-card choice-question ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || "")}"${correct ? ` data-edmund-answer-text="${escapeHtml(question.answer || "")}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`動詞片語 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}</span><div class="question-card-actions">
       ${correct ? `<button class="question-visibility-button" type="button" data-toggle-correct-card="${escapeHtml(question.id)}" aria-expanded="${!collapsed}">${collapsed ? "顯示已完成題目" : "隱藏已完成題目"}</button>` : ""}
@@ -3362,6 +3412,7 @@ function selectPhrasalChoice(questionId, form) {
     // Wrong guesses stay local. The server's historical sentence-answer format
     // reveals wrong answers, which would disclose this choice before success.
     state.exercise.drafts[questionId] = form;
+    window.EdmundAnswerSound?.play(false);
     renderExercisePage(lesson, { preserveScroll: true });
     return;
   }
@@ -3393,6 +3444,7 @@ function selectPhrasalChoice(questionId, form) {
   if (isBookmarked(lesson.id, questionId) && upgradeBookmarkAnswer(lesson.id, questionId)) {
     saveBookmarks().catch((error) => console.warn("Phrasal Verb bookmark answer upgrade failed", error));
   }
+  window.EdmundAnswerSound?.play(true);
   renderExercisePage(lesson, { preserveScroll: true });
   scheduleExercisePersistence();
 }

@@ -2,6 +2,7 @@
   'use strict';
   const core = window.EdmundSentenceAnalysis;
   const benchmark = window.EDMUND_B2_SENTENCE_ANALYSIS?.records;
+  const referenceHighlights = window.EDMUND_B2_CURATION_HIGHLIGHTS || {};
   if (!core || !benchmark || !document.querySelector('#page-4 .sentence-item')) return;
 
   const VERSION = '2025-b2-super-curation-v1';
@@ -10,7 +11,7 @@
     {id:'boss', name:'1 · Boss letter', short:'任務指示', description:'先找寫作身分、文類、讀者、內容要求和指定來源。'},
     {id:'categorize', name:'2 · Data categorization', short:'資料分類', description:'先按題目與文件標題作暫定分類，再在閱讀後修正。'},
     {id:'podcast', name:'3 · Podcast', short:'聆聽錄音', description:'聽到經核對的關鍵段落開端時暫停，先記筆記，再看逐句稿。'},
-    {id:'data', name:'4 · Data File / Fact file', short:'逐句取證', description:'依 Task A → B → C 閱讀，不按頁碼機械地讀。'},
+    {id:'data', name:'4 · Data File / Fact file', short:'逐句取證', description:'按資料頁連續閱讀；讀到跨任務線索，就換相應顏色並追加標記。'},
     {id:'writing', name:'5 · Three writing tasks', short:'三篇寫作', description:'先組織自己的內容與草稿，再按任務要求校對。'}
   ];
   const labels = {1:'Task A · 可用內容',2:'Task B · 可用內容',3:'Task C · 可用內容',4:'語義相關 / 語氣',5:'提示 / 更新線索',6:'噪音 / 不採用'};
@@ -31,14 +32,15 @@
   };
   const pageSections = {4:'boss-letter',5:'duncan-henley-emails',6:'wellness-poster',7:'student-interview',8:'whatsapp-chat',9:'duncan-singh-emails',10:'influator-blog',11:'sports-article'};
   const categoryPages = [
-    {page:5,title:'Duncan ↔ Henley 電郵',initial:'Boss letter 指向這串電郵，先標 Task A；只把它當來源路線，未讀完前別抄活動名。',revision:'從最早一封往最新一封讀。Task A 的舊活動要受最新決定約束；新活動的線索則留給 Task B。',tasks:['A','B']},
-    {page:6,title:'2024 健康月海報',initial:'標 Task A 的候選資料。這是 2024 年海報，不能假定每項活動在 2025 年都再辦。',revision:'逐項和第 5 頁最新電郵及錄音核對。保留獲確認活動，刪除取消或改動的細節。',tasks:['A']},
-    {page:7,title:'校園電視訪問',initial:'Boss letter 要 student feedback；先標 Task A，留意訪談的說話者。',revision:'學生的評價支援 Task A；家長義工與親子互動的經驗可轉給 Task C。分類可在讀到後半段時追加。',tasks:['A','C']},
-    {page:8,title:'WhatsApp 對話',initial:'Boss letter 指向 WhatsApp 作 proposal 起點，先標 Task B。',revision:'圈出活動目的與運動篩選條件；校長仍待看 proposal，不能寫成已批准。',tasks:['B']},
-    {page:9,title:'Duncan ↔ Singh 電郵',initial:'Boss letter 指向 Singh 電郵處理家長義工，先標 Task C。',revision:'讀下去才會發現交通與海灘選擇也支援 Task B；將資料分別存入兩個任務。',tasks:['C','B']},
-    {page:10,title:'網誌、圖表與運動電郵',initial:'先看各文件標題：家長參與網誌指向 Task C，運動電郵指向 Task B。',revision:'網誌的社會／氣氛理由須轉述；運動電郵提供排除條件。圖表不要不加解釋地當成健康月校內數據。',tasks:['C','B']},
-    {page:11,title:'運動雜誌文章',initial:'按 WhatsApp 的選項條件，先標 Task B；不是所有介紹的運動都合適。',revision:'把每項運動與新鮮感、活動量、初學者難度、水上風險和交通條件逐一對照，排除不合者。',tasks:['B']}
+    {page:5,title:'活動篩選電郵',initial:'Boss letter 指向這串電郵，先標 Task A；只把它當來源路線，未讀完前別抄活動名。',revision:'從最早一封往最新一封讀。Task A 的舊活動要受最新決定約束；新活動的線索則留給 Task B。',tasks:['A','B']},
+    {page:6,title:'2024 健康月原海報',initial:'標 Task A 的候選資料。這是 2024 年海報，不能假定每項活動在 2025 年都再辦。',revision:'逐項和第 5 頁最新電郵及錄音核對。保留獲確認活動，刪除取消或改動的細節。',tasks:['A']},
+    {page:7,title:'校園電視完整訪問',initial:'Boss letter 要 student feedback；先標 Task A，留意訪談的說話者。',revision:'學生的評價支援 Task A；家長義工與親子互動的經驗可轉給 Task C。分類可在讀到後半段時追加。',tasks:['A','C']},
+    {page:8,title:'WhatsApp 完整對話',initial:'Boss letter 指向 WhatsApp 作 proposal 起點，先標 Task B。',revision:'圈出活動目的與運動篩選條件；校長仍待看 proposal，不能寫成已批准。',tasks:['B']},
+    {page:9,title:'家長職責與交通安排',initial:'Boss letter 指向 Singh 電郵處理家長義工，先標 Task C。',revision:'讀下去才會發現交通與海灘選擇也支援 Task B；將資料分別存入兩個任務。',tasks:['C','B']},
+    {page:10,title:'網誌、原圖表與運動電郵',initial:'先看各文件標題：家長參與網誌指向 Task C，運動電郵指向 Task B。',revision:'網誌的社會／氣氛理由須轉述；運動電郵提供排除條件。圖表不要不加解釋地當成健康月校內數據。',tasks:['C','B']},
+    {page:11,title:'運動雜誌完整文章',initial:'按 WhatsApp 的選項條件，先標 Task B；不是所有介紹的運動都合適。',revision:'把每項運動與新鮮感、活動量、初學者難度、水上風險和交通條件逐一對照，排除不合者。',tasks:['B']}
   ];
+  const categoryInitialTasks=entry=>entry.page===10?['B','C']:[entry.tasks[0]];
   // Word onsets were aligned against the supplied 8:37.5 meeting recording and checked against the reader transcript.
   const podcastCues = [
     {id:'july',at:169.2,page:14,quote:'Wellness Month starts in July',title:'先抓年份與月份',task:'A',help:'健康月在七月，亞運週在十月。不要把兩件活動的日期合併。'},
@@ -115,29 +117,45 @@
     const section=sourceSection(span);
     const text=span.textContent.trim();
     const record=recordFor(text,section,span.parentElement?.textContent||'');
-    const emailIndex=page===5?$$('#page-5 .email').indexOf(span.closest('.email')):-1;const base={id:`source-${page}-${index}`,target:span,page,quote:text,record,type:typeOf(record),order:index,section,provisional:emailIndex>0};
+    const emailIndex=page===5?$$('#page-5 .email').indexOf(span.closest('.email')):-1;const base={id:`source-${page}-${index}`,target:span,page,quote:text,record,type:typeOf(record),order:index,section,provisional:emailIndex>0 && typeOf(record)===1};
     if(page===4) steps.boss.push({...base,chapter:'boss',title:'Boss letter · 讀任務與來源',task:null});
     else steps.data.push({...base,chapter:'data',title:'Data File · 逐句判讀',task:inferTask(page,section,record,text)});
   });
   categoryPages.forEach((entry,index)=>steps.categorize.push({id:`category-${entry.page}`,chapter:'categorize',title:entry.title,page:entry.page,quote:entry.title,target:$(`#page-${entry.page} .page-heading h2`),entry,order:index}));
   podcastCues.forEach((cue,index)=>{const target=transcriptSentences.find(item=>item.page===cue.page&&normalize(item.span.textContent).includes(normalize(cue.quote)))?.span;steps.podcast.push({id:`cue-${cue.id}`,chapter:'podcast',title:cue.title,page:cue.page,quote:target?.textContent.trim()||cue.quote,target:target||$(`#page-${cue.page} .page-heading h2`),cue:{...cue,from:Math.max(0,cue.at-18)},bankTask:cue.task,order:index});});
   for(const task of ['A','B','C']) writingPrompts[task].forEach(([title,lead,hint],index)=>steps.writing.push({id:`writing-${task}-${index}`,chapter:'writing',title:`Task ${task} · ${title}`,quote:title,lead,hint,task,order:index,target:$('#practice')}));
+  // Preserve the old order only to migrate existing save-slot positions.
   const pageRank={A:[5,6,7,8,9,10,11],B:[8,9,10,11,5,6,7],C:[9,10,7,5,6,8,11]};
-  steps.data.sort((a,b)=>{
+  const legacyTaskOrder=(a,b)=>{
     if(a.task!==b.task)return 'ABC'.indexOf(a.task)-'ABC'.indexOf(b.task);
-    const pages=pageRank[a.task];const pd=pages.indexOf(a.page)-pages.indexOf(b.page);if(pd)return pd;
+    const pd=pageRank[a.task].indexOf(a.page)-pageRank[b.task].indexOf(b.page);if(pd)return pd;
     if([5,9].includes(a.page)){
       const emails=$$(`#page-${a.page} .email`);
       const ai=emails.indexOf(a.target.closest('.email')),bi=emails.indexOf(b.target.closest('.email'));
-      if(ai>=0&&bi>=0&&ai!==bi)return bi-ai; // read an email chain from the oldest message upwards
+      if(ai>=0&&bi>=0&&ai!==bi)return bi-ai;
+    }
+    return a.order-b.order;
+  };
+  const candidateIds=new Set(['duncan-henley-emails-9','duncan-henley-emails-11','duncan-henley-emails-12','duncan-henley-emails-19']);
+  const legacyDataSteps=steps.data.slice().sort(legacyTaskOrder);
+  const legacyConfirmed=legacyDataSteps.filter(step=>step.task==='A'&&step.page===5&&candidateIds.has(step.record?.id)).map(step=>({...step,id:`${step.id}-confirmed`}));
+  const legacyLastA=legacyDataSteps.findLastIndex(step=>step.task==='A'&&step.page===5);
+  if(legacyLastA>=0)legacyDataSteps.splice(legacyLastA+1,0,...legacyConfirmed);
+  const legacyDataIds=legacyDataSteps.map(step=>step.id);
+  // Keep reading the current page when its evidence changes task; only email threads run oldest to newest.
+  steps.data.sort((a,b)=>{
+    if(a.page!==b.page)return a.page-b.page;
+    if([5,9].includes(a.page)){
+      const emails=$$(`#page-${a.page} .email`);
+      const ai=emails.indexOf(a.target.closest('.email')),bi=emails.indexOf(b.target.closest('.email'));
+      if(ai>=0&&bi>=0&&ai!==bi)return bi-ai;
     }
     return a.order-b.order;
   });
-  // Revisit earlier suggestions only after the newest reply has confirmed the three returning events.
-  const candidateIds=new Set(['duncan-henley-emails-9','duncan-henley-emails-11','duncan-henley-emails-12','duncan-henley-emails-19']);
-  const confirmed=steps.data.filter(step=>step.task==='A'&&step.page===5&&candidateIds.has(step.record?.id)).map(step=>({...step,id:`${step.id}-confirmed`,title:'回看舊電郵 · 核對後才取證',provisional:false,confirmed:true}));
-  const lastAEmail=steps.data.findLastIndex(step=>step.task==='A'&&step.page===5);
-  if(lastAEmail>=0)steps.data.splice(lastAEmail+1,0,...confirmed);
+  // Revisit earlier proposals at the end of page 5 after the newest email confirms the choices.
+  const confirmed=steps.data.filter(step=>step.page===5&&candidateIds.has(step.record?.id)).map(step=>({...step,id:`${step.id}-confirmed`,title:'回看舊電郵 · 核對後才取證',provisional:false,confirmed:true}));
+  const lastPageFive=steps.data.findLastIndex(step=>step.page===5);
+  if(lastPageFive>=0)steps.data.splice(lastPageFive+1,0,...confirmed);
   // After the guided answer pauses, every transcript sentence has its own optional review step.
   transcriptSentences.forEach(({span,page,speaker},index)=>{
     const quote=span.textContent.trim();
@@ -146,14 +164,147 @@
     if((page===16||page===17)&&/attend a briefing session|through the school app/i.test(quote))bankTask='C';
     steps.podcast.push({id:`transcript-${page}-${index}`,chapter:'podcast',title:`逐句錄音稿 · ${speaker}`,page,quote,target:span,transcript:true,bankTask,order:index,speaker});
   });
+  const legacyBossIds=steps.boss.map(step=>step.id);
+  const bossAnnotations=[
+    {find:'draft an article',marks:[['an article','A'],['the Wellness Month','A']]},
+    {find:'The article should give',marks:[['basic information about the three events from 2024','A','1'],['decided to include again','A']]},
+    {find:'Make sure to include student feedback',marks:[['student feedback on the 2024 Wellness Month','A','2']]},
+    {find:'refer to the emails between',marks:[['emails between Ms Henley and I to begin with','hint']]},
+    {find:'draft a proposal',marks:[['a proposal','B'],['Sports Day at the Beach','B']]},
+    {find:'brand-new event',marks:[['Dr Chan’s approval first','hint']]},
+    {find:'Make sure you explain why',marks:[['explain why we are proposing this new event','B','1'],['which two sports we’ve chosen','B','2'],['some basic information about them','B','3'],['why we included these sports','B','4']]},
+    {find:'included screenshots of a WhatsApp',marks:[['screenshots of a WhatsApp chat between Ms Henley and Dr Chan, which would be a good place to start','hint']]},
+    {find:'write a letter to parents',marks:[['a letter to parents','C']]},
+    {find:'highlight the benefits',marks:[['highlight the benefits','C','1'],['outline the responsibilities','C','2'],['how they can get involved','C','3']]},
+    {find:'discussing this over email',marks:[['discussing this over email with Mr Singh','hint']]},
+    {find:'sent you this exchange',marks:[['this exchange to read','hint']]},
+    {find:'recording of our meeting',marks:[['recording of our meeting with Ms Henley','hint']]}
+  ];
+  function markPhrase(root,phrase,kind,point,stepId){
+    const text=root.textContent;const canonical=value=>value.replace(/[’‘]/g,"'");const at=canonical(text).indexOf(canonical(phrase));if(at<0)return;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);const nodes=[];let node;let offset=0;
+    while((node=walker.nextNode())){nodes.push({node,start:offset,end:offset+node.length});offset+=node.length;}
+    const first=nodes.find(n=>n.end>at),last=nodes.find(n=>n.end>=at+phrase.length);
+    if(!first||!last)return;
+    const range=document.createRange();range.setStart(first.node,at-first.start);range.setEnd(last.node,at+phrase.length-last.start);
+    const mark=el('mark',`curation-mark curation-mark-${kind}`);if(phrase.length<=25)mark.classList.add('curation-short-phrase');mark.dataset.stepId=stepId;if(point)mark.dataset.point=point;
+    mark.append(range.extractContents());range.insertNode(mark);
+  }
+  function highlightPanelPhrase(root,phrase,color){
+    const canonical=value=>value.replace(/[’‘]/g,"'");
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
+    while((node=walker.nextNode())){
+      if(node.parentElement.closest('.curation-reference-mark'))continue;
+      const at=canonical(node.textContent).toLocaleLowerCase().indexOf(canonical(phrase).toLocaleLowerCase());if(at<0)continue;
+      const range=document.createRange();range.setStart(node,at);range.setEnd(node,at+phrase.length);
+      const mark=el('mark',`curation-reference-mark curation-reference-${color}`);mark.append(range.extractContents());range.insertNode(mark);return true;
+    }
+    return false;
+  }
+  function syncDataMarks(){
+    const seen=new Set(steps.data.slice(0,progressCutoff('data')+1).map(step=>step.target));
+    $$('.curation-source-mark').forEach(mark=>mark.classList.toggle('is-revealed',seen.has(mark.closest('.sentence-item'))));
+    $$('.curation-source-fallback').forEach(sentence=>sentence.classList.toggle('is-revealed',seen.has(sentence)));
+    $$('.curation-strike').forEach(sentence=>sentence.classList.toggle('is-revealed',seen.has(sentence)));
+  }
+  function protectBossTail(root){
+    const match=root.textContent.match(/(?:[A-Za-z][\w’'-]*\s+){2}[A-Za-z][\w’'-]*[.!?]?$/);
+    if(!match)return;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
+    while((node=walker.nextNode())){
+      if(node.parentElement.closest('.curation-mark'))continue;
+      const index=node.textContent.lastIndexOf(match[0]);if(index<0)continue;
+      const range=document.createRange();range.setStart(node,index);range.setEnd(node,index+match[0].length);
+      const nowrap=el('span','curation-no-orphan');nowrap.append(range.extractContents());range.insertNode(nowrap);return;
+    }
+  }
+  function protectBossHead(root){
+    const match=root.textContent.match(/^(?:[A-Za-z][\w’'-]*\s+){2}[A-Za-z][\w’'-]*/);
+    if(!match)return;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
+    while((node=walker.nextNode())){
+      if(node.parentElement.closest('.curation-mark'))continue;
+      const index=node.textContent.indexOf(match[0]);if(index<0)continue;
+      const range=document.createRange();range.setStart(node,index);range.setEnd(node,index+match[0].length);
+      const nowrap=el('span','curation-no-orphan');nowrap.append(range.extractContents());range.insertNode(nowrap);return;
+    }
+  }
+  for(const step of steps.boss){
+    const spec=bossAnnotations.find(entry=>step.quote.includes(entry.find));if(!spec)continue;
+    step.task=spec.marks.find(mark=>/[ABC]/.test(mark[1]))?.[1]||null;
+    for(const [phrase,kind,point] of spec.marks)markPhrase(step.target,phrase,kind,point,step.id);
+    protectBossHead(step.target);
+    protectBossTail(step.target);
+    const paragraph=step.target.closest('p[lang="en"]');if(paragraph&&step.task)paragraph.dataset.curationTask=step.task;
+  }
+  // A green source cue is followed immediately by a visit to that source, then the next boss sentence.
+  const bossRoutes=[
+    {find:'refer to the emails between',page:5,task:'A',name:'Duncan ↔ Henley 電郵',note:'Boss letter 指向這串電郵。立即在第 5 頁標 Task A；稍後逐封核對才取內容點。'},
+    {find:'brand-new event',page:8,task:'B',name:'WhatsApp 對話',note:'新活動仍待 Dr Chan 批准。先把相關對話暫標 Task B，不可當成已獲批准。'},
+    {find:'included screenshots of a WhatsApp',page:8,task:'B',name:'WhatsApp 對話',note:'這句直接指定 WhatsApp 作 proposal 起點；在第 8 頁標 Task B。'},
+    {find:'discussing this over email with Mr Singh',page:9,task:'C',name:'Duncan ↔ Singh 電郵',note:'Boss letter 指向 Singh 電郵。先在第 9 頁標 Task C，後續讀到交通線索再追加 Task B。'},
+    {find:'sent you this exchange',page:9,task:'C',name:'Duncan ↔ Singh 電郵',note:'這封往來電郵是家長信的來源線索。確認第 9 頁已有 Task C 標記。'},
+    {find:'recording of our meeting',page:3,task:null,name:'會議錄音',note:'這句指定會議錄音。立即找到第 3 頁的播放器；錄音會在 Podcast 章節逐段處理。'}
+  ];
+  for(let i=steps.boss.length-1;i>=0;i--){
+    const cue=steps.boss[i],route=bossRoutes.find(item=>cue.quote.includes(item.find));if(!route)continue;
+    const target=route.page===3?$('#page-3 .notes-audio')||$('#page-3 .page-heading h2'):$(`#page-${route.page} .page-heading h2`);
+    steps.boss.splice(i+1,0,{id:`source-route-${cue.id}`,chapter:'boss',sourceJump:true,sourceFrom:cue.id,title:`即時標記來源 · ${route.name}`,page:route.page,tagTask:route.task,quote:route.note,target});
+  }
   for(const ch of chapters)steps[ch.id].forEach((step,index)=>{step.index=index;step.total=steps[ch.id].length;});
+  // Preserve the PDF's exact phrase colors, then fill Type 1–4 gaps from the author's bullet points.
+  for(const step of steps.data){
+    step.target.dataset.curationType=String(step.type);
+    if(step.type===5&&step.record?.blocks?.some(block=>block.startsWith('類型：')&&/淘汰線索|不應直接採用/.test(block))&&!step.target.classList.contains('curation-strike')){const ink=el('span','curation-pen-line');while(step.target.firstChild)ink.append(step.target.firstChild);step.target.append(ink);step.target.classList.add('curation-strike');}
+  }
+  const markedTargets=new WeakSet();
+  function wrapSourcePhrase(root,id,phrase,color){
+    const canonical=value=>value.replace(/[’‘]/g,"'");
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
+    while((node=walker.nextNode())){
+      if(node.parentElement.closest('.curation-source-mark'))continue;
+      const at=canonical(node.textContent).toLocaleLowerCase().indexOf(canonical(phrase).toLocaleLowerCase());if(at<0)continue;
+      const range=document.createRange();range.setStart(node,at);range.setEnd(node,at+phrase.length);
+      const mark=el('mark',`curation-source-mark curation-reference-${color}`);mark.dataset.recordId=id;mark.append(range.extractContents());range.insertNode(mark);return true;
+    }
+    return false;
+  }
+  for(const step of steps.data){
+    const id=step.record?.id;if(!id||markedTargets.has(step.target)||step.type<1||step.type>4)continue;
+    markedTargets.add(step.target);
+    for(const item of referenceHighlights[id]?.source||[])wrapSourcePhrase(step.target,id,item.text,item.color);
+    if(!$('.curation-source-mark',step.target)){
+      const color={1:'cyan',2:'yellow',3:'rose',4:'green'}[step.type];
+      const bullets=(step.record.blocks||[]).filter(block=>/^●\s*/.test(block)).map(block=>block.replace(/^●\s*/,''));
+      for(const phrase of bullets)wrapSourcePhrase(step.target,id,phrase,color);
+      if(!$('.curation-source-mark',step.target)){
+        step.target.classList.add('curation-source-fallback',`curation-reference-${color}`);
+        step.target.dataset.curationRecordId=id;
+      }
+    }
+  }
+  function progressCutoff(chapter){
+    const active=chapters.findIndex(item=>item.id===state.chapter),target=chapters.findIndex(item=>item.id===chapter);
+    return active<target?-1:active>target?steps[chapter].length-1:state.positions[chapter];
+  }
+  function syncBossMarks(){
+    const visible=new Set(steps.boss.slice(0,progressCutoff('boss')+1).map(step=>step.id));
+    $$('#page-4 .curation-mark').forEach(mark=>mark.classList.toggle('is-revealed',visible.has(mark.dataset.stepId)));
+    $$('#page-4 [data-curation-task]').forEach(paragraph=>paragraph.classList.toggle('curation-task-revealed',!!$('.curation-mark.is-revealed',paragraph)));
+  }
   const allIds=new Set(chapters.flatMap(ch=>steps[ch.id].map(step=>step.id)));
-  const blank=()=>({chapter:'boss',positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},spotlight:true,dialogue:false,updated:Date.now()});
+  const blank=()=>({sequenceVersion:2,chapter:'boss',visited:[],positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},spotlight:true,dialogue:false,updated:Date.now()});
   const sanitize=raw=>{
     const state=blank();if(!raw||typeof raw!=='object')return state;
     if(chapters.some(ch=>ch.id===raw.chapter))state.chapter=raw.chapter;
-    for(const ch of chapters)state.positions[ch.id]=Math.min(Math.max(Number(raw.positions?.[ch.id])||0,0),Math.max(0,steps[ch.id].length-1));
+    for(const ch of chapters){
+      const previous=Math.max(Number(raw.positions?.[ch.id])||0,0);
+      const oldIds=ch.id==='boss'?legacyBossIds:ch.id==='data'?legacyDataIds:null;
+      const migrated=raw.sequenceVersion===2||!oldIds?previous:steps[ch.id].findIndex(step=>step.id===oldIds[Math.min(previous,oldIds.length-1)]);
+      state.positions[ch.id]=Math.min(Math.max(migrated,0),Math.max(0,steps[ch.id].length-1));
+    }
     state.completed=[...new Set((Array.isArray(raw.completed)?raw.completed:[]).filter(id=>allIds.has(id)))];
+    state.visited=[...new Set((Array.isArray(raw.visited)?raw.visited:state.completed).filter(id=>allIds.has(id)))];
     state.bookmarks=[...new Set((Array.isArray(raw.bookmarks)?raw.bookmarks:[]).filter(id=>allIds.has(id)))];
     for(const t of 'ABC'){
       state.evidence[t]=[...new Set((Array.isArray(raw.evidence?.[t])?raw.evidence[t]:[]).filter(id=>allIds.has(id)))];
@@ -167,41 +318,52 @@
 
   const toggle=el('button','action-btn curation-launch','✦ Super Curation');toggle.type='button';toggle.id='curation-toggle';toggle.setAttribute('aria-pressed','false');$('.toolbar').append(toggle);
   const dock=el('aside','curation-dock');dock.id='curation-dock';dock.hidden=true;dock.setAttribute('aria-label','Super Curation 指導卡');
-  dock.innerHTML=`<div class="curation-top"><span class="curation-kicker">SUPER CURATION · 2025 B2 PILOT</span><button type="button" id="curation-close" aria-label="離開導覽模式">×</button></div><div class="curation-header"><span id="curation-chapter"></span><button type="button" id="curation-bookmark" aria-label="將本步加入書籤">☆</button></div><nav class="curation-chapters" aria-label="五個導覽章節"></nav><select id="curation-chapter-select" aria-label="跳至五個章節"></select><div class="curation-jump"><label>跳至步驟 <select id="curation-step-jump"></select></label><label>書籤 <select id="curation-bookmark-jump"><option value="">選擇書籤</option></select></label></div><div id="curation-task-jump" class="curation-task-jump" hidden></div><div class="curation-legend" aria-label="資料標記顏色"><span class="color-A">A</span><span class="color-B">B</span><span class="color-C">C</span><span class="color-hint">來源提示</span><span class="color-spare">備用</span></div><div class="curation-progress"><span id="curation-step-count"></span><progress id="curation-progress" max="1" value="0"></progress></div><div class="curation-options"><label><input type="checkbox" id="curation-spotlight"> 聚光燈</label><label><input type="checkbox" id="curation-dialogue"> Eddy 對話</label></div><div class="curation-content"><p id="curation-source"></p><h2 id="curation-title"></h2><blockquote id="curation-quote" lang="en"></blockquote><div class="curation-character" hidden><span class="curation-eddy" role="img" aria-label="Eddy"></span><span>Eddy · 導讀</span></div><div id="curation-explanation"></div><div id="curation-step-actions"></div></div><div class="curation-actions"><button type="button" id="curation-prev">← 上一步</button><button type="button" id="curation-help">需要更多協助</button><button type="button" id="curation-next">下一步 →</button></div><details class="curation-save"><summary>遊戲存檔 · 自動儲存 / 匯出 / 匯入</summary><div><label for="curation-slot">遊戲存檔</label><select id="curation-slot" aria-label="選擇存檔格"></select><button type="button" id="curation-save-now">儲存</button></div><div><button type="button" id="curation-export">匯出存檔</button><label class="curation-import">匯入存檔<input id="curation-import" type="file" accept="application/json,.json"></label></div><small id="curation-save-status" role="status"></small></details>`;
+  dock.innerHTML=`<div class="curation-top"><span class="curation-kicker">SUPER CURATION · 2025 B2 PILOT</span><button type="button" id="curation-close" aria-label="離開導覽模式">×</button></div><div class="curation-actions"><button type="button" id="curation-prev">← 上一步</button><button type="button" id="curation-help">需要更多協助</button><button type="button" id="curation-next">下一步 →</button></div><div class="curation-header"><span id="curation-chapter"></span><button type="button" id="curation-bookmark" aria-label="將本步加入書籤">☆</button></div><div class="curation-jump"><div><span>跳至步驟</span><button type="button" id="curation-step-jump" aria-haspopup="dialog" aria-controls="curation-picker"></button></div><div><span>書籤</span><button type="button" id="curation-bookmark-jump" aria-haspopup="dialog" aria-controls="curation-picker">選擇書籤</button></div></div><div id="curation-task-jump" class="curation-task-jump" hidden></div><div class="curation-legend" aria-label="資料標記顏色"><span class="color-A">A</span><span class="color-B">B</span><span class="color-C">C</span><span class="color-hint">語氣 / Type 4</span><span class="color-spare">備用</span></div><div class="curation-local-progress"><span id="curation-step-count"></span></div><div class="curation-options"><label><input type="checkbox" id="curation-spotlight"> 聚光燈</label><label><input type="checkbox" id="curation-dialogue"> Eddy 對話</label></div><div class="curation-content"><p id="curation-source"></p><h2 id="curation-title"></h2><blockquote id="curation-quote" lang="en"></blockquote><div class="curation-character" hidden><span class="curation-eddy" role="img" aria-label="Eddy"></span><span>Eddy · 導讀</span></div><div id="curation-explanation"></div><div id="curation-step-actions"></div></div><details class="curation-save"><summary>遊戲存檔 · 自動儲存 / 匯出 / 匯入</summary><div><label for="curation-slot">遊戲存檔</label><select id="curation-slot" aria-label="選擇存檔格"></select><button type="button" id="curation-save-now">儲存</button></div><div><button type="button" id="curation-export">匯出存檔</button><label class="curation-import">匯入存檔<input id="curation-import" type="file" accept="application/json,.json"></label></div><small id="curation-save-status" role="status"></small></details>`;
+  const stage=el('nav','curation-stage');stage.id='curation-stage';stage.hidden=true;stage.setAttribute('aria-label','Super Curation 五個階段');
+  stage.innerHTML='<div class="curation-stage-line" aria-hidden="true"></div><div class="curation-stage-fill" aria-hidden="true"></div><div class="curation-stage-items"></div>';
+  const picker=el('dialog','curation-picker');picker.id='curation-picker';picker.setAttribute('aria-label','選擇導覽步驟');picker.innerHTML='<div class="curation-picker-head"><div><small>SUPER CURATION</small><h2 id="curation-picker-title">選擇步驟</h2></div><button type="button" id="curation-picker-close" aria-label="關閉">×</button></div><input id="curation-picker-search" type="search" placeholder="搜尋步驟或原文…" aria-label="搜尋步驟"><div id="curation-picker-list" class="curation-picker-list"></div>';
   const bank=el('aside','curation-bank');bank.id='curation-bank';bank.hidden=true;bank.setAttribute('aria-label','三項寫作證據庫');bank.innerHTML='<h2>三項寫作證據庫</h2><p>按「下一步」時，已核實可用的句子會移到相應任務。舊資料或淘汰線索不會自動加入。</p><div id="curation-bank-groups"></div>';
   const masks=['top','left','right','bottom'].map(side=>{const m=el('div',`curation-mask curation-mask-${side}`);m.hidden=true;document.body.append(m);return m;});
-  document.body.append(dock,bank);
-  const nav=$('.curation-chapters',dock);for(const chapter of chapters){const b=el('button','',chapter.name);b.type='button';b.dataset.chapter=chapter.id;nav.append(b);$('#curation-chapter-select').append(new Option(chapter.name,chapter.id));}
+  document.body.append(stage,dock,bank,picker);
+  const nav=$('.curation-stage-items',stage);for(const [index,chapter] of chapters.entries()){const b=el('button','curation-stage-item');b.type='button';b.dataset.chapter=chapter.id;b.innerHTML=`<span class="curation-stage-dot">${index+1}</span><span class="curation-stage-label">${chapter.short}</span><small class="curation-stage-count"></small>`;nav.append(b);}
   const slotSel=$('#curation-slot');for(let i=1;i<=5;i++){const opt=el('option','',`Slot ${i}`);opt.value=String(i);slotSel.append(opt);}slotSel.value=activeSlot;
   const bankGroups=$('#curation-bank-groups');for(const t of 'ABC'){const d=el('details',`curation-bank-${t}`);d.dataset.task=t;d.innerHTML=`<summary><span>Task ${t}</span><strong data-count>0 句</strong></summary><ol></ol>`;bankGroups.append(d);}
   let open=false;let helpOpen=false;let animation=null;let cueArmed=false;
   const audio=$('#page-3 .notes-audio audio');
   const current=()=>steps[state.chapter][state.positions[state.chapter]];
-  const pageLabel=step=>step.page?`Data File ${step.page<=11?`第 ${step.page} 頁`:`附加錄音稿 ${step.page-11}`} · ${step.task?`Task ${step.task}`:step.chapter==='podcast'?'Podcast':''}`:'寫作練習';
+  const pageLabel=step=>step.sourceJump?(step.page===3?'錄音來源 · 第 3 頁':`Data File 第 ${step.page} 頁 · 暫標 Task ${step.tagTask}`):step.page?`Data File ${step.page<=11?`第 ${step.page} 頁`:`附加錄音稿 ${step.page-11}`} · ${step.chapter==='data'&&step.type>=4?`類型 ${step.type} · ${step.type===4?'語氣':step.type===5?'提示':'噪音'}`:step.task?`Task ${step.task}`:step.chapter==='podcast'?'Podcast':''}`:'寫作練習';
   function explanation(step){
     const box=$('#curation-explanation');box.replaceChildren();$('#curation-step-actions').replaceChildren();
-    const add=(text,cls='')=>{const p=el('p',cls,text);box.append(p);};
-    if(step.chapter==='boss'){
+    const add=(text,cls='')=>{const sentences=cls==='curation-translation'?[String(text)]:String(text).split(/(?<=。)(?![」』\]])/u).filter(Boolean);for(const sentence of sentences){const p=el('p',cls,sentence);box.append(p);}};
+    if(step.sourceJump){
+      add(step.quote,'curation-process');
+      add(step.page===3?'先找到會議錄音；下一步返回 Boss letter，稍後在 Podcast 章節仔細聆聽。':`看清第 ${step.page} 頁的標題，在左上角加 Task ${step.tagTask}。這是來源分類，尚未抄入任何內容點。下一步返回 Boss letter。`);
+    }else if(step.chapter==='boss'){
       add('讀 boss letter 時，先辨認文類、讀者、指定內容與來源提示，再分類 Data File。這句是你目前真正可知道的資料。','curation-process');
-      if(step.record)for(const block of step.record.blocks){if(block==='分析：'||block.startsWith('['))continue;add(block,block.startsWith('類型：')?'curation-type':'');}
+      if(step.task)add(`Task ${step.task} 需記錄 ${({A:2,B:4,C:3})[step.task]} 類內容要求；原文上的圈號逐項對應。`,'curation-requirement-summary');
+      if(step.record)for(const block of step.record.blocks){if(block==='分析：'||block.startsWith('[')||(step.task&&block.startsWith('類型：')))continue;add(block,block.startsWith('類型：')?`curation-type curation-type-${step.type}`:'');}
       else add('這句主要用來辨認寄件人、稱呼或任務語境；不必直接搬進作文。');
     }else if(step.chapter==='categorize'){
       add(step.entry.initial,'curation-process');
       add('先作暫定標記；讀到新的決定後再修正。分類是會更新的工作假設。');
       const c=el('p','curation-revision',`讀後修正：${step.entry.revision}`);c.hidden=!helpOpen;box.append(c);
     }else if(step.chapter==='podcast'){
-      if(step.cue){add(step.cue.detail,'curation-process');add(step.cue.help);add('錄音會在經核對的段落起點停下。繼續播放前，先用不完整句子記下關鍵詞；不顯示未核實的逐句秒數。');}
+      if(step.cue){add(`先聽出「${step.cue.quote}」附近的關鍵內容，再用筆記整理。`,'curation-process');add(step.cue.help);add('錄音會在經核對的段落起點停下。繼續播放前，先用不完整句子記下關鍵詞；不顯示未核實的逐句秒數。');}
       else {add('完整錄音稿複習：先問這句是 Task A、B、C 的內容，還是更正、提示或干擾。','curation-process');const q=step.quote;if(step.bankTask)add(`這句經前後文確認，可支援 Task ${step.bankTask}。記下關鍵詞，按「下一步」才收入證據庫。`);else if(/hiking/i.test(q))add('這只是提議；後面以七月炎熱為由否定。不要採用。');else if(/school website/i.test(q))add('這是未更正的說法。繼續聽下一句，再決定報名途徑。');else if(/responsibilities|Mr Singh/i.test(q))add('這裡說話者尚未確認義工職責。先標記疑問，再去 Singh 電郵核對。');else if(/Asian Games|October|slogan|guest speaker/i.test(q))add('這句談亞運週。它在完整錄音中有用，但不是此 B2 三篇健康月寫作的內容點。');else add('暫時保留語境；核對說話者、時間和後面的更新。若沒有直接證明寫作要求，不要收入內容點。');}
     }else if(step.chapter==='data'){
-      if(step.provisional&&!step.confirmed){add('按電郵時間順序，這句仍是較早的建議或討論；現在只作暫定標記。','curation-process');add(provisionalNotes[step.record?.id]||'先辨認寄件人、收件人和正在討論的事項，再等後續電郵確認。');add('暫定資料不會收入寫作證據庫。稍後會回來核對可用的細節。','curation-caution');return;}
+      if(step.record){
+        for(const block of step.record.blocks){
+          const before=box.children.length;
+          const cls=block.startsWith('類型：')?`curation-type curation-type-${step.type}`:block.startsWith('[')?'curation-translation':block==='分析：'||block.startsWith('分析 -')?'curation-analysis-heading':'';
+          add(block,cls);
+          for(const paragraph of [...box.children].slice(before))for(const item of referenceHighlights[step.record.id]?.analysis||[])highlightPanelPhrase(paragraph,item.text,item.color);
+        }
+      }else add('現有逐句基準資料沒有這句的獨立定論。保留原文，按最新來源及任務要求判斷；不要猜成可用內容點。','curation-caution');
+      if(step.provisional&&!step.confirmed){add('時間順序提醒：這是較早的活動建議。先保留原稿分析，但要等最新電郵核對，才把仍然成立的 Task A 細節收入證據庫。','curation-caution');}
       if(step.confirmed)add('你已讀到最新回覆。現在回看舊電郵，核對仍然成立的具體資料。','curation-process');
-      add(`先問：這句在此時能證明甚麼？應屬 Task ${step.task}，還是只作線索？`,'curation-process');
       if(step.page===6)add('這是去年的海報。與 2025 年最新決定交叉核對之前，所有活動都只是候選。','curation-caution');
-      if(step.page===5 && /recommend|suggest|plan|think/i.test(step.quote))add('電郵串要從最早往最新讀。這句先作暫定資料；後面的回覆可能改變決定。','curation-caution');
       if(step.page===9 && /think I remember|hanging around|prepare/i.test(step.quote))add('問句或回憶不是事實確認。等 Singh 的回覆才定義家長職責。','curation-caution');
-      if(step.record){for(const block of step.record.blocks){if(block==='分析：'||block.startsWith('['))continue;add(block,block.startsWith('類型：')?'curation-type':'');}}
-      else add('現有逐句基準資料沒有這句的獨立定論。保留原文，按最新來源及任務要求判斷；不要猜成可用內容點。','curation-caution');
-      if(step.record && typeOf(step.record))add(`本句標記：${labels[typeOf(step.record)]}${canBank(step.record)?'；下一步會收進右側證據庫。':''}`,'curation-result');
+      if(step.record && canBank(step.record))add(step.provisional&&!step.confirmed?'核對最新回覆後再收入證據庫。':'下一步會收進右側證據庫。','curation-result');
     }else if(step.chapter==='writing'){
       add(step.lead,'curation-process');add(step.hint);
       if(step.order===2)add('先獨立寫草稿，右側證據庫只供核對內容點。範文不會在寫之前代替你的構思。','curation-caution');
@@ -209,7 +371,7 @@
     const extra=$('#curation-step-actions');extra.replaceChildren();
     if(step.chapter==='categorize'){
       const b=el('button','curation-small','顯示讀後修正');b.type='button';b.addEventListener('click',()=>{helpOpen=!helpOpen;explanation(step);});extra.append(b);
-      const choices=el('fieldset','curation-category-choices');choices.append(el('legend','',`你會先標哪個任務？`));for(const t of 'ABC'){const label=el('label');const input=el('input');input.type='checkbox';input.value=t;input.checked=(state.categories?.[step.id]||[]).includes(t);input.addEventListener('change',()=>{state.categories||={};state.categories[step.id]=$$('input:checked',choices).map(x=>x.value);persist();});label.append(input,document.createTextNode(` Task ${t}`));choices.append(label);}extra.append(choices);const line=el('p','',`讀後分類：${step.entry.tasks.map(t=>`Task ${t}`).join(' + ')}`);if(helpOpen)extra.append(line);
+      const choices=el('fieldset','curation-category-choices');choices.append(el('legend','',`你會先標哪個任務？`));for(const t of 'ABC'){const label=el('label');const input=el('input');input.type='checkbox';input.value=t;input.checked=(Object.hasOwn(state.categories,step.id)?state.categories[step.id]:categoryInitialTasks(step.entry)).includes(t);input.addEventListener('change',()=>{state.categories||={};state.categories[step.id]=$$('input:checked',choices).map(x=>x.value);syncFileStamps(input.checked?{page:step.page,task:t}:null);persist();});label.append(input,document.createTextNode(` Task ${t}`));choices.append(label);}extra.append(choices);const line=el('p','',`讀後分類：${step.entry.tasks.map(t=>`Task ${t}`).join(' + ')}`);if(helpOpen)extra.append(line);
     }
     if(step.cue && audio){const b=el('button','curation-small',`▶ 播放至 ${Math.floor(step.cue.at/60)}:${String(Math.floor(step.cue.at%60)).padStart(2,'0')} 關鍵段落`);b.type='button';b.addEventListener('click',()=>{const play=()=>{audio.currentTime=step.cue.from;cueArmed=true;audio.play().catch(()=>{$('#curation-save-status').textContent='未能播放錄音；請按原播放器重試。';});};if(audio.readyState>=1)play();else{audio.addEventListener('loadedmetadata',play,{once:true});audio.load();}});extra.append(b);}
     if(step.chapter==='writing'){
@@ -217,33 +379,100 @@
     }
   }
   function renderBank(){for(const t of 'ABC'){const group=$(`.curation-bank-${t}`);const list=$('ol',group);list.replaceChildren();for(const id of state.evidence[t]){const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(!s)continue;const li=el('li');const b=el('button','',s.quote);b.type='button';b.addEventListener('click',()=>{state.chapter='data';state.positions.data=s.index;render();});li.append(b,el('small','',s.chapter==='podcast'?`錄音稿 ${s.page-11}`:`Data File ${s.page}`));if(s.record?.id==='duncan-henley-emails-12')li.append(el('small','curation-bank-note','營養師講座已取消；只保留嘉年華其他已確認內容。'));if(s.record?.id==='duncan-singh-emails-5')li.append(el('small','curation-bank-note','這句用來釐清分工：準備學生的是老師。'));list.append(li);} $('[data-count]',group).textContent=`${state.evidence[t].length} 句`;}}
-  function setMaskRect(mask,top,left,width,height){Object.assign(mask.style,{top:`${Math.max(0,top)}px`,left:`${Math.max(0,left)}px`,width:`${Math.max(0,width)}px`,height:`${Math.max(0,height)}px`});}
-  function spotlight(){const step=current();const target=step?.target;if(!open||!state.spotlight||!target?.isConnected){masks.forEach(m=>m.hidden=true);return;}const r=target.getBoundingClientRect();if(!r.width||!r.height){masks.forEach(m=>m.hidden=true);return;}const pad=9,w=innerWidth,h=innerHeight,l=Math.max(0,r.left-pad),t=Math.max(0,r.top-pad),right=Math.min(w,r.right+pad),bottom=Math.min(h,r.bottom+pad);masks.forEach(m=>m.hidden=false);setMaskRect(masks[0],0,0,w,t);setMaskRect(masks[1],t,0,l,bottom-t);setMaskRect(masks[2],t,right,w-right,bottom-t);setMaskRect(masks[3],bottom,0,w,h-bottom);}
-  function focusSource(step){if(!step?.target)return;const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
-  function render(focus=true){if(!open)return;const step=current();if(!step)return;helpOpen=false;$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));step.target?.classList.add('curation-target');
-    $$('#curation-dock [data-chapter]').forEach(b=>{const active=b.dataset.chapter===state.chapter;b.setAttribute('aria-current',active?'step':'false');b.classList.toggle('active',active);});
-    $('#curation-chapter').textContent=chapters.find(c=>c.id===state.chapter)?.description||'';$('#curation-chapter-select').value=state.chapter;const jump=$('#curation-step-jump');jump.replaceChildren();for(const s of steps[state.chapter]){const opt=el('option','',`${s.index+1}. ${s.title}${s.chapter==='data'?` · Task ${s.task} · p${s.page}`:''}`);opt.value=String(s.index);jump.append(opt);}jump.value=String(step.index);const marks=$('#curation-bookmark-jump');marks.replaceChildren();marks.append(new Option('選擇書籤',''));for(const id of state.bookmarks){const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(s)marks.append(new Option(`${chapters.find(c=>c.id===s.chapter).short} · ${s.index+1}`,id));}const taskJump=$('#curation-task-jump');taskJump.replaceChildren();taskJump.hidden=!['data','writing'].includes(state.chapter);if(!taskJump.hidden)for(const t of 'ABC'){const first=steps[state.chapter].find(x=>x.task===t);if(!first)continue;const b=el('button','',`Task ${t}`);b.type='button';b.dataset.step=String(first.index);b.addEventListener('click',()=>go(first.index));taskJump.append(b);}
-    $('#curation-step-count').textContent=`${state.positions[state.chapter]+1} / ${steps[state.chapter].length} · ${state.completed.filter(id=>steps[state.chapter].some(s=>s.id===id)).length} 已完成`;
-    const progress=$('#curation-progress');progress.max=steps[state.chapter].length;progress.value=state.positions[state.chapter]+1;
-    $('#curation-source').textContent=pageLabel(step);$('#curation-title').textContent=step.title;$('#curation-quote').textContent=step.quote;
-    $('#curation-quote').hidden=step.chapter==='categorize';
-    $('#curation-bookmark').textContent=state.bookmarks.includes(step.id)?'★':'☆';$('#curation-bookmark').setAttribute('aria-pressed',String(state.bookmarks.includes(step.id)));
-    $('#curation-prev').disabled=step.index===0;$('#curation-next').textContent=step.index===steps[state.chapter].length-1?'完成本章 ✓':'下一步 →';
-    $('#curation-spotlight').checked=state.spotlight;$('#curation-dialogue').checked=state.dialogue;dock.classList.toggle('dialogue',state.dialogue);$('.curation-character').hidden=!state.dialogue;
-    explanation(step);renderBank();if(step.cue&&audio&&!audio.paused&&audio.currentTime<step.cue.at)cueArmed=true;if(focus)focusSource(step);else spotlight();persist();
+  function bossSourceFile(step){return step.sourceJump&&step.tagTask?{page:step.page,task:step.tagTask}:null;}
+  function discoveredPageTask(step){
+    if(step.chapter!=='data')return null;
+    if(step.page===7&&step.record?.id==='student-interview-5')return {page:7,task:'C'};
+    if(step.type>=1&&step.type<=3)return {page:step.page,task:'ABC'[step.type-1]};
+    return null;
   }
-  function setOpen(value){open=value;dock.hidden=!value;bank.hidden=!value;document.body.classList.toggle('curation-active',value);if(!value)$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));toggle.setAttribute('aria-pressed',String(value));toggle.textContent=value?'✦ 離開 Curation':'✦ Super Curation';if(value)render();else{masks.forEach(m=>m.hidden=true);audio?.pause();}}
+  function stampFromStep(step){
+    if(step.chapter==='categorize')return {page:step.page,tasks:categoryInitialTasks(step.entry)};
+    return bossSourceFile(step)||discoveredPageTask(step);
+  }
+  function syncFileStamps(animate=null){
+    const bossLimit=progressCutoff('boss'),categoryLimit=progressCutoff('categorize'),dataLimit=progressCutoff('data');
+    for(const entry of categoryPages){
+      const header=$(`#page-${entry.page} .page-heading`);if(!header)continue;
+      let holder=$('.curation-file-stamps',header);
+      if(!holder){holder=el('div','curation-file-stamps');holder.setAttribute('aria-label','這頁的暫定任務標記');header.prepend(holder);}
+      let selected=steps.boss.slice(0,bossLimit+1).map(bossSourceFile).filter(link=>link?.page===entry.page).map(link=>link.task);
+      const categoryStep=steps.categorize.find(step=>step.page===entry.page);
+      if(categoryStep?.index<=categoryLimit)selected=Object.hasOwn(state.categories,categoryStep.id)?state.categories[categoryStep.id].slice():categoryInitialTasks(entry);
+      selected.push(...steps.data.slice(0,dataLimit+1).map(discoveredPageTask).filter(link=>link?.page===entry.page).map(link=>link.task));
+      selected=[...new Set(selected.filter(task=>'ABC'.includes(task)))].sort();
+      if($$('[data-task]',holder).map(x=>x.dataset.task).join('')!==selected.join('')){
+        holder.replaceChildren();
+        for(const task of selected){const badge=el('span',`curation-file-stamp curation-file-stamp-${task}`,task);badge.dataset.task=task;badge.setAttribute('role','img');badge.setAttribute('aria-label',`暫定標記：Task ${task}`);if(animate?.page===entry.page&&(animate.task===task||animate.tasks?.includes(task)))badge.classList.add('curation-file-stamp-enter');holder.append(badge);}
+      }
+      header.classList.toggle('curation-has-file-stamps',selected.length>0);
+    }
+  }
+  function shouldHighlight(step){
+    if(step?.chapter==='data')return step.type>=1&&step.type<=4;
+    if(step?.chapter==='podcast')return !!(step.cue?.task||step.bankTask);
+    return false;
+  }
+  function setMaskRect(mask,top,left,width,height){Object.assign(mask.style,{top:`${Math.max(0,top)}px`,left:`${Math.max(0,left)}px`,width:`${Math.max(0,width)}px`,height:`${Math.max(0,height)}px`});}
+  function spotlight(){const step=current();const target=step?.target;if(!open||!state.spotlight||!shouldHighlight(step)||!target?.isConnected){masks.forEach(m=>m.hidden=true);return;}const r=target.getBoundingClientRect();if(!r.width||!r.height){masks.forEach(m=>m.hidden=true);return;}const pad=9,w=innerWidth,h=innerHeight,l=Math.max(0,r.left-pad),t=Math.max(0,r.top-pad),right=Math.min(w,r.right+pad),bottom=Math.min(h,r.bottom+pad);masks.forEach(m=>m.hidden=false);setMaskRect(masks[0],0,0,w,t);setMaskRect(masks[1],t,0,l,bottom-t);setMaskRect(masks[2],t,right,w-right,bottom-t);setMaskRect(masks[3],bottom,0,w,h-bottom);}
+  function focusSource(step){if(!step?.target)return;const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=step.sourceJump||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(step.sourceJump){const r=step.target.getBoundingClientRect();window.scrollTo({top:Math.max(0,window.scrollY+r.top-(innerWidth<=620?160:180)),behavior:'instant'});}else if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
+  let lastRenderedStepId='';
+  function render(focus=true){if(!open)return;const step=current();if(!step)return;const stepChanged=lastRenderedStepId!==step.id;helpOpen=false;
+    if((state.chapter==='boss'||state.chapter==='data')&&!state.visited.includes(step.id))state.visited.push(step.id);
+    syncBossMarks();syncDataMarks();syncFileStamps(stampFromStep(step));
+    $$('.curation-target').forEach(x=>{x.classList.remove('curation-target');x.removeAttribute('data-curation-current');});
+    if(step.target&&step.chapter!=='categorize'&&step.chapter!=='writing'){step.target.classList.add('curation-target');step.target.dataset.curationCurrent=step.chapter==='data'&&step.type===4?'type-4':step.chapter==='data'&&step.type>=5?'neutral':step.task||step.bankTask||step.cue?.task||'neutral';}
+    const stageIndex=chapters.findIndex(ch=>ch.id===state.chapter);
+    $$('#curation-stage [data-chapter]').forEach((b,index)=>{const active=index===stageIndex;const done=steps[chapters[index].id].every(s=>state.completed.includes(s.id));b.classList.toggle('active',active);b.classList.toggle('done',done);b.setAttribute('aria-current',active?'step':'false');b.querySelector('.curation-stage-dot').textContent=done?'✓':String(index+1);b.querySelector('.curation-stage-count').textContent=active?`${state.positions[state.chapter]+1}/${steps[state.chapter].length}`:done?'完成':'';});
+    $('.curation-stage-fill').style.width=`${stageIndex*20}%`;
+    const chapterHeader=$('#curation-chapter');const description=chapters[stageIndex]?.description||'';const tail=description.slice(-7);chapterHeader.replaceChildren(document.createTextNode(description.slice(0,-7)),el('span','curation-nowrap',tail));
+    $('#curation-step-jump').textContent=`${step.index+1} / ${steps[state.chapter].length} · ${step.quote.slice(0,31)}${step.quote.length>31?'…':''}　⌄`;
+    $('#curation-bookmark-jump').textContent=state.bookmarks.length?`${state.bookmarks.length} 個書籤　⌄`:'選擇書籤　⌄';
+    const taskJump=$('#curation-task-jump');taskJump.replaceChildren();taskJump.hidden=!['data','writing'].includes(state.chapter);if(!taskJump.hidden)for(const t of 'ABC'){const first=steps[state.chapter].find(x=>x.task===t);if(!first)continue;const b=el('button','',`Task ${t}`);b.type='button';b.dataset.step=String(first.index);b.addEventListener('click',()=>go(first.index));taskJump.append(b);}
+    $('#curation-step-count').textContent=`${state.positions[state.chapter]+1} / ${steps[state.chapter].length} · ${state.completed.filter(id=>steps[state.chapter].some(s=>s.id===id)).length} 已完成`;
+    $('#curation-source').textContent=pageLabel(step);$('#curation-title').textContent=step.title;$('#curation-quote').textContent=step.quote;
+    $('#curation-quote').hidden=step.chapter==='categorize'||step.sourceJump;
+    $('#curation-bookmark').textContent=state.bookmarks.includes(step.id)?'★':'☆';$('#curation-bookmark').setAttribute('aria-pressed',String(state.bookmarks.includes(step.id)));
+    $('#curation-prev').disabled=step.index===0;$('#curation-next').textContent=step.index===steps[state.chapter].length-1?(stageIndex===chapters.length-1?'返回第一章 ↺':'完成本章 ✓'):'下一步 →';
+    $('#curation-spotlight').checked=state.spotlight;$('#curation-dialogue').checked=state.dialogue;dock.classList.toggle('dialogue',state.dialogue);$('.curation-character').hidden=!state.dialogue;
+    explanation(step);if(stepChanged){$('.curation-content').scrollTop=0;lastRenderedStepId=step.id;}renderBank();if(step.cue&&audio&&!audio.paused&&audio.currentTime<step.cue.at)cueArmed=true;if(focus)focusSource(step);else spotlight();persist();
+  }
+  function setOpen(value){open=value;stage.hidden=!value;dock.hidden=!value;bank.hidden=!value;if(!value&&picker.open)picker.close();document.body.classList.toggle('curation-active',value);if(!value)$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));toggle.setAttribute('aria-pressed',String(value));toggle.textContent=value?'✦ 離開 Curation':'✦ Super Curation';if(value)render();else{masks.forEach(m=>m.hidden=true);audio?.pause();}}
   async function flyToBank(step){if(!step.target||step.provisional)return;const t=step.bankTask||(canBank(step.record)?'ABC'[step.type-1]:null);if(!t||state.evidence[t].includes(step.id))return;const normalized=normalize(step.quote);if(state.evidence[t].some(id=>{const old=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);return old&&normalize(old.quote)===normalized;}))return;
     const from=step.target.getBoundingClientRect(),to=$(`.curation-bank-${t} summary`).getBoundingClientRect();
     if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&from.width&&to.width){const flying=el('div',`curation-flying curation-flying-${t}`,step.quote);document.body.append(flying);Object.assign(flying.style,{left:`${from.left}px`,top:`${from.top}px`,width:`${Math.min(from.width,420)}px`});await new Promise(resolve=>{requestAnimationFrame(()=>{flying.style.transform=`translate(${to.left-from.left}px,${to.top-from.top}px) scale(.3)`;flying.style.opacity='0';});flying.addEventListener('transitionend',resolve,{once:true});setTimeout(resolve,700);});flying.remove();}
     state.evidence[t].push(step.id);renderBank();persist();
   }
   function go(stepIndex){state.positions[state.chapter]=Math.min(Math.max(stepIndex,0),steps[state.chapter].length-1);render();}
-  $('#curation-step-jump').addEventListener('change',e=>go(Number(e.target.value)));$('#curation-bookmark-jump').addEventListener('change',e=>{const id=e.target.value;for(const ch of chapters){const found=steps[ch.id].find(x=>x.id===id);if(found){state.chapter=ch.id;state.positions[ch.id]=found.index;render();break;}}});toggle.addEventListener('click',()=>setOpen(!open));$('#curation-close').addEventListener('click',()=>setOpen(false));
-  nav.addEventListener('click',e=>{const id=e.target.closest('[data-chapter]')?.dataset.chapter;if(!id)return;state.chapter=id;render();});$('#curation-chapter-select').addEventListener('change',e=>{state.chapter=e.target.value;render();});
+  function showPicker(kind){
+    const list=$('#curation-picker-list');list.replaceChildren();$('#curation-picker-title').textContent=kind==='step'?'跳至步驟':'已儲存的書籤';
+    const source=kind==='step'?steps[state.chapter]:state.bookmarks.map(id=>chapters.flatMap(ch=>steps[ch.id]).find(s=>s.id===id)).filter(Boolean);
+    for(const item of source){const b=el('button','curation-picker-option');b.type='button';b.dataset.search=`${item.title} ${item.quote} ${item.page||''}`.toLowerCase();b.append(el('strong','',`${item.index+1}. ${item.chapter==='boss'?item.quote.slice(0,62):item.title}`),el('span','',item.quote.length>110?item.quote.slice(0,110)+'…':item.quote));b.addEventListener('click',()=>{picker.close();state.chapter=item.chapter;state.positions[item.chapter]=item.index;render();});list.append(b);}
+    if(!source.length)list.append(el('p','curation-picker-empty','暫時沒有書籤。按導覽卡右上角的星號新增。'));
+    $('#curation-picker-search').value='';picker.showModal();(kind==='step'?$('#curation-step-jump'):$('#curation-bookmark-jump')).setAttribute('aria-expanded','true');$('#curation-picker-search').focus();
+  }
+  $('#curation-step-jump').addEventListener('click',()=>showPicker('step'));
+  $('#curation-bookmark-jump').addEventListener('click',()=>showPicker('bookmark'));
+  $('#curation-picker-close').addEventListener('click',()=>picker.close());
+  $('#curation-picker-search').addEventListener('input',e=>{const query=e.target.value.trim().toLowerCase();$$('.curation-picker-option',picker).forEach(b=>b.hidden=!b.dataset.search.includes(query));});
+  picker.addEventListener('click',e=>{if(e.target===picker)picker.close();});
+  picker.addEventListener('close',()=>{$('#curation-step-jump').setAttribute('aria-expanded','false');$('#curation-bookmark-jump').setAttribute('aria-expanded','false');});
+  toggle.addEventListener('click',()=>setOpen(!open));$('#curation-close').addEventListener('click',()=>setOpen(false));
+  nav.addEventListener('click',e=>{const id=e.target.closest('[data-chapter]')?.dataset.chapter;if(!id)return;state.chapter=id;render();});
   $('#curation-prev').addEventListener('click',()=>go(state.positions[state.chapter]-1));
-  $('#curation-next').addEventListener('click',async()=>{if(animation)return;animation=true;const step=current();if(step.chapter==='data'||step.chapter==='podcast')await flyToBank(step);if(!state.completed.includes(step.id))state.completed.push(step.id);if(step.index<steps[state.chapter].length-1)go(step.index+1);else{render(false);$('#curation-save-status').textContent='本章完成 · 可自由切換其他章節，或回來重做。';}animation=false;});
-  $('#curation-help').addEventListener('click',()=>{const step=current();helpOpen=true;explanation(step);const extra=$('#curation-step-actions');if(step.chapter==='boss')extra.append(el('p','curation-extra-help','用四個問題讀這句：我以誰的身份寫？寫給誰？文類是甚麼？哪份資料可作來源？'));if(step.chapter==='data')extra.append(el('p','curation-extra-help',`回到 Task ${step.task} 的要求，核對年份、說話者和是否有後來的更正。只有可直接使用且沒有被淘汰的句子才會入庫。`));if(step.chapter==='writing')extra.append(el('p','curation-extra-help',step.hint));});
+  $('#curation-next').addEventListener('click',async()=>{if(animation)return;animation=true;const step=current();if(step.chapter==='data'||step.chapter==='podcast')await flyToBank(step);if(!state.completed.includes(step.id))state.completed.push(step.id);if(step.index<steps[state.chapter].length-1)go(step.index+1);else{const nextIndex=(chapters.findIndex(ch=>ch.id===state.chapter)+1)%chapters.length;state.chapter=chapters[nextIndex].id;render();$('#curation-save-status').textContent=nextIndex===0?'已返回第一章 · 可重溫整個導覽。':`已進入第 ${nextIndex+1} 章 · ${chapters[nextIndex].short}`;}animation=false;});
+  const selectSourceSentence=(target,event)=>{
+    if(!open||!target?.matches('.page[data-kind="data"] .sentence-item'))return false;
+    const matches=[...steps.boss,...steps.data].filter(step=>step.target===target);
+    if(!matches.length)return false;
+    const step=matches.find(item=>item.chapter===state.chapter&&item.index===state.positions[state.chapter])||matches.find(item=>!item.confirmed)||matches[0];
+    event.preventDefault();event.stopImmediatePropagation();
+    state.chapter=step.chapter;state.positions[step.chapter]=step.index;render(false);
+    return true;
+  };
+  document.addEventListener('click',event=>selectSourceSentence(event.target.closest?.('.sentence-item'),event),true);
+  document.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.matches?.('.sentence-item'))selectSourceSentence(event.target,event);},true);
+  $('#curation-help').addEventListener('click',()=>{let attempts=0;const openQuestion=()=>{const launcher=$('.learning-question-launcher');if(launcher){launcher.click();return;}if(attempts++<50)setTimeout(openQuestion,100);else $('#curation-save-status').textContent='提問功能未能載入，請重新整理頁面再試。';};openQuestion();});
   $('#curation-bookmark').addEventListener('click',()=>{const id=current().id;state.bookmarks=state.bookmarks.includes(id)?state.bookmarks.filter(x=>x!==id):[...state.bookmarks,id];render(false);});
   $('#curation-spotlight').addEventListener('change',e=>{state.spotlight=e.target.checked;spotlight();persist();});$('#curation-dialogue').addEventListener('change',e=>{state.dialogue=e.target.checked;render(false);});
   slotSel.addEventListener('change',()=>{persist();activeSlot=slotSel.value;state=sanitize(slots[activeSlot]);render();});$('#curation-save-now').addEventListener('click',persist);
@@ -251,7 +480,7 @@
   $('#curation-import').addEventListener('change',async e=>{const file=e.target.files?.[0];if(!file)return;try{if(file.size>1024*1024)throw Error('存檔過大');const value=JSON.parse(await file.text());if(value.version!==VERSION||!value.state||typeof value.state!=='object')throw Error('這不是 2025 B2 的有效存檔');state=sanitize(value.state);persist();render();$('#curation-save-status').textContent=`已匯入至 Slot ${activeSlot}`;}catch(error){$('#curation-save-status').textContent=`匯入失敗：${error.message}`;}e.target.value='';});
   if(audio){audio.addEventListener('play',()=>{if(!open||state.chapter!=='podcast')return;const cue=current()?.cue;cueArmed=!!cue&&audio.currentTime<cue.at-0.15;});audio.addEventListener('timeupdate',()=>{if(!cueArmed||!open||state.chapter!=='podcast')return;const cue=current()?.cue;if(cue&&audio.currentTime>=cue.at){cueArmed=false;audio.pause();audio.currentTime=cue.at;$('#curation-save-status').textContent=`錄音停在 ${cue.title} 段落 · 先聽、記筆記，再按下一步`;focusSource(current());}});}
   window.addEventListener('scroll',spotlight,{passive:true});window.addEventListener('resize',()=>{spotlight();if(open&&innerWidth<=620)setTimeout(()=>focusSource(current()),80);});window.visualViewport?.addEventListener('resize',spotlight);
-  document.addEventListener('keydown',e=>{if(!open)return;if(e.key==='Escape'&&document.activeElement?.tagName!=='TEXTAREA')setOpen(false);});
+  document.addEventListener('keydown',e=>{if(!open)return;if(e.key==='Escape'&&picker.open){e.preventDefault();picker.close();return;}if(e.key==='Escape'&&$('.learning-question-dialog[open]'))return;if(e.key==='Escape'&&document.activeElement?.tagName!=='TEXTAREA')setOpen(false);});
   // Deep links allow teachers to send a chapter without exposing any unvisited evidence.
   if(new URLSearchParams(location.search).get('curation')==='1')setOpen(true);
 })();

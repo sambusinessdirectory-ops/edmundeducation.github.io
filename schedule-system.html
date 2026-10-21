@@ -19,6 +19,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apps/schedule/apple-touch-icon-152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="student-activity-log.css?v=20260910-1">
+  <link rel="stylesheet" href="/site-announcements.css?v=20261021-3">
   <script defer src="/pwa-register.js"></script>
   <style>
     @font-face {
@@ -444,7 +445,25 @@
     .student-linked-homework-note { color: #1c6d55 !important; font-weight: 850; }
     .announcement-admin-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(210px, .38fr); gap: 12px 18px; align-items: end; }
     .announcement-admin-form label { display: grid; gap: 6px; color: #5f4b41; font-size: 12px; font-weight: 850; }
-    .announcement-admin-form textarea { min-height: 112px; resize: vertical; }
+    .announcement-editor-field { align-self: stretch; }
+    .announcement-format-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; padding: 7px; border: 1px solid rgba(80,53,39,.2); border-bottom: 0; border-radius: 13px 13px 0 0; background: #f6f1eb; }
+    .announcement-format-toolbar button { min-width: 38px; min-height: 36px; border: 1px solid rgba(80,53,39,.18); border-radius: 9px; background: #fff; color: #4b3429; font-family: inherit; font-size: 15px; font-weight: 800; cursor: pointer; }
+    .announcement-format-toolbar button[data-announcement-size] { padding: 0 10px; font-size: 12px; }
+    .announcement-format-toolbar label { display: inline-flex; align-items: center; gap: 6px; margin-left: 4px; }
+    .announcement-format-toolbar input[type="color"] { width: 37px; height: 34px; padding: 2px; border: 1px solid rgba(80,53,39,.18); border-radius: 8px; cursor: pointer; }
+    .announcement-color-swatches { display: inline-flex; gap: 4px; align-items: center; }
+    .announcement-format-toolbar .announcement-color-swatches button { min-width: 28px; width: 28px; min-height: 28px; border: 2px solid #fff; border-radius: 50%; background: var(--swatch); box-shadow: 0 0 0 1px #735b4b77; }
+    .announcement-format-toolbar .announcement-color-swatches button:focus-visible { outline: 3px solid #336ab5; }
+    .announcement-rich-editor { min-height: 142px; max-height: 390px; overflow: auto; border: 1px solid rgba(80,53,39,.22); border-radius: 0 0 13px 13px; padding: 15px; background: #fff; color: #20283d; font-size: 18px; font-weight: 400; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .announcement-rich-editor:empty::before { content: attr(data-placeholder); color: #8b817b; }
+    .announcement-rich-editor:focus { outline: 3px solid rgba(79,129,196,.2); border-color: #5285bd; }
+    .announcement-rich-large { font-size: 1.45em; line-height: 1.35; }
+    .announcement-editor-hint { margin-top: 5px; color: var(--muted); font-size: 12px; font-weight: 500; }
+    .announcement-image-preview { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 8px; }
+    .announcement-image-tile { position: relative; min-height: 90px; border: 1px solid rgba(80,53,39,.18); border-radius: 11px; overflow: hidden; background: #f7f4ef; }
+    .announcement-image-tile img { width: 100%; height: 90px; object-fit: contain; }
+    .announcement-image-tile button { position: absolute; top: 4px; right: 4px; border: 0; border-radius: 999px; padding: 4px 7px; color: #fff; background: #9d342d; font: 800 11px/1 inherit; cursor: pointer; }
+    .announcement-image-tile small { display: block; padding: 4px 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .announcement-admin-form select {
       width: 100%;
       min-height: 43px;
@@ -466,6 +485,7 @@
     .announcement-admin-row small { color: var(--muted); }
     .announcement-admin-badge { display: inline-flex; border-radius: 999px; padding: 4px 8px; color: #8a3833; background: #fce8e6; font-size: 11px; font-weight: 900; }
     .announcement-admin-badge.is-active { color: #23754b; background: #e8f7ee; }
+    .announcement-admin-badge.is-archived { color: #625585; background: #eeeafb; }
     .announcement-admin-actions { display: grid; align-content: center; gap: 7px; width: 112px; }
     .student-card { align-items: stretch; }
     .student-card-copy { align-self: start; min-width: 0; }
@@ -2252,27 +2272,53 @@
         <h2 id="announcement-admin-heading">全站公告</h2>
         <p>公告會顯示在網站首頁；可同時啟用多則，訪客逐頁閱讀後才會關閉。</p>
         <form class="announcement-admin-form" data-announcement-form>
-          <label>公告內容
-            <textarea data-announcement-message maxlength="4000" required placeholder="輸入要向所有訪客顯示的訊息…"></textarea>
-          </label>
+          <div class="announcement-editor-field">
+            <label>公告內容</label>
+            <div class="announcement-format-toolbar" role="toolbar" aria-label="公告文字格式">
+              <button type="button" data-announcement-command="bold" aria-label="粗體"><strong>B</strong></button>
+              <button type="button" data-announcement-command="italic" aria-label="斜體"><em>I</em></button>
+              <button type="button" data-announcement-command="underline" aria-label="底線"><u>U</u></button>
+              <button type="button" data-announcement-size="normal" aria-label="所選文字恢復標準大小">標準</button>
+              <button type="button" data-announcement-size="large" aria-label="放大所選文字">放大文字</button>
+              <label>字色 <input type="color" data-announcement-color value="#20283d" aria-label="所選文字顏色"></label>
+              <span class="announcement-color-swatches" aria-label="快速字色">
+                <button type="button" data-announcement-swatch="#20283d" style="--swatch:#20283d" aria-label="深藍色文字"></button>
+                <button type="button" data-announcement-swatch="#d32f2f" style="--swatch:#d32f2f" aria-label="紅色文字"></button>
+                <button type="button" data-announcement-swatch="#1765bf" style="--swatch:#1765bf" aria-label="藍色文字"></button>
+                <button type="button" data-announcement-swatch="#16704f" style="--swatch:#16704f" aria-label="綠色文字"></button>
+                <button type="button" data-announcement-swatch="#945b12" style="--swatch:#945b12" aria-label="金色文字"></button>
+                <button type="button" data-announcement-swatch="#7735a3" style="--swatch:#7735a3" aria-label="紫色文字"></button>
+              </span>
+            </div>
+            <div class="announcement-rich-editor" data-announcement-message contenteditable="true" role="textbox" aria-label="公告內容" aria-multiline="true" data-placeholder="輸入要向所有訪客顯示的訊息…"></div>
+            <p class="announcement-editor-hint">選取文字後套用格式；每則最多 4,000 字。</p>
+          </div>
           <div class="announcement-admin-form-side">
-            <label data-announcement-image-action-field hidden>現有圖片
-              <select data-announcement-image-action>
-                <option value="keep">保留目前圖片</option>
-                <option value="replace">以新圖片取代</option>
-                <option value="remove">移除目前圖片</option>
-              </select>
+            <label data-announcement-image-field>附加圖片（最多 5 張；每張最多 5 MB）
+              <input data-announcement-image type="file" multiple accept="image/jpeg,image/png,image/webp,image/gif">
             </label>
-            <label data-announcement-image-field>附加圖片（選填；JPG、PNG、WebP 或 GIF，最多 5 MB）
-              <input data-announcement-image type="file" accept="image/jpeg,image/png,image/webp,image/gif">
-            </label>
-            <label class="announcement-active-option"><input data-announcement-active type="checkbox" checked> <span data-announcement-active-label>建立後立即顯示</span></label>
+            <div class="announcement-image-preview" data-announcement-image-preview aria-live="polite"></div>
             <div class="announcement-admin-form-actions">
-              <button class="primary-button" type="submit" data-announcement-submit>建立公告</button>
+              <button class="secondary-button" type="submit" data-announcement-submit>儲存草稿</button>
+              <button class="primary-button" type="button" data-announcement-preview>預覽及發佈</button>
               <button class="secondary-button" type="button" data-announcement-cancel-edit hidden>取消修改</button>
             </div>
           </div>
         </form>
+        <dialog class="site-announcement-dialog announcement-admin-preview-dialog" data-announcement-preview-dialog aria-labelledby="announcement-preview-title">
+          <article class="site-announcement-card">
+            <div class="site-announcement-gallery" data-announcement-preview-gallery hidden></div>
+            <div class="site-announcement-copy">
+              <p class="site-announcement-kicker">發佈前預覽 · 訪客看到的公告</p>
+              <h2 id="announcement-preview-title">重要通知</h2>
+              <div class="site-announcement-message" data-announcement-preview-message></div>
+              <div class="site-announcement-actions">
+                <button class="site-announcement-dismiss" type="button" data-announcement-preview-close>返回修改</button>
+                <button class="site-announcement-contact" type="button" data-announcement-publish>確認發佈</button>
+              </div>
+            </div>
+          </article>
+        </dialog>
         <p class="form-status" data-announcement-status role="status" aria-live="polite"></p>
         <div class="announcement-admin-list" data-announcement-list><p class="empty-state">正在載入公告…</p></div>
       </section>
@@ -2796,7 +2842,8 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="schedule-system.js?v=20261019-homework-courses1"></script>
+  <script src="announcement-rich-text.js?v=20261021-announcements4"></script>
+  <script type="module" src="schedule-system.js?v=20261021-announcements3"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
 </body>
 </html>

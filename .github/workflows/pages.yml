@@ -187,8 +187,9 @@ jobs:
           node --check paper3/2025-b2/reader.js
           node --check paper3/2025-b2/sentence-analysis.js
           node --check paper3/2025-b2/listening-notes.js
+          node --check paper3/2025-b2/super-curation-highlights.js
           node --check paper3/2025-b2/super-curation.js
-          node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
+          node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
 
       - name: Validate focused DSE Reading release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[reading-release]') }}
@@ -221,6 +222,8 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[writing-release]') }}
         run: |
           node --check writing-submission.js
+          node --test tools/test-writing-function-helper.mjs
+          node --test tools/test-writing-sentence-support.mjs
           node --test tools/test-writing-speaking-topics.mjs
           node --check writing-proofread-checklist.mjs
           node --check writing-feedback-reading.mjs

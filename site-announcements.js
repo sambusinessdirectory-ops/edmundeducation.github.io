@@ -5,6 +5,7 @@
   const STORAGE_KEY = "edmund-site-announcement-dismissals-v1";
   let announcements = [];
   let currentIndex = 0;
+  let stopCarousel = () => {};
 
   function readDismissals() {
     try {
@@ -41,11 +42,11 @@
     dialog.setAttribute("aria-labelledby", "site-announcement-title");
     dialog.innerHTML = `
       <article class="site-announcement-card">
-        <img class="site-announcement-image" data-announcement-image alt="公告圖片" hidden>
+        <div class="site-announcement-gallery" data-announcement-gallery hidden></div>
         <div class="site-announcement-copy">
           <p class="site-announcement-kicker">EDMUNDEDUCATION · 最新公告</p>
           <h2 id="site-announcement-title">重要通知</h2>
-          <p class="site-announcement-message" data-announcement-message></p>
+          <div class="site-announcement-message" data-announcement-message></div>
           <p class="site-announcement-page" data-announcement-page></p>
           <div class="site-announcement-actions">
             <button class="site-announcement-contact" type="button" data-announcement-dismiss>聯絡 Edmund 以知道更多</button>
@@ -58,6 +59,7 @@
       if (!event.target.closest("[data-announcement-dismiss]")) return;
       const current = announcements[currentIndex];
       if (current) saveDismissal(current);
+      stopCarousel();
       currentIndex += 1;
       if (currentIndex < announcements.length) render(dialog);
       else dialog.close();
@@ -69,18 +71,21 @@
   function render(dialog) {
     const item = announcements[currentIndex];
     if (!item) return;
-    dialog.querySelector("[data-announcement-message]").textContent = item.message;
+    window.EdmundAnnouncementRich.render(dialog.querySelector("[data-announcement-message]"), item.contentRuns, item.message);
     dialog.querySelector("[data-announcement-page]").textContent = announcements.length > 1
       ? `公告 ${currentIndex + 1} / ${announcements.length}`
       : "";
-    const image = dialog.querySelector("[data-announcement-image]");
-    if (item.hasImage && /^\/v1\/announcements\/[0-9a-f-]{36}\/image\?v=\d+$/i.test(item.imageUrl || "")) {
-      image.src = `${API_BASE}${item.imageUrl}`;
-      image.hidden = false;
-    } else {
-      image.removeAttribute("src");
-      image.hidden = true;
+    const gallery = dialog.querySelector("[data-announcement-gallery]");
+    stopCarousel();
+    const images = Array.isArray(item.images) && item.images.length
+      ? item.images : item.imageUrl ? [{ url: item.imageUrl }] : [];
+    const slides = [];
+    for (const [index, entry] of images.entries()) {
+      const url = String(entry?.url || "");
+      if (!/^\/v1\/announcements\/[0-9a-f-]{36}\/(?:image|images\/[0-9a-f-]{36})\?v=\d+$/i.test(url)) continue;
+      slides.push({ src: `${API_BASE}${url}`, alt: `公告圖片 ${index + 1}` });
     }
+    stopCarousel = window.EdmundAnnouncementRich.mountCarousel(gallery, slides);
     if (!dialog.open) dialog.showModal();
   }
 

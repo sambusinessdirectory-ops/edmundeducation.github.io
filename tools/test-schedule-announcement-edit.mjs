@@ -3,11 +3,13 @@ import { readFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
-const [sql, worker, html, client] = await Promise.all([
+const [sql, v2Sql, worker, html, client, publicClient] = await Promise.all([
   read("supabase-schedule-announcement-edit.sql"),
+  read("supabase-schedule-announcements-v2.sql"),
   read("workers/schedule-system/src/index.js"),
   read("schedule-system.html"),
-  read("schedule-system.js")
+  read("schedule-system.js"),
+  read("site-announcements.js")
 ]);
 
 const normalizedSql = sql.replace(/--[^\n]*\n/g, " ").replace(/\s+/g, " ").trim().toLowerCase();
@@ -92,10 +94,26 @@ for (const argument of [
 }
 assert.match(worker, /Announcement changed elsewhere; reload and try again/);
 
-for (const action of ["keep", "replace", "remove"]) {
-  assert.match(html, new RegExp(`<option value="${action}">`), `Admin UI is missing image action ${action}`);
+for (const name of ["v2_create", "v2_update", "v2_set_archived", "v2_add_image", "v2_remove_image", "v2_public_image", "v2_admin_image"]) {
+  assert.match(v2Sql, new RegExp(`schedule_announcement_${name}`), `Missing ${name} migration RPC`);
+  assert.match(worker, new RegExp(`schedule_announcement_${name}`), `Worker does not use ${name}`);
 }
-assert.match(client, /body\.set\("expectedVersion", String\(state\.editingAnnouncementVersion\)\)/);
-assert.match(client, /body\.set\("imageAction", imageAction\)/);
+assert.match(v2Sql, /schedule_announcement_images[\s\S]*?sort_order between 1 and 5/);
+assert.match(v2Sql, /a\.is_active and not a\.is_archived/);
+assert.match(v2Sql, /is_active = false, version = a\.version \+ 1/);
+assert.match(html, /data-announcement-message contenteditable="true"/);
+assert.match(html, /data-announcement-image type="file" multiple/);
+assert.match(html, /data-announcement-submit>儲存草稿/);
+assert.match(html, /data-announcement-preview>預覽及發佈/);
+assert.match(html, /data-announcement-preview-gallery/);
+assert.match(client, /isActive: requestedActive && !hasImageChanges/);
+assert.match(client, /announcementRich\.render\(dialog\.querySelector\("\[data-announcement-preview-message\]"\)/);
+assert.match(client, /announcementRich\.mountCarousel/);
+assert.match(client, /announcementRich\.applyColor/);
+assert.match(client, /announcementPendingImages\.splice\(index, 1\)/);
+assert.match(client, /announcementRemovedImageIds\.add/);
+assert.match(client, /archiveAnnouncement\(/);
+assert.match(publicClient, /EdmundAnnouncementRich\.render/);
+assert.match(publicClient, /EdmundAnnouncementRich\.mountCarousel/);
 
 console.log("Schedule announcement edit migration contract passed.");

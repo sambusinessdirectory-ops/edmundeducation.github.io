@@ -664,7 +664,7 @@ test("homework exercise links preserve an unrelated draft and resume the matchin
   );
   assert.match(archive, /apiJson\(`\/v1\/drafts\/\$\{encodeURIComponent\(draft\.documentId\)\}`/);
   assert.match(archive, /method: "PUT"/);
-  assert.match(archive, /if \(!payload\.topic\.trim\(\) && !payload\.answer\.trim\(\)\) return false/);
+  assert.match(archive, /if \(!payload\.topic\.trim\(\) && !payload\.answer\.trim\(\) && !payload\.brainstorm\.trim\(\)\) return false/);
   assert.doesNotMatch(script, /preserveStoredDraft/);
 });
 
