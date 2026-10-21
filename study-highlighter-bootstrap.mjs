@@ -1,4 +1,4 @@
-import {juniorHighlightToolbar, mountJuniorHighlighter} from './junior-text-highlighter.mjs?v=20261021-study2';
+import {juniorHighlightToolbar, mountJuniorHighlighter} from './junior-text-highlighter.mjs?v=20261021-study3';
 
 const dashboard = document.querySelector('[data-view="dashboard"]');
 if (dashboard) {

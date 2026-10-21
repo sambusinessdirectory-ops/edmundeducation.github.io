@@ -1,4 +1,4 @@
-import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs?v=20261021-study2';
+import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs?v=20261021-study3';
 
 const MODULE_KEY = 's2-exam-prep-oct-2026';
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';

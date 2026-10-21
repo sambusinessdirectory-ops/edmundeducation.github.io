@@ -29,7 +29,7 @@ export function mountJuniorHighlighter(root, eligibleSelector, namespace, option
     owner = next;
     try {
       const stored = JSON.parse(localStorage.getItem(storageKey(owner)) || '[]');
-      records = Array.isArray(stored) ? stored.filter(item => item && COLORS.includes(item.color) && typeof item.key === 'string' && typeof item.text === 'string' && item.text.length <= 1000 && Number.isSafeInteger(item.start) && Number.isSafeInteger(item.end)).slice(0, 2000) : [];
+      records = Array.isArray(stored) ? stored.filter(item => item && COLORS.includes(item.color) && typeof item.key === 'string' && typeof item.text === 'string' && Number.isSafeInteger(item.start) && Number.isSafeInteger(item.end)) : [];
     } catch { records = []; }
   }
   function persist() {
@@ -71,9 +71,6 @@ export function mountJuniorHighlighter(root, eligibleSelector, namespace, option
     range.setEnd(...last);
     return range;
   }
-  function findScope(key) {
-    return [...root.querySelectorAll(scopeSelector)].find(scope => scopeKey(scope) === key) || null;
-  }
   function removeFallbackMarks() {
     root.querySelectorAll('mark.junior-highlight-mark').forEach(mark => mark.replaceWith(...mark.childNodes));
   }
@@ -86,11 +83,15 @@ export function mountJuniorHighlighter(root, eligibleSelector, namespace, option
     if (supportsCssHighlights) COLORS.forEach(name => CSS.highlights.delete(nameFor(name)));
     else removeFallbackMarks();
     const colorRanges = new Map(COLORS.map(name => [name, []]));
+    const scopes = new Map([...root.querySelectorAll(scopeSelector)].map(scope => [scopeKey(scope), scope]));
+    const scopeText = new Map();
     for (const record of records) {
-      const scope = findScope(record.key);
+      const scope = scopes.get(record.key);
       if (!scope) continue;
-      const nodes = textNodes(scope);
-      const content = textOf(nodes);
+      const cached = supportsCssHighlights ? scopeText.get(record.key) : null;
+      const nodes = cached?.nodes || textNodes(scope);
+      const content = cached?.content || textOf(nodes);
+      if (supportsCssHighlights && !cached) scopeText.set(record.key, {nodes, content});
       if (!content) continue;
       let start = record.start;
       if (content.slice(start, record.end) !== record.text) {
@@ -104,10 +105,22 @@ export function mountJuniorHighlighter(root, eligibleSelector, namespace, option
       if (!range) continue;
       if (supportsCssHighlights) colorRanges.get(record.color).push(range);
       else {
-        const mark = document.createElement('mark');
-        mark.className = 'junior-highlight-mark';
-        mark.dataset.color = record.color;
-        try { range.surroundContents(mark); } catch { /* A cross-element mark will return when CSS Highlights is supported. */ }
+        let cursor = 0;
+        const pieces = [];
+        for (const node of nodes) {
+          const from = Math.max(0, start - cursor);
+          const to = Math.min(node.length, start + record.text.length - cursor);
+          if (to > from) pieces.push({node, from, to});
+          cursor += node.length;
+        }
+        for (const {node, from, to} of pieces.reverse()) {
+          const part = document.createRange();
+          part.setStart(node, from); part.setEnd(node, to);
+          const mark = document.createElement('mark');
+          mark.className = 'junior-highlight-mark';
+          mark.dataset.color = record.color;
+          part.surroundContents(mark);
+        }
       }
     }
     if (supportsCssHighlights) COLORS.forEach(name => {
@@ -148,7 +161,7 @@ export function mountJuniorHighlighter(root, eligibleSelector, namespace, option
     const start = position(scope, range.startContainer, range.startOffset);
     const end = position(scope, range.endContainer, range.endOffset);
     const selected = textOf(nodes).slice(start, end);
-    if (!selected.trim() || selected.length > 1000 || end <= start) return;
+    if (!selected.trim() || end <= start) return;
     records.push({ key, color, start, end, text: selected });
     persist();
     selection.removeAllRanges();
