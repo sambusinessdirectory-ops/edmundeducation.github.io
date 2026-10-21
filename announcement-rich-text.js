@@ -115,7 +115,7 @@
         button.className = `site-announcement-carousel-arrow is-${direction}`;
         button.setAttribute("aria-label", label);
         const icon = document.createElement("img");
-        icon.src = "/assets/announcements/rpg-carousel-arrow.png";
+        icon.src = "/announcement-carousel-arrow.png";
         icon.alt = "";
         button.append(icon);
         button.addEventListener("click", () => { show(index + (direction === "next" ? 1 : -1)); restart(); });
