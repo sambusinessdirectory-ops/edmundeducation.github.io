@@ -93,5 +93,16 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const catalog = buildWritingSpeakingTopics();
   const destination = path.join(root, 'writing-speaking-topics.json');
   fs.writeFileSync(destination, `${JSON.stringify(catalog)}\n`);
+  const categories = ['dse-group', 'dse-individual', 'ielts-1', 'ielts-2', 'ielts-3'];
+  const counts = {};
+  for (const category of categories) {
+    const questions = catalog.questions.filter(item => item.category === category);
+    const contextIds = new Set(questions.map(item => item.contextId).filter(Boolean));
+    const contexts = Object.fromEntries([...contextIds].map(id => [id, catalog.contexts[id]]));
+    const chunk = { schemaVersion: 1, category, contexts, questions };
+    fs.writeFileSync(path.join(root, `writing-speaking-topics-${category}.json`), `${JSON.stringify(chunk)}\n`);
+    counts[category] = questions.length;
+  }
+  fs.writeFileSync(path.join(root, 'writing-speaking-topics-manifest.json'), `${JSON.stringify({ schemaVersion: 1, counts })}\n`);
   console.log(`Wrote ${catalog.questions.length} speaking questions to ${destination}`);
 }

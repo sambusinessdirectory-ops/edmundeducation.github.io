@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { buildWritingSpeakingTopics } from './build-writing-speaking-topics.mjs';
 import {
   SPEAKING_TOPIC_CATEGORIES,
+  parseSpeakingTopicPrompt,
   speakingTopicLabel,
   speakingTopicPrompt,
   speakingTopicSearchHaystack
@@ -33,18 +34,39 @@ test('published speaking catalog contains every canonical DSE and IELTS question
   assert.equal(new Set(published.questions.map(item => item.id)).size, published.questions.length);
 });
 
+test('small category files preserve every question without loading the whole bank', () => {
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, 'writing-speaking-topics-manifest.json'), 'utf8'));
+  for (const category of SPEAKING_TOPIC_CATEGORIES) {
+    const chunk = JSON.parse(fs.readFileSync(path.join(root, `writing-speaking-topics-${category.id}.json`), 'utf8'));
+    const original = published.questions.filter(item => item.category === category.id);
+    assert.equal(chunk.category, category.id);
+    assert.equal(chunk.questions.length, manifest.counts[category.id]);
+    assert.deepEqual(chunk.questions, original);
+    for (const item of chunk.questions) {
+      if (item.contextId) assert.equal(chunk.contexts[item.contextId], published.contexts[item.contextId]);
+    }
+  }
+});
+
 test('DSE source context and IELTS Part 2 cue points survive writing prompt selection', () => {
   const dse = published.questions.find(item => item.category === 'dse-group');
   const dsePrompt = speakingTopicPrompt(dse, published.contexts);
   assert.match(dsePrompt, /Source material:/);
   assert.ok(dsePrompt.includes(published.contexts[dse.contextId]));
-  assert.ok(dsePrompt.includes(dse.question));
+  assert.ok(dsePrompt.startsWith(`${dse.question}\n\n`));
+  const parsedDse = parseSpeakingTopicPrompt(dsePrompt);
+  assert.equal(parsedDse.question, dse.question);
+  assert.equal(parsedDse.source, published.contexts[dse.contextId]);
+  const previousDraftPrompt = [speakingTopicLabel(dse), `Source material:\n${published.contexts[dse.contextId]}`, dse.question].join('\n\n');
+  assert.equal(parseSpeakingTopicPrompt(previousDraftPrompt).question, dse.question);
   assert.match(speakingTopicLabel(dse), /DSE 小組討論/);
 
   const part2 = published.questions.find(item => item.category === 'ielts-2');
   const part2Prompt = speakingTopicPrompt(part2, published.contexts);
   assert.ok(part2Prompt.includes(part2.question));
+  assert.ok(part2Prompt.startsWith(`${part2.question}\n\n`));
   assert.ok(part2Prompt.includes(part2.hints[0]));
+  assert.match(parseSpeakingTopicPrompt(part2Prompt).hints, /You should say|• /);
   assert.match(speakingTopicSearchHaystack(part2), /ielts speaking part 2/);
 });
 

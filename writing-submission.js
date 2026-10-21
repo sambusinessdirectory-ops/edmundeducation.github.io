@@ -1,6 +1,6 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
-import { SPEAKING_TOPIC_CATEGORIES, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack } from './writing-speaking-topics.mjs?v=20261021-1';
+import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
@@ -222,6 +222,7 @@ const elements = {
   floatingTopicPreview: document.querySelector("[data-floating-writing-topic-preview]"),
   floatingTopicContent: document.querySelector("[data-floating-writing-topic-content]"),
   floatingTopicText: document.querySelector("[data-floating-writing-topic-text]"),
+  floatingSpeakingDetails: document.querySelector("[data-floating-speaking-details]"),
   floatingTopicImages: document.querySelector("[data-floating-writing-topic-images]"),
   writingImageDock: document.querySelector("[data-writing-image-dock]"),
   writingImagePhoto: document.querySelector("[data-writing-image-photo]"),
@@ -241,6 +242,7 @@ const elements = {
   topicPickerResults: document.querySelector("[data-topic-picker-results]"),
   topicPickerCount: document.querySelector("[data-topic-picker-count]"),
   topicPickerMore: document.querySelector("[data-topic-picker-more]"),
+  topicPickerPrevious: document.querySelector("[data-topic-picker-previous]"),
   topicPickerCategories: [...document.querySelectorAll("[data-topic-picker-category]")],
   removeWritingTopic: document.querySelector("[data-remove-writing-topic]"),
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
@@ -433,11 +435,17 @@ const state = {
   topicCatalog: [],
   topicCatalogPromise: null,
   topicPickerTarget: "student",
-  topicPickerCategory: "all",
-  topicPickerVisibleCount: 40,
-  speakingTopicCatalog: [],
+  topicPickerCategory: "writing",
+  topicPickerCategoryManual: false,
+  topicPickerPage: 0,
+  topicPickerLoadGeneration: 0,
+  topicPickerSearchTimer: 0,
+  speakingTopicCatalogByCategory: Object.create(null),
   speakingTopicContexts: {},
-  speakingTopicCatalogPromise: null,
+  speakingTopicContextSearch: Object.create(null),
+  speakingTopicCatalogPromises: new Map(),
+  speakingTopicCounts: Object.create(null),
+  speakingTopicManifestPromise: null,
   homeworkResourceCatalog: null,
   homeworkResourceCatalogPromise: null,
   randomTopicGeneration: 0,
@@ -659,8 +667,23 @@ function syncFloatingWritingTopicContent() {
   const signature = JSON.stringify([topic, ...images.map(image => [image.src, image.alt])]);
   if (state.floatingTopicSignature === signature) return;
   state.floatingTopicSignature = signature;
-  elements.floatingTopicPreview.textContent = topic.replace(/\s+/gu, " ");
-  elements.floatingTopicText.textContent = topic;
+  const speaking = parseSpeakingTopicPrompt(topic);
+  elements.floatingTopic.classList.toggle('is-speaking-topic', Boolean(speaking));
+  elements.floatingTopicPreview.textContent = (speaking?.question || topic).replace(/\s+/gu, " ");
+  elements.floatingTopicText.textContent = speaking?.question || topic;
+  if (elements.floatingSpeakingDetails) {
+    elements.floatingSpeakingDetails.replaceChildren();
+    if (speaking?.hints) {
+      const details = createElement('details', 'selected-speaking-topic-details');
+      details.append(createElement('summary', '', '查看 IELTS 提示要點'), createElement('p', '', speaking.hints));
+      elements.floatingSpeakingDetails.append(details);
+    }
+    if (speaking?.source) {
+      const details = createElement('details', 'selected-speaking-topic-details');
+      details.append(createElement('summary', '', '查看 DSE 來源材料'), createElement('p', '', speaking.source));
+      elements.floatingSpeakingDetails.append(details);
+    }
+  }
   elements.floatingTopicImages.replaceChildren();
   for (const image of images) {
     const viewport = createElement("div", "floating-writing-topic-image-viewport");
@@ -3009,31 +3032,53 @@ async function loadWritingTopicCatalog() {
   return state.topicCatalogPromise;
 }
 
-async function loadWritingSpeakingTopics() {
-  if (state.speakingTopicCatalog.length) return state.speakingTopicCatalog;
-  if (!state.speakingTopicCatalogPromise) {
-    state.speakingTopicCatalogPromise = fetch('writing-speaking-topics.json?v=20261021-1')
+async function loadWritingSpeakingManifest() {
+  if (Object.keys(state.speakingTopicCounts).length) return state.speakingTopicCounts;
+  if (!state.speakingTopicManifestPromise) {
+    state.speakingTopicManifestPromise = fetch('writing-speaking-topics-manifest.json?v=20261021-2')
+      .then(async response => {
+        if (!response.ok) throw new Error(`Speaking categories: HTTP ${response.status}`);
+        const manifest = await response.json();
+        if (manifest?.schemaVersion !== 1 || !manifest.counts) throw new Error('Invalid speaking categories');
+        state.speakingTopicCounts = manifest.counts;
+        return state.speakingTopicCounts;
+      })
+      .finally(() => { state.speakingTopicManifestPromise = null; });
+  }
+  return state.speakingTopicManifestPromise;
+}
+
+async function loadWritingSpeakingTopics(category) {
+  if (!SPEAKING_TOPIC_CATEGORIES.some(item => item.id === category)) return;
+  if (state.speakingTopicCatalogByCategory[category]) return state.speakingTopicCatalogByCategory[category];
+  if (!state.speakingTopicCatalogPromises.has(category)) {
+    const promise = fetch(`writing-speaking-topics-${category}.json?v=20261021-2`)
       .then(async response => {
         if (!response.ok) throw new Error(`Speaking questions: HTTP ${response.status}`);
         const catalog = await response.json();
-        if (catalog?.schemaVersion !== 1 || !Array.isArray(catalog.questions) || !catalog.contexts) {
-          throw new Error('Invalid speaking question catalog');
+        if (catalog?.schemaVersion !== 1 || catalog.category !== category
+          || !Array.isArray(catalog.questions) || !catalog.contexts) {
+          throw new Error('Invalid speaking question category');
         }
-        const categories = new Set(SPEAKING_TOPIC_CATEGORIES.map(item => item.id));
-        const ids = new Set();
-        state.speakingTopicContexts = catalog.contexts;
-        state.speakingTopicCatalog = catalog.questions.map(item => {
-          if (!categories.has(item.category) || !item.question || ids.has(item.id)) {
-            throw new Error(`Invalid speaking question: ${item.id}`);
+        for (const [id, context] of Object.entries(catalog.contexts)) {
+          state.speakingTopicContexts[id] = context;
+          if (!state.speakingTopicContextSearch[id]) {
+            state.speakingTopicContextSearch[id] = speakingTopicSearchText(context);
           }
-          ids.add(item.id);
-          return { ...item, searchText: speakingTopicSearchHaystack(item, catalog.contexts) };
-        });
-        return state.speakingTopicCatalog;
+        }
+        for (const item of catalog.questions) {
+          if (item.category !== category || !item.id || !item.question) throw new Error('Invalid speaking question');
+          // Keep the long DSE source searchable once per set, rather than
+          // copying it into all eleven questions in the set.
+          item.searchText = speakingTopicSearchHaystack(item);
+        }
+        state.speakingTopicCatalogByCategory[category] = catalog.questions;
+        return catalog.questions;
       })
-      .finally(() => { state.speakingTopicCatalogPromise = null; });
+      .finally(() => { state.speakingTopicCatalogPromises.delete(category); });
+    state.speakingTopicCatalogPromises.set(category, promise);
   }
-  return state.speakingTopicCatalogPromise;
+  return state.speakingTopicCatalogPromises.get(category);
 }
 
 function renderSelectedTopicPreview() {
@@ -3046,11 +3091,11 @@ function renderSelectedTopicPreview() {
   loadModelEssayReference().catch((error) => {
     console.warn("Model essay reference load failed", error);
   });
-  if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !resource;
+  if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !resource && !parseSpeakingTopicPrompt(elements.topicInput.value);
   if (!elements.selectedTopicPreview) return;
+  if (resource?.questionImages.length) elements.topicInput.closest('.prompt-panel')?.classList.remove('has-speaking-topic');
   if (!resource?.questionImages.length) {
-    elements.selectedTopicPreview.hidden = true;
-    elements.selectedTopicPreview.replaceChildren();
+    renderSelectedSpeakingTopicPreview();
     renderSelectedTopicReferences();
     return;
   }
@@ -3091,6 +3136,34 @@ function renderSelectedTopicPreview() {
   renderSelectedTopicReferences();
 }
 
+function renderSelectedSpeakingTopicPreview() {
+  if (!elements.selectedTopicPreview) return;
+  const speaking = parseSpeakingTopicPrompt(elements.topicInput.value);
+  elements.topicInput.closest('.prompt-panel')?.classList.toggle('has-speaking-topic', Boolean(speaking));
+  if (!speaking) {
+    elements.selectedTopicPreview.hidden = true;
+    elements.selectedTopicPreview.replaceChildren();
+    return;
+  }
+  const panel = createElement('section', 'selected-speaking-topic');
+  panel.append(
+    createElement('small', 'selected-speaking-topic-meta', speaking.label),
+    createElement('h3', 'selected-speaking-topic-question', speaking.question)
+  );
+  if (speaking.hints) {
+    const details = createElement('details', 'selected-speaking-topic-details');
+    details.append(createElement('summary', '', '查看 IELTS 提示要點'), createElement('p', '', speaking.hints));
+    panel.append(details);
+  }
+  if (speaking.source) {
+    const details = createElement('details', 'selected-speaking-topic-details');
+    details.append(createElement('summary', '', '查看 DSE 來源材料'), createElement('p', '', speaking.source));
+    panel.append(details);
+  }
+  elements.selectedTopicPreview.replaceChildren(panel);
+  elements.selectedTopicPreview.hidden = false;
+}
+
 function removeSelectedWritingTopic() {
   state.selectedTopicResource = null;
   elements.topicInput.value = "";
@@ -3115,42 +3188,65 @@ function renderWritingTopicResults(query = "") {
   if (!elements.topicPickerResults) return;
   const tokens = writingTopicSearchTokens(query);
   const category = state.topicPickerCategory;
-  const writing = category === 'all' || category === 'writing'
-    ? (state.topicPickerTarget === 'admin' ? adminProxyTopicCatalog() : state.topicCatalog.filter(canAccessWritingTopic))
-      .filter(resource => !tokens.length || tokens.every(token => writingTopicResultHaystack(resource).includes(token)))
-      .map(resource => ({ type: 'writing', resource }))
-    : [];
-  const speaking = category !== 'writing'
-    ? state.speakingTopicCatalog
-      .filter(item => (category === 'all' || item.category === category)
-        && (!tokens.length || tokens.every(token => item.searchText.includes(token))))
-      .map(resource => ({ type: 'speaking', resource }))
-    : [];
-  const matches = [...writing, ...speaking];
-  if (elements.topicPickerCount) elements.topicPickerCount.textContent = `${matches.length} 條題目${matches.length > state.topicPickerVisibleCount ? ` · 顯示首 ${state.topicPickerVisibleCount} 條` : ''}`;
-  if (elements.topicPickerMore) elements.topicPickerMore.hidden = matches.length <= state.topicPickerVisibleCount;
-  if (!matches.length) {
+  const pageSize = 20;
+  const pageStart = state.topicPickerPage * pageSize;
+  const page = [];
+  let total = 0;
+  const addMatch = (type, resource) => {
+    if (total >= pageStart && page.length < pageSize) page.push({ type, resource });
+    total += 1;
+  };
+  if (category === 'all' || category === 'writing') {
+    const writing = state.topicPickerTarget === 'admin'
+      ? adminProxyTopicCatalog()
+      : state.topicCatalog.filter(canAccessWritingTopic);
+    for (const resource of writing) {
+      if (!tokens.length || tokens.every(token => writingTopicResultHaystack(resource).includes(token))) {
+        addMatch('writing', resource);
+      }
+    }
+  }
+  if (category !== 'writing') {
+    const categories = category === 'all'
+      ? SPEAKING_TOPIC_CATEGORIES.map(item => item.id)
+      : [category];
+    for (const selected of categories) {
+      for (const item of state.speakingTopicCatalogByCategory[selected] || []) {
+        if (!tokens.length || tokens.every(token => item.searchText.includes(token)
+          || (state.speakingTopicContextSearch[item.contextId] || '').includes(token))) {
+          addMatch('speaking', item);
+        }
+      }
+    }
+  }
+  if (elements.topicPickerCount) {
+    const unloadedSpeaking = category === 'all'
+      && SPEAKING_TOPIC_CATEGORIES.some(item => !state.speakingTopicCatalogByCategory[item.id]);
+    elements.topicPickerCount.textContent = unloadedSpeaking && !tokens.length
+      ? `${total} 條寫作題目 · 選擇說話類別或輸入關鍵字搜尋全部題目`
+      : total
+        ? `第 ${pageStart + 1}–${Math.min(pageStart + pageSize, total)} / ${total} 條題目`
+        : '0 條題目';
+  }
+  if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = state.topicPickerPage === 0;
+  if (elements.topicPickerMore) elements.topicPickerMore.hidden = pageStart + pageSize >= total;
+  if (!total) {
     elements.topicPickerResults.replaceChildren(emptyState("找不到符合的題目；請試其他關鍵字或類別。"));
     return;
   }
   const fragment = document.createDocumentFragment();
-  for (const match of matches.slice(0, state.topicPickerVisibleCount)) {
+  for (const match of page) {
     const resource = match.resource;
-    const button = createElement("button", "topic-picker-result");
+    const button = createElement("button", `topic-picker-result${match.type === 'speaking' ? ' topic-picker-speaking-result' : ''}`);
     button.type = "button";
     if (match.type === 'speaking') {
       button.dataset.selectSpeakingTopic = resource.id;
       button.append(
-        createElement('strong', '', speakingTopicLabel(resource)),
-        createElement('small', '', resource.questionZh || resource.titleZh || resource.question),
+        createElement('small', 'topic-picker-speaking-meta', speakingTopicLabel(resource)),
+        createElement('strong', 'topic-picker-speaking-question', resource.question),
         createElement('em', '', '選擇')
       );
-      const preview = createElement('div', 'topic-picker-result-preview');
-      preview.append(createElement('p', '', resource.question));
-      if (resource.category === 'ielts-2' && resource.hints?.length) {
-        preview.append(createElement('p', '', `You should say: ${resource.hints.join(' · ')}`));
-      }
-      button.append(preview);
+      if (resource.questionZh) button.append(createElement('span', 'topic-picker-speaking-translation', resource.questionZh));
       fragment.append(button);
       continue;
     }
@@ -3184,8 +3280,12 @@ function renderWritingTopicResults(query = "") {
 
 async function openWritingTopicPicker({ target = "student" } = {}) {
   state.topicPickerTarget = target === "admin" && state.user?.role === "admin" ? "admin" : "student";
-  state.topicPickerCategory = 'all';
-  state.topicPickerVisibleCount = 40;
+  state.topicPickerCategory = 'writing';
+  state.topicPickerCategoryManual = false;
+  state.topicPickerPage = 0;
+  const generation = ++state.topicPickerLoadGeneration;
+  window.clearTimeout(state.topicPickerSearchTimer);
+  elements.topicPickerSearch.value = '';
   syncWritingTopicPickerCategory();
   if (elements.topicPickerTitle) {
     elements.topicPickerTitle.textContent = state.topicPickerTarget === "admin"
@@ -3201,7 +3301,8 @@ async function openWritingTopicPicker({ target = "student" } = {}) {
   if (typeof elements.topicPicker.showModal === "function") elements.topicPicker.showModal();
   else elements.topicPicker.setAttribute("open", "");
   try {
-    const results = await Promise.allSettled([loadWritingTopicCatalog(), loadWritingSpeakingTopics()]);
+    const results = await Promise.allSettled([loadWritingTopicCatalog(), loadWritingSpeakingManifest()]);
+    if (generation !== state.topicPickerLoadGeneration) return;
     if (results.every(result => result.status === 'rejected')) throw results[0].reason;
     for (const result of results) if (result.status === 'rejected') console.warn('Writing topic source failed', result.reason);
     syncWritingTopicPickerCategory();
@@ -3213,6 +3314,37 @@ async function openWritingTopicPicker({ target = "student" } = {}) {
   }
 }
 
+async function activateWritingTopicPickerCategory(category) {
+  state.topicPickerCategory = category;
+  state.topicPickerPage = 0;
+  const generation = ++state.topicPickerLoadGeneration;
+  window.clearTimeout(state.topicPickerSearchTimer);
+  syncWritingTopicPickerCategory();
+  elements.topicPickerResults.replaceChildren(loadingState('正在載入這個類別的題目…'));
+  if (elements.topicPickerCount) elements.topicPickerCount.textContent = '';
+  if (elements.topicPickerPrevious) elements.topicPickerPrevious.hidden = true;
+  if (elements.topicPickerMore) elements.topicPickerMore.hidden = true;
+  try {
+    if (category === 'writing') {
+      await loadWritingTopicCatalog();
+    } else if (category === 'all') {
+      for (const item of SPEAKING_TOPIC_CATEGORIES) {
+        if (generation !== state.topicPickerLoadGeneration) return;
+        await loadWritingSpeakingTopics(item.id);
+      }
+    } else {
+      await loadWritingSpeakingTopics(category);
+    }
+    if (generation !== state.topicPickerLoadGeneration) return;
+    syncWritingTopicPickerCategory();
+    renderWritingTopicResults(elements.topicPickerSearch.value);
+  } catch (error) {
+    if (generation !== state.topicPickerLoadGeneration) return;
+    console.warn('Speaking question category failed', error);
+    elements.topicPickerResults.replaceChildren(emptyState('暫時未能載入這個說話題目類別；請稍後再試。'));
+  }
+}
+
 function syncWritingTopicPickerCategory() {
   for (const button of elements.topicPickerCategories) {
     const selected = button.dataset.topicPickerCategory === state.topicPickerCategory;
@@ -3220,14 +3352,19 @@ function syncWritingTopicPickerCategory() {
     button.setAttribute('aria-pressed', String(selected));
     if (button.dataset.topicPickerCategory?.startsWith('dse-') || button.dataset.topicPickerCategory?.startsWith('ielts-')) {
       const category = SPEAKING_TOPIC_CATEGORIES.find(item => item.id === button.dataset.topicPickerCategory);
-      const count = state.speakingTopicCatalog.filter(item => item.category === category?.id).length;
+      const count = state.speakingTopicCounts[category?.id]
+        || state.speakingTopicCatalogByCategory[category?.id]?.length || 0;
       if (category) button.textContent = count ? `${category.label} · ${count}` : category.label;
     }
   }
 }
 
 function selectSpeakingTopic(topicId) {
-  const topic = state.speakingTopicCatalog.find(item => item.id === topicId);
+  let topic;
+  for (const category of SPEAKING_TOPIC_CATEGORIES) {
+    topic = state.speakingTopicCatalogByCategory[category.id]?.find(item => item.id === topicId);
+    if (topic) break;
+  }
   if (!topic) return;
   const prompt = speakingTopicPrompt(topic, state.speakingTopicContexts).slice(0, 4000);
   if (state.topicPickerTarget === 'admin') {
@@ -3250,6 +3387,8 @@ function selectSpeakingTopic(topicId) {
 }
 
 function closeWritingTopicPicker() {
+  state.topicPickerLoadGeneration += 1;
+  window.clearTimeout(state.topicPickerSearchTimer);
   if (typeof elements.topicPicker.close === "function") elements.topicPicker.close();
   else elements.topicPicker.removeAttribute("open");
   state.topicPickerTarget = "student";
@@ -10187,6 +10326,10 @@ function bindEvents() {
   elements.topicInput.addEventListener("input", () => {
     markWritingActivity();
     updateEditorMetrics();
+    if (!state.selectedTopicResource) {
+      renderSelectedSpeakingTopicPreview();
+      if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !parseSpeakingTopicPrompt(elements.topicInput.value);
+    }
     scheduleDraftSave();
   });
   elements.floatingTopicToggle?.addEventListener("click", () => {
@@ -10206,18 +10349,45 @@ function bindEvents() {
   elements.topicPickerOpen.addEventListener("click", () => openWritingTopicPicker({ target: "student" }));
   elements.topicPickerClose.addEventListener("click", closeWritingTopicPicker);
   elements.topicPickerSearch.addEventListener("input", () => {
-    state.topicPickerVisibleCount = 40;
-    renderWritingTopicResults(elements.topicPickerSearch.value);
+    state.topicPickerPage = 0;
+    window.clearTimeout(state.topicPickerSearchTimer);
+    state.topicPickerSearchTimer = window.setTimeout(() => {
+      if (!state.topicPickerCategoryManual && state.topicPickerCategory === 'writing'
+        && elements.topicPickerSearch.value.trim()) {
+        activateWritingTopicPickerCategory('all');
+        return;
+      }
+      if (!state.topicPickerCategoryManual && state.topicPickerCategory === 'all'
+        && !elements.topicPickerSearch.value.trim()) {
+        activateWritingTopicPickerCategory('writing');
+        return;
+      }
+      if (state.topicPickerCategory === 'all' && elements.topicPickerSearch.value.trim()
+        && SPEAKING_TOPIC_CATEGORIES.some(item => !state.speakingTopicCatalogByCategory[item.id])) {
+        activateWritingTopicPickerCategory('all');
+        return;
+      }
+      if (state.topicPickerCategory !== 'writing' && (
+        state.topicPickerCategory === 'all'
+          ? SPEAKING_TOPIC_CATEGORIES.some(item => !state.speakingTopicCatalogByCategory[item.id])
+          : !state.speakingTopicCatalogByCategory[state.topicPickerCategory]
+      )) return;
+      renderWritingTopicResults(elements.topicPickerSearch.value);
+    }, 140);
   });
   for (const button of elements.topicPickerCategories) button.addEventListener('click', () => {
-    state.topicPickerCategory = button.dataset.topicPickerCategory;
-    state.topicPickerVisibleCount = 40;
-    syncWritingTopicPickerCategory();
-    renderWritingTopicResults(elements.topicPickerSearch.value);
+    state.topicPickerCategoryManual = true;
+    activateWritingTopicPickerCategory(button.dataset.topicPickerCategory);
   });
   elements.topicPickerMore?.addEventListener('click', () => {
-    state.topicPickerVisibleCount += 40;
+    state.topicPickerPage += 1;
     renderWritingTopicResults(elements.topicPickerSearch.value);
+    elements.topicPickerResults.scrollTop = 0;
+  });
+  elements.topicPickerPrevious?.addEventListener('click', () => {
+    state.topicPickerPage = Math.max(0, state.topicPickerPage - 1);
+    renderWritingTopicResults(elements.topicPickerSearch.value);
+    elements.topicPickerResults.scrollTop = 0;
   });
   elements.topicPicker.addEventListener("click", (event) => {
     if (event.target === elements.topicPicker) closeWritingTopicPicker();
@@ -10927,7 +11097,7 @@ document.querySelector('[data-admin-questions-button]').addEventListener('click'
 document.querySelector('[data-refresh-questions]').addEventListener('click',()=>openFeedbackInbox());
 document.querySelector('[data-more-questions]').addEventListener('click',()=>openFeedbackInbox(true));
 
-document.querySelectorAll('[data-paper3-topic-category]').forEach(button=>button.addEventListener('click',()=>{state.topicPickerCategory='writing';state.topicPickerVisibleCount=40;syncWritingTopicPickerCategory();elements.topicPickerSearch.value='DSE Integrated '+button.dataset.paper3TopicCategory;renderWritingTopicResults(elements.topicPickerSearch.value);}));
+document.querySelectorAll('[data-paper3-topic-category]').forEach(button=>button.addEventListener('click',()=>{state.topicPickerCategory='writing';state.topicPickerCategoryManual=true;state.topicPickerPage=0;syncWritingTopicPickerCategory();elements.topicPickerSearch.value='DSE Integrated '+button.dataset.paper3TopicCategory;renderWritingTopicResults(elements.topicPickerSearch.value);}));
 
 let articleDeliveryVersion="0",articleDeliveryBusy=false;
 async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden||state.user?.role==='admin'||!state.authToken)return;articleDeliveryBusy=true;try{const result=await apiJson('/v1/submissions/delivery-version');if(articleDeliveryVersion!==null&&articleDeliveryVersion!==result.version&&state.currentView==='submissions')await loadSubmissions({selectId:state.selectedSubmissionId||''});articleDeliveryVersion=result.version;}catch{}finally{articleDeliveryBusy=false;}}

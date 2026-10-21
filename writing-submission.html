@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-speaking-topics1">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-speaking-topics2">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -155,6 +155,7 @@
           </button>
           <div class="floating-writing-topic-content" id="floating-writing-topic-content" data-floating-writing-topic-content hidden>
             <p data-floating-writing-topic-text></p>
+            <div data-floating-speaking-details></div>
             <div class="floating-writing-topic-images" data-floating-writing-topic-images hidden></div>
           </div>
         </aside>
@@ -554,7 +555,10 @@
       <p class="topic-picker-note" data-topic-picker-note>選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。</p>
       <p class="topic-picker-count" data-topic-picker-count aria-live="polite"></p>
       <div class="topic-picker-results" data-topic-picker-results aria-live="polite"></div>
-      <button class="secondary-button topic-picker-more" type="button" data-topic-picker-more hidden>顯示更多題目</button>
+      <div class="topic-picker-pager">
+        <button class="secondary-button" type="button" data-topic-picker-previous hidden>上一頁</button>
+        <button class="secondary-button" type="button" data-topic-picker-more hidden>下一頁</button>
+      </div>
     </div>
   </dialog>
 
@@ -695,6 +699,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-speaking-topics1"></script>
+  <script type="module" src="writing-submission.js?v=20261021-speaking-topics2"></script>
 </body>
 </html>

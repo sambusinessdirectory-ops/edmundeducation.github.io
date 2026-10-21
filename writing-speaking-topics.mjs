@@ -20,15 +20,31 @@ export function speakingTopicLabel(topic) {
 export function speakingTopicPrompt(topic, contexts = {}) {
   const label = speakingTopicLabel(topic);
   if (!label) return '';
-  const lines = [label];
+  const lines = [topic.question, label];
   if (topic.category.startsWith('dse-') && contexts[topic.contextId]) {
     lines.push(`Source material:\n${contexts[topic.contextId]}`);
   }
-  lines.push(topic.question);
   if (topic.category === 'ielts-2' && topic.hints?.length) {
     lines.push(`You should say:\n${topic.hints.map(hint => `• ${hint}`).join('\n')}`);
   }
   return lines.join('\n\n');
+}
+
+export function parseSpeakingTopicPrompt(value) {
+  const parts = String(value || '').split('\n\n');
+  const labelPattern = /^(DSE (?:小組討論|個人回應)|IELTS Speaking Part [123]) · /u;
+  const legacy = labelPattern.test(parts[0]?.trim() || '');
+  const label = (legacy ? parts[0] : parts[1])?.trim();
+  const question = (legacy
+    ? parts.slice(1).find(part => !part.startsWith('Source material:\n') && !part.startsWith('You should say:\n'))
+    : parts[0])?.trim();
+  if (!question || !labelPattern.test(label || '')) return null;
+  return {
+    question,
+    label,
+    source: parts.find(part => part.startsWith('Source material:\n'))?.slice('Source material:\n'.length) || '',
+    hints: parts.find(part => part.startsWith('You should say:\n'))?.slice('You should say:\n'.length) || ''
+  };
 }
 
 export function speakingTopicSearchText(value) {
