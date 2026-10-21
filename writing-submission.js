@@ -283,6 +283,7 @@ const elements = {
   functionHelperToggle: document.querySelector("[data-function-helper-toggle]"),
   functionHelper: document.querySelector("[data-function-helper]"),
   functionFields: document.querySelector("[data-function-fields]"),
+  phoebeWritingToggle: document.querySelector("[data-phoebe-writing-toggle]"),
   proofreadingLabel: document.querySelector("[data-proofreading-label]"),
   writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
   writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
@@ -3754,6 +3755,38 @@ function autosizeTextarea(textarea, minimum = 0) {
   textarea.style.height = `${Math.max(minimum, textarea.scrollHeight)}px`;
 }
 
+const FUNCTION_PARAGRAPHS = [
+  { id: 'introduction', label: '引言', groups: ['Introduction'] },
+  { id: 'body-1', label: '正文段落一', groups: ['Body paragraph 1'] },
+  { id: 'body-2', label: '正文段落二', groups: ['Body paragraph 2'] },
+  { id: 'rebuttal', label: '反駁段', groups: ['Rebuttal - Opponent', 'Rebuttal - Your view'] },
+  { id: 'conclusion', label: '結論', groups: ['Conclusion'] }
+];
+
+function initialisePhoebeWritingToggle() {
+  const button = elements.phoebeWritingToggle;
+  if (!button) return;
+  const image = button.querySelector('img');
+  const gifSrc = image.getAttribute('src');
+  const stillSrc = 'writing-phoebe-writing-still.png';
+  const storageKey = 'edmund-writing-phoebe-visible';
+  let visible = true;
+  try { visible = localStorage.getItem(storageKey) !== 'false'; } catch { /* Storage may be unavailable. */ }
+  const render = () => {
+    button.dataset.visible = String(visible);
+    button.setAttribute('aria-pressed', String(visible));
+    button.setAttribute('aria-label', visible ? '隱藏 Phoebe 寫字動畫' : '顯示 Phoebe 寫字動畫');
+    button.title = visible ? '點擊隱藏 Phoebe 寫字動畫；再點擊可顯示' : '點擊顯示 Phoebe 寫字動畫';
+    image.setAttribute('src', visible ? gifSrc : stillSrc);
+  };
+  button.addEventListener('click', () => {
+    visible = !visible;
+    try { localStorage.setItem(storageKey, String(visible)); } catch { /* Keep the toggle usable without storage. */ }
+    render();
+  });
+  render();
+}
+
 function renderFunctionHelper() {
   const helper = state.functionHelper;
   const enabled = new Set(helper.enabled);
@@ -3780,6 +3813,22 @@ function renderFunctionHelper() {
     card.append(label, textarea);
     fields.append(card);
   }
+  const paragraphSwitches = createElement('div', 'writing-function-paragraph-switches');
+  paragraphSwitches.append(createElement('p', 'writing-function-paragraph-label', '整段開關'));
+  for (const paragraph of FUNCTION_PARAGRAPHS) {
+    const ids = WRITING_FUNCTIONS.filter(item => paragraph.groups.includes(item.group)).map(item => item.id);
+    const selected = ids.filter(id => enabled.has(id)).length;
+    const label = createElement('label', 'writing-function-paragraph-toggle');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = selected === ids.length;
+    checkbox.indeterminate = selected > 0 && selected < ids.length;
+    checkbox.dataset.functionParagraph = paragraph.id;
+    checkbox.setAttribute('aria-label', `使用整個${paragraph.label}，共 ${ids.length} 項`);
+    label.append(checkbox, createElement('span', '', paragraph.label));
+    paragraphSwitches.append(label);
+  }
+  fields.append(paragraphSwitches);
   for (const item of WRITING_FUNCTIONS) {
     if (item.group !== currentGroup) {
       currentGroup = item.group;
@@ -10656,10 +10705,16 @@ function bindEvents() {
   elements.functionHelperToggle.addEventListener('click', () => setFunctionHelperActive(!state.functionHelper.active));
   elements.functionFields.addEventListener('change', event => {
     const id = event.target.dataset.functionOption;
-    if (!id) return;
+    const paragraphId = event.target.dataset.functionParagraph;
+    if (!id && !paragraphId) return;
     const enabled = new Set(state.functionHelper.enabled);
-    if (event.target.checked) enabled.add(id);
-    else enabled.delete(id);
+    const ids = paragraphId
+      ? WRITING_FUNCTIONS.filter(item => FUNCTION_PARAGRAPHS.find(paragraph => paragraph.id === paragraphId)?.groups.includes(item.group)).map(item => item.id)
+      : [id];
+    for (const key of ids) {
+      if (event.target.checked) enabled.add(key);
+      else enabled.delete(key);
+    }
     state.functionHelper.enabled = WRITING_FUNCTIONS.map(item => item.id).filter(key => enabled.has(key));
     renderFunctionHelper();
     syncFunctionHelperAnswer();
@@ -11233,6 +11288,7 @@ async function initialise() {
   preserveTextareaParagraphs(elements.writingInput);
   preserveTextareaParagraphs(elements.adminProxyAnswer);
   bindEvents();
+  initialisePhoebeWritingToggle();
   initializeStudentFeedbackWordBrush();
   ensureFeedbackSelectionToolbar();
   initializeAdminManualTopicSlots();
