@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20261018-reading-followup2">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20261021-dse-types1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20261018-analysis-batch1">
 </head>
@@ -108,6 +108,16 @@
         </div>
       </section>
       <p class="dse-catalogue-status" data-dse-catalogue-status role="status"></p>
+      <details class="dse-question-finder panel" data-dse-question-finder>
+        <summary><span class="dse-question-finder__icon" aria-hidden="true">45</span><span><small>DSE READING · QUESTION FINDER</small><strong>按題型選題練習</strong><span>45 份 Part A、B1、B2 試卷已按每道題的題型整理；展開後可直接跳到指定題目。</span></span><b aria-hidden="true">展開 ↓</b></summary>
+        <div class="dse-question-finder__body">
+          <label for="dse-question-type-search">搜尋英文或中文題型</label>
+          <input id="dse-question-type-search" type="search" data-dse-question-type-search placeholder="例如：配對／Matching／True False" autocomplete="off">
+          <p data-dse-question-type-status role="status">展開後載入題型索引…</p>
+          <div class="dse-question-type-chips" data-dse-question-type-chips role="group" aria-label="選擇 DSE 題型"></div>
+          <div class="dse-question-type-results" data-dse-question-type-results></div>
+        </div>
+      </details>
       <section class="mock-exam-panel panel full-exam-launch" aria-labelledby="dse-full-exam-title">
         <div><p class="eyebrow">DSE PAPER 1 · 90-MINUTE FULL PAPER</p><h2 id="dse-full-exam-title">完整試卷模擬試 <span>Part A + Part B</span></h2><p>選擇 B1 或 B2。可使用同一年度的 A + B，或隨機配對不同年度的 A + B。全卷共用 90 分鐘，交卷後才結束。</p></div>
         <div class="mock-exam-actions full-exam-options">
@@ -173,6 +183,11 @@
           <div class="reading-bookmark-list" data-reading-bookmark-list></div>
         </div>
       </section>
+      <button class="question-type-directory panel" type="button" data-open-dse-question-finder aria-label="DSE 按題型選題練習：45 份試卷，2012 至 2026 年 Part A、B1、B2">
+        <span class="question-type-directory-icon" aria-hidden="true">45</span>
+        <span class="question-type-directory-copy"><small>DSE READING · QUESTION FINDER</small><strong>按題型選題練習</strong><span>45 份 DSE 試卷逐題分類；按題型找到題號並直接作答。</span></span>
+        <span class="question-type-directory-action" aria-hidden="true">選擇題型 →</span>
+      </button>
       <section class="catalogue-tools panel" aria-label="搜尋閱讀練習">
         <label>搜尋文章或練習編號<input type="search" data-catalogue-search placeholder="文章名稱 / Practice 編號" autocomplete="off"></label>
         <p data-catalogue-status role="status">正在載入文章目錄…</p>
@@ -362,7 +377,7 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
-  <script type="module" src="reading-comprehension.js?v=20261018-analysis-batch1"></script>
+  <script type="module" src="reading-comprehension.js?v=20261021-dse-types1"></script>
 <script type="module" src="reading-teaching-tools.mjs?v=20261018-hide-words1"></script>
 <script type="module" src="reading-exam-selects.mjs?v=20261018-glass-selects1"></script>
 <script type="module" src="study-support.mjs?v=20260907-study4"></script></body>

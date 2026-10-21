@@ -1,4 +1,4 @@
-import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs';
+import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs?v=20261021-study2';
 
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
 import {MODULES} from './modules.mjs?v=20261019-homework1';
@@ -6,7 +6,10 @@ const host = document.createElement('section');
 host.className = 'junior-app junior-advanced-app';
 host.setAttribute('aria-label', '初中考試溫習內容');
 document.querySelector('[data-view="dashboard"]')?.append(host);
-const highlighter = mountJuniorHighlighter(host, '.junior-advanced-passage', 'exam');
+const highlighter = mountJuniorHighlighter(host, '.junior-advanced-passage', 'exam', {
+  scopeSelector: '.junior-advanced-passage-group',
+  scopeKey: scope => `${active?.key || ''}:passage-${scope.dataset.passage}`
+});
 const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const numberKey = (number) => String(number).padStart(3, '0');
 let owner = null;
@@ -110,7 +113,7 @@ function renderModule() {
   host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · ADVANCED PRACTICE</p><h2>${escapeHtml(active.title)}</h2><p>${escapeHtml(active.instructions)}</p><p>先閱讀整篇文章，再填答案。只需填一題即可部分提交及檢查；未填題目可以稍後完成。</p></div>
     ${juniorHighlightToolbar()}
     <div class="junior-exam-toolbar"><span><strong data-answered-count>${count}</strong> / 50 題已填</span><label>跳至題目 <input type="number" min="1" max="50" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已檢查</span><button type="button" data-submit-now="partial" ${count ? '' : 'disabled'}>提交已填答案並檢查</button><button type="button" data-submit-now="final" ${count === 50 ? '' : 'disabled'}>提交全部 50 題</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
-    <form data-exam-form novalidate>${data.passages.map((passage) => `<section class="junior-advanced-passage-group" aria-labelledby="junior-passage-${passage.number}"><h3 id="junior-passage-${passage.number}">Passage ${passage.number} — ${escapeHtml(passage.title.replace(/^Passage\s+\d+\s*[—:-]\s*/i, ''))}</h3><div class="junior-advanced-passage" lang="en">${renderPassageText(passage)}</div>${reviewHtml(passage)}</section>`).join('')}
+    <form data-exam-form novalidate>${data.passages.map((passage) => `<section class="junior-advanced-passage-group" data-passage="${passage.number}" aria-labelledby="junior-passage-${passage.number}"><h3 id="junior-passage-${passage.number}">Passage ${passage.number} — ${escapeHtml(passage.title.replace(/^Passage\s+\d+\s*[—:-]\s*/i, ''))}</h3><div class="junior-advanced-passage" lang="en">${renderPassageText(passage)}</div>${reviewHtml(passage)}</section>`).join('')}
     <div class="junior-submit-bar"><div><strong>提交答案與檢查</strong><small>部分提交只檢查已填題目；其餘題目仍可繼續作答。</small><p role="status" aria-live="polite" data-submit-status></p></div><button type="submit" name="mode" value="partial" data-submit-partial ${count ? '' : 'disabled'}>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${count === 50 ? '' : 'disabled'}>提交全部 50 題</button></div></form>`;
   highlighter.syncToolbar();
 }

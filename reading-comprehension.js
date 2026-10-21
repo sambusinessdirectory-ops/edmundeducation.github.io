@@ -21,6 +21,7 @@ let reconstructedPaperNodes = null;
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
   system: 'ielts', dseCatalogue: [], dseCataloguePromise: null, dseSort: 'desc', dsePaperMode: 'practice',
+  dseTypes: null, dseTypesPromise: null, dseSelectedType: '',
   dseAttemptId: null, dseSubmitted: false, dseRemoteReady: false, dseSavePromise: null, dseSaveTimer: 0,
   attemptId: null, answers: {}, results: {}, bookmarks: new Set(), bookmarkItems: new Map(), pendingBookmarks: new Set(), bookmarkError: false, activeAnalysis: 0, activeSkimming: 0, analysisMode: 'analysis',
   timerRunning: false, durationMs: 0, timerStartedAt: 0, timerHandle: 0, autosaveHandle: 0,
@@ -189,6 +190,46 @@ async function loadDseCatalogue() {
     return state.dseCatalogue;
   })().finally(() => { state.dseCataloguePromise = null; });
   return state.dseCataloguePromise;
+}
+async function loadDseQuestionTypes() {
+  if (state.dseTypes) return state.dseTypes;
+  if (!state.dseTypesPromise) state.dseTypesPromise = (async () => {
+    const response = await fetch('dse-reading-question-types.json?v=20261021-dse-types1');
+    if (!response.ok) throw new Error('未能載入 DSE 題型索引。');
+    const payload = await response.json();
+    if (payload.paperCount !== 45 || !Array.isArray(payload.papers) || payload.papers.length !== 45 ||
+        payload.questionCount !== payload.papers.reduce((count, paper) => count + (paper.questions?.length || 0), 0))
+      throw new Error('DSE 題型索引資料有誤。');
+    state.dseTypes = payload;
+    return payload;
+  })().finally(() => { state.dseTypesPromise = null; });
+  return state.dseTypesPromise;
+}
+function renderDseQuestionTypes() {
+  const index = state.dseTypes;
+  const chips = $('[data-dse-question-type-chips]');
+  const results = $('[data-dse-question-type-results]');
+  const status = $('[data-dse-question-type-status]');
+  if (!index || !chips || !results || !status) return;
+  const query = normaliseSearch($('[data-dse-question-type-search]').value);
+  const types = index.types.filter(type => !query || [type.en, type.zh, ...type.aliases].some(term => normaliseSearch(term).includes(query)));
+  if (query && !types.some(type => type.id === state.dseSelectedType)) state.dseSelectedType = '';
+  chips.innerHTML = types.map(type => {
+    const count = index.papers.reduce((total, paper) => total + paper.questions.filter(question => question.types.includes(type.id)).length, 0);
+    return `<button type="button" data-dse-question-type="${escapeHtml(type.id)}" aria-pressed="${state.dseSelectedType === type.id}"><strong>${escapeHtml(type.en)}</strong><span>${escapeHtml(type.zh)}</span><small>${count} 題</small></button>`;
+  }).join('');
+  const selected = index.types.find(type => type.id === state.dseSelectedType);
+  if (!selected) {
+    status.textContent = query ? `找到 ${types.length} 種題型；請選擇一種。` : `45 份試卷、${index.questionCount} 題；請選擇題型。`;
+    results.replaceChildren();
+    return;
+  }
+  const papers = index.papers.map(paper => ({...paper, matches:paper.questions.filter(question => question.types.includes(selected.id))}))
+    .filter(paper => paper.matches.length)
+    .sort((a,b) => b.year - a.year || ({A:0,B1:1,B2:2}[a.section] - {A:0,B1:1,B2:2}[b.section]));
+  const count = papers.reduce((total,paper) => total + paper.matches.length,0);
+  status.textContent = `${selected.en} · ${selected.zh}：${count} 題，分佈於 ${papers.length} 份試卷。點選題號即可開始。`;
+  results.innerHTML = papers.map(paper => `<section class="dse-question-type-paper"><div><strong>${paper.year} Part ${escapeHtml(paper.section)}</strong><span>${escapeHtml(paper.title)}</span></div><div class="dse-question-type-numbers">${paper.matches.map(question => `<button type="button" data-dse-type-paper="${escapeHtml(paper.id)}" data-dse-type-question="${question.number}" aria-label="${paper.year} Part ${escapeHtml(paper.section)} 第 ${question.number} 題">Q${question.number}</button>`).join('')}</div></section>`).join('');
 }
 async function loadArticleData(id = ARTICLE_ID) {
   await loadCatalogue();
@@ -1732,8 +1773,32 @@ wordRemoveDialog.addEventListener('cancel', (event) => { event.preventDefault();
 wordRemoveDialog.addEventListener('click', (event) => { if (event.target === wordRemoveDialog) finishWordRemoval(false); });
 $('[data-enter-ielts]').addEventListener('click', enterIeltsReading);
 $('[data-enter-dse]').addEventListener('click', openDseDashboard);
+$('[data-open-dse-question-finder]').addEventListener('click', async () => {
+  await openDseDashboard();
+  dseFinder.open = true;
+  dseFinder.scrollIntoView({block:'start'});
+});
 $$('[data-back-reading-home]').forEach((button) => button.addEventListener('click', openReadingHome));
 $$('[data-dse-sort]').forEach((button) => button.addEventListener('click', () => { state.dseSort = button.dataset.dseSort === 'asc' ? 'asc' : 'desc'; renderDseCatalogue(); }));
+const dseFinder = $('[data-dse-question-finder]');
+dseFinder.addEventListener('toggle', async () => {
+  if (!dseFinder.open) return;
+  try { await loadDseQuestionTypes(); renderDseQuestionTypes(); }
+  catch (error) { $('[data-dse-question-type-status]').textContent = error.message || '題型索引暫時未能載入。'; }
+});
+$('[data-dse-question-type-search]').addEventListener('input', renderDseQuestionTypes);
+dseFinder.addEventListener('click', event => {
+  const type = event.target.closest('[data-dse-question-type]');
+  if (type) { state.dseSelectedType = state.dseSelectedType === type.dataset.dseQuestionType ? '' : type.dataset.dseQuestionType; renderDseQuestionTypes(); return; }
+  const question = event.target.closest('[data-dse-type-paper][data-dse-type-question]');
+  if (!question) return;
+  const index = state.dseTypes;
+  const paper = index?.papers.find(item => item.id === question.dataset.dseTypePaper);
+  const number = Number(question.dataset.dseTypeQuestion);
+  if (!paper?.questions.some(item => item.number === number && item.types.includes(state.dseSelectedType))) return;
+  const route = new URL(location.href); route.hash = `question-${number}`; history.replaceState({}, '', route);
+  void openDseExercise(paper.id);
+});
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
 $('[data-open-question-types]').addEventListener('click', () => openQuestionTypeDirectory('', '', true));

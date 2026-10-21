@@ -1,77 +1,175 @@
+// Shared, account-scoped study highlighter. Text offsets survive exercise DOM redraws.
 const COLORS = ['yellow', 'green', 'blue', 'purple', 'red'];
+const COLOR_LABELS = ['黃色', '綠色', '藍色', '紫色', '紅色'];
 
 export function juniorHighlightToolbar() {
-  return `<div class="junior-highlight-toolbar" role="group" aria-label="暫時螢光筆"><button type="button" data-junior-highlight-toggle aria-pressed="false">螢光筆</button><div class="junior-highlight-colors" role="group" aria-label="標記顏色">${COLORS.map((name, index) => `<button type="button" class="junior-highlight-swatch is-${name}" data-junior-highlight-color="${name}" aria-label="${['黃色', '綠色', '藍色', '紫色', '紅色'][index]}螢光筆" aria-pressed="${index === 0}"></button>`).join('')}</div><button type="button" data-junior-highlight-clear>清除標記</button><span class="junior-highlight-status" data-junior-highlight-status role="status" aria-live="polite">開啟後拖選文章文字。</span></div>`;
+  return `<div class="junior-highlight-toolbar" role="group" aria-label="螢光筆工具列"><button type="button" data-junior-highlight-toggle aria-pressed="false">螢光筆</button><div class="junior-highlight-colors" role="group" aria-label="標記顏色">${COLORS.map((name, index) => `<button type="button" class="junior-highlight-swatch is-${name}" data-junior-highlight-color="${name}" aria-label="${COLOR_LABELS[index]}螢光筆" aria-pressed="${index === 0}"></button>`).join('')}</div><button type="button" data-junior-highlight-clear>清除全部標記</button><span class="junior-highlight-status" data-junior-highlight-status role="status" aria-live="polite">選擇顏色後拖選文字。</span></div>`;
 }
 
-export function mountJuniorHighlighter(root, eligibleSelector, namespace) {
+export function mountJuniorHighlighter(root, eligibleSelector, namespace, options = {}) {
+  const scopeSelector = options.scopeSelector || eligibleSelector;
+  const scopeKey = options.scopeKey || (scope => scope.dataset.highlightKey || scope.id);
+  const supportsCssHighlights = Boolean(globalThis.CSS?.highlights && globalThis.Highlight);
+  const nameFor = color => `junior-${namespace}-${color}`;
   let enabled = false;
   let color = 'yellow';
-  const ranges = new Map(COLORS.map(name => [name, new Set()]));
-  const supportsCssHighlights = Boolean(globalThis.CSS?.highlights && globalThis.Highlight);
-  const nameFor = name => `junior-${namespace}-${name}`;
-  const status = message => { const node = root.querySelector('[data-junior-highlight-status]'); if (node) node.textContent = message; };
+  let owner = '';
+  let records = [];
+  let scheduled = false;
+  let repainting = false;
+  const status = message => {
+    const node = root.querySelector('[data-junior-highlight-status]');
+    if (node) node.textContent = message;
+  };
+  const currentOwner = () => globalThis.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.()?.user?.id || '';
+  const storageKey = id => `edmund-study-highlights-v2:${location.pathname}:${namespace}:${id}`;
+  function syncOwner() {
+    const next = currentOwner();
+    if (next === owner) return;
+    owner = next;
+    try {
+      const stored = JSON.parse(localStorage.getItem(storageKey(owner)) || '[]');
+      records = Array.isArray(stored) ? stored.filter(item => item && COLORS.includes(item.color) && typeof item.key === 'string' && typeof item.text === 'string' && item.text.length <= 1000 && Number.isSafeInteger(item.start) && Number.isSafeInteger(item.end)).slice(0, 2000) : [];
+    } catch { records = []; }
+  }
+  function persist() {
+    try { if (owner) localStorage.setItem(storageKey(owner), JSON.stringify(records)); } catch { /* The current page still keeps the marks. */ }
+  }
   function syncToolbar() {
     const toggle = root.querySelector('[data-junior-highlight-toggle]');
     if (toggle) { toggle.setAttribute('aria-pressed', String(enabled)); toggle.textContent = enabled ? '停用螢光筆' : '螢光筆'; }
     root.querySelectorAll('[data-junior-highlight-color]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.juniorHighlightColor === color)));
   }
-  function repaint(name) {
-    if (supportsCssHighlights) CSS.highlights.set(nameFor(name), new Highlight(...ranges.get(name)));
+  function textNodes(scope) {
+    const walker = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      if (node.parentElement?.closest('script, style, .junior-highlight-toolbar')) continue;
+      nodes.push(node);
+    }
+    return nodes;
   }
-  function clear() {
-    for (const name of COLORS) { ranges.get(name).clear(); if (supportsCssHighlights) CSS.highlights.delete(nameFor(name)); }
+  function textOf(nodes) { return nodes.map(node => node.data).join(''); }
+  function position(scope, container, offset) {
+    const before = document.createRange();
+    before.setStart(scope, 0);
+    before.setEnd(container, offset);
+    return before.toString().length;
+  }
+  function rangeFrom(nodes, start, end) {
+    const range = document.createRange();
+    let cursor = 0, first = null, last = null;
+    for (const node of nodes) {
+      const next = cursor + node.length;
+      if (!first && start < next) first = [node, start - cursor];
+      if (end <= next) { last = [node, Math.max(0, end - cursor)]; break; }
+      cursor = next;
+    }
+    if (!first || !last || end <= start) return null;
+    range.setStart(...first);
+    range.setEnd(...last);
+    return range;
+  }
+  function findScope(key) {
+    return [...root.querySelectorAll(scopeSelector)].find(scope => scopeKey(scope) === key) || null;
+  }
+  function removeFallbackMarks() {
     root.querySelectorAll('mark.junior-highlight-mark').forEach(mark => mark.replaceWith(...mark.childNodes));
-    root.normalize();
-    status('已清除全部暫時標記。');
+  }
+  function repaint() {
+    scheduled = false;
+    if (repainting) return;
+    repainting = true;
+    observer.disconnect();
+    syncOwner();
+    if (supportsCssHighlights) COLORS.forEach(name => CSS.highlights.delete(nameFor(name)));
+    else removeFallbackMarks();
+    const colorRanges = new Map(COLORS.map(name => [name, []]));
+    for (const record of records) {
+      const scope = findScope(record.key);
+      if (!scope) continue;
+      const nodes = textNodes(scope);
+      const content = textOf(nodes);
+      if (!content) continue;
+      let start = record.start;
+      if (content.slice(start, record.end) !== record.text) {
+        const candidates = [];
+        let at = content.indexOf(record.text);
+        while (at !== -1) { candidates.push(at); at = content.indexOf(record.text, at + 1); }
+        if (!candidates.length) continue;
+        start = candidates.sort((a, b) => Math.abs(a - record.start) - Math.abs(b - record.start))[0];
+      }
+      const range = rangeFrom(nodes, start, start + record.text.length);
+      if (!range) continue;
+      if (supportsCssHighlights) colorRanges.get(record.color).push(range);
+      else {
+        const mark = document.createElement('mark');
+        mark.className = 'junior-highlight-mark';
+        mark.dataset.color = record.color;
+        try { range.surroundContents(mark); } catch { /* A cross-element mark will return when CSS Highlights is supported. */ }
+      }
+    }
+    if (supportsCssHighlights) COLORS.forEach(name => {
+      const ranges = colorRanges.get(name);
+      if (ranges.length) CSS.highlights.set(nameFor(name), new Highlight(...ranges));
+    });
+    observer.observe(root, { childList: true, subtree: true, characterData: true });
+    repainting = false;
+  }
+  function scheduleRepaint() {
+    if (scheduled) return;
+    scheduled = true;
+    queueMicrotask(repaint);
+  }
+  const observer = new MutationObserver(scheduleRepaint);
+  observer.observe(root, { childList: true, subtree: true, characterData: true });
+  function clear() {
+    syncOwner();
+    records = [];
+    persist();
+    scheduleRepaint();
+    status('已清除全部標記。');
+  }
+  function highlightSelection() {
+    if (!enabled) return;
+    syncOwner();
+    const selection = globalThis.getSelection();
+    if (!selection?.rangeCount || selection.isCollapsed || !selection.toString().trim()) return;
+    const range = selection.getRangeAt(0);
+    const startElement = range.startContainer.nodeType === Node.ELEMENT_NODE ? range.startContainer : range.startContainer.parentElement;
+    const endElement = range.endContainer.nodeType === Node.ELEMENT_NODE ? range.endContainer : range.endContainer.parentElement;
+    if (!startElement?.closest(eligibleSelector) || !endElement?.closest(eligibleSelector)) return;
+    const scope = startElement.closest(scopeSelector);
+    if (!scope || scope !== endElement.closest(scopeSelector) || !root.contains(scope)) return;
+    const key = scopeKey(scope);
+    if (!key) return;
+    const nodes = textNodes(scope);
+    const start = position(scope, range.startContainer, range.startOffset);
+    const end = position(scope, range.endContainer, range.endOffset);
+    const selected = textOf(nodes).slice(start, end);
+    if (!selected.trim() || selected.length > 1000 || end <= start) return;
+    records.push({ key, color, start, end, text: selected });
+    persist();
+    selection.removeAllRanges();
+    scheduleRepaint();
+    status('已標記所選文字。');
   }
   root.addEventListener('click', event => {
     const toggle = event.target.closest('[data-junior-highlight-toggle]');
     const choice = event.target.closest('[data-junior-highlight-color]');
     const reset = event.target.closest('[data-junior-highlight-clear]');
-    if (toggle) { enabled = !enabled; syncToolbar(); status(enabled ? '拖選文章文字即可標記。' : '螢光筆已停用；現有標記仍保留。'); }
+    if (toggle) { enabled = !enabled; syncToolbar(); status(enabled ? '拖選文字即可標記。' : '螢光筆已停用；現有標記仍保留。'); }
     if (choice && COLORS.includes(choice.dataset.juniorHighlightColor)) { color = choice.dataset.juniorHighlightColor; enabled = true; syncToolbar(); status('已切換螢光筆顏色。'); }
-    if (reset && globalThis.confirm('清除這一頁的全部暫時螢光筆標記？')) clear();
+    if (reset && globalThis.confirm('清除這個系統的全部螢光筆標記？')) clear();
   });
-  function highlightSelection() {
-    if (!enabled) return;
-    const selection = globalThis.getSelection();
-    if (!selection?.rangeCount || selection.isCollapsed) return;
-    const range = selection.getRangeAt(0);
-    const start = range.startContainer.nodeType === Node.ELEMENT_NODE ? range.startContainer : range.startContainer.parentElement;
-    const end = range.endContainer.nodeType === Node.ELEMENT_NODE ? range.endContainer : range.endContainer.parentElement;
-    if (!start?.closest(eligibleSelector) || !end?.closest(eligibleSelector) || !root.contains(start) || !root.contains(end)) return;
-    if (supportsCssHighlights) {
-      ranges.get(color).add(range.cloneRange());
-      repaint(color);
-    } else {
-      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-      const nodes = [];
-      while (walker.nextNode()) {
-        const node = walker.currentNode;
-        if (range.intersectsNode(node) && node.parentElement?.closest(eligibleSelector) && !node.parentElement.closest('mark.junior-highlight-mark, button, input, textarea')) nodes.push(node);
-      }
-      for (const node of nodes.reverse()) {
-        const from = node === range.startContainer ? range.startOffset : 0;
-        const to = node === range.endContainer ? range.endOffset : node.length;
-        if (to <= from) continue;
-        const part = document.createRange(); part.setStart(node, from); part.setEnd(node, to);
-        const mark = document.createElement('mark'); mark.className = 'junior-highlight-mark'; mark.dataset.color = color;
-        part.surroundContents(mark);
-      }
-    }
-    selection.removeAllRanges();
-    status('已標記所選文字。');
-  }
-  root.addEventListener('pointerup', () => setTimeout(highlightSelection, 0));
+  root.addEventListener('pointerup', event => {
+    if (event.pointerType === 'touch') setTimeout(highlightSelection, 250);
+    else highlightSelection();
+  });
   root.addEventListener('keyup', highlightSelection);
-  new MutationObserver(() => {
-    if (!supportsCssHighlights) return;
-    for (const name of COLORS) {
-      let changed = false;
-      for (const range of ranges.get(name)) if (!range.startContainer.isConnected || !root.contains(range.startContainer)) { ranges.get(name).delete(range); changed = true; }
-      if (changed) repaint(name);
-    }
-  }).observe(root, {childList: true, subtree: true});
-  return {clear, syncToolbar};
+  document.addEventListener('selectionchange', () => { if (enabled) setTimeout(highlightSelection, 350); });
+  globalThis.addEventListener('edmund:learning-portal-session', scheduleRepaint);
+  syncOwner();
+  return { clear, syncToolbar, repaint: scheduleRepaint };
 }

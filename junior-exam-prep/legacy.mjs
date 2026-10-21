@@ -1,4 +1,4 @@
-import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs';
+import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs?v=20261021-study2';
 
 const MODULE_KEY = 's2-exam-prep-oct-2026';
 const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
@@ -6,7 +6,10 @@ const host = document.createElement('section');
 host.className = 'junior-app';
 host.setAttribute('aria-label', '初中考試溫習內容');
 document.querySelector('[data-view="dashboard"]')?.append(host);
-const highlighter = mountJuniorHighlighter(host, '.junior-table-shell td, .junior-table-shell th, .junior-question__sentence, .junior-question__translation', 'exam');
+const highlighter = mountJuniorHighlighter(host, '.junior-table-shell td, .junior-table-shell th, .junior-question__sentence, .junior-question__translation', 'exam', {
+  scopeSelector: '.junior-table-shell, .junior-question',
+  scopeKey: scope => scope.classList.contains('junior-table-shell') ? 'legacy:forms' : `legacy:q${scope.dataset.question}`
+});
 
 const FORM_GROUPS = [
   ['role model', [['role model','榜樣；單數名詞'],['role models','榜樣；複數名詞']]],

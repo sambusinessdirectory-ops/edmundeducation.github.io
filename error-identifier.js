@@ -125,7 +125,7 @@
     const tokens = words.get(q.number);
     const lo = Math.min(a.start ?? -1, a.end ?? -1);
     const hi = Math.max(a.start ?? -1, a.end ?? -1);
-    const sentence = tokens.map((word, index) => `<button type="button" class="error-id-word${a.mark === "cross" && lo >= 0 && index >= lo && index <= hi ? " is-selected" : ""}" data-word="${index}" data-number="${q.number}" ${a.mark === "cross" ? "" : "disabled"} aria-label="選取 ${escaped(word)}">${escaped(word)}</button>`).join(" ");
+    const sentence = tokens.map((word, index) => `<button type="button" class="error-id-word${a.mark === "cross" && lo >= 0 && index >= lo && index <= hi ? " is-selected" : ""}" data-word="${index}" data-number="${q.number}" ${a.mark === "cross" ? "" : "aria-disabled=\"true\""} aria-label="選取 ${escaped(word)}">${escaped(word)}</button>`).join(" ");
     return `<article class="error-id-question${a.mark ? " is-answered" : ""}" data-question="${q.number}">
       <div class="error-id-question__meta"><span>${q.number <= 60 ? "基礎練習" : "延伸練習"}</span><span>${String(q.number).padStart(3, "0")} / ${questions.length}</span></div>
       <div class="error-id-sentence" lang="en">${sentence}</div>
