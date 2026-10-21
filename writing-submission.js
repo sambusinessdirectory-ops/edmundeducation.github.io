@@ -1,5 +1,6 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress1';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
+import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
@@ -372,6 +373,8 @@ const elements = {
   adminReviewMore: document.querySelector("[data-admin-review-more]"),
   toast: document.querySelector("[data-toast]")
 };
+
+const sentenceSupport = mountSentenceSupport(document.querySelector('[data-structure-support]'), WRITING_FUNCTIONS);
 
 const state = {
   supabase: null,
@@ -2026,6 +2029,7 @@ function formatCompactDuration(secondsValue) {
 }
 
 function showView(name) {
+  if (name !== 'workspace') sentenceSupport.close();
   if(name === "workspace") void referencePocket.refresh();
   else referencePocket.reset();
   if (name === "login" || state.user?.role === "admin") emailPreferences.reset();
@@ -3699,6 +3703,10 @@ function renderFunctionHelper() {
     const head = createElement('div', 'writing-function-card-head');
     const title = createElement('div', 'writing-function-title');
     title.append(createElement('strong', '', item.title), createElement('small', '', item.titleZh));
+    const structures = createElement('button', 'writing-structure-card-button', '句子結構');
+    structures.type = 'button';
+    structures.setAttribute('aria-label', `查看 ${item.title} · ${item.titleZh} 的適用句型`);
+    structures.addEventListener('click', () => { void sentenceSupport.open(item.id); });
     const toggle = createElement('label', 'writing-function-row-toggle');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
@@ -3706,7 +3714,7 @@ function renderFunctionHelper() {
     checkbox.dataset.functionOption = item.id;
     checkbox.setAttribute('aria-label', `使用 ${item.group} · ${item.title} · ${item.titleZh}`);
     toggle.append(checkbox, createElement('span', '', '使用'));
-    head.append(title, toggle);
+    head.append(title, structures, toggle);
     card.append(head);
     if (!enabled.has(item.id)) {
       groupNode.append(card);
@@ -3724,6 +3732,7 @@ function renderFunctionHelper() {
     });
     textarea.addEventListener('paste', handleWritingPaste);
     textarea.addEventListener('focus', resumeWritingClockForEditor);
+    textarea.addEventListener('focus', () => { void sentenceSupport.open(item.id); });
     textarea.addEventListener('blur', () => pauseWritingClockOutsideEditor());
     card.append(textarea);
     groupNode.append(card);

@@ -120,3 +120,29 @@
 .curation-stage-count{font-size:10px;line-height:1;font-weight:800;color:#3b7063;min-height:10px}
 .curation-stage-item.active .curation-stage-count{color:#8a640d}
 .curation-local-progress{padding-bottom:7px}
+
+/* The three writing genres are separate reading decisions, with distinct labels. */
+#page-4 .analysis-genres .genre-rows{display:grid;gap:9px;margin:2px 0 17px}
+#page-4 .analysis-genres .genre-row{display:grid;grid-template-columns:7em minmax(0,1fr);align-items:start;gap:14px;margin:0;padding:10px 13px;border:1px solid #d6e2dc;border-radius:9px;background:#fbfdfb;line-height:1.65}
+#page-4 .analysis-genres .genre-label{display:inline-block;font-weight:850;letter-spacing:.035em}
+#page-4 .analysis-genres .genre-A .genre-label{color:#087c8e}
+#page-4 .analysis-genres .genre-B .genre-label{color:#9a6900}
+#page-4 .analysis-genres .genre-C .genre-label{color:#b44260}
+@media(max-width:620px){#page-4 .analysis-genres .genre-row{grid-template-columns:1fr;gap:2px}}
+
+/* Task marks live on the Data File itself and remain visible after advancing. */
+.page-heading{position:relative}
+.curation-file-stamps{display:none}
+.curation-active .page-heading.curation-has-file-stamps{padding-left:138px;transition:padding .35s ease}
+.curation-active .curation-file-stamps{position:absolute;top:50%;left:22px;transform:translateY(-50%);display:flex;gap:5px;align-items:center;z-index:3}
+.curation-file-stamp{width:46px;height:50px;display:grid;place-items:center;border:3px solid currentColor;border-radius:10px 13px 11px 13px;background:#fffdf6;box-shadow:2px 3px 0 #173c3526;font:900 34px/1 Georgia,serif;transform:rotate(-7deg)}
+.curation-file-stamp:nth-child(2){transform:rotate(5deg);margin-left:-9px}
+.curation-file-stamp:nth-child(3){transform:rotate(-3deg);margin-left:-9px}
+.curation-file-stamp-A{color:#008c9d;background:#e5fbfc}
+.curation-file-stamp-B{color:#9b7000;background:#fff4c3}
+.curation-file-stamp-C{color:#b94964;background:#ffe7eb}
+.curation-file-stamp-enter{animation:curation-stamp-arrive .64s cubic-bezier(.2,1.55,.34,1) both}
+@keyframes curation-stamp-arrive{0%{opacity:0;scale:2.2;rotate:-28deg;filter:blur(4px)}62%{opacity:1;scale:.92;rotate:6deg;filter:blur(0)}100%{opacity:1;scale:1;rotate:0deg}}
+.curation-target[data-curation-current="type-4"]{outline-color:#6baa60}
+@media(max-width:620px){.curation-active .page-heading.curation-has-file-stamps{padding:75px 15px 14px}.curation-active .curation-file-stamps{top:12px;left:16px;transform:none}}
+@media(prefers-reduced-motion:reduce){.curation-file-stamp-enter{animation:none!important}.curation-active .page-heading.curation-has-file-stamps{transition:none}}
