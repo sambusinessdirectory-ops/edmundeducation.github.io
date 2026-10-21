@@ -3372,6 +3372,7 @@ function selectPhrasalChoice(questionId, form) {
     // Wrong guesses stay local. The server's historical sentence-answer format
     // reveals wrong answers, which would disclose this choice before success.
     state.exercise.drafts[questionId] = form;
+    window.EdmundAnswerSound?.play(false);
     renderExercisePage(lesson, { preserveScroll: true });
     return;
   }
@@ -3403,6 +3404,7 @@ function selectPhrasalChoice(questionId, form) {
   if (isBookmarked(lesson.id, questionId) && upgradeBookmarkAnswer(lesson.id, questionId)) {
     saveBookmarks().catch((error) => console.warn("Phrasal Verb bookmark answer upgrade failed", error));
   }
+  window.EdmundAnswerSound?.play(true);
   renderExercisePage(lesson, { preserveScroll: true });
   scheduleExercisePersistence();
 }
