@@ -24,6 +24,7 @@ EXPECTED_MODEL = "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6
 EXPECTED_VOICES = "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
 PREFIX = "assets/dse-argument-bank/audio/v1"
 BASE = "https://edmund-neural-audio.edmundeducation.workers.dev/"
+DEFAULT_OUTPUT_ROOT = ROOT.parent / "dse-speaking-audio-output"
 SYNTH = None
 
 
@@ -81,7 +82,9 @@ def generate(row: tuple[str, str, str]) -> tuple[str, str]:
     if dest.is_file() and dest.stat().st_size > 1800:
         return key, "existing"
     dest.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="dse-kokoro-") as directory:
+    # Keep the temporary MP3 on the destination filesystem so the final
+    # replace is atomic even when the workspace is on an external volume.
+    with tempfile.TemporaryDirectory(prefix=".dse-kokoro-", dir=dest.parent) as directory:
         wav = Path(directory) / "speech.wav"
         temp_mp3 = Path(directory) / "speech.mp3"
         language = "en-us" if voice == "af_heart" else "en-gb"
@@ -97,7 +100,7 @@ def generate(row: tuple[str, str, str]) -> tuple[str, str]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output-root", type=Path, default=Path("/private/tmp/dse-argument-kokoro"))
+    parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--limit", type=int)
     parser.add_argument("--voice", choices=("af_heart", "bm_fable", "bf_isabella"),
