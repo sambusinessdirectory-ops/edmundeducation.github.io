@@ -19,6 +19,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apps/schedule/apple-touch-icon-152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="student-activity-log.css?v=20260910-1">
+  <link rel="stylesheet" href="/site-announcements.css?v=20261021-3">
   <script defer src="/pwa-register.js"></script>
   <style>
     @font-face {
@@ -450,6 +451,9 @@
     .announcement-format-toolbar button[data-announcement-size] { padding: 0 10px; font-size: 12px; }
     .announcement-format-toolbar label { display: inline-flex; align-items: center; gap: 6px; margin-left: 4px; }
     .announcement-format-toolbar input[type="color"] { width: 37px; height: 34px; padding: 2px; border: 1px solid rgba(80,53,39,.18); border-radius: 8px; cursor: pointer; }
+    .announcement-color-swatches { display: inline-flex; gap: 4px; align-items: center; }
+    .announcement-format-toolbar .announcement-color-swatches button { min-width: 28px; width: 28px; min-height: 28px; border: 2px solid #fff; border-radius: 50%; background: var(--swatch); box-shadow: 0 0 0 1px #735b4b77; }
+    .announcement-format-toolbar .announcement-color-swatches button:focus-visible { outline: 3px solid #336ab5; }
     .announcement-rich-editor { min-height: 142px; max-height: 390px; overflow: auto; border: 1px solid rgba(80,53,39,.22); border-radius: 0 0 13px 13px; padding: 15px; background: #fff; color: #20283d; font-size: 18px; font-weight: 400; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
     .announcement-rich-editor:empty::before { content: attr(data-placeholder); color: #8b817b; }
     .announcement-rich-editor:focus { outline: 3px solid rgba(79,129,196,.2); border-color: #5285bd; }
@@ -2277,6 +2281,14 @@
               <button type="button" data-announcement-size="normal" aria-label="所選文字恢復標準大小">標準</button>
               <button type="button" data-announcement-size="large" aria-label="放大所選文字">放大文字</button>
               <label>字色 <input type="color" data-announcement-color value="#20283d" aria-label="所選文字顏色"></label>
+              <span class="announcement-color-swatches" aria-label="快速字色">
+                <button type="button" data-announcement-swatch="#20283d" style="--swatch:#20283d" aria-label="深藍色文字"></button>
+                <button type="button" data-announcement-swatch="#d32f2f" style="--swatch:#d32f2f" aria-label="紅色文字"></button>
+                <button type="button" data-announcement-swatch="#1765bf" style="--swatch:#1765bf" aria-label="藍色文字"></button>
+                <button type="button" data-announcement-swatch="#16704f" style="--swatch:#16704f" aria-label="綠色文字"></button>
+                <button type="button" data-announcement-swatch="#945b12" style="--swatch:#945b12" aria-label="金色文字"></button>
+                <button type="button" data-announcement-swatch="#7735a3" style="--swatch:#7735a3" aria-label="紫色文字"></button>
+              </span>
             </div>
             <div class="announcement-rich-editor" data-announcement-message contenteditable="true" role="textbox" aria-label="公告內容" aria-multiline="true" data-placeholder="輸入要向所有訪客顯示的訊息…"></div>
             <p class="announcement-editor-hint">選取文字後套用格式；每則最多 4,000 字。</p>
@@ -2286,13 +2298,27 @@
               <input data-announcement-image type="file" multiple accept="image/jpeg,image/png,image/webp,image/gif">
             </label>
             <div class="announcement-image-preview" data-announcement-image-preview aria-live="polite"></div>
-            <label class="announcement-active-option"><input data-announcement-active type="checkbox" checked> <span data-announcement-active-label>建立後立即顯示</span></label>
             <div class="announcement-admin-form-actions">
-              <button class="primary-button" type="submit" data-announcement-submit>建立公告</button>
+              <button class="secondary-button" type="submit" data-announcement-submit>儲存草稿</button>
+              <button class="primary-button" type="button" data-announcement-preview>預覽及發佈</button>
               <button class="secondary-button" type="button" data-announcement-cancel-edit hidden>取消修改</button>
             </div>
           </div>
         </form>
+        <dialog class="site-announcement-dialog announcement-admin-preview-dialog" data-announcement-preview-dialog aria-labelledby="announcement-preview-title">
+          <article class="site-announcement-card">
+            <div class="site-announcement-gallery" data-announcement-preview-gallery hidden></div>
+            <div class="site-announcement-copy">
+              <p class="site-announcement-kicker">發佈前預覽 · 訪客看到的公告</p>
+              <h2 id="announcement-preview-title">重要通知</h2>
+              <div class="site-announcement-message" data-announcement-preview-message></div>
+              <div class="site-announcement-actions">
+                <button class="site-announcement-dismiss" type="button" data-announcement-preview-close>返回修改</button>
+                <button class="site-announcement-contact" type="button" data-announcement-publish>確認發佈</button>
+              </div>
+            </div>
+          </article>
+        </dialog>
         <p class="form-status" data-announcement-status role="status" aria-live="polite"></p>
         <div class="announcement-admin-list" data-announcement-list><p class="empty-state">正在載入公告…</p></div>
       </section>
@@ -2816,8 +2842,8 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
-  <script src="announcement-rich-text.js?v=20261021-announcements2"></script>
-  <script type="module" src="schedule-system.js?v=20261021-announcements2"></script>
+  <script src="announcement-rich-text.js?v=20261021-announcements3"></script>
+  <script type="module" src="schedule-system.js?v=20261021-announcements3"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
 </body>
 </html>
