@@ -14,7 +14,10 @@ function sourceBetween(start, end) {
 }
 
 function choiceContext(lesson) {
+  const sounds = [];
   const context = {
+    window: { EdmundAnswerSound: { play: (correct) => sounds.push(correct) } },
+    sounds,
     CONTENT: { lessons },
     state: { exercise: { id: "pilot-attempt-1", lessonId: lesson.id, correctIds: [], drafts: {}, questionState: {}, rounds: [], collapsedCorrectIds: [], correctionIds: [], round: 1, controlRevision: 0 }, lessonPage: 8 },
     getLesson: () => lesson,
@@ -53,11 +56,13 @@ for (const lessonNumber of Array.from({ length: 10 }, (_, index) => index + 1)) 
     assert.equal(context.state.exercise.correctIds.length, 0);
     assert.equal(context.state.exercise.questionState[question.id], undefined);
     assert.equal(context.state.exercise.drafts[question.id], wrong);
+    assert.deepEqual(context.sounds, [false]);
     context.selectPhrasalChoice(question.id, question.targetForm);
     assert.deepEqual(Array.from(context.state.exercise.correctIds), [question.id]);
     assert.equal(context.state.exercise.questionState[question.id].lastAnswer, question.answer);
     assert.equal(context.state.exercise.questionState[question.id].reveal, true);
     assert.equal(context.state.exercise.drafts[question.id], undefined);
+    assert.deepEqual(context.sounds, [false, true]);
   });
 }
 
