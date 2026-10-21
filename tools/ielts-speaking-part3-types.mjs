@@ -22,7 +22,7 @@ export function classifyIeltsPart3(text) {
   const q = String(text || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim();
   const tags = new Set();
   const add = (name, pattern) => { if (pattern.test(q)) tags.add(name); };
-  add('country', /\b(your country|in (?:your|this|their) country|in hong kong|in (?:the )?uk|in (?:the )?us|in (?:the )?usa|in your (?:city|area|society|community)|where you live|your (?:home )?town|local (?:people|community|area)|people in your country)\b/);
+  add('country', /\b(your (?:own )?country|our country|in (?:your|this|their|our|the) country|in hong kong|in (?:the )?uk|in (?:the )?us|in (?:the )?usa|in your (?:city|area|society|community)|where you live|your (?:home )?town|local\b|people in your country)\b/);
   add('should', /\b(should|ought to|need to|necessary to|must|have to|responsib(?:le|ility)|right to|obligation|duty)\b/);
   add('advantages', /\b(advantages?|benefits?|positive (?:effects?|sides?|aspects?|impacts?)|good (?:things?|points?|sides?)|useful|helpful)\b/);
   add('disadvantages', /\b(disadvantages?|drawbacks?|problems?|difficult(?:y|ies)|challenges?|risks?|negative (?:effects?|sides?|aspects?|impacts?)|harmful|bad (?:things?|points?|sides?))\b/);

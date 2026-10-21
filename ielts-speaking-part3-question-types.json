@@ -65,7 +65,7 @@
   "questionCount": 564,
   "bookCount": 16,
   "counts": {
-    "country": 86,
+    "country": 89,
     "should": 56,
     "advantages": 24,
     "disadvantages": 30,
@@ -3164,6 +3164,7 @@
       "text": "Do you think it is better to take a holiday in your own country or in a foreign country?",
       "translation": "主題：你認為去本地度假比較好，還是去外國度假比較好？",
       "types": [
+        "country",
         "opinion"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-20"
@@ -7018,6 +7019,7 @@
       "text": "What kinds of obstacles do you think some local governments have to face when they develop transportation infrastructure?",
       "translation": "你認為地方政府在發展交通基建時，通常要面對哪些障礙？",
       "types": [
+        "country",
         "should",
         "examples"
       ],
@@ -7184,6 +7186,7 @@
       "text": "What is the difference between a hotel in our country and a hotel abroad?",
       "translation": "我們國家的酒店和外國的酒店有甚麼分別？",
       "types": [
+        "country",
         "comparisons"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-60"

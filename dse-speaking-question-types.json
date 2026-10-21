@@ -94,10 +94,10 @@
   },
   "counts": {
     "country": {
-      "questions": 353,
-      "group": 103,
-      "individual": 250,
-      "sets": 175
+      "questions": 364,
+      "group": 106,
+      "individual": 258,
+      "sets": 178
     },
     "should": {
       "questions": 298,
@@ -3107,6 +3107,7 @@
       "text": "Whether local culture can be better experienced through home swapping",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-7.1&part=group&question=3"
@@ -3704,6 +3705,7 @@
       "text": "Do you think the government is doing enough to support local musicians and artists?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2012-8.1&part=individual&question=8"
@@ -4849,6 +4851,7 @@
       "text": "Why tourists may find these local foods strange",
       "translation": "",
       "types": [
+        "country",
         "reasons"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-2.3&part=group&question=2"
@@ -6380,6 +6383,7 @@
       "text": "Do you think that local brands can compete with international brands?",
       "translation": "",
       "types": [
+        "country",
         "opinions"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-5.3&part=individual&question=7"
@@ -7874,6 +7878,7 @@
       "text": "Do you like going to local wet markets?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2013-9.1&part=individual&question=1"
@@ -10780,6 +10785,7 @@
       "text": "Would you prefer to see a local film or a foreign film?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-5.1&part=individual&question=5"
@@ -12171,6 +12177,7 @@
       "text": "Would you order a super-sized meal if local restaurants offered it?",
       "translation": "",
       "types": [
+        "country",
         "hypothetical"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.1&part=individual&question=2"
@@ -12328,6 +12335,7 @@
       "text": "Do you prefer watching foreign movies or local movies?",
       "translation": "",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2014-8.2&part=individual&question=2"
@@ -26180,6 +26188,7 @@
       "text": "Do you prefer local TV programmes or foreign TV programmes?",
       "translation": "你較喜歡本地電視節目，還是外國電視節目？",
       "types": [
+        "country",
         "preferences"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2018-1.2&part=individual&question=4"
@@ -40254,6 +40263,7 @@
       "text": "What other local attractions do students like to visit?",
       "translation": "",
       "types": [
+        "country",
         "persuasion"
       ],
       "href": "speaking-system.html?view=dse-question&paper=2024-7.1&part=individual&question=4"
@@ -42103,6 +42113,7 @@
       "text": "possible benefits of these activities for animals and local communities",
       "translation": "",
       "types": [
+        "country",
         "advantages",
         "planning"
       ],

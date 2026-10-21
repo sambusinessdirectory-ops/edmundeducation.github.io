@@ -22,7 +22,7 @@ export const labels = {
 export function classify(text, section) {
   const s=text.toLowerCase().replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
   const tags=new Set(); const add=(id,re)=>{if(re.test(s))tags.add(id);};
-  add('country',/\b(hong kong|your country|your city|your area|where you live|local (?:people|community|schools?|museums?))\b/);
+  add('country',/\b(hong kong|your (?:own )?country|our country|your city|your area|where you live|local)\b/);
   add('should',/\b(should|ought to|need to|have to|must|responsib(?:le|ility)|duty)\b/);
   add('advantages',/\b(advantages?|benefits?|beneficial|positive (?:aspects|effects|impacts)|good (?:things|points)|pros)\b/);
   add('disadvantages',/\b(disadvantages?|drawbacks?|challenges?|difficulties|problems?|risks?|negative (?:aspects|effects|impacts)|bad (?:things|points)|dangers?|harmful|downsides?)\b/);

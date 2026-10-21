@@ -176,6 +176,8 @@ jobs:
           node tools/test-dse-argument-auth.mjs
           python3 tools/verify-dse-speaking-import.py
           node tools/test-dse-argument-audio-worker.mjs
+          node tools/generate-dse-speaking-question-types.mjs > /dev/null
+          git diff --exit-code -- dse-speaking-question-types.json
           node tools/generate-ielts-speaking-part3-types.mjs
           git diff --exit-code -- ielts-speaking-part3-question-types.json
 
