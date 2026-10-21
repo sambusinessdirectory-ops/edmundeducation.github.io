@@ -190,3 +190,26 @@
 .curation-pen-line{background-image:linear-gradient(90deg,#c7222c,#c7222c);background-repeat:no-repeat;background-position:left 56%;background-size:0 3px;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background-size .85s cubic-bezier(.2,.8,.2,1)}
 .curation-active .curation-strike.is-revealed .curation-pen-line{background-size:100% 3px}
 @media(prefers-reduced-motion:reduce){.curation-pen-line{transition:none}}
+
+/* The route pen points to the referenced file, then remains as a faint reading trace. */
+#curation-route-arrow{position:fixed;inset:0;width:100vw;height:100vh;z-index:112;pointer-events:none;overflow:visible;color:#d0282d}
+#curation-route-arrow[hidden],.curation-route-callout[hidden]{display:none!important}
+.curation-route-path{fill:none;stroke:#d0282d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 1px #fff8)}
+#curation-route-arrow.is-drawing .curation-route-path{stroke-dasharray:1;stroke-dashoffset:1;animation:curation-route-draw .9s cubic-bezier(.22,.8,.2,1) forwards}
+@keyframes curation-route-draw{to{stroke-dashoffset:0}}
+#curation-route-arrow.is-faded{opacity:.16;transition:opacity .55s ease}
+.curation-route-callout{position:fixed;z-index:113;pointer-events:none;box-sizing:border-box;max-width:182px;padding:7px 10px;border:2px solid #d0282d;border-radius:9px;background:#fff9f2;color:#ab1720;font:800 13px/1.25 system-ui,sans-serif;box-shadow:0 5px 15px #38080c44;transform:rotate(-3deg)}
+.curation-route-callout.is-faded{opacity:.16;transition:opacity .55s ease}
+.curation-note-task{position:relative;padding-right:40px}
+.curation-active .curation-note-task::after{content:attr(data-task);display:inline-grid;place-items:center;margin-left:12px;width:32px;height:32px;border:2px solid currentColor;border-radius:8px;transform:rotate(-6deg);font:900 22px/1 Georgia,serif;vertical-align:middle}
+.curation-active .curation-note-task-A::after{color:#008c9d;background:#e5fbfc}
+.curation-active .curation-note-task-C::after{color:#b94964;background:#ffe7eb}
+.curation-active .curation-note-noise.is-revealed .curation-pen-line{background-size:100% 3px}
+.curation-active #curation-spotlight{accent-color:#175849}
+.curation-model-essay{margin-top:18px;border:1px solid #b8d1c4;border-radius:12px;background:#f6fbf7;overflow:hidden}
+.curation-model-essay summary{padding:12px 14px;cursor:pointer;font-weight:800;color:#164d42}
+.curation-model-essay article{padding:4px 16px 18px;background:#fffdf8;font:16px/1.65 Georgia,serif;color:#182e2b}
+.curation-model-essay h4{font:800 22px/1.3 Georgia,serif;margin:8px 0 17px}
+.curation-model-essay h5{font:800 18px/1.35 Georgia,serif;margin:17px 0 7px}
+.curation-model-essay p{white-space:pre-line;margin:0 0 14px}
+@media(prefers-reduced-motion:reduce){#curation-route-arrow.is-drawing .curation-route-path{animation:none;stroke-dashoffset:0}#curation-route-arrow.is-faded,.curation-route-callout.is-faded{transition:none}}

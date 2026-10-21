@@ -126,17 +126,18 @@ button { color: inherit; }
 .edmund-system-header__actions { font-family: ui-sans-serif, system-ui, sans-serif; }
 
 .edmund-system-header .edmund-system-header__actions > button.phoebe-writing-toggle {
+  position: relative;
   display: grid;
   place-items: center;
-  flex: 0 0 66px;
-  width: 66px;
-  height: 66px;
-  min-height: 66px;
+  flex: 0 0 78px;
+  width: 78px;
+  height: 78px;
+  min-height: 78px;
   padding: 1px;
   overflow: hidden;
-  border: 2px solid #d6a86b;
+  border: 2px solid #bd9159;
   border-radius: 50%;
-  background: #fff3dd;
+  background: #111b2b;
   color: #79542c;
   cursor: pointer;
 }
@@ -145,15 +146,23 @@ button { color: inherit; }
 .phoebe-writing-art,
 .phoebe-writing-art img { display: block; width: 100%; height: 100%; border-radius: 50%; }
 .phoebe-writing-art img { object-fit: cover; }
+.phoebe-writing-lamp-glow { position: absolute; left: 10%; top: 27%; width: 32%; height: 29%; border-radius: 50%; background: radial-gradient(circle, #fff2b7a8 0%, #f6b64f64 40%, transparent 75%); filter: blur(4px); opacity: .22; mix-blend-mode: screen; pointer-events: none; animation: phoebe-study-lamp-bloom 2.1s ease-in-out infinite; }
+@keyframes phoebe-study-lamp-bloom {
+  0%, 100% { opacity: .18; transform: scale(.9); }
+  50% { opacity: .5; transform: scale(1.18); }
+}
+@media (prefers-reduced-motion: reduce) { .phoebe-writing-lamp-glow { animation: none; } }
 .phoebe-writing-restore { display: none; font: 800 31px/1 Georgia, serif; }
 .phoebe-writing-toggle[data-visible="false"] .phoebe-writing-art { display: none; }
+.phoebe-writing-toggle[data-visible="false"] .phoebe-writing-lamp-glow { display: none; }
+.phoebe-writing-toggle[data-visible="false"] { background: #fff3dd !important; }
 .phoebe-writing-toggle[data-visible="false"] .phoebe-writing-restore { display: block; }
 @media (max-width: 700px) {
   .edmund-system-header .edmund-system-header__actions > button.phoebe-writing-toggle {
-    flex: 0 0 52px;
-    width: 52px;
-    height: 52px;
-    min-height: 52px;
+    flex: 0 0 62px;
+    width: 62px;
+    height: 62px;
+    min-height: 62px;
     padding: 1px;
     border-radius: 50%;
   }

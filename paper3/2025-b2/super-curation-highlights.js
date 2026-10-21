@@ -1,4 +1,4 @@
-/* Exact phrase highlights from the supplied revised 2025 B2 benchmark PDF. */
+/* Phrase selections from the supplied revised 2025 B2 benchmark PDF; colors follow Task A blue, B yellow, C rose, Type 4 green. */
 window.EDMUND_B2_CURATION_HIGHLIGHTS = {
   "duncan-henley-emails-10": {
     "source": [],
@@ -17,7 +17,7 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "source": [
       {
         "text": "include interactive booths",
-        "color": "yellow"
+        "color": "cyan"
       }
     ],
     "analysis": []
@@ -34,21 +34,21 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
       },
       {
         "text": "Sports Day at the Beach!",
-        "color": "cyan"
+        "color": "yellow"
       }
     ],
     "analysis": [
       {
         "text": "這句可以直接用作 proposal 的理由之一：",
-        "color": "cyan"
+        "color": "yellow"
       },
       {
         "text": "more interesting",
-        "color": "cyan"
+        "color": "yellow"
       },
       {
         "text": "more inclusive",
-        "color": "cyan"
+        "color": "yellow"
       }
     ]
   },
@@ -83,11 +83,11 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "source": [
       {
         "text": "think this",
-        "color": "cyan"
+        "color": "yellow"
       },
       {
         "text": "only leaves you with one option",
-        "color": "cyan"
+        "color": "yellow"
       }
     ],
     "analysis": []
@@ -97,11 +97,11 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "John 之前以為家長會幫學生準備活動，但 Manraj 說不是",
-        "color": "yellow"
+        "color": "rose"
       },
       {
         "text": "所以 Task 3 一定不能寫錯成「家長會負責訓練或準備學生」",
-        "color": "yellow"
+        "color": "rose"
       }
     ]
   },
@@ -119,11 +119,11 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "意思可理解，但原句太重、太醫療化。",
-        "color": "yellow"
+        "color": "green"
       },
       {
         "text": "寫給家長的招募信通常不會用這麼重的字眼。",
-        "color": "yellow"
+        "color": "green"
       }
     ]
   },
@@ -132,7 +132,7 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "但表示 parental support 和學校表現有正面關係 Positive Relationship",
-        "color": "yellow"
+        "color": "green"
       }
     ]
   },
@@ -141,7 +141,7 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "家長參與有正面影響。",
-        "color": "yellow"
+        "color": "green"
       }
     ]
   },
@@ -199,7 +199,7 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "它直接排除 water sports",
-        "color": "cyan"
+        "color": "yellow"
       }
     ]
   },
@@ -217,19 +217,19 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "但對 Task 3 很有用，因為它直接提供家長義工的好處：",
-        "color": "yellow"
+        "color": "rose"
       },
       {
         "text": "● 很多家長都願意參與",
-        "color": "yellow"
+        "color": "rose"
       },
       {
         "text": "● 家長自己也會覺得很有趣",
-        "color": "yellow"
+        "color": "rose"
       },
       {
         "text": "● 整體感受很好",
-        "color": "yellow"
+        "color": "rose"
       }
     ]
   },
@@ -238,11 +238,11 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "因為 poster 上有 Exercise advice，",
-        "color": "yellow"
+        "color": "cyan"
       },
       {
         "text": "證明學生覺",
-        "color": "yellow"
+        "color": "cyan"
       }
     ]
   },
@@ -251,11 +251,11 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "analysis": [
       {
         "text": "● 但 \"it was worth it\" 是很好的家長義工 benefit",
-        "color": "yellow"
+        "color": "rose"
       },
       {
         "text": "所以可用的重點是：做義工很值得。",
-        "color": "yellow"
+        "color": "rose"
       }
     ]
   },
@@ -352,7 +352,7 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
       },
       {
         "text": "\"Remember the lacrosse trials?\" 只是負面經驗提示",
-        "color": "cyan"
+        "color": "yellow"
       }
     ]
   },
@@ -360,13 +360,13 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
     "source": [
       {
         "text": "It depends on the transport situation",
-        "color": "cyan"
+        "color": "yellow"
       }
     ],
     "analysis": [
       {
         "text": "說明地點選擇的核心標準是 transport。",
-        "color": "cyan"
+        "color": "yellow"
       }
     ]
   },
