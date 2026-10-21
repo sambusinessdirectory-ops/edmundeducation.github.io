@@ -254,9 +254,7 @@ const elements = {
   brainstormInput: document.querySelector("[data-brainstorm-input]"),
   functionHelperToggle: document.querySelector("[data-function-helper-toggle]"),
   functionHelper: document.querySelector("[data-function-helper]"),
-  functionOptions: document.querySelector("[data-function-options]"),
   functionFields: document.querySelector("[data-function-fields]"),
-  functionSelectedCount: document.querySelector("[data-function-selected-count]"),
   proofreadingLabel: document.querySelector("[data-proofreading-label]"),
   writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
   writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
@@ -3671,8 +3669,6 @@ function renderFunctionHelper() {
   elements.writingInput.closest('.writing-field-main').hidden = helper.active;
   elements.functionHelperToggle.setAttribute('aria-pressed', String(helper.active));
   if (!helper.active) return;
-  elements.functionSelectedCount.textContent = `${enabled.size} / ${WRITING_FUNCTIONS.length}`;
-  const options = document.createDocumentFragment();
   const fields = document.createDocumentFragment();
   let currentGroup = '';
   let groupNode = null;
@@ -3693,25 +3689,29 @@ function renderFunctionHelper() {
     fields.append(card);
   }
   for (const item of WRITING_FUNCTIONS) {
-    const option = createElement('label', 'writing-function-option');
-    const input = document.createElement('input');
-    input.type = 'checkbox';
-    input.checked = enabled.has(item.id);
-    input.dataset.functionOption = item.id;
-    const copy = createElement('span');
-    copy.append(createElement('strong', '', `${item.group} · ${item.title}`), createElement('small', '', item.titleZh));
-    option.append(input, copy);
-    options.append(option);
-    if (!enabled.has(item.id)) continue;
     if (item.group !== currentGroup) {
       currentGroup = item.group;
       groupNode = createElement('div', 'writing-function-group');
       groupNode.append(createElement('h4', '', `${item.group} · ${item.groupZh}`));
       fields.append(groupNode);
     }
-    const card = createElement('div', 'writing-function-card');
-    const label = createElement('label');
-    label.append(createElement('span', '', item.title), createElement('small', '', item.titleZh));
+    const card = createElement('div', `writing-function-card${enabled.has(item.id) ? '' : ' is-disabled'}`);
+    const head = createElement('div', 'writing-function-card-head');
+    const title = createElement('div', 'writing-function-title');
+    title.append(createElement('strong', '', item.title), createElement('small', '', item.titleZh));
+    const toggle = createElement('label', 'writing-function-row-toggle');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = enabled.has(item.id);
+    checkbox.dataset.functionOption = item.id;
+    checkbox.setAttribute('aria-label', `使用 ${item.group} · ${item.title} · ${item.titleZh}`);
+    toggle.append(checkbox, createElement('span', '', '使用'));
+    head.append(title, toggle);
+    card.append(head);
+    if (!enabled.has(item.id)) {
+      groupNode.append(card);
+      continue;
+    }
     const textarea = document.createElement('textarea');
     textarea.rows = 3;
     textarea.maxLength = 100000;
@@ -3725,10 +3725,9 @@ function renderFunctionHelper() {
     textarea.addEventListener('paste', handleWritingPaste);
     textarea.addEventListener('focus', resumeWritingClockForEditor);
     textarea.addEventListener('blur', () => pauseWritingClockOutsideEditor());
-    card.append(label, textarea);
+    card.append(textarea);
     groupNode.append(card);
   }
-  elements.functionOptions.replaceChildren(options);
   elements.functionFields.replaceChildren(fields);
 }
 
@@ -10561,7 +10560,7 @@ function bindEvents() {
   elements.grammarToggle.addEventListener("change", () => handleGrammarDetectionToggle());
   elements.draftHelperToggle.addEventListener('click', () => setDraftHelperOpen(!state.draftHelperOpen));
   elements.functionHelperToggle.addEventListener('click', () => setFunctionHelperActive(!state.functionHelper.active));
-  elements.functionOptions.addEventListener('change', event => {
+  elements.functionFields.addEventListener('change', event => {
     const id = event.target.dataset.functionOption;
     if (!id) return;
     const enabled = new Set(state.functionHelper.enabled);

@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-function-helper1">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-function-helper2">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -253,8 +253,8 @@
               </div>
             </label>
             <section class="writing-function-helper" id="writing-function-helper" data-function-helper hidden aria-label="按句子功能寫作">
-              <div class="writing-helper-head"><div><p class="eyebrow">BY-FUNCTION HELPER</p><h3>按句子功能寫作</h3></div><small>勾選需要的句子功能；未勾選的內容會保留，重新勾選即可取回。</small></div>
-              <details class="writing-function-selector" open><summary>選擇要保留的句子功能 <span data-function-selected-count></span></summary><div data-function-options></div></details>
+              <div class="writing-helper-head"><div><p class="eyebrow">BY-FUNCTION HELPER</p><h3>按句子功能寫作</h3></div></div>
+              <p class="writing-function-note">每行右側可選擇是否使用。取消勾選會收起寫作區；已輸入的文字會保留。</p>
               <div class="writing-function-fields" data-function-fields></div>
             </section>
             <div class="editor-note">
@@ -270,6 +270,7 @@
           </section>
 
           <div class="writing-reference-sidebar">
+          <section data-writing-reference-pocket aria-label="Writing reference pocket"></section>
           <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
             <div class="grammar-panel-heading">
               <div>
@@ -294,7 +295,6 @@
               </div>
             </div>
           </aside>
-          <section data-writing-reference-pocket aria-label="Writing reference pocket"></section>
           </div>
         </div>
       </form>
@@ -710,6 +710,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-function-helper1"></script>
+  <script type="module" src="writing-submission.js?v=20261021-function-helper2"></script>
 </body>
 </html>
