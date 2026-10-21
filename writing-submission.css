@@ -377,6 +377,7 @@ button { color: inherit; }
 .utility-hero h1 { margin: 0 0 10px; font-size: clamp(33px, 4.5vw, 59px); line-height: 1.05; }
 .workspace-hero > div:first-child > p:last-child,
 .utility-hero > div:first-child > p:last-child { margin: 0; color: rgba(255,255,255,.7); font-size: 16px; }
+.workspace-hero > div:first-child > [data-workspace-welcome] { font-size: 18px; line-height: 1.55; }
 
 .local-checker-pill {
   min-width: min(100%, 350px);
@@ -390,6 +391,7 @@ button { color: inherit; }
   background: rgba(15,15,42,.43);
   font-family: ui-sans-serif, system-ui, sans-serif;
 }
+.local-checker-pill[hidden] { display: none; }
 
 .local-checker-pill > span { width: 10px; height: 10px; margin-top: 4px; border-radius: 50%; background: #f1b15f; box-shadow: 0 0 0 5px rgba(241,177,95,.12); }
 .local-checker-pill strong { font-size: 13px; }
@@ -1972,11 +1974,11 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 
 .reference-pocket-loading{display:flex;align-items:center;gap:10px;margin:5px 0 13px}
 .reference-pocket-loading[hidden]{display:none}
-.reference-pocket-loading progress{appearance:none;flex:1;width:100%;height:12px;overflow:hidden;border:1px solid #77aaa6;border-radius:999px;background:#e7f3f0}
-.reference-pocket-loading progress::-webkit-progress-bar{background:#e7f3f0}
-.reference-pocket-loading progress::-webkit-progress-value{border-radius:999px;background:linear-gradient(90deg,#247e77,#66b9a6)}
-.reference-pocket-loading progress::-moz-progress-bar{border-radius:999px;background:linear-gradient(90deg,#247e77,#66b9a6)}
+.reference-pocket-progress-track{flex:1;height:12px;overflow:hidden;border:1px solid #77aaa6;border-radius:999px;background:#e7f3f0;box-shadow:inset 0 1px 3px #326d6426}
+.reference-pocket-progress-fill{display:block;width:100%;height:100%;transform:scaleX(0);transform-origin:left center;transition:transform .55s cubic-bezier(.22,.65,.25,1);border-radius:inherit;background:linear-gradient(90deg,#247e77,#66b9a6)}
+.reference-pocket-loading progress{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
 .reference-pocket-loading-percent{min-width:38px;text-align:right;color:#21524f;font:850 12px ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+@media(prefers-reduced-motion:reduce){.reference-pocket-progress-fill{transition:none}}
 
 /* Sentence structures stay available beside the editor while students write. */
 .writing-structure-support{min-width:0;position:sticky;top:calc(var(--writing-feedback-sticky-top,76px) + 16px);align-self:start;z-index:600;font-family:ui-sans-serif,system-ui,sans-serif;color:#263c4a}

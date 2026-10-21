@@ -1,4 +1,4 @@
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress1';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-latest1';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
 import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
@@ -4258,6 +4258,7 @@ async function restoreDraft() {
 function updateHarperStatus(status, title, detail) {
   state.checkerState = status;
   elements.harperStatus.dataset.state = status;
+  elements.harperStatus.hidden = title === "文法偵測已準備";
   const strong = elements.harperStatus.querySelector("strong");
   const small = elements.harperStatus.querySelector("small");
   if (strong) strong.textContent = title;
@@ -10200,6 +10201,15 @@ async function openAdminExplanationReview() {
   await loadAdminExplanationReviews({ reset: true });
 }
 
+function studentGreeting(date = new Date()) {
+  const hour = date.getHours();
+  return hour >= 5 && hour < 12 ? "早晨" : hour >= 12 && hour < 18 ? "午安" : "晚安";
+}
+
+function studentWelcome(name) {
+  return `${studentGreeting()}，${name}！先輸入寫作題目，再專心完成文章。`;
+}
+
 async function handleLogin(event) {
   event.preventDefault();
   const username = elements.username.value.trim();
@@ -10236,14 +10246,14 @@ async function handleLogin(event) {
       showToast("管理員登入成功。", "success");
     } else {
       await loadWritingPreferences();
-      elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
+      elements.workspaceWelcome.textContent = studentWelcome(state.user.name);
       const openedEntryLink = await openStudentEntryLink();
       if (!openedEntryLink) {
         await restoreDraft();
         showView("workspace");
       }
       if (state.grammarDetectionEnabled) prepareGrammarChecker();
-      if (!openedEntryLink) showToast(`您好，${state.user.name}！`, "success");
+      if (!openedEntryLink) showToast(`${studentGreeting()}，${state.user.name}！`, "success");
     }
   } catch (error) {
     console.warn("Writing Submission login failed", error);
@@ -11160,7 +11170,7 @@ async function initialise() {
     await openAdminDashboard();
   } else {
     await loadWritingPreferences();
-    elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
+    elements.workspaceWelcome.textContent = studentWelcome(state.user.name);
     const openedEntryLink = await openStudentEntryLink();
     if (!openedEntryLink) {
       await restoreDraft();
