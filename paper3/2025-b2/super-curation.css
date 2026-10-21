@@ -100,7 +100,7 @@
 .curation-active .curation-mark.is-revealed.curation-mark-C{background:#f8bdc8;box-shadow:0 0 0 2px #f8bdc8}
 .curation-active .curation-mark.is-revealed.curation-mark-hint{background:#b9e7aa;box-shadow:0 0 0 2px #b9e7aa}
 .curation-active .curation-mark.is-revealed[data-point]::before{content:attr(data-point);display:inline-grid;place-items:center;width:18px;height:18px;margin-right:3px;border:2px solid #d95643;border-radius:50%;color:#b64736;background:#fff8ed;font:800 13px/1 system-ui;vertical-align:super;transform:rotate(-9deg)}
-.curation-target{background:transparent!important;outline:2px solid #589384;outline-offset:4px;border-radius:3px}
+.curation-target{background:transparent!important;outline:3px solid #206b5b;outline-offset:4px;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .curation-target[data-curation-current="A"]{outline-color:#0baabe}
 .curation-target[data-curation-current="B"]{outline-color:#d8ac19}
 .curation-target[data-curation-current="C"]{outline-color:#df758b}
@@ -166,6 +166,11 @@
 .curation-active .curation-source-mark.is-revealed.curation-reference-cyan{background:#77e7e7;box-shadow:0 0 0 2px #77e7e7}
 .curation-active .curation-source-mark.is-revealed.curation-reference-rose{background:#eca3ad;box-shadow:0 0 0 2px #eca3ad}
 .curation-active .curation-source-mark.is-revealed.curation-reference-green{background:#aeeca4;box-shadow:0 0 0 2px #aeeca4}
+.curation-source-fallback{background:transparent;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background .35s ease,box-shadow .35s ease}
+.curation-active .curation-source-fallback.is-revealed.curation-reference-cyan{background:#77e7e7!important;box-shadow:0 0 0 2px #77e7e7}
+.curation-active .curation-source-fallback.is-revealed.curation-reference-yellow{background:#fff264!important;box-shadow:0 0 0 2px #fff264}
+.curation-active .curation-source-fallback.is-revealed.curation-reference-rose{background:#eca3ad!important;box-shadow:0 0 0 2px #eca3ad}
+.curation-active .curation-source-fallback.is-revealed.curation-reference-green{background:#aeeca4!important;box-shadow:0 0 0 2px #aeeca4}
 .curation-translation{color:#48655a;background:#f0f5ef;border-left:3px solid #b3cebd;padding:7px 9px;border-radius:3px}
 .curation-analysis-heading{font-weight:850;color:#174b42;margin-top:7px!important}
 .curation-active .page[data-kind="data"] .sentence-item{cursor:pointer}
@@ -175,3 +180,5 @@
 .curation-dock.dialogue{padding:0;border-color:#b7c7b8}
 
 .curation-active .page[data-kind="data"] .sentence-item:is([data-curation-type="5"],[data-curation-type="6"]):hover{background:transparent!important;box-shadow:none!important;outline:none!important}
+/* The active sentence outline must remain visible during hover and without spotlight. */
+.curation-active .sentence-item.curation-target,.curation-active .curation-transcript-sentence.curation-target{outline-width:3px!important;outline-style:solid!important}
