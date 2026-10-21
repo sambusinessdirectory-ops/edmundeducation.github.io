@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-pocket-card-colors1">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-structure-support3">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -166,13 +166,17 @@
               <small>SENTENCE STRUCTURES</small><strong>句子結構支援</strong><span>按句子功能查看適用句型</span>
             </button>
             <div class="writing-structure-panel" id="writing-structure-panel" data-structure-panel hidden>
-              <div class="writing-structure-head"><div><small>SENTENCE STRUCTURES</small><h3>句子結構支援</h3></div><button type="button" data-structure-close aria-label="關閉句子結構支援">×</button></div>
+              <div class="writing-structure-head" data-structure-drag><div><small>SENTENCE STRUCTURES</small><h3>句子結構支援</h3></div><button type="button" data-structure-close aria-label="關閉句子結構支援">×</button></div>
               <p class="writing-structure-heading" data-structure-heading></p>
               <label class="writing-structure-select">句子功能 <select data-structure-function aria-label="選擇句子功能"></select></label>
               <label class="writing-structure-search">搜尋句型 <input type="search" data-structure-search placeholder="英文句型或中文用途"></label>
               <p class="writing-structure-count" data-structure-count aria-live="polite"></p>
               <div class="writing-structure-results" data-structure-results></div>
               <button class="writing-structure-more" type="button" data-structure-more hidden>顯示更多句型</button>
+              <span class="writing-structure-resize writing-structure-resize-nw" data-structure-resize="nw" role="separator" tabindex="0" aria-label="調整視窗左上角大小"></span>
+              <span class="writing-structure-resize writing-structure-resize-ne" data-structure-resize="ne" role="separator" tabindex="0" aria-label="調整視窗右上角大小"></span>
+              <span class="writing-structure-resize writing-structure-resize-sw" data-structure-resize="sw" role="separator" tabindex="0" aria-label="調整視窗左下角大小"></span>
+              <span class="writing-structure-resize writing-structure-resize-se" data-structure-resize="se" role="separator" tabindex="0" aria-label="調整視窗右下角大小"></span>
             </div>
           </aside>
           <aside class="writing-image-dock" data-writing-image-dock hidden aria-label="可移動的題目圖片參考視窗">
@@ -726,6 +730,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-editor-tools-structure2"></script>
+  <script type="module" src="writing-submission.js?v=20261021-structure-support3"></script>
 </body>
 </html>
