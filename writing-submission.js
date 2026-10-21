@@ -1,4 +1,5 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
+import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
@@ -248,6 +249,14 @@ const elements = {
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
   topicReferenceArea: document.querySelector("[data-topic-reference-area]"),
   writingInput: document.querySelector("[data-writing-input]"),
+  draftHelperToggle: document.querySelector("[data-draft-helper-toggle]"),
+  draftHelper: document.querySelector("[data-draft-helper]"),
+  brainstormInput: document.querySelector("[data-brainstorm-input]"),
+  functionHelperToggle: document.querySelector("[data-function-helper-toggle]"),
+  functionHelper: document.querySelector("[data-function-helper]"),
+  functionOptions: document.querySelector("[data-function-options]"),
+  functionFields: document.querySelector("[data-function-fields]"),
+  functionSelectedCount: document.querySelector("[data-function-selected-count]"),
   proofreadingLabel: document.querySelector("[data-proofreading-label]"),
   writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
   writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
@@ -396,6 +405,8 @@ const state = {
   dismissedIssueIds: new Set(),
   documentId: "",
   previousWriting: "",
+  draftHelperOpen: false,
+  functionHelper: normalizeFunctionHelper(null),
   pendingOccurrences: new Map(),
   reportedFingerprints: new Set(),
   occurrenceFlushTimer: null,
@@ -3534,6 +3545,9 @@ function readDraft() {
       documentId: String(value.documentId),
       topic: String(value.topic || ""),
       answer: String(value.answer || ""),
+      brainstorm: String(value.brainstorm || '').slice(0, 20000),
+      draftHelperOpen: value.draftHelperOpen === true,
+      functionHelper: normalizeFunctionHelper(value.functionHelper),
       durationSeconds: Math.max(0, Math.min(31536000, Number(value.durationSeconds || 0))),
       submissionDurationSeconds: Number.isSafeInteger(submissionDurationSeconds)
         && submissionDurationSeconds >= 0
@@ -3571,6 +3585,9 @@ function persistDraft() {
       documentId: state.documentId,
       topic: elements.topicInput.value,
       answer: elements.writingInput.value,
+      brainstorm: elements.brainstormInput.value,
+      draftHelperOpen: state.draftHelperOpen,
+      functionHelper: state.functionHelper,
       durationSeconds: Math.round(state.draftDurationSeconds),
       submissionDurationSeconds: state.submissionDurationSeconds,
       directPaste: state.directPaste,
@@ -3647,9 +3664,118 @@ function autosizeTextarea(textarea, minimum = 0) {
   textarea.style.height = `${Math.max(minimum, textarea.scrollHeight)}px`;
 }
 
+function renderFunctionHelper() {
+  const helper = state.functionHelper;
+  const enabled = new Set(helper.enabled);
+  elements.functionHelper.hidden = !helper.active;
+  elements.writingInput.closest('.writing-field-main').hidden = helper.active;
+  elements.functionHelperToggle.setAttribute('aria-pressed', String(helper.active));
+  if (!helper.active) return;
+  elements.functionSelectedCount.textContent = `${enabled.size} / ${WRITING_FUNCTIONS.length}`;
+  const options = document.createDocumentFragment();
+  const fields = document.createDocumentFragment();
+  let currentGroup = '';
+  let groupNode = null;
+  if (helper.unassigned) {
+    const card = createElement('div', 'writing-function-card is-unassigned');
+    const label = createElement('label', '', '已有文章內容');
+    const textarea = document.createElement('textarea');
+    textarea.value = helper.unassigned;
+    textarea.setAttribute('aria-label', '已有文章內容');
+    textarea.addEventListener('input', () => {
+      helper.unassigned = textarea.value;
+      syncFunctionHelperAnswer();
+    });
+    textarea.addEventListener('paste', handleWritingPaste);
+    textarea.addEventListener('focus', resumeWritingClockForEditor);
+    textarea.addEventListener('blur', () => pauseWritingClockOutsideEditor());
+    card.append(label, textarea);
+    fields.append(card);
+  }
+  for (const item of WRITING_FUNCTIONS) {
+    const option = createElement('label', 'writing-function-option');
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.checked = enabled.has(item.id);
+    input.dataset.functionOption = item.id;
+    const copy = createElement('span');
+    copy.append(createElement('strong', '', `${item.group} · ${item.title}`), createElement('small', '', item.titleZh));
+    option.append(input, copy);
+    options.append(option);
+    if (!enabled.has(item.id)) continue;
+    if (item.group !== currentGroup) {
+      currentGroup = item.group;
+      groupNode = createElement('div', 'writing-function-group');
+      groupNode.append(createElement('h4', '', `${item.group} · ${item.groupZh}`));
+      fields.append(groupNode);
+    }
+    const card = createElement('div', 'writing-function-card');
+    const label = createElement('label');
+    label.append(createElement('span', '', item.title), createElement('small', '', item.titleZh));
+    const textarea = document.createElement('textarea');
+    textarea.rows = 3;
+    textarea.maxLength = 100000;
+    textarea.value = helper.values[item.id];
+    textarea.dataset.functionField = item.id;
+    textarea.setAttribute('aria-label', `${item.group} · ${item.title} · ${item.titleZh}`);
+    textarea.addEventListener('input', () => {
+      helper.values[item.id] = textarea.value;
+      syncFunctionHelperAnswer();
+    });
+    textarea.addEventListener('paste', handleWritingPaste);
+    textarea.addEventListener('focus', resumeWritingClockForEditor);
+    textarea.addEventListener('blur', () => pauseWritingClockOutsideEditor());
+    card.append(label, textarea);
+    groupNode.append(card);
+  }
+  elements.functionOptions.replaceChildren(options);
+  elements.functionFields.replaceChildren(fields);
+}
+
+function syncFunctionHelperAnswer() {
+  elements.writingInput.value = composeFunctionAnswer(state.functionHelper);
+  handleWritingInput();
+}
+
+function setFunctionHelperActive(active) {
+  const helper = state.functionHelper;
+  if (helper.active === active) return;
+  if (active) {
+    const current = elements.writingInput.value.trim();
+    if (current !== composeFunctionAnswer(helper)) {
+      helper.unassigned = current;
+      for (const item of WRITING_FUNCTIONS) helper.values[item.id] = '';
+    }
+  } else {
+    elements.writingInput.value = composeFunctionAnswer(helper);
+    handleWritingInput();
+  }
+  helper.active = active;
+  renderFunctionHelper();
+  persistDraft();
+  if (!active) elements.writingInput.focus();
+}
+
+function setDraftHelperOpen(open) {
+  state.draftHelperOpen = Boolean(open);
+  elements.draftHelper.hidden = !state.draftHelperOpen;
+  elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
+  persistDraft();
+  if (open) elements.brainstormInput.focus();
+}
+
+function reconcileFunctionHelperFromAnswer() {
+  const helper = state.functionHelper;
+  if (!helper.active || composeFunctionAnswer(helper) === elements.writingInput.value) return;
+  helper.unassigned = elements.writingInput.value;
+  for (const item of WRITING_FUNCTIONS) helper.values[item.id] = '';
+  renderFunctionHelper();
+  persistDraft();
+}
+
 function updateEditorMetrics() {
   elements.wordCount.textContent = String(countEnglishWords(elements.writingInput.value));
-  const changed = Boolean(elements.topicInput.value.trim() || elements.writingInput.value.trim());
+  const changed = Boolean(elements.topicInput.value.trim() || elements.writingInput.value.trim() || elements.brainstormInput.value.trim());
   elements.draftState.textContent = changed ? "正在編輯" : "尚未提交";
   autosizeTextarea(elements.topicInput, 108);
   autosizeTextarea(elements.writingInput, 480);
@@ -4035,6 +4161,12 @@ function startNewDraft({ preserveView = false } = {}) {
   state.dismissedIssueIds.clear();
   elements.topicInput.value = "";
   elements.writingInput.value = "";
+  elements.brainstormInput.value = '';
+  state.draftHelperOpen = false;
+  state.functionHelper = normalizeFunctionHelper(null);
+  elements.draftHelper.hidden = true;
+  elements.draftHelperToggle.setAttribute('aria-pressed', 'false');
+  renderFunctionHelper();
   state.selectedTopicResource = null;
   clearModelEssayState();
   renderSelectedTopicPreview();
@@ -4083,6 +4215,12 @@ async function restoreDraft() {
   state.appliedCorrections = [];
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
+  elements.brainstormInput.value = draft?.brainstorm || '';
+  state.draftHelperOpen = draft?.draftHelperOpen === true || Boolean(elements.brainstormInput.value);
+  elements.draftHelper.hidden = !state.draftHelperOpen;
+  elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
+  state.functionHelper = normalizeFunctionHelper(draft?.functionHelper);
+  renderFunctionHelper();
   state.selectedTopicResource = selectedTopicResource;
   renderSelectedTopicPreview();
   await loadModelEssayReference({ force: true });
@@ -5359,6 +5497,7 @@ function applyGrammarIssue(issueId) {
   );
   state.dismissedIssueIds.clear();
   elements.writingInput.value = next;
+  reconcileFunctionHelperFromAnswer();
   state.previousWriting = next;
   updateEditorMetrics();
   refreshVocabularyUsage();
@@ -5387,6 +5526,7 @@ function normalizeSubmission(value) {
     studentName: String(value?.studentName || value?.student_name || ""),
     topic: String(value?.topic || "未命名題目"),
     answer: String(value?.answer || value?.content || ""),
+    brainstorm: String(value?.brainstorm || '').slice(0, 20000),
     wordCount: Number(value?.wordCount ?? value?.word_count ?? countEnglishWords(value?.answer || value?.content || "")),
     durationSeconds: Number(value?.durationSeconds ?? value?.duration_seconds ?? 0),
     submittedAt: String(value?.submittedAt || value?.submitted_at || value?.createdAt || value?.created_at || ""),
@@ -6046,6 +6186,9 @@ function normalizeServerDraft(value) {
     id: String(draft.id || ""),
     topic: String(draft.topic || ""),
     answer: String(draft.answer || ""),
+    brainstorm: String(draft.brainstorm || '').slice(0, 20000),
+    functionHelper: normalizeFunctionHelper(draft.functionHelper),
+    draftHelperOpen: draft.draftHelperOpen === true,
     answerPreview: String(draft.answerPreview || ""),
     wordCount: Number(draft.wordCount || 0),
     durationSeconds: Math.max(0, Number(draft.durationSeconds || 0)),
@@ -6063,6 +6206,9 @@ function currentServerDraftPayload() {
   return {
     topic: elements.topicInput.value,
     answer: elements.writingInput.value,
+    brainstorm: elements.brainstormInput.value,
+    functionHelper: state.functionHelper,
+    draftHelperOpen: state.draftHelperOpen,
     topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
     imageZoom: state.writingImageZoom,
     countdown: normalizeWritingTimer(state.writingTimer),
@@ -6079,6 +6225,9 @@ function storedDraftServerPayload(draft) {
   return {
     topic: String(draft?.topic || ""),
     answer: String(draft?.answer || ""),
+    brainstorm: String(draft?.brainstorm || '').slice(0, 20000),
+    functionHelper: normalizeFunctionHelper(draft?.functionHelper),
+    draftHelperOpen: draft?.draftHelperOpen === true,
     topicResource: canonicalWritingTopicResourceForTransport(draft?.selectedTopicResource),
     imageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(draft?.writingImageZoom))
       ? Number(draft.writingImageZoom)
@@ -6092,7 +6241,7 @@ function storedDraftServerPayload(draft) {
 async function archiveStoredDraftBeforeEntryLink(draft) {
   if (!UUID_RE.test(String(draft?.documentId || ""))) return false;
   const payload = storedDraftServerPayload(draft);
-  if (!payload.topic.trim() && !payload.answer.trim()) return false;
+  if (!payload.topic.trim() && !payload.answer.trim() && !payload.brainstorm.trim()) return false;
   const response = await apiJson(`/v1/drafts/${encodeURIComponent(draft.documentId)}`, {
     method: "PUT",
     body: JSON.stringify(payload)
@@ -6108,8 +6257,8 @@ async function archiveStoredDraftBeforeEntryLink(draft) {
 async function saveCurrentProgress() {
   if (state.user?.role !== "student" || !UUID_RE.test(state.documentId)) return;
   const payload = currentServerDraftPayload();
-  if (!payload.topic.trim() && !payload.answer.trim()) {
-    setStatus(elements.submissionStatus, "請先輸入寫作題目或文章內容。", "error");
+  if (!payload.topic.trim() && !payload.answer.trim() && !payload.brainstorm.trim()) {
+    setStatus(elements.submissionStatus, "請先輸入寫作題目、文章內容或構思草稿。", "error");
     return;
   }
   elements.saveProgress.disabled = true;
@@ -6149,7 +6298,7 @@ function renderDraftList() {
     copy.append(
       createElement("strong", "", draft.topic.trim() || "未命名草稿"),
       createElement("span", "", `${formatSubmissionDate(draft.updatedAt)} · ${draft.wordCount} words · ${formatCompactDuration(draft.durationSeconds)}`),
-      createElement("p", "", draft.answerPreview || "（尚未輸入文章內容）")
+      createElement("p", "", draft.answerPreview || (draft.brainstorm ? '已有構思草稿' : '（尚未輸入文章內容）'))
     );
     const actions = createElement("div", "draft-row-actions");
     const resume = createElement("button", "small-button", "繼續寫作");
@@ -6200,6 +6349,12 @@ async function loadDraftIntoWorkspace(draft) {
   state.dismissedIssueIds.clear();
   elements.topicInput.value = draft.topic;
   elements.writingInput.value = draft.answer;
+  elements.brainstormInput.value = draft.brainstorm;
+  state.draftHelperOpen = draft.draftHelperOpen || Boolean(draft.brainstorm);
+  elements.draftHelper.hidden = !state.draftHelperOpen;
+  elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
+  state.functionHelper = normalizeFunctionHelper(draft.functionHelper);
+  renderFunctionHelper();
   state.selectedTopicResource = selectedTopicResource;
   await loadModelEssayReference({ force: true });
   renderSelectedTopicPreview();
@@ -6217,7 +6372,11 @@ async function loadDraftIntoWorkspace(draft) {
   if (state.grammarDetectionEnabled && completedSegments.length) {
     enqueueSegmentsForCheck(completedSegments, { remote: false });
   }
-  window.setTimeout(() => elements.writingInput.focus(), 0);
+  window.setTimeout(() => {
+    if (state.functionHelper.active) elements.functionFields.querySelector('textarea')?.focus();
+    else if (state.draftHelperOpen && !draft.answer.trim()) elements.brainstormInput.focus();
+    else elements.writingInput.focus();
+  }, 0);
 }
 
 async function resumeServerDraft(id) {
@@ -6290,6 +6449,12 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   actions.replaceChildren(displayTools, articleTools);
   if (manageTools.childElementCount) actions.append(manageTools);
   container.replaceChildren(header, content);
+  if (submission.brainstorm.trim()) {
+    const planning = createElement('details', 'submission-brainstorm');
+    planning.append(createElement('summary', '', '構思草稿 · Draft helper'));
+    planning.append(createElement('div', 'submission-brainstorm-text', submission.brainstorm));
+    container.append(planning);
+  }
   if (admin && submission.proofreadChecklist) {
     const record = submission.proofreadChecklist;
     const section = createElement('section', 'admin-proofread-record');
@@ -8972,6 +9137,7 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
       body: JSON.stringify({
         topic,
         answer,
+        brainstorm: elements.brainstormInput.value,
         durationSeconds: submittedDurationSeconds,
         topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
         proofreadChecklist: proofreadChecklist.getRecord()
@@ -10393,6 +10559,25 @@ function bindEvents() {
     if (event.target === elements.topicPicker) closeWritingTopicPicker();
   });
   elements.grammarToggle.addEventListener("change", () => handleGrammarDetectionToggle());
+  elements.draftHelperToggle.addEventListener('click', () => setDraftHelperOpen(!state.draftHelperOpen));
+  elements.functionHelperToggle.addEventListener('click', () => setFunctionHelperActive(!state.functionHelper.active));
+  elements.functionOptions.addEventListener('change', event => {
+    const id = event.target.dataset.functionOption;
+    if (!id) return;
+    const enabled = new Set(state.functionHelper.enabled);
+    if (event.target.checked) enabled.add(id);
+    else enabled.delete(id);
+    state.functionHelper.enabled = WRITING_FUNCTIONS.map(item => item.id).filter(key => enabled.has(key));
+    renderFunctionHelper();
+    syncFunctionHelperAnswer();
+  });
+  elements.brainstormInput.addEventListener('input', () => {
+    markWritingActivity();
+    updateEditorMetrics();
+    scheduleDraftSave();
+  });
+  elements.brainstormInput.addEventListener('focus', resumeWritingClockForEditor);
+  elements.brainstormInput.addEventListener('blur', () => pauseWritingClockOutsideEditor());
   elements.writingInput.addEventListener("input", handleWritingInput);
   elements.writingInput.addEventListener("paste", handleWritingPaste);
   elements.writingInput.addEventListener("scroll", syncModelEssayOverlayScroll);

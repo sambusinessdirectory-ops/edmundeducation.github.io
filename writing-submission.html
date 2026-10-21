@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-speaking-topics2">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-function-helper1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -186,6 +186,8 @@
                   <span>Timer 計時器</span>
                   <strong data-writing-timer-toggle-display>00:00:00</strong>
                 </button>
+                <button class="writing-helper-toggle" type="button" data-draft-helper-toggle aria-pressed="false" aria-controls="writing-draft-helper">Draft helper · 構思草稿</button>
+                <button class="writing-helper-toggle" type="button" data-function-helper-toggle aria-pressed="false" aria-controls="writing-function-helper">By-function Helper · 句子功能</button>
                 <button class="small-button model-essay-toggle" type="button" data-model-essay-toggle hidden><span data-model-essay-toggle-label>顯示範文底字</span> <span data-model-essay-open-count></span></button>
                 <div class="writing-stopwatch" data-writing-stopwatch data-status="idle" aria-label="寫作秒錶">
                   <span aria-hidden="true">◷</span>
@@ -239,6 +241,10 @@
               </div>
               <p class="writing-timer-status" data-writing-timer-status role="status" aria-live="polite">尚未開始倒數。</p>
             </section>
+            <section class="writing-draft-helper" id="writing-draft-helper" data-draft-helper hidden>
+              <div class="writing-helper-head"><div><p class="eyebrow">DRAFT HELPER</p><h3>構思與邏輯草稿</h3></div><small>構思會與文章一同保存；不計入正式文章字數。</small></div>
+              <textarea data-brainstorm-input rows="7" maxlength="20000" spellcheck="true" aria-label="構思與邏輯草稿" placeholder="先記下立場、論點、例子與段落次序……"></textarea>
+            </section>
             <label class="writing-field writing-field-main">
               <span class="sr-only">文章內容</span>
               <div class="writing-editor-stack" data-writing-editor-stack>
@@ -246,6 +252,11 @@
                 <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" aria-label="文章內容"></textarea>
               </div>
             </label>
+            <section class="writing-function-helper" id="writing-function-helper" data-function-helper hidden aria-label="按句子功能寫作">
+              <div class="writing-helper-head"><div><p class="eyebrow">BY-FUNCTION HELPER</p><h3>按句子功能寫作</h3></div><small>勾選需要的句子功能；未勾選的內容會保留，重新勾選即可取回。</small></div>
+              <details class="writing-function-selector" open><summary>選擇要保留的句子功能 <span data-function-selected-count></span></summary><div data-function-options></div></details>
+              <div class="writing-function-fields" data-function-fields></div>
+            </section>
             <div class="editor-note">
               <span aria-hidden="true">✦</span>
               <p>完成一句後才檢查：系統不會在您仍然構思或輸入句子時打斷您。</p>
@@ -699,6 +710,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-speaking-topics2"></script>
+  <script type="module" src="writing-submission.js?v=20261021-function-helper1"></script>
 </body>
 </html>

@@ -1095,7 +1095,7 @@ function wordCount(value) {
 
 function normalizeSubmissionPayload(payload) {
   if (
-    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds", "topicResource"]))
+    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds", "topicResource", "brainstorm", "proofreadChecklist"]))
     || !Object.prototype.hasOwnProperty.call(payload, "topic")
     || !Object.prototype.hasOwnProperty.call(payload, "answer")
   ) {
@@ -1130,10 +1130,40 @@ function normalizeSubmissionPayload(payload) {
     answer,
     wordCount: words,
     durationSeconds,
+    brainstorm: normalizeBrainstorm(payload.brainstorm),
     topicResource: payload.topicResource === undefined || payload.topicResource === null
       ? null
       : normalizeDraftTopicResource(payload.topicResource)
   };
+}
+
+function normalizeBrainstorm(value) {
+  if (value === undefined || value === null) return '';
+  if (typeof value !== 'string') throw new HttpError(400, 'INVALID_DRAFT', 'brainstorm must be text');
+  const normalized = value.replace(/\r\n?/g, '\n');
+  if (normalized.length > 20000 || utf8Length(normalized) > 80000 || TEXT_CONTROL_RE.test(normalized)) {
+    throw new HttpError(400, 'INVALID_DRAFT', 'brainstorm is invalid');
+  }
+  return normalized;
+}
+
+function normalizeDraftFunctionHelper(value) {
+  if (value === undefined || value === null) return {};
+  if (!value || typeof value !== 'object' || Array.isArray(value)
+    || typeof value.active !== 'boolean' || !Array.isArray(value.enabled)
+    || !value.values || typeof value.values !== 'object' || Array.isArray(value.values)
+    || typeof value.unassigned !== 'string') {
+    throw new HttpError(400, 'INVALID_DRAFT', 'functionHelper has an invalid shape');
+  }
+  const ids = /^(?:intro|body[12]|rebuttal-(?:opponent|your)|conclusion)-[a-z]+$/u;
+  if (value.enabled.length > 27 || Object.keys(value.values).length > 27
+    || value.enabled.some(id => typeof id !== 'string' || !ids.test(id))
+    || Object.entries(value.values).some(([id, text]) => !ids.test(id) || typeof text !== 'string' || text.length > 100000)
+    || value.unassigned.length > 100000
+    || utf8Length(JSON.stringify(value)) > 450000) {
+    throw new HttpError(400, 'INVALID_DRAFT', 'functionHelper is too large or invalid');
+  }
+  return value;
 }
 
 function normalizeOptionalWritingText(value, label, maxCharacters, maxBytes) {
@@ -1339,17 +1369,23 @@ function normalizeDraftStopwatch(value) {
 }
 
 function normalizeDraftPayload(payload) {
-  const keys = [
+  const keys = new Set([
     "topic", "answer", "topicResource", "imageZoom", "countdown", "stopwatch",
-    "durationSeconds"
-  ];
-  if (!hasExactKeys(payload, keys)) {
+    "durationSeconds", "brainstorm", "functionHelper", "draftHelperOpen"
+  ]);
+  if (!hasOnlyKeys(payload, keys)
+    || ['topic','answer','topicResource','imageZoom','countdown','stopwatch','durationSeconds']
+      .some(key => !Object.prototype.hasOwnProperty.call(payload, key))) {
     throw new HttpError(400, "INVALID_DRAFT", "Draft payload has an invalid shape");
   }
   const topic = normalizeOptionalWritingText(payload.topic, "topic", MAX_TOPIC_CHARACTERS, MAX_TOPIC_BYTES);
   const answer = normalizeOptionalWritingText(payload.answer, "answer", MAX_ANSWER_CHARACTERS, MAX_ANSWER_BYTES);
-  if (!topic.trim() && !answer.trim()) {
-    throw new HttpError(400, "INVALID_DRAFT", "A draft needs a topic or writing content");
+  const brainstorm = normalizeBrainstorm(payload.brainstorm);
+  if (payload.draftHelperOpen !== undefined && typeof payload.draftHelperOpen !== 'boolean') {
+    throw new HttpError(400, 'INVALID_DRAFT', 'draftHelperOpen must be a boolean');
+  }
+  if (!topic.trim() && !answer.trim() && !brainstorm.trim()) {
+    throw new HttpError(400, "INVALID_DRAFT", "A draft needs a topic, writing, or brainstorming");
   }
   const imageZoomTenths = Math.round(Number(payload.imageZoom) * 10);
   if (!Number.isFinite(Number(payload.imageZoom)) || !WRITING_IMAGE_ZOOM_TENTHS.has(imageZoomTenths)) {
@@ -1362,6 +1398,9 @@ function normalizeDraftPayload(payload) {
   return {
     topic,
     answer,
+    brainstorm,
+    functionHelper: normalizeDraftFunctionHelper(payload.functionHelper),
+    draftHelperOpen: payload.draftHelperOpen === true,
     topicResource: normalizeDraftTopicResource(payload.topicResource),
     imageZoomTenths,
     countdown: normalizeDraftCountdown(payload.countdown),
@@ -1382,6 +1421,9 @@ function draftResponse(row) {
     updatedAt: String(row.updated_at || "")
   };
   if (Object.prototype.hasOwnProperty.call(row, "answer")) response.answer = String(row.answer || "");
+  if (Object.prototype.hasOwnProperty.call(row, 'brainstorm')) response.brainstorm = String(row.brainstorm || '');
+  if (Object.prototype.hasOwnProperty.call(row, 'function_helper')) response.functionHelper = row.function_helper;
+  if (Object.prototype.hasOwnProperty.call(row, 'draft_helper_open')) response.draftHelperOpen = row.draft_helper_open === true;
   if (Object.prototype.hasOwnProperty.call(row, "topic_resource")) {
     response.topicResource = row.topic_resource && typeof row.topic_resource === "object"
       ? row.topic_resource
@@ -1407,6 +1449,7 @@ function submissionResponse(row) {
   if (Object.prototype.hasOwnProperty.call(row, "answer")) {
     response.answer = String(row.answer || "");
   }
+  if (Object.prototype.hasOwnProperty.call(row, 'brainstorm')) response.brainstorm = String(row.brainstorm || '');
   if (Object.prototype.hasOwnProperty.call(row, "answer_preview")) {
     response.answerPreview = String(row.answer_preview || "");
   }
@@ -2189,7 +2232,10 @@ async function getDraft(request, env, draftId) {
     p_id: draftId.toLowerCase()
   }));
   if (!row) throw new HttpError(404, "DRAFT_NOT_FOUND", "Draft not found");
-  return json({ draft: draftResponse(row) }, 200, request, env);
+  const planning = singleRow(await rpc(env, 'writing_submission_draft_planning_get', {
+    p_student_id: student.id, p_id: draftId.toLowerCase()
+  }));
+  return json({ draft: draftResponse({ ...row, ...planning }) }, 200, request, env);
 }
 
 async function putDraft(request, env, draftId) {
@@ -2205,7 +2251,7 @@ async function putDraft(request, env, draftId) {
   );
   const payload = normalizeDraftPayload(await readLimitedJson(request, MAX_DRAFT_BODY_BYTES));
   payload.topicResource = authorizeTopicResource(payload.topicResource, student);
-  const row = singleRow(await rpc(env, "writing_submission_save_draft", {
+  const row = singleRow(await rpc(env, "writing_submission_save_draft_v2", {
     p_id: draftId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
@@ -2214,7 +2260,10 @@ async function putDraft(request, env, draftId) {
     p_image_zoom_tenths: payload.imageZoomTenths,
     p_countdown_state: payload.countdown,
     p_stopwatch_state: payload.stopwatch,
-    p_duration_seconds: payload.durationSeconds
+    p_duration_seconds: payload.durationSeconds,
+    p_brainstorm: payload.brainstorm,
+    p_function_helper: payload.functionHelper,
+    p_draft_helper_open: payload.draftHelperOpen
   }));
   if (!row) throw new HttpError(409, "DRAFT_NOT_SAVED", "Draft could not be saved");
   return json({ draft: draftResponse(row) }, 200, request, env);
@@ -2251,6 +2300,9 @@ async function getSubmission(request, env, submissionId) {
     p_id: normalizedId
   }));
   if (!row) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  const brainstorm = await rpc(env, 'writing_submission_brainstorm_get', {
+    p_student_id: student.id, p_id: normalizedId
+  });
   const occurrenceRows = await rpc(env, "writing_submission_list_occurrences", {
     p_student_id: student.id,
     p_document_id: normalizedId,
@@ -2260,7 +2312,7 @@ async function getSubmission(request, env, submissionId) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Grammar history returned an invalid response");
   }
   return json({
-    submission: submissionResponse(row),
+    submission: submissionResponse({ ...row, brainstorm }),
     grammarOccurrences: occurrenceRows.map(occurrenceResponse)
   }, 200, request, env);
 }
@@ -2282,14 +2334,15 @@ async function putSubmission(request, env, submissionId) {
     await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES)
   );
   payload.topicResource = authorizeTopicResource(payload.topicResource, student);
-  const row = singleRow(await rpc(env, "writing_submission_submit_v4", {
+  const row = singleRow(await rpc(env, "writing_submission_submit_v5", {
     p_id: submissionId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
     p_answer: payload.answer,
     p_word_count: payload.wordCount,
     p_duration_seconds: payload.durationSeconds,
-    p_topic_resource: payload.topicResource
+    p_topic_resource: payload.topicResource,
+    p_brainstorm: payload.brainstorm
   }));
   if (!row) {
     throw new HttpError(409, "SUBMISSION_LIMIT_REACHED", "Submission could not be saved");
@@ -3121,6 +3174,9 @@ async function getAdminSubmission(request, env, submissionId) {
     p_id: normalizedId
   }));
   if (!row) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  const brainstorm = await rpc(env, 'writing_submission_admin_brainstorm_get', {
+    p_admin_token: admin.token, p_id: normalizedId
+  });
   const occurrenceRows = await rpc(env, "writing_submission_admin_list_occurrences", {
     p_admin_token: admin.token,
     p_document_id: normalizedId,
@@ -3130,7 +3186,7 @@ async function getAdminSubmission(request, env, submissionId) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Grammar history returned an invalid response");
   }
   return json({
-    submission: submissionResponse(row),
+    submission: submissionResponse({ ...row, brainstorm }),
     grammarOccurrences: occurrenceRows.map(occurrenceResponse)
   }, 200, request, env);
 }
