@@ -1,7 +1,7 @@
 // A question may have several intents. Location and normative questions are
 // separate facets, so "Should people in your country…?" appears under both.
 export const labels = {
-  country: ['Your Country / Local Context', '你的國家／本地情況'],
+  country: ['Country / Local Context', '國家／本地情況'],
   should: ['Should / Ought / Duty', '應否／責任'],
   advantages: ['Advantages / Benefits', '優點／好處'],
   disadvantages: ['Problems / Drawbacks', '問題／缺點'],
@@ -22,8 +22,8 @@ export function classifyIeltsPart3(text) {
   const q = String(text || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim();
   const tags = new Set();
   const add = (name, pattern) => { if (pattern.test(q)) tags.add(name); };
-  add('country', /\b(your (?:own )?country|our country|in (?:your|this|their|our|the) country|in hong kong|in (?:the )?uk|in (?:the )?us|in (?:the )?usa|in your (?:city|area|society|community)|where you live|your (?:home )?town|local\b|people in your country)\b/);
-  add('should', /\b(should|ought to|need to|necessary to|must|have to|responsib(?:le|ility)|right to|obligation|duty)\b/);
+  add('country', /\b(countr(?:y|ies)|hong kong|the (?:uk|usa|us)|in your (?:city|area|society|community)|where you live|your (?:home )?town|locals?|local)\b/);
+  add('should', /\b(should|ought to|need to|necessary (?:to|for)|must|have to|responsib(?:le|ilit(?:y|ies))|right to|obligation|duty)\b/);
   add('advantages', /\b(advantages?|benefits?|positive (?:effects?|sides?|aspects?|impacts?)|good (?:things?|points?|sides?)|useful|helpful)\b/);
   add('disadvantages', /\b(disadvantages?|drawbacks?|problems?|difficult(?:y|ies)|challenges?|risks?|negative (?:effects?|sides?|aspects?|impacts?)|harmful|bad (?:things?|points?|sides?))\b/);
   add('reasons', /^why\b|\b(reasons?|causes?|factors?|what makes|why do|why is|why are)\b/);

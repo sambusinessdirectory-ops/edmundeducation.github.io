@@ -2,8 +2,8 @@
   "version": 1,
   "labels": {
     "country": [
-      "Your Country / Local Context",
-      "你的國家／本地情況"
+      "Country / Local Context",
+      "國家／本地情況"
     ],
     "should": [
       "Should / Ought / Duty",
@@ -65,8 +65,8 @@
   "questionCount": 564,
   "bookCount": 16,
   "counts": {
-    "country": 89,
-    "should": 56,
+    "country": 99,
+    "should": 61,
     "advantages": 24,
     "disadvantages": 30,
     "reasons": 66,
@@ -75,7 +75,7 @@
     "comparisons": 48,
     "future": 39,
     "change": 47,
-    "opinion": 241,
+    "opinion": 240,
     "importance": 56,
     "groups": 91,
     "examples": 35,
@@ -2661,7 +2661,7 @@
       "text": "Does the taste of coffee vary by country?",
       "translation": "主題：咖啡的味道會因國家而不同嗎？",
       "types": [
-        "opinion"
+        "country"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-09"
     },
@@ -2711,6 +2711,7 @@
       "text": "Is it important to have friends from other countries?",
       "translation": "擁有來自其他國家的朋友是否重要？",
       "types": [
+        "country",
         "opinion",
         "importance"
       ],
@@ -3177,6 +3178,7 @@
       "text": "What problems can people have on holiday in a foreign country?",
       "translation": "人們在外國度假時可能會遇到甚麼問題？",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-21"
@@ -3720,6 +3722,7 @@
       "text": "Do both parents have equal responsibilities in taking care of their children?",
       "translation": "你認為父母雙方在照顧孩子方面是否有同等責任？",
       "types": [
+        "should",
         "groups"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-33"
@@ -4309,6 +4312,7 @@
       "text": "Do you think it is necessary for the government to require all children to learn music?",
       "translation": "你認為政府有必要規定所有孩子都學音樂嗎？",
       "types": [
+        "should",
         "opinion",
         "importance",
         "groups"
@@ -4570,6 +4574,7 @@
       "text": "Do you think it’s necessary for people to watch foreign news?",
       "translation": "主題：你認為人們有必要看外國新聞嗎？",
       "types": [
+        "should",
         "opinion",
         "importance"
       ],
@@ -4634,6 +4639,7 @@
       "text": "Do you think hitting children is sometimes necessary for discipline?",
       "translation": "你認為為了管教孩子，有時候打他們是有必要的嗎？",
       "types": [
+        "should",
         "opinion",
         "importance",
         "groups"
@@ -4825,6 +4831,7 @@
       "text": "Do you think imagination is necessary for scientists?",
       "translation": "你認為科學家需要想像力嗎？",
       "types": [
+        "should",
         "opinion",
         "importance"
       ],
@@ -5287,6 +5294,7 @@
       "text": "Do you think a country should make everything it needs or import some things?",
       "translation": "你認為一個國家應該把自己需要的東西全部都自己生產，還是應該進口一部分？",
       "types": [
+        "country",
         "should",
         "opinion"
       ],
@@ -5300,6 +5308,7 @@
       "text": "What are the disadvantages of a country producing everything it needs?",
       "translation": "一個國家如果嘗試生產自己所需要的一切，會有甚麼壞處？",
       "types": [
+        "country",
         "disadvantages"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-05"
@@ -6049,6 +6058,7 @@
       "text": "What about cultural aspects? How can sports bring people from different countries closer together?",
       "translation": "從文化層面來看，運動可以怎樣把不同國家的人拉得更近？",
       "types": [
+        "country",
         "solutions",
         "comparisons"
       ],
@@ -6802,6 +6812,7 @@
       "text": "Do you think there are benefits of traditional products to locals?",
       "translation": "你認為傳統產品對本地人有好處嗎？",
       "types": [
+        "country",
         "advantages",
         "opinion"
       ],
@@ -6828,6 +6839,7 @@
       "text": "Do you think because of globalisation countries are adopting each other’s traditions?",
       "translation": "你認為因為全球化，各國都在互相吸收彼此的傳統嗎？",
       "types": [
+        "country",
         "opinion"
       ],
       "href": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-32"
@@ -7033,6 +7045,7 @@
       "text": "Why do some people prefer to travel abroad rather than travel in their own country?",
       "translation": "為甚麼有些人比起在自己國家旅行，更喜歡出國旅行？",
       "types": [
+        "country",
         "reasons",
         "comparisons"
       ],
@@ -7046,6 +7059,7 @@
       "text": "Do you think travelling to another country can change the way that people think?",
       "translation": "你認為去另一個國家旅行會改變人們的想法嗎？",
       "types": [
+        "country",
         "change",
         "opinion"
       ],
