@@ -1,5 +1,7 @@
 // Question intent tags. Multiple intents are retained; no question is discarded.
 export const labels = {
+  country:['Hong Kong / Local Context','香港／本地情況','hong kong local city where you live'],
+  should:['Should / Recommendation / Duty','應否／建議／責任','should ought duty responsibility whether someone should'],
   advantages:['Advantages / Benefits','優點／好處','beneficial positive pros'],
   disadvantages:['Disadvantages / Problems','缺點／問題','drawbacks challenges risks cons negative difficulties'],
   solutions:['Solutions / Suggestions','解決方法／建議','recommendations advice improvement measures'],
@@ -20,6 +22,8 @@ export const labels = {
 export function classify(text, section) {
   const s=text.toLowerCase().replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
   const tags=new Set(); const add=(id,re)=>{if(re.test(s))tags.add(id);};
+  add('country',/\b(hong kong|your country|your city|your area|where you live|local (?:people|community|schools?|museums?))\b/);
+  add('should',/\b(should|ought to|need to|have to|must|responsib(?:le|ility)|duty)\b/);
   add('advantages',/\b(advantages?|benefits?|beneficial|positive (?:aspects|effects|impacts)|good (?:things|points)|pros)\b/);
   add('disadvantages',/\b(disadvantages?|drawbacks?|challenges?|difficulties|problems?|risks?|negative (?:aspects|effects|impacts)|bad (?:things|points)|dangers?|harmful|downsides?)\b/);
   add('reasons',/^(?:why\b|(?:the |possible |some )?(?:reasons?|causes?|factors)\b)|\b(?:explain why|reasons? for|causes? of|what makes .*popular|why (?:people|students|some|many|teenagers|young|hong kong))\b/);
