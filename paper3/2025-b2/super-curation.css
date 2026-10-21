@@ -146,3 +146,32 @@
 .curation-target[data-curation-current="type-4"]{outline-color:#6baa60}
 @media(max-width:620px){.curation-active .page-heading.curation-has-file-stamps{padding:75px 15px 14px}.curation-active .curation-file-stamps{top:12px;left:16px;transform:none}}
 @media(prefers-reduced-motion:reduce){.curation-file-stamp-enter{animation:none!important}.curation-active .page-heading.curation-has-file-stamps{transition:none}}
+
+/* Keep the three navigation actions at one cursor position, regardless of text length. */
+.curation-dock{height:calc(100vh - 178px)}
+.curation-actions{flex:none;z-index:2;border-top:0;border-bottom:1px solid #d9e6d9;background:#f2f8f2}
+.curation-content{flex:1 1 auto;min-height:0;overflow:auto;overscroll-behavior:contain}
+.curation-top,.curation-header,.curation-jump,.curation-task-jump,.curation-legend,.curation-local-progress,.curation-options,.curation-save{flex:none}
+@media(max-width:1099px){.curation-dock{height:min(62vh,600px)}}
+@media(max-width:620px){.curation-dock{height:65vh}}
+
+/* Exact PDF highlighter colors are reserved for the phrases the author marked. */
+.curation-reference-mark,.curation-source-mark{color:inherit;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-reference-yellow{background:#fff264}
+.curation-reference-cyan{background:#77e7e7}
+.curation-reference-rose{background:#eca3ad}
+.curation-reference-green{background:#aeeca4}
+.curation-source-mark{background:transparent;transition:background .35s ease,box-shadow .35s ease}
+.curation-active .curation-source-mark.is-revealed.curation-reference-yellow{background:#fff264;box-shadow:0 0 0 2px #fff264}
+.curation-active .curation-source-mark.is-revealed.curation-reference-cyan{background:#77e7e7;box-shadow:0 0 0 2px #77e7e7}
+.curation-active .curation-source-mark.is-revealed.curation-reference-rose{background:#eca3ad;box-shadow:0 0 0 2px #eca3ad}
+.curation-active .curation-source-mark.is-revealed.curation-reference-green{background:#aeeca4;box-shadow:0 0 0 2px #aeeca4}
+.curation-translation{color:#48655a;background:#f0f5ef;border-left:3px solid #b3cebd;padding:7px 9px;border-radius:3px}
+.curation-analysis-heading{font-weight:850;color:#174b42;margin-top:7px!important}
+.curation-active .page[data-kind="data"] .sentence-item{cursor:pointer}
+.curation-active .page[data-kind="data"] .sentence-item:is([data-curation-type="1"],[data-curation-type="2"],[data-curation-type="3"],[data-curation-type="4"]):hover,.curation-active .page[data-kind="data"] .sentence-item:focus-visible{outline:2px solid #329889;outline-offset:3px;border-radius:3px}
+@media(prefers-reduced-motion:reduce){.curation-source-mark{transition:none}}
+/* The source document's generic .dialogue rule must not move the tutor controls. */
+.curation-dock.dialogue{padding:0;border-color:#b7c7b8}
+
+.curation-active .page[data-kind="data"] .sentence-item:is([data-curation-type="5"],[data-curation-type="6"]):hover{background:transparent!important;box-shadow:none!important;outline:none!important}
