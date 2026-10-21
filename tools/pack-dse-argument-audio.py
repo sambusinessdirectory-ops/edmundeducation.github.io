@@ -17,7 +17,7 @@ def upload(wrangler: Path, bucket: str, key: str, path: Path) -> str:
     content_type = "application/json" if key.endswith(".json") else "application/octet-stream"
     result = subprocess.run([str(wrangler), "r2", "object", "put", f"{bucket}/{key}", "--file", str(path),
                              "--content-type", content_type, "--cache-control", "public, max-age=31536000, immutable",
-                             "--remote", "--force"], text=True, capture_output=True)
+                             "--remote"], text=True, capture_output=True)
     if result.returncode:
         raise RuntimeError(f"{key}: {(result.stderr or result.stdout)[-1200:]}")
     return key
