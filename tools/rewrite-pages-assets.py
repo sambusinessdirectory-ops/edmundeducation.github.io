@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import subprocess
 from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote
@@ -93,6 +95,7 @@ def allow_asset_origin_in_csp(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("site", type=Path)
+    parser.add_argument("--fast-scan", action="store_true", help="Use grep to select only text files containing asset links or a CSP meta tag")
     args = parser.parse_args()
     if not args.site.is_dir():
         raise SystemExit(f"Missing Pages directory: {args.site}")
@@ -102,7 +105,16 @@ def main() -> int:
     root_dirs = directories(root_keys)
     eddy_dirs = directories(eddy_keys)
     touched = Counter()
-    for path in args.site.rglob("*"):
+    if args.fast_scan:
+        command = ["grep", "-rIlZi", *(f"--include=*{extension}" for extension in sorted(EXTENSIONS)),
+                   "-e", "assets/", "-e", "Content-Security-Policy", "--", str(args.site)]
+        result = subprocess.run(command, capture_output=True, check=False)
+        if result.returncode not in (0, 1):
+            raise RuntimeError(result.stderr.decode(errors="replace"))
+        candidates = (Path(os.fsdecode(name)) for name in result.stdout.split(b"\0") if name)
+    else:
+        candidates = args.site.rglob("*")
+    for path in candidates:
         if not path.is_file() or path.suffix.lower() not in EXTENSIONS:
             continue
         original = path.read_text(encoding="utf-8")

@@ -113,6 +113,9 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
     pickerNoun: "同義詞模組",
     color: "#244a7a"
   }),
+  Object.freeze({ type: "grammar", trigger: "Grammar", aliases: Object.freeze(["Grammar Practice"]), label: "Grammar", pickerTitle: "選擇語法模組或題目", pickerNoun: "語法練習", color: "#244a7a" }),
+  Object.freeze({ type: "error-identification", trigger: "Error Identification", aliases: Object.freeze(["Error Identifier", "Proofreading"]), label: "Error Identification", pickerTitle: "選擇錯因分析題目或文章", pickerNoun: "校對練習", color: "#754e82" }),
+  Object.freeze({ type: "junior-exam-prep", trigger: "Junior Exam Prep", aliases: Object.freeze(["Jayden Homework", "Jayden Exam Prep"]), label: "Junior Exam Prep", pickerTitle: "選擇 Jayden 的考試溫習模組或文章", pickerNoun: "考試溫習", color: "#244e65" }),
   Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
 ]);
 
@@ -146,6 +149,9 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   polysemy: Object.freeze(["/polysemy-lab.html"]),
   "native-english": Object.freeze(["/natural-english.html"]),
   synonym: Object.freeze(["/synonyms-system.html"]),
+  grammar: Object.freeze(["/grammar-system.html"]),
+  "error-identification": Object.freeze(["/error-identifier-system.html"]),
+  "junior-exam-prep": Object.freeze(["/junior-exam-prep.html"]),
   "learning-portal": Object.freeze([
     "/quotes-system.html",
     "/grammar-system.html",
@@ -215,6 +221,7 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/synonyms-system.html": Object.freeze(["module"]),
   "/quotes-system.html": Object.freeze([]),
   "/grammar-system.html": Object.freeze([]),
+  "/junior-exam-prep.html": Object.freeze([]),
   "/collocation-system.html": Object.freeze([]),
   "/irregular-verb-system.html": Object.freeze([]),
   "/thematic-vocabulary-system.html": Object.freeze([]),
@@ -285,6 +292,22 @@ export function normalizeHomeworkResource(value) {
     || id !== `${type}:dse-listening-${parsed.searchParams.get("year")}-task-${parsed.searchParams.get("task")}`
   )) return null;
   if (type === "synonym" && id !== `synonym:${parsed.searchParams.get("module")}`) return null;
+  if (type === "grammar") {
+    const lesson = parsed.searchParams.get("lesson"), view = parsed.searchParams.get("view"), question = parsed.searchParams.get("question");
+    if (!lesson || !view) return null;
+    if (id !== `grammar:${lesson}:${view === "practice" ? `q${question}` : "curation"}`) return null;
+  }
+  if (type === "error-identification") {
+    const mode = parsed.searchParams.get("mode"), question = parsed.searchParams.get("question"), passage = parsed.searchParams.get("passage");
+    if (!["single", "passage"].includes(mode)) return null;
+    const target = question ? `q${question}` : passage ? `passage-${passage}` : mode;
+    if (id !== `error-identification:${target}`) return null;
+  }
+  if (type === "junior-exam-prep") {
+    const module = parsed.searchParams.get("module"), question = parsed.searchParams.get("question");
+    if (id !== `junior-exam-prep:${module}${question ? `:q${question}` : ""}`) return null;
+  }
+
   return Object.freeze({ id, type, label, url });
 }
 
@@ -297,6 +320,31 @@ export function normalizeHomeworkHref(value) {
   }
   if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password || parsed.hash) return null;
   if (!Object.hasOwn(EXPECTED_PARAMETERS_BY_PAGE, parsed.pathname)) return null;
+  if (["/grammar-system.html", "/error-identifier-system.html", "/junior-exam-prep.html"].includes(parsed.pathname)) {
+    const keys = [...parsed.searchParams.keys()];
+    if (new Set(keys).size !== keys.length) return null;
+    const positive = (key, max) => /^[1-9]\d*$/.test(parsed.searchParams.get(key) || "") && Number(parsed.searchParams.get(key)) <= max;
+    if (!keys.length) return parsed.pathname === "/junior-exam-prep.html" ? null : parsed.pathname.slice(1);
+    if (parsed.pathname === "/grammar-system.html") {
+      const lesson = parsed.searchParams.get("lesson"), view = parsed.searchParams.get("view");
+      if (!["tense", "articles", "advanced-articles"].includes(lesson) || !["curation", "practice"].includes(view)) return null;
+      if (keys.some(key => !["lesson", "view", "question"].includes(key))) return null;
+      if (view === "curation" && keys.length !== 2) return null;
+      if (view === "practice" && (keys.length !== 3 || !positive("question", 1000000) || (lesson === "advanced-articles" && Number(parsed.searchParams.get("question")) < 151))) return null;
+    } else if (parsed.pathname === "/error-identifier-system.html") {
+      const mode = parsed.searchParams.get("mode");
+      if (!["single", "passage"].includes(mode)) return null;
+      const target = mode === "single" ? "question" : "passage";
+      if (keys.some(key => !["mode", target].includes(key)) || keys.length > 2) return null;
+      if (keys.length === 2 && !positive(target, 1000000)) return null;
+    } else {
+      const module = parsed.searchParams.get("module");
+      if (!["s2-exam-prep-oct-2026", "s2-exam-prep-advanced-tense", "s2-exam-prep-advanced-articles", "s2-exam-prep-advanced-non-tense-non-articles"].includes(module)) return null;
+      if (keys.some(key => !["module", "question"].includes(key)) || keys.length > 2) return null;
+      if (keys.length === 2 && (module === "s2-exam-prep-oct-2026" || !positive("question", 50))) return null;
+    }
+    return `${parsed.pathname.slice(1)}?${parsed.searchParams.toString()}`;
+  }
   if (parsed.pathname === "/video-class.html") {
     const actualParameters = [...parsed.searchParams.keys()];
     if (actualParameters.length !== 1 || !["series", "video"].includes(actualParameters[0])) return null;

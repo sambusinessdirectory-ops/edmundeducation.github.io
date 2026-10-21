@@ -719,6 +719,52 @@ async function learningPortalResources() {
   return resources.map((resource) => ({ ...resource }));
 }
 
+async function grammarHomeworkResources() {
+  const files = await portalDataFiles("grammar-system.html", /^grammar-(?:tense|articles|advanced-articles)(?:-[a-z]+)*-data\.js$/);
+  const globals = await evaluateFiles(files);
+  const modules = [
+    ["tense", "Tense 時態", globals.EDMUND_GRAMMAR_TENSE_QUESTIONS],
+    ["articles", "Articles 冠詞", globals.EDMUND_GRAMMAR_ARTICLES_DATA?.questions],
+    ["advanced-articles", "Advanced Articles 進階冠詞", globals.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA?.questions]
+  ];
+  return modules.flatMap(([lesson, label, questions], index) => {
+    if (!questions?.length) throw new Error(`Grammar module is empty: ${lesson}`);
+    return [
+      {id:`grammar:${lesson}:curation`,type:"grammar",ordinal:0,label:`${label} · 教學導讀`,detail:`Grammar · ${questions.length} 題配套練習`,url:`grammar-system.html?lesson=${lesson}&view=curation`},
+      ...questions.map(question => ({id:`grammar:${lesson}:q${question.number}`,type:"grammar",ordinal:question.number,label:`${label} · 第 ${question.number} 題`,detail:compactText(question.prompt),url:`grammar-system.html?lesson=${lesson}&view=practice&question=${question.number}`}))
+    ];
+  });
+}
+async function errorHomeworkResources() {
+  const data = await evaluateFiles(["error-identifier-questions.js", "error-identifier-passages.js"]);
+  const questions = data.ERROR_IDENTIFIER_QUESTIONS, passages = data.ERROR_IDENTIFIER_PASSAGES;
+  if (!questions?.length || !passages?.length) throw new Error("Error Identification data is empty");
+  return [
+    {id:"error-identification:single",type:"error-identification",ordinal:0,label:"單句模式 · 全部練習",detail:`Error Identification · ${questions.length} 題`,url:"error-identifier-system.html?mode=single"},
+    {id:"error-identification:passage",type:"error-identification",ordinal:0,label:"文章模式 · 全部練習",detail:`Error Identification · ${passages.length} 篇文章`,url:"error-identifier-system.html?mode=passage"},
+    ...questions.map(q=>({id:`error-identification:q${q.number}`,type:"error-identification",ordinal:q.number,label:`單句 · 第 ${q.number} 題`,detail:compactText(q.sentence),url:`error-identifier-system.html?mode=single&question=${q.number}`})),
+    ...passages.map(p=>({id:`error-identification:passage-${p.id}`,type:"error-identification",ordinal:p.id,label:`文章 ${p.id} · ${p.title}`,detail:`Error Identification · ${p.lines.length} 行`,url:`error-identifier-system.html?mode=passage&passage=${p.id}`}))
+  ];
+}
+async function juniorHomeworkResources() {
+  const {MODULES} = await import(pathToFileURL(path.join(root,"junior-exam-prep/modules.mjs")).href);
+  const resources = [];
+  for (const [index, module] of MODULES.entries()) {
+    if (module.href) {
+      resources.push({id:`junior-exam-prep:${module.key}`,type:"junior-exam-prep",ordinal:0,label:module.title,detail:`Jayden · ${module.total} 題 · 需以獲分配的學生帳戶登入`,url:`junior-exam-prep.html?module=${module.key}`});
+      continue;
+    }
+    const data = JSON.parse(await readFile(path.join(root,"junior-exam-prep",module.file),"utf8"));
+    if (data.module !== module.key || data.questions.length !== 50 || data.passages.length !== 5) throw new Error(`Invalid Junior module: ${module.key}`);
+    resources.push({id:`junior-exam-prep:${module.key}`,type:"junior-exam-prep",ordinal:0,label:module.title,detail:"Jayden · 全部 5 篇文章 · 50 題 · 需以獲分配的學生帳戶登入",url:`junior-exam-prep.html?module=${module.key}`});
+    for (const passage of data.passages) {
+      const question = (passage.number - 1) * 10 + 1;
+      resources.push({id:`junior-exam-prep:${module.key}:q${question}`,type:"junior-exam-prep",ordinal:passage.number,label:`${module.title} · Passage ${passage.number}`,detail:`Jayden · ${passage.title} · 第 ${question}–${question+9} 題`,url:`junior-exam-prep.html?module=${module.key}&question=${question}`});
+    }
+  }
+  return resources;
+}
+
 async function synonymModuleResources() {
   const { catalog, legacyCatalog } = await import(`${pathToFileURL(path.join(root, "synonyms/lesson-catalog.mjs")).href}?homework-catalogue`);
   const lessons = [...catalog, ...legacyCatalog];
@@ -800,7 +846,8 @@ async function orderedLessonResources({ file, globalName, type, idPrefix, system
 async function moduleLessonResources({ file, type, systemLabel, page, titleFor, detailFor, allowNumberGaps = false }) {
   const moduleUrl = pathToFileURL(path.join(root, file));
   const catalogue = await import(`${moduleUrl.href}?homework-catalogue`);
-  const lessons = Array.isArray(catalogue.modules) ? catalogue.modules : [];
+  // Advanced Native has its own numbering; retain this picker's Native English scope.
+  const lessons = (Array.isArray(catalogue.modules) ? catalogue.modules : []).filter(lesson => type !== "native-english" || !String(lesson.id).startsWith("advanced-native-"));
   if (!lessons.length) throw new Error(`${systemLabel} module catalogue is empty`);
   return lessons.map((lesson, index) => {
     const ordinal = Number(lesson?.number);
@@ -835,6 +882,9 @@ const resources = [
   ...await commonExpressionResources(),
   ...await listeningResources(),
   ...await learningPortalResources(),
+  ...await grammarHomeworkResources(),
+  ...await errorHomeworkResources(),
+  ...await juniorHomeworkResources(),
   ...await synonymModuleResources(),
   ...await moduleLessonResources({
     file: "polysemy-lab/catalogue.mjs",

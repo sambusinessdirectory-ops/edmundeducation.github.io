@@ -149,6 +149,7 @@
   curation.hidden = true;
   curation.dataset.articlesCuration = "";
   curation.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-articles-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 02 · ARTICLES</p><h2>冠詞 · 語法導讀</h2><p>先判斷名詞在這句話中的意思、數量，以及對方能否知道是哪一個；再決定 a、an、the 或 Ø。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-articles-start>開始 150 題練習</button><span data-articles-position>導讀 1 / 66</span></div></div><nav class="grammar-articles-chapters" aria-label="冠詞導讀章節">${chapterLinks}</nav><div class="grammar-articles-stream" data-articles-stream>${topics}${decisionMap}</div><div class="grammar-articles-curation__finish"><h3>用這套判斷方法練習</h3><p>前 50 題有清楚的規則分組；其後 100 題把四種答案混合，要求逐題看語境。</p><button class="grammar-button grammar-button--primary" type="button" data-articles-start>開始 150 題練習</button></div>`;
+  window.EDMUND_GRAMMAR_FORMAT_CURATION(curation);
   dashboard.append(curation);
 
   const practice = document.createElement("section");

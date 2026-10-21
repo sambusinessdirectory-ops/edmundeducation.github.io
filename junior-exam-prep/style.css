@@ -12,6 +12,7 @@ body[data-learning-portal="junior-exam-prep"] { --portal-hue: 204; background: #
 .junior-back { margin: 0 0 23px; border: 0; background: none; color: #0f7189; font: inherit; font-weight: 800; cursor: pointer; }
 .junior-back:hover { text-decoration: underline; }
 .junior-module-card { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; gap: 22px; width: 100%; padding: 28px; border: 1px solid #c6d6d6; border-radius: 22px; background: linear-gradient(135deg,#fffdf8,#e9f2f0); color: #173e51; box-shadow: 0 20px 45px rgba(37,64,67,.11); text-align: left; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease; }
+.junior-module-card[href] { text-decoration: none; }
 .junior-module-card:hover { transform: translateY(-3px); box-shadow: 0 26px 54px rgba(37,64,67,.16); }
 .junior-module-card__number { color: #b5804b; font: 700 50px Georgia,serif; }
 .junior-module-card strong, .junior-module-card small, .junior-module-card em { display: block; }
@@ -86,3 +87,21 @@ body[data-learning-portal="junior-exam-prep"] { --portal-hue: 204; background: #
 .junior-submit-bar button:disabled { opacity: .48; cursor: not-allowed; }
 @media (max-width: 720px) { .junior-app { margin-top: 8px; } .junior-module-card { grid-template-columns: 45px 1fr auto; gap: 10px; padding: 18px; } .junior-module-card__number { font-size: 35px; } .junior-table-shell, .junior-table-float { padding: 10px; } .junior-table-float { top: 62px; } .junior-table-head p { display: none; } .junior-table-float .junior-table-scroll { max-height: 130px; } .junior-table-shell th, .junior-table-shell td, .junior-table-float th, .junior-table-float td { padding: 7px; font-size: 11px; } .junior-question { padding: 17px; } .junior-exam-toolbar label { margin-left: 0; } .junior-submit-bar { bottom: 0; width: 100vw; border-radius: 13px 13px 0 0; padding: 9px 12px; } .junior-submit-bar small { display: none; } .junior-submit-bar button { padding: 9px 10px; font-size: 12px; } }
 @media (prefers-reduced-motion: reduce) { .junior-module-card { transition: none; } }
+.junior-advanced-grid { display: grid; gap: 16px; }
+.junior-advanced-passage-group { margin: 0 0 28px; padding: 24px; border: 1px solid #d5e1df; border-radius: 18px; background: #fffefb; box-shadow: 0 8px 22px rgba(29,56,66,.07); }
+.junior-advanced-passage-group h3 { margin: 0 0 16px; color: #17485c; font: 700 clamp(20px,2.5vw,27px) "Noto Serif TC","Songti TC",Georgia,serif; }
+.junior-advanced-passage { color: #203b4a; font: 500 clamp(17px,1.9vw,20px)/2.35 Georgia,"Times New Roman",serif; }
+.junior-advanced-passage p { margin: 0 0 18px; }
+.junior-advanced-blank { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 0 3px; padding: 3px 5px; border-radius: 8px; background: #eaf4f3; scroll-margin-top: 150px; }
+.junior-advanced-prompt { color: #116b82; font-weight: 750; }
+.junior-advanced-blank .junior-answer { width: min(200px,45vw); min-height: 36px; margin: 0; padding: 3px 8px; font-size: 16px; }
+.junior-advanced-feedback { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 5px; line-height: 1.2; }
+.junior-advanced-correct { color: #175a6c; font: 700 12px -apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif; }
+.junior-advanced-review { margin-top: 22px; padding-top: 16px; border-top: 1px solid #d5e1df; font-family: -apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif; }
+.junior-advanced-review h4 { margin: 0 0 12px; color: #17485c; }
+.junior-advanced-review details { margin: 0 0 10px; padding: 11px 14px; border: 1px solid #d2dfdd; border-radius: 10px; background: #f8fbf9; }
+.junior-advanced-review summary { cursor: pointer; color: #175a6c; font-weight: 800; }
+.junior-advanced-review ol { margin: 13px 0 0; padding-left: 23px; color: #365562; line-height: 1.7; }
+.junior-advanced-review li { margin-bottom: 8px; }
+@media (max-width: 720px) { .junior-advanced-passage-group { padding: 16px; } .junior-advanced-passage { line-height: 2.3; } .junior-advanced-blank .junior-answer { width: min(165px,44vw); } }
+.junior-advanced-hint { color: #607985; font-size: .82em; }

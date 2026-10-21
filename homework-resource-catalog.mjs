@@ -9729,6 +9729,2862 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "reading-comprehension.html?article=dse-2026-b2"
   },
   {
+    "id": "error-identification:q1",
+    "type": "error-identification",
+    "ordinal": 1,
+    "label": "單句 · 第 1 題",
+    "detail": "My aunt lives in United Kingdom.",
+    "url": "error-identifier-system.html?mode=single&question=1"
+  },
+  {
+    "id": "error-identification:q2",
+    "type": "error-identification",
+    "ordinal": 2,
+    "label": "單句 · 第 2 題",
+    "detail": "If I am you, I would apologise.",
+    "url": "error-identifier-system.html?mode=single&question=2"
+  },
+  {
+    "id": "error-identification:q3",
+    "type": "error-identification",
+    "ordinal": 3,
+    "label": "單句 · 第 3 題",
+    "detail": "We bought several new equipments for the lab.",
+    "url": "error-identifier-system.html?mode=single&question=3"
+  },
+  {
+    "id": "error-identification:q4",
+    "type": "error-identification",
+    "ordinal": 4,
+    "label": "單句 · 第 4 題",
+    "detail": "If I will have more time, I would join the club.",
+    "url": "error-identifier-system.html?mode=single&question=4"
+  },
+  {
+    "id": "error-identification:q5",
+    "type": "error-identification",
+    "ordinal": 5,
+    "label": "單句 · 第 5 題",
+    "detail": "The list of names is on the desk.",
+    "url": "error-identifier-system.html?mode=single&question=5"
+  },
+  {
+    "id": "error-identification:q6",
+    "type": "error-identification",
+    "ordinal": 6,
+    "label": "單句 · 第 6 題",
+    "detail": "She had left before I arrived.",
+    "url": "error-identifier-system.html?mode=single&question=6"
+  },
+  {
+    "id": "error-identification:q7",
+    "type": "error-identification",
+    "ordinal": 7,
+    "label": "單句 · 第 7 題",
+    "detail": "We have seen that film three days ago.",
+    "url": "error-identifier-system.html?mode=single&question=7"
+  },
+  {
+    "id": "error-identification:q8",
+    "type": "error-identification",
+    "ordinal": 8,
+    "label": "單句 · 第 8 題",
+    "detail": "Her advice was clear and useful.",
+    "url": "error-identifier-system.html?mode=single&question=8"
+  },
+  {
+    "id": "error-identification:q9",
+    "type": "error-identification",
+    "ordinal": 9,
+    "label": "單句 · 第 9 題",
+    "detail": "The teacher made the class write a summary.",
+    "url": "error-identifier-system.html?mode=single&question=9"
+  },
+  {
+    "id": "error-identification:q10",
+    "type": "error-identification",
+    "ordinal": 10,
+    "label": "單句 · 第 10 題",
+    "detail": "He told me that he finishes the report the previous night.",
+    "url": "error-identifier-system.html?mode=single&question=10"
+  },
+  {
+    "id": "error-identification:q11",
+    "type": "error-identification",
+    "ordinal": 11,
+    "label": "單句 · 第 11 題",
+    "detail": "The teacher gave us useful advice.",
+    "url": "error-identifier-system.html?mode=single&question=11"
+  },
+  {
+    "id": "error-identification:q12",
+    "type": "error-identification",
+    "ordinal": 12,
+    "label": "單句 · 第 12 題",
+    "detail": "The letter was wrote yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=12"
+  },
+  {
+    "id": "error-identification:q13",
+    "type": "error-identification",
+    "ordinal": 13,
+    "label": "單句 · 第 13 題",
+    "detail": "The rules allow students to bring water.",
+    "url": "error-identifier-system.html?mode=single&question=13"
+  },
+  {
+    "id": "error-identification:q14",
+    "type": "error-identification",
+    "ordinal": 14,
+    "label": "單句 · 第 14 題",
+    "detail": "The new hall allows us practise indoors.",
+    "url": "error-identifier-system.html?mode=single&question=14"
+  },
+  {
+    "id": "error-identification:q15",
+    "type": "error-identification",
+    "ordinal": 15,
+    "label": "單句 · 第 15 題",
+    "detail": "Please discuss about the plan with your group.",
+    "url": "error-identifier-system.html?mode=single&question=15"
+  },
+  {
+    "id": "error-identification:q16",
+    "type": "error-identification",
+    "ordinal": 16,
+    "label": "單句 · 第 16 題",
+    "detail": "He travelled to Japan last year.",
+    "url": "error-identifier-system.html?mode=single&question=16"
+  },
+  {
+    "id": "error-identification:q17",
+    "type": "error-identification",
+    "ordinal": 17,
+    "label": "單句 · 第 17 題",
+    "detail": "The hall has been decorate for the ceremony.",
+    "url": "error-identifier-system.html?mode=single&question=17"
+  },
+  {
+    "id": "error-identification:q18",
+    "type": "error-identification",
+    "ordinal": 18,
+    "label": "單句 · 第 18 題",
+    "detail": "We enjoyed singing, dancing and to paint.",
+    "url": "error-identifier-system.html?mode=single&question=18"
+  },
+  {
+    "id": "error-identification:q19",
+    "type": "error-identification",
+    "ordinal": 19,
+    "label": "單句 · 第 19 題",
+    "detail": "Our teacher suggested forming a study group.",
+    "url": "error-identifier-system.html?mode=single&question=19"
+  },
+  {
+    "id": "error-identification:q20",
+    "type": "error-identification",
+    "ordinal": 20,
+    "label": "單句 · 第 20 題",
+    "detail": "He has already sent the invitation.",
+    "url": "error-identifier-system.html?mode=single&question=20"
+  },
+  {
+    "id": "error-identification:q21",
+    "type": "error-identification",
+    "ordinal": 21,
+    "label": "單句 · 第 21 題",
+    "detail": "He entered into the classroom quietly.",
+    "url": "error-identifier-system.html?mode=single&question=21"
+  },
+  {
+    "id": "error-identification:q22",
+    "type": "error-identification",
+    "ordinal": 22,
+    "label": "單句 · 第 22 題",
+    "detail": "She suggested us to practise together.",
+    "url": "error-identifier-system.html?mode=single&question=22"
+  },
+  {
+    "id": "error-identification:q23",
+    "type": "error-identification",
+    "ordinal": 23,
+    "label": "單句 · 第 23 題",
+    "detail": "He is kind, patient and generosity.",
+    "url": "error-identifier-system.html?mode=single&question=23"
+  },
+  {
+    "id": "error-identification:q24",
+    "type": "error-identification",
+    "ordinal": 24,
+    "label": "單句 · 第 24 題",
+    "detail": "I am interested in learning French.",
+    "url": "error-identifier-system.html?mode=single&question=24"
+  },
+  {
+    "id": "error-identification:q25",
+    "type": "error-identification",
+    "ordinal": 25,
+    "label": "單句 · 第 25 題",
+    "detail": "Neither the coach nor the players are absent.",
+    "url": "error-identifier-system.html?mode=single&question=25"
+  },
+  {
+    "id": "error-identification:q26",
+    "type": "error-identification",
+    "ordinal": 26,
+    "label": "單句 · 第 26 題",
+    "detail": "She explained me the instructions.",
+    "url": "error-identifier-system.html?mode=single&question=26"
+  },
+  {
+    "id": "error-identification:q27",
+    "type": "error-identification",
+    "ordinal": 27,
+    "label": "單句 · 第 27 題",
+    "detail": "One of the student is absent today.",
+    "url": "error-identifier-system.html?mode=single&question=27"
+  },
+  {
+    "id": "error-identification:q28",
+    "type": "error-identification",
+    "ordinal": 28,
+    "label": "單句 · 第 28 題",
+    "detail": "I am waiting here for two hours already.",
+    "url": "error-identifier-system.html?mode=single&question=28"
+  },
+  {
+    "id": "error-identification:q29",
+    "type": "error-identification",
+    "ordinal": 29,
+    "label": "單句 · 第 29 題",
+    "detail": "She is an honest person.",
+    "url": "error-identifier-system.html?mode=single&question=29"
+  },
+  {
+    "id": "error-identification:q30",
+    "type": "error-identification",
+    "ordinal": 30,
+    "label": "單句 · 第 30 題",
+    "detail": "My cousin moved to the Hong Kong.",
+    "url": "error-identifier-system.html?mode=single&question=30"
+  },
+  {
+    "id": "error-identification:q31",
+    "type": "error-identification",
+    "ordinal": 31,
+    "label": "單句 · 第 31 題",
+    "detail": "They have been playing football for an hour.",
+    "url": "error-identifier-system.html?mode=single&question=31"
+  },
+  {
+    "id": "error-identification:q32",
+    "type": "error-identification",
+    "ordinal": 32,
+    "label": "單句 · 第 32 題",
+    "detail": "She has been studying since seven o’clock.",
+    "url": "error-identifier-system.html?mode=single&question=32"
+  },
+  {
+    "id": "error-identification:q33",
+    "type": "error-identification",
+    "ordinal": 33,
+    "label": "單句 · 第 33 題",
+    "detail": "She gave me an useful information.",
+    "url": "error-identifier-system.html?mode=single&question=33"
+  },
+  {
+    "id": "error-identification:q34",
+    "type": "error-identification",
+    "ordinal": 34,
+    "label": "單句 · 第 34 題",
+    "detail": "We listened to the birds in the garden.",
+    "url": "error-identifier-system.html?mode=single&question=34"
+  },
+  {
+    "id": "error-identification:q35",
+    "type": "error-identification",
+    "ordinal": 35,
+    "label": "單句 · 第 35 題",
+    "detail": "We have waiting for the bus since noon.",
+    "url": "error-identifier-system.html?mode=single&question=35"
+  },
+  {
+    "id": "error-identification:q36",
+    "type": "error-identification",
+    "ordinal": 36,
+    "label": "單句 · 第 36 題",
+    "detail": "If she studies hard, she will improve.",
+    "url": "error-identifier-system.html?mode=single&question=36"
+  },
+  {
+    "id": "error-identification:q37",
+    "type": "error-identification",
+    "ordinal": 37,
+    "label": "單句 · 第 37 題",
+    "detail": "A language without words need practice too.",
+    "url": "error-identifier-system.html?mode=single&question=37"
+  },
+  {
+    "id": "error-identification:q38",
+    "type": "error-identification",
+    "ordinal": 38,
+    "label": "單句 · 第 38 題",
+    "detail": "By the end of last term, we have completed the project.",
+    "url": "error-identifier-system.html?mode=single&question=38"
+  },
+  {
+    "id": "error-identification:q39",
+    "type": "error-identification",
+    "ordinal": 39,
+    "label": "單句 · 第 39 題",
+    "detail": "My sister has joined the club in 2022.",
+    "url": "error-identifier-system.html?mode=single&question=39"
+  },
+  {
+    "id": "error-identification:q40",
+    "type": "error-identification",
+    "ordinal": 40,
+    "label": "單句 · 第 40 題",
+    "detail": "There is a lot of information online.",
+    "url": "error-identifier-system.html?mode=single&question=40"
+  },
+  {
+    "id": "error-identification:q41",
+    "type": "error-identification",
+    "ordinal": 41,
+    "label": "單句 · 第 41 題",
+    "detail": "The coach made us to run five laps.",
+    "url": "error-identifier-system.html?mode=single&question=41"
+  },
+  {
+    "id": "error-identification:q42",
+    "type": "error-identification",
+    "ordinal": 42,
+    "label": "單句 · 第 42 題",
+    "detail": "The windows were cleaned before noon.",
+    "url": "error-identifier-system.html?mode=single&question=42"
+  },
+  {
+    "id": "error-identification:q43",
+    "type": "error-identification",
+    "ordinal": 43,
+    "label": "單句 · 第 43 題",
+    "detail": "I shared my notes with my friend.",
+    "url": "error-identifier-system.html?mode=single&question=43"
+  },
+  {
+    "id": "error-identification:q44",
+    "type": "error-identification",
+    "ordinal": 44,
+    "label": "單句 · 第 44 題",
+    "detail": "He works at an university.",
+    "url": "error-identifier-system.html?mode=single&question=44"
+  },
+  {
+    "id": "error-identification:q45",
+    "type": "error-identification",
+    "ordinal": 45,
+    "label": "單句 · 第 45 題",
+    "detail": "Her explanation can be understand by everyone.",
+    "url": "error-identifier-system.html?mode=single&question=45"
+  },
+  {
+    "id": "error-identification:q46",
+    "type": "error-identification",
+    "ordinal": 46,
+    "label": "單句 · 第 46 題",
+    "detail": "The prizes will be given out tomorrow.",
+    "url": "error-identifier-system.html?mode=single&question=46"
+  },
+  {
+    "id": "error-identification:q47",
+    "type": "error-identification",
+    "ordinal": 47,
+    "label": "單句 · 第 47 題",
+    "detail": "I have finished my homework yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=47"
+  },
+  {
+    "id": "error-identification:q48",
+    "type": "error-identification",
+    "ordinal": 48,
+    "label": "單句 · 第 48 題",
+    "detail": "By 8 p.m. yesterday, they had packed all the boxes.",
+    "url": "error-identifier-system.html?mode=single&question=48"
+  },
+  {
+    "id": "error-identification:q49",
+    "type": "error-identification",
+    "ordinal": 49,
+    "label": "單句 · 第 49 題",
+    "detail": "Neither my friends nor my brother are coming.",
+    "url": "error-identifier-system.html?mode=single&question=49"
+  },
+  {
+    "id": "error-identification:q50",
+    "type": "error-identification",
+    "ordinal": 50,
+    "label": "單句 · 第 50 題",
+    "detail": "She visited her grandparents last Sunday.",
+    "url": "error-identifier-system.html?mode=single&question=50"
+  },
+  {
+    "id": "error-identification:q51",
+    "type": "error-identification",
+    "ordinal": 51,
+    "label": "單句 · 第 51 題",
+    "detail": "She showed great concerned for her classmates.",
+    "url": "error-identifier-system.html?mode=single&question=51"
+  },
+  {
+    "id": "error-identification:q52",
+    "type": "error-identification",
+    "ordinal": 52,
+    "label": "單句 · 第 52 題",
+    "detail": "If they revised together, they would understand more.",
+    "url": "error-identifier-system.html?mode=single&question=52"
+  },
+  {
+    "id": "error-identification:q53",
+    "type": "error-identification",
+    "ordinal": 53,
+    "label": "單句 · 第 53 題",
+    "detail": "If it will rain tomorrow, we will stay indoors.",
+    "url": "error-identifier-system.html?mode=single&question=53"
+  },
+  {
+    "id": "error-identification:q54",
+    "type": "error-identification",
+    "ordinal": 54,
+    "label": "單句 · 第 54 題",
+    "detail": "They are interested for joining the team.",
+    "url": "error-identifier-system.html?mode=single&question=54"
+  },
+  {
+    "id": "error-identification:q55",
+    "type": "error-identification",
+    "ordinal": 55,
+    "label": "單句 · 第 55 題",
+    "detail": "I look forward to meet your parents.",
+    "url": "error-identifier-system.html?mode=single&question=55"
+  },
+  {
+    "id": "error-identification:q56",
+    "type": "error-identification",
+    "ordinal": 56,
+    "label": "單句 · 第 56 題",
+    "detail": "He has been practise the piano all afternoon.",
+    "url": "error-identifier-system.html?mode=single&question=56"
+  },
+  {
+    "id": "error-identification:q57",
+    "type": "error-identification",
+    "ordinal": 57,
+    "label": "單句 · 第 57 題",
+    "detail": "When we reached the station, the train already leaves.",
+    "url": "error-identifier-system.html?mode=single&question=57"
+  },
+  {
+    "id": "error-identification:q58",
+    "type": "error-identification",
+    "ordinal": 58,
+    "label": "單句 · 第 58 題",
+    "detail": "The message expressed hope and sympathy.",
+    "url": "error-identifier-system.html?mode=single&question=58"
+  },
+  {
+    "id": "error-identification:q59",
+    "type": "error-identification",
+    "ordinal": 59,
+    "label": "單句 · 第 59 題",
+    "detail": "Reading books improve my vocabulary.",
+    "url": "error-identifier-system.html?mode=single&question=59"
+  },
+  {
+    "id": "error-identification:q60",
+    "type": "error-identification",
+    "ordinal": 60,
+    "label": "單句 · 第 60 題",
+    "detail": "My parents let me to stay up late.",
+    "url": "error-identifier-system.html?mode=single&question=60"
+  },
+  {
+    "id": "error-identification:q61",
+    "type": "error-identification",
+    "ordinal": 61,
+    "label": "單句 · 第 61 題",
+    "detail": "We are interested in joining the club.",
+    "url": "error-identifier-system.html?mode=single&question=61"
+  },
+  {
+    "id": "error-identification:q62",
+    "type": "error-identification",
+    "ordinal": 62,
+    "label": "單句 · 第 62 題",
+    "detail": "She has finished her homework before dinner began.",
+    "url": "error-identifier-system.html?mode=single&question=62"
+  },
+  {
+    "id": "error-identification:q63",
+    "type": "error-identification",
+    "ordinal": 63,
+    "label": "單句 · 第 63 題",
+    "detail": "The rule contains no grammatical exceptions.",
+    "url": "error-identifier-system.html?mode=single&question=63"
+  },
+  {
+    "id": "error-identification:q64",
+    "type": "error-identification",
+    "ordinal": 64,
+    "label": "單句 · 第 64 題",
+    "detail": "The children stayed in the bed because they were ill.",
+    "url": "error-identifier-system.html?mode=single&question=64"
+  },
+  {
+    "id": "error-identification:q65",
+    "type": "error-identification",
+    "ordinal": 65,
+    "label": "單句 · 第 65 題",
+    "detail": "At 4 p.m. yesterday, I was prepare dinner when the phone rang.",
+    "url": "error-identifier-system.html?mode=single&question=65"
+  },
+  {
+    "id": "error-identification:q66",
+    "type": "error-identification",
+    "ordinal": 66,
+    "label": "單句 · 第 66 題",
+    "detail": "Our team conducts experiments regularly.",
+    "url": "error-identifier-system.html?mode=single&question=66"
+  },
+  {
+    "id": "error-identification:q67",
+    "type": "error-identification",
+    "ordinal": 67,
+    "label": "單句 · 第 67 題",
+    "detail": "The workers are arriving at noon yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=67"
+  },
+  {
+    "id": "error-identification:q68",
+    "type": "error-identification",
+    "ordinal": 68,
+    "label": "單句 · 第 68 題",
+    "detail": "She bought notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=68"
+  },
+  {
+    "id": "error-identification:q69",
+    "type": "error-identification",
+    "ordinal": 69,
+    "label": "單句 · 第 69 題",
+    "detail": "There is new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=69"
+  },
+  {
+    "id": "error-identification:q70",
+    "type": "error-identification",
+    "ordinal": 70,
+    "label": "單句 · 第 70 題",
+    "detail": "We saw cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=70"
+  },
+  {
+    "id": "error-identification:q71",
+    "type": "error-identification",
+    "ordinal": 71,
+    "label": "單句 · 第 71 題",
+    "detail": "Her perseverant impressed the judges.",
+    "url": "error-identifier-system.html?mode=single&question=71"
+  },
+  {
+    "id": "error-identification:q72",
+    "type": "error-identification",
+    "ordinal": 72,
+    "label": "單句 · 第 72 題",
+    "detail": "The bottles is inexpensive.",
+    "url": "error-identifier-system.html?mode=single&question=72"
+  },
+  {
+    "id": "error-identification:q73",
+    "type": "error-identification",
+    "ordinal": 73,
+    "label": "單句 · 第 73 題",
+    "detail": "I look forward to meet you.",
+    "url": "error-identifier-system.html?mode=single&question=73"
+  },
+  {
+    "id": "error-identification:q74",
+    "type": "error-identification",
+    "ordinal": 74,
+    "label": "單句 · 第 74 題",
+    "detail": "I will help you carry those bags.",
+    "url": "error-identifier-system.html?mode=single&question=74"
+  },
+  {
+    "id": "error-identification:q75",
+    "type": "error-identification",
+    "ordinal": 75,
+    "label": "單句 · 第 75 題",
+    "detail": "She was praised for her brilliant.",
+    "url": "error-identifier-system.html?mode=single&question=75"
+  },
+  {
+    "id": "error-identification:q76",
+    "type": "error-identification",
+    "ordinal": 76,
+    "label": "單句 · 第 76 題",
+    "detail": "I checking the details at the moment.",
+    "url": "error-identifier-system.html?mode=single&question=76"
+  },
+  {
+    "id": "error-identification:q77",
+    "type": "error-identification",
+    "ordinal": 77,
+    "label": "單句 · 第 77 題",
+    "detail": "This method produces excellent results.",
+    "url": "error-identifier-system.html?mode=single&question=77"
+  },
+  {
+    "id": "error-identification:q78",
+    "type": "error-identification",
+    "ordinal": 78,
+    "label": "單句 · 第 78 題",
+    "detail": "I saw a dog, and the dog followed me home.",
+    "url": "error-identifier-system.html?mode=single&question=78"
+  },
+  {
+    "id": "error-identification:q79",
+    "type": "error-identification",
+    "ordinal": 79,
+    "label": "單句 · 第 79 題",
+    "detail": "He went straight to bed after dinner.",
+    "url": "error-identifier-system.html?mode=single&question=79"
+  },
+  {
+    "id": "error-identification:q80",
+    "type": "error-identification",
+    "ordinal": 80,
+    "label": "單句 · 第 80 題",
+    "detail": "I am checking the details at the moment.",
+    "url": "error-identifier-system.html?mode=single&question=80"
+  },
+  {
+    "id": "error-identification:q81",
+    "type": "error-identification",
+    "ordinal": 81,
+    "label": "單句 · 第 81 題",
+    "detail": "We saw cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=81"
+  },
+  {
+    "id": "error-identification:q82",
+    "type": "error-identification",
+    "ordinal": 82,
+    "label": "單句 · 第 82 題",
+    "detail": "Visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=82"
+  },
+  {
+    "id": "error-identification:q83",
+    "type": "error-identification",
+    "ordinal": 83,
+    "label": "單句 · 第 83 題",
+    "detail": "The teacher collected test we completed yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=83"
+  },
+  {
+    "id": "error-identification:q84",
+    "type": "error-identification",
+    "ordinal": 84,
+    "label": "單句 · 第 84 題",
+    "detail": "We share our ideas with our classmates.",
+    "url": "error-identifier-system.html?mode=single&question=84"
+  },
+  {
+    "id": "error-identification:q85",
+    "type": "error-identification",
+    "ordinal": 85,
+    "label": "單句 · 第 85 題",
+    "detail": "She studies the law at university.",
+    "url": "error-identifier-system.html?mode=single&question=85"
+  },
+  {
+    "id": "error-identification:q86",
+    "type": "error-identification",
+    "ordinal": 86,
+    "label": "單句 · 第 86 題",
+    "detail": "I saw a dog, and the dog followed me home.",
+    "url": "error-identifier-system.html?mode=single&question=86"
+  },
+  {
+    "id": "error-identification:q87",
+    "type": "error-identification",
+    "ordinal": 87,
+    "label": "單句 · 第 87 題",
+    "detail": "She bought notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=87"
+  },
+  {
+    "id": "error-identification:q88",
+    "type": "error-identification",
+    "ordinal": 88,
+    "label": "單句 · 第 88 題",
+    "detail": "She is going to open a new shop.",
+    "url": "error-identifier-system.html?mode=single&question=88"
+  },
+  {
+    "id": "error-identification:q89",
+    "type": "error-identification",
+    "ordinal": 89,
+    "label": "單句 · 第 89 題",
+    "detail": "We are taking steps to improve safety.",
+    "url": "error-identifier-system.html?mode=single&question=89"
+  },
+  {
+    "id": "error-identification:q90",
+    "type": "error-identification",
+    "ordinal": 90,
+    "label": "單句 · 第 90 題",
+    "detail": "She is practising for the concert today.",
+    "url": "error-identifier-system.html?mode=single&question=90"
+  },
+  {
+    "id": "error-identification:q91",
+    "type": "error-identification",
+    "ordinal": 91,
+    "label": "單句 · 第 91 題",
+    "detail": "The children stayed in the bed because they were ill.",
+    "url": "error-identifier-system.html?mode=single&question=91"
+  },
+  {
+    "id": "error-identification:q92",
+    "type": "error-identification",
+    "ordinal": 92,
+    "label": "單句 · 第 92 題",
+    "detail": "The teacher collected the tests we completed yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=92"
+  },
+  {
+    "id": "error-identification:q93",
+    "type": "error-identification",
+    "ordinal": 93,
+    "label": "單句 · 第 93 題",
+    "detail": "They wanted no material comfort, only peace.",
+    "url": "error-identifier-system.html?mode=single&question=93"
+  },
+  {
+    "id": "error-identification:q94",
+    "type": "error-identification",
+    "ordinal": 94,
+    "label": "單句 · 第 94 題",
+    "detail": "She studies law at university.",
+    "url": "error-identifier-system.html?mode=single&question=94"
+  },
+  {
+    "id": "error-identification:q95",
+    "type": "error-identification",
+    "ordinal": 95,
+    "label": "單句 · 第 95 題",
+    "detail": "He went straight to bed after dinner.",
+    "url": "error-identifier-system.html?mode=single&question=95"
+  },
+  {
+    "id": "error-identification:q96",
+    "type": "error-identification",
+    "ordinal": 96,
+    "label": "單句 · 第 96 題",
+    "detail": "She has several achievement to celebrate.",
+    "url": "error-identifier-system.html?mode=single&question=96"
+  },
+  {
+    "id": "error-identification:q97",
+    "type": "error-identification",
+    "ordinal": 97,
+    "label": "單句 · 第 97 題",
+    "detail": "Please close window beside your desk.",
+    "url": "error-identifier-system.html?mode=single&question=97"
+  },
+  {
+    "id": "error-identification:q98",
+    "type": "error-identification",
+    "ordinal": 98,
+    "label": "單句 · 第 98 題",
+    "detail": "Each student need a pencil.",
+    "url": "error-identifier-system.html?mode=single&question=98"
+  },
+  {
+    "id": "error-identification:q99",
+    "type": "error-identification",
+    "ordinal": 99,
+    "label": "單句 · 第 99 題",
+    "detail": "By December, we have completed the project.",
+    "url": "error-identifier-system.html?mode=single&question=99"
+  },
+  {
+    "id": "error-identification:q100",
+    "type": "error-identification",
+    "ordinal": 100,
+    "label": "單句 · 第 100 題",
+    "detail": "Visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=100"
+  },
+  {
+    "id": "error-identification:q101",
+    "type": "error-identification",
+    "ordinal": 101,
+    "label": "單句 · 第 101 題",
+    "detail": "A visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=101"
+  },
+  {
+    "id": "error-identification:q102",
+    "type": "error-identification",
+    "ordinal": 102,
+    "label": "單句 · 第 102 題",
+    "detail": "She practises for the concert today.",
+    "url": "error-identifier-system.html?mode=single&question=102"
+  },
+  {
+    "id": "error-identification:q103",
+    "type": "error-identification",
+    "ordinal": 103,
+    "label": "單句 · 第 103 題",
+    "detail": "She has several achievements to celebrate.",
+    "url": "error-identifier-system.html?mode=single&question=103"
+  },
+  {
+    "id": "error-identification:q104",
+    "type": "error-identification",
+    "ordinal": 104,
+    "label": "單句 · 第 104 題",
+    "detail": "The storm struck the town yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=104"
+  },
+  {
+    "id": "error-identification:q105",
+    "type": "error-identification",
+    "ordinal": 105,
+    "label": "單句 · 第 105 題",
+    "detail": "The players had practised hard before the competition started.",
+    "url": "error-identifier-system.html?mode=single&question=105"
+  },
+  {
+    "id": "error-identification:q106",
+    "type": "error-identification",
+    "ordinal": 106,
+    "label": "單句 · 第 106 題",
+    "detail": "They will publish the results later this term.",
+    "url": "error-identifier-system.html?mode=single&question=106"
+  },
+  {
+    "id": "error-identification:q107",
+    "type": "error-identification",
+    "ordinal": 107,
+    "label": "單句 · 第 107 題",
+    "detail": "Our team conduct experiments regularly.",
+    "url": "error-identifier-system.html?mode=single&question=107"
+  },
+  {
+    "id": "error-identification:q108",
+    "type": "error-identification",
+    "ordinal": 108,
+    "label": "單句 · 第 108 題",
+    "detail": "This method produces excellent results.",
+    "url": "error-identifier-system.html?mode=single&question=108"
+  },
+  {
+    "id": "error-identification:q109",
+    "type": "error-identification",
+    "ordinal": 109,
+    "label": "單句 · 第 109 題",
+    "detail": "The teacher allowed us to use a dictionary.",
+    "url": "error-identifier-system.html?mode=single&question=109"
+  },
+  {
+    "id": "error-identification:q110",
+    "type": "error-identification",
+    "ordinal": 110,
+    "label": "單句 · 第 110 題",
+    "detail": "He used to play basketball after school.",
+    "url": "error-identifier-system.html?mode=single&question=110"
+  },
+  {
+    "id": "error-identification:q111",
+    "type": "error-identification",
+    "ordinal": 111,
+    "label": "單句 · 第 111 題",
+    "detail": "He answer your question shortly.",
+    "url": "error-identifier-system.html?mode=single&question=111"
+  },
+  {
+    "id": "error-identification:q112",
+    "type": "error-identification",
+    "ordinal": 112,
+    "label": "單句 · 第 112 題",
+    "detail": "While she was read, the lights went out.",
+    "url": "error-identifier-system.html?mode=single&question=112"
+  },
+  {
+    "id": "error-identification:q113",
+    "type": "error-identification",
+    "ordinal": 113,
+    "label": "單句 · 第 113 題",
+    "detail": "The school appointed her captain last year.",
+    "url": "error-identifier-system.html?mode=single&question=113"
+  },
+  {
+    "id": "error-identification:q114",
+    "type": "error-identification",
+    "ordinal": 114,
+    "label": "單句 · 第 114 題",
+    "detail": "By next June, she will have finished the course.",
+    "url": "error-identifier-system.html?mode=single&question=114"
+  },
+  {
+    "id": "error-identification:q115",
+    "type": "error-identification",
+    "ordinal": 115,
+    "label": "單句 · 第 115 題",
+    "detail": "Please close window beside your desk.",
+    "url": "error-identifier-system.html?mode=single&question=115"
+  },
+  {
+    "id": "error-identification:q116",
+    "type": "error-identification",
+    "ordinal": 116,
+    "label": "單句 · 第 116 題",
+    "detail": "The teacher collected test we completed yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=116"
+  },
+  {
+    "id": "error-identification:q117",
+    "type": "error-identification",
+    "ordinal": 117,
+    "label": "單句 · 第 117 題",
+    "detail": "He was offered place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=117"
+  },
+  {
+    "id": "error-identification:q118",
+    "type": "error-identification",
+    "ordinal": 118,
+    "label": "單句 · 第 118 題",
+    "detail": "He went straight to the bed after dinner.",
+    "url": "error-identifier-system.html?mode=single&question=118"
+  },
+  {
+    "id": "error-identification:q119",
+    "type": "error-identification",
+    "ordinal": 119,
+    "label": "單句 · 第 119 題",
+    "detail": "He used to played basketball after school.",
+    "url": "error-identifier-system.html?mode=single&question=119"
+  },
+  {
+    "id": "error-identification:q120",
+    "type": "error-identification",
+    "ordinal": 120,
+    "label": "單句 · 第 120 題",
+    "detail": "I has sit here for two hours.",
+    "url": "error-identifier-system.html?mode=single&question=120"
+  },
+  {
+    "id": "error-identification:q121",
+    "type": "error-identification",
+    "ordinal": 121,
+    "label": "單句 · 第 121 題",
+    "detail": "This method produce excellent results.",
+    "url": "error-identifier-system.html?mode=single&question=121"
+  },
+  {
+    "id": "error-identification:q122",
+    "type": "error-identification",
+    "ordinal": 122,
+    "label": "單句 · 第 122 題",
+    "detail": "There is a new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=122"
+  },
+  {
+    "id": "error-identification:q123",
+    "type": "error-identification",
+    "ordinal": 123,
+    "label": "單句 · 第 123 題",
+    "detail": "They travelled across United States.",
+    "url": "error-identifier-system.html?mode=single&question=123"
+  },
+  {
+    "id": "error-identification:q124",
+    "type": "error-identification",
+    "ordinal": 124,
+    "label": "單句 · 第 124 題",
+    "detail": "There is a new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=124"
+  },
+  {
+    "id": "error-identification:q125",
+    "type": "error-identification",
+    "ordinal": 125,
+    "label": "單句 · 第 125 題",
+    "detail": "He was offered a place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=125"
+  },
+  {
+    "id": "error-identification:q126",
+    "type": "error-identification",
+    "ordinal": 126,
+    "label": "單句 · 第 126 題",
+    "detail": "He was offered place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=126"
+  },
+  {
+    "id": "error-identification:q127",
+    "type": "error-identification",
+    "ordinal": 127,
+    "label": "單句 · 第 127 題",
+    "detail": "She can read, writing and speak French.",
+    "url": "error-identifier-system.html?mode=single&question=127"
+  },
+  {
+    "id": "error-identification:q128",
+    "type": "error-identification",
+    "ordinal": 128,
+    "label": "單句 · 第 128 題",
+    "detail": "The rule contains no grammatical or exceptions.",
+    "url": "error-identifier-system.html?mode=single&question=128"
+  },
+  {
+    "id": "error-identification:q129",
+    "type": "error-identification",
+    "ordinal": 129,
+    "label": "單句 · 第 129 題",
+    "detail": "Our team conduct experiments regularly.",
+    "url": "error-identifier-system.html?mode=single&question=129"
+  },
+  {
+    "id": "error-identification:q130",
+    "type": "error-identification",
+    "ordinal": 130,
+    "label": "單句 · 第 130 題",
+    "detail": "The message can be understand by everyone.",
+    "url": "error-identifier-system.html?mode=single&question=130"
+  },
+  {
+    "id": "error-identification:q131",
+    "type": "error-identification",
+    "ordinal": 131,
+    "label": "單句 · 第 131 題",
+    "detail": "The professors praise her work every week.",
+    "url": "error-identifier-system.html?mode=single&question=131"
+  },
+  {
+    "id": "error-identification:q132",
+    "type": "error-identification",
+    "ordinal": 132,
+    "label": "單句 · 第 132 題",
+    "detail": "Please close the window beside your desk.",
+    "url": "error-identifier-system.html?mode=single&question=132"
+  },
+  {
+    "id": "error-identification:q133",
+    "type": "error-identification",
+    "ordinal": 133,
+    "label": "單句 · 第 133 題",
+    "detail": "We saw a cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=133"
+  },
+  {
+    "id": "error-identification:q134",
+    "type": "error-identification",
+    "ordinal": 134,
+    "label": "單句 · 第 134 題",
+    "detail": "She gave a honest answer.",
+    "url": "error-identifier-system.html?mode=single&question=134"
+  },
+  {
+    "id": "error-identification:q135",
+    "type": "error-identification",
+    "ordinal": 135,
+    "label": "單句 · 第 135 題",
+    "detail": "He graduated from the university last year.",
+    "url": "error-identifier-system.html?mode=single&question=135"
+  },
+  {
+    "id": "error-identification:q136",
+    "type": "error-identification",
+    "ordinal": 136,
+    "label": "單句 · 第 136 題",
+    "detail": "Instead, he chose to walk home.",
+    "url": "error-identifier-system.html?mode=single&question=136"
+  },
+  {
+    "id": "error-identification:q137",
+    "type": "error-identification",
+    "ordinal": 137,
+    "label": "單句 · 第 137 題",
+    "detail": "Each student needs a pencil.",
+    "url": "error-identifier-system.html?mode=single&question=137"
+  },
+  {
+    "id": "error-identification:q138",
+    "type": "error-identification",
+    "ordinal": 138,
+    "label": "單句 · 第 138 題",
+    "detail": "He was offered a place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=138"
+  },
+  {
+    "id": "error-identification:q139",
+    "type": "error-identification",
+    "ordinal": 139,
+    "label": "單句 · 第 139 題",
+    "detail": "He graduated from university last year.",
+    "url": "error-identifier-system.html?mode=single&question=139"
+  },
+  {
+    "id": "error-identification:q140",
+    "type": "error-identification",
+    "ordinal": 140,
+    "label": "單句 · 第 140 題",
+    "detail": "This method is much more better than the old one.",
+    "url": "error-identifier-system.html?mode=single&question=140"
+  },
+  {
+    "id": "error-identification:q141",
+    "type": "error-identification",
+    "ordinal": 141,
+    "label": "單句 · 第 141 題",
+    "detail": "The driver stopped at the entrance we had discussed.",
+    "url": "error-identifier-system.html?mode=single&question=141"
+  },
+  {
+    "id": "error-identification:q142",
+    "type": "error-identification",
+    "ordinal": 142,
+    "label": "單句 · 第 142 題",
+    "detail": "There is a new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=142"
+  },
+  {
+    "id": "error-identification:q143",
+    "type": "error-identification",
+    "ordinal": 143,
+    "label": "單句 · 第 143 題",
+    "detail": "The teacher made us to rewrite the paragraph.",
+    "url": "error-identifier-system.html?mode=single&question=143"
+  },
+  {
+    "id": "error-identification:q144",
+    "type": "error-identification",
+    "ordinal": 144,
+    "label": "單句 · 第 144 題",
+    "detail": "There is new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=144"
+  },
+  {
+    "id": "error-identification:q145",
+    "type": "error-identification",
+    "ordinal": 145,
+    "label": "單句 · 第 145 題",
+    "detail": "The rule contains no grammatical or exceptions.",
+    "url": "error-identifier-system.html?mode=single&question=145"
+  },
+  {
+    "id": "error-identification:q146",
+    "type": "error-identification",
+    "ordinal": 146,
+    "label": "單句 · 第 146 題",
+    "detail": "The children sat on the grass.",
+    "url": "error-identifier-system.html?mode=single&question=146"
+  },
+  {
+    "id": "error-identification:q147",
+    "type": "error-identification",
+    "ordinal": 147,
+    "label": "單句 · 第 147 題",
+    "detail": "This method is much better than the old one.",
+    "url": "error-identifier-system.html?mode=single&question=147"
+  },
+  {
+    "id": "error-identification:q148",
+    "type": "error-identification",
+    "ordinal": 148,
+    "label": "單句 · 第 148 題",
+    "detail": "I usually finished dinner at eight.",
+    "url": "error-identifier-system.html?mode=single&question=148"
+  },
+  {
+    "id": "error-identification:q149",
+    "type": "error-identification",
+    "ordinal": 149,
+    "label": "單句 · 第 149 題",
+    "detail": "All she needs is about a short break.",
+    "url": "error-identifier-system.html?mode=single&question=149"
+  },
+  {
+    "id": "error-identification:q150",
+    "type": "error-identification",
+    "ordinal": 150,
+    "label": "單句 · 第 150 題",
+    "detail": "The teacher collected the tests we completed yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=150"
+  },
+  {
+    "id": "error-identification:q151",
+    "type": "error-identification",
+    "ordinal": 151,
+    "label": "單句 · 第 151 題",
+    "detail": "He has never visited Japan before last year.",
+    "url": "error-identifier-system.html?mode=single&question=151"
+  },
+  {
+    "id": "error-identification:q152",
+    "type": "error-identification",
+    "ordinal": 152,
+    "label": "單句 · 第 152 題",
+    "detail": "She was praised for her brilliance.",
+    "url": "error-identifier-system.html?mode=single&question=152"
+  },
+  {
+    "id": "error-identification:q153",
+    "type": "error-identification",
+    "ordinal": 153,
+    "label": "單句 · 第 153 題",
+    "detail": "She is practising for the concert today.",
+    "url": "error-identifier-system.html?mode=single&question=153"
+  },
+  {
+    "id": "error-identification:q154",
+    "type": "error-identification",
+    "ordinal": 154,
+    "label": "單句 · 第 154 題",
+    "detail": "A visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=154"
+  },
+  {
+    "id": "error-identification:q155",
+    "type": "error-identification",
+    "ordinal": 155,
+    "label": "單句 · 第 155 題",
+    "detail": "We saw a cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=155"
+  },
+  {
+    "id": "error-identification:q156",
+    "type": "error-identification",
+    "ordinal": 156,
+    "label": "單句 · 第 156 題",
+    "detail": "Her perseverance impressed the judges.",
+    "url": "error-identifier-system.html?mode=single&question=156"
+  },
+  {
+    "id": "error-identification:q157",
+    "type": "error-identification",
+    "ordinal": 157,
+    "label": "單句 · 第 157 題",
+    "detail": "I helping you carry those bags.",
+    "url": "error-identifier-system.html?mode=single&question=157"
+  },
+  {
+    "id": "error-identification:q158",
+    "type": "error-identification",
+    "ordinal": 158,
+    "label": "單句 · 第 158 題",
+    "detail": "He went straight to the bed after dinner.",
+    "url": "error-identifier-system.html?mode=single&question=158"
+  },
+  {
+    "id": "error-identification:q159",
+    "type": "error-identification",
+    "ordinal": 159,
+    "label": "單句 · 第 159 題",
+    "detail": "I learnt a lot since joining the club.",
+    "url": "error-identifier-system.html?mode=single&question=159"
+  },
+  {
+    "id": "error-identification:q160",
+    "type": "error-identification",
+    "ordinal": 160,
+    "label": "單句 · 第 160 題",
+    "detail": "She received an honorary award.",
+    "url": "error-identifier-system.html?mode=single&question=160"
+  },
+  {
+    "id": "error-identification:q161",
+    "type": "error-identification",
+    "ordinal": 161,
+    "label": "單句 · 第 161 題",
+    "detail": "We have strengthened our skills through these projects.",
+    "url": "error-identifier-system.html?mode=single&question=161"
+  },
+  {
+    "id": "error-identification:q162",
+    "type": "error-identification",
+    "ordinal": 162,
+    "label": "單句 · 第 162 題",
+    "detail": "A visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=162"
+  },
+  {
+    "id": "error-identification:q163",
+    "type": "error-identification",
+    "ordinal": 163,
+    "label": "單句 · 第 163 題",
+    "detail": "The workers are arriving at noon yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=163"
+  },
+  {
+    "id": "error-identification:q164",
+    "type": "error-identification",
+    "ordinal": 164,
+    "label": "單句 · 第 164 題",
+    "detail": "By last Friday, the team had prepared the report.",
+    "url": "error-identifier-system.html?mode=single&question=164"
+  },
+  {
+    "id": "error-identification:q165",
+    "type": "error-identification",
+    "ordinal": 165,
+    "label": "單句 · 第 165 題",
+    "detail": "He has gone into television recently.",
+    "url": "error-identifier-system.html?mode=single&question=165"
+  },
+  {
+    "id": "error-identification:q166",
+    "type": "error-identification",
+    "ordinal": 166,
+    "label": "單句 · 第 166 題",
+    "detail": "The teacher suggested forming a study group.",
+    "url": "error-identifier-system.html?mode=single&question=166"
+  },
+  {
+    "id": "error-identification:q167",
+    "type": "error-identification",
+    "ordinal": 167,
+    "label": "單句 · 第 167 題",
+    "detail": "She serves on the guests politely.",
+    "url": "error-identifier-system.html?mode=single&question=167"
+  },
+  {
+    "id": "error-identification:q168",
+    "type": "error-identification",
+    "ordinal": 168,
+    "label": "單句 · 第 168 題",
+    "detail": "The staff receive training next week.",
+    "url": "error-identifier-system.html?mode=single&question=168"
+  },
+  {
+    "id": "error-identification:q169",
+    "type": "error-identification",
+    "ordinal": 169,
+    "label": "單句 · 第 169 題",
+    "detail": "I saw a dog, and dog followed me home.",
+    "url": "error-identifier-system.html?mode=single&question=169"
+  },
+  {
+    "id": "error-identification:q170",
+    "type": "error-identification",
+    "ordinal": 170,
+    "label": "單句 · 第 170 題",
+    "detail": "We taking steps to improve safety.",
+    "url": "error-identifier-system.html?mode=single&question=170"
+  },
+  {
+    "id": "error-identification:q171",
+    "type": "error-identification",
+    "ordinal": 171,
+    "label": "單句 · 第 171 題",
+    "detail": "The driver stopped at entrance we had discussed.",
+    "url": "error-identifier-system.html?mode=single&question=171"
+  },
+  {
+    "id": "error-identification:q172",
+    "type": "error-identification",
+    "ordinal": 172,
+    "label": "單句 · 第 172 題",
+    "detail": "Please close the window beside your desk.",
+    "url": "error-identifier-system.html?mode=single&question=172"
+  },
+  {
+    "id": "error-identification:q173",
+    "type": "error-identification",
+    "ordinal": 173,
+    "label": "單句 · 第 173 題",
+    "detail": "A visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=173"
+  },
+  {
+    "id": "error-identification:q174",
+    "type": "error-identification",
+    "ordinal": 174,
+    "label": "單句 · 第 174 題",
+    "detail": "They travelled across the United States.",
+    "url": "error-identifier-system.html?mode=single&question=174"
+  },
+  {
+    "id": "error-identification:q175",
+    "type": "error-identification",
+    "ordinal": 175,
+    "label": "單句 · 第 175 題",
+    "detail": "You are going to release another song?",
+    "url": "error-identifier-system.html?mode=single&question=175"
+  },
+  {
+    "id": "error-identification:q176",
+    "type": "error-identification",
+    "ordinal": 176,
+    "label": "單句 · 第 176 題",
+    "detail": "The professors praise her work every week.",
+    "url": "error-identifier-system.html?mode=single&question=176"
+  },
+  {
+    "id": "error-identification:q177",
+    "type": "error-identification",
+    "ordinal": 177,
+    "label": "單句 · 第 177 題",
+    "detail": "She won two prizes so far.",
+    "url": "error-identifier-system.html?mode=single&question=177"
+  },
+  {
+    "id": "error-identification:q178",
+    "type": "error-identification",
+    "ordinal": 178,
+    "label": "單句 · 第 178 題",
+    "detail": "We send the report tomorrow.",
+    "url": "error-identifier-system.html?mode=single&question=178"
+  },
+  {
+    "id": "error-identification:q179",
+    "type": "error-identification",
+    "ordinal": 179,
+    "label": "單句 · 第 179 題",
+    "detail": "Visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=179"
+  },
+  {
+    "id": "error-identification:q180",
+    "type": "error-identification",
+    "ordinal": 180,
+    "label": "單句 · 第 180 題",
+    "detail": "The rule contains no grammatical exceptions.",
+    "url": "error-identifier-system.html?mode=single&question=180"
+  },
+  {
+    "id": "error-identification:q181",
+    "type": "error-identification",
+    "ordinal": 181,
+    "label": "單句 · 第 181 題",
+    "detail": "We saw cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=181"
+  },
+  {
+    "id": "error-identification:q182",
+    "type": "error-identification",
+    "ordinal": 182,
+    "label": "單句 · 第 182 題",
+    "detail": "He had never visited Japan before last year.",
+    "url": "error-identifier-system.html?mode=single&question=182"
+  },
+  {
+    "id": "error-identification:q183",
+    "type": "error-identification",
+    "ordinal": 183,
+    "label": "單句 · 第 183 題",
+    "detail": "They are preparing the hall right now.",
+    "url": "error-identifier-system.html?mode=single&question=183"
+  },
+  {
+    "id": "error-identification:q184",
+    "type": "error-identification",
+    "ordinal": 184,
+    "label": "單句 · 第 184 題",
+    "detail": "We send the report tomorrow.",
+    "url": "error-identifier-system.html?mode=single&question=184"
+  },
+  {
+    "id": "error-identification:q185",
+    "type": "error-identification",
+    "ordinal": 185,
+    "label": "單句 · 第 185 題",
+    "detail": "The teacher suggested to form a study group.",
+    "url": "error-identifier-system.html?mode=single&question=185"
+  },
+  {
+    "id": "error-identification:q186",
+    "type": "error-identification",
+    "ordinal": 186,
+    "label": "單句 · 第 186 題",
+    "detail": "We saw a cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=186"
+  },
+  {
+    "id": "error-identification:q187",
+    "type": "error-identification",
+    "ordinal": 187,
+    "label": "單句 · 第 187 題",
+    "detail": "She hopes to pursue higher education.",
+    "url": "error-identifier-system.html?mode=single&question=187"
+  },
+  {
+    "id": "error-identification:q188",
+    "type": "error-identification",
+    "ordinal": 188,
+    "label": "單句 · 第 188 題",
+    "detail": "Most importantly, everyone stayed safe.",
+    "url": "error-identifier-system.html?mode=single&question=188"
+  },
+  {
+    "id": "error-identification:q189",
+    "type": "error-identification",
+    "ordinal": 189,
+    "label": "單句 · 第 189 題",
+    "detail": "The committee reviews applications this week.",
+    "url": "error-identifier-system.html?mode=single&question=189"
+  },
+  {
+    "id": "error-identification:q190",
+    "type": "error-identification",
+    "ordinal": 190,
+    "label": "單句 · 第 190 題",
+    "detail": "I usually finish dinner at eight.",
+    "url": "error-identifier-system.html?mode=single&question=190"
+  },
+  {
+    "id": "error-identification:q191",
+    "type": "error-identification",
+    "ordinal": 191,
+    "label": "單句 · 第 191 題",
+    "detail": "The workers arrived at noon.",
+    "url": "error-identifier-system.html?mode=single&question=191"
+  },
+  {
+    "id": "error-identification:q192",
+    "type": "error-identification",
+    "ordinal": 192,
+    "label": "單句 · 第 192 題",
+    "detail": "He made a few mistake in the test.",
+    "url": "error-identifier-system.html?mode=single&question=192"
+  },
+  {
+    "id": "error-identification:q193",
+    "type": "error-identification",
+    "ordinal": 193,
+    "label": "單句 · 第 193 題",
+    "detail": "He was offered a place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=193"
+  },
+  {
+    "id": "error-identification:q194",
+    "type": "error-identification",
+    "ordinal": 194,
+    "label": "單句 · 第 194 題",
+    "detail": "I returned book you lent me.",
+    "url": "error-identifier-system.html?mode=single&question=194"
+  },
+  {
+    "id": "error-identification:q195",
+    "type": "error-identification",
+    "ordinal": 195,
+    "label": "單句 · 第 195 題",
+    "detail": "She bought a notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=195"
+  },
+  {
+    "id": "error-identification:q196",
+    "type": "error-identification",
+    "ordinal": 196,
+    "label": "單句 · 第 196 題",
+    "detail": "He will answer your question shortly.",
+    "url": "error-identifier-system.html?mode=single&question=196"
+  },
+  {
+    "id": "error-identification:q197",
+    "type": "error-identification",
+    "ordinal": 197,
+    "label": "單句 · 第 197 題",
+    "detail": "Each student needs a pencil.",
+    "url": "error-identifier-system.html?mode=single&question=197"
+  },
+  {
+    "id": "error-identification:q198",
+    "type": "error-identification",
+    "ordinal": 198,
+    "label": "單句 · 第 198 題",
+    "detail": "He was offered place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=198"
+  },
+  {
+    "id": "error-identification:q199",
+    "type": "error-identification",
+    "ordinal": 199,
+    "label": "單句 · 第 199 題",
+    "detail": "The players have practised hard before the competition started.",
+    "url": "error-identifier-system.html?mode=single&question=199"
+  },
+  {
+    "id": "error-identification:q200",
+    "type": "error-identification",
+    "ordinal": 200,
+    "label": "單句 · 第 200 題",
+    "detail": "She hopes to pursue a higher education.",
+    "url": "error-identifier-system.html?mode=single&question=200"
+  },
+  {
+    "id": "error-identification:q201",
+    "type": "error-identification",
+    "ordinal": 201,
+    "label": "單句 · 第 201 題",
+    "detail": "While she was reading, the lights went out.",
+    "url": "error-identifier-system.html?mode=single&question=201"
+  },
+  {
+    "id": "error-identification:q202",
+    "type": "error-identification",
+    "ordinal": 202,
+    "label": "單句 · 第 202 題",
+    "detail": "We saw cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=202"
+  },
+  {
+    "id": "error-identification:q203",
+    "type": "error-identification",
+    "ordinal": 203,
+    "label": "單句 · 第 203 題",
+    "detail": "The storm striked the town yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=203"
+  },
+  {
+    "id": "error-identification:q204",
+    "type": "error-identification",
+    "ordinal": 204,
+    "label": "單句 · 第 204 題",
+    "detail": "He applied to a university overseas.",
+    "url": "error-identifier-system.html?mode=single&question=204"
+  },
+  {
+    "id": "error-identification:q205",
+    "type": "error-identification",
+    "ordinal": 205,
+    "label": "單句 · 第 205 題",
+    "detail": "I have learnt a lot since joining the club.",
+    "url": "error-identifier-system.html?mode=single&question=205"
+  },
+  {
+    "id": "error-identification:q206",
+    "type": "error-identification",
+    "ordinal": 206,
+    "label": "單句 · 第 206 題",
+    "detail": "The workers arrived at noon.",
+    "url": "error-identifier-system.html?mode=single&question=206"
+  },
+  {
+    "id": "error-identification:q207",
+    "type": "error-identification",
+    "ordinal": 207,
+    "label": "單句 · 第 207 題",
+    "detail": "The bottles are inexpensive.",
+    "url": "error-identifier-system.html?mode=single&question=207"
+  },
+  {
+    "id": "error-identification:q208",
+    "type": "error-identification",
+    "ordinal": 208,
+    "label": "單句 · 第 208 題",
+    "detail": "Please close the window beside your desk.",
+    "url": "error-identifier-system.html?mode=single&question=208"
+  },
+  {
+    "id": "error-identification:q209",
+    "type": "error-identification",
+    "ordinal": 209,
+    "label": "單句 · 第 209 題",
+    "detail": "She gave an honest answer.",
+    "url": "error-identifier-system.html?mode=single&question=209"
+  },
+  {
+    "id": "error-identification:q210",
+    "type": "error-identification",
+    "ordinal": 210,
+    "label": "單句 · 第 210 題",
+    "detail": "The professors praises her work every week.",
+    "url": "error-identifier-system.html?mode=single&question=210"
+  },
+  {
+    "id": "error-identification:q211",
+    "type": "error-identification",
+    "ordinal": 211,
+    "label": "單句 · 第 211 題",
+    "detail": "He was offered place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=211"
+  },
+  {
+    "id": "error-identification:q212",
+    "type": "error-identification",
+    "ordinal": 212,
+    "label": "單句 · 第 212 題",
+    "detail": "We are interested for joining the club.",
+    "url": "error-identifier-system.html?mode=single&question=212"
+  },
+  {
+    "id": "error-identification:q213",
+    "type": "error-identification",
+    "ordinal": 213,
+    "label": "單句 · 第 213 題",
+    "detail": "She serves the guests politely.",
+    "url": "error-identifier-system.html?mode=single&question=213"
+  },
+  {
+    "id": "error-identification:q214",
+    "type": "error-identification",
+    "ordinal": 214,
+    "label": "單句 · 第 214 題",
+    "detail": "We share about our ideas with our classmates.",
+    "url": "error-identifier-system.html?mode=single&question=214"
+  },
+  {
+    "id": "error-identification:q215",
+    "type": "error-identification",
+    "ordinal": 215,
+    "label": "單句 · 第 215 題",
+    "detail": "She bought notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=215"
+  },
+  {
+    "id": "error-identification:q216",
+    "type": "error-identification",
+    "ordinal": 216,
+    "label": "單句 · 第 216 題",
+    "detail": "We value his trustworthy.",
+    "url": "error-identifier-system.html?mode=single&question=216"
+  },
+  {
+    "id": "error-identification:q217",
+    "type": "error-identification",
+    "ordinal": 217,
+    "label": "單句 · 第 217 題",
+    "detail": "We strengthened our skills through these projects so far.",
+    "url": "error-identifier-system.html?mode=single&question=217"
+  },
+  {
+    "id": "error-identification:q218",
+    "type": "error-identification",
+    "ordinal": 218,
+    "label": "單句 · 第 218 題",
+    "detail": "My uncle works in the UK.",
+    "url": "error-identifier-system.html?mode=single&question=218"
+  },
+  {
+    "id": "error-identification:q219",
+    "type": "error-identification",
+    "ordinal": 219,
+    "label": "單句 · 第 219 題",
+    "detail": "The storm struck the town yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=219"
+  },
+  {
+    "id": "error-identification:q220",
+    "type": "error-identification",
+    "ordinal": 220,
+    "label": "單句 · 第 220 題",
+    "detail": "There is a new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=220"
+  },
+  {
+    "id": "error-identification:q221",
+    "type": "error-identification",
+    "ordinal": 221,
+    "label": "單句 · 第 221 題",
+    "detail": "The professors praises her work every week.",
+    "url": "error-identifier-system.html?mode=single&question=221"
+  },
+  {
+    "id": "error-identification:q222",
+    "type": "error-identification",
+    "ordinal": 222,
+    "label": "單句 · 第 222 題",
+    "detail": "The leaves rustled in the wind.",
+    "url": "error-identifier-system.html?mode=single&question=222"
+  },
+  {
+    "id": "error-identification:q223",
+    "type": "error-identification",
+    "ordinal": 223,
+    "label": "單句 · 第 223 題",
+    "detail": "She bought notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=223"
+  },
+  {
+    "id": "error-identification:q224",
+    "type": "error-identification",
+    "ordinal": 224,
+    "label": "單句 · 第 224 題",
+    "detail": "She practises for the concert today.",
+    "url": "error-identifier-system.html?mode=single&question=224"
+  },
+  {
+    "id": "error-identification:q225",
+    "type": "error-identification",
+    "ordinal": 225,
+    "label": "單句 · 第 225 題",
+    "detail": "The teacher allowed us use a dictionary.",
+    "url": "error-identifier-system.html?mode=single&question=225"
+  },
+  {
+    "id": "error-identification:q226",
+    "type": "error-identification",
+    "ordinal": 226,
+    "label": "單句 · 第 226 題",
+    "detail": "The teacher collected the tests we completed yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=226"
+  },
+  {
+    "id": "error-identification:q227",
+    "type": "error-identification",
+    "ordinal": 227,
+    "label": "單句 · 第 227 題",
+    "detail": "We saw a cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=227"
+  },
+  {
+    "id": "error-identification:q228",
+    "type": "error-identification",
+    "ordinal": 228,
+    "label": "單句 · 第 228 題",
+    "detail": "This role helped me become more confident.",
+    "url": "error-identifier-system.html?mode=single&question=228"
+  },
+  {
+    "id": "error-identification:q229",
+    "type": "error-identification",
+    "ordinal": 229,
+    "label": "單句 · 第 229 題",
+    "detail": "Neither the coach nor the players is ready.",
+    "url": "error-identifier-system.html?mode=single&question=229"
+  },
+  {
+    "id": "error-identification:q230",
+    "type": "error-identification",
+    "ordinal": 230,
+    "label": "單句 · 第 230 題",
+    "detail": "Neither the coach nor the players are ready.",
+    "url": "error-identifier-system.html?mode=single&question=230"
+  },
+  {
+    "id": "error-identification:q231",
+    "type": "error-identification",
+    "ordinal": 231,
+    "label": "單句 · 第 231 題",
+    "detail": "He goes into television recently.",
+    "url": "error-identifier-system.html?mode=single&question=231"
+  },
+  {
+    "id": "error-identification:q232",
+    "type": "error-identification",
+    "ordinal": 232,
+    "label": "單句 · 第 232 題",
+    "detail": "She can read, write and speak French.",
+    "url": "error-identifier-system.html?mode=single&question=232"
+  },
+  {
+    "id": "error-identification:q233",
+    "type": "error-identification",
+    "ordinal": 233,
+    "label": "單句 · 第 233 題",
+    "detail": "They have recently improved the system.",
+    "url": "error-identifier-system.html?mode=single&question=233"
+  },
+  {
+    "id": "error-identification:q234",
+    "type": "error-identification",
+    "ordinal": 234,
+    "label": "單句 · 第 234 題",
+    "detail": "Instead of, he chose to walk home.",
+    "url": "error-identifier-system.html?mode=single&question=234"
+  },
+  {
+    "id": "error-identification:q235",
+    "type": "error-identification",
+    "ordinal": 235,
+    "label": "單句 · 第 235 題",
+    "detail": "I finished the task an hour ago.",
+    "url": "error-identifier-system.html?mode=single&question=235"
+  },
+  {
+    "id": "error-identification:q236",
+    "type": "error-identification",
+    "ordinal": 236,
+    "label": "單句 · 第 236 題",
+    "detail": "I returned book you lent me.",
+    "url": "error-identifier-system.html?mode=single&question=236"
+  },
+  {
+    "id": "error-identification:q237",
+    "type": "error-identification",
+    "ordinal": 237,
+    "label": "單句 · 第 237 題",
+    "detail": "I have been sitting here for two hours.",
+    "url": "error-identifier-system.html?mode=single&question=237"
+  },
+  {
+    "id": "error-identification:q238",
+    "type": "error-identification",
+    "ordinal": 238,
+    "label": "單句 · 第 238 題",
+    "detail": "The professors praises her work every week.",
+    "url": "error-identifier-system.html?mode=single&question=238"
+  },
+  {
+    "id": "error-identification:q239",
+    "type": "error-identification",
+    "ordinal": 239,
+    "label": "單句 · 第 239 題",
+    "detail": "At 4 p.m. yesterday, I was preparing dinner.",
+    "url": "error-identifier-system.html?mode=single&question=239"
+  },
+  {
+    "id": "error-identification:q240",
+    "type": "error-identification",
+    "ordinal": 240,
+    "label": "單句 · 第 240 題",
+    "detail": "Are you going to release another song?",
+    "url": "error-identifier-system.html?mode=single&question=240"
+  },
+  {
+    "id": "error-identification:q241",
+    "type": "error-identification",
+    "ordinal": 241,
+    "label": "單句 · 第 241 題",
+    "detail": "He made a important discovery.",
+    "url": "error-identifier-system.html?mode=single&question=241"
+  },
+  {
+    "id": "error-identification:q242",
+    "type": "error-identification",
+    "ordinal": 242,
+    "label": "單句 · 第 242 題",
+    "detail": "My uncle works in UK.",
+    "url": "error-identifier-system.html?mode=single&question=242"
+  },
+  {
+    "id": "error-identification:q243",
+    "type": "error-identification",
+    "ordinal": 243,
+    "label": "單句 · 第 243 題",
+    "detail": "She was praised for her brilliance.",
+    "url": "error-identifier-system.html?mode=single&question=243"
+  },
+  {
+    "id": "error-identification:q244",
+    "type": "error-identification",
+    "ordinal": 244,
+    "label": "單句 · 第 244 題",
+    "detail": "The bottles are inexpensive.",
+    "url": "error-identifier-system.html?mode=single&question=244"
+  },
+  {
+    "id": "error-identification:q245",
+    "type": "error-identification",
+    "ordinal": 245,
+    "label": "單句 · 第 245 題",
+    "detail": "He applied to an university overseas.",
+    "url": "error-identifier-system.html?mode=single&question=245"
+  },
+  {
+    "id": "error-identification:q246",
+    "type": "error-identification",
+    "ordinal": 246,
+    "label": "單句 · 第 246 題",
+    "detail": "Our team conducts experiments regularly.",
+    "url": "error-identifier-system.html?mode=single&question=246"
+  },
+  {
+    "id": "error-identification:q247",
+    "type": "error-identification",
+    "ordinal": 247,
+    "label": "單句 · 第 247 題",
+    "detail": "She was praised for her brilliant.",
+    "url": "error-identifier-system.html?mode=single&question=247"
+  },
+  {
+    "id": "error-identification:q248",
+    "type": "error-identification",
+    "ordinal": 248,
+    "label": "單句 · 第 248 題",
+    "detail": "He was offered place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=248"
+  },
+  {
+    "id": "error-identification:q249",
+    "type": "error-identification",
+    "ordinal": 249,
+    "label": "單句 · 第 249 題",
+    "detail": "We saw a cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=249"
+  },
+  {
+    "id": "error-identification:q250",
+    "type": "error-identification",
+    "ordinal": 250,
+    "label": "單句 · 第 250 題",
+    "detail": "She bought a notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=250"
+  },
+  {
+    "id": "error-identification:q251",
+    "type": "error-identification",
+    "ordinal": 251,
+    "label": "單句 · 第 251 題",
+    "detail": "This routine does not leave much free time.",
+    "url": "error-identifier-system.html?mode=single&question=251"
+  },
+  {
+    "id": "error-identification:q252",
+    "type": "error-identification",
+    "ordinal": 252,
+    "label": "單句 · 第 252 題",
+    "detail": "The committee is reviewing applications this week.",
+    "url": "error-identifier-system.html?mode=single&question=252"
+  },
+  {
+    "id": "error-identification:q253",
+    "type": "error-identification",
+    "ordinal": 253,
+    "label": "單句 · 第 253 題",
+    "detail": "We are going to organise the fair next month.",
+    "url": "error-identifier-system.html?mode=single&question=253"
+  },
+  {
+    "id": "error-identification:q254",
+    "type": "error-identification",
+    "ordinal": 254,
+    "label": "單句 · 第 254 題",
+    "detail": "Each student need a pencil.",
+    "url": "error-identifier-system.html?mode=single&question=254"
+  },
+  {
+    "id": "error-identification:q255",
+    "type": "error-identification",
+    "ordinal": 255,
+    "label": "單句 · 第 255 題",
+    "detail": "They preparing the hall right now.",
+    "url": "error-identifier-system.html?mode=single&question=255"
+  },
+  {
+    "id": "error-identification:q256",
+    "type": "error-identification",
+    "ordinal": 256,
+    "label": "單句 · 第 256 題",
+    "detail": "The officer remained diligent throughout the task.",
+    "url": "error-identifier-system.html?mode=single&question=256"
+  },
+  {
+    "id": "error-identification:q257",
+    "type": "error-identification",
+    "ordinal": 257,
+    "label": "單句 · 第 257 題",
+    "detail": "Most important, everyone stayed safe.",
+    "url": "error-identifier-system.html?mode=single&question=257"
+  },
+  {
+    "id": "error-identification:q258",
+    "type": "error-identification",
+    "ordinal": 258,
+    "label": "單句 · 第 258 題",
+    "detail": "He was offered a place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=258"
+  },
+  {
+    "id": "error-identification:q259",
+    "type": "error-identification",
+    "ordinal": 259,
+    "label": "單句 · 第 259 題",
+    "detail": "The school has appointed her captain last year.",
+    "url": "error-identifier-system.html?mode=single&question=259"
+  },
+  {
+    "id": "error-identification:q260",
+    "type": "error-identification",
+    "ordinal": 260,
+    "label": "單句 · 第 260 題",
+    "detail": "I saw a dog, and dog followed me home.",
+    "url": "error-identifier-system.html?mode=single&question=260"
+  },
+  {
+    "id": "error-identification:q261",
+    "type": "error-identification",
+    "ordinal": 261,
+    "label": "單句 · 第 261 題",
+    "detail": "She had finished her homework before dinner began.",
+    "url": "error-identifier-system.html?mode=single&question=261"
+  },
+  {
+    "id": "error-identification:q262",
+    "type": "error-identification",
+    "ordinal": 262,
+    "label": "單句 · 第 262 題",
+    "detail": "She bought notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=262"
+  },
+  {
+    "id": "error-identification:q263",
+    "type": "error-identification",
+    "ordinal": 263,
+    "label": "單句 · 第 263 題",
+    "detail": "I checking the details at the moment.",
+    "url": "error-identifier-system.html?mode=single&question=263"
+  },
+  {
+    "id": "error-identification:q264",
+    "type": "error-identification",
+    "ordinal": 264,
+    "label": "單句 · 第 264 題",
+    "detail": "They wanted no material comforts, only peace.",
+    "url": "error-identifier-system.html?mode=single&question=264"
+  },
+  {
+    "id": "error-identification:q265",
+    "type": "error-identification",
+    "ordinal": 265,
+    "label": "單句 · 第 265 題",
+    "detail": "By the time we arrived, the film has started.",
+    "url": "error-identifier-system.html?mode=single&question=265"
+  },
+  {
+    "id": "error-identification:q266",
+    "type": "error-identification",
+    "ordinal": 266,
+    "label": "單句 · 第 266 題",
+    "detail": "She received a honorary award.",
+    "url": "error-identifier-system.html?mode=single&question=266"
+  },
+  {
+    "id": "error-identification:q267",
+    "type": "error-identification",
+    "ordinal": 267,
+    "label": "單句 · 第 267 題",
+    "detail": "I look forward to meeting you.",
+    "url": "error-identifier-system.html?mode=single&question=267"
+  },
+  {
+    "id": "error-identification:q268",
+    "type": "error-identification",
+    "ordinal": 268,
+    "label": "單句 · 第 268 題",
+    "detail": "This method produce excellent results.",
+    "url": "error-identifier-system.html?mode=single&question=268"
+  },
+  {
+    "id": "error-identification:q269",
+    "type": "error-identification",
+    "ordinal": 269,
+    "label": "單句 · 第 269 題",
+    "detail": "The professors praise her work every week.",
+    "url": "error-identifier-system.html?mode=single&question=269"
+  },
+  {
+    "id": "error-identification:q270",
+    "type": "error-identification",
+    "ordinal": 270,
+    "label": "單句 · 第 270 題",
+    "detail": "She has been practising lately.",
+    "url": "error-identifier-system.html?mode=single&question=270"
+  },
+  {
+    "id": "error-identification:q271",
+    "type": "error-identification",
+    "ordinal": 271,
+    "label": "單句 · 第 271 題",
+    "detail": "She studies the law at university.",
+    "url": "error-identifier-system.html?mode=single&question=271"
+  },
+  {
+    "id": "error-identification:q272",
+    "type": "error-identification",
+    "ordinal": 272,
+    "label": "單句 · 第 272 題",
+    "detail": "The message can be understood by everyone.",
+    "url": "error-identifier-system.html?mode=single&question=272"
+  },
+  {
+    "id": "error-identification:q273",
+    "type": "error-identification",
+    "ordinal": 273,
+    "label": "單句 · 第 273 題",
+    "detail": "There is a new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=273"
+  },
+  {
+    "id": "error-identification:q274",
+    "type": "error-identification",
+    "ordinal": 274,
+    "label": "單句 · 第 274 題",
+    "detail": "We value his trustworthiness.",
+    "url": "error-identifier-system.html?mode=single&question=274"
+  },
+  {
+    "id": "error-identification:q275",
+    "type": "error-identification",
+    "ordinal": 275,
+    "label": "單句 · 第 275 題",
+    "detail": "We waited for a MTR train.",
+    "url": "error-identifier-system.html?mode=single&question=275"
+  },
+  {
+    "id": "error-identification:q276",
+    "type": "error-identification",
+    "ordinal": 276,
+    "label": "單句 · 第 276 題",
+    "detail": "The bottles is inexpensive.",
+    "url": "error-identifier-system.html?mode=single&question=276"
+  },
+  {
+    "id": "error-identification:q277",
+    "type": "error-identification",
+    "ordinal": 277,
+    "label": "單句 · 第 277 題",
+    "detail": "There is new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=277"
+  },
+  {
+    "id": "error-identification:q278",
+    "type": "error-identification",
+    "ordinal": 278,
+    "label": "單句 · 第 278 題",
+    "detail": "The committee is reviewing applications this week.",
+    "url": "error-identifier-system.html?mode=single&question=278"
+  },
+  {
+    "id": "error-identification:q279",
+    "type": "error-identification",
+    "ordinal": 279,
+    "label": "單句 · 第 279 題",
+    "detail": "I returned the book you lent me.",
+    "url": "error-identifier-system.html?mode=single&question=279"
+  },
+  {
+    "id": "error-identification:q280",
+    "type": "error-identification",
+    "ordinal": 280,
+    "label": "單句 · 第 280 題",
+    "detail": "She has won two prizes so far.",
+    "url": "error-identifier-system.html?mode=single&question=280"
+  },
+  {
+    "id": "error-identification:q281",
+    "type": "error-identification",
+    "ordinal": 281,
+    "label": "單句 · 第 281 題",
+    "detail": "The teacher made us rewrite the paragraph.",
+    "url": "error-identifier-system.html?mode=single&question=281"
+  },
+  {
+    "id": "error-identification:q282",
+    "type": "error-identification",
+    "ordinal": 282,
+    "label": "單句 · 第 282 題",
+    "detail": "The officer remained diligent throughout the task.",
+    "url": "error-identifier-system.html?mode=single&question=282"
+  },
+  {
+    "id": "error-identification:q283",
+    "type": "error-identification",
+    "ordinal": 283,
+    "label": "單句 · 第 283 題",
+    "detail": "We going to organise the fair next month.",
+    "url": "error-identifier-system.html?mode=single&question=283"
+  },
+  {
+    "id": "error-identification:q284",
+    "type": "error-identification",
+    "ordinal": 284,
+    "label": "單句 · 第 284 題",
+    "detail": "I returned the book you lent me.",
+    "url": "error-identifier-system.html?mode=single&question=284"
+  },
+  {
+    "id": "error-identification:q285",
+    "type": "error-identification",
+    "ordinal": 285,
+    "label": "單句 · 第 285 題",
+    "detail": "She bought a notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=285"
+  },
+  {
+    "id": "error-identification:q286",
+    "type": "error-identification",
+    "ordinal": 286,
+    "label": "單句 · 第 286 題",
+    "detail": "The children stayed in bed because they were ill.",
+    "url": "error-identifier-system.html?mode=single&question=286"
+  },
+  {
+    "id": "error-identification:q287",
+    "type": "error-identification",
+    "ordinal": 287,
+    "label": "單句 · 第 287 題",
+    "detail": "Please close window beside your desk.",
+    "url": "error-identifier-system.html?mode=single&question=287"
+  },
+  {
+    "id": "error-identification:q288",
+    "type": "error-identification",
+    "ordinal": 288,
+    "label": "單句 · 第 288 題",
+    "detail": "The school appointed her captain last year.",
+    "url": "error-identifier-system.html?mode=single&question=288"
+  },
+  {
+    "id": "error-identification:q289",
+    "type": "error-identification",
+    "ordinal": 289,
+    "label": "單句 · 第 289 題",
+    "detail": "We saw cyclist near the library.",
+    "url": "error-identifier-system.html?mode=single&question=289"
+  },
+  {
+    "id": "error-identification:q290",
+    "type": "error-identification",
+    "ordinal": 290,
+    "label": "單句 · 第 290 題",
+    "detail": "There is new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=290"
+  },
+  {
+    "id": "error-identification:q291",
+    "type": "error-identification",
+    "ordinal": 291,
+    "label": "單句 · 第 291 題",
+    "detail": "By the time we arrived, the film had started.",
+    "url": "error-identifier-system.html?mode=single&question=291"
+  },
+  {
+    "id": "error-identification:q292",
+    "type": "error-identification",
+    "ordinal": 292,
+    "label": "單句 · 第 292 題",
+    "detail": "They publish the results later this term.",
+    "url": "error-identifier-system.html?mode=single&question=292"
+  },
+  {
+    "id": "error-identification:q293",
+    "type": "error-identification",
+    "ordinal": 293,
+    "label": "單句 · 第 293 題",
+    "detail": "This routine did not leave much free time these days.",
+    "url": "error-identifier-system.html?mode=single&question=293"
+  },
+  {
+    "id": "error-identification:q294",
+    "type": "error-identification",
+    "ordinal": 294,
+    "label": "單句 · 第 294 題",
+    "detail": "We taking steps to improve safety.",
+    "url": "error-identifier-system.html?mode=single&question=294"
+  },
+  {
+    "id": "error-identification:q295",
+    "type": "error-identification",
+    "ordinal": 295,
+    "label": "單句 · 第 295 題",
+    "detail": "They are preparing the hall right now.",
+    "url": "error-identifier-system.html?mode=single&question=295"
+  },
+  {
+    "id": "error-identification:q296",
+    "type": "error-identification",
+    "ordinal": 296,
+    "label": "單句 · 第 296 題",
+    "detail": "They preparing the hall right now.",
+    "url": "error-identifier-system.html?mode=single&question=296"
+  },
+  {
+    "id": "error-identification:q297",
+    "type": "error-identification",
+    "ordinal": 297,
+    "label": "單句 · 第 297 題",
+    "detail": "I saw a dog, and the dog followed me home.",
+    "url": "error-identifier-system.html?mode=single&question=297"
+  },
+  {
+    "id": "error-identification:q298",
+    "type": "error-identification",
+    "ordinal": 298,
+    "label": "單句 · 第 298 題",
+    "detail": "Visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=298"
+  },
+  {
+    "id": "error-identification:q299",
+    "type": "error-identification",
+    "ordinal": 299,
+    "label": "單句 · 第 299 題",
+    "detail": "They recently improve the system.",
+    "url": "error-identifier-system.html?mode=single&question=299"
+  },
+  {
+    "id": "error-identification:q300",
+    "type": "error-identification",
+    "ordinal": 300,
+    "label": "單句 · 第 300 題",
+    "detail": "A visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=300"
+  },
+  {
+    "id": "error-identification:q301",
+    "type": "error-identification",
+    "ordinal": 301,
+    "label": "單句 · 第 301 題",
+    "detail": "The children sat in the grass lawn.",
+    "url": "error-identifier-system.html?mode=single&question=301"
+  },
+  {
+    "id": "error-identification:q302",
+    "type": "error-identification",
+    "ordinal": 302,
+    "label": "單句 · 第 302 題",
+    "detail": "He was offered a place on the school team.",
+    "url": "error-identifier-system.html?mode=single&question=302"
+  },
+  {
+    "id": "error-identification:q303",
+    "type": "error-identification",
+    "ordinal": 303,
+    "label": "單句 · 第 303 題",
+    "detail": "She is practising lately since Monday.",
+    "url": "error-identifier-system.html?mode=single&question=303"
+  },
+  {
+    "id": "error-identification:q304",
+    "type": "error-identification",
+    "ordinal": 304,
+    "label": "單句 · 第 304 題",
+    "detail": "The school has appointed her captain last year.",
+    "url": "error-identifier-system.html?mode=single&question=304"
+  },
+  {
+    "id": "error-identification:q305",
+    "type": "error-identification",
+    "ordinal": 305,
+    "label": "單句 · 第 305 題",
+    "detail": "She studies law at university.",
+    "url": "error-identifier-system.html?mode=single&question=305"
+  },
+  {
+    "id": "error-identification:q306",
+    "type": "error-identification",
+    "ordinal": 306,
+    "label": "單句 · 第 306 題",
+    "detail": "Visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=306"
+  },
+  {
+    "id": "error-identification:q307",
+    "type": "error-identification",
+    "ordinal": 307,
+    "label": "單句 · 第 307 題",
+    "detail": "We will send the report tomorrow.",
+    "url": "error-identifier-system.html?mode=single&question=307"
+  },
+  {
+    "id": "error-identification:q308",
+    "type": "error-identification",
+    "ordinal": 308,
+    "label": "單句 · 第 308 題",
+    "detail": "Visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=308"
+  },
+  {
+    "id": "error-identification:q309",
+    "type": "error-identification",
+    "ordinal": 309,
+    "label": "單句 · 第 309 題",
+    "detail": "They preparing the hall right now.",
+    "url": "error-identifier-system.html?mode=single&question=309"
+  },
+  {
+    "id": "error-identification:q310",
+    "type": "error-identification",
+    "ordinal": 310,
+    "label": "單句 · 第 310 題",
+    "detail": "By December, we will have completed the project.",
+    "url": "error-identifier-system.html?mode=single&question=310"
+  },
+  {
+    "id": "error-identification:q311",
+    "type": "error-identification",
+    "ordinal": 311,
+    "label": "單句 · 第 311 題",
+    "detail": "The officer remained diligence throughout the task.",
+    "url": "error-identifier-system.html?mode=single&question=311"
+  },
+  {
+    "id": "error-identification:q312",
+    "type": "error-identification",
+    "ordinal": 312,
+    "label": "單句 · 第 312 題",
+    "detail": "If we revised together, we would understand more.",
+    "url": "error-identifier-system.html?mode=single&question=312"
+  },
+  {
+    "id": "error-identification:q313",
+    "type": "error-identification",
+    "ordinal": 313,
+    "label": "單句 · 第 313 題",
+    "detail": "He made a few mistakes in the test.",
+    "url": "error-identifier-system.html?mode=single&question=313"
+  },
+  {
+    "id": "error-identification:q314",
+    "type": "error-identification",
+    "ordinal": 314,
+    "label": "單句 · 第 314 題",
+    "detail": "She going to open a new shop.",
+    "url": "error-identifier-system.html?mode=single&question=314"
+  },
+  {
+    "id": "error-identification:q315",
+    "type": "error-identification",
+    "ordinal": 315,
+    "label": "單句 · 第 315 題",
+    "detail": "He made an important discovery.",
+    "url": "error-identifier-system.html?mode=single&question=315"
+  },
+  {
+    "id": "error-identification:q316",
+    "type": "error-identification",
+    "ordinal": 316,
+    "label": "單句 · 第 316 題",
+    "detail": "I finished the task an hour ago.",
+    "url": "error-identifier-system.html?mode=single&question=316"
+  },
+  {
+    "id": "error-identification:q317",
+    "type": "error-identification",
+    "ordinal": 317,
+    "label": "單句 · 第 317 題",
+    "detail": "The forecast says it going to rain tonight.",
+    "url": "error-identifier-system.html?mode=single&question=317"
+  },
+  {
+    "id": "error-identification:q318",
+    "type": "error-identification",
+    "ordinal": 318,
+    "label": "單句 · 第 318 題",
+    "detail": "This role helps me become more confident during last year.",
+    "url": "error-identifier-system.html?mode=single&question=318"
+  },
+  {
+    "id": "error-identification:q319",
+    "type": "error-identification",
+    "ordinal": 319,
+    "label": "單句 · 第 319 題",
+    "detail": "I am checking the details at the moment.",
+    "url": "error-identifier-system.html?mode=single&question=319"
+  },
+  {
+    "id": "error-identification:q320",
+    "type": "error-identification",
+    "ordinal": 320,
+    "label": "單句 · 第 320 題",
+    "detail": "The storm striked the town yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=320"
+  },
+  {
+    "id": "error-identification:q321",
+    "type": "error-identification",
+    "ordinal": 321,
+    "label": "單句 · 第 321 題",
+    "detail": "All she needs is a short break.",
+    "url": "error-identifier-system.html?mode=single&question=321"
+  },
+  {
+    "id": "error-identification:q322",
+    "type": "error-identification",
+    "ordinal": 322,
+    "label": "單句 · 第 322 題",
+    "detail": "I have finished the task an hour ago.",
+    "url": "error-identifier-system.html?mode=single&question=322"
+  },
+  {
+    "id": "error-identification:q323",
+    "type": "error-identification",
+    "ordinal": 323,
+    "label": "單句 · 第 323 題",
+    "detail": "The driver stopped at entrance we had discussed.",
+    "url": "error-identifier-system.html?mode=single&question=323"
+  },
+  {
+    "id": "error-identification:q324",
+    "type": "error-identification",
+    "ordinal": 324,
+    "label": "單句 · 第 324 題",
+    "detail": "I have finished the task an hour ago.",
+    "url": "error-identifier-system.html?mode=single&question=324"
+  },
+  {
+    "id": "error-identification:q325",
+    "type": "error-identification",
+    "ordinal": 325,
+    "label": "單句 · 第 325 題",
+    "detail": "There is new café beside the station.",
+    "url": "error-identifier-system.html?mode=single&question=325"
+  },
+  {
+    "id": "error-identification:q326",
+    "type": "error-identification",
+    "ordinal": 326,
+    "label": "單句 · 第 326 題",
+    "detail": "The committee reviews applications this week.",
+    "url": "error-identifier-system.html?mode=single&question=326"
+  },
+  {
+    "id": "error-identification:q327",
+    "type": "error-identification",
+    "ordinal": 327,
+    "label": "單句 · 第 327 題",
+    "detail": "If we will revise together, we would understand more.",
+    "url": "error-identifier-system.html?mode=single&question=327"
+  },
+  {
+    "id": "error-identification:q328",
+    "type": "error-identification",
+    "ordinal": 328,
+    "label": "單句 · 第 328 題",
+    "detail": "The driver stopped at the entrance we had discussed.",
+    "url": "error-identifier-system.html?mode=single&question=328"
+  },
+  {
+    "id": "error-identification:q329",
+    "type": "error-identification",
+    "ordinal": 329,
+    "label": "單句 · 第 329 題",
+    "detail": "The teacher collected test we completed yesterday.",
+    "url": "error-identifier-system.html?mode=single&question=329"
+  },
+  {
+    "id": "error-identification:q330",
+    "type": "error-identification",
+    "ordinal": 330,
+    "label": "單句 · 第 330 題",
+    "detail": "By last Friday, the team has prepared the report.",
+    "url": "error-identifier-system.html?mode=single&question=330"
+  },
+  {
+    "id": "error-identification:q331",
+    "type": "error-identification",
+    "ordinal": 331,
+    "label": "單句 · 第 331 題",
+    "detail": "We are taking steps to improve safety.",
+    "url": "error-identifier-system.html?mode=single&question=331"
+  },
+  {
+    "id": "error-identification:q332",
+    "type": "error-identification",
+    "ordinal": 332,
+    "label": "單句 · 第 332 題",
+    "detail": "The leaves rustled on the wind.",
+    "url": "error-identifier-system.html?mode=single&question=332"
+  },
+  {
+    "id": "error-identification:q333",
+    "type": "error-identification",
+    "ordinal": 333,
+    "label": "單句 · 第 333 題",
+    "detail": "We waited for an MTR train.",
+    "url": "error-identifier-system.html?mode=single&question=333"
+  },
+  {
+    "id": "error-identification:q334",
+    "type": "error-identification",
+    "ordinal": 334,
+    "label": "單句 · 第 334 題",
+    "detail": "A visitor asked for a map at reception.",
+    "url": "error-identifier-system.html?mode=single&question=334"
+  },
+  {
+    "id": "error-identification:q335",
+    "type": "error-identification",
+    "ordinal": 335,
+    "label": "單句 · 第 335 題",
+    "detail": "The staff will receive training next week.",
+    "url": "error-identifier-system.html?mode=single&question=335"
+  },
+  {
+    "id": "error-identification:q336",
+    "type": "error-identification",
+    "ordinal": 336,
+    "label": "單句 · 第 336 題",
+    "detail": "They are preparing the hall right now.",
+    "url": "error-identifier-system.html?mode=single&question=336"
+  },
+  {
+    "id": "error-identification:q337",
+    "type": "error-identification",
+    "ordinal": 337,
+    "label": "單句 · 第 337 題",
+    "detail": "We will send the report tomorrow.",
+    "url": "error-identifier-system.html?mode=single&question=337"
+  },
+  {
+    "id": "error-identification:q338",
+    "type": "error-identification",
+    "ordinal": 338,
+    "label": "單句 · 第 338 題",
+    "detail": "The forecast says it is going to rain tonight.",
+    "url": "error-identifier-system.html?mode=single&question=338"
+  },
+  {
+    "id": "error-identification:q339",
+    "type": "error-identification",
+    "ordinal": 339,
+    "label": "單句 · 第 339 題",
+    "detail": "I saw a dog, and dog followed me home.",
+    "url": "error-identifier-system.html?mode=single&question=339"
+  },
+  {
+    "id": "error-identification:q340",
+    "type": "error-identification",
+    "ordinal": 340,
+    "label": "單句 · 第 340 題",
+    "detail": "The children stayed in bed because they were ill.",
+    "url": "error-identifier-system.html?mode=single&question=340"
+  },
+  {
+    "id": "error-identification:q341",
+    "type": "error-identification",
+    "ordinal": 341,
+    "label": "單句 · 第 341 題",
+    "detail": "She bought a notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=341"
+  },
+  {
+    "id": "error-identification:q342",
+    "type": "error-identification",
+    "ordinal": 342,
+    "label": "單句 · 第 342 題",
+    "detail": "She bought a notebook for the new term.",
+    "url": "error-identifier-system.html?mode=single&question=342"
+  },
+  {
+    "id": "error-identification:q343",
+    "type": "error-identification",
+    "ordinal": 343,
+    "label": "單句 · 第 343 題",
+    "detail": "The officer remained diligence throughout the task.",
+    "url": "error-identifier-system.html?mode=single&question=343"
+  },
+  {
+    "id": "error-identification:q344",
+    "type": "error-identification",
+    "ordinal": 344,
+    "label": "單句 · 第 344 題",
+    "detail": "By next June, she will finish the course already.",
+    "url": "error-identifier-system.html?mode=single&question=344"
+  },
+  {
+    "id": "error-identification:single",
+    "type": "error-identification",
+    "ordinal": 0,
+    "label": "單句模式 · 全部練習",
+    "detail": "Error Identification · 344 題",
+    "url": "error-identifier-system.html?mode=single"
+  },
+  {
+    "id": "error-identification:passage-1",
+    "type": "error-identification",
+    "ordinal": 1,
+    "label": "文章 1 · The School Innovation Showcase",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=1"
+  },
+  {
+    "id": "error-identification:passage-2",
+    "type": "error-identification",
+    "ordinal": 2,
+    "label": "文章 2 · The Community Reading Festival",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=2"
+  },
+  {
+    "id": "error-identification:passage-3",
+    "type": "error-identification",
+    "ordinal": 3,
+    "label": "文章 3 · A Sudden Storm at the Sports Centre",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=3"
+  },
+  {
+    "id": "error-identification:passage-4",
+    "type": "error-identification",
+    "ordinal": 4,
+    "label": "文章 4 · The Young Inventor",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=4"
+  },
+  {
+    "id": "error-identification:passage-5",
+    "type": "error-identification",
+    "ordinal": 5,
+    "label": "文章 5 · A Visit to the Hong Kong Museum",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=5"
+  },
+  {
+    "id": "error-identification:passage-6",
+    "type": "error-identification",
+    "ordinal": 6,
+    "label": "文章 6 · A Student Exchange Programme",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=6"
+  },
+  {
+    "id": "error-identification:passage-7",
+    "type": "error-identification",
+    "ordinal": 7,
+    "label": "文章 7 · The School Health Campaign",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=7"
+  },
+  {
+    "id": "error-identification:passage-8",
+    "type": "error-identification",
+    "ordinal": 8,
+    "label": "文章 8 · The Community Garden Project",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=8"
+  },
+  {
+    "id": "error-identification:passage-9",
+    "type": "error-identification",
+    "ordinal": 9,
+    "label": "文章 9 · Preparing for the Inter-School Debate",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=9"
+  },
+  {
+    "id": "error-identification:passage-10",
+    "type": "error-identification",
+    "ordinal": 10,
+    "label": "文章 10 · An Unexpected Discovery at the Library",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=10"
+  },
+  {
+    "id": "error-identification:passage-11",
+    "type": "error-identification",
+    "ordinal": 11,
+    "label": "文章 11 · A Charity Concert for the Community",
+    "detail": "Error Identification · 16 行",
+    "url": "error-identifier-system.html?mode=passage&passage=11"
+  },
+  {
+    "id": "error-identification:passage",
+    "type": "error-identification",
+    "ordinal": 0,
+    "label": "文章模式 · 全部練習",
+    "detail": "Error Identification · 11 篇文章",
+    "url": "error-identifier-system.html?mode=passage"
+  },
+  {
     "id": "fill:dse-writing-2025-part-a",
     "type": "fill-blanks",
     "ordinal": 2025,
@@ -27640,6 +30496,3750 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q41"
   },
   {
+    "id": "grammar:advanced-articles:curation",
+    "type": "grammar",
+    "ordinal": 0,
+    "label": "Advanced Articles 進階冠詞 · 教學導讀",
+    "detail": "Grammar · 120 題配套練習",
+    "url": "grammar-system.html?lesson=advanced-articles&view=curation"
+  },
+  {
+    "id": "grammar:advanced-articles:q151",
+    "type": "grammar",
+    "ordinal": 151,
+    "label": "Advanced Articles 進階冠詞 · 第 151 題",
+    "detail": "There were _____ students waiting outside when I arrived.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=151"
+  },
+  {
+    "id": "grammar:advanced-articles:q152",
+    "type": "grammar",
+    "ordinal": 152,
+    "label": "Advanced Articles 進階冠詞 · 第 152 題",
+    "detail": "The box was full of _____ old photos.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=152"
+  },
+  {
+    "id": "grammar:advanced-articles:q153",
+    "type": "grammar",
+    "ordinal": 153,
+    "label": "Advanced Articles 進階冠詞 · 第 153 題",
+    "detail": "The doctor ordered _____ more tests before I could go home.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=153"
+  },
+  {
+    "id": "grammar:advanced-articles:q154",
+    "type": "grammar",
+    "ordinal": 154,
+    "label": "Advanced Articles 進階冠詞 · 第 154 題",
+    "detail": "Don't worry. We still have _____ enough food for everyone.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=154"
+  },
+  {
+    "id": "grammar:advanced-articles:q155",
+    "type": "grammar",
+    "ordinal": 155,
+    "label": "Advanced Articles 進階冠詞 · 第 155 題",
+    "detail": "He will have to stay there for _____ few more days.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=155"
+  },
+  {
+    "id": "grammar:advanced-articles:q156",
+    "type": "grammar",
+    "ordinal": 156,
+    "label": "Advanced Articles 進階冠詞 · 第 156 題",
+    "detail": "We need _____ little more time to finish the work.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=156"
+  },
+  {
+    "id": "grammar:advanced-articles:q157",
+    "type": "grammar",
+    "ordinal": 157,
+    "label": "Advanced Articles 進階冠詞 · 第 157 題",
+    "detail": "Would you like to take _____ part in the school show?",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=157"
+  },
+  {
+    "id": "grammar:advanced-articles:q158",
+    "type": "grammar",
+    "ordinal": 158,
+    "label": "Advanced Articles 進階冠詞 · 第 158 題",
+    "detail": "Music played _____ important part in her recovery.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=158"
+  },
+  {
+    "id": "grammar:advanced-articles:q159",
+    "type": "grammar",
+    "ordinal": 159,
+    "label": "Advanced Articles 進階冠詞 · 第 159 題",
+    "detail": "In the school play, Leo played _____ part of the king.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=159"
+  },
+  {
+    "id": "grammar:advanced-articles:q160",
+    "type": "grammar",
+    "ordinal": 160,
+    "label": "Advanced Articles 進階冠詞 · 第 160 題",
+    "detail": "The charity walk had one 10-kilometre route. We walked _____ whole distance.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=160"
+  },
+  {
+    "id": "grammar:advanced-articles:q161",
+    "type": "grammar",
+    "ordinal": 161,
+    "label": "Advanced Articles 進階冠詞 · 第 161 題",
+    "detail": "It took me _____ whole day to clean the flat.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=161"
+  },
+  {
+    "id": "grammar:advanced-articles:q162",
+    "type": "grammar",
+    "ordinal": 162,
+    "label": "Advanced Articles 進階冠詞 · 第 162 題",
+    "detail": "The campaign raised _____ millions of dollars for flood victims.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=162"
+  },
+  {
+    "id": "grammar:advanced-articles:q163",
+    "type": "grammar",
+    "ordinal": 163,
+    "label": "Advanced Articles 進階冠詞 · 第 163 題",
+    "detail": "The project needed exactly three million dollars before work could begin. By June, they had raised _____ three million dollars needed.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=163"
+  },
+  {
+    "id": "grammar:advanced-articles:q164",
+    "type": "grammar",
+    "ordinal": 164,
+    "label": "Advanced Articles 進階冠詞 · 第 164 題",
+    "detail": "The charity provides food for families in _____ need.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=164"
+  },
+  {
+    "id": "grammar:advanced-articles:q165",
+    "type": "grammar",
+    "ordinal": 165,
+    "label": "Advanced Articles 進階冠詞 · 第 165 題",
+    "detail": "After hearing the bad news, he sat quietly in _____ despair.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=165"
+  },
+  {
+    "id": "grammar:advanced-articles:q166",
+    "type": "grammar",
+    "ordinal": 166,
+    "label": "Advanced Articles 進階冠詞 · 第 166 題",
+    "detail": "Please take _____ care of your little sister while I'm out.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=166"
+  },
+  {
+    "id": "grammar:advanced-articles:q167",
+    "type": "grammar",
+    "ordinal": 167,
+    "label": "Advanced Articles 進階冠詞 · 第 167 題",
+    "detail": "You've been working for three hours. Have _____ short rest.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=167"
+  },
+  {
+    "id": "grammar:advanced-articles:q168",
+    "type": "grammar",
+    "ordinal": 168,
+    "label": "Advanced Articles 進階冠詞 · 第 168 題",
+    "detail": "After the long journey, all I wanted was _____ rest.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=168"
+  },
+  {
+    "id": "grammar:advanced-articles:q169",
+    "type": "grammar",
+    "ordinal": 169,
+    "label": "Advanced Articles 進階冠詞 · 第 169 題",
+    "detail": "Mia made _____ full recovery after the operation.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=169"
+  },
+  {
+    "id": "grammar:advanced-articles:q170",
+    "type": "grammar",
+    "ordinal": 170,
+    "label": "Advanced Articles 進階冠詞 · 第 170 題",
+    "detail": "_____ recovery after the operation took nearly six months.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=170"
+  },
+  {
+    "id": "grammar:advanced-articles:q171",
+    "type": "grammar",
+    "ordinal": 171,
+    "label": "Advanced Articles 進階冠詞 · 第 171 題",
+    "detail": "After the accident, Ben was taken to _____ hospital for treatment.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=171"
+  },
+  {
+    "id": "grammar:advanced-articles:q172",
+    "type": "grammar",
+    "ordinal": 172,
+    "label": "Advanced Articles 進階冠詞 · 第 172 題",
+    "detail": "Ben is still there. I'm going to _____ hospital this afternoon to visit him.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=172"
+  },
+  {
+    "id": "grammar:advanced-articles:q173",
+    "type": "grammar",
+    "ordinal": 173,
+    "label": "Advanced Articles 進階冠詞 · 第 173 題",
+    "detail": "She works at _____ local hospital, but I don't know which one.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=173"
+  },
+  {
+    "id": "grammar:advanced-articles:q174",
+    "type": "grammar",
+    "ordinal": 174,
+    "label": "Advanced Articles 進階冠詞 · 第 174 題",
+    "detail": "Our small town has only one hospital. My father works at _____ local hospital.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=174"
+  },
+  {
+    "id": "grammar:advanced-articles:q175",
+    "type": "grammar",
+    "ordinal": 175,
+    "label": "Advanced Articles 進階冠詞 · 第 175 題",
+    "detail": "We walked into a small office with one door. Please close _____ door behind you.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=175"
+  },
+  {
+    "id": "grammar:advanced-articles:q176",
+    "type": "grammar",
+    "ordinal": 176,
+    "label": "Advanced Articles 進階冠詞 · 第 176 題",
+    "detail": "We've been waiting for the number 12 for twenty minutes. Look! _____ bus is coming.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=176"
+  },
+  {
+    "id": "grammar:advanced-articles:q177",
+    "type": "grammar",
+    "ordinal": 177,
+    "label": "Advanced Articles 進階冠詞 · 第 177 題",
+    "detail": "A young man and an old man sat down together. _____ young man started a conversation.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=177"
+  },
+  {
+    "id": "grammar:advanced-articles:q178",
+    "type": "grammar",
+    "ordinal": 178,
+    "label": "Advanced Articles 進階冠詞 · 第 178 題",
+    "detail": "The old man said, “I've got _____ gold in my bag.”",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=178"
+  },
+  {
+    "id": "grammar:advanced-articles:q179",
+    "type": "grammar",
+    "ordinal": 179,
+    "label": "Advanced Articles 進階冠詞 · 第 179 題",
+    "detail": "After hearing this, the young man began thinking about how to steal _____ gold.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=179"
+  },
+  {
+    "id": "grammar:advanced-articles:q180",
+    "type": "grammar",
+    "ordinal": 180,
+    "label": "Advanced Articles 進階冠詞 · 第 180 題",
+    "detail": "I bought a car yesterday. _____ engine is very quiet.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=180"
+  },
+  {
+    "id": "grammar:advanced-articles:q181",
+    "type": "grammar",
+    "ordinal": 181,
+    "label": "Advanced Articles 進階冠詞 · 第 181 題",
+    "detail": "I picked up the suitcase, but _____ handle suddenly broke.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=181"
+  },
+  {
+    "id": "grammar:advanced-articles:q182",
+    "type": "grammar",
+    "ordinal": 182,
+    "label": "Advanced Articles 進階冠詞 · 第 182 題",
+    "detail": "We walked along the road until we reached _____ end.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=182"
+  },
+  {
+    "id": "grammar:advanced-articles:q183",
+    "type": "grammar",
+    "ordinal": 183,
+    "label": "Advanced Articles 進階冠詞 · 第 183 題",
+    "detail": "An old man sat beside me on the bus. _____ old man's coat was completely wet.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=183"
+  },
+  {
+    "id": "grammar:advanced-articles:q184",
+    "type": "grammar",
+    "ordinal": 184,
+    "label": "Advanced Articles 進階冠詞 · 第 184 題",
+    "detail": "I found _____ young man's wallet under the seat, but I didn't know who he was.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=184"
+  },
+  {
+    "id": "grammar:advanced-articles:q185",
+    "type": "grammar",
+    "ordinal": 185,
+    "label": "Advanced Articles 進階冠詞 · 第 185 題",
+    "detail": "_____ John's bag is on the chair.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=185"
+  },
+  {
+    "id": "grammar:advanced-articles:q186",
+    "type": "grammar",
+    "ordinal": 186,
+    "label": "Advanced Articles 進階冠詞 · 第 186 題",
+    "detail": "After running for ten minutes, he finally reached _____ place where nobody could see him.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=186"
+  },
+  {
+    "id": "grammar:advanced-articles:q187",
+    "type": "grammar",
+    "ordinal": 187,
+    "label": "Advanced Articles 進階冠詞 · 第 187 題",
+    "detail": "We stayed at _____ hotel that you recommended to us.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=187"
+  },
+  {
+    "id": "grammar:advanced-articles:q188",
+    "type": "grammar",
+    "ordinal": 188,
+    "label": "Advanced Articles 進階冠詞 · 第 188 題",
+    "detail": "_____ all this gold belongs to the museum.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=188"
+  },
+  {
+    "id": "grammar:advanced-articles:q189",
+    "type": "grammar",
+    "ordinal": 189,
+    "label": "Advanced Articles 進階冠詞 · 第 189 題",
+    "detail": "I spoke to _____ all my friends before making the decision.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=189"
+  },
+  {
+    "id": "grammar:advanced-articles:q190",
+    "type": "grammar",
+    "ordinal": 190,
+    "label": "Advanced Articles 進階冠詞 · 第 190 題",
+    "detail": "All _____ students in this class must complete the form.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=190"
+  },
+  {
+    "id": "grammar:advanced-articles:q191",
+    "type": "grammar",
+    "ordinal": 191,
+    "label": "Advanced Articles 進階冠詞 · 第 191 題",
+    "detail": "You may borrow as many _____ books as you like.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=191"
+  },
+  {
+    "id": "grammar:advanced-articles:q192",
+    "type": "grammar",
+    "ordinal": 192,
+    "label": "Advanced Articles 進階冠詞 · 第 192 題",
+    "detail": "To _____ my surprise, Leo remembered my birthday.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=192"
+  },
+  {
+    "id": "grammar:advanced-articles:q193",
+    "type": "grammar",
+    "ordinal": 193,
+    "label": "Advanced Articles 進階冠詞 · 第 193 題",
+    "detail": "To _____ surprise of everyone in the room, the little boy answered correctly.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=193"
+  },
+  {
+    "id": "grammar:advanced-articles:q194",
+    "type": "grammar",
+    "ordinal": 194,
+    "label": "Advanced Articles 進階冠詞 · 第 194 題",
+    "detail": "She was awarded _____ certificate for completing the course.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=194"
+  },
+  {
+    "id": "grammar:advanced-articles:q195",
+    "type": "grammar",
+    "ordinal": 195,
+    "label": "Advanced Articles 進階冠詞 · 第 195 題",
+    "detail": "The patient had accidentally taken _____ overdose of the medicine.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=195"
+  },
+  {
+    "id": "grammar:advanced-articles:q196",
+    "type": "grammar",
+    "ordinal": 196,
+    "label": "Advanced Articles 進階冠詞 · 第 196 題",
+    "detail": "The doctor said I needed _____ more tests before leaving hospital.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=196"
+  },
+  {
+    "id": "grammar:advanced-articles:q197",
+    "type": "grammar",
+    "ordinal": 197,
+    "label": "Advanced Articles 進階冠詞 · 第 197 題",
+    "detail": "The programme teaches young people to stay away from _____ drugs.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=197"
+  },
+  {
+    "id": "grammar:advanced-articles:q198",
+    "type": "grammar",
+    "ordinal": 198,
+    "label": "Advanced Articles 進階冠詞 · 第 198 題",
+    "detail": "When he opened the bag, he discovered that it was full of _____ stones.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=198"
+  },
+  {
+    "id": "grammar:advanced-articles:q199",
+    "type": "grammar",
+    "ordinal": 199,
+    "label": "Advanced Articles 進階冠詞 · 第 199 題",
+    "detail": "After losing the important document, Ben knew he was in _____ trouble.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=199"
+  },
+  {
+    "id": "grammar:advanced-articles:q200",
+    "type": "grammar",
+    "ordinal": 200,
+    "label": "Advanced Articles 進階冠詞 · 第 200 題",
+    "detail": "Maya took _____ part in the event and later played _____ important part in organising the next one.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=200"
+  },
+  {
+    "id": "grammar:advanced-articles:q201",
+    "type": "grammar",
+    "ordinal": 201,
+    "label": "Advanced Articles 進階冠詞 · 第 201 題",
+    "detail": "_____ number of students stayed after class to ask questions.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=201"
+  },
+  {
+    "id": "grammar:advanced-articles:q202",
+    "type": "grammar",
+    "ordinal": 202,
+    "label": "Advanced Articles 進階冠詞 · 第 202 題",
+    "detail": "I need _____ pair of comfortable shoes for the trip.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=202"
+  },
+  {
+    "id": "grammar:advanced-articles:q203",
+    "type": "grammar",
+    "ordinal": 203,
+    "label": "Advanced Articles 進階冠詞 · 第 203 題",
+    "detail": "Could you give me _____ piece of information about the course?",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=203"
+  },
+  {
+    "id": "grammar:advanced-articles:q204",
+    "type": "grammar",
+    "ordinal": 204,
+    "label": "Advanced Articles 進階冠詞 · 第 204 題",
+    "detail": "Add _____ little water if the soup is too thick.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=204"
+  },
+  {
+    "id": "grammar:advanced-articles:q205",
+    "type": "grammar",
+    "ordinal": 205,
+    "label": "Advanced Articles 進階冠詞 · 第 205 題",
+    "detail": "I have lived in this town _____ my whole life.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=205"
+  },
+  {
+    "id": "grammar:advanced-articles:q206",
+    "type": "grammar",
+    "ordinal": 206,
+    "label": "Advanced Articles 進階冠詞 · 第 206 題",
+    "detail": "It has been raining _____ this whole week.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=206"
+  },
+  {
+    "id": "grammar:advanced-articles:q207",
+    "type": "grammar",
+    "ordinal": 207,
+    "label": "Advanced Articles 進階冠詞 · 第 207 題",
+    "detail": "I found the missing key by _____ chance.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=207"
+  },
+  {
+    "id": "grammar:advanced-articles:q208",
+    "type": "grammar",
+    "ordinal": 208,
+    "label": "Advanced Articles 進階冠詞 · 第 208 題",
+    "detail": "Leo broke the cup on _____ purpose.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=208"
+  },
+  {
+    "id": "grammar:advanced-articles:q209",
+    "type": "grammar",
+    "ordinal": 209,
+    "label": "Advanced Articles 進階冠詞 · 第 209 題",
+    "detail": "Children on this narrow road may be at _____ risk.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=209"
+  },
+  {
+    "id": "grammar:advanced-articles:q210",
+    "type": "grammar",
+    "ordinal": 210,
+    "label": "Advanced Articles 進階冠詞 · 第 210 題",
+    "detail": "The climbers were in _____ danger because of the storm.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=210"
+  },
+  {
+    "id": "grammar:advanced-articles:q211",
+    "type": "grammar",
+    "ordinal": 211,
+    "label": "Advanced Articles 進階冠詞 · 第 211 題",
+    "detail": "She cried with _____ great joy when she heard the good news.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=211"
+  },
+  {
+    "id": "grammar:advanced-articles:q212",
+    "type": "grammar",
+    "ordinal": 212,
+    "label": "Advanced Articles 進階冠詞 · 第 212 題",
+    "detail": "_____ joy on the children's faces was easy to see.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=212"
+  },
+  {
+    "id": "grammar:advanced-articles:q213",
+    "type": "grammar",
+    "ordinal": 213,
+    "label": "Advanced Articles 進階冠詞 · 第 213 題",
+    "detail": "_____ life can change very quickly.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=213"
+  },
+  {
+    "id": "grammar:advanced-articles:q214",
+    "type": "grammar",
+    "ordinal": 214,
+    "label": "Advanced Articles 進階冠詞 · 第 214 題",
+    "detail": "_____ life he lived before moving here was very different.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=214"
+  },
+  {
+    "id": "grammar:advanced-articles:q215",
+    "type": "grammar",
+    "ordinal": 215,
+    "label": "Advanced Articles 進階冠詞 · 第 215 題",
+    "detail": "_____ freedom is important to many people.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=215"
+  },
+  {
+    "id": "grammar:advanced-articles:q216",
+    "type": "grammar",
+    "ordinal": 216,
+    "label": "Advanced Articles 進階冠詞 · 第 216 題",
+    "detail": "_____ freedom we have to choose our own careers is valuable.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=216"
+  },
+  {
+    "id": "grammar:advanced-articles:q217",
+    "type": "grammar",
+    "ordinal": 217,
+    "label": "Advanced Articles 進階冠詞 · 第 217 題",
+    "detail": "Maya studies _____ history at university.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=217"
+  },
+  {
+    "id": "grammar:advanced-articles:q218",
+    "type": "grammar",
+    "ordinal": 218,
+    "label": "Advanced Articles 進階冠詞 · 第 218 題",
+    "detail": "My brother is very interested in _____ science.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=218"
+  },
+  {
+    "id": "grammar:advanced-articles:q219",
+    "type": "grammar",
+    "ordinal": 219,
+    "label": "Advanced Articles 進階冠詞 · 第 219 題",
+    "detail": "The children play _____ football after school.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=219"
+  },
+  {
+    "id": "grammar:advanced-articles:q220",
+    "type": "grammar",
+    "ordinal": 220,
+    "label": "Advanced Articles 進階冠詞 · 第 220 題",
+    "detail": "Nina plays _____ tennis every Saturday.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=220"
+  },
+  {
+    "id": "grammar:advanced-articles:q221",
+    "type": "grammar",
+    "ordinal": 221,
+    "label": "Advanced Articles 進階冠詞 · 第 221 題",
+    "detail": "My sister has been learning to play _____ violin.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=221"
+  },
+  {
+    "id": "grammar:advanced-articles:q222",
+    "type": "grammar",
+    "ordinal": 222,
+    "label": "Advanced Articles 進階冠詞 · 第 222 題",
+    "detail": "The weather is lovely. Let's go to _____ beach.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=222"
+  },
+  {
+    "id": "grammar:advanced-articles:q223",
+    "type": "grammar",
+    "ordinal": 223,
+    "label": "Advanced Articles 進階冠詞 · 第 223 題",
+    "detail": "Our village has only one railway station. I'll meet you at _____ station.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=223"
+  },
+  {
+    "id": "grammar:advanced-articles:q224",
+    "type": "grammar",
+    "ordinal": 224,
+    "label": "Advanced Articles 進階冠詞 · 第 224 題",
+    "detail": "They are planning to build _____ new station near the airport.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=224"
+  },
+  {
+    "id": "grammar:advanced-articles:q225",
+    "type": "grammar",
+    "ordinal": 225,
+    "label": "Advanced Articles 進階冠詞 · 第 225 題",
+    "detail": "Our company has one small office in Manchester. I'll be at _____ office tomorrow.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=225"
+  },
+  {
+    "id": "grammar:advanced-articles:q226",
+    "type": "grammar",
+    "ordinal": 226,
+    "label": "Advanced Articles 進階冠詞 · 第 226 題",
+    "detail": "I walked into the kitchen and opened _____ fridge to get some milk.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=226"
+  },
+  {
+    "id": "grammar:advanced-articles:q227",
+    "type": "grammar",
+    "ordinal": 227,
+    "label": "Advanced Articles 進階冠詞 · 第 227 題",
+    "detail": "We spent the morning at _____ National Gallery.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=227"
+  },
+  {
+    "id": "grammar:advanced-articles:q228",
+    "type": "grammar",
+    "ordinal": 228,
+    "label": "Advanced Articles 進階冠詞 · 第 228 題",
+    "detail": "They stayed at _____ Ritz during their visit to London.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=228"
+  },
+  {
+    "id": "grammar:advanced-articles:q229",
+    "type": "grammar",
+    "ordinal": 229,
+    "label": "Advanced Articles 進階冠詞 · 第 229 題",
+    "detail": "She studied at _____ University of Oxford.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=229"
+  },
+  {
+    "id": "grammar:advanced-articles:q230",
+    "type": "grammar",
+    "ordinal": 230,
+    "label": "Advanced Articles 進階冠詞 · 第 230 題",
+    "detail": "Her brother studies at _____ Oxford University.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=230"
+  },
+  {
+    "id": "grammar:advanced-articles:q231",
+    "type": "grammar",
+    "ordinal": 231,
+    "label": "Advanced Articles 進階冠詞 · 第 231 題",
+    "detail": "Many people now get their news from _____ internet.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=231"
+  },
+  {
+    "id": "grammar:advanced-articles:q232",
+    "type": "grammar",
+    "ordinal": 232,
+    "label": "Advanced Articles 進階冠詞 · 第 232 題",
+    "detail": "_____ English language has changed greatly over time.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=232"
+  },
+  {
+    "id": "grammar:advanced-articles:q233",
+    "type": "grammar",
+    "ordinal": 233,
+    "label": "Advanced Articles 進階冠詞 · 第 233 題",
+    "detail": "We use _____ English in most of our lessons.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=233"
+  },
+  {
+    "id": "grammar:advanced-articles:q234",
+    "type": "grammar",
+    "ordinal": 234,
+    "label": "Advanced Articles 進階冠詞 · 第 234 題",
+    "detail": "They travelled along _____ Nile by boat.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=234"
+  },
+  {
+    "id": "grammar:advanced-articles:q235",
+    "type": "grammar",
+    "ordinal": 235,
+    "label": "Advanced Articles 進階冠詞 · 第 235 題",
+    "detail": "We went walking in _____ Himalayas.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=235"
+  },
+  {
+    "id": "grammar:advanced-articles:q236",
+    "type": "grammar",
+    "ordinal": 236,
+    "label": "Advanced Articles 進階冠詞 · 第 236 題",
+    "detail": "They spent their holiday in _____ Bahamas.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=236"
+  },
+  {
+    "id": "grammar:advanced-articles:q237",
+    "type": "grammar",
+    "ordinal": 237,
+    "label": "Advanced Articles 進階冠詞 · 第 237 題",
+    "detail": "Sara travelled across _____ Europe by train.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=237"
+  },
+  {
+    "id": "grammar:advanced-articles:q238",
+    "type": "grammar",
+    "ordinal": 238,
+    "label": "Advanced Articles 進階冠詞 · 第 238 題",
+    "detail": "Canada is in _____ North America.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=238"
+  },
+  {
+    "id": "grammar:advanced-articles:q239",
+    "type": "grammar",
+    "ordinal": 239,
+    "label": "Advanced Articles 進階冠詞 · 第 239 題",
+    "detail": "My grandparents live in _____ west of the city.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=239"
+  },
+  {
+    "id": "grammar:advanced-articles:q240",
+    "type": "grammar",
+    "ordinal": 240,
+    "label": "Advanced Articles 進階冠詞 · 第 240 題",
+    "detail": "Drive _____ north for five kilometres, then turn left.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=240"
+  },
+  {
+    "id": "grammar:advanced-articles:q241",
+    "type": "grammar",
+    "ordinal": 241,
+    "label": "Advanced Articles 進階冠詞 · 第 241 題",
+    "detail": "Our new course begins on _____ Monday.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=241"
+  },
+  {
+    "id": "grammar:advanced-articles:q242",
+    "type": "grammar",
+    "ordinal": 242,
+    "label": "Advanced Articles 進階冠詞 · 第 242 題",
+    "detail": "My birthday is in _____ October.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=242"
+  },
+  {
+    "id": "grammar:advanced-articles:q243",
+    "type": "grammar",
+    "ordinal": 243,
+    "label": "Advanced Articles 進階冠詞 · 第 243 題",
+    "detail": "I'm seeing the dentist _____ next Monday.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=243"
+  },
+  {
+    "id": "grammar:advanced-articles:q244",
+    "type": "grammar",
+    "ordinal": 244,
+    "label": "Advanced Articles 進階冠詞 · 第 244 題",
+    "detail": "We arrived late on Tuesday. _____ next day, we visited the old town.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=244"
+  },
+  {
+    "id": "grammar:advanced-articles:q245",
+    "type": "grammar",
+    "ordinal": 245,
+    "label": "Advanced Articles 進階冠詞 · 第 245 題",
+    "detail": "I didn't sleep well _____ last night.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=245"
+  },
+  {
+    "id": "grammar:advanced-articles:q246",
+    "type": "grammar",
+    "ordinal": 246,
+    "label": "Advanced Articles 進階冠詞 · 第 246 題",
+    "detail": "Friday will be _____ last day of our holiday.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=246"
+  },
+  {
+    "id": "grammar:advanced-articles:q247",
+    "type": "grammar",
+    "ordinal": 247,
+    "label": "Advanced Articles 進階冠詞 · 第 247 題",
+    "detail": "Tom missed school because he had _____ bad case of flu.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=247"
+  },
+  {
+    "id": "grammar:advanced-articles:q248",
+    "type": "grammar",
+    "ordinal": 248,
+    "label": "Advanced Articles 進階冠詞 · 第 248 題",
+    "detail": "The old man tried to stand up, but _____ corner of his coat was caught under the chair.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=248"
+  },
+  {
+    "id": "grammar:advanced-articles:q249",
+    "type": "grammar",
+    "ordinal": 249,
+    "label": "Advanced Articles 進階冠詞 · 第 249 題",
+    "detail": "There is only one bus station in this small town. We hurried back to _____ bus station before dark.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=249"
+  },
+  {
+    "id": "grammar:advanced-articles:q250",
+    "type": "grammar",
+    "ordinal": 250,
+    "label": "Advanced Articles 進階冠詞 · 第 250 題",
+    "detail": "A boy found a bag beside the road. He opened _____ bag and found some old books inside.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=250"
+  },
+  {
+    "id": "grammar:advanced-articles:q251",
+    "type": "grammar",
+    "ordinal": 251,
+    "label": "Advanced Articles 進階冠詞 · 第 251 題",
+    "detail": "The ship travelled through _____ Panama Canal on its way to the Pacific Ocean.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=251"
+  },
+  {
+    "id": "grammar:advanced-articles:q252",
+    "type": "grammar",
+    "ordinal": 252,
+    "label": "Advanced Articles 進階冠詞 · 第 252 題",
+    "detail": "Our geography book has a map of _____ Suez Canal in Egypt.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=252"
+  },
+  {
+    "id": "grammar:advanced-articles:q253",
+    "type": "grammar",
+    "ordinal": 253,
+    "label": "Advanced Articles 進階冠詞 · 第 253 題",
+    "detail": "The documentary follows a cargo ship as it passes through _____ Kiel Canal in Germany.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=253"
+  },
+  {
+    "id": "grammar:advanced-articles:q254",
+    "type": "grammar",
+    "ordinal": 254,
+    "label": "Advanced Articles 進階冠詞 · 第 254 題",
+    "detail": "On our way home, we stopped at _____ MTR station, but I cannot remember its name.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=254"
+  },
+  {
+    "id": "grammar:advanced-articles:q255",
+    "type": "grammar",
+    "ordinal": 255,
+    "label": "Advanced Articles 進階冠詞 · 第 255 題",
+    "detail": "The doctor arranged _____ MRI scan for the patient.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=255"
+  },
+  {
+    "id": "grammar:advanced-articles:q256",
+    "type": "grammar",
+    "ordinal": 256,
+    "label": "Advanced Articles 進階冠詞 · 第 256 題",
+    "detail": "I need _____ USB cable for this printer.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=256"
+  },
+  {
+    "id": "grammar:advanced-articles:q257",
+    "type": "grammar",
+    "ordinal": 257,
+    "label": "Advanced Articles 進階冠詞 · 第 257 題",
+    "detail": "After living in Canada for five years, Maya moved to _____ UK.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=257"
+  },
+  {
+    "id": "grammar:advanced-articles:q258",
+    "type": "grammar",
+    "ordinal": 258,
+    "label": "Advanced Articles 進階冠詞 · 第 258 題",
+    "detail": "The letter was sent from _____ US to Japan.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=258"
+  },
+  {
+    "id": "grammar:advanced-articles:q259",
+    "type": "grammar",
+    "ordinal": 259,
+    "label": "Advanced Articles 進階冠詞 · 第 259 題",
+    "detail": "The conference will take place in _____ UAE next spring.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=259"
+  },
+  {
+    "id": "grammar:advanced-articles:q260",
+    "type": "grammar",
+    "ordinal": 260,
+    "label": "Advanced Articles 進階冠詞 · 第 260 題",
+    "detail": "At school, Mina studies _____ history and geography.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=260"
+  },
+  {
+    "id": "grammar:advanced-articles:q261",
+    "type": "grammar",
+    "ordinal": 261,
+    "label": "Advanced Articles 進階冠詞 · 第 261 題",
+    "detail": "The exhibition explores _____ history of the Industrial Revolution, from its early factories to its later effects.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=261"
+  },
+  {
+    "id": "grammar:advanced-articles:q262",
+    "type": "grammar",
+    "ordinal": 262,
+    "label": "Advanced Articles 進階冠詞 · 第 262 題",
+    "detail": "This book describes _____ history of Hong Kong's tram system, from its opening to the present day.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=262"
+  },
+  {
+    "id": "grammar:advanced-articles:q263",
+    "type": "grammar",
+    "ordinal": 263,
+    "label": "Advanced Articles 進階冠詞 · 第 263 題",
+    "detail": "Several boats travelled through _____ Corinth Canal during our visit to Greece.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=263"
+  },
+  {
+    "id": "grammar:advanced-articles:q264",
+    "type": "grammar",
+    "ordinal": 264,
+    "label": "Advanced Articles 進階冠詞 · 第 264 題",
+    "detail": "The school sent parents _____ SMS alert about the change in timetable.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=264"
+  },
+  {
+    "id": "grammar:advanced-articles:q265",
+    "type": "grammar",
+    "ordinal": 265,
+    "label": "Advanced Articles 進階冠詞 · 第 265 題",
+    "detail": "My cousin studied in _____ USA before returning to Hong Kong.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=265"
+  },
+  {
+    "id": "grammar:advanced-articles:q266",
+    "type": "grammar",
+    "ordinal": 266,
+    "label": "Advanced Articles 進階冠詞 · 第 266 題",
+    "detail": "Our project examines _____ history of the Silk Road, including the people who traded along it.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=266"
+  },
+  {
+    "id": "grammar:advanced-articles:q267",
+    "type": "grammar",
+    "ordinal": 267,
+    "label": "Advanced Articles 進階冠詞 · 第 267 題",
+    "detail": "On our trip to Venice, we took a boat along _____ Grand Canal.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=267"
+  },
+  {
+    "id": "grammar:advanced-articles:q268",
+    "type": "grammar",
+    "ordinal": 268,
+    "label": "Advanced Articles 進階冠詞 · 第 268 題",
+    "detail": "My brother watched _____ BBC documentary about wild birds.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=268"
+  },
+  {
+    "id": "grammar:advanced-articles:q269",
+    "type": "grammar",
+    "ordinal": 269,
+    "label": "Advanced Articles 進階冠詞 · 第 269 題",
+    "detail": "Her aunt works in _____ UK but visits us every summer.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=269"
+  },
+  {
+    "id": "grammar:advanced-articles:q270",
+    "type": "grammar",
+    "ordinal": 270,
+    "label": "Advanced Articles 進階冠詞 · 第 270 題",
+    "detail": "History is one of Sam's favourite school subjects. He studies _____ history every Monday.",
+    "url": "grammar-system.html?lesson=advanced-articles&view=practice&question=270"
+  },
+  {
+    "id": "grammar:articles:curation",
+    "type": "grammar",
+    "ordinal": 0,
+    "label": "Articles 冠詞 · 教學導讀",
+    "detail": "Grammar · 150 題配套練習",
+    "url": "grammar-system.html?lesson=articles&view=curation"
+  },
+  {
+    "id": "grammar:articles:q1",
+    "type": "grammar",
+    "ordinal": 1,
+    "label": "Articles 冠詞 · 第 1 題",
+    "detail": "I bought _____ notebook at the stationery shop.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=1"
+  },
+  {
+    "id": "grammar:articles:q2",
+    "type": "grammar",
+    "ordinal": 2,
+    "label": "Articles 冠詞 · 第 2 題",
+    "detail": "Maya wants to become _____ engineer.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=2"
+  },
+  {
+    "id": "grammar:articles:q3",
+    "type": "grammar",
+    "ordinal": 3,
+    "label": "Articles 冠詞 · 第 3 題",
+    "detail": "We saw _____ owl in the park last night.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=3"
+  },
+  {
+    "id": "grammar:articles:q4",
+    "type": "grammar",
+    "ordinal": 4,
+    "label": "Articles 冠詞 · 第 4 題",
+    "detail": "Leo is _____ university student.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=4"
+  },
+  {
+    "id": "grammar:articles:q5",
+    "type": "grammar",
+    "ordinal": 5,
+    "label": "Articles 冠詞 · 第 5 題",
+    "detail": "It took me _____ hour to finish the work.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=5"
+  },
+  {
+    "id": "grammar:articles:q6",
+    "type": "grammar",
+    "ordinal": 6,
+    "label": "Articles 冠詞 · 第 6 題",
+    "detail": "I need _____ pen to sign this form.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=6"
+  },
+  {
+    "id": "grammar:articles:q7",
+    "type": "grammar",
+    "ordinal": 7,
+    "label": "Articles 冠詞 · 第 7 題",
+    "detail": "Sara gave me _____ useful tip.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=7"
+  },
+  {
+    "id": "grammar:articles:q8",
+    "type": "grammar",
+    "ordinal": 8,
+    "label": "Articles 冠詞 · 第 8 題",
+    "detail": "Mr Lee is _____ honest person.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=8"
+  },
+  {
+    "id": "grammar:articles:q9",
+    "type": "grammar",
+    "ordinal": 9,
+    "label": "Articles 冠詞 · 第 9 題",
+    "detail": "We stayed in _____ small hotel near the station.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=9"
+  },
+  {
+    "id": "grammar:articles:q10",
+    "type": "grammar",
+    "ordinal": 10,
+    "label": "Articles 冠詞 · 第 10 題",
+    "detail": "There is _____ orange in my bag.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=10"
+  },
+  {
+    "id": "grammar:articles:q11",
+    "type": "grammar",
+    "ordinal": 11,
+    "label": "Articles 冠詞 · 第 11 題",
+    "detail": "Don't rush. We still have _____ lot of time.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=11"
+  },
+  {
+    "id": "grammar:articles:q12",
+    "type": "grammar",
+    "ordinal": 12,
+    "label": "Articles 冠詞 · 第 12 題",
+    "detail": "Only _____ few seats are left, so let's book now.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=12"
+  },
+  {
+    "id": "grammar:articles:q13",
+    "type": "grammar",
+    "ordinal": 13,
+    "label": "Articles 冠詞 · 第 13 題",
+    "detail": "London is _____ European city.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=13"
+  },
+  {
+    "id": "grammar:articles:q14",
+    "type": "grammar",
+    "ordinal": 14,
+    "label": "Articles 冠詞 · 第 14 題",
+    "detail": "He is _____ 8-year-old boy who loves drawing.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=14"
+  },
+  {
+    "id": "grammar:articles:q15",
+    "type": "grammar",
+    "ordinal": 15,
+    "label": "Articles 冠詞 · 第 15 題",
+    "detail": "We had _____ wonderful time at the food festival.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=15"
+  },
+  {
+    "id": "grammar:articles:q16",
+    "type": "grammar",
+    "ordinal": 16,
+    "label": "Articles 冠詞 · 第 16 題",
+    "detail": "I saw a dog outside. _____ dog was wet.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=16"
+  },
+  {
+    "id": "grammar:articles:q17",
+    "type": "grammar",
+    "ordinal": 17,
+    "label": "Articles 冠詞 · 第 17 題",
+    "detail": "Maya bought a new laptop yesterday. _____ laptop is very light.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=17"
+  },
+  {
+    "id": "grammar:articles:q18",
+    "type": "grammar",
+    "ordinal": 18,
+    "label": "Articles 冠詞 · 第 18 題",
+    "detail": "We went to a concert last night. _____ concert ended at ten.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=18"
+  },
+  {
+    "id": "grammar:articles:q19",
+    "type": "grammar",
+    "ordinal": 19,
+    "label": "Articles 冠詞 · 第 19 題",
+    "detail": "There is one blue pen on the table. Please pass me _____ blue pen.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=19"
+  },
+  {
+    "id": "grammar:articles:q20",
+    "type": "grammar",
+    "ordinal": 20,
+    "label": "Articles 冠詞 · 第 20 題",
+    "detail": "I watched _____ film you recommended last week.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=20"
+  },
+  {
+    "id": "grammar:articles:q21",
+    "type": "grammar",
+    "ordinal": 21,
+    "label": "Articles 冠詞 · 第 21 題",
+    "detail": "_____ students in Room 4 are waiting outside.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=21"
+  },
+  {
+    "id": "grammar:articles:q22",
+    "type": "grammar",
+    "ordinal": 22,
+    "label": "Articles 冠詞 · 第 22 題",
+    "detail": "_____ water in this bottle tastes strange.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=22"
+  },
+  {
+    "id": "grammar:articles:q23",
+    "type": "grammar",
+    "ordinal": 23,
+    "label": "Articles 冠詞 · 第 23 題",
+    "detail": "There is one bag beside the door. I left my keys in _____ bag.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=23"
+  },
+  {
+    "id": "grammar:articles:q24",
+    "type": "grammar",
+    "ordinal": 24,
+    "label": "Articles 冠詞 · 第 24 題",
+    "detail": "There is only one café opposite the station. We met at _____ café.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=24"
+  },
+  {
+    "id": "grammar:articles:q25",
+    "type": "grammar",
+    "ordinal": 25,
+    "label": "Articles 冠詞 · 第 25 題",
+    "detail": "The park has one main gate. Let's meet at _____ gate at six.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=25"
+  },
+  {
+    "id": "grammar:articles:q26",
+    "type": "grammar",
+    "ordinal": 26,
+    "label": "Articles 冠詞 · 第 26 題",
+    "detail": "_____ sun is shining brightly today.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=26"
+  },
+  {
+    "id": "grammar:articles:q27",
+    "type": "grammar",
+    "ordinal": 27,
+    "label": "Articles 冠詞 · 第 27 題",
+    "detail": "This is _____ best photo in the set.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=27"
+  },
+  {
+    "id": "grammar:articles:q28",
+    "type": "grammar",
+    "ordinal": 28,
+    "label": "Articles 冠詞 · 第 28 題",
+    "detail": "Nina was _____ first person to finish the test.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=28"
+  },
+  {
+    "id": "grammar:articles:q29",
+    "type": "grammar",
+    "ordinal": 29,
+    "label": "Articles 冠詞 · 第 29 題",
+    "detail": "We bought _____ same jacket by accident.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=29"
+  },
+  {
+    "id": "grammar:articles:q30",
+    "type": "grammar",
+    "ordinal": 30,
+    "label": "Articles 冠詞 · 第 30 題",
+    "detail": "Leo is _____ only person with the key.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=30"
+  },
+  {
+    "id": "grammar:articles:q31",
+    "type": "grammar",
+    "ordinal": 31,
+    "label": "Articles 冠詞 · 第 31 題",
+    "detail": "This is one of _____ largest rooms in the building.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=31"
+  },
+  {
+    "id": "grammar:articles:q32",
+    "type": "grammar",
+    "ordinal": 32,
+    "label": "Articles 冠詞 · 第 32 題",
+    "detail": "Do you play _____ guitar?",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=32"
+  },
+  {
+    "id": "grammar:articles:q33",
+    "type": "grammar",
+    "ordinal": 33,
+    "label": "Articles 冠詞 · 第 33 題",
+    "detail": "We are having dinner with _____ Chans tonight.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=33"
+  },
+  {
+    "id": "grammar:articles:q34",
+    "type": "grammar",
+    "ordinal": 34,
+    "label": "Articles 冠詞 · 第 34 題",
+    "detail": "My aunt lives in _____ north of England.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=34"
+  },
+  {
+    "id": "grammar:articles:q35",
+    "type": "grammar",
+    "ordinal": 35,
+    "label": "Articles 冠詞 · 第 35 題",
+    "detail": "I listen to _____ music while I work.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=35"
+  },
+  {
+    "id": "grammar:articles:q36",
+    "type": "grammar",
+    "ordinal": 36,
+    "label": "Articles 冠詞 · 第 36 題",
+    "detail": "_____ dogs need daily exercise.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=36"
+  },
+  {
+    "id": "grammar:articles:q37",
+    "type": "grammar",
+    "ordinal": 37,
+    "label": "Articles 冠詞 · 第 37 題",
+    "detail": "We need _____ water after the walk.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=37"
+  },
+  {
+    "id": "grammar:articles:q38",
+    "type": "grammar",
+    "ordinal": 38,
+    "label": "Articles 冠詞 · 第 38 題",
+    "detail": "She speaks _____ Chinese at home.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=38"
+  },
+  {
+    "id": "grammar:articles:q39",
+    "type": "grammar",
+    "ordinal": 39,
+    "label": "Articles 冠詞 · 第 39 題",
+    "detail": "We usually eat _____ breakfast at seven.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=39"
+  },
+  {
+    "id": "grammar:articles:q40",
+    "type": "grammar",
+    "ordinal": 40,
+    "label": "Articles 冠詞 · 第 40 題",
+    "detail": "They play _____ chess every Saturday.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=40"
+  },
+  {
+    "id": "grammar:articles:q41",
+    "type": "grammar",
+    "ordinal": 41,
+    "label": "Articles 冠詞 · 第 41 題",
+    "detail": "My cousin lives in _____ Paris.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=41"
+  },
+  {
+    "id": "grammar:articles:q42",
+    "type": "grammar",
+    "ordinal": 42,
+    "label": "Articles 冠詞 · 第 42 題",
+    "detail": "We travelled to _____ Spain last summer.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=42"
+  },
+  {
+    "id": "grammar:articles:q43",
+    "type": "grammar",
+    "ordinal": 43,
+    "label": "Articles 冠詞 · 第 43 題",
+    "detail": "My son is at _____ school now, so he cannot answer the phone.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=43"
+  },
+  {
+    "id": "grammar:articles:q44",
+    "type": "grammar",
+    "ordinal": 44,
+    "label": "Articles 冠詞 · 第 44 題",
+    "detail": "Ben was tired, so he went to _____ bed early.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=44"
+  },
+  {
+    "id": "grammar:articles:q45",
+    "type": "grammar",
+    "ordinal": 45,
+    "label": "Articles 冠詞 · 第 45 題",
+    "detail": "My sister is studying at _____ university in Bristol.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=45"
+  },
+  {
+    "id": "grammar:articles:q46",
+    "type": "grammar",
+    "ordinal": 46,
+    "label": "Articles 冠詞 · 第 46 題",
+    "detail": "Dad goes to _____ work at eight every morning.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=46"
+  },
+  {
+    "id": "grammar:articles:q47",
+    "type": "grammar",
+    "ordinal": 47,
+    "label": "Articles 冠詞 · 第 47 題",
+    "detail": "We usually travel to Manchester by _____ train.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=47"
+  },
+  {
+    "id": "grammar:articles:q48",
+    "type": "grammar",
+    "ordinal": 48,
+    "label": "Articles 冠詞 · 第 48 題",
+    "detail": "I went _____ home after class because I was tired.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=48"
+  },
+  {
+    "id": "grammar:articles:q49",
+    "type": "grammar",
+    "ordinal": 49,
+    "label": "Articles 冠詞 · 第 49 題",
+    "detail": "We flew over _____ Atlantic Ocean.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=49"
+  },
+  {
+    "id": "grammar:articles:q50",
+    "type": "grammar",
+    "ordinal": 50,
+    "label": "Articles 冠詞 · 第 50 題",
+    "detail": "She now lives in _____ United Kingdom.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=50"
+  },
+  {
+    "id": "grammar:articles:q51",
+    "type": "grammar",
+    "ordinal": 51,
+    "label": "Articles 冠詞 · 第 51 題",
+    "detail": "I need _____ umbrella because it's raining.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=51"
+  },
+  {
+    "id": "grammar:articles:q52",
+    "type": "grammar",
+    "ordinal": 52,
+    "label": "Articles 冠詞 · 第 52 題",
+    "detail": "There is only one window beside the door. Please close _____ window.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=52"
+  },
+  {
+    "id": "grammar:articles:q53",
+    "type": "grammar",
+    "ordinal": 53,
+    "label": "Articles 冠詞 · 第 53 題",
+    "detail": "_____ cats usually sleep for many hours a day.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=53"
+  },
+  {
+    "id": "grammar:articles:q54",
+    "type": "grammar",
+    "ordinal": 54,
+    "label": "Articles 冠詞 · 第 54 題",
+    "detail": "Ella is _____ doctor at the local clinic.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=54"
+  },
+  {
+    "id": "grammar:articles:q55",
+    "type": "grammar",
+    "ordinal": 55,
+    "label": "Articles 冠詞 · 第 55 題",
+    "detail": "We speak _____ English in class.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=55"
+  },
+  {
+    "id": "grammar:articles:q56",
+    "type": "grammar",
+    "ordinal": 56,
+    "label": "Articles 冠詞 · 第 56 題",
+    "detail": "I bought a sandwich at lunchtime. _____ sandwich was delicious.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=56"
+  },
+  {
+    "id": "grammar:articles:q57",
+    "type": "grammar",
+    "ordinal": 57,
+    "label": "Articles 冠詞 · 第 57 題",
+    "detail": "We usually have _____ lunch at 12:30.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=57"
+  },
+  {
+    "id": "grammar:articles:q58",
+    "type": "grammar",
+    "ordinal": 58,
+    "label": "Articles 冠詞 · 第 58 題",
+    "detail": "This is _____ most useful app on my phone.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=58"
+  },
+  {
+    "id": "grammar:articles:q59",
+    "type": "grammar",
+    "ordinal": 59,
+    "label": "Articles 冠詞 · 第 59 題",
+    "detail": "My aunt lives in _____ Tokyo.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=59"
+  },
+  {
+    "id": "grammar:articles:q60",
+    "type": "grammar",
+    "ordinal": 60,
+    "label": "Articles 冠詞 · 第 60 題",
+    "detail": "Could you pass me _____ salt on the table?",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=60"
+  },
+  {
+    "id": "grammar:articles:q61",
+    "type": "grammar",
+    "ordinal": 61,
+    "label": "Articles 冠詞 · 第 61 題",
+    "detail": "It took us _____ hour to get home.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=61"
+  },
+  {
+    "id": "grammar:articles:q62",
+    "type": "grammar",
+    "ordinal": 62,
+    "label": "Articles 冠詞 · 第 62 題",
+    "detail": "Ben is _____ useful member of the team.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=62"
+  },
+  {
+    "id": "grammar:articles:q63",
+    "type": "grammar",
+    "ordinal": 63,
+    "label": "Articles 冠詞 · 第 63 題",
+    "detail": "We usually go there by _____ bus.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=63"
+  },
+  {
+    "id": "grammar:articles:q64",
+    "type": "grammar",
+    "ordinal": 64,
+    "label": "Articles 冠詞 · 第 64 題",
+    "detail": "Mia plays _____ piano every evening.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=64"
+  },
+  {
+    "id": "grammar:articles:q65",
+    "type": "grammar",
+    "ordinal": 65,
+    "label": "Articles 冠詞 · 第 65 題",
+    "detail": "The children are at _____ school until three.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=65"
+  },
+  {
+    "id": "grammar:articles:q66",
+    "type": "grammar",
+    "ordinal": 66,
+    "label": "Articles 冠詞 · 第 66 題",
+    "detail": "I went to _____ school my daughter attends to speak to her teacher.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=66"
+  },
+  {
+    "id": "grammar:articles:q67",
+    "type": "grammar",
+    "ordinal": 67,
+    "label": "Articles 冠詞 · 第 67 題",
+    "detail": "Grandpa was tired, so he went to _____ bed early.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=67"
+  },
+  {
+    "id": "grammar:articles:q68",
+    "type": "grammar",
+    "ordinal": 68,
+    "label": "Articles 冠詞 · 第 68 題",
+    "detail": "Your coat is on _____ bed in the guest room.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=68"
+  },
+  {
+    "id": "grammar:articles:q69",
+    "type": "grammar",
+    "ordinal": 69,
+    "label": "Articles 冠詞 · 第 69 題",
+    "detail": "I usually go to _____ work by train.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=69"
+  },
+  {
+    "id": "grammar:articles:q70",
+    "type": "grammar",
+    "ordinal": 70,
+    "label": "Articles 冠詞 · 第 70 題",
+    "detail": "There is _____ lot of traffic today.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=70"
+  },
+  {
+    "id": "grammar:articles:q71",
+    "type": "grammar",
+    "ordinal": 71,
+    "label": "Articles 冠詞 · 第 71 題",
+    "detail": "Only _____ few people knew the answer.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=71"
+  },
+  {
+    "id": "grammar:articles:q72",
+    "type": "grammar",
+    "ordinal": 72,
+    "label": "Articles 冠詞 · 第 72 題",
+    "detail": "Leo is _____ only student with a key.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=72"
+  },
+  {
+    "id": "grammar:articles:q73",
+    "type": "grammar",
+    "ordinal": 73,
+    "label": "Articles 冠詞 · 第 73 題",
+    "detail": "Today is _____ first day of the course.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=73"
+  },
+  {
+    "id": "grammar:articles:q74",
+    "type": "grammar",
+    "ordinal": 74,
+    "label": "Articles 冠詞 · 第 74 題",
+    "detail": "Maya and I ordered _____ same dish.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=74"
+  },
+  {
+    "id": "grammar:articles:q75",
+    "type": "grammar",
+    "ordinal": 75,
+    "label": "Articles 冠詞 · 第 75 題",
+    "detail": "I borrowed _____ my brother's charger.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=75"
+  },
+  {
+    "id": "grammar:articles:q76",
+    "type": "grammar",
+    "ordinal": 76,
+    "label": "Articles 冠詞 · 第 76 題",
+    "detail": "_____ this book belongs to Maya.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=76"
+  },
+  {
+    "id": "grammar:articles:q77",
+    "type": "grammar",
+    "ordinal": 77,
+    "label": "Articles 冠詞 · 第 77 題",
+    "detail": "We are visiting _____ Chans on Sunday.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=77"
+  },
+  {
+    "id": "grammar:articles:q78",
+    "type": "grammar",
+    "ordinal": 78,
+    "label": "Articles 冠詞 · 第 78 題",
+    "detail": "My cousin moved to _____ Netherlands last year.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=78"
+  },
+  {
+    "id": "grammar:articles:q79",
+    "type": "grammar",
+    "ordinal": 79,
+    "label": "Articles 冠詞 · 第 79 題",
+    "detail": "We could see _____ Mount Fuji from the train.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=79"
+  },
+  {
+    "id": "grammar:articles:q80",
+    "type": "grammar",
+    "ordinal": 80,
+    "label": "Articles 冠詞 · 第 80 題",
+    "detail": "The boat sailed along _____ Thames.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=80"
+  },
+  {
+    "id": "grammar:articles:q81",
+    "type": "grammar",
+    "ordinal": 81,
+    "label": "Articles 冠詞 · 第 81 題",
+    "detail": "They went skiing in _____ Alps last winter.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=81"
+  },
+  {
+    "id": "grammar:articles:q82",
+    "type": "grammar",
+    "ordinal": 82,
+    "label": "Articles 冠詞 · 第 82 題",
+    "detail": "She travelled across _____ Asia for three months.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=82"
+  },
+  {
+    "id": "grammar:articles:q83",
+    "type": "grammar",
+    "ordinal": 83,
+    "label": "Articles 冠詞 · 第 83 題",
+    "detail": "I usually exercise in _____ morning.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=83"
+  },
+  {
+    "id": "grammar:articles:q84",
+    "type": "grammar",
+    "ordinal": 84,
+    "label": "Articles 冠詞 · 第 84 題",
+    "detail": "We got home late at _____ night.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=84"
+  },
+  {
+    "id": "grammar:articles:q85",
+    "type": "grammar",
+    "ordinal": 85,
+    "label": "Articles 冠詞 · 第 85 題",
+    "detail": "I'm visiting Sam _____ next week.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=85"
+  },
+  {
+    "id": "grammar:articles:q86",
+    "type": "grammar",
+    "ordinal": 86,
+    "label": "Articles 冠詞 · 第 86 題",
+    "detail": "We arrived on Monday. On _____ next day, we visited the museum.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=86"
+  },
+  {
+    "id": "grammar:articles:q87",
+    "type": "grammar",
+    "ordinal": 87,
+    "label": "Articles 冠詞 · 第 87 題",
+    "detail": "I started this job _____ last year.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=87"
+  },
+  {
+    "id": "grammar:articles:q88",
+    "type": "grammar",
+    "ordinal": 88,
+    "label": "Articles 冠詞 · 第 88 題",
+    "detail": "Friday is _____ last day of the course.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=88"
+  },
+  {
+    "id": "grammar:articles:q89",
+    "type": "grammar",
+    "ordinal": 89,
+    "label": "Articles 冠詞 · 第 89 題",
+    "detail": "We had _____ big breakfast before the walk.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=89"
+  },
+  {
+    "id": "grammar:articles:q90",
+    "type": "grammar",
+    "ordinal": 90,
+    "label": "Articles 冠詞 · 第 90 題",
+    "detail": "_____ breakfast at the hotel was excellent.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=90"
+  },
+  {
+    "id": "grammar:articles:q91",
+    "type": "grammar",
+    "ordinal": 91,
+    "label": "Articles 冠詞 · 第 91 題",
+    "detail": "I often listen to _____ music when I study.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=91"
+  },
+  {
+    "id": "grammar:articles:q92",
+    "type": "grammar",
+    "ordinal": 92,
+    "label": "Articles 冠詞 · 第 92 題",
+    "detail": "Please turn down _____ music in the living room.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=92"
+  },
+  {
+    "id": "grammar:articles:q93",
+    "type": "grammar",
+    "ordinal": 93,
+    "label": "Articles 冠詞 · 第 93 題",
+    "detail": "I drink _____ coffee every morning.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=93"
+  },
+  {
+    "id": "grammar:articles:q94",
+    "type": "grammar",
+    "ordinal": 94,
+    "label": "Articles 冠詞 · 第 94 題",
+    "detail": "I'd like _____ coffee, please.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=94"
+  },
+  {
+    "id": "grammar:articles:q95",
+    "type": "grammar",
+    "ordinal": 95,
+    "label": "Articles 冠詞 · 第 95 題",
+    "detail": "_____ coffee you made is very strong.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=95"
+  },
+  {
+    "id": "grammar:articles:q96",
+    "type": "grammar",
+    "ordinal": 96,
+    "label": "Articles 冠詞 · 第 96 題",
+    "detail": "Sara gave me _____ interesting idea.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=96"
+  },
+  {
+    "id": "grammar:articles:q97",
+    "type": "grammar",
+    "ordinal": 97,
+    "label": "Articles 冠詞 · 第 97 題",
+    "detail": "_____ 18-year-old student won the competition.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=97"
+  },
+  {
+    "id": "grammar:articles:q98",
+    "type": "grammar",
+    "ordinal": 98,
+    "label": "Articles 冠詞 · 第 98 題",
+    "detail": "This is _____ one-way street.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=98"
+  },
+  {
+    "id": "grammar:articles:q99",
+    "type": "grammar",
+    "ordinal": 99,
+    "label": "Articles 冠詞 · 第 99 題",
+    "detail": "We flew across _____ Pacific Ocean.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=99"
+  },
+  {
+    "id": "grammar:articles:q100",
+    "type": "grammar",
+    "ordinal": 100,
+    "label": "Articles 冠詞 · 第 100 題",
+    "detail": "We spent the afternoon at _____ British Museum.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=100"
+  },
+  {
+    "id": "grammar:articles:q101",
+    "type": "grammar",
+    "ordinal": 101,
+    "label": "Articles 冠詞 · 第 101 題",
+    "detail": "Students at this school have to wear _____ uniform.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=101"
+  },
+  {
+    "id": "grammar:articles:q102",
+    "type": "grammar",
+    "ordinal": 102,
+    "label": "Articles 冠詞 · 第 102 題",
+    "detail": "_____ homework our teacher gave us yesterday is quite difficult.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=102"
+  },
+  {
+    "id": "grammar:articles:q103",
+    "type": "grammar",
+    "ordinal": 103,
+    "label": "Articles 冠詞 · 第 103 題",
+    "detail": "We had _____ chicken and rice for dinner.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=103"
+  },
+  {
+    "id": "grammar:articles:q104",
+    "type": "grammar",
+    "ordinal": 104,
+    "label": "Articles 冠詞 · 第 104 題",
+    "detail": "The doctor ordered _____ X-ray of my arm.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=104"
+  },
+  {
+    "id": "grammar:articles:q105",
+    "type": "grammar",
+    "ordinal": 105,
+    "label": "Articles 冠詞 · 第 105 題",
+    "detail": "I heard the news on _____ radio this morning.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=105"
+  },
+  {
+    "id": "grammar:articles:q106",
+    "type": "grammar",
+    "ordinal": 106,
+    "label": "Articles 冠詞 · 第 106 題",
+    "detail": "We booked _____ room near the station for one night.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=106"
+  },
+  {
+    "id": "grammar:articles:q107",
+    "type": "grammar",
+    "ordinal": 107,
+    "label": "Articles 冠詞 · 第 107 題",
+    "detail": "_____ Professor Chan teaches us science.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=107"
+  },
+  {
+    "id": "grammar:articles:q108",
+    "type": "grammar",
+    "ordinal": 108,
+    "label": "Articles 冠詞 · 第 108 題",
+    "detail": "They travelled across _____ Sahara Desert.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=108"
+  },
+  {
+    "id": "grammar:articles:q109",
+    "type": "grammar",
+    "ordinal": 109,
+    "label": "Articles 冠詞 · 第 109 題",
+    "detail": "She gave me _____ useful advice before the interview.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=109"
+  },
+  {
+    "id": "grammar:articles:q110",
+    "type": "grammar",
+    "ordinal": 110,
+    "label": "Articles 冠詞 · 第 110 題",
+    "detail": "We saw _____ chicken walking across the road.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=110"
+  },
+  {
+    "id": "grammar:articles:q111",
+    "type": "grammar",
+    "ordinal": 111,
+    "label": "Articles 冠詞 · 第 111 題",
+    "detail": "_____ doctor who treated me yesterday was very kind.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=111"
+  },
+  {
+    "id": "grammar:articles:q112",
+    "type": "grammar",
+    "ordinal": 112,
+    "label": "Articles 冠詞 · 第 112 題",
+    "detail": "My uncle is in _____ hospital after an operation.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=112"
+  },
+  {
+    "id": "grammar:articles:q113",
+    "type": "grammar",
+    "ordinal": 113,
+    "label": "Articles 冠詞 · 第 113 題",
+    "detail": "Moving to a new city was _____ exciting experience.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=113"
+  },
+  {
+    "id": "grammar:articles:q114",
+    "type": "grammar",
+    "ordinal": 114,
+    "label": "Articles 冠詞 · 第 114 題",
+    "detail": "I need _____ paper to print these forms.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=114"
+  },
+  {
+    "id": "grammar:articles:q115",
+    "type": "grammar",
+    "ordinal": 115,
+    "label": "Articles 冠詞 · 第 115 題",
+    "detail": "_____ elderly sometimes need extra help on crowded buses.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=115"
+  },
+  {
+    "id": "grammar:articles:q116",
+    "type": "grammar",
+    "ordinal": 116,
+    "label": "Articles 冠詞 · 第 116 題",
+    "detail": "I need to see _____ doctor today.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=116"
+  },
+  {
+    "id": "grammar:articles:q117",
+    "type": "grammar",
+    "ordinal": 117,
+    "label": "Articles 冠詞 · 第 117 題",
+    "detail": "She works in _____ United Arab Emirates.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=117"
+  },
+  {
+    "id": "grammar:articles:q118",
+    "type": "grammar",
+    "ordinal": 118,
+    "label": "Articles 冠詞 · 第 118 題",
+    "detail": "We usually have _____ dinner at seven.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=118"
+  },
+  {
+    "id": "grammar:articles:q119",
+    "type": "grammar",
+    "ordinal": 119,
+    "label": "Articles 冠詞 · 第 119 題",
+    "detail": "_____ dinner we had at the hotel was excellent.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=119"
+  },
+  {
+    "id": "grammar:articles:q120",
+    "type": "grammar",
+    "ordinal": 120,
+    "label": "Articles 冠詞 · 第 120 題",
+    "detail": "We had _____ late dinner after the show.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=120"
+  },
+  {
+    "id": "grammar:articles:q121",
+    "type": "grammar",
+    "ordinal": 121,
+    "label": "Articles 冠詞 · 第 121 題",
+    "detail": "In my class, _____ most students walk to school.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=121"
+  },
+  {
+    "id": "grammar:articles:q122",
+    "type": "grammar",
+    "ordinal": 122,
+    "label": "Articles 冠詞 · 第 122 題",
+    "detail": "Sara is _____ most helpful student in our group.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=122"
+  },
+  {
+    "id": "grammar:articles:q123",
+    "type": "grammar",
+    "ordinal": 123,
+    "label": "Articles 冠詞 · 第 123 題",
+    "detail": "My cousin moved to _____ Canada two years ago.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=123"
+  },
+  {
+    "id": "grammar:articles:q124",
+    "type": "grammar",
+    "ordinal": 124,
+    "label": "Articles 冠詞 · 第 124 題",
+    "detail": "_____ glass beside your plate is clean.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=124"
+  },
+  {
+    "id": "grammar:articles:q125",
+    "type": "grammar",
+    "ordinal": 125,
+    "label": "Articles 冠詞 · 第 125 題",
+    "detail": "This table is made of _____ glass.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=125"
+  },
+  {
+    "id": "grammar:articles:q126",
+    "type": "grammar",
+    "ordinal": 126,
+    "label": "Articles 冠詞 · 第 126 題",
+    "detail": "I wrote _____ paper for my history class.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=126"
+  },
+  {
+    "id": "grammar:articles:q127",
+    "type": "grammar",
+    "ordinal": 127,
+    "label": "Articles 冠詞 · 第 127 題",
+    "detail": "_____ paper on your desk is for you.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=127"
+  },
+  {
+    "id": "grammar:articles:q128",
+    "type": "grammar",
+    "ordinal": 128,
+    "label": "Articles 冠詞 · 第 128 題",
+    "detail": "_____ time passes quickly when we are busy.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=128"
+  },
+  {
+    "id": "grammar:articles:q129",
+    "type": "grammar",
+    "ordinal": 129,
+    "label": "Articles 冠詞 · 第 129 題",
+    "detail": "_____ time on this clock is wrong.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=129"
+  },
+  {
+    "id": "grammar:articles:q130",
+    "type": "grammar",
+    "ordinal": 130,
+    "label": "Articles 冠詞 · 第 130 題",
+    "detail": "Could you give me _____ piece of advice?",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=130"
+  },
+  {
+    "id": "grammar:articles:q131",
+    "type": "grammar",
+    "ordinal": 131,
+    "label": "Articles 冠詞 · 第 131 題",
+    "detail": "_____ Doctor Lee will see you now.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=131"
+  },
+  {
+    "id": "grammar:articles:q132",
+    "type": "grammar",
+    "ordinal": 132,
+    "label": "Articles 冠詞 · 第 132 題",
+    "detail": "_____ police are waiting outside.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=132"
+  },
+  {
+    "id": "grammar:articles:q133",
+    "type": "grammar",
+    "ordinal": 133,
+    "label": "Articles 冠詞 · 第 133 題",
+    "detail": "My grandparents go to _____ church every Sunday.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=133"
+  },
+  {
+    "id": "grammar:articles:q134",
+    "type": "grammar",
+    "ordinal": 134,
+    "label": "Articles 冠詞 · 第 134 題",
+    "detail": "_____ church at the end of our road is over 100 years old.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=134"
+  },
+  {
+    "id": "grammar:articles:q135",
+    "type": "grammar",
+    "ordinal": 135,
+    "label": "Articles 冠詞 · 第 135 題",
+    "detail": "We went home on _____ foot.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=135"
+  },
+  {
+    "id": "grammar:articles:q136",
+    "type": "grammar",
+    "ordinal": 136,
+    "label": "Articles 冠詞 · 第 136 題",
+    "detail": "We watched the final on _____ television.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=136"
+  },
+  {
+    "id": "grammar:articles:q137",
+    "type": "grammar",
+    "ordinal": 137,
+    "label": "Articles 冠詞 · 第 137 題",
+    "detail": "Let's go to _____ cinema tonight.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=137"
+  },
+  {
+    "id": "grammar:articles:q138",
+    "type": "grammar",
+    "ordinal": 138,
+    "label": "Articles 冠詞 · 第 138 題",
+    "detail": "We met at _____ airport near our hotel.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=138"
+  },
+  {
+    "id": "grammar:articles:q139",
+    "type": "grammar",
+    "ordinal": 139,
+    "label": "Articles 冠詞 · 第 139 題",
+    "detail": "My aunt lives on _____ Hong Kong Island.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=139"
+  },
+  {
+    "id": "grammar:articles:q140",
+    "type": "grammar",
+    "ordinal": 140,
+    "label": "Articles 冠詞 · 第 140 題",
+    "detail": "They spent a week in _____ Canary Islands.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=140"
+  },
+  {
+    "id": "grammar:articles:q141",
+    "type": "grammar",
+    "ordinal": 141,
+    "label": "Articles 冠詞 · 第 141 題",
+    "detail": "We could see _____ Mount Kinabalu from the hotel.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=141"
+  },
+  {
+    "id": "grammar:articles:q142",
+    "type": "grammar",
+    "ordinal": 142,
+    "label": "Articles 冠詞 · 第 142 題",
+    "detail": "They sailed across _____ Mediterranean Sea.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=142"
+  },
+  {
+    "id": "grammar:articles:q143",
+    "type": "grammar",
+    "ordinal": 143,
+    "label": "Articles 冠詞 · 第 143 題",
+    "detail": "She has _____ experience working with young children.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=143"
+  },
+  {
+    "id": "grammar:articles:q144",
+    "type": "grammar",
+    "ordinal": 144,
+    "label": "Articles 冠詞 · 第 144 題",
+    "detail": "I found _____ hair in my soup.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=144"
+  },
+  {
+    "id": "grammar:articles:q145",
+    "type": "grammar",
+    "ordinal": 145,
+    "label": "Articles 冠詞 · 第 145 題",
+    "detail": "There isn't _____ room in the car for another suitcase.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=145"
+  },
+  {
+    "id": "grammar:articles:q146",
+    "type": "grammar",
+    "ordinal": 146,
+    "label": "Articles 冠詞 · 第 146 題",
+    "detail": "We have _____ homework every evening.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=146"
+  },
+  {
+    "id": "grammar:articles:q147",
+    "type": "grammar",
+    "ordinal": 147,
+    "label": "Articles 冠詞 · 第 147 題",
+    "detail": "I need _____ information about the course.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=147"
+  },
+  {
+    "id": "grammar:articles:q148",
+    "type": "grammar",
+    "ordinal": 148,
+    "label": "Articles 冠詞 · 第 148 題",
+    "detail": "_____ information on this page is out of date.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=148"
+  },
+  {
+    "id": "grammar:articles:q149",
+    "type": "grammar",
+    "ordinal": 149,
+    "label": "Articles 冠詞 · 第 149 題",
+    "detail": "We saw _____ elephant at the zoo.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=149"
+  },
+  {
+    "id": "grammar:articles:q150",
+    "type": "grammar",
+    "ordinal": 150,
+    "label": "Articles 冠詞 · 第 150 題",
+    "detail": "We saw an elephant at the zoo. _____ elephant was eating leaves.",
+    "url": "grammar-system.html?lesson=articles&view=practice&question=150"
+  },
+  {
+    "id": "grammar:tense:curation",
+    "type": "grammar",
+    "ordinal": 0,
+    "label": "Tense 時態 · 教學導讀",
+    "detail": "Grammar · 195 題配套練習",
+    "url": "grammar-system.html?lesson=tense&view=curation"
+  },
+  {
+    "id": "grammar:tense:q1",
+    "type": "grammar",
+    "ordinal": 1,
+    "label": "Tense 時態 · 第 1 題",
+    "detail": "Mia usually _____ (walk) to work because she lives nearby.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=1"
+  },
+  {
+    "id": "grammar:tense:q2",
+    "type": "grammar",
+    "ordinal": 2,
+    "label": "Tense 時態 · 第 2 題",
+    "detail": "Daniel _____ (own) a small bookshop near the station.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=2"
+  },
+  {
+    "id": "grammar:tense:q3",
+    "type": "grammar",
+    "ordinal": 3,
+    "label": "Tense 時態 · 第 3 題",
+    "detail": "My sister usually _____ (not / eat) meat at home.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=3"
+  },
+  {
+    "id": "grammar:tense:q4",
+    "type": "grammar",
+    "ordinal": 4,
+    "label": "Tense 時態 · 第 4 題",
+    "detail": "The last train _____ (leave) at 11:30 every night.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=4"
+  },
+  {
+    "id": "grammar:tense:q5",
+    "type": "grammar",
+    "ordinal": 5,
+    "label": "Tense 時態 · 第 5 題",
+    "detail": "We _____ (visit) the museum last Saturday.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=5"
+  },
+  {
+    "id": "grammar:tense:q6",
+    "type": "grammar",
+    "ordinal": 6,
+    "label": "Tense 時態 · 第 6 題",
+    "detail": "Leo _____ (lose) his keys yesterday.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=6"
+  },
+  {
+    "id": "grammar:tense:q7",
+    "type": "grammar",
+    "ordinal": 7,
+    "label": "Tense 時態 · 第 7 題",
+    "detail": "I _____ (not / check) my email last night.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=7"
+  },
+  {
+    "id": "grammar:tense:q8",
+    "type": "grammar",
+    "ordinal": 8,
+    "label": "Tense 時態 · 第 8 題",
+    "detail": "Last summer, we _____ (stay) in Edinburgh for four days.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=8"
+  },
+  {
+    "id": "grammar:tense:q9",
+    "type": "grammar",
+    "ordinal": 9,
+    "label": "Tense 時態 · 第 9 題",
+    "detail": "The phone is ringing. I _____ (answer) it.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=9"
+  },
+  {
+    "id": "grammar:tense:q10",
+    "type": "grammar",
+    "ordinal": 10,
+    "label": "Tense 時態 · 第 10 題",
+    "detail": "Don't worry. I _____ (call) you when I arrive.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=10"
+  },
+  {
+    "id": "grammar:tense:q11",
+    "type": "grammar",
+    "ordinal": 11,
+    "label": "Tense 時態 · 第 11 題",
+    "detail": "I think Ava _____ (enjoy) the course.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=11"
+  },
+  {
+    "id": "grammar:tense:q12",
+    "type": "grammar",
+    "ordinal": 12,
+    "label": "Tense 時態 · 第 12 題",
+    "detail": "Look at those dark clouds. It _____ (rain) soon.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=12"
+  },
+  {
+    "id": "grammar:tense:q13",
+    "type": "grammar",
+    "ordinal": 13,
+    "label": "Tense 時態 · 第 13 題",
+    "detail": "We decided last month, but we have not arranged anything yet. We _____ (move) to Bristol next year.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=13"
+  },
+  {
+    "id": "grammar:tense:q14",
+    "type": "grammar",
+    "ordinal": 14,
+    "label": "Tense 時態 · 第 14 題",
+    "detail": "Please be quiet. Nora _____ (study) right now.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=14"
+  },
+  {
+    "id": "grammar:tense:q15",
+    "type": "grammar",
+    "ordinal": 15,
+    "label": "Tense 時態 · 第 15 題",
+    "detail": "I normally live alone, but I _____ (stay) with my aunt this week.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=15"
+  },
+  {
+    "id": "grammar:tense:q16",
+    "type": "grammar",
+    "ordinal": 16,
+    "label": "Tense 時態 · 第 16 題",
+    "detail": "Leo usually drives, but he _____ (take) the bus this week because his car is at the garage.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=16"
+  },
+  {
+    "id": "grammar:tense:q17",
+    "type": "grammar",
+    "ordinal": 17,
+    "label": "Tense 時態 · 第 17 題",
+    "detail": "The appointment is already booked for 4 p.m. tomorrow. I _____ (meet) my tutor then.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=17"
+  },
+  {
+    "id": "grammar:tense:q18",
+    "type": "grammar",
+    "ordinal": 18,
+    "label": "Tense 時態 · 第 18 題",
+    "detail": "At 8 p.m. last night, I _____ (cook) dinner.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=18"
+  },
+  {
+    "id": "grammar:tense:q19",
+    "type": "grammar",
+    "ordinal": 19,
+    "label": "Tense 時態 · 第 19 題",
+    "detail": "Sam's journey home took an hour. While he _____ (drive) home, his phone rang.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=19"
+  },
+  {
+    "id": "grammar:tense:q20",
+    "type": "grammar",
+    "ordinal": 20,
+    "label": "Tense 時態 · 第 20 題",
+    "detail": "We had already been at the bus stop for several minutes. We _____ (wait) when the rain started.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=20"
+  },
+  {
+    "id": "grammar:tense:q21",
+    "type": "grammar",
+    "ordinal": 21,
+    "label": "Tense 時態 · 第 21 題",
+    "detail": "The wedding continued until 1 a.m. At midnight, the guests _____ (still / dance).",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=21"
+  },
+  {
+    "id": "grammar:tense:q22",
+    "type": "grammar",
+    "ordinal": 22,
+    "label": "Tense 時態 · 第 22 題",
+    "detail": "My flight lasts from 9 a.m. to 3 p.m. tomorrow. This time tomorrow, I _____ (fly) to Singapore.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=22"
+  },
+  {
+    "id": "grammar:tense:q23",
+    "type": "grammar",
+    "ordinal": 23,
+    "label": "Tense 時態 · 第 23 題",
+    "detail": "Dinner normally takes us about an hour. Don't call at eight; we _____ (eat) dinner then.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=23"
+  },
+  {
+    "id": "grammar:tense:q24",
+    "type": "grammar",
+    "ordinal": 24,
+    "label": "Tense 時態 · 第 24 題",
+    "detail": "The meeting runs from 10 to 11 next Monday. At 10:30, the team _____ (meet) a new client.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=24"
+  },
+  {
+    "id": "grammar:tense:q25",
+    "type": "grammar",
+    "ordinal": 25,
+    "label": "Tense 時態 · 第 25 題",
+    "detail": "I _____ (read) this book twice so far, and I may read it again.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=25"
+  },
+  {
+    "id": "grammar:tense:q26",
+    "type": "grammar",
+    "ordinal": 26,
+    "label": "Tense 時態 · 第 26 題",
+    "detail": "Lunch was at 1 p.m., and it is only 3 p.m. now. Priya _____ (finish) three tasks since lunch.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=26"
+  },
+  {
+    "id": "grammar:tense:q27",
+    "type": "grammar",
+    "ordinal": 27,
+    "label": "Tense 時態 · 第 27 題",
+    "detail": "We last saw Daniel in January. We _____ (not / see) him since then.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=27"
+  },
+  {
+    "id": "grammar:tense:q28",
+    "type": "grammar",
+    "ordinal": 28,
+    "label": "Tense 時態 · 第 28 題",
+    "detail": "_____ you ever _____ (try) Korean food? If not, we can try it tonight.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=28"
+  },
+  {
+    "id": "grammar:tense:q29",
+    "type": "grammar",
+    "ordinal": 29,
+    "label": "Tense 時態 · 第 29 題",
+    "detail": "Maya _____ (just / send) the file, and it is in your inbox now.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=29"
+  },
+  {
+    "id": "grammar:tense:q30",
+    "type": "grammar",
+    "ordinal": 30,
+    "label": "Tense 時態 · 第 30 題",
+    "detail": "I arrived at 9:10. The train left at 9:00. By the time I reached the station, the train _____ (leave).",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=30"
+  },
+  {
+    "id": "grammar:tense:q31",
+    "type": "grammar",
+    "ordinal": 31,
+    "label": "Tense 時態 · 第 31 題",
+    "detail": "I left work at 6 p.m. When I reached my front door at 6:30, I realised I _____ (leave) my key at work.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=31"
+  },
+  {
+    "id": "grammar:tense:q32",
+    "type": "grammar",
+    "ordinal": 32,
+    "label": "Tense 時態 · 第 32 題",
+    "detail": "We entered the office at 8 p.m. Everyone went home before 7. When we entered, everyone _____ (already / go) home.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=32"
+  },
+  {
+    "id": "grammar:tense:q33",
+    "type": "grammar",
+    "ordinal": 33,
+    "label": "Tense 時態 · 第 33 題",
+    "detail": "Amir finished every report before 5:30. At 6 p.m., he left the office because he _____ (complete) all his work.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=33"
+  },
+  {
+    "id": "grammar:tense:q34",
+    "type": "grammar",
+    "ordinal": 34,
+    "label": "Tense 時態 · 第 34 題",
+    "detail": "I have five lessons left, and I will finish the last one on Thursday. By next Friday, I _____ (complete) all five lessons.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=34"
+  },
+  {
+    "id": "grammar:tense:q35",
+    "type": "grammar",
+    "ordinal": 35,
+    "label": "Tense 時態 · 第 35 題",
+    "detail": "You will arrive at 8 p.m. We plan to finish cooking by 7:30. By the time you arrive, we _____ (cook) dinner.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=35"
+  },
+  {
+    "id": "grammar:tense:q36",
+    "type": "grammar",
+    "ordinal": 36,
+    "label": "Tense 時態 · 第 36 題",
+    "detail": "Sara needs £2,000. She will reach that amount in December. By the end of this year, she _____ (save) enough money for the course.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=36"
+  },
+  {
+    "id": "grammar:tense:q37",
+    "type": "grammar",
+    "ordinal": 37,
+    "label": "Tense 時態 · 第 37 題",
+    "detail": "I started studying two hours ago, and I am still studying now. I _____ (study) for two hours.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=37"
+  },
+  {
+    "id": "grammar:tense:q38",
+    "type": "grammar",
+    "ordinal": 38,
+    "label": "Tense 時態 · 第 38 題",
+    "detail": "It started raining this morning, and it is still raining now. It _____ (rain) all morning.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=38"
+  },
+  {
+    "id": "grammar:tense:q39",
+    "type": "grammar",
+    "ordinal": 39,
+    "label": "Tense 時態 · 第 39 題",
+    "detail": "Maya started after breakfast, and she is still working now. She _____ (work) on her presentation since breakfast.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=39"
+  },
+  {
+    "id": "grammar:tense:q40",
+    "type": "grammar",
+    "ordinal": 40,
+    "label": "Tense 時態 · 第 40 題",
+    "detail": "They started practising an hour ago, and they are still practising now. They _____ (practise) the same song for an hour.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=40"
+  },
+  {
+    "id": "grammar:tense:q41",
+    "type": "grammar",
+    "ordinal": 41,
+    "label": "Tense 時態 · 第 41 題",
+    "detail": "I started work at 7 a.m. At 6 p.m., I was exhausted and still had one hour left. I _____ (work) since early morning.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=41"
+  },
+  {
+    "id": "grammar:tense:q42",
+    "type": "grammar",
+    "ordinal": 42,
+    "label": "Tense 時態 · 第 42 題",
+    "detail": "It rained continuously for four hours before the match, and the ground was wet. It _____ (rain) for hours before the match.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=42"
+  },
+  {
+    "id": "grammar:tense:q43",
+    "type": "grammar",
+    "ordinal": 43,
+    "label": "Tense 時態 · 第 43 題",
+    "detail": "We started waiting at 6:00. The bus finally arrived at 6:55. We _____ (wait) for nearly an hour when it arrived.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=43"
+  },
+  {
+    "id": "grammar:tense:q44",
+    "type": "grammar",
+    "ordinal": 44,
+    "label": "Tense 時態 · 第 44 題",
+    "detail": "I will start studying at 7 a.m. By noon, I _____ (study) for five hours without a break, and I will still be studying then.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=44"
+  },
+  {
+    "id": "grammar:tense:q45",
+    "type": "grammar",
+    "ordinal": 45,
+    "label": "Tense 時態 · 第 45 題",
+    "detail": "Nina will start work at 8 a.m. and finish at 8 p.m. At 6 p.m., she _____ (work) for ten hours, and she will still have two hours left.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=45"
+  },
+  {
+    "id": "grammar:tense:q46",
+    "type": "grammar",
+    "ordinal": 46,
+    "label": "Tense 時態 · 第 46 題",
+    "detail": "We will start driving at 6 a.m. You will meet us at noon, but we will still have two hours to drive. When you meet us, we _____ (drive) for six hours.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=46"
+  },
+  {
+    "id": "grammar:tense:q47",
+    "type": "grammar",
+    "ordinal": 47,
+    "label": "Tense 時態 · 第 47 題",
+    "detail": "Their car is gone, the lights are off, and nobody answers the phone. They _____ (must / leave) already.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=47"
+  },
+  {
+    "id": "grammar:tense:q48",
+    "type": "grammar",
+    "ordinal": 48,
+    "label": "Tense 時態 · 第 48 題",
+    "detail": "I had my wallet this morning, but I cannot find it now. I _____ (might / leave) it in the café.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=48"
+  },
+  {
+    "id": "grammar:tense:q49",
+    "type": "grammar",
+    "ordinal": 49,
+    "label": "Tense 時態 · 第 49 題",
+    "detail": "The meeting was yesterday, and I only found out about it today. You knew about it beforehand. You _____ (should / tell) me earlier.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=49"
+  },
+  {
+    "id": "grammar:tense:q50",
+    "type": "grammar",
+    "ordinal": 50,
+    "label": "Tense 時態 · 第 50 題",
+    "detail": "The match is over. We lost by one point, and our final shot almost went in. We _____ (could / win) the match with that last shot.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=50"
+  },
+  {
+    "id": "grammar:tense:q51",
+    "type": "grammar",
+    "ordinal": 51,
+    "label": "Tense 時態 · 第 51 題",
+    "detail": "Nina usually _____ (bring) lunch from home.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=51"
+  },
+  {
+    "id": "grammar:tense:q52",
+    "type": "grammar",
+    "ordinal": 52,
+    "label": "Tense 時態 · 第 52 題",
+    "detail": "I _____ (buy) this jacket yesterday afternoon.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=52"
+  },
+  {
+    "id": "grammar:tense:q53",
+    "type": "grammar",
+    "ordinal": 53,
+    "label": "Tense 時態 · 第 53 題",
+    "detail": "Someone is knocking at the door. I _____ (see) who it is.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=53"
+  },
+  {
+    "id": "grammar:tense:q54",
+    "type": "grammar",
+    "ordinal": 54,
+    "label": "Tense 時態 · 第 54 題",
+    "detail": "Leo is carrying too many boxes, and one is slipping. He _____ (drop) it.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=54"
+  },
+  {
+    "id": "grammar:tense:q55",
+    "type": "grammar",
+    "ordinal": 55,
+    "label": "Tense 時態 · 第 55 題",
+    "detail": "I usually cycle to work, but I _____ (take) the bus this week.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=55"
+  },
+  {
+    "id": "grammar:tense:q56",
+    "type": "grammar",
+    "ordinal": 56,
+    "label": "Tense 時態 · 第 56 題",
+    "detail": "At 9 p.m. last night, Grace _____ (read) in bed.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=56"
+  },
+  {
+    "id": "grammar:tense:q57",
+    "type": "grammar",
+    "ordinal": 57,
+    "label": "Tense 時態 · 第 57 題",
+    "detail": "The train journey will last from 9 to 11 tomorrow. At 10, we _____ (travel) to Oxford.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=57"
+  },
+  {
+    "id": "grammar:tense:q58",
+    "type": "grammar",
+    "ordinal": 58,
+    "label": "Tense 時態 · 第 58 題",
+    "detail": "I _____ (visit) that café three times so far this month.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=58"
+  },
+  {
+    "id": "grammar:tense:q59",
+    "type": "grammar",
+    "ordinal": 59,
+    "label": "Tense 時態 · 第 59 題",
+    "detail": "Ella finished the report at 4. The meeting began at 4:30. She _____ (finish) it before the meeting began.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=59"
+  },
+  {
+    "id": "grammar:tense:q60",
+    "type": "grammar",
+    "ordinal": 60,
+    "label": "Tense 時態 · 第 60 題",
+    "detail": "I will send the final form on Thursday. By Friday, I _____ (send) everything.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=60"
+  },
+  {
+    "id": "grammar:tense:q61",
+    "type": "grammar",
+    "ordinal": 61,
+    "label": "Tense 時態 · 第 61 題",
+    "detail": "I started cleaning at nine, and I am still cleaning now. I _____ (clean) the flat for two hours.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=61"
+  },
+  {
+    "id": "grammar:tense:q62",
+    "type": "grammar",
+    "ordinal": 62,
+    "label": "Tense 時態 · 第 62 題",
+    "detail": "I started work at six. At noon, I was tired and still working. I _____ (work) for six hours.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=62"
+  },
+  {
+    "id": "grammar:tense:q63",
+    "type": "grammar",
+    "ordinal": 63,
+    "label": "Tense 時態 · 第 63 題",
+    "detail": "We will start walking at 8 a.m. By 1 p.m., we _____ (walk) for five hours, and we will still have another hour to go.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=63"
+  },
+  {
+    "id": "grammar:tense:q64",
+    "type": "grammar",
+    "ordinal": 64,
+    "label": "Tense 時態 · 第 64 題",
+    "detail": "Tom's shoes are covered in mud. He _____ (must / walk) through the wet field.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=64"
+  },
+  {
+    "id": "grammar:tense:q65",
+    "type": "grammar",
+    "ordinal": 65,
+    "label": "Tense 時態 · 第 65 題",
+    "detail": "The sports centre _____ (open) at 7 a.m. every weekday.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=65"
+  },
+  {
+    "id": "grammar:tense:q66",
+    "type": "grammar",
+    "ordinal": 66,
+    "label": "Tense 時態 · 第 66 題",
+    "detail": "Sophie _____ (not / call) me last night.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=66"
+  },
+  {
+    "id": "grammar:tense:q67",
+    "type": "grammar",
+    "ordinal": 67,
+    "label": "Tense 時態 · 第 67 題",
+    "detail": "I promise I _____ (return) your book tomorrow.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=67"
+  },
+  {
+    "id": "grammar:tense:q68",
+    "type": "grammar",
+    "ordinal": 68,
+    "label": "Tense 時態 · 第 68 題",
+    "detail": "We decided last week to buy a new table. We _____ (buy) one this weekend.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=68"
+  },
+  {
+    "id": "grammar:tense:q69",
+    "type": "grammar",
+    "ordinal": 69,
+    "label": "Tense 時態 · 第 69 題",
+    "detail": "Please wait a moment. I _____ (talk) to a customer right now.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=69"
+  },
+  {
+    "id": "grammar:tense:q70",
+    "type": "grammar",
+    "ordinal": 70,
+    "label": "Tense 時態 · 第 70 題",
+    "detail": "Ben _____ (walk) home when he saw an old friend.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=70"
+  },
+  {
+    "id": "grammar:tense:q71",
+    "type": "grammar",
+    "ordinal": 71,
+    "label": "Tense 時態 · 第 71 題",
+    "detail": "Maya will work from 6 to 10 tomorrow evening. At 8, she _____ (work).",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=71"
+  },
+  {
+    "id": "grammar:tense:q72",
+    "type": "grammar",
+    "ordinal": 72,
+    "label": "Tense 時態 · 第 72 題",
+    "detail": "I _____ (know) Alex since primary school.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=72"
+  },
+  {
+    "id": "grammar:tense:q73",
+    "type": "grammar",
+    "ordinal": 73,
+    "label": "Tense 時態 · 第 73 題",
+    "detail": "We reached the airport and then realised we _____ (leave) the passports at home.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=73"
+  },
+  {
+    "id": "grammar:tense:q74",
+    "type": "grammar",
+    "ordinal": 74,
+    "label": "Tense 時態 · 第 74 題",
+    "detail": "Sam plans to finish all six chapters by Sunday. By then, he _____ (read) the whole book.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=74"
+  },
+  {
+    "id": "grammar:tense:q75",
+    "type": "grammar",
+    "ordinal": 75,
+    "label": "Tense 時態 · 第 75 題",
+    "detail": "Lily started learning Spanish in January and still studies it every week. She _____ (learn) Spanish since January.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=75"
+  },
+  {
+    "id": "grammar:tense:q76",
+    "type": "grammar",
+    "ordinal": 76,
+    "label": "Tense 時態 · 第 76 題",
+    "detail": "It started raining at 5 a.m. and continued without stopping until just before the race at 8. It _____ (rain) for three hours before the race.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=76"
+  },
+  {
+    "id": "grammar:tense:q77",
+    "type": "grammar",
+    "ordinal": 77,
+    "label": "Tense 時態 · 第 77 題",
+    "detail": "Maya will start working at 7 a.m. At noon, she _____ (work) for five hours, and she will still be working.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=77"
+  },
+  {
+    "id": "grammar:tense:q78",
+    "type": "grammar",
+    "ordinal": 78,
+    "label": "Tense 時態 · 第 78 題",
+    "detail": "I cannot find my umbrella. I _____ (might / leave) it on the bus.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=78"
+  },
+  {
+    "id": "grammar:tense:q79",
+    "type": "grammar",
+    "ordinal": 79,
+    "label": "Tense 時態 · 第 79 題",
+    "detail": "I usually sleep well, so I _____ (not / drink) coffee after 6 p.m.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=79"
+  },
+  {
+    "id": "grammar:tense:q80",
+    "type": "grammar",
+    "ordinal": 80,
+    "label": "Tense 時態 · 第 80 題",
+    "detail": "We _____ (go) to the market last Sunday.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=80"
+  },
+  {
+    "id": "grammar:tense:q81",
+    "type": "grammar",
+    "ordinal": 81,
+    "label": "Tense 時態 · 第 81 題",
+    "detail": "I think the new student _____ (like) our class.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=81"
+  },
+  {
+    "id": "grammar:tense:q82",
+    "type": "grammar",
+    "ordinal": 82,
+    "label": "Tense 時態 · 第 82 題",
+    "detail": "Emma can hardly keep her eyes open. She _____ (fall) asleep soon.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=82"
+  },
+  {
+    "id": "grammar:tense:q83",
+    "type": "grammar",
+    "ordinal": 83,
+    "label": "Tense 時態 · 第 83 題",
+    "detail": "My dentist and I agreed on 2 p.m. tomorrow. I _____ (see) her then.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=83"
+  },
+  {
+    "id": "grammar:tense:q84",
+    "type": "grammar",
+    "ordinal": 84,
+    "label": "Tense 時態 · 第 84 題",
+    "detail": "While I _____ (cook) dinner, Maya was setting the table.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=84"
+  },
+  {
+    "id": "grammar:tense:q85",
+    "type": "grammar",
+    "ordinal": 85,
+    "label": "Tense 時態 · 第 85 題",
+    "detail": "The workshop will run from 9 to 12 tomorrow. At 10, we _____ (learn) how to use the new app.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=85"
+  },
+  {
+    "id": "grammar:tense:q86",
+    "type": "grammar",
+    "ordinal": 86,
+    "label": "Tense 時態 · 第 86 題",
+    "detail": "Ava _____ (just / send) the message, and I can see it on my phone now.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=86"
+  },
+  {
+    "id": "grammar:tense:q87",
+    "type": "grammar",
+    "ordinal": 87,
+    "label": "Tense 時態 · 第 87 題",
+    "detail": "By the time Sam called at nine, we _____ (already / eat) dinner.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=87"
+  },
+  {
+    "id": "grammar:tense:q88",
+    "type": "grammar",
+    "ordinal": 88,
+    "label": "Tense 時態 · 第 88 題",
+    "detail": "The team plans to finish all four rooms before Saturday. By Saturday morning, they _____ (paint) all four rooms.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=88"
+  },
+  {
+    "id": "grammar:tense:q89",
+    "type": "grammar",
+    "ordinal": 89,
+    "label": "Tense 時態 · 第 89 題",
+    "detail": "We started looking for a flat two months ago, and we are still looking. We _____ (look) for one for two months.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=89"
+  },
+  {
+    "id": "grammar:tense:q90",
+    "type": "grammar",
+    "ordinal": 90,
+    "label": "Tense 時態 · 第 90 題",
+    "detail": "We started waiting at 6:00. The taxi arrived at 6:50. We _____ (wait) for fifty minutes when it arrived.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=90"
+  },
+  {
+    "id": "grammar:tense:q91",
+    "type": "grammar",
+    "ordinal": 91,
+    "label": "Tense 時態 · 第 91 題",
+    "detail": "The children will start playing at 2. At 5, they _____ (play) for three hours, and they will continue until 6.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=91"
+  },
+  {
+    "id": "grammar:tense:q92",
+    "type": "grammar",
+    "ordinal": 92,
+    "label": "Tense 時態 · 第 92 題",
+    "detail": "You had my number yesterday. You _____ (should / call) me when the problem started.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=92"
+  },
+  {
+    "id": "grammar:tense:q93",
+    "type": "grammar",
+    "ordinal": 93,
+    "label": "Tense 時態 · 第 93 題",
+    "detail": "The sun _____ (rise) in the east.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=93"
+  },
+  {
+    "id": "grammar:tense:q94",
+    "type": "grammar",
+    "ordinal": 94,
+    "label": "Tense 時態 · 第 94 題",
+    "detail": "_____ you _____ (finish) the homework yesterday?",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=94"
+  },
+  {
+    "id": "grammar:tense:q95",
+    "type": "grammar",
+    "ordinal": 95,
+    "label": "Tense 時態 · 第 95 題",
+    "detail": "That bag looks heavy. I _____ (carry) it for you.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=95"
+  },
+  {
+    "id": "grammar:tense:q96",
+    "type": "grammar",
+    "ordinal": 96,
+    "label": "Tense 時態 · 第 96 題",
+    "detail": "We decided yesterday to paint the kitchen. We _____ (paint) it this weekend.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=96"
+  },
+  {
+    "id": "grammar:tense:q97",
+    "type": "grammar",
+    "ordinal": 97,
+    "label": "Tense 時態 · 第 97 題",
+    "detail": "More students _____ (use) the library this month because exams are coming soon.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=97"
+  },
+  {
+    "id": "grammar:tense:q98",
+    "type": "grammar",
+    "ordinal": 98,
+    "label": "Tense 時態 · 第 98 題",
+    "detail": "At 10 p.m. yesterday, I _____ (work) on my science project.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=98"
+  },
+  {
+    "id": "grammar:tense:q99",
+    "type": "grammar",
+    "ordinal": 99,
+    "label": "Tense 時態 · 第 99 題",
+    "detail": "Tomorrow's meeting will run from 2 to 4. At 3, we _____ (discuss) the budget.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=99"
+  },
+  {
+    "id": "grammar:tense:q100",
+    "type": "grammar",
+    "ordinal": 100,
+    "label": "Tense 時態 · 第 100 題",
+    "detail": "_____ you ever _____ (ride) a horse?",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=100"
+  },
+  {
+    "id": "grammar:tense:q101",
+    "type": "grammar",
+    "ordinal": 101,
+    "label": "Tense 時態 · 第 101 題",
+    "detail": "I found my phone under the sofa. I remembered that I _____ (put) it there the night before.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=101"
+  },
+  {
+    "id": "grammar:tense:q102",
+    "type": "grammar",
+    "ordinal": 102,
+    "label": "Tense 時態 · 第 102 題",
+    "detail": "Nina plans to read four books this month. By the end of the month, she _____ (read) all four.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=102"
+  },
+  {
+    "id": "grammar:tense:q103",
+    "type": "grammar",
+    "ordinal": 103,
+    "label": "Tense 時態 · 第 103 題",
+    "detail": "We started practising at 3, and we are still practising now. We _____ (practise) for two hours.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=103"
+  },
+  {
+    "id": "grammar:tense:q104",
+    "type": "grammar",
+    "ordinal": 104,
+    "label": "Tense 時態 · 第 104 題",
+    "detail": "Sara's arms hurt at lunch because she _____ (carry) boxes all morning.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=104"
+  },
+  {
+    "id": "grammar:tense:q105",
+    "type": "grammar",
+    "ordinal": 105,
+    "label": "Tense 時態 · 第 105 題",
+    "detail": "I will start studying at 2. At 6, I _____ (study) for four hours, and I will still have one chapter left.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=105"
+  },
+  {
+    "id": "grammar:tense:q106",
+    "type": "grammar",
+    "ordinal": 106,
+    "label": "Tense 時態 · 第 106 題",
+    "detail": "There was one free seat yesterday, but I did not book it. I _____ (could / book) it.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=106"
+  },
+  {
+    "id": "grammar:tense:q107",
+    "type": "grammar",
+    "ordinal": 107,
+    "label": "Tense 時態 · 第 107 題",
+    "detail": "According to the timetable, the first bus _____ (leave) at 6:15 tomorrow morning.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=107"
+  },
+  {
+    "id": "grammar:tense:q108",
+    "type": "grammar",
+    "ordinal": 108,
+    "label": "Tense 時態 · 第 108 題",
+    "detail": "We _____ (stay) with friends last weekend.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=108"
+  },
+  {
+    "id": "grammar:tense:q109",
+    "type": "grammar",
+    "ordinal": 109,
+    "label": "Tense 時態 · 第 109 題",
+    "detail": "You have too many bags. I _____ (help) you carry them.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=109"
+  },
+  {
+    "id": "grammar:tense:q110",
+    "type": "grammar",
+    "ordinal": 110,
+    "label": "Tense 時態 · 第 110 題",
+    "detail": "We have decided to paint my room blue, but we have not chosen a day yet. We _____ (paint) it sometime next week.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=110"
+  },
+  {
+    "id": "grammar:tense:q111",
+    "type": "grammar",
+    "ordinal": 111,
+    "label": "Tense 時態 · 第 111 題",
+    "detail": "Daniel normally works in London, but he _____ (work) in Manchester this month.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=111"
+  },
+  {
+    "id": "grammar:tense:q112",
+    "type": "grammar",
+    "ordinal": 112,
+    "label": "Tense 時態 · 第 112 題",
+    "detail": "We _____ (watch) TV when the lights went out.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=112"
+  },
+  {
+    "id": "grammar:tense:q113",
+    "type": "grammar",
+    "ordinal": 113,
+    "label": "Tense 時態 · 第 113 題",
+    "detail": "Our coach leaves at 8 and arrives at noon. At 10, we _____ (travel) to Bath.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=113"
+  },
+  {
+    "id": "grammar:tense:q114",
+    "type": "grammar",
+    "ordinal": 114,
+    "label": "Tense 時態 · 第 114 題",
+    "detail": "It is only 2 p.m., and Maya _____ (answer) twenty emails today.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=114"
+  },
+  {
+    "id": "grammar:tense:q115",
+    "type": "grammar",
+    "ordinal": 115,
+    "label": "Tense 時態 · 第 115 題",
+    "detail": "The film started at 7. We arrived at 7:20, so it _____ (already / start) when we sat down.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=115"
+  },
+  {
+    "id": "grammar:tense:q116",
+    "type": "grammar",
+    "ordinal": 116,
+    "label": "Tense 時態 · 第 116 題",
+    "detail": "Leo will finish his driving course on Tuesday. By Wednesday, he _____ (complete) the course.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=116"
+  },
+  {
+    "id": "grammar:tense:q117",
+    "type": "grammar",
+    "ordinal": 117,
+    "label": "Tense 時態 · 第 117 題",
+    "detail": "Tom started repairing his bike an hour ago and is still working on it. He _____ (repair) it for an hour.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=117"
+  },
+  {
+    "id": "grammar:tense:q118",
+    "type": "grammar",
+    "ordinal": 118,
+    "label": "Tense 時態 · 第 118 題",
+    "detail": "When the teacher came in, the students _____ (talk) for ten minutes and were still talking.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=118"
+  },
+  {
+    "id": "grammar:tense:q119",
+    "type": "grammar",
+    "ordinal": 119,
+    "label": "Tense 時態 · 第 119 題",
+    "detail": "Sam will start driving at 8 a.m. At 3 p.m., he _____ (drive) for seven hours, and he will still have one hour to go.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=119"
+  },
+  {
+    "id": "grammar:tense:q120",
+    "type": "grammar",
+    "ordinal": 120,
+    "label": "Tense 時態 · 第 120 題",
+    "detail": "Ella got every answer right. She _____ (must / study) very hard.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=120"
+  },
+  {
+    "id": "grammar:tense:q121",
+    "type": "grammar",
+    "ordinal": 121,
+    "label": "Tense 時態 · 第 121 題",
+    "detail": "My brother _____ (work) from home every Friday.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=121"
+  },
+  {
+    "id": "grammar:tense:q122",
+    "type": "grammar",
+    "ordinal": 122,
+    "label": "Tense 時態 · 第 122 題",
+    "detail": "Mina _____ (write) three emails yesterday morning.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=122"
+  },
+  {
+    "id": "grammar:tense:q123",
+    "type": "grammar",
+    "ordinal": 123,
+    "label": "Tense 時態 · 第 123 題",
+    "detail": "I am sure you _____ (feel) better after a good sleep.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=123"
+  },
+  {
+    "id": "grammar:tense:q124",
+    "type": "grammar",
+    "ordinal": 124,
+    "label": "Tense 時態 · 第 124 題",
+    "detail": "The handle on that bag is coming loose. It _____ (break) soon.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=124"
+  },
+  {
+    "id": "grammar:tense:q125",
+    "type": "grammar",
+    "ordinal": 125,
+    "label": "Tense 時態 · 第 125 題",
+    "detail": "I cannot talk now; I _____ (cook) dinner.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=125"
+  },
+  {
+    "id": "grammar:tense:q126",
+    "type": "grammar",
+    "ordinal": 126,
+    "label": "Tense 時態 · 第 126 題",
+    "detail": "At 7 yesterday evening, the children _____ (do) their homework.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=126"
+  },
+  {
+    "id": "grammar:tense:q127",
+    "type": "grammar",
+    "ordinal": 127,
+    "label": "Tense 時態 · 第 127 題",
+    "detail": "The class will run from 7 to 9 tonight. At 8, we _____ (study) grammar.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=127"
+  },
+  {
+    "id": "grammar:tense:q128",
+    "type": "grammar",
+    "ordinal": 128,
+    "label": "Tense 時態 · 第 128 題",
+    "detail": "Sara and I _____ (know) each other for ten years.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=128"
+  },
+  {
+    "id": "grammar:tense:q129",
+    "type": "grammar",
+    "ordinal": 129,
+    "label": "Tense 時態 · 第 129 題",
+    "detail": "The shop closed at six. We arrived at 6:15, so it _____ (close) before we got there.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=129"
+  },
+  {
+    "id": "grammar:tense:q130",
+    "type": "grammar",
+    "ordinal": 130,
+    "label": "Tense 時態 · 第 130 題",
+    "detail": "I plan to finish the report on Monday. By Tuesday morning, I _____ (finish) it.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=130"
+  },
+  {
+    "id": "grammar:tense:q131",
+    "type": "grammar",
+    "ordinal": 131,
+    "label": "Tense 時態 · 第 131 題",
+    "detail": "It started snowing at six, and it is still snowing now. It _____ (snow) for three hours.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=131"
+  },
+  {
+    "id": "grammar:tense:q132",
+    "type": "grammar",
+    "ordinal": 132,
+    "label": "Tense 時態 · 第 132 題",
+    "detail": "Ben was out of breath because he _____ (run) for twenty minutes before he stopped.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=132"
+  },
+  {
+    "id": "grammar:tense:q133",
+    "type": "grammar",
+    "ordinal": 133,
+    "label": "Tense 時態 · 第 133 題",
+    "detail": "The workers will start painting at 8. By noon, they _____ (paint) for four hours, and they will still be painting.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=133"
+  },
+  {
+    "id": "grammar:tense:q134",
+    "type": "grammar",
+    "ordinal": 134,
+    "label": "Tense 時態 · 第 134 題",
+    "detail": "Nora is very late. She _____ (might / take) the wrong bus.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=134"
+  },
+  {
+    "id": "grammar:tense:q135",
+    "type": "grammar",
+    "ordinal": 135,
+    "label": "Tense 時態 · 第 135 題",
+    "detail": "This machine _____ (need) two batteries to work.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=135"
+  },
+  {
+    "id": "grammar:tense:q136",
+    "type": "grammar",
+    "ordinal": 136,
+    "label": "Tense 時態 · 第 136 題",
+    "detail": "They _____ (not / enjoy) the film last night.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=136"
+  },
+  {
+    "id": "grammar:tense:q137",
+    "type": "grammar",
+    "ordinal": 137,
+    "label": "Tense 時態 · 第 137 題",
+    "detail": "I promise I _____ (send) the photos tonight.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=137"
+  },
+  {
+    "id": "grammar:tense:q138",
+    "type": "grammar",
+    "ordinal": 138,
+    "label": "Tense 時態 · 第 138 題",
+    "detail": "I decided last month to join the gym, but I have not chosen a start date. I _____ (join) soon.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=138"
+  },
+  {
+    "id": "grammar:tense:q139",
+    "type": "grammar",
+    "ordinal": 139,
+    "label": "Tense 時態 · 第 139 題",
+    "detail": "Lena and I agreed to meet at 6 tomorrow. We _____ (have) dinner together then.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=139"
+  },
+  {
+    "id": "grammar:tense:q140",
+    "type": "grammar",
+    "ordinal": 140,
+    "label": "Tense 時態 · 第 140 題",
+    "detail": "At noon yesterday, the children _____ (have) lunch in the garden.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=140"
+  },
+  {
+    "id": "grammar:tense:q141",
+    "type": "grammar",
+    "ordinal": 141,
+    "label": "Tense 時態 · 第 141 題",
+    "detail": "My exam will run from 2 to 4 next Friday. At 3, I _____ (take) the exam.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=141"
+  },
+  {
+    "id": "grammar:tense:q142",
+    "type": "grammar",
+    "ordinal": 142,
+    "label": "Tense 時態 · 第 142 題",
+    "detail": "I cannot log in because I _____ (forget) my password.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=142"
+  },
+  {
+    "id": "grammar:tense:q143",
+    "type": "grammar",
+    "ordinal": 143,
+    "label": "Tense 時態 · 第 143 題",
+    "detail": "This is my first flight. I _____ (never / fly) before.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=143"
+  },
+  {
+    "id": "grammar:tense:q144",
+    "type": "grammar",
+    "ordinal": 144,
+    "label": "Tense 時態 · 第 144 題",
+    "detail": "I opened the cupboard and saw that someone _____ (eat) all the biscuits.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=144"
+  },
+  {
+    "id": "grammar:tense:q145",
+    "type": "grammar",
+    "ordinal": 145,
+    "label": "Tense 時態 · 第 145 題",
+    "detail": "Maya could not pay because she _____ (leave) her wallet at home.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=145"
+  },
+  {
+    "id": "grammar:tense:q146",
+    "type": "grammar",
+    "ordinal": 146,
+    "label": "Tense 時態 · 第 146 題",
+    "detail": "The team will finish the project on 30 June. By 1 July, they _____ (finish) everything.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=146"
+  },
+  {
+    "id": "grammar:tense:q147",
+    "type": "grammar",
+    "ordinal": 147,
+    "label": "Tense 時態 · 第 147 題",
+    "detail": "I started waiting for the doctor at 10, and I am still here at 11. I _____ (wait) for an hour.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=147"
+  },
+  {
+    "id": "grammar:tense:q148",
+    "type": "grammar",
+    "ordinal": 148,
+    "label": "Tense 時態 · 第 148 題",
+    "detail": "Ava started working on this drawing after breakfast and is still drawing now. She _____ (work) on it all morning.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=148"
+  },
+  {
+    "id": "grammar:tense:q149",
+    "type": "grammar",
+    "ordinal": 149,
+    "label": "Tense 時態 · 第 149 題",
+    "detail": "The shop opened at 10. We arrived at 9:30 and waited outside. When it opened, we _____ (wait) for thirty minutes.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=149"
+  },
+  {
+    "id": "grammar:tense:q150",
+    "type": "grammar",
+    "ordinal": 150,
+    "label": "Tense 時態 · 第 150 題",
+    "detail": "We will start waiting at 11. At 5 p.m., we _____ (wait) for six hours, and we will still be waiting for the final result.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=150"
+  },
+  {
+    "id": "grammar:tense:q151",
+    "type": "grammar",
+    "ordinal": 151,
+    "label": "Tense 時態 · 第 151 題",
+    "detail": "Tomorrow, while I _____ (interview) the author live, viewers will send us questions.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=151"
+  },
+  {
+    "id": "grammar:tense:q152",
+    "type": "grammar",
+    "ordinal": 152,
+    "label": "Tense 時態 · 第 152 題",
+    "detail": "During tomorrow's show, while Maya _____ (demonstrate) the recipe, I will read out the questions from the audience.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=152"
+  },
+  {
+    "id": "grammar:tense:q153",
+    "type": "grammar",
+    "ordinal": 153,
+    "label": "Tense 時態 · 第 153 題",
+    "detail": "Next week, while we _____ (rehearse) on stage, the technician will adjust the lights.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=153"
+  },
+  {
+    "id": "grammar:tense:q154",
+    "type": "grammar",
+    "ordinal": 154,
+    "label": "Tense 時態 · 第 154 題",
+    "detail": "All last week, while the exhibition was being set up, I _____ (prepare) the labels for the displays.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=154"
+  },
+  {
+    "id": "grammar:tense:q155",
+    "type": "grammar",
+    "ordinal": 155,
+    "label": "Tense 時態 · 第 155 題",
+    "detail": "Throughout the school holiday, while the library was closed for repairs, the staff _____ (sort) its old records.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=155"
+  },
+  {
+    "id": "grammar:tense:q156",
+    "type": "grammar",
+    "ordinal": 156,
+    "label": "Tense 時態 · 第 156 題",
+    "detail": "For most of last month, while the website was being rebuilt, our team _____ (test) its new features.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=156"
+  },
+  {
+    "id": "grammar:tense:q157",
+    "type": "grammar",
+    "ordinal": 157,
+    "label": "Tense 時態 · 第 157 題",
+    "detail": "Since I _____ (start) learning the violin three years ago, I have practised every week.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=157"
+  },
+  {
+    "id": "grammar:tense:q158",
+    "type": "grammar",
+    "ordinal": 158,
+    "label": "Tense 時態 · 第 158 題",
+    "detail": "Since our family _____ (move) here in 2021, we have made many friends.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=158"
+  },
+  {
+    "id": "grammar:tense:q159",
+    "type": "grammar",
+    "ordinal": 159,
+    "label": "Tense 時態 · 第 159 題",
+    "detail": "Since she _____ (join) the club last autumn, Priya has helped organise two events.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=159"
+  },
+  {
+    "id": "grammar:tense:q160",
+    "type": "grammar",
+    "ordinal": 160,
+    "label": "Tense 時態 · 第 160 題",
+    "detail": "When the inspectors visited in January, the builders _____ (install) all the new windows by the end of December.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=160"
+  },
+  {
+    "id": "grammar:tense:q161",
+    "type": "grammar",
+    "ordinal": 161,
+    "label": "Tense 時態 · 第 161 題",
+    "detail": "Last month, Ella submitted her first poem. Before that month, she _____ (never / submit) a poem to a magazine.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=161"
+  },
+  {
+    "id": "grammar:tense:q162",
+    "type": "grammar",
+    "ordinal": 162,
+    "label": "Tense 時態 · 第 162 題",
+    "detail": "When we checked the accounts in February, the shop _____ (already / sell) 500 copies by the end of January.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=162"
+  },
+  {
+    "id": "grammar:tense:q163",
+    "type": "grammar",
+    "ordinal": 163,
+    "label": "Tense 時態 · 第 163 題",
+    "detail": "Lately, Ava _____ (promote) her new book at events around the city, and she has another event tomorrow.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=163"
+  },
+  {
+    "id": "grammar:tense:q164",
+    "type": "grammar",
+    "ordinal": 164,
+    "label": "Tense 時態 · 第 164 題",
+    "detail": "Lately, the students _____ (practise) after school, and they are rehearsing again today.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=164"
+  },
+  {
+    "id": "grammar:tense:q165",
+    "type": "grammar",
+    "ordinal": 165,
+    "label": "Tense 時態 · 第 165 題",
+    "detail": "Lately, I _____ (work) on my portfolio in the evenings, and I am still adding to it.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=165"
+  },
+  {
+    "id": "grammar:tense:q166",
+    "type": "grammar",
+    "ordinal": 166,
+    "label": "Tense 時態 · 第 166 題",
+    "detail": "The course has three terms. Sam will complete all three and then stop attending. By next September, he _____ (attend) classes for three full terms.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=166"
+  },
+  {
+    "id": "grammar:tense:q167",
+    "type": "grammar",
+    "ordinal": 167,
+    "label": "Tense 時態 · 第 167 題",
+    "detail": "This training programme lasts for two full years and ends in June. By July, Nina _____ (train) with the team for two full years.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=167"
+  },
+  {
+    "id": "grammar:tense:q168",
+    "type": "grammar",
+    "ordinal": 168,
+    "label": "Tense 時態 · 第 168 題",
+    "detail": "The exchange ends in August after exactly one year. By September, Leo _____ (study) abroad for a full year.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=168"
+  },
+  {
+    "id": "grammar:tense:q169",
+    "type": "grammar",
+    "ordinal": 169,
+    "label": "Tense 時態 · 第 169 題",
+    "detail": "I _____ (send) the form an hour ago; please check your inbox.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=169"
+  },
+  {
+    "id": "grammar:tense:q170",
+    "type": "grammar",
+    "ordinal": 170,
+    "label": "Tense 時態 · 第 170 題",
+    "detail": "Maya _____ (finish) the painting two days ago.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=170"
+  },
+  {
+    "id": "grammar:tense:q171",
+    "type": "grammar",
+    "ordinal": 171,
+    "label": "Tense 時態 · 第 171 題",
+    "detail": "The school _____ (open) its new library six months ago.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=171"
+  },
+  {
+    "id": "grammar:tense:q172",
+    "type": "grammar",
+    "ordinal": 172,
+    "label": "Tense 時態 · 第 172 題",
+    "detail": "I have not decided yet, but I _____ (think) of joining the photography club next term.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=172"
+  },
+  {
+    "id": "grammar:tense:q173",
+    "type": "grammar",
+    "ordinal": 173,
+    "label": "Tense 時態 · 第 173 題",
+    "detail": "We have not booked anything; we _____ (think) of visiting our cousins this summer.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=173"
+  },
+  {
+    "id": "grammar:tense:q174",
+    "type": "grammar",
+    "ordinal": 174,
+    "label": "Tense 時態 · 第 174 題",
+    "detail": "Leo has not made up his mind. He _____ (think) of taking a cooking class next month.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=174"
+  },
+  {
+    "id": "grammar:tense:q175",
+    "type": "grammar",
+    "ordinal": 175,
+    "label": "Tense 時態 · 第 175 題",
+    "detail": "We do not revise together now. If we revised together, we _____ (understand) the lessons better.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=175"
+  },
+  {
+    "id": "grammar:tense:q176",
+    "type": "grammar",
+    "ordinal": 176,
+    "label": "Tense 時態 · 第 176 題",
+    "detail": "Mina does not have a bicycle. If she had one, she _____ (cycle) to school.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=176"
+  },
+  {
+    "id": "grammar:tense:q177",
+    "type": "grammar",
+    "ordinal": 177,
+    "label": "Tense 時態 · 第 177 題",
+    "detail": "The shop is not open at night. If it stayed open later, more people _____ (visit) it after work.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=177"
+  },
+  {
+    "id": "grammar:tense:q178",
+    "type": "grammar",
+    "ordinal": 178,
+    "label": "Tense 時態 · 第 178 題",
+    "detail": "During tomorrow's online lesson, while I _____ (explain) the diagram, students will post their questions in the chat.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=178"
+  },
+  {
+    "id": "grammar:tense:q179",
+    "type": "grammar",
+    "ordinal": 179,
+    "label": "Tense 時態 · 第 179 題",
+    "detail": "We have not chosen a date yet. We _____ (think) of holding a small concert in July.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=179"
+  },
+  {
+    "id": "grammar:tense:q180",
+    "type": "grammar",
+    "ordinal": 180,
+    "label": "Tense 時態 · 第 180 題",
+    "detail": "Since Arun _____ (begin) his new job last April, he has learnt a great deal.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=180"
+  },
+  {
+    "id": "grammar:tense:q181",
+    "type": "grammar",
+    "ordinal": 181,
+    "label": "Tense 時態 · 第 181 題",
+    "detail": "At our March review, we found that the team _____ (complete) the repairs by the end of February.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=181"
+  },
+  {
+    "id": "grammar:tense:q182",
+    "type": "grammar",
+    "ordinal": 182,
+    "label": "Tense 時態 · 第 182 題",
+    "detail": "The club's two-year course ends this June. By July, Ben _____ (study) at the club for two complete years.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=182"
+  },
+  {
+    "id": "grammar:tense:q183",
+    "type": "grammar",
+    "ordinal": 183,
+    "label": "Tense 時態 · 第 183 題",
+    "detail": "We do not own a car. If we owned one, we _____ (drive) to the coast on weekends.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=183"
+  },
+  {
+    "id": "grammar:tense:q184",
+    "type": "grammar",
+    "ordinal": 184,
+    "label": "Tense 時態 · 第 184 題",
+    "detail": "Lately, the engineers _____ (check) the bridge every morning, and the checks are continuing this week.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=184"
+  },
+  {
+    "id": "grammar:tense:q185",
+    "type": "grammar",
+    "ordinal": 185,
+    "label": "Tense 時態 · 第 185 題",
+    "detail": "At the ceremony, I recognised an old neighbour whom I _____ (meet) five years ago.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=185"
+  },
+  {
+    "id": "grammar:tense:q186",
+    "type": "grammar",
+    "ordinal": 186,
+    "label": "Tense 時態 · 第 186 題",
+    "detail": "For most of last winter, while her father was recovering, Kim _____ (look) after the shop.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=186"
+  },
+  {
+    "id": "grammar:tense:q187",
+    "type": "grammar",
+    "ordinal": 187,
+    "label": "Tense 時態 · 第 187 題",
+    "detail": "Until last week, Nora _____ (never / give) a public speech. Then she spoke at the school assembly.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=187"
+  },
+  {
+    "id": "grammar:tense:q188",
+    "type": "grammar",
+    "ordinal": 188,
+    "label": "Tense 時態 · 第 188 題",
+    "detail": "Tomorrow evening, while the actors _____ (perform) on stage, the crew will change the scenery behind them.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=188"
+  },
+  {
+    "id": "grammar:tense:q189",
+    "type": "grammar",
+    "ordinal": 189,
+    "label": "Tense 時態 · 第 189 題",
+    "detail": "Lately, my brother _____ (learn) how to edit videos, and he is still taking lessons.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=189"
+  },
+  {
+    "id": "grammar:tense:q190",
+    "type": "grammar",
+    "ordinal": 190,
+    "label": "Tense 時態 · 第 190 題",
+    "detail": "Since we _____ (leave) our old school in 2020, we have kept in touch.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=190"
+  },
+  {
+    "id": "grammar:tense:q191",
+    "type": "grammar",
+    "ordinal": 191,
+    "label": "Tense 時態 · 第 191 題",
+    "detail": "I _____ (buy) this notebook three weeks ago.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=191"
+  },
+  {
+    "id": "grammar:tense:q192",
+    "type": "grammar",
+    "ordinal": 192,
+    "label": "Tense 時態 · 第 192 題",
+    "detail": "The placement ends in May after six full months. By June, Tara _____ (work) at the museum for six months.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=192"
+  },
+  {
+    "id": "grammar:tense:q193",
+    "type": "grammar",
+    "ordinal": 193,
+    "label": "Tense 時態 · 第 193 題",
+    "detail": "Jade does not have a quiet place to study. If she had one, she _____ (concentrate) more easily.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=193"
+  },
+  {
+    "id": "grammar:tense:q194",
+    "type": "grammar",
+    "ordinal": 194,
+    "label": "Tense 時態 · 第 194 題",
+    "detail": "For several weeks before the festival, while the hall was being painted, volunteers _____ (make) the decorations.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=194"
+  },
+  {
+    "id": "grammar:tense:q195",
+    "type": "grammar",
+    "ordinal": 195,
+    "label": "Tense 時態 · 第 195 題",
+    "detail": "We have not agreed on a plan. I _____ (think) of asking the librarian for help.",
+    "url": "grammar-system.html?lesson=tense&view=practice&question=195"
+  },
+  {
     "id": "idiom:idiom-01",
     "type": "idiom",
     "ordinal": 1,
@@ -28742,6 +35342,158 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "#138 · 極少／非常罕有",
     "detail": "Idiom #138 · once in a blue moon",
     "url": "idiom-system.html?lesson=idiom-138"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-articles",
+    "type": "junior-exam-prep",
+    "ordinal": 0,
+    "label": "S2 Exam Prep - Advanced - Articles",
+    "detail": "Jayden · 全部 5 篇文章 · 50 題 · 需以獲分配的學生帳戶登入",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-articles"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-articles:q1",
+    "type": "junior-exam-prep",
+    "ordinal": 1,
+    "label": "S2 Exam Prep - Advanced - Articles · Passage 1",
+    "detail": "Jayden · Community Charity Fair · 第 1–10 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-articles&question=1"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-articles:q11",
+    "type": "junior-exam-prep",
+    "ordinal": 2,
+    "label": "S2 Exam Prep - Advanced - Articles · Passage 2",
+    "detail": "Jayden · A Rainy Evening in the Neighbourhood · 第 11–20 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-articles&question=11"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-articles:q21",
+    "type": "junior-exam-prep",
+    "ordinal": 3,
+    "label": "S2 Exam Prep - Advanced - Articles · Passage 3",
+    "detail": "Jayden · The Lost Notebook · 第 21–30 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-articles&question=21"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-articles:q31",
+    "type": "junior-exam-prep",
+    "ordinal": 4,
+    "label": "S2 Exam Prep - Advanced - Articles · Passage 4",
+    "detail": "Jayden · Planning a Science Exhibition · 第 31–40 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-articles&question=31"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-articles:q41",
+    "type": "junior-exam-prep",
+    "ordinal": 5,
+    "label": "S2 Exam Prep - Advanced - Articles · Passage 5",
+    "detail": "Jayden · A Letter About a New Routine · 第 41–50 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-articles&question=41"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-non-tense-non-articles",
+    "type": "junior-exam-prep",
+    "ordinal": 0,
+    "label": "S2 Exam Prep - Advanced - Non-Tense & Non-Articles",
+    "detail": "Jayden · 全部 5 篇文章 · 50 題 · 需以獲分配的學生帳戶登入",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-non-tense-non-articles"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-non-tense-non-articles:q1",
+    "type": "junior-exam-prep",
+    "ordinal": 1,
+    "label": "S2 Exam Prep - Advanced - Non-Tense & Non-Articles · Passage 1",
+    "detail": "Jayden · The Community Science Fair · 第 1–10 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-non-tense-non-articles&question=1"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-non-tense-non-articles:q11",
+    "type": "junior-exam-prep",
+    "ordinal": 2,
+    "label": "S2 Exam Prep - Advanced - Non-Tense & Non-Articles · Passage 2",
+    "detail": "Jayden · A Letter from the Youth Centre · 第 11–20 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-non-tense-non-articles&question=11"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-non-tense-non-articles:q21",
+    "type": "junior-exam-prep",
+    "ordinal": 3,
+    "label": "S2 Exam Prep - Advanced - Non-Tense & Non-Articles · Passage 3",
+    "detail": "Jayden · A School Magazine Article · 第 21–30 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-non-tense-non-articles&question=21"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-non-tense-non-articles:q31",
+    "type": "junior-exam-prep",
+    "ordinal": 4,
+    "label": "S2 Exam Prep - Advanced - Non-Tense & Non-Articles · Passage 4",
+    "detail": "Jayden · A Quiet Weekend in the Countryside · 第 31–40 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-non-tense-non-articles&question=31"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-non-tense-non-articles:q41",
+    "type": "junior-exam-prep",
+    "ordinal": 5,
+    "label": "S2 Exam Prep - Advanced - Non-Tense & Non-Articles · Passage 5",
+    "detail": "Jayden · Planning a Student Support Project · 第 41–50 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-non-tense-non-articles&question=41"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-tense",
+    "type": "junior-exam-prep",
+    "ordinal": 0,
+    "label": "S2 Exam Prep - Advanced - Tense",
+    "detail": "Jayden · 全部 5 篇文章 · 50 題 · 需以獲分配的學生帳戶登入",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-tense"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-tense:q1",
+    "type": "junior-exam-prep",
+    "ordinal": 1,
+    "label": "S2 Exam Prep - Advanced - Tense · Passage 1",
+    "detail": "Jayden · Passage 1 — The Student Radio Broadcast · 第 1–10 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-tense&question=1"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-tense:q11",
+    "type": "junior-exam-prep",
+    "ordinal": 2,
+    "label": "S2 Exam Prep - Advanced - Tense · Passage 2",
+    "detail": "Jayden · Passage 2 — A Surprise at the Nature Centre · 第 11–20 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-tense&question=11"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-tense:q21",
+    "type": "junior-exam-prep",
+    "ordinal": 3,
+    "label": "S2 Exam Prep - Advanced - Tense · Passage 3",
+    "detail": "Jayden · Passage 3 — A Change in My Study Routine · 第 21–30 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-tense&question=21"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-tense:q31",
+    "type": "junior-exam-prep",
+    "ordinal": 4,
+    "label": "S2 Exam Prep - Advanced - Tense · Passage 4",
+    "detail": "Jayden · Passage 4 — An Email about a Volunteer Programme · 第 31–40 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-tense&question=31"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-advanced-tense:q41",
+    "type": "junior-exam-prep",
+    "ordinal": 5,
+    "label": "S2 Exam Prep - Advanced - Tense · Passage 5",
+    "detail": "Jayden · Passage 5 — A Science Team’s Next Challenge · 第 41–50 題",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-advanced-tense&question=41"
+  },
+  {
+    "id": "junior-exam-prep:s2-exam-prep-oct-2026",
+    "type": "junior-exam-prep",
+    "ordinal": 0,
+    "label": "S2 Exam Prep - Oct 2026",
+    "detail": "Jayden · 470 題 · 需以獲分配的學生帳戶登入",
+    "url": "junior-exam-prep.html?module=s2-exam-prep-oct-2026"
   },
   {
     "id": "learning-portal:business-school",
@@ -61012,7 +67764,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "synonym",
     "ordinal": 4,
     "label": "#4 · Rather Than",
-    "detail": "Synonyms · 7 詞組 · 20 題",
+    "detail": "Synonyms · 7 詞組 · 21 題",
     "url": "synonyms-system.html?module=lesson-src-bf621c2774a57c"
   },
   {

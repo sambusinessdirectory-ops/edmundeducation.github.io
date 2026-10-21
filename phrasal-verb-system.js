@@ -31,6 +31,7 @@ const ATTEMPT_OUTBOX_DB_VERSION = 1;
 const ATTEMPT_OUTBOX_STORE = "attempt-mutations";
 const ATTEMPT_OUTBOX_LEASE_STORE = "drain-leases";
 const ATTEMPT_OUTBOX_SCHEMA_VERSION = 1;
+const ATTEMPT_SCHEMA_RECOVERY_VERSION = 1;
 const ATTEMPT_OUTBOX_RETRY_BASE_MS = 1500;
 const ATTEMPT_OUTBOX_RETRY_CAP_MS = 5 * 60 * 1000;
 const ATTEMPT_OUTBOX_LEASE_MS = 2 * 60 * 1000;
@@ -1330,6 +1331,11 @@ async function adoptAttemptOutboxForContext(context) {
     const ownerChanged = record.ownerKey !== context.ownerKey;
     const staleInflight = record.status === "inflight"
       && now - Number(record.lastAttemptAt || 0) >= ATTEMPT_OUTBOX_LEASE_MS;
+    // A previous Worker rejected the now-supported controlRevision field. Retry
+    // those preserved mutations once after this release without discarding data.
+    const recoverableSchemaMismatch = record.status === "blocked"
+      && String(record.lastError || "").includes("result has an invalid shape")
+      && Number(record.schemaRecoveryVersion || 0) < ATTEMPT_SCHEMA_RECOVERY_VERSION;
     const updated = {
       ...record,
       ownerKey: context.ownerKey,
@@ -1338,9 +1344,10 @@ async function adoptAttemptOutboxForContext(context) {
       studentName: context.studentName,
       originalStudentName: record.originalStudentName || record.studentName || context.studentName,
       updatedAt: now,
+      ...(recoverableSchemaMismatch ? { schemaRecoveryVersion: ATTEMPT_SCHEMA_RECOVERY_VERSION } : {}),
       ...(ownerChanged ? { adoptedFromOwnerKey: record.ownerKey, adoptedAt: now } : {})
     };
-    if ((ownerChanged && record.status !== "blocked") || staleInflight) {
+    if ((ownerChanged && record.status !== "blocked") || staleInflight || recoverableSchemaMismatch) {
       updated.status = "queued";
       updated.nextAttemptAt = 0;
       updated.lastError = "";
@@ -2356,12 +2363,18 @@ function focusExerciseQuestion(questionId) {
   window.setTimeout(() => {
     const card = document.querySelector(`[data-question-id="${CSS.escape(questionId)}"]`);
     card?.scrollIntoView?.({ behavior: "smooth", block: "center" });
-    const input = card?.querySelector?.("[data-answer-input]:not([disabled])");
+    const input = card?.querySelector?.("[data-answer-input]:not([disabled]), [data-phrasal-choice]:not([disabled])");
     input?.focus?.({ preventScroll: true });
   }, 50);
 }
 
 function updateLessonStepper() {
+  const exerciseStep = elements.lessonStepper.querySelector('[data-step="8"]');
+  if (exerciseStep) {
+    const choiceMode = usesPhrasalChoices(getLesson());
+    exerciseStep.querySelector("strong").textContent = choiceMode ? "六選一練習" : "句子練習";
+    exerciseStep.querySelector("small").textContent = choiceMode ? "Six choices" : "Exercise";
+  }
   elements.lessonStepper.querySelectorAll("[data-step]").forEach((button) => {
     const step = Number(button.dataset.step);
     button.toggleAttribute("aria-current", step === state.lessonPage);
@@ -2928,7 +2941,69 @@ function suggestedAnswerHtml(question, studentAnswer = null) {
   `).join("")}</div>`;
 }
 
+function usesPhrasalChoices(lesson = getLesson()) {
+  return lesson?.order === 1 || lesson?.order === 10;
+}
+
+function phrasalChoiceScore(value) {
+  let hash = 2166136261;
+  for (const character of String(value)) {
+    hash ^= character.charCodeAt(0);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function phrasalChoices(lesson, question, attemptId = state.exercise?.id || "") {
+  const correct = String(question.targetForm || "").trim();
+  const forms = [...new Set((lesson.questions || []).map((item) => String(item.targetForm || "").trim()).filter(Boolean))];
+  if (!correct || forms.length < 6) return [];
+  const meaningsByForm = new Map();
+  for (const item of lesson.questions || []) {
+    const form = String(item.targetForm || "").trim();
+    const meaning = String(item.targetMeaningZh || "").trim();
+    if (form && meaning) {
+      if (!meaningsByForm.has(form)) meaningsByForm.set(form, new Set());
+      meaningsByForm.get(form).add(meaning);
+    }
+  }
+  const correctMeanings = meaningsByForm.get(correct) || new Set();
+  const seed = `${attemptId}:${question.id}`;
+  const score = (form) => phrasalChoiceScore(`${seed}:${form}`);
+  const distractors = forms.filter((form) => form !== correct && ![...(meaningsByForm.get(form) || [])].some((meaning) => correctMeanings.has(meaning)))
+    .sort((left, right) => score(left) - score(right) || left.localeCompare(right))
+    .slice(0, 5);
+  return [correct, ...distractors]
+    .sort((left, right) => score(`position:${left}`) - score(`position:${right}`) || left.localeCompare(right));
+}
+
+function phrasalChoiceQuestionHtml(lesson, question) {
+  const correct = state.exercise.correctIds.includes(question.id);
+  const selected = correct ? String(question.targetForm || "") : String(state.exercise.drafts[question.id] || "");
+  const wrong = Boolean(selected) && !correct;
+  const collapsed = correct && state.exercise.collapsedCorrectIds.includes(question.id);
+  const bookmarked = isBookmarked(lesson.id, question.id);
+  const choices = phrasalChoices(lesson, question);
+  return `<article class="question-card choice-question ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || "")}"${correct ? ` data-edmund-answer-text="${escapeHtml(question.answer || "")}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`動詞片語 · 第 ${question.number || ""} 題`)}">
+    <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}</span><div class="question-card-actions">
+      ${correct ? `<button class="question-visibility-button" type="button" data-toggle-correct-card="${escapeHtml(question.id)}" aria-expanded="${!collapsed}">${collapsed ? "顯示已完成題目" : "隱藏已完成題目"}</button>` : ""}
+      <button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>
+    </div></div>
+    <div class="question-card-content" ${collapsed ? "hidden" : ""}>
+      <div class="question-prompt"><p class="english" lang="en">${escapeHtml(question.prompt || "")}</p><p class="chinese" lang="zh-Hant">${escapeHtml(question.promptZh || "")}</p></div>
+      <p class="choice-instruction">選出最適合改寫這句話的動詞片語。</p>
+      <div class="phrasal-choice-grid" role="group" aria-label="第 ${escapeHtml(question.number)} 題選項">
+        ${choices.map((form) => `<button class="phrasal-choice ${selected === form ? correct ? "is-correct" : "is-wrong" : ""}" type="button" data-phrasal-choice="${escapeHtml(question.id)}" data-choice-form="${escapeHtml(form)}" ${correct ? "disabled" : ""} aria-pressed="${selected === form}">${escapeHtml(form)}</button>`).join("")}
+      </div>
+      <p class="question-feedback" aria-live="polite">${correct ? "✓ 答對了！以下是完整改寫句子。" : wrong ? "再試一次，找出最符合原句意思的片語。" : ""}</p>
+      ${correct ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 完整改寫</span>${suggestedAnswerHtml(question, null)}</div>` : ""}
+    </div>
+  </article>`;
+}
+
 function questionHtml(question) {
+  const lesson = getLesson();
+  if (usesPhrasalChoices(lesson)) return phrasalChoiceQuestionHtml(lesson, question);
   const qState = questionState(question.id);
   const correct = state.exercise.correctIds.includes(question.id) || qState.status === "correct";
   const wrong = qState.status === "wrong";
@@ -2990,8 +3065,34 @@ function submissionQuestions(lesson = getLesson()) {
   return scoped.filter((question) => !state.exercise.correctIds.includes(question.id));
 }
 
+function renderPhrasalChoiceExercisePage(lesson, { preserveScroll = false } = {}) {
+  const scrollTop = preserveScroll ? window.scrollY : 0;
+  const total = lesson.questions.length;
+  const correct = state.exercise.correctIds.length;
+  const completed = Boolean(state.exercise.completedAt || correct === total);
+  const percentage = Math.round((correct / total) * 100);
+  const visibleCorrectIds = lesson.questions.filter((question) => state.exercise.correctIds.includes(question.id)).map((question) => question.id);
+  const allCollapsed = visibleCorrectIds.length > 0 && visibleCorrectIds.every((id) => state.exercise.collapsedCorrectIds.includes(id));
+  const visibilityLabel = allCollapsed ? "展開所有已完成題目" : "隱藏所有已完成題目";
+  elements.lessonContent.innerHTML = `<section class="exercise-page phrasal-choice-page">
+    <header class="exercise-header"><p class="eyebrow">CHOOSE THE PHRASAL VERB</p>
+      <h2>選出最合適的動詞片語<small lang="en">Choose one of six expressions</small></h2>
+      <p class="exercise-instruction-primary">閱讀原句，從六個動詞片語中選出意思最貼近的一個。答對後即可查看完整改寫。</p>
+      <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
+      <div class="exercise-progress-label"><span>已完成 ${correct} / ${total} 題</span><span>尚餘 ${total - correct} 題</span></div>
+    </header>
+    ${completed ? `<section class="round-summary completion-card"><div class="completion-mark" aria-hidden="true">✓</div><h3>恭喜，全部題目已完成！</h3><p>你已完成這組 <strong>${total}</strong> 題動詞片語選擇練習。</p><div class="round-summary-actions"><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div></section>` : ""}
+    ${visibleCorrectIds.length ? `<div class="question-list-toolbar"><button class="bulk-visibility-button" type="button" data-toggle-all-correct-cards aria-pressed="${allCollapsed}" aria-controls="phrasal-verb-system-question-list">${visibilityLabel}</button></div>` : ""}
+    <div class="question-list" id="phrasal-verb-system-question-list" data-question-list>${lesson.questions.map(questionHtml).join("")}</div>
+  </section>`;
+  updateLessonStepper();
+  if (!completed) startExerciseClock();
+  if (preserveScroll) requestAnimationFrame(() => window.scrollTo({ top: scrollTop, behavior: "auto" }));
+}
+
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   ensureExercise(lesson);
+  if (usesPhrasalChoices(lesson)) return renderPhrasalChoiceExercisePage(lesson, { preserveScroll });
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const total = lesson.questions?.length || 0;
   const illustration = lessonIllustration(lesson);
@@ -3249,6 +3350,51 @@ function scheduleExercisePersistence() {
       console.warn("Phrasal Verb System preference save failed", error);
     });
   }, 450);
+}
+
+function selectPhrasalChoice(questionId, form) {
+  const lesson = getLesson();
+  if (!usesPhrasalChoices(lesson) || state.lessonPage !== EXERCISE_PAGE || !state.exercise) return;
+  const question = lesson.questions.find((item) => item.id === questionId);
+  if (!question || state.exercise.correctIds.includes(questionId)) return;
+  if (!phrasalChoices(lesson, question).includes(form)) return;
+  if (form !== question.targetForm) {
+    // Wrong guesses stay local. The server's historical sentence-answer format
+    // reveals wrong answers, which would disclose this choice before success.
+    state.exercise.drafts[questionId] = form;
+    renderExercisePage(lesson, { preserveScroll: true });
+    return;
+  }
+  const controlsBefore = attemptControlState(state.exercise);
+  state.exercise.awaitingNextRound = false;
+  state.exercise.correctionMode = false;
+  state.exercise.correctionIds = [];
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
+  delete state.exercise.drafts[questionId];
+  state.exercise.questionState[questionId] = {
+    status: "correct",
+    lastAnswer: String(question.answer),
+    reveal: true
+  };
+  state.exercise.correctIds.push(questionId);
+  const submittedAt = new Date().toISOString();
+  state.exercise.rounds.push({
+    round: state.exercise.round,
+    kind: "partial",
+    checkedIds: [questionId],
+    correctIds: [questionId],
+    incorrectIds: [],
+    submittedAt
+  });
+  if (state.exercise.correctIds.length === lesson.questions.length) {
+    pauseExerciseClock();
+    state.exercise.completedAt = submittedAt;
+  }
+  if (isBookmarked(lesson.id, questionId) && upgradeBookmarkAnswer(lesson.id, questionId)) {
+    saveBookmarks().catch((error) => console.warn("Phrasal Verb bookmark answer upgrade failed", error));
+  }
+  renderExercisePage(lesson, { preserveScroll: true });
+  scheduleExercisePersistence();
 }
 
 async function submitExercise(kind) {
@@ -3715,6 +3861,8 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  const phrasalChoice = event.target.closest("[data-phrasal-choice]");
+  if (phrasalChoice) return selectPhrasalChoice(phrasalChoice.dataset.phrasalChoice, phrasalChoice.dataset.choiceForm);
   const searchResult = event.target.closest("[data-lesson-search-result]");
   if (searchResult) return openLesson(searchResult.dataset.searchLesson, { page: Number(searchResult.dataset.searchPage || 1), questionId: searchResult.dataset.searchQuestion || "" });
   if (event.target.closest("[data-sentence-progress-toggle]")) return toggleProgressPanel();

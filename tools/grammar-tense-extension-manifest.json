@@ -1,0 +1,172 @@
+{
+  "sourceHashes": {
+    "exercises": "8d276ace98b157da356a19616b1387d95e133647d3ccfdb56d42a85ed05efd53",
+    "curation": "2a66708373f10368f29c8d77ea02dc5d0f1dca0e8dd46e7478de78d101eb668c"
+  },
+  "conceptNumbers": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "questionNumbers": [
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+  ],
+  "coverage": [
+    {
+      "number": 53,
+      "title": "將來的 while 子句：當時正在做甚麼",
+      "questionNumbers": [
+        151,
+        152,
+        153,
+        178,
+        188
+      ]
+    },
+    {
+      "number": 54,
+      "title": "過去整段時間的背景：was/were + -ing",
+      "questionNumbers": [
+        154,
+        155,
+        156,
+        186,
+        194
+      ]
+    },
+    {
+      "number": 55,
+      "title": "since 後面若是一件起點事件，用當時的寫法",
+      "questionNumbers": [
+        157,
+        158,
+        159,
+        180,
+        190
+      ]
+    },
+    {
+      "number": 56,
+      "title": "截止點在過去：had + V3",
+      "questionNumbers": [
+        160,
+        161,
+        162,
+        181,
+        187
+      ]
+    },
+    {
+      "number": 57,
+      "title": "lately：近期一直在做",
+      "questionNumbers": [
+        163,
+        164,
+        165,
+        184,
+        189
+      ]
+    },
+    {
+      "number": 58,
+      "title": "for 說多久；不自動指定 Continuous",
+      "questionNumbers": [
+        166,
+        167,
+        168,
+        182,
+        192
+      ]
+    },
+    {
+      "number": 59,
+      "title": "ago 指向已結束的過去時間",
+      "questionNumbers": [
+        169,
+        170,
+        171,
+        185,
+        191
+      ]
+    },
+    {
+      "number": 60,
+      "title": "延伸｜I am thinking of + -ing：目前正在考慮",
+      "questionNumbers": [
+        172,
+        173,
+        174,
+        179,
+        195
+      ]
+    },
+    {
+      "number": 61,
+      "title": "延伸｜if + 過去式，would + 動詞本來的寫法",
+      "questionNumbers": [
+        175,
+        176,
+        177,
+        183,
+        193
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Original 52 concepts and 150 questions are loaded unchanged.",
+    "All source prompts, translations, answers and seven explanation steps are preserved.",
+    "Group focus instructions accompany individual questions and exports.",
+    "Collective-noun agreement variants accepted for Q155/156; past-perfect retrospective alternative accepted for Q185.",
+    "A second example for each concept is taken from its supplied exercises."
+  ]
+}

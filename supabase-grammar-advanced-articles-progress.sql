@@ -54,7 +54,7 @@ begin
   from public.learning_portal_progress_events event
   where event.student_id = v_student_id
     and event.system_key = 'grammar'
-    and event.event_key ~ '^advanced-articles:q(1[5-9][0-9]|2[0-4][0-9]|250)$'
+    and event.event_key ~ '^advanced-articles:q(1[5-9][0-9]|2[0-6][0-9]|270)$'
   order by event.event_key;
 end;
 $$;
@@ -84,7 +84,7 @@ begin
   if auth.uid() is null or p_token is null then
     raise exception 'Student authentication is required' using errcode = '42501';
   end if;
-  if p_question_number is null or p_question_number not between 151 and 250 then
+  if p_question_number is null or p_question_number not between 151 and 270 then
     raise exception 'Question number is invalid' using errcode = '22023';
   end if;
   if p_duration_ms is null or p_duration_ms not between 0 and 1800000 then

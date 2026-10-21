@@ -11,17 +11,16 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  # Finish the active release, then deploy only the latest queued commit.
-  # Every main commit includes earlier changes, so intermediate deployments add delay.
-  queue: single
-  cancel-in-progress: false
-
 jobs:
   deploy:
+    # Simple homepage artwork updates use pages-fast.yml instead.
+    if: ${{ !contains(github.event.head_commit.message, '[site-fast]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    concurrency:
+      group: pages
+      queue: single
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: https://edmundeducation.com/
@@ -34,7 +33,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -83,8 +82,10 @@ jobs:
           npm ci --prefix tools/email-qa --ignore-scripts
           node --check grammar-system.js
           node --check grammar-admin.js
+          node tools/test-grammar-admin-connection.mjs
           node tools/test-grammar-admin-export.mjs
           node tools/test-grammar-tense-system.mjs
+          node tools/test-grammar-tense-extension.mjs
           node --check grammar-articles.js
           node tools/test-grammar-articles-system.mjs
           node --check grammar-advanced-articles.js
@@ -107,12 +108,36 @@ jobs:
       - name: Validate focused Homework export release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homework-release]') }}
         run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node --check error-identifier.js
+          node --check error-identifier-passage.js
+          node --check junior-exam-prep/app.mjs
+          node tools/test-homework-course-links.mjs
+          node tools/test-junior-exam-prep.mjs
           node --check schedule-system.js
           node --check schedule-homework-export.mjs
           node tools/test-schedule-homework-export.mjs
           node tools/test-schedule-homework-links.mjs
           node tools/test-schedule-system.mjs
           node tools/test-schedule-clipboard.mjs
+
+      - name: Validate focused Study tools release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[study-release]') }}
+        run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node --check junior-text-highlighter.mjs
+          node --check study-highlighter-bootstrap.mjs
+          node --check junior-exam-prep/app.mjs
+          node --check junior-exam-prep/legacy.mjs
+          node --check grammar-system.js
+          node --check grammar-articles.js
+          node --check grammar-advanced-articles.js
+          node --check error-identifier.js
+          node --check error-identifier-passage.js
+          node --check reading-comprehension.js
+          node tools/test-study-highlighter.mjs
+          node tools/test-dse-reading-question-types.mjs
+          node tools/test-junior-exam-prep.mjs
 
       - name: Validate focused Junior Exam Prep release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[junior-release]') }}
@@ -587,6 +612,7 @@ jobs:
           node tools/test-shared-system-nav.mjs
           node tools/test-learning-portal-scaffolds.mjs
           node tools/test-grammar-tense-system.mjs
+          node tools/test-grammar-tense-extension.mjs
           node tools/test-grammar-articles-system.mjs
           node --check grammar-advanced-articles.js
           node tools/test-grammar-advanced-articles-system.mjs
@@ -672,7 +698,7 @@ jobs:
       - name: Point public media at verified R2 packs
         run: |
           python3 -m unittest tools/test-rewrite-pages-assets.py
-          python3 tools/rewrite-pages-assets.py _site
+          python3 tools/rewrite-pages-assets.py _site --fast-scan
           test ! -d _site/assets
           test ! -d _site/eddy-carrot-patch/assets
 

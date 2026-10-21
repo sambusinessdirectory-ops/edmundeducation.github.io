@@ -13,9 +13,10 @@
     : [];
   const guide = Array.isArray(window.EDMUND_GRAMMAR_TENSE_CURATION)
     ? window.EDMUND_GRAMMAR_TENSE_CURATION : [];
+  const questionCount = questions.length;
   const explanationModeKey = "edmund-grammar-tense-explanation-mode-v1";
   const portalRoot = document.querySelector('[data-learning-portal-root]');
-  if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1) || guide.length !== 52) {
+  if (!portalRoot || questions.length < 150 || questions.some((item, index) => item.number !== index + 1) || guide.length < 52) {
     console.error("Tense practice data is incomplete.");
     return;
   }
@@ -39,14 +40,31 @@
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"
   })[character]);
 
+  // Apply sentence breaks only to curation, preserving inline marks and controls.
+  window.EDMUND_GRAMMAR_FORMAT_CURATION = (root) => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const node of nodes) {
+      const formatted = node.data.replace(/。([）)」』】”’]*)[ \t]*(?:\r?\n[ \t]*)?(?=[^\s）)」』】”’])/gu, "。$1\u0000");
+      if (!formatted.includes("\u0000")) continue;
+      const fragment = document.createDocumentFragment();
+      formatted.split("\u0000").forEach((part, index) => {
+        if (index) fragment.append(document.createElement("br"));
+        fragment.append(document.createTextNode(part));
+      });
+      node.replaceWith(fragment);
+    }
+  };
+
   function renderGuideCard(item, index) {
     const examples = item.examples.map(([english, chinese]) => `<div class="grammar-tense-example"><p lang="en">${escapeHtml(english)}</p><span lang="zh-Hant">${escapeHtml(chinese)}</span></div>`).join("");
     const checkpoint = item.checkpoint ? `<div class="grammar-tense-checkpoint" data-tense-checkpoint><span class="grammar-tense-checkpoint__label">TRY IT · 選擇 + 說原因</span><h4>${escapeHtml(item.checkpoint.prompt)}</h4><div class="grammar-tense-checkpoint__choices" role="group" aria-label="選擇寫法">${item.checkpoint.choices.map((choice, choiceIndex) => `<button type="button" data-tense-checkpoint-choice="form" data-choice-index="${choiceIndex}" aria-pressed="false">${escapeHtml(choice)}</button>`).join("")}</div><p class="grammar-tense-checkpoint__feedback" data-checkpoint-form-feedback role="status" hidden></p><div data-checkpoint-why hidden><h4>${escapeHtml(item.checkpoint.whyPrompt)}</h4><div class="grammar-tense-checkpoint__choices" role="group" aria-label="選擇原因">${item.checkpoint.whyChoices.map((choice, choiceIndex) => `<button type="button" data-tense-checkpoint-choice="why" data-choice-index="${choiceIndex}" aria-pressed="false">${escapeHtml(choice)}</button>`).join("")}</div><p class="grammar-tense-checkpoint__feedback" data-checkpoint-why-feedback role="status" hidden></p></div></div>` : "";
-    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div><div class="grammar-tense-topic__check"><strong>答題時檢查</strong><p>${escapeHtml(item.check)}</p></div>${checkpoint}<p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
+    return `<article class="grammar-articles-topic grammar-tense-topic" data-tense-topic="${index + 1}" id="tense-topic-${index + 1}"><div class="grammar-articles-topic__head"><span>${String(index + 1).padStart(2, "0")}</span><div><small>${escapeHtml(item.chapter)}</small><h3>${escapeHtml(item.title)}</h3></div></div><div class="grammar-tense-topic__focus"><span>核心判斷</span><p>${escapeHtml(item.focus)}</p></div><div class="grammar-tense-topic__formula"><small>寫法 / 決策線</small><strong>${escapeHtml(item.formula)}</strong></div><div class="grammar-tense-topic__examples">${examples}</div>${checkpoint}${item.questionNumbers ? `<div class="grammar-articles-curation__actions" aria-label="本節配套練習">${item.questionNumbers.map(number => `<button class="grammar-button--ghost" type="button" data-tense-practice-question="${number}">練習第 ${number} 題</button>`).join("")}</div>` : ""}<p class="grammar-tense-topic__source">對應解析：${escapeHtml(item.source)}</p></article>`;
   }
 
-  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"], [20, "深入細節"], [25, "時間範圍"], [30, "進行中"], [34, "回望結果"], [40, "數量與時長"], [45, "過去的推斷"], [50, "綜合檢查"], [51, "句型與位置"]];
-  const guideMarkup = guide.map((item, index) => `${index === 19 ? '<div class="grammar-tense-deep-dive"><span>PART 02 · DEEP DIVE</span><h3>把細節判斷練成直覺</h3><p>前 19 節建立時態全圖；以下 31 節拆開 150 題解析中的細微對比。每節都標出對應題目，方便回去驗證。</p></div>' : ""}${index === 50 ? '<div class="grammar-tense-deep-dive"><span>PART 03 · FORM & POSITION</span><h3>把句型寫對，再說出原因</h3><p>兩個簡短檢查點：先選合適的英文，再選支持它的理由。</p></div>' : ""}${renderGuideCard(item, index)}`).join("");
+  const guideChapters = [[1, "先找時間"], [4, "將來選擇"], [8, "當時的過程"], [10, "已完成的結果"], [14, "持續了多久"], [18, "回頭推斷"], [19, "綜合解題"], [20, "深入細節"], [25, "時間範圍"], [30, "進行中"], [34, "回望結果"], [40, "數量與時長"], [45, "過去的推斷"], [50, "綜合檢查"], [51, "句型與位置"], [53, "補充時態規則"], [60, "搭配與假設延伸"]];
+  const guideMarkup = guide.map((item, index) => `${index === 19 ? '<div class="grammar-tense-deep-dive"><span>PART 02 · DEEP DIVE</span><h3>把細節判斷練成直覺</h3><p>前 19 節建立時態全圖；以下 31 節拆開 150 題解析中的細微對比。每節都標出對應題目，方便回去驗證。</p></div>' : ""}${index === 50 ? '<div class="grammar-tense-deep-dive"><span>PART 03 · FORM & POSITION</span><h3>把句型寫對，再說出原因</h3><p>兩個簡短檢查點：先選合適的英文，再選支持它的理由。</p></div>' : ""}${index === 52 ? '<div class="grammar-tense-deep-dive"><span>PART 04 · EXTENSION</span><h3>補足時間與過程的細節，再延伸到搭配與假設</h3><p>第 53–59 節細化時態選擇；第 60–61 節是相鄰的動詞搭配與條件句，並非額外的時態。</p></div>' : ""}${renderGuideCard(item, index)}`).join("");
 
   function normaliseAnswer(value) {
     return String(value ?? "")
@@ -84,11 +102,11 @@
     try {
       const saved = JSON.parse(localStorage.getItem(localKey()) || "null");
       if (!saved || typeof saved !== "object") return;
-      if (Number.isInteger(saved.current) && saved.current >= 1 && saved.current <= 150) state.current = saved.current;
+      if (Number.isInteger(saved.current) && saved.current >= 1 && saved.current <= questionCount) state.current = saved.current;
       if (saved.attempts && typeof saved.attempts === "object") {
         state.attempts = Object.fromEntries(Object.entries(saved.attempts).filter(([key, value]) => {
           const number = Number(key);
-          return number >= 1 && number <= 150 && value && ["correct", "wrong"].includes(value.status);
+          return number >= 1 && number <= questionCount && value && ["correct", "wrong"].includes(value.status);
         }));
       }
     } catch { /* Local progress is optional. */ }
@@ -110,7 +128,7 @@
         <div><p class="eyebrow">GRAMMAR PRACTICE</p><h2 id="grammar-library-title">語法練習</h2><p>先作答，再逐步理解時態選擇。</p></div>
       </div>
       <article class="grammar-lesson-card">
-        <div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE 01 · CURATION + 150 QUESTIONS</p><h3>Tense <span lang="zh-Hant">時態</span></h3><p>先用捲動導讀建立時間線和解題方法，再做 150 題；每題提交後仍有逐步解析。</p></div>
+        <div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE 01 · CURATION + ${questionCount} QUESTIONS</p><h3>Tense <span lang="zh-Hant">時態</span></h3><p>先用捲動導讀建立時間線和解題方法，再做 ${questionCount} 題；每題提交後仍有逐步解析。</p></div>
         <div class="grammar-lesson-card__stats" aria-label="Tense 練習進度">
           <div><strong data-correct-count>0</strong><span>已答對</span></div>
           <div><strong data-attempted-count>0</strong><span>已作答</span></div>
@@ -120,10 +138,10 @@
       </article>
     </section>
     <section class="panel grammar-articles-curation grammar-tense-curation" data-tense-curation hidden aria-labelledby="tense-curation-title">
-      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>從 150 題解析逆向整理：19 節建立時間線，31 節拆解細節，再用 2 節練習句型與副詞位置。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button><span data-tense-position>導讀 1 / ${guide.length}</span></div></div>
+      <div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-tense-menu>← 返回練習目錄</button><p class="eyebrow">MODULE 01 · TENSE</p><h2 id="tense-curation-title">時態 · 語法導讀</h2><p>共 ${guide.length} 節：保留原有時間線、細節和句型導讀，並新增第 53–61 節的時態規則、動詞搭配及假設延伸。向下捲動逐段閱讀；向上捲動可收起後段。</p><div class="grammar-articles-curation__actions"><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 ${questionCount} 題練習</button><span data-tense-position>導讀 1 / ${guide.length}</span></div></div>
       <nav class="grammar-articles-chapters" aria-label="時態導讀章節">${guideChapters.map(([number, label]) => `<button type="button" data-tense-jump="${number}">${escapeHtml(label)}</button>`).join("")}</nav>
       <div class="grammar-articles-stream grammar-tense-stream" data-tense-stream>${guideMarkup}</div>
-      <div class="grammar-articles-curation__finish"><h3>帶著時間線開始做題</h3><p>第 1–50 題先逐一建立各種用法；第 51–150 題混合重練。答題後的原有逐步解析會保留。</p><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 150 題練習</button></div>
+      <div class="grammar-articles-curation__finish"><h3>帶著時間線開始做題</h3><p>第 1–50 題建立用法，第 51–150 題混合重練；第 151–177 題配合新增規則分組練習，第 178–195 題混合應用。每題作答後都有完整逐步解析。</p><button class="grammar-button grammar-button--primary" type="button" data-tense-start>開始 ${questionCount} 題練習</button></div>
     </section>
     <section class="panel grammar-practice" data-grammar-practice hidden aria-labelledby="grammar-practice-title">
       <div class="grammar-practice__head">
@@ -134,10 +152,10 @@
             <button type="button" data-explanation-mode-option="step" aria-pressed="false">逐步</button>
             <button type="button" data-explanation-mode-option="scroll" aria-pressed="false">捲動閱讀</button>
           </div>
-          <div class="grammar-practice__summary"><strong data-practice-score>0</strong><span>/ 150<br>已答對</span></div>
+          <div class="grammar-practice__summary"><strong data-practice-score>0</strong><span>/ ${questionCount}<br>已答對</span></div>
         </div>
       </div>
-      <div class="grammar-progress" role="progressbar" aria-label="答對進度" aria-valuemin="0" aria-valuemax="150" aria-valuenow="0"><span data-progress-fill></span></div>
+      <div class="grammar-progress" role="progressbar" aria-label="答對進度" aria-valuemin="0" aria-valuemax="${questionCount}" aria-valuenow="0"><span data-progress-fill></span></div>
       <div class="grammar-navigator">
         <div class="grammar-navigator__bar"><label><span class="sr-only">題目範圍</span><select class="grammar-range-select" data-question-range aria-label="選擇題目範圍"></select></label><span class="grammar-navigator__legend">綠色：答對 · 紅色：需再試</span></div>
         <div class="grammar-number-grid" data-question-grid aria-label="選擇題目"></div>
@@ -145,6 +163,7 @@
       <div class="grammar-highlight-tools"><button type="button" class="grammar-button--ghost" data-grammar-highlight aria-pressed="false">🖍 暫時螢光筆</button><span>開啟後拖選題目或解析文字；再按一次清除。</span></div>
       <article class="grammar-question">
         <div class="grammar-question__meta"><span class="grammar-question__number" data-question-number></span><button class="grammar-bookmark" type="button" data-question-bookmark aria-pressed="false">☆ 收藏這題</button></div>
+        <aside class="grammar-question__focus" data-question-instruction hidden><strong>本題重點</strong><p lang="en" data-question-instruction-en></p><p lang="zh-Hant" data-question-instruction-zh></p></aside>
         <p class="grammar-question__prompt" data-question-prompt></p>
         <p class="grammar-question__translation" data-question-translation></p>
         <form class="grammar-answer" data-answer-form novalidate>
@@ -162,6 +181,8 @@
       <nav class="grammar-nav" aria-label="題目導覽"><button type="button" data-previous-question>← 上一題</button><button type="button" data-next-question>下一題 →</button></nav>
       <p class="grammar-save-status" data-save-status aria-live="polite"></p>
     </section>`;
+
+  window.EDMUND_GRAMMAR_FORMAT_CURATION(dashboard.querySelector("[data-tense-curation]"));
 
   const elements = {
     library: dashboard.querySelector("[data-grammar-library]"), curation: dashboard.querySelector("[data-tense-curation]"), practice: dashboard.querySelector("[data-grammar-practice]"),
@@ -253,8 +274,8 @@
     highlightTimer = window.setTimeout(highlightGrammarSelection, 500);
   });
 
-  for (let start = 1; start <= 150; start += 25) {
-    const end = Math.min(start + 24, 150);
+  for (let start = 1; start <= questionCount; start += 25) {
+    const end = Math.min(start + 24, questionCount);
     elements.range.insertAdjacentHTML("beforeend", `<option value="${start}">第 ${start}–${end} 題</option>`);
   }
 
@@ -269,7 +290,7 @@
     elements.attemptedCount.textContent = String(attempted);
     elements.score.textContent = String(correct);
     elements.progress.setAttribute("aria-valuenow", String(correct));
-    elements.progressFill.style.width = `${correct / 150 * 100}%`;
+    elements.progressFill.style.width = `${correct / questionCount * 100}%`;
     elements.start.textContent = attempted || correct ? "繼續練習" : "開始練習";
   }
 
@@ -278,7 +299,7 @@
   function renderGrid() {
     const start = Number(elements.range.value) || rangeStart();
     elements.grid.replaceChildren();
-    for (let number = start; number < start + 25 && number <= 150; number += 1) {
+    for (let number = start; number < start + 25 && number <= questionCount; number += 1) {
       const button = document.createElement("button");
       button.type = "button";
       button.textContent = String(number);
@@ -295,12 +316,16 @@
 
   function showQuestion(number, focus = false) {
     clearGrammarHighlights({ disable: true });
-    state.current = Math.min(150, Math.max(1, Number(number) || 1));
+    state.current = Math.min(questionCount, Math.max(1, Number(number) || 1));
     state.questionStartedAt = performance.now();
     saveLocal();
     const question = questions[state.current - 1];
     elements.range.value = String(rangeStart());
-    elements.number.textContent = `QUESTION ${question.number} / 150`;
+    elements.number.textContent = `QUESTION ${question.number} / ${questionCount}`;
+    const instruction = dashboard.querySelector("[data-question-instruction]");
+    instruction.hidden = !question.instruction;
+    instruction.querySelector("[data-question-instruction-en]").textContent = question.instructionEn || "";
+    instruction.querySelector("[data-question-instruction-zh]").textContent = question.instruction || "";
     elements.prompt.textContent = question.prompt;
     elements.translation.textContent = question.translation;
     elements.input.value = state.attempts[state.current]?.answer || "";
@@ -313,7 +338,7 @@
     elements.practice.classList.remove("grammar-practice--scroll-reading");
     updateQuestionBookmark();
     elements.previous.disabled = state.current === 1;
-    elements.next.disabled = state.current === 150;
+    elements.next.disabled = state.current === questionCount;
     elements.saveStatus.textContent = "";
     delete elements.saveStatus.dataset.state;
     renderGrid();
@@ -329,7 +354,7 @@
 
   function requestedQuestion() {
     const number = Number(new URLSearchParams(window.location.search).get("question"));
-    return Number.isInteger(number) && number >= 1 && number <= 150 ? number : 0;
+    return Number.isInteger(number) && number >= 1 && number <= questionCount ? number : 0;
   }
 
   function setTenseRoute(view, number = 0) {
@@ -554,7 +579,7 @@
     state.loadingProgress = true;
     try {
       const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("grammar_tense_list_progress", { p_token: state.token });
-      state.remoteCorrect = new Set((Array.isArray(rows) ? rows : []).map((row) => Number(row.question_number)).filter((number) => number >= 1 && number <= 150));
+      state.remoteCorrect = new Set((Array.isArray(rows) ? rows : []).map((row) => Number(row.question_number)).filter((number) => number >= 1 && number <= questionCount));
       updateTotals();
       renderGrid();
     } catch (error) {
@@ -596,6 +621,7 @@
   elements.curation.querySelectorAll("[data-tense-jump]").forEach((button) => button.addEventListener("click", () => {
     elements.curation.querySelector(`#tense-topic-${button.dataset.tenseJump}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
   }));
+  elements.curation.querySelectorAll("[data-tense-practice-question]").forEach(button => button.addEventListener("click", () => showTensePractice(Number(button.dataset.tensePracticeQuestion), true)));
   elements.curation.addEventListener("click", (event) => {
     const button = event.target.closest("[data-tense-checkpoint-choice]");
     if (!button || !elements.curation.contains(button)) return;
@@ -614,6 +640,7 @@
     feedback.hidden = false;
     feedback.dataset.result = correct ? "correct" : "retry";
     feedback.textContent = correct ? (group === "form" ? "寫法正確。現在選出原因。" : checkpoint.explanation) : "再看時間範圍和助動詞，試多一次。";
+    window.EDMUND_GRAMMAR_FORMAT_CURATION(feedback);
     if (group === "form") {
       box.querySelector("[data-checkpoint-why]").hidden = !correct;
       if (!correct) {
@@ -673,7 +700,8 @@
     adoptSession();
   });
 
-  showQuestion(requestedQuestion() || 1);
+  readLocal();
+  showQuestion(requestedQuestion() || state.current);
   updateExplanationMode();
   updateTotals();
   const initialRoute = new URLSearchParams(window.location.search);

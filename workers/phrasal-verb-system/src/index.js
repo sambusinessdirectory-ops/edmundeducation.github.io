@@ -684,7 +684,8 @@ function normalizeAttemptResult(value, context) {
     ...requiredKeys,
     "correctionMode",
     "correctionIds",
-    "collapsedCorrectIds"
+    "collapsedCorrectIds",
+    "controlRevision"
   ]);
   if (
     !hasOnlyKeys(value, allowedKeys)
@@ -829,6 +830,10 @@ function normalizeAttemptResult(value, context) {
   const collapsedCorrectIds = value.collapsedCorrectIds === undefined
     ? []
     : normalizeIdentifierArray(value.collapsedCorrectIds, "result.collapsedCorrectIds", context.totalCount, context.lessonId);
+  const controlRevision = value.controlRevision === undefined ? 0 : value.controlRevision;
+  if (!Number.isSafeInteger(controlRevision) || controlRevision < 0 || controlRevision > 2147483647) {
+    throw new HttpError(400, "INVALID_ATTEMPT", "result.controlRevision is invalid");
+  }
   if (
     (correctionMode && (!correctionIds.length || value.awaitingNextRound))
     || (!correctionMode && correctionIds.length)
@@ -859,6 +864,7 @@ function normalizeAttemptResult(value, context) {
     correctionMode,
     correctionIds,
     collapsedCorrectIds,
+    controlRevision,
     contentVersion: value.contentVersion
   };
   // PostgreSQL's jsonb::text inserts a space after each comma and colon. Match

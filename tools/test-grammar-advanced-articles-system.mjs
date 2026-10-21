@@ -4,35 +4,36 @@ import vm from "node:vm";
 import { createRequire } from "node:module";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [tenseData, tenseGuide, tenseRuntime, articleData, articleRuntime, advancedData, advancedRuntime, html, css, sql, workflow] = await Promise.all([
-  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("grammar-system.js"), read("grammar-articles-data.js"), read("grammar-articles.js"),
+const [tenseData, tenseGuide, tenseRuntime, extensionData, articleData, articleRuntime, advancedData, advancedRuntime, html, css, sql, workflow] = await Promise.all([
+  read("grammar-tense-data.js"), read("grammar-tense-curation-data.js"), read("grammar-system.js"), read("grammar-advanced-articles-extension-data.js"), read("grammar-articles-data.js"), read("grammar-articles.js"),
   read("grammar-advanced-articles-data.js"), read("grammar-advanced-articles.js"), read("grammar-system.html"),
   read("grammar-system.css"), read("supabase-grammar-advanced-articles-progress.sql"), read(".github/workflows/pages.yml")
 ]);
 const context = { window: {} };
 vm.createContext(context);
 vm.runInContext(advancedData, context);
+vm.runInContext(extensionData, context);
 const lesson = context.window.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA;
-assert.equal(lesson.topics.length, 27);
-assert.equal(lesson.questions.length, 100);
-assert.deepEqual(Array.from(lesson.topics, ({ number }) => number), Array.from({ length: 27 }, (_, i) => i + 67));
-assert.deepEqual(Array.from(lesson.questions, ({ number }) => number), Array.from({ length: 100 }, (_, i) => i + 151));
+assert.equal(lesson.topics.length, 31);
+assert.equal(lesson.questions.length, 120);
+assert.deepEqual(Array.from(lesson.topics, ({ number }) => number), Array.from({ length: 31 }, (_, i) => i + 67));
+assert.deepEqual(Array.from(lesson.questions, ({ number }) => number), Array.from({ length: 120 }, (_, i) => i + 151));
 assert.match(lesson.appendix, /第十步/);
 assert.deepEqual(Array.from(lesson.questions[49].answers), ["Ø", "an"]);
 for (const topic of lesson.topics) {
-  assert.ok(topic.title && topic.body && topic.sourcePage > 0);
+  assert.ok(topic.title && topic.body && (topic.sourcePage > 0 || topic.sourceLine > 0));
   assert.doesNotMatch(topic.body, /worksheet|Golden Manual|Articles - Grammar Curation|之後出題/);
 }
 for (const question of lesson.questions) {
   assert.equal(question.prompt.split("_____").length - 1, question.answers.length, `Blank count: ${question.number}`);
-  assert.ok(question.translation && question.completeSentence && question.sourcePage > 0 && question.answerSourcePage > 0);
+  assert.ok(question.translation && question.completeSentence && (question.sourcePage > 0 || question.sourceLine > 0) && (question.answerSourcePage > 0 || question.answerSourceLine > 0));
   assert.equal(question.steps.length, 7, `Seven steps: ${question.number}`);
   assert.ok(question.steps.every(({ title, body }) => title && body));
 }
 assert.match(html, /grammar-advanced-articles-data\.js\?v=20261012-advanced1/);
-assert.match(html, /grammar-advanced-articles\.js\?v=20261012-advanced1/);
+assert.match(html, /grammar-advanced-articles\.js\?v=20261019-curation-lines1/);
 assert.match(css, /\.grammar-lesson-card--advanced-articles::after/);
-assert.match(sql, /p_question_number not between 151 and 250/);
+assert.match(sql, /p_question_number not between 151 and 270/);
 assert.match(sql, /auth\.uid\(\) is null/);
 assert.match(sql, /advanced-articles:q/);
 assert.match(sql, /grant execute on function public\.grammar_advanced_articles_record_completion[\s\S]*to authenticated/);
@@ -46,7 +47,7 @@ function makeDom(url) {
   });
   const w = dom.window;
   w.HTMLElement.prototype.scrollIntoView = function () {};
-  for (const source of [tenseData, tenseGuide, articleData, advancedData, tenseRuntime, articleRuntime, advancedRuntime]) w.eval(source);
+  for (const source of [tenseData, tenseGuide, articleData, advancedData, extensionData, tenseRuntime, articleRuntime, advancedRuntime]) w.eval(source);
   return dom;
 }
 function submit(w, value) {
@@ -67,7 +68,7 @@ const guide = d.querySelector("[data-advanced-articles-curation]");
 assert.equal(guide.hidden, false);
 assert.match(w.location.search, /lesson=advanced-articles&view=curation/);
 const topics = [...guide.querySelectorAll("[data-advanced-articles-topic]")];
-assert.equal(topics.length, 28, "27 rules and updated decision map");
+assert.equal(topics.length, 32, "31 rules and updated decision map");
 assert.match(topics[1].querySelector("h3").textContent, /enough/);
 assert.equal(topics[0].dataset.scrollVisible, "true");
 assert.equal(topics[1].dataset.scrollVisible, "false");
@@ -81,7 +82,7 @@ guide.querySelector("[data-advanced-articles-start]").click();
 const practice = d.querySelector("[data-advanced-articles-practice]");
 assert.equal(practice.hidden, false);
 assert.equal(guide.hidden, true);
-assert.equal(d.querySelector("[data-advanced-articles-number]").textContent, "QUESTION 151 / 250");
+assert.equal(d.querySelector("[data-advanced-articles-number]").textContent, "QUESTION 151 / 270");
 assert.equal(submit(w, "x"), "correct", "x means no article");
 assert.equal(practice.querySelectorAll("[data-step-number]").length, 7);
 const steps = [...practice.querySelectorAll("[data-step-number]")];
@@ -104,11 +105,11 @@ assert.equal(steps[1].hidden, false);
 
 const multi = makeDom("https://example.test/grammar-system.html?lesson=advanced-articles&view=practice&question=200");
 assert.equal(multi.window.document.querySelector("[data-advanced-articles-practice]").hidden, false);
-assert.equal(multi.window.document.querySelector("[data-advanced-articles-number]").textContent, "QUESTION 200 / 250");
+assert.equal(multi.window.document.querySelector("[data-advanced-articles-number]").textContent, "QUESTION 200 / 270");
 assert.equal(submit(multi.window, "x / an"), "correct", "both blanks accepted in order");
 assert.equal(submit(multi.window, "Maya took part in the event and later played an important part in organising the next one."), "correct", "completed sentence accepted");
 assert.equal(submit(multi.window, "an / x"), "wrong", "reversed answers rejected");
-const last = makeDom("https://example.test/grammar-system.html?lesson=advanced-articles&view=practice&question=250");
+const last = makeDom("https://example.test/grammar-system.html?lesson=advanced-articles&view=practice&question=270");
 assert.equal(last.window.document.querySelector("[data-advanced-articles-next]").disabled, true);
-assert.equal(last.window.document.querySelector("[data-advanced-articles-number]").textContent, "QUESTION 250 / 250");
-console.log("Advanced Articles checks passed: 27 rules, 100 questions, direct routes, reversible scrolling, and two-blank grading.");
+assert.equal(last.window.document.querySelector("[data-advanced-articles-number]").textContent, "QUESTION 270 / 270");
+console.log("Advanced Articles checks passed: 31 rules, 120 questions, direct routes, reversible scrolling, and two-blank grading.");
