@@ -2001,8 +2001,8 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .writing-structure-select-menu[hidden]{display:none}
 .writing-structure-select-group+.writing-structure-select-group{border-top:1px solid #dcece7;margin-top:5px;padding-top:5px}
 .writing-structure-select-group-title{display:block;padding:8px 10px 5px;color:#5c817b;font:900 10px ui-sans-serif,system-ui,sans-serif;letter-spacing:.04em}
-.writing-structure-select-option{display:flex;align-items:baseline;justify-content:space-between;gap:10px;width:100%;min-height:35px;border:1px solid transparent;border-radius:9px;padding:8px 10px;background:transparent;color:#264b4b;text-align:left;cursor:pointer}
-.writing-structure-select-option strong{font:750 12px ui-sans-serif,system-ui,sans-serif}.writing-structure-select-option small{flex:none;color:#718880;font:650 10px ui-sans-serif,system-ui,sans-serif}
+.writing-structure-select-option{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 10px;width:100%;min-height:35px;border:1px solid transparent;border-radius:9px;padding:8px 10px;background:transparent;color:#264b4b;text-align:left;cursor:pointer}
+.writing-structure-select-option strong{min-width:0;overflow-wrap:anywhere;font:750 12px ui-sans-serif,system-ui,sans-serif}.writing-structure-select-option small{color:#718880;font:650 10px ui-sans-serif,system-ui,sans-serif}
 .writing-structure-select-option:hover,.writing-structure-select-option:focus-visible{outline:0;border-color:#aed8ca;background:#e8f5ee}
 .writing-structure-select-option.is-selected{border-color:#80b5a1;background:linear-gradient(110deg,#dbf2e8,#eff8eb);color:#175c4b;box-shadow:inset 3px 0 #39946d}.writing-structure-select-option.is-selected small{color:#376e5c}
 .writing-structure-search input{width:100%;box-sizing:border-box;border:1px solid #b9d1d4;border-radius:10px;padding:9px 10px;background:#fff;color:#233f4e;font:700 13px ui-sans-serif,system-ui,sans-serif}
