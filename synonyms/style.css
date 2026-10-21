@@ -117,8 +117,8 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-global-nav { display:flex; flex-wrap:wrap; gap:8px; margin:-9px 0 28px; padding-bottom:18px; border-bottom:1px solid #d7e8e5; }
 .syn-global-nav button { padding:9px 13px; border:1px solid #cfe5df; border-radius:999px; color:#246768; background:#ffffffd9; font-size:12px; font-weight:850; box-shadow:0 3px 0 #e4efec; transition:transform .18s ease,background .18s ease,border-color .18s ease; }
 .syn-global-nav button:hover { transform:translateY(-2px); border-color:#7ac1b5; background:#effaf5; }
-.syn-speed-control { display:inline-flex; align-items:center; gap:7px; margin-left:auto; color:#246768; font-size:12px; font-weight:850; white-space:nowrap; }
-.syn-speed-control select { padding:8px 28px 8px 11px; border:1px solid #8fc6bb; border-radius:999px; color:#195d61; background:#fff; font:inherit; cursor:pointer; }
+.syn-speed-control { display:inline-flex; align-items:center; gap:7px; color:#246768; font-size:12px; font-weight:850; white-space:nowrap; }
+.syn-speed-control select { padding:8px 28px 8px 11px; border:1px solid #8fc6bb; border-radius:10px; color:#195d61; background:#fff; font:inherit; cursor:pointer; }
 .syn-speed-control select:focus-visible { outline:3px solid #77c9b7; outline-offset:2px; }
 .syn-save-row { display:flex; align-items:center; gap:10px; min-height:24px; margin:-17px 0 20px; color:#477571; font-size:12px; font-weight:800; }
 .syn-save-row [data-state="saved"] { color:#2b8061; }
@@ -177,7 +177,6 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-explanations { margin:18px 0 24px; }
 .syn-explanations h5 { margin:0 0 12px; color:#1d665d; font-size:15px; }
 .syn-explanations .is-answer { border:1px solid #add9be; background:#eaf9ec; }
-@media(max-width:620px) { .syn-speed-control { width:100%; margin-left:0; justify-content:flex-end; } }
 @media(max-width:720px) { .syn-module-front,.syn-module-grid,.syn-word-grid,.syn-false-grid { grid-template-columns:1fr; } .syn-module-aside { min-height:150px; } .syn-global-nav { margin-top:0; } }
 
 /* Pronunciation, recording, and review controls. */
