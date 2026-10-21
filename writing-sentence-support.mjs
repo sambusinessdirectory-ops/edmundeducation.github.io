@@ -98,6 +98,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   const functionValue = root.querySelector('[data-structure-function-value]');
   const functionMenu = root.querySelector('[data-structure-function-menu]');
   const search = root.querySelector('[data-structure-search]');
+  const scroll = root.querySelector('[data-structure-scroll]');
   const results = root.querySelector('[data-structure-results]');
   const heading = root.querySelector('[data-structure-heading]');
   const count = root.querySelector('[data-structure-count]');
@@ -167,7 +168,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
         saving = false;
         if (owner === requestedOwner && progressPending && JSON.stringify([...mastered].sort()) !== JSON.stringify(requestedIds)) scheduleRemoteSave();
       }
-    }, 600);
+    }, delay);
   }
 
   async function loadRemoteProgress() {
@@ -256,6 +257,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
     visibleCount = 30;
     search.value = '';
     closeFunctionMenu(true);
+    scroll.scrollTop = 0;
     render();
   }
 
@@ -328,6 +330,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
     setGeometry(geometry);
     visibleCount = 30;
     search.value = '';
+    scroll.scrollTop = 0;
     panel.hidden = false;
     root.dataset.open = 'true';
     results.innerHTML = '<p class="writing-structure-empty">正在載入句型…</p>';

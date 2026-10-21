@@ -229,6 +229,8 @@ const elements = {
   writingImageDock: document.querySelector("[data-writing-image-dock]"),
   writingImagePhoto: document.querySelector("[data-writing-image-photo]"),
   writingImageCount: document.querySelector("[data-writing-image-count]"),
+  writingImageTopic: document.querySelector("[data-writing-image-topic]"),
+  writingImageTopicText: document.querySelector("[data-writing-image-topic-text]"),
   writingImageRestore: document.querySelector("[data-writing-image-restore]"),
   randomTopicOpen: document.querySelector("[data-random-topic-open]"),
   randomTopicDialog: document.querySelector("[data-random-topic-dialog]"),
@@ -649,8 +651,14 @@ function updateWritingImageDockPhoto(images = floatingWritingTopicImages()) {
   if (elements.writingImagePhoto.getAttribute("src") !== image.src) elements.writingImagePhoto.src = image.src;
   elements.writingImagePhoto.alt = image.alt || `題目圖片 ${index + 1}`;
   elements.writingImageCount.textContent = `${index + 1} / ${images.length}`;
-  elements.writingImageDock.querySelector("[data-writing-image-previous]").disabled = index === 0;
-  elements.writingImageDock.querySelector("[data-writing-image-next]").disabled = index === images.length - 1;
+  const previous = elements.writingImageDock.querySelector("[data-writing-image-previous]");
+  const next = elements.writingImageDock.querySelector("[data-writing-image-next]");
+  const singleImage = images.length === 1;
+  previous.hidden = singleImage;
+  next.hidden = singleImage;
+  previous.disabled = index === 0;
+  next.disabled = index === images.length - 1;
+  elements.writingImageDock.querySelector(".writing-image-dock__navigation").classList.toggle("is-single", singleImage);
 }
 
 function syncFloatingWritingImageDock() {
@@ -693,6 +701,10 @@ function syncFloatingWritingTopicContent() {
   elements.floatingTopic.classList.toggle('is-speaking-topic', Boolean(speaking));
   elements.floatingTopicPreview.textContent = (speaking?.question || topic).replace(/\s+/gu, " ");
   elements.floatingTopicText.textContent = speaking?.question || topic;
+  if (elements.writingImageTopic && elements.writingImageTopicText) {
+    elements.writingImageTopicText.textContent = speaking?.question || topic;
+    elements.writingImageTopic.hidden = !images.length || !topic;
+  }
   if (elements.floatingSpeakingDetails) {
     elements.floatingSpeakingDetails.replaceChildren();
     if (speaking?.hints) {
@@ -749,8 +761,9 @@ function syncFloatingWritingTopicVisibility() {
     && topicBottom <= headerBottom + 8
     && formBottom > headerBottom + 62
   );
-  elements.floatingTopic.hidden = !visible;
-  if (!visible) setFloatingWritingTopicExpanded(false);
+  const topicIsInImageDock = floatingWritingTopicImages().length > 0 && !elements.writingImageDock.hidden;
+  elements.floatingTopic.hidden = !visible || topicIsInImageDock;
+  if (elements.floatingTopic.hidden) setFloatingWritingTopicExpanded(false);
 }
 
 function scheduleFloatingWritingTopicSync() {
@@ -767,10 +780,12 @@ function installWritingImageDockControls() {
   dock.querySelector("[data-writing-image-minimise]").addEventListener("click", () => {
     state.writingImageDockDismissed = true;
     syncFloatingWritingImageDock();
+    scheduleFloatingWritingTopicSync();
   });
   elements.writingImageRestore.addEventListener("click", () => {
     state.writingImageDockDismissed = false;
     syncFloatingWritingImageDock();
+    scheduleFloatingWritingTopicSync();
   });
   for (const [selector, offset] of [["[data-writing-image-previous]", -1], ["[data-writing-image-next]", 1]]) {
     dock.querySelector(selector).addEventListener("click", () => {
