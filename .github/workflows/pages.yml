@@ -217,6 +217,7 @@ jobs:
         run: |
           node --check writing-submission.js
           node --test tools/test-writing-function-helper.mjs
+          node --test tools/test-writing-sentence-support.mjs
           node --test tools/test-writing-speaking-topics.mjs
           node --check writing-proofread-checklist.mjs
           node --check writing-feedback-reading.mjs

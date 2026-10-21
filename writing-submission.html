@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20261021-pocket-latest-greeting2">
+  <link rel="stylesheet" href="writing-submission.css?v=20261021-structure-polish1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -168,7 +168,11 @@
             <div class="writing-structure-panel" id="writing-structure-panel" data-structure-panel hidden>
               <div class="writing-structure-head" data-structure-drag><div><small>SENTENCE STRUCTURES</small><h3>句子結構支援</h3></div><button type="button" data-structure-close aria-label="關閉句子結構支援">×</button></div>
               <p class="writing-structure-heading" data-structure-heading></p>
-              <label class="writing-structure-select">句子功能 <select data-structure-function aria-label="選擇句子功能"></select></label>
+              <div class="writing-structure-select">
+                <span id="writing-structure-function-label">句子功能</span>
+                <button class="writing-structure-select-trigger" type="button" data-structure-function-trigger aria-haspopup="listbox" aria-expanded="false" aria-controls="writing-structure-function-menu" aria-labelledby="writing-structure-function-label writing-structure-function-value"><span id="writing-structure-function-value" data-structure-function-value></span></button>
+                <div class="writing-structure-select-menu" id="writing-structure-function-menu" data-structure-function-menu role="listbox" aria-label="選擇句子功能" hidden></div>
+              </div>
               <label class="writing-structure-search">搜尋句型 <input type="search" data-structure-search placeholder="英文句型或中文用途"></label>
               <p class="writing-structure-count" data-structure-count aria-live="polite"></p>
               <div class="writing-structure-results" data-structure-results></div>
@@ -730,6 +734,6 @@
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
-  <script type="module" src="writing-submission.js?v=20261021-pocket-latest-greeting2"></script>
+  <script type="module" src="writing-submission.js?v=20261021-structure-polish1"></script>
 </body>
 </html>

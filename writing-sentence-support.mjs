@@ -29,29 +29,44 @@ function formulaHtml(value) {
   ).join('');
 }
 
-function exampleHtml(formula, example) {
+export function exampleHtml(formula, example) {
   const text = String(example || '');
-  const literals = String(formula || '').split(/\[[^\]]+\]/g)
-    .map(part => part.replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, '').trim())
-    .filter(part => /[A-Za-z]{3,}/.test(part));
+  const parts = String(formula || '').split(/(\[[^\]]+\])/g);
   const ranges = [];
   let cursor = 0;
-  for (const literal of literals) {
+  for (let index = 0; index < parts.length; index += 1) {
+    if (parts[index].startsWith('[') && parts[index].endsWith(']')) continue;
+    const literal = parts[index].replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, '').trim();
+    if (!/[A-Za-z]{3,}/.test(literal)) continue;
     const expression = new RegExp(`\\b${literal.split(/\s+/).map(word => word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s+')}\\b`, 'i');
     const found = expression.exec(text.slice(cursor));
     if (!found) continue;
     const start = cursor + found.index;
     const end = start + found[0].length;
-    ranges.push([start, end]);
+    ranges.push({ index, start, end, kind: 'match' });
     cursor = end;
   }
   if (!ranges.length) return escapeHtml(text);
+  const literals = [...ranges];
+  for (let index = 0; index < parts.length; index += 1) {
+    if (!parts[index].startsWith('[') || !parts[index].endsWith(']')) continue;
+    const before = literals.filter(range => range.index < index).at(-1);
+    const after = literals.find(range => range.index > index);
+    if (!before && !after) continue;
+    let start = before?.end ?? 0;
+    let end = after?.start ?? text.length;
+    while (start < end && /\s/.test(text[start])) start += 1;
+    while (end > start && /[\s.!?]/.test(text[end - 1])) end -= 1;
+    if (end > start) ranges.push({ index, start, end, kind: 'variable' });
+  }
+  ranges.sort((a, b) => a.start - b.start || b.end - a.end);
   let output = '';
   let position = 0;
-  for (const [start, end] of ranges) {
-    output += escapeHtml(text.slice(position, start));
-    output += `<mark class="writing-structure-match">${escapeHtml(text.slice(start, end))}</mark>`;
-    position = end;
+  for (const range of ranges) {
+    if (range.start < position) continue;
+    output += escapeHtml(text.slice(position, range.start));
+    output += `<mark class="writing-structure-${range.kind}">${escapeHtml(text.slice(range.start, range.end))}</mark>`;
+    position = range.end;
   }
   return output + escapeHtml(text.slice(position));
 }
@@ -61,7 +76,10 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   const getOwner = options.getOwner || (() => '');
   const toggle = root.querySelector('[data-structure-toggle]');
   const panel = root.querySelector('[data-structure-panel]');
-  const select = root.querySelector('[data-structure-function]');
+  const functionPicker = root.querySelector('.writing-structure-select');
+  const functionTrigger = root.querySelector('[data-structure-function-trigger]');
+  const functionValue = root.querySelector('[data-structure-function-value]');
+  const functionMenu = root.querySelector('[data-structure-function-menu]');
   const search = root.querySelector('[data-structure-search]');
   const results = root.querySelector('[data-structure-results]');
   const heading = root.querySelector('[data-structure-heading]');
@@ -167,11 +185,58 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   setGeometry(geometry);
 
   let group = '';
-  select.innerHTML = writingFunctions.map(item => {
-    const prefix = item.group !== group ? `${group ? '</optgroup>' : ''}<optgroup label="${escapeHtml(item.group)} · ${escapeHtml(item.groupZh)}">` : '';
-    group = item.group;
-    return `${prefix}<option value="${escapeHtml(item.id)}">${escapeHtml(item.title)} · ${escapeHtml(item.titleZh)}</option>`;
-  }).join('') + `</optgroup><option value="${generalFunction.id}">${generalFunction.title} · ${generalFunction.titleZh}</option>`;
+  let groupNode = null;
+  for (const item of [...writingFunctions, generalFunction]) {
+    const groupLabel = item.group ? `${item.group} · ${item.groupZh}` : '跨段落';
+    if (groupLabel !== group) {
+      group = groupLabel;
+      groupNode = document.createElement('div');
+      groupNode.className = 'writing-structure-select-group';
+      groupNode.setAttribute('role', 'group');
+      groupNode.setAttribute('aria-label', groupLabel);
+      const heading = document.createElement('span');
+      heading.className = 'writing-structure-select-group-title';
+      heading.textContent = groupLabel;
+      groupNode.append(heading);
+      functionMenu.append(groupNode);
+    }
+    const option = document.createElement('button');
+    option.type = 'button';
+    option.className = 'writing-structure-select-option';
+    option.setAttribute('role', 'option');
+    option.setAttribute('aria-selected', 'false');
+    option.dataset.structureFunctionOption = item.id;
+    option.tabIndex = -1;
+    option.innerHTML = `<strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.titleZh)}</small>`;
+    groupNode.append(option);
+  }
+  const functionOptions = [...functionMenu.querySelectorAll('[data-structure-function-option]')];
+
+  function closeFunctionMenu(restoreFocus = false) {
+    functionMenu.hidden = true;
+    functionTrigger.setAttribute('aria-expanded', 'false');
+    functionPicker.classList.remove('is-open');
+    if (restoreFocus) functionTrigger.focus();
+  }
+
+  function openFunctionMenu() {
+    functionMenu.hidden = false;
+    functionTrigger.setAttribute('aria-expanded', 'true');
+    functionPicker.classList.add('is-open');
+    const room = panel.getBoundingClientRect().bottom - functionTrigger.getBoundingClientRect().bottom - 16;
+    functionMenu.style.maxHeight = `${Math.max(150, Math.min(360, room))}px`;
+    const current = functionOptions.find(option => option.dataset.structureFunctionOption === active) || functionOptions[0];
+    current.focus();
+    current.scrollIntoView({ block: 'nearest' });
+  }
+
+  function chooseFunction(id) {
+    active = id;
+    visibleCount = 30;
+    search.value = '';
+    closeFunctionMenu(true);
+    render();
+  }
 
   const matches = () => {
     const tag = placementByFunction[active];
@@ -189,7 +254,12 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   function render() {
     const current = writingFunctions.find(item => item.id === active) || generalFunction;
     heading.textContent = `${current.title} · ${current.titleZh}`;
-    select.value = current.id;
+    functionValue.textContent = `${current.title} · ${current.titleZh}`;
+    functionOptions.forEach(option => {
+      const selected = option.dataset.structureFunctionOption === current.id;
+      option.setAttribute('aria-selected', String(selected));
+      option.classList.toggle('is-selected', selected);
+    });
     if (!catalog) return;
     const items = matches();
     updateCount(items);
@@ -197,7 +267,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
       const example = item.example
         ? `<p lang="en">${exampleHtml(item.formula, item.example)}</p><small>${escapeHtml(item.source)}</small>${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">在 Writing Practice 查看來源 ↗</a>` : ''}`
         : '<p>目前的 Writing Practice 題庫未收錄這條來源原句。</p>';
-      return `<article class="writing-structure-card${mastered.has(item.id) ? ' is-mastered' : ''}"><div class="writing-structure-card-top"><button type="button" class="writing-structure-formula" data-structure-preview aria-expanded="false"><span>${escapeHtml(item.id)} · ${item.sourceRows} 筆來源</span><strong>${formulaHtml(item.formula)}</strong><em>移入游標或按一下查看原文例句</em></button><label class="writing-structure-mastered"><input type="checkbox" data-structure-mastered="${escapeHtml(item.id)}" ${mastered.has(item.id) ? 'checked' : ''}><span>已能使用</span></label></div><p class="writing-structure-meaning">${escapeHtml(item.meaning)}</p><p class="writing-structure-usage">${escapeHtml(item.usage)}</p><div class="writing-structure-example"><strong>Writing Practice 原文例句</strong>${example}</div></article>`;
+      return `<article class="writing-structure-card${mastered.has(item.id) ? ' is-mastered' : ''}"><div class="writing-structure-card-top"><button type="button" class="writing-structure-formula" data-structure-preview aria-expanded="false"><span>${escapeHtml(item.id)} · ${item.sourceRows} 筆來源</span><strong>${formulaHtml(item.formula)}</strong></button><label class="writing-structure-mastered"><input type="checkbox" data-structure-mastered="${escapeHtml(item.id)}" ${mastered.has(item.id) ? 'checked' : ''}><span>已能使用</span></label></div><p class="writing-structure-meaning">${escapeHtml(item.meaning)}</p><p class="writing-structure-usage">${escapeHtml(item.usage)}</p><div class="writing-structure-example"><strong>Writing Practice 原文例句</strong>${example}</div></article>`;
     }).join('') : '<p class="writing-structure-empty">這個句子功能暫無已標註的句型。可在上方選擇另一個功能。</p>';
     more.hidden = items.length <= visibleCount;
   }
@@ -221,6 +291,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
 
   async function open(id = active) {
     if (placementByFunction[id] || id === generalFunction.id) active = id;
+    closeFunctionMenu();
     readProgress();
     setGeometry(geometry);
     visibleCount = 30;
@@ -236,6 +307,7 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
   }
 
   function close() {
+    closeFunctionMenu();
     panel.hidden = true;
     root.dataset.open = 'false';
     toggle.setAttribute('aria-expanded', 'false');
@@ -243,7 +315,25 @@ export function mountSentenceSupport(root, writingFunctions, options = {}) {
 
   toggle.addEventListener('click', () => panel.hidden ? void open() : close());
   closeButton.addEventListener('click', close);
-  select.addEventListener('change', () => { active = select.value; visibleCount = 30; search.value = ''; render(); });
+  functionTrigger.addEventListener('click', () => functionMenu.hidden ? openFunctionMenu() : closeFunctionMenu(true));
+  functionTrigger.addEventListener('keydown', event => {
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') { event.preventDefault(); openFunctionMenu(); }
+  });
+  functionMenu.addEventListener('click', event => {
+    const option = event.target.closest('[data-structure-function-option]');
+    if (option) chooseFunction(option.dataset.structureFunctionOption);
+  });
+  functionMenu.addEventListener('keydown', event => {
+    if (event.key === 'Escape') { event.preventDefault(); closeFunctionMenu(true); return; }
+    if (event.key === 'Tab') { closeFunctionMenu(); return; }
+    if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(event.key)) return;
+    event.preventDefault();
+    const index = functionOptions.indexOf(document.activeElement);
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? functionOptions.length - 1 : (index + (event.key === 'ArrowDown' ? 1 : -1) + functionOptions.length) % functionOptions.length;
+    functionOptions[next].focus();
+    functionOptions[next].scrollIntoView({ block: 'nearest' });
+  });
+  document.addEventListener('pointerdown', event => { if (!functionPicker.contains(event.target)) closeFunctionMenu(); });
   search.addEventListener('input', () => { visibleCount = 30; render(); });
   more.addEventListener('click', () => { visibleCount += 30; render(); });
   results.addEventListener('click', event => {
