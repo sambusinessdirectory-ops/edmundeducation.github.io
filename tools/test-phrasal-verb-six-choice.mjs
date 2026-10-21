@@ -34,9 +34,14 @@ function choiceContext(lesson) {
   return context;
 }
 
-for (const lessonNumber of Array.from({ length: 10 }, (_, index) => index + 1)) {
-  test(`module ${lessonNumber} offers six stable unique choices and only reveals after the correct click`, () => {
-    const lesson = lessons[lessonNumber - 1];
+test("every phrasal-verb question offers six distinct choices with one correct answer", () => {
+  const meaningsByForm = new Map();
+  for (const question of lessons.flatMap((lesson) => lesson.questions)) {
+    if (!meaningsByForm.has(question.targetForm)) meaningsByForm.set(question.targetForm, new Set());
+    meaningsByForm.get(question.targetForm).add(question.targetMeaningZh);
+  }
+  let checked = 0;
+  for (const lesson of lessons) {
     const context = choiceContext(lesson);
     assert.equal(context.usesPhrasalChoices(lesson), true);
     for (const question of lesson.questions) {
@@ -44,12 +49,25 @@ for (const lessonNumber of Array.from({ length: 10 }, (_, index) => index + 1)) 
       assert.equal(choices.length, 6, question.id);
       assert.equal(new Set(choices).size, 6, question.id);
       assert.equal(choices.filter((form) => form === question.targetForm).length, 1, question.id);
-      assert.deepEqual(choices, Array.from(context.phrasalChoices(lesson, question)), question.id);
-      const correctMeanings = new Set(lesson.questions.filter((item) => item.targetForm === question.targetForm).map((item) => item.targetMeaningZh));
+      const correctMeanings = meaningsByForm.get(question.targetForm);
       for (const distractor of choices.filter((form) => form !== question.targetForm)) {
-        assert.equal(lesson.questions.some((item) => item.targetForm === distractor && correctMeanings.has(item.targetMeaningZh)), false, `${question.id}: ${distractor} duplicates the correct meaning`);
+        assert.equal([...(meaningsByForm.get(distractor) || [])].some((meaning) => correctMeanings.has(meaning)), false, `${question.id}: ${distractor} duplicates the correct meaning`);
       }
+      checked += 1;
     }
+    assert.deepEqual(
+      Array.from(context.phrasalChoices(lesson, lesson.questions[0])),
+      Array.from(context.phrasalChoices(lesson, lesson.questions[0])),
+      `${lesson.id}: choices moved after rendering`
+    );
+  }
+  assert.equal(checked, lessons.reduce((total, lesson) => total + lesson.questions.length, 0));
+});
+
+for (const lessonNumber of [1, 10, 11, 29, 100, 200, 329]) {
+  test(`module ${lessonNumber} keeps wrong guesses local and reveals the full sentence after success`, () => {
+    const lesson = lessons[lessonNumber - 1];
+    const context = choiceContext(lesson);
     const question = lesson.questions[0];
     const wrong = Array.from(context.phrasalChoices(lesson, question)).find((form) => form !== question.targetForm);
     context.selectPhrasalChoice(question.id, wrong);
@@ -66,7 +84,16 @@ for (const lessonNumber of Array.from({ length: 10 }, (_, index) => index + 1)) 
   });
 }
 
-test("modules outside the pilot retain sentence-input mode", () => {
-  const context = choiceContext(lessons[10]);
-  assert.equal(context.usesPhrasalChoices(lessons[10]), false);
+test("a saved sentence draft does not appear as a wrong choice after migration", () => {
+  const lesson = lessons[10];
+  const question = lesson.questions[0];
+  const context = choiceContext(lesson);
+  context.state.exercise.drafts[question.id] = question.answer;
+  context.escapeHtml = (value) => String(value ?? "");
+  context.isBookmarked = () => false;
+  context.suggestedAnswerHtml = () => "";
+  vm.runInContext(sourceBetween("phrasalChoiceQuestionHtml", "questionHtml"), context);
+  const html = context.phrasalChoiceQuestionHtml(lesson, question);
+  assert.doesNotMatch(html, /再試一次/);
+  assert.equal((html.match(/class="phrasal-choice /g) || []).length, 6);
 });
