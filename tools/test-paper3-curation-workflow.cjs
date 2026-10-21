@@ -45,6 +45,7 @@ const server=http.createServer((req,res)=>{
     }
     await jump('Dear Nico');assert.equal(await page.locator('#page-4 .curation-mark-hint.is-revealed').count(),0,'boss highlights rewind with the step');assert.equal(await page.locator('#page-5 .curation-file-stamp-A').count(),0,'future source tags also rewind');
     await page.locator('[data-chapter="categorize"]').click();
+    await jump('聆聽筆記表');assert.ok(await page.locator('#page-3 .curation-file-stamp-A').isVisible());assert.ok(await page.locator('#page-3 .curation-file-stamp-C').isVisible());
     for(const [query,pageNo,task] of [['2024 健康月',6,'A'],['校園電視',7,'A'],['網誌',10,'C'],['運動雜誌',11,'B']]){
       await jump(query);
       assert.ok(await page.locator(`#page-${pageNo} .curation-file-stamp-${task}`).isVisible(),`${query} has Task ${task} stamp`);
@@ -85,6 +86,64 @@ const server=http.createServer((req,res)=>{
     await saved.locator('#curation-dock').waitFor({state:'visible'});
     assert.match(await saved.locator('#curation-quote').innerText(),/Alex and Emma/,'old save-slot step 206 migrates to the same sentence in the new reading order');
     await saved.close();
+    const v2=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});await v2.route('https://**/*',route=>route.abort());
+    await v2.addInitScript(()=>localStorage.setItem('edmund-paper3-2025-b2-curation-v1',JSON.stringify({version:'2025-b2-super-curation-v1',activeSlot:'1',slots:{1:{sequenceVersion:2,chapter:'data',positions:{boss:0,categorize:1,podcast:0,data:55,writing:0},spotlight:false,visited:[],completed:[]}}})));
+    await v2.goto(`http://127.0.0.1:${server.address().port}/paper3/2025-b2/index.html?curation=1`,{waitUntil:'domcontentloaded'});await v2.locator('#curation-dock').waitFor({state:'visible'});
+    assert.match(await v2.locator('#curation-quote').innerText(),/Alex and Emma/,'version-2 save stays on the same sentence after route insertion');
+    assert.equal(await v2.locator('#curation-spotlight').isChecked(),true,'spotlight is restored for pre-revision saves');
+    await v2.locator('[data-chapter="categorize"]').click();assert.match(await v2.locator('#curation-title').innerText(),/2024 健康月原海報/,'version-2 category position maps around the new note-sheet step');await v2.close();
+    assert.equal(await page.locator('[data-curation-route-page]').count(),8,'each distinct cross-page cue has one route');
+    await page.locator('#curation-spotlight').check();
+    await jump('I recommend having the Fitness Challenge again');
+    const oldSuggestion=page.locator('#page-5 .sentence-item').filter({hasText:'I recommend having the Fitness Challenge again'}).first();
+    assert.equal(await oldSuggestion.locator('.curation-pen-line').count(),1,'early candidate is prepared for later correction');
+    assert.equal(await oldSuggestion.evaluate(e=>e.classList.contains('is-revealed')),false,'candidate is not struck before the newer reply');
+    assert.match(await page.locator('#curation-explanation').innerText(),/候選|暫定/);assert.doesNotMatch(await page.locator('#curation-explanation').innerText(),/後來 Melissa 明確反對/,'early guidance does not reveal the later email');
+    await jump('OK, I agree with you about the Fitness Challenge');
+    assert.equal(await oldSuggestion.evaluate(e=>e.classList.contains('is-revealed')),true,'latest agreement triggers delayed rejection of the old suggestion');
+    await jump('Hi John,');
+    const greeting=page.locator('#page-5 .sentence-item.curation-target');
+    assert.equal(await greeting.getAttribute('data-curation-type'),'6');
+    assert.equal(await greeting.evaluate(e=>e.classList.contains('curation-strike')&&e.classList.contains('is-revealed')),true,'Type 6 greeting is struck on its step');
+    assert.ok(await page.locator('.curation-mask-top').isVisible(),'spotlight frames the Type 6 sentence');
+    await jump('It depends on the transport situation');
+    const transport=page.locator('#page-8 .sentence-item.curation-target');
+    assert.equal(await transport.locator('.curation-source-mark.curation-reference-cyan').count(),0,'Task B transport is never blue');
+    assert.ok(await transport.locator('.curation-source-mark.curation-reference-yellow').count()>0,'Task B transport is yellow');
+    await jump('They also said that parking near Cheung Sha Beach');
+    const parking=page.locator('#page-9 .sentence-item.curation-target');
+    assert.equal(await parking.locator('.curation-source-mark.curation-reference-cyan').count(),0,'Task B parking is never blue');
+    assert.ok(await parking.locator('.curation-source-mark.curation-reference-yellow').count()>0,'Task B parking is yellow');
+    for(const phrase of ['Wushu is a sport','Another sport to try, if you']){
+      await jump(phrase);const item=page.locator('#page-11 .sentence-item.curation-target');
+      assert.ok(await item.locator('.curation-pen-line').count()>0&&await item.evaluate(e=>e.classList.contains('is-revealed')),`${phrase} is struck`);
+      assert.ok(await item.locator('.curation-source-mark.curation-reference-yellow').count()>0||await item.evaluate(e=>e.classList.contains('curation-source-fallback')&&e.classList.contains('curation-reference-yellow')),`${phrase} keeps Task B yellow`);
+    }
+    await jump('Ask Manraj in the School Events Team');
+    await page.waitForTimeout(850);
+    assert.ok(await page.locator('#curation-route-arrow').isVisible(),'source hint draws a visible red arrow');
+    assert.ok(await page.locator('.curation-route-callout').innerText().then(t=>t.includes('第 9 頁')));
+    await page.screenshot({path:'/private/tmp/paper3-curation-route-source.png',fullPage:false});
+    await page.locator('#curation-next').click();
+    assert.match(await page.locator('#curation-title').innerText(),/第 9 頁/);
+    assert.ok(await page.locator('#page-9 .curation-target').count()>0,'next pans to the referenced Data File');
+    await page.locator('#curation-next').click();
+    assert.match(await page.locator('#curation-title').innerText(),/回到原句/);
+    await page.waitForTimeout(1000);
+    assert.ok(await page.locator('#curation-route-arrow').evaluate(e=>e.classList.contains('is-faded')),'return leaves a faint arrow');await page.screenshot({path:'/private/tmp/paper3-curation-route-return.png',fullPage:false});
+    await jump("attached the article to this email");await page.locator('#curation-next').click();
+    assert.ok(await page.locator('#page-11 .curation-target').count()>0,'article cue pans to page 11');
+    const colorErrors=await page.evaluate(()=>[...document.querySelectorAll('.sentence-item[data-curation-type]')].filter(e=>/^[1234]$/.test(e.dataset.curationType)).flatMap(e=>{const expected={1:'cyan',2:'yellow',3:'rose',4:'green'}[e.dataset.curationType];return [...e.querySelectorAll('.curation-source-mark')].filter(mark=>!mark.classList.contains(`curation-reference-${expected}`)).map(mark=>({text:e.textContent.slice(0,60),type:e.dataset.curationType,color:mark.className}));}));
+    assert.deepEqual(colorErrors,[],'all direct-use source highlights obey task colors');
+    const typeSixMissing=await page.evaluate(()=>[...document.querySelectorAll('.sentence-item[data-curation-type="6"]')].filter(e=>!e.classList.contains('curation-strike')).map(e=>e.textContent.slice(0,60)));
+    assert.deepEqual(typeSixMissing,[],'all Type 6 Data File sentences have red-pen strokes');
+    await page.locator('[data-chapter="categorize"]').click();await jump('聆聽筆記表');
+    assert.equal(await page.locator('#page-3 .curation-note-noise').count(),6,'all irrelevant listening-note headings and fields are marked');
+    assert.equal(await page.locator('#page-3 .curation-note-noise.is-revealed').count(),6);
+    assert.equal(await page.locator('.curation-model-essay').count(),3,'all three supplied essays are back in PP writing practice');
+    assert.match(await page.locator('#curation-model-A').textContent(),/Relax and Recover/);
+    assert.match(await page.locator('#curation-model-B').textContent(),/Cafeteria Beach/);
+    assert.match(await page.locator('#curation-model-C').textContent(),/school app/);await page.locator('[data-chapter="writing"]').click();await page.locator('#curation-model-A').evaluate(e=>e.open=true);await page.locator('#curation-model-A').scrollIntoViewIfNeeded();await page.screenshot({path:'/private/tmp/paper3-curation-model-essay.png',fullPage:false});
     console.log('Paper 3 curation workflow browser test passed');
   }finally{await browser.close();server.close();}
 })().catch(error=>{console.error(error);process.exitCode=1});
