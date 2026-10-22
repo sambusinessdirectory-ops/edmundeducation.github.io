@@ -260,7 +260,7 @@ button { color: inherit; }
   position: absolute;
   inset: -42px -34px;
   z-index: -1;
-  background: url("writing-submission-fantasy-login-frame-v1.webp") center / 100% 100% no-repeat;
+  background: url("writing-submission-fantasy-login-frame-v2.webp") center / 100% 100% no-repeat;
   filter: drop-shadow(0 30px 34px rgba(5, 4, 25, .46));
   pointer-events: none;
 }
