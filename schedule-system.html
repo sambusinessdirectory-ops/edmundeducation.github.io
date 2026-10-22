@@ -278,10 +278,33 @@
     }
 
     .login-panel {
-      padding: clamp(30px, 4vw, 62px);
+      position: relative;
+      isolation: isolate;
+      min-height: 650px;
+      padding: clamp(78px, 6vw, 108px) clamp(58px, 5vw, 86px) clamp(92px, 7vw, 124px);
       display: flex;
       flex-direction: column;
       justify-content: center;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+      backdrop-filter: none;
+    }
+
+    .login-panel::before {
+      content: "";
+      position: absolute;
+      inset: -24px -30px;
+      z-index: -1;
+      background: url("schedule-chronomancer-registry-tablet-v1.webp") center / 100% 100% no-repeat;
+      filter: drop-shadow(0 28px 42px rgba(30, 48, 72, .24));
+      pointer-events: none;
+    }
+
+    .login-panel > * {
+      position: relative;
+      z-index: 1;
     }
 
     .login-panel > img {
@@ -291,8 +314,49 @@
       object-fit: contain;
     }
 
-    .login-panel h2 { margin: 0 0 8px; font-size: clamp(28px, 3vw, 40px); }
-    .login-panel > p { margin: 0 0 28px; color: var(--muted); }
+    .login-panel h2 {
+      margin: 0 0 8px;
+      color: #243d5b;
+      font-size: clamp(28px, 3vw, 40px);
+      text-shadow: 0 1px 0 rgba(255, 255, 255, .74);
+    }
+    .login-panel > p { margin: 0 0 28px; color: #587086; }
+    .login-panel form {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      gap: 18px;
+    }
+    .login-panel form .field { margin-bottom: 0; }
+    .login-panel form .login-password-field {
+      position: relative;
+      z-index: 3;
+      min-height: 79px;
+      display: grid !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    .login-panel form .form-status { margin-top: 0; }
+    .login-panel .field label { color: #31536c; }
+    .login-panel .field input {
+      border-color: rgba(66, 121, 151, .28);
+      background: rgba(249, 253, 255, .82);
+      box-shadow: inset 0 2px 5px rgba(44, 77, 103, .07), 0 1px 0 rgba(255, 255, 255, .76);
+    }
+    .login-panel .field input:focus {
+      border-color: #4b9fbd;
+      box-shadow: 0 0 0 4px rgba(75, 159, 189, .16), inset 0 2px 5px rgba(44, 77, 103, .06);
+    }
+    .login-panel .password-toggle {
+      color: #31536c;
+      background: rgba(211, 238, 246, .9);
+    }
+    .login-panel .primary-button {
+      border: 1px solid rgba(255, 255, 255, .46);
+      background: linear-gradient(135deg, #4aa8bd, #3f719c 68%, #a77542 150%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .45), 0 8px 0 #315975, 0 18px 28px rgba(45, 88, 115, .2);
+    }
+    .login-panel .form-status { color: #587086; }
 
     .field { display: grid; gap: 8px; margin-bottom: 18px; }
     .field label { font-size: 14px; font-weight: 800; }
@@ -2089,6 +2153,11 @@
       .reminder-email-row { grid-template-columns: 1fr 1fr; }
       .reminder-email-input { grid-column: 1 / -1; }
       .login-intro, .login-panel, .admin-hero, .student-list-panel, .calendar-toolbar { padding: 24px; }
+      .login-panel {
+        min-height: 650px;
+        padding: 88px 48px 108px;
+      }
+      .login-panel::before { inset: -16px -12px; }
       .login-intro { min-height: 540px; }
       .login-intro h1 { font-size: 44px; }
       .schedule-login-hero { top: 26px; left: 20px; width: min(82%, 440px); height: 270px; }
@@ -2220,7 +2289,7 @@
               <label for="schedule-username">用戶名稱</label>
               <input id="schedule-username" name="username" type="text" autocomplete="username" maxlength="100" required>
             </div>
-            <div class="field">
+            <div class="field login-password-field">
               <label for="schedule-password">密碼</label>
               <div class="field-control">
                 <input id="schedule-password" name="password" type="password" autocomplete="current-password" maxlength="200" required>
