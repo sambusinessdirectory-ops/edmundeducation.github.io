@@ -135,7 +135,8 @@ const server=http.createServer((req,res)=>{
     assert.ok(noteRect.top>0&&noteRect.top<900,'late playback brings the written parent notes into view');
     assert.ok(await seekPage.locator('#page-12').evaluate(element=>element.getBoundingClientRect().top)>900,'late playback does not force-scroll the main document to the transcript');
     await seekPage.waitForTimeout(550);
-    assert.ok(await seekPage.locator('.curation-transcript-window-body').evaluate(element=>element.scrollTop)>200,'only the floating transcript follows the late audio position');
+    const transcriptPosition=await seekPage.locator('.curation-transcript-window-page:last-child').evaluate(element=>{const r=element.getBoundingClientRect(),box=element.closest('.curation-transcript-window-body').getBoundingClientRect();return {pageTop:r.top,windowBottom:box.bottom};});
+    assert.ok(transcriptPosition.pageTop<transcriptPosition.windowBottom,'a large seek immediately reaches the relevant final transcript page');
     const head=await seekPage.locator('.curation-transcript-window-head').boundingBox();
     await seekPage.mouse.move(head.x+45,head.y+18);await seekPage.mouse.down();await seekPage.mouse.move(head.x-35,head.y+48);await seekPage.mouse.up();
     const moved=await seekPage.locator('#curation-transcript-window').boundingBox();

@@ -546,7 +546,9 @@
     lastFollowedSpeech=item.speech;
     const target=floatingSentences[index]?.closest('.speech');if(!target)return;
     const r=target.getBoundingClientRect(),box=transcriptBody.getBoundingClientRect();
-    transcriptBody.scrollTo({top:transcriptBody.scrollTop+r.top-box.top-40,behavior:'smooth'});
+    const destination=transcriptBody.scrollTop+r.top-box.top-40;
+    const distant=Math.abs(destination-transcriptBody.scrollTop)>Math.max(500,transcriptBody.clientHeight*1.2);
+    transcriptBody.scrollTo({top:destination,behavior:distant?'instant':'smooth'});
   }
   function writeCueNote(step){
     const cue=step.cue,field=cue?.field?$(`#notes-${cue.field}`):null;if(!field||!cue.note)return;
