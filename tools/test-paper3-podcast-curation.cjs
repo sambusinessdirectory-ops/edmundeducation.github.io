@@ -44,6 +44,14 @@ const server=http.createServer((req,res)=>{
     assert.match(await page.locator('#curation-title').innerText(),/記下最後口號/);
     await page.locator('#curation-step-actions button').click();
     await page.waitForFunction(()=>document.querySelector('#page-3 audio').readyState>=1);
+    assert.equal(await page.locator('#page-3 .notes-audio').evaluate(element=>getComputedStyle(element).position),'fixed','the same audio player floats throughout Podcast');
+    await page.setViewportSize({width:390,height:844});
+    const floating=await page.evaluate(()=>{const panel=document.querySelector('#page-3 .notes-audio').getBoundingClientRect(),bank=document.querySelector('#curation-bank').getBoundingClientRect();return {top:panel.top,right:panel.right,bankBottom:bank.bottom};});
+    assert.ok(floating.top>=floating.bankBottom&&floating.right<=390,'the floating player fits below the evidence bank on a phone');
+    await page.setViewportSize({width:1440,height:900});
+    await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=31;audio.dispatchEvent(new Event('timeupdate'));});
+    assert.ok(await page.locator('.curation-transcript-strike.is-revealed').count()>0,'unneeded transcript sentences receive red strikes during playback');
+    assert.equal(await page.locator('#notes-slogan').inputValue(),'','the slogan waits until its audio cue');
     const checkpoints=[
       [69.8,'slogan','One Games, One Asia'],[122.4,'opening','13 October'],[138.6,'opening','afternoon'],[167.5,'opening','Main Hall'],
       [174.6,'wellness','July'],[212.2,'wellness','After students finish exams'],[226.4,'wellness','Relax and Recover'],
@@ -71,6 +79,18 @@ const server=http.createServer((req,res)=>{
     assert.ok(await page.locator('.curation-transcript-strike.is-revealed').count()>0);
     assert.match(await page.locator('#notes-opening').inputValue(),/13 October[\s\S]*afternoon[\s\S]*Main Hall/);
     await jump('記下最後口號');
+    assert.equal(await page.locator('#notes-slogan').inputValue(),'','jumping back removes the system-written slogan');
+    await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=69.8;audio.dispatchEvent(new Event('timeupdate'));});
+    assert.match(await page.locator('#notes-slogan').inputValue(),/One Games, One Asia/,'seeking forward restores the heard slogan');
+    await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=31;audio.dispatchEvent(new Event('timeupdate'));});
+    assert.equal(await page.locator('#notes-slogan').inputValue(),'','scrubbing backward hides the slogan again');
+    await page.locator('#notes-slogan').fill('My own note');
+    await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=69.8;audio.dispatchEvent(new Event('timeupdate'));});
+    assert.match(await page.locator('#notes-slogan').inputValue(),/My own note[\s\S]*One Games, One Asia/,'student notes remain alongside revealed answers');
+    await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=31;audio.dispatchEvent(new Event('timeupdate'));});
+    assert.equal(await page.locator('#notes-slogan').inputValue(),'My own note','rewind preserves student-authored notes');
+    assert.ok(await page.locator('.curation-transcript-strike.is-revealed').count()>0,'early strikes remain at 31 seconds');
+    assert.equal(await page.locator('.curation-transcript-listening.is-revealed').count(),0,'later slogan transcript highlights rewind with the playhead');
     assert.equal(await page.locator('#notes-wellness.curation-note-highlight-A').count(),0,'jumping back removes future note coloring');
     assert.equal(await page.locator('.curation-transcript-C.is-revealed').count(),0,'jumping back hides future transcript annotations');
     await jump('報名方法被更正');
@@ -78,6 +98,7 @@ const server=http.createServer((req,res)=>{
     await page.reload({waitUntil:'domcontentloaded'});
     assert.match(await page.locator('#notes-slogan').inputValue(),/One Games, One Asia/,'completed notes persist after reload');
     await page.locator('[data-chapter="data"]').click();
+    assert.notEqual(await page.locator('#page-3 .notes-audio').evaluate(element=>getComputedStyle(element).position),'fixed','the player returns to the note sheet outside Podcast');
     const parking=page.locator('.curation-source-mark[data-record-id="duncan-singh-emails-11"]').filter({hasText:'parking near Cheung Sha Beach is difficult'});
     assert.equal(await parking.count(),1);assert.ok(await parking.evaluate(element=>element.classList.contains('curation-reference-yellow')));
     assert.equal(await page.locator('#page-10').textContent().then(text=>text.includes('網誌中的情緒與表現說法屬題目提供的資料')),false);

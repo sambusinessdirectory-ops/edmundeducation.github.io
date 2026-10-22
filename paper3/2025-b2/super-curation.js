@@ -113,10 +113,24 @@
   const steps = {boss:[],categorize:[],podcast:[],data:[],writing:[]};
   // A transcript speech can contain several sentences. Wrap each sentence so the spotlight has an exact target.
   const transcriptSentences=[];const v3TranscriptTargets=[];
+  // Speech endpoints were aligned against the supplied 8:37 recording. Individual
+  // sentences are placed proportionally within each speech, so marks follow playback.
+  const speechEnds={
+    12:[4.1,5.8,8.6,25.3,34.7,42.1,50.2,53.7,57.5,62.1,69.7,73.6],
+    13:[77.9,79.6,87.6,89.9,94.3,98.8,106.5,110.6,119.3,122.3,130.3,138.5,141.4,148.4],
+    14:[149.3,157.3,167.4,174.5,185.2,192.8,201.5,212.1,217.6,226.3,239.3,248.6],
+    15:[249.4,257.3,265.4,286.6,299.5,307.5,310.6,322.5,327.6,339.1,346.4,365.0],
+    16:[375.3,381.3,388.2,397.2,403.1,419.3,426.7,434.2,440.8,447.9,454.0,460.4],
+    17:[463.5,465.0,472.1,479.7,481.7,494.9,505.1,507.3,514.0,516.0,517.0]
+  };
+  const speechPositions={};let previousSpeechEnd=0;
   $$('.page[data-kind="transcript"] .recording-script .speech').forEach(speech=>{
     const line=$('p[lang="en"]',speech);if(!line)return;
     const page=Number(speech.closest('.page').id.replace('page-',''));
     const speaker=$('.speaker',speech)?.textContent||'';
+    const speechIndex=speechPositions[page]||0;speechPositions[page]=speechIndex+1;
+    const speechStart=previousSpeechEnd,speechEnd=speechEnds[page]?.[speechIndex]??speechStart+3;
+    previousSpeechEnd=speechEnd;
     const text=line.textContent;
     const legacyRichLine=line.childElementCount>0;
     const parts=core.sentences(text);
@@ -128,7 +142,12 @@
       const range=document.createRange();range.setStart(first.node,part.start-first.start);range.setEnd(last.node,part.end-last.start);
       const span=el('span','curation-transcript-sentence');span.append(range.extractContents());range.insertNode(span);wrapped.unshift(span);
     }
-    for(const [index,span] of wrapped.entries()){transcriptSentences.push({span,page,speaker});if(!legacyRichLine||index===0)v3TranscriptTargets.push(span);}
+    let elapsed=0;for(const [index,span] of wrapped.entries()){
+      elapsed+=span.textContent.length;
+      const at=speechStart+(speechEnd-speechStart)*Math.min(1,elapsed/Math.max(1,text.length));
+      transcriptSentences.push({span,page,speaker,speech,at});
+      if(!legacyRichLine||index===0)v3TranscriptTargets.push(span);
+    }
   });
   const noteSheet=$('#page-3 .note-sheet');
   const noteSheetMarks=[
@@ -230,10 +249,6 @@
     if(kind==='mixed'){const walker=document.createTreeWalker(span,NodeFilter.SHOW_TEXT);let node;while((node=walker.nextNode())){const at=node.textContent.indexOf('Wellness Month in July');if(at<0)continue;const range=document.createRange();range.setStart(node,at);range.setEnd(node,at+'Wellness Month in July'.length);const mark=el('mark','curation-transcript-inline-A');mark.append(range.extractContents());range.insertNode(mark);break;}}
     if(kind==='strike'){const ink=el('span','curation-pen-line');while(span.firstChild)ink.append(span.firstChild);span.append(ink);}
     steps.podcast.push({id:`transcript-${page}-${index}`,chapter:'podcast',title:`逐句錄音稿 · ${speaker}`,page,quote,target:span,transcript:true,bankTask,kind,order:index,speaker});
-  });
-  const transcriptCueIndex=transcriptSentences.map((item,index)=>{
-    const next=steps.podcast.findIndex(step=>step.cue&&step.transcriptTarget&&transcriptSentences.findIndex(t=>t.span===step.transcriptTarget)>=index);
-    return next<0?podcastCues.length-1:next;
   });
   const legacyBossIds=steps.boss.map(step=>step.id);
   const bossAnnotations=[
@@ -419,13 +434,54 @@
   const bankGroups=$('#curation-bank-groups');for(const t of 'ABC'){const d=el('details',`curation-bank-${t}`);d.dataset.task=t;d.innerHTML=`<summary><span>Task ${t}</span><strong data-count>0 句</strong></summary><ol></ol>`;bankGroups.append(d);}
   let open=false;let helpOpen=false;let animation=null;let cueArmed=false;let noteTyping=false;let noteTimer=null;
   const audio=$('#page-3 .notes-audio audio');
+  const audioPanel=$('#page-3 .notes-audio');
   const current=()=>steps[state.chapter][state.positions[state.chapter]];
+  function positionAudioBar(){
+    if(!audioPanel?.classList.contains('curation-audio-floating'))return;
+    const r=stage.getBoundingClientRect(),narrow=innerWidth<1100;
+    const left=narrow?Math.max(8,r.left):Math.max(8,dock.getBoundingClientRect().right+12);
+    const right=narrow?Math.max(8,innerWidth-r.right):Math.max(8,innerWidth-bank.getBoundingClientRect().left+12);
+    const top=narrow?Math.max(r.bottom+8,bank.getBoundingClientRect().bottom+8):r.bottom+8;
+    Object.assign(audioPanel.style,{top:`${Math.ceil(top)}px`,left:`${left}px`,right:`${right}px`});
+  }
+  function syncAudioBar(){
+    const floating=open&&state.chapter==='podcast';
+    audioPanel?.classList.toggle('curation-audio-floating',floating);
+    if(!floating)audioPanel?.removeAttribute('style');else positionAudioBar();
+  }
+  function podcastTime(){
+    if(state.chapter==='podcast'){
+      const step=current();
+      if(step?.cue)return Math.min(audio?.currentTime||0,step.cue.at);
+      if(step?.transcript){const match=transcriptSentences.find(item=>item.span===step.target);return match?.at??0;}
+      return audio?.currentTime||0;
+    }
+    return chapters.findIndex(ch=>ch.id===state.chapter)>2?517.2:-1;
+  }
+  function syncGeneratedNotes(){
+    if(noteTyping)return;
+    const cutoff=podcastTime();
+    for(const fieldId of new Set(podcastCues.map(cue=>cue.field).filter(Boolean))){
+      const field=$(`#notes-${fieldId}`);if(!field)continue;
+      const authored=field.value.split('\n').filter(line=>!podcastCues.some(cue=>cue.field===fieldId&&state.heard.includes(`cue-${cue.id}`)&&line.trim()===cue.note));
+      const generated=podcastCues.filter(cue=>cue.field===fieldId&&cue.note&&state.heard.includes(`cue-${cue.id}`)&&cue.at<=cutoff+.15).map(cue=>cue.note);
+      const value=[...authored.filter((line,index,arr)=>line||index<arr.length-1),...generated].join('\n').replace(/^\n+|\n+$/g,'');
+      if(field.value!==value){field.value=value;field.dispatchEvent(new Event('input',{bubbles:true}));}
+    }
+  }
   function syncPodcastMarks(){
-    let limit=progressCutoff('podcast');
-    const active=current();
-    if(active?.cue&&!state.heard.includes(active.id))limit--;
-    transcriptSentences.forEach(({span},index)=>span.classList.toggle('is-revealed',transcriptCueIndex[index]<=limit));
-    for(const [task,fieldId] of [['A','wellness'],['C','parents']]){const field=$(`#notes-${fieldId}`);if(!field)continue;const reached=steps.podcast.some(step=>step.cue?.task===task&&step.index<=limit);field.classList.toggle(`curation-note-highlight-${task}`,reached&&!!field.value.trim());}
+    const cutoff=podcastTime();
+    transcriptSentences.forEach(({span,at})=>span.classList.toggle('is-revealed',open&&at<=cutoff+.12));
+    for(const [task,fieldId] of [['A','wellness'],['C','parents']]){const field=$(`#notes-${fieldId}`);if(!field)continue;const reached=podcastCues.some(cue=>cue.task===task&&cue.at<=cutoff+.12&&state.heard.includes(`cue-${cue.id}`));field.classList.toggle(`curation-note-highlight-${task}`,reached&&!!field.value.trim());}
+  }
+  let lastFollowedSpeech=null;
+  function followTranscript(){
+    if(!audio||audio.paused||state.chapter!=='podcast')return;
+    const item=transcriptSentences.find(entry=>entry.at>=audio.currentTime)||transcriptSentences.at(-1);
+    if(!item||item.speech===lastFollowedSpeech)return;
+    lastFollowedSpeech=item.speech;
+    const r=item.speech.getBoundingClientRect();
+    window.scrollTo({top:Math.max(0,scrollY+r.top-(innerWidth<=620?230:255)),behavior:'smooth'});
   }
   function writeCueNote(step){
     const cue=step.cue,field=cue?.field?$(`#notes-${cue.field}`):null;if(!field||!cue.note)return;
@@ -441,13 +497,13 @@
   function completeCue(step){
     if(!state.heard.includes(step.id))state.heard.push(step.id);
     cueArmed=false;audio.pause();audio.currentTime=step.cue.at;
-    writeCueNote(step);syncPodcastMarks();persist();
+    writeCueNote(step);syncGeneratedNotes();syncPodcastMarks();persist();
     $('#curation-save-status').textContent=`錄音停在 ${step.title} · 筆記寫好後按下一步`;
     if(!noteTyping)$('#curation-next').disabled=false;
   }
   function playToCue(step,replay=false){
     if(!audio||!step?.cue)return;
-    const play=()=>{audio.currentTime=replay?step.cue.from:Math.max(0,Math.min(audio.currentTime,step.cue.from));cueArmed=true;$('#curation-next').disabled=true;audio.play().catch(()=>{cueArmed=false;$('#curation-next').disabled=false;$('#curation-save-status').textContent='錄音未能自動播放；請按播放器或「重聽」再試。';});};
+    const play=()=>{audio.currentTime=replay?step.cue.from:Math.max(0,Math.min(audio.currentTime,step.cue.from));cueArmed=true;lastFollowedSpeech=null;syncGeneratedNotes();syncPodcastMarks();$('#curation-next').disabled=true;audio.play().then(followTranscript).catch(()=>{cueArmed=false;$('#curation-next').disabled=false;$('#curation-save-status').textContent='錄音未能自動播放；請按播放器或「重聽」再試。';});};
     if(audio.readyState>=1)play();else{audio.addEventListener('loadedmetadata',play,{once:true});audio.load();}
   }
 
@@ -591,7 +647,8 @@
   let lastRenderedStepId='';
   function render(focus=true){if(!open)return;const step=current();if(!step)return;const stepChanged=lastRenderedStepId!==step.id;helpOpen=false;if(stepChanged)audio?.pause();
     if((state.chapter==='boss'||state.chapter==='data')&&!state.visited.includes(step.id))state.visited.push(step.id);
-    syncBossMarks();syncDataMarks();syncPodcastMarks();syncFileStamps(stampFromStep(step));
+    if(stepChanged&&step.chapter==='podcast'&&step.cue&&audio)audio.currentTime=step.cue.from;
+    syncAudioBar();syncBossMarks();syncDataMarks();syncGeneratedNotes();syncPodcastMarks();syncFileStamps(stampFromStep(step));
     $$('.curation-target').forEach(x=>{x.classList.remove('curation-target');x.removeAttribute('data-curation-current');});
     if(step.target&&step.chapter!=='categorize'&&step.chapter!=='writing'){step.target.classList.add('curation-target');step.target.dataset.curationCurrent=step.chapter==='data'&&step.type===4?'type-4':step.chapter==='data'&&step.type>=5?'neutral':step.task||step.bankTask||step.cue?.task||'neutral';}
     const stageIndex=chapters.findIndex(ch=>ch.id===state.chapter);
@@ -607,9 +664,9 @@
     $('#curation-bookmark').textContent=state.bookmarks.includes(step.id)?'★':'☆';$('#curation-bookmark').setAttribute('aria-pressed',String(state.bookmarks.includes(step.id)));
     $('#curation-prev').disabled=step.index===0;$('#curation-next').disabled=!!(step.cue&&!state.heard.includes(step.id));$('#curation-next').textContent=step.index===steps[state.chapter].length-1?(stageIndex===chapters.length-1?'返回第一章 ↺':'完成本章 ✓'):'下一步 →';
     $('#curation-spotlight').checked=state.spotlight;$('#curation-dialogue').checked=state.dialogue;dock.classList.toggle('dialogue',state.dialogue);$('.curation-character').hidden=!state.dialogue;
-    explanation(step);if(stepChanged){$('.curation-content').scrollTop=0;lastRenderedStepId=step.id;}renderBank();if(step.cue&&audio&&!audio.paused&&audio.currentTime<step.cue.at)cueArmed=true;if(focus)focusSource(step);else spotlight();persist();
+    explanation(step);if(stepChanged){$('.curation-content').scrollTop=0;lastRenderedStepId=step.id;}renderBank();positionAudioBar();if(step.cue&&audio&&!audio.paused&&audio.currentTime<step.cue.at)cueArmed=true;if(focus)focusSource(step);else spotlight();persist();
   }
-  function setOpen(value){open=value;stage.hidden=!value;dock.hidden=!value;bank.hidden=!value;if(!value&&picker.open)picker.close();document.body.classList.toggle('curation-active',value);if(!value){$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));routeArrow.setAttribute('hidden','');routeCallout.hidden=true;}toggle.setAttribute('aria-pressed',String(value));toggle.textContent=value?'✦ 離開 Curation':'✦ Super Curation';if(value)render();else{masks.forEach(m=>m.hidden=true);audio?.pause();}}
+  function setOpen(value){open=value;stage.hidden=!value;dock.hidden=!value;bank.hidden=!value;if(!value&&picker.open)picker.close();document.body.classList.toggle('curation-active',value);if(!value){$$('.curation-target').forEach(x=>x.classList.remove('curation-target'));routeArrow.setAttribute('hidden','');routeCallout.hidden=true;}toggle.setAttribute('aria-pressed',String(value));toggle.textContent=value?'✦ 離開 Curation':'✦ Super Curation';if(value)render();else{masks.forEach(m=>m.hidden=true);audio?.pause();syncAudioBar();syncGeneratedNotes();syncPodcastMarks();}}
   async function flyToBank(step){if(!step.target||step.provisional)return;const t=step.bankTask||(canBank(step.record)?'ABC'[step.type-1]:null);if(!t||state.evidence[t].includes(step.id))return;const normalized=normalize(step.quote);if(state.evidence[t].some(id=>{const old=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);return old&&normalize(old.quote)===normalized;}))return;
     const from=step.target.getBoundingClientRect(),to=$(`.curation-bank-${t} summary`).getBoundingClientRect();
     if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&from.width&&to.width){const flying=el('div',`curation-flying curation-flying-${t}`,step.quote);document.body.append(flying);Object.assign(flying.style,{left:`${from.left}px`,top:`${from.top}px`,width:`${Math.min(from.width,420)}px`});await new Promise(resolve=>{requestAnimationFrame(()=>{flying.style.transform=`translate(${to.left-from.left}px,${to.top-from.top}px) scale(.3)`;flying.style.opacity='0';});flying.addEventListener('transitionend',resolve,{once:true});setTimeout(resolve,700);});flying.remove();}
@@ -650,8 +707,12 @@
   slotSel.addEventListener('change',()=>{persist();activeSlot=slotSel.value;state=sanitize(slots[activeSlot]);render();});$('#curation-save-now').addEventListener('click',persist);
   $('#curation-export').addEventListener('click',()=>{persist();const data={version:VERSION,created:new Date().toISOString(),state};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=el('a');a.href=url;a.download=`paper3-2025-b2-curation-slot-${activeSlot}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
   $('#curation-import').addEventListener('change',async e=>{const file=e.target.files?.[0];if(!file)return;try{if(file.size>1024*1024)throw Error('存檔過大');const value=JSON.parse(await file.text());if(value.version!==VERSION||!value.state||typeof value.state!=='object')throw Error('這不是 2025 B2 的有效存檔');state=sanitize(value.state);persist();render();$('#curation-save-status').textContent=`已匯入至 Slot ${activeSlot}`;}catch(error){$('#curation-save-status').textContent=`匯入失敗：${error.message}`;}e.target.value='';});
-  if(audio){audio.addEventListener('play',()=>{if(!open||state.chapter!=='podcast')return;const cue=current()?.cue;cueArmed=!!cue&&!state.heard.includes(current().id);});audio.addEventListener('timeupdate',()=>{if(!cueArmed||!open||state.chapter!=='podcast')return;const step=current();if(step?.cue&&audio.currentTime>=step.cue.at){completeCue(step);focusSource(step);}});}
-  window.addEventListener('scroll',spotlight,{passive:true});window.addEventListener('resize',()=>{spotlight();if(open&&innerWidth<=620)setTimeout(()=>focusSource(current()),80);});window.visualViewport?.addEventListener('resize',spotlight);
+  if(audio){
+    audio.addEventListener('play',()=>{if(!open||state.chapter!=='podcast')return;const cue=current()?.cue;cueArmed=cueArmed||!!cue&&audio.currentTime<cue.at-.1;lastFollowedSpeech=null;followTranscript();});
+    audio.addEventListener('timeupdate',()=>{if(!open||state.chapter!=='podcast')return;syncGeneratedNotes();syncPodcastMarks();followTranscript();if(!cueArmed)return;const step=current();if(step?.cue&&audio.currentTime>=step.cue.at){completeCue(step);focusSource(step);}});
+    audio.addEventListener('seeked',()=>{if(!open||state.chapter!=='podcast')return;syncGeneratedNotes();syncPodcastMarks();lastFollowedSpeech=null;followTranscript();});
+  }
+  window.addEventListener('scroll',spotlight,{passive:true});window.addEventListener('resize',()=>{positionAudioBar();spotlight();if(open&&innerWidth<=620)setTimeout(()=>focusSource(current()),80);});window.visualViewport?.addEventListener('resize',()=>{positionAudioBar();spotlight();});
   document.addEventListener('keydown',e=>{if(!open)return;if(e.key==='Escape'&&picker.open){e.preventDefault();picker.close();return;}if(e.key==='Escape'&&$('.learning-question-dialog[open]'))return;if(e.key==='Escape'&&document.activeElement?.tagName!=='TEXTAREA')setOpen(false);});
   // Deep links allow teachers to send a chapter without exposing any unvisited evidence.
   if(new URLSearchParams(location.search).get('curation')==='1')setOpen(true);
