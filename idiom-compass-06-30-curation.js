@@ -133,84 +133,6 @@
     "idiom-29": [["a lion in the way","a sign in the way","sign 是實際路牌，不是被誇大並用來逃避的障礙。"],["a lion in the way","a lion at the zoo","at the zoo 指真的動物，失去比喻意思。"],["a lion in the way","a path in the way","path 是道路，不是被當作藉口的危險。"]],
     "idiom-30": [["lion’s mouth","lion’s roar","roar 是獅吼聲，不是身陷危險的處境。"],["lion’s mouth","lion’s mane","mane 是獅鬃，不能代表走進險境。"],["lion’s mouth","lion’s tail","tail 是尾巴，與進入危險核心的意象不同。"]]
   };
-  // Prefer two changes to source facts over three malformed idioms. These
-  // targets must occur in both the prompt and answer, outside the idiom.
-  const factContrasts = [
-    ["today","tomorrow"],["tomorrow","today"],["tonight","tomorrow"],["yesterday","today"],
-    ["now","later"],["later","now"],["immediately","eventually"],["early","late"],["late","early"],
-    ["before","after"],["after","before"],["first","last"],["last","first"],
-    ["new","old"],["old","new"],["young","old"],["small","large"],["large","small"],
-    ["one","two"],["two","one"],["three","one"],["four","two"],["five","two"],
-    ["six","nine"],["seven","three"],["eight","four"],["ten","two"],
-    ["Monday","Friday"],["Tuesday","Thursday"],["Wednesday","Monday"],["Thursday","Tuesday"],["Friday","Monday"],["Saturday","Sunday"],["Sunday","Saturday"],
-    ["day","week"],["week","month"],["month","year"],["year","week"],["morning","evening"],["afternoon","morning"],["evening","morning"],["night","morning"],
-    ["school","office"],["office","school"],["team","class"],["class","team"],["club","team"],
-    ["shop","restaurant"],["restaurant","shop"],["café","school"],["hotel","school"],
-    ["room","garden"],["garden","room"],["home","school"],["town","school"],["city","village"],
-    ["bag","coat"],["coat","bag"],["phone","laptop"],["laptop","phone"],["book","poster"],["poster","book"],
-    ["bus","train"],["train","bus"],["car","bike"],["bike","car"],["flight","train"],
-    ["meeting","party"],["party","meeting"],["match","practice"],["practice","match"],["test","game"],["game","test"],
-    ["plan","report"],["report","plan"],["project","meeting"],["course","trip"],["trip","course"],
-    ["price","date"],["date","price"],["money","time"],["time","money"],["food","clothes"],
-    ["quiet","noisy"],["noisy","quiet"],["clear","unclear"],["unclear","clear"],
-    ["cheap","expensive"],["expensive","cheap"],["affordable","unaffordable"],["unaffordable","affordable"],
-    ["low","high"],["high","low"],["free","costly"],["costly","free"],
-    ["few","many"],["many","few"],["all","some"],["none","some"],["every","one"],
-    ["always","never"],["never","always"],["often","rarely"],["rarely","often"],
-    ["busy","quiet"],["calm","angry"],["angry","calm"],["strong","weak"],["weak","strong"],
-    ["true","false"],["false","true"],["correct","incorrect"],["incorrect","correct"],
-    ["finished","unfinished"],["unfinished","finished"],["ready","unprepared"],
-    ["red","blue"],["blue","red"],["green","yellow"],["yellow","green"],
-    ["left","right"],["right","left"],["front","back"],["back","front"],
-    ["safe","risky"],["risky","safe"],["ready","unprepared"],["unprepared","ready"],
-    ["won","lost"],["lost","won"],["open","closed"],["closed","open"],
-    ["started","finished"],["finished","started"],["start","finish"],["finish","start"],
-    ["buy","sell"],["sell","buy"],["join","leave"],["leave","join"],
-    ["accept","reject"],["reject","accept"],["yes","no"],["no","yes"],
-    ["soft","harsh"],["gentle","harsh"],["harsh","gentle"],["pleasant","unpleasant"],
-    ["comfortable","uncomfortable"],["uncomfortable","comfortable"],["tidy","messy"],["messy","tidy"],
-    ["quietly","loudly"],["loudly","quietly"],["unlocked","locked"],["locked","unlocked"],
-    ["proved","guessed"],["proven","unproven"],["proof","rumour"],["evidence","rumour"],
-    ["video","rumour"],["camera","rumour"],["record","rumour"],["receipt","guess"],
-    ["signed","unsigned"],["confirmed","disputed"],["known","unknown"],["unknown","known"],
-    ["missing","found"],["found","missing"],["stolen","returned"],["returned","stolen"],
-    ["furious","calm"],["anger","relief"],["danger","safety"],["dangerous","safe"],["violent","peaceful"],
-    ["harm","help"],["help","harm"],["injured","healthy"],["healthy","injured"],
-    ["friend","stranger"],["stranger","friend"],["brother","sister"],["sister","brother"],
-    ["coach","player"],["captain","reserve"],["leader","member"],["manager","trainee"],
-    ["worker","visitor"],["staff","visitors"],["customer","employee"],["seller","buyer"],
-    ["arguing","agreeing"],["argument","discussion"],["dispute","agreement"],["conflict","agreement"],
-    ["laughing","apologising"],["mocking","praising"],["shouting","whispering"],
-    ["sharing","hiding"],["posted","deleted"],["sent","withheld"],["asked","answered"],
-    ["password","username"],["bank","library"],["online","offline"],["public","private"],
-    ["chess","football"],["football","chess"],["training","rest"],["energetic","tired"],
-    ["lunch","dinner"],["breakfast","dinner"],["simple","luxury"],["luxury","simple"],
-    ["washing","drying"],["machine","basket"],["repairing","replacing"],["repair","replacement"],
-    ["lies","facts"],["facts","lies"],["promise","contract"],["untested","tested"],["tested","untested"],
-    ["speech","spelling"],["contest","practice"],["final","opening"],["opening","final"],
-    ["street","school"],["market","classroom"],["fair","unfair"],["unfair","fair"],
-    ["flat","office"],["house","shop"],["moved","stayed"],["stayed","moved"],
-    ["fifteen","five"],["twenty","ten"],["years","days"],["months","days"],
-    ["cousins","colleagues"],["neighbours","strangers"],["relatives","colleagues"],
-    ["little","heavy"],["heavy","little"],["rain","flood"],["flood","drizzle"],
-    ["short","long"],["long","short"],["easy","difficult"],["difficult","easy"],
-    ["notes","slides"],["without","with"],["with","without"],["topic","poem"],
-    ["pay","leave"],["salary","bonus"],["workers","managers"],["manager","assistant"]
-  ];
-  // Broad noun swaps can make an answer ungrammatical ("a office") or
-  // nonsensical ("time disappeared from the till"). Only use short details
-  // whose substitution keeps the sentence's grammar and actor intact.
-  const safeFactOriginals = new Set([
-    "today", "tomorrow", "tonight", "yesterday", "now", "later", "immediately",
-    "early", "late", "before", "after", "first", "last",
-    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",
-    "morning", "afternoon", "evening", "night", "red", "blue", "green", "yellow",
-    "left", "right", "open", "closed", "finished", "unfinished", "ready", "unprepared",
-    "cheap", "expensive", "affordable", "unaffordable", "free", "costly",
-    "clear", "unclear", "safe", "risky", "calm", "angry", "quiet", "noisy",
-    "true", "false", "correct", "incorrect", "won", "lost", "started",
-    "with", "without", "tested", "untested", "confirmed", "disputed"
-  ]);
   function factualFoils(question, lesson) {
     const answer = String(question.answer || "");
     const prompt = String(question.prompt || "");
@@ -218,26 +140,6 @@
     const phraseAt = answer.toLocaleLowerCase().indexOf(phrase.toLocaleLowerCase());
     if (phraseAt < 0) return [];
     const found = [];
-    const seenOriginals = new Set();
-    const actorTerms = new Set(["teacher", "student", "manager", "customer", "coach", "captain", "leader", "worker", "workers", "staff", "seller", "buyer", "friend", "stranger", "brother", "sister", "cousins", "neighbours", "relatives", "players", "children", "family"]);
-    for (const [original, replacement] of factContrasts) {
-      if (!safeFactOriginals.has(original)) continue;
-      if (actorTerms.has(original.toLocaleLowerCase())) continue;
-      const pattern = new RegExp(`\\b${original}\\b`, "ig");
-      if (!new RegExp(`\\b${original}\\b`, "i").test(prompt) || !new RegExp(`\\b${original}\\b`, "i").test(answer)) continue;
-      pattern.lastIndex = 0;
-      let match;
-      while ((match = pattern.exec(answer))) {
-        if (match.index >= phraseAt && match.index < phraseAt + phrase.length) continue;
-        // Keep the original actor/subject, including a leading organisation.
-        if ((answer.slice(0, match.index).match(/\b[\p{L}\p{N}]+\b/gu) || []).length < 6) continue;
-        const altered = answer.slice(0, match.index) + replacement + answer.slice(match.index + match[0].length);
-        if (altered === answer || seenOriginals.has(original.toLocaleLowerCase())) continue;
-        seenOriginals.add(original.toLocaleLowerCase());
-        found.push({ text: altered, reason: `原題的關鍵細節是「${match[0]}」；這句改成「${replacement}」，沒有保留原意。`, distance: Math.abs(match.index - phraseAt) });
-        break;
-      }
-    }
     // A shared numerical detail is an exact fact, and changing it creates a
     // strong comparison without changing the actor or making the foil longer.
     for (const match of answer.matchAll(/\b\d+(?:\.\d+)?\b/g)) {
@@ -261,7 +163,7 @@
         }
       }
     }
-    return found.sort((a, b) => b.distance - a.distance).slice(0, 2).map(({ text, reason }) => ({ text, reason }));
+    return found.sort((a, b) => b.distance - a.distance).slice(0, 2).map(({ text, reason }) => ({ text, reason, kind: "fact" }));
   }
   function contrastFoils(question, lesson) {
     const phrase = String(question.highlight || "");
@@ -288,13 +190,13 @@
       ],
       "idiom-27": [
         ["for a few days", "for a few days 只說幾天，原題說的是很長時間。"],
-        ["since this morning", "since this morning 只由今早算起，不是多年未見。"],
+        ["for a single week", "for a single week 只說一週，不是多年未見。"],
         ["for a short while", "for a short while 是短時間，與久違相反。"]
       ],
       "idiom-30": [
         ["the public eye", "public eye 指受公眾注目，不等於身處嚴重危險。"],
-        ["a safe place", "safe place 表示安全處所，與走進險境相反。"],
-        ["a calm room", "calm room 只形容平靜地方，沒有重大威脅。"]
+        ["an awkward conversation", "awkward conversation 只是尷尬對話，沒有走進嚴重險境的意思。"],
+        ["a minor argument", "minor argument 只是輕微爭執，沒有原題所說的重大危險。"]
       ],
       "idiom-19": [
         ["in the clear", "in the clear 表示已洗清嫌疑，與仍受懷疑相反。"],
@@ -314,7 +216,7 @@
       "idiom-25": [
         ["the routine check", "routine check 只是例行檢查，沒有關鍵考驗的判斷力。"],
         ["the preliminary trial", "preliminary trial 是初步測試，不一定能作最終判斷。"],
-        ["the final rehearsal", "final rehearsal 是預演，不是能驗證真正質素的關鍵考驗。"]
+        ["an early indication", "early indication 只是初步跡象，不是能驗證真正質素的關鍵考驗。"]
       ],
       "idiom-18": [
         ["built on rock", "built on rock 表示基礎穩固，與原題的薄弱基礎相反。"],
@@ -322,7 +224,44 @@
         ["supported by strong data", "strong data 表示有充分資料支持，並非建立在沙上。"]
       ]
     }[lesson.id];
-    if (wholePhraseContrasts) {
+    const cloudTransition = lesson.id === "idiom-19"
+      ? /\b(come|comes|came|coming) under a cloud\b/i.exec(source)
+      : null;
+    if (cloudTransition) {
+      const verb = cloudTransition[1].toLocaleLowerCase();
+      const replacements = {
+        come: ["receive warm public praise", "be free from suspicion", "win back public trust"],
+        comes: ["receives warm public praise", "is free from suspicion", "wins back public trust"],
+        came: ["received warm public praise", "was free from suspicion", "won back public trust"],
+        coming: ["receiving warm public praise", "being free from suspicion", "winning back public trust"]
+      }[verb];
+      replacements.forEach((replacement) => {
+        if (foils.length === 3) return;
+        foils.push({
+          text: source.replace(cloudTransition[0], replacement),
+          reason: "這句改成受到讚賞或擺脫懷疑，與原題仍然蒙受嫌疑的情況相反。"
+        });
+      });
+    }
+    if (lesson.id === "idiom-21") {
+      const before = source.slice(0, source.toLocaleLowerCase().indexOf(phrase.toLocaleLowerCase()));
+      const nominal = /\b(?:is|was|became|become|like|into|actually)\s+$/i.test(before);
+      const replacements = nominal
+        ? ["the rule of fair play", "a system of fair competition", "a culture of mutual respect"]
+        : ["clear and fair rules", "equal and transparent rules", "fair and consistently enforced rules"];
+      for (const replacement of replacements) {
+        if (foils.length === 3) break;
+        let text = source.replace(phrase, caseMatch(replacement));
+        text = text.replace(/\b(ruled|governed) by (clear and fair rules|equal and transparent rules|fair and consistently enforced rules)/i, (_, verb, rules) => `${verb === "ruled" ? "guided" : "governed"} by ${rules}`);
+        text = text.replace(/\b(\w+(?:\s+\w+){0,3}) (to rule|used to rule|will soon rule|ruled)\b/i, (full, lead, verb) => {
+          if (!lead.endsWith("rules")) return full;
+          if (verb === "to rule" && /^\s+(?:the|a|an|this|that|our|their)\b/i.test(text.slice(text.indexOf(full) + full.length))) return `${lead} to govern`;
+          return `${lead} ${verb.replace(/rule(d)?$/, (_, past) => past ? "prevailed" : "prevail")}`;
+        });
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: "這句改成公平規則或互相尊重；原題說的是強者壓過保障的環境。" });
+      }
+    }
+    if (wholePhraseContrasts && !cloudTransition && lesson.id !== "idiom-21") {
       for (const [replacement, reason] of wholePhraseContrasts) {
         if (foils.length === 3) break;
         let text = source.replace(phrase, caseMatch(replacement));
@@ -376,19 +315,19 @@
     if (lesson.id === "idiom-16") {
       const verb = /^(breaks|breaking|broken|broke|break) the bank$/i.exec(phrase)?.[1]?.toLocaleLowerCase();
       const variants = {
-        break: ["fit within the budget", "cost very much", "drain our savings"],
-        breaks: ["fits within the budget", "costs very much", "drains our savings"],
-        breaking: ["fitting within the budget", "costing very much", "draining our savings"],
-        broke: ["fit within the budget", "cost very much", "drained our savings"],
-        broken: ["fitted within the budget", "cost very much", "drained our savings"]
+        break: ["fit within the budget", "be too expensive", "cost a fortune"],
+        breaks: ["fits within the budget", "is too expensive", "costs a fortune"],
+        breaking: ["staying within the budget", "being too expensive", "costing a fortune"],
+        broke: ["fit within the budget", "was too expensive", "cost a fortune"],
+        broken: ["stayed within the budget", "been too expensive", "cost a fortune"]
       }[verb] || [];
       variants.forEach((replacement, index) => {
         if (foils.length === 3) return;
         const text = source.replace(phrase, caseMatch(replacement));
         const reasons = [
-          "fit within the budget 說的是開支能否負擔；須對照原題的肯定或否定語氣。",
-          "cost very much 只直接說價錢，沒有用本課的固定慣用語。",
-          "drain our savings 只說積蓄受影響，沒有用本課的固定慣用語。"
+          "這句只說預算是否足夠；須對照原題的肯定或否定語氣，也沒有用本課慣用語。",
+          "too expensive 只直接說價錢，沒有用本課的固定慣用語。",
+          "cost a fortune 是另一種說法，沒有用本課指定的慣用語。"
         ];
         if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
       });
@@ -414,11 +353,16 @@
       });
     }
     if (lesson.id === "idiom-17") {
-      for (const [replacement, reason] of [
+      const negativePrice = /\b(?:not|never|without|won['’]t|can['’]t)\b(?:\s+\w+){0,3}\s*$/i.test(source.slice(0, source.toLocaleLowerCase().indexOf(phrase.toLocaleLowerCase())));
+      for (const [replacement, reason] of (negativePrice ? [
+        ["a great deal of money", "這句直接說花費不少錢，意思接近，但沒有用本課指定的慣用語。"],
+        ["a large sum of money", "這句直接描述大筆開支，沒有用本課的固定慣用語。"],
+        ["an enormous amount", "這句形容高價，卻沒有用本課的慣用語。"]
+      ] : [
         ["only a handful of dollars", "only a handful of dollars 表示價錢低廉，與原題的高昂費用相反。"],
         ["just a few dollars total", "just a few dollars total 表示開支很少，不能表達昂貴。"],
         ["no more than a meal", "no more than a meal 把開支比作一頓飯，與原題的沉重價格不符。"]
-      ]) {
+      ])) {
         if (foils.length === 3) break;
         const text = source.replace(/an arm and a leg/i, replacement);
         if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
@@ -485,9 +429,9 @@
       const match = /^(has|have|had) many irons in the fire$/i.exec(phrase);
       if (match) {
         for (const [suffix, reason] of [
-          ["just one active project", "just one active project 只有一項進行中的工作，與原題同時兼顧多事不符。"],
-          ["only past projects to show", "past projects 已完成，不是現在同時進行的多項任務。"],
-          ["several idle plans on paper", "idle plans 只是尚未執行的想法，並非多項同步工作。"]
+          ["just one task under way", "just one task 只有一項進行中的工作，與原題同時兼顧多事不符。"],
+          ["several plans on hold", "plans on hold 尚未執行，並非多項同步工作。"],
+          ["very little work ongoing", "very little work ongoing 表示當前工作量很少，與原題相反。"]
         ]) {
           if (foils.length === 3) break;
           const text = source.replace(phrase, `${match[1]} ${suffix}`);
@@ -498,8 +442,8 @@
     if (lesson.id === "idiom-10") {
       const past = phrase.toLocaleLowerCase().startsWith("saw ");
       const alternatives = past
-        ? [["saw which way the vote went", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["saw which option the group chose", "這句只直接交代所選選項，沒有使用本課慣用語。"], ["watched how the situation developed", "這句說觀察局勢，但沒有使用本課的慣用語。"]]
-        : [["see which way the vote goes", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["see which option the group chooses", "這句只直接交代所選選項，沒有使用本課慣用語。"], ["watch how the situation develops", "這句說觀察局勢，但沒有使用本課的慣用語。"]];
+        ? [["saw how the whole situation developed", "這句直接說觀望局勢，但沒有使用本課慣用語。"], ["saw how events unfolded from there", "這句說觀察事情發展，沒有用本課指定的慣用語。"], ["saw how the situation played out", "這句同樣表示觀望結果，卻沒有用本課的固定說法。"]]
+        : [["see how the whole situation develops", "這句直接說觀望局勢，但沒有使用本課慣用語。"], ["see how events unfold from here", "這句說觀察事情發展，沒有用本課指定的慣用語。"], ["see how the situation plays out", "這句同樣表示觀望結果，卻沒有用本課的固定說法。"]];
       for (const [replacement, reason] of alternatives) {
         if (foils.length === 3) break;
         const text = source.replace(phrase, caseMatch(replacement));
@@ -527,7 +471,7 @@
       for (const [replacement, reason] of [
         [phrase.replace("above", "ahead of"), "ahead of oneself 表示想得或做得太早，不等於自視高人一等。"],
         [phrase.replace("above", "over"), "get over oneself 指放下自我中心，與變得傲慢的方向相反。"],
-        [phrase.replace("above", "beside"), "beside oneself 指情緒激動，不是自視高人一等。"]
+        [phrase.replace("above", "down on"), "get down on oneself 指責怪或貶低自己，與自視高人一等相反。"]
       ]) {
         if (foils.length === 3) break;
         const text = source.replace(phrase, replacement);
