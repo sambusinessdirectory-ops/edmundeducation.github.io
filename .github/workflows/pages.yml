@@ -40,7 +40,7 @@ jobs:
           node --check shared-companion.mjs
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -356,6 +356,17 @@ jobs:
           node --test tools/test-idiom-system.mjs
           node tools/test-idiom-system-runtime.mjs
           node --test tools/test-idiom-paper.mjs
+          npm test --prefix workers/idiom-system
+
+      - name: Validate focused Idiom Compass release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[idiom-release]') }}
+        run: |
+          node --check idiom-system.js
+          node --check idiom-compass-06-30-curation.js
+          node --check idiom-compass-06-30-bonus.js
+          node tools/test-idiom-system-runtime.mjs
+          node --test tools/test-idiom-system.mjs tools/test-idiom-paper.mjs
+          node tools/test-mobile-exercise-actions.mjs
           npm test --prefix workers/idiom-system
 
       - name: Validate and regenerate the complete Proverb catalogue
