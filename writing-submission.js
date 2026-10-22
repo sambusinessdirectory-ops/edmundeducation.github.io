@@ -3768,7 +3768,7 @@ function initialisePhoebeWritingToggle() {
   if (!button) return;
   const image = button.querySelector('img');
   const gifSrc = image.getAttribute('src');
-  const stillSrc = 'writing-phoebe-writing-still.png?v=20261021-smooth-48';
+  const stillSrc = 'writing-phoebe-writing-still.png?v=20261022-fixed-writing-72';
   const storageKey = 'edmund-writing-phoebe-visible';
   let visible = true;
   try { visible = localStorage.getItem(storageKey) !== 'false'; } catch { /* Storage may be unavailable. */ }
