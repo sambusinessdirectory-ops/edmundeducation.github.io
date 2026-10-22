@@ -69,6 +69,8 @@ const server=http.createServer((req,res)=>{
     assert.match(await page.locator('#curation-source').innerText(),/第 10 頁/);
     assert.ok(await page.locator('.curation-bank-C li.curation-bank-used').count()>=1,'Task C evidence through this sentence is visibly used');
     assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'direct Task C jump does not pre-use Task B evidence');
+    await page.reload({waitUntil:'domcontentloaded'});
+    assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'rewound Task B points stay unmarked after changing task and reloading');
     await jump('Task C 範文 · 第 10 句');await page.locator('#curation-next').click();
     assert.match(await page.locator('.curation-source-preview-head strong').innerText(),/錄音稿 6 \/ 6/,'transcript evidence opens in the same preview');
     assert.ok(await page.locator('#curation-source-preview .curation-transcript-sentence.curation-essay-source-used .curation-navy-ink').count()>0,'transcript preview shows the blue used stroke');

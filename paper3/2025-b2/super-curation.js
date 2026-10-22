@@ -471,7 +471,7 @@
     state.completed=[...new Set((Array.isArray(raw.completed)?raw.completed:[]).filter(id=>allIds.has(id)))];
     for(const task of 'ABC'){
       const reviewed=Math.max(-1,...steps.writing.filter(step=>step.essaySource&&step.task===task&&state.completed.includes(step.id)).map(step=>step.index));
-      const saved=Number(raw.essayPositions?.[task]);state.essayPositions[task]=Math.min(steps.writing.length-1,Number.isFinite(saved)&&saved>=-1?Math.max(saved,reviewed):reviewed);
+      const saved=Number(raw.essayPositions?.[task]);state.essayPositions[task]=Math.min(steps.writing.length-1,Number.isFinite(saved)&&saved>=-1?saved:reviewed);
     }
     const writingStep=steps.writing[state.positions.writing];
     if(state.chapter==='writing'&&writingStep?.essay)state.essayPositions[writingStep.task]=state.positions.writing;
