@@ -112,6 +112,9 @@ jobs:
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}
         run: |
+          test -s native-english-sky-kingdom-login-frame-v4.webp
+          grep -Fq 'native-english-sky-kingdom-login-frame-v4.webp' natural-english/style.css
+          grep -Fq '20261022-sky-kingdom-login1' natural-english.html
           node --check natural-english/app.mjs
           node --check natural-english/catalogue.mjs
           node tools/test-native-redesign-plan.mjs

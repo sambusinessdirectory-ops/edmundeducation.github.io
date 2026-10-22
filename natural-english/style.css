@@ -30,3 +30,44 @@
 .choices .choice-copy{min-width:0;line-height:1.5;overflow-wrap:anywhere}
 .choices button>.choice-copy{display:block;flex:1 1 auto;min-width:0;width:auto;height:auto;place-items:initial;background:none;border-radius:0;color:inherit;line-height:1.5;overflow-wrap:break-word;white-space:normal}
 .open-question{border:1px solid #d8c8ab;border-radius:20px;padding:clamp(18px,3vw,30px);background:#fffaf1}.open-question form label{display:block;margin-bottom:10px;font-size:.83rem;font-weight:800;color:#715537}.open-question textarea{display:block;width:100%;min-height:120px;resize:vertical;padding:16px 18px;border:1px solid #b9ac92;border-radius:14px;background:#fff;color:var(--ink);line-height:1.55;font-size:1rem}.open-question textarea:focus-visible{outline:3px solid #c19020;outline-offset:2px}.open-question textarea:disabled{background:#f4f2eb;color:var(--ink)}.open-question form button{margin-top:14px}.open-review{margin-top:20px;padding:20px;border-radius:16px;background:#edf4ea;border-left:4px solid #63815b}.open-review>strong{display:block;color:#355838}.open-review ul{margin:12px 0;padding-left:1.25em;line-height:1.7}.open-review li+li{margin-top:7px}.open-review p{margin-bottom:16px;color:#355838}.open-review button{margin-top:4px}.open-question [data-open-status]:empty{display:none}
+
+/* Sky Kingdom artwork surrounds the live Native English login form. */
+.login-layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; min-height: 760px; }
+.login-form {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  min-height: 760px;
+  padding: 165px 16% 120px 20%;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.login-form::before {
+  content: "";
+  position: absolute;
+  inset: -3%;
+  z-index: 0;
+  pointer-events: none;
+  background: url("../native-english-sky-kingdom-login-frame-v4.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 18px 24px rgba(75, 62, 56, .22));
+}
+.login-form > * { position: relative; z-index: 1; }
+.login-form .eyebrow { color: #6a4280; }
+.login-form h2 { color: #352b4c; }
+.login-form label { color: #40374f; }
+.login-form input { border-color: #b9acc1; background: rgba(255, 255, 255, .92); }
+.login-form .primary { background: linear-gradient(135deg, #72488e, #3d598e); border-color: #58467f; box-shadow: 0 4px 0 #343057; }
+.login-form .primary:hover { background: linear-gradient(135deg, #65407d, #344d7f); }
+@media (max-width: 900px) {
+  .login-layout { grid-template-columns: 1fr; gap: 18px; }
+  .login-form { width: min(100%, 560px); margin-inline: auto; }
+}
+@media (max-width: 600px) {
+  .login-form { min-height: 690px; padding: 145px 15% 95px 19%; }
+  .login-form label { margin: 17px 0; }
+}
