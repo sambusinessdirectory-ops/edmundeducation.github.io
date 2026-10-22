@@ -41,7 +41,7 @@
   justify-content: center;
   min-width: 0;
   min-height: 760px;
-  padding: 165px 16% 120px 20%;
+  padding: 165px 20% 120px;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -50,7 +50,7 @@
 .login-form::before {
   content: "";
   position: absolute;
-  inset: -3%;
+  inset: -3% -8%;
   z-index: 0;
   pointer-events: none;
   background: url("../native-english-sky-kingdom-login-frame-v4.webp") center / 100% 100% no-repeat;
@@ -68,6 +68,7 @@
   .login-form { width: min(100%, 560px); margin-inline: auto; }
 }
 @media (max-width: 600px) {
-  .login-form { min-height: 690px; padding: 145px 15% 95px 19%; }
+  .login-form { min-height: 690px; padding: 145px 23% 95px 21%; }
+  .login-form::before { inset: -3%; }
   .login-form label { margin: 17px 0; }
 }
