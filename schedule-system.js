@@ -407,6 +407,8 @@ const elements = {
   togglePreviousIncomplete: document.querySelector("[data-toggle-previous-incomplete]"),
   saveEntry: document.querySelector("[data-save-entry]"),
   deleteDialog: document.querySelector("[data-delete-dialog]"),
+  teacherMoveDialog: document.querySelector("[data-teacher-move-dialog]"),
+  closeTeacherMove: document.querySelector("[data-close-teacher-move]"),
   cancelDelete: document.querySelector("[data-cancel-delete]"),
   confirmDelete: document.querySelector("[data-confirm-delete]"),
   passwordDialog: document.querySelector("[data-password-dialog]"),
@@ -748,6 +750,11 @@ function showToast(message, status = "success") {
   state.toastTimer = window.setTimeout(() => {
     elements.toast.hidden = true;
   }, 3200);
+}
+
+function showTeacherMoveDialog() {
+  if (state.currentUser?.role !== "student" || !elements.teacherMoveDialog) return;
+  if (!elements.teacherMoveDialog.open) elements.teacherMoveDialog.showModal();
 }
 
 function showCompletionCelebration() {
@@ -2051,7 +2058,8 @@ function updateSelectionControls() {
   elements.batchPreviousIncomplete.textContent = entries.length && entries.every((entry) => entry.isPreviousIncomplete)
     ? "取消上週未完成"
     : "標記上週未完成";
-  elements.moveSelected.disabled = state.mutationInFlight || moving || entries.length !== 1 || !canMoveEntry(entries[0]);
+  elements.moveSelected.disabled = state.mutationInFlight || moving || entries.length !== 1
+    || (!canMoveEntry(entries[0]) && !isStudentTagOnlyEntry(entries[0]));
   elements.moveSelected.textContent = moving ? "請選擇空白格" : "移動所選";
   elements.batchDelete.disabled = state.mutationInFlight || moving || entries.length === 0 || protectedCount > 0;
   elements.batchDelete.title = protectedCount > 0
@@ -6171,7 +6179,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
       });
     }
     button.dataset.entryId = entry.id;
-    button.draggable = canMoveEntry(entry) || canDragMassEditGroup(entry);
+    button.draggable = canMoveEntry(entry) || canDragMassEditGroup(entry) || isStudentTagOnlyEntry(entry);
     if (canMoveEntry(entry)) button.classList.add("can-touch-drag");
     if (canDragMassEditGroup(entry)) {
       button.classList.add("can-group-drag");
@@ -6427,7 +6435,12 @@ async function batchDeleteEntries() {
 function beginMoveSelected() {
   if (state.massEditMode) return;
   const entries = selectedEntries();
-  if (entries.length !== 1 || !canMoveEntry(entries[0]) || state.mutationInFlight) return;
+  if (entries.length !== 1 || state.mutationInFlight) return;
+  if (isStudentTagOnlyEntry(entries[0])) {
+    showTeacherMoveDialog();
+    return;
+  }
+  if (!canMoveEntry(entries[0])) return;
   state.moveEntryId = entries[0].id;
   if (unusedSlotsAreHidden()) {
     state.showUnusedTemporarily = true;
@@ -7911,6 +7924,7 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
   }
   if (!canMoveEntry(entry) || state.mutationInFlight) {
     event.preventDefault();
+    if (!state.mutationInFlight && isStudentTagOnlyEntry(entry)) showTeacherMoveDialog();
     return;
   }
   leaveTouchActionMode();
@@ -8053,12 +8067,19 @@ elements.weekGrid.addEventListener("pointerdown", (event) => {
   const slot = event.target.closest("[data-entry-id]");
   if (!slot) return;
   const entry = findEntryById(slot.dataset.entryId);
-  if (!canMoveEntry(entry)) return;
+  const protectedTeacherMove = isStudentTagOnlyEntry(entry);
+  if (!canMoveEntry(entry) && !protectedTeacherMove) return;
   clearLongPress();
   state.longPressPointerId = event.pointerId;
   state.longPressOrigin = { x: event.clientX, y: event.clientY };
   state.longPressTimer = window.setTimeout(() => {
     state.longPressTimer = null;
+    if (protectedTeacherMove) {
+      state.suppressClickUntil = Date.now() + 500;
+      clearLongPress();
+      showTeacherMoveDialog();
+      return;
+    }
     state.touchActionEntryId = entry.id;
     state.suppressClickUntil = Date.now() + 500;
     try {
@@ -8176,6 +8197,7 @@ elements.toggleMoreThanHalfCompleted.addEventListener("click", toggleEntryMoreTh
 elements.togglePreviousIncomplete.addEventListener("click", toggleEntryPreviousIncomplete);
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
+elements.closeTeacherMove?.addEventListener("click", () => elements.teacherMoveDialog.close());
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {
