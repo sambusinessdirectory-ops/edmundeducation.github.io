@@ -226,8 +226,8 @@ summary:focus-visible {
   overflow: hidden;
   color: #fff;
   background:
-    radial-gradient(circle at 82% 18%, rgba(131, 104, 214, .72), transparent 32%),
-    linear-gradient(145deg, #102558 0%, #23458c 56%, #493b87 100%);
+    radial-gradient(circle at 82% 18%, rgba(115, 186, 234, .48), transparent 32%),
+    linear-gradient(145deg, #0b1c40 0%, #173b72 56%, #286c9a 100%);
 }
 
 .login-hero::after {
@@ -1295,4 +1295,53 @@ summary:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* The artwork supplies the login surface and perimeter; the form stays live HTML. */
+.login-panel {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  min-height: 880px;
+  aspect-ratio: 2 / 3;
+  border: 0;
+  border-radius: 0;
+  padding: 225px clamp(48px, 5vw, 76px) 78px;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.login-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: url("sentence-structure-horse-login-frame-v1.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 20px 28px rgba(10, 29, 68, .25));
+}
+
+.login-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1040px) {
+  .login-panel {
+    width: min(100%, 620px);
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .login-panel {
+    min-height: 730px;
+    padding: 220px 44px 70px;
+  }
+}
+
+@media (max-width: 430px) {
+  .login-panel { padding: 175px 32px 65px; }
+  .login-heading { grid-template-columns: auto minmax(0, 1fr); gap: 12px; }
 }
