@@ -194,14 +194,16 @@
 /* The route pen points to the referenced file, then remains as a faint reading trace. */
 #curation-route-arrow{position:fixed;inset:0;width:100vw;height:100vh;z-index:112;pointer-events:none;overflow:visible;color:#d0282d}
 #curation-route-arrow[hidden],.curation-route-callout[hidden]{display:none!important}
-.curation-route-path{fill:none;stroke:#d0282d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 1px #fff8)}
+.curation-route-path{fill:none;stroke:#d0282d;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
 #curation-route-arrow.is-drawing .curation-route-path{stroke-dasharray:1;stroke-dashoffset:1;animation:curation-route-draw .9s cubic-bezier(.22,.8,.2,1) forwards}
 @keyframes curation-route-draw{to{stroke-dashoffset:0}}
 #curation-route-arrow.is-faded{opacity:.16;transition:opacity .55s ease}
-.curation-route-callout{position:fixed;z-index:113;pointer-events:none;box-sizing:border-box;max-width:182px;padding:7px 10px;border:2px solid #d0282d;border-radius:9px;background:#fff9f2;color:#ab1720;font:800 13px/1.25 system-ui,sans-serif;box-shadow:0 5px 15px #38080c44;transform:rotate(-3deg)}
+.curation-route-callout{position:fixed;z-index:113;pointer-events:none;box-sizing:border-box;width:max-content;max-width:248px;padding:7px 10px;border:1.5px solid #d0282d;border-radius:8px;background:#fffdf9;color:#ab1720;font:800 13px/1.25 system-ui,sans-serif;box-shadow:0 3px 9px #38080c2b}
+.curation-route-callout strong,.curation-route-callout span{display:block;white-space:nowrap}
+.curation-route-callout strong{font-size:12px;margin-bottom:2px}
 .curation-route-callout.is-faded{opacity:.16;transition:opacity .55s ease}
 .curation-note-task{position:relative;padding-right:40px}
-.curation-active .curation-note-task::after{content:attr(data-task);display:inline-grid;place-items:center;margin-left:12px;width:32px;height:32px;border:2px solid currentColor;border-radius:8px;transform:rotate(-6deg);font:900 22px/1 Georgia,serif;vertical-align:middle}
+.curation-active .curation-note-task.is-revealed::after{content:attr(data-task);display:inline-grid;place-items:center;margin-left:12px;width:32px;height:32px;border:2px solid currentColor;border-radius:8px;transform:rotate(-6deg);font:900 22px/1 Georgia,serif;vertical-align:middle}
 .curation-active .curation-note-task-A::after{color:#008c9d;background:#e5fbfc}
 .curation-active .curation-note-task-C::after{color:#b94964;background:#ffe7eb}
 .curation-active .curation-note-noise.is-revealed .curation-pen-line{background-size:100% 3px}
@@ -213,3 +215,17 @@
 .curation-model-essay h5{font:800 18px/1.35 Georgia,serif;margin:17px 0 7px}
 .curation-model-essay p{white-space:pre-line;margin:0 0 14px}
 @media(prefers-reduced-motion:reduce){#curation-route-arrow.is-drawing .curation-route-path{animation:none;stroke-dashoffset:0}#curation-route-arrow.is-faded,.curation-route-callout.is-faded{transition:none}}
+
+.curation-active .curation-note-task:not(.is-revealed){padding-right:0}
+
+/* Reveal the supplied transcript only as its recording cue is reached. */
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-A{background:#8ce7eb;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-C{background:#f7b1be;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-listening{background:#dbecc6;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-strike.is-revealed .curation-pen-line{background-size:100% 2.5px}
+.curation-active .curation-transcript-sentence:not(.is-revealed){background:transparent!important}
+.curation-active .curation-transcript-strike:not(.is-revealed) .curation-pen-line{background-size:0 2.5px}
+.curation-note-writing{background:#fff4d7!important;box-shadow:inset 0 0 0 2px #e4a329!important;transition:background .25s ease}
+
+.curation-active .curation-transcript-sentence.is-revealed .curation-transcript-inline-A{background:#8ce7eb;color:inherit}
+.curation-active .curation-transcript-sentence:not(.is-revealed) .curation-transcript-inline-A{background:transparent}

@@ -82,6 +82,10 @@ window.EDMUND_B2_CURATION_HIGHLIGHTS = {
   "duncan-singh-emails-11": {
     "source": [
       {
+        "text": "parking near Cheung Sha Beach is difficult",
+        "color": "yellow"
+      },
+      {
         "text": "think this",
         "color": "yellow"
       },
