@@ -14,7 +14,9 @@ ROOT = Path(__file__).resolve().parents[3]
 ART = ROOT / "assets" / "mascots" / "eddy-flashcards"
 PUBLIC = ROOT / "flashcards-eddy"
 STILLS = PUBLIC / "stills"
-MASTER = ART / "eddy-flashcards-clean.png"
+OPEN = ART / "eddy-flashcards-open.png"
+BLINK = ART / "eddy-flashcards-blink.png"
+ARM_FREE = ART / "eddy-flashcards-arm-free.png"
 WORK = 480
 DELIVERY = 320
 FRAMES = 108
@@ -27,16 +29,16 @@ def font(size: int, index: int = 0) -> ImageFont.FreeTypeFont:
 
 
 def card_face(is_meaning: bool) -> Image.Image:
-    card = Image.new("RGBA", (112, 72), (0, 0, 0, 0))
+    card = Image.new("RGBA", (100, 66), (0, 0, 0, 0))
     draw = ImageDraw.Draw(card)
     paper = (255, 250, 237, 255) if not is_meaning else (255, 247, 219, 255)
     accent = (42, 99, 145, 255) if not is_meaning else (194, 125, 34, 255)
-    draw.rounded_rectangle((2, 2, 109, 69), radius=8, fill=paper, outline=accent, width=2)
-    draw.line((13, 20, 98, 20), fill=(*accent[:3], 90), width=1)
+    draw.rounded_rectangle((2, 2, 97, 63), radius=8, fill=paper, outline=accent, width=2)
+    draw.line((12, 19, 88, 19), fill=(*accent[:3], 90), width=1)
     label = "MEANING" if is_meaning else "WORD"
     value = "eager to know" if is_meaning else "curious"
-    draw.text((56, 12), label, font=font(8), fill=accent, anchor="mm")
-    draw.text((56, 39), value, font=font(13 if is_meaning else 18), fill=(35, 49, 65, 255), anchor="mm")
+    draw.text((50, 11), label, font=font(8), fill=accent, anchor="mm")
+    draw.text((50, 38), value, font=font(11 if is_meaning else 17), fill=(35, 49, 65, 255), anchor="mm")
     return card
 
 
@@ -59,28 +61,62 @@ def card_state(frame: int) -> tuple[float, bool]:
     return 0.0, False
 
 
-def hoof_overlay(base: Image.Image) -> Image.Image:
+def raised_arm(open_key: Image.Image) -> Image.Image:
     mask = Image.new("L", (WORK, WORK), 0)
     draw = ImageDraw.Draw(mask)
-    # Foremost dark hoof sits over the lower left of the turning card.
-    draw.ellipse((113, 216, 169, 275), fill=255)
-    mask = mask.filter(ImageFilter.GaussianBlur(1.5))
-    out = base.copy()
+    # Isolate the whole foreleg. Its shoulder is the hinge; the hoof and card
+    # then travel together, instead of a card floating before a frozen hoof.
+    draw.polygon([
+        (112, 234), (119, 221), (136, 216), (153, 220), (168, 231),
+        (178, 244), (195, 258), (210, 278), (222, 296), (223, 308),
+        (211, 310), (194, 306), (178, 296), (159, 280), (141, 286),
+        (124, 276), (113, 260),
+    ], fill=255)
+    mask = mask.filter(ImageFilter.GaussianBlur(1.8))
+    out = open_key.copy()
     out.putalpha(mask)
     return out
 
 
-def render(base: Image.Image, hoof: Image.Image, front: Image.Image, back: Image.Image, frame: int) -> Image.Image:
+def blink_mask() -> Image.Image:
+    mask = Image.new("L", (WORK, WORK), 0)
+    draw = ImageDraw.Draw(mask)
+    draw.ellipse((184, 133, 218, 184), fill=255)
+    draw.ellipse((264, 131, 309, 182), fill=255)
+    return mask.filter(ImageFilter.GaussianBlur(3))
+
+
+def hand_motion(angle: float) -> float:
+    # The foreleg starts turning the card, stays raised while Eddy reads, and
+    # returns to its exact original position before the seamless loop ends.
+    return -14.0 * angle / math.pi
+
+
+def render(base: Image.Image, blink: Image.Image, eye_mask: Image.Image,
+           arm: Image.Image, front: Image.Image, back: Image.Image, frame: int) -> Image.Image:
     angle, meaning = card_state(frame)
     face = back if meaning else front
-    # Simulated Y-axis rotation retains a consistent hinge above Eddy's hoof.
+    arm_angle = hand_motion(angle)
+    radians = math.radians(arm_angle)
+    # The card tracks the hoof as the whole foreleg turns about the shoulder.
+    shoulder_x, shoulder_y = 220, 301
+    hoof_x, hoof_y = 141 - shoulder_x, 247 - shoulder_y
+    grip_x = shoulder_x + hoof_x * math.cos(radians) + hoof_y * math.sin(radians)
+    grip_y = shoulder_y - hoof_x * math.sin(radians) + hoof_y * math.cos(radians)
     width = max(3, round(face.width * abs(math.cos(angle))))
     card = face.resize((width, face.height), Image.Resampling.BICUBIC)
     swing = math.sin(angle)
-    card = card.rotate(-3.5 * swing, Image.Resampling.BICUBIC, expand=True)
+    card = card.rotate(-5 * swing + 0.25 * arm_angle, Image.Resampling.BICUBIC, expand=True)
     image = base.copy()
-    image.alpha_composite(card, (round(140 - card.width / 2 + 4 * swing), round(197 - card.height / 2 - 3 * swing)))
-    image.alpha_composite(hoof)
+    strength = {53: 0.2, 54: 0.55, 55: 0.9, 56: 1.0, 57: 0.9,
+                58: 0.55, 59: 0.2}.get(frame, 0)
+    if strength:
+        weighted = eye_mask.point(lambda value: round(value * strength))
+        image = Image.composite(blink, image, weighted)
+    image.alpha_composite(card, (round(grip_x - 13 - card.width / 2 + 3 * swing),
+                                 round(grip_y - 41 - card.height / 2 - 2 * swing)))
+    image.alpha_composite(arm.rotate(arm_angle, Image.Resampling.BICUBIC,
+                                     center=(shoulder_x, shoulder_y)))
     return image
 
 
@@ -101,11 +137,14 @@ def gif_palette(frame: Image.Image) -> Image.Image:
 def main() -> None:
     PUBLIC.mkdir(parents=True, exist_ok=True)
     STILLS.mkdir(parents=True, exist_ok=True)
-    base = Image.open(MASTER).convert("RGBA").resize((WORK, WORK), Image.Resampling.LANCZOS)
-    hoof = hoof_overlay(base)
+    open_key = Image.open(OPEN).convert("RGBA").resize((WORK, WORK), Image.Resampling.LANCZOS)
+    base = Image.open(ARM_FREE).convert("RGBA").resize((WORK, WORK), Image.Resampling.LANCZOS)
+    blink = Image.open(BLINK).convert("RGBA").resize((WORK, WORK), Image.Resampling.LANCZOS)
+    arm = raised_arm(open_key)
+    eyes = blink_mask()
     front, back = card_face(False), card_face(True)
-    frames = [render(base, hoof, front, back, frame) for frame in range(FRAMES)]
-    for number, frame in enumerate((4, 20, 31, 49, 62, 78, 94), 1):
+    frames = [render(base, blink, eyes, arm, front, back, frame) for frame in range(FRAMES)]
+    for number, frame in enumerate((4, 20, 31, 49, 56, 78, 94), 1):
         frames[frame].resize((256, 256), Image.Resampling.LANCZOS).save(
             STILLS / f"eddy-{number:02d}.png", optimize=True
         )
