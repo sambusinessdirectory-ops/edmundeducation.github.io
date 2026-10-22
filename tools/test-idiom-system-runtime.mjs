@@ -349,8 +349,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   openLesson, setLessonPage, renderLessonPage, renderLessonChoices, renderExercisePage,
-  renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, handleClick, searchLessons,
-  revealCompassQuestion, completeCompassQuestion, reopenCompassQuestion,
+  renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, compassPracticeQuestions, compassMcOptions, answerCompassMcQuestion, compassBonusCorrectIds, handleClick, searchLessons,
   compassReviewedCount, displayAttemptProgress,
   clearSession,
   questionActivityRows, buildQuestionProgressSeries,
@@ -941,39 +940,54 @@ test("first five show a real idiom sentence and require idiom use in social sign
   }
 });
 
-test("compass practice shows five questions at a time and records self-review after model comparison", async () => {
-  const { sut } = createFrontendHarness({ withCompass: true });
+test("first-five practice uses single-answer English choices, including ten themed extras", async () => {
+  const { sut, apiCalls } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
+  for (const current of content.lessons.slice(0, 5)) {
+    const questions = sut.compassPracticeQuestions(current);
+    assert.equal(questions.length, 60, `${current.id} must have 60 practice questions`);
+    assert.equal(new Set(questions.slice(50).map((question) => question.theme)).size, 10, `${current.id} must cover ten themes`);
+    for (const question of questions) {
+      const { options, correctAt } = sut.compassMcOptions(question, current);
+      assert.equal(options.length, 3);
+      assert.equal(new Set(options).size, 3);
+      assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
+      assert.equal(options[correctAt], question.answer);
+      assert.match(question.answer.toLowerCase(), /(ball rolling|shake a leg|ground running|chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es)?|(?:think(?:ing|s)?|thought) big)/, `${question.id} must use its lesson idiom`);
+    }
+  }
   sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
   assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
-  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 10 組/);
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /data-submit-all/);
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /參考改寫 · 看看意思/);
-  sut.state.exercise.drafts[lesson.questions[0].id] = lesson.questions[0].answer;
-  sut.revealCompassQuestion(lesson.questions[0].id);
-  assert.match(sut.elements.lessonContent.innerHTML, /參考改寫 · 看看意思/);
-  assert.equal(sut.state.exercise.correctIds.length, 0);
-  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id], undefined);
-  await sut.completeCompassQuestion(lesson.questions[0].id);
-  assert.equal(sut.state.exercise.correctIds.length, 0);
-  assert.equal(sut.state.exercise.awaitingNextRound, false);
-  assert.equal(sut.state.exercise.rounds.length, 0);
-  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id].status, "pending");
-  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id].reveal, true);
-  assert.equal(sut.compassReviewedCount(lesson), 1);
-  assert.equal(sut.serializeExerciseResult().questionState[lesson.questions[0].id].lastAnswer, lesson.questions[0].answer);
-  await sut.reopenCompassQuestion(lesson.questions[0].id);
-  assert.equal(sut.state.exercise.questionState[lesson.questions[0].id].reveal, false);
-  assert.equal(sut.compassReviewedCount(lesson), 0);
-  sut.state.exercise.pilotBatchIndex = 1;
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'data-compass-mc-choice='), 15);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /<textarea|data-answer-input=|data-compass-reveal|data-compass-complete/);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
+  const first = lesson.questions[0];
+  const right = sut.compassMcOptions(first, lesson).correctAt;
+  await sut.answerCompassMcQuestion(first.id, (right + 1) % 3);
+  assert.equal(sut.state.exercise.correctIds.length, 0, "wrong choice must not score");
+  assert.match(sut.elements.lessonContent.innerHTML, /Not quite/);
+  await sut.answerCompassMcQuestion(first.id, right);
+  assert.deepEqual([...sut.state.exercise.correctIds], [first.id]);
+  assert.equal(sut.state.exercise.questionState[first.id].status, "correct");
+  assert.equal(sut.state.exercise.questionState[first.id].lastAnswer, first.answer);
+  const saved = apiCalls.filter((call) => call.options.method === "PUT").at(-1);
+  assert.ok(saved);
+  const payload = JSON.parse(saved.options.body);
+  assert.equal(payload.correctCount, 1);
+  assert.equal(payload.totalCount, 50, "the protected catalog still counts the original questions");
+  assert.equal(payload.result.questionState[first.id].lastAnswer, first.answer);
+  sut.state.exercise.pilotBatchIndex = 10;
   sut.renderExercisePage(lesson);
-  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
-  assert.match(sut.elements.lessonContent.innerHTML, new RegExp(lesson.questions[5].id));
-  assert.match(sut.elements.lessonContent.innerHTML, /第 2 \/ 10 組/);
-  assert.equal(sut.serializeExerciseResult().pilotBatchIndex, undefined);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 11 \/ 12 組/);
+  assert.match(sut.elements.lessonContent.innerHTML, /School debate/);
+  const extra = sut.compassPracticeQuestions(lesson)[50];
+  await sut.answerCompassMcQuestion(extra.id, sut.compassMcOptions(extra, lesson).correctAt);
+  assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
+  assert.equal(sut.state.exercise.correctIds.length, 1, "bonus ID must not enter the protected 50-question catalog");
+  assert.equal(sut.compassReviewedCount(lesson), 2);
 });
 
-test("compass choices reveal feedback only after selection and resume the correct five-question group", () => {
+test("Compass choices resume the first unanswered batch and legacy self-reviews do not count as correct", () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
   sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
@@ -982,24 +996,33 @@ test("compass choices reveal feedback only after selection and resume the correc
     return selector === "[data-compass-choice]" ? { dataset: { compassChoice: "0", compassPage: "2" } } : null;
   } } });
   assert.match(sut.elements.lessonContent.innerHTML, /class="compass-feedback/);
-  const reviewed = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "pending", lastAnswer: "My reviewed draft", reveal: true }]));
-  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ result: { questionState: reviewed, correctIds: [] } }) });
-  assert.match(sut.elements.lessonContent.innerHTML, /第 5 \/ 10 組/);
+  const reviewed = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "correct", lastAnswer: question.answer, reveal: true }]));
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ correctCount: 20, result: { questionState: reviewed, correctIds: lesson.questions.slice(0, 20).map((question) => question.id) } }) });
+  assert.match(sut.elements.lessonContent.innerHTML, /第 5 \/ 12 組/);
   assert.equal(sut.pilotBatchQuestions()[0].id, lesson.questions[20].id);
   sut.openLesson(lesson.id, { page: 8, questionId: lesson.questions[34].id });
   assert.equal(sut.state.exercise.pilotBatchIndex, 6);
-  assert.equal(sut.pilotBatchQuestions()[4].id, lesson.questions[34].id);
+  const oldReview = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "pending", lastAnswer: "My reviewed draft", reveal: true }]));
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ result: { questionState: oldReview, correctIds: [] } }) });
+  assert.equal(sut.compassReviewedCount(lesson), 0);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
 });
 
-test("switching accounts clears unsaved Compass choices and opened model answers", () => {
+test("switching accounts isolates bonus progress and clears unsaved Compass choices", async () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
   sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
   sut.state.pilotSelections[`${lesson.id}:2`] = 1;
   sut.state.pilotOpenModels.add(lesson.questions[0].id);
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
+  const extra = sut.compassPracticeQuestions(lesson)[50];
+  await sut.answerCompassMcQuestion(extra.id, sut.compassMcOptions(extra, lesson).correctAt);
+  assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
   sut.clearSession();
   assert.equal(Object.keys(sut.state.pilotSelections).length, 0);
   assert.equal(sut.state.pilotOpenModels.size, 0);
+  authenticateStudent(sut, "student-b", "token-b");
+  assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), false);
 });
 
 let failed = 0;

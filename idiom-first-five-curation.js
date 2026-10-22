@@ -190,5 +190,74 @@
     Object.assign(lessons[id], lessonCopy);
     for (const [page, choiceCopy] of Object.entries(choices)) Object.assign(lessons[id].choices[page], choiceCopy);
   }
+  const bonusPractice = {
+    "idiom-01": [
+      ["School debate", "The debate room is silent. Mia asks the first question, and classmates begin sharing ideas.", "Mia started the ball rolling by asking the first question in the debate."],
+      ["Community", "Nobody has organised the neighbourhood clean-up yet. A volunteer arranges the first meeting.", "A volunteer started the ball rolling by arranging the first clean-up meeting."],
+      ["Work", "The product team cannot move forward until someone proposes an initial design.", "Jules started the ball rolling with an initial design for the product team."],
+      ["Technology", "A coding club has an idea for an app but no activity. Noor opens a shared project and invites contributors.", "Noor started the ball rolling by opening the club's shared app project."],
+      ["Environment", "Residents want fewer disposable cups. A café agrees to run the first refill trial.", "The café started the ball rolling with the first refill trial."],
+      ["Sport", "The school tournament has no teams yet. The captain invites the first group to register.", "The captain started the ball rolling by inviting the first team to register."],
+      ["Health", "The class wants a wellbeing week. A student proposes the first workshop and others add ideas.", "A student started the ball rolling by proposing a wellbeing workshop."],
+      ["Arts", "The theatre group has no script. Leila writes the opening scene so others can continue.", "Leila started the ball rolling by writing the opening scene."],
+      ["Travel", "Friends keep discussing a trip but never plan it. Kai suggests dates and asks everyone to vote.", "Kai started the ball rolling by suggesting travel dates for everyone to vote on."],
+      ["Family", "The family has postponed a reunion for months. An aunt books a venue and relatives begin planning.", "An aunt started the ball rolling by booking a venue for the family reunion."]
+    ],
+    "idiom-02": [
+      ["School", "Your close friend is packing slowly, and the school bus leaves in one minute. What could you say?", "Shake a leg, Sam—the school bus leaves in one minute!"],
+      ["Sport", "Your teammate knows you well. The match starts now, but they are still tying their shoes.", "Shake a leg, Lee—the match is starting!"],
+      ["Travel", "Your sister is moving slowly toward the gate, and your train is about to depart.", "Shake a leg, Maya—our train is about to leave!"],
+      ["Theatre", "A familiar castmate is late to the stage entrance, and the curtain rises in seconds.", "Shake a leg, Alex—the curtain is about to rise!"],
+      ["Family", "Your brother has not put on his coat, and the family taxi is already waiting.", "Shake a leg, Ben—the taxi is waiting outside!"],
+      ["Volunteering", "Your friend is still sorting supplies while the volunteer team is ready to set off.", "Shake a leg, Jo—the volunteer team is ready to leave!"],
+      ["Music", "A bandmate is chatting backstage just as the group is called onstage.", "Shake a leg, Finn—we're onstage next!"],
+      ["Cinema", "Your best friend is choosing snacks, and the film begins in two minutes.", "Shake a leg, Ruby—the film begins in two minutes!"],
+      ["Hiking", "Your hiking partner knows you well, and the last shuttle leaves shortly.", "Shake a leg, Pat—the last shuttle leaves soon!"],
+      ["Club event", "Your close clubmate is still decorating while guests are already arriving.", "Shake a leg, Eli—the guests are arriving now!"]
+    ],
+    "idiom-03": [
+      ["New job", "A new nurse joins the ward and solves a scheduling problem on her first morning.", "The new nurse hit the ground running by fixing the rota on her first morning."],
+      ["School", "On his first day at a new school, Amir organises the class project and contributes useful ideas.", "Amir hit the ground running in his new class by organising the project on day one."],
+      ["Technology", "A new developer fixes a major bug on the first day of the app project.", "The new developer hit the ground running by fixing a major bug on day one."],
+      ["Sport", "The newly appointed coach improves the team's training plan in the first week.", "The new coach hit the ground running by improving the training plan immediately."],
+      ["Community", "A new volunteer coordinates a food delivery on her first shift.", "The new volunteer hit the ground running by coordinating a delivery on her first shift."],
+      ["Science", "A researcher joins a lab and produces useful results in the first week.", "The researcher hit the ground running and produced useful results in the first week."],
+      ["Business", "A new manager identifies a bottleneck and removes it before the end of day one.", "The new manager hit the ground running by removing a bottleneck on day one."],
+      ["Arts", "A dancer joins a production and learns the choreography quickly enough to improve rehearsals immediately.", "The new dancer hit the ground running and strengthened rehearsals from the start."],
+      ["Environment", "On its launch day, a new recycling team collects and sorts the first batch efficiently.", "The recycling team hit the ground running on launch day by sorting its first batch efficiently."],
+      ["Publishing", "A new editor starts on Monday and helps publish a corrected article that afternoon.", "The new editor hit the ground running by publishing a corrected article that afternoon."]
+    ],
+    "idiom-04": [
+      ["School event", "The committee changes the concert date four times, so students cannot plan.", "The committee keeps chopping and changing the concert date."],
+      ["Travel", "The friends switch hotels repeatedly and cannot finish their itinerary.", "The friends keep chopping and changing their hotel plans."],
+      ["Work", "A manager changes the project brief every day, leaving the team confused.", "The manager keeps chopping and changing the project brief."],
+      ["Technology", "The app team changes its design again and again instead of settling on one version.", "The app team keeps chopping and changing its design."],
+      ["Sport", "The coach changes the starting line-up several times before every match.", "The coach keeps chopping and changing the starting line-up."],
+      ["Family", "The family repeatedly switches between two reunion venues, making invitations difficult.", "The family keeps chopping and changing the reunion venue."],
+      ["Arts", "The director repeatedly rewrites the ending, and actors cannot rehearse it properly.", "The director keeps chopping and changing the ending."],
+      ["Community", "Organisers keep revising the market opening time, confusing stallholders.", "The organisers keep chopping and changing the market opening time."],
+      ["Education", "The club repeatedly changes its lesson timetable, and parents struggle to keep up.", "The club keeps chopping and changing its lesson timetable."],
+      ["Environment", "The council switches the recycling collection day back and forth each week.", "The council keeps chopping and changing the recycling collection day."]
+    ],
+    "idiom-05": [
+      ["School", "A student wants to turn one classroom reading shelf into a library for the whole school.", "The student is thinking big by planning a library for the whole school."],
+      ["Community", "A small food drive grows into a city-wide plan to reduce waste.", "The volunteers are thinking big with a city-wide food rescue plan."],
+      ["Technology", "A coding club wants its accessibility app to help users across Hong Kong.", "The coding club is thinking big by designing an app for users across Hong Kong."],
+      ["Environment", "A class proposes expanding its garden project to every school in the district.", "The class is thinking big by proposing gardens for every school in the district."],
+      ["Sport", "A young athlete wants to build a free training programme for children across the region.", "The athlete is thinking big with a regional training programme for children."],
+      ["Arts", "A local theatre group hopes to tour its play around the world.", "The theatre group is thinking big by planning an international tour."],
+      ["Health", "A clinic hopes to extend its wellbeing lessons from one neighbourhood to the whole city.", "The clinic is thinking big by planning city-wide wellbeing lessons."],
+      ["Business", "A small bakery wants to deliver affordable food to communities across the territory.", "The bakery is thinking big with a territory-wide delivery plan."],
+      ["Science", "A student designs a water filter and hopes to make it available to remote villages.", "The student is thinking big by aiming to bring the filter to remote villages."],
+      ["Travel", "A local guide wants to create accessible walking tours in every major city.", "The guide is thinking big by planning accessible tours in many cities."]
+    ]
+  };
+  for (const [id, questions] of Object.entries(bonusPractice)) {
+    lessons[id].bonusPractice = questions.map(([theme, prompt, answer], index) => ({
+      id: `${id}-bonus-${String(index + 1).padStart(2, "0")}`,
+      theme, prompt, answer, number: 51 + index, bonus: true
+    }));
+  }
+
   window.EDMUND_IDIOM_COMPASS = Object.freeze(lessons);
 })();
