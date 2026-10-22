@@ -225,3 +225,42 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-recording-card audio { width:min(100%,440px); }
 .syn-recording-warning,.syn-empty-recordings { padding:18px; border-radius:14px; background:#fff8e9; color:#7d6033; }
 @media(max-width:620px) { .syn-global-nav .syn-practice-link { order:-1; width:100%; } .syn-recording-card { padding:16px; } }
+
+/* The Synonyms login keeps its shared controls inside the plaster opening. */
+body[data-learning-portal="synonyms"] .learning-portal-login__panel {
+  position: relative;
+  isolation: isolate;
+  min-height: 760px;
+  padding: 166px clamp(78px, 9vw, 112px) 100px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+body[data-learning-portal="synonyms"] .learning-portal-login__panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("../synonyms-arcane-london-login-frame-v1.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 18px 22px #28323928);
+}
+body[data-learning-portal="synonyms"] .learning-portal-login__heading > span { color: #a36a38; }
+body[data-learning-portal="synonyms"] .learning-portal-login__heading .eyebrow { color: #79464d; }
+body[data-learning-portal="synonyms"] .learning-portal-login__heading h2 { color: #28363c; }
+body[data-learning-portal="synonyms"] .learning-portal-login__heading p:last-child { color: #52666a; }
+body[data-learning-portal="synonyms"] .learning-portal-login__form label { color: #2e3d42; }
+body[data-learning-portal="synonyms"] .learning-portal-login__form input { border-color: #9daea9; background: #f8f7f2e8; }
+body[data-learning-portal="synonyms"] .learning-portal-login__form input:focus { border-color: #48817c; box-shadow: 0 0 0 4px #48817c30; }
+body[data-learning-portal="synonyms"] .learning-portal-password button { color: #514055; background: #e9e3de; }
+body[data-learning-portal="synonyms"] .learning-portal-login__status { color: #59676b; }
+body[data-learning-portal="synonyms"] .learning-portal-login__status[data-state="error"] { color: #9b2932; }
+body[data-learning-portal="synonyms"] .learning-portal-login__form .learning-portal-primary { background: linear-gradient(120deg, #70505c, #495f66); box-shadow: 0 4px 0 #383f46; }
+body[data-learning-portal="synonyms"] .learning-portal-login__form .learning-portal-primary:hover { background: linear-gradient(120deg, #80505a, #3f6b68); }
+@media(max-width:1050px) {
+  body[data-learning-portal="synonyms"] .learning-portal-login__heading { grid-template-columns: 1fr; margin-bottom: 24px; gap: 4px; }
+}
+@media(max-width:620px) {
+  body[data-learning-portal="synonyms"] .learning-portal-login__panel { min-height: 780px; padding: 174px 78px 100px; }
+}
