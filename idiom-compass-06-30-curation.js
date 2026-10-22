@@ -295,6 +295,16 @@
         ["the public eye", "public eye 指受公眾注目，不等於身處嚴重危險。"],
         ["a safe place", "safe place 表示安全處所，與走進險境相反。"],
         ["a calm room", "calm room 只形容平靜地方，沒有重大威脅。"]
+      ],
+      "idiom-19": [
+        ["in the clear", "in the clear 表示已洗清嫌疑，與仍受懷疑相反。"],
+        ["free from suspicion", "free from suspicion 表示沒有被懷疑，與原題相反。"],
+        ["beyond all suspicion", "beyond all suspicion 表示不受懷疑，與原題相反。"]
+      ],
+      "idiom-29": [
+        ["a rather small obstacle", "rather small obstacle 承認困難有限，沒有把它誇成難以跨越的障礙。"],
+        ["a perfectly manageable hurdle", "manageable hurdle 表示困難可以處理，不是被誇大的危險。"],
+        ["a real and serious threat", "real and serious threat 表示危險真實而重大，原題卻只是誇大小困難。"]
       ]
     }[lesson.id];
     if (wholePhraseContrasts) {
@@ -308,6 +318,73 @@
             `${verb} ${reflexive[possessive.toLocaleLowerCase()]} ${replacement === "the public eye" ? "directly " : ""}${direction} ${replacement}`);
           if (text === source) text = source.replace(phrase, caseMatch(replacement));
         }
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
+      }
+    }
+    if (lesson.id === "idiom-17") {
+      for (const [replacement, reason] of [
+        ["only a handful of dollars", "only a handful of dollars 表示價錢低廉，與原題的高昂費用相反。"],
+        ["just a few dollars total", "just a few dollars total 表示開支很少，不能表達昂貴。"],
+        ["no more than a meal", "no more than a meal 把開支比作一頓飯，與原題的沉重價格不符。"]
+      ]) {
+        if (foils.length === 3) break;
+        const text = source.replace(/an arm and a leg/i, replacement);
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
+      }
+    }
+    if (lesson.id === "idiom-08") {
+      const pattern = /\b(knew|know|knows|felt|feel|feels) in (my|her|his|our|their|your) bones\b/i;
+      const match = pattern.exec(source);
+      if (match) {
+        const verb = match[1].toLocaleLowerCase();
+        const alternatives = /^(felt|feel|feels)$/.test(verb)
+          ? ({ felt: ["had a vivid dream", "had some official proof", "read a reliable report"], feel: ["have a vivid dream", "have some official proof", "read a reliable report"], feels: ["has a vivid dream", "has some official proof", "reads a reliable report"] })[verb]
+          : ({ knew: ["knew from a report", "heard from a witness", "had proof in hand"], know: ["know from a report", "hear from a witness", "have proof in hand"], knows: ["knows from a report", "hears from a witness", "has proof in hand"] })[verb];
+        const reasons = [
+          "這句把沒有證據的內在確信改成另一種來源或經歷，沒有用本課慣用語。",
+          "這句改用外來資料或證據，與原題只憑內心直覺的情況不同。",
+          "這句把直覺改成可查證的資料，沒有保留原題的依據。"
+        ];
+        alternatives.forEach((replacement, index) => {
+          if (foils.length === 3) return;
+          const text = source.replace(match[0], replacement);
+          if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason: reasons[index] });
+        });
+      }
+    }
+    if (lesson.id === "idiom-09") {
+      for (const [replacement, reason] of [
+        ["uncertain", "uncertain 表示仍未確定，不能代替本課的固定慣用語。"],
+        ["ambiguous", "ambiguous 表示有不止一種解讀，沒有使用本課慣用語。"],
+        ["unambiguous", "unambiguous 雖可表示清楚，卻不是本課指定的慣用語。"]
+      ]) {
+        if (foils.length === 3) break;
+        const text = source.replace(phrase, caseMatch(replacement));
+        if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
+      }
+    }
+    if (lesson.id === "idiom-23") {
+      const match = /^(has|have|had) many irons in the fire$/i.exec(phrase);
+      if (match) {
+        for (const [suffix, reason] of [
+          ["just one active project", "just one active project 只有一項進行中的工作，與原題同時兼顧多事不符。"],
+          ["only past projects to show", "past projects 已完成，不是現在同時進行的多項任務。"],
+          ["several idle plans on paper", "idle plans 只是尚未執行的想法，並非多項同步工作。"]
+        ]) {
+          if (foils.length === 3) break;
+          const text = source.replace(phrase, `${match[1]} ${suffix}`);
+          if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
+        }
+      }
+    }
+    if (lesson.id === "idiom-10") {
+      const past = phrase.toLocaleLowerCase().startsWith("saw ");
+      const alternatives = past
+        ? [["saw which way the vote went", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["saw which option the group chose", "這句只直接交代所選選項，沒有使用本課慣用語。"]]
+        : [["see which way the vote goes", "這句同樣表示觀望結果，但沒有使用本課的貓跳向哪邊的慣用語。"], ["see which option the group chooses", "這句只直接交代所選選項，沒有使用本課慣用語。"]];
+      for (const [replacement, reason] of alternatives) {
+        if (foils.length === 3) break;
+        const text = source.replace(phrase, caseMatch(replacement));
         if (text !== source && !foils.some((item) => item.text === text)) foils.push({ text, reason });
       }
     }
