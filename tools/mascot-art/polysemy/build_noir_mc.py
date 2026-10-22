@@ -54,14 +54,22 @@ def target(t):
 
 def draw_tick(image, row, intensity):
     if row is None or intensity <= 0: return
-    # Screen choices remain readable without any verbal label at icon size.
-    y = (309, 328, 347)[row]
+    # A green tabletop row and an inverted check face Noir across the table.
+    outlines = (
+        [(119,306),(280,306),(284,317),(115,317)],
+        [(111,322),(288,322),(293,334),(106,334)],
+        [(103,341),(295,341),(301,353),(98,353)],
+    )
+    y = (311, 328, 347)[row]
     over = Image.new('RGBA', image.size)
     d = ImageDraw.Draw(over)
-    d.rounded_rectangle((104-row*3, y-8, 291+row*3, y+7), 7, fill=(58, 205, 164, round(110*intensity)))
-    points = [(265,y), (271,y+5), (282,y-8)]
-    d.line(points, fill=(8, 79, 56, round(255*intensity)), width=8, joint='curve')
-    d.line(points, fill=(249, 255, 236, round(255*intensity)), width=5, joint='curve')
+    d.polygon(outlines[row], fill=(48, 176, 105, round(255*intensity)))
+    d.line(outlines[row]+[outlines[row][0]], fill=(200, 255, 211, round(255*intensity)), width=2, joint='curve')
+    # Rotate the check 180 degrees in the tabletop plane: its upper edge is
+    # toward Noir, so the symbol is intentionally upside down to the viewer.
+    points = [(282,y+2), (275,y-4), (252,y+5)]
+    d.line(points, fill=(13, 88, 59, round(255*intensity)), width=8, joint='curve')
+    d.line(points, fill=(252, 255, 239, round(255*intensity)), width=5, joint='curve')
     image.alpha_composite(over)
 
 
@@ -110,6 +118,13 @@ def circular(image):
 
 def indexed(frames):
     palette = frames[0].convert('RGB').quantize(colors=255, method=Image.Quantize.MEDIANCUT)
+    # The neutral first frame contains no green. Reserve exact feedback colors
+    # before quantizing or GIF palette mapping turns the selected row blue.
+    base_colors = palette.getpalette()
+    for index, rgb in ((251,(13,88,59)),(252,(252,255,239)),
+                       (253,(200,255,211)),(254,(48,176,105))):
+        base_colors[index*3:index*3+3] = list(rgb)
+    palette.putpalette(base_colors)
     colors = [255,0,255] + palette.getpalette()[:765]
     colors += [0]*(768-len(colors))
     out = []
@@ -126,8 +141,8 @@ def indexed(frames):
 def main():
     PUBLIC.mkdir(exist_ok=True)
     (PUBLIC/'stills').mkdir(exist_ok=True)
-    plate = read('noir-clean-plate.png')
-    blink = read('noir-blink-reference.png')
+    plate = read('noir-clean-plate-bright-v2.png')
+    blink = read('noir-blink-bright-v2.png')
     reference = read('noir-hoof-reference.png')
     hoof = hoof_sprite(reference)
     eye_mask = Image.new('L',(SIZE,SIZE))
@@ -142,7 +157,9 @@ def main():
     for i,n in enumerate((5,27,61,93,126),1):
         circular(frames[n].resize((256,256),Image.Resampling.LANCZOS)).save(PUBLIC/'stills'/f'noir-{i:02}.png',optimize=True)
     circular(frames[27].resize((512,512),Image.Resampling.LANCZOS)).save(PUBLIC/'noir-polysemy-poster.png',optimize=True)
-    mini = [circular(f.resize((160,160),Image.Resampling.LANCZOS)) for f in frames]
+    # 400 px output retains the working-frame detail instead of discarding it
+    # to the previous 160 px export before the browser scales to the header.
+    mini = [circular(f) for f in frames]
     gif = indexed(mini)
     gif[0].save(PUBLIC/'noir-polysemy.gif',save_all=True,append_images=gif[1:],duration=40,loop=0,transparency=0,disposal=2,optimize=False)
     print(f'{len(frames)} source frames, {len(gif)} GIF inputs')
