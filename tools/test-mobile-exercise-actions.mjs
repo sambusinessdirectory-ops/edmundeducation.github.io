@@ -8,9 +8,9 @@ const systems = ["idiom-system", "proverb-system", "sentence-structure"];
 
 for (const system of systems) {
   const release = {
-    "idiom-system": "20261022-english1",
+    "idiom-system": "20261022-use1",
     "proverb-system": "20260908-loading1",
-    "sentence-structure": "20261022-horse-login1"
+    "sentence-structure": "20261022-horse-login2"
   }[system];
   const [css, html] = await Promise.all([
     readFile(new URL(`${system}.css`, root), "utf8"),

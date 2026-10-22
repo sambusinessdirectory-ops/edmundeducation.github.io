@@ -2,6 +2,8 @@
 (function defineIdiomCompass() {
   const lessons = {
     "idiom-01": {
+      modelEn: "I'll start the ball rolling by asking our first question.",
+      modelZh: "我先提出第一個問題，帶動討論開始。",
       meaningZh: "有人先採取行動，讓討論、活動或計劃真正開始。",
       meaningEn: "Take the first useful step so a shared activity can begin.",
       picture: "靜止的球，需要第一下推動。",
@@ -21,6 +23,8 @@
       }
     },
     "idiom-02": {
+      modelEn: "Shake a leg, Ben—the bus leaves in two minutes!",
+      modelZh: "Ben，快點，巴士兩分鐘後開走！",
       meaningZh: "催促熟悉的人快點行動，通常因為時間緊迫。",
       meaningEn: "Tell someone to hurry, usually in a familiar, spoken setting.",
       picture: "不是叫人搖腿，而是提醒動作快一點。",
@@ -40,6 +44,8 @@
       }
     },
     "idiom-03": {
+      modelEn: "Maya hit the ground running: on her first day, she solved a problem for the team.",
+      modelZh: "Maya 第一天就為團隊解決問題，一上任便有效投入。",
       meaningZh: "剛開始新工作或新項目，就立即有效地投入並取得進展。",
       meaningEn: "Begin a new role or project with immediate, effective action.",
       picture: "一落地便開始跑：沒有長時間適應期。",
@@ -59,6 +65,8 @@
       }
     },
     "idiom-04": {
+      modelEn: "We keep chopping and changing the date, so nobody can make plans.",
+      modelZh: "我們不斷改活動日期，令大家無法安排。",
       meaningZh: "對同一件事反覆改主意或改做法，通常帶點不滿。",
       meaningEn: "Keep changing a decision or plan instead of settling on one.",
       picture: "選項被換來換去，大家難以跟上。",
@@ -78,6 +86,8 @@
       }
     },
     "idiom-05": {
+      modelEn: "Let's think big and turn our class garden into a whole-school project.",
+      modelZh: "讓我們把班級花園擴展為全校項目，放眼更大目標。",
       meaningZh: "敢於規劃更大規模、更長遠或更有抱負的目標。",
       meaningEn: "Plan ambitiously and consider a wider scale of possibility.",
       picture: "把目光從眼前的小範圍，移向更遠的目標。",
@@ -109,9 +119,9 @@
       checksEn: ["Has someone taken the first step?", "Did that step help others move forward?", "Did I keep the ball rolling in order?"],
       choices: {
         2: { promptEn: "Which situation would you describe with start the ball rolling?", optionsEn: ["A group member asks the first question, and everyone begins discussing.", "A student wakes up on time alone every morning.", "A two-hour meeting is coming to an end."], feedbackEn: "The first question opens the discussion and gives others something to build on." },
-        3: { promptEn: "Which wording suits a formal legal report?", optionsEn: ["Use initiate and name the procedure clearly.", "Use this idiom in every paragraph.", "Replace every use of start with this idiom."], feedbackEn: "The idiom is natural in conversation, but a legal report needs the more precise verb." },
-        5: { promptEn: "Your group has not started discussing. What could you do?", optionsEn: ["Ask one clear question that everyone can discuss.", "Comment that time is passing quickly.", "Announce that the discussion is over."], feedbackEn: "A concrete opening question is a useful first step." },
-        6: { promptEn: "When would this idiom be a poor fit?", optionsEn: ["Someone contacts volunteers, and the clean-up begins.", "A team offers its first idea, which others develop.", "One person opens a drawer, and nothing follows."], feedbackEn: "Without a wider process to set in motion, an ordinary verb is clearer." }
+        3: { promptEn: "Which line naturally starts a team discussion?", promptZh: "哪一句能自然地帶動小組討論？", optionsEn: ["I'll start the ball rolling with a question for everyone.", "The legal report must start the ball rolling in every paragraph.", "I started the ball rolling by waking up alone."], options: ["我先問大家一個問題，帶動討論。", "法律報告每段都必須使用這個慣用語。", "我獨自起床，便算帶動了後續進展。"], feedbackEn: "The first line uses the idiom for an opening action that others can build on.", feedback: "第一句用一個可讓其他人接續的行動帶動討論。" },
+        5: { promptEn: "Your group has not started. What could you actually say?", promptZh: "小組還未開始，你可以實際說哪一句？", optionsEn: ["Let me start the ball rolling: which idea should we try first?", "I start the ball rolling every morning by waking up.", "Let's start the ball rolling by ending the discussion now."], options: ["讓我先帶動討論：我們應先試哪個想法？", "我每天起床都算帶動團體活動。", "讓我們結束討論，藉此帶動討論。"], feedbackEn: "The question gives everyone a first point to respond to.", feedback: "這個問題為大家提供了可以回應的第一步。" },
+        6: { promptEn: "Which use of start the ball rolling is misleading?", promptZh: "哪一句誤用了 start the ball rolling？", optionsEn: ["I started the ball rolling by inviting volunteers to the clean-up.", "Our first proposal started the ball rolling for the whole team.", "I started the ball rolling by opening a drawer; nothing else happened."], options: ["我邀請義工，帶動清潔行動展開。", "第一個方案帶動團隊後續工作。", "我打開抽屜，但沒有任何後續進展。"], feedbackEn: "Opening a drawer alone does not set a wider activity in motion.", feedback: "獨自打開抽屜沒有推動更大的活動。" }
       }
     },
     "idiom-02": {
@@ -124,9 +134,9 @@
       checksEn: ["Is there a real need to hurry?", "Am I speaking to someone I know well?", "Did I say a leg, not legs?"],
       choices: {
         2: { promptEn: "When might you naturally say shake a leg?", optionsEn: ["A friend is still packing, and the school bus leaves in two minutes.", "A shop assistant rushes a customer who is walking slowly because of an injury.", "Everyone has arrived an hour early, so there is no rush."], feedbackEn: "There is genuine time pressure, and the listener is a familiar friend." },
-        3: { promptEn: "How should you ask an unfamiliar customer to submit a form soon?", optionsEn: ["Make a polite, specific request and give the deadline.", "Order the customer to shake a leg.", "Say nothing about when the form is needed."], feedbackEn: "This idiom can sound too blunt for someone you do not know." },
-        5: { promptEn: "Your teammate is still changing, and the match is about to start. What would you do?", optionsEn: ["Remind your teammate to hurry and mention the start time.", "Praise your teammate for arriving early.", "Talk only about next week's practice."], feedbackEn: "The reminder makes sense when you explain the immediate time pressure." },
-        6: { promptEn: "Which claim about shake a leg is mistaken?", optionsEn: ["It can be a light reminder to a close teammate.", "It can urge someone to move faster when time is short.", "It is equally polite to everyone in every situation."], feedbackEn: "Its effect depends on your relationship and the situation." }
+        3: { promptEn: "Which use of shake a leg fits the relationship and moment?", promptZh: "哪一句適合當下的關係和情境？", optionsEn: ["Shake a leg, Ben—the bus leaves in two minutes!", "Shake a leg, sir, even though your injured foot hurts.", "Shake a leg, everyone—we arrived an hour early."], options: ["Ben，快點，巴士兩分鐘後開走！", "先生，腳傷也要快點走。", "各位快點，我們已提早一小時到。"], feedbackEn: "A familiar friend and a real deadline make the informal idiom fit.", feedback: "對熟悉朋友說，而且真的趕時間，語氣才合適。" },
+        5: { promptEn: "The match starts in two minutes. What could you actually say to your teammate?", promptZh: "兩分鐘後開賽，你可實際對隊友說哪一句？", optionsEn: ["Shake a leg, Max—the match is about to start!", "Shake a leg, customer; your injury is slowing us down.", "Shake your legs, Max—the match is about to start!"], options: ["Max，快點，比賽快開始了！", "顧客，你的傷令我們太慢，快點。", "把固定短語 a leg 錯改成複數 legs。"], feedbackEn: "The direct reminder fits a teammate you know; keep the fixed phrase a leg.", feedback: "對熟悉隊友可直接催促；固定說法必須是 a leg。" },
+        6: { promptEn: "Which use of shake a leg would sound unkind?", promptZh: "哪一句 shake a leg 聽起來不體貼？", optionsEn: ["Shake a leg, Sam—the train leaves in a minute!", "Shake a leg, team—we need to be on the pitch now!", "Shake a leg, sir, despite your injured leg."], options: ["Sam，快點，火車一分鐘後開走！", "隊友快點，我們現在要上場！", "先生，即使腳受傷也快點。"], feedbackEn: "Do not use this blunt command toward an injured stranger.", feedback: "不要用這種直接催促的語氣對腳傷的陌生人說。" }
       }
     },
     "idiom-03": {
@@ -139,9 +149,9 @@
       checksEn: ["Is this a new beginning?", "Was there useful action straight away?", "Did I keep hit as the past-tense form?"],
       choices: {
         2: { promptEn: "Who has hit the ground running?", optionsEn: ["A new colleague organises the files and solves a problem on day one.", "A new colleague reaches the office door early but does no work.", "Someone continues the same project after a year of work."], feedbackEn: "A new start and immediate, effective work are both present." },
-        3: { promptEn: "In an interview, what would this idiom emphasise about a new role?", optionsEn: ["I can contribute and make progress immediately.", "I can physically run very fast.", "I can arrive at the building early."], feedbackEn: "The phrase praises effective action from the beginning." },
-        5: { promptEn: "A new teammate improves the process on day one. How would you respond?", optionsEn: ["Recognise the useful contribution made right away.", "Comment only on the teammate's shoes.", "Say that the teammate has not begun working."], feedbackEn: "Focus on the immediate result in the new role." },
-        6: { promptEn: "Which situation is only about literal speed?", optionsEn: ["A new leader coordinates an important task immediately.", "A new student helps the team complete its task on day one.", "A new employee runs upstairs but has not begun working."], feedbackEn: "Running up stairs does not mean becoming effective in a new role." }
+        3: { promptEn: "Which interview line uses hit the ground running naturally?", promptZh: "哪一句在面試中自然地用到 hit the ground running？", optionsEn: ["I hope to hit the ground running by contributing to the project from day one.", "I hope to hit the ground running because I can sprint quickly.", "I hit the ground running by arriving at the office door early."], options: ["我希望從第一天就為項目作出貢獻。", "我跑步很快，所以可以用這句。", "我只是提早到辦公室門口，便算有效投入。"], feedbackEn: "The idiom points to useful work immediately after a new start, not physical running or punctuality.", feedback: "這句強調新開始時立即有實際貢獻，不是跑步或準時。" },
+        5: { promptEn: "A teammate improves the process on day one. What could you actually say?", promptZh: "新隊友第一天就改善流程，你可實際說哪一句？", optionsEn: ["You really hit the ground running—you improved the process on your first day!", "You hitted the ground running by running upstairs quickly.", "You hit the ground running because your shoes look new."], options: ["你第一天就改善流程，真是一上任便有效投入！", "hitted 是錯誤的過去式，而且只談字面跑步。", "只因為鞋子新便使用這個慣用語。"], feedbackEn: "The first line uses the correct form hit and names the teammate's immediate contribution.", feedback: "第一句正確使用 hit，並指出隊友一開始的實際貢獻。" },
+        6: { promptEn: "Which use of hit the ground running confuses literal speed with progress?", promptZh: "哪一句把字面速度誤當成有效投入？", optionsEn: ["Our new leader hit the ground running and organised the project on day one.", "The new student hit the ground running by helping the team finish its task immediately.", "The new employee hit the ground running by sprinting upstairs, before doing any work."], options: ["新組長第一天便組織好項目。", "新生一加入便幫團隊完成任務。", "新員工只是跑上樓，尚未開始工作。"], feedbackEn: "Sprinting upstairs is literal movement, not effective work in a new role.", feedback: "跑上樓只是字面上的移動，不是新職位中的有效工作。" }
       }
     },
     "idiom-04": {
@@ -154,9 +164,9 @@
       checksEn: ["Has the plan changed more than once?", "Does it seem inconsistent or unsettled?", "Did both verbs take the matching form?"],
       choices: {
         2: { promptEn: "Which situation shows someone chopping and changing?", optionsEn: ["The event date moves from Monday to Friday and back to Monday.", "A storm forces one date change, and it then stays fixed.", "Someone uses a knife to cut vegetables."], feedbackEn: "Repeated changes back and forth are the key idea." },
-        3: { promptEn: "How would you describe repeated changes neutrally in a formal report?", optionsEn: ["Say that the team changed the plan repeatedly.", "Accuse everyone of chopping and changing.", "Leave out the number of changes entirely."], feedbackEn: "A formal report usually needs direct, objective language." },
-        5: { promptEn: "Your group has changed its plan for the fourth time. What would you say?", optionsEn: ["Explain the disruption and ask the group to settle on a plan.", "Praise this as the very first change.", "Switch to an unrelated topic."], feedbackEn: "The idiom often signals frustration with repeated changes." },
-        6: { promptEn: "Which rule about this idiom is accurate?", optionsEn: ["Any single change is enough to use it.", "It fits repeated or unnecessary changes, not one sensible revision.", "It fits whenever someone uses a knife."], feedbackEn: "One justified change is different from repeatedly changing course." }
+        3: { promptEn: "Which line naturally raises a concern in a team discussion?", promptZh: "哪一句能在小組討論中自然表達憂慮？", optionsEn: ["We keep chopping and changing the date; can we agree on one plan?", "The storm made us chop and change the date once.", "I chop and change vegetables for dinner."], options: ["我們不斷改日期；可否定下來？", "因颱風只改期一次，卻說成反覆修改。", "把這句當成切菜的字面動作。"], feedbackEn: "Repeated changes make the informal criticism meaningful.", feedback: "反覆修改才令這句帶批評意味的慣用語貼切。" },
+        5: { promptEn: "Your group changes its plan for the fourth time. What could you actually say?", promptZh: "小組第四次改計劃，你可實際說哪一句？", optionsEn: ["We keep chopping and changing the plan. Can we settle on one version?", "We chopped and changed once because of the storm, and then stopped.", "Let's chop and change the vegetables before dinner."], options: ["我們不停改計劃，可否定下來？", "颱風只令我們改期一次，之後沒有再改。", "讓我們晚餐前切菜。"], feedbackEn: "The first line names the repeated changes and asks the group to decide.", feedback: "第一句指出反覆改動，再促請小組定案。" },
+        6: { promptEn: "Which use of chop and change exaggerates a single justified change?", promptZh: "哪一句把一次合理改動誇大成反覆修改？", optionsEn: ["They chopped and changed the date three times this week.", "We chopped and changed the date when a storm forced one postponement.", "The team keeps chopping and changing its design every day."], options: ["他們本週改了三次日期。", "颱風令活動只改期一次，卻稱為反覆修改。", "團隊每天都在改設計。"], feedbackEn: "One weather-related postponement is not a pattern of indecision.", feedback: "因天氣合理改期一次，不等於反覆拿不定主意。" }
       }
     },
     "idiom-05": {
@@ -169,9 +179,9 @@
       checksEn: ["Is the goal more ambitious than the immediate task?", "Am I talking about ambition, not physical size?", "Did I change think correctly for the subject and tense?"],
       choices: {
         2: { promptEn: "Who is thinking big?", optionsEn: ["A student expands a class garden idea into a whole-school project.", "A student carefully measures a very large cardboard box.", "A student plans to finish one exercise today."], feedbackEn: "The idea grows from one class to an entire school." },
-        3: { promptEn: "What are you encouraging a classmate to do when you say think big?", optionsEn: ["Look beyond the limits of a small first plan.", "Assume success is certain, so planning is unnecessary.", "Find a physically large object."], feedbackEn: "It encourages ambition, without promising that every plan will succeed." },
-        5: { promptEn: "A classmate wants to open the school website to students across Hong Kong. What next?", optionsEn: ["Recognise the broader goal, then discuss practical steps.", "Comment only on the size of the website icon.", "Say that the plan has already been completed."], feedbackEn: "A big goal still needs a workable path." },
-        6: { promptEn: "Which interpretation of think big is wrong?", optionsEn: ["It can describe a plan with a wider reach.", "It can encourage someone to aim further ahead.", "It means thinking about a large physical object."], feedbackEn: "Big refers to ambition or scale, not an object's dimensions." }
+        3: { promptEn: "Which line uses think big to encourage ambition?", promptZh: "哪一句用 think big 鼓勵更遠大的目標？", optionsEn: ["Let's think big and invite the whole school to join our project.", "Think big about the size of this cardboard box.", "Think big, so we never need to make a plan."], options: ["讓我們放眼更大目標，邀請全校參與。", "把 big 誤解成紙箱的體積。", "以為目標大便毋須計劃。"], feedbackEn: "The first line expands the project's ambition without promising automatic success.", feedback: "第一句擴大項目抱負，但沒有保證一定成功。" },
+        5: { promptEn: "A classmate wants to open the site to students across Hong Kong. What could you actually say?", promptZh: "同伴想把網站開放予全港學生，你可實際說哪一句？", optionsEn: ["You're thinking big by reaching students across Hong Kong. What's our first step?", "You're thinking big because the website icon is huge.", "Think big! That means we can skip the planning."], options: ["你想接觸全港學生，目標很大；第一步是甚麼？", "把目標大誤解為圖示體積大。", "以為放眼更大目標便不用計劃。"], feedbackEn: "The first line recognises the ambitious scale and moves toward a practical plan.", feedback: "第一句肯定宏大目標，再引出實際計劃。" },
+        6: { promptEn: "Which use of think big mistakes physical size for ambition?", promptZh: "哪一句把物件體積誤當成抱負？", optionsEn: ["We should think big and extend the project to more schools.", "She thinks big by planning a community-wide campaign.", "He thinks big because he measures a huge cardboard box."], options: ["把項目擴展到更多學校。", "策劃遍及社區的活動。", "只因量度一個大紙箱，就說他有遠大抱負。"], feedbackEn: "Big describes the scale of an ambition, not the dimensions of a box.", feedback: "big 指抱負的規模，不是紙箱的尺寸。" }
       }
     }
   };

@@ -365,6 +365,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
 
   return {
     apiCalls,
+    compass: window.EDMUND_IDIOM_COMPASS,
     answerInputs,
     controls,
     document,
@@ -901,14 +902,28 @@ test("first five use distinct short compass lessons without example-sentence gal
   }
 });
 
-test("first five teach and test in English with Chinese beneath every option", () => {
-  const { sut } = createFrontendHarness({ withCompass: true });
+test("first five show a real idiom sentence and require idiom use in social signal, response and boundary", () => {
+  const { sut, compass } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
+  const idiomPatterns = {
+    "idiom-01": /start(?:ed|ing|s)? the ball rolling/i,
+    "idiom-02": /shake a leg/i,
+    "idiom-03": /hit the ground running/i,
+    "idiom-04": /chop and change|chops and changes|chopped and changed|chopping and changing/i,
+    "idiom-05": /think big|thinks big|thought big|thinking big/i
+  };
   for (const current of content.lessons.slice(0, 5)) {
+    const guide = compass[current.id];
+    const idiom = idiomPatterns[current.id];
+    assert.match(guide.modelEn, idiom, `${current.id} model must use the idiom in a sentence`);
+    for (const page of [3, 5]) {
+      assert.match(guide.choices[page].optionsEn[guide.choices[page].correct], idiom, `${current.id} page ${page} correct answer must say the idiom`);
+    }
+    assert.ok(guide.choices[6].optionsEn.every((option) => idiom.test(option)), `${current.id} boundary choices must test actual idiom use`);
     sut.openLesson(current.id, { page: 1, attempt: attemptSeed({ lessonId: current.id }) });
     let markup = sut.elements.lessonContent.innerHTML;
-    assert.ok(markup.indexOf("<strong>Take") < markup.indexOf("<p>有人") || current.id !== "idiom-01");
-    assert.match(markup, /class="compass-english"/);
+    assert.match(markup, /HEAR IT IN USE/);
+    assert.match(markup, idiom, `${current.id} page 1 must show the idiom in context`);
     for (const page of [2, 3, 5, 6]) {
       sut.setLessonPage(page);
       markup = sut.elements.lessonContent.innerHTML;
@@ -917,6 +932,7 @@ test("first five teach and test in English with Chinese beneath every option", (
       assert.equal(occurrences(markup, "</strong><small>") >= 3, true);
       assert.match(markup, /class="compass-option-copy"><strong>[A-Za-z]/);
       assert.match(markup, /<\/strong><small>[\u3400-\u9fff]/);
+      if ([3, 5, 6].includes(page)) assert.match(markup, idiom, `${current.id} page ${page} must visibly use the idiom`);
     }
     sut.setLessonPage(7);
     markup = sut.elements.lessonContent.innerHTML;

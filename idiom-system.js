@@ -1439,7 +1439,7 @@ function updateLessonStepper() {
   elements.lessonStepper.classList.toggle("is-compass", Boolean(compass));
   const pilotLabels = [
     ["一眼懂", "Meaning"], ["找線索", "Scene"], ["選語氣", "Tone"], ["拆句式", "Shape"],
-    ["接下一步", "Response"], ["避開誤用", "Boundary"], ["出手檢查", "Ready"], ["五題一組", "Practice"]
+    ["用慣用語回應", "Say it"], ["避開誤用", "Boundary"], ["出手檢查", "Ready"], ["五題一組", "Practice"]
   ];
   elements.lessonStepper.querySelectorAll("[data-step]").forEach((button) => {
     const step = Number(button.dataset.step);
@@ -1489,7 +1489,7 @@ function renderCompassPage(lesson, page) {
     ["找線索", "Spot the clue", "02 · SITUATION"],
     ["選語氣", "Choose the tone", "03 · SOCIAL SIGNAL"],
     ["拆句式", "Build the phrase", "04 · PHRASE SHAPE"],
-    ["接下一步", "Make the next move", "05 · RESPONSE"],
+    ["用慣用語回應", "Say it naturally", "05 · USE THE IDIOM"],
     ["避開誤用", "Know the boundary", "06 · USE WITH CARE"],
     ["出手檢查", "Ready to use", "07 · POCKET CHECK"]
   ];
@@ -1506,6 +1506,7 @@ function renderCompassPage(lesson, page) {
   let body = "";
   const note = (label, en, zh, extra = "") => `<div class="compass-note ${extra}"><span>${label}</span><p class="compass-english">${escapeHtml(en)}</p><p class="compass-chinese">${escapeHtml(zh)}</p></div>`;
   if (page === 1) body = `<div class="compass-intro"><div class="compass-meaning"><span>MEANING · 意思</span><strong>${escapeHtml(guide.meaningEn)}</strong><p>${escapeHtml(guide.meaningZh)}</p></div>${lesson.image ? `<img class="compass-art" src="${escapeHtml(lesson.image)}" alt="${escapeHtml(lesson.imageAlt || lessonEnglishTitle(lesson))}" loading="lazy">` : ""}</div>
+    <div class="compass-usage"><span>HEAR IT IN USE · 實際用法</span><strong>${escapeHtml(guide.modelEn)}</strong><small>${escapeHtml(guide.modelZh)}</small></div>
     <div class="compass-two">${note("MENTAL PICTURE · 畫面記憶", guide.pictureEn, guide.picture)}${note("USE WITH CARE · 別用錯", guide.boundaryEn, guide.boundary)}</div>`;
   else if (page === 4) body = `<div class="compass-shape"><div><span>KEEP · 固定部分</span><strong>${escapeHtml(guide.fixed)}</strong></div><div><span>CHANGE · 可變部分</span><p class="compass-english">${escapeHtml(guide.movingEn)}</p><p class="compass-chinese">${escapeHtml(guide.moving)}</p></div></div>
     <div class="compass-form-list" aria-label="Idiom forms · 慣用語形式">${guide.forms.map((form) => `<span>${escapeHtml(form)}</span>`).join("")}</div><p class="compass-footnote">Practise the phrase shape here; build your own full sentence in the next activity.<small>先掌握短語形式，再於練習中自己組句。</small></p>`;
