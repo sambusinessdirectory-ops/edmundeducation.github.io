@@ -16,8 +16,8 @@ PUBLIC = ROOT / "speaking-eddy"
 STILLS = PUBLIC / "stills"
 WORK = 400
 DELIVERY = 160
-FRAMES = 120
-FRAME_MS = 35
+FRAMES = 160
+FRAME_MS = 40
 
 
 def key(name: str) -> Image.Image:
@@ -66,18 +66,45 @@ def local_motion(image: Image.Image, box: tuple[int, int, int, int],
     return Image.fromarray(np.uint8(np.clip(result, 0, 255)), "RGBA")
 
 
+def local_rotation(image: Image.Image, box: tuple[int, int, int, int],
+                   pivot: tuple[float, float], radius: tuple[float, float],
+                   angle: float) -> Image.Image:
+    """Rotate the raised forearm around its elbow, feathering into the fixed body."""
+    left, top, right, bottom = box
+    source = np.asarray(image, dtype=np.float32)
+    yy, xx = np.mgrid[top:bottom, left:right].astype(np.float32)
+    px, py = pivot
+    rx, ry = radius
+    weight = np.exp(-(((xx - 82) / rx) ** 4 + ((yy - 202) / ry) ** 4))
+    turn = angle * weight
+    cosine, sine = np.cos(turn), np.sin(turn)
+    sx = np.clip(px + (xx - px) * cosine + (yy - py) * sine, 0, WORK - 2)
+    sy = np.clip(py - (xx - px) * sine + (yy - py) * cosine, 0, WORK - 2)
+    x0, y0 = np.floor(sx).astype(np.int32), np.floor(sy).astype(np.int32)
+    fx, fy = (sx - x0)[..., None], (sy - y0)[..., None]
+    sample = (source[y0, x0] * (1 - fx) * (1 - fy)
+              + source[y0, x0 + 1] * fx * (1 - fy)
+              + source[y0 + 1, x0] * (1 - fx) * fy
+              + source[y0 + 1, x0 + 1] * fx * fy)
+    result = source.copy()
+    result[top:bottom, left:right] = sample
+    return Image.fromarray(np.uint8(np.clip(result, 0, 255)), "RGBA")
+
+
+def eased(start: int, end: int, frame: int) -> float:
+    progress = max(0.0, min(1.0, (frame - start) / (end - start)))
+    return progress * progress * (3 - 2 * progress)
+
+
 def laugh_amount(frame: int) -> float:
-    if not 87 <= frame <= 110:
-        return 0.0
-    phase = (frame - 87) / 23
-    return math.sin(math.pi * phase) ** 0.55
+    return eased(103, 118, frame) * (1 - eased(135, 150, frame))
 
 
 def blink_amount(frame: int) -> float:
-    for middle in (26, 70):
+    for middle in (37, 92, 154):
         offset = abs(frame - middle)
-        if offset <= 3:
-            return (1.0, 0.88, 0.48, 0.16)[offset]
+        if offset <= 4:
+            return (1.0, 0.88, 0.62, 0.32, 0.08)[offset]
     return 0.0
 
 
@@ -101,30 +128,34 @@ def steam_layer(frame: int) -> Image.Image:
 
 def render(base: Image.Image, open_key: Image.Image, blink_key: Image.Image,
            laugh_key: Image.Image, mouth: Image.Image, eyes: Image.Image,
-           face: Image.Image, frame: int) -> Image.Image:
+           frame: int) -> Image.Image:
     image = base.copy()
     laugh = laugh_amount(frame)
-    # Three spoken phrases with small pauses before a brief spontaneous laugh.
-    syllable = max(0.0, math.sin(2 * math.pi * frame / 11))
-    speaking = (0.18 + 0.82 * syllable) if frame < 87 or frame > 111 else 0.25
-    if frame % 30 in (0, 1, 2, 27, 28, 29):
-        speaking *= 0.12
-    image = blend_local(open_key, image, mouth, speaking * (1 - laugh))
+    # A calm speaking rhythm: short phrases, closed-mouth pauses, and no chatter
+    # underneath the laugh. The circle and studio remain locked in position.
+    cadence = max(0.0, math.sin(2 * math.pi * (frame - 4) / 32))
+    phrase = (eased(5, 13, frame) * (1 - eased(47, 54, frame))
+              + eased(62, 70, frame) * (1 - eased(98, 105, frame)))
+    speaking = min(1.0, phrase) * (0.12 + 0.76 * cadence) * (1 - laugh)
+    image = blend_local(open_key, image, mouth, speaking)
+    # The laugh changes the mouth and cheeks only. Eddy keeps the same eyes,
+    # avoiding the unrelated, asymmetric laughing-eye key drawing.
+    image = blend_local(laugh_key, image, mouth, laugh)
     image = blend_local(blink_key, image, eyes, blink_amount(frame) * (1 - laugh))
-    image = blend_local(laugh_key, image, face, laugh)
 
-    # Eddy nods twice during laughter; the room, mic, cup and sign do not move.
-    if laugh:
-        nod_phase = (frame - 87) / 23
-        dy = 6.0 * laugh * math.sin(4 * math.pi * nod_phase)
+    # A single shallow nod near the middle of the laugh, rather than two bobs.
+    nod = eased(119, 126, frame) * (1 - eased(131, 139, frame))
+    if nod:
         image = local_motion(image, (108, 42, 316, 238), (208, 142),
-                             (73, 80), 0.6 * dy, dy)
+                             (73, 80), 0.0, 2.0 * nod)
 
-    # A gentle conversational hoof gesture throughout the loop.
-    dy_hoof = -9.0 * math.sin(2 * math.pi * (2 * frame / FRAMES + 0.06))
-    dy_hoof -= 2.0 * laugh
-    image = local_motion(image, (54, 163, 142, 267), (92, 198),
-                         (20, 33), 1.3 * math.sin(2 * math.pi * frame / FRAMES), dy_hoof)
+    # Two conversational gestures pivot at the elbow and settle between ideas.
+    gesture = (eased(15, 28, frame) * (1 - eased(42, 57, frame))
+               + eased(72, 84, frame) * (1 - eased(97, 108, frame)))
+    angle = -0.075 * min(1.0, gesture) - 0.025 * laugh
+    if angle:
+        image = local_rotation(image, (54, 160, 124, 258),
+                               (111, 247), (35, 45), angle)
     image.alpha_composite(steam_layer(frame))
     return image
 
@@ -147,14 +178,13 @@ def main() -> None:
     base, opened, blink, laugh = (key(name) for name in ("closed", "open", "blink", "laugh"))
     mouth = oval_mask(((158, 175, 221, 220),), 3)
     eyes = oval_mask(((140, 114, 171, 158), (213, 113, 247, 158)), 3)
-    face = oval_mask(((137, 110, 249, 220),), 7)
-    frames = [render(base, opened, blink, laugh, mouth, eyes, face, frame)
+    frames = [render(base, opened, blink, laugh, mouth, eyes, frame)
               for frame in range(FRAMES)]
-    for number, frame in enumerate((4, 26, 48, 70, 88, 99, 114), 1):
+    for number, frame in enumerate((8, 37, 58, 88, 116, 128, 152), 1):
         frames[frame].resize((256, 256), Image.Resampling.LANCZOS).save(
             STILLS / f"eddy-{number:02d}.png", optimize=True
         )
-    frames[98].resize((512, 512), Image.Resampling.LANCZOS).save(
+    frames[125].resize((512, 512), Image.Resampling.LANCZOS).save(
         PUBLIC / "eddy-speaking-poster.png", optimize=True
     )
     gif_frames = [gif_palette(frame.resize((DELIVERY, DELIVERY), Image.Resampling.LANCZOS))
