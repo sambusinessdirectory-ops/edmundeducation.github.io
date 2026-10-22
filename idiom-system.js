@@ -481,6 +481,8 @@ function clearSession() {
   state.bookmarkWriteRevision += 1;
   state.bookmarkSaveQueue = Promise.resolve();
   state.visitedLessonPages = new Set();
+  state.pilotSelections = {};
+  state.pilotOpenModels = new Set();
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }

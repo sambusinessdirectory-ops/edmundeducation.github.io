@@ -352,6 +352,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
   renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, handleClick, searchLessons,
   revealCompassQuestion, completeCompassQuestion, reopenCompassQuestion,
   compassReviewedCount, displayAttemptProgress,
+  clearSession,
   questionActivityRows, buildQuestionProgressSeries,
   updateLessonStepper, currentProgressQuestionId, focusExerciseQuestion,
   readExerciseDrafts, syncExerciseButtons, wrongQuestionIds, correctionQuestions,
@@ -948,6 +949,17 @@ test("compass choices reveal feedback only after selection and resume the correc
   sut.openLesson(lesson.id, { page: 8, questionId: lesson.questions[34].id });
   assert.equal(sut.state.exercise.pilotBatchIndex, 6);
   assert.equal(sut.pilotBatchQuestions()[4].id, lesson.questions[34].id);
+});
+
+test("switching accounts clears unsaved Compass choices and opened model answers", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
+  sut.state.pilotSelections[`${lesson.id}:2`] = 1;
+  sut.state.pilotOpenModels.add(lesson.questions[0].id);
+  sut.clearSession();
+  assert.equal(Object.keys(sut.state.pilotSelections).length, 0);
+  assert.equal(sut.state.pilotOpenModels.size, 0);
 });
 
 let failed = 0;
