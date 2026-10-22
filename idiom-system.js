@@ -1524,7 +1524,13 @@ function renderCompassPage(lesson, page) {
     <div class="compass-two">${note("MENTAL PICTURE · 畫面記憶", guide.pictureEn, guide.picture)}${note("USE WITH CARE · 別用錯", guide.boundaryEn, guide.boundary)}</div>`;
   else if (page === 4) body = `<div class="compass-shape"><div><span>KEEP · 固定部分</span><strong>${escapeHtml(guide.fixed)}</strong></div><div><span>CHANGE · 可變部分</span><p class="compass-english">${escapeHtml(guide.movingEn)}</p><p class="compass-chinese">${escapeHtml(guide.moving)}</p></div></div>
     <div class="compass-form-list" aria-label="Idiom forms · 慣用語形式">${guide.forms.map((form) => `<span>${escapeHtml(form)}</span>`).join("")}</div><p class="compass-footnote">Practise the phrase shape here; build your own full sentence in the next activity.<small>先掌握短語形式，再於練習中自己組句。</small></p>`;
-  else if (page === 7) body = `<div class="compass-ready"><p>Before you use it, ask yourself:<small>使用前，問自己：</small></p><ol>${guide.checksEn.map((check, index) => `<li><strong>${escapeHtml(check)}</strong><small>${escapeHtml(guide.checks[index])}</small></li>`).join("")}</ol></div>${note("PRACTICE · 練習方式", "Work through five questions at a time. Your answers are saved as you go.", "每次先完成五題；作答進度會保留。")}`;
+  else if (page === 7) body = `<div class="compass-ready"><p>Before you use it, ask yourself:<small>使用前，問自己：</small></p><ol>${guide.checksEn.map((check, index) => `<li><strong>${escapeHtml(check)}</strong><small>${escapeHtml(guide.checks[index])}</small></li>`).join("")}</ol></div>
+    <section class="question-card compass-read-aloud" data-edmund-prompt-text="${escapeHtml(guide.readAloudEn)}" data-edmund-record-id="${escapeHtml(`${lesson.id}-pocket-read-aloud`)}" data-edmund-record-title="${escapeHtml(`英文慣用語 · Pocket Check · ${lessonEnglishTitle(lesson)}`)}">
+      <span class="compass-read-aloud__label">READ ALOUD · 跟讀練習</span>
+      <p class="compass-read-aloud__instruction">先聽示範，再讀出這句英文並錄下自己的聲音。<small>Listen, then read and record this sentence.</small></p>
+      <div class="question-prompt"><p class="english">${escapeHtml(guide.readAloudEn)}</p><p class="chinese">${escapeHtml(guide.readAloudZh)}</p></div>
+    </section>
+    ${note("PRACTICE · 練習方式", "All questions are on the next page. Start with any five and continue later.", "下一頁會列出所有題目；可先完成任意五題，稍後再繼續。")}`;
   else body = `${page === 3 ? `<div class="compass-two">${note("WHERE IT FITS · 自然場合", guide.whereEn, guide.where)}${note("TONE · 語氣提示", guide.toneEn, guide.tone)}</div>` : ""}
     ${page === 6 ? note("USE WITH CARE · 使用界線", guide.boundaryEn, guide.boundary, "compass-boundary") : ""}
     <section class="compass-decision" aria-labelledby="compass-prompt"><span>YOUR CALL · 作個判斷</span><h3 id="compass-prompt">${escapeHtml(choice.promptEn)}<small>${escapeHtml(choice.promptZh)}</small></h3>
