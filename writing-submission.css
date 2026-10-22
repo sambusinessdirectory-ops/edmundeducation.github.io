@@ -152,11 +152,7 @@ button { color: inherit; }
   50% { opacity: .5; transform: scale(1.18); }
 }
 @media (prefers-reduced-motion: reduce) { .phoebe-writing-lamp-glow { animation: none; } }
-.phoebe-writing-restore { display: none; font: 800 31px/1 Georgia, serif; }
-.phoebe-writing-toggle[data-visible="false"] .phoebe-writing-art { display: none; }
-.phoebe-writing-toggle[data-visible="false"] .phoebe-writing-lamp-glow { display: none; }
-.phoebe-writing-toggle[data-visible="false"] { background: #fff3dd !important; }
-.phoebe-writing-toggle[data-visible="false"] .phoebe-writing-restore { display: block; }
+.phoebe-writing-toggle[data-playing="false"] .phoebe-writing-lamp-glow { display: none; }
 @media (max-width: 700px) {
   .edmund-system-header .edmund-system-header__actions > button.phoebe-writing-toggle {
     flex: 0 0 62px;
