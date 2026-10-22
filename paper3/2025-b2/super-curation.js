@@ -179,6 +179,8 @@
   categoryPages.forEach((entry,index)=>steps.categorize.push({id:`category-${entry.page}`,chapter:'categorize',title:entry.title,page:entry.page,quote:entry.title,target:$(`#page-${entry.page} .page-heading h2`),entry,order:index}));
   for(const mark of noteSheetMarks){if(!mark.target)continue;steps.categorize.push({id:`category-note-${mark.id}`,chapter:'categorize',title:`聆聽筆記表 · ${mark.title}`,page:3,quote:mark.target.textContent.trim(),target:mark.target,noteMark:mark,order:steps.categorize.length});}
   podcastCues.forEach((cue,index)=>{const transcriptTarget=transcriptSentences.find(item=>item.page===cue.page&&normalize(item.span.textContent).includes(normalize(cue.quote)))?.span;const target=cue.field?$(`#notes-${cue.field}`):$('#page-3 .notes-audio audio');steps.podcast.push({id:`cue-${cue.id}`,chapter:'podcast',title:cue.title,page:cue.page,quote:transcriptTarget?.textContent.trim()||cue.quote,target:target||transcriptTarget,transcriptTarget,cue:{...cue,from:index?podcastCues[index-1].at:0},bankTask:['parent-records','letter'].includes(cue.id)?null:cue.task,order:index});});
+  const parentCue=steps.podcast.findIndex(step=>step.id==='cue-parent-records');
+  if(parentCue>=0){const route={page:9,task:'C',name:'Mr Singh 家長職責電郵'};const cue=steps.podcast[parentCue];cue.route=route;steps.podcast.splice(parentCue+1,0,{id:'podcast-parent-source-visit',chapter:'podcast',routeVisit:true,routeFrom:cue.id,route,page:9,quote:'第 9 頁 · Mr Singh 家長職責電郵',title:'跟紅箭頭核對家長職責',target:$('#page-9 .page-heading h2'),task:'C'},{id:'podcast-parent-source-return',chapter:'podcast',routeReturn:true,routeFrom:cue.id,route,page:3,quote:cue.quote,title:'回到聆聽筆記 · 繼續錄音',target:cue.target,task:'C'});}
   for(const task of ['A','B','C']) writingPrompts[task].forEach(([title,lead,hint],index)=>steps.writing.push({id:`writing-${task}-${index}`,chapter:'writing',title:`Task ${task} · ${title}`,quote:title,lead,hint,task,order:index,target:$('#practice')}));
   // Preserve the old order only to migrate existing save-slot positions.
   const pageRank={A:[5,6,7,8,9,10,11],B:[8,9,10,11,5,6,7],C:[9,10,7,5,6,8,11]};
@@ -250,6 +252,44 @@
     if(kind==='strike'){const ink=el('span','curation-pen-line');while(span.firstChild)ink.append(span.firstChild);span.append(ink);}
     steps.podcast.push({id:`transcript-${page}-${index}`,chapter:'podcast',title:`逐句錄音稿 · ${speaker}`,page,quote,target:span,transcript:true,bankTask,kind,order:index,speaker});
   });
+  const essayGuides=window.EDMUND_B2_ESSAY_GUIDES||{};
+  const essaySourceSteps=new Map();
+  function markEssayKeyword(unit,phrase,task){
+    const walker=document.createTreeWalker(unit,NodeFilter.SHOW_TEXT);let node;
+    while((node=walker.nextNode())){
+      if(node.parentElement.closest('.curation-essay-keyword'))continue;
+      const at=node.textContent.toLocaleLowerCase().indexOf(phrase.toLocaleLowerCase());if(at<0)continue;
+      const range=document.createRange();range.setStart(node,at);range.setEnd(node,at+phrase.length);
+      const mark=el('mark',`curation-essay-keyword curation-essay-keyword-${task}`);mark.append(range.extractContents());range.insertNode(mark);return;
+    }
+  }
+  const canonical=value=>normalize(String(value).replace(/[’‘]/g,"'"));
+  const sourceForRef=([page,phrase])=>{
+    const pool=page===4?steps.boss:page<=11?steps.data:steps.podcast.filter(step=>step.transcript);
+    return pool.find(step=>step.page===page&&canonical(step.quote).includes(canonical(phrase))&&!step.confirmed)||null;
+  };
+  for(const task of 'ABC'){
+    const article=$(`#curation-model-${task} article`);if(!article)continue;
+    let ordinal=0;
+    for(const block of $$('h4,h5,p',article)){
+      const fragments=block.matches('p')?(block.textContent.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[]):[block.textContent];
+      block.replaceChildren();
+      for(const fragment of fragments){
+        const unit=el('span','curation-essay-unit',fragment);unit.dataset.essayTask=task;unit.dataset.essayNumber=String(++ordinal);block.append(unit);
+        const guide=essayGuides[task]?.[ordinal-1]||{why:'這句交代本段的資訊，需與任務讀者、目的及已核實資料一致。',structure:'檢查句子在段落中的功能及銜接。'};
+        for(const phrase of guide.keywords||[])markEssayKeyword(unit,phrase,task);
+        const sources=(guide.evidence||[]).map(sourceForRef).filter(Boolean);
+        const base={chapter:'writing',essay:true,task,essayNumber:ordinal,quote:fragment.trim(),target:unit,guide,sources,order:ordinal};
+        steps.writing.push({...base,id:`essay-${task}-${ordinal}`,title:`Task ${task} 範文 · 第 ${ordinal} 句`});
+        sources.forEach((source,sourceIndex)=>{
+          essaySourceSteps.set(source.id,source);
+          steps.writing.push({...base,id:`essay-source-${task}-${ordinal}-${sourceIndex}`,essaySource:true,source,sourceIndex,page:source.page,target:source.target,quote:source.quote,title:`Task ${task} · 核對原文第 ${source.page} 頁`});
+          steps.writing.push({...base,id:`essay-return-${task}-${ordinal}-${sourceIndex}`,essayReturn:true,source,sourceIndex,target:unit,title:`Task ${task} · 回到範文第 ${ordinal} 句`});
+        });
+      }
+    }
+  }
+
   const legacyBossIds=steps.boss.map(step=>step.id);
   const bossAnnotations=[
     {find:'draft an article',marks:[['an article','A'],['the Wellness Month','A']]},
@@ -432,7 +472,7 @@
   const nav=$('.curation-stage-items',stage);for(const [index,chapter] of chapters.entries()){const b=el('button','curation-stage-item');b.type='button';b.dataset.chapter=chapter.id;b.innerHTML=`<span class="curation-stage-dot">${index+1}</span><span class="curation-stage-label">${chapter.short}</span><small class="curation-stage-count"></small>`;nav.append(b);}
   const slotSel=$('#curation-slot');for(let i=1;i<=5;i++){const opt=el('option','',`Slot ${i}`);opt.value=String(i);slotSel.append(opt);}slotSel.value=activeSlot;
   const bankGroups=$('#curation-bank-groups');for(const t of 'ABC'){const d=el('details',`curation-bank-${t}`);d.dataset.task=t;d.innerHTML=`<summary><span>Task ${t}</span><strong data-count>0 句</strong></summary><ol></ol>`;bankGroups.append(d);}
-  let open=false;let helpOpen=false;let animation=null;let cueArmed=false;let noteTyping=false;let noteTimer=null;
+  let open=false;let helpOpen=false;let animation=null;let cueArmed=false;let playbackCue=null;let noteTyping=false;let noteTimer=null;
   const audio=$('#page-3 .notes-audio audio');
   const current=()=>steps[state.chapter][state.positions[state.chapter]];
   const audioBar=el('div','curation-player');audioBar.id='curation-player';audioBar.hidden=true;
@@ -441,8 +481,9 @@
   for(const rate of [0.5,0.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3]){const option=el('option','',`${rate}×`);option.value=String(rate);speedSelect.append(option);}
   speedSelect.value='1';
   const transcriptWindow=el('aside','curation-transcript-window');transcriptWindow.id='curation-transcript-window';transcriptWindow.hidden=true;transcriptWindow.setAttribute('aria-label','浮動錄音稿');
-  transcriptWindow.innerHTML='<div class="curation-transcript-window-head"><strong>錄音稿 · 跟錄音同步</strong><span>拖曳移動 · 四角調整大小</span></div><div class="curation-transcript-window-body"></div>';
+  transcriptWindow.innerHTML='<div class="curation-transcript-window-head"><strong>錄音稿 · 自由捲動</strong><button type="button" class="curation-transcript-translate" aria-pressed="false">中文對照</button><span>拖曳移動 · 四角調整大小</span></div><div class="curation-transcript-window-body"></div>';
   const transcriptBody=$('.curation-transcript-window-body',transcriptWindow);
+  $('.curation-transcript-translate',transcriptWindow).addEventListener('click',event=>{const show=transcriptWindow.classList.toggle('show-translation');event.currentTarget.setAttribute('aria-pressed',String(show));event.currentTarget.textContent=show?'隱藏中文':'中文對照';});
   transcriptSentences.forEach(({span},index)=>{span.dataset.curationTranscriptIndex=String(index);});
   for(let page=12;page<=17;page++){
     const source=$(`#page-${page} .recording-script`);if(!source)continue;
@@ -490,7 +531,7 @@
   let pointerOperation=null;
   transcriptWindow.addEventListener('pointerdown',event=>{
     const corner=event.target.dataset.resize,head=event.target.closest('.curation-transcript-window-head');
-    if(!corner&&!head)return;
+    if(!corner&&!head||event.target.closest('button,select,input'))return;
     event.preventDefault();const r=transcriptWindow.getBoundingClientRect();
     pointerOperation={corner,move:!!head,x:event.clientX,y:event.clientY,left:r.left,top:r.top,width:r.width,height:r.height};
     transcriptWindow.dataset.moved='1';transcriptWindow.setPointerCapture(event.pointerId);
@@ -537,19 +578,6 @@
     transcriptSentences.forEach(({span,at},index)=>{const revealed=open&&at<=cutoff+.12;span.classList.toggle('is-revealed',revealed);floatingSentences[index]?.classList.toggle('is-revealed',revealed);});
     for(const [task,fieldId] of [['A','wellness'],['C','parents']]){const field=$(`#notes-${fieldId}`);if(!field)continue;const reached=podcastCues.some(cue=>cue.task===task&&cue.at<=cutoff+.12&&state.heard.includes(`cue-${cue.id}`));field.classList.toggle(`curation-note-highlight-${task}`,reached&&!!field.value.trim());}
   }
-  let lastFollowedSpeech=null;
-  function followTranscript(){
-    if(!audio||state.chapter!=='podcast'||transcriptWindow.hidden)return;
-    const index=Math.max(0,transcriptSentences.findIndex(entry=>entry.at>=audio.currentTime));
-    const item=transcriptSentences[index]||transcriptSentences.at(-1);
-    if(!item||item.speech===lastFollowedSpeech)return;
-    lastFollowedSpeech=item.speech;
-    const target=floatingSentences[index]?.closest('.speech');if(!target)return;
-    const r=target.getBoundingClientRect(),box=transcriptBody.getBoundingClientRect();
-    const destination=transcriptBody.scrollTop+r.top-box.top-40;
-    const distant=Math.abs(destination-transcriptBody.scrollTop)>Math.max(500,transcriptBody.clientHeight*1.2);
-    transcriptBody.scrollTo({top:destination,behavior:distant?'instant':'smooth'});
-  }
   function writeCueNote(step){
     const cue=step.cue,field=cue?.field?$(`#notes-${cue.field}`):null;if(!field||!cue.note)return;
     const prior=field.value.trimEnd();if(prior.includes(cue.note))return;
@@ -563,18 +591,18 @@
   }
   function completeCue(step){
     if(!state.heard.includes(step.id))state.heard.push(step.id);
-    cueArmed=false;audio.pause();audio.currentTime=step.cue.at;
+    cueArmed=false;playbackCue=null;audio.pause();audio.currentTime=step.cue.at;
     writeCueNote(step);syncGeneratedNotes();syncPodcastMarks();persist();
     $('#curation-save-status').textContent=`錄音停在 ${step.title} · 筆記寫好後按下一步`;
     if(!noteTyping)$('#curation-next').disabled=false;
   }
   function playToCue(step,replay=false){
     if(!audio||!step?.cue)return;
-    const play=()=>{audio.currentTime=replay?step.cue.from:Math.max(0,Math.min(audio.currentTime,step.cue.from));cueArmed=true;lastFollowedSpeech=null;syncGeneratedNotes();syncPodcastMarks();$('#curation-next').disabled=true;audio.play().then(followTranscript).catch(()=>{cueArmed=false;$('#curation-next').disabled=false;$('#curation-save-status').textContent='錄音未能自動播放；請按播放器或「重聽」再試。';});};
+    const play=()=>{audio.currentTime=replay?step.cue.from:Math.max(0,Math.min(audio.currentTime,step.cue.from));cueArmed=true;syncGeneratedNotes();syncPodcastMarks();$('#curation-next').disabled=true;audio.play().catch(()=>{cueArmed=false;$('#curation-next').disabled=false;$('#curation-save-status').textContent='錄音未能自動播放；請按播放器或「重聽」再試。';});};
     if(audio.readyState>=1)play();else{audio.addEventListener('loadedmetadata',play,{once:true});audio.load();}
   }
 
-  const pageLabel=step=>step.cue?'聆聽筆記表 · 會議錄音':step.sourceJump?(step.page===3?'錄音來源 · 第 3 頁':`Data File 第 ${step.page} 頁 · 暫標 Task ${step.tagTask}`):step.page?`Data File ${step.page<=11?`第 ${step.page} 頁`:`附加錄音稿 ${step.page-11}`} · ${step.chapter==='data'&&step.type>=4?`類型 ${step.type} · ${step.type===4?'語氣':step.type===5?'提示':'噪音'}`:step.task?`Task ${step.task}`:step.chapter==='podcast'?'Podcast':''}`:'寫作練習';
+  const pageLabel=step=>step.essaySource?`範文取證 · ${step.page<=11?`Data File 第 ${step.page} 頁`:`錄音稿 ${step.page-11}`}`:step.essay?`Task ${step.task} 參考範文 · 第 ${step.essayNumber} 句`:step.cue?'聆聽筆記表 · 會議錄音':step.sourceJump?(step.page===3?'錄音來源 · 第 3 頁':`Data File 第 ${step.page} 頁 · 暫標 Task ${step.tagTask}`):step.page?`Data File ${step.page<=11?`第 ${step.page} 頁`:`附加錄音稿 ${step.page-11}`} · ${step.chapter==='data'&&step.type>=4?`類型 ${step.type} · ${step.type===4?'語氣':step.type===5?'提示':'噪音'}`:step.task?`Task ${step.task}`:step.chapter==='podcast'?'Podcast':''}`:'寫作練習';
   function explanation(step){
     const box=$('#curation-explanation');box.replaceChildren();$('#curation-step-actions').replaceChildren();
     const add=(text,cls='')=>{const sentences=cls==='curation-translation'?[String(text)]:String(text).split(/(?<=。)(?![」』\]])/u).filter(Boolean);for(const sentence of sentences){const p=el('p',cls,sentence);box.append(p);}};
@@ -618,6 +646,10 @@
       if(step.page===6)add('這是去年的海報。與 2025 年最新決定交叉核對之前，所有活動都只是候選。','curation-caution');
       if(step.page===9 && /think I remember|hanging around|prepare/i.test(step.quote))add('問句或回憶不是事實確認。等 Singh 的回覆才定義家長職責。','curation-caution');
       if(step.record && canBank(step.record))add(step.provisional&&!step.confirmed?'核對最新回覆後再收入證據庫。':'下一步會收進右側證據庫。','curation-result');
+    }else if(step.essay){
+      if(step.essaySource){add(`這個內容點出自第 ${step.page} 頁。右側證據庫以紅線標示已用；原文以深藍線標示已取用，與 Type 6 的紅色淘汰線分開。`,'curation-process');add(step.guide.why);add('先核對原句；下一步返回範文。');}
+      else if(step.essayReturn){add('已回到範文。核對剛才的來源與句子表達，再讀下一句。','curation-process');add(step.guide.structure);}
+      else{add(step.guide.why,'curation-process');add(step.guide.structure);if(step.sources.length)add(`這句使用 ${step.sources.length} 個來源點；按下一步逐一看證據庫與原文。`);else add('這句主要服務文類、段落組織或禮貌語氣，不當作新的事實證據。');}
     }else if(step.chapter==='writing'){
       add(step.lead,'curation-process');add(step.hint);
       if(step.order===2)add('先獨立寫草稿，右側證據庫只供核對內容點。範文不會在寫之前代替你的構思。','curation-caution');
@@ -628,13 +660,48 @@
       const choices=el('fieldset','curation-category-choices');choices.append(el('legend','',`你會先標哪個任務？`));for(const t of 'ABC'){const label=el('label');const input=el('input');input.type='checkbox';input.value=t;input.checked=(Object.hasOwn(state.categories,step.id)?state.categories[step.id]:categoryInitialTasks(step.entry)).includes(t);input.addEventListener('change',()=>{state.categories||={};state.categories[step.id]=$$('input:checked',choices).map(x=>x.value);syncFileStamps(input.checked?{page:step.page,task:t}:null);persist();});label.append(input,document.createTextNode(` Task ${t}`));choices.append(label);}extra.append(choices);const line=el('p','',`讀後分類：${step.entry.tasks.map(t=>`Task ${t}`).join(' + ')}`);if(helpOpen)extra.append(line);
     }
     if(step.cue && audio){const b=el('button','curation-small',`↻ 重聽至 ${Math.floor(step.cue.at/60)}:${String(Math.floor(step.cue.at%60)).padStart(2,'0')}`);b.type='button';b.addEventListener('click',()=>playToCue(step,true));extra.append(b);}
-    if(step.chapter==='writing'){
+    if(step.chapter==='writing'&&!step.essay){
       const model=$(`#curation-model-${step.task}`);
-      if(model){const view=el('button','curation-small',`查看 Task ${step.task} 參考範文`);view.type='button';view.addEventListener('click',()=>{model.open=true;model.scrollIntoView({block:'center',behavior:'smooth'});});extra.append(view);}
+      if(model){const view=el('button','curation-small',`查看 Task ${step.task} 參考範文`);view.type='button';view.addEventListener('click',()=>{model.open=true;openEssay(step.task);});extra.append(view);}
       const area=el('textarea','curation-draft');area.rows=step.order===2?10:5;area.placeholder=`Task ${step.task}：在這裡寫你的${step.order===1?'提綱':'草稿或修訂'}…`;area.value=state.drafts[step.task];area.setAttribute('aria-label',`Task ${step.task} 寫作草稿`);area.addEventListener('input',()=>{state.drafts[step.task]=area.value;count.textContent=`${area.value.trim()?area.value.trim().split(/\s+/).length:0} words`;persist();});extra.append(area);const count=el('small','curation-word-count',`${area.value.trim()?area.value.trim().split(/\s+/).length:0} words`);extra.append(count);
     }
   }
-  function renderBank(){for(const t of 'ABC'){const group=$(`.curation-bank-${t}`);const list=$('ol',group);list.replaceChildren();for(const id of state.evidence[t]){const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(!s)continue;const li=el('li');const b=el('button','',s.quote);b.type='button';b.addEventListener('click',()=>{state.chapter=s.chapter;state.positions[s.chapter]=s.index;render();});li.append(b,el('small','',s.chapter==='podcast'?`錄音稿 ${s.page-11}`:`Data File ${s.page}`));if(s.record?.id==='duncan-henley-emails-12')li.append(el('small','curation-bank-note','營養師講座已取消；只保留嘉年華其他已確認內容。'));if(s.record?.id==='duncan-singh-emails-5')li.append(el('small','curation-bank-note','這句用來釐清分工：準備學生的是老師。'));list.append(li);} $('[data-count]',group).textContent=`${state.evidence[t].length} 句`;}}
+  function usedEssaySources(){
+    const active=current();if(state.chapter!=='writing'||!active?.essay)return new Set();
+    const first=steps.writing.findIndex(step=>step.essay&&step.task===active.task);
+    return new Set(steps.writing.slice(first,state.positions.writing+1).filter(step=>step.essaySource&&step.task===active.task).map(step=>step.source.id));
+  }
+  function renderBank(){
+    const used=usedEssaySources(),currentStep=current();
+    for(const t of 'ABC'){
+      const group=$(`.curation-bank-${t}`),list=$('ol',group);list.replaceChildren();
+      const ids=state.evidence[t].slice();
+      if(state.chapter==='writing')for(const step of steps.writing){if(step.essaySource&&step.task===t&&!ids.includes(step.source.id))ids.push(step.source.id);}
+      for(const id of ids){
+        const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(!s)continue;
+        const li=el('li');li.dataset.sourceId=id;
+        if(used.has(id)){li.classList.add('curation-bank-used');if(currentStep?.essaySource&&currentStep.source.id===id)li.classList.add('curation-bank-used-new');}
+        const b=el('button','',s.quote);b.type='button';b.addEventListener('click',()=>{state.chapter=s.chapter;state.positions[s.chapter]=s.index;render();});
+        li.append(b,el('small','',s.chapter==='podcast'?`錄音稿 ${s.page-11}`:`Data File ${s.page}`));
+        if(s.record?.id==='duncan-henley-emails-12')li.append(el('small','curation-bank-note','營養師講座已取消；只保留嘉年華其他已確認內容。'));
+        if(s.record?.id==='duncan-singh-emails-5')li.append(el('small','curation-bank-note','這句用來釐清分工：準備學生的是老師。'));
+        list.append(li);
+      }
+      $('[data-count]',group).textContent=`${ids.length} 句`;
+      if(currentStep?.essaySource&&currentStep.task===t){const active=$$('li',list).find(li=>li.dataset.sourceId===currentStep.source.id);if(active)requestAnimationFrame(()=>{list.scrollTop=Math.max(0,active.offsetTop-list.offsetTop-list.clientHeight*.32);});}
+    }
+  }
+  function syncEssayMarks(){
+    const used=usedEssaySources(),step=current();
+    for(const [id,source] of essaySourceSteps){source.target.classList.toggle('curation-essay-source-used',used.has(id));source.target.classList.toggle('curation-essay-source-new',step?.essaySource&&step.source.id===id);}
+    $$('.curation-essay-unit').forEach(unit=>{const task=unit.dataset.essayTask;const unitStep=steps.writing.find(item=>item.essay&&!item.essaySource&&!item.essayReturn&&item.task===task&&item.essayNumber===Number(unit.dataset.essayNumber));const visible=state.chapter==='writing'&&step?.essay&&step.task===task&&unitStep&&unitStep.index<=state.positions.writing;unit.classList.toggle('is-revealed',!!visible);unit.classList.toggle('is-current',step?.essay&&step.essayNumber===Number(unit.dataset.essayNumber)&&step.task===task);});
+  }
+  function openEssay(task){
+    for(const other of 'ABC'){$(`#curation-model-${other}`).open=other===task;$(`.curation-bank-${other}`).open=other===task;}
+    const first=steps.writing.find(step=>step.essay&&step.task===task&&!step.essaySource&&!step.essayReturn);
+    if(first){state.chapter='writing';state.positions.writing=first.index;render();}
+  }
+  for(const task of 'ABC')$(`#curation-model-${task} summary`)?.addEventListener('click',()=>setTimeout(()=>{if($(`#curation-model-${task}`).open){if(!open)setOpen(true);openEssay(task);}},0));
   function bossSourceFile(step){return step.sourceJump&&(step.tagTask||step.tagTasks)?{page:step.page,task:step.tagTask,tasks:step.tagTasks}:null;}
   function discoveredPageTask(step){
     if(step.chapter!=='data')return null;
@@ -670,8 +737,8 @@
   let lastArrowKey='';
   function updateRouteArrow(){
     const step=current(),limit=progressCutoff('data');
-    const cue=step?.routeFrom?steps.data.find(item=>item.id===step.routeFrom):steps.data.slice(0,limit+1).findLast(item=>item.route&&!item.routeVisit&&!item.routeReturn);
-    const active=!!(open&&cue&&step?.chapter==='data'&&(step===cue||step.routeFrom===cue.id||step.page===cue.page));
+    const cue=step?.routeFrom?steps[step.chapter].find(item=>item.id===step.routeFrom):steps.data.slice(0,limit+1).findLast(item=>item.route&&!item.routeVisit&&!item.routeReturn);
+    const active=!!(open&&cue&&['data','podcast'].includes(step?.chapter)&&(step===cue||step.routeFrom===cue.id||step.page===cue.page));
     if(!active){routeArrow.setAttribute('hidden','');routeCallout.hidden=true;lastArrowKey='';return;}
     const anchor=step.routeVisit?step.target:cue.target,r=anchor?.getBoundingClientRect();
     if(!r||r.bottom<148||r.top>innerHeight-85){routeArrow.setAttribute('hidden','');routeCallout.hidden=true;return;}
@@ -714,11 +781,12 @@
   function focusSource(step){if(!step?.target)return;if(step.chapter==='podcast'&&step.transcript){const index=transcriptSentences.findIndex(item=>item.span===step.target);const floating=floatingSentences[index];if(floating){const r=floating.getBoundingClientRect(),box=transcriptBody.getBoundingClientRect();transcriptBody.scrollTo({top:transcriptBody.scrollTop+r.top-box.top-40,behavior:'smooth'});}spotlight();return;}const page=step.target.closest('.page');if(page?.hidden){const kind=page.dataset.kind;const filter=$(`[data-filter="${kind}"]`);filter?.click();}const behavior=step.sourceJump||step.routeVisit||step.route||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';if(step.sourceJump||step.routeVisit||step.route){const r=step.target.getBoundingClientRect();window.scrollTo({top:Math.max(0,window.scrollY+r.top-(step.route&&!step.routeVisit?(innerWidth<=620?190:Math.min(410,innerHeight*.42)):(innerWidth<=620?160:180))),behavior:'instant'});}else if(innerWidth<=620){const r=step.target.getBoundingClientRect();window.scrollTo({top:window.scrollY+r.top-200,behavior});}else step.target.scrollIntoView({block:'center',behavior});let until=performance.now()+900;const track=()=>{spotlight();if(performance.now()<until)requestAnimationFrame(track);};requestAnimationFrame(track);}
   let lastRenderedStepId='';
   function render(focus=true,preserveAudio=false){if(!open)return;const step=current();if(!step)return;const stepChanged=lastRenderedStepId!==step.id;helpOpen=false;if(stepChanged&&!preserveAudio)audio?.pause();
+    if(step.essay)for(const task of 'ABC'){$(`#curation-model-${task}`).open=task===step.task;$(`.curation-bank-${task}`).open=task===step.task;}
     if((state.chapter==='boss'||state.chapter==='data')&&!state.visited.includes(step.id))state.visited.push(step.id);
     if(stepChanged&&!preserveAudio&&step.chapter==='podcast'&&step.cue&&audio)audio.currentTime=step.cue.from;
-    syncAudioBar();syncBossMarks();syncDataMarks();syncGeneratedNotes();syncPodcastMarks();syncFileStamps(stampFromStep(step));
+    syncAudioBar();syncBossMarks();syncDataMarks();syncGeneratedNotes();syncPodcastMarks();syncFileStamps(stampFromStep(step));syncEssayMarks();
     $$('.curation-target').forEach(x=>{x.classList.remove('curation-target');x.removeAttribute('data-curation-current');});
-    if(step.target&&step.chapter!=='categorize'&&step.chapter!=='writing'){step.target.classList.add('curation-target');step.target.dataset.curationCurrent=step.chapter==='data'&&step.type===4?'type-4':step.chapter==='data'&&step.type>=5?'neutral':step.task||step.bankTask||step.cue?.task||'neutral';}
+    if(step.target&&step.chapter!=='categorize'&&(step.chapter!=='writing'||step.essay&&!step.essaySource)){step.target.classList.add('curation-target');step.target.dataset.curationCurrent=step.chapter==='data'&&step.type===4?'type-4':step.chapter==='data'&&step.type>=5?'neutral':step.task||step.bankTask||step.cue?.task||'neutral';}
     const stageIndex=chapters.findIndex(ch=>ch.id===state.chapter);
     $$('#curation-stage [data-chapter]').forEach((b,index)=>{const active=index===stageIndex;const done=steps[chapters[index].id].every(s=>state.completed.includes(s.id));b.classList.toggle('active',active);b.classList.toggle('done',done);b.setAttribute('aria-current',active?'step':'false');b.querySelector('.curation-stage-dot').textContent=done?'✓':String(index+1);b.querySelector('.curation-stage-count').textContent=active?`${state.positions[state.chapter]+1}/${steps[state.chapter].length}`:done?'完成':'';});
     $('.curation-stage-fill').style.width=`${stageIndex*20}%`;
@@ -779,6 +847,11 @@
     function catchUpPodcast(){
       if(!open||state.chapter!=='podcast')return;
       syncPlayer();
+      // A replay must pause at its next cue even if that answer was heard before.
+      if(!audio.paused&&playbackCue&&audio.currentTime>=playbackCue.at-.08){
+        const step=steps.podcast.find(item=>item.id===`cue-${playbackCue.id}`);playbackCue=null;
+        if(step){state.positions.podcast=step.index;render(false,true);completeCue(step);if(step.cue.field)focusSource(step);return;}
+      }
       const reached=podcastCues.filter(cue=>cue.at<=audio.currentTime+.06&&!state.heard.includes(`cue-${cue.id}`));
       if(reached.length===1){
         const step=steps.podcast.find(item=>item.id===`cue-${reached[0].id}`);
@@ -787,19 +860,18 @@
         for(const cue of reached)state.heard.push(`cue-${cue.id}`);
         const step=steps.podcast.find(item=>item.id===`cue-${reached.at(-1).id}`);
         if(step){state.positions.podcast=step.index;render(false,true);}
-        audio.pause();cueArmed=false;syncGeneratedNotes();syncPodcastMarks();persist();
+        audio.pause();cueArmed=false;playbackCue=null;syncGeneratedNotes();syncPodcastMarks();persist();
         $('#curation-save-status').textContent=`已按播放位置補上 ${reached.length} 項筆記；可逐欄核對。`;
         $('#curation-next').disabled=false;
         if(step?.cue.field)focusSource(step);
       }else{syncGeneratedNotes();syncPodcastMarks();}
-      followTranscript();
     }
-    audio.addEventListener('play',()=>{syncPlayer();if(!open||state.chapter!=='podcast')return;lastFollowedSpeech=null;followTranscript();});
-    audio.addEventListener('pause',syncPlayer);
+    audio.addEventListener('play',()=>{syncPlayer();if(!open||state.chapter!=='podcast')return;playbackCue=podcastCues.find(cue=>cue.at>audio.currentTime+.015)||null;});
+    audio.addEventListener('pause',()=>{playbackCue=null;syncPlayer();});
     audio.addEventListener('loadedmetadata',syncPlayer);
     audio.addEventListener('ratechange',syncPlayer);
     audio.addEventListener('timeupdate',catchUpPodcast);
-    audio.addEventListener('seeked',()=>{lastFollowedSpeech=null;catchUpPodcast();});
+    audio.addEventListener('seeked',catchUpPodcast);
   }
   window.addEventListener('scroll',spotlight,{passive:true});window.addEventListener('resize',()=>{positionAudioBar();fitTranscriptWindow();spotlight();if(open&&innerWidth<=620&&(state.chapter!=='podcast'||current()?.cue))setTimeout(()=>focusSource(current()),80);});window.visualViewport?.addEventListener('resize',()=>{positionAudioBar();fitTranscriptWindow();spotlight();});
   document.addEventListener('keydown',e=>{if(!open)return;if(e.key==='Escape'&&picker.open){e.preventDefault();picker.close();return;}if(e.key==='Escape'&&$('.learning-question-dialog[open]'))return;if(e.key==='Escape'&&document.activeElement?.tagName!=='TEXTAREA')setOpen(false);});

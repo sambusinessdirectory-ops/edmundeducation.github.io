@@ -59,6 +59,8 @@ const server=http.createServer((req,res)=>{
     assert.ok(await page.locator('.curation-transcript-strike.is-revealed').count()>0,'unneeded transcript sentences receive red strikes during playback');
     assert.ok(await page.locator('#curation-transcript-window .curation-transcript-strike.is-revealed').count()>0,'the floating transcript mirrors live marks');
     assert.equal(await page.locator('#curation-transcript-window').isVisible(),true,'transcript window stays beside the notes');
+    const translate=page.locator('.curation-transcript-translate');assert.equal(await translate.getAttribute('aria-pressed'),'false');await translate.click();assert.equal(await translate.getAttribute('aria-pressed'),'true');assert.equal(await page.locator('#curation-transcript-window .translation:visible').count()>0,true,'Chinese translations can be shown inside the floating transcript');await translate.click();
+    const transcriptTop=await page.locator('.curation-transcript-window-body').evaluate(element=>{element.scrollTop=240;return element.scrollTop;});
     assert.deepEqual(await page.locator('.curation-player-speed option').evaluateAll(options=>options.map(option=>Number(option.value))),[.5,.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3]);
     await page.locator('.curation-player-speed select').selectOption('1.5');
     assert.equal(await page.locator('#page-3 audio').evaluate(audio=>audio.playbackRate),1.5);
@@ -83,6 +85,7 @@ const server=http.createServer((req,res)=>{
         assert.equal(await page.locator('.curation-transcript-C.is-revealed').count(),0,'later Task C transcript remains hidden');
         assert.ok(await page.locator('.curation-transcript-listening.is-revealed').count()>0,'heard slogan is marked in transcript');
       }
+      if(index===14){await page.locator('#curation-next').click();assert.match(await page.locator('#curation-title').innerText(),/跟紅箭頭核對家長職責/);await page.locator('.curation-route-callout:visible').waitFor({timeout:3000});assert.deepEqual(await page.locator('.curation-route-callout:visible > *').allTextContents(),['第 9 頁','Mr Singh 家長職責電郵']);assert.equal(await page.locator('#page-9 .curation-target').count(),1,'Mr Singh route visits the source email');assert.equal(await page.locator('#page-3 audio').evaluate(a=>a.paused),true,'audio remains paused during source visit');await page.locator('#curation-next').click();assert.match(await page.locator('#curation-title').innerText(),/回到聆聽筆記/);await page.waitForFunction(()=>document.querySelector('.curation-route-callout').classList.contains('is-faded'),null,{timeout:3000});assert.equal(await page.locator('#page-3 audio').evaluate(a=>a.paused),true,'audio remains paused during return');}
       if(index<checkpoints.length-1){await page.locator('#curation-next').click();await page.waitForFunction(()=>!document.querySelector('#page-3 audio').paused);}
     }
     assert.ok(await page.locator('.curation-transcript-A.is-revealed').count()>0);
@@ -91,6 +94,11 @@ const server=http.createServer((req,res)=>{
     assert.match(await page.locator('#notes-opening').inputValue(),/13 October[\s\S]*afternoon[\s\S]*Main Hall/);
     await jump('記下最後口號');
     assert.equal(await page.locator('#notes-slogan').inputValue(),'','jumping back removes the system-written slogan');
+    await page.locator('.curation-player-play').click();await page.waitForFunction(()=>!document.querySelector('#page-3 audio').paused);
+    await page.evaluate(()=>{document.querySelector('#page-3 audio').currentTime=69.62;});
+    await page.waitForFunction(()=>{const a=document.querySelector('#page-3 audio');return a.paused&&a.currentTime>=69.75&&a.currentTime<=69.9;},null,{timeout:5000});
+    assert.equal(await page.locator('.curation-transcript-window-body').evaluate(element=>element.scrollTop),transcriptTop,'real playback leaves the floating transcript at the reader’s chosen scroll position');
+    await jump('開幕日期改為');await jump('記下最後口號');assert.equal(await page.locator('#notes-slogan').inputValue(),'','replay pause also rewinds when returning to the earlier step');
     await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=69.8;audio.dispatchEvent(new Event('timeupdate'));});
     assert.match(await page.locator('#notes-slogan').inputValue(),/One Games, One Asia/,'seeking forward restores the heard slogan');
     await page.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=31;audio.dispatchEvent(new Event('timeupdate'));});
@@ -127,6 +135,7 @@ const server=http.createServer((req,res)=>{
     await seekPage.goto(`http://127.0.0.1:${server.address().port}/paper3/2025-b2/index.html?curation=1`,{waitUntil:'domcontentloaded'});
     await seekPage.locator('[data-chapter="podcast"]').click();
     await seekPage.waitForFunction(()=>document.querySelector('#page-3 audio').readyState>=1);
+    const transcriptScrollBefore=await seekPage.locator('.curation-transcript-window-body').evaluate(element=>element.scrollTop);
     await seekPage.evaluate(()=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=479;audio.dispatchEvent(new Event('timeupdate'));});
     assert.match(await seekPage.locator('#notes-slogan').inputValue(),/One Games, One Asia/,'forward seek restores earlier answers');
     assert.match(await seekPage.locator('#notes-wellness').inputValue(),/Relax and Recover/,'late playback fills intervening Wellness Month notes');
@@ -135,8 +144,7 @@ const server=http.createServer((req,res)=>{
     assert.ok(noteRect.top>0&&noteRect.top<900,'late playback brings the written parent notes into view');
     assert.ok(await seekPage.locator('#page-12').evaluate(element=>element.getBoundingClientRect().top)>900,'late playback does not force-scroll the main document to the transcript');
     await seekPage.waitForTimeout(550);
-    const transcriptPosition=await seekPage.locator('.curation-transcript-window-page:last-child').evaluate(element=>{const r=element.getBoundingClientRect(),box=element.closest('.curation-transcript-window-body').getBoundingClientRect();return {pageTop:r.top,windowBottom:box.bottom};});
-    assert.ok(transcriptPosition.pageTop<transcriptPosition.windowBottom,'a large seek immediately reaches the relevant final transcript page');
+    assert.equal(await seekPage.locator('.curation-transcript-window-body').evaluate(element=>element.scrollTop),transcriptScrollBefore,'audio progress does not force-scroll the floating transcript');
     const head=await seekPage.locator('.curation-transcript-window-head').boundingBox();
     await seekPage.mouse.move(head.x+45,head.y+18);await seekPage.mouse.down();await seekPage.mouse.move(head.x-35,head.y+48);await seekPage.mouse.up();
     const moved=await seekPage.locator('#curation-transcript-window').boundingBox();

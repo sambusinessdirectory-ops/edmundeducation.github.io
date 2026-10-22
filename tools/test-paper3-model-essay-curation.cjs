@@ -1,0 +1,65 @@
+const fs=require('node:fs');
+const path=require('node:path');
+const http=require('node:http');
+const assert=require('node:assert/strict');
+const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..');
+const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.m4a':'audio/mp4'};
+const server=http.createServer((req,res)=>{
+  const file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://local').pathname));
+  if(!file.startsWith(root+'/'))return res.writeHead(403).end();
+  fs.readFile(file,(error,data)=>{
+    if(error)return res.writeHead(404).end();
+    res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});res.end(data);
+  });
+});
+(async()=>{
+  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+  const browser=await chromium.launch({headless:true});
+  try{
+    const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+    const errors=[];page.on('pageerror',error=>errors.push(error.message));
+    await page.goto(`http://127.0.0.1:${server.address().port}/paper3/2025-b2/index.html?curation=1`,{waitUntil:'domcontentloaded'});
+    assert.equal(await page.getByText('正式 Question-Answer Book 尚未提供').count(),0);
+    for(const [task,count] of [['A',14],['B',17],['C',16]]){
+      assert.equal(await page.locator(`#curation-model-${task} .curation-essay-unit`).count(),count,`Task ${task} has a guided unit for every heading and sentence`);
+      await page.locator(`#curation-model-${task} summary`).click();
+      await page.waitForFunction(task=>document.querySelector(`.curation-bank-${task}`).open,task);
+      for(const other of 'ABC')assert.equal(await page.locator(`.curation-bank-${other}`).evaluate(element=>element.open),other===task,`Task ${task} opens only its own inventory`);
+      assert.match(await page.locator('#curation-title').innerText(),new RegExp(`Task ${task} 範文`));
+    }
+    await page.locator('#curation-step-jump').click();
+    assert.equal(await page.locator('.curation-picker-option').count(),183,'all 62 evidence links create source and return steps');
+    const jump=async query=>{if(!await page.locator('#curation-picker').evaluate(element=>element.open))await page.locator('#curation-step-jump').click();await page.locator('#curation-picker-search').fill(query);await page.locator('.curation-picker-option:visible').first().click();};
+    await jump('Task B 範文 · 第 3 句');
+    const sentence=page.locator('#curation-model-B .curation-essay-unit[data-essay-number="3"]');
+    assert.ok(await sentence.locator('.curation-essay-keyword-B').count()>0);
+    await page.locator('#curation-next').click();
+    assert.match(await page.locator('#curation-source').innerText(),/第 4 頁/);
+    assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),1,'used source gets a red bank strike');
+    const original=page.locator('#page-4 .curation-essay-source-used').first();
+    assert.equal(await original.count(),1,'source sentence gets a navy strike');
+    assert.match(await original.evaluate(element=>getComputedStyle(element).backgroundImage),/linear-gradient/);
+    await page.locator('#curation-next').click();
+    assert.match(await page.locator('#curation-title').innerText(),/回到範文第 3 句/);
+    await page.waitForFunction(()=>{const e=document.querySelector('#curation-model-B .curation-essay-unit[data-essay-number="3"]');const r=e.getBoundingClientRect();return r.top>0&&r.top<innerHeight;},null,{timeout:5000});
+    await jump('Task B 範文 · 第 2 句');
+    assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'going backward removes future use strikes');
+    assert.equal(await page.locator('#page-4 .curation-essay-source-used').count(),0,'going backward removes future navy strikes');
+    await jump('Task C 範文 · 第 5 句');
+    await page.locator('#curation-next').click();
+    assert.match(await page.locator('#curation-source').innerText(),/第 10 頁/);
+    assert.ok(await page.locator('.curation-bank-C li.curation-bank-used').count()>=1,'Task C evidence through this sentence is visibly used');
+    assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'direct Task C jump does not pre-use Task B evidence');
+    assert.deepEqual(errors,[]);
+    const motion=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});
+    await motion.goto(`http://127.0.0.1:${server.address().port}/paper3/2025-b2/index.html?curation=1`,{waitUntil:'domcontentloaded'});
+    await motion.locator('#curation-model-B summary').click();
+    await motion.locator('#curation-step-jump').click();await motion.locator('#curation-picker-search').fill('Task B 範文 · 第 3 句');await motion.locator('.curation-picker-option:visible').first().click();
+    await motion.locator('#curation-next').click();
+    assert.match(await motion.locator('#page-4 .curation-essay-source-new').first().evaluate(element=>getComputedStyle(element).animationName),/curation-essay-source-ink/,'navy source-use strike draws left to right');
+    assert.match(await motion.locator('.curation-bank-B li.curation-bank-used-new button').first().evaluate(element=>getComputedStyle(element).animationName),/curation-essay-bank-ink/,'red bank-use strike draws left to right');
+    await motion.close();
+    console.log('Model essay curation browser test passed');
+  }finally{await browser.close();server.close();}
+})().catch(error=>{console.error(error);server.close();process.exitCode=1;});
