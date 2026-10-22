@@ -1072,8 +1072,11 @@ body > .site-header.edmund-system-header {
 .compass-mc-option.is-correct span { color: #fff; background: #27875d; }
 .compass-mc-option:disabled { cursor: default; opacity: .68; }
 .compass-mc-option.is-correct:disabled { opacity: 1; }
-.compass-mc-feedback { min-height: 22px; margin: 12px 0 0; color: #8e3e36; font-size: 16.8px; font-weight: 750; }
-.compass-question.is-correct .compass-mc-feedback { color: #176342; }
+.compass-mc-feedback:not(:empty) { margin: 14px 0 0; border: 1px solid #ead9cd; border-radius: 14px; padding: 14px 17px; color: #833d32; background: #fff8f2; font-size: 16.8px; line-height: 1.5; }
+.compass-mc-feedback:empty { display: none; }
+.compass-question.is-correct .compass-mc-feedback { border-color: #bddfcd; color: #16543a; background: #f0faf3; }
+.compass-mc-feedback ul { display: grid; gap: 5px; margin: 8px 0 0; padding-left: 22px; }
+.compass-mc-feedback li { padding-left: 2px; }
 @media (prefers-reduced-motion: reduce) { .compass-mc-option { transition: none; } }
 .info-page { min-height: 480px; border: 1px solid var(--line); border-radius: 22px; padding: clamp(25px, 4vw, 52px); background: rgba(255, 255, 255, .84); }
 .info-page-header { max-width: 900px; }

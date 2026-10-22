@@ -948,8 +948,10 @@ test("first-five practice uses single-answer English choices, including ten them
     assert.equal(questions.length, 60, `${current.id} must have 60 practice questions`);
     assert.equal(new Set(questions.slice(50).map((question) => question.theme)).size, 10, `${current.id} must cover ten themes`);
     for (const question of questions) {
-      const { options, correctAt } = sut.compassMcOptions(question, current);
+      const { options, rationales, correctAt } = sut.compassMcOptions(question, current);
       assert.equal(options.length, 3);
+      assert.equal(rationales.length, 3, `${question.id}: explain every option`);
+      assert.ok(rationales.every(Boolean), `${question.id}: no explanation may be blank`);
       assert.equal(new Set(options).size, 3, `${question.id}: all three options must differ`);
       assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
       assert.equal(options[correctAt], question.answer);
@@ -993,6 +995,25 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
   assert.equal(sut.state.exercise.correctIds.length, 1, "bonus ID must not enter the protected 50-question catalog");
   assert.equal(sut.compassReviewedCount(lesson), 2);
+});
+
+test("chop and change practice explains A versus C without revealing the key early", async () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  const choppingLesson = content.lessons[3];
+  const first = choppingLesson.questions[0];
+  const { options, correctAt } = sut.compassMcOptions(first, choppingLesson);
+  assert.equal(correctAt, 2);
+  assert.match(options[0], /chopping or changing/i);
+  assert.match(options[2], /chopping and changing/i);
+  sut.openLesson(choppingLesson.id, { page: 8, attempt: attemptSeed({ lessonId: choppingLesson.id, totalCount: choppingLesson.questions.length }) });
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /Replacing “and” with “or”/);
+  await sut.answerCompassMcQuestion(first.id, 0);
+  assert.match(sut.elements.lessonContent.innerHTML, /Replacing “and” with “or” breaks the expression/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /“Chop and change” is a fixed idiom for repeatedly changing plans/);
+  await sut.answerCompassMcQuestion(first.id, correctAt);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>A:<\/b> The fixed idiom is “chop and change\.” Replacing “and” with “or”/);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>C:<\/b> “Chop and change” is a fixed idiom/);
 });
 
 test("Compass choices resume the first unanswered batch and legacy self-reviews do not count as correct", () => {
