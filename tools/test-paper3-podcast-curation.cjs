@@ -48,6 +48,16 @@ const server=http.createServer((req,res)=>{
     await page.locator('#curation-step-actions button').click();
     await page.waitForFunction(()=>document.querySelector('#page-3 audio').readyState>=1);
     assert.equal(await page.locator('#curation-player').evaluate(element=>getComputedStyle(element).position),'fixed','Podcast controls stay in the viewport');
+    assert.equal(await page.locator('.curation-player-pins-toggle').getAttribute('aria-pressed'),'false','pause markers start hidden');
+    await page.locator('.curation-player-pins-toggle').click();
+    assert.equal(await page.locator('.curation-player-pins-toggle').getAttribute('aria-pressed'),'true','marker button reveals pause points');
+    assert.equal(await page.locator('.curation-player-pin').count(),19,'every answer boundary is pinned');
+    assert.match(await page.locator('.curation-player-pin').first().getAttribute('aria-label'),/記下最後口號/);
+    assert.equal(await page.locator('.curation-player-pins').isVisible(),true);
+    await page.locator('.curation-player-pins-toggle').click();
+    assert.equal(await page.locator('.curation-player-pins').isVisible(),false,'the button can hide pause points again');
+    await page.locator('.curation-player-pins-toggle').click();
+
     const columns=await page.evaluate(()=>({notes:document.querySelector('#page-3 .note-sheet').getBoundingClientRect().right,transcript:document.querySelector('#curation-transcript-window').getBoundingClientRect().left,parent:document.querySelector('#curation-player').parentElement===document.body}));
     assert.ok(columns.transcript>=columns.notes&&columns.parent,'notes and transcript appear side by side with controls outside scrolling pages');
     assert.deepEqual(await page.locator('.curation-resize-handle').evaluateAll(handles=>handles.map(handle=>handle.dataset.resize)),['nw','ne','sw','se'],'all four transcript corners can resize');
@@ -75,9 +85,10 @@ const server=http.createServer((req,res)=>{
     ];
     for(const [index,[at,field,answer]] of checkpoints.entries()){
       assert.equal(await page.locator('#curation-next').isDisabled(),true,`cue ${index+1} holds Next until its audio answer`);
-      await page.evaluate(time=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=time;audio.dispatchEvent(new Event('timeupdate'));},at);
-      await page.waitForFunction(()=>document.querySelector('#page-3 audio').paused);
+      await page.evaluate(time=>{const audio=document.querySelector('#page-3 audio');audio.currentTime=time-.18;},at);
+      await page.waitForFunction(time=>{const audio=document.querySelector('#page-3 audio');return audio.paused&&Math.abs(audio.currentTime-time)<.12;},at,{timeout:5000});
       assert.equal(await page.locator('#curation-next').isDisabled(),false,`cue ${index+1} releases Next after writing`);
+      assert.equal(await page.locator('.curation-player-pin.is-heard').count(),index+1,`cue ${index+1} is marked after the actual audio stop`);
       if(field)assert.ok((await page.locator(`#notes-${field}`).inputValue()).includes(answer),`cue ${index+1} wrote ${answer} into ${field}`);
       if(index===4)assert.equal(await page.locator('#notes-wellness').evaluate(element=>getComputedStyle(element).backgroundColor),'rgb(217, 245, 246)','Task A note field receives cyan after its first useful answer');
       if(index===14)assert.equal(await page.locator('#notes-parents').evaluate(element=>getComputedStyle(element).backgroundColor),'rgb(252, 225, 231)','Task C note field receives rose after its first useful answer');

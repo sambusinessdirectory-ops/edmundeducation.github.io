@@ -39,7 +39,9 @@ const server=http.createServer((req,res)=>{
     assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),1,'used source gets a red bank strike');
     const original=page.locator('#page-4 .curation-essay-source-used').first();
     assert.equal(await original.count(),1,'source sentence gets a navy strike');
-    assert.match(await original.evaluate(element=>getComputedStyle(element).backgroundImage),/linear-gradient/);
+    assert.ok(await original.locator('.curation-navy-ink').count()>0,'navy ink wraps visible source text');
+    assert.equal(await original.evaluate(element=>{const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT);let node;while((node=walker.nextNode()))if(node.textContent.trim()&&!node.parentElement.closest('.curation-navy-ink'))return false;return true;}),true,'navy ink crosses highlighted keywords as well as plain text');
+    assert.match(await original.locator('.curation-navy-ink').first().evaluate(element=>getComputedStyle(element).backgroundImage),/linear-gradient/);
     await page.locator('#curation-next').click();
     assert.match(await page.locator('#curation-title').innerText(),/回到範文第 3 句/);
     await page.waitForFunction(()=>{const e=document.querySelector('#curation-model-B .curation-essay-unit[data-essay-number="3"]');const r=e.getBoundingClientRect();return r.top>0&&r.top<innerHeight;},null,{timeout:5000});
@@ -57,7 +59,7 @@ const server=http.createServer((req,res)=>{
     await motion.locator('#curation-model-B summary').click();
     await motion.locator('#curation-step-jump').click();await motion.locator('#curation-picker-search').fill('Task B 範文 · 第 3 句');await motion.locator('.curation-picker-option:visible').first().click();
     await motion.locator('#curation-next').click();
-    assert.match(await motion.locator('#page-4 .curation-essay-source-new').first().evaluate(element=>getComputedStyle(element).animationName),/curation-essay-source-ink/,'navy source-use strike draws left to right');
+    assert.match(await motion.locator('#page-4 .curation-essay-source-new .curation-navy-ink').first().evaluate(element=>getComputedStyle(element).animationName),/curation-essay-source-ink/,'navy source-use strike draws left to right');
     assert.match(await motion.locator('.curation-bank-B li.curation-bank-used-new button').first().evaluate(element=>getComputedStyle(element).animationName),/curation-essay-bank-ink/,'red bank-use strike draws left to right');
     await motion.close();
     console.log('Model essay curation browser test passed');

@@ -290,6 +290,13 @@
     }
   }
 
+  // Strike the foreground text itself; a line on the source container can sit
+  // underneath nested coloured highlights and be almost invisible.
+  function prepareEssayInk(target){
+    const walker=document.createTreeWalker(target,NodeFilter.SHOW_TEXT);const nodes=[];let node;
+    while((node=walker.nextNode()))if(node.textContent.trim()&&!node.parentElement.closest('.curation-navy-ink'))nodes.push(node);
+    for(const textNode of nodes){const ink=el('span','curation-navy-ink');ink.textContent=textNode.textContent;textNode.replaceWith(ink);}
+  }
   const legacyBossIds=steps.boss.map(step=>step.id);
   const bossAnnotations=[
     {find:'draft an article',marks:[['an article','A'],['the Wellness Month','A']]},
@@ -423,6 +430,7 @@
       }
     }
   }
+  for(const source of essaySourceSteps.values())prepareEssayInk(source.target);
   function progressCutoff(chapter){
     const active=chapters.findIndex(item=>item.id===state.chapter),target=chapters.findIndex(item=>item.id===chapter);
     return active<target?-1:active>target?steps[chapter].length-1:state.positions[chapter];
@@ -476,10 +484,13 @@
   const audio=$('#page-3 .notes-audio audio');
   const current=()=>steps[state.chapter][state.positions[state.chapter]];
   const audioBar=el('div','curation-player');audioBar.id='curation-player';audioBar.hidden=true;
-  audioBar.innerHTML='<span class="curation-player-title">會議錄音 · Podcast</span><button type="button" class="curation-player-play" aria-label="播放錄音">▶</button><input class="curation-player-seek" type="range" min="0" max="518" step="0.1" value="0" aria-label="錄音進度"><output class="curation-player-time">0:00 / 8:38</output><label class="curation-player-speed">速度 <select aria-label="播放速度"></select></label>';
+  audioBar.innerHTML='<span class="curation-player-title">會議錄音 · Podcast</span><button type="button" class="curation-player-play" aria-label="播放錄音">▶</button><button type="button" class="curation-player-pins-toggle" aria-pressed="false" aria-controls="curation-player-pins">顯示停頓點</button><span class="curation-player-timeline"><input class="curation-player-seek" type="range" min="0" max="518" step="0.1" value="0" aria-label="錄音進度"><span class="curation-player-pins" id="curation-player-pins" hidden></span></span><output class="curation-player-time">0:00 / 8:38</output><label class="curation-player-speed">速度 <select aria-label="播放速度"></select></label>';
   const speedSelect=$('.curation-player-speed select',audioBar);
   for(const rate of [0.5,0.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3]){const option=el('option','',`${rate}×`);option.value=String(rate);speedSelect.append(option);}
   speedSelect.value='1';
+  const cuePins=$('.curation-player-pins',audioBar);
+  podcastCues.forEach((cue,index)=>{const pin=el('span','curation-player-pin');pin.dataset.cueId=cue.id;pin.setAttribute('role','img');pin.setAttribute('aria-label',`${index+1}. ${cue.title} · ${Math.floor(cue.at/60)}:${String(Math.floor(cue.at%60)).padStart(2,'0')}`);pin.title=pin.getAttribute('aria-label');cuePins.append(pin);});
+  $('.curation-player-pins-toggle',audioBar).addEventListener('click',event=>{const showing=cuePins.hidden;cuePins.hidden=!showing;event.currentTarget.setAttribute('aria-pressed',String(showing));event.currentTarget.textContent=showing?'隱藏停頓點':'顯示停頓點';});
   const transcriptWindow=el('aside','curation-transcript-window');transcriptWindow.id='curation-transcript-window';transcriptWindow.hidden=true;transcriptWindow.setAttribute('aria-label','浮動錄音稿');
   transcriptWindow.innerHTML='<div class="curation-transcript-window-head"><strong>錄音稿 · 自由捲動</strong><button type="button" class="curation-transcript-translate" aria-pressed="false">中文對照</button><span>拖曳移動 · 四角調整大小</span></div><div class="curation-transcript-window-body"></div>';
   const transcriptBody=$('.curation-transcript-window-body',transcriptWindow);
@@ -500,6 +511,7 @@
     $('.curation-player-play',audioBar).textContent=audio.paused?'▶':'❚❚';
     $('.curation-player-play',audioBar).setAttribute('aria-label',audio.paused?'播放錄音':'暫停錄音');
     const seek=$('.curation-player-seek',audioBar);seek.max=String(Number.isFinite(audio.duration)?audio.duration:518);seek.value=String(Math.min(audio.currentTime,Number(seek.max)));
+    const duration=Number(seek.max);for(const [index,pin] of $$('.curation-player-pin',cuePins).entries()){pin.style.left=`${Math.min(100,podcastCues[index].at/duration*100)}%`;pin.classList.toggle('is-heard',state.heard.includes(`cue-${podcastCues[index].id}`)&&podcastCues[index].at<=audio.currentTime+.12);}
     $('.curation-player-time',audioBar).textContent=`${fmtTime(audio.currentTime)} / ${fmtTime(audio.duration||518)}`;
     speedSelect.value=String(audio.playbackRate);
   }
@@ -592,7 +604,7 @@
   function completeCue(step){
     if(!state.heard.includes(step.id))state.heard.push(step.id);
     cueArmed=false;playbackCue=null;audio.pause();audio.currentTime=step.cue.at;
-    writeCueNote(step);syncGeneratedNotes();syncPodcastMarks();persist();
+    writeCueNote(step);syncGeneratedNotes();syncPodcastMarks();syncPlayer();persist();
     $('#curation-save-status').textContent=`錄音停在 ${step.title} · 筆記寫好後按下一步`;
     if(!noteTyping)$('#curation-next').disabled=false;
   }
@@ -852,6 +864,9 @@
         const step=steps.podcast.find(item=>item.id===`cue-${playbackCue.id}`);playbackCue=null;
         if(step){state.positions.podcast=step.index;render(false,true);completeCue(step);if(step.cue.field)focusSource(step);return;}
       }
+      // A normal play run must visit every answer boundary. Only an intentional
+      // seek while paused may restore several already-passed notes at once.
+      if(!audio.paused){syncGeneratedNotes();syncPodcastMarks();return;}
       const reached=podcastCues.filter(cue=>cue.at<=audio.currentTime+.06&&!state.heard.includes(`cue-${cue.id}`));
       if(reached.length===1){
         const step=steps.podcast.find(item=>item.id===`cue-${reached[0].id}`);
@@ -860,8 +875,8 @@
         for(const cue of reached)state.heard.push(`cue-${cue.id}`);
         const step=steps.podcast.find(item=>item.id===`cue-${reached.at(-1).id}`);
         if(step){state.positions.podcast=step.index;render(false,true);}
-        audio.pause();cueArmed=false;playbackCue=null;syncGeneratedNotes();syncPodcastMarks();persist();
-        $('#curation-save-status').textContent=`已按播放位置補上 ${reached.length} 項筆記；可逐欄核對。`;
+        cueArmed=false;playbackCue=null;syncGeneratedNotes();syncPodcastMarks();syncPlayer();persist();
+        $('#curation-save-status').textContent=`已手動跳至 ${fmtTime(audio.currentTime)}，補上先前 ${reached.length} 項筆記；播放時仍會在其餘停頓點逐點停下。`;
         $('#curation-next').disabled=false;
         if(step?.cue.field)focusSource(step);
       }else{syncGeneratedNotes();syncPodcastMarks();}
