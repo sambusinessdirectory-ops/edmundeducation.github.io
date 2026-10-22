@@ -28,6 +28,11 @@ export function selectCompanion(owner, character, storage = globalThis.localStor
   if (!owner || !VALID.has(character) || !storage) return false;
   try {
     storage.setItem(companionKey(owner), JSON.stringify({ character }));
-    return true;
   } catch { return false; }
+  try {
+    if (typeof CustomEvent === 'function') {
+      globalThis.dispatchEvent?.(new CustomEvent('edmund-companion-change', { detail: { owner, character } }));
+    }
+  } catch { /* Saving the selection still succeeded. */ }
+  return true;
 }

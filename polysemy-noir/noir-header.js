@@ -2,9 +2,9 @@
   const button = document.querySelector('[data-noir-polysemy-toggle]');
   if (!button) return;
   const image = button.querySelector('img');
-  const gif = 'polysemy-noir/noir-polysemy.gif?v=20261022-1';
+  const gif = 'polysemy-noir/noir-polysemy.gif?v=20261022-2';
   const stills = Array.from({ length: 5 }, (_, index) =>
-    `polysemy-noir/stills/noir-${String(index + 1).padStart(2, '0')}.png?v=20261022-1`
+    `polysemy-noir/stills/noir-${String(index + 1).padStart(2, '0')}.png?v=20261022-2`
   );
   const storageKey = 'edmund-polysemy-noir-playing';
   let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;

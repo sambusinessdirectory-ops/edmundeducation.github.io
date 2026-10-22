@@ -1242,11 +1242,31 @@
     return button;
   }
 
+  const COIN_CHARACTERS = new Set(["eddy", "phoebe", "elsie", "noir", "celeste"]);
+
+  async function refreshCoinArtwork() {
+    const chip = document.querySelector("[data-edmund-coin-wallet]");
+    const student = studentSessionCandidate();
+    if (!chip || !student) return;
+    let character = "eddy";
+    try {
+      const companion = await import("./shared-companion.mjs");
+      character = companion.selectedCompanion(student.id) || character;
+    } catch { /* Keep Eddie when storage or module loading is unavailable. */ }
+    if (studentSessionCandidate()?.token !== student.token || !COIN_CHARACTERS.has(character)) return;
+    const portrait = chip.querySelector(".edmund-coin-mark img");
+    if (portrait && chip.dataset.coinCharacter !== character) {
+      portrait.src = `/assets/edmund-coins/${character}-${character === "eddy" ? "v3" : "v1"}.webp`;
+      chip.dataset.coinCharacter = character;
+    }
+  }
+
   async function refreshCoinWallet() {
     const actions=document.querySelector(".edmund-system-header__actions");if(!actions)return;
     let chip=actions.querySelector("[data-edmund-coin-wallet]");const student=studentSessionCandidate();
     if(!student||student.impersonatedByAdmin){chip?.remove();return;}
-    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="13.5"/><path d="M9 25c.7-2.5 2.4-4.4 4.8-5.5l-.2-4-2.1-1.6 1.4-1.7 3.1.9 1.9-1.6 3.1 1.2 2 3.2-1.6 1.5-.6 3.2 2 4.4h-3l-1.7-3.2-3.6.5-2.8 2.7z"/><circle class="edmund-coin-eye" cx="18.1" cy="14.5" r=".7"/></svg></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",openCoinWallet);actions.prepend(chip);}
+    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><img src="/assets/edmund-coins/eddy-v3.webp" width="44" height="44" alt="" decoding="async"></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",openCoinWallet);actions.prepend(chip);}
+    void refreshCoinArtwork();
     let config=window.EDMUND_SUPABASE;if(!config?.url||!config?.anonKey){try{await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src=new URL("/supabase-config.js",location.origin).href;script.onload=resolve;script.onerror=reject;document.head.append(script);});config=window.EDMUND_SUPABASE;}catch{return;}}if(!config?.url||!config?.anonKey)return;
     chip.querySelector("strong").textContent="…";
     try{const response=await fetch(`${config.url}/rest/v1/rpc/eddie_farm_snapshot`,{method:"POST",cache:"no-store",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token}),signal:AbortSignal.timeout(9000)});if(!response.ok)throw Error();const data=await response.json();if(studentSessionCandidate()?.token!==student.token)return;chip.querySelector("strong").textContent=Number(data.balance||0).toLocaleString();}catch{chip.querySelector("strong").textContent="—";}
@@ -1291,6 +1311,8 @@
     void refreshCoinWallet();
     window.addEventListener("edmund-student-session-change",()=>void refreshCoinWallet());
     window.addEventListener("edmund-coin-wallet-refresh",()=>void refreshCoinWallet());
+    window.addEventListener("edmund-companion-change",()=>void refreshCoinArtwork());
+    window.addEventListener("storage",event=>{if(event.key?.startsWith("edmund-companion-v1:")||event.key?.startsWith("edmund-lesson-map-v1:"))void refreshCoinArtwork();});
     window.addEventListener("focus",()=>void refreshCoinWallet());
     document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")void refreshCoinWallet();});
     window.setInterval(()=>{if(document.visibilityState==="visible")void refreshCoinWallet();},30000);
