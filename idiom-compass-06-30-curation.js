@@ -197,6 +197,20 @@
     ["notes","slides"],["without","with"],["with","without"],["topic","poem"],
     ["pay","leave"],["salary","bonus"],["workers","managers"],["manager","assistant"]
   ];
+  // Broad noun swaps can make an answer ungrammatical ("a office") or
+  // nonsensical ("time disappeared from the till"). Only use short details
+  // whose substitution keeps the sentence's grammar and actor intact.
+  const safeFactOriginals = new Set([
+    "today", "tomorrow", "tonight", "yesterday", "now", "later", "immediately",
+    "early", "late", "before", "after", "first", "last",
+    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",
+    "morning", "afternoon", "evening", "night", "red", "blue", "green", "yellow",
+    "left", "right", "open", "closed", "finished", "unfinished", "ready", "unprepared",
+    "cheap", "expensive", "affordable", "unaffordable", "free", "costly",
+    "clear", "unclear", "safe", "risky", "calm", "angry", "quiet", "noisy",
+    "true", "false", "correct", "incorrect", "won", "lost", "started",
+    "with", "without", "tested", "untested", "confirmed", "disputed"
+  ]);
   function factualFoils(question, lesson) {
     const answer = String(question.answer || "");
     const prompt = String(question.prompt || "");
@@ -207,6 +221,7 @@
     const seenOriginals = new Set();
     const actorTerms = new Set(["teacher", "student", "manager", "customer", "coach", "captain", "leader", "worker", "workers", "staff", "seller", "buyer", "friend", "stranger", "brother", "sister", "cousins", "neighbours", "relatives", "players", "children", "family"]);
     for (const [original, replacement] of factContrasts) {
+      if (!safeFactOriginals.has(original)) continue;
       if (actorTerms.has(original.toLocaleLowerCase())) continue;
       const pattern = new RegExp(`\\b${original}\\b`, "ig");
       if (!new RegExp(`\\b${original}\\b`, "i").test(prompt) || !new RegExp(`\\b${original}\\b`, "i").test(answer)) continue;
