@@ -1982,18 +1982,19 @@ input:focus-visible,
   max-height: 70px;
 }
 
-.header-mascot {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: min(72px, 6vw);
+.site-header.edmund-system-header .header-mascot {
+  display: block;
+  position: static;
+  flex: 0 0 68px;
+  width: 68px;
+  height: 68px;
   aspect-ratio: 1;
   padding: 0;
   border: 0;
   background: transparent;
   cursor: pointer;
   filter: drop-shadow(0 4px 6px rgba(22, 60, 85, .16));
-  transform: translate(-50%, -50%);
+  transform: none;
 }
 
 .header-mascot img {
@@ -3673,10 +3674,6 @@ button:disabled {
 }
 
 @media (max-width: 1120px) {
-  .header-mascot {
-    display: none;
-  }
-
   .login-view {
     grid-template-columns: minmax(0, 1fr) minmax(340px, .72fr);
     gap: 28px;
@@ -3694,6 +3691,12 @@ button:disabled {
     position: static;
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header.edmund-system-header .header-mascot {
+    display: none;
   }
 }
 
