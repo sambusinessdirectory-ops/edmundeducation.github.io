@@ -1664,3 +1664,45 @@ button {
 }
 
 .paper3-search-panel{padding:22px;margin:20px 0;border:1px solid #bed5ca;border-radius:16px;background:#f6faf8}.paper3-search-panel label{display:grid;gap:8px;font-weight:700}.paper3-search-panel input{font:inherit;padding:12px;border:1px solid #9abaaa;border-radius:8px}.paper-search-result{padding:18px 0;border-top:1px solid #ccddd5}.paper-search-result p{white-space:pre-line}.paper-search-result a{display:inline-block;text-decoration:none}
+
+/* The Paper 3 controls remain live within the illuminated doorway. */
+.login-panel.paper-panel {
+  isolation: isolate;
+  overflow: visible;
+  min-height: 980px;
+  padding: 330px 29% 155px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.login-panel.paper-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("dse-paper3-open-door-login-frame-v1.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 20px 24px #10264029);
+}
+.login-panel .login-heading { grid-template-columns: 1fr; gap: 5px; }
+.login-panel .section-number { color: #ab813d; font-size: 2rem; opacity: 1; }
+.login-panel .eyebrow { color: #345d8b; }
+.login-panel .login-heading h2 { color: #142e4d; font-size: clamp(1.5rem, 2.3vw, 2rem); line-height: 1.15; }
+.login-panel .login-heading p:last-child { margin-top: 8px; color: #43546a; font-size: .82rem; line-height: 1.5; }
+.login-panel .login-form { gap: 12px; margin-top: 20px; }
+.login-panel .field { gap: 6px; }
+.login-panel .field > span:first-child { color: #263d58; }
+.login-panel .field input { min-height: 48px; padding: 10px 11px; border-color: #7187a0; background: #fffffff0; }
+.login-panel .field input:focus { border-color: #275fa5; box-shadow: 0 0 0 4px #275fa52b; }
+.login-panel .password-field input { padding-right: 70px; }
+.login-panel .password-field button { color: #1e4b80; background: #e3eafa; }
+.login-panel .form-status { color: #43546a; }
+.login-panel .form-status[data-state="error"] { color: #9a3737; }
+.login-panel .login-button { min-height: 48px; padding: 10px 8px; border-color: #1d406c; background: linear-gradient(120deg, #152f54, #235792); box-shadow: 0 5px 12px #1026402e; }
+.login-panel .login-button:hover { border-color: #244f86; background: linear-gradient(120deg, #214c80, #356aab); }
+.login-panel .account-note { margin-top: 15px; color: #43546a; font-size: .73rem; line-height: 1.4; }
+@media(max-width:620px) {
+  .login-panel.paper-panel { min-height: 1120px; padding: 360px 25% 170px; }
+  .login-panel.paper-panel::before { background-size: 130% 100%; }
+}
