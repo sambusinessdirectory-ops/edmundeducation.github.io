@@ -229,7 +229,7 @@ function renderDseQuestionTypes() {
     .sort((a,b) => b.year - a.year || ({A:0,B1:1,B2:2}[a.section] - {A:0,B1:1,B2:2}[b.section]));
   const count = papers.reduce((total,paper) => total + paper.matches.length,0);
   status.textContent = `${selected.en} · ${selected.zh}：${count} 題，分佈於 ${papers.length} 份試卷。點選題號即可開始。`;
-  results.innerHTML = papers.map(paper => `<section class="dse-question-type-paper"><div><strong>${paper.year} Part ${escapeHtml(paper.section)}</strong><span>${escapeHtml(paper.title)}</span></div><div class="dse-question-type-numbers">${paper.matches.map(question => `<button type="button" data-dse-type-paper="${escapeHtml(paper.id)}" data-dse-type-question="${question.number}" aria-label="${paper.year} Part ${escapeHtml(paper.section)} 第 ${question.number} 題">Q${question.number}</button>`).join('')}</div></section>`).join('');
+  results.innerHTML = papers.map(paper => `<section class="dse-question-type-paper" data-part="${escapeHtml(paper.section)}"><div class="dse-question-type-paper__stone"><strong>${paper.year} Part ${escapeHtml(paper.section)}</strong><span>${escapeHtml(paper.title)}</span></div><div class="dse-question-type-numbers">${paper.matches.map(question => `<button type="button" data-dse-type-paper="${escapeHtml(paper.id)}" data-dse-type-question="${question.number}" aria-label="${paper.year} Part ${escapeHtml(paper.section)} 第 ${question.number} 題">Q${question.number}</button>`).join('')}</div></section>`).join('');
 }
 async function loadArticleData(id = ARTICLE_ID) {
   await loadCatalogue();
