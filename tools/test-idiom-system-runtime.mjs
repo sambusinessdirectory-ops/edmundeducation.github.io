@@ -937,6 +937,12 @@ test("first five show a real idiom sentence and require idiom use in social sign
     markup = sut.elements.lessonContent.innerHTML;
     assert.match(markup, /Before you use it, ask yourself/);
     assert.equal(occurrences(markup, "</strong><small>"), 3);
+    assert.match(guide.readAloudEn, idiom, `${current.id} reading sentence must use the lesson idiom`);
+    assert.notEqual(guide.readAloudEn, guide.modelEn, `${current.id} needs a new sentence before practice`);
+    assert.ok(renderedText(markup).includes(guide.readAloudEn), `${current.id} reading sentence must appear on Pocket Check`);
+    assert.match(markup, /class="question-card compass-read-aloud"[^>]+data-edmund-prompt-text=/);
+    assert.match(markup, /data-edmund-record-id="idiom-0[1-5]-pocket-read-aloud"/);
+    assert.match(markup, /READ ALOUD · 跟讀練習/);
   }
 });
 

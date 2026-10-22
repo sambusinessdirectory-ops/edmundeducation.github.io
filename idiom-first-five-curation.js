@@ -4,6 +4,8 @@
     "idiom-01": {
       modelEn: "I'll start the ball rolling by asking our first question.",
       modelZh: "我先提出第一個問題，帶動討論開始。",
+      readAloudEn: "I'll start the ball rolling by sharing a simple plan for our school fair.",
+      readAloudZh: "我會先分享一個校園嘉年華的簡單計劃，帶動大家開始籌備。",
       meaningZh: "有人先採取行動，讓討論、活動或計劃真正開始。",
       meaningEn: "Take the first useful step so a shared activity can begin.",
       picture: "靜止的球，需要第一下推動。",
@@ -25,6 +27,8 @@
     "idiom-02": {
       modelEn: "Shake a leg, Ben—the bus leaves in two minutes!",
       modelZh: "Ben，快點，巴士兩分鐘後開走！",
+      readAloudEn: "Shake a leg, Mia, or we'll miss the start of the concert!",
+      readAloudZh: "Mia，快點，不然我們會錯過音樂會的開場！",
       meaningZh: "催促熟悉的人快點行動，通常因為時間緊迫。",
       meaningEn: "Tell someone to hurry, usually in a familiar, spoken setting.",
       picture: "不是叫人搖腿，而是提醒動作快一點。",
@@ -46,6 +50,8 @@
     "idiom-03": {
       modelEn: "Maya hit the ground running: on her first day, she solved a problem for the team.",
       modelZh: "Maya 第一天就為團隊解決問題，一上任便有效投入。",
+      readAloudEn: "Our new captain hit the ground running and organised a training session on her first day.",
+      readAloudZh: "新隊長第一天就安排好訓練，一上任便積極而有效地投入。",
       meaningZh: "剛開始新工作或新項目，就立即有效地投入並取得進展。",
       meaningEn: "Begin a new role or project with immediate, effective action.",
       picture: "一落地便開始跑：沒有長時間適應期。",
@@ -67,6 +73,8 @@
     "idiom-04": {
       modelEn: "We keep chopping and changing the date, so nobody can make plans.",
       modelZh: "我們不斷改活動日期，令大家無法安排。",
+      readAloudEn: "If we keep chopping and changing the meeting time, nobody will know when to arrive.",
+      readAloudZh: "如果我們不斷更改會議時間，大家便不知道何時到場。",
       meaningZh: "對同一件事反覆改主意或改做法，通常帶點不滿。",
       meaningEn: "Keep changing a decision or plan instead of settling on one.",
       picture: "選項被換來換去，大家難以跟上。",
@@ -88,6 +96,8 @@
     "idiom-05": {
       modelEn: "Let's think big and turn our class garden into a whole-school project.",
       modelZh: "讓我們把班級花園擴展為全校項目，放眼更大目標。",
+      readAloudEn: "Let's think big and create a reading programme for every school in the district.",
+      readAloudZh: "讓我們放眼更大目標，為區內每間學校設計閱讀計劃。",
       meaningZh: "敢於規劃更大規模、更長遠或更有抱負的目標。",
       meaningEn: "Plan ambitiously and consider a wider scale of possibility.",
       picture: "把目光從眼前的小範圍，移向更遠的目標。",
