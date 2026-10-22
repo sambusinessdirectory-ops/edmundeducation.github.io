@@ -997,22 +997,24 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(sut.compassReviewedCount(lesson), 2);
 });
 
-test("chop and change practice explains A versus C without revealing the key early", async () => {
+test("chop and change practice uses meaningful distractors and explains them after selection", async () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
   const choppingLesson = content.lessons[3];
   const first = choppingLesson.questions[0];
   const { options, correctAt } = sut.compassMcOptions(first, choppingLesson);
   assert.equal(correctAt, 2);
-  assert.match(options[0], /chopping or changing/i);
+  assert.match(options[0], /has not changed his plan once/i);
+  assert.match(options[1], /made his final choice yesterday/i);
   assert.match(options[2], /chopping and changing/i);
   sut.openLesson(choppingLesson.id, { page: 8, attempt: attemptSeed({ lessonId: choppingLesson.id, totalCount: choppingLesson.questions.length }) });
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /Replacing “and” with “or”/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /The original says he has changed it several times/);
   await sut.answerCompassMcQuestion(first.id, 0);
-  assert.match(sut.elements.lessonContent.innerHTML, /Replacing “and” with “or” breaks the expression/);
+  assert.match(sut.elements.lessonContent.innerHTML, /The original says he has changed it several times/);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /“Chop and change” is a fixed idiom for repeatedly changing plans/);
   await sut.answerCompassMcQuestion(first.id, correctAt);
-  assert.match(sut.elements.lessonContent.innerHTML, /<b>A:<\/b> The fixed idiom is “chop and change\.” Replacing “and” with “or”/);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>A:<\/b> This says Daniel has not changed his plan at all/);
+  assert.match(sut.elements.lessonContent.innerHTML, /<b>B:<\/b> This says Daniel has already made a final choice/);
   assert.match(sut.elements.lessonContent.innerHTML, /<b>C:<\/b> “Chop and change” is a fixed idiom/);
 });
 

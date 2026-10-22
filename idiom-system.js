@@ -2027,6 +2027,15 @@ function questionHtml(question) {
 function compassMcFoils(question, lesson) {
   const answer = String(question.answer || "");
   const lessonId = String(lesson?.id || "");
+  if (question.id === "idiom-04-q01" && lessonId === "idiom-04") {
+    return {
+      foils: [
+        "Daniel is still considering his weekend options, but he has not changed his plan once.",
+        "Daniel changed his weekend plan several times, but he made his final choice yesterday."
+      ],
+      detailKind: "contradiction"
+    };
+  }
   const formFoil = {
     "idiom-01": () => answer.replace(/\b(started|starts|start|starting) the ball rolling\b/i, (_, verb) => {
       const replacement = { started: "kept", starts: "keeps", start: "keep", starting: "keeping" }[verb.toLowerCase()];
@@ -2063,6 +2072,7 @@ function compassMcOptions(question, lesson = getLesson()) {
   const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 3;
   const { foils, detailKind } = compassMcFoils(question, lesson);
   const lessonId = String(lesson?.id || "");
+  const isDanielQuestion = lessonId === "idiom-04" && question.id === "idiom-04-q01";
   const reasons = {
     "idiom-01": {
       correct: "“Start the ball rolling” means take the first step that sets an activity in motion.",
@@ -2096,8 +2106,8 @@ function compassMcOptions(question, lesson = getLesson()) {
     }
   }[lessonId] || {};
   const entries = [
-    { text: foils[0], reason: reasons.form || "This changes the idiom's meaning or fixed wording." },
-    { text: foils[1], reason: reasons[detailKind] || "This changes a key detail of the original meaning." }
+    { text: foils[0], reason: isDanielQuestion ? "This says Daniel has not changed his plan at all. The original says he has changed it several times." : reasons.form || "This changes the idiom's meaning or fixed wording." },
+    { text: foils[1], reason: isDanielQuestion ? "This says Daniel has already made a final choice. The original says he still has not decided." : reasons[detailKind] || "This changes a key detail of the original meaning." }
   ];
   entries.splice(correctAt, 0, { text: question.answer, reason: reasons.correct || "This keeps the original meaning and uses the idiom naturally." });
   return { options: entries.map((entry) => entry.text), rationales: entries.map((entry) => entry.reason), correctAt };
