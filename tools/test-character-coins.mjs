@@ -12,7 +12,7 @@ const nav = readFileSync(join(root, 'shared-system-nav.js'), 'utf8');
 test('every selectable map companion has a usable coin asset', () => {
   for (const character of characters) {
     const version = character === 'eddy' ? 'v3' : 'v1';
-    const file = join(root, 'assets', 'edmund-coins', `${character}-${version}.webp`);
+    const file = join(root, 'edmund-coins', `${character}-${version}.webp`);
     const header = readFileSync(file).subarray(0, 12);
     assert.equal(header.toString('ascii', 0, 4), 'RIFF', file);
     assert.equal(header.toString('ascii', 8, 12), 'WEBP', file);
@@ -52,7 +52,7 @@ test('pages request the current shared navigation assets', () => {
   for (const name of readdirSync(root).filter(name => name.endsWith('.html'))) {
     const html = readFileSync(join(root, name), 'utf8');
     if (html.includes('shared-system-nav.js?v=')) {
-      assert.ok(html.includes('shared-system-nav.js?v=20261022-character-coins1'), name);
+      assert.ok(html.includes('shared-system-nav.js?v=20261022-character-coins2'), name);
     }
     if (html.includes('shared-system-nav.css?v=')) {
       assert.ok(html.includes('shared-system-nav.css?v=20261022-character-coins1'), name);

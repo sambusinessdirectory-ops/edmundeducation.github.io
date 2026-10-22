@@ -1256,7 +1256,7 @@
     if (studentSessionCandidate()?.token !== student.token || !COIN_CHARACTERS.has(character)) return;
     const portrait = chip.querySelector(".edmund-coin-mark img");
     if (portrait && chip.dataset.coinCharacter !== character) {
-      portrait.src = `/assets/edmund-coins/${character}-${character === "eddy" ? "v3" : "v1"}.webp`;
+      portrait.src = `/edmund-coins/${character}-${character === "eddy" ? "v3" : "v1"}.webp`;
       chip.dataset.coinCharacter = character;
     }
   }
@@ -1265,7 +1265,7 @@
     const actions=document.querySelector(".edmund-system-header__actions");if(!actions)return;
     let chip=actions.querySelector("[data-edmund-coin-wallet]");const student=studentSessionCandidate();
     if(!student||student.impersonatedByAdmin){chip?.remove();return;}
-    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><img src="/assets/edmund-coins/eddy-v3.webp" width="44" height="44" alt="" decoding="async"></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",openCoinWallet);actions.prepend(chip);}
+    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><img src="/edmund-coins/eddy-v3.webp" width="44" height="44" alt="" decoding="async"></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",openCoinWallet);actions.prepend(chip);}
     void refreshCoinArtwork();
     let config=window.EDMUND_SUPABASE;if(!config?.url||!config?.anonKey){try{await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src=new URL("/supabase-config.js",location.origin).href;script.onload=resolve;script.onerror=reject;document.head.append(script);});config=window.EDMUND_SUPABASE;}catch{return;}}if(!config?.url||!config?.anonKey)return;
     chip.querySelector("strong").textContent="…";
