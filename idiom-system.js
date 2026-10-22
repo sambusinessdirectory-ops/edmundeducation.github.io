@@ -2024,19 +2024,44 @@ function questionHtml(question) {
   </article>`;
 }
 
+function compassMcFoils(question, lesson) {
+  const answer = String(question.answer || "");
+  const lessonId = String(lesson?.id || "");
+  const formFoil = {
+    "idiom-01": () => answer.replace(/\b(started|starts|start|starting) the ball rolling\b/i, (_, verb) => {
+      const replacement = { started: "kept", starts: "keeps", start: "keep", starting: "keeping" }[verb.toLowerCase()];
+      return `${verb[0] === verb[0].toUpperCase() ? replacement[0].toUpperCase() + replacement.slice(1) : replacement} the ball rolling`;
+    }),
+    "idiom-02": () => answer.replace(/shake a leg/i, (phrase) => phrase[0] === "S" ? "Slow down" : "slow down"),
+    "idiom-03": () => answer.replace(/the ground running/i, "the ground walking"),
+    "idiom-04": () => answer.replace(/chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es|e)?/i, (phrase) => phrase.replace(/ and /i, " or ")),
+    "idiom-05": () => answer.replace(/\b(thinking|thinks|think|thought) big\b/i, (_, verb) => `${verb} small`)
+  }[lessonId]?.() || "";
+  const contradiction = {
+    "idiom-01": ["after the activity was already well under way", "even though no action followed and nothing else began"],
+    "idiom-02": ["even though there was no reason to hurry", "when everyone had plenty of time and no deadline"],
+    "idiom-03": ["although no useful work began until weeks later", "even though arriving early was the only action taken"],
+    "idiom-04": ["even though the plan changed only once for a good reason", "although the decision stayed exactly the same throughout"],
+    "idiom-05": ["although the goal remained one tiny routine task", "only because the object in question was physically large"]
+  }[lessonId] || [];
+  const ending = answer.match(/[.!?]$/)?.[0] || ".";
+  const isConditionalOrNegative = /\b(?:if|unless|would|could|might|may|can|should|although|not|never|without|no one|nobody|cannot|can't|couldn't|won't|wouldn't|didn't|don't|doesn't|wasn't|weren't)\b/i.test(answer);
+  const alternateForm = {
+    "idiom-01": () => answer.replace(/the ball rolling/i, "the ball moving"),
+    "idiom-02": () => answer.replace(/shake a leg/i, (phrase) => phrase[0] === "S" ? "Shake both legs" : "shake both legs"),
+    "idiom-03": () => answer.replace(/the ground running/i, "the ground racing"),
+    "idiom-04": () => answer.replace(/chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es|e)?/i, (phrase) => phrase.replace(/ and /i, " then ")),
+    "idiom-05": () => answer.replace(/\b(thinking|thinks|think|thought) big\b/i, (_, verb) => `${verb} large`)
+  }[lessonId]?.() || "";
+  const detailFoil = isConditionalOrNegative && alternateForm
+    ? alternateForm
+    : `${answer.replace(/[.!?]$/, "")}, ${contradiction[(Number(question.number || 1) + Number(lessonId.slice(-2))) % 2]}${ending}`;
+  return [formFoil, detailFoil];
+}
+
 function compassMcOptions(question, lesson = getLesson()) {
-  const candidates = compassPracticeQuestions(lesson)
-    .filter((candidate) => candidate.id !== question.id && candidate.answer !== question.answer);
-  const meaningfulWords = (value) => new Set(String(value || "").toLowerCase().match(/[a-z]{4,}/g)?.filter((word) => !["ground", "running", "ball", "rolling", "shake", "chop", "change", "think", "thinking", "started", "start", "keeps"].includes(word)) || []);
-  const cueWords = meaningfulWords(`${question.prompt} ${question.answer}`);
-  const ranked = candidates.map((candidate) => {
-    const overlap = [...meaningfulWords(candidate.answer)].filter((word) => cueWords.has(word)).length;
-    return { answer: candidate.answer, overlap, id: candidate.id };
-  }).sort((a, b) => a.overlap - b.overlap || a.id.localeCompare(b.id)).slice(0, 20);
-  const rotation = (Number(question.number || 1) * 7) % 10;
-  const distractors = [ranked[rotation], ranked[10 + rotation]];
   const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 3;
-  const options = distractors.map((item) => item.answer);
+  const options = compassMcFoils(question, lesson);
   options.splice(correctAt, 0, question.answer);
   return { options, correctAt };
 }
@@ -2049,7 +2074,7 @@ function compassQuestionHtml(question) {
   const bookmarked = !question.bonus && isBookmarked(state.lessonId, question.id);
   return `<article class="question-card compass-question ${complete ? "is-correct" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || "")}" data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`英文慣用語 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}${question.theme ? ` · ${escapeHtml(question.theme)}` : ""}${complete ? " · 答對 ✓" : ""}</span>${question.bonus ? '<span class="compass-bonus-label">EXTRA PRACTICE</span>' : `<button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>`}</div>
-    <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p>${question.promptZh ? `<p class="chinese">${escapeHtml(question.promptZh)}</p>` : ""}<p class="compass-choice-hint">Choose the sentence that uses <strong>${escapeHtml(lessonEnglishTitle(lesson))}</strong> naturally in this situation.</p></div>
+    <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p>${question.promptZh ? `<p class="chinese">${escapeHtml(question.promptZh)}</p>` : ""}<p class="compass-choice-hint">Which rewrite keeps the original meaning and uses the lesson idiom naturally?</p></div>
     <div class="compass-mc-options" role="group" aria-label="Question ${escapeHtml(question.number)}: choose one English sentence">${options.map((option, index) => `<button class="compass-mc-option ${complete && index === correctAt ? "is-correct" : selection === index ? "is-wrong" : ""}" type="button" data-compass-mc-choice="${escapeHtml(question.id)}" data-compass-mc-index="${index}" aria-pressed="${complete ? index === correctAt : selection === index}" ${complete ? "disabled" : ""}><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option)}</strong></button>`).join("")}</div>
     <p class="compass-mc-feedback" aria-live="polite">${complete ? "✓ Correct. This sentence fits the situation and uses the idiom naturally." : Number.isInteger(selection) ? "Not quite. Look again at who is acting and what happens in this situation." : ""}</p>
   </article>`;

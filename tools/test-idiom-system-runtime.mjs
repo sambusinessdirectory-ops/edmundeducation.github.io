@@ -950,16 +950,24 @@ test("first-five practice uses single-answer English choices, including ten them
     for (const question of questions) {
       const { options, correctAt } = sut.compassMcOptions(question, current);
       assert.equal(options.length, 3);
-      assert.equal(new Set(options).size, 3);
+      assert.equal(new Set(options).size, 3, `${question.id}: all three options must differ`);
       assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
       assert.equal(options[correctAt], question.answer);
       assert.match(question.answer.toLowerCase(), /(ball rolling|shake a leg|ground running|chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es)?|(?:think(?:ing|s)?|thought) big)/, `${question.id} must use its lesson idiom`);
     }
   }
+  const jobLesson = content.lessons[2];
+  for (const [question, actor] of [[jobLesson.questions[0], "Sarah"], [jobLesson.questions[1], "coach"]]) {
+    const { options } = sut.compassMcOptions(question, jobLesson);
+    assert.ok(options.every((option) => option.toLowerCase().includes(actor.toLowerCase())), `${question.id}: every choice must keep the original actor`);
+    assert.ok(options.every((option) => option.includes("ground")), `${question.id}: the choices must differ in idiom use or meaning, not topic`);
+  }
   sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
   assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
   assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'data-compass-mc-choice='), 15);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /<textarea|data-answer-input=|data-compass-reveal|data-compass-complete/);
+  assert.match(css, /\.compass-question \.question-prompt \.english \{ font-size: clamp\(20\.4px, 2\.4vw, 26\.4px\)/);
+  assert.match(css, /\.compass-mc-option strong \{[^}]*font-size: clamp\(18px, 2\.04vw, 21\.6px\)/);
   assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
   const first = lesson.questions[0];
   const right = sut.compassMcOptions(first, lesson).correctAt;
