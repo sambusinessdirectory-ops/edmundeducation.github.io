@@ -222,6 +222,9 @@ jobs:
       - name: Validate focused DSE Listening release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[listening-release]') }}
         run: |
+          test -s listening-harp-rose-login-frame-v4.webp
+          grep -Fq 'listening-harp-rose-login-frame-v4.webp' listening-system.css
+          grep -Fq '20261022-harp-login1' listening-system.html
           node --check listening-system.js
           node --check dse-listening-2025-data.js
           node --check dse-listening-2025-transcript.js

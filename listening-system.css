@@ -547,3 +547,48 @@ button:disabled { cursor:default; opacity:.5; }
 .row-audio-player[data-corner-resize],.floating-audio-player[data-corner-resize]{min-height:180px;padding:24px;align-content:start;overflow:auto}
 .row-audio-player[data-corner-resize]{flex-wrap:wrap;align-items:flex-start}.row-audio-player[data-corner-resize]>div{flex:1 1 100%;padding-right:32px}.row-audio-player[data-corner-resize] audio{width:100%;flex:1 1 100%;min-width:0}.row-audio-player [data-row-close]{position:absolute;right:30px;top:20px}
 .floating-audio-player[data-corner-resize]{display:flex;flex-wrap:wrap}.floating-audio-player[data-corner-resize]>div{flex:1 1 100%}.floating-audio-player[data-corner-resize] input{flex:1 1 100%}
+
+/* The harp artwork frames the live student login controls. */
+.login-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; min-height: 880px; }
+.login-grid .login-panel {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  min-height: 880px;
+  padding: 150px 19% 95px 31%;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.login-grid .login-panel::before {
+  content: "";
+  position: absolute;
+  inset: -3% -4% -3% -8%;
+  z-index: 0;
+  pointer-events: none;
+  background: url("listening-harp-rose-login-frame-v4.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 20px 28px rgba(51, 31, 48, .2));
+}
+.login-grid .login-panel > * { position: relative; z-index: 1; }
+.login-grid .login-panel .eyebrow { color: #9d4969; }
+.login-grid .login-panel h2 { font-size: clamp(28px, 2.5vw, 38px); line-height: 1.25; color: #442c3e; }
+.login-grid .login-panel > p:not(.eyebrow) { color: #6d5163; }
+.login-grid .login-panel label { color: #473243; }
+.login-grid .login-panel input,
+.login-grid .login-panel .password-field button { border-color: #d9b8c2; color: #442c3e; background: rgba(255, 253, 252, .94); }
+.login-grid .login-panel input:focus { border-color: #a25376; box-shadow: 0 0 0 4px rgba(183, 89, 129, .15); }
+.login-grid .login-panel .primary-button { background: linear-gradient(135deg, #b7537d, #783e6c); box-shadow: 0 8px 0 #4a2b4c; }
+.login-grid .login-panel .secondary-button { color: #55324b; background: rgba(255, 253, 252, .9); border-color: #d9b8c2; }
+
+@media (max-width: 1050px) {
+  .login-grid { grid-template-columns: 1fr; }
+  .login-grid .login-panel { width: min(100%, 720px); margin-inline: auto; min-height: 850px; }
+}
+@media (max-width: 650px) {
+  .login-grid .login-panel { width: 100%; min-height: 790px; padding: 130px 22px 90px clamp(72px, 23vw, 110px); }
+  .login-grid .login-panel::before { inset: 0; background-size: auto 100%; }
+  .login-grid .login-panel h2 { font-size: clamp(25px, 6vw, 32px); }
+  .login-grid .login-panel form { gap: 14px; margin-top: 18px; }
+  .login-grid .login-panel .admin-login-link { font-size: .8rem; }
+}
