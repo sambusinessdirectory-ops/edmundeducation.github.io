@@ -60,7 +60,7 @@ const server=http.createServer((req,res)=>{
 
     const columns=await page.evaluate(()=>({notes:document.querySelector('#page-3 .note-sheet').getBoundingClientRect().right,transcript:document.querySelector('#curation-transcript-window').getBoundingClientRect().left,parent:document.querySelector('#curation-player').parentElement===document.body}));
     assert.ok(columns.transcript>=columns.notes&&columns.parent,'notes and transcript appear side by side with controls outside scrolling pages');
-    assert.deepEqual(await page.locator('.curation-resize-handle').evaluateAll(handles=>handles.map(handle=>handle.dataset.resize)),['nw','ne','sw','se'],'all four transcript corners can resize');
+    assert.deepEqual(await page.locator('#curation-transcript-window .curation-resize-handle').evaluateAll(handles=>handles.map(handle=>handle.dataset.resize)),['nw','ne','sw','se'],'all four transcript corners can resize');
     await page.setViewportSize({width:390,height:844});
     const floating=await page.evaluate(()=>{const panel=document.querySelector('#curation-player').getBoundingClientRect(),bank=document.querySelector('#curation-bank').getBoundingClientRect();return {top:panel.top,right:panel.right,bankBottom:bank.bottom};});
     assert.ok(floating.top>=floating.bankBottom&&floating.right<=390,'the floating player fits below the evidence bank on a phone');
@@ -160,7 +160,7 @@ const server=http.createServer((req,res)=>{
     await seekPage.mouse.move(head.x+45,head.y+18);await seekPage.mouse.down();await seekPage.mouse.move(head.x-35,head.y+48);await seekPage.mouse.up();
     const moved=await seekPage.locator('#curation-transcript-window').boundingBox();
     assert.ok(moved.x<head.x-20,'transcript window can be dragged');
-    const corner=await seekPage.locator('.curation-resize-se').boundingBox();
+    const corner=await seekPage.locator('#curation-transcript-window .curation-resize-se').boundingBox();
     await seekPage.mouse.move(corner.x+10,corner.y+10);await seekPage.mouse.down();await seekPage.mouse.move(corner.x+70,corner.y+50);await seekPage.mouse.up();
     const resized=await seekPage.locator('#curation-transcript-window').boundingBox();
     assert.ok(resized.width>moved.width+35&&resized.height>moved.height+20,'corner handle resizes the transcript window');

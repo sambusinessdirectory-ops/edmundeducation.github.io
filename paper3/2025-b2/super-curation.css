@@ -275,9 +275,9 @@
 @keyframes curation-essay-source-ink{from{background-size:0 5px}to{background-size:100% 5px}}
 @media(prefers-reduced-motion:reduce){.curation-active .curation-essay-source-new .curation-navy-ink{animation:none}}
 
-/* Sentence patterns are underlined in yellow; factual evidence uses task-colour highlights. */
+/* Sentence patterns use pale purple; factual evidence keeps each task colour. */
 .curation-model-essay .curation-essay-structure{text-decoration:none;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.curation-model-essay .curation-essay-unit.is-revealed .curation-essay-structure{text-decoration-line:underline;text-decoration-color:#e4ad12;text-decoration-thickness:3px;text-underline-offset:5px}
+.curation-model-essay .curation-essay-unit.is-revealed .curation-essay-structure{background:#e8dafa;text-decoration:none;border-radius:3px;padding:0 1px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 /* A source-page preview replaces the repeated scroll away from the essay. */
 .curation-source-preview[hidden]{display:none!important}
 .curation-source-preview{position:fixed;z-index:155;left:max(350px,calc(50vw - 350px));top:16vh;width:min(700px,calc(100vw - 670px));height:min(68vh,680px);box-sizing:border-box;overflow:hidden;border:2px solid #2b679f;border-radius:15px;background:#fffdf8;box-shadow:0 24px 70px #112a3b88;color:#152e3f;animation:curation-preview-enter .32s ease-out both}
@@ -292,3 +292,22 @@
 @media(max-width:620px){.curation-source-preview{top:20vh;height:52vh}.curation-source-preview-head span{display:none}}
 @media(prefers-reduced-motion:reduce){.curation-source-preview{animation:none}.curation-source-preview .curation-essay-source-new .curation-navy-ink{animation:none}}
 @media print{.curation-source-preview{display:none!important}}
+
+/* The original-page window keeps its placement while the student checks sources. */
+.curation-source-preview-head{cursor:move;touch-action:none}
+.curation-source-preview-head button{touch-action:auto;flex:none}
+.curation-source-preview .curation-resize-handle::after{border-color:#2b679f}
+@media(max-width:620px){.curation-source-preview-head strong{font-size:12px}.curation-source-preview-head{padding:7px 10px}}
+
+/* Mirror the editable note sheet so only podcast ideas used in an essay get navy ink. */
+.curation-note-ink-frame{position:relative}
+.curation-note-ink-frame textarea{position:relative;z-index:1;margin:0}
+.curation-note-ink-layer{position:absolute;z-index:2;inset:0;box-sizing:border-box;overflow:hidden;pointer-events:none;white-space:pre-wrap;overflow-wrap:anywhere;color:#102b3c;border:1px solid transparent}
+.curation-note-ink-row{min-height:1em}
+.curation-note-ink-frame.has-essay-use:not(:focus-within) textarea{color:transparent!important;caret-color:#102b3c}
+.curation-note-ink-frame:not(.has-essay-use) .curation-note-ink-layer,.curation-note-ink-frame:focus-within .curation-note-ink-layer{display:none}
+.curation-note-ink-used{background-image:linear-gradient(#246fbd,#246fbd);background-repeat:no-repeat;background-position:left 52%;background-size:100% 4px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-note-ink-new{animation:curation-note-use-ink .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes curation-note-use-ink{from{background-size:0 4px}to{background-size:100% 4px}}
+@media(prefers-reduced-motion:reduce){.curation-note-ink-new{animation:none}}
+@media print{.curation-note-ink-layer{display:none!important}.curation-note-ink-frame textarea{color:#102b3c!important}}

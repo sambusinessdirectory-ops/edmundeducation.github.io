@@ -494,20 +494,76 @@
   const stage=el('nav','curation-stage');stage.id='curation-stage';stage.hidden=true;stage.setAttribute('aria-label','Super Curation 五個階段');
   stage.innerHTML='<div class="curation-stage-line" aria-hidden="true"></div><div class="curation-stage-fill" aria-hidden="true"></div><div class="curation-stage-items"></div>';
   const picker=el('dialog','curation-picker');picker.id='curation-picker';picker.setAttribute('aria-label','選擇導覽步驟');picker.innerHTML='<div class="curation-picker-head"><div><small>SUPER CURATION</small><h2 id="curation-picker-title">選擇步驟</h2></div><button type="button" id="curation-picker-close" aria-label="關閉">×</button></div><input id="curation-picker-search" type="search" placeholder="搜尋步驟或原文…" aria-label="搜尋步驟"><div id="curation-picker-list" class="curation-picker-list"></div>';
-  const bank=el('aside','curation-bank');bank.id='curation-bank';bank.hidden=true;bank.setAttribute('aria-label','三項寫作證據庫');bank.innerHTML='<h2>三項寫作證據庫</h2><p>紅線＝範文已使用的內容點，不代表淘汰。範文內黃色底線＝可學的句式；Data File 的 Type 6 紅線才表示不採用。</p><div id="curation-bank-groups"></div>';
+  const bank=el('aside','curation-bank');bank.id='curation-bank';bank.hidden=true;bank.setAttribute('aria-label','三項寫作證據庫');bank.innerHTML='<h2>三項寫作證據庫</h2><p>紅線＝範文已使用的內容點，不代表淘汰。範文內淡紫色＝可學的句式；Data File 的 Type 6 紅線才表示不採用。</p><div id="curation-bank-groups"></div>';
   const masks=['top','left','right','bottom'].map(side=>{const m=el('div',`curation-mask curation-mask-${side}`);m.hidden=true;document.body.append(m);return m;});
   const routeArrow=document.createElementNS('http://www.w3.org/2000/svg','svg');routeArrow.id='curation-route-arrow';routeArrow.setAttribute('aria-hidden','true');routeArrow.innerHTML='<defs><marker id="curation-route-tip" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M 1 1 L 7 4 L 1 7" fill="none" stroke="#d0282d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs><path class="curation-route-path" pathLength="1" marker-end="url(#curation-route-tip)"/>';
   const routeCallout=el('div','curation-route-callout');routeCallout.setAttribute('aria-live','polite');routeArrow.setAttribute('hidden','');routeCallout.hidden=true;
   document.body.append(stage,dock,bank,picker,routeArrow,routeCallout);
   const sourcePreview=el('aside','curation-source-preview');sourcePreview.id='curation-source-preview';sourcePreview.hidden=true;sourcePreview.setAttribute('role','dialog');sourcePreview.setAttribute('aria-modal','false');sourcePreview.setAttribute('aria-label','原頁取證視窗');
-  sourcePreview.innerHTML='<div class="curation-source-preview-head"><strong>原頁取證</strong><span>藍線：已用於範文</span><button type="button" aria-label="關閉原頁取證視窗">×</button></div><div class="curation-source-preview-body"></div>';
+  sourcePreview.innerHTML='<div class="curation-source-preview-head"><strong>原頁取證</strong><span>拖曳移動 · 四角調整大小 · 藍線：已用於範文</span><button type="button" aria-label="關閉原頁取證視窗">×</button></div><div class="curation-source-preview-body"></div>';
   const sourcePreviewBody=$('.curation-source-preview-body',sourcePreview);
   $('.curation-source-preview-head button',sourcePreview).addEventListener('click',()=>{sourcePreview.hidden=true;});
+  for(const corner of ['nw','ne','sw','se']){const handle=el('span',`curation-resize-handle curation-resize-${corner}`);handle.dataset.resize=corner;handle.setAttribute('aria-label',`調整原頁取證視窗大小 · ${corner}`);sourcePreview.append(handle);}
   document.body.append(sourcePreview);
+  let previewPointer=null;
+  sourcePreview.addEventListener('pointerdown',event=>{
+    const corner=event.target.dataset.resize,head=event.target.closest('.curation-source-preview-head');
+    if((!corner&&!head)||event.target.closest('button,select,input'))return;
+    event.preventDefault();const r=sourcePreview.getBoundingClientRect();
+    previewPointer={corner,move:!!head,x:event.clientX,y:event.clientY,left:r.left,top:r.top,width:r.width,height:r.height};
+    sourcePreview.setPointerCapture(event.pointerId);
+  });
+  sourcePreview.addEventListener('pointermove',event=>{
+    if(!previewPointer)return;
+    const p=previewPointer,dx=event.clientX-p.x,dy=event.clientY-p.y;
+    let left=p.left,top=p.top,width=p.width,height=p.height;
+    if(p.move){left+=dx;top+=dy;}else{
+      if(p.corner.includes('w')){left+=dx;width-=dx;}else width+=dx;
+      if(p.corner.includes('n')){top+=dy;height-=dy;}else height+=dy;
+      const minWidth=Math.min(320,innerWidth-8),minHeight=Math.min(200,innerHeight-8);
+      if(width<minWidth){if(p.corner.includes('w'))left-=minWidth-width;width=minWidth;}
+      if(height<minHeight){if(p.corner.includes('n'))top-=minHeight-height;height=minHeight;}
+    }
+    width=Math.min(width,innerWidth-8);height=Math.min(height,innerHeight-8);
+    left=Math.max(4,Math.min(left,innerWidth-width-4));top=Math.max(4,Math.min(top,innerHeight-height-4));
+    Object.assign(sourcePreview.style,{left:`${left}px`,top:`${top}px`,width:`${width}px`,height:`${height}px`,right:'auto'});
+  });
+  sourcePreview.addEventListener('pointerup',()=>{previewPointer=null;});
+  sourcePreview.addEventListener('lostpointercapture',()=>{previewPointer=null;});
+  function fitSourcePreview(){
+    if(sourcePreview.hidden||!sourcePreview.style.width)return;
+    const r=sourcePreview.getBoundingClientRect(),width=Math.min(r.width,innerWidth-8),height=Math.min(r.height,innerHeight-8);
+    Object.assign(sourcePreview.style,{left:`${Math.max(4,Math.min(r.left,innerWidth-width-4))}px`,top:`${Math.max(4,Math.min(r.top,innerHeight-height-4))}px`,width:`${width}px`,height:`${height}px`});
+  }
   const nav=$('.curation-stage-items',stage);for(const [index,chapter] of chapters.entries()){const b=el('button','curation-stage-item');b.type='button';b.dataset.chapter=chapter.id;b.innerHTML=`<span class="curation-stage-dot">${index+1}</span><span class="curation-stage-label">${chapter.short}</span><small class="curation-stage-count"></small>`;nav.append(b);}
   const slotSel=$('#curation-slot');for(let i=1;i<=5;i++){const opt=el('option','',`Slot ${i}`);opt.value=String(i);slotSel.append(opt);}slotSel.value=activeSlot;
   const bankGroups=$('#curation-bank-groups');for(const t of 'ABC'){const d=el('details',`curation-bank-${t}`);d.dataset.task=t;d.innerHTML=`<summary><span>Task ${t}</span><strong data-count>0 句</strong></summary><ol></ol>`;bankGroups.append(d);}
   let open=false;let helpOpen=false;let animation=null;let cueArmed=false;let playbackCue=null;let noteTyping=false;let noteTimer=null;
+  // Editable note fields cannot style one line at a time. Mirror their visible ink
+  // while the student is reading, and leave the original textarea fully editable.
+  const noteMirrors=new Map();let usedPodcastNoteIds=new Set();let currentPodcastNoteId=null;
+  const sameNote=(a,b)=>a.trim().replace(/[’‘]/g,"'").replace(/\s+/g,' ')===b.trim().replace(/[’‘]/g,"'").replace(/\s+/g,' ');
+  for(const fieldId of ['wellness','parents']){
+    const field=$(`#notes-${fieldId}`);if(!field)continue;
+    const frame=el('div','curation-note-ink-frame'),mirror=el('div','curation-note-ink-layer');mirror.setAttribute('aria-hidden','true');
+    field.parentNode.insertBefore(frame,field);frame.append(field,mirror);noteMirrors.set(fieldId,{field,frame,mirror});
+    field.addEventListener('input',refreshNoteMirrors);field.addEventListener('scroll',()=>{mirror.scrollTop=field.scrollTop;});
+  }
+  function refreshNoteMirrors(){
+    for(const [fieldId,{field,frame,mirror}] of noteMirrors){
+      const style=getComputedStyle(field);
+      Object.assign(mirror.style,{font:style.font,padding:style.padding,letterSpacing:style.letterSpacing,textAlign:style.textAlign});
+      mirror.replaceChildren();let hasUsed=false;
+      for(const line of field.value.split('\n')){
+        const row=el('div','curation-note-ink-row'),cue=podcastCues.find(item=>item.field===fieldId&&item.note&&sameNote(item.note,line));
+        if(cue&&usedPodcastNoteIds.has(cue.id)){
+          const ink=el('span','curation-note-ink-used',line||' ');if(cue.id===currentPodcastNoteId)ink.classList.add('curation-note-ink-new');row.append(ink);hasUsed=true;
+        }else row.textContent=line||'\u00a0';
+        mirror.append(row);
+      }
+      frame.classList.toggle('has-essay-use',hasUsed);mirror.scrollTop=field.scrollTop;
+    }
+  }
   const audio=$('#page-3 .notes-audio audio');
   const current=()=>steps[state.chapter][state.positions[state.chapter]];
   const audioBar=el('div','curation-player');audioBar.id='curation-player';audioBar.hidden=true;
@@ -736,6 +792,16 @@
   function syncEssayMarks(){
     const used=usedEssaySources(),step=current();
     for(const [id,source] of essaySourceSteps){source.target.classList.toggle('curation-essay-source-used',used.has(id));source.target.classList.toggle('curation-essay-source-new',step?.essaySource&&step.source.id===id);}
+    usedPodcastNoteIds=new Set();currentPodcastNoteId=null;
+    for(const [id,source] of essaySourceSteps){
+      if(!used.has(id)||source.page<12)continue;
+      for(const cueStep of steps.podcast){
+        if(!cueStep.cue?.task||cueStep.transcriptTarget!==source.target)continue;
+        usedPodcastNoteIds.add(cueStep.cue.id);
+        if(step?.essaySource&&step.source.id===id)currentPodcastNoteId=cueStep.cue.id;
+      }
+    }
+    refreshNoteMirrors();
     $$('.curation-essay-unit').forEach(unit=>{const task=unit.dataset.essayTask;const unitStep=steps.writing.find(item=>item.essay&&!item.essaySource&&!item.essayReturn&&item.task===task&&item.essayNumber===Number(unit.dataset.essayNumber));const visible=state.chapter==='writing'&&step?.essay&&step.task===task&&unitStep&&unitStep.index<=state.positions.writing;unit.classList.toggle('is-revealed',!!visible);unit.classList.toggle('is-current',step?.essay&&step.essayNumber===Number(unit.dataset.essayNumber)&&step.task===task);});
   }
   function syncEssayPreview(step){
@@ -934,7 +1000,7 @@
     audio.addEventListener('timeupdate',catchUpPodcast);
     audio.addEventListener('seeked',catchUpPodcast);
   }
-  window.addEventListener('scroll',spotlight,{passive:true});window.addEventListener('resize',()=>{positionAudioBar();fitTranscriptWindow();spotlight();if(open&&innerWidth<=620&&(state.chapter!=='podcast'||current()?.cue))setTimeout(()=>focusSource(current()),80);});window.visualViewport?.addEventListener('resize',()=>{positionAudioBar();fitTranscriptWindow();spotlight();});
+  window.addEventListener('scroll',spotlight,{passive:true});window.addEventListener('resize',()=>{positionAudioBar();fitTranscriptWindow();fitSourcePreview();spotlight();if(open&&innerWidth<=620&&(state.chapter!=='podcast'||current()?.cue))setTimeout(()=>focusSource(current()),80);});window.visualViewport?.addEventListener('resize',()=>{positionAudioBar();fitTranscriptWindow();fitSourcePreview();spotlight();});
   document.addEventListener('keydown',e=>{if(!open)return;if(e.key==='Escape'&&picker.open){e.preventDefault();picker.close();return;}if(e.key==='Escape'&&$('.learning-question-dialog[open]'))return;if(e.key==='Escape'&&document.activeElement?.tagName!=='TEXTAREA')setOpen(false);});
   // Deep links allow teachers to send a chapter without exposing any unvisited evidence.
   if(new URLSearchParams(location.search).get('curation')==='1')setOpen(true);

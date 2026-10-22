@@ -35,11 +35,25 @@ const server=http.createServer((req,res)=>{
     const sentence=page.locator('#curation-model-B .curation-essay-unit[data-essay-number="3"]');
     assert.ok(await sentence.locator('.curation-essay-keyword-B').count()>0);
     assert.ok(await sentence.locator('.curation-essay-structure').count()>=2,'notable sentence structures are marked separately');
-    assert.match(await sentence.locator('.curation-essay-structure').first().evaluate(element=>getComputedStyle(element).textDecorationLine),/underline/,'structure phrase has a yellow underline when revealed');
-    assert.equal(await sentence.locator('.curation-essay-structure').first().evaluate(element=>getComputedStyle(element).textDecorationColor),'rgb(228, 173, 18)');
+    assert.equal(await sentence.locator('.curation-essay-structure').first().evaluate(element=>getComputedStyle(element).textDecorationLine),'none','structure phrase no longer has an underline');
+    assert.equal(await sentence.locator('.curation-essay-structure').first().evaluate(element=>getComputedStyle(element).backgroundColor),'rgb(232, 218, 250)','structure phrase uses pale purple');
     const essayScroll=await page.evaluate(()=>scrollY);
     await page.locator('#curation-next').click();
     assert.equal(await page.locator('#curation-source-preview').isVisible(),true,'original page opens in a source preview');
+    const preview=page.locator('#curation-source-preview');
+    const beforeMove=await preview.boundingBox(),head=await page.locator('.curation-source-preview-head strong').boundingBox();
+    await page.mouse.move(head.x+head.width/2,head.y+head.height/2);await page.mouse.down();await page.mouse.move(head.x+head.width/2+35,head.y+head.height/2+22);await page.mouse.up();
+    const afterMove=await preview.boundingBox();assert.ok(afterMove.x>beforeMove.x+25&&afterMove.y>beforeMove.y+12,'source preview drags by its header');
+    const southEast=await page.locator('#curation-source-preview [data-resize="se"]').boundingBox();
+    await page.mouse.move(southEast.x+southEast.width/2,southEast.y+southEast.height/2);await page.mouse.down();await page.mouse.move(southEast.x+southEast.width/2+28,southEast.y+southEast.height/2+24);await page.mouse.up();
+    const afterResize=await preview.boundingBox();assert.ok(afterResize.width>afterMove.width+18&&afterResize.height>afterMove.height+14,'source preview resizes at its corner');
+    assert.equal(await preview.locator('[data-resize]').count(),4,'all four corner handles are present');
+    for(const corner of ['nw','ne','sw','se']){
+      const handle=await preview.locator(`[data-resize="${corner}"]`).boundingBox(),before=await preview.boundingBox();
+      const dx=corner.includes('w')?12:-12,dy=corner.includes('n')?12:-12;
+      await page.mouse.move(handle.x+handle.width/2,handle.y+handle.height/2);await page.mouse.down();await page.mouse.move(handle.x+handle.width/2+dx,handle.y+handle.height/2+dy);await page.mouse.up();
+      const after=await preview.boundingBox();assert.ok(after.width<before.width-5&&after.height<before.height-5,`${corner} corner resizes the popup`);
+    }
     assert.equal(await page.locator('#curation-source-preview .curation-essay-source-used').count(),1,'preview shows the used source with blue ink');
     assert.equal(await page.evaluate(()=>scrollY),essayScroll,'source check does not move the main page');
     assert.match(await page.locator('#curation-source').innerText(),/第 4 頁/);
@@ -56,14 +70,19 @@ const server=http.createServer((req,res)=>{
     await jump('Task B 範文 · 第 2 句');
     assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'going backward removes future use strikes');
     assert.equal(await page.locator('#page-4 .curation-essay-source-used').count(),0,'going backward removes future navy strikes');
+    await page.locator('#notes-wellness').fill('July\nAfter students finish exams\nTheme: Relax and Recover');
     await jump('Task A 範文 · 第 3 句');await page.locator('#curation-next').click();
+    assert.ok(await page.locator('#notes-wellness').evaluate(element=>element.parentElement.querySelectorAll('.curation-note-ink-used').length)>0,'used podcast idea is crossed on the note sheet');
     assert.ok(await page.locator('.curation-bank-A li.curation-bank-used').count()>0,'Task A source is crossed after use');
     await jump('Task B 範文 · 第 3 句');
+    assert.ok(await page.locator('#notes-wellness').evaluate(element=>element.parentElement.querySelectorAll('.curation-note-ink-used').length)>0,'podcast note use persists while reading another task');
     await page.locator('.curation-bank-A summary').click();
     assert.ok(await page.locator('.curation-bank-A li.curation-bank-used').count()>0,'Task A red strikes persist while reading Task B');
     assert.match(await page.locator('.curation-bank-A li.curation-bank-used .curation-bank-ink').first().evaluate(element=>getComputedStyle(element).backgroundImage),/linear-gradient/,'used bank text has a per-line red strike');
     await page.reload({waitUntil:'domcontentloaded'});
     assert.ok(await page.locator('.curation-bank-A li.curation-bank-used').count()>0,'Task A usage survives reload while Task B stays active');
+    await jump('Task A 範文 · 第 2 句');
+    assert.equal(await page.locator('#notes-wellness').evaluate(element=>element.parentElement.querySelectorAll('.curation-note-ink-used').length),0,'rewinding Task A clears future podcast-note use marks');
     await jump('Task C 範文 · 第 5 句');
     await page.locator('#curation-next').click();
     assert.match(await page.locator('#curation-source').innerText(),/第 10 頁/);
@@ -71,7 +90,9 @@ const server=http.createServer((req,res)=>{
     assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'direct Task C jump does not pre-use Task B evidence');
     await page.reload({waitUntil:'domcontentloaded'});
     assert.equal(await page.locator('.curation-bank-B li.curation-bank-used').count(),0,'rewound Task B points stay unmarked after changing task and reloading');
+    await page.locator('#notes-parents').fill('Parents attend a briefing session before helping\nSign up through the school app (not website)\nNico Lin writes the invitation letter to parents');
     await jump('Task C 範文 · 第 10 句');await page.locator('#curation-next').click();
+    assert.ok(await page.locator('#notes-parents').evaluate(element=>element.parentElement.querySelectorAll('.curation-note-ink-used').length)>0,'Task C podcast idea is crossed on the note sheet when cited');
     assert.match(await page.locator('.curation-source-preview-head strong').innerText(),/錄音稿 6 \/ 6/,'transcript evidence opens in the same preview');
     assert.ok(await page.locator('#curation-source-preview .curation-transcript-sentence.curation-essay-source-used .curation-navy-ink').count()>0,'transcript preview shows the blue used stroke');
     assert.deepEqual(errors,[]);
