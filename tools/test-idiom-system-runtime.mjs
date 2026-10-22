@@ -1008,6 +1008,41 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(sut.compassReviewedCount(lesson), 2);
 });
 
+test("answering a later Compass question updates its card without rebuilding the long page", async () => {
+  const { sut, document } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
+  const question = lesson.questions[34];
+  const card = document.querySelector(`[data-question-id="${question.id}"]`);
+  const buttons = Array.from({ length: 4 }, (_, index) => makeElement({ dataset: { compassMcIndex: String(index) } }));
+  const feedback = makeElement();
+  const number = makeElement();
+  const labels = [makeElement(), makeElement()];
+  let progressValue = "";
+  card.querySelectorAll = (selector) => selector === "[data-compass-mc-index]" ? buttons : [];
+  card.querySelector = (selector) => selector === ".compass-mc-feedback" ? feedback : selector === ".question-number" ? number : null;
+  sut.elements.lessonContent.querySelector = (selector) => selector === ".exercise-progress"
+    ? { style: { setProperty(name, value) { if (name === "--progress") progressValue = value; } } }
+    : null;
+  sut.elements.lessonContent.querySelectorAll = (selector) => selector === ".exercise-progress-label span" ? labels : [];
+  const pageMarkup = sut.elements.lessonContent.innerHTML;
+  const right = sut.compassMcOptions(question, lesson).correctAt;
+
+  await sut.answerCompassMcQuestion(question.id, (right + 1) % 4);
+  assert.equal(sut.elements.lessonContent.innerHTML, pageMarkup, "wrong feedback must leave the surrounding cards in place");
+  assert.match(feedback.innerHTML, /再想想/);
+  assert.equal(buttons[(right + 1) % 4].classList.contains("is-wrong"), true);
+
+  await sut.answerCompassMcQuestion(question.id, right);
+  assert.equal(sut.elements.lessonContent.innerHTML, pageMarkup, "correct feedback must leave the surrounding cards in place");
+  assert.equal(card.classList.contains("is-correct"), true);
+  assert.match(feedback.innerHTML, /逐項看看原因/);
+  assert.equal(buttons[right].classList.contains("is-correct"), true);
+  assert.equal(buttons.every((button) => button.disabled), true);
+  assert.equal(labels[0].textContent, "已完成 1 / 60 題");
+  assert.equal(progressValue, "2%");
+});
+
 test("all four similarly sized sentences highlight the changed words", () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   const current = content.lessons[2];
