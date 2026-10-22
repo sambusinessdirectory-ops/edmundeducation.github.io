@@ -4,10 +4,14 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
-const release = "20260908-loading1";
 const systems = ["idiom-system", "proverb-system", "sentence-structure"];
 
 for (const system of systems) {
+  const release = {
+    "idiom-system": "20261022-english1",
+    "proverb-system": "20260908-loading1",
+    "sentence-structure": "20261022-horse-login1"
+  }[system];
   const [css, html] = await Promise.all([
     readFile(new URL(`${system}.css`, root), "utf8"),
     readFile(new URL(`${system}.html`, root), "utf8")
