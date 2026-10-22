@@ -166,11 +166,14 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      width: min(270px, 18vw);
-      max-height: 142px;
+      width: clamp(78px, 10vw, 142px);
+      aspect-ratio: 1;
       display: none;
       object-fit: contain;
-      pointer-events: none;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
       transform: translate(-50%, -50%);
       filter: drop-shadow(0 16px 24px rgba(17,43,85,0.16));
       z-index: 1;
@@ -178,6 +181,21 @@
 
     body.app-active .topbar-mascot {
       display: block;
+    }
+
+    .topbar-mascot img,
+    .hero-mascot img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .topbar-mascot:focus-visible,
+    .hero-mascot:focus-visible {
+      outline: 3px solid #eaa743;
+      outline-offset: 5px;
+      border-radius: 50%;
     }
 
     .nav-actions {
@@ -380,9 +398,12 @@
       left: 50%;
       top: 10%;
       width: min(430px, 30vw);
-      max-height: 420px;
+      aspect-ratio: 1;
       object-fit: contain;
-      pointer-events: none;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
       transform: translateX(-50%);
       filter: drop-shadow(0 24px 34px rgba(17,43,85,0.18));
       z-index: 1;
@@ -3667,7 +3688,7 @@
         position: static;
         justify-self: center;
         width: min(280px, 62vw);
-        max-height: 260px;
+        max-height: none;
         margin: -18px 0 4px;
         transform: none;
       }
@@ -4083,7 +4104,9 @@
             <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
           </button>
         </div>
-        <img class="topbar-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+        <button class="topbar-mascot" type="button" data-eddy-flashcards-toggle aria-label="暫停 Eddy 翻卡動畫">
+          <img src="flashcards-eddy/eddy-flashcards.gif?v=20261022-1" alt="Eddy 在書房翻看學習卡，桌上分有完成與待複習兩疊">
+        </button>
         <div class="nav-actions edmund-system-header__actions">
           <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
           <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
@@ -4137,7 +4160,9 @@
           <p>登入後可以按考試、技能、年份或主題溫習。Admin 可以新增學生帳戶、控制可用分類、查看所有嘗試紀錄。</p>
         </div>
 
-        <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+        <button class="hero-mascot" type="button" data-eddy-flashcards-toggle aria-label="暫停 Eddy 翻卡動畫">
+          <img src="flashcards-eddy/eddy-flashcards.gif?v=20261022-1" alt="Eddy 在書房翻看學習卡，桌上分有完成與待複習兩疊">
+        </button>
 
         <form class="login-card" data-login-form onsubmit="return false" aria-busy="true">
           <h2>Login</h2>
@@ -18969,5 +18994,6 @@
   <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
   <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+  <script src="flashcards-eddy-toggle.js?v=20261022-1" defer></script>
 </body>
 </html>
