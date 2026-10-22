@@ -234,11 +234,11 @@ jobs:
       - name: Validate focused Speaking release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}
         run: |
-          test -s speaking-dragon-stone-login-frame-v1.webp
-          test -s speaking-dragon-stone-login-frame-mobile-v1.webp
-          grep -Fq 'speaking-dragon-stone-login-frame-v1.webp' speaking-system.css
-          grep -Fq 'speaking-dragon-stone-login-frame-mobile-v1.webp' speaking-system.css
-          grep -Fq '20261022-dragon-login2-eddy-gif2' speaking-system.html
+          test -s speaking-dragon-stone-login-frame-v2.webp
+          test -s speaking-dragon-stone-login-frame-mobile-v2.webp
+          grep -Fq 'speaking-dragon-stone-login-frame-v2.webp' speaking-system.css
+          grep -Fq 'speaking-dragon-stone-login-frame-mobile-v2.webp' speaking-system.css
+          grep -Fq '20261022-dragon-login3-cleanstone' speaking-system.html
           node --check speaking-system.js
           node tools/test-professional-discussion-timing.mjs
 

@@ -5290,10 +5290,10 @@ button:disabled {
 .login-card::before {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: -3% -5%;
   z-index: 0;
   pointer-events: none;
-  background: url("speaking-dragon-stone-login-frame-v1.webp") center / 100% 100% no-repeat;
+  background: url("speaking-dragon-stone-login-frame-v2.webp") center / 100% 100% no-repeat;
   filter: drop-shadow(0 20px 28px rgba(19, 27, 34, .28));
 }
 
@@ -5313,12 +5313,13 @@ button:disabled {
 @media (max-width: 1500px) {
   .login-view { grid-template-columns: minmax(0, 1fr) minmax(440px, .72fr); gap: clamp(24px, 3vw, 52px); }
   .login-card { min-height: 0; aspect-ratio: 2 / 3; padding: clamp(120px, 11vw, 170px) 18% 72px; }
-  .login-card::before { background-image: url("speaking-dragon-stone-login-frame-mobile-v1.webp"); }
+  .login-card::before { background-image: url("speaking-dragon-stone-login-frame-mobile-v2.webp"); }
 }
 
 @media (max-width: 1000px) {
   .login-view { grid-template-columns: 1fr; }
-  .login-card { width: min(100%, 620px); margin-inline: auto; padding-top: clamp(105px, 29vw, 185px); }
+  .login-card { width: min(100%, 680px); margin-inline: auto; padding-top: clamp(105px, 29vw, 185px); }
+  .login-card::before { inset: -3% -6%; }
 }
 
 @media (max-width: 480px) {
@@ -5339,6 +5340,7 @@ button:disabled {
   }
   .login-card .login-submit { min-height: 45px; margin-top: 13px; padding-inline: 14px; font-size: 12px; }
   .login-card .status { margin-top: 6px; }
+  .login-card::before { inset: -2% -7%; }
 }
 
 @media (max-width: 360px) {
