@@ -2204,6 +2204,9 @@ function compassMcDetailFoils(answer, lessonId, questionId = "") {
 function compassMcFoils(question, lesson) {
   const answer = String(question.answer || "");
   const lessonId = String(lesson?.id || "");
+  if (Number(lessonId.slice(-2)) >= 6 && Number(lessonId.slice(-2)) <= 30) {
+    return window.EDMUND_IDIOM_COMPASS_FOILS?.(question, lesson) || [];
+  }
   const formFoil = {
     "idiom-01": () => answer.replace(/\b(started|starts|start|starting) the ball rolling\b/i, (_, verb) => {
       const replacement = { started: "kept", starts: "keeps", start: "keep", starting: "keeping" }[verb.toLowerCase()];
@@ -2243,6 +2246,14 @@ function compassMcOptions(question, lesson = getLesson()) {
   const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 4;
   const foils = compassMcFoils(question, lesson);
   const lessonId = String(lesson?.id || "");
+  if (Number(lessonId.slice(-2)) >= 6 && Number(lessonId.slice(-2)) <= 30) {
+    const entries = foils.map(({ text, reason }) => ({ text, reason }));
+    entries.splice(correctAt, 0, {
+      text: question.answer,
+      reason: `這句保留原題所述情境，並自然使用「${question.highlight}」表達本課意思。`
+    });
+    return { options: entries.map((entry) => entry.text), rationales: entries.map((entry) => entry.reason), correctAt };
+  }
   const reasons = {
     "idiom-01": {
       correct: "“start the ball rolling” 表示率先採取行動，讓事情開始推進；這符合原句。",

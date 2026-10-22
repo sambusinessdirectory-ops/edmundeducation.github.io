@@ -17,6 +17,8 @@ const [dataSource, frontendSource, html, css] = await Promise.all([
 ]);
 const comparisonSource = await read("shared-answer-comparison.js");
 const compassSource = await read("idiom-first-five-curation.js");
+const expandedCompassSource = await read("idiom-compass-06-30-curation.js");
+const expandedCompassBonusSource = await read("idiom-compass-06-30-bonus.js");
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -340,7 +342,11 @@ function createFrontendHarness({ withCompass = false } = {}) {
   };
   vm.createContext(context);
   vm.runInContext(comparisonSource, context, { filename: "shared-answer-comparison.js" });
-  if (withCompass) vm.runInContext(compassSource, context, { filename: "idiom-first-five-curation.js" });
+  if (withCompass) {
+    vm.runInContext(compassSource, context, { filename: "idiom-first-five-curation.js" });
+    vm.runInContext(expandedCompassSource, context, { filename: "idiom-compass-06-30-curation.js" });
+    vm.runInContext(expandedCompassBonusSource, context, { filename: "idiom-compass-06-30-bonus.js" });
+  }
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
@@ -1012,6 +1018,69 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
   assert.equal(sut.state.exercise.correctIds.length, 1, "bonus ID must not enter the protected 50-question catalog");
   assert.equal(sut.compassReviewedCount(lesson), 2);
+});
+
+test("Idiom Compass 06–30 keeps the source catalogue and provides seven bilingual guide pages", () => {
+  const { sut, compass } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  const expanded = content.lessons.slice(5, 30);
+  assert.equal(expanded.length, 25);
+  for (const current of expanded) {
+    const guide = compass[current.id];
+    assert.ok(guide, `${current.id}: missing Compass guide`);
+    assert.equal(current.questions.length, 50, `${current.id}: preserve fifty source questions`);
+    for (const field of ["meaningEn", "meaningZh", "modelEn", "modelZh", "readAloudEn", "readAloudZh", "boundaryEn", "boundary"]) {
+      assert.ok(String(guide[field] || "").trim(), `${current.id}: missing ${field}`);
+    }
+    assert.notEqual(guide.modelEn, guide.readAloudEn, `${current.id}: Pocket Check needs another sentence`);
+    assert.equal(guide.checksEn.length, 3);
+    assert.equal(guide.checks.length, 3);
+    for (const page of [2, 3, 5, 6]) {
+      assert.equal(guide.choices[page].optionsEn.length, 3, `${current.id} page ${page}`);
+      assert.equal(guide.choices[page].options.length, 3, `${current.id} page ${page}`);
+      assert.ok(guide.choices[page].optionsEn[guide.choices[page].correct], `${current.id} page ${page} correct line`);
+    }
+    sut.openLesson(current.id, { page: 1, attempt: attemptSeed({ lessonId: current.id }) });
+    for (let page = 1; page <= 7; page += 1) {
+      sut.setLessonPage(page);
+      const markup = sut.elements.lessonContent.innerHTML;
+      assert.match(markup, /IDIOM COMPASS/, `${current.id} page ${page}`);
+      assert.doesNotMatch(markup, /class="example-block"/, `${current.id} page ${page}: no old example gallery`);
+      if (page === 7) {
+        assert.ok(markup.includes(guide.readAloudEn), `${current.id}: reading sentence shown`);
+        assert.match(markup, /data-edmund-record-id=/);
+      }
+    }
+    const questions = sut.compassPracticeQuestions(current);
+    assert.equal(questions.length, 60, `${current.id}: fifty original plus ten new contexts`);
+    assert.equal(questions.slice(0, 50).map((question) => question.id).join("|"), current.questions.map((question) => question.id).join("|"), `${current.id}: original IDs and order`);
+    assert.equal(new Set(questions.slice(50).map((question) => question.theme)).size, 10, `${current.id}: ten distinct themes`);
+    const answerPositions = [0, 0, 0, 0];
+    for (const question of questions) {
+      const { options, rationales, correctAt } = sut.compassMcOptions(question, current);
+      answerPositions[correctAt] += 1;
+      assert.equal(options.length, 4, `${question.id}: four options`);
+      assert.equal(new Set(options).size, 4, `${question.id}: distinct options`);
+      assert.equal(options[correctAt], question.answer, `${question.id}: source answer retained`);
+      assert.ok(question.highlight && question.answer.toLowerCase().includes(question.highlight.toLowerCase()), `${question.id}: answer uses a recorded idiom form`);
+      assert.ok(rationales.every((reason) => /[\u3400-\u9fff]/.test(reason)), `${question.id}: Traditional Chinese rationales`);
+      const lengths = options.map((option) => option.split(/\s+/).length);
+      assert.ok(Math.max(...lengths) - Math.min(...lengths) <= 2, `${question.id}: balanced choice lengths`);
+      assert.ok(lengths[correctAt] !== Math.min(...lengths) || lengths.filter((length) => length === lengths[correctAt]).length > 1, `${question.id}: key cannot be uniquely shortest`);
+      assert.ok(lengths[correctAt] !== Math.max(...lengths) || lengths.filter((length) => length === lengths[correctAt]).length > 1, `${question.id}: key cannot be uniquely longest`);
+      if (question.bonus) {
+        assert.ok(question.promptZh && /[\u3400-\u9fff]/.test(question.promptZh), `${question.id}: bilingual new situation`);
+        assert.ok(question.theme, `${question.id}: thematic label`);
+      }
+    }
+    assert.deepEqual(answerPositions, [15, 15, 15, 15], `${current.id}: balanced answer positions`);
+    sut.setLessonPage(8);
+    const practiceMarkup = sut.elements.lessonContent.innerHTML;
+    assert.equal(occurrences(practiceMarkup, 'class="question-card '), 60, `${current.id}: all questions on one page`);
+    assert.equal(occurrences(practiceMarkup, 'data-compass-mc-choice='), 240, `${current.id}: four options per question`);
+    assert.match(practiceMarkup, /<mark class="compass-mc-diff">/, `${current.id}: visible neutral difference marks`);
+    assert.doesNotMatch(practiceMarkup, /<textarea|data-answer-input=/, `${current.id}: no typing in final practice`);
+  }
 });
 
 test("answering a later Compass question updates its card without rebuilding the long page", async () => {
