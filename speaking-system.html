@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apps/speaking/apple-touch-icon-152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="speaking-system.css?v=20260917-brush-controls1">
+  <link rel="stylesheet" href="speaking-system.css?v=20261022-eddy-gif1">
   <link rel="stylesheet" href="speaking-performance-indicator.css?v=20260916-study">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
@@ -56,7 +56,9 @@
           </button>
         </div>
 
-        <img class="header-mascot" src="assets/speaking-system/mascot-speaking-login-transparent.png" alt="" aria-hidden="true">
+        <button class="header-mascot" type="button" data-eddy-speaking-toggle aria-label="暫停 Eddy 說話動畫">
+          <img src="speaking-eddy/eddy-speaking.gif?v=20261022-1" alt="Eddy 在播客錄音室對着麥克風說話，咖啡冒出輕煙">
+        </button>
 
         <div class="header-actions edmund-system-header__actions" data-auth-actions hidden>
           <span class="connection-pill" data-connection-state="connecting" data-connection-pill>連接中</span>
@@ -156,6 +158,7 @@
   <script src="dse-speaking-source.js?v=20260911-2024a"></script>
   <script src="speaking-system.js?v=20261021-ielts-types1"></script>
   <script src="speaking-performance-indicator.js?v=20260916-study2"></script>
+  <script src="speaking-eddy-toggle.js?v=20261022-1" defer></script>
 <script type="module" src="speaking-transcription-controls.mjs?v=20260908-refine7"></script>
 </body>
 </html>

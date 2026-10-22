@@ -66,7 +66,9 @@ assert.ok(
 );
 assert.match(html, /flashcards\.html\?deck=ielts%2Freading%2Fpassage-1%2FPractice%2069/);
 assert.match(html, /model-essay-downloads\.html\?catalog=reading-passage-1&amp;item=63e1085c1daadcb8/);
-assert.doesNotMatch(html, /<dialog/);
+assert.equal((html.match(/<dialog\b/g) || []).length, 2, "only the two highlight confirmation prompts use native dialogs");
+assert.match(html, /<dialog[^>]*data-teaching-clear-dialog/);
+assert.match(html, /<dialog[^>]*data-word-remove-dialog/);
 assert.match(css, /grid-template-columns:minmax\(0,1\.15fr\) minmax\(390px,\.85fr\)/);
 assert.match(css, /@media\(max-width:1000px\)/);
 assert.match(css, /\.question-type-directory\s*\{/);

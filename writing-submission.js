@@ -3767,23 +3767,42 @@ function initialisePhoebeWritingToggle() {
   const button = elements.phoebeWritingToggle;
   if (!button) return;
   const image = button.querySelector('img');
+  const reducedMotionSource = button.querySelector('source[media="(prefers-reduced-motion: reduce)"]');
   const gifSrc = image.getAttribute('src');
-  const stillSrc = 'writing-phoebe-writing-still.png?v=20261021-smooth-48';
+  const stillSources = Array.from({ length: 7 }, (_, index) =>
+    `writing-phoebe-stills/phoebe-${String(index + 1).padStart(2, '0')}.png?v=20261022-pause-stills-crop2`
+  );
   const storageKey = 'edmund-writing-phoebe-visible';
-  let visible = true;
-  try { visible = localStorage.getItem(storageKey) !== 'false'; } catch { /* Storage may be unavailable. */ }
+  let playing = true;
+  let lastStillIndex = -1;
+  let lastPausedStillIndex = -1;
+  try { playing = localStorage.getItem(storageKey) !== 'false'; } catch { /* Storage may be unavailable. */ }
+  const chooseStill = () => {
+    const choices = stillSources.map((_, index) => index).filter((index) =>
+      index !== lastStillIndex && (playing || index !== lastPausedStillIndex)
+    );
+    lastStillIndex = choices[Math.floor(Math.random() * choices.length)];
+    if (!playing) lastPausedStillIndex = lastStillIndex;
+    return stillSources[lastStillIndex];
+  };
   const render = () => {
-    button.dataset.visible = String(visible);
-    button.setAttribute('aria-pressed', String(visible));
-    button.setAttribute('aria-label', visible ? '隱藏 Phoebe 寫字動畫' : '顯示 Phoebe 寫字動畫');
-    button.title = visible ? '點擊隱藏 Phoebe 寫字動畫；再點擊可顯示' : '點擊顯示 Phoebe 寫字動畫';
-    image.setAttribute('src', visible ? gifSrc : stillSrc);
+    const stillSrc = chooseStill();
+    button.dataset.playing = String(playing);
+    button.setAttribute('aria-pressed', String(playing));
+    button.setAttribute('aria-label', playing ? '暫停 Phoebe 寫字動畫' : '繼續 Phoebe 寫字動畫');
+    button.title = playing ? '點擊暫停 Phoebe 寫字動畫' : '點擊繼續 Phoebe 寫字動畫';
+    if (reducedMotionSource) reducedMotionSource.setAttribute('srcset', stillSrc);
+    image.setAttribute('src', playing ? gifSrc : stillSrc);
+    image.alt = playing ? 'Phoebe 在書房桌燈旁寫字' : 'Phoebe 暫停寫字';
   };
   button.addEventListener('click', () => {
-    visible = !visible;
-    try { localStorage.setItem(storageKey, String(visible)); } catch { /* Keep the toggle usable without storage. */ }
+    playing = !playing;
+    try { localStorage.setItem(storageKey, String(playing)); } catch { /* Keep the toggle usable without storage. */ }
     render();
   });
+  const preloadStills = () => stillSources.forEach((src) => { const still = new Image(); still.src = src; });
+  if ('requestIdleCallback' in window) window.requestIdleCallback(preloadStills);
+  else window.setTimeout(preloadStills, 2000);
   render();
 }
 

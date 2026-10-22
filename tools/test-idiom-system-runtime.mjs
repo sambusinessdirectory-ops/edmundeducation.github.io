@@ -16,6 +16,7 @@ const [dataSource, frontendSource, html, css] = await Promise.all([
   read("idiom-system.css")
 ]);
 const comparisonSource = await read("shared-answer-comparison.js");
+const compassSource = await read("idiom-first-five-curation.js");
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -154,7 +155,7 @@ function attemptSeed(overrides = {}) {
   };
 }
 
-function createFrontendHarness() {
+function createFrontendHarness({ withCompass = false } = {}) {
   const views = ["login", "dashboard", "lesson", "bookmarks", "admin"]
     .map((name) => makeElement({ dataset: { view: name } }));
   const steps = Array.from({ length: 8 }, (_, index) => (
@@ -339,6 +340,7 @@ function createFrontendHarness() {
   };
   vm.createContext(context);
   vm.runInContext(comparisonSource, context, { filename: "shared-answer-comparison.js" });
+  if (withCompass) vm.runInContext(compassSource, context, { filename: "idiom-first-five-curation.js" });
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
@@ -347,7 +349,9 @@ window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   openLesson, setLessonPage, renderLessonPage, renderLessonChoices, renderExercisePage,
-  renderFormulaPage, renderBenefitsPage, renderRulesPage,
+  renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, compassPracticeQuestions, compassMcOptions, answerCompassMcQuestion, compassBonusCorrectIds, handleClick, searchLessons,
+  compassReviewedCount, displayAttemptProgress,
+  clearSession,
   questionActivityRows, buildQuestionProgressSeries,
   updateLessonStepper, currentProgressQuestionId, focusExerciseQuestion,
   readExerciseDrafts, syncExerciseButtons, wrongQuestionIds, correctionQuestions,
@@ -360,6 +364,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
 
   return {
     apiCalls,
+    compass: window.EDMUND_IDIOM_COMPASS,
     answerInputs,
     controls,
     document,
@@ -879,6 +884,153 @@ test("a completed illustrated idiom card follows the gold artwork class path", (
     css,
     /\.lesson-choice-card \.lesson-choice\.is-complete:has\(\.lesson-choice-illustration\)\s*\{[^}]*linear-gradient[^}]*#e5b94f/is
   );
+});
+
+test("first five use distinct short compass lessons without example-sentence galleries", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  for (const current of content.lessons.slice(0, 5)) {
+    sut.openLesson(current.id, { page: 1, attempt: attemptSeed({ lessonId: current.id }) });
+    for (let page = 1; page <= 7; page += 1) {
+      sut.setLessonPage(page);
+      const markup = sut.elements.lessonContent.innerHTML;
+      assert.match(markup, /IDIOM COMPASS/);
+      assert.doesNotMatch(markup, /class="example-block"|class="examples"|例句 ·|EXAMPLE/);
+      assert.ok(!markup.includes(current.examples[0].english), `${current.id} old example must stay off the teaching pages`);
+    }
+  }
+});
+
+test("first five show a real idiom sentence and require idiom use in social signal, response and boundary", () => {
+  const { sut, compass } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  const idiomPatterns = {
+    "idiom-01": /start(?:ed|ing|s)? the ball rolling/i,
+    "idiom-02": /shake a leg/i,
+    "idiom-03": /hit the ground running/i,
+    "idiom-04": /chop and change|chops and changes|chopped and changed|chopping and changing/i,
+    "idiom-05": /think big|thinks big|thought big|thinking big/i
+  };
+  for (const current of content.lessons.slice(0, 5)) {
+    const guide = compass[current.id];
+    const idiom = idiomPatterns[current.id];
+    assert.match(guide.modelEn, idiom, `${current.id} model must use the idiom in a sentence`);
+    for (const page of [3, 5]) {
+      assert.match(guide.choices[page].optionsEn[guide.choices[page].correct], idiom, `${current.id} page ${page} correct answer must say the idiom`);
+    }
+    assert.ok(guide.choices[6].optionsEn.every((option) => idiom.test(option)), `${current.id} boundary choices must test actual idiom use`);
+    sut.openLesson(current.id, { page: 1, attempt: attemptSeed({ lessonId: current.id }) });
+    let markup = sut.elements.lessonContent.innerHTML;
+    assert.match(markup, /HEAR IT IN USE/);
+    assert.match(markup, idiom, `${current.id} page 1 must show the idiom in context`);
+    for (const page of [2, 3, 5, 6]) {
+      sut.setLessonPage(page);
+      markup = sut.elements.lessonContent.innerHTML;
+      assert.equal(occurrences(markup, 'class="compass-option-copy"'), 3);
+      assert.equal(occurrences(markup, "<strong>" ) >= 3, true);
+      assert.equal(occurrences(markup, "</strong><small>") >= 3, true);
+      assert.match(markup, /class="compass-option-copy"><strong>[A-Za-z]/);
+      assert.match(markup, /<\/strong><small>[\u3400-\u9fff]/);
+      if ([3, 5, 6].includes(page)) assert.match(markup, idiom, `${current.id} page ${page} must visibly use the idiom`);
+    }
+    sut.setLessonPage(7);
+    markup = sut.elements.lessonContent.innerHTML;
+    assert.match(markup, /Before you use it, ask yourself/);
+    assert.equal(occurrences(markup, "</strong><small>"), 3);
+  }
+});
+
+test("first-five practice uses single-answer English choices, including ten themed extras", async () => {
+  const { sut, apiCalls } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  for (const current of content.lessons.slice(0, 5)) {
+    const questions = sut.compassPracticeQuestions(current);
+    assert.equal(questions.length, 60, `${current.id} must have 60 practice questions`);
+    assert.equal(new Set(questions.slice(50).map((question) => question.theme)).size, 10, `${current.id} must cover ten themes`);
+    for (const question of questions) {
+      const { options, correctAt } = sut.compassMcOptions(question, current);
+      assert.equal(options.length, 3);
+      assert.equal(new Set(options).size, 3, `${question.id}: all three options must differ`);
+      assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
+      assert.equal(options[correctAt], question.answer);
+      assert.match(question.answer.toLowerCase(), /(ball rolling|shake a leg|ground running|chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es)?|(?:think(?:ing|s)?|thought) big)/, `${question.id} must use its lesson idiom`);
+    }
+  }
+  const jobLesson = content.lessons[2];
+  for (const [question, actor] of [[jobLesson.questions[0], "Sarah"], [jobLesson.questions[1], "coach"]]) {
+    const { options } = sut.compassMcOptions(question, jobLesson);
+    assert.ok(options.every((option) => option.toLowerCase().includes(actor.toLowerCase())), `${question.id}: every choice must keep the original actor`);
+    assert.ok(options.every((option) => option.includes("ground")), `${question.id}: the choices must differ in idiom use or meaning, not topic`);
+  }
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
+  assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'data-compass-mc-choice='), 15);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /<textarea|data-answer-input=|data-compass-reveal|data-compass-complete/);
+  assert.match(css, /\.compass-question \.question-prompt \.english \{ font-size: clamp\(20\.4px, 2\.4vw, 26\.4px\)/);
+  assert.match(css, /\.compass-mc-option strong \{[^}]*font-size: clamp\(18px, 2\.04vw, 21\.6px\)/);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
+  const first = lesson.questions[0];
+  const right = sut.compassMcOptions(first, lesson).correctAt;
+  await sut.answerCompassMcQuestion(first.id, (right + 1) % 3);
+  assert.equal(sut.state.exercise.correctIds.length, 0, "wrong choice must not score");
+  assert.match(sut.elements.lessonContent.innerHTML, /Not quite/);
+  await sut.answerCompassMcQuestion(first.id, right);
+  assert.deepEqual([...sut.state.exercise.correctIds], [first.id]);
+  assert.equal(sut.state.exercise.questionState[first.id].status, "correct");
+  assert.equal(sut.state.exercise.questionState[first.id].lastAnswer, first.answer);
+  const saved = apiCalls.filter((call) => call.options.method === "PUT").at(-1);
+  assert.ok(saved);
+  const payload = JSON.parse(saved.options.body);
+  assert.equal(payload.correctCount, 1);
+  assert.equal(payload.totalCount, 50, "the protected catalog still counts the original questions");
+  assert.equal(payload.result.questionState[first.id].lastAnswer, first.answer);
+  sut.state.exercise.pilotBatchIndex = 10;
+  sut.renderExercisePage(lesson);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 11 \/ 12 組/);
+  assert.match(sut.elements.lessonContent.innerHTML, /School debate/);
+  const extra = sut.compassPracticeQuestions(lesson)[50];
+  await sut.answerCompassMcQuestion(extra.id, sut.compassMcOptions(extra, lesson).correctAt);
+  assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
+  assert.equal(sut.state.exercise.correctIds.length, 1, "bonus ID must not enter the protected 50-question catalog");
+  assert.equal(sut.compassReviewedCount(lesson), 2);
+});
+
+test("Compass choices resume the first unanswered batch and legacy self-reviews do not count as correct", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /class="compass-feedback/);
+  sut.handleClick({ target: { closest(selector) {
+    return selector === "[data-compass-choice]" ? { dataset: { compassChoice: "0", compassPage: "2" } } : null;
+  } } });
+  assert.match(sut.elements.lessonContent.innerHTML, /class="compass-feedback/);
+  const reviewed = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "correct", lastAnswer: question.answer, reveal: true }]));
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ correctCount: 20, result: { questionState: reviewed, correctIds: lesson.questions.slice(0, 20).map((question) => question.id) } }) });
+  assert.match(sut.elements.lessonContent.innerHTML, /第 5 \/ 12 組/);
+  assert.equal(sut.pilotBatchQuestions()[0].id, lesson.questions[20].id);
+  sut.openLesson(lesson.id, { page: 8, questionId: lesson.questions[34].id });
+  assert.equal(sut.state.exercise.pilotBatchIndex, 6);
+  const oldReview = Object.fromEntries(lesson.questions.slice(0, 20).map((question) => [question.id, { status: "pending", lastAnswer: "My reviewed draft", reveal: true }]));
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed({ result: { questionState: oldReview, correctIds: [] } }) });
+  assert.equal(sut.compassReviewedCount(lesson), 0);
+  assert.match(sut.elements.lessonContent.innerHTML, /第 1 \/ 12 組/);
+});
+
+test("switching accounts isolates bonus progress and clears unsaved Compass choices", async () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 2, attempt: attemptSeed() });
+  sut.state.pilotSelections[`${lesson.id}:2`] = 1;
+  sut.state.pilotOpenModels.add(lesson.questions[0].id);
+  sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
+  const extra = sut.compassPracticeQuestions(lesson)[50];
+  await sut.answerCompassMcQuestion(extra.id, sut.compassMcOptions(extra, lesson).correctAt);
+  assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), true);
+  sut.clearSession();
+  assert.equal(Object.keys(sut.state.pilotSelections).length, 0);
+  assert.equal(sut.state.pilotOpenModels.size, 0);
+  authenticateStudent(sut, "student-b", "token-b");
+  assert.equal(sut.compassBonusCorrectIds(lesson).has(extra.id), false);
 });
 
 let failed = 0;

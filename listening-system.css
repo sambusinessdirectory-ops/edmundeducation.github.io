@@ -21,6 +21,25 @@ button { cursor: pointer; }
 .site-header { position: sticky; top: 0; z-index: 90; background: rgba(248,252,252,.9); border-bottom: 1px solid rgba(18,58,85,.1); backdrop-filter: blur(18px); }
 .header-inner { max-width: 1500px; margin: 0 auto; min-height: 74px; padding: 10px 24px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .header-actions { display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
+.edmund-system-header__actions > .elsie-listening-toggle {
+  flex: 0 0 78px;
+  width: 78px;
+  height: 78px;
+  min-height: 78px;
+  padding: 1px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 2px solid #b97591;
+  border-radius: 50%;
+  background: #ad607f;
+  cursor: pointer;
+}
+.elsie-listening-toggle:hover { border-color: #934466; }
+.elsie-listening-toggle:focus-visible { outline: 3px solid #176a82; outline-offset: 3px; }
+.elsie-listening-art,
+.elsie-listening-art img { display: block; width: 100%; height: 100%; border-radius: 50%; }
+.elsie-listening-art img { object-fit: cover; }
 .connection-pill, .user-pill, .header-button { border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; background: rgba(255,255,255,.88); color: var(--ink); font-weight: 800; }
 .connection-pill[data-state="online"] { background: #e8faf3; color: #087247; border-color: #a9e4ca; }
 .connection-pill[data-state="error"] { background: #fff1ee; color: #a13929; border-color: #f0beb6; }
@@ -74,6 +93,7 @@ input:focus, select:focus { border-color: var(--teal); box-shadow: 0 0 0 4px rgb
 .dashboard-hero h1, .section-heading h1 { font-size: clamp(2.4rem, 5vw, 5rem); }
 .dashboard-hero p:last-child, .section-heading p { color: var(--muted); font-size: 1.08rem; }
 .headphone-mark { font: 900 clamp(3rem, 8vw, 7rem)/1 system-ui, sans-serif; color: var(--teal); opacity: .8; }
+.dashboard-elsie-illustration { width: clamp(110px, 12vw, 160px); height: auto; aspect-ratio: 1; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 12px 18px rgba(42, 22, 43, .16)); }
 .system-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin-top: 24px; }
 .system-card { min-height: 280px; text-align: left; padding: 34px; border: 1px solid rgba(255,255,255,.9); border-radius: 28px; color: #fff; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease; }
 .system-card:hover, .system-card:focus-visible { transform: translateY(-5px); box-shadow: 0 30px 70px rgba(13,43,63,.2); }
@@ -403,6 +423,7 @@ audio { width: 100%; min-height: 54px; }
   .header-inner, .dashboard-hero, .section-heading { align-items: stretch; flex-direction: column; }
   .header-actions { justify-content: stretch; }
   .header-actions > * { flex: 1 1 auto; text-align: center; }
+  .edmund-system-header__actions > .elsie-listening-toggle { flex: 0 0 62px; width: 62px; height: 62px; min-height: 62px; }
   .login-hero, .login-panel, .dashboard-hero, .section-heading { padding: 26px 20px; }
   .login-hero { min-height: 460px; grid-template-columns: 1fr; align-content: center; gap: 22px; }
   .login-hero h1 { max-width: none; font-size: clamp(2.35rem, 12vw, 3.2rem); }

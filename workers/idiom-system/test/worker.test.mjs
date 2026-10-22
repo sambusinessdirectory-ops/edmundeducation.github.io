@@ -307,6 +307,36 @@ test("a valid PDF answer reaches the Idiom attempt RPC unchanged", async t => {
   );
 });
 
+test("self-reviewed draft remains pending and reaches the account without claiming a correct answer", async t => {
+  let upsertPayload = null;
+  installFetch(t, async (input, init = {}) => {
+    const functionName = rpcName(input);
+    const body = JSON.parse(String(init.body || "{}"));
+    if (functionName === "idiom_system_student_profile") return jsonResponse(studentProfile());
+    if (functionName === "idiom_system_upsert_attempt") {
+      upsertPayload = body;
+      return jsonResponse(attemptRow(body));
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+  const payload = attemptPayload();
+  payload.correctCount = 0;
+  payload.result.correctIds = [];
+  payload.result.questionState[QUESTION_IDS[0]] = {
+    status: "pending",
+    lastAnswer: "I started the group discussion with a question.",
+    reveal: true
+  };
+  payload.result.rounds = [];
+  payload.result.collapsedCorrectIds = [];
+
+  const response = await worker.fetch(attemptRequest(payload), environment());
+  assert.equal(response.status, 200);
+  assert.equal(upsertPayload.p_correct_count, 0);
+  assert.deepEqual(upsertPayload.p_result.correctIds, []);
+  assert.deepEqual(upsertPayload.p_result.questionState[QUESTION_IDS[0]], payload.result.questionState[QUESTION_IDS[0]]);
+});
+
 test("British and American spelling variants validate identically", async t => {
   let upsertPayload = null;
   installFetch(t, async (input, init = {}) => {

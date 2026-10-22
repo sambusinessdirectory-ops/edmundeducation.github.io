@@ -194,14 +194,16 @@
 /* The route pen points to the referenced file, then remains as a faint reading trace. */
 #curation-route-arrow{position:fixed;inset:0;width:100vw;height:100vh;z-index:112;pointer-events:none;overflow:visible;color:#d0282d}
 #curation-route-arrow[hidden],.curation-route-callout[hidden]{display:none!important}
-.curation-route-path{fill:none;stroke:#d0282d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 1px #fff8)}
+.curation-route-path{fill:none;stroke:#d0282d;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
 #curation-route-arrow.is-drawing .curation-route-path{stroke-dasharray:1;stroke-dashoffset:1;animation:curation-route-draw .9s cubic-bezier(.22,.8,.2,1) forwards}
 @keyframes curation-route-draw{to{stroke-dashoffset:0}}
 #curation-route-arrow.is-faded{opacity:.16;transition:opacity .55s ease}
-.curation-route-callout{position:fixed;z-index:113;pointer-events:none;box-sizing:border-box;max-width:182px;padding:7px 10px;border:2px solid #d0282d;border-radius:9px;background:#fff9f2;color:#ab1720;font:800 13px/1.25 system-ui,sans-serif;box-shadow:0 5px 15px #38080c44;transform:rotate(-3deg)}
+.curation-route-callout{position:fixed;z-index:113;pointer-events:none;box-sizing:border-box;width:max-content;max-width:248px;padding:7px 10px;border:1.5px solid #d0282d;border-radius:8px;background:#fffdf9;color:#ab1720;font:800 13px/1.25 system-ui,sans-serif;box-shadow:0 3px 9px #38080c2b}
+.curation-route-callout strong,.curation-route-callout span{display:block;white-space:nowrap}
+.curation-route-callout strong{font-size:12px;margin-bottom:2px}
 .curation-route-callout.is-faded{opacity:.16;transition:opacity .55s ease}
 .curation-note-task{position:relative;padding-right:40px}
-.curation-active .curation-note-task::after{content:attr(data-task);display:inline-grid;place-items:center;margin-left:12px;width:32px;height:32px;border:2px solid currentColor;border-radius:8px;transform:rotate(-6deg);font:900 22px/1 Georgia,serif;vertical-align:middle}
+.curation-active .curation-note-task.is-revealed::after{content:attr(data-task);display:inline-grid;place-items:center;margin-left:12px;width:32px;height:32px;border:2px solid currentColor;border-radius:8px;transform:rotate(-6deg);font:900 22px/1 Georgia,serif;vertical-align:middle}
 .curation-active .curation-note-task-A::after{color:#008c9d;background:#e5fbfc}
 .curation-active .curation-note-task-C::after{color:#b94964;background:#ffe7eb}
 .curation-active .curation-note-noise.is-revealed .curation-pen-line{background-size:100% 3px}
@@ -213,3 +215,45 @@
 .curation-model-essay h5{font:800 18px/1.35 Georgia,serif;margin:17px 0 7px}
 .curation-model-essay p{white-space:pre-line;margin:0 0 14px}
 @media(prefers-reduced-motion:reduce){#curation-route-arrow.is-drawing .curation-route-path{animation:none;stroke-dashoffset:0}#curation-route-arrow.is-faded,.curation-route-callout.is-faded{transition:none}}
+
+.curation-active .curation-note-task:not(.is-revealed){padding-right:0}
+
+/* Reveal the supplied transcript only as its recording cue is reached. */
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-A{background:#8ce7eb;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-C{background:#f7b1be;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-listening{background:#dbecc6;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-strike.is-revealed .curation-pen-line{background-size:100% 2.5px}
+.curation-active .curation-transcript-sentence:not(.is-revealed){background:transparent!important}
+.curation-active .curation-transcript-strike:not(.is-revealed) .curation-pen-line{background-size:0 2.5px}
+.curation-note-writing{background:#fff4d7!important;box-shadow:inset 0 0 0 2px #e4a329!important;transition:background .25s ease}
+
+.curation-active .curation-transcript-sentence.is-revealed .curation-transcript-inline-A{background:#8ce7eb;color:inherit}
+.curation-active .curation-transcript-sentence:not(.is-revealed) .curation-transcript-inline-A{background:transparent}
+
+/* Note-sheet evidence takes on its writing-task color only after that audio cue. */
+.curation-active #notes-wellness.curation-note-highlight-A{background-color:#d9f5f6!important;box-shadow:inset 4px 0 #008c9d}
+.curation-active #notes-parents.curation-note-highlight-C{background-color:#fce1e7!important;box-shadow:inset 4px 0 #c35070}
+
+/* Keep the same recording controls available while reading the supplied transcript. */
+.curation-active #page-3 .notes-audio.curation-audio-floating{position:fixed;z-index:130;width:auto;box-sizing:border-box;margin:0;padding:9px 12px 10px;border:2px solid #3c978c;border-radius:12px;background:#eaf5f3;box-shadow:0 12px 34px #10292146}
+.curation-active .curation-audio-floating::before{content:'會議錄音 · Podcast';display:block;margin-bottom:4px;font:800 12px/1.2 system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#174c44}
+.curation-active .curation-audio-floating .notes-audio-kicker,.curation-active .curation-audio-floating h3,.curation-active .curation-audio-floating .notes-audio-help{display:none}
+.curation-active .curation-audio-floating audio{width:100%;height:34px;margin:0}
+.curation-active .curation-audio-floating .notes-audio-status{margin:4px 0 0;font-size:11px}
+@media(max-width:620px){.curation-active #page-3 .notes-audio.curation-audio-floating{padding:6px 8px}.curation-active .curation-audio-floating::before{font-size:10px}.curation-active .curation-audio-floating audio{height:30px}}
+@media print{.curation-active #page-3 .notes-audio.curation-audio-floating{display:none!important}}
+
+/* Podcast controls and transcript live in the viewport, outside scrolling paper pages. */
+.curation-player[hidden],.curation-transcript-window[hidden]{display:none!important}
+.curation-podcast-active #page-3 .notes-audio{display:none}
+.curation-player{position:fixed;z-index:160;display:flex;align-items:center;gap:9px;box-sizing:border-box;min-height:56px;padding:7px 12px;background:#e6f4ef;border:2px solid #288578;border-radius:12px;box-shadow:0 12px 32px #071e1d55;font:700 12px/1.25 system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#133d37}
+.curation-player-title{white-space:nowrap}.curation-player button{cursor:pointer;border:0;border-radius:7px;background:#16584d;color:#fff;padding:7px 10px}.curation-player-seek{flex:1;min-width:45px;accent-color:#168983}.curation-player-time{white-space:nowrap;font-variant-numeric:tabular-nums}.curation-player-speed{white-space:nowrap}.curation-player-speed select{padding:5px;border:1px solid #8cb9a5;border-radius:6px;background:#fff;font:inherit;color:inherit}
+.curation-transcript-window{position:fixed;z-index:145;top:235px;right:18px;width:min(580px,42vw);height:min(590px,60vh);min-width:300px;min-height:180px;box-sizing:border-box;background:#fffdf8;border:2px solid #2d756d;border-radius:12px;box-shadow:0 18px 50px #071e1d72;overflow:hidden;color:#172e2c}
+.curation-transcript-window-head{height:43px;box-sizing:border-box;padding:7px 14px;display:flex;align-items:center;justify-content:space-between;gap:8px;background:#164b42;color:#fff;cursor:move;touch-action:none;font:700 12px/1.25 system-ui,-apple-system,"Noto Sans TC",sans-serif}.curation-transcript-window-head span{font-size:10px;font-weight:500;opacity:.82}.curation-transcript-window-body{height:calc(100% - 43px);overflow:auto;padding:15px 18px;overscroll-behavior:contain}.curation-transcript-window-page{border-bottom:1px solid #cbd9d3;padding-bottom:12px;margin-bottom:16px}.curation-transcript-window-page h3{font:800 14px/1.3 system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#19675d;margin:0 0 8px}.curation-transcript-window .speech{display:grid;grid-template-columns:72px minmax(0,1fr);gap:9px;padding:5px 0;border-bottom:1px solid #edf0ec;font:14px/1.55 Georgia,serif}.curation-transcript-window .speaker{color:#195b53}.curation-transcript-window .speech p{margin:0}.curation-transcript-window .translation{display:none}
+.curation-resize-handle{position:absolute;width:22px;height:22px;z-index:2;touch-action:none}.curation-resize-nw{top:0;left:0;cursor:nwse-resize}.curation-resize-ne{top:0;right:0;cursor:nesw-resize}.curation-resize-sw{bottom:0;left:0;cursor:nesw-resize}.curation-resize-se{bottom:0;right:0;cursor:nwse-resize}.curation-resize-handle::after{content:'';position:absolute;width:8px;height:8px;border:solid #2d756d;border-width:0 2px 2px 0;right:4px;bottom:4px}.curation-resize-nw::after{transform:rotate(180deg);left:4px;top:4px}.curation-resize-ne::after{transform:rotate(270deg);right:4px;top:4px}.curation-resize-sw::after{transform:rotate(90deg);left:4px;bottom:4px}
+@media(max-width:1099px){.curation-transcript-window{width:min(560px,60vw);height:40vh;right:8px}}
+@media(max-width:620px){.curation-player{flex-wrap:wrap;gap:5px;padding:5px 8px;font-size:10px}.curation-player-title{width:100%}.curation-player-time{font-size:10px}.curation-transcript-window{width:calc(100vw - 16px);height:34vh;right:8px}.curation-transcript-window-head span{display:none}}
+@media print{.curation-player,.curation-transcript-window{display:none!important}}
+
+@media(min-width:1100px){.curation-podcast-active .layout{padding-right:calc(min(560px,25vw) + 30px)!important}.curation-podcast-active .curation-transcript-window{width:min(560px,25vw)}}
+@media(max-width:620px){.curation-podcast-active .curation-dock{max-height:35vh;z-index:150}.curation-podcast-active .curation-transcript-window{height:26vh;max-height:220px}}

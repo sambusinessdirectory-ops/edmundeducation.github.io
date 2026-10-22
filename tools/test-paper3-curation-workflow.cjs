@@ -45,7 +45,7 @@ const server=http.createServer((req,res)=>{
     }
     await jump('Dear Nico');assert.equal(await page.locator('#page-4 .curation-mark-hint.is-revealed').count(),0,'boss highlights rewind with the step');assert.equal(await page.locator('#page-5 .curation-file-stamp-A').count(),0,'future source tags also rewind');
     await page.locator('[data-chapter="categorize"]').click();
-    await jump('聆聽筆記表');assert.ok(await page.locator('#page-3 .curation-file-stamp-A').isVisible());assert.ok(await page.locator('#page-3 .curation-file-stamp-C').isVisible());
+    await jump('聆聽筆記表');assert.equal(await page.locator('#page-3 .curation-file-stamp-A').count(),0,'note-sheet tags wait for their own category steps');await jump('健康月欄目');assert.ok(await page.locator('#page-3 .curation-file-stamp-A').isVisible());assert.equal(await page.locator('#page-3 .curation-file-stamp-C').count(),0);await jump('家長參與欄目');assert.ok(await page.locator('#page-3 .curation-file-stamp-C').isVisible());
     for(const [query,pageNo,task] of [['2024 健康月',6,'A'],['校園電視',7,'A'],['網誌',10,'C'],['運動雜誌',11,'B']]){
       await jump(query);
       assert.ok(await page.locator(`#page-${pageNo} .curation-file-stamp-${task}`).isVisible(),`${query} has Task ${task} stamp`);
@@ -120,7 +120,7 @@ const server=http.createServer((req,res)=>{
       assert.ok(await item.locator('.curation-source-mark.curation-reference-yellow').count()>0||await item.evaluate(e=>e.classList.contains('curation-source-fallback')&&e.classList.contains('curation-reference-yellow')),`${phrase} keeps Task B yellow`);
     }
     await jump('Ask Manraj in the School Events Team');
-    await page.waitForTimeout(850);
+    await page.locator('#curation-route-arrow').waitFor({state:'visible',timeout:3000});
     assert.ok(await page.locator('#curation-route-arrow').isVisible(),'source hint draws a visible red arrow');
     assert.ok(await page.locator('.curation-route-callout').innerText().then(t=>t.includes('第 9 頁')));
     await page.screenshot({path:'/private/tmp/paper3-curation-route-source.png',fullPage:false});
@@ -139,7 +139,7 @@ const server=http.createServer((req,res)=>{
     assert.deepEqual(typeSixMissing,[],'all Type 6 Data File sentences have red-pen strokes');
     await page.locator('[data-chapter="categorize"]').click();await jump('聆聽筆記表');
     assert.equal(await page.locator('#page-3 .curation-note-noise').count(),6,'all irrelevant listening-note headings and fields are marked');
-    assert.equal(await page.locator('#page-3 .curation-note-noise.is-revealed').count(),6);
+    assert.equal(await page.locator('#page-3 .curation-note-noise.is-revealed').count(),0,'note-sheet red strokes have not been previewed');await jump('家長參與欄目');assert.equal(await page.locator('#page-3 .curation-note-noise.is-revealed').count(),6,'note-sheet strokes reveal one category step at a time');
     assert.equal(await page.locator('.curation-model-essay').count(),3,'all three supplied essays are back in PP writing practice');
     assert.match(await page.locator('#curation-model-A').textContent(),/Relax and Recover/);
     assert.match(await page.locator('#curation-model-B').textContent(),/Cafeteria Beach/);

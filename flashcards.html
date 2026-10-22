@@ -166,18 +166,34 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      width: min(270px, 18vw);
-      max-height: 142px;
+      width: min(68px, 6vw);
+      aspect-ratio: 1;
       display: none;
       object-fit: contain;
-      pointer-events: none;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
       transform: translate(-50%, -50%);
-      filter: drop-shadow(0 16px 24px rgba(17,43,85,0.16));
+      filter: drop-shadow(0 4px 6px rgba(17,43,85,0.16));
       z-index: 1;
     }
 
     body.app-active .topbar-mascot {
       display: block;
+    }
+
+    .topbar-mascot img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .topbar-mascot:focus-visible {
+      outline: 3px solid #eaa743;
+      outline-offset: 5px;
+      border-radius: 50%;
     }
 
     .nav-actions {
@@ -424,7 +440,62 @@
     }
 
     .login-card {
-      padding: 38px;
+      position: relative;
+      isolation: isolate;
+      min-height: 480px;
+      padding: 72px 66px 70px;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+      backdrop-filter: none;
+    }
+
+    .login-card::before {
+      content: "";
+      position: absolute;
+      inset: -42px -48px;
+      z-index: -1;
+      background: url("flashcards-sky-caravan-login-frame-v1.webp") center / 100% 100% no-repeat;
+      filter: drop-shadow(0 28px 35px rgba(92, 73, 48, .22));
+      pointer-events: none;
+    }
+
+    .login-card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .login-card h2 {
+      color: #173f68;
+      text-shadow: 0 1px 0 rgba(255,255,255,.86);
+    }
+
+    .login-card label {
+      color: #76563e;
+    }
+
+    .login-card input {
+      border-color: rgba(173, 126, 78, .34);
+      background: linear-gradient(180deg, rgba(255,255,255,.94), rgba(251,244,229,.93));
+      box-shadow: inset 0 2px 5px rgba(109, 77, 45, .07), 0 1px 0 rgba(255,255,255,.86);
+    }
+
+    .login-card input:focus {
+      border-color: #62aedd;
+      box-shadow: 0 0 0 4px rgba(98,174,221,.18), inset 0 2px 5px rgba(109,77,45,.06);
+    }
+
+    .login-card .secondary-button {
+      border-color: rgba(92, 164, 209, .34);
+      color: #275f87;
+      background: rgba(246, 252, 255, .9);
+    }
+
+    .login-card .primary-button {
+      border: 1px solid rgba(255,255,255,.46);
+      background: linear-gradient(135deg, #69bce8, #3d87c8 58%, #b78957 145%);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.48), 0 8px 0 #2d658f, 0 20px 30px rgba(55,110,153,.24);
     }
 
     .panel-card,
@@ -3757,6 +3828,16 @@
         padding: 22px;
       }
 
+      .login-card {
+        min-height: 500px;
+        padding: 70px 46px 72px;
+        border-radius: 0;
+      }
+
+      .login-card::before {
+        inset: -26px -22px;
+      }
+
       .deck-card[data-deck-view] {
         padding: 14px;
       }
@@ -4018,7 +4099,9 @@
             <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
           </button>
         </div>
-        <img class="topbar-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+        <button class="topbar-mascot" type="button" data-eddy-flashcards-toggle aria-label="暫停 Eddy 翻卡動畫">
+          <img src="flashcards-eddy/eddy-flashcards.gif?v=20261022-2" alt="Eddy 在書房翻看學習卡，桌上分有完成與待複習兩疊">
+        </button>
         <div class="nav-actions edmund-system-header__actions">
           <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
           <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
@@ -18904,5 +18987,6 @@
   <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
   <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+  <script src="flashcards-eddy-toggle.js?v=20261022-2" defer></script>
 </body>
 </html>
