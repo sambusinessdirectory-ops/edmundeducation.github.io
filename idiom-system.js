@@ -1391,8 +1391,7 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
     state.exercise.correctionIds = [];
   }
   if (questionId && compassFor(lesson)) {
-    const questionIndex = compassPracticeQuestions(lesson).findIndex((question) => String(question.id) === String(questionId));
-    if (questionIndex >= 0) ensureExercise(lesson).pilotBatchIndex = Math.floor(questionIndex / 5);
+    ensureExercise(lesson);
   }
   if (state.lessonPage === EXERCISE_PAGE && questionId) {
     const exercise = ensureExercise(lesson);
@@ -1486,10 +1485,7 @@ function updateLessonStepper() {
 }
 
 function pilotBatchQuestions(lesson = getLesson()) {
-  const questions = compassPracticeQuestions(lesson);
-  const batchCount = Math.max(1, Math.ceil(questions.length / 5));
-  const batchIndex = Math.min(batchCount - 1, Math.max(0, Number(state.exercise?.pilotBatchIndex) || 0));
-  return questions.slice(batchIndex * 5, batchIndex * 5 + 5);
+  return compassPracticeQuestions(lesson);
 }
 
 function infoPageHeader(number, titleZh, titleEn, english, description = "") {
@@ -2024,19 +2020,184 @@ function questionHtml(question) {
   </article>`;
 }
 
+const COMPASS_DETAIL_SWAPS = {
+  "idiom-01": [
+    [/\bfirst\b/i, "last"], [/\bmeeting\b/i, "rehearsal"], [/\bclass\b/i, "club"],
+    [/\bdiscussion\b/i, "presentation"], [/\bschool\b/i, "office"],
+    [/\bintroduction\b/i, "conclusion"], [/\bidea\b/i, "objection"], [/\btask\b/i, "game"],
+    [/\bproject\b/i, "campaign"], [/\bdebate\b/i, "performance"], [/\bemail\b/i, "letter"],
+    [/\bbeach\b/i, "park"], [/\bclean-up\b/i, "festival"], [/\bbook\b/i, "film"],
+    [/\bjob\b/i, "course"], [/\bapplication\b/i, "interview"], [/\bwebsite\b/i, "brochure"],
+    [/\bfair\b/i, "concert"], [/\bshop\b/i, "library"], [/\bteam\b/i, "class"],
+    [/\bfamily\b/i, "club"], [/\bplans\b/i, "budgets"], [/\bplan\b/i, "budget"], [/\bnew\b/i, "old"],
+    [/\bday\b/i, "week"], [/\bshort\b/i, "lengthy"], [/\bhome\b/i, "school"],
+    [/\bdelivery\b/i, "collection"], [/\btesting\b/i, "announcing"], [/\bten\b/i, "two"],
+    [/\bcustomers\b/i, "workers"], [/\blift\b/i, "roof"], [/\brepair\b/i, "inspection"],
+    [/\bsimple\b/i, "lengthy"], [/\bvote\b/i, "speech"], [/\bfans\b/i, "staff"],
+    [/\b1,000\b/i, "100"], [/\bworkshop\b/i, "performance"], [/\bscene\b/i, "poster"],
+    [/\btravel\b/i, "school"], [/\bdates\b/i, "prices"], [/\bdance floor\b/i, "stage"],
+    [/\bbirthday\b/i, "retirement"], [/\bdinner\b/i, "breakfast"], [/\beasy\b/i, "difficult"],
+    [/\bmedicines\b/i, "drugs"], [/\bhospital\b/i, "office"],
+    [/\bwellbeing\b/i, "sports"], [/\boffering\b/i, "renting"]
+  ],
+  "idiom-02": [
+    [/\bone minute\b/i, "one hour"], [/\bminutes\b/i, "hours"], [/\bfive\b/i, "fifty"],
+    [/\btwo\b/i, "twenty"], [/\bten\b/i, "thirty"], [/\bsix\b/i, "nine"],
+    [/\bschool bus\b/i, "city bus"], [/\bmiss\b/i, "catch"],
+    [/\bbus\b/i, "train"], [/\btrain\b/i, "flight"], [/\btaxi\b/i, "bus"],
+    [/\bfilm\b/i, "play"], [/\bclass\b/i, "meeting"], [/\bshop\b/i, "museum"],
+    [/\bmatch\b/i, "practice"], [/\btest\b/i, "lesson"], [/\binterview\b/i, "appointment"],
+    [/\blate\b/i, "early"], [/\bstarts\b/i, "ends"],
+    [/\bstart\b/i, "end"], [/\bcloses\b/i, "opens"], [/\bleaves\b/i, "arrives"],
+    [/\beveryone is waiting for us\b/i, "everyone has gone without us"],
+    [/\bwaiting for us\b/i, "already inside"], [/\bwaiting\b/i, "looking"],
+    [/\balready\b/i, "rarely"], [/\bsoon\b/i, "tomorrow"],
+    [/\bready\b/i, "unprepared"], [/\btoday\b/i, "tomorrow"], [/\bnoon\b/i, "midnight"],
+    [/\bschool\b/i, "office"], [/\bteam\b/i, "audience"], [/\bnext\b/i, "last"],
+    [/\bhome\b/i, "school"], [/\bclouds\b/i, "sunshine"], [/\bfood\b/i, "drinks"],
+    [/\bgate\b/i, "café"], [/\bprinter\b/i, "scanner"], [/\bpapers\b/i, "posters"],
+    [/\bflight\b/i, "concert"], [/\bgates\b/i, "shops"], [/\bpacking\b/i, "unpacking"],
+    [/\blibrary\b/i, "classroom"], [/\bcake\b/i, "soup"], [/\boven\b/i, "fridge"],
+    [/\bguests\b/i, "neighbours"], [/\bchairs\b/i, "tables"], [/\brain\b/i, "wind"],
+    [/\bbooks\b/i, "games"], [/\bcurtain\b/i, "rehearsal"], [/\bnow\b/i, "tomorrow"],
+    [/\bmeeting\b/i, "rehearsal"], [/\bthirty\b/i, "forty"], [/\blunch\b/i, "dinner"],
+    [/\barrive\b/i, "leave"], [/\bfinish\b/i, "start"], [/\bclose\b/i, "open"]
+  ],
+  "idiom-03": [
+    [/\bfirst day\b/i, "final day"], [/\bday one\b/i, "week ten"], [/\bfirst week\b/i, "last week"],
+    [/\buseful changes\b/i, "minor notes"], [/\bready\b/i, "unprepared"],
+    [/\bfirst\b/i, "last"], [/\bimmediately\b/i, "gradually"], [/\balready\b/i, "eventually"],
+    [/\btomorrow\b/i, "next month"], [/\byesterday\b/i, "next month"], [/\bMonday\b/i, "Friday"],
+    [/\bmorning\b/i, "evening"], [/\bweek\b/i, "month"], [/\bday\b/i, "month"],
+    [/\bnew\b/i, "former"], [/\bjob\b/i, "course"], [/\bproject\b/i, "campaign"],
+    [/\bcourse\b/i, "project"], [/\bteam\b/i, "class"], [/\bplan\b/i, "report"],
+    [/\btraining\b/i, "interview"], [/\bresults\b/i, "plans"], [/\bchanges\b/i, "notes"],
+    [/\bimproved\b/i, "reviewed"], [/\bfixing\b/i, "reviewing"], [/\bproduced\b/i, "discussed"],
+    [/\bstart\b/i, "finish"], [/\bbeginning\b/i, "end"], [/\blaunch\b/i, "closing"],
+    [/\bmeeting\b/i, "interview"], [/\bschool\b/i, "office"], [/\bclub\b/i, "team"],
+    [/\bhospital\b/i, "clinic"], [/\broutine\b/i, "budget"], [/\bfunding\b/i, "report"],
+    [/\blive event\b/i, "practice session"], [/\bevent\b/i, "meeting"],
+    [/\bsupport\b/i, "supervision"], [/\bdetails\b/i, "figures"], [/\bmistakes\b/i, "delays"],
+    [/\baccount\b/i, "project"], [/\bdata\b/i, "equipment"], [/\barticle\b/i, "proposal"],
+    [/\btraining\b/i, "interview"], [/\bafternoon\b/i, "evening"],
+    [/\bsteps\b/i, "plans"], [/\bconfidence\b/i, "permission"], [/\bbrief\b/i, "contract"],
+    [/\bapproved\b/i, "rejected"],
+    [/\bunclear\b/i, "clear"], [/\binstructions\b/i, "warnings"],
+    [/\bprepared\b/i, "unprepared"], [/\bexperienced\b/i, "new"],
+    [/\brisks\b/i, "benefits"], [/\bwill not\b/i, "will"],
+    [/\bdid not\b/i, "did"], [/\bcannot\b/i, "can"], [/\bNo\b/i, "Yes"]
+  ],
+  "idiom-04": [
+    [/\bthis weekend\b/i, "next weekend"], [/\bweekend\b/i, "holiday"],
+    [/\bMonday\b/i, "Tuesday"], [/\bFriday\b/i, "Thursday"],
+    [/\bblue\b/i, "red"], [/\bgreen\b/i, "yellow"],
+    [/\bItalian\b/i, "Indian"], [/\bChinese\b/i, "Thai"],
+    [/\bsix\b/i, "eight"], [/\bseven\b/i, "nine"],
+    [/\bconcert\b/i, "play"], [/\bdate\b/i, "venue"], [/\bhotel\b/i, "restaurant"],
+    [/\bphone\b/i, "laptop"], [/\bcourse\b/i, "job"], [/\brestaurant\b/i, "café"],
+    [/\bpicnic\b/i, "party"], [/\bposter\b/i, "website"], [/\bdesign\b/i, "schedule"],
+    [/\bstudy plans\b/i, "revision topics"], [/\bplans\b/i, "schedules"],
+    [/\bplan\b/i, "budget"], [/\bchoice\b/i, "answer"], [/\bproject\b/i, "holiday"],
+    [/\bteam\b/i, "class"], [/\bopening\b/i, "closing"], [/\bhours\b/i, "prices"],
+    [/\bmonth\b/i, "week"], [/\bevery\b/i, "one"], [/\btwo\b/i, "three"],
+    [/\bthree\b/i, "four"], [/\bday\b/i, "week"], [/\btime\b/i, "place"],
+    [/\broom\b/i, "garden"], [/\broute\b/i, "stop"], [/\bweek\b/i, "month"],
+    [/\bbuy\b/i, "sell"], [/\bmorning\b/i, "afternoon"], [/\bevening\b/i, "night"],
+    [/\bhome\b/i, "school"], [/\boffice\b/i, "studio"], [/\bflats\b/i, "houses"],
+    [/\brules\b/i, "teams"], [/\bgame\b/i, "meeting"], [/\bmenu\b/i, "sign"],
+    [/\bguests\b/i, "staff"], [/\bnumber\b/i, "names"], [/\bactivities\b/i, "lessons"],
+    [/\bSaturday\b/i, "Friday"], [/\bSunday\b/i, "Monday"],
+    [/\bchildren\b/i, "adults"], [/\badults\b/i, "staff"], [/\bline-up\b/i, "schedule"],
+    [/\bending\b/i, "opening"], [/\blesson\b/i, "holiday"],
+    [/\btimetable\b/i, "menu"], [/\bvenue\b/i, "date"], [/\breunion\b/i, "concert"],
+    [/\bdifferent\b/i, "identical"], [/\bclear\b/i, "vague"],
+    [/\bjob\b/i, "course"], [/\bbefore\b/i, "after"], [/\bcolour\b/i, "size"],
+    [/\bwalls\b/i, "curtains"], [/\bideas\b/i, "venues"],
+    [/\bchoose one\b/i, "choose three"]
+  ],
+  "idiom-05": [
+    [/\bacross Hong Kong\b/i, "within one school"], [/\bthe whole school\b/i, "just one class"],
+    [/\bwhole town\b/i, "one street"], [/\banother country\b/i, "the same town"],
+    [/\bcity championship\b/i, "local friendly match"], [/\bnext match\b/i, "training session"],
+    [/\bthree branches\b/i, "one branch"], [/\b2,000\b/i, "20"], [/\b100\b/i, "10"],
+    [/\bevery\b/i, "one"], [/\bworld\b/i, "town"],
+    [/\binternational\b/i, "local"], [/\bregional\b/i, "school-wide"],
+    [/\babroad\b/i, "near home"], [/\bcity-wide\b/i, "street-wide"],
+    [/\bcity\b/i, "school"], [/\btown\b/i, "school"], [/\bcommunity\b/i, "family"],
+    [/\bbranches\b/i, "tables"], [/\bthree\b/i, "one"], [/\bchildren\b/i, "adults"], [/\bstudents\b/i, "teachers"],
+    [/\bschool\b/i, "club"], [/\bclass\b/i, "team"], [/\bwebsite\b/i, "noticeboard"],
+    [/\bapp\b/i, "poster"], [/\blibrary\b/i, "shelf"], [/\bshow\b/i, "meeting"],
+    [/\bplan\b/i, "trial"], [/\bproject\b/i, "task"], [/\bprogramme\b/i, "session"],
+    [/\bregion\b/i, "school"], [/\bpeople\b/i, "friends"], [/\bonline\b/i, "in-person"],
+    [/\btheatres\b/i, "classrooms"], [/\bmusic\b/i, "sport"], [/\bafford\b/i, "finish"],
+    [/\bclub\b/i, "team"], [/\bbusiness\b/i, "hobby"], [/\bcustomers\b/i, "workers"],
+    [/\brooms\b/i, "desks"], [/\bguests\b/i, "staff"], [/\bservice\b/i, "menu"],
+    [/\bfilter\b/i, "poster"], [/\bvillages\b/i, "offices"],
+    [/\baccessible\b/i, "private"], [/\btours\b/i, "meetings"], [/\bcities\b/i, "schools"],
+    [/\bchampionship\b/i, "qualifier"], [/\bwin\b/i, "enter"],
+    [/\bnext year\b/i, "next month"], [/\btowns\b/i, "schools"],
+    [/\bone room\b/i, "one desk"], [/\blearning centre\b/i, "café"]
+  ]
+};
+
+// Short source-bound rewrites for answers whose relevant detail falls before
+// the idiom. They keep the actor and the sentence length close to the answer.
+const COMPASS_CURATED_DETAIL_SWAPS = {
+  "idiom-01-q18": [["a new price", "an old price"], ["company that sells us paper", "company that sells us ink"]],
+  "idiom-01-q43": [["reading projects", "sports events"], ["other schools", "local museums"]],
+  "idiom-02-q36": [["the classroom", "the library"], ["get into the classroom", "wait outside the classroom"]],
+  "idiom-02-q37": [["last bus", "first bus"], ["last bus", "last train"]],
+  "idiom-02-q40": [["meeting starts", "meeting ends"], ["two thirty", "three thirty"]],
+  "idiom-02-q41": [["still on time", "already cancelled"], ["still packing", "already seated"]],
+  "idiom-02-q43": [["the cake", "the bread"], ["before the guests arrive", "after the guests leave"]],
+  "idiom-03-q14": [["expects its new sales director", "doesn't expect its new sales director"]],
+  "idiom-03-q36": [["already tested", "not tested"], ["doors opened", "doors closed"]],
+  "idiom-03-q45": [["final training", "initial interview"], ["Not if", "Yes, if"]],
+  "idiom-05-q20": [["grow across the city", "grow within one school"], ["from the beginning", "at the very end"]],
+  "idiom-05-q48": [["transport", "housing"], ["across the whole area", "on one street"]],
+  "idiom-05-bonus-06": [["an international tour", "a local tour"], ["an international tour", "an international show"]]
+};
+
+function compassMcDetailFoils(answer, lessonId, questionId = "") {
+  const curated = COMPASS_CURATED_DETAIL_SWAPS[questionId];
+  if (curated) return curated.map(([original, replacement]) => ({
+    text: answer.replace(original, replacement),
+    reason: `這句把原題的「${original}」改成「${replacement}」，與原來的情境不符。`
+  }));
+  const idiomPattern = {
+    "idiom-01": /\b(?:start(?:ed|s|ing)?|keep(?:s|ing|t)?) the ball rolling\b/i,
+    "idiom-02": /shake a leg/i,
+    "idiom-03": /hit(?:ting)? the ground running/i,
+    "idiom-04": /chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es|e)?/i,
+    "idiom-05": /\b(?:think(?:ing|s)?|thought) big\b/i
+  }[lessonId];
+  const idiom = idiomPattern?.exec(answer);
+  if (!idiom) return [];
+  const before = answer.slice(0, idiom.index + idiom[0].length);
+  const after = answer.slice(idiom.index + idiom[0].length);
+  const prefix = answer.slice(0, idiom.index);
+  const variants = [];
+  for (const [pattern, replacement] of COMPASS_DETAIL_SWAPS[lessonId] || []) {
+    const useAfter = pattern.test(after);
+    const target = useAfter ? after : prefix;
+    const match = pattern.exec(target);
+    if (!match) continue;
+    // Earlier words may describe the actor. Only alter a pre-idiom stance or
+    // readiness cue; otherwise keep that actor and its role identical.
+    if (!useAfter && !/^(?:Yes|No|ready|unprepared|prepared|unclear|clear|did not|will not|cannot)$/i.test(match[0])) continue;
+    const changed = useAfter
+      ? `${before}${after.slice(0, match.index)}${replacement}${after.slice(match.index + match[0].length)}`
+      : `${prefix.slice(0, match.index)}${replacement}${prefix.slice(match.index + match[0].length)}${answer.slice(idiom.index)}`;
+    if (changed === answer || variants.some((variant) => variant.text === changed)) continue;
+    variants.push({ text: changed, reason: `這句把原題的「${match[0]}」改成「${replacement}」，與原來的情境不符。` });
+    if (variants.length === 2) break;
+  }
+  return variants;
+}
+
 function compassMcFoils(question, lesson) {
   const answer = String(question.answer || "");
   const lessonId = String(lesson?.id || "");
-  if (question.id === "idiom-04-q01" && lessonId === "idiom-04") {
-    return {
-      foils: [
-        "Daniel is still considering his weekend options, but he has not changed his plan once.",
-        "Daniel changed his weekend plan several times, but he made his final choice yesterday.",
-        "Daniel settled on one weekend plan immediately and has stuck to it ever since."
-      ],
-      detailKind: "contradiction"
-    };
-  }
   const formFoil = {
     "idiom-01": () => answer.replace(/\b(started|starts|start|starting) the ball rolling\b/i, (_, verb) => {
       const replacement = { started: "kept", starts: "keeps", start: "keep", starting: "keeping" }[verb.toLowerCase()];
@@ -2047,15 +2208,6 @@ function compassMcFoils(question, lesson) {
     "idiom-04": () => answer.replace(/chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es|e)?/i, (phrase) => phrase.replace(/ and /i, " or ")),
     "idiom-05": () => answer.replace(/\b(thinking|thinks|think|thought) big\b/i, (_, verb) => `${verb} small`)
   }[lessonId]?.() || "";
-  const contradiction = {
-    "idiom-01": ["after the activity was already well under way", "even though no action followed and nothing else began"],
-    "idiom-02": ["even though there was no reason to hurry", "when everyone had plenty of time and no deadline"],
-    "idiom-03": ["although no useful work began until weeks later", "even though arriving early was the only action taken"],
-    "idiom-04": ["even though the plan changed only once for a good reason", "although the decision stayed exactly the same throughout"],
-    "idiom-05": ["although the goal remained one tiny routine task", "only because the object in question was physically large"]
-  }[lessonId] || [];
-  const ending = answer.match(/[.!?]$/)?.[0] || ".";
-  const isConditionalOrNegative = /\b(?:if|unless|would|could|might|may|can|should|although|not|never|without|no one|nobody|cannot|can't|couldn't|won't|wouldn't|didn't|don't|doesn't|wasn't|weren't)\b/i.test(answer);
   const alternateForm = {
     "idiom-01": () => answer.replace(/the ball rolling/i, "the ball moving"),
     "idiom-02": () => answer.replace(/shake a leg/i, (phrase) => phrase[0] === "S" ? "Shake both legs" : "shake both legs"),
@@ -2063,18 +2215,28 @@ function compassMcFoils(question, lesson) {
     "idiom-04": () => answer.replace(/chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es|e)?/i, (phrase) => phrase.replace(/ and /i, " then ")),
     "idiom-05": () => answer.replace(/\b(thinking|thinks|think|thought) big\b/i, (_, verb) => `${verb} large`)
   }[lessonId]?.() || "";
-  const detailFoil = isConditionalOrNegative && alternateForm
-    ? alternateForm
-    : `${answer.replace(/[.!?]$/, "")}, ${contradiction[(Number(question.number || 1) + Number(lessonId.slice(-2))) % 2]}${ending}`;
-  const thirdFoil = `${answer.replace(/[.!?]$/, "")}, ${contradiction[(Number(question.number || 1) + Number(lessonId.slice(-2)) + 1) % 2]}${ending}`;
-  return { foils: [formFoil, detailFoil, thirdFoil], detailKind: isConditionalOrNegative && alternateForm ? "alternate" : "contradiction", thirdKind: "contradiction" };
+  const details = compassMcDetailFoils(answer, lessonId, question.id);
+  const anotherForm = {
+    "idiom-01": () => answer.replace(/the ball rolling/i, "the ball turning"),
+    "idiom-02": () => answer.replace(/shake a leg/i, (phrase) => phrase[0] === "S" ? "Shake both feet" : "shake both feet"),
+    "idiom-03": () => answer.replace(/the ground running/i, "the ground sprinting"),
+    "idiom-04": () => answer.replace(/ and /i, " but "),
+    "idiom-05": () => answer.replace(/\b(thinking|thinks|think|thought) big\b/i, (_, verb) => `${verb} huge`)
+  }[lessonId]?.() || "";
+  const foils = [{ text: formFoil, kind: "form" }, ...details];
+  for (const text of [alternateForm, anotherForm]) {
+    if (foils.length === 3) break;
+    if (text && text !== answer && !foils.some((foil) => foil.text === text)) {
+      foils.push({ text, reason: "此選項改動了慣用語的固定說法，未能自然表達原意。" });
+    }
+  }
+  return foils;
 }
 
 function compassMcOptions(question, lesson = getLesson()) {
   const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 4;
-  const { foils, detailKind, thirdKind } = compassMcFoils(question, lesson);
+  const foils = compassMcFoils(question, lesson);
   const lessonId = String(lesson?.id || "");
-  const isDanielQuestion = lessonId === "idiom-04" && question.id === "idiom-04-q01";
   const reasons = {
     "idiom-01": {
       correct: "“start the ball rolling” 表示率先採取行動，讓事情開始推進；這符合原句。",
@@ -2107,11 +2269,7 @@ function compassMcOptions(question, lesson = getLesson()) {
       contradiction: "此選項把宏大的目標變成小事，或把 “big” 誤解為物件的實際大小。"
     }
   }[lessonId] || {};
-  const entries = [
-    { text: foils[0], reason: isDanielQuestion ? "Daniel 一次也沒有改過週末計劃；原句卻說他已改了好幾次。" : reasons.form || "此選項改變了慣用語的意思或固定說法。" },
-    { text: foils[1], reason: isDanielQuestion ? "Daniel 昨天已作最後決定；原句卻說他至今仍未決定。" : reasons[detailKind] || "此選項改變了原句的重要細節。" },
-    { text: foils[2], reason: isDanielQuestion ? "Daniel 一開始便選定同一個計劃，此後沒有改變；原句卻說他多次改變主意，仍未決定。" : reasons[thirdKind] || "此選項改變了原句的重要細節。" }
-  ];
+  const entries = foils.map((foil) => ({ text: foil.text, reason: foil.reason || reasons[foil.kind] || "此選項改變了原句的重要細節。" }));
   entries.splice(correctAt, 0, { text: question.answer, reason: reasons.correct || "此選項保留原意，並自然地用上慣用語。" });
   return { options: entries.map((entry) => entry.text), rationales: entries.map((entry) => entry.reason), correctAt };
 }
@@ -2129,16 +2287,6 @@ function compassMcHighlightedOptions(options, questionId = "") {
     }
     return result + escapeHtml(text.slice(cursor));
   };
-
-  // This question has deliberately different whole-sentence meanings, so mark the teaching point instead of most of each sentence.
-  if (questionId === "idiom-04-q01") {
-    const focus = ["has not changed his plan once", "made his final choice yesterday", "settled on one weekend plan immediately", "keeps chopping and changing"];
-    return texts.map((value) => {
-      const phrase = focus.find((part) => value.toLocaleLowerCase("en").includes(part));
-      const start = phrase ? value.toLocaleLowerCase("en").indexOf(phrase) : -1;
-      return start < 0 ? escapeHtml(value) : renderRanges(value, [{ start, end: start + phrase.length }]);
-    });
-  }
 
   // Progressively align the words shared by every option. A pairwise LCS keeps
   // the work quadratic as the number of choices grows.
@@ -2228,7 +2376,6 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const isCompass = Boolean(compassFor(lesson));
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const total = isCompass ? compassPracticeQuestions(lesson).length : lesson.questions?.length || 0;
-  const batchCount = isCompass ? Math.ceil(total / 5) : 0;
   const correct = isCompass ? compassReviewedCount(lesson) : state.exercise.correctIds.length;
   const percentage = total ? Math.round((correct / total) * 100) : 0;
   const remaining = total - correct;
@@ -2250,7 +2397,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const bulkVisibilityLabel = allVisibleCorrectCollapsed
     ? "展開所有已完成題目"
     : "隱藏所有已完成題目";
-  const instructionZh = isCompass ? "原有 50 題及 10 題延伸練習全數保留；每組五題、每題四個選項。選出唯一符合情境的英文慣用語句子。答錯可再試；延伸題進度儲存在此裝置。" : String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
+  const instructionZh = isCompass ? "原有 50 題及 10 題延伸練習全數列在下方；每題四個選項。選出唯一符合原意的英文句子。答錯可再試；延伸題進度儲存在此裝置。" : String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
   const instructionEn = isCompass ? "Choose one natural English sentence for each situation." : String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
   const illustrationAlt = String(lesson.imageAlt || `${lessonEnglishTitle(lesson)} illustration`);
   const illustrationCaptionZh = String(lesson.imageCaptionZh || lessonTitle(lesson));
@@ -2259,13 +2406,11 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   elements.lessonContent.innerHTML = `<section class="exercise-page ${isCompass ? "is-compass" : ""}">
     <header class="exercise-header">
       <div class="exercise-header-top">
-        <div><p class="eyebrow">${isCompass ? "IDIOM COMPASS · CHOOSE THE RIGHT SENTENCE" : "PAGE 8 · TYPE THE WHOLE SENTENCE"}</p><h2>${isCompass ? "五題一組 · 英文選擇題" : "慣用語句子改寫練習"}</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
+        <div><p class="eyebrow">${isCompass ? "IDIOM COMPASS · CHOOSE THE RIGHT SENTENCE" : "PAGE 8 · TYPE THE WHOLE SENTENCE"}</p><h2>${isCompass ? "全部題目 · 英文選擇題" : "慣用語句子改寫練習"}</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
     </header>
-
-    ${isCompass ? `<nav class="compass-batch-nav" aria-label="練習組別"><span>第 ${Number(state.exercise.pilotBatchIndex || 0) + 1} / ${batchCount} 組 · 題目 ${Number(state.exercise.pilotBatchIndex || 0) * 5 + 1}–${Math.min(total, Number(state.exercise.pilotBatchIndex || 0) * 5 + 5)}</span><div><button class="secondary-button" type="button" data-pilot-batch="prev" ${Number(state.exercise.pilotBatchIndex || 0) === 0 ? "disabled" : ""}>← 上五題</button><button class="secondary-button" type="button" data-pilot-batch="next" ${Number(state.exercise.pilotBatchIndex || 0) >= batchCount - 1 ? "disabled" : ""}>下五題 →</button></div></nav>` : ""}
 
     ${lesson.image && !isCompass ? `<figure class="exercise-idiom-illustration">
       <img src="${escapeHtml(lesson.image)}" alt="${escapeHtml(illustrationAlt)}" loading="lazy" decoding="async">
@@ -2301,8 +2446,6 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     <div class="question-list" id="idiom-system-question-list" data-question-list>
       ${displayQuestions.map(isCompass ? compassQuestionHtml : questionHtml).join("")}
     </div>
-
-    ${isCompass && !completed && !state.exercise.correctionMode && !submissionQuestions(lesson).length ? `<div class="compass-batch-complete" role="status"><strong>這五題完成了！</strong><span>${Number(state.exercise.pilotBatchIndex || 0) < batchCount - 1 ? "準備好時，按「下五題」繼續。" : "可回到之前的組別改正未完成的題目。"}</span></div>` : ""}
 
     ${!isCompass && !completed && !state.exercise.awaitingNextRound && (!state.exercise.correctionMode || correctionRemaining.length) ? `<div class="exercise-actions">
       <span class="exercise-action-copy" data-exercise-action-copy>${state.exercise.correctionMode ? "修改錯題後提交；答對的題卡會留在目前畫面供你核對。" : "可提交全部答案，或只檢查已輸入的題目。"}</span>
@@ -2944,16 +3087,6 @@ function handleClick(event) {
     const page = Number(compassChoice.dataset.compassPage);
     state.pilotSelections[`${state.lessonId}:${page}`] = Number(compassChoice.dataset.compassChoice);
     renderCompassPage(getLesson(), page);
-    return;
-  }
-  const pilotBatchButton = event.target.closest("[data-pilot-batch]");
-  if (pilotBatchButton && compassFor() && state.exercise) {
-    readExerciseDrafts();
-    const change = pilotBatchButton.dataset.pilotBatch === "next" ? 1 : -1;
-    state.exercise.pilotBatchIndex = Math.max(0, Math.min(Math.ceil(compassPracticeQuestions(getLesson()).length / 5) - 1, Number(state.exercise.pilotBatchIndex || 0) + change));
-    renderExercisePage(getLesson());
-    scheduleExercisePersistence();
-    document.querySelector(".exercise-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
   const searchResult = event.target.closest("[data-lesson-search-result]");

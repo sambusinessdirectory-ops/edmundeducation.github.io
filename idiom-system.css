@@ -1104,15 +1104,8 @@ body > .site-header.edmund-system-header {
 .compass-ready ol { display: grid; gap: 12px; margin: 0; padding-left: 24px; font-size: 18px; font-weight: 700; }
 .compass-ready li strong { color: var(--navy-deep); }
 .compass-ready + .compass-note { max-width: 850px; margin-top: 16px; }
-.compass-batch-nav { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin: 18px 0; padding: 16px 18px; border: 1px solid rgba(139,70,29,.16); border-radius: 17px; background: #fff8eb; }
-.compass-batch-nav > span { color: var(--navy-deep); font-weight: 850; }
-.compass-batch-nav > div { display: flex; gap: 8px; flex-wrap: wrap; }
-.compass-batch-nav button { min-height: 39px; padding: 8px 12px; }
-.compass-batch-nav button:disabled { opacity: .4; cursor: not-allowed; }
-.compass-batch-complete { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; padding: 18px 22px; border: 1px solid #93c8a8; border-radius: 16px; color: #15583b; background: #eaf8ef; }
-.compass-batch-complete strong { font-size: 18px; }
 .exercise-page.is-compass .exercise-idiom-illustration img { max-height: 230px; object-fit: contain; }
-.compass-question { padding: clamp(19px,2.5vw,27px); }
+.compass-question { padding: clamp(19px,2.5vw,27px); content-visibility: auto; contain-intrinsic-size: auto 460px; }
 .compass-question .question-prompt { margin-bottom: 18px; }
 .compass-question .question-prompt .english { font-size: clamp(20.4px, 2.4vw, 26.4px); }
 .compass-choice-hint { margin-top: 13px; color: #7a4c28; font-size: 16.8px; font-weight: 700; }
