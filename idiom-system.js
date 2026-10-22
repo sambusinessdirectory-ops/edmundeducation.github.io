@@ -1498,22 +1498,26 @@ function renderCompassPage(lesson, page) {
   const choiceKey = `${lesson.id}:${page}`;
   const selected = state.pilotSelections[choiceKey];
   const rotation = choice ? (Number(lesson.order || 0) + page) % choice.options.length : 0;
-  const options = choice ? choice.options.map((_, index) => choice.options[(index - rotation + choice.options.length) % choice.options.length]) : [];
+  const options = choice ? choice.options.map((_, index) => {
+    const sourceIndex = (index - rotation + choice.options.length) % choice.options.length;
+    return { en: choice.optionsEn[sourceIndex], zh: choice.options[sourceIndex] };
+  }) : [];
   const correctOption = choice ? (choice.correct + rotation) % choice.options.length : -1;
   let body = "";
-  if (page === 1) body = `<div class="compass-intro"><div class="compass-meaning"><span>這句真正想說</span><strong>${escapeHtml(guide.meaningZh)}</strong><p>${escapeHtml(guide.meaningEn)}</p></div>${lesson.image ? `<img class="compass-art" src="${escapeHtml(lesson.image)}" alt="${escapeHtml(lesson.imageAlt || lessonEnglishTitle(lesson))}" loading="lazy">` : ""}</div>
-    <div class="compass-two"><div class="compass-note"><span>畫面記憶</span><p>${escapeHtml(guide.picture)}</p></div><div class="compass-note"><span>別用錯</span><p>${escapeHtml(guide.boundary)}</p></div></div>`;
-  else if (page === 4) body = `<div class="compass-shape"><div><span>固定部分 · KEEP</span><strong>${escapeHtml(guide.fixed)}</strong></div><div><span>可變部分 · CHANGE</span><p>${escapeHtml(guide.moving)}</p></div></div>
-    <div class="compass-form-list" aria-label="慣用語形式">${guide.forms.map((form) => `<span>${escapeHtml(form)}</span>`).join("")}</div><p class="compass-footnote">只看短語形式；完整句子留待練習時自己組織。</p>`;
-  else if (page === 7) body = `<div class="compass-ready"><p>寫之前，快速問自己三個問題：</p><ol>${guide.checks.map((check) => `<li>${escapeHtml(check)}</li>`).join("")}</ol></div><div class="compass-note"><span>練習方式</span><p>下一頁每次只顯示五題。先完成眼前五題，再決定是否繼續；已做的題目會保留。</p></div>`;
-  else body = `${page === 3 ? `<div class="compass-two"><div class="compass-note"><span>自然場合</span><p>${escapeHtml(guide.where)}</p></div><div class="compass-note"><span>語氣提示</span><p>${escapeHtml(guide.tone)}</p></div></div>` : ""}
-    ${page === 6 ? `<div class="compass-note compass-boundary"><span>使用界線</span><p>${escapeHtml(guide.boundary)}</p></div>` : ""}
-    <section class="compass-decision" aria-labelledby="compass-prompt"><span>停一停，作個判斷</span><h3 id="compass-prompt">${escapeHtml(choice.promptZh)}<small>${escapeHtml(choice.promptEn)}</small></h3>
-      <div class="compass-options">${options.map((option, index) => `<button class="compass-option ${selected !== undefined && index === correctOption ? "is-right" : selected === index ? "is-wrong" : ""}" type="button" data-compass-choice="${index}" data-compass-page="${page}" aria-pressed="${selected === index}"><span>${index + 1}</span>${escapeHtml(option)}</button>`).join("")}</div>
-      ${selected !== undefined ? `<p class="compass-feedback ${selected === correctOption ? "is-right" : "is-wrong"}" role="status">${selected === correctOption ? "✓ 判斷合適。" : "再想想；綠色是較合適的選擇。"} ${escapeHtml(choice.feedback)}</p>` : ""}</section>
-    ${page === 3 ? `<p class="compass-footnote">${escapeHtml(guide.formal)}</p>` : ""}`;
+  const note = (label, en, zh, extra = "") => `<div class="compass-note ${extra}"><span>${label}</span><p class="compass-english">${escapeHtml(en)}</p><p class="compass-chinese">${escapeHtml(zh)}</p></div>`;
+  if (page === 1) body = `<div class="compass-intro"><div class="compass-meaning"><span>MEANING · 意思</span><strong>${escapeHtml(guide.meaningEn)}</strong><p>${escapeHtml(guide.meaningZh)}</p></div>${lesson.image ? `<img class="compass-art" src="${escapeHtml(lesson.image)}" alt="${escapeHtml(lesson.imageAlt || lessonEnglishTitle(lesson))}" loading="lazy">` : ""}</div>
+    <div class="compass-two">${note("MENTAL PICTURE · 畫面記憶", guide.pictureEn, guide.picture)}${note("USE WITH CARE · 別用錯", guide.boundaryEn, guide.boundary)}</div>`;
+  else if (page === 4) body = `<div class="compass-shape"><div><span>KEEP · 固定部分</span><strong>${escapeHtml(guide.fixed)}</strong></div><div><span>CHANGE · 可變部分</span><p class="compass-english">${escapeHtml(guide.movingEn)}</p><p class="compass-chinese">${escapeHtml(guide.moving)}</p></div></div>
+    <div class="compass-form-list" aria-label="Idiom forms · 慣用語形式">${guide.forms.map((form) => `<span>${escapeHtml(form)}</span>`).join("")}</div><p class="compass-footnote">Practise the phrase shape here; build your own full sentence in the next activity.<small>先掌握短語形式，再於練習中自己組句。</small></p>`;
+  else if (page === 7) body = `<div class="compass-ready"><p>Before you use it, ask yourself:<small>使用前，問自己：</small></p><ol>${guide.checksEn.map((check, index) => `<li><strong>${escapeHtml(check)}</strong><small>${escapeHtml(guide.checks[index])}</small></li>`).join("")}</ol></div>${note("PRACTICE · 練習方式", "Work through five questions at a time. Your answers are saved as you go.", "每次先完成五題；作答進度會保留。")}`;
+  else body = `${page === 3 ? `<div class="compass-two">${note("WHERE IT FITS · 自然場合", guide.whereEn, guide.where)}${note("TONE · 語氣提示", guide.toneEn, guide.tone)}</div>` : ""}
+    ${page === 6 ? note("USE WITH CARE · 使用界線", guide.boundaryEn, guide.boundary, "compass-boundary") : ""}
+    <section class="compass-decision" aria-labelledby="compass-prompt"><span>YOUR CALL · 作個判斷</span><h3 id="compass-prompt">${escapeHtml(choice.promptEn)}<small>${escapeHtml(choice.promptZh)}</small></h3>
+      <div class="compass-options">${options.map((option, index) => `<button class="compass-option ${selected !== undefined && index === correctOption ? "is-right" : selected === index ? "is-wrong" : ""}" type="button" data-compass-choice="${index}" data-compass-page="${page}" aria-pressed="${selected === index}"><span>${index + 1}</span><span class="compass-option-copy"><strong>${escapeHtml(option.en)}</strong><small>${escapeHtml(option.zh)}</small></span></button>`).join("")}</div>
+      ${selected !== undefined ? `<div class="compass-feedback ${selected === correctOption ? "is-right" : "is-wrong"}" role="status"><strong>${selected === correctOption ? "✓ Good call." : "Try again; the green answer fits better."} ${escapeHtml(choice.feedbackEn)}</strong><small>${escapeHtml(choice.feedback)}</small></div>` : ""}</section>
+    ${page === 3 ? `<p class="compass-footnote">${escapeHtml(guide.formalEn)}<small>${escapeHtml(guide.formal)}</small></p>` : ""}`;
   elements.lessonContent.innerHTML = `<article class="info-page compass-page">
-    <header class="compass-header"><span class="page-label">IDIOM COMPASS · ${eyebrow}</span><h2>${escapeHtml(titleZh)}<small>${escapeHtml(titleEn)}</small></h2><p>${escapeHtml(lessonEnglishTitle(lesson))}</p></header>
+    <header class="compass-header"><span class="page-label">IDIOM COMPASS · ${eyebrow}</span><h2>${escapeHtml(titleEn)}<small>${escapeHtml(titleZh)}</small></h2><p>${escapeHtml(lessonEnglishTitle(lesson))}</p></header>
     ${body}${navHtml(page)}
   </article>`;
 }

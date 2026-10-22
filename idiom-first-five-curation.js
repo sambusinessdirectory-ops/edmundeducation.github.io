@@ -97,5 +97,88 @@
       }
     }
   };
+  // English carries the task; Traditional Chinese supports comprehension below it.
+  const english = {
+    "idiom-01": {
+      pictureEn: "A still ball needs someone to give it the first push.",
+      boundaryEn: "Use this for a first step that leads to further action. For a one-off action, simply say start.",
+      whereEn: "Group discussions, meetings and the launch of a project.",
+      toneEn: "Friendly and neutral in everyday or workplace English.",
+      formalEn: "In a legal or academic report, initiate or launch may be more precise.",
+      movingEn: "Change start for tense: starts, started, starting. Keep the ball rolling together.",
+      checksEn: ["Has someone taken the first step?", "Did that step help others move forward?", "Did I keep the ball rolling in order?"],
+      choices: {
+        2: { promptEn: "Which situation would you describe with start the ball rolling?", optionsEn: ["A group member asks the first question, and everyone begins discussing.", "A student wakes up on time alone every morning.", "A two-hour meeting is coming to an end."], feedbackEn: "The first question opens the discussion and gives others something to build on." },
+        3: { promptEn: "Which wording suits a formal legal report?", optionsEn: ["Use initiate and name the procedure clearly.", "Use this idiom in every paragraph.", "Replace every use of start with this idiom."], feedbackEn: "The idiom is natural in conversation, but a legal report needs the more precise verb." },
+        5: { promptEn: "Your group has not started discussing. What could you do?", optionsEn: ["Ask one clear question that everyone can discuss.", "Comment that time is passing quickly.", "Announce that the discussion is over."], feedbackEn: "A concrete opening question is a useful first step." },
+        6: { promptEn: "When would this idiom be a poor fit?", optionsEn: ["Someone contacts volunteers, and the clean-up begins.", "A team offers its first idea, which others develop.", "One person opens a drawer, and nothing follows."], feedbackEn: "Without a wider process to set in motion, an ordinary verb is clearer." }
+      }
+    },
+    "idiom-02": {
+      pictureEn: "You are asking someone to move faster, not literally to shake a leg.",
+      boundaryEn: "It can sound bossy with a stranger, an injured person or anyone who deserves extra care.",
+      whereEn: "Friends, family or teammates when a bus or event is about to start.",
+      toneEn: "Informal and familiar, with a slightly old-fashioned feel. It may sound playful or impatient.",
+      formalEn: "For a formal request, say please hurry or explain the deadline politely.",
+      movingEn: "Keep a leg singular. The phrase can stand alone or follow need to or must.",
+      checksEn: ["Is there a real need to hurry?", "Am I speaking to someone I know well?", "Did I say a leg, not legs?"],
+      choices: {
+        2: { promptEn: "When might you naturally say shake a leg?", optionsEn: ["A friend is still packing, and the school bus leaves in two minutes.", "A shop assistant rushes a customer who is walking slowly because of an injury.", "Everyone has arrived an hour early, so there is no rush."], feedbackEn: "There is genuine time pressure, and the listener is a familiar friend." },
+        3: { promptEn: "How should you ask an unfamiliar customer to submit a form soon?", optionsEn: ["Make a polite, specific request and give the deadline.", "Order the customer to shake a leg.", "Say nothing about when the form is needed."], feedbackEn: "This idiom can sound too blunt for someone you do not know." },
+        5: { promptEn: "Your teammate is still changing, and the match is about to start. What would you do?", optionsEn: ["Remind your teammate to hurry and mention the start time.", "Praise your teammate for arriving early.", "Talk only about next week's practice."], feedbackEn: "The reminder makes sense when you explain the immediate time pressure." },
+        6: { promptEn: "Which claim about shake a leg is mistaken?", optionsEn: ["It can be a light reminder to a close teammate.", "It can urge someone to move faster when time is short.", "It is equally polite to everyone in every situation."], feedbackEn: "Its effect depends on your relationship and the situation." }
+      }
+    },
+    "idiom-03": {
+      pictureEn: "Imagine landing and moving at once, with no long warm-up period.",
+      boundaryEn: "Being fast is not enough; the person must make useful progress from the start.",
+      whereEn: "A new job, school term, project or team role.",
+      toneEn: "Positive and fairly neutral; common in workplace talk and presentations.",
+      formalEn: "In a technical report, begin work immediately and effectively may be clearer.",
+      movingEn: "The past tense of hit is still hit, never hitted.",
+      checksEn: ["Is this a new beginning?", "Was there useful action straight away?", "Did I keep hit as the past-tense form?"],
+      choices: {
+        2: { promptEn: "Who has hit the ground running?", optionsEn: ["A new colleague organises the files and solves a problem on day one.", "A new colleague reaches the office door early but does no work.", "Someone continues the same project after a year of work."], feedbackEn: "A new start and immediate, effective work are both present." },
+        3: { promptEn: "In an interview, what would this idiom emphasise about a new role?", optionsEn: ["I can contribute and make progress immediately.", "I can physically run very fast.", "I can arrive at the building early."], feedbackEn: "The phrase praises effective action from the beginning." },
+        5: { promptEn: "A new teammate improves the process on day one. How would you respond?", optionsEn: ["Recognise the useful contribution made right away.", "Comment only on the teammate's shoes.", "Say that the teammate has not begun working."], feedbackEn: "Focus on the immediate result in the new role." },
+        6: { promptEn: "Which situation is only about literal speed?", optionsEn: ["A new leader coordinates an important task immediately.", "A new student helps the team complete its task on day one.", "A new employee runs upstairs but has not begun working."], feedbackEn: "Running up stairs does not mean becoming effective in a new role." }
+      }
+    },
+    "idiom-04": {
+      pictureEn: "A decision keeps switching back and forth, making it hard for others to follow.",
+      boundaryEn: "One sensible change, especially for a good reason, is not chop and change.",
+      whereEn: "Plans, choices or working methods that change repeatedly.",
+      toneEn: "Informal and more common in British English; it often carries mild criticism.",
+      formalEn: "In a formal report, use change repeatedly or make repeated changes.",
+      movingEn: "Change both verbs together: chops and changes, chopped and changed, chopping and changing.",
+      checksEn: ["Has the plan changed more than once?", "Does it seem inconsistent or unsettled?", "Did both verbs take the matching form?"],
+      choices: {
+        2: { promptEn: "Which situation shows someone chopping and changing?", optionsEn: ["The event date moves from Monday to Friday and back to Monday.", "A storm forces one date change, and it then stays fixed.", "Someone uses a knife to cut vegetables."], feedbackEn: "Repeated changes back and forth are the key idea." },
+        3: { promptEn: "How would you describe repeated changes neutrally in a formal report?", optionsEn: ["Say that the team changed the plan repeatedly.", "Accuse everyone of chopping and changing.", "Leave out the number of changes entirely."], feedbackEn: "A formal report usually needs direct, objective language." },
+        5: { promptEn: "Your group has changed its plan for the fourth time. What would you say?", optionsEn: ["Explain the disruption and ask the group to settle on a plan.", "Praise this as the very first change.", "Switch to an unrelated topic."], feedbackEn: "The idiom often signals frustration with repeated changes." },
+        6: { promptEn: "Which rule about this idiom is accurate?", optionsEn: ["Any single change is enough to use it.", "It fits repeated or unnecessary changes, not one sensible revision.", "It fits whenever someone uses a knife."], feedbackEn: "One justified change is different from repeatedly changing course." }
+      }
+    },
+    "idiom-05": {
+      pictureEn: "Lift your eyes from a small immediate task to a much wider goal.",
+      boundaryEn: "It means being ambitious, not merely thinking carefully; ambition alone does not guarantee success.",
+      whereEn: "Study plans, careers, community projects and creative work.",
+      toneEn: "Positive and encouraging; it invites someone to aim beyond a small target.",
+      formalEn: "For a very formal document, describe the large-scale plan directly.",
+      movingEn: "Change think for the subject and tense: thinks, thought, thinking. Keep big unchanged.",
+      checksEn: ["Is the goal more ambitious than the immediate task?", "Am I talking about ambition, not physical size?", "Did I change think correctly for the subject and tense?"],
+      choices: {
+        2: { promptEn: "Who is thinking big?", optionsEn: ["A student expands a class garden idea into a whole-school project.", "A student carefully measures a very large cardboard box.", "A student plans to finish one exercise today."], feedbackEn: "The idea grows from one class to an entire school." },
+        3: { promptEn: "What are you encouraging a classmate to do when you say think big?", optionsEn: ["Look beyond the limits of a small first plan.", "Assume success is certain, so planning is unnecessary.", "Find a physically large object."], feedbackEn: "It encourages ambition, without promising that every plan will succeed." },
+        5: { promptEn: "A classmate wants to open the school website to students across Hong Kong. What next?", optionsEn: ["Recognise the broader goal, then discuss practical steps.", "Comment only on the size of the website icon.", "Say that the plan has already been completed."], feedbackEn: "A big goal still needs a workable path." },
+        6: { promptEn: "Which interpretation of think big is wrong?", optionsEn: ["It can describe a plan with a wider reach.", "It can encourage someone to aim further ahead.", "It means thinking about a large physical object."], feedbackEn: "Big refers to ambition or scale, not an object's dimensions." }
+      }
+    }
+  };
+  for (const [id, copy] of Object.entries(english)) {
+    const { choices, ...lessonCopy } = copy;
+    Object.assign(lessons[id], lessonCopy);
+    for (const [page, choiceCopy] of Object.entries(choices)) Object.assign(lessons[id].choices[page], choiceCopy);
+  }
   window.EDMUND_IDIOM_COMPASS = Object.freeze(lessons);
 })();

@@ -901,6 +901,30 @@ test("first five use distinct short compass lessons without example-sentence gal
   }
 });
 
+test("first five teach and test in English with Chinese beneath every option", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  authenticateStudent(sut);
+  for (const current of content.lessons.slice(0, 5)) {
+    sut.openLesson(current.id, { page: 1, attempt: attemptSeed({ lessonId: current.id }) });
+    let markup = sut.elements.lessonContent.innerHTML;
+    assert.ok(markup.indexOf("<strong>Take") < markup.indexOf("<p>有人") || current.id !== "idiom-01");
+    assert.match(markup, /class="compass-english"/);
+    for (const page of [2, 3, 5, 6]) {
+      sut.setLessonPage(page);
+      markup = sut.elements.lessonContent.innerHTML;
+      assert.equal(occurrences(markup, 'class="compass-option-copy"'), 3);
+      assert.equal(occurrences(markup, "<strong>" ) >= 3, true);
+      assert.equal(occurrences(markup, "</strong><small>") >= 3, true);
+      assert.match(markup, /class="compass-option-copy"><strong>[A-Za-z]/);
+      assert.match(markup, /<\/strong><small>[\u3400-\u9fff]/);
+    }
+    sut.setLessonPage(7);
+    markup = sut.elements.lessonContent.innerHTML;
+    assert.match(markup, /Before you use it, ask yourself/);
+    assert.equal(occurrences(markup, "</strong><small>"), 3);
+  }
+});
+
 test("compass practice shows five questions at a time and records self-review after model comparison", async () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);

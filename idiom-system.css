@@ -1012,7 +1012,9 @@ body > .site-header.edmund-system-header {
 .compass-meaning p { margin: 0; color: var(--muted); font: 600 16px/1.6 system-ui,sans-serif; }
 .compass-two { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin: 18px 0; }
 .compass-note { padding: 20px 23px; border: 1px solid rgba(167,91,33,.16); border-radius: 19px; background: rgba(255,249,239,.93); }
-.compass-note p { margin: 8px 0 0; font-size: 17px; font-weight: 650; line-height: 1.6; }
+.compass-note p { margin: 8px 0 0; line-height: 1.6; }
+.compass-note .compass-english,.compass-shape .compass-english { color: var(--navy-deep); font-size: 18px; font-weight: 800; }
+.compass-note .compass-chinese,.compass-shape .compass-chinese { color: var(--muted); font-size: 14px; font-weight: 550; }
 .compass-boundary { margin-bottom: 18px; border-color: rgba(188,76,56,.26); background: #fff5f1; }
 .compass-decision { max-width: 870px; padding: clamp(22px,3vw,32px); border: 1px solid rgba(148,67,34,.18); border-radius: 24px; background: #fff; box-shadow: 0 18px 50px rgba(119,44,17,.08); }
 .compass-decision h3 { margin: 8px 0 20px; color: var(--ink); font-size: clamp(20px,2.2vw,27px); }
@@ -1021,11 +1023,15 @@ body > .site-header.edmund-system-header {
 .compass-option { display: flex; align-items: center; gap: 13px; width: 100%; min-height: 63px; padding: 12px 16px; border: 1px solid rgba(158,96,50,.2); border-radius: 15px; color: var(--ink); background: #fffaf1; text-align: left; font-weight: 750; cursor: pointer; transition: transform .15s ease,box-shadow .15s ease,border-color .15s ease; }
 .compass-option:hover,.compass-option:focus-visible { transform: translateY(-2px); border-color: #d59650; box-shadow: 0 10px 24px rgba(151,81,28,.12); }
 .compass-option > span { flex: 0 0 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; color: #9d5024; background: #ffebcd; font: 900 12px system-ui,sans-serif; }
+.compass-option > .compass-option-copy { flex: 1 1 auto; height: auto; display: block; border-radius: 0; color: inherit; background: none; font: inherit; }
+.compass-option-copy strong { display: block; color: var(--navy-deep); font-size: 17px; line-height: 1.4; }
+.compass-option-copy small,.compass-feedback small,.compass-ready small,.compass-footnote small { display: block; margin-top: 4px; color: var(--muted); font: 550 13px/1.5 system-ui,sans-serif; }
 .compass-option.is-right { border-color: #4caa75; background: #edfff2; }
 .compass-option.is-wrong { border-color: #d98374; background: #fff4f1; }
 .compass-feedback { margin: 15px 0 0; padding: 13px 16px; border-radius: 12px; font-weight: 750; }
 .compass-feedback.is-right { color: #175e3d; background: #eaf8ef; }
 .compass-feedback.is-wrong { color: #a34535; background: #fff0eb; }
+.compass-feedback strong { display: block; }
 .compass-shape { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; max-width: 870px; }
 .compass-shape > div { min-height: 155px; padding: 24px; border: 1px solid rgba(166,91,41,.2); border-radius: 20px; background: #fff; }
 .compass-shape strong { display: block; margin-top: 14px; color: var(--navy-deep); font: 800 clamp(20px,2.3vw,28px) system-ui,sans-serif; }
@@ -1036,6 +1042,7 @@ body > .site-header.edmund-system-header {
 .compass-ready { max-width: 850px; padding: 25px; border: 1px solid rgba(143,37,20,.2); border-radius: 22px; background: #fff; }
 .compass-ready p { margin: 0 0 15px; color: var(--navy-deep); font-size: 20px; font-weight: 850; }
 .compass-ready ol { display: grid; gap: 12px; margin: 0; padding-left: 24px; font-size: 18px; font-weight: 700; }
+.compass-ready li strong { color: var(--navy-deep); }
 .compass-ready + .compass-note { max-width: 850px; margin-top: 16px; }
 .compass-batch-nav { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin: 18px 0; padding: 16px 18px; border: 1px solid rgba(139,70,29,.16); border-radius: 17px; background: #fff8eb; }
 .compass-batch-nav > span { color: var(--navy-deep); font-weight: 850; }
