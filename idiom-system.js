@@ -2346,8 +2346,14 @@ function compassQuestionHtml(question) {
     <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}${question.theme ? ` · ${escapeHtml(question.theme)}` : ""}${complete ? " · 答對 ✓" : ""}</span>${question.bonus ? '<span class="compass-bonus-label">EXTRA PRACTICE</span>' : `<button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>`}</div>
     <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p>${question.promptZh ? `<p class="chinese">${escapeHtml(question.promptZh)}</p>` : ""}<p class="compass-choice-hint" lang="zh-Hant">哪一句既保留原意，也自然地用上本課的英語慣用語？</p></div>
     <div class="compass-mc-options" role="group" aria-label="第 ${escapeHtml(question.number)} 題：選出符合原意的英語句子">${options.map((option, index) => `<button class="compass-mc-option ${complete && index === correctAt ? "is-correct" : selection === index ? "is-wrong" : ""}" type="button" data-compass-mc-choice="${escapeHtml(question.id)}" data-compass-mc-index="${index}" aria-pressed="${complete ? index === correctAt : selection === index}" ${complete ? "disabled" : ""}><span>${String.fromCharCode(65 + index)}</span><strong>${highlightedOptions[index]}</strong></button>`).join("")}</div>
-    <div class="compass-mc-feedback" lang="zh-Hant" aria-live="polite">${complete ? `<strong>✓ 答對！逐項看看原因：</strong><ul>${rationales.map((reason, index) => `<li><b>${String.fromCharCode(65 + index)}：</b> ${escapeHtml(reason)}</li>`).join("")}</ul>` : Number.isInteger(selection) ? `<strong>再想想。</strong> ${escapeHtml(rationales[selection] || "請對照原句和慣用語，再選一次。")} 請再選一次。` : ""}</div>
+    <div class="compass-mc-feedback" lang="zh-Hant" aria-live="polite">${compassMcFeedbackHtml(complete, selection, rationales)}</div>
   </article>`;
+}
+
+function compassMcFeedbackHtml(complete, selection, rationales) {
+  if (complete) return `<strong>✓ 答對！逐項看看原因：</strong><ul>${rationales.map((reason, index) => `<li><b>${String.fromCharCode(65 + index)}：</b> ${escapeHtml(reason)}</li>`).join("")}</ul>`;
+  if (Number.isInteger(selection)) return `<strong>再想想。</strong> ${escapeHtml(rationales[selection] || "請對照原句和慣用語，再選一次。")} 請再選一次。`;
+  return "";
 }
 
 function activeQuestions(lesson = getLesson()) {
@@ -2499,6 +2505,46 @@ function readExerciseDrafts() {
   });
 }
 
+function updateCompassMcQuestion(lesson, question) {
+  const card = document.querySelector(`[data-question-id="${CSS.escape(question.id)}"]`);
+  const buttons = [...(card?.querySelectorAll?.("[data-compass-mc-index]") || [])];
+  const feedback = card?.querySelector?.(".compass-mc-feedback");
+  if (!card || buttons.length !== 4 || !feedback) return false;
+
+  const complete = compassReviewedIds(lesson, state.exercise.questionState, state.exercise.correctIds).has(question.id);
+  const selection = state.pilotSelections[`mc:${lesson.id}:${question.id}`];
+  const { rationales, correctAt } = compassMcOptions(question, lesson);
+  card.classList.toggle("is-correct", complete);
+  const number = card.querySelector(".question-number");
+  if (number) number.textContent = `QUESTION ${question.number || ""}${question.theme ? ` · ${question.theme}` : ""}${complete ? " · 答對 ✓" : ""}`;
+  buttons.forEach((button, index) => {
+    button.classList.toggle("is-correct", complete && index === correctAt);
+    button.classList.toggle("is-wrong", !complete && selection === index);
+    button.setAttribute("aria-pressed", String(complete ? index === correctAt : selection === index));
+    button.disabled = complete;
+  });
+  feedback.innerHTML = compassMcFeedbackHtml(complete, selection, rationales);
+
+  const total = compassPracticeQuestions(lesson).length;
+  const correct = compassReviewedCount(lesson);
+  const progress = elements.lessonContent.querySelector(".exercise-progress");
+  progress?.style?.setProperty("--progress", `${Math.round((correct / total) * 100)}%`);
+  const labels = elements.lessonContent.querySelectorAll(".exercise-progress-label span");
+  if (labels[0]) labels[0].textContent = `已完成 ${correct} / ${total} 題`;
+  if (labels[1]) labels[1].textContent = `尚餘 ${total - correct} 題`;
+  updateLessonStepper();
+
+  if (correct === total && !elements.lessonContent.querySelector(".completion-card")) {
+    elements.lessonContent.querySelector("[data-question-list]")?.insertAdjacentHTML("afterend", `<section class="round-summary completion-card">
+      <div class="completion-mark" aria-hidden="true">✓</div>
+      <h3>全部選擇題已答對！</h3>
+      <p>你已答對 <strong>${escapeHtml(total)}</strong> 題，並練習在不同情境使用這個慣用語。</p>
+      <div class="round-summary-actions"><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
+    </section>`);
+  }
+  return true;
+}
+
 async function answerCompassMcQuestion(questionId, selectedIndex) {
   const lesson = getLesson();
   if (!compassFor(lesson) || !state.exercise || !Number.isInteger(selectedIndex)) return;
@@ -2507,7 +2553,7 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
   const { correctAt } = compassMcOptions(question, lesson);
   if (selectedIndex !== correctAt) {
     state.pilotSelections[`mc:${lesson.id}:${questionId}`] = selectedIndex;
-    renderExercisePage(lesson, { preserveScroll: true });
+    if (!updateCompassMcQuestion(lesson, question)) renderExercisePage(lesson, { preserveScroll: true });
     return;
   }
   delete state.pilotSelections[`mc:${lesson.id}:${questionId}`];
@@ -2517,7 +2563,9 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
     state.exercise.questionState[questionId] = { status: "correct", lastAnswer: question.answer, reveal: true };
   }
   if (compassReviewedCount(lesson) === compassPracticeQuestions(lesson).length) pauseExerciseClock();
-  renderExercisePage(lesson, { preserveScroll: true });
+  if (!updateCompassMcQuestion(lesson, question)) renderExercisePage(lesson, { preserveScroll: true });
+  syncHorseyTrophies();
+  horseyTrophies?.celebrate(elements.lessonContent, lesson, state.exercise.correctIds);
   if (!question.bonus) {
     try { await persistExercise(); }
     catch (error) { console.warn("Idiom choice save failed", error); showToast("答案已記錄，但帳戶同步失敗；請稍後再試。", "error"); }
