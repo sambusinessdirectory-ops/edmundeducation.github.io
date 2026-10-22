@@ -2031,7 +2031,8 @@ function compassMcFoils(question, lesson) {
     return {
       foils: [
         "Daniel is still considering his weekend options, but he has not changed his plan once.",
-        "Daniel changed his weekend plan several times, but he made his final choice yesterday."
+        "Daniel changed his weekend plan several times, but he made his final choice yesterday.",
+        "Daniel settled on one weekend plan immediately and has stuck to it ever since."
       ],
       detailKind: "contradiction"
     };
@@ -2065,12 +2066,13 @@ function compassMcFoils(question, lesson) {
   const detailFoil = isConditionalOrNegative && alternateForm
     ? alternateForm
     : `${answer.replace(/[.!?]$/, "")}, ${contradiction[(Number(question.number || 1) + Number(lessonId.slice(-2))) % 2]}${ending}`;
-  return { foils: [formFoil, detailFoil], detailKind: isConditionalOrNegative && alternateForm ? "alternate" : "contradiction" };
+  const thirdFoil = `${answer.replace(/[.!?]$/, "")}, ${contradiction[(Number(question.number || 1) + Number(lessonId.slice(-2)) + 1) % 2]}${ending}`;
+  return { foils: [formFoil, detailFoil, thirdFoil], detailKind: isConditionalOrNegative && alternateForm ? "alternate" : "contradiction", thirdKind: "contradiction" };
 }
 
 function compassMcOptions(question, lesson = getLesson()) {
-  const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 3;
-  const { foils, detailKind } = compassMcFoils(question, lesson);
+  const correctAt = (Number(question.number || 1) + Number(String(lesson?.id || "").slice(-2))) % 4;
+  const { foils, detailKind, thirdKind } = compassMcFoils(question, lesson);
   const lessonId = String(lesson?.id || "");
   const isDanielQuestion = lessonId === "idiom-04" && question.id === "idiom-04-q01";
   const reasons = {
@@ -2107,7 +2109,8 @@ function compassMcOptions(question, lesson = getLesson()) {
   }[lessonId] || {};
   const entries = [
     { text: foils[0], reason: isDanielQuestion ? "Daniel 一次也沒有改過週末計劃；原句卻說他已改了好幾次。" : reasons.form || "此選項改變了慣用語的意思或固定說法。" },
-    { text: foils[1], reason: isDanielQuestion ? "Daniel 昨天已作最後決定；原句卻說他至今仍未決定。" : reasons[detailKind] || "此選項改變了原句的重要細節。" }
+    { text: foils[1], reason: isDanielQuestion ? "Daniel 昨天已作最後決定；原句卻說他至今仍未決定。" : reasons[detailKind] || "此選項改變了原句的重要細節。" },
+    { text: foils[2], reason: isDanielQuestion ? "Daniel 一開始便選定同一個計劃，此後沒有改變；原句卻說他多次改變主意，仍未決定。" : reasons[thirdKind] || "此選項改變了原句的重要細節。" }
   ];
   entries.splice(correctAt, 0, { text: question.answer, reason: reasons.correct || "此選項保留原意，並自然地用上慣用語。" });
   return { options: entries.map((entry) => entry.text), rationales: entries.map((entry) => entry.reason), correctAt };
@@ -2129,47 +2132,47 @@ function compassMcHighlightedOptions(options, questionId = "") {
 
   // This question has deliberately different whole-sentence meanings, so mark the teaching point instead of most of each sentence.
   if (questionId === "idiom-04-q01") {
-    const focus = ["has not changed his plan once", "made his final choice yesterday", "keeps chopping and changing"];
-    return texts.map((value, index) => {
-      const start = value.toLocaleLowerCase("en").indexOf(focus[index]);
-      return start < 0 ? escapeHtml(value) : renderRanges(value, [{ start, end: start + focus[index].length }]);
+    const focus = ["has not changed his plan once", "made his final choice yesterday", "settled on one weekend plan immediately", "keeps chopping and changing"];
+    return texts.map((value) => {
+      const phrase = focus.find((part) => value.toLocaleLowerCase("en").includes(part));
+      const start = phrase ? value.toLocaleLowerCase("en").indexOf(phrase) : -1;
+      return start < 0 ? escapeHtml(value) : renderRanges(value, [{ start, end: start + phrase.length }]);
     });
   }
 
-  const [first, second, third] = words;
-  const stride = third.length + 1;
-  const plane = (second.length + 1) * stride;
-  const at = (i, j, k) => i * plane + j * stride + k;
-  const common = new Uint16Array((first.length + 1) * plane);
-  for (let i = first.length - 1; i >= 0; i -= 1) {
-    for (let j = second.length - 1; j >= 0; j -= 1) {
-      for (let k = third.length - 1; k >= 0; k -= 1) {
-        common[at(i, j, k)] = first[i].value === second[j].value && second[j].value === third[k].value
-          ? 1 + common[at(i + 1, j + 1, k + 1)]
-          : Math.max(common[at(i + 1, j, k)], common[at(i, j + 1, k)], common[at(i, j, k + 1)]);
+  // Progressively align the words shared by every option. A pairwise LCS keeps
+  // the work quadratic as the number of choices grows.
+  const commonWords = words.slice(1).reduce((shared, next) => {
+    const lengths = Array.from({ length: shared.length + 1 }, () => new Uint16Array(next.length + 1));
+    for (let i = shared.length - 1; i >= 0; i -= 1) {
+      for (let j = next.length - 1; j >= 0; j -= 1) {
+        lengths[i][j] = shared[i] === next[j].value
+          ? 1 + lengths[i + 1][j + 1]
+          : Math.max(lengths[i + 1][j], lengths[i][j + 1]);
       }
     }
-  }
-  const shared = words.map(() => new Set());
-  let i = 0;
-  let j = 0;
-  let k = 0;
-  while (i < first.length && j < second.length && k < third.length) {
-    if (first[i].value === second[j].value && second[j].value === third[k].value
-        && common[at(i, j, k)] === 1 + common[at(i + 1, j + 1, k + 1)]) {
-      shared[0].add(i);
-      shared[1].add(j);
-      shared[2].add(k);
-      i += 1; j += 1; k += 1;
-    } else {
-      const skipFirst = common[at(i + 1, j, k)];
-      const skipSecond = common[at(i, j + 1, k)];
-      const skipThird = common[at(i, j, k + 1)];
-      if (skipFirst >= skipSecond && skipFirst >= skipThird) i += 1;
-      else if (skipSecond >= skipThird) j += 1;
-      else k += 1;
+    const result = [];
+    let i = 0;
+    let j = 0;
+    while (i < shared.length && j < next.length) {
+      if (shared[i] === next[j].value) {
+        result.push(shared[i]);
+        i += 1; j += 1;
+      } else if (lengths[i + 1][j] >= lengths[i][j + 1]) i += 1;
+      else j += 1;
     }
-  }
+    return result;
+  }, words[0].map((word) => word.value));
+  const shared = words.map(() => new Set());
+  words.forEach((optionWords, optionIndex) => {
+    let commonIndex = 0;
+    optionWords.forEach((word, wordIndex) => {
+      if (word.value === commonWords[commonIndex]) {
+        shared[optionIndex].add(wordIndex);
+        commonIndex += 1;
+      }
+    });
+  });
   return texts.map((value, optionIndex) => {
     const ranges = [];
     words[optionIndex].forEach((word, wordIndex) => {
@@ -2247,7 +2250,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const bulkVisibilityLabel = allVisibleCorrectCollapsed
     ? "展開所有已完成題目"
     : "隱藏所有已完成題目";
-  const instructionZh = isCompass ? "每組五題，選出唯一符合情境的英文慣用語句子。答錯可再試；加題進度儲存在此裝置。" : String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
+  const instructionZh = isCompass ? "原有 50 題及 10 題延伸練習全數保留；每組五題、每題四個選項。選出唯一符合情境的英文慣用語句子。答錯可再試；延伸題進度儲存在此裝置。" : String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。");
   const instructionEn = isCompass ? "Choose one natural English sentence for each situation." : String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
   const illustrationAlt = String(lesson.imageAlt || `${lessonEnglishTitle(lesson)} illustration`);
   const illustrationCaptionZh = String(lesson.imageCaptionZh || lessonTitle(lesson));
