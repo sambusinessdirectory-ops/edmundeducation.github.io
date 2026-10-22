@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import math
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
@@ -20,8 +21,36 @@ FRAMES = 160
 FRAME_MS = 40
 
 
+@lru_cache(maxsize=1)
+def equipment_layer() -> tuple[Image.Image, Image.Image]:
+    """Isolate the image-generated white studio gear from the approved art."""
+    original = Image.open(ART / "eddy-speaking-closed.png").convert("RGBA")
+    recolored = Image.open(ART / "eddy-speaking-white-equipment.png").convert("RGBA")
+    old = np.asarray(original, dtype=np.int16)[..., :3]
+    new = np.asarray(recolored, dtype=np.int16)[..., :3]
+    old_light = old.mean(axis=2)
+    new_light = new.mean(axis=2)
+    neutral = new.max(axis=2) - new.min(axis=2) < 70
+    changed_to_white = ((new_light - old_light > 38) & (new_light > 105) & neutral)
+    region = Image.new("L", original.size, 0)
+    draw = ImageDraw.Draw(region)
+    # Headband, earcups, mic and the thin headphone cable. The furniture and
+    # Eddy's face remain sourced from each original expression key.
+    for box in ((395, 75, 945, 330), (355, 270, 455, 520),
+                (795, 285, 975, 565), (300, 595, 525, 900),
+                (760, 500, 875, 865)):
+        draw.rectangle(box, fill=255)
+    selection = np.uint8(changed_to_white) * np.asarray(region, dtype=np.uint8)
+    mask = Image.fromarray(selection, "L").filter(ImageFilter.MaxFilter(9))
+    mask = mask.filter(ImageFilter.GaussianBlur(1.2))
+    return recolored, mask
+
+
 def key(name: str) -> Image.Image:
-    return Image.open(ART / f"eddy-speaking-{name}.png").convert("RGBA").resize(
+    source = Image.open(ART / f"eddy-speaking-{name}.png").convert("RGBA")
+    recolored, mask = equipment_layer()
+    source = Image.composite(recolored, source, mask)
+    return source.resize(
         (WORK, WORK), Image.Resampling.LANCZOS
     )
 
@@ -141,7 +170,11 @@ def render(base: Image.Image, open_key: Image.Image, blink_key: Image.Image,
     # The laugh changes the mouth and cheeks only. Eddy keeps the same eyes,
     # avoiding the unrelated, asymmetric laughing-eye key drawing.
     image = blend_local(laugh_key, image, mouth, laugh)
-    image = blend_local(blink_key, image, eyes, blink_amount(frame) * (1 - laugh))
+    # Keep a short, symmetrical eyes-closed expression through the hearty part
+    # of the laugh, then open the eyes before returning to the speaking pose.
+    laugh_eyes = eased(110, 120, frame) * (1 - eased(136, 147, frame))
+    eye_closure = max(blink_amount(frame) * (1 - laugh), laugh_eyes)
+    image = blend_local(blink_key, image, eyes, eye_closure)
 
     # A single shallow nod near the middle of the laugh, rather than two bobs.
     nod = eased(119, 126, frame) * (1 - eased(131, 139, frame))
@@ -177,7 +210,7 @@ def main() -> None:
     STILLS.mkdir(parents=True, exist_ok=True)
     base, opened, blink, laugh = (key(name) for name in ("closed", "open", "blink", "laugh"))
     mouth = oval_mask(((158, 175, 221, 220),), 3)
-    eyes = oval_mask(((140, 114, 171, 158), (213, 113, 247, 158)), 3)
+    eyes = oval_mask(((136, 108, 180, 174), (205, 106, 257, 177)), 2)
     frames = [render(base, opened, blink, laugh, mouth, eyes, frame)
               for frame in range(FRAMES)]
     for number, frame in enumerate((8, 37, 58, 88, 116, 128, 152), 1):
