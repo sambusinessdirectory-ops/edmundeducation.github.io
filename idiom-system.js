@@ -2113,16 +2113,88 @@ function compassMcOptions(question, lesson = getLesson()) {
   return { options: entries.map((entry) => entry.text), rationales: entries.map((entry) => entry.reason), correctAt };
 }
 
+function compassMcHighlightedOptions(options, questionId = "") {
+  const texts = options.map((option) => String(option || ""));
+  const words = texts.map((value) => [...value.matchAll(/[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu)]
+    .map((match) => ({ value: match[0].toLocaleLowerCase("en"), start: match.index, end: match.index + match[0].length })));
+  const renderRanges = (text, ranges) => {
+    let cursor = 0;
+    let result = "";
+    for (const { start, end } of ranges) {
+      result += `${escapeHtml(text.slice(cursor, start))}<mark class="compass-mc-diff">${escapeHtml(text.slice(start, end))}</mark>`;
+      cursor = end;
+    }
+    return result + escapeHtml(text.slice(cursor));
+  };
+
+  // This question has deliberately different whole-sentence meanings, so mark the teaching point instead of most of each sentence.
+  if (questionId === "idiom-04-q01") {
+    const focus = ["has not changed his plan once", "made his final choice yesterday", "keeps chopping and changing"];
+    return texts.map((value, index) => {
+      const start = value.toLocaleLowerCase("en").indexOf(focus[index]);
+      return start < 0 ? escapeHtml(value) : renderRanges(value, [{ start, end: start + focus[index].length }]);
+    });
+  }
+
+  const [first, second, third] = words;
+  const stride = third.length + 1;
+  const plane = (second.length + 1) * stride;
+  const at = (i, j, k) => i * plane + j * stride + k;
+  const common = new Uint16Array((first.length + 1) * plane);
+  for (let i = first.length - 1; i >= 0; i -= 1) {
+    for (let j = second.length - 1; j >= 0; j -= 1) {
+      for (let k = third.length - 1; k >= 0; k -= 1) {
+        common[at(i, j, k)] = first[i].value === second[j].value && second[j].value === third[k].value
+          ? 1 + common[at(i + 1, j + 1, k + 1)]
+          : Math.max(common[at(i + 1, j, k)], common[at(i, j + 1, k)], common[at(i, j, k + 1)]);
+      }
+    }
+  }
+  const shared = words.map(() => new Set());
+  let i = 0;
+  let j = 0;
+  let k = 0;
+  while (i < first.length && j < second.length && k < third.length) {
+    if (first[i].value === second[j].value && second[j].value === third[k].value
+        && common[at(i, j, k)] === 1 + common[at(i + 1, j + 1, k + 1)]) {
+      shared[0].add(i);
+      shared[1].add(j);
+      shared[2].add(k);
+      i += 1; j += 1; k += 1;
+    } else {
+      const skipFirst = common[at(i + 1, j, k)];
+      const skipSecond = common[at(i, j + 1, k)];
+      const skipThird = common[at(i, j, k + 1)];
+      if (skipFirst >= skipSecond && skipFirst >= skipThird) i += 1;
+      else if (skipSecond >= skipThird) j += 1;
+      else k += 1;
+    }
+  }
+  return texts.map((value, optionIndex) => {
+    const ranges = [];
+    words[optionIndex].forEach((word, wordIndex) => {
+      if (shared[optionIndex].has(wordIndex)) return;
+      const previous = ranges.at(-1);
+      if (previous && previous.lastWordIndex === wordIndex - 1) {
+        previous.end = word.end;
+        previous.lastWordIndex = wordIndex;
+      } else ranges.push({ start: word.start, end: word.end, lastWordIndex: wordIndex });
+    });
+    return renderRanges(value, ranges);
+  });
+}
+
 function compassQuestionHtml(question) {
   const lesson = getLesson();
   const complete = compassReviewedIds(lesson, state.exercise.questionState, state.exercise.correctIds).has(question.id);
   const selection = state.pilotSelections[`mc:${lesson.id}:${question.id}`];
   const { options, rationales, correctAt } = compassMcOptions(question, lesson);
+  const highlightedOptions = compassMcHighlightedOptions(options, question.id);
   const bookmarked = !question.bonus && isBookmarked(state.lessonId, question.id);
   return `<article class="question-card compass-question ${complete ? "is-correct" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || "")}" data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`英文慣用語 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top"><span class="question-number">QUESTION ${escapeHtml(question.number || "")}${question.theme ? ` · ${escapeHtml(question.theme)}` : ""}${complete ? " · 答對 ✓" : ""}</span>${question.bonus ? '<span class="compass-bonus-label">EXTRA PRACTICE</span>' : `<button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>`}</div>
     <div class="question-prompt"><p class="english">${escapeHtml(question.prompt || "")}</p>${question.promptZh ? `<p class="chinese">${escapeHtml(question.promptZh)}</p>` : ""}<p class="compass-choice-hint" lang="zh-Hant">哪一句既保留原意，也自然地用上本課的英語慣用語？</p></div>
-    <div class="compass-mc-options" role="group" aria-label="第 ${escapeHtml(question.number)} 題：選出符合原意的英語句子">${options.map((option, index) => `<button class="compass-mc-option ${complete && index === correctAt ? "is-correct" : selection === index ? "is-wrong" : ""}" type="button" data-compass-mc-choice="${escapeHtml(question.id)}" data-compass-mc-index="${index}" aria-pressed="${complete ? index === correctAt : selection === index}" ${complete ? "disabled" : ""}><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option)}</strong></button>`).join("")}</div>
+    <div class="compass-mc-options" role="group" aria-label="第 ${escapeHtml(question.number)} 題：選出符合原意的英語句子">${options.map((option, index) => `<button class="compass-mc-option ${complete && index === correctAt ? "is-correct" : selection === index ? "is-wrong" : ""}" type="button" data-compass-mc-choice="${escapeHtml(question.id)}" data-compass-mc-index="${index}" aria-pressed="${complete ? index === correctAt : selection === index}" ${complete ? "disabled" : ""}><span>${String.fromCharCode(65 + index)}</span><strong>${highlightedOptions[index]}</strong></button>`).join("")}</div>
     <div class="compass-mc-feedback" lang="zh-Hant" aria-live="polite">${complete ? `<strong>✓ 答對！逐項看看原因：</strong><ul>${rationales.map((reason, index) => `<li><b>${String.fromCharCode(65 + index)}：</b> ${escapeHtml(reason)}</li>`).join("")}</ul>` : Number.isInteger(selection) ? `<strong>再想想。</strong> ${escapeHtml(rationales[selection] || "請對照原句和慣用語，再選一次。")} 請再選一次。` : ""}</div>
   </article>`;
 }

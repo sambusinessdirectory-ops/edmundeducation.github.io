@@ -349,7 +349,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   openLesson, setLessonPage, renderLessonPage, renderLessonChoices, renderExercisePage,
-  renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, compassPracticeQuestions, compassMcOptions, answerCompassMcQuestion, compassBonusCorrectIds, handleClick, searchLessons,
+  renderFormulaPage, renderBenefitsPage, renderRulesPage, renderCompassPage, pilotBatchQuestions, compassPracticeQuestions, compassMcOptions, compassMcHighlightedOptions, answerCompassMcQuestion, compassBonusCorrectIds, handleClick, searchLessons,
   compassReviewedCount, displayAttemptProgress,
   clearSession,
   questionActivityRows, buildQuestionProgressSeries,
@@ -956,6 +956,12 @@ test("first-five practice uses single-answer English choices, including ten them
       assert.equal(new Set(options).size, 3, `${question.id}: all three options must differ`);
       assert.equal(options.filter((option) => option === question.answer).length, 1, `${question.id} must have exactly one keyed answer`);
       assert.equal(options[correctAt], question.answer);
+      const highlighted = sut.compassMcHighlightedOptions(options, question.id);
+      assert.equal(highlighted.length, 3, `${question.id}: highlight all three choices`);
+      highlighted.forEach((markup, index) => {
+        assert.equal(renderedText(markup), options[index], `${question.id}: highlighting must preserve choice ${index + 1}`);
+        assert.match(markup, /<mark class="compass-mc-diff">[^<]+<\/mark>/, `${question.id}: show the differing phrase in choice ${index + 1}`);
+      });
       assert.match(question.answer.toLowerCase(), /(ball rolling|shake a leg|ground running|chop(?:p(?:ing|ed)|s)? and chang(?:ing|ed|es)?|(?:think(?:ing|s)?|thought) big)/, `${question.id} must use its lesson idiom`);
     }
   }
@@ -968,6 +974,7 @@ test("first-five practice uses single-answer English choices, including ten them
   sut.openLesson(lesson.id, { page: 8, attempt: attemptSeed() });
   assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'class="question-card '), 5);
   assert.equal(occurrences(sut.elements.lessonContent.innerHTML, 'data-compass-mc-choice='), 15);
+  assert.match(sut.elements.lessonContent.innerHTML, /<mark class="compass-mc-diff">/);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /<textarea|data-answer-input=|data-compass-reveal|data-compass-complete/);
   assert.match(css, /\.compass-question \.question-prompt \.english \{ font-size: clamp\(20\.4px, 2\.4vw, 26\.4px\)/);
   assert.match(css, /\.compass-mc-option strong \{[^}]*font-size: clamp\(18px, 2\.04vw, 21\.6px\)/);
@@ -998,6 +1005,19 @@ test("first-five practice uses single-answer English choices, including ten them
   assert.equal(sut.compassReviewedCount(lesson), 2);
 });
 
+test("all three similar sentences highlight only their different words and clauses", () => {
+  const { sut } = createFrontendHarness({ withCompass: true });
+  const current = content.lessons[2];
+  const question = current.questions[2];
+  const { options } = sut.compassMcOptions(question, current);
+  const marked = sut.compassMcHighlightedOptions(options, question.id);
+  assert.match(marked[0], /<mark class="compass-mc-diff">running<\/mark>/);
+  assert.match(marked[1], /<mark class="compass-mc-diff">walking<\/mark>/);
+  assert.match(marked[2], /<mark class="compass-mc-diff">although no useful work began until weeks later<\/mark>/);
+  assert.doesNotMatch(marked[0], /<mark class="compass-mc-diff">We need to hit the ground/);
+  assert.match(css, /\.compass-mc-diff \{[^}]*background: #ffe66b/);
+});
+
 test("chop and change practice uses meaningful distractors and explains them after selection", async () => {
   const { sut } = createFrontendHarness({ withCompass: true });
   authenticateStudent(sut);
@@ -1008,6 +1028,10 @@ test("chop and change practice uses meaningful distractors and explains them aft
   assert.match(options[0], /has not changed his plan once/i);
   assert.match(options[1], /made his final choice yesterday/i);
   assert.match(options[2], /chopping and changing/i);
+  const highlighted = sut.compassMcHighlightedOptions(options, first.id);
+  assert.match(highlighted[0], /<mark class="compass-mc-diff">has not changed his plan once<\/mark>/);
+  assert.match(highlighted[1], /<mark class="compass-mc-diff">made his final choice yesterday<\/mark>/);
+  assert.match(highlighted[2], /<mark class="compass-mc-diff">keeps chopping and changing<\/mark>/);
   sut.openLesson(choppingLesson.id, { page: 8, attempt: attemptSeed({ lessonId: choppingLesson.id, totalCount: choppingLesson.questions.length }) });
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /原句卻說他已改了好幾次/);
   await sut.answerCompassMcQuestion(first.id, 0);

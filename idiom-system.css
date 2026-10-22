@@ -1123,10 +1123,11 @@ body > .site-header.edmund-system-header {
 .compass-mc-option:hover:not(:disabled), .compass-mc-option:focus-visible { transform: translateY(-2px); border-color: #d98447; box-shadow: 0 8px 24px rgba(127,69,33,.13); outline: none; }
 .compass-mc-option span { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: #944d27; background: #ffe9cc; font-weight: 900; }
 .compass-mc-option strong { min-width: 0; font-size: clamp(18px, 2.04vw, 21.6px); font-weight: 700; line-height: 1.45; }
+.compass-mc-diff { border-radius: .18em; padding: .03em .09em; color: #2f2a14; background: #ffe66b; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .compass-mc-option.is-wrong { border-color: #db7b71; background: #fff0ee; }
 .compass-mc-option.is-correct { border-color: #58b886; color: #124b34; background: #e9f9ee; }
 .compass-mc-option.is-correct span { color: #fff; background: #27875d; }
-.compass-mc-option:disabled { cursor: default; opacity: .68; }
+.compass-mc-option:disabled { cursor: default; opacity: 1; }
 .compass-mc-option.is-correct:disabled { opacity: 1; }
 .compass-mc-feedback:not(:empty) { margin: 14px 0 0; border: 1px solid #ead9cd; border-radius: 14px; padding: 14px 17px; color: #833d32; background: #fff8f2; font-size: 16.8px; line-height: 1.5; }
 .compass-mc-feedback:empty { display: none; }

@@ -8,8 +8,8 @@ const systems = ["idiom-system", "proverb-system", "sentence-structure"];
 
 for (const system of systems) {
   const release = {
-    "idiom-system": "20261022-mc5",
-    "proverb-system": "20260908-loading1",
+    "idiom-system": "20261022-mc6",
+    "proverb-system": "20261022-purple-spellbook1",
     "sentence-structure": "20261022-horse-login2"
   }[system];
   const [css, html] = await Promise.all([
