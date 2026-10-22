@@ -5310,6 +5310,11 @@ button:disabled {
 .login-card .login-submit { min-height: 48px; margin-top: 16px; }
 .login-card .status { min-height: 18px; margin-top: 8px; }
 
+@media (min-width: 1501px) {
+  .login-card { padding-inline: 23%; transform: translateX(-30px); }
+  .login-card::before { inset: -6% -10%; }
+}
+
 @media (max-width: 1500px) {
   .login-view { grid-template-columns: minmax(0, 1fr) minmax(440px, .72fr); gap: clamp(24px, 3vw, 52px); }
   .login-card { min-height: 0; aspect-ratio: 2 / 3; padding: clamp(120px, 11vw, 170px) 18% 72px; }

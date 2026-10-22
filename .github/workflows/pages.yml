@@ -238,7 +238,7 @@ jobs:
           test -s speaking-dragon-stone-login-frame-mobile-v2.webp
           grep -Fq 'speaking-dragon-stone-login-frame-v2.webp' speaking-system.css
           grep -Fq 'speaking-dragon-stone-login-frame-mobile-v2.webp' speaking-system.css
-          grep -Fq '20261022-dragon-login3-cleanstone' speaking-system.html
+          grep -Fq '20261022-dragon-login4-room' speaking-system.html
           node --check speaking-system.js
           node tools/test-professional-discussion-timing.mjs
 
