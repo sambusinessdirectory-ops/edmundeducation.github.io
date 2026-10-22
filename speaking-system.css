@@ -5267,3 +5267,77 @@ button:disabled {
 .speaking-phrase-actions button{padding:10px;border:1px solid #c7bca8;border-radius:9px;background:#fff;white-space:nowrap;cursor:pointer}
 .speaking-phrase-actions .speaking-phrase-delete{color:#9b1c1c;border-color:#e2b7b7;background:#fff8f8}
 @media(max-width:700px){.speaking-brush-toolbar{top:max(8px,env(safe-area-inset-top));gap:7px;padding:9px 10px}.speaking-brush-toolbar>[role=status]{order:3;flex-basis:100%;font-size:13px}.speaking-brush-toolbar button{padding:8px 10px}.speaking-phrase-actions{grid-column:2;justify-self:end;flex-wrap:wrap}}
+
+/* Dragon artwork surrounds the existing live login form. */
+.login-card {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  min-height: 740px;
+  aspect-ratio: 1161 / 1355;
+  border: 0;
+  border-radius: 0;
+  padding: 190px 19% 95px;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.login-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: url("speaking-dragon-stone-login-frame-v1.webp") center / 100% 100% no-repeat;
+  filter: drop-shadow(0 20px 28px rgba(19, 27, 34, .28));
+}
+
+.login-card > * { position: relative; z-index: 1; }
+.login-card-heading { margin-bottom: 14px; }
+.login-card h2 { margin: 4px 0; font-size: clamp(30px, 2.6vw, 40px); }
+.login-card .field { gap: 5px; margin-top: 10px; color: #26394b; }
+.login-card .field input {
+  min-height: 48px;
+  border-color: rgba(55, 91, 112, .32);
+  color: #18364b;
+  background: rgba(255, 255, 255, .94);
+}
+.login-card .login-submit { min-height: 48px; margin-top: 16px; }
+.login-card .status { min-height: 18px; margin-top: 8px; }
+
+@media (max-width: 1500px) {
+  .login-view { grid-template-columns: minmax(0, 1fr) minmax(440px, .72fr); gap: clamp(24px, 3vw, 52px); }
+  .login-card { min-height: 0; aspect-ratio: 2 / 3; padding: clamp(120px, 11vw, 170px) 18% 72px; }
+  .login-card::before { background-image: url("speaking-dragon-stone-login-frame-mobile-v1.webp"); }
+}
+
+@media (max-width: 1000px) {
+  .login-view { grid-template-columns: 1fr; }
+  .login-card { width: min(100%, 620px); margin-inline: auto; padding-top: clamp(105px, 29vw, 185px); }
+}
+
+@media (max-width: 480px) {
+  .login-card { min-height: 520px; padding: 100px 17% 55px; }
+  .login-card h2 { font-size: 30px; }
+  .login-card-heading { margin-bottom: 10px; }
+  .login-card .field { gap: 4px; margin-top: 7px; font-size: 13px; }
+  .login-card .field input { min-height: 46px; }
+  .login-card .password-field { position: relative; display: block; }
+  .login-card .password-field input { padding-right: 90px; }
+  .login-card .password-field .text-button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    min-width: 78px;
+    min-height: 38px;
+    padding-inline: 6px;
+  }
+  .login-card .login-submit { min-height: 45px; margin-top: 13px; padding-inline: 14px; font-size: 12px; }
+  .login-card .status { margin-top: 6px; }
+}
+
+@media (max-width: 360px) {
+  .login-card { min-height: 560px; padding-top: 95px; }
+}

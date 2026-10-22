@@ -234,6 +234,12 @@ jobs:
       - name: Validate focused Speaking release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}
         run: |
+          test -s speaking-dragon-stone-login-frame-v1.webp
+          test -s speaking-dragon-stone-login-frame-mobile-v1.webp
+          grep -Fq 'speaking-dragon-stone-login-frame-v1.webp' speaking-system.css
+          grep -Fq 'speaking-dragon-stone-login-frame-mobile-v1.webp' speaking-system.css
+          grep -Fq '20261022-dragon-login1' speaking-system.html
+          node --check speaking-system.js
           node tools/test-professional-discussion-timing.mjs
 
       - name: Validate focused Writing release
